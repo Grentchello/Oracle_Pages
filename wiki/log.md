@@ -34,3 +34,18 @@
 - .github/workflows/docs.yml ready locally but unable to push (PAT lacks `workflow` scope)
 - Waiting for Grant to regenerate PAT with `workflow` scope OR opt for manual paste via GitHub UI
 - Once landed: enable Pages (Settings → Pages → Source: GitHub Actions) → site goes live at https://grentchello.github.io/oracle_Vault/
+
+## [2026-08-25] update | PAT upgraded with workflow scope
+- Grant updated PAT scopes to include Workflows: Read+write
+- Pushed .github/workflows/docs.yml successfully (commit 78f6801)
+- Discovered GitHub Pages on private oracle_Vault is blocked (Free plan limitation)
+
+## [2026-08-25] create | Oracle_Pages public repo for dashboard
+- Grant created new public repo https://github.com/Grentchello/Oracle_Pages
+- Cloned to /opt/data/hermes_work/oracle_pages
+- Wrote GitHub Actions workflow that clones oracle_Vault (via ORACLE_VAULT_PAT secret) and builds MkDocs site
+- Fixed three build failures: setup-python cache error, id-token permissions at workflow level, pip upgrade
+- **Dashboard live at https://grentchello.github.io/Oracle_Pages/** — verified HTTP 200, title "oracle_Vault — Master Dashboard"
+- Files: oracle_pages/.github/workflows/docs.yml, oracle_pages/README.md, mkdocs.yml (site_url updated)
+- Commits: f827d9d, c60bac3, 6f5ee3c, e6813b7, c53f289 (all in Oracle_Pages)
+- Latest commit in vault: 6d82894 (site_url → Oracle_Pages)

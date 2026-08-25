@@ -8,7 +8,7 @@ title: Daily Journal
 
 ## Index
 
-- [2026-08-25](2026-08-25.md) — Vault bootstrap, auto-log skill, MkDocs master dashboard
+- [2026-08-25](2026-08-25.md) — Vault bootstrap, auto-log skill, MkDocs master dashboard live
 
 ---
 
