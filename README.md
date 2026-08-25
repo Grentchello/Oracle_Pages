@@ -35,3 +35,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- live ws + first trade -->
 
 <!-- fix JS bug -->
+
+<!-- diagnostic -->
