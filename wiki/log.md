@@ -49,3 +49,14 @@
 - Files: oracle_pages/.github/workflows/docs.yml, oracle_pages/README.md, mkdocs.yml (site_url updated)
 - Commits: f827d9d, c60bac3, 6f5ee3c, e6813b7, c53f289 (all in Oracle_Pages)
 - Latest commit in vault: 6d82894 (site_url → Oracle_Pages)
+
+## [2026-08-25] create | First project: memecoin-trading
+- Ultimate goal: autonomous memecoin trading bot
+- Stage: ground zero — research & design phase
+- Created wiki/projects/memecoin-trading/index.md with strategy candidates, infra decision table, status board
+- Added project to mkdocs.yml nav
+- Added project card to dashboard home (wiki/index.md) and projects/index.md
+- Build #4 in Oracle_Pages succeeded — project live at https://grentchello.github.io/Oracle_Pages/projects/memecoin-trading/
+- Files: wiki/projects/memecoin-trading/index.md (new), wiki/index.md (card added), wiki/projects/index.md (active list), mkdocs.yml (nav entry)
+- Vault commit: 2c7db1f
+- Oracle_Pages commits: b94b777 (rebuild trigger)
