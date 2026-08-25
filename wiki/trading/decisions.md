@@ -45,3 +45,7 @@
 ## [2026-08-25 13:12 UTC] observe | Phase 1 foundation — bot observes only. SOL @ $98.12, 6 tokens on watchlist
 - Reasoning: No strategy implemented yet. Phase 2 will add signal detection.
 
+## [2026-08-25 13:16 UTC] buy | Bought $unc (ACtfUWtg…) at $0.001112, spent 0.1 SOL ($9.80)
+- Reasoning: Score 27.4 (24h change), passed all gates
+- Data: `{"position": {"symbol": "unc", "name": "unc", "amount": 8814.838129496404, "entry_price_usd": 0.001112, "entry_sol_spent": 0.1, "entry_time": "2026-08-25T13:16:54.234569+00:00", "entry_usd_value": 9.802100000000001, "entry_signals": {"liquidity_usd": 176033.4, "volume_h24": 311303.69, "price_change_h24": 27.39, "market_cap_usd": 1117524.2508741657}}, "score": 27.39}`
+
