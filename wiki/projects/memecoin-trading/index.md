@@ -41,9 +41,29 @@ The dashboard refreshes every 30 seconds. It shows:
   - [x] Persist state.json + watchlist.json + decisions.md
   - [x] Phone dashboard at Oracle_Pages/trading/
   - [x] Bot tick runs every 5 min via cron + background runner
-- [ ] **Phase 2: Signals** — detect momentum, volume spikes, near-graduation
-- [ ] **Phase 3: Decisions** — bot actually buys/sells based on signals
-- [ ] **Phase 4: Learning** — track outcomes, refine policy
+- [x] **Phase 2: Trading** (live, paper money)
+  - [x] Position manager (open/close, balance tracking)
+  - [x] Entry signals: top-runners + graduated + liq>$5k + vol>$10k + 24h>0 + slot+SOL available
+  - [x] Exit rules: take-profit +50%, stop-loss -30%, time-stop 24h, momentum-fade, slot-pressure
+  - [x] Trade ledger with entry/exit signals, PnL, exit reason
+  - [x] Win rate / avg PnL / best / worst stats
+  - [x] Dashboard: trade history section + KPI breakdown
+- [ ] **Phase 3: Refinement** — add fee model, slippage estimate, smarter signal weighting
+- [ ] **Phase 4: Learning** — backtest signals against closed trades, refine policy
+
+## Strategy parameters (Phase 2)
+
+| Parameter | Value | Notes |
+|---|---|---|
+| Position size | 0.1 SOL ($10) | Flat per entry |
+| Max positions | 5 | Concurrent |
+| Min liquidity | $5,000 USD | Skip thin pools |
+| Min 24h volume | $10,000 USD | Skip dead tokens |
+| Min 24h change | 0% | Negative momentum is exit signal, not entry |
+| Take-profit | +50% | Sell all |
+| Stop-loss | -30% | Sell all |
+| Time-stop | 24h held | Sell all if neither TP/SL hit |
+| Momentum-fade | 24h flips negative AND ≥+20% profit | Lock in gains |
 
 ## How it works
 

@@ -69,3 +69,14 @@
 - Verified end-to-end: bot fetches live SOL price ($98.26), pushes to oracle_Vault, Pages rebuilds, dashboard loads
 - Bot runner PID 43132 running, will tick every 5 min until container restart
 - Hermes cronjob fc079fd07aa6 also scheduled (backup)
+
+## [2026-08-25] update | Phase 2 trading live
+- Built bot Phase 2: position manager, entry signals, exit rules, trade ledger
+- Strategy: buy top-runners memecoins with $5k+ liq + $10k+ vol24h, 0.1 SOL per position, max 5
+- Exits: take-profit +50%, stop-loss -30%, time-stop 24h, momentum-fade (24h flips neg AND ≥+20% profit), slot-pressure
+- Dashboard updated: trade history section + win rate KPI + per-trade P&L breakdown
+- Fixed earlier 404 (decisions.md → bundled into state.json as recent_decisions)
+- Bot opened first positions: $unc, $BURNIE, $neet, $TripleT (4/5 slots used, 0.4 SOL deployed of 2.0)
+- 0 closed trades yet — give it time
+- Files: bot/bot.py (rewritten, 24KB), wiki/trading/index.html (rewritten, 13KB), wiki/trading/assets/dashboard.css (added trade styles)
+- Paused cronjob (runner is sufficient)
