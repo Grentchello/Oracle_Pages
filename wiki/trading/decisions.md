@@ -402,3 +402,6 @@
 - Reasoning: Score 14.5: 24h=0.95%, recency=10, turnover=3.5, short_mom=0.0
 - Data: `{"position": {"symbol": "unc", "name": "unc", "amount": 9077.209302325582, "entry_price_usd": 0.001075, "entry_sol_spent": 0.1, "entry_time": "2026-08-25T22:13:00.603082+00:00", "entry_usd_value": 9.758000000000001, "entry_signals": {"liquidity_usd": 172526.83, "volume_h24": 201333.24, "price_change_h24": 0.95, "market_cap_usd": 1083184.522025967}, "entry_score_components": {"chg24": 0.95, "chg1h": 0.0, "chg5m": 0.0, "liquidity_usd": 172526.83, "volume_24h_usd": 201333.24, "vol_liq_ratio": 1.17, "recency_min": 0.1, "score_breakdown": {"base_24h": 0.95, "recency_bonus": 10, "turnover_bonus": 3.5, "short_momentum": 0.0, "total": 14.5}}}, "score_breakdown": {"base_24h": 0.95, "recency_bonus": 10, "turnover_bonus": 3.5, "short_momentum": 0.0, "total": 14.5}}`
 
+## [2026-08-25 22:18 UTC] observe | No trades this tick. 4/5 positions, 1.597 SOL free, 6 tokens watched
+- Reasoning: no candidate passed gates (considered 2)
+
