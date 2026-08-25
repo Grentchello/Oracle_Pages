@@ -61,3 +61,7 @@
 - Reasoning: Score 3.5 (24h change), passed all gates
 - Data: `{"position": {"symbol": "neet", "name": "NotInEmploymentEducationTraining", "amount": 265.6275413391163, "entry_price_usd": 0.03689, "entry_sol_spent": 0.1, "entry_time": "2026-08-25T13:17:53.301160+00:00", "entry_usd_value": 9.799, "entry_signals": {"liquidity_usd": 1828431.13, "volume_h24": 409790.77, "price_change_h24": 3.46, "market_cap_usd": 36753522.865001716}}, "score": 3.46}`
 
+## [2026-08-25 13:19 UTC] buy | Bought $TripleT (J8PSdNP3…) at $0.01252, spent 0.1 SOL ($9.77)
+- Reasoning: Score 2.0 (24h change), passed all gates
+- Data: `{"position": {"symbol": "TripleT", "name": "Tung Tung Tung Sahur", "amount": 780.2715654952077, "entry_price_usd": 0.01252, "entry_sol_spent": 0.1, "entry_time": "2026-08-25T13:19:36.368408+00:00", "entry_usd_value": 9.769, "entry_signals": {"liquidity_usd": 705967.54, "volume_h24": 515707.33, "price_change_h24": 1.97, "market_cap_usd": 12460053.311316442}}, "score": 1.97}`
+
