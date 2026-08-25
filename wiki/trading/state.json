@@ -1,6 +1,6 @@
 {
-  "balance_sol": 1.697281,
-  "balance_usd_estimate": 165.4,
+  "balance_sol": 1.597281,
+  "balance_usd_estimate": 155.86,
   "starting_balance_usd": 196.46,
   "positions": {
     "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": {
@@ -46,6 +46,37 @@
         "volume_h24": 515707.33,
         "price_change_h24": 1.97,
         "market_cap_usd": 12460053.311316442
+      }
+    },
+    "ACtfUWtgvaXrQGNMiohTusi5jcx5RJf5zwu9aAxkpump": {
+      "symbol": "unc",
+      "name": "unc",
+      "amount": 9077.209302325582,
+      "entry_price_usd": 0.001075,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-25T22:13:00.603082+00:00",
+      "entry_usd_value": 9.758000000000001,
+      "entry_signals": {
+        "liquidity_usd": 172526.83,
+        "volume_h24": 201333.24,
+        "price_change_h24": 0.95,
+        "market_cap_usd": 1083184.522025967
+      },
+      "entry_score_components": {
+        "chg24": 0.95,
+        "chg1h": 0.0,
+        "chg5m": 0.0,
+        "liquidity_usd": 172526.83,
+        "volume_24h_usd": 201333.24,
+        "vol_liq_ratio": 1.17,
+        "recency_min": 0.1,
+        "score_breakdown": {
+          "base_24h": 0.95,
+          "recency_bonus": 10,
+          "turnover_bonus": 3.5,
+          "short_momentum": 0.0,
+          "total": 14.5
+        }
       }
     }
   },
@@ -133,17 +164,11 @@
       }
     }
   ],
-  "last_updated": "2026-08-25T22:07:57.834105+00:00",
+  "last_updated": "2026-08-25T22:13:00.603329+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.45,
-  "portfolio_value_usd": 192.89,
+  "last_sol_price_usd": 97.58,
+  "portfolio_value_usd": 193.18,
   "recent_decisions": [
-    {
-      "time": "2026-08-25 20:37 UTC",
-      "action": "observe",
-      "details": "No trades this tick. 4/5 positions, 1.580 SOL free, 6 tokens watched",
-      "reason": "no candidate passed gates (considered 2)"
-    },
     {
       "time": "2026-08-25 20:42 UTC",
       "action": "observe",
@@ -257,6 +282,12 @@
       "action": "sell",
       "details": "[FULL] Closed $unc (ACtfUWtg…) at $0.001037 | P&L: +16.6% | momentum-fade (+16.6% locked, 24h now -1.9%)",
       "reason": "WIN — captured +16.6% via momentum-fade (+16.6% locked, 24h now -1.9%)"
+    },
+    {
+      "time": "2026-08-25 22:13 UTC",
+      "action": "buy",
+      "details": "Bought $unc (ACtfUWtg…) at $0.001075, spent 0.1 SOL ($9.76)",
+      "reason": "Score 14.5: 24h=0.95%, recency=10, turnover=3.5, short_mom=0.0"
     }
   ],
   "trade_stats": {
