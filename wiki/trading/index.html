@@ -36,10 +36,18 @@
       <div class="kpi-sub" id="position-pnl">—</div>
     </div>
     <div class="kpi">
-      <div class="kpi-label">Win Rate</div>
-      <div class="kpi-value" id="win-rate">—</div>
-      <div class="kpi-sub" id="total-pnl-sol">— SOL</div>
+      <div class="kpi-label">Daily Target</div>
+      <div class="kpi-value" id="daily-target-pct">—%</div>
+      <div class="kpi-sub" id="win-rate-sub">—</div>
     </div>
+  </section>
+
+  <section>
+    <h2>Daily Goal <span class="hint" id="daily-goal-hint">—</span></h2>
+    <div class="daily-bar">
+      <div class="daily-bar-fill" id="daily-bar-fill"></div>
+    </div>
+    <div class="daily-stats" id="daily-stats">—</div>
   </section>
 
   <section>
@@ -47,6 +55,11 @@
     <ul class="trade-list" id="trades">
       <li class="loading">Loading…</li>
     </ul>
+  </section>
+
+  <section>
+    <h2>Strategy Learning <span class="hint">what works, what doesn't</span></h2>
+    <div class="learning" id="learning">Need at least 3 wins and 3 losses to extract patterns.</div>
   </section>
 
   <section>
@@ -173,21 +186,78 @@ async function renderKPIs(state) {
   posPnlEl.textContent = (posPnlUSD >= 0 ? '+' : '') + fmtUSD(posPnlUSD) + ' unrealized';
   posPnlEl.className = 'kpi-sub ' + (posPnlUSD >= 0 ? 'pos' : posPnlUSD < 0 ? 'neg' : 'neu');
 
-  // Win rate
-  if (stats.total > 0) {
-    document.getElementById('win-rate').textContent = stats.win_rate_pct + '%';
-    document.getElementById('total-pnl-sol').textContent =
-      (stats.total_pnl_sol >= 0 ? '+' : '') + stats.total_pnl_sol.toFixed(4) + ' SOL (' + stats.total + ' trades)';
-    document.getElementById('total-pnl-sol').className =
-      'kpi-sub ' + (stats.total_pnl_sol >= 0 ? 'pos' : 'neg');
+  // Daily target
+  if (stats.daily_target_pct) {
+    const tgtPct = Math.round(stats.today_target_pct || 0);
+    const tgtSol = stats.today_realized_sol || 0;
+    document.getElementById('daily-target-pct').textContent = tgtPct + '%';
+    document.getElementById('daily-target-pct').className = 'kpi-value ' + (tgtPct >= 100 ? 'pos' : tgtPct > 0 ? 'neu' : 'neg');
+
+    const fillEl = document.getElementById('daily-bar-fill');
+    fillEl.style.width = Math.min(100, tgtPct) + '%';
+    fillEl.className = 'daily-bar-fill ' + (tgtPct >= 100 ? 'fill-good' : tgtPct >= 50 ? 'fill-mid' : 'fill-low');
+
+    document.getElementById('daily-goal-hint').textContent =
+      `+${stats.daily_target_pct}% on 2 SOL paper = +0.4 SOL net gains today`;
+
+    const winRate = stats.total > 0 ? stats.win_rate_pct + '% win (' + stats.wins + '/' + stats.total + ')' : 'no trades yet';
+    document.getElementById('daily-stats').textContent =
+      `Today: ${(tgtSol >= 0 ? '+' : '')}${tgtSol.toFixed(4)} SOL realized · ${stats.today_trades} closed · all-time: ${(stats.total_pnl_sol >= 0 ? '+' : '')}${stats.total_pnl_sol.toFixed(4)} SOL · ${winRate}`;
+    document.getElementById('win-rate-sub').textContent = winRate;
   } else {
-    document.getElementById('win-rate').textContent = '—';
-    document.getElementById('total-pnl-sol').textContent = 'no closed trades';
-    document.getElementById('total-pnl-sol').className = 'kpi-sub neu';
+    document.getElementById('daily-target-pct').textContent = '—%';
   }
 
   document.getElementById('sol-price-hint').textContent = 'SOL @ ' + fmtUSD(solPrice);
   document.getElementById('updated').textContent = fmtTime(state.last_updated);
+}
+
+function renderLearning(state) {
+  const el = document.getElementById('learning');
+  const stats = state.trade_stats || {};
+  const learning = stats.learning || {};
+
+  if (learning.note) {
+    el.innerHTML = `<div class="learning-note">${escapeHtml(learning.note)}</div>`;
+    return;
+  }
+
+  if (!learning.win_count) {
+    el.innerHTML = '<div class="learning-note">No closed trades yet. Patterns will appear after 3 wins and 3 losses.</div>';
+    return;
+  }
+
+  let html = '';
+
+  if (learning.price_change_h24_diff_pct !== undefined) {
+    const sign = learning.price_change_h24_diff_pct > 0 ? '+' : '';
+    html += `<div class="learning-row"><span class="learning-label">Wins entered with</span> <span class="learning-val">${sign}${learning.price_change_h24_diff_pct}%</span> <span class="learning-label">higher 24h momentum than losses</span></div>`;
+  }
+
+  if (learning.liquidity_usd_diff_pct !== undefined) {
+    const sign = learning.liquidity_usd_diff_pct > 0 ? '+' : '';
+    html += `<div class="learning-row"><span class="learning-label">Wins had</span> <span class="learning-val">${sign}${learning.liquidity_usd_diff_pct}%</span> <span class="learning-label">higher liquidity than losses</span></div>`;
+  }
+
+  if (learning.volume_24h_usd_diff_pct !== undefined) {
+    const sign = learning.volume_24h_usd_diff_pct > 0 ? '+' : '';
+    html += `<div class="learning-row"><span class="learning-label">Wins had</span> <span class="learning-val">${sign}${learning.volume_24h_usd_diff_pct}%</span> <span class="learning-label">higher 24h volume than losses</span></div>`;
+  }
+
+  if (learning.avg_holding_win_min !== undefined && learning.avg_holding_loss_min !== undefined) {
+    html += `<div class="learning-row"><span class="learning-label">Wins held</span> <span class="learning-val">${learning.avg_holding_win_min}min</span> <span class="learning-label">vs losses</span> <span class="learning-val">${learning.avg_holding_loss_min}min</span></div>`;
+  }
+
+  if (learning.exit_reason_breakdown) {
+    const reasons = Object.entries(learning.exit_reason_breakdown)
+      .map(([r, d]) => `<span class="exit-reason">${escapeHtml(r)}: ${d.wins}W/${d.losses}L</span>`)
+      .join(' · ');
+    html += `<div class="learning-row"><span class="learning-label">Exits:</span> ${reasons}</div>`;
+  }
+
+  html += `<div class="learning-row"><span class="learning-note-small">Sample: ${learning.win_count}W / ${learning.loss_count}L — patterns improve with more data</span></div>`;
+
+  el.innerHTML = html;
 }
 
 async function renderHoldings(state, watchlist) {
@@ -321,11 +391,14 @@ async function renderTrades(state) {
     const sym = escapeHtml(t.symbol || '?');
     const name = escapeHtml((t.name || '').slice(0,24));
     const dur = computeDuration(t.entry_time, t.exit_time);
+    const partialBadge = t.partial ? '<span class="partial-badge">partial</span> ' : '';
+    const diagnosis = t.post_mortem && t.post_mortem.diagnosis ? escapeHtml(t.post_mortem.diagnosis) : '';
     return `
       <li class="trade-item">
         <div>
           <div class="token-name">$${sym} <span class="token-symbol">${name}</span></div>
-          <div class="token-meta">${entryT} → ${exitT} · ${dur} · <span class="exit-reason">${exitReason}</span></div>
+          <div class="token-meta">${entryT} → ${exitT} · ${dur} · ${partialBadge}<span class="exit-reason">${exitReason}</span></div>
+          ${diagnosis ? `<div class="trade-post-mortem">${diagnosis}</div>` : ''}
         </div>
         <div class="token-price ${cls}">${sign}${pnlPct.toFixed(1)}%</div>
         <div class="token-change ${cls}">${(t.pnl_sol >= 0 ? '+' : '') + t.pnl_sol.toFixed(4)} SOL</div>
@@ -379,6 +452,7 @@ async function refresh() {
     state._watchlistCache = watchlist;
     await renderKPIs(state);
     await renderTrades(state);
+    await renderLearning(state);
     await renderHoldings(state, watchlist);
     await renderWatchlist(watchlist);
     await renderDecisions(state);

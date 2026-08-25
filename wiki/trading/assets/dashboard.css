@@ -141,6 +141,28 @@ section h2 {
   font-weight: 600;
 }
 
+.partial-badge {
+  display: inline-block;
+  background: rgba(245, 158, 11, 0.2);
+  color: var(--yellow);
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0.05rem 0.35rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.trade-post-mortem {
+  margin-top: 0.35rem;
+  padding: 0.4rem 0.6rem;
+  background: rgba(255,255,255,0.04);
+  border-left: 3px solid var(--accent);
+  border-radius: 4px;
+  font-size: 0.78rem;
+  color: var(--fg-muted);
+  line-height: 1.4;
+}
+
 .token-name {
   font-weight: 600;
   font-size: 0.95rem;
@@ -215,9 +237,66 @@ footer {
   font-size: 0.85rem;
 }
 
-/* tiny spinner while data loads */
-.loading {
+/* Daily progress bar */
+.daily-bar {
+  width: 100%;
+  height: 18px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 9px;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+  border: 1px solid var(--border);
+}
+
+.daily-bar-fill {
+  height: 100%;
+  background: var(--red);
+  width: 0%;
+  transition: width 0.5s ease, background 0.5s ease;
+  border-radius: 9px;
+}
+
+.daily-bar-fill.fill-low { background: var(--red); }
+.daily-bar-fill.fill-mid { background: var(--yellow); }
+.daily-bar-fill.fill-good { background: var(--green); }
+
+.daily-stats {
+  font-size: 0.85rem;
   color: var(--fg-muted);
-  text-align: center;
-  padding: 2rem;
+}
+
+/* Strategy learning */
+.learning {
+  font-size: 0.85rem;
+}
+
+.learning-row {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--border);
+  line-height: 1.5;
+}
+
+.learning-row:last-child { border-bottom: 0; }
+
+.learning-label {
+  color: var(--fg-muted);
+}
+
+.learning-val {
+  font-weight: 600;
+  color: var(--fg);
+  font-variant-numeric: tabular-nums;
+  margin: 0 0.25rem;
+}
+
+.learning-note {
+  color: var(--fg-muted);
+  font-style: italic;
+  padding: 0.5rem 0;
+}
+
+.learning-note-small {
+  color: var(--fg-muted);
+  font-size: 0.75rem;
+  font-style: italic;
 }
