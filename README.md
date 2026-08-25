@@ -39,3 +39,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- diagnostic -->
 
 <!-- diagnostic visible -->
+
+<!-- fix fmtPct + renderTrades -->
