@@ -1,23 +1,8 @@
 {
-  "balance_sol": 1.6,
-  "balance_usd_estimate": 156.3,
+  "balance_sol": 1.57994,
+  "balance_usd_estimate": 154.91,
   "starting_balance_usd": 196.46,
   "positions": {
-    "ACtfUWtgvaXrQGNMiohTusi5jcx5RJf5zwu9aAxkpump": {
-      "symbol": "unc",
-      "name": "unc",
-      "amount": 8814.838129496404,
-      "entry_price_usd": 0.001112,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-25T13:16:54.234569+00:00",
-      "entry_usd_value": 9.802100000000001,
-      "entry_signals": {
-        "liquidity_usd": 176033.4,
-        "volume_h24": 311303.69,
-        "price_change_h24": 27.39,
-        "market_cap_usd": 1117524.2508741657
-      }
-    },
     "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": {
       "symbol": "BURNIE",
       "name": "Burnie Senders",
@@ -62,26 +47,87 @@
         "price_change_h24": 1.97,
         "market_cap_usd": 12460053.311316442
       }
+    },
+    "ACtfUWtgvaXrQGNMiohTusi5jcx5RJf5zwu9aAxkpump": {
+      "symbol": "unc",
+      "name": "unc",
+      "amount": 11026.878092667568,
+      "entry_price_usd": 0.0008892,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-25T17:35:17.216242+00:00",
+      "entry_usd_value": 9.805100000000001,
+      "entry_signals": {
+        "liquidity_usd": 157106.35,
+        "volume_h24": 216428.94,
+        "price_change_h24": 2.25,
+        "market_cap_usd": 893240.2299669188
+      },
+      "entry_score_components": {
+        "chg24": 2.25,
+        "chg1h": 0.0,
+        "chg5m": 0.0,
+        "liquidity_usd": 157106.35,
+        "volume_24h_usd": 216428.94,
+        "vol_liq_ratio": 1.38,
+        "recency_min": 0.1,
+        "score_breakdown": {
+          "base_24h": 2.25,
+          "recency_bonus": 10,
+          "turnover_bonus": 4.1,
+          "short_momentum": 0.0,
+          "total": 16.4
+        }
+      }
     }
   },
-  "trades": [],
-  "last_updated": "2026-08-25T17:30:14.321703+00:00",
+  "trades": [
+    {
+      "mint": "ACtfUWtgvaXrQGNMiohTusi5jcx5RJf5zwu9aAxkpump",
+      "symbol": "unc",
+      "name": "unc",
+      "amount_sold": 8814.838129496404,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-25T13:16:54.234569+00:00",
+      "exit_time": "2026-08-25T17:35:17.215912+00:00",
+      "entry_price_usd": 0.001112,
+      "exit_price_usd": 0.0008892,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.07994,
+      "pnl_sol": -0.02006,
+      "pnl_pct": -20.04,
+      "exit_reason": "stop-loss (-20.0%)",
+      "entry_signals": {
+        "liquidity_usd": 176033.4,
+        "volume_h24": 311303.69,
+        "price_change_h24": 27.39,
+        "market_cap_usd": 1117524.2508741657
+      },
+      "exit_signals": {
+        "price_change_h24": 2.25,
+        "liquidity_usd": 157106.35,
+        "volume_h24": 216428.94
+      },
+      "holding_seconds": 15502.110404,
+      "partial": false,
+      "post_mortem": {
+        "diagnosis": "LOSS — exited at -20.0% via stop-loss (-20.0%). HIGH-MOMENTUM BUT REVERSED — entered too late, smart money already exiting",
+        "entry_vs_exit": {
+          "chg24_entry": 27.39,
+          "chg24_exit": 2.25,
+          "liq_entry": 176033.4,
+          "liq_exit": 157106.35,
+          "vol24_entry": 311303.69,
+          "vol24_exit": 216428.94
+        },
+        "fraction_sold": 1.0
+      }
+    }
+  ],
+  "last_updated": "2026-08-25T17:35:17.216570+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.69,
-  "portfolio_value_usd": 193.15,
+  "last_sol_price_usd": 98.051,
+  "portfolio_value_usd": 193.65,
   "recent_decisions": [
-    {
-      "time": "2026-08-25 15:54 UTC",
-      "action": "observe",
-      "details": "No trades this tick. 4/5 positions, 1.600 SOL free, 6 tokens watched",
-      "reason": "no candidate passed gates (considered 2)"
-    },
-    {
-      "time": "2026-08-25 15:59 UTC",
-      "action": "observe",
-      "details": "No trades this tick. 4/5 positions, 1.600 SOL free, 6 tokens watched",
-      "reason": "no candidate passed gates (considered 2)"
-    },
     {
       "time": "2026-08-25 16:04 UTC",
       "action": "observe",
@@ -189,21 +235,37 @@
       "action": "observe",
       "details": "No trades this tick. 4/5 positions, 1.600 SOL free, 6 tokens watched",
       "reason": "no candidate passed gates (considered 2)"
+    },
+    {
+      "time": "2026-08-25 17:35 UTC",
+      "action": "sell",
+      "details": "[FULL] Closed $unc (ACtfUWtg…) at $0.0008892 | P&L: -20.0% | stop-loss (-20.0%)",
+      "reason": "LOSS — exited at -20.0% via stop-loss (-20.0%). HIGH-MOMENTUM BUT REVERSED — entered too late, smart money already exiting"
+    },
+    {
+      "time": "2026-08-25 17:35 UTC",
+      "action": "buy",
+      "details": "Bought $unc (ACtfUWtg…) at $0.0008892, spent 0.1 SOL ($9.81)",
+      "reason": "Score 16.4: 24h=2.25%, recency=10, turnover=4.1, short_mom=0.0"
     }
   ],
   "trade_stats": {
-    "total": 0,
+    "total": 1,
     "wins": 0,
-    "losses": 0,
-    "win_rate_pct": 0,
-    "total_pnl_sol": 0,
-    "avg_pnl_pct": 0,
-    "best_pnl_pct": 0,
-    "worst_pnl_pct": 0,
-    "today_trades": 0,
-    "today_realized_sol": 0,
-    "today_target_pct": 0,
+    "losses": 1,
+    "win_rate_pct": 0.0,
+    "total_pnl_sol": -0.02006,
+    "avg_pnl_pct": -20.04,
+    "best_pnl_pct": -20.04,
+    "worst_pnl_pct": -20.04,
+    "today_trades": 1,
+    "today_realized_sol": -0.02006,
+    "today_target_pct": -5.0,
     "daily_target_pct": 20.0,
-    "learning": {}
+    "learning": {
+      "win_count": 0,
+      "loss_count": 1,
+      "note": "need ≥3 wins and ≥3 losses for signal analysis"
+    }
   }
 }
