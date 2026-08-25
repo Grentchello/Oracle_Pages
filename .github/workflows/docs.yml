@@ -4,6 +4,10 @@ on:
   # Manual trigger
   workflow_dispatch:
 
+  # Any push to main (also catches workflow file edits)
+  push:
+    branches: [main]
+
   # Scheduled: every 10 minutes (catches content changes in oracle_Vault)
   schedule:
     - cron: '*/10 * * * *'
