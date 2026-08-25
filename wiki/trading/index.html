@@ -110,10 +110,11 @@ function fmtSOL(v) {
 }
 
 function fmtPct(v) {
-  if (v == null || isNaN(v)) return { text: '—', cls: 'neu' };
-  const cls = v > 0 ? 'pos' : v < 0 ? 'neg' : 'neu';
-  const sign = v > 0 ? '+' : '';
-  return { text: sign + v.toFixed(2) + '%', cls };
+  const n = Number(v);
+  if (n == null || isNaN(n)) return { text: '—', cls: 'neu' };
+  const cls = n > 0 ? 'pos' : n < 0 ? 'neg' : 'neu';
+  const sign = n > 0 ? '+' : '';
+  return { text: sign + n.toFixed(2) + '%', cls };
 }
 
 function fmtTime(iso) {
@@ -214,108 +215,69 @@ async function renderKPIs(state) {
 
 function renderLearning(state) {
   const el = document.getElementById('learning');
+  if (!el) return;
   const stats = state.trade_stats || {};
   const learning = stats.learning || {};
+  const total = stats.total || 0;
 
-  if (learning.note) {
-    el.innerHTML = `<div class="learning-note">${escapeHtml(learning.note)}</div>`;
+  if (total === 0) {
+    el.innerHTML = '<div class="learning-note">No closed trades yet.</div>';
     return;
   }
-
-  if (!learning.win_count) {
-    el.innerHTML = '<div class="learning-note">No closed trades yet. Patterns will appear after 3 wins and 3 losses.</div>';
+  if (total < 3 || (learning.win_count || 0) < 1 || (learning.loss_count || 0) < 1) {
+    el.innerHTML = '<div class="learning-note">Need at least 3 trades to extract patterns. Have ' + total + '.</div>';
     return;
   }
 
   let html = '';
-
   if (learning.price_change_h24_diff_pct !== undefined) {
-    const sign = learning.price_change_h24_diff_pct > 0 ? '+' : '';
-    html += `<div class="learning-row"><span class="learning-label">Wins entered with</span> <span class="learning-val">${sign}${learning.price_change_h24_diff_pct}%</span> <span class="learning-label">higher 24h momentum than losses</span></div>`;
+    html += '<div class="learning-row">Wins vs losses: ' + learning.price_change_h24_diff_pct + '% 24h-momentum delta</div>';
   }
-
   if (learning.liquidity_usd_diff_pct !== undefined) {
-    const sign = learning.liquidity_usd_diff_pct > 0 ? '+' : '';
-    html += `<div class="learning-row"><span class="learning-label">Wins had</span> <span class="learning-val">${sign}${learning.liquidity_usd_diff_pct}%</span> <span class="learning-label">higher liquidity than losses</span></div>`;
+    html += '<div class="learning-row">Liquidity: ' + learning.liquidity_usd_diff_pct + '% delta</div>';
   }
-
   if (learning.volume_24h_usd_diff_pct !== undefined) {
-    const sign = learning.volume_24h_usd_diff_pct > 0 ? '+' : '';
-    html += `<div class="learning-row"><span class="learning-label">Wins had</span> <span class="learning-val">${sign}${learning.volume_24h_usd_diff_pct}%</span> <span class="learning-label">higher 24h volume than losses</span></div>`;
+    html += '<div class="learning-row">Volume: ' + learning.volume_24h_usd_diff_pct + '% delta</div>';
   }
-
-  if (learning.avg_holding_win_min !== undefined && learning.avg_holding_loss_min !== undefined) {
-    html += `<div class="learning-row"><span class="learning-label">Wins held</span> <span class="learning-val">${learning.avg_holding_win_min}min</span> <span class="learning-label">vs losses</span> <span class="learning-val">${learning.avg_holding_loss_min}min</span></div>`;
-  }
-
-  if (learning.exit_reason_breakdown) {
-    const reasons = Object.entries(learning.exit_reason_breakdown)
-      .map(([r, d]) => `<span class="exit-reason">${escapeHtml(r)}: ${d.wins}W/${d.losses}L</span>`)
-      .join(' · ');
-    html += `<div class="learning-row"><span class="learning-label">Exits:</span> ${reasons}</div>`;
-  }
-
-  html += `<div class="learning-row"><span class="learning-note-small">Sample: ${learning.win_count}W / ${learning.loss_count}L — patterns improve with more data</span></div>`;
+  html += '<div class="learning-note-small">Sample: ' + (learning.win_count||0) + 'W / ' + (learning.loss_count||0) + 'L</div>';
 
   el.innerHTML = html;
 }
 
 async function renderHoldings(state, watchlist) {
   const ul = document.getElementById('holdings');
+  if (!ul) return;
   const positions = state.positions || {};
   const solBalance = state.balance_sol || 0;
   const solPrice = state.last_sol_price_usd || 0;
 
-  const items = [];
+  let html = '<li class="position-item">' +
+    '<div><div class="token-name">SOL <span class="token-symbol">free</span></div>' +
+    '<div class="token-meta">' + solBalance.toFixed(4) + ' · ' + fmtUSD(solBalance * solPrice) + '</div></div>' +
+    '<div class="token-price">' + fmtUSD(solPrice) + '</div>' +
+    '<div class="token-change neu">—</div></li>';
 
-  // Always show the SOL line first
-  items.push(`
-    <li class="position-item">
-      <div>
-        <div class="token-name">SOL <span class="token-symbol">free</span></div>
-        <div class="token-meta">${solBalance.toFixed(4)} tokens · ${fmtUSD(solBalance * solPrice)}</div>
-      </div>
-      <div class="token-price">${fmtUSD(solPrice)}</div>
-      <div class="token-change neu">—</div>
-    </li>
-  `);
-
-  // Each token position
-  for (const [mint, pos] of Object.entries(positions)) {
-    let price = null;
-    let change = null;
+  for (const mint in positions) {
+    const pos = positions[mint];
     const meta = (watchlist.tokens || []).find(t => t.mint === mint);
-    if (meta) {
-      price = parseFloat(meta.price_usd);
-      change = parseFloat(meta.price_change_h24);
-    }
-    const valueUSD = (price != null && !isNaN(price)) ? (price * pos.amount) : null;
-    const entryCost = (pos.entry_price_usd || 0) * pos.amount;
-    const pnlUSD = (valueUSD != null && entryCost > 0) ? valueUSD - entryCost : null;
-    const pnlPct = (pnlUSD != null && entryCost > 0) ? (pnlUSD / entryCost * 100) : null;
-    const pnlFmt = fmtPct(pnlPct);
+    const curPrice = meta ? parseFloat(meta.price_usd) : null;
+    const entryPrice = parseFloat(pos.entry_price_usd) || 0;
+    const amount = parseFloat(pos.amount) || 0;
+    const valueUSD = curPrice !== null && !isNaN(curPrice) ? curPrice * amount : null;
+    const pnlPct = (curPrice !== null && entryPrice > 0) ? ((curPrice / entryPrice - 1) * 100) : null;
+    const cls = pnlPct !== null ? (pnlPct >= 0 ? 'pos' : 'neg') : 'neu';
+    const sym = String(pos.symbol || mint.slice(0,8)).replace(/[<>&\"]/g, '');
+    const valueStr = valueUSD !== null ? fmtUSD(valueUSD) : '—';
+    const pnlStr = pnlPct !== null ? (pnlPct >= 0 ? '+' : '') + pnlPct.toFixed(1) + '%' : '—';
 
-    const ageStr = pos.entry_time ? fmtTime(pos.entry_time) : '?';
-    const entrySym = escapeHtml(pos.symbol || mint.slice(0,8));
-    const entryName = escapeHtml((pos.name || '').slice(0,24));
-
-    items.push(`
-      <li class="position-item" data-mint="${escapeHtml(mint)}">
-        <div>
-          <div class="token-name">$${entrySym} <span class="token-symbol">${entryName}</span></div>
-          <div class="token-meta">${pos.amount.toFixed(2)} @ ${fmtUSD(pos.entry_price_usd)} · ${ageStr}</div>
-        </div>
-        <div class="token-price">${fmtUSD(valueUSD)}</div>
-        <div class="token-change ${pnlFmt.cls}">${pnlFmt.text}</div>
-      </li>
-    `);
+    html += '<li class="position-item" data-mint="' + mint + '">' +
+      '<div><div class="token-name">$' + sym + '</div>' +
+      '<div class="token-meta">' + amount.toFixed(2) + ' @ ' + fmtUSD(entryPrice) + '</div></div>' +
+      '<div class="token-price">' + valueStr + '</div>' +
+      '<div class="token-change ' + cls + '">' + pnlStr + '</div></li>';
   }
 
-  if (items.length === 1) {
-    ul.innerHTML = '<li class="loading">No token positions yet.</li>';
-  } else {
-    ul.innerHTML = items.join('');
-  }
+  ul.innerHTML = html;
 }
 
 function escapeHtml(s) {
@@ -327,37 +289,31 @@ function escapeHtml(s) {
 async function renderWatchlist(watchlist) {
   const ul = document.getElementById('watchlist');
   const meta = document.getElementById('watchlist-meta');
+  if (!ul) return;
   const tokens = watchlist.tokens || [];
-  meta.textContent = tokens.length + ' tokens';
+  if (meta) meta.textContent = tokens.length + ' tokens';
 
   if (tokens.length === 0) {
     ul.innerHTML = '<li class="loading">No watchlist data yet.</li>';
     return;
   }
 
-  // Sort by market cap desc
-  tokens.sort((a, b) => (b.market_cap_usd || 0) - (a.market_cap_usd || 0));
+  // Sort by market cap desc (coerce to numbers)
+  tokens.sort((a, b) => Number(b.market_cap_usd || 0) - Number(a.market_cap_usd || 0));
 
   ul.innerHTML = tokens.slice(0, 25).map(t => {
-    const price = t.price_usd;
-    const change = t.price_change_h24;
-    const chFmt = fmtPct(change);
-    const liq = t.liquidity_usd;
-    const vol = t.volume_h24;
-    const sym = escapeHtml(t.symbol || '?');
-    const name = escapeHtml((t.name || '').slice(0, 24));
-    const mcap = t.market_cap_usd;
-    const link = t.pair_url || ('https://dexscreener.com/solana/' + t.mint);
-    return `
-      <li class="token-item" data-mint="${escapeHtml(t.mint)}">
-        <div>
-          <div class="token-name">$${sym} <span class="token-symbol">${name}</span></div>
-          <div class="token-meta">mcap ${fmtUSD(mcap)} · liq ${fmtUSD(liq)} · vol24 ${fmtUSD(vol)}</div>
-        </div>
-        <div class="token-price">${fmtUSD(price)}</div>
-        <div class="token-change ${chFmt.cls}">${chFmt.text}</div>
-      </li>
-    `;
+    const sym = String(t.symbol || '?').replace(/[<>&\"]/g, '');
+    const name = String(t.name || '').slice(0, 24).replace(/[<>&\"]/g, '');
+    const mcap = Number(t.market_cap_usd);
+    const liq = Number(t.liquidity_usd);
+    const vol = Number(t.volume_h24);
+    const price = Number(t.price_usd);
+    const chFmt = fmtPct(t.price_change_h24);
+    return '<li class="token-item" data-mint="' + t.mint + '">' +
+      '<div><div class="token-name">$' + sym + ' <span class="token-symbol">' + name + '</span></div>' +
+      '<div class="token-meta">mcap ' + fmtUSD(mcap) + ' · liq ' + fmtUSD(liq) + ' · vol24 ' + fmtUSD(vol) + '</div></div>' +
+      '<div class="token-price">' + fmtUSD(price) + '</div>' +
+      '<div class="token-change ' + chFmt.cls + '">' + chFmt.text + '</div></li>';
   }).join('');
 }
 
@@ -365,54 +321,35 @@ async function renderTrades(state) {
   try {
   const ul = document.getElementById('trades');
   const summary = document.getElementById('trades-summary');
-  const trades = (state.trades || []).slice().reverse().slice(0, 20);
+  const trades = state.trades || [];
   const stats = state.trade_stats || {};
 
-  // Visible diagnostic
-  summary.textContent = `[dbg] trades=${trades.length} stats.total=${stats.total} stats.wins=${stats.wins}`;
-
-  if (stats.total > 0) {
-    const wins = stats.wins || 0;
-    const losses = stats.losses || 0;
-    const avg = stats.avg_pnl_pct || 0;
-    summary.textContent = `${stats.total} trades · ${wins}W/${losses}L · avg ${avg.toFixed(1)}% · best +${stats.best_pnl_pct}% / worst ${stats.worst_pnl_pct}%`;
-  } else {
-    summary.textContent = 'no closed trades yet';
-  }
+  summary.textContent = `trades=${trades.length} total=${stats.total} wins=${stats.wins}`;
 
   if (trades.length === 0) {
-    ul.innerHTML = '<li class="loading">No closed trades yet. Positions will appear here after exit.</li>';
+    ul.innerHTML = '<li class="loading">No closed trades.</li>';
     return;
   }
 
-  ul.innerHTML = trades.map(t => {
-    const pnlPct = parseFloat(t.pnl_pct);
-    const cls = pnlPct >= 0 ? 'pos' : 'neg';
-    const sign = pnlPct >= 0 ? '+' : '';
-    const entryT = fmtTime(t.entry_time);
-    const exitT = fmtTime(t.exit_time);
-    const exitReason = escapeHtml(t.exit_reason || 'exit');
-    const sym = escapeHtml(t.symbol || '?');
-    const name = escapeHtml((t.name || '').slice(0,24));
-    const dur = computeDuration(t.entry_time, t.exit_time);
-    const partialBadge = t.partial ? '<span class="partial-badge">partial</span> ' : '';
-    const diagnosis = t.post_mortem && t.post_mortem.diagnosis ? escapeHtml(t.post_mortem.diagnosis) : '';
-    return `
-      <li class="trade-item">
-        <div>
-          <div class="token-name">$${sym} <span class="token-symbol">${name}</span></div>
-          <div class="token-meta">${entryT} → ${exitT} · ${dur} · ${partialBadge}<span class="exit-reason">${exitReason}</span></div>
-          ${diagnosis ? `<div class="trade-post-mortem">${diagnosis}</div>` : ''}
-        </div>
-        <div class="token-price ${cls}">${sign}${pnlPct.toFixed(1)}%</div>
-        <div class="token-change ${cls}">${(t.pnl_sol >= 0 ? '+' : '') + t.pnl_sol.toFixed(4)} SOL</div>
-      </li>
-    `;
+  ul.innerHTML = trades.slice().reverse().slice(0, 20).map(t => {
+    const pnl = Number(t.pnl_pct) || 0;
+    const cls = pnl >= 0 ? 'pos' : 'neg';
+    const sign = pnl >= 0 ? '+' : '';
+    const sol = Number(t.pnl_sol) || 0;
+    const sym = String(t.symbol || '?').replace(/[<>&\"]/g, '');
+    return `<li class="trade-item">
+      <div>
+        <div class="token-name">$${sym}</div>
+        <div class="token-meta">${String(t.exit_reason || '').replace(/[<>&\"]/g, '')}</div>
+      </div>
+      <div class="token-price ${cls}">${sign}${pnl.toFixed(1)}%</div>
+      <div class="token-change ${cls}">${sign}${sol.toFixed(4)} SOL</div>
+    </li>`;
   }).join('');
   } catch (e) {
     console.error('[renderTrades ERROR]', e.message, e.stack);
     const ul = document.getElementById('trades');
-    if (ul) ul.innerHTML = '<li class="loading">renderTrades error: ' + escapeHtml(e.message) + '</li>';
+    if (ul) ul.innerHTML = '<li class="loading">renderTrades error: ' + String(e.message || '').replace(/[<>&\"]/g, '') + '</li>';
   }
 }
 
