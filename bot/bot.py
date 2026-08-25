@@ -641,13 +641,36 @@ def generate_post_mortem(position, exit_price, exit_reason, exit_signals, holdin
 # =====================================================================
 
 def compute_trade_stats(trades):
-    """Aggregate stats across all closed trades."""
-    if not trades:
-        return {"total": 0, "wins": 0, "losses": 0, "win_rate_pct": 0,
-                "total_pnl_sol": 0, "avg_pnl_pct": 0, "best_pnl_pct": 0, "worst_pnl_pct": 0}
+    """Aggregate stats across all closed trades + daily P&L target tracking."""
+    today_utc = now_utc().date()
+    today_trades = []
+    for t in trades:
+        exit_dt = parse_iso(t.get("exit_time"))
+        if exit_dt and exit_dt.date() == today_utc:
+            today_trades.append(t)
+
+    today_realized_sol = sum(t.get("pnl_sol", 0) for t in today_trades)
+    starting_sol = 2.0  # paper portfolio starting SOL
+    today_target_sol = starting_sol * (DAILY_TARGET_PNL_PCT / 100)
+    today_pct_of_target = (today_realized_sol / today_target_sol * 100) if today_target_sol > 0 else 0
+
+    # Strategy learning: which signal features correlate with wins?
     wins = [t for t in trades if t.get("pnl_sol", 0) > 0]
     losses = [t for t in trades if t.get("pnl_sol", 0) <= 0]
+
+    learning = analyze_signal_performance(wins, losses) if trades else {}
+
+    if not trades:
+        return {
+            "total": 0, "wins": 0, "losses": 0, "win_rate_pct": 0,
+            "total_pnl_sol": 0, "avg_pnl_pct": 0, "best_pnl_pct": 0, "worst_pnl_pct": 0,
+            "today_trades": 0, "today_realized_sol": 0, "today_target_pct": 0,
+            "daily_target_pct": DAILY_TARGET_PNL_PCT,
+            "learning": learning,
+        }
+
     pnls_pct = [t.get("pnl_pct", 0) for t in trades]
+
     return {
         "total": len(trades),
         "wins": len(wins),
@@ -657,7 +680,72 @@ def compute_trade_stats(trades):
         "avg_pnl_pct": round(sum(pnls_pct) / len(pnls_pct), 2),
         "best_pnl_pct": round(max(pnls_pct), 2),
         "worst_pnl_pct": round(min(pnls_pct), 2),
+        "today_trades": len(today_trades),
+        "today_realized_sol": round(today_realized_sol, 6),
+        "today_target_pct": round(today_pct_of_target, 1),
+        "daily_target_pct": DAILY_TARGET_PNL_PCT,
+        "learning": learning,
     }
+
+
+def analyze_signal_performance(wins, losses):
+    """
+    Compare signal features between winning and losing trades to identify
+    which features predict success. Small samples are noisy — outputs include
+    sample size caveats.
+    """
+    def avg(field, trades):
+        vals = []
+        for t in trades:
+            v = t.get("entry_signals", {}).get(field)
+            if v is not None and isinstance(v, (int, float)):
+                vals.append(float(v))
+        return sum(vals) / len(vals) if vals else None
+
+    def avg_pnl(field, trades):
+        vals = []
+        for t in trades:
+            v = t.get("entry_signals", {}).get(field)
+            if v is not None and isinstance(v, (int, float)):
+                vals.append(float(v))
+        return sum(vals) / len(vals) if vals else None
+
+    out = {
+        "win_count": len(wins),
+        "loss_count": len(losses),
+    }
+    if len(wins) < 3 or len(losses) < 3:
+        out["note"] = "need ≥3 wins and ≥3 losses for signal analysis"
+        return out
+
+    for field in ["price_change_h24", "liquidity_usd", "volume_24h_usd", "market_cap_usd"]:
+        w_avg = avg(field, wins)
+        l_avg = avg(field, losses)
+        if w_avg is not None and l_avg is not None:
+            diff_pct = ((w_avg - l_avg) / l_avg * 100) if l_avg > 0 else 0
+            out[f"{field}_win_avg"] = round(w_avg, 2)
+            out[f"{field}_loss_avg"] = round(l_avg, 2)
+            out[f"{field}_diff_pct"] = round(diff_pct, 1)
+
+    # Average holding time per outcome
+    win_hold = [t.get("holding_seconds", 0) for t in wins if t.get("holding_seconds") is not None]
+    loss_hold = [t.get("holding_seconds", 0) for t in losses if t.get("holding_seconds") is not None]
+    if win_hold and loss_hold:
+        out["avg_holding_win_min"] = round(sum(win_hold) / len(win_hold) / 60, 1)
+        out["avg_holding_loss_min"] = round(sum(loss_hold) / len(loss_hold) / 60, 1)
+
+    # Exit reason breakdown
+    exit_reasons = {}
+    for t in (wins + losses):
+        reason = t.get("exit_reason", "unknown").split(" ")[0]
+        is_win = t.get("pnl_sol", 0) > 0
+        if reason not in exit_reasons:
+            exit_reasons[reason] = {"wins": 0, "losses": 0, "total_pnl": 0}
+        exit_reasons[reason]["wins" if is_win else "losses"] += 1
+        exit_reasons[reason]["total_pnl"] += t.get("pnl_sol", 0)
+    out["exit_reason_breakdown"] = exit_reasons
+
+    return out
 
 
 def git_commit_and_push():
