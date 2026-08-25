@@ -51,7 +51,7 @@ The dashboard refreshes every 30 seconds. It shows:
 - [ ] **Phase 3: Refinement** — add fee model, slippage estimate, smarter signal weighting
 - [ ] **Phase 4: Learning** — backtest signals against closed trades, refine policy
 
-## Strategy parameters (Phase 2)
+## Strategy parameters (Phase 2.1 — riskier, faster)
 
 | Parameter | Value | Notes |
 |---|---|---|
@@ -60,10 +60,31 @@ The dashboard refreshes every 30 seconds. It shows:
 | Min liquidity | $5,000 USD | Skip thin pools |
 | Min 24h volume | $10,000 USD | Skip dead tokens |
 | Min 24h change | 0% | Negative momentum is exit signal, not entry |
-| Take-profit | +50% | Sell all |
-| Stop-loss | -30% | Sell all |
-| Time-stop | 24h held | Sell all if neither TP/SL hit |
-| Momentum-fade | 24h flips negative AND ≥+20% profit | Lock in gains |
+| Min entry score | 5.0 | Composite: 24h change + recency + turnover + short momentum |
+| **Take-profit (partial)** | **+30%** | **Sell HALF, hold rest** |
+| **Take-profit (full)** | **+60%** | **Sell remainder** |
+| **Stop-loss** | **-20%** | **Full exit (tighter)** |
+| **Max hold** | **12h** | **Was 24h — faster rotation** |
+| **Momentum-fade exit** | **24h flips neg AND ≥+15% profit** | **Lock gains** |
+
+## Strategy v2: learning + post-mortem
+
+Every closed trade gets analyzed for WHY it performed as it did:
+- Compared entry signals to exit signals
+- Diagnoses: "high-momentum entry thesis worked", "liquidity dropped 30% — rug pull risk", "held 12h with no direction"
+- All post-mortems visible on each trade in the Trade History section
+
+After ≥3 wins and ≥3 losses, the dashboard surfaces **Strategy Learning** patterns:
+- Which entry signals (24h momentum, liquidity, volume) correlate with wins
+- Average holding time per outcome
+- Exit reason breakdown (which exits make money vs lose money)
+
+## Daily target
+
+**Goal:** +20% on 2 SOL paper = +0.4 SOL net gains per day.**
+
+The dashboard has a progress bar tracking today's realized PnL toward that target.
+After 5+ trades we'll know whether this is achievable or whether the strategy needs adjustment.
 
 ## How it works
 

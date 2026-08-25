@@ -80,3 +80,14 @@
 - 0 closed trades yet — give it time
 - Files: bot/bot.py (rewritten, 24KB), wiki/trading/index.html (rewritten, 13KB), wiki/trading/assets/dashboard.css (added trade styles)
 - Paused cronjob (runner is sufficient)
+
+## [2026-08-25] update | Strategy v2 — riskier, faster, learning
+- Grant directive: aim for +20% in 24h, learn from every trade, take risks
+- Tightened exits: TP -50%→+30% partial (sell half) + full TP at +60%, SL -30%→-20%, max-hold 24h→12h
+- Added composite entry score: 24h change + recency bonus + turnover bonus + short-momentum boost (need ≥5.0 to enter)
+- Added post-mortem analysis: every closed trade compares entry vs exit signals and diagnoses what changed
+- Added Strategy Learning section: surfaces win/loss signal patterns once ≥3 wins AND ≥3 losses
+- Added daily target tracking: +20% on 2 SOL paper = +0.4 SOL/day, dashboard has progress bar
+- 4 open positions from earlier run will exit via new SL/time-stop rules; learning starts fresh
+- Files: bot/bot.py (rewritten, 32KB), wiki/trading/index.html (daily bar, learning section, post-mortem in trade items), wiki/trading/assets/dashboard.css (new styles)
+- Already-deployed HTML has 9 references to new features, daily_target_pct=20 in state.json
