@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0f17">
+  <title>Memecoin Trading Bot</title>
+  <link rel="stylesheet" href="assets/dashboard.css">
+</head>
+<body>
+<div class="dashboard">
+
+  <header>
+    <h1>Memecoin Trading Bot</h1>
+    <div class="subtitle">
+      Paper trading with 2 SOL · Real prices · Updated <span id="updated">—</span>
+    </div>
+  </header>
+
+  <div id="error-banner" class="error-banner" style="display:none"></div>
+
+  <section class="kpi-grid">
+    <div class="kpi">
+      <div class="kpi-label">SOL Balance</div>
+      <div class="kpi-value" id="sol-balance">—</div>
+      <div class="kpi-sub" id="sol-balance-usd">—</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Total Value</div>
+      <div class="kpi-value" id="total-value">—</div>
+      <div class="kpi-sub" id="total-pnl">—</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Positions</div>
+      <div class="kpi-value" id="position-count">0</div>
+      <div class="kpi-sub" id="position-pnl">—</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Trades</div>
+      <div class="kpi-value" id="trade-count">0</div>
+      <div class="kpi-sub">total</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Holdings <span class="hint" id="sol-price-hint">SOL @ —</span></h2>
+    <ul class="position-list" id="holdings">
+      <li class="loading">Loading…</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Trending on pump.fun <span class="hint" id="watchlist-meta">— tokens</span></h2>
+    <ul class="token-list" id="watchlist">
+      <li class="loading">Loading…</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Recent Decisions <span class="hint">last 10</span></h2>
+    <ul class="decision-list" id="decisions">
+      <li class="loading">Loading…</li>
+    </ul>
+  </section>
+
+  <footer>
+    Auto-refreshes every 30s · Real prices via DexScreener & pump.fun · No real capital at risk
+  </footer>
+</div>
+
+<script>
+const STATE_URL = 'state.json';
+const WATCHLIST_URL = 'watchlist.json';
+const DECISIONS_URL = 'decisions.md';
+const RAW_BASE = 'https://raw.githubusercontent.com/Grentchello/oracle_Vault/main/wiki/trading/';
+const REFRESH_MS = 30000;
+
+function fmtUSD(v) {
+  if (v == null || isNaN(v)) return '—';
+  if (Math.abs(v) >= 1000000) return '$' + (v/1000000).toFixed(2) + 'M';
+  if (Math.abs(v) >= 1000) return '$' + v.toFixed(0);
+  if (Math.abs(v) >= 1) return '$' + v.toFixed(2);
+  if (v === 0) return '$0';
+  return '$' + v.toFixed(6);
+}
+
+function fmtSOL(v) {
+  if (v == null || isNaN(v)) return '—';
+  if (v >= 1) return v.toFixed(4) + ' SOL';
+  return v.toFixed(6) + ' SOL';
+}
+
+function fmtPct(v) {
+  if (v == null || isNaN(v)) return { text: '—', cls: 'neu' };
+  const cls = v > 0 ? 'pos' : v < 0 ? 'neg' : 'neu';
+  const sign = v > 0 ? '+' : '';
+  return { text: sign + v.toFixed(2) + '%', cls };
+}
+
+function fmtTime(iso) {
+  if (!iso) return '—';
+  try {
+    const d = new Date(iso);
+    const now = new Date();
+    const diffSec = Math.round((now - d) / 1000);
+    if (diffSec < 60) return diffSec + 's ago';
+    if (diffSec < 3600) return Math.round(diffSec/60) + 'm ago';
+    if (diffSec < 86400) return Math.round(diffSec/3600) + 'h ago';
+    return d.toISOString().slice(0,16).replace('T', ' ');
+  } catch (e) {
+    return '—';
+  }
+}
+
+async function fetchText(url) {
+  const r = await fetch(url + '?t=' + Date.now(), { cache: 'no-store' });
+  if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
+  return await r.text();
+}
+
+async function fetchJSON(url) {
+  return JSON.parse(await fetchText(url));
+}
+
+function showError(msg) {
+  const el = document.getElementById('error-banner');
+  el.textContent = msg;
+  el.style.display = 'block';
+}
+
+function clearError() {
+  document.getElementById('error-banner').style.display = 'none';
+}
+
+async function renderKPIs(state) {
+  const solBalance = state.balance_sol || 0;
+  const solPrice = state.last_sol_price_usd || 0;
+  const totalValue = state.portfolio_value_usd || 0;
+  const startValue = state.starting_balance_usd || totalValue;
+  const positions = state.positions || {};
+  const trades = state.trades || [];
+
+  document.getElementById('sol-balance').textContent = fmtSOL(solBalance);
+  document.getElementById('sol-balance-usd').textContent = '@ ' + fmtUSD(solPrice);
+
+  document.getElementById('total-value').textContent = fmtUSD(totalValue);
+
+  const pnl = totalValue - startValue;
+  const pnlPct = startValue > 0 ? (pnl / startValue * 100) : 0;
+  const pnlFmt = fmtPct(pnlPct);
+  const pnlEl = document.getElementById('total-pnl');
+  pnlEl.textContent = (pnl >= 0 ? '+' : '') + fmtUSD(pnl) + ' (' + pnlFmt.text + ')';
+  pnlEl.className = 'kpi-sub ' + pnlFmt.cls;
+
+  document.getElementById('position-count').textContent = Object.keys(positions).length;
+
+  let posPnl = 0;
+  let posStart = 0;
+  for (const [mint, pos] of Object.entries(positions)) {
+    if (pos.entry_price_usd && pos.amount) {
+      posStart += pos.entry_price_usd * pos.amount;
+    }
+  }
+  // positions_value_usd is in state already
+  posPnl = (state.positions_value_usd || 0) - posStart;
+  const posPnlPct = posStart > 0 ? (posPnl / posStart * 100) : 0;
+  const posPnlFmt = fmtPct(posPnlPct);
+  const posPnlEl = document.getElementById('position-pnl');
+  posPnlEl.textContent = (posPnl >= 0 ? '+' : '') + fmtUSD(posPnl) + ' (' + posPnlFmt.text + ')';
+  posPnlEl.className = 'kpi-sub ' + posPnlFmt.cls;
+
+  document.getElementById('trade-count').textContent = trades.length;
+  document.getElementById('sol-price-hint').textContent = 'SOL @ ' + fmtUSD(solPrice);
+  document.getElementById('updated').textContent = fmtTime(state.last_updated);
+}
+
+async function renderHoldings(state, watchlist) {
+  const ul = document.getElementById('holdings');
+  const positions = state.positions || {};
+  const solBalance = state.balance_sol || 0;
+  const solPrice = state.last_sol_price_usd || 0;
+
+  const items = [];
+
+  // Always show the SOL line first
+  items.push(`
+    <li class="position-item">
+      <div>
+        <div class="token-name">SOL <span class="token-symbol">native</span></div>
+        <div class="token-meta">${solBalance.toFixed(4)} tokens</div>
+      </div>
+      <div class="token-price">${fmtUSD(solPrice)}</div>
+      <div class="token-change neu">—</div>
+    </li>
+  `);
+
+  // Each token position
+  for (const [mint, pos] of Object.entries(positions)) {
+    let price = null;
+    let change = null;
+    const meta = (watchlist.tokens || []).find(t => t.mint === mint);
+    if (meta) {
+      price = meta.price_usd;
+      change = meta.price_change_h24;
+    }
+    const valueUSD = (price != null) ? (price * pos.amount) : null;
+    const entryCost = (pos.entry_price_usd || 0) * pos.amount;
+    const pnlUSD = (valueUSD != null && entryCost > 0) ? valueUSD - entryCost : null;
+    const pnlPct = (pnlUSD != null && entryCost > 0) ? (pnlUSD / entryCost * 100) : null;
+    const pnlFmt = fmtPct(pnlPct);
+
+    items.push(`
+      <li class="position-item">
+        <div>
+          <div class="token-name">${escapeHtml(pos.symbol || mint.slice(0,8))} <span class="token-symbol">${escapeHtml((pos.name || '').slice(0,20))}</span></div>
+          <div class="token-meta">${(pos.amount || 0).toFixed(2)} @ ${fmtUSD(pos.entry_price_usd)} entry</div>
+        </div>
+        <div class="token-price">${fmtUSD(valueUSD)}</div>
+        <div class="token-change ${pnlFmt.cls}">${pnlFmt.text}</div>
+      </li>
+    `);
+  }
+
+  if (items.length === 1) {
+    ul.innerHTML = '<li class="loading">No token positions yet. Bot is in observe mode (Phase 1).</li>';
+  } else {
+    ul.innerHTML = items.join('');
+  }
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[c]));
+}
+
+async function renderWatchlist(watchlist) {
+  const ul = document.getElementById('watchlist');
+  const meta = document.getElementById('watchlist-meta');
+  const tokens = watchlist.tokens || [];
+  meta.textContent = tokens.length + ' tokens';
+
+  if (tokens.length === 0) {
+    ul.innerHTML = '<li class="loading">No watchlist data yet.</li>';
+    return;
+  }
+
+  // Sort by market cap desc
+  tokens.sort((a, b) => (b.market_cap_usd || 0) - (a.market_cap_usd || 0));
+
+  ul.innerHTML = tokens.slice(0, 25).map(t => {
+    const price = t.price_usd;
+    const change = t.price_change_h24;
+    const chFmt = fmtPct(change);
+    const liq = t.liquidity_usd;
+    const vol = t.volume_h24;
+    const sym = escapeHtml(t.symbol || '?');
+    const name = escapeHtml((t.name || '').slice(0, 24));
+    const mcap = t.market_cap_usd;
+    const link = t.pair_url || ('https://dexscreener.com/solana/' + t.mint);
+    return `
+      <li class="token-item">
+        <div>
+          <div class="token-name">$${sym} <span class="token-symbol">${name}</span></div>
+          <div class="token-meta">mcap ${fmtUSD(mcap)} · liq ${fmtUSD(liq)} · vol24 ${fmtUSD(vol)}</div>
+        </div>
+        <div class="token-price">${fmtUSD(price)}</div>
+        <div class="token-change ${chFmt.cls}">${chFmt.text}</div>
+      </li>
+    `;
+  }).join('');
+}
+
+async function renderDecisions() {
+  const ul = document.getElementById('decisions');
+  try {
+    const md = await fetchText(DECISIONS_URL);
+    const lines = md.split('\n');
+    const decisions = [];
+    let current = null;
+    for (const line of lines) {
+      const m = line.match(/^## \[([^\]]+)\] (\S+) \| (.*)$/);
+      if (m) {
+        if (current) decisions.push(current);
+        current = { time: m[1], action: m[2], details: m[3], reason: '', data: '' };
+      } else if (current) {
+        const rm = line.match(/^- Reasoning: (.*)$/);
+        const dm = line.match(/^- Data: `(.*)`$/);
+        if (rm) current.reason = rm[1];
+        else if (dm) current.data = dm[1];
+      }
+    }
+    if (current) decisions.push(current);
+
+    const recent = decisions.slice(-10).reverse();
+    ul.innerHTML = recent.map(d => `
+      <li class="decision-item">
+        <div class="decision-time">${d.time}</div>
+        <span class="decision-action action-${d.action}">${d.action}</span>
+        ${escapeHtml(d.details)}
+        ${d.reason ? `<div class="token-meta" style="margin-top:0.25rem">${escapeHtml(d.reason)}</div>` : ''}
+      </li>
+    `).join('');
+  } catch (e) {
+    ul.innerHTML = '<li class="loading">No decisions yet.</li>';
+  }
+}
+
+async function refresh() {
+  try {
+    const [state, watchlist] = await Promise.all([
+      fetchJSON(STATE_URL),
+      fetchJSON(WATCHLIST_URL),
+    ]);
+    clearError();
+    await renderKPIs(state);
+    await renderHoldings(state, watchlist);
+    await renderWatchlist(watchlist);
+    await renderDecisions();
+  } catch (e) {
+    showError('Failed to load dashboard data: ' + e.message);
+  }
+}
+
+// Initial load + auto-refresh
+refresh();
+setInterval(refresh, REFRESH_MS);
+</script>
+</body>
+</html>

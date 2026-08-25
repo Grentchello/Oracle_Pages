@@ -1,0 +1,205 @@
+/* Memecoin trading dashboard — phone-first */
+:root {
+  --bg: #0b0f17;
+  --bg-card: #131926;
+  --bg-card-hover: #1a2030;
+  --border: #1f2937;
+  --fg: #e5e7eb;
+  --fg-muted: #9ca3af;
+  --accent: #14b8a6;
+  --green: #10b981;
+  --red: #ef4444;
+  --yellow: #f59e0b;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.dashboard {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+  margin: 0 0 0.25rem;
+}
+
+.subtitle {
+  color: var(--fg-muted);
+  font-size: 0.85rem;
+}
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 600px) {
+  .kpi-grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+.kpi {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem;
+}
+
+.kpi-label {
+  color: var(--fg-muted);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.kpi-value {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 0.25rem;
+}
+
+.kpi-sub {
+  font-size: 0.8rem;
+  color: var(--fg-muted);
+  margin-top: 0.25rem;
+}
+
+.pos { color: var(--green); }
+.neg { color: var(--red); }
+.neu { color: var(--fg-muted); }
+
+section {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+section h2 {
+  font-size: 1.1rem;
+  margin: 0 0 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hint {
+  color: var(--fg-muted);
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.token-list, .position-list, .decision-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.token-item, .position-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 0.5rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+
+.token-item:last-child, .position-item:last-child { border-bottom: 0; }
+
+.token-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.token-symbol {
+  color: var(--fg-muted);
+  font-size: 0.8rem;
+  margin-left: 0.25rem;
+}
+
+.token-meta {
+  font-size: 0.75rem;
+  color: var(--fg-muted);
+}
+
+.token-price {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+}
+
+.token-change {
+  text-align: right;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  min-width: 60px;
+}
+
+.decision-item {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+}
+
+.decision-item:last-child { border-bottom: 0; }
+
+.decision-time {
+  color: var(--fg-muted);
+  font-size: 0.75rem;
+  margin-bottom: 0.2rem;
+}
+
+.decision-action {
+  display: inline-block;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+}
+
+.action-observe { background: rgba(156, 163, 175, 0.2); color: var(--fg-muted); }
+.action-buy     { background: rgba(16, 185, 129, 0.2); color: var(--green); }
+.action-sell    { background: rgba(239, 68, 68, 0.2); color: var(--red); }
+.action-hold    { background: rgba(245, 158, 11, 0.2); color: var(--yellow); }
+
+footer {
+  text-align: center;
+  color: var(--fg-muted);
+  font-size: 0.75rem;
+  padding: 1rem 0;
+}
+
+.error-banner {
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid var(--red);
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+/* tiny spinner while data loads */
+.loading {
+  color: var(--fg-muted);
+  text-align: center;
+  padding: 2rem;
+}
