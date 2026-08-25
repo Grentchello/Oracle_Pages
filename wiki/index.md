@@ -15,6 +15,15 @@ title: oracle_Vault — Master Dashboard
 
 <div class="grid cards" markdown>
 
+-   :material-rocket-launch: **[Memecoin Trading Bot](projects/memecoin-trading/index.md)**
+
+    ---
+
+    **Status:** planning — research & design phase
+
+    Autonomous memecoin trading bot. Ground zero: deciding on chain, strategy,
+    and infrastructure before any code.
+
 -   :material-folder-open: **[Browse all projects](projects/index.md)**
 
     ---

@@ -11,7 +11,18 @@ title: Projects
 
 ## Active projects
 
-_No projects yet. Once a project is started, it appears here automatically._
+<div class="grid cards" markdown>
+
+-   :material-rocket-launch: **[Memecoin Trading Bot](memecoin-trading/index.md)**
+
+    ---
+
+    **Planning** — ground zero.
+
+    Autonomous trading bot for memecoins. Currently deciding on chain,
+    strategy, and infrastructure.
+
+</div>
 
 ## How to start a new project
 
