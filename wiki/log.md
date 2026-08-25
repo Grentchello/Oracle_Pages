@@ -91,3 +91,17 @@
 - 4 open positions from earlier run will exit via new SL/time-stop rules; learning starts fresh
 - Files: bot/bot.py (rewritten, 32KB), wiki/trading/index.html (daily bar, learning section, post-mortem in trade items), wiki/trading/assets/dashboard.css (new styles)
 - Already-deployed HTML has 9 references to new features, daily_target_pct=20 in state.json
+
+## [2026-08-25] update | Live price WebSocket via pumpportal.fun
+- Grant directive: prices move fast, dashboard must reflect live
+- Added WebSocket client to wiki/trading/index.html connecting to wss://pumpportal.fun/api/data
+- Subscribes to subscribeTokenTrade for all watchlist mints + held positions
+- Trade events update prices in real-time on the page (priceflash animation)
+- Re-subscribes automatically when watchlist/positions change
+- Auto-reconnects on disconnect
+- No git/Pages involvement — pure browser→pumpportal.fun stream
+- Bot still ticks every5 min for positions/PnL/stats; live stream just makes prices instant
+- Files: wiki/trading/index.html (added ~120 lines WS code), wiki/trading/assets/dashboard.css (price-live animation)
+- First closed trade under v2 strategy: $unc stopped out at -20.04%
+  - Post-mortem: "HIGH-MOMENTUM BUT REVERSED — entered too late, smart money already exiting"
+  - Real learning artifact for future strategy refinement
