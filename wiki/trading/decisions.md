@@ -49,3 +49,7 @@
 - Reasoning: Score 27.4 (24h change), passed all gates
 - Data: `{"position": {"symbol": "unc", "name": "unc", "amount": 8814.838129496404, "entry_price_usd": 0.001112, "entry_sol_spent": 0.1, "entry_time": "2026-08-25T13:16:54.234569+00:00", "entry_usd_value": 9.802100000000001, "entry_signals": {"liquidity_usd": 176033.4, "volume_h24": 311303.69, "price_change_h24": 27.39, "market_cap_usd": 1117524.2508741657}}, "score": 27.39}`
 
+## [2026-08-25 13:17 UTC] buy | Bought $BURNIE (CGEDT9QZ…) at $0.002519, spent 0.1 SOL ($9.80)
+- Reasoning: Score 5.5 (24h change), passed all gates
+- Data: `{"position": {"symbol": "BURNIE", "name": "Burnie Senders", "amount": 3890.0357284636757, "entry_price_usd": 0.002519, "entry_sol_spent": 0.1, "entry_time": "2026-08-25T13:17:51.462565+00:00", "entry_usd_value": 9.799, "entry_signals": {"liquidity_usd": 296448.4, "volume_h24": 72942.94, "price_change_h24": 5.52, "market_cap_usd": 2534424.2139905677}}, "score": 5.52}`
+

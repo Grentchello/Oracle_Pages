@@ -106,7 +106,7 @@ section h2 {
   font-weight: normal;
 }
 
-.token-list, .position-list, .decision-list {
+.token-list, .position-list, .decision-list, .trade-list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -121,7 +121,25 @@ section h2 {
   align-items: center;
 }
 
-.token-item:last-child, .position-item:last-child { border-bottom: 0; }
+.trade-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 0.5rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+}
+
+.trade-item:last-child,
+.token-item:last-child,
+.position-item:last-child { border-bottom: 0; }
+
+.exit-reason {
+  color: var(--yellow);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 
 .token-name {
   font-weight: 600;

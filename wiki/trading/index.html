@@ -21,7 +21,7 @@
 
   <section class="kpi-grid">
     <div class="kpi">
-      <div class="kpi-label">SOL Balance</div>
+      <div class="kpi-label">SOL Free</div>
       <div class="kpi-value" id="sol-balance">—</div>
       <div class="kpi-sub" id="sol-balance-usd">—</div>
     </div>
@@ -31,15 +31,22 @@
       <div class="kpi-sub" id="total-pnl">—</div>
     </div>
     <div class="kpi">
-      <div class="kpi-label">Positions</div>
-      <div class="kpi-value" id="position-count">0</div>
+      <div class="kpi-label">Open / Slots</div>
+      <div class="kpi-value"><span id="position-count">0</span>/<span id="position-max">5</span></div>
       <div class="kpi-sub" id="position-pnl">—</div>
     </div>
     <div class="kpi">
-      <div class="kpi-label">Trades</div>
-      <div class="kpi-value" id="trade-count">0</div>
-      <div class="kpi-sub">total</div>
+      <div class="kpi-label">Win Rate</div>
+      <div class="kpi-value" id="win-rate">—</div>
+      <div class="kpi-sub" id="total-pnl-sol">— SOL</div>
     </div>
+  </section>
+
+  <section>
+    <h2>Trade History <span class="hint" id="trades-summary">no closed trades yet</span></h2>
+    <ul class="trade-list" id="trades">
+      <li class="loading">Loading…</li>
+    </ul>
   </section>
 
   <section>
@@ -137,7 +144,7 @@ async function renderKPIs(state) {
   const totalValue = state.portfolio_value_usd || 0;
   const startValue = state.starting_balance_usd || totalValue;
   const positions = state.positions || {};
-  const trades = state.trades || [];
+  const stats = state.trade_stats || {};
 
   document.getElementById('sol-balance').textContent = fmtSOL(solBalance);
   document.getElementById('sol-balance-usd').textContent = '@ ' + fmtUSD(solPrice);
@@ -153,22 +160,32 @@ async function renderKPIs(state) {
 
   document.getElementById('position-count').textContent = Object.keys(positions).length;
 
-  let posPnl = 0;
-  let posStart = 0;
+  // positions P&L (sum of open position unrealized gains in USD)
+  let posPnlUSD = 0;
   for (const [mint, pos] of Object.entries(positions)) {
-    if (pos.entry_price_usd && pos.amount) {
-      posStart += pos.entry_price_usd * pos.amount;
+    const watchEntry = (state._watchlistCache || { tokens: [] }).tokens.find(t => t.mint === mint);
+    const curPrice = watchEntry ? parseFloat(watchEntry.price_usd) : null;
+    if (curPrice && pos.entry_price_usd) {
+      posPnlUSD += (curPrice - pos.entry_price_usd) * pos.amount;
     }
   }
-  // positions_value_usd is in state already
-  posPnl = (state.positions_value_usd || 0) - posStart;
-  const posPnlPct = posStart > 0 ? (posPnl / posStart * 100) : 0;
-  const posPnlFmt = fmtPct(posPnlPct);
   const posPnlEl = document.getElementById('position-pnl');
-  posPnlEl.textContent = (posPnl >= 0 ? '+' : '') + fmtUSD(posPnl) + ' (' + posPnlFmt.text + ')';
-  posPnlEl.className = 'kpi-sub ' + posPnlFmt.cls;
+  posPnlEl.textContent = (posPnlUSD >= 0 ? '+' : '') + fmtUSD(posPnlUSD) + ' unrealized';
+  posPnlEl.className = 'kpi-sub ' + (posPnlUSD >= 0 ? 'pos' : posPnlUSD < 0 ? 'neg' : 'neu');
 
-  document.getElementById('trade-count').textContent = trades.length;
+  // Win rate
+  if (stats.total > 0) {
+    document.getElementById('win-rate').textContent = stats.win_rate_pct + '%';
+    document.getElementById('total-pnl-sol').textContent =
+      (stats.total_pnl_sol >= 0 ? '+' : '') + stats.total_pnl_sol.toFixed(4) + ' SOL (' + stats.total + ' trades)';
+    document.getElementById('total-pnl-sol').className =
+      'kpi-sub ' + (stats.total_pnl_sol >= 0 ? 'pos' : 'neg');
+  } else {
+    document.getElementById('win-rate').textContent = '—';
+    document.getElementById('total-pnl-sol').textContent = 'no closed trades';
+    document.getElementById('total-pnl-sol').className = 'kpi-sub neu';
+  }
+
   document.getElementById('sol-price-hint').textContent = 'SOL @ ' + fmtUSD(solPrice);
   document.getElementById('updated').textContent = fmtTime(state.last_updated);
 }
@@ -185,8 +202,8 @@ async function renderHoldings(state, watchlist) {
   items.push(`
     <li class="position-item">
       <div>
-        <div class="token-name">SOL <span class="token-symbol">native</span></div>
-        <div class="token-meta">${solBalance.toFixed(4)} tokens</div>
+        <div class="token-name">SOL <span class="token-symbol">free</span></div>
+        <div class="token-meta">${solBalance.toFixed(4)} tokens · ${fmtUSD(solBalance * solPrice)}</div>
       </div>
       <div class="token-price">${fmtUSD(solPrice)}</div>
       <div class="token-change neu">—</div>
@@ -199,20 +216,24 @@ async function renderHoldings(state, watchlist) {
     let change = null;
     const meta = (watchlist.tokens || []).find(t => t.mint === mint);
     if (meta) {
-      price = meta.price_usd;
-      change = meta.price_change_h24;
+      price = parseFloat(meta.price_usd);
+      change = parseFloat(meta.price_change_h24);
     }
-    const valueUSD = (price != null) ? (price * pos.amount) : null;
+    const valueUSD = (price != null && !isNaN(price)) ? (price * pos.amount) : null;
     const entryCost = (pos.entry_price_usd || 0) * pos.amount;
     const pnlUSD = (valueUSD != null && entryCost > 0) ? valueUSD - entryCost : null;
     const pnlPct = (pnlUSD != null && entryCost > 0) ? (pnlUSD / entryCost * 100) : null;
     const pnlFmt = fmtPct(pnlPct);
 
+    const ageStr = pos.entry_time ? fmtTime(pos.entry_time) : '?';
+    const entrySym = escapeHtml(pos.symbol || mint.slice(0,8));
+    const entryName = escapeHtml((pos.name || '').slice(0,24));
+
     items.push(`
       <li class="position-item">
         <div>
-          <div class="token-name">${escapeHtml(pos.symbol || mint.slice(0,8))} <span class="token-symbol">${escapeHtml((pos.name || '').slice(0,20))}</span></div>
-          <div class="token-meta">${(pos.amount || 0).toFixed(2)} @ ${fmtUSD(pos.entry_price_usd)} entry</div>
+          <div class="token-name">$${entrySym} <span class="token-symbol">${entryName}</span></div>
+          <div class="token-meta">${pos.amount.toFixed(2)} @ ${fmtUSD(pos.entry_price_usd)} · ${ageStr}</div>
         </div>
         <div class="token-price">${fmtUSD(valueUSD)}</div>
         <div class="token-change ${pnlFmt.cls}">${pnlFmt.text}</div>
@@ -221,7 +242,7 @@ async function renderHoldings(state, watchlist) {
   }
 
   if (items.length === 1) {
-    ul.innerHTML = '<li class="loading">No token positions yet. Bot is in observe mode (Phase 1).</li>';
+    ul.innerHTML = '<li class="loading">No token positions yet.</li>';
   } else {
     ul.innerHTML = items.join('');
   }
@@ -270,6 +291,59 @@ async function renderWatchlist(watchlist) {
   }).join('');
 }
 
+async function renderTrades(state) {
+  const ul = document.getElementById('trades');
+  const summary = document.getElementById('trades-summary');
+  const trades = (state.trades || []).slice().reverse().slice(0, 20);
+  const stats = state.trade_stats || {};
+
+  if (stats.total > 0) {
+    const wins = stats.wins || 0;
+    const losses = stats.losses || 0;
+    const avg = stats.avg_pnl_pct || 0;
+    summary.textContent = `${stats.total} trades · ${wins}W/${losses}L · avg ${avg.toFixed(1)}% · best +${stats.best_pnl_pct}% / worst ${stats.worst_pnl_pct}%`;
+  } else {
+    summary.textContent = 'no closed trades yet';
+  }
+
+  if (trades.length === 0) {
+    ul.innerHTML = '<li class="loading">No closed trades yet. Positions will appear here after exit.</li>';
+    return;
+  }
+
+  ul.innerHTML = trades.map(t => {
+    const pnlPct = parseFloat(t.pnl_pct);
+    const cls = pnlPct >= 0 ? 'pos' : 'neg';
+    const sign = pnlPct >= 0 ? '+' : '';
+    const entryT = fmtTime(t.entry_time);
+    const exitT = fmtTime(t.exit_time);
+    const exitReason = escapeHtml(t.exit_reason || 'exit');
+    const sym = escapeHtml(t.symbol || '?');
+    const name = escapeHtml((t.name || '').slice(0,24));
+    const dur = computeDuration(t.entry_time, t.exit_time);
+    return `
+      <li class="trade-item">
+        <div>
+          <div class="token-name">$${sym} <span class="token-symbol">${name}</span></div>
+          <div class="token-meta">${entryT} → ${exitT} · ${dur} · <span class="exit-reason">${exitReason}</span></div>
+        </div>
+        <div class="token-price ${cls}">${sign}${pnlPct.toFixed(1)}%</div>
+        <div class="token-change ${cls}">${(t.pnl_sol >= 0 ? '+' : '') + t.pnl_sol.toFixed(4)} SOL</div>
+      </li>
+    `;
+  }).join('');
+}
+
+function computeDuration(start, end) {
+  try {
+    const s = new Date(start), e = new Date(end);
+    const sec = Math.round((e - s) / 1000);
+    if (sec < 3600) return Math.round(sec/60) + 'm';
+    if (sec < 86400) return (sec/3600).toFixed(1) + 'h';
+    return (sec/86400).toFixed(1) + 'd';
+  } catch (e) { return '?'; }
+}
+
 async function renderDecisions(state) {
   const ul = document.getElementById('decisions');
 
@@ -301,7 +375,10 @@ async function refresh() {
       fetchJSON(WATCHLIST_URL),
     ]);
     clearError();
+    // Cache the watchlist on state so renderKPIs can compute open-position unrealized PnL
+    state._watchlistCache = watchlist;
     await renderKPIs(state);
+    await renderTrades(state);
     await renderHoldings(state, watchlist);
     await renderWatchlist(watchlist);
     await renderDecisions(state);

@@ -624,7 +624,7 @@ def main():
     portfolio = compute_portfolio_value(state, sol_price, dex_data)
     stats = compute_trade_stats(state.get("trades", []))
     log(f"Portfolio: {portfolio['total_value_usd']} USD ({portfolio['sol_balance_value_usd']} SOL + "
-        f"{portfolio['positions_value_usd']} positions). Trades: {stats}")
+        f"${portfolio['positions_value_usd']} positions). Trades: {stats}")
 
     # 6. Update state
     state["last_updated"] = iso_now()
