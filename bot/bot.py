@@ -10,6 +10,7 @@ Run from this script's directory:
 """
 import json
 import os
+import re
 import sys
 import urllib.request
 import urllib.error
@@ -123,6 +124,38 @@ def fetch_dexscreener_for_mints(mints):
     except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as e:
         log(f"WARN: DexScreener fetch failed: {e}")
     return out
+
+
+def load_recent_decisions(max_n=20):
+    """Parse the last N decisions from decisions.md into a list of dicts.
+
+    Used to bundle decisions into state.json so the dashboard doesn't need
+    to fetch decisions.md separately (which MkDocs would otherwise intercept
+    and 404 on).
+    """
+    if not DECISIONS_PATH.exists():
+        return []
+    text = DECISIONS_PATH.read_text()
+    decisions = []
+    current = None
+    for line in text.splitlines():
+        m = re.match(r"^## \[([^\]]+)\] (\S+) \| (.*)$", line)
+        if m:
+            if current:
+                decisions.append(current)
+            current = {
+                "time": m.group(1),
+                "action": m.group(2),
+                "details": m.group(3),
+                "reason": "",
+            }
+        elif current:
+            rm = re.match(r"^- Reasoning: (.*)$", line)
+            if rm:
+                current["reason"] = rm.group(1)
+    if current:
+        decisions.append(current)
+    return decisions[-max_n:]
 
 
 def load_state():
@@ -280,13 +313,16 @@ def main():
     portfolio = compute_portfolio_value(state, sol_price, dex_data)
     log(f"Portfolio: {portfolio}")
 
-    # 6. Update state with portfolio value + timestamp
+    # 7. Update state with portfolio value + timestamp
     state["last_updated"] = datetime.now(timezone.utc).isoformat()
     state["last_sol_price_usd"] = sol_price
     state["portfolio_value_usd"] = portfolio["total_value_usd"]
     state["balance_usd_estimate"] = portfolio["sol_balance_value_usd"]
     if state.get("starting_balance_usd") is None:
         state["starting_balance_usd"] = portfolio["total_value_usd"]
+    # Bundle recent decisions so the dashboard can render them without
+    # fetching decisions.md (which MkDocs wraps as HTML and 404s)
+    state["recent_decisions"] = load_recent_decisions(max_n=20)
 
     # 7. Run decision policy
     decision = decide(state, sol_price, watchlist_state)

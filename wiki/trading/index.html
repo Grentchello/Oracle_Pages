@@ -71,7 +71,6 @@
 <script>
 const STATE_URL = 'state.json';
 const WATCHLIST_URL = 'watchlist.json';
-const DECISIONS_URL = 'decisions.md';
 const RAW_BASE = 'https://raw.githubusercontent.com/Grentchello/oracle_Vault/main/wiki/trading/';
 const REFRESH_MS = 30000;
 
@@ -271,39 +270,28 @@ async function renderWatchlist(watchlist) {
   }).join('');
 }
 
-async function renderDecisions() {
+async function renderDecisions(state) {
   const ul = document.getElementById('decisions');
-  try {
-    const md = await fetchText(DECISIONS_URL);
-    const lines = md.split('\n');
-    const decisions = [];
-    let current = null;
-    for (const line of lines) {
-      const m = line.match(/^## \[([^\]]+)\] (\S+) \| (.*)$/);
-      if (m) {
-        if (current) decisions.push(current);
-        current = { time: m[1], action: m[2], details: m[3], reason: '', data: '' };
-      } else if (current) {
-        const rm = line.match(/^- Reasoning: (.*)$/);
-        const dm = line.match(/^- Data: `(.*)`$/);
-        if (rm) current.reason = rm[1];
-        else if (dm) current.data = dm[1];
-      }
-    }
-    if (current) decisions.push(current);
 
-    const recent = decisions.slice(-10).reverse();
-    ul.innerHTML = recent.map(d => `
-      <li class="decision-item">
-        <div class="decision-time">${d.time}</div>
-        <span class="decision-action action-${d.action}">${d.action}</span>
-        ${escapeHtml(d.details)}
-        ${d.reason ? `<div class="token-meta" style="margin-top:0.25rem">${escapeHtml(d.reason)}</div>` : ''}
-      </li>
-    `).join('');
-  } catch (e) {
-    ul.innerHTML = '<li class="loading">No decisions yet.</li>';
+  // Decisions are bundled in state.json (under "recent_decisions") so we don't
+  // have to make a separate fetch for decisions.md, which MkDocs wraps as HTML.
+  const decisions = state.recent_decisions || [];
+
+  if (decisions.length === 0) {
+    ul.innerHTML = '<li class="loading">No decisions yet. Bot is in observe mode (Phase 1).</li>';
+    return;
   }
+
+  // Show newest first
+  const recent = decisions.slice(-10).reverse();
+  ul.innerHTML = recent.map(d => `
+    <li class="decision-item">
+      <div class="decision-time">${escapeHtml(d.time)}</div>
+      <span class="decision-action action-${escapeHtml(d.action)}">${escapeHtml(d.action)}</span>
+      ${escapeHtml(d.details)}
+      ${d.reason ? `<div class="token-meta" style="margin-top:0.25rem">${escapeHtml(d.reason)}</div>` : ''}
+    </li>
+  `).join('');
 }
 
 async function refresh() {
@@ -316,7 +304,7 @@ async function refresh() {
     await renderKPIs(state);
     await renderHoldings(state, watchlist);
     await renderWatchlist(watchlist);
-    await renderDecisions();
+    await renderDecisions(state);
   } catch (e) {
     showError('Failed to load dashboard data: ' + e.message);
   }
