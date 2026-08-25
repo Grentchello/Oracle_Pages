@@ -1,0 +1,38 @@
+/* Phone-friendly polish for oracle_Vault dashboard */
+
+/* Wider content on small screens */
+@media screen and (max-width: 600px) {
+  .md-grid {
+    max-width: 100%;
+  }
+  .md-content {
+    padding: 0.5rem;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Bigger tap targets */
+.md-nav__link {
+  padding: 0.6rem 0.8rem;
+}
+
+/* Cards get a touch more breathing room */
+.grid.cards > ul > li {
+  padding: 1.2rem;
+  border-radius: 8px;
+}
+
+/* Better contrast for project status badges */
+.md-typeset .admonition {
+  border-radius: 6px;
+}
+
+/* Hero section styling on dashboard */
+.md-typeset h1 + blockquote {
+  font-size: 1rem;
+  color: var(--md-default-fg-color--light);
+  border-left: 3px solid var(--md-primary-fg-color);
+  padding-left: 1rem;
+}
