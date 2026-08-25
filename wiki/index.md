@@ -39,7 +39,12 @@ title: oracle_Vault — Master Dashboard
 
 The latest daily journal entry:
 
-- **[Daily — 2026-08-25](daily/2026-08-25.md)** — Wiki bootstrap, auto-log skill, GitHub Pages dashboard
+- **[Daily — 2026-08-25](daily/2026-08-25.md)** — Vault bootstrap, auto-log skill, MkDocs master dashboard
+
+## Live systems
+
+- 📈 **[Memecoin Trading Dashboard](trading/index.html)** — paper trading bot, real Solana prices, 2 SOL paper portfolio
+- **[Workflow docs →](_meta/method.md)**
 
 See the [full daily journal](daily/index.md) for everything.
 

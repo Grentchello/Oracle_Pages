@@ -52,11 +52,20 @@
 
 ## [2026-08-25] create | First project: memecoin-trading
 - Ultimate goal: autonomous memecoin trading bot
-- Stage: ground zero — research & design phase
+- Phase 1 foundation: live real prices, paper portfolio, no decisions yet
 - Created wiki/projects/memecoin-trading/index.md with strategy candidates, infra decision table, status board
 - Added project to mkdocs.yml nav
 - Added project card to dashboard home (wiki/index.md) and projects/index.md
-- Build #4 in Oracle_Pages succeeded — project live at https://grentchello.github.io/Oracle_Pages/projects/memecoin-trading/
-- Files: wiki/projects/memecoin-trading/index.md (new), wiki/index.md (card added), wiki/projects/index.md (active list), mkdocs.yml (nav entry)
-- Vault commit: 2c7db1f
-- Oracle_Pages commits: b94b777 (rebuild trigger)
+- Built bot/bot.py: fetches SOL price from DexScreener, top runners from pump.fun, persists state.json + watchlist.json + decisions.md
+- Built wiki/trading/index.html + dashboard.css: phone-first, auto-refreshes every 30s, shows portfolio + holdings + watchlist + decisions
+- Set up bot/runner.py (background loop, every 5 min) + Hermes cronjob "memecoin-bot-tick" (every 5 min) — redundant scheduling
+- Verified: SOL price fetched live, 5-6 trending pump.fun tokens with DexScreener pairs, portfolio value computed, dashboard live at https://grentchello.github.io/Oracle_Pages/trading/
+- Build #5 in Oracle_Pages succeeded
+- Files: bot/bot.py, bot/runner.py, wiki/trading/index.html, wiki/trading/assets/dashboard.css, wiki/projects/memecoin-trading/index.md (revised), mkdocs.yml (added Trading nav)
+- Vault commits: 823180e (dashboard), bot's auto-commits
+- Oracle_Pages commit: 14aaa08 (rebuild trigger)
+
+## [2026-08-25] update | Trading dashboard live
+- Verified end-to-end: bot fetches live SOL price ($98.26), pushes to oracle_Vault, Pages rebuilds, dashboard loads
+- Bot runner PID 43132 running, will tick every 5 min until container restart
+- Hermes cronjob fc079fd07aa6 also scheduled (backup)
