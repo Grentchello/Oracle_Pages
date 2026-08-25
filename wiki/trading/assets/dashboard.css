@@ -237,6 +237,26 @@ footer {
   font-size: 0.85rem;
 }
 
+/* Live price highlight */
+.price-live {
+  color: var(--green) !important;
+  animation: priceflash 0.4s ease-out;
+}
+
+@keyframes priceflash {
+  0%   { background: rgba(20, 184, 166, 0.3); }
+  100% { background: transparent; }
+}
+
+#live-status {
+  color: var(--green);
+  font-weight: 600;
+}
+
+#live-status:not(:contains('●')) {
+  color: var(--fg-muted);
+}
+
 /* Daily progress bar */
 .daily-bar {
   width: 100%;

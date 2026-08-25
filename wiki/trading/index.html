@@ -13,7 +13,7 @@
   <header>
     <h1>Memecoin Trading Bot</h1>
     <div class="subtitle">
-      Paper trading with 2 SOL · Real prices · Updated <span id="updated">—</span>
+      Paper trading with 2 SOL · Real prices · Live stream <span id="live-status">connecting…</span>
     </div>
   </header>
 
@@ -300,7 +300,7 @@ async function renderHoldings(state, watchlist) {
     const entryName = escapeHtml((pos.name || '').slice(0,24));
 
     items.push(`
-      <li class="position-item">
+      <li class="position-item" data-mint="${escapeHtml(mint)}">
         <div>
           <div class="token-name">$${entrySym} <span class="token-symbol">${entryName}</span></div>
           <div class="token-meta">${pos.amount.toFixed(2)} @ ${fmtUSD(pos.entry_price_usd)} · ${ageStr}</div>
@@ -349,7 +349,7 @@ async function renderWatchlist(watchlist) {
     const mcap = t.market_cap_usd;
     const link = t.pair_url || ('https://dexscreener.com/solana/' + t.mint);
     return `
-      <li class="token-item">
+      <li class="token-item" data-mint="${escapeHtml(t.mint)}">
         <div>
           <div class="token-name">$${sym} <span class="token-symbol">${name}</span></div>
           <div class="token-meta">mcap ${fmtUSD(mcap)} · liq ${fmtUSD(liq)} · vol24 ${fmtUSD(vol)}</div>
@@ -450,6 +450,7 @@ async function refresh() {
     clearError();
     // Cache the watchlist on state so renderKPIs can compute open-position unrealized PnL
     state._watchlistCache = watchlist;
+    currentState = state;  // make available to live-price code
     await renderKPIs(state);
     await renderTrades(state);
     await renderLearning(state);
@@ -462,8 +463,124 @@ async function refresh() {
 }
 
 // Initial load + auto-refresh
+let currentState = {};
 refresh();
 setInterval(refresh, REFRESH_MS);
+
+// ============================================================================
+// Live price stream — pumpportal.fun WebSocket
+// ============================================================================
+// Subscribes to token trade events for the watchlist + held positions.
+// Prices update in real-time on the page without going through Git/Pages.
+const LIVE_WS_URL = 'wss://pumpportal.fun/api/data';
+const livePrices = {};       // mint -> { priceSol, ts, txType }
+let liveWs = null;
+let liveSubscriptions = new Set();
+
+function setLiveStatus(s) {
+  const el = document.getElementById('live-status');
+  if (el) el.textContent = s;
+}
+
+function connectLiveWS() {
+  try {
+    liveWs = new WebSocket(LIVE_WS_URL);
+  } catch (e) {
+    setLiveStatus('ws blocked');
+    return;
+  }
+  liveWs.onopen = () => {
+    setLiveStatus('● live');
+    if (liveSubscriptions.size > 0) {
+      liveWs.send(JSON.stringify({
+        method: 'subscribeTokenTrade',
+        keys: Array.from(liveSubscriptions),
+      }));
+    }
+  };
+  liveWs.onmessage = (event) => {
+    try {
+      const msg = JSON.parse(event.data);
+      handleLiveMessage(msg);
+    } catch (e) {}
+  };
+  liveWs.onerror = () => setLiveStatus('error');
+  liveWs.onclose = () => {
+    setLiveStatus('reconnecting…');
+    setTimeout(connectLiveWS, 2000);
+  };
+}
+
+function handleLiveMessage(msg) {
+  if (!msg || !msg.mint) return;
+  const mint = msg.mint;
+  if (!liveSubscriptions.has(mint)) return;
+  const solAmount = parseFloat(msg.solAmount) || 0;
+  const tokenAmount = parseFloat(msg.tokenAmount) || 0;
+  if (solAmount > 0 && tokenAmount > 0) {
+    // pumpportal returns amounts in lamports / base units
+    const sol = solAmount / 1e9;
+    const tokens = tokenAmount / 1e6;  // pump.fun tokens are 6 decimals (most common)
+    const priceInSol = sol / tokens;
+    livePrices[mint] = {
+      priceSol: priceInSol,
+      ts: msg.timestamp || Date.now(),
+      txType: msg.txType,
+      source: 'live',
+    };
+    applyLivePrices();
+  }
+}
+
+function resubscribeLive() {
+  if (!liveWs || liveWs.readyState !== WebSocket.OPEN) return;
+  liveWs.send(JSON.stringify({
+    method: 'subscribeTokenTrade',
+    keys: Array.from(liveSubscriptions),
+  }));
+}
+
+function updateLiveSubscriptions(newMints) {
+  const want = new Set(newMints.filter(Boolean));
+  const same = want.size === liveSubscriptions.size &&
+               Array.from(want).every(m => liveSubscriptions.has(m));
+  if (same) return;
+  liveSubscriptions = want;
+  resubscribeLive();
+}
+
+function applyLivePrices() {
+  const solPriceUsd = currentState.last_sol_price_usd || 0;
+  document.querySelectorAll('[data-mint]').forEach(row => {
+    const mint = row.getAttribute('data-mint');
+    const lp = livePrices[mint];
+    if (!lp) return;
+    const priceEl = row.querySelector('.token-price');
+    if (priceEl && lp.priceSol !== undefined) {
+      const priceUsd = lp.priceSol * solPriceUsd;
+      priceEl.textContent = fmtUSD(priceUsd);
+      priceEl.classList.add('price-live');
+      priceEl.title = `Live · ${lp.txType} · ${new Date(lp.ts).toLocaleTimeString()}`;
+    }
+  });
+}
+
+// Hook into refresh so we re-subscribe when watchlist/positions change
+const _origRefresh = refresh;
+refresh = function() {
+  return _origRefresh().then(() => {
+    if (currentState && currentState._watchlistCache) {
+      const allMints = [
+        ...(currentState._watchlistCache.tokens || []).map(t => t.mint),
+        ...Object.keys(currentState.positions || {}),
+      ];
+      updateLiveSubscriptions(allMints);
+      applyLivePrices();
+    }
+  });
+};
+
+connectLiveWS();
 </script>
 </body>
 </html>
