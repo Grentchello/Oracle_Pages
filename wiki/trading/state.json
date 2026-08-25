@@ -1,6 +1,6 @@
 {
-  "balance_sol": 1.57994,
-  "balance_usd_estimate": 153.9,
+  "balance_sol": 1.697281,
+  "balance_usd_estimate": 165.4,
   "starting_balance_usd": 196.46,
   "positions": {
     "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": {
@@ -47,37 +47,6 @@
         "price_change_h24": 1.97,
         "market_cap_usd": 12460053.311316442
       }
-    },
-    "ACtfUWtgvaXrQGNMiohTusi5jcx5RJf5zwu9aAxkpump": {
-      "symbol": "unc",
-      "name": "unc",
-      "amount": 11026.878092667568,
-      "entry_price_usd": 0.0008892,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-25T17:35:17.216242+00:00",
-      "entry_usd_value": 9.805100000000001,
-      "entry_signals": {
-        "liquidity_usd": 157106.35,
-        "volume_h24": 216428.94,
-        "price_change_h24": 2.25,
-        "market_cap_usd": 893240.2299669188
-      },
-      "entry_score_components": {
-        "chg24": 2.25,
-        "chg1h": 0.0,
-        "chg5m": 0.0,
-        "liquidity_usd": 157106.35,
-        "volume_24h_usd": 216428.94,
-        "vol_liq_ratio": 1.38,
-        "recency_min": 0.1,
-        "score_breakdown": {
-          "base_24h": 2.25,
-          "recency_bonus": 10,
-          "turnover_bonus": 4.1,
-          "short_momentum": 0.0,
-          "total": 16.4
-        }
-      }
     }
   },
   "trades": [
@@ -121,19 +90,54 @@
         },
         "fraction_sold": 1.0
       }
+    },
+    {
+      "mint": "ACtfUWtgvaXrQGNMiohTusi5jcx5RJf5zwu9aAxkpump",
+      "symbol": "unc",
+      "name": "unc",
+      "amount_sold": 11026.878092667568,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-25T17:35:17.216242+00:00",
+      "exit_time": "2026-08-25T22:07:57.833232+00:00",
+      "entry_price_usd": 0.0008892,
+      "exit_price_usd": 0.001037,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.117341,
+      "pnl_sol": 0.017341,
+      "pnl_pct": 16.62,
+      "exit_reason": "momentum-fade (+16.6% locked, 24h now -1.9%)",
+      "entry_signals": {
+        "liquidity_usd": 157106.35,
+        "volume_h24": 216428.94,
+        "price_change_h24": 2.25,
+        "market_cap_usd": 893240.2299669188
+      },
+      "exit_signals": {
+        "price_change_h24": -1.87,
+        "liquidity_usd": 169339.45,
+        "volume_h24": 199624.8
+      },
+      "holding_seconds": 16359.605804,
+      "partial": false,
+      "post_mortem": {
+        "diagnosis": "WIN — captured +16.6% via momentum-fade (+16.6% locked, 24h now -1.9%)",
+        "entry_vs_exit": {
+          "chg24_entry": 2.25,
+          "chg24_exit": -1.87,
+          "liq_entry": 157106.35,
+          "liq_exit": 169339.45,
+          "vol24_entry": 216428.94,
+          "vol24_exit": 199624.8
+        },
+        "fraction_sold": 1.0
+      }
     }
   ],
-  "last_updated": "2026-08-25T22:06:26.252925+00:00",
+  "last_updated": "2026-08-25T22:07:57.834105+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.41,
-  "portfolio_value_usd": 192.65,
+  "last_sol_price_usd": 97.45,
+  "portfolio_value_usd": 192.89,
   "recent_decisions": [
-    {
-      "time": "2026-08-25 20:32 UTC",
-      "action": "observe",
-      "details": "No trades this tick. 4/5 positions, 1.580 SOL free, 6 tokens watched",
-      "reason": "no candidate passed gates (considered 2)"
-    },
     {
       "time": "2026-08-25 20:37 UTC",
       "action": "observe",
@@ -247,23 +251,29 @@
       "action": "observe",
       "details": "No trades this tick. 4/5 positions, 1.580 SOL free, 6 tokens watched",
       "reason": "no candidate passed gates (considered 2)"
+    },
+    {
+      "time": "2026-08-25 22:07 UTC",
+      "action": "sell",
+      "details": "[FULL] Closed $unc (ACtfUWtg…) at $0.001037 | P&L: +16.6% | momentum-fade (+16.6% locked, 24h now -1.9%)",
+      "reason": "WIN — captured +16.6% via momentum-fade (+16.6% locked, 24h now -1.9%)"
     }
   ],
   "trade_stats": {
-    "total": 1,
-    "wins": 0,
+    "total": 2,
+    "wins": 1,
     "losses": 1,
-    "win_rate_pct": 0.0,
-    "total_pnl_sol": -0.02006,
-    "avg_pnl_pct": -20.04,
-    "best_pnl_pct": -20.04,
+    "win_rate_pct": 50.0,
+    "total_pnl_sol": -0.002719,
+    "avg_pnl_pct": -1.71,
+    "best_pnl_pct": 16.62,
     "worst_pnl_pct": -20.04,
-    "today_trades": 1,
-    "today_realized_sol": -0.02006,
-    "today_target_pct": -5.0,
+    "today_trades": 2,
+    "today_realized_sol": -0.002719,
+    "today_target_pct": -0.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 0,
+      "win_count": 1,
       "loss_count": 1,
       "note": "need ≥3 wins and ≥3 losses for signal analysis"
     }
