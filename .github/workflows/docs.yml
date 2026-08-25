@@ -1,0 +1,57 @@
+name: Build Oracle Pages dashboard
+
+on:
+  # Manual trigger
+  workflow_dispatch:
+
+  # Scheduled: every 10 minutes (catches content changes in oracle_Vault)
+  schedule:
+    - cron: '*/10 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - name: Clone private source (oracle_Vault)
+        uses: actions/checkout@v4
+        with:
+          repository: Grentchello/oracle_Vault
+          token: ${{ secrets.ORACLE_VAULT_PAT }}
+          path: oracle_Vault
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs mkdocs-material pymdown-extensions
+
+      - name: Build MkDocs site
+        run: mkdocs build --strict --site-dir ../site
+        working-directory: oracle_Vault
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
