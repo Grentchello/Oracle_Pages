@@ -362,10 +362,13 @@ async function renderWatchlist(watchlist) {
 }
 
 async function renderTrades(state) {
+  try {
   const ul = document.getElementById('trades');
   const summary = document.getElementById('trades-summary');
   const trades = (state.trades || []).slice().reverse().slice(0, 20);
   const stats = state.trade_stats || {};
+
+  console.log('[renderTrades] trades:', trades.length, 'stats keys:', Object.keys(stats));
 
   if (stats.total > 0) {
     const wins = stats.wins || 0;
@@ -405,6 +408,11 @@ async function renderTrades(state) {
       </li>
     `;
   }).join('');
+  } catch (e) {
+    console.error('[renderTrades ERROR]', e.message, e.stack);
+    const ul = document.getElementById('trades');
+    if (ul) ul.innerHTML = '<li class="loading">renderTrades error: ' + escapeHtml(e.message) + '</li>';
+  }
 }
 
 function computeDuration(start, end) {
@@ -452,13 +460,13 @@ async function refresh() {
     state._watchlistCache = watchlist;
     currentState = state;  // make available to live-price code
     await renderKPIs(state);
-    await renderTrades(state);
-    await renderLearning(state);
-    await renderHoldings(state, watchlist);
-    await renderWatchlist(watchlist);
-    await renderDecisions(state);
+    try { await renderTrades(state); } catch (e) { console.error('renderTrades:', e); }
+    try { await renderLearning(state); } catch (e) { console.error('renderLearning:', e); }
+    try { await renderHoldings(state, watchlist); } catch (e) { console.error('renderHoldings:', e); }
+    try { await renderWatchlist(watchlist); } catch (e) { console.error('renderWatchlist:', e); }
+    try { await renderDecisions(state); } catch (e) { console.error('renderDecisions:', e); }
   } catch (e) {
-    showError('Failed to load dashboard data: ' + e.message);
+    showError('Failed to load dashboard data: ' + e.message + ' — ' + (e.stack || '').split('\n')[1]);
   }
 }
 
