@@ -53,3 +53,7 @@
 - Reasoning: Score 5.5 (24h change), passed all gates
 - Data: `{"position": {"symbol": "BURNIE", "name": "Burnie Senders", "amount": 3890.0357284636757, "entry_price_usd": 0.002519, "entry_sol_spent": 0.1, "entry_time": "2026-08-25T13:17:51.462565+00:00", "entry_usd_value": 9.799, "entry_signals": {"liquidity_usd": 296448.4, "volume_h24": 72942.94, "price_change_h24": 5.52, "market_cap_usd": 2534424.2139905677}}, "score": 5.52}`
 
+## [2026-08-25 13:17 UTC] buy | Bought $neet (Ce2gx9KG…) at $0.03689, spent 0.1 SOL ($9.80)
+- Reasoning: Score 3.5 (24h change), passed all gates
+- Data: `{"position": {"symbol": "neet", "name": "NotInEmploymentEducationTraining", "amount": 265.6275413391163, "entry_price_usd": 0.03689, "entry_sol_spent": 0.1, "entry_time": "2026-08-25T13:17:53.014560+00:00", "entry_usd_value": 9.799, "entry_signals": {"liquidity_usd": 1828431.13, "volume_h24": 409790.77, "price_change_h24": 3.46, "market_cap_usd": 36753522.865001716}}, "score": 3.46}`
+
