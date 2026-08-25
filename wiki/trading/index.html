@@ -368,7 +368,8 @@ async function renderTrades(state) {
   const trades = (state.trades || []).slice().reverse().slice(0, 20);
   const stats = state.trade_stats || {};
 
-  console.log('[renderTrades] trades:', trades.length, 'stats keys:', Object.keys(stats));
+  // Visible diagnostic
+  summary.textContent = `[dbg] trades=${trades.length} stats.total=${stats.total} stats.wins=${stats.wins}`;
 
   if (stats.total > 0) {
     const wins = stats.wins || 0;
