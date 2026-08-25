@@ -31,3 +31,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- rebuild after live ws -->
 
 <!-- live ws after bot push -->
+
+<!-- live ws + first trade -->
