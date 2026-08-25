@@ -40,11 +40,17 @@ MAX_POSITIONS = 5                # max concurrent positions
 MIN_LIQUIDITY_USD = 5000         # skip tokens with less liquidity
 MIN_VOLUME_24H_USD = 10000       # skip tokens with less 24h volume
 MIN_PRICE_CHANGE_24H = 0.0       # skip if 24h change is negative
-TAKE_PROFIT_MULT = 1.5           # sell at +50%
-STOP_LOSS_MULT = 0.7             # sell at -30%
-MAX_HOLD_SECONDS = 24 * 3600     # exit after 24h if neither TP/SL
-MOMENTUM_FADE_MIN_PROFIT = 0.2   # exit on momentum fade only if ≥+20% profit
+TAKE_PROFIT_MULT = 1.30          # sell HALF at +30% (partial TP)
+TAKE_PROFIT_FULL_MULT = 1.60     # sell remainder at +60%
+STOP_LOSS_MULT = 0.80            # sell at -20% (tighter — faster exit on losers)
+MAX_HOLD_SECONDS = 12 * 3600     # exit after 12h if neither TP/SL (was 24h)
+MOMENTUM_FADE_MIN_PROFIT = 0.15  # exit on momentum fade if ≥+15% profit
 PRICE_STALE_SECONDS = 1800       # skip tokens whose last trade is >30min old
+MIN_SCORE = 5.0                  # momentum score threshold for entry
+
+# === Daily target ===
+DAILY_TARGET_PNL_PCT = 20.0     # % target for paper portfolio in 24h
+PARTIAL_TP_FRACTION = 0.5        # sell 50% at first TP
 
 # === Network ===
 TIMEOUT = 15
@@ -293,33 +299,82 @@ def compute_portfolio_value(state, sol_price, dex_data):
 
 def evaluate_entry_signals(token, pair, now):
     """
-    Returns (passes: bool, reason: str, score: float).
-    Score is a momentum score — higher = stronger signal.
+    Returns (passes: bool, reason: str, score: float, components: dict).
+
+    Scoring (higher = stronger momentum, more likely to enter):
+      base          = 24h price change %
+      velocity      = how recently the token traded (recency bonus)
+      vol_liq_ratio = vol24h / liquidity (turnover intensity)
+      mcap_velocity = mcap relative to ATH — recent movers haven't dumped yet
+      liquidity_bonus = log(liquidity) — bigger pools are safer
+
+    Score must exceed MIN_SCORE to be entered.
     """
     if not pair:
-        return False, "no DexScreener pair data", 0
+        return False, "no DexScreener pair data", 0, {}
     price_usd = _to_float(pair.get("priceUsd"))
     if price_usd <= 0:
-        return False, "no USD price", 0
+        return False, "no USD price", 0, {}
     liq = _to_float((pair.get("liquidity") or {}).get("usd"))
     vol24 = _to_float((pair.get("volume") or {}).get("h24"))
     chg24 = _to_float((pair.get("priceChange") or {}).get("h24"))
+    chg1h = _to_float((pair.get("priceChange") or {}).get("h1"))
+    chg5m = _to_float((pair.get("priceChange") or {}).get("m5"))
     last_trade_ts = token.get("last_trade_ts")
+    age_min = None
     if last_trade_ts:
         age_sec = (now.timestamp() * 1000 - last_trade_ts) / 1000
+        age_min = age_sec / 60
         if age_sec > PRICE_STALE_SECONDS:
-            return False, f"stale price ({age_sec/60:.0f}min old)", 0
+            return False, f"stale price ({age_min:.0f}min old)", 0, {}
 
     if liq < MIN_LIQUIDITY_USD:
-        return False, f"low liquidity ${liq:.0f} < ${MIN_LIQUIDITY_USD}", 0
+        return False, f"low liquidity ${liq:.0f} < ${MIN_LIQUIDITY_USD}", 0, {}
     if vol24 < MIN_VOLUME_24H_USD:
-        return False, f"low 24h volume ${vol24:.0f} < ${MIN_VOLUME_24H_USD}", 0
+        return False, f"low 24h volume ${vol24:.0f} < ${MIN_VOLUME_24H_USD}", 0, {}
     if chg24 < MIN_PRICE_CHANGE_24H:
-        return False, f"negative 24h change {chg24:.1f}%", 0
+        return False, f"negative 24h change {chg24:.1f}%", 0, {}
 
-    # Score = momentum intensity
-    score = chg24  # simple proxy: higher 24h gain = stronger momentum
-    return True, "all gates passed", score
+    # Velocity — fresh trades = active token
+    recency_bonus = 0
+    if age_min is not None:
+        if age_min < 5:
+            recency_bonus = 10      # actively trading right now
+        elif age_min < 30:
+            recency_bonus = 5
+        elif age_min < 120:
+            recency_bonus = 2
+
+    # Vol/liq ratio — high turnover = real interest (cap to avoid absurd scores)
+    vol_liq_ratio = (vol24 / liq) if liq > 0 else 0
+    turnover_bonus = min(vol_liq_ratio * 3, 15)  # cap at 15
+
+    # Recent momentum — 1h and 5m changes (very aggressive boost if pumping hard now)
+    short_momentum = max(chg1h * 0.5, chg5m * 2) if chg1h is not None or chg5m is not None else 0
+
+    score = chg24 + recency_bonus + turnover_bonus + short_momentum
+
+    components = {
+        "chg24": chg24,
+        "chg1h": chg1h,
+        "chg5m": chg5m,
+        "liquidity_usd": liq,
+        "volume_24h_usd": vol24,
+        "vol_liq_ratio": round(vol_liq_ratio, 2),
+        "recency_min": round(age_min, 1) if age_min else None,
+        "score_breakdown": {
+            "base_24h": chg24,
+            "recency_bonus": recency_bonus,
+            "turnover_bonus": round(turnover_bonus, 1),
+            "short_momentum": round(short_momentum, 1),
+            "total": round(score, 1),
+        }
+    }
+
+    if score < MIN_SCORE:
+        return False, f"score {score:.1f} below threshold {MIN_SCORE}", score, components
+
+    return True, "all gates passed", score, components
 
 
 def find_entry_candidate(state, watchlist, now):
@@ -335,21 +390,20 @@ def find_entry_candidate(state, watchlist, now):
     best_score = -1e9
     best_reason = ""
     best_token = None
+    best_components = {}
     considered = 0
 
     for token in watchlist.get("tokens", []):
         mint = token.get("mint")
         if not mint or mint in held_mints:
             continue
-        # DexScreener pair data was attached during build_watchlist_state
-        # Build a temporary pair dict from the watchlist token
         pair = {
             "priceUsd": token.get("price_usd"),
             "liquidity": {"usd": token.get("liquidity_usd")},
             "volume": {"h24": token.get("volume_h24")},
             "priceChange": {"h24": token.get("price_change_h24")},
         }
-        passes, reason, score = evaluate_entry_signals(token, pair, now)
+        passes, reason, score, components = evaluate_entry_signals(token, pair, now)
         considered += 1
         if not passes:
             continue
@@ -358,10 +412,11 @@ def find_entry_candidate(state, watchlist, now):
             best_score = score
             best_reason = reason
             best_token = token
+            best_components = components
 
     if best is None:
         return None, f"no candidate passed gates (considered {considered})"
-    return best, {"reason": best_reason, "score": best_score, "token": best_token}
+    return best, {"reason": best_reason, "score": best_score, "token": best_token, "components": best_components}
 
 
 # =====================================================================
@@ -369,34 +424,45 @@ def find_entry_candidate(state, watchlist, now):
 # =====================================================================
 
 def evaluate_exit(position, current_price_usd, current_change_24h, now):
-    """Return (should_exit: bool, reason: str, pnl_pct: float)."""
+    """
+    Return (should_exit: bool, reason: str, pnl_pct: float, action: str, fraction: float).
+
+    action: 'full' = sell all, 'partial' = sell PARTIAL_TP_FRACTION
+    """
     entry_price = position["entry_price_usd"]
     if not entry_price or current_price_usd is None:
-        return False, "no price data", 0.0
+        return False, "no price data", 0.0, "hold", 0.0
 
     pnl_mult = current_price_usd / entry_price
     pnl_pct = (pnl_mult - 1.0) * 100.0
 
-    # Take profit
-    if pnl_mult >= TAKE_PROFIT_MULT:
-        return True, f"take-profit (+{(pnl_mult-1)*100:.1f}%)", pnl_pct
+    # Has this position already taken a partial profit?
+    partial_taken = position.get("partial_tp_taken", False)
 
-    # Stop loss
+    # Full take-profit on the remaining position
+    if partial_taken and pnl_mult >= TAKE_PROFIT_FULL_MULT:
+        return True, f"full-take-profit (+{(pnl_mult-1)*100:.1f}%)", pnl_pct, "full", 1.0
+
+    # First partial take-profit
+    if not partial_taken and pnl_mult >= TAKE_PROFIT_MULT:
+        return True, f"partial-take-profit (+{(pnl_mult-1)*100:.1f}%)", pnl_pct, "partial", PARTIAL_TP_FRACTION
+
+    # Stop loss — always full exit
     if pnl_mult <= STOP_LOSS_MULT:
-        return True, f"stop-loss ({(pnl_mult-1)*100:.1f}%)", pnl_pct
+        return True, f"stop-loss ({(pnl_mult-1)*100:.1f}%)", pnl_pct, "full", 1.0
 
     # Time stop
     entry_time = parse_iso(position.get("entry_time"))
     if entry_time:
         held_for = (now - entry_time).total_seconds()
         if held_for >= MAX_HOLD_SECONDS:
-            return True, f"time-stop ({held_for/3600:.1f}h held)", pnl_pct
+            return True, f"time-stop ({held_for/3600:.1f}h held)", pnl_pct, "full", 1.0
 
     # Momentum fade — exit if 24h change has flipped negative AND we're in profit
     if current_change_24h is not None and current_change_24h < 0 and pnl_pct >= MOMENTUM_FADE_MIN_PROFIT * 100:
-        return True, f"momentum-fade (+{pnl_pct:.1f}% locked in, 24h now {current_change_24h:.1f}%)", pnl_pct
+        return True, f"momentum-fade (+{pnl_pct:.1f}% locked, 24h now {current_change_24h:.1f}%)", pnl_pct, "full", 1.0
 
-    return False, "hold", pnl_pct
+    return False, "hold", pnl_pct, "hold", 0.0
 
 
 # =====================================================================
@@ -443,40 +509,131 @@ def execute_buy(state, mint, token, price_usd, now):
     return True, position
 
 
-def execute_sell(state, mint, price_usd, reason, now):
-    """Close a position, credit SOL balance, append to trades ledger."""
+def execute_sell(state, mint, price_usd, reason, now, fraction=1.0,
+                exit_signals=None, holding_seconds=None):
+    """
+    Close a position (full or partial), credit SOL balance, append to trades ledger.
+    For partial sells, the position stays open with reduced amount.
+
+    fraction: 1.0 = sell all, 0.5 = sell half (leaves rest open)
+    exit_signals: dict with current market data at exit (for post-mortem)
+    """
     pos = state["positions"].get(mint)
     if not pos:
         return False, "no such position"
 
     sol_price_usd = _to_float(state.get("last_sol_price_usd", 0))
-    usd_value_at_exit = pos["amount"] * price_usd
+
+    # Compute sell amount based on fraction
+    total_amount = pos["amount"]
+    sell_amount = total_amount * fraction
+    remaining_amount = total_amount - sell_amount
+
+    usd_value_at_exit = sell_amount * price_usd
     sol_proceeds = usd_value_at_exit / sol_price_usd if sol_price_usd > 0 else 0
 
-    entry_sol = pos["entry_sol_spent"]
-    pnl_sol = sol_proceeds - entry_sol
+    # For PnL attribution, split the original entry cost proportionally
+    entry_sol_total = pos["entry_sol_spent"]
+    entry_sol_for_this_chunk = entry_sol_total * fraction
+    pnl_sol = sol_proceeds - entry_sol_for_this_chunk
     pnl_pct = (price_usd / pos["entry_price_usd"] - 1.0) * 100.0 if pos["entry_price_usd"] > 0 else 0.0
 
     trade = {
         "mint": mint,
         "symbol": pos.get("symbol", "?"),
         "name": pos.get("name", "?"),
-        "amount": pos["amount"],
+        "amount_sold": sell_amount,
+        "fraction_sold": fraction,
         "entry_time": pos.get("entry_time"),
         "exit_time": iso_now(),
         "entry_price_usd": pos["entry_price_usd"],
         "exit_price_usd": price_usd,
-        "entry_sol_spent": entry_sol,
+        "entry_sol_for_chunk": round(entry_sol_for_this_chunk, 6),
         "exit_sol_received": round(sol_proceeds, 6),
         "pnl_sol": round(pnl_sol, 6),
         "pnl_pct": round(pnl_pct, 2),
         "exit_reason": reason,
         "entry_signals": pos.get("entry_signals", {}),
+        "exit_signals": exit_signals or {},
+        "holding_seconds": holding_seconds,
+        "partial": fraction < 1.0,
+        "post_mortem": generate_post_mortem(pos, price_usd, reason, exit_signals, holding_seconds, fraction),
     }
     state["trades"].append(trade)
     state["balance_sol"] = round(state.get("balance_sol", 0) + sol_proceeds, 6)
-    del state["positions"][mint]
+
+    if fraction >= 0.999:
+        # Full exit — remove position
+        del state["positions"][mint]
+    else:
+        # Partial exit — update remaining amount + mark partial TP taken
+        pos["amount"] = remaining_amount
+        pos["partial_tp_taken"] = True
+        pos["entry_sol_spent"] = entry_sol_total * (1 - fraction)  # remaining cost basis
+
     return True, trade
+
+
+def generate_post_mortem(position, exit_price, exit_reason, exit_signals, holding_seconds, fraction):
+    """
+    Generate a structured post-mortem explaining why this trade performed as it did.
+    Compares entry signals to exit signals to identify what changed.
+    """
+    entry_signals = position.get("entry_signals", {})
+    entry_price = position["entry_price_usd"]
+    pnl_pct = (exit_price / entry_price - 1) * 100 if entry_price > 0 else 0
+
+    # What we thought vs what happened
+    entry_chg = entry_signals.get("price_change_h24", "?")
+    exit_chg = exit_signals.get("price_change_h24", "?")
+    entry_liq = entry_signals.get("liquidity_usd", "?")
+    exit_liq = exit_signals.get("liquidity_usd", "?")
+    entry_vol = entry_signals.get("volume_h24", "?")
+    exit_vol = exit_signals.get("volume_h24", "?")
+
+    diagnosis_parts = []
+    if pnl_pct > 0:
+        diagnosis_parts.append(f"WIN — captured +{pnl_pct:.1f}% via {exit_reason}")
+    else:
+        diagnosis_parts.append(f"LOSS — exited at {pnl_pct:.1f}% via {exit_reason}")
+
+    # Was our entry thesis correct?
+    if entry_chg != "?" and exit_chg != "?":
+        try:
+            if float(entry_chg) > 20 and pnl_pct > 0:
+                diagnosis_parts.append("high-momentum entry thesis worked")
+            elif float(entry_chg) > 20 and pnl_pct < 0:
+                diagnosis_parts.append("HIGH-MOMENTUM BUT REVERSED — entered too late, smart money already exiting")
+            elif float(entry_chg) < 10 and pnl_pct < 0:
+                diagnosis_parts.append("weak momentum didn't sustain — entry signal too soft")
+        except (ValueError, TypeError):
+            pass
+
+    if exit_liq != "?" and entry_liq != "?":
+        try:
+            liq_drop_pct = (float(entry_liq) - float(exit_liq)) / float(entry_liq) * 100 if float(entry_liq) > 0 else 0
+            if liq_drop_pct > 30:
+                diagnosis_parts.append(f"liquidity dropped {liq_drop_pct:.0f}% — rug pull risk materializing")
+        except (ValueError, TypeError):
+            pass
+
+    if holding_seconds is not None:
+        hours = holding_seconds / 3600
+        if hours > 12 and abs(pnl_pct) < 10:
+            diagnosis_parts.append(f"held {hours:.1f}h with no clear direction — should have exited earlier")
+
+    return {
+        "diagnosis": ". ".join(diagnosis_parts),
+        "entry_vs_exit": {
+            "chg24_entry": entry_chg,
+            "chg24_exit": exit_chg,
+            "liq_entry": entry_liq,
+            "liq_exit": exit_liq,
+            "vol24_entry": entry_vol,
+            "vol24_exit": exit_vol,
+        },
+        "fraction_sold": fraction,
+    }
 
 
 # =====================================================================
@@ -561,26 +718,43 @@ def main():
     # 3. Evaluate exits for open positions
     exits = []
     for mint, pos in list(state.get("positions", {}).items()):
-        # Find current data for this mint in watchlist
         token = next((t for t in watchlist_state["tokens"] if t["mint"] == mint), None)
         if token is None:
-            # No live data — skip exit check this tick
             continue
         current_price = _to_float(token.get("price_usd"))
         current_change = _to_float(token.get("price_change_h24"))
         if current_price <= 0:
             continue
-        should_exit, reason, pnl_pct = evaluate_exit(pos, current_price, current_change, now)
+
+        # Compute holding time
+        entry_time = parse_iso(pos.get("entry_time"))
+        holding_seconds = (now - entry_time).total_seconds() if entry_time else None
+
+        should_exit, reason, pnl_pct, action, fraction = evaluate_exit(
+            pos, current_price, current_change, now
+        )
         if should_exit:
-            ok, trade = execute_sell(state, mint, current_price, reason, now)
+            exit_signals = {
+                "price_change_h24": current_change,
+                "liquidity_usd": _to_float(token.get("liquidity_usd")),
+                "volume_h24": _to_float(token.get("volume_h24")),
+            }
+            ok, trade = execute_sell(
+                state, mint, current_price, reason, now,
+                fraction=fraction, exit_signals=exit_signals,
+                holding_seconds=holding_seconds,
+            )
             if ok:
                 exits.append((mint, trade))
+                pm = trade.get("post_mortem", {})
+                diagnosis = pm.get("diagnosis", "") if pm else ""
+                action_label = "PARTIAL" if trade.get("partial") else "FULL"
                 append_decision({
                     "action": "sell",
-                    "details": f"Closed ${trade['symbol']} ({mint[:8]}…) at ${current_price:.6g} | "
+                    "details": f"[{action_label}] Closed ${trade['symbol']} ({mint[:8]}…) at ${current_price:.6g} | "
                                f"P&L: {trade['pnl_pct']:+.1f}% | {reason}",
-                    "reason": reason,
-                    "data": {"trade": trade},
+                    "reason": diagnosis or reason,
+                    "data": {"trade": trade, "post_mortem": pm},
                 })
 
     if exits:
@@ -596,13 +770,19 @@ def main():
         if price_usd > 0:
             ok, position = execute_buy(state, candidate, token, price_usd, now)
             if ok:
+                # Save the full score components for post-mortem later
+                position["entry_score_components"] = entry_info.get("components", {})
                 entry = (candidate, position, entry_info)
+                breakdown = entry_info.get("components", {}).get("score_breakdown", {})
                 append_decision({
                     "action": "buy",
                     "details": f"Bought ${position['symbol']} ({candidate[:8]}…) at ${price_usd:.6g}, "
                                f"spent {POSITION_SIZE_SOL} SOL (${position['entry_usd_value']:.2f})",
-                    "reason": f"Score {entry_info['score']:.1f} (24h change), passed all gates",
-                    "data": {"position": position, "score": entry_info["score"]},
+                    "reason": f"Score {entry_info['score']:.1f}: 24h={breakdown.get('base_24h', '?')}%, "
+                              f"recency={breakdown.get('recency_bonus', 0)}, "
+                              f"turnover={breakdown.get('turnover_bonus', 0)}, "
+                              f"short_mom={breakdown.get('short_momentum', 0)}",
+                    "data": {"position": position, "score_breakdown": breakdown},
                 })
                 log(f"BUY ${position['symbol']}: ${position['amount']:.4f} tokens @ ${price_usd:.6g} "
                     f"(score {entry_info['score']:.1f})")
