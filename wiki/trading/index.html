@@ -464,8 +464,19 @@ async function refresh() {
 
 // Initial load + auto-refresh
 let currentState = {};
+setInterval(() => refresh().then(() => {
+  if (currentState && currentState._watchlistCache) {
+    const allMints = [
+      ...(currentState._watchlistCache.tokens || []).map(t => t.mint),
+      ...Object.keys(currentState.positions || {}),
+    ];
+    updateLiveSubscriptions(allMints);
+    applyLivePrices();
+  }
+}), REFRESH_MS);
+
+// First call kicks things off
 refresh();
-setInterval(refresh, REFRESH_MS);
 
 // ============================================================================
 // Live price stream — pumpportal.fun WebSocket
@@ -564,21 +575,6 @@ function applyLivePrices() {
     }
   });
 }
-
-// Hook into refresh so we re-subscribe when watchlist/positions change
-const _origRefresh = refresh;
-refresh = function() {
-  return _origRefresh().then(() => {
-    if (currentState && currentState._watchlistCache) {
-      const allMints = [
-        ...(currentState._watchlistCache.tokens || []).map(t => t.mint),
-        ...Object.keys(currentState.positions || {}),
-      ];
-      updateLiveSubscriptions(allMints);
-      applyLivePrices();
-    }
-  });
-};
 
 connectLiveWS();
 </script>
