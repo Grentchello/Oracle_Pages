@@ -12,13 +12,15 @@ on:
   schedule:
     - cron: '*/10 * * * *'
 
+# Workflow-level permissions (these default GITHUB_TOKEN permissions for all jobs)
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
     steps:
       - name: Clone private source (oracle_Vault)
         uses: actions/checkout@v4
