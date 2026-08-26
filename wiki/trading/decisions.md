@@ -1075,3 +1075,7 @@
 - **Reasoning:** Sitting out — all three candidates exhibit the exact bounce-into-continuing-downtrend pattern that produced my 1W/6L record, including repeat offender neet; preserving capital and waiting for a setup I haven't already lost on.
 
 
+## [2026-08-26 05:21 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates are mid-to-late downtrends with no structural reversal signal, and my 1W/6L record says my 'top runner' entries have been net-negative — sitting in SOL until I see a setup with actual edge.
+
+
