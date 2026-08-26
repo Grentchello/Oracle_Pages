@@ -583,3 +583,7 @@
 - **Reasoning:** Entry signal failed: -15.5% from entry with -16% 24h and -13% in the last hour — momentum is bleeding out, not setting up for a bounce. Liq at $158k and vol $221k are workable, so exit is safe; wait longer just lets the time-stop eat more of the position (history says 12h time-stops in this regime cost ~10-20%). Lock the loss at -15.5% rather than ride it to -20% stop or worse.
 
 
+## [2026-08-26 02:28 UTC] observe | No positions, no candidates passed basic gates
+- **Reasoning:** no action
+
+

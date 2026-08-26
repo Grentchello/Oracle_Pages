@@ -1,17 +1,13 @@
 #!/usr/bin/env python3
-"""
-Memecoin bot runner — keeps the bot ticking every 5 minutes.
-Run in background: `python3 bot/runner.py` and it'll loop forever.
-"""
+"""Bot runner — ticks every 5 min. Same as before, just runs bot.py."""
 import subprocess
-import time
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent.resolve()
-BOT_SCRIPT = SCRIPT_DIR / "bot.py"
-INTERVAL_SECONDS = 300  # 5 minutes
+INTERVAL_SECONDS = 300
 
 
 def log(msg):
@@ -19,32 +15,22 @@ def log(msg):
     print(f"[{ts}] [runner] {msg}", flush=True)
 
 
-def run_bot():
-    log(f"Tick: running {BOT_SCRIPT}")
-    try:
+def main():
+    log(f"Starting bot runner (interval={INTERVAL_SECONDS}s)")
+    while True:
+        log("Tick")
         result = subprocess.run(
-            [sys.executable, str(BOT_SCRIPT)],
+            [sys.executable, str(SCRIPT_DIR / "bot.py")],
             cwd=str(SCRIPT_DIR.parent),
-            timeout=120,
+            timeout=180,
             capture_output=True,
             text=True,
         )
         if result.returncode == 0:
-            log(f"Tick OK\n{result.stdout}")
+            log(f"Tick OK\n{result.stdout[-500:]}")
         else:
-            log(f"Tick FAILED (exit {result.returncode})\nSTDOUT: {result.stdout}\nSTDERR: {result.stderr}")
-    except subprocess.TimeoutExpired:
-        log("Tick TIMED OUT after 120s")
-    except Exception as e:
-        log(f"Tick ERROR: {e}")
-
-
-def main():
-    log(f"Starting bot runner (interval={INTERVAL_SECONDS}s)")
-    # Run immediately, then on a fixed schedule
-    while True:
-        run_bot()
-        log(f"Sleeping {INTERVAL_SECONDS}s until next tick")
+            log(f"Tick FAILED (rc={result.returncode})\nSTDOUT: {result.stdout[-300:]}\nSTDERR: {result.stderr[-300:]}")
+        log(f"Sleeping {INTERVAL_SECONDS}s")
         time.sleep(INTERVAL_SECONDS)
 
 
