@@ -763,3 +763,7 @@
 - **Reasoning:** Both candidates are tokens I've already lost money on or that are mid-fade after pumps — no new edge, daily P&L already negative, sitting on hands until fresh setup.
 
 
+## [2026-08-26 03:43 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are post-pump decay assets (9% and 43% of ATH, both -12% on 24h) and both are names I already lost on this session — same ticker, same failure mode. With a 1W/5L record, repeating the same setup is exactly what produces more losses. Standing aside, preserving 1.9586 SOL, waiting for fresh momentum on a name that isn't already in my loser column.
+
+
