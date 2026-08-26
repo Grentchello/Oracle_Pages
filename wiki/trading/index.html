@@ -83,6 +83,11 @@
     </ul>
   </section>
 
+  <section>
+    <h2>LLM Decision Log <span class="hint">raw prompts + responses</span></h2>
+    <div class="learning" id="decision-log">No LLM calls yet.</div>
+  </section>
+
   <footer>
     Auto-refreshes every 30s · Real prices via DexScreener & pump.fun · No real capital at risk
   </footer>
@@ -371,6 +376,30 @@ function computeDuration(start, end) {
   } catch (e) { return '?'; }
 }
 
+async function renderDecisionLog() {
+  const el = document.getElementById('decision-log');
+  if (!el) return;
+  try {
+    const text = await fetchText('decision_log.json');
+    const log = JSON.parse(text);
+    if (!Array.isArray(log) || log.length === 0) {
+      el.innerHTML = '<div class="learning-note">No LLM calls yet — bot will populate this on next tick.</div>';
+      return;
+    }
+    el.innerHTML = log.slice(-3).reverse().map(entry => {
+      const time = entry.time ? new Date(entry.time).toLocaleString() : '?';
+      const resp = String(entry.response || '').slice(0, 600);
+      const action = String(entry.action || 'tick');
+      return '<div class="learning-row"><strong>' + escapeHtml(time) + '</strong> — ' + escapeHtml(action) +
+        '<details style="margin-top:0.4rem"><summary style="cursor:pointer;color:var(--fg-muted)">view response</summary>' +
+        '<pre style="background:rgba(255,255,255,0.05);padding:0.5rem;border-radius:4px;overflow:auto;font-size:0.75rem;margin-top:0.3rem">' +
+        escapeHtml(resp) + '</pre></details></div>';
+    }).join('');
+  } catch (e) {
+    el.innerHTML = '<div class="learning-note">No LLM calls yet.</div>';
+  }
+}
+
 async function renderDecisions(state) {
   const ul = document.getElementById('decisions');
 
@@ -411,6 +440,7 @@ async function refresh() {
     try { await renderHoldings(state, watchlist); } catch (e) { console.error('renderHoldings:', e); }
     try { await renderWatchlist(watchlist); } catch (e) { console.error('renderWatchlist:', e); }
     try { await renderDecisions(state); } catch (e) { console.error('renderDecisions:', e); }
+    try { await renderDecisionLog(); } catch (e) { console.error('renderDecisionLog:', e); }
   } catch (e) {
     showError('Failed to load dashboard data: ' + e.message + ' — ' + (e.stack || '').split('\n')[1]);
   }
