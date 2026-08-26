@@ -615,3 +615,7 @@
 - **Reasoning:** Both candidates are late-stage dumps from prior pumps (4-9% of ATH) with negative 24h momentum — skip both, preserve dry powder, and reset after the -0.04 SOL day.
 
 
+## [2026-08-26 02:49 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are single-digit-% of ATH with negative 24h momentum — classic post-pump decay where my edge has been negative (1W/5L). Sitting on hands is the honest call; no edge, no trade.
+
+
