@@ -1543,3 +1543,9 @@
 ## [2026-08-26 09:59 UTC] observe | LLM call failed: llm call failed
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-08-26 10:00 UTC] sell | [FULL][LLM] $Wittgenstein at $2.693e-06 | P&L: -52.4%
+- **Reasoning:** $Wittgenstein is at -52.4%, which has breached the hard -50% loss cap. Auto-close per rules — non-negotiable.
+
+## [2026-08-26 10:00 UTC] buy | [LLM] $PEPI at $5.378e-06, spent 0.1 SOL
+- **Reasoning:** $PEPI has a real X account (horseowner34) backing it, fresh attention at 1.3min old, $6.7k mcap with viral-potential meme name. Edge over $GROKBOT (Grok narrative is saturated) and over the CROCODILE cluster which is clearly spam — three identical-tweet launches in 30 seconds with different mints is a scam/copycat pattern.
+
