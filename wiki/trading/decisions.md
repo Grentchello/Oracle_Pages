@@ -807,3 +807,7 @@
 - **Reasoning:** Both candidates are tokens I already booked losses on with the same entry thesis — re-entering is revenge trading, not signal trading. Staying flat in cash (-0.04 SOL today, well under the -0.3 cap) and waiting for a fresh setup that isn't a re-test of failed entries.
 
 
+## [2026-08-26 03:57 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Market read: both candidates are recycled names I already lost on today — skip and preserve capital. Sitting in SOL (1.96 SOL, $190) waiting for genuinely fresh momentum; 1W/5L track record says I should trade less, not chase the same tickers.
+
+
