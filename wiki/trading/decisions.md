@@ -659,3 +659,7 @@
 - **Reasoning:** Defensive day: 5-loss streak and -0.0386 SOL already realized — no edge in either candidate (both fading from ATH with negative momentum), staying in cash at 1.9586 SOL until a real setup appears.
 
 
+## [2026-08-26 03:10 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are re-entries into tokens that already burned me with the same setup (time-stop losers, trending down hard off ATH). No open positions, capital preserved; sitting out until a fresh setup appears rather than chasing the same dead names.
+
+
