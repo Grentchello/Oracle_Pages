@@ -703,3 +703,7 @@
 - **Reasoning:** No entries: both candidates are already-failed names from my own recent trade history with negative 24h momentum and no clean reversal signal — the rules explicitly warn trending-on-pump-fun + post-pump decay is a late-entry trap, and sitting on 1.95 SOL preserves capital for a better setup.
 
 
+## [2026-08-26 03:24 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are prior losses in mid-dump territory with no confirmed reversal; with a 1W/5L track record I'm parking capital in SOL until a genuinely fresh, high-conviction setup appears rather than re-entering today's losers.
+
+
