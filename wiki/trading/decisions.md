@@ -951,3 +951,7 @@
 - **Reasoning:** All four candidates are post-ATH decay patterns with negative 24h momentum, and three of them are tokens I've already lost money on — skipping everything and preserving capital to wait for a setup with actual edge.
 
 
+## [2026-08-26 04:42 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All four candidates are mid-drawdown coins I already lost on (or analogs of them) with no fresh momentum signals — staying 100% in SOL and waiting for a real setup rather than averaging into losers.
+
+
