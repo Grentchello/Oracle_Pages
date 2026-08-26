@@ -1996,3 +1996,21 @@
 ## [2026-08-26 10:51 UTC] buy | [LLM] $FRUGA at $6.39287e-06, spent 0.1 SOL
 - **Reasoning:** $FRUGA from a dedicated @Frugasolana account at $6k mcap, 0.1min old. Dedicated meme account + fresh launch = attention setup. 0.1 SOL.
 
+## [2026-08-26 10:52 UTC] sell | [PARTIAL][LLM] $Pepo at $1.043e-05 | P&L: +102.1%
+- **Reasoning:** $Pepo is +102% in 0.1h with 1h=+250%. Lock half the gains — narrative is still hot but I'm not giving it back. Let the runner ride free.
+
+## [2026-08-26 10:52 UTC] sell | [FULL][LLM] $TrenchDog at $3.325e-06 | P&L: -28.7%
+- **Reasoning:** $TrenchDog at -28.7% with 1h=-27.5% and weak narrative. Trending wrong direction, getting closer to -50% hard cap. Cut the loss and free the slot.
+
+## [2026-08-26 10:52 UTC] sell | [PARTIAL][LLM] $TROJAN at $9.702e-06 | P&L: +77.9%
+- **Reasoning:** $TROJAN +77.9% in 0.0h with 1h=+194%. Same as Pepo — lock half, ride the rest. 24h trend is parabolic.
+
+## [2026-08-26 10:52 UTC] sell | [FULL][LLM] $FRUGA at $5.285e-06 | P&L: -17.3%
+- **Reasoning:** $FRUGA -17.3% with no clear narrative hook and 1h=-13.4% trending down. Cut and redeploy capital into fresher attention.
+
+## [2026-08-26 10:52 UTC] buy | [LLM] $Netanyahu at $3.78231e-06, spent 0.1 SOL
+- **Reasoning:** $Netanyahu has Mario Nawfal (multi-million follower crypto account) tweeting it — that's the strongest possible attention catalyst in this batch. Political meme names with macro influencer backing routinely do 5-10x in hours. $3.8k mcap is entry-tier.
+
+## [2026-08-26 10:52 UTC] buy | [LLM] $כהן at $4.64356e-06, spent 0.1 SOL
+- **Reasoning:** $כהן 'The Pump Priest' is a meta-narrative play on pump.fun itself — pump.fun-themed tokens are a recognized viral category on the platform. Self-aware meta memes print. Bond 19% means early traction.
+
