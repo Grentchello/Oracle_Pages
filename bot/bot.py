@@ -971,22 +971,14 @@ def main():
             elif err:
                 log(f"Buy blocked: {err}")
 
-    # 15. Save + push
-    if exits_made == 0 and len(state.get("positions", {})) == len(held):
-        summary = decisions.get("summary", "no summary")
-        append_decision({
-            "action": "observe",
-            "details": f"LLM tick: {exits_made} exits, no new entries. {len(state.get('positions', {}))} positions held",
-            "reason": summary,
-        })
-
-        state["portfolio_value_usd"] = compute_portfolio_value(state, sol_price, dex_data)["total_value_usd"]
-        state["last_updated"] = iso_now()
-        state["recent_decisions"] = load_recent_decisions(max_n=20)
-        state["held_prices"] = held_prices  # mint -> {price_usd, change_24h, ...}
-        save_state(state)
-        log(f"State: {len(state.get('positions', {}))} positions, {len(state.get('trades', []))} trades")
-        git_commit_and_push()
+    # 15. Save + push (ALWAYS, not just when no exits)
+    state["portfolio_value_usd"] = compute_portfolio_value(state, sol_price, dex_data)["total_value_usd"]
+    state["last_updated"] = iso_now()
+    state["recent_decisions"] = load_recent_decisions(max_n=20)
+    state["held_prices"] = held_prices  # mint -> {price_usd, change_24h, ...}
+    save_state(state)
+    log(f"State: {len(state.get('positions', {}))} positions, {len(state.get('trades', []))} trades")
+    git_commit_and_push()
 
 
 if __name__ == "__main__":
