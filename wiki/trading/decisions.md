@@ -1831,3 +1831,18 @@
 ## [2026-08-26 10:31 UTC] buy | [LLM] $Artist at $1.04521e-05, spent 0.1 SOL
 - **Reasoning:** $Artist has the highest bond completion (33%) and mcap ($10.4k) of the fresh batch — early attention signal on j7tracker deploy with twitter catalyst.
 
+## [2026-08-26 10:32 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $4.166e-05 | P&L: +332.2%
+- **Reasoning:** HOTPUMP is up +332% in 0.4h — lock in gains per the +50% take-profit rule. Hold half for runner potential since 24h is still only +4.9% (no blowoff yet).
+
+## [2026-08-26 10:32 UTC] sell | [PARTIAL][LLM] $BUSINESS at $9.905e-06 | P&L: +183.1%
+- **Reasoning:** BUSINESS +183% in 0.2h — take partial profit, hold half for narrative continuation since 24h +187% shows sustained buying.
+
+## [2026-08-26 10:32 UTC] sell | [FULL][LLM] $STAG at $2.728e-06 | P&L: -28.5%
+- **Reasoning:** STAG -28.5% with 24h -33.6% — momentum is against it, bond likely weak. Cut before approaching -50% hard cap and free a slot for the Windows Dog meta play.
+
+## [2026-08-26 10:32 UTC] sell | [FULL][LLM] $Artist at $6.756e-06 | P&L: -35.4%
+- **Reasoning:** Artist -35.4% — dangerously close to -50% hard cap. Cut loss now and redeploy into fresher attention.
+
+## [2026-08-26 10:32 UTC] buy | [LLM] $WDOG at $1.57743e-05, spent 0.1 SOL
+- **Reasoning:** $WDOG is the leader of a coordinated Windows Dog/Corgi/Rover deployment wave from one X account — highest mcap ($15.8k) and furthest bond (37%) of the cohort. Narrative meta play, but rugged-variant risk is real so size as one 0.1 SOL bet after freeing a slot.
+
