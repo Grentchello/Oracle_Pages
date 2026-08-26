@@ -1067,3 +1067,7 @@
 - **Reasoning:** Market read is bearish — every candidate is in a downtrend on 24h with only weak 1h bounces that have historically been sell traps; sitting in cash at 1.96 SOL to protect against the -0.3 SOL daily cap and the 1W/6L streak.
 
 
+## [2026-08-26 05:19 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Market read is bearish-bounce: all three top-runners are 24h-down with weak 1h pops, and my last 4 trades are all losses. With 1.96 SOL dry powder and no edge visible, I'm sitting today to protect capital and reset — forcing entries to chase the daily target is exactly how 1W/6L becomes 1W/9L.
+
+
