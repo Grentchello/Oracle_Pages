@@ -887,3 +887,7 @@
 - **Reasoning:** Market read: all three candidates are post-pump drawdowns on top-runner lists, which is exactly what the rules warn against — 'trending' here means late. Sitting on 1.96 SOL in cash is the correct defensive posture given today's -0.0386 SOL drag and the 5-loss streak.
 
 
+## [2026-08-26 04:22 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates are down8-13% on 24h with weak1h action, and two are tokens I already lost on recently — sitting on hands, preserving1.96 SOL until real reversal signals appear instead of catching falling knives.
+
+
