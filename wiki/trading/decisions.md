@@ -1879,3 +1879,9 @@
 ## [2026-08-26 10:37 UTC] buy | [LLM] $BASIL at $5.827e-06, spent 0.1 SOL
 - **Reasoning:** $BASIL leads the Windows Dog pack at $9.7k mcap with 32% bond — the highest bonding curve. Narrator @BNB_GME is live-tweeting, this is the flagship of a narrative cluster (WDOG already +211%). Best attention/price ratio.
 
+## [2026-08-26 10:38 UTC] sell | [FULL][LLM] $HOTPUMP at $4.353e-05 | P&L: +351.6%
+- **Reasoning:** +351% but 1h momentum is only +9.7% — the parabolic move looks exhausted, take profit and free a slot for fresh attention.
+
+## [2026-08-26 10:38 UTC] buy | [LLM] $DOLLY at $2.853e-06, spent 0.1 SOL
+- **Reasoning:** $DOLLY backed by an NY Post tweet is a real mainstream media signal at $2.8k mcap — exactly the kind of attention-launched story that can10x fast.
+

@@ -1,30 +1,8 @@
 {
-  "balance_sol": 1.591168,
+  "balance_sol": 1.491169,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump": {
-      "symbol": "HOTPUMP",
-      "name": "Hotpump Miami",
-      "amount": 1.9002653256491508,
-      "entry_price_usd": 9.64e-06,
-      "entry_sol_spent": 1.9073486328125e-07,
-      "entry_time": "2026-08-26T10:09:44.210672+00:00",
-      "entry_usd_value": 9.6042,
-      "entry_signals": {
-        "liquidity_usd": 0.0,
-        "volume_24h_usd": 2676.95,
-        "market_cap_usd": 10153.472382198375,
-        "ath_market_cap_usd": 10991.785383067461,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 28.328870883,
-        "description": "is a neon-fueled meme coin powered by masks, chaos, memes and the endless Miami night.",
-        "twitter": "https://x.com/Hotpumpmiami",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "4VfQ5CchtuAukAqoJL1hWcRHJoK6At3byt786DQ4pump": {
       "symbol": "BUSINESS",
       "name": "Business Monkeys",
@@ -109,6 +87,28 @@
         "real_sol_reserves": 27.020195821,
         "description": "",
         "twitter": "https://x.com/BNB_GME/status/2092561565220278365",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "GUAd8WFcy9WyFir4eWSuhEFtGCCMG5zwUVjytv1ipump": {
+      "symbol": "DOLLY",
+      "name": "Dolly",
+      "amount": 3390466.1759551354,
+      "entry_price_usd": 2.853e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-26T10:38:31.185358+00:00",
+      "entry_usd_value": 9.673000000000002,
+      "entry_signals": {
+        "liquidity_usd": 0.0,
+        "volume_24h_usd": 2452.29,
+        "market_cap_usd": 2856.704237253509,
+        "ath_market_cap_usd": 5261.90615351393,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.809924301,
+        "description": "",
+        "twitter": "https://x.com/nypost/status/2092561980410187785",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -1389,25 +1389,30 @@
       "pnl_pct": -46.55,
       "exit_reason": "LLM: sell_all — -46.6% and only 0.0h old, bleeding on both timeframes. Close to -50% hard cap — cut it now before the bot force-closes me.",
       "partial": false
+    },
+    {
+      "mint": "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump",
+      "symbol": "HOTPUMP",
+      "name": "Hotpump Miami",
+      "amount_sold": 1.9002653256491508,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-26T10:09:44.210672+00:00",
+      "exit_time": "2026-08-26T10:38:31.185054+00:00",
+      "entry_price_usd": 9.64e-06,
+      "exit_price_usd": 4.353e-05,
+      "entry_sol_for_chunk": 0.0,
+      "exit_sol_received": 1e-06,
+      "pnl_sol": 1e-06,
+      "pnl_pct": 351.56,
+      "exit_reason": "LLM: sell_all — +351% but 1h momentum is only +9.7% — the parabolic move looks exhausted, take profit and free a slot for fresh attention.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-26T10:37:06.011264+00:00",
+  "last_updated": "2026-08-26T10:38:31.185629+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.76,
-  "portfolio_value_usd": 179.34,
+  "last_sol_price_usd": 96.73,
+  "portfolio_value_usd": 179.3,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 10:31 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $STAG at $2.911e-06 | P&L: -23.7%",
-      "reason": "$STAG at -23.7% with 24h momentum negative (-29.2%) and no narrative catalyst visible — cutting half to free slot and cap damage before it tests the -50% hard floor."
-    },
-    {
-      "time": "2026-08-26 10:31 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $JANE at $5.366e-06 | P&L: -41.1%",
-      "reason": "$JANE at -41.1%, dangerously close to the -50% hard cap, with no clear catalyst — exit fully, this is a dead narrative."
-    },
     {
       "time": "2026-08-26 10:31 UTC",
       "action": "sell",
@@ -1515,64 +1520,67 @@
       "action": "buy",
       "details": "[LLM] $BASIL at $5.827e-06, spent 0.1 SOL",
       "reason": "$BASIL leads the Windows Dog pack at $9.7k mcap with 32% bond — the highest bonding curve. Narrator @BNB_GME is live-tweeting, this is the flagship of a narrative cluster (WDOG already +211%). Best attention/price ratio."
+    },
+    {
+      "time": "2026-08-26 10:38 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HOTPUMP at $4.353e-05 | P&L: +351.6%",
+      "reason": "+351% but 1h momentum is only +9.7% — the parabolic move looks exhausted, take profit and free a slot for fresh attention."
+    },
+    {
+      "time": "2026-08-26 10:38 UTC",
+      "action": "buy",
+      "details": "[LLM] $DOLLY at $2.853e-06, spent 0.1 SOL",
+      "reason": "$DOLLY backed by an NY Post tweet is a real mainstream media signal at $2.8k mcap — exactly the kind of attention-launched story that can10x fast."
     }
   ],
   "trade_stats": {
-    "total": 75,
-    "wins": 43,
+    "total": 76,
+    "wins": 44,
     "losses": 32,
-    "win_rate_pct": 57.3,
-    "total_pnl_sol": -0.046332,
-    "avg_pnl_pct": 128.37,
+    "win_rate_pct": 57.9,
+    "total_pnl_sol": -0.046331,
+    "avg_pnl_pct": 131.31,
     "best_pnl_pct": 567.22,
     "worst_pnl_pct": -96.94,
-    "today_trades": 75,
-    "today_realized_sol": -0.046332,
+    "today_trades": 76,
+    "today_realized_sol": -0.046331,
     "today_target_pct": -11.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 43,
+      "win_count": 44,
       "loss_count": 32,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T10:37:06.010518+00:00",
+  "last_llm_brief_at": "2026-08-26T10:38:31.185023+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump": {
-      "price_usd": 2.167e-05,
-      "change_h24": -45.4,
-      "change_h1": -45.4,
-      "liquidity_usd": 10736.41,
-      "volume_h24": 261630.42,
+      "price_usd": 4.353e-05,
+      "change_h24": 9.67,
+      "change_h1": 9.67,
+      "liquidity_usd": 15955.03,
+      "volume_h24": 283226.52,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
     "4VfQ5CchtuAukAqoJL1hWcRHJoK6At3byt786DQ4pump": {
-      "price_usd": 1.583e-05,
-      "change_h24": 359.0,
-      "change_h1": 359.0,
+      "price_usd": 1.523e-05,
+      "change_h24": 341.0,
+      "change_h1": 341.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 15789.26,
+      "volume_h24": 16031.0,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "HPiMjD9vUv66jQPhQDNYv4jaua7xzCZBHMm9Uip6oiEw": {
-      "price_usd": 4.917e-05,
-      "change_h24": 26.36,
-      "change_h1": 26.36,
-      "liquidity_usd": 16762.98,
-      "volume_h24": 113997.35,
+      "price_usd": 5.283e-05,
+      "change_h24": 35.76,
+      "change_h1": 35.76,
+      "liquidity_usd": 17485.91,
+      "volume_h24": 140680.1,
       "dex_id": "pumpswap",
-      "source": "dexscreener"
-    },
-    "BkhjmHUPuKjQqvkcDtyhCGfHXPSRfe3XEtWiocYApump": {
-      "price_usd": 2.812e-06,
-      "change_h24": -13.86,
-      "change_h1": -13.86,
-      "liquidity_usd": 0.0,
-      "volume_h24": 5443.97,
-      "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "7Vu9fXNKfKUQJAGgKZHvakrz7SooAogGEWxHNvzLpump": {
@@ -1581,6 +1589,15 @@
       "change_h1": -10.27,
       "liquidity_usd": 0.0,
       "volume_h24": 1250.34,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "FoYFUPUxh6Jn7265yBM84w9g6VoaJBxEfmcXTdbVohQi": {
+      "price_usd": 7.253e-06,
+      "change_h24": 86.27,
+      "change_h1": 86.27,
+      "liquidity_usd": 0.0,
+      "volume_h24": 32851.32,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }
