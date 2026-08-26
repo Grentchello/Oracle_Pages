@@ -2056,3 +2056,9 @@
 ## [2026-08-26 11:02 UTC] buy | [LLM] $TOADBULL at $6.13463e-06, spent 0.1 SOL
 - **Reasoning:** $TOADBULL has the highest bond progress (25%) of any new launch at $6k mcap — animal meme meta, real buys filling curve. Best fresh-alpha setup in this batch.
 
+## [2026-08-26 11:04 UTC] sell | [FULL][LLM] $TROJAN at $5.041e-06 | P&L: -7.6%
+- **Reasoning:** $TROJAN -7.6% and 1h reading of +52.9% looks stale/incorrect vs current price action showing fade — cutting the loss before it deepens.
+
+## [2026-08-26 11:04 UTC] sell | [FULL][LLM] $NI225 at $1.669e-05 | P&L: -9.8%
+- **Reasoning:** $NI225 -9.8% and the 1h +423% clearly reflects a pump that already peaked — fade is in progress, preserve capital.
+
