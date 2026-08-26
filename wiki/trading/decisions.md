@@ -2014,3 +2014,12 @@
 ## [2026-08-26 10:52 UTC] buy | [LLM] $כהן at $4.64356e-06, spent 0.1 SOL
 - **Reasoning:** $כהן 'The Pump Priest' is a meta-narrative play on pump.fun itself — pump.fun-themed tokens are a recognized viral category on the platform. Self-aware meta memes print. Bond 19% means early traction.
 
+## [2026-08-26 10:54 UTC] sell | [FULL][LLM] $כהן at $2.731e-06 | P&L: -41.2%
+- **Reasoning:** $כהן down -41.2%, dangerously close to -50% hard cap. 24h momentum is negative (-17.4%), narrative not landing. Cut the loss now, free the slot.
+
+## [2026-08-26 10:54 UTC] sell | [PARTIAL][LLM] $Pepo at $7.866e-06 | P&L: +52.4%
+- **Reasoning:** $Pepo +52.4% — taking half profit per the +50% rule. 1h momentum (+164%) still hot so keeping skin in. Frees slot for fresh launches.
+
+## [2026-08-26 10:54 UTC] buy | [LLM] $COUNTY at $3.66152e-05, spent 0.1 SOL
+- **Reasoning:** $COUNTY at $36.6k mcap with 42% bond progress is the highest-conviction fresh launch — narrative is clean (Pump County meme), it's already attracting volume. Buys the leading edge of attention.
+
