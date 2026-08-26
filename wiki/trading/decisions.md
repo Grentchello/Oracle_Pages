@@ -2173,3 +2173,6 @@
 ## [2026-08-26 11:15 UTC] buy | [LLM] $WIF at $2.739e-06, spent 0.1 SOL
 - **Reasoning:** 'Dog Wif Hijab' — cultural-tension narrative with a clear X link (n9aine). Wif-dog meta variant, controversy drives attention. $2.7k mcap with a story. 0.1 SOL entry.
 
+## [2026-08-26 11:16 UTC] sell | [FULL][LLM] $MARDOGE at $1.932e-06 | P&L: -98.2%
+- **Reasoning:** At -98.2%, far past the -50% hard cap. Dead capital - cutting to free a position slot and stop the bleed.
+

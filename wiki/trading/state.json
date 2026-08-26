@@ -1,30 +1,8 @@
 {
-  "balance_sol": 1.076484,
+  "balance_sol": 1.076498,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "HLD7wcQciQxbUFLi5rVJ26WVkFQEksBkt3MxZSERpump": {
-      "symbol": "MARDOGE",
-      "name": "Martian Doge",
-      "amount": 714.9022705992511,
-      "entry_price_usd": 0.0001068,
-      "entry_sol_spent": 0.00078125,
-      "entry_time": "2026-08-26T10:49:59.403834+00:00",
-      "entry_usd_value": 9.773000000000001,
-      "entry_signals": {
-        "liquidity_usd": 25409.86,
-        "volume_24h_usd": 14287.88,
-        "market_cap_usd": 103275.15005527448,
-        "ath_market_cap_usd": 138796.15495688218,
-        "volatility_score": null,
-        "boost_mode": "IN_PROGRESS",
-        "real_sol_reserves": 54.320987647,
-        "description": "The First Doge of Mars. Building the Martian colony, one believer at a time. $MARDOGE (https://x.com/search?q=%24MARDOGE&src=cashtag_click) | Born on Earth. Destined for Mars.",
-        "twitter": "https://x.com/mardogeonsol",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "FDBr78P2n5sNpsYgRfUJuQCDVYRFVkyeSiuGiEAQpump": {
       "symbol": "CGPT",
       "name": "ChainGPT Agent",
@@ -2404,19 +2382,30 @@
       "pnl_pct": -25.77,
       "exit_reason": "LLM: sell_all — -25.8% with 24h -14.4%, newly entered and bleeding. No narrative strength evident; cut before it deepens further.",
       "partial": false
+    },
+    {
+      "mint": "HLD7wcQciQxbUFLi5rVJ26WVkFQEksBkt3MxZSERpump",
+      "symbol": "MARDOGE",
+      "name": "Martian Doge",
+      "amount_sold": 714.9022705992511,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-26T10:49:59.403834+00:00",
+      "exit_time": "2026-08-26T11:16:42.571093+00:00",
+      "entry_price_usd": 0.0001068,
+      "exit_price_usd": 1.932e-06,
+      "entry_sol_for_chunk": 0.000781,
+      "exit_sol_received": 1.4e-05,
+      "pnl_sol": -0.000767,
+      "pnl_pct": -98.19,
+      "exit_reason": "LLM: sell_all — At -98.2%, far past the -50% hard cap. Dead capital - cutting to free a position slot and stop the bleed.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-26T11:15:04.119533+00:00",
+  "last_updated": "2026-08-26T11:16:42.571505+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.45,
-  "portfolio_value_usd": 134.21,
+  "last_sol_price_usd": 97.53,
+  "portfolio_value_usd": 134.22,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 11:10 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-26 11:12 UTC",
       "action": "sell",
@@ -2530,72 +2519,69 @@
       "action": "buy",
       "details": "[LLM] $WIF at $2.739e-06, spent 0.1 SOL",
       "reason": "'Dog Wif Hijab' — cultural-tension narrative with a clear X link (n9aine). Wif-dog meta variant, controversy drives attention. $2.7k mcap with a story. 0.1 SOL entry."
+    },
+    {
+      "time": "2026-08-26 11:16 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MARDOGE at $1.932e-06 | P&L: -98.2%",
+      "reason": "At -98.2%, far past the -50% hard cap. Dead capital - cutting to free a position slot and stop the bleed."
     }
   ],
   "trade_stats": {
-    "total": 136,
+    "total": 137,
     "wins": 70,
-    "losses": 66,
-    "win_rate_pct": 51.5,
-    "total_pnl_sol": -0.522734,
-    "avg_pnl_pct": 97.29,
+    "losses": 67,
+    "win_rate_pct": 51.1,
+    "total_pnl_sol": -0.523501,
+    "avg_pnl_pct": 95.86,
     "best_pnl_pct": 666.22,
     "worst_pnl_pct": -99.89,
-    "today_trades": 136,
-    "today_realized_sol": -0.522734,
-    "today_target_pct": -130.7,
+    "today_trades": 137,
+    "today_realized_sol": -0.523501,
+    "today_target_pct": -130.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 70,
-      "loss_count": 66,
+      "loss_count": 67,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T11:15:04.117355+00:00",
+  "last_llm_brief_at": "2026-08-26T11:16:42.571052+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "HLD7wcQciQxbUFLi5rVJ26WVkFQEksBkt3MxZSERpump": {
-      "price_usd": 0.0001798,
-      "change_h24": 146.0,
-      "change_h1": 146.0,
-      "liquidity_usd": 34245.19,
-      "volume_h24": 352682.51,
+      "price_usd": 1.932e-06,
+      "change_h24": -97.36,
+      "change_h1": -97.36,
+      "liquidity_usd": 2017.95,
+      "volume_h24": 373620.37,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
-    "8B9UCXgqBLgXy1v9YWqyGQg7nBuGRqryxDPVHs2hpump": {
-      "price_usd": 2.805e-06,
-      "change_h24": -14.91,
-      "change_h1": -14.91,
-      "liquidity_usd": 0.0,
-      "volume_h24": 2983.44,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "GTQY2zo1yvGcwCDqNdpVj2T637FNaa48KGaVJq63pump": {
-      "price_usd": 2.42e-09,
-      "change_h24": -99.91,
-      "change_h1": -99.91,
-      "liquidity_usd": 0.0,
-      "volume_h24": 331.38,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "FoDBR7uJ212EMWW2yGoFsYdYhX3gUYJN1pVU8D4fpump": {
-      "price_usd": 2.909e-06,
-      "change_h24": -14.38,
-      "change_h1": -14.38,
-      "liquidity_usd": 0.0,
-      "volume_h24": 3955.06,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
     "FDBr78P2n5sNpsYgRfUJuQCDVYRFVkyeSiuGiEAQpump": {
-      "price_usd": 3.091e-06,
-      "change_h24": 0.0,
-      "change_h1": 0.0,
+      "price_usd": 3.417e-06,
+      "change_h24": 10.53,
+      "change_h1": 10.53,
       "liquidity_usd": 0.0,
-      "volume_h24": 262.35,
+      "volume_h24": 421.0,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "DDRQfqgHs2Z4Yj5wzkoBv8bcGckxBwyS8GpqTXvtpump": {
+      "price_usd": 3.037e-06,
+      "change_h24": 11.44,
+      "change_h1": 11.44,
+      "liquidity_usd": 0.0,
+      "volume_h24": 182.78,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "5BJtGwdssRyR5rp8XqhGR46FoeRrbb8HjGrLG7n1pump": {
+      "price_usd": 2.726e-06,
+      "change_h24": -9.15,
+      "change_h1": -9.15,
+      "liquidity_usd": 0.0,
+      "volume_h24": 858.33,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }
