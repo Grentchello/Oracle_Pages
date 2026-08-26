@@ -2029,3 +2029,6 @@
 ## [2026-08-26 10:57 UTC] sell | [FULL][LLM] $Netanyahu at $2.729e-06 | P&L: -27.9%
 - **Reasoning:** Netanyahu at -27.8% with 24h/1h both -17.5% — momentum clearly broken, narrative dead. Freeing slot and stopping the bleed. Still well above -50% hard cap so LLM discretion.
 
+## [2026-08-26 10:58 UTC] buy | [LLM] $김정은 at $7.74988e-06, spent 0.1 SOL
+- **Reasoning:** $김정은 (Nietzschean Kim Jong Un) — absurdist political meme with viral X hook,29% bond almost filled, highest mcap of fresh batch = early conviction. Attention magnet.
+
