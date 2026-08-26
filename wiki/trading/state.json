@@ -1,52 +1,8 @@
 {
-  "balance_sol": 1.425884,
+  "balance_sol": 1.532585,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "DDDMq5Z6f7fSDpnkGSbsJwhCy1sB3VesvRaAagKwpump": {
-      "symbol": "PEPI",
-      "name": "PEPI",
-      "amount": 1788397.1736705098,
-      "entry_price_usd": 5.378e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-26T10:00:58.593203+00:00",
-      "entry_usd_value": 9.618000000000002,
-      "entry_signals": {
-        "liquidity_usd": 0.0,
-        "volume_24h_usd": 3830.7,
-        "market_cap_usd": 6718.554834797279,
-        "ath_market_cap_usd": 7854.078321533708,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 17.434846351,
-        "description": "",
-        "twitter": "https://x.com/horseowner34/status/2092552320697483744",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "2iJ2rt7cqzEYVgP3YywAKih24v9LmjZF62mDiSRePctG": {
-      "symbol": "Cheeks",
-      "name": "Cheeks",
-      "amount": 1940270.7988505394,
-      "entry_price_usd": 4.951886100482468e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-26T10:02:39.685795+00:00",
-      "entry_usd_value": 9.608,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4953.22112306949,
-        "ath_market_cap_usd": 5675.238759726645,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 10.731397831,
-        "description": "",
-        "twitter": "https://x.com/memedreamlife/status/2092552265357722003",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "EUqvfNJ9gSvAzC4guV8xkG3ifhPtxQR1aDi1QtfVpump": {
       "symbol": "crocodile",
       "name": "croc wif crocs",
@@ -159,25 +115,47 @@
       "pnl_pct": -14.53,
       "exit_reason": "LLM: sell_all — $gOOn at -14.5% is the smallest loss but still flat 1h with no recovery. Free the slot for the croc meta leader which has real attention flow today.",
       "partial": false
+    },
+    {
+      "mint": "DDDMq5Z6f7fSDpnkGSbsJwhCy1sB3VesvRaAagKwpump",
+      "symbol": "PEPI",
+      "name": "PEPI",
+      "amount_sold": 1788397.1736705098,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-26T10:00:58.593203+00:00",
+      "exit_time": "2026-08-26T10:04:07.108048+00:00",
+      "entry_price_usd": 5.378e-06,
+      "exit_price_usd": 2.786e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.051836,
+      "pnl_sol": -0.048164,
+      "pnl_pct": -48.2,
+      "exit_reason": "LLM: sell_all — At -48.2%, both 1h and 24h at -23.9% with no recovery signal — cutting before the -50% hard cap. Stop the bleed, redeploy capital later.",
+      "partial": false
+    },
+    {
+      "mint": "2iJ2rt7cqzEYVgP3YywAKih24v9LmjZF62mDiSRePctG",
+      "symbol": "Cheeks",
+      "name": "Cheeks",
+      "amount_sold": 1940270.7988505394,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-26T10:02:39.685795+00:00",
+      "exit_time": "2026-08-26T10:04:07.108537+00:00",
+      "entry_price_usd": 4.951886100482468e-06,
+      "exit_price_usd": 2.718e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.054865,
+      "pnl_sol": -0.045135,
+      "pnl_pct": -45.11,
+      "exit_reason": "LLM: sell_all — At -45.1% with -21.3% across both timeframes, same death pattern as PEPI. No reason to hold into the hard cap.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-26T10:02:39.686247+00:00",
+  "last_updated": "2026-08-26T10:04:07.108648+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.08,
-  "portfolio_value_usd": 165.83,
+  "last_sol_price_usd": 96.12,
+  "portfolio_value_usd": 156.92,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 09:43 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-08-26 09:44 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-26 09:45 UTC",
       "action": "observe",
@@ -285,6 +263,18 @@
       "action": "buy",
       "details": "[LLM] $crocodile at $4.59805e-06, spent 0.1 SOL",
       "reason": "$crocodile is the highest-mcap leader of the Dexerto 'croc wif crocs' meta cluster ($4,599, 19% bond). When6 copycats spawn from one tweet, the leader captures most of the buy flow."
+    },
+    {
+      "time": "2026-08-26 10:04 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PEPI at $2.786e-06 | P&L: -48.2%",
+      "reason": "At -48.2%, both 1h and 24h at -23.9% with no recovery signal — cutting before the -50% hard cap. Stop the bleed, redeploy capital later."
+    },
+    {
+      "time": "2026-08-26 10:04 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Cheeks at $2.718e-06 | P&L: -45.1%",
+      "reason": "At -45.1% with -21.3% across both timeframes, same death pattern as PEPI. No reason to hold into the hard cap."
     }
   ],
   "trade_stats": {
@@ -306,42 +296,33 @@
       "note": "need ≥3 wins and ≥3 losses for signal analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T10:02:39.685089+00:00",
+  "last_llm_brief_at": "2026-08-26T10:04:07.108016+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "Byxnq9AxaJ6zEbxkvQPD5DmCC3tb2TnAfRHCV7L9pump": {
-      "price_usd": 2.72e-06,
-      "change_h24": -21.26,
-      "change_h1": 0.0,
-      "liquidity_usd": 0.0,
-      "volume_h24": 4726.38,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "FQjKMpNfBbiBYoRa7xp7cGwz9asBDn32cURUS8pWpump": {
-      "price_usd": 2.717e-06,
-      "change_h24": -7.06,
-      "change_h1": 0.0,
-      "liquidity_usd": 0.0,
-      "volume_h24": 3615.97,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "rUH3jVHCpaPWegeVAF1ebSF7tm5S7hpPCxRMyMVpump": {
-      "price_usd": 2.719e-06,
-      "change_h24": -14.43,
-      "change_h1": 0.0,
-      "liquidity_usd": 0.0,
-      "volume_h24": 653.66,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
     "DDDMq5Z6f7fSDpnkGSbsJwhCy1sB3VesvRaAagKwpump": {
-      "price_usd": 8.455e-06,
-      "change_h24": 131.0,
-      "change_h1": 131.0,
+      "price_usd": 2.786e-06,
+      "change_h24": -23.85,
+      "change_h1": -23.85,
       "liquidity_usd": 0.0,
-      "volume_h24": 6383.74,
+      "volume_h24": 8913.66,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "2iJ2rt7cqzEYVgP3YywAKih24v9LmjZF62mDiSRePctG": {
+      "price_usd": 2.718e-06,
+      "change_h24": -21.26,
+      "change_h1": -21.26,
+      "liquidity_usd": 0.0,
+      "volume_h24": 3202.15,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "EUqvfNJ9gSvAzC4guV8xkG3ifhPtxQR1aDi1QtfVpump": {
+      "price_usd": 7.494e-06,
+      "change_h24": 119.0,
+      "change_h1": 119.0,
+      "liquidity_usd": 0.0,
+      "volume_h24": 18899.34,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

@@ -1564,3 +1564,9 @@
 ## [2026-08-26 10:02 UTC] buy | [LLM] $crocodile at $4.59805e-06, spent 0.1 SOL
 - **Reasoning:** $crocodile is the highest-mcap leader of the Dexerto 'croc wif crocs' meta cluster ($4,599, 19% bond). When6 copycats spawn from one tweet, the leader captures most of the buy flow.
 
+## [2026-08-26 10:04 UTC] sell | [FULL][LLM] $PEPI at $2.786e-06 | P&L: -48.2%
+- **Reasoning:** At -48.2%, both 1h and 24h at -23.9% with no recovery signal — cutting before the -50% hard cap. Stop the bleed, redeploy capital later.
+
+## [2026-08-26 10:04 UTC] sell | [FULL][LLM] $Cheeks at $2.718e-06 | P&L: -45.1%
+- **Reasoning:** At -45.1% with -21.3% across both timeframes, same death pattern as PEPI. No reason to hold into the hard cap.
+
