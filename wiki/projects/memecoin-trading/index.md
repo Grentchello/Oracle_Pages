@@ -55,8 +55,14 @@ The dashboard refreshes every 30 seconds. It shows:
   - [x] Decision log persisted (decision_log.json) — every prompt + response for review
   - [x] Failed v2 strategy (rules-based) — 1W/4L, all losses on "buy the top" pattern
   - [x] v3 LLM made first call: sold $unc at -15.5% (better than -20% hard stop) with explicit reasoning
-- [ ] **Phase 4: Tune prompt based on observed behavior**
-- [ ] **Phase 5: Live trading (real SOL) when win rate > 40% over 50+ trades**
+- [x] **Phase 4: Attention-first LLM bot (v4)** — live, actively trading
+  - [x] New-launches endpoint (`sort=created_timestamp DESC`) — freshest tokens only
+  - [x] Drop all liquidity/volume/momentum gates
+  - [x] LLM picks by narrative (X account, name, story, bonding curve progress)
+  - [x] Bonding curve price fallback for tokens without DexScreener pairs
+  - [x] LLM buys are now executing (5 positions filled within 1 minute of deploy)
+- [ ] **Phase 5: Tune prompt based on observed behavior**
+- [ ] **Phase 6: Live trading (real SOL) when win rate > 40% over 50+ trades**
 
 ## Strategy v3: LLM-decided, no hard exits
 
