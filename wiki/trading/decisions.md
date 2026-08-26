@@ -1119,3 +1119,7 @@
 - **Reasoning:** Market read: all three candidates are post-pump tokens in clear downtrends (24h -8% to -13%), and the last 7 trades went 1W/6L buying exactly this pattern — staying flat and protecting capital, no edge visible in this set.
 
 
+## [2026-08-26 05:35 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Market read is bearish on these 'top runners' — all three are fading, not leading. Sitting out is the right call after6 consecutive losses; forcing entries into declining tokens is how streaks of losses compound.
+
+
