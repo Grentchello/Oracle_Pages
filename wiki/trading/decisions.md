@@ -2047,3 +2047,12 @@
 ## [2026-08-26 11:01 UTC] buy | [LLM] $NI225 at $1.85009e-05, spent 0.1 SOL
 - **Reasoning:** $NI225 riding the Nikkei attention narrative with highest mcap ($18k) and 38% bond completion — strongest signal in the batch, narrative has cross-market appeal.
 
+## [2026-08-26 11:02 UTC] sell | [FULL][LLM] $COUNTY at $2.703e-05 | P&L: -26.2%
+- **Reasoning:** $COUNTY is -26.2% with 1h also -25% — momentum is broken, narrative fading. Selling frees a slot and capital for stronger setups.
+
+## [2026-08-26 11:02 UTC] sell | [PARTIAL][LLM] $NI225 at $2.519e-05 | P&L: +36.2%
+- **Reasoning:** $NI225 at +36.2% with 1h +690% is parabolic — classic blow-off top risk. Taking half profit locks gains while keeping exposure if the Nikkei narrative keeps running.
+
+## [2026-08-26 11:02 UTC] buy | [LLM] $TOADBULL at $6.13463e-06, spent 0.1 SOL
+- **Reasoning:** $TOADBULL has the highest bond progress (25%) of any new launch at $6k mcap — animal meme meta, real buys filling curve. Best fresh-alpha setup in this batch.
+
