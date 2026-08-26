@@ -141,6 +141,8 @@ def fetch_pumpfun_freshest(limit=30):
                 "ath_market_cap_usd": _to_float(coin.get("ath_market_cap")),
                 "real_sol_reserves": _to_float(coin.get("real_sol_reserves")) / 1e9,
                 "virtual_sol_reserves": _to_float(coin.get("virtual_sol_reserves")) / 1e9,
+                "real_token_reserves": _to_float(coin.get("real_token_reserves")) / 1e6,
+                "virtual_token_reserves": _to_float(coin.get("virtual_token_reserves")) / 1e6,
                 # bonding curve progress: 0% = just launched, 100% = graduated
                 "bonding_progress": (
                     _to_float(coin.get("real_sol_reserves")) /
