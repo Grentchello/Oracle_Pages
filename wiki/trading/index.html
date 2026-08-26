@@ -337,7 +337,7 @@ async function renderTrades(state) {
   const trades = state.trades || [];
   const stats = state.trade_stats || {};
 
-  summary.textContent = `trades=${trades.length} total=${stats.total} wins=${stats.wins}`;
+  summary.textContent = `${stats.total} trades · ${wins}W/${losses}L · avg ${avg.toFixed(1)}% · best +${stats.best_pnl_pct}% / worst ${stats.worst_pnl_pct}%`;
 
   if (trades.length === 0) {
     ul.innerHTML = '<li class="loading">No closed trades.</li>';

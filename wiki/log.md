@@ -105,3 +105,18 @@
 - First closed trade under v2 strategy: $unc stopped out at -20.04%
   - Post-mortem: "HIGH-MOMENTUM BUT REVERSED — entered too late, smart money already exiting"
   - Real learning artifact for future strategy refinement
+
+## [2026-08-26] update | Strategy v3 — LLM-decided, no hard exits
+- v2 rules-based strategy failed: 1W/4L record, all losses were "buy the top" pattern
+- Hard TP/SL/partial-TP all wrong for memecoins — they move too violently for mechanical rules
+- Replaced rules with LLM-decided entries and exits (using MiniMax-M3 via Hermes gateway)
+- Hard guardrails LLM can't override: 5 positions max, 0.1 SOL each, 72h max hold, 0.3 SOL daily loss cap, 0.1 SOL reserve
+- Decision log persisted to wiki/trading/decision_log.json (last 100 entries) for review
+- Dashboard has new "LLM Decision Log" section showing raw prompts + responses
+- First LLM call: sold remaining $unc at -15.5% (better than -20% hard stop) with reasoning
+  - "Entry signal failed: -15.5% from entry with -16% 24h and -13% in the last hour — momentum is bleeding out, not setting up for a bounce"
+- Fixed dashboard "Loading…" bug: missing #updated element reference was killing the entire refresh function
+  - Added setEl() helper for defensive element access
+  - Verified with real Chromium browser using puppeteer-core + Playwright's bundled chromium
+- Files: bot/bot.py (rewritten, 30KB), wiki/trading/index.html (decision log section, setEl helper)
+- Killed old bot runner (proc_3b0b6243d8a0), started new one (proc_64d0aada1332) with v3 bot

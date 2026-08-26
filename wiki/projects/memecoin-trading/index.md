@@ -48,10 +48,45 @@ The dashboard refreshes every 30 seconds. It shows:
   - [x] Trade ledger with entry/exit signals, PnL, exit reason
   - [x] Win rate / avg PnL / best / worst stats
   - [x] Dashboard: trade history section + KPI breakdown
-- [ ] **Phase 3: Refinement** — add fee model, slippage estimate, smarter signal weighting
-- [ ] **Phase 4: Learning** — backtest signals against closed trades, refine policy
+- [x] **Phase 3: LLM-decided trading** (live, replacing rules-based exits)
+  - [x] LLM reviews every held position, decides hold/sell_all/sell_half with reasoning
+  - [x] LLM reviews entry candidates, decides buy/skip with reasoning
+  - [x] Hard limits: 5 positions, 0.1 SOL each, 72h max hold, 0.3 SOL daily loss cap
+  - [x] Decision log persisted (decision_log.json) — every prompt + response for review
+  - [x] Failed v2 strategy (rules-based) — 1W/4L, all losses on "buy the top" pattern
+  - [x] v3 LLM made first call: sold $unc at -15.5% (better than -20% hard stop) with explicit reasoning
+- [ ] **Phase 4: Tune prompt based on observed behavior**
+- [ ] **Phase 5: Live trading (real SOL) when win rate > 40% over 50+ trades**
 
-## Strategy parameters (Phase 2.1 — riskier, faster)
+## Strategy v3: LLM-decided, no hard exits
+
+The LLM is the trader. Hard caps are guardrails, not the strategy.
+
+**Entry gates (the only rules):**
+- Token on pump.fun top-runners
+- Liquidity > $5,000 USD
+- 24h volume > $10,000 USD
+- 24h price change > 0%
+
+**Then the LLM reviews the shortlist and decides:**
+- Buy Y/N, with reasoning
+- Or skip everything if signals aren't right
+
+**Exit (no hard TP/SL):**
+- LLM reviews every position every 5 min
+- Decides: hold / sell_all / sell_half, with reasoning
+- Only hard cap: 72h max hold (forced close)
+
+**Hard guardrails (LLM can't override):**
+- Max 5 positions
+- 0.1 SOL per position
+- Daily loss cap: -0.3 SOL (no new entries if exceeded)
+- Reserve 0.1 SOL (never go below)
+
+## Strategy parameters (Phase 2.1 — riskier, faster) — SUPERSEDED by v3
+
+The rules-based v2 strategy was retired. LLM now makes all entry/exit calls. The
+old parameters are kept here for reference only.
 
 | Parameter | Value | Notes |
 |---|---|---|
