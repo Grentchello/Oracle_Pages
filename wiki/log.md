@@ -120,3 +120,13 @@
   - Verified with real Chromium browser using puppeteer-core + Playwright's bundled chromium
 - Files: bot/bot.py (rewritten, 30KB), wiki/trading/index.html (decision log section, setEl helper)
 - Killed old bot runner (proc_3b0b6243d8a0), started new one (proc_64d0aada1332) with v3 bot
+## [2026-08-26] update | Tasks feature on master dashboard
+- Grant asked to add a private todo list to the master dashboard, accessible via password
+- Created wiki/tasks/tasks.json as the data source
+- Created wiki/tasks/index.md — a self-contained HTML page with a password gate
+- Password "oracle" (SHA-256 hash in the page). Client-side check, sessionStorage caching
+- Added Tasks to MkDocs nav
+- Added Tasks card to wiki/index.md master dashboard
+- Created ~/.hermes/skills/productivity/tasks/SKILL.md so future task operations are consistent
+- Verified with real Chromium browser: gate works, wrong password shows error, correct password shows the task
+- Initial task: "Copy more house keys" (high priority)
