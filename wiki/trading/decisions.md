@@ -1687,3 +1687,9 @@
 ## [2026-08-26 10:19 UTC] buy | [LLM] $ANAI at $3.41997e-06, spent 0.1 SOL
 - **Reasoning:** $ANAI mirrors $ANAL — same tweet, AI narrative. Slightly later in narrative curve but still pre-bond, attention is live.
 
+## [2026-08-26 10:19 UTC] sell | [PARTIAL][LLM] $crocodile at $9.853e-06 | P&L: +114.3%
+- **Reasoning:** +114% with 1h momentum still at +188%, taking partial profit locks in gains while keeping skin in if it runs further.
+
+## [2026-08-26 10:19 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $5.585e-05 | P&L: +479.4%
+- **Reasoning:** +479% is an extraordinary move — taking half off the table secures life-changing gains on a 0.2h hold; the other half is free lottery.
+
