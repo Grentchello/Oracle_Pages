@@ -695,3 +695,7 @@
 - **Reasoning:** Market read: top-runner list is full of post-pump fades with negative 24h performance — no real momentum edges available right now. Standing pat, preserving capital after a 1W/5L week; will re-engage when a candidate shows genuine volume breakout + positive 24h, not just a listing rank.
 
 
+## [2026-08-26 03:22 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are prior losers showing either no bounce (BURNIE) or a likely dead-cat bounce (TripleT) — no genuine edge, sitting on hands and waiting for a real signal.
+
+
