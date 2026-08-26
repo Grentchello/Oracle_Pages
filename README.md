@@ -69,3 +69,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- dashboard held_prices -->
 
 <!-- bot bonding-curve fix -->
+
+<!-- trade_stats live -->
