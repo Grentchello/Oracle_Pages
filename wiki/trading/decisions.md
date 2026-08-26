@@ -1930,3 +1930,21 @@
 ## [2026-08-26 10:44 UTC] buy | [LLM] $AI at $4.38374e-06, spent 0.1 SOL
 - **Reasoning:** $AI (Anal Intelligence) — shock-value name plus j7tracker deployment. Crude humor is real memecoin alpha at sub-$5k mcap. Small size, asymmetric upside.
 
+## [2026-08-26 10:45 UTC] sell | [FULL][LLM] $Youtooz at $2.72e-06 | P&L: -13.7%
+- **Reasoning:** $Youtooz -13.7% and 24h -14.8% — narrative fading, no bounce signal. Cut and free capital for fresh attention.
+
+## [2026-08-26 10:45 UTC] sell | [PARTIAL][LLM] $DOGE at $2.126e-05 | P&L: +35.1%
+- **Reasoning:** $DOGE +35% with 24h +624% — parabolic move, take partial profit to lock gains while letting runner ride.
+
+## [2026-08-26 10:45 UTC] sell | [FULL][LLM] $AI at $2.74e-06 | P&L: -37.5%
+- **Reasoning:** $AI -37.5% approaching hard -50% cap, 24h only +0.5% — no momentum to recover. Exit before forced cut.
+
+## [2026-08-26 10:45 UTC] buy | [LLM] $BUNI at $8.668e-06, spent 0.1 SOL
+- **Reasoning:** $BUNI from Buni Comic art project with active twitter @bunicomic — narrative-driven meme, bond 36% furthest along, real creator presence.
+
+## [2026-08-26 10:45 UTC] buy | [LLM] $ALON at $2.86766e-06, spent 0.1 SOL
+- **Reasoning:** $ALON (Oak Tree) — viral X post driving 4+ copycat launches in minutes = genuine attention signal, ride the original mint.
+
+## [2026-08-26 10:45 UTC] buy | [LLM] $Seal at $3.37478e-06, spent 0.1 SOL
+- **Reasoning:** $Seal (Windows Dog) — fresh meme with X post, lowest mcap = highest asymmetry if narrative catches.
+
