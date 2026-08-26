@@ -1,9 +1,13 @@
 #!/usr/bin/env python3
 """
-Memecoin Trading Bot — v3 (LLM-decided)
+Memecoin Trading Bot — v4 (Attention-First LLM)
 
-Replaces rules-based exits with LLM judgment. Entry uses basic gates + LLM review.
-Every decision is logged with the LLM's reasoning — the actual learning artifact.
+Memecoins are attention markets, not logic. This bot:
+- Scans freshly-launched tokens (not just top-runners)
+- Shows LLM narrative context (name, description, X link)
+- Drops aggressive liquidity/volume gates
+- Asks the LLM to be opportunistic, not defensive
+- Lets the LLM trade on attention
 
 Run: python3 bot.py
 """
@@ -26,28 +30,26 @@ DECISIONS_PATH = WIKI_DIR / "trading" / "decisions.md"
 WATCHLIST_PATH = WIKI_DIR / "trading" / "watchlist.json"
 TRADES_PATH = WIKI_DIR / "trading" / "trades.json"
 DECISION_LOG_PATH = WIKI_DIR / "trading" / "decision_log.json"
+LAST_SEEN_PATH = WIKI_DIR / "trading" / "last_seen_mints.json"
 
 # === APIs ===
 DEXSCREENER_BASE = "https://api.dexscreener.com/latest/dex"
 PUMPFUN_TOP_RUNNERS = "https://frontend-api-v3.pump.fun/coins/top-runners"
+PUMPFUN_RECOMMENDED = "https://frontend-api-v3.pump.fun/coins/recommended"
+PUMPFUN_FRESH = "https://frontend-api-v3.pump.fun/coins?limit=20&offset=0&sort=last_trade_timestamp&order=DESC&includeNsfw=false"
 SOL_MINT = "So11111111111111111111111111111111111111112"
 
 # === Strategy parameters (safeguards — LLM can't override) ===
 POSITION_SIZE_SOL = 0.1
 MAX_POSITIONS = 5
-MIN_LIQUIDITY_USD = 5000
-MIN_VOLUME_24H_USD = 10000
-MAX_HOLD_HOURS = 72          # hard max — even LLM can't hold forever
-DAILY_MAX_LOSS_SOL = 0.3      # if today's realized < -0.3 SOL, no new entries
-RESERVE_SOL = 0.1             # never go below this in SOL — keep some dry powder
+MAX_HOLD_HOURS = 72
+HARD_STOP_LOSS = 0.5        # -50% hard cap, beyond this we MUST exit
+DAILY_MAX_LOSS_SOL = 0.4    # if today's realized < -0.4 SOL, no new entries
+RESERVE_SOL = 0.05
 
-# Allow mild downturns in entry gate — top-runners in -15% pullback are often buyable
-MIN_PRICE_CHANGE_24H = -15.0
-
-# Run an LLM "market read" tick even when there's nothing to do,
-# but throttle: every LLM_BRIEF_INTERVAL_MIN when idle, every tick when holding.
+# LLM throttling
+LLM_BRIEF_INTERVAL_MIN = 5  # when idle, LLM ticks every 5 min
 ALWAYS_LLM_TICK = True
-LLM_BRIEF_INTERVAL_MIN = 5  # how often to call LLM when there's nothing to do
 
 # === LLM config ===
 HERMES_CLI = "/opt/hermes/.venv/bin/hermes"
@@ -55,11 +57,11 @@ LLM_TIMEOUT_SECONDS = 90
 
 # === Network ===
 TIMEOUT = 15
-USER_AGENT = "oracle-vault-memecoin-bot/3.0"
+USER_AGENT = "oracle-vault-memecoin-bot/4.0"
 
 
 # =====================================================================
-# Utilities (unchanged)
+# Utilities
 # =====================================================================
 
 def _to_float(v, default=0.0):
@@ -102,30 +104,16 @@ def parse_iso(s):
 
 
 # =====================================================================
-# Data fetchers (unchanged)
+# Data fetchers — expanded to include fresh launches
 # =====================================================================
 
-def fetch_sol_price_usd():
+def fetch_pumpfun_freshest(limit=20):
+    """Tokens with most recent trade activity across all pump.fun."""
     try:
-        data = http_get_json(f"{DEXSCREENER_BASE}/tokens/{SOL_MINT}")
-        pairs = [p for p in (data.get("pairs") or [])
-                 if p.get("chainId") == "solana" and _to_float(p.get("priceUsd")) > 0]
-        if not pairs:
-            return None
-        pairs.sort(key=lambda p: _to_float((p.get("liquidity") or {}).get("usd")), reverse=True)
-        return _to_float(pairs[0]["priceUsd"])
-    except Exception as e:
-        log(f"WARN: SOL price fetch failed: {e}")
-        return None
-
-
-def fetch_pumpfun_top_runners(limit=30):
-    try:
-        data = http_get_json(PUMPFUN_TOP_RUNNERS)
+        data = http_get_json(PUMPFUN_FRESH + f"&limit={limit}")
         items = data if isinstance(data, list) else data.get("coins", [])
         out = []
-        for entry in items[:limit]:
-            coin = entry.get("coin", entry)
+        for coin in items[:limit]:
             mint = coin.get("mint")
             if not mint:
                 continue
@@ -133,18 +121,59 @@ def fetch_pumpfun_top_runners(limit=30):
                 "mint": mint,
                 "symbol": coin.get("symbol", "?"),
                 "name": coin.get("name", "?"),
+                "description": (coin.get("description") or "")[:300],
+                "twitter": coin.get("twitter") or "",
+                "telegram": coin.get("telegram") or "",
+                "website": coin.get("website") or "",
+                "image_uri": coin.get("image_uri") or "",
+                "created_ts": coin.get("created_timestamp"),
+                "last_trade_ts": coin.get("last_trade_timestamp"),
+                "market_cap_usd": _to_float(coin.get("usd_market_cap") or coin.get("market_cap_usd")),
+                "ath_market_cap_usd": _to_float(coin.get("ath_market_cap")),
+                "real_sol_reserves": _to_float(coin.get("real_sol_reserves")) / 1e9,
+                "virtual_sol_reserves": _to_float(coin.get("virtual_sol_reserves")) / 1e9,
+                "complete": coin.get("complete", False),
+                "volatility_score": _to_float(coin.get("volatility_score")),
+                "king_of_hill": bool(coin.get("king_of_the_hill_timestamp")),
+                "boost_mode": coin.get("boost_mode"),
+                "source_endpoint": "fresh",
+            })
+        return out
+    except Exception as e:
+        log(f"WARN: fresh pump.fun fetch failed: {e}")
+        return []
+
+
+def fetch_pumpfun_top_runners(limit=20):
+    """Pump.fun's own algorithm-recommended tokens."""
+    try:
+        data = http_get_json(PUMPFUN_TOP_RUNNERS)
+        items = data if isinstance(data, list) else data.get("coins", [])
+        out = []
+        for coin in items[:limit]:
+            mint = coin.get("mint")
+            if not mint:
+                continue
+            out.append({
+                "mint": mint,
+                "symbol": coin.get("symbol", "?"),
+                "name": coin.get("name", "?"),
+                "description": (coin.get("description") or "")[:300],
+                "twitter": coin.get("twitter") or "",
                 "market_cap_usd": _to_float(coin.get("usd_market_cap") or coin.get("market_cap_usd")),
                 "ath_market_cap_usd": _to_float(coin.get("ath_market_cap")),
                 "last_trade_ts": coin.get("last_trade_timestamp"),
                 "complete": coin.get("complete", False),
+                "source_endpoint": "top-runners",
             })
         return out
     except Exception as e:
-        log(f"WARN: pump.fun fetch failed: {e}")
+        log(f"WARN: top-runners fetch failed: {e}")
         return []
 
 
 def fetch_dexscreener_for_mints(mints):
+    """Fetch DexScreener pair data. Returns mint -> pair."""
     out = {}
     if not mints:
         return out
@@ -170,12 +199,7 @@ def fetch_dexscreener_for_mints(mints):
 
 def load_state():
     if not STATE_PATH.exists():
-        return {
-            "balance_sol": 2.0,
-            "positions": {},
-            "trades": [],
-            "bot_version": "3.0-llm",
-        }
+        return _fresh_state()
     try:
         return json.loads(STATE_PATH.read_text())
     except Exception:
@@ -187,7 +211,7 @@ def _fresh_state():
         "balance_sol": 2.0,
         "positions": {},
         "trades": [],
-        "bot_version": "3.0-llm",
+        "bot_version": "4.0-attention",
     }
 
 
@@ -196,28 +220,39 @@ def save_state(state):
     STATE_PATH.write_text(json.dumps(state, indent=2, ensure_ascii=False))
 
 
+def load_last_seen_mints():
+    if LAST_SEEN_PATH.exists():
+        try:
+            return set(json.loads(LAST_SEEN_PATH.read_text()))
+        except Exception:
+            return set()
+    return set()
+
+
+def save_last_seen_mints(mints):
+    LAST_SEEN_PATH.parent.mkdir(parents=True, exist_ok=True)
+    LAST_SEEN_PATH.write_text(json.dumps(sorted(mints), indent=2))
+
+
 def append_decision(decision):
     DECISIONS_PATH.parent.mkdir(parents=True, exist_ok=True)
     if not DECISIONS_PATH.exists():
         DECISIONS_PATH.write_text(
             "# Bot Decisions Log\n\n"
-            "> v3 — LLM-decided trading. Each entry shows bot action + reasoning.\n\n"
+            "> v4 — Attention-first LLM trading. Each entry shows bot action + reasoning.\n\n"
         )
     ts = now_utc().strftime("%Y-%m-%d %H:%M UTC")
     line = f"## [{ts}] {decision['action']} | {decision.get('details', '')}\n"
     if decision.get("reason"):
         line += f"- **Reasoning:** {decision['reason']}\n"
-    if decision.get("model"):
-        line += f"- Model: {decision['model']}"
     if decision.get("data"):
-        line += f"\n- Data: `{json.dumps(decision['data'], ensure_ascii=False)[:500]}`"
-    line += "\n\n"
+        line += f"- Data: `{json.dumps(decision['data'], ensure_ascii=False)[:500]}`\n"
+    line += "\n"
     with open(DECISIONS_PATH, "a") as f:
         f.write(line)
 
 
 def log_full_decision(prompt, response, action, target):
-    """Persist full LLM call for later review."""
     log_data = []
     if DECISION_LOG_PATH.exists():
         try:
@@ -231,7 +266,6 @@ def log_full_decision(prompt, response, action, target):
         "prompt": prompt[:2000],
         "response": response[:2000],
     })
-    # Keep last 100
     log_data = log_data[-100:]
     DECISION_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     DECISION_LOG_PATH.write_text(json.dumps(log_data, indent=2, ensure_ascii=False))
@@ -248,12 +282,7 @@ def load_recent_decisions(max_n=20):
         if m:
             if current:
                 decisions.append(current)
-            current = {
-                "time": m.group(1),
-                "action": m.group(2),
-                "details": m.group(3),
-                "reason": "",
-            }
+            current = {"time": m.group(1), "action": m.group(2), "details": m.group(3), "reason": ""}
         elif current:
             rm = re.match(r"^- \*\*Reasoning:\*\* (.*)$", line)
             if rm:
@@ -261,28 +290,6 @@ def load_recent_decisions(max_n=20):
     if current:
         decisions.append(current)
     return decisions[-max_n:]
-
-
-def build_watchlist_state(sol_price, top_runners, dex_data):
-    enriched = []
-    for entry in top_runners:
-        mint = entry["mint"]
-        pair = dex_data.get(mint)
-        if pair:
-            entry["price_usd"] = pair.get("priceUsd")
-            entry["price_sol"] = pair.get("priceNative")
-            entry["liquidity_usd"] = (pair.get("liquidity") or {}).get("usd")
-            entry["volume_h24"] = (pair.get("volume") or {}).get("h24")
-            entry["price_change_h24"] = (pair.get("priceChange") or {}).get("h24")
-            entry["price_change_h1"] = (pair.get("priceChange") or {}).get("h1")
-            entry["price_change_m5"] = (pair.get("priceChange") or {}).get("m5")
-            entry["pair_url"] = pair.get("url")
-        enriched.append(entry)
-    return {
-        "fetched_at": iso_now(),
-        "sol_price_usd": sol_price,
-        "tokens": enriched,
-    }
 
 
 def compute_portfolio_value(state, sol_price, dex_data):
@@ -312,18 +319,16 @@ def compute_today_realized_pnl(state):
 
 
 # =====================================================================
-# LLM — the new brain
+# LLM
 # =====================================================================
 
 def call_llm(prompt, max_seconds=LLM_TIMEOUT_SECONDS):
-    """Call the gateway's LLM. Returns raw text response or raises."""
     try:
         result = subprocess.run(
             [HERMES_CLI, "chat", "-q", prompt, "-Q",
              "--max-turns", "1", "--run-budget", str(max_seconds),
-             "--ignore-rules", "--safe-mode",  # skip extra tool loading
-             "-t", "terminal",  # only need terminal for tool access
-             ],
+             "--ignore-rules", "--safe-mode",
+             "-t", "terminal"],
             capture_output=True, text=True, timeout=max_seconds + 30,
         )
         if result.returncode != 0:
@@ -334,20 +339,16 @@ def call_llm(prompt, max_seconds=LLM_TIMEOUT_SECONDS):
 
 
 def extract_json(text):
-    """Find JSON in LLM output (handles ```json blocks, surrounding prose)."""
-    # Try direct parse
     try:
         return json.loads(text)
     except Exception:
         pass
-    # Try code-fence
     m = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
     if m:
         try:
             return json.loads(m.group(1))
         except Exception:
             pass
-    # Try to find first { ... last }
     start = text.find("{")
     end = text.rfind("}")
     if start != -1 and end > start:
@@ -359,12 +360,15 @@ def extract_json(text):
 
 
 # =====================================================================
-# Decisions — the LLM makes them
+# Build the prompt — ATTENTION FIRST
 # =====================================================================
 
-def build_decision_prompt(state, sol_price, watchlist_data, portfolio_value, today_pnl):
-    """Build the prompt for the LLM to make entry + exit decisions."""
+def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl, new_mints):
+    """v4: LLM gets narrative context + new-launch alerts."""
+
     positions = state.get("positions", {})
+
+    # === Held positions with context ===
     held = []
     for mint, pos in positions.items():
         token = next((t for t in watchlist_data["tokens"] if t["mint"] == mint), None)
@@ -372,102 +376,110 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio_value, tod
             continue
         cur_price = _to_float(token.get("price_usd"))
         entry_price = _to_float(pos.get("entry_price_usd"))
-        if cur_price > 0 and entry_price > 0:
-            pnl_pct = (cur_price / entry_price - 1) * 100
-        else:
-            pnl_pct = 0
+        pnl_pct = ((cur_price / entry_price - 1) * 100) if cur_price > 0 and entry_price > 0 else 0
         held_hours = 0
         if pos.get("entry_time"):
             held_hours = (now_utc() - parse_iso(pos["entry_time"])).total_seconds() / 3600
         held.append({
             "symbol": pos.get("symbol"),
-            "mint": mint[:8] + "…",
+            "mint": mint,
             "amount_tokens": pos.get("amount"),
             "entry_price_usd": entry_price,
             "current_price_usd": cur_price,
             "pnl_pct": round(pnl_pct, 1),
             "held_hours": round(held_hours, 1),
-            "chg_24h": token.get("price_change_h24"),
-            "chg_1h": token.get("price_change_h1"),
-            "liquidity_usd": token.get("liquidity_usd"),
-            "volume_24h_usd": token.get("volume_h24"),
-            "mcap_usd": token.get("market_cap_usd"),
-            "ath_mcap_usd": token.get("ath_market_cap_usd"),
+            "volatility_score": token.get("volatility_score"),
+            "boost_mode": token.get("boost_mode"),
+            "real_sol_reserves": token.get("real_sol_reserves"),
         })
 
-    # Candidate entries — only show ones passing basic gates
+    # === All candidate tokens (no filters) ===
+    # The LLM should see the full list and decide which to buy
     held_mints = set(positions.keys())
     candidates = []
     for token in watchlist_data.get("tokens", []):
         if token["mint"] in held_mints:
             continue
-        liq = _to_float(token.get("liquidity_usd"))
-        vol = _to_float(token.get("volume_h24"))
-        chg24 = _to_float(token.get("price_change_h24"))
-        if liq < MIN_LIQUIDITY_USD or vol < MIN_VOLUME_24H_USD or chg24 < MIN_PRICE_CHANGE_24H:
-            continue
+        # Mark if this is a fresh launch we haven't seen
+        is_new = token["mint"] in new_mints
         candidates.append({
-            "symbol": token.get("symbol"),
-            "name": token.get("name"),
-            "mint": token.get("mint", "")[:8] + "…",
-            "price_usd": _to_float(token.get("price_usd")),
-            "chg_24h": chg24,
-            "chg_1h": _to_float(token.get("price_change_h1")),
-            "liquidity_usd": liq,
-            "volume_24h_usd": vol,
-            "mcap_usd": _to_float(token.get("market_cap_usd")),
-            "ath_mcap_usd": _to_float(token.get("ath_market_cap_usd")),
+            **token,
+            "is_new_launch": is_new,
         })
-    candidates = candidates[:8]  # top 8 by some metric — let LLM sort
+    # Sort: new launches first, then by recent activity
+    candidates.sort(key=lambda c: (not c.get("is_new_launch"), -(c.get("last_trade_ts") or 0)))
+    candidates = candidates[:15]
 
-    # Stats
+    # === Recent trades summary ===
     trades = state.get("trades", [])
     recent_trades = trades[-5:] if trades else []
     wins = sum(1 for t in trades if _to_float(t.get("pnl_sol", 0)) > 0)
     losses = len(trades) - wins
 
-    prompt = f"""You are a memecoin trading bot. Manage a 2 SOL paper portfolio. Be honest and skeptical.
+    new_launch_alert = ""
+    if new_mints:
+        new_tokens_info = [c for c in candidates if c.get("is_new_launch")][:5]
+        if new_tokens_info:
+            new_launch_alert = (
+                f"\n# NEW LAUNCHES DETECTED (not seen last tick) — these are fresh attention:\n"
+                + "\n".join([
+                    f"  - ${t['symbol']} ({t['name']}) — mcap ${t.get('market_cap_usd', 0):,.0f}, age ~{round((now_utc().timestamp()*1000 - (t.get('created_ts') or 0))/60000, 1)}min"
+                    + (f" — twitter: {t['twitter']}" if t.get('twitter') else "")
+                    + (f" — desc: {t.get('description', '')[:100]}" if t.get('description') else "")
+                    for t in new_tokens_info
+                ])
+                + "\n"
+            )
+
+    prompt = f"""You are a memecoin trading bot. Memecoins are ATTENTION MARKETS, not logic. Your job is to find tokens with viral attention and ride the wave.
 
 # Current state
 - SOL free: {state.get('balance_sol', 0):.4f} SOL (${state.get('balance_sol', 0) * sol_price:.2f})
 - Open positions: {len(held)}/{MAX_POSITIONS}
-- Total portfolio: ${portfolio_value['total_value_usd']:.2f}
+- Total portfolio: ${portfolio['total_value_usd']:.2f}
 - Today's realized P&L: {today_pnl:+.4f} SOL
-- Daily target: +20% (0.4 SOL). Daily loss cap: -{DAILY_MAX_LOSS_SOL} SOL (no new entries if exceeded)
+- Daily target: +20% (0.4 SOL). Hard daily loss cap: -{DAILY_MAX_LOSS_SOL} SOL (no new entries if exceeded)
 - All-time: {len(trades)} trades, {wins}W/{losses}L
+- **Hard cap on any single position loss: -{int(HARD_STOP_LOSS*100)}%. LLM cannot override this.**
 
 # Recent trades (last 5)
 """ + "\n".join([
-        f"  {t.get('symbol')} {t.get('pnl_pct', 0):+.1f}% via {t.get('exit_reason', '?')[:40]} — {(t.get('post_mortem') or {}).get('diagnosis', '')[:100]}"
+        f"  - {t.get('symbol')} {t.get('pnl_pct', 0):+.1f}% via {(t.get('exit_reason') or '')[:60]}"
         for t in recent_trades
-    ]) + "\n\n"
-
+    ]) + "\n"
+    prompt += new_launch_alert
     if held:
-        prompt += "# Held positions (decide: hold / sell-all / sell-half)\n"
+        prompt += "\n# Held positions (decide: hold / sell_all / sell_half)\n"
         for h in held:
-            prompt += f"- ${h['symbol']} ({h['mint']}) entry ${h['entry_price_usd']:.6g} now ${h['current_price_usd']:.6g} = {h['pnl_pct']:+.1f}%, held {h['held_hours']:.1f}h, 24h_chg={h['chg_24h']}%, 1h_chg={h['chg_1h']}%, liq=${h['liquidity_usd']:.0f}, vol24=${h['volume_24h_usd']:.0f}, mcap=${h['mcap_usd']:.0f} (ATH ${h['ath_mcap_usd']:.0f})\n"
+            prompt += f"  - ${h['symbol']} entry ${h['entry_price_usd']:.6g} now ${h['current_price_usd']:.6g} = {h['pnl_pct']:+.1f}%, held {h['held_hours']:.1f}h, vol_score={h['volatility_score']}, real_sol={h['real_sol_reserves']:.2f}\n"
         prompt += "\n"
 
     if candidates:
-        prompt += "# Entry candidates (decide: buy / skip). All pump.fun top-runners. SOL price: $" + f"{sol_price:.2f}\n"
+        prompt += "# Token candidates (decide: buy / skip). Pump.fun fresh + recommended. SOL price: $" + f"{sol_price:.2f}\n"
         for c in candidates:
-            mcap_ratio = c['mcap_usd'] / c['ath_mcap_usd'] if c['ath_mcap_usd'] else 0
-            prompt += f"- ${c['symbol']} ({c['mint']}) {c['name']} — ${c['price_usd']:.6g}, 24h={c['chg_24h']:+.1f}%, 1h={c['chg_1h']:+.1f}%, liq=${c['liquidity_usd']:.0f}, vol=${c['volume_24h_usd']:.0f}, mcap=${c['mcap_usd']:.0f} (ATH ${c['ath_mcap_usd']:.0f}, currently {mcap_ratio*100:.0f}% of ATH)\n"
+            flag = "🆕 " if c.get("is_new_launch") else "  "
+            mcap = c.get('market_cap_usd', 0)
+            ath = c.get('ath_market_cap_usd', 0) or 0
+            mcap_pct_of_ath = (mcap / ath * 100) if ath else 0
+            desc = c.get('description', '')[:100].replace('\n', ' ')
+            prompt += f"  {flag}${c['symbol']:10} ({c['name'][:24]:24}) mcap ${mcap:>10,.0f} ({mcap_pct_of_ath:.0f}% of ATH) vol_score={c.get('volatility_score', '?')} complete={c.get('complete', '?')}"
+            if desc:
+                prompt += f" desc=\"{desc}\""
+            if c.get("twitter"):
+                prompt += f" twitter:{c['twitter'][:60]}"
+            prompt += "\n"
         prompt += "\n"
-    else:
-        prompt += "\n# No entry candidates right now — top-runners all failing basic gates (liq/vol/momentum).\n"
 
     prompt += f"""# Your call
 
-Rules of engagement (HARD limits, not negotiable):
-- Each position is 0.1 SOL. You can hold up to {MAX_POSITIONS} positions.
-- No new buys if today_pnl < -{DAILY_MAX_LOSS_SOL} SOL.
-- No new buys if balance_sol would drop below {RESERVE_SOL} SOL after entry.
-- A position can be held up to {MAX_HOLD_HOURS} hours max (hard limit).
-- A token's price can drop 90% in minutes on memecoins. There are NO safe stop-losses.
-- Real signal > top-runner hype. "Trending" often means smart money already exited.
-- A 24h gain of 30%+ on a small-cap usually means it's pumped already. Be skeptical of late entries.
-- Volume + liquidity matter for being able to exit. <$5k liq = stuck.
+Memecoin trading rules (LLM can override all but the hard cap):
+- A position is automatically closed at -{int(HARD_STOP_LOSS*100)}% loss OR after {MAX_HOLD_HOURS}h. Other than that, you decide.
+- Each buy is 0.1 SOL. Max {MAX_POSITIONS} positions. Keep at least {RESERVE_SOL} SOL in reserve.
+- **Memecoins are attention markets.** A good name, a viral X account, an interesting story — these are buy signals, not reasons to skip.
+- **New launches are where the alpha is.** A $20k mcap token with a story can do 10x in hours. Top-runners has already-extracted alpha.
+- **Don't wait for confirmation.** If you wait for $200k mcap to 'confirm' a $30k token, you'll buy the top.
+- **Take some profit at +50%.** But hold longer if the narrative is still strong.
+- **It's OK to take 2-3 small losses in a row** if the strategy is right. Catching one 5x in 10 trades pays for all the losers.
 
 Output ONLY valid JSON in this exact shape:
 {{
@@ -475,24 +487,19 @@ Output ONLY valid JSON in this exact shape:
     {{"mint": "<full mint from held position, or skip if no held positions>", "action": "hold|sell_all|sell_half", "reasoning": "<1-2 sentences, honest, specific to the data>"}}
   ],
   "entry_decisions": [
-    {{"mint": "<full mint from candidates, or skip>", "action": "buy|skip", "reasoning": "<1-2 sentences>"}}
+    {{"mint": "<full mint from candidates, or skip>", "action": "buy|skip", "reasoning": "<1-2 sentences — name the narrative, the attention signal, the risk>"}}
   ],
-  "summary": "<one sentence on overall market read and what you're doing>"
+  "summary": "<one sentence on the market and what you're doing>"
 }}
-
-Be aggressive when signals support it, defensive when they don't. No token is "definitely going up." Don't paper over losses.
 """
     return prompt, held, candidates
 
 
 def get_llm_decisions(prompt):
-    """Call LLM, parse response, return decision list."""
     response = call_llm(prompt)
     parsed = extract_json(response)
-    if not parsed:
+    if not parsed or not isinstance(parsed, dict):
         return None, response, "could not parse JSON"
-    if not isinstance(parsed, dict):
-        return None, response, "JSON not an object"
     return parsed, response, None
 
 
@@ -501,17 +508,16 @@ def get_llm_decisions(prompt):
 # =====================================================================
 
 def execute_buy(state, mint, token, price_usd, sol_price):
-    """Open a paper position. Returns position dict or (False, reason)."""
     if state.get("balance_sol", 0) - POSITION_SIZE_SOL < RESERVE_SOL:
-        return False, f"would breach reserve ({RESERVE_SOL} SOL)"
+        return None, f"would breach reserve ({RESERVE_SOL} SOL)"
     if state.get("balance_sol", 0) < POSITION_SIZE_SOL:
-        return False, "insufficient SOL"
+        return None, "insufficient SOL"
 
     sol_price_usd = sol_price
     usd_value = POSITION_SIZE_SOL * sol_price_usd
     token_amount = usd_value / price_usd if price_usd > 0 else 0
     if token_amount <= 0:
-        return False, "could not size position"
+        return None, "could not size position"
 
     position = {
         "symbol": token.get("symbol", "?"),
@@ -523,13 +529,17 @@ def execute_buy(state, mint, token, price_usd, sol_price):
         "entry_usd_value": usd_value,
         "entry_signals": {
             "liquidity_usd": token.get("liquidity_usd"),
-            "volume_24h_usd": token.get("volume_24h_usd"),
-            "price_change_24h": token.get("price_change_h24"),
-            "price_change_1h": token.get("price_change_h1"),
+            "volume_24h_usd": token.get("volume_h24"),
             "market_cap_usd": token.get("market_cap_usd"),
-            "ath_market_usd": token.get("ath_market_cap_usd"),
+            "ath_market_cap_usd": token.get("ath_market_cap_usd"),
+            "volatility_score": token.get("volatility_score"),
+            "boost_mode": token.get("boost_mode"),
+            "real_sol_reserves": token.get("real_sol_reserves"),
+            "description": token.get("description", "")[:300],
+            "twitter": token.get("twitter", ""),
+            "source_endpoint": token.get("source_endpoint"),
         },
-        "llm_entry": True,  # marker that LLM approved
+        "llm_entry": True,
     }
     state["positions"][mint] = position
     state["balance_sol"] = round(state["balance_sol"] - POSITION_SIZE_SOL, 6)
@@ -537,7 +547,6 @@ def execute_buy(state, mint, token, price_usd, sol_price):
 
 
 def execute_sell(state, mint, price_usd, fraction, reason):
-    """Sell fraction of position. Returns trade dict."""
     pos = state["positions"].get(mint)
     if not pos:
         return None
@@ -568,7 +577,6 @@ def execute_sell(state, mint, price_usd, fraction, reason):
     }
     state["trades"].append(trade)
     state["balance_sol"] = round(state["balance_sol"] + sol_proceeds, 6)
-
     if fraction >= 0.999:
         del state["positions"][mint]
     else:
@@ -578,7 +586,7 @@ def execute_sell(state, mint, price_usd, fraction, reason):
 
 
 # =====================================================================
-# Main loop
+# Git
 # =====================================================================
 
 def git_commit_and_push():
@@ -604,33 +612,84 @@ def git_commit_and_push():
         return False
 
 
+# =====================================================================
+# Main
+# =====================================================================
+
 def main():
-    log("=== Memecoin bot tick (v3 LLM) ===")
+    log("=== Memecoin bot tick (v4 attention-first) ===")
     state = load_state()
     now = now_utc()
 
-    # 1. Fetch prices
-    sol_price = fetch_sol_price_usd()
-    if sol_price is None:
-        log("ERROR: couldn't fetch SOL price")
+    # 1. Fetch SOL price
+    sol_price = None
+    try:
+        data = http_get_json(f"{DEXSCREENER_BASE}/tokens/{SOL_MINT}")
+        pairs = [p for p in (data.get("pairs") or [])
+                 if p.get("chainId") == "solana" and _to_float(p.get("priceUsd")) > 0]
+        if pairs:
+            pairs.sort(key=lambda p: _to_float((p.get("liquidity") or {}).get("usd")), reverse=True)
+            sol_price = _to_float(pairs[0]["priceUsd"])
+    except Exception as e:
+        log(f"ERROR: SOL price fetch failed: {e}")
         sys.exit(1)
     state["last_sol_price_usd"] = sol_price
     log(f"SOL: ${sol_price:.2f}")
 
-    # 2. Fetch watchlist
-    top_runners = fetch_pumpfun_top_runners(limit=30)
-    mints = [t["mint"] for t in top_runners if t.get("mint")]
-    dex_data = fetch_dexscreener_for_mints(mints)
-    watchlist_state = build_watchlist_state(sol_price, top_runners, dex_data)
-    WATCHLIST_PATH.write_text(json.dumps(watchlist_state, indent=2, ensure_ascii=False))
+    # 2. Fetch freshest tokens (the actual opportunity feed)
+    fresh = fetch_pumpfun_freshest(limit=25)
+    top_runners = fetch_pumpfun_top_runners(limit=15)
 
-    # 3. Apply hard max-hold (LLM can't hold forever)
+    # 3. Dedupe + combine, preserving rich data
+    by_mint = {}
+    for t in fresh:
+        by_mint[t["mint"]] = t
+    for t in top_runners:
+        if t["mint"] not in by_mint:
+            by_mint[t["mint"]] = t
+    tokens = list(by_mint.values())
+    log(f"Total candidate tokens: {len(tokens)} (fresh: {len(fresh)}, top-runners: {len(top_runners)}, deduped: {len(tokens)})")
+
+    # 4. Detect NEW mints (alpha!)
+    last_seen = load_last_seen_mints()
+    current_mints = {t["mint"] for t in tokens}
+    new_mints = current_mints - last_seen
+    if new_mints:
+        log(f"🆕 {len(new_mints)} NEW mints detected since last tick")
+    save_last_seen_mints(current_mints)
+
+    # 5. Enrich with DexScreener
+    mints = [t["mint"] for t in tokens]
+    dex_data = fetch_dexscreener_for_mints(mints)
+    for t in tokens:
+        pair = dex_data.get(t["mint"])
+        if pair:
+            t["price_usd"] = pair.get("priceUsd")
+            t["price_sol"] = pair.get("priceNative")
+            t["liquidity_usd"] = _to_float((pair.get("liquidity") or {}).get("usd"))
+            t["volume_h24"] = _to_float((pair.get("volume") or {}).get("h24"))
+            t["price_change_h24"] = _to_float((pair.get("priceChange") or {}).get("h24"))
+            t["price_change_h1"] = _to_float((pair.get("priceChange") or {}).get("h1"))
+            t["price_change_m5"] = _to_float((pair.get("priceChange") or {}).get("m5"))
+            t["pair_url"] = pair.get("url")
+            t["dex_id"] = pair.get("dexId")
+            t["pair_address"] = pair.get("pairAddress")
+
+    # 6. Save watchlist for the dashboard
+    WATCHLIST_PATH.write_text(json.dumps({
+        "fetched_at": iso_now(),
+        "sol_price_usd": sol_price,
+        "tokens": tokens,
+        "new_mints": list(new_mints),
+    }, indent=2, ensure_ascii=False))
+
+    # 7. Hard max-hold check (LLM can't hold forever)
     for mint, pos in list(state.get("positions", {}).items()):
         if not pos.get("entry_time"):
             continue
         held_hours = (now - parse_iso(pos["entry_time"])).total_seconds() / 3600
         if held_hours >= MAX_HOLD_HOURS:
-            token = next((t for t in watchlist_state["tokens"] if t["mint"] == mint), None)
+            token = next((t for t in tokens if t["mint"] == mint), None)
             if token and _to_float(token.get("price_usd")) > 0:
                 trade = execute_sell(state, mint, _to_float(token["price_usd"]), 1.0, f"max-hold {MAX_HOLD_HOURS}h reached")
                 if trade:
@@ -638,28 +697,53 @@ def main():
                     append_decision({
                         "action": "sell",
                         "details": f"[max-hold] ${trade['symbol']} closed at ${trade['exit_price_usd']:.6g} | P&L: {trade['pnl_pct']:+.1f}%",
-                        "reason": f"Hard cap of {MAX_HOLD_HOURS} hours reached",
+                        "reason": f"Hard {MAX_HOLD_HOURS}h cap",
                     })
 
-    # 4. Compute portfolio + today's PnL
+    # 8. Hard stop-loss (-50%) — non-negotiable
+    for mint, pos in list(state.get("positions", {}).items()):
+        token = next((t for t in tokens if t["mint"] == mint), None)
+        if not token:
+            continue
+        cur_price = _to_float(token.get("price_usd"))
+        if cur_price <= 0:
+            continue
+        entry_price = _to_float(pos.get("entry_price_usd"))
+        if entry_price > 0 and cur_price / entry_price <= (1 - HARD_STOP_LOSS):
+            trade = execute_sell(state, mint, cur_price, 1.0, f"hard-stop -{int(HARD_STOP_LOSS*100)}%")
+            if trade:
+                log(f"HARD STOP: ${trade['symbol']} closed at -50% — PnL {trade['pnl_pct']:+.1f}%")
+                append_decision({
+                    "action": "sell",
+                    "details": f"[hard-stop] ${trade['symbol']} closed at ${cur_price:.6g} | P&L: {trade['pnl_pct']:+.1f}%",
+                    "reason": f"Hard -{int(HARD_STOP_LOSS*100)}% stop",
+                })
+
+    # 9. Compute portfolio
     portfolio = compute_portfolio_value(state, sol_price, dex_data)
     today_pnl = compute_today_realized_pnl(state)
-    log(f"Portfolio: ${portfolio['total_value_usd']:.2f} | Today realized: {today_pnl:+.4f} SOL")
+    log(f"Portfolio: ${portfolio['total_value_usd']:.2f} | Today: {today_pnl:+.4f} SOL")
 
-    # 5. Check daily loss cap
     daily_loss_breached = today_pnl < -DAILY_MAX_LOSS_SOL
 
-    # 6. Build LLM prompt
+    # 10. Build prompt
     prompt, held, candidates = build_decision_prompt(
-        state, sol_price, watchlist_state, portfolio, today_pnl
+        state, sol_price,
+        {"tokens": tokens},
+        portfolio, today_pnl, new_mints,
     )
-    if not held and not candidates and not ALWAYS_LLM_TICK:
-        log("Nothing to do — no positions, no candidates (ALWAYS_LLM_TICK=False)")
-        append_decision({
-            "action": "observe",
-            "details": f"No positions, no candidates passed basic gates",
-            "reason": "no action",
-        })
+
+    # 11. Throttle: skip LLM if idle and last brief was recent
+    should_call_llm = True
+    if not held and not new_mints and ALWAYS_LLM_TICK:
+        last_brief = state.get("last_llm_brief_at")
+        if last_brief:
+            last_dt = parse_iso(last_brief)
+            if last_dt and (now - last_dt).total_seconds() < LLM_BRIEF_INTERVAL_MIN * 60:
+                log(f"No positions, no new mints, last LLM brief {(now-last_dt).total_seconds():.0f}s ago — skipping")
+                should_call_llm = False
+
+    if not should_call_llm:
         state["portfolio_value_usd"] = portfolio["total_value_usd"]
         state["last_updated"] = iso_now()
         state["recent_decisions"] = load_recent_decisions(max_n=20)
@@ -667,40 +751,20 @@ def main():
         git_commit_and_push()
         return
 
-    # Throttle LLM calls when idle: only call every LLM_BRIEF_INTERVAL_MIN minutes
-    # (still scan tokens every tick, just don't burn LLM tokens)
-    if not held and not candidates and ALWAYS_LLM_TICK:
-        last_brief = state.get("last_llm_brief_at")
-        if last_brief:
-            try:
-                last_dt = parse_iso(last_brief)
-                if last_dt and (now - last_dt).total_seconds() < LLM_BRIEF_INTERVAL_MIN * 60:
-                    log(f"Idle + last LLM brief {(now-last_dt).total_seconds():.0f}s ago < {LLM_BRIEF_INTERVAL_MIN*60}s — skipping LLM, scanning only")
-                    state["portfolio_value_usd"] = portfolio["total_value_usd"]
-                    state["last_updated"] = iso_now()
-                    state["recent_decisions"] = load_recent_decisions(max_n=20)
-                    save_state(state)
-                    git_commit_and_push()
-                    return
-            except Exception:
-                pass
-        log("No positions, no candidates — asking LLM for market read")
-        # Fall through to LLM call with empty lists — it will give us a market brief
-        state["last_llm_brief_at"] = iso_now()
-
-    # 7. Get LLM decision
-    log(f"Asking LLM (held={len(held)}, candidates={len(candidates)})...")
+    # 12. Call LLM
+    log(f"Calling LLM (held={len(held)}, new_mints={len(new_mints)}, total_candidates={len(candidates)})...")
     try:
         decisions, raw_response, parse_err = get_llm_decisions(prompt)
     except Exception as e:
         log(f"ERROR: LLM call failed: {e}")
         decisions, raw_response, parse_err = None, str(e), "llm call failed"
 
-    log_full_decision(prompt, raw_response, "tick", f"held={len(held)} candidates={len(candidates)}")
+    log_full_decision(prompt, raw_response, "tick", f"held={len(held)} new_mints={len(new_mints)}")
+    state["last_llm_brief_at"] = iso_now()
 
     if not decisions:
-        log(f"WARN: {parse_err} — holding all positions, no entries")
-        log(f"Raw response (first 500): {raw_response[:500]}")
+        log(f"WARN: {parse_err} — holding all, no entries")
+        log(f"Raw (first 300): {raw_response[:300]}")
         append_decision({
             "action": "observe",
             "details": f"LLM call failed: {parse_err}",
@@ -713,7 +777,7 @@ def main():
         git_commit_and_push()
         return
 
-    # 8. Execute exit decisions
+    # 13. Execute exit decisions
     exits_made = 0
     for dec in decisions.get("exit_decisions", []) or []:
         if not isinstance(dec, dict):
@@ -721,15 +785,14 @@ def main():
         target_mint_prefix = dec.get("mint", "")
         action = dec.get("action", "").lower()
         reasoning = dec.get("reasoning", "")
-        # Find the held position whose mint starts with the prefix
         target_mint = None
         for full_mint in state.get("positions", {}):
-            if full_mint.startswith(target_mint_prefix.replace("…", "")):
+            if full_mint.startswith(target_mint_prefix[:10]):
                 target_mint = full_mint
                 break
         if not target_mint:
             continue
-        token = next((t for t in watchlist_state["tokens"] if t["mint"] == target_mint), None)
+        token = next((t for t in tokens if t["mint"] == target_mint), None)
         if not token or _to_float(token.get("price_usd")) <= 0:
             continue
         cur_price = _to_float(token["price_usd"])
@@ -749,14 +812,9 @@ def main():
                 "reason": reasoning,
             })
 
-    # 9. Execute entry decisions
+    # 14. Execute entry decisions
     if daily_loss_breached:
-        log(f"Daily loss cap reached ({today_pnl:+.4f} < -{DAILY_MAX_LOSS_SOL} SOL) — skipping entries")
-        append_decision({
-            "action": "observe",
-            "details": f"Daily loss cap hit ({today_pnl:+.4f} SOL). No new entries today.",
-            "reason": "safety guardrail",
-        })
+        log(f"Daily loss cap hit ({today_pnl:+.4f} < -{DAILY_MAX_LOSS_SOL} SOL) — no new entries")
     else:
         for dec in decisions.get("entry_decisions", []) or []:
             if not isinstance(dec, dict):
@@ -768,23 +826,20 @@ def main():
                 continue
             target_mint = None
             for c in candidates:
-                full = watchlist_state["tokens"]
-                for tok in full:
-                    if tok["mint"].startswith(target_mint_prefix.replace("…", "")):
-                        target_mint = tok["mint"]
-                        break
-                if target_mint:
+                if c["mint"].startswith(target_mint_prefix[:10]):
+                    target_mint = c["mint"]
                     break
             if not target_mint or target_mint in state.get("positions", {}):
                 continue
             if len(state.get("positions", {})) >= MAX_POSITIONS:
                 break
-            token = next((t for t in watchlist_state["tokens"] if t["mint"] == target_mint), None)
+            token = next((t for t in tokens if t["mint"] == target_mint), None)
             if not token or _to_float(token.get("price_usd")) <= 0:
                 continue
             pos, err = execute_buy(state, target_mint, token, _to_float(token["price_usd"]), sol_price)
             if pos:
-                log(f"LLM BUY ${pos['symbol']}: ${pos['amount']:.4f} tokens @ ${pos['entry_price_usd']:.6g} — {reasoning[:80]}")
+                log(f"LLM BUY ${pos['symbol']}: ${pos['amount']:.4f} tokens @ ${pos['entry_price_usd']:.6g}")
+                log(f"  Reasoning: {reasoning[:120]}")
                 append_decision({
                     "action": "buy",
                     "details": f"[LLM] ${pos['symbol']} at ${pos['entry_price_usd']:.6g}, spent {POSITION_SIZE_SOL} SOL",
@@ -793,25 +848,21 @@ def main():
             elif err:
                 log(f"Buy blocked: {err}")
 
-    # 10. If no actions, log observation with the LLM summary
+    # 15. Save + push
     if exits_made == 0 and len(state.get("positions", {})) == len(held):
         summary = decisions.get("summary", "no summary")
         append_decision({
             "action": "observe",
-            "details": f"LLM tick: {exits_made} exits, no entries. {len(state.get('positions', {}))} positions held",
+            "details": f"LLM tick: {exits_made} exits, no new entries. {len(state.get('positions', {}))} positions held",
             "reason": summary,
         })
 
-    # 11. Update state
     state["portfolio_value_usd"] = compute_portfolio_value(state, sol_price, dex_data)["total_value_usd"]
     state["last_updated"] = iso_now()
     state["recent_decisions"] = load_recent_decisions(max_n=20)
     save_state(state)
-    log(f"State saved: {len(state.get('positions', {}))} positions, {len(state.get('trades', []))} trades")
-
-    # 12. Push
+    log(f"State: {len(state.get('positions', {}))} positions, {len(state.get('trades', []))} trades")
     git_commit_and_push()
-    log("=== Done ===")
 
 
 if __name__ == "__main__":

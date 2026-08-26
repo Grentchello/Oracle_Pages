@@ -1159,3 +1159,6 @@
 - **Reasoning:** All 4 candidates are down 24h with continued 1h bleed and I have a 1W/6L recent record — passing on every entry and preserving capital for a real setup.
 
 
+## [2026-08-26 05:47 UTC] observe | LLM tick: 0 exits, no new entries. 0 positions held
+- **Reasoning:** All 15 candidates show vol_score=0.0 with ages measured in years — these are stale tokens mislabeled as new launches, not fresh attention. After a 1W/6L streak I am preserving capital and waiting for a real volume signal before deploying.
+
