@@ -699,3 +699,7 @@
 - **Reasoning:** Both candidates are prior losers showing either no bounce (BURNIE) or a likely dead-cat bounce (TripleT) — no genuine edge, sitting on hands and waiting for a real signal.
 
 
+## [2026-08-26 03:23 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** No entries: both candidates are already-failed names from my own recent trade history with negative 24h momentum and no clean reversal signal — the rules explicitly warn trending-on-pump-fun + post-pump decay is a late-entry trap, and sitting on 1.95 SOL preserves capital for a better setup.
+
+
