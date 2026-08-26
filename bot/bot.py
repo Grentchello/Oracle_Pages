@@ -281,7 +281,7 @@ def log_full_decision(prompt, response, action, target):
         "target": target,
         "action": action,
         "prompt": prompt[:2000],
-        "response": response[:2000],
+        "response": response[:8000],
     })
     log_data = log_data[-100:]
     DECISION_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
