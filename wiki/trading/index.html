@@ -272,14 +272,20 @@ async function renderHoldings(state, watchlist) {
 
   for (const mint in positions) {
     const pos = positions[mint];
-    const meta = (watchlist.tokens || []).find(t => t.mint === mint);
-    const curPrice = meta ? parseFloat(meta.price_usd) : null;
+    // Prefer state.held_prices (always fresh, from DexScreener).
+    // Fall back to watchlist (new launches). Fall back to null.
+    const hp = (state.held_prices || {})[mint];
+    let curPrice = hp && hp.price_usd ? parseFloat(hp.price_usd) : null;
+    if (curPrice === null || isNaN(curPrice)) {
+      const meta = (watchlist.tokens || []).find(t => t.mint === mint);
+      curPrice = meta ? parseFloat(meta.price_usd) : null;
+    }
     const entryPrice = parseFloat(pos.entry_price_usd) || 0;
     const amount = parseFloat(pos.amount) || 0;
     const valueUSD = curPrice !== null && !isNaN(curPrice) ? curPrice * amount : null;
     const pnlPct = (curPrice !== null && entryPrice > 0) ? ((curPrice / entryPrice - 1) * 100) : null;
     const cls = pnlPct !== null ? (pnlPct >= 0 ? 'pos' : 'neg') : 'neu';
-    const sym = String(pos.symbol || mint.slice(0,8)).replace(/[<>&\"]/g, '');
+    const sym = String(pos.symbol || mint.slice(0,8)).replace(/[<>&\\\"]/g, '');
     const valueStr = valueUSD !== null ? fmtUSD(valueUSD) : '—';
     const pnlStr = pnlPct !== null ? (pnlPct >= 0 ? '+' : '') + pnlPct.toFixed(1) + '%' : '—';
 

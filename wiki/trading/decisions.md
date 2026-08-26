@@ -1672,3 +1672,18 @@
 ## [2026-08-26 10:18 UTC] sell | [FULL][LLM] $Walter at $2.918e-06 | P&L: -45.2%
 - **Reasoning:** -45.2% and right at the -50% hard cap with no recovery signal (24h -12.9%, 1h -12.9%). Cut now to free a slot and stop the bleed before the auto-close.
 
+## [2026-08-26 10:19 UTC] sell | [PARTIAL][LLM] $crocodile at $8.864e-06 | P&L: +92.8%
+- **Reasoning:** $crocodile at +92.8% with 24h +159% — parabolic move, taking half profit to lock gains while letting the rest ride if attention keeps building.
+
+## [2026-08-26 10:19 UTC] sell | [FULL][LLM] $Pigtacio at $5.355e-06 | P&L: +18.6%
+- **Reasoning:** $Pigtacio at +18.6% with weak 24h momentum vs peers — rotating capital into fresher attention with more viral potential.
+
+## [2026-08-26 10:19 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $4.771e-05 | P&L: +394.9%
+- **Reasoning:** $HOTPUMP at +394.9% is the winner — bank half to secure realized gains, let the rest catch a second leg if narrative sticks.
+
+## [2026-08-26 10:19 UTC] buy | [LLM] $ANAL at $3.55288e-06, spent 0.1 SOL
+- **Reasoning:** $ANAL (An Ai Powerhouse) — AI narrative is peak attention, backed by @nexta_tv tweet, brand-new at $3.5k mcap. High virality bet.
+
+## [2026-08-26 10:19 UTC] buy | [LLM] $ANAI at $3.41997e-06, spent 0.1 SOL
+- **Reasoning:** $ANAI mirrors $ANAL — same tweet, AI narrative. Slightly later in narrative curve but still pre-bond, attention is live.
+
