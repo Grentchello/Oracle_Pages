@@ -1960,3 +1960,18 @@
 ## [2026-08-26 10:46 UTC] buy | [LLM] $BEEHIVE at $4.04731e-06, spent 0.1 SOL
 - **Reasoning:** $BEEHIVE has dedicated twitter handle (@beehivexsol) which suggests some committed narrative — community tokens often pump early. 0.1 SOL.
 
+## [2026-08-26 10:48 UTC] sell | [FULL][LLM] $SEYONGPORK at $2.724e-06 | P&L: -39.4%
+- **Reasoning:** SEYONGPORK down -39.4% with 1h/24h trend both negative (-26.4%). Bleeding with no catalyst — exit before the -50% hard cap.
+
+## [2026-08-26 10:48 UTC] sell | [FULL][LLM] $BUNI at $4.342e-06 | P&L: -49.9%
+- **Reasoning:** BUNI at -49.9% — sitting on the hard cap line. Cut immediately; the rule cannot be overridden.
+
+## [2026-08-26 10:48 UTC] sell | [FULL][LLM] $ALON at $2.724e-06 | P&L: -5.0%
+- **Reasoning:** ALON down -5% but 1h -30.5%, and the $אלון name is flooding launches (multiple duplicates). Name saturation = alpha-killer. Free the slot.
+
+## [2026-08-26 10:48 UTC] buy | [LLM] $TrenchDog at $4.6619e-06, spent 0.1 SOL
+- **Reasoning:** $TrenchDog — 0.2min old, $4.7k mcap, X launch from GTAutoSol. Sub-1min attention play with a strong 'dog' meme category narrative.
+
+## [2026-08-26 10:48 UTC] buy | [LLM] $Clarus at $3.901e-06, spent 0.1 SOL
+- **Reasoning:** $Clarus (Dogcow) — nostalgic Apple-era IP meme at 0.8min, $3.9k mcap, live X post. Built-in cult-following potential from classic Mac users.
+
