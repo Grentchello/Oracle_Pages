@@ -1,31 +1,8 @@
 {
-  "balance_sol": 1.357409,
+  "balance_sol": 1.370792,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DDRQfqgHs2Z4Yj5wzkoBv8bcGckxBwyS8GpqTXvtpump": {
-      "symbol": "PURPLECHIP",
-      "name": "PURPLE CHIP",
-      "amount": 447018.34862385324,
-      "entry_price_usd": 2.725e-06,
-      "entry_sol_spent": 0.0125,
-      "entry_time": "2026-08-26T11:15:04.118682+00:00",
-      "entry_usd_value": 9.745000000000001,
-      "entry_signals": {
-        "liquidity_usd": 0.0,
-        "volume_24h_usd": 0.96,
-        "market_cap_usd": 3037.1943070268658,
-        "ath_market_cap_usd": 3054.8170430423875,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.665737661,
-        "description": "Purple Chip is the next Blue Chip",
-        "twitter": "https://x.com/Icebergy/status/1532112675836149761",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -2440,19 +2417,30 @@
       "pnl_pct": 6.46,
       "exit_reason": "LLM: sell_half — PURPLECHIP is +6.5% but momentum is stalling (1h=24h, no acceleration). Lock half the profit and let the rest ride — if it doesn't push higher in the ",
       "partial": true
+    },
+    {
+      "mint": "DDRQfqgHs2Z4Yj5wzkoBv8bcGckxBwyS8GpqTXvtpump",
+      "symbol": "PURPLECHIP",
+      "name": "PURPLE CHIP",
+      "amount_sold": 447018.34862385324,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-26T11:15:04.118682+00:00",
+      "exit_time": "2026-08-26T12:15:04.095887+00:00",
+      "entry_price_usd": 2.725e-06,
+      "exit_price_usd": 2.901e-06,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.013383,
+      "pnl_sol": 0.000883,
+      "pnl_pct": 6.46,
+      "exit_reason": "LLM: sell_all — +6.5% with 1h trend at -5.0% and 24h only +6.5% — momentum is fading, no viral narrative visible. Take the small profit and free the slot for fresh at",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-26T12:13:51.900998+00:00",
+  "last_updated": "2026-08-26T12:15:04.096165+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.84,
-  "portfolio_value_usd": 132.67,
+  "last_sol_price_usd": 96.9,
+  "portfolio_value_usd": 132.83,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 11:13 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $    DG   at $3.077e-06 | P&L: -17.3%",
-      "reason": "DG -17.3% with no clear narrative catalyst and weak attention — cut the loser to free capital for fresher attention."
-    },
     {
       "time": "2026-08-26 11:13 UTC",
       "action": "sell",
@@ -2566,34 +2554,40 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $PURPLECHIP at $2.901e-06 | P&L: +6.5%",
       "reason": "PURPLECHIP is +6.5% but momentum is stalling (1h=24h, no acceleration). Lock half the profit and let the rest ride — if it doesn't push higher in the next hour, sell the rest."
+    },
+    {
+      "time": "2026-08-26 12:15 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PURPLECHIP at $2.901e-06 | P&L: +6.5%",
+      "reason": "+6.5% with 1h trend at -5.0% and 24h only +6.5% — momentum is fading, no viral narrative visible. Take the small profit and free the slot for fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 142,
-    "wins": 73,
+    "total": 143,
+    "wins": 74,
     "losses": 69,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -0.53009,
-    "avg_pnl_pct": 92.53,
+    "win_rate_pct": 51.7,
+    "total_pnl_sol": -0.529207,
+    "avg_pnl_pct": 91.93,
     "best_pnl_pct": 666.22,
     "worst_pnl_pct": -99.89,
-    "today_trades": 142,
-    "today_realized_sol": -0.53009,
-    "today_target_pct": -132.5,
+    "today_trades": 143,
+    "today_realized_sol": -0.529207,
+    "today_target_pct": -132.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 73,
+      "win_count": 74,
       "loss_count": 69,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T12:13:51.900899+00:00",
+  "last_llm_brief_at": "2026-08-26T12:15:04.095536+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DDRQfqgHs2Z4Yj5wzkoBv8bcGckxBwyS8GpqTXvtpump": {
       "price_usd": 2.901e-06,
       "change_h24": 6.45,
-      "change_h1": 6.45,
+      "change_h1": -5.04,
       "liquidity_usd": 0.0,
       "volume_h24": 440.55,
       "dex_id": "pumpfun",
