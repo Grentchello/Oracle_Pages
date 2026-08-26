@@ -1549,3 +1549,18 @@
 ## [2026-08-26 10:00 UTC] buy | [LLM] $PEPI at $5.378e-06, spent 0.1 SOL
 - **Reasoning:** $PEPI has a real X account (horseowner34) backing it, fresh attention at 1.3min old, $6.7k mcap with viral-potential meme name. Edge over $GROKBOT (Grok narrative is saturated) and over the CROCODILE cluster which is clearly spam — three identical-tweet launches in 30 seconds with different mints is a scam/copycat pattern.
 
+## [2026-08-26 10:02 UTC] sell | [FULL][LLM] $Toad at $2.72e-06 | P&L: -28.2%
+- **Reasoning:** $Toad at -28.2%, flat 1h with no momentum bounce — narrative exhausted, slot better used on fresh attention. Below -50% hard cap but no reason to hold dead capital.
+
+## [2026-08-26 10:02 UTC] sell | [FULL][LLM] $Panana at $2.717e-06 | P&L: -27.8%
+- **Reasoning:** $Panana at -27.8%, flat 1h,24h trend still down. Same dead-momentum pattern as Toad — cut to redeploy into fresh launch.
+
+## [2026-08-26 10:02 UTC] sell | [FULL][LLM] $gOOn at $2.719e-06 | P&L: -14.5%
+- **Reasoning:** $gOOn at -14.5% is the smallest loss but still flat 1h with no recovery. Free the slot for the croc meta leader which has real attention flow today.
+
+## [2026-08-26 10:02 UTC] buy | [LLM] $Cheeks at $4.95189e-06, spent 0.1 SOL
+- **Reasoning:** $Cheeks — independent attention source (memedreamlife, NOT a Dexerto copycat), fresh meme narrative, $5k mcap = very early. Real differentiated signal vs the croc copycat cluster.
+
+## [2026-08-26 10:02 UTC] buy | [LLM] $crocodile at $4.59805e-06, spent 0.1 SOL
+- **Reasoning:** $crocodile is the highest-mcap leader of the Dexerto 'croc wif crocs' meta cluster ($4,599, 19% bond). When6 copycats spawn from one tweet, the leader captures most of the buy flow.
+
