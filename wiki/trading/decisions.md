@@ -827,3 +827,7 @@
 - **Reasoning:** Both candidates are post-pump drift lower with negative 24h and weak 1h signals — exactly the pattern that produced my last 4 losses. Sitting on hands; no edge today, no forced trades.
 
 
+## [2026-08-26 04:03 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are prior losers still in freefall with no reversal structure — skipping both, preserving capital to wait for a genuine fresh setup rather than revenge-trade familiar names.
+
+
