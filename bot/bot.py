@@ -233,8 +233,11 @@ def _fresh_state():
 
 
 def save_state(state):
+    import sys
+    print(f"[save_state] Writing {len(state.get('positions', {}))} positions, {len(state.get('trades', []))} trades to {STATE_PATH}", file=sys.stderr, flush=True)
     STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
     STATE_PATH.write_text(json.dumps(state, indent=2, ensure_ascii=False))
+    print(f"[save_state] Done, mtime now", file=sys.stderr, flush=True)
 
 
 def load_last_seen_mints():

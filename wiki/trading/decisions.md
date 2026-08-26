@@ -1231,3 +1231,171 @@
 ## [2026-08-26 09:12 UTC] observe | LLM tick: 0 exits, no new entries. 5 positions held
 - **Reasoning:** Market is stagnant on held bags with no 1h recovery signals; cutting the two worst losers to redeploy 0.2 SOL into the freshest viral attention plays ($XRP absurdist meta and $$GBS gaming utility narrative).
 
+## [2026-08-26 09:13 UTC] sell | [FULL][LLM] $Queefcoin at $2.748e-06 | P&L: -54.0%
+- **Reasoning:** At -54.0%, this breaches the -50% hard cap and is mandatory-close territory regardless of strategy.
+
+## [2026-08-26 09:13 UTC] sell | [FULL][LLM] $LEGEND at $2.71e-06 | P&L: -45.5%
+- **Reasoning:** At -45.5% near hard cap, 3.2h held with 1h=0.0% — no bounce, free the slot for fresher attention.
+
+## [2026-08-26 09:13 UTC] sell | [FULL][LLM] $Toad at $2.72e-06 | P&L: -28.2%
+- **Reasoning:** -28.2% with flat 1h and -21% 24h — dead narrative, capital better deployed on fresh launches.
+
+## [2026-08-26 09:13 UTC] sell | [FULL][LLM] $Panana at $2.717e-06 | P&L: -27.8%
+- **Reasoning:** -27.8% with 1h ticking down (-1.3%) — no recovery, free capital for attention plays.
+
+## [2026-08-26 09:13 UTC] buy | [LLM] $XRP at $3.11379e-06, spent 0.1 SOL
+- **Reasoning:** $XRP (HarryPotterObamaPacman8INU) — viral absurdist name mimicking $HPOP8 attention lineage, $3.1k mcap is early enough to ride if narrative catches.0.1 SOL.
+
+## [2026-08-26 09:13 UTC] buy | [LLM] $ETF at $6.99352e-06, spent 0.1 SOL
+- **Reasoning:** $ETF at $7k mcap is the leader by mcap and has a real Twitter source. Crude humor has viral potential. 0.1 SOL.
+
+## [2026-08-26 09:13 UTC] buy | [LLM] $GROKBOT at $2.13267e-06, spent 0.1 SOL
+- **Reasoning:** $GROKBOT riding the Grok/AI attention tailwind at $2.1k mcap — narrative is hot, mcap is tiny, asymmetric upside. 0.1 SOL.
+
+## [2026-08-26 09:13 UTC] sell | [FULL][LLM] $Queefcoin at $2.748e-06 | P&L: -54.0%
+- **Reasoning:** Queefcoin at -54% breaches the -50% hard cap — mandatory exit.
+
+## [2026-08-26 09:13 UTC] sell | [FULL][LLM] $LEGEND at $2.71e-06 | P&L: -45.5%
+- **Reasoning:** $LEGEND at -45.5% with 24h -17.5% and flat 1h — no recovery signal, cutting to free capital for fresh attention.
+
+## [2026-08-26 09:13 UTC] buy | [LLM] $Wittgenstein at $4.06318e-06, spent 0.1 SOL
+- **Reasoning:** $Wittgenstein narrative cluster has 3 coordinated launches (Lion/Wittgenstein/witgenstin) within 1 min — rare attention convergence. Ludwig Wittgenstein meme has philosophical-meme virality potential. Buying 0.1 SOL.
+
+## [2026-08-26 09:14 UTC] sell | [FULL][LLM] $Queefcoin at $2.748e-06 | P&L: -54.0%
+- **Reasoning:** Position is at -54.0%, which breaches the hard -50% loss cap. Must exit immediately per rules — LLM cannot override this cap.
+
+## [2026-08-26 09:14 UTC] sell | [FULL][LLM] $LEGEND at $2.71e-06 | P&L: -45.5%
+- **Reasoning:** At -45.5% and only 1.1% from the hard -50% cap, with 0.0% 1h momentum and -17.5% 24h. No bounce signal; cutting before the auto-close frees a slot for fresher attention.
+
+## [2026-08-26 09:14 UTC] sell | [FULL][LLM] $Toad at $2.72e-06 | P&L: -28.2%
+- **Reasoning:** At -28.2% with flat 1h (-0.0%) and -21.3% 24h — narrative didn't stick. Redeploying capital into the Pudgy Penguins creator launch (Frug) which has stronger authentic-attention signal.
+
+## [2026-08-26 09:14 UTC] sell | [FULL][LLM] $Panana at $2.717e-06 | P&L: -27.8%
+- **Reasoning:** At -27.8% with a negative 1h print (-1.3%) and continued decay. Freeing slot for RedNiuLai which carries an official NY Red Bulls X post — a genuine brand-driven attention signal at 0.1min age.
+
+## [2026-08-26 09:14 UTC] sell | [FULL][LLM] $gOOn at $2.719e-06 | P&L: -14.5%
+- **Reasoning:** Even at the smallest loss (-14.5%), 1h is flat 0.0% and 24h is -14.4% — no recovery forming. Cutting the whole batch of stale draws together to redeploy into confirmed-viral fresh launches instead of waiting for dead bounces.
+
+## [2026-08-26 09:14 UTC] buy | [LLM] $Frug at $8.20869e-06, spent 0.1 SOL
+- **Reasoning:** $Frug — the creator of Pudgy Penguins posting from their actual artist account on the original character. Real-IP-creator launch at $8.2k mcap, 0.2min old, 30% bond. This is the strongest 'authentic attention' signal in the batch — Pudgy Penguins has a real holder community that could pile in. Risk: $8k mcap means thin liquidity, but that's where the multi-x lives.
+
+## [2026-08-26 09:14 UTC] buy | [LLM] $RedNiuLai at $3.21709e-06, spent 0.1 SOL
+- **Reasoning:** $RedNiuLai (红牛来) — NY Red Bulls official brand account posted it, CNY 'bull arrives' pun tied to Red Bull (牛来 vs 红牛). Official-sports-brand attention at $3.2k mcap and only 0.1min old is extremely early-stage for a brand-backed narrative. Risk: brand-post alone doesn't guarantee trade flow; will watch for organic pickup.
+
+## [2026-08-26 09:15 UTC] sell | [FULL][LLM] $Queefcoin at $2.748e-06 | P&L: -54.0%
+- **Reasoning:** $Queefcoin at -54.0% breaches the hard -50% cap. This is mandatory, not a choice — the bot cannot override this rule. Free up SOL for fresh entries.
+
+## [2026-08-26 09:15 UTC] sell | [FULL][LLM] $LEGEND at $2.71e-06 | P&L: -45.5%
+- **Reasoning:** $LEGEND at -45.5% is only 4.5% from the hard -50% cap and the 1h/24h momentum is flat-to-down with no narrative catalyst in sight. Cutting before the cap triggers frees SOL for better setups.
+
+## [2026-08-26 09:15 UTC] sell | [FULL][LLM] $Toad at $2.72e-06 | P&L: -28.2%
+- **Reasoning:** $Toad down -28.2% with 24h=-21.3% and flat 1h — bleeding with no bounce signal and no identifiable narrative. Capital is better deployed elsewhere.
+
+## [2026-08-26 09:15 UTC] sell | [PARTIAL][LLM] $Panana at $2.717e-06 | P&L: -27.8%
+- **Reasoning:** $Panana at -27.8% but only -1.3% in last 1h — showing relative stability. Selling half cuts exposure while keeping a runner in case attention returns.
+
+## [2026-08-26 09:15 UTC] buy | [LLM] $DUCKRABBIT at $1.438e-05, spent 0.1 SOL
+- **Reasoning:** $DUCKRABBIT (The Wittgensteinian Duck) — this is a coordinated viral launch around the classic duck-rabbit optical illusion meme pushed by @Wintalt. At 0.9min old and 39% bond progress it's already the lead dog of 7+ copycats, which is itself an attention signal. Risk: ultra-low mcap ($20k) means extreme volatility; size accordingly (0.1 SOL).
+
+## [2026-08-26 09:15 UTC] sell | [FULL][LLM] $Queefcoin at $2.748e-06 | P&L: -54.0%
+- **Reasoning:** $Queefcoin at -54% has breached the -50% hard cap — must close immediately regardless of narrative hopes.
+
+## [2026-08-26 09:15 UTC] sell | [FULL][LLM] $LEGEND at $2.71e-06 | P&L: -45.5%
+- **Reasoning:** $LEGEND at -45.5% after 3.3h with 1h=0.0% is drifting into the hard cap; no bounce signal, free the slot for stronger narratives.
+
+## [2026-08-26 09:15 UTC] sell | [FULL][LLM] $Toad at $2.72e-06 | P&L: -28.2%
+- **Reasoning:** $Toad -28% with flat 1h and dying 24h momentum — capital is better redeployed into fresh attention like the Duck/Rabbit narrative wave.
+
+## [2026-08-26 09:15 UTC] sell | [FULL][LLM] $Panana at $2.717e-06 | P&L: -27.8%
+- **Reasoning:** $Panana -28% with negative 1h momentum, no recovery signal; cut to free a slot for a higher-attention launch.
+
+## [2026-08-26 09:15 UTC] sell | [FULL][LLM] $gOOn at $2.719e-06 | P&L: -14.5%
+- **Reasoning:** $gOOn -14.5% with flat 1h after 3.3h — weakest loss but still bleeding; freeing slot for a 0.9min-old viral narrative token is the right attention-market play.
+
+## [2026-08-26 09:15 UTC] buy | [LLM] $DUCKRABBIT at $1.438e-05, spent 0.1 SOL
+- **Reasoning:** $DUCKRABBIT at $20.8k mcap with 39% bond is the leader of a coordinated viral narrative (Wittgenstein Duck-Rabbit optical illusion) backed by a real X post and uxento discord — strong attention signal, early enough for multi-x.
+
+## [2026-08-26 09:15 UTC] buy | [LLM] $DABBIT at $4.486e-06, spent 0.1 SOL
+- **Reasoning:** $DABBIT at $5.1k mcap from the same narrative tweet — pile-on plays often run after the leader; small size, real attention backing.
+
+## [2026-08-26 09:15 UTC] buy | [LLM] $Rabbit at $6.305e-06, spent 0.1 SOL
+- **Reasoning:** $Rabbit at $4.8k mcap tied to SEFahlman tweet (the original Duck-Rabbit meme author context) — narrative has multiple credible X voices, classic meme-mechanics setup.
+
+## [2026-08-26 09:15 UTC] buy | [LLM] $rorace at $3.11951e-06, spent 0.1 SOL
+- **Reasoning:** $rorace at $3.1k mcap, freshest launch (0.1min) on a 'uncanny valley' humanoid robot narrative — uncanny valley memes travel fast on crypto Twitter.
+
+## [2026-08-26 09:15 UTC] buy | [LLM] $READDD at $2.708e-06, spent 0.1 SOL
+- **Reasoning:** $READDD with 'INSANE STORY HELLO?????' framing is pure attention-bait — launched via uxento discord which has track record of generating viral launches.
+
+## [2026-08-26 09:16 UTC] sell | [FULL][LLM] $Queefcoin at $2.748e-06 | P&L: -54.0%
+- **Reasoning:** At -54%, past the -50% hard cap. Cut immediately to preserve remaining capital.
+
+## [2026-08-26 09:16 UTC] sell | [FULL][LLM] $LEGEND at $2.71e-06 | P&L: -45.5%
+- **Reasoning:** At -45.5% with 0% 1h movement and -17.5% 24h, dead in the water with the -50% hard cap imminent. Free the slot.
+
+## [2026-08-26 09:16 UTC] sell | [PARTIAL][LLM] $Toad at $2.72e-06 | P&L: -28.2%
+- **Reasoning:** $Toad at -28% is bleeding with no 1h recovery signal; trim half to reduce exposure while leaving a recovery shot.
+
+## [2026-08-26 09:16 UTC] buy | [LLM] $ncCats at $5.41949e-06, spent 0.1 SOL
+- **Reasoning:** $ncCats has a clean narrative (cats + Pratchett quote), brand-new X account, $5.4k mcap with 23% bond — small entry into a story that can catch on. 0.1 SOL.
+
+## [2026-08-26 09:17 UTC] sell | [FULL][LLM] $Queefcoin at $2.742e-06 | P&L: -54.1%
+- **Reasoning:** Queefcoin is at -54.1%, already past the -50% hard cap. Auto-close per rules — this is a forced exit, not a discretionary call.
+
+## [2026-08-26 09:17 UTC] sell | [FULL][LLM] $Toad at $2.72e-06 | P&L: -28.2%
+- **Reasoning:** $Toad at -28.2% with 24h trend still negative (-21.3%) and zero1h movement. Attention has died, no catalyst incoming — cut loss and free the slot.
+
+## [2026-08-26 09:17 UTC] sell | [FULL][LLM] $Panana at $2.717e-06 | P&L: -27.8%
+- **Reasoning:** $Panana at -27.8%, bleeding slowly (-1.3% last hour). No narrative momentum, just decay. Free the slot for fresh attention.
+
+## [2026-08-26 09:17 UTC] sell | [FULL][LLM] $gOOn at $2.719e-06 | P&L: -14.5%
+- **Reasoning:** $gOOn at -14.5%, flat last hour, 24h still down. Smallest loss of the bag — easiest to cut. All four held positions are stale, no attention catalysts.
+
+## [2026-08-26 09:17 UTC] buy | [LLM] $dabbit at $2.702e-06, spent 0.1 SOL
+- **Reasoning:** $dabbit / '2 YEAR OLD DUCK RABBIT' — viral viral visual illusion meme (rubber-duck-rabbit), same tweet by asudgfasfhugf pumping multiple mints. High attention signal, ultra-low mcap $2.7k, asymmetric upside. Risk: copycat spam (5+ mints of same narrative), bond at 0%, classic rug-prone.
+
+## [2026-08-26 09:17 UTC] sell | [FULL][LLM] $Queefcoin at $2.742e-06 | P&L: -54.1%
+- **Reasoning:** -54.1% breaches the -50% hard cap. Mandatory close.
+
+## [2026-08-26 09:17 UTC] sell | [FULL][LLM] $Panana at $2.717e-06 | P&L: -27.8%
+- **Reasoning:** $Panana -27.8% bleeding in 1h (-1.3%), weak narrative. Cut to free slot for stronger setup.
+
+## [2026-08-26 09:17 UTC] buy | [LLM] $Frug at $5.86839e-06, spent 0.1 SOL
+- **Reasoning:** $Frug has Pudgy Penguins creator backstory — strong IP-attention narrative at $5.8k mcap with bond24% progressing. Real attention signal, not spam.
+
+## [2026-08-26 09:17 UTC] sell | [PARTIAL][LLM] $Toad at $2.72e-06 | P&L: -28.2%
+- **Reasoning:** The position is down 28.2% with no 1h momentum, so reducing exposure frees room for fresh attention while preserving some participation in a rebound.
+
+## [2026-08-26 09:17 UTC] sell | [FULL][LLM] $Queefcoin at $2.742e-06 | P&L: -54.1%
+- **Reasoning:** The position is down 54.1%, breaching the stated -50% hard-cap outcome, and the 1h trend remains negative; exit to prevent further risk.
+
+## [2026-08-26 09:17 UTC] sell | [PARTIAL][LLM] $Panana at $2.717e-06 | P&L: -27.8%
+- **Reasoning:** The position is down 27.8% and 1h momentum is -1.3%, so trimming balances risk management with exposure to any narrative-driven rebound.
+
+## [2026-08-26 09:17 UTC] buy | [LLM] $Wittgenst at $5.85787e-06, spent 0.1 SOL
+- **Reasoning:** This is a brand-new Wittgenstein meme with a stated TikTok-going-crazy narrative and the highest reported market cap among the fresh launches; the signal is attention-led, but ultra-low bond completion and very early age make it highly speculative.
+
+## [2026-08-26 09:18 UTC] sell | [FULL][LLM] $Toad at $2.72e-06 | P&L: -28.2%
+- **Reasoning:** $Toad at -28.2% with no recovery momentum (1h +0.0%, 24h -21.3%). Cut losers to free slots for fresh attention launches.
+
+## [2026-08-26 09:18 UTC] sell | [FULL][LLM] $Queefcoin at $2.742e-06 | P&L: -54.1%
+- **Reasoning:** $Queefcoin at -54.1% — BREACHES the hard -50% cap. Mandatory close to preserve remaining capital.
+
+## [2026-08-26 09:18 UTC] sell | [FULL][LLM] $Panana at $2.717e-06 | P&L: -27.8%
+- **Reasoning:** $Panana at -27.8% bleeding for 3.3h with1h -1.3%. No narrative catalyst visible; rotate into fresh launches.
+
+## [2026-08-26 09:18 UTC] sell | [FULL][LLM] $gOOn at $2.719e-06 | P&L: -14.5%
+- **Reasoning:** $gOOn at -14.5% sideways for hours,1h +0.0%. Dead attention — no reason to hold a stagnant position.
+
+## [2026-08-26 09:18 UTC] buy | [LLM] $SOLCAR at $6.95122e-06, spent 0.1 SOL
+- **Reasoning:** $SOLCAR has a real Solana ecosystem account (@SolanaEvents) tweeting it — that is the strongest attention signal in this batch. Bond27% means early but not at absolute zero. Speculative but the narrative hook is concrete.
+
+## [2026-08-26 09:18 UTC] buy | [LLM] $DUCKRABBIT at $2.69738e-06, spent 0.1 SOL
+- **Reasoning:** $DUCKRABBIT (SENT PENGUIN NOT NIETZSCHE) — absurdist meme tied to the viral '2 year old duck vs rabbit' discourse that is clearly trending (5+ deploys in batch). Has a tweeting promoter @Wintalt. Pure attention play.
+
+## [2026-08-26 09:18 UTC] buy | [LLM] $btb  at $3.87014e-07, spent 0.1 SOL
+- **Reasoning:** $btb (barronbounty — 'bounty put on Barron Trump's head') is politically edgy political-attention bait. Edgy political memes with a clear concept historically run hard on launch. Higher risk but asymmetric narrative.
+
+## [2026-08-26 09:19 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
