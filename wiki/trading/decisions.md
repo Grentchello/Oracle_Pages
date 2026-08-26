@@ -1095,3 +1095,7 @@
 - **Reasoning:** All three candidates are down on the day and in post-pump decay — not entries. Sitting in SOL is the correct defensive posture after a 6-loss streak.
 
 
+## [2026-08-26 05:28 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Standing down today. All three candidates are mid-to-deep drawdowns from ATH (9–67%), all bleeding on the 24h, and two of them are coins I've already lost money on today — re-entering is just throwing good SOL after bad with no fresh signal to justify it.
+
+
