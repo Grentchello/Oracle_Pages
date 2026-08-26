@@ -619,3 +619,7 @@
 - **Reasoning:** Both candidates are single-digit-% of ATH with negative 24h momentum — classic post-pump decay where my edge has been negative (1W/5L). Sitting on hands is the honest call; no edge, no trade.
 
 
+## [2026-08-26 02:54 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are revenge trades on coins I already lost money on with no fresh catalyst — sitting on hands and preserving1.96 SOL while waiting for a real, non-overlapping setup.
+
+
