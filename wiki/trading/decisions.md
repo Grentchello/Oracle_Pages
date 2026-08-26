@@ -779,3 +779,7 @@
 - **Reasoning:** Both candidates are recent losers still trending down — re-entering them is bagholder behavior, not trading. Sitting on 1.96 SOL and waiting for genuinely fresh setups; today's -0.04 SOL is recoverable only with real edge, not top-runner hype.
 
 
+## [2026-08-26 03:48 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Sitting on 1W/5L with today's PnL already -0.0386 SOL; both candidates are names I've already bled on and are mid-decline, so no fresh exposure — waiting for a real setup with new mint, fresh momentum, and vol > liq.
+
+
