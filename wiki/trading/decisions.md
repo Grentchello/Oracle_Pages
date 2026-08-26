@@ -1660,3 +1660,9 @@
 ## [2026-08-26 10:15 UTC] buy | [LLM] $Walter at $5.32725e-06, spent 0.1 SOL
 - **Reasoning:** $Walter freshest launch (0.4min), bond 22% already showing early demand, twitter signal present — classic attention-market entry.
 
+## [2026-08-26 10:17 UTC] sell | [PARTIAL][LLM] $crocodile at $1.731e-05 | P&L: +276.5%
+- **Reasoning:** $crocodile +276% in 0.2h is parabolic; taking half locks in gains while letting the rest ride. The 24h/+1h both +406% suggests momentum exhaustion risk.
+
+## [2026-08-26 10:17 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $4.487e-05 | P&L: +365.5%
+- **Reasoning:** $HOTPUMP +365% but 1h only +13% — momentum is fading. Take half profit, hold runner with stop.
+
