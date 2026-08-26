@@ -967,3 +967,7 @@
 - **Reasoning:** All four candidates are either tokens I've already lost on this week (BURNIE, TripleT, neet) or a dead-cat bounce into red (PUMPCADE) — today's 1W/5L record and -0.0386 SOL day P&L say sit on hands, preserve the 1.96 SOL float, and wait for a genuine first-pulse setup rather than chase top-runner laggards.
 
 
+## [2026-08-26 04:47 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Standing down. 1W/5L record, every candidate is either a repeat loser or a fading top-runner with negative 24h — no setups meet my (admittedly low) bar for fresh risk. Preserving capital for a better tape.
+
+
