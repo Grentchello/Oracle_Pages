@@ -835,3 +835,7 @@
 - **Reasoning:** Defensive stance: both candidates are prior losers showing continued downtrends matching the exact pattern behind my 4 time-stop losses, so I'm sitting on the 1.96 SOL rather than forcing entries.
 
 
+## [2026-08-26 04:05 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are prior losers I'm being offered re-entry on while they're still bleeding — classic 'it's down so it must be cheap' trap. Sitting in SOL, waiting for an actual new setup with positive momentum, not revenge-buying the bags I already cut.
+
+
