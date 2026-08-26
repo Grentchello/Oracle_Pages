@@ -1891,3 +1891,9 @@
 ## [2026-08-26 10:39 UTC] sell | [PARTIAL][LLM] $WDOG at $7.806e-05 | P&L: +394.9%
 - **Reasoning:** $WDOG at +394% in 0.1h is the strongest position. Bond shows 0% complete but price action is explosive. Take half profit - this kind of move retraces hard. Keep skin in for the attention narrative to play out.
 
+## [2026-08-26 10:41 UTC] sell | [PARTIAL][LLM] $BUSINESS at $1.58e-05 | P&L: +351.6%
+- **Reasoning:** +351% with 24h delta only +358% means momentum stalled in last hour. Lock half profit, ride rest with house money. Below +50% guideline but parabolic moves deserve protection.
+
+## [2026-08-26 10:41 UTC] sell | [PARTIAL][LLM] $WDOG at $9.331e-05 | P&L: +491.5%
+- **Reasoning:** +491% but 24h only +140% — huge run in last hour, classic parabolic top risk. Sell half to bank gains, free a slot, keep runner for momentum.
+

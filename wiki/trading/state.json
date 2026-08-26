@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.642455,
+  "balance_sol": 1.729919,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "4VfQ5CchtuAukAqoJL1hWcRHJoK6At3byt786DQ4pump": {
       "symbol": "BUSINESS",
       "name": "Business Monkeys",
-      "amount": 172209.9171191769,
+      "amount": 86104.95855958846,
       "entry_price_usd": 3.499e-06,
-      "entry_sol_spent": 0.00625,
+      "entry_sol_spent": 0.003125,
       "entry_time": "2026-08-26T10:22:40.977052+00:00",
       "entry_usd_value": 9.641,
       "entry_signals": {
@@ -28,9 +28,9 @@
     "HPiMjD9vUv66jQPhQDNYv4jaua7xzCZBHMm9Uip6oiEw": {
       "symbol": "WDOG",
       "name": "Windows Dog",
-      "amount": 153096.7691041031,
+      "amount": 76548.38455205155,
       "entry_price_usd": 1.577433680757719e-05,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0125,
       "entry_time": "2026-08-26T10:32:47.538713+00:00",
       "entry_usd_value": 9.66,
       "entry_signals": {
@@ -1440,25 +1440,47 @@
       "pnl_pct": 394.85,
       "exit_reason": "LLM: sell_half — $WDOG at +394% in 0.1h is the strongest position. Bond shows 0% complete but price action is explosive. Take half profit - this kind of move retraces ",
       "partial": true
+    },
+    {
+      "mint": "4VfQ5CchtuAukAqoJL1hWcRHJoK6At3byt786DQ4pump",
+      "symbol": "BUSINESS",
+      "name": "Business Monkeys",
+      "amount_sold": 86104.95855958846,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:22:40.977052+00:00",
+      "exit_time": "2026-08-26T10:41:20.741597+00:00",
+      "entry_price_usd": 3.499e-06,
+      "exit_price_usd": 1.58e-05,
+      "entry_sol_for_chunk": 0.003125,
+      "exit_sol_received": 0.013994,
+      "pnl_sol": 0.010869,
+      "pnl_pct": 351.56,
+      "exit_reason": "LLM: sell_half — +351% with 24h delta only +358% means momentum stalled in last hour. Lock half profit, ride rest with house money. Below +50% guideline but parabolic ",
+      "partial": true
+    },
+    {
+      "mint": "HPiMjD9vUv66jQPhQDNYv4jaua7xzCZBHMm9Uip6oiEw",
+      "symbol": "WDOG",
+      "name": "Windows Dog",
+      "amount_sold": 76548.38455205155,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:32:47.538713+00:00",
+      "exit_time": "2026-08-26T10:41:20.741906+00:00",
+      "entry_price_usd": 1.577433680757719e-05,
+      "exit_price_usd": 9.331e-05,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.07347,
+      "pnl_sol": 0.06097,
+      "pnl_pct": 491.53,
+      "exit_reason": "LLM: sell_half — +491% but 24h only +140% — huge run in last hour, classic parabolic top risk. Sell half to bank gains, free a slot, keep runner for momentum.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-26T10:39:56.328358+00:00",
+  "last_updated": "2026-08-26T10:41:20.742532+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.82,
-  "portfolio_value_usd": 191.06,
+  "last_sol_price_usd": 97.22,
+  "portfolio_value_usd": 198.71,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 10:32 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $HOTPUMP at $4.166e-05 | P&L: +332.2%",
-      "reason": "HOTPUMP is up +332% in 0.4h — lock in gains per the +50% take-profit rule. Hold half for runner potential since 24h is still only +4.9% (no blowoff yet)."
-    },
-    {
-      "time": "2026-08-26 10:32 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $BUSINESS at $9.905e-06 | P&L: +183.1%",
-      "reason": "BUSINESS +183% in 0.2h — take partial profit, hold half for narrative continuation since 24h +187% shows sustained buying."
-    },
     {
       "time": "2026-08-26 10:32 UTC",
       "action": "sell",
@@ -1566,45 +1588,57 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $WDOG at $7.806e-05 | P&L: +394.9%",
       "reason": "$WDOG at +394% in 0.1h is the strongest position. Bond shows 0% complete but price action is explosive. Take half profit - this kind of move retraces hard. Keep skin in for the attention narrative to play out."
+    },
+    {
+      "time": "2026-08-26 10:41 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BUSINESS at $1.58e-05 | P&L: +351.6%",
+      "reason": "+351% with 24h delta only +358% means momentum stalled in last hour. Lock half profit, ride rest with house money. Below +50% guideline but parabolic moves deserve protection."
+    },
+    {
+      "time": "2026-08-26 10:41 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $WDOG at $9.331e-05 | P&L: +491.5%",
+      "reason": "+491% but 24h only +140% — huge run in last hour, classic parabolic top risk. Sell half to bank gains, free a slot, keep runner for momentum."
     }
   ],
   "trade_stats": {
-    "total": 78,
-    "wins": 46,
+    "total": 80,
+    "wins": 48,
     "losses": 32,
-    "win_rate_pct": 59.0,
-    "total_pnl_sol": 0.073705,
-    "avg_pnl_pct": 137.46,
+    "win_rate_pct": 60.0,
+    "total_pnl_sol": 0.145544,
+    "avg_pnl_pct": 144.56,
     "best_pnl_pct": 567.22,
     "worst_pnl_pct": -96.94,
-    "today_trades": 78,
-    "today_realized_sol": 0.073705,
-    "today_target_pct": 18.4,
+    "today_trades": 80,
+    "today_realized_sol": 0.145544,
+    "today_target_pct": 36.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 46,
+      "win_count": 48,
       "loss_count": 32,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T10:39:56.327864+00:00",
+  "last_llm_brief_at": "2026-08-26T10:41:20.741557+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4VfQ5CchtuAukAqoJL1hWcRHJoK6At3byt786DQ4pump": {
-      "price_usd": 1.566e-05,
-      "change_h24": 354.0,
-      "change_h1": 354.0,
+      "price_usd": 1.58e-05,
+      "change_h24": 358.0,
+      "change_h1": 358.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 16235.54,
+      "volume_h24": 16371.3,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "HPiMjD9vUv66jQPhQDNYv4jaua7xzCZBHMm9Uip6oiEw": {
-      "price_usd": 7.806e-05,
-      "change_h24": 101.0,
-      "change_h1": 101.0,
-      "liquidity_usd": 21669.16,
-      "volume_h24": 156178.73,
+      "price_usd": 9.331e-05,
+      "change_h24": 140.0,
+      "change_h1": 140.0,
+      "liquidity_usd": 23987.94,
+      "volume_h24": 204793.08,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
@@ -1618,20 +1652,20 @@
       "source": "dexscreener"
     },
     "FoYFUPUxh6Jn7265yBM84w9g6VoaJBxEfmcXTdbVohQi": {
-      "price_usd": 3.996e-06,
-      "change_h24": 2.64,
-      "change_h1": 2.64,
+      "price_usd": 3.516e-06,
+      "change_h24": -9.7,
+      "change_h1": -9.7,
       "liquidity_usd": 0.0,
-      "volume_h24": 34697.78,
+      "volume_h24": 35918.01,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "GUAd8WFcy9WyFir4eWSuhEFtGCCMG5zwUVjytv1ipump": {
-      "price_usd": 2.857e-06,
-      "change_h24": -22.41,
-      "change_h1": -22.41,
+      "price_usd": 2.849e-06,
+      "change_h24": -22.62,
+      "change_h1": -22.62,
       "liquidity_usd": 0.0,
-      "volume_h24": 2460.3,
+      "volume_h24": 2470.23,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }
