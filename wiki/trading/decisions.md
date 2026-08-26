@@ -611,3 +611,7 @@
 - **Reasoning:** no action
 
 
+## [2026-08-26 02:47 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are late-stage dumps from prior pumps (4-9% of ATH) with negative 24h momentum — skip both, preserve dry powder, and reset after the -0.04 SOL day.
+
+

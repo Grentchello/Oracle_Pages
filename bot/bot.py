@@ -41,6 +41,13 @@ MAX_HOLD_HOURS = 72          # hard max — even LLM can't hold forever
 DAILY_MAX_LOSS_SOL = 0.3      # if today's realized < -0.3 SOL, no new entries
 RESERVE_SOL = 0.1             # never go below this in SOL — keep some dry powder
 
+# Allow mild downturns in entry gate — top-runners in -15% pullback are often buyable
+MIN_PRICE_CHANGE_24H = -15.0
+
+# Run an LLM "market read" tick even when there's nothing to do,
+# so we always know what the LLM thinks. Set to False to silence.
+ALWAYS_LLM_TICK = True
+
 # === LLM config ===
 HERMES_CLI = "/opt/hermes/.venv/bin/hermes"
 LLM_TIMEOUT_SECONDS = 90
@@ -396,7 +403,7 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio_value, tod
         liq = _to_float(token.get("liquidity_usd"))
         vol = _to_float(token.get("volume_h24"))
         chg24 = _to_float(token.get("price_change_h24"))
-        if liq < MIN_LIQUIDITY_USD or vol < MIN_VOLUME_24H_USD or chg24 < 0:
+        if liq < MIN_LIQUIDITY_USD or vol < MIN_VOLUME_24H_USD or chg24 < MIN_PRICE_CHANGE_24H:
             continue
         candidates.append({
             "symbol": token.get("symbol"),
@@ -446,6 +453,8 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio_value, tod
             mcap_ratio = c['mcap_usd'] / c['ath_mcap_usd'] if c['ath_mcap_usd'] else 0
             prompt += f"- ${c['symbol']} ({c['mint']}) {c['name']} — ${c['price_usd']:.6g}, 24h={c['chg_24h']:+.1f}%, 1h={c['chg_1h']:+.1f}%, liq=${c['liquidity_usd']:.0f}, vol=${c['volume_24h_usd']:.0f}, mcap=${c['mcap_usd']:.0f} (ATH ${c['ath_mcap_usd']:.0f}, currently {mcap_ratio*100:.0f}% of ATH)\n"
         prompt += "\n"
+    else:
+        prompt += "\n# No entry candidates right now — top-runners all failing basic gates (liq/vol/momentum).\n"
 
     prompt += f"""# Your call
 
@@ -643,8 +652,8 @@ def main():
     prompt, held, candidates = build_decision_prompt(
         state, sol_price, watchlist_state, portfolio, today_pnl
     )
-    if not held and not candidates:
-        log("Nothing to do — no positions, no candidates")
+    if not held and not candidates and not ALWAYS_LLM_TICK:
+        log("Nothing to do — no positions, no candidates (ALWAYS_LLM_TICK=False)")
         append_decision({
             "action": "observe",
             "details": f"No positions, no candidates passed basic gates",
@@ -656,6 +665,10 @@ def main():
         save_state(state)
         git_commit_and_push()
         return
+
+    if not held and not candidates:
+        log("No positions, no candidates — asking LLM for market read anyway")
+        # Fall through to LLM call with empty lists — it will give us a market brief
 
     # 7. Get LLM decision
     log(f"Asking LLM (held={len(held)}, candidates={len(candidates)})...")
