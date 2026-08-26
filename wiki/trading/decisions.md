@@ -2194,3 +2194,6 @@
 ## [2026-08-26 12:15 UTC] sell | [FULL][LLM] $PURPLECHIP at $2.901e-06 | P&L: +6.5%
 - **Reasoning:** +6.5% with 1h trend at -5.0% and 24h only +6.5% — momentum is fading, no viral narrative visible. Take the small profit and free the slot for fresh attention.
 
+## [2026-08-26 12:17 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
