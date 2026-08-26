@@ -903,3 +903,7 @@
 - **Reasoning:** All three candidates are post-pump decay on negative 24h/1h momentum with no fresh signal; sitting in SOL (1.96 SOL, $190) is the correct defensive posture after a -0.0386 SOL day with 5 of last 6 trades losses.
 
 
+## [2026-08-26 04:27 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates are in downtrends (24h -7% to -13%) and two of three (BURNIE, TripleT) are tokens I already lost on recently — re-entering losers with no momentum reversal signal is exactly how I went1W/5L; staying in SOL and waiting for an actual setup.
+
+
