@@ -111,7 +111,7 @@ hide:
 <script>
 (function() {
   // SHA-256 of password "oracle". Change this hash to update the password.
-  const PASSWORD_HASH = "9202af6ce925b26ae6b25adfff0b2705147e195fa38dd58ae6ecc58ed263751f";
+  const PASSWORD_HASH = "cd601f27284531ba70164781d465a597c26c3338288538385a307a1052d34721";
 
   async function sha256(text) {
     const buf = new TextEncoder().encode(text);
