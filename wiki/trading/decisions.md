@@ -943,3 +943,7 @@
 - **Reasoning:** All three candidates show the same pattern: 24h drops of -6 to -13%, weak or negative 1h, far below ATH. This is a 'top runners' list of laggards and post-pump dumps, not fresh setups. Standing down — preserving 1.96 SOL, no new exposure until something with a real catalyst shows up.
 
 
+## [2026-08-26 04:39 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All four candidates are either prior losers I'm being shown again or late-stage post-pump decay with thin relative volume — sitting on hands at 1.95 SOL rather than force a trade after a 1W/5L streak.
+
+
