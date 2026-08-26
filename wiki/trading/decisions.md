@@ -1019,3 +1019,7 @@
 - **Reasoning:** All four candidates are tokens I've already traded and lost on as time-stop exits, and every one is deep below ATH with negative 24h momentum — skipping all to preserve capital; current streak is 1W/5L and chasing the same names won't fix it.
 
 
+## [2026-08-26 05:04 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates are down 24h with minor 1h green candles — classic post-pump decay, not entry signals. Sitting on 1.96 SOL waiting for a real breakout; preserving capital after 5 losses.
+
+
