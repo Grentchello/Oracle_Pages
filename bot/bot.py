@@ -428,12 +428,6 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
     ))
     candidates = candidates[:15]
 
-    # === Recent trades summary ===
-    trades = state.get("trades", [])
-    recent_trades = trades[-5:] if trades else []
-    wins = sum(1 for t in trades if _to_float(t.get("pnl_sol", 0)) > 0)
-    losses = len(trades) - wins
-
     new_launch_alert = ""
     if new_mints:
         new_tokens_info = [c for c in candidates if c.get("is_new_launch")][:5]
@@ -451,20 +445,24 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
 
     prompt = f"""You are a memecoin trading bot. Memecoins are ATTENTION MARKETS, not logic. Your job is to find tokens with viral attention and ride the wave.
 
+# IMPORTANT CONTEXT
+You are running on a FRESH 2 SOL paper balance. The slate is clean. Your job is to **discover** if attention-launched memecoins can be traded profitably — not to protect capital from past losses. Past losses came from rules that have been replaced. This is a NEW strategy with a NEW prompt. You cannot lose money you haven't risked yet.
+
+This is a learning experiment. If you skip every tick, you learn nothing. The whole point is to take positions, observe outcomes, and refine. Sitting in cash forever teaches us nothing.
+
+No prior trades — fresh slate.
+
 # Current state
 - SOL free: {state.get('balance_sol', 0):.4f} SOL (${state.get('balance_sol', 0) * sol_price:.2f})
 - Open positions: {len(held)}/{MAX_POSITIONS}
 - Total portfolio: ${portfolio['total_value_usd']:.2f}
-- Today's realized P&L: {today_pnl:+.4f} SOL
+- Today's realized P&L: {today_pnl:+.4f} SOL (fresh slate, doesn't reflect past losses)
 - Daily target: +20% (0.4 SOL). Hard daily loss cap: -{DAILY_MAX_LOSS_SOL} SOL (no new entries if exceeded)
-- All-time: {len(trades)} trades, {wins}W/{losses}L
+- All-time this experiment: 0 trades
 - **Hard cap on any single position loss: -{int(HARD_STOP_LOSS*100)}%. LLM cannot override this.**
 
-# Recent trades (last 5)
-""" + "\n".join([
-        f"  - {t.get('symbol')} {t.get('pnl_pct', 0):+.1f}% via {(t.get('exit_reason') or '')[:60]}"
-        for t in recent_trades
-    ]) + "\n"
+No prior trades — fresh slate.
+"""
     prompt += new_launch_alert
     if held:
         prompt += "\n# Held positions (decide: hold / sell_all / sell_half)\n"
@@ -673,6 +671,7 @@ def main():
     last_seen = load_last_seen_mints()
     current_mints = {t["mint"] for t in tokens}
     new_mints = current_mints - last_seen
+    new_launch_alert = ""
     if new_mints:
         log(f"🆕 {len(new_mints)} NEW mints detected since last tick")
     save_last_seen_mints(current_mints)
