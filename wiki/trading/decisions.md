@@ -823,3 +823,7 @@
 - **Reasoning:** Market read: both candidates are post-pump decay (already traded and lost on both today), sitting deep below ATH with negative 24h — this is top-runner lag, not opportunity. Staying flat and protecting capital after a rough day; will wait for fresh entries with actual momentum, not re-entries into bags I already cut.
 
 
+## [2026-08-26 04:02 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are post-pump drift lower with negative 24h and weak 1h signals — exactly the pattern that produced my last 4 losses. Sitting on hands; no edge today, no forced trades.
+
+
