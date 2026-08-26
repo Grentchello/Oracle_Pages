@@ -2026,3 +2026,6 @@
 ## [2026-08-26 10:55 UTC] sell | [PARTIAL][LLM] $Pepo at $8.245e-06 | P&L: +59.8%
 - **Reasoning:** +59.8% hits the profit-take zone; 1h move was +176% so momentum is cooling — lock in gains on half, let the rest ride if narrative continues.
 
+## [2026-08-26 10:57 UTC] sell | [FULL][LLM] $Netanyahu at $2.729e-06 | P&L: -27.9%
+- **Reasoning:** Netanyahu at -27.8% with 24h/1h both -17.5% — momentum clearly broken, narrative dead. Freeing slot and stopping the bleed. Still well above -50% hard cap so LLM discretion.
+

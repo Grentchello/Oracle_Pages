@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.446911,
+  "balance_sol": 1.519203,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -63,28 +63,6 @@
         "volatility_score": null,
         "boost_mode": "NONE",
         "real_sol_reserves": 30.44227188,
-        "description": "",
-        "twitter": "https://x.com/MarioNawfal/status/2092565216655802730",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "9GYsiPc2KRZ6U3GLUFoxwtY8MJYV8mWCTT4sPABnpump": {
-      "symbol": "Netanyahu",
-      "name": "Oddysean Netanyahu",
-      "amount": 2584138.127732552,
-      "entry_price_usd": 3.78230555677617e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-26T10:52:55.577657+00:00",
-      "entry_usd_value": 9.774000000000001,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3780.157836162953,
-        "ath_market_cap_usd": 4305.812967864159,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.294141816,
         "description": "",
         "twitter": "https://x.com/MarioNawfal/status/2092565216655802730",
         "source_endpoint": "new-launches"
@@ -1916,19 +1894,30 @@
       "pnl_pct": 59.76,
       "exit_reason": "LLM: sell_half — +59.8% hits the profit-take zone; 1h move was +176% so momentum is cooling — lock in gains on half, let the rest ride if narrative continues.",
       "partial": true
+    },
+    {
+      "mint": "9GYsiPc2KRZ6U3GLUFoxwtY8MJYV8mWCTT4sPABnpump",
+      "symbol": "Netanyahu",
+      "name": "Oddysean Netanyahu",
+      "amount_sold": 2584138.127732552,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-26T10:52:55.577657+00:00",
+      "exit_time": "2026-08-26T10:57:12.277075+00:00",
+      "entry_price_usd": 3.78230555677617e-06,
+      "exit_price_usd": 2.729e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.072292,
+      "pnl_sol": -0.027708,
+      "pnl_pct": -27.85,
+      "exit_reason": "LLM: sell_all — Netanyahu at -27.8% with 24h/1h both -17.5% — momentum clearly broken, narrative dead. Freeing slot and stopping the bleed. Still well above -50% hard",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-26T10:55:51.341734+00:00",
+  "last_updated": "2026-08-26T10:57:12.277370+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.71,
-  "portfolio_value_usd": 175.9,
+  "last_sol_price_usd": 97.55,
+  "portfolio_value_usd": 172.94,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 10:48 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ALON at $2.724e-06 | P&L: -5.0%",
-      "reason": "ALON down -5% but 1h -30.5%, and the $אלון name is flooding launches (multiple duplicates). Name saturation = alpha-killer. Free the slot."
-    },
     {
       "time": "2026-08-26 10:48 UTC",
       "action": "buy",
@@ -2042,72 +2031,78 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Pepo at $8.245e-06 | P&L: +59.8%",
       "reason": "+59.8% hits the profit-take zone; 1h move was +176% so momentum is cooling — lock in gains on half, let the rest ride if narrative continues."
+    },
+    {
+      "time": "2026-08-26 10:57 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Netanyahu at $2.729e-06 | P&L: -27.9%",
+      "reason": "Netanyahu at -27.8% with 24h/1h both -17.5% — momentum clearly broken, narrative dead. Freeing slot and stopping the bleed. Still well above -50% hard cap so LLM discretion."
     }
   ],
   "trade_stats": {
-    "total": 106,
+    "total": 107,
     "wins": 59,
-    "losses": 47,
-    "win_rate_pct": 55.7,
-    "total_pnl_sol": -0.099963,
-    "avg_pnl_pct": 124.47,
+    "losses": 48,
+    "win_rate_pct": 55.1,
+    "total_pnl_sol": -0.127671,
+    "avg_pnl_pct": 123.05,
     "best_pnl_pct": 666.22,
     "worst_pnl_pct": -96.94,
-    "today_trades": 106,
-    "today_realized_sol": -0.099963,
-    "today_target_pct": -25.0,
+    "today_trades": 107,
+    "today_realized_sol": -0.127671,
+    "today_target_pct": -31.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 59,
-      "loss_count": 47,
+      "loss_count": 48,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T10:55:51.340497+00:00",
+  "last_llm_brief_at": "2026-08-26T10:57:12.277042+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5WRYktH9wiT33LsnZ7vQxUWWa2QxpQhw3ahUmKS1pump": {
-      "price_usd": 8.245e-06,
-      "change_h24": 176.0,
-      "change_h1": 176.0,
+      "price_usd": 5.017e-06,
+      "change_h24": 68.21,
+      "change_h1": 68.21,
       "liquidity_usd": 0.0,
-      "volume_h24": 45057.66,
+      "volume_h24": 46611.32,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "HLD7wcQciQxbUFLi5rVJ26WVkFQEksBkt3MxZSERpump": {
-      "price_usd": 0.0001199,
-      "change_h24": 64.09,
-      "change_h1": 64.09,
-      "liquidity_usd": 27190.2,
-      "volume_h24": 105924.39,
+      "price_usd": 0.0001161,
+      "change_h24": 58.86,
+      "change_h1": 58.86,
+      "liquidity_usd": 26769.3,
+      "volume_h24": 130590.13,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
     "3T2baUtZLj6fRGwFCJhziSDA1DSUXfT8Cveamcoppump": {
-      "price_usd": 4.085e-06,
-      "change_h24": 23.87,
-      "change_h1": 23.87,
+      "price_usd": 5.246e-06,
+      "change_h24": 59.06,
+      "change_h1": 59.06,
       "liquidity_usd": 0.0,
-      "volume_h24": 35035.05,
+      "volume_h24": 35857.18,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "9GYsiPc2KRZ6U3GLUFoxwtY8MJYV8mWCTT4sPABnpump": {
-      "price_usd": 2.731e-06,
-      "change_h24": -17.41,
-      "change_h1": -17.41,
+      "price_usd": 2.729e-06,
+      "change_h24": -17.49,
+      "change_h1": -17.49,
       "liquidity_usd": 0.0,
-      "volume_h24": 8451.96,
+      "volume_h24": 8452.41,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "9Tw2XY5c3L2FgrvFHAFWgpg3KawAr8Y1DdrrU3Tcpump": {
-      "price_usd": 3.897e-05,
-      "change_h24": 8.1,
-      "change_h1": 8.1,
-      "liquidity_usd": 14746.25,
-      "volume_h24": 73684.68,
+      "price_usd": 3.863e-05,
+      "change_h24": 7.15,
+      "change_h1": 7.15,
+      "liquidity_usd": 14690.61,
+      "volume_h24": 112451.51,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     }
