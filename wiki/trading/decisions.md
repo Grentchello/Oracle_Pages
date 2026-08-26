@@ -623,3 +623,7 @@
 - **Reasoning:** Both candidates are revenge trades on coins I already lost money on with no fresh catalyst — sitting on hands and preserving1.96 SOL while waiting for a real, non-overlapping setup.
 
 
+## [2026-08-26 02:59 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are prior trades of mine already deep below ATH with negative 24h momentum — no fresh signal, just top-runner noise, so I'm sitting on 1.96 SOL and waiting for a real setup rather than bleeding on déjà-vu entries.
+
+
