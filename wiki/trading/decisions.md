@@ -727,3 +727,7 @@
 - **Reasoning:** Market read: both 'top-runners' are down11%+ on 24h and I've already lost on both today — no fresh signal, just recycling losers. Sitting on1.95 SOL until a real setup appears; preserving capital beats forcing a 7th losing trade.
 
 
+## [2026-08-26 03:32 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are tokens I've already lost on recently (BURNIE, TripleT), now showing continued negative momentum — skipping both to preserve capital; standing pat in cash until genuinely fresh signal appears.
+
+
