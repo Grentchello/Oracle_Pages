@@ -2113,3 +2113,6 @@
 ## [2026-08-26 11:09 UTC] sell | [FULL][LLM] $BOJ at $2.854e-06 | P&L: -62.0%
 - **Reasoning:** BOJ -62.0% — past -50% hard cap, should have auto-closed. Emergency exit. Bleeding with no catalyst.
 
+## [2026-08-26 11:10 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
