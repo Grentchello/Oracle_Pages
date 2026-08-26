@@ -1083,3 +1083,7 @@
 - **Reasoning:** All three candidates are mid-to-deep drawdowns from ATH with negative 24h momentum — late entries into already-pumped-and-dumped names. Sitting on hands in cash (1.96 SOL) is the correct play given the 1W/6L streak and -0.0387 SOL day. No edge, no trade.
 
 
+## [2026-08-26 05:24 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates are in confirmed 24h downtrends well off ATH and I've already lost on two of them — sitting on hands to preserve capital and reset, not chase the same setup that produced 6 losses out of 7.
+
+
