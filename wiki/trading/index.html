@@ -152,6 +152,13 @@ function clearError() {
   document.getElementById('error-banner').style.display = 'none';
 }
 
+// Safe element helper — log instead of throw when an element is missing
+function setEl(id, prop, val) {
+  const el = document.getElementById(id);
+  if (!el) { console.warn('[dashboard] missing element #' + id); return; }
+  el[prop] = val;
+}
+
 async function renderKPIs(state) {
   const solBalance = state.balance_sol || 0;
   const solPrice = state.last_sol_price_usd || 0;
@@ -210,7 +217,8 @@ async function renderKPIs(state) {
   }
 
   document.getElementById('sol-price-hint').textContent = 'SOL @ ' + fmtUSD(solPrice);
-  document.getElementById('updated').textContent = fmtTime(state.last_updated);
+  const updatedEl = document.getElementById('updated');
+  if (updatedEl) updatedEl.textContent = fmtTime(state.last_updated);
 }
 
 function renderLearning(state) {
