@@ -1087,3 +1087,7 @@
 - **Reasoning:** All three candidates are in confirmed 24h downtrends well off ATH and I've already lost on two of them — sitting on hands to preserve capital and reset, not chase the same setup that produced 6 losses out of 7.
 
 
+## [2026-08-26 05:25 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates are 24h bleeds with no catalyst, and two of three are tokens I've already lost on; sitting in cash to break the 1W/6L streak rather than force entries.
+
+
