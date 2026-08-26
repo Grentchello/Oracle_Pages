@@ -683,3 +683,7 @@
 - **Reasoning:** Both candidates are names I've already lost money on recently (same mints, same pattern: entry signal failed, time-stopped at double-digit loss). Re-entering failed setups is the #1 way retail bleeds — skipping both, preserving capital, and waiting for a genuinely fresh setup with clean momentum rather than chasing already-pumped-and-dumped runners.
 
 
+## [2026-08-26 03:18 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** No real momentum setups in the candidate set — both tokens are down 11-12% on the day with no clear reversal signal, and my track record is 1W/5L, so I'm preserving capital and waiting for a clean momentum-fade like the unc win rather than forcing entries into weak names.
+
+
