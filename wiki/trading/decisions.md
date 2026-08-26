@@ -2074,3 +2074,12 @@
 ## [2026-08-26 11:05 UTC] buy | [LLM] $TRUSTUS at $5.19286e-06, spent 0.1 SOL
 - **Reasoning:** $TRUSTUS tied to TIME magazine tweet, $5.2k mcap, 0.5min age — mainstream media attention is rare signal worth a small bet.
 
+## [2026-08-26 11:07 UTC] sell | [PARTIAL][LLM] $MARDOGE at $0.000153 | P&L: +43.3%
+- **Reasoning:** +43.3% approaching +50% take-profit zone; locking in half while letting the rest ride the meme momentum.
+
+## [2026-08-26 11:07 UTC] sell | [FULL][LLM] $SARAH at $7.777e-06 | P&L: -34.0%
+- **Reasoning:** -34% and the 1h showing +87.6% means it pumped hard then dumped - the Sarah attention has fragmented across 4 mints in candidates, mine is likely not the winner. Cut and free the slot.
+
+## [2026-08-26 11:07 UTC] buy | [LLM] $HPRC at $6.7372e-06, spent 0.1 SOL
+- **Reasoning:** $HPRC 'Hot Piss Rock Coin' is exactly the crude-humor viral bait that 10x's on CT. Fresh 0.6min, $6.7k mcap, GassySol is an active CT account. Buying the meme name itself.
+

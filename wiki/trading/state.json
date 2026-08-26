@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.395898,
+  "balance_sol": 1.397865,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "HLD7wcQciQxbUFLi5rVJ26WVkFQEksBkt3MxZSERpump": {
       "symbol": "MARDOGE",
       "name": "Martian Doge",
-      "amount": 45753.74531835207,
+      "amount": 22876.872659176035,
       "entry_price_usd": 0.0001068,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-26T10:49:59.403834+00:00",
       "entry_usd_value": 9.773000000000001,
       "entry_signals": {
@@ -69,28 +69,6 @@
       },
       "llm_entry": true
     },
-    "4Jz7JVxHdyfpDjAHmz5R5fWWVBRCx72QBue2jmP3pump": {
-      "symbol": "SARAH",
-      "name": "Sarah",
-      "amount": 827765.6781958934,
-      "entry_price_usd": 1.1788360229270993e-05,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-26T11:05:39.990547+00:00",
-      "entry_usd_value": 9.758000000000001,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 11773.825118091576,
-        "ath_market_cap_usd": 11787.152157921408,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 32.360096819,
-        "description": "",
-        "twitter": "https://twitter.com/roxom/status/2092569034164424785",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "EQgKvBWJx6B86onngNtKQQHofaq3bkvJADBQwSzFpump": {
       "symbol": "TRUSTUS",
       "name": "Trust Us",
@@ -109,6 +87,28 @@
         "real_sol_reserves": 11.388866921,
         "description": "Deployed using https://j7tracker.io",
         "twitter": "https://x.com/TIME/status/2092568710775189657",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "9EdwYkBYq5KPHQz3MCHgNcuodfy67G4J1LLtDGAjpump": {
+      "symbol": "HPRC",
+      "name": "Hot Piss Rock Coin",
+      "amount": 1446595.8837608374,
+      "entry_price_usd": 6.737195998831756e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-26T11:07:00.701618+00:00",
+      "entry_usd_value": 9.746,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 6734.751428634845,
+        "ath_market_cap_usd": 7932.108346503869,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 17.172280916,
+        "description": "Deployed using https://j7tracker.io",
+        "twitter": "https://x.com/GassySol/status/2092569221179826267?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -2086,31 +2086,47 @@
       "pnl_pct": 106.18,
       "exit_reason": "LLM: sell_half — $MARDOGE at +106% with 1h +201% — parabolic move, asymmetric risk of giveback. Lock in half, let the rest run with a mental trailing stop.",
       "partial": true
+    },
+    {
+      "mint": "HLD7wcQciQxbUFLi5rVJ26WVkFQEksBkt3MxZSERpump",
+      "symbol": "MARDOGE",
+      "name": "Martian Doge",
+      "amount_sold": 22876.872659176035,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:49:59.403834+00:00",
+      "exit_time": "2026-08-26T11:07:00.701142+00:00",
+      "entry_price_usd": 0.0001068,
+      "exit_price_usd": 0.000153,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.035914,
+      "pnl_sol": 0.010914,
+      "pnl_pct": 43.26,
+      "exit_reason": "LLM: sell_half — +43.3% approaching +50% take-profit zone; locking in half while letting the rest ride the meme momentum.",
+      "partial": true
+    },
+    {
+      "mint": "4Jz7JVxHdyfpDjAHmz5R5fWWVBRCx72QBue2jmP3pump",
+      "symbol": "SARAH",
+      "name": "Sarah",
+      "amount_sold": 827765.6781958934,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-26T11:05:39.990547+00:00",
+      "exit_time": "2026-08-26T11:07:00.701436+00:00",
+      "entry_price_usd": 1.1788360229270993e-05,
+      "exit_price_usd": 7.777e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.066053,
+      "pnl_sol": -0.033947,
+      "pnl_pct": -34.03,
+      "exit_reason": "LLM: sell_all — -34% and the 1h showing +87.6% means it pumped hard then dumped - the Sarah attention has fragmented across 4 mints in candidates, mine is likely not ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-26T11:05:39.990767+00:00",
+  "last_updated": "2026-08-26T11:07:00.701843+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.58,
-  "portfolio_value_usd": 170.5,
+  "last_sol_price_usd": 97.46,
+  "portfolio_value_usd": 168.07,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 10:54 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $כהן at $2.731e-06 | P&L: -41.2%",
-      "reason": "$כהן down -41.2%, dangerously close to -50% hard cap. 24h momentum is negative (-17.4%), narrative not landing. Cut the loss now, free the slot."
-    },
-    {
-      "time": "2026-08-26 10:54 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Pepo at $7.866e-06 | P&L: +52.4%",
-      "reason": "$Pepo +52.4% — taking half profit per the +50% rule. 1h momentum (+164%) still hot so keeping skin in. Frees slot for fresh launches."
-    },
-    {
-      "time": "2026-08-26 10:54 UTC",
-      "action": "buy",
-      "details": "[LLM] $COUNTY at $3.66152e-05, spent 0.1 SOL",
-      "reason": "$COUNTY at $36.6k mcap with 42% bond progress is the highest-conviction fresh launch — narrative is clean (Pump County meme), it's already attracting volume. Buys the leading edge of attention."
-    },
     {
       "time": "2026-08-26 10:55 UTC",
       "action": "sell",
@@ -2212,54 +2228,90 @@
       "action": "buy",
       "details": "[LLM] $TRUSTUS at $5.19286e-06, spent 0.1 SOL",
       "reason": "$TRUSTUS tied to TIME magazine tweet, $5.2k mcap, 0.5min age — mainstream media attention is rare signal worth a small bet."
+    },
+    {
+      "time": "2026-08-26 11:07 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $MARDOGE at $0.000153 | P&L: +43.3%",
+      "reason": "+43.3% approaching +50% take-profit zone; locking in half while letting the rest ride the meme momentum."
+    },
+    {
+      "time": "2026-08-26 11:07 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SARAH at $7.777e-06 | P&L: -34.0%",
+      "reason": "-34% and the 1h showing +87.6% means it pumped hard then dumped - the Sarah attention has fragmented across 4 mints in candidates, mine is likely not the winner. Cut and free the slot."
+    },
+    {
+      "time": "2026-08-26 11:07 UTC",
+      "action": "buy",
+      "details": "[LLM] $HPRC at $6.7372e-06, spent 0.1 SOL",
+      "reason": "$HPRC 'Hot Piss Rock Coin' is exactly the crude-humor viral bait that 10x's on CT. Fresh 0.6min, $6.7k mcap, GassySol is an active CT account. Buying the meme name itself."
     }
   ],
   "trade_stats": {
-    "total": 116,
-    "wins": 63,
-    "losses": 53,
-    "win_rate_pct": 54.3,
-    "total_pnl_sol": -0.152539,
-    "avg_pnl_pct": 114.3,
+    "total": 118,
+    "wins": 64,
+    "losses": 54,
+    "win_rate_pct": 54.2,
+    "total_pnl_sol": -0.175572,
+    "avg_pnl_pct": 112.44,
     "best_pnl_pct": 666.22,
     "worst_pnl_pct": -96.94,
-    "today_trades": 116,
-    "today_realized_sol": -0.152539,
-    "today_target_pct": -38.1,
+    "today_trades": 118,
+    "today_realized_sol": -0.175572,
+    "today_target_pct": -43.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 63,
-      "loss_count": 53,
+      "win_count": 64,
+      "loss_count": 54,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T11:05:39.989709+00:00",
+  "last_llm_brief_at": "2026-08-26T11:07:00.701104+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5WRYktH9wiT33LsnZ7vQxUWWa2QxpQhw3ahUmKS1pump": {
-      "price_usd": 7.472e-06,
-      "change_h24": 151.0,
-      "change_h1": 151.0,
+      "price_usd": 6.086e-06,
+      "change_h24": 104.0,
+      "change_h1": 104.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 51818.6,
+      "volume_h24": 52848.51,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "HLD7wcQciQxbUFLi5rVJ26WVkFQEksBkt3MxZSERpump": {
-      "price_usd": 0.0002202,
-      "change_h24": 201.0,
-      "change_h1": 201.0,
-      "liquidity_usd": 37911.39,
-      "volume_h24": 271673.09,
+      "price_usd": 0.000153,
+      "change_h24": 109.0,
+      "change_h1": 109.0,
+      "liquidity_usd": 31330.11,
+      "volume_h24": 282109.97,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
     "HR1nLVar7gRPvDtkGkKUxDKxC9w8g5aeWvFtyZSGpump": {
-      "price_usd": 7.1e-06,
-      "change_h24": 16.85,
-      "change_h1": 16.85,
+      "price_usd": 6.866e-06,
+      "change_h24": 13.0,
+      "change_h1": 13.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 1796.14,
+      "volume_h24": 1903.63,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "4Jz7JVxHdyfpDjAHmz5R5fWWVBRCx72QBue2jmP3pump": {
+      "price_usd": 7.777e-06,
+      "change_h24": 87.59,
+      "change_h1": 87.59,
+      "liquidity_usd": 0.0,
+      "volume_h24": 14037.01,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "EQgKvBWJx6B86onngNtKQQHofaq3bkvJADBQwSzFpump": {
+      "price_usd": 4.659e-06,
+      "change_h24": 32.99,
+      "change_h1": 32.99,
+      "liquidity_usd": 0.0,
+      "volume_h24": 8612.4,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }
