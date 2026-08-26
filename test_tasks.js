@@ -13,6 +13,10 @@ const puppeteer = require('puppeteer-core');
   const logs = [];
   page.on('console', msg => logs.push(`[${msg.type()}] ${msg.text()}`));
   page.on('pageerror', err => errors.push(err.message));
+  page.on('requestfailed', req => console.log('Failed request:', req.url()));
+  page.on('response', resp => {
+    if (resp.status() >= 400) console.log(`HTTP ${resp.status()}: ${resp.url()}`);
+  });
 
   // Test 1: Tasks page (gated)
   console.log('Loading tasks page...');
@@ -30,12 +34,15 @@ const puppeteer = require('puppeteer-core');
     document.getElementById('password-input').value = 'wrong';
     document.getElementById('unlock-btn').click();
   });
-  await new Promise(r => setTimeout(r, 500));
-  const errorShown = await page.evaluate(() => {
-    const err = document.getElementById('gate-error');
-    return err && err.textContent.includes('Wrong');
+  await new Promise(r => setTimeout(r, 1500));
+  const wrongPwState = await page.evaluate(() => {
+    return {
+      gateVisible: document.getElementById('tasks-gate').style.display !== 'none',
+      errorText: document.getElementById('gate-error').textContent,
+      inputValue: document.getElementById('password-input').value
+    };
   });
-  console.log('Wrong password shows error (should be true):', errorShown);
+  console.log('After wrong password:', JSON.stringify(wrongPwState));
 
   // Try correct password
   await page.evaluate(() => {
