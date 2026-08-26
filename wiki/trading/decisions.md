@@ -1624,3 +1624,15 @@
 ## [2026-08-26 10:09 UTC] buy | [LLM] $HOTPUMP at $9.64e-06, spent 0.1 SOL
 - **Reasoning:** $HOTPUMP — Miami nightlife meme with real twitter handle, highest mcap ($10k) of the new batch, neon-fueled narrative has viral potential. Risk: bond only 33%, may not complete.
 
+## [2026-08-26 10:11 UTC] sell | [PARTIAL][LLM] $crocodile at $1.725e-05 | P&L: +275.2%
+- **Reasoning:** $crocodile is +275% with 24h +404% — parabolic move on a fresh launch. Take half profits to lock in gains and let the rest ride. Narratives this strong can continue but partial profit-taking is mandatory at this magnitude.
+
+## [2026-08-26 10:11 UTC] sell | [FULL][LLM] $Razoo at $3.31e-06 | P&L: -28.8%
+- **Reasoning:** $Razoo is -28.8% with 24h only +2.1% — the bounce isn't materializing despite a green day overall. Dead narrative, bleeding position. Free up slot and capital for fresh attention.
+
+## [2026-08-26 10:11 UTC] sell | [PARTIAL][LLM] $Pigtacio at $8.91e-06 | P&L: +97.4%
+- **Reasoning:** $Pigtacio is +97.4% with 24h +97.5% — solid double, but no 1h acceleration beyond the entry pump. Take half off the table, let the other half ride if narrative continues.
+
+## [2026-08-26 10:11 UTC] buy | [LLM] $HAIRBALL at $3.298e-06, spent 0.1 SOL
+- **Reasoning:** $HAIRBALL has the strongest narrative of the new batch — 'defend the crypto universe by puking hairballs at enemy memecoins' is exactly the kind of absurd viral concept memecoins need. Has its own X account (@hairballpopcat), bonding at 9%, mcap $3.2k — pure attention play. Entering with freed slot from Razoo exit.
+
