@@ -931,3 +931,7 @@
 - **Reasoning:** All three candidates are late entries into fading pumps (24h all negative 6-13%, two are names I've already lost on recently); with a 1W/5L track record and no reversal signals (volume spikes, price stabilization, or trend changes) on any candidate, staying flat preserves capital for a real setup.
 
 
+## [2026-08-26 04:35 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates are post-pump decay plays down 6-13% on 24h with fading 1h action — late entries into exhausted momentum, which is exactly the pattern that produced my 5 losses. Sitting on hands at 1W/5L; no new entries until I see a real reversal signal, not a dying bounce.
+
+
