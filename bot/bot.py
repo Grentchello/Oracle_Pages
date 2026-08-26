@@ -902,10 +902,16 @@ def main():
                 break
         if not target_mint:
             continue
-        token = next((t for t in tokens if t["mint"] == target_mint), None)
-        if not token or _to_float(token.get("price_usd")) <= 0:
+        # Get current price from held_prices (always fetched) — fallback to watchlist
+        hprice = held_prices.get(target_mint) or {}
+        cur_price = hprice.get("price_usd") or 0
+        if cur_price <= 0:
+            token = next((t for t in tokens if t["mint"] == target_mint), None)
+            if token:
+                cur_price = _to_float(token.get("price_usd"))
+        if cur_price <= 0:
+            log(f"WARN: exit skipped for ${state['positions'][target_mint].get('symbol', '?')} — no current price")
             continue
-        cur_price = _to_float(token["price_usd"])
         if action == "hold":
             continue
         fraction = 1.0 if action == "sell_all" else 0.5 if action == "sell_half" else None
