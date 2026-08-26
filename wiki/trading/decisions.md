@@ -2182,3 +2182,6 @@
 ## [2026-08-26 11:20 UTC] sell | [FULL][LLM] $WIF at $2.726e-06 | P&L: -0.5%
 - **Reasoning:** Already -0.5% in 0.1h and -9.2% on the 24h — fresh entries on declining 24h momentum are how small losses compound. Free the slot for $VENUSKID.
 
+## [2026-08-26 11:53 UTC] sell | [PARTIAL][LLM] $PURPLECHIP at $2.901e-06 | P&L: +6.5%
+- **Reasoning:** PURPLECHIP is +6.5% after 0.6h with no momentum acceleration visible — bank half to lock in gains and keep skin in the game if the narrative catches fire.
+
