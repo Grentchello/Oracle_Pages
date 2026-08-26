@@ -1,30 +1,8 @@
 {
-  "balance_sol": 1.076498,
+  "balance_sol": 1.164259,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "FDBr78P2n5sNpsYgRfUJuQCDVYRFVkyeSiuGiEAQpump": {
-      "symbol": "CGPT",
-      "name": "ChainGPT Agent",
-      "amount": 3138543.4168332084,
-      "entry_price_usd": 3.1033504101809323e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-26T11:13:38.263220+00:00",
-      "entry_usd_value": 9.740000000000002,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3104.0362852770777,
-        "ath_market_cap_usd": 3162.9057957218433,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.025536799,
-        "description": "",
-        "twitter": "https://x.com/cgptagent",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "DDRQfqgHs2Z4Yj5wzkoBv8bcGckxBwyS8GpqTXvtpump": {
       "symbol": "PURPLECHIP",
       "name": "PURPLE CHIP",
@@ -2399,19 +2377,30 @@
       "pnl_pct": -98.19,
       "exit_reason": "LLM: sell_all — At -98.2%, far past the -50% hard cap. Dead capital - cutting to free a position slot and stop the bleed.",
       "partial": false
+    },
+    {
+      "mint": "FDBr78P2n5sNpsYgRfUJuQCDVYRFVkyeSiuGiEAQpump",
+      "symbol": "CGPT",
+      "name": "ChainGPT Agent",
+      "amount_sold": 3138543.4168332084,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-26T11:13:38.263220+00:00",
+      "exit_time": "2026-08-26T11:19:19.935538+00:00",
+      "entry_price_usd": 3.1033504101809323e-06,
+      "exit_price_usd": 2.728e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.087761,
+      "pnl_sol": -0.012239,
+      "pnl_pct": -12.1,
+      "exit_reason": "LLM: sell_all — $CGPT at -12.1% with sustained -11.7% across 24h/1h — no bounce signal, narrative unclear, cut the bleed before it compounds toward -50% cap.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-26T11:17:57.466008+00:00",
+  "last_updated": "2026-08-26T11:19:19.935884+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.54,
-  "portfolio_value_usd": 134.23,
+  "last_sol_price_usd": 97.56,
+  "portfolio_value_usd": 133.08,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 11:12 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $MARDOGE at $0.0001861 | P&L: +74.2%",
-      "reason": "$MARDOGE at +74% with 24h still showing +155% momentum — take partial profits to lock in gains and let the rest ride the wave. Half-selling secures realized P&L while keeping upside exposure on a still-hot name."
-    },
     {
       "time": "2026-08-26 11:12 UTC",
       "action": "buy",
@@ -2525,36 +2514,42 @@
       "action": "sell",
       "details": "[FULL][LLM] $MARDOGE at $1.932e-06 | P&L: -98.2%",
       "reason": "At -98.2%, far past the -50% hard cap. Dead capital - cutting to free a position slot and stop the bleed."
+    },
+    {
+      "time": "2026-08-26 11:19 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CGPT at $2.728e-06 | P&L: -12.1%",
+      "reason": "$CGPT at -12.1% with sustained -11.7% across 24h/1h — no bounce signal, narrative unclear, cut the bleed before it compounds toward -50% cap."
     }
   ],
   "trade_stats": {
-    "total": 137,
+    "total": 138,
     "wins": 70,
-    "losses": 67,
-    "win_rate_pct": 51.1,
-    "total_pnl_sol": -0.523501,
-    "avg_pnl_pct": 95.86,
+    "losses": 68,
+    "win_rate_pct": 50.7,
+    "total_pnl_sol": -0.53574,
+    "avg_pnl_pct": 95.08,
     "best_pnl_pct": 666.22,
     "worst_pnl_pct": -99.89,
-    "today_trades": 137,
-    "today_realized_sol": -0.523501,
-    "today_target_pct": -130.9,
+    "today_trades": 138,
+    "today_realized_sol": -0.53574,
+    "today_target_pct": -133.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 70,
-      "loss_count": 67,
+      "loss_count": 68,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T11:17:57.465590+00:00",
+  "last_llm_brief_at": "2026-08-26T11:19:19.935505+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FDBr78P2n5sNpsYgRfUJuQCDVYRFVkyeSiuGiEAQpump": {
-      "price_usd": 3.829e-06,
-      "change_h24": 23.88,
-      "change_h1": 23.88,
+      "price_usd": 2.728e-06,
+      "change_h24": -11.74,
+      "change_h1": -11.74,
       "liquidity_usd": 0.0,
-      "volume_h24": 613.61,
+      "volume_h24": 1155.84,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },

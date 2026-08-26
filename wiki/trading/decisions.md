@@ -2176,3 +2176,6 @@
 ## [2026-08-26 11:16 UTC] sell | [FULL][LLM] $MARDOGE at $1.932e-06 | P&L: -98.2%
 - **Reasoning:** At -98.2%, far past the -50% hard cap. Dead capital - cutting to free a position slot and stop the bleed.
 
+## [2026-08-26 11:19 UTC] sell | [FULL][LLM] $CGPT at $2.728e-06 | P&L: -12.1%
+- **Reasoning:** $CGPT at -12.1% with sustained -11.7% across 24h/1h — no bounce signal, narrative unclear, cut the bleed before it compounds toward -50% cap.
+
