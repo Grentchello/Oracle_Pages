@@ -2128,3 +2128,30 @@
 ## [2026-08-26 11:12 UTC] buy | [LLM] $Rastera  at $3.036e-06, spent 0.1 SOL
 - **Reasoning:** $Rastera (GPU rentals narrative) at $3k mcap with real utility story (on-chain GPU rentals) and active X account. Narrative + utility is a rare combo at this mcap.
 
+## [2026-08-26 11:13 UTC] sell | [PARTIAL][LLM] $MARDOGE at $0.0001692 | P&L: +58.4%
+- **Reasoning:** MARDOGE +58.4% with 1h +132% momentum — lock half profit at +50% rule, let the rest ride if narrative holds.
+
+## [2026-08-26 11:13 UTC] sell | [FULL][LLM] $    DG   at $3.077e-06 | P&L: -17.3%
+- **Reasoning:** DG -17.3% with no clear narrative catalyst and weak attention — cut the loser to free capital for fresher attention.
+
+## [2026-08-26 11:13 UTC] sell | [FULL][LLM] $Po at $6.541e-06 | P&L: -5.0%
+- **Reasoning:** Po -5% with no viral signal identified, held 0.0h with 24h +98% suggesting peak chase — exit to redeploy.
+
+## [2026-08-26 11:13 UTC] sell | [FULL][LLM] $ADA at $2.724e-06 | P&L: -17.4%
+- **Reasoning:** ADA -17.4% with 24h -11% negative momentum — dying narrative, free capital for new attention.
+
+## [2026-08-26 11:13 UTC] sell | [FULL][LLM] $Rastera  at $2.724e-06 | P&L: -10.3%
+- **Reasoning:** Rastera -10.3% with 24h -8.6% declining — no edge here, redeploy into fresher launches.
+
+## [2026-08-26 11:13 UTC] buy | [LLM] $BEL at $4.41952e-06, spent 0.1 SOL
+- **Reasoning:** $BEL 'OpenAI Bel' — OpenAI narrative is the strongest attention magnet in crypto right now, super-fresh 0.1min age, classic narrative trade.
+
+## [2026-08-26 11:13 UTC] buy | [LLM] $TREND at $2.162e-06, spent 0.1 SOL
+- **Reasoning:** $TREND 'Trending' — meta-narrative token riding the 'trend now, research later' meme, viral self-referential attention play at 1min age.
+
+## [2026-08-26 11:13 UTC] buy | [LLM] $Nepal at $3.91899e-06, spent 0.1 SOL
+- **Reasoning:** $Nepal 'Pray for Nepal' — real-world news catalyst drives organic attention, fresh 0.1min launch with natural viral potential.
+
+## [2026-08-26 11:13 UTC] buy | [LLM] $CGPT at $3.10335e-06, spent 0.1 SOL
+- **Reasoning:** $CGPT 'ChainGPT Agent' — AI agent narrative + established ChainGPT brand association, 0.2min age is prime entry for attention capture.
+
