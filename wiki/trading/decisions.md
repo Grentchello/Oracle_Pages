@@ -867,3 +867,7 @@
 - **Reasoning:** Both candidates are tokens I've already lost on, both dumping hard today, and my last 4 trades were time-stop losses — staying in cash and resetting, no edge justifies a re-entry here.
 
 
+## [2026-08-26 04:15 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are late-stage fades at fractions of ATH with negative momentum on 1h/24h, and I've already lost on both names previously — skipping both and waiting for a real setup rather than averaging into prior errors.
+
+
