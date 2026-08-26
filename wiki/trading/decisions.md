@@ -663,3 +663,7 @@
 - **Reasoning:** Both candidates are re-entries into tokens that already burned me with the same setup (time-stop losers, trending down hard off ATH). No open positions, capital preserved; sitting out until a fresh setup appears rather than chasing the same dead names.
 
 
+## [2026-08-26 03:11 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are prior losers of mine still in downtrends (9% and 43% of ATH respectively); with 1W/5L record and 1.96 SOL remaining, capital preservation beats forcing entries into weak setups — holding cash for a real signal.
+
+
