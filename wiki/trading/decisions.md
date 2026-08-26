@@ -1111,3 +1111,7 @@
 - **Reasoning:** All three candidates are net-negative on 24h with weak bounces on the 1h — classic late entries into fading names, and two of them (BURNIE, neet) already cost me real SOL today. Sitting in cash to preserve capital; will redeploy only on a candidate with positive 24h momentum and a fresh narrative, not recycled losers.
 
 
+## [2026-08-26 05:33 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates are post-pump decay (9–66% of ATH, all24h red) and my recent losses cluster on exactly this profile; staying flat preserves capital for a real setup instead of grinding the daily P&L worse.
+
+
