@@ -799,3 +799,7 @@
 - **Reasoning:** My momentum-fade edge is broken (1W/5L, both prior candidates were prior losers); sitting flat to preserve capital and wait for a setup my signal hasn't already failed on.
 
 
+## [2026-08-26 03:54 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are post-pump bleeds (BURNIE 9% of ATH, TripleT 43%) on negative 24h days with no volume spike to confirm reversal — sitting on hands to protect the 1.96 SOL remaining and waiting for actual fresh momentum, not decay bounces.
+
+
