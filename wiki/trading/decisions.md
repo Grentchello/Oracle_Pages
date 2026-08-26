@@ -1855,3 +1855,18 @@
 ## [2026-08-26 10:34 UTC] buy | [LLM] $WINDOGE at $7.16101e-06, spent 0.1 SOL
 - **Reasoning:** $WINDOGE leads the new launches at $7.1k mcap with 28% bond complete — highest bonding progress in the batch signals real inflow. Dog-coin meta is evergreen attention; size in before mcap doubles again.
 
+## [2026-08-26 10:35 UTC] sell | [FULL][LLM] $WINDOGE at $2.707e-06 | P&L: -62.2%
+- **Reasoning:** -62.2% breached the -50% hard cap. Cut now and free a slot for stronger attention plays.
+
+## [2026-08-26 10:35 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $4.432e-05 | P&L: +359.8%
+- **Reasoning:** +359% runner, lock in partial profit at this extreme gain while letting the runner ride on the remainder.
+
+## [2026-08-26 10:35 UTC] sell | [PARTIAL][LLM] $WDOG at $4.023e-05 | P&L: +155.0%
+- **Reasoning:** +155% in 0h is excellent — take half off to secure profits while keeping exposure to the Windows Dog theme that is clearly heating up.
+
+## [2026-08-26 10:35 UTC] buy | [LLM] $Winston at $5.26114e-06, spent 0.1 SOL
+- **Reasoning:** $Winston is leading the Windows Dog cluster with the highest mcap ($5.2k) of the three — clearly the narrative winner in an active 3-token attention wave.
+
+## [2026-08-26 10:35 UTC] buy | [LLM] $BLNK at $3.3407e-06, spent 0.1 SOL
+- **Reasoning:** $BLNK has a self-referential riddle meme ('fill the blank and pretend you do') — that's the exact format that spreads on CT. Low mcap, fresh, narrative-driven.
+
