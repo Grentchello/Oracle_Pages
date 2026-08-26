@@ -1570,3 +1570,18 @@
 ## [2026-08-26 10:04 UTC] sell | [FULL][LLM] $Cheeks at $2.718e-06 | P&L: -45.1%
 - **Reasoning:** At -45.1% with -21.3% across both timeframes, same death pattern as PEPI. No reason to hold into the hard cap.
 
+## [2026-08-26 10:05 UTC] sell | [PARTIAL][LLM] $crocodile at $1.854e-05 | P&L: +303.2%
+- **Reasoning:** $CROCODILE is up +303% in <1h with a viral jewjo_exe X post backing it. Per rules: take some profit at +50%. Sell half to lock gains, hold the rest for the narrative continuation since 'croc wif crocs' is a memorable, repeatable meme with strong attention. This is the correct move — locking in a win while keeping upside exposure.
+
+## [2026-08-26 10:05 UTC] buy | [LLM] $doom at $3.501e-05, spent 0.1 SOL
+- **Reasoning:** $doom (doctor doom) — mcap $60k is the highest in the slate (10x the others), backed by Avengers twitter handle, narrative is 'The Villain Has Entered the Market.' Strong villain arc + Marvel IP association = viral attention potential. Best risk/reward in this batch.
+
+## [2026-08-26 10:05 UTC] buy | [LLM] $AG at $2.81227e-06, spent 0.1 SOL
+- **Reasoning:** $AG (Ali G) — backed by OfficialAli_G verified-looking account, 'Who iz I?' is a classic meme catchphrase with strong replay value. Cultural recognition + simple character = viral attention play at $2.8k mcap.
+
+## [2026-08-26 10:05 UTC] buy | [LLM] $Who at $2.82957e-06, spent 0.1 SOL
+- **Reasoning:** $Who (Knock Knock Whos There) — joke-format memes spread fast on crypto X, blknoiz06 is a known promoter. Knock-knock setup is infinite engagement bait. Cheap entry at $2.8k mcap.
+
+## [2026-08-26 10:05 UTC] buy | [LLM] $Wittgenstein at $2.685e-06, spent 0.1 SOL
+- **Reasoning:** $Wittgenstein (MAIN DEAD SEND THE REAL) — meta-narrative about a fake Wittgenstein memecoin is exactly the kind of self-aware shitposting that goes viral. Wintalt X account backing it. Attention signal is the absurdity itself.
+
