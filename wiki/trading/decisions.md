@@ -1948,3 +1948,15 @@
 ## [2026-08-26 10:45 UTC] buy | [LLM] $Seal at $3.37478e-06, spent 0.1 SOL
 - **Reasoning:** $Seal (Windows Dog) — fresh meme with X post, lowest mcap = highest asymmetry if narrative catches.
 
+## [2026-08-26 10:46 UTC] sell | [FULL][LLM] $DOGE at $2.817e-06 | P&L: -82.1%
+- **Reasoning:** $DOGE at -82.1% is catastrophic — well past the -50% hard cap, this is a dead coin, exit immediately to free the slot.
+
+## [2026-08-26 10:46 UTC] sell | [FULL][LLM] $Seal at $2.722e-06 | P&L: -19.3%
+- **Reasoning:** $Seal at -19.3% with -1.3% 24h shows no bounce energy, freeing slot for stronger fresh-launch narrative.
+
+## [2026-08-26 10:46 UTC] buy | [LLM] $Pepo at $5.16084e-06, spent 0.1 SOL
+- **Reasoning:** $Pepo is the freshest launch with highest mcap ($5,159), has twitter link — decent attention signal, $5K mcap has 10x room. 0.1 SOL.
+
+## [2026-08-26 10:46 UTC] buy | [LLM] $BEEHIVE at $4.04731e-06, spent 0.1 SOL
+- **Reasoning:** $BEEHIVE has dedicated twitter handle (@beehivexsol) which suggests some committed narrative — community tokens often pump early. 0.1 SOL.
+
