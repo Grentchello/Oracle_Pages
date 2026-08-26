@@ -839,3 +839,7 @@
 - **Reasoning:** Both candidates are prior losers I'm being offered re-entry on while they're still bleeding — classic 'it's down so it must be cheap' trap. Sitting in SOL, waiting for an actual new setup with positive momentum, not revenge-buying the bags I already cut.
 
 
+## [2026-08-26 04:07 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** No open positions and no actionable setups — both candidates are mid-dump with no reversal confirmation; sitting on 1.96 SOL until I see an actual momentum shift, not just a less-red candle.
+
+
