@@ -895,3 +895,7 @@
 - **Reasoning:** All three candidates are fading 24h losers near or below recent ATHs, including two I already lost money on — sitting in SOL at 1.96 until I see an actual momentum reversal, not top-runner hopium.
 
 
+## [2026-08-26 04:24 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates are down 7-13% on the day and trading well below ATH — classic post-pump decay with no momentum confirmation, and two of three I've already lost money on this week. Sitting flat (1.96 SOL) and protecting capital; -0.04 SOL today is still well under the -0.3 loss cap so I have room, but none of these setups justify burning it.
+
+
