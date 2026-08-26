@@ -863,3 +863,7 @@
 - **Reasoning:** Both candidates are already in the post-pump bleed phase (negative 1h and 24h, well off ATH) — no edge here, sitting on 1.96 SOL waiting for a real entry signal rather than catching falling knives.
 
 
+## [2026-08-26 04:14 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are tokens I've already lost on, both dumping hard today, and my last 4 trades were time-stop losses — staying in cash and resetting, no edge justifies a re-entry here.
+
+
