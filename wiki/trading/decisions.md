@@ -1744,3 +1744,24 @@
 ## [2026-08-26 10:22 UTC] buy | [LLM] $MNKY at $6.59322e-06, spent 0.1 SOL
 - **Reasoning:** $MNKY highest mcap of the fresh batch at $6.6k — Monkey meta has been hot, simple ticker rides attention waves. Small size, high attention multiple.
 
+## [2026-08-26 10:24 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $4.677e-05 | P&L: +385.2%
+- **Reasoning:** +385% in 0.2h is parabolic, 24h only +17.8% suggests the spike is unsustainable. Lock half the gain, let the rest ride with a free runner.
+
+## [2026-08-26 10:24 UTC] sell | [PARTIAL][LLM] $Perry at $9.871e-06 | P&L: +49.5%
+- **Reasoning:** +49.5% near the +50% take-profit trigger with strong 24h momentum (+212%). Take partial, hold the rest for narrative continuation.
+
+## [2026-08-26 10:24 UTC] sell | [FULL][LLM] $pumptacio at $3.399e-06 | P&L: -14.9%
+- **Reasoning:** -15% with weak 24h momentum (+4.7%) and no compelling narrative. Cut the loser and free the slot for higher-conviction launches.
+
+## [2026-08-26 10:24 UTC] sell | [PARTIAL][LLM] $BUSINESS at $6.135e-06 | P&L: +75.3%
+- **Reasoning:** +75.3% with strong 24h momentum (+77.7%). Lock half the profit, let the rest ride the wave.
+
+## [2026-08-26 10:24 UTC] sell | [FULL][LLM] $MNKY at $6.408e-06 | P&L: -2.8%
+- **Reasoning:** -2.8% with no clear narrative edge and crowded-name meme. Flat performance with 5 better candidates available — redeploy the capital.
+
+## [2026-08-26 10:24 UTC] buy | [LLM] $Ass at $3.315e-06, spent 0.1 SOL
+- **Reasoning:** $Ass backed by @nexta_tv, a legitimate crypto news account with real reach — rare attention signal at $3k mcap. Crude humor is viral fuel on CT.
+
+## [2026-08-26 10:24 UTC] buy | [LLM] $ANAI at $3.65566e-06, spent 0.1 SOL
+- **Reasoning:** $ANAI has both X promotion and YouTube content backing — multi-platform attention at $3.6k mcap is the kind of asymmetric setup that 10x's. Slight coordination risk with duplicate $AnaI launch noted.
+
