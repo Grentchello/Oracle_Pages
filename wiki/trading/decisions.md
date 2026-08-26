@@ -1783,3 +1783,15 @@
 ## [2026-08-26 10:25 UTC] sell | [PARTIAL][LLM] $ANAL at $6.923e-06 | P&L: +53.0%
 - **Reasoning:** +53% on edgy BUTTSEXDEV narrative with multiple duplicate mints ($ANAL appears 4x) — signal is diluted/scammy, take partial profit to lock the bounce before rug risk.
 
+## [2026-08-26 10:26 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $6.432e-05 | P&L: +567.2%
+- **Reasoning:** $HOTPUMP +567% with 24h/1h both at +62% — momentum is cooling hard. Lock in half profit at this peak; let the runner ride free.
+
+## [2026-08-26 10:26 UTC] sell | [PARTIAL][LLM] $Perry at $2.084e-05 | P&L: +215.5%
+- **Reasoning:** $Perry +215% but only minutes old — taking half off locks in gain while the 1h +559% curve is still hot.
+
+## [2026-08-26 10:26 UTC] sell | [FULL][LLM] $ANAL at $2.859e-06 | P&L: -36.8%
+- **Reasoning:** $ANAL -36.8% and 1h -22.2% — momentum is dead, narrative is thin (just 'Powerhouse' duplicate), cut the loss before -50% hard cap.
+
+## [2026-08-26 10:26 UTC] buy | [LLM] $TURCOM at $9.97735e-07, spent 0.1 SOL
+- **Reasoning:** $TURCOM $998 mcap with 2% bond — Turbo Comet has the catchy alliterative name and ultra-low mcap for asymmetric upside. Small position OK even without X signal.
+
