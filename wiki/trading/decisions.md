@@ -955,3 +955,7 @@
 - **Reasoning:** All four candidates are mid-drawdown coins I already lost on (or analogs of them) with no fresh momentum signals — staying 100% in SOL and waiting for a real setup rather than averaging into losers.
 
 
+## [2026-08-26 04:43 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All four candidates are mid-decline tokens (6-13% down 24h) with weak or dead-cat-bounce 1h action - none show genuine breakout signal, and three of four are repeats of setups that already lost me money. Sitting flat, preserving capital, waiting for a real pump-and-hold pattern.
+
+
