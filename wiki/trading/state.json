@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.49039,
+  "balance_sol": 1.395898,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "5WRYktH9wiT33LsnZ7vQxUWWa2QxpQhw3ahUmKS1pump": {
       "symbol": "Pepo",
       "name": "Pepo",
-      "amount": 59020.244555687226,
+      "amount": 29510.122277843613,
       "entry_price_usd": 5.160835104853004e-06,
-      "entry_sol_spent": 0.003125,
+      "entry_sol_spent": 0.0015625,
       "entry_time": "2026-08-26T10:46:42.848436+00:00",
       "entry_usd_value": 9.747,
       "entry_signals": {
@@ -28,9 +28,9 @@
     "HLD7wcQciQxbUFLi5rVJ26WVkFQEksBkt3MxZSERpump": {
       "symbol": "MARDOGE",
       "name": "Martian Doge",
-      "amount": 91507.49063670414,
+      "amount": 45753.74531835207,
       "entry_price_usd": 0.0001068,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.05,
       "entry_time": "2026-08-26T10:49:59.403834+00:00",
       "entry_usd_value": 9.773000000000001,
       "entry_signals": {
@@ -65,6 +65,50 @@
         "real_sol_reserves": 15.031843673,
         "description": "",
         "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "4Jz7JVxHdyfpDjAHmz5R5fWWVBRCx72QBue2jmP3pump": {
+      "symbol": "SARAH",
+      "name": "Sarah",
+      "amount": 827765.6781958934,
+      "entry_price_usd": 1.1788360229270993e-05,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-26T11:05:39.990547+00:00",
+      "entry_usd_value": 9.758000000000001,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 11773.825118091576,
+        "ath_market_cap_usd": 11787.152157921408,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 32.360096819,
+        "description": "",
+        "twitter": "https://twitter.com/roxom/status/2092569034164424785",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "EQgKvBWJx6B86onngNtKQQHofaq3bkvJADBQwSzFpump": {
+      "symbol": "TRUSTUS",
+      "name": "Trust Us",
+      "amount": 1879117.3512723523,
+      "entry_price_usd": 5.192863550215663e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-26T11:05:39.990662+00:00",
+      "entry_usd_value": 9.758000000000001,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 5186.4607216988925,
+        "ath_market_cap_usd": 7085.146322171569,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 11.388866921,
+        "description": "Deployed using https://j7tracker.io",
+        "twitter": "https://x.com/TIME/status/2092568710775189657",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -2008,37 +2052,47 @@
       "pnl_pct": -9.79,
       "exit_reason": "LLM: sell_all — $NI225 -9.8% and the 1h +423% clearly reflects a pump that already peaked — fade is in progress, preserve capital.",
       "partial": false
+    },
+    {
+      "mint": "5WRYktH9wiT33LsnZ7vQxUWWa2QxpQhw3ahUmKS1pump",
+      "symbol": "Pepo",
+      "name": "Pepo",
+      "amount_sold": 29510.122277843613,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:46:42.848436+00:00",
+      "exit_time": "2026-08-26T11:05:39.989744+00:00",
+      "entry_price_usd": 5.160835104853004e-06,
+      "exit_price_usd": 7.472e-06,
+      "entry_sol_for_chunk": 0.001563,
+      "exit_sol_received": 0.00226,
+      "pnl_sol": 0.000697,
+      "pnl_pct": 44.78,
+      "exit_reason": "LLM: sell_half — $Pepo at +44.8% with strong 1h momentum (+151%) — taking partial profits near the +50% rule while letting the other half ride if narrative continues.",
+      "partial": true
+    },
+    {
+      "mint": "HLD7wcQciQxbUFLi5rVJ26WVkFQEksBkt3MxZSERpump",
+      "symbol": "MARDOGE",
+      "name": "Martian Doge",
+      "amount_sold": 45753.74531835207,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:49:59.403834+00:00",
+      "exit_time": "2026-08-26T11:05:39.990381+00:00",
+      "entry_price_usd": 0.0001068,
+      "exit_price_usd": 0.0002202,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.103248,
+      "pnl_sol": 0.053248,
+      "pnl_pct": 106.18,
+      "exit_reason": "LLM: sell_half — $MARDOGE at +106% with 1h +201% — parabolic move, asymmetric risk of giveback. Lock in half, let the rest run with a mental trailing stop.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-26T11:04:18.274756+00:00",
+  "last_updated": "2026-08-26T11:05:39.990767+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 97.58,
-  "portfolio_value_usd": 165.25,
+  "portfolio_value_usd": 170.5,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 10:52 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $TROJAN at $9.702e-06 | P&L: +77.9%",
-      "reason": "$TROJAN +77.9% in 0.0h with 1h=+194%. Same as Pepo — lock half, ride the rest. 24h trend is parabolic."
-    },
-    {
-      "time": "2026-08-26 10:52 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $FRUGA at $5.285e-06 | P&L: -17.3%",
-      "reason": "$FRUGA -17.3% with no clear narrative hook and 1h=-13.4% trending down. Cut and redeploy capital into fresher attention."
-    },
-    {
-      "time": "2026-08-26 10:52 UTC",
-      "action": "buy",
-      "details": "[LLM] $Netanyahu at $3.78231e-06, spent 0.1 SOL",
-      "reason": "$Netanyahu has Mario Nawfal (multi-million follower crypto account) tweeting it — that's the strongest possible attention catalyst in this batch. Political meme names with macro influencer backing routinely do 5-10x in hours. $3.8k mcap is entry-tier."
-    },
-    {
-      "time": "2026-08-26 10:52 UTC",
-      "action": "buy",
-      "details": "[LLM] $כהן at $4.64356e-06, spent 0.1 SOL",
-      "reason": "$כהן 'The Pump Priest' is a meta-narrative play on pump.fun itself — pump.fun-themed tokens are a recognized viral category on the platform. Self-aware meta memes print. Bond 19% means early traction."
-    },
     {
       "time": "2026-08-26 10:54 UTC",
       "action": "sell",
@@ -2134,72 +2188,78 @@
       "action": "sell",
       "details": "[FULL][LLM] $NI225 at $1.669e-05 | P&L: -9.8%",
       "reason": "$NI225 -9.8% and the 1h +423% clearly reflects a pump that already peaked — fade is in progress, preserve capital."
+    },
+    {
+      "time": "2026-08-26 11:05 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Pepo at $7.472e-06 | P&L: +44.8%",
+      "reason": "$Pepo at +44.8% with strong 1h momentum (+151%) — taking partial profits near the +50% rule while letting the other half ride if narrative continues."
+    },
+    {
+      "time": "2026-08-26 11:05 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $MARDOGE at $0.0002202 | P&L: +106.2%",
+      "reason": "$MARDOGE at +106% with 1h +201% — parabolic move, asymmetric risk of giveback. Lock in half, let the rest run with a mental trailing stop."
+    },
+    {
+      "time": "2026-08-26 11:05 UTC",
+      "action": "buy",
+      "details": "[LLM] $SARAH at $1.17884e-05, spent 0.1 SOL",
+      "reason": "$SARAH at $11.7k mcap with Roxom-attached Twitter, 0.1min age — brand-new launch with named-twitter attention, fits the early-mcap alpha thesis."
+    },
+    {
+      "time": "2026-08-26 11:05 UTC",
+      "action": "buy",
+      "details": "[LLM] $TRUSTUS at $5.19286e-06, spent 0.1 SOL",
+      "reason": "$TRUSTUS tied to TIME magazine tweet, $5.2k mcap, 0.5min age — mainstream media attention is rare signal worth a small bet."
     }
   ],
   "trade_stats": {
-    "total": 114,
-    "wins": 61,
+    "total": 116,
+    "wins": 63,
     "losses": 53,
-    "win_rate_pct": 53.5,
-    "total_pnl_sol": -0.206484,
-    "avg_pnl_pct": 114.98,
+    "win_rate_pct": 54.3,
+    "total_pnl_sol": -0.152539,
+    "avg_pnl_pct": 114.3,
     "best_pnl_pct": 666.22,
     "worst_pnl_pct": -96.94,
-    "today_trades": 114,
-    "today_realized_sol": -0.206484,
-    "today_target_pct": -51.6,
+    "today_trades": 116,
+    "today_realized_sol": -0.152539,
+    "today_target_pct": -38.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 61,
+      "win_count": 63,
       "loss_count": 53,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T11:04:18.273412+00:00",
+  "last_llm_brief_at": "2026-08-26T11:05:39.989709+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5WRYktH9wiT33LsnZ7vQxUWWa2QxpQhw3ahUmKS1pump": {
-      "price_usd": 6.767e-06,
-      "change_h24": 127.0,
-      "change_h1": 127.0,
+      "price_usd": 7.472e-06,
+      "change_h24": 151.0,
+      "change_h1": 151.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 50449.8,
+      "volume_h24": 51818.6,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "HLD7wcQciQxbUFLi5rVJ26WVkFQEksBkt3MxZSERpump": {
-      "price_usd": 0.0001176,
-      "change_h24": 61.0,
-      "change_h1": 61.0,
-      "liquidity_usd": 27225.56,
-      "volume_h24": 255718.65,
+      "price_usd": 0.0002202,
+      "change_h24": 201.0,
+      "change_h1": 201.0,
+      "liquidity_usd": 37911.39,
+      "volume_h24": 271673.09,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
-    "3T2baUtZLj6fRGwFCJhziSDA1DSUXfT8Cveamcoppump": {
-      "price_usd": 5.041e-06,
-      "change_h24": 52.85,
-      "change_h1": 52.85,
-      "liquidity_usd": 0.0,
-      "volume_h24": 38882.94,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "89HmhRtVHqeSnDMVZYvHWGPckwA5oa1Ds52zMaEQpump": {
-      "price_usd": 1.669e-05,
-      "change_h24": 423.0,
-      "change_h1": 423.0,
-      "liquidity_usd": 0.0,
-      "volume_h24": 57531.27,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
     "HR1nLVar7gRPvDtkGkKUxDKxC9w8g5aeWvFtyZSGpump": {
-      "price_usd": 6.28e-06,
-      "change_h24": 3.36,
-      "change_h1": 3.36,
+      "price_usd": 7.1e-06,
+      "change_h24": 16.85,
+      "change_h1": 16.85,
       "liquidity_usd": 0.0,
-      "volume_h24": 1513.24,
+      "volume_h24": 1796.14,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

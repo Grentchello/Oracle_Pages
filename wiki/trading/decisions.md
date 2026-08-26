@@ -2062,3 +2062,15 @@
 ## [2026-08-26 11:04 UTC] sell | [FULL][LLM] $NI225 at $1.669e-05 | P&L: -9.8%
 - **Reasoning:** $NI225 -9.8% and the 1h +423% clearly reflects a pump that already peaked — fade is in progress, preserve capital.
 
+## [2026-08-26 11:05 UTC] sell | [PARTIAL][LLM] $Pepo at $7.472e-06 | P&L: +44.8%
+- **Reasoning:** $Pepo at +44.8% with strong 1h momentum (+151%) — taking partial profits near the +50% rule while letting the other half ride if narrative continues.
+
+## [2026-08-26 11:05 UTC] sell | [PARTIAL][LLM] $MARDOGE at $0.0002202 | P&L: +106.2%
+- **Reasoning:** $MARDOGE at +106% with 1h +201% — parabolic move, asymmetric risk of giveback. Lock in half, let the rest run with a mental trailing stop.
+
+## [2026-08-26 11:05 UTC] buy | [LLM] $SARAH at $1.17884e-05, spent 0.1 SOL
+- **Reasoning:** $SARAH at $11.7k mcap with Roxom-attached Twitter, 0.1min age — brand-new launch with named-twitter attention, fits the early-mcap alpha thesis.
+
+## [2026-08-26 11:05 UTC] buy | [LLM] $TRUSTUS at $5.19286e-06, spent 0.1 SOL
+- **Reasoning:** $TRUSTUS tied to TIME magazine tweet, $5.2k mcap, 0.5min age — mainstream media attention is rare signal worth a small bet.
+
