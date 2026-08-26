@@ -67,3 +67,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- new password -->
 
 <!-- dashboard held_prices -->
+
+<!-- bot bonding-curve fix -->
