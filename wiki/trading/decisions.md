@@ -2179,3 +2179,6 @@
 ## [2026-08-26 11:19 UTC] sell | [FULL][LLM] $CGPT at $2.728e-06 | P&L: -12.1%
 - **Reasoning:** $CGPT at -12.1% with sustained -11.7% across 24h/1h — no bounce signal, narrative unclear, cut the bleed before it compounds toward -50% cap.
 
+## [2026-08-26 11:20 UTC] sell | [FULL][LLM] $WIF at $2.726e-06 | P&L: -0.5%
+- **Reasoning:** Already -0.5% in 0.1h and -9.2% on the 24h — fresh entries on declining 24h momentum are how small losses compound. Free the slot for $VENUSKID.
+
