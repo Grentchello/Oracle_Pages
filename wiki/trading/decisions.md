@@ -803,3 +803,7 @@
 - **Reasoning:** Both candidates are post-pump bleeds (BURNIE 9% of ATH, TripleT 43%) on negative 24h days with no volume spike to confirm reversal — sitting on hands to protect the 1.96 SOL remaining and waiting for actual fresh momentum, not decay bounces.
 
 
+## [2026-08-26 03:55 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are tokens I already booked losses on with the same entry thesis — re-entering is revenge trading, not signal trading. Staying flat in cash (-0.04 SOL today, well under the -0.3 cap) and waiting for a fresh setup that isn't a re-test of failed entries.
+
+
