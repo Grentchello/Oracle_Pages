@@ -36,7 +36,8 @@ LAST_SEEN_PATH = WIKI_DIR / "trading" / "last_seen_mints.json"
 DEXSCREENER_BASE = "https://api.dexscreener.com/latest/dex"
 PUMPFUN_TOP_RUNNERS = "https://frontend-api-v3.pump.fun/coins/top-runners"
 PUMPFUN_RECOMMENDED = "https://frontend-api-v3.pump.fun/coins/recommended"
-PUMPFUN_FRESH = "https://frontend-api-v3.pump.fun/coins?limit=20&offset=0&sort=last_trade_timestamp&order=DESC&includeNsfw=false"
+# Newest launches: sort by created_timestamp DESC. Returns truly fresh tokens.
+PUMPFUN_NEW_LAUNCHES = "https://frontend-api-v3.pump.fun/coins?limit=30&offset=0&sort=created_timestamp&order=DESC&includeNsfw=false"
 SOL_MINT = "So11111111111111111111111111111111111111112"
 
 # === Strategy parameters (safeguards — LLM can't override) ===
@@ -107,16 +108,23 @@ def parse_iso(s):
 # Data fetchers — expanded to include fresh launches
 # =====================================================================
 
-def fetch_pumpfun_freshest(limit=20):
-    """Tokens with most recent trade activity across all pump.fun."""
+def fetch_pumpfun_freshest(limit=30):
+    """Truly new launches: sort by created_timestamp DESC. Filters out old tokens."""
     try:
-        data = http_get_json(PUMPFUN_FRESH + f"&limit={limit}")
+        data = http_get_json(PUMPFUN_NEW_LAUNCHES + f"&limit={limit}")
         items = data if isinstance(data, list) else data.get("coins", [])
         out = []
+        now_ms = now_utc().timestamp() * 1000
         for coin in items[:limit]:
             mint = coin.get("mint")
             if not mint:
                 continue
+            age_min = None
+            if coin.get("created_timestamp"):
+                age_min = (now_ms - coin["created_timestamp"]) / 60000
+                # Skip anything older than 6 hours — alpha is gone
+                if age_min > 360:
+                    continue
             out.append({
                 "mint": mint,
                 "symbol": coin.get("symbol", "?"),
@@ -127,20 +135,27 @@ def fetch_pumpfun_freshest(limit=20):
                 "website": coin.get("website") or "",
                 "image_uri": coin.get("image_uri") or "",
                 "created_ts": coin.get("created_timestamp"),
+                "age_min": round(age_min, 1) if age_min is not None else None,
                 "last_trade_ts": coin.get("last_trade_timestamp"),
                 "market_cap_usd": _to_float(coin.get("usd_market_cap") or coin.get("market_cap_usd")),
                 "ath_market_cap_usd": _to_float(coin.get("ath_market_cap")),
                 "real_sol_reserves": _to_float(coin.get("real_sol_reserves")) / 1e9,
                 "virtual_sol_reserves": _to_float(coin.get("virtual_sol_reserves")) / 1e9,
+                # bonding curve progress: 0% = just launched, 100% = graduated
+                "bonding_progress": (
+                    _to_float(coin.get("real_sol_reserves")) /
+                    (_to_float(coin.get("virtual_sol_reserves")) + _to_float(coin.get("real_sol_reserves"))) * 100
+                    if (_to_float(coin.get("virtual_sol_reserves")) + _to_float(coin.get("real_sol_reserves"))) > 0
+                    else 0
+                ),
                 "complete": coin.get("complete", False),
-                "volatility_score": _to_float(coin.get("volatility_score")),
                 "king_of_hill": bool(coin.get("king_of_the_hill_timestamp")),
                 "boost_mode": coin.get("boost_mode"),
-                "source_endpoint": "fresh",
+                "source_endpoint": "new-launches",
             })
         return out
     except Exception as e:
-        log(f"WARN: fresh pump.fun fetch failed: {e}")
+        log(f"WARN: new launches fetch failed: {e}")
         return []
 
 
@@ -451,22 +466,23 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
     if held:
         prompt += "\n# Held positions (decide: hold / sell_all / sell_half)\n"
         for h in held:
-            prompt += f"  - ${h['symbol']} entry ${h['entry_price_usd']:.6g} now ${h['current_price_usd']:.6g} = {h['pnl_pct']:+.1f}%, held {h['held_hours']:.1f}h, vol_score={h['volatility_score']}, real_sol={h['real_sol_reserves']:.2f}\n"
+            prompt += f"  - ${h['symbol']} entry ${h['entry_price_usd']:.6g} now ${h['current_price_usd']:.6g} = {h['pnl_pct']:+.1f}%, held {h['held_hours']:.1f}h, real_sol={h['real_sol_reserves']:.2f}\n"
         prompt += "\n"
 
     if candidates:
-        prompt += "# Token candidates (decide: buy / skip). Pump.fun fresh + recommended. SOL price: $" + f"{sol_price:.2f}\n"
+        prompt += "# Token candidates — RECENT LAUNCHES (last 6 hours). SOL price: $" + f"{sol_price:.2f}\n"
         for c in candidates:
             flag = "🆕 " if c.get("is_new_launch") else "  "
             mcap = c.get('market_cap_usd', 0)
-            ath = c.get('ath_market_cap_usd', 0) or 0
-            mcap_pct_of_ath = (mcap / ath * 100) if ath else 0
-            desc = c.get('description', '')[:100].replace('\n', ' ')
-            prompt += f"  {flag}${c['symbol']:10} ({c['name'][:24]:24}) mcap ${mcap:>10,.0f} ({mcap_pct_of_ath:.0f}% of ATH) vol_score={c.get('volatility_score', '?')} complete={c.get('complete', '?')}"
+            desc = c.get('description', '')[:120].replace('\n', ' ').replace('"', "'")
+            age = c.get('age_min', '?')
+            bonding = c.get('bonding_progress', 0)
+            tweet = c.get('twitter', '')[:50]
+            prompt += f"  {flag}${c['symbol']:10} ({c['name'][:24]:24}) age={str(age)+'min':>8} mcap=${mcap:>9,.0f} bond={bonding:.0f}% complete={c.get('complete')}"
             if desc:
                 prompt += f" desc=\"{desc}\""
-            if c.get("twitter"):
-                prompt += f" twitter:{c['twitter'][:60]}"
+            if tweet:
+                prompt += f" twitter:{tweet}"
             prompt += "\n"
         prompt += "\n"
 
