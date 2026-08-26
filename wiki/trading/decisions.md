@@ -651,3 +651,7 @@
 - **Reasoning:** All three candidates are previous losses showing continued downside; daily P&L at -0.0386 SOL but near the cap and the trend is bad, so I'm preserving capital and waiting for fresh names with real momentum rather than re-entering known losers.
 
 
+## [2026-08-26 03:07 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Market read: all three candidates are post-pump bleeders at single-digit-to-mid % of ATH with negative 24h — textbook late-entry traps. Standing down100% of entries today to preserve remaining1.96 SOL; my last 4 trades are 1W/3L with all losses on this exact pattern, and today's P&L already -0.0386 SOL plus another -0.5 SOL in open exposure risk isn't worth chasing dead cat bounces.
+
+
