@@ -55,3 +55,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- 60s ticks -->
 
 <!-- 2min rebuild -->
+
+<!-- v4 attention bot -->
