@@ -678,7 +678,7 @@ def main():
         log(f"🆕 {len(new_mints)} NEW mints detected since last tick")
     save_last_seen_mints(current_mints)
 
-    # 5. Enrich with DexScreener
+    # 5. Enrich with DexScreener + compute bonding curve price for fresh tokens
     mints = [t["mint"] for t in tokens]
     dex_data = fetch_dexscreener_for_mints(mints)
     for t in tokens:
@@ -694,6 +694,20 @@ def main():
             t["pair_url"] = pair.get("url")
             t["dex_id"] = pair.get("dexId")
             t["pair_address"] = pair.get("pairAddress")
+        elif t.get("complete"):
+            # Completed but no DexScreener pair — fall back to bonding curve price
+            pass
+        # For fresh tokens on the bonding curve, compute the price ourselves.
+        # If neither DexScreener nor bonding-curve price is available, skip.
+        if not t.get("price_usd"):
+            vsr = _to_float(t.get("virtual_sol_reserves"))  # in SOL
+            vtr = _to_float(t.get("virtual_token_reserves"))  # in tokens
+            if vsr > 0 and vtr > 0:
+                # price in SOL per token
+                price_sol = vsr / vtr
+                t["price_sol"] = price_sol
+                t["price_usd"] = price_sol * sol_price
+                t["price_source"] = "bonding-curve"
 
     # 6. Save watchlist for the dashboard
     WATCHLIST_PATH.write_text(json.dumps({
