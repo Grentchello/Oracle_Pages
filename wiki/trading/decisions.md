@@ -1035,3 +1035,7 @@
 - **Reasoning:** Entry at $0.0342 on a token that already dropped -12.76% in 24h with prior failed entries (neet was -12.7% loss before); held 0h means I just entered into weakness, and the pattern of weak-momentum tokens bleeding out argues for cutting before the -12% time-stop becomes the only exit. Tiny realized loss (-0.3%) is cheaper than waiting.
 
 
+## [2026-08-26 05:09 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates are down sharply on 24h with no genuine reversal signals — this is a market where top-runners are bleeding, not running. Sitting on hands is the honest trade given my 1W/6L record and zero open positions to manage.
+
+
