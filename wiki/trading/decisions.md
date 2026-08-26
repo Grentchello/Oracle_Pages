@@ -2023,3 +2023,6 @@
 ## [2026-08-26 10:54 UTC] buy | [LLM] $COUNTY at $3.66152e-05, spent 0.1 SOL
 - **Reasoning:** $COUNTY at $36.6k mcap with 42% bond progress is the highest-conviction fresh launch — narrative is clean (Pump County meme), it's already attracting volume. Buys the leading edge of attention.
 
+## [2026-08-26 10:55 UTC] sell | [PARTIAL][LLM] $Pepo at $8.245e-06 | P&L: +59.8%
+- **Reasoning:** +59.8% hits the profit-take zone; 1h move was +176% so momentum is cooling — lock in gains on half, let the rest ride if narrative continues.
+

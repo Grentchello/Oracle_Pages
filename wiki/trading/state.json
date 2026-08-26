@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.441931,
+  "balance_sol": 1.446911,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "5WRYktH9wiT33LsnZ7vQxUWWa2QxpQhw3ahUmKS1pump": {
       "symbol": "Pepo",
       "name": "Pepo",
-      "amount": 118040.48911137445,
+      "amount": 59020.244555687226,
       "entry_price_usd": 5.160835104853004e-06,
-      "entry_sol_spent": 0.00625,
+      "entry_sol_spent": 0.003125,
       "entry_time": "2026-08-26T10:46:42.848436+00:00",
       "entry_usd_value": 9.747,
       "entry_signals": {
@@ -1899,19 +1899,30 @@
       "pnl_pct": 52.42,
       "exit_reason": "LLM: sell_half — $Pepo +52.4% — taking half profit per the +50% rule. 1h momentum (+164%) still hot so keeping skin in. Frees slot for fresh launches.",
       "partial": true
+    },
+    {
+      "mint": "5WRYktH9wiT33LsnZ7vQxUWWa2QxpQhw3ahUmKS1pump",
+      "symbol": "Pepo",
+      "name": "Pepo",
+      "amount_sold": 59020.244555687226,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:46:42.848436+00:00",
+      "exit_time": "2026-08-26T10:55:51.340995+00:00",
+      "entry_price_usd": 5.160835104853004e-06,
+      "exit_price_usd": 8.245e-06,
+      "entry_sol_for_chunk": 0.003125,
+      "exit_sol_received": 0.00498,
+      "pnl_sol": 0.001855,
+      "pnl_pct": 59.76,
+      "exit_reason": "LLM: sell_half — +59.8% hits the profit-take zone; 1h move was +176% so momentum is cooling — lock in gains on half, let the rest ride if narrative continues.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-26T10:54:34.052887+00:00",
+  "last_updated": "2026-08-26T10:55:51.341734+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.76,
-  "portfolio_value_usd": 175.79,
+  "last_sol_price_usd": 97.71,
+  "portfolio_value_usd": 175.9,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 10:48 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BUNI at $4.342e-06 | P&L: -49.9%",
-      "reason": "BUNI at -49.9% — sitting on the hard cap line. Cut immediately; the rule cannot be overridden."
-    },
     {
       "time": "2026-08-26 10:48 UTC",
       "action": "sell",
@@ -2025,73 +2036,79 @@
       "action": "buy",
       "details": "[LLM] $COUNTY at $3.66152e-05, spent 0.1 SOL",
       "reason": "$COUNTY at $36.6k mcap with 42% bond progress is the highest-conviction fresh launch — narrative is clean (Pump County meme), it's already attracting volume. Buys the leading edge of attention."
+    },
+    {
+      "time": "2026-08-26 10:55 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Pepo at $8.245e-06 | P&L: +59.8%",
+      "reason": "+59.8% hits the profit-take zone; 1h move was +176% so momentum is cooling — lock in gains on half, let the rest ride if narrative continues."
     }
   ],
   "trade_stats": {
-    "total": 105,
-    "wins": 58,
+    "total": 106,
+    "wins": 59,
     "losses": 47,
-    "win_rate_pct": 55.2,
-    "total_pnl_sol": -0.101818,
-    "avg_pnl_pct": 125.09,
+    "win_rate_pct": 55.7,
+    "total_pnl_sol": -0.099963,
+    "avg_pnl_pct": 124.47,
     "best_pnl_pct": 666.22,
     "worst_pnl_pct": -96.94,
-    "today_trades": 105,
-    "today_realized_sol": -0.101818,
-    "today_target_pct": -25.5,
+    "today_trades": 106,
+    "today_realized_sol": -0.099963,
+    "today_target_pct": -25.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 58,
+      "win_count": 59,
       "loss_count": 47,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T10:54:34.052375+00:00",
+  "last_llm_brief_at": "2026-08-26T10:55:51.340497+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5WRYktH9wiT33LsnZ7vQxUWWa2QxpQhw3ahUmKS1pump": {
-      "price_usd": 7.866e-06,
-      "change_h24": 164.0,
-      "change_h1": 164.0,
+      "price_usd": 8.245e-06,
+      "change_h24": 176.0,
+      "change_h1": 176.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 41999.04,
+      "volume_h24": 45057.66,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "HLD7wcQciQxbUFLi5rVJ26WVkFQEksBkt3MxZSERpump": {
-      "price_usd": 0.000104,
-      "change_h24": 42.31,
-      "change_h1": 42.31,
-      "liquidity_usd": 25152.23,
-      "volume_h24": 72642.27,
+      "price_usd": 0.0001199,
+      "change_h24": 64.09,
+      "change_h1": 64.09,
+      "liquidity_usd": 27190.2,
+      "volume_h24": 105924.39,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
     "3T2baUtZLj6fRGwFCJhziSDA1DSUXfT8Cveamcoppump": {
-      "price_usd": 5.21e-06,
-      "change_h24": 57.96,
-      "change_h1": 57.96,
+      "price_usd": 4.085e-06,
+      "change_h24": 23.87,
+      "change_h1": 23.87,
       "liquidity_usd": 0.0,
-      "volume_h24": 32638.44,
+      "volume_h24": 35035.05,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "9GYsiPc2KRZ6U3GLUFoxwtY8MJYV8mWCTT4sPABnpump": {
-      "price_usd": 6.265e-06,
-      "change_h24": 89.4,
-      "change_h1": 89.4,
-      "liquidity_usd": 0.0,
-      "volume_h24": 5124.0,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "5QuV4Uke8EEB4x6hujwmKYeHa8LJGD4Nj2znmH3Fpump": {
       "price_usd": 2.731e-06,
       "change_h24": -17.41,
       "change_h1": -17.41,
       "liquidity_usd": 0.0,
-      "volume_h24": 3161.1,
+      "volume_h24": 8451.96,
       "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "9Tw2XY5c3L2FgrvFHAFWgpg3KawAr8Y1DdrrU3Tcpump": {
+      "price_usd": 3.897e-05,
+      "change_h24": 8.1,
+      "change_h1": 8.1,
+      "liquidity_usd": 14746.25,
+      "volume_h24": 73684.68,
+      "dex_id": "pumpswap",
       "source": "dexscreener"
     }
   }
