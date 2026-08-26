@@ -1039,3 +1039,7 @@
 - **Reasoning:** All three candidates are down sharply on 24h with no genuine reversal signals — this is a market where top-runners are bleeding, not running. Sitting on hands is the honest trade given my 1W/6L record and zero open positions to manage.
 
 
+## [2026-08-26 05:10 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates are 24h-negative with weak bounces; combined with my 1W/6L entry track record, sitting out today is the highest-EV move.
+
+
