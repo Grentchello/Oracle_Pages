@@ -43,7 +43,7 @@ hide:
     margin-top: 0.5rem;
   }
   .tasks-gate button:hover { background: #0d9488; }
-  .tasks-gate .error { color: #f87171; margin-top: 0.5rem; font-size: 0.9rem; }
+  .tasks-gate .error { color: #f87171; margin-top: 0.5rem; font-size: 0.9rem; min-height: 1.2em; }
   .tasks-gate .hint { color: rgba(255,255,255,0.5); font-size: 0.8rem; margin-top: 0.5rem; }
 
   .task-list { list-style: none; padding: 0; margin: 0; }
@@ -110,9 +110,7 @@ hide:
 
 <script>
 (function() {
-  // Password is checked client-side. To change it, edit this file and rebuild.
-  // The SHA-256 hash of the password is stored, not the password itself.
-  // Default password: "oracle" — change this hash to update!
+  // SHA-256 of password "oracle". Change this hash to update the password.
   const PASSWORD_HASH = "9202af6ce925b26ae6b25adfff0b2705147e195fa38dd58ae6ecc58ed263751f";
 
   async function sha256(text) {
@@ -127,36 +125,33 @@ hide:
 
   function fmtDate(iso) {
     if (!iso) return "";
-    try {
-      return new Date(iso).toLocaleString();
-    } catch (e) { return iso; }
+    try { return new Date(iso).toLocaleString(); } catch (e) { return iso; }
   }
-
   function fmtDateShort(iso) {
     if (!iso) return "";
-    try {
-      return new Date(iso).toLocaleDateString();
-    } catch (e) { return iso; }
+    try { return new Date(iso).toLocaleDateString(); } catch (e) { return iso; }
   }
 
-  async function checkPassword() {
+  async function unlock() {
     const pw = document.getElementById("password-input").value;
-    if (!pw) return;
+    const errEl = document.getElementById("gate-error");
+    if (!pw) { errEl.textContent = "Enter a password"; return; }
     const hash = await sha256(pw);
     if (hash === PASSWORD_HASH) {
+      sessionStorage.setItem("tasks_unlocked", "1");
       document.getElementById("tasks-gate").style.display = "none";
       document.getElementById("tasks-content").style.display = "block";
+      errEl.textContent = "";
       loadTasks();
     } else {
-      // Wrong password — show garbage to make it clear it didn't work
-      document.getElementById("gate-error").textContent = "✗ Wrong password";
+      errEl.textContent = "✗ Wrong password";
       document.getElementById("password-input").value = "";
+      document.getElementById("password-input").focus();
     }
   }
 
   async function loadTasks() {
     try {
-      // Fetch with cache-buster to always get latest
       const r = await fetch("tasks.json?nocache=" + Date.now());
       if (!r.ok) throw new Error("fetch failed: " + r.status);
       const data = await r.json();
@@ -169,7 +164,6 @@ hide:
 
   function renderTasks(data) {
     const tasks = (data.tasks || []).slice().sort((a, b) => {
-      // pending first, then by priority, then by created
       if (a.status !== b.status) return a.status === "pending" ? -1 : 1;
       const priOrder = { high: 0, medium: 1, low: 2 };
       const ap = priOrder[a.priority] ?? 1;
@@ -189,22 +183,15 @@ hide:
       : pending.map(taskHtml).join("");
 
     document.getElementById("done-list").innerHTML = done.length === 0
-      ? ''
-      : done.map(taskHtml).join("");
+      ? '' : done.map(taskHtml).join("");
 
-    if (done.length === 0) {
-      document.getElementById("done-header").style.display = "none";
-    } else {
-      document.getElementById("done-header").style.display = "";
-    }
+    document.getElementById("done-header").style.display = done.length === 0 ? "none" : "";
 
     document.getElementById("last-updated").textContent =
       "Last updated " + fmtDate(data.updated);
 
-    // bind checkboxes
     document.querySelectorAll(".task-check").forEach(cb => {
       cb.addEventListener("change", (e) => {
-        // For v1, this is a visual mark only. Tell Hermes "done with <task>" to actually mark complete.
         const item = e.target.closest(".task-item");
         if (e.target.checked) {
           item.classList.add("done");
@@ -232,13 +219,11 @@ hide:
     </li>`;
   }
 
-  // Bind events
-  document.getElementById("unlock-btn").addEventListener("click", checkPassword);
+  document.getElementById("unlock-btn").addEventListener("click", unlock);
   document.getElementById("password-input").addEventListener("keydown", (e) => {
-    if (e.key === "Enter") checkPassword();
+    if (e.key === "Enter") unlock();
   });
 
-  // Check if already unlocked this session
   if (sessionStorage.getItem("tasks_unlocked") === "1") {
     document.getElementById("tasks-gate").style.display = "none";
     document.getElementById("tasks-content").style.display = "block";
@@ -246,20 +231,5 @@ hide:
   } else {
     document.getElementById("password-input").focus();
   }
-
-  // Save session state on successful unlock
-  const origCheck = checkPassword;
-  window.checkPasswordSave = async function() {
-    const pw = document.getElementById("password-input").value;
-    const hash = await sha256(pw);
-    if (hash === PASSWORD_HASH) {
-      sessionStorage.setItem("tasks_unlocked", "1");
-      origCheck();
-    }
-  };
-
-  // Replace the click handler
-  document.getElementById("unlock-btn").removeEventListener("click", checkPassword);
-  document.getElementById("unlock-btn").addEventListener("click", window.checkPasswordSave);
 })();
 </script>
