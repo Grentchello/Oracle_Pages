@@ -1606,3 +1606,15 @@
 ## [2026-08-26 10:06 UTC] buy | [LLM] $JOJO at $3.20835e-06, spent 0.1 SOL
 - **Reasoning:** $JOJO at $3.2k mcap with 8% bonding. Simple memorable name, fresh attention from @ItsBrave1 tweet. Low entry, high upside if it catches.
 
+## [2026-08-26 10:08 UTC] sell | [FULL][LLM] $doom at $1.071e-06 | P&L: -96.9%
+- **Reasoning:** $doom at -96.9% is essentially dead capital. Should have triggered -50% cap already. Slot better used on fresh attention.
+
+## [2026-08-26 10:08 UTC] sell | [FULL][LLM] $JOJO at $2.693e-06 | P&L: -16.1%
+- **Reasoning:** $JOJO at -16.1% with negative1h/24h momentum. Cutting to redeploy slot into fresher attention with stronger narratives.
+
+## [2026-08-26 10:08 UTC] buy | [LLM] $Meme at $3.45101e-06, spent 0.1 SOL
+- **Reasoning:** $Meme has strongest signal: 11% bond at 0.2min age (early traction leader), meta-narrative about memecoins themselves is exactly the kind of self-referential humor that goes viral, fresh tweet from active account.
+
+## [2026-08-26 10:08 UTC] buy | [LLM] $LATCN at $2.76e-06, spent 0.1 SOL
+- **Reasoning:** $LATCN has Dexerto (3M+ follower gaming media outlet) posting about it - this is institutional-tier attention for a $2.7k mcap. Real media coverage at this stage is rare alpha.
+
