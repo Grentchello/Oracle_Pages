@@ -1063,3 +1063,7 @@
 - **Reasoning:** All three candidates are post-pump decay patterns with negative 24h momentum — exactly the regime where my last 5 trades went 0W/5L; sitting in SOL is the correct defensive posture, no entries today.
 
 
+## [2026-08-26 05:17 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Market read is bearish — every candidate is in a downtrend on 24h with only weak 1h bounces that have historically been sell traps; sitting in cash at 1.96 SOL to protect against the -0.3 SOL daily cap and the 1W/6L streak.
+
+
