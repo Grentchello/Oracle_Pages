@@ -1618,3 +1618,9 @@
 ## [2026-08-26 10:08 UTC] buy | [LLM] $LATCN at $2.76e-06, spent 0.1 SOL
 - **Reasoning:** $LATCN has Dexerto (3M+ follower gaming media outlet) posting about it - this is institutional-tier attention for a $2.7k mcap. Real media coverage at this stage is rare alpha.
 
+## [2026-08-26 10:09 UTC] sell | [FULL][LLM] $LATCN at $2.758e-06 | P&L: -0.1%
+- **Reasoning:** Flat-to-down with 24h -9.8% — this is the weakest held name, drifting while everything else runs. Free the slot for a fresh narrative.
+
+## [2026-08-26 10:09 UTC] buy | [LLM] $HOTPUMP at $9.64e-06, spent 0.1 SOL
+- **Reasoning:** $HOTPUMP — Miami nightlife meme with real twitter handle, highest mcap ($10k) of the new batch, neon-fueled narrative has viral potential. Risk: bond only 33%, may not complete.
+
