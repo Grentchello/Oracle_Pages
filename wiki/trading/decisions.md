@@ -1897,3 +1897,18 @@
 ## [2026-08-26 10:41 UTC] sell | [PARTIAL][LLM] $WDOG at $9.331e-05 | P&L: +491.5%
 - **Reasoning:** +491% but 24h only +140% — huge run in last hour, classic parabolic top risk. Sell half to bank gains, free a slot, keep runner for momentum.
 
+## [2026-08-26 10:42 UTC] sell | [FULL][LLM] $BASIL at $2.953e-06 | P&L: -49.3%
+- **Reasoning:** $BASIL at -49.3% is sitting on the -50% hard cap with no 24h recovery signal — -24.2% across both windows means the bid is gone, not a dip. Cut now, don't let it round-trip to zero.
+
+## [2026-08-26 10:42 UTC] sell | [FULL][LLM] $BLNK at $2.708e-06 | P&L: -18.9%
+- **Reasoning:** $BLNK -18.9% in 6 minutes with 24h already -12.5% — no bounce structure, just slow bleed. Freeing the slot to deploy into fresher attention ($SEYONGPORK at 18% bond curve has real bid).
+
+## [2026-08-26 10:42 UTC] sell | [PARTIAL][LLM] $BUSINESS at $2.681e-05 | P&L: +666.2%
+- **Reasoning:** $BUSINESS +666% is a parabolic move,0.3h old — locking half locks in a ~3.3x winner and lets the rest ride if narrative keeps running. 24h still +677% so momentum is real, not stale.
+
+## [2026-08-26 10:42 UTC] buy | [LLM] $SEYONGPORK at $4.49274e-06, spent 0.1 SOL
+- **Reasoning:** $SEYONGPORK — Korean pork meme is a recognizable viral character identity, 18% bond curve means real SOL is flowing in, $4.5k mcap = ground floor with5-10x room if narrative catches. Best attention-to-mcap ratio in the batch.
+
+## [2026-08-26 10:42 UTC] buy | [LLM] $Youtooz at $3.1513e-06, spent 0.1 SOL
+- **Reasoning:** $Youtooz — Youtooz is a real licensed plushie brand with built-in collector audience, 7% bond = some traction, $3.1k mcap. Brand-IP crossover memecoins historically rip when the audience notices.
+
