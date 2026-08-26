@@ -1,22 +1,20 @@
 #!/usr/bin/env python3
 """
-Memecoin Trading Bot — Phase 2
+Memecoin Trading Bot — v3 (LLM-decided)
 
-Fetches real Solana prices + pump.fun trending tokens, maintains a paper
-portfolio with 2 SOL, takes positions on momentum signals, closes them per
-take-profit / stop-loss / time-stop / slot-pressure rules.
+Replaces rules-based exits with LLM judgment. Entry uses basic gates + LLM review.
+Every decision is logged with the LLM's reasoning — the actual learning artifact.
 
-Run from this script's directory:
-    python3 bot.py
+Run: python3 bot.py
 """
 import json
 import os
 import re
+import subprocess
 import sys
-import time
-import urllib.request
 import urllib.error
-from datetime import datetime, timezone, timedelta
+import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 
 # === Paths ===
@@ -27,38 +25,33 @@ STATE_PATH = WIKI_DIR / "trading" / "state.json"
 DECISIONS_PATH = WIKI_DIR / "trading" / "decisions.md"
 WATCHLIST_PATH = WIKI_DIR / "trading" / "watchlist.json"
 TRADES_PATH = WIKI_DIR / "trading" / "trades.json"
+DECISION_LOG_PATH = WIKI_DIR / "trading" / "decision_log.json"
 
 # === APIs ===
 DEXSCREENER_BASE = "https://api.dexscreener.com/latest/dex"
 PUMPFUN_TOP_RUNNERS = "https://frontend-api-v3.pump.fun/coins/top-runners"
 SOL_MINT = "So11111111111111111111111111111111111111112"
-USDC_MINT = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
 
-# === Strategy parameters ===
-POSITION_SIZE_SOL = 0.1          # SOL per entry
-MAX_POSITIONS = 5                # max concurrent positions
-MIN_LIQUIDITY_USD = 5000         # skip tokens with less liquidity
-MIN_VOLUME_24H_USD = 10000       # skip tokens with less 24h volume
-MIN_PRICE_CHANGE_24H = 0.0       # skip if 24h change is negative
-TAKE_PROFIT_MULT = 1.30          # sell HALF at +30% (partial TP)
-TAKE_PROFIT_FULL_MULT = 1.60     # sell remainder at +60%
-STOP_LOSS_MULT = 0.80            # sell at -20% (tighter — faster exit on losers)
-MAX_HOLD_SECONDS = 12 * 3600     # exit after 12h if neither TP/SL (was 24h)
-MOMENTUM_FADE_MIN_PROFIT = 0.15  # exit on momentum fade if ≥+15% profit
-PRICE_STALE_SECONDS = 1800       # skip tokens whose last trade is >30min old
-MIN_SCORE = 5.0                  # momentum score threshold for entry
+# === Strategy parameters (safeguards — LLM can't override) ===
+POSITION_SIZE_SOL = 0.1
+MAX_POSITIONS = 5
+MIN_LIQUIDITY_USD = 5000
+MIN_VOLUME_24H_USD = 10000
+MAX_HOLD_HOURS = 72          # hard max — even LLM can't hold forever
+DAILY_MAX_LOSS_SOL = 0.3      # if today's realized < -0.3 SOL, no new entries
+RESERVE_SOL = 0.1             # never go below this in SOL — keep some dry powder
 
-# === Daily target ===
-DAILY_TARGET_PNL_PCT = 20.0     # % target for paper portfolio in 24h
-PARTIAL_TP_FRACTION = 0.5        # sell 50% at first TP
+# === LLM config ===
+HERMES_CLI = "/opt/hermes/.venv/bin/hermes"
+LLM_TIMEOUT_SECONDS = 90
 
 # === Network ===
 TIMEOUT = 15
-USER_AGENT = "oracle-vault-memecoin-bot/0.2"
+USER_AGENT = "oracle-vault-memecoin-bot/3.0"
 
 
 # =====================================================================
-# Utilities
+# Utilities (unchanged)
 # =====================================================================
 
 def _to_float(v, default=0.0):
@@ -93,7 +86,6 @@ def parse_iso(s):
     if not s:
         return None
     try:
-        # Handle trailing Z
         if s.endswith("Z"):
             s = s[:-1] + "+00:00"
         return datetime.fromisoformat(s)
@@ -102,23 +94,24 @@ def parse_iso(s):
 
 
 # =====================================================================
-# Data fetchers
+# Data fetchers (unchanged)
 # =====================================================================
 
 def fetch_sol_price_usd():
-    """SOL price in USD via DexScreener (highest-liquidity Solana pool)."""
-    url = f"{DEXSCREENER_BASE}/tokens/{SOL_MINT}"
-    data = http_get_json(url)
-    pairs = [p for p in (data.get("pairs") or [])
-             if p.get("chainId") == "solana" and _to_float(p.get("priceUsd")) > 0]
-    if not pairs:
+    try:
+        data = http_get_json(f"{DEXSCREENER_BASE}/tokens/{SOL_MINT}")
+        pairs = [p for p in (data.get("pairs") or [])
+                 if p.get("chainId") == "solana" and _to_float(p.get("priceUsd")) > 0]
+        if not pairs:
+            return None
+        pairs.sort(key=lambda p: _to_float((p.get("liquidity") or {}).get("usd")), reverse=True)
+        return _to_float(pairs[0]["priceUsd"])
+    except Exception as e:
+        log(f"WARN: SOL price fetch failed: {e}")
         return None
-    pairs.sort(key=lambda p: _to_float((p.get("liquidity") or {}).get("usd")), reverse=True)
-    return _to_float(pairs[0]["priceUsd"])
 
 
 def fetch_pumpfun_top_runners(limit=30):
-    """Top trending tokens from pump.fun frontend API (no auth)."""
     try:
         data = http_get_json(PUMPFUN_TOP_RUNNERS)
         items = data if isinstance(data, list) else data.get("coins", [])
@@ -133,25 +126,22 @@ def fetch_pumpfun_top_runners(limit=30):
                 "symbol": coin.get("symbol", "?"),
                 "name": coin.get("name", "?"),
                 "market_cap_usd": _to_float(coin.get("usd_market_cap") or coin.get("market_cap_usd")),
-                "last_trade_ts": coin.get("last_trade_timestamp"),
-                "complete": coin.get("complete", False),  # graduated to PumpSwap/Raydium
                 "ath_market_cap_usd": _to_float(coin.get("ath_market_cap")),
-                "source": "pump.fun top-runners",
+                "last_trade_ts": coin.get("last_trade_timestamp"),
+                "complete": coin.get("complete", False),
             })
         return out
-    except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as e:
+    except Exception as e:
         log(f"WARN: pump.fun fetch failed: {e}")
         return []
 
 
 def fetch_dexscreener_for_mints(mints):
-    """Fetch DexScreener pair data for a list of mints. Returns mint -> pair."""
     out = {}
     if not mints:
         return out
     try:
-        url = f"{DEXSCREENER_BASE}/tokens/{','.join(mints[:30])}"
-        data = http_get_json(url)
+        data = http_get_json(f"{DEXSCREENER_BASE}/tokens/{','.join(mints[:30])}")
         for pair in data.get("pairs") or []:
             mint = pair.get("baseToken", {}).get("address")
             if not mint:
@@ -161,32 +151,35 @@ def fetch_dexscreener_for_mints(mints):
             existing_liq = _to_float((existing.get("liquidity") or {}).get("usd")) if existing else 0
             if existing is None or new_liq > existing_liq:
                 out[mint] = pair
-    except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError) as e:
+    except Exception as e:
         log(f"WARN: DexScreener fetch failed: {e}")
     return out
 
 
 # =====================================================================
-# State persistence
+# State
 # =====================================================================
 
 def load_state():
     if not STATE_PATH.exists():
-        return _fresh_state()
+        return {
+            "balance_sol": 2.0,
+            "positions": {},
+            "trades": [],
+            "bot_version": "3.0-llm",
+        }
     try:
         return json.loads(STATE_PATH.read_text())
-    except (json.JSONDecodeError, OSError):
-        log("WARN: state.json unreadable, starting fresh")
+    except Exception:
         return _fresh_state()
 
 
 def _fresh_state():
     return {
         "balance_sol": 2.0,
-        "starting_balance_sol": 2.0,
-        "positions": {},      # mint -> {amount, entry_price_usd, entry_time, entry_signals, symbol, name}
-        "trades": [],         # closed trades (newest last)
-        "bot_version": "0.2.0-trading",
+        "positions": {},
+        "trades": [],
+        "bot_version": "3.0-llm",
     }
 
 
@@ -195,34 +188,48 @@ def save_state(state):
     STATE_PATH.write_text(json.dumps(state, indent=2, ensure_ascii=False))
 
 
-def save_trades_log(state):
-    """Persist trade ledger separately for easy history viewing."""
-    TRADES_PATH.parent.mkdir(parents=True, exist_ok=True)
-    TRADES_PATH.write_text(json.dumps(state.get("trades", []), indent=2, ensure_ascii=False))
-
-
 def append_decision(decision):
-    """Append a decision line to decisions.md (the human-readable log)."""
     DECISIONS_PATH.parent.mkdir(parents=True, exist_ok=True)
     if not DECISIONS_PATH.exists():
         DECISIONS_PATH.write_text(
             "# Bot Decisions Log\n\n"
-            "> Append-only log of every bot decision. Each line is one observation/thought/action.\n"
-            "> Format: `## [YYYY-MM-DD HH:MM UTC] <action> | <details>`\n\n"
+            "> v3 — LLM-decided trading. Each entry shows bot action + reasoning.\n\n"
         )
     ts = now_utc().strftime("%Y-%m-%d %H:%M UTC")
-    line = f"## [{ts}] {decision['action']} | {decision['details']}\n"
+    line = f"## [{ts}] {decision['action']} | {decision.get('details', '')}\n"
     if decision.get("reason"):
-        line += f"- Reasoning: {decision['reason']}\n"
+        line += f"- **Reasoning:** {decision['reason']}\n"
+    if decision.get("model"):
+        line += f"- Model: {decision['model']}"
     if decision.get("data"):
-        line += f"- Data: `{json.dumps(decision['data'])}`\n"
-    line += "\n"
+        line += f"\n- Data: `{json.dumps(decision['data'], ensure_ascii=False)[:500]}`"
+    line += "\n\n"
     with open(DECISIONS_PATH, "a") as f:
         f.write(line)
 
 
+def log_full_decision(prompt, response, action, target):
+    """Persist full LLM call for later review."""
+    log_data = []
+    if DECISION_LOG_PATH.exists():
+        try:
+            log_data = json.loads(DECISION_LOG_PATH.read_text())
+        except Exception:
+            log_data = []
+    log_data.append({
+        "time": iso_now(),
+        "target": target,
+        "action": action,
+        "prompt": prompt[:2000],
+        "response": response[:2000],
+    })
+    # Keep last 100
+    log_data = log_data[-100:]
+    DECISION_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    DECISION_LOG_PATH.write_text(json.dumps(log_data, indent=2, ensure_ascii=False))
+
+
 def load_recent_decisions(max_n=20):
-    """Parse last N decisions from decisions.md (for the dashboard bundle)."""
     if not DECISIONS_PATH.exists():
         return []
     text = DECISIONS_PATH.read_text()
@@ -240,7 +247,7 @@ def load_recent_decisions(max_n=20):
                 "reason": "",
             }
         elif current:
-            rm = re.match(r"^- Reasoning: (.*)$", line)
+            rm = re.match(r"^- \*\*Reasoning:\*\* (.*)$", line)
             if rm:
                 current["reason"] = rm.group(1)
     if current:
@@ -248,12 +255,7 @@ def load_recent_decisions(max_n=20):
     return decisions[-max_n:]
 
 
-# =====================================================================
-# Watchlist + portfolio valuation
-# =====================================================================
-
 def build_watchlist_state(sol_price, top_runners, dex_data):
-    """Build a watchlist snapshot for the dashboard."""
     enriched = []
     for entry in top_runners:
         mint = entry["mint"]
@@ -264,9 +266,9 @@ def build_watchlist_state(sol_price, top_runners, dex_data):
             entry["liquidity_usd"] = (pair.get("liquidity") or {}).get("usd")
             entry["volume_h24"] = (pair.get("volume") or {}).get("h24")
             entry["price_change_h24"] = (pair.get("priceChange") or {}).get("h24")
+            entry["price_change_h1"] = (pair.get("priceChange") or {}).get("h1")
+            entry["price_change_m5"] = (pair.get("priceChange") or {}).get("m5")
             entry["pair_url"] = pair.get("url")
-            entry["dex_id"] = pair.get("dexId")
-            entry["pair_address"] = pair.get("pairAddress")
         enriched.append(entry)
     return {
         "fetched_at": iso_now(),
@@ -282,634 +284,501 @@ def compute_portfolio_value(state, sol_price, dex_data):
         if pair and _to_float(pair.get("priceUsd")) > 0:
             positions_value_usd += pos["amount"] * _to_float(pair["priceUsd"])
         elif pos.get("entry_price_usd"):
-            # Use entry price as last resort (we still hold it but no live price)
             positions_value_usd += pos["amount"] * pos["entry_price_usd"]
     sol_value = state.get("balance_sol", 0) * sol_price
-    total = sol_value + positions_value_usd
     return {
         "sol_balance_value_usd": round(sol_value, 2),
         "positions_value_usd": round(positions_value_usd, 2),
-        "total_value_usd": round(total, 2),
+        "total_value_usd": round(sol_value + positions_value_usd, 2),
     }
 
 
+def compute_today_realized_pnl(state):
+    today = now_utc().date()
+    total = 0.0
+    for t in state.get("trades", []):
+        exit_dt = parse_iso(t.get("exit_time"))
+        if exit_dt and exit_dt.date() == today:
+            total += _to_float(t.get("pnl_sol", 0))
+    return round(total, 6)
+
+
 # =====================================================================
-# Strategy: entry signals
+# LLM — the new brain
 # =====================================================================
 
-def evaluate_entry_signals(token, pair, now):
-    """
-    Returns (passes: bool, reason: str, score: float, components: dict).
-
-    Scoring (higher = stronger momentum, more likely to enter):
-      base          = 24h price change %
-      velocity      = how recently the token traded (recency bonus)
-      vol_liq_ratio = vol24h / liquidity (turnover intensity)
-      mcap_velocity = mcap relative to ATH — recent movers haven't dumped yet
-      liquidity_bonus = log(liquidity) — bigger pools are safer
-
-    Score must exceed MIN_SCORE to be entered.
-    """
-    if not pair:
-        return False, "no DexScreener pair data", 0, {}
-    price_usd = _to_float(pair.get("priceUsd"))
-    if price_usd <= 0:
-        return False, "no USD price", 0, {}
-    liq = _to_float((pair.get("liquidity") or {}).get("usd"))
-    vol24 = _to_float((pair.get("volume") or {}).get("h24"))
-    chg24 = _to_float((pair.get("priceChange") or {}).get("h24"))
-    chg1h = _to_float((pair.get("priceChange") or {}).get("h1"))
-    chg5m = _to_float((pair.get("priceChange") or {}).get("m5"))
-    last_trade_ts = token.get("last_trade_ts")
-    age_min = None
-    if last_trade_ts:
-        age_sec = (now.timestamp() * 1000 - last_trade_ts) / 1000
-        age_min = age_sec / 60
-        if age_sec > PRICE_STALE_SECONDS:
-            return False, f"stale price ({age_min:.0f}min old)", 0, {}
-
-    if liq < MIN_LIQUIDITY_USD:
-        return False, f"low liquidity ${liq:.0f} < ${MIN_LIQUIDITY_USD}", 0, {}
-    if vol24 < MIN_VOLUME_24H_USD:
-        return False, f"low 24h volume ${vol24:.0f} < ${MIN_VOLUME_24H_USD}", 0, {}
-    if chg24 < MIN_PRICE_CHANGE_24H:
-        return False, f"negative 24h change {chg24:.1f}%", 0, {}
-
-    # Velocity — fresh trades = active token
-    recency_bonus = 0
-    if age_min is not None:
-        if age_min < 5:
-            recency_bonus = 10      # actively trading right now
-        elif age_min < 30:
-            recency_bonus = 5
-        elif age_min < 120:
-            recency_bonus = 2
-
-    # Vol/liq ratio — high turnover = real interest (cap to avoid absurd scores)
-    vol_liq_ratio = (vol24 / liq) if liq > 0 else 0
-    turnover_bonus = min(vol_liq_ratio * 3, 15)  # cap at 15
-
-    # Recent momentum — 1h and 5m changes (very aggressive boost if pumping hard now)
-    short_momentum = max(chg1h * 0.5, chg5m * 2) if chg1h is not None or chg5m is not None else 0
-
-    score = chg24 + recency_bonus + turnover_bonus + short_momentum
-
-    components = {
-        "chg24": chg24,
-        "chg1h": chg1h,
-        "chg5m": chg5m,
-        "liquidity_usd": liq,
-        "volume_24h_usd": vol24,
-        "vol_liq_ratio": round(vol_liq_ratio, 2),
-        "recency_min": round(age_min, 1) if age_min else None,
-        "score_breakdown": {
-            "base_24h": chg24,
-            "recency_bonus": recency_bonus,
-            "turnover_bonus": round(turnover_bonus, 1),
-            "short_momentum": round(short_momentum, 1),
-            "total": round(score, 1),
-        }
-    }
-
-    if score < MIN_SCORE:
-        return False, f"score {score:.1f} below threshold {MIN_SCORE}", score, components
-
-    return True, "all gates passed", score, components
+def call_llm(prompt, max_seconds=LLM_TIMEOUT_SECONDS):
+    """Call the gateway's LLM. Returns raw text response or raises."""
+    try:
+        result = subprocess.run(
+            [HERMES_CLI, "chat", "-q", prompt, "-Q",
+             "--max-turns", "1", "--run-budget", str(max_seconds),
+             "--ignore-rules", "--safe-mode",  # skip extra tool loading
+             "-t", "terminal",  # only need terminal for tool access
+             ],
+            capture_output=True, text=True, timeout=max_seconds + 30,
+        )
+        if result.returncode != 0:
+            raise RuntimeError(f"hermes chat failed (rc={result.returncode}): {result.stderr[:300]}")
+        return result.stdout.strip()
+    except subprocess.TimeoutExpired:
+        raise RuntimeError(f"LLM call timed out after {max_seconds}s")
 
 
-def find_entry_candidate(state, watchlist, now):
-    """Return (mint, signal_data) for the best entry, or (None, reason)."""
-    held_mints = set(state.get("positions", {}).keys())
-    available_slots = MAX_POSITIONS - len(held_mints)
-    if available_slots <= 0:
-        return None, "max positions held"
+def extract_json(text):
+    """Find JSON in LLM output (handles ```json blocks, surrounding prose)."""
+    # Try direct parse
+    try:
+        return json.loads(text)
+    except Exception:
+        pass
+    # Try code-fence
+    m = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
+    if m:
+        try:
+            return json.loads(m.group(1))
+        except Exception:
+            pass
+    # Try to find first { ... last }
+    start = text.find("{")
+    end = text.rfind("}")
+    if start != -1 and end > start:
+        try:
+            return json.loads(text[start:end + 1])
+        except Exception:
+            pass
+    return None
+
+
+# =====================================================================
+# Decisions — the LLM makes them
+# =====================================================================
+
+def build_decision_prompt(state, sol_price, watchlist_data, portfolio_value, today_pnl):
+    """Build the prompt for the LLM to make entry + exit decisions."""
+    positions = state.get("positions", {})
+    held = []
+    for mint, pos in positions.items():
+        token = next((t for t in watchlist_data["tokens"] if t["mint"] == mint), None)
+        if not token:
+            continue
+        cur_price = _to_float(token.get("price_usd"))
+        entry_price = _to_float(pos.get("entry_price_usd"))
+        if cur_price > 0 and entry_price > 0:
+            pnl_pct = (cur_price / entry_price - 1) * 100
+        else:
+            pnl_pct = 0
+        held_hours = 0
+        if pos.get("entry_time"):
+            held_hours = (now_utc() - parse_iso(pos["entry_time"])).total_seconds() / 3600
+        held.append({
+            "symbol": pos.get("symbol"),
+            "mint": mint[:8] + "…",
+            "amount_tokens": pos.get("amount"),
+            "entry_price_usd": entry_price,
+            "current_price_usd": cur_price,
+            "pnl_pct": round(pnl_pct, 1),
+            "held_hours": round(held_hours, 1),
+            "chg_24h": token.get("price_change_h24"),
+            "chg_1h": token.get("price_change_h1"),
+            "liquidity_usd": token.get("liquidity_usd"),
+            "volume_24h_usd": token.get("volume_h24"),
+            "mcap_usd": token.get("market_cap_usd"),
+            "ath_mcap_usd": token.get("ath_market_cap_usd"),
+        })
+
+    # Candidate entries — only show ones passing basic gates
+    held_mints = set(positions.keys())
+    candidates = []
+    for token in watchlist_data.get("tokens", []):
+        if token["mint"] in held_mints:
+            continue
+        liq = _to_float(token.get("liquidity_usd"))
+        vol = _to_float(token.get("volume_h24"))
+        chg24 = _to_float(token.get("price_change_h24"))
+        if liq < MIN_LIQUIDITY_USD or vol < MIN_VOLUME_24H_USD or chg24 < 0:
+            continue
+        candidates.append({
+            "symbol": token.get("symbol"),
+            "name": token.get("name"),
+            "mint": token.get("mint", "")[:8] + "…",
+            "price_usd": _to_float(token.get("price_usd")),
+            "chg_24h": chg24,
+            "chg_1h": _to_float(token.get("price_change_h1")),
+            "liquidity_usd": liq,
+            "volume_24h_usd": vol,
+            "mcap_usd": _to_float(token.get("market_cap_usd")),
+            "ath_mcap_usd": _to_float(token.get("ath_market_cap_usd")),
+        })
+    candidates = candidates[:8]  # top 8 by some metric — let LLM sort
+
+    # Stats
+    trades = state.get("trades", [])
+    recent_trades = trades[-5:] if trades else []
+    wins = sum(1 for t in trades if _to_float(t.get("pnl_sol", 0)) > 0)
+    losses = len(trades) - wins
+
+    prompt = f"""You are a memecoin trading bot. Manage a 2 SOL paper portfolio. Be honest and skeptical.
+
+# Current state
+- SOL free: {state.get('balance_sol', 0):.4f} SOL (${state.get('balance_sol', 0) * sol_price:.2f})
+- Open positions: {len(held)}/{MAX_POSITIONS}
+- Total portfolio: ${portfolio_value['total_value_usd']:.2f}
+- Today's realized P&L: {today_pnl:+.4f} SOL
+- Daily target: +20% (0.4 SOL). Daily loss cap: -{DAILY_MAX_LOSS_SOL} SOL (no new entries if exceeded)
+- All-time: {len(trades)} trades, {wins}W/{losses}L
+
+# Recent trades (last 5)
+""" + "\n".join([
+        f"  {t.get('symbol')} {t.get('pnl_pct', 0):+.1f}% via {t.get('exit_reason', '?')[:40]} — {(t.get('post_mortem') or {}).get('diagnosis', '')[:100]}"
+        for t in recent_trades
+    ]) + "\n\n"
+
+    if held:
+        prompt += "# Held positions (decide: hold / sell-all / sell-half)\n"
+        for h in held:
+            prompt += f"- ${h['symbol']} ({h['mint']}) entry ${h['entry_price_usd']:.6g} now ${h['current_price_usd']:.6g} = {h['pnl_pct']:+.1f}%, held {h['held_hours']:.1f}h, 24h_chg={h['chg_24h']}%, 1h_chg={h['chg_1h']}%, liq=${h['liquidity_usd']:.0f}, vol24=${h['volume_24h_usd']:.0f}, mcap=${h['mcap_usd']:.0f} (ATH ${h['ath_mcap_usd']:.0f})\n"
+        prompt += "\n"
+
+    if candidates:
+        prompt += "# Entry candidates (decide: buy / skip). All pump.fun top-runners. SOL price: $" + f"{sol_price:.2f}\n"
+        for c in candidates:
+            mcap_ratio = c['mcap_usd'] / c['ath_mcap_usd'] if c['ath_mcap_usd'] else 0
+            prompt += f"- ${c['symbol']} ({c['mint']}) {c['name']} — ${c['price_usd']:.6g}, 24h={c['chg_24h']:+.1f}%, 1h={c['chg_1h']:+.1f}%, liq=${c['liquidity_usd']:.0f}, vol=${c['volume_24h_usd']:.0f}, mcap=${c['mcap_usd']:.0f} (ATH ${c['ath_mcap_usd']:.0f}, currently {mcap_ratio*100:.0f}% of ATH)\n"
+        prompt += "\n"
+
+    prompt += f"""# Your call
+
+Rules of engagement (HARD limits, not negotiable):
+- Each position is 0.1 SOL. You can hold up to {MAX_POSITIONS} positions.
+- No new buys if today_pnl < -{DAILY_MAX_LOSS_SOL} SOL.
+- No new buys if balance_sol would drop below {RESERVE_SOL} SOL after entry.
+- A position can be held up to {MAX_HOLD_HOURS} hours max (hard limit).
+- A token's price can drop 90% in minutes on memecoins. There are NO safe stop-losses.
+- Real signal > top-runner hype. "Trending" often means smart money already exited.
+- A 24h gain of 30%+ on a small-cap usually means it's pumped already. Be skeptical of late entries.
+- Volume + liquidity matter for being able to exit. <$5k liq = stuck.
+
+Output ONLY valid JSON in this exact shape:
+{{
+  "exit_decisions": [
+    {{"mint": "<full mint from held position, or skip if no held positions>", "action": "hold|sell_all|sell_half", "reasoning": "<1-2 sentences, honest, specific to the data>"}}
+  ],
+  "entry_decisions": [
+    {{"mint": "<full mint from candidates, or skip>", "action": "buy|skip", "reasoning": "<1-2 sentences>"}}
+  ],
+  "summary": "<one sentence on overall market read and what you're doing>"
+}}
+
+Be aggressive when signals support it, defensive when they don't. No token is "definitely going up." Don't paper over losses.
+"""
+    return prompt, held, candidates
+
+
+def get_llm_decisions(prompt):
+    """Call LLM, parse response, return decision list."""
+    response = call_llm(prompt)
+    parsed = extract_json(response)
+    if not parsed:
+        return None, response, "could not parse JSON"
+    if not isinstance(parsed, dict):
+        return None, response, "JSON not an object"
+    return parsed, response, None
+
+
+# =====================================================================
+# Execution
+# =====================================================================
+
+def execute_buy(state, mint, token, price_usd, sol_price):
+    """Open a paper position. Returns position dict or (False, reason)."""
+    if state.get("balance_sol", 0) - POSITION_SIZE_SOL < RESERVE_SOL:
+        return False, f"would breach reserve ({RESERVE_SOL} SOL)"
     if state.get("balance_sol", 0) < POSITION_SIZE_SOL:
-        return None, f"insufficient SOL ({state.get('balance_sol', 0):.3f} < {POSITION_SIZE_SOL})"
+        return False, "insufficient SOL"
 
-    best = None
-    best_score = -1e9
-    best_reason = ""
-    best_token = None
-    best_components = {}
-    considered = 0
-
-    for token in watchlist.get("tokens", []):
-        mint = token.get("mint")
-        if not mint or mint in held_mints:
-            continue
-        pair = {
-            "priceUsd": token.get("price_usd"),
-            "liquidity": {"usd": token.get("liquidity_usd")},
-            "volume": {"h24": token.get("volume_h24")},
-            "priceChange": {"h24": token.get("price_change_h24")},
-        }
-        passes, reason, score, components = evaluate_entry_signals(token, pair, now)
-        considered += 1
-        if not passes:
-            continue
-        if score > best_score:
-            best = mint
-            best_score = score
-            best_reason = reason
-            best_token = token
-            best_components = components
-
-    if best is None:
-        return None, f"no candidate passed gates (considered {considered})"
-    return best, {"reason": best_reason, "score": best_score, "token": best_token, "components": best_components}
-
-
-# =====================================================================
-# Strategy: exit signals
-# =====================================================================
-
-def evaluate_exit(position, current_price_usd, current_change_24h, now):
-    """
-    Return (should_exit: bool, reason: str, pnl_pct: float, action: str, fraction: float).
-
-    action: 'full' = sell all, 'partial' = sell PARTIAL_TP_FRACTION
-    """
-    entry_price = position["entry_price_usd"]
-    if not entry_price or current_price_usd is None:
-        return False, "no price data", 0.0, "hold", 0.0
-
-    pnl_mult = current_price_usd / entry_price
-    pnl_pct = (pnl_mult - 1.0) * 100.0
-
-    # Has this position already taken a partial profit?
-    partial_taken = position.get("partial_tp_taken", False)
-
-    # Full take-profit on the remaining position
-    if partial_taken and pnl_mult >= TAKE_PROFIT_FULL_MULT:
-        return True, f"full-take-profit (+{(pnl_mult-1)*100:.1f}%)", pnl_pct, "full", 1.0
-
-    # First partial take-profit
-    if not partial_taken and pnl_mult >= TAKE_PROFIT_MULT:
-        return True, f"partial-take-profit (+{(pnl_mult-1)*100:.1f}%)", pnl_pct, "partial", PARTIAL_TP_FRACTION
-
-    # Stop loss — always full exit
-    if pnl_mult <= STOP_LOSS_MULT:
-        return True, f"stop-loss ({(pnl_mult-1)*100:.1f}%)", pnl_pct, "full", 1.0
-
-    # Time stop
-    entry_time = parse_iso(position.get("entry_time"))
-    if entry_time:
-        held_for = (now - entry_time).total_seconds()
-        if held_for >= MAX_HOLD_SECONDS:
-            return True, f"time-stop ({held_for/3600:.1f}h held)", pnl_pct, "full", 1.0
-
-    # Momentum fade — exit if 24h change has flipped negative AND we're in profit
-    if current_change_24h is not None and current_change_24h < 0 and pnl_pct >= MOMENTUM_FADE_MIN_PROFIT * 100:
-        return True, f"momentum-fade (+{pnl_pct:.1f}% locked, 24h now {current_change_24h:.1f}%)", pnl_pct, "full", 1.0
-
-    return False, "hold", pnl_pct, "hold", 0.0
-
-
-# =====================================================================
-# Trade execution (paper)
-# =====================================================================
-
-def execute_buy(state, mint, token, price_usd, now):
-    """Open a new position, debit SOL balance."""
-    sol_cost = POSITION_SIZE_SOL
-    token_amount = sol_cost / (price_usd / _to_float(state.get("last_sol_price_usd", price_usd)))
-    # Simpler: token_amount in token units, valued in USD at entry
-    # Actually we want: amount = how many tokens we got with `sol_cost` SOL
-    # At SOL price `sol_price` per SOL, that's `sol_cost * sol_price` USD
-    # At token price `price_usd` per token, that's `sol_cost * sol_price / price_usd` tokens
-    sol_price_usd = _to_float(state.get("last_sol_price_usd", 0))
-    if sol_price_usd <= 0:
-        sol_price_usd = price_usd  # fallback shouldn't happen
-    usd_value = sol_cost * sol_price_usd
+    sol_price_usd = sol_price
+    usd_value = POSITION_SIZE_SOL * sol_price_usd
     token_amount = usd_value / price_usd if price_usd > 0 else 0
-
     if token_amount <= 0:
-        return False, "could not size position (price 0)"
-
-    if state.get("balance_sol", 0) < sol_cost:
-        return False, f"insufficient SOL ({state.get('balance_sol'):.3f} < {sol_cost})"
+        return False, "could not size position"
 
     position = {
         "symbol": token.get("symbol", "?"),
         "name": token.get("name", "?"),
         "amount": token_amount,
         "entry_price_usd": price_usd,
-        "entry_sol_spent": sol_cost,
+        "entry_sol_spent": POSITION_SIZE_SOL,
         "entry_time": iso_now(),
         "entry_usd_value": usd_value,
         "entry_signals": {
             "liquidity_usd": token.get("liquidity_usd"),
-            "volume_h24": token.get("volume_h24"),
-            "price_change_h24": token.get("price_change_h24"),
+            "volume_24h_usd": token.get("volume_24h_usd"),
+            "price_change_24h": token.get("price_change_h24"),
+            "price_change_1h": token.get("price_change_h1"),
             "market_cap_usd": token.get("market_cap_usd"),
+            "ath_market_usd": token.get("ath_market_cap_usd"),
         },
+        "llm_entry": True,  # marker that LLM approved
     }
     state["positions"][mint] = position
-    state["balance_sol"] = round(state.get("balance_sol", 0) - sol_cost, 6)
-    return True, position
+    state["balance_sol"] = round(state["balance_sol"] - POSITION_SIZE_SOL, 6)
+    return position, None
 
 
-def execute_sell(state, mint, price_usd, reason, now, fraction=1.0,
-                exit_signals=None, holding_seconds=None):
-    """
-    Close a position (full or partial), credit SOL balance, append to trades ledger.
-    For partial sells, the position stays open with reduced amount.
-
-    fraction: 1.0 = sell all, 0.5 = sell half (leaves rest open)
-    exit_signals: dict with current market data at exit (for post-mortem)
-    """
+def execute_sell(state, mint, price_usd, fraction, reason):
+    """Sell fraction of position. Returns trade dict."""
     pos = state["positions"].get(mint)
     if not pos:
-        return False, "no such position"
-
-    sol_price_usd = _to_float(state.get("last_sol_price_usd", 0))
-
-    # Compute sell amount based on fraction
-    total_amount = pos["amount"]
-    sell_amount = total_amount * fraction
-    remaining_amount = total_amount - sell_amount
-
-    usd_value_at_exit = sell_amount * price_usd
-    sol_proceeds = usd_value_at_exit / sol_price_usd if sol_price_usd > 0 else 0
-
-    # For PnL attribution, split the original entry cost proportionally
-    entry_sol_total = pos["entry_sol_spent"]
-    entry_sol_for_this_chunk = entry_sol_total * fraction
-    pnl_sol = sol_proceeds - entry_sol_for_this_chunk
-    pnl_pct = (price_usd / pos["entry_price_usd"] - 1.0) * 100.0 if pos["entry_price_usd"] > 0 else 0.0
+        return None
+    sol_price_usd = state.get("last_sol_price_usd", 0)
+    sell_amount = pos["amount"] * fraction
+    entry_sol_chunk = pos["entry_sol_spent"] * fraction
+    usd_at_exit = sell_amount * price_usd
+    sol_proceeds = usd_at_exit / sol_price_usd if sol_price_usd > 0 else 0
+    pnl_sol = sol_proceeds - entry_sol_chunk
+    pnl_pct = (price_usd / pos["entry_price_usd"] - 1) * 100 if pos["entry_price_usd"] > 0 else 0
 
     trade = {
         "mint": mint,
-        "symbol": pos.get("symbol", "?"),
-        "name": pos.get("name", "?"),
+        "symbol": pos.get("symbol"),
+        "name": pos.get("name"),
         "amount_sold": sell_amount,
         "fraction_sold": fraction,
         "entry_time": pos.get("entry_time"),
         "exit_time": iso_now(),
         "entry_price_usd": pos["entry_price_usd"],
         "exit_price_usd": price_usd,
-        "entry_sol_for_chunk": round(entry_sol_for_this_chunk, 6),
+        "entry_sol_for_chunk": round(entry_sol_chunk, 6),
         "exit_sol_received": round(sol_proceeds, 6),
         "pnl_sol": round(pnl_sol, 6),
         "pnl_pct": round(pnl_pct, 2),
-        "exit_reason": reason,
-        "entry_signals": pos.get("entry_signals", {}),
-        "exit_signals": exit_signals or {},
-        "holding_seconds": holding_seconds,
-        "partial": fraction < 1.0,
-        "post_mortem": generate_post_mortem(pos, price_usd, reason, exit_signals, holding_seconds, fraction),
+        "exit_reason": reason[:200],
+        "partial": fraction < 0.999,
     }
     state["trades"].append(trade)
-    state["balance_sol"] = round(state.get("balance_sol", 0) + sol_proceeds, 6)
+    state["balance_sol"] = round(state["balance_sol"] + sol_proceeds, 6)
 
     if fraction >= 0.999:
-        # Full exit — remove position
         del state["positions"][mint]
     else:
-        # Partial exit — update remaining amount + mark partial TP taken
-        pos["amount"] = remaining_amount
-        pos["partial_tp_taken"] = True
-        pos["entry_sol_spent"] = entry_sol_total * (1 - fraction)  # remaining cost basis
-
-    return True, trade
-
-
-def generate_post_mortem(position, exit_price, exit_reason, exit_signals, holding_seconds, fraction):
-    """
-    Generate a structured post-mortem explaining why this trade performed as it did.
-    Compares entry signals to exit signals to identify what changed.
-    """
-    entry_signals = position.get("entry_signals", {})
-    entry_price = position["entry_price_usd"]
-    pnl_pct = (exit_price / entry_price - 1) * 100 if entry_price > 0 else 0
-
-    # What we thought vs what happened
-    entry_chg = entry_signals.get("price_change_h24", "?")
-    exit_chg = exit_signals.get("price_change_h24", "?")
-    entry_liq = entry_signals.get("liquidity_usd", "?")
-    exit_liq = exit_signals.get("liquidity_usd", "?")
-    entry_vol = entry_signals.get("volume_h24", "?")
-    exit_vol = exit_signals.get("volume_h24", "?")
-
-    diagnosis_parts = []
-    if pnl_pct > 0:
-        diagnosis_parts.append(f"WIN — captured +{pnl_pct:.1f}% via {exit_reason}")
-    else:
-        diagnosis_parts.append(f"LOSS — exited at {pnl_pct:.1f}% via {exit_reason}")
-
-    # Was our entry thesis correct?
-    if entry_chg != "?" and exit_chg != "?":
-        try:
-            if float(entry_chg) > 20 and pnl_pct > 0:
-                diagnosis_parts.append("high-momentum entry thesis worked")
-            elif float(entry_chg) > 20 and pnl_pct < 0:
-                diagnosis_parts.append("HIGH-MOMENTUM BUT REVERSED — entered too late, smart money already exiting")
-            elif float(entry_chg) < 10 and pnl_pct < 0:
-                diagnosis_parts.append("weak momentum didn't sustain — entry signal too soft")
-        except (ValueError, TypeError):
-            pass
-
-    if exit_liq != "?" and entry_liq != "?":
-        try:
-            liq_drop_pct = (float(entry_liq) - float(exit_liq)) / float(entry_liq) * 100 if float(entry_liq) > 0 else 0
-            if liq_drop_pct > 30:
-                diagnosis_parts.append(f"liquidity dropped {liq_drop_pct:.0f}% — rug pull risk materializing")
-        except (ValueError, TypeError):
-            pass
-
-    if holding_seconds is not None:
-        hours = holding_seconds / 3600
-        if hours > 12 and abs(pnl_pct) < 10:
-            diagnosis_parts.append(f"held {hours:.1f}h with no clear direction — should have exited earlier")
-
-    return {
-        "diagnosis": ". ".join(diagnosis_parts),
-        "entry_vs_exit": {
-            "chg24_entry": entry_chg,
-            "chg24_exit": exit_chg,
-            "liq_entry": entry_liq,
-            "liq_exit": exit_liq,
-            "vol24_entry": entry_vol,
-            "vol24_exit": exit_vol,
-        },
-        "fraction_sold": fraction,
-    }
+        pos["amount"] = pos["amount"] * (1 - fraction)
+        pos["entry_sol_spent"] = pos["entry_sol_spent"] * (1 - fraction)
+    return trade
 
 
 # =====================================================================
 # Main loop
 # =====================================================================
 
-def compute_trade_stats(trades):
-    """Aggregate stats across all closed trades + daily P&L target tracking."""
-    today_utc = now_utc().date()
-    today_trades = []
-    for t in trades:
-        exit_dt = parse_iso(t.get("exit_time"))
-        if exit_dt and exit_dt.date() == today_utc:
-            today_trades.append(t)
-
-    today_realized_sol = sum(t.get("pnl_sol", 0) for t in today_trades)
-    starting_sol = 2.0  # paper portfolio starting SOL
-    today_target_sol = starting_sol * (DAILY_TARGET_PNL_PCT / 100)
-    today_pct_of_target = (today_realized_sol / today_target_sol * 100) if today_target_sol > 0 else 0
-
-    # Strategy learning: which signal features correlate with wins?
-    wins = [t for t in trades if t.get("pnl_sol", 0) > 0]
-    losses = [t for t in trades if t.get("pnl_sol", 0) <= 0]
-
-    learning = analyze_signal_performance(wins, losses) if trades else {}
-
-    if not trades:
-        return {
-            "total": 0, "wins": 0, "losses": 0, "win_rate_pct": 0,
-            "total_pnl_sol": 0, "avg_pnl_pct": 0, "best_pnl_pct": 0, "worst_pnl_pct": 0,
-            "today_trades": 0, "today_realized_sol": 0, "today_target_pct": 0,
-            "daily_target_pct": DAILY_TARGET_PNL_PCT,
-            "learning": learning,
-        }
-
-    pnls_pct = [t.get("pnl_pct", 0) for t in trades]
-
-    return {
-        "total": len(trades),
-        "wins": len(wins),
-        "losses": len(losses),
-        "win_rate_pct": round(100 * len(wins) / len(trades), 1),
-        "total_pnl_sol": round(sum(t.get("pnl_sol", 0) for t in trades), 6),
-        "avg_pnl_pct": round(sum(pnls_pct) / len(pnls_pct), 2),
-        "best_pnl_pct": round(max(pnls_pct), 2),
-        "worst_pnl_pct": round(min(pnls_pct), 2),
-        "today_trades": len(today_trades),
-        "today_realized_sol": round(today_realized_sol, 6),
-        "today_target_pct": round(today_pct_of_target, 1),
-        "daily_target_pct": DAILY_TARGET_PNL_PCT,
-        "learning": learning,
-    }
-
-
-def analyze_signal_performance(wins, losses):
-    """
-    Compare signal features between winning and losing trades to identify
-    which features predict success. Small samples are noisy — outputs include
-    sample size caveats.
-    """
-    def avg(field, trades):
-        vals = []
-        for t in trades:
-            v = t.get("entry_signals", {}).get(field)
-            if v is not None and isinstance(v, (int, float)):
-                vals.append(float(v))
-        return sum(vals) / len(vals) if vals else None
-
-    def avg_pnl(field, trades):
-        vals = []
-        for t in trades:
-            v = t.get("entry_signals", {}).get(field)
-            if v is not None and isinstance(v, (int, float)):
-                vals.append(float(v))
-        return sum(vals) / len(vals) if vals else None
-
-    out = {
-        "win_count": len(wins),
-        "loss_count": len(losses),
-    }
-    if len(wins) < 3 or len(losses) < 3:
-        out["note"] = "need ≥3 wins and ≥3 losses for signal analysis"
-        return out
-
-    for field in ["price_change_h24", "liquidity_usd", "volume_24h_usd", "market_cap_usd"]:
-        w_avg = avg(field, wins)
-        l_avg = avg(field, losses)
-        if w_avg is not None and l_avg is not None:
-            diff_pct = ((w_avg - l_avg) / l_avg * 100) if l_avg > 0 else 0
-            out[f"{field}_win_avg"] = round(w_avg, 2)
-            out[f"{field}_loss_avg"] = round(l_avg, 2)
-            out[f"{field}_diff_pct"] = round(diff_pct, 1)
-
-    # Average holding time per outcome
-    win_hold = [t.get("holding_seconds", 0) for t in wins if t.get("holding_seconds") is not None]
-    loss_hold = [t.get("holding_seconds", 0) for t in losses if t.get("holding_seconds") is not None]
-    if win_hold and loss_hold:
-        out["avg_holding_win_min"] = round(sum(win_hold) / len(win_hold) / 60, 1)
-        out["avg_holding_loss_min"] = round(sum(loss_hold) / len(loss_hold) / 60, 1)
-
-    # Exit reason breakdown
-    exit_reasons = {}
-    for t in (wins + losses):
-        reason = t.get("exit_reason", "unknown").split(" ")[0]
-        is_win = t.get("pnl_sol", 0) > 0
-        if reason not in exit_reasons:
-            exit_reasons[reason] = {"wins": 0, "losses": 0, "total_pnl": 0}
-        exit_reasons[reason]["wins" if is_win else "losses"] += 1
-        exit_reasons[reason]["total_pnl"] += t.get("pnl_sol", 0)
-    out["exit_reason_breakdown"] = exit_reasons
-
-    return out
-
-
 def git_commit_and_push():
     import subprocess
     cwd = WORK_DIR
     try:
         subprocess.run(["git", "add", "-A"], cwd=cwd, check=True, capture_output=True)
-        result = subprocess.run(
-            ["git", "status", "--porcelain"], cwd=cwd, capture_output=True, text=True, check=True
-        )
+        result = subprocess.run(["git", "status", "--porcelain"], cwd=cwd, capture_output=True, text=True, check=True)
         if not result.stdout.strip():
             log("No changes to commit")
             return False
         subprocess.run(
-            ["git", "commit", "-m", f"Bot update @ {now_utc().strftime('%H:%M')} UTC"],
+            ["git", "commit", "-m", f"Bot tick @ {now_utc().strftime('%H:%M')} UTC"],
             cwd=cwd, check=True, capture_output=True,
         )
         subprocess.run(
             ["git", "push", "origin", "main"], cwd=cwd, check=True, capture_output=True, timeout=60
         )
-        log("Pushed to oracle_Vault")
+        log("Pushed")
         return True
-    except subprocess.CalledProcessError as e:
+    except Exception as e:
         log(f"ERROR git: {e}")
         return False
 
 
 def main():
-    log("=== Memecoin bot tick ===")
+    log("=== Memecoin bot tick (v3 LLM) ===")
     state = load_state()
     now = now_utc()
 
     # 1. Fetch prices
-    try:
-        sol_price = fetch_sol_price_usd()
-        if sol_price is None:
-            log("ERROR: couldn't fetch SOL price")
-            sys.exit(1)
-        log(f"SOL price: ${sol_price:.4f}")
-    except Exception as e:
-        log(f"ERROR fetching SOL price: {e}")
+    sol_price = fetch_sol_price_usd()
+    if sol_price is None:
+        log("ERROR: couldn't fetch SOL price")
         sys.exit(1)
+    state["last_sol_price_usd"] = sol_price
+    log(f"SOL: ${sol_price:.2f}")
 
     # 2. Fetch watchlist
     top_runners = fetch_pumpfun_top_runners(limit=30)
-    log(f"pump.fun top-runners: {len(top_runners)} tokens")
-
     mints = [t["mint"] for t in top_runners if t.get("mint")]
     dex_data = fetch_dexscreener_for_mints(mints)
-    log(f"DexScreener: {len(dex_data)} pairs")
-
     watchlist_state = build_watchlist_state(sol_price, top_runners, dex_data)
-    WATCHLIST_PATH.parent.mkdir(parents=True, exist_ok=True)
     WATCHLIST_PATH.write_text(json.dumps(watchlist_state, indent=2, ensure_ascii=False))
 
-    state["last_sol_price_usd"] = sol_price
-
-    # 3. Evaluate exits for open positions
-    exits = []
+    # 3. Apply hard max-hold (LLM can't hold forever)
     for mint, pos in list(state.get("positions", {}).items()):
-        token = next((t for t in watchlist_state["tokens"] if t["mint"] == mint), None)
-        if token is None:
+        if not pos.get("entry_time"):
             continue
-        current_price = _to_float(token.get("price_usd"))
-        current_change = _to_float(token.get("price_change_h24"))
-        if current_price <= 0:
-            continue
+        held_hours = (now - parse_iso(pos["entry_time"])).total_seconds() / 3600
+        if held_hours >= MAX_HOLD_HOURS:
+            token = next((t for t in watchlist_state["tokens"] if t["mint"] == mint), None)
+            if token and _to_float(token.get("price_usd")) > 0:
+                trade = execute_sell(state, mint, _to_float(token["price_usd"]), 1.0, f"max-hold {MAX_HOLD_HOURS}h reached")
+                if trade:
+                    log(f"FORCED EXIT: ${trade['symbol']} after {MAX_HOLD_HOURS}h — PnL {trade['pnl_pct']:+.1f}%")
+                    append_decision({
+                        "action": "sell",
+                        "details": f"[max-hold] ${trade['symbol']} closed at ${trade['exit_price_usd']:.6g} | P&L: {trade['pnl_pct']:+.1f}%",
+                        "reason": f"Hard cap of {MAX_HOLD_HOURS} hours reached",
+                    })
 
-        # Compute holding time
-        entry_time = parse_iso(pos.get("entry_time"))
-        holding_seconds = (now - entry_time).total_seconds() if entry_time else None
+    # 4. Compute portfolio + today's PnL
+    portfolio = compute_portfolio_value(state, sol_price, dex_data)
+    today_pnl = compute_today_realized_pnl(state)
+    log(f"Portfolio: ${portfolio['total_value_usd']:.2f} | Today realized: {today_pnl:+.4f} SOL")
 
-        should_exit, reason, pnl_pct, action, fraction = evaluate_exit(
-            pos, current_price, current_change, now
-        )
-        if should_exit:
-            exit_signals = {
-                "price_change_h24": current_change,
-                "liquidity_usd": _to_float(token.get("liquidity_usd")),
-                "volume_h24": _to_float(token.get("volume_h24")),
-            }
-            ok, trade = execute_sell(
-                state, mint, current_price, reason, now,
-                fraction=fraction, exit_signals=exit_signals,
-                holding_seconds=holding_seconds,
-            )
-            if ok:
-                exits.append((mint, trade))
-                pm = trade.get("post_mortem", {})
-                diagnosis = pm.get("diagnosis", "") if pm else ""
-                action_label = "PARTIAL" if trade.get("partial") else "FULL"
-                append_decision({
-                    "action": "sell",
-                    "details": f"[{action_label}] Closed ${trade['symbol']} ({mint[:8]}…) at ${current_price:.6g} | "
-                               f"P&L: {trade['pnl_pct']:+.1f}% | {reason}",
-                    "reason": diagnosis or reason,
-                    "data": {"trade": trade, "post_mortem": pm},
-                })
+    # 5. Check daily loss cap
+    daily_loss_breached = today_pnl < -DAILY_MAX_LOSS_SOL
 
-    if exits:
-        for mint, trade in exits:
-            log(f"SELL ${trade['symbol']}: {trade['pnl_pct']:+.1f}% — {trade['exit_reason']}")
-
-    # 4. Find entry candidate (only if we have slots)
-    entry = None
-    candidate, entry_info = find_entry_candidate(state, watchlist_state, now)
-    if candidate:
-        token = entry_info["token"]
-        price_usd = _to_float(token.get("price_usd"))
-        if price_usd > 0:
-            ok, position = execute_buy(state, candidate, token, price_usd, now)
-            if ok:
-                # Save the full score components for post-mortem later
-                position["entry_score_components"] = entry_info.get("components", {})
-                entry = (candidate, position, entry_info)
-                breakdown = entry_info.get("components", {}).get("score_breakdown", {})
-                append_decision({
-                    "action": "buy",
-                    "details": f"Bought ${position['symbol']} ({candidate[:8]}…) at ${price_usd:.6g}, "
-                               f"spent {POSITION_SIZE_SOL} SOL (${position['entry_usd_value']:.2f})",
-                    "reason": f"Score {entry_info['score']:.1f}: 24h={breakdown.get('base_24h', '?')}%, "
-                              f"recency={breakdown.get('recency_bonus', 0)}, "
-                              f"turnover={breakdown.get('turnover_bonus', 0)}, "
-                              f"short_mom={breakdown.get('short_momentum', 0)}",
-                    "data": {"position": position, "score_breakdown": breakdown},
-                })
-                log(f"BUY ${position['symbol']}: ${position['amount']:.4f} tokens @ ${price_usd:.6g} "
-                    f"(score {entry_info['score']:.1f})")
-
-    if entry is None and not exits:
-        # No trades this tick — log observation
-        held = len(state.get("positions", {}))
-        free_slots = MAX_POSITIONS - held
-        watchlist_count = len(watchlist_state.get("tokens", []))
+    # 6. Build LLM prompt
+    prompt, held, candidates = build_decision_prompt(
+        state, sol_price, watchlist_state, portfolio, today_pnl
+    )
+    if not held and not candidates:
+        log("Nothing to do — no positions, no candidates")
         append_decision({
             "action": "observe",
-            "details": f"No trades this tick. {held}/{MAX_POSITIONS} positions, "
-                       f"{state.get('balance_sol', 0):.3f} SOL free, "
-                       f"{watchlist_count} tokens watched",
-            "reason": entry_info if isinstance(entry_info, str) else "candidate not found",
+            "details": f"No positions, no candidates passed basic gates",
+            "reason": "no action",
+        })
+        state["portfolio_value_usd"] = portfolio["total_value_usd"]
+        state["last_updated"] = iso_now()
+        state["recent_decisions"] = load_recent_decisions(max_n=20)
+        save_state(state)
+        git_commit_and_push()
+        return
+
+    # 7. Get LLM decision
+    log(f"Asking LLM (held={len(held)}, candidates={len(candidates)})...")
+    try:
+        decisions, raw_response, parse_err = get_llm_decisions(prompt)
+    except Exception as e:
+        log(f"ERROR: LLM call failed: {e}")
+        decisions, raw_response, parse_err = None, str(e), "llm call failed"
+
+    log_full_decision(prompt, raw_response, "tick", f"held={len(held)} candidates={len(candidates)}")
+
+    if not decisions:
+        log(f"WARN: {parse_err} — holding all positions, no entries")
+        log(f"Raw response (first 500): {raw_response[:500]}")
+        append_decision({
+            "action": "observe",
+            "details": f"LLM call failed: {parse_err}",
+            "reason": "bot cannot decide, holding positions",
+        })
+        state["portfolio_value_usd"] = portfolio["total_value_usd"]
+        state["last_updated"] = iso_now()
+        state["recent_decisions"] = load_recent_decisions(max_n=20)
+        save_state(state)
+        git_commit_and_push()
+        return
+
+    # 8. Execute exit decisions
+    exits_made = 0
+    for dec in decisions.get("exit_decisions", []) or []:
+        if not isinstance(dec, dict):
+            continue
+        target_mint_prefix = dec.get("mint", "")
+        action = dec.get("action", "").lower()
+        reasoning = dec.get("reasoning", "")
+        # Find the held position whose mint starts with the prefix
+        target_mint = None
+        for full_mint in state.get("positions", {}):
+            if full_mint.startswith(target_mint_prefix.replace("…", "")):
+                target_mint = full_mint
+                break
+        if not target_mint:
+            continue
+        token = next((t for t in watchlist_state["tokens"] if t["mint"] == target_mint), None)
+        if not token or _to_float(token.get("price_usd")) <= 0:
+            continue
+        cur_price = _to_float(token["price_usd"])
+        if action == "hold":
+            continue
+        fraction = 1.0 if action == "sell_all" else 0.5 if action == "sell_half" else None
+        if fraction is None:
+            continue
+        trade = execute_sell(state, target_mint, cur_price, fraction, f"LLM: {action} — {reasoning[:150]}")
+        if trade:
+            exits_made += 1
+            action_label = "PARTIAL" if trade.get("partial") else "FULL"
+            log(f"{action_label} SELL ${trade['symbol']}: {trade['pnl_pct']:+.1f}% — {reasoning[:80]}")
+            append_decision({
+                "action": "sell",
+                "details": f"[{action_label}][LLM] ${trade['symbol']} at ${cur_price:.6g} | P&L: {trade['pnl_pct']:+.1f}%",
+                "reason": reasoning,
+            })
+
+    # 9. Execute entry decisions
+    if daily_loss_breached:
+        log(f"Daily loss cap reached ({today_pnl:+.4f} < -{DAILY_MAX_LOSS_SOL} SOL) — skipping entries")
+        append_decision({
+            "action": "observe",
+            "details": f"Daily loss cap hit ({today_pnl:+.4f} SOL). No new entries today.",
+            "reason": "safety guardrail",
+        })
+    else:
+        for dec in decisions.get("entry_decisions", []) or []:
+            if not isinstance(dec, dict):
+                continue
+            target_mint_prefix = dec.get("mint", "")
+            action = dec.get("action", "").lower()
+            reasoning = dec.get("reasoning", "")
+            if action != "buy":
+                continue
+            target_mint = None
+            for c in candidates:
+                full = watchlist_state["tokens"]
+                for tok in full:
+                    if tok["mint"].startswith(target_mint_prefix.replace("…", "")):
+                        target_mint = tok["mint"]
+                        break
+                if target_mint:
+                    break
+            if not target_mint or target_mint in state.get("positions", {}):
+                continue
+            if len(state.get("positions", {})) >= MAX_POSITIONS:
+                break
+            token = next((t for t in watchlist_state["tokens"] if t["mint"] == target_mint), None)
+            if not token or _to_float(token.get("price_usd")) <= 0:
+                continue
+            pos, err = execute_buy(state, target_mint, token, _to_float(token["price_usd"]), sol_price)
+            if pos:
+                log(f"LLM BUY ${pos['symbol']}: ${pos['amount']:.4f} tokens @ ${pos['entry_price_usd']:.6g} — {reasoning[:80]}")
+                append_decision({
+                    "action": "buy",
+                    "details": f"[LLM] ${pos['symbol']} at ${pos['entry_price_usd']:.6g}, spent {POSITION_SIZE_SOL} SOL",
+                    "reason": reasoning,
+                })
+            elif err:
+                log(f"Buy blocked: {err}")
+
+    # 10. If no actions, log observation with the LLM summary
+    if exits_made == 0 and len(state.get("positions", {})) == len(held):
+        summary = decisions.get("summary", "no summary")
+        append_decision({
+            "action": "observe",
+            "details": f"LLM tick: {exits_made} exits, no entries. {len(state.get('positions', {}))} positions held",
+            "reason": summary,
         })
 
-    # 5. Portfolio + stats
-    portfolio = compute_portfolio_value(state, sol_price, dex_data)
-    stats = compute_trade_stats(state.get("trades", []))
-    log(f"Portfolio: {portfolio['total_value_usd']} USD ({portfolio['sol_balance_value_usd']} SOL + "
-        f"${portfolio['positions_value_usd']} positions). Trades: {stats}")
-
-    # 6. Update state
+    # 11. Update state
+    state["portfolio_value_usd"] = compute_portfolio_value(state, sol_price, dex_data)["total_value_usd"]
     state["last_updated"] = iso_now()
-    state["portfolio_value_usd"] = portfolio["total_value_usd"]
-    state["balance_usd_estimate"] = portfolio["sol_balance_value_usd"]
-    state["trade_stats"] = stats
     state["recent_decisions"] = load_recent_decisions(max_n=20)
-
-    if state.get("starting_balance_usd") is None:
-        state["starting_balance_usd"] = portfolio["total_value_usd"]
-
     save_state(state)
-    save_trades_log(state)
-    log(f"State saved. {len(state.get('positions', {}))} positions open, "
-        f"{len(state.get('trades', []))} trades closed total.")
+    log(f"State saved: {len(state.get('positions', {}))} positions, {len(state.get('trades', []))} trades")
 
-    # 7. Push
+    # 12. Push
     git_commit_and_push()
     log("=== Done ===")
 
