@@ -1795,3 +1795,15 @@
 ## [2026-08-26 10:26 UTC] buy | [LLM] $TURCOM at $9.97735e-07, spent 0.1 SOL
 - **Reasoning:** $TURCOM $998 mcap with 2% bond — Turbo Comet has the catchy alliterative name and ultra-low mcap for asymmetric upside. Small position OK even without X signal.
 
+## [2026-08-26 10:28 UTC] sell | [FULL][LLM] $TURCOM at $4.056e-07 | P&L: -59.4%
+- **Reasoning:** TURCOM at -59.3% breaches the -50% hard cap. Mandatory close.
+
+## [2026-08-26 10:28 UTC] sell | [FULL][LLM] $ANAI at $3.849e-06 | P&L: +5.3%
+- **Reasoning:** ANAI only +5.3% after entry while portfolio has bigger winners — weakest hold, free up slot for fresh attention.
+
+## [2026-08-26 10:28 UTC] buy | [LLM] $JANE at $9.10485e-06, spent 0.1 SOL
+- **Reasoning:** $JANE — Ian Frosty is a known X account, freshest narrative, highest mcap of new launches at $9k showing real early attention.
+
+## [2026-08-26 10:28 UTC] buy | [LLM] $MCGA at $4.439e-06, spent 0.1 SOL
+- **Reasoning:** $MCGA (Make Crypto Great Again) — political meme coin with explicit X promoter. Political memes historically have the strongest viral coefficient.
+
