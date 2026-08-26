@@ -775,3 +775,7 @@
 - **Reasoning:** Both names are prior losses showing classic post-pump decay (negative24h, deep drawdown from ATH, flat-to-down 1h); with 1W/5L record and no live positions, sitting in SOL preserves capital for a real setup instead of revenge-re-entering yesterday's losers.
 
 
+## [2026-08-26 03:46 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are recent losers still trending down — re-entering them is bagholder behavior, not trading. Sitting on 1.96 SOL and waiting for genuinely fresh setups; today's -0.04 SOL is recoverable only with real edge, not top-runner hype.
+
+
