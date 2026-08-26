@@ -759,3 +759,7 @@
 - **Reasoning:** Both candidates are repeat offenders I've already lost on, both deep in drawdown from ATH with no clear reversal structure — sitting on hands and preserving capital after a 1W/5L week.
 
 
+## [2026-08-26 03:41 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are tokens I've already lost money on or that are mid-fade after pumps — no new edge, daily P&L already negative, sitting on hands until fresh setup.
+
+
