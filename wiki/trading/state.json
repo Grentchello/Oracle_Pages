@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.491169,
+  "balance_sol": 1.642455,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "4VfQ5CchtuAukAqoJL1hWcRHJoK6At3byt786DQ4pump": {
       "symbol": "BUSINESS",
       "name": "Business Monkeys",
-      "amount": 344419.8342383538,
+      "amount": 172209.9171191769,
       "entry_price_usd": 3.499e-06,
-      "entry_sol_spent": 0.0125,
+      "entry_sol_spent": 0.00625,
       "entry_time": "2026-08-26T10:22:40.977052+00:00",
       "entry_usd_value": 9.641,
       "entry_signals": {
@@ -28,9 +28,9 @@
     "HPiMjD9vUv66jQPhQDNYv4jaua7xzCZBHMm9Uip6oiEw": {
       "symbol": "WDOG",
       "name": "Windows Dog",
-      "amount": 306193.5382082062,
+      "amount": 153096.7691041031,
       "entry_price_usd": 1.577433680757719e-05,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-26T10:32:47.538713+00:00",
       "entry_usd_value": 9.66,
       "entry_signals": {
@@ -1406,25 +1406,47 @@
       "pnl_pct": 351.56,
       "exit_reason": "LLM: sell_all — +351% but 1h momentum is only +9.7% — the parabolic move looks exhausted, take profit and free a slot for fresh attention.",
       "partial": false
+    },
+    {
+      "mint": "4VfQ5CchtuAukAqoJL1hWcRHJoK6At3byt786DQ4pump",
+      "symbol": "BUSINESS",
+      "name": "Business Monkeys",
+      "amount_sold": 172209.9171191769,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:22:40.977052+00:00",
+      "exit_time": "2026-08-26T10:39:56.327894+00:00",
+      "entry_price_usd": 3.499e-06,
+      "exit_price_usd": 1.566e-05,
+      "entry_sol_for_chunk": 0.00625,
+      "exit_sol_received": 0.027854,
+      "pnl_sol": 0.021604,
+      "pnl_pct": 347.56,
+      "exit_reason": "LLM: sell_half — $BUSINESS is +347% in 0.3h with massive 1h/24h green candles. Classic memecoin pattern - take profit on the parabolic move before it reverses. Hold re",
+      "partial": true
+    },
+    {
+      "mint": "HPiMjD9vUv66jQPhQDNYv4jaua7xzCZBHMm9Uip6oiEw",
+      "symbol": "WDOG",
+      "name": "Windows Dog",
+      "amount_sold": 153096.7691041031,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:32:47.538713+00:00",
+      "exit_time": "2026-08-26T10:39:56.328169+00:00",
+      "entry_price_usd": 1.577433680757719e-05,
+      "exit_price_usd": 7.806e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.123432,
+      "pnl_sol": 0.098432,
+      "pnl_pct": 394.85,
+      "exit_reason": "LLM: sell_half — $WDOG at +394% in 0.1h is the strongest position. Bond shows 0% complete but price action is explosive. Take half profit - this kind of move retraces ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-26T10:38:31.185629+00:00",
+  "last_updated": "2026-08-26T10:39:56.328358+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.73,
-  "portfolio_value_usd": 179.3,
+  "last_sol_price_usd": 96.82,
+  "portfolio_value_usd": 191.06,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 10:31 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $HOTPUMP at $5.517e-05 | P&L: +472.3%",
-      "reason": "$HOTPUMP at +472% — taking partial profit per the +50% rule, but keeping exposure since the narrative is clearly pumping."
-    },
-    {
-      "time": "2026-08-26 10:31 UTC",
-      "action": "buy",
-      "details": "[LLM] $Artist at $1.04521e-05, spent 0.1 SOL",
-      "reason": "$Artist has the highest bond completion (33%) and mcap ($10.4k) of the fresh batch — early attention signal on j7tracker deploy with twitter catalyst."
-    },
     {
       "time": "2026-08-26 10:32 UTC",
       "action": "sell",
@@ -1532,72 +1554,84 @@
       "action": "buy",
       "details": "[LLM] $DOLLY at $2.853e-06, spent 0.1 SOL",
       "reason": "$DOLLY backed by an NY Post tweet is a real mainstream media signal at $2.8k mcap — exactly the kind of attention-launched story that can10x fast."
+    },
+    {
+      "time": "2026-08-26 10:39 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BUSINESS at $1.566e-05 | P&L: +347.6%",
+      "reason": "$BUSINESS is +347% in 0.3h with massive 1h/24h green candles. Classic memecoin pattern - take profit on the parabolic move before it reverses. Hold remainder for potential continuation but lock in gains."
+    },
+    {
+      "time": "2026-08-26 10:39 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $WDOG at $7.806e-05 | P&L: +394.9%",
+      "reason": "$WDOG at +394% in 0.1h is the strongest position. Bond shows 0% complete but price action is explosive. Take half profit - this kind of move retraces hard. Keep skin in for the attention narrative to play out."
     }
   ],
   "trade_stats": {
-    "total": 76,
-    "wins": 44,
+    "total": 78,
+    "wins": 46,
     "losses": 32,
-    "win_rate_pct": 57.9,
-    "total_pnl_sol": -0.046331,
-    "avg_pnl_pct": 131.31,
+    "win_rate_pct": 59.0,
+    "total_pnl_sol": 0.073705,
+    "avg_pnl_pct": 137.46,
     "best_pnl_pct": 567.22,
     "worst_pnl_pct": -96.94,
-    "today_trades": 76,
-    "today_realized_sol": -0.046331,
-    "today_target_pct": -11.6,
+    "today_trades": 78,
+    "today_realized_sol": 0.073705,
+    "today_target_pct": 18.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 44,
+      "win_count": 46,
       "loss_count": 32,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T10:38:31.185023+00:00",
+  "last_llm_brief_at": "2026-08-26T10:39:56.327864+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump": {
-      "price_usd": 4.353e-05,
-      "change_h24": 9.67,
-      "change_h1": 9.67,
-      "liquidity_usd": 15955.03,
-      "volume_h24": 283226.52,
-      "dex_id": "pumpswap",
-      "source": "dexscreener"
-    },
     "4VfQ5CchtuAukAqoJL1hWcRHJoK6At3byt786DQ4pump": {
-      "price_usd": 1.523e-05,
-      "change_h24": 341.0,
-      "change_h1": 341.0,
+      "price_usd": 1.566e-05,
+      "change_h24": 354.0,
+      "change_h1": 354.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 16031.0,
+      "volume_h24": 16235.54,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "HPiMjD9vUv66jQPhQDNYv4jaua7xzCZBHMm9Uip6oiEw": {
-      "price_usd": 5.283e-05,
-      "change_h24": 35.76,
-      "change_h1": 35.76,
-      "liquidity_usd": 17485.91,
-      "volume_h24": 140680.1,
+      "price_usd": 7.806e-05,
+      "change_h24": 101.0,
+      "change_h1": 101.0,
+      "liquidity_usd": 21669.16,
+      "volume_h24": 156178.73,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
     "7Vu9fXNKfKUQJAGgKZHvakrz7SooAogGEWxHNvzLpump": {
-      "price_usd": 2.777e-06,
-      "change_h24": -10.27,
-      "change_h1": -10.27,
+      "price_usd": 2.708e-06,
+      "change_h24": -12.49,
+      "change_h1": -12.49,
       "liquidity_usd": 0.0,
-      "volume_h24": 1250.34,
+      "volume_h24": 1288.47,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "FoYFUPUxh6Jn7265yBM84w9g6VoaJBxEfmcXTdbVohQi": {
-      "price_usd": 7.253e-06,
-      "change_h24": 86.27,
-      "change_h1": 86.27,
+      "price_usd": 3.996e-06,
+      "change_h24": 2.64,
+      "change_h1": 2.64,
       "liquidity_usd": 0.0,
-      "volume_h24": 32851.32,
+      "volume_h24": 34697.78,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "GUAd8WFcy9WyFir4eWSuhEFtGCCMG5zwUVjytv1ipump": {
+      "price_usd": 2.857e-06,
+      "change_h24": -22.41,
+      "change_h1": -22.41,
+      "liquidity_usd": 0.0,
+      "volume_h24": 2460.3,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

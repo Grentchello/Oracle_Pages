@@ -1885,3 +1885,9 @@
 ## [2026-08-26 10:38 UTC] buy | [LLM] $DOLLY at $2.853e-06, spent 0.1 SOL
 - **Reasoning:** $DOLLY backed by an NY Post tweet is a real mainstream media signal at $2.8k mcap — exactly the kind of attention-launched story that can10x fast.
 
+## [2026-08-26 10:39 UTC] sell | [PARTIAL][LLM] $BUSINESS at $1.566e-05 | P&L: +347.6%
+- **Reasoning:** $BUSINESS is +347% in 0.3h with massive 1h/24h green candles. Classic memecoin pattern - take profit on the parabolic move before it reverses. Hold remainder for potential continuation but lock in gains.
+
+## [2026-08-26 10:39 UTC] sell | [PARTIAL][LLM] $WDOG at $7.806e-05 | P&L: +394.9%
+- **Reasoning:** $WDOG at +394% in 0.1h is the strongest position. Bond shows 0% complete but price action is explosive. Take half profit - this kind of move retraces hard. Keep skin in for the attention narrative to play out.
+
