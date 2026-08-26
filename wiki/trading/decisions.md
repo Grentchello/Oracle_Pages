@@ -755,3 +755,7 @@
 - **Reasoning:** Both candidates are post-pump decay at single-digit-to-mid-double-digit % of ATH with negative 24h momentum — I've already lost on both today, so re-entering without a real catalyst is just averaging into losers. Sitting on 1.95 SOL cash waiting for an actual breakout signal.
 
 
+## [2026-08-26 03:40 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are repeat offenders I've already lost on, both deep in drawdown from ATH with no clear reversal structure — sitting on hands and preserving capital after a 1W/5L week.
+
+
