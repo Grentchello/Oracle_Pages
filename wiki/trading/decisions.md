@@ -1007,3 +1007,7 @@
 - **Reasoning:** bot cannot decide, holding positions
 
 
+## [2026-08-26 05:00 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All four candidates are mid-to-deep drawdowns from ATH with negative 24h performance, and three of four are tokens I already lost on recently — defending capital and sitting in SOL is the only honest play given a 1W/5L record and no genuine reversal signal.
+
+
