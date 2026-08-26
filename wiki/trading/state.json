@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.436501,
+  "balance_sol": 1.58956,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "EUqvfNJ9gSvAzC4guV8xkG3ifhPtxQR1aDi1QtfVpump": {
       "symbol": "crocodile",
       "name": "croc wif crocs",
-      "amount": 261197.64024281525,
+      "amount": 130598.82012140763,
       "entry_price_usd": 4.598050728496334e-06,
-      "entry_sol_spent": 0.0125,
+      "entry_sol_spent": 0.00625,
       "entry_time": "2026-08-26T10:02:39.686039+00:00",
       "entry_usd_value": 9.608,
       "entry_signals": {
@@ -72,9 +72,9 @@
     "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump": {
       "symbol": "HOTPUMP",
       "name": "Hotpump Miami",
-      "amount": 996286.307053942,
+      "amount": 498143.153526971,
       "entry_price_usd": 9.64e-06,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.05,
       "entry_time": "2026-08-26T10:09:44.210672+00:00",
       "entry_usd_value": 9.6042,
       "entry_signals": {
@@ -424,25 +424,47 @@
       "pnl_pct": 97.39,
       "exit_reason": "LLM: sell_half — $Pigtacio is +97.4% with 24h +97.5% — solid double, but no 1h acceleration beyond the entry pump. Take half off the table, let the other half ride if ",
       "partial": true
+    },
+    {
+      "mint": "EUqvfNJ9gSvAzC4guV8xkG3ifhPtxQR1aDi1QtfVpump",
+      "symbol": "crocodile",
+      "name": "croc wif crocs",
+      "amount_sold": 130598.82012140763,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:02:39.686039+00:00",
+      "exit_time": "2026-08-26T10:12:48.283235+00:00",
+      "entry_price_usd": 4.598050728496334e-06,
+      "exit_price_usd": 1.249e-05,
+      "entry_sol_for_chunk": 0.00625,
+      "exit_sol_received": 0.016976,
+      "pnl_sol": 0.010726,
+      "pnl_pct": 171.64,
+      "exit_reason": "LLM: sell_half — $crocodile at +171% with 1h already at +265% — parabolic extension likely cooling. Lock half the profit, let the other half ride if narrative continue",
+      "partial": true
+    },
+    {
+      "mint": "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump",
+      "symbol": "HOTPUMP",
+      "name": "Hotpump Miami",
+      "amount_sold": 498143.153526971,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:09:44.210672+00:00",
+      "exit_time": "2026-08-26T10:12:48.283521+00:00",
+      "entry_price_usd": 9.64e-06,
+      "exit_price_usd": 2.625e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.136083,
+      "pnl_sol": 0.086083,
+      "pnl_pct": 172.3,
+      "exit_reason": "LLM: sell_half — $HOTPUMP at +172% with 24h +874% means it's already done most of its move. Take half profit; let the rest ride only if momentum holds.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-26T10:11:18.122005+00:00",
+  "last_updated": "2026-08-26T10:12:48.283629+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.08,
-  "portfolio_value_usd": 172.85,
+  "last_sol_price_usd": 96.09,
+  "portfolio_value_usd": 182.17,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 10:05 UTC",
-      "action": "buy",
-      "details": "[LLM] $AG at $2.81227e-06, spent 0.1 SOL",
-      "reason": "$AG (Ali G) — backed by OfficialAli_G verified-looking account, 'Who iz I?' is a classic meme catchphrase with strong replay value. Cultural recognition + simple character = viral attention play at $2.8k mcap."
-    },
-    {
-      "time": "2026-08-26 10:05 UTC",
-      "action": "buy",
-      "details": "[LLM] $Who at $2.82957e-06, spent 0.1 SOL",
-      "reason": "$Who (Knock Knock Whos There) — joke-format memes spread fast on crypto X, blknoiz06 is a known promoter. Knock-knock setup is infinite engagement bait. Cheap entry at $2.8k mcap."
-    },
     {
       "time": "2026-08-26 10:05 UTC",
       "action": "buy",
@@ -550,6 +572,18 @@
       "action": "buy",
       "details": "[LLM] $HAIRBALL at $3.298e-06, spent 0.1 SOL",
       "reason": "$HAIRBALL has the strongest narrative of the new batch — 'defend the crypto universe by puking hairballs at enemy memecoins' is exactly the kind of absurd viral concept memecoins need. Has its own X account (@hairballpopcat), bonding at 9%, mcap $3.2k — pure attention play. Entering with freed slot from Razoo exit."
+    },
+    {
+      "time": "2026-08-26 10:12 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $crocodile at $1.249e-05 | P&L: +171.6%",
+      "reason": "$crocodile at +171% with 1h already at +265% — parabolic extension likely cooling. Lock half the profit, let the other half ride if narrative continues."
+    },
+    {
+      "time": "2026-08-26 10:12 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $HOTPUMP at $2.625e-05 | P&L: +172.3%",
+      "reason": "$HOTPUMP at +172% with 24h +874% means it's already done most of its move. Take half profit; let the rest ride only if momentum holds."
     }
   ],
   "trade_stats": {
@@ -571,51 +605,51 @@
       "note": "need ≥3 wins and ≥3 losses for signal analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T10:11:18.120600+00:00",
+  "last_llm_brief_at": "2026-08-26T10:12:48.283203+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EUqvfNJ9gSvAzC4guV8xkG3ifhPtxQR1aDi1QtfVpump": {
-      "price_usd": 1.725e-05,
-      "change_h24": 404.0,
-      "change_h1": 404.0,
+      "price_usd": 1.249e-05,
+      "change_h24": 265.0,
+      "change_h1": 265.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 85322.55,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "FaGkkx1frSXfbe2MX59eEbDKAT2jMuJRK7SjfWMUpump": {
-      "price_usd": 3.31e-06,
-      "change_h24": 2.11,
-      "change_h1": 2.11,
-      "liquidity_usd": 0.0,
-      "volume_h24": 10181.51,
+      "volume_h24": 103857.05,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "71mfBEE1xRfpCfdn4DhUNwR3r8xTajsNWZ8cQtoRpump": {
-      "price_usd": 8.91e-06,
-      "change_h24": 97.45,
-      "change_h1": 97.45,
+      "price_usd": 8.374e-06,
+      "change_h24": 85.56,
+      "change_h1": 85.56,
       "liquidity_usd": 0.0,
-      "volume_h24": 11011.53,
+      "volume_h24": 12841.15,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "CEpd2g2aLv5mce4Gx614LevLxooBthiH4edmgh1Lpump": {
-      "price_usd": 4.92e-06,
-      "change_h24": 43.46,
-      "change_h1": 43.46,
+      "price_usd": 2.713e-06,
+      "change_h24": -20.88,
+      "change_h1": -20.88,
       "liquidity_usd": 0.0,
-      "volume_h24": 6556.54,
+      "volume_h24": 7909.83,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump": {
-      "price_usd": 1.341e-05,
-      "change_h24": 398.0,
-      "change_h1": 398.0,
+      "price_usd": 2.625e-05,
+      "change_h24": 874.0,
+      "change_h1": 874.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 8827.73,
+      "volume_h24": 25149.59,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "9HXGgJHLr8WHJ2k2VS9sbYFeYrKSTpX4xmUbqhXSpump": {
+      "price_usd": 3.248e-06,
+      "change_h24": 5.72,
+      "change_h1": 5.72,
+      "liquidity_usd": 0.0,
+      "volume_h24": 639.85,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

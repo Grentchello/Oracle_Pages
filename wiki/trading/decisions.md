@@ -1636,3 +1636,9 @@
 ## [2026-08-26 10:11 UTC] buy | [LLM] $HAIRBALL at $3.298e-06, spent 0.1 SOL
 - **Reasoning:** $HAIRBALL has the strongest narrative of the new batch — 'defend the crypto universe by puking hairballs at enemy memecoins' is exactly the kind of absurd viral concept memecoins need. Has its own X account (@hairballpopcat), bonding at 9%, mcap $3.2k — pure attention play. Entering with freed slot from Razoo exit.
 
+## [2026-08-26 10:12 UTC] sell | [PARTIAL][LLM] $crocodile at $1.249e-05 | P&L: +171.6%
+- **Reasoning:** $crocodile at +171% with 1h already at +265% — parabolic extension likely cooling. Lock half the profit, let the other half ride if narrative continues.
+
+## [2026-08-26 10:12 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $2.625e-05 | P&L: +172.3%
+- **Reasoning:** $HOTPUMP at +172% with 24h +874% means it's already done most of its move. Take half profit; let the rest ride only if momentum holds.
+
