@@ -851,3 +851,7 @@
 - **Reasoning:** Sitting on a 1W/5L streak with -0.04 SOL realized today, both candidates are bleeder post-pump setups I already lost on — no edge, no entry, preserve the remaining 1.96 SOL.
 
 
+## [2026-08-26 04:10 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are post-pump distribution plays with negative momentum across all timeframes — skipping both to preserve capital after a 1W/5L stretch where my entry signals have been wrong.
+
+
