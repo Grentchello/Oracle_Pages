@@ -1705,3 +1705,15 @@
 ## [2026-08-26 10:21 UTC] sell | [FULL][LLM] $ANAI at $2.699e-06 | P&L: -21.1%
 - **Reasoning:** $ANAI at -21.1% in <0.1h,1h -17.3%, and this is one of THREE $ANAL-variant mints polluting the feed — clear signal this is wash/clone spam, exit now.
 
+## [2026-08-26 10:22 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $5.804e-05 | P&L: +502.1%
+- **Reasoning:** $HOTPUMP is +502% in 0.2h — this is parabolic and the kind of move that reverses violently. Lock in profits on half, let the rest ride with a mental stop at breakeven. Narratives peak, and we already captured most of the move.
+
+## [2026-08-26 10:22 UTC] buy | [LLM] $MAC at $3.24279e-06, spent 0.1 SOL
+- **Reasoning:** $MAC (Mighty Mac) — fresh launch with twitter from PetaIS0L. Meme-name + active voice = attention signal. $3.2k mcap gives huge upside if it catches, and a0.1 SOL risk is small on a fresh slate.
+
+## [2026-08-26 10:22 UTC] buy | [LLM] $CHONKYCAT at $2.84e-06, spent 0.1 SOL
+- **Reasoning:** $CHONKYCAT — cat meme + leerob twitter (high-following CT account) + fresh sub-1min launch. Strong narrative; cats + 'chonky' is classic viral memecoin territory.
+
+## [2026-08-26 10:22 UTC] buy | [LLM] $TripleM at $2.82479e-06, spent 0.1 SOL
+- **Reasoning:** $TripleM (Mighty Mac Mini) — riding the same PetaIS0L attention wave as $MAC, but smaller and cheaper. Bundling a 'thematic cluster' bet is high-variance; small size makes sense.
+

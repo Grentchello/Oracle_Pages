@@ -161,6 +161,15 @@ def fetch_pumpfun_freshest(limit=30):
         return []
 
 
+def fetch_pumpfun_coin(mint):
+    """Single-coin data from pump.fun. Used for held positions whose DexScreener pair is missing."""
+    try:
+        return http_get_json(f"https://frontend-api-v3.pump.fun/coins/{mint}")
+    except Exception as e:
+        log(f"WARN: pump.fun coin fetch {mint[:8]} failed: {e}")
+        return None
+
+
 def fetch_pumpfun_top_runners(limit=20):
     """Pump.fun's own algorithm-recommended tokens."""
     try:
@@ -773,15 +782,29 @@ def main():
                 "source": "dexscreener",
             }
         else:
-            # No DexScreener pair. Try pump.fun bonding curve.
+            # No DexScreener pair. Try pump.fun bonding-curve.
+            coin = fetch_pumpfun_coin(mint)
+            price_usd = 0
+            chg24 = 0
+            real_sol = 0
+            complete = False
+            if coin:
+                vsr = _to_float(coin.get("virtual_sol_reserves")) / 1e9
+                vtr = _to_float(coin.get("virtual_token_reserves")) / 1e6
+                if vsr > 0 and vtr > 0:
+                    price_sol = vsr / vtr
+                    price_usd = price_sol * sol_price
+                real_sol = _to_float(coin.get("real_sol_reserves")) / 1e9
+                complete = bool(coin.get("complete"))
             held_prices[mint] = {
-                "price_usd": 0,
-                "change_h24": 0,
+                "price_usd": price_usd,
+                "change_h24": chg24,
                 "change_h1": 0,
-                "liquidity_usd": 0,
+                "liquidity_usd": real_sol * sol_price if real_sol > 0 else 0,
                 "volume_h24": 0,
-                "dex_id": None,
-                "source": "missing",
+                "dex_id": "pumpfun",
+                "source": "bonding-curve" if price_usd > 0 else "missing",
+                "complete": complete,
             }
     if held_mints:
         log(f"Fetched prices for {len(held_mints)} held positions ({sum(1 for v in held_prices.values() if v['price_usd'] > 0)} with valid price)")
