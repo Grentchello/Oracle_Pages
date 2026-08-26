@@ -1642,3 +1642,9 @@
 ## [2026-08-26 10:12 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $2.625e-05 | P&L: +172.3%
 - **Reasoning:** $HOTPUMP at +172% with 24h +874% means it's already done most of its move. Take half profit; let the rest ride only if momentum holds.
 
+## [2026-08-26 10:14 UTC] sell | [FULL][LLM] $HAIRBALL at $3.248e-06 | P&L: -1.5%
+- **Reasoning:** HAIRBALL flat at -1.5% with no momentum, no narrative lift after 0.0h — weakest held position, freeing slot for fresh attention launch with bond traction.
+
+## [2026-08-26 10:14 UTC] buy | [LLM] $Lilly at $7.82567e-06, spent 0.1 SOL
+- **Reasoning:** $Lilly (The Pugventure) has bond29% — by far the most traction of any new launch, mcap $7.8k still pre-pump, cute narrative + X link attached, classic attention-market entry before crowd arrives.
+
