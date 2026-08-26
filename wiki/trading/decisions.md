@@ -723,3 +723,7 @@
 - **Reasoning:** Both candidates are prior losers in my book with the same 'weak momentum, time-stopped out' failure mode — re-entering either is just paying tuition twice; sitting in SOL until I see a genuinely fresh setup.
 
 
+## [2026-08-26 03:30 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Market read: both 'top-runners' are down11%+ on 24h and I've already lost on both today — no fresh signal, just recycling losers. Sitting on1.95 SOL until a real setup appears; preserving capital beats forcing a 7th losing trade.
+
+
