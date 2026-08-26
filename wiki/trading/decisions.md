@@ -1091,3 +1091,7 @@
 - **Reasoning:** All three candidates are 24h bleeds with no catalyst, and two of three are tokens I've already lost on; sitting in cash to break the 1W/6L streak rather than force entries.
 
 
+## [2026-08-26 05:26 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates are down on the day and in post-pump decay — not entries. Sitting in SOL is the correct defensive posture after a 6-loss streak.
+
+
