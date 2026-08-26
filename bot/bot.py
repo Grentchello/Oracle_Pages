@@ -508,7 +508,9 @@ No prior trades — fresh slate.
             chg1_str = f", 1h={chg1:+.1f}%" if chg1 is not None else ""
             src = f" [{h.get('price_source', '?')}]" if h.get('price_source') and h.get('price_source') != "missing" else ""
             cur_str = f"${h['current_price_usd']:.10f}" if h.get('current_price_usd', 0) > 0 else "no current price"
+            full_mint = h.get('mint', '')
             prompt += f"  - ${h['symbol']} entry ${h['entry_price_usd']:.10f} now {cur_str} = {pnl_str}, held {h['held_hours']:.1f}h{chg24_str}{chg1_str}{src}\n"
+            prompt += f"      mint={full_mint}\n"
         prompt += "\n"
 
     if candidates:
