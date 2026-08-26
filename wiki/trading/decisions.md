@@ -1031,3 +1031,7 @@
 - **Reasoning:** Defensive stance — both candidates are late entries into declining small-caps showing textbook weak-momentum patterns that mirror my last four losses, so I'm holding the existing $neet to see if the bounce sustains and otherwise sitting on cash.
 
 
+## [2026-08-26 05:07 UTC] sell | [FULL][LLM] $neet at $0.03409 | P&L: -0.3%
+- **Reasoning:** Entry at $0.0342 on a token that already dropped -12.76% in 24h with prior failed entries (neet was -12.7% loss before); held 0h means I just entered into weakness, and the pattern of weak-momentum tokens bleeding out argues for cutting before the -12% time-stop becomes the only exit. Tiny realized loss (-0.3%) is cheaper than waiting.
+
+
