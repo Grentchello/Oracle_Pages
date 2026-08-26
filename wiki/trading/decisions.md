@@ -1456,3 +1456,6 @@
 ## [2026-08-26 09:21 UTC] buy | [LLM] $Wittgenstein at $5.65649e-06, spent 0.1 SOL
 - **Reasoning:** $Wittgenstein narrative — coordinated intellectual meme (also spawning $Unicorn 'Wittgensteinian Unicorn'). Highest bond completion (24%) signals real traction, not just a snipe. Sub-$6k mcap with a coherent story is exactly the attention-market alpha the rules describe.
 
+## [2026-08-26 09:22 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
