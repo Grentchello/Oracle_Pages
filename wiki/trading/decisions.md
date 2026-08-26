@@ -1846,3 +1846,12 @@
 ## [2026-08-26 10:32 UTC] buy | [LLM] $WDOG at $1.57743e-05, spent 0.1 SOL
 - **Reasoning:** $WDOG is the leader of a coordinated Windows Dog/Corgi/Rover deployment wave from one X account — highest mcap ($15.8k) and furthest bond (37%) of the cohort. Narrative meta play, but rugged-variant risk is real so size as one 0.1 SOL bet after freeing a slot.
 
+## [2026-08-26 10:34 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $6.257e-05 | P&L: +549.1%
+- **Reasoning:** $HOTPUMP is +549% with 24h only +57.6% — momentum cooling fast. Lock half the gain, let the rest ride the narrative; at this magnitude a sharp retrace is the bigger risk than missing more upside.
+
+## [2026-08-26 10:34 UTC] sell | [FULL][LLM] $Perry at $5.604e-06 | P&L: -15.2%
+- **Reasoning:** $Perry is -15.2% despite 24h being +77%, meaning the move already happened and we're fading. Cut the loser fast, free a slot.
+
+## [2026-08-26 10:34 UTC] buy | [LLM] $WINDOGE at $7.16101e-06, spent 0.1 SOL
+- **Reasoning:** $WINDOGE leads the new launches at $7.1k mcap with 28% bond complete — highest bonding progress in the batch signals real inflow. Dog-coin meta is evergreen attention; size in before mcap doubles again.
+
