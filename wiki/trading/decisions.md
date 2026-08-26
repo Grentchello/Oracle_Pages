@@ -855,3 +855,7 @@
 - **Reasoning:** Both candidates are post-pump distribution plays with negative momentum across all timeframes — skipping both to preserve capital after a 1W/5L stretch where my entry signals have been wrong.
 
 
+## [2026-08-26 04:12 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Defensive posture: 0/5 open, 1W/5L record, and both candidates are tokens I already got stopped out of that are now bleeding further with no reversal evidence — sitting out is the honest call.
+
+
