@@ -356,23 +356,46 @@ def call_llm(prompt, max_seconds=LLM_TIMEOUT_SECONDS):
 
 
 def extract_json(text):
+    # 1. Try direct parse
     try:
         return json.loads(text)
     except Exception:
         pass
-    m = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
+    # 2. Try code-fenced JSON (multi-line OK)
+    m = re.search(r"```(?:json)?\s*(\{[\s\S]*?\})\s*```", text)
     if m:
         try:
             return json.loads(m.group(1))
         except Exception:
             pass
+    # 3. Try to find the FIRST { and match it with a brace-balanced close
     start = text.find("{")
-    end = text.rfind("}")
-    if start != -1 and end > start:
-        try:
-            return json.loads(text[start:end + 1])
-        except Exception:
-            pass
+    if start != -1:
+        depth = 0
+        in_string = False
+        escape = False
+        for i in range(start, len(text)):
+            c = text[i]
+            if escape:
+                escape = False
+                continue
+            if c == "\\":
+                escape = True
+                continue
+            if c == '"':
+                in_string = not in_string
+                continue
+            if in_string:
+                continue
+            if c == "{":
+                depth += 1
+            elif c == "}":
+                depth -= 1
+                if depth == 0:
+                    try:
+                        return json.loads(text[start:i+1])
+                    except Exception:
+                        break
     return None
 
 
@@ -380,34 +403,43 @@ def extract_json(text):
 # Build the prompt — ATTENTION FIRST
 # =====================================================================
 
-def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl, new_mints):
+def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl, new_mints, held_prices=None):
     """v4: LLM gets narrative context + new-launch alerts."""
 
     positions = state.get("positions", {})
+    held_prices = held_prices or {}
 
     # === Held positions with context ===
     held = []
     for mint, pos in positions.items():
-        token = next((t for t in watchlist_data["tokens"] if t["mint"] == mint), None)
-        if not token:
-            continue
-        cur_price = _to_float(token.get("price_usd"))
         entry_price = _to_float(pos.get("entry_price_usd"))
-        pnl_pct = ((cur_price / entry_price - 1) * 100) if cur_price > 0 and entry_price > 0 else 0
         held_hours = 0
         if pos.get("entry_time"):
             held_hours = (now_utc() - parse_iso(pos["entry_time"])).total_seconds() / 3600
+
+        # Prefer held_prices (always fetched). Fall back to watchlist if held_prices missing.
+        hprice = held_prices.get(mint) or {}
+        cur_price = hprice.get("price_usd") or 0
+        if cur_price <= 0:
+            token = next((t for t in watchlist_data["tokens"] if t["mint"] == mint), None)
+            if token:
+                cur_price = _to_float(token.get("price_usd"))
+
+        pnl_pct = ((cur_price / entry_price - 1) * 100) if cur_price > 0 and entry_price > 0 else None
         held.append({
             "symbol": pos.get("symbol"),
             "mint": mint,
             "amount_tokens": pos.get("amount"),
             "entry_price_usd": entry_price,
             "current_price_usd": cur_price,
-            "pnl_pct": round(pnl_pct, 1),
+            "pnl_pct": round(pnl_pct, 1) if pnl_pct is not None else None,
             "held_hours": round(held_hours, 1),
-            "volatility_score": token.get("volatility_score"),
-            "boost_mode": token.get("boost_mode"),
-            "real_sol_reserves": token.get("real_sol_reserves"),
+            "change_24h": hprice.get("change_h24"),
+            "change_1h": hprice.get("change_h1"),
+            "liquidity_usd": hprice.get("liquidity_usd"),
+            "volume_h24": hprice.get("volume_h24"),
+            "dex_id": hprice.get("dex_id"),
+            "price_source": hprice.get("source", "missing"),
         })
 
     # === All candidate tokens (no filters) ===
@@ -469,7 +501,14 @@ No prior trades — fresh slate.
     if held:
         prompt += "\n# Held positions (decide: hold / sell_all / sell_half)\n"
         for h in held:
-            prompt += f"  - ${h['symbol']} entry ${h['entry_price_usd']:.6g} now ${h['current_price_usd']:.6g} = {h['pnl_pct']:+.1f}%, held {h['held_hours']:.1f}h, real_sol={h['real_sol_reserves']:.2f}\n"
+            pnl_str = f"{h['pnl_pct']:+.1f}%" if h['pnl_pct'] is not None else "no current price"
+            chg24 = h.get('change_24h')
+            chg24_str = f", 24h={chg24:+.1f}%" if chg24 is not None else ""
+            chg1 = h.get('change_1h')
+            chg1_str = f", 1h={chg1:+.1f}%" if chg1 is not None else ""
+            src = f" [{h.get('price_source', '?')}]" if h.get('price_source') and h.get('price_source') != "missing" else ""
+            cur_str = f"${h['current_price_usd']:.10f}" if h.get('current_price_usd', 0) > 0 else "no current price"
+            prompt += f"  - ${h['symbol']} entry ${h['entry_price_usd']:.10f} now {cur_str} = {pnl_str}, held {h['held_hours']:.1f}h{chg24_str}{chg1_str}{src}\n"
         prompt += "\n"
 
     if candidates:
@@ -711,6 +750,37 @@ def main():
                 t["price_usd"] = price_sol * sol_price
                 t["price_source"] = "bonding-curve"
 
+    # 5b. Fetch current prices for HELD positions (separate from new launches —
+    # held tokens may have aged out of pump.fun's new-launches feed).
+    held_mints = list(state.get("positions", {}).keys())
+    held_dex_data = fetch_dexscreener_for_mints(held_mints)
+    held_prices = {}  # mint -> {price_usd, change_24h, change_1h, liq, vol_24h, source}
+    for mint, pos in state.get("positions", {}).items():
+        pair = held_dex_data.get(mint)
+        if pair and _to_float(pair.get("priceUsd")) > 0:
+            held_prices[mint] = {
+                "price_usd": _to_float(pair.get("priceUsd")),
+                "change_h24": _to_float((pair.get("priceChange") or {}).get("h24")),
+                "change_h1": _to_float((pair.get("priceChange") or {}).get("h1")),
+                "liquidity_usd": _to_float((pair.get("liquidity") or {}).get("usd")),
+                "volume_h24": _to_float((pair.get("volume") or {}).get("h24")),
+                "dex_id": pair.get("dexId"),
+                "source": "dexscreener",
+            }
+        else:
+            # No DexScreener pair. Try pump.fun bonding curve.
+            held_prices[mint] = {
+                "price_usd": 0,
+                "change_h24": 0,
+                "change_h1": 0,
+                "liquidity_usd": 0,
+                "volume_h24": 0,
+                "dex_id": None,
+                "source": "missing",
+            }
+    if held_mints:
+        log(f"Fetched prices for {len(held_mints)} held positions ({sum(1 for v in held_prices.values() if v['price_usd'] > 0)} with valid price)")
+
     # 6. Save watchlist for the dashboard
     WATCHLIST_PATH.write_text(json.dumps({
         "fetched_at": iso_now(),
@@ -766,7 +836,7 @@ def main():
     prompt, held, candidates = build_decision_prompt(
         state, sol_price,
         {"tokens": tokens},
-        portfolio, today_pnl, new_mints,
+        portfolio, today_pnl, new_mints, held_prices,
     )
 
     # 11. Throttle: skip LLM if idle and last brief was recent
@@ -783,6 +853,7 @@ def main():
         state["portfolio_value_usd"] = portfolio["total_value_usd"]
         state["last_updated"] = iso_now()
         state["recent_decisions"] = load_recent_decisions(max_n=20)
+        state["held_prices"] = held_prices
         save_state(state)
         git_commit_and_push()
         return
@@ -809,6 +880,7 @@ def main():
         state["portfolio_value_usd"] = portfolio["total_value_usd"]
         state["last_updated"] = iso_now()
         state["recent_decisions"] = load_recent_decisions(max_n=20)
+        state["held_prices"] = held_prices
         save_state(state)
         git_commit_and_push()
         return
@@ -897,12 +969,13 @@ def main():
             "reason": summary,
         })
 
-    state["portfolio_value_usd"] = compute_portfolio_value(state, sol_price, dex_data)["total_value_usd"]
-    state["last_updated"] = iso_now()
-    state["recent_decisions"] = load_recent_decisions(max_n=20)
-    save_state(state)
-    log(f"State: {len(state.get('positions', {}))} positions, {len(state.get('trades', []))} trades")
-    git_commit_and_push()
+        state["portfolio_value_usd"] = compute_portfolio_value(state, sol_price, dex_data)["total_value_usd"]
+        state["last_updated"] = iso_now()
+        state["recent_decisions"] = load_recent_decisions(max_n=20)
+        state["held_prices"] = held_prices  # mint -> {price_usd, change_24h, ...}
+        save_state(state)
+        log(f"State: {len(state.get('positions', {}))} positions, {len(state.get('trades', []))} trades")
+        git_commit_and_push()
 
 
 if __name__ == "__main__":
