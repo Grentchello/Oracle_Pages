@@ -421,8 +421,11 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
             **token,
             "is_new_launch": is_new,
         })
-    # Sort: new launches first, then by recent activity
-    candidates.sort(key=lambda c: (not c.get("is_new_launch"), -(c.get("last_trade_ts") or 0)))
+    # Sort: by bonding progress (graduating first) DESC, then newest, then largest mcap
+    candidates.sort(key=lambda c: (
+        -(c.get("bonding_progress", 0) or 0),  # graduating first
+        -(c.get("created_ts", 0) or 0),  # newer first
+    ))
     candidates = candidates[:15]
 
     # === Recent trades summary ===
