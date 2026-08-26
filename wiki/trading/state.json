@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.729167,
+  "balance_sol": 1.726262,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump": {
       "symbol": "HOTPUMP",
       "name": "Hotpump Miami",
-      "amount": 60.80849042077283,
+      "amount": 30.404245210386414,
       "entry_price_usd": 9.64e-06,
-      "entry_sol_spent": 6.103515625e-06,
+      "entry_sol_spent": 3.0517578125e-06,
       "entry_time": "2026-08-26T10:09:44.210672+00:00",
       "entry_usd_value": 9.6042,
       "entry_signals": {
@@ -69,34 +69,12 @@
       },
       "llm_entry": true
     },
-    "EUpiMj1hGTKBbp8ZvwpujQnLVPGG3HW2ThU6oCH9pump": {
-      "symbol": "JANE",
-      "name": "Jane",
-      "amount": 1061082.4486806837,
-      "entry_price_usd": 9.104853267540315e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-26T10:28:24.388242+00:00",
-      "entry_usd_value": 9.661000000000001,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9112.595846854909,
-        "ath_market_cap_usd": 10933.201597156545,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 25.078984324,
-        "description": "",
-        "twitter": "https://x.com/ianfrostyy/status/2092559473571238063",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "HqEr6nRfT1P9NkWXihZJas1DVuTSSUPcLxyjnaceTPJZ": {
       "symbol": "STAG",
       "name": "The Stag",
-      "amount": 2533759.1317666075,
+      "amount": 1266879.5658833038,
       "entry_price_usd": 3.817253139313369e-06,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.05,
       "entry_time": "2026-08-26T10:30:01.653790+00:00",
       "entry_usd_value": 9.672,
       "entry_signals": {
@@ -109,6 +87,28 @@
         "real_sol_reserves": 5.643293372,
         "description": "",
         "twitter": "https://x.com/himgajria/status/2092559855899099551",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "5SDGDpBWo1D3eUu7Wsn5FyXodRq52Es1LcsPmfgQpump": {
+      "symbol": "Artist",
+      "name": "The Artist",
+      "amount": 924601.7295598201,
+      "entry_price_usd": 1.0452067837468562e-05,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-26T10:31:25.612782+00:00",
+      "entry_usd_value": 9.664000000000001,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 10419.211602213067,
+        "ath_market_cap_usd": 10499.763691110482,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 29.004228715,
+        "description": "Deployed using https://j7tracker.io",
+        "twitter": "https://x.com/StepCoinsol8/status/2092560240965292148",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -1151,37 +1151,64 @@
       "pnl_pct": -36.4,
       "exit_reason": "LLM: sell_all — $MCGA at -36.4% with 24h/1h both -23.3% — trend is down, no narrative strength, cut the loss and free the slot.",
       "partial": false
+    },
+    {
+      "mint": "HqEr6nRfT1P9NkWXihZJas1DVuTSSUPcLxyjnaceTPJZ",
+      "symbol": "STAG",
+      "name": "The Stag",
+      "amount_sold": 1266879.5658833038,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:30:01.653790+00:00",
+      "exit_time": "2026-08-26T10:31:25.612093+00:00",
+      "entry_price_usd": 3.817253139313369e-06,
+      "exit_price_usd": 2.911e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.038161,
+      "pnl_sol": -0.011839,
+      "pnl_pct": -23.74,
+      "exit_reason": "LLM: sell_half — $STAG at -23.7% with 24h momentum negative (-29.2%) and no narrative catalyst visible — cutting half to free slot and cap damage before it tests the -",
+      "partial": true
+    },
+    {
+      "mint": "EUpiMj1hGTKBbp8ZvwpujQnLVPGG3HW2ThU6oCH9pump",
+      "symbol": "JANE",
+      "name": "Jane",
+      "amount_sold": 1061082.4486806837,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-26T10:28:24.388242+00:00",
+      "exit_time": "2026-08-26T10:31:25.612374+00:00",
+      "entry_price_usd": 9.104853267540315e-06,
+      "exit_price_usd": 5.366e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.058917,
+      "pnl_sol": -0.041083,
+      "pnl_pct": -41.06,
+      "exit_reason": "LLM: sell_all — $JANE at -41.1%, dangerously close to the -50% hard cap, with no clear catalyst — exit fully, this is a dead narrative.",
+      "partial": false
+    },
+    {
+      "mint": "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump",
+      "symbol": "HOTPUMP",
+      "name": "Hotpump Miami",
+      "amount_sold": 30.404245210386414,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:09:44.210672+00:00",
+      "exit_time": "2026-08-26T10:31:25.612600+00:00",
+      "entry_price_usd": 9.64e-06,
+      "exit_price_usd": 5.517e-05,
+      "entry_sol_for_chunk": 3e-06,
+      "exit_sol_received": 1.7e-05,
+      "pnl_sol": 1.4e-05,
+      "pnl_pct": 472.3,
+      "exit_reason": "LLM: sell_half — $HOTPUMP at +472% — taking partial profit per the +50% rule, but keeping exposure since the narrative is clearly pumping.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-26T10:30:01.654267+00:00",
+  "last_updated": "2026-08-26T10:31:25.613051+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.72,
-  "portfolio_value_usd": 190.19,
+  "last_sol_price_usd": 96.64,
+  "portfolio_value_usd": 184.94,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 10:24 UTC",
-      "action": "buy",
-      "details": "[LLM] $Ass at $3.315e-06, spent 0.1 SOL",
-      "reason": "$Ass backed by @nexta_tv, a legitimate crypto news account with real reach — rare attention signal at $3k mcap. Crude humor is viral fuel on CT."
-    },
-    {
-      "time": "2026-08-26 10:24 UTC",
-      "action": "buy",
-      "details": "[LLM] $ANAI at $3.65566e-06, spent 0.1 SOL",
-      "reason": "$ANAI has both X promotion and YouTube content backing — multi-platform attention at $3.6k mcap is the kind of asymmetric setup that 10x's. Slight coordination risk with duplicate $AnaI launch noted."
-    },
-    {
-      "time": "2026-08-26 10:25 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $HOTPUMP at $6.1e-05 | P&L: +532.8%",
-      "reason": "$HOTPUMP at +532% is an extreme outlier — taking half profit locks in gains while letting the rest ride. 1h/24h divergence (+53.7% on both) suggests recent spike already cooled somewhat, but holding remainder for narrative continuation."
-    },
-    {
-      "time": "2026-08-26 10:25 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Ass at $2.809e-06 | P&L: -15.3%",
-      "reason": "$Ass at -15.3% with 24h -18.9% — narrative fading, cutting the loss early rather than waiting for -50% hard cap. Redeploy capital into fresh attention."
-    },
     {
       "time": "2026-08-26 10:25 UTC",
       "action": "buy",
@@ -1277,72 +1304,96 @@
       "action": "buy",
       "details": "[LLM] $STAG at $3.81725e-06, spent 0.1 SOL",
       "reason": "$STAG from @himgajria at 0.7min, $3.8k mcap — early animal narrative with 37% bond progress, fresh attention signal worth a small position."
+    },
+    {
+      "time": "2026-08-26 10:31 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $STAG at $2.911e-06 | P&L: -23.7%",
+      "reason": "$STAG at -23.7% with 24h momentum negative (-29.2%) and no narrative catalyst visible — cutting half to free slot and cap damage before it tests the -50% hard floor."
+    },
+    {
+      "time": "2026-08-26 10:31 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $JANE at $5.366e-06 | P&L: -41.1%",
+      "reason": "$JANE at -41.1%, dangerously close to the -50% hard cap, with no clear catalyst — exit fully, this is a dead narrative."
+    },
+    {
+      "time": "2026-08-26 10:31 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $HOTPUMP at $5.517e-05 | P&L: +472.3%",
+      "reason": "$HOTPUMP at +472% — taking partial profit per the +50% rule, but keeping exposure since the narrative is clearly pumping."
+    },
+    {
+      "time": "2026-08-26 10:31 UTC",
+      "action": "buy",
+      "details": "[LLM] $Artist at $1.04521e-05, spent 0.1 SOL",
+      "reason": "$Artist has the highest bond completion (33%) and mcap ($10.4k) of the fresh batch — early attention signal on j7tracker deploy with twitter catalyst."
     }
   ],
   "trade_stats": {
-    "total": 61,
-    "wins": 37,
-    "losses": 24,
-    "win_rate_pct": 60.7,
-    "total_pnl_sol": 0.066674,
-    "avg_pnl_pct": 126.3,
+    "total": 64,
+    "wins": 38,
+    "losses": 26,
+    "win_rate_pct": 59.4,
+    "total_pnl_sol": 0.013766,
+    "avg_pnl_pct": 126.75,
     "best_pnl_pct": 567.22,
     "worst_pnl_pct": -96.94,
-    "today_trades": 61,
-    "today_realized_sol": 0.066674,
-    "today_target_pct": 16.7,
+    "today_trades": 64,
+    "today_realized_sol": 0.013766,
+    "today_target_pct": 3.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 37,
-      "loss_count": 24,
+      "win_count": 38,
+      "loss_count": 26,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T10:30:01.653295+00:00",
+  "last_llm_brief_at": "2026-08-26T10:31:25.612059+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump": {
-      "price_usd": 5.994e-05,
-      "change_h24": 50.98,
-      "change_h1": 50.98,
-      "liquidity_usd": 18837.08,
-      "volume_h24": 180808.29,
+      "price_usd": 5.517e-05,
+      "change_h24": 38.99,
+      "change_h1": 38.99,
+      "liquidity_usd": 18044.9,
+      "volume_h24": 204595.12,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
     "5vANSQNrG7GYuGAzUsUC2rTgCjQ2hwTG2afVCjBGpump": {
-      "price_usd": 7.177e-06,
-      "change_h24": 127.0,
-      "change_h1": 127.0,
+      "price_usd": 6.973e-06,
+      "change_h24": 120.0,
+      "change_h1": 120.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 52261.92,
+      "volume_h24": 54078.4,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "4VfQ5CchtuAukAqoJL1hWcRHJoK6At3byt786DQ4pump": {
-      "price_usd": 1.092e-05,
-      "change_h24": 216.0,
-      "change_h1": 216.0,
+      "price_usd": 1.124e-05,
+      "change_h24": 226.0,
+      "change_h1": 226.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 9789.25,
+      "volume_h24": 10929.49,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "EUpiMj1hGTKBbp8ZvwpujQnLVPGG3HW2ThU6oCH9pump": {
-      "price_usd": 4.628e-06,
-      "change_h24": 41.78,
-      "change_h1": 41.78,
+      "price_usd": 5.366e-06,
+      "change_h24": 64.4,
+      "change_h1": 64.4,
       "liquidity_usd": 0.0,
-      "volume_h24": 31956.76,
+      "volume_h24": 42090.27,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "B95tqzbm8JNSwhJqniFbv9wFRV8xiQLeFZAfMurhpump": {
-      "price_usd": 2.823e-06,
-      "change_h24": -23.26,
-      "change_h1": -23.26,
+    "HqEr6nRfT1P9NkWXihZJas1DVuTSSUPcLxyjnaceTPJZ": {
+      "price_usd": 2.911e-06,
+      "change_h24": -29.2,
+      "change_h1": -29.2,
       "liquidity_usd": 0.0,
-      "volume_h24": 8988.21,
+      "volume_h24": 11377.55,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

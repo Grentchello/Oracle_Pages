@@ -1819,3 +1819,15 @@
 ## [2026-08-26 10:30 UTC] buy | [LLM] $STAG at $3.81725e-06, spent 0.1 SOL
 - **Reasoning:** $STAG from @himgajria at 0.7min, $3.8k mcap — early animal narrative with 37% bond progress, fresh attention signal worth a small position.
 
+## [2026-08-26 10:31 UTC] sell | [PARTIAL][LLM] $STAG at $2.911e-06 | P&L: -23.7%
+- **Reasoning:** $STAG at -23.7% with 24h momentum negative (-29.2%) and no narrative catalyst visible — cutting half to free slot and cap damage before it tests the -50% hard floor.
+
+## [2026-08-26 10:31 UTC] sell | [FULL][LLM] $JANE at $5.366e-06 | P&L: -41.1%
+- **Reasoning:** $JANE at -41.1%, dangerously close to the -50% hard cap, with no clear catalyst — exit fully, this is a dead narrative.
+
+## [2026-08-26 10:31 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $5.517e-05 | P&L: +472.3%
+- **Reasoning:** $HOTPUMP at +472% — taking partial profit per the +50% rule, but keeping exposure since the narrative is clearly pumping.
+
+## [2026-08-26 10:31 UTC] buy | [LLM] $Artist at $1.04521e-05, spent 0.1 SOL
+- **Reasoning:** $Artist has the highest bond completion (33%) and mcap ($10.4k) of the fresh batch — early attention signal on j7tracker deploy with twitter catalyst.
+
