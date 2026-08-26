@@ -1912,3 +1912,21 @@
 ## [2026-08-26 10:42 UTC] buy | [LLM] $Youtooz at $3.1513e-06, spent 0.1 SOL
 - **Reasoning:** $Youtooz — Youtooz is a real licensed plushie brand with built-in collector audience, 7% bond = some traction, $3.1k mcap. Brand-IP crossover memecoins historically rip when the audience notices.
 
+## [2026-08-26 10:44 UTC] sell | [FULL][LLM] $BUSINESS at $2.496e-05 | P&L: +613.4%
+- **Reasoning:** +613% in 0.4h is exceptional. Lock in the moonshot gains, free SOL for new entries. Classic 'bird in hand' — this likely won't sustain.
+
+## [2026-08-26 10:44 UTC] sell | [FULL][LLM] $WDOG at $8.529e-05 | P&L: +440.7%
+- **Reasoning:** +440% in 0.2h with $WDOG narrative still hot — take profit before retracement. Frees slot and capital.
+
+## [2026-08-26 10:44 UTC] sell | [FULL][LLM] $DOLLY at $2.717e-06 | P&L: -4.8%
+- **Reasoning:** $DOLLY down -4.8% and 24h trend -26.2%. Story is fading, cut the loss early instead of waiting for -50% hard cap.
+
+## [2026-08-26 10:44 UTC] sell | [PARTIAL][LLM] $SEYONGPORK at $4.709e-06 | P&L: +4.8%
+- **Reasoning:** $SEYONGPORK at +4.8% with weak 24h momentum (+27% but volatile). Trim half to free slot, hold rest as cheap lottery ticket.
+
+## [2026-08-26 10:44 UTC] buy | [LLM] $DOGE at $1.57319e-05, spent 0.1 SOL
+- **Reasoning:** $DOGE (Youtooz Doge) leads a thematic cluster (3+ tokens from same ForestManSol555 X account), $15.7k mcap with 37% bond — strongest attention signal in this batch. Riding the Youtooz narrative wave.
+
+## [2026-08-26 10:44 UTC] buy | [LLM] $AI at $4.38374e-06, spent 0.1 SOL
+- **Reasoning:** $AI (Anal Intelligence) — shock-value name plus j7tracker deployment. Crude humor is real memecoin alpha at sub-$5k mcap. Small size, asymmetric upside.
+
