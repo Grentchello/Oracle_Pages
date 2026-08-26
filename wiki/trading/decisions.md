@@ -1984,3 +1984,15 @@
 ## [2026-08-26 10:49 UTC] buy | [LLM] $MARDOGE at $0.0001068, spent 0.1 SOL
 - **Reasoning:** $MARDOGE — Martian Doge narrative with viral X handle @mardogeonsol, $103k mcap is highest among fresh launches showing real attention; Mars/doge is a strong meme combo.
 
+## [2026-08-26 10:51 UTC] sell | [PARTIAL][LLM] $Pepo at $6.884e-06 | P&L: +33.4%
+- **Reasoning:** +33% in minutes with 1h=+131%. Take some off the table to lock profit and free a slot, but hold the runner since the momentum is clearly live.
+
+## [2026-08-26 10:51 UTC] sell | [FULL][LLM] $Clarus at $2.735e-06 | P&L: -29.9%
+- **Reasoning:** -30% already and bleeding (1h=-14%). Story didn't hold; cut the loss and free the slot for a fresh viral launch. Well above the -50% hard cap so this is discretionary.
+
+## [2026-08-26 10:51 UTC] buy | [LLM] $TROJAN at $5.454e-06, spent 0.1 SOL
+- **Reasoning:** $TROJAN from Mario Nawfal (huge X account) — already leading the cluster with $11k mcap and 33% bond. Memecoins are attention and this is the highest-attention launch right now. 0.1 SOL.
+
+## [2026-08-26 10:51 UTC] buy | [LLM] $FRUGA at $6.39287e-06, spent 0.1 SOL
+- **Reasoning:** $FRUGA from a dedicated @Frugasolana account at $6k mcap, 0.1min old. Dedicated meme account + fresh launch = attention setup. 0.1 SOL.
+
