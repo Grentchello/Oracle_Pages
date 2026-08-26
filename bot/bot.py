@@ -479,7 +479,9 @@ No prior trades — fresh slate.
             age = c.get('age_min', '?')
             bonding = c.get('bonding_progress', 0)
             tweet = c.get('twitter', '')[:50]
+            full_mint = c.get('mint', '')
             prompt += f"  {flag}${c['symbol']:10} ({c['name'][:24]:24}) age={str(age)+'min':>8} mcap=${mcap:>9,.0f} bond={bonding:.0f}% complete={c.get('complete')}"
+            prompt += f" mint={full_mint}"
             if desc:
                 prompt += f" desc=\"{desc}\""
             if tweet:
