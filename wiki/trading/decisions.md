@@ -939,3 +939,7 @@
 - **Reasoning:** All three top-runners are fading post-pump with negative 24h momentum and two are tokens I already lost on; with 1W/5L track record and today's P&L already negative, the disciplined call is to sit in SOL and wait for a real reclaim, not chase the same names down.
 
 
+## [2026-08-26 04:38 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates show the same pattern: 24h drops of -6 to -13%, weak or negative 1h, far below ATH. This is a 'top runners' list of laggards and post-pump dumps, not fresh setups. Standing down — preserving 1.96 SOL, no new exposure until something with a real catalyst shows up.
+
+
