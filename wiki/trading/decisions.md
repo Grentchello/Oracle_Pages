@@ -1975,3 +1975,12 @@
 ## [2026-08-26 10:48 UTC] buy | [LLM] $Clarus at $3.901e-06, spent 0.1 SOL
 - **Reasoning:** $Clarus (Dogcow) — nostalgic Apple-era IP meme at 0.8min, $3.9k mcap, live X post. Built-in cult-following potential from classic Mac users.
 
+## [2026-08-26 10:49 UTC] sell | [PARTIAL][LLM] $Pepo at $5.818e-06 | P&L: +12.7%
+- **Reasoning:** $Pepo +12.7% with 24h +95% showing strong momentum; take half profit to lock gains and let the rest ride if narrative continues.
+
+## [2026-08-26 10:49 UTC] sell | [FULL][LLM] $BEEHIVE at $2.732e-06 | P&L: -32.5%
+- **Reasoning:** $BEEHIVE -32.5% and 24h -5.2% showing weakness; cut loss before it approaches -50% hard cap and free capital for fresher attention.
+
+## [2026-08-26 10:49 UTC] buy | [LLM] $MARDOGE at $0.0001068, spent 0.1 SOL
+- **Reasoning:** $MARDOGE — Martian Doge narrative with viral X handle @mardogeonsol, $103k mcap is highest among fresh launches showing real attention; Mars/doge is a strong meme combo.
+

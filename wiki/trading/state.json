@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.47876,
+  "balance_sol": 1.502299,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "5WRYktH9wiT33LsnZ7vQxUWWa2QxpQhw3ahUmKS1pump": {
       "symbol": "Pepo",
       "name": "Pepo",
-      "amount": 1888647.8257819912,
+      "amount": 944323.9128909956,
       "entry_price_usd": 5.160835104853004e-06,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.05,
       "entry_time": "2026-08-26T10:46:42.848436+00:00",
       "entry_usd_value": 9.747,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 11.284306832,
         "description": "Launched on discord.gg/uxento",
         "twitter": "https://x.com/Marcello_6955/status/2092564196151980293?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "FNivKim8iPoSHvxQRzHK96mMHtoh1zCQeb9f6d4apump": {
-      "symbol": "BEEHIVE",
-      "name": "The Beehive",
-      "amount": 2408268.926450627,
-      "entry_price_usd": 4.0473054703094964e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-26T10:46:42.848668+00:00",
-      "entry_usd_value": 9.747,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4045.495036950882,
-        "ath_market_cap_usd": 7772.555111141369,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 6.56015242,
-        "description": "",
-        "twitter": "https://x.com/beehivexsol/status/2092564137180336453?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -87,6 +65,28 @@
         "real_sol_reserves": 5.854847143,
         "description": "",
         "twitter": "https://x.com/shishtr/status/2092564310426103864?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "HLD7wcQciQxbUFLi5rVJ26WVkFQEksBkt3MxZSERpump": {
+      "symbol": "MARDOGE",
+      "name": "Martian Doge",
+      "amount": 91507.49063670414,
+      "entry_price_usd": 0.0001068,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-26T10:49:59.403834+00:00",
+      "entry_usd_value": 9.773000000000001,
+      "entry_signals": {
+        "liquidity_usd": 25409.86,
+        "volume_24h_usd": 14287.88,
+        "market_cap_usd": 103275.15005527448,
+        "ath_market_cap_usd": 138796.15495688218,
+        "volatility_score": null,
+        "boost_mode": "IN_PROGRESS",
+        "real_sol_reserves": 54.320987647,
+        "description": "The First Doge of Mars. Building the Martian colony, one believer at a time. $MARDOGE (https://x.com/search?q=%24MARDOGE&src=cashtag_click) | Born on Earth. Destined for Mars.",
+        "twitter": "https://x.com/mardogeonsol",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -1707,31 +1707,47 @@
       "pnl_pct": -5.01,
       "exit_reason": "LLM: sell_all — ALON down -5% but 1h -30.5%, and the $אלון name is flooding launches (multiple duplicates). Name saturation = alpha-killer. Free the slot.",
       "partial": false
+    },
+    {
+      "mint": "5WRYktH9wiT33LsnZ7vQxUWWa2QxpQhw3ahUmKS1pump",
+      "symbol": "Pepo",
+      "name": "Pepo",
+      "amount_sold": 944323.9128909956,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:46:42.848436+00:00",
+      "exit_time": "2026-08-26T10:49:59.403483+00:00",
+      "entry_price_usd": 5.160835104853004e-06,
+      "exit_price_usd": 5.818e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.056217,
+      "pnl_sol": 0.006217,
+      "pnl_pct": 12.73,
+      "exit_reason": "LLM: sell_half — $Pepo +12.7% with 24h +95% showing strong momentum; take half profit to lock gains and let the rest ride if narrative continues.",
+      "partial": true
+    },
+    {
+      "mint": "FNivKim8iPoSHvxQRzHK96mMHtoh1zCQeb9f6d4apump",
+      "symbol": "BEEHIVE",
+      "name": "The Beehive",
+      "amount_sold": 2408268.926450627,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-26T10:46:42.848668+00:00",
+      "exit_time": "2026-08-26T10:49:59.403700+00:00",
+      "entry_price_usd": 4.0473054703094964e-06,
+      "exit_price_usd": 2.732e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.067322,
+      "pnl_sol": -0.032678,
+      "pnl_pct": -32.5,
+      "exit_reason": "LLM: sell_all — $BEEHIVE -32.5% and 24h -5.2% showing weakness; cut loss before it approaches -50% hard cap and free capital for fresher attention.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-26T10:48:46.134613+00:00",
+  "last_updated": "2026-08-26T10:49:59.403959+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.57,
-  "portfolio_value_usd": 183.29,
+  "last_sol_price_usd": 97.73,
+  "portfolio_value_usd": 180.98,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 10:44 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $WDOG at $8.529e-05 | P&L: +440.7%",
-      "reason": "+440% in 0.2h with $WDOG narrative still hot — take profit before retracement. Frees slot and capital."
-    },
-    {
-      "time": "2026-08-26 10:44 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $DOLLY at $2.717e-06 | P&L: -4.8%",
-      "reason": "$DOLLY down -4.8% and 24h trend -26.2%. Story is fading, cut the loss early instead of waiting for -50% hard cap."
-    },
-    {
-      "time": "2026-08-26 10:44 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $SEYONGPORK at $4.709e-06 | P&L: +4.8%",
-      "reason": "$SEYONGPORK at +4.8% with weak 24h momentum (+27% but volatile). Trim half to free slot, hold rest as cheap lottery ticket."
-    },
     {
       "time": "2026-08-26 10:44 UTC",
       "action": "buy",
@@ -1833,72 +1849,81 @@
       "action": "buy",
       "details": "[LLM] $Clarus at $3.901e-06, spent 0.1 SOL",
       "reason": "$Clarus (Dogcow) — nostalgic Apple-era IP meme at 0.8min, $3.9k mcap, live X post. Built-in cult-following potential from classic Mac users."
+    },
+    {
+      "time": "2026-08-26 10:49 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Pepo at $5.818e-06 | P&L: +12.7%",
+      "reason": "$Pepo +12.7% with 24h +95% showing strong momentum; take half profit to lock gains and let the rest ride if narrative continues."
+    },
+    {
+      "time": "2026-08-26 10:49 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BEEHIVE at $2.732e-06 | P&L: -32.5%",
+      "reason": "$BEEHIVE -32.5% and 24h -5.2% showing weakness; cut loss before it approaches -50% hard cap and free capital for fresher attention."
+    },
+    {
+      "time": "2026-08-26 10:49 UTC",
+      "action": "buy",
+      "details": "[LLM] $MARDOGE at $0.0001068, spent 0.1 SOL",
+      "reason": "$MARDOGE — Martian Doge narrative with viral X handle @mardogeonsol, $103k mcap is highest among fresh launches showing real attention; Mars/doge is a strong meme combo."
     }
   ],
   "trade_stats": {
-    "total": 95,
-    "wins": 53,
-    "losses": 42,
-    "win_rate_pct": 55.8,
-    "total_pnl_sol": -0.021239,
-    "avg_pnl_pct": 136.9,
+    "total": 97,
+    "wins": 54,
+    "losses": 43,
+    "win_rate_pct": 55.7,
+    "total_pnl_sol": -0.0477,
+    "avg_pnl_pct": 133.87,
     "best_pnl_pct": 666.22,
     "worst_pnl_pct": -96.94,
-    "today_trades": 95,
-    "today_realized_sol": -0.021239,
-    "today_target_pct": -5.3,
+    "today_trades": 97,
+    "today_realized_sol": -0.0477,
+    "today_target_pct": -11.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 53,
-      "loss_count": 42,
+      "win_count": 54,
+      "loss_count": 43,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T10:48:46.133448+00:00",
+  "last_llm_brief_at": "2026-08-26T10:49:59.403450+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "FkoWfCzPgf9TyPE4fzBtKHKPn6hyueHrSkKHnfropump": {
-      "price_usd": 2.724e-06,
-      "change_h24": -26.4,
-      "change_h1": -26.4,
-      "liquidity_usd": 0.0,
-      "volume_h24": 4931.53,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "D7ZPXgBxneREy3s1zcw4qq7pY7LtweGixzbV2oFjpump": {
-      "price_usd": 4.342e-06,
-      "change_h24": 50.72,
-      "change_h1": 50.72,
-      "liquidity_usd": 0.0,
-      "volume_h24": 53821.36,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "GBQ5VkkiVaaE8KgbpDLevbvcmSAqbgXnFWaAADypaL7": {
-      "price_usd": 2.724e-06,
-      "change_h24": -30.52,
-      "change_h1": -30.52,
-      "liquidity_usd": 0.0,
-      "volume_h24": 2491.59,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
     "5WRYktH9wiT33LsnZ7vQxUWWa2QxpQhw3ahUmKS1pump": {
-      "price_usd": 6.026e-06,
-      "change_h24": 102.0,
-      "change_h1": 102.0,
+      "price_usd": 5.818e-06,
+      "change_h24": 95.07,
+      "change_h1": 95.07,
       "liquidity_usd": 0.0,
-      "volume_h24": 26913.33,
+      "volume_h24": 33769.17,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "FNivKim8iPoSHvxQRzHK96mMHtoh1zCQeb9f6d4apump": {
-      "price_usd": 4.113e-06,
-      "change_h24": 42.67,
-      "change_h1": 42.67,
+      "price_usd": 2.732e-06,
+      "change_h24": -5.22,
+      "change_h1": -5.22,
       "liquidity_usd": 0.0,
-      "volume_h24": 8908.81,
+      "volume_h24": 9602.11,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "CpTxGpsybzSexB6LmtagxKpkw4jSZekDF6arRp4fpump": {
+      "price_usd": 5.972e-06,
+      "change_h24": 30.24,
+      "change_h1": 30.24,
+      "liquidity_usd": 0.0,
+      "volume_h24": 13020.29,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "7pRvLmA3nQQvYqaQB69Qei9Z4ByMDHWeji5eT6hupump": {
+      "price_usd": 4.018e-06,
+      "change_h24": 26.14,
+      "change_h1": 26.14,
+      "liquidity_usd": 0.0,
+      "volume_h24": 3867.06,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }
