@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.637747,
+  "balance_sol": 1.591168,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump": {
       "symbol": "HOTPUMP",
       "name": "Hotpump Miami",
-      "amount": 3.8005306512983017,
+      "amount": 1.9002653256491508,
       "entry_price_usd": 9.64e-06,
-      "entry_sol_spent": 3.814697265625e-07,
+      "entry_sol_spent": 1.9073486328125e-07,
       "entry_time": "2026-08-26T10:09:44.210672+00:00",
       "entry_usd_value": 9.6042,
       "entry_signals": {
@@ -69,28 +69,6 @@
       },
       "llm_entry": true
     },
-    "BkhjmHUPuKjQqvkcDtyhCGfHXPSRfe3XEtWiocYApump": {
-      "symbol": "Winston",
-      "name": "Windows Dog",
-      "amount": 1838194.147432112,
-      "entry_price_usd": 5.261141764328878e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-26T10:35:29.927168+00:00",
-      "entry_usd_value": 9.671,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5272.204131206203,
-        "ath_market_cap_usd": 6085.65380762067,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 11.847045278,
-        "description": "Created on https://rapidlaunch.io",
-        "twitter": "https://x.com/river100x/status/2092561441958007171",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "7Vu9fXNKfKUQJAGgKZHvakrz7SooAogGEWxHNvzLpump": {
       "symbol": "BLNK",
       "name": "BLNK",
@@ -109,6 +87,28 @@
         "real_sol_reserves": 3.345981538,
         "description": "nobody knows what it is. fill the blank and pretend you do.",
         "twitter": "https://x.com/blnkhush",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "FoYFUPUxh6Jn7265yBM84w9g6VoaJBxEfmcXTdbVohQi": {
+      "symbol": "BASIL",
+      "name": "Windows Dog",
+      "amount": 1660545.7353698304,
+      "entry_price_usd": 5.827e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-26T10:37:06.011028+00:00",
+      "entry_usd_value": 9.676000000000002,
+      "entry_signals": {
+        "liquidity_usd": 0.0,
+        "volume_24h_usd": 11296.33,
+        "market_cap_usd": 9783.333406782933,
+        "ath_market_cap_usd": 12694.64866096188,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 27.020195821,
+        "description": "",
+        "twitter": "https://x.com/BNB_GME/status/2092561565220278365",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -1355,31 +1355,47 @@
       "pnl_pct": 155.03,
       "exit_reason": "LLM: sell_half — +155% in 0h is excellent — take half off to secure profits while keeping exposure to the Windows Dog theme that is clearly heating up.",
       "partial": true
+    },
+    {
+      "mint": "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump",
+      "symbol": "HOTPUMP",
+      "name": "Hotpump Miami",
+      "amount_sold": 1.9002653256491508,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:09:44.210672+00:00",
+      "exit_time": "2026-08-26T10:37:06.010550+00:00",
+      "entry_price_usd": 9.64e-06,
+      "exit_price_usd": 2.167e-05,
+      "entry_sol_for_chunk": 0.0,
+      "exit_sol_received": 0.0,
+      "pnl_sol": 0.0,
+      "pnl_pct": 124.79,
+      "exit_reason": "LLM: sell_half — +124.8% is fat gains but 1h=-45.4% shows momentum fading fast. Lock half, let the rest ride or die — classic take-profit discipline.",
+      "partial": true
+    },
+    {
+      "mint": "BkhjmHUPuKjQqvkcDtyhCGfHXPSRfe3XEtWiocYApump",
+      "symbol": "Winston",
+      "name": "Windows Dog",
+      "amount_sold": 1838194.147432112,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-26T10:35:29.927168+00:00",
+      "exit_time": "2026-08-26T10:37:06.010832+00:00",
+      "entry_price_usd": 5.261141764328878e-06,
+      "exit_price_usd": 2.812e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.053421,
+      "pnl_sol": -0.046579,
+      "pnl_pct": -46.55,
+      "exit_reason": "LLM: sell_all — -46.6% and only 0.0h old, bleeding on both timeframes. Close to -50% hard cap — cut it now before the bot force-closes me.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-26T10:35:29.927345+00:00",
+  "last_updated": "2026-08-26T10:37:06.011264+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.71,
-  "portfolio_value_usd": 183.76,
+  "last_sol_price_usd": 96.76,
+  "portfolio_value_usd": 179.34,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 10:30 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $BUSINESS at $1.092e-05 | P&L: +212.1%",
-      "reason": "$BUSINESS at +212.1% with 24h/1h +216% — massive move, take partial profits before mean reversion."
-    },
-    {
-      "time": "2026-08-26 10:30 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MCGA at $2.823e-06 | P&L: -36.4%",
-      "reason": "$MCGA at -36.4% with 24h/1h both -23.3% — trend is down, no narrative strength, cut the loss and free the slot."
-    },
-    {
-      "time": "2026-08-26 10:30 UTC",
-      "action": "buy",
-      "details": "[LLM] $STAG at $3.81725e-06, spent 0.1 SOL",
-      "reason": "$STAG from @himgajria at 0.7min, $3.8k mcap — early animal narrative with 37% bond progress, fresh attention signal worth a small position."
-    },
     {
       "time": "2026-08-26 10:31 UTC",
       "action": "sell",
@@ -1481,63 +1497,90 @@
       "action": "buy",
       "details": "[LLM] $BLNK at $3.3407e-06, spent 0.1 SOL",
       "reason": "$BLNK has a self-referential riddle meme ('fill the blank and pretend you do') — that's the exact format that spreads on CT. Low mcap, fresh, narrative-driven."
+    },
+    {
+      "time": "2026-08-26 10:37 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $HOTPUMP at $2.167e-05 | P&L: +124.8%",
+      "reason": "+124.8% is fat gains but 1h=-45.4% shows momentum fading fast. Lock half, let the rest ride or die — classic take-profit discipline."
+    },
+    {
+      "time": "2026-08-26 10:37 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Winston at $2.812e-06 | P&L: -46.5%",
+      "reason": "-46.6% and only 0.0h old, bleeding on both timeframes. Close to -50% hard cap — cut it now before the bot force-closes me."
+    },
+    {
+      "time": "2026-08-26 10:37 UTC",
+      "action": "buy",
+      "details": "[LLM] $BASIL at $5.827e-06, spent 0.1 SOL",
+      "reason": "$BASIL leads the Windows Dog pack at $9.7k mcap with 32% bond — the highest bonding curve. Narrator @BNB_GME is live-tweeting, this is the flagship of a narrative cluster (WDOG already +211%). Best attention/price ratio."
     }
   ],
   "trade_stats": {
-    "total": 73,
+    "total": 75,
     "wins": 43,
-    "losses": 30,
-    "win_rate_pct": 58.9,
-    "total_pnl_sol": 0.000247,
-    "avg_pnl_pct": 130.82,
+    "losses": 32,
+    "win_rate_pct": 57.3,
+    "total_pnl_sol": -0.046332,
+    "avg_pnl_pct": 128.37,
     "best_pnl_pct": 567.22,
     "worst_pnl_pct": -96.94,
-    "today_trades": 73,
-    "today_realized_sol": 0.000247,
-    "today_target_pct": 0.1,
+    "today_trades": 75,
+    "today_realized_sol": -0.046332,
+    "today_target_pct": -11.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 43,
-      "loss_count": 30,
+      "loss_count": 32,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T10:35:29.926689+00:00",
+  "last_llm_brief_at": "2026-08-26T10:37:06.010518+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump": {
-      "price_usd": 4.432e-05,
-      "change_h24": 11.66,
-      "change_h1": 11.66,
-      "liquidity_usd": 16078.32,
-      "volume_h24": 253937.8,
+      "price_usd": 2.167e-05,
+      "change_h24": -45.4,
+      "change_h1": -45.4,
+      "liquidity_usd": 10736.41,
+      "volume_h24": 261630.42,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
     "4VfQ5CchtuAukAqoJL1hWcRHJoK6At3byt786DQ4pump": {
-      "price_usd": 1.514e-05,
-      "change_h24": 338.0,
-      "change_h1": 338.0,
+      "price_usd": 1.583e-05,
+      "change_h24": 359.0,
+      "change_h1": 359.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 15392.88,
+      "volume_h24": 15789.26,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "HPiMjD9vUv66jQPhQDNYv4jaua7xzCZBHMm9Uip6oiEw": {
-      "price_usd": 4.023e-05,
-      "change_h24": 3.39,
-      "change_h1": 3.39,
-      "liquidity_usd": 14974.24,
-      "volume_h24": 97989.36,
+      "price_usd": 4.917e-05,
+      "change_h24": 26.36,
+      "change_h1": 26.36,
+      "liquidity_usd": 16762.98,
+      "volume_h24": 113997.35,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
-    "FSuFUbT6YbDWSoLDhr7knx4AoBpXSfuhpzuBsEqQpump": {
-      "price_usd": 2.707e-06,
-      "change_h24": -17.15,
-      "change_h1": -17.15,
+    "BkhjmHUPuKjQqvkcDtyhCGfHXPSRfe3XEtWiocYApump": {
+      "price_usd": 2.812e-06,
+      "change_h24": -13.86,
+      "change_h1": -13.86,
       "liquidity_usd": 0.0,
-      "volume_h24": 6170.56,
+      "volume_h24": 5443.97,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "7Vu9fXNKfKUQJAGgKZHvakrz7SooAogGEWxHNvzLpump": {
+      "price_usd": 2.777e-06,
+      "change_h24": -10.27,
+      "change_h1": -10.27,
+      "liquidity_usd": 0.0,
+      "volume_h24": 1250.34,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

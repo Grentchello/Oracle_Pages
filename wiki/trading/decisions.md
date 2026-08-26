@@ -1870,3 +1870,12 @@
 ## [2026-08-26 10:35 UTC] buy | [LLM] $BLNK at $3.3407e-06, spent 0.1 SOL
 - **Reasoning:** $BLNK has a self-referential riddle meme ('fill the blank and pretend you do') — that's the exact format that spreads on CT. Low mcap, fresh, narrative-driven.
 
+## [2026-08-26 10:37 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $2.167e-05 | P&L: +124.8%
+- **Reasoning:** +124.8% is fat gains but 1h=-45.4% shows momentum fading fast. Lock half, let the rest ride or die — classic take-profit discipline.
+
+## [2026-08-26 10:37 UTC] sell | [FULL][LLM] $Winston at $2.812e-06 | P&L: -46.5%
+- **Reasoning:** -46.6% and only 0.0h old, bleeding on both timeframes. Close to -50% hard cap — cut it now before the bot force-closes me.
+
+## [2026-08-26 10:37 UTC] buy | [LLM] $BASIL at $5.827e-06, spent 0.1 SOL
+- **Reasoning:** $BASIL leads the Windows Dog pack at $9.7k mcap with 32% bond — the highest bonding curve. Narrator @BNB_GME is live-tweeting, this is the flagship of a narrative cluster (WDOG already +211%). Best attention/price ratio.
+
