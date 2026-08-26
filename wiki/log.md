@@ -130,3 +130,11 @@
 - Created ~/.hermes/skills/productivity/tasks/SKILL.md so future task operations are consistent
 - Verified with real Chromium browser: gate works, wrong password shows error, correct password shows the task
 - Initial task: "Copy more house keys" (high priority)
+
+## [2026-08-26] update | Vault password changed
+- Grant set canonical vault password to `aW0^n7qZ^S`
+- This password now protects the Tasks page and any future password-gated sections
+- Updated tasks.json's PASSWORD_HASH in wiki/tasks/index.md
+- Saved password + hash to Hermes memory so future sessions know it
+- Updated tasks skill docs with the new password reference
+- Old password "oracle" no longer works — verified via puppeteer
