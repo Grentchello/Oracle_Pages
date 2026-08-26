@@ -875,3 +875,7 @@
 - **Reasoning:** Both candidates are prior losers in fresh downtrends (9% and 43% of ATH, both red on all timeframes) — skipping rather than chasing decaying names; sitting in 1.96 SOL cash waiting for a genuine reversal signal rather than 'trending' laggards.
 
 
+## [2026-08-26 04:18 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are the exact same names I already lost on today and the tape is still red on both — skipping is the only honest call; sitting on cash at 1.96 SOL waiting for a fresh, actually-bidding setup.
+
+
