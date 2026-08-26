@@ -2155,3 +2155,21 @@
 ## [2026-08-26 11:13 UTC] buy | [LLM] $CGPT at $3.10335e-06, spent 0.1 SOL
 - **Reasoning:** $CGPT 'ChainGPT Agent' — AI agent narrative + established ChainGPT brand association, 0.2min age is prime entry for attention capture.
 
+## [2026-08-26 11:15 UTC] sell | [PARTIAL][LLM] $MARDOGE at $0.0001798 | P&L: +68.3%
+- **Reasoning:** +68.4% in 0.4h with 24h/1h both +146%. Rule says take some profit at +50%, but the 1h candle still shows momentum. Trim half to lock gains and let the rest ride if narrative holds.
+
+## [2026-08-26 11:15 UTC] sell | [FULL][LLM] $BEL at $2.805e-06 | P&L: -36.5%
+- **Reasoning:** -36.5% and falling, 24h -14.9%. Approaching the -50% hard cap. Cut now to preserve remaining capital rather than waiting for the auto-close.
+
+## [2026-08-26 11:15 UTC] sell | [FULL][LLM] $TREND at $2.42e-09 | P&L: -99.9%
+- **Reasoning:** -99.9% — effectively a rug/dump. No reason to hold; recover whatever residual liquidity will give. This was already gone before this tick.
+
+## [2026-08-26 11:15 UTC] sell | [FULL][LLM] $Nepal at $2.909e-06 | P&L: -25.8%
+- **Reasoning:** -25.8% with 24h -14.4%, newly entered and bleeding. No narrative strength evident; cut before it deepens further.
+
+## [2026-08-26 11:15 UTC] buy | [LLM] $PURPLECHIP at $2.725e-06, spent 0.1 SOL
+- **Reasoning:** 'Purple Chip is the next Blue Chip' — clear meta-narrative piggybacking on a familiar crypto term. $3k mcap with a simple, sticky story. Classic attention play; size 0.1 SOL.
+
+## [2026-08-26 11:15 UTC] buy | [LLM] $WIF at $2.739e-06, spent 0.1 SOL
+- **Reasoning:** 'Dog Wif Hijab' — cultural-tension narrative with a clear X link (n9aine). Wif-dog meta variant, controversy drives attention. $2.7k mcap with a story. 0.1 SOL entry.
+
