@@ -707,3 +707,7 @@
 - **Reasoning:** Both candidates are prior losses in mid-dump territory with no confirmed reversal; with a 1W/5L track record I'm parking capital in SOL until a genuinely fresh, high-conviction setup appears rather than re-entering today's losers.
 
 
+## [2026-08-26 03:25 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are down-trending post-ATH names I've already lost on; standing pat with cash, 1W/5L streak and -0.0386 SOL today means I need a clean setup, not revenge entries into the same exhausted runners.
+
+
