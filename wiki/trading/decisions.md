@@ -1071,3 +1071,7 @@
 - **Reasoning:** Market read is bearish-bounce: all three top-runners are 24h-down with weak 1h pops, and my last 4 trades are all losses. With 1.96 SOL dry powder and no edge visible, I'm sitting today to protect capital and reset — forcing entries to chase the daily target is exactly how 1W/6L becomes 1W/9L.
 
 
+## [2026-08-26 05:20 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Sitting out — all three candidates exhibit the exact bounce-into-continuing-downtrend pattern that produced my 1W/6L record, including repeat offender neet; preserving capital and waiting for a setup I haven't already lost on.
+
+
