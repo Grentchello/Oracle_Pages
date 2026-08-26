@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.723072,
+  "balance_sol": 1.797766,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -50,9 +50,9 @@
     "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump": {
       "symbol": "HOTPUMP",
       "name": "Hotpump Miami",
-      "amount": 124535.78838174275,
+      "amount": 62267.894190871375,
       "entry_price_usd": 9.64e-06,
-      "entry_sol_spent": 0.0125,
+      "entry_sol_spent": 0.00625,
       "entry_time": "2026-08-26T10:09:44.210672+00:00",
       "entry_usd_value": 9.6042,
       "entry_signals": {
@@ -87,28 +87,6 @@
         "real_sol_reserves": 21.204366935,
         "description": "",
         "twitter": "https://x.com/ForestManSol555/status/2092556005477404771",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "2xL8E1ttzK8oLKyVT6bpyoFhkw3ed2Q915pH8U39pump": {
-      "symbol": "Walter",
-      "name": "Walter",
-      "amount": 1805433.1527675681,
-      "entry_price_usd": 5.327253454527777e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-26T10:15:44.510780+00:00",
-      "entry_usd_value": 9.618000000000002,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5325.970094670841,
-        "ath_market_cap_usd": 5435.677177108784,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 12.225012019,
-        "description": "Deployed using https://j7tracker.io",
-        "twitter": "https://x.com/TheAuraBird/status/2092556391147814925",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -560,25 +538,47 @@
       "pnl_pct": 365.46,
       "exit_reason": "LLM: sell_half — $HOTPUMP +365% but 1h only +13% — momentum is fading. Take half profit, hold runner with stop.",
       "partial": true
+    },
+    {
+      "mint": "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump",
+      "symbol": "HOTPUMP",
+      "name": "Hotpump Miami",
+      "amount_sold": 62267.894190871375,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:09:44.210672+00:00",
+      "exit_time": "2026-08-26T10:18:22.672445+00:00",
+      "entry_price_usd": 9.64e-06,
+      "exit_price_usd": 3.091e-05,
+      "entry_sol_for_chunk": 0.00625,
+      "exit_sol_received": 0.019987,
+      "pnl_sol": 0.013737,
+      "pnl_pct": 220.64,
+      "exit_reason": "LLM: sell_half — +220.6% spot but 24h -22.1% means the move is fading fast — lock half the gain, let the rest ride or die.",
+      "partial": true
+    },
+    {
+      "mint": "2xL8E1ttzK8oLKyVT6bpyoFhkw3ed2Q915pH8U39pump",
+      "symbol": "Walter",
+      "name": "Walter",
+      "amount_sold": 1805433.1527675681,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-26T10:15:44.510780+00:00",
+      "exit_time": "2026-08-26T10:18:22.672654+00:00",
+      "entry_price_usd": 5.327253454527777e-06,
+      "exit_price_usd": 2.918e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.054707,
+      "pnl_sol": -0.045293,
+      "pnl_pct": -45.23,
+      "exit_reason": "LLM: sell_all — -45.2% and right at the -50% hard cap with no recovery signal (24h -12.9%, 1h -12.9%). Cut now to free a slot and stop the bleed before the auto-close",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-26T10:17:03.127330+00:00",
+  "last_updated": "2026-08-26T10:18:22.672753+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.23,
-  "portfolio_value_usd": 191.19,
+  "last_sol_price_usd": 96.3,
+  "portfolio_value_usd": 188.29,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 10:08 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $doom at $1.071e-06 | P&L: -96.9%",
-      "reason": "$doom at -96.9% is essentially dead capital. Should have triggered -50% cap already. Slot better used on fresh attention."
-    },
-    {
-      "time": "2026-08-26 10:08 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $JOJO at $2.693e-06 | P&L: -16.1%",
-      "reason": "$JOJO at -16.1% with negative1h/24h momentum. Cutting to redeploy slot into fresher attention with stronger narratives."
-    },
     {
       "time": "2026-08-26 10:08 UTC",
       "action": "buy",
@@ -686,6 +686,18 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $HOTPUMP at $4.487e-05 | P&L: +365.5%",
       "reason": "$HOTPUMP +365% but 1h only +13% — momentum is fading. Take half profit, hold runner with stop."
+    },
+    {
+      "time": "2026-08-26 10:18 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $HOTPUMP at $3.091e-05 | P&L: +220.6%",
+      "reason": "+220.6% spot but 24h -22.1% means the move is fading fast — lock half the gain, let the rest ride or die."
+    },
+    {
+      "time": "2026-08-26 10:18 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Walter at $2.918e-06 | P&L: -45.2%",
+      "reason": "-45.2% and right at the -50% hard cap with no recovery signal (24h -12.9%, 1h -12.9%). Cut now to free a slot and stop the bleed before the auto-close."
     }
   ],
   "trade_stats": {
@@ -707,51 +719,51 @@
       "note": "need ≥3 wins and ≥3 losses for signal analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T10:17:03.126840+00:00",
+  "last_llm_brief_at": "2026-08-26T10:18:22.672373+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EUqvfNJ9gSvAzC4guV8xkG3ifhPtxQR1aDi1QtfVpump": {
-      "price_usd": 1.731e-05,
-      "change_h24": 406.0,
-      "change_h1": 406.0,
+      "price_usd": 1.02e-05,
+      "change_h24": 198.0,
+      "change_h1": 198.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 119257.13,
+      "volume_h24": 126082.29,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "71mfBEE1xRfpCfdn4DhUNwR3r8xTajsNWZ8cQtoRpump": {
-      "price_usd": 7.926e-06,
-      "change_h24": 75.63,
-      "change_h1": 75.63,
+      "price_usd": 7.895e-06,
+      "change_h24": 74.96,
+      "change_h1": 74.96,
       "liquidity_usd": 0.0,
-      "volume_h24": 14105.12,
+      "volume_h24": 14424.75,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump": {
-      "price_usd": 4.487e-05,
-      "change_h24": 13.03,
-      "change_h1": 13.03,
-      "liquidity_usd": 15749.33,
-      "volume_h24": 9693.8,
+      "price_usd": 3.091e-05,
+      "change_h24": -22.12,
+      "change_h1": -22.12,
+      "liquidity_usd": 12813.27,
+      "volume_h24": 26690.17,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
     "2AG731RkWXYdG142khYM2N5tzTgCrpeBUwKMQswVpump": {
-      "price_usd": 9.887e-06,
-      "change_h24": 205.0,
-      "change_h1": 205.0,
+      "price_usd": 8.937e-06,
+      "change_h24": 176.0,
+      "change_h1": 176.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 10916.41,
+      "volume_h24": 12606.04,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "2xL8E1ttzK8oLKyVT6bpyoFhkw3ed2Q915pH8U39pump": {
-      "price_usd": 3.925e-06,
-      "change_h24": 17.13,
-      "change_h1": 17.13,
+      "price_usd": 2.918e-06,
+      "change_h24": -12.91,
+      "change_h1": -12.91,
       "liquidity_usd": 0.0,
-      "volume_h24": 4411.33,
+      "volume_h24": 4939.88,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

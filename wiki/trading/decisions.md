@@ -1666,3 +1666,9 @@
 ## [2026-08-26 10:17 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $4.487e-05 | P&L: +365.5%
 - **Reasoning:** $HOTPUMP +365% but 1h only +13% — momentum is fading. Take half profit, hold runner with stop.
 
+## [2026-08-26 10:18 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $3.091e-05 | P&L: +220.6%
+- **Reasoning:** +220.6% spot but 24h -22.1% means the move is fading fast — lock half the gain, let the rest ride or die.
+
+## [2026-08-26 10:18 UTC] sell | [FULL][LLM] $Walter at $2.918e-06 | P&L: -45.2%
+- **Reasoning:** -45.2% and right at the -50% hard cap with no recovery signal (24h -12.9%, 1h -12.9%). Cut now to free a slot and stop the bleed before the auto-close.
+

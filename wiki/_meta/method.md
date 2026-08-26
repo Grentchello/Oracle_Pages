@@ -94,3 +94,14 @@ Rule of thumb: **if Grant would want to remember it later, it gets a daily note 
 - [[index]] — content catalog
 - [[daily-journal]] — daily note format and rotation policy
 - [[oracle_Vault]] — repo metadata
+## Communication style
+
+**Default mode: caveman full.** Every response compressed: drop articles (a/an/the), filler (just/really/basically), pleasantries (sure/certainly/of course), hedging. Fragments OK. Short synonyms (fix not "implement a solution for"). No tool-call narration, no decorative tables/emoji unless asked. Tool calls fire direct, no preamble.
+
+Setup at session start:
+- Config: `~/.config/caveman/config.json` = `{"defaultMode": "full"}`
+- Env: `CAVEMAN_DEFAULT_MODE=full` in `~/.bashrc`
+
+Deactivate: say "stop caveman" or "normal mode".
+
+Keep technical terms, code, commands, commit types, exact error strings verbatim.
