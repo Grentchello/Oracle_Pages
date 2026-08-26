@@ -1717,3 +1717,30 @@
 ## [2026-08-26 10:22 UTC] buy | [LLM] $TripleM at $2.82479e-06, spent 0.1 SOL
 - **Reasoning:** $TripleM (Mighty Mac Mini) — riding the same PetaIS0L attention wave as $MAC, but smaller and cheaper. Bundling a 'thematic cluster' bet is high-variance; small size makes sense.
 
+## [2026-08-26 10:22 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $5.086e-05 | P&L: +427.6%
+- **Reasoning:** HOTPUMP is +427% and we're only 0.2h in — classic memecoin peak shape. Take partial profit now, let the runner ride with the house's money.
+
+## [2026-08-26 10:22 UTC] sell | [FULL][LLM] $Lilly at $3.856e-06 | P&L: -50.7%
+- **Reasoning:** Lilly hit the -50% hard cap. Automatic exit.
+
+## [2026-08-26 10:22 UTC] sell | [FULL][LLM] $MAC at $3.243e-06 | P&L: +0.0%
+- **Reasoning:** MAC is flat at entry with negative 24h momentum and no narrative signal — freeing capital for fresh attention.
+
+## [2026-08-26 10:22 UTC] sell | [FULL][LLM] $CHONKYCAT at $2.84e-06 | P&L: +0.0%
+- **Reasoning:** CHONKYCAT flat at entry, -18% on 1h, no viral catalyst. Cut and redeploy.
+
+## [2026-08-26 10:22 UTC] sell | [FULL][LLM] $TripleM at $2.825e-06 | P&L: +0.0%
+- **Reasoning:** TripleM flat, -9.6% 1h, no narrative edge. Free the slot.
+
+## [2026-08-26 10:22 UTC] buy | [LLM] $Perry at $6.60477e-06, spent 0.1 SOL
+- **Reasoning:** $Perry the Platypus — Phineas & Ferb is a massive nostalgia IP, mcap only $6.6k with bond at 27% already moving. Classic viral attention setup, early entry before the curve catches on.
+
+## [2026-08-26 10:22 UTC] buy | [LLM] $pumptacio at $3.99659e-06, spent 0.1 SOL
+- **Reasoning:** $pumptacio has its own dedicated X handle (@Pumptacio) with a quirky pistachio narrative — that's a real attention signal at $4k mcap, pure asymmetric bet.
+
+## [2026-08-26 10:22 UTC] buy | [LLM] $BUSINESS at $3.499e-06, spent 0.1 SOL
+- **Reasoning:** $BUSINESS Monkeys posted in a community (community engagement = attention seeding), narrative is clear and memeable, $3.5k mcap with 11% bond progression — early but building.
+
+## [2026-08-26 10:22 UTC] buy | [LLM] $MNKY at $6.59322e-06, spent 0.1 SOL
+- **Reasoning:** $MNKY highest mcap of the fresh batch at $6.6k — Monkey meta has been hot, simple ticker rides attention waves. Small size, high attention multiple.
+
