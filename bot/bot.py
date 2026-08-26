@@ -863,12 +863,16 @@ def main():
                 if c["mint"].startswith(target_mint_prefix[:10]):
                     target_mint = c["mint"]
                     break
-            if not target_mint or target_mint in state.get("positions", {}):
+            if not target_mint:
+                log(f"DEBUG: LLM wanted to buy {target_mint_prefix[:20]} but no candidate matched. Available: {[c['mint'][:10] for c in candidates]}")
+                continue
+            if target_mint in state.get("positions", {}):
                 continue
             if len(state.get("positions", {})) >= MAX_POSITIONS:
                 break
             token = next((t for t in tokens if t["mint"] == target_mint), None)
             if not token or _to_float(token.get("price_usd")) <= 0:
+                log(f"DEBUG: {target_mint[:10]} matched but no price (price_usd={token.get('price_usd') if token else 'NO TOKEN'})")
                 continue
             pos, err = execute_buy(state, target_mint, token, _to_float(token["price_usd"]), sol_price)
             if pos:
