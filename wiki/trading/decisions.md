@@ -679,3 +679,7 @@
 - **Reasoning:** Both candidates are prior losers showing sustained downtrends with late-stage bounces — skipping to preserve the 1.95 SOL balance; sitting flat until a fresh, high-conviction setup appears rather than averaging into weakness.
 
 
+## [2026-08-26 03:16 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are names I've already lost money on recently (same mints, same pattern: entry signal failed, time-stopped at double-digit loss). Re-entering failed setups is the #1 way retail bleeds — skipping both, preserving capital, and waiting for a genuinely fresh setup with clean momentum rather than chasing already-pumped-and-dumped runners.
+
+
