@@ -1585,3 +1585,24 @@
 ## [2026-08-26 10:05 UTC] buy | [LLM] $Wittgenstein at $2.685e-06, spent 0.1 SOL
 - **Reasoning:** $Wittgenstein (MAIN DEAD SEND THE REAL) — meta-narrative about a fake Wittgenstein memecoin is exactly the kind of self-aware shitposting that goes viral. Wintalt X account backing it. Attention signal is the absurdity itself.
 
+## [2026-08-26 10:06 UTC] sell | [PARTIAL][LLM] $crocodile at $1.907e-05 | P&L: +314.7%
+- **Reasoning:** $crocodile is up +314.7% with 24h momentum showing +457%. Taking partial profits at this level is prudent—ride the wave but bank gains in case of reversal.
+
+## [2026-08-26 10:06 UTC] sell | [FULL][LLM] $AG at $2.81e-06 | P&L: -0.1%
+- **Reasoning:** $AG is essentially flat (-0.1%) with 0% 24h movement. No momentum, no attention—free up capital for better opportunities.
+
+## [2026-08-26 10:06 UTC] sell | [FULL][LLM] $Who at $2.685e-06 | P&L: -5.1%
+- **Reasoning:** $Who is down -5.1% with -34.3% on both 24h and 1h timeframes. Bleeding out—cut the loss and redeploy capital.
+
+## [2026-08-26 10:06 UTC] sell | [FULL][LLM] $Wittgenstein at $2.685e-06 | P&L: +0.0%
+- **Reasoning:** $Wittgenstein shows 0.0% movement across all timeframes. Dead money with no catalyst—free up slot for active trades.
+
+## [2026-08-26 10:06 UTC] buy | [LLM] $Razoo at $4.647e-06, spent 0.1 SOL
+- **Reasoning:** $Razoo (Vamp Cat) has the highest mcap ($5.6k), is 24% bonded, and has a viral cat-vampire narrative on X. Strong attention signal at this mcap range.
+
+## [2026-08-26 10:06 UTC] buy | [LLM] $Pigtacio at $4.51387e-06, spent 0.1 SOL
+- **Reasoning:** $Pigtacio is a fresh launch (0.1min) with a distinctive name—Pig + Horatio mashup. Memecoin names matter; this has meme potential at $4.5k mcap.
+
+## [2026-08-26 10:06 UTC] buy | [LLM] $JOJO at $3.20835e-06, spent 0.1 SOL
+- **Reasoning:** $JOJO at $3.2k mcap with 8% bonding. Simple memorable name, fresh attention from @ItsBrave1 tweet. Low entry, high upside if it catches.
+
