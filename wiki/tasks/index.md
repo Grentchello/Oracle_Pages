@@ -157,7 +157,7 @@ hide:
   async function loadTasks() {
     try {
       // Fetch with cache-buster to always get latest
-      const r = await fetch("../tasks/tasks.json?nocache=" + Date.now());
+      const r = await fetch("tasks.json?nocache=" + Date.now());
       if (!r.ok) throw new Error("fetch failed: " + r.status);
       const data = await r.json();
       renderTasks(data);
