@@ -2083,3 +2083,21 @@
 ## [2026-08-26 11:07 UTC] buy | [LLM] $HPRC at $6.7372e-06, spent 0.1 SOL
 - **Reasoning:** $HPRC 'Hot Piss Rock Coin' is exactly the crude-humor viral bait that 10x's on CT. Fresh 0.6min, $6.7k mcap, GassySol is an active CT account. Buying the meme name itself.
 
+## [2026-08-26 11:08 UTC] sell | [FULL][LLM] $Pepo at $4.239e-06 | P&L: -17.9%
+- **Reasoning:** $Pepo is -17.9% but 1h is +42.1% — this looks like a dead cat bounce / late fade; cutting before it bleeds further toward the -50% cap.
+
+## [2026-08-26 11:08 UTC] sell | [PARTIAL][LLM] $MARDOGE at $0.0001735 | P&L: +62.5%
+- **Reasoning:** $MARDOGE is +62.5% with strong 24h momentum (+137%) — taking profit on half locks in gains while letting the rest ride the narrative if it keeps running.
+
+## [2026-08-26 11:08 UTC] sell | [FULL][LLM] $TRUSTUS at $2.854e-06 | P&L: -45.0%
+- **Reasoning:** $TRUSTUS is -45.0% right at the brink of the -50% hard cap with negative 1h momentum — emergency exit, no reason to hold into forced liquidation.
+
+## [2026-08-26 11:08 UTC] sell | [PARTIAL][LLM] $HPRC at $1.133e-05 | P&L: +68.2%
+- **Reasoning:** $HPRC is +68.2% with massive +265% 1h — this is parabolic, time to take profit on half to lock in the win while letting the rest ride if it keeps going.
+
+## [2026-08-26 11:08 UTC] buy | [LLM] $    DG   at $3.71899e-06, spent 0.1 SOL
+- **Reasoning:** $Dyson Grid has an actually interesting narrative (blockchain-as-DNA, digital organisms) — thematic meme with story DNA, plus own X account @dysongrids. Memecoins trade attention, and this has a real hook at $3.7k mcap.
+
+## [2026-08-26 11:08 UTC] buy | [LLM] $BOJ at $7.504e-06, spent 0.1 SOL
+- **Reasoning:** $BOJ 'Bank Of Japan' — macro-rate-nerd meme is a known viral niche, low mcap $2.8k, fits the 'real-world reframe' meme playbook.
+
