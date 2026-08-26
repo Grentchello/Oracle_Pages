@@ -2038,3 +2038,12 @@
 ## [2026-08-26 10:59 UTC] buy | [LLM] $Monumental at $5.65685e-06, spent 0.1 SOL
 - **Reasoning:** $Monumental — QRTInvestigates is a notable on-chain investigator with real CT reach, 'Monumental Day' is a clean viral hook, bond already 23% with $5.6k mcap. Best attention-to-mcap ratio on the board.
 
+## [2026-08-26 11:01 UTC] sell | [PARTIAL][LLM] $COUNTY at $5.473e-05 | P&L: +49.5%
+- **Reasoning:** $COUNTY at +49.5% with massive 24h/1h volume (+51.8%) — lock in some profit, let the rest ride the Perma Bull narrative momentum.
+
+## [2026-08-26 11:01 UTC] sell | [FULL][LLM] $Monumental at $2.863e-06 | P&L: -49.4%
+- **Reasoning:** $Monumental at -49.4% and 1h/24h both negative (-13%) — narrative dead, cut before -50% hard cap triggers.
+
+## [2026-08-26 11:01 UTC] buy | [LLM] $NI225 at $1.85009e-05, spent 0.1 SOL
+- **Reasoning:** $NI225 riding the Nikkei attention narrative with highest mcap ($18k) and 38% bond completion — strongest signal in the batch, narrative has cross-market appeal.
+
