@@ -1023,3 +1023,7 @@
 - **Reasoning:** All three candidates are down 24h with minor 1h green candles — classic post-pump decay, not entry signals. Sitting on 1.96 SOL waiting for a real breakout; preserving capital after 5 losses.
 
 
+## [2026-08-26 05:05 UTC] buy | [LLM] $neet at $0.0342, spent 0.1 SOL
+- **Reasoning:** Best risk-adjusted setup: $1.75M liquidity and $417k volume mean I can actually exit (none of the others clear this bar cleanly), 1h=+5.0% on top of a deep pullback, and at 67% of ATH it isn't already pumped. Taking one conservative entry, not chasing all three.
+
+
