@@ -40,7 +40,7 @@ The dashboard refreshes every 30 seconds. It shows:
   - [x] Fetch trending pump.fun tokens
   - [x] Persist state.json + watchlist.json + decisions.md
   - [x] Phone dashboard at Oracle_Pages/trading/
-  - [x] Bot tick runs every 5 min via cron + background runner
+  - [x] Bot tick runs every 60s via background runner (was 5 min, 60x faster scan)
 - [x] **Phase 2: Trading** (live, paper money)
   - [x] Position manager (open/close, balance tracking)
   - [x] Entry signals: top-runners + graduated + liq>$5k + vol>$10k + 24h>0 + slot+SOL available
@@ -73,7 +73,7 @@ The LLM is the trader. Hard caps are guardrails, not the strategy.
 - Or skip everything if signals aren't right
 
 **Exit (no hard TP/SL):**
-- LLM reviews every position every 5 min
+- LLM reviews every position every 60s (or every 5 min when idle)
 - Decides: hold / sell_all / sell_half, with reasoning
 - Only hard cap: 72h max hold (forced close)
 
@@ -124,7 +124,7 @@ After 5+ trades we'll know whether this is achievable or whether the strategy ne
 ## How it works
 
 ```
-[Bot runner, every 5 min]
+[Bot runner, every 60s]
         ↓
 1. Fetch SOL price from DexScreener (real, no auth)
 2. Fetch top pump.fun runners (real, no auth)
@@ -185,7 +185,7 @@ We haven't picked yet. Sketching the menu:
 - Project created
 - Bot fetches real prices
 - Dashboard live at Oracle_Pages/trading/
-- Cron + background runner executing every 5 min
+- Background runner executing every 60s
 
 ### Blocked
 - None
@@ -193,7 +193,7 @@ We haven't picked yet. Sketching the menu:
 ## Notes
 
 The dashboard auto-refreshes prices every 30s on your phone. The bot itself
-only ticks every 5 min — that's the source of truth for positions and PnL.
+only ticks every 60s when idle; every tick when holding positions — that's the source of truth for positions and PnL.
 If you want faster bot reactions, drop the interval to 1 min in `bot/runner.py`.
 
 When the bot starts trading (Phase 3), every action lands in `decisions.md`
