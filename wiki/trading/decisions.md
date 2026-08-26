@@ -2188,3 +2188,6 @@
 ## [2026-08-26 12:03 UTC] sell | [PARTIAL][LLM] $PURPLECHIP at $2.901e-06 | P&L: +6.5%
 - **Reasoning:** PURPLECHIP is +6.5% but held 0.8h with flat1h/24h momentum, suggesting buyer fatigue. Lock in gains on half, let the rest ride if narrative catches fire.
 
+## [2026-08-26 12:09 UTC] sell | [PARTIAL][LLM] $PURPLECHIP at $2.901e-06 | P&L: +6.5%
+- **Reasoning:** PURPLECHIP is +6.5% but momentum is stalling (1h=24h, no acceleration). Lock half the profit and let the rest ride — if it doesn't push higher in the next hour, sell the rest.
+
