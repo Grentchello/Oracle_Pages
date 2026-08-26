@@ -2032,3 +2032,9 @@
 ## [2026-08-26 10:58 UTC] buy | [LLM] $김정은 at $7.74988e-06, spent 0.1 SOL
 - **Reasoning:** $김정은 (Nietzschean Kim Jong Un) — absurdist political meme with viral X hook,29% bond almost filled, highest mcap of fresh batch = early conviction. Attention magnet.
 
+## [2026-08-26 10:59 UTC] sell | [FULL][LLM] $김정은 at $3.799e-06 | P&L: -51.0%
+- **Reasoning:** At -51.0%, this has breached the -50% hard cap. Must close immediately — no LLM override on this rule.
+
+## [2026-08-26 10:59 UTC] buy | [LLM] $Monumental at $5.65685e-06, spent 0.1 SOL
+- **Reasoning:** $Monumental — QRTInvestigates is a notable on-chain investigator with real CT reach, 'Monumental Day' is a clean viral hook, bond already 23% with $5.6k mcap. Best attention-to-mcap ratio on the board.
+
