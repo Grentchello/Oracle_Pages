@@ -859,3 +859,7 @@
 - **Reasoning:** Defensive posture: 0/5 open, 1W/5L record, and both candidates are tokens I already got stopped out of that are now bleeding further with no reversal evidence — sitting out is the honest call.
 
 
+## [2026-08-26 04:13 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** Both candidates are already in the post-pump bleed phase (negative 1h and 24h, well off ATH) — no edge here, sitting on 1.96 SOL waiting for a real entry signal rather than catching falling knives.
+
+
