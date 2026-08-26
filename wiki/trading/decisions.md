@@ -2101,3 +2101,15 @@
 ## [2026-08-26 11:08 UTC] buy | [LLM] $BOJ at $7.504e-06, spent 0.1 SOL
 - **Reasoning:** $BOJ 'Bank Of Japan' — macro-rate-nerd meme is a known viral niche, low mcap $2.8k, fits the 'real-world reframe' meme playbook.
 
+## [2026-08-26 11:09 UTC] sell | [PARTIAL][LLM] $MARDOGE at $0.0001883 | P&L: +76.3%
+- **Reasoning:** MARDOGE +76.3% held0.3h — rules say take some profit at +50%. Lock in gains, let runner ride. No clear continuation catalyst beyond the spike.
+
+## [2026-08-26 11:09 UTC] sell | [FULL][LLM] $TOADBULL at $3.141e-06 | P&L: -48.8%
+- **Reasoning:** TOADBULL -48.8% approaching -50% hard cap, 1h still bleeding -48%. No bounce, no narrative rescue. Cut before forced close.
+
+## [2026-08-26 11:09 UTC] sell | [FULL][LLM] $HPRC at $2.743e-06 | P&L: -59.3%
+- **Reasoning:** HPRC -59.3% — already PAST the -50% hard cap. This should have auto-closed. Emergency exit now, recover whatever SOL is left.
+
+## [2026-08-26 11:09 UTC] sell | [FULL][LLM] $BOJ at $2.854e-06 | P&L: -62.0%
+- **Reasoning:** BOJ -62.0% — past -50% hard cap, should have auto-closed. Emergency exit. Bleeding with no catalyst.
+
