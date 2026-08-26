@@ -2116,3 +2116,15 @@
 ## [2026-08-26 11:10 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-08-26 11:12 UTC] sell | [PARTIAL][LLM] $MARDOGE at $0.0001861 | P&L: +74.2%
+- **Reasoning:** $MARDOGE at +74% with 24h still showing +155% momentum — take partial profits to lock in gains and let the rest ride the wave. Half-selling secures realized P&L while keeping upside exposure on a still-hot name.
+
+## [2026-08-26 11:12 UTC] buy | [LLM] $Po at $6.88774e-06, spent 0.1 SOL
+- **Reasoning:** $Po (Baby Po) at $6.9k mcap with 27% bond — highest bond curve progress in batch, named after a known cultural figure (Po), fresh X post. Best risk/reward of the fresh launches.
+
+## [2026-08-26 11:12 UTC] buy | [LLM] $ADA at $3.29749e-06, spent 0.1 SOL
+- **Reasoning:** $ADA at $3.3k mcap, ultra-fresh (0.2min), explicit X post from KodaqSOL. Ticker hijack of a top-10 coin — viral attention play if it catches on.
+
+## [2026-08-26 11:12 UTC] buy | [LLM] $Rastera  at $3.036e-06, spent 0.1 SOL
+- **Reasoning:** $Rastera (GPU rentals narrative) at $3k mcap with real utility story (on-chain GPU rentals) and active X account. Narrative + utility is a rare combo at this mcap.
+
