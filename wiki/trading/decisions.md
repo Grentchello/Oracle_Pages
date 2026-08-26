@@ -971,3 +971,7 @@
 - **Reasoning:** Standing down. 1W/5L record, every candidate is either a repeat loser or a fading top-runner with negative 24h — no setups meet my (admittedly low) bar for fresh risk. Preserving capital for a better tape.
 
 
+## [2026-08-26 04:48 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
+
