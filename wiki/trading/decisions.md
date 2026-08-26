@@ -1774,3 +1774,12 @@
 ## [2026-08-26 10:25 UTC] buy | [LLM] $ANAL at $4.52531e-06, spent 0.1 SOL
 - **Reasoning:** $ANAL 'ANAL Powerhouse' at $4.5k mcap with 19% bonding — the most traction of the new launches, higher bond = more committed buyers. Crude attention-market name, fits the meme thesis.
 
+## [2026-08-26 10:25 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $6.069e-05 | P&L: +529.6%
+- **Reasoning:** +529% in 0.3h with 24h momentum still +52.9% — taking half off locks in a 5x on half the bag, letting the rest ride if narrative (HOTPUMP) keeps running.
+
+## [2026-08-26 10:25 UTC] sell | [PARTIAL][LLM] $Perry at $1.724e-05 | P&L: +161.0%
+- **Reasoning:** +161% in <5min with 1h +445% — parabolic early move, taking half profit secures gains while leaving runner; new launch volatility cuts both ways.
+
+## [2026-08-26 10:25 UTC] sell | [PARTIAL][LLM] $ANAL at $6.923e-06 | P&L: +53.0%
+- **Reasoning:** +53% on edgy BUTTSEXDEV narrative with multiple duplicate mints ($ANAL appears 4x) — signal is diluted/scammy, take partial profit to lock the bounce before rug risk.
+
