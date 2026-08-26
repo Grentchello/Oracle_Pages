@@ -627,3 +627,7 @@
 - **Reasoning:** Both candidates are prior trades of mine already deep below ATH with negative 24h momentum — no fresh signal, just top-runner noise, so I'm sitting on 1.96 SOL and waiting for a real setup rather than bleeding on déjà-vu entries.
 
 
+## [2026-08-26 03:02 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All three candidates are prior losers in clear downtrends — re-entering would be recycling losses, not finding edge; staying flat and waiting for genuinely fresh setups with1/6 win rate.
+
+

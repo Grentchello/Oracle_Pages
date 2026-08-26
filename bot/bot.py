@@ -45,8 +45,9 @@ RESERVE_SOL = 0.1             # never go below this in SOL — keep some dry pow
 MIN_PRICE_CHANGE_24H = -15.0
 
 # Run an LLM "market read" tick even when there's nothing to do,
-# so we always know what the LLM thinks. Set to False to silence.
+# but throttle: every LLM_BRIEF_INTERVAL_MIN when idle, every tick when holding.
 ALWAYS_LLM_TICK = True
+LLM_BRIEF_INTERVAL_MIN = 5  # how often to call LLM when there's nothing to do
 
 # === LLM config ===
 HERMES_CLI = "/opt/hermes/.venv/bin/hermes"
@@ -666,9 +667,26 @@ def main():
         git_commit_and_push()
         return
 
-    if not held and not candidates:
-        log("No positions, no candidates — asking LLM for market read anyway")
+    # Throttle LLM calls when idle: only call every LLM_BRIEF_INTERVAL_MIN minutes
+    # (still scan tokens every tick, just don't burn LLM tokens)
+    if not held and not candidates and ALWAYS_LLM_TICK:
+        last_brief = state.get("last_llm_brief_at")
+        if last_brief:
+            try:
+                last_dt = parse_iso(last_brief)
+                if last_dt and (now - last_dt).total_seconds() < LLM_BRIEF_INTERVAL_MIN * 60:
+                    log(f"Idle + last LLM brief {(now-last_dt).total_seconds():.0f}s ago < {LLM_BRIEF_INTERVAL_MIN*60}s — skipping LLM, scanning only")
+                    state["portfolio_value_usd"] = portfolio["total_value_usd"]
+                    state["last_updated"] = iso_now()
+                    state["recent_decisions"] = load_recent_decisions(max_n=20)
+                    save_state(state)
+                    git_commit_and_push()
+                    return
+            except Exception:
+                pass
+        log("No positions, no candidates — asking LLM for market read")
         # Fall through to LLM call with empty lists — it will give us a market brief
+        state["last_llm_brief_at"] = iso_now()
 
     # 7. Get LLM decision
     log(f"Asking LLM (held={len(held)}, candidates={len(candidates)})...")

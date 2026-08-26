@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent.resolve()
-INTERVAL_SECONDS = 300
+INTERVAL_SECONDS = 60
 
 
 def log(msg):
