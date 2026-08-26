@@ -1693,3 +1693,15 @@
 ## [2026-08-26 10:19 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $5.585e-05 | P&L: +479.4%
 - **Reasoning:** +479% is an extraordinary move — taking half off the table secures life-changing gains on a 0.2h hold; the other half is free lottery.
 
+## [2026-08-26 10:21 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $4.884e-05 | P&L: +406.6%
+- **Reasoning:** $HOTPUMP at +406% with 1h/24h only +23% — momentum is fading fast relative to the unrealized gain. Lock half, let the rest ride; if 1h flips negative, sell_all next tick.
+
+## [2026-08-26 10:21 UTC] sell | [FULL][LLM] $crocodile at $6.699e-06 | P&L: +45.7%
+- **Reasoning:** $crocodile at +45.7% but only held 0.3h with 1h showing +95.7% already priced in — take profit before the snap-back, and free a slot.
+
+## [2026-08-26 10:21 UTC] sell | [FULL][LLM] $ANAL at $2.843e-06 | P&L: -20.0%
+- **Reasoning:** $ANAL at -20% in<0.1h with 24h/1h both -17.7% — narrative isn't holding and it's the worst-mint duplicate (vs $ANAI/$ANAl clutter); cut and free capital.
+
+## [2026-08-26 10:21 UTC] sell | [FULL][LLM] $ANAI at $2.699e-06 | P&L: -21.1%
+- **Reasoning:** $ANAI at -21.1% in <0.1h,1h -17.3%, and this is one of THREE $ANAL-variant mints polluting the feed — clear signal this is wash/clone spam, exit now.
+
