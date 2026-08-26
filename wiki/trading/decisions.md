@@ -1648,3 +1648,15 @@
 ## [2026-08-26 10:14 UTC] buy | [LLM] $Lilly at $7.82567e-06, spent 0.1 SOL
 - **Reasoning:** $Lilly (The Pugventure) has bond29% — by far the most traction of any new launch, mcap $7.8k still pre-pump, cute narrative + X link attached, classic attention-market entry before crowd arrives.
 
+## [2026-08-26 10:15 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $3.173e-05 | P&L: +229.2%
+- **Reasoning:** HOTPUMP at +229% with 1h already +1078% — classic exhaustion signature, locking half the gains while letting the other half ride if attention sustains.
+
+## [2026-08-26 10:15 UTC] sell | [PARTIAL][LLM] $crocodile at $1.521e-05 | P&L: +230.8%
+- **Reasoning:** Crocodile at +230% is a massive runner, but 1h already at +345% means most of the move is likely in. Bank half, keep runner exposure.
+
+## [2026-08-26 10:15 UTC] sell | [FULL][LLM] $Meme at $2.713e-06 | P&L: -21.4%
+- **Reasoning:** Meme at -21% with weak narrative and no twitter signal of note — cutting to free a slot for fresh attention-launched tokens.
+
+## [2026-08-26 10:15 UTC] buy | [LLM] $Walter at $5.32725e-06, spent 0.1 SOL
+- **Reasoning:** $Walter freshest launch (0.4min), bond 22% already showing early demand, twitter signal present — classic attention-market entry.
+
