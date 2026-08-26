@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.687834,
+  "balance_sol": 1.729167,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump": {
       "symbol": "HOTPUMP",
       "name": "Hotpump Miami",
-      "amount": 121.61698084154565,
+      "amount": 60.80849042077283,
       "entry_price_usd": 9.64e-06,
-      "entry_sol_spent": 1.220703125e-05,
+      "entry_sol_spent": 6.103515625e-06,
       "entry_time": "2026-08-26T10:09:44.210672+00:00",
       "entry_usd_value": 9.6042,
       "entry_signals": {
@@ -50,9 +50,9 @@
     "4VfQ5CchtuAukAqoJL1hWcRHJoK6At3byt786DQ4pump": {
       "symbol": "BUSINESS",
       "name": "Business Monkeys",
-      "amount": 1377679.3369534153,
+      "amount": 688839.6684767077,
       "entry_price_usd": 3.499e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-26T10:22:40.977052+00:00",
       "entry_usd_value": 9.641,
       "entry_signals": {
@@ -91,24 +91,24 @@
       },
       "llm_entry": true
     },
-    "B95tqzbm8JNSwhJqniFbv9wFRV8xiQLeFZAfMurhpump": {
-      "symbol": "MCGA",
-      "name": "Make Crypto Great Again",
-      "amount": 2176391.079071863,
-      "entry_price_usd": 4.439e-06,
+    "HqEr6nRfT1P9NkWXihZJas1DVuTSSUPcLxyjnaceTPJZ": {
+      "symbol": "STAG",
+      "name": "The Stag",
+      "amount": 2533759.1317666075,
+      "entry_price_usd": 3.817253139313369e-06,
       "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-26T10:28:24.388449+00:00",
-      "entry_usd_value": 9.661000000000001,
+      "entry_time": "2026-08-26T10:30:01.653790+00:00",
+      "entry_usd_value": 9.672,
       "entry_signals": {
-        "liquidity_usd": 0.0,
-        "volume_24h_usd": 3155.53,
-        "market_cap_usd": 5744.554990141235,
-        "ath_market_cap_usd": 6029.648841349322,
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3815.8202991847306,
+        "ath_market_cap_usd": 10110.63375765331,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 13.731368099,
+        "real_sol_reserves": 5.643293372,
         "description": "",
-        "twitter": "https://x.com/realTuckFrumper/status/2092559303244730616",
+        "twitter": "https://x.com/himgajria/status/2092559855899099551",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -1100,37 +1100,64 @@
       "pnl_pct": 5.29,
       "exit_reason": "LLM: sell_all — ANAI only +5.3% after entry while portfolio has bigger winners — weakest hold, free up slot for fresh attention.",
       "partial": false
+    },
+    {
+      "mint": "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump",
+      "symbol": "HOTPUMP",
+      "name": "Hotpump Miami",
+      "amount_sold": 60.80849042077283,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:09:44.210672+00:00",
+      "exit_time": "2026-08-26T10:30:01.653335+00:00",
+      "entry_price_usd": 9.64e-06,
+      "exit_price_usd": 5.994e-05,
+      "entry_sol_for_chunk": 6e-06,
+      "exit_sol_received": 3.8e-05,
+      "pnl_sol": 3.2e-05,
+      "pnl_pct": 521.78,
+      "exit_reason": "LLM: sell_half — $HOTPUMP at +521.8% with 24h/1h both +51% — momentum still there but parabolic move; lock in some profit while riding the rest.",
+      "partial": true
+    },
+    {
+      "mint": "4VfQ5CchtuAukAqoJL1hWcRHJoK6At3byt786DQ4pump",
+      "symbol": "BUSINESS",
+      "name": "Business Monkeys",
+      "amount_sold": 688839.6684767077,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-26T10:22:40.977052+00:00",
+      "exit_time": "2026-08-26T10:30:01.653601+00:00",
+      "entry_price_usd": 3.499e-06,
+      "exit_price_usd": 1.092e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.077772,
+      "pnl_sol": 0.052772,
+      "pnl_pct": 212.09,
+      "exit_reason": "LLM: sell_half — $BUSINESS at +212.1% with 24h/1h +216% — massive move, take partial profits before mean reversion.",
+      "partial": true
+    },
+    {
+      "mint": "B95tqzbm8JNSwhJqniFbv9wFRV8xiQLeFZAfMurhpump",
+      "symbol": "MCGA",
+      "name": "Make Crypto Great Again",
+      "amount_sold": 2176391.079071863,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-26T10:28:24.388449+00:00",
+      "exit_time": "2026-08-26T10:30:01.653697+00:00",
+      "entry_price_usd": 4.439e-06,
+      "exit_price_usd": 2.823e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.063523,
+      "pnl_sol": -0.036477,
+      "pnl_pct": -36.4,
+      "exit_reason": "LLM: sell_all — $MCGA at -36.4% with 24h/1h both -23.3% — trend is down, no narrative strength, cut the loss and free the slot.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-26T10:28:24.388577+00:00",
+  "last_updated": "2026-08-26T10:30:01.654267+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.61,
-  "portfolio_value_usd": 188.41,
+  "last_sol_price_usd": 96.72,
+  "portfolio_value_usd": 190.19,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 10:24 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Perry at $9.871e-06 | P&L: +49.5%",
-      "reason": "+49.5% near the +50% take-profit trigger with strong 24h momentum (+212%). Take partial, hold the rest for narrative continuation."
-    },
-    {
-      "time": "2026-08-26 10:24 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $pumptacio at $3.399e-06 | P&L: -14.9%",
-      "reason": "-15% with weak 24h momentum (+4.7%) and no compelling narrative. Cut the loser and free the slot for higher-conviction launches."
-    },
-    {
-      "time": "2026-08-26 10:24 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $BUSINESS at $6.135e-06 | P&L: +75.3%",
-      "reason": "+75.3% with strong 24h momentum (+77.7%). Lock half the profit, let the rest ride the wave."
-    },
-    {
-      "time": "2026-08-26 10:24 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MNKY at $6.408e-06 | P&L: -2.8%",
-      "reason": "-2.8% with no clear narrative edge and crowded-name meme. Flat performance with 5 better candidates available — redeploy the capital."
-    },
     {
       "time": "2026-08-26 10:24 UTC",
       "action": "buy",
@@ -1226,72 +1253,96 @@
       "action": "buy",
       "details": "[LLM] $MCGA at $4.439e-06, spent 0.1 SOL",
       "reason": "$MCGA (Make Crypto Great Again) — political meme coin with explicit X promoter. Political memes historically have the strongest viral coefficient."
+    },
+    {
+      "time": "2026-08-26 10:30 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $HOTPUMP at $5.994e-05 | P&L: +521.8%",
+      "reason": "$HOTPUMP at +521.8% with 24h/1h both +51% — momentum still there but parabolic move; lock in some profit while riding the rest."
+    },
+    {
+      "time": "2026-08-26 10:30 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BUSINESS at $1.092e-05 | P&L: +212.1%",
+      "reason": "$BUSINESS at +212.1% with 24h/1h +216% — massive move, take partial profits before mean reversion."
+    },
+    {
+      "time": "2026-08-26 10:30 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MCGA at $2.823e-06 | P&L: -36.4%",
+      "reason": "$MCGA at -36.4% with 24h/1h both -23.3% — trend is down, no narrative strength, cut the loss and free the slot."
+    },
+    {
+      "time": "2026-08-26 10:30 UTC",
+      "action": "buy",
+      "details": "[LLM] $STAG at $3.81725e-06, spent 0.1 SOL",
+      "reason": "$STAG from @himgajria at 0.7min, $3.8k mcap — early animal narrative with 37% bond progress, fresh attention signal worth a small position."
     }
   ],
   "trade_stats": {
-    "total": 58,
-    "wins": 35,
-    "losses": 23,
-    "win_rate_pct": 60.3,
-    "total_pnl_sol": 0.050347,
-    "avg_pnl_pct": 120.81,
+    "total": 61,
+    "wins": 37,
+    "losses": 24,
+    "win_rate_pct": 60.7,
+    "total_pnl_sol": 0.066674,
+    "avg_pnl_pct": 126.3,
     "best_pnl_pct": 567.22,
     "worst_pnl_pct": -96.94,
-    "today_trades": 58,
-    "today_realized_sol": 0.050347,
-    "today_target_pct": 12.6,
+    "today_trades": 61,
+    "today_realized_sol": 0.066674,
+    "today_target_pct": 16.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 35,
-      "loss_count": 23,
+      "win_count": 37,
+      "loss_count": 24,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-26T10:28:24.387433+00:00",
+  "last_llm_brief_at": "2026-08-26T10:30:01.653295+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "43VHgY4ApK2Cc7CwPjsbYGbKo4TDQ72dQ9bV1AbLpump": {
-      "price_usd": 6.04e-05,
-      "change_h24": 52.15,
-      "change_h1": 52.15,
-      "liquidity_usd": 18891.53,
-      "volume_h24": 152813.38,
+      "price_usd": 5.994e-05,
+      "change_h24": 50.98,
+      "change_h1": 50.98,
+      "liquidity_usd": 18837.08,
+      "volume_h24": 180808.29,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
     "5vANSQNrG7GYuGAzUsUC2rTgCjQ2hwTG2afVCjBGpump": {
-      "price_usd": 7.819e-06,
-      "change_h24": 147.0,
-      "change_h1": 147.0,
+      "price_usd": 7.177e-06,
+      "change_h24": 127.0,
+      "change_h1": 127.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 47967.42,
+      "volume_h24": 52261.92,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "4VfQ5CchtuAukAqoJL1hWcRHJoK6At3byt786DQ4pump": {
-      "price_usd": 9.652e-06,
-      "change_h24": 180.0,
-      "change_h1": 180.0,
+      "price_usd": 1.092e-05,
+      "change_h24": 216.0,
+      "change_h1": 216.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 9395.94,
+      "volume_h24": 9789.25,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "31HmFYikey4wtz9je7Z4rpeLrufWtpgAFdGdQ5ZUpump": {
-      "price_usd": 3.849e-06,
-      "change_h24": 40.84,
-      "change_h1": 40.84,
+    "EUpiMj1hGTKBbp8ZvwpujQnLVPGG3HW2ThU6oCH9pump": {
+      "price_usd": 4.628e-06,
+      "change_h24": 41.78,
+      "change_h1": 41.78,
       "liquidity_usd": 0.0,
-      "volume_h24": 13384.78,
+      "volume_h24": 31956.76,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "9N7k33BDf9t43mpYJm6oLVYeRstyQ43nhYiHRx1Rpump": {
-      "price_usd": 4.056e-07,
-      "change_h24": -85.08,
-      "change_h1": -85.08,
+    "B95tqzbm8JNSwhJqniFbv9wFRV8xiQLeFZAfMurhpump": {
+      "price_usd": 2.823e-06,
+      "change_h24": -23.26,
+      "change_h1": -23.26,
       "liquidity_usd": 0.0,
-      "volume_h24": 1383.96,
+      "volume_h24": 8988.21,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

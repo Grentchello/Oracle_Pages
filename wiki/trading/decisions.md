@@ -1807,3 +1807,15 @@
 ## [2026-08-26 10:28 UTC] buy | [LLM] $MCGA at $4.439e-06, spent 0.1 SOL
 - **Reasoning:** $MCGA (Make Crypto Great Again) — political meme coin with explicit X promoter. Political memes historically have the strongest viral coefficient.
 
+## [2026-08-26 10:30 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $5.994e-05 | P&L: +521.8%
+- **Reasoning:** $HOTPUMP at +521.8% with 24h/1h both +51% — momentum still there but parabolic move; lock in some profit while riding the rest.
+
+## [2026-08-26 10:30 UTC] sell | [PARTIAL][LLM] $BUSINESS at $1.092e-05 | P&L: +212.1%
+- **Reasoning:** $BUSINESS at +212.1% with 24h/1h +216% — massive move, take partial profits before mean reversion.
+
+## [2026-08-26 10:30 UTC] sell | [FULL][LLM] $MCGA at $2.823e-06 | P&L: -36.4%
+- **Reasoning:** $MCGA at -36.4% with 24h/1h both -23.3% — trend is down, no narrative strength, cut the loss and free the slot.
+
+## [2026-08-26 10:30 UTC] buy | [LLM] $STAG at $3.81725e-06, spent 0.1 SOL
+- **Reasoning:** $STAG from @himgajria at 0.7min, $3.8k mcap — early animal narrative with 37% bond progress, fresh attention signal worth a small position.
+
