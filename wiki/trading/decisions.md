@@ -795,3 +795,7 @@
 - **Reasoning:** Both candidates are re-entries into coins I already lost money on, both deep below ATH with no real reversal signal — standing down to preserve capital and wait for a fresh catalyst rather than averaging into losing positions.
 
 
+## [2026-08-26 03:53 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** My momentum-fade edge is broken (1W/5L, both prior candidates were prior losers); sitting flat to preserve capital and wait for a setup my signal hasn't already failed on.
+
+
