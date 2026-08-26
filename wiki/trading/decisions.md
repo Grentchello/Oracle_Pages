@@ -1765,3 +1765,12 @@
 ## [2026-08-26 10:24 UTC] buy | [LLM] $ANAI at $3.65566e-06, spent 0.1 SOL
 - **Reasoning:** $ANAI has both X promotion and YouTube content backing — multi-platform attention at $3.6k mcap is the kind of asymmetric setup that 10x's. Slight coordination risk with duplicate $AnaI launch noted.
 
+## [2026-08-26 10:25 UTC] sell | [PARTIAL][LLM] $HOTPUMP at $6.1e-05 | P&L: +532.8%
+- **Reasoning:** $HOTPUMP at +532% is an extreme outlier — taking half profit locks in gains while letting the rest ride. 1h/24h divergence (+53.7% on both) suggests recent spike already cooled somewhat, but holding remainder for narrative continuation.
+
+## [2026-08-26 10:25 UTC] sell | [FULL][LLM] $Ass at $2.809e-06 | P&L: -15.3%
+- **Reasoning:** $Ass at -15.3% with 24h -18.9% — narrative fading, cutting the loss early rather than waiting for -50% hard cap. Redeploy capital into fresh attention.
+
+## [2026-08-26 10:25 UTC] buy | [LLM] $ANAL at $4.52531e-06, spent 0.1 SOL
+- **Reasoning:** $ANAL 'ANAL Powerhouse' at $4.5k mcap with 19% bonding — the most traction of the new launches, higher bond = more committed buyers. Crude attention-market name, fits the meme thesis.
+

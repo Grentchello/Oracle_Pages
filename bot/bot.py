@@ -347,6 +347,49 @@ def compute_today_realized_pnl(state):
     return round(total, 6)
 
 
+def compute_trade_stats(state):
+    """Aggregate stats across all closed trades."""
+    trades = state.get("trades", [])
+    if not trades:
+        return {"total": 0, "wins": 0, "losses": 0, "win_rate_pct": 0,
+                "total_pnl_sol": 0, "avg_pnl_pct": 0, "best_pnl_pct": 0,
+                "worst_pnl_pct": 0, "today_trades": 0, "today_realized_sol": 0,
+                "today_target_pct": -100, "daily_target_pct": 20.0,
+                "learning": {"win_count": 0, "loss_count": 0,
+                             "note": "no trades yet"}}
+    wins = [t for t in trades if _to_float(t.get("pnl_sol", 0)) > 0]
+    losses = [t for t in trades if _to_float(t.get("pnl_sol", 0)) <= 0]
+    pnls = [_to_float(t.get("pnl_pct", 0)) for t in trades]
+    pnls_sol = [_to_float(t.get("pnl_sol", 0)) for t in trades]
+    today = now_utc().date()
+    today_pnls = [_to_float(t.get("pnl_sol", 0)) for t in trades
+                 if parse_iso(t.get("exit_time"))
+                 and parse_iso(t.get("exit_time")).date() == today]
+    today_realized = sum(today_pnls)
+    avg = round(sum(pnls) / len(pnls), 2) if pnls else 0
+    target_sol = 0.4  # 2 SOL * 20% target
+    today_target_pct = round(today_realized / target_sol * 100, 1) if target_sol else 0
+    return {
+        "total": len(trades),
+        "wins": len(wins),
+        "losses": len(losses),
+        "win_rate_pct": round(len(wins) / len(trades) * 100, 1),
+        "total_pnl_sol": round(sum(pnls_sol), 6),
+        "avg_pnl_pct": avg,
+        "best_pnl_pct": round(max(pnls), 2) if pnls else 0,
+        "worst_pnl_pct": round(min(pnls), 2) if pnls else 0,
+        "today_trades": len(today_pnls),
+        "today_realized_sol": round(today_realized, 6),
+        "today_target_pct": today_target_pct,
+        "daily_target_pct": 20.0,
+        "learning": {
+            "win_count": len(wins),
+            "loss_count": len(losses),
+            "note": "need ≥3 wins and ≥3 losses for signal analysis" if len(wins) < 3 or len(losses) < 3 else "ready for analysis",
+        },
+    }
+
+
 # =====================================================================
 # LLM
 # =====================================================================
@@ -999,6 +1042,7 @@ def main():
     state["last_updated"] = iso_now()
     state["recent_decisions"] = load_recent_decisions(max_n=20)
     state["held_prices"] = held_prices  # mint -> {price_usd, change_24h, ...}
+    state["trade_stats"] = compute_trade_stats(state)
     save_state(state)
     log(f"State: {len(state.get('positions', {}))} positions, {len(state.get('trades', []))} trades")
     git_commit_and_push()
