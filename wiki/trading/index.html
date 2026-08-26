@@ -337,6 +337,9 @@ async function renderTrades(state) {
   const trades = state.trades || [];
   const stats = state.trade_stats || {};
 
+  const wins = stats.wins || 0;
+  const losses = stats.losses || 0;
+  const avg = stats.avg_pnl_pct || 0;
   summary.textContent = `${stats.total} trades · ${wins}W/${losses}L · avg ${avg.toFixed(1)}% · best +${stats.best_pnl_pct}% / worst ${stats.worst_pnl_pct}%`;
 
   if (trades.length === 0) {
