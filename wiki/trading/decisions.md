@@ -1015,3 +1015,7 @@
 - **Reasoning:** All four candidates are 24h losers trending down or bouncing dead-cat-style, and three of them I already lost money on this week — skipping everything to protect the -0.04 SOL day and wait for a real momentum signal instead of averaging into the same weak setups.
 
 
+## [2026-08-26 05:02 UTC] observe | LLM tick: 0 exits, no entries. 0 positions held
+- **Reasoning:** All four candidates are tokens I've already traded and lost on as time-stop exits, and every one is deep below ATH with negative 24h momentum — skipping all to preserve capital; current streak is 1W/5L and chasing the same names won't fix it.
+
+
