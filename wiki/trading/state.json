@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.846771,
+  "balance_sol": 0.852917,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "3xvEV23ApfFAtNHw57p3rTE3qw4YqmJFprwTqqAvpump": {
       "symbol": "PIGEONMAN",
       "name": "Pigeon Human",
-      "amount": 292395.47055987257,
+      "amount": 219296.60291990443,
       "entry_price_usd": 4.463133431927705e-06,
-      "entry_sol_spent": 0.0125,
+      "entry_sol_spent": 0.009375000000000001,
       "entry_time": "2026-08-27T13:06:45.055612+00:00",
       "entry_usd_value": 5.220000000000001,
       "entry_signals": {
@@ -19037,25 +19037,30 @@
       "pnl_pct": -3.07,
       "exit_reason": "LLM: sell_all — $BLINDAPE pool $10 with us holding 51% — illiquid walking dead, down 3% and flat across snapshots (60.6→60.2). No exit liquidity, no narrative tail. G",
       "partial": true
+    },
+    {
+      "mint": "3xvEV23ApfFAtNHw57p3rTE3qw4YqmJFprwTqqAvpump",
+      "symbol": "PIGEONMAN",
+      "name": "Pigeon Human",
+      "amount_sold": 73098.86763996814,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T13:06:45.055612+00:00",
+      "exit_time": "2026-08-27T13:09:08.420001+00:00",
+      "entry_price_usd": 4.463133431927705e-06,
+      "exit_price_usd": 8.801461326503856e-06,
+      "entry_sol_for_chunk": 0.003125,
+      "exit_sol_received": 0.006146,
+      "pnl_sol": 0.003021,
+      "pnl_pct": 97.2,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T13:08:04.177247+00:00",
+  "last_updated": "2026-08-27T13:09:29.899679+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.52,
-  "portfolio_value_usd": 92.36,
+  "last_sol_price_usd": 104.69,
+  "portfolio_value_usd": 92.82,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 13:02 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $PENNY closed at $4.32837e-06 | P&L: -53.6%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-08-27 13:02 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $RISE at $8.38065e-06 | P&L: +62.4%",
-      "reason": "Auto take-profit at +62.4%"
-    },
     {
       "time": "2026-08-27 13:02 UTC",
       "action": "sell",
@@ -19163,6 +19168,18 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $BLINDAPE at $2.94075e-06 | P&L: -3.1%",
       "reason": "$BLINDAPE pool $10 with us holding 51% — illiquid walking dead, down 3% and flat across snapshots (60.6→60.2). No exit liquidity, no narrative tail. Get out before the stop hunts us at -30%."
+    },
+    {
+      "time": "2026-08-27 13:09 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $PIGEONMAN at $8.80146e-06 | P&L: +97.2%",
+      "reason": "Auto take-profit at +97.2%"
+    },
+    {
+      "time": "2026-08-27 13:09 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -19184,52 +19201,30 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T13:08:03.799953+00:00",
+  "last_llm_brief_at": "2026-08-27T13:09:29.899355+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "8uu7mokQoHqWtwSKFXmmDLceZUTkPdW4hRzT49XLpump": {
-      "price_usd": 3.1758416093903435e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 133.20946057068,
-      "volume_h24": 1193.96,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.274487759
-    },
-    "5EcaEprGAa5rPQuwAZx85NKRF4t3zKQPyvy6SJp8pump": {
-      "price_usd": 5.108344800051655e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1010.1230935395599,
-      "volume_h24": 7331.9,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 9.664400053
-    },
     "3xvEV23ApfFAtNHw57p3rTE3qw4YqmJFprwTqqAvpump": {
-      "price_usd": 1.0494958204466915e-05,
+      "price_usd": 8.801461326503856e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2806.64489414556,
-      "volume_h24": 12672.26,
+      "liquidity_usd": 2305.46107146111,
+      "volume_h24": 21863.42,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 26.852706603
+      "real_sol_reserves": 22.021788819
     },
     "8EbeL5ovFzBtQop5YVFq9SkpPxyDucFanTG3StnSpump": {
-      "price_usd": 2.94074655586736e-06,
+      "price_usd": 2.927027028783243e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 9.894915611879998,
-      "volume_h24": 4933.36,
+      "liquidity_usd": 1.8844199999999998e-06,
+      "volume_h24": 4953.81,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.094670069
+      "real_sol_reserves": 1.8e-08
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

@@ -6994,3 +6994,9 @@
 ## [2026-08-27 13:08 UTC] sell | [PARTIAL][LLM] $BLINDAPE at $2.94075e-06 | P&L: -3.1%
 - **Reasoning:** $BLINDAPE pool $10 with us holding 51% — illiquid walking dead, down 3% and flat across snapshots (60.6→60.2). No exit liquidity, no narrative tail. Get out before the stop hunts us at -30%.
 
+## [2026-08-27 13:09 UTC] sell | [TP +30% (25%)] $PIGEONMAN at $8.80146e-06 | P&L: +97.2%
+- **Reasoning:** Auto take-profit at +97.2%
+
+## [2026-08-27 13:09 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
