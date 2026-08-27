@@ -3997,3 +3997,12 @@
 ## [2026-08-27 03:33 UTC] buy | [LLM] $DEATH at $2.9882e-06, spent 0.1 SOL
 - **Reasoning:** $DEATH 'FOID STARE' shares a poster with $GUILTY (RT_com) — coordinated dual-launch from an attention account is a strong signal. 0.1 SOL, will exit at +30%.
 
+## [2026-08-27 03:35 UTC] sell | [FULL][LLM] $DEATH at $2.97134e-06 | P&L: -0.6%
+- **Reasoning:** Flat at -0.6% on a $70 pool where we already own 14% — illiquidity risk dominates. No narrative edge, no movement in 0h. Cut and rotate.
+
+## [2026-08-27 03:35 UTC] buy | [LLM] $GOAT at $5.86589e-06, spent 0.1 SOL
+- **Reasoning:** $GOAT — Hayden Adams (Solana founder) tied narrative at $5.8k mcap with bond curve already at 23% (strongest organic traction of the batch). Real attention anchor, not a bot farm.
+
+## [2026-08-27 03:35 UTC] buy | [LLM] $1SOL at $3.50495e-06, spent 0.1 SOL
+- **Reasoning:** $1SOL — self-referential SOL community meme with a clean narrative hook. Bond already at 9% on a sub-$4k mcap, pure meta play with viral phrasing.
+
