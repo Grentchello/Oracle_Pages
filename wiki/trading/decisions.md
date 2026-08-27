@@ -2308,3 +2308,9 @@
 ## [2026-08-27 00:10 UTC] buy | [LLM] $blindape at $6.013e-06, spent 0.1 SOL
 - **Reasoning:** $blindape — ape meta at $4.9k mcap with 19% bond filling fast, classic viral attention play, 0.6min old means earliest entry.
 
+## [2026-08-27 00:11 UTC] sell | [FULL][LLM] $SUNSHINE at $2.844e-06 | P&L: +0.0%
+- **Reasoning:** SUNSHINE is flat at entry after 0.0h with -5.1% on 24h — no narrative edge, no momentum signal, weakest story in the bag. Free the slot.
+
+## [2026-08-27 00:11 UTC] buy | [LLM] $CAKE at $4.52348e-06, spent 0.1 SOL
+- **Reasoning:** $CAKE riding the Cheesecake Factory brand-name hijack narrative, $4.5k mcap with WatcherGuru tweet attached — exactly the attention-launch setup the strategy is built for.
+
