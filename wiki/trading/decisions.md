@@ -6592,3 +6592,18 @@
 ## [2026-08-27 12:16 UTC] buy | [LLM] $CYBERWAR at $2.993e-06, spent 0.05 SOL
 - **Reasoning:** $CYBERWAR ties to live Polymarket attention (cyber war narrative is hot). Twitter link from @Polymarket adds credibility. mcap $3k, 0.8min old — early entry with a real-world news hook. 0.05 SOL position.
 
+## [2026-08-27 12:17 UTC] sell | [FULL][LLM] $Jing Tian at $3.96074e-06 | P&L: -0.1%
+- **Reasoning:** $Jing Tian is flat (-0.1%), pool only $517, no narrative, no volume pulse, held 6 min with zero movement. Stale capital — rotate out.
+
+## [2026-08-27 12:17 UTC] sell | [FULL][LLM] $$REDFNX at $3.12736e-06 | P&L: +0.1%
+- **Reasoning:** $REDFNX flat (+0.1%), $111 pool, no momentum, no attention signal. Dead on arrival — free the slot.
+
+## [2026-08-27 12:17 UTC] sell | [FULL][LLM] $PC at $2.9819e-06 | P&L: +1.2%
+- **Reasoning:** $PC +1.2% but pool is only $34 and we're 15% of it — illiquid, will dump on exit. Tiny gain not worth the rug risk. Cut and rotate.
+
+## [2026-08-27 12:17 UTC] sell | [FULL][LLM] $CYBERWAR at $2.99457e-06 | P&L: +0.1%
+- **Reasoning:** $CYBERWAR flat (+0.1%), $41 pool with 14% our share = exit trap. No narrative heat, no volume. Clear the dead weight.
+
+## [2026-08-27 12:17 UTC] buy | [LLM] $HORMUZ at $4.563e-05, spent 0.05 SOL
+- **Reasoning:** $HORMUZ has the strongest narrative of the batch — Hormuz Strait geopolitical chokepoint is a real attention magnet (oil/oil markets), $41k mcap with bonding 42% complete, dedicated X account. Geopolitical memecoins pump on news cycles. Size 0.05 SOL.
+
