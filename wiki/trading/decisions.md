@@ -6829,3 +6829,9 @@
 ## [2026-08-27 12:51 UTC] buy | [LLM] $SPIDER at $4.83628e-06, spent 0.05 SOL
 - **Reasoning:** $SPIDER - '$233.95 drawing' meta is memetic absurdity (j7tracker deployer has some footprint), attention-bait name fits the attention-market thesis. Small position.
 
+## [2026-08-27 12:52 UTC] sell | [hard-stop] $Toad King closed at $2.49322e-08 | P&L: -98.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:52 UTC] sell | [hard-stop] $SPIDER closed at $2.95789e-06 | P&L: -38.8%
+- **Reasoning:** Hard -30% stop
+
