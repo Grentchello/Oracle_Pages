@@ -5701,3 +5701,18 @@
 ## [2026-08-27 10:32 UTC] buy | [LLM] $Larry at $5.37441e-06, spent 0.05 SOL
 - **Reasoning:** $Larry 'The Twitter Bird' — highest mcap of the fresh batch ($5.4k), real X handle (@LvckUwU), name riffs on Twitter/Larry the Bird which has cultural recognition. Bonding curve 21% so some early buys already. Narrative is concrete, not generic.
 
+## [2026-08-27 10:33 UTC] sell | [TP +30% (25%)] $Larry at $7.86243e-06 | P&L: +46.3%
+- **Reasoning:** Auto take-profit at +46.3%
+
+## [2026-08-27 10:34 UTC] sell | [FULL][LLM] $Larry at $7.86243e-06 | P&L: +46.3%
+- **Reasoning:** +46% in <1h on bonding curve (pool $2011) — classic pre-graduation pump that often gives back gains. Lock the profit now per scalp discipline; better to redeploy capital into fresher attention.
+
+## [2026-08-27 10:34 UTC] buy | [LLM] $agent.md at $3.3505e-06, spent 0.05 SOL
+- **Reasoning:** $agent.md is a meta-narrative play on the AI-agent/developer crowd that's actually deploying these bots — strong attention signal, $3.4k mcap gives 5-10x room if it catches, 0.05 SOL size keeps risk bounded.
+
+## [2026-08-27 10:34 UTC] buy | [LLM] $CHLOE at $8.60183e-06, spent 0.05 SOL
+- **Reasoning:** $CHLOE (Side Eye Chloe) has the highest mcap and 30% bonding progress of the batch — strongest existing attention; 0.05 SOL entry, narrative is relatable reaction-image meme.
+
+## [2026-08-27 10:34 UTC] buy | [LLM] $チョロ松 at $5.12549e-06, spent 0.05 SOL
+- **Reasoning:** $Choromatsu is the Sony Walkman monkey — genuine nostalgia IP from a globally recognized Japanese ad campaign, niche but real cultural attention at $5k mcap, 0.05 SOL speculative entry.
+
