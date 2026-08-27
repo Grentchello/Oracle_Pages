@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.227313,
+  "balance_sol": 0.200082,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "Ax4e3r3kASsZ7SXPv3o9y4MsWJ3jnr8rFuzwHqgPUUMz": {
-      "symbol": "XIAO",
-      "name": "The Loyal Dog",
-      "amount": 762601.8547826109,
-      "entry_price_usd": 6.9151418488265765e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T14:17:54.188618+00:00",
-      "entry_usd_value": 5.2735,
-      "entry_signals": {
-        "liquidity_usd": 233.25565995923,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6922.257179819954,
-        "ath_market_cap_usd": 16000.18999342123,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.211583009,
-        "description": "",
-        "twitter": "https://x.com/TweeetsOfDogs/status/2092979765552550331",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "FPagEecNNPRZauJtiX2UAA2g6L6yE3mnLnCEQMVZpump": {
       "symbol": "TACOCAT",
       "name": "tacocat",
@@ -43,6 +21,28 @@
         "real_sol_reserves": 2.002381325,
         "description": "spell it backwards",
         "twitter": "https://x.com/tacocatwtf",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "C9gTZTYQdYPg2TLvZZywi5fF1bQ22HE6hQWdSQQWpump": {
+      "symbol": "MILK",
+      "name": "I love Kats",
+      "amount": 789682.004082876,
+      "entry_price_usd": 6.690034688248457e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-27T14:19:17.141788+00:00",
+      "entry_usd_value": 5.283,
+      "entry_signals": {
+        "liquidity_usd": 1600.3273790906999,
+        "volume_24h_usd": null,
+        "market_cap_usd": 6701.303020359286,
+        "ath_market_cap_usd": 6676.719201830336,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 15.146009645,
+        "description": "cats > frogs atm ",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -20652,25 +20652,30 @@
       "pnl_pct": 21.99,
       "exit_reason": "LLM: sell_all — $WTF is up +22% on a $414 pool (thin, our share shows 0% — easy to slip). Rules say lock gains at >20% when there's any doubt. 12min held with no furt",
       "partial": false
+    },
+    {
+      "mint": "Ax4e3r3kASsZ7SXPv3o9y4MsWJ3jnr8rFuzwHqgPUUMz",
+      "symbol": "XIAO",
+      "name": "The Loyal Dog",
+      "amount_sold": 762601.8547826109,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T14:17:54.188618+00:00",
+      "exit_time": "2026-08-27T14:18:58.871707+00:00",
+      "entry_price_usd": 6.9151418488265765e-06,
+      "exit_price_usd": 3.154712345307601e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.022769,
+      "pnl_sol": -0.027231,
+      "pnl_pct": -54.38,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T14:17:54.489171+00:00",
+  "last_updated": "2026-08-27T14:19:17.424480+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.47,
-  "portfolio_value_usd": 34.52,
+  "last_sol_price_usd": 105.66,
+  "portfolio_value_usd": 31.7,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 14:09 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $WTF at $1.51712e-06 | P&L: +19.6%",
-      "reason": "+19.6% in 6 min on $406 pool — thin liquidity means the next seller dumps price. Lock half the gain, ride the rest with house money. If it2x's I'll take the rest at +100%."
-    },
-    {
-      "time": "2026-08-27 14:09 UTC",
-      "action": "buy",
-      "details": "[LLM] $Bare at $1.33914e-05, spent 0.05 SOL",
-      "reason": "$Bare — viral X post from @PenTheArtist, $13.4k mcap with 35% bonding curve (the most progressed of all new launches = strongest real demand). Clear narrative + attention source. 0.05 SOL position."
-    },
     {
       "time": "2026-08-27 14:10 UTC",
       "action": "sell",
@@ -20778,29 +20783,64 @@
       "action": "buy",
       "details": "[LLM] $TACOCAT at $3.38793e-06, spent 0.05 SOL",
       "reason": "$TACOCAT — palindrome meme with own X account, 'spell it backwards' is a sticky viral hook. 0.1min age, $3.4k mcap, minimal liquidity risk at entry. Pure attention-market play on a memorable concept."
+    },
+    {
+      "time": "2026-08-27 14:18 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $XIAO closed at $3.15471e-06 | P&L: -54.4%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 14:19 UTC",
+      "action": "buy",
+      "details": "[LLM] $MILK at $6.69003e-06, spent 0.05 SOL",
+      "reason": "$MILK 'I love Kats' — cats > frogs narrative is a clear cultural/attention play. mcap $6.7k, 25% bonded, very fresh. Memecoin attention markets reward simple, viral animal narratives."
     }
   ],
   "trade_stats": {
-    "total": 1212,
+    "total": 1213,
     "wins": 634,
-    "losses": 578,
+    "losses": 579,
     "win_rate_pct": 52.3,
-    "total_pnl_sol": -1.572678,
-    "avg_pnl_pct": 42.39,
+    "total_pnl_sol": -1.599909,
+    "avg_pnl_pct": 42.32,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 671,
-    "today_realized_sol": -0.140449,
-    "today_target_pct": -35.1,
+    "today_trades": 672,
+    "today_realized_sol": -0.16768,
+    "today_target_pct": -41.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 634,
-      "loss_count": 578,
+      "loss_count": 579,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T14:17:53.900215+00:00",
+  "last_llm_brief_at": "2026-08-27T14:19:16.844912+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Ax4e3r3kASsZ7SXPv3o9y4MsWJ3jnr8rFuzwHqgPUUMz": {
+      "price_usd": 3.154712345307601e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 105.83629571754001,
+      "volume_h24": 15038.68,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.001668519
+    },
+    "FPagEecNNPRZauJtiX2UAA2g6L6yE3mnLnCEQMVZpump": {
+      "price_usd": 3.197623988847352e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 128.03929390008,
+      "volume_h24": 4635.91,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.211804788
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot"
 }
