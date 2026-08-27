@@ -6982,3 +6982,15 @@
 ## [2026-08-27 13:07 UTC] sell | [TP +100% (50%)] $PIGEONMAN at $1.0495e-05 | P&L: +135.2%
 - **Reasoning:** Auto take-profit at +135.1%
 
+## [2026-08-27 13:08 UTC] sell | [FULL][LLM] $ROBOT at $3.17584e-06 | P&L: -7.6%
+- **Reasoning:** $ROBOT down 7.6% on bonding curve, pool only $133 (we hold 4%), and the mcap stalled at ~$62.5 for both 1m and 2m snapshots — no momentum and the thin pool means even a small exit pushes price. Don't hope.
+
+## [2026-08-27 13:08 UTC] sell | [FULL][LLM] $TRUMP at $5.10834e-06 | P&L: -9.6%
+- **Reasoning:** $TRUMP down 9.6% with no bounce in either tick (90→88 mcap), saturated narrative coin entering a crowded space. -9.6 → -20 happens fast; rotate capital.
+
+## [2026-08-27 13:08 UTC] sell | [PARTIAL][LLM] $PIGEONMAN at $1.0495e-05 | P&L: +135.2%
+- **Reasoning:** $PIGEONMAN up 135% with fresh momentum (mcap 100→119 in last minute). Trim half to lock the gain — still a decent narrative (absurdist comedy coin) but the rate of price appreciation screams 'late into move'. Leave half to capture extension.
+
+## [2026-08-27 13:08 UTC] sell | [PARTIAL][LLM] $BLINDAPE at $2.94075e-06 | P&L: -3.1%
+- **Reasoning:** $BLINDAPE pool $10 with us holding 51% — illiquid walking dead, down 3% and flat across snapshots (60.6→60.2). No exit liquidity, no narrative tail. Get out before the stop hunts us at -30%.
+
