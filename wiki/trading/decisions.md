@@ -7081,3 +7081,6 @@
 ## [2026-08-27 13:18 UTC] buy | [LLM] $MONEY at $6.20681e-06, spent 0.05 SOL
 - **Reasoning:** $MONEY (New Money) from @solflare tweet — 'New Money' is one of the most meta-viral memecoin names possible. $6k mcap, 0.1min old, solflare signal gives it a legitimacy boost. Self-referential memecoins pump on narrative alone.
 
+## [2026-08-27 13:19 UTC] sell | [hard-stop] $MONEY closed at $2.92479e-06 | P&L: -52.9%
+- **Reasoning:** Hard -30% stop
+
