@@ -7156,3 +7156,6 @@
 ## [2026-08-27 13:30 UTC] buy | [LLM] $GIGAFROG at $6.78956e-06, spent 0.05 SOL
 - **Reasoning:** $GIGAFROG — absurd-frog naming convention historically prints (PEPE, GIGACHAD, etc.). 0.3min old, mcap $6.7k, real X link. Low-bonding-curve entries with meme-recognition names are asymmetric.
 
+## [2026-08-27 13:31 UTC] sell | [hard-stop] $Orwellian closed at $2.92842e-06 | P&L: -67.3%
+- **Reasoning:** Hard -30% stop
+
