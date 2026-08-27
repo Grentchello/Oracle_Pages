@@ -7030,3 +7030,12 @@
 ## [2026-08-27 13:12 UTC] buy | [LLM] $BULLIO at $1.47207e-05, spent 0.05 SOL
 - **Reasoning:** $BULLIO has its own Twitter handle (@realbullio) — organic attention, not BingX spam. Highest bond progress (36%) and mcap ($14.7k) in the fresh batch. Bull narrative is evergreen. 0.05 SOL position.
 
+## [2026-08-27 13:13 UTC] sell | [TP +30% (25%)] $PIGEONMAN at $8.38605e-06 | P&L: +87.9%
+- **Reasoning:** Auto take-profit at +87.9%
+
+## [2026-08-27 13:14 UTC] sell | [PARTIAL][LLM] $PIGEONMAN at $8.38605e-06 | P&L: +87.9%
+- **Reasoning:** Up +87.9% in 0.1h is exceptional. Rule says take some profit. Selling half locks ~+80% gain and lets the rest ride if momentum continues. Pool only $2176 is thin though — risk of rug, so locking gains is wise.
+
+## [2026-08-27 13:14 UTC] buy | [LLM] $STONK at $3.96542e-06, spent 0.05 SOL
+- **Reasoning:** $STONK 'Anime Bitcoin' is a strong memeable narrative — anime + BTC crossover has viral potential. Fresh launch at $3.9k mcap with twitter presence.
+
