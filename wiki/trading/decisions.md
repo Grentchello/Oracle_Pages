@@ -3544,3 +3544,15 @@
 ## [2026-08-27 02:50 UTC] buy | [LLM] $Ai-Chan at $9.73346e-06, spent 0.1 SOL
 - **Reasoning:** $Ai-Chan (ヤヨウ・クサマ) — distinct mint from held position, 0.3min old, mcap $9.7k, anime narrative with Japanese name = attention bait on J-Twitter/K-Twitter crossover. Same creator hub as my held Ai-Chan pumping 35%. Sympathy play on proven attention.
 
+## [2026-08-27 02:50 UTC] sell | [FULL][LLM] $HOBBES at $4.77079e-06 | P&L: -4.7%
+- **Reasoning:** $HOBBES at -4.7% with tiny pool ($908) and 1% share is dead weight. Free up the slot for a fresh launch with real attention.
+
+## [2026-08-27 02:50 UTC] sell | [FULL][LLM] $MAX at $2.86149e-06 | P&L: -5.2%
+- **Reasoning:** $MAX -5.1% with pool only $19 and 25% share means we're the liquidity. Cut the loss, this microcap is dying.
+
+## [2026-08-27 02:50 UTC] sell | [FULL][LLM] $Ai-Chan at $3.191e-05 | P&L: +9.9%
+- **Reasoning:** $Ai-Chan dexscreener listing +9.9% with $13k pool is OK but it's only one of two Ai-Chan positions — consolidate to the bonding-curve one.
+
+## [2026-08-27 02:50 UTC] buy | [LLM] $PWH at $6.69567e-06, spent 0.1 SOL
+- **Reasoning:** $PWH (Pepe Wif Helmet) — classic Pepe variant naming, 26% bonding curve already filled shows real buy demand. Pepe derivatives are the most reliable attention plays on memecoins.
+
