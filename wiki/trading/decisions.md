@@ -2818,3 +2818,9 @@
 ## [2026-08-27 01:15 UTC] sell | [PARTIAL][LLM] $SKRIMP at $5.529e-06 | P&L: +70.3%
 - **Reasoning:** +70.3% in 0.4h with 24h at +83.6%. Lock in some profit per the +50% take-profit rule while keeping upside in a strong runner.
 
+## [2026-08-27 01:16 UTC] sell | [PARTIAL][LLM] $SKRIMP at $5.529e-06 | P&L: +70.3%
+- **Reasoning:** $SKRIMP +70.3% with 1h=24h matching at +83.6% signals fresh parabolic move; locking half profit frees SOL to rotate into the $Sperm launch which has a live Twitter handle and is 40% bonded.
+
+## [2026-08-27 01:16 UTC] sell | [PARTIAL][LLM] $HAMSTER at $1.475e-05 | P&L: +66.4%
+- **Reasoning:** $HAMSTER +66.4% with 1h=+333% is extreme momentum — classic take-profit zone per the +50% rule. Half off locks the green and frees SOL for new attention plays.
+
