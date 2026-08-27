@@ -4384,3 +4384,18 @@
 ## [2026-08-27 08:04 UTC] buy | [LLM] $sigma at $5.191e-06, spent 0.1 SOL
 - **Reasoning:** $sigma SIGMA BOY is a known viral meme archetype with cultural recognition. Sub-$4k mcap, fresh launch — classic low-cap attention play with asymmetric upside.
 
+## [2026-08-27 08:05 UTC] sell | [TP +100% (75%)] $ノア at $2.258e-05 | P&L: +228.0%
+- **Reasoning:** Auto take-profit at +228.0%
+
+## [2026-08-27 08:05 UTC] sell | [TP +100% (75%)] $sigma at $1.3105e-05 | P&L: +152.5%
+- **Reasoning:** Auto take-profit at +152.5%
+
+## [2026-08-27 08:05 UTC] sell | [FULL][LLM] $ノア at $2.258e-05 | P&L: +228.0%
+- **Reasoning:** Already +228% — well past +100% TP threshold. Lock the gain now, narrative is fully extracted at this age.
+
+## [2026-08-27 08:05 UTC] sell | [FULL][LLM] $frontrun at $5.35071e-06 | P&L: -41.3%
+- **Reasoning:** Down -41.3% on tiny $1128 pool, headed toward -50% hard stop. No bounce signal, exit to preserve remaining capital.
+
+## [2026-08-27 08:05 UTC] sell | [FULL][LLM] $sigma at $1.3105e-05 | P&L: +152.5%
+- **Reasoning:** Pool=$0 and our share=6273181661% is a data anomaly indicating illiquid/broken position. Mint doesn't match current $sigma launch. Exit to be safe.
+
