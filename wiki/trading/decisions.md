@@ -6820,3 +6820,12 @@
 ## [2026-08-27 12:49 UTC] buy | [LLM] $FATTOGOR at $3.36616e-06, spent 0.05 SOL
 - **Reasoning:** $FATTOGOR tied to Conor McGregor ($TheNotoriousMMA) is the strongest celebrity-narrative launch in this batch. $3.3k mcap is tiny — high upside if McGregor engagement picks up, hard rug risk if it doesn't.
 
+## [2026-08-27 12:51 UTC] sell | [FULL][LLM] $FATTOGOR at $2.92647e-06 | P&L: -13.1%
+- **Reasoning:** Down -13.1% already, held 0h on bonding curve, narrative unclear (FATTOGOR - no viral signal). At -13% with no bounce catalyst, exit before -20% becomes -30%. Cut losers fast.
+
+## [2026-08-27 12:51 UTC] buy | [LLM] $Toad King at $1.28092e-06, spent 0.05 SOL
+- **Reasoning:** $Toad King - highest mcap ($12k) of fresh launches, animal/king meme has viral DNA, 0.1min age = maximum attention window. Bonding curve 31% so early but not zero liquidity.
+
+## [2026-08-27 12:51 UTC] buy | [LLM] $SPIDER at $4.83628e-06, spent 0.05 SOL
+- **Reasoning:** $SPIDER - '$233.95 drawing' meta is memetic absurdity (j7tracker deployer has some footprint), attention-bait name fits the attention-market thesis. Small position.
+
