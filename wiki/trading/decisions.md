@@ -3721,3 +3721,15 @@
 ## [2026-08-27 03:07 UTC] buy | [LLM] $Topblast at $1.03004e-05, spent 0.1 SOL
 - **Reasoning:** $Topblast — 'Stupid Chicken Coin' from a trader account @jncquant, highest mcap of fresh batch at $10.3k with 32% bonded. Attention narrative is the name itself; small size on a meme coin is the bet.
 
+## [2026-08-27 03:08 UTC] sell | [TP +30% (half)] $Topblast at $1.97381e-05 | P&L: +91.6%
+- **Reasoning:** Auto take-profit at +91.6%
+
+## [2026-08-27 03:08 UTC] sell | [PARTIAL][LLM] $Topblast at $1.97381e-05 | P&L: +91.6%
+- **Reasoning:** $Topblast +91.6% in <0.1h on a $5k pool is parabolic. The rule says take some profit at +50% and this is well past. Lock in gains on half, let the rest ride the bonding curve.
+
+## [2026-08-27 03:08 UTC] buy | [LLM] $CASH at $1.75322e-05, spent 0.1 SOL
+- **Reasoning:** $CASH (Crazy Cash) at $17.6k mcap is the highest-mcap new launch in this batch — that means it's attracting the most attention first. Tracker deploy (j7tracker.io) + same twitter handle as $CRAZY/$CrazyCash cluster suggests a coordinated push. Cluster attention is a strong signal.
+
+## [2026-08-27 03:08 UTC] buy | [LLM] $Headliner at $3.01537e-06, spent 0.1 SOL
+- **Reasoning:** $Headliner — 'the internet's nightly paper, one headline until midnight UTC' is a genuinely clever concept with built-in recurring engagement hook. Low mcap $3k but the narrative is sticky and could catch attention from crypto twitter commentary accounts.
+

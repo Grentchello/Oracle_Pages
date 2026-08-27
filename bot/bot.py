@@ -916,10 +916,9 @@ def main():
     for mint, pos in list(state.get("positions", {}).items()):
         if mint not in state.get("positions", {}):
             continue  # already closed by hard-stop
-        token = next((t for t in tokens if t["mint"] == mint), None)
-        if not token:
-            continue
-        cur_price = _to_float(token.get("price_usd"))
+        # Held positions often NOT in the fresh tokens list — use held_prices directly
+        hp = held_prices.get(mint) or {}
+        cur_price = _to_float(hp.get("price_usd"))
         entry_price = _to_float(pos.get("entry_price_usd"))
         if cur_price <= 0 or entry_price <= 0:
             continue
@@ -937,7 +936,6 @@ def main():
             tp_fraction = 0.5
         else:
             continue
-        # Respect partial sell state — if already partially sold, fraction may exceed remaining
         if pos.get("amount", 0) <= 0:
             continue
         trade = execute_sell(state, mint, cur_price, tp_fraction, f"auto-{tp_action}")
@@ -958,10 +956,8 @@ def main():
         held_hours = (now - parse_iso(pos["entry_time"])).total_seconds() / 3600
         if held_hours < 1.0:  # 60 min
             continue
-        token = next((t for t in tokens if t["mint"] == mint), None)
-        if not token:
-            continue
-        cur_price = _to_float(token.get("price_usd"))
+        hp = held_prices.get(mint) or {}
+        cur_price = _to_float(hp.get("price_usd"))
         if cur_price <= 0:
             continue
         entry_price = _to_float(pos.get("entry_price_usd"))
