@@ -4984,3 +4984,9 @@
 ## [2026-08-27 09:15 UTC] buy | [LLM] $SHRIMP at $5.094e-06, spent 0.05 SOL
 - **Reasoning:** $SHRIMP — DevWizardxbt launched, ultra-fresh (0.1min), $5k mcap. 'Shrimp Taste Tester' is quirky/absurd name that fits memecoin meme DNA — absurdist humor tends to spread on CT.
 
+## [2026-08-27 09:16 UTC] sell | [hard-stop] $SHRIMP closed at $2.96012e-06 | P&L: -41.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:16 UTC] sell | [TP +30% (25%)] $lily at $1.74736e-05 | P&L: +74.0%
+- **Reasoning:** Auto take-profit at +74.0%
+
