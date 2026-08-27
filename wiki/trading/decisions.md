@@ -2746,3 +2746,9 @@
 ## [2026-08-27 01:04 UTC] buy | [LLM] $DREAD at $3.76956e-06, spent 0.1 SOL
 - **Reasoning:** $DREAD — Dread Forum narrative (darknet Reddit) has genuine internet-culture cachet and a story to meme. Lowest mcap tier + 12% bonded = early attention window.
 
+## [2026-08-27 01:06 UTC] sell | [FULL][LLM] $SCAT at $1.949e-05 | P&L: +202.5%
+- **Reasoning:** $SCAT +202.5% with 1h=+549% shows blow-off top pattern, parabolic moves exhaust fast — locking in 2x gains before reversal
+
+## [2026-08-27 01:06 UTC] buy | [LLM] $uponly at $7.33919e-06, spent 0.1 SOL
+- **Reasoning:** $uponly — strongest new launch with 'uponly hat cult' meta-narrative (self-referential memecoin culture), 28% bond curve leading, mcap only $7.3k = high attention upside
+
