@@ -3796,3 +3796,6 @@
 ## [2026-08-27 03:11 UTC] sell | [PARTIAL][LLM] $OPUS at $1.03512e-05 | P&L: +16.1%
 - **Reasoning:** $OPUS is up +16% just minutes in but the name 'Opus 5' has FOUR duplicate mints on the bonding curve — that fragmentation will cannibalize liquidity and confuse buyers. Take half profit now; let the rest ride if one variant pulls ahead, otherwise exit.
 
+## [2026-08-27 03:12 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
