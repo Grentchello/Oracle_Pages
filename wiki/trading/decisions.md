@@ -3181,3 +3181,24 @@
 ## [2026-08-27 02:04 UTC] buy | [LLM] $LILY at $3.43577e-06, spent 0.1 SOL
 - **Reasoning:** $LILY (The Collective Leader) — launched on discord.gg/uxento (pump.fun incubator with built-in shill base), fresh, sub-$4k mcap. 0.1 SOL.
 
+## [2026-08-27 02:05 UTC] sell | [FULL][LLM] $roof at $1.963e-06 | P&L: -95.0%
+- **Reasoning:** Position is at -95.0%, far past the -50% hard cap. Freeing slot and stopping further bleed.
+
+## [2026-08-27 02:05 UTC] sell | [FULL][LLM] $BURPCOIN at $5.248e-06 | P&L: -17.8%
+- **Reasoning:** Showing -17.8% vs entry but 24h is +73% — recent bounce is fading, lock in the green-leaning recovery and free a slot.
+
+## [2026-08-27 02:05 UTC] sell | [FULL][LLM] $CIRCUS at $2.892e-06 | P&L: -56.3%
+- **Reasoning:** At -56.3%, past the -50% hard cap. Auto-close territory; cutting the loss.
+
+## [2026-08-27 02:05 UTC] sell | [FULL][LLM] $LILY at $2.956e-06 | P&L: -14.0%
+- **Reasoning:** Slow bleed at -14.0%, 24h -8.4%, no catalyst visible. Slot is more valuable than this name — exit and redeploy.
+
+## [2026-08-27 02:05 UTC] buy | [LLM] $AI at $3.41469e-06, spent 0.1 SOL
+- **Reasoning:** $AI 'Artifishual Intellijeans' — $3.4k mcap, 0.3min old, has X post attached. AI + denim-wordplay is the kind of silly name that catches attention on CT. High risk at 8% bond but this is exactly the viral-attention window.
+
+## [2026-08-27 02:05 UTC] buy | [LLM] $MOON at $3.6794e-06, spent 0.1 SOL
+- **Reasoning:** $MOON — $3.7k mcap, 0.2min old. 'Moon' is the most classic memecoin tickr of all time; sub-5k mcap launch with no description needed. Pure attention-trade, lottery-ticket sized bet.
+
+## [2026-08-27 02:05 UTC] buy | [LLM] $PHAREA at $1.45376e-06, spent 0.1 SOL
+- **Reasoning:** $PHAREA 'Phantom Reactor / the real Pepe' — $1.4k mcap, 0.3min, explicitly leans into Pepe virality. Self-aware meme-meta play; tiny mcap gives 10x room if it catches.
+
