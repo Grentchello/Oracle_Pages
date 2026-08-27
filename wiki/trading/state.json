@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.561154,
+  "balance_sol": 0.533271,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "EuYRNGmkyXirgiEau9gkgkHv8gB4d45yyAHTBfBWpump": {
-      "symbol": "MEGADUCK",
-      "name": "Megaduck",
-      "amount": 787542.1056736035,
-      "entry_price_usd": 6.638375221256733e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T13:22:32.130936+00:00",
-      "entry_usd_value": 5.228000000000001,
-      "entry_signals": {
-        "liquidity_usd": 99.78636736208,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6653.260513089454,
-        "ath_market_cap_usd": 9104.24371141193,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.954345518,
-        "description": "",
-        "twitter": "https://twitter.com/yacineMTB/status/2092965597210390999",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "6ZjmFzeqJzxwqU8MhTSFVkyWkA1yXsEGfvqedHFbpump": {
       "symbol": "KGDZ",
       "name": "KING GODZILLA",
@@ -43,6 +21,28 @@
         "real_sol_reserves": 4.250219086,
         "description": "Welcome to the kingdom. King Godzilla ($KGDZ) is the ultimate community coin for legends who know how to survive the bear market and ride the green candles. Join the empire. 👑🚀",
         "twitter": "https://www.x.com/RealGodz1lla",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "3irT8xsAXD4Gdht17PNpQhB2Rx73XLU821xmZCaHpump": {
+      "symbol": "HPIM",
+      "name": "Highly-Persistent Internal Model",
+      "amount": 534531.9571941155,
+      "entry_price_usd": 9.788937648305685e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-27T13:24:14.159136+00:00",
+      "entry_usd_value": 5.232500000000001,
+      "entry_signals": {
+        "liquidity_usd": 1823.3012932088502,
+        "volume_24h_usd": null,
+        "market_cap_usd": 9784.853086791376,
+        "ath_market_cap_usd": 11940.567449122633,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 17.422850389,
+        "description": "",
+        "twitter": "https://x.com/cryptowithkarl/status/2092966091626537160",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -19428,25 +19428,30 @@
       "pnl_pct": -53.37,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "EuYRNGmkyXirgiEau9gkgkHv8gB4d45yyAHTBfBWpump",
+      "symbol": "MEGADUCK",
+      "name": "Megaduck",
+      "amount_sold": 787542.1056736035,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T13:22:32.130936+00:00",
+      "exit_time": "2026-08-27T13:23:36.778478+00:00",
+      "entry_price_usd": 6.638375221256733e-06,
+      "exit_price_usd": 2.9389444401432436e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.022117,
+      "pnl_sol": -0.027883,
+      "pnl_pct": -55.73,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T13:22:32.445850+00:00",
+  "last_updated": "2026-08-27T13:24:14.159454+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.56,
-  "portfolio_value_usd": 69.13,
+  "last_sol_price_usd": 104.65,
+  "portfolio_value_usd": 66.27,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 13:15 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $STONK at $2.99744e-06 | P&L: -24.4%",
-      "reason": "$STONK down -24.4% with $41 pool (below 5x position size) and 10% share getting eaten by illiquidity. No bounce signal, holding for a rug — exit now before -30% hard stop."
-    },
-    {
-      "time": "2026-08-27 13:15 UTC",
-      "action": "buy",
-      "details": "[LLM] $wif at $5.875e-06, spent 0.05 SOL",
-      "reason": "$wif (dog wif horns) — viral dog wif hat derivative narrative, $5.8k mcap, 23% bonded fastest of the cluster. Highest mcap + most bonding progress = strongest attention signal."
-    },
     {
       "time": "2026-08-27 13:16 UTC",
       "action": "sell",
@@ -19554,51 +19559,63 @@
       "action": "buy",
       "details": "[LLM] $KGDZ at $3.81041e-06, spent 0.05 SOL",
       "reason": "$KGDZ 'KING GODZILLA' has a story-driven description ('ultimate community coin for legends... survive the bea[st]') and a real X account @RealGodz1lla. $3.8k mcap at 0.3min — asymmetric upside if the narrative catches. Second small bet to diversify attention exposure this tick."
+    },
+    {
+      "time": "2026-08-27 13:23 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $MEGADUCK closed at $2.93894e-06 | P&L: -55.7%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 13:24 UTC",
+      "action": "buy",
+      "details": "[LLM] $HPIM at $9.78894e-06, spent 0.05 SOL",
+      "reason": "$HPIM — highest bond (31%) of the fresh batch, sole launch of this name (no copycat saturation), and the AI/CS 'Highly-Persistent Internal Model' framing taps the AI-crypto meta. Best risk-adjusted fresh attention signal among the candidates."
     }
   ],
   "trade_stats": {
-    "total": 1140,
+    "total": 1141,
     "wins": 601,
-    "losses": 539,
+    "losses": 540,
     "win_rate_pct": 52.7,
-    "total_pnl_sol": -1.238835,
-    "avg_pnl_pct": 44.34,
+    "total_pnl_sol": -1.266718,
+    "avg_pnl_pct": 44.26,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 599,
-    "today_realized_sol": 0.193394,
-    "today_target_pct": 48.3,
+    "today_trades": 600,
+    "today_realized_sol": 0.165511,
+    "today_target_pct": 41.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 601,
-      "loss_count": 539,
+      "loss_count": 540,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T13:22:31.831337+00:00",
+  "last_llm_brief_at": "2026-08-27T13:24:13.855549+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "BDaYQ3zKTDGqok4eYwHa6FMmVVT2wpg2SCQv5YPVpump": {
-      "price_usd": 3.0762691076267183e-06,
+    "EuYRNGmkyXirgiEau9gkgkHv8gB4d45yyAHTBfBWpump": {
+      "price_usd": 2.9389444401432436e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 80.97325984128001,
-      "volume_h24": 9151.39,
+      "liquidity_usd": 6.98592131965,
+      "volume_h24": 6778.19,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.774419088
+      "real_sol_reserves": 0.066755101
     },
-    "DD3UtptPGoH87h7UPFhgb2MW1WZeAWXPUq4YyS7ZENx2": {
-      "price_usd": 2.9234792491894902e-06,
+    "6ZjmFzeqJzxwqU8MhTSFVkyWkA1yXsEGfvqedHFbpump": {
+      "price_usd": 3.81368627351441e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.04661713496,
-      "volume_h24": 3096.95,
+      "liquidity_usd": 444.7854273499001,
+      "volume_h24": 444.99,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.000445841
+      "real_sol_reserves": 4.250219086
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
