@@ -3145,3 +3145,15 @@
 ## [2026-08-27 02:01 UTC] buy | [LLM] $HF at $4.55164e-06, spent 0.1 SOL
 - **Reasoning:** $HF 'HuggingFaceToken' at $4.5k mcap — AI narrative via HuggingFace brand association is a strong attention magnet in the current AI-coin meta. TrenchingView tweet adds distribution.
 
+## [2026-08-27 02:03 UTC] sell | [FULL][LLM] $LILY at $2.953e-06 | P&L: -48.6%
+- **Reasoning:** $LILY at -48.6% is 1.4% from the -50% hard cap that LLM cannot override. Selling now salvages remaining value vs forced liquidation.
+
+## [2026-08-27 02:03 UTC] sell | [FULL][LLM] $Buddy at $3.94e-05 | P&L: +166.4%
+- **Reasoning:** $Buddy +166% is massive profit but 24h=-5.5% and 1h=-5.5% signal fading momentum. Locking in gains per the +50% take-profit rule; freeing slot for fresh alpha.
+
+## [2026-08-27 02:03 UTC] sell | [FULL][LLM] $HF at $3.06e-06 | P&L: -32.8%
+- **Reasoning:** $HF -32.8% already hurting and new $HF candidate launched with different mint — cutting the loser to redeploy capital into fresher attention play.
+
+## [2026-08-27 02:03 UTC] buy | [LLM] $NEYMAR at $5.21489e-06, spent 0.1 SOL
+- **Reasoning:** $NEYMAR — Neymar is a global celebrity with ~200M+ social reach. Celebrity memecoins with real names are the highest-attention category in this market. $5k mcap is prime attention-market entry. Risk: celebrity rugs are common, but attention is the asset.
+
