@@ -5848,3 +5848,9 @@
 ## [2026-08-27 10:45 UTC] buy | [LLM] $HERE at $3.70444e-06, spent 0.05 SOL
 - **Reasoning:** $HERE (We are here) from @MustStopMurad — Murad is a high-attention memecoin account, $3.7k mcap at 20s old is fresh entry. Narrative-driven meta coin with a known callout account.
 
+## [2026-08-27 10:47 UTC] sell | [FULL][LLM] $HERE at $3.04876e-06 | P&L: -17.7%
+- **Reasoning:** $HERE down -17.7% with thin $71 pool — illiquid tokens die fast once they start bleeding, and the -30% hard stop will likely trigger anyway. Cut now and free the slot.
+
+## [2026-08-27 10:47 UTC] buy | [LLM] $CATMAXX at $3.64084e-06, spent 0.05 SOL
+- **Reasoning:** $CATMAXX has a dedicated twitter account (catmaxxtoken) — cats are a proven meta, and a creator willing to make a branded account signals commitment. $3.6k mcap is early.
+
