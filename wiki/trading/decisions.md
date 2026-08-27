@@ -2992,3 +2992,12 @@
 ## [2026-08-27 01:39 UTC] buy | [LLM] $SWC at $9.46599e-06, spent 0.1 SOL
 - **Reasoning:** $SWC 'Stand With Crypto' — strong narrative tied to crypto political movement, highest mcap at $9.4k with 31% bond suggests real buys, viral X source.
 
+## [2026-08-27 01:41 UTC] sell | [FULL][LLM] $SWC at $3.467e-06 | P&L: -63.4%
+- **Reasoning:** SWC at -63.4% breaches the -50% hard cap and the position is collapsing (24h -10.4%, down hard in 0.0h held). Cut immediately to free slot and stop loss.
+
+## [2026-08-27 01:41 UTC] sell | [PARTIAL][LLM] $Buddy at $2.366e-05 | P&L: +60.0%
+- **Reasoning:** Buddy up +60% on the day with +672% 24h — taking half off locks the win per the +50% take-profit rule, letting the rest ride if the narrative keeps running.
+
+## [2026-08-27 01:41 UTC] buy | [LLM] $CHONK at $6.01619e-06, spent 0.1 SOL
+- **Reasoning:** CHONK has the strongest narrative of the batch — a real internet meme ('chonk vs chonker') with a proper written lore, sub-$10k mcap, and clear cultural attention hook. Risky at <0.5min but that asymmetry is the play. Slot opened by SWC exit.
+
