@@ -7489,3 +7489,9 @@
 ## [2026-08-27 14:21 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-08-27 14:22 UTC] sell | [TP +30% (25%)] $MILK at $8.98516e-06 | P&L: +34.3%
+- **Reasoning:** Auto take-profit at +34.3%
+
+## [2026-08-27 14:23 UTC] sell | [FULL][LLM] $MILK at $8.98516e-06 | P&L: +34.3%
+- **Reasoning:** +34.3% gain past first TP threshold — locking profit. Bonding-curve token with mcap only ~$2358 pool means thin liquidity and high rug/refund risk on the way back down. Take the win.
+
