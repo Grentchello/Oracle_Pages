@@ -7291,3 +7291,12 @@
 ## [2026-08-27 13:54 UTC] sell | [FULL][LLM] $Ape8110 at $3.26036e-06 | P&L: -0.6%
 - **Reasoning:** Flat at -0.6% with a tiny $167 pool and 3% share — this is a dead bonding-curve micro-position, no bounce signal, capital is better rotated.
 
+## [2026-08-27 13:55 UTC] sell | [TP +30% (25%)] $DISPATCH at $9.66774e-06 | P&L: +82.2%
+- **Reasoning:** Auto take-profit at +82.2%
+
+## [2026-08-27 13:55 UTC] sell | [PARTIAL][LLM] $DISPATCH at $9.66774e-06 | P&L: +82.2%
+- **Reasoning:** Up +82.2% in 0.1h — already past the +50% TP zone, and the price action (0.0001005 → 0.0000917) shows a pullback forming. Lock half the gain now, let the rest ride if the narrative (Dispatch/attention narrative) keeps pushing, but don't give back the +82% spike.
+
+## [2026-08-27 13:55 UTC] buy | [LLM] $Bill at $7.03335e-06, spent 0.05 SOL
+- **Reasoning:** $Bill narrative has political memecoin DNA (The Memecoin Bill) plus a launchblitz.ai origin which is built for attention farming. Fresh launch at $7k mcap, bond26% — enough narrative asymmetry to risk0.05 SOL for a potential 5-10x in the first hour.
+
