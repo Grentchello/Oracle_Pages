@@ -2884,3 +2884,12 @@
 ## [2026-08-27 01:21 UTC] buy | [LLM] $HML at $2.90283e-06, spent 0.1 SOL
 - **Reasoning:** Hannah Montana Linux is the kind of absurd meme-fusion that does numbers on CT — has a twitter post backing it. Small position to ride the joke if it lands.
 
+## [2026-08-27 01:22 UTC] sell | [FULL][LLM] $DOGE at $1.015e-06 | P&L: -50.3%
+- **Reasoning:** $DOGE is at -50.3%, hitting the hard cap. Auto-close triggered.
+
+## [2026-08-27 01:22 UTC] buy | [LLM] $ket at $9.60517e-06, spent 0.1 SOL
+- **Reasoning:** $ket — fresh 0.3min, highest mcap of new batch ($9.6k, bond 31% — closest to graduation = real buys happening), X link with engagement. Attention + structure. 0.1 SOL.
+
+## [2026-08-27 01:22 UTC] buy | [LLM] $ZARD at $7.1973e-06, spent 0.1 SOL
+- **Reasoning:** $ZARD (Dark Charizard) — Pokemon IP remix, 0.4min old, mcap $7.2k. Memecoin meta loves Pokemon mashups; name alone = viral potential. 0.1 SOL.
+
