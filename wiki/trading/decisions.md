@@ -4081,3 +4081,15 @@
 ## [2026-08-27 07:11 UTC] buy | [LLM] $MOLWAR at $1.12805e-06, spent 0.1 SOL
 - **Reasoning:** The Mask (1994) is a nostalgic viral meme with Jim Carrey — strong narrative, 0.3min old, $1.1k mcap = classic early entry. Risk: sub-$2k mcap with 6% bonding is highly volatile, but the attention thesis is real.
 
+## [2026-08-27 07:12 UTC] sell | [TP +30% (half)] $tripletung at $7.19e-06 | P&L: +31.1%
+- **Reasoning:** Auto take-profit at +31.1%
+
+## [2026-08-27 07:13 UTC] sell | [FULL][LLM] $MOLWAR at $9.51744e-07 | P&L: -15.6%
+- **Reasoning:** -15.6% with pool of only $76 and our 11% share means WE are the liquidity — any exit crashes our own price. Down 15.6% approaching -20% exit threshold. Thin pool + approaching stop = cut now before it becomes a -50% hard stop.
+
+## [2026-08-27 07:13 UTC] buy | [LLM] $$DONKEY at $3.15621e-06, spent 0.1 SOL
+- **Reasoning:** $DONKEY has the strongest attention signal of the batch — 1.3M views viral X story (donkey carrying a motorcycle). Memecoins are attention markets, this is textbook viral narrative. $3.1k mcap = early entry.
+
+## [2026-08-27 07:13 UTC] buy | [LLM] $cake at $7.11753e-06, spent 0.1 SOL
+- **Reasoning:** $cake deployed by Mario Prezidente via j7tracker.io — repeat deployer with proven track record. $7k mcap is highest in the batch, bond already 27% so real buy interest exists. Cake/chef narratives historically do well.
+
