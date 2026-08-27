@@ -4039,3 +4039,12 @@
 ## [2026-08-27 03:41 UTC] buy | [LLM] $Fomo Lisa at $4.9216e-06, spent 0.1 SOL
 - **Reasoning:** $Fomo Lisa — self-aware FOMO meta-coin with active X account @Fomolisa_ and 'fomo.family' community angle. Lowest mcap of the attention-backed tokens = most room if it catches. 0.1 SOL.
 
+## [2026-08-27 03:43 UTC] sell | [FULL][LLM] $Business at $6.64134e-06 | P&L: -35.5%
+- **Reasoning:** Down 35.5% with no bounce signal and only 0.0h held — below my -20% loser-exit rule and approaching the -50% hard cap. Cut now.
+
+## [2026-08-27 03:43 UTC] sell | [FULL][LLM] $Trade4Me at $4.99904e-06 | P&L: -41.7%
+- **Reasoning:** Down 41.7% — deep in loser territory, close to the -50% hard cap, no bounce. Exit before forced stop.
+
+## [2026-08-27 03:43 UTC] buy | [LLM] $FONE at $5.12114e-06, spent 0.1 SOL
+- **Reasoning:** $FONE 'Cat got a phone. Calling the trenches' — strong meme narrative, $5k mcap, fresh launch with story. Classic attention-market setup. Risk: cat-phone meta is crowded.
+
