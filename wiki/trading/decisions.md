@@ -5215,3 +5215,6 @@
 ## [2026-08-27 09:44 UTC] buy | [LLM] $ROGROC at $3.32606e-06, spent 0.05 SOL
 - **Reasoning:** $ROGROC ('Rogue Rocket') has a clear pirate/treasure narrative with emoji flair, very fresh at 0.2min. Pirate-meta memecoins tend to pump hard on launch when the story clicks — small position to test the wave.
 
+## [2026-08-27 09:45 UTC] sell | [hard-stop] $ROGROC closed at $7.49176e-07 | P&L: -77.5%
+- **Reasoning:** Hard -30% stop
+
