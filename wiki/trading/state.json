@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.963605,
+  "balance_sol": 0.951279,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 25.1914116,
         "description": "Deployed using https://j7tracker.io",
         "twitter": "https://x.com/GTABustas/status/2092763940941885943",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "Erow4zJD4HmF7Qvv8VFVUfFuxu2rFdg6dCBrY7k6pump": {
-      "symbol": "AE",
-      "name": "Agentic Ecology",
-      "amount": 2938089.283595447,
-      "entry_price_usd": 3.46892113078595e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T00:01:10.088569+00:00",
-      "entry_usd_value": 10.192,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3477.543775315568,
-        "ath_market_cap_usd": 3477.6904355353154,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.100000001,
-        "description": "",
-        "twitter": "https://x.com/devonsol123/status/2092764248417894605",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -87,6 +65,28 @@
         "real_sol_reserves": 0.395000002,
         "description": "",
         "twitter": "https://twitter.com/toly/status/2092764760194641999",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "AksuLPpLKpxQkMYkvbBCCknAKAKFnB5KRKzpVmAEpump": {
+      "symbol": "SAVMON",
+      "name": "Savage Mongoose",
+      "amount": 3212345.4237582753,
+      "entry_price_usd": 3.164043295228399e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T00:05:10.749313+00:00",
+      "entry_usd_value": 10.164000000000001,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3165.2963043920163,
+        "ath_market_cap_usd": 5652.035060275698,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.206267459,
+        "description": "",
+        "twitter": "https://x.com/zumpsol/status/2092618531883892876",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -2574,25 +2574,30 @@
       "pnl_pct": -2.7,
       "exit_reason": "LLM: sell_all — $VORRRP bleeding (-2.7% spot, -11.3% both windows), no narrative strength visible. Free up a slot for fresh attention with better setup.",
       "partial": false
+    },
+    {
+      "mint": "Erow4zJD4HmF7Qvv8VFVUfFuxu2rFdg6dCBrY7k6pump",
+      "symbol": "AE",
+      "name": "Agentic Ecology",
+      "amount_sold": 2938089.283595447,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T00:01:10.088569+00:00",
+      "exit_time": "2026-08-27T00:05:10.749084+00:00",
+      "entry_price_usd": 3.46892113078595e-06,
+      "exit_price_usd": 3.033e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.087674,
+      "pnl_sol": -0.012326,
+      "pnl_pct": -12.57,
+      "exit_reason": "LLM: sell_all — -12.6% with flat 24h/1h momentum means attention already left this name. Freeing capital for a live launch; small realized loss is worth the rotation.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T00:03:48.633953+00:00",
+  "last_updated": "2026-08-27T00:05:10.749485+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.89,
-  "portfolio_value_usd": 133.85,
+  "last_sol_price_usd": 101.64,
+  "portfolio_value_usd": 132.33,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 13:09 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-08-26 13:10 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-26 13:12 UTC",
       "action": "observe",
@@ -2700,36 +2705,48 @@
       "action": "buy",
       "details": "[LLM] $BLINKS at $2.92425e-06, spent 0.1 SOL",
       "reason": "$BLINKS by toly (Solana co-founder) — founder attention is the highest-signal catalyst on Solana. Small mcap, fresh mint, narrative = Solana ecosystem meme. Top candidate."
+    },
+    {
+      "time": "2026-08-27 00:05 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $AE at $3.033e-06 | P&L: -12.6%",
+      "reason": "-12.6% with flat 24h/1h momentum means attention already left this name. Freeing capital for a live launch; small realized loss is worth the rotation."
+    },
+    {
+      "time": "2026-08-27 00:05 UTC",
+      "action": "buy",
+      "details": "[LLM] $SAVMON at $3.16404e-06, spent 0.1 SOL",
+      "reason": "Savage Mongoose is a memorable, shareable animal meme with a clean name — exactly the kind of name that catches fire on CT/X. $3.1k mcap = early entry. One-slot budget goes here."
     }
   ],
   "trade_stats": {
-    "total": 146,
+    "total": 147,
     "wins": 74,
-    "losses": 72,
-    "win_rate_pct": 50.7,
-    "total_pnl_sol": -0.586394,
-    "avg_pnl_pct": 89.53,
+    "losses": 73,
+    "win_rate_pct": 50.3,
+    "total_pnl_sol": -0.59872,
+    "avg_pnl_pct": 88.84,
     "best_pnl_pct": 666.22,
     "worst_pnl_pct": -99.89,
-    "today_trades": 3,
-    "today_realized_sol": -0.057187,
-    "today_target_pct": -14.3,
+    "today_trades": 4,
+    "today_realized_sol": -0.069513,
+    "today_target_pct": -17.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 74,
-      "loss_count": 72,
+      "loss_count": 73,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T00:03:48.633488+00:00",
+  "last_llm_brief_at": "2026-08-27T00:05:10.749046+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AKuY7mKesE9HMfeaWyWjFunzzTxoZNwp6rfHL5pJpump": {
-      "price_usd": 6.321e-06,
-      "change_h24": 83.42,
-      "change_h1": 83.42,
+      "price_usd": 8.014e-06,
+      "change_h24": 133.0,
+      "change_h1": 133.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 25027.88,
+      "volume_h24": 29495.78,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
@@ -2742,21 +2759,21 @@
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "6xQ3ShZzmySVTBnvyxqEWdWfn3LCHTR9yE3wdYsspump": {
-      "price_usd": 2.87e-06,
-      "change_h24": -11.35,
-      "change_h1": -11.35,
+    "EDcCsJ92Ptu6AxWHhcVLEeLsYRAA3m2evzpknZAppump": {
+      "price_usd": 3.704e-06,
+      "change_h24": 17.11,
+      "change_h1": 17.11,
       "liquidity_usd": 0.0,
-      "volume_h24": 4618.84,
+      "volume_h24": 17289.78,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "EDcCsJ92Ptu6AxWHhcVLEeLsYRAA3m2evzpknZAppump": {
-      "price_usd": 7.314e-06,
-      "change_h24": 131.0,
-      "change_h1": 131.0,
+    "3NCQBvYGzqaDQCda2meBexrTdjdiEoDaUBQNmykBppqW": {
+      "price_usd": 2.916e-06,
+      "change_h24": -24.47,
+      "change_h1": -24.47,
       "liquidity_usd": 0.0,
-      "volume_h24": 12078.73,
+      "volume_h24": 1064.99,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

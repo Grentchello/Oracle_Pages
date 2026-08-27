@@ -2263,3 +2263,9 @@
 ## [2026-08-27 00:03 UTC] buy | [LLM] $BLINKS at $2.92425e-06, spent 0.1 SOL
 - **Reasoning:** $BLINKS by toly (Solana co-founder) — founder attention is the highest-signal catalyst on Solana. Small mcap, fresh mint, narrative = Solana ecosystem meme. Top candidate.
 
+## [2026-08-27 00:05 UTC] sell | [FULL][LLM] $AE at $3.033e-06 | P&L: -12.6%
+- **Reasoning:** -12.6% with flat 24h/1h momentum means attention already left this name. Freeing capital for a live launch; small realized loss is worth the rotation.
+
+## [2026-08-27 00:05 UTC] buy | [LLM] $SAVMON at $3.16404e-06, spent 0.1 SOL
+- **Reasoning:** Savage Mongoose is a memorable, shareable animal meme with a clean name — exactly the kind of name that catches fire on CT/X. $3.1k mcap = early entry. One-slot budget goes here.
+
