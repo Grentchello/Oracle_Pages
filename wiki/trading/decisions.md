@@ -4897,3 +4897,15 @@
 ## [2026-08-27 09:03 UTC] buy | [LLM] $CLUB at $3.274e-06, spent 0.05 SOL
 - **Reasoning:** $CLUB 'The Exit Liquidity Club' is a self-aware meta-rug meme — that exact irony IS the attention driver on CT right now. Memes that mock exit liquidity tend to pump because degens quote-share them. Speculative but high virality potential.
 
+## [2026-08-27 09:04 UTC] sell | [FULL][LLM] $ASTRO at $2.00464e-05 | P&L: +15.2%
+- **Reasoning:** $ASTRO +15.2% approaching the +20% stale-watch zone but pool is thin ($5074) and bonding-curve, narrative unclear. Lock the gain now per scalp discipline — don't hope.
+
+## [2026-08-27 09:04 UTC] sell | [FULL][LLM] $CLUB at $2.96632e-06 | P&L: -9.4%
+- **Reasoning:** $CLUB -9.4% with only $28 pool and 17% of supply — this is a microcap dying on the curve. Cut it before -30% hard stop hits.
+
+## [2026-08-27 09:04 UTC] buy | [LLM] $Choromatsu at $7.17601e-06, spent 0.05 SOL
+- **Reasoning:** $Choromatsu — viral nostalgia IP (monkey with walkman), X link from sovietsoleri, $7k mcap = early attention window. Strong narrative, fresh story.
+
+## [2026-08-27 09:04 UTC] buy | [LLM] $DORACZ at $3.11225e-06, spent 0.05 SOL
+- **Reasoning:** $DORACZ — CZ/Doraemon mashup is a memeable crossover with an evolving narrative arc (Homer → CZ). Cheap mcap, attention coin.
+
