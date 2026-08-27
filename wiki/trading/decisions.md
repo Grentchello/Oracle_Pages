@@ -6622,3 +6622,15 @@
 ## [2026-08-27 12:21 UTC] sell | [TP +100% (50%)] $memecoin at $1.46231e-05 | P&L: +129.5%
 - **Reasoning:** Auto take-profit at +129.5%
 
+## [2026-08-27 12:22 UTC] sell | [FULL][LLM] $memecoin at $1.46231e-05 | P&L: +129.5%
+- **Reasoning:** +129.5% profit. Position is tiny (0% share) but the gain is real. Lock it now — fresh launches retrace fast, and I've already passed the +100% TP threshold.
+
+## [2026-08-27 12:22 UTC] sell | [FULL][LLM] $Microcuck at $3.90255e-06 | P&L: -25.1%
+- **Reasoning:** -25.1% and pool only $491. Sitting 5% from hard stop with no bounce signal. Cut it before the bot force-closes.
+
+## [2026-08-27 12:22 UTC] sell | [FULL][LLM] $CUPSEY at $7.19597e-06 | P&L: +5.4%
+- **Reasoning:** +5.4% after entry is basically flat. Pool only $1786, low liquidity, no momentum. Not worth the slot when fresh launches need capital.
+
+## [2026-08-27 12:22 UTC] buy | [LLM] $BABYANSEM at $3.50551e-06, spent 0.05 SOL
+- **Reasoning:** $BABYANSEM — redemption narrative (former dev abandoned, community regrouped as CTO). That 'community is back' story is exactly the kind of tribal attention that pumps memecoins. 0.3min age, $3.5k mcap, 8% bonded — early but the narrative is concrete.
+
