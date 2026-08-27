@@ -4267,3 +4267,6 @@
 ## [2026-08-27 07:40 UTC] buy | [LLM] $Eugene at $3.217e-06, spent 0.1 SOL
 - **Reasoning:** $Eugene — explicit 'next viral animal' narrative piggybacking on Moo Deng / Nihilistic Penguin / Punch meta. Animal coins have been the strongest meta recently. $3.2k mcap, 0.9min old. 0.1 SOL.
 
+## [2026-08-27 07:41 UTC] sell | [FULL][LLM] $Eugene at $3.21576e-06 | P&L: -0.0%
+- **Reasoning:** $Eugene flat (-0.0%) with only $199 pool and 5% of it — our position is ~$10 of a $199 pool, exit liquidity is fragile. Not up >10% after being held, and stale risk + thin pool = cut and rotate.
+
