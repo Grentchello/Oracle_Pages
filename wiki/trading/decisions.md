@@ -6310,3 +6310,9 @@
 ## [2026-08-27 11:45 UTC] buy | [LLM] $luckydog at $5.88196e-06, spent 0.05 SOL
 - **Reasoning:** $luckydog — 'they will call us lucky' is a cute narrative with a Twitter post already attached, mcap $5.9k is early enough to ride a 5-10x if the dog meta sticks. Risk: low-mcap fresh launch volatility.
 
+## [2026-08-27 11:46 UTC] sell | [hard-stop] $luckydog closed at $3.16627e-06 | P&L: -46.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:46 UTC] buy | [LLM] $BONGO at $5.52906e-06, spent 0.05 SOL
+- **Reasoning:** $BONGO is the strongest new-launch signal: 22% bonding curve progress (most mature of the fresh batch), has a live Twitter post, and a simple animal-meme narrative. Sub-$6k mcap means room for 5-10x if narrative catches. Risk: low bonding progress means illiquid exit if it dumps. Sizing 0.05 SOL.
+
