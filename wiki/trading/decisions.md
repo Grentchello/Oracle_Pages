@@ -5476,3 +5476,24 @@
 ## [2026-08-27 10:09 UTC] buy | [LLM] $Cheeky at $3.527e-06, spent 0.05 SOL
 - **Reasoning:** $Cheeky 'Cheeky Boy' — @epsteinsen X post, the name itself is a meme, $3.5k mcap 1.1min in. Cheap attention bet with a quirky narrative.
 
+## [2026-08-27 10:11 UTC] sell | [hard-stop] $Heaven closed at $3.02263e-06 | P&L: -43.1%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:11 UTC] sell | [hard-stop] $Ethan closed at $3.12039e-06 | P&L: -32.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:11 UTC] sell | [TP +30% (25%)] $Ape at $8.99311e-06 | P&L: +93.5%
+- **Reasoning:** Auto take-profit at +93.5%
+
+## [2026-08-27 10:11 UTC] sell | [FULL][LLM] $Ape at $8.99311e-06 | P&L: +93.5%
+- **Reasoning:** $Ape +93.5% — well past 75% TP threshold. Bonding curve, tiny pool ($2363), risk of collapse is high. Lock the gain.
+
+## [2026-08-27 10:11 UTC] sell | [PARTIAL][LLM] $BULLIO at $2.32472e-05 | P&L: +14.3%
+- **Reasoning:** $BULLIO +14.3%, only 0.1h held, pool $5714. Not yet stale but momentum unclear. Sell half to lock partial, let rest ride if narrative catches.
+
+## [2026-08-27 10:11 UTC] sell | [FULL][LLM] $Cheeky at $3.11909e-06 | P&L: -11.6%
+- **Reasoning:** $Cheeky -11.6%, pool only $97 (below 5x position rule), our share 5%. Liquidity is dangerously thin — exit before it gets worse.
+
+## [2026-08-27 10:11 UTC] buy | [LLM] $Duster at $1.55087e-05, spent 0.05 SOL
+- **Reasoning:** $Duster (Duster the Bull) — ordinals-linked X account, $15.5k mcap, 36% bonded. Strongest narrative in the batch (tied to recent ordinals trend). Risk: bonding-curve dump risk.
+
