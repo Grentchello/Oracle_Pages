@@ -2287,3 +2287,18 @@
 ## [2026-08-27 00:07 UTC] buy | [LLM] $OSbroker at $6.46719e-06, spent 0.1 SOL
 - **Reasoning:** $OSbroker has a real product narrative (Solana stock-trading broker in plain English) plus a dedicated X account — narrative + utility story tends to stick in early launches.
 
+## [2026-08-27 00:09 UTC] sell | [FULL][LLM] $GIBSON at $2.956e-06 | P&L: -60.0%
+- **Reasoning:** $GIBSON at -60.0% is PAST the -50% hard cap. Hard cap cannot be overridden by LLM — must exit immediately. The 1h/24h at -2.5% vs entry suggests this was a rug/snap-down at open, not a slow bleed.
+
+## [2026-08-27 00:09 UTC] sell | [FULL][LLM] $OSbroker at $2.844e-06 | P&L: -56.0%
+- **Reasoning:** $OSbroker at -56.0% is PAST the -50% hard cap. Same as GIBSON — hard cap triggers automatic exit. -7.2% on 24h/1h confirms this is dying, not recovering.
+
+## [2026-08-27 00:09 UTC] buy | [LLM] $Trumppower at $2.3906e-07, spent 0.1 SOL
+- **Reasoning:** $Trumppower — political memecoin narrative during an attention-heavy cycle. Sub-$300 mcap with bonding curve only 18% filled = early entry. Politics memes are pure attention plays; size small, ride narrative.
+
+## [2026-08-27 00:09 UTC] buy | [LLM] $SUNSHINE at $2.84399e-06, spent 0.1 SOL
+- **Reasoning:** $SUNSHINE (Sunshine The Coyote) — has a live X post from zyrooxbt (208... status), coyote/cute-animal memes historically print. 0.5min old, $2.8k mcap, bond at 0% = ground floor entry. Attention signal is real.
+
+## [2026-08-27 00:09 UTC] buy | [LLM] $SAVMON at $3.47197e-06, spent 0.1 SOL
+- **Reasoning:** $SAVMON (Savage Mongoose) — zumpsol twitter handle attached, animal-meme format ('the real Pepe Tod' adjacent copy in this cluster). Duplicate launches suggest a creator pushing attention — early sizing pays if one catches.
+
