@@ -41,11 +41,11 @@ PUMPFUN_NEW_LAUNCHES = "https://frontend-api-v3.pump.fun/coins?limit=30&offset=0
 SOL_MINT = "So11111111111111111111111111111111111111112"
 
 # === Strategy parameters (safeguards — LLM can't override) ===
-POSITION_SIZE_SOL = 0.1
+POSITION_SIZE_SOL = 0.05         # $5 per position (halved from 0.1 in v7)
 MAX_POSITIONS = 5
 MAX_HOLD_HOURS = 72
-HARD_STOP_LOSS = 0.5        # -50% hard cap, beyond this we MUST exit
-DAILY_MAX_LOSS_SOL = 0.4    # if today's realized < -0.4 SOL, no new entries
+HARD_STOP_LOSS = 0.30        # -30% hard cap (tightened from -50% in v7)
+DAILY_MAX_LOSS_SOL = 0.20    # daily loss cap -0.20 SOL (was -0.4; tighter in v7)
 RESERVE_SOL = 0.05
 
 # LLM throttling
@@ -550,13 +550,14 @@ This is a learning experiment. If you skip every tick, you learn nothing. The wh
 Most memecoin traders hold for seconds to minutes. The fastest money is in fresh launches that pump 50-300% in their first hour. Hold too long and you give back gains.
 
 **Hard rules the bot enforces (you can't override):**
-- -50% hard stop loss (auto)
-- +30% take-profit at half (auto), +100% at 75%, +300% at 100% (auto)
+- -30% hard stop loss (auto; tightened from -50% in v7)
+- +30% take-profit at 25% (auto), +100% at 50%, +200% at 75%, +500% at 100%
 - >30 min held AND not up >20% = stale exit (auto)
 - >15 min held AND not up >10% = marked ⚠ STALE in your prompt
 - Max hold 72h
-- Daily loss cap -0.4 SOL
+- Daily loss cap -0.20 SOL (tightened from -0.4 in v7)
 - Min liquidity 5x position size
+- Position size 0.05 SOL ($5 per position, halved from 0.1 in v7)
 
 **Your job:**
 1. **SOLD POSITIONS — when do you have discretion?** Only on positions NOT yet at TP thresholds. If bot already auto-took-profit, no action needed.
@@ -954,14 +955,17 @@ def main():
         log(f"TP-check: ${pos.get('symbol')} pnl={pnl_pct:+.1f}% cur={cur_price:.10f} entry={entry_price:.10f}")
         # Take-profit tiers
         if pnl_pct >= 300:
-            tp_action = "TP +300% (full)"
+            tp_action = "TP +500% (full)"
             tp_fraction = 1.0
-        elif pnl_pct >= 100:
-            tp_action = "TP +100% (75%)"
+        elif pnl_pct >= 200:
+            tp_action = "TP +200% (75%)"
             tp_fraction = 0.75
-        elif pnl_pct >= 30:
-            tp_action = "TP +30% (half)"
+        elif pnl_pct >= 100:
+            tp_action = "TP +100% (50%)"
             tp_fraction = 0.5
+        elif pnl_pct >= 30:
+            tp_action = "TP +30% (25%)"
+            tp_fraction = 0.25
         else:
             continue
         if pos.get("amount", 0) <= 0:

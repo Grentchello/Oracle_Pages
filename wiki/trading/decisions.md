@@ -4771,3 +4771,21 @@
 ## [2026-08-27 08:49 UTC] sell | [FULL][LLM] $inno at $3.16693e-06 | P&L: -24.5%
 - **Reasoning:** $inno down -24.5% almost immediately on a $126 pool with our 6% footprint — we're part of the problem. Cut before it trips the -50% hard stop. Weak narrative, no reason to hold.
 
+## [2026-08-27 08:50 UTC] sell | [TP +30% (25%)] $GTAVI at $2.95321e-05 | P&L: +71.5%
+- **Reasoning:** Auto take-profit at +71.5%
+
+## [2026-08-27 08:50 UTC] sell | [TP +30% (25%)] $wiffone at $3.32962e-05 | P&L: +90.7%
+- **Reasoning:** Auto take-profit at +90.7%
+
+## [2026-08-27 08:50 UTC] sell | [TP +30% (25%)] $GTAVI at $2.95321e-05 | P&L: +71.5%
+- **Reasoning:** Auto take-profit at +71.5%
+
+## [2026-08-27 08:50 UTC] sell | [TP +30% (25%)] $wiffone at $3.32962e-05 | P&L: +90.7%
+- **Reasoning:** Auto take-profit at +90.7%
+
+## [2026-08-27 08:51 UTC] sell | [PARTIAL][LLM] $GTAVI at $2.95321e-05 | P&L: +71.5%
+- **Reasoning:** $GTAVI at +71.5% in 0.1h, crossed +50% TP. GTA VI narrative is viral but bonding-curve tokens dump fast after the curve fills. Lock half the gain, let the rest ride if it keeps pumping.
+
+## [2026-08-27 08:51 UTC] sell | [FULL][LLM] $wiffone at $3.32962e-05 | P&L: +90.7%
+- **Reasoning:** $wiffone at +90.7% in 0.0h is a fart-joke meme with weak narrative. Bonding-curve tokens with no story reverse violently. Take the +90% profit NOW - don't hope for a 2x that likely becomes a -50%.
+
