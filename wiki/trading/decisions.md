@@ -2428,3 +2428,12 @@
 ## [2026-08-27 00:29 UTC] sell | [PARTIAL][LLM] $Bunny at $3.12e-05 | P&L: +64.8%
 - **Reasoning:** +64% on the trade but 24h is -25% — classic dead-bounce divergence. Take half off, let the rest ride or stop on the other half.
 
+## [2026-08-27 00:31 UTC] sell | [PARTIAL][LLM] $blindape at $1.409e-05 | P&L: +134.3%
+- **Reasoning:** +134% with 1h/24h both +365% means all the move just happened — classic peak zone. Lock half, let the rest ride if narrative has more juice. Selling all risks missing continuation; holding all risks full reversal.
+
+## [2026-08-27 00:31 UTC] sell | [FULL][LLM] $Bunny at $2.642e-05 | P&L: +39.5%
+- **Reasoning:** Price is +39.5% from entry but 1h=-36.8% — clear momentum failure, the 24h gain was a spike already fading. Take the +39% and free the slot before it bleeds through zero.
+
+## [2026-08-27 00:31 UTC] buy | [LLM] $TopKek at $9.51658e-06, spent 0.1 SOL
+- **Reasoning:** $TopKek — 'Top Kek' is a legendary viral meme template, $9.5k mcap is the highest among fresh launches, 31% bond progress is leading, and Twitter post is generating attention. Best narrative-to-mcap ratio in the slate.
+
