@@ -7069,3 +7069,15 @@
 ## [2026-08-27 13:16 UTC] buy | [LLM] $GROKBOT at $5.481e-06, spent 0.05 SOL
 - **Reasoning:** $GROKBOT — Grok AI bot narrative is a proven attention magnet in current cycle, bonding 21%, has explicit X link. Bot/grok meta is hot right now.
 
+## [2026-08-27 13:17 UTC] sell | [hard-stop] $Toad King closed at $3.08691e-08 | P&L: -91.6%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:17 UTC] sell | [hard-stop] $GROKBOT closed at $3.01898e-06 | P&L: -44.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:18 UTC] buy | [LLM] $MVA-CR19 at $9.06137e-06, spent 0.05 SOL
+- **Reasoning:** MVA-CR19 narrative from @MarioPrezidente (Ebola Cure angle is viral meme territory — disease-to-cure coin flips are classic attention plays). Highest mcap ($9k) of the MVA clones = leader of the pack, 0.6min old. Catching the early leader of a multi-clone narrative usually pays.
+
+## [2026-08-27 13:18 UTC] buy | [LLM] $MONEY at $6.20681e-06, spent 0.05 SOL
+- **Reasoning:** $MONEY (New Money) from @solflare tweet — 'New Money' is one of the most meta-viral memecoin names possible. $6k mcap, 0.1min old, solflare signal gives it a legitimacy boost. Self-referential memecoins pump on narrative alone.
+
