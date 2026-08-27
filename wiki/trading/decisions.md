@@ -6157,3 +6157,12 @@
 ## [2026-08-27 11:23 UTC] buy | [LLM] $YOU at $3.20275e-06, spent 0.05 SOL
 - **Reasoning:** $YOU 'JUST BELIVE I LOVE YOU' — 0.2min old, mcap $3.2k, emotionally charged viral hook ('JUST BELIVE I LOVE YOU' is the kind of phrase that screenshots and spreads on TikTok/X). Ultra-fresh, low entry, fits attention-market thesis. Bet 0.05 SOL.
 
+## [2026-08-27 11:24 UTC] sell | [hard-stop] $YOU closed at $1.52657e-07 | P&L: -95.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:24 UTC] buy | [LLM] $WINDOWS at $4.9816e-06, spent 0.05 SOL
+- **Reasoning:** $WINDOWS — strongest narrative in the batch. Windows XP nostalgia is a universal attention hook (millennials grew up on it), gaming/leaderboard mechanic gives retention angle, twitter post is live, and bond is 19% (closest to graduating of any candidate). Fresh mcap ~$5k gives multi-x room if narrative catches. 0.05 SOL size.
+
+## [2026-08-27 11:24 UTC] buy | [LLM] $Huggy at $4.17167e-06, spent 0.05 SOL
+- **Reasoning:** $Huggy — 0.1min old (ultra-fresh attention window), $4.1k mcap with 14% bond. Character-coin meta ('Huggy') has historical virality (Huggy Wuggy cycle). Twitter link present. Second-best narrative+timing combo. 0.05 SOL size, sized small because brand-of-name carries trademark risk.
+
