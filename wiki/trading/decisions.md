@@ -4534,3 +4534,6 @@
 ## [2026-08-27 08:20 UTC] buy | [LLM] $Bixonimania at $5.14257e-06, spent 0.1 SOL
 - **Reasoning:** $Bixonimania — willmcgugan is a real, respected dev-tools author (Rich, Textual fame). 'AI Fake Disease' is absurdist humor primed for virality in AI-crypto Twitter. $5k mcap, 20% bonded, brand new — cheap entry on a credible account.
 
+## [2026-08-27 08:21 UTC] sell | [FULL][LLM] $Bixonimania at $4.88447e-06 | P&L: -5.0%
+- **Reasoning:** $Bixonimania -5% already, only 1% of $934 pool, held 0.0h. No clear bounce signal, thin liquidity means rug risk. Cut before it becomes -20%.
+
