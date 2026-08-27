@@ -3289,3 +3289,18 @@
 ## [2026-08-27 02:16 UTC] buy | [LLM] $Miso at $5.49594e-06, spent 0.1 SOL
 - **Reasoning:** $Miso has a Twitter post from RemoBlax providing social attention signal at $5.4k mcap with bond 22% — early entry on attention.
 
+## [2026-08-27 02:17 UTC] sell | [FULL][LLM] $robonigga at $3.132e-06 | P&L: -42.3%
+- **Reasoning:** At -42.3% and just entered — classic post-pump fade. Cutting before the -50% hard cap to free capital and a slot.
+
+## [2026-08-27 02:17 UTC] sell | [FULL][LLM] $Miso at $2.955e-06 | P&L: -46.2%
+- **Reasoning:** At -46.2% within minutes of entry — already nearly at the -50% hard cap and clearly a rug/fade. Sell now, not worth risking the auto-close at -50%.
+
+## [2026-08-27 02:17 UTC] buy | [LLM] $JAN183411 at $4.97781e-06, spent 0.1 SOL
+- **Reasoning:** $JAN183411 'The Collective leader' — narrative-driven, twitter attached (TJOHNSIII), fresh $5k mcap. Story tokens at this size are exactly the attention play the prompt calls for. 0.1 SOL.
+
+## [2026-08-27 02:17 UTC] buy | [LLM] $DISNEY at $2.95161e-06, spent 0.1 SOL
+- **Reasoning:** $DISNEY (Walt Disney tribute) — $2.9k mcap, instantly viral IP hook. High legal risk but attention markets don't care; tribute tokens move on narrative speed. 0.1 SOL.
+
+## [2026-08-27 02:17 UTC] buy | [LLM] $$SHITZU at $2.9392e-06, spent 0.1 SOL
+- **Reasoning:** $$SHITZU 'porcelain king has entered the throne room' — absurd dog-flush lore is exactly the kind of meme that catches X traction. Fresh $2.9k. 0.1 SOL.
+
