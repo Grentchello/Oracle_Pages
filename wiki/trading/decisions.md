@@ -4693,3 +4693,15 @@
 ## [2026-08-27 08:42 UTC] buy | [LLM] $GTAVI at $1.72225e-05, spent 0.1 SOL
 - **Reasoning:** $GTAVI — strongest narrative of the bunch. GTA VI is a mega-IP with built-in global attention, $17k mcap is fresh, and the bonding curve already at 37% shows real buy pressure. 0.1 SOL position is reasonable since liquidity is thin but the narrative is the strongest meme catalyst on this slate.
 
+## [2026-08-27 08:43 UTC] sell | [FULL][LLM] $BETTORS at $6.03385e-06 | P&L: -11.6%
+- **Reasoning:** $BETTORS down 11.6% on a $1,374 bonding-curve with 0% share, no narrative strength, and the prompt's rules say exit losers fast before -20% becomes -50%. Better to free the slot for fresher attention.
+
+## [2026-08-27 08:43 UTC] sell | [PARTIAL][LLM] $GTAVI at $2.04353e-05 | P&L: +18.6%
+- **Reasoning:** $GTAVI is +18.7% in under an hour on a $5,151 pool. Per the prompt's 'be aggressive' rule, lock in half at this level and let the rest ride to the +30% TP — capital rotation beats bag-holding.
+
+## [2026-08-27 08:43 UTC] buy | [LLM] $Shaun at $9.10283e-06, spent 0.1 SOL
+- **Reasoning:** $Shaun at $9.1k mcap, 30% bonded, backed by an X post — highest mcap of the fresh batch signals strongest early attention. Small-cap memecoin entry with a narrative hook.
+
+## [2026-08-27 08:43 UTC] buy | [LLM] $BUFOS at $4.61976e-06, spent 0.1 SOL
+- **Reasoning:** $BUFOS has its own X account (@thebufos) and a clear 'every bufo belongs somewhere' story. Dedicated project account = repeat-attention signal, which is exactly what memecoin alpha needs.
+
