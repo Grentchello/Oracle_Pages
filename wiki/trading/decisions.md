@@ -4996,3 +4996,6 @@
 ## [2026-08-27 09:16 UTC] buy | [LLM] $BRICS at $3.10528e-06, spent 0.05 SOL
 - **Reasoning:** $BRICS — geopolitical meme linked to @firstpost (real news outlet) tweet, narrative has real-world catalyst not just vibes. Cheap mcap $3.1k, fresh launch, attention-friendly name.
 
+## [2026-08-27 09:17 UTC] sell | [hard-stop] $lily closed at $3.39665e-06 | P&L: -66.2%
+- **Reasoning:** Hard -30% stop
+
