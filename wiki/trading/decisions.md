@@ -6574,3 +6574,15 @@
 ## [2026-08-27 12:14 UTC] sell | [hard-stop] $CYBERWAR closed at $4.04439e-06 | P&L: -44.1%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 12:14 UTC] sell | [FULL][LLM] $BEEHIVE at $2.92068e-06 | P&L: -27.4%
+- **Reasoning:** $BEEHIVE is -27.3% and approaching the -30% hard stop. Pool is only $4 and we own 25% — exiting now is better than getting stopped out or being the only exit liquidity.
+
+## [2026-08-27 12:14 UTC] buy | [LLM] $$REDFNX at $3.12317e-06, spent 0.05 SOL
+- **Reasoning:** $$REDFNX has a clear narrative (phoenix rising), dedicated X account (@TheRedFenix), and fresh launch with low mcap ($3,130). Phoenix meme narrative has viral potential — 26% bond already shows traction.
+
+## [2026-08-27 12:14 UTC] buy | [LLM] $POOPINS at $3.87395e-06, spent 0.05 SOL
+- **Reasoning:** $POOPINS is absurdist humor (Mary Poppins parody) with a tweet from a K-pop adjacent account. Absurdist names do well in attention markets — low mcap, ultra-fresh, meme-able.
+
+## [2026-08-27 12:14 UTC] buy | [LLM] $PC at $2.94573e-06, spent 0.05 SOL
+- **Reasoning:** $PC (apeonpc) has anti-phone culture narrative with tweet support. 'Trade on PCs' is a relatable meme angle — degens love contrarian tech takes.
+
