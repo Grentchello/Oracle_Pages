@@ -6523,3 +6523,12 @@
 ## [2026-08-27 12:08 UTC] buy | [LLM] $JENSEN at $5.17535e-06, spent 0.05 SOL
 - **Reasoning:** $JENSEN Jensen Huang AI-celebrity meme has a real sub-niche following and a posted tweet. 20% bonded. AI-celebrity meta is hot. 0.05 SOL position.
 
+## [2026-08-27 12:10 UTC] sell | [hard-stop] $JENSEN closed at $3.10579e-06 | P&L: -40.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:10 UTC] sell | [TP +30% (25%)] $Floor at $6.16981e-06 | P&L: +55.6%
+- **Reasoning:** Auto take-profit at +55.6%
+
+## [2026-08-27 12:10 UTC] sell | [TP +30% (25%)] $3310 at $8.4032e-06 | P&L: +49.0%
+- **Reasoning:** Auto take-profit at +49.0%
+
