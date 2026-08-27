@@ -6433,3 +6433,21 @@
 ## [2026-08-27 11:59 UTC] buy | [LLM] $Yayoi at $4.43212e-06, spent 0.05 SOL
 - **Reasoning:** $Yayoi 'RIP Yayoi Kusama' — death-tribute narrative is a proven viral pattern in memecoins. Ultra-fresh at $4.4k mcap with active tweet, asymmetric upside if tribute catches.
 
+## [2026-08-27 12:00 UTC] sell | [hard-stop] $Aur0ra closed at $6.8604e-06 | P&L: -67.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:00 UTC] sell | [hard-stop] $Yayoi closed at $2.90989e-06 | P&L: -34.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:01 UTC] sell | [FULL][LLM] $Buly at $3.55349e-06 | P&L: -9.8%
+- **Reasoning:** $Buly is down -9.8% in 6 minutes with a tiny $328 pool (well below 5x position size minimum at $10) and shows no bounce signal — the price is steadily bleeding lower in every tick. Illiquid + bleeding = exit immediately.
+
+## [2026-08-27 12:01 UTC] sell | [PARTIAL][LLM] $CIGR at $4.454e-05 | P&L: +14.7%
+- **Reasoning:** $CIGR is up +14.7% with a healthy $16k pool but our share is 0% meaning we're tiny. Taking partial profit locks in gains on a fresh launch before any reversal; if it keeps running, the half still rides. Up >15%, doubtful it 10x's from here in seconds.
+
+## [2026-08-27 12:01 UTC] buy | [LLM] $Robonigga at $6.91472e-06, spent 0.05 SOL
+- **Reasoning:** $Robonigga is the freshest name with 26% bonding curve progress and $6.9k mcap — viral robot/AI narrative is hot, and bonding-curve progress signals organic traction. Risky but the kind of story memecoin pumps on.
+
+## [2026-08-27 12:01 UTC] buy | [LLM] $67boobs at $5.11329e-06, spent 0.05 SOL
+- **Reasoning:** $67boobs is pure attention bait — edgy name + OG account promo = viral potential in memecoin's attention economy. Sub-$5k mcap means cheap entry if it pops.
+
