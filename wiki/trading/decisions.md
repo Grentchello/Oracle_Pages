@@ -6136,3 +6136,6 @@
 ## [2026-08-27 11:17 UTC] buy | [LLM] $KAIXIN at $4.39027e-06, spent 0.05 SOL
 - **Reasoning:** $KAIXIN — 'China's happiest little nut' is a clear, repeatable character with bilingual appeal (开心果) that can ride China-retail attention cycles; dedicated twitter handle suggests a real shiller, not just a deployer wallet. Risk: clawpump.tech is a lesser-known launchpad, and China-narrative tokens often need a specific catalyst to pump.
 
+## [2026-08-27 11:18 UTC] sell | [hard-stop] $KAIXIN closed at $3.02015e-06 | P&L: -31.2%
+- **Reasoning:** Hard -30% stop
+
