@@ -4504,3 +4504,24 @@
 ## [2026-08-27 08:17 UTC] buy | [LLM] $Thank at $6.337e-06, spent 0.1 SOL
 - **Reasoning:** $Thank (Slater and Raja) — highest mcap ($9.8k) of fresh launches with a real Twitter link, 1min old. Has narrative + attention signal at reasonable entry.
 
+## [2026-08-27 08:18 UTC] sell | [TP +30% (half)] $RWDT at $1.48368e-05 | P&L: +61.2%
+- **Reasoning:** Auto take-profit at +61.2%
+
+## [2026-08-27 08:18 UTC] sell | [TP +100% (75%)] $birb at $1.65084e-05 | P&L: +117.8%
+- **Reasoning:** Auto take-profit at +117.8%
+
+## [2026-08-27 08:18 UTC] sell | [TP +100% (75%)] $Thank at $2.09361e-05 | P&L: +230.4%
+- **Reasoning:** Auto take-profit at +230.4%
+
+## [2026-08-27 08:18 UTC] sell | [FULL][LLM] $Thank at $2.09361e-05 | P&L: +230.4%
+- **Reasoning:** $Thank is +230.4%, way past every TP threshold. Pool is only $5,239 on a bonding curve — any remaining upside is dwarfed by rug/dump risk. Lock the 2.3x.
+
+## [2026-08-27 08:18 UTC] sell | [FULL][LLM] $birb at $1.65084e-05 | P&L: +117.8%
+- **Reasoning:** $birb +117.8%, past +100% TP. Sub-$5k bonding-curve pool means one whale exit nukes the price. Take the 2x and rotate.
+
+## [2026-08-27 08:18 UTC] sell | [FULL][LLM] $RWDT at $1.48368e-05 | P&L: +61.2%
+- **Reasoning:** $RWDT +61.2%, past +30% half-TP threshold. Tiny $3,923 pool, our share already 0% means we're not anchoring price. Bank the gain before it reverses.
+
+## [2026-08-27 08:18 UTC] buy | [LLM] $SUMMER at $2.945e-06, spent 0.1 SOL
+- **Reasoning:** $SUMMER tied to the official @solana tweet ('SOLANA SUMMER') is the strongest attention signal in the batch — a verified protocol account posting about a memecoin is textbook viral-attention alpha. Mcap $3.9k gives 10x+ room if it catches. 0.1 SOL.
+
