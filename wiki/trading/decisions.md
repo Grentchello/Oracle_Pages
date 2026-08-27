@@ -4360,3 +4360,12 @@
 ## [2026-08-27 07:59 UTC] buy | [LLM] $OPTIMUS at $1.66959e-05, spent 0.1 SOL
 - **Reasoning:** $OPTIMUS — Tesla Optimus narrative has proven attention power (Elon/robotics meme). 37% bonded, $16.7k mcap = early entry with viral catalyst. 0.1 SOL position.
 
+## [2026-08-27 08:01 UTC] sell | [hard-stop] $OPTIMUS closed at $2.92138e-06 | P&L: -82.5%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 08:01 UTC] sell | [PARTIAL][LLM] $Elephants at $7.77533e-06 | P&L: +15.2%
+- **Reasoning:** Up 15.2% in 6 min but pool is only $1993 (below 5x position liquidity threshold). Thin liquidity means any exit can crater price — locking half at +15% now beats holding for +30% and getting stuck. Ride the rest with reduced size.
+
+## [2026-08-27 08:01 UTC] buy | [LLM] $ノア at $6.88507e-06, spent 0.1 SOL
+- **Reasoning:** $ノア (The Deer Dog) — linked to BuzzFeed Japan (real media account, not a bot). 'Noah/ノア' is a globally resonant name crossing JP/KR/EN meme communities. $6.9k mcap at 0.4min — earliest stage with the strongest attention signal in this batch. Risk: bonding only 26%, needs narrative to catch outside Japan.
+
