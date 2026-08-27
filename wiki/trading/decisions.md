@@ -4369,3 +4369,18 @@
 ## [2026-08-27 08:01 UTC] buy | [LLM] $ノア at $6.88507e-06, spent 0.1 SOL
 - **Reasoning:** $ノア (The Deer Dog) — linked to BuzzFeed Japan (real media account, not a bot). 'Noah/ノア' is a globally resonant name crossing JP/KR/EN meme communities. $6.9k mcap at 0.4min — earliest stage with the strongest attention signal in this batch. Risk: bonding only 26%, needs narrative to catch outside Japan.
 
+## [2026-08-27 08:02 UTC] sell | [TP +100% (75%)] $ノア at $1.93501e-05 | P&L: +181.0%
+- **Reasoning:** Auto take-profit at +181.0%
+
+## [2026-08-27 08:04 UTC] sell | [PARTIAL][LLM] $ノア at $1.93501e-05 | P&L: +181.0%
+- **Reasoning:** $ノア up +181% in minutes — bot should have auto-TP'd at +100%. Take half off to lock +100% gain, let the rest ride if the BuzzFeed Japan narrative keeps pushing (real media attention signal).
+
+## [2026-08-27 08:04 UTC] sell | [FULL][LLM] $Elephants at $7.91245e-06 | P&L: +17.3%
+- **Reasoning:** $Elephants at +17% on a $2k pool after 6 min held = thin liquidity + no momentum. Capital rotation: free the slot for a fresher launch with real narrative.
+
+## [2026-08-27 08:04 UTC] buy | [LLM] $frontrun at $9.10993e-06, spent 0.1 SOL
+- **Reasoning:** $frontrun is meta-meme gold — 'this might be a good' is self-aware trader humor with a deployed-via-j7tracker provenance. Sub-$10k mcap with clear narrative + attention signal. High risk but alpha-shaped.
+
+## [2026-08-27 08:04 UTC] buy | [LLM] $sigma at $5.191e-06, spent 0.1 SOL
+- **Reasoning:** $sigma SIGMA BOY is a known viral meme archetype with cultural recognition. Sub-$4k mcap, fresh launch — classic low-cap attention play with asymmetric upside.
+
