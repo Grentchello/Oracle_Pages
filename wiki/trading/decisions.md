@@ -3850,3 +3850,21 @@
 ## [2026-08-27 03:20 UTC] buy | [LLM] $🐺 at $6.57473e-06, spent 0.1 SOL
 - **Reasoning:** Wolf of Wallstreet — pure meme energy name, tied to the iconic movie/frenzy narrative. $6.6k mcap, 26% bonded, super fresh (0.1min). Memecoins are attention markets and this name grabs attention instantly.
 
+## [2026-08-27 03:21 UTC] sell | [TP +100% (75%)] $Cashew at $4.15418e-05 | P&L: +116.8%
+- **Reasoning:** Auto take-profit at +116.8%
+
+## [2026-08-27 03:21 UTC] sell | [PARTIAL][LLM] $Cashew at $4.15418e-05 | P&L: +116.8%
+- **Reasoning:** $Cashew is up +116.8% and has just hit the +100% threshold area — locking in half at this level secures profit while leaving room for continuation. Bonding curve with $8.6k pool is thin, so taking half off protects against a sharp reversal.
+
+## [2026-08-27 03:21 UTC] sell | [FULL][LLM] $ECTF at $8.46713e-06 | P&L: +0.8%
+- **Reasoning:** $ECTF is up only +0.8% on a $2.2k pool with our share at 0% — no momentum, no narrative traction visible, and the pool is dangerously thin for any meaningful exit. Cut and free the slot.
+
+## [2026-08-27 03:21 UTC] sell | [FULL][LLM] $🐺 at $6.90772e-06 | P&L: +5.1%
+- **Reasoning:** $🐺 is +5.1% on a $1.7k pool — barely moving, weak liquidity, and memecoin slots are precious. Stale flat action means rotate capital into fresh attention.
+
+## [2026-08-27 03:21 UTC] buy | [LLM] $ART at $1.49299e-05, spent 0.1 SOL
+- **Reasoning:** $ART (mcap $14.9k) has the highest mcap among fresh launches with a clear X attention signal — strongest of a crowded $ART cluster, decent narrative hook. 0.1 SOL entry.
+
+## [2026-08-27 03:21 UTC] buy | [LLM] $Peter at $4.06848e-06, spent 0.1 SOL
+- **Reasoning:** $Peter (RIP Peter Cullen — Optimus Prime voice) is a clear celebrity-death tribute narrative with X attention — classic viral tribute play. 0.1 SOL entry despite tiny mcap.
+
