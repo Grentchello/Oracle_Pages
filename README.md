@@ -71,3 +71,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- bot bonding-curve fix -->
 
 <!-- trade_stats live -->
+
+<!-- wallpapers 1787795530 -->
