@@ -5050,3 +5050,21 @@
 ## [2026-08-27 09:23 UTC] buy | [LLM] $MANGOB at $1.26527e-05, spent 0.05 SOL
 - **Reasoning:** $MANGOB (Manic Goblin) at $12.6k mcap with a clear pirate/troll narrative and 0.4min age — whimsical character meme with visual hook, bonding curve only 5% so room to run.
 
+## [2026-08-27 09:24 UTC] sell | [hard-stop] $retail closed at $2.94185e-06 | P&L: -41.7%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:24 UTC] sell | [TP +30% (25%)] $Quake at $2.55308e-05 | P&L: +39.8%
+- **Reasoning:** Auto take-profit at +39.8%
+
+## [2026-08-27 09:25 UTC] sell | [FULL][LLM] $Quake at $2.55308e-05 | P&L: +39.8%
+- **Reasoning:** +39.8% in 0.1h — past first TP tier (25%), pool only $6k, bonding-curve means thin liquidity. Lock the gain before it reverses. Aggressive profit-taking is the rule.
+
+## [2026-08-27 09:25 UTC] sell | [FULL][LLM] $MANGOB at $1.41066e-05 | P&L: +11.5%
+- **Reasoning:** +11.5% with 0.0h held and pool=$0 — the share=1862234856% flag is a data error/red flag. Tiny mcap, no liquidity, just take whatever exit we can get before it dumps to zero.
+
+## [2026-08-27 09:25 UTC] buy | [LLM] $LEEKCORP at $7.026e-06, spent 0.05 SOL
+- **Reasoning:** $LEEKCORP — 34% bonded, $12.8k mcap, 1min old. Leaked-corp meta is strong attention play. Fits the 'fresh launch with narrative' edge.
+
+## [2026-08-27 09:25 UTC] buy | [LLM] $Tapping at $1.06778e-05, spent 0.05 SOL
+- **Reasoning:** $Tapping 'Never Stop Tapping' — simple catchy name, 32% bonded, 0.5min old. Mobile-game/meta-tap is recognizable viral hook.
+
