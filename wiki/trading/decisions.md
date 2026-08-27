@@ -5653,3 +5653,27 @@
 ## [2026-08-27 10:28 UTC] buy | [LLM] $ROGJUG at $3.91651e-06, spent 0.05 SOL
 - **Reasoning:** $ROGJUG 'SIGMA BOY RUNS TO THE HIGHEST POINT!' — viral narrative text on-chain, $3.9k mcap, bonding curve 8%. Meme phrase has tweetable energy. Risky: extremely fresh, could rug, but narrative is the main edge here.
 
+## [2026-08-27 10:29 UTC] sell | [hard-stop] $黙れ closed at $3.04575e-06 | P&L: -51.7%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:29 UTC] sell | [hard-stop] $Wendy closed at $2.90326e-06 | P&L: -40.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:29 UTC] sell | [TP +100% (50%)] $ANTSEM at $2.07649e-05 | P&L: +111.1%
+- **Reasoning:** Auto take-profit at +111.1%
+
+## [2026-08-27 10:30 UTC] sell | [FULL][LLM] $ANTSEM at $2.07649e-05 | P&L: +111.1%
+- **Reasoning:** $ANTSEM is +111%, past the +100% TP threshold. Bonding curve pool only $5,216 means thin exit but locking 2x is the rule. Even partial fill at this level is a win — don't give it back hoping for more.
+
+## [2026-08-27 10:30 UTC] sell | [FULL][LLM] $ROGJUG at $4.67351e-06 | P&L: +19.3%
+- **Reasoning:** $ROGJUG shows pool=$0 and share math is broken (2969x our position = obviously corrupted data). Held 0.0h at +19% but if pool is genuinely $0 there's no real liquidity to exit into — better to cut and free the slot than sit on a ghost position.
+
+## [2026-08-27 10:30 UTC] buy | [LLM] $OG at $7.45481e-06, spent 0.05 SOL
+- **Reasoning:** $OG ('just buy the OG') is meta-meme gold — the name itself is the pitch. $7.4k mcap, 27% bonded, fresh X account @BuyTheGCPF. High virality ceiling, low downside at 0.05 SOL.
+
+## [2026-08-27 10:30 UTC] buy | [LLM] $SHIT at $7.20076e-06, spent 0.05 SOL
+- **Reasoning:** $SHIT ('ah shit here we go again') is a classic viral line with proven meme DNA. $7.2k mcap, 27% bonded, deployed via j7tracker. Attention signal is the universal catchphrase — wide addressable audience.
+
+## [2026-08-27 10:30 UTC] buy | [LLM] $DED at $4.31258e-06, spent 0.05 SOL
+- **Reasoning:** $DED 'The Door Eating Dog' is absurdist humor with viral potential (think 'door' + 'eating' is the kind of unhinged that trends). $4.3k mcap, 15% bonded, fresh. Cheap entry, asymmetric upside.
+
