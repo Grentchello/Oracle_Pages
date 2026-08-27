@@ -2269,3 +2269,12 @@
 ## [2026-08-27 00:05 UTC] buy | [LLM] $SAVMON at $3.16404e-06, spent 0.1 SOL
 - **Reasoning:** Savage Mongoose is a memorable, shareable animal meme with a clean name — exactly the kind of name that catches fire on CT/X. $3.1k mcap = early entry. One-slot budget goes here.
 
+## [2026-08-27 00:06 UTC] sell | [FULL][LLM] $BLINKS at $2.916e-06 | P&L: -0.3%
+- **Reasoning:** Just entered and already -0.3% while the 24h trend is -24.5% — bleeding from the open with no narrative lift. Free up capital for a better setup.
+
+## [2026-08-27 00:06 UTC] sell | [FULL][LLM] $SAVMON at $2.925e-06 | P&L: -7.5%
+- **Reasoning:** -7.6% on a 0.0h hold with -3.5% drift confirms weak attention; cut before it compounds into a -50% auto-close.
+
+## [2026-08-27 00:06 UTC] buy | [LLM] $PAINTER at $6.2723e-06, spent 0.1 SOL
+- **Reasoning:** 'Famous Painter' is the most legible narrative in this batch — 'The Painter everyone knows' is a clear attention hook at $6.3k mcap, the kind of name that gets quote-tweeted.
+
