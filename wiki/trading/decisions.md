@@ -3826,3 +3826,6 @@
 ## [2026-08-27 03:15 UTC] sell | [FULL][LLM] $501 at $3.01446e-06 | P&L: -0.3%
 - **Reasoning:** $501 flat at -0.3%, pool $100, no clear narrative, held 0h with no momentum — stale exit per discipline rules.
 
+## [2026-08-27 03:17 UTC] sell | [FULL][LLM] $Shkreli at $3.0159e-06 | P&L: -30.4%
+- **Reasoning:** Down -30.4% in 0.0h with no bounce signal. Per discipline, -20% with no clear bounce = exit fast. -30% is past that, and -50% hard stop is approaching. Free up the slot for a better setup.
+

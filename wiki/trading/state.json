@@ -1,31 +1,8 @@
 {
-  "balance_sol": 1.159578,
+  "balance_sol": 1.194399,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CKPWggRF8c4qj7d643Zq5gp7tjbMZmpi7HXMFgDmpump": {
-      "symbol": "Shkreli",
-      "name": "Shrekli",
-      "amount": 1166666.666666667,
-      "entry_price_usd": 4.335e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T03:14:09.895007+00:00",
-      "entry_usd_value": 10.115000000000002,
-      "entry_signals": {
-        "liquidity_usd": 795.2502619911501,
-        "volume_24h_usd": 1476.17,
-        "market_cap_usd": 4142.299317589763,
-        "ath_market_cap_usd": 4415.81746577801,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 7.862088601,
-        "description": "",
-        "twitter": "https://x.com/MartinShkreli",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -7829,19 +7806,30 @@
       "pnl_pct": -0.35,
       "exit_reason": "LLM: sell_all — $501 flat at -0.3%, pool $100, no clear narrative, held 0h with no momentum — stale exit per discipline rules.",
       "partial": false
+    },
+    {
+      "mint": "CKPWggRF8c4qj7d643Zq5gp7tjbMZmpi7HXMFgDmpump",
+      "symbol": "Shkreli",
+      "name": "Shrekli",
+      "amount_sold": 1166666.666666667,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T03:14:09.895007+00:00",
+      "exit_time": "2026-08-27T03:17:16.853141+00:00",
+      "entry_price_usd": 4.335e-06,
+      "exit_price_usd": 3.0159039442419157e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.034821,
+      "pnl_sol": -0.015179,
+      "pnl_pct": -30.43,
+      "exit_reason": "LLM: sell_all — Down -30.4% in 0.0h with no bounce signal. Per discipline, -20% with no clear bounce = exit fast. -30% is past that, and -50% hard stop is approaching",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T03:15:47.810824+00:00",
+  "last_updated": "2026-08-27T03:17:16.853376+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.054,
-  "portfolio_value_usd": 122.24,
+  "last_sol_price_usd": 101.047,
+  "portfolio_value_usd": 120.69,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 03:10 UTC",
-      "action": "buy",
-      "details": "[LLM] $CLAUDE at $5.6841e-06, spent 0.1 SOL",
-      "reason": "$CLAUDE (Anthropic Claude AI branding) is 0.1min old, $5,683 mcap, 23% bonded — riding the 'Opus 5 self-portrait' viral thread from @repligate. AI meta narrative is hot today. Early entry at sub-$6k mcap."
-    },
     {
       "time": "2026-08-27 03:10 UTC",
       "action": "buy",
@@ -7955,73 +7943,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $501 at $3.01446e-06 | P&L: -0.3%",
       "reason": "$501 flat at -0.3%, pool $100, no clear narrative, held 0h with no momentum — stale exit per discipline rules."
+    },
+    {
+      "time": "2026-08-27 03:17 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Shkreli at $3.0159e-06 | P&L: -30.4%",
+      "reason": "Down -30.4% in 0.0h with no bounce signal. Per discipline, -20% with no clear bounce = exit fast. -30% is past that, and -50% hard stop is approaching. Free up the slot for a better setup."
     }
   ],
   "trade_stats": {
-    "total": 459,
+    "total": 460,
     "wins": 207,
-    "losses": 252,
-    "win_rate_pct": 45.1,
-    "total_pnl_sol": -0.690414,
-    "avg_pnl_pct": 63.98,
+    "losses": 253,
+    "win_rate_pct": 45.0,
+    "total_pnl_sol": -0.705593,
+    "avg_pnl_pct": 63.77,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 316,
-    "today_realized_sol": -0.161207,
-    "today_target_pct": -40.3,
+    "today_trades": 317,
+    "today_realized_sol": -0.176386,
+    "today_target_pct": -44.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 207,
-      "loss_count": 252,
+      "loss_count": 253,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T03:15:46.951538+00:00",
+  "last_llm_brief_at": "2026-08-27T03:17:16.853101+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "CKPWggRF8c4qj7d643Zq5gp7tjbMZmpi7HXMFgDmpump": {
-      "price_usd": 4.815281473591473e-06,
+      "price_usd": 3.0159039442419157e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 926.1274901588821,
-      "volume_h24": 1764.38,
+      "liquidity_usd": 100.65634754879099,
+      "volume_h24": 2097.38,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 9.164679183
-    },
-    "H6Hmk5sDpfiU4txVAiwdGconnTakQPTcKEyQYRuApump": {
-      "price_usd": 2.916890705469151e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 48.71053555395601,
-      "volume_h24": 451.24,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.482024814
-    },
-    "Dvk5YqvaSS7PisXEG1Uj2SR1EjAPdzBBzS4jmrbzpump": {
-      "price_usd": 2.825368128631016e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2.02108e-06,
-      "volume_h24": 6081.21,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 2e-08
-    },
-    "G6VoPQNEHigdbP6HS1iDNSDv6jR4SESCpt3RyPV5pump": {
-      "price_usd": 3.0144628587717443e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 99.806419754334,
-      "volume_h24": 110.02,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.987654321
+      "real_sol_reserves": 0.996133953
     }
   }
 }
