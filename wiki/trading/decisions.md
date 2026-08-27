@@ -5188,3 +5188,6 @@
 ## [2026-08-27 09:39 UTC] buy | [LLM] $LA PEACE at $3.056e-06, spent 0.05 SOL
 - **Reasoning:** $LA PEACE - viral streamer meme (Kai Cenat + iShowSpeed), large addressable attention audience. Risk: bond only 2%, streamers move fast so does the meta.
 
+## [2026-08-27 09:40 UTC] sell | [hard-stop] $WOTARD closed at $3.17992e-06 | P&L: -44.8%
+- **Reasoning:** Hard -30% stop
+
