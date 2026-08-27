@@ -5617,3 +5617,6 @@
 ## [2026-08-27 10:24 UTC] buy | [LLM] $pump.fun at $3.92999e-06, spent 0.05 SOL
 - **Reasoning:** $pump.fun Official App Coin — meta-narrative on the launchpad itself, attention signal is the platform's own branding. Small size fits narrative-driven scalp.
 
+## [2026-08-27 10:25 UTC] sell | [TP +30% (25%)] $ANTSEM at $1.90971e-05 | P&L: +94.2%
+- **Reasoning:** Auto take-profit at +94.2%
+
