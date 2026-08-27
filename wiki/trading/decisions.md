@@ -7408,3 +7408,24 @@
 ## [2026-08-27 14:09 UTC] buy | [LLM] $Bare at $1.33914e-05, spent 0.05 SOL
 - **Reasoning:** $Bare — viral X post from @PenTheArtist, $13.4k mcap with 35% bonding curve (the most progressed of all new launches = strongest real demand). Clear narrative + attention source. 0.05 SOL position.
 
+## [2026-08-27 14:10 UTC] sell | [hard-stop] $callmonkey closed at $5.79033e-06 | P&L: -41.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 14:10 UTC] sell | [TP +30% (25%)] $WTF at $1.78415e-06 | P&L: +40.6%
+- **Reasoning:** Auto take-profit at +40.6%
+
+## [2026-08-27 14:10 UTC] sell | [TP +30% (25%)] $Bare at $1.97598e-05 | P&L: +47.6%
+- **Reasoning:** Auto take-profit at +47.6%
+
+## [2026-08-27 14:10 UTC] sell | [PARTIAL][LLM] $WTF at $1.78415e-06 | P&L: +40.6%
+- **Reasoning:** $WTF is up +40.6% and the bot already auto-locked +30% at the 25% mark. Momentum is slowing (last tick MC went17.1 -> 16.3 -> 16.8) — take half off, let the rest ride with the hard stop.
+
+## [2026-08-27 14:10 UTC] sell | [FULL][LLM] $Greedy at $3.17392e-06 | P&L: -28.1%
+- **Reasoning:** $Greedy is down -28.1%, very close to the -30% hard cap, MC collapsing from 81.4 -> 62.3 in minutes, and pool is only $119 with our3% share — exit before the auto-stop triggers and takes more.
+
+## [2026-08-27 14:10 UTC] sell | [FULL][LLM] $Bare at $1.97598e-05 | P&L: +47.6%
+- **Reasoning:** $Bare is up +47.6%, above the +50% extension threshold — bot should take profit here, but if not, the prompt demands aggressive profit-taking. Pool is $5k (healthy), but lock the gain now.
+
+## [2026-08-27 14:10 UTC] buy | [LLM] $PONZI at $4.50481e-06, spent 0.05 SOL
+- **Reasoning:** $PONZI COIN is meta-narrative gold — Ponzi coins consistently pump because the name itself is the joke. Brand-new, decent X link, $4.5k mcap with massive upside. Worth a 0.1 SOL scalp.
+
