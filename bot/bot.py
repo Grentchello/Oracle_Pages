@@ -16,6 +16,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.request
 import threading
@@ -486,6 +487,31 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
                 cur_price = _to_float(token.get("price_usd"))
 
         pnl_pct = ((cur_price / entry_price - 1) * 100) if cur_price > 0 and entry_price > 0 else None
+        # Load price history (sparkline) for this mint if available
+        price_history = None
+        if HAS_SPARKLINES and SPARKLINE_PATH.exists():
+            try:
+                sl_data = json.loads(SPARKLINE_PATH.read_text())
+                mint_data = sl_data.get(mint, {})
+                if mint_data.get("ts"):
+                    # Last 30 buckets (30 min) — compress to 10 data points for prompt
+                    ts_list = mint_data["ts"][-30:]
+                    px_list = mint_data["px"][-30:]
+                    if len(ts_list) >= 2:
+                        # Compress to 10 evenly-spaced points
+                        n = len(ts_list)
+                        step = max(1, n // 10)
+                        sampled_ts = ts_list[::step][:10]
+                        sampled_px = px_list[::step][:10]
+                        # Show as "T-Nmin: $price"
+                        now_ts = int(time.time())
+                        history_str = ", ".join([
+                            f"{int((now_ts-t)/60)}min: ${p:.10f}"
+                            for t, p in zip(sampled_ts, sampled_px)
+                        ])
+                        price_history = history_str
+            except Exception:
+                pass
         held.append({
             "symbol": pos.get("symbol"),
             "mint": mint,
@@ -506,6 +532,7 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
             # Stale flag: held >15 min AND pnl < +10%
             "stale": held_hours > 0.25 and pnl_pct is not None and pnl_pct < 10,
             "stale_warning": " ⚠ STALE" if (held_hours > 0.25 and pnl_pct is not None and pnl_pct < 10) else "",
+            "price_history_30m": price_history,
         })
 
     # === All candidate tokens (no filters) ===
