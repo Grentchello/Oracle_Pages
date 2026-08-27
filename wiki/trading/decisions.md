@@ -6880,3 +6880,15 @@
 ## [2026-08-27 12:56 UTC] buy | [LLM] $RISE at $5.16013e-06, spent 0.05 SOL
 - **Reasoning:** $RISE has a concrete attention mechanic — 60% airdrop to top 15 holders creates forced buying and holder competition, classic pump.fun retention play. Fresh, $5.2k mcap, has X account.
 
+## [2026-08-27 12:58 UTC] sell | [TP +100% (50%)] $XCOIN at $1.62043e-05 | P&L: +109.0%
+- **Reasoning:** Auto take-profit at +109.0%
+
+## [2026-08-27 12:58 UTC] sell | [FULL][LLM] $XCOIN at $1.62043e-05 | P&L: +109.0%
+- **Reasoning:** $XCOIN is up +109% (past 75% TP threshold). Bonding curve tiny pool $4.2k — one reversal and we give it all back. Lock the 2x gain now, no narrative to justify holding beyond TP.
+
+## [2026-08-27 12:58 UTC] sell | [PARTIAL][LLM] $RISE at $6.55019e-06 | P&L: +26.9%
+- **Reasoning:** $RISE up +26.9%, just crossed 25% TP threshold. Pool is tiny at $1.5k (only 3x position). Sell half to lock gain + free a slot, let the other half ride if momentum continues.
+
+## [2026-08-27 12:58 UTC] buy | [LLM] $Rei at $4.24653e-06, spent 0.05 SOL
+- **Reasoning:** $Rei has a Japanese anime/manga narrative (レイ = Rei, classic anime character name) with an X post backing it. Fresh launch at $4.2k mcap is the kind of microcap that 10xs on attention. Best narrative+name combo in batch.
+

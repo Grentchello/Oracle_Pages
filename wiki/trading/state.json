@@ -1,36 +1,14 @@
 {
-  "balance_sol": 0.753743,
+  "balance_sol": 0.839916,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "8aBXFqD5m6pRHvay5uVgZ3bJgfASyWj5pPeHjWappump": {
-      "symbol": "XCOIN",
-      "name": "X Coin",
-      "amount": 673941.3826224245,
-      "entry_price_usd": 7.752899784353064e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T12:56:55.510791+00:00",
-      "entry_usd_value": 5.2250000000000005,
-      "entry_signals": {
-        "liquidity_usd": 2881.0786376680003,
-        "volume_24h_usd": null,
-        "market_cap_usd": 7782.154020883149,
-        "ath_market_cap_usd": 8537.773762194032,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 27.570130504,
-        "description": "Twitter/X is reportedly working on releasing ‘X coin’ for creators",
-        "twitter": "https://x.com/HillisonMichael/status/2092959302936039635",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "3M2XczYGATTGrCguXLew5vHUvMDsZoRpTKZBRgwPpump": {
       "symbol": "RISE",
       "name": "RISE",
-      "amount": 1012571.850507144,
+      "amount": 506285.925253572,
       "entry_price_usd": 5.160127646628802e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T12:56:55.806910+00:00",
       "entry_usd_value": 5.2250000000000005,
       "entry_signals": {
@@ -43,6 +21,28 @@
         "real_sol_reserves": 10.032305628,
         "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. GL. ",
         "twitter": "https://x.com/_rise",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "AjRMbBWBBNc5VZDGa33j3sRQDDhmyBV8bHQB7GWUpump": {
+      "symbol": "Rei",
+      "name": "レイ",
+      "amount": 1231006.3865864614,
+      "entry_price_usd": 4.2465254908186775e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-27T12:58:18.902798+00:00",
+      "entry_usd_value": 5.2275,
+      "entry_signals": {
+        "liquidity_usd": 1058.0105945607,
+        "volume_24h_usd": null,
+        "market_cap_usd": 4260.506800075577,
+        "ath_market_cap_usd": 4242.069786884265,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 10.119661354,
+        "description": "",
+        "twitter": "https://x.com/rightyochen/status/2092959744235536466",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -18646,37 +18646,64 @@
       "pnl_pct": 87.32,
       "exit_reason": "LLM: sell_all — HolyBull is +87% — already past the +50% TP zone and the rules say lock gains when in doubt. Memecoin green candles fade fast; -30% rule can wipe this",
       "partial": false
+    },
+    {
+      "mint": "8aBXFqD5m6pRHvay5uVgZ3bJgfASyWj5pPeHjWappump",
+      "symbol": "XCOIN",
+      "name": "X Coin",
+      "amount_sold": 336970.69131121226,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T12:56:55.510791+00:00",
+      "exit_time": "2026-08-27T12:58:00.402524+00:00",
+      "entry_price_usd": 7.752899784353064e-06,
+      "exit_price_usd": 1.620429602863254e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.052227,
+      "pnl_sol": 0.027227,
+      "pnl_pct": 109.01,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "8aBXFqD5m6pRHvay5uVgZ3bJgfASyWj5pPeHjWappump",
+      "symbol": "XCOIN",
+      "name": "X Coin",
+      "amount_sold": 336970.69131121226,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T12:56:55.510791+00:00",
+      "exit_time": "2026-08-27T12:58:18.615707+00:00",
+      "entry_price_usd": 7.752899784353064e-06,
+      "exit_price_usd": 1.620429602863254e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.052227,
+      "pnl_sol": 0.027227,
+      "pnl_pct": 109.01,
+      "exit_reason": "LLM: sell_all — $XCOIN is up +109% (past 75% TP threshold). Bonding curve tiny pool $4.2k — one reversal and we give it all back. Lock the 2x gain now, no narrative t",
+      "partial": false
+    },
+    {
+      "mint": "3M2XczYGATTGrCguXLew5vHUvMDsZoRpTKZBRgwPpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 506285.925253572,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T12:56:55.806910+00:00",
+      "exit_time": "2026-08-27T12:58:18.616979+00:00",
+      "entry_price_usd": 5.160127646628802e-06,
+      "exit_price_usd": 6.550189012455819e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.031719,
+      "pnl_sol": 0.006719,
+      "pnl_pct": 26.94,
+      "exit_reason": "LLM: sell_half — $RISE up +26.9%, just crossed 25% TP threshold. Pool is tiny at $1.5k (only 3x position). Sell half to lock gain + free a slot, let the other half rid",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T12:56:56.135328+00:00",
+  "last_updated": "2026-08-27T12:58:18.903074+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.5,
-  "portfolio_value_usd": 89.22,
+  "last_sol_price_usd": 104.55,
+  "portfolio_value_usd": 95.65,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 12:51 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $FATTOGOR at $2.92647e-06 | P&L: -13.1%",
-      "reason": "Down -13.1% already, held 0h on bonding curve, narrative unclear (FATTOGOR - no viral signal). At -13% with no bounce catalyst, exit before -20% becomes -30%. Cut losers fast."
-    },
-    {
-      "time": "2026-08-27 12:51 UTC",
-      "action": "buy",
-      "details": "[LLM] $Toad King at $1.28092e-06, spent 0.05 SOL",
-      "reason": "$Toad King - highest mcap ($12k) of fresh launches, animal/king meme has viral DNA, 0.1min age = maximum attention window. Bonding curve 31% so early but not zero liquidity."
-    },
-    {
-      "time": "2026-08-27 12:51 UTC",
-      "action": "buy",
-      "details": "[LLM] $SPIDER at $4.83628e-06, spent 0.05 SOL",
-      "reason": "$SPIDER - '$233.95 drawing' meta is memetic absurdity (j7tracker deployer has some footprint), attention-bait name fits the attention-market thesis. Small position."
-    },
-    {
-      "time": "2026-08-27 12:52 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $Toad King closed at $2.49322e-08 | P&L: -98.0%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-08-27 12:52 UTC",
       "action": "sell",
@@ -18772,62 +18799,75 @@
       "action": "buy",
       "details": "[LLM] $RISE at $5.16013e-06, spent 0.05 SOL",
       "reason": "$RISE has a concrete attention mechanic — 60% airdrop to top 15 holders creates forced buying and holder competition, classic pump.fun retention play. Fresh, $5.2k mcap, has X account."
+    },
+    {
+      "time": "2026-08-27 12:58 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $XCOIN at $1.62043e-05 | P&L: +109.0%",
+      "reason": "Auto take-profit at +109.0%"
+    },
+    {
+      "time": "2026-08-27 12:58 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $XCOIN at $1.62043e-05 | P&L: +109.0%",
+      "reason": "$XCOIN is up +109% (past 75% TP threshold). Bonding curve tiny pool $4.2k — one reversal and we give it all back. Lock the 2x gain now, no narrative to justify holding beyond TP."
+    },
+    {
+      "time": "2026-08-27 12:58 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RISE at $6.55019e-06 | P&L: +26.9%",
+      "reason": "$RISE up +26.9%, just crossed 25% TP threshold. Pool is tiny at $1.5k (only 3x position). Sell half to lock gain + free a slot, let the other half ride if momentum continues."
+    },
+    {
+      "time": "2026-08-27 12:58 UTC",
+      "action": "buy",
+      "details": "[LLM] $Rei at $4.24653e-06, spent 0.05 SOL",
+      "reason": "$Rei has a Japanese anime/manga narrative (レイ = Rei, classic anime character name) with an X post backing it. Fresh launch at $4.2k mcap is the kind of microcap that 10xs on attention. Best narrative+name combo in batch."
     }
   ],
   "trade_stats": {
-    "total": 1094,
-    "wins": 574,
+    "total": 1097,
+    "wins": 577,
     "losses": 520,
-    "win_rate_pct": 52.5,
-    "total_pnl_sol": -1.046246,
-    "avg_pnl_pct": 44.55,
+    "win_rate_pct": 52.6,
+    "total_pnl_sol": -0.985073,
+    "avg_pnl_pct": 44.65,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 553,
-    "today_realized_sol": 0.385983,
-    "today_target_pct": 96.5,
+    "today_trades": 556,
+    "today_realized_sol": 0.447156,
+    "today_target_pct": 111.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 574,
+      "win_count": 577,
       "loss_count": 520,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T12:56:55.201845+00:00",
+  "last_llm_brief_at": "2026-08-27T12:58:18.615667+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5m4g5dN4Jp7oNWjQ3zA5Bomoqv721zgE95LeMNCCpump": {
-      "price_usd": 1.5661770444090464e-05,
+    "8aBXFqD5m6pRHvay5uVgZ3bJgfASyWj5pPeHjWappump": {
+      "price_usd": 1.620429602863254e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4123.369313184,
-      "volume_h24": 52597.92,
+      "liquidity_usd": 4248.2805100542,
+      "volume_h24": 5352.18,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 39.458079552
+      "real_sol_reserves": 40.633959924
     },
-    "ngnr161csiYoRP4brFuUSCdFrYAxMZZdkvSB8QJpump": {
-      "price_usd": 2.717262897391558e-05,
+    "3M2XczYGATTGrCguXLew5vHUvMDsZoRpTKZBRgwPpump": {
+      "price_usd": 6.550189012455819e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 6425.5849166465,
-      "volume_h24": 24168.21,
+      "liquidity_usd": 1558.6494752313,
+      "volume_h24": 1580.71,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 61.488850877
-    },
-    "DBkkJeEfGWQP9SWpovC9pjk3wAVBCXH81idJLnDspump": {
-      "price_usd": 2.921714821188257e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 3.0305e-06,
-      "volume_h24": 6996.9,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 2.9e-08
+      "real_sol_reserves": 14.908172886
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
