@@ -5155,3 +5155,6 @@
 ## [2026-08-27 09:36 UTC] buy | [LLM] $WSJ at $3.44662e-06, spent 0.05 SOL
 - **Reasoning:** $WSJ 'Monkey Wall Street Journal' is a clever cultural riff at only $3.4k mcap, 7% bonded — pure attention play, low float, asymmetric upside if the name catches.
 
+## [2026-08-27 09:38 UTC] sell | [hard-stop] $MULTI closed at $2.94023e-06 | P&L: -60.8%
+- **Reasoning:** Hard -30% stop
+
