@@ -5122,3 +5122,9 @@
 ## [2026-08-27 09:29 UTC] buy | [LLM] $BILL at $4.643e-06, spent 0.05 SOL
 - **Reasoning:** $BILL — 'THE SCHIZOPHRENIC MONKEY' has an actual narrative hook (schizo trenchers), a live twitter account (@r3d1ne), and is at $5.2k mcap with 1.4min age. Attention signal is concrete, narrative is meme-able. Cheap entry on early attention.
 
+## [2026-08-27 09:30 UTC] sell | [PARTIAL][LLM] $BILL at $5.72576e-06 | P&L: +23.3%
+- **Reasoning:** $BILL is up +23.3% with no real viral narrative shown (just a ticker). Lock half the gain now per the +20% rule — the other half is a free runner. If it doubles, take more off.
+
+## [2026-08-27 09:30 UTC] buy | [LLM] $BuckyDent at $9.275e-06, spent 0.05 SOL
+- **Reasoning:** $BuckyDent — 'The Gatsby Bear' with a real X link (heisenberg83, likely Heisenberg/Brett narrative piggyback). Low mcap $9.5k, bonding curve 31%. Narrative + X presence = best attention signal in this batch.
+
