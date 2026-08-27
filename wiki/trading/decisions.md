@@ -5854,3 +5854,15 @@
 ## [2026-08-27 10:47 UTC] buy | [LLM] $CATMAXX at $3.64084e-06, spent 0.05 SOL
 - **Reasoning:** $CATMAXX has a dedicated twitter account (catmaxxtoken) — cats are a proven meta, and a creator willing to make a branded account signals commitment. $3.6k mcap is early.
 
+## [2026-08-27 10:48 UTC] sell | [PARTIAL][LLM] $copycat at $1.12704e-05 | P&L: +24.9%
+- **Reasoning:** $copycat is up +24.9% on a fresh bonding curve with weak $3k pool. The two Copycat launches look like copy-paste derivative spam, not a real narrative. Lock half the gain before the bonding curve dumps.
+
+## [2026-08-27 10:48 UTC] sell | [FULL][LLM] $CATMAXX at $3.0103e-06 | P&L: -17.3%
+- **Reasoning:** $CATMAXX is down -17.3% with only $55 pool and no clear viral narrative. Pool is below 5x position size threshold — this is a dead microcap and holding risks the -30% hard stop.
+
+## [2026-08-27 10:48 UTC] buy | [LLM] $CVA at $4.18655e-06, spent 0.05 SOL
+- **Reasoning:** $CVA (Coyote v acme) has a clear rivalry/duel narrative which is meme-coded gold, fresh 0.6min launch, twitter presence attached. $4.2k mcap is perfect for early entry if the duel narrative catches fire.
+
+## [2026-08-27 10:48 UTC] buy | [LLM] $timesUP at $3.82046e-06, spent 0.05 SOL
+- **Reasoning:** $timesUP has a genuinely weird story hook ('surrogate father launched this coin') — bizarre narratives go viral on memecoin twitter. Cheap $3.8k mcap, fresh launch, attention bait.
+

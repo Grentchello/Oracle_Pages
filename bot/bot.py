@@ -19,13 +19,9 @@ import sys
 import urllib.error
 import urllib.request
 import threading
-try:
-    sys.path.insert(0, str(Path(__file__).parent))
-    from sparklines import load_sparklines, record_trade, save_sparklines, trim_old_buckets, bucket_for_timestamp
-    HAS_SPARKLINES = True
-except Exception as e:
-    HAS_SPARKLINES = False
-    log = lambda *a, **k: None  # placeholder
+# Sparkline path (data fetched by separate collector process)
+SPARKLINE_PATH = WIKI_DIR / "trading" / "sparklines.json"
+HAS_SPARKLINES = SPARKLINE_PATH.exists()
 
 from datetime import datetime, timezone
 from pathlib import Path
