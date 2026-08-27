@@ -2866,3 +2866,21 @@
 ## [2026-08-27 01:19 UTC] buy | [LLM] $Bull at $9.76615e-06, spent 0.1 SOL
 - **Reasoning:** $Bull on Bullpad has a dedicated X account (0xbl33p) — that's a builder with skin in the game, not a stealth deploy. $9.8k mcap, freshest 32% bond. Bull meta is perennial memecoin fuel.
 
+## [2026-08-27 01:21 UTC] sell | [FULL][LLM] $HAMSTER at $3.663e-06 | P&L: -58.7%
+- **Reasoning:** At -58.7% this is past the -50% hard cap and should already have been auto-closed. Mandatory exit — the cap cannot be overridden.
+
+## [2026-08-27 01:21 UTC] sell | [FULL][LLM] $Penny at $3.023e-06 | P&L: -52.7%
+- **Reasoning:** At -52.7% this is also past the -50% hard cap. Mandatory exit regardless of any narrative hope — the 24h/1h is only +0.6%, no recovery signal.
+
+## [2026-08-27 01:21 UTC] sell | [FULL][LLM] $Bull at $5.542e-06 | P&L: -43.2%
+- **Reasoning:** At -43.3% and with 24h/1h at -86.3%, this is in free-fall. Only 6.7% of room before the -50% hard cap trips, and the momentum is against me. Cut now, redeploy the SOL.
+
+## [2026-08-27 01:21 UTC] buy | [LLM] $Runner at $2.99296e-06, spent 0.1 SOL
+- **Reasoning:** Strongest attention signal in the batch: @culturecrave is a real viral-content account and the 'robot running so hard it broke apart' video is a genuine viral moment being tokenized. Bond only 3% so early, but the organic attention is exactly the kind memecoins price in.
+
+## [2026-08-27 01:21 UTC] buy | [LLM] $DOGE at $2.04232e-06, spent 0.1 SOL
+- **Reasoning:** Louisiana swamp legend narrative is specific and memeable, and it has a real twitter handle attached. $2k mcap with a story has 10x room if the legend catches on.
+
+## [2026-08-27 01:21 UTC] buy | [LLM] $HML at $2.90283e-06, spent 0.1 SOL
+- **Reasoning:** Hannah Montana Linux is the kind of absurd meme-fusion that does numbers on CT — has a twitter post backing it. Small position to ride the joke if it lands.
+
