@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.742965,
+  "balance_sol": 1.739635,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
       "symbol": "blindape",
       "name": "blindape",
-      "amount": 422584.4004656578,
+      "amount": 211292.2002328289,
       "entry_price_usd": 6.013e-06,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0125,
       "entry_time": "2026-08-27T00:10:33.245228+00:00",
       "entry_usd_value": 10.164000000000001,
       "entry_signals": {
@@ -28,9 +28,9 @@
     "9BepWhU7EaYdDZ46Wk2pHebq8xvTNQySJQWXp7S4pump": {
       "symbol": "1A",
       "name": "Free Speech Coin",
-      "amount": 77609.86478180702,
+      "amount": 38804.93239090351,
       "entry_price_usd": 8.135e-06,
-      "entry_sol_spent": 0.00625,
+      "entry_sol_spent": 0.003125,
       "entry_time": "2026-08-27T00:14:35.491329+00:00",
       "entry_usd_value": 10.101700000000001,
       "entry_signals": {
@@ -91,24 +91,24 @@
       },
       "llm_entry": true
     },
-    "GWZ4AYB3qzYLQqrWpHGXoEaRZuCvATkz2MZH6ukVpump": {
-      "symbol": "SPORTSBETTOR",
-      "name": "The Sportsbettor",
-      "amount": 1499535.490734476,
-      "entry_price_usd": 6.739286974161685e-06,
+    "HMbvhvJvSAHr9EwVD4u7a9rvGSbqmfGZPjxFR85Gpump": {
+      "symbol": "MEMELORD",
+      "name": "MEMELORD",
+      "amount": 3352318.7157945153,
+      "entry_price_usd": 3.025666966631501e-06,
       "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T00:20:23.065914+00:00",
-      "entry_usd_value": 10.105800000000002,
+      "entry_time": "2026-08-27T00:21:41.171600+00:00",
+      "entry_usd_value": 10.143,
       "entry_signals": {
         "liquidity_usd": null,
         "volume_24h_usd": null,
-        "market_cap_usd": 6747.430754990076,
-        "ath_market_cap_usd": 7948.630871505557,
+        "market_cap_usd": 3030.4623059654105,
+        "ath_market_cap_usd": 5359.204400253368,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 16.33211375,
-        "description": "",
-        "twitter": "https://x.com/XBusiness/status/2092768276359020788",
+        "real_sol_reserves": 0.987592598,
+        "description": "Launched on launchblitz.ai",
+        "twitter": "https://x.com/iamjasonlevin/status/2092769279557198140",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -2987,37 +2987,64 @@
       "pnl_pct": 688.44,
       "exit_reason": "LLM: sell_half — $1A at +688% in 0.1h is an extreme spike — classic attention-launched vertical. Take half off to lock the +688% gain, ride the rest with a tight menta",
       "partial": true
+    },
+    {
+      "mint": "GWZ4AYB3qzYLQqrWpHGXoEaRZuCvATkz2MZH6ukVpump",
+      "symbol": "SPORTSBETTOR",
+      "name": "The Sportsbettor",
+      "amount_sold": 1499535.490734476,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T00:20:23.065914+00:00",
+      "exit_time": "2026-08-27T00:21:41.170269+00:00",
+      "entry_price_usd": 6.739286974161685e-06,
+      "exit_price_usd": 2.841e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.042001,
+      "pnl_sol": -0.057999,
+      "pnl_pct": -57.84,
+      "exit_reason": "LLM: sell_all — Down -57.8%, past the -50% hard cap — should have been auto-closed already. Freeing slot to deploy fresh attention.",
+      "partial": false
+    },
+    {
+      "mint": "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump",
+      "symbol": "blindape",
+      "name": "blindape",
+      "amount_sold": 211292.2002328289,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:10:33.245228+00:00",
+      "exit_time": "2026-08-27T00:21:41.171327+00:00",
+      "entry_price_usd": 6.013e-06,
+      "exit_price_usd": 1.471e-05,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.030643,
+      "pnl_sol": 0.018143,
+      "pnl_pct": 144.64,
+      "exit_reason": "LLM: sell_half — +144.6% with 24h still up 385% — narrative alive, but lock in profit and let the rest ride. Don't get greedy on a 2.4x.",
+      "partial": true
+    },
+    {
+      "mint": "9BepWhU7EaYdDZ46Wk2pHebq8xvTNQySJQWXp7S4pump",
+      "symbol": "1A",
+      "name": "Free Speech Coin",
+      "amount_sold": 38804.93239090351,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:14:35.491329+00:00",
+      "exit_time": "2026-08-27T00:21:41.171488+00:00",
+      "entry_price_usd": 8.135e-06,
+      "exit_price_usd": 6.28e-05,
+      "entry_sol_for_chunk": 0.003125,
+      "exit_sol_received": 0.024026,
+      "pnl_sol": 0.020901,
+      "pnl_pct": 671.97,
+      "exit_reason": "LLM: sell_half — +672% is massive but 24h only +53% — momentum decelerating. Take half off, let remainder ride or get stopped manually.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T00:20:23.066012+00:00",
+  "last_updated": "2026-08-27T00:21:41.171707+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.058,
-  "portfolio_value_usd": 209.65,
+  "last_sol_price_usd": 101.43,
+  "portfolio_value_usd": 208.41,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 00:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Bustas at $7.908e-06 | P&L: -18.0%",
-      "reason": "$Bustas is down -18% with no narrative catalyst visible and held time running. Free up capital for fresh attention."
-    },
-    {
-      "time": "2026-08-27 00:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PAINTER at $4.268e-06 | P&L: -31.9%",
-      "reason": "$PAINTER is down -32% with no viral signal to justify holding a loser. Cut and redeploy."
-    },
-    {
-      "time": "2026-08-27 00:14 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $blindape at $8.677e-06 | P&L: +44.3%",
-      "reason": "$blindape already at +44% on the held position. Take partial profit, let the rest ride since ape-narrative is hot."
-    },
-    {
-      "time": "2026-08-27 00:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CLAUDETOPIA at $6.875e-05 | P&L: +543.8%",
-      "reason": "$CLAUDETOPIA printing +543% — this is the kind of move the experiment is designed to capture. Lock in the win."
-    },
     {
       "time": "2026-08-27 00:14 UTC",
       "action": "buy",
@@ -3113,45 +3140,69 @@
       "action": "buy",
       "details": "[LLM] $SPORTSBETTOR at $6.73929e-06, spent 0.1 SOL",
       "reason": "$SPORTSBETTOR — sports betting narrative is evergreen attention (NFL season, gambling memes). Bond 26% indicates organic buy pressure, mcap only $6.7k = room to run. 0.1 SOL risk."
+    },
+    {
+      "time": "2026-08-27 00:21 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SPORTSBETTOR at $2.841e-06 | P&L: -57.8%",
+      "reason": "Down -57.8%, past the -50% hard cap — should have been auto-closed already. Freeing slot to deploy fresh attention."
+    },
+    {
+      "time": "2026-08-27 00:21 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $blindape at $1.471e-05 | P&L: +144.6%",
+      "reason": "+144.6% with 24h still up 385% — narrative alive, but lock in profit and let the rest ride. Don't get greedy on a 2.4x."
+    },
+    {
+      "time": "2026-08-27 00:21 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $1A at $6.28e-05 | P&L: +672.0%",
+      "reason": "+672% is massive but 24h only +53% — momentum decelerating. Take half off, let remainder ride or get stopped manually."
+    },
+    {
+      "time": "2026-08-27 00:21 UTC",
+      "action": "buy",
+      "details": "[LLM] $MEMELORD at $3.02567e-06, spent 0.1 SOL",
+      "reason": "$MEMELORD — strongest attention name in the batch, tweeted by @iamjasonlevin (notable crypto voice), $3k mcap = pure early attention. High virality potential."
     }
   ],
   "trade_stats": {
-    "total": 169,
-    "wins": 84,
-    "losses": 85,
-    "win_rate_pct": 49.7,
-    "total_pnl_sol": 0.174216,
-    "avg_pnl_pct": 91.34,
+    "total": 172,
+    "wins": 86,
+    "losses": 86,
+    "win_rate_pct": 50.0,
+    "total_pnl_sol": 0.155261,
+    "avg_pnl_pct": 94.15,
     "best_pnl_pct": 688.44,
     "worst_pnl_pct": -99.89,
-    "today_trades": 26,
-    "today_realized_sol": 0.703423,
-    "today_target_pct": 175.9,
+    "today_trades": 29,
+    "today_realized_sol": 0.684468,
+    "today_target_pct": 171.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 84,
-      "loss_count": 85,
+      "win_count": 86,
+      "loss_count": 86,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T00:20:23.065582+00:00",
+  "last_llm_brief_at": "2026-08-27T00:21:41.170233+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
-      "price_usd": 1.147e-05,
-      "change_h24": 278.0,
-      "change_h1": 278.0,
+      "price_usd": 1.471e-05,
+      "change_h24": 385.0,
+      "change_h1": 385.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 26037.18,
+      "volume_h24": 38621.08,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "9BepWhU7EaYdDZ46Wk2pHebq8xvTNQySJQWXp7S4pump": {
-      "price_usd": 6.414e-05,
-      "change_h24": 56.93,
-      "change_h1": 56.93,
-      "liquidity_usd": 19737.36,
-      "volume_h24": 89691.19,
+      "price_usd": 6.28e-05,
+      "change_h24": 53.64,
+      "change_h1": 53.64,
+      "liquidity_usd": 19555.44,
+      "volume_h24": 91194.18,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
@@ -3165,11 +3216,20 @@
       "source": "dexscreener"
     },
     "HpbsRLkUbAmEjbsA1nvzRYhja4Zz9ytbSxnSzoXCpump": {
-      "price_usd": 2.863e-06,
-      "change_h24": -4.11,
-      "change_h1": -4.11,
+      "price_usd": 2.864e-06,
+      "change_h24": -4.08,
+      "change_h1": -4.08,
       "liquidity_usd": 0.0,
-      "volume_h24": 834.28,
+      "volume_h24": 835.65,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "GWZ4AYB3qzYLQqrWpHGXoEaRZuCvATkz2MZH6ukVpump": {
+      "price_usd": 2.841e-06,
+      "change_h24": -30.22,
+      "change_h1": -30.22,
+      "liquidity_usd": 0.0,
+      "volume_h24": 8032.2,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

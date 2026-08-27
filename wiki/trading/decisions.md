@@ -2383,3 +2383,15 @@
 ## [2026-08-27 00:20 UTC] buy | [LLM] $SPORTSBETTOR at $6.73929e-06, spent 0.1 SOL
 - **Reasoning:** $SPORTSBETTOR — sports betting narrative is evergreen attention (NFL season, gambling memes). Bond 26% indicates organic buy pressure, mcap only $6.7k = room to run. 0.1 SOL risk.
 
+## [2026-08-27 00:21 UTC] sell | [FULL][LLM] $SPORTSBETTOR at $2.841e-06 | P&L: -57.8%
+- **Reasoning:** Down -57.8%, past the -50% hard cap — should have been auto-closed already. Freeing slot to deploy fresh attention.
+
+## [2026-08-27 00:21 UTC] sell | [PARTIAL][LLM] $blindape at $1.471e-05 | P&L: +144.6%
+- **Reasoning:** +144.6% with 24h still up 385% — narrative alive, but lock in profit and let the rest ride. Don't get greedy on a 2.4x.
+
+## [2026-08-27 00:21 UTC] sell | [PARTIAL][LLM] $1A at $6.28e-05 | P&L: +672.0%
+- **Reasoning:** +672% is massive but 24h only +53% — momentum decelerating. Take half off, let remainder ride or get stopped manually.
+
+## [2026-08-27 00:21 UTC] buy | [LLM] $MEMELORD at $3.02567e-06, spent 0.1 SOL
+- **Reasoning:** $MEMELORD — strongest attention name in the batch, tweeted by @iamjasonlevin (notable crypto voice), $3k mcap = pure early attention. High virality potential.
+
