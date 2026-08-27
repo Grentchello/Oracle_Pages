@@ -5914,3 +5914,12 @@
 ## [2026-08-27 10:52 UTC] buy | [LLM] $SLM at $3.84481e-06, spent 0.05 SOL
 - **Reasoning:** $SLM 'Sex Language Model' from nexta_tv (credible CT account) — viral AI/sex crossover concept is meme-coded. $3.8k mcap is bottom-of-curve, asymmetric upside if it sticks.
 
+## [2026-08-27 10:53 UTC] sell | [FULL][LLM] $SLM at $2.98616e-06 | P&L: -22.3%
+- **Reasoning:** $SLM is down -22.3% and flat on a bonding curve with only $41 pool liquidity. No bounce signal, no narrative strength visible. -20% rule says exit — don't hope for a recovery on a stale, illiquid loser.
+
+## [2026-08-27 10:53 UTC] buy | [LLM] $Elephant at $5.659e-06, spent 0.05 SOL
+- **Reasoning:** $Elephant 'The Nietzschean Elephant' — quirky philosophical meme narrative, $8.2k mcap, bonding 29% (ahead of most peers), fresh 1min age. Memecoin-friendly oddball name + early curve = classic attention play.
+
+## [2026-08-27 10:53 UTC] buy | [LLM] $MACKAREL at $5.27406e-06, spent 0.05 SOL
+- **Reasoning:** $MACKAREL 'A Mackerel Never Surrenders' — absurdist fish-martial-arts meme via Mario Nawfal (large crypto audience). $5.3k mcap, 0.6min old. Nawfal tweets regularly mint 5-20x movers. Worth a scalp.
+
