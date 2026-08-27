@@ -183,3 +183,23 @@
 - Daily loss cap: -0.4 → -0.20 SOL (stop bleeding sooner)
 - Also fixed: missing daily journals for 2026-08-26 and 2026-08-27 (created catch-up entries)
 - Files: bot/bot.py, wiki/daily/2026-08-26.md, wiki/daily/2026-08-27.md
+
+## [2026-08-27] update | New project: Trading Pairs Bot
+- Grant asked: "make a new project called trading pairs" — inspired by Hummingbot UI in https://www.youtube.com/watch?v=z4_glUxQlWg
+- Created `wiki/projects/trading-pairs/` with:
+  - `index.md` — project page
+  - `pairs-dashboard.html` — dark-themed dashboard (top bar, per-pair cards, open positions, strategy leaderboard, recent trades)
+- Built `bot/trading_pairs_bot.py` — multi-pair (BTC/ETH/SOL/BNB/XRP/ARB) × 4 strategies (SUPER/ROC/BB/DIR), uses Binance public API
+- Built `bot/runner_pairs.py` — 60s tick loop
+- Strategy details:
+  - SUPER (trend): 20-EMA > 50-EMA → LONG, else flat
+  - ROC (momentum): rate of change > +2% over 15 candles → LONG
+  - BB (volatility): price breaks upper Bollinger Band → LONG
+  - DIR (baseline): always-LONG per pair
+- Position management: $100/position, max 2/pair, 12 total, $1500 max exposure, TP/SL/time-stop per strategy
+- Paper bankroll: $1000 USD, decrements on entry, increments on P&L on close
+- Bugs caught and fixed during initial run:
+  - P&L was +1500% on day 1 (bankroll wasn't decremented on entry) → now decrements
+  - Hard-coded Python interpreter path in runner caused crash → switched to sys.executable with absolute path
+- Files: bot/trading_pairs_bot.py, bot/runner_pairs.py, wiki/projects/trading-pairs/index.md, wiki/projects/trading-pairs/pairs-dashboard.html
+- Dashboard live: https://grentchello.github.io/Oracle_Pages/projects/trading-pairs/pairs-dashboard.html
