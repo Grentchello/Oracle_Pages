@@ -3697,3 +3697,12 @@
 ## [2026-08-27 03:05 UTC] buy | [LLM] $fone at $4.16329e-06, spent 0.1 SOL
 - **Reasoning:** $fone at $4.2k mcap, 0.1min old, has twitter link from a dev account. 'apeonfone' name plays on the 'ape on' meme cycle plus phone — coherent attention play. Cheap entry, fresh, worth 0.1 SOL.
 
+## [2026-08-27 03:06 UTC] sell | [FULL][LLM] $fone at $2.96369e-06 | P&L: -28.8%
+- **Reasoning:** $fone pool collapsed to $72, down -28.8% on a dying bonding curve. Free capital for a launch with actual attention.
+
+## [2026-08-27 03:06 UTC] sell | [PARTIAL][LLM] $cat at $3.67e-05 | P&L: +109.9%
+- **Reasoning:** $cat up +109.9% on $14.6k pool — rules say take partial at +50%. Lock gains, let the runner ride free.
+
+## [2026-08-27 03:06 UTC] buy | [LLM] $Dolly at $5.65118e-06, spent 0.1 SOL
+- **Reasoning:** $Dolly (Dolly Parton) — celebrity name is pure attention fuel, has X post driving signal, $5.6k mcap is pre-pump territory. Two copies racing means the narrative is hot.
+
