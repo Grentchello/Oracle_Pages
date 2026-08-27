@@ -6727,3 +6727,9 @@
 ## [2026-08-27 12:41 UTC] buy | [LLM] $TOAD at $7.15835e-06, spent 0.05 SOL
 - **Reasoning:** $TOAD (CYBERTOAD) — strongest meme name in batch, highest mcap ($7.1k) showing real early traction, 27% bonding curve complete indicates organic buying. Classic attention-market play.
 
+## [2026-08-27 12:42 UTC] sell | [PARTIAL][LLM] $CHAIN at $5.57296e-06 | P&L: +22.4%
+- **Reasoning:** Up +22% on bonding curve with rising momentum. Per scalp discipline, when up >20% with any doubt, lock gains. Bonding curve tokens reverse fast — taking half lets me ride free if it 2x's.
+
+## [2026-08-27 12:42 UTC] buy | [LLM] $GBP at $5.69932e-06, spent 0.05 SOL
+- **Reasoning:** $GBP 'Great British Ponzi' — Scott Melker (large crypto influencer) tweeted it. 0.1min old, $5.7k mcap, narrative is sharp/political which travels on CT. Risk: Melker tweets junk constantly, thin liquidity. Size: 0.05 SOL.
+

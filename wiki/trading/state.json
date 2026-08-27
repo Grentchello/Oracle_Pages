@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.789354,
+  "balance_sol": 0.769894,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "2t5BieawfeU4ayREgV2ojsGZ17Ty4kfcuahKBEdkpump": {
       "symbol": "CHAIN",
       "name": "CHAIN MAIL",
-      "amount": 1143032.5229694557,
+      "amount": 571516.2614847278,
       "entry_price_usd": 4.5517952424342624e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T12:38:28.371662+00:00",
       "entry_usd_value": 5.202850000000001,
       "entry_signals": {
@@ -43,6 +43,28 @@
         "real_sol_reserves": 17.034623872,
         "description": "",
         "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "BaZeP5d9LVxRmLBR5PW541Snp9EAS3joxnmPgu6wpump": {
+      "symbol": "GBP",
+      "name": "Great British Ponzi",
+      "amount": 914934.3560852315,
+      "entry_price_usd": 5.6993159840575925e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-27T12:42:44.042361+00:00",
+      "entry_usd_value": 5.214500000000001,
+      "entry_signals": {
+        "liquidity_usd": 2719.86026527323,
+        "volume_24h_usd": null,
+        "market_cap_usd": 5715.98730393344,
+        "ath_market_cap_usd": 6258.172132741837,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 26.079780087,
+        "description": "",
+        "twitter": "https://x.com/scottmelker/status/2092955668051365947",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -18204,25 +18226,30 @@
       "pnl_pct": -57.23,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "2t5BieawfeU4ayREgV2ojsGZ17Ty4kfcuahKBEdkpump",
+      "symbol": "CHAIN",
+      "name": "CHAIN MAIL",
+      "amount_sold": 571516.2614847278,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T12:38:28.371662+00:00",
+      "exit_time": "2026-08-27T12:42:43.751309+00:00",
+      "entry_price_usd": 4.5517952424342624e-06,
+      "exit_price_usd": 5.572962623413104e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.03054,
+      "pnl_sol": 0.00554,
+      "pnl_pct": 22.43,
+      "exit_reason": "LLM: sell_half — Up +22% on bonding curve with rising momentum. Per scalp discipline, when up >20% with any doubt, lock gains. Bonding curve tokens reverse fast — taki",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T12:41:12.328740+00:00",
+  "last_updated": "2026-08-27T12:42:44.346014+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.27,
-  "portfolio_value_usd": 92.72,
+  "last_sol_price_usd": 104.29,
+  "portfolio_value_usd": 93.32,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 12:30 UTC",
-      "action": "buy",
-      "details": "[LLM] $Robolympics at $6.88391e-06, spent 0.05 SOL",
-      "reason": "Leading the coordinated 'Robot Olympics / humanoid robot games' narrative push (ticaonsol tweet, multiple copycats already launched). At $6.9k mcap with 26% bonding curve progress it's the front-runner — buy the leader, not the copycats."
-    },
-    {
-      "time": "2026-08-27 12:30 UTC",
-      "action": "buy",
-      "details": "[LLM] $VILLAIN at $3.542e-06, spent 0.05 SOL",
-      "reason": "Fresh poker-AI narrative ('Perfect poker is unexploitable') with a dedicated @Agent_Villain X account. Sub-$4k mcap, contrarian intellectual hook that could resonate with the AI-agent meta. Small size, asymmetric upside."
-    },
     {
       "time": "2026-08-27 12:32 UTC",
       "action": "sell",
@@ -18330,51 +18357,63 @@
       "action": "buy",
       "details": "[LLM] $TOAD at $7.15835e-06, spent 0.05 SOL",
       "reason": "$TOAD (CYBERTOAD) — strongest meme name in batch, highest mcap ($7.1k) showing real early traction, 27% bonding curve complete indicates organic buying. Classic attention-market play."
+    },
+    {
+      "time": "2026-08-27 12:42 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $CHAIN at $5.57296e-06 | P&L: +22.4%",
+      "reason": "Up +22% on bonding curve with rising momentum. Per scalp discipline, when up >20% with any doubt, lock gains. Bonding curve tokens reverse fast — taking half lets me ride free if it 2x's."
+    },
+    {
+      "time": "2026-08-27 12:42 UTC",
+      "action": "buy",
+      "details": "[LLM] $GBP at $5.69932e-06, spent 0.05 SOL",
+      "reason": "$GBP 'Great British Ponzi' — Scott Melker (large crypto influencer) tweeted it. 0.1min old, $5.7k mcap, narrative is sharp/political which travels on CT. Risk: Melker tweets junk constantly, thin liquidity. Size: 0.05 SOL."
     }
   ],
   "trade_stats": {
-    "total": 1068,
-    "wins": 559,
+    "total": 1069,
+    "wins": 560,
     "losses": 509,
-    "win_rate_pct": 52.3,
-    "total_pnl_sol": -1.010635,
-    "avg_pnl_pct": 45.19,
+    "win_rate_pct": 52.4,
+    "total_pnl_sol": -1.005095,
+    "avg_pnl_pct": 45.17,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 527,
-    "today_realized_sol": 0.421594,
-    "today_target_pct": 105.4,
+    "today_trades": 528,
+    "today_realized_sol": 0.427134,
+    "today_target_pct": 106.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 559,
+      "win_count": 560,
       "loss_count": 509,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T12:41:12.030242+00:00",
+  "last_llm_brief_at": "2026-08-27T12:42:43.750991+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2t5BieawfeU4ayREgV2ojsGZ17Ty4kfcuahKBEdkpump": {
-      "price_usd": 5.289151451780318e-06,
+      "price_usd": 5.572962623413104e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1085.3047152224499,
-      "volume_h24": 5177.36,
+      "liquidity_usd": 1196.68617364431,
+      "volume_h24": 6446.74,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 10.408599935
+      "real_sol_reserves": 11.474601339
     },
-    "H3iRVaheC2XWjxaBeZaKCMV1tHMo94XSMtV2qzL5PKEA": {
-      "price_usd": 2.932433002608056e-06,
+    "3BooG1Xc4K78qeb3giL7Ffn6n7dba3mE9CAVxqrHpump": {
+      "price_usd": 7.015693296362495e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 9.18681793777,
-      "volume_h24": 15266.85,
+      "liquidity_usd": 1724.3763033246,
+      "volume_h24": 1813.61,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.088106051
+      "real_sol_reserves": 16.53443574
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
