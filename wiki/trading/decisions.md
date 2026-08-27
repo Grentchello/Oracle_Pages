@@ -3685,3 +3685,15 @@
 ## [2026-08-27 03:04 UTC] buy | [LLM] $psyop at $1.032e-05, spent 0.1 SOL
 - **Reasoning:** $psyop at $8k mcap with an active X post from PysopOnX — meta-psych-op meme has viral attention potential and 0.6min age means we catch it early.
 
+## [2026-08-27 03:05 UTC] sell | [PARTIAL][LLM] $Gamble at $1.82375e-05 | P&L: +111.2%
+- **Reasoning:** $Gamble at +111% with $4671 pool — bonding curve still incomplete. Take half profit, let the other half ride the bonding curve completion if narrative holds.
+
+## [2026-08-27 03:05 UTC] sell | [PARTIAL][LLM] $cat at $5.502e-05 | P&L: +214.7%
+- **Reasoning:** $cat at +214.7% with $18k pool on dexscreener (graduated). Lock half profit; this kind of move from a fresh launch tends to retrace hard. Let the rest ride if it keeps going.
+
+## [2026-08-27 03:05 UTC] sell | [FULL][LLM] $psyop at $4.23845e-06 | P&L: -58.9%
+- **Reasoning:** $psyop at -58.9% breaches the -50% hard cap. Must close immediately per rules, no override possible.
+
+## [2026-08-27 03:05 UTC] buy | [LLM] $fone at $4.16329e-06, spent 0.1 SOL
+- **Reasoning:** $fone at $4.2k mcap, 0.1min old, has twitter link from a dev account. 'apeonfone' name plays on the 'ape on' meme cycle plus phone — coherent attention play. Cheap entry, fresh, worth 0.1 SOL.
+

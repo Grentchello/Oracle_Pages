@@ -976,13 +976,6 @@ def main():
                 "details": f"[stale] ${trade['symbol']} at ${cur_price:.6g} | P&L: {trade['pnl_pct']:+.1f}%",
                 "reason": f"Held {held_hours:.1f}h with no momentum",
             })
-            if trade:
-                log(f"HARD STOP: ${trade['symbol']} closed at -50% — PnL {trade['pnl_pct']:+.1f}%")
-                append_decision({
-                    "action": "sell",
-                    "details": f"[hard-stop] ${trade['symbol']} closed at ${cur_price:.6g} | P&L: {trade['pnl_pct']:+.1f}%",
-                    "reason": f"Hard -{int(HARD_STOP_LOSS*100)}% stop",
-                })
 
     # 9. Compute portfolio
     portfolio = compute_portfolio_value(state, sol_price, dex_data)

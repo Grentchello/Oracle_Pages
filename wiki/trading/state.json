@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.897504,
+  "balance_sol": 0.884538,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "3yoNws6MWhY78HTMPDmXtpmWDuFYnupN6H3P35zLpump": {
       "symbol": "Gamble",
       "name": "Life is a Gamble",
-      "amount": 73411.74332234764,
+      "amount": 36705.87166117382,
       "entry_price_usd": 8.633666377012163e-06,
-      "entry_sol_spent": 0.00625,
+      "entry_sol_spent": 0.003125,
       "entry_time": "2026-08-27T02:53:35.915467+00:00",
       "entry_usd_value": 10.141,
       "entry_signals": {
@@ -50,9 +50,9 @@
     "3uSaKbRLdfstBhCv1N7mFnLoifQFoNxKQRDaMu9apump": {
       "symbol": "cat",
       "name": "cute animal tek",
-      "amount": 144538.3980282264,
+      "amount": 72269.1990141132,
       "entry_price_usd": 1.7485664947707827e-05,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0125,
       "entry_time": "2026-08-27T02:59:34.703552+00:00",
       "entry_usd_value": 10.1094,
       "entry_signals": {
@@ -91,24 +91,24 @@
       },
       "llm_entry": true
     },
-    "4aE71sZTkQjANnNP6x2BBLRAUrRtF6wc5nK8g8BApump": {
-      "symbol": "psyop",
-      "name": "psyop",
-      "amount": 979467.0542635659,
-      "entry_price_usd": 1.032e-05,
+    "8ERBhxofXqnPkdArCD3gFitrzZCKFS6jEHGY7S2spump": {
+      "symbol": "fone",
+      "name": "apeonfone",
+      "amount": 2427793.360177977,
+      "entry_price_usd": 4.163286779587794e-06,
       "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T03:04:44.395902+00:00",
-      "entry_usd_value": 10.1081,
+      "entry_time": "2026-08-27T03:05:18.375145+00:00",
+      "entry_usd_value": 10.1076,
       "entry_signals": {
-        "liquidity_usd": 1435.6982623154,
-        "volume_24h_usd": 9914.88,
-        "market_cap_usd": 8081.756564185144,
-        "ath_market_cap_usd": 14414.33516522621,
+        "liquidity_usd": 71.55637678221599,
+        "volume_24h_usd": null,
+        "market_cap_usd": 4182.445228339394,
+        "ath_market_cap_usd": 4377.330321486164,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 14.2034434,
-        "description": "Launched on discord.gg/uxento",
-        "twitter": "https://x.com/PysopOnX/status/2092810205822099501",
+        "real_sol_reserves": 0.707946266,
+        "description": "",
+        "twitter": "https://x.com/DEVOR56342/status/2092810532696826187",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -7441,37 +7441,64 @@
       "pnl_pct": -74.11,
       "exit_reason": "LLM: sell_all — $Ape is at -74.1%, hard cap is -50% so this should have auto-closed already — exit immediately, dead pool at $42.",
       "partial": false
+    },
+    {
+      "mint": "3yoNws6MWhY78HTMPDmXtpmWDuFYnupN6H3P35zLpump",
+      "symbol": "Gamble",
+      "name": "Life is a Gamble",
+      "amount_sold": 36705.87166117382,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T02:53:35.915467+00:00",
+      "exit_time": "2026-08-27T03:05:18.071161+00:00",
+      "entry_price_usd": 8.633666377012163e-06,
+      "exit_price_usd": 1.8237489226462132e-05,
+      "entry_sol_for_chunk": 0.003125,
+      "exit_sol_received": 0.006623,
+      "pnl_sol": 0.003498,
+      "pnl_pct": 111.24,
+      "exit_reason": "LLM: sell_half — $Gamble at +111% with $4671 pool — bonding curve still incomplete. Take half profit, let the other half ride the bonding curve completion if narrative",
+      "partial": true
+    },
+    {
+      "mint": "3uSaKbRLdfstBhCv1N7mFnLoifQFoNxKQRDaMu9apump",
+      "symbol": "cat",
+      "name": "cute animal tek",
+      "amount_sold": 72269.1990141132,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T02:59:34.703552+00:00",
+      "exit_time": "2026-08-27T03:05:18.071426+00:00",
+      "entry_price_usd": 1.7485664947707827e-05,
+      "exit_price_usd": 5.502e-05,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.039339,
+      "pnl_sol": 0.026839,
+      "pnl_pct": 214.66,
+      "exit_reason": "LLM: sell_half — $cat at +214.7% with $18k pool on dexscreener (graduated). Lock half profit; this kind of move from a fresh launch tends to retrace hard. Let the rest",
+      "partial": true
+    },
+    {
+      "mint": "4aE71sZTkQjANnNP6x2BBLRAUrRtF6wc5nK8g8BApump",
+      "symbol": "psyop",
+      "name": "psyop",
+      "amount_sold": 979467.0542635659,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T03:04:44.395902+00:00",
+      "exit_time": "2026-08-27T03:05:18.071535+00:00",
+      "entry_price_usd": 1.032e-05,
+      "exit_price_usd": 4.2384494234127585e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.041072,
+      "pnl_sol": -0.058928,
+      "pnl_pct": -58.93,
+      "exit_reason": "LLM: sell_all — $psyop at -58.9% breaches the -50% hard cap. Must close immediately per rules, no override possible.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T03:04:44.396295+00:00",
+  "last_updated": "2026-08-27T03:05:18.375458+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.081,
-  "portfolio_value_usd": 124.23,
+  "last_sol_price_usd": 101.076,
+  "portfolio_value_usd": 121.34,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 02:56 UTC",
-      "action": "buy",
-      "details": "[LLM] $hakes at $2.936e-06, spent 0.1 SOL",
-      "reason": "$hakes — creator angle ('Original artist', 'Owner of Ape fone'), personal brand @imhakes. Real-person narrative has attention legs."
-    },
-    {
-      "time": "2026-08-27 02:58 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Gamble at $1.11261e-05 | P&L: +28.9%",
-      "reason": "$Gamble +28.9% in0.1h is a solid pump but bonding-curve pool is tiny ($2,984) — our0% share means we can't exit without crashing it. Take half off the table to lock in gains and free SOL for fresh alpha."
-    },
-    {
-      "time": "2026-08-27 02:58 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Jared at $2.89951e-06 | P&L: -29.9%",
-      "reason": "$Jared -29.9% with a $38 pool and 19% share — we're a major holder in a dying microcap. Cut the loss now before it approaches the -50% hard cap; the pool is too thin to recover."
-    },
-    {
-      "time": "2026-08-27 02:58 UTC",
-      "action": "buy",
-      "details": "[LLM] $RWA at $5.97115e-06, spent 0.1 SOL",
-      "reason": "$RWA taps the hottest narrative in crypto right now (real-world asset tokenization narrative + WuBlockchain trending). $5,967 mcap, 24% bonded, fresh attention from X cashtag search. Early attention, decent size, story-driven."
-    },
     {
       "time": "2026-08-27 02:58 UTC",
       "action": "buy",
@@ -7567,46 +7594,70 @@
       "action": "buy",
       "details": "[LLM] $psyop at $1.032e-05, spent 0.1 SOL",
       "reason": "$psyop at $8k mcap with an active X post from PysopOnX — meta-psych-op meme has viral attention potential and 0.6min age means we catch it early."
+    },
+    {
+      "time": "2026-08-27 03:05 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Gamble at $1.82375e-05 | P&L: +111.2%",
+      "reason": "$Gamble at +111% with $4671 pool — bonding curve still incomplete. Take half profit, let the other half ride the bonding curve completion if narrative holds."
+    },
+    {
+      "time": "2026-08-27 03:05 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $cat at $5.502e-05 | P&L: +214.7%",
+      "reason": "$cat at +214.7% with $18k pool on dexscreener (graduated). Lock half profit; this kind of move from a fresh launch tends to retrace hard. Let the rest ride if it keeps going."
+    },
+    {
+      "time": "2026-08-27 03:05 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $psyop at $4.23845e-06 | P&L: -58.9%",
+      "reason": "$psyop at -58.9% breaches the -50% hard cap. Must close immediately per rules, no override possible."
+    },
+    {
+      "time": "2026-08-27 03:05 UTC",
+      "action": "buy",
+      "details": "[LLM] $fone at $4.16329e-06, spent 0.1 SOL",
+      "reason": "$fone at $4.2k mcap, 0.1min old, has twitter link from a dev account. 'apeonfone' name plays on the 'ape on' meme cycle plus phone — coherent attention play. Cheap entry, fresh, worth 0.1 SOL."
     }
   ],
   "trade_stats": {
-    "total": 431,
-    "wins": 193,
-    "losses": 238,
-    "win_rate_pct": 44.8,
-    "total_pnl_sol": -0.671238,
-    "avg_pnl_pct": 66.91,
+    "total": 434,
+    "wins": 195,
+    "losses": 239,
+    "win_rate_pct": 44.9,
+    "total_pnl_sol": -0.699829,
+    "avg_pnl_pct": 67.06,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 288,
-    "today_realized_sol": -0.142031,
-    "today_target_pct": -35.5,
+    "today_trades": 291,
+    "today_realized_sol": -0.170622,
+    "today_target_pct": -42.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 193,
-      "loss_count": 238,
+      "win_count": 195,
+      "loss_count": 239,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T03:04:44.110742+00:00",
+  "last_llm_brief_at": "2026-08-27T03:05:18.071121+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "3yoNws6MWhY78HTMPDmXtpmWDuFYnupN6H3P35zLpump": {
-      "price_usd": 1.8372091378044664e-05,
+      "price_usd": 1.8237489226462132e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4699.262163025078,
+      "liquidity_usd": 4670.8466548332235,
       "volume_h24": 65781.55,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 46.490064038
+      "real_sol_reserves": 46.211233674
     },
     "3UsYRacGRcwCW3swtATsGCPKQffGyeK4LSWwnVdepump": {
-      "price_usd": 3.7160062087022934e-06,
+      "price_usd": 3.7158223954135097e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 444.800407129565,
+      "liquidity_usd": 444.77840495273995,
       "volume_h24": 469.43,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
@@ -7614,35 +7665,35 @@
       "real_sol_reserves": 4.400435365
     },
     "3uSaKbRLdfstBhCv1N7mFnLoifQFoNxKQRDaMu9apump": {
-      "price_usd": 4.431e-05,
-      "change_h24": 8.08,
-      "change_h1": 8.08,
-      "liquidity_usd": 16211.7,
-      "volume_h24": 161049.56,
+      "price_usd": 5.502e-05,
+      "change_h24": 34.21,
+      "change_h1": 34.21,
+      "liquidity_usd": 18296.56,
+      "volume_h24": 172835.37,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
     "GzNto3ySGgSjh39zJabZ4bRfpedkUrsHh2rFY2Zepump": {
-      "price_usd": 8.769396329489293e-06,
+      "price_usd": 8.801770434576326e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2309.277493862834,
+      "liquidity_usd": 2319.1460795080197,
       "volume_h24": 6740.82,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 22.845811714
+      "real_sol_reserves": 22.944577145
     },
-    "26DLJ9sjxeYFabRvapCpf7tUBmmut6c2282dEPBspump": {
-      "price_usd": 2.904175881131269e-06,
+    "4aE71sZTkQjANnNP6x2BBLRAUrRtF6wc5nK8g8BApump": {
+      "price_usd": 4.2384494234127585e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 41.590157211317,
-      "volume_h24": 15136.52,
+      "liquidity_usd": 681.2592235429919,
+      "volume_h24": 9914.88,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.411453757
+      "real_sol_reserves": 6.740069092
     }
   }
 }
