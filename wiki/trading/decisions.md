@@ -3124,3 +3124,24 @@
 ## [2026-08-27 02:00 UTC] sell | [PARTIAL][LLM] $Buddy at $6.535e-05 | P&L: +341.8%
 - **Reasoning:** Buddy is up 341.8% after a strong run, so taking half profit protects gains while preserving exposure to continued attention. The position is already highly profitable and the next move may be increasingly crowded.
 
+## [2026-08-27 02:01 UTC] sell | [FULL][LLM] $PRMPT at $3.03e-06 | P&L: +4.4%
+- **Reasoning:** $PRMPT is only +4.4% after 0.7h with 1h=+5.3%. Momentum is weak and stalling — better to recycle capital into fresh launches with viral potential than hold a dead chart.
+
+## [2026-08-27 02:01 UTC] sell | [PARTIAL][LLM] $Buddy at $2.778e-05 | P&L: +87.8%
+- **Reasoning:** $Buddy is +87.8% but 24h=-33.4% and 1h=-33.4% — that means the recent 1h candle is dumping hard after the initial pop. Lock in profit on half, let the rest ride if it recovers; this protects against the dump being a full reversal.
+
+## [2026-08-27 02:01 UTC] sell | [FULL][LLM] $PICKLE at $2.895e-06 | P&L: -0.7%
+- **Reasoning:** $PICKLE is -0.7% after 0.2h with no real momentum signal. Memecoin slots are precious — cut it loose to free a position for a higher-conviction launch.
+
+## [2026-08-27 02:01 UTC] sell | [FULL][LLM] $Winner at $1.161e-05 | P&L: -21.4%
+- **Reasoning:** $Winner is -21.4% already and held only 0.1h. Despite 24h=+290%, the immediate trend is down hard — exit before it gets worse, capital is better deployed elsewhere.
+
+## [2026-08-27 02:01 UTC] buy | [LLM] $Kamaboko at $7.27939e-06, spent 0.1 SOL
+- **Reasoning:** $Kamaboko at $7.2k mcap with j7tracker deployment and juiceonchain tweet — meme name is weird/funny enough to go viral in the anime/crypto crossover crowd. High risk but the attention signal is real.
+
+## [2026-08-27 02:01 UTC] buy | [LLM] $LILY at $5.74523e-06, spent 0.1 SOL
+- **Reasoning:** $LILY 'The Collective Leader' at $5.7k mcap with trusts909 tweet — 'collective leader' has cult/community narrative potential which is exactly what memecoins need. Early bond stage, cheap entry.
+
+## [2026-08-27 02:01 UTC] buy | [LLM] $HF at $4.55164e-06, spent 0.1 SOL
+- **Reasoning:** $HF 'HuggingFaceToken' at $4.5k mcap — AI narrative via HuggingFace brand association is a strong attention magnet in the current AI-coin meta. TrenchingView tweet adds distribution.
+
