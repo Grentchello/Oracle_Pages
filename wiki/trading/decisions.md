@@ -2968,3 +2968,12 @@
 ## [2026-08-27 01:35 UTC] buy | [LLM] $Avatar at $3.16201e-06, spent 0.1 SOL
 - **Reasoning:** $Avatar 'Pump Avatar' — meta-narrative about PumpFun itself. Self-referential memes spread fast in the trenches. $3.2k mcap with Twitter attached = classic low-mcap attention play.
 
+## [2026-08-27 01:36 UTC] sell | [FULL][LLM] $🧲 at $4.562e-06 | P&L: -26.2%
+- **Reasoning:** $🧲 is -26.2% in 0.1h. The 24h/+41.4% reads as stale pre-launch pump data — price is now bleeding hard in real-time. Cut the loss before it hits the -50% hard cap; free up slot for stronger narrative.
+
+## [2026-08-27 01:36 UTC] sell | [FULL][LLM] $Avatar at $2.963e-06 | P&L: -6.3%
+- **Reasoning:** $Avatar is -6.3% with 24h/-16.4% and 1h/-16.4% — actively bleeding, no positive catalyst visible. Free up slot; better entries exist.
+
+## [2026-08-27 01:36 UTC] buy | [LLM] $Buddy at $1.47914e-05, spent 0.1 SOL
+- **Reasoning:** $Buddy (Neuralink Dog) — strongest narrative in the batch: real news catalyst (Neuralink first dog implant), highest mcap ($14.8k), 36% bond (most committed capital of new launches). Attention market loves real-world tie-ins. Risk: duplicate $BUDDY at $3k may fragment attention.
+
