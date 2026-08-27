@@ -5191,3 +5191,15 @@
 ## [2026-08-27 09:40 UTC] sell | [hard-stop] $WOTARD closed at $3.17992e-06 | P&L: -44.8%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 09:41 UTC] sell | [FULL][LLM] $MILO at $4.64425e-06 | P&L: -10.8%
+- **Reasoning:** $MILO down -10.8% instantly with only $814 pool and no bounce signal; rule says exit fast on losers before they hit -30% cap.
+
+## [2026-08-27 09:41 UTC] sell | [FULL][LLM] $HUGGINGFACE at $3.01423e-06 | P&L: -18.0%
+- **Reasoning:** $HUGGINGFACE at -18% with $45 pool (10% of position illiquid); approaching -30% hard cap and impossible to exit cleanly at this size.
+
+## [2026-08-27 09:41 UTC] sell | [FULL][LLM] $swh at $5.01918e-07 | P&L: -0.1%
+- **Reasoning:** $swh flat at -0.1% but $42 pool is too thin to exit profitably later; freeing slot for higher-quality attention.
+
+## [2026-08-27 09:41 UTC] buy | [LLM] $BONK at $3.89756e-06, spent 0.05 SOL
+- **Reasoning:** $BONK leverages the viral BONK brand on a discord launchpad (uxento); brand-leverage plays pump hard in memecoin attention cycles. Risk: 0.4min old, low mcap, will dump if narrative fades.
+
