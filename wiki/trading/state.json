@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.96605,
+  "balance_sol": 0.952696,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -25,24 +25,24 @@
       },
       "llm_entry": true
     },
-    "DHtAXd4RQEgLdqkqbE1sPkyv7gzv6RuuRPvefFrTpump": {
-      "symbol": "PSYOP",
-      "name": "psyop coin",
-      "amount": 1248144.191065695,
-      "entry_price_usd": 4.17539899420619e-06,
+    "79RRj8QP21vRqZYuf1RWyNa78JfdSudp2QiwPkrhpump": {
+      "symbol": "ILY",
+      "name": "Just Believe, I Love You",
+      "amount": 197297.5492714479,
+      "entry_price_usd": 2.6457500456927457e-05,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T11:04:57.173738+00:00",
-      "entry_usd_value": 5.211500000000001,
+      "entry_time": "2026-08-27T11:06:17.790358+00:00",
+      "entry_usd_value": 5.220000000000001,
       "entry_signals": {
-        "liquidity_usd": 127.84847411916999,
+        "liquidity_usd": 7014.77973792,
         "volume_24h_usd": null,
-        "market_cap_usd": 4181.858589723733,
-        "ath_market_cap_usd": 6197.736711258775,
+        "market_cap_usd": 26475.42273772892,
+        "ath_market_cap_usd": 26583.12542134121,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1.226599579,
+        "real_sol_reserves": 67.1913768,
         "description": "",
-        "twitter": "https://x.com/psyopcoinwtf/status/2092929843314721055",
+        "twitter": "https://x.com/QuantaDev123/status/2092930273637773517",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -15671,25 +15671,30 @@
       "pnl_pct": 27.71,
       "exit_reason": "LLM: sell_all — Up +27.7% but only 0.0h held and pool is tiny ($2959) with our share at 0% — this is a phantom P&L on an illiquid bonding-curve microcap. The bot's TP",
       "partial": false
+    },
+    {
+      "mint": "DHtAXd4RQEgLdqkqbE1sPkyv7gzv6RuuRPvefFrTpump",
+      "symbol": "PSYOP",
+      "name": "psyop coin",
+      "amount_sold": 1248144.191065695,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T11:04:57.173738+00:00",
+      "exit_time": "2026-08-27T11:06:17.502031+00:00",
+      "entry_price_usd": 4.17539899420619e-06,
+      "exit_price_usd": 3.0652040306478823e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.036646,
+      "pnl_sol": -0.013354,
+      "pnl_pct": -26.59,
+      "exit_reason": "LLM: sell_all — $PSYOP is at -26.6% with only $78 pool liquidity and 5% of supply — the -30% hard stop is imminent and there's no bounce signal in a dead micro-pool. ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T11:04:57.173964+00:00",
+  "last_updated": "2026-08-27T11:06:17.790674+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.23,
-  "portfolio_value_usd": 111.11,
+  "last_sol_price_usd": 104.4,
+  "portfolio_value_usd": 109.89,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 10:54 UTC",
-      "action": "buy",
-      "details": "[LLM] $DEX  at $3.58224e-06, spent 0.05 SOL",
-      "reason": "$DEX — viral TikTok monkey story, real content/attention angle (TikTok virality > random X posts). $3.6k mcap, only 9% bonded = lots of room, low entry risk on 0.05 SOL."
-    },
-    {
-      "time": "2026-08-27 10:55 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Elephant at $9.89749e-06 | P&L: +74.9%",
-      "reason": "Elephant is +74.9% and bond curve at 28% with pool of only $2636 — this is peak memecoin territory where 50% pullbacks are common. Take half profit off the table, let the rest ride for the +100% TP at 50%."
-    },
     {
       "time": "2026-08-27 10:55 UTC",
       "action": "buy",
@@ -15797,29 +15802,64 @@
       "action": "buy",
       "details": "[LLM] $PSYOP at $4.1754e-06, spent 0.05 SOL",
       "reason": "$PSYOP: psyop is a recurring meta-narrative that historically pumps hard on pumpfun. Low mcap ($4.2k) so size risk is contained; small speculative add to the rotation play."
+    },
+    {
+      "time": "2026-08-27 11:06 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PSYOP at $3.0652e-06 | P&L: -26.6%",
+      "reason": "$PSYOP is at -26.6% with only $78 pool liquidity and 5% of supply — the -30% hard stop is imminent and there's no bounce signal in a dead micro-pool. Cut the loss now rather than wait for the auto-stop."
+    },
+    {
+      "time": "2026-08-27 11:06 UTC",
+      "action": "buy",
+      "details": "[LLM] $ILY at $2.64575e-05, spent 0.05 SOL",
+      "reason": "$ILY ('Just Believe, I Love You') is the strongest launch by mcap ($26.5k) with an emotional/viral narrative and a tagged X post. Best attention-to-mcap ratio in the batch — small position to test the narrative."
     }
   ],
   "trade_stats": {
-    "total": 919,
+    "total": 920,
     "wins": 484,
-    "losses": 435,
-    "win_rate_pct": 52.7,
-    "total_pnl_sol": -0.833939,
-    "avg_pnl_pct": 48.35,
+    "losses": 436,
+    "win_rate_pct": 52.6,
+    "total_pnl_sol": -0.847293,
+    "avg_pnl_pct": 48.27,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 378,
-    "today_realized_sol": 0.59829,
-    "today_target_pct": 149.6,
+    "today_trades": 379,
+    "today_realized_sol": 0.584936,
+    "today_target_pct": 146.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 484,
-      "loss_count": 435,
+      "loss_count": 436,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T11:04:56.576499+00:00",
+  "last_llm_brief_at": "2026-08-27T11:06:17.501993+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "9jnY7FjeoeH2ZHRLYYcJKvQCdsz6nVfzazL57Uugpump": {
+      "price_usd": 1.0269041797492945e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2742.564800754,
+      "volume_h24": 7429.2,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 26.269777785
+    },
+    "DHtAXd4RQEgLdqkqbE1sPkyv7gzv6RuuRPvefFrTpump": {
+      "price_usd": 3.0652040306478823e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 77.5225548108,
+      "volume_h24": 0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.742553207
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot"
 }

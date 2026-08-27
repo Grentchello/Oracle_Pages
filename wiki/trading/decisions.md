@@ -6001,3 +6001,9 @@
 ## [2026-08-27 11:04 UTC] buy | [LLM] $PSYOP at $4.1754e-06, spent 0.05 SOL
 - **Reasoning:** $PSYOP: psyop is a recurring meta-narrative that historically pumps hard on pumpfun. Low mcap ($4.2k) so size risk is contained; small speculative add to the rotation play.
 
+## [2026-08-27 11:06 UTC] sell | [FULL][LLM] $PSYOP at $3.0652e-06 | P&L: -26.6%
+- **Reasoning:** $PSYOP is at -26.6% with only $78 pool liquidity and 5% of supply — the -30% hard stop is imminent and there's no bounce signal in a dead micro-pool. Cut the loss now rather than wait for the auto-stop.
+
+## [2026-08-27 11:06 UTC] buy | [LLM] $ILY at $2.64575e-05, spent 0.05 SOL
+- **Reasoning:** $ILY ('Just Believe, I Love You') is the strongest launch by mcap ($26.5k) with an emotional/viral narrative and a tagged X post. Best attention-to-mcap ratio in the batch — small position to test the narrative.
+
