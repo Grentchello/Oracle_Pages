@@ -7039,3 +7039,6 @@
 ## [2026-08-27 13:14 UTC] buy | [LLM] $STONK at $3.96542e-06, spent 0.05 SOL
 - **Reasoning:** $STONK 'Anime Bitcoin' is a strong memeable narrative — anime + BTC crossover has viral potential. Fresh launch at $3.9k mcap with twitter presence.
 
+## [2026-08-27 13:15 UTC] sell | [TP +100% (50%)] $PIGEONMAN at $1.05855e-05 | P&L: +137.2%
+- **Reasoning:** Auto take-profit at +137.2%
+
