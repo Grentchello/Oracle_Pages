@@ -6076,3 +6076,24 @@
 ## [2026-08-27 11:12 UTC] buy | [LLM] $ARSONIST at $3.58115e-06, spent 0.05 SOL
 - **Reasoning:** The Arsonist — tied to @nexta_tv tweet which is a known crypto attention account. Narrative coin ('arsonist' = burning shorts/bags) plays well in degen culture. $3.5k mcap, very fresh at 0.3min.
 
+## [2026-08-27 11:13 UTC] sell | [hard-stop] $PippinBull closed at $2.94691e-06 | P&L: -76.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:13 UTC] sell | [TP +100% (50%)] $OSTRICH at $1.1702e-05 | P&L: +105.6%
+- **Reasoning:** Auto take-profit at +105.6%
+
+## [2026-08-27 11:13 UTC] sell | [TP +30% (25%)] $CATMAXX at $6.62113e-06 | P&L: +87.9%
+- **Reasoning:** Auto take-profit at +87.9%
+
+## [2026-08-27 11:13 UTC] sell | [PARTIAL][LLM] $OSTRICH at $1.1702e-05 | P&L: +105.6%
+- **Reasoning:** +105.6% in6 minutes — already past first TP threshold. Bonding curve shows price still climbing (last candle $0.0000001122 vs entry), but locking half protects against reversal. Riding the other half for potential continued pump.
+
+## [2026-08-27 11:13 UTC] sell | [PARTIAL][LLM] $CATMAXX at $6.62113e-06 | P&L: +87.9%
+- **Reasoning:** +87.9% — past first TP threshold. Pool is only $1586 (thin), so taking half off protects against rug/pullback while leaving exposure. Last print $0.0000000635 suggests momentum but thin liquidity makes me cautious.
+
+## [2026-08-27 11:13 UTC] sell | [FULL][LLM] $ARSONIST at $2.96419e-06 | P&L: -17.2%
+- **Reasoning:** -17.2% and dropping, pool only $26 (extremely illiquid). I hold 17% of the pool which means I'm the exit liquidity if this dumps further. -30% hard stop is close — cutting now at -17% is cleaner than waiting.
+
+## [2026-08-27 11:13 UTC] buy | [LLM] $KK at $6.12e-06, spent 0.05 SOL
+- **Reasoning:** $KK has the strongest attention signal in this batch — NY Post tweet (Kylie Jenner adjacent narrative) is real celebrity-tier attention that memecoins live on. mcap $7,769 with 28% bond means room to run. Risk: appears as two different mints (possible copycat/rug variants), but the NY Post source tweet is legit attention.
+
