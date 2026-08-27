@@ -6895,3 +6895,21 @@
 ## [2026-08-27 12:59 UTC] sell | [TP +30% (25%)] $RISE at $7.27496e-06 | P&L: +41.0%
 - **Reasoning:** Auto take-profit at +41.0%
 
+## [2026-08-27 12:59 UTC] sell | [TP +30% (25%)] $RISE at $7.27496e-06 | P&L: +41.0%
+- **Reasoning:** Auto take-profit at +41.0%
+
+## [2026-08-27 12:59 UTC] sell | [PARTIAL][LLM] $RISE at $7.27496e-06 | P&L: +41.0%
+- **Reasoning:** +41% in <1h is great but pool is only $1,812 — thin liquidity means dump risk is real. Lock half the gain, let the rest ride if narrative (RISE) continues. Half-bank, half-moon.
+
+## [2026-08-27 12:59 UTC] sell | [FULL][LLM] $Rei at $4.18591e-06 | P&L: -1.4%
+- **Reasoning:** Flat at -1.4% on a $618 pool with no momentum signal. This is exactly the 'stale at break-even, exit' case. Capital is better deployed into fresh attention than sitting on a dead position.
+
+## [2026-08-27 12:59 UTC] buy | [LLM] $RHYS at $2.9983e-06, spent 0.05 SOL
+- **Reasoning:** $RHYS 'AI Saviour' — strongest narrative of the batch riding ChatGPT/AI attention, mc $3k is prime 5-10x territory, and the same X account posted multiple Rhys variants showing conviction.
+
+## [2026-08-27 12:59 UTC] buy | [LLM] $Perry at $4.64595e-06, spent 0.05 SOL
+- **Reasoning:** $Perry (Perry the Platypus) — instantly recognizable cartoon IP, age 0.2min at $4.6k mcap. Recognizable-name memecoins pump hard in the first hour from normie/retail attention.
+
+## [2026-08-27 12:59 UTC] buy | [LLM] $lightning at $4.037e-06, spent 0.05 SOL
+- **Reasoning:** $lightning launched from uxento discord — coordinated launches create FOMO clusters. 'fuck you lightning' is crude/edgy which travels on CT. Small size, asymmetric upside.
+
