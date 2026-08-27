@@ -7477,3 +7477,15 @@
 ## [2026-08-27 14:20 UTC] buy | [LLM] $Oscar at $9.7056e-06, spent 0.05 SOL
 - **Reasoning:** $Oscar (The Trenchcat) — Solana trench culture mascot narrative, mcap $9.7k with 31% bonding progress, $21K-ish FDMC suggests real buys hitting the curve. Trenchcat branding fits the meme meta.
 
+## [2026-08-27 14:21 UTC] sell | [hard-stop] $DeFiDad closed at $4.50592e-06 | P&L: -45.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 14:21 UTC] sell | [hard-stop] $Oscar closed at $5.96313e-06 | P&L: -38.6%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 14:21 UTC] sell | [TP +30% (25%)] $MILK at $8.79011e-06 | P&L: +31.4%
+- **Reasoning:** Auto take-profit at +31.4%
+
+## [2026-08-27 14:21 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
