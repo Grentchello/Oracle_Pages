@@ -4870,3 +4870,15 @@
 ## [2026-08-27 08:58 UTC] buy | [LLM] $TRUCHACoin at $8.42813e-06, spent 0.05 SOL
 - **Reasoning:** $TRUCHA 'first honest cryptocurrency — no whitepaper no utility no exit' is peak memecoin self-awareness meta. 0.1min old, brand-new attention window. Low mcap = high upside if narrative catches.
 
+## [2026-08-27 08:59 UTC] sell | [hard-stop] $WIN closed at $6.61717e-06 | P&L: -42.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 08:59 UTC] sell | [hard-stop] $TRUCHACoin closed at $2.984e-06 | P&L: -64.6%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:00 UTC] sell | [FULL][LLM] $computa at $4.7265e-06 | P&L: -25.6%
+- **Reasoning:** $computa down -25.6%, pool only $851, no bounce signal and approaching -30% hard stop. Cut the loss now before it gets worse — stale, thin liquidity, no catalyst.
+
+## [2026-08-27 09:00 UTC] sell | [FULL][LLM] $LIKWELI at $5.39809e-06 | P&L: -10.4%
+- **Reasoning:** $LIKWELI down -10.4% in <1h on weak pool ($1.1k), no narrative strength and no bounce. Better to free the slot for fresher launches with attention.
+
