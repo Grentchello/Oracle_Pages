@@ -3202,3 +3202,21 @@
 ## [2026-08-27 02:05 UTC] buy | [LLM] $PHAREA at $1.45376e-06, spent 0.1 SOL
 - **Reasoning:** $PHAREA 'Phantom Reactor / the real Pepe' — $1.4k mcap, 0.3min, explicitly leans into Pepe virality. Self-aware meme-meta play; tiny mcap gives 10x room if it catches.
 
+## [2026-08-27 02:07 UTC] sell | [FULL][LLM] $AI at $3.328e-06 | P&L: -2.5%
+- **Reasoning:** AI token showing -2.5% with flat 24h momentum (-0.1%). No clear viral narrative in the data - cutting a stagnant position to free up capital for fresh attention.
+
+## [2026-08-27 02:07 UTC] sell | [PARTIAL][LLM] $MOON at $3.327e-05 | P&L: +804.2%
+- **Reasoning:** MOON at +804% is exceptional. Taking half profit to lock in gains while letting the rest ride if narrative continues. 24h +1066% suggests strong momentum still building.
+
+## [2026-08-27 02:07 UTC] sell | [FULL][LLM] $PHAREA at $1.225e-06 | P&L: -15.7%
+- **Reasoning:** PHAREA at -15.7% with 24h -57.1% is clearly dying. Cutting losses before it hits the -50% hard cap. No recovery signal in the data.
+
+## [2026-08-27 02:07 UTC] buy | [LLM] $Shrekli at $4.25742e-06, spent 0.1 SOL
+- **Reasoning:** Martin Shrekli is a controversial internet figure with guaranteed attention. Memecoins about polarizing figures go viral. 0.1 SOL entry at $4.2k mcap is perfect attention-market bet.
+
+## [2026-08-27 02:07 UTC] buy | [LLM] $OX at $3.01803e-06, spent 0.1 SOL
+- **Reasoning:** Ox Alpha AI mystery narrative is strong - 'anonymous AI climbed to #1 on OpenRouter' is exactly the kind of viral tech-mystery story that pumps memecoins. 0.1 SOL entry.
+
+## [2026-08-27 02:07 UTC] buy | [LLM] $BANANAPET at $2.90381e-06, spent 0.1 SOL
+- **Reasoning:** Banana Pet has a perfect absurdist viral narrative - 'people walking bananas on leashes' is exactly the kind of weird internet moment that pumps. Strong meme potential at $2.9k mcap.
+
