@@ -6652,3 +6652,9 @@
 ## [2026-08-27 12:27 UTC] buy | [LLM] $Europathon at $3.03117e-06, spent 0.05 SOL
 - **Reasoning:** $Europathon has the strongest narrative of this batch — real humans (18 & 17 y/o) who quit jobs to livestream a Europe trip, with an active X account (@EuropathonPUMP). Human-story memecoins with verifiable streamers pump hard because content keeps generating. $3k mcap is early but liquidity thin (bond 2%) — size at min 0.05 SOL and exit fast if no traction in 15 min.
 
+## [2026-08-27 12:29 UTC] sell | [PARTIAL][LLM] $PumpLiquid at $2.94162e-06 | P&L: -3.5%
+- **Reasoning:** Down 3.5% in 6 minutes, our 40% share of a $12 pool makes us the dominant seller risk — exiting before thin liquidity deepens losses.
+
+## [2026-08-27 12:29 UTC] buy | [LLM] $LOPEZ at $2.99572e-06, spent 0.05 SOL
+- **Reasoning:** $LOPEZ 'Justice for Lopez' with NY Post X-link is a real viral news narrative — this is exactly the attention-launched playbook, sub-1min age is ideal entry window.
+

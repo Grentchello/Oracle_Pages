@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.883504,
+  "balance_sol": 0.857616,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GvcXtk9nvEEAAUQJwbv2L6GZ7ehhJpCnC8rwXKrFpump": {
       "symbol": "PumpLiquid",
       "name": "PumpLiquid",
-      "amount": 1711149.064416997,
+      "amount": 855574.5322084985,
       "entry_price_usd": 3.0467830701682813e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T12:24:56.055272+00:00",
       "entry_usd_value": 5.2135,
       "entry_signals": {
@@ -43,6 +43,28 @@
         "real_sol_reserves": 0.500413785,
         "description": "Just two kids (18 & 17 Years old) who quit their jobs and will livestream their adventure throughout Europe. ",
         "twitter": "https://x.com/EuropathonPUMP",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "6VvNPrtinhorJaz9tYeJgU6spsmqTnt9J1GfMkSdpump": {
+      "symbol": "LOPEZ",
+      "name": "Justice for Lopez",
+      "amount": 1742154.5734508927,
+      "entry_price_usd": 2.9957158104875313e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-27T12:29:04.173974+00:00",
+      "entry_usd_value": 5.219,
+      "entry_signals": {
+        "liquidity_usd": 41.230101670079996,
+        "volume_24h_usd": null,
+        "market_cap_usd": 2990.645750449557,
+        "ath_market_cap_usd": 5123.631996558957,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.395000016,
+        "description": "",
+        "twitter": "https://x.com/nypost/status/2092951643327259003",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -17966,25 +17988,30 @@
       "pnl_pct": -16.66,
       "exit_reason": "LLM: sell_all — -16.7% with $0 pool liquidity and price collapsing in 30m history (3.4→2.8). No bounce signal, bond curve is dead. Cut before -30% hard stop.",
       "partial": false
+    },
+    {
+      "mint": "GvcXtk9nvEEAAUQJwbv2L6GZ7ehhJpCnC8rwXKrFpump",
+      "symbol": "PumpLiquid",
+      "name": "PumpLiquid",
+      "amount_sold": 855574.5322084985,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T12:24:56.055272+00:00",
+      "exit_time": "2026-08-27T12:29:03.883454+00:00",
+      "entry_price_usd": 3.0467830701682813e-06,
+      "exit_price_usd": 2.941617558564014e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.024112,
+      "pnl_sol": -0.000888,
+      "pnl_pct": -3.45,
+      "exit_reason": "LLM: sell_all — Down 3.5% in 6 minutes, our 40% share of a $12 pool makes us the dominant seller risk — exiting before thin liquidity deepens losses.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T12:27:41.559831+00:00",
+  "last_updated": "2026-08-27T12:29:04.174341+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.54,
-  "portfolio_value_usd": 102.8,
+  "last_sol_price_usd": 104.38,
+  "portfolio_value_usd": 102.57,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 12:17 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Jing Tian at $3.96074e-06 | P&L: -0.1%",
-      "reason": "$Jing Tian is flat (-0.1%), pool only $517, no narrative, no volume pulse, held 6 min with zero movement. Stale capital — rotate out."
-    },
-    {
-      "time": "2026-08-27 12:17 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $$REDFNX at $3.12736e-06 | P&L: +0.1%",
-      "reason": "$REDFNX flat (+0.1%), $111 pool, no momentum, no attention signal. Dead on arrival — free the slot."
-    },
     {
       "time": "2026-08-27 12:17 UTC",
       "action": "sell",
@@ -18092,40 +18119,63 @@
       "action": "buy",
       "details": "[LLM] $Europathon at $3.03117e-06, spent 0.05 SOL",
       "reason": "$Europathon has the strongest narrative of this batch — real humans (18 & 17 y/o) who quit jobs to livestream a Europe trip, with an active X account (@EuropathonPUMP). Human-story memecoins with verifiable streamers pump hard because content keeps generating. $3k mcap is early but liquidity thin (bond 2%) — size at min 0.05 SOL and exit fast if no traction in 15 min."
+    },
+    {
+      "time": "2026-08-27 12:29 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $PumpLiquid at $2.94162e-06 | P&L: -3.5%",
+      "reason": "Down 3.5% in 6 minutes, our 40% share of a $12 pool makes us the dominant seller risk — exiting before thin liquidity deepens losses."
+    },
+    {
+      "time": "2026-08-27 12:29 UTC",
+      "action": "buy",
+      "details": "[LLM] $LOPEZ at $2.99572e-06, spent 0.05 SOL",
+      "reason": "$LOPEZ 'Justice for Lopez' with NY Post X-link is a real viral news narrative — this is exactly the attention-launched playbook, sub-1min age is ideal entry window."
     }
   ],
   "trade_stats": {
-    "total": 1054,
+    "total": 1055,
     "wins": 555,
-    "losses": 499,
-    "win_rate_pct": 52.7,
-    "total_pnl_sol": -0.916485,
-    "avg_pnl_pct": 45.87,
+    "losses": 500,
+    "win_rate_pct": 52.6,
+    "total_pnl_sol": -0.917373,
+    "avg_pnl_pct": 45.82,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 513,
-    "today_realized_sol": 0.515744,
-    "today_target_pct": 128.9,
+    "today_trades": 514,
+    "today_realized_sol": 0.514856,
+    "today_target_pct": 128.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 555,
-      "loss_count": 499,
+      "loss_count": 500,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T12:27:41.263945+00:00",
+  "last_llm_brief_at": "2026-08-27T12:29:03.882939+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GvcXtk9nvEEAAUQJwbv2L6GZ7ehhJpCnC8rwXKrFpump": {
-      "price_usd": 2.9461266485177435e-06,
+      "price_usd": 2.941617558564014e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 12.47214741804,
+      "liquidity_usd": 12.45305861388,
       "volume_h24": 657.81,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.119305026
+    },
+    "9UdqA2zBRDJS5Fyj6MWTTqnQNt4HnR1W7LgtXQVEpump": {
+      "price_usd": 3.0163347213011015e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 52.12966668991999,
+      "volume_h24": 62.76,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.499421984
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
