@@ -2548,3 +2548,6 @@
 ## [2026-08-27 00:42 UTC] buy | [LLM] $PTA at $3.85596e-06, spent 0.1 SOL
 - **Reasoning:** $PTA 'Pokemon Theft Auto' — real utility/game narrative with multiplayer + wagering hook, rarity play (151 out), 0.1min. Best narrative depth of the batch.
 
+## [2026-08-27 00:43 UTC] sell | [PARTIAL][LLM] $Makeda at $2.156e-05 | P&L: +128.2%
+- **Reasoning:** $Makeda is +128% with 24h at +616% — taking half profit locks in gains on the biggest winner while letting the rest ride. Frees a slot for fresh entries.
+
