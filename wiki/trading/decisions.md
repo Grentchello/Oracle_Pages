@@ -6835,3 +6835,9 @@
 ## [2026-08-27 12:52 UTC] sell | [hard-stop] $SPIDER closed at $2.95789e-06 | P&L: -38.8%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 12:52 UTC] sell | [hard-stop] $Toad King closed at $2.48989e-08 | P&L: -98.1%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:52 UTC] sell | [hard-stop] $SPIDER closed at $2.93358e-06 | P&L: -39.3%
+- **Reasoning:** Hard -30% stop
+
