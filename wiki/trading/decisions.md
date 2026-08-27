@@ -6787,3 +6787,15 @@
 ## [2026-08-27 12:46 UTC] buy | [LLM] $SHOCKED at $2.99801e-06, spent 0.05 SOL
 - **Reasoning:** $SHOCKED — 'Shocked Cat' cluster narrative is the strongest story here: 2 independent creators launching matching tokens within 72s signals organic viral coordination, not bot spam. Classic attention-market setup.
 
+## [2026-08-27 12:46 UTC] sell | [PARTIAL][LLM] $QQ at $1.52762e-05 | P&L: +43.4%
+- **Reasoning:** $QQ is up +43.4% — this is well past TP1 territory. Take profit on half to lock in gains while letting the rest ride if narrative continues.
+
+## [2026-08-27 12:46 UTC] sell | [FULL][LLM] $Huggy at $7.94197e-06 | P&L: +21.1%
+- **Reasoning:** $Huggy is up +21.1% but held 0.0h with thin pool ($2034) and unclear narrative (multiple Huggy mints = scam risk). Lock the gain before it fades.
+
+## [2026-08-27 12:46 UTC] sell | [FULL][LLM] $BULLMODE at $3.25354e-06 | P&L: -0.0%
+- **Reasoning:** $BULLMODE is flat at -0.0% with weak pool ($175, below 5x position size rule). No momentum, no narrative — free up the slot.
+
+## [2026-08-27 12:46 UTC] buy | [LLM] $ROBOT at $8.54738e-06, spent 0.05 SOL
+- **Reasoning:** $ROBOT has strongest narrative signal — 'RobotCoin' tied to WhaleFUD status, bonding 29% (most progress = real traction), $8570 mcap with room to run.
+
