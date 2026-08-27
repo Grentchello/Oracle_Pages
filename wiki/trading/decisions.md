@@ -5581,3 +5581,18 @@
 ## [2026-08-27 10:21 UTC] sell | [PARTIAL][LLM] $ANTSEM at $1.54959e-05 | P&L: +57.5%
 - **Reasoning:** ANTSEM +57.6% in<1h on bonding curve. Lock half the gain — fresh memecoin gains evaporate fast. Keep half for potential 2x+ if narrative sustains.
 
+## [2026-08-27 10:22 UTC] sell | [TP +30% (25%)] $aped at $1.02992e-05 | P&L: +35.9%
+- **Reasoning:** Auto take-profit at +35.9%
+
+## [2026-08-27 10:22 UTC] sell | [TP +30% (25%)] $ANTSEM at $1.7618e-05 | P&L: +79.1%
+- **Reasoning:** Auto take-profit at +79.1%
+
+## [2026-08-27 10:22 UTC] sell | [PARTIAL][LLM] $ANTSEM at $1.7618e-05 | P&L: +79.1%
+- **Reasoning:** $ANTSEM +79.1% and just entered — lock half the gain now per profit-taking discipline. Bonding curve still early, momentum may continue, but a 2x already covers a lot of downside. Keep skin in the game.
+
+## [2026-08-27 10:22 UTC] buy | [LLM] $Pillbert at $4.67e-06, spent 0.05 SOL
+- **Reasoning:** $Pillbert freshest narrative with strongest mcap ($8.9k, 30% bonded) and clear X attention — highest-quality launch in batch. Story-name 'Pillbert' has absurdist meme energy that travels.
+
+## [2026-08-27 10:22 UTC] buy | [LLM] $X at $6.91334e-06, spent 0.05 SOL
+- **Reasoning:** $X (X Agents) at $6.9k mcap with 26% bonded — 'X Agents' AI-agent meta is hot, account looks active. Early enough for asymmetric upside.
+
