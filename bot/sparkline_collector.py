@@ -63,7 +63,8 @@ def get_active_mints():
 
 
 def fetch_price(mint):
-    """Get current price for a mint via pump.fun bonding curve. Returns price_sol or 0."""
+    """Get current price and market cap for a mint via pump.fun bonding curve.
+    Returns (price_sol, market_cap_sol) tuple. Both 0 on error."""
     try:
         url = PUMP_FUN_URL.format(mint=mint)
         req = urllib.request.Request(url, headers={"User-Agent": "oracle-vault-sparklines/1.0"})
@@ -71,12 +72,13 @@ def fetch_price(mint):
             data = json.loads(r.read())
     except Exception as e:
         log(f"  err {mint[:12]}: {str(e)[:50]}")
-        return 0
+        return 0, 0
     vsr = float(data.get("virtual_sol_reserves", 0) or 0) / 1e9
     vtr = float(data.get("virtual_token_reserves", 0) or 0) / 1e6
-    if vsr > 0 and vtr > 0:
-        return vsr / vtr
-    return 0
+    price_sol = (vsr / vtr) if vsr > 0 and vtr > 0 else 0
+    # market_cap_sol: virtual_sol_reserves * 2 (both sides of the curve)
+    market_cap_sol = vsr * 2 if vsr > 0 else 0
+    return price_sol, market_cap_sol
 
 
 def bucket_for(ts):
@@ -97,19 +99,21 @@ def trim_old(data):
             del data[mint]
 
 
-def record(data, mint, price_sol):
-    """Append price point to bucket for mint."""
+def record(data, mint, price_sol, market_cap_sol):
+    """Append price + market cap point to bucket for mint."""
     if not mint or price_sol <= 0:
         return
     if mint not in data:
-        data[mint] = {"ts": [], "px": []}
+        data[mint] = {"ts": [], "px": [], "mc": []}
     d = data[mint]
     bucket = bucket_for(int(time.time()))
     if d["ts"] and d["ts"][-1] == bucket:
         d["px"][-1] = price_sol
+        d["mc"][-1] = market_cap_sol
     else:
         d["ts"].append(bucket)
         d["px"].append(price_sol)
+        d["mc"].append(market_cap_sol)
 
 
 def main():
@@ -125,9 +129,9 @@ def main():
             log(f"polling {len(mints)} mints")
             fetched = 0
             for m in mints:
-                price = fetch_price(m)
+                price, mc = fetch_price(m)
                 if price > 0:
-                    record(data, m, price)
+                    record(data, m, price, mc)
                     fetched += 1
                 time.sleep(0.05)  # 20 req/sec, well within pump.fun limits
             trim_old(data)

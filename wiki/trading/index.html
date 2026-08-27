@@ -260,23 +260,32 @@ function renderLearning(state) {
 
 
 function renderSparkline(mint, width=60, height=20) {
-  // Returns an SVG path string for the price history of this mint.
+  // Returns SVG of MARKET CAP history (not raw price).
   // Reads from sparklines cache (state.sparklines populated by refresh).
+  // data.mc = market cap in SOL per bucket
   const data = (window._sparklines || {})[mint];
   if (!data || !data.ts || data.ts.length < 2) return '';
-  const ts = data.ts, px = data.px;
-  const minP = Math.min.apply(null, px);
-  const maxP = Math.max.apply(null, px);
+  const ts = data.ts;
+  // Prefer market cap, fall back to price if mc missing
+  const series = data.mc && data.mc.length >= ts.length ? data.mc : data.px;
+  if (series.length < 2) return '';
+  const minP = Math.min.apply(null, series);
+  const maxP = Math.max.apply(null, series);
   const range = maxP - minP || 1;
   const w = width, h = height;
   const dt = (ts[ts.length - 1] - ts[0]) || 1;
-  const points = px.map((p, i) => {
+  const points = series.map((p, i) => {
     const x = ((ts[i] - ts[0]) / dt) * w;
     const y = h - ((p - minP) / range) * h;
     return x.toFixed(1) + ',' + y.toFixed(1);
   }).join(' ');
-  const color = px[px.length-1] >= px[0] ? '#10b981' : '#ef4444';
-  return '<svg width="' + w + '" height="' + h + '" style="vertical-align:middle;display:inline-block"><polyline fill="none" stroke="' + color + '" stroke-width="1.5" points="' + points + '"/></svg>';
+  const color = series[series.length-1] >= series[0] ? '#10b981' : '#ef4444';
+  // Tooltip with first/last market cap in SOL
+  const firstMc = series[0].toFixed(2);
+  const lastMc = series[series.length-1].toFixed(2);
+  const pctChange = ((series[series.length-1] / series[0] - 1) * 100).toFixed(1);
+  const tooltip = `MC ${firstMc}→${lastMc} SOL (${pctChange}%)`;
+  return '<svg width="' + w + '" height="' + h + '" title="' + tooltip + '" style="vertical-align:middle;display:inline-block"><polyline fill="none" stroke="' + color + '" stroke-width="1.5" points="' + points + '"/></svg>';
 }
 
 async function renderHoldings(state, watchlist) {
