@@ -5287,3 +5287,9 @@
 ## [2026-08-27 09:52 UTC] buy | [LLM] $Andrea at $4.01158e-06, spent 0.05 SOL
 - **Reasoning:** $Andrea 'The Granny Quant' — quant trader grandma is a funny, specific narrative that can spread. $4k mcap, fresh. In with 0.05 SOL.
 
+## [2026-08-27 09:53 UTC] sell | [hard-stop] $gpu closed at $3.2467e-06 | P&L: -65.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:53 UTC] sell | [hard-stop] $CLAN closed at $2.92872e-06 | P&L: -38.0%
+- **Reasoning:** Hard -30% stop
+
