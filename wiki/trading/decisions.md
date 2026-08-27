@@ -6634,3 +6634,6 @@
 ## [2026-08-27 12:22 UTC] buy | [LLM] $BABYANSEM at $3.50551e-06, spent 0.05 SOL
 - **Reasoning:** $BABYANSEM — redemption narrative (former dev abandoned, community regrouped as CTO). That 'community is back' story is exactly the kind of tribal attention that pumps memecoins. 0.3min age, $3.5k mcap, 8% bonded — early but the narrative is concrete.
 
+## [2026-08-27 12:23 UTC] buy | [LLM] $GYATPIG at $3.14192e-06, spent 0.05 SOL
+- **Reasoning:** $GYATPIG — 'Pigeon grew human legs. Grandma fed it. It did not fly. It ran.' is a genuinely absurd viral-worthy story with a twitter source. 0.6min old, $3.1k mcap = maximum upside on a real narrative. Pool thin but that's the entry point for fresh attention.
+
