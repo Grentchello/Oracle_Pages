@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.839019,
+  "balance_sol": 0.881324,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "ARxxaFoxcZXSyCFYNBHJKX9DQ9JNudfYhkVEXTq3pump": {
       "symbol": "UNYIL",
       "name": "UNYIL",
-      "amount": 719559.4957750381,
+      "amount": 269834.8109156393,
       "entry_price_usd": 7.219e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.018750000000000003,
       "entry_time": "2026-08-27T11:48:24.056783+00:00",
       "entry_usd_value": 5.194500000000001,
       "entry_signals": {
@@ -16786,25 +16786,47 @@
       "pnl_pct": -23.9,
       "exit_reason": "LLM: sell_all — $BONGO is down -23.9% with 0.0h hold and no bounce signal in the price history. Approaching the -30% hard stop. Cut the loss now before it widens - st",
       "partial": false
+    },
+    {
+      "mint": "ARxxaFoxcZXSyCFYNBHJKX9DQ9JNudfYhkVEXTq3pump",
+      "symbol": "UNYIL",
+      "name": "UNYIL",
+      "amount_sold": 179889.87394375954,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T11:48:24.056783+00:00",
+      "exit_time": "2026-08-27T11:49:29.326939+00:00",
+      "entry_price_usd": 7.219e-06,
+      "exit_price_usd": 9.777427053751369e-06,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.016922,
+      "pnl_sol": 0.004422,
+      "pnl_pct": 35.44,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "ARxxaFoxcZXSyCFYNBHJKX9DQ9JNudfYhkVEXTq3pump",
+      "symbol": "UNYIL",
+      "name": "UNYIL",
+      "amount_sold": 269834.8109156393,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T11:48:24.056783+00:00",
+      "exit_time": "2026-08-27T11:49:43.835455+00:00",
+      "entry_price_usd": 7.219e-06,
+      "exit_price_usd": 9.777427053751369e-06,
+      "entry_sol_for_chunk": 0.01875,
+      "exit_sol_received": 0.025383,
+      "pnl_sol": 0.006633,
+      "pnl_pct": 35.44,
+      "exit_reason": "LLM: sell_half — +35.4% — well above the 25% TP threshold. Lock half the gain, let the rest ride on the meme momentum. Pool $2.6k has room for more upside.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T11:48:24.980082+00:00",
+  "last_updated": "2026-08-27T11:49:43.835710+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.89,
-  "portfolio_value_usd": 105.34,
+  "last_sol_price_usd": 103.94,
+  "portfolio_value_usd": 106.53,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 11:41 UTC",
-      "action": "buy",
-      "details": "[LLM] $MORTY at $3.88603e-06, spent 0.05 SOL",
-      "reason": "$MORTY has Adult Swim's official X account attached — that is a real celebrity/brand catalyst, and mcap is only $3.9k. High-variance but the attention anchor is concrete. 0.05 SOL entry."
-    },
-    {
-      "time": "2026-08-27 11:42 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $ape closed at $8.47811e-06 | P&L: -41.8%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-08-27 11:42 UTC",
       "action": "sell",
@@ -16912,51 +16934,85 @@
       "action": "buy",
       "details": "[LLM] $MILF at $6.523e-06, spent 0.05 SOL",
       "reason": "$MILF (Pilf's mom) is a derivative play on an existing meme brand - derivative memes often 3-5x as the original audience discovers them. Cheap entry at $7k mcap."
+    },
+    {
+      "time": "2026-08-27 11:49 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $UNYIL at $9.77743e-06 | P&L: +35.4%",
+      "reason": "Auto take-profit at +35.4%"
+    },
+    {
+      "time": "2026-08-27 11:49 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $UNYIL at $9.77743e-06 | P&L: +35.4%",
+      "reason": "+35.4% — well above the 25% TP threshold. Lock half the gain, let the rest ride on the meme momentum. Pool $2.6k has room for more upside."
     }
   ],
   "trade_stats": {
-    "total": 982,
-    "wins": 511,
+    "total": 984,
+    "wins": 513,
     "losses": 471,
-    "win_rate_pct": 52.0,
-    "total_pnl_sol": -0.885968,
-    "avg_pnl_pct": 46.89,
+    "win_rate_pct": 52.1,
+    "total_pnl_sol": -0.874913,
+    "avg_pnl_pct": 46.87,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 441,
-    "today_realized_sol": 0.546261,
-    "today_target_pct": 136.6,
+    "today_trades": 443,
+    "today_realized_sol": 0.557316,
+    "today_target_pct": 139.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 511,
+      "win_count": 513,
       "loss_count": 471,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T11:48:23.765053+00:00",
+  "last_llm_brief_at": "2026-08-27T11:49:43.835373+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "CrpCCk2bQV9immahMphEvTZuQx1UAzk1fX2eWzYUpump": {
-      "price_usd": 3.682121728918385e-06,
+      "price_usd": 3.683893854112782e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 392.40555853323,
-      "volume_h24": 901.62,
+      "liquidity_usd": 392.59441480358004,
+      "volume_h24": 914.31,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 3.777125407
     },
-    "eTKWLLVQdcFCxipeDmrvvfryNfV3dDqGxmZMUfdpump": {
-      "price_usd": 4.207439190878826e-06,
+    "ARxxaFoxcZXSyCFYNBHJKX9DQ9JNudfYhkVEXTq3pump": {
+      "price_usd": 9.777427053751369e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 634.37964696705,
-      "volume_h24": 7344.28,
+      "liquidity_usd": 2601.3799814731,
+      "volume_h24": 11618.96,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 6.106262845
+      "real_sol_reserves": 25.027708115
+    },
+    "A18mx6QtPbMQXMkPZz6axpMqgb1Yx8D1bUjTHNgDpump": {
+      "price_usd": 3.82615653113185e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 459.74130110924,
+      "volume_h24": 820.25,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4.423141246
+    },
+    "D35DUxVpXwU7UJfcrmbvokcz5ZQgYRAfBMiBGdompump": {
+      "price_usd": 7.440221193468108e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1871.1591647966598,
+      "volume_h24": 1859.82,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 18.002300989
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

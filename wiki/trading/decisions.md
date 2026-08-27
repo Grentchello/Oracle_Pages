@@ -6328,3 +6328,9 @@
 ## [2026-08-27 11:48 UTC] buy | [LLM] $MILF at $6.523e-06, spent 0.05 SOL
 - **Reasoning:** $MILF (Pilf's mom) is a derivative play on an existing meme brand - derivative memes often 3-5x as the original audience discovers them. Cheap entry at $7k mcap.
 
+## [2026-08-27 11:49 UTC] sell | [TP +30% (25%)] $UNYIL at $9.77743e-06 | P&L: +35.4%
+- **Reasoning:** Auto take-profit at +35.4%
+
+## [2026-08-27 11:49 UTC] sell | [PARTIAL][LLM] $UNYIL at $9.77743e-06 | P&L: +35.4%
+- **Reasoning:** +35.4% — well above the 25% TP threshold. Lock half the gain, let the rest ride on the meme momentum. Pool $2.6k has room for more upside.
+
