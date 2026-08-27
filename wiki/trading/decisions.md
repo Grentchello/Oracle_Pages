@@ -7111,3 +7111,12 @@
 ## [2026-08-27 13:24 UTC] buy | [LLM] $HPIM at $9.78894e-06, spent 0.05 SOL
 - **Reasoning:** $HPIM — highest bond (31%) of the fresh batch, sole launch of this name (no copycat saturation), and the AI/CS 'Highly-Persistent Internal Model' framing taps the AI-crypto meta. Best risk-adjusted fresh attention signal among the candidates.
 
+## [2026-08-27 13:25 UTC] sell | [hard-stop] $HPIM closed at $5.4316e-06 | P&L: -44.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:25 UTC] buy | [LLM] $A/I at $1.00416e-05, spent 0.05 SOL
+- **Reasoning:** A/I 'Autistici/Inventati Collective' — two launches detected in same tick suggests coordinated attention. $10k mcap with 32% bonding curve = real liquidity forming. The double-signal (two mints tracking the same narrative) is an attention marker worth a small position.
+
+## [2026-08-27 13:25 UTC] buy | [LLM] $OSCAR at $6.60674e-06, spent 0.05 SOL
+- **Reasoning:** OSCAR — fresh name tied to a personal X account (miriamfsilveira), $6.6k mcap with 25% bonding curve. Narrative tokens with a real human face tend to hold attention better than bots. Small bet on attention stickiness.
+
