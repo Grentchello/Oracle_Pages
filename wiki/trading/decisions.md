@@ -6733,3 +6733,12 @@
 ## [2026-08-27 12:42 UTC] buy | [LLM] $GBP at $5.69932e-06, spent 0.05 SOL
 - **Reasoning:** $GBP 'Great British Ponzi' — Scott Melker (large crypto influencer) tweeted it. 0.1min old, $5.7k mcap, narrative is sharp/political which travels on CT. Risk: Melker tweets junk constantly, thin liquidity. Size: 0.05 SOL.
 
+## [2026-08-27 12:43 UTC] sell | [hard-stop] $CHAIN closed at $3.06913e-06 | P&L: -32.6%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:43 UTC] sell | [TP +30% (25%)] $GBP at $9.76814e-06 | P&L: +71.4%
+- **Reasoning:** Auto take-profit at +71.4%
+
+## [2026-08-27 12:44 UTC] sell | [PARTIAL][LLM] $GBP at $9.76814e-06 | P&L: +71.4%
+- **Reasoning:** Up +71% in<1min held — strong pump but bonding curve early, lock half the gain per profit-taking discipline while letting the other half ride if narrative continues.
+
