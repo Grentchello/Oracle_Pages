@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.108664,
+  "balance_sol": 1.074457,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7DFy4JGzirMwCmMQEoHZJBuQNnJYmkurraLGRtktpump": {
       "symbol": "stage",
       "name": "Stage Tour",
-      "amount": 68050.3863371233,
+      "amount": 34025.19316856165,
       "entry_price_usd": 4.66520128816392e-06,
-      "entry_sol_spent": 0.003125,
+      "entry_sol_spent": 0.0015625,
       "entry_time": "2026-08-27T02:21:50.220002+00:00",
       "entry_usd_value": 10.159,
       "entry_signals": {
@@ -69,28 +69,6 @@
       },
       "llm_entry": true
     },
-    "8QKw6YobrBN6RPcmhmBJWCqNf9eajaqcTKBsmrhdpump": {
-      "symbol": "Bubblik",
-      "name": "Bubblik Terminal",
-      "amount": 2212834.9059150545,
-      "entry_price_usd": 4.566540401630806e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T02:40:18.377774+00:00",
-      "entry_usd_value": 10.105,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4560.412377160275,
-        "ath_market_cap_usd": 5218.577766777044,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 8.140464832,
-        "description": "Deployed using https://j7tracker.io",
-        "twitter": "https://x.com/bigbonderboi/status/2092803959887208828?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "BHtAPVZT6ap7nXR3ffAi7JmAuqcagvtW8LyM6DHCpump": {
       "symbol": "Duster",
       "name": "Duster the Buffalo",
@@ -109,6 +87,28 @@
         "real_sol_reserves": 2.897773011,
         "description": "",
         "twitter": "https://x.com/gettindevvy/status/2092803862247682058",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "Cwh9ZiWeayPcxgz3Fyn6r6ZMuBsumWSnMZenW8zNpump": {
+      "symbol": "wif",
+      "name": "dogwif",
+      "amount": 1605340.188861163,
+      "entry_price_usd": 6.291949874602906e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T02:41:36.268128+00:00",
+      "entry_usd_value": 10.10072,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 6293.075258592798,
+        "ath_market_cap_usd": 6919.73340009727,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 14.779263809,
+        "description": "",
+        "twitter": "https://x.com/i/status/2092804481402511752",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -6693,31 +6693,47 @@
       "pnl_pct": -17.33,
       "exit_reason": "LLM: sell_all — $FAMILY -17.3% with 24h -12.1%. Dead cat bounce territory; rotating capital into fresh attention is better than hoping.",
       "partial": false
+    },
+    {
+      "mint": "7DFy4JGzirMwCmMQEoHZJBuQNnJYmkurraLGRtktpump",
+      "symbol": "stage",
+      "name": "Stage Tour",
+      "amount_sold": 34025.19316856165,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T02:21:50.220002+00:00",
+      "exit_time": "2026-08-27T02:41:36.266374+00:00",
+      "entry_price_usd": 4.66520128816392e-06,
+      "exit_price_usd": 1.146e-05,
+      "entry_sol_for_chunk": 0.001563,
+      "exit_sol_received": 0.00386,
+      "pnl_sol": 0.002298,
+      "pnl_pct": 145.65,
+      "exit_reason": "LLM: sell_half — +145% in 0.3h is parabolic — take half profit to lock in gains, let the other half ride if narrative holds.",
+      "partial": true
+    },
+    {
+      "mint": "8QKw6YobrBN6RPcmhmBJWCqNf9eajaqcTKBsmrhdpump",
+      "symbol": "Bubblik",
+      "name": "Bubblik Terminal",
+      "amount_sold": 2212834.9059150545,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T02:40:18.377774+00:00",
+      "exit_time": "2026-08-27T02:41:36.267944+00:00",
+      "entry_price_usd": 4.566540401630806e-06,
+      "exit_price_usd": 2.827e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.061933,
+      "pnl_sol": -0.038067,
+      "pnl_pct": -38.09,
+      "exit_reason": "LLM: sell_all — -38.1% with 24h -22% is a clear dying narrative. Cut before hard cap, free the slot.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T02:40:18.378268+00:00",
+  "last_updated": "2026-08-27T02:41:36.268354+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.05,
-  "portfolio_value_usd": 152.83,
+  "last_sol_price_usd": 101.0072,
+  "portfolio_value_usd": 149.17,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 02:34 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $TROLLPISTA at $1.34e-05 | P&L: +51.2%",
-      "reason": "$TROLLPISTA +51.2% triggers profit-take rule and 1h shows +364% — take half off, let the rest ride if momentum continues."
-    },
-    {
-      "time": "2026-08-27 02:34 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $EMEM at $2.832e-06 | P&L: -6.1%",
-      "reason": "$EMEM -6.1% with negative 1h/24h and no narrative recovery — cut the loser, free the slot for a better launch."
-    },
-    {
-      "time": "2026-08-27 02:34 UTC",
-      "action": "buy",
-      "details": "[LLM] $DOJE at $1.1581e-05, spent 0.1 SOL",
-      "reason": "$DOJE (Dojecoin) — classic Doge-derivative meme narrative on the strongest attention meta in crypto; highest mcap of fresh launches ($11.5k) shows early buy-in, ride the curve before it 10x's."
-    },
     {
       "time": "2026-08-27 02:34 UTC",
       "action": "buy",
@@ -6819,36 +6835,54 @@
       "action": "buy",
       "details": "[LLM] $Duster at $3.39741e-06, spent 0.1 SOL",
       "reason": "$Duster the Buffalo — animal mascot + a tweet from @gettindevvy. There are 3 'Duster' launches in the list (possible copycat battle) so size small, but the Buffalo angle is the freshest narrative."
+    },
+    {
+      "time": "2026-08-27 02:41 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $stage at $1.146e-05 | P&L: +145.7%",
+      "reason": "+145% in 0.3h is parabolic — take half profit to lock in gains, let the other half ride if narrative holds."
+    },
+    {
+      "time": "2026-08-27 02:41 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Bubblik at $2.827e-06 | P&L: -38.1%",
+      "reason": "-38.1% with 24h -22% is a clear dying narrative. Cut before hard cap, free the slot."
+    },
+    {
+      "time": "2026-08-27 02:41 UTC",
+      "action": "buy",
+      "details": "[LLM] $wif at $6.29195e-06, spent 0.1 SOL",
+      "reason": "$wif (dogwifhat) is the canonical dogwif ticker, same viral X post, $6.3k mcap with 25% bond — purest attention play in this batch."
     }
   ],
   "trade_stats": {
-    "total": 387,
-    "wins": 176,
-    "losses": 211,
+    "total": 389,
+    "wins": 177,
+    "losses": 212,
     "win_rate_pct": 45.5,
-    "total_pnl_sol": -0.388206,
-    "avg_pnl_pct": 72.7,
+    "total_pnl_sol": -0.423975,
+    "avg_pnl_pct": 72.6,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 244,
-    "today_realized_sol": 0.141001,
-    "today_target_pct": 35.3,
+    "today_trades": 246,
+    "today_realized_sol": 0.105232,
+    "today_target_pct": 26.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 176,
-      "loss_count": 211,
+      "win_count": 177,
+      "loss_count": 212,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T02:40:18.376712+00:00",
+  "last_llm_brief_at": "2026-08-27T02:41:36.266341+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7DFy4JGzirMwCmMQEoHZJBuQNnJYmkurraLGRtktpump": {
-      "price_usd": 1.08e-05,
-      "change_h24": 257.0,
-      "change_h1": 257.0,
+      "price_usd": 1.146e-05,
+      "change_h24": 278.0,
+      "change_h1": 278.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 16712.99,
+      "volume_h24": 16891.98,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
@@ -6862,29 +6896,29 @@
       "source": "dexscreener"
     },
     "EXMRz2urNJ5EwTVoeeHDBvJqiWmw3DSf1e9ZugQrpump": {
-      "price_usd": 7.285e-06,
-      "change_h24": 134.0,
-      "change_h1": 134.0,
+      "price_usd": 5.6e-06,
+      "change_h24": 79.6,
+      "change_h1": 79.6,
       "liquidity_usd": 0.0,
-      "volume_h24": 26181.25,
+      "volume_h24": 26885.42,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "EZd9DKAsxtrBzmRx9QdBNK8eounkNDuP9z1KVYSU18SD": {
-      "price_usd": 3.096e-06,
-      "change_h24": -9.24,
-      "change_h1": -9.24,
+    "8QKw6YobrBN6RPcmhmBJWCqNf9eajaqcTKBsmrhdpump": {
+      "price_usd": 2.827e-06,
+      "change_h24": -22.06,
+      "change_h1": -22.06,
       "liquidity_usd": 0.0,
-      "volume_h24": 7215.96,
+      "volume_h24": 4879.49,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "Bke2hVE7HqUNYdiAnineiqPMhoZqAeL35bftX4t9pump": {
-      "price_usd": 2.826e-06,
-      "change_h24": -12.12,
-      "change_h1": -12.12,
+    "BHtAPVZT6ap7nXR3ffAi7JmAuqcagvtW8LyM6DHCpump": {
+      "price_usd": 2.825e-06,
+      "change_h24": -3.22,
+      "change_h1": -3.22,
       "liquidity_usd": 0.0,
-      "volume_h24": 8829.31,
+      "volume_h24": 934.27,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

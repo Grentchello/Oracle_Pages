@@ -3448,3 +3448,12 @@
 ## [2026-08-27 02:40 UTC] buy | [LLM] $Duster at $3.39741e-06, spent 0.1 SOL
 - **Reasoning:** $Duster the Buffalo — animal mascot + a tweet from @gettindevvy. There are 3 'Duster' launches in the list (possible copycat battle) so size small, but the Buffalo angle is the freshest narrative.
 
+## [2026-08-27 02:41 UTC] sell | [PARTIAL][LLM] $stage at $1.146e-05 | P&L: +145.7%
+- **Reasoning:** +145% in 0.3h is parabolic — take half profit to lock in gains, let the other half ride if narrative holds.
+
+## [2026-08-27 02:41 UTC] sell | [FULL][LLM] $Bubblik at $2.827e-06 | P&L: -38.1%
+- **Reasoning:** -38.1% with 24h -22% is a clear dying narrative. Cut before hard cap, free the slot.
+
+## [2026-08-27 02:41 UTC] buy | [LLM] $wif at $6.29195e-06, spent 0.1 SOL
+- **Reasoning:** $wif (dogwifhat) is the canonical dogwif ticker, same viral X post, $6.3k mcap with 25% bond — purest attention play in this batch.
+
