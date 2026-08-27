@@ -7312,3 +7312,6 @@
 ## [2026-08-27 13:56 UTC] buy | [LLM] $gavun at $5.03327e-06, spent 0.05 SOL
 - **Reasoning:** $gavun (gavun newsum) has a specific narrative tied to a real X account (@grok12_john) and a themed name — memecoin attention markets love real-figure references. Age 0.3min with $5k mcap is classic early-launch territory. Position size 0.05 SOL respects the tightened risk rules.
 
+## [2026-08-27 13:58 UTC] sell | [TP +30% (25%)] $gavun at $7.71963e-06 | P&L: +53.4%
+- **Reasoning:** Auto take-profit at +53.4%
+

@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.519838,
+  "balance_sol": 0.538984,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DeYSFFYswF8Y1oKZhQf1iH3aPhXQaYFEjbHbSdQJpump": {
       "symbol": "gavun",
       "name": "gavun newsum",
-      "amount": 1047629.5006440029,
+      "amount": 785722.1254830022,
       "entry_price_usd": 5.03326796043693e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.037500000000000006,
       "entry_time": "2026-08-27T13:56:58.682697+00:00",
       "entry_usd_value": 5.273,
       "entry_signals": {
@@ -20086,19 +20086,30 @@
       "pnl_pct": 92.38,
       "exit_reason": "LLM: sell_all — $DISPATCH is up +92.4% in 0.1h with pool only $2723 (liquidity dangerously thin for our size). The bot's TP ladder should have taken25% at +30%, but s",
       "partial": false
+    },
+    {
+      "mint": "DeYSFFYswF8Y1oKZhQf1iH3aPhXQaYFEjbHbSdQJpump",
+      "symbol": "gavun",
+      "name": "gavun newsum",
+      "amount_sold": 261907.37516100073,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T13:56:58.682697+00:00",
+      "exit_time": "2026-08-27T13:58:02.973223+00:00",
+      "entry_price_usd": 5.03326796043693e-06,
+      "exit_price_usd": 7.719627035259649e-06,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.019146,
+      "pnl_sol": 0.006646,
+      "pnl_pct": 53.37,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T13:56:59.008410+00:00",
+  "last_updated": "2026-08-27T13:58:22.367980+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.46,
-  "portfolio_value_usd": 60.1,
+  "last_sol_price_usd": 105.6,
+  "portfolio_value_usd": 60.87,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 13:47 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $Dr. E closed at $2.96946e-06 | P&L: -58.4%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-08-27 13:47 UTC",
       "action": "sell",
@@ -20212,51 +20223,46 @@
       "action": "buy",
       "details": "[LLM] $gavun at $5.03327e-06, spent 0.05 SOL",
       "reason": "$gavun (gavun newsum) has a specific narrative tied to a real X account (@grok12_john) and a themed name — memecoin attention markets love real-figure references. Age 0.3min with $5k mcap is classic early-launch territory. Position size 0.05 SOL respects the tightened risk rules."
+    },
+    {
+      "time": "2026-08-27 13:58 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $gavun at $7.71963e-06 | P&L: +53.4%",
+      "reason": "Auto take-profit at +53.4%"
     }
   ],
   "trade_stats": {
-    "total": 1180,
-    "wins": 617,
+    "total": 1181,
+    "wins": 618,
     "losses": 563,
     "win_rate_pct": 52.3,
-    "total_pnl_sol": -1.330153,
-    "avg_pnl_pct": 43.54,
+    "total_pnl_sol": -1.323507,
+    "avg_pnl_pct": 43.55,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 639,
-    "today_realized_sol": 0.102076,
-    "today_target_pct": 25.5,
+    "today_trades": 640,
+    "today_realized_sol": 0.108722,
+    "today_target_pct": 27.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 617,
+      "win_count": 618,
       "loss_count": 563,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T13:56:58.389259+00:00",
+  "last_llm_brief_at": "2026-08-27T13:58:22.367938+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "4vhJ4iFqJLzNebrAcUZTqTGakcJGok34WCXmsa9Dh9vi": {
-      "price_usd": 1.0207855538058365e-05,
+    "DeYSFFYswF8Y1oKZhQf1iH3aPhXQaYFEjbHbSdQJpump": {
+      "price_usd": 7.719627035259649e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2722.89628855696,
-      "volume_h24": 10454.85,
+      "liquidity_usd": 1954.6019072447998,
+      "volume_h24": 10790.27,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 25.819232776
-    },
-    "AaSpqyaepE4cMGT34GrYCA3pjNmAVeMFmFk6RzgHpump": {
-      "price_usd": 2.9765869216846744e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 15.00331087682,
-      "volume_h24": 8513.92,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.142265417
+      "real_sol_reserves": 18.509487758
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
