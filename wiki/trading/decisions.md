@@ -6712,3 +6712,9 @@
 ## [2026-08-27 12:37 UTC] buy | [LLM] $fomorena at $7.84288e-06, spent 0.05 SOL
 - **Reasoning:** $fomorena has the strongest narrative of the batch: '3 AI models, $100 each, just the fomo app' is a clean viral hook (AI + competition + meta-narrative about FOMO itself). Highest mcap ($7.8k) of new launches, 28% bonding curve progress signals real buys already flowing. Lead entry over the others.
 
+## [2026-08-27 12:38 UTC] sell | [hard-stop] $fomorena closed at $2.9157e-06 | P&L: -62.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:38 UTC] buy | [LLM] $CHAIN at $4.5518e-06, spent 0.05 SOL
+- **Reasoning:** $CHAIN MAIL has a viral curse mechanic ('don't call it out = curse stays with you, send to 5 trench') — classic copy-pasta engagement bait that historically drives fast pumps. $4.5k mcap is entry-grade, bond 17% shows real buys. Risk: ultra-fresh, could rug, so position-size at 0.05 SOL.
+
