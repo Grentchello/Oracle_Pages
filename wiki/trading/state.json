@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.296234,
+  "balance_sol": 1.225005,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -39,9 +39,9 @@
     "DPqp3TNztkyf29htAHgXspk6ozupwG9YnkNVhUGYpump": {
       "symbol": "sigma",
       "name": "SIGMA BOY b",
-      "amount": 405149.82077283924,
+      "amount": 50643.727596604906,
       "entry_price_usd": 3.189560833409681e-06,
-      "entry_sol_spent": 0.0125,
+      "entry_sol_spent": 0.0015625,
       "entry_time": "2026-08-27T08:22:59.728589+00:00",
       "entry_usd_value": 10.338000000000001,
       "entry_signals": {
@@ -76,6 +76,28 @@
         "real_sol_reserves": 5.855731809,
         "description": "the sims, except everyone is a jeet.",
         "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "7S6Kjg1sChE5VmXvyk65PjUH9XessW8fhBKJkQk2pump": {
+      "symbol": "ATF",
+      "name": "AI TRADING FOREX",
+      "amount": 1506584.376601786,
+      "entry_price_usd": 6.875154263422833e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T08:26:58.313185+00:00",
+      "entry_usd_value": 10.358,
+      "entry_signals": {
+        "liquidity_usd": 1494.59525767068,
+        "volume_24h_usd": null,
+        "market_cap_usd": 6891.464902391133,
+        "ath_market_cap_usd": 7610.362728115969,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 14.429380746,
+        "description": "Experience the next generation of digital assets. Lightning-fast, hyper-secure, and built for the community. Start mining ATF today.",
+        "twitter": "https://x.com/ai_trading_frx",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -10519,31 +10541,47 @@
       "pnl_pct": 163.94,
       "exit_reason": "LLM: sell_half — Showing +163.9% gain — locking half at this level per scalp discipline. Note: pool=$0 and share% data is nonsensical (likely data feed corruption), so",
       "partial": true
+    },
+    {
+      "mint": "DPqp3TNztkyf29htAHgXspk6ozupwG9YnkNVhUGYpump",
+      "symbol": "sigma",
+      "name": "SIGMA BOY b",
+      "amount_sold": 303862.36557962943,
+      "fraction_sold": 0.75,
+      "entry_time": "2026-08-27T08:22:59.728589+00:00",
+      "exit_time": "2026-08-27T08:26:05.691183+00:00",
+      "entry_price_usd": 3.189560833409681e-06,
+      "exit_price_usd": 8.406324613980158e-06,
+      "entry_sol_for_chunk": 0.009375,
+      "exit_sol_received": 0.024661,
+      "pnl_sol": 0.015286,
+      "pnl_pct": 163.56,
+      "exit_reason": "auto-TP +100% (75%)",
+      "partial": true
+    },
+    {
+      "mint": "DPqp3TNztkyf29htAHgXspk6ozupwG9YnkNVhUGYpump",
+      "symbol": "sigma",
+      "name": "SIGMA BOY b",
+      "amount_sold": 50643.727596604906,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T08:22:59.728589+00:00",
+      "exit_time": "2026-08-27T08:26:58.004998+00:00",
+      "entry_price_usd": 3.189560833409681e-06,
+      "exit_price_usd": 8.406324613980158e-06,
+      "entry_sol_for_chunk": 0.001563,
+      "exit_sol_received": 0.00411,
+      "pnl_sol": 0.002548,
+      "pnl_pct": 163.56,
+      "exit_reason": "LLM: sell_half — $sigma is +163.6% — screaming take-profit per scalp rules. Pool=$0 and 822M% share are clearly broken data fields, so this is a defensive half-exit: i",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T08:25:00.603518+00:00",
+  "last_updated": "2026-08-27T08:26:58.313589+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.73,
-  "portfolio_value_usd": 160.81,
+  "last_sol_price_usd": 103.58,
+  "portfolio_value_usd": 160.35,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 08:17 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $RWDT at $1.51717e-05 | P&L: +64.9%",
-      "reason": "$RWDT at +64.9% in 0.1h with small $4k pool — lock half now per aggressive profit discipline, let half ride if momentum continues on bonding curve."
-    },
-    {
-      "time": "2026-08-27 08:17 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $birb at $1.642e-05 | P&L: +116.7%",
-      "reason": "$birb at +116.7% in 0.0h — massive gain, lock half immediately per scalp discipline. Don't hope at +100%+, take the win."
-    },
-    {
-      "time": "2026-08-27 08:17 UTC",
-      "action": "buy",
-      "details": "[LLM] $Thank at $6.337e-06, spent 0.1 SOL",
-      "reason": "$Thank (Slater and Raja) — highest mcap ($9.8k) of fresh launches with a real Twitter link, 1min old. Has narrative + attention signal at reasonable entry."
-    },
     {
       "time": "2026-08-27 08:18 UTC",
       "action": "sell",
@@ -10645,28 +10683,46 @@
       "action": "buy",
       "details": "[LLM] $THEJEETS at $4.804e-06, spent 0.1 SOL",
       "reason": "$THEJEETS — 'the sims except everyone is a jeet' is genuinely meta-funny memecoin culture self-awareness. Strongest narrative among fresh launches; the 'jeet' in-group reference is exactly the kind of insider humor that pumps in this market. Risk: $4.4k mcap and only 16% bonding — high rug probability, size is small at 0.1 SOL."
+    },
+    {
+      "time": "2026-08-27 08:26 UTC",
+      "action": "sell",
+      "details": "[TP +100% (75%)] $sigma at $8.40632e-06 | P&L: +163.6%",
+      "reason": "Auto take-profit at +163.6%"
+    },
+    {
+      "time": "2026-08-27 08:26 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $sigma at $8.40632e-06 | P&L: +163.6%",
+      "reason": "$sigma is +163.6% — screaming take-profit per scalp rules. Pool=$0 and 822M% share are clearly broken data fields, so this is a defensive half-exit: if pool is real we lock gains, if pool is dead the order fails and we hold residual."
+    },
+    {
+      "time": "2026-08-27 08:26 UTC",
+      "action": "buy",
+      "details": "[LLM] $ATF at $6.87515e-06, spent 0.1 SOL",
+      "reason": "$ATF (AI TRADING FOREX) — strongest attention signal of the fresh batch: AI + Forex sits at the intersection of two hot metas, 26% bonding progress is 2-3x any peer (real traction, not just noise), $6.9k mcap is room to run, and it has a live X account. Best risk/reward of the slot."
     }
   ],
   "trade_stats": {
-    "total": 614,
-    "wins": 301,
+    "total": 616,
+    "wins": 303,
     "losses": 313,
-    "win_rate_pct": 49.0,
-    "total_pnl_sol": -0.466257,
-    "avg_pnl_pct": 56.76,
+    "win_rate_pct": 49.2,
+    "total_pnl_sol": -0.448423,
+    "avg_pnl_pct": 57.11,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 73,
-    "today_realized_sol": 0.965972,
-    "today_target_pct": 241.5,
+    "today_trades": 75,
+    "today_realized_sol": 0.983806,
+    "today_target_pct": 246.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 301,
+      "win_count": 303,
       "loss_count": 313,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T08:24:59.988983+00:00",
+  "last_llm_brief_at": "2026-08-27T08:26:58.004843+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FAKE_HARDSTOP_MINT_pump": {
@@ -10681,10 +10737,10 @@
       "real_sol_reserves": 0
     },
     "7WN4BmzxFpFoYQYC74DEVyTFT57vZZUp2KT6huKgpump": {
-      "price_usd": 3.0039375992529823e-06,
+      "price_usd": 2.999593719566412e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 55.17341783349001,
+      "liquidity_usd": 55.09363365654,
       "volume_h24": 7705.11,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
@@ -10692,26 +10748,26 @@
       "real_sol_reserves": 0.531894513
     },
     "DPqp3TNztkyf29htAHgXspk6ozupwG9YnkNVhUGYpump": {
-      "price_usd": 8.418498283531201e-06,
+      "price_usd": 8.406324613980158e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.0373000000000002e-07,
+      "liquidity_usd": 1.0358e-07,
       "volume_h24": 286.42,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 1e-09
     },
-    "3b3HePAC25c8Q57GYS2H9QqyrzWsRRVszquvZyVdpump": {
-      "price_usd": 4.638699933646009e-06,
+    "39VXpavn2shcpVk58zVNXyAHVVDZG2fHXZUwZFZMpump": {
+      "price_usd": 4.103113119657706e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 823.69879231552,
-      "volume_h24": 30536.91,
+      "liquidity_usd": 591.3517801757,
+      "volume_h24": 2687.21,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 7.940796224
+      "real_sol_reserves": 5.709130915
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

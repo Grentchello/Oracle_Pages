@@ -4555,3 +4555,12 @@
 ## [2026-08-27 08:25 UTC] buy | [LLM] $THEJEETS at $4.804e-06, spent 0.1 SOL
 - **Reasoning:** $THEJEETS — 'the sims except everyone is a jeet' is genuinely meta-funny memecoin culture self-awareness. Strongest narrative among fresh launches; the 'jeet' in-group reference is exactly the kind of insider humor that pumps in this market. Risk: $4.4k mcap and only 16% bonding — high rug probability, size is small at 0.1 SOL.
 
+## [2026-08-27 08:26 UTC] sell | [TP +100% (75%)] $sigma at $8.40632e-06 | P&L: +163.6%
+- **Reasoning:** Auto take-profit at +163.6%
+
+## [2026-08-27 08:26 UTC] sell | [PARTIAL][LLM] $sigma at $8.40632e-06 | P&L: +163.6%
+- **Reasoning:** $sigma is +163.6% — screaming take-profit per scalp rules. Pool=$0 and 822M% share are clearly broken data fields, so this is a defensive half-exit: if pool is real we lock gains, if pool is dead the order fails and we hold residual.
+
+## [2026-08-27 08:26 UTC] buy | [LLM] $ATF at $6.87515e-06, spent 0.1 SOL
+- **Reasoning:** $ATF (AI TRADING FOREX) — strongest attention signal of the fresh batch: AI + Forex sits at the intersection of two hot metas, 26% bonding progress is 2-3x any peer (real traction, not just noise), $6.9k mcap is room to run, and it has a live X account. Best risk/reward of the slot.
+
