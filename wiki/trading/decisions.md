@@ -4015,3 +4015,12 @@
 ## [2026-08-27 03:37 UTC] buy | [LLM] $GOXX at $3.62783e-06, spent 0.1 SOL
 - **Reasoning:** $GOXX (The Trading Hamster) at $3.6k, 0.2min old, with explicit discord launch (discord.gg/uxento) and dedicated X account. Animals + trading narrative = proven attention pattern (see GOAT). Concrete launch community is a real edge.
 
+## [2026-08-27 03:38 UTC] sell | [FULL][LLM] $MUFASA at $4.29063e-06 | P&L: -20.9%
+- **Reasoning:** MUFASA down -20.9%, no bounce signal visible, pool $700 with only 1% share — exit is clean. Discipline says >20% down with no bounce = cut before -50% stop hits. Capital rotation beats bag-holding a dying bonding-curve token.
+
+## [2026-08-27 03:38 UTC] sell | [FULL][LLM] $GOXX at $2.90703e-06 | P&L: -19.9%
+- **Reasoning:** GOXX -19.9% on a $38 pool where I hold 21% — this is the worst kind of bag. Illiquid, my own exit will drag price further, and there's no narrative rescue here. Cut now, take the small loss, free the slot.
+
+## [2026-08-27 03:38 UTC] buy | [LLM] $bread at $4.28245e-06, spent 0.1 SOL
+- **Reasoning:** $bread — strongest narrative in the batch ('market dead send this bread' is a counter-narrative play with viral potential), Barchart CT account backing, deployed via j7tracker (some signal). Distinctive vs the $ape spam cluster. Sub-$5k mcap with story = attention-launched alpha.
+
