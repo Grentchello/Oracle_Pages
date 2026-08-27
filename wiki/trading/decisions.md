@@ -7180,3 +7180,6 @@
 ## [2026-08-27 13:32 UTC] buy | [LLM] $Tito at $8.79316e-06, spent 0.05 SOL
 - **Reasoning:** $Tito 'apeonpc' is the freshest highest-mcap launch at $8.8k, bonding curve already 30% filled — early attention accumulating. 'Ape on PC' is a clear degens-ape narrative; ride the first wave with 0.05 SOL.
 
+## [2026-08-27 13:33 UTC] sell | [hard-stop] $Tito closed at $3.58608e-06 | P&L: -59.2%
+- **Reasoning:** Hard -30% stop
+
