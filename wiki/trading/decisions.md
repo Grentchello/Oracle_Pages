@@ -6637,3 +6637,12 @@
 ## [2026-08-27 12:23 UTC] buy | [LLM] $GYATPIG at $3.14192e-06, spent 0.05 SOL
 - **Reasoning:** $GYATPIG — 'Pigeon grew human legs. Grandma fed it. It did not fly. It ran.' is a genuinely absurd viral-worthy story with a twitter source. 0.6min old, $3.1k mcap = maximum upside on a real narrative. Pool thin but that's the entry point for fresh attention.
 
+## [2026-08-27 12:24 UTC] sell | [PARTIAL][LLM] $BABYANSEM at $2.93321e-06 | P&L: -16.3%
+- **Reasoning:** $BABYANSEM down 16.3% and flat for 2 minutes with no bounce signal. -20% losses become -50% fast — exit now before the hard stop hits.
+
+## [2026-08-27 12:24 UTC] sell | [FULL][LLM] $GYATPIG at $2.98107e-06 | P&L: -5.1%
+- **Reasoning:** $GYATPIG down 5.1% with no momentum and tiny pool ($35). Stale at 0h with no upside catalyst — rotate capital to fresh attention.
+
+## [2026-08-27 12:24 UTC] buy | [LLM] $PumpLiquid at $3.04678e-06, spent 0.05 SOL
+- **Reasoning:** $PumpLiquid at $3k mcap with actual product narrative — 'first ever Creator Perpetual Trading' on pump.fun. Story + utility story = attention magnet.
+
