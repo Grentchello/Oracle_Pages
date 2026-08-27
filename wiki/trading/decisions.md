@@ -7354,3 +7354,12 @@
 ## [2026-08-27 14:03 UTC] buy | [LLM] $WTF at $1.26858e-06, spent 0.05 SOL
 - **Reasoning:** $WTF ('Welcome To Fomo') is a meta-narrative on fomo itself with active Twitter attention, $11.9k mcap at 30% bonded — viral meta-coins print 5-20x in first hour if the joke catches. Position 0.05 SOL per v7 sizing.
 
+## [2026-08-27 14:05 UTC] sell | [FULL][LLM] $up at $2.97959e-06 | P&L: -2.1%
+- **Reasoning:** $up has pool=$0 and our share=974177768% — this is a broken/illiquid position with effectively no exit liquidity. Dead capital tying up a slot. Get out and free the slot.
+
+## [2026-08-27 14:05 UTC] buy | [LLM] $MNST at $1.79139e-05, spent 0.05 SOL
+- **Reasoning:** $MNST is the first mover on the hot @Kalshi White Monster narrative (37% bonded, $17.9k mcap). Multiple copycats launching confirms the attention is real — being first captures the strongest momentum before capital fragments across the copycat cluster ($WMI6900, $WMSTER, $wMNST, $MONSTER, $WhiteMonster).
+
+## [2026-08-27 14:05 UTC] buy | [LLM] $CHUMP at $5.5427e-06, spent 0.05 SOL
+- **Reasoning:** $CHUMP has its own independent narrative from @flanker35sukhoi (jet enthusiast account), mcap $5.5k with 21% bonding curve. Independent attention signal, cheap entry, asymmetric upside if it catches fire.
+
