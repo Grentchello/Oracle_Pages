@@ -5293,3 +5293,12 @@
 ## [2026-08-27 09:53 UTC] sell | [hard-stop] $CLAN closed at $2.92872e-06 | P&L: -38.0%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 09:53 UTC] sell | [FULL][LLM] $woof at $8.58026e-06 | P&L: -24.9%
+- **Reasoning:** $woof at -24.9% is 5 points from the -30% hard stop with no bounce signal; cutting now beats waiting for the bot to slam the door, frees the slot.
+
+## [2026-08-27 09:53 UTC] sell | [FULL][LLM] $Andrea at $2.92171e-06 | P&L: -27.2%
+- **Reasoning:** $Andrea at -27.2% with pool=$0 is effectively dead liquidity; holding guarantees the -30% hard stop while burning a position slot, exit immediately.
+
+## [2026-08-27 09:53 UTC] buy | [LLM] $CTREMP at $1.689e-05, spent 0.05 SOL
+- **Reasoning:** $CTREMP has the strongest narrative of the batch — Tremp meme branding, a live X account (@CRYPTOTREMP), descriptive pitch, and already $20k mcap at 38% bonding; real attention signal vs the rest.
+
