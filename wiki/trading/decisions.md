@@ -3361,3 +3361,9 @@
 ## [2026-08-27 02:26 UTC] buy | [LLM] $saucet at $4.82439e-06, spent 0.1 SOL
 - **Reasoning:** $saucet ('The Solana Faucet') posted by conxbt (known CT voice) at 0.1min age. Meta-narrative faucet tokens historically pull attention on Solana; super early entry.
 
+## [2026-08-27 02:28 UTC] sell | [PARTIAL][LLM] $TROLLPISTA at $9.473e-06 | P&L: +6.9%
+- **Reasoning:** $TROLLPISTA is +6.9% but with an insane 24h/1h of +228% — that's parabolic and likely to mean-revert. Bank half the runner, let the rest ride the narrative.
+
+## [2026-08-27 02:28 UTC] buy | [LLM] $KING at $3.58132e-06, spent 0.1 SOL
+- **Reasoning:** $KING has a real X handle (@vaguepostk1ng) plus a vague but memeable tagline 'The right people feel it' — pure attention-token energy at $3.6k mcap, classic early meta narrative play.
+

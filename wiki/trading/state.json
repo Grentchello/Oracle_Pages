@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.369404,
+  "balance_sol": 1.3229,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -50,9 +50,9 @@
     "jheW61ZoLVSbeqSy5wwxwjfGALrqrLvq4Du1tASpump": {
       "symbol": "TROLLPISTA",
       "name": "Troll Pistacio",
-      "amount": 1142873.264868525,
+      "amount": 571436.6324342625,
       "entry_price_usd": 8.861e-06,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.05,
       "entry_time": "2026-08-27T02:26:11.228827+00:00",
       "entry_usd_value": 10.127,
       "entry_signals": {
@@ -87,6 +87,28 @@
         "real_sol_reserves": 9.159874587,
         "description": "",
         "twitter": "https://x.com/conxbt/status/2092799998098391407?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "45BMaCQ6Xu8kS5MPcG5uQG6x5QAigkPzk9Nn46PRpump": {
+      "symbol": "KING",
+      "name": "the vaguepost king",
+      "amount": 2825491.4275385635,
+      "entry_price_usd": 3.5813239075424136e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T02:28:23.603366+00:00",
+      "entry_usd_value": 10.119,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3592.8029153695707,
+        "ath_market_cap_usd": 3612.36734537421,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 3.75308642,
+        "description": "The right people feel it.",
+        "twitter": "https://x.com/vaguepostk1ng",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -6365,25 +6387,30 @@
       "pnl_pct": -39.1,
       "exit_reason": "LLM: sell_all — $BROKERS at -39.1% with negative 24h momentum (-0.3%). Cutting risk before it hits -50% hard cap.",
       "partial": false
+    },
+    {
+      "mint": "jheW61ZoLVSbeqSy5wwxwjfGALrqrLvq4Du1tASpump",
+      "symbol": "TROLLPISTA",
+      "name": "Troll Pistacio",
+      "amount_sold": 571436.6324342625,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T02:26:11.228827+00:00",
+      "exit_time": "2026-08-27T02:28:23.603126+00:00",
+      "entry_price_usd": 8.861e-06,
+      "exit_price_usd": 9.473e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.053496,
+      "pnl_sol": 0.003496,
+      "pnl_pct": 6.91,
+      "exit_reason": "LLM: sell_half — $TROLLPISTA is +6.9% but with an insane 24h/1h of +228% — that's parabolic and likely to mean-revert. Bank half the runner, let the rest ride the narr",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T02:26:11.230163+00:00",
+  "last_updated": "2026-08-27T02:28:23.603516+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.27,
-  "portfolio_value_usd": 179.24,
+  "last_sol_price_usd": 101.19,
+  "portfolio_value_usd": 179.48,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 02:17 UTC",
-      "action": "buy",
-      "details": "[LLM] $$SHITZU at $2.9392e-06, spent 0.1 SOL",
-      "reason": "$$SHITZU 'porcelain king has entered the throne room' — absurd dog-flush lore is exactly the kind of meme that catches X traction. Fresh $2.9k. 0.1 SOL."
-    },
-    {
-      "time": "2026-08-27 02:20 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $OX at $2.848e-06 | P&L: -5.6%",
-      "reason": "$OX at -5.6% with both 1h and 24h negative momentum; no narrative, no attention signal visible — cut the dead weight and free the slot."
-    },
     {
       "time": "2026-08-27 02:20 UTC",
       "action": "sell",
@@ -6491,45 +6518,75 @@
       "action": "buy",
       "details": "[LLM] $saucet at $4.82439e-06, spent 0.1 SOL",
       "reason": "$saucet ('The Solana Faucet') posted by conxbt (known CT voice) at 0.1min age. Meta-narrative faucet tokens historically pull attention on Solana; super early entry."
+    },
+    {
+      "time": "2026-08-27 02:28 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $TROLLPISTA at $9.473e-06 | P&L: +6.9%",
+      "reason": "$TROLLPISTA is +6.9% but with an insane 24h/1h of +228% — that's parabolic and likely to mean-revert. Bank half the runner, let the rest ride the narrative."
+    },
+    {
+      "time": "2026-08-27 02:28 UTC",
+      "action": "buy",
+      "details": "[LLM] $KING at $3.58132e-06, spent 0.1 SOL",
+      "reason": "$KING has a real X handle (@vaguepostk1ng) plus a vague but memeable tagline 'The right people feel it' — pure attention-token energy at $3.6k mcap, classic early meta narrative play."
     }
   ],
   "trade_stats": {
-    "total": 369,
-    "wins": 168,
+    "total": 370,
+    "wins": 169,
     "losses": 201,
-    "win_rate_pct": 45.5,
-    "total_pnl_sol": -0.130591,
-    "avg_pnl_pct": 75.55,
+    "win_rate_pct": 45.7,
+    "total_pnl_sol": -0.127095,
+    "avg_pnl_pct": 75.37,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 226,
-    "today_realized_sol": 0.398616,
-    "today_target_pct": 99.7,
+    "today_trades": 227,
+    "today_realized_sol": 0.402112,
+    "today_target_pct": 100.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 168,
+      "win_count": 169,
       "loss_count": 201,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T02:26:11.228772+00:00",
+  "last_llm_brief_at": "2026-08-27T02:28:23.603083+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7DFy4JGzirMwCmMQEoHZJBuQNnJYmkurraLGRtktpump": {
-      "price_usd": 4.9e-06,
-      "change_h24": 61.83,
-      "change_h1": 61.83,
+      "price_usd": 4.826e-06,
+      "change_h24": 59.36,
+      "change_h1": 59.36,
       "liquidity_usd": 0.0,
-      "volume_h24": 6112.46,
+      "volume_h24": 8880.84,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "BRc9vvMh3pGRwboaq8m1tT1EmAzy27nS3LhnYYVV9VRL": {
-      "price_usd": 4.848e-06,
-      "change_h24": 61.47,
-      "change_h1": 61.47,
+      "price_usd": 4.78e-06,
+      "change_h24": 59.22,
+      "change_h1": 59.22,
       "liquidity_usd": 0.0,
-      "volume_h24": 5334.46,
+      "volume_h24": 5362.97,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "jheW61ZoLVSbeqSy5wwxwjfGALrqrLvq4Du1tASpump": {
+      "price_usd": 9.473e-06,
+      "change_h24": 228.0,
+      "change_h1": 228.0,
+      "liquidity_usd": 0.0,
+      "volume_h24": 4820.72,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "A9MSiN6gxY19RjJ4q2sYjont5aro6i5gYHHEocx5pump": {
+      "price_usd": 4.543e-06,
+      "change_h24": 59.41,
+      "change_h1": 59.41,
+      "liquidity_usd": 0.0,
+      "volume_h24": 1657.37,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }
