@@ -4285,3 +4285,18 @@
 ## [2026-08-27 07:48 UTC] buy | [LLM] $CHUD at $5.64058e-06, spent 0.1 SOL
 - **Reasoning:** $CHUD fresh, highest mcap of the launches ($5.6k), 23% bonding curve progress — strongest of the new wave. Provocative name = attention magnet. In with 0.1 SOL.
 
+## [2026-08-27 07:49 UTC] sell | [FULL][LLM] $Wojak at $3.68365e-06 | P&L: +4.1%
+- **Reasoning:** $Wojak only +4.1% with tiny $424 pool — no momentum on a bonding-curve rag with weak narrative. Cut loss exposure, free the slot for fresh attention.
+
+## [2026-08-27 07:49 UTC] sell | [PARTIAL][LLM] $AC at $3.38888e-06 | P&L: +18.6%
+- **Reasoning:** $AC +18.6% on $282 pool — bonding-curve, illiquid, profit evaporates fast. Lock half gain now, let the runner ride with the rest.
+
+## [2026-08-27 07:49 UTC] sell | [FULL][LLM] $CHUD at $3.51143e-06 | P&L: -37.8%
+- **Reasoning:** $CHUD -37.7%, approaching -50% hard cap, $342 pool barely supports exit. Bail out — this is a clear loser, no bounce signal, lock remaining sol for entries.
+
+## [2026-08-27 07:49 UTC] buy | [LLM] $JYHO at $3.381e-05, spent 0.1 SOL
+- **Reasoning:** $JYHO at $28k mcap with the strongest attention signal of the batch — bonding-curve 41% already means early buyers are loading, narrative 'mythical boy' has memecoin DNA. Fresh attention, decent entry before mcap confirmation.
+
+## [2026-08-27 07:49 UTC] buy | [LLM] $Huggy at $5.863e-06, spent 0.1 SOL
+- **Reasoning:** $Huggy at $15k mcap, named after Hugging Face AI culture crossover — narrative ties into AI x meme meta which is hot. Low mcap, very fresh, attention from @MarioPrezidente.
+
