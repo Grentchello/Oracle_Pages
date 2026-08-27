@@ -4429,3 +4429,21 @@
 ## [2026-08-27 08:10 UTC] buy | [LLM] $RWDT at $9.203e-06, spent 0.1 SOL
 - **Reasoning:** $RWDT — crude shock-name narrative (Robotic Worm Dildo Tech), 1.2min old, $14k mcap with 35% bond progress. X link active. Shock-value memecoins with early bonding progress historically pump. Risk: narrative may fizzle fast; sized0.1 SOL.
 
+## [2026-08-27 08:11 UTC] sell | [TP +30% (half)] $RWDT at $1.71411e-05 | P&L: +86.3%
+- **Reasoning:** Auto take-profit at +86.3%
+
+## [2026-08-27 08:12 UTC] sell | [PARTIAL][LLM] $ELEPHANTS at $4.27867e-06 | P&L: +12.7%
+- **Reasoning:** Up +12.7% on a bonding-curve token with only $670 pool liquidity. Take half profit to lock gains before the curve dumps or sells fail.
+
+## [2026-08-27 08:12 UTC] sell | [PARTIAL][LLM] $apeinbed at $4.0535e-06 | P&L: +26.2%
+- **Reasoning:** Up +26.2% — this is exactly where the 'be aggressive on profit-taking' rule fires. Lock half; let the rest ride if narrative continues.
+
+## [2026-08-27 08:12 UTC] sell | [FULL][LLM] $horse at $2.89627e-06 | P&L: -46.4%
+- **Reasoning:** Down -46.4%, approaching hard stop. Pool is $0, our share is absurdly high (40M% = nearly all supply). This is dead/dumped. Cut loss NOW before -50% auto-trigger and rug-pull risk.
+
+## [2026-08-27 08:12 UTC] sell | [PARTIAL][LLM] $RWDT at $1.71411e-05 | P&L: +86.3%
+- **Reasoning:** Up +86.3% with $4.5k liquidity. Take half profit at this level — the +100% TP threshold is approaching and I want to lock in gains before potential reversal.
+
+## [2026-08-27 08:12 UTC] buy | [LLM] $Cooked at $6.05055e-06, spent 0.1 SOL
+- **Reasoning:** $Cooked (Cooked Monkey) — fresh attention token at $6k mcap with X link. 'Cooked' is viral internet slang, narrative has meme potential. Small size, high upside if it catches.
+
