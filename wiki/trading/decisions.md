@@ -6685,3 +6685,6 @@
 ## [2026-08-27 12:32 UTC] buy | [LLM] $WHEAT at $7.04189e-06, spent 0.05 SOL
 - **Reasoning:** $WHEAT — Polymarket tweet driver, multiple copycat mints detected which itself is an attention signal (memetic spread). Lead mint at $7,064 mcap, 26% bonded. 0.05 SOL.
 
+## [2026-08-27 12:33 UTC] sell | [hard-stop] $WHEAT closed at $3.24861e-06 | P&L: -53.9%
+- **Reasoning:** Hard -30% stop
+
