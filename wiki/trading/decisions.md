@@ -5371,3 +5371,18 @@
 ## [2026-08-27 10:00 UTC] sell | [TP +30% (25%)] $RISE at $8.06155e-06 | P&L: +54.6%
 - **Reasoning:** Auto take-profit at +54.6%
 
+## [2026-08-27 10:01 UTC] sell | [PARTIAL][LLM] $CTREMP at $3.31382e-05 | P&L: +96.2%
+- **Reasoning:** $CTREMP +96% on 0.1h hold — strong pump but bonding curve liquidity only $7,421 and our share 0%. Lock half the gain now per profit-taking discipline; let the rest ride for the narrative-driven run-up.
+
+## [2026-08-27 10:01 UTC] sell | [PARTIAL][LLM] $RISE at $8.06155e-06 | P&L: +54.6%
+- **Reasoning:** $RISE +54.6% but pool only $2,073 — dangerously thin liquidity. Lock half now; thin pools can reverse hard and -30% stop is real risk.
+
+## [2026-08-27 10:01 UTC] buy | [LLM] $Macy at $8.51773e-06, spent 0.05 SOL
+- **Reasoning:** $Macy 'it's just a prank bro' — has a twitter URL attached, $8.5k mcap, 29% bonded. Pumpfun prank narrative is classic viral memecoin bait; small float + story = 5-10x potential. 0.05 SOL ($5) position.
+
+## [2026-08-27 10:01 UTC] buy | [LLM] $LP at $3.132e-06, spent 0.05 SOL
+- **Reasoning:** $LP 'derty giarl' — absurdist shitpost name is peak memecoin energy at $3.1k mcap, 3% bonded. Tiny float means a few buyers can 10x it. High-risk, narrative is weak but the genre fits.
+
+## [2026-08-27 10:01 UTC] buy | [LLM] $7up at $8.28299e-06, spent 0.05 SOL
+- **Reasoning:** $7up '7up founder' — $8.3k mcap, founder narrative, drink brand association. Simple memorable ticker with viral potential. 0.05 SOL ($5).
+
