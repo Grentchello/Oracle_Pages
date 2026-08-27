@@ -3457,3 +3457,9 @@
 ## [2026-08-27 02:41 UTC] buy | [LLM] $wif at $6.29195e-06, spent 0.1 SOL
 - **Reasoning:** $wif (dogwifhat) is the canonical dogwif ticker, same viral X post, $6.3k mcap with 25% bond — purest attention play in this batch.
 
+## [2026-08-27 02:43 UTC] sell | [FULL][LLM] $wif at $2.959e-06 | P&L: -53.0%
+- **Reasoning:** HARD CAP BREACH at -53.0%. Rule is non-negotiable, closes below -50% regardless of thesis. Frees slot for redeployment.
+
+## [2026-08-27 02:43 UTC] sell | [FULL][LLM] $Duster at $2.825e-06 | P&L: -16.9%
+- **Reasoning:** -16.8% with -3.2% on both 24h and 1h — no momentum, flat/dead. Slots are precious, freeing this for a higher-conviction play.
+
