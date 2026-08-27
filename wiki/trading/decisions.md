@@ -5731,3 +5731,27 @@
 ## [2026-08-27 10:36 UTC] buy | [LLM] $sigma at $2.90843e-06, spent 0.05 SOL
 - **Reasoning:** $sigma (SIGMA BOY RUNS TO THE HIGHEST POINT) — running-to-the-top meme is actively trending on X right now (RT_com tweet visible). Two copycat mints ($RABGRE) confirm the narrative has multiple creators chasing attention. $2.9k mcap is dirt cheap entry for an active meme. 0.05 SOL position.
 
+## [2026-08-27 10:37 UTC] sell | [TP +100% (50%)] $agent.md at $7.95271e-06 | P&L: +137.4%
+- **Reasoning:** Auto take-profit at +137.4%
+
+## [2026-08-27 10:37 UTC] sell | [TP +30% (25%)] $チョロ松 at $9.35671e-06 | P&L: +82.5%
+- **Reasoning:** Auto take-profit at +82.6%
+
+## [2026-08-27 10:37 UTC] sell | [TP +30% (25%)] $COVID-26 at $2.00146e-05 | P&L: +67.4%
+- **Reasoning:** Auto take-profit at +67.4%
+
+## [2026-08-27 10:37 UTC] sell | [PARTIAL][LLM] $agent.md at $7.95271e-06 | P&L: +137.4%
+- **Reasoning:** +137% is deep in profit-taking territory (>100%). Lock half, let the rest ride if narrative holds.
+
+## [2026-08-27 10:37 UTC] sell | [PARTIAL][LLM] $チョロ松 at $9.35671e-06 | P&L: +82.5%
+- **Reasoning:** +82% is well past 50% TP threshold. Lock gains; Chorosmatsu name is niche, narrative already peaked.
+
+## [2026-08-27 10:37 UTC] sell | [PARTIAL][LLM] $COVID-26 at $2.00146e-05 | P&L: +67.4%
+- **Reasoning:** +67% past 50% TP. COVID-26 narrative is hot but already crowded with copycats launching — lock profit and rotate into fresher variant or different narrative.
+
+## [2026-08-27 10:37 UTC] sell | [FULL][LLM] $sigma at $3.76093e-06 | P&L: +29.3%
+- **Reasoning:** $52 pool is barely above 5x position liquidity floor; +29% with no momentum signal. Thin pool + stale risk = exit now while we can.
+
+## [2026-08-27 10:37 UTC] buy | [LLM] $CJP at $3.937e-06, spent 0.05 SOL
+- **Reasoning:** $CJP 'Cockroach Janta Party' has IndiaToday mainstream media twitter link — that is real mainstream attention, not just CT noise. $2,972 mcap with 1% bonding = very early, easy 3-5x potential if it picks up engagement.
+
