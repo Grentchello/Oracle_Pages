@@ -3481,3 +3481,18 @@
 ## [2026-08-27 02:44 UTC] buy | [LLM] $PHAWIZ at $7.59981e-06, spent 0.1 SOL
 - **Reasoning:** $PHAWIZ 'Phantom Wizard / the real Pepe Tod' — explicit viral meme narrative with a TikTok-style hook ('most viral meme token out there'). $7.5k mcap with a story is the kind of asymmetric attention play the rules describe.
 
+## [2026-08-27 02:45 UTC] sell | [FULL][LLM] $stage at $1.19868e-05 | P&L: +156.9%
+- **Reasoning:** $stage +156.9% on bonding curve (27% complete) — locking in 1.5x before curve migration risk. Freeing capital for fresh attention.
+
+## [2026-08-27 02:45 UTC] sell | [PARTIAL][LLM] $GREENPISTA at $1.46744e-05 | P&L: +52.2%
+- **Reasoning:** $GREENPISTA +52.3% but only held 0.0h and bonding curve — taking partial profit per the +50% rule, leaving runner for narrative momentum.
+
+## [2026-08-27 02:45 UTC] sell | [FULL][LLM] $ASHBORN at $2.82305e-06 | P&L: -24.1%
+- **Reasoning:** $ASHBORN -24.1% and dropping fast, no narrative signal to justify bag-holding. Cut and redeploy into fresh attention.
+
+## [2026-08-27 02:45 UTC] buy | [LLM] $ATLAS at $4.826e-06, spent 0.1 SOL
+- **Reasoning:** $ATLAS 'Sisyphean Holder' — narrative + X post + 27% bonded = real attention forming. Skip the duplicate/squatter mints below.
+
+## [2026-08-27 02:45 UTC] buy | [LLM] $USEFUL at $3.01996e-06, spent 0.1 SOL
+- **Reasoning:** $USEFUL with X link from rorymoon_2 is the freshest narrative coin — 0.3min old, $3k mcap, classic attention-launched play.
+
