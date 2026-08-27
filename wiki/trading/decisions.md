@@ -3109,3 +3109,12 @@
 ## [2026-08-27 01:55 UTC] buy | [LLM] $HFHI at $3.364e-06, spent 0.1 SOL
 - **Reasoning:** $HFHI (Hugging Face Hacking Incident) has the strongest narrative hook — real verifiable news event in a hot AI sector, appears as duplicate suggesting genuine traction. 0.1 SOL position size.
 
+## [2026-08-27 01:58 UTC] sell | [PARTIAL][LLM] $Buddy at $0.0001012 | P&L: +584.2%
+- **Reasoning:** +584% is massive — lock in the +5.84x gain. Free rider on the rest; if narrative dies we still banked a life-changing bag relative to 0.1 SOL risk.
+
+## [2026-08-27 01:58 UTC] sell | [FULL][LLM] $HFHI at $2.843e-06 | P&L: -15.5%
+- **Reasoning:** -15.5% loss and a NEW $HFHI launch with $6k mcap just showed up at age 0.3min — the narrative isn't paying off fast enough. Cut and rotate capital into fresher attention.
+
+## [2026-08-27 01:58 UTC] buy | [LLM] $roof at $3.92818e-05, spent 0.1 SOL
+- **Reasoning:** $roof at $39k mcap with bond 42% (leading the launches) — highest mcap of fresh batch often signals first attention magnet. Name is short/memeable, early entry before viral pickup.
+
