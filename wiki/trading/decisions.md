@@ -7342,3 +7342,9 @@
 ## [2026-08-27 14:02 UTC] buy | [LLM] $IKIGAI at $1.62239e-05, spent 0.05 SOL
 - **Reasoning:** $IKIGAI — name has narrative (Japanese 'purpose' concept), BoostCycle tweet, $16k mcap is highest of fresh launches. Two duplicate tokens exist though (scam risk), taking the higher-mcap one with the original tweet. 0.05 SOL.
 
+## [2026-08-27 14:03 UTC] sell | [hard-stop] $wif closed at $2.98058e-06 | P&L: -49.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 14:03 UTC] sell | [hard-stop] $IKIGAI closed at $1.11024e-05 | P&L: -31.6%
+- **Reasoning:** Hard -30% stop
+
