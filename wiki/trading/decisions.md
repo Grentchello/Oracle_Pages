@@ -2368,3 +2368,9 @@
 ## [2026-08-27 00:17 UTC] buy | [LLM] $Squishy at $2.87247e-06, spent 0.1 SOL
 - **Reasoning:** $Squishy — viral chipmunk with 15M+ followers, 2B+ views, owner fully onboard with creator fees directed to the project. That's rare, verified attention from an established personality. Bond only 1%, so 0.1 SOL entry is low-risk asymmetry.
 
+## [2026-08-27 00:18 UTC] sell | [PARTIAL][LLM] $1A at $3.579e-05 | P&L: +339.9%
+- **Reasoning:** +340% is far past the +50% profit-take trigger and 24h is -12.4% (pulling back from peak). Lock half the gains now, let the rest ride if the $1A narrative stays hot.
+
+## [2026-08-27 00:18 UTC] sell | [FULL][LLM] $fomodog at $2.887e-06 | P&L: -34.9%
+- **Reasoning:** At -34.9% with 24h still -4.2% and no catalyst visible, this is a slow bleed toward the -50% hard cap. Cut it, free a slot, redeploy into fresher attention next tick.
+

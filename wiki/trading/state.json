@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.625622,
+  "balance_sol": 1.745744,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "9BepWhU7EaYdDZ46Wk2pHebq8xvTNQySJQWXp7S4pump": {
       "symbol": "1A",
       "name": "Free Speech Coin",
-      "amount": 310439.45912722807,
+      "amount": 155219.72956361403,
       "entry_price_usd": 8.135e-06,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0125,
       "entry_time": "2026-08-27T00:14:35.491329+00:00",
       "entry_usd_value": 10.101700000000001,
       "entry_signals": {
@@ -43,28 +43,6 @@
         "real_sol_reserves": 24.2571295,
         "description": "The price of free speech is going up.",
         "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "5x7t3CtDWaDGggbvf4u2uMLME3W3mGmbFwBExJqipump": {
-      "symbol": "fomodog",
-      "name": "dog wif fomo",
-      "amount": 2282143.59391787,
-      "entry_price_usd": 4.433989178844004e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T00:15:55.390523+00:00",
-      "entry_usd_value": 10.119,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4423.803399418188,
-        "ath_market_cap_usd": 6799.0576032544,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 7.556836639,
-        "description": "",
-        "twitter": "https://x.com/KanticoX/status/2092767449548460435?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -2919,25 +2897,47 @@
       "pnl_pct": 513.89,
       "exit_reason": "LLM: sell_half — $1A is +513.9% in under an hour — extreme run. Sell half to lock gains per the +50% profit-take rule, let the remaining half ride if narrative keeps g",
       "partial": true
+    },
+    {
+      "mint": "9BepWhU7EaYdDZ46Wk2pHebq8xvTNQySJQWXp7S4pump",
+      "symbol": "1A",
+      "name": "Free Speech Coin",
+      "amount_sold": 155219.72956361403,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:14:35.491329+00:00",
+      "exit_time": "2026-08-27T00:18:56.232189+00:00",
+      "entry_price_usd": 8.135e-06,
+      "exit_price_usd": 3.579e-05,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.054951,
+      "pnl_sol": 0.042451,
+      "pnl_pct": 339.95,
+      "exit_reason": "LLM: sell_half — +340% is far past the +50% profit-take trigger and 24h is -12.4% (pulling back from peak). Lock half the gains now, let the rest ride if the $1A narra",
+      "partial": true
+    },
+    {
+      "mint": "5x7t3CtDWaDGggbvf4u2uMLME3W3mGmbFwBExJqipump",
+      "symbol": "fomodog",
+      "name": "dog wif fomo",
+      "amount_sold": 2282143.59391787,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T00:15:55.390523+00:00",
+      "exit_time": "2026-08-27T00:18:56.232523+00:00",
+      "entry_price_usd": 4.433989178844004e-06,
+      "exit_price_usd": 2.887e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.065171,
+      "pnl_sol": -0.034829,
+      "pnl_pct": -34.89,
+      "exit_reason": "LLM: sell_all — At -34.9% with 24h still -4.2% and no catalyst visible, this is a slow bleed toward the -50% hard cap. Cut it, free a slot, redeploy into fresher atte",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T00:17:19.652665+00:00",
+  "last_updated": "2026-08-27T00:18:56.232723+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.14,
-  "portfolio_value_usd": 202.37,
+  "last_sol_price_usd": 101.096,
+  "portfolio_value_usd": 203.07,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 00:11 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SUNSHINE at $2.844e-06 | P&L: +0.0%",
-      "reason": "SUNSHINE is flat at entry after 0.0h with -5.1% on 24h — no narrative edge, no momentum signal, weakest story in the bag. Free the slot."
-    },
-    {
-      "time": "2026-08-27 00:11 UTC",
-      "action": "buy",
-      "details": "[LLM] $CAKE at $4.52348e-06, spent 0.1 SOL",
-      "reason": "$CAKE riding the Cheesecake Factory brand-name hijack narrative, $4.5k mcap with WatcherGuru tweet attached — exactly the attention-launch setup the strategy is built for."
-    },
     {
       "time": "2026-08-27 00:13 UTC",
       "action": "sell",
@@ -3045,63 +3045,84 @@
       "action": "buy",
       "details": "[LLM] $Squishy at $2.87247e-06, spent 0.1 SOL",
       "reason": "$Squishy — viral chipmunk with 15M+ followers, 2B+ views, owner fully onboard with creator fees directed to the project. That's rare, verified attention from an established personality. Bond only 1%, so 0.1 SOL entry is low-risk asymmetry."
+    },
+    {
+      "time": "2026-08-27 00:18 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $1A at $3.579e-05 | P&L: +339.9%",
+      "reason": "+340% is far past the +50% profit-take trigger and 24h is -12.4% (pulling back from peak). Lock half the gains now, let the rest ride if the $1A narrative stays hot."
+    },
+    {
+      "time": "2026-08-27 00:18 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $fomodog at $2.887e-06 | P&L: -34.9%",
+      "reason": "At -34.9% with 24h still -4.2% and no catalyst visible, this is a slow bleed toward the -50% hard cap. Cut it, free a slot, redeploy into fresher attention next tick."
     }
   ],
   "trade_stats": {
-    "total": 165,
-    "wins": 81,
-    "losses": 84,
+    "total": 167,
+    "wins": 82,
+    "losses": 85,
     "win_rate_pct": 49.1,
-    "total_pnl_sol": 0.100623,
-    "avg_pnl_pct": 86.98,
+    "total_pnl_sol": 0.108245,
+    "avg_pnl_pct": 87.76,
     "best_pnl_pct": 666.22,
     "worst_pnl_pct": -99.89,
-    "today_trades": 22,
-    "today_realized_sol": 0.62983,
-    "today_target_pct": 157.5,
+    "today_trades": 24,
+    "today_realized_sol": 0.637452,
+    "today_target_pct": 159.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 81,
-      "loss_count": 84,
+      "win_count": 82,
+      "loss_count": 85,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T00:17:19.651708+00:00",
+  "last_llm_brief_at": "2026-08-27T00:18:56.232151+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
-      "price_usd": 4.049e-06,
-      "change_h24": 33.45,
-      "change_h1": 33.45,
+      "price_usd": 4.23e-06,
+      "change_h24": 39.42,
+      "change_h1": 39.42,
       "liquidity_usd": 0.0,
-      "volume_h24": 18980.73,
+      "volume_h24": 19503.55,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "9BepWhU7EaYdDZ46Wk2pHebq8xvTNQySJQWXp7S4pump": {
-      "price_usd": 4.994e-05,
-      "change_h24": 22.19,
-      "change_h1": 22.19,
-      "liquidity_usd": 17168.54,
-      "volume_h24": 69680.71,
+      "price_usd": 3.579e-05,
+      "change_h24": -12.42,
+      "change_h1": -12.42,
+      "liquidity_usd": 14279.52,
+      "volume_h24": 82381.9,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
     "5x7t3CtDWaDGggbvf4u2uMLME3W3mGmbFwBExJqipump": {
-      "price_usd": 4.145e-06,
-      "change_h24": 37.47,
-      "change_h1": 37.47,
+      "price_usd": 2.887e-06,
+      "change_h24": -4.24,
+      "change_h1": -4.24,
       "liquidity_usd": 0.0,
-      "volume_h24": 4500.83,
+      "volume_h24": 5106.79,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "7yDtC3Af5ifYMSVayN1mFu74VEdzXJJCJbwNjbytpump": {
-      "price_usd": 2.924e-06,
-      "change_h24": -3.09,
-      "change_h1": -3.09,
+      "price_usd": 2.835e-06,
+      "change_h24": -6.04,
+      "change_h1": -6.04,
       "liquidity_usd": 0.0,
-      "volume_h24": 375.68,
+      "volume_h24": 422.44,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "HpbsRLkUbAmEjbsA1nvzRYhja4Zz9ytbSxnSzoXCpump": {
+      "price_usd": 2.888e-06,
+      "change_h24": -3.28,
+      "change_h1": -3.28,
+      "liquidity_usd": 0.0,
+      "volume_h24": 821.26,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }
