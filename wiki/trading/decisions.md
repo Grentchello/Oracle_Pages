@@ -3883,3 +3883,18 @@
 ## [2026-08-27 03:23 UTC] buy | [LLM] $Scoobert at $1.13594e-05, spent 0.1 SOL
 - **Reasoning:** Scoobert has the strongest early attention profile at roughly 0.7 minutes old, with a leading $11.4K market cap and 33% bonding progress. It is still highly speculative, but its relative early strength makes it the clearest new-launch entry.
 
+## [2026-08-27 03:24 UTC] sell | [TP +100% (75%)] $Cashew at $4.12441e-05 | P&L: +115.2%
+- **Reasoning:** Auto take-profit at +115.3%
+
+## [2026-08-27 03:24 UTC] sell | [PARTIAL][LLM] $Cashew at $4.12441e-05 | P&L: +115.2%
+- **Reasoning:** +115% on Cashew, pool $8.5k is thin — TP1 hit territory, lock half and let the runner ride. Freeing a position slot is also valuable given 3/5 open.
+
+## [2026-08-27 03:24 UTC] sell | [FULL][LLM] $Peter at $4.76955e-06 | P&L: +17.2%
+- **Reasoning:** Peter +17% but pool only $903 and held <5 min — liquidity is dangerously thin to hold a sub-$1k position. Take the gain and rotate.
+
+## [2026-08-27 03:24 UTC] sell | [FULL][LLM] $Scoobert at $3.06731e-06 | P&L: -73.0%
+- **Reasoning:** Scoobert -73% is past the -50% hard stop and should already be auto-closed; if not, exit immediately — no bounce signal in a $122 pool.
+
+## [2026-08-27 03:24 UTC] buy | [LLM] $PUMPARENA at $1.53177e-05, spent 0.1 SOL
+- **Reasoning:** $PUMPARENA has the strongest narrative of the batch — 24/7 AI-narrated fight tournament is a sticky content loop and $15k mcap gives real room. Risk: meme is niche, but the format is viral.
+
