@@ -4300,3 +4300,18 @@
 ## [2026-08-27 07:49 UTC] buy | [LLM] $Huggy at $5.863e-06, spent 0.1 SOL
 - **Reasoning:** $Huggy at $15k mcap, named after Hugging Face AI culture crossover — narrative ties into AI x meme meta which is hot. Low mcap, very fresh, attention from @MarioPrezidente.
 
+## [2026-08-27 07:50 UTC] sell | [hard-stop] $JYHO closed at $2.85554e-06 | P&L: -91.5%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 07:50 UTC] sell | [TP +100% (75%)] $Huggy at $1.38977e-05 | P&L: +137.0%
+- **Reasoning:** Auto take-profit at +137.0%
+
+## [2026-08-27 07:51 UTC] sell | [FULL][LLM] $AC at $3.71079e-06 | P&L: +29.9%
+- **Reasoning:** $AC up +29.8% on a thin $436 pool with our 1% share — locking gains now before they evaporate. Bonding curve = price can dump fast on any sell pressure.
+
+## [2026-08-27 07:51 UTC] sell | [FULL][LLM] $Huggy at $1.38977e-05 | P&L: +137.0%
+- **Reasoning:** $Huggy up +137% — already hit the +100% TP zone, bot should have taken 75%. Selling remaining now to lock in the 2.37x. Don't get greedy, this is a $3.7k pool.
+
+## [2026-08-27 07:51 UTC] buy | [LLM] $DOGGYSTYLE at $1.969e-05, spent 0.1 SOL
+- **Reasoning:** $DOGGYSTYLE has the strongest attention signal of the batch — viral X post, $26k mcap already trending up, 40% bonding curve = real buyers. Crude name = crude humor = memecoin gold.
+
