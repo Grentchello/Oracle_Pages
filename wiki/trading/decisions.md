@@ -6043,3 +6043,12 @@
 ## [2026-08-27 11:09 UTC] buy | [LLM] $CuteCat at $5.47559e-06, spent 0.05 SOL
 - **Reasoning:** $CuteCat with active poster @K1rajj, animal meme is reliable attention magnet, $5.5k mcap fresh. Simple cute narrative = retail appeal.
 
+## [2026-08-27 11:10 UTC] sell | [hard-stop] $Fig closed at $3.17645e-06 | P&L: -46.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:10 UTC] sell | [hard-stop] $CuteCat closed at $2.95252e-06 | P&L: -46.1%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:10 UTC] sell | [TP +100% (50%)] $ILY at $6.465e-05 | P&L: +144.3%
+- **Reasoning:** Auto take-profit at +144.4%
+
