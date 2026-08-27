@@ -567,7 +567,13 @@ No prior trades — fresh slate.
             src = f" [{h.get('price_source', '?')}]" if h.get('price_source') and h.get('price_source') != "missing" else ""
             cur_str = f"${h['current_price_usd']:.10f}" if h.get('current_price_usd', 0) > 0 else "no current price"
             full_mint = h.get('mint', '')
-            prompt += f"  - ${h['symbol']} entry ${h['entry_price_usd']:.10f} now {cur_str} = {pnl_str}, held {h['held_hours']:.1f}h{chg24_str}{chg1_str}{src}\n"
+            liq_str = ""
+            if h.get('liquidity_usd', 0) > 0:
+                pct = h.get('pos_pct_of_liq')
+                pct_str = f"{pct:.0f}%" if pct is not None else "?"
+                warn = " ⚠ HUGE" if pct and pct > 100 else (" ⚠" if pct and pct > 30 else "")
+                liq_str = f", pool=${h['liquidity_usd']:.0f}, our share={pct_str}{warn}"
+            prompt += f"  - ${h['symbol']} entry ${h['entry_price_usd']:.10f} now {cur_str} = {pnl_str}, held {h['held_hours']:.1f}h{chg24_str}{chg1_str}{src}{liq_str}\n"
             prompt += f"      mint={full_mint}\n"
         prompt += "\n"
 

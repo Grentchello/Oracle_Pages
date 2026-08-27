@@ -3502,3 +3502,6 @@
 ## [2026-08-27 02:46 UTC] buy | [LLM] $monkey.jpeg at $1.74205e-05, spent 0.1 SOL
 - **Reasoning:** $monkey.jpeg has the strongest attention signal — @based16z tweet already spawning 4+ copycats this tick, classic viral-attention pattern at $17k mcap. Risk: very early, could rug; position size is small (0.1 SOL) so loss is contained.
 
+## [2026-08-27 02:48 UTC] sell | [PARTIAL][LLM] $GREENPISTA at $1.62812e-05 | P&L: +68.9%
+- **Reasoning:** $GREENPISTA at +68.9% — taking profit per the +50% rule. Half keeps upside if narrative continues, half locks in gains.
+

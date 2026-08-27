@@ -289,9 +289,30 @@ async function renderHoldings(state, watchlist) {
     const valueStr = valueUSD !== null ? fmtUSD(valueUSD) : '—';
     const pnlStr = pnlPct !== null ? (pnlPct >= 0 ? '+' : '') + pnlPct.toFixed(1) + '%' : '—';
 
+    // Liquidity warning: how much of the pool do we own?
+    let liquidityBadge = '';
+    const liqUSD = hp ? Number(hp.liquidity_usd || 0) : 0;
+    if (valueUSD && liqUSD > 0) {
+      const pctOfLiq = valueUSD / liqUSD * 100;
+      let badgeCls = 'liq-ok';
+      let badgeText = '✓ ' + pctOfLiq.toFixed(0) + '% of pool';
+      if (pctOfLiq > 100) {
+        badgeCls = 'liq-stuck';
+        badgeText = '⚠ ' + pctOfLiq.toFixed(0) + '% of pool — STUCK';
+      } else if (pctOfLiq > 30) {
+        badgeCls = 'liq-partial';
+        badgeText = '⚠ ' + pctOfLiq.toFixed(0) + '% of pool — partial exit only';
+      }
+      liquidityBadge = '<div class="liquidity-badge ' + badgeCls + '">' + badgeText + '</div>';
+    } else if (valueUSD && valueUSD > 0) {
+      liquidityBadge = '<div class="liquidity-badge liq-unknown">? no liquidity data</div>';
+    }
+
     html += '<li class="position-item" data-mint="' + mint + '">' +
       '<div><div class="token-name">$' + sym + '</div>' +
-      '<div class="token-meta">' + amount.toFixed(2) + ' @ ' + fmtUSD(entryPrice) + '</div></div>' +
+      '<div class="token-meta">' + amount.toFixed(2) + ' @ ' + fmtUSD(entryPrice) + '</div>' +
+      (liquidityBadge ? liquidityBadge : '') +
+      '</div>' +
       '<div class="token-price">' + valueStr + '</div>' +
       '<div class="token-change ' + cls + '">' + pnlStr + '</div></li>';
   }
