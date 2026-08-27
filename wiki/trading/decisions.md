@@ -4273,3 +4273,6 @@
 ## [2026-08-27 07:43 UTC] buy | [LLM] $bodycam at $2.84e-06, spent 0.1 SOL
 - **Reasoning:** STRONG narrative: 'bodycam' is a genuinely viral FPS game trending on X (marionawfal post), $2,878 mcap with only 1% bond = very early. Memecoins keyed to real-world viral products pump hardest. 0.1 SOL.
 
+## [2026-08-27 07:47 UTC] buy | [LLM] $AC at $2.85781e-06, spent 0.1 SOL
+- **Reasoning:** $AC (Air Conchickener) has a viral X post about a man tying a chicken to the ceiling as AC in Thailand — absurd visual story = exactly the kind of attention that pumps memecoins. $2.8k mcap is risky but the narrative is concrete and shareable.
+
