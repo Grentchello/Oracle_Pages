@@ -4405,3 +4405,9 @@
 ## [2026-08-27 08:07 UTC] buy | [LLM] $apeinbed at $3.21078e-06, spent 0.1 SOL
 - **Reasoning:** $apeinbed — extremely relatable crypto-native narrative (apes in bed checking Pump.fun), $3.2k mcap, viral potential with the degen community.
 
+## [2026-08-27 08:09 UTC] buy | [LLM] $horse at $5.40619e-06, spent 0.1 SOL
+- **Reasoning:** $horse (Trump horse) — political/trump-adjacent narratives are reliable attention magnets on X. $5.4k mcap leaves massive room for a 5–10x if the timeline catches fire. Small bet, asymmetric upside.
+
+## [2026-08-27 08:09 UTC] buy | [LLM] $LABEL at $6.882e-06, spent 0.1 SOL
+- **Reasoning:** $LABEL has an actual X link backing it (candacedev_arc post), $8.8k mcap with a clear 'Label Truth' meme angle — labels/identity memes travel well. Fresh, narrative-loaded, decent risk/reward.
+
