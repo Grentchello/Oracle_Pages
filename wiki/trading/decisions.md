@@ -4795,3 +4795,12 @@
 ## [2026-08-27 08:51 UTC] sell | [PARTIAL][LLM] $wiffone at $3.32962e-05 | P&L: +90.7%
 - **Reasoning:** +90.7% in 0.0h, pool only $7.4k, our share 0% (still on bonding curve). Lock half — these microcap bonding-curve runners rug or fade fast once the curve fills. Don't be a hero.
 
+## [2026-08-27 08:52 UTC] sell | [hard-stop] $GTAVI closed at $2.92613e-06 | P&L: -83.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 08:52 UTC] buy | [LLM] $computa at $6.35032e-06, spent 0.05 SOL
+- **Reasoning:** computa has a concrete tech-oriented launch narrative, a cited X post, and an unusually early 0.4-minute market-cap window that offers strong attention momentum. The main risk is its extremely young, incomplete bond and thin liquidity, so size discipline is essential.
+
+## [2026-08-27 08:52 UTC] buy | [LLM] $TENDIES at $6.758e-06, spent 0.05 SOL
+- **Reasoning:** TENDIES has a memorable meme-food identity, an active-looking X handle, and a Discord launch source that can rapidly distribute attention. Its 1.1-minute age and low market cap create substantial volatility, but the narrative is sufficiently clear for a small experimental position.
+
