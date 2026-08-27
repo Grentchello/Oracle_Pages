@@ -2665,3 +2665,24 @@
 ## [2026-08-27 00:57 UTC] buy | [LLM] $CHUNGUS at $3.42273e-05, spent 0.1 SOL
 - **Reasoning:** $CHUNGUS 'Big Chungus' is a legendary meme IP with name-recognition moat. $34k mcap, 42% bond — strongest of the fresh launches by attention signal. Bet size 0.1 SOL.
 
+## [2026-08-27 00:59 UTC] sell | [FULL][LLM] $FALLING at $2.824e-06 | P&L: -7.9%
+- **Reasoning:** $FALLING is -7.9% with no momentum signal; freeing slot for a fresh viral launch.
+
+## [2026-08-27 00:59 UTC] sell | [FULL][LLM] $WD at $2.896e-06 | P&L: +0.0%
+- **Reasoning:** $WD flat at 0.0% with negative 24h drift — no attention catalyst, cutting to redeploy.
+
+## [2026-08-27 00:59 UTC] sell | [FULL][LLM] $CHUNGUS at $5.16e-06 | P&L: -84.9%
+- **Reasoning:** $CHUNGUS at -84.9%, deep below -50% cap territory — exiting to stop further bleed.
+
+## [2026-08-27 00:59 UTC] sell | [PARTIAL][LLM] $SKRIMP at $6.977e-06 | P&L: +114.9%
+- **Reasoning:** $SKRIMP +114.9%, locking in profit on half while letting the rest run — peak attention trade.
+
+## [2026-08-27 00:59 UTC] buy | [LLM] $ELGATO at $4.16874e-06, spent 0.1 SOL
+- **Reasoning:** $ELGATO has strongest attention signal: 30M TikTok views, 3M likes in 2 days — viral-cat meta is hot, $4k mcap is prime for 10x.
+
+## [2026-08-27 00:59 UTC] buy | [LLM] $PETRI at $3.56943e-06, spent 0.1 SOL
+- **Reasoning:** $PETRI's '100 AI models trying to escape' is a strong narrative hook in current AI-meta cycle, very low mcap entry.
+
+## [2026-08-27 00:59 UTC] buy | [LLM] $Heaven at $3.41545e-06, spent 0.1 SOL
+- **Reasoning:** $Heaven 'Meme Heaven' is a catchy meta-brand name, super low mcap with virality potential on crypto Twitter.
+
