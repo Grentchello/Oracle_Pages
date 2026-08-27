@@ -5365,3 +5365,9 @@
 ## [2026-08-27 09:59 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-08-27 10:00 UTC] sell | [TP +30% (25%)] $CTREMP at $3.31382e-05 | P&L: +96.2%
+- **Reasoning:** Auto take-profit at +96.2%
+
+## [2026-08-27 10:00 UTC] sell | [TP +30% (25%)] $RISE at $8.06155e-06 | P&L: +54.6%
+- **Reasoning:** Auto take-profit at +54.6%
+
