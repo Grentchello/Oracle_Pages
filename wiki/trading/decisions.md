@@ -7219,3 +7219,6 @@
 ## [2026-08-27 13:42 UTC] buy | [LLM] $Schwab at $1.27047e-05, spent 0.05 SOL
 - **Reasoning:** Charles Schwab ticker ($SCHW) parody with Wu Blockchain/RabbiD0ng attention. Schwab+Swab duplicates dilute but the Schwab itself has clean branding and a top crypto account tweet — classic attention play at $12k mcap.
 
+## [2026-08-27 13:43 UTC] sell | [TP +30% (25%)] $Schwab at $1.78671e-05 | P&L: +40.6%
+- **Reasoning:** Auto take-profit at +40.6%
+
