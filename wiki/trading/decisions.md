@@ -4957,3 +4957,18 @@
 ## [2026-08-27 09:10 UTC] buy | [LLM] $Twitter at $4.9385e-06, spent 0.05 SOL
 - **Reasoning:** $Twitter (Twitter.now) — 'Twitter' is an attention magnet name, mcap $4.9k, very fresh (0.5min). Viral name potential even if derivative.
 
+## [2026-08-27 09:11 UTC] sell | [hard-stop] $RAM closed at $4.86863e-06 | P&L: -42.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:11 UTC] sell | [TP +30% (25%)] $Choromatsu at $9.69005e-06 | P&L: +35.0%
+- **Reasoning:** Auto take-profit at +35.0%
+
+## [2026-08-27 09:12 UTC] sell | [FULL][LLM] $Choromatsu at $9.69005e-06 | P&L: +35.0%
+- **Reasoning:** +35% gain with only $2574 pool — dangerously thin liquidity for a position this large. Lock the gain now; the auto-TP at +30%/25% should have closed this and any further upside in a $2.5k pool is not worth the dump risk.
+
+## [2026-08-27 09:12 UTC] buy | [LLM] $LEDOGE at $1.07246e-05, spent 0.05 SOL
+- **Reasoning:** $LEDOGE leads the launches: highest mcap ($10.7k), furthest along bonding curve (32%), and has a real X post attached. Memecoin meta + decent traction = best risk-adjusted entry of the batch.
+
+## [2026-08-27 09:12 UTC] buy | [LLM] $BOLDPLAN at $2.97019e-06, spent 0.05 SOL
+- **Reasoning:** $BOLDPLAN has a sharp narrative — sarcastic jab at VC-backed projects shutting down. Anti-VC meta trends well on CT, mcap $3k is fresh, X link present. Speculative but the story is memeable.
+
