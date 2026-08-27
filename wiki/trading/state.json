@@ -14,24 +14,24 @@
       "entry_signals": {},
       "llm_entry": true
     },
-    "5d9AgZcqHdUcwRM3iBxcBYZJgNinaXgvkb5s6Lshpump": {
-      "symbol": "HtxCat",
-      "name": "HtxCat",
-      "amount": 3158480.9457566994,
-      "entry_price_usd": 3.2974712144431843e-06,
+    "F1T1yypWM5DQqWZAQi7wKdwc5Y8jK7ZBA7hkzNUbpump": {
+      "symbol": "dogonfone",
+      "name": "fone",
+      "amount": 1113801.9717102444,
+      "entry_price_usd": 9.332e-06,
       "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T08:37:22.439427+00:00",
-      "entry_usd_value": 10.415000000000001,
+      "entry_time": "2026-08-27T08:38:58.091314+00:00",
+      "entry_usd_value": 10.394,
       "entry_signals": {
-        "liquidity_usd": 200.41564930215003,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3287.246566352793,
-        "ath_market_cap_usd": 4545.45570922175,
+        "liquidity_usd": 2918.19606046398,
+        "volume_24h_usd": 10201.25,
+        "market_cap_usd": 11474.14694329904,
+        "ath_market_cap_usd": 14684.702422738412,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1.924298121,
-        "description": "",
-        "twitter": "https://x.com/HTX_Global/status/2092893630671315364",
+        "real_sol_reserves": 28.075775067,
+        "description": "dog on fone.",
+        "twitter": "https://x.com/dogonfone/status/2092894178598658492?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -10951,25 +10951,30 @@
       "pnl_pct": -18.23,
       "exit_reason": "LLM: sell_all — $MEOW down -18.2%, right at the -20% cutoff with no momentum signal on bonding curve (pool $74, 12% share). Discipline says exit before it slides furt",
       "partial": false
+    },
+    {
+      "mint": "5d9AgZcqHdUcwRM3iBxcBYZJgNinaXgvkb5s6Lshpump",
+      "symbol": "HtxCat",
+      "name": "HtxCat",
+      "amount_sold": 3158480.9457566994,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T08:37:22.439427+00:00",
+      "exit_time": "2026-08-27T08:38:57.691601+00:00",
+      "entry_price_usd": 3.2974712144431843e-06,
+      "exit_price_usd": 3.2908224486723434e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.1,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.2,
+      "exit_reason": "LLM: sell_all — Flat at -0.2% just opened, and the $200 pool fails the 5x liquidity rule for a 0.1 SOL position — exit cleanly before it goes stale.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T08:37:22.439779+00:00",
+  "last_updated": "2026-08-27T08:38:58.091619+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.15,
-  "portfolio_value_usd": 138.74,
+  "last_sol_price_usd": 103.94,
+  "portfolio_value_usd": 138.48,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 08:32 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $THEJEETS at $5.66055e-06 | P&L: +17.8%",
-      "reason": "Only +17.8% but up >15% with TP-half threshold +30% not yet hit; decent gain on a thin $1227 pool — lock it now rather than give back. Reasonable profit-take."
-    },
-    {
-      "time": "2026-08-27 08:32 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $TICKET at $2.95182e-06 | P&L: -39.2%",
-      "reason": "Down -39.2%, approaching hard -50% cap and pool is only $14 with23% share — illiquid + bleeding = cut now before the auto-stop."
-    },
     {
       "time": "2026-08-27 08:32 UTC",
       "action": "sell",
@@ -11077,28 +11082,40 @@
       "action": "buy",
       "details": "[LLM] $HtxCat at $3.29747e-06, spent 0.1 SOL",
       "reason": "$HtxCat has direct HTX Global (major exchange) tweet — institutional attention on a $3,287 mcap token is a strong attention signal. Could 10x if HTX amplifies. Risk: only 6% bond curve progress = thin liquidity, may get dumped."
+    },
+    {
+      "time": "2026-08-27 08:38 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HtxCat at $3.29082e-06 | P&L: -0.2%",
+      "reason": "Flat at -0.2% just opened, and the $200 pool fails the 5x liquidity rule for a 0.1 SOL position — exit cleanly before it goes stale."
+    },
+    {
+      "time": "2026-08-27 08:38 UTC",
+      "action": "buy",
+      "details": "[LLM] $dogonfone at $9.332e-06, spent 0.1 SOL",
+      "reason": "$dogonfone leads the cohort on all attention metrics: highest mcap ($11.4k), most bonding progress (33%), dog-on-phone is a relatable viral frame, and Twitter link confirmed. Entering 0.1 SOL."
     }
   ],
   "trade_stats": {
-    "total": 642,
+    "total": 643,
     "wins": 314,
-    "losses": 328,
-    "win_rate_pct": 48.9,
+    "losses": 329,
+    "win_rate_pct": 48.8,
     "total_pnl_sol": -0.663933,
-    "avg_pnl_pct": 56.38,
+    "avg_pnl_pct": 56.29,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 101,
+    "today_trades": 102,
     "today_realized_sol": 0.768296,
     "today_target_pct": 192.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 314,
-      "loss_count": 328,
+      "loss_count": 329,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T08:37:21.850342+00:00",
+  "last_llm_brief_at": "2026-08-27T08:38:57.691499+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FAKE_HARDSTOP_MINT_pump": {
@@ -11112,49 +11129,16 @@
       "complete": false,
       "real_sol_reserves": 0
     },
-    "4ymTF4TCJd7iaxwpbMskADZpMcsxMYcSUjicGReh5dqG": {
-      "price_usd": 2.9270051301143214e-06,
+    "5d9AgZcqHdUcwRM3iBxcBYZJgNinaXgvkb5s6Lshpump": {
+      "price_usd": 3.2908224486723434e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 8.077813176400001,
-      "volume_h24": 6871.98,
+      "liquidity_usd": 200.01154669674,
+      "volume_h24": 1884.88,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.077559416
-    },
-    "Gsy4q1KrhWYjV3CffyouoUkzf53vP3kYnuBPhVAWpump": {
-      "price_usd": 5.500692582676657e-07,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 10.3013644346,
-      "volume_h24": 890.27,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.098908924
-    },
-    "QXtJutYjJSSJymU46Hduqg9HgdZs9fnnzd6mWUxpump": {
-      "price_usd": 2.9534364710072415e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 22.18988165495,
-      "volume_h24": 4349.33,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.213056953
-    },
-    "Et8Rx1hvcfc2qN7oCha7V1dtyShKJajHGK5vfCpUpump": {
-      "price_usd": 3.0509699243593697e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 73.72555275305,
-      "volume_h24": 2548.63,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.707878567
+      "real_sol_reserves": 1.924298121
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

@@ -4675,3 +4675,9 @@
 ## [2026-08-27 08:37 UTC] buy | [LLM] $HtxCat at $3.29747e-06, spent 0.1 SOL
 - **Reasoning:** $HtxCat has direct HTX Global (major exchange) tweet — institutional attention on a $3,287 mcap token is a strong attention signal. Could 10x if HTX amplifies. Risk: only 6% bond curve progress = thin liquidity, may get dumped.
 
+## [2026-08-27 08:38 UTC] sell | [FULL][LLM] $HtxCat at $3.29082e-06 | P&L: -0.2%
+- **Reasoning:** Flat at -0.2% just opened, and the $200 pool fails the 5x liquidity rule for a 0.1 SOL position — exit cleanly before it goes stale.
+
+## [2026-08-27 08:38 UTC] buy | [LLM] $dogonfone at $9.332e-06, spent 0.1 SOL
+- **Reasoning:** $dogonfone leads the cohort on all attention metrics: highest mcap ($11.4k), most bonding progress (33%), dog-on-phone is a relatable viral frame, and Twitter link confirmed. Entering 0.1 SOL.
+
