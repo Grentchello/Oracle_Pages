@@ -2344,3 +2344,21 @@
 ## [2026-08-27 00:14 UTC] buy | [LLM] $laptope at $3.703e-06, spent 0.1 SOL
 - **Reasoning:** $laptope 'ape on laptop' fits the trending ape meta and is at sub-$3.5k mcap — pure early attention play.
 
+## [2026-08-27 00:15 UTC] sell | [FULL][LLM] $SAVMON at $3.472e-06 | P&L: +0.0%
+- **Reasoning:** Flat at +0%, but no momentum signal and a $7k mcap microcap with no volume — free up slot for fresher attention.
+
+## [2026-08-27 00:15 UTC] sell | [PARTIAL][LLM] $1A at $4.544e-05 | P&L: +458.6%
+- **Reasoning:** Up +458% — take profit on the parabolic move but keep runner for any continuation. Free Speech narrative has attention tailwinds.
+
+## [2026-08-27 00:15 UTC] sell | [FULL][LLM] $fone at $3.147e-06 | P&L: -27.1%
+- **Reasoning:** -27% and still bleeding with 24h negative — cut the loss before the -50% hard cap. Attention has already moved off this name.
+
+## [2026-08-27 00:15 UTC] sell | [FULL][LLM] $laptope at $2.829e-06 | P&L: -23.6%
+- **Reasoning:** -23.6% and 24h negative momentum — exit before approaching the -50% hard cap, redeploy to fresher launches.
+
+## [2026-08-27 00:15 UTC] buy | [LLM] $fomodog at $4.43399e-06, spent 0.1 SOL
+- **Reasoning:** 'dog wif fomo' is a classic memecoin formula riding the fomo meta — fresh 0.4min age with attached X post is exactly the kind of low-mcap narrative play that 5-10x's.
+
+## [2026-08-27 00:15 UTC] buy | [LLM] $Gary at $3.027e-06, spent 0.1 SOL
+- **Reasoning:** Japanese 'ゲイリー' (Gary) has cultural meme crossover with attached X account — niche viral narratives at $3k mcap can rip when they catch international attention.
+
