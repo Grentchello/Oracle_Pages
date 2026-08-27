@@ -4609,3 +4609,21 @@
 ## [2026-08-27 08:31 UTC] buy | [LLM] $login at $4.39132e-06, spent 0.1 SOL
 - **Reasoning:** $login — X-attached token, sub-$5k mcap, classic 'dev launched' play. Small size, asymmetric upside if tweet gets traction.
 
+## [2026-08-27 08:32 UTC] sell | [hard-stop] $inno closed at $3.38578e-06 | P&L: -81.8%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 08:32 UTC] sell | [TP +100% (75%)] $login at $1.28373e-05 | P&L: +192.3%
+- **Reasoning:** Auto take-profit at +192.3%
+
+## [2026-08-27 08:32 UTC] sell | [FULL][LLM] $THEJEETS at $5.66055e-06 | P&L: +17.8%
+- **Reasoning:** Only +17.8% but up >15% with TP-half threshold +30% not yet hit; decent gain on a thin $1227 pool — lock it now rather than give back. Reasonable profit-take.
+
+## [2026-08-27 08:32 UTC] sell | [FULL][LLM] $TICKET at $2.95182e-06 | P&L: -39.2%
+- **Reasoning:** Down -39.2%, approaching hard -50% cap and pool is only $14 with23% share — illiquid + bleeding = cut now before the auto-stop.
+
+## [2026-08-27 08:32 UTC] sell | [PARTIAL][LLM] $login at $1.28373e-05 | P&L: +192.3%
+- **Reasoning:** Up +192.3% but only held 0.0h — fresh pump on a viral X post (deviussol). Lock half at +30% TP, let the rest ride if narrative continues.
+
+## [2026-08-27 08:32 UTC] buy | [LLM] $Sinclair at $5.934e-06, spent 0.1 SOL
+- **Reasoning:** $Sinclair — Baby Sinclair nostalgia coin, mcap $5.3k fresh (0.9min), tied to a specific viral X post. Strong narrative + low mcap + fresh = classic attention play.
+
