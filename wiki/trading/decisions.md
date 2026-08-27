@@ -4144,3 +4144,30 @@
 ## [2026-08-27 07:17 UTC] buy | [LLM] $Moka at $4.161e-06, spent 0.1 SOL
 - **Reasoning:** $Moka at 0.9min, $5.7k mcap, 23% bonded with Twitter. Fresh launch with a cute mascot narrative, decent liquidity forming.
 
+## [2026-08-27 07:18 UTC] sell | [TP +100% (75%)] $NLD at $9.58474e-06 | P&L: +104.2%
+- **Reasoning:** Auto take-profit at +104.2%
+
+## [2026-08-27 07:18 UTC] sell | [TP +100% (75%)] $beerdog at $9.08033e-06 | P&L: +101.4%
+- **Reasoning:** Auto take-profit at +101.4%
+
+## [2026-08-27 07:19 UTC] sell | [FULL][LLM] $NLD at $9.58474e-06 | P&L: +104.2%
+- **Reasoning:** +104% is well past the +100% TP threshold; if still held, lock gains now before reversal.
+
+## [2026-08-27 07:19 UTC] sell | [FULL][LLM] $5M at $4.30646e-06 | P&L: -0.0%
+- **Reasoning:** Flat at 0%, pool only $709 — no momentum, weak liquidity, exit stale capital.
+
+## [2026-08-27 07:19 UTC] sell | [FULL][LLM] $beerdog at $9.08033e-06 | P&L: +101.4%
+- **Reasoning:** +101% past +100% TP threshold — lock the profit.
+
+## [2026-08-27 07:19 UTC] sell | [FULL][LLM] $NL at $3.00238e-06 | P&L: -50.5%
+- **Reasoning:** -50.5% should already be auto-stopped; if still open, hard cap means exit immediately.
+
+## [2026-08-27 07:19 UTC] sell | [FULL][LLM] $Moka at $3.15189e-06 | P&L: -24.2%
+- **Reasoning:** -24% with no bounce signal and pool only $167 — losers exit fast per rules.
+
+## [2026-08-27 07:19 UTC] buy | [LLM] $BUKELE at $7.70366e-06, spent 0.1 SOL
+- **Reasoning:** $BUKELE — Nayib Bukele is a legendary memecoin magnet (El Salvador president, bitcoin-law fame). High viral attention, mcap only $7.6k, classic political-meme play. Strong narrative.
+
+## [2026-08-27 07:19 UTC] buy | [LLM] $IPR at $3.03215e-06, spent 0.1 SOL
+- **Reasoning:** $IPR 'Infinite Pump Rewards' — novel mechanism: every 30s bot distributes $PUMP to holders from creator rewards. Passive-yield hook creates holder retention and viral narrative. mcap $3k, asymmetric.
+
