@@ -4489,3 +4489,18 @@
 ## [2026-08-27 08:15 UTC] sell | [FULL][LLM] $Cooked at $3.14685e-06 | P&L: -48.0%
 - **Reasoning:** -48% with $137 pool (below 5x liquidity rule), no bounce signal. Will hit -50% hard stop otherwise — exit now to preserve capital.
 
+## [2026-08-27 08:16 UTC] sell | [TP +30% (half)] $RWDT at $1.51717e-05 | P&L: +64.9%
+- **Reasoning:** Auto take-profit at +64.9%
+
+## [2026-08-27 08:16 UTC] sell | [TP +100% (75%)] $birb at $1.642e-05 | P&L: +116.7%
+- **Reasoning:** Auto take-profit at +116.7%
+
+## [2026-08-27 08:17 UTC] sell | [PARTIAL][LLM] $RWDT at $1.51717e-05 | P&L: +64.9%
+- **Reasoning:** $RWDT at +64.9% in 0.1h with small $4k pool — lock half now per aggressive profit discipline, let half ride if momentum continues on bonding curve.
+
+## [2026-08-27 08:17 UTC] sell | [PARTIAL][LLM] $birb at $1.642e-05 | P&L: +116.7%
+- **Reasoning:** $birb at +116.7% in 0.0h — massive gain, lock half immediately per scalp discipline. Don't hope at +100%+, take the win.
+
+## [2026-08-27 08:17 UTC] buy | [LLM] $Thank at $6.337e-06, spent 0.1 SOL
+- **Reasoning:** $Thank (Slater and Raja) — highest mcap ($9.8k) of fresh launches with a real Twitter link, 1min old. Has narrative + attention signal at reasonable entry.
+

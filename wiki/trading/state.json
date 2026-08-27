@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.039454,
+  "balance_sol": 0.989073,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -17,9 +17,9 @@
     "RwjZTWRJxifXz2sUKmbZHXymMFnehnTZHPAB8yDpump": {
       "symbol": "RWDT",
       "name": "Robotic Worm Dildo Technology",
-      "amount": 17468.828099532762,
+      "amount": 4367.207024883191,
       "entry_price_usd": 9.203e-06,
-      "entry_sol_spent": 0.0015625,
+      "entry_sol_spent": 0.000390625,
       "entry_time": "2026-08-27T08:10:37.938051+00:00",
       "entry_usd_value": 10.289000000000001,
       "entry_signals": {
@@ -39,9 +39,9 @@
     "FkKW7t1eHVHbT3dX4ZUagNwR7NBLs5jGzhyPYTqrpump": {
       "symbol": "birb",
       "name": "birb",
-      "amount": 341190.5411684612,
+      "amount": 42648.81764605765,
       "entry_price_usd": 7.577877133245091e-06,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.003125,
       "entry_time": "2026-08-27T08:13:46.215301+00:00",
       "entry_usd_value": 10.342,
       "entry_signals": {
@@ -54,6 +54,28 @@
         "real_sol_reserves": 31.338456024,
         "description": "",
         "twitter": "https://x.com/heishimmy/status/2092887994936258684?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "GtV4tDTSxHVSitPeEY1NdzjBoUEcJKtiJPziqr4Kpump": {
+      "symbol": "Thank",
+      "name": "Slater and Raja",
+      "amount": 1622218.7154805115,
+      "entry_price_usd": 6.337e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T08:17:05.830662+00:00",
+      "entry_usd_value": 10.280000000000001,
+      "entry_signals": {
+        "liquidity_usd": 4322.7810980008,
+        "volume_24h_usd": 1514.51,
+        "market_cap_usd": 9785.213768887032,
+        "ath_market_cap_usd": 9820.105598733398,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 42.050399786,
+        "description": "",
+        "twitter": "https://x.com/CBPAMO/status/2092698975421817093",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -10225,43 +10247,81 @@
       "pnl_pct": -47.99,
       "exit_reason": "LLM: sell_all — -48% with $137 pool (below 5x liquidity rule), no bounce signal. Will hit -50% hard stop otherwise — exit now to preserve capital.",
       "partial": false
+    },
+    {
+      "mint": "RwjZTWRJxifXz2sUKmbZHXymMFnehnTZHPAB8yDpump",
+      "symbol": "RWDT",
+      "name": "Robotic Worm Dildo Technology",
+      "amount_sold": 8734.414049766381,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T08:10:37.938051+00:00",
+      "exit_time": "2026-08-27T08:16:29.452451+00:00",
+      "entry_price_usd": 9.203e-06,
+      "exit_price_usd": 1.5171710138860431e-05,
+      "entry_sol_for_chunk": 0.000781,
+      "exit_sol_received": 0.001289,
+      "pnl_sol": 0.000508,
+      "pnl_pct": 64.86,
+      "exit_reason": "auto-TP +30% (half)",
+      "partial": true
+    },
+    {
+      "mint": "FkKW7t1eHVHbT3dX4ZUagNwR7NBLs5jGzhyPYTqrpump",
+      "symbol": "birb",
+      "name": "birb",
+      "amount_sold": 255892.9058763459,
+      "fraction_sold": 0.75,
+      "entry_time": "2026-08-27T08:13:46.215301+00:00",
+      "exit_time": "2026-08-27T08:16:29.452650+00:00",
+      "entry_price_usd": 7.577877133245091e-06,
+      "exit_price_usd": 1.6419970054711325e-05,
+      "entry_sol_for_chunk": 0.01875,
+      "exit_sol_received": 0.040873,
+      "pnl_sol": 0.022123,
+      "pnl_pct": 116.68,
+      "exit_reason": "auto-TP +100% (75%)",
+      "partial": true
+    },
+    {
+      "mint": "RwjZTWRJxifXz2sUKmbZHXymMFnehnTZHPAB8yDpump",
+      "symbol": "RWDT",
+      "name": "Robotic Worm Dildo Technology",
+      "amount_sold": 4367.207024883191,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T08:10:37.938051+00:00",
+      "exit_time": "2026-08-27T08:17:05.446263+00:00",
+      "entry_price_usd": 9.203e-06,
+      "exit_price_usd": 1.5171710138860431e-05,
+      "entry_sol_for_chunk": 0.000391,
+      "exit_sol_received": 0.000645,
+      "pnl_sol": 0.000254,
+      "pnl_pct": 64.86,
+      "exit_reason": "LLM: sell_half — $RWDT at +64.9% in 0.1h with small $4k pool — lock half now per aggressive profit discipline, let half ride if momentum continues on bonding curve.",
+      "partial": true
+    },
+    {
+      "mint": "FkKW7t1eHVHbT3dX4ZUagNwR7NBLs5jGzhyPYTqrpump",
+      "symbol": "birb",
+      "name": "birb",
+      "amount_sold": 42648.81764605765,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T08:13:46.215301+00:00",
+      "exit_time": "2026-08-27T08:17:05.446447+00:00",
+      "entry_price_usd": 7.577877133245091e-06,
+      "exit_price_usd": 1.6419970054711325e-05,
+      "entry_sol_for_chunk": 0.003125,
+      "exit_sol_received": 0.006812,
+      "pnl_sol": 0.003687,
+      "pnl_pct": 116.68,
+      "exit_reason": "LLM: sell_half — $birb at +116.7% in 0.0h — massive gain, lock half immediately per scalp discipline. Don't hope at +100%+, take the win.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T08:15:25.422990+00:00",
+  "last_updated": "2026-08-27T08:17:06.123381+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.21,
-  "portfolio_value_usd": 120.03,
+  "last_sol_price_usd": 102.8,
+  "portfolio_value_usd": 122.32,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 08:11 UTC",
-      "action": "sell",
-      "details": "[TP +30% (half)] $RWDT at $1.71411e-05 | P&L: +86.3%",
-      "reason": "Auto take-profit at +86.3%"
-    },
-    {
-      "time": "2026-08-27 08:12 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $ELEPHANTS at $4.27867e-06 | P&L: +12.7%",
-      "reason": "Up +12.7% on a bonding-curve token with only $670 pool liquidity. Take half profit to lock gains before the curve dumps or sells fail."
-    },
-    {
-      "time": "2026-08-27 08:12 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $apeinbed at $4.0535e-06 | P&L: +26.2%",
-      "reason": "Up +26.2% — this is exactly where the 'be aggressive on profit-taking' rule fires. Lock half; let the rest ride if narrative continues."
-    },
-    {
-      "time": "2026-08-27 08:12 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $horse at $2.89627e-06 | P&L: -46.4%",
-      "reason": "Down -46.4%, approaching hard stop. Pool is $0, our share is absurdly high (40M% = nearly all supply). This is dead/dumped. Cut loss NOW before -50% auto-trigger and rug-pull risk."
-    },
-    {
-      "time": "2026-08-27 08:12 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $RWDT at $1.71411e-05 | P&L: +86.3%",
-      "reason": "Up +86.3% with $4.5k liquidity. Take half profit at this level — the +100% TP threshold is approaching and I want to lock in gains before potential reversal."
-    },
     {
       "time": "2026-08-27 08:12 UTC",
       "action": "buy",
@@ -10351,28 +10411,58 @@
       "action": "sell",
       "details": "[FULL][LLM] $Cooked at $3.14685e-06 | P&L: -48.0%",
       "reason": "-48% with $137 pool (below 5x liquidity rule), no bounce signal. Will hit -50% hard stop otherwise — exit now to preserve capital."
+    },
+    {
+      "time": "2026-08-27 08:16 UTC",
+      "action": "sell",
+      "details": "[TP +30% (half)] $RWDT at $1.51717e-05 | P&L: +64.9%",
+      "reason": "Auto take-profit at +64.9%"
+    },
+    {
+      "time": "2026-08-27 08:16 UTC",
+      "action": "sell",
+      "details": "[TP +100% (75%)] $birb at $1.642e-05 | P&L: +116.7%",
+      "reason": "Auto take-profit at +116.7%"
+    },
+    {
+      "time": "2026-08-27 08:17 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RWDT at $1.51717e-05 | P&L: +64.9%",
+      "reason": "$RWDT at +64.9% in 0.1h with small $4k pool — lock half now per aggressive profit discipline, let half ride if momentum continues on bonding curve."
+    },
+    {
+      "time": "2026-08-27 08:17 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $birb at $1.642e-05 | P&L: +116.7%",
+      "reason": "$birb at +116.7% in 0.0h — massive gain, lock half immediately per scalp discipline. Don't hope at +100%+, take the win."
+    },
+    {
+      "time": "2026-08-27 08:17 UTC",
+      "action": "buy",
+      "details": "[LLM] $Thank at $6.337e-06, spent 0.1 SOL",
+      "reason": "$Thank (Slater and Raja) — highest mcap ($9.8k) of fresh launches with a real Twitter link, 1min old. Has narrative + attention signal at reasonable entry."
     }
   ],
   "trade_stats": {
-    "total": 598,
-    "wins": 287,
+    "total": 602,
+    "wins": 291,
     "losses": 311,
-    "win_rate_pct": 48.0,
-    "total_pnl_sol": -0.833975,
-    "avg_pnl_pct": 55.75,
+    "win_rate_pct": 48.3,
+    "total_pnl_sol": -0.807403,
+    "avg_pnl_pct": 55.98,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 57,
-    "today_realized_sol": 0.598254,
-    "today_target_pct": 149.6,
+    "today_trades": 61,
+    "today_realized_sol": 0.624826,
+    "today_target_pct": 156.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 287,
+      "win_count": 291,
       "loss_count": 311,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T08:15:25.422568+00:00",
+  "last_llm_brief_at": "2026-08-27T08:17:05.446155+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FAKE_HARDSTOP_MINT_pump": {
@@ -10387,48 +10477,26 @@
       "real_sol_reserves": 0
     },
     "RwjZTWRJxifXz2sUKmbZHXymMFnehnTZHPAB8yDpump": {
-      "price_usd": 1.764004395841122e-05,
+      "price_usd": 1.5171710138860431e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4559.15858699616,
-      "volume_h24": 65305.34,
+      "liquidity_usd": 4001.5622325228,
+      "volume_h24": 74060.24,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 44.173612896
-    },
-    "9inPtsieaTP4dkvnaQmou9BKTh18Vq8gACvMvh4xpump": {
-      "price_usd": 3.14685320768313e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 137.10138754778998,
-      "volume_h24": 13592.85,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.328373099
-    },
-    "P5Gi2PLUj4Z7qeCm4SM8nyNchEJ8N4Avx2J8Lprpump": {
-      "price_usd": 2.889497239742372e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2.0645885856499997,
-      "volume_h24": 4394.6,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.020003765
+      "real_sol_reserves": 38.925702651
     },
     "FkKW7t1eHVHbT3dX4ZUagNwR7NBLs5jGzhyPYTqrpump": {
-      "price_usd": 1.491506151039304e-05,
+      "price_usd": 1.6419970054711325e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3943.07177772369,
-      "volume_h24": 22535.14,
+      "liquidity_usd": 4287.2854200520005,
+      "volume_h24": 39273.39,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 38.204357889
+      "real_sol_reserves": 41.70511109
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
