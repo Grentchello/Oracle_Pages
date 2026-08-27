@@ -4075,3 +4075,9 @@
 ## [2026-08-27 07:11 UTC] buy | [LLM] $tripletung at $5.48569e-06, spent 0.1 SOL
 - **Reasoning:** $tripletung has the strongest meme hook (tung tung tung, Italian brainrot / viral sound meme) and a dedicated X account @tripletung at 0.3min age — exactly the kind of attention narrative that pumps fresh launches. Risk: ultra-low mcap, may rug.
 
+## [2026-08-27 07:11 UTC] sell | [PARTIAL][LLM] $tripletung at $6.80494e-06 | P&L: +24.1%
+- **Reasoning:** Up +24% on a fresh launch with weak liquidity ($1673 pool, only 1% of supply). Lock half the gain now per profit-taking discipline — a pullback to entry would erase this fast, and 1% supply share on a $1.7k pool means even small sells move price.
+
+## [2026-08-27 07:11 UTC] buy | [LLM] $MOLWAR at $1.12805e-06, spent 0.1 SOL
+- **Reasoning:** The Mask (1994) is a nostalgic viral meme with Jim Carrey — strong narrative, 0.3min old, $1.1k mcap = classic early entry. Risk: sub-$2k mcap with 6% bonding is highly volatile, but the attention thesis is real.
+

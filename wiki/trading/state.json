@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.649242,
+  "balance_sol": 0.611266,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7Y8oMXXchTH8vjgcxz8RNfHHcg97ASuppzfo8M7ypump": {
       "symbol": "tripletung",
       "name": "tung tung tung ",
-      "amount": 1843707.08734684,
+      "amount": 921853.54367342,
       "entry_price_usd": 5.4856869995300645e-06,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.05,
       "entry_time": "2026-08-27T07:11:34.003659+00:00",
       "entry_usd_value": 10.114,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 16.38628874,
         "description": "tripletung",
         "twitter": "https://x.com/tripletung/",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "FjSsH1pMNQyfJ8WYmKdxo8QyH7KAxzaQ3NVWjBeEpump": {
+      "symbol": "MOLWAR",
+      "name": "Molten Warrior",
+      "amount": 8965908.878865084,
+      "entry_price_usd": 1.1280507237633496e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T07:11:56.895047+00:00",
+      "entry_usd_value": 10.114,
+      "entry_signals": {
+        "liquidity_usd": 165.40392221054,
+        "volume_24h_usd": null,
+        "market_cap_usd": 1128.9261443309795,
+        "ath_market_cap_usd": 4520.1348417396775,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.635395711,
+        "description": "The Mask (1994) is a fantasy-comedy film starring Jim Carrey as Stanley Ipkiss, a timid bank clerk who finds a magical mask that transforms him into a zany, green-faced, cartoonish superhero with superhuman abilities, leading him to woo a nightclub singer (Cameron Diaz) and clash with a mob boss (Pe",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -8713,25 +8735,30 @@
       "pnl_pct": -82.57,
       "exit_reason": "LLM: sell_all — $BLINDAPE at -82.6% with only $11 pool liquidity and 16% of pool — this is a dead bonding-curve token with no path back. Cut it now.",
       "partial": false
+    },
+    {
+      "mint": "7Y8oMXXchTH8vjgcxz8RNfHHcg97ASuppzfo8M7ypump",
+      "symbol": "tripletung",
+      "name": "tung tung tung ",
+      "amount_sold": 921853.54367342,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T07:11:34.003659+00:00",
+      "exit_time": "2026-08-27T07:11:56.549658+00:00",
+      "entry_price_usd": 5.4856869995300645e-06,
+      "exit_price_usd": 6.804938301037399e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.062024,
+      "pnl_sol": 0.012024,
+      "pnl_pct": 24.05,
+      "exit_reason": "LLM: sell_half — Up +24% on a fresh launch with weak liquidity ($1673 pool, only 1% of supply). Lock half the gain now per profit-taking discipline — a pullback to ent",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T07:11:34.004005+00:00",
+  "last_updated": "2026-08-27T07:11:57.178349+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.14,
-  "portfolio_value_usd": 75.78,
+  "portfolio_value_usd": 77.08,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 03:38 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MUFASA at $4.29063e-06 | P&L: -20.9%",
-      "reason": "MUFASA down -20.9%, no bounce signal visible, pool $700 with only 1% share — exit is clean. Discipline says >20% down with no bounce = cut before -50% stop hits. Capital rotation beats bag-holding a dying bonding-curve token."
-    },
-    {
-      "time": "2026-08-27 03:38 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GOXX at $2.90703e-06 | P&L: -19.9%",
-      "reason": "GOXX -19.9% on a $38 pool where I hold 21% — this is the worst kind of bag. Illiquid, my own exit will drag price further, and there's no narrative rescue here. Cut now, take the small loss, free the slot."
-    },
     {
       "time": "2026-08-27 03:38 UTC",
       "action": "buy",
@@ -8839,51 +8866,52 @@
       "action": "buy",
       "details": "[LLM] $tripletung at $5.48569e-06, spent 0.1 SOL",
       "reason": "$tripletung has the strongest meme hook (tung tung tung, Italian brainrot / viral sound meme) and a dedicated X account @tripletung at 0.3min age — exactly the kind of attention narrative that pumps fresh launches. Risk: ultra-low mcap, may rug."
+    },
+    {
+      "time": "2026-08-27 07:11 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $tripletung at $6.80494e-06 | P&L: +24.1%",
+      "reason": "Up +24% on a fresh launch with weak liquidity ($1673 pool, only 1% of supply). Lock half the gain now per profit-taking discipline — a pullback to entry would erase this fast, and 1% supply share on a $1.7k pool means even small sells move price."
+    },
+    {
+      "time": "2026-08-27 07:11 UTC",
+      "action": "buy",
+      "details": "[LLM] $MOLWAR at $1.12805e-06, spent 0.1 SOL",
+      "reason": "The Mask (1994) is a nostalgic viral meme with Jim Carrey — strong narrative, 0.3min old, $1.1k mcap = classic early entry. Risk: sub-$2k mcap with 6% bonding is highly volatile, but the attention thesis is real."
     }
   ],
   "trade_stats": {
-    "total": 511,
-    "wins": 234,
+    "total": 512,
+    "wins": 235,
     "losses": 277,
-    "win_rate_pct": 45.8,
-    "total_pnl_sol": -1.150749,
-    "avg_pnl_pct": 60.47,
+    "win_rate_pct": 45.9,
+    "total_pnl_sol": -1.138725,
+    "avg_pnl_pct": 60.4,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 2,
-    "today_realized_sol": -0.165292,
-    "today_target_pct": -41.3,
+    "today_trades": 3,
+    "today_realized_sol": -0.153268,
+    "today_target_pct": -38.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 234,
+      "win_count": 235,
       "loss_count": 277,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T07:11:33.699962+00:00",
+  "last_llm_brief_at": "2026-08-27T07:11:56.549622+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "6b7KszjvMVLp6Tm4ZBXXzPwNdJgkqY2zpBBHpMjwpump": {
-      "price_usd": 3.580906434149328e-06,
+    "7Y8oMXXchTH8vjgcxz8RNfHHcg97ASuppzfo8M7ypump": {
+      "price_usd": 6.804938301037399e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 380.23185883904,
-      "volume_h24": 15319.31,
+      "liquidity_usd": 1672.6901086636,
+      "volume_h24": 0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.759460736
-    },
-    "58FvXY9Dnyx85wRpRw1UytZkkFXFKJDy19PAKwtapump": {
-      "price_usd": 2.8487305423901967e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 11.22318174744,
-      "volume_h24": 9481.17,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.110966796
+      "real_sol_reserves": 16.53836374
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
