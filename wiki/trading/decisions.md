@@ -3220,3 +3220,12 @@
 ## [2026-08-27 02:07 UTC] buy | [LLM] $BANANAPET at $2.90381e-06, spent 0.1 SOL
 - **Reasoning:** Banana Pet has a perfect absurdist viral narrative - 'people walking bananas on leashes' is exactly the kind of weird internet moment that pumps. Strong meme potential at $2.9k mcap.
 
+## [2026-08-27 02:08 UTC] sell | [PARTIAL][LLM] $MOON at $0.0001098 | P&L: +2884.2%
+- **Reasoning:** At +2884% with 24h=1h move nearly identical, the initial pump is likely exhausting. Lock half the gains per the +50% take-profit rule, keep the other half for any continuation — narrative is strong but the easy money is made.
+
+## [2026-08-27 02:08 UTC] sell | [FULL][LLM] $BANANAPET at $2.902e-06 | P&L: -0.1%
+- **Reasoning:** Flat 24h (-0.1% now, +0.6% 24h, +0.6% 1h), no momentum, weakest narrative of the held bag. Freeing the slot to deploy into a fresher attention play.
+
+## [2026-08-27 02:08 UTC] buy | [LLM] $NetNut at $3.27433e-06, spent 0.1 SOL
+- **Reasoning:** Concrete viral moment: squirrel running on the net during a live Mets MLB game — this type of organic live-sports viral footage has historical 10x+ memecoin precedent (see: $Rally, various stadium animal coins). $3.2k mcap is the sweet spot, 0.1min age means pure early attention. Risk: 0.1min = extreme rug risk, size is already 0.1 SOL which is our standard risk unit.
+
