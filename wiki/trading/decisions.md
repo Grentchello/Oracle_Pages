@@ -6022,3 +6022,24 @@
 ## [2026-08-27 11:07 UTC] buy | [LLM] $DOOM at $3.26e-06, spent 0.05 SOL
 - **Reasoning:** $DOOM tied to Avengers: Doomsday — major film release catalyst (Dec 2026 theatrical). Brand-name IP with built-in audience. $3.2k mcap is still small enough for upside.
 
+## [2026-08-27 11:08 UTC] sell | [TP +30% (25%)] $ILY at $3.65383e-05 | P&L: +38.1%
+- **Reasoning:** Auto take-profit at +38.1%
+
+## [2026-08-27 11:09 UTC] sell | [PARTIAL][LLM] $ILY at $3.65383e-05 | P&L: +38.1%
+- **Reasoning:** $ILY is +38.1% and just crossed the +30% threshold. Bonding curve momentum is strong but memecoins give back gains fast — lock half profit, let the rest ride with the narrative.
+
+## [2026-08-27 11:09 UTC] sell | [PARTIAL][LLM] $OSTRICH at $7.35688e-06 | P&L: +29.3%
+- **Reasoning:** $OSTRICH at +29.3%, near +30% TP. Pool only $1,839 and our share is 0% (illiquid exit risk) — take half off the table now to lock gains before a possible retrace.
+
+## [2026-08-27 11:09 UTC] sell | [FULL][LLM] $Melati at $3.06296e-06 | P&L: +0.1%
+- **Reasoning:** $Melati at +0.1% with pool only $74 (way below 5x position size rule) and our share at 7%. Stale, illiquid, no momentum — free up the slot.
+
+## [2026-08-27 11:09 UTC] sell | [FULL][LLM] $DOOM at $3.26178e-06 | P&L: +0.1%
+- **Reasoning:** $DOOM flat at +0.1%, pool $177, our share 3%. No narrative, no movement, dead in the water — cut and redeploy capital.
+
+## [2026-08-27 11:09 UTC] buy | [LLM] $Fig at $5.92272e-06, spent 0.05 SOL
+- **Reasoning:** $Fig (Pumpfun Turtle) — meta-narrative plays well (turtle = slow/steady vs pump culture), $5.9k mcap, fresh creator @CubeExtrem60235 posting immediately. Early attention signal, asymmetric upside.
+
+## [2026-08-27 11:09 UTC] buy | [LLM] $CuteCat at $5.47559e-06, spent 0.05 SOL
+- **Reasoning:** $CuteCat with active poster @K1rajj, animal meme is reliable attention magnet, $5.5k mcap fresh. Simple cute narrative = retail appeal.
+
