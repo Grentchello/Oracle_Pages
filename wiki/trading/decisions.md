@@ -5083,3 +5083,24 @@
 ## [2026-08-27 09:26 UTC] buy | [LLM] $LABEL at $4.00458e-06, spent 0.05 SOL
 - **Reasoning:** $LABEL — 'Label Truth' from candacedev_arc has a personality-driven narrative (truth-telling meta), low $4k mcap, super early. Small bet on narrative virality. Risk: generic name, thin liquidity at 13% bond.
 
+## [2026-08-27 09:27 UTC] sell | [TP +100% (50%)] $Tapping at $2.25713e-05 | P&L: +111.4%
+- **Reasoning:** Auto take-profit at +111.4%
+
+## [2026-08-27 09:27 UTC] sell | [TP +30% (25%)] $APOO at $1.34269e-05 | P&L: +88.6%
+- **Reasoning:** Auto take-profit at +88.6%
+
+## [2026-08-27 09:27 UTC] sell | [PARTIAL][LLM] $Tapping at $2.25713e-05 | P&L: +111.4%
+- **Reasoning:** Up +111% — strong pump but sub-1min old on a 5.6k pool. Take half off the table to lock gains; let the runner ride free.
+
+## [2026-08-27 09:27 UTC] sell | [PARTIAL][LLM] $APOO at $1.34269e-05 | P&L: +88.6%
+- **Reasoning:** Up +88% on a 3.6k pool, minutes old. Profit-take half now — bonding-curve microcaps give back fast.
+
+## [2026-08-27 09:27 UTC] sell | [FULL][LLM] $LABEL at $4.48213e-06 | P&L: +11.9%
+- **Reasoning:** +12% with weak738 pool and 1% ownership. Sub-$1k pool means exit liquidity is thin; lock the small gain and free a position slot.
+
+## [2026-08-27 09:27 UTC] buy | [LLM] $inno at $1.2759e-05, spent 0.05 SOL
+- **Reasoning:** $inno — wholesome 'keep it simple' narrative with @littledoginno twitter attached. Highest mcap of the new batch ($12.8k) and34% bonded signals real demand. Risky sub-1min old but narrative is differentiated vs. the monkey spam.
+
+## [2026-08-27 09:27 UTC] buy | [LLM] $TopKek at $6.529e-06, spent 0.05 SOL
+- **Reasoning:** $TopKek — pure meme-energy name, classic shitpost appeal, FeygoNFA twitter attached. Bonding at 25% already with6.5k mcap. Meme names like this have the kind of viral spread the others lack.
+
