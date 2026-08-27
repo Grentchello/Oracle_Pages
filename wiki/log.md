@@ -173,3 +173,13 @@
 - LLM now sees staleness directly in the position line so it can act before the 30-min auto-exit
 - Reset today's PnL counter to 0 (was -0.4562 SOL from yesterday's over-trading) — bot will resume trading
 - Files: bot/bot.py
+
+## [2026-08-27] update | Bot v7: survival-focused risk reduction
+- Grant: down 1.39 SOL (-69.5%), demands action
+- Three changes to make bot survive:
+  1. Position size: 0.1 → 0.05 SOL (max loss $10 → $5 per trade)
+  2. Hard stop: -50% → -30% (cut losers faster)
+  3. TP tiers rebalanced: +30% sell 25%, +100% sell 50%, +200% sell 75%, +500% sell 100% (let winners run longer)
+- Daily loss cap: -0.4 → -0.20 SOL (stop bleeding sooner)
+- Also fixed: missing daily journals for 2026-08-26 and 2026-08-27 (created catch-up entries)
+- Files: bot/bot.py, wiki/daily/2026-08-26.md, wiki/daily/2026-08-27.md
