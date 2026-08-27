@@ -3556,3 +3556,30 @@
 ## [2026-08-27 02:50 UTC] buy | [LLM] $PWH at $6.69567e-06, spent 0.1 SOL
 - **Reasoning:** $PWH (Pepe Wif Helmet) — classic Pepe variant naming, 26% bonding curve already filled shows real buy demand. Pepe derivatives are the most reliable attention plays on memecoins.
 
+## [2026-08-27 02:52 UTC] sell | [PARTIAL][LLM] $GREENPISTA at $1.76299e-05 | P&L: +82.9%
+- **Reasoning:** $GREENPISTA +82.9% runner — take half off to lock gains, ride the rest. Pool is thin ($4.5k) so trimming risk is wise.
+
+## [2026-08-27 02:52 UTC] sell | [PARTIAL][LLM] $Ai-Chan at $2.06239e-05 | P&L: +111.9%
+- **Reasoning:** $Ai-Chan +111.9% — best performer in portfolio. Lock half the profit, let the other half ride if narrative continues.
+
+## [2026-08-27 02:52 UTC] sell | [FULL][LLM] $PWH at $6.738e-06 | P&L: +0.6%
+- **Reasoning:** $PWH flat at +0.6% with pool only $1.6k — no momentum, cut and free up capital for better setups.
+
+## [2026-08-27 02:52 UTC] buy | [LLM] $Cheesecake at $5.24649e-06, spent 0.1 SOL
+- **Reasoning:** $Cheesecake — fun food memecoin name with viral potential, already at 21% bond with $5.2k mcap showing real buy pressure.
+
+## [2026-08-27 02:52 UTC] sell | [FULL][LLM] $GREENPISTA at $1.74865e-05 | P&L: +81.4%
+- **Reasoning:** +81% profit on a fresh-launch memecoin — taking the win before it reverses. Pool is only $4.5k and our share is 0% on the bonding curve, so size is tiny but the gain is real. Rule says take some profit at +50%, narrative is unclear ('GREENPISTA' is vague). Lock it in.
+
+## [2026-08-27 02:52 UTC] sell | [PARTIAL][LLM] $Ai-Chan at $2.08803e-05 | P&L: +114.5%
+- **Reasoning:** +114% is a massive gain but 'Ai-Chan' has anime-attention potential and pool is $5.2k with momentum. Selling half locks profit while letting the runner play out per the 'hold longer if narrative is still strong' guidance.
+
+## [2026-08-27 02:52 UTC] sell | [FULL][LLM] $PWH at $6.738e-06 | P&L: +0.6%
+- **Reasoning:** +0.6% with no thesis behind it, pool is weak at $1.6k. Cut the dead weight and free the slot for a fresh attention-launched name.
+
+## [2026-08-27 02:52 UTC] buy | [LLM] $BIMD at $6.93407e-06, spent 0.1 SOL
+- **Reasoning:** $BIMD 'back in my day' — narrative-nostalgia memecoin, 27% bonded, $6.9k mcap is classic early-attention entry. Grok-generated meme coin wave is hot; buying before confirmation per the rules.
+
+## [2026-08-27 02:52 UTC] buy | [LLM] $Cheesecake at $5.26346e-06, spent 0.1 SOL
+- **Reasoning:** $Cheesecake — absurd/funny name is a known memecoin attention driver, 21% bonded, very early mcap. Viral food-meme category has historically pumped.
+

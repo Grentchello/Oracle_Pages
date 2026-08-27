@@ -1075,6 +1075,11 @@ def main():
             if eff_liq < pos_value_usd * 5:
                 log(f"LIQUIDITY GATE: ${token.get('symbol')} rejected — pool ${eff_liq:.0f} < 5x position ${pos_value_usd:.2f}")
                 continue
+            # Dedup by symbol within tick — LLM sometimes picks same mint twice
+            existing_syms = {p.get("symbol") for p in state.get("positions", {}).values()}
+            if token.get("symbol") in existing_syms:
+                log(f"DUPE SKIP: ${token.get('symbol')} already held")
+                continue
             pos, err = execute_buy(state, target_mint, token, _to_float(token["price_usd"]), sol_price)
             if pos:
                 log(f"LLM BUY ${pos['symbol']}: ${pos['amount']:.4f} tokens @ ${pos['entry_price_usd']:.6g}")
