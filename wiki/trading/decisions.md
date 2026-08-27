@@ -6424,3 +6424,6 @@
 ## [2026-08-27 11:58 UTC] buy | [LLM] $CIGR at $3.88401e-05, spent 0.05 SOL
 - **Reasoning:** $CIGR has the highest mcap ($44k) and is furthest along bonding curve (42% complete, complete=True) — real capital is already flowing in. Acronym ticker with no obvious narrative but the momentum itself is the signal.
 
+## [2026-08-27 11:59 UTC] sell | [hard-stop] $YOU closed at $2.90494e-06 | P&L: -33.8%
+- **Reasoning:** Hard -30% stop
+
