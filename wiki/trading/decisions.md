@@ -5530,3 +5530,15 @@
 ## [2026-08-27 10:16 UTC] sell | [TP +30% (25%)] $RAYPRICE at $7.32581e-06 | P&L: +30.9%
 - **Reasoning:** Auto take-profit at +30.9%
 
+## [2026-08-27 10:17 UTC] sell | [PARTIAL][LLM] $aped at $9.45085e-06 | P&L: +24.7%
+- **Reasoning:** +24.7% is right at the TP1 zone. Lock half to protect gains, let the rest ride if the ape narrative has legs. Pool is only $2504 — thin, take what we can.
+
+## [2026-08-27 10:17 UTC] sell | [FULL][LLM] $RAYPRICE at $7.32581e-06 | P&L: +30.9%
+- **Reasoning:** +30.9% — past the +25% TP threshold. Discipline: lock the gain. RAYPRICE narrative is thin ('retarded footballer') and we've banked 30%. Don't hope for more on a memecoin.
+
+## [2026-08-27 10:17 UTC] buy | [LLM] $Chat at $9.71176e-06, spent 0.05 SOL
+- **Reasoning:** $Chat — 'Chat Agent' rides the AI agent meta which is genuinely hot narrative on CT right now. Fresh (0.1min), bonding31% already moving, has X attention. Risky but narrative is real.
+
+## [2026-08-27 10:17 UTC] buy | [LLM] $Narendra at $9.19155e-06, spent 0.05 SOL
+- **Reasoning:** $Narendra — 'The hero dog' story format is classic viral memecoin fuel (think dog meta). X post exists, 0.3min old, $9k mcap. Dog coins with stories5-10x routinely when they catch. Speculative but attention-positive.
+
