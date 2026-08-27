@@ -6232,3 +6232,6 @@
 ## [2026-08-27 11:34 UTC] buy | [LLM] $Fafo  at $3.14011e-06, spent 0.05 SOL
 - **Reasoning:** $Fafo has the 'fuck around and find out' meme which is a strong evergreen crypto-culture attention trigger. Low mcap early entry. Risk: minimal liquidity at $3k mcap could mean rug risk, but name recognition is universal in crypto Twitter.
 
+## [2026-08-27 11:35 UTC] sell | [hard-stop] $Fafo  closed at $6.03707e-08 | P&L: -98.1%
+- **Reasoning:** Hard -30% stop
+
