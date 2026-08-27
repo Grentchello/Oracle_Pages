@@ -6700,3 +6700,9 @@
 ## [2026-08-27 12:34 UTC] sell | [TP +30% (25%)] $Robolympics at $1.14419e-05 | P&L: +66.2%
 - **Reasoning:** Auto take-profit at +66.2%
 
+## [2026-08-27 12:35 UTC] sell | [FULL][LLM] $Robolympics at $1.14419e-05 | P&L: +66.2%
+- **Reasoning:** +66% gain on a thin $3069 bonding-curve pool with 0% pool share — liquidity could vanish in seconds. Lock the gain now before the inevitable pullback. Bot hasn't auto-TP'd likely due to thin liquidity; I should exit before it dumps.
+
+## [2026-08-27 12:35 UTC] sell | [FULL][LLM] $TOADBULL at $7.09048e-06 | P&L: +2.5%
+- **Reasoning:** Only +2.5% after entry, pool $1750 is well below the 5x position-size minimum ($25), and price is flatlining. Stale and illiquid — capital is better deployed elsewhere.
+
