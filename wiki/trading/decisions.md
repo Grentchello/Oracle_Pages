@@ -6292,3 +6292,21 @@
 ## [2026-08-27 11:44 UTC] buy | [LLM] $CAR at $3.03925e-06, spent 0.05 SOL
 - **Reasoning:** $CAR / KITTY KAT — 'TUFF CAR' simple-emoji narrative + X presence at $3k mcap. Animal/vehicle memes pump on attention; small position warranted.
 
+## [2026-08-27 11:45 UTC] sell | [TP +30% (25%)] $pigeon at $6.25419e-06 | P&L: +39.6%
+- **Reasoning:** Auto take-profit at +39.6%
+
+## [2026-08-27 11:45 UTC] sell | [FULL][LLM] $pigeon at $6.25419e-06 | P&L: +39.6%
+- **Reasoning:** $pigeon is up +39.6% and well past the +30% auto-TP threshold. Lock the gain — memecoin pullbacks are violent and I'd rather rotate capital into fresh launches.
+
+## [2026-08-27 11:45 UTC] sell | [PARTIAL][LLM] $GOYPLUG at $3.91703e-06 | P&L: +16.8%
+- **Reasoning:** $GOYPLUG at +16.8% is moving but hasn't crossed the +20% line I'd want for a full exit. Take half off the table to lock profit, let the rest ride with a tighter mental stop.
+
+## [2026-08-27 11:45 UTC] sell | [FULL][LLM] $TREMP at $2.9843e-06 | P&L: +0.1%
+- **Reasoning:** $TREMP is at +0.0% with only $41 pool liquidity — that's the bottom of the barrel. Cut the dead weight and free up a slot.
+
+## [2026-08-27 11:45 UTC] sell | [FULL][LLM] $CAR at $3.04055e-06 | P&L: +0.0%
+- **Reasoning:** $CAR flat at 0.0% with $71 pool — same dead-money pattern. Exit and redeploy capital into something with a pulse.
+
+## [2026-08-27 11:45 UTC] buy | [LLM] $luckydog at $5.88196e-06, spent 0.05 SOL
+- **Reasoning:** $luckydog — 'they will call us lucky' is a cute narrative with a Twitter post already attached, mcap $5.9k is early enough to ride a 5-10x if the dog meta sticks. Risk: low-mcap fresh launch volatility.
+
