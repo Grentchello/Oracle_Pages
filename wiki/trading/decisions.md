@@ -7282,3 +7282,6 @@
 ## [2026-08-27 13:52 UTC] buy | [LLM] $Ape8110 at $3.279e-06, spent 0.05 SOL
 - **Reasoning:** $Ape8110 'Apeonbananaphone' has the strongest narrative of the batch — concrete cultural reference (Nokia 8110 / Matrix banana phone), decent $3.3k mcap with bonding curve just starting. Memorable name + recognizable meme hook = real attention potential. 0.05 SOL position.
 
+## [2026-08-27 13:53 UTC] sell | [TP +30% (25%)] $DISPATCH at $1.04981e-05 | P&L: +97.8%
+- **Reasoning:** Auto take-profit at +97.9%
+
