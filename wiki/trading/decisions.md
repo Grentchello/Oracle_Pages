@@ -7147,3 +7147,12 @@
 ## [2026-08-27 13:28 UTC] buy | [LLM] $KAWS at $3.05318e-06, spent 0.05 SOL
 - **Reasoning:** $KAWS - 'Official Kaws Club' with branded ecosystem (kaws.world). Art/IP tokens with real community backing can run hard. $3k mcap entry is early.
 
+## [2026-08-27 13:30 UTC] sell | [FULL][LLM] $Immigrant at $2.9301e-06 | P&L: -13.9%
+- **Reasoning:** $Immigrant is at -13.9% with pool=$0 and 717M% supply share — that's not a position, it's illiquid bondage. Even though it's not yet at -30%, there's no bounce signal and zero pool liquidity. Cut the loss now per the -20% loser rule.
+
+## [2026-08-27 13:30 UTC] buy | [LLM] $Orwellian at $8.96203e-06, spent 0.05 SOL
+- **Reasoning:** $Orwellian 'Dark Orwellian Shadow' — politically charged narrative tied to a real X post, fresh (0.2min), mcap $8.9k is the lowest attention-buyable. Cultural/political memes travel fast on X. Position size 0.05 SOL per v7 cap.
+
+## [2026-08-27 13:30 UTC] buy | [LLM] $GIGAFROG at $6.78956e-06, spent 0.05 SOL
+- **Reasoning:** $GIGAFROG — absurd-frog naming convention historically prints (PEPE, GIGACHAD, etc.). 0.3min old, mcap $6.7k, real X link. Low-bonding-curve entries with meme-recognition names are asymmetric.
+
