@@ -6742,3 +6742,18 @@
 ## [2026-08-27 12:44 UTC] sell | [PARTIAL][LLM] $GBP at $9.76814e-06 | P&L: +71.4%
 - **Reasoning:** Up +71% in<1min held — strong pump but bonding curve early, lock half the gain per profit-taking discipline while letting the other half ride if narrative continues.
 
+## [2026-08-27 12:45 UTC] sell | [TP +100% (50%)] $GBP at $1.2242e-05 | P&L: +114.8%
+- **Reasoning:** Auto take-profit at +114.8%
+
+## [2026-08-27 12:45 UTC] sell | [FULL][LLM] $GBP at $1.2242e-05 | P&L: +114.8%
+- **Reasoning:** GBP is +114.8%, well past the +100% TP threshold. If bot hasn't auto-TPed, lock it now — rule says be aggressive on profit-taking when up >20% with any doubt. Clear 2x, take the win.
+
+## [2026-08-27 12:45 UTC] buy | [LLM] $QQ at $1.06505e-05, spent 0.05 SOL
+- **Reasoning:** $QQ Shocked Cat at $10.6k mcap, 0.4min old with X post from genyrational. Animal meme, ultra-low mcap = max attention-multiple potential. Animal memes with viral names are the bread and butter.
+
+## [2026-08-27 12:45 UTC] buy | [LLM] $Huggy at $6.557e-06, spent 0.05 SOL
+- **Reasoning:** $Huggy the Dog — dog coin at $5.9k mcap, 0.8min old with X post. Dog memes have the strongest historical attention curve on Solana. Cheap entry, clear narrative.
+
+## [2026-08-27 12:45 UTC] buy | [LLM] $BULLMODE at $3.254e-06, spent 0.05 SOL
+- **Reasoning:** $BULLMODE (Black Bull Mode) at $3.3k mcap from Chinese crypto community — CN memecoin waves on Solana have delivered outsized returns (BULL/NEIRO-style runs). Narrative strong, mcap is tiny.
+

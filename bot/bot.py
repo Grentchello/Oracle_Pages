@@ -485,7 +485,7 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
                 cur_price = _to_float(token.get("price_usd"))
 
         pnl_pct = ((cur_price / entry_price - 1) * 100) if cur_price > 0 and entry_price > 0 else None
-        # Load price history (sparkline) for this mint if available
+        # Load price + market cap history (sparkline) for this mint if available
         price_history = None
         if HAS_SPARKLINES and SPARKLINE_PATH.exists():
             try:
@@ -494,18 +494,20 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
                 if mint_data.get("ts"):
                     # Last 30 buckets (30 min) — compress to 10 data points for prompt
                     ts_list = mint_data["ts"][-30:]
-                    px_list = mint_data["px"][-30:]
+                    px_list = mint_data.get("px", [])[-30:]
+                    mc_list = mint_data.get("mc", [])[-30:]
                     if len(ts_list) >= 2:
                         # Compress to 10 evenly-spaced points
                         n = len(ts_list)
                         step = max(1, n // 10)
                         sampled_ts = ts_list[::step][:10]
                         sampled_px = px_list[::step][:10]
-                        # Show as "T-Nmin: $price"
+                        sampled_mc = mc_list[::step][:10] if mc_list else [0]*len(sampled_ts)
+                        # Show as "T-Nmin: $price (MC: X SOL)"
                         now_ts = int(time.time())
                         history_str = ", ".join([
-                            f"{int((now_ts-t)/60)}min: ${p:.10f}"
-                            for t, p in zip(sampled_ts, sampled_px)
+                            f"{int((now_ts-t)/60)}min: ${p:.10f} (MC:{m:.1f})"
+                            for t, p, m in zip(sampled_ts, sampled_px, sampled_mc)
                         ])
                         price_history = history_str
             except Exception:
