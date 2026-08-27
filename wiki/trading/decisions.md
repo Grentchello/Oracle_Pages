@@ -6538,3 +6538,27 @@
 ## [2026-08-27 12:10 UTC] sell | [PARTIAL][LLM] $3310 at $8.4032e-06 | P&L: +49.0%
 - **Reasoning:** $3310 +49% near 50% TP, pool only $2183; thin liquidity warrants locking half before any reversal.
 
+## [2026-08-27 12:11 UTC] sell | [TP +100% (50%)] $CHILLBULL at $3.53671e-05 | P&L: +191.1%
+- **Reasoning:** Auto take-profit at +191.1%
+
+## [2026-08-27 12:11 UTC] sell | [TP +30% (25%)] $Floor at $6.12894e-06 | P&L: +54.6%
+- **Reasoning:** Auto take-profit at +54.6%
+
+## [2026-08-27 12:11 UTC] sell | [TP +30% (25%)] $3310 at $8.52504e-06 | P&L: +51.2%
+- **Reasoning:** Auto take-profit at +51.2%
+
+## [2026-08-27 12:11 UTC] sell | [FULL][LLM] $CHILLBULL at $3.53671e-05 | P&L: +191.1%
+- **Reasoning:** +191% well past +100% TP threshold, momentum slowing in last 2 ticks ($0.1682→$0.2343 slowing). Lock the gain.
+
+## [2026-08-27 12:11 UTC] sell | [FULL][LLM] $Floor at $6.12894e-06 | P&L: +54.6%
+- **Reasoning:** +54.6% past +50% TP, last tick pulled back ($0.0651→$0.0560). Take profit, don't hope for continuation.
+
+## [2026-08-27 12:11 UTC] sell | [FULL][LLM] $3310 at $8.52504e-06 | P&L: +51.2%
+- **Reasoning:** +51.2% past +50% TP. Even though held<30min, profit-taking discipline says lock the gain on a sub-$10k mcap bonding-curve token.
+
+## [2026-08-27 12:11 UTC] sell | [FULL][LLM] $PONKE at $5.19113e-06 | P&L: +2.6%
+- **Reasoning:** +2.6% after 6min, price has flatlined (declining $0.1073→$0.0493 sequence shows fading momentum). Stale risk, free the slot for a fresher narrative.
+
+## [2026-08-27 12:11 UTC] buy | [LLM] $BEEHIVE at $4.02e-06, spent 0.05 SOL
+- **Reasoning:** $BEEHIVE — 'The Beehive Study' has an active Twitter account (@TheBeehiveStudy) at 1.1min age, $3.8k mcap. Narrative brand token with named project = best attention signal in batch.
+
