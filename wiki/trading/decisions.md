@@ -2494,3 +2494,12 @@
 ## [2026-08-27 00:36 UTC] buy | [LLM] $TOKEN at $1.881e-05, spent 0.1 SOL
 - **Reasoning:** $TOKEN — AI trading-agent meta is the current meta-narrative (ClawPump, ai16z, aixbt all running). Trading-agent tokenized agents have a hungry audience. Risk: meta-ai tokens are crowded and rug-prone, small float.
 
+## [2026-08-27 00:38 UTC] sell | [FULL][LLM] $TOKEN at $4.638e-06 | P&L: -75.3%
+- **Reasoning:** $TOKEN is at -75.3%, well past the -50% hard cap. The system should have auto-closed already; selling now to comply with the hard cap rule.
+
+## [2026-08-27 00:38 UTC] sell | [FULL][LLM] $wifmoney at $3.066e-06 | P&L: -47.3%
+- **Reasoning:** $wifmoney at -47.3% near hard cap with negative 24h/1h momentum. Dead trade, cut the loss and free the slot.
+
+## [2026-08-27 00:38 UTC] buy | [LLM] $hamiboom at $3.24757e-06, spent 0.1 SOL
+- **Reasoning:** $hamiboom has the strongest attention narrative of the batch — claimed 1M+ social followers with fee redirects to hamiboom.world. If the claim holds, this is a real catalyst. Risk: bond only 6%, unverified follower count, ultra-fresh (0.1min). Small size, tight stop mental at -30%.
+
