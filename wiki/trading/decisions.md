@@ -6694,3 +6694,9 @@
 ## [2026-08-27 12:33 UTC] buy | [LLM] $AI at $3.62955e-06, spent 0.05 SOL
 - **Reasoning:** $AI ('Ape In') — launched with discord community backing (discord.gg/uxento) and X post, $3.6k mcap. Community-launched meta-narrative (AI/Ape meta) at micro-mcap.
 
+## [2026-08-27 12:34 UTC] sell | [hard-stop] $Teddy closed at $2.91818e-06 | P&L: -39.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:34 UTC] sell | [TP +30% (25%)] $Robolympics at $1.14419e-05 | P&L: +66.2%
+- **Reasoning:** Auto take-profit at +66.2%
+
