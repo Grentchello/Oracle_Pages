@@ -138,3 +138,15 @@
 - Saved password + hash to Hermes memory so future sessions know it
 - Updated tasks skill docs with the new password reference
 - Old password "oracle" no longer works — verified via puppeteer
+
+## [2026-08-27] update | Bot v5: liquidity-aware entries and exits
+- Grant asked: prevent buying positions that can't be sold
+- Found bug: DexScreener returns `liquidity.usd = null` for pump.fun tokens, so effective liquidity was always 0
+- Fixed: bot now falls back to pump.fun `real_sol_reserves * sol_price` as liquidity proxy
+- Pre-entry gate: skip buy if pool liquidity < 5x position size (need $50+ pool for $10 position)
+- Exit-size cap: if position > 30% of pool, reduce sell fraction to avoid -90% slippage
+- LLM prompt now shows `pool=$X, our share=Y%` for each holding + warns when share > 30%
+- Dashboard Holdings panel shows colored liquidity badge (✓/⚠/✗) for each position
+- Also added dedup-by-symbol check (LLM sometimes picks same mint twice)
+- Files: bot/bot.py, wiki/trading/index.html, wiki/trading/assets/dashboard.css
+- Verified: bot rejected $Aura (pool $0) and $PONY (pool $17); accepted $HOBBES (pool $910), $GREENPISTA (pool $3617)
