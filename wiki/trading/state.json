@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.3229,
+  "balance_sol": 1.312971,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -50,9 +50,9 @@
     "jheW61ZoLVSbeqSy5wwxwjfGALrqrLvq4Du1tASpump": {
       "symbol": "TROLLPISTA",
       "name": "Troll Pistacio",
-      "amount": 571436.6324342625,
+      "amount": 285718.3162171313,
       "entry_price_usd": 8.861e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T02:26:11.228827+00:00",
       "entry_usd_value": 10.127,
       "entry_signals": {
@@ -65,28 +65,6 @@
         "real_sol_reserves": 27.013372085,
         "description": "Troll Pistacio",
         "twitter": "https://x.com/search?q=Troll%20Pistacio&src=typed_query",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "A9MSiN6gxY19RjJ4q2sYjont5aro6i5gYHHEocx5pump": {
-      "symbol": "saucet",
-      "name": "The Solana Faucet",
-      "amount": 2099125.440874863,
-      "entry_price_usd": 4.824390102089049e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T02:26:11.229898+00:00",
-      "entry_usd_value": 10.127,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4822.588560923669,
-        "ath_market_cap_usd": 4953.293518296924,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 9.159874587,
-        "description": "",
-        "twitter": "https://x.com/conxbt/status/2092799998098391407?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -109,6 +87,28 @@
         "real_sol_reserves": 3.75308642,
         "description": "The right people feel it.",
         "twitter": "https://x.com/vaguepostk1ng",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "RTf9vpMKsYRrReMDdpdUVG9veD4WJYVcRTmkKSxpump": {
+      "symbol": "Pirate Cat",
+      "name": "Pirate Cat",
+      "amount": 3373777.2374004545,
+      "entry_price_usd": 2.996493036923066e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T02:29:51.344171+00:00",
+      "entry_usd_value": 10.1095,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 2994.482490268766,
+        "ath_market_cap_usd": 2995.550473209983,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.888888889,
+        "description": "Vet to Vet United Inc. Posted on reddit a cat that just had surgery on its eye it started a cult of pirate cats in the responses its going viral",
+        "twitter": "https://x.com/Friend0fSinners/status/2092801247476617676?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -6404,31 +6404,47 @@
       "pnl_pct": 6.91,
       "exit_reason": "LLM: sell_half — $TROLLPISTA is +6.9% but with an insane 24h/1h of +228% — that's parabolic and likely to mean-revert. Bank half the runner, let the rest ride the narr",
       "partial": true
+    },
+    {
+      "mint": "A9MSiN6gxY19RjJ4q2sYjont5aro6i5gYHHEocx5pump",
+      "symbol": "saucet",
+      "name": "The Solana Faucet",
+      "amount_sold": 2099125.440874863,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T02:26:11.229898+00:00",
+      "exit_time": "2026-08-27T02:29:51.343697+00:00",
+      "entry_price_usd": 4.824390102089049e-06,
+      "exit_price_usd": 2.827e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.0587,
+      "pnl_sol": -0.0413,
+      "pnl_pct": -41.4,
+      "exit_reason": "LLM: sell_all — $saucet at -41.4% with 24h flat at -0.8% — no recovery signal, approaching -50% hard cap, capital better redeployed.",
+      "partial": false
+    },
+    {
+      "mint": "jheW61ZoLVSbeqSy5wwxwjfGALrqrLvq4Du1tASpump",
+      "symbol": "TROLLPISTA",
+      "name": "Troll Pistacio",
+      "amount_sold": 285718.3162171313,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T02:26:11.228827+00:00",
+      "exit_time": "2026-08-27T02:29:51.343977+00:00",
+      "entry_price_usd": 8.861e-06,
+      "exit_price_usd": 1.11e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.031371,
+      "pnl_sol": 0.006371,
+      "pnl_pct": 25.27,
+      "exit_reason": "LLM: sell_half — $TROLLPISTA +25.3% with 24h=+285% — momentum real but extended, lock half profits per +50% take-profit rule, ride rest.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T02:28:23.603516+00:00",
+  "last_updated": "2026-08-27T02:29:51.344408+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.19,
-  "portfolio_value_usd": 179.48,
+  "last_sol_price_usd": 101.095,
+  "portfolio_value_usd": 175.8,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 02:20 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $UNIPULSE at $2.843e-06 | P&L: -7.8%",
-      "reason": "$UNIPULSE at -7.8% with persistent downside on both 1h and 24h; no story, bleeding — exit before it deepens."
-    },
-    {
-      "time": "2026-08-27 02:20 UTC",
-      "action": "buy",
-      "details": "[LLM] $Cashew at $6.2919e-06, spent 0.1 SOL",
-      "reason": "$Cashew — 'Pistacio went to 5m, now Cashew's turn' is a textbook serial-narrative play; clear continuation story with active X account, low mcap, and the kind of attention chain that 5-10x's."
-    },
-    {
-      "time": "2026-08-27 02:20 UTC",
-      "action": "buy",
-      "details": "[LLM] $pumpling at $3.81213e-06, spent 0.1 SOL",
-      "reason": "$pumpling — meta-narrative coin (platform for promoting memecoins) targeting the exact attention-hungry audience that's buying these tokens; viral potential is high because it's a 'tool for traders' meme."
-    },
     {
       "time": "2026-08-27 02:21 UTC",
       "action": "sell",
@@ -6530,36 +6546,54 @@
       "action": "buy",
       "details": "[LLM] $KING at $3.58132e-06, spent 0.1 SOL",
       "reason": "$KING has a real X handle (@vaguepostk1ng) plus a vague but memeable tagline 'The right people feel it' — pure attention-token energy at $3.6k mcap, classic early meta narrative play."
+    },
+    {
+      "time": "2026-08-27 02:29 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $saucet at $2.827e-06 | P&L: -41.4%",
+      "reason": "$saucet at -41.4% with 24h flat at -0.8% — no recovery signal, approaching -50% hard cap, capital better redeployed."
+    },
+    {
+      "time": "2026-08-27 02:29 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $TROLLPISTA at $1.11e-05 | P&L: +25.3%",
+      "reason": "$TROLLPISTA +25.3% with 24h=+285% — momentum real but extended, lock half profits per +50% take-profit rule, ride rest."
+    },
+    {
+      "time": "2026-08-27 02:29 UTC",
+      "action": "buy",
+      "details": "[LLM] $Pirate Cat at $2.99649e-06, spent 0.1 SOL",
+      "reason": "$Pirate Cat has a real Reddit-viral story (surgery cat becoming pirate cat cult) — narrative-driven meme is exactly the attention signal that pumps. Low mcap $2,994 = high upside asymmetry."
     }
   ],
   "trade_stats": {
-    "total": 370,
-    "wins": 169,
-    "losses": 201,
+    "total": 372,
+    "wins": 170,
+    "losses": 202,
     "win_rate_pct": 45.7,
-    "total_pnl_sol": -0.127095,
-    "avg_pnl_pct": 75.37,
+    "total_pnl_sol": -0.162024,
+    "avg_pnl_pct": 74.92,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 227,
-    "today_realized_sol": 0.402112,
-    "today_target_pct": 100.5,
+    "today_trades": 229,
+    "today_realized_sol": 0.367183,
+    "today_target_pct": 91.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 169,
-      "loss_count": 201,
+      "win_count": 170,
+      "loss_count": 202,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T02:28:23.603083+00:00",
+  "last_llm_brief_at": "2026-08-27T02:29:51.343665+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7DFy4JGzirMwCmMQEoHZJBuQNnJYmkurraLGRtktpump": {
-      "price_usd": 4.826e-06,
-      "change_h24": 59.36,
-      "change_h1": 59.36,
+      "price_usd": 7.65e-06,
+      "change_h24": 153.0,
+      "change_h1": 153.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 8880.84,
+      "volume_h24": 11555.48,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
@@ -6573,20 +6607,29 @@
       "source": "dexscreener"
     },
     "jheW61ZoLVSbeqSy5wwxwjfGALrqrLvq4Du1tASpump": {
-      "price_usd": 9.473e-06,
-      "change_h24": 228.0,
-      "change_h1": 228.0,
+      "price_usd": 1.11e-05,
+      "change_h24": 285.0,
+      "change_h1": 285.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 4820.72,
+      "volume_h24": 9281.07,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "A9MSiN6gxY19RjJ4q2sYjont5aro6i5gYHHEocx5pump": {
-      "price_usd": 4.543e-06,
-      "change_h24": 59.41,
-      "change_h1": 59.41,
+      "price_usd": 2.827e-06,
+      "change_h24": -0.79,
+      "change_h1": -0.79,
       "liquidity_usd": 0.0,
-      "volume_h24": 1657.37,
+      "volume_h24": 2467.82,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "45BMaCQ6Xu8kS5MPcG5uQG6x5QAigkPzk9Nn46PRpump": {
+      "price_usd": 3.578e-06,
+      "change_h24": -0.04,
+      "change_h1": -0.04,
+      "liquidity_usd": 0.0,
+      "volume_h24": 399.76,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }
