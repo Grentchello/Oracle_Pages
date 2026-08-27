@@ -2530,3 +2530,21 @@
 ## [2026-08-27 00:40 UTC] buy | [LLM] $gubby at $3.06278e-06, spent 0.1 SOL
 - **Reasoning:** $gubby — pushed by named YouTuber KreekCraft (millions of views in the Roblox/creator space). That's a real attention source with a built-in audience, not random X chatter. Strongest narrative in the batch.
 
+## [2026-08-27 00:42 UTC] sell | [FULL][LLM] $LARRY at $2.823e-06 | P&L: -6.3%
+- **Reasoning:** $LARRY -6.3% with 1h flat (-6.3%) — no momentum, no narrative edge. Free slot.
+
+## [2026-08-27 00:42 UTC] sell | [FULL][LLM] $Homerunner at $3.068e-06 | P&L: -69.8%
+- **Reasoning:** $Homerunner -69.8% is already past the -50% hard cap and 1h only +1.8% — should have been auto-closed. Sell to salvage remainder.
+
+## [2026-08-27 00:42 UTC] sell | [FULL][LLM] $gubby at $2.823e-06 | P&L: -7.8%
+- **Reasoning:** $gubby -7.8% with 1h -6.2%, no attention signal worth holding. Free slot.
+
+## [2026-08-27 00:42 UTC] buy | [LLM] $Makeda at $9.4478e-06, spent 0.1 SOL
+- **Reasoning:** $Makeda 'The Queen' — regal narrative hook at 0.2min / $9.5k mcap, 31% bond. Strong story beats, low float, classic early-launch asymmetry.
+
+## [2026-08-27 00:42 UTC] buy | [LLM] $COTUS at $6.2512e-06, spent 0.1 SOL
+- **Reasoning:** $COTUS 'Coin of the United States' — politically viral meme territory, 0.2min, $6.3k mcap. Narratives like this spike on engagement.
+
+## [2026-08-27 00:42 UTC] buy | [LLM] $PTA at $3.85596e-06, spent 0.1 SOL
+- **Reasoning:** $PTA 'Pokemon Theft Auto' — real utility/game narrative with multiplayer + wagering hook, rarity play (151 out), 0.1min. Best narrative depth of the batch.
+
