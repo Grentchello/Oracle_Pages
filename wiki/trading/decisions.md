@@ -5074,3 +5074,12 @@
 ## [2026-08-27 09:26 UTC] sell | [TP +100% (50%)] $Tapping at $2.45349e-05 | P&L: +129.8%
 - **Reasoning:** Auto take-profit at +129.8%
 
+## [2026-08-27 09:26 UTC] sell | [PARTIAL][LLM] $Tapping at $2.45349e-05 | P&L: +129.8%
+- **Reasoning:** Up +129.8% — well past the +100% TP level, bot should have already taken the 50% leg. Lock the rest as house money and let the remaining half ride. If it dumps, I keep the gain. If it keeps pumping, I still get upside.
+
+## [2026-08-27 09:26 UTC] buy | [LLM] $APOO at $7.119e-06, spent 0.05 SOL
+- **Reasoning:** $APOO — 'Apoo Agent, on-chain trading/awareness experiment' is a meta-narrative (AI agent trading plays well in current cycle), real X handle with posting activity, $10k mcap is early enough to catch a 5-10x if the story sticks. Risk: bonding only 31%, thin pool, narrative could flop fast.
+
+## [2026-08-27 09:26 UTC] buy | [LLM] $LABEL at $4.00458e-06, spent 0.05 SOL
+- **Reasoning:** $LABEL — 'Label Truth' from candacedev_arc has a personality-driven narrative (truth-telling meta), low $4k mcap, super early. Small bet on narrative virality. Risk: generic name, thin liquidity at 13% bond.
+
