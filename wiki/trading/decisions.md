@@ -5452,3 +5452,9 @@
 ## [2026-08-27 10:07 UTC] buy | [LLM] $BULLIO at $2.033e-05, spent 0.05 SOL
 - **Reasoning:** Highest mcap in the new batch ($22.6k) with a dedicated Twitter account (realbullio). 39% bonding curve progress means momentum is already building — fewer rug risk signals than 0% bonders. Story-driven launch, classic memecoin attention setup.
 
+## [2026-08-27 10:08 UTC] sell | [hard-stop] $FACE$LAP closed at $2.92842e-06 | P&L: -41.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:08 UTC] sell | [TP +100% (50%)] $Ape at $9.37594e-06 | P&L: +101.7%
+- **Reasoning:** Auto take-profit at +101.7%
+
