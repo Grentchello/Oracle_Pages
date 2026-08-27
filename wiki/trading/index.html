@@ -96,6 +96,7 @@
 <script>
 const STATE_URL = 'state.json';
 const WATCHLIST_URL = 'watchlist.json';
+const SPARKLINE_URL = '/Oracle_Pages/trading/sparklines.json';
 const RAW_BASE = 'https://raw.githubusercontent.com/Grentchello/oracle_Vault/main/wiki/trading/';
 const REFRESH_MS = 30000;
 
@@ -257,6 +258,27 @@ function renderLearning(state) {
   el.innerHTML = html;
 }
 
+
+function renderSparkline(mint, width=60, height=20) {
+  // Returns an SVG path string for the price history of this mint.
+  // Reads from sparklines cache (state.sparklines populated by refresh).
+  const data = (window._sparklines || {})[mint];
+  if (!data || !data.ts || data.ts.length < 2) return '';
+  const ts = data.ts, px = data.px;
+  const minP = Math.min.apply(null, px);
+  const maxP = Math.max.apply(null, px);
+  const range = maxP - minP || 1;
+  const w = width, h = height;
+  const dt = (ts[ts.length - 1] - ts[0]) || 1;
+  const points = px.map((p, i) => {
+    const x = ((ts[i] - ts[0]) / dt) * w;
+    const y = h - ((p - minP) / range) * h;
+    return x.toFixed(1) + ',' + y.toFixed(1);
+  }).join(' ');
+  const color = px[px.length-1] >= px[0] ? '#10b981' : '#ef4444';
+  return '<svg width="' + w + '" height="' + h + '" style="vertical-align:middle;display:inline-block"><polyline fill="none" stroke="' + color + '" stroke-width="1.5" points="' + points + '"/></svg>';
+}
+
 async function renderHoldings(state, watchlist) {
   const ul = document.getElementById('holdings');
   if (!ul) return;
@@ -308,8 +330,9 @@ async function renderHoldings(state, watchlist) {
       liquidityBadge = '<div class="liquidity-badge liq-unknown">? no liquidity data</div>';
     }
 
-    html += '<li class="position-item" data-mint="' + mint + '">' +
-      '<div><div class="token-name">$' + sym + '</div>' +
+    const spark = renderSparkline(mint, 60, 18);
+html += '<li class="position-item" data-mint="' + mint + '">' +
+      '<div><div class="token-name">$' + sym + (spark ? ' <span class="sparkline-cell">' + spark + '</span>' : '') + '</div>' +
       '<div class="token-meta">' + amount.toFixed(2) + ' @ ' + fmtUSD(entryPrice) + '</div>' +
       (liquidityBadge ? liquidityBadge : '') +
       '</div>' +
