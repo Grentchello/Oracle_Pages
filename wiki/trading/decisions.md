@@ -2314,3 +2314,12 @@
 ## [2026-08-27 00:11 UTC] buy | [LLM] $CAKE at $4.52348e-06, spent 0.1 SOL
 - **Reasoning:** $CAKE riding the Cheesecake Factory brand-name hijack narrative, $4.5k mcap with WatcherGuru tweet attached — exactly the attention-launch setup the strategy is built for.
 
+## [2026-08-27 00:13 UTC] sell | [PARTIAL][LLM] $PAINTER at $4.268e-06 | P&L: -31.9%
+- **Reasoning:** $PAINTER at -32% with weak 1h/24h progression divergence is concerning. Cut half to lock in remaining size as buy-in, let the rest ride for free.
+
+## [2026-08-27 00:13 UTC] sell | [FULL][LLM] $CAKE at $3.195e-06 | P&L: -29.4%
+- **Reasoning:** $CAKE at -29.4% with only +7.9% 24h — this has the weakest momentum of the losers. The narrative isn't pulling weight. Cut and free the slot.
+
+## [2026-08-27 00:13 UTC] buy | [LLM] $CLAUDETOPIA at $1.06782e-05, spent 0.1 SOL
+- **Reasoning:** $CLAUDETOPIA — strongest launch narrative of the batch with $10.6k mcap and 33% bond. Claude/AI meta is the dominant narrative cycle right now. Small position to ride the AI meme wave.
+
