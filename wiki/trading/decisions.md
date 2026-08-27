@@ -6373,3 +6373,12 @@
 ## [2026-08-27 11:52 UTC] buy | [LLM] $BULLIO at $1.40438e-05, spent 0.05 SOL
 - **Reasoning:** $BULLIO has the cleanest Twitter signal of the new launches (@realbullio, real handle, viral post), $14k mcap, 35% bonded. Best narrative-to-mcap ratio. 0.05 SOL ($5) size — below bot's 0.1 SOL default given the small free balance and experimental nature.
 
+## [2026-08-27 11:53 UTC] sell | [hard-stop] $KC closed at $7.69521e-06 | P&L: -31.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:53 UTC] sell | [TP +100% (50%)] $UNYIL at $1.728e-05 | P&L: +139.4%
+- **Reasoning:** Auto take-profit at +139.4%
+
+## [2026-08-27 11:53 UTC] sell | [PARTIAL][LLM] $UNYIL at $1.728e-05 | P&L: +139.4%
+- **Reasoning:** UNYIL +139% with thin pool ($4.4k) and 0% share — this is a pump-and-vanish setup on a bonding curve. Lock half the gain at +25% TP territory; ride the rest with a tight mental stop.
+

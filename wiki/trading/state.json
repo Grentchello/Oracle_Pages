@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.985441,
+  "balance_sol": 1.014272,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "ARxxaFoxcZXSyCFYNBHJKX9DQ9JNudfYhkVEXTq3pump": {
       "symbol": "UNYIL",
       "name": "UNYIL",
-      "amount": 25297.013523341182,
+      "amount": 6324.2533808352955,
       "entry_price_usd": 7.219e-06,
-      "entry_sol_spent": 0.0017578125000000003,
+      "entry_sol_spent": 0.00043945312500000007,
       "entry_time": "2026-08-27T11:48:24.056783+00:00",
       "entry_usd_value": 5.194500000000001,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 20.089133373,
         "description": "",
         "twitter": "https://x.com/Unyilonpf/status/2092941705498808757?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "5BFArbc7JEY8wXxw6P3r931MSSY3XHyPJBNJtAsepump": {
-      "symbol": "KC",
-      "name": "Kitty Cat Coin",
-      "amount": 346260.1407933157,
-      "entry_price_usd": 1.1239382018050423e-05,
-      "entry_sol_spent": 0.037500000000000006,
-      "entry_time": "2026-08-27T11:51:03.653189+00:00",
-      "entry_usd_value": 5.189,
-      "entry_signals": {
-        "liquidity_usd": 2756.3608533062798,
-        "volume_24h_usd": null,
-        "market_cap_usd": 11219.97887052551,
-        "ath_market_cap_usd": 12949.129734801067,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 26.559653626,
-        "description": "",
-        "twitter": "https://x.com/jncquant/status/2092942825524519375",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -16968,31 +16946,64 @@
       "pnl_pct": 164.74,
       "exit_reason": "LLM: sell_half — $UNYIL +164.7% — massive runner. Lock half the profit, let the rest ride. Bonding curve still active, but this gain can evaporate fast on a memecoin.",
       "partial": true
+    },
+    {
+      "mint": "5BFArbc7JEY8wXxw6P3r931MSSY3XHyPJBNJtAsepump",
+      "symbol": "KC",
+      "name": "Kitty Cat Coin",
+      "amount_sold": 346260.1407933157,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T11:51:03.653189+00:00",
+      "exit_time": "2026-08-27T11:53:39.185546+00:00",
+      "entry_price_usd": 1.1239382018050423e-05,
+      "exit_price_usd": 7.695210060915031e-06,
+      "entry_sol_for_chunk": 0.0375,
+      "exit_sol_received": 0.025672,
+      "pnl_sol": -0.011828,
+      "pnl_pct": -31.53,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "ARxxaFoxcZXSyCFYNBHJKX9DQ9JNudfYhkVEXTq3pump",
+      "symbol": "UNYIL",
+      "name": "UNYIL",
+      "amount_sold": 12648.506761670591,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T11:48:24.056783+00:00",
+      "exit_time": "2026-08-27T11:53:39.185913+00:00",
+      "entry_price_usd": 7.219e-06,
+      "exit_price_usd": 1.728001386941264e-05,
+      "entry_sol_for_chunk": 0.000879,
+      "exit_sol_received": 0.002106,
+      "pnl_sol": 0.001227,
+      "pnl_pct": 139.37,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "ARxxaFoxcZXSyCFYNBHJKX9DQ9JNudfYhkVEXTq3pump",
+      "symbol": "UNYIL",
+      "name": "UNYIL",
+      "amount_sold": 6324.2533808352955,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T11:48:24.056783+00:00",
+      "exit_time": "2026-08-27T11:53:57.586334+00:00",
+      "entry_price_usd": 7.219e-06,
+      "exit_price_usd": 1.728001386941264e-05,
+      "entry_sol_for_chunk": 0.000439,
+      "exit_sol_received": 0.001053,
+      "pnl_sol": 0.000613,
+      "pnl_pct": 139.37,
+      "exit_reason": "LLM: sell_half — UNYIL +139% with thin pool ($4.4k) and 0% share — this is a pump-and-vanish setup on a bonding curve. Lock half the gain at +25% TP territory; ride th",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T11:52:34.152941+00:00",
+  "last_updated": "2026-08-27T11:53:57.586905+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.55,
-  "portfolio_value_usd": 111.29,
+  "last_sol_price_usd": 103.79,
+  "portfolio_value_usd": 110.49,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 11:46 UTC",
-      "action": "buy",
-      "details": "[LLM] $BONGO at $5.52906e-06, spent 0.05 SOL",
-      "reason": "$BONGO is the strongest new-launch signal: 22% bonding curve progress (most mature of the fresh batch), has a live Twitter post, and a simple animal-meme narrative. Sub-$6k mcap means room for 5-10x if narrative catches. Risk: low bonding progress means illiquid exit if it dumps. Sizing 0.05 SOL."
-    },
-    {
-      "time": "2026-08-27 11:48 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BONGO at $4.20744e-06 | P&L: -23.9%",
-      "reason": "$BONGO is down -23.9% with 0.0h hold and no bounce signal in the price history. Approaching the -30% hard stop. Cut the loss now before it widens - stale losers bleed fast."
-    },
-    {
-      "time": "2026-08-27 11:48 UTC",
-      "action": "buy",
-      "details": "[LLM] $UNYIL at $7.219e-06, spent 0.05 SOL",
-      "reason": "$UNYIL is 1min old with an active X post (@Unyilonpf) - rare to have a real attention signal at this age. mcap $8k is ideal entry zone. Bet on the narrative catching."
-    },
     {
       "time": "2026-08-27 11:48 UTC",
       "action": "buy",
@@ -17094,84 +17105,80 @@
       "action": "buy",
       "details": "[LLM] $BULLIO at $1.40438e-05, spent 0.05 SOL",
       "reason": "$BULLIO has the cleanest Twitter signal of the new launches (@realbullio, real handle, viral post), $14k mcap, 35% bonded. Best narrative-to-mcap ratio. 0.05 SOL ($5) size — below bot's 0.1 SOL default given the small free balance and experimental nature."
+    },
+    {
+      "time": "2026-08-27 11:53 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $KC closed at $7.69521e-06 | P&L: -31.5%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 11:53 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $UNYIL at $1.728e-05 | P&L: +139.4%",
+      "reason": "Auto take-profit at +139.4%"
+    },
+    {
+      "time": "2026-08-27 11:53 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $UNYIL at $1.728e-05 | P&L: +139.4%",
+      "reason": "UNYIL +139% with thin pool ($4.4k) and 0% share — this is a pump-and-vanish setup on a bonding curve. Lock half the gain at +25% TP territory; ride the rest with a tight mental stop."
     }
   ],
   "trade_stats": {
-    "total": 994,
-    "wins": 522,
-    "losses": 472,
-    "win_rate_pct": 52.5,
-    "total_pnl_sol": -0.825289,
-    "avg_pnl_pct": 47.02,
+    "total": 997,
+    "wins": 524,
+    "losses": 473,
+    "win_rate_pct": 52.6,
+    "total_pnl_sol": -0.835277,
+    "avg_pnl_pct": 47.12,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 453,
-    "today_realized_sol": 0.60694,
-    "today_target_pct": 151.7,
+    "today_trades": 456,
+    "today_realized_sol": 0.596952,
+    "today_target_pct": 149.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 522,
-      "loss_count": 472,
+      "win_count": 524,
+      "loss_count": 473,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T11:52:33.839282+00:00",
+  "last_llm_brief_at": "2026-08-27T11:53:57.585809+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "ARxxaFoxcZXSyCFYNBHJKX9DQ9JNudfYhkVEXTq3pump": {
-      "price_usd": 1.9111531274330922e-05,
+      "price_usd": 1.728001386941264e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4874.97731135005,
-      "volume_h24": 14064.26,
+      "liquidity_usd": 4484.492434626951,
+      "volume_h24": 17353.82,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 47.078486831
-    },
-    "A18mx6QtPbMQXMkPZz6axpMqgb1Yx8D1bUjTHNgDpump": {
-      "price_usd": 3.7651782029069642e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 436.15049016874997,
-      "volume_h24": 861.8,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 4.211979625
-    },
-    "D35DUxVpXwU7UJfcrmbvokcz5ZQgYRAfBMiBGdompump": {
-      "price_usd": 8.224638130013584e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2129.4313010707,
-      "volume_h24": 2423.7,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 20.564281034
+      "real_sol_reserves": 43.207365205
     },
     "5BFArbc7JEY8wXxw6P3r931MSSY3XHyPJBNJtAsepump": {
-      "price_usd": 2.1125814327631512e-05,
+      "price_usd": 7.695210060915031e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 5285.0516180934,
-      "volume_h24": 24425.73,
+      "liquidity_usd": 1956.77313489371,
+      "volume_h24": 54307.65,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 51.038644308
+      "real_sol_reserves": 18.853195249
     },
-    "PjtHpXVaax9eeGLThnkPwLytd17vkZ77Y48sN2manDo": {
-      "price_usd": 4.952555981041249e-06,
+    "DCywMLDZzXAhmWqtTqYLmcssaJFY4zLB8NSifRippump": {
+      "price_usd": 1.5126878382939535e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 956.53194273905,
-      "volume_h24": 1639.0,
+      "liquidity_usd": 3995.3718267632707,
+      "volume_h24": 9197.69,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 9.237392011
+      "real_sol_reserves": 38.494766613
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
