@@ -2692,3 +2692,15 @@
 ## [2026-08-27 01:00 UTC] sell | [PARTIAL][LLM] $SKRIMP at $6.977e-06 | P&L: +114.9%
 - **Reasoning:** $SKRIMP +114% in 0.2h — extreme move, classic take-profit zone. Lock half, let rest run.
 
+## [2026-08-27 01:02 UTC] sell | [PARTIAL][LLM] $MEME1921 at $7.608e-06 | P&L: +98.8%
+- **Reasoning:** Up +98.9% with 1h momentum of +152% — parabolic move, lock in profits on half while letting the rest ride the narrative.
+
+## [2026-08-27 01:02 UTC] sell | [PARTIAL][LLM] $SKRIMP at $7.551e-06 | P&L: +132.6%
+- **Reasoning:** Up +132.6% with 1h at +151% — same parabolic signature as MEME1921, take half off the table to secure gains.
+
+## [2026-08-27 01:02 UTC] sell | [FULL][LLM] $PETRI at $2.919e-06 | P&L: -18.2%
+- **Reasoning:** Down -18.2% with 1h at -8.8% — no recovery signal, weakest of the losers, cut to free a slot for fresh alpha.
+
+## [2026-08-27 01:02 UTC] buy | [LLM] $Preyforge at $2.98891e-06, spent 0.1 SOL
+- **Reasoning:** AI-operated venture studio narrative is the hottest meta right now, has a Twitter handle, low mcap $3k — textbook attention play with story backing.
+
