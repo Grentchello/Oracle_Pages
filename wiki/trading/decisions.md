@@ -3532,3 +3532,15 @@
 ## [2026-08-27 02:49 UTC] buy | [LLM] $Ai-Chan at $2.90272e-05, spent 0.1 SOL
 - **Reasoning:** $Ai-Chan — highest mcap ($29k) of the batch, 41% bonding curve already filled = strongest organic buy pressure. X link present, Japanese anime girl narrative has meme potential. Fresh attention, take the position before confirmation.
 
+## [2026-08-27 02:50 UTC] sell | [FULL][LLM] $WIF² at $2.84243e-06 | P&L: -68.9%
+- **Reasoning:** WIF² at -68.9% breaches the -50% hard cap — system should auto-close. Pool is $5, completely dead. Cut the corpse.
+
+## [2026-08-27 02:50 UTC] sell | [PARTIAL][LLM] $MAX at $2.86888e-06 | P&L: -4.9%
+- **Reasoning:** MAX at -4.9% but our 51% share of a $19 pool means we ARE the liquidity — exit risk is severe. Free up slot, capture what little's left.
+
+## [2026-08-27 02:50 UTC] sell | [PARTIAL][LLM] $Ai-Chan at $3.93035e-05 | P&L: +35.4%
+- **Reasoning:** Ai-Chan +35% in 0.0h is a fast move but we already own a position AND a new $Ai-Chan candidate just listed. Sell half to lock profit + free capital for the fresher one with a different mint.
+
+## [2026-08-27 02:50 UTC] buy | [LLM] $Ai-Chan at $9.73346e-06, spent 0.1 SOL
+- **Reasoning:** $Ai-Chan (ヤヨウ・クサマ) — distinct mint from held position, 0.3min old, mcap $9.7k, anime narrative with Japanese name = attention bait on J-Twitter/K-Twitter crossover. Same creator hub as my held Ai-Chan pumping 35%. Sympathy play on proven attention.
+
