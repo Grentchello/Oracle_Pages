@@ -3103,3 +3103,9 @@
 ## [2026-08-27 01:53 UTC] buy | [LLM] $Winner at $1.47695e-05, spent 0.1 SOL
 - **Reasoning:** $Winner has the strongest fundamentals of the new launches: highest mcap ($14.7k), bond 36% (most committed), and a relatable narrative ('Winner Takes All'). Attention signal is clear. 0.1 SOL position.
 
+## [2026-08-27 01:55 UTC] sell | [PARTIAL][LLM] $Buddy at $0.0001587 | P&L: +972.9%
+- **Reasoning:** $Buddy at +972% is a parabolic10x winner. Lock in half profits to hit daily target while keeping runner exposure — these moves reverse violently and I'd rather bank gains than watch them evaporate.
+
+## [2026-08-27 01:55 UTC] buy | [LLM] $HFHI at $3.364e-06, spent 0.1 SOL
+- **Reasoning:** $HFHI (Hugging Face Hacking Incident) has the strongest narrative hook — real verifiable news event in a hot AI sector, appears as duplicate suggesting genuine traction. 0.1 SOL position size.
+

@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.377744,
+  "balance_sol": 1.277875,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "2kM8DbdcSgF31zX7b1W6sRuCnaFPniyzRsSCfb8Qpump": {
       "symbol": "Buddy",
       "name": "First Neuralink Dog",
-      "amount": 167.89423575434847,
+      "amount": 83.94711787717424,
       "entry_price_usd": 1.4791445497471047e-05,
-      "entry_sol_spent": 2.44140625e-05,
+      "entry_sol_spent": 1.220703125e-05,
       "entry_time": "2026-08-27T01:36:46.387180+00:00",
       "entry_usd_value": 10.172,
       "entry_signals": {
@@ -87,6 +87,28 @@
         "real_sol_reserves": 38.339108656,
         "description": "",
         "twitter": "https://x.com/jxmie273/status/2092792199729533254",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "43wJeqvPCXgTajJboC8kojYDEZBfEBovUE1hgs3Xpump": {
+      "symbol": "HFHI",
+      "name": "Hugging Face Hacking Incident",
+      "amount": 3024375.743162901,
+      "entry_price_usd": 3.364e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T01:55:14.801001+00:00",
+      "entry_usd_value": 10.174,
+      "entry_signals": {
+        "liquidity_usd": 0.0,
+        "volume_24h_usd": 1207.84,
+        "market_cap_usd": 2929.3736874661927,
+        "ath_market_cap_usd": 4108.227888932955,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.395000007,
+        "description": "",
+        "twitter": "https://x.com/derivativist/status/2092792729977700815?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -5566,25 +5588,30 @@
       "pnl_pct": -45.81,
       "exit_reason": "LLM: sell_all — $Zhdun at -45.8% is 4.2% from the -50% hard cap. The 1h is +35.6% which is misleading (likely a dead-cat bounce off a deeper low) — protecting capital",
       "partial": false
+    },
+    {
+      "mint": "2kM8DbdcSgF31zX7b1W6sRuCnaFPniyzRsSCfb8Qpump",
+      "symbol": "Buddy",
+      "name": "First Neuralink Dog",
+      "amount_sold": 83.94711787717424,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T01:36:46.387180+00:00",
+      "exit_time": "2026-08-27T01:55:14.799912+00:00",
+      "entry_price_usd": 1.4791445497471047e-05,
+      "exit_price_usd": 0.0001587,
+      "entry_sol_for_chunk": 1.2e-05,
+      "exit_sol_received": 0.000131,
+      "pnl_sol": 0.000119,
+      "pnl_pct": 972.92,
+      "exit_reason": "LLM: sell_half — $Buddy at +972% is a parabolic10x winner. Lock in half profits to hit daily target while keeping runner exposure — these moves reverse violently and I",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T01:53:40.935211+00:00",
+  "last_updated": "2026-08-27T01:55:14.801255+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.8,
-  "portfolio_value_usd": 163.09,
+  "last_sol_price_usd": 101.74,
+  "portfolio_value_usd": 163.02,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 01:46 UTC",
-      "action": "buy",
-      "details": "[LLM] $Phonzi at $2.45776e-05, spent 0.1 SOL",
-      "reason": "$Phonzi has the strongest attention signal: explicit 'FOMO' narrative piggybacking on a hot market, real Twitter handle, $24k mcap with 40% bond. Memecoin narrative play."
-    },
-    {
-      "time": "2026-08-27 01:46 UTC",
-      "action": "buy",
-      "details": "[LLM] $MICHELLE at $2.96084e-06, spent 0.1 SOL",
-      "reason": "Michelle Obama political meme — political figure coins move on news cycles and have viral potential. Two competitors already launched, this one is fresher at $3k mcap with low bond (early entry)."
-    },
     {
       "time": "2026-08-27 01:48 UTC",
       "action": "sell",
@@ -5692,28 +5719,40 @@
       "action": "buy",
       "details": "[LLM] $Winner at $1.47695e-05, spent 0.1 SOL",
       "reason": "$Winner has the strongest fundamentals of the new launches: highest mcap ($14.7k), bond 36% (most committed), and a relatable narrative ('Winner Takes All'). Attention signal is clear. 0.1 SOL position."
+    },
+    {
+      "time": "2026-08-27 01:55 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Buddy at $0.0001587 | P&L: +972.9%",
+      "reason": "$Buddy at +972% is a parabolic10x winner. Lock in half profits to hit daily target while keeping runner exposure — these moves reverse violently and I'd rather bank gains than watch them evaporate."
+    },
+    {
+      "time": "2026-08-27 01:55 UTC",
+      "action": "buy",
+      "details": "[LLM] $HFHI at $3.364e-06, spent 0.1 SOL",
+      "reason": "$HFHI (Hugging Face Hacking Incident) has the strongest narrative hook — real verifiable news event in a hot AI sector, appears as duplicate suggesting genuine traction. 0.1 SOL position size."
     }
   ],
   "trade_stats": {
-    "total": 322,
-    "wins": 155,
+    "total": 323,
+    "wins": 156,
     "losses": 167,
-    "win_rate_pct": 48.1,
-    "total_pnl_sol": -0.297226,
-    "avg_pnl_pct": 71.73,
+    "win_rate_pct": 48.3,
+    "total_pnl_sol": -0.297107,
+    "avg_pnl_pct": 74.52,
     "best_pnl_pct": 1379.24,
     "worst_pnl_pct": -99.89,
-    "today_trades": 179,
-    "today_realized_sol": 0.231981,
+    "today_trades": 180,
+    "today_realized_sol": 0.2321,
     "today_target_pct": 58.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 155,
+      "win_count": 156,
       "loss_count": 167,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T01:53:40.934650+00:00",
+  "last_llm_brief_at": "2026-08-27T01:55:14.799870+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AfmgmR1ffGJoirv8U3GWuxs2muHEahCmX2xtfrhrpump": {
@@ -5726,38 +5765,29 @@
       "source": "dexscreener"
     },
     "2kM8DbdcSgF31zX7b1W6sRuCnaFPniyzRsSCfb8Qpump": {
-      "price_usd": 7.417e-05,
-      "change_h24": 77.83,
-      "change_h1": 77.83,
-      "liquidity_usd": 21428.22,
-      "volume_h24": 156321.29,
+      "price_usd": 0.0001587,
+      "change_h24": 281.0,
+      "change_h1": 281.0,
+      "liquidity_usd": 32269.54,
+      "volume_h24": 205380.97,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
     "95QPSt1oEyMn5VwFE6Kry3XxoLEM6fu31KBjG6Hfpump": {
-      "price_usd": 2.855e-06,
-      "change_h24": 0.36,
-      "change_h1": 0.36,
+      "price_usd": 2.887e-06,
+      "change_h24": 1.47,
+      "change_h1": 1.47,
       "liquidity_usd": 0.0,
-      "volume_h24": 79.36,
+      "volume_h24": 93.87,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "ESi9TXs9mi9wjzYrQb6EVFGDyUxLu6iwxXgB5SdSpump": {
-      "price_usd": 8.679e-06,
-      "change_h24": -79.45,
-      "change_h1": -79.45,
-      "liquidity_usd": 6098.55,
-      "volume_h24": 24058.47,
-      "dex_id": "pumpswap",
-      "source": "dexscreener"
-    },
-    "HYBKH6AuhFwSxRVG9nWqkypfHMh4L92S8J9XGG7Zpump": {
-      "price_usd": 4.113e-06,
-      "change_h24": 35.58,
-      "change_h1": 35.58,
+    "25D9qie64vwqy1pLobaF8yQXboTBrvLaiz7a22pFpump": {
+      "price_usd": 1.211e-05,
+      "change_h24": 306.0,
+      "change_h1": 306.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 4253.84,
+      "volume_h24": 16040.04,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }
