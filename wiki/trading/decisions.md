@@ -4048,3 +4048,12 @@
 ## [2026-08-27 03:43 UTC] buy | [LLM] $FONE at $5.12114e-06, spent 0.1 SOL
 - **Reasoning:** $FONE 'Cat got a phone. Calling the trenches' — strong meme narrative, $5k mcap, fresh launch with story. Classic attention-market setup. Risk: cat-phone meta is crowded.
 
+## [2026-08-27 03:45 UTC] sell | [FULL][LLM] $1SOL at $3.439e-06 | P&L: -1.9%
+- **Reasoning:** $1SOL held 0.2h at -1.9% with only $308 pool and 2% share — near-stale microcap, capital better rotated into a fresh viral launch with narrative.
+
+## [2026-08-27 03:45 UTC] sell | [FULL][LLM] $Fomo Lisa at $5.08543e-06 | P&L: +3.3%
+- **Reasoning:** $Fomo Lisa only +3.3% after minutes of holding with $1032 pool; nothing's moving and stale flat = locked slot. Rotate capital to fresh attention.
+
+## [2026-08-27 03:45 UTC] sell | [FULL][LLM] $FONE at $3.14165e-06 | P&L: -38.6%
+- **Reasoning:** $FONE at -38.7% with $160 pool and 4% share — near the -50% hard stop, no bounce signal, and liquidity too thin to recover. Cut loss fast per discipline.
+
