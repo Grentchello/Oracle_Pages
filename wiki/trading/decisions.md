@@ -4681,3 +4681,9 @@
 ## [2026-08-27 08:38 UTC] buy | [LLM] $dogonfone at $9.332e-06, spent 0.1 SOL
 - **Reasoning:** $dogonfone leads the cohort on all attention metrics: highest mcap ($11.4k), most bonding progress (33%), dog-on-phone is a relatable viral frame, and Twitter link confirmed. Entering 0.1 SOL.
 
+## [2026-08-27 08:40 UTC] sell | [FULL][LLM] $dogonfone at $8.38633e-06 | P&L: -10.1%
+- **Reasoning:** $dogonfone (FONE) is a duplicate of a fresh launch I can re-enter. Down 10% on thin $2,179 pool with 0% share — better to recycle the slot into the fresh attention wave where I have an actual edge on the narrative timing.
+
+## [2026-08-27 08:40 UTC] buy | [LLM] $BETTORS at $6.82539e-06, spent 0.1 SOL
+- **Reasoning:** $BETTORS 'WallStreetBettors' — plays on the WSB/Degen culture meta which has historically minted 10x+ runners. $6.8k mcap, 26% bonded, dedicated X account, deployed via tracker (shows intent).
+

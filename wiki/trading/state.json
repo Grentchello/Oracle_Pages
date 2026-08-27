@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.136058,
+  "balance_sol": 1.125924,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -14,24 +14,24 @@
       "entry_signals": {},
       "llm_entry": true
     },
-    "F1T1yypWM5DQqWZAQi7wKdwc5Y8jK7ZBA7hkzNUbpump": {
-      "symbol": "dogonfone",
-      "name": "fone",
-      "amount": 1113801.9717102444,
-      "entry_price_usd": 9.332e-06,
+    "ENDmK1L9mrhCm52wFPzxontfoyWouK14KYNVaEgfBETS": {
+      "symbol": "BETTORS",
+      "name": "WallStreetBettors",
+      "amount": 1522843.7163101288,
+      "entry_price_usd": 6.8253885074857216e-06,
       "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T08:38:58.091314+00:00",
+      "entry_time": "2026-08-27T08:40:36.513461+00:00",
       "entry_usd_value": 10.394,
       "entry_signals": {
-        "liquidity_usd": 2918.19606046398,
-        "volume_24h_usd": 10201.25,
-        "market_cap_usd": 11474.14694329904,
-        "ath_market_cap_usd": 14684.702422738412,
+        "liquidity_usd": 1286.60078617196,
+        "volume_24h_usd": null,
+        "market_cap_usd": 6816.304663129719,
+        "ath_market_cap_usd": 6820.56857756029,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 28.075775067,
-        "description": "dog on fone.",
-        "twitter": "https://x.com/dogonfone/status/2092894178598658492?s=20",
+        "real_sol_reserves": 12.378302734,
+        "description": "Deployed using https://j7tracker.io",
+        "twitter": "https://x.com/BettorsFUN",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -10968,25 +10968,30 @@
       "pnl_pct": -0.2,
       "exit_reason": "LLM: sell_all — Flat at -0.2% just opened, and the $200 pool fails the 5x liquidity rule for a 0.1 SOL position — exit cleanly before it goes stale.",
       "partial": false
+    },
+    {
+      "mint": "F1T1yypWM5DQqWZAQi7wKdwc5Y8jK7ZBA7hkzNUbpump",
+      "symbol": "dogonfone",
+      "name": "fone",
+      "amount_sold": 1113801.9717102444,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T08:38:58.091314+00:00",
+      "exit_time": "2026-08-27T08:40:35.945890+00:00",
+      "entry_price_usd": 9.332e-06,
+      "exit_price_usd": 8.386334848894554e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.089866,
+      "pnl_sol": -0.010134,
+      "pnl_pct": -10.13,
+      "exit_reason": "LLM: sell_all — $dogonfone (FONE) is a duplicate of a fresh launch I can re-enter. Down 10% on thin $2,179 pool with 0% share — better to recycle the slot into the fr",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T08:38:58.091619+00:00",
+  "last_updated": "2026-08-27T08:40:36.513690+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 103.94,
-  "portfolio_value_usd": 138.48,
+  "portfolio_value_usd": 137.42,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 08:32 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $login at $1.28373e-05 | P&L: +192.3%",
-      "reason": "Up +192.3% but only held 0.0h — fresh pump on a viral X post (deviussol). Lock half at +30% TP, let the rest ride if narrative continues."
-    },
-    {
-      "time": "2026-08-27 08:32 UTC",
-      "action": "buy",
-      "details": "[LLM] $Sinclair at $5.934e-06, spent 0.1 SOL",
-      "reason": "$Sinclair — Baby Sinclair nostalgia coin, mcap $5.3k fresh (0.9min), tied to a specific viral X post. Strong narrative + low mcap + fresh = classic attention play."
-    },
     {
       "time": "2026-08-27 08:33 UTC",
       "action": "sell",
@@ -11094,28 +11099,40 @@
       "action": "buy",
       "details": "[LLM] $dogonfone at $9.332e-06, spent 0.1 SOL",
       "reason": "$dogonfone leads the cohort on all attention metrics: highest mcap ($11.4k), most bonding progress (33%), dog-on-phone is a relatable viral frame, and Twitter link confirmed. Entering 0.1 SOL."
+    },
+    {
+      "time": "2026-08-27 08:40 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $dogonfone at $8.38633e-06 | P&L: -10.1%",
+      "reason": "$dogonfone (FONE) is a duplicate of a fresh launch I can re-enter. Down 10% on thin $2,179 pool with 0% share — better to recycle the slot into the fresh attention wave where I have an actual edge on the narrative timing."
+    },
+    {
+      "time": "2026-08-27 08:40 UTC",
+      "action": "buy",
+      "details": "[LLM] $BETTORS at $6.82539e-06, spent 0.1 SOL",
+      "reason": "$BETTORS 'WallStreetBettors' — plays on the WSB/Degen culture meta which has historically minted 10x+ runners. $6.8k mcap, 26% bonded, dedicated X account, deployed via tracker (shows intent)."
     }
   ],
   "trade_stats": {
-    "total": 643,
+    "total": 644,
     "wins": 314,
-    "losses": 329,
+    "losses": 330,
     "win_rate_pct": 48.8,
-    "total_pnl_sol": -0.663933,
-    "avg_pnl_pct": 56.29,
+    "total_pnl_sol": -0.674067,
+    "avg_pnl_pct": 56.18,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 102,
-    "today_realized_sol": 0.768296,
-    "today_target_pct": 192.1,
+    "today_trades": 103,
+    "today_realized_sol": 0.758162,
+    "today_target_pct": 189.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 314,
-      "loss_count": 329,
+      "loss_count": 330,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T08:38:57.691499+00:00",
+  "last_llm_brief_at": "2026-08-27T08:40:35.945730+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FAKE_HARDSTOP_MINT_pump": {
@@ -11129,16 +11146,16 @@
       "complete": false,
       "real_sol_reserves": 0
     },
-    "5d9AgZcqHdUcwRM3iBxcBYZJgNinaXgvkb5s6Lshpump": {
-      "price_usd": 3.2908224486723434e-06,
+    "F1T1yypWM5DQqWZAQi7wKdwc5Y8jK7ZBA7hkzNUbpump": {
+      "price_usd": 8.386334848894554e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 200.01154669674,
-      "volume_h24": 1884.88,
+      "liquidity_usd": 2178.89723706638,
+      "volume_h24": 25927.53,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.924298121
+      "real_sol_reserves": 20.963029027
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
