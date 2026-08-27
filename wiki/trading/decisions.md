@@ -4705,3 +4705,12 @@
 ## [2026-08-27 08:43 UTC] buy | [LLM] $BUFOS at $4.61976e-06, spent 0.1 SOL
 - **Reasoning:** $BUFOS has its own X account (@thebufos) and a clear 'every bufo belongs somewhere' story. Dedicated project account = repeat-attention signal, which is exactly what memecoin alpha needs.
 
+## [2026-08-27 08:45 UTC] sell | [PARTIAL][LLM] $GTAVI at $2.22235e-05 | P&L: +29.0%
+- **Reasoning:** +29% near auto-TP, decent pool $5.5k. Lock half the gain, let the rest ride if narrative holds.
+
+## [2026-08-27 08:45 UTC] sell | [PARTIAL][LLM] $Shaun at $1.17669e-05 | P&L: +29.3%
+- **Reasoning:** +29% but pool is thin ($3.1k, less than 5x position). Take half profit now — thin liquidity means exit will be ugly if it dumps.
+
+## [2026-08-27 08:45 UTC] buy | [LLM] $2HRS at $3.534e-06, spent 0.1 SOL
+- **Reasoning:** $2HRS has the strongest attention signal of the batch — tied to the viral Reuters Meta $18B settlement story. Real news + satire angle = viral potential. 1.4min old, $3.7k mcap is entry territory. Pool thin (bond 10%) so size matters — fits 0.1 SOL.
+

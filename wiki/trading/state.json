@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.974092,
+  "balance_sol": 0.970883,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -17,9 +17,9 @@
     "SidSPiMJdBfkrLzz2eV83hrfth7js6jDXP5rjVcpump": {
       "symbol": "GTAVI",
       "name": "VI Stars Network",
-      "amount": 301524.5457915045,
+      "amount": 150762.27289575225,
       "entry_price_usd": 1.7222478476398434e-05,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T08:42:02.913738+00:00",
       "entry_usd_value": 10.386000000000001,
       "entry_signals": {
@@ -39,9 +39,9 @@
     "5iUc7rMDPGGmBc9oQB8E4HsBh6KswSnm6hu5sfgnpump": {
       "symbol": "Shaun",
       "name": "The Mooner",
-      "amount": 1142764.961582103,
+      "amount": 571382.4807910515,
       "entry_price_usd": 9.102834222006929e-06,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.05,
       "entry_time": "2026-08-27T08:43:32.242792+00:00",
       "entry_usd_value": 10.4024,
       "entry_signals": {
@@ -76,6 +76,28 @@
         "real_sol_reserves": 10.006335336,
         "description": "Every Bufo belongs somewhere ",
         "twitter": "https://x.com/thebufos",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "2pfrgwU2rpAbh7jHdfXmqt2VkgBBkYaNLwczrP1kpump": {
+      "symbol": "2HRS",
+      "name": "Scroll Limit",
+      "amount": 2945076.400679117,
+      "entry_price_usd": 3.534e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T08:45:04.563244+00:00",
+      "entry_usd_value": 10.4079,
+      "entry_signals": {
+        "liquidity_usd": 476.877366227175,
+        "volume_24h_usd": 396.98,
+        "market_cap_usd": 3704.0605570685007,
+        "ath_market_cap_usd": 3765.4349002060176,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 4.581878825,
+        "description": "The timeline finally hit its limit. $2HRS is a satirical memecoin inspired by the viral Meta settlement and the new daily-limit era of social media. Log off? Never heard of her. Not affiliated with or endorsed by Meta.",
+        "twitter": "https://www.reuters.com/business/meta-reaches-18-billion-settlements-over-childrens-social-media-addiction-2026-08-26/?utm_source=chatgpt.com",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -11080,31 +11102,47 @@
       "pnl_pct": 18.65,
       "exit_reason": "LLM: sell_half — $GTAVI is +18.7% in under an hour on a $5,151 pool. Per the prompt's 'be aggressive' rule, lock in half at this level and let the rest ride to the +30",
       "partial": true
+    },
+    {
+      "mint": "SidSPiMJdBfkrLzz2eV83hrfth7js6jDXP5rjVcpump",
+      "symbol": "GTAVI",
+      "name": "VI Stars Network",
+      "amount_sold": 150762.27289575225,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T08:42:02.913738+00:00",
+      "exit_time": "2026-08-27T08:45:04.272252+00:00",
+      "entry_price_usd": 1.7222478476398434e-05,
+      "exit_price_usd": 2.222350595387836e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.032192,
+      "pnl_sol": 0.007192,
+      "pnl_pct": 29.04,
+      "exit_reason": "LLM: sell_half — +29% near auto-TP, decent pool $5.5k. Lock half the gain, let the rest ride if narrative holds.",
+      "partial": true
+    },
+    {
+      "mint": "5iUc7rMDPGGmBc9oQB8E4HsBh6KswSnm6hu5sfgnpump",
+      "symbol": "Shaun",
+      "name": "The Mooner",
+      "amount_sold": 571382.4807910515,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T08:43:32.242792+00:00",
+      "exit_time": "2026-08-27T08:45:04.272556+00:00",
+      "entry_price_usd": 9.102834222006929e-06,
+      "exit_price_usd": 1.1766872939112834e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.064599,
+      "pnl_sol": 0.014599,
+      "pnl_pct": 29.27,
+      "exit_reason": "LLM: sell_half — +29% but pool is thin ($3.1k, less than 5x position). Take half profit now — thin liquidity means exit will be ugly if it dumps.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T08:43:32.846205+00:00",
+  "last_updated": "2026-08-27T08:45:04.563626+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.024,
-  "portfolio_value_usd": 137.33,
+  "last_sol_price_usd": 104.079,
+  "portfolio_value_usd": 139.66,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 08:35 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Baby at $2.92953e-06 | P&L: -32.1%",
-      "reason": "Down -32% with pool only $8 and we hold 88% of it — we're the exit liquidity. No bounce signal, -50% hard stop is close. Cut now."
-    },
-    {
-      "time": "2026-08-27 08:35 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Pepe at $3.01774e-06 | P&L: -27.7%",
-      "reason": "Down -27.7% on a generic Pepe name with weak narrative differentiation. -50% cap approaching, exit before it gets worse."
-    },
-    {
-      "time": "2026-08-27 08:35 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $SOLBONKEY at $9.0109e-07 | P&L: -26.4%",
-      "reason": "Down -26.4%, pool only $17, we hold 45% — illiquid and bleeding. No reason to hold, free the slot for fresh entries."
-    },
     {
       "time": "2026-08-27 08:35 UTC",
       "action": "buy",
@@ -11206,28 +11244,46 @@
       "action": "buy",
       "details": "[LLM] $BUFOS at $4.61976e-06, spent 0.1 SOL",
       "reason": "$BUFOS has its own X account (@thebufos) and a clear 'every bufo belongs somewhere' story. Dedicated project account = repeat-attention signal, which is exactly what memecoin alpha needs."
+    },
+    {
+      "time": "2026-08-27 08:45 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $GTAVI at $2.22235e-05 | P&L: +29.0%",
+      "reason": "+29% near auto-TP, decent pool $5.5k. Lock half the gain, let the rest ride if narrative holds."
+    },
+    {
+      "time": "2026-08-27 08:45 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Shaun at $1.17669e-05 | P&L: +29.3%",
+      "reason": "+29% but pool is thin ($3.1k, less than 5x position). Take half profit now — thin liquidity means exit will be ugly if it dumps."
+    },
+    {
+      "time": "2026-08-27 08:45 UTC",
+      "action": "buy",
+      "details": "[LLM] $2HRS at $3.534e-06, spent 0.1 SOL",
+      "reason": "$2HRS has the strongest attention signal of the batch — tied to the viral Reuters Meta $18B settlement story. Real news + satire angle = viral potential. 1.4min old, $3.7k mcap is entry territory. Pool thin (bond 10%) so size matters — fits 0.1 SOL."
     }
   ],
   "trade_stats": {
-    "total": 647,
-    "wins": 315,
+    "total": 649,
+    "wins": 317,
     "losses": 332,
-    "win_rate_pct": 48.7,
-    "total_pnl_sol": -0.675899,
-    "avg_pnl_pct": 55.92,
+    "win_rate_pct": 48.8,
+    "total_pnl_sol": -0.654108,
+    "avg_pnl_pct": 55.84,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 106,
-    "today_realized_sol": 0.75633,
-    "today_target_pct": 189.1,
+    "today_trades": 108,
+    "today_realized_sol": 0.778121,
+    "today_target_pct": 194.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 315,
+      "win_count": 317,
       "loss_count": 332,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T08:43:31.949365+00:00",
+  "last_llm_brief_at": "2026-08-27T08:45:04.272072+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FAKE_HARDSTOP_MINT_pump": {
@@ -11241,27 +11297,38 @@
       "complete": false,
       "real_sol_reserves": 0
     },
-    "ENDmK1L9mrhCm52wFPzxontfoyWouK14KYNVaEgfBETS": {
-      "price_usd": 6.0338464951798305e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1374.225102071008,
-      "volume_h24": 4654.84,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 13.210654292
-    },
     "SidSPiMJdBfkrLzz2eV83hrfth7js6jDXP5rjVcpump": {
-      "price_usd": 2.0435255130086464e-05,
+      "price_usd": 2.222350595387836e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 5151.408951617048,
-      "volume_h24": 4608.39,
+      "liquidity_usd": 5506.388851192817,
+      "volume_h24": 5782.48,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 49.521350377
+      "real_sol_reserves": 52.905858542
+    },
+    "5iUc7rMDPGGmBc9oQB8E4HsBh6KswSnm6hu5sfgnpump": {
+      "price_usd": 1.1766872939112834e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3156.371110250163,
+      "volume_h24": 18671.58,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 30.326685597
+    },
+    "EUm4QJ2hVJQqZPh4DHSciTNCQToatShfiUP844zdpump": {
+      "price_usd": 4.866468992241681e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 915.469241601045,
+      "volume_h24": 4816.32,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 8.795907355
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
