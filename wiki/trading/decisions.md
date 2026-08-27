@@ -7186,3 +7186,9 @@
 ## [2026-08-27 13:36 UTC] buy | [LLM] $TRENCHLANA at $1.02013e-05, spent 0.05 SOL
 - **Reasoning:** TRENCHLANA cluster is suspicious (many clones from one mert post) but the highest-mcap variant ($10.2k, bond 32%) has the most liquidity depth and is most likely to be the one organic traders land on. Small 0.05 SOL scalp on the highest-mcap variant only — treating as attention-test trade, not conviction.
 
+## [2026-08-27 13:37 UTC] sell | [hard-stop] $TRENCHLANA closed at $2.92535e-06 | P&L: -71.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:38 UTC] buy | [LLM] $MAREA at $4.38531e-06, spent 0.05 SOL
+- **Reasoning:** $MAREA has the strongest narrative of this batch — 'MAREGRAPH' with a coherent AI-tide-gauge concept, real twitter @maregraph, and a descriptive pitch. Low bond (15%), freshest entry with actual story rather than just a name. Buys at ~0.05 SOL.
+
