@@ -150,3 +150,17 @@
 - Also added dedup-by-symbol check (LLM sometimes picks same mint twice)
 - Files: bot/bot.py, wiki/trading/index.html, wiki/trading/assets/dashboard.css
 - Verified: bot rejected $Aura (pool $0) and $PONY (pool $17); accepted $HOBBES (pool $910), $GREENPISTA (pool $3617)
+
+## [2026-08-27] update | Bot v6: scalp-focused profit taking
+- Grant observation: $Ai-Chan at +114% in 12 min — why hold longer? Should scalp
+- Bug found: 8b take-profit was using `tokens` (fresh launches list) to look up held positions, but held tokens are NOT in fresh list — so 8b never fired
+- Fix: use `held_prices` dict directly for held positions (correct lookup)
+- Auto-TP tiers (non-negotiable, bot enforces):
+  - +30% → sell 50%
+  - +100% → sell 75%
+  - +300% → sell 100%
+- Stale-position exit: >60 min held AND pnl < +30% → auto-exit regardless of LLM
+- LLM prompt rewritten with SCALPING DISCIPLINE section: aggressive profit-taking, fast exit on losers, skip weak entries
+- Verified: $Topblast at +91.6% triggered TP +30% (half) successfully
+- Verified: $CLAUDE at -50% auto-stopped
+- Files: bot/bot.py
