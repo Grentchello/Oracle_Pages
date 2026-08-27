@@ -6220,3 +6220,15 @@
 ## [2026-08-27 11:32 UTC] buy | [LLM] $wifi at $5.53673e-06, spent 0.05 SOL
 - **Reasoning:** $wifi from ord1nary_fella — strong crypto-twitter attention source, fresh launch. Simple ticker ($wifi) is highly memeable, easy to pump. $5.5k mcap, super early entry.
 
+## [2026-08-27 11:34 UTC] sell | [hard-stop] $drillcat closed at $3.08944e-06 | P&L: -50.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:34 UTC] sell | [hard-stop] $wifi closed at $3.09099e-06 | P&L: -44.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:34 UTC] sell | [FULL][LLM] $PTA at $2.98131e-06 | P&L: -29.0%
+- **Reasoning:** $PTA at -29% with pool liquidity only $41 and our share 9% — we're about to hit the -30% hard stop anyway. Better to exit now on a thin pool than wait for forced exit. Free up the slot.
+
+## [2026-08-27 11:34 UTC] buy | [LLM] $Fafo  at $3.14011e-06, spent 0.05 SOL
+- **Reasoning:** $Fafo has the 'fuck around and find out' meme which is a strong evergreen crypto-culture attention trigger. Low mcap early entry. Risk: minimal liquidity at $3k mcap could mean rug risk, but name recognition is universal in crypto Twitter.
+
