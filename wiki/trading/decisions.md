@@ -3868,3 +3868,18 @@
 ## [2026-08-27 03:21 UTC] buy | [LLM] $Peter at $4.06848e-06, spent 0.1 SOL
 - **Reasoning:** $Peter (RIP Peter Cullen — Optimus Prime voice) is a clear celebrity-death tribute narrative with X attention — classic viral tribute play. 0.1 SOL entry despite tiny mcap.
 
+## [2026-08-27 03:23 UTC] sell | [TP +100% (75%)] $Cashew at $4.11061e-05 | P&L: +114.5%
+- **Reasoning:** Auto take-profit at +114.5%
+
+## [2026-08-27 03:23 UTC] sell | [PARTIAL][LLM] $Cashew at $4.11061e-05 | P&L: +114.5%
+- **Reasoning:** Cashew is up 114.5% in only 0.1h and has already passed the first +30% profit-taking threshold. Lock half while retaining exposure to a possible fresh-launch squeeze.
+
+## [2026-08-27 03:23 UTC] sell | [FULL][LLM] $ART at $3.73833e-06 | P&L: -75.0%
+- **Reasoning:** ART is down 75.0% with only $453 of reported liquidity, so it has breached the stated -20% loser-exit discipline and shows no clear bounce signal. Exit rather than risk the hard -50% stop.
+
+## [2026-08-27 03:23 UTC] sell | [PARTIAL][LLM] $Peter at $4.5584e-06 | P&L: +12.0%
+- **Reasoning:** Peter is up 12.0%, but its $817 pool and newly launched status make momentum uncertain. Take half profit now and leave the remainder only for a strong continuation.
+
+## [2026-08-27 03:23 UTC] buy | [LLM] $Scoobert at $1.13594e-05, spent 0.1 SOL
+- **Reasoning:** Scoobert has the strongest early attention profile at roughly 0.7 minutes old, with a leading $11.4K market cap and 33% bonding progress. It is still highly speculative, but its relative early strength makes it the clearest new-launch entry.
+
