@@ -6055,3 +6055,24 @@
 ## [2026-08-27 11:10 UTC] sell | [PARTIAL][LLM] $ILY at $6.465e-05 | P&L: +144.3%
 - **Reasoning:** $ILY is +144%, comfortably past the +100% TP tier. Bonding curve may be near completion; locking half secures profit while leaving runner. Per scalp discipline, profit-taking is mandatory when up >20% with any doubt — and post-pump dumps are the #1 way gains evaporate on microcaps.
 
+## [2026-08-27 11:11 UTC] sell | [TP +100% (50%)] $ILY at $7.119e-05 | P&L: +169.1%
+- **Reasoning:** Auto take-profit at +169.1%
+
+## [2026-08-27 11:11 UTC] sell | [TP +30% (25%)] $OSTRICH at $8.19678e-06 | P&L: +44.0%
+- **Reasoning:** Auto take-profit at +44.0%
+
+## [2026-08-27 11:12 UTC] sell | [FULL][LLM] $ILY at $7.119e-05 | P&L: +169.1%
+- **Reasoning:** Up +169% on a $21k pool is massive. The 30m history shows price has been flat at $0.00003494 for 3 minutes after the pump — momentum is dying. Lock the gains now before reversal.
+
+## [2026-08-27 11:12 UTC] sell | [PARTIAL][LLM] $OSTRICH at $8.19678e-06 | P&L: +44.0%
+- **Reasoning:** Up +44% on a tiny $2.1k pool — extremely illiquid and risky. The price action is choppy (0.0000847 -> 0.0000737). Take half profit, let the rest ride with a tight mental stop.
+
+## [2026-08-27 11:12 UTC] buy | [LLM] $PippinBull at $1.25407e-05, spent 0.05 SOL
+- **Reasoning:** Pippin Bull narrative rides on the $Pippin (horse) attention from earlier today — pets/animal meta has been hot. $12k mcap, 34% bonded, fresh (0.6min). Decent attention signal with search Twitter activity.
+
+## [2026-08-27 11:12 UTC] buy | [LLM] $CATMAXX at $3.524e-06, spent 0.05 SOL
+- **Reasoning:** CATMAXX has its own Twitter handle (@catmaxxtoken) which signals committed community. Cat meta is evergreen. $4.2k mcap is early entry, 15% bonded. Worth a small position.
+
+## [2026-08-27 11:12 UTC] buy | [LLM] $ARSONIST at $3.58115e-06, spent 0.05 SOL
+- **Reasoning:** The Arsonist — tied to @nexta_tv tweet which is a known crypto attention account. Narrative coin ('arsonist' = burning shorts/bags) plays well in degen culture. $3.5k mcap, very fresh at 0.3min.
+
