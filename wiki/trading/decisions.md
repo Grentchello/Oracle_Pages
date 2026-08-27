@@ -5833,3 +5833,18 @@
 ## [2026-08-27 10:44 UTC] buy | [LLM] $Pistacio at $8.56847e-06, spent 0.05 SOL
 - **Reasoning:** $Pistacio (Guccistacio) — luxury/fashion brand parody is a proven memecoin genre (Gucci-adjacent names pump). $8.5k mcap with 29% bond shows early traction.
 
+## [2026-08-27 10:45 UTC] sell | [FULL][LLM] $CHILLBULL at $1.77126e-05 | P&L: -3.4%
+- **Reasoning:** $CHILLBULL is down 3.4% on a $4,581 pool — well below the 0.05 SOL position but pool is too thin to trust a bounce. Cut it and free the slot for fresh attention.
+
+## [2026-08-27 10:45 UTC] sell | [FULL][LLM] $Biz at $7.20813e-06 | P&L: -0.7%
+- **Reasoning:** $Biz is flat-to-slightly-down on a tiny $1,792 pool, no narrative signal, and bonding curve barely populated. No reason to babysit dead air — exit and redeploy.
+
+## [2026-08-27 10:45 UTC] sell | [FULL][LLM] $Pistacio at $8.61138e-06 | P&L: +0.5%
+- **Reasoning:** $Pistacio is essentially flat (+0.5%) on a $2,249 pool after just-launched window — this is a stale-on-arrival micro-cap with no viral signal. Free the slot.
+
+## [2026-08-27 10:45 UTC] buy | [LLM] $copycat at $9.02464e-06, spent 0.05 SOL
+- **Reasoning:** $copycat already at $9k mcap 30s after launch — strong first-attention signal, narrative around copycat-trading meta is timely. Early attention beats most other signals.
+
+## [2026-08-27 10:45 UTC] buy | [LLM] $HERE at $3.70444e-06, spent 0.05 SOL
+- **Reasoning:** $HERE (We are here) from @MustStopMurad — Murad is a high-attention memecoin account, $3.7k mcap at 20s old is fresh entry. Narrative-driven meta coin with a known callout account.
+
