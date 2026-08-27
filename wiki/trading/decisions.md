@@ -5929,3 +5929,18 @@
 ## [2026-08-27 10:54 UTC] sell | [TP +30% (25%)] $Elephant at $7.8831e-06 | P&L: +39.3%
 - **Reasoning:** Auto take-profit at +39.3%
 
+## [2026-08-27 10:54 UTC] sell | [hard-stop] $MACKAREL closed at $3.04783e-06 | P&L: -42.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:54 UTC] sell | [TP +30% (25%)] $Elephant at $9.89749e-06 | P&L: +74.9%
+- **Reasoning:** Auto take-profit at +74.9%
+
+## [2026-08-27 10:54 UTC] sell | [FULL][LLM] $Elephant at $7.8831e-06 | P&L: +39.3%
+- **Reasoning:** +39.3% profit, well past the +25% auto-TP threshold but no auto-TP triggered yet — locking in gains now per aggressive profit-taking discipline. Bonding curve only 28% complete and our share is 0% with $2k pool, liquidity thin for exit.
+
+## [2026-08-27 10:54 UTC] buy | [LLM] $MACKAREL at $7.64252e-06, spent 0.05 SOL
+- **Reasoning:** $MACKAREL — highest mcap of fresh launches ($7.6k), 28% bonding curve already shows traction, 'A mackerel never surrenders' is a fun absurdist narrative with X presence. Best attention signal in the batch.
+
+## [2026-08-27 10:54 UTC] buy | [LLM] $DEX  at $3.58224e-06, spent 0.05 SOL
+- **Reasoning:** $DEX — viral TikTok monkey story, real content/attention angle (TikTok virality > random X posts). $3.6k mcap, only 9% bonded = lots of room, low entry risk on 0.05 SOL.
+
