@@ -4315,3 +4315,12 @@
 ## [2026-08-27 07:51 UTC] buy | [LLM] $DOGGYSTYLE at $1.969e-05, spent 0.1 SOL
 - **Reasoning:** $DOGGYSTYLE has the strongest attention signal of the batch — viral X post, $26k mcap already trending up, 40% bonding curve = real buyers. Crude name = crude humor = memecoin gold.
 
+## [2026-08-27 07:52 UTC] sell | [TP +30% (half)] $DOGGYSTYLE at $2.89727e-05 | P&L: +47.1%
+- **Reasoning:** Auto take-profit at +47.1%
+
+## [2026-08-27 07:52 UTC] sell | [PARTIAL][LLM] $DOGGYSTYLE at $2.89727e-05 | P&L: +47.1%
+- **Reasoning:** Up +47.1% past the +30% TP threshold. Lock half the gain — +47% on memecoins can reverse fast, but letting half ride captures continued upside if narrative holds.
+
+## [2026-08-27 07:52 UTC] buy | [LLM] $GOOB at $5.09375e-06, spent 0.1 SOL
+- **Reasoning:** $GOOB 'GET OUT OF BED' has relatable viral hook, $5.1k mcap with 20% bonding curve progress showing some traction — decent attention-market candidate at 0.1 SOL.
+

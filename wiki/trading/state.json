@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.322285,
+  "balance_sol": 0.332622,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -17,9 +17,9 @@
     "56bNXcngxy1Ze8LquEfXyNH8i274erC3g7rWRHz2pump": {
       "symbol": "DOGGYSTYLE",
       "name": "DoggyStyle",
-      "amount": 515947.18131030985,
+      "amount": 128986.79532757746,
       "entry_price_usd": 1.969e-05,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T07:51:22.473779+00:00",
       "entry_usd_value": 10.159,
       "entry_signals": {
@@ -32,6 +32,28 @@
         "real_sol_reserves": 69.825792344,
         "description": "",
         "twitter": "https://x.com/b00gi3/status/2092686186385219849",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "4NSPwa7f4pfsBwm5KxzAspV5XsB8mQ2NJCQ6knedpump": {
+      "symbol": "GOOB",
+      "name": "GET OUT OF BED",
+      "amount": 1994796.6357101994,
+      "entry_price_usd": 5.093752324473127e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T07:52:54.314616+00:00",
+      "entry_usd_value": 10.161000000000001,
+      "entry_signals": {
+        "liquidity_usd": 4702.44494716866,
+        "volume_24h_usd": null,
+        "market_cap_usd": 5112.109847055313,
+        "ath_market_cap_usd": 5090.819694702615,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 46.279351906,
+        "description": "",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -9506,31 +9528,47 @@
       "pnl_pct": 137.04,
       "exit_reason": "LLM: sell_all — $Huggy up +137% — already hit the +100% TP zone, bot should have taken 75%. Selling remaining now to lock in the 2.37x. Don't get greedy, this is a $3",
       "partial": false
+    },
+    {
+      "mint": "56bNXcngxy1Ze8LquEfXyNH8i274erC3g7rWRHz2pump",
+      "symbol": "DOGGYSTYLE",
+      "name": "DoggyStyle",
+      "amount_sold": 257973.59065515493,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T07:51:22.473779+00:00",
+      "exit_time": "2026-08-27T07:52:27.018635+00:00",
+      "entry_price_usd": 1.969e-05,
+      "exit_price_usd": 2.8972662273789123e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.073558,
+      "pnl_sol": 0.023558,
+      "pnl_pct": 47.14,
+      "exit_reason": "auto-TP +30% (half)",
+      "partial": true
+    },
+    {
+      "mint": "56bNXcngxy1Ze8LquEfXyNH8i274erC3g7rWRHz2pump",
+      "symbol": "DOGGYSTYLE",
+      "name": "DoggyStyle",
+      "amount_sold": 128986.79532757746,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T07:51:22.473779+00:00",
+      "exit_time": "2026-08-27T07:52:54.024304+00:00",
+      "entry_price_usd": 1.969e-05,
+      "exit_price_usd": 2.8972662273789123e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.036779,
+      "pnl_sol": 0.011779,
+      "pnl_pct": 47.14,
+      "exit_reason": "LLM: sell_half — Up +47.1% past the +30% TP threshold. Lock half the gain — +47% on memecoins can reverse fast, but letting half ride captures continued upside if narr",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T07:51:22.774288+00:00",
+  "last_updated": "2026-08-27T07:52:54.314974+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.59,
-  "portfolio_value_usd": 52.9,
+  "last_sol_price_usd": 101.61,
+  "portfolio_value_usd": 58.16,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 07:39 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $Gro closed at $2.85106e-06 | P&L: -87.5%",
-      "reason": "Hard -50% stop"
-    },
-    {
-      "time": "2026-08-27 07:40 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $up at $9.03045e-06 | P&L: +27.3%",
-      "reason": "Up +27.3% and just hit the +30% TP zone imminent — pool is tiny ($2,387) so any reversal hits hard. Lock the gain now before it gives back. Bonding-curve share 0% means illiquid exit risk if it stalls."
-    },
-    {
-      "time": "2026-08-27 07:40 UTC",
-      "action": "buy",
-      "details": "[LLM] $Wojak at $3.53949e-06, spent 0.1 SOL",
-      "reason": "$Wojak the Chimp — Wojak is one of the strongest meme IP brands in crypto (crossed with the hot 'animal coin' meta like Moo Deng/Punch). Live tweet from organic account. $3.5k mcap = cheap. 0.1 SOL."
-    },
     {
       "time": "2026-08-27 07:40 UTC",
       "action": "buy",
@@ -9632,28 +9670,46 @@
       "action": "buy",
       "details": "[LLM] $DOGGYSTYLE at $1.969e-05, spent 0.1 SOL",
       "reason": "$DOGGYSTYLE has the strongest attention signal of the batch — viral X post, $26k mcap already trending up, 40% bonding curve = real buyers. Crude name = crude humor = memecoin gold."
+    },
+    {
+      "time": "2026-08-27 07:52 UTC",
+      "action": "sell",
+      "details": "[TP +30% (half)] $DOGGYSTYLE at $2.89727e-05 | P&L: +47.1%",
+      "reason": "Auto take-profit at +47.1%"
+    },
+    {
+      "time": "2026-08-27 07:52 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $DOGGYSTYLE at $2.89727e-05 | P&L: +47.1%",
+      "reason": "Up +47.1% past the +30% TP threshold. Lock half the gain — +47% on memecoins can reverse fast, but letting half ride captures continued upside if narrative holds."
+    },
+    {
+      "time": "2026-08-27 07:52 UTC",
+      "action": "buy",
+      "details": "[LLM] $GOOB at $5.09375e-06, spent 0.1 SOL",
+      "reason": "$GOOB 'GET OUT OF BED' has relatable viral hook, $5.1k mcap with 20% bonding curve progress showing some traction — decent attention-market candidate at 0.1 SOL."
     }
   ],
   "trade_stats": {
-    "total": 557,
-    "wins": 256,
+    "total": 559,
+    "wins": 258,
     "losses": 301,
-    "win_rate_pct": 46.0,
-    "total_pnl_sol": -1.477705,
-    "avg_pnl_pct": 56.0,
+    "win_rate_pct": 46.2,
+    "total_pnl_sol": -1.442368,
+    "avg_pnl_pct": 55.97,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 16,
-    "today_realized_sol": -0.045476,
-    "today_target_pct": -11.4,
+    "today_trades": 18,
+    "today_realized_sol": -0.010139,
+    "today_target_pct": -2.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 256,
+      "win_count": 258,
       "loss_count": 301,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T07:51:22.167835+00:00",
+  "last_llm_brief_at": "2026-08-27T07:52:54.024262+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FAKE_HARDSTOP_MINT_pump": {
@@ -9667,38 +9723,16 @@
       "complete": false,
       "real_sol_reserves": 0
     },
-    "BhYwRav9VXBb8ArciDPNZdKchX5tsDpGA4UpmTTypump": {
-      "price_usd": 3.71079084242125e-06,
+    "56bNXcngxy1Ze8LquEfXyNH8i274erC3g7rWRHz2pump": {
+      "price_usd": 2.8972662273789123e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 435.82720606695005,
-      "volume_h24": 330.01,
+      "liquidity_usd": 6686.40772098063,
+      "volume_h24": 22111.19,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.290060105
-    },
-    "HYVRU3woDbAt3TSr2VkNRHJga1dtX7bQjMcRbtD1pump": {
-      "price_usd": 2.855535114461729e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 8.13373640219,
-      "volume_h24": 11270.82,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.080064341
-    },
-    "3tjec3WLYYApjnBMzK4ZM5Vt3E6LBE7jnwMQhovNpump": {
-      "price_usd": 1.3897748504729554e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 3693.82568654974,
-      "volume_h24": 20949.34,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 36.360130786
+      "real_sol_reserves": 65.804622783
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
