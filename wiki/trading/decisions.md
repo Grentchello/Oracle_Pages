@@ -6208,3 +6208,15 @@
 ## [2026-08-27 11:31 UTC] buy | [LLM] $GOYTOYS at $9.634e-06, spent 0.05 SOL
 - **Reasoning:** $GOYTOYS highest mcap of the new launches at $13.3k, 35% bonded (further along than peers = real buy pressure), and RT_com is launching a coordinated token family (Goyplug, BIBS, ה variants all in this batch) which signals an attention campaign not a one-off. $5 position; high narrative energy around the 'Goy' meme cluster.
 
+## [2026-08-27 11:32 UTC] sell | [hard-stop] $GOYTOYS closed at $3.22527e-06 | P&L: -66.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:32 UTC] buy | [LLM] $PTA at $4.19695e-06, spent 0.05 SOL
+- **Reasoning:** $PTA (Poke Theft Auto) has a killer narrative — Pokemon on Solana with real-money wagers, multi-player, has its own X account. Brand recognition of Pokemon is enormous viral potential. Mcap only $4.2k, very early. This is exactly the type of attention-launched play that 10x's.
+
+## [2026-08-27 11:32 UTC] buy | [LLM] $drillcat at $6.18e-06, spent 0.05 SOL
+- **Reasoning:** $drillcat — meme cat coin with immediate viral attention, $8k mcap with 28% bonding curve progress showing real buy pressure. Cat meta is hot, narrative is clean. Buying before bonding curve fills.
+
+## [2026-08-27 11:32 UTC] buy | [LLM] $wifi at $5.53673e-06, spent 0.05 SOL
+- **Reasoning:** $wifi from ord1nary_fella — strong crypto-twitter attention source, fresh launch. Simple ticker ($wifi) is highly memeable, easy to pump. $5.5k mcap, super early entry.
+
