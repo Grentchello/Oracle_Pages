@@ -2245,3 +2245,12 @@
 ## [2026-08-27 00:01 UTC] buy | [LLM] $AE at $3.46892e-06, spent 0.1 SOL
 - **Reasoning:** $AE (Agentic Ecology) ties into the hot AI-agent narrative with $3.5k mcap and fresh twitter — agentic tokens have shown strong attention grabs recently.
 
+## [2026-08-27 00:02 UTC] sell | [FULL][LLM] $Grizzly399 at $2.849e-06 | P&L: -37.3%
+- **Reasoning:** Down -37.3%, approaching -50% hard cap, and 24h/1h trend is -26% — momentum against it, free the slot for fresher attention.
+
+## [2026-08-27 00:02 UTC] buy | [LLM] $VORRRP at $2.94977e-06, spent 0.1 SOL
+- **Reasoning:** $VORRRP — strongest narrative in the batch: viral 17yo-artist meme by @menthzy, fully onboarded with creator fees routed, active X post from @swaynfa. Early $2.9k mcap with real attention story.
+
+## [2026-08-27 00:02 UTC] buy | [LLM] $bag at $3.499e-06, spent 0.1 SOL
+- **Reasoning:** $bag — 'just a bag' is a simple absurd meme, X link from dedicated @JustBagOnPump account, mcap $3.5k. Low-cost attention lottery ticket.
+
