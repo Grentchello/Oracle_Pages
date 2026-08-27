@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.811251,
+  "balance_sol": 0.78751,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -50,9 +50,9 @@
     "5zKXAimuGAuVeLPr4nV9jEpYkBL3RVxsPM5A38ETpump": {
       "symbol": "WIF²",
       "name": "dogwifpantswifhat",
-      "amount": 1104986.1242255915,
+      "amount": 427417.9122852413,
       "entry_price_usd": 9.152151125053723e-06,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.03868083977839894,
       "entry_time": "2026-08-27T02:48:11.082664+00:00",
       "entry_usd_value": 10.113,
       "entry_signals": {
@@ -65,28 +65,6 @@
         "real_sol_reserves": 31.862509385,
         "description": "",
         "twitter": "https://x.com/i/status/2092806177939714173",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "EzjqvvXqVs2tdB7wWRdDGScgJC83TrabxSdqpFf2pump": {
-      "symbol": "WIFWIF",
-      "name": "dogwifpantswifhat",
-      "amount": 1233655.8275890218,
-      "entry_price_usd": 8.197586209894701e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T02:48:11.399716+00:00",
-      "entry_usd_value": 10.113,
-      "entry_signals": {
-        "liquidity_usd": 1683.3309438710999,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8206.77361422761,
-        "ath_market_cap_usd": 11324.026941782467,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 16.64521847,
-        "description": "",
-        "twitter": "https://x.com/TobiasJochike/status/2092806071459135526",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -109,6 +87,28 @@
         "real_sol_reserves": 1.187654324,
         "description": "Claude opus 4.8 the new model which dropped yesterday is telling users it has a pet dog named \"max\"",
         "twitter": "https://x.com/BananaInte/status/2092806112156291100?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "DphJRoZQg8xD34iPJvWaU8BstruxouZANSahjDFMpump": {
+      "symbol": "Ai-Chan",
+      "name": "アイちゃん",
+      "amount": 349120.629427191,
+      "entry_price_usd": 2.9027216227889633e-05,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T02:49:27.618255+00:00",
+      "entry_usd_value": 10.134,
+      "entry_signals": {
+        "liquidity_usd": 7359.759711675721,
+        "volume_24h_usd": null,
+        "market_cap_usd": 28986.611821101105,
+        "ath_market_cap_usd": 34282.86788872693,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 72.624429758,
+        "description": "",
+        "twitter": "https://x.com/dv3333333/status/2092806421658419628",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -6914,31 +6914,47 @@
       "pnl_pct": -81.63,
       "exit_reason": "LLM: sell_all — monkey.jpeg down -81.6%, well below the -50% trigger consideration; bonding curve dead, no narrative left, harvest remaining dust.",
       "partial": false
+    },
+    {
+      "mint": "5zKXAimuGAuVeLPr4nV9jEpYkBL3RVxsPM5A38ETpump",
+      "symbol": "WIF²",
+      "name": "dogwifpantswifhat",
+      "amount_sold": 677568.2119403502,
+      "fraction_sold": 0.6131916022160107,
+      "entry_time": "2026-08-27T02:48:11.082664+00:00",
+      "exit_time": "2026-08-27T02:49:27.304440+00:00",
+      "entry_price_usd": 9.152151125053723e-06,
+      "exit_price_usd": 2.842429640417648e-06,
+      "entry_sol_for_chunk": 0.061319,
+      "exit_sol_received": 0.019005,
+      "pnl_sol": -0.042314,
+      "pnl_pct": -68.94,
+      "exit_reason": "LLM: sell_all — -68.9% loss, pool=$5 effectively dead. Past hard cap mentally, freeing slot for fresh attention.",
+      "partial": true
+    },
+    {
+      "mint": "EzjqvvXqVs2tdB7wWRdDGScgJC83TrabxSdqpFf2pump",
+      "symbol": "WIFWIF",
+      "name": "dogwifpantswifhat",
+      "amount_sold": 1233655.8275890218,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T02:48:11.399716+00:00",
+      "exit_time": "2026-08-27T02:49:27.304652+00:00",
+      "entry_price_usd": 8.197586209894701e-06,
+      "exit_price_usd": 4.703189016217029e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.057254,
+      "pnl_sol": -0.042746,
+      "pnl_pct": -42.63,
+      "exit_reason": "LLM: sell_all — -42.6% approaching -50% hard cap, pool only $877, no bounce signal. Cut to redeploy.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T02:48:11.693778+00:00",
+  "last_updated": "2026-08-27T02:49:27.618620+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.13,
-  "portfolio_value_usd": 127.57,
+  "last_sol_price_usd": 101.34,
+  "portfolio_value_usd": 119.16,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 02:44 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $stage at $1.04148e-05 | P&L: +123.2%",
-      "reason": "$stage is +123% but bonding curve and 0% movement on 1h/24h suggests momentum has stalled. Lock in profit on half, let the rest ride if narrative stays hot."
-    },
-    {
-      "time": "2026-08-27 02:44 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $idk at $5.95528e-06 | P&L: -24.1%",
-      "reason": "$idk at -24.1% with no positive1h/24h signal and no clear narrative — capital is better deployed in fresh launches with attention."
-    },
-    {
-      "time": "2026-08-27 02:44 UTC",
-      "action": "buy",
-      "details": "[LLM] $GREENPISTA at $9.63813e-06, spent 0.1 SOL",
-      "reason": "$GREENPISTA has a memorable, memeable 'Green Pistachio' identity at $9.6k mcap with 31% bonded — strong narrative coin at low mcap, classic attention play."
-    },
     {
       "time": "2026-08-27 02:44 UTC",
       "action": "buy",
@@ -7040,35 +7056,53 @@
       "action": "buy",
       "details": "[LLM] $MAX at $3.01673e-06, spent 0.1 SOL",
       "reason": "$MAX riding Claude/AI narrative with a specific viral story (Claude's pet dog) — attention-driven AI meme angle."
+    },
+    {
+      "time": "2026-08-27 02:49 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $WIF² at $2.84243e-06 | P&L: -68.9%",
+      "reason": "-68.9% loss, pool=$5 effectively dead. Past hard cap mentally, freeing slot for fresh attention."
+    },
+    {
+      "time": "2026-08-27 02:49 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WIFWIF at $4.70319e-06 | P&L: -42.6%",
+      "reason": "-42.6% approaching -50% hard cap, pool only $877, no bounce signal. Cut to redeploy."
+    },
+    {
+      "time": "2026-08-27 02:49 UTC",
+      "action": "buy",
+      "details": "[LLM] $Ai-Chan at $2.90272e-05, spent 0.1 SOL",
+      "reason": "$Ai-Chan — highest mcap ($29k) of the batch, 41% bonding curve already filled = strongest organic buy pressure. X link present, Japanese anime girl narrative has meme potential. Fresh attention, take the position before confirmation."
     }
   ],
   "trade_stats": {
-    "total": 400,
+    "total": 402,
     "wins": 180,
-    "losses": 220,
-    "win_rate_pct": 45.0,
-    "total_pnl_sol": -0.638743,
-    "avg_pnl_pct": 70.74,
+    "losses": 222,
+    "win_rate_pct": 44.8,
+    "total_pnl_sol": -0.723803,
+    "avg_pnl_pct": 70.11,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 257,
-    "today_realized_sol": -0.109536,
-    "today_target_pct": -27.4,
+    "today_trades": 259,
+    "today_realized_sol": -0.194596,
+    "today_target_pct": -48.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 180,
-      "loss_count": 220,
+      "loss_count": 222,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T02:48:10.796777+00:00",
+  "last_llm_brief_at": "2026-08-27T02:49:27.304313+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BRc9vvMh3pGRwboaq8m1tT1EmAzy27nS3LhnYYVV9VRL": {
-      "price_usd": 4.773199861283097e-06,
+      "price_usd": 4.7831115785862665e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 907.9972690765799,
+      "liquidity_usd": 909.8827573244399,
       "volume_h24": 5362.97,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
@@ -7076,48 +7110,48 @@
       "real_sol_reserves": 8.978515466
     },
     "dktEerU1BK3L4nwoEkaA7daR1ioqf1jZYDSz6fApump": {
-      "price_usd": 1.5103475501918426e-05,
+      "price_usd": 1.1898578132393033e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3978.05208729852,
-      "volume_h24": 10627.86,
+      "liquidity_usd": 3189.9495537388802,
+      "volume_h24": 12168.21,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 39.336023804
+      "real_sol_reserves": 31.477694432
     },
-    "37wFDx322zdBCNUnbCDsn6uusMMgR1SgzJXfWKagpump": {
-      "price_usd": 2.933981771132398e-06,
+    "5zKXAimuGAuVeLPr4nV9jEpYkBL3RVxsPM5A38ETpump": {
+      "price_usd": 2.842429640417648e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 56.60320440663,
-      "volume_h24": 18572.07,
+      "liquidity_usd": 4.8596213709,
+      "volume_h24": 13779.54,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.559707351
+      "real_sol_reserves": 0.047953635
     },
-    "H9L8RBq2qxiXCcWHpLPE7CbjyDFSSHSBzZAecuR3pump": {
-      "price_usd": 2.82749301044013e-06,
+    "EzjqvvXqVs2tdB7wWRdDGScgJC83TrabxSdqpFf2pump": {
+      "price_usd": 4.703189016217029e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.0226e-07,
-      "volume_h24": 249.1,
+      "liquidity_usd": 876.7421354358,
+      "volume_h24": 23373.39,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2e-09
+      "real_sol_reserves": 8.65149137
     },
-    "6ePBXoNjXkQKH1NfMDZEVAKQigiug6XzhCHvnpFmpump": {
-      "price_usd": 3.1996641219759812e-06,
+    "6SL5EtsfnxeCHRLZ9oKWPywqhF9MLhuZ7b2r9TcCpump": {
+      "price_usd": 2.8688760931847707e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 193.49921752266,
-      "volume_h24": 38678.77,
+      "liquidity_usd": 18.99269872812,
+      "volume_h24": 170.01,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.913371082
+      "real_sol_reserves": 0.187415618
     }
   }
 }
