@@ -3898,3 +3898,21 @@
 ## [2026-08-27 03:24 UTC] buy | [LLM] $PUMPARENA at $1.53177e-05, spent 0.1 SOL
 - **Reasoning:** $PUMPARENA has the strongest narrative of the batch — 24/7 AI-narrated fight tournament is a sticky content loop and $15k mcap gives real room. Risk: meme is niche, but the format is viral.
 
+## [2026-08-27 03:25 UTC] sell | [TP +100% (75%)] $Cashew at $4.13702e-05 | P&L: +115.9%
+- **Reasoning:** Auto take-profit at +115.9%
+
+## [2026-08-27 03:25 UTC] sell | [TP +30% (half)] $PUMPARENA at $2.32773e-05 | P&L: +52.0%
+- **Reasoning:** Auto take-profit at +52.0%
+
+## [2026-08-27 03:25 UTC] sell | [PARTIAL][LLM] $Cashew at $4.13702e-05 | P&L: +115.9%
+- **Reasoning:** $Cashew is up +115.9% — well past the +100% TP threshold. Bot should have auto-taken, but locking half now secures a realized gain on a sub-$10k mcap bonding-curve token that can reverse violently.
+
+## [2026-08-27 03:25 UTC] sell | [FULL][LLM] $PUMPARENA at $2.32773e-05 | P&L: +52.0%
+- **Reasoning:** $PUMPARENA is up +52% but mcap still tiny ($5.7k pool). Bonding-curve tokens this thin revert fast — take the profit rather than watch it give back. Realized gain > unrealized hope.
+
+## [2026-08-27 03:25 UTC] buy | [LLM] $CALLY at $8.658e-06, spent 0.1 SOL
+- **Reasoning:** $CALLY has a recognizable name, posted by @blackardinal (active X account), bond already 31% — early momentum. Sub-$10k mcap with a story can run 5-10x.
+
+## [2026-08-27 03:25 UTC] buy | [LLM] $aped at $6.235e-06, spent 0.1 SOL
+- **Reasoning:** $aped has a one-word punchy name and a dedicated X account (@aped_onsol_) launched minutes ago — the dedicated handle is a strong attention signal. Small bet on viral naming.
+
