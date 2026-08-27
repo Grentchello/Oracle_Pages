@@ -4660,3 +4660,18 @@
 ## [2026-08-27 08:35 UTC] buy | [LLM] $MEOW at $3.731e-06, spent 0.1 SOL
 - **Reasoning:** $MEOW 'Lock In' — HTX (major exchange) tweet is unusual attention signal for a fresh launch, sub-minute age with $3.7k mcap. CEX-adjacent attention can drive early pumps.
 
+## [2026-08-27 08:36 UTC] sell | [hard-stop] $SOLBONKEY closed at $5.50069e-07 | P&L: -55.1%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 08:36 UTC] sell | [hard-stop] $SOLAMA closed at $2.95344e-06 | P&L: -82.8%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 08:37 UTC] sell | [FULL][LLM] $Baby at $2.92701e-06 | P&L: -32.2%
+- **Reasoning:** $Baby down -32.2% already, past the -20% exit threshold and approaching -50% hard cap. Pool only $8 with our 25% share = illiquid and no bounce signal. Cut the loss now before the hard stop hits.
+
+## [2026-08-27 08:37 UTC] sell | [FULL][LLM] $MEOW at $3.05097e-06 | P&L: -18.2%
+- **Reasoning:** $MEOW down -18.2%, right at the -20% cutoff with no momentum signal on bonding curve (pool $74, 12% share). Discipline says exit before it slides further into the -50% hard cap.
+
+## [2026-08-27 08:37 UTC] buy | [LLM] $HtxCat at $3.29747e-06, spent 0.1 SOL
+- **Reasoning:** $HtxCat has direct HTX Global (major exchange) tweet — institutional attention on a $3,287 mcap token is a strong attention signal. Could 10x if HTX amplifies. Risk: only 6% bond curve progress = thin liquidity, may get dumped.
+
