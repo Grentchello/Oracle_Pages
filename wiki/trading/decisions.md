@@ -5497,3 +5497,6 @@
 ## [2026-08-27 10:11 UTC] buy | [LLM] $Duster at $1.55087e-05, spent 0.05 SOL
 - **Reasoning:** $Duster (Duster the Bull) — ordinals-linked X account, $15.5k mcap, 36% bonded. Strongest narrative in the batch (tied to recent ordinals trend). Risk: bonding-curve dump risk.
 
+## [2026-08-27 10:12 UTC] sell | [TP +100% (50%)] $Duster at $4.25071e-05 | P&L: +174.1%
+- **Reasoning:** Auto take-profit at +174.1%
+
