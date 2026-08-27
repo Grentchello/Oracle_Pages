@@ -7000,3 +7000,18 @@
 ## [2026-08-27 13:09 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-08-27 13:10 UTC] sell | [TP +100% (50%)] $PIGEONMAN at $1.00672e-05 | P&L: +125.6%
+- **Reasoning:** Auto take-profit at +125.6%
+
+## [2026-08-27 13:11 UTC] sell | [PARTIAL][LLM] $PIGEONMAN at $1.00672e-05 | P&L: +125.6%
+- **Reasoning:** +125.6% in 6 min on a bonding-curve token with only $2684 pool. The pool is too thin to exit all at once without cratering price. Take half off the table to lock in gains, keep half for a moonshot continuation.
+
+## [2026-08-27 13:11 UTC] sell | [FULL][LLM] $BLINDAPE at $2.92591e-06 | P&L: -3.6%
+- **Reasoning:** Pool=$0 means effectively no liquidity to exit, and our share reading of 130660265% is clearly broken/zero. -3.6% with no pool and broken state — best to cut and free the slot. If it's truly unexit-able, the position is stuck anyway.
+
+## [2026-08-27 13:11 UTC] buy | [LLM] $$CALL at $5.97161e-06, spent 0.05 SOL
+- **Reasoning:** $$CALL — age <1min, mcap $5.9k, Korean_bags twitter signal (active caller). 'CALL' is meta-narrative on a launch day = attention magnet. Early entry, fresh bonding curve. Risky but the attention signal is real.
+
+## [2026-08-27 13:11 UTC] buy | [LLM] $Ferguson at $4.93484e-06, spent 0.05 SOL
+- **Reasoning:** $Ferguson 'Dog on the Moon' — absurdist humor narrative (Doge-adjacent + space meme), blutogreg tweet signal, mcap $4.9k, brand new. Memecoins live on this kind of absurdist branding. Small position.
+
