@@ -6262,3 +6262,12 @@
 ## [2026-08-27 11:39 UTC] sell | [hard-stop] $Pot closed at $2.90047e-06 | P&L: -35.1%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 11:41 UTC] sell | [FULL][LLM] $clicking at $3.56676e-06 | P&L: -17.2%
+- **Reasoning:** $clicking is -17.2% on a bonding-curve token with pool only $338 and our share is 1% — no bounce signal, price is bleeding (█▁▁), and the discipline rule 'exit fast on losers >20%' should preemptively trigger here before we get to -30% hard stop. Cut and rotate.
+
+## [2026-08-27 11:41 UTC] buy | [LLM] $ape at $1.45551e-05, spent 0.05 SOL
+- **Reasoning:** $ape ('apeandcall') has a clear narrative tied to a viral X post (ramonos), mcap $14.6k with 36% bond — strongest of the fresh launches with real attention anchor. Standard 0.05 SOL entry.
+
+## [2026-08-27 11:41 UTC] buy | [LLM] $MORTY at $3.88603e-06, spent 0.05 SOL
+- **Reasoning:** $MORTY has Adult Swim's official X account attached — that is a real celebrity/brand catalyst, and mcap is only $3.9k. High-variance but the attention anchor is concrete. 0.05 SOL entry.
+
