@@ -95,3 +95,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- trading pairs dashboard fix -->
 
 <!-- sparklines v8 -->
+
+<!-- market cap sparklines -->
