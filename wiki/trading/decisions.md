@@ -2254,3 +2254,12 @@
 ## [2026-08-27 00:02 UTC] buy | [LLM] $bag at $3.499e-06, spent 0.1 SOL
 - **Reasoning:** $bag — 'just a bag' is a simple absurd meme, X link from dedicated @JustBagOnPump account, mcap $3.5k. Low-cost attention lottery ticket.
 
+## [2026-08-27 00:03 UTC] sell | [PARTIAL][LLM] $Bustas at $6.321e-06 | P&L: -34.5%
+- **Reasoning:** $Bustas at -34.5% with 1h showing +83% then now red — classic post-pump dump. Trim risk while keeping a runner; if it reclaims, free roll.
+
+## [2026-08-27 00:03 UTC] sell | [FULL][LLM] $VORRRP at $2.87e-06 | P&L: -2.7%
+- **Reasoning:** $VORRRP bleeding (-2.7% spot, -11.3% both windows), no narrative strength visible. Free up a slot for fresh attention with better setup.
+
+## [2026-08-27 00:03 UTC] buy | [LLM] $BLINKS at $2.92425e-06, spent 0.1 SOL
+- **Reasoning:** $BLINKS by toly (Solana co-founder) — founder attention is the highest-signal catalyst on Solana. Small mcap, fresh mint, narrative = Solana ecosystem meme. Top candidate.
+

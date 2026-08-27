@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.933492,
+  "balance_sol": 0.963605,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AKuY7mKesE9HMfeaWyWjFunzzTxoZNwp6rfHL5pJpump": {
       "symbol": "Bustas",
       "name": "The Bustas",
-      "amount": 1056763.9101633579,
+      "amount": 528381.9550816789,
       "entry_price_usd": 9.644538294674058e-06,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.05,
       "entry_time": "2026-08-27T00:01:10.087968+00:00",
       "entry_usd_value": 10.192,
       "entry_signals": {
@@ -47,28 +47,6 @@
       },
       "llm_entry": true
     },
-    "6xQ3ShZzmySVTBnvyxqEWdWfn3LCHTR9yE3wdYsspump": {
-      "symbol": "VORRRP",
-      "name": "VORRRP",
-      "amount": 3455528.7399339303,
-      "entry_price_usd": 2.949765655890592e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T00:02:27.793084+00:00",
-      "entry_usd_value": 10.193000000000001,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2942.203977187866,
-        "ath_market_cap_usd": 8154.077350930716,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.521314483,
-        "description": "Vorp.bleh, the viral meme by 17-year-old artist @menthzy. Fully onboarded, with all creator fees directed to support the original artist. ",
-        "twitter": "https://x.com/swaynfa/status/2092763303097540820",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "EDcCsJ92Ptu6AxWHhcVLEeLsYRAA3m2evzpknZAppump": {
       "symbol": "bag",
       "name": "just a bag",
@@ -87,6 +65,28 @@
         "real_sol_reserves": 3.241564243,
         "description": "",
         "twitter": "https://x.com/JustBagOnPump",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "3NCQBvYGzqaDQCda2meBexrTdjdiEoDaUBQNmykBppqW": {
+      "symbol": "BLINKS",
+      "name": "Blinks",
+      "amount": 3484309.1484855334,
+      "entry_price_usd": 2.9242525751277505e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T00:03:48.633855+00:00",
+      "entry_usd_value": 10.189,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 2919.3293248801983,
+        "ath_market_cap_usd": 2927.7295915128398,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.395000002,
+        "description": "",
+        "twitter": "https://twitter.com/toly/status/2092764760194641999",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -2540,31 +2540,47 @@
       "pnl_pct": -37.29,
       "exit_reason": "LLM: sell_all — Down -37.3%, approaching -50% hard cap, and 24h/1h trend is -26% — momentum against it, free the slot for fresher attention.",
       "partial": false
+    },
+    {
+      "mint": "AKuY7mKesE9HMfeaWyWjFunzzTxoZNwp6rfHL5pJpump",
+      "symbol": "Bustas",
+      "name": "The Bustas",
+      "amount_sold": 528381.9550816789,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:01:10.087968+00:00",
+      "exit_time": "2026-08-27T00:03:48.633524+00:00",
+      "entry_price_usd": 9.644538294674058e-06,
+      "exit_price_usd": 6.321e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.032779,
+      "pnl_sol": -0.017221,
+      "pnl_pct": -34.46,
+      "exit_reason": "LLM: sell_half — $Bustas at -34.5% with 1h showing +83% then now red — classic post-pump dump. Trim risk while keeping a runner; if it reclaims, free roll.",
+      "partial": true
+    },
+    {
+      "mint": "6xQ3ShZzmySVTBnvyxqEWdWfn3LCHTR9yE3wdYsspump",
+      "symbol": "VORRRP",
+      "name": "VORRRP",
+      "amount_sold": 3455528.7399339303,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T00:02:27.793084+00:00",
+      "exit_time": "2026-08-27T00:03:48.633742+00:00",
+      "entry_price_usd": 2.949765655890592e-06,
+      "exit_price_usd": 2.87e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.097334,
+      "pnl_sol": -0.002666,
+      "pnl_pct": -2.7,
+      "exit_reason": "LLM: sell_all — $VORRRP bleeding (-2.7% spot, -11.3% both windows), no narrative strength visible. Free up a slot for fresh attention with better setup.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T00:02:27.793298+00:00",
+  "last_updated": "2026-08-27T00:03:48.633953+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.93,
-  "portfolio_value_usd": 135.92,
+  "last_sol_price_usd": 101.89,
+  "portfolio_value_usd": 133.85,
   "recent_decisions": [
-    {
-      "time": "2026-08-26 12:17 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-08-26 13:00 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-08-26 13:07 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-26 13:09 UTC",
       "action": "observe",
@@ -2666,45 +2682,54 @@
       "action": "buy",
       "details": "[LLM] $bag at $3.499e-06, spent 0.1 SOL",
       "reason": "$bag — 'just a bag' is a simple absurd meme, X link from dedicated @JustBagOnPump account, mcap $3.5k. Low-cost attention lottery ticket."
+    },
+    {
+      "time": "2026-08-27 00:03 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Bustas at $6.321e-06 | P&L: -34.5%",
+      "reason": "$Bustas at -34.5% with 1h showing +83% then now red — classic post-pump dump. Trim risk while keeping a runner; if it reclaims, free roll."
+    },
+    {
+      "time": "2026-08-27 00:03 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $VORRRP at $2.87e-06 | P&L: -2.7%",
+      "reason": "$VORRRP bleeding (-2.7% spot, -11.3% both windows), no narrative strength visible. Free up a slot for fresh attention with better setup."
+    },
+    {
+      "time": "2026-08-27 00:03 UTC",
+      "action": "buy",
+      "details": "[LLM] $BLINKS at $2.92425e-06, spent 0.1 SOL",
+      "reason": "$BLINKS by toly (Solana co-founder) — founder attention is the highest-signal catalyst on Solana. Small mcap, fresh mint, narrative = Solana ecosystem meme. Top candidate."
     }
   ],
   "trade_stats": {
-    "total": 144,
+    "total": 146,
     "wins": 74,
-    "losses": 70,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -0.566507,
-    "avg_pnl_pct": 91.03,
+    "losses": 72,
+    "win_rate_pct": 50.7,
+    "total_pnl_sol": -0.586394,
+    "avg_pnl_pct": 89.53,
     "best_pnl_pct": 666.22,
     "worst_pnl_pct": -99.89,
-    "today_trades": 1,
-    "today_realized_sol": -0.0373,
-    "today_target_pct": -9.3,
+    "today_trades": 3,
+    "today_realized_sol": -0.057187,
+    "today_target_pct": -14.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 74,
-      "loss_count": 70,
+      "loss_count": 72,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T00:02:27.792746+00:00",
+  "last_llm_brief_at": "2026-08-27T00:03:48.633488+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AKuY7mKesE9HMfeaWyWjFunzzTxoZNwp6rfHL5pJpump": {
-      "price_usd": 8.653e-06,
-      "change_h24": 151.0,
-      "change_h1": 151.0,
+      "price_usd": 6.321e-06,
+      "change_h24": 83.42,
+      "change_h1": 83.42,
       "liquidity_usd": 0.0,
-      "volume_h24": 16665.88,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "3T2RdPxAmUL7oM1KtU4ica5yXWB1QcpfdrM8RKTPFAeq": {
-      "price_usd": 2.849e-06,
-      "change_h24": -26.27,
-      "change_h1": -26.27,
-      "liquidity_usd": 0.0,
-      "volume_h24": 3029.61,
+      "volume_h24": 25027.88,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
@@ -2714,6 +2739,24 @@
       "change_h1": -0.3,
       "liquidity_usd": 0.0,
       "volume_h24": 1172.64,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "6xQ3ShZzmySVTBnvyxqEWdWfn3LCHTR9yE3wdYsspump": {
+      "price_usd": 2.87e-06,
+      "change_h24": -11.35,
+      "change_h1": -11.35,
+      "liquidity_usd": 0.0,
+      "volume_h24": 4618.84,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "EDcCsJ92Ptu6AxWHhcVLEeLsYRAA3m2evzpknZAppump": {
+      "price_usd": 7.314e-06,
+      "change_h24": 131.0,
+      "change_h1": 131.0,
+      "liquidity_usd": 0.0,
+      "volume_h24": 12078.73,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }
