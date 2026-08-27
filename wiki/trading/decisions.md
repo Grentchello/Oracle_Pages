@@ -6142,3 +6142,12 @@
 ## [2026-08-27 11:20 UTC] buy | [LLM] $TOADBF at $3.96618e-06, spent 0.05 SOL
 - **Reasoning:** $TOADBF — dedicated X handle (@TOADBF), defined 'girlboss toad' narrative, fresh $3.9k mcap. Speculative but has the meme structure attention tokens need.
 
+## [2026-08-27 11:21 UTC] sell | [hard-stop] $GBULL🪙 closed at $2.96301e-06 | P&L: -68.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:21 UTC] sell | [TP +500% (full)] $TOADBF at $4.20592e-05 | P&L: +960.5%
+- **Reasoning:** Auto take-profit at +960.4%
+
+## [2026-08-27 11:21 UTC] buy | [LLM] $Poopins at $3.75529e-06, spent 0.05 SOL
+- **Reasoning:** $Poopins 'Wheelchair Dog' — absurdist meme narrative with a devoted X account (@memedevfun), ultra-fresh at 0.1min. Risk: sub-$4k mcap is speculative but attention-launched. Size 0.05 SOL.
+
