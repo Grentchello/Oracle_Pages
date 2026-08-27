@@ -4348,3 +4348,15 @@
 ## [2026-08-27 07:58 UTC] buy | [LLM] $HUMANCE at $8.043e-06, spent 0.1 SOL
 - **Reasoning:** $HUMANCE / Happy Dog Day — tied to White House tweet (highest attention signal in batch, $11.5k mcap is entry-zone), 33% bonded. Highest mcap + real institutional attention = best risk/reward here.
 
+## [2026-08-27 07:59 UTC] sell | [hard-stop] $HUMANCE closed at $2.8989e-06 | P&L: -64.0%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 07:59 UTC] sell | [TP +30% (half)] $Elephants at $8.85957e-06 | P&L: +31.3%
+- **Reasoning:** Auto take-profit at +31.3%
+
+## [2026-08-27 07:59 UTC] sell | [PARTIAL][LLM] $Elephants at $8.85957e-06 | P&L: +31.3%
+- **Reasoning:** Up +31.3% already triggers the bot's half-TP at +30%, and at only 0.0h hold time on a bonding-curve with $2335 pool (below5x position), liquidity is thin. Lock half the gain, let the other half ride if it keeps pumping.
+
+## [2026-08-27 07:59 UTC] buy | [LLM] $OPTIMUS at $1.66959e-05, spent 0.1 SOL
+- **Reasoning:** $OPTIMUS — Tesla Optimus narrative has proven attention power (Elon/robotics meme). 37% bonded, $16.7k mcap = early entry with viral catalyst. 0.1 SOL position.
+

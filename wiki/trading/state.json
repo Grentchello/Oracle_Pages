@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.569338,
+  "balance_sol": 0.604116,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -17,9 +17,9 @@
     "KVXjWCoSMASqseRMtnzhmKDvSwB73CGUzhke2rYpump": {
       "symbol": "Elephants",
       "name": "The Odyssean Elephants",
-      "amount": 1509412.7608826936,
+      "amount": 377353.1902206734,
       "entry_price_usd": 6.746994767716467e-06,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T07:57:12.462201+00:00",
       "entry_usd_value": 10.184000000000001,
       "entry_signals": {
@@ -36,24 +36,24 @@
       },
       "llm_entry": true
     },
-    "AVtaencaFkZci2xunR4qzvvPjZ6LVMhWm1J1tshCpump": {
-      "symbol": "HUMANCE",
-      "name": "Happy Dog Day",
-      "amount": 1268059.181897302,
-      "entry_price_usd": 8.043e-06,
+    "nMerkrdMaEac1YMGiQAaiEJjzNwyMDBZjsGN7YNpump": {
+      "symbol": "OPTIMUS",
+      "name": "Tesla Optimus",
+      "amount": 609071.995142321,
+      "entry_price_usd": 1.6695891587699454e-05,
       "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T07:58:35.313602+00:00",
-      "entry_usd_value": 10.199,
+      "entry_time": "2026-08-27T07:59:55.987035+00:00",
+      "entry_usd_value": 10.169,
       "entry_signals": {
-        "liquidity_usd": 3096.73427978026,
-        "volume_24h_usd": 2087.69,
-        "market_cap_usd": 11528.887071985186,
-        "ath_market_cap_usd": 11580.408162780182,
+        "liquidity_usd": 4426.29544336812,
+        "volume_24h_usd": null,
+        "market_cap_usd": 16696.119698492967,
+        "ath_market_cap_usd": 16733.350213579422,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 30.363116774,
-        "description": "",
-        "twitter": "https://x.com/WhiteHouse/status/2092755629471330589",
+        "real_sol_reserves": 43.527342348,
+        "description": "Tesla Optimus released.",
+        "twitter": "https://x.com/HumanoidsHQ",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -9630,37 +9630,64 @@
       "pnl_pct": -53.31,
       "exit_reason": "hard-stop -50%",
       "partial": false
+    },
+    {
+      "mint": "AVtaencaFkZci2xunR4qzvvPjZ6LVMhWm1J1tshCpump",
+      "symbol": "HUMANCE",
+      "name": "Happy Dog Day",
+      "amount_sold": 1268059.181897302,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T07:58:35.313602+00:00",
+      "exit_time": "2026-08-27T07:59:39.602445+00:00",
+      "entry_price_usd": 8.043e-06,
+      "exit_price_usd": 2.8989035243655527e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.036149,
+      "pnl_sol": -0.063851,
+      "pnl_pct": -63.96,
+      "exit_reason": "hard-stop -50%",
+      "partial": false
+    },
+    {
+      "mint": "KVXjWCoSMASqseRMtnzhmKDvSwB73CGUzhke2rYpump",
+      "symbol": "Elephants",
+      "name": "The Odyssean Elephants",
+      "amount_sold": 754706.3804413468,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T07:57:12.462201+00:00",
+      "exit_time": "2026-08-27T07:59:39.602746+00:00",
+      "entry_price_usd": 6.746994767716467e-06,
+      "exit_price_usd": 8.859570698448596e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.065753,
+      "pnl_sol": 0.015753,
+      "pnl_pct": 31.31,
+      "exit_reason": "auto-TP +30% (half)",
+      "partial": true
+    },
+    {
+      "mint": "KVXjWCoSMASqseRMtnzhmKDvSwB73CGUzhke2rYpump",
+      "symbol": "Elephants",
+      "name": "The Odyssean Elephants",
+      "amount_sold": 377353.1902206734,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T07:57:12.462201+00:00",
+      "exit_time": "2026-08-27T07:59:55.699523+00:00",
+      "entry_price_usd": 6.746994767716467e-06,
+      "exit_price_usd": 8.859570698448596e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.032876,
+      "pnl_sol": 0.007876,
+      "pnl_pct": 31.31,
+      "exit_reason": "LLM: sell_half — Up +31.3% already triggers the bot's half-TP at +30%, and at only 0.0h hold time on a bonding-curve with $2335 pool (below5x position), liquidity is t",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T07:58:35.313901+00:00",
+  "last_updated": "2026-08-27T07:59:55.987310+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.99,
-  "portfolio_value_usd": 88.45,
+  "last_sol_price_usd": 101.69,
+  "portfolio_value_usd": 84.15,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 07:49 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $AC at $3.38888e-06 | P&L: +18.6%",
-      "reason": "$AC +18.6% on $282 pool — bonding-curve, illiquid, profit evaporates fast. Lock half gain now, let the runner ride with the rest."
-    },
-    {
-      "time": "2026-08-27 07:49 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CHUD at $3.51143e-06 | P&L: -37.8%",
-      "reason": "$CHUD -37.7%, approaching -50% hard cap, $342 pool barely supports exit. Bail out — this is a clear loser, no bounce signal, lock remaining sol for entries."
-    },
-    {
-      "time": "2026-08-27 07:49 UTC",
-      "action": "buy",
-      "details": "[LLM] $JYHO at $3.381e-05, spent 0.1 SOL",
-      "reason": "$JYHO at $28k mcap with the strongest attention signal of the batch — bonding-curve 41% already means early buyers are loading, narrative 'mythical boy' has memecoin DNA. Fresh attention, decent entry before mcap confirmation."
-    },
-    {
-      "time": "2026-08-27 07:49 UTC",
-      "action": "buy",
-      "details": "[LLM] $Huggy at $5.863e-06, spent 0.1 SOL",
-      "reason": "$Huggy at $15k mcap, named after Hugging Face AI culture crossover — narrative ties into AI x meme meta which is hot. Low mcap, very fresh, attention from @MarioPrezidente."
-    },
     {
       "time": "2026-08-27 07:50 UTC",
       "action": "sell",
@@ -9756,28 +9783,52 @@
       "action": "buy",
       "details": "[LLM] $HUMANCE at $8.043e-06, spent 0.1 SOL",
       "reason": "$HUMANCE / Happy Dog Day — tied to White House tweet (highest attention signal in batch, $11.5k mcap is entry-zone), 33% bonded. Highest mcap + real institutional attention = best risk/reward here."
+    },
+    {
+      "time": "2026-08-27 07:59 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $HUMANCE closed at $2.8989e-06 | P&L: -64.0%",
+      "reason": "Hard -50% stop"
+    },
+    {
+      "time": "2026-08-27 07:59 UTC",
+      "action": "sell",
+      "details": "[TP +30% (half)] $Elephants at $8.85957e-06 | P&L: +31.3%",
+      "reason": "Auto take-profit at +31.3%"
+    },
+    {
+      "time": "2026-08-27 07:59 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Elephants at $8.85957e-06 | P&L: +31.3%",
+      "reason": "Up +31.3% already triggers the bot's half-TP at +30%, and at only 0.0h hold time on a bonding-curve with $2335 pool (below5x position), liquidity is thin. Lock half the gain, let the other half ride if it keeps pumping."
+    },
+    {
+      "time": "2026-08-27 07:59 UTC",
+      "action": "buy",
+      "details": "[LLM] $OPTIMUS at $1.66959e-05, spent 0.1 SOL",
+      "reason": "$OPTIMUS — Tesla Optimus narrative has proven attention power (Elon/robotics meme). 37% bonded, $16.7k mcap = early entry with viral catalyst. 0.1 SOL position."
     }
   ],
   "trade_stats": {
-    "total": 563,
-    "wins": 259,
-    "losses": 304,
-    "win_rate_pct": 46.0,
-    "total_pnl_sol": -1.130652,
-    "avg_pnl_pct": 56.02,
+    "total": 566,
+    "wins": 261,
+    "losses": 305,
+    "win_rate_pct": 46.1,
+    "total_pnl_sol": -1.170874,
+    "avg_pnl_pct": 55.72,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 22,
-    "today_realized_sol": 0.301577,
-    "today_target_pct": 75.4,
+    "today_trades": 25,
+    "today_realized_sol": 0.261355,
+    "today_target_pct": 65.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 259,
-      "loss_count": 304,
+      "win_count": 261,
+      "loss_count": 305,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T07:58:35.021428+00:00",
+  "last_llm_brief_at": "2026-08-27T07:59:55.699093+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FAKE_HARDSTOP_MINT_pump": {
@@ -9792,15 +9843,26 @@
       "real_sol_reserves": 0
     },
     "KVXjWCoSMASqseRMtnzhmKDvSwB73CGUzhke2rYpump": {
-      "price_usd": 7.084302849734713e-06,
+      "price_usd": 8.859570698448596e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1762.97331888573,
-      "volume_h24": 17687.15,
+      "liquidity_usd": 2334.5510244554903,
+      "volume_h24": 21074.61,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 17.285746827
+      "real_sol_reserves": 22.957528021
+    },
+    "AVtaencaFkZci2xunR4qzvvPjZ6LVMhWm1J1tshCpump": {
+      "price_usd": 2.8989035243655527e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 29.766526977700003,
+      "volume_h24": 3401.48,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.29271833
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
