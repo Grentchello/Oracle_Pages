@@ -3733,3 +3733,24 @@
 ## [2026-08-27 03:08 UTC] buy | [LLM] $Headliner at $3.01537e-06, spent 0.1 SOL
 - **Reasoning:** $Headliner — 'the internet's nightly paper, one headline until midnight UTC' is a genuinely clever concept with built-in recurring engagement hook. Low mcap $3k but the narrative is sticky and could catch attention from crypto twitter commentary accounts.
 
+## [2026-08-27 03:08 UTC] sell | [TP +30% (half)] $Topblast at $2.01691e-05 | P&L: +95.8%
+- **Reasoning:** Auto take-profit at +95.8%
+
+## [2026-08-27 03:08 UTC] sell | [TP +30% (half)] $CASH at $2.58164e-05 | P&L: +47.2%
+- **Reasoning:** Auto take-profit at +47.3%
+
+## [2026-08-27 03:09 UTC] sell | [PARTIAL][LLM] $Topblast at $2.01691e-05 | P&L: +95.8%
+- **Reasoning:** $Topblast is +95.8% in minutes — classic post-bonding-curve pump. Lock in some profit on half, let the rest ride if attention holds. Selling the runner-up before the dump is the rule.
+
+## [2026-08-27 03:09 UTC] sell | [PARTIAL][LLM] $CASH at $2.58164e-05 | P&L: +47.2%
+- **Reasoning:** $CASH is +47.3% — right at the +50% profit-take threshold. Take half off the table to lock gains; momentum is fresh but microcaps reverse fast.
+
+## [2026-08-27 03:09 UTC] sell | [FULL][LLM] $Headliner at $2.82973e-06 | P&L: -6.2%
+- **Reasoning:** $Headliner shows pool=$0 and a nonsensical share % — this position looks illiquid or stuck. Even though it's only -6.2%, exit cleanly to free a slot and avoid the -50% hard cap if liquidity disappears.
+
+## [2026-08-27 03:09 UTC] buy | [LLM] $WOTARD at $1.20422e-05, spent 0.1 SOL
+- **Reasoning:** $WOTARD has the highest mcap of the fresh batch ($12k) and a clear X presence. Among the new launches it's the leader — buy the attention leader, not the also-rans.
+
+## [2026-08-27 03:09 UTC] buy | [LLM] $MARTINBOT at $5.96765e-06, spent 0.1 SOL
+- **Reasoning:** $MARTINBOT has a dedicated account (@MartinBotSOL) — that suggests an actual narrative/brand being built, not just a random launch. Attention with intent.
+
