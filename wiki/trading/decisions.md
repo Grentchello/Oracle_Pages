@@ -2770,3 +2770,15 @@
 ## [2026-08-27 01:08 UTC] buy | [LLM] $$BEAGLE at $5.5275e-06, spent 0.1 SOL
 - **Reasoning:** $BEAGLE with a clear 'dog that keeps running' story and twitter signal — clean animal-narrative attention play at $5.5k mcap.
 
+## [2026-08-27 01:09 UTC] sell | [FULL][LLM] $$BEAGLE at $1.255e-06 | P&L: -77.3%
+- **Reasoning:** $$BEAGLE is at -77.3%, well past the -50% hard cap. Cut the loss, free up the slot.
+
+## [2026-08-27 01:09 UTC] sell | [FULL][LLM] $uponly at $2.851e-06 | P&L: -60.6%
+- **Reasoning:** Second $uponly position at -60.6%, past the -50% hard cap. Auto-stop territory.
+
+## [2026-08-27 01:09 UTC] sell | [PARTIAL][LLM] $uponly at $1.532e-05 | P&L: +108.7%
+- **Reasoning:** $uponly +108.7% with a +370% 1h candle — this is the runner. Lock half profit, let the rest ride the parabolic move.
+
+## [2026-08-27 01:09 UTC] buy | [LLM] $LICKDAR at $9.51843e-06, spent 0.1 SOL
+- **Reasoning:** $LICKDAR has a real quirky narrative ('Radar failed. The tongue didn't.'), a real Twitter (lickdarsol), $177k mcap with bond 31% filled — actual buy pressure, not dust. Best attention signal in the batch.
+
