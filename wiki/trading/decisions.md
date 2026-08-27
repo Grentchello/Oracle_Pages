@@ -3049,3 +3049,18 @@
 ## [2026-08-27 01:46 UTC] buy | [LLM] $MICHELLE at $2.96084e-06, spent 0.1 SOL
 - **Reasoning:** Michelle Obama political meme — political figure coins move on news cycles and have viral potential. Two competitors already launched, this one is fresher at $3k mcap with low bond (early entry).
 
+## [2026-08-27 01:48 UTC] sell | [PARTIAL][LLM] $Buddy at $3.77e-05 | P&L: +154.9%
+- **Reasoning:** $Buddy at +154.9% is the best winner in the book. Rule says take some at +50%; 24h is already -9.6% suggesting fade — lock in half, let the rest ride.
+
+## [2026-08-27 01:48 UTC] sell | [FULL][LLM] $Marb at $2.83e-06 | P&L: -40.1%
+- **Reasoning:** $Marb at -40.1% and accelerating down (-21.7% 1h) — hard floor is -50%, cut loss now rather than wait for the auto-close.
+
+## [2026-08-27 01:48 UTC] sell | [FULL][LLM] $Phonzi at $1.059e-05 | P&L: -56.9%
+- **Reasoning:** $Phonzi is at -56.9%, past the -50% hard cap — must exit immediately to stop further bleed.
+
+## [2026-08-27 01:48 UTC] sell | [FULL][LLM] $MICHELLE at $2.833e-06 | P&L: -4.3%
+- **Reasoning:** $MICHELLE at -4.3% but bleeding hard on 1h/24h and I already have exposure to the same narrative via fresh candidate — consolidate.
+
+## [2026-08-27 01:48 UTC] buy | [LLM] $PICKLE at $2.91405e-06, spent 0.1 SOL
+- **Reasoning:** $PICKLE 'Dog in a Pickle' has a concrete virality claim ('millions of views within the past week, still growing') — funny mascot names with proven social traction are classic memecoin runners.
+
