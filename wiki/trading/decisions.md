@@ -6115,3 +6115,12 @@
 ## [2026-08-27 11:14 UTC] buy | [LLM] $MICRODUCK at $2.99502e-06, spent 0.05 SOL
 - **Reasoning:** $MICRODUCK has huggingface twitter source which signals AI/tech crowd attention — meta-narrative play. Duplicate mint with another $MICRODUCK suggests multiple creators racing the same idea, which is itself an attention signal. Small bet.
 
+## [2026-08-27 11:16 UTC] sell | [hard-stop] $KK closed at $3.42235e-06 | P&L: -44.1%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:16 UTC] sell | [FULL][LLM] $MICRODUCK at $2.99644e-06 | P&L: +0.1%
+- **Reasoning:** $MICRODUCK has a $41 pool and we hold 13% of it — our own 0.05 SOL exit will move price. Zero price action, illiquid, not worth the slot. Free the slot for a higher-attention launch.
+
+## [2026-08-27 11:16 UTC] buy | [LLM] $TOADBF at $5.18835e-06, spent 0.05 SOL
+- **Reasoning:** Clean meme brand ('girlboss toad') with its own X account — not bot spam. $5.2k mcap with 20% bonding shows early organic traction. Reasonable narrative strength for the risk.
+
