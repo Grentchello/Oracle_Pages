@@ -3001,3 +3001,15 @@
 ## [2026-08-27 01:41 UTC] buy | [LLM] $CHONK at $6.01619e-06, spent 0.1 SOL
 - **Reasoning:** CHONK has the strongest narrative of the batch — a real internet meme ('chonk vs chonker') with a proper written lore, sub-$10k mcap, and clear cultural attention hook. Risky at <0.5min but that asymmetry is the play. Slot opened by SWC exit.
 
+## [2026-08-27 01:42 UTC] sell | [PARTIAL][LLM] $PRMPT at $3.03e-06 | P&L: +4.4%
+- **Reasoning:** $PRMPT +4.4% with flat 1h/24h momentum fading — take partial profit, let the rest ride for the narrative push.
+
+## [2026-08-27 01:42 UTC] sell | [PARTIAL][LLM] $Buddy at $2.355e-05 | P&L: +59.2%
+- **Reasoning:** $Buddy +59.2% in 0.1h with massive 1h=+668% — take profit on half to lock gains, this kind of vertical move often pulls back hard.
+
+## [2026-08-27 01:42 UTC] sell | [FULL][LLM] $CHONK at $3.972e-06 | P&L: -34.0%
+- **Reasoning:** $CHONK -34% already, 1h/24h divergence suggests the move is dead — cut the loss now before it hits -50% hard cap.
+
+## [2026-08-27 01:42 UTC] buy | [LLM] $TTP at $3.22754e-06, spent 0.1 SOL
+- **Reasoning:** $TTP 'Take The Pill' has a real narrative hook tied to an onboarding mission and a vocal X account pushing it — attention is the moat here at $3.2k mcap.
+
