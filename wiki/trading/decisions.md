@@ -6139,3 +6139,6 @@
 ## [2026-08-27 11:18 UTC] sell | [hard-stop] $KAIXIN closed at $3.02015e-06 | P&L: -31.2%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 11:20 UTC] buy | [LLM] $TOADBF at $3.96618e-06, spent 0.05 SOL
+- **Reasoning:** $TOADBF — dedicated X handle (@TOADBF), defined 'girlboss toad' narrative, fresh $3.9k mcap. Speculative but has the meme structure attention tokens need.
+
