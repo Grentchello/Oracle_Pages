@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.348116,
+  "balance_sol": 0.307984,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "4MECUMaSr4D4ULLxGryQEpBXPfwtVf81W81HBaRPpump": {
       "symbol": "WTF",
       "name": "WTF",
-      "amount": 55074.40790272388,
+      "amount": 27537.20395136194,
       "entry_price_usd": 1.2685829542013023e-06,
-      "entry_sol_spent": 0.0006591796875,
+      "entry_sol_spent": 0.00032958984375,
       "entry_time": "2026-08-27T14:03:55.188336+00:00",
       "entry_usd_value": 5.2995,
       "entry_signals": {
@@ -25,24 +25,24 @@
       },
       "llm_entry": true
     },
-    "72XnreMRNupgomD7GQaEdjQsWLEzyjm3sRT9ZwHbFUVV": {
-      "symbol": "PETER",
-      "name": "Rip Peter Cullen",
-      "amount": 337824.8522891719,
-      "entry_price_usd": 1.5654561717896175e-05,
+    "8sznVgpZpX1pe5D3u34aCnfvboD4P4Vk2TS3XYippump": {
+      "symbol": "ludger",
+      "name": "ludger",
+      "amount": 650389.2902043008,
+      "entry_price_usd": 8.106683304000592e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T14:12:17.788653+00:00",
-      "entry_usd_value": 5.2885,
+      "entry_time": "2026-08-27T14:13:37.988488+00:00",
+      "entry_usd_value": 5.272500000000001,
       "entry_signals": {
-        "liquidity_usd": 62.76626344975001,
+        "liquidity_usd": 2383.8005175013504,
         "volume_24h_usd": null,
-        "market_cap_usd": 15634.446689488974,
-        "ath_market_cap_usd": 16088.021318424298,
+        "market_cap_usd": 8102.893705743026,
+        "ath_market_cap_usd": 8467.535670335192,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.593422175,
-        "description": "",
-        "twitter": "https://x.com/PopBase/status/2092978124363386944",
+        "real_sol_reserves": 22.605979303,
+        "description": "https://www.youtube.com/watch?v=o-CRlTN55K4",
+        "twitter": "https://x.com/n1721203925204/status/2092978750602260882",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -20584,31 +20584,47 @@
       "pnl_pct": -25.12,
       "exit_reason": "LLM: sell_all — Down -25.1% with only $216 pool, no bounce signal in fresh data, and -30% hard stop is imminent. Cut the loss now before the auto-stop hits.",
       "partial": false
+    },
+    {
+      "mint": "72XnreMRNupgomD7GQaEdjQsWLEzyjm3sRT9ZwHbFUVV",
+      "symbol": "PETER",
+      "name": "Rip Peter Cullen",
+      "amount_sold": 337824.8522891719,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T14:12:17.788653+00:00",
+      "exit_time": "2026-08-27T14:13:22.100938+00:00",
+      "entry_price_usd": 1.5654561717896175e-05,
+      "exit_price_usd": 2.9487988325002696e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.009447,
+      "pnl_sol": -0.040553,
+      "pnl_pct": -81.16,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "4MECUMaSr4D4ULLxGryQEpBXPfwtVf81W81HBaRPpump",
+      "symbol": "WTF",
+      "name": "WTF",
+      "amount_sold": 27537.20395136194,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T14:03:55.188336+00:00",
+      "exit_time": "2026-08-27T14:13:37.390170+00:00",
+      "entry_price_usd": 1.2685829542013023e-06,
+      "exit_price_usd": 1.61131664812783e-06,
+      "entry_sol_for_chunk": 0.00033,
+      "exit_sol_received": 0.000421,
+      "pnl_sol": 9.1e-05,
+      "pnl_pct": 27.02,
+      "exit_reason": "LLM: sell_half — Up +27% approaching the +30% auto-TP trigger at 25%. Bonding curve mcap only ~$17k and pool is thin at $432 — easy to dump back. Lock half the gain no",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T14:12:17.788898+00:00",
+  "last_updated": "2026-08-27T14:13:37.988745+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.77,
-  "portfolio_value_usd": 42.18,
+  "last_sol_price_usd": 105.45,
+  "portfolio_value_usd": 37.78,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 14:07 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $WTF at $1.68315e-06 | P&L: +32.7%",
-      "reason": "$WTF is +32.7% which just cleared the +30% threshold — the hard TP at 25% has been hit. Taking half off locks profit while leaving runner. Pool is tiny ($452) so the other half has real upside risk on illiquidity."
-    },
-    {
-      "time": "2026-08-27 14:07 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $CRATE at $6.9769e-06 | P&L: +49.1%",
-      "reason": "$CRATE at +49.1% — massive gain on a fresh bonding-curve token with thin pool ($1700). Narrative unclear (just a name, no X link in feed). Lock half now; bond curve graduation will cause volatility so partial exit de-risks the rest."
-    },
-    {
-      "time": "2026-08-27 14:07 UTC",
-      "action": "buy",
-      "details": "[LLM] $Trump at $1.10378e-05, spent 0.05 SOL",
-      "reason": "$Trump (Official Trump Coin) — Trump narrative is the strongest attention magnet on the internet. Fresh launch, 33% bonded, mcap $11k means room for 5-10x if it trends. Highest-conviction entry in the feed."
-    },
     {
       "time": "2026-08-27 14:07 UTC",
       "action": "buy",
@@ -20710,51 +20726,69 @@
       "action": "buy",
       "details": "[LLM] $PETER at $1.56546e-05, spent 0.05 SOL",
       "reason": "$PETER (Rip Peter Cullen) — celebrity death meme with confirmed viral PopBase tweet (large X account), 0.2min age, $15.6k mcap, 36% bonded. This is the clearest narrative play in the launch batch — attention is concentrated on this story."
+    },
+    {
+      "time": "2026-08-27 14:13 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $PETER closed at $2.9488e-06 | P&L: -81.2%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 14:13 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $WTF at $1.61132e-06 | P&L: +27.0%",
+      "reason": "Up +27% approaching the +30% auto-TP trigger at 25%. Bonding curve mcap only ~$17k and pool is thin at $432 — easy to dump back. Lock half the gain now, let the other half ride if it keeps pumping toward +50%/+100%."
+    },
+    {
+      "time": "2026-08-27 14:13 UTC",
+      "action": "buy",
+      "details": "[LLM] $ludger at $8.10668e-06, spent 0.05 SOL",
+      "reason": "$ludger (lowercase) variant has YouTube link — multi-platform attention signal vs the other LUDGER which is just a tweet. Lower mcap ($8k) and 28% bonding means early entry with real content behind it. Two LUDGERs racing is itself a viral signal."
     }
   ],
   "trade_stats": {
-    "total": 1208,
-    "wins": 632,
-    "losses": 576,
+    "total": 1210,
+    "wins": 633,
+    "losses": 577,
     "win_rate_pct": 52.3,
-    "total_pnl_sol": -1.501216,
-    "avg_pnl_pct": 42.61,
+    "total_pnl_sol": -1.541678,
+    "avg_pnl_pct": 42.5,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 667,
-    "today_realized_sol": -0.068987,
-    "today_target_pct": -17.2,
+    "today_trades": 669,
+    "today_realized_sol": -0.109449,
+    "today_target_pct": -27.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 632,
-      "loss_count": 576,
+      "win_count": 633,
+      "loss_count": 577,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T14:12:17.493163+00:00",
+  "last_llm_brief_at": "2026-08-27T14:13:37.390131+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4MECUMaSr4D4ULLxGryQEpBXPfwtVf81W81HBaRPpump": {
-      "price_usd": 1.8338880672580708e-06,
+      "price_usd": 1.61131664812783e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 491.17786038818,
-      "volume_h24": 10172.62,
+      "liquidity_usd": 432.00152056214995,
+      "volume_h24": 11087.72,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.643829634
+      "real_sol_reserves": 4.096742727
     },
-    "GprDNkzN6MY9TaWEBV48YTyvNvSw7L97Vu9Zom9ie8CD": {
-      "price_usd": 3.3730782701044808e-06,
+    "72XnreMRNupgomD7GQaEdjQsWLEzyjm3sRT9ZwHbFUVV": {
+      "price_usd": 2.9487988325002696e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 215.77031916958,
-      "volume_h24": 10244.19,
+      "liquidity_usd": 0.28056269535,
+      "volume_h24": 14207.63,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.039995454
+      "real_sol_reserves": 0.002660623
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

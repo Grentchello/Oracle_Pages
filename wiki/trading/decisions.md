@@ -7441,3 +7441,12 @@
 ## [2026-08-27 14:12 UTC] buy | [LLM] $PETER at $1.56546e-05, spent 0.05 SOL
 - **Reasoning:** $PETER (Rip Peter Cullen) — celebrity death meme with confirmed viral PopBase tweet (large X account), 0.2min age, $15.6k mcap, 36% bonded. This is the clearest narrative play in the launch batch — attention is concentrated on this story.
 
+## [2026-08-27 14:13 UTC] sell | [hard-stop] $PETER closed at $2.9488e-06 | P&L: -81.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 14:13 UTC] sell | [PARTIAL][LLM] $WTF at $1.61132e-06 | P&L: +27.0%
+- **Reasoning:** Up +27% approaching the +30% auto-TP trigger at 25%. Bonding curve mcap only ~$17k and pool is thin at $432 — easy to dump back. Lock half the gain now, let the other half ride if it keeps pumping toward +50%/+100%.
+
+## [2026-08-27 14:13 UTC] buy | [LLM] $ludger at $8.10668e-06, spent 0.05 SOL
+- **Reasoning:** $ludger (lowercase) variant has YouTube link — multi-platform attention signal vs the other LUDGER which is just a tweet. Lower mcap ($8k) and 28% bonding means early entry with real content behind it. Two LUDGERs racing is itself a viral signal.
+
