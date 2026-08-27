@@ -6415,3 +6415,12 @@
 ## [2026-08-27 11:56 UTC] buy | [LLM] $Desi at $8.766e-06, spent 0.05 SOL
 - **Reasoning:** $Desi (Unbothered Badger) — 'going viral' claim, highest mcap of fresh launches at $8.7k, has a meme-able character mascot. Animal memes with personality travel well on CT. Small size, tight stop.
 
+## [2026-08-27 11:58 UTC] sell | [hard-stop] $Desi closed at $5.42938e-06 | P&L: -38.1%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:58 UTC] buy | [LLM] $YOU at $4.385e-06, spent 0.05 SOL
+- **Reasoning:** $YOU 'You re welcome' has a grok-attributed X link (notable attention source) and a memeable passive-aggressive reply narrative — exactly the kind of dumb-attention token that can 5-10x on vibes alone. $3.5k mcap is risky but the narrative angle is real.
+
+## [2026-08-27 11:58 UTC] buy | [LLM] $CIGR at $3.88401e-05, spent 0.05 SOL
+- **Reasoning:** $CIGR has the highest mcap ($44k) and is furthest along bonding curve (42% complete, complete=True) — real capital is already flowing in. Acronym ticker with no obvious narrative but the momentum itself is the signal.
+
