@@ -2824,3 +2824,30 @@
 ## [2026-08-27 01:16 UTC] sell | [PARTIAL][LLM] $HAMSTER at $1.475e-05 | P&L: +66.4%
 - **Reasoning:** $HAMSTER +66.4% with 1h=+333% is extreme momentum — classic take-profit zone per the +50% rule. Half off locks the green and frees SOL for new attention plays.
 
+## [2026-08-27 01:18 UTC] sell | [FULL][LLM] $SKRIMP at $5.529e-06 | P&L: +70.3%
+- **Reasoning:** $SKRIMP is +70% but only 0.5h old with 24h already at +83%. Taking profit here — the easy momentum is largely captured and I'd rather recycle into fresh launches with more upside.
+
+## [2026-08-27 01:18 UTC] sell | [FULL][LLM] $uponly at $3.637e-06 | P&L: -50.4%
+- **Reasoning:** $uponly hit the -50% hard cap floor at -50.4%. Cannot hold — automatic exit per rules, and the 24h still positive means I'll redeploy that SOL into a fresh attention launch instead of waiting for dead cat bounce.
+
+## [2026-08-27 01:18 UTC] sell | [FULL][LLM] $carlitos at $2.817e-06 | P&L: -29.1%
+- **Reasoning:** $carlitos down -29% after only 0.1h and 24h negative -6%. No narrative, no viral signal — cutting loss now before it compounds, freeing SOL for better attention plays.
+
+## [2026-08-27 01:18 UTC] sell | [FULL][LLM] $GBULL at $2.822e-06 | P&L: -69.8%
+- **Reasoning:** $GBULL at -69.8% is below the hard cap floor — automatic exit. 24h -69.9% confirms it's a dead launch, no reason to hold a bag that already breached the kill switch.
+
+## [2026-08-27 01:18 UTC] sell | [PARTIAL][LLM] $HAMSTER at $2.061e-05 | P&L: +132.5%
+- **Reasoning:** $HAMSTER +132% with 24h +505% is parabolic. Locking in half the profit per the +50% rule while letting the rest ride — narrative (hamster memes) is strong but that 5x in 24h is unsustainable.
+
+## [2026-08-27 01:18 UTC] buy | [LLM] $penny at $8.896e-06, spent 0.1 SOL
+- **Reasoning:** $penny 'penny to a penny' — classic attention play with a self-referential underdog narrative (everyone loves a penny that becomes a dollar). Bond 24% is the highest in the list, $8.4k mcap is prime for 5-10x if narrative catches. X link live.
+
+## [2026-08-27 01:18 UTC] buy | [LLM] $GOOBERS at $5.3418e-06, spent 0.1 SOL
+- **Reasoning:** $GOOBERS 'lil goobers' at $5.3k mcap, 21% bond, fresh — cute mascot name with viral potential. Pepe-style creature meme territory which historically prints. 0.3min age = pure early entry.
+
+## [2026-08-27 01:18 UTC] buy | [LLM] $qCAT at $5.11825e-06, spent 0.1 SOL
+- **Reasoning:** $qCAT 'Quantum Cat' — quantum + cat is a strong meme combo (Schrodinger's cat energy). $5.1k mcap with 21% bond completion signals organic buy interest. Tech-meets-cute narrative travels well on CT.
+
+## [2026-08-27 01:18 UTC] buy | [LLM] $PRMPT at $2.90111e-06, spent 0.1 SOL
+- **Reasoning:** $PRMPT 'Promptato outsourced his last brain cell to AI' — perfect AI-meta narrative, highly on-trend for current X/Twitter cycles. Self-deprecating AI humor is viral fuel at $2.9k mcap.
+
