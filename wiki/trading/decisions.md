@@ -3598,3 +3598,21 @@
 ## [2026-08-27 02:53 UTC] buy | [LLM] $$HOLD at $3.07326e-06, spent 0.1 SOL
 - **Reasoning:** $HOLD — 'DONTSELL' instruction is a degenerate meta-narrative that historically goes viral on CT. $3k mcap with strong cult potential.
 
+## [2026-08-27 02:54 UTC] sell | [FULL][LLM] $Ai-Chan at $2.84795e-06 | P&L: -70.7%
+- **Reasoning:** $Ai-Chan is at -70.7%, well past the -50% hard cap — should have already been auto-closed. Cutting remaining exposure now.
+
+## [2026-08-27 02:54 UTC] sell | [FULL][LLM] $Biscotti at $2.85002e-06 | P&L: -75.3%
+- **Reasoning:** $Biscotti at -75.3% is also past hard cap. Pool only $10, 25% share of a dead pool — exit for whatever scraps remain.
+
+## [2026-08-27 02:54 UTC] sell | [FULL][LLM] $$HOLD at $3.02091e-06 | P&L: -1.7%
+- **Reasoning:** $$HOLD is the meta-narrative bag-hold ticker — funny but flat (-1.7%) with only $100 pool. Freeing the slot; capital is better deployed on a fresh viral launch.
+
+## [2026-08-27 02:54 UTC] buy | [LLM] $TOPBLAST at $1.09263e-05, spent 0.1 SOL
+- **Reasoning:** $TOPBLAST is the highest-mcap fresh launch ($10.9k), name screams attention-burst, brand-new mint on launchblitz.ai. Early enough for asymmetric upside — 0.1 SOL entry.
+
+## [2026-08-27 02:54 UTC] buy | [LLM] $MSB at $6.13314e-06, spent 0.1 SOL
+- **Reasoning:** $MSB (Magic School Bus) has a recognizable nostalgic brand at $6.1k mcap with only 24% bond filled. Nostalgia + low float = potential runner if a community picks it up.
+
+## [2026-08-27 02:54 UTC] buy | [LLM] $Jared at $4.13354e-06, spent 0.1 SOL
+- **Reasoning:** $Jared 'cat wif helmet' — pets-with-headgear is a proven viral category (think $POPCAT, $MICHIGAN). PurpTheQuant callout adds a quant-influencer attention signal. Buying 0.1 SOL.
+
