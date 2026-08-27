@@ -3835,3 +3835,18 @@
 ## [2026-08-27 03:18 UTC] buy | [LLM] $AGI at $6.39212e-06, spent 0.1 SOL
 - **Reasoning:** $AGI has explicit attention handle (agionpump) and ticker plays into the AI meta which is a perpetual attention magnet. Cheap $6.4k entry, narrative clear. Risk: tiny mcap + 25% bond = extreme vol, half-bond not even full.
 
+## [2026-08-27 03:19 UTC] sell | [TP +30% (half)] $Cashew at $3.48058e-05 | P&L: +81.7%
+- **Reasoning:** Auto take-profit at +81.7%
+
+## [2026-08-27 03:20 UTC] sell | [PARTIAL][LLM] $Cashew at $3.48058e-05 | P&L: +81.7%
+- **Reasoning:** Cashew up +81.7% — this is well into the meaty profit zone. Bonding curve only 30% so there's more room, but locking half protects against the classic bonding-curve reversal once momentum traders exit. Up >20% with ANY doubt = take profit per discipline.
+
+## [2026-08-27 03:20 UTC] sell | [FULL][LLM] $AGI at $3.13991e-06 | P&L: -50.9%
+- **Reasoning:** AGI down -50.9% — already past the hard stop loss threshold. The bot should auto-close, but if not, exit immediately. Pool is only $164 (below 5x position), no recovery signal visible. Cut the dead weight.
+
+## [2026-08-27 03:20 UTC] buy | [LLM] $ECTF at $8.40254e-06, spent 0.1 SOL
+- **Reasoning:** ECTF — 'E-Commerce Trust Fund' has a clear utility narrative (tokenizing social platform revenue). Highest mcap among fresh launches ($8.4k) shows early buying pressure. Real description, real story = attention magnet.
+
+## [2026-08-27 03:20 UTC] buy | [LLM] $🐺 at $6.57473e-06, spent 0.1 SOL
+- **Reasoning:** Wolf of Wallstreet — pure meme energy name, tied to the iconic movie/frenzy narrative. $6.6k mcap, 26% bonded, super fresh (0.1min). Memecoins are attention markets and this name grabs attention instantly.
+
