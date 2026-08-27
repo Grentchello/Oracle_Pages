@@ -6190,3 +6190,12 @@
 ## [2026-08-27 11:28 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-08-27 11:30 UTC] sell | [FULL][LLM] $Microduck at $6.15464e-06 | P&L: -25.6%
+- **Reasoning:** The position is down 25.5% and its reported pool is only $1,418, while the launch momentum is weakening. It is near the hard-loss zone, so exiting now preserves capital for stronger attention.
+
+## [2026-08-27 11:30 UTC] sell | [PARTIAL][LLM] $Cheshire at $7.35015e-06 | P&L: +16.9%
+- **Reasoning:** Cheshire is up 16.9% with a modest gain and a $1,840 pool, so half-profit-taking is appropriate to lock in momentum. The small position has limited liquidity and is not yet at a major TP threshold.
+
+## [2026-08-27 11:30 UTC] buy | [LLM] $AGENTS at $8.26679e-06, spent 0.05 SOL
+- **Reasoning:** $AGENTS has the strongest fresh attention signal, a clear Ansem/agents narrative, and already reached roughly $8,251 market cap within about 30 seconds. It is highly speculative, so sizing discipline is essential.
+
