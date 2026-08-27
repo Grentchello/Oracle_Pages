@@ -7126,3 +7126,12 @@
 ## [2026-08-27 13:26 UTC] sell | [hard-stop] $OSCAR closed at $2.94477e-06 | P&L: -55.4%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 13:27 UTC] sell | [FULL][LLM] $KGDZ at $3.7229e-06 | P&L: -2.3%
+- **Reasoning:** KGDZ is stuck on bonding curve at $67 mcap with pool only $400, no momentum after 0.1h, and mcap declining (-2.3%). No clear attention signal — better to free capital for fresh launches with stronger narratives.
+
+## [2026-08-27 13:27 UTC] buy | [LLM] $TRUMPEMON at $4.82746e-06, spent 0.05 SOL
+- **Reasoning:** TRUMPEMON combines two proven attention magnets (Trump + Pokemon/nostalgia). Fresh launch with twitter presence, bonding curve at 18% means early but not too thin. Political/nostalgia memes have viral potential.
+
+## [2026-08-27 13:27 UTC] buy | [LLM] $PENNY at $6.23629e-06, spent 0.05 SOL
+- **Reasoning:** PENNY has 'Penny to a penny' (to the moon) narrative which is classic viral meme format. Twitter attached, fresh launch. Simple relatable name + ticker that matches = attention friendly.
+
