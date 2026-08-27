@@ -3628,3 +3628,15 @@
 ## [2026-08-27 02:56 UTC] buy | [LLM] $hakes at $2.936e-06, spent 0.1 SOL
 - **Reasoning:** $hakes — creator angle ('Original artist', 'Owner of Ape fone'), personal brand @imhakes. Real-person narrative has attention legs.
 
+## [2026-08-27 02:58 UTC] sell | [PARTIAL][LLM] $Gamble at $1.11261e-05 | P&L: +28.9%
+- **Reasoning:** $Gamble +28.9% in0.1h is a solid pump but bonding-curve pool is tiny ($2,984) — our0% share means we can't exit without crashing it. Take half off the table to lock in gains and free SOL for fresh alpha.
+
+## [2026-08-27 02:58 UTC] sell | [FULL][LLM] $Jared at $2.89951e-06 | P&L: -29.9%
+- **Reasoning:** $Jared -29.9% with a $38 pool and 19% share — we're a major holder in a dying microcap. Cut the loss now before it approaches the -50% hard cap; the pool is too thin to recover.
+
+## [2026-08-27 02:58 UTC] buy | [LLM] $RWA at $5.97115e-06, spent 0.1 SOL
+- **Reasoning:** $RWA taps the hottest narrative in crypto right now (real-world asset tokenization narrative + WuBlockchain trending). $5,967 mcap, 24% bonded, fresh attention from X cashtag search. Early attention, decent size, story-driven.
+
+## [2026-08-27 02:58 UTC] buy | [LLM] $SIZECHAD at $5.9618e-06, spent 0.1 SOL
+- **Reasoning:** $SIZECHAD has a dedicated X handle (@SizeChad) already posting, body-part/body-image humor has viral track record, $5,958 mcap with 24% bond. Real creator presence = attention signal.
+
