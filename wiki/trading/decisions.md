@@ -5254,3 +5254,6 @@
 ## [2026-08-27 09:49 UTC] buy | [LLM] $Solana at $6.87175e-06, spent 0.05 SOL
 - **Reasoning:** $Solana — meta-narrative 'My Life Is Solana' taps the tribal Solana culture that pumps hard on X. Higher mcap ($6.8k) and 26% bond = slightly more validated than peers. Risk: generic name attracts mercenary snipers; needs the X post to actually trend.
 
+## [2026-08-27 09:50 UTC] sell | [hard-stop] $Solana closed at $3.84346e-06 | P&L: -44.1%
+- **Reasoning:** Hard -30% stop
+
