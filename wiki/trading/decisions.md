@@ -2425,3 +2425,6 @@
 ## [2026-08-27 00:28 UTC] sell | [PARTIAL][LLM] $Bunny at $4.898e-05 | P&L: +158.7%
 - **Reasoning:** +158% in minutes — classic launch pump, bank half before retracement, let half moon or zero.
 
+## [2026-08-27 00:29 UTC] sell | [PARTIAL][LLM] $Bunny at $3.12e-05 | P&L: +64.8%
+- **Reasoning:** +64% on the trade but 24h is -25% — classic dead-bounce divergence. Take half off, let the rest ride or stop on the other half.
+
