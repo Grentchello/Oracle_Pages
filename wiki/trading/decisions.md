@@ -4627,3 +4627,21 @@
 ## [2026-08-27 08:32 UTC] buy | [LLM] $Sinclair at $5.934e-06, spent 0.1 SOL
 - **Reasoning:** $Sinclair — Baby Sinclair nostalgia coin, mcap $5.3k fresh (0.9min), tied to a specific viral X post. Strong narrative + low mcap + fresh = classic attention play.
 
+## [2026-08-27 08:33 UTC] sell | [TP +100% (75%)] $login at $1.48546e-05 | P&L: +238.3%
+- **Reasoning:** Auto take-profit at +238.3%
+
+## [2026-08-27 08:34 UTC] sell | [FULL][LLM] $login at $1.48546e-05 | P&L: +238.3%
+- **Reasoning:** $login is +238.3% — well past +100% TP threshold. Bot should have auto-took-profit; if not, lock it all in now. This is a bonding-curve microcap (pool=$3933), the rug risk is extreme and gains evaporate fast at this stage.
+
+## [2026-08-27 08:34 UTC] sell | [FULL][LLM] $Sinclair at $3.37662e-06 | P&L: -43.1%
+- **Reasoning:** $Sinclair is -43.1%, near the -50% hard stop, held 0h with no bounce, pool=$239 (tiny). Cut the loss now — -43% becomes -50% in minutes at this liquidity.
+
+## [2026-08-27 08:34 UTC] buy | [LLM] $Baby at $4.31588e-06, spent 0.1 SOL
+- **Reasoning:** $Baby (Justice For Baby) — viral X narrative, fresh launch, $4.3k mcap with attention potential. Low mcap + story = asymmetric upside if it catches.
+
+## [2026-08-27 08:34 UTC] buy | [LLM] $Pepe at $4.17175e-06, spent 0.1 SOL
+- **Reasoning:** $Pepe — Pepe meta is evergreen, brand recognition, $4.2k mcap launch. High narrative familiarity = fast virality potential.
+
+## [2026-08-27 08:34 UTC] buy | [LLM] $SOLBONKEY at $1.225e-06, spent 0.1 SOL
+- **Reasoning:** $SOLBONKEY — cross-chain narrative (Base 5mil → SOL), explicit shilling, degen-friendly brand, $2.3k mcap with viral migration story.
+
