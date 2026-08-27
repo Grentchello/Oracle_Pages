@@ -2566,3 +2566,15 @@
 ## [2026-08-27 00:45 UTC] buy | [LLM] $HODL at $3.219e-06, spent 0.1 SOL
 - **Reasoning:** $HODL — cleanest ticker among the Bitcoin-tweet derivatives, rides Bitcoin's audience reach; small size, lottery-style attention play.
 
+## [2026-08-27 00:46 UTC] sell | [PARTIAL][LLM] $PTA at $7.842e-06 | P&L: +103.4%
+- **Reasoning:** $PTA already +103% in 0.1h — take partial profits and let the rest ride free. Locking in gains while narrative is hot.
+
+## [2026-08-27 00:46 UTC] sell | [FULL][LLM] $HODL at $3.219e-06 | P&L: +0.0%
+- **Reasoning:** $HODL flat at 0% with 1h -5.7% drift, no viral story in description, weakest narrative of the bunch — free up slot for fresh attention.
+
+## [2026-08-27 00:46 UTC] buy | [LLM] $MUSK at $4.5889e-06, spent 0.1 SOL
+- **Reasoning:** $MUSK ties Elon Musk (massive attention magnet) with 'Light Year' Buzz Lightyear twist. Cross-platform launch via discord + twitter (jizzsoll). Narrative strength is high for memecoin virality.
+
+## [2026-08-27 00:46 UTC] buy | [LLM] $CHAMELEON at $4.45249e-06, spent 0.1 SOL
+- **Reasoning:** $CHAMELEON — 'Chameleon of Undying Devotion' is a strong emotional/viral phrase. Phantom-attached tweet at launch is a legitimacy signal. Memeability is good.
+
