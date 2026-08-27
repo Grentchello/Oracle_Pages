@@ -2704,3 +2704,27 @@
 ## [2026-08-27 01:02 UTC] buy | [LLM] $Preyforge at $2.98891e-06, spent 0.1 SOL
 - **Reasoning:** AI-operated venture studio narrative is the hottest meta right now, has a Twitter handle, low mcap $3k — textbook attention play with story backing.
 
+## [2026-08-27 01:03 UTC] sell | [PARTIAL][LLM] $MEME1921 at $4.206e-06 | P&L: +9.9%
+- **Reasoning:** $MEME1921 up 9.9% with 1h showing +39.5% momentum — take partial profit to lock gains while letting runner play out.
+
+## [2026-08-27 01:03 UTC] sell | [PARTIAL][LLM] $SKRIMP at $7.632e-06 | P&L: +135.1%
+- **Reasoning:** $SKRIMP at +135% is a massive gain — lock in half at this level, let the rest ride if narrative holds. This is the strategy paying off.
+
+## [2026-08-27 01:03 UTC] sell | [FULL][LLM] $ELGATO at $3.369e-06 | P&L: -19.2%
+- **Reasoning:** $ELGATO down 19.2% with 1h showing only +12% — momentum fading, cut the loss and free capital for fresh attention plays.
+
+## [2026-08-27 01:03 UTC] sell | [FULL][LLM] $Heaven at $2.816e-06 | P&L: -17.6%
+- **Reasoning:** $Heaven down 17.6% and 24h also negative (-17.4%) — no momentum catalyst, cut and redeploy.
+
+## [2026-08-27 01:03 UTC] sell | [FULL][LLM] $Preyforge at $2.982e-06 | P&L: -0.2%
+- **Reasoning:** $Preyforge flat after 0.0h with no momentum — free the slot for a fresh viral launch.
+
+## [2026-08-27 01:03 UTC] buy | [LLM] $turbulence at $1.12848e-05, spent 0.1 SOL
+- **Reasoning:** $turbulence has two simultaneous mints racing — that's a viral attention collision signal. @onchaincrow X post driving narrative. Bond at 33% suggests real buys flowing. Early entry at $11k mcap = max upside.
+
+## [2026-08-27 01:03 UTC] buy | [LLM] $PERCHI at $5.33317e-06, spent 0.1 SOL
+- **Reasoning:** $PERCHI at $5.3k mcap with X post from @asdfhgdev_pf — fresh attention launch, name is memeable, bond at 21% shows organic accumulation.
+
+## [2026-08-27 01:03 UTC] buy | [LLM] $SH at $3.18532e-06, spent 0.1 SOL
+- **Reasoning:** $SH 'spinning horse' launched from discord.gg/uxento — visual meme potential, low $3k mcap, exactly the kind of absurd-name viral play that 10x's.
+
