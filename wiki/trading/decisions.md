@@ -6892,3 +6892,6 @@
 ## [2026-08-27 12:58 UTC] buy | [LLM] $Rei at $4.24653e-06, spent 0.05 SOL
 - **Reasoning:** $Rei has a Japanese anime/manga narrative (レイ = Rei, classic anime character name) with an X post backing it. Fresh launch at $4.2k mcap is the kind of microcap that 10xs on attention. Best narrative+name combo in batch.
 
+## [2026-08-27 12:59 UTC] sell | [TP +30% (25%)] $RISE at $7.27496e-06 | P&L: +41.0%
+- **Reasoning:** Auto take-profit at +41.0%
+
