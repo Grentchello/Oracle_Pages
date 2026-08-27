@@ -5458,3 +5458,6 @@
 ## [2026-08-27 10:08 UTC] sell | [TP +100% (50%)] $Ape at $9.37594e-06 | P&L: +101.7%
 - **Reasoning:** Auto take-profit at +101.7%
 
+## [2026-08-27 10:08 UTC] sell | [PARTIAL][LLM] $Ape at $9.37594e-06 | P&L: +101.7%
+- **Reasoning:** $Ape +101.7% is already past the +100%/+50% auto-TP zone per the v7 rules. Lock half the gain now — momentum on a fresh bonding-curve microcap is fragile and reverse-pumps happen fast.
+

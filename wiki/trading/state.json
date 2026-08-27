@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.002881,
+  "balance_sol": 1.060543,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GH5TSQs3gcyzbEWaBvio5pwJMNMWrw1ja5kzre7Gpump": {
       "symbol": "Ape",
       "name": "Hypnosis",
-      "amount": 421335.41001130687,
+      "amount": 105333.85250282672,
       "entry_price_usd": 4.647722345357702e-06,
-      "entry_sol_spent": 0.018750000000000003,
+      "entry_sol_spent": 0.004687500000000001,
       "entry_time": "2026-08-27T10:05:46.012185+00:00",
       "entry_usd_value": 5.222,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 12.299479433,
         "description": "",
         "twitter": "https://x.com/richerong/status/2092916155576938508",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "GeLAYQGgw7C2A525zDfcU4hA3T4yqbLjByyPp2LYpump": {
-      "symbol": "FACE$LAP",
-      "name": "FACE$LAP",
-      "amount": 1050657.3876507238,
-      "entry_price_usd": 4.977359947654482e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T10:07:06.044191+00:00",
-      "entry_usd_value": 5.229500000000001,
-      "entry_signals": {
-        "liquidity_usd": 103.47144561519,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4981.083841642199,
-        "ath_market_cap_usd": 5166.954030489383,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.989305341,
-        "description": "-",
-        "twitter": "https://x.com/nypost/status/2092916594540175518",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -13721,31 +13699,64 @@
       "pnl_pct": 39.32,
       "exit_reason": "LLM: sell_half — Up +39.3% in seconds, classic memecoin launch dynamics. Lock half the gain while letting the other half ride if it pumps further. Bot may auto-take-pr",
       "partial": true
+    },
+    {
+      "mint": "GeLAYQGgw7C2A525zDfcU4hA3T4yqbLjByyPp2LYpump",
+      "symbol": "FACE$LAP",
+      "name": "FACE$LAP",
+      "amount_sold": 1050657.3876507238,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T10:07:06.044191+00:00",
+      "exit_time": "2026-08-27T10:08:11.136801+00:00",
+      "entry_price_usd": 4.977359947654482e-06,
+      "exit_price_usd": 2.9284249778722085e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.029375,
+      "pnl_sol": -0.020625,
+      "pnl_pct": -41.17,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "GH5TSQs3gcyzbEWaBvio5pwJMNMWrw1ja5kzre7Gpump",
+      "symbol": "Ape",
+      "name": "Hypnosis",
+      "amount_sold": 210667.70500565344,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T10:05:46.012185+00:00",
+      "exit_time": "2026-08-27T10:08:11.137014+00:00",
+      "entry_price_usd": 4.647722345357702e-06,
+      "exit_price_usd": 9.375944286873076e-06,
+      "entry_sol_for_chunk": 0.009375,
+      "exit_sol_received": 0.018858,
+      "pnl_sol": 0.009483,
+      "pnl_pct": 101.73,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "GH5TSQs3gcyzbEWaBvio5pwJMNMWrw1ja5kzre7Gpump",
+      "symbol": "Ape",
+      "name": "Hypnosis",
+      "amount_sold": 105333.85250282672,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T10:05:46.012185+00:00",
+      "exit_time": "2026-08-27T10:08:34.859679+00:00",
+      "entry_price_usd": 4.647722345357702e-06,
+      "exit_price_usd": 9.375944286873076e-06,
+      "entry_sol_for_chunk": 0.004688,
+      "exit_sol_received": 0.009429,
+      "pnl_sol": 0.004742,
+      "pnl_pct": 101.73,
+      "exit_reason": "LLM: sell_half — $Ape +101.7% is already past the +100%/+50% auto-TP zone per the v7 rules. Lock half the gain now — momentum on a fresh bonding-curve microcap is frag",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T10:07:06.342772+00:00",
+  "last_updated": "2026-08-27T10:08:35.433504+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.59,
-  "portfolio_value_usd": 117.31,
+  "last_sol_price_usd": 104.74,
+  "portfolio_value_usd": 116.8,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 10:02 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $RISE at $8.39727e-06 | P&L: +61.1%",
-      "reason": "Auto take-profit at +61.1%"
-    },
-    {
-      "time": "2026-08-27 10:02 UTC",
-      "action": "sell",
-      "details": "[TP +200% (75%)] $7up at $2.8154e-05 | P&L: +239.9%",
-      "reason": "Auto take-profit at +239.9%"
-    },
-    {
-      "time": "2026-08-27 10:02 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $CTREMP at $2.72351e-05 | P&L: +61.2%",
-      "reason": "+61% in 6min on bonding curve — lock half the gain, let remainder ride the narrative. Pool $6435 is thin so partial exit reduces risk."
-    },
     {
       "time": "2026-08-27 10:02 UTC",
       "action": "sell",
@@ -13847,51 +13858,80 @@
       "action": "buy",
       "details": "[LLM] $BULLIO at $2.033e-05, spent 0.05 SOL",
       "reason": "Highest mcap in the new batch ($22.6k) with a dedicated Twitter account (realbullio). 39% bonding curve progress means momentum is already building — fewer rug risk signals than 0% bonders. Story-driven launch, classic memecoin attention setup."
+    },
+    {
+      "time": "2026-08-27 10:08 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $FACE$LAP closed at $2.92842e-06 | P&L: -41.2%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 10:08 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $Ape at $9.37594e-06 | P&L: +101.7%",
+      "reason": "Auto take-profit at +101.7%"
+    },
+    {
+      "time": "2026-08-27 10:08 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Ape at $9.37594e-06 | P&L: +101.7%",
+      "reason": "$Ape +101.7% is already past the +100%/+50% auto-TP zone per the v7 rules. Lock half the gain now — momentum on a fresh bonding-curve microcap is fragile and reverse-pumps happen fast."
     }
   ],
   "trade_stats": {
-    "total": 803,
-    "wins": 404,
-    "losses": 399,
-    "win_rate_pct": 50.3,
-    "total_pnl_sol": -0.778357,
-    "avg_pnl_pct": 49.12,
+    "total": 806,
+    "wins": 406,
+    "losses": 400,
+    "win_rate_pct": 50.4,
+    "total_pnl_sol": -0.784757,
+    "avg_pnl_pct": 49.14,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 262,
-    "today_realized_sol": 0.653872,
-    "today_target_pct": 163.5,
+    "today_trades": 265,
+    "today_realized_sol": 0.647472,
+    "today_target_pct": 161.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 404,
-      "loss_count": 399,
+      "win_count": 406,
+      "loss_count": 400,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T10:07:05.728361+00:00",
+  "last_llm_brief_at": "2026-08-27T10:08:34.859640+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "HgKRX3VtfuQzzkNURJ4JU6VT2Yf8D4PxGgizySX4pump": {
-      "price_usd": 5.2694427889072634e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1074.29568830209,
-      "volume_h24": 25712.93,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 10.271495251
-    },
     "GH5TSQs3gcyzbEWaBvio5pwJMNMWrw1ja5kzre7Gpump": {
-      "price_usd": 6.475242539989498e-06,
+      "price_usd": 9.375944286873076e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1531.40446008921,
-      "volume_h24": 6566.67,
+      "liquidity_usd": 2480.2329213401,
+      "volume_h24": 8632.84,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 14.641977819
+      "real_sol_reserves": 23.679901865
+    },
+    "GeLAYQGgw7C2A525zDfcU4hA3T4yqbLjByyPp2LYpump": {
+      "price_usd": 2.9284249778722085e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.2568799999999999e-06,
+      "volume_h24": 2286.91,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.2e-08
+    },
+    "HiNA2vrhxCL4y7nr51Ni8u9rxNtkpzNbU3ydB3zipump": {
+      "price_usd": 2.562133173806489e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 6152.12004764366,
+      "volume_h24": 13610.68,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 58.737063659
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
