@@ -2323,3 +2323,24 @@
 ## [2026-08-27 00:13 UTC] buy | [LLM] $CLAUDETOPIA at $1.06782e-05, spent 0.1 SOL
 - **Reasoning:** $CLAUDETOPIA — strongest launch narrative of the batch with $10.6k mcap and 33% bond. Claude/AI meta is the dominant narrative cycle right now. Small position to ride the AI meme wave.
 
+## [2026-08-27 00:14 UTC] sell | [FULL][LLM] $Bustas at $7.908e-06 | P&L: -18.0%
+- **Reasoning:** $Bustas is down -18% with no narrative catalyst visible and held time running. Free up capital for fresh attention.
+
+## [2026-08-27 00:14 UTC] sell | [FULL][LLM] $PAINTER at $4.268e-06 | P&L: -31.9%
+- **Reasoning:** $PAINTER is down -32% with no viral signal to justify holding a loser. Cut and redeploy.
+
+## [2026-08-27 00:14 UTC] sell | [PARTIAL][LLM] $blindape at $8.677e-06 | P&L: +44.3%
+- **Reasoning:** $blindape already at +44% on the held position. Take partial profit, let the rest ride since ape-narrative is hot.
+
+## [2026-08-27 00:14 UTC] sell | [FULL][LLM] $CLAUDETOPIA at $6.875e-05 | P&L: +543.8%
+- **Reasoning:** $CLAUDETOPIA printing +543% — this is the kind of move the experiment is designed to capture. Lock in the win.
+
+## [2026-08-27 00:14 UTC] buy | [LLM] $1A at $8.135e-06, spent 0.1 SOL
+- **Reasoning:** $1A 'Free Speech Coin' is a politically charged narrative that could go viral on X. Highest mcap of fresh batch ($9k) signals real attention.
+
+## [2026-08-27 00:14 UTC] buy | [LLM] $fone at $4.31392e-06, spent 0.1 SOL
+- **Reasoning:** $fone 'monkeyonfone' has a real X post attached and the ape-on-phone meme format has viral potential. Cheap entry.
+
+## [2026-08-27 00:14 UTC] buy | [LLM] $laptope at $3.703e-06, spent 0.1 SOL
+- **Reasoning:** $laptope 'ape on laptop' fits the trending ape meta and is at sub-$3.5k mcap — pure early attention play.
+
