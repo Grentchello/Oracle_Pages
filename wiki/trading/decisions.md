@@ -4525,3 +4525,12 @@
 ## [2026-08-27 08:18 UTC] buy | [LLM] $SUMMER at $2.945e-06, spent 0.1 SOL
 - **Reasoning:** $SUMMER tied to the official @solana tweet ('SOLANA SUMMER') is the strongest attention signal in the batch — a verified protocol account posting about a memecoin is textbook viral-attention alpha. Mcap $3.9k gives 10x+ room if it catches. 0.1 SOL.
 
+## [2026-08-27 08:19 UTC] sell | [TP +30% (half)] $SUMMER at $3.84416e-06 | P&L: +30.5%
+- **Reasoning:** Auto take-profit at +30.5%
+
+## [2026-08-27 08:20 UTC] sell | [PARTIAL][LLM] $SUMMER at $3.84416e-06 | P&L: +30.5%
+- **Reasoning:** $SUMMER is up +30.5% in 0.0h — already at the first take-profit threshold. Lock half the gain now; let the rest ride if momentum continues. Pool only $482 is thin though, so be ready to exit the rest fast.
+
+## [2026-08-27 08:20 UTC] buy | [LLM] $Bixonimania at $5.14257e-06, spent 0.1 SOL
+- **Reasoning:** $Bixonimania — willmcgugan is a real, respected dev-tools author (Rich, Textual fame). 'AI Fake Disease' is absurdist humor primed for virality in AI-crypto Twitter. $5k mcap, 20% bonded, brand new — cheap entry on a credible account.
+
