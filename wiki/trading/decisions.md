@@ -5557,3 +5557,6 @@
 ## [2026-08-27 10:18 UTC] buy | [LLM] $Agent at $4.04774e-06, spent 0.05 SOL
 - **Reasoning:** $Agent (X Agent) at $4k mcap 13% bond — explicit 'X Agent' meta tied to j7tracker.io tool launch. Cheap entry on a clean narrative with a tool tie-in.
 
+## [2026-08-27 10:19 UTC] sell | [TP +30% (25%)] $AGENTX at $3.95356e-05 | P&L: +31.7%
+- **Reasoning:** Auto take-profit at +31.7%
+
