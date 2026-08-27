@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Quick test of pumpportal WS - 60 second trace."""
+"""Quick test of pumpportal WS - inspect raw events."""
 import asyncio
 import json
 import urllib.request
 import websockets
 
 async def main():
-    # Pull recent fresh tokens from pump.fun
     try:
         data = json.loads(urllib.request.urlopen("https://frontend-api-v3.pump.fun/coins?limit=15&offset=0&sort=last_trade_timestamp&order=DESC&includeNsfw=false", timeout=10).read())
         mints = [t.get("mint") for t in data if t.get("mint")][:15]
@@ -25,15 +24,11 @@ async def main():
         try:
             async with asyncio.timeout(30):
                 async for msg in ws:
-                    ev = json.loads(msg)
-                    mint = ev.get("mint", "?")[:12]
-                    print(f"  TRADE: {mint} solAmount={ev.get('solAmount')}")
+                    print(f"  RAW: {msg[:400]}")
                     count += 1
-                    if count > 10:
+                    if count > 3:
                         break
         except asyncio.TimeoutError:
             print(f"Timeout after 30s. Got {count} events.")
-        except Exception as e:
-            print(f"Stopped: {e}, got {count} events")
 
 asyncio.run(main())
