@@ -5158,3 +5158,12 @@
 ## [2026-08-27 09:38 UTC] sell | [hard-stop] $MULTI closed at $2.94023e-06 | P&L: -60.8%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 09:38 UTC] sell | [FULL][LLM] $WSJ at $2.93402e-06 | P&L: -14.9%
+- **Reasoning:** Down -14.9% on bonding curve with $0 pool liquidity and a 425M% share flag indicating a ghost-town position. No bounce, no volume, no narrative hook visible in the data. Cut the loss before it hits the -30% hard stop and free up the slot.
+
+## [2026-08-27 09:38 UTC] buy | [LLM] $ROOTRAT at $5.42302e-06, spent 0.05 SOL
+- **Reasoning:** $ROOTRAT — 0.4min old, has a linked X post from @NoahHayez giving it a concrete attention anchor. Absurdist animal meme ($5k mcap) matches the viral formula and is early enough to catch a 5-10x if the tweet gets traction. Size 0.05 SOL per v7 rules.
+
+## [2026-08-27 09:38 UTC] buy | [LLM] $LOTTO at $6.265e-06, spent 0.05 SOL
+- **Reasoning:** $LOTTO — has both a description (web3 lottery mechanic, hold-to-enter) and a dedicated X account @lottofunsolana posting about it. Mechanic-driven memecoins with a clear hook ('every 5 min draws') tend to farm engagement. 0.8min age, $3.9k mcap — still pre-pump.
+
