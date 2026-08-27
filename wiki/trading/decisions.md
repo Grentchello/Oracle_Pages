@@ -6205,3 +6205,6 @@
 ## [2026-08-27 11:31 UTC] sell | [TP +30% (25%)] $Cheshire at $8.59348e-06 | P&L: +36.6%
 - **Reasoning:** Auto take-profit at +36.6%
 
+## [2026-08-27 11:31 UTC] buy | [LLM] $GOYTOYS at $9.634e-06, spent 0.05 SOL
+- **Reasoning:** $GOYTOYS highest mcap of the new launches at $13.3k, 35% bonded (further along than peers = real buy pressure), and RT_com is launching a coordinated token family (Goyplug, BIBS, ה variants all in this batch) which signals an attention campaign not a one-off. $5 position; high narrative energy around the 'Goy' meme cluster.
+
