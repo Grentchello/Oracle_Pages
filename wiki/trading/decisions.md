@@ -6052,3 +6052,6 @@
 ## [2026-08-27 11:10 UTC] sell | [TP +100% (50%)] $ILY at $6.465e-05 | P&L: +144.3%
 - **Reasoning:** Auto take-profit at +144.4%
 
+## [2026-08-27 11:10 UTC] sell | [PARTIAL][LLM] $ILY at $6.465e-05 | P&L: +144.3%
+- **Reasoning:** $ILY is +144%, comfortably past the +100% TP tier. Bonding curve may be near completion; locking half secures profit while leaving runner. Per scalp discipline, profit-taking is mandatory when up >20% with any doubt — and post-pump dumps are the #1 way gains evaporate on microcaps.
+
