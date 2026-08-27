@@ -5203,3 +5203,6 @@
 ## [2026-08-27 09:41 UTC] buy | [LLM] $BONK at $3.89756e-06, spent 0.05 SOL
 - **Reasoning:** $BONK leverages the viral BONK brand on a discord launchpad (uxento); brand-leverage plays pump hard in memecoin attention cycles. Risk: 0.4min old, low mcap, will dump if narrative fades.
 
+## [2026-08-27 09:42 UTC] sell | [FULL][LLM] $BONK at $2.9329e-06 | P&L: -24.8%
+- **Reasoning:** BONK is down -24.8% with pool=$0 and our share showing 289201040% — this is effectively a dead/unreadable position. Cut the loss now before it hits -30% hard stop, and free the slot.
+

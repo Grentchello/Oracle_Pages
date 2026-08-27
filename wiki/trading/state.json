@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.932711,
+  "balance_sol": 0.970307,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 0.616309158,
         "description": "La Peace\" is a viral internet meme centered on a clip of top streamers Kai Cenat and IShowSpeed playing Minecraft. The phrase is a comedic mispronunciation of the video game item \"lapis\" (lapis lazuli)",
         "twitter": "https://x.com/ishowspeedsui",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "EDuaxMfBsYpfABC33KnhD8Q7CYB2TaczUdMXfYqxpump": {
-      "symbol": "BONK",
-      "name": "BULL BONK",
-      "amount": 1344688.4353288424,
-      "entry_price_usd": 3.897557130933693e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T09:41:28.762140+00:00",
-      "entry_usd_value": 5.241,
-      "entry_signals": {
-        "liquidity_usd": 479.0498480415599,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3902.9716156754575,
-        "ath_market_cap_usd": 4695.97197558753,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.570214158,
-        "description": "Launched on discord.gg/uxento",
-        "twitter": "https://x.com/zhangxuanhui/status/2092908317878390990",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -12832,19 +12810,30 @@
       "pnl_pct": -0.13,
       "exit_reason": "LLM: sell_all — $swh flat at -0.1% but $42 pool is too thin to exit profitably later; freeing slot for higher-quality attention.",
       "partial": false
+    },
+    {
+      "mint": "EDuaxMfBsYpfABC33KnhD8Q7CYB2TaczUdMXfYqxpump",
+      "symbol": "BONK",
+      "name": "BULL BONK",
+      "amount_sold": 1344688.319087176,
+      "fraction_sold": 0.9999999135549444,
+      "entry_time": "2026-08-27T09:41:28.762140+00:00",
+      "exit_time": "2026-08-27T09:42:43.321101+00:00",
+      "entry_price_usd": 3.897557130933693e-06,
+      "exit_price_usd": 2.9328984169279594e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.037596,
+      "pnl_sol": -0.012404,
+      "pnl_pct": -24.75,
+      "exit_reason": "LLM: sell_all — BONK is down -24.8% with pool=$0 and our share showing 289201040% — this is effectively a dead/unreadable position. Cut the loss now before it hits -3",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T09:41:28.762518+00:00",
+  "last_updated": "2026-08-27T09:42:43.321305+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.82,
-  "portfolio_value_usd": 108.26,
+  "last_sol_price_usd": 104.9,
+  "portfolio_value_usd": 107.03,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 09:35 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-27 09:36 UTC",
       "action": "sell",
@@ -12958,84 +12947,57 @@
       "action": "buy",
       "details": "[LLM] $BONK at $3.89756e-06, spent 0.05 SOL",
       "reason": "$BONK leverages the viral BONK brand on a discord launchpad (uxento); brand-leverage plays pump hard in memecoin attention cycles. Risk: 0.4min old, low mcap, will dump if narrative fades."
+    },
+    {
+      "time": "2026-08-27 09:42 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BONK at $2.9329e-06 | P&L: -24.8%",
+      "reason": "BONK is down -24.8% with pool=$0 and our share showing 289201040% — this is effectively a dead/unreadable position. Cut the loss now before it hits -30% hard stop, and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 752,
+    "total": 753,
     "wins": 377,
-    "losses": 375,
+    "losses": 376,
     "win_rate_pct": 50.1,
-    "total_pnl_sol": -0.867277,
-    "avg_pnl_pct": 50.58,
+    "total_pnl_sol": -0.879681,
+    "avg_pnl_pct": 50.48,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 211,
-    "today_realized_sol": 0.564952,
-    "today_target_pct": 141.2,
+    "today_trades": 212,
+    "today_realized_sol": 0.552548,
+    "today_target_pct": 138.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 377,
-      "loss_count": 375,
+      "loss_count": 376,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T09:41:28.479571+00:00",
+  "last_llm_brief_at": "2026-08-27T09:42:43.320997+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "BPDWL9HEtwHmY4ZiDjCfT2wkKLjLQVqC1dFsDZwLpump": {
-      "price_usd": 3.179915662907128e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 130.9962662175,
-      "volume_h24": 12267.35,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.249725875
-    },
-    "DtDwD5oYK3BHXfmkb6SwG3gA2HNTzWodxipcCNEvpump": {
-      "price_usd": 4.64424680750047e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 813.9871632260999,
-      "volume_h24": 9477.48,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 7.765571105
-    },
-    "CsdXshaMK9aBPAa3qoVAFtmNsVsng2WvM4mHftdppump": {
-      "price_usd": 3.014233962409241e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 44.5213547646,
-      "volume_h24": 4939.02,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.42474103
-    },
-    "AkQa2Am4nEkii94Vu59NZiZ3VPhKdMFa4UAmzgXGpump": {
-      "price_usd": 5.019179708195909e-07,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 42.34266089705999,
-      "volume_h24": 194.6,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.403955933
-    },
     "6gjuSS5oibNg7NZRVcB9WS92zRj9T2BWFeRwSQ9xpump": {
-      "price_usd": 3.052311465188732e-06,
+      "price_usd": 3.0546410293674683e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 64.60152594156,
+      "liquidity_usd": 64.6508306742,
       "volume_h24": 64.68,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.616309158
+    },
+    "EDuaxMfBsYpfABC33KnhD8Q7CYB2TaczUdMXfYqxpump": {
+      "price_usd": 2.9328984169279594e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.3637000000000002e-06,
+      "volume_h24": 1750.66,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.3e-08
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
