@@ -5695,3 +5695,9 @@
 ## [2026-08-27 10:32 UTC] sell | [hard-stop] $Fox closed at $5.16424e-06 | P&L: -56.7%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 10:32 UTC] sell | [FULL][LLM] $PweaseBull at $1.17317e-05 | P&L: -26.2%
+- **Reasoning:** Down -26.2% with no narrative shown and held 0h — within 4 points of the -30% hard stop. No bounce signal, no story to hold for. Cut the loss now.
+
+## [2026-08-27 10:32 UTC] buy | [LLM] $Larry at $5.37441e-06, spent 0.05 SOL
+- **Reasoning:** $Larry 'The Twitter Bird' — highest mcap of the fresh batch ($5.4k), real X handle (@LvckUwU), name riffs on Twitter/Larry the Bird which has cultural recognition. Bonding curve 21% so some early buys already. Narrative is concrete, not generic.
+
