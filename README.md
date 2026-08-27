@@ -89,3 +89,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- liquidity dashboard -->
 
 <!-- v6.1 stale -->
+
+<!-- trading pairs bot deploy -->
