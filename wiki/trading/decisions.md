@@ -7252,3 +7252,15 @@
 ## [2026-08-27 13:46 UTC] buy | [LLM] $Quack at $6.10175e-06, spent 0.05 SOL
 - **Reasoning:** $Quack (Jueves de Quack) — duck/frog meta overlap,0.4min old, $6k mcap, has Twitter link. Quack Thursday angle could be viral meme content.
 
+## [2026-08-27 13:47 UTC] sell | [hard-stop] $Dr. E closed at $2.96946e-06 | P&L: -58.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:47 UTC] sell | [hard-stop] $Quack closed at $2.9397e-06 | P&L: -51.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:47 UTC] sell | [TP +100% (50%)] $Schwab at $3.689e-05 | P&L: +190.4%
+- **Reasoning:** Auto take-profit at +190.4%
+
+## [2026-08-27 13:48 UTC] sell | [FULL][LLM] $Schwab at $3.689e-05 | P&L: +190.4%
+- **Reasoning:** Held $Schwab is up +190.4% — well above any TP threshold. The bot may have already auto-TP'd, but if not, take profit now. Price history shows volatile swings (MC went 158→145→123→146), and at 0.1h old with 0% pool share this is peak attention-fade territory. Lock the gain.
+
