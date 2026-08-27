@@ -7201,3 +7201,15 @@
 ## [2026-08-27 13:39 UTC] buy | [LLM] $Macanos at $3.07754e-06, spent 0.05 SOL
 - **Reasoning:** $Macanos 'Pumpfun Support Dog' — pumpfun-themed meta coin riding attention on the launchpad itself. Meta-narrative tends to pump on attention. Worth a small entry.
 
+## [2026-08-27 13:40 UTC] sell | [hard-stop] $Doomsdale closed at $3.85146e-06 | P&L: -45.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:40 UTC] sell | [TP +500% (full)] $MAN at $3.99563e-05 | P&L: +667.7%
+- **Reasoning:** Auto take-profit at +667.7%
+
+## [2026-08-27 13:41 UTC] sell | [FULL][LLM] $Macanos at $3.08034e-06 | P&L: +0.1%
+- **Reasoning:** $Macanos pool is only $84 — that's ~17x my 0.05 SOL position, well under the 5x liquidity safety floor (which would need $25+ pool — barely clears, but 6% share of an $84 pool is dump-risk). Flat at +0.1%, stale signal. Free the slot.
+
+## [2026-08-27 13:41 UTC] buy | [LLM] $ATTRITION at $2.30464e-05, spent 0.05 SOL
+- **Reasoning:** $ATTRITION 'War of Attrition' has the strongest narrative in the batch (military/conflict framing is viral on CT), $22.9k mcap with 39% bonded = established early traction, clear story to spread. Risk: 0.9min old, j7tracker deploy means some launchpad-fee overhead but also signals intent.
+
