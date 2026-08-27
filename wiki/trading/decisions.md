@@ -3640,3 +3640,15 @@
 ## [2026-08-27 02:58 UTC] buy | [LLM] $SIZECHAD at $5.9618e-06, spent 0.1 SOL
 - **Reasoning:** $SIZECHAD has a dedicated X handle (@SizeChad) already posting, body-part/body-image humor has viral track record, $5,958 mcap with 24% bond. Real creator presence = attention signal.
 
+## [2026-08-27 02:59 UTC] sell | [PARTIAL][LLM] $Gamble at $1.77766e-05 | P&L: +105.9%
+- **Reasoning:** $Gamble is +105.9% in 0.1h — parabolic move on tiny liquidity ($4.5k pool). Take partial profit; these microcap runners revert fast. Lock in gains on half, ride the rest.
+
+## [2026-08-27 02:59 UTC] sell | [FULL][LLM] $RWA at $5.96549e-06 | P&L: -0.1%
+- **Reasoning:** $RWA flat at -0.1% just minutes in, $1373 pool with no clear narrative catalyst visible — cut it free up a slot for fresh attention.
+
+## [2026-08-27 02:59 UTC] buy | [LLM] $cat at $1.74857e-05, spent 0.1 SOL
+- **Reasoning:** $cat from zuck_devs (Zuckerberg dev team X account) — legitimate viral attention signal on a $17k mcap with highest bond completion (37%). Narrative strength beats the duplicate-mint spam risk.
+
+## [2026-08-27 02:59 UTC] buy | [LLM] $CLAUDEFORCE at $7.47311e-06, spent 0.1 SOL
+- **Reasoning:** $CLAUDEFORCE has YouTube video backing plus RhysSullivan X post — narrative around Claude/AI meta is hot. $7.5k mcap with 28% bond gives solid entry.
+
