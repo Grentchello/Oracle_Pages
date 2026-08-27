@@ -7051,3 +7051,21 @@
 ## [2026-08-27 13:15 UTC] buy | [LLM] $wif at $5.875e-06, spent 0.05 SOL
 - **Reasoning:** $wif (dog wif horns) — viral dog wif hat derivative narrative, $5.8k mcap, 23% bonded fastest of the cluster. Highest mcap + most bonding progress = strongest attention signal.
 
+## [2026-08-27 13:16 UTC] sell | [hard-stop] $wif closed at $2.93185e-06 | P&L: -50.1%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:16 UTC] sell | [TP +100% (50%)] $PIGEONMAN at $1.12716e-05 | P&L: +152.6%
+- **Reasoning:** Auto take-profit at +152.5%
+
+## [2026-08-27 13:16 UTC] sell | [FULL][LLM] $PIGEONMAN at $1.12716e-05 | P&L: +152.6%
+- **Reasoning:** +152.5% in 0.2h — past the +100% TP at 50% threshold but bot only auto-takes at 25/50/75/100%. With bonding-curve pool only $3k and our share showing 0%, I don't trust the price stickiness. Lock the gain — this is exactly the 'up >20% and you have doubt' scenario. Lock profit.
+
+## [2026-08-27 13:16 UTC] sell | [FULL][LLM] $BULLIO at $1.62476e-05 | P&L: +10.4%
+- **Reasoning:** +10.4% in 0.1h with bonding-curve pool $4258 — price action looks flat-to-down trending in the 30m history (134→129→136→139). Not enough momentum to justify holding. Free up slot for fresher attention.
+
+## [2026-08-27 13:16 UTC] buy | [LLM] $Toad King at $3.67784e-07, spent 0.05 SOL
+- **Reasoning:** $Toad King — Chinese meme narrative (蟾蜍王者) tapping the China attention market, bonding 30% already (most progress in fresh batch), 0.2min old. Meme strength is real, narrative is distinct.
+
+## [2026-08-27 13:16 UTC] buy | [LLM] $GROKBOT at $5.481e-06, spent 0.05 SOL
+- **Reasoning:** $GROKBOT — Grok AI bot narrative is a proven attention magnet in current cycle, bonding 21%, has explicit X link. Bot/grok meta is hot right now.
+
