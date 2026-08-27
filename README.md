@@ -93,3 +93,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- trading pairs bot deploy -->
 
 <!-- trading pairs dashboard fix -->
+
+<!-- sparklines v8 -->
