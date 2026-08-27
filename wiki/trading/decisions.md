@@ -2605,3 +2605,12 @@
 ## [2026-08-27 00:50 UTC] sell | [PARTIAL][LLM] $PTA at $5.942e-06 | P&L: +54.1%
 - **Reasoning:** +54.1% hits my profit-take zone cleanly. Lock half, let half run; the 1h +97.6% suggests momentum but distribution risk is real at this gain.
 
+## [2026-08-27 00:52 UTC] sell | [PARTIAL][LLM] $blindape at $1.207e-05 | P&L: +100.7%
+- **Reasoning:** +100.7% in 0.7h with 24h already +298% means parabolic extension — bank half to lock gains and let the rest ride if narrative holds.
+
+## [2026-08-27 00:52 UTC] sell | [FULL][LLM] $PTA at $2.922e-06 | P&L: -24.2%
+- **Reasoning:** -24.2% and the 1h shows accelerating decline (-2.8% on 24h means it dropped from a higher level and isn't recovering). Free the slot for fresher attention.
+
+## [2026-08-27 00:52 UTC] buy | [LLM] $FALLING at $3.06706e-06, spent 0.1 SOL
+- **Reasoning:** $FALLING (The Falling Cat) — falling cat videos are proven viral meme format with strong X post backing. $3k mcap, 0.1min old, bond4% progressing — earliest attention capture at lowest mcap.
+
