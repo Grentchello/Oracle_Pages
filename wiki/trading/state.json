@@ -1,52 +1,8 @@
 {
-  "balance_sol": 0.337719,
+  "balance_sol": 0.373898,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "Cwp1etG38gw93uE4Lc1Ch7QP9J16yuw9jUiXTGAFpump": {
-      "symbol": "VR",
-      "name": "Virtual Runner",
-      "amount": 111211.86804046799,
-      "entry_price_usd": 5.049904865647729e-06,
-      "entry_sol_spent": 0.005548403018527293,
-      "entry_time": "2026-08-27T07:22:28.448884+00:00",
-      "entry_usd_value": 10.122,
-      "entry_signals": {
-        "liquidity_usd": 60.543257697719994,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5031.572102833363,
-        "ath_market_cap_usd": 8965.740484541382,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.598135326,
-        "description": "",
-        "twitter": "https://x.com/Cartieronchain/status/2092875111128777049?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "8hBc3Mu1MrXXEWz76TyTv6ELJQ1UxmfitQU7X4Ywpump": {
-      "symbol": "LEEK",
-      "name": "The Trading Leek",
-      "amount": 1162721.9298591865,
-      "entry_price_usd": 8.710595147393986e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T07:23:57.315939+00:00",
-      "entry_usd_value": 10.128,
-      "entry_signals": {
-        "liquidity_usd": 173.83921539984001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8671.784918844407,
-        "ath_market_cap_usd": 11070.64812612247,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.716421953,
-        "description": "Can a leek vegetable outperform your average degen at trenching? Let's find out!",
-        "twitter": "https://x.com/TradingLeek/status/2092875551233183796",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "GjDBF8cHp5QCskFcsg6DCqrGUTZWKnCcSMnHvN2Qpump": {
       "symbol": "tripletung",
       "name": "tung tung tung ",
@@ -9216,25 +9172,47 @@
       "pnl_pct": -43.88,
       "exit_reason": "LLM: sell_all — -43.9% and our share is 451% of a $1 pool — we ARE the exit liquidity. Take whatever we can get before the hard stop.",
       "partial": true
+    },
+    {
+      "mint": "Cwp1etG38gw93uE4Lc1Ch7QP9J16yuw9jUiXTGAFpump",
+      "symbol": "VR",
+      "name": "Virtual Runner",
+      "amount_sold": 111211.86804046799,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T07:22:28.448884+00:00",
+      "exit_time": "2026-08-27T07:25:36.873548+00:00",
+      "entry_price_usd": 5.049904865647729e-06,
+      "exit_price_usd": 2.832917942672788e-06,
+      "entry_sol_for_chunk": 0.005548,
+      "exit_sol_received": 0.003112,
+      "pnl_sol": -0.002436,
+      "pnl_pct": -43.9,
+      "exit_reason": "LLM: sell_all — $VR at -43.9% and falling, only 0.0h held with no bounce signal. -20% rule says exit, and we're approaching the hard -50% stop. Cut it now to preserve",
+      "partial": false
+    },
+    {
+      "mint": "8hBc3Mu1MrXXEWz76TyTv6ELJQ1UxmfitQU7X4Ywpump",
+      "symbol": "LEEK",
+      "name": "The Trading Leek",
+      "amount_sold": 1162721.9298591865,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T07:23:57.315939+00:00",
+      "exit_time": "2026-08-27T07:25:36.874241+00:00",
+      "entry_price_usd": 8.710595147393986e-06,
+      "exit_price_usd": 2.879151669078707e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.033067,
+      "pnl_sol": -0.066933,
+      "pnl_pct": -66.95,
+      "exit_reason": "LLM: sell_all — $LEEK is -66.9%, already past the -50% hard stop. Whatever remains in this position is likely unrecoverable or illiquid. Sell_all to recover any resid",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T07:23:57.603772+00:00",
+  "last_updated": "2026-08-27T07:25:36.874438+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.28,
-  "portfolio_value_usd": 55.02,
+  "last_sol_price_usd": 101.24,
+  "portfolio_value_usd": 47.98,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 07:19 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $NLD at $9.58474e-06 | P&L: +104.2%",
-      "reason": "+104% is well past the +100% TP threshold; if still held, lock gains now before reversal."
-    },
-    {
-      "time": "2026-08-27 07:19 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $5M at $4.30646e-06 | P&L: -0.0%",
-      "reason": "Flat at 0%, pool only $709 — no momentum, weak liquidity, exit stale capital."
-    },
     {
       "time": "2026-08-27 07:19 UTC",
       "action": "sell",
@@ -9342,73 +9320,74 @@
       "action": "buy",
       "details": "[LLM] $tripletung at $3.01683e-06, spent 0.1 SOL",
       "reason": "$tripletung — 'tung tung tung' is a recognizable viral sound-meme format, name-recognition trades well. $3k mcap, early bonding curve."
+    },
+    {
+      "time": "2026-08-27 07:25 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $VR at $2.83292e-06 | P&L: -43.9%",
+      "reason": "$VR at -43.9% and falling, only 0.0h held with no bounce signal. -20% rule says exit, and we're approaching the hard -50% stop. Cut it now to preserve capital rather than ride to the hard stop."
+    },
+    {
+      "time": "2026-08-27 07:25 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LEEK at $2.87915e-06 | P&L: -67.0%",
+      "reason": "$LEEK is -66.9%, already past the -50% hard stop. Whatever remains in this position is likely unrecoverable or illiquid. Sell_all to recover any residual SOL and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 538,
+    "total": 540,
     "wins": 246,
-    "losses": 292,
-    "win_rate_pct": 45.7,
-    "total_pnl_sol": -1.356723,
-    "avg_pnl_pct": 57.88,
+    "losses": 294,
+    "win_rate_pct": 45.6,
+    "total_pnl_sol": -1.426092,
+    "avg_pnl_pct": 57.46,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 29,
-    "today_realized_sol": -0.371266,
-    "today_target_pct": -92.8,
+    "today_trades": 31,
+    "today_realized_sol": -0.440635,
+    "today_target_pct": -110.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 246,
-      "loss_count": 292,
+      "loss_count": 294,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T07:23:57.019260+00:00",
+  "last_llm_brief_at": "2026-08-27T07:25:36.873507+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "4Ts5G4x4YsaijLaKrRePv392gSfxAab7R9puqrEYpump": {
-      "price_usd": 5.954078397359648e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1367.449013532,
-      "volume_h24": 18798.88,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 13.501668775
-    },
-    "8HaGTB3YTdGvGiweHf9ziJQ33KGqBFgN5pRNJjoupump": {
-      "price_usd": 1.3928773929278e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 12.0102908256,
-      "volume_h24": 3511.48,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.11858502
-    },
-    "Gt3tSwsBwno2ASGcNUyyPdrdBDLZ6p3GqRq2fteUpump": {
-      "price_usd": 2.9067455180872908e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 40.0056005064,
-      "volume_h24": 1189.5,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.395000005
-    },
     "Cwp1etG38gw93uE4Lc1Ch7QP9J16yuw9jUiXTGAFpump": {
-      "price_usd": 2.8340372306785857e-06,
+      "price_usd": 2.832917942672788e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.26071429808,
+      "liquidity_usd": 1.26021638564,
       "volume_h24": 8047.57,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.012447811
+    },
+    "8hBc3Mu1MrXXEWz76TyTv6ELJQ1UxmfitQU7X4Ywpump": {
+      "price_usd": 2.879151669078707e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 25.95398186932,
+      "volume_h24": 14325.59,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.256360943
+    },
+    "GjDBF8cHp5QCskFcsg6DCqrGUTZWKnCcSMnHvN2Qpump": {
+      "price_usd": 3.015638354085888e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 97.71800162979999,
+      "volume_h24": 1101.73,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.965211395
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

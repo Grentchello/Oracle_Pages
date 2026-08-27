@@ -4210,3 +4210,9 @@
 ## [2026-08-27 07:23 UTC] buy | [LLM] $tripletung at $3.01683e-06, spent 0.1 SOL
 - **Reasoning:** $tripletung — 'tung tung tung' is a recognizable viral sound-meme format, name-recognition trades well. $3k mcap, early bonding curve.
 
+## [2026-08-27 07:25 UTC] sell | [FULL][LLM] $VR at $2.83292e-06 | P&L: -43.9%
+- **Reasoning:** $VR at -43.9% and falling, only 0.0h held with no bounce signal. -20% rule says exit, and we're approaching the hard -50% stop. Cut it now to preserve capital rather than ride to the hard stop.
+
+## [2026-08-27 07:25 UTC] sell | [FULL][LLM] $LEEK at $2.87915e-06 | P&L: -67.0%
+- **Reasoning:** $LEEK is -66.9%, already past the -50% hard stop. Whatever remains in this position is likely unrecoverable or illiquid. Sell_all to recover any residual SOL and free the slot.
+
