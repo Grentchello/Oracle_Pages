@@ -7333,3 +7333,12 @@
 ## [2026-08-27 14:01 UTC] buy | [LLM] $up at $3.04387e-06, spent 0.05 SOL
 - **Reasoning:** $up 'up only' is the purest meta-meme (the name IS the trade thesis) and the tweet comes from sns (Solana Name Service, legitimate ecosystem account). $3k mcap with real ecosystem affiliation is rare in this batch.
 
+## [2026-08-27 14:02 UTC] sell | [hard-stop] $TRENCHDOGS closed at $3.06839e-06 | P&L: -68.7%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 14:02 UTC] buy | [LLM] $wif at $5.94957e-06, spent 0.05 SOL
+- **Reasoning:** $wif (degwifhat) — official @dogwifcoin account tweeting, wif is a known memecoin brand, $6k mcap with YouTube backing. Real attention signal at low mcap, classic early-entry setup. 0.05 SOL.
+
+## [2026-08-27 14:02 UTC] buy | [LLM] $IKIGAI at $1.62239e-05, spent 0.05 SOL
+- **Reasoning:** $IKIGAI — name has narrative (Japanese 'purpose' concept), BoostCycle tweet, $16k mcap is highest of fresh launches. Two duplicate tokens exist though (scam risk), taking the higher-mcap one with the original tweet. 0.05 SOL.
+
