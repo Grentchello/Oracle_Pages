@@ -56,3 +56,7 @@
 
 ## [2026-08-27 10:36 UTC] close | XRPUSDT SUPER SL -1.1% P&L=-1.1%
 
+## [2026-08-27 12:03 UTC] close | SOLUSDT ROC time-stop 3.0h P&L=-0.1%
+
+## [2026-08-27 12:03 UTC] close | XRPUSDT ROC time-stop 3.0h P&L=-0.6%
+
