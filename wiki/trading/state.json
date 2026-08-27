@@ -1,36 +1,14 @@
 {
-  "balance_sol": 0.520442,
+  "balance_sol": 0.566992,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "6t5btfVX9TCviD9VscNTto2Sc2gDB29xGzemLFNaZk1q": {
-      "symbol": "MAREA",
-      "name": "MAREGRAPH",
-      "amount": 1192959.4431175771,
-      "entry_price_usd": 4.385312535293279e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T13:38:13.704509+00:00",
-      "entry_usd_value": 5.2315000000000005,
-      "entry_signals": {
-        "liquidity_usd": 711.84482335595,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4379.459570973942,
-        "ath_market_cap_usd": 5387.07445847939,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 6.803448565,
-        "description": "MAREGRAPH powered by clawpump.tech : presence is the watch, the tide is the wage. an ai gauge sounds tokenized shoals weekly — holders vote where the hour lands. $MAREA on solana. Agent type: Trading agent",
-        "twitter": "https://x.com/maregraph",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "GHghNNWwHL4QZmA4oceLSW7gDiHMNrioF9Pur2g4ig4R": {
       "symbol": "Schwab",
       "name": "Charles Schwab",
-      "amount": 412132.52686351154,
+      "amount": 154549.6975738168,
       "entry_price_usd": 1.2704651195206534e-05,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.018750000000000003,
       "entry_time": "2026-08-27T13:42:35.697206+00:00",
       "entry_usd_value": 5.236000000000001,
       "entry_signals": {
@@ -43,6 +21,28 @@
         "real_sol_reserves": 46.011843032,
         "description": "memecoin",
         "twitter": "https://x.com/RabbiD0ng_Devs/status/2092970305404760256",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "GefHC2MvF9jWBx3Yj3PAeMeY4GysqQybixL3ZYPpump": {
+      "symbol": "Meow",
+      "name": "SpaceX Cat",
+      "amount": 772942.5695677917,
+      "entry_price_usd": 6.756e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-27T13:44:04.659259+00:00",
+      "entry_usd_value": 5.222,
+      "entry_signals": {
+        "liquidity_usd": 2205.26254804044,
+        "volume_24h_usd": 1648.7,
+        "market_cap_usd": 6451.844924382934,
+        "ath_market_cap_usd": 9681.243658849977,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 21.115114401,
+        "description": "",
+        "twitter": "https://x.com/RickMaloney88/status/2092971143166861541",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -19751,37 +19751,64 @@
       "pnl_pct": -86.28,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "GHghNNWwHL4QZmA4oceLSW7gDiHMNrioF9Pur2g4ig4R",
+      "symbol": "Schwab",
+      "name": "Charles Schwab",
+      "amount_sold": 103033.13171587788,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T13:42:35.697206+00:00",
+      "exit_time": "2026-08-27T13:43:40.330864+00:00",
+      "entry_price_usd": 1.2704651195206534e-05,
+      "exit_price_usd": 1.7867079259507235e-05,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.017626,
+      "pnl_sol": 0.005126,
+      "pnl_pct": 40.63,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "6t5btfVX9TCviD9VscNTto2Sc2gDB29xGzemLFNaZk1q",
+      "symbol": "MAREA",
+      "name": "MAREGRAPH",
+      "amount_sold": 1192959.4431175771,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T13:38:13.704509+00:00",
+      "exit_time": "2026-08-27T13:44:04.285561+00:00",
+      "entry_price_usd": 4.385312535293279e-06,
+      "exit_price_usd": 4.594792496376882e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.052484,
+      "pnl_sol": 0.002484,
+      "pnl_pct": 4.78,
+      "exit_reason": "LLM: sell_all — $MAREA at +4.8% with only 6 min held and pool of just $797 is thin liquidity in stale territory. Tiny pool makes exit harder as it grows. Free the slo",
+      "partial": false
+    },
+    {
+      "mint": "GHghNNWwHL4QZmA4oceLSW7gDiHMNrioF9Pur2g4ig4R",
+      "symbol": "Schwab",
+      "name": "Charles Schwab",
+      "amount_sold": 154549.6975738168,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T13:42:35.697206+00:00",
+      "exit_time": "2026-08-27T13:44:04.286763+00:00",
+      "entry_price_usd": 1.2704651195206534e-05,
+      "exit_price_usd": 1.7867079259507235e-05,
+      "entry_sol_for_chunk": 0.01875,
+      "exit_sol_received": 0.02644,
+      "pnl_sol": 0.00769,
+      "pnl_pct": 40.63,
+      "exit_reason": "LLM: sell_half — $Schwab at +40.6% is past the 25% auto-TP threshold. Lock in gains on half while letting the rest ride the Charles Schwab financial meme narrative if ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T13:42:35.981918+00:00",
+  "last_updated": "2026-08-27T13:44:04.659693+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.72,
-  "portfolio_value_usd": 64.97,
+  "last_sol_price_usd": 104.44,
+  "portfolio_value_usd": 66.4,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 13:31 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $KAWS at $3.04438e-06 | P&L: -0.3%",
-      "reason": "$KAWS essentially flat (-0.3%) and on bonding curve with only $62 pool. No narrative signal, no volume, no catalyst. Flat memecoins on thin bonding curves = stale exit. Cut it and free the slot."
-    },
-    {
-      "time": "2026-08-27 13:31 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GIGAFROG at $5.01163e-06 | P&L: -26.2%",
-      "reason": "$GIGAFROG is down -26.2% and our share is 0% (likely already illiquid or dumped). Approaching -30% hard stop. Cut loss now and redeploy into fresher attention."
-    },
-    {
-      "time": "2026-08-27 13:31 UTC",
-      "action": "buy",
-      "details": "[LLM] $cyburlek at $7.88576e-06, spent 0.05 SOL",
-      "reason": "$cyburlek is the lead cybur-narrative token, higher mcap ($7.8k), 28% bonded, with a known dev/X poster (nikitadevelops). Narrative cluster (cyburlek/cyburleaked/cyburjeet) shows attention — bet on the lead token."
-    },
-    {
-      "time": "2026-08-27 13:31 UTC",
-      "action": "buy",
-      "details": "[LLM] $DEPE at $4.63082e-06, spent 0.05 SOL",
-      "reason": "$DEPE (Dino Pepe) — Pepe-derivative with a known crypto X account (CryptoFaverity) posting it. Pepe narrative is evergreen; $4.6k mcap with bonding curve still 17% to graduation has room."
-    },
     {
       "time": "2026-08-27 13:32 UTC",
       "action": "sell",
@@ -19877,51 +19904,75 @@
       "action": "buy",
       "details": "[LLM] $Schwab at $1.27047e-05, spent 0.05 SOL",
       "reason": "Charles Schwab ticker ($SCHW) parody with Wu Blockchain/RabbiD0ng attention. Schwab+Swab duplicates dilute but the Schwab itself has clean branding and a top crypto account tweet — classic attention play at $12k mcap."
+    },
+    {
+      "time": "2026-08-27 13:43 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Schwab at $1.78671e-05 | P&L: +40.6%",
+      "reason": "Auto take-profit at +40.6%"
+    },
+    {
+      "time": "2026-08-27 13:44 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MAREA at $4.59479e-06 | P&L: +4.8%",
+      "reason": "$MAREA at +4.8% with only 6 min held and pool of just $797 is thin liquidity in stale territory. Tiny pool makes exit harder as it grows. Free the slot for fresher attention."
+    },
+    {
+      "time": "2026-08-27 13:44 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Schwab at $1.78671e-05 | P&L: +40.6%",
+      "reason": "$Schwab at +40.6% is past the 25% auto-TP threshold. Lock in gains on half while letting the rest ride the Charles Schwab financial meme narrative if it continues. Pool $4617 supports the partial exit."
+    },
+    {
+      "time": "2026-08-27 13:44 UTC",
+      "action": "buy",
+      "details": "[LLM] $Meow at $6.756e-06, spent 0.05 SOL",
+      "reason": "$Meow (SpaceX Cat) - cats-in-space is peak memetic territory, $6.4k mcap with 25% bonding curve already filled shows real buy pressure, narrative has crossover appeal. Small position size given the 0.5min age and unverified narrative."
     }
   ],
   "trade_stats": {
-    "total": 1159,
-    "wins": 602,
+    "total": 1162,
+    "wins": 605,
     "losses": 557,
-    "win_rate_pct": 51.9,
-    "total_pnl_sol": -1.279547,
-    "avg_pnl_pct": 43.55,
+    "win_rate_pct": 52.1,
+    "total_pnl_sol": -1.264247,
+    "avg_pnl_pct": 43.51,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 618,
-    "today_realized_sol": 0.152682,
-    "today_target_pct": 38.2,
+    "today_trades": 621,
+    "today_realized_sol": 0.167982,
+    "today_target_pct": 42.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 602,
+      "win_count": 605,
       "loss_count": 557,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T13:42:35.385904+00:00",
+  "last_llm_brief_at": "2026-08-27T13:44:04.285521+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "6t5btfVX9TCviD9VscNTto2Sc2gDB29xGzemLFNaZk1q": {
-      "price_usd": 4.595538216045031e-06,
+      "price_usd": 4.594792496376882e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 794.29492978528,
-      "volume_h24": 2653.98,
+      "liquidity_usd": 797.1105909191599,
+      "volume_h24": 2658.93,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 7.584940124
+      "real_sol_reserves": 7.632234689
     },
-    "8QRrmCrBaqkw7Kmt5BDoVTKkLmSZAM5AZdVJrZLGpump": {
-      "price_usd": 3.1611144744308877e-06,
+    "GHghNNWwHL4QZmA4oceLSW7gDiHMNrioF9Pur2g4ig4R": {
+      "price_usd": 1.7867079259507235e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 122.74023121360001,
-      "volume_h24": 38215.86,
+      "liquidity_usd": 4617.139072262639,
+      "volume_h24": 31369.16,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.17208013
+      "real_sol_reserves": 44.208531906
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

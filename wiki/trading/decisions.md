@@ -7222,3 +7222,12 @@
 ## [2026-08-27 13:43 UTC] sell | [TP +30% (25%)] $Schwab at $1.78671e-05 | P&L: +40.6%
 - **Reasoning:** Auto take-profit at +40.6%
 
+## [2026-08-27 13:44 UTC] sell | [FULL][LLM] $MAREA at $4.59479e-06 | P&L: +4.8%
+- **Reasoning:** $MAREA at +4.8% with only 6 min held and pool of just $797 is thin liquidity in stale territory. Tiny pool makes exit harder as it grows. Free the slot for fresher attention.
+
+## [2026-08-27 13:44 UTC] sell | [PARTIAL][LLM] $Schwab at $1.78671e-05 | P&L: +40.6%
+- **Reasoning:** $Schwab at +40.6% is past the 25% auto-TP threshold. Lock in gains on half while letting the rest ride the Charles Schwab financial meme narrative if it continues. Pool $4617 supports the partial exit.
+
+## [2026-08-27 13:44 UTC] buy | [LLM] $Meow at $6.756e-06, spent 0.05 SOL
+- **Reasoning:** $Meow (SpaceX Cat) - cats-in-space is peak memetic territory, $6.4k mcap with 25% bonding curve already filled shows real buy pressure, narrative has crossover appeal. Small position size given the 0.5min age and unverified narrative.
+
