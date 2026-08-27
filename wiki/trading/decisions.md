@@ -7042,3 +7042,12 @@
 ## [2026-08-27 13:15 UTC] sell | [TP +100% (50%)] $PIGEONMAN at $1.05855e-05 | P&L: +137.2%
 - **Reasoning:** Auto take-profit at +137.2%
 
+## [2026-08-27 13:15 UTC] sell | [PARTIAL][LLM] $PIGEONMAN at $1.05855e-05 | P&L: +137.2%
+- **Reasoning:** $PIGEONMAN up +137% — well past +100% TP threshold. The bot already auto-took partial profit. Lock half to free a slot; let the rest ride if attention holds.
+
+## [2026-08-27 13:15 UTC] sell | [FULL][LLM] $STONK at $2.99744e-06 | P&L: -24.4%
+- **Reasoning:** $STONK down -24.4% with $41 pool (below 5x position size) and 10% share getting eaten by illiquidity. No bounce signal, holding for a rug — exit now before -30% hard stop.
+
+## [2026-08-27 13:15 UTC] buy | [LLM] $wif at $5.875e-06, spent 0.05 SOL
+- **Reasoning:** $wif (dog wif horns) — viral dog wif hat derivative narrative, $5.8k mcap, 23% bonded fastest of the cluster. Highest mcap + most bonding progress = strongest attention signal.
+
