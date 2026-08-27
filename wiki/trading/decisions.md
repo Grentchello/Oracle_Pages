@@ -7348,3 +7348,9 @@
 ## [2026-08-27 14:03 UTC] sell | [hard-stop] $IKIGAI closed at $1.11024e-05 | P&L: -31.6%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 14:03 UTC] sell | [FULL][LLM] $CRYPTO at $2.96337e-06 | P&L: -15.6%
+- **Reasoning:** $CRYPTO down -15.6% and still bleeding, liquidity is $0 with our share at 422295670% meaning massive depeg risk on bonding curve. Cut it before it hits the -30% hard stop.
+
+## [2026-08-27 14:03 UTC] buy | [LLM] $WTF at $1.26858e-06, spent 0.05 SOL
+- **Reasoning:** $WTF ('Welcome To Fomo') is a meta-narrative on fomo itself with active Twitter attention, $11.9k mcap at 30% bonded — viral meta-coins print 5-20x in first hour if the joke catches. Position 0.05 SOL per v7 sizing.
+
