@@ -4471,3 +4471,21 @@
 ## [2026-08-27 08:13 UTC] buy | [LLM] $birb at $7.57788e-06, spent 0.1 SOL
 - **Reasoning:** $birb — simple, memeable animal ticker, fresh launch, real X post attached. Memecoins reward simple memorable names. 0.1 SOL entry.
 
+## [2026-08-27 08:14 UTC] sell | [hard-stop] $Zoe closed at $2.8895e-06 | P&L: -82.3%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 08:14 UTC] sell | [TP +30% (half)] $RWDT at $1.764e-05 | P&L: +91.7%
+- **Reasoning:** Auto take-profit at +91.7%
+
+## [2026-08-27 08:14 UTC] sell | [TP +30% (half)] $birb at $1.49151e-05 | P&L: +96.8%
+- **Reasoning:** Auto take-profit at +96.8%
+
+## [2026-08-27 08:15 UTC] sell | [PARTIAL][LLM] $RWDT at $1.764e-05 | P&L: +91.7%
+- **Reasoning:** +91.7% on thin $4.5k pool, bonding curve — classic pre-graduation pump. Lock half, ride half per scalp discipline.
+
+## [2026-08-27 08:15 UTC] sell | [PARTIAL][LLM] $birb at $1.49151e-05 | P&L: +96.8%
+- **Reasoning:** +96.8% in 0.0h held, $3.9k pool — same curve-dump risk. Take half profit, let the rest ride if it graduates.
+
+## [2026-08-27 08:15 UTC] sell | [FULL][LLM] $Cooked at $3.14685e-06 | P&L: -48.0%
+- **Reasoning:** -48% with $137 pool (below 5x liquidity rule), no bounce signal. Will hit -50% hard stop otherwise — exit now to preserve capital.
+
