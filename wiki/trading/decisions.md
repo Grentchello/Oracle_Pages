@@ -5008,3 +5008,12 @@
 ## [2026-08-27 09:18 UTC] buy | [LLM] $VOLWIZ at $4.8365e-06, spent 0.05 SOL
 - **Reasoning:** $VOLWIZ has the strongest narrative ('treasure hunt pirate wizard' viral branding) with pirate/wizard memes consistently catching attention; small mcap = high upside if it sticks.
 
+## [2026-08-27 09:19 UTC] sell | [FULL][LLM] $BOLDPLAN at $3.11912e-06 | P&L: +5.0%
+- **Reasoning:** $BOLDPLAN pool is only $100 — with 6% share, exit will already be slippy and we can't safely exit a 0.05 SOL position in a $100 pool. Cut it now at +5% before liquidity dries.
+
+## [2026-08-27 09:19 UTC] sell | [FULL][LLM] $VOLWIZ at $5.96529e-06 | P&L: +23.3%
+- **Reasoning:** $VOLWIZ +23% clears the >20% profit-take bar, and pool=$0 with a clearly bogus share % means exit liquidity is unverified. Lock the gain — this fits the 'aggressive profit-take on doubt' rule perfectly.
+
+## [2026-08-27 09:19 UTC] buy | [LLM] $internet at $3.64988e-06, spent 0.05 SOL
+- **Reasoning:** $internet has a verifiable X post attached and the 'internet coin' meta is a clear narrative that can run on attention alone. Sub-1min age, 0.05 SOL entry.
+
