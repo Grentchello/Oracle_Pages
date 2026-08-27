@@ -5560,3 +5560,15 @@
 ## [2026-08-27 10:19 UTC] sell | [TP +30% (25%)] $AGENTX at $3.95356e-05 | P&L: +31.7%
 - **Reasoning:** Auto take-profit at +31.7%
 
+## [2026-08-27 10:20 UTC] sell | [FULL][LLM] $AGENTX at $3.95356e-05 | P&L: +31.7%
+- **Reasoning:** $AGENTX at +31.7% — above TP thresholds. The AGENTX narrative is exploding with 4+ copycat launches, attention will fragment. Lock the 30%+ gain NOW before it mean-reverts. Don't hope for 5x.
+
+## [2026-08-27 10:20 UTC] sell | [FULL][LLM] $Agent at $2.92004e-06 | P&L: -27.9%
+- **Reasoning:** $Agent is a RUG — pool=$0 (drained), our share 106088190% means we hold all remaining tokens with zero liquidity to exit cleanly. -27.9% approaching -30% hard stop. Sell now to crystallize loss; pool may be irrecoverable.
+
+## [2026-08-27 10:20 UTC] buy | [LLM] $X at $1.60047e-05, spent 0.05 SOL
+- **Reasoning:** $X is the AGENTX narrative LEADER — $16k mcap, 36% bonding curve (most progressed = closest to graduation/pool), viral tweet from QuantaDev hitting right now. Highest attention signal in the cluster.
+
+## [2026-08-27 10:20 UTC] buy | [LLM] $ANTSEM at $9.83531e-06, spent 0.05 SOL
+- **Reasoning:** $ANTSEM 'The Black Ant' — different narrative than AGENTX cluster, community-backed X community post, 31% bonding, fresh at 0.5min. Diversifies away from AGENTX concentration risk.
+
