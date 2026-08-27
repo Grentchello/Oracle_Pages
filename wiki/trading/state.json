@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.078211,
+  "balance_sol": 1.059094,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "HWtaLPCbqQjhLCmsEu9cpmApepc96qyvuYfBaw6tpump": {
       "symbol": "BILL",
       "name": "THE SCHIZOPHRENIC MONKEY",
-      "amount": 1136118.88864958,
+      "amount": 568059.44432479,
       "entry_price_usd": 4.643e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T09:29:18.309447+00:00",
       "entry_usd_value": 5.275,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 13.74171708,
         "description": "This monkey is a schizo. just like these trenchers.",
         "twitter": "https://x.com/r3d1ne?s=11",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "4icwzemZ1cGSjaxMs2pva83SCoFf7Cs6PXSdeXUHpump": {
+      "symbol": "BuckyDent",
+      "name": "The Gatsby Bear",
+      "amount": 567762.8032345014,
+      "entry_price_usd": 9.275e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-27T09:30:43.310302+00:00",
+      "entry_usd_value": 5.266,
+      "entry_signals": {
+        "liquidity_usd": 2981.43132494668,
+        "volume_24h_usd": 10195.75,
+        "market_cap_usd": 9474.137987690041,
+        "ath_market_cap_usd": 10321.515656789368,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 28.308311099,
+        "description": "Launched on discord.gg/uxento",
+        "twitter": "https://x.com/heisenberg83/status/2092907248078950421?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -12572,25 +12594,30 @@
       "pnl_pct": 27.79,
       "exit_reason": "LLM: sell_all — $APOO just crossed +20% (now +27.8%) on a tiny $2,393 pool. Pool is dangerously thin vs the position rules. Take the profit before it reverses — -20% ",
       "partial": false
+    },
+    {
+      "mint": "HWtaLPCbqQjhLCmsEu9cpmApepc96qyvuYfBaw6tpump",
+      "symbol": "BILL",
+      "name": "THE SCHIZOPHRENIC MONKEY",
+      "amount_sold": 568059.44432479,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T09:29:18.309447+00:00",
+      "exit_time": "2026-08-27T09:30:42.997181+00:00",
+      "entry_price_usd": 4.643e-06,
+      "exit_price_usd": 5.725760598336782e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.030883,
+      "pnl_sol": 0.005883,
+      "pnl_pct": 23.32,
+      "exit_reason": "LLM: sell_half — $BILL is up +23.3% with no real viral narrative shown (just a ticker). Lock half the gain now per the +20% rule — the other half is a free runner. If ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T09:29:18.309713+00:00",
+  "last_updated": "2026-08-27T09:30:43.310587+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.5,
-  "portfolio_value_usd": 119.03,
+  "last_sol_price_usd": 105.32,
+  "portfolio_value_usd": 119.45,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 09:25 UTC",
-      "action": "buy",
-      "details": "[LLM] $LEEKCORP at $7.026e-06, spent 0.05 SOL",
-      "reason": "$LEEKCORP — 34% bonded, $12.8k mcap, 1min old. Leaked-corp meta is strong attention play. Fits the 'fresh launch with narrative' edge."
-    },
-    {
-      "time": "2026-08-27 09:25 UTC",
-      "action": "buy",
-      "details": "[LLM] $Tapping at $1.06778e-05, spent 0.05 SOL",
-      "reason": "$Tapping 'Never Stop Tapping' — simple catchy name, 32% bonded, 0.5min old. Mobile-game/meta-tap is recognizable viral hook."
-    },
     {
       "time": "2026-08-27 09:26 UTC",
       "action": "sell",
@@ -12698,73 +12725,52 @@
       "action": "buy",
       "details": "[LLM] $BILL at $4.643e-06, spent 0.05 SOL",
       "reason": "$BILL — 'THE SCHIZOPHRENIC MONKEY' has an actual narrative hook (schizo trenchers), a live twitter account (@r3d1ne), and is at $5.2k mcap with 1.4min age. Attention signal is concrete, narrative is meme-able. Cheap entry on early attention."
+    },
+    {
+      "time": "2026-08-27 09:30 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BILL at $5.72576e-06 | P&L: +23.3%",
+      "reason": "$BILL is up +23.3% with no real viral narrative shown (just a ticker). Lock half the gain now per the +20% rule — the other half is a free runner. If it doubles, take more off."
+    },
+    {
+      "time": "2026-08-27 09:30 UTC",
+      "action": "buy",
+      "details": "[LLM] $BuckyDent at $9.275e-06, spent 0.05 SOL",
+      "reason": "$BuckyDent — 'The Gatsby Bear' with a real X link (heisenberg83, likely Heisenberg/Brett narrative piggyback). Low mcap $9.5k, bonding curve 31%. Narrative + X presence = best attention signal in this batch."
     }
   ],
   "trade_stats": {
-    "total": 738,
-    "wins": 372,
+    "total": 739,
+    "wins": 373,
     "losses": 366,
-    "win_rate_pct": 50.4,
-    "total_pnl_sol": -0.771777,
-    "avg_pnl_pct": 51.72,
+    "win_rate_pct": 50.5,
+    "total_pnl_sol": -0.765894,
+    "avg_pnl_pct": 51.68,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 197,
-    "today_realized_sol": 0.660452,
-    "today_target_pct": 165.1,
+    "today_trades": 198,
+    "today_realized_sol": 0.666335,
+    "today_target_pct": 166.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 372,
+      "win_count": 373,
       "loss_count": 366,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T09:29:18.002738+00:00",
+  "last_llm_brief_at": "2026-08-27T09:30:42.997135+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "F4paGkpzqWsB3GEGHHE2H86cKcNxB4y72aU859xspump": {
-      "price_usd": 2.000086746402144e-05,
+    "HWtaLPCbqQjhLCmsEu9cpmApepc96qyvuYfBaw6tpump": {
+      "price_usd": 5.725760598336782e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 5076.5924820045,
-      "volume_h24": 68327.59,
+      "liquidity_usd": 1246.2784032243599,
+      "volume_h24": 5694.99,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 48.119360019
-    },
-    "H7ZghCK9zwhpkncnkTRkVBfUJuHzXLq1kYJBeN7Xpump": {
-      "price_usd": 9.097532824567465e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2393.383849831,
-      "volume_h24": 25810.84,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 22.686102842
-    },
-    "hV5Rbjmru7JfWJw7FDiw7CqidCea1cKeYwQDnRepump": {
-      "price_usd": 3.1687014872712486e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 115.4043730215,
-      "volume_h24": 5203.67,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.093880313
-    },
-    "EDMDYjFYuU9JViKn7kC7DB1JmnT6SdZ9sHvynR3Epump": {
-      "price_usd": 3.133977487079611e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 97.380820647,
-      "volume_h24": 10013.41,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.923040954
+      "real_sol_reserves": 11.833254873
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

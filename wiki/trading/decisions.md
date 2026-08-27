@@ -5128,3 +5128,6 @@
 ## [2026-08-27 09:30 UTC] buy | [LLM] $BuckyDent at $9.275e-06, spent 0.05 SOL
 - **Reasoning:** $BuckyDent — 'The Gatsby Bear' with a real X link (heisenberg83, likely Heisenberg/Brett narrative piggyback). Low mcap $9.5k, bonding curve 31%. Narrative + X presence = best attention signal in this batch.
 
+## [2026-08-27 09:31 UTC] sell | [TP +30% (25%)] $BuckyDent at $1.28767e-05 | P&L: +38.8%
+- **Reasoning:** Auto take-profit at +38.8%
+
