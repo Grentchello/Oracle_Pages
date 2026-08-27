@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.003122,
+  "balance_sol": 1.071732,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "9F1wwU3reW7VebXRpjPRTgCN8HF6mxH8XcvuNCi2pump": {
       "symbol": "Duster",
       "name": "Duster the Bull",
-      "amount": 338536.4750678928,
+      "amount": 169268.2375339464,
       "entry_price_usd": 1.5508668597518402e-05,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T10:11:17.562363+00:00",
       "entry_usd_value": 5.25025,
       "entry_signals": {
@@ -13886,19 +13886,30 @@
       "pnl_pct": -11.57,
       "exit_reason": "LLM: sell_all — $Cheeky -11.6%, pool only $97 (below 5x position rule), our share 5%. Liquidity is dangerously thin — exit before it gets worse.",
       "partial": false
+    },
+    {
+      "mint": "9F1wwU3reW7VebXRpjPRTgCN8HF6mxH8XcvuNCi2pump",
+      "symbol": "Duster",
+      "name": "Duster the Bull",
+      "amount_sold": 169268.2375339464,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T10:11:17.562363+00:00",
+      "exit_time": "2026-08-27T10:12:21.752423+00:00",
+      "entry_price_usd": 1.5508668597518402e-05,
+      "exit_price_usd": 4.250713335030911e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.06861,
+      "pnl_sol": 0.04361,
+      "pnl_pct": 174.09,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T10:11:17.562747+00:00",
+  "last_updated": "2026-08-27T10:12:58.856583+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.005,
-  "portfolio_value_usd": 113.2,
+  "last_sol_price_usd": 104.87,
+  "portfolio_value_usd": 117.63,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 10:06 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $Курсор closed at $5.26944e-06 | P&L: -35.4%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-08-27 10:06 UTC",
       "action": "sell",
@@ -14012,84 +14023,57 @@
       "action": "buy",
       "details": "[LLM] $Duster at $1.55087e-05, spent 0.05 SOL",
       "reason": "$Duster (Duster the Bull) — ordinals-linked X account, $15.5k mcap, 36% bonded. Strongest narrative in the batch (tied to recent ordinals trend). Risk: bonding-curve dump risk."
+    },
+    {
+      "time": "2026-08-27 10:12 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $Duster at $4.25071e-05 | P&L: +174.1%",
+      "reason": "Auto take-profit at +174.1%"
     }
   ],
   "trade_stats": {
-    "total": 814,
-    "wins": 411,
+    "total": 815,
+    "wins": 412,
     "losses": 403,
-    "win_rate_pct": 50.5,
-    "total_pnl_sol": -0.821865,
-    "avg_pnl_pct": 48.92,
+    "win_rate_pct": 50.6,
+    "total_pnl_sol": -0.778255,
+    "avg_pnl_pct": 49.08,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 273,
-    "today_realized_sol": 0.610364,
-    "today_target_pct": 152.6,
+    "today_trades": 274,
+    "today_realized_sol": 0.653974,
+    "today_target_pct": 163.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 411,
+      "win_count": 412,
       "loss_count": 403,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T10:11:17.256253+00:00",
+  "last_llm_brief_at": "2026-08-27T10:12:58.565314+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "GH5TSQs3gcyzbEWaBvio5pwJMNMWrw1ja5kzre7Gpump": {
-      "price_usd": 8.993108251174707e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2363.2612669871946,
-      "volume_h24": 13967.51,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 22.506178439
-    },
     "HiNA2vrhxCL4y7nr51Ni8u9rxNtkpzNbU3ydB3zipump": {
-      "price_usd": 2.3247219099831464e-05,
+      "price_usd": 2.301296271476218e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 5714.283427687709,
-      "volume_h24": 28772.66,
+      "liquidity_usd": 5667.88667727556,
+      "volume_h24": 32390.77,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 54.419155542
+      "real_sol_reserves": 54.046788188
     },
-    "J2L5nEP4TveTXtovHBM34UYJucoFdZw2x56byh8Gpump": {
-      "price_usd": 3.0226269283265e-06,
+    "9F1wwU3reW7VebXRpjPRTgCN8HF6mxH8XcvuNCi2pump": {
+      "price_usd": 4.250713335030911e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 46.22519672503,
-      "volume_h24": 7401.92,
-      "dex_id": "pumpfun",
+      "liquidity_usd": 0.0,
+      "volume_h24": 0,
+      "dex_id": null,
       "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.440219006
-    },
-    "A41GPEpjWYHThcmXyo1CJabcrrQSKht1ekW5VHhwpump": {
-      "price_usd": 3.120389851474335e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 97.50514146588499,
-      "volume_h24": 6669.11,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.928576177
-    },
-    "8c7t5eLoKMwSf5ZL7jA5eVag3SRSGq5J8fCFxrwgpump": {
-      "price_usd": 3.119085322809591e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 96.82620402207,
-      "volume_h24": 5179.87,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.922110414
+      "complete": true,
+      "real_sol_reserves": 0.0
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
