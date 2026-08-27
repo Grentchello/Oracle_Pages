@@ -4411,3 +4411,21 @@
 ## [2026-08-27 08:09 UTC] buy | [LLM] $LABEL at $6.882e-06, spent 0.1 SOL
 - **Reasoning:** $LABEL has an actual X link backing it (candacedev_arc post), $8.8k mcap with a clear 'Label Truth' meme angle — labels/identity memes travel well. Fresh, narrative-loaded, decent risk/reward.
 
+## [2026-08-27 08:10 UTC] sell | [TP +30% (half)] $LABEL at $9.68206e-06 | P&L: +40.7%
+- **Reasoning:** Auto take-profit at +40.7%
+
+## [2026-08-27 08:10 UTC] sell | [PARTIAL][LLM] $ELEPHANTS at $4.30739e-06 | P&L: +13.5%
+- **Reasoning:** $ELEPHANTS up +13.5% after 0.1h with $690 pool. Lock half the gain — pool is thin and 2% ownership means our exit will move price. Trail the rest.
+
+## [2026-08-27 08:10 UTC] sell | [PARTIAL][LLM] $apeinbed at $3.91411e-06 | P&L: +21.9%
+- **Reasoning:** $apeinbed up +21.9% in 0.1h, but pool only $514 and we hold 2% — serious exit risk. Lock half gains, let the runner breathe.
+
+## [2026-08-27 08:10 UTC] sell | [PARTIAL][LLM] $horse at $2.88906e-06 | P&L: -46.6%
+- **Reasoning:** $horse down -46.6%, near the -50% hard cap, and we own 83% of a $7 pool — we ARE the liquidity. Cutting this immediately frees the slot and stops further bleed.
+
+## [2026-08-27 08:10 UTC] sell | [FULL][LLM] $LABEL at $9.68206e-06 | P&L: +40.7%
+- **Reasoning:** $LABEL up +40.7% and0.0h held — past the +30% half-TP threshold. Take the full gain now while the bonding curve is still pumping. Momentum tokens give back fast.
+
+## [2026-08-27 08:10 UTC] buy | [LLM] $RWDT at $9.203e-06, spent 0.1 SOL
+- **Reasoning:** $RWDT — crude shock-name narrative (Robotic Worm Dildo Tech), 1.2min old, $14k mcap with 35% bond progress. X link active. Shock-value memecoins with early bonding progress historically pump. Risk: narrative may fizzle fast; sized0.1 SOL.
+
