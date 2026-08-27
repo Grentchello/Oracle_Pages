@@ -3673,3 +3673,15 @@
 ## [2026-08-27 03:03 UTC] buy | [LLM] $Ape at $1.12195e-05, spent 0.1 SOL
 - **Reasoning:** $Ape (Just Ape) — 0.6min old, $11k mcap, named X shill account attached. Ape narrative is evergreen meme territory, fresh attention signal. Highest quality fresh launch in the batch.
 
+## [2026-08-27 03:04 UTC] sell | [PARTIAL][LLM] $Gamble at $1.83721e-05 | P&L: +112.8%
+- **Reasoning:** $Gamble +112.8% in0.2h is huge but tiny $4.7k pool means thin liquidity; take half profit off the table to lock gains and ride the rest free.
+
+## [2026-08-27 03:04 UTC] sell | [PARTIAL][LLM] $cat at $4.431e-05 | P&L: +153.4%
+- **Reasoning:** $cat +153.4% in 0.1h on $16k liquidity — partial profit-take is mandatory here, this is the kind of move that reverses fast.
+
+## [2026-08-27 03:04 UTC] sell | [FULL][LLM] $Ape at $2.90418e-06 | P&L: -74.1%
+- **Reasoning:** $Ape is at -74.1%, hard cap is -50% so this should have auto-closed already — exit immediately, dead pool at $42.
+
+## [2026-08-27 03:04 UTC] buy | [LLM] $psyop at $1.032e-05, spent 0.1 SOL
+- **Reasoning:** $psyop at $8k mcap with an active X post from PysopOnX — meta-psych-op meme has viral attention potential and 0.6min age means we catch it early.
+

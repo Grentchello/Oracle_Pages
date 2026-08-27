@@ -905,6 +905,78 @@ def main():
         if entry_price > 0 and cur_price / entry_price <= (1 - HARD_STOP_LOSS):
             trade = execute_sell(state, mint, cur_price, 1.0, f"hard-stop -{int(HARD_STOP_LOSS*100)}%")
             if trade:
+                log(f"HARD STOP: ${trade['symbol']} closed at -{int(HARD_STOP_LOSS*100)}%")
+                append_decision({
+                    "action": "sell",
+                    "details": f"[hard-stop] ${trade['symbol']} closed at ${cur_price:.6g} | P&L: {trade['pnl_pct']:+.1f}%",
+                    "reason": f"Hard -{int(HARD_STOP_LOSS*100)}% stop",
+                })
+
+    # 8b. Auto take-profit — lock in gains (non-negotiable)
+    for mint, pos in list(state.get("positions", {}).items()):
+        if mint not in state.get("positions", {}):
+            continue  # already closed by hard-stop
+        token = next((t for t in tokens if t["mint"] == mint), None)
+        if not token:
+            continue
+        cur_price = _to_float(token.get("price_usd"))
+        entry_price = _to_float(pos.get("entry_price_usd"))
+        if cur_price <= 0 or entry_price <= 0:
+            continue
+        pnl_pct = (cur_price / entry_price - 1) * 100
+        # Take-profit tiers
+        if pnl_pct >= 300:
+            tp_action = "TP +300% (full)"
+            tp_fraction = 1.0
+        elif pnl_pct >= 100:
+            tp_action = "TP +100% (75%)"
+            tp_fraction = 0.75
+        elif pnl_pct >= 30:
+            tp_action = "TP +30% (half)"
+            tp_fraction = 0.5
+        else:
+            continue
+        # Respect partial sell state — if already partially sold, fraction may exceed remaining
+        if pos.get("amount", 0) <= 0:
+            continue
+        trade = execute_sell(state, mint, cur_price, tp_fraction, f"auto-{tp_action}")
+        if trade:
+            log(f"TAKE PROFIT: ${trade['symbol']} {tp_action} — {trade['pnl_pct']:+.1f}%")
+            append_decision({
+                "action": "sell",
+                "details": f"[{tp_action}] ${trade['symbol']} at ${cur_price:.6g} | P&L: {trade['pnl_pct']:+.1f}%",
+                "reason": f"Auto take-profit at {pnl_pct:+.1f}%",
+            })
+
+    # 8c. Stale-position exit — flat for >60 min, cut regardless of P&L
+    for mint, pos in list(state.get("positions", {}).items()):
+        if mint not in state.get("positions", {}):
+            continue
+        if not pos.get("entry_time"):
+            continue
+        held_hours = (now - parse_iso(pos["entry_time"])).total_seconds() / 3600
+        if held_hours < 1.0:  # 60 min
+            continue
+        token = next((t for t in tokens if t["mint"] == mint), None)
+        if not token:
+            continue
+        cur_price = _to_float(token.get("price_usd"))
+        if cur_price <= 0:
+            continue
+        entry_price = _to_float(pos.get("entry_price_usd"))
+        pnl_pct = (cur_price / entry_price - 1) * 100 if entry_price > 0 else 0
+        if pnl_pct >= 30:
+            continue  # up big, let it run
+        # Held >60 min and not up big → stale → exit
+        trade = execute_sell(state, mint, cur_price, 1.0, f"stale-position exit ({held_hours:.1f}h held, {pnl_pct:+.1f}%)")
+        if trade:
+            log(f"STALE EXIT: ${trade['symbol']} held {held_hours:.1f}h at {trade['pnl_pct']:+.1f}%")
+            append_decision({
+                "action": "sell",
+                "details": f"[stale] ${trade['symbol']} at ${cur_price:.6g} | P&L: {trade['pnl_pct']:+.1f}%",
+                "reason": f"Held {held_hours:.1f}h with no momentum",
+            })
+            if trade:
                 log(f"HARD STOP: ${trade['symbol']} closed at -50% — PnL {trade['pnl_pct']:+.1f}%")
                 append_decision({
                     "action": "sell",
