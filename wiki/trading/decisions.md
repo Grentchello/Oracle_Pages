@@ -4219,3 +4219,9 @@
 ## [2026-08-27 07:27 UTC] sell | [FULL][LLM] $tripletung at $2.82637e-06 | P&L: -6.3%
 - **Reasoning:** Held 0.0h and already -6.3% — fresh entry, no bounce signal, and the bonding-curve share% shows we're an outsized portion of thin liquidity. Cut and rotate into a live launch.
 
+## [2026-08-27 07:35 UTC] buy | [LLM] $₿ull at $7.04225e-06, spent 0.1 SOL
+- **Reasoning:** Saylor tweet directly tied to 'Ride the ₿ull' narrative — Michael Saylor is the highest-signal Bitcoin bull account on X. Multiple copycats ($RIDE x3, $₿ull x2) confirm attention is concentrating here. Highest mcap of the cluster at $7k + freshest bond (27%) suggests this is the canonical mint. 0.1 SOL scalp, take profit at +30%.
+
+## [2026-08-27 07:35 UTC] buy | [LLM] $TTT at $5.72731e-06, spent 0.1 SOL
+- **Reasoning:** gossip10x (crypto alpha account) posted 'The Token Trap' — coordinated attention event with $TripleT clone. Mature0.7min gives the bond the most runway (23%), narrative is novel/cryptic which drives engagement. Second scalp position.
+
