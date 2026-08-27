@@ -4255,3 +4255,15 @@
 ## [2026-08-27 07:38 UTC] buy | [LLM] $Gro at $2.284e-05, spent 0.1 SOL
 - **Reasoning:** $Gro - Pudgy Penguins creator's new token. Strongest narrative in the batch by far: name-brand creator with 100M+ impressions audience. $27.8k mcap = real alpha window. Take 0.1 SOL.
 
+## [2026-08-27 07:39 UTC] sell | [hard-stop] $Gro closed at $2.85106e-06 | P&L: -87.5%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 07:40 UTC] sell | [FULL][LLM] $up at $9.03045e-06 | P&L: +27.3%
+- **Reasoning:** Up +27.3% and just hit the +30% TP zone imminent — pool is tiny ($2,387) so any reversal hits hard. Lock the gain now before it gives back. Bonding-curve share 0% means illiquid exit risk if it stalls.
+
+## [2026-08-27 07:40 UTC] buy | [LLM] $Wojak at $3.53949e-06, spent 0.1 SOL
+- **Reasoning:** $Wojak the Chimp — Wojak is one of the strongest meme IP brands in crypto (crossed with the hot 'animal coin' meta like Moo Deng/Punch). Live tweet from organic account. $3.5k mcap = cheap. 0.1 SOL.
+
+## [2026-08-27 07:40 UTC] buy | [LLM] $Eugene at $3.217e-06, spent 0.1 SOL
+- **Reasoning:** $Eugene — explicit 'next viral animal' narrative piggybacking on Moo Deng / Nihilistic Penguin / Punch meta. Animal coins have been the strongest meta recently. $3.2k mcap, 0.9min old. 0.1 SOL.
+
