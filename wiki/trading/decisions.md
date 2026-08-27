@@ -3829,3 +3829,9 @@
 ## [2026-08-27 03:17 UTC] sell | [FULL][LLM] $Shkreli at $3.0159e-06 | P&L: -30.4%
 - **Reasoning:** Down -30.4% in 0.0h with no bounce signal. Per discipline, -20% with no clear bounce = exit fast. -30% is past that, and -50% hard stop is approaching. Free up the slot for a better setup.
 
+## [2026-08-27 03:18 UTC] buy | [LLM] $Cashew at $1.91607e-05, spent 0.1 SOL
+- **Reasoning:** $Cashew leading the batch at $19k mcap with 38% bond — highest conviction name in this launch cluster. Memecoin attention play, decent narrative anchor (food brand meme), reasonable entry vs others. Risk: all sub-$20k mcaps are lottery tickets.
+
+## [2026-08-27 03:18 UTC] buy | [LLM] $AGI at $6.39212e-06, spent 0.1 SOL
+- **Reasoning:** $AGI has explicit attention handle (agionpump) and ticker plays into the AI meta which is a perpetual attention magnet. Cheap $6.4k entry, narrative clear. Risk: tiny mcap + 25% bond = extreme vol, half-bond not even full.
+
