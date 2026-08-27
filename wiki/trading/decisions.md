@@ -6472,3 +6472,12 @@
 ## [2026-08-27 12:04 UTC] buy | [LLM] $FOOD at $6.61917e-06, spent 0.05 SOL
 - **Reasoning:** $FOOD has the strongest narrative of the batch — WatcherGuru (large CT account) is amplifying a 'foodcoin' angle tied to a current food-price story, which is the kind of atttention that pumps 5-10x. Mcap $6.6k with a real X signal beats the generic 0.1min launches; risk is rug/scam but the attention driver justifies a 0.05 SOL position.
 
+## [2026-08-27 12:05 UTC] sell | [hard-stop] $FOOD closed at $3.47715e-06 | P&L: -47.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:05 UTC] sell | [PARTIAL][LLM] $tards  at $7.29651e-06 | P&L: -18.2%
+- **Reasoning:** $tards is down -18.2% on a fresh bonding-curve entry and price action shows weakness (0min candle below 1min candle). No viral narrative backing the name — just a meta-joke about red candles. Cut the loss before it hits -30% hard stop.
+
+## [2026-08-27 12:05 UTC] buy | [LLM] $PONKE at $5.06e-06, spent 0.05 SOL
+- **Reasoning:** $PONKE — Ponke is a recognizable Solana memecoin brand with repeat attention. Highest mcap of fresh batch ($8.4k) suggests early traction. Risky but narrative is established.
+
