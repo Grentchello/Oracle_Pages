@@ -5812,3 +5812,15 @@
 ## [2026-08-27 10:41 UTC] sell | [FULL][LLM] $NIMBUS at $4.86377e-06 | P&L: -6.4%
 - **Reasoning:** -6.4% with thin $920 pool (~9x position). Weak entry, no clear bounce signal in 0.0h. Cut it loose to free the slot for potential new entries.
 
+## [2026-08-27 10:42 UTC] sell | [TP +30% (25%)] $agent.md at $4.48047e-06 | P&L: +33.7%
+- **Reasoning:** Auto take-profit at +33.7%
+
+## [2026-08-27 10:42 UTC] sell | [TP +30% (25%)] $チョロ松 at $9.66746e-06 | P&L: +88.6%
+- **Reasoning:** Auto take-profit at +88.6%
+
+## [2026-08-27 10:42 UTC] sell | [FULL][LLM] $agent.md at $4.48047e-06 | P&L: +33.7%
+- **Reasoning:** $agent.md is up +33.7% and the bot's +25% TP rule should have already triggered (or is imminent). Pool is only $754 — thin liquidity means any retrace will be violent. Lock the gain, don't hope for more on a 6-minute-old bonding curve token.
+
+## [2026-08-27 10:42 UTC] sell | [FULL][LLM] $チョロ松 at $9.66746e-06 | P&L: +88.6%
+- **Reasoning:** $チョロ松 is up +88.6% — well past the +50% TP threshold. Pool $2,569 is still small. Japanese memecoin narrative is hot but the easy50%+ is already on the table. Take profit, rotate into fresher launches with viral momentum.
+

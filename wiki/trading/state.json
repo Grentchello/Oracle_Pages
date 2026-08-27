@@ -1,53 +1,8 @@
 {
-  "balance_sol": 1.028435,
+  "balance_sol": 1.032967,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "R9iSTykUwyLUXYo7Hc68NAzbqcc71Uv7kD8bzgWpump": {
-      "symbol": "agent.md",
-      "name": "agent.md",
-      "amount": 72659.36659465136,
-      "entry_price_usd": 3.3505014413092974e-06,
-      "entry_sol_spent": 0.0023437500000000003,
-      "entry_time": "2026-08-27T10:34:18.547828+00:00",
-      "entry_usd_value": 5.1935,
-      "entry_signals": {
-        "liquidity_usd": 590.8448816433801,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3358.801874745545,
-        "ath_market_cap_usd": 5259.014943554211,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.688311174,
-        "description": "",
-        "twitter": "https://x.com/duajdpoald/status/2092923255489180069",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "Ad2qVrHdbvtmaQc35UJAu23qAMCb1W6tzLhpTdTipump": {
-      "symbol": "チョロ松",
-      "name": "Choromatsu",
-      "amount": 15028.336873813587,
-      "entry_price_usd": 5.125491866130669e-06,
-      "entry_sol_spent": 0.0007415771484375001,
-      "entry_time": "2026-08-27T10:34:19.153379+00:00",
-      "entry_usd_value": 5.1935,
-      "entry_signals": {
-        "liquidity_usd": 1482.60625299215,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5138.189608485981,
-        "ath_market_cap_usd": 7634.736658137429,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 14.273671445,
-        "description": "The monkey with the Walkman from the old Sony Japanese ads.",
-        "twitter": "https://x.com/yeyeyelfg/status/2092923348464398480",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -15161,37 +15116,81 @@
       "pnl_pct": -6.38,
       "exit_reason": "LLM: sell_all — -6.4% with thin $920 pool (~9x position). Weak entry, no clear bounce signal in 0.0h. Cut it loose to free the slot for potential new entries.",
       "partial": false
+    },
+    {
+      "mint": "R9iSTykUwyLUXYo7Hc68NAzbqcc71Uv7kD8bzgWpump",
+      "symbol": "agent.md",
+      "name": "agent.md",
+      "amount_sold": 18164.84164866284,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T10:34:18.547828+00:00",
+      "exit_time": "2026-08-27T10:42:42.678986+00:00",
+      "entry_price_usd": 3.3505014413092974e-06,
+      "exit_price_usd": 4.4804701172391975e-06,
+      "entry_sol_for_chunk": 0.000586,
+      "exit_sol_received": 0.000783,
+      "pnl_sol": 0.000197,
+      "pnl_pct": 33.73,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "Ad2qVrHdbvtmaQc35UJAu23qAMCb1W6tzLhpTdTipump",
+      "symbol": "チョロ松",
+      "name": "Choromatsu",
+      "amount_sold": 3757.0842184533967,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T10:34:19.153379+00:00",
+      "exit_time": "2026-08-27T10:42:42.679605+00:00",
+      "entry_price_usd": 5.125491866130669e-06,
+      "exit_price_usd": 9.667458810061584e-06,
+      "entry_sol_for_chunk": 0.000185,
+      "exit_sol_received": 0.00035,
+      "pnl_sol": 0.000164,
+      "pnl_pct": 88.62,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "R9iSTykUwyLUXYo7Hc68NAzbqcc71Uv7kD8bzgWpump",
+      "symbol": "agent.md",
+      "name": "agent.md",
+      "amount_sold": 54494.52494598852,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T10:34:18.547828+00:00",
+      "exit_time": "2026-08-27T10:42:56.430869+00:00",
+      "entry_price_usd": 3.3505014413092974e-06,
+      "exit_price_usd": 4.4804701172391975e-06,
+      "entry_sol_for_chunk": 0.001758,
+      "exit_sol_received": 0.00235,
+      "pnl_sol": 0.000592,
+      "pnl_pct": 33.73,
+      "exit_reason": "LLM: sell_all — $agent.md is up +33.7% and the bot's +25% TP rule should have already triggered (or is imminent). Pool is only $754 — thin liquidity means any retrace",
+      "partial": false
+    },
+    {
+      "mint": "Ad2qVrHdbvtmaQc35UJAu23qAMCb1W6tzLhpTdTipump",
+      "symbol": "チョロ松",
+      "name": "Choromatsu",
+      "amount_sold": 11271.25265536019,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T10:34:19.153379+00:00",
+      "exit_time": "2026-08-27T10:42:56.431114+00:00",
+      "entry_price_usd": 5.125491866130669e-06,
+      "exit_price_usd": 9.667458810061584e-06,
+      "entry_sol_for_chunk": 0.000556,
+      "exit_sol_received": 0.001049,
+      "pnl_sol": 0.000492,
+      "pnl_pct": 88.62,
+      "exit_reason": "LLM: sell_all — $チョロ松 is up +88.6% — well past the +50% TP threshold. Pool $2,569 is still small. Japanese memecoin narrative is hot but the easy50%+ is already on th",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T10:41:38.603681+00:00",
+  "last_updated": "2026-08-27T10:42:56.730907+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.53,
-  "portfolio_value_usd": 106.79,
+  "last_sol_price_usd": 103.92,
+  "portfolio_value_usd": 107.35,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 10:37 UTC",
-      "action": "buy",
-      "details": "[LLM] $CJP at $3.937e-06, spent 0.05 SOL",
-      "reason": "$CJP 'Cockroach Janta Party' has IndiaToday mainstream media twitter link — that is real mainstream attention, not just CT noise. $2,972 mcap with 1% bonding = very early, easy 3-5x potential if it picks up engagement."
-    },
-    {
-      "time": "2026-08-27 10:38 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $チョロ松 at $8.74335e-06 | P&L: +70.6%",
-      "reason": "Auto take-profit at +70.6%"
-    },
-    {
-      "time": "2026-08-27 10:38 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $COVID-26 at $2.25937e-05 | P&L: +89.0%",
-      "reason": "Auto take-profit at +88.9%"
-    },
-    {
-      "time": "2026-08-27 10:38 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $agent.md at $3.70815e-06 | P&L: +10.7%",
-      "reason": "At +10.7% with a weak $410 pool, the gain is positive but attention and liquidity are insufficient to justify full exposure. Lock profit while retaining half for momentum."
-    },
     {
       "time": "2026-08-27 10:38 UTC",
       "action": "sell",
@@ -15287,84 +15286,75 @@
       "action": "sell",
       "details": "[FULL][LLM] $NIMBUS at $4.86377e-06 | P&L: -6.4%",
       "reason": "-6.4% with thin $920 pool (~9x position). Weak entry, no clear bounce signal in 0.0h. Cut it loose to free the slot for potential new entries."
+    },
+    {
+      "time": "2026-08-27 10:42 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $agent.md at $4.48047e-06 | P&L: +33.7%",
+      "reason": "Auto take-profit at +33.7%"
+    },
+    {
+      "time": "2026-08-27 10:42 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $チョロ松 at $9.66746e-06 | P&L: +88.6%",
+      "reason": "Auto take-profit at +88.6%"
+    },
+    {
+      "time": "2026-08-27 10:42 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $agent.md at $4.48047e-06 | P&L: +33.7%",
+      "reason": "$agent.md is up +33.7% and the bot's +25% TP rule should have already triggered (or is imminent). Pool is only $754 — thin liquidity means any retrace will be violent. Lock the gain, don't hope for more on a 6-minute-old bonding curve token."
+    },
+    {
+      "time": "2026-08-27 10:42 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $チョロ松 at $9.66746e-06 | P&L: +88.6%",
+      "reason": "$チョロ松 is up +88.6% — well past the +50% TP threshold. Pool $2,569 is still small. Japanese memecoin narrative is hot but the easy50%+ is already on the table. Take profit, rotate into fresher launches with viral momentum."
     }
   ],
   "trade_stats": {
-    "total": 889,
-    "wins": 467,
+    "total": 893,
+    "wins": 471,
     "losses": 422,
-    "win_rate_pct": 52.5,
-    "total_pnl_sol": -0.868467,
-    "avg_pnl_pct": 49.21,
+    "win_rate_pct": 52.7,
+    "total_pnl_sol": -0.867022,
+    "avg_pnl_pct": 49.26,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 348,
-    "today_realized_sol": 0.563762,
-    "today_target_pct": 140.9,
+    "today_trades": 352,
+    "today_realized_sol": 0.565207,
+    "today_target_pct": 141.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 467,
+      "win_count": 471,
       "loss_count": 422,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T10:41:38.603297+00:00",
+  "last_llm_brief_at": "2026-08-27T10:42:56.430838+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "R9iSTykUwyLUXYo7Hc68NAzbqcc71Uv7kD8bzgWpump": {
-      "price_usd": 4.163788034882966e-06,
+      "price_usd": 4.4804701172391975e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 619.19971356726,
-      "volume_h24": 12457.89,
+      "liquidity_usd": 753.8339184520801,
+      "volume_h24": 14802.97,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 5.980872342
+      "real_sol_reserves": 7.253983049
     },
     "Ad2qVrHdbvtmaQc35UJAu23qAMCb1W6tzLhpTdTipump": {
-      "price_usd": 9.575044265459517e-06,
+      "price_usd": 9.667458810061584e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2543.00135658219,
-      "volume_h24": 14195.1,
+      "liquidity_usd": 2569.1773237893603,
+      "volume_h24": 14279.17,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 24.562941723
-    },
-    "DJuDThc3FmaF9sv4JfNDdfyjbBSp5bPEDAgodBGfoHRQ": {
-      "price_usd": 4.2015492381841466e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 0.0,
-      "volume_h24": 49890.51,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": true,
-      "real_sol_reserves": 0.0
-    },
-    "2q6eJkfSQEowaRDc84KDXg4E3nWKTM6JdMSUr98fT1Ht": {
-      "price_usd": 4.863771403567464e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 920.1593563837499,
-      "volume_h24": 9312.14,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 8.887852375
-    },
-    "8PWzr67TLAAHSnUiV2VtbApDvXmntqLU1NxHfYL4pump": {
-      "price_usd": 2.8945945983575676e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 4.03767e-06,
-      "volume_h24": 5483.85,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 3.9e-08
+      "real_sol_reserves": 24.722645533
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
