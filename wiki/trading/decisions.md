@@ -5773,3 +5773,27 @@
 ## [2026-08-27 10:38 UTC] sell | [FULL][LLM] $CJP at $2.97046e-06 | P&L: -24.6%
 - **Reasoning:** CJP is down 24.6% with only a $41 pool and no clear bounce signal, making it a severe liquidity and momentum risk. Exit rather than wait for a recovery.
 
+## [2026-08-27 10:40 UTC] sell | [TP +30% (25%)] $agent.md at $4.87533e-06 | P&L: +45.5%
+- **Reasoning:** Auto take-profit at +45.5%
+
+## [2026-08-27 10:40 UTC] sell | [TP +30% (25%)] $チョロ松 at $9.73957e-06 | P&L: +90.0%
+- **Reasoning:** Auto take-profit at +90.0%
+
+## [2026-08-27 10:40 UTC] sell | [TP +200% (75%)] $COVID-26 at $4.2048e-05 | P&L: +251.6%
+- **Reasoning:** Auto take-profit at +251.6%
+
+## [2026-08-27 10:40 UTC] sell | [PARTIAL][LLM] $COVID-26 at $4.2048e-05 | P&L: +251.6%
+- **Reasoning:** $COVID-26 at +251.6% is far past the +100% TP tier. Bonding-curve token,0% pool share, viral narrative has likely peaked given multiple variants spawning. Sell half to lock gains, let half ride if narrative continues.
+
+## [2026-08-27 10:40 UTC] sell | [PARTIAL][LLM] $チョロ松 at $9.73957e-06 | P&L: +90.0%
+- **Reasoning:** $チョロ松 +90% near +100% TP. Japanese niche meme, decent pool ($2591) but 0% our share. Lock half — narrative could keep pumping on JP TikTok but at sub-$50k mcap these reverse fast.
+
+## [2026-08-27 10:40 UTC] sell | [PARTIAL][LLM] $agent.md at $4.87533e-06 | P&L: +45.5%
+- **Reasoning:** $agent.md +45.5%, above +30% tier. Generic AI/dev agent narrative, thin pool ($924), 0% share. Lock half gains, free slot for fresher attention.
+
+## [2026-08-27 10:40 UTC] buy | [LLM] $NIMBUS at $5.19538e-06, spent 0.05 SOL
+- **Reasoning:** $NIMBUS (NB.1.8.1 Covid-26) — direct derivative of strongest narrative cluster. Already hold original $COVID-26 at +251%, this is the 'mutated strain' play, sub-$5k mcap has 10x room if it catches the wave.
+
+## [2026-08-27 10:40 UTC] buy | [LLM] $Inufected at $4.9906e-06, spent 0.05 SOL
+- **Reasoning:** $Inufected — doge-style cute meme with covid twist, decent narrative angle, 19% bonding already at 0.2min age shows real buy pressure. Diversifies covid cluster with animal mascot appeal.
+
