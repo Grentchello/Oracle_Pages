@@ -4240,3 +4240,12 @@
 ## [2026-08-27 07:36 UTC] sell | [FULL][LLM] $TTT at $7.75232e-06 | P&L: +35.4%
 - **Reasoning:** $TTT is +35.4% past the +30% auto-TP threshold and pool is thin ($1989). Per discipline rules, when up >20% with thin liquidity and unclear continuation, lock the gain. Don't hope — rotate capital.
 
+## [2026-08-27 07:37 UTC] sell | [FULL][LLM] $₿ull at $6.78855e-06 | P&L: -3.6%
+- **Reasoning:** Down -3.6% immediately on a thin $1665 pool with 1% of liquidity as our share — too illiquid to trust a bounce. Rotate capital to fresher attention.
+
+## [2026-08-27 07:37 UTC] buy | [LLM] $up at $7.093e-06, spent 0.1 SOL
+- **Reasoning:** $up 'all the way up' is the strongest attention cluster — at least 4 copy-deploys chasing it in minutes, plus a Solana-tied twitter link. Mcap $10.5k is the leader among the copies. Viral name, viral deploy velocity = buy signal.
+
+## [2026-08-27 07:37 UTC] buy | [LLM] $Pumpany at $8.049e-06, spent 0.1 SOL
+- **Reasoning:** $Pumpany has a real narrative hook (doxxed creator, 'Alon tweeting constantly'), attached twitter, and a 2-word pumpable name. Mcap $4.7k = early. Story-driven memecoins outperform noise.
+

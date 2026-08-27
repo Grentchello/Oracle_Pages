@@ -1,26 +1,59 @@
 {
-  "balance_sol": 0.403091,
+  "balance_sol": 0.299393,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "G2appqvBpAV3QBJq7XiggfdtCmwAdCqYv8ZMwTv6pump": {
-      "symbol": "₿ull",
-      "name": "Ride the ₿ull",
-      "amount": 1438885.941693767,
-      "entry_price_usd": 7.042253806491475e-06,
+    "FAKE_HARDSTOP_MINT_pump": {
+      "symbol": "HARDSTOP",
+      "name": "Hard Stop Test",
+      "amount": 1000000,
+      "entry_price_usd": 1e-05,
       "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T07:35:00.539229+00:00",
-      "entry_usd_value": 10.133000000000001,
+      "entry_time": "2026-08-27T07:33:12.320498+00:00",
+      "entry_usd_value": 10.0,
+      "entry_signals": {},
+      "llm_entry": true
+    },
+    "HVwiZhjgoxRnRFQzc5b9HkNW8eSECr7rz7n4mHZLpump": {
+      "symbol": "up",
+      "name": "all the way up",
+      "amount": 1430001.409840688,
+      "entry_price_usd": 7.093e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T07:37:27.580484+00:00",
+      "entry_usd_value": 10.143,
       "entry_signals": {
-        "liquidity_usd": 1474.23034843338,
-        "volume_24h_usd": null,
-        "market_cap_usd": 7053.96529416878,
-        "ath_market_cap_usd": 7282.235210811279,
+        "liquidity_usd": 2026.3465713777302,
+        "volume_24h_usd": 4033.37,
+        "market_cap_usd": 10521.510382643475,
+        "ath_market_cap_usd": 11805.42735884306,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 14.548804386,
-        "description": "Deployed using https://j7tracker.io",
-        "twitter": "https://x.com/saylor/status/2092878381268324795",
+        "real_sol_reserves": 19.977783411,
+        "description": "Created on https://rapidlaunch.io",
+        "twitter": "https://x.com/solana/status/2092878757908648170",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "XP5Z1j49bRYNHMVMrzUUZR1W4PkVrKRp9N6mpfDpump": {
+      "symbol": "Pumpany",
+      "name": "Pumpany",
+      "amount": 1260156.5411852405,
+      "entry_price_usd": 8.049e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T07:37:27.874850+00:00",
+      "entry_usd_value": 10.143,
+      "entry_signals": {
+        "liquidity_usd": 1179.9070610266801,
+        "volume_24h_usd": 11878.54,
+        "market_cap_usd": 4703.753525778068,
+        "ath_market_cap_usd": 10394.610187022883,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 11.632722676,
+        "description": "Going Live Doxxed On PumpFun Introducing $Pumpany Alon has been tweeting constantly about the same thing over and over. Pumpany, The PumpFun Company Payouts will be sent to everyone who calls out the coin and holds, in order to make moeny all you have to do is nothing but hold Let`s make the biggest",
+        "twitter": "https://x.com/pulse_fadez/status/2092878583102329293?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -9257,31 +9290,30 @@
       "pnl_pct": 35.36,
       "exit_reason": "LLM: sell_all — $TTT is +35.4% past the +30% auto-TP threshold and pool is thin ($1989). Per discipline rules, when up >20% with thin liquidity and unclear continuati",
       "partial": false
+    },
+    {
+      "mint": "G2appqvBpAV3QBJq7XiggfdtCmwAdCqYv8ZMwTv6pump",
+      "symbol": "₿ull",
+      "name": "Ride the ₿ull",
+      "amount_sold": 1438885.941693767,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T07:35:00.539229+00:00",
+      "exit_time": "2026-08-27T07:37:27.288370+00:00",
+      "entry_price_usd": 7.042253806491475e-06,
+      "exit_price_usd": 6.788547031448054e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.096302,
+      "pnl_sol": -0.003698,
+      "pnl_pct": -3.6,
+      "exit_reason": "LLM: sell_all — Down -3.6% immediately on a thin $1665 pool with 1% of liquidity as our share — too illiquid to trust a bounce. Rotate capital to fresher attention.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T07:36:32.737581+00:00",
+  "last_updated": "2026-08-27T07:37:27.875217+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.35,
-  "portfolio_value_usd": 60.57,
+  "last_sol_price_usd": 101.43,
+  "portfolio_value_usd": 60.65,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 07:22 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $CUTE at $9.37569e-06 | P&L: +25.9%",
-      "reason": "Up +25.9% past the +20% profit-take threshold on a bonding-curve token with only $2.5k pool — these gains evaporate in seconds. Lock half now per scalp discipline, keep half as a free runner."
-    },
-    {
-      "time": "2026-08-27 07:22 UTC",
-      "action": "buy",
-      "details": "[LLM] $BIRD at $4.25182e-06, spent 0.1 SOL",
-      "reason": "$BIRD — viral bird tweet from dante_gerjovy, $4.2k mcap, fresh attention play. Low mcap = high risk but the narrative is concrete and the tweet is real (not a deploy-bot duplicate like $SIA)."
-    },
-    {
-      "time": "2026-08-27 07:22 UTC",
-      "action": "buy",
-      "details": "[LLM] $FOLD at $2.90363e-06, spent 0.1 SOL",
-      "reason": "$FOLD (iPhone Fold) — riding real-world iPhone Fold news catalyst, $2.9k mcap, j7tracker deployer. Timely narrative with outside attention, not just CT echo."
-    },
     {
       "time": "2026-08-27 07:22 UTC",
       "action": "buy",
@@ -9383,51 +9415,69 @@
       "action": "sell",
       "details": "[FULL][LLM] $TTT at $7.75232e-06 | P&L: +35.4%",
       "reason": "$TTT is +35.4% past the +30% auto-TP threshold and pool is thin ($1989). Per discipline rules, when up >20% with thin liquidity and unclear continuation, lock the gain. Don't hope — rotate capital."
+    },
+    {
+      "time": "2026-08-27 07:37 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $₿ull at $6.78855e-06 | P&L: -3.6%",
+      "reason": "Down -3.6% immediately on a thin $1665 pool with 1% of liquidity as our share — too illiquid to trust a bounce. Rotate capital to fresher attention."
+    },
+    {
+      "time": "2026-08-27 07:37 UTC",
+      "action": "buy",
+      "details": "[LLM] $up at $7.093e-06, spent 0.1 SOL",
+      "reason": "$up 'all the way up' is the strongest attention cluster — at least 4 copy-deploys chasing it in minutes, plus a Solana-tied twitter link. Mcap $10.5k is the leader among the copies. Viral name, viral deploy velocity = buy signal."
+    },
+    {
+      "time": "2026-08-27 07:37 UTC",
+      "action": "buy",
+      "details": "[LLM] $Pumpany at $8.049e-06, spent 0.1 SOL",
+      "reason": "$Pumpany has a real narrative hook (doxxed creator, 'Alon tweeting constantly'), attached twitter, and a 2-word pumpable name. Mcap $4.7k = early. Story-driven memecoins outperform noise."
     }
   ],
   "trade_stats": {
-    "total": 543,
+    "total": 544,
     "wins": 248,
-    "losses": 295,
-    "win_rate_pct": 45.7,
-    "total_pnl_sol": -1.396899,
-    "avg_pnl_pct": 57.26,
+    "losses": 296,
+    "win_rate_pct": 45.6,
+    "total_pnl_sol": -1.400597,
+    "avg_pnl_pct": 57.15,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 2,
-    "today_realized_sol": 0.03533,
-    "today_target_pct": 8.8,
+    "today_trades": 3,
+    "today_realized_sol": 0.031632,
+    "today_target_pct": 7.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 248,
-      "loss_count": 295,
+      "loss_count": 296,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T07:36:32.421979+00:00",
+  "last_llm_brief_at": "2026-08-27T07:37:27.288322+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "G2appqvBpAV3QBJq7XiggfdtCmwAdCqYv8ZMwTv6pump": {
-      "price_usd": 7.062395700468162e-06,
+      "price_usd": 6.788547031448054e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1759.5790405252,
-      "volume_h24": 5758.43,
+      "liquidity_usd": 1665.0529852187701,
+      "volume_h24": 18579.15,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 17.361411352
+      "real_sol_reserves": 16.415784139
     },
-    "9bo19qUdEdRsFVmqcdHJ3HVWw4QKQLJTMXDaxjcepump": {
-      "price_usd": 7.75231594609871e-06,
+    "FAKE_HARDSTOP_MINT_pump": {
+      "price_usd": 0,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1988.5748298086498,
-      "volume_h24": 8131.72,
+      "liquidity_usd": 0.0,
+      "volume_h24": 0,
       "dex_id": "pumpfun",
-      "source": "bonding-curve",
+      "source": "missing",
       "complete": false,
-      "real_sol_reserves": 19.620866599
+      "real_sol_reserves": 0
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
