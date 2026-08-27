@@ -2278,3 +2278,12 @@
 ## [2026-08-27 00:06 UTC] buy | [LLM] $PAINTER at $6.2723e-06, spent 0.1 SOL
 - **Reasoning:** 'Famous Painter' is the most legible narrative in this batch — 'The Painter everyone knows' is a clear attention hook at $6.3k mcap, the kind of name that gets quote-tweeted.
 
+## [2026-08-27 00:07 UTC] sell | [FULL][LLM] $bag at $2.9e-06 | P&L: -17.1%
+- **Reasoning:** $bag is -17.1% with negative 1h/24h momentum — no narrative rescue here, cut the loser and free the slot for a fresh launch.
+
+## [2026-08-27 00:07 UTC] buy | [LLM] $GIBSON at $7.39351e-06, spent 0.1 SOL
+- **Reasoning:** $GIBSON — 'The Handstand Pisser' is absurdly viral-memeable, brand-name meme with an X post and the highest mcap of the fresh batch ($7.4k bond at 28%) — early attention play.
+
+## [2026-08-27 00:07 UTC] buy | [LLM] $OSbroker at $6.46719e-06, spent 0.1 SOL
+- **Reasoning:** $OSbroker has a real product narrative (Solana stock-trading broker in plain English) plus a dedicated X account — narrative + utility story tends to stick in early launches.
+
