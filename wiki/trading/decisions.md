@@ -5431,3 +5431,9 @@
 ## [2026-08-27 10:05 UTC] sell | [hard-stop] $sigma closed at $1.46753e-06 | P&L: -57.5%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 10:05 UTC] buy | [LLM] $Курсор at $8.1592e-06, spent 0.05 SOL
+- **Reasoning:** $Курсор = 'Cursor' transliterated, directly riffs on the viral Cursor AI/dev tool meme wave. Highest mcap ($8.2k) and 29% bond complete = real buyer interest already. Narrative is hot, mcap is tiny, age <1min = perfect entry window.
+
+## [2026-08-27 10:05 UTC] buy | [LLM] $Ape at $4.64772e-06, spent 0.05 SOL
+- **Reasoning:** $Ape 'Hypnosis' tied to RicherONG tweet — RicherONG has been a serial memecoin launcher with proven attention. $4.6k mcap at 0.1min age = ground floor, riding his call flow is a legit edge.
+
