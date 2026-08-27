@@ -4849,3 +4849,24 @@
 ## [2026-08-27 08:57 UTC] buy | [LLM] $WIN at $1.144e-05, spent 0.05 SOL
 - **Reasoning:** $WIN has the strongest narrative hook in the batch — explicit Murad 'win together' meta-narrative, doxxed PumpFun deployer, and 33% bonding progress with $11k mcap. Memecoin meta-stories tied to known KOLs are the highest-attention signal available; size is 0.05 SOL.
 
+## [2026-08-27 08:58 UTC] sell | [TP +100% (50%)] $computa at $1.38743e-05 | P&L: +118.5%
+- **Reasoning:** Auto take-profit at +118.5%
+
+## [2026-08-27 08:58 UTC] sell | [TP +30% (25%)] $WIN at $2.18986e-05 | P&L: +91.4%
+- **Reasoning:** Auto take-profit at +91.4%
+
+## [2026-08-27 08:58 UTC] sell | [PARTIAL][LLM] $computa at $1.38743e-05 | P&L: +118.5%
+- **Reasoning:** +118.5% in 6 minutes, past +100% threshold. Lock half the gain — narrative (AI/computa meta) is real but memecoin giveback is brutal. Trail the rest.
+
+## [2026-08-27 08:58 UTC] sell | [PARTIAL][LLM] $WIN at $2.18986e-05 | P&L: +91.4%
+- **Reasoning:** +91.4% in<1 min, bonding curve only 25% filled. Lock half — WIN narrative is generic, easier to give back gains than computa. Rotate capital to fresh launches.
+
+## [2026-08-27 08:58 UTC] buy | [LLM] $ape at $7.647e-06, spent 0.05 SOL
+- **Reasoning:** $ape narrative is the meta-narrative itself — 'just ape' is a meme-recursive joke that crypto twitter loves. 31% bonded, decent depth. Pure attention play.
+
+## [2026-08-27 08:58 UTC] buy | [LLM] $LIKWELI at $6.026e-06, spent 0.05 SOL
+- **Reasoning:** ORANGE MONKEY from Congo discovery — viral animal-news narrative with verified X post (StarOnline). Animal discovery memes pump hard. 25% bonded, $6.7k mcap.
+
+## [2026-08-27 08:58 UTC] buy | [LLM] $TRUCHACoin at $8.42813e-06, spent 0.05 SOL
+- **Reasoning:** $TRUCHA 'first honest cryptocurrency — no whitepaper no utility no exit' is peak memecoin self-awareness meta. 0.1min old, brand-new attention window. Low mcap = high upside if narrative catches.
+
