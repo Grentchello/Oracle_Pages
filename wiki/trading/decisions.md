@@ -3316,3 +3316,21 @@
 ## [2026-08-27 02:20 UTC] buy | [LLM] $pumpling at $3.81213e-06, spent 0.1 SOL
 - **Reasoning:** $pumpling — meta-narrative coin (platform for promoting memecoins) targeting the exact attention-hungry audience that's buying these tokens; viral potential is high because it's a 'tool for traders' meme.
 
+## [2026-08-27 02:21 UTC] sell | [PARTIAL][LLM] $JAN183411 at $5.874e-06 | P&L: +18.0%
+- **Reasoning:** JAN183411 at +18% with strong 1h momentum (+71.3%). Taking partial profit locks gains while letting the rest ride if narrative continues.
+
+## [2026-08-27 02:21 UTC] sell | [FULL][LLM] $DISNEY at $2.934e-06 | P&L: -0.6%
+- **Reasoning:** DISNEY flat at -0.6% with weak 1h (+3.2%), no attention signal here. Free up slot for stronger candidates.
+
+## [2026-08-27 02:21 UTC] sell | [FULL][LLM] $$SHITZU at $2.936e-06 | P&L: -0.1%
+- **Reasoning:** $$SHITZU essentially flat with no momentum signal. Cut and redeploy capital into fresh attention.
+
+## [2026-08-27 02:21 UTC] sell | [PARTIAL][LLM] $Cashew at $7.044e-06 | P&L: +11.9%
+- **Reasoning:** Cashew at +12% with massive 1h surge (+93.7%) — strong narrative momentum. Lock half, let the other half ride.
+
+## [2026-08-27 02:21 UTC] buy | [LLM] $BROKERS at $4.73546e-06, spent 0.1 SOL
+- **Reasoning:** $BROKERS — 'SOL·BROKERS' narrative about tokenized RWA with a dedicated twitter (@solbrokerscoin). $4.7k mcap, fresh, has a story about shady operators moving assets. Classic attention-market bait.
+
+## [2026-08-27 02:21 UTC] buy | [LLM] $stage at $4.6652e-06, spent 0.1 SOL
+- **Reasoning:** $stage — Stage Tour launching Dec 10 with 90+ real songs, Guitar Hero replacement narrative. Tangible product timeline creates a catalyst. Strong memecoin narrative hook at $4.7k mcap.
+
