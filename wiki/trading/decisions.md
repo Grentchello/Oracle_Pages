@@ -7363,3 +7363,15 @@
 ## [2026-08-27 14:05 UTC] buy | [LLM] $CHUMP at $5.5427e-06, spent 0.05 SOL
 - **Reasoning:** $CHUMP has its own independent narrative from @flanker35sukhoi (jet enthusiast account), mcap $5.5k with 21% bonding curve. Independent attention signal, cheap entry, asymmetric upside if it catches fire.
 
+## [2026-08-27 14:06 UTC] sell | [hard-stop] $MNST closed at $3.22849e-06 | P&L: -82.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 14:06 UTC] sell | [hard-stop] $CHUMP closed at $2.97623e-06 | P&L: -46.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 14:06 UTC] sell | [PARTIAL][LLM] $WTF at $1.5536e-06 | P&L: +22.5%
+- **Reasoning:** WTF is up +22.5% on a tiny $416 pool with2% of supply — this is illiquid and the price already spiked from $0.0000000114 to $0.0000000135 in 2 minutes. Lock half the gain now; illiquid microcaps mean exit liquidity vanishes fast.
+
+## [2026-08-27 14:06 UTC] buy | [LLM] $CRATE at $4.67892e-06, spent 0.05 SOL
+- **Reasoning:** CR8/CRATE has a concrete narrative: gacha cases for live perps on Hyperliquid/Lighter/Polymarket — real product hook, not just a meme. Twitter @cr8dotfun is active. $4.7k mcap is classic early-launch entry; narrative clarity beats pure meme names.
+
