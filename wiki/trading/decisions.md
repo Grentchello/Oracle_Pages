@@ -4180,3 +4180,15 @@
 ## [2026-08-27 07:20 UTC] buy | [LLM] $CUTE at $7.44721e-06, spent 0.1 SOL
 - **Reasoning:** $CUTE — Spongebob meme has proven viral DNA, kiryusol is a real attention account, $7.4k mcap is early enough for upside. Bond 28% is healthy. One of the few launches with a coherent narrative rather than deployer spam.
 
+## [2026-08-27 07:22 UTC] sell | [PARTIAL][LLM] $CUTE at $9.37569e-06 | P&L: +25.9%
+- **Reasoning:** Up +25.9% past the +20% profit-take threshold on a bonding-curve token with only $2.5k pool — these gains evaporate in seconds. Lock half now per scalp discipline, keep half as a free runner.
+
+## [2026-08-27 07:22 UTC] buy | [LLM] $BIRD at $4.25182e-06, spent 0.1 SOL
+- **Reasoning:** $BIRD — viral bird tweet from dante_gerjovy, $4.2k mcap, fresh attention play. Low mcap = high risk but the narrative is concrete and the tweet is real (not a deploy-bot duplicate like $SIA).
+
+## [2026-08-27 07:22 UTC] buy | [LLM] $FOLD at $2.90363e-06, spent 0.1 SOL
+- **Reasoning:** $FOLD (iPhone Fold) — riding real-world iPhone Fold news catalyst, $2.9k mcap, j7tracker deployer. Timely narrative with outside attention, not just CT echo.
+
+## [2026-08-27 07:22 UTC] buy | [LLM] $VR at $5.0499e-06, spent 0.1 SOL
+- **Reasoning:** $VR (Virtual Runner) — $5k mcap, Cartieronchain tweet, fresh launch with running/game narrative. Decent pool depth vs the micro-caps.
+
