@@ -6673,3 +6673,15 @@
 ## [2026-08-27 12:30 UTC] buy | [LLM] $VILLAIN at $3.542e-06, spent 0.05 SOL
 - **Reasoning:** Fresh poker-AI narrative ('Perfect poker is unexploitable') with a dedicated @Agent_Villain X account. Sub-$4k mcap, contrarian intellectual hook that could resonate with the AI-agent meta. Small size, asymmetric upside.
 
+## [2026-08-27 12:32 UTC] sell | [PARTIAL][LLM] $Robolympics at $8.73787e-06 | P&L: +26.9%
+- **Reasoning:** $Robol Olympics is +26.9% but held 0.0h on a thin $2287 bonding-curve pool. Per discipline rules, up >20% with any doubt = lock gains. Take half, let the rest ride to TP.
+
+## [2026-08-27 12:32 UTC] sell | [FULL][LLM] $VILLAIN at $3.52897e-06 | P&L: -0.4%
+- **Reasoning:** $VILLAIN is flat (-0.4%) on only $312 pool liquidity with 2% of supply — that's thin and our slot is locked. Stale flat capital needs to rotate into fresh attention.
+
+## [2026-08-27 12:32 UTC] buy | [LLM] $TOADBULL at $6.91441e-06, spent 0.05 SOL
+- **Reasoning:** $TOADBULL — 'THE BLACK BULL + TOAD = THE TOAD BULL' meme combo is the kind of absurdist attention narrative that pumps. $6,936 mcap, 26% bonded (leading the fresh batch). Take a 0.05 SOL position.
+
+## [2026-08-27 12:32 UTC] buy | [LLM] $WHEAT at $7.04189e-06, spent 0.05 SOL
+- **Reasoning:** $WHEAT — Polymarket tweet driver, multiple copycat mints detected which itself is an attention signal (memetic spread). Lead mint at $7,064 mcap, 26% bonded. 0.05 SOL.
+
