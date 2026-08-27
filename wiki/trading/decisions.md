@@ -3379,3 +3379,12 @@
 ## [2026-08-27 02:31 UTC] sell | [FULL][LLM] $Pirate Cat at $2.827e-06 | P&L: -5.7%
 - **Reasoning:** Weakest position at -5.7% with 24h -17.2%, and a duplicate $Pirate Cat token just launched diluting attention. Free the slot for better setups.
 
+## [2026-08-27 02:33 UTC] sell | [PARTIAL][LLM] $stage at $6.822e-06 | P&L: +46.2%
+- **Reasoning:** $stage +46% is approaching the +50% take-profit zone, and 24h/+125% suggests momentum may be exhausting. Lock half the gains, let the rest ride if narrative keeps going.
+
+## [2026-08-27 02:33 UTC] sell | [FULL][LLM] $KING at $2.827e-06 | P&L: -21.1%
+- **Reasoning:** $KING -21% with 24h also negative (-21%) means the initial pop has fully faded and there's no momentum tailwind. Cut and free the slot for fresh attention.
+
+## [2026-08-27 02:33 UTC] buy | [LLM] $EMEM at $3.01703e-06, spent 0.1 SOL
+- **Reasoning:** $EMEM (Reversed Memes) — narrative is 'NEW TREND on Reddit going VIRAL'. Reddit→memecoin pipeline is a classic attention-launched play, and we're getting in at $3k mcap before any confirmation. High risk, high reward — exactly the kind of story we want.
+
