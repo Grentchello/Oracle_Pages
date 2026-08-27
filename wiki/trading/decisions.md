@@ -2458,3 +2458,18 @@
 ## [2026-08-27 00:34 UTC] sell | [FULL][LLM] $TopKek at $4.327e-06 | P&L: -54.5%
 - **Reasoning:** $TopKek is -54.5% — past the -50% hard cap. 24h is +19% but 1h is also +19% which suggests stale data; on the live tick we're down hard. Cut it.
 
+## [2026-08-27 00:35 UTC] sell | [PARTIAL][LLM] $blindape at $1.408e-05 | P&L: +134.2%
+- **Reasoning:** blindape is +134% in 0.4h with 1h showing +364% — taking partial profit locks in gains and lets the runner ride free. Narrative still strong but securing some SOL is prudent after a 2x+ move.
+
+## [2026-08-27 00:35 UTC] sell | [FULL][LLM] $mouse at $2.825e-06 | P&L: -40.4%
+- **Reasoning:** mouse is -40.4% and 24h is -17.4% — narrative is dead and price action confirms fading momentum. Cutting the loss before it approaches the -50% hard cap, freeing capital for fresh attention.
+
+## [2026-08-27 00:35 UTC] buy | [LLM] $Po at $1.20646e-05, spent 0.1 SOL
+- **Reasoning:** $Po at $12k mcap 0.4min old with a viral X post attached — name is simple/memeable, mcap is the highest of the fresh batch which signals early traction, and ultra-low float gives10x room. Attention-launched, riding the wave.
+
+## [2026-08-27 00:35 UTC] buy | [LLM] $Jotchua at $3.57389e-06, spent 0.1 SOL
+- **Reasoning:** $Jotchua has a clear 'NO IP RELAUNCH' narrative (organic origin story, not a knockoff) and twitter link — that distinction matters in memecoin attention markets where originality gets rewarded. $3.5k mcap is dirt cheap entry.
+
+## [2026-08-27 00:35 UTC] buy | [LLM] $PHAMON at $4.37083e-06, spent 0.1 SOL
+- **Reasoning:** $PHAMON claims 'most viral meme token out there' with a Pepe Tod angle — that's confident narrative energy. $4.3k mcap,0.3min old, attention-launched. Worth a 0.1 SOL degen shot.
+
