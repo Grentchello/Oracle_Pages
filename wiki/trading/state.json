@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.987891,
+  "balance_sol": 1.011362,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "CkXGLkq6o7xuZ6UsuGpdeidM9MwNLYGuEySdeuNDpump": {
       "symbol": "CTREMP",
       "name": "CRYPTO TREMP",
-      "amount": 16313.624000888103,
+      "amount": 12235.218000666078,
       "entry_price_usd": 1.689e-05,
-      "entry_sol_spent": 0.00263671875,
+      "entry_sol_spent": 0.0019775390625000003,
       "entry_time": "2026-08-27T09:53:59.736142+00:00",
       "entry_usd_value": 5.2250000000000005,
       "entry_signals": {
@@ -43,28 +43,6 @@
         "real_sol_reserves": 10.179048531,
         "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. GL. ",
         "twitter": "https://x.com/_rise",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "CtYj1AthgoryxpeX6vHZHVyVTe6J4GqMUJw9UyZzpump": {
-      "symbol": "chicky",
-      "name": "chicky",
-      "amount": 792592.4244285469,
-      "entry_price_usd": 6.581566816969083e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T09:58:27.808578+00:00",
-      "entry_usd_value": 5.2165,
-      "entry_signals": {
-        "liquidity_usd": 2034.0206836607001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6584.922767941293,
-        "ath_market_cap_usd": 8784.928739283085,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 19.49602879,
-        "description": "",
-        "twitter": "https://x.com/UltraGigaDeploy/status/2092914411946037451?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -13347,31 +13325,47 @@
       "pnl_pct": 71.81,
       "exit_reason": "LLM: sell_half — $CTREMP is up 71.8% — well past the +30% threshold and approaching the +100% TP at 50% (currently 71.8%, so halfway to 100%). Locking half the gain de",
       "partial": true
+    },
+    {
+      "mint": "CtYj1AthgoryxpeX6vHZHVyVTe6J4GqMUJw9UyZzpump",
+      "symbol": "chicky",
+      "name": "chicky",
+      "amount_sold": 792592.4244285469,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T09:58:27.808578+00:00",
+      "exit_time": "2026-08-27T09:59:32.684937+00:00",
+      "entry_price_usd": 6.581566816969083e-06,
+      "exit_price_usd": 2.9272785338695927e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.022241,
+      "pnl_sol": -0.027759,
+      "pnl_pct": -55.52,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "CkXGLkq6o7xuZ6UsuGpdeidM9MwNLYGuEySdeuNDpump",
+      "symbol": "CTREMP",
+      "name": "CRYPTO TREMP",
+      "amount_sold": 4078.406000222026,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T09:53:59.736142+00:00",
+      "exit_time": "2026-08-27T09:59:32.685271+00:00",
+      "entry_price_usd": 1.689e-05,
+      "exit_price_usd": 3.146584273474399e-05,
+      "entry_sol_for_chunk": 0.000659,
+      "exit_sol_received": 0.00123,
+      "pnl_sol": 0.000571,
+      "pnl_pct": 86.3,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T09:58:27.808828+00:00",
+  "last_updated": "2026-08-27T09:59:54.129127+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.33,
-  "portfolio_value_usd": 113.78,
+  "last_sol_price_usd": 104.32,
+  "portfolio_value_usd": 110.93,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 09:53 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Andrea at $2.92171e-06 | P&L: -27.2%",
-      "reason": "$Andrea at -27.2% with pool=$0 is effectively dead liquidity; holding guarantees the -30% hard stop while burning a position slot, exit immediately."
-    },
-    {
-      "time": "2026-08-27 09:53 UTC",
-      "action": "buy",
-      "details": "[LLM] $CTREMP at $1.689e-05, spent 0.05 SOL",
-      "reason": "$CTREMP has the strongest narrative of the batch — Tremp meme branding, a live X account (@CRYPTOTREMP), descriptive pitch, and already $20k mcap at 38% bonding; real attention signal vs the rest."
-    },
-    {
-      "time": "2026-08-27 09:55 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $CTREMP at $2.29783e-05 | P&L: +36.0%",
-      "reason": "Auto take-profit at +36.0%"
-    },
     {
       "time": "2026-08-27 09:55 UTC",
       "action": "sell",
@@ -13473,6 +13467,24 @@
       "action": "buy",
       "details": "[LLM] $chicky at $6.58157e-06, spent 0.05 SOL",
       "reason": "$chicky is the freshest attention token (0.3min, mcap $6.6k, bond 25% already moving) with a named X handle posting about it. Animal-meme + ultra-fresh launch is the classic pump.fun runner setup. Risk: no clear viral trigger yet besides the deployer tweet, ultra-low liquidity."
+    },
+    {
+      "time": "2026-08-27 09:59 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $chicky closed at $2.92728e-06 | P&L: -55.5%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 09:59 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $CTREMP at $3.14658e-05 | P&L: +86.3%",
+      "reason": "Auto take-profit at +86.3%"
+    },
+    {
+      "time": "2026-08-27 09:59 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -13494,41 +13506,41 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T09:58:27.216901+00:00",
+  "last_llm_brief_at": "2026-08-27T09:59:54.128847+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "CkXGLkq6o7xuZ6UsuGpdeidM9MwNLYGuEySdeuNDpump": {
-      "price_usd": 2.9018913044377984e-05,
+      "price_usd": 3.146584273474399e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 6742.111768803321,
-      "volume_h24": 8847.51,
+      "liquidity_usd": 7149.7099988032,
+      "volume_h24": 9275.82,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 64.622944204
+      "real_sol_reserves": 68.53633051
     },
-    "9jaHXNfF4DNyfPgDfMuYEyqdQUBjWF3a7VkhKagFpump": {
-      "price_usd": 4.215405822215213e-05,
+    "6br3gH22y9BK78eNVexB5naBqUysfi1i7q3BJhBhpump": {
+      "price_usd": 6.5808451514935624e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.0,
-      "volume_h24": 39652.47,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": true,
-      "real_sol_reserves": 0.0
-    },
-    "5q4tmhYkRPmv7mHCZfeJ7oNGHWhRHpdqbTDFtVdDSRgb": {
-      "price_usd": 3.0039208632867077e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 46.31092841535,
-      "volume_h24": 2913.08,
+      "liquidity_usd": 1571.34438813824,
+      "volume_h24": 1081.72,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.443888895
+      "real_sol_reserves": 15.062733782
+    },
+    "CtYj1AthgoryxpeX6vHZHVyVTe6J4GqMUJw9UyZzpump": {
+      "price_usd": 2.9272785338695927e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 5.6797848127999995,
+      "volume_h24": 10286.78,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.05444579
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

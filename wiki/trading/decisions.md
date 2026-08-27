@@ -5356,3 +5356,12 @@
 ## [2026-08-27 09:58 UTC] buy | [LLM] $chicky at $6.58157e-06, spent 0.05 SOL
 - **Reasoning:** $chicky is the freshest attention token (0.3min, mcap $6.6k, bond 25% already moving) with a named X handle posting about it. Animal-meme + ultra-fresh launch is the classic pump.fun runner setup. Risk: no clear viral trigger yet besides the deployer tweet, ultra-low liquidity.
 
+## [2026-08-27 09:59 UTC] sell | [hard-stop] $chicky closed at $2.92728e-06 | P&L: -55.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:59 UTC] sell | [TP +30% (25%)] $CTREMP at $3.14658e-05 | P&L: +86.3%
+- **Reasoning:** Auto take-profit at +86.3%
+
+## [2026-08-27 09:59 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
