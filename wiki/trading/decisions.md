@@ -6463,3 +6463,12 @@
 ## [2026-08-27 12:03 UTC] buy | [LLM] $tards  at $8.92106e-06, spent 0.05 SOL
 - **Reasoning:** $tards 'STOP SELLING EVERY RED CAND' is a meta-narrative aimed at exactly this bot/retail crowd, mcap $8.9k is the highest of the fresh batch, and the name is built for viral engagement. Higher hit probability than the $500-$3k mcap noise.
 
+## [2026-08-27 12:04 UTC] sell | [TP +30% (25%)] $tards  at $1.17208e-05 | P&L: +31.4%
+- **Reasoning:** Auto take-profit at +31.4%
+
+## [2026-08-27 12:04 UTC] sell | [FULL][LLM] $CIGR at $3.126e-05 | P&L: -19.5%
+- **Reasoning:** $CIGR down -19.5% and flatlined (▁▁▁▁▁) for 6+ minutes with no bounce signal — sits at the -20% loser-exit threshold. Locking the loss and freeing the slot beats bag-holding a dead chart.
+
+## [2026-08-27 12:04 UTC] buy | [LLM] $FOOD at $6.61917e-06, spent 0.05 SOL
+- **Reasoning:** $FOOD has the strongest narrative of the batch — WatcherGuru (large CT account) is amplifying a 'foodcoin' angle tied to a current food-price story, which is the kind of atttention that pumps 5-10x. Mcap $6.6k with a real X signal beats the generic 0.1min launches; risk is rug/scam but the attention driver justifies a 0.05 SOL position.
+
