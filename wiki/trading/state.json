@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.115274,
+  "balance_sol": 1.127272,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AapBCryn8im6NR9DBeAA2v9yCEM5dcC99tRESiHdpump": {
       "symbol": "ape",
       "name": "just ape",
-      "amount": 1452988.0999084609,
+      "amount": 726494.0499542304,
       "entry_price_usd": 7.647e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T08:58:24.974759+00:00",
       "entry_usd_value": 11.111,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 29.212913888,
         "description": "",
         "twitter": "https://x.com/LevanInSolana/status/2092899276556800178",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "2zGFE9YaUaCiBT87ZxCbVLT3XTgn9ao5c3CMtkW6pump": {
+      "symbol": "BARRON",
+      "name": "Barron Trump",
+      "amount": 1739753.4155281573,
+      "entry_price_usd": 3.001e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-27T09:01:41.543724+00:00",
+      "entry_usd_value": 5.221,
+      "entry_signals": {
+        "liquidity_usd": 63.160092370259996,
+        "volume_24h_usd": 53.09,
+        "market_cap_usd": 3010.0365072537643,
+        "ath_market_cap_usd": 3000.7975976171615,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.604865853,
+        "description": "",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -11722,25 +11744,30 @@
       "pnl_pct": -10.42,
       "exit_reason": "LLM: sell_all — $LIKWELI down -10.4% in <1h on weak pool ($1.1k), no narrative strength and no bounce. Better to free the slot for fresher launches with attention.",
       "partial": false
+    },
+    {
+      "mint": "AapBCryn8im6NR9DBeAA2v9yCEM5dcC99tRESiHdpump",
+      "symbol": "ape",
+      "name": "just ape",
+      "amount_sold": 726494.0499542304,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T08:58:24.974759+00:00",
+      "exit_time": "2026-08-27T09:01:40.857357+00:00",
+      "entry_price_usd": 7.647e-06,
+      "exit_price_usd": 8.9110304044947e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.061998,
+      "pnl_sol": 0.036998,
+      "pnl_pct": 16.53,
+      "exit_reason": "LLM: sell_half — Up +16.5% on a fresh bonding-curve position with only $2340 pool liquidity — take half off the table to lock in gains and reduce exposure to a thin po",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T09:00:02.986549+00:00",
+  "last_updated": "2026-08-27T09:01:41.544208+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.65,
-  "portfolio_value_usd": 127.82,
+  "last_sol_price_usd": 104.42,
+  "portfolio_value_usd": 128.49,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 08:55 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $computa at $9.80204e-06 | P&L: +54.4%",
-      "reason": "$computa up54.4% already past +50% TP threshold - bot should auto-exit half but locking the other half is wise too given fresh slate and need to free capital for fresh attention plays."
-    },
-    {
-      "time": "2026-08-27 08:55 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Finley at $4.93894e-06 | P&L: +56.6%",
-      "reason": "$Finley up 56.6% past +50% TP - take the win. Pool only $941 is thin, giving back gains fast. Capital better deployed in fresh attention plays below."
-    },
     {
       "time": "2026-08-27 08:55 UTC",
       "action": "buy",
@@ -11848,84 +11875,52 @@
       "action": "sell",
       "details": "[FULL][LLM] $LIKWELI at $5.39809e-06 | P&L: -10.4%",
       "reason": "$LIKWELI down -10.4% in <1h on weak pool ($1.1k), no narrative strength and no bounce. Better to free the slot for fresher launches with attention."
+    },
+    {
+      "time": "2026-08-27 09:01 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $ape at $8.91103e-06 | P&L: +16.5%",
+      "reason": "Up +16.5% on a fresh bonding-curve position with only $2340 pool liquidity — take half off the table to lock in gains and reduce exposure to a thin pool where any seller wicks the price. Reinvest the other half only if it breaks out of bonding curve with momentum."
+    },
+    {
+      "time": "2026-08-27 09:01 UTC",
+      "action": "buy",
+      "details": "[LLM] $BARRON at $3.001e-06, spent 0.05 SOL",
+      "reason": "Barron Trump rides the Trump family attention engine which is in overdrive in current political cycle — political memecoins reliably pump on any Trump-related news cycle. $3k mcap, 1% bonding = very early. Risk: political tokens get rugged fast when news cycle shifts; thin liquidity means violent swings both ways."
     }
   ],
   "trade_stats": {
-    "total": 688,
-    "wins": 341,
+    "total": 689,
+    "wins": 342,
     "losses": 347,
     "win_rate_pct": 49.6,
-    "total_pnl_sol": -0.734717,
-    "avg_pnl_pct": 54.29,
+    "total_pnl_sol": -0.697719,
+    "avg_pnl_pct": 54.23,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 147,
-    "today_realized_sol": 0.697512,
-    "today_target_pct": 174.4,
+    "today_trades": 148,
+    "today_realized_sol": 0.73451,
+    "today_target_pct": 183.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 341,
+      "win_count": 342,
       "loss_count": 347,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T09:00:02.671790+00:00",
+  "last_llm_brief_at": "2026-08-27T09:01:40.857319+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "68VL3ExDovz22rN1nNfy2MKwtNC6SpxJt3E4Kpujpump": {
-      "price_usd": 4.726495077078152e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 850.7463737272501,
-      "volume_h24": 34216.89,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 8.129444565
-    },
-    "2VZyDFxwegs3ArtWRzLc6kAU6wdcWrWdTDbeWku2pump": {
-      "price_usd": 6.617171716999548e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1581.8512121685,
-      "volume_h24": 40218.38,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 15.11563509
-    },
     "AapBCryn8im6NR9DBeAA2v9yCEM5dcC99tRESiHdpump": {
-      "price_usd": 8.554888091027223e-06,
+      "price_usd": 8.9110304044947e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2228.8061095846,
-      "volume_h24": 20501.59,
+      "liquidity_usd": 2340.2846758846804,
+      "volume_h24": 30562.84,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 21.297717244
-    },
-    "4WGqXcM1aqijYJ3oaLmgtWdQnkoK9rySWwokU1wZpump": {
-      "price_usd": 5.398088704464172e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1124.823205779,
-      "volume_h24": 7346.34,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 10.74843006
-    },
-    "DKiCopgooYRQ3ChoVEjVZUUmSRhhr1owiXcThWmLpump": {
-      "price_usd": 2.9840042278202433e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 31.015069954050006,
-      "volume_h24": 1174.12,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.296369517
+      "real_sol_reserves": 22.412226354
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

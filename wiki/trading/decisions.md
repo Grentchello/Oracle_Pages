@@ -4882,3 +4882,9 @@
 ## [2026-08-27 09:00 UTC] sell | [FULL][LLM] $LIKWELI at $5.39809e-06 | P&L: -10.4%
 - **Reasoning:** $LIKWELI down -10.4% in <1h on weak pool ($1.1k), no narrative strength and no bounce. Better to free the slot for fresher launches with attention.
 
+## [2026-08-27 09:01 UTC] sell | [PARTIAL][LLM] $ape at $8.91103e-06 | P&L: +16.5%
+- **Reasoning:** Up +16.5% on a fresh bonding-curve position with only $2340 pool liquidity — take half off the table to lock in gains and reduce exposure to a thin pool where any seller wicks the price. Reinvest the other half only if it breaks out of bonding curve with momentum.
+
+## [2026-08-27 09:01 UTC] buy | [LLM] $BARRON at $3.001e-06, spent 0.05 SOL
+- **Reasoning:** Barron Trump rides the Trump family attention engine which is in overdrive in current political cycle — political memecoins reliably pump on any Trump-related news cycle. $3k mcap, 1% bonding = very early. Risk: political tokens get rugged fast when news cycle shifts; thin liquidity means violent swings both ways.
+
