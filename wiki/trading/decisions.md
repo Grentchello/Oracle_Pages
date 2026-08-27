@@ -5620,3 +5620,12 @@
 ## [2026-08-27 10:25 UTC] sell | [TP +30% (25%)] $ANTSEM at $1.90971e-05 | P&L: +94.2%
 - **Reasoning:** Auto take-profit at +94.2%
 
+## [2026-08-27 10:25 UTC] sell | [PARTIAL][LLM] $ANTSEM at $1.90971e-05 | P&L: +94.2%
+- **Reasoning:** +$94% is a great gain but well below +100% auto-TP. Narrative 'ANTSEM' isn't immediately viral, pool is thin ($4877), and we're up nearly 2x — bank half and let the rest ride to $0.00003 or stop.
+
+## [2026-08-27 10:25 UTC] sell | [FULL][LLM] $pump.fun at $2.91221e-06 | P&L: -25.9%
+- **Reasoning:** -25.9% and near the -30% hard stop. Pool=$0 means no real liquidity, 'pump.fun' as a ticker is weak narrative, and our share=371685282% suggests we hold a massive % of a dead pool. Cut immediately.
+
+## [2026-08-27 10:25 UTC] buy | [LLM] $GLIRAP at $3.80675e-06, spent 0.05 SOL
+- **Reasoning:** $GLIRAP 'Glitched Raptor / SIGMA BOY' — sigma boy meta is genuinely trending right now, narrative is concrete ('runs to highest point'), and mcap is only $3.8k with 9% bonded meaning massive upside if it catches. $sigma entry below is duplicate narrative but this one has the 'Glitched Raptor' wrapper.
+
