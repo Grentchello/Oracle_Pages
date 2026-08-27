@@ -6913,3 +6913,12 @@
 ## [2026-08-27 12:59 UTC] buy | [LLM] $lightning at $4.037e-06, spent 0.05 SOL
 - **Reasoning:** $lightning launched from uxento discord — coordinated launches create FOMO clusters. 'fuck you lightning' is crude/edgy which travels on CT. Small size, asymmetric upside.
 
+## [2026-08-27 12:59 UTC] sell | [PARTIAL][LLM] $RISE at $7.27496e-06 | P&L: +41.0%
+- **Reasoning:** Up +41% already past first TP. Pool only $1812, still bonding curve, our0% share means tiny size — lock the gain on half, let the rest ride if narrative holds.
+
+## [2026-08-27 12:59 UTC] sell | [FULL][LLM] $Rei at $3.35972e-06 | P&L: -20.9%
+- **Reasoning:** Down -20.9% on a $227 pool token held 0h — illiquid, no bounce signal, below my 5x liquidity rule. -20% becomes -50% fast. Cut and rotate.
+
+## [2026-08-27 12:59 UTC] buy | [LLM] $RHYS at $3.05703e-06, spent 0.05 SOL
+- **Reasoning:** $RHYS 'Saved By ChatGPT' — ChatGPT-attribution narrative is timely and the X author is the same one driving attention on the duplicate $Rhys launches. Bonding2%, mcap $3k, very early. Risk: liquidity thin and duplicate launches dilute attention, but asymmetric if one catches.
+
