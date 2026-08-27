@@ -4027,3 +4027,15 @@
 ## [2026-08-27 03:40 UTC] sell | [FULL][LLM] $bread at $2.95454e-06 | P&L: -31.0%
 - **Reasoning:** $bread is -31% with no bounce signal and only $65 pool liquidity (we own 11% — extremely illiquid). Per loser discipline, exit before it hits -50% hard stop. -20% losers become -50% quickly.
 
+## [2026-08-27 03:41 UTC] sell | [PARTIAL][LLM] $1SOL at $3.39666e-06 | P&L: -3.1%
+- **Reasoning:** Down 3.1% after only 6min — not catastrophic but the position is flat-to-negative with no momentum. Trim half to lock in remaining SOL and free a slot; let the rest ride to either bounce or stop.
+
+## [2026-08-27 03:41 UTC] buy | [LLM] $Business at $1.03043e-05, spent 0.1 SOL
+- **Reasoning:** $Business/Monkey Business — highest mcap ($10k) of the fresh batch with a CoachPat NFT tweet attached. Coach Pat has cult memecoin credibility, narrative reads as viral, bond 32% (leading). Take 0.1 SOL.
+
+## [2026-08-27 03:41 UTC] buy | [LLM] $Trade4Me at $8.57727e-06, spent 0.1 SOL
+- **Reasoning:** $Trade4Me — explicit meta-narrative ('four grok bots trade for holders') with a dedicated X account (@TradeFourMe). AI-trading-bot meta is hot right now and the description is deliberately viral. 0.1 SOL.
+
+## [2026-08-27 03:41 UTC] buy | [LLM] $Fomo Lisa at $4.9216e-06, spent 0.1 SOL
+- **Reasoning:** $Fomo Lisa — self-aware FOMO meta-coin with active X account @Fomolisa_ and 'fomo.family' community angle. Lowest mcap of the attention-backed tokens = most room if it catches. 0.1 SOL.
+
