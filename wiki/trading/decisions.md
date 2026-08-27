@@ -6280,3 +6280,15 @@
 ## [2026-08-27 11:42 UTC] buy | [LLM] $GOYPLUG at $3.355e-06, spent 0.05 SOL
 - **Reasoning:** $GOYPLUG — political shock humor with RT_com tweet backing, exactly the kind of edgy narrative that pumps on attention. $3.3k mcap at 0.6min age = very early. Risk: edgy political content can get rugged/flagged, but the attention signal is real and fresh.
 
+## [2026-08-27 11:44 UTC] sell | [FULL][LLM] $MORTY at $3.67237e-06 | P&L: -5.5%
+- **Reasoning:** $MORTY is -5.5% with flat/down price action over the last minute and tiny $387 pool. No bounce signal, no catalyst, low liquidity. Exit and free the slot.
+
+## [2026-08-27 11:44 UTC] buy | [LLM] $pigeon at $4.47881e-06, spent 0.05 SOL
+- **Reasoning:** $pigeon — 'unpeaceful pigeon' narrative has a live tweet source (memedevfun) and is the highest-mcap fresh launch at $4.4k with 16% bonding. Pigeon memes historically do well; take a 0.05 SOL position.
+
+## [2026-08-27 11:44 UTC] buy | [LLM] $TREMP at $2.98286e-06, spent 0.05 SOL
+- **Reasoning:** $TREMP — political parody memecoin with a real X post (realTuckFrumper) is classic viral-attention setup. $3k mcap, fresh, easy 3-10x candidate if it catches a wave.
+
+## [2026-08-27 11:44 UTC] buy | [LLM] $CAR at $3.03925e-06, spent 0.05 SOL
+- **Reasoning:** $CAR / KITTY KAT — 'TUFF CAR' simple-emoji narrative + X presence at $3k mcap. Animal/vehicle memes pump on attention; small position warranted.
+
