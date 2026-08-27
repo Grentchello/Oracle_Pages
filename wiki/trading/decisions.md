@@ -6166,3 +6166,12 @@
 ## [2026-08-27 11:24 UTC] buy | [LLM] $Huggy at $4.17167e-06, spent 0.05 SOL
 - **Reasoning:** $Huggy — 0.1min old (ultra-fresh attention window), $4.1k mcap with 14% bond. Character-coin meta ('Huggy') has historical virality (Huggy Wuggy cycle). Twitter link present. Second-best narrative+timing combo. 0.05 SOL size, sized small because brand-of-name carries trademark risk.
 
+## [2026-08-27 11:25 UTC] sell | [hard-stop] $WINDOWS closed at $2.92647e-06 | P&L: -41.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:26 UTC] sell | [FULL][LLM] $Huggy at $3.00404e-06 | P&L: -28.0%
+- **Reasoning:** At -28% with only $41 pool liquidity and 9% of pool being our position, the -30% hard stop is imminent and thin liquidity will make the stop fill worse than -30%. Cut now, take the controlled -28%, free the slot.
+
+## [2026-08-27 11:26 UTC] buy | [LLM] $NIGGA at $8.324e-06, spent 0.05 SOL
+- **Reasoning:** $NIGGA (Nigga Obama) has the strongest attention signal of the batch: viral 'followed by Barack Obama' narrative on X, $8k mcap with 28% bonding-curve progress (highest of all candidates, meaning real buyers are committing), and meme name with built-in shock value. Attention markets reward this kind of catalyst. Risk: sub-$10k mcap means high rug/dump risk, but the Obama narrative is a clear viral wedge.
+
