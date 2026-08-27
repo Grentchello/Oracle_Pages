@@ -7093,3 +7093,15 @@
 ## [2026-08-27 13:20 UTC] buy | [LLM] $SOLANA at $6.27005e-06, spent 0.05 SOL
 - **Reasoning:** $SOLANA 'The Everything Asset' is the meta-trade on Solana itself — if SOL pumps, this likely catches a sympathy bid. Sub-$10k mcap, sub-1min old, bonded at 24%, classic meme-of-the-chain play.
 
+## [2026-08-27 13:21 UTC] sell | [hard-stop] $SOLMONEY closed at $3.07627e-06 | P&L: -50.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:21 UTC] sell | [hard-stop] $SOLANA closed at $2.92348e-06 | P&L: -53.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:22 UTC] buy | [LLM] $MEGADUCK at $6.63838e-06, spent 0.05 SOL
+- **Reasoning:** Yacine MTB tweet — he's a high-reach crypto KOL with track record of moving small caps. $6.6k mcap at 0.3min age = classic post-launch entry before curve fills. Tight stop at -30% protects the downside; narrative is the attention, not the fundamentals.
+
+## [2026-08-27 13:22 UTC] buy | [LLM] $KGDZ at $3.81041e-06, spent 0.05 SOL
+- **Reasoning:** $KGDZ 'KING GODZILLA' has a story-driven description ('ultimate community coin for legends... survive the bea[st]') and a real X account @RealGodz1lla. $3.8k mcap at 0.3min — asymmetric upside if the narrative catches. Second small bet to diversify attention exposure this tick.
+
