@@ -4270,3 +4270,6 @@
 ## [2026-08-27 07:41 UTC] sell | [FULL][LLM] $Eugene at $3.21576e-06 | P&L: -0.0%
 - **Reasoning:** $Eugene flat (-0.0%) with only $199 pool and 5% of it — our position is ~$10 of a $199 pool, exit liquidity is fragile. Not up >10% after being held, and stale risk + thin pool = cut and rotate.
 
+## [2026-08-27 07:43 UTC] buy | [LLM] $bodycam at $2.84e-06, spent 0.1 SOL
+- **Reasoning:** STRONG narrative: 'bodycam' is a genuinely viral FPS game trending on X (marionawfal post), $2,878 mcap with only 1% bond = very early. Memecoins keyed to real-world viral products pump hardest. 0.1 SOL.
+
