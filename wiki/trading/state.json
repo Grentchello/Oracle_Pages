@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.859372,
+  "balance_sol": 0.886108,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "3M2XczYGATTGrCguXLew5vHUvMDsZoRpTKZBRgwPpump": {
       "symbol": "RISE",
       "name": "RISE",
-      "amount": 71196.45823878357,
+      "amount": 26698.671839543837,
       "entry_price_usd": 5.160127646628802e-06,
-      "entry_sol_spent": 0.0035156250000000005,
+      "entry_sol_spent": 0.001318359375,
       "entry_time": "2026-08-27T12:56:55.806910+00:00",
       "entry_usd_value": 5.2250000000000005,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 10.032305628,
         "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. GL. ",
         "twitter": "https://x.com/_rise",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "2tpJN4Dsyp7sLeYfLnu72ayAHFHnjtWBLeDCsji7pump": {
-      "symbol": "PENNY",
-      "name": "Penny",
-      "amount": 559518.2923648504,
-      "entry_price_usd": 9.326772817281054e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T13:01:08.899343+00:00",
-      "entry_usd_value": 5.218500000000001,
-      "entry_signals": {
-        "liquidity_usd": 715.81886938422,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9378.849671761594,
-        "ath_market_cap_usd": 14476.852410440668,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 6.858473406,
-        "description": "",
-        "twitter": "https://twitter.com/CincinnatiZoo/status/2092960431795040274",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -18799,31 +18777,64 @@
       "pnl_pct": 60.98,
       "exit_reason": "LLM: sell_half — $RISE at +61% has crossed the +50% auto-TP threshold. Lock half the gain, let the other half ride the bonding curve. Already past the point of hope — ",
       "partial": true
+    },
+    {
+      "mint": "2tpJN4Dsyp7sLeYfLnu72ayAHFHnjtWBLeDCsji7pump",
+      "symbol": "PENNY",
+      "name": "Penny",
+      "amount_sold": 559518.2923648504,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T13:01:08.899343+00:00",
+      "exit_time": "2026-08-27T13:02:12.897111+00:00",
+      "entry_price_usd": 9.326772817281054e-06,
+      "exit_price_usd": 4.328368738034427e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.023168,
+      "pnl_sol": -0.026832,
+      "pnl_pct": -53.59,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "3M2XczYGATTGrCguXLew5vHUvMDsZoRpTKZBRgwPpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 17799.114559695892,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T12:56:55.806910+00:00",
+      "exit_time": "2026-08-27T13:02:12.897794+00:00",
+      "entry_price_usd": 5.160127646628802e-06,
+      "exit_price_usd": 8.380653470597003e-06,
+      "entry_sol_for_chunk": 0.000879,
+      "exit_sol_received": 0.001427,
+      "pnl_sol": 0.000548,
+      "pnl_pct": 62.41,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "3M2XczYGATTGrCguXLew5vHUvMDsZoRpTKZBRgwPpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 26698.671839543837,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T12:56:55.806910+00:00",
+      "exit_time": "2026-08-27T13:02:27.052593+00:00",
+      "entry_price_usd": 5.160127646628802e-06,
+      "exit_price_usd": 8.380653470597003e-06,
+      "entry_sol_for_chunk": 0.001318,
+      "exit_sol_received": 0.002141,
+      "pnl_sol": 0.000822,
+      "pnl_pct": 62.41,
+      "exit_reason": "LLM: sell_half — RISE is up +62% already past the +50% TP threshold with a tiny $2.1k pool — the kind of parabolic move that reverts hard. Take half off the table to l",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T13:01:08.899730+00:00",
+  "last_updated": "2026-08-27T13:02:27.646994+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.37,
-  "portfolio_value_usd": 95.28,
+  "last_sol_price_usd": 104.53,
+  "portfolio_value_usd": 92.76,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 12:56 UTC",
-      "action": "buy",
-      "details": "[LLM] $XCOIN at $7.7529e-06, spent 0.05 SOL",
-      "reason": "$XCOIN has the strongest narrative on the board — Twitter/X reportedly launching a creator coin is a massive platform-level catalyst with viral potential. $7.8k mcap, real news hook, 0.4min old."
-    },
-    {
-      "time": "2026-08-27 12:56 UTC",
-      "action": "buy",
-      "details": "[LLM] $RISE at $5.16013e-06, spent 0.05 SOL",
-      "reason": "$RISE has a concrete attention mechanic — 60% airdrop to top 15 holders creates forced buying and holder competition, classic pump.fun retention play. Fresh, $5.2k mcap, has X account."
-    },
-    {
-      "time": "2026-08-27 12:58 UTC",
-      "action": "sell",
-      "details": "[TP +100% (50%)] $XCOIN at $1.62043e-05 | P&L: +109.0%",
-      "reason": "Auto take-profit at +109.0%"
-    },
     {
       "time": "2026-08-27 12:58 UTC",
       "action": "sell",
@@ -18925,51 +18936,69 @@
       "action": "buy",
       "details": "[LLM] $PENNY at $9.32677e-06, spent 0.05 SOL",
       "reason": "$PENNY lead mint at $9.4k mcap / 31% bonded — viral Cincinnati Zoo 'Penny the penguin' tweet is real attention. Highest bonding curve progress in cluster signals organic buy pressure, not just snipers. 0.05 SOL — asymmetric upside on a clear narrative, risk capped at -30%."
+    },
+    {
+      "time": "2026-08-27 13:02 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $PENNY closed at $4.32837e-06 | P&L: -53.6%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 13:02 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $RISE at $8.38065e-06 | P&L: +62.4%",
+      "reason": "Auto take-profit at +62.4%"
+    },
+    {
+      "time": "2026-08-27 13:02 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RISE at $8.38065e-06 | P&L: +62.4%",
+      "reason": "RISE is up +62% already past the +50% TP threshold with a tiny $2.1k pool — the kind of parabolic move that reverts hard. Take half off the table to lock the +62% gain, let the rest ride with a free mental stop."
     }
   ],
   "trade_stats": {
-    "total": 1103,
-    "wins": 581,
-    "losses": 522,
+    "total": 1106,
+    "wins": 583,
+    "losses": 523,
     "win_rate_pct": 52.7,
-    "total_pnl_sol": -0.987102,
-    "avg_pnl_pct": 44.57,
+    "total_pnl_sol": -1.012564,
+    "avg_pnl_pct": 44.52,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 562,
-    "today_realized_sol": 0.445127,
-    "today_target_pct": 111.3,
+    "today_trades": 565,
+    "today_realized_sol": 0.419665,
+    "today_target_pct": 104.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 581,
-      "loss_count": 522,
+      "win_count": 583,
+      "loss_count": 523,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T13:01:08.587817+00:00",
+  "last_llm_brief_at": "2026-08-27T13:02:27.052063+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "3M2XczYGATTGrCguXLew5vHUvMDsZoRpTKZBRgwPpump": {
-      "price_usd": 8.306848421314989e-06,
+      "price_usd": 8.380653470597003e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2151.7280246097303,
-      "volume_h24": 2101.59,
+      "liquidity_usd": 2174.41037604923,
+      "volume_h24": 2384.86,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 20.616345929
+      "real_sol_reserves": 20.801782991
     },
-    "9inDkxYr2tgZAwcAyLeyUeJiCvzU6NCp9J1tRGPnRUu": {
-      "price_usd": 2.9555823473128742e-06,
+    "2tpJN4Dsyp7sLeYfLnu72ayAHFHnjtWBLeDCsji7pump": {
+      "price_usd": 4.328368738034427e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 20.055697973850002,
-      "volume_h24": 2673.72,
+      "liquidity_usd": 680.40512341591,
+      "volume_h24": 27209.35,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.192159605
+      "real_sol_reserves": 6.509185147
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

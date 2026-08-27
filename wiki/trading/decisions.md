@@ -6934,3 +6934,12 @@
 ## [2026-08-27 13:01 UTC] buy | [LLM] $PENNY at $9.32677e-06, spent 0.05 SOL
 - **Reasoning:** $PENNY lead mint at $9.4k mcap / 31% bonded — viral Cincinnati Zoo 'Penny the penguin' tweet is real attention. Highest bonding curve progress in cluster signals organic buy pressure, not just snipers. 0.05 SOL — asymmetric upside on a clear narrative, risk capped at -30%.
 
+## [2026-08-27 13:02 UTC] sell | [hard-stop] $PENNY closed at $4.32837e-06 | P&L: -53.6%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:02 UTC] sell | [TP +30% (25%)] $RISE at $8.38065e-06 | P&L: +62.4%
+- **Reasoning:** Auto take-profit at +62.4%
+
+## [2026-08-27 13:02 UTC] sell | [PARTIAL][LLM] $RISE at $8.38065e-06 | P&L: +62.4%
+- **Reasoning:** RISE is up +62% already past the +50% TP threshold with a tiny $2.1k pool — the kind of parabolic move that reverts hard. Take half off the table to lock the +62% gain, let the rest ride with a free mental stop.
+
