@@ -6382,3 +6382,18 @@
 ## [2026-08-27 11:53 UTC] sell | [PARTIAL][LLM] $UNYIL at $1.728e-05 | P&L: +139.4%
 - **Reasoning:** UNYIL +139% with thin pool ($4.4k) and 0% share — this is a pump-and-vanish setup on a bonding curve. Lock half the gain at +25% TP territory; ride the rest with a tight mental stop.
 
+## [2026-08-27 11:55 UTC] sell | [TP +100% (50%)] $UNYIL at $1.7584e-05 | P&L: +143.6%
+- **Reasoning:** Auto take-profit at +143.6%
+
+## [2026-08-27 11:55 UTC] sell | [PARTIAL][LLM] $UNYIL at $1.7584e-05 | P&L: +143.6%
+- **Reasoning:** +143.6% in 6 minutes is a parabolic move on a $4552 pool — classic pump-and-dump setup. Sell half to lock in gains (~$7 profit), let the rest ride with a mental stop at entry. Bonding curve tokens rug hard once early buyers rotate out.
+
+## [2026-08-27 11:55 UTC] sell | [FULL][LLM] $BULLIO at $1.42027e-05 | P&L: +1.1%
+- **Reasoning:** +1.1% after entry, flat price action on $3775 pool, no momentum signal. Capital is better deployed in fresh attention. Stale flat positions are the worst — they tie up slots without paying.
+
+## [2026-08-27 11:55 UTC] buy | [LLM] $BONGO at $3.95374e-06, spent 0.05 SOL
+- **Reasoning:** $BONGO (Bongo The Ape) has its own dedicated twitter account (@Bongoxsol) — that shows the deployer is building a brand, not just sniping. Animal meme + dedicated handle = attention infrastructure. Risk: 0.5min old, $3955 mcap, very early — but that's where the 10x lives.
+
+## [2026-08-27 11:55 UTC] buy | [LLM] $Phonzi at $3.08275e-06, spent 0.05 SOL
+- **Reasoning:** $Phonzi has a creator-branded twitter (@PhonziPF) and is 0.6min old. The 'Phonzi' name is unusual/memorable — good attention hook. Low bond % (3%) means we're early to the curve. Risk: small pool, unproven narrative.
+
