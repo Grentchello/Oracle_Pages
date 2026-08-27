@@ -4339,3 +4339,9 @@
 ## [2026-08-27 07:55 UTC] buy | [LLM] $NSIDIA at $6.27349e-06, spent 0.1 SOL
 - **Reasoning:** $NSIDIA is a classic NVIDIA parody by a specific X account (MarioPrezidente) — attention markets love ticker-similarity plays. Sub-$10k mcap entry.
 
+## [2026-08-27 07:56 UTC] sell | [hard-stop] $NSIDIA closed at $2.92902e-06 | P&L: -53.3%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 07:57 UTC] buy | [LLM] $Elephants at $6.74699e-06, spent 0.1 SOL
+- **Reasoning:** $Elephants — Odyssey narrative tied to today's $SCRWAR 'Odysseus' theme, InfraV2 X post providing attention seed. Highest mcap of the fresh batch ($6.7k) = already attracting real bids.
+
