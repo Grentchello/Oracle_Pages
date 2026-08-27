@@ -2473,3 +2473,24 @@
 ## [2026-08-27 00:35 UTC] buy | [LLM] $PHAMON at $4.37083e-06, spent 0.1 SOL
 - **Reasoning:** $PHAMON claims 'most viral meme token out there' with a Pepe Tod angle — that's confident narrative energy. $4.3k mcap,0.3min old, attention-launched. Worth a 0.1 SOL degen shot.
 
+## [2026-08-27 00:36 UTC] sell | [FULL][LLM] $PHAMON at $3.575e-07 | P&L: -91.8%
+- **Reasoning:** PHAMON at -91.8% is far past the -50% hard cap and 24h trend is -87.4%. Cut the bleed immediately, free the slot.
+
+## [2026-08-27 00:36 UTC] sell | [FULL][LLM] $APE at $3.388e-06 | P&L: -62.4%
+- **Reasoning:** APE at -62.4% breaches the -50% hard cap. 24h only +2.3% despite being held — momentum is dead, exit now.
+
+## [2026-08-27 00:36 UTC] sell | [PARTIAL][LLM] $Po at $1.161e-05 | P&L: -3.8%
+- **Reasoning:** Po at -3.8% but 24h shows +241% — token ran hard and is mid-pullback. Lock in half to recover cost basis, let the rest ride the rebound if it continues.
+
+## [2026-08-27 00:36 UTC] sell | [FULL][LLM] $Jotchua at $3.562e-06 | P&L: -0.3%
+- **Reasoning:** Jotchua at -0.3% with weak +11% 24h is dead weight. Free the slot for a higher-attention new launch.
+
+## [2026-08-27 00:36 UTC] buy | [LLM] $LARRY at $3.014e-06, spent 0.1 SOL
+- **Reasoning:** $LARRY — real viral story: 19-year-old Larry the Cat attending his 7th UK Prime Minister cabinet meeting is genuine mainstream news attention, exactly the kind of catalyst that pumps memecoins. Cat-meta is hot. Risk: bond only 3%, very early.
+
+## [2026-08-27 00:36 UTC] buy | [LLM] $wifmoney at $5.82209e-06, spent 0.1 SOL
+- **Reasoning:** $wifmoney — degenerate 'cat wif money' riff on the proven dog/cat-meta formula. Pure attention-bait name designed to attract CT degens. Fresh at 0.1min, mcap only $5.8k = lots of room. Risk: no twitter engagement data shown, narrative depends on the meta alone.
+
+## [2026-08-27 00:36 UTC] buy | [LLM] $TOKEN at $1.881e-05, spent 0.1 SOL
+- **Reasoning:** $TOKEN — AI trading-agent meta is the current meta-narrative (ClawPump, ai16z, aixbt all running). Trading-agent tokenized agents have a hungry audience. Risk: meta-ai tokens are crowded and rug-prone, small float.
+
