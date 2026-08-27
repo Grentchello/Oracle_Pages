@@ -4237,3 +4237,6 @@
 ## [2026-08-27 07:35 UTC] sell | [FULL][LLM] $TTT at $8.22772e-06 | P&L: +43.7%
 - **Reasoning:** $TTT is up +43.7% already — this exceeds the +30% take-profit threshold. Lock the gain immediately. Pool is thin ($2140), retrace risk is high.
 
+## [2026-08-27 07:36 UTC] sell | [FULL][LLM] $TTT at $7.75232e-06 | P&L: +35.4%
+- **Reasoning:** $TTT is +35.4% past the +30% auto-TP threshold and pool is thin ($1989). Per discipline rules, when up >20% with thin liquidity and unclear continuation, lock the gain. Don't hope — rotate capital.
+
