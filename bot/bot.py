@@ -563,8 +563,6 @@ Most memecoin traders hold for seconds to minutes. The fastest money is in fresh
 
 **Default bias: take the trade.** If you're up >15% and unsure, take profit. If you're at break-even and nothing's moving, exit. Capital rotation beats bag-holding.
 
-No prior trades — fresh slate.
-
 # Current state
 - SOL free: {state.get('balance_sol', 0):.4f} SOL (${state.get('balance_sol', 0) * sol_price:.2f})
 - Open positions: {len(held)}/{MAX_POSITIONS}

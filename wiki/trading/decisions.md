@@ -3754,3 +3754,21 @@
 ## [2026-08-27 03:09 UTC] buy | [LLM] $MARTINBOT at $5.96765e-06, spent 0.1 SOL
 - **Reasoning:** $MARTINBOT has a dedicated account (@MartinBotSOL) — that suggests an actual narrative/brand being built, not just a random launch. Attention with intent.
 
+## [2026-08-27 03:10 UTC] sell | [FULL][LLM] $Topblast at $2.89749e-06 | P&L: -71.9%
+- **Reasoning:** $Topblast is down -71.9% with only $38 pool liquidity. This is below the -50% hard stop line — bot should auto-close, but if not, exit immediately. Dead liquidity, no bounce possible.
+
+## [2026-08-27 03:10 UTC] sell | [FULL][LLM] $CASH at $1.42264e-05 | P&L: -18.9%
+- **Reasoning:** $CASH down -18.9% with $3771 pool. Approaching the danger zone — losers at -20%+ typically accelerate to -50%. Cut now, free the slot.
+
+## [2026-08-27 03:10 UTC] sell | [FULL][LLM] $WOTARD at $9.6535e-06 | P&L: -19.8%
+- **Reasoning:** $WOTARD down -19.8%, near the -20% exit threshold. No clear bounce signal in 0.0h held. Exit before it gets worse.
+
+## [2026-08-27 03:10 UTC] sell | [FULL][LLM] $MARTINBOT at $2.99674e-06 | P&L: -49.8%
+- **Reasoning:** $MARTINBOT at -49.8% — right at the -50% hard stop. Only $90 pool, our share is 6%, illiquid death. Exit now.
+
+## [2026-08-27 03:10 UTC] buy | [LLM] $CLAUDE at $5.6841e-06, spent 0.1 SOL
+- **Reasoning:** $CLAUDE (Anthropic Claude AI branding) is 0.1min old, $5,683 mcap, 23% bonded — riding the 'Opus 5 self-portrait' viral thread from @repligate. AI meta narrative is hot today. Early entry at sub-$6k mcap.
+
+## [2026-08-27 03:10 UTC] buy | [LLM] $OPUS at $8.91979e-06, spent 0.1 SOL
+- **Reasoning:** $OPUS (Opus 5) at $8,918 mcap, 0.2min old — top of the new-launch attention list. Same viral thread (Opus 5 self-portrait). 30% bonded already showing demand. AI narrative strong.
+
