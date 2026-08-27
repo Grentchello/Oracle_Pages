@@ -6397,3 +6397,21 @@
 ## [2026-08-27 11:55 UTC] buy | [LLM] $Phonzi at $3.08275e-06, spent 0.05 SOL
 - **Reasoning:** $Phonzi has a creator-branded twitter (@PhonziPF) and is 0.6min old. The 'Phonzi' name is unusual/memorable — good attention hook. Low bond % (3%) means we're early to the curve. Risk: small pool, unproven narrative.
 
+## [2026-08-27 11:56 UTC] sell | [TP +100% (50%)] $UNYIL at $1.57394e-05 | P&L: +118.0%
+- **Reasoning:** Auto take-profit at +118.0%
+
+## [2026-08-27 11:56 UTC] sell | [FULL][LLM] $UNYIL at $1.57394e-05 | P&L: +118.0%
+- **Reasoning:** $UNYIL is up +118% and past the +100% TP threshold. Lock the gains immediately — don't give back a 2x winner hoping for more. The bot should have auto-TP'd; if it's still here I want out now.
+
+## [2026-08-27 11:56 UTC] sell | [FULL][LLM] $BONGO at $3.00666e-06 | P&L: -23.9%
+- **Reasoning:** $BONGO is -24% with only $55 pool liquidity and 0.0h held. Approaching -30% hard stop, no bounce signal, and the pool is so thin it could gap through the stop. Cut it clean.
+
+## [2026-08-27 11:56 UTC] sell | [FULL][LLM] $Phonzi at $3.03646e-06 | P&L: -1.5%
+- **Reasoning:** $Phonzi is flat-to-slightly-down after 0.0h with only $70 pool liquidity. No momentum, no narrative edge apparent, and thin liquidity means exit gets worse by the minute. Free the slot.
+
+## [2026-08-27 11:56 UTC] buy | [LLM] $Buly at $3.938e-06, spent 0.05 SOL
+- **Reasoning:** $Buly has the clearest attention signal in this batch: 'buly gonna follow Ansem' — Ansem is a top-3 memecoin CT account with massive distribution. 0.05 SOL size, fresh launch, narrative is exactly the kind that 5-10x's on a single viral reply.
+
+## [2026-08-27 11:56 UTC] buy | [LLM] $Desi at $8.766e-06, spent 0.05 SOL
+- **Reasoning:** $Desi (Unbothered Badger) — 'going viral' claim, highest mcap of fresh launches at $8.7k, has a meme-able character mascot. Animal memes with personality travel well on CT. Small size, tight stop.
+
