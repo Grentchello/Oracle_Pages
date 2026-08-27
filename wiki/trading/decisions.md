@@ -5137,3 +5137,9 @@
 ## [2026-08-27 09:32 UTC] buy | [LLM] $NSC at $7.67331e-06, spent 0.05 SOL
 - **Reasoning:** $NSC (Navy Seal Copypasta) has the strongest viral narrative in the batch — copypasta is genuinely elite-tier internet culture with massive organic shareability. Bonding curve already 28% complete in <1min confirms real flow, not just deployer wash. X link live. Mcap $7.6k is the sweet spot for 5-10x potential. Risk: narrative is well-known so copycat tokens may fragment attention, but NSC has the first-mover claim on this naming.
 
+## [2026-08-27 09:33 UTC] sell | [PARTIAL][LLM] $BILL at $5.48421e-06 | P&L: +18.1%
+- **Reasoning:** $BILL up +18.1% with pool of only $1155 (well below 5x position). Microcap with no volume confirmation — rule says take profit at +25%, so half off now locks gain and reduces exposure to rug. Fresh position (0.1h held) gives room to see if it continues, but the pool is too thin to trust.
+
+## [2026-08-27 09:33 UTC] sell | [FULL][LLM] $NSC at $6.83913e-06 | P&L: -10.9%
+- **Reasoning:** $NSC down -10.9% already and just entered (0.0h held). No clear narrative in the candidate list, pool only $1658. Discipline rule: exit losers fast. -10% becomes -30% quick on these microcaps — cut it now rather than hope.
+

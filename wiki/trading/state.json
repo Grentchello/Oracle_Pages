@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.078649,
+  "balance_sol": 1.138082,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "HWtaLPCbqQjhLCmsEu9cpmApepc96qyvuYfBaw6tpump": {
       "symbol": "BILL",
       "name": "THE SCHIZOPHRENIC MONKEY",
-      "amount": 568059.44432479,
+      "amount": 284029.722162395,
       "entry_price_usd": 4.643e-06,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0125,
       "entry_time": "2026-08-27T09:29:18.309447+00:00",
       "entry_usd_value": 5.275,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 13.74171708,
         "description": "This monkey is a schizo. just like these trenchers.",
         "twitter": "https://x.com/r3d1ne?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "7WzypnRJbnyJNZB2H77F7TsuvYoJjUN7juivosvepump": {
-      "symbol": "NSC",
-      "name": "Navy Seal Copypasta",
-      "amount": 684906.5288356077,
-      "entry_price_usd": 7.67330982949563e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T09:32:12.684761+00:00",
-      "entry_usd_value": 5.2555000000000005,
-      "entry_signals": {
-        "liquidity_usd": 2084.82540192888,
-        "volume_24h_usd": null,
-        "market_cap_usd": 7673.111733264291,
-        "ath_market_cap_usd": 10498.054661598977,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 19.834700808,
-        "description": "",
-        "twitter": "https://x.com/damyoggin/status/2092907706533203980",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -12645,25 +12623,47 @@
       "pnl_pct": 38.83,
       "exit_reason": "LLM: sell_all — $BuckyDent at +38.8% is PAST the +25% TP1 threshold — scalp discipline says lock it. Pool is only $3447 and we have 0% share, thin liquidity could rev",
       "partial": false
+    },
+    {
+      "mint": "HWtaLPCbqQjhLCmsEu9cpmApepc96qyvuYfBaw6tpump",
+      "symbol": "BILL",
+      "name": "THE SCHIZOPHRENIC MONKEY",
+      "amount_sold": 284029.722162395,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T09:29:18.309447+00:00",
+      "exit_time": "2026-08-27T09:33:42.439618+00:00",
+      "entry_price_usd": 4.643e-06,
+      "exit_price_usd": 5.484209643734795e-06,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.014832,
+      "pnl_sol": 0.002332,
+      "pnl_pct": 18.12,
+      "exit_reason": "LLM: sell_half — $BILL up +18.1% with pool of only $1155 (well below 5x position). Microcap with no volume confirmation — rule says take profit at +25%, so half off no",
+      "partial": true
+    },
+    {
+      "mint": "7WzypnRJbnyJNZB2H77F7TsuvYoJjUN7juivosvepump",
+      "symbol": "NSC",
+      "name": "Navy Seal Copypasta",
+      "amount_sold": 684906.5288356077,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T09:32:12.684761+00:00",
+      "exit_time": "2026-08-27T09:33:42.439811+00:00",
+      "entry_price_usd": 7.67330982949563e-06,
+      "exit_price_usd": 6.839133648120663e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.044601,
+      "pnl_sol": -0.005399,
+      "pnl_pct": -10.87,
+      "exit_reason": "LLM: sell_all — $NSC down -10.9% already and just entered (0.0h held). No clear narrative in the candidate list, pool only $1658. Discipline rule: exit losers fast. -",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T09:32:12.685116+00:00",
+  "last_updated": "2026-08-27T09:33:42.439915+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.11,
-  "portfolio_value_usd": 121.27,
+  "last_sol_price_usd": 105.023,
+  "portfolio_value_usd": 120.84,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 09:26 UTC",
-      "action": "buy",
-      "details": "[LLM] $APOO at $7.119e-06, spent 0.05 SOL",
-      "reason": "$APOO — 'Apoo Agent, on-chain trading/awareness experiment' is a meta-narrative (AI agent trading plays well in current cycle), real X handle with posting activity, $10k mcap is early enough to catch a 5-10x if the story sticks. Risk: bonding only 31%, thin pool, narrative could flop fast."
-    },
-    {
-      "time": "2026-08-27 09:26 UTC",
-      "action": "buy",
-      "details": "[LLM] $LABEL at $4.00458e-06, spent 0.05 SOL",
-      "reason": "$LABEL — 'Label Truth' from candacedev_arc has a personality-driven narrative (truth-telling meta), low $4k mcap, super early. Small bet on narrative virality. Risk: generic name, thin liquidity at 13% bond."
-    },
     {
       "time": "2026-08-27 09:27 UTC",
       "action": "sell",
@@ -12771,51 +12771,63 @@
       "action": "buy",
       "details": "[LLM] $NSC at $7.67331e-06, spent 0.05 SOL",
       "reason": "$NSC (Navy Seal Copypasta) has the strongest viral narrative in the batch — copypasta is genuinely elite-tier internet culture with massive organic shareability. Bonding curve already 28% complete in <1min confirms real flow, not just deployer wash. X link live. Mcap $7.6k is the sweet spot for 5-10x potential. Risk: narrative is well-known so copycat tokens may fragment attention, but NSC has the first-mover claim on this naming."
+    },
+    {
+      "time": "2026-08-27 09:33 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BILL at $5.48421e-06 | P&L: +18.1%",
+      "reason": "$BILL up +18.1% with pool of only $1155 (well below 5x position). Microcap with no volume confirmation — rule says take profit at +25%, so half off now locks gain and reduces exposure to rug. Fresh position (0.1h held) gives room to see if it continues, but the pool is too thin to trust."
+    },
+    {
+      "time": "2026-08-27 09:33 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $NSC at $6.83913e-06 | P&L: -10.9%",
+      "reason": "$NSC down -10.9% already and just entered (0.0h held). No clear narrative in the candidate list, pool only $1658. Discipline rule: exit losers fast. -10% becomes -30% quick on these microcaps — cut it now rather than hope."
     }
   ],
   "trade_stats": {
-    "total": 741,
-    "wins": 375,
-    "losses": 366,
+    "total": 743,
+    "wins": 376,
+    "losses": 367,
     "win_rate_pct": 50.6,
-    "total_pnl_sol": -0.746339,
-    "avg_pnl_pct": 51.64,
+    "total_pnl_sol": -0.749406,
+    "avg_pnl_pct": 51.52,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 200,
-    "today_realized_sol": 0.68589,
-    "today_target_pct": 171.5,
+    "today_trades": 202,
+    "today_realized_sol": 0.682823,
+    "today_target_pct": 170.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 375,
-      "loss_count": 366,
+      "win_count": 376,
+      "loss_count": 367,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T09:32:12.388151+00:00",
+  "last_llm_brief_at": "2026-08-27T09:33:42.439585+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "HWtaLPCbqQjhLCmsEu9cpmApepc96qyvuYfBaw6tpump": {
-      "price_usd": 5.523041643948475e-06,
+      "price_usd": 5.484209643734795e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1169.56493089321,
-      "volume_h24": 8154.91,
+      "liquidity_usd": 1155.168196448052,
+      "volume_h24": 9467.1,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 11.127056711
+      "real_sol_reserves": 10.999192524
     },
-    "4icwzemZ1cGSjaxMs2pva83SCoFf7Cs6PXSdeXUHpump": {
-      "price_usd": 1.287673902143951e-05,
+    "7WzypnRJbnyJNZB2H77F7TsuvYoJjUN7juivosvepump": {
+      "price_usd": 6.839133648120663e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3447.33099068847,
-      "volume_h24": 14473.87,
+      "liquidity_usd": 1657.7394024651119,
+      "volume_h24": 13191.75,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 32.797364577
+      "real_sol_reserves": 15.784536744
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
