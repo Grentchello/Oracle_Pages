@@ -6586,3 +6586,9 @@
 ## [2026-08-27 12:14 UTC] buy | [LLM] $PC at $2.94573e-06, spent 0.05 SOL
 - **Reasoning:** $PC (apeonpc) has anti-phone culture narrative with tweet support. 'Trade on PCs' is a relatable meme angle — degens love contrarian tech takes.
 
+## [2026-08-27 12:16 UTC] sell | [FULL][LLM] $POOPINS at $3.3875e-06 | P&L: -12.6%
+- **Reasoning:** -12.6% with declining momentum (█▁ pattern, last candle down 51% from prior). Pool $73, our share 6% — liquidity is razor thin. Cut the loss before -30% hard stop hits and free a position slot for stronger entries.
+
+## [2026-08-27 12:16 UTC] buy | [LLM] $CYBERWAR at $2.993e-06, spent 0.05 SOL
+- **Reasoning:** $CYBERWAR ties to live Polymarket attention (cyber war narrative is hot). Twitter link from @Polymarket adds credibility. mcap $3k, 0.8min old — early entry with a real-world news hook. 0.05 SOL position.
+
