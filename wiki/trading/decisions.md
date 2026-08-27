@@ -2728,3 +2728,21 @@
 ## [2026-08-27 01:03 UTC] buy | [LLM] $SH at $3.18532e-06, spent 0.1 SOL
 - **Reasoning:** $SH 'spinning horse' launched from discord.gg/uxento — visual meme potential, low $3k mcap, exactly the kind of absurd-name viral play that 10x's.
 
+## [2026-08-27 01:04 UTC] sell | [PARTIAL][LLM] $SKRIMP at $7.632e-06 | P&L: +135.1%
+- **Reasoning:** $SKRIMP is +135% in 0.3h with 24h +153%. Lock in the runner (take profit at +50% per rules) by trimming half, let the rest ride if narrative holds.
+
+## [2026-08-27 01:04 UTC] sell | [FULL][LLM] $turbulence at $4.933e-06 | P&L: -56.3%
+- **Reasoning:** $turbulence at -56.3% breached the hard -50% cap — automatic exit. No override possible.
+
+## [2026-08-27 01:04 UTC] sell | [PARTIAL][LLM] $PERCHI at $8.597e-06 | P&L: +61.2%
+- **Reasoning:** $PERCHI +61.2% in under an hour with 1h +96%. Trim half to lock profit per the +50% rule; let the rest ride the momentum.
+
+## [2026-08-27 01:04 UTC] sell | [FULL][LLM] $SH at $2.815e-06 | P&L: -11.6%
+- **Reasoning:** $SH is -11.6% and the 24h/1h are both -12%, confirming a fade rather than a dip. Cut the loser and free the slot.
+
+## [2026-08-27 01:04 UTC] buy | [LLM] $SCAT at $6.44279e-06, spent 0.1 SOL
+- **Reasoning:** $SCAT (SKY CAT) — animal meme with an X post from @martinon_sol, 25% bonded fastest of the fresh batch. Animal coin attention is proven on Solana; narrative already drawing eyeballs.
+
+## [2026-08-27 01:04 UTC] buy | [LLM] $DREAD at $3.76956e-06, spent 0.1 SOL
+- **Reasoning:** $DREAD — Dread Forum narrative (darknet Reddit) has genuine internet-culture cachet and a story to meme. Lowest mcap tier + 12% bonded = early attention window.
+
