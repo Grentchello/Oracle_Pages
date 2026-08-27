@@ -5461,3 +5461,18 @@
 ## [2026-08-27 10:08 UTC] sell | [PARTIAL][LLM] $Ape at $9.37594e-06 | P&L: +101.7%
 - **Reasoning:** $Ape +101.7% is already past the +100%/+50% auto-TP zone per the v7 rules. Lock half the gain now — momentum on a fresh bonding-curve microcap is fragile and reverse-pumps happen fast.
 
+## [2026-08-27 10:09 UTC] sell | [TP +30% (25%)] $Ape at $7.03455e-06 | P&L: +51.4%
+- **Reasoning:** Auto take-profit at +51.4%
+
+## [2026-08-27 10:09 UTC] sell | [PARTIAL][LLM] $Ape at $7.03455e-06 | P&L: +51.4%
+- **Reasoning:** +51.4% gain, bot should have already auto-TP'd at +50% but pool is thin ($1727, 0% share). Lock half now — a thinly-traded bonding-curve token with high gain can retrace fast. Ride the rest with a free roll.
+
+## [2026-08-27 10:09 UTC] buy | [LLM] $Heaven at $5.31294e-06, spent 0.05 SOL
+- **Reasoning:** $Heaven 'Meme Heaven' — @Dioss_Sol attention signal, 0.4min old at $5.3k mcap. Pure meta-narrative launch with a real X post. Classic memecoin early-attention play; size 0.05 SOL fits rules.
+
+## [2026-08-27 10:09 UTC] buy | [LLM] $Ethan at $4.6094e-06, spent 0.05 SOL
+- **Reasoning:** $Ethan 'it's just a prank bro' — MarioPrezidente X post is engagement-bait viral template, 0.5min old $4.6k mcap. Prank-bro narratives have historically printed (think Rug-pull-as-content genre). Early attention play.
+
+## [2026-08-27 10:09 UTC] buy | [LLM] $Cheeky at $3.527e-06, spent 0.05 SOL
+- **Reasoning:** $Cheeky 'Cheeky Boy' — @epsteinsen X post, the name itself is a meme, $3.5k mcap 1.1min in. Cheap attention bet with a quirky narrative.
+
