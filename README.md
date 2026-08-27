@@ -77,3 +77,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- wallpapers via vault 1787795749 -->
 
 <!-- gallery 1787796126.2942548 -->
+
+<!-- dashboard link 1787796253 -->
