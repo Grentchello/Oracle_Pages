@@ -3814,3 +3814,15 @@
 ## [2026-08-27 03:14 UTC] buy | [LLM] $501 at $3.025e-06, spent 0.1 SOL
 - **Reasoning:** $501 — 'Coin 501 by Toly' leverages Toly's reputation in Solana circles. Insider/creator-attributed memecoins historically pump hard in the first hour as the community tries to support the creator. $3k mcap is prime entry.
 
+## [2026-08-27 03:15 UTC] sell | [PARTIAL][LLM] $Shkreli at $4.81528e-06 | P&L: +11.1%
+- **Reasoning:** Up +11% and Shkreli name has narrative but barely moving — lock some profit at half, keep half for continuation. Bonding-curve 26% means momentum could carry it.
+
+## [2026-08-27 03:15 UTC] sell | [FULL][LLM] $LADDERS at $2.91689e-06 | P&L: -0.1%
+- **Reasoning:** $LADDERS at -0.1%, pool only $49, flat — no narrative signal, tiny liquidity, dead. Cut and free the slot.
+
+## [2026-08-27 03:15 UTC] sell | [FULL][LLM] $Bel at $2.82537e-06 | P&L: -5.1%
+- **Reasoning:** $Bel is showing 475142886% share with $0 pool — this is a dead/broken bonding curve, capital is effectively trapped. Exit immediately, accept the loss, don't let it ride to -50%.
+
+## [2026-08-27 03:15 UTC] sell | [FULL][LLM] $501 at $3.01446e-06 | P&L: -0.3%
+- **Reasoning:** $501 flat at -0.3%, pool $100, no clear narrative, held 0h with no momentum — stale exit per discipline rules.
+
