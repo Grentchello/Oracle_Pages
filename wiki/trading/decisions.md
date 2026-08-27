@@ -7171,3 +7171,12 @@
 ## [2026-08-27 13:31 UTC] buy | [LLM] $DEPE at $4.63082e-06, spent 0.05 SOL
 - **Reasoning:** $DEPE (Dino Pepe) — Pepe-derivative with a known crypto X account (CryptoFaverity) posting it. Pepe narrative is evergreen; $4.6k mcap with bonding curve still 17% to graduation has room.
 
+## [2026-08-27 13:32 UTC] sell | [hard-stop] $DEPE closed at $2.92199e-06 | P&L: -36.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:32 UTC] sell | [FULL][LLM] $cyburlek at $6.15021e-06 | P&L: -22.0%
+- **Reasoning:** Down22% with no clear bounce signal, tiny $1.4k pool, and bot will hard-stop at -30% shortly. Discipline rule says exit fast when down >20% — don't hope. Cut it, free the slot.
+
+## [2026-08-27 13:32 UTC] buy | [LLM] $Tito at $8.79316e-06, spent 0.05 SOL
+- **Reasoning:** $Tito 'apeonpc' is the freshest highest-mcap launch at $8.8k, bonding curve already 30% filled — early attention accumulating. 'Ape on PC' is a clear degens-ape narrative; ride the first wave with 0.05 SOL.
+
