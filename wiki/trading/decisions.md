@@ -2362,3 +2362,9 @@
 ## [2026-08-27 00:15 UTC] buy | [LLM] $Gary at $3.027e-06, spent 0.1 SOL
 - **Reasoning:** Japanese 'ゲイリー' (Gary) has cultural meme crossover with attached X account — niche viral narratives at $3k mcap can rip when they catch international attention.
 
+## [2026-08-27 00:17 UTC] sell | [PARTIAL][LLM] $1A at $4.994e-05 | P&L: +513.9%
+- **Reasoning:** $1A is +513.9% in under an hour — extreme run. Sell half to lock gains per the +50% profit-take rule, let the remaining half ride if narrative keeps going.
+
+## [2026-08-27 00:17 UTC] buy | [LLM] $Squishy at $2.87247e-06, spent 0.1 SOL
+- **Reasoning:** $Squishy — viral chipmunk with 15M+ followers, 2B+ views, owner fully onboard with creator fees directed to the project. That's rare, verified attention from an established personality. Bond only 1%, so 0.1 SOL entry is low-risk asymmetry.
+
