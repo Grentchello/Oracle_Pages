@@ -7300,3 +7300,15 @@
 ## [2026-08-27 13:55 UTC] buy | [LLM] $Bill at $7.03335e-06, spent 0.05 SOL
 - **Reasoning:** $Bill narrative has political memecoin DNA (The Memecoin Bill) plus a launchblitz.ai origin which is built for attention farming. Fresh launch at $7k mcap, bond26% — enough narrative asymmetry to risk0.05 SOL for a potential 5-10x in the first hour.
 
+## [2026-08-27 13:56 UTC] sell | [hard-stop] $Bill closed at $2.97659e-06 | P&L: -57.7%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:56 UTC] sell | [TP +30% (25%)] $DISPATCH at $1.02079e-05 | P&L: +92.4%
+- **Reasoning:** Auto take-profit at +92.4%
+
+## [2026-08-27 13:56 UTC] sell | [FULL][LLM] $DISPATCH at $1.02079e-05 | P&L: +92.4%
+- **Reasoning:** $DISPATCH is up +92.4% in 0.1h with pool only $2723 (liquidity dangerously thin for our size). The bot's TP ladder should have taken25% at +30%, but since we're past +30% and not auto-triggered, lock the gain now — thin liquidity + parabolic move = reversal risk is high. Take the profit.
+
+## [2026-08-27 13:56 UTC] buy | [LLM] $gavun at $5.03327e-06, spent 0.05 SOL
+- **Reasoning:** $gavun (gavun newsum) has a specific narrative tied to a real X account (@grok12_john) and a themed name — memecoin attention markets love real-figure references. Age 0.3min with $5k mcap is classic early-launch territory. Position size 0.05 SOL respects the tightened risk rules.
+
