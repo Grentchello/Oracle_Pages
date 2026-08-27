@@ -3409,3 +3409,12 @@
 ## [2026-08-27 02:36 UTC] buy | [LLM] $RESET at $2.62747e-06, spent 0.1 SOL
 - **Reasoning:** $RESET — strong meta-narrative ('AI slop is cooked, this is the emergency button') is exactly the kind of viral self-aware meme that catches fire. Fresh (0.1min), cheap mcap $2.6k, clear story. Best narrative-to-mcap ratio in the launch list.
 
+## [2026-08-27 02:37 UTC] sell | [FULL][LLM] $RESET at $6.032e-07 | P&L: -77.0%
+- **Reasoning:** $RESET is at -77%, breaching the -50% hard cap. Auto-close required, no override possible.
+
+## [2026-08-27 02:37 UTC] sell | [PARTIAL][LLM] $stage at $1.135e-05 | P&L: +143.3%
+- **Reasoning:** $stage at +143% with 24h=+275% — profit-taking territory. Lock gains, let the rest ride if narrative holds.
+
+## [2026-08-27 02:37 UTC] buy | [LLM] $Duster at $8.05757e-06, spent 0.1 SOL
+- **Reasoning:** $Duster the Buffalo — strongest narrative of the new batch (animal mascot, dedicated X post), $8k mcap with 29% bond (closest to graduation), freshest attention. Buys the slot opened by closing $RESET.
+
