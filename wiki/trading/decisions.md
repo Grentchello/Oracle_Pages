@@ -2908,3 +2908,12 @@
 ## [2026-08-27 01:25 UTC] buy | [LLM] $pump at $3.23047e-06, spent 0.1 SOL
 - **Reasoning:** $pump 'please unfuck my portfolio' is a viral meta-narrative that resonates with degen culture. Attention signal is strong even at tiny mcap.
 
+## [2026-08-27 01:27 UTC] sell | [FULL][LLM] $pump at $2.899e-06 | P&L: -10.3%
+- **Reasoning:** $pump is -10.3% with negative momentum (1h -3.9%, 24h -3.9%) and a generic name with no narrative. Cut to redeploy capital into a stronger launch.
+
+## [2026-08-27 01:27 UTC] buy | [LLM] $KIP at $7.323e-06, spent 0.1 SOL
+- **Reasoning:** $KIP from zumpsol (known deployer with audience). Kangaroo narrative has two related tokens ($KIP/$CHICKY) launching together — coordinated meme launches tend to pump. Highest mcap of fresh batch at $7.2k.
+
+## [2026-08-27 01:27 UTC] buy | [LLM] $CREATORCUP at $3.44508e-06, spent 0.1 SOL
+- **Reasoning:** $CREATORCUP 'speculate on CT personalities' is a meta-narrative that always attracts attention in crypto CT. Real description, dedicated account (@CreatorCupSOL), low mcap = asymmetric upside.
+
