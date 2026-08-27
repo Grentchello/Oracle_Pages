@@ -7264,3 +7264,12 @@
 ## [2026-08-27 13:48 UTC] sell | [FULL][LLM] $Schwab at $3.689e-05 | P&L: +190.4%
 - **Reasoning:** Held $Schwab is up +190.4% — well above any TP threshold. The bot may have already auto-TP'd, but if not, take profit now. Price history shows volatile swings (MC went 158→145→123→146), and at 0.1h old with 0% pool share this is peak attention-fade territory. Lock the gain.
 
+## [2026-08-27 13:51 UTC] buy | [LLM] $DISPATCH at $5.30599e-06, spent 0.05 SOL
+- **Reasoning:** $DISPATCH has a strong narrative hook — 'agents have wallets but no distribution' is a meta-narrative that resonates with the current x402/crypto-AI meta. Dedicated @x402Dispatch account suggests real attention infrastructure, not a throwaway. Position 0.05 SOL.
+
+## [2026-08-27 13:51 UTC] buy | [LLM] $SAMMY at $8.35332e-06, spent 0.05 SOL
+- **Reasoning:** $SAMMY (Sammy The Seal) — animal mascot with crypto Twitter pickup (@essencepnl). Seals are inherently viral meme material (look at previous seal coin runs). Low mcap $8.3k with 29% bond gives room. Position 0.05 SOL.
+
+## [2026-08-27 13:51 UTC] buy | [LLM] $$WADDLE at $2.98422e-06, spent 0.05 SOL
+- **Reasoning:** $$WADDLE (MicroDuck) — tied to a real tweet from Hugging Face CEO @clementdelangue, which is a verified high-profile crypto-AI account. Story is strong: open-source $399 robot vs Big Tech humanoids. This has the strongest 'real attention from real account' signal in the batch. Position 0.05 SOL.
+
