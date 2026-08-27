@@ -5257,3 +5257,15 @@
 ## [2026-08-27 09:50 UTC] sell | [hard-stop] $Solana closed at $3.84346e-06 | P&L: -44.1%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 09:51 UTC] sell | [FULL][LLM] $MILO at $2.92787e-06 | P&L: -16.0%
+- **Reasoning:** $MILO is -16% with pool=$0 and our share=350M%+ — effectively no liquidity. Pulling out now before it deepens toward -30% hard stop. Down 16% with zero pool = exit fast.
+
+## [2026-08-27 09:51 UTC] buy | [LLM] $PPEPE at $3.179e-06, spent 0.05 SOL
+- **Reasoning:** $PPEPE riffs the Pepe brand (king of memecoins) with a 'paper' twist — strong narrative leverage. $3.4k mcap, 1.2min old, has twitter backing. Catching Pepe derivatives early is the playbook.
+
+## [2026-08-27 09:51 UTC] buy | [LLM] $wifi at $5.34183e-06, spent 0.05 SOL
+- **Reasoning:** $wifi = 'Dog Wif Internet' direct riff on $WIF (billion-dollar memecoin). $5.3k mcap at 0.2min is fresh; WIF-successor narratives pump hard on launch.
+
+## [2026-08-27 09:51 UTC] buy | [LLM] $Kalamantina at $6.30996e-06, spent 0.05 SOL
+- **Reasoning:** $Kalamantina (Cat of War) is the higher-mcap of the pair ($6.3k) with a twitter catalyst. Cat-themed war narrative has attention potential; paired launch suggests real interest.
+
