@@ -81,3 +81,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- dashboard link 1787796253 -->
 
 <!-- wp url fix 1787796474 -->
+
+<!-- liquidity-aware v5 -->
