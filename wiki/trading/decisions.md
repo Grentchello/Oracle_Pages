@@ -6235,3 +6235,15 @@
 ## [2026-08-27 11:35 UTC] sell | [hard-stop] $Fafo  closed at $6.03707e-08 | P&L: -98.1%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 11:35 UTC] sell | [FULL][LLM] $Cheshire at $7.52087e-06 | P&L: +19.6%
+- **Reasoning:** Up +19.6% in 6min and the pool is only $1,898 (way below 5x position size min) with choppy price action — locking the gain before it reverses, liquidity is too thin to hold safely.
+
+## [2026-08-27 11:35 UTC] buy | [LLM] $Moby at $6.0993e-06, spent 0.05 SOL
+- **Reasoning:** $Moby 'The Nietzschean Dildo' — absurd humor narrative at $6k mcap, 24% bonded, exactly the kind of attention-bait that pumps 5-10x on a meme wave.
+
+## [2026-08-27 11:35 UTC] buy | [LLM] $QSBTC at $2.945e-06, spent 0.05 SOL
+- **Reasoning:** $QSBTC by Laura Shin (real crypto journalist, 500k+ followers) — narrative of 'quantum-safe Bitcoin' has viral potential even if it's parody, fresh $3k mcap.
+
+## [2026-08-27 11:35 UTC] buy | [LLM] $HODL at $4.61599e-06, spent 0.05 SOL
+- **Reasoning:** $HODL 'Diamond Hands' posted by mdudas (notable tech founder) — classic meme name with a credible tweeter, $4.6k mcap entry.
+
