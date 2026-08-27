@@ -6844,3 +6844,12 @@
 ## [2026-08-27 12:52 UTC] buy | [LLM] $FRIENDS at $1.5523e-05, spent 0.05 SOL
 - **Reasoning:** $FRIENDS on friends.bid is the freshest launch (~6s old) with the highest bond progress (36%) and largest mcap ($15.5k) of the new batch — the .bid domain + brandable 'FRIENDS' ticker has obvious viral framing for an attention market. Slightly above the $3-5k mcap of the rest of the field, and the most-bonded token usually leads attention rotation on pump.fun.
 
+## [2026-08-27 12:54 UTC] sell | [PARTIAL][LLM] $FRIENDS at $1.87211e-05 | P&L: +20.6%
+- **Reasoning:** Up +20.6% but on a $4,801 pool (thin liquidity, our share is 0%). At +20% with thin liquidity, half-off locks profit and lets the rest ride if it keeps pumping. Stale-or-dump risk on tiny pools is real.
+
+## [2026-08-27 12:54 UTC] buy | [LLM] $SPACE at $4.65211e-06, spent 0.05 SOL
+- **Reasoning:** $SPACE - claims 'Super viral across all social media' with a coinbase-tagged X link. Attention narrative is the clearest of the batch; mcap $4.6k at 17% bonding curve = very early, asymmetric upside if the social momentum is real.
+
+## [2026-08-27 12:54 UTC] buy | [LLM] $HolyBull at $1.4506e-05, spent 0.05 SOL
+- **Reasoning:** $HolyBull - 'The Holy Ansem' is a direct crypto-influencer cult narrative (Ansem worship tokens have historically pumped). $14.5k mcap, brand-new, decent attention signal via the Twitter search link.
+

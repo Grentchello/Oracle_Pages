@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.812352,
+  "balance_sol": 0.742511,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "5m4g5dN4Jp7oNWjQ3zA5Bomoqv721zgE95LeMNCCpump": {
       "symbol": "FRIENDS",
       "name": "friends.bid",
-      "amount": 336951.28637146385,
+      "amount": 168475.64318573193,
       "entry_price_usd": 1.5523015378056047e-05,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T12:52:47.817994+00:00",
       "entry_usd_value": 5.2305,
       "entry_signals": {
@@ -21,6 +21,50 @@
         "real_sol_reserves": 52.313803523,
         "description": "",
         "twitter": "https://x.com/friendsdotbid/status/2092958296508387536",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "8HDNMyoFcCgJ4d9efpedyunnaKxPeCwnqzgSUEKfpump": {
+      "symbol": "SPACE",
+      "name": "What would you put in this",
+      "amount": 1124007.1656861748,
+      "entry_price_usd": 4.65210557337314e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-27T12:54:05.137160+00:00",
+      "entry_usd_value": 5.229,
+      "entry_signals": {
+        "liquidity_usd": 416.5377366591,
+        "volume_24h_usd": null,
+        "market_cap_usd": 4662.403116843971,
+        "ath_market_cap_usd": 5108.306318818309,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 3.982957895,
+        "description": "Super viral across all social media",
+        "twitter": "https://x.com/coinbase/status/2092929132535349662?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "ngnr161csiYoRP4brFuUSCdFrYAxMZZdkvSB8QJpump": {
+      "symbol": "HolyBull",
+      "name": "The Holy Ansem",
+      "amount": 360472.60078571906,
+      "entry_price_usd": 1.4505956870514967e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-27T12:54:05.423139+00:00",
+      "entry_usd_value": 5.229,
+      "entry_signals": {
+        "liquidity_usd": 4468.24327634118,
+        "volume_24h_usd": null,
+        "market_cap_usd": 14538.066142352483,
+        "ath_market_cap_usd": 14482.813641588033,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 42.725600271,
+        "description": "",
+        "twitter": "https://x.com/search?q=%24HolyBull&src=typed_query&f=top",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -18505,31 +18549,30 @@
       "pnl_pct": -39.34,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "5m4g5dN4Jp7oNWjQ3zA5Bomoqv721zgE95LeMNCCpump",
+      "symbol": "FRIENDS",
+      "name": "friends.bid",
+      "amount_sold": 168475.64318573193,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T12:52:47.817994+00:00",
+      "exit_time": "2026-08-27T12:54:04.812244+00:00",
+      "entry_price_usd": 1.5523015378056047e-05,
+      "exit_price_usd": 1.87210655575011e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.030159,
+      "pnl_sol": 0.005159,
+      "pnl_pct": 20.6,
+      "exit_reason": "LLM: sell_half — Up +20.6% but on a $4,801 pool (thin liquidity, our share is 0%). At +20% with thin liquidity, half-off locks profit and lets the rest ride if it keep",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T12:52:47.818324+00:00",
+  "last_updated": "2026-08-27T12:54:05.424295+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.61,
-  "portfolio_value_usd": 90.21,
+  "last_sol_price_usd": 104.58,
+  "portfolio_value_usd": 90.73,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 12:46 UTC",
-      "action": "buy",
-      "details": "[LLM] $SHOCKED at $2.99801e-06, spent 0.05 SOL",
-      "reason": "$SHOCKED — 'Shocked Cat' cluster narrative is the strongest story here: 2 independent creators launching matching tokens within 72s signals organic viral coordination, not bot spam. Classic attention-market setup."
-    },
-    {
-      "time": "2026-08-27 12:46 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $QQ at $1.52762e-05 | P&L: +43.4%",
-      "reason": "$QQ is up +43.4% — this is well past TP1 territory. Take profit on half to lock in gains while letting the rest ride if narrative continues."
-    },
-    {
-      "time": "2026-08-27 12:46 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Huggy at $7.94197e-06 | P&L: +21.1%",
-      "reason": "$Huggy is up +21.1% but held 0.0h with thin pool ($2034) and unclear narrative (multiple Huggy mints = scam risk). Lock the gain before it fades."
-    },
     {
       "time": "2026-08-27 12:46 UTC",
       "action": "sell",
@@ -18631,51 +18674,58 @@
       "action": "buy",
       "details": "[LLM] $FRIENDS at $1.5523e-05, spent 0.05 SOL",
       "reason": "$FRIENDS on friends.bid is the freshest launch (~6s old) with the highest bond progress (36%) and largest mcap ($15.5k) of the new batch — the .bid domain + brandable 'FRIENDS' ticker has obvious viral framing for an attention market. Slightly above the $3-5k mcap of the rest of the field, and the most-bonded token usually leads attention rotation on pump.fun."
+    },
+    {
+      "time": "2026-08-27 12:54 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $FRIENDS at $1.87211e-05 | P&L: +20.6%",
+      "reason": "Up +20.6% but on a $4,801 pool (thin liquidity, our share is 0%). At +20% with thin liquidity, half-off locks profit and lets the rest ride if it keeps pumping. Stale-or-dump risk on tiny pools is real."
+    },
+    {
+      "time": "2026-08-27 12:54 UTC",
+      "action": "buy",
+      "details": "[LLM] $SPACE at $4.65211e-06, spent 0.05 SOL",
+      "reason": "$SPACE - claims 'Super viral across all social media' with a coinbase-tagged X link. Attention narrative is the clearest of the batch; mcap $4.6k at 17% bonding curve = very early, asymmetric upside if the social momentum is real."
+    },
+    {
+      "time": "2026-08-27 12:54 UTC",
+      "action": "buy",
+      "details": "[LLM] $HolyBull at $1.4506e-05, spent 0.05 SOL",
+      "reason": "$HolyBull - 'The Holy Ansem' is a direct crypto-influencer cult narrative (Ansem worship tokens have historically pumped). $14.5k mcap, brand-new, decent attention signal via the Twitter search link."
     }
   ],
   "trade_stats": {
-    "total": 1087,
-    "wins": 569,
+    "total": 1088,
+    "wins": 570,
     "losses": 518,
-    "win_rate_pct": 52.3,
-    "total_pnl_sol": -1.037637,
-    "avg_pnl_pct": 44.72,
+    "win_rate_pct": 52.4,
+    "total_pnl_sol": -1.032478,
+    "avg_pnl_pct": 44.7,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 546,
-    "today_realized_sol": 0.394592,
-    "today_target_pct": 98.6,
+    "today_trades": 547,
+    "today_realized_sol": 0.399751,
+    "today_target_pct": 99.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 569,
+      "win_count": 570,
       "loss_count": 518,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T12:52:47.523135+00:00",
+  "last_llm_brief_at": "2026-08-27T12:54:04.812209+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "yVF1R8TgUwgEqYWJo4f1tRPSo2bJR99MerDUMBqpump": {
-      "price_usd": 2.4898908008599996e-08,
+    "5m4g5dN4Jp7oNWjQ3zA5Bomoqv721zgE95LeMNCCpump": {
+      "price_usd": 1.87210655575011e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.07799146245000001,
-      "volume_h24": 16748.11,
+      "liquidity_usd": 4801.3127820541795,
+      "volume_h24": 25604.28,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.000745545
-    },
-    "DWahjut8XgAj9UCH9kYs1LnjZ6cDXvAx8NcNYU63pump": {
-      "price_usd": 2.9335833081778966e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 4.71390631998,
-      "volume_h24": 4556.97,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.045061718
+      "real_sol_reserves": 45.910430121
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
