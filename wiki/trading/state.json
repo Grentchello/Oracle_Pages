@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.372313,
+  "balance_sol": 1.357684,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7DFy4JGzirMwCmMQEoHZJBuQNnJYmkurraLGRtktpump": {
       "symbol": "stage",
       "name": "Stage Tour",
-      "amount": 1088806.1813939728,
+      "amount": 544403.0906969864,
       "entry_price_usd": 4.66520128816392e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T02:21:50.220002+00:00",
       "entry_usd_value": 10.159,
       "entry_signals": {
@@ -69,28 +69,6 @@
       },
       "llm_entry": true
     },
-    "BCGTRJjHbJnXLpC8cTPbKzrwRZYy2ecYh3vfVpApump": {
-      "symbol": "DOJE",
-      "name": "Dojecoin",
-      "amount": 874966.0623762587,
-      "entry_price_usd": 1.1581020608365656e-05,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T02:34:32.159974+00:00",
-      "entry_usd_value": 10.133000000000001,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 11587.83504808221,
-        "ath_market_cap_usd": 12808.191420578203,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 30.654759428,
-        "description": "",
-        "twitter": "https://x.com/i/status/2092802725624852931",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "EXMRz2urNJ5EwTVoeeHDBvJqiWmw3DSf1e9ZugQrpump": {
       "symbol": "idk",
       "name": "Idk how y'all do that 9-5 shit",
@@ -109,6 +87,28 @@
         "real_sol_reserves": 19.914756228,
         "description": "Simply put, idk how y'all do that 9-5 shit.",
         "twitter": "https://x.com/i/communities/1830023891139641445",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "FqKEQXxymtijk3nFTiP2nQtjJcnS4rAGK9cs4Y2jpump": {
+      "symbol": "RESET",
+      "name": "The Great Meme Reset",
+      "amount": 3856567.39665596,
+      "entry_price_usd": 2.62746607482767e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T02:36:02.274926+00:00",
+      "entry_usd_value": 10.133000000000001,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 2618.0805750158243,
+        "ath_market_cap_usd": 3656.620682687607,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.055149963,
+        "description": "THE TIMELINE IS COOKED. AI slop. Infinite scrolling. “Bro is cooked” for the 900th time. $RESET is the emergency button for anyone whose brain has 47 tabs open and one of them is playing Subway Surfers. No roadmap. No utility. No promises. Just press reset. Delete the slop. Respawn the timeline.",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -6523,31 +6523,47 @@
       "pnl_pct": -6.13,
       "exit_reason": "LLM: sell_all — $EMEM -6.1% with negative 1h/24h and no narrative recovery — cut the loser, free the slot for a better launch.",
       "partial": false
+    },
+    {
+      "mint": "BCGTRJjHbJnXLpC8cTPbKzrwRZYy2ecYh3vfVpApump",
+      "symbol": "DOJE",
+      "name": "Dojecoin",
+      "amount_sold": 874966.0623762587,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T02:34:32.159974+00:00",
+      "exit_time": "2026-08-27T02:36:02.274593+00:00",
+      "entry_price_usd": 1.1581020608365656e-05,
+      "exit_price_usd": 3.08e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.026595,
+      "pnl_sol": -0.073405,
+      "pnl_pct": -73.4,
+      "exit_reason": "LLM: sell_all — Down -73.4%, well past the -50% hard cap. This should have been auto-stopped; honoring the hard cap now.",
+      "partial": false
+    },
+    {
+      "mint": "7DFy4JGzirMwCmMQEoHZJBuQNnJYmkurraLGRtktpump",
+      "symbol": "stage",
+      "name": "Stage Tour",
+      "amount_sold": 544403.0906969864,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T02:21:50.220002+00:00",
+      "exit_time": "2026-08-27T02:36:02.274814+00:00",
+      "entry_price_usd": 4.66520128816392e-06,
+      "exit_price_usd": 1.094e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.058776,
+      "pnl_sol": 0.033776,
+      "pnl_pct": 134.5,
+      "exit_reason": "LLM: sell_half — Up +134.5% in 0.2h with 24h +262%. Lock in gains on half — runner still has narrative momentum but parabolic moves reverse fast.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T02:34:32.160779+00:00",
+  "last_updated": "2026-08-27T02:36:02.275026+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.33,
-  "portfolio_value_usd": 175.81,
+  "portfolio_value_usd": 171.79,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 02:23 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $pumpling at $2.842e-06 | P&L: -25.4%",
-      "reason": "$pumpling at -25.4% with negative 1h momentum, no attention signal to hold. Free capital for fresh launches."
-    },
-    {
-      "time": "2026-08-27 02:23 UTC",
-      "action": "buy",
-      "details": "[LLM] $TAZ at $6.66361e-06, spent 0.1 SOL",
-      "reason": "$TAZ 'Digital Pet' with active Twitter signal and 26% bond (highest in fresh batch) — animal/pet narrative has viral legs and the X post gives real attention anchor."
-    },
-    {
-      "time": "2026-08-27 02:23 UTC",
-      "action": "buy",
-      "details": "[LLM] $HOBBES at $5.00498e-06, spent 0.1 SOL",
-      "reason": "$HOBBES 'Ansem's cat' is a built-in audience play — Ansem (Solana memecoin KOL) follower base is massive and cat memes travel fast. Strongest narrative in the batch."
-    },
     {
       "time": "2026-08-27 02:24 UTC",
       "action": "sell",
@@ -6649,36 +6665,54 @@
       "action": "buy",
       "details": "[LLM] $idk at $7.84287e-06, spent 0.1 SOL",
       "reason": "$idk — 'idk how y'all do that 9-5 shit' is exactly the kind of antiwork/X-replyable line that spreads on attention markets; low mcap ($7.8k) and fresh mint, early entry before it catches."
+    },
+    {
+      "time": "2026-08-27 02:36 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DOJE at $3.08e-06 | P&L: -73.4%",
+      "reason": "Down -73.4%, well past the -50% hard cap. This should have been auto-stopped; honoring the hard cap now."
+    },
+    {
+      "time": "2026-08-27 02:36 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $stage at $1.094e-05 | P&L: +134.5%",
+      "reason": "Up +134.5% in 0.2h with 24h +262%. Lock in gains on half — runner still has narrative momentum but parabolic moves reverse fast."
+    },
+    {
+      "time": "2026-08-27 02:36 UTC",
+      "action": "buy",
+      "details": "[LLM] $RESET at $2.62747e-06, spent 0.1 SOL",
+      "reason": "$RESET — strong meta-narrative ('AI slop is cooked, this is the emergency button') is exactly the kind of viral self-aware meme that catches fire. Fresh (0.1min), cheap mcap $2.6k, clear story. Best narrative-to-mcap ratio in the launch list."
     }
   ],
   "trade_stats": {
-    "total": 377,
-    "wins": 172,
-    "losses": 205,
+    "total": 379,
+    "wins": 173,
+    "losses": 206,
     "win_rate_pct": 45.6,
-    "total_pnl_sol": -0.165182,
-    "avg_pnl_pct": 74.1,
+    "total_pnl_sol": -0.204811,
+    "avg_pnl_pct": 73.87,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 234,
-    "today_realized_sol": 0.364025,
-    "today_target_pct": 91.0,
+    "today_trades": 236,
+    "today_realized_sol": 0.324396,
+    "today_target_pct": 81.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 172,
-      "loss_count": 205,
+      "win_count": 173,
+      "loss_count": 206,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T02:34:32.158728+00:00",
+  "last_llm_brief_at": "2026-08-27T02:36:02.274554+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7DFy4JGzirMwCmMQEoHZJBuQNnJYmkurraLGRtktpump": {
-      "price_usd": 9.138e-06,
-      "change_h24": 202.0,
-      "change_h1": 202.0,
+      "price_usd": 1.094e-05,
+      "change_h24": 262.0,
+      "change_h1": 262.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 15122.81,
+      "volume_h24": 16002.49,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
@@ -6692,20 +6726,29 @@
       "source": "dexscreener"
     },
     "jheW61ZoLVSbeqSy5wwxwjfGALrqrLvq4Du1tASpump": {
-      "price_usd": 1.34e-05,
-      "change_h24": 364.0,
-      "change_h1": 364.0,
+      "price_usd": 1.179e-05,
+      "change_h24": 308.0,
+      "change_h1": 308.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 19087.92,
+      "volume_h24": 21528.18,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "9SfxrKNcRLdrWN2iqtHStFq5sn8Li4dUeMhzjfWLpump": {
-      "price_usd": 2.832e-06,
-      "change_h24": -6.12,
-      "change_h1": -6.12,
+    "BCGTRJjHbJnXLpC8cTPbKzrwRZYy2ecYh3vfVpApump": {
+      "price_usd": 3.08e-06,
+      "change_h24": -10.12,
+      "change_h1": -10.12,
       "liquidity_usd": 0.0,
-      "volume_h24": 269.37,
+      "volume_h24": 19805.48,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "EXMRz2urNJ5EwTVoeeHDBvJqiWmw3DSf1e9ZugQrpump": {
+      "price_usd": 8.003e-06,
+      "change_h24": 157.0,
+      "change_h1": 157.0,
+      "liquidity_usd": 0.0,
+      "volume_h24": 18456.75,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

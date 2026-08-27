@@ -3400,3 +3400,12 @@
 ## [2026-08-27 02:34 UTC] buy | [LLM] $idk at $7.84287e-06, spent 0.1 SOL
 - **Reasoning:** $idk — 'idk how y'all do that 9-5 shit' is exactly the kind of antiwork/X-replyable line that spreads on attention markets; low mcap ($7.8k) and fresh mint, early entry before it catches.
 
+## [2026-08-27 02:36 UTC] sell | [FULL][LLM] $DOJE at $3.08e-06 | P&L: -73.4%
+- **Reasoning:** Down -73.4%, well past the -50% hard cap. This should have been auto-stopped; honoring the hard cap now.
+
+## [2026-08-27 02:36 UTC] sell | [PARTIAL][LLM] $stage at $1.094e-05 | P&L: +134.5%
+- **Reasoning:** Up +134.5% in 0.2h with 24h +262%. Lock in gains on half — runner still has narrative momentum but parabolic moves reverse fast.
+
+## [2026-08-27 02:36 UTC] buy | [LLM] $RESET at $2.62747e-06, spent 0.1 SOL
+- **Reasoning:** $RESET — strong meta-narrative ('AI slop is cooked, this is the emergency button') is exactly the kind of viral self-aware meme that catches fire. Fresh (0.1min), cheap mcap $2.6k, clear story. Best narrative-to-mcap ratio in the launch list.
+
