@@ -5104,3 +5104,21 @@
 ## [2026-08-27 09:27 UTC] buy | [LLM] $TopKek at $6.529e-06, spent 0.05 SOL
 - **Reasoning:** $TopKek — pure meme-energy name, classic shitpost appeal, FeygoNFA twitter attached. Bonding at 25% already with6.5k mcap. Meme names like this have the kind of viral spread the others lack.
 
+## [2026-08-27 09:28 UTC] sell | [hard-stop] $inno closed at $3.1687e-06 | P&L: -75.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:28 UTC] sell | [hard-stop] $TopKek closed at $3.13398e-06 | P&L: -52.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:28 UTC] sell | [TP +30% (25%)] $Tapping at $2.00009e-05 | P&L: +87.3%
+- **Reasoning:** Auto take-profit at +87.3%
+
+## [2026-08-27 09:29 UTC] sell | [FULL][LLM] $Tapping at $2.00009e-05 | P&L: +87.3%
+- **Reasoning:** $Tapping is +87.3% in 0.1h — well past the +50% TP threshold. Bonding curve only 37% complete, mcap already $17k, and this thing is brand new with no proven bid depth. Lock the gain now. Discipline over hope.
+
+## [2026-08-27 09:29 UTC] sell | [FULL][LLM] $APOO at $9.09753e-06 | P&L: +27.8%
+- **Reasoning:** $APOO just crossed +20% (now +27.8%) on a tiny $2,393 pool. Pool is dangerously thin vs the position rules. Take the profit before it reverses — -20% losses come fast in this liquidity.
+
+## [2026-08-27 09:29 UTC] buy | [LLM] $BILL at $4.643e-06, spent 0.05 SOL
+- **Reasoning:** $BILL — 'THE SCHIZOPHRENIC MONKEY' has an actual narrative hook (schizo trenchers), a live twitter account (@r3d1ne), and is at $5.2k mcap with 1.4min age. Attention signal is concrete, narrative is meme-able. Cheap entry on early attention.
+
