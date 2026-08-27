@@ -6007,3 +6007,18 @@
 ## [2026-08-27 11:06 UTC] buy | [LLM] $ILY at $2.64575e-05, spent 0.05 SOL
 - **Reasoning:** $ILY ('Just Believe, I Love You') is the strongest launch by mcap ($26.5k) with an emotional/viral narrative and a tagged X post. Best attention-to-mcap ratio in the batch — small position to test the narrative.
 
+## [2026-08-27 11:07 UTC] sell | [FULL][LLM] $Pioneer at $7.4514e-06 | P&L: -29.9%
+- **Reasoning:** -29.9%, sitting right at the -30% hard stop. Price history shows continued decay (94→98→80 nanos). No bounce signal, no narrative recovery possible. Exit now before hard stop hits.
+
+## [2026-08-27 11:07 UTC] sell | [PARTIAL][LLM] $ILY at $3.03816e-05 | P&L: +14.8%
+- **Reasoning:** +14.8% but fresh entry (0.0h held) and no clear viral catalyst visible — 'ILY' is a thin narrative. Lock half the gain; let the other half ride if attention materializes. If it doesn't move within 15 min, exit remainder.
+
+## [2026-08-27 11:07 UTC] buy | [LLM] $OSTRICH at $5.691e-06, spent 0.05 SOL
+- **Reasoning:** $OSTRICH has an attached X post (attention signal) and 'THE RUNNER' is a clean viral narrative — runner-themed memes have historically pumped. $4.4k mcap is fresh enough for 5-10x potential.
+
+## [2026-08-27 11:07 UTC] buy | [LLM] $Melati at $3.06121e-06, spent 0.05 SOL
+- **Reasoning:** $Melati — 'Justice For Melati' is a real CBS News story (news-driven memecoins pump hard on emotion/controversy). Attached CBSNewsTexas tweet = legitimate attention anchor. $3k mcap, very early.
+
+## [2026-08-27 11:07 UTC] buy | [LLM] $DOOM at $3.26e-06, spent 0.05 SOL
+- **Reasoning:** $DOOM tied to Avengers: Doomsday — major film release catalyst (Dec 2026 theatrical). Brand-name IP with built-in audience. $3.2k mcap is still small enough for upside.
+
