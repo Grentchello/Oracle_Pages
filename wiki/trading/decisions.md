@@ -7375,3 +7375,21 @@
 ## [2026-08-27 14:06 UTC] buy | [LLM] $CRATE at $4.67892e-06, spent 0.05 SOL
 - **Reasoning:** CR8/CRATE has a concrete narrative: gacha cases for live perps on Hyperliquid/Lighter/Polymarket — real product hook, not just a meme. Twitter @cr8dotfun is active. $4.7k mcap is classic early-launch entry; narrative clarity beats pure meme names.
 
+## [2026-08-27 14:07 UTC] sell | [TP +30% (25%)] $WTF at $1.68315e-06 | P&L: +32.7%
+- **Reasoning:** Auto take-profit at +32.7%
+
+## [2026-08-27 14:07 UTC] sell | [TP +30% (25%)] $CRATE at $6.9769e-06 | P&L: +49.1%
+- **Reasoning:** Auto take-profit at +49.1%
+
+## [2026-08-27 14:07 UTC] sell | [PARTIAL][LLM] $WTF at $1.68315e-06 | P&L: +32.7%
+- **Reasoning:** $WTF is +32.7% which just cleared the +30% threshold — the hard TP at 25% has been hit. Taking half off locks profit while leaving runner. Pool is tiny ($452) so the other half has real upside risk on illiquidity.
+
+## [2026-08-27 14:07 UTC] sell | [PARTIAL][LLM] $CRATE at $6.9769e-06 | P&L: +49.1%
+- **Reasoning:** $CRATE at +49.1% — massive gain on a fresh bonding-curve token with thin pool ($1700). Narrative unclear (just a name, no X link in feed). Lock half now; bond curve graduation will cause volatility so partial exit de-risks the rest.
+
+## [2026-08-27 14:07 UTC] buy | [LLM] $Trump at $1.10378e-05, spent 0.05 SOL
+- **Reasoning:** $Trump (Official Trump Coin) — Trump narrative is the strongest attention magnet on the internet. Fresh launch, 33% bonded, mcap $11k means room for 5-10x if it trends. Highest-conviction entry in the feed.
+
+## [2026-08-27 14:07 UTC] buy | [LLM] $callmonkey at $9.86346e-06, spent 0.05 SOL
+- **Reasoning:** $callmonkey has a real X account (theonboarder) and quirky meme narrative — absurdist animal memes have ridden attention waves repeatedly. $9.8k mcap with 31% bond = early entry.
+
