@@ -7315,3 +7315,6 @@
 ## [2026-08-27 13:58 UTC] sell | [TP +30% (25%)] $gavun at $7.71963e-06 | P&L: +53.4%
 - **Reasoning:** Auto take-profit at +53.4%
 
+## [2026-08-27 13:59 UTC] sell | [TP +30% (25%)] $gavun at $7.0037e-06 | P&L: +39.1%
+- **Reasoning:** Auto take-profit at +39.1%
+
