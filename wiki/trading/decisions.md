@@ -3277,3 +3277,15 @@
 ## [2026-08-27 02:14 UTC] buy | [LLM] $robonigga at $5.425e-06, spent 0.1 SOL
 - **Reasoning:** $robonigga is provocative/edgy — exactly the kind of name that goes viral in memecoin circles. $7.2k mcap with a bot-tracker Twitter handle attached; cheap entry, high narrative asymmetry.
 
+## [2026-08-27 02:16 UTC] sell | [FULL][LLM] $Naturalis at $1.09e-05 | P&L: -53.6%
+- **Reasoning:** Naturalis at -53.6% has breached the -50% hard cap; auto-close required per rules.
+
+## [2026-08-27 02:16 UTC] sell | [FULL][LLM] $MAX at $7.946e-06 | P&L: -62.5%
+- **Reasoning:** MAX at -62.5% has breached the -50% hard cap; auto-close required per rules.
+
+## [2026-08-27 02:16 UTC] buy | [LLM] $UNIPULSE at $3.08408e-06, spent 0.1 SOL
+- **Reasoning:** $UNIPULSE has a real Twitter account, a clear narrative (v4 trading agent for tokenized stocks), and a differentiated story — best attention signal in the batch.
+
+## [2026-08-27 02:16 UTC] buy | [LLM] $Miso at $5.49594e-06, spent 0.1 SOL
+- **Reasoning:** $Miso has a Twitter post from RemoBlax providing social attention signal at $5.4k mcap with bond 22% — early entry on attention.
+
