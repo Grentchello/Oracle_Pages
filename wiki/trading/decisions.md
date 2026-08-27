@@ -7429,3 +7429,6 @@
 ## [2026-08-27 14:10 UTC] buy | [LLM] $PONZI at $4.50481e-06, spent 0.05 SOL
 - **Reasoning:** $PONZI COIN is meta-narrative gold — Ponzi coins consistently pump because the name itself is the joke. Brand-new, decent X link, $4.5k mcap with massive upside. Worth a 0.1 SOL scalp.
 
+## [2026-08-27 14:11 UTC] sell | [TP +30% (25%)] $WTF at $1.83389e-06 | P&L: +44.6%
+- **Reasoning:** Auto take-profit at +44.6%
+
