@@ -4573,3 +4573,24 @@
 ## [2026-08-27 08:28 UTC] sell | [PARTIAL][LLM] $SUMMER at $2.90537e-06 | P&L: -1.4%
 - **Reasoning:** $SUMMER at -1.3% with 0.2h held, 476% pool share = illiquid and flat. No momentum, stale, free the slot.
 
+## [2026-08-27 08:29 UTC] sell | [TP +100% (75%)] $sigma at $8.44593e-06 | P&L: +164.8%
+- **Reasoning:** Auto take-profit at +164.8%
+
+## [2026-08-27 08:29 UTC] sell | [FULL][LLM] $sigma at $8.44593e-06 | P&L: +164.8%
+- **Reasoning:** $sigma is +164.8% in 0.1h — well past every TP threshold. Bot should have already taken profit; if not, lock it in now. Pool=$0 means bonding curve is dead, exit at market.
+
+## [2026-08-27 08:29 UTC] sell | [FULL][LLM] $ATF at $6.16469e-06 | P&L: -10.3%
+- **Reasoning:** $ATF down -10.3% in 0.0h with weak momentum and only $1422 pool. Bonding curve tokens that don't pump in first 15min usually bleed. Exit before -20%.
+
+## [2026-08-27 08:29 UTC] sell | [PARTIAL][LLM] $THEJEETS at $5.15149e-06 | P&L: +7.2%
+- **Reasoning:** $THEJEETS only +7.2% in 0.1h — not enough conviction. Take half profit, let the rest ride if it breaks out.
+
+## [2026-08-27 08:29 UTC] sell | [FULL][LLM] $SUMMER at $2.91063e-06 | P&L: -1.2%
+- **Reasoning:** $SUMMER down -1.2% and flat — stale capital at 0.2h with no momentum. Free the slot for fresher attention.
+
+## [2026-08-27 08:29 UTC] buy | [LLM] $MARCEL at $5.57528e-06, spent 0.1 SOL
+- **Reasoning:** $MARCEL — 'He created the 6M green legend.' Cult-of-artist narrative on a 0.3min old token with $5.5k mcap. Memes about legendary artists / creators with a clear owner-myth are classic pump fuel. Lottery ticket at 0.1 SOL.
+
+## [2026-08-27 08:29 UTC] buy | [LLM] $TICKET at $4.854e-06, spent 0.1 SOL
+- **Reasoning:** $TICKET — 'The Onchain Lottery' narrative. Lottery/gambling framing resonates hard with degen attention. 0.6min old, $4.5k mcap — asymmetric upside if the story catches.
+
