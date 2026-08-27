@@ -2653,3 +2653,15 @@
 ## [2026-08-27 00:56 UTC] buy | [LLM] $WD at $2.89555e-06, spent 0.1 SOL
 - **Reasoning:** $WD 'WASTE DAY' from @zerohedge — major crypto/news account with massive reach. Real attention signal from a high-follow account. $2.8k mcap with viral potential.
 
+## [2026-08-27 00:57 UTC] sell | [PARTIAL][LLM] $MEME1921 at $6.292e-06 | P&L: +64.5%
+- **Reasoning:** $MEME1921 up +64.5% in 0.2h with strong 24h momentum (+109%). Take half off the table to lock in gains per the +50% profit-take rule, let the rest ride if narrative continues.
+
+## [2026-08-27 00:57 UTC] sell | [PARTIAL][LLM] $SKRIMP at $7.43e-06 | P&L: +128.9%
+- **Reasoning:** $SKRIMP up +128.9% in just 0.1h with massive 1h/24h momentum (+147%). Take partial profits — this is parabolic and mean-reversion risk is high, but keep half for further upside.
+
+## [2026-08-27 00:57 UTC] sell | [FULL][LLM] $MARTINI at $4.298e-06 | P&L: -30.2%
+- **Reasoning:** $MARTINI at -30.2% with 24h only +12% (already fading intraday). Cutting this loser to free up a slot — capital is better deployed on fresh attention plays.
+
+## [2026-08-27 00:57 UTC] buy | [LLM] $CHUNGUS at $3.42273e-05, spent 0.1 SOL
+- **Reasoning:** $CHUNGUS 'Big Chungus' is a legendary meme IP with name-recognition moat. $34k mcap, 42% bond — strongest of the fresh launches by attention signal. Bet size 0.1 SOL.
+
