@@ -2917,3 +2917,15 @@
 ## [2026-08-27 01:27 UTC] buy | [LLM] $CREATORCUP at $3.44508e-06, spent 0.1 SOL
 - **Reasoning:** $CREATORCUP 'speculate on CT personalities' is a meta-narrative that always attracts attention in crypto CT. Real description, dedicated account (@CreatorCupSOL), low mcap = asymmetric upside.
 
+## [2026-08-27 01:29 UTC] sell | [FULL][LLM] $ZARD at $2.901e-06 | P&L: -59.7%
+- **Reasoning:** $ZARD at -59.7% has breached the -50% hard cap — automatic stop-out per rules, no override possible.
+
+## [2026-08-27 01:29 UTC] sell | [FULL][LLM] $KIP at $2.982e-06 | P&L: -59.3%
+- **Reasoning:** $KIP at -59.3% has breached the -50% hard cap — automatic stop-out per rules, no override possible.
+
+## [2026-08-27 01:29 UTC] sell | [FULL][LLM] $CREATORCUP at $2.826e-06 | P&L: -18.0%
+- **Reasoning:** $CREATORCUP at -18% with negative 24h momentum — cutting this small loss to free a slot before -50% hits.
+
+## [2026-08-27 01:29 UTC] buy | [LLM] $Quant at $1.07781e-05, spent 0.1 SOL
+- **Reasoning:** $Quant — already at 33% bond progression with an X link (afpost), $10.8k mcap, leading the new-launch wave. The 33% bond means real buy pressure vs the 0-1% bonds on everything else. Narrative + traction signal worth a 0.1 SOL entry.
+
