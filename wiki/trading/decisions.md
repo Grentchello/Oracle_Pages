@@ -5950,3 +5950,15 @@
 ## [2026-08-27 10:55 UTC] buy | [LLM] $Jordan at $3.09736e-06, spent 0.05 SOL
 - **Reasoning:** Jordan 41 has STRONG real-world narrative — Michael Jordan's 41st signature shoe is massive sneaker culture news, posted by @nicekicks (legit sneaker media). Memecoins tied to real product launches pump reliably. $3k mcap with bond only 3% is a perfect entry.
 
+## [2026-08-27 10:56 UTC] sell | [hard-stop] $Elephant closed at $2.93553e-06 | P&L: -48.1%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:56 UTC] sell | [PARTIAL][LLM] $Jordan at $2.90932e-06 | P&L: -6.1%
+- **Reasoning:** Jordan is down -6.1% in the first hour, no attention catalyst in the launches list (no twitter link), and we have 2584% share of an empty pool — that's a structural risk if we can't exit cleanly. Cutting early before it bleeds further.
+
+## [2026-08-27 10:56 UTC] buy | [LLM] $Larry at $3.69069e-06, spent 0.05 SOL
+- **Reasoning:** $Larry 'Operation Bluebird' tied to @bidtherunner — 'Operation Bluebird' has real-world news cycle vibes (Epstein/client references have historically pumped), fresh 0.3min, low $3.7k mcap. High narrative energy, worth a scalp position.
+
+## [2026-08-27 10:56 UTC] buy | [LLM] $Mob at $3.141e-06, spent 0.05 SOL
+- **Reasoning:** $Mob 'Monkey on bike' has explicit Chinese TikTok + Instagram viral playbook in the description — operator is engineering cross-platform meme distribution. That's the meta. Fresh launch, low mcap, clear attention strategy.
+
