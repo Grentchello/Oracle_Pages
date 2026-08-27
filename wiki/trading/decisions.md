@@ -5992,3 +5992,6 @@
 ## [2026-08-27 11:02 UTC] buy | [LLM] $Alex at $8.644e-06, spent 0.05 SOL
 - **Reasoning:** $Alex (The Rescued Seal) has a viral rescue-animal narrative tied to @Dioss_Sol, highest mcap of the new batch at $10.2k and already 32% bonded — this is the most 'attention-loaded' launch on the board, classic animal-meme setup.
 
+## [2026-08-27 11:03 UTC] sell | [FULL][LLM] $Alex at $1.10392e-05 | P&L: +27.7%
+- **Reasoning:** Up +27.7% but only 0.0h held and pool is tiny ($2959) with our share at 0% — this is a phantom P&L on an illiquid bonding-curve microcap. The bot's TP ladder starts at +25% so we're knocking on the door; rule says take profit when up >20% and doubt exists. Lock it.
+

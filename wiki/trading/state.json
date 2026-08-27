@@ -1,31 +1,8 @@
 {
-  "balance_sol": 1.002226,
+  "balance_sol": 1.06605,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GB5qeAKoEqWHEmqVBiahyZ7UBTcZN8i3UCeCysMapump": {
-      "symbol": "Alex",
-      "name": "The Rescued Seal",
-      "amount": 602267.4687644609,
-      "entry_price_usd": 8.644e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T11:02:05.893845+00:00",
-      "entry_usd_value": 5.206,
-      "entry_signals": {
-        "liquidity_usd": 2810.073043864,
-        "volume_24h_usd": 12186.34,
-        "market_cap_usd": 10256.405814023232,
-        "ath_market_cap_usd": 12827.662256563694,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 26.9887922,
-        "description": "Deployed using https://j7tracker.io",
-        "twitter": "https://x.com/Dioss_Sol/status/2092930395679428832",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -15632,19 +15609,30 @@
       "pnl_pct": 7.71,
       "exit_reason": "LLM: sell_all — Up only 7.7% on a brand-new entry, held 0.0h, history shows price already flatlined at $0.000000065x after an initial pop. No strong narrative attache",
       "partial": false
+    },
+    {
+      "mint": "GB5qeAKoEqWHEmqVBiahyZ7UBTcZN8i3UCeCysMapump",
+      "symbol": "Alex",
+      "name": "The Rescued Seal",
+      "amount_sold": 602267.4687644609,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T11:02:05.893845+00:00",
+      "exit_time": "2026-08-27T11:03:40.172957+00:00",
+      "entry_price_usd": 8.644e-06,
+      "exit_price_usd": 1.1039177501139775e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.063824,
+      "pnl_sol": 0.013824,
+      "pnl_pct": 27.71,
+      "exit_reason": "LLM: sell_all — Up +27.7% but only 0.0h held and pool is tiny ($2959) with our share at 0% — this is a phantom P&L on an illiquid bonding-curve microcap. The bot's TP",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T11:02:05.894152+00:00",
+  "last_updated": "2026-08-27T11:03:40.486409+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.12,
-  "portfolio_value_usd": 109.56,
+  "last_sol_price_usd": 104.17,
+  "portfolio_value_usd": 111.05,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 10:54 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $Elephant at $9.89749e-06 | P&L: +74.9%",
-      "reason": "Auto take-profit at +74.9%"
-    },
     {
       "time": "2026-08-27 10:54 UTC",
       "action": "sell",
@@ -15758,40 +15746,46 @@
       "action": "buy",
       "details": "[LLM] $Alex at $8.644e-06, spent 0.05 SOL",
       "reason": "$Alex (The Rescued Seal) has a viral rescue-animal narrative tied to @Dioss_Sol, highest mcap of the new batch at $10.2k and already 32% bonded — this is the most 'attention-loaded' launch on the board, classic animal-meme setup."
+    },
+    {
+      "time": "2026-08-27 11:03 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Alex at $1.10392e-05 | P&L: +27.7%",
+      "reason": "Up +27.7% but only 0.0h held and pool is tiny ($2959) with our share at 0% — this is a phantom P&L on an illiquid bonding-curve microcap. The bot's TP ladder starts at +25% so we're knocking on the door; rule says take profit when up >20% and doubt exists. Lock it."
     }
   ],
   "trade_stats": {
-    "total": 918,
-    "wins": 483,
+    "total": 919,
+    "wins": 484,
     "losses": 435,
-    "win_rate_pct": 52.6,
-    "total_pnl_sol": -0.847763,
-    "avg_pnl_pct": 48.38,
+    "win_rate_pct": 52.7,
+    "total_pnl_sol": -0.833939,
+    "avg_pnl_pct": 48.35,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 377,
-    "today_realized_sol": 0.584466,
-    "today_target_pct": 146.1,
+    "today_trades": 378,
+    "today_realized_sol": 0.59829,
+    "today_target_pct": 149.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 483,
+      "win_count": 484,
       "loss_count": 435,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T11:02:05.535323+00:00",
+  "last_llm_brief_at": "2026-08-27T11:03:40.172166+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "74zsos1eSpo54vhoAaEQ6rDhBMhb6Vr34VRN3Y1kpump": {
-      "price_usd": 7.0288266240523004e-06,
+    "GB5qeAKoEqWHEmqVBiahyZ7UBTcZN8i3UCeCysMapump": {
+      "price_usd": 1.1039177501139775e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1730.05589830196,
-      "volume_h24": 2110.66,
+      "liquidity_usd": 2959.05373939802,
+      "volume_h24": 16005.09,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 16.615980583
+      "real_sol_reserves": 28.406006906
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
