@@ -4399,3 +4399,9 @@
 ## [2026-08-27 08:05 UTC] sell | [FULL][LLM] $sigma at $1.3105e-05 | P&L: +152.5%
 - **Reasoning:** Pool=$0 and our share=6273181661% is a data anomaly indicating illiquid/broken position. Mint doesn't match current $sigma launch. Exit to be safe.
 
+## [2026-08-27 08:07 UTC] buy | [LLM] $ELEPHANTS at $3.79639e-06, spent 0.1 SOL
+- **Reasoning:** $ELEPHANTS (The Deluvian Elephants) — @therealbuni Twitter post backing it, unusual name = curiosity factor, $3.8k mcap. Low bond but real social signal.
+
+## [2026-08-27 08:07 UTC] buy | [LLM] $apeinbed at $3.21078e-06, spent 0.1 SOL
+- **Reasoning:** $apeinbed — extremely relatable crypto-native narrative (apes in bed checking Pump.fun), $3.2k mcap, viral potential with the degen community.
+
