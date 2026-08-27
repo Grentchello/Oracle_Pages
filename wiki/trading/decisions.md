@@ -2791,3 +2791,21 @@
 ## [2026-08-27 01:10 UTC] buy | [LLM] $carlitos at $3.97444e-06, spent 0.1 SOL
 - **Reasoning:** $carlitos follows the proven personal-name virality playbook ($jeffrey, $billy, $chico all ran) — posted by a small account but the name itself does the attention work at $4k mcap.
 
+## [2026-08-27 01:12 UTC] sell | [PARTIAL][LLM] $SKRIMP at $6.998e-06 | P&L: +115.6%
+- **Reasoning:** +115% in 40min on a small-cap memecoin — taking partial profit locks in gains while letting the rest ride if attention keeps building.
+
+## [2026-08-27 01:12 UTC] sell | [PARTIAL][LLM] $uponly at $1.842e-05 | P&L: +151.0%
+- **Reasoning:** +151% in 6min is parabolic and likely mean-reverting soon — banking half protects the win while leaving runner exposure.
+
+## [2026-08-27 01:12 UTC] sell | [FULL][LLM] $LICKDAR at $0.000108 | P&L: +1034.6%
+- **Reasoning:** +1034% in minutes on a fresh launch — this is the textbook exit. Memecoins give back these gains faster than they printed. Take the win.
+
+## [2026-08-27 01:12 UTC] sell | [FULL][LLM] $Fido at $2.929e-06 | P&L: -57.2%
+- **Reasoning:** -57% has breached the soft zone and entry thesis (attention/momentum) isn't playing out — cut the loss rather than averaging a dying narrative.
+
+## [2026-08-27 01:12 UTC] buy | [LLM] $GBULL at $9.35565e-06, spent 0.1 SOL
+- **Reasoning:** $GBULL: 'gold bull' narrative is a clean macro-meme hook, 31% bonding curve already filled, and the airdrop-to-top-holders mechanic creates forced buying pressure — strongest launch attention here.
+
+## [2026-08-27 01:12 UTC] buy | [LLM] $HAMSTER at $8.86564e-06, spent 0.1 SOL
+- **Reasoning:** $HAMSTER: animal memes with a dedicated X account are a repeatable attention pattern; cheap mcap under $9k with bonding already30% in means real buyers are pressing.
+
