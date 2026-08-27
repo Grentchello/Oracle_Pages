@@ -5641,3 +5641,15 @@
 ## [2026-08-27 10:28 UTC] sell | [TP +100% (50%)] $ANTSEM at $2.13142e-05 | P&L: +116.7%
 - **Reasoning:** Auto take-profit at +116.7%
 
+## [2026-08-27 10:28 UTC] sell | [PARTIAL][LLM] $ANTSEM at $2.13142e-05 | P&L: +116.7%
+- **Reasoning:** Up +116.7% in 6 minutes is a strong move but pool is only $5,320 — thin liquidity means reversal risk is high. Sell half to lock the +116% gain, let the rest ride toward the +200% TP trigger at 75%. Discipline over hope on a thin liquidity runner.
+
+## [2026-08-27 10:28 UTC] buy | [LLM] $黙れ at $6.3067e-06, spent 0.05 SOL
+- **Reasoning:** $黙れ (Dancing T-Rex) — $6.3k mcap Japanese meme, cultural virality appeal, X link attached. Low mcap = high attention multiplier. Risk: mcap may already be post-pump given relative size vs other launches.
+
+## [2026-08-27 10:28 UTC] buy | [LLM] $Wendy at $4.86835e-06, spent 0.05 SOL
+- **Reasoning:** $Wendy (Dinocat) — $4.9k mcap, literally 0 minutes old, X link attached. Cat meme on Solana has historical pump precedent (Doginal Cats, Popcat). Age=0 is maximum freshness — get in before herd arrives.
+
+## [2026-08-27 10:28 UTC] buy | [LLM] $ROGJUG at $3.91651e-06, spent 0.05 SOL
+- **Reasoning:** $ROGJUG 'SIGMA BOY RUNS TO THE HIGHEST POINT!' — viral narrative text on-chain, $3.9k mcap, bonding curve 8%. Meme phrase has tweetable energy. Risky: extremely fresh, could rug, but narrative is the main edge here.
+
