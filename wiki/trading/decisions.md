@@ -6619,3 +6619,6 @@
 ## [2026-08-27 12:20 UTC] buy | [LLM] $CUPSEY at $6.828e-06, spent 0.05 SOL
 - **Reasoning:** $CUPSEY — only 1 min old, single-word memorable name, narrative-friendly for streaming/internet culture. Early entry on bonding curve at 26%. Pure attention play on a catchy ticker.
 
+## [2026-08-27 12:21 UTC] sell | [TP +100% (50%)] $memecoin at $1.46231e-05 | P&L: +129.5%
+- **Reasoning:** Auto take-profit at +129.5%
+
