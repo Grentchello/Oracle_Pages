@@ -6199,3 +6199,9 @@
 ## [2026-08-27 11:30 UTC] buy | [LLM] $AGENTS at $8.26679e-06, spent 0.05 SOL
 - **Reasoning:** $AGENTS has the strongest fresh attention signal, a clear Ansem/agents narrative, and already reached roughly $8,251 market cap within about 30 seconds. It is highly speculative, so sizing discipline is essential.
 
+## [2026-08-27 11:31 UTC] sell | [hard-stop] $AGENTS closed at $3.31084e-06 | P&L: -60.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:31 UTC] sell | [TP +30% (25%)] $Cheshire at $8.59348e-06 | P&L: +36.6%
+- **Reasoning:** Auto take-profit at +36.6%
+
