@@ -6688,3 +6688,9 @@
 ## [2026-08-27 12:33 UTC] sell | [hard-stop] $WHEAT closed at $3.24861e-06 | P&L: -53.9%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 12:33 UTC] buy | [LLM] $Teddy at $4.82225e-06, spent 0.05 SOL
+- **Reasoning:** $Teddy (Justice For Teddy) — emotional narrative ('Justice') with X post backing, fresh launch at $4.8k mcap, 18% bonded. Classic attention-market play: story-driven ticker at micro-mcap.
+
+## [2026-08-27 12:33 UTC] buy | [LLM] $AI at $3.62955e-06, spent 0.05 SOL
+- **Reasoning:** $AI ('Ape In') — launched with discord community backing (discord.gg/uxento) and X post, $3.6k mcap. Community-launched meta-narrative (AI/Ape meta) at micro-mcap.
+
