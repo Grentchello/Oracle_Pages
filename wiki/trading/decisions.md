@@ -2851,3 +2851,18 @@
 ## [2026-08-27 01:18 UTC] buy | [LLM] $PRMPT at $2.90111e-06, spent 0.1 SOL
 - **Reasoning:** $PRMPT 'Promptato outsourced his last brain cell to AI' — perfect AI-meta narrative, highly on-trend for current X/Twitter cycles. Self-deprecating AI humor is viral fuel at $2.9k mcap.
 
+## [2026-08-27 01:19 UTC] sell | [FULL][LLM] $penny at $4.186e-06 | P&L: -53.0%
+- **Reasoning:** At -52.9%, this has BREACHED the -50% hard cap. Must close immediately regardless of narrative hopes — $penny is a generic name competing with multiple other $Penny mints and shows no recovery signal.
+
+## [2026-08-27 01:19 UTC] sell | [FULL][LLM] $GOOBERS at $2.815e-06 | P&L: -47.3%
+- **Reasoning:** $GOOBERS at -47.3% is inches from the -50% hard cap with 24h=-14.6% bleed still ongoing. No narrative strength justifies waiting for the auto-close to trigger.
+
+## [2026-08-27 01:19 UTC] sell | [FULL][LLM] $qCAT at $2.83e-06 | P&L: -44.7%
+- **Reasoning:** $qCAT at -44.7% with -16.9% 24h and still bleeding — same logic as GOOBERS. Cut before the hard cap fires and free capital for fresh attention.
+
+## [2026-08-27 01:19 UTC] buy | [LLM] $Penny at $6.38678e-06, spent 0.1 SOL
+- **Reasoning:** $Penny (Penny To A Penny) has the strongest narrative of the batch — a real tweet with a story and 32% bond progress at $6.4k mcap. Cheapest entry to a potentially viral pun-name meta. Risk: sub-$10k mcap means rug-prone, but the attention signal is concrete.
+
+## [2026-08-27 01:19 UTC] buy | [LLM] $Bull at $9.76615e-06, spent 0.1 SOL
+- **Reasoning:** $Bull on Bullpad has a dedicated X account (0xbl33p) — that's a builder with skin in the game, not a stealth deploy. $9.8k mcap, freshest 32% bond. Bull meta is perennial memecoin fuel.
+
