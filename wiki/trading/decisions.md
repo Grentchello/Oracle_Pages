@@ -6562,3 +6562,12 @@
 ## [2026-08-27 12:11 UTC] buy | [LLM] $BEEHIVE at $4.02e-06, spent 0.05 SOL
 - **Reasoning:** $BEEHIVE — 'The Beehive Study' has an active Twitter account (@TheBeehiveStudy) at 1.1min age, $3.8k mcap. Narrative brand token with named project = best attention signal in batch.
 
+## [2026-08-27 12:13 UTC] sell | [PARTIAL][LLM] $BEEHIVE at $2.92633e-06 | P&L: -27.2%
+- **Reasoning:** -27.2% with 96% share of a $4 pool is a death trap — no exit liquidity exists, hard stop is imminent. Cut the loss now before the bot force-closes me at -30% in an even thinner book.
+
+## [2026-08-27 12:13 UTC] buy | [LLM] $CYBERWAR at $7.23617e-06, spent 0.05 SOL
+- **Reasoning:** $CYBERWAR is tethered to a live Polymarket event ('The Great Cyber War') — cross-platform attention flow is the strongest viral catalyst in this slate. Sub-$10k mcap with a real narrative can5-10x fast.
+
+## [2026-08-27 12:13 UTC] buy | [LLM] $Jing Tian at $3.96301e-06, spent 0.05 SOL
+- **Reasoning:** $Jing Tian carries a Justin Sun-attached tweet (high-follower celebrity amplifier) plus a personal-romance narrative — exactly the kind of attention that pumps microcaps in the first hour. Asymmetric risk at $4k mcap.
+
