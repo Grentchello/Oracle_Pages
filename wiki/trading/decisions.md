@@ -5755,3 +5755,9 @@
 ## [2026-08-27 10:37 UTC] buy | [LLM] $CJP at $3.937e-06, spent 0.05 SOL
 - **Reasoning:** $CJP 'Cockroach Janta Party' has IndiaToday mainstream media twitter link — that is real mainstream attention, not just CT noise. $2,972 mcap with 1% bonding = very early, easy 3-5x potential if it picks up engagement.
 
+## [2026-08-27 10:38 UTC] sell | [TP +30% (25%)] $チョロ松 at $8.74335e-06 | P&L: +70.6%
+- **Reasoning:** Auto take-profit at +70.6%
+
+## [2026-08-27 10:38 UTC] sell | [TP +30% (25%)] $COVID-26 at $2.25937e-05 | P&L: +89.0%
+- **Reasoning:** Auto take-profit at +88.9%
+
