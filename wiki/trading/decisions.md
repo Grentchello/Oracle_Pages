@@ -3790,3 +3790,9 @@
 ## [2026-08-27 03:11 UTC] buy | [LLM] $Wrixel at $3.3032e-06, spent 0.1 SOL
 - **Reasoning:** $Wrixel backed by @Cented7 (known memecoin degen with real distribution), $3.3k mcap gives 10x+ room. Small position size justified by the influencer signal.
 
+## [2026-08-27 03:11 UTC] sell | [FULL][LLM] $EDEK at $8.2232e-06 | P&L: +5.2%
+- **Reasoning:** $EDEK only +5.2% after 12 min, pool is tiny ($2140) with our share near 0% — thin liquidity means exit gets harder as more holders pile in. Lock the small gain and rotate into fresher launches with bigger attention pulses.
+
+## [2026-08-27 03:11 UTC] sell | [PARTIAL][LLM] $OPUS at $1.03512e-05 | P&L: +16.1%
+- **Reasoning:** $OPUS is up +16% just minutes in but the name 'Opus 5' has FOUR duplicate mints on the bonding curve — that fragmentation will cannibalize liquidity and confuse buyers. Take half profit now; let the rest ride if one variant pulls ahead, otherwise exit.
+
