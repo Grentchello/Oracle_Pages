@@ -3253,3 +3253,15 @@
 ## [2026-08-27 02:11 UTC] buy | [LLM] $ButtGoblin at $6.25525e-06, spent 0.1 SOL
 - **Reasoning:** $ButtGoblin — unique name, real human X account (RemoBlax, not a bot), fresh launch. The only organic-attention signal in this batch. 0.1 SOL position.
 
+## [2026-08-27 02:13 UTC] sell | [FULL][LLM] $NetNut at $2.982e-06 | P&L: -8.9%
+- **Reasoning:** $NetNut at -8.9% with 1h=-7.7% showing accelerating downside on a low-attention name. Cut before it widens further — no narrative edge worth defending here.
+
+## [2026-08-27 02:13 UTC] sell | [FULL][LLM] $ButtGoblin at $2.845e-06 | P&L: -54.5%
+- **Reasoning:** $ButtGoblin at -54.5% has breached the -50% hard cap. Per rules this should auto-close; honoring the cap and exiting immediately to free the slot.
+
+## [2026-08-27 02:13 UTC] buy | [LLM] $Naturalis at $2.35055e-05, spent 0.1 SOL
+- **Reasoning:** $Naturalis — 'Naturalis Historia' riff is a clever cultural hook (Pliny the Elder) and it leads the new launches at $23k mcap with 39% bond progress. Real narrative edge at a price where 10x is plausible. Risky because sub-1m old, but that's where alpha lives.
+
+## [2026-08-27 02:13 UTC] buy | [LLM] $ELLIE at $4.02443e-06, spent 0.1 SOL
+- **Reasoning:** $ELLIE — 'Neuralink Cat' ties Musk/Neuralink attention to a memeable pet story. Sub-minute age, $4k mcap — cheap exposure if the X post catches. Narrative is timely and visual.
+
