@@ -3349,3 +3349,9 @@
 ## [2026-08-27 02:23 UTC] buy | [LLM] $HOBBES at $5.00498e-06, spent 0.1 SOL
 - **Reasoning:** $HOBBES 'Ansem's cat' is a built-in audience play — Ansem (Solana memecoin KOL) follower base is massive and cat memes travel fast. Strongest narrative in the batch.
 
+## [2026-08-27 02:24 UTC] sell | [FULL][LLM] $TAZ at $2.835e-06 | P&L: -57.5%
+- **Reasoning:** $TAZ is at -57.5%, past the -50% hard cap. Must close immediately per rules.
+
+## [2026-08-27 02:24 UTC] sell | [FULL][LLM] $BROKERS at $2.884e-06 | P&L: -39.1%
+- **Reasoning:** $BROKERS at -39.1% with negative 24h momentum (-0.3%). Cutting risk before it hits -50% hard cap.
+
