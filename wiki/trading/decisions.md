@@ -3334,3 +3334,18 @@
 ## [2026-08-27 02:21 UTC] buy | [LLM] $stage at $4.6652e-06, spent 0.1 SOL
 - **Reasoning:** $stage — Stage Tour launching Dec 10 with 90+ real songs, Guitar Hero replacement narrative. Tangible product timeline creates a catalyst. Strong memecoin narrative hook at $4.7k mcap.
 
+## [2026-08-27 02:23 UTC] sell | [FULL][LLM] $JAN183411 at $2.849e-06 | P&L: -42.8%
+- **Reasoning:** $JAN183411 is at -42.8% with both 1h and 24h negative, closing fast on -50% hard cap. Cut and free the slot.
+
+## [2026-08-27 02:23 UTC] sell | [FULL][LLM] $Cashew at $3.464e-06 | P&L: -45.0%
+- **Reasoning:** $Cashew at -44.9% and dropping, only held 0.0h with no narrative to save it. Exit before -50% kills it.
+
+## [2026-08-27 02:23 UTC] sell | [FULL][LLM] $pumpling at $2.842e-06 | P&L: -25.4%
+- **Reasoning:** $pumpling at -25.4% with negative 1h momentum, no attention signal to hold. Free capital for fresh launches.
+
+## [2026-08-27 02:23 UTC] buy | [LLM] $TAZ at $6.66361e-06, spent 0.1 SOL
+- **Reasoning:** $TAZ 'Digital Pet' with active Twitter signal and 26% bond (highest in fresh batch) — animal/pet narrative has viral legs and the X post gives real attention anchor.
+
+## [2026-08-27 02:23 UTC] buy | [LLM] $HOBBES at $5.00498e-06, spent 0.1 SOL
+- **Reasoning:** $HOBBES 'Ansem's cat' is a built-in audience play — Ansem (Solana memecoin KOL) follower base is massive and cat memes travel fast. Strongest narrative in the batch.
+
