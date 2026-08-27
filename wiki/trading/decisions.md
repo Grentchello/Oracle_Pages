@@ -4333,3 +4333,9 @@
 ## [2026-08-27 07:54 UTC] buy | [LLM] $CNM at $5.00624e-06, spent 0.1 SOL
 - **Reasoning:** $CNM at 0.1min, $5k mcap, has Twitter link — freshest launch with a clear cultural narrative (China/never-misses meme) and attached attention. Highest urgency in the batch.
 
+## [2026-08-27 07:55 UTC] sell | [FULL][LLM] $CNM at $3.90538e-06 | P&L: -22.0%
+- **Reasoning:** Down -22% on a thin $524 pool with no bounce signal. Stale-position rule + loser-exit-fast rule both apply. Cut and rotate.
+
+## [2026-08-27 07:55 UTC] buy | [LLM] $NSIDIA at $6.27349e-06, spent 0.1 SOL
+- **Reasoning:** $NSIDIA is a classic NVIDIA parody by a specific X account (MarioPrezidente) — attention markets love ticker-similarity plays. Sub-$10k mcap entry.
+

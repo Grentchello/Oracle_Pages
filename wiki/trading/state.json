@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.744713,
+  "balance_sol": 0.722677,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -14,24 +14,24 @@
       "entry_signals": {},
       "llm_entry": true
     },
-    "AQAawUAuLbUNvPw8a4AmbddvCpM5R7SUSHygRH5Fpump": {
-      "symbol": "CNM",
-      "name": "China Never Misses",
-      "amount": 2031863.821121833,
-      "entry_price_usd": 5.006241015888473e-06,
+    "GmMNUcoYpf4ngo8k9cXfvXGr1P7JHxHU74MBTcu4pump": {
+      "symbol": "NSIDIA",
+      "name": "NSIDIA",
+      "amount": 1622381.8409064857,
+      "entry_price_usd": 6.2734923082676825e-06,
       "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T07:54:20.894889+00:00",
-      "entry_usd_value": 10.172,
+      "entry_time": "2026-08-27T07:55:45.426559+00:00",
+      "entry_usd_value": 10.178,
       "entry_signals": {
-        "liquidity_usd": 104.36435777508001,
+        "liquidity_usd": 734.67372174028,
         "volume_24h_usd": null,
-        "market_cap_usd": 4997.493656271591,
-        "ath_market_cap_usd": 5592.329014685371,
+        "market_cap_usd": 6292.784284123084,
+        "ath_market_cap_usd": 6803.448888156749,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1.025996439,
+        "real_sol_reserves": 7.218252326,
         "description": "",
-        "twitter": "https://x.com/chinh132hn/status/2092882728383643869",
+        "twitter": "https://x.com/MarioPrezidente/status/2092883546075504990",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -9574,25 +9574,30 @@
       "pnl_pct": 408.86,
       "exit_reason": "auto-TP +300% (full)",
       "partial": false
+    },
+    {
+      "mint": "AQAawUAuLbUNvPw8a4AmbddvCpM5R7SUSHygRH5Fpump",
+      "symbol": "CNM",
+      "name": "China Never Misses",
+      "amount_sold": 2031863.821121833,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T07:54:20.894889+00:00",
+      "exit_time": "2026-08-27T07:55:44.838443+00:00",
+      "entry_price_usd": 5.006241015888473e-06,
+      "exit_price_usd": 3.90537878295522e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.077964,
+      "pnl_sol": -0.022036,
+      "pnl_pct": -21.99,
+      "exit_reason": "LLM: sell_all — Down -22% on a thin $524 pool with no bounce signal. Stale-position rule + loser-exit-fast rule both apply. Cut and rotate.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T07:54:20.895242+00:00",
+  "last_updated": "2026-08-27T07:55:45.730154+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.72,
-  "portfolio_value_usd": 95.92,
+  "last_sol_price_usd": 101.78,
+  "portfolio_value_usd": 93.73,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 07:47 UTC",
-      "action": "buy",
-      "details": "[LLM] $AC at $2.85781e-06, spent 0.1 SOL",
-      "reason": "$AC (Air Conchickener) has a viral X post about a man tying a chicken to the ceiling as AC in Thailand — absurd visual story = exactly the kind of attention that pumps memecoins. $2.8k mcap is risky but the narrative is concrete and shareable."
-    },
-    {
-      "time": "2026-08-27 07:48 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $bodycam at $3.01753e-06 | P&L: +6.2%",
-      "reason": "Bodycam up only 6.3% on a tiny $97 pool with us holding 11% — we're a huge chunk of liquidity and will struggle to exit without moving price. Cut and redeploy."
-    },
     {
       "time": "2026-08-27 07:48 UTC",
       "action": "sell",
@@ -9700,28 +9705,40 @@
       "action": "buy",
       "details": "[LLM] $CNM at $5.00624e-06, spent 0.1 SOL",
       "reason": "$CNM at 0.1min, $5k mcap, has Twitter link — freshest launch with a clear cultural narrative (China/never-misses meme) and attached attention. Highest urgency in the batch."
+    },
+    {
+      "time": "2026-08-27 07:55 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CNM at $3.90538e-06 | P&L: -22.0%",
+      "reason": "Down -22% on a thin $524 pool with no bounce signal. Stale-position rule + loser-exit-fast rule both apply. Cut and rotate."
+    },
+    {
+      "time": "2026-08-27 07:55 UTC",
+      "action": "buy",
+      "details": "[LLM] $NSIDIA at $6.27349e-06, spent 0.1 SOL",
+      "reason": "$NSIDIA is a classic NVIDIA parody by a specific X account (MarioPrezidente) — attention markets love ticker-similarity plays. Sub-$10k mcap entry."
     }
   ],
   "trade_stats": {
-    "total": 561,
+    "total": 562,
     "wins": 259,
-    "losses": 302,
-    "win_rate_pct": 46.2,
-    "total_pnl_sol": -1.055277,
-    "avg_pnl_pct": 56.35,
+    "losses": 303,
+    "win_rate_pct": 46.1,
+    "total_pnl_sol": -1.077313,
+    "avg_pnl_pct": 56.21,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 20,
-    "today_realized_sol": 0.376952,
-    "today_target_pct": 94.2,
+    "today_trades": 21,
+    "today_realized_sol": 0.354916,
+    "today_target_pct": 88.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 259,
-      "loss_count": 302,
+      "loss_count": 303,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T07:54:20.590655+00:00",
+  "last_llm_brief_at": "2026-08-27T07:55:44.837911+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FAKE_HARDSTOP_MINT_pump": {
@@ -9735,27 +9752,16 @@
       "complete": false,
       "real_sol_reserves": 0
     },
-    "56bNXcngxy1Ze8LquEfXyNH8i274erC3g7rWRHz2pump": {
-      "price_usd": 2.9832693530906977e-06,
+    "AQAawUAuLbUNvPw8a4AmbddvCpM5R7SUSHygRH5Fpump": {
+      "price_usd": 3.90537878295522e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 73.83087749824,
-      "volume_h24": 41580.17,
+      "liquidity_usd": 523.63585201158,
+      "volume_h24": 3765.99,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.725824592
-    },
-    "4NSPwa7f4pfsBwm5KxzAspV5XsB8mQ2NJCQ6knedpump": {
-      "price_usd": 2.591999090389503e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 6160.97606374508,
-      "volume_h24": 6391.12,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 60.567991189
+      "real_sol_reserves": 5.144781411
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
