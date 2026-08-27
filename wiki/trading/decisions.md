@@ -6457,3 +6457,9 @@
 ## [2026-08-27 12:02 UTC] sell | [hard-stop] $67boobs closed at $2.91445e-06 | P&L: -43.0%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 12:03 UTC] sell | [PARTIAL][LLM] $CIGR at $4.981e-05 | P&L: +28.2%
+- **Reasoning:** CIGR is +28.2%, just below the +30% TP trigger but the price history shows completely flat candles (▁▁▁▁) for 4 minutes and pool is only $17k. Momentum is stalling — lock half the gain now, let the rest ride with a tight mental stop.
+
+## [2026-08-27 12:03 UTC] buy | [LLM] $tards  at $8.92106e-06, spent 0.05 SOL
+- **Reasoning:** $tards 'STOP SELLING EVERY RED CAND' is a meta-narrative aimed at exactly this bot/retail crowd, mcap $8.9k is the highest of the fresh batch, and the name is built for viral engagement. Higher hit probability than the $500-$3k mcap noise.
+
