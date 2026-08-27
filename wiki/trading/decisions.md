@@ -3616,3 +3616,15 @@
 ## [2026-08-27 02:54 UTC] buy | [LLM] $Jared at $4.13354e-06, spent 0.1 SOL
 - **Reasoning:** $Jared 'cat wif helmet' — pets-with-headgear is a proven viral category (think $POPCAT, $MICHIGAN). PurpTheQuant callout adds a quant-influencer attention signal. Buying 0.1 SOL.
 
+## [2026-08-27 02:56 UTC] sell | [FULL][LLM] $TOPBLAST at $1.88704e-05 | P&L: +72.7%
+- **Reasoning:** +72.7% hits profit-take zone; pool $4805 is real liquidity; free capital for fresh attention plays.
+
+## [2026-08-27 02:56 UTC] sell | [FULL][LLM] $MSB at $3.28064e-06 | P&L: -46.5%
+- **Reasoning:** -46.5% near -50% hard cap and pool is only $232 — dead, cut now to preserve slot.
+
+## [2026-08-27 02:56 UTC] sell | [FULL][LLM] $Cheesecake at $3.58829e-06 | P&L: -31.8%
+- **Reasoning:** -31.8% with $382 pool and 2% of pool — thin and fading, no reason to hold a loser.
+
+## [2026-08-27 02:56 UTC] buy | [LLM] $hakes at $2.936e-06, spent 0.1 SOL
+- **Reasoning:** $hakes — creator angle ('Original artist', 'Owner of Ape fone'), personal brand @imhakes. Real-person narrative has attention legs.
+
