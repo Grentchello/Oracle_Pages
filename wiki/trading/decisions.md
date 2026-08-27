@@ -5629,3 +5629,12 @@
 ## [2026-08-27 10:25 UTC] buy | [LLM] $GLIRAP at $3.80675e-06, spent 0.05 SOL
 - **Reasoning:** $GLIRAP 'Glitched Raptor / SIGMA BOY' — sigma boy meta is genuinely trending right now, narrative is concrete ('runs to highest point'), and mcap is only $3.8k with 9% bonded meaning massive upside if it catches. $sigma entry below is duplicate narrative but this one has the 'Glitched Raptor' wrapper.
 
+## [2026-08-27 10:26 UTC] sell | [TP +30% (25%)] $ANTSEM at $1.92135e-05 | P&L: +95.3%
+- **Reasoning:** Auto take-profit at +95.4%
+
+## [2026-08-27 10:27 UTC] sell | [PARTIAL][LLM] $ANTSEM at $1.92135e-05 | P&L: +95.3%
+- **Reasoning:** Up95% — past 75% TP tier. Lock half the gain; let the rest ride if narrative holds. Pool only $4.9k so we can't exit all anyway without slippage.
+
+## [2026-08-27 10:27 UTC] sell | [FULL][LLM] $GLIRAP at $3.84134e-06 | P&L: +0.9%
+- **Reasoning:** Flat (+0.9%) with $20 pool (4x below min liquidity), our 26% share means we ARE the liquidity. Stale and illiquid — exit before it bleeds.
+

@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.992258,
+  "balance_sol": 1.043657,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DuVgdHeEk7ejWPxWY5G3PQA99oEGGLmnbWuWWxpEpump": {
       "symbol": "ANTSEM",
       "name": "The Black Ant",
-      "amount": 6999.754521433242,
+      "amount": 2624.907945537466,
       "entry_price_usd": 9.835305845611801e-06,
-      "entry_sol_spent": 0.0006591796875,
+      "entry_sol_spent": 0.00024719238281250004,
       "entry_time": "2026-08-27T10:20:07.151329+00:00",
       "entry_usd_value": 5.222,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 22.785420416,
         "description": "",
         "twitter": "https://x.com/i/communities/2028795982641516951",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "Ecxcvn8zH2hvVDVJFGssQh2ufWiY5U6QJX5tPZRQpump": {
-      "symbol": "GLIRAP",
-      "name": "Glitched Raptor",
-      "amount": 1368097.1538271161,
-      "entry_price_usd": 3.806747192939578e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T10:25:39.330071+00:00",
-      "entry_usd_value": 5.208,
-      "entry_signals": {
-        "liquidity_usd": 355.54697989104,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3799.7484212829763,
-        "ath_market_cap_usd": 4239.474045112926,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.413469469,
-        "description": "SIGMA BOY RUNS TO THE HIGHEST POINT!",
-        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -14413,31 +14391,64 @@
       "pnl_pct": -25.9,
       "exit_reason": "LLM: sell_all — -25.9% and near the -30% hard stop. Pool=$0 means no real liquidity, 'pump.fun' as a ticker is weak narrative, and our share=371685282% suggests we ho",
       "partial": false
+    },
+    {
+      "mint": "DuVgdHeEk7ejWPxWY5G3PQA99oEGGLmnbWuWWxpEpump",
+      "symbol": "ANTSEM",
+      "name": "The Black Ant",
+      "amount_sold": 1749.9386303583105,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T10:20:07.151329+00:00",
+      "exit_time": "2026-08-27T10:26:43.750562+00:00",
+      "entry_price_usd": 9.835305845611801e-06,
+      "exit_price_usd": 1.921351352031676e-05,
+      "entry_sol_for_chunk": 0.000165,
+      "exit_sol_received": 0.000324,
+      "pnl_sol": 0.000159,
+      "pnl_pct": 95.35,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "DuVgdHeEk7ejWPxWY5G3PQA99oEGGLmnbWuWWxpEpump",
+      "symbol": "ANTSEM",
+      "name": "The Black Ant",
+      "amount_sold": 2624.907945537466,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T10:20:07.151329+00:00",
+      "exit_time": "2026-08-27T10:27:03.027228+00:00",
+      "entry_price_usd": 9.835305845611801e-06,
+      "exit_price_usd": 1.921351352031676e-05,
+      "entry_sol_for_chunk": 0.000247,
+      "exit_sol_received": 0.000485,
+      "pnl_sol": 0.000238,
+      "pnl_pct": 95.35,
+      "exit_reason": "LLM: sell_half — Up95% — past 75% TP tier. Lock half the gain; let the rest ride if narrative holds. Pool only $4.9k so we can't exit all anyway without slippage.",
+      "partial": true
+    },
+    {
+      "mint": "Ecxcvn8zH2hvVDVJFGssQh2ufWiY5U6QJX5tPZRQpump",
+      "symbol": "GLIRAP",
+      "name": "Glitched Raptor",
+      "amount_sold": 1368097.1538271161,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T10:25:39.330071+00:00",
+      "exit_time": "2026-08-27T10:27:03.027514+00:00",
+      "entry_price_usd": 3.806747192939578e-06,
+      "exit_price_usd": 3.8413405249813444e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05059,
+      "pnl_sol": 0.00059,
+      "pnl_pct": 0.91,
+      "exit_reason": "LLM: sell_all — Flat (+0.9%) with $20 pool (4x below min liquidity), our 26% share means we ARE the liquidity. Stale and illiquid — exit before it bleeds.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T10:25:39.623693+00:00",
+  "last_updated": "2026-08-27T10:27:03.328999+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.16,
-  "portfolio_value_usd": 108.63,
+  "last_sol_price_usd": 103.88,
+  "portfolio_value_usd": 108.44,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 10:20 UTC",
-      "action": "buy",
-      "details": "[LLM] $ANTSEM at $9.83531e-06, spent 0.05 SOL",
-      "reason": "$ANTSEM 'The Black Ant' — different narrative than AGENTX cluster, community-backed X community post, 31% bonding, fresh at 0.5min. Diversifies away from AGENTX concentration risk."
-    },
-    {
-      "time": "2026-08-27 10:21 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $X closed at $4.26446e-06 | P&L: -73.4%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-08-27 10:21 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $ANTSEM at $1.54959e-05 | P&L: +57.5%",
-      "reason": "Auto take-profit at +57.6%"
-    },
     {
       "time": "2026-08-27 10:21 UTC",
       "action": "sell",
@@ -14539,51 +14550,69 @@
       "action": "buy",
       "details": "[LLM] $GLIRAP at $3.80675e-06, spent 0.05 SOL",
       "reason": "$GLIRAP 'Glitched Raptor / SIGMA BOY' — sigma boy meta is genuinely trending right now, narrative is concrete ('runs to highest point'), and mcap is only $3.8k with 9% bonded meaning massive upside if it catches. $sigma entry below is duplicate narrative but this one has the 'Glitched Raptor' wrapper."
+    },
+    {
+      "time": "2026-08-27 10:26 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $ANTSEM at $1.92135e-05 | P&L: +95.3%",
+      "reason": "Auto take-profit at +95.4%"
+    },
+    {
+      "time": "2026-08-27 10:27 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $ANTSEM at $1.92135e-05 | P&L: +95.3%",
+      "reason": "Up95% — past 75% TP tier. Lock half the gain; let the rest ride if narrative holds. Pool only $4.9k so we can't exit all anyway without slippage."
+    },
+    {
+      "time": "2026-08-27 10:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GLIRAP at $3.84134e-06 | P&L: +0.9%",
+      "reason": "Flat (+0.9%) with $20 pool (4x below min liquidity), our 26% share means we ARE the liquidity. Stale and illiquid — exit before it bleeds."
     }
   ],
   "trade_stats": {
-    "total": 845,
-    "wins": 434,
+    "total": 848,
+    "wins": 437,
     "losses": 411,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -0.85707,
-    "avg_pnl_pct": 48.49,
+    "win_rate_pct": 51.5,
+    "total_pnl_sol": -0.856083,
+    "avg_pnl_pct": 48.55,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 304,
-    "today_realized_sol": 0.575159,
-    "today_target_pct": 143.8,
+    "today_trades": 307,
+    "today_realized_sol": 0.576146,
+    "today_target_pct": 144.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 434,
+      "win_count": 437,
       "loss_count": 411,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T10:25:38.681779+00:00",
+  "last_llm_brief_at": "2026-08-27T10:27:03.027192+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DuVgdHeEk7ejWPxWY5G3PQA99oEGGLmnbWuWWxpEpump": {
-      "price_usd": 1.909709917853986e-05,
+      "price_usd": 1.921351352031676e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4877.12867951568,
-      "volume_h24": 19458.71,
+      "liquidity_usd": 4899.085900174479,
+      "volume_h24": 20810.21,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 46.823432023
+      "real_sol_reserves": 47.161011746
     },
-    "EdkwqtQCNEMY5MmQuGhqkex8Yq2qB3caUhfj4cSBuzA9": {
-      "price_usd": 2.9122087614553587e-06,
+    "Ecxcvn8zH2hvVDVJFGssQh2ufWiY5U6QJX5tPZRQpump": {
+      "price_usd": 3.8413405249813444e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.0416e-06,
-      "volume_h24": 0,
+      "liquidity_usd": 20.29027696108,
+      "volume_h24": 2680.96,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1e-08
+      "real_sol_reserves": 0.195324191
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
