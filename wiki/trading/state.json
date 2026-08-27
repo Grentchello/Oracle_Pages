@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.996085,
+  "balance_sol": 1.029626,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "55Ufpo4bpfUksyLtvwAtJPJy4djDayqg65kgKSnnpump": {
       "symbol": "lily",
       "name": "monkey wif helmet",
-      "amount": 522063.7086499256,
+      "amount": 195773.8907437221,
       "entry_price_usd": 1.0040920127461052e-05,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.018750000000000003,
       "entry_time": "2026-08-27T09:15:17.189555+00:00",
       "entry_usd_value": 5.242000000000001,
       "entry_signals": {
@@ -47,24 +47,24 @@
       },
       "llm_entry": true
     },
-    "BByTk4UVmRRGC2EMdePKW9ByYXxHzJSB2VAg4ECpump": {
-      "symbol": "SHRIMP",
-      "name": "Shrimp Taste Tester",
-      "amount": 1029054.022447862,
-      "entry_price_usd": 5.093998843258583e-06,
+    "7mZLFNiWug3fAyBiraHTZRYPXYYmPWEHfHFTMmJTpump": {
+      "symbol": "BRICS",
+      "name": "BRICS",
+      "amount": 1685999.1520793403,
+      "entry_price_usd": 3.105280328013846e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T09:15:17.497066+00:00",
-      "entry_usd_value": 5.242000000000001,
+      "entry_time": "2026-08-27T09:16:51.140000+00:00",
+      "entry_usd_value": 5.2355,
       "entry_signals": {
-        "liquidity_usd": 79.25545751236,
+        "liquidity_usd": 60.63276182657,
         "volume_24h_usd": null,
-        "market_cap_usd": 5077.76475374019,
-        "ath_market_cap_usd": 6958.627348464031,
+        "market_cap_usd": 3097.030516569687,
+        "ath_market_cap_usd": 5571.324732854854,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.755965829,
-        "description": "",
-        "twitter": "https://x.com/DevWizardxbt/status/2092903615614578857?s=20",
+        "real_sol_reserves": 0.579054167,
+        "description": "Deployed using https://j7tracker.io",
+        "twitter": "https://x.com/firstpost/status/2092903919370543610",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -12106,37 +12106,64 @@
       "pnl_pct": -38.09,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "BByTk4UVmRRGC2EMdePKW9ByYXxHzJSB2VAg4ECpump",
+      "symbol": "SHRIMP",
+      "name": "Shrimp Taste Tester",
+      "amount_sold": 1029054.022447862,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T09:15:17.497066+00:00",
+      "exit_time": "2026-08-27T09:16:21.781233+00:00",
+      "entry_price_usd": 5.093998843258583e-06,
+      "exit_price_usd": 2.9601180797205073e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.029091,
+      "pnl_sol": -0.020909,
+      "pnl_pct": -41.89,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "55Ufpo4bpfUksyLtvwAtJPJy4djDayqg65kgKSnnpump",
+      "symbol": "lily",
+      "name": "monkey wif helmet",
+      "amount_sold": 130515.9271624814,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T09:15:17.189555+00:00",
+      "exit_time": "2026-08-27T09:16:21.781682+00:00",
+      "entry_price_usd": 1.0040920127461052e-05,
+      "exit_price_usd": 1.7473594607749923e-05,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.02178,
+      "pnl_sol": 0.00928,
+      "pnl_pct": 74.02,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "55Ufpo4bpfUksyLtvwAtJPJy4djDayqg65kgKSnnpump",
+      "symbol": "lily",
+      "name": "monkey wif helmet",
+      "amount_sold": 195773.8907437221,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T09:15:17.189555+00:00",
+      "exit_time": "2026-08-27T09:16:50.515061+00:00",
+      "entry_price_usd": 1.0040920127461052e-05,
+      "exit_price_usd": 1.7473594607749923e-05,
+      "entry_sol_for_chunk": 0.01875,
+      "exit_sol_received": 0.03267,
+      "pnl_sol": 0.01392,
+      "pnl_pct": 74.02,
+      "exit_reason": "LLM: sell_half — $lily up +74% and approaching the +75% TP threshold; pool is healthy ($4.5k) but our share is 0% meaning price moved without us — taking half off lock",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T09:15:17.497302+00:00",
+  "last_updated": "2026-08-27T09:16:51.140271+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.84,
-  "portfolio_value_usd": 120.15,
+  "last_sol_price_usd": 104.71,
+  "portfolio_value_usd": 120.25,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 09:07 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $mouse at $2.97912e-05 | P&L: +41.5%",
-      "reason": "mouse +41.5% in <5min on $6870 pool — strong pump but classic memecoin behavior is to give back gains. Lock half, let the rest ride."
-    },
-    {
-      "time": "2026-08-27 09:08 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $mouse closed at $7.683e-06 | P&L: -63.5%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-08-27 09:08 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $Choromatsu at $1.1302e-05 | P&L: +57.5%",
-      "reason": "Auto take-profit at +57.5%"
-    },
-    {
-      "time": "2026-08-27 09:09 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Choromatsu at $1.1302e-05 | P&L: +57.5%",
-      "reason": "+57.5% in 0.1h hits the +50% take-profit threshold. Lock half the gain; let the other half ride if narrative holds. Bonding curve still active so upside remains, but memecoins reverse fast."
-    },
     {
       "time": "2026-08-27 09:09 UTC",
       "action": "sell",
@@ -12232,40 +12259,86 @@
       "action": "buy",
       "details": "[LLM] $SHRIMP at $5.094e-06, spent 0.05 SOL",
       "reason": "$SHRIMP — DevWizardxbt launched, ultra-fresh (0.1min), $5k mcap. 'Shrimp Taste Tester' is quirky/absurd name that fits memecoin meme DNA — absurdist humor tends to spread on CT."
+    },
+    {
+      "time": "2026-08-27 09:16 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $SHRIMP closed at $2.96012e-06 | P&L: -41.9%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 09:16 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $lily at $1.74736e-05 | P&L: +74.0%",
+      "reason": "Auto take-profit at +74.0%"
+    },
+    {
+      "time": "2026-08-27 09:16 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $lily at $1.74736e-05 | P&L: +74.0%",
+      "reason": "$lily up +74% and approaching the +75% TP threshold; pool is healthy ($4.5k) but our share is 0% meaning price moved without us — taking half off locks a fat gain while keeping runner exposure to the +100%/+200% ladder."
+    },
+    {
+      "time": "2026-08-27 09:16 UTC",
+      "action": "buy",
+      "details": "[LLM] $BRICS at $3.10528e-06, spent 0.05 SOL",
+      "reason": "$BRICS — geopolitical meme linked to @firstpost (real news outlet) tweet, narrative has real-world catalyst not just vibes. Cheap mcap $3.1k, fresh launch, attention-friendly name."
     }
   ],
   "trade_stats": {
-    "total": 708,
-    "wins": 353,
-    "losses": 355,
+    "total": 711,
+    "wins": 355,
+    "losses": 356,
     "win_rate_pct": 49.9,
-    "total_pnl_sol": -0.753905,
-    "avg_pnl_pct": 52.85,
+    "total_pnl_sol": -0.751614,
+    "avg_pnl_pct": 52.77,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 167,
-    "today_realized_sol": 0.678324,
-    "today_target_pct": 169.6,
+    "today_trades": 170,
+    "today_realized_sol": 0.680615,
+    "today_target_pct": 170.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 353,
-      "loss_count": 355,
+      "win_count": 355,
+      "loss_count": 356,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T09:15:16.895461+00:00",
+  "last_llm_brief_at": "2026-08-27T09:16:50.514572+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "3nXZP8H3rtLF2C8LojtwUAKESTZcYH6BAszuW8iHpump": {
-      "price_usd": 3.2391665234709516e-06,
+      "price_usd": 3.2351500064159034e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 161.08762956032,
-      "volume_h24": 209.21,
+      "liquidity_usd": 160.88788335808,
+      "volume_h24": 235.75,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 1.536509248
+    },
+    "55Ufpo4bpfUksyLtvwAtJPJy4djDayqg65kgKSnnpump": {
+      "price_usd": 1.7473594607749923e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4533.122358097069,
+      "volume_h24": 12882.16,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 43.292162717
+    },
+    "BByTk4UVmRRGC2EMdePKW9ByYXxHzJSB2VAg4ECpump": {
+      "price_usd": 2.9601180797205073e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 17.40513336815,
+      "volume_h24": 6075.87,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.166222265
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

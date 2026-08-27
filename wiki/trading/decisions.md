@@ -4990,3 +4990,9 @@
 ## [2026-08-27 09:16 UTC] sell | [TP +30% (25%)] $lily at $1.74736e-05 | P&L: +74.0%
 - **Reasoning:** Auto take-profit at +74.0%
 
+## [2026-08-27 09:16 UTC] sell | [PARTIAL][LLM] $lily at $1.74736e-05 | P&L: +74.0%
+- **Reasoning:** $lily up +74% and approaching the +75% TP threshold; pool is healthy ($4.5k) but our share is 0% meaning price moved without us — taking half off locks a fat gain while keeping runner exposure to the +100%/+200% ladder.
+
+## [2026-08-27 09:16 UTC] buy | [LLM] $BRICS at $3.10528e-06, spent 0.05 SOL
+- **Reasoning:** $BRICS — geopolitical meme linked to @firstpost (real news outlet) tweet, narrative has real-world catalyst not just vibes. Cheap mcap $3.1k, fresh launch, attention-friendly name.
+
