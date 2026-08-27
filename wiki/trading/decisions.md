@@ -5944,3 +5944,9 @@
 ## [2026-08-27 10:54 UTC] buy | [LLM] $DEX  at $3.58224e-06, spent 0.05 SOL
 - **Reasoning:** $DEX — viral TikTok monkey story, real content/attention angle (TikTok virality > random X posts). $3.6k mcap, only 9% bonded = lots of room, low entry risk on 0.05 SOL.
 
+## [2026-08-27 10:55 UTC] sell | [PARTIAL][LLM] $Elephant at $9.89749e-06 | P&L: +74.9%
+- **Reasoning:** Elephant is +74.9% and bond curve at 28% with pool of only $2636 — this is peak memecoin territory where 50% pullbacks are common. Take half profit off the table, let the rest ride for the +100% TP at 50%.
+
+## [2026-08-27 10:55 UTC] buy | [LLM] $Jordan at $3.09736e-06, spent 0.05 SOL
+- **Reasoning:** Jordan 41 has STRONG real-world narrative — Michael Jordan's 41st signature shoe is massive sneaker culture news, posted by @nicekicks (legit sneaker media). Memecoins tied to real product launches pump reliably. $3k mcap with bond only 3% is a perfect entry.
+
