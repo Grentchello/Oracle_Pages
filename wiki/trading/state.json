@@ -1,14 +1,14 @@
 {
-  "balance_sol": 2.27728,
+  "balance_sol": 2.292762,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "3HR2za2R21e7e8wCFQGayH3PmXC2gMnfySZ556cbpump": {
       "symbol": "SKRIMP",
       "name": "SmokinSkrimp",
-      "amount": 3037.091323937154,
+      "amount": 1518.545661968577,
       "entry_price_usd": 3.246e-06,
-      "entry_sol_spent": 9.765625e-05,
+      "entry_sol_spent": 4.8828125e-05,
       "entry_time": "2026-08-27T00:49:18.525256+00:00",
       "entry_usd_value": 10.095,
       "entry_signals": {
@@ -28,9 +28,9 @@
     "RbyLtZF8TpsdfvkQvvuQx1m7XVRitp55zfAhXJHpump": {
       "symbol": "uponly",
       "name": "uponly hat cult",
-      "amount": 343021.5091765531,
+      "amount": 171510.75458827656,
       "entry_price_usd": 7.339189912735889e-06,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0125,
       "entry_time": "2026-08-27T01:06:36.464423+00:00",
       "entry_usd_value": 10.07,
       "entry_signals": {
@@ -4551,25 +4551,47 @@
       "pnl_pct": -57.16,
       "exit_reason": "LLM: sell_all — -57% has breached the soft zone and entry thesis (attention/momentum) isn't playing out — cut the loss rather than averaging a dying narrative.",
       "partial": false
+    },
+    {
+      "mint": "3HR2za2R21e7e8wCFQGayH3PmXC2gMnfySZ556cbpump",
+      "symbol": "SKRIMP",
+      "name": "SmokinSkrimp",
+      "amount_sold": 1518.545661968577,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:49:18.525256+00:00",
+      "exit_time": "2026-08-27T01:13:30.809401+00:00",
+      "entry_price_usd": 3.246e-06,
+      "exit_price_usd": 5.529e-06,
+      "entry_sol_for_chunk": 4.9e-05,
+      "exit_sol_received": 8.3e-05,
+      "pnl_sol": 3.5e-05,
+      "pnl_pct": 70.33,
+      "exit_reason": "LLM: sell_half — +70% in 0.4h on a fresh launch that has likely already extracted its first-wave 5-10x entry op. Lock half, let the other half ride the narrative — cla",
+      "partial": true
+    },
+    {
+      "mint": "RbyLtZF8TpsdfvkQvvuQx1m7XVRitp55zfAhXJHpump",
+      "symbol": "uponly",
+      "name": "uponly hat cult",
+      "amount_sold": 171510.75458827656,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T01:06:36.464423+00:00",
+      "exit_time": "2026-08-27T01:13:30.809652+00:00",
+      "entry_price_usd": 7.339189912735889e-06,
+      "exit_price_usd": 9.036e-06,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.015399,
+      "pnl_sol": 0.002899,
+      "pnl_pct": 23.12,
+      "exit_reason": "LLM: sell_half — +23% in 6 minutes with a +177% 1h move already priced in — bag is fully heated. Take half off the table to bank SOL and free a slot for a better fresh",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T01:12:09.872851+00:00",
+  "last_updated": "2026-08-27T01:13:30.809758+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 100.64,
-  "portfolio_value_usd": 261.91,
+  "portfolio_value_usd": 262.2,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 01:06 UTC",
-      "action": "buy",
-      "details": "[LLM] $uponly at $7.33919e-06, spent 0.1 SOL",
-      "reason": "$uponly — strongest new launch with 'uponly hat cult' meta-narrative (self-referential memecoin culture), 28% bond curve leading, mcap only $7.3k = high attention upside"
-    },
-    {
-      "time": "2026-08-27 01:08 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MEME1921 at $3.043e-06 | P&L: -20.5%",
-      "reason": "Down -20.5% on a low-mcap memecoin with weak narrative; 24h momentum flat. Cut the loss and free capital for fresher attention."
-    },
     {
       "time": "2026-08-27 01:08 UTC",
       "action": "sell",
@@ -4677,72 +4699,84 @@
       "action": "buy",
       "details": "[LLM] $HAMSTER at $8.86564e-06, spent 0.1 SOL",
       "reason": "$HAMSTER: animal memes with a dedicated X account are a repeatable attention pattern; cheap mcap under $9k with bonding already30% in means real buyers are pressing."
+    },
+    {
+      "time": "2026-08-27 01:13 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $SKRIMP at $5.529e-06 | P&L: +70.3%",
+      "reason": "+70% in 0.4h on a fresh launch that has likely already extracted its first-wave 5-10x entry op. Lock half, let the other half ride the narrative — classic attention-market behavior is a sharp pullback after the first FOMO burst."
+    },
+    {
+      "time": "2026-08-27 01:13 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $uponly at $9.036e-06 | P&L: +23.1%",
+      "reason": "+23% in 6 minutes with a +177% 1h move already priced in — bag is fully heated. Take half off the table to bank SOL and free a slot for a better fresh-narrative entry."
     }
   ],
   "trade_stats": {
-    "total": 261,
-    "wins": 131,
+    "total": 263,
+    "wins": 133,
     "losses": 130,
-    "win_rate_pct": 50.2,
-    "total_pnl_sol": 0.70238,
-    "avg_pnl_pct": 83.68,
+    "win_rate_pct": 50.6,
+    "total_pnl_sol": 0.705314,
+    "avg_pnl_pct": 83.4,
     "best_pnl_pct": 1379.24,
     "worst_pnl_pct": -99.89,
-    "today_trades": 118,
-    "today_realized_sol": 1.231587,
-    "today_target_pct": 307.9,
+    "today_trades": 120,
+    "today_realized_sol": 1.234521,
+    "today_target_pct": 308.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 131,
+      "win_count": 133,
       "loss_count": 130,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T01:12:09.871524+00:00",
+  "last_llm_brief_at": "2026-08-27T01:13:30.809349+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "3HR2za2R21e7e8wCFQGayH3PmXC2gMnfySZ556cbpump": {
-      "price_usd": 6.998e-06,
-      "change_h24": 132.0,
-      "change_h1": 132.0,
+      "price_usd": 5.529e-06,
+      "change_h24": 83.61,
+      "change_h1": 83.61,
       "liquidity_usd": 0.0,
-      "volume_h24": 4992.84,
+      "volume_h24": 5543.51,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "RbyLtZF8TpsdfvkQvvuQx1m7XVRitp55zfAhXJHpump": {
-      "price_usd": 1.842e-05,
-      "change_h24": 465.0,
-      "change_h1": 465.0,
+      "price_usd": 9.036e-06,
+      "change_h24": 177.0,
+      "change_h1": 177.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 48452.79,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "2QiVBsc1cGosT8eu9GZRy4BnYfdnMARjeLwwzu37pump": {
-      "price_usd": 0.000108,
-      "change_h24": 134.0,
-      "change_h1": 134.0,
-      "liquidity_usd": 26063.27,
-      "volume_h24": 90343.77,
-      "dex_id": "pumpswap",
-      "source": "dexscreener"
-    },
-    "5YupbpaKAYBfyXqVQbMdSCjDiKjtsxr6UWWijWscpump": {
-      "price_usd": 2.929e-06,
-      "change_h24": -8.53,
-      "change_h1": -8.53,
-      "liquidity_usd": 0.0,
-      "volume_h24": 12717.75,
+      "volume_h24": 57621.67,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "5haAvjHk4DHszcY3LTx8JgU9tPRvmUsBzDm2AZEWpump": {
-      "price_usd": 3.824e-06,
-      "change_h24": 27.33,
-      "change_h1": 27.33,
+      "price_usd": 3.817e-06,
+      "change_h24": 27.13,
+      "change_h1": 27.13,
       "liquidity_usd": 0.0,
-      "volume_h24": 1499.2,
+      "volume_h24": 1503.99,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "ABQqAfu5W3aCfd44Scj9497ubrGkF2iafoqHwYXypump": {
+      "price_usd": 9.429e-06,
+      "change_h24": 0.69,
+      "change_h1": 0.69,
+      "liquidity_usd": 0.0,
+      "volume_h24": 2509.6,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "4VcWzhxixqwLwrs5CGeKNzBk86M2NYY4CpWRiqMXpump": {
+      "price_usd": 7.464e-06,
+      "change_h24": 119.0,
+      "change_h1": 119.0,
+      "liquidity_usd": 0.0,
+      "volume_h24": 8628.99,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }
