@@ -4126,3 +4126,21 @@
 ## [2026-08-27 07:16 UTC] buy | [LLM] $beerdog at $4.508e-06, spent 0.1 SOL
 - **Reasoning:** $beerdog 'smoking beer dog' with viral twitter post at $4.5k mcap, <1min old — absurd imagery plus twitter attention fits the pump pattern.
 
+## [2026-08-27 07:17 UTC] sell | [TP +30% (half)] $NLD at $6.71437e-06 | P&L: +43.0%
+- **Reasoning:** Auto take-profit at +43.0%
+
+## [2026-08-27 07:17 UTC] sell | [TP +30% (half)] $beerdog at $7.40714e-06 | P&L: +64.3%
+- **Reasoning:** Auto take-profit at +64.3%
+
+## [2026-08-27 07:17 UTC] sell | [PARTIAL][LLM] $NLD at $6.71437e-06 | P&L: +43.0%
+- **Reasoning:** $NLD is +43%, past the +30% TP-1 threshold. Bonding curve still very early (24%), pump likely to extend, but I want to lock gains on half per discipline.
+
+## [2026-08-27 07:17 UTC] sell | [PARTIAL][LLM] $beerdog at $7.40714e-06 | P&L: +64.3%
+- **Reasoning:** $beerdog is +64%, well past +30% TP-1. Lock half the gain now; let the other half ride since bonding curve is still early and mcap is small.
+
+## [2026-08-27 07:17 UTC] buy | [LLM] $NL at $6.07079e-06, spent 0.1 SOL
+- **Reasoning:** $NL (NL Dollars) is 0.4min old, $6k mcap, 24% bonded, has a Twitter link. Dollar/nl meme meta is trending on CT — decent narrative and very early entry.
+
+## [2026-08-27 07:17 UTC] buy | [LLM] $Moka at $4.161e-06, spent 0.1 SOL
+- **Reasoning:** $Moka at 0.9min, $5.7k mcap, 23% bonded with Twitter. Fresh launch with a cute mascot narrative, decent liquidity forming.
+
