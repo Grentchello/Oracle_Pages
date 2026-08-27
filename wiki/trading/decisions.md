@@ -2686,3 +2686,9 @@
 ## [2026-08-27 00:59 UTC] buy | [LLM] $Heaven at $3.41545e-06, spent 0.1 SOL
 - **Reasoning:** $Heaven 'Meme Heaven' is a catchy meta-brand name, super low mcap with virality potential on crypto Twitter.
 
+## [2026-08-27 01:00 UTC] sell | [PARTIAL][LLM] $MEME1921 at $7.233e-06 | P&L: +89.0%
+- **Reasoning:** $MEME1921 is +89% in 0.3h — momentum strong but parabolic. Lock half profit at this level, let the other half ride if narrative continues.
+
+## [2026-08-27 01:00 UTC] sell | [PARTIAL][LLM] $SKRIMP at $6.977e-06 | P&L: +114.9%
+- **Reasoning:** $SKRIMP +114% in 0.2h — extreme move, classic take-profit zone. Lock half, let rest run.
+

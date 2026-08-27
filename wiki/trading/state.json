@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.107597,
+  "balance_sol": 1.120256,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DesJdYxR7c2EyMyCPT16X2GppbEes4Czs7B9Z2QTpump": {
       "symbol": "MEME1921",
       "name": "The First Meme",
-      "amount": 165188.90202383825,
+      "amount": 82594.45101191913,
       "entry_price_usd": 3.825922881361587e-06,
-      "entry_sol_spent": 0.00625,
+      "entry_sol_spent": 0.003125,
       "entry_time": "2026-08-27T00:45:01.865156+00:00",
       "entry_usd_value": 10.112000000000002,
       "entry_signals": {
@@ -28,9 +28,9 @@
     "3HR2za2R21e7e8wCFQGayH3PmXC2gMnfySZ556cbpump": {
       "symbol": "SKRIMP",
       "name": "SmokinSkrimp",
-      "amount": 194373.84473197785,
+      "amount": 97186.92236598892,
       "entry_price_usd": 3.246e-06,
-      "entry_sol_spent": 0.00625,
+      "entry_sol_spent": 0.003125,
       "entry_time": "2026-08-27T00:49:18.525256+00:00",
       "entry_usd_value": 10.095,
       "entry_signals": {
@@ -4092,25 +4092,47 @@
       "pnl_pct": 114.94,
       "exit_reason": "LLM: sell_half — $SKRIMP +114.9%, locking in profit on half while letting the rest run — peak attention trade.",
       "partial": true
+    },
+    {
+      "mint": "DesJdYxR7c2EyMyCPT16X2GppbEes4Czs7B9Z2QTpump",
+      "symbol": "MEME1921",
+      "name": "The First Meme",
+      "amount_sold": 82594.45101191913,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:45:01.865156+00:00",
+      "exit_time": "2026-08-27T01:00:37.184502+00:00",
+      "entry_price_usd": 3.825922881361587e-06,
+      "exit_price_usd": 7.233e-06,
+      "entry_sol_for_chunk": 0.003125,
+      "exit_sol_received": 0.005929,
+      "pnl_sol": 0.002804,
+      "pnl_pct": 89.05,
+      "exit_reason": "LLM: sell_half — $MEME1921 is +89% in 0.3h — momentum strong but parabolic. Lock half profit at this level, let the other half ride if narrative continues.",
+      "partial": true
+    },
+    {
+      "mint": "3HR2za2R21e7e8wCFQGayH3PmXC2gMnfySZ556cbpump",
+      "symbol": "SKRIMP",
+      "name": "SmokinSkrimp",
+      "amount_sold": 97186.92236598892,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:49:18.525256+00:00",
+      "exit_time": "2026-08-27T01:00:37.184717+00:00",
+      "entry_price_usd": 3.246e-06,
+      "exit_price_usd": 6.977e-06,
+      "entry_sol_for_chunk": 0.003125,
+      "exit_sol_received": 0.00673,
+      "pnl_sol": 0.003605,
+      "pnl_pct": 114.94,
+      "exit_reason": "LLM: sell_half — $SKRIMP +114% in 0.2h — extreme move, classic take-profit zone. Lock half, let rest run.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T00:59:20.531733+00:00",
+  "last_updated": "2026-08-27T01:00:37.184827+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.83,
-  "portfolio_value_usd": 143.19,
+  "last_sol_price_usd": 100.76,
+  "portfolio_value_usd": 143.76,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 00:55 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $SKRIMP at $6.877e-06 | P&L: +111.9%",
-      "reason": "+111.9% is well past the +50% take-profit rule. 24h is +128% which suggests the parabolic move is near its peak. Lock profit, keep runner."
-    },
-    {
-      "time": "2026-08-27 00:55 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Shrekli at $3.209e-06 | P&L: -22.8%",
-      "reason": "-22.8% and 24h is -8.6% which means the broader trend is down, not a temporary dip. No strong narrative signal and momentum is negative. Cut and free a slot for fresh launches."
-    },
     {
       "time": "2026-08-27 00:55 UTC",
       "action": "buy",
@@ -4218,36 +4240,48 @@
       "action": "buy",
       "details": "[LLM] $Heaven at $3.41545e-06, spent 0.1 SOL",
       "reason": "$Heaven 'Meme Heaven' is a catchy meta-brand name, super low mcap with virality potential on crypto Twitter."
+    },
+    {
+      "time": "2026-08-27 01:00 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $MEME1921 at $7.233e-06 | P&L: +89.0%",
+      "reason": "$MEME1921 is +89% in 0.3h — momentum strong but parabolic. Lock half profit at this level, let the other half ride if narrative continues."
+    },
+    {
+      "time": "2026-08-27 01:00 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $SKRIMP at $6.977e-06 | P&L: +114.9%",
+      "reason": "$SKRIMP +114% in 0.2h — extreme move, classic take-profit zone. Lock half, let rest run."
     }
   ],
   "trade_stats": {
-    "total": 234,
-    "wins": 116,
+    "total": 236,
+    "wins": 118,
     "losses": 118,
-    "win_rate_pct": 49.6,
-    "total_pnl_sol": -0.479902,
-    "avg_pnl_pct": 78.42,
+    "win_rate_pct": 50.0,
+    "total_pnl_sol": -0.473493,
+    "avg_pnl_pct": 78.62,
     "best_pnl_pct": 702.21,
     "worst_pnl_pct": -99.89,
-    "today_trades": 91,
-    "today_realized_sol": 0.049305,
-    "today_target_pct": 12.3,
+    "today_trades": 93,
+    "today_realized_sol": 0.055714,
+    "today_target_pct": 13.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 116,
+      "win_count": 118,
       "loss_count": 118,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T00:59:20.530889+00:00",
+  "last_llm_brief_at": "2026-08-27T01:00:37.184468+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DesJdYxR7c2EyMyCPT16X2GppbEes4Czs7B9Z2QTpump": {
-      "price_usd": 6.173e-06,
-      "change_h24": 105.0,
-      "change_h1": 105.0,
+      "price_usd": 7.233e-06,
+      "change_h24": 140.0,
+      "change_h1": 140.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 2457.28,
+      "volume_h24": 2826.72,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
@@ -4260,31 +4294,31 @@
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "CsLLTgYCPCLJFzLRLxciEwM4NVboaBmSFZiXQJN9pump": {
-      "price_usd": 2.824e-06,
-      "change_h24": -6.33,
-      "change_h1": -6.33,
+    "5NFr1BB3KTRtUk2JcBgQ21caoaK9nnR6LTa7MYuzpump": {
+      "price_usd": 3.351e-06,
+      "change_h24": 11.52,
+      "change_h1": 11.52,
       "liquidity_usd": 0.0,
-      "volume_h24": 252.09,
+      "volume_h24": 4317.71,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "2PWXycSzDwz8yeWheoNeq1uqUiwtcZJ9xJVYVSB3pump": {
-      "price_usd": 2.896e-06,
-      "change_h24": -9.77,
-      "change_h1": -9.77,
+    "AYzzumjKKqEYZpnmzCaQepg7gcjrYva6kgfdir34pump": {
+      "price_usd": 2.927e-06,
+      "change_h24": -8.51,
+      "change_h1": -8.51,
       "liquidity_usd": 0.0,
-      "volume_h24": 483.06,
+      "volume_h24": 4312.46,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "GAnCG2oFkeGgTeiZVzjb8f1bkKLDaerZfQyY4Z3upump": {
-      "price_usd": 5.16e-06,
-      "change_h24": -87.38,
-      "change_h1": -87.38,
-      "liquidity_usd": 4289.83,
-      "volume_h24": 35958.55,
-      "dex_id": "pumpswap",
+    "3JAEe5kKBPZ9ohDrGDjiaEhQ1BfymWJWtQRRs5vhpump": {
+      "price_usd": 2.894e-06,
+      "change_h24": -15.09,
+      "change_h1": -15.09,
+      "liquidity_usd": 0.0,
+      "volume_h24": 2624.31,
+      "dex_id": "pumpfun",
       "source": "dexscreener"
     }
   }
