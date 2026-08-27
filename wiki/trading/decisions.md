@@ -2782,3 +2782,12 @@
 ## [2026-08-27 01:09 UTC] buy | [LLM] $LICKDAR at $9.51843e-06, spent 0.1 SOL
 - **Reasoning:** $LICKDAR has a real quirky narrative ('Radar failed. The tongue didn't.'), a real Twitter (lickdarsol), $177k mcap with bond 31% filled — actual buy pressure, not dust. Best attention signal in the batch.
 
+## [2026-08-27 01:10 UTC] sell | [PARTIAL][LLM] $LICKDAR at $0.0001408 | P&L: +1379.2%
+- **Reasoning:** $LICKDAR is +1379% in under 6 minutes held — this is exhaustion territory on a tiny-mcap memecoin. Take half profit off the table to lock in gains while letting the rest ride if attention continues.
+
+## [2026-08-27 01:10 UTC] buy | [LLM] $Fido at $6.8367e-06, spent 0.1 SOL
+- **Reasoning:** $Fido is a clean, instantly-readable pet name with universal meme appeal and a fresh KOL post — $7k mcap with 26% bonding is the textbook early-attention zone where 5-10x prints happen.
+
+## [2026-08-27 01:10 UTC] buy | [LLM] $carlitos at $3.97444e-06, spent 0.1 SOL
+- **Reasoning:** $carlitos follows the proven personal-name virality playbook ($jeffrey, $billy, $chico all ran) — posted by a small account but the name itself does the attention work at $4k mcap.
+
