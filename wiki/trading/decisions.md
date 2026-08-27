@@ -7087,3 +7087,9 @@
 ## [2026-08-27 13:19 UTC] sell | [FULL][LLM] $MVA-CR19 at $6.84397e-06 | P&L: -24.5%
 - **Reasoning:** Down -24.5% and approaching the -30% hard cap. Price has dropped steadily from entry, no bounce signal, 0% pool share means we'd be exit liquidity. Cutting the loss now before it hits auto-stop.
 
+## [2026-08-27 13:20 UTC] buy | [LLM] $SOLMONEY at $6.17406e-06, spent 0.05 SOL
+- **Reasoning:** $SOLMONEY riding Solflare's official tweet attention — strong narrative tie to a major Solana wallet/ecosystem brand. Very fresh, but mcap is sub-$10k which is the speculative sweet spot for a story-driven pump.
+
+## [2026-08-27 13:20 UTC] buy | [LLM] $SOLANA at $6.27005e-06, spent 0.05 SOL
+- **Reasoning:** $SOLANA 'The Everything Asset' is the meta-trade on Solana itself — if SOL pumps, this likely catches a sympathy bid. Sub-$10k mcap, sub-1min old, bonded at 24%, classic meme-of-the-chain play.
+
