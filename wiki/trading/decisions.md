@@ -6946,3 +6946,12 @@
 ## [2026-08-27 13:03 UTC] sell | [TP +30% (25%)] $RISE at $8.71718e-06 | P&L: +68.9%
 - **Reasoning:** Auto take-profit at +68.9%
 
+## [2026-08-27 13:03 UTC] sell | [PARTIAL][LLM] $RISE at $8.71718e-06 | P&L: +68.9%
+- **Reasoning:** $RISE is +68.9% in 6 minutes on a bonding curve with only $2.2k pool liquidity. The fast pump from sub-$100 mcap to ~$103 mcap suggests early attention, but bonding-curve tokens often dump once the curve fills. Lock half the gain now — ride the other half but don't let a 70% winner turn into a bag.
+
+## [2026-08-27 13:03 UTC] buy | [LLM] $HOMER at $1.157e-05, spent 0.05 SOL
+- **Reasoning:** $HOMER (Homercoin) is 0.8min old with juiceonchain (known memecoin caller) posting about it — clear attention signal at $5.3k mcap. Simpsons nostalgia meme has viral potential.
+
+## [2026-08-27 13:03 UTC] buy | [LLM] $Dr.GPT at $4.61339e-06, spent 0.05 SOL
+- **Reasoning:** $Dr.GPT (Surgical ChatGPT) is brand new with Elons55thbday posting — AI+meme crossover narrative, sub-$5k mcap. ChatGPT parables have been pumping lately.
+
