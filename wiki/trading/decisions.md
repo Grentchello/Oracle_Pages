@@ -2503,3 +2503,15 @@
 ## [2026-08-27 00:38 UTC] buy | [LLM] $hamiboom at $3.24757e-06, spent 0.1 SOL
 - **Reasoning:** $hamiboom has the strongest attention narrative of the batch — claimed 1M+ social followers with fee redirects to hamiboom.world. If the claim holds, this is a real catalyst. Risk: bond only 6%, unverified follower count, ultra-fresh (0.1min). Small size, tight stop mental at -30%.
 
+## [2026-08-27 00:39 UTC] sell | [PARTIAL][LLM] $blindape at $1.235e-05 | P&L: +105.4%
+- **Reasoning:** $blindape is +105% with 24h showing +307% continuation and volume still hot — taking half off locks in profit and lets the rest ride the parabolic move without risking a full reversal.
+
+## [2026-08-27 00:39 UTC] sell | [FULL][LLM] $hamiboom at $3.012e-06 | P&L: -7.2%
+- **Reasoning:** $hamiboom is -7.3% almost immediately and shows0% 24h/1h movement — dead on arrival with no narrative traction, cut it loose to free the slot.
+
+## [2026-08-27 00:39 UTC] buy | [LLM] $Best at $3.94647e-06, spent 0.1 SOL
+- **Reasoning:** $Best 'Try Your Best' has an inspirational viral name with an active X post and $4k mcap — classic attention bait at the perfect entry window before bond completes.
+
+## [2026-08-27 00:39 UTC] buy | [LLM] $PAPE at $4.40652e-06, spent 0.1 SOL
+- **Reasoning:** $PAPE 'Pepe's Dad' is a strong narrative play riding the eternal Pepe meta — original-frog origin story is exactly the kind of lore that 10x's on attention.
+
