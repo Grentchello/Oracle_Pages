@@ -3934,3 +3934,21 @@
 ## [2026-08-27 03:27 UTC] buy | [LLM] $fone at $6.73863e-06, spent 0.1 SOL
 - **Reasoning:** $fone/monkeyonfone has the strongest bonding-curve progress (26%) of any fresh launch and a real twitter handle — attention > logic in memecoins.
 
+## [2026-08-27 03:28 UTC] sell | [TP +100% (75%)] $Cashew at $4.16019e-05 | P&L: +117.1%
+- **Reasoning:** Auto take-profit at +117.1%
+
+## [2026-08-27 03:29 UTC] sell | [FULL][LLM] $aped at $2.86367e-06 | P&L: -54.1%
+- **Reasoning:** -54.1% breaches the -50% hard cap — bot force-closes regardless. Confirming exit. Pool only $11, dead.
+
+## [2026-08-27 03:29 UTC] sell | [FULL][LLM] $fone at $2.98581e-06 | P&L: -55.7%
+- **Reasoning:** -55.7% breaches the -50% hard cap — bot force-closes regardless. Confirming exit. Pool $76, no recovery.
+
+## [2026-08-27 03:29 UTC] buy | [LLM] $PBJGUY at $3.49152e-06, spent 0.1 SOL
+- **Reasoning:** $PBJGUY — strongest narrative of the batch ('blue collar worker, millions watching'), launch 0.2min, mcap $3.5k. Attention-launched with story arc.
+
+## [2026-08-27 03:29 UTC] buy | [LLM] $SquawksHQ at $3.06503e-06, spent 0.1 SOL
+- **Reasoning:** $SquawksHQ — 'Nest once. Earn forever' pitch has attention-economy meme DNA. Fresh 0.2min, $3k mcap. Contrarian to the FUNYET spam cluster.
+
+## [2026-08-27 03:29 UTC] buy | [LLM] $Kinnounko at $3.03343e-06, spent 0.1 SOL
+- **Reasoning:** $Kinnounko — 'Kin no unko' (jp 💩 meme) is genuinely weird/funny, 0.6min old, $3k mcap. Meme names with shock value travel.
+
