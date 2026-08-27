@@ -7285,3 +7285,9 @@
 ## [2026-08-27 13:53 UTC] sell | [TP +30% (25%)] $DISPATCH at $1.04981e-05 | P&L: +97.8%
 - **Reasoning:** Auto take-profit at +97.9%
 
+## [2026-08-27 13:54 UTC] sell | [PARTIAL][LLM] $DISPATCH at $1.04981e-05 | P&L: +97.8%
+- **Reasoning:** Up +97.9% approaching the +100% TP tier with weak liquidity (pool=$2807, our share=0%) — locking half protects the gain while leaving room for a continued move.
+
+## [2026-08-27 13:54 UTC] sell | [FULL][LLM] $Ape8110 at $3.26036e-06 | P&L: -0.6%
+- **Reasoning:** Flat at -0.6% with a tiny $167 pool and 3% share — this is a dead bonding-curve micro-position, no bounce signal, capital is better rotated.
+
