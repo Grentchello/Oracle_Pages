@@ -5245,3 +5245,12 @@
 ## [2026-08-27 09:48 UTC] buy | [LLM] $COUNTY at $1.126e-05, spent 0.05 SOL
 - **Reasoning:** $COUNTY (Pump County) — sub-$10k mcap with an actively promoting X account (@PumpCounty__X). Brandable 'county' meme angle, bonding curve only 29% (still early room to run). Sizing 0.05 SOL given the small pool.
 
+## [2026-08-27 09:49 UTC] sell | [hard-stop] $COUNTY closed at $4.24478e-06 | P&L: -62.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:49 UTC] buy | [LLM] $MILO at $3.4837e-06, spent 0.05 SOL
+- **Reasoning:** $MILO — GTA VI main character's cat being unveiled is genuine pop-culture news, not just another animal coin. Ultra-fresh (0.1min), bond only 8% so still early. Real narrative catalyst with viral potential; risk is typical sub-$5k mcap rug but the story has legs if GTA fans pick it up.
+
+## [2026-08-27 09:49 UTC] buy | [LLM] $Solana at $6.87175e-06, spent 0.05 SOL
+- **Reasoning:** $Solana — meta-narrative 'My Life Is Solana' taps the tribal Solana culture that pumps hard on X. Higher mcap ($6.8k) and 26% bond = slightly more validated than peers. Risk: generic name attracts mercenary snipers; needs the X post to actually trend.
+
