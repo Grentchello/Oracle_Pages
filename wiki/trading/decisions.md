@@ -6658,3 +6658,18 @@
 ## [2026-08-27 12:29 UTC] buy | [LLM] $LOPEZ at $2.99572e-06, spent 0.05 SOL
 - **Reasoning:** $LOPEZ 'Justice for Lopez' with NY Post X-link is a real viral news narrative — this is exactly the attention-launched playbook, sub-1min age is ideal entry window.
 
+## [2026-08-27 12:30 UTC] sell | [FULL][LLM] $PumpLiquid at $2.91892e-06 | P&L: -4.2%
+- **Reasoning:** Down -4.2% and trending lower every minute (29.2→28.0 over 6min). No narrative, no volume, bonding-curve dust. Cut and redeploy into fresh attention.
+
+## [2026-08-27 12:30 UTC] sell | [FULL][LLM] $Europathon at $3.01678e-06 | P&L: -0.5%
+- **Reasoning:** Flat at -0.5% with tiny $52 pool, no attention signal. Stale capital — better to redeploy into a token with a story.
+
+## [2026-08-27 12:30 UTC] sell | [FULL][LLM] $LOPEZ at $2.99629e-06 | P&L: +0.0%
+- **Reasoning:** Flat at 0.0%, $41 pool, no narrative or X presence visible. Slot has more value chasing a fresh launch with attention.
+
+## [2026-08-27 12:30 UTC] buy | [LLM] $Robolympics at $6.88391e-06, spent 0.05 SOL
+- **Reasoning:** Leading the coordinated 'Robot Olympics / humanoid robot games' narrative push (ticaonsol tweet, multiple copycats already launched). At $6.9k mcap with 26% bonding curve progress it's the front-runner — buy the leader, not the copycats.
+
+## [2026-08-27 12:30 UTC] buy | [LLM] $VILLAIN at $3.542e-06, spent 0.05 SOL
+- **Reasoning:** Fresh poker-AI narrative ('Perfect poker is unexploitable') with a dedicated @Agent_Villain X account. Sub-$4k mcap, contrarian intellectual hook that could resonate with the AI-agent meta. Small size, asymmetric upside.
+
