@@ -3064,3 +3064,6 @@
 ## [2026-08-27 01:48 UTC] buy | [LLM] $PICKLE at $2.91405e-06, spent 0.1 SOL
 - **Reasoning:** $PICKLE 'Dog in a Pickle' has a concrete virality claim ('millions of views within the past week, still growing') — funny mascot names with proven social traction are classic memecoin runners.
 
+## [2026-08-27 01:49 UTC] sell | [PARTIAL][LLM] $Buddy at $3.881e-05 | P&L: +162.4%
+- **Reasoning:** $Buddy is +162% but 24h/1h both -7% — momentum is fading, partial exit locks in ~0.13 SOL profit while leaving a free runner. Selling all would also be defensible; half is the disciplined middle ground.
+
