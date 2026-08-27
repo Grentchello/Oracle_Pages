@@ -7396,3 +7396,15 @@
 ## [2026-08-27 14:07 UTC] buy | [LLM] $Greedy at $4.41456e-06, spent 0.05 SOL
 - **Reasoning:** $Greedy Cat — animal meme category historically prints (popcat, monke etc). 15% bond, $4.4k mcap is genuine early stage, narrative angle is clear and memeable.
 
+## [2026-08-27 14:09 UTC] sell | [hard-stop] $CRATE closed at $2.95461e-06 | P&L: -36.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 14:09 UTC] sell | [hard-stop] $Trump closed at $2.94716e-06 | P&L: -73.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 14:09 UTC] sell | [PARTIAL][LLM] $WTF at $1.51712e-06 | P&L: +19.6%
+- **Reasoning:** +19.6% in 6 min on $406 pool — thin liquidity means the next seller dumps price. Lock half the gain, ride the rest with house money. If it2x's I'll take the rest at +100%.
+
+## [2026-08-27 14:09 UTC] buy | [LLM] $Bare at $1.33914e-05, spent 0.05 SOL
+- **Reasoning:** $Bare — viral X post from @PenTheArtist, $13.4k mcap with 35% bonding curve (the most progressed of all new launches = strongest real demand). Clear narrative + attention source. 0.05 SOL position.
+
