@@ -4192,3 +4192,21 @@
 ## [2026-08-27 07:22 UTC] buy | [LLM] $VR at $5.0499e-06, spent 0.1 SOL
 - **Reasoning:** $VR (Virtual Runner) — $5k mcap, Cartieronchain tweet, fresh launch with running/game narrative. Decent pool depth vs the micro-caps.
 
+## [2026-08-27 07:23 UTC] sell | [FULL][LLM] $CUTE at $5.95408e-06 | P&L: -20.1%
+- **Reasoning:** -20% with no bounce signal, hit the scalp loss threshold. Cut before it slides to hard stop.
+
+## [2026-08-27 07:23 UTC] sell | [FULL][LLM] $BIRD at $1.39288e-06 | P&L: -67.2%
+- **Reasoning:** -67.2%, past the -50% hard cap already. Exit immediately to stop the bleed.
+
+## [2026-08-27 07:23 UTC] sell | [FULL][LLM] $FOLD at $2.90675e-06 | P&L: +0.1%
+- **Reasoning:** Pool is only $40 — hopelessly illiquid. Flat at +0.1% means no buyers. Free the slot.
+
+## [2026-08-27 07:23 UTC] sell | [PARTIAL][LLM] $VR at $2.83404e-06 | P&L: -43.9%
+- **Reasoning:** -43.9% and our share is 451% of a $1 pool — we ARE the exit liquidity. Take whatever we can get before the hard stop.
+
+## [2026-08-27 07:23 UTC] buy | [LLM] $LEEK at $8.7106e-06, spent 0.1 SOL
+- **Reasoning:** $LEEK — self-aware degen narrative with active X account, the 'leek outperforming degens' angle is memeable. $8.7k mcap is fresh enough to move.
+
+## [2026-08-27 07:23 UTC] buy | [LLM] $tripletung at $3.01683e-06, spent 0.1 SOL
+- **Reasoning:** $tripletung — 'tung tung tung' is a recognizable viral sound-meme format, name-recognition trades well. $3k mcap, early bonding curve.
+
