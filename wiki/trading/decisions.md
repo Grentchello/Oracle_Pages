@@ -4714,3 +4714,18 @@
 ## [2026-08-27 08:45 UTC] buy | [LLM] $2HRS at $3.534e-06, spent 0.1 SOL
 - **Reasoning:** $2HRS has the strongest attention signal of the batch — tied to the viral Reuters Meta $18B settlement story. Real news + satire angle = viral potential. 1.4min old, $3.7k mcap is entry territory. Pool thin (bond 10%) so size matters — fits 0.1 SOL.
 
+## [2026-08-27 08:46 UTC] sell | [TP +30% (half)] $GTAVI at $2.48182e-05 | P&L: +44.1%
+- **Reasoning:** Auto take-profit at +44.1%
+
+## [2026-08-27 08:46 UTC] sell | [PARTIAL][LLM] $GTAVI at $2.48182e-05 | P&L: +44.1%
+- **Reasoning:** GTAVI +44.1%, above +30% TP threshold but riding GTA VI narrative. Lock half profit, let runner chase 2x+.
+
+## [2026-08-27 08:46 UTC] sell | [FULL][LLM] $Shaun at $4.90842e-06 | P&L: -46.1%
+- **Reasoning:** Shaun -46.1%, 4% from hard stop, pool only $931, no bounce. Cut before -50% auto-stop, free slot.
+
+## [2026-08-27 08:46 UTC] sell | [PARTIAL][LLM] $BUFOS at $2.92002e-06 | P&L: -36.8%
+- **Reasoning:** BUFOS -36.8% with pool=$3 and our share=210% = effectively zero liquidity to exit clean. Bag is dead, accept loss, free slot.
+
+## [2026-08-27 08:46 UTC] buy | [LLM] $nothing at $1.347e-05, spent 0.1 SOL
+- **Reasoning:** $nothing 'there is no launch, i love you' = contrarian meme meta-narrative, viral tweet from CryptoFaverity, $10.8k mcap with 32% bonding curve = early entry with attention already captured. Strongest narrative of the batch.
+
