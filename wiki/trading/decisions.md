@@ -3979,3 +3979,18 @@
 ## [2026-08-27 03:30 UTC] buy | [LLM] $gamercat at $3.319e-06, spent 0.1 SOL
 - **Reasoning:** gamer cat has a familiar gaming-cat meme identity and a sub-$4K launch valuation, suitable for a small attention-driven bet before wider discovery.
 
+## [2026-08-27 03:31 UTC] sell | [TP +100% (75%)] $PBJGUY at $7.82219e-06 | P&L: +124.0%
+- **Reasoning:** Auto take-profit at +124.0%
+
+## [2026-08-27 03:32 UTC] sell | [FULL][LLM] $PBJGUY at $7.82219e-06 | P&L: +124.0%
+- **Reasoning:** $PBJGUY +124% is past the +100% TP threshold — bot should auto-TP 100%. Manual sell_all locks in gains if auto hasn't fired, especially since pool is only $2k and our 0% share means exit liquidity is thin.
+
+## [2026-08-27 03:32 UTC] sell | [FULL][LLM] $Scoobert at $2.92312e-06 | P&L: -47.6%
+- **Reasoning:** $Scoobert at -47.6% is 2.4% from the -50% hard stop with no bounce signal and pool only $46. Cut the loss now rather than wait for the hard stop and risk slippage on a tiny pool.
+
+## [2026-08-27 03:32 UTC] sell | [FULL][LLM] $blindape at $2.97217e-06 | P&L: -36.5%
+- **Reasoning:** $blindape -36.5% with $72 pool and no narrative traction. -20% losers become -50% fast — exit before the hard stop hits and free up the slot.
+
+## [2026-08-27 03:32 UTC] sell | [FULL][LLM] $gamercat at $2.92029e-06 | P&L: -12.0%
+- **Reasoning:** $gamercat -12% in a $45 pool where we hold 20% — extremely illiquid, exit fills will be brutal. Even a small bounce won't compensate for the slippage risk; cut and rotate.
+
