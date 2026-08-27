@@ -5500,3 +5500,18 @@
 ## [2026-08-27 10:12 UTC] sell | [TP +100% (50%)] $Duster at $4.25071e-05 | P&L: +174.1%
 - **Reasoning:** Auto take-profit at +174.1%
 
+## [2026-08-27 10:14 UTC] sell | [TP +100% (50%)] $Duster at $4.23896e-05 | P&L: +173.3%
+- **Reasoning:** Auto take-profit at +173.3%
+
+## [2026-08-27 10:14 UTC] sell | [FULL][LLM] $BULLIO at $2.16376e-05 | P&L: +6.4%
+- **Reasoning:** $BULLIO is +6.4% but very small mcap/pool, held 0.1h on bonding curve with our share at 0%. No real momentum vs the fresh launches — rotate capital into something with attention.
+
+## [2026-08-27 10:14 UTC] sell | [FULL][LLM] $Duster at $4.23896e-05 | P&L: +173.3%
+- **Reasoning:** $Duster is +173% — well above TP. Bonding-curve token at this stage typically retraces hard once the curve completes. Lock the gain now, do not hope for more.
+
+## [2026-08-27 10:14 UTC] buy | [LLM] $aped at $7.5768e-06, spent 0.05 SOL
+- **Reasoning:** $aped has a clean meta-narrative ('viral designs trace back to one origin') plus explicit X post — attention-launched monkey meta which is hot right now, low mcap, decent shot.
+
+## [2026-08-27 10:14 UTC] buy | [LLM] $ANSEM at $1.33065e-05, spent 0.05 SOL
+- **Reasoning:** $ANSEM ties to a known crypto influencer/narrative, $13k mcap is small enough to 5x easily, fresh X post — classic attention trade.
+
