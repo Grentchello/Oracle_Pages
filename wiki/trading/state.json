@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.742511,
+  "balance_sol": 0.766667,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -25,34 +25,12 @@
       },
       "llm_entry": true
     },
-    "8HDNMyoFcCgJ4d9efpedyunnaKxPeCwnqzgSUEKfpump": {
-      "symbol": "SPACE",
-      "name": "What would you put in this",
-      "amount": 1124007.1656861748,
-      "entry_price_usd": 4.65210557337314e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T12:54:05.137160+00:00",
-      "entry_usd_value": 5.229,
-      "entry_signals": {
-        "liquidity_usd": 416.5377366591,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4662.403116843971,
-        "ath_market_cap_usd": 5108.306318818309,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.982957895,
-        "description": "Super viral across all social media",
-        "twitter": "https://x.com/coinbase/status/2092929132535349662?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "ngnr161csiYoRP4brFuUSCdFrYAxMZZdkvSB8QJpump": {
       "symbol": "HolyBull",
       "name": "The Holy Ansem",
-      "amount": 360472.60078571906,
+      "amount": 180236.30039285953,
       "entry_price_usd": 1.4505956870514967e-05,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T12:54:05.423139+00:00",
       "entry_usd_value": 5.229,
       "entry_signals": {
@@ -65,6 +43,28 @@
         "real_sol_reserves": 42.725600271,
         "description": "",
         "twitter": "https://x.com/search?q=%24HolyBull&src=typed_query&f=top",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "DBkkJeEfGWQP9SWpovC9pjk3wAVBCXH81idJLnDspump": {
+      "symbol": "mofo",
+      "name": "The Trading Agent",
+      "amount": 535088.5996020875,
+      "entry_price_usd": 9.773147856053853e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-27T12:55:29.998425+00:00",
+      "entry_usd_value": 5.229500000000001,
+      "entry_signals": {
+        "liquidity_usd": 154.88465046289002,
+        "volume_24h_usd": null,
+        "market_cap_usd": 9799.207553707583,
+        "ath_market_cap_usd": 9782.791118877685,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.480874371,
+        "description": "Launched on launchblitz.ai",
+        "twitter": "https://x.com/wigslop/status/2092958884743041513?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -18566,31 +18566,47 @@
       "pnl_pct": 20.6,
       "exit_reason": "LLM: sell_half — Up +20.6% but on a $4,801 pool (thin liquidity, our share is 0%). At +20% with thin liquidity, half-off locks profit and lets the rest ride if it keep",
       "partial": true
+    },
+    {
+      "mint": "8HDNMyoFcCgJ4d9efpedyunnaKxPeCwnqzgSUEKfpump",
+      "symbol": "SPACE",
+      "name": "What would you put in this",
+      "amount_sold": 1124007.1656861748,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T12:54:05.137160+00:00",
+      "exit_time": "2026-08-27T12:55:29.696425+00:00",
+      "entry_price_usd": 4.65210557337314e-06,
+      "exit_price_usd": 4.276495271501892e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.045959,
+      "pnl_sol": -0.004041,
+      "pnl_pct": -8.07,
+      "exit_reason": "LLM: sell_all — $SPACE down -8.1% on a $657 pool (below 5x position requirement), barely any liquidity, no momentum. Cut and rotate into a fresh launch with attention",
+      "partial": false
+    },
+    {
+      "mint": "ngnr161csiYoRP4brFuUSCdFrYAxMZZdkvSB8QJpump",
+      "symbol": "HolyBull",
+      "name": "The Holy Ansem",
+      "amount_sold": 180236.30039285953,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T12:54:05.423139+00:00",
+      "exit_time": "2026-08-27T12:55:29.696708+00:00",
+      "entry_price_usd": 1.4505956870514967e-05,
+      "exit_price_usd": 1.636231869247044e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.028197,
+      "pnl_sol": 0.003197,
+      "pnl_pct": 12.8,
+      "exit_reason": "LLM: sell_half — $HolyBull +12.8% and climbing on $4284 pool — lock in some profit on the half while letting the rest ride for a bigger move.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T12:54:05.424295+00:00",
+  "last_updated": "2026-08-27T12:55:29.998685+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.58,
-  "portfolio_value_usd": 90.73,
+  "last_sol_price_usd": 104.59,
+  "portfolio_value_usd": 90.64,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 12:46 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BULLMODE at $3.25354e-06 | P&L: -0.0%",
-      "reason": "$BULLMODE is flat at -0.0% with weak pool ($175, below 5x position size rule). No momentum, no narrative — free up the slot."
-    },
-    {
-      "time": "2026-08-27 12:46 UTC",
-      "action": "buy",
-      "details": "[LLM] $ROBOT at $8.54738e-06, spent 0.05 SOL",
-      "reason": "$ROBOT has strongest narrative signal — 'RobotCoin' tied to WhaleFUD status, bonding 29% (most progress = real traction), $8570 mcap with room to run."
-    },
-    {
-      "time": "2026-08-27 12:47 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $ROBOT at $1.26375e-05 | P&L: +47.9%",
-      "reason": "Auto take-profit at +47.9%"
-    },
     {
       "time": "2026-08-27 12:48 UTC",
       "action": "sell",
@@ -18692,40 +18708,80 @@
       "action": "buy",
       "details": "[LLM] $HolyBull at $1.4506e-05, spent 0.05 SOL",
       "reason": "$HolyBull - 'The Holy Ansem' is a direct crypto-influencer cult narrative (Ansem worship tokens have historically pumped). $14.5k mcap, brand-new, decent attention signal via the Twitter search link."
+    },
+    {
+      "time": "2026-08-27 12:55 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SPACE at $4.2765e-06 | P&L: -8.1%",
+      "reason": "$SPACE down -8.1% on a $657 pool (below 5x position requirement), barely any liquidity, no momentum. Cut and rotate into a fresh launch with attention."
+    },
+    {
+      "time": "2026-08-27 12:55 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $HolyBull at $1.63623e-05 | P&L: +12.8%",
+      "reason": "$HolyBull +12.8% and climbing on $4284 pool — lock in some profit on the half while letting the rest ride for a bigger move."
+    },
+    {
+      "time": "2026-08-27 12:55 UTC",
+      "action": "buy",
+      "details": "[LLM] $mofo at $9.77315e-06, spent 0.05 SOL",
+      "reason": "$mofo (The Trading Agent) — meme name with strong virality, highest mcap at $9,799 shows some traction, 31% bonding curve. The meta-narrative (a memecoin literally called The Trading Agent) is the kind of self-referential humor that pumps on CT."
     }
   ],
   "trade_stats": {
-    "total": 1088,
-    "wins": 570,
-    "losses": 518,
+    "total": 1090,
+    "wins": 571,
+    "losses": 519,
     "win_rate_pct": 52.4,
-    "total_pnl_sol": -1.032478,
-    "avg_pnl_pct": 44.7,
+    "total_pnl_sol": -1.033322,
+    "avg_pnl_pct": 44.62,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 547,
-    "today_realized_sol": 0.399751,
-    "today_target_pct": 99.9,
+    "today_trades": 549,
+    "today_realized_sol": 0.398907,
+    "today_target_pct": 99.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 570,
-      "loss_count": 518,
+      "win_count": 571,
+      "loss_count": 519,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T12:54:04.812209+00:00",
+  "last_llm_brief_at": "2026-08-27T12:55:29.696358+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5m4g5dN4Jp7oNWjQ3zA5Bomoqv721zgE95LeMNCCpump": {
-      "price_usd": 1.87210655575011e-05,
+      "price_usd": 1.6659219940011225e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4801.3127820541795,
-      "volume_h24": 25604.28,
+      "liquidity_usd": 4351.4564241669905,
+      "volume_h24": 43140.6,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 45.910430121
+      "real_sol_reserves": 41.604899361
+    },
+    "8HDNMyoFcCgJ4d9efpedyunnaKxPeCwnqzgSUEKfpump": {
+      "price_usd": 4.276495271501892e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 656.75641063405,
+      "volume_h24": 3111.43,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 6.279342295
+    },
+    "ngnr161csiYoRP4brFuUSCdFrYAxMZZdkvSB8QJpump": {
+      "price_usd": 1.636231869247044e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4284.42037485507,
+      "volume_h24": 7974.9,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 40.963958073
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

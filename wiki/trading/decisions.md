@@ -6853,3 +6853,12 @@
 ## [2026-08-27 12:54 UTC] buy | [LLM] $HolyBull at $1.4506e-05, spent 0.05 SOL
 - **Reasoning:** $HolyBull - 'The Holy Ansem' is a direct crypto-influencer cult narrative (Ansem worship tokens have historically pumped). $14.5k mcap, brand-new, decent attention signal via the Twitter search link.
 
+## [2026-08-27 12:55 UTC] sell | [FULL][LLM] $SPACE at $4.2765e-06 | P&L: -8.1%
+- **Reasoning:** $SPACE down -8.1% on a $657 pool (below 5x position requirement), barely any liquidity, no momentum. Cut and rotate into a fresh launch with attention.
+
+## [2026-08-27 12:55 UTC] sell | [PARTIAL][LLM] $HolyBull at $1.63623e-05 | P&L: +12.8%
+- **Reasoning:** $HolyBull +12.8% and climbing on $4284 pool — lock in some profit on the half while letting the rest ride for a bigger move.
+
+## [2026-08-27 12:55 UTC] buy | [LLM] $mofo at $9.77315e-06, spent 0.05 SOL
+- **Reasoning:** $mofo (The Trading Agent) — meme name with strong virality, highest mcap at $9,799 shows some traction, 31% bonding curve. The meta-narrative (a memecoin literally called The Trading Agent) is the kind of self-referential humor that pumps on CT.
+
