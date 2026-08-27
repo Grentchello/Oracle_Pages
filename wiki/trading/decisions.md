@@ -5980,3 +5980,9 @@
 ## [2026-08-27 10:59 UTC] buy | [LLM] $RISE at $6.52544e-06, spent 0.05 SOL
 - **Reasoning:** $RISE has the strongest attention signal of the new batch: established Twitter (@_rise), and a built-in demand mechanic — 60% of supply airdrops to top 15 holders at bonding curve completion. That holder-incentive structure creates natural buy pressure and stickiness. Mcap $6.5k is in the sweet spot for asymmetric upside. Risk: airdrop tokens dump on recipients post-bonding.
 
+## [2026-08-27 11:00 UTC] sell | [FULL][LLM] $Mob at $3.00204e-06 | P&L: -4.4%
+- **Reasoning:** Down -4.4% with only $50 pool and my 10% share means I'm the liquidity. Bonding-curve microcap = exit before it bleeds further, free the slot.
+
+## [2026-08-27 11:00 UTC] sell | [FULL][LLM] $PHANTOM at $3.0282e-06 | P&L: -0.1%
+- **Reasoning:** Flat at -0.1% with $64 pool and 8% share. No momentum, no narrative lift in 4 minutes — capital better deployed elsewhere.
+
