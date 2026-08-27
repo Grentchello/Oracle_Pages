@@ -6151,3 +6151,9 @@
 ## [2026-08-27 11:21 UTC] buy | [LLM] $Poopins at $3.75529e-06, spent 0.05 SOL
 - **Reasoning:** $Poopins 'Wheelchair Dog' — absurdist meme narrative with a devoted X account (@memedevfun), ultra-fresh at 0.1min. Risk: sub-$4k mcap is speculative but attention-launched. Size 0.05 SOL.
 
+## [2026-08-27 11:23 UTC] sell | [FULL][LLM] $Poopins at $3.01874e-06 | P&L: -19.6%
+- **Reasoning:** $Poopins down -19.6% already, near the -20% exit threshold, age 0.0h means fresh dump with no bounce signal, and pool is tiny ($51). Cut the loss now before it hits -30% hard stop.
+
+## [2026-08-27 11:23 UTC] buy | [LLM] $YOU at $3.20275e-06, spent 0.05 SOL
+- **Reasoning:** $YOU 'JUST BELIVE I LOVE YOU' — 0.2min old, mcap $3.2k, emotionally charged viral hook ('JUST BELIVE I LOVE YOU' is the kind of phrase that screenshots and spreads on TikTok/X). Ultra-fresh, low entry, fits attention-market thesis. Bet 0.05 SOL.
+
