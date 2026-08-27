@@ -498,6 +498,9 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
             "real_sol_reserves": hprice.get("real_sol_reserves"),
             "dex_id": hprice.get("dex_id"),
             "price_source": hprice.get("source", "missing"),
+            # Stale flag: held >15 min AND pnl < +10%
+            "stale": held_hours > 0.25 and pnl_pct is not None and pnl_pct < 10,
+            "stale_warning": " ⚠ STALE" if (held_hours > 0.25 and pnl_pct is not None and pnl_pct < 10) else "",
         })
 
     # === All candidate tokens (no filters) ===
@@ -966,14 +969,14 @@ def main():
                 "reason": f"Auto take-profit at {pnl_pct:+.1f}%",
             })
 
-    # 8c. Stale-position exit — flat for >60 min, cut regardless of P&L
+    # 8c. Stale-position exit — flat for >30 min, cut regardless of P&L
     for mint, pos in list(state.get("positions", {}).items()):
         if mint not in state.get("positions", {}):
             continue
         if not pos.get("entry_time"):
             continue
         held_hours = (now - parse_iso(pos["entry_time"])).total_seconds() / 3600
-        if held_hours < 1.0:  # 60 min
+        if held_hours < 0.5:  # 30 min
             continue
         hp = held_prices.get(mint) or {}
         cur_price = _to_float(hp.get("price_usd"))
@@ -981,9 +984,9 @@ def main():
             continue
         entry_price = _to_float(pos.get("entry_price_usd"))
         pnl_pct = (cur_price / entry_price - 1) * 100 if entry_price > 0 else 0
-        if pnl_pct >= 30:
+        if pnl_pct >= 20:
             continue  # up big, let it run
-        # Held >60 min and not up big → stale → exit
+        # Held >30 min and not up big → stale → exit
         trade = execute_sell(state, mint, cur_price, 1.0, f"stale-position exit ({held_hours:.1f}h held, {pnl_pct:+.1f}%)")
         if trade:
             log(f"STALE EXIT: ${trade['symbol']} held {held_hours:.1f}h at {trade['pnl_pct']:+.1f}%")
