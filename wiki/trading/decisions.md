@@ -4249,3 +4249,9 @@
 ## [2026-08-27 07:37 UTC] buy | [LLM] $Pumpany at $8.049e-06, spent 0.1 SOL
 - **Reasoning:** $Pumpany has a real narrative hook (doxxed creator, 'Alon tweeting constantly'), attached twitter, and a 2-word pumpable name. Mcap $4.7k = early. Story-driven memecoins outperform noise.
 
+## [2026-08-27 07:38 UTC] sell | [hard-stop] $Pumpany closed at $3.57474e-06 | P&L: -55.6%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 07:38 UTC] buy | [LLM] $Gro at $2.284e-05, spent 0.1 SOL
+- **Reasoning:** $Gro - Pudgy Penguins creator's new token. Strongest narrative in the batch by far: name-brand creator with 100M+ impressions audience. $27.8k mcap = real alpha window. Take 0.1 SOL.
+
