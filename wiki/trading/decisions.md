@@ -4006,3 +4006,12 @@
 ## [2026-08-27 03:35 UTC] buy | [LLM] $1SOL at $3.50495e-06, spent 0.1 SOL
 - **Reasoning:** $1SOL — self-referential SOL community meme with a clean narrative hook. Bond already at 9% on a sub-$4k mcap, pure meta play with viral phrasing.
 
+## [2026-08-27 03:37 UTC] sell | [FULL][LLM] $GOAT at $2.8342e-06 | P&L: -51.7%
+- **Reasoning:** $GOAT is at -51.7%, breaching the -50% hard stop. Auto-stop triggers here — exit immediately to prevent further loss.
+
+## [2026-08-27 03:37 UTC] buy | [LLM] $MUFASA at $5.42629e-06, spent 0.1 SOL
+- **Reasoning:** $MUFASA — Mufasacoin at $5.4k, 0.1min old. 'Mufasa' is a top-tier memecoin name (Lion King). Tiny fresh launch with cultural recognition. 0.1 SOL position is cheap asymmetric bet on a viral name. Min liquidity check: pool is thin so will need quick exit discipline.
+
+## [2026-08-27 03:37 UTC] buy | [LLM] $GOXX at $3.62783e-06, spent 0.1 SOL
+- **Reasoning:** $GOXX (The Trading Hamster) at $3.6k, 0.2min old, with explicit discord launch (discord.gg/uxento) and dedicated X account. Animals + trading narrative = proven attention pattern (see GOAT). Concrete launch community is a real edge.
+
