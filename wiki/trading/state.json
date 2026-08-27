@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.733073,
+  "balance_sol": 1.809199,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
       "symbol": "blindape",
       "name": "blindape",
-      "amount": 13205.762514551807,
+      "amount": 6602.881257275903,
       "entry_price_usd": 6.013e-06,
-      "entry_sol_spent": 0.00078125,
+      "entry_sol_spent": 0.000390625,
       "entry_time": "2026-08-27T00:10:33.245228+00:00",
       "entry_usd_value": 10.164000000000001,
       "entry_signals": {
@@ -21,50 +21,6 @@
         "real_sol_reserves": 9.352895012,
         "description": "",
         "twitter": "https://x.com/ddddddd8a/status/2092766383142564202",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "ZHYHcb6H2cUTSJxtipJUoxhFzmJVXBe2LPs445Apump": {
-      "symbol": "TRIPSOL",
-      "name": "TRIP PUMP SOL",
-      "amount": 1047891.5334875212,
-      "entry_price_usd": 9.695659975595165e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T00:24:33.210879+00:00",
-      "entry_usd_value": 10.16,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9707.584488507197,
-        "ath_market_cap_usd": 9701.089926900395,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 25.424568755,
-        "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. Good luck.",
-        "twitter": "https://x.com/CryptoGainsDev",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "EoAbEMz24nwbjvd8sztmGof7Lw8FTmZaw1pBFDwypump": {
-      "symbol": "TopKek",
-      "name": "TopKek Turtle",
-      "amount": 1063617.760459445,
-      "entry_price_usd": 9.51657670291972e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T00:31:19.168323+00:00",
-      "entry_usd_value": 10.122,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9511.196612943557,
-        "ath_market_cap_usd": 13248.895901676444,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 25.013300164,
-        "description": "",
-        "twitter": "https://x.com/PetaIS0L/status/2092771659564351649",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -3242,31 +3198,64 @@
       "pnl_pct": -1.2,
       "exit_reason": "LLM: sell_all — -1.2% and fading (-4.9% 24h). No attention catalyst, freeing second slot for $APE entry.",
       "partial": false
+    },
+    {
+      "mint": "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump",
+      "symbol": "blindape",
+      "name": "blindape",
+      "amount_sold": 6602.881257275903,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:10:33.245228+00:00",
+      "exit_time": "2026-08-27T00:34:06.950929+00:00",
+      "entry_price_usd": 6.013e-06,
+      "exit_price_usd": 1.829e-05,
+      "entry_sol_for_chunk": 0.000391,
+      "exit_sol_received": 0.001195,
+      "pnl_sol": 0.000804,
+      "pnl_pct": 204.17,
+      "exit_reason": "LLM: sell_half — $blindape is +204% in 0.4h with 24h chart still showing +503% — locking half protects a2x bag while letting the runner ride. The other half is a free ",
+      "partial": true
+    },
+    {
+      "mint": "ZHYHcb6H2cUTSJxtipJUoxhFzmJVXBe2LPs445Apump",
+      "symbol": "TRIPSOL",
+      "name": "TRIP PUMP SOL",
+      "amount_sold": 1047891.5334875212,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T00:24:33.210879+00:00",
+      "exit_time": "2026-08-27T00:34:06.952054+00:00",
+      "entry_price_usd": 9.695659975595165e-06,
+      "exit_price_usd": 2.835e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.029394,
+      "pnl_sol": -0.070606,
+      "pnl_pct": -70.76,
+      "exit_reason": "LLM: sell_all — $TRIPSOL is -70.8% — already past the -50% hard cap. Auto-close should fire; I'm affirming exit to free the slot and cut the bleed.",
+      "partial": false
+    },
+    {
+      "mint": "EoAbEMz24nwbjvd8sztmGof7Lw8FTmZaw1pBFDwypump",
+      "symbol": "TopKek",
+      "name": "TopKek Turtle",
+      "amount_sold": 1063617.760459445,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T00:31:19.168323+00:00",
+      "exit_time": "2026-08-27T00:34:06.952173+00:00",
+      "entry_price_usd": 9.51657670291972e-06,
+      "exit_price_usd": 4.327e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.045537,
+      "pnl_sol": -0.054463,
+      "pnl_pct": -54.53,
+      "exit_reason": "LLM: sell_all — $TopKek is -54.5% — past the -50% hard cap. 24h is +19% but 1h is also +19% which suggests stale data; on the live tick we're down hard. Cut it.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T00:32:45.428656+00:00",
+  "last_updated": "2026-08-27T00:34:06.952269+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.15,
-  "portfolio_value_usd": 215.89,
+  "last_sol_price_usd": 101.067,
+  "portfolio_value_usd": 203.12,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 00:21 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $1A at $6.28e-05 | P&L: +672.0%",
-      "reason": "+672% is massive but 24h only +53% — momentum decelerating. Take half off, let remainder ride or get stopped manually."
-    },
-    {
-      "time": "2026-08-27 00:21 UTC",
-      "action": "buy",
-      "details": "[LLM] $MEMELORD at $3.02567e-06, spent 0.1 SOL",
-      "reason": "$MEMELORD — strongest attention name in the batch, tweeted by @iamjasonlevin (notable crypto voice), $3k mcap = pure early attention. High virality potential."
-    },
-    {
-      "time": "2026-08-27 00:23 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $blindape at $1.369e-05 | P&L: +127.7%",
-      "reason": "$blindape +127% in 0.2h is a strong runner but parabolic moves mean reversion risk. Lock half profit, let the rest ride the narrative."
-    },
     {
       "time": "2026-08-27 00:23 UTC",
       "action": "sell",
@@ -3368,72 +3357,90 @@
       "action": "buy",
       "details": "[LLM] $mouse at $4.74213e-06, spent 0.1 SOL",
       "reason": "$mouse (tardwifmouse) — classic animal-meme naming pattern that historically prints. Bond 19%, X tweet attached. Viral attention format, $4.7k mcap = pure early-stage attention."
+    },
+    {
+      "time": "2026-08-27 00:34 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $blindape at $1.829e-05 | P&L: +204.2%",
+      "reason": "$blindape is +204% in 0.4h with 24h chart still showing +503% — locking half protects a2x bag while letting the runner ride. The other half is a free option."
+    },
+    {
+      "time": "2026-08-27 00:34 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $TRIPSOL at $2.835e-06 | P&L: -70.8%",
+      "reason": "$TRIPSOL is -70.8% — already past the -50% hard cap. Auto-close should fire; I'm affirming exit to free the slot and cut the bleed."
+    },
+    {
+      "time": "2026-08-27 00:34 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $TopKek at $4.327e-06 | P&L: -54.5%",
+      "reason": "$TopKek is -54.5% — past the -50% hard cap. 24h is +19% but 1h is also +19% which suggests stale data; on the live tick we're down hard. Cut it."
     }
   ],
   "trade_stats": {
-    "total": 184,
-    "wins": 94,
-    "losses": 90,
-    "win_rate_pct": 51.1,
-    "total_pnl_sol": 0.233855,
-    "avg_pnl_pct": 95.39,
+    "total": 187,
+    "wins": 95,
+    "losses": 92,
+    "win_rate_pct": 50.8,
+    "total_pnl_sol": 0.10959,
+    "avg_pnl_pct": 94.28,
     "best_pnl_pct": 702.21,
     "worst_pnl_pct": -99.89,
-    "today_trades": 41,
-    "today_realized_sol": 0.763062,
-    "today_target_pct": 190.8,
+    "today_trades": 44,
+    "today_realized_sol": 0.638797,
+    "today_target_pct": 159.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 94,
-      "loss_count": 90,
+      "win_count": 95,
+      "loss_count": 92,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T00:32:45.427680+00:00",
+  "last_llm_brief_at": "2026-08-27T00:34:06.950897+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
-      "price_usd": 1.658e-05,
-      "change_h24": 447.0,
-      "change_h1": 447.0,
+      "price_usd": 1.829e-05,
+      "change_h24": 503.0,
+      "change_h1": 503.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 57438.7,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "7yDtC3Af5ifYMSVayN1mFu74VEdzXJJCJbwNjbytpump": {
-      "price_usd": 2.835e-06,
-      "change_h24": -6.04,
-      "change_h1": -6.04,
-      "liquidity_usd": 0.0,
-      "volume_h24": 422.44,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "HpbsRLkUbAmEjbsA1nvzRYhja4Zz9ytbSxnSzoXCpump": {
-      "price_usd": 2.838e-06,
-      "change_h24": -4.94,
-      "change_h1": -4.94,
-      "liquidity_usd": 0.0,
-      "volume_h24": 855.21,
+      "volume_h24": 61295.53,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "ZHYHcb6H2cUTSJxtipJUoxhFzmJVXBe2LPs445Apump": {
-      "price_usd": 1.177e-05,
-      "change_h24": 24.88,
-      "change_h1": 24.88,
+      "price_usd": 2.835e-06,
+      "change_h24": -69.94,
+      "change_h1": -69.94,
       "liquidity_usd": 0.0,
-      "volume_h24": 3654.13,
+      "volume_h24": 7065.39,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "EoAbEMz24nwbjvd8sztmGof7Lw8FTmZaw1pBFDwypump": {
-      "price_usd": 1.448e-05,
-      "change_h24": 299.0,
-      "change_h1": 299.0,
+      "price_usd": 4.327e-06,
+      "change_h24": 19.09,
+      "change_h1": 19.09,
       "liquidity_usd": 0.0,
-      "volume_h24": 27781.74,
+      "volume_h24": 35146.07,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "EkQ1CzojphWEMM4qNWrSgGyBDfmw6ifhBUboMoPXpump": {
+      "price_usd": 9.686e-06,
+      "change_h24": 192.0,
+      "change_h1": 192.0,
+      "liquidity_usd": 0.0,
+      "volume_h24": 16175.75,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "FP3SvPUu9GzBU7AEj6qhFeECxRJyHqyp7GMNXP1Apump": {
+      "price_usd": 3.929e-06,
+      "change_h24": 14.82,
+      "change_h1": 14.82,
+      "liquidity_usd": 0.0,
+      "volume_h24": 9641.1,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

@@ -2449,3 +2449,12 @@
 ## [2026-08-27 00:32 UTC] buy | [LLM] $mouse at $4.74213e-06, spent 0.1 SOL
 - **Reasoning:** $mouse (tardwifmouse) — classic animal-meme naming pattern that historically prints. Bond 19%, X tweet attached. Viral attention format, $4.7k mcap = pure early-stage attention.
 
+## [2026-08-27 00:34 UTC] sell | [PARTIAL][LLM] $blindape at $1.829e-05 | P&L: +204.2%
+- **Reasoning:** $blindape is +204% in 0.4h with 24h chart still showing +503% — locking half protects a2x bag while letting the runner ride. The other half is a free option.
+
+## [2026-08-27 00:34 UTC] sell | [FULL][LLM] $TRIPSOL at $2.835e-06 | P&L: -70.8%
+- **Reasoning:** $TRIPSOL is -70.8% — already past the -50% hard cap. Auto-close should fire; I'm affirming exit to free the slot and cut the bleed.
+
+## [2026-08-27 00:34 UTC] sell | [FULL][LLM] $TopKek at $4.327e-06 | P&L: -54.5%
+- **Reasoning:** $TopKek is -54.5% — past the -50% hard cap. 24h is +19% but 1h is also +19% which suggests stale data; on the live tick we're down hard. Cut it.
+
