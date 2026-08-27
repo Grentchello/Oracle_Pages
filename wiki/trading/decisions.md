@@ -5269,3 +5269,21 @@
 ## [2026-08-27 09:51 UTC] buy | [LLM] $Kalamantina at $6.30996e-06, spent 0.05 SOL
 - **Reasoning:** $Kalamantina (Cat of War) is the higher-mcap of the pair ($6.3k) with a twitter catalyst. Cat-themed war narrative has attention potential; paired launch suggests real interest.
 
+## [2026-08-27 09:52 UTC] sell | [hard-stop] $wifi closed at $2.92647e-06 | P&L: -45.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:52 UTC] sell | [hard-stop] $Kalamantina closed at $3.01266e-06 | P&L: -52.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:52 UTC] buy | [LLM] $woof at $1.14217e-05, spent 0.05 SOL
+- **Reasoning:** $woof 'dog on roof' has the best narrative of the batch — meme-able image, decent mcap ($11.4k), 33% bonded. Clear attention story, viral potential. In with 0.05 SOL.
+
+## [2026-08-27 09:52 UTC] buy | [LLM] $gpu at $9.38251e-06, spent 0.05 SOL
+- **Reasoning:** $gpu 'gorillaprofitingunit' has an absurd name that's perfect meme material. $9.4k mcap, 31% bonded. Trading bot/jpeg meta is hot. In with 0.05 SOL.
+
+## [2026-08-27 09:52 UTC] buy | [LLM] $CLAN at $4.72068e-06, spent 0.05 SOL
+- **Reasoning:** $CLAN 'clan.tech' is the freshest launch (0.2min), tech-bro clan narrative has community-building potential. $4.7k mcap, low bonding = early entry. In with 0.05 SOL.
+
+## [2026-08-27 09:52 UTC] buy | [LLM] $Andrea at $4.01158e-06, spent 0.05 SOL
+- **Reasoning:** $Andrea 'The Granny Quant' — quant trader grandma is a funny, specific narrative that can spread. $4k mcap, fresh. In with 0.05 SOL.
+
