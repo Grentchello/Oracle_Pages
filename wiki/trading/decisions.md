@@ -6259,3 +6259,6 @@
 ## [2026-08-27 11:38 UTC] buy | [LLM] $clicking at $4.307e-06, spent 0.05 SOL
 - **Reasoning:** $clicking has a community link (suggests existing audience being routed in) and a meta-narrative ('keep on clicking') that fits attention-market dynamics. $5.2k mcap, 20% bonded already showing traction. Risk: very young, thin.
 
+## [2026-08-27 11:39 UTC] sell | [hard-stop] $Pot closed at $2.90047e-06 | P&L: -35.1%
+- **Reasoning:** Hard -30% stop
+
