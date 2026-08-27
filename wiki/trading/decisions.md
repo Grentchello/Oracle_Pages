@@ -7192,3 +7192,12 @@
 ## [2026-08-27 13:38 UTC] buy | [LLM] $MAREA at $4.38531e-06, spent 0.05 SOL
 - **Reasoning:** $MAREA has the strongest narrative of this batch — 'MAREGRAPH' with a coherent AI-tide-gauge concept, real twitter @maregraph, and a descriptive pitch. Low bond (15%), freshest entry with actual story rather than just a name. Buys at ~0.05 SOL.
 
+## [2026-08-27 13:39 UTC] buy | [LLM] $Doomsdale at $7.00505e-06, spent 0.05 SOL
+- **Reasoning:** $Doomsdale from @uncleibbra — LowTierFailure is a known memecoin creator with track record. Bonding 26% in under 30s = real demand, fastest bonding of the batch. $5 position size fits 5x liq rule (pool will grow).
+
+## [2026-08-27 13:39 UTC] buy | [LLM] $MAN at $5.20484e-06, spent 0.05 SOL
+- **Reasoning:** $MAN 'Last Man Standing' narrative has clear attention hook, bonding 20% in 12s. Strong early traction. Small mcap ($5k) means 10x is achievable on a viral push.
+
+## [2026-08-27 13:39 UTC] buy | [LLM] $Macanos at $3.07754e-06, spent 0.05 SOL
+- **Reasoning:** $Macanos 'Pumpfun Support Dog' — pumpfun-themed meta coin riding attention on the launchpad itself. Meta-narrative tends to pump on attention. Worth a small entry.
+
