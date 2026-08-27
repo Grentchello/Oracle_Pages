@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.629444,
+  "balance_sol": 1.762487,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
       "symbol": "blindape",
       "name": "blindape",
-      "amount": 52823.05005820723,
+      "amount": 26411.525029103614,
       "entry_price_usd": 6.013e-06,
-      "entry_sol_spent": 0.003125,
+      "entry_sol_spent": 0.0015625,
       "entry_time": "2026-08-27T00:10:33.245228+00:00",
       "entry_usd_value": 10.164000000000001,
       "entry_signals": {
@@ -94,9 +94,9 @@
     "BNimEDyc8hRXf52QTzFKSyoGCStBoNb4onUwQmrupump": {
       "symbol": "Bunny",
       "name": "First Animal on Forbes",
-      "amount": 535599.5953599783,
+      "amount": 267799.79767998913,
       "entry_price_usd": 1.893578727068218e-05,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.05,
       "entry_time": "2026-08-27T00:25:51.663584+00:00",
       "entry_usd_value": 10.142000000000001,
       "entry_signals": {
@@ -3123,25 +3123,47 @@
       "pnl_pct": 74.62,
       "exit_reason": "LLM: sell_half — +74.6% gain with 1h=+246% shows extreme momentum but also peak risk. Per rules take some profit at +50% — sell half to lock ~0.04 SOL profit, let runn",
       "partial": true
+    },
+    {
+      "mint": "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump",
+      "symbol": "blindape",
+      "name": "blindape",
+      "amount_sold": 26411.525029103614,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:10:33.245228+00:00",
+      "exit_time": "2026-08-27T00:28:32.360840+00:00",
+      "entry_price_usd": 6.013e-06,
+      "exit_price_usd": 1.309e-05,
+      "entry_sol_for_chunk": 0.001563,
+      "exit_sol_received": 0.003417,
+      "pnl_sol": 0.001854,
+      "pnl_pct": 117.69,
+      "exit_reason": "LLM: sell_half — +117% in 30min — taking profit on the runner while letting half ride if the narrative keeps going.",
+      "partial": true
+    },
+    {
+      "mint": "BNimEDyc8hRXf52QTzFKSyoGCStBoNb4onUwQmrupump",
+      "symbol": "Bunny",
+      "name": "First Animal on Forbes",
+      "amount_sold": 267799.79767998913,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:25:51.663584+00:00",
+      "exit_time": "2026-08-27T00:28:32.361088+00:00",
+      "entry_price_usd": 1.893578727068218e-05,
+      "exit_price_usd": 4.898e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.129626,
+      "pnl_sol": 0.079626,
+      "pnl_pct": 158.66,
+      "exit_reason": "LLM: sell_half — +158% in minutes — classic launch pump, bank half before retracement, let half moon or zero.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T00:27:08.337630+00:00",
+  "last_updated": "2026-08-27T00:28:32.361213+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.35,
-  "portfolio_value_usd": 206.0,
+  "last_sol_price_usd": 101.19,
+  "portfolio_value_usd": 213.97,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 00:15 UTC",
-      "action": "buy",
-      "details": "[LLM] $Gary at $3.027e-06, spent 0.1 SOL",
-      "reason": "Japanese 'ゲイリー' (Gary) has cultural meme crossover with attached X account — niche viral narratives at $3k mcap can rip when they catch international attention."
-    },
-    {
-      "time": "2026-08-27 00:17 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $1A at $4.994e-05 | P&L: +513.9%",
-      "reason": "$1A is +513.9% in under an hour — extreme run. Sell half to lock gains per the +50% profit-take rule, let the remaining half ride if narrative keeps going."
-    },
     {
       "time": "2026-08-27 00:17 UTC",
       "action": "buy",
@@ -3249,36 +3271,48 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $blindape at $1.05e-05 | P&L: +74.6%",
       "reason": "+74.6% gain with 1h=+246% shows extreme momentum but also peak risk. Per rules take some profit at +50% — sell half to lock ~0.04 SOL profit, let runner ride for more upside."
+    },
+    {
+      "time": "2026-08-27 00:28 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $blindape at $1.309e-05 | P&L: +117.7%",
+      "reason": "+117% in 30min — taking profit on the runner while letting half ride if the narrative keeps going."
+    },
+    {
+      "time": "2026-08-27 00:28 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Bunny at $4.898e-05 | P&L: +158.7%",
+      "reason": "+158% in minutes — classic launch pump, bank half before retracement, let half moon or zero."
     }
   ],
   "trade_stats": {
-    "total": 177,
-    "wins": 89,
+    "total": 179,
+    "wins": 91,
     "losses": 88,
-    "win_rate_pct": 50.3,
-    "total_pnl_sol": 0.13257,
-    "avg_pnl_pct": 96.3,
+    "win_rate_pct": 50.8,
+    "total_pnl_sol": 0.21405,
+    "avg_pnl_pct": 96.76,
     "best_pnl_pct": 702.21,
     "worst_pnl_pct": -99.89,
-    "today_trades": 34,
-    "today_realized_sol": 0.661777,
-    "today_target_pct": 165.4,
+    "today_trades": 36,
+    "today_realized_sol": 0.743257,
+    "today_target_pct": 185.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 89,
+      "win_count": 91,
       "loss_count": 88,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T00:27:08.336701+00:00",
+  "last_llm_brief_at": "2026-08-27T00:28:32.360804+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
-      "price_usd": 1.05e-05,
-      "change_h24": 246.0,
-      "change_h1": 246.0,
+      "price_usd": 1.309e-05,
+      "change_h24": 332.0,
+      "change_h1": 332.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 50086.63,
+      "volume_h24": 52586.61,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
@@ -3301,21 +3335,21 @@
       "source": "dexscreener"
     },
     "ZHYHcb6H2cUTSJxtipJUoxhFzmJVXBe2LPs445Apump": {
-      "price_usd": 1.03e-05,
-      "change_h24": 9.3,
-      "change_h1": 9.3,
+      "price_usd": 1.103e-05,
+      "change_h24": 17.02,
+      "change_h1": 17.02,
       "liquidity_usd": 0.0,
-      "volume_h24": 2777.43,
+      "volume_h24": 3085.93,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "BNimEDyc8hRXf52QTzFKSyoGCStBoNb4onUwQmrupump": {
-      "price_usd": 2.113e-05,
-      "change_h24": 599.0,
-      "change_h1": 599.0,
-      "liquidity_usd": 0.0,
-      "volume_h24": 18495.41,
-      "dex_id": "pumpfun",
+      "price_usd": 4.898e-05,
+      "change_h24": 17.21,
+      "change_h1": 17.21,
+      "liquidity_usd": 16964.53,
+      "volume_h24": 39548.27,
+      "dex_id": "pumpswap",
       "source": "dexscreener"
     }
   }

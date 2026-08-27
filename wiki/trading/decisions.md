@@ -2419,3 +2419,9 @@
 ## [2026-08-27 00:27 UTC] sell | [PARTIAL][LLM] $blindape at $1.05e-05 | P&L: +74.6%
 - **Reasoning:** +74.6% gain with 1h=+246% shows extreme momentum but also peak risk. Per rules take some profit at +50% — sell half to lock ~0.04 SOL profit, let runner ride for more upside.
 
+## [2026-08-27 00:28 UTC] sell | [PARTIAL][LLM] $blindape at $1.309e-05 | P&L: +117.7%
+- **Reasoning:** +117% in 30min — taking profit on the runner while letting half ride if the narrative keeps going.
+
+## [2026-08-27 00:28 UTC] sell | [PARTIAL][LLM] $Bunny at $4.898e-05 | P&L: +158.7%
+- **Reasoning:** +158% in minutes — classic launch pump, bank half before retracement, let half moon or zero.
+
