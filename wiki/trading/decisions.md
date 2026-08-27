@@ -3304,3 +3304,15 @@
 ## [2026-08-27 02:17 UTC] buy | [LLM] $$SHITZU at $2.9392e-06, spent 0.1 SOL
 - **Reasoning:** $$SHITZU 'porcelain king has entered the throne room' — absurd dog-flush lore is exactly the kind of meme that catches X traction. Fresh $2.9k. 0.1 SOL.
 
+## [2026-08-27 02:20 UTC] sell | [FULL][LLM] $OX at $2.848e-06 | P&L: -5.6%
+- **Reasoning:** $OX at -5.6% with both 1h and 24h negative momentum; no narrative, no attention signal visible — cut the dead weight and free the slot.
+
+## [2026-08-27 02:20 UTC] sell | [FULL][LLM] $UNIPULSE at $2.843e-06 | P&L: -7.8%
+- **Reasoning:** $UNIPULSE at -7.8% with persistent downside on both 1h and 24h; no story, bleeding — exit before it deepens.
+
+## [2026-08-27 02:20 UTC] buy | [LLM] $Cashew at $6.2919e-06, spent 0.1 SOL
+- **Reasoning:** $Cashew — 'Pistacio went to 5m, now Cashew's turn' is a textbook serial-narrative play; clear continuation story with active X account, low mcap, and the kind of attention chain that 5-10x's.
+
+## [2026-08-27 02:20 UTC] buy | [LLM] $pumpling at $3.81213e-06, spent 0.1 SOL
+- **Reasoning:** $pumpling — meta-narrative coin (platform for promoting memecoins) targeting the exact attention-hungry audience that's buying these tokens; viral potential is high because it's a 'tool for traders' meme.
+
