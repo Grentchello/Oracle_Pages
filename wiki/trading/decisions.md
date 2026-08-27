@@ -4729,3 +4729,27 @@
 ## [2026-08-27 08:46 UTC] buy | [LLM] $nothing at $1.347e-05, spent 0.1 SOL
 - **Reasoning:** $nothing 'there is no launch, i love you' = contrarian meme meta-narrative, viral tweet from CryptoFaverity, $10.8k mcap with 32% bonding curve = early entry with attention already captured. Strongest narrative of the batch.
 
+## [2026-08-27 08:47 UTC] sell | [TP +30% (half)] $GTAVI at $2.66817e-05 | P&L: +54.9%
+- **Reasoning:** Auto take-profit at +54.9%
+
+## [2026-08-27 08:48 UTC] sell | [PARTIAL][LLM] $GTAVI at $2.66817e-05 | P&L: +54.9%
+- **Reasoning:** $GTAVI up +54.9% — already past first TP zone. Bonding curve pool only $6341, thin liquidity, our share 0% means buyers are selling into us. Lock half, ride half.
+
+## [2026-08-27 08:48 UTC] sell | [FULL][LLM] $BUFOS at $2.93067e-06 | P&L: -36.6%
+- **Reasoning:** $BUFOS down -36.6%, pool only $3, our share 25% — we're trapped illiquid and trending toward -50% hard stop. Cut now before forced exit.
+
+## [2026-08-27 08:48 UTC] sell | [FULL][LLM] $2HRS at $3.99821e-06 | P&L: +13.1%
+- **Reasoning:** $2HRS up only +13.1%, pool $531, microcap with no clear narrative in name — not worth the slot vs fresh launches.
+
+## [2026-08-27 08:48 UTC] sell | [FULL][LLM] $nothing at $9.28279e-06 | P&L: -31.1%
+- **Reasoning:** $nothing down -31.1%, pool $2453, share 0%, no identifiable narrative. Cut and rotate into fresh attention.
+
+## [2026-08-27 08:48 UTC] buy | [LLM] $wiffone at $1.746e-05, spent 0.1 SOL
+- **Reasoning:** $wiffone (apewiffone) — highest mcap $25.4k of fresh launches, 40% bonded (leading), community Twitter link, clear ape-themed narrative riding ape meta attention.
+
+## [2026-08-27 08:48 UTC] buy | [LLM] $lockin at $1.36e-05, spent 0.1 SOL
+- **Reasoning:** $lockin 39% bonded, $24k mcap, simple 'lock in' slogan has meme virality, strong bonding curve momentum — second strongest launch.
+
+## [2026-08-27 08:48 UTC] buy | [LLM] $inno at $4.194e-06, spent 0.1 SOL
+- **Reasoning:** $inno — wholesome narrative 'eat something good, take a nap' is the kind of feel-good meme that prints on attention markets; low mcap $3k, asymmetric upside.
+

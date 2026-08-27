@@ -9,6 +9,8 @@ title: Daily Journal
 ## Index
 
 - [2026-08-25](2026-08-25.md) — Vault bootstrap, auto-log skill, MkDocs master dashboard live
+- [2026-08-26](2026-08-26.md) — Bot v1→v4: LLM-decided trading, WebSocket prices, liquidity gates
+- [2026-08-27](2026-08-27.md) — Hard stop bug fix, caveman mode, wallpapers feature; -69% portfolio, diagnosis
 
 ---
 
