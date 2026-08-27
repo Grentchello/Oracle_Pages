@@ -5425,3 +5425,9 @@
 ## [2026-08-27 10:04 UTC] buy | [LLM] $sigma at $3.45315e-06, spent 0.05 SOL
 - **Reasoning:** $sigma (SIGMA BOY!!!!! go up!) — narrative coin with explicit 'go up' call to action, memetic energy, two simultaneous launches showing trend replication. Small position ($5) is appropriate risk for the attention play.
 
+## [2026-08-27 10:05 UTC] sell | [hard-stop] $CTREMP closed at $2.95521e-06 | P&L: -82.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:05 UTC] sell | [hard-stop] $sigma closed at $1.46753e-06 | P&L: -57.5%
+- **Reasoning:** Hard -30% stop
+
