@@ -28,8 +28,8 @@ PAIRS = ["BTCUSDT", "ETHUSDT", "SOLUSDT", "BNBUSDT", "XRPUSDT", "ARBUSDT"]
 STRATEGIES = ["SUPER", "ROC", "BB", "DIR"]
 
 POSITION_SIZE_USD = 100.0       # paper USD per position
-MAX_POSITIONS_PER_PAIR = 3
-MAX_TOTAL_POSITIONS = 15        # 6 pairs * 3 = 18 max possible, cap at 15
+MAX_POSITIONS_PER_PAIR = 2
+MAX_TOTAL_POSITIONS = 12        # 6 pairs * 2 = 12 max
 MAX_TOTAL_EXPOSURE_USD = 1500.0
 TICK_SECONDS = 60
 
@@ -260,10 +260,13 @@ def open_position(state, pair, strategy, signal, price, now):
     per_pair = sum(1 for p in state["positions"].values() if p["pair"] == pair)
     if per_pair >= MAX_POSITIONS_PER_PAIR:
         return False, "max per-pair positions"
-    # Check exposure
+    # Check exposure — bankroll must cover position size
+    bankroll = state.get("bankroll_usd", INITIAL_BANKROLL_USD)
     exposure = sum(p["size_usd"] for p in state["positions"].values())
     if exposure + POSITION_SIZE_USD > MAX_TOTAL_EXPOSURE_USD:
         return False, "max exposure"
+    if bankroll < POSITION_SIZE_USD:
+        return False, "insufficient bankroll"
 
     if signal == "FLAT":
         return False, "FLAT signal"
@@ -281,6 +284,8 @@ def open_position(state, pair, strategy, signal, price, now):
         "entry_time": iso_now(),
         "token_amount": token_amount,
     }
+    # Reserve cash for the position
+    state["bankroll_usd"] = round(bankroll - size_usd, 4)
     return True, f"opened {signal} {pair} @ ${price:.4f}"
 
 
