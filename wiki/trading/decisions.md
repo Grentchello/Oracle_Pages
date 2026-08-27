@@ -5542,3 +5542,18 @@
 ## [2026-08-27 10:17 UTC] buy | [LLM] $Narendra at $9.19155e-06, spent 0.05 SOL
 - **Reasoning:** $Narendra — 'The hero dog' story format is classic viral memecoin fuel (think dog meta). X post exists, 0.3min old, $9k mcap. Dog coins with stories5-10x routinely when they catch. Speculative but attention-positive.
 
+## [2026-08-27 10:18 UTC] sell | [hard-stop] $Chat closed at $4.25633e-06 | P&L: -56.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:18 UTC] sell | [hard-stop] $Narendra closed at $2.92004e-06 | P&L: -68.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:18 UTC] sell | [PARTIAL][LLM] $aped at $9.21866e-06 | P&L: +21.7%
+- **Reasoning:** Up +21.7% in 6 minutes with only $2,434 bonding-curve liquidity — extremely thin, any push back to entry will be fast. Lock half the gain, let the rest ride if narrative catches; if it stalls I'll exit on the next tick.
+
+## [2026-08-27 10:18 UTC] buy | [LLM] $AGENTX at $3.00153e-05, spent 0.05 SOL
+- **Reasoning:** Leading AGENTX launch at $29.9k mcap, 41% bonding, tied to jncquant X post — strongest narrative on the slate (AI agent meta + visible dev). 0.05 SOL entry.
+
+## [2026-08-27 10:18 UTC] buy | [LLM] $Agent at $4.04774e-06, spent 0.05 SOL
+- **Reasoning:** $Agent (X Agent) at $4k mcap 13% bond — explicit 'X Agent' meta tied to j7tracker.io tool launch. Cheap entry on a clean narrative with a tool tie-in.
+
