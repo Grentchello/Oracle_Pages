@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.99363,
+  "balance_sol": 1.05629,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -25,34 +25,12 @@
       },
       "llm_entry": true
     },
-    "9UTBtzWHhuPwPB2zbvis1GYAg2P8yUaYLEuGfiuTpump": {
-      "symbol": "X",
-      "name": "AGENTX",
-      "amount": 326278.2223468684,
-      "entry_price_usd": 1.6004745773220683e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T10:20:06.808855+00:00",
-      "entry_usd_value": 5.222,
-      "entry_signals": {
-        "liquidity_usd": 3290.2499035543196,
-        "volume_24h_usd": null,
-        "market_cap_usd": 16009.794008328661,
-        "ath_market_cap_usd": 16857.956311586247,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 31.503733278,
-        "description": "",
-        "twitter": "https://x.com/QuantaDev123/status/2092919762514763892",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "DuVgdHeEk7ejWPxWY5G3PQA99oEGGLmnbWuWWxpEpump": {
       "symbol": "ANTSEM",
       "name": "The Black Ant",
-      "amount": 530944.3429590844,
+      "amount": 199104.12860965665,
       "entry_price_usd": 9.835305845611801e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.018750000000000003,
       "entry_time": "2026-08-27T10:20:07.151329+00:00",
       "entry_usd_value": 5.222,
       "entry_signals": {
@@ -14180,31 +14158,64 @@
       "pnl_pct": -27.86,
       "exit_reason": "LLM: sell_all — $Agent is a RUG — pool=$0 (drained), our share 106088190% means we hold all remaining tokens with zero liquidity to exit cleanly. -27.9% approaching -",
       "partial": false
+    },
+    {
+      "mint": "9UTBtzWHhuPwPB2zbvis1GYAg2P8yUaYLEuGfiuTpump",
+      "symbol": "X",
+      "name": "AGENTX",
+      "amount_sold": 326278.2223468684,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T10:20:06.808855+00:00",
+      "exit_time": "2026-08-27T10:21:11.585695+00:00",
+      "entry_price_usd": 1.6004745773220683e-05,
+      "exit_price_usd": 4.264459726277243e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.013344,
+      "pnl_sol": -0.036656,
+      "pnl_pct": -73.36,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "DuVgdHeEk7ejWPxWY5G3PQA99oEGGLmnbWuWWxpEpump",
+      "symbol": "ANTSEM",
+      "name": "The Black Ant",
+      "amount_sold": 132736.0857397711,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T10:20:07.151329+00:00",
+      "exit_time": "2026-08-27T10:21:11.586460+00:00",
+      "entry_price_usd": 9.835305845611801e-06,
+      "exit_price_usd": 1.5495937183481858e-05,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.019726,
+      "pnl_sol": 0.007226,
+      "pnl_pct": 57.55,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "DuVgdHeEk7ejWPxWY5G3PQA99oEGGLmnbWuWWxpEpump",
+      "symbol": "ANTSEM",
+      "name": "The Black Ant",
+      "amount_sold": 199104.12860965665,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T10:20:07.151329+00:00",
+      "exit_time": "2026-08-27T10:21:25.221194+00:00",
+      "entry_price_usd": 9.835305845611801e-06,
+      "exit_price_usd": 1.5495937183481858e-05,
+      "entry_sol_for_chunk": 0.01875,
+      "exit_sol_received": 0.02959,
+      "pnl_sol": 0.01084,
+      "pnl_pct": 57.55,
+      "exit_reason": "LLM: sell_half — ANTSEM +57.6% in<1h on bonding curve. Lock half the gain — fresh memecoin gains evaporate fast. Keep half for potential 2x+ if narrative sustains.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T10:20:07.151718+00:00",
+  "last_updated": "2026-08-27T10:21:26.100603+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.44,
-  "portfolio_value_usd": 114.71,
+  "last_sol_price_usd": 104.27,
+  "portfolio_value_usd": 112.59,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 10:14 UTC",
-      "action": "buy",
-      "details": "[LLM] $ANSEM at $1.33065e-05, spent 0.05 SOL",
-      "reason": "$ANSEM ties to a known crypto influencer/narrative, $13k mcap is small enough to 5x easily, fresh X post — classic attention trade."
-    },
-    {
-      "time": "2026-08-27 10:15 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $ANSEM closed at $2.98196e-06 | P&L: -77.6%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-08-27 10:15 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $aped at $1.03668e-05 | P&L: +36.8%",
-      "reason": "Auto take-profit at +36.8%"
-    },
     {
       "time": "2026-08-27 10:15 UTC",
       "action": "sell",
@@ -14306,62 +14317,80 @@
       "action": "buy",
       "details": "[LLM] $ANTSEM at $9.83531e-06, spent 0.05 SOL",
       "reason": "$ANTSEM 'The Black Ant' — different narrative than AGENTX cluster, community-backed X community post, 31% bonding, fresh at 0.5min. Diversifies away from AGENTX concentration risk."
+    },
+    {
+      "time": "2026-08-27 10:21 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $X closed at $4.26446e-06 | P&L: -73.4%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 10:21 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $ANTSEM at $1.54959e-05 | P&L: +57.5%",
+      "reason": "Auto take-profit at +57.6%"
+    },
+    {
+      "time": "2026-08-27 10:21 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $ANTSEM at $1.54959e-05 | P&L: +57.5%",
+      "reason": "ANTSEM +57.6% in<1h on bonding curve. Lock half the gain — fresh memecoin gains evaporate fast. Keep half for potential 2x+ if narrative sustains."
     }
   ],
   "trade_stats": {
-    "total": 830,
-    "wins": 423,
-    "losses": 407,
+    "total": 833,
+    "wins": 425,
+    "losses": 408,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -0.80167,
-    "avg_pnl_pct": 48.63,
+    "total_pnl_sol": -0.82026,
+    "avg_pnl_pct": 48.51,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 289,
-    "today_realized_sol": 0.630559,
-    "today_target_pct": 157.6,
+    "today_trades": 292,
+    "today_realized_sol": 0.611969,
+    "today_target_pct": 153.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 423,
-      "loss_count": 407,
+      "win_count": 425,
+      "loss_count": 408,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T10:20:06.518598+00:00",
+  "last_llm_brief_at": "2026-08-27T10:21:25.221159+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DAFMPEnugptTqDPoGJNz23A6r2qyy7dxPkdMY6Lrpump": {
-      "price_usd": 7.769401207590894e-06,
+      "price_usd": 8.397525564174877e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1977.58598264388,
-      "volume_h24": 17121.84,
+      "liquidity_usd": 2180.93811363628,
+      "volume_h24": 18653.76,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 18.935139627
+      "real_sol_reserves": 20.916256964
     },
-    "8GSuZp2NBmrAs1Lp9AV3a2T1gPEKnUsESBkjsT8pump": {
-      "price_usd": 3.953558232014213e-05,
+    "9UTBtzWHhuPwPB2zbvis1GYAg2P8yUaYLEuGfiuTpump": {
+      "price_usd": 4.264459726277243e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.0,
-      "volume_h24": 47986.1,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": true,
-      "real_sol_reserves": 0.0
-    },
-    "51VcvAcjkHR66TwngKhbzoPKV9GhTwp8C94HsWDhpump": {
-      "price_usd": 2.920037281967344e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 3.55096e-06,
-      "volume_h24": 5228.15,
+      "liquidity_usd": 655.2122326529999,
+      "volume_h24": 19603.43,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.4e-08
+      "real_sol_reserves": 6.2838039
+    },
+    "DuVgdHeEk7ejWPxWY5G3PQA99oEGGLmnbWuWWxpEpump": {
+      "price_usd": 1.5495937183481858e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4083.79008472335,
+      "volume_h24": 7002.68,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 39.165532605
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

@@ -5572,3 +5572,12 @@
 ## [2026-08-27 10:20 UTC] buy | [LLM] $ANTSEM at $9.83531e-06, spent 0.05 SOL
 - **Reasoning:** $ANTSEM 'The Black Ant' — different narrative than AGENTX cluster, community-backed X community post, 31% bonding, fresh at 0.5min. Diversifies away from AGENTX concentration risk.
 
+## [2026-08-27 10:21 UTC] sell | [hard-stop] $X closed at $4.26446e-06 | P&L: -73.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:21 UTC] sell | [TP +30% (25%)] $ANTSEM at $1.54959e-05 | P&L: +57.5%
+- **Reasoning:** Auto take-profit at +57.6%
+
+## [2026-08-27 10:21 UTC] sell | [PARTIAL][LLM] $ANTSEM at $1.54959e-05 | P&L: +57.5%
+- **Reasoning:** ANTSEM +57.6% in<1h on bonding curve. Lock half the gain — fresh memecoin gains evaporate fast. Keep half for potential 2x+ if narrative sustains.
+
