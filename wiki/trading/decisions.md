@@ -7432,3 +7432,12 @@
 ## [2026-08-27 14:11 UTC] sell | [TP +30% (25%)] $WTF at $1.83389e-06 | P&L: +44.6%
 - **Reasoning:** Auto take-profit at +44.6%
 
+## [2026-08-27 14:12 UTC] sell | [PARTIAL][LLM] $WTF at $1.83389e-06 | P&L: +44.6%
+- **Reasoning:** Up +44.6% in 6 minutes on a bonding-curve token with only $491 pool — classic pump that will give back gains. Lock half the profit at this level, let the rest ride if momentum continues.
+
+## [2026-08-27 14:12 UTC] sell | [FULL][LLM] $PONZI at $3.37308e-06 | P&L: -25.1%
+- **Reasoning:** Down -25.1% with only $216 pool, no bounce signal in fresh data, and -30% hard stop is imminent. Cut the loss now before the auto-stop hits.
+
+## [2026-08-27 14:12 UTC] buy | [LLM] $PETER at $1.56546e-05, spent 0.05 SOL
+- **Reasoning:** $PETER (Rip Peter Cullen) — celebrity death meme with confirmed viral PopBase tweet (large X account), 0.2min age, $15.6k mcap, 36% bonded. This is the clearest narrative play in the launch batch — attention is concentrated on this story.
+

@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.359195,
+  "balance_sol": 0.348116,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "4MECUMaSr4D4ULLxGryQEpBXPfwtVf81W81HBaRPpump": {
       "symbol": "WTF",
       "name": "WTF",
-      "amount": 146865.087740597,
+      "amount": 55074.40790272388,
       "entry_price_usd": 1.2685829542013023e-06,
-      "entry_sol_spent": 0.0017578125000000003,
+      "entry_sol_spent": 0.0006591796875,
       "entry_time": "2026-08-27T14:03:55.188336+00:00",
       "entry_usd_value": 5.2995,
       "entry_signals": {
@@ -25,24 +25,24 @@
       },
       "llm_entry": true
     },
-    "GprDNkzN6MY9TaWEBV48YTyvNvSw7L97Vu9Zom9ie8CD": {
-      "symbol": "PONZI",
-      "name": "PONZI COIN",
-      "amount": 1170525.8223211598,
-      "entry_price_usd": 4.5048130502098695e-06,
+    "72XnreMRNupgomD7GQaEdjQsWLEzyjm3sRT9ZwHbFUVV": {
+      "symbol": "PETER",
+      "name": "Rip Peter Cullen",
+      "amount": 337824.8522891719,
+      "entry_price_usd": 1.5654561717896175e-05,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T14:10:52.261882+00:00",
-      "entry_usd_value": 5.273,
+      "entry_time": "2026-08-27T14:12:17.788653+00:00",
+      "entry_usd_value": 5.2885,
       "entry_signals": {
-        "liquidity_usd": 220.7186529643,
+        "liquidity_usd": 62.76626344975001,
         "volume_24h_usd": null,
-        "market_cap_usd": 4512.215605499621,
-        "ath_market_cap_usd": 7677.8554170308535,
+        "market_cap_usd": 15634.446689488974,
+        "ath_market_cap_usd": 16088.021318424298,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 2.092913455,
+        "real_sol_reserves": 0.593422175,
         "description": "",
-        "twitter": "https://x.com/lcfamerica/status/2092978002275553751",
+        "twitter": "https://x.com/PopBase/status/2092978124363386944",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -20533,37 +20533,64 @@
       "pnl_pct": 47.56,
       "exit_reason": "LLM: sell_all — $Bare is up +47.6%, above the +50% extension threshold — bot should take profit here, but if not, the prompt demands aggressive profit-taking. Pool is",
       "partial": false
+    },
+    {
+      "mint": "4MECUMaSr4D4ULLxGryQEpBXPfwtVf81W81HBaRPpump",
+      "symbol": "WTF",
+      "name": "WTF",
+      "amount_sold": 36716.27193514925,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T14:03:55.188336+00:00",
+      "exit_time": "2026-08-27T14:11:56.271226+00:00",
+      "entry_price_usd": 1.2685829542013023e-06,
+      "exit_price_usd": 1.8338880672580708e-06,
+      "entry_sol_for_chunk": 0.000439,
+      "exit_sol_received": 0.000637,
+      "pnl_sol": 0.000197,
+      "pnl_pct": 44.56,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "4MECUMaSr4D4ULLxGryQEpBXPfwtVf81W81HBaRPpump",
+      "symbol": "WTF",
+      "name": "WTF",
+      "amount_sold": 55074.40790272388,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T14:03:55.188336+00:00",
+      "exit_time": "2026-08-27T14:12:17.493204+00:00",
+      "entry_price_usd": 1.2685829542013023e-06,
+      "exit_price_usd": 1.8338880672580708e-06,
+      "entry_sol_for_chunk": 0.000659,
+      "exit_sol_received": 0.000955,
+      "pnl_sol": 0.000296,
+      "pnl_pct": 44.56,
+      "exit_reason": "LLM: sell_half — Up +44.6% in 6 minutes on a bonding-curve token with only $491 pool — classic pump that will give back gains. Lock half the profit at this level, let ",
+      "partial": true
+    },
+    {
+      "mint": "GprDNkzN6MY9TaWEBV48YTyvNvSw7L97Vu9Zom9ie8CD",
+      "symbol": "PONZI",
+      "name": "PONZI COIN",
+      "amount_sold": 1170525.8223211598,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T14:10:52.261882+00:00",
+      "exit_time": "2026-08-27T14:12:17.493881+00:00",
+      "entry_price_usd": 4.5048130502098695e-06,
+      "exit_price_usd": 3.3730782701044808e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.037329,
+      "pnl_sol": -0.012671,
+      "pnl_pct": -25.12,
+      "exit_reason": "LLM: sell_all — Down -25.1% with only $216 pool, no bounce signal in fresh data, and -30% hard stop is imminent. Cut the loss now before the auto-stop hits.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T14:10:52.262298+00:00",
+  "last_updated": "2026-08-27T14:12:17.788898+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.46,
-  "portfolio_value_usd": 43.34,
+  "last_sol_price_usd": 105.77,
+  "portfolio_value_usd": 42.18,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 14:06 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $WTF at $1.5536e-06 | P&L: +22.5%",
-      "reason": "WTF is up +22.5% on a tiny $416 pool with2% of supply — this is illiquid and the price already spiked from $0.0000000114 to $0.0000000135 in 2 minutes. Lock half the gain now; illiquid microcaps mean exit liquidity vanishes fast."
-    },
-    {
-      "time": "2026-08-27 14:06 UTC",
-      "action": "buy",
-      "details": "[LLM] $CRATE at $4.67892e-06, spent 0.05 SOL",
-      "reason": "CR8/CRATE has a concrete narrative: gacha cases for live perps on Hyperliquid/Lighter/Polymarket — real product hook, not just a meme. Twitter @cr8dotfun is active. $4.7k mcap is classic early-launch entry; narrative clarity beats pure meme names."
-    },
-    {
-      "time": "2026-08-27 14:07 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $WTF at $1.68315e-06 | P&L: +32.7%",
-      "reason": "Auto take-profit at +32.7%"
-    },
-    {
-      "time": "2026-08-27 14:07 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $CRATE at $6.9769e-06 | P&L: +49.1%",
-      "reason": "Auto take-profit at +49.1%"
-    },
     {
       "time": "2026-08-27 14:07 UTC",
       "action": "sell",
@@ -20659,73 +20686,75 @@
       "action": "buy",
       "details": "[LLM] $PONZI at $4.50481e-06, spent 0.05 SOL",
       "reason": "$PONZI COIN is meta-narrative gold — Ponzi coins consistently pump because the name itself is the joke. Brand-new, decent X link, $4.5k mcap with massive upside. Worth a 0.1 SOL scalp."
+    },
+    {
+      "time": "2026-08-27 14:11 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $WTF at $1.83389e-06 | P&L: +44.6%",
+      "reason": "Auto take-profit at +44.6%"
+    },
+    {
+      "time": "2026-08-27 14:12 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $WTF at $1.83389e-06 | P&L: +44.6%",
+      "reason": "Up +44.6% in 6 minutes on a bonding-curve token with only $491 pool — classic pump that will give back gains. Lock half the profit at this level, let the rest ride if momentum continues."
+    },
+    {
+      "time": "2026-08-27 14:12 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PONZI at $3.37308e-06 | P&L: -25.1%",
+      "reason": "Down -25.1% with only $216 pool, no bounce signal in fresh data, and -30% hard stop is imminent. Cut the loss now before the auto-stop hits."
+    },
+    {
+      "time": "2026-08-27 14:12 UTC",
+      "action": "buy",
+      "details": "[LLM] $PETER at $1.56546e-05, spent 0.05 SOL",
+      "reason": "$PETER (Rip Peter Cullen) — celebrity death meme with confirmed viral PopBase tweet (large X account), 0.2min age, $15.6k mcap, 36% bonded. This is the clearest narrative play in the launch batch — attention is concentrated on this story."
     }
   ],
   "trade_stats": {
-    "total": 1205,
-    "wins": 630,
-    "losses": 575,
+    "total": 1208,
+    "wins": 632,
+    "losses": 576,
     "win_rate_pct": 52.3,
-    "total_pnl_sol": -1.489038,
-    "avg_pnl_pct": 42.67,
+    "total_pnl_sol": -1.501216,
+    "avg_pnl_pct": 42.61,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 664,
-    "today_realized_sol": -0.056809,
-    "today_target_pct": -14.2,
+    "today_trades": 667,
+    "today_realized_sol": -0.068987,
+    "today_target_pct": -17.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 630,
-      "loss_count": 575,
+      "win_count": 632,
+      "loss_count": 576,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T14:10:51.962921+00:00",
+  "last_llm_brief_at": "2026-08-27T14:12:17.493163+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4MECUMaSr4D4ULLxGryQEpBXPfwtVf81W81HBaRPpump": {
-      "price_usd": 1.784153977401956e-06,
+      "price_usd": 1.8338880672580708e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 478.2372565486,
-      "volume_h24": 9582.0,
+      "liquidity_usd": 491.17786038818,
+      "volume_h24": 10172.62,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.53477391
+      "real_sol_reserves": 4.643829634
     },
-    "7NBGUyLzma3Lf4sHXTqhFKjdfv8J4K6qHLkw4kX9pump": {
-      "price_usd": 5.790333511658247e-06,
+    "GprDNkzN6MY9TaWEBV48YTyvNvSw7L97Vu9Zom9ie8CD": {
+      "price_usd": 3.3730782701044808e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1269.79646300674,
-      "volume_h24": 23126.93,
+      "liquidity_usd": 215.77031916958,
+      "volume_h24": 10244.19,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 12.040550569
-    },
-    "AfB3DdPVD5c8D5KzHwFCSz592N4516ehcRLXrw8zpump": {
-      "price_usd": 3.1739171622431696e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 118.68058498072,
-      "volume_h24": 7010.49,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.125361132
-    },
-    "54hnNKFzSwcCv4cJ8TCjekX3BHFVzc7ooY53FjHJpump": {
-      "price_usd": 1.9759777046444023e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 5026.416701372939,
-      "volume_h24": 26943.51,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 47.661831039
+      "real_sol_reserves": 2.039995454
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
