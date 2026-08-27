@@ -2902,3 +2902,9 @@
 ## [2026-08-27 01:24 UTC] buy | [LLM] $🟢 at $7.30704e-06, spent 0.1 SOL
 - **Reasoning:** Leader of the coordinated 🟢/GREEN attention cluster — highest mcap ($7.3k), highest bond (27%), and a video link + dedicated 100x-themed X account. Viral-coordinated launches with multiple variants are high-risk but exactly the attention signal the rules reward. 0.1 SOL.
 
+## [2026-08-27 01:25 UTC] sell | [FULL][LLM] $🟢 at $2.956e-06 | P&L: -59.5%
+- **Reasoning:** Position is at -59.5%, breaching the -50% hard cap. Must enforce the loss limit immediately.
+
+## [2026-08-27 01:25 UTC] buy | [LLM] $pump at $3.23047e-06, spent 0.1 SOL
+- **Reasoning:** $pump 'please unfuck my portfolio' is a viral meta-narrative that resonates with degen culture. Attention signal is strong even at tiny mcap.
+
