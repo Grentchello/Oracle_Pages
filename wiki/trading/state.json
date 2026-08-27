@@ -1,52 +1,8 @@
 {
-  "balance_sol": 1.031771,
+  "balance_sol": 1.096085,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "CA6eehnBs4WN6Ae2wh69jfwMEt4HsA3Ux1xT4xzH5XEV": {
-      "symbol": "Twitter",
-      "name": "Twitter.now",
-      "amount": 1058621.4669527162,
-      "entry_price_usd": 4.938498002547601e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T09:10:51.333226+00:00",
-      "entry_usd_value": 5.228000000000001,
-      "entry_signals": {
-        "liquidity_usd": 959.1714343515999,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4939.838557914962,
-        "ath_market_cap_usd": 7328.453366059322,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 9.173406985,
-        "description": "memecoin",
-        "twitter": "https://x.com/Rabbit_Holez/status/2092902161738850316",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "3xURitqQFoGY829eSu6bMPghRVdC3vNEX1R8CcoFpump": {
-      "symbol": "LEDOGE",
-      "name": "Ledogecoin",
-      "amount": 487896.93187086243,
-      "entry_price_usd": 1.0724601156920063e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T09:12:33.924648+00:00",
-      "entry_usd_value": 5.232500000000001,
-      "entry_signals": {
-        "liquidity_usd": 2110.5488690104,
-        "volume_24h_usd": null,
-        "market_cap_usd": 10753.910103953573,
-        "ath_market_cap_usd": 12067.927237565305,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 20.167691056,
-        "description": "Deployed using https://j7tracker.io",
-        "twitter": "https://x.com/Guangxi_Cheng/status/2092902763122557216",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "3nXZP8H3rtLF2C8LojtwUAKESTZcYH6BAszuW8iHpump": {
       "symbol": "BOLDPLAN",
       "name": "Good plan",
@@ -12072,25 +12028,47 @@
       "pnl_pct": 35.03,
       "exit_reason": "LLM: sell_all — +35% gain with only $2574 pool — dangerously thin liquidity for a position this large. Lock the gain now; the auto-TP at +30%/25% should have closed t",
       "partial": false
+    },
+    {
+      "mint": "CA6eehnBs4WN6Ae2wh69jfwMEt4HsA3Ux1xT4xzH5XEV",
+      "symbol": "Twitter",
+      "name": "Twitter.now",
+      "amount_sold": 1058621.4669527162,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T09:10:51.333226+00:00",
+      "exit_time": "2026-08-27T09:13:38.588528+00:00",
+      "entry_price_usd": 4.938498002547601e-06,
+      "exit_price_usd": 3.300216667158775e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.033372,
+      "pnl_sol": -0.016628,
+      "pnl_pct": -33.17,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "3xURitqQFoGY829eSu6bMPghRVdC3vNEX1R8CcoFpump",
+      "symbol": "LEDOGE",
+      "name": "Ledogecoin",
+      "amount_sold": 487896.93187086243,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T09:12:33.924648+00:00",
+      "exit_time": "2026-08-27T09:13:38.588752+00:00",
+      "entry_price_usd": 1.0724601156920063e-05,
+      "exit_price_usd": 6.639375084583559e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.030942,
+      "pnl_sol": -0.019058,
+      "pnl_pct": -38.09,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T09:12:34.233559+00:00",
+  "last_updated": "2026-08-27T09:13:58.135376+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.65,
-  "portfolio_value_usd": 123.67,
+  "last_sol_price_usd": 104.69,
+  "portfolio_value_usd": 119.98,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 09:06 UTC",
-      "action": "buy",
-      "details": "[LLM] $shockedcat at $7.03606e-06, spent 0.05 SOL",
-      "reason": "$shockedcat from mert (high-signal X account, $CAT meta adjacency) — even if cluster deploy, mert attention historically drives pumps. $7k mcap is asymmetric upside."
-    },
-    {
-      "time": "2026-08-27 09:07 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $shockedcat closed at $3.02575e-06 | P&L: -57.0%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-08-27 09:07 UTC",
       "action": "sell",
@@ -12198,62 +12176,74 @@
       "action": "buy",
       "details": "[LLM] $BOLDPLAN at $2.97019e-06, spent 0.05 SOL",
       "reason": "$BOLDPLAN has a sharp narrative — sarcastic jab at VC-backed projects shutting down. Anti-VC meta trends well on CT, mcap $3k is fresh, X link present. Speculative but the story is memeable."
+    },
+    {
+      "time": "2026-08-27 09:13 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $Twitter closed at $3.30022e-06 | P&L: -33.2%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 09:13 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $LEDOGE closed at $6.63938e-06 | P&L: -38.1%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 706,
+    "total": 708,
     "wins": 353,
-    "losses": 353,
-    "win_rate_pct": 50.0,
-    "total_pnl_sol": -0.718219,
-    "avg_pnl_pct": 53.1,
+    "losses": 355,
+    "win_rate_pct": 49.9,
+    "total_pnl_sol": -0.753905,
+    "avg_pnl_pct": 52.85,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 165,
-    "today_realized_sol": 0.71401,
-    "today_target_pct": 178.5,
+    "today_trades": 167,
+    "today_realized_sol": 0.678324,
+    "today_target_pct": 169.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 353,
-      "loss_count": 353,
+      "loss_count": 355,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T09:12:33.637097+00:00",
+  "last_llm_brief_at": "2026-08-27T09:13:58.135335+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "G6ZQBbcqk2ZpKYgUGQpeusEtcteWaRsvQSAWLENCpump": {
-      "price_usd": 9.690045334167546e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2573.87869004175,
-      "volume_h24": 27986.6,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 24.595114095
-    },
-    "GBJ3WAdTVYPvmVHg1sSSZ922dJFqJKoRETYdVzMUpump": {
-      "price_usd": 4.868629258319444e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 910.2988961066001,
-      "volume_h24": 13496.17,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 8.698508324
-    },
     "CA6eehnBs4WN6Ae2wh69jfwMEt4HsA3Ux1xT4xzH5XEV": {
-      "price_usd": 4.8174534010174115e-06,
+      "price_usd": 3.300216667158775e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 888.9582454252501,
-      "volume_h24": 12231.43,
+      "liquidity_usd": 194.21151834968998,
+      "volume_h24": 21152.04,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 8.494584285
+      "real_sol_reserves": 1.855110501
+    },
+    "3xURitqQFoGY829eSu6bMPghRVdC3vNEX1R8CcoFpump": {
+      "price_usd": 6.639375084583559e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1589.4693703367,
+      "volume_h24": 25035.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 15.18262843
+    },
+    "3nXZP8H3rtLF2C8LojtwUAKESTZcYH6BAszuW8iHpump": {
+      "price_usd": 3.248220515021517e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 167.83581861915,
+      "volume_h24": 209.21,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.603169535
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
