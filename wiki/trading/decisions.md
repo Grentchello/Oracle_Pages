@@ -4816,3 +4816,21 @@
 ## [2026-08-27 08:54 UTC] buy | [LLM] $Finley at $3.15296e-06, spent 0.05 SOL
 - **Reasoning:** $Finley — real Guinness World Record dog narrative (tennis ball record), posted by @gwr. This is the strongest viral story in the batch: real animal, real record, real X account. Low mcap $3.1k, fresh 0.2min. Classic attention-meme setup.
 
+## [2026-08-27 08:55 UTC] sell | [TP +30% (25%)] $computa at $9.80204e-06 | P&L: +54.4%
+- **Reasoning:** Auto take-profit at +54.4%
+
+## [2026-08-27 08:55 UTC] sell | [TP +30% (25%)] $Finley at $4.93894e-06 | P&L: +56.6%
+- **Reasoning:** Auto take-profit at +56.6%
+
+## [2026-08-27 08:55 UTC] sell | [PARTIAL][LLM] $computa at $9.80204e-06 | P&L: +54.4%
+- **Reasoning:** $computa up54.4% already past +50% TP threshold - bot should auto-exit half but locking the other half is wise too given fresh slate and need to free capital for fresh attention plays.
+
+## [2026-08-27 08:55 UTC] sell | [FULL][LLM] $Finley at $4.93894e-06 | P&L: +56.6%
+- **Reasoning:** $Finley up 56.6% past +50% TP - take the win. Pool only $941 is thin, giving back gains fast. Capital better deployed in fresh attention plays below.
+
+## [2026-08-27 08:55 UTC] buy | [LLM] $BIZNESS at $8.19e-06, spent 0.05 SOL
+- **Reasoning:** $BIZNESS has the strongest attention signal of the batch - higher mcap ($8.9k vs peers at $1-4k), 30% bonding curve already filled meaning real buy pressure, and 'MONKEY BIZNESS' is a clear viral narrative with X link.
+
+## [2026-08-27 08:55 UTC] buy | [LLM] $APE at $4.814e-06, spent 0.05 SOL
+- **Reasoning:** $APE 'Always Printing Everyday' is a classic attention-market name - apes are proven memecoin meta, 19% bonding curve filled shows traction, fresh launch with clear viral angle.
+
