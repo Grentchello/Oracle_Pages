@@ -6721,3 +6721,9 @@
 ## [2026-08-27 12:39 UTC] buy | [LLM] $PHILLIP at $6.85681e-06, spent 0.05 SOL
 - **Reasoning:** Coordinated 'Phillip/Pillhead' narrative wave — 4+ token variants cross-referencing each other on X, $PHILLIP is the bond-progress leader at 26% with highest mcap ($6.9k). Concentrated attention, early enough to ride the first leg.
 
+## [2026-08-27 12:40 UTC] sell | [hard-stop] $PHILLIP closed at $2.93243e-06 | P&L: -57.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:41 UTC] buy | [LLM] $TOAD at $7.15835e-06, spent 0.05 SOL
+- **Reasoning:** $TOAD (CYBERTOAD) — strongest meme name in batch, highest mcap ($7.1k) showing real early traction, 27% bonding curve complete indicates organic buying. Classic attention-market play.
+
