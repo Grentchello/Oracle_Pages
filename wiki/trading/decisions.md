@@ -7243,3 +7243,12 @@
 ## [2026-08-27 13:46 UTC] sell | [TP +30% (25%)] $Schwab at $1.92809e-05 | P&L: +51.8%
 - **Reasoning:** Auto take-profit at +51.8%
 
+## [2026-08-27 13:46 UTC] sell | [PARTIAL][LLM] $Schwab at $1.92809e-05 | P&L: +51.8%
+- **Reasoning:** Up +51.8% which is past first TP ladder (25%) — but bot already auto-took some at 25% per rules. Locking half locks in gains while keeping runner exposure if narrative keeps pumping. Held only 6 min so not stale yet.
+
+## [2026-08-27 13:46 UTC] buy | [LLM] $Dr. E at $7.13811e-06, spent 0.05 SOL
+- **Reasoning:** $Dr. E (Dr. Elephant) — fresh 0.2min, $7k mcap, Twitter link present. Animal meme narrative fits attention market pattern; earliest mcap entry gives most upside if narrative catches.
+
+## [2026-08-27 13:46 UTC] buy | [LLM] $Quack at $6.10175e-06, spent 0.05 SOL
+- **Reasoning:** $Quack (Jueves de Quack) — duck/frog meta overlap,0.4min old, $6k mcap, has Twitter link. Quack Thursday angle could be viral meme content.
+
