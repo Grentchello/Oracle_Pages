@@ -6334,3 +6334,21 @@
 ## [2026-08-27 11:49 UTC] sell | [PARTIAL][LLM] $UNYIL at $9.77743e-06 | P&L: +35.4%
 - **Reasoning:** +35.4% — well above the 25% TP threshold. Lock half the gain, let the rest ride on the meme momentum. Pool $2.6k has room for more upside.
 
+## [2026-08-27 11:50 UTC] sell | [TP +30% (25%)] $UNYIL at $1.22561e-05 | P&L: +69.8%
+- **Reasoning:** Auto take-profit at +69.8%
+
+## [2026-08-27 11:51 UTC] sell | [FULL][LLM] $GOYPLUG at $2.90158e-06 | P&L: -13.5%
+- **Reasoning:** $GOYPLUG down -13.5% with HUGE share of pool (120049131%) - this means we ARE the liquidity, and price just dropped sharply from7min to 0min ($0.0000000377 to $0.0000000280, -25% drop in minutes). Selling our illiquid position likely crashed the price. Cut loss now before -30% hard stop hits.
+
+## [2026-08-27 11:51 UTC] sell | [PARTIAL][LLM] $UNYIL at $1.22561e-05 | P&L: +69.8%
+- **Reasoning:** $UNYIL up +69.8% - this is real pump territory. Per the rules: take profit when up >20% with any doubt. Lock in gains on this half, let the other half ride if narrative continues. Bonding curve still active so sells are clean.
+
+## [2026-08-27 11:51 UTC] sell | [PARTIAL][LLM] $MILF at $7.95517e-06 | P&L: +22.0%
+- **Reasoning:** $MILF up +22% - crossed the +20% threshold where I should lock gains. Half-and-half captures profit while leaving runner for narrative continuation. Pool $2042 supports the sell.
+
+## [2026-08-27 11:51 UTC] buy | [LLM] $KC at $1.12394e-05, spent 0.05 SOL
+- **Reasoning:** $KC has highest mcap of new launches ($11.2k) and a dedicated twitter post from @jncquant - attention signal confirmed. Cat meme category has viral history. 0.3min old means we catch the early wave.
+
+## [2026-08-27 11:51 UTC] buy | [LLM] $BESKAR at $4.444e-06, spent 0.05 SOL
+- **Reasoning:** $BESKAR narrative is strong - Star Wars 'mandalorian beskar' meme coin with explicit '100% open market, no team allocation' fair launch claim. Has dedicated @BeskarCovert twitter. Narrative quality is high for viral spread.
+
