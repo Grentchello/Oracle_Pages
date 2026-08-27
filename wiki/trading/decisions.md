@@ -4834,3 +4834,18 @@
 ## [2026-08-27 08:55 UTC] buy | [LLM] $APE at $4.814e-06, spent 0.05 SOL
 - **Reasoning:** $APE 'Always Printing Everyday' is a classic attention-market name - apes are proven memecoin meta, 19% bonding curve filled shows traction, fresh launch with clear viral angle.
 
+## [2026-08-27 08:56 UTC] sell | [hard-stop] $BIZNESS closed at $2.92288e-06 | P&L: -64.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 08:56 UTC] sell | [hard-stop] $APE closed at $2.92398e-06 | P&L: -39.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 08:56 UTC] sell | [TP +30% (25%)] $computa at $9.40034e-06 | P&L: +48.0%
+- **Reasoning:** Auto take-profit at +48.0%
+
+## [2026-08-27 08:57 UTC] sell | [PARTIAL][LLM] $computa at $9.40034e-06 | P&L: +48.0%
+- **Reasoning:** $computa is +48% on a thin $2.5k bonding-curve pool — the +50% auto-TP is imminent and bonding-curve pumps routinely mean-revert hard. Lock half the gain now, let the remainder ride to the auto-TP at +50% or stop at breakeven if it rolls over. 0% pool share means our size is meaningful relative to liquidity, which adds exit risk.
+
+## [2026-08-27 08:57 UTC] buy | [LLM] $WIN at $1.144e-05, spent 0.05 SOL
+- **Reasoning:** $WIN has the strongest narrative hook in the batch — explicit Murad 'win together' meta-narrative, doxxed PumpFun deployer, and 33% bonding progress with $11k mcap. Memecoin meta-stories tied to known KOLs are the highest-attention signal available; size is 0.05 SOL.
+
