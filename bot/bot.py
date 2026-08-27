@@ -552,7 +552,8 @@ Most memecoin traders hold for seconds to minutes. The fastest money is in fresh
 **Hard rules the bot enforces (you can't override):**
 - -50% hard stop loss (auto)
 - +30% take-profit at half (auto), +100% at 75%, +300% at 100% (auto)
-- >60 min held AND not up >30% = stale exit (auto)
+- >30 min held AND not up >20% = stale exit (auto)
+- >15 min held AND not up >10% = marked ⚠ STALE in your prompt
 - Max hold 72h
 - Daily loss cap -0.4 SOL
 - Min liquidity 5x position size
@@ -595,7 +596,7 @@ No prior trades — fresh slate.
                 pct_str = f"{pct:.0f}%" if pct is not None else "?"
                 warn = " ⚠ HUGE" if pct and pct > 100 else (" ⚠" if pct and pct > 30 else "")
                 liq_str = f", pool=${h['liquidity_usd']:.0f}, our share={pct_str}{warn}"
-            prompt += f"  - ${h['symbol']} entry ${h['entry_price_usd']:.10f} now {cur_str} = {pnl_str}, held {h['held_hours']:.1f}h{chg24_str}{chg1_str}{src}{liq_str}\n"
+            prompt += f"  - ${h['symbol']} entry ${h['entry_price_usd']:.10f} now {cur_str} = {pnl_str}, held {h['held_hours']:.1f}h{chg24_str}{chg1_str}{src}{liq_str}{h.get('stale_warning', '')}\n"
             prompt += f"      mint={full_mint}\n"
         prompt += "\n"
 
