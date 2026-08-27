@@ -3388,3 +3388,15 @@
 ## [2026-08-27 02:33 UTC] buy | [LLM] $EMEM at $3.01703e-06, spent 0.1 SOL
 - **Reasoning:** $EMEM (Reversed Memes) — narrative is 'NEW TREND on Reddit going VIRAL'. Reddit→memecoin pipeline is a classic attention-launched play, and we're getting in at $3k mcap before any confirmation. High risk, high reward — exactly the kind of story we want.
 
+## [2026-08-27 02:34 UTC] sell | [PARTIAL][LLM] $TROLLPISTA at $1.34e-05 | P&L: +51.2%
+- **Reasoning:** $TROLLPISTA +51.2% triggers profit-take rule and 1h shows +364% — take half off, let the rest ride if momentum continues.
+
+## [2026-08-27 02:34 UTC] sell | [FULL][LLM] $EMEM at $2.832e-06 | P&L: -6.1%
+- **Reasoning:** $EMEM -6.1% with negative 1h/24h and no narrative recovery — cut the loser, free the slot for a better launch.
+
+## [2026-08-27 02:34 UTC] buy | [LLM] $DOJE at $1.1581e-05, spent 0.1 SOL
+- **Reasoning:** $DOJE (Dojecoin) — classic Doge-derivative meme narrative on the strongest attention meta in crypto; highest mcap of fresh launches ($11.5k) shows early buy-in, ride the curve before it 10x's.
+
+## [2026-08-27 02:34 UTC] buy | [LLM] $idk at $7.84287e-06, spent 0.1 SOL
+- **Reasoning:** $idk — 'idk how y'all do that 9-5 shit' is exactly the kind of antiwork/X-replyable line that spreads on attention markets; low mcap ($7.8k) and fresh mint, early entry before it catches.
+
