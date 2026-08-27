@@ -7135,3 +7135,15 @@
 ## [2026-08-27 13:27 UTC] buy | [LLM] $PENNY at $6.23629e-06, spent 0.05 SOL
 - **Reasoning:** PENNY has 'Penny to a penny' (to the moon) narrative which is classic viral meme format. Twitter attached, fresh launch. Simple relatable name + ticker that matches = attention friendly.
 
+## [2026-08-27 13:28 UTC] sell | [hard-stop] $TRUMPEMON closed at $2.92898e-06 | P&L: -39.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:28 UTC] sell | [hard-stop] $PENNY closed at $3.01268e-06 | P&L: -51.7%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:28 UTC] buy | [LLM] $Immigrant at $3.40272e-06, spent 0.05 SOL
+- **Reasoning:** $Immigrant - White House TikTok source is a real viral narrative engine. Politics + meme + WhiteHouse branding = guaranteed attention. $3.4k mcap with political catalyst has 5-10x potential in hours.
+
+## [2026-08-27 13:28 UTC] buy | [LLM] $KAWS at $3.05318e-06, spent 0.05 SOL
+- **Reasoning:** $KAWS - 'Official Kaws Club' with branded ecosystem (kaws.world). Art/IP tokens with real community backing can run hard. $3k mcap entry is early.
+
