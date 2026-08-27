@@ -2515,3 +2515,18 @@
 ## [2026-08-27 00:39 UTC] buy | [LLM] $PAPE at $4.40652e-06, spent 0.1 SOL
 - **Reasoning:** $PAPE 'Pepe's Dad' is a strong narrative play riding the eternal Pepe meta — original-frog origin story is exactly the kind of lore that 10x's on attention.
 
+## [2026-08-27 00:40 UTC] sell | [FULL][LLM] $PAPE at $4.436e-07 | P&L: -89.9%
+- **Reasoning:** $PAPE at -89.9%, effectively dead, narrative didn't catch. Free the slot for fresh attention.
+
+## [2026-08-27 00:40 UTC] sell | [PARTIAL][LLM] $blindape at $1.071e-05 | P&L: +78.1%
+- **Reasoning:** $blindape +78.1% is the winner — bank half the gain, let the rest ride if narrative holds. 1h = +253% but24h vol could mean it's already peaking.
+
+## [2026-08-27 00:40 UTC] sell | [FULL][LLM] $Best at $3.147e-06 | P&L: -20.3%
+- **Reasoning:** $Best at -20.3%, no momentum in 24h (-7.7%), cut to redeploy slot into fresher attention.
+
+## [2026-08-27 00:40 UTC] buy | [LLM] $Homerunner at $1.01503e-05, spent 0.1 SOL
+- **Reasoning:** $Homerunner — 'The Original Doge' is a clear nostalgia/identity narrative on a 0.5min launch, classic dog-coin DNA that historically catches. Sub-$11k mcap with a dev Twitter post is the attention signal.
+
+## [2026-08-27 00:40 UTC] buy | [LLM] $gubby at $3.06278e-06, spent 0.1 SOL
+- **Reasoning:** $gubby — pushed by named YouTuber KreekCraft (millions of views in the Roblox/creator space). That's a real attention source with a built-in audience, not random X chatter. Strongest narrative in the batch.
+
