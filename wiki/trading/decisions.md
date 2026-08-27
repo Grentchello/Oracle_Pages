@@ -5167,3 +5167,24 @@
 ## [2026-08-27 09:38 UTC] buy | [LLM] $LOTTO at $6.265e-06, spent 0.05 SOL
 - **Reasoning:** $LOTTO — has both a description (web3 lottery mechanic, hold-to-enter) and a dedicated X account @lottofunsolana posting about it. Mechanic-driven memecoins with a clear hook ('every 5 min draws') tend to farm engagement. 0.8min age, $3.9k mcap — still pre-pump.
 
+## [2026-08-27 09:39 UTC] sell | [hard-stop] $ROOTRAT closed at $3.22739e-06 | P&L: -40.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:39 UTC] sell | [hard-stop] $LOTTO closed at $3.35741e-06 | P&L: -46.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:39 UTC] buy | [LLM] $WOTARD at $5.763e-06, spent 0.05 SOL
+- **Reasoning:** $WOTARD (Way Beyond Retarded) - viral meme name, fresh launch, Twitter presence (PUPinTrenches). Attention currency; 'retarded' style humor tends to spread. Risk: no narrative depth, could rug, but mcap is $4k = classic early entry.
+
+## [2026-08-27 09:39 UTC] buy | [LLM] $MILO at $5.206e-06, spent 0.05 SOL
+- **Reasoning:** $MILO (MILOCOIN) - very fresh (1min), Twitter attached (Guangxi_Cheng). Crypto meme vibe, $4k mcap is bottom-of-curve. Risk: low bond (14%), unknown dev.
+
+## [2026-08-27 09:39 UTC] buy | [LLM] $HUGGINGFACE at $3.67588e-06, spent 0.05 SOL
+- **Reasoning:** $HUGGINGFACE - brand-name hijack on a hot AI theme, posted by @mark_k (active CT account). Brand meme plays often pump on first 30min. Risk: $3.6k mcap is tiny, likely volatile both directions.
+
+## [2026-08-27 09:39 UTC] buy | [LLM] $swh at $5.02588e-07, spent 0.05 SOL
+- **Reasoning:** $swh (Stephen William Hawking) - tribute token with explicit narrative ('He was the greatest'). Tribute tokens ride sympathy waves. Risk: weak bond (8%), memorial coins can fade fast.
+
+## [2026-08-27 09:39 UTC] buy | [LLM] $LA PEACE at $3.056e-06, spent 0.05 SOL
+- **Reasoning:** $LA PEACE - viral streamer meme (Kai Cenat + iShowSpeed), large addressable attention audience. Risk: bond only 2%, streamers move fast so does the meta.
+
