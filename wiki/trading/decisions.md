@@ -6097,3 +6097,21 @@
 ## [2026-08-27 11:13 UTC] buy | [LLM] $KK at $6.12e-06, spent 0.05 SOL
 - **Reasoning:** $KK has the strongest attention signal in this batch — NY Post tweet (Kylie Jenner adjacent narrative) is real celebrity-tier attention that memecoins live on. mcap $7,769 with 28% bond means room to run. Risk: appears as two different mints (possible copycat/rug variants), but the NY Post source tweet is legit attention.
 
+## [2026-08-27 11:14 UTC] sell | [TP +100% (50%)] $OSTRICH at $1.38357e-05 | P&L: +143.1%
+- **Reasoning:** Auto take-profit at +143.1%
+
+## [2026-08-27 11:14 UTC] sell | [TP +100% (50%)] $CATMAXX at $8.21645e-06 | P&L: +133.2%
+- **Reasoning:** Auto take-profit at +133.2%
+
+## [2026-08-27 11:14 UTC] sell | [FULL][LLM] $OSTRICH at $1.38357e-05 | P&L: +143.1%
+- **Reasoning:** Up +143% in 0.1h with strong momentum — at the +100% TP threshold. Curve has pumped hard (bonding curve, low liquidity $3687), this is the type of move that reverses fast. Lock the gain.
+
+## [2026-08-27 11:14 UTC] sell | [FULL][LLM] $CATMAXX at $8.21645e-06 | P&L: +133.2%
+- **Reasoning:** Up +133% in minutes with thin liquidity ($2123). Bonding-curve tokens this hot retrace viciously. Already past the +100% threshold — take profit and rotate.
+
+## [2026-08-27 11:14 UTC] buy | [LLM] $SURGE at $7.04082e-06, spent 0.05 SOL
+- **Reasoning:** $SURGE has a clear value-prop narrative ('find Solana breakouts with real buyers/liquidity') — meta-narrative tokens catch attention from other traders. Fresh 0.4min, $7k mcap, has its own X account. Good asymmetric bet at this size.
+
+## [2026-08-27 11:14 UTC] buy | [LLM] $MICRODUCK at $2.99502e-06, spent 0.05 SOL
+- **Reasoning:** $MICRODUCK has huggingface twitter source which signals AI/tech crowd attention — meta-narrative play. Duplicate mint with another $MICRODUCK suggests multiple creators racing the same idea, which is itself an attention signal. Small bet.
+
