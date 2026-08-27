@@ -2752,3 +2752,21 @@
 ## [2026-08-27 01:06 UTC] buy | [LLM] $uponly at $7.33919e-06, spent 0.1 SOL
 - **Reasoning:** $uponly — strongest new launch with 'uponly hat cult' meta-narrative (self-referential memecoin culture), 28% bond curve leading, mcap only $7.3k = high attention upside
 
+## [2026-08-27 01:08 UTC] sell | [FULL][LLM] $MEME1921 at $3.043e-06 | P&L: -20.5%
+- **Reasoning:** Down -20.5% on a low-mcap memecoin with weak narrative; 24h momentum flat. Cut the loss and free capital for fresher attention.
+
+## [2026-08-27 01:08 UTC] sell | [PARTIAL][LLM] $SKRIMP at $7.247e-06 | P&L: +123.3%
+- **Reasoning:** +123% is a real winner — lock in gains per the +50% profit-take rule while keeping a runner for further upside.
+
+## [2026-08-27 01:08 UTC] sell | [FULL][LLM] $PERCHI at $3.184e-06 | P&L: -40.3%
+- **Reasoning:** -40.3% is approaching the -50% hard cap; 24h momentum is firmly negative. Exit now before it gets worse.
+
+## [2026-08-27 01:08 UTC] sell | [FULL][LLM] $DREAD at $2.883e-06 | P&L: -23.5%
+- **Reasoning:** -23.5% with no narrative signal showing strength; cut it and redeploy into fresh attention.
+
+## [2026-08-27 01:08 UTC] buy | [LLM] $uponly at $7.23467e-06, spent 0.1 SOL
+- **Reasoning:** $uponly cult narrative is the strongest meme of the tick — already running +166% on a parallel mint. Front-run the next leg with 0.1 SOL.
+
+## [2026-08-27 01:08 UTC] buy | [LLM] $$BEAGLE at $5.5275e-06, spent 0.1 SOL
+- **Reasoning:** $BEAGLE with a clear 'dog that keeps running' story and twitter signal — clean animal-narrative attention play at $5.5k mcap.
+
