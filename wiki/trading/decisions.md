@@ -3265,3 +3265,15 @@
 ## [2026-08-27 02:13 UTC] buy | [LLM] $ELLIE at $4.02443e-06, spent 0.1 SOL
 - **Reasoning:** $ELLIE — 'Neuralink Cat' ties Musk/Neuralink attention to a memeable pet story. Sub-minute age, $4k mcap — cheap exposure if the X post catches. Narrative is timely and visual.
 
+## [2026-08-27 02:14 UTC] sell | [PARTIAL][LLM] $Naturalis at $2.734e-05 | P&L: +16.3%
+- **Reasoning:** $Naturalis already +16% in <0.1h and 1h is +502% — parabolic move. Bank half to lock in profit per the +50% take-profit principle, let the other half ride if narrative (Naturalis Historia) keeps pulling attention.
+
+## [2026-08-27 02:14 UTC] sell | [FULL][LLM] $ELLIE at $3.023e-06 | P&L: -24.9%
+- **Reasoning:** $ELLIE down -24.9% within 0.0h of entry and the 1h/24h trend is also red (-11.9%). No bounce signal, weak structure — cut it free up a slot for fresher attention.
+
+## [2026-08-27 02:14 UTC] buy | [LLM] $MAX at $2.11867e-05, spent 0.1 SOL
+- **Reasoning:** $MAX (Max The Undying Inu) at $21k mcap with 'Undying' branding is classic memecoin attention bait — the name alone is shareable. Bond 39% is leading the new-launch slate; early momentum is real. 0.1 SOL risk.
+
+## [2026-08-27 02:14 UTC] buy | [LLM] $robonigga at $5.425e-06, spent 0.1 SOL
+- **Reasoning:** $robonigga is provocative/edgy — exactly the kind of name that goes viral in memecoin circles. $7.2k mcap with a bot-tracker Twitter handle attached; cheap entry, high narrative asymmetry.
+
