@@ -2635,3 +2635,21 @@
 ## [2026-08-27 00:55 UTC] buy | [LLM] $qCat at $3.41267e-06, spent 0.1 SOL
 - **Reasoning:** $qCat (quantum cat) at $3.4k mcap with onchaincrow tweet — crypto-native X account attention, 8% bond progress. Quantum + cat is a memeable combo. Early enough to catch a 5-10x if it grabs narrative.
 
+## [2026-08-27 00:56 UTC] sell | [FULL][LLM] $blindape at $3.683e-06 | P&L: -38.8%
+- **Reasoning:** $blindape down -38.7%, 1h actually +21.4% so a dead cat bounce may be forming, but approaching hard cap zone. Cutting at -38% to preserve capital for fresher opportunities — the 1h green candle on a 24h green suggests a fake recovery, exit now.
+
+## [2026-08-27 00:56 UTC] sell | [PARTIAL][LLM] $MEME1921 at $6.078e-06 | P&L: +58.9%
+- **Reasoning:** $MEME1921 up +58.9% with 24h +102%. Take partial profit at the +50% rule, let the other half ride if narrative continues.
+
+## [2026-08-27 00:56 UTC] sell | [PARTIAL][LLM] $SKRIMP at $7.396e-06 | P&L: +127.8%
+- **Reasoning:** $SKRIMP up +127.8% — massive gain. Lock in half profits per the +50% rule, let remaining half run if momentum sustains.
+
+## [2026-08-27 00:56 UTC] sell | [FULL][LLM] $qCat at $3.305e-06 | P&L: -3.1%
+- **Reasoning:** $qCat -3.2% but 24h -48.0%, strong downtrend. Exit immediately to free slot and avoid further loss toward the -50% hard cap.
+
+## [2026-08-27 00:56 UTC] buy | [LLM] $MARTINI at $6.1576e-06, spent 0.1 SOL
+- **Reasoning:** $MARTINI 'Martini Shkreli' — meme narrative on a known pharma-bro villain, $6k mcap, fresh attention. Rax.tools launch + twitter post gives virality signal. Small position for narrative-driven upside.
+
+## [2026-08-27 00:56 UTC] buy | [LLM] $WD at $2.89555e-06, spent 0.1 SOL
+- **Reasoning:** $WD 'WASTE DAY' from @zerohedge — major crypto/news account with massive reach. Real attention signal from a high-follow account. $2.8k mcap with viral potential.
+
