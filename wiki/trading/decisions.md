@@ -6799,3 +6799,6 @@
 ## [2026-08-27 12:46 UTC] buy | [LLM] $ROBOT at $8.54738e-06, spent 0.05 SOL
 - **Reasoning:** $ROBOT has strongest narrative signal — 'RobotCoin' tied to WhaleFUD status, bonding 29% (most progress = real traction), $8570 mcap with room to run.
 
+## [2026-08-27 12:47 UTC] sell | [TP +30% (25%)] $ROBOT at $1.26375e-05 | P&L: +47.9%
+- **Reasoning:** Auto take-profit at +47.9%
+
