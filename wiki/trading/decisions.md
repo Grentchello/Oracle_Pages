@@ -5413,3 +5413,15 @@
 ## [2026-08-27 10:02 UTC] buy | [LLM] $CRYSTAL at $1.1754e-06, spent 0.05 SOL
 - **Reasoning:** RIP CRYSTAL THE MONKEY — emotional death-announcement narrative is a known viral attention pattern on X/CT. Real story, low mcap $1.1k, fresh launch = highest attention/reward ratio in batch.
 
+## [2026-08-27 10:03 UTC] sell | [hard-stop] $CRYSTAL closed at $2.70995e-07 | P&L: -76.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:03 UTC] sell | [TP +30% (25%)] $CTREMP at $2.93242e-05 | P&L: +73.6%
+- **Reasoning:** Auto take-profit at +73.6%
+
+## [2026-08-27 10:04 UTC] sell | [PARTIAL][LLM] $CTREMP at $2.93242e-05 | P&L: +73.6%
+- **Reasoning:** +73.6% in 12 min is a strong pump — locking half locks profit while leaving a runner. Bonding curve at 25% with $6.8k pool means liquidity is thin and the next leg could retrace hard. Take the win, keep the moon bag.
+
+## [2026-08-27 10:04 UTC] buy | [LLM] $sigma at $3.45315e-06, spent 0.05 SOL
+- **Reasoning:** $sigma (SIGMA BOY!!!!! go up!) — narrative coin with explicit 'go up' call to action, memetic energy, two simultaneous launches showing trend replication. Small position ($5) is appropriate risk for the attention play.
+
