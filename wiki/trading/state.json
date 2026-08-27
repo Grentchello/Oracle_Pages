@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.216495,
+  "balance_sol": 0.224565,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HviMMNgXx2wpnQAbcaQurRNBGuC56KJSkDvgMoWKnfpo": {
-      "symbol": "Agents",
-      "name": "X Chat Agents",
-      "amount": 288013.4265385724,
-      "entry_price_usd": 3.1050206411703414e-06,
-      "entry_sol_spent": 0.008427929830708369,
-      "entry_time": "2026-08-27T14:24:39.620061+00:00",
-      "entry_usd_value": 5.3055,
-      "entry_signals": {
-        "liquidity_usd": 73.34853803055,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3099.667476261472,
-        "ath_market_cap_usd": 4401.602716103679,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.691250005,
-        "description": "",
-        "twitter": "https://x.com/i/status/2092981350831624351",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -20800,19 +20777,30 @@
       "pnl_pct": -22.74,
       "exit_reason": "LLM: sell_all — $hat down -22.7% and approaching the -30% hard cap. Bot enforces auto-stop, so selling now locks in less loss than waiting. No bounce signal visible, ",
       "partial": false
+    },
+    {
+      "mint": "HviMMNgXx2wpnQAbcaQurRNBGuC56KJSkDvgMoWKnfpo",
+      "symbol": "Agents",
+      "name": "X Chat Agents",
+      "amount_sold": 288013.4265385724,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T14:24:39.620061+00:00",
+      "exit_time": "2026-08-27T14:30:07.748442+00:00",
+      "entry_price_usd": 3.1050206411703414e-06,
+      "exit_price_usd": 2.961908879266266e-06,
+      "entry_sol_for_chunk": 0.008428,
+      "exit_sol_received": 0.00807,
+      "pnl_sol": -0.000358,
+      "pnl_pct": -4.61,
+      "exit_reason": "LLM: sell_all — Price has been completely flatlined at MC:60 for the last 4 minutes on the bonding curve with no volume action. -4.6% with zero momentum means buyers ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T14:28:37.880535+00:00",
+  "last_updated": "2026-08-27T14:30:07.749085+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.81,
-  "portfolio_value_usd": 23.8,
+  "last_sol_price_usd": 105.71,
+  "portfolio_value_usd": 23.74,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 14:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $WTF at $1.54755e-06 | P&L: +22.0%",
-      "reason": "$WTF is up +22% on a $414 pool (thin, our share shows 0% — easy to slip). Rules say lock gains at >20% when there's any doubt. 12min held with no further TP threshold until +25%, and thin liquidity means a reversal to -10% is fast. Take the profit, free the slot."
-    },
     {
       "time": "2026-08-27 14:17 UTC",
       "action": "buy",
@@ -20926,62 +20914,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $hat at $3.15363e-06 | P&L: -22.7%",
       "reason": "$hat down -22.7% and approaching the -30% hard cap. Bot enforces auto-stop, so selling now locks in less loss than waiting. No bounce signal visible, exit fast."
+    },
+    {
+      "time": "2026-08-27 14:30 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Agents at $2.96191e-06 | P&L: -4.6%",
+      "reason": "Price has been completely flatlined at MC:60 for the last 4 minutes on the bonding curve with no volume action. -4.6% with zero momentum means buyers aren't showing up. Cut the dead weight now before it bleeds further — flatlined launches on bonding curve rarely recover."
     }
   ],
   "trade_stats": {
-    "total": 1222,
+    "total": 1223,
     "wins": 637,
-    "losses": 585,
+    "losses": 586,
     "win_rate_pct": 52.1,
-    "total_pnl_sol": -1.675068,
-    "avg_pnl_pct": 41.93,
+    "total_pnl_sol": -1.675426,
+    "avg_pnl_pct": 41.9,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 681,
-    "today_realized_sol": -0.242839,
-    "today_target_pct": -60.7,
+    "today_trades": 682,
+    "today_realized_sol": -0.243197,
+    "today_target_pct": -60.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 637,
-      "loss_count": 585,
+      "loss_count": 586,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T14:28:37.879353+00:00",
+  "last_llm_brief_at": "2026-08-27T14:30:07.747943+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "HviMMNgXx2wpnQAbcaQurRNBGuC56KJSkDvgMoWKnfpo": {
-      "price_usd": 2.9647107985541922e-06,
+      "price_usd": 2.961908879266266e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3.4155060631499996,
+      "liquidity_usd": 3.4122781016499997,
       "volume_h24": 3045.92,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.032279615
-    },
-    "4K2ZSaLiCR1cQLGYmSTPxZgQRvAHKY97cEKzpz4wpump": {
-      "price_usd": 3.032086204778099e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 39.32071340211,
-      "volume_h24": 7192.59,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.371616231
-    },
-    "6DSfohVoZdqjrK4WPonrsxKPUtCN2nBwUmjUwQFjpump": {
-      "price_usd": 3.153625633245966e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 103.09596090861,
-      "volume_h24": 3437.68,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.974349881
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

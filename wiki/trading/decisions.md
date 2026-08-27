@@ -7513,3 +7513,6 @@
 ## [2026-08-27 14:28 UTC] sell | [FULL][LLM] $hat at $3.15363e-06 | P&L: -22.7%
 - **Reasoning:** $hat down -22.7% and approaching the -30% hard cap. Bot enforces auto-stop, so selling now locks in less loss than waiting. No bounce signal visible, exit fast.
 
+## [2026-08-27 14:30 UTC] sell | [FULL][LLM] $Agents at $2.96191e-06 | P&L: -4.6%
+- **Reasoning:** Price has been completely flatlined at MC:60 for the last 4 minutes on the bonding curve with no volume action. -4.6% with zero momentum means buyers aren't showing up. Cut the dead weight now before it bleeds further — flatlined launches on bonding curve rarely recover.
+
