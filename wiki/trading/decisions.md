@@ -7507,3 +7507,9 @@
 ## [2026-08-27 14:27 UTC] buy | [LLM] $hat at $4.08169e-06, spent 0.05 SOL
 - **Reasoning:** 'pope hat' is a culturally viral concept right now (conclave attention), $4k mcap is tiny, rapidlaunch created. Narrative > logic here.
 
+## [2026-08-27 14:28 UTC] sell | [hard-stop] $DINOCATS closed at $3.03209e-06 | P&L: -66.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 14:28 UTC] sell | [FULL][LLM] $hat at $3.15363e-06 | P&L: -22.7%
+- **Reasoning:** $hat down -22.7% and approaching the -30% hard cap. Bot enforces auto-stop, so selling now locks in less loss than waiting. No bounce signal visible, exit fast.
+
