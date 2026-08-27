@@ -4594,3 +4594,18 @@
 ## [2026-08-27 08:29 UTC] buy | [LLM] $TICKET at $4.854e-06, spent 0.1 SOL
 - **Reasoning:** $TICKET — 'The Onchain Lottery' narrative. Lottery/gambling framing resonates hard with degen attention. 0.6min old, $4.5k mcap — asymmetric upside if the story catches.
 
+## [2026-08-27 08:31 UTC] sell | [PARTIAL][LLM] $THEJEETS at $5.1958e-06 | P&L: +8.2%
+- **Reasoning:** $THEJEETS up8.2% with a real mint, tiny pool ($1050) — take half profit at this thin liquidity, let the rest ride if it pumps.
+
+## [2026-08-27 08:31 UTC] sell | [FULL][LLM] $MARCEL at $2.95167e-06 | P&L: -47.1%
+- **Reasoning:** $MARCEL down -47.1%, very close to hard -50% stop, pool only $23 and we hold 24%. Exit now to avoid auto-stop and free the slot.
+
+## [2026-08-27 08:31 UTC] sell | [PARTIAL][LLM] $TICKET at $2.94006e-06 | P&L: -39.4%
+- **Reasoning:** $TICKET down -39.4%, pool $17, we hold 37% — illiquid and bleeding. Cut loss before the -50% hard stop triggers.
+
+## [2026-08-27 08:31 UTC] buy | [LLM] $inno at $1.85937e-05, spent 0.1 SOL
+- **Reasoning:** $inno — highest mcap of fresh batch ($18.6k, 38% bonded), wholesome viral narrative (eat/sleep/travel). Real attention signal.
+
+## [2026-08-27 08:31 UTC] buy | [LLM] $login at $4.39132e-06, spent 0.1 SOL
+- **Reasoning:** $login — X-attached token, sub-$5k mcap, classic 'dev launched' play. Small size, asymmetric upside if tweet gets traction.
+
