@@ -60,3 +60,9 @@
 
 ## [2026-08-27 12:03 UTC] close | XRPUSDT ROC time-stop 3.0h P&L=-0.6%
 
+## [2026-08-27 13:04 UTC] close | BTCUSDT SUPER time-stop 4.0h P&L=-0.6%
+
+## [2026-08-27 13:04 UTC] close | SOLUSDT SUPER time-stop 4.0h P&L=+0.1%
+
+## [2026-08-27 13:04 UTC] close | BNBUSDT SUPER time-stop 4.0h P&L=-0.5%
+
