@@ -7105,3 +7105,6 @@
 ## [2026-08-27 13:22 UTC] buy | [LLM] $KGDZ at $3.81041e-06, spent 0.05 SOL
 - **Reasoning:** $KGDZ 'KING GODZILLA' has a story-driven description ('ultimate community coin for legends... survive the bea[st]') and a real X account @RealGodz1lla. $3.8k mcap at 0.3min — asymmetric upside if the narrative catches. Second small bet to diversify attention exposure this tick.
 
+## [2026-08-27 13:23 UTC] sell | [hard-stop] $MEGADUCK closed at $2.93894e-06 | P&L: -55.7%
+- **Reasoning:** Hard -30% stop
+
