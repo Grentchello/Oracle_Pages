@@ -4687,3 +4687,9 @@
 ## [2026-08-27 08:40 UTC] buy | [LLM] $BETTORS at $6.82539e-06, spent 0.1 SOL
 - **Reasoning:** $BETTORS 'WallStreetBettors' — plays on the WSB/Degen culture meta which has historically minted 10x+ runners. $6.8k mcap, 26% bonded, dedicated X account, deployed via tracker (shows intent).
 
+## [2026-08-27 08:42 UTC] sell | [PARTIAL][LLM] $BETTORS at $6.10643e-06 | P&L: -10.5%
+- **Reasoning:** $BETTORS is -10.5% after only ~0h held, which is suspicious — bonding-curve token with only $1,403 pool liquidity and 1% of pool as our share. Thin liquidity + early red = high rug risk. Cut the bag in half, free up a slot, and let the rest ride one more tick to see if a bounce materializes. If it doesn't bounce, exit fully next tick before -20% becomes -50%.
+
+## [2026-08-27 08:42 UTC] buy | [LLM] $GTAVI at $1.72225e-05, spent 0.1 SOL
+- **Reasoning:** $GTAVI — strongest narrative of the bunch. GTA VI is a mega-IP with built-in global attention, $17k mcap is fresh, and the bonding curve already at 37% shows real buy pressure. 0.1 SOL position is reasonable since liquidity is thin but the narrative is the strongest meme catalyst on this slate.
+
