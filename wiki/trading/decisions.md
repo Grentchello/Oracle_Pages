@@ -3772,3 +3772,21 @@
 ## [2026-08-27 03:10 UTC] buy | [LLM] $OPUS at $8.91979e-06, spent 0.1 SOL
 - **Reasoning:** $OPUS (Opus 5) at $8,918 mcap, 0.2min old — top of the new-launch attention list. Same viral thread (Opus 5 self-portrait). 30% bonded already showing demand. AI narrative strong.
 
+## [2026-08-27 03:10 UTC] sell | [hard-stop] $CLAUDE closed at $2.82721e-06 | P&L: -50.3%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 03:11 UTC] sell | [FULL][LLM] $Topblast at $2.89689e-06 | P&L: -71.9%
+- **Reasoning:** $Topblast -71.9% is past the -50% hard stop and pool is only $37 (5x rule violation on any meaningful position). Auto-stop should have triggered; issuing sell_all to force exit and free a slot.
+
+## [2026-08-27 03:11 UTC] sell | [FULL][LLM] $CASH at $1.24094e-05 | P&L: -29.2%
+- **Reasoning:** $CASH -29.2% and falling with $3322 pool. Down >20% with no bounce signal — exit fast per discipline before it becomes a -50%.
+
+## [2026-08-27 03:11 UTC] sell | [PARTIAL][LLM] $WOTARD at $1.52745e-05 | P&L: +26.8%
+- **Reasoning:** $WOTARD +26.8% approaching the +30% TP trigger. Lock half the gain now per aggressive profit-taking rule; let the rest ride if narrative holds.
+
+## [2026-08-27 03:11 UTC] sell | [FULL][LLM] $MARTINBOT at $2.82721e-06 | P&L: -52.6%
+- **Reasoning:** $MARTINBOT -52.6% is past the -50% hard cap, pool is $0 (dead liquidity), and share data is broken (296M%). Auto-stop should have fired; forcing sell_all to confirm exit.
+
+## [2026-08-27 03:11 UTC] buy | [LLM] $Wrixel at $3.3032e-06, spent 0.1 SOL
+- **Reasoning:** $Wrixel backed by @Cented7 (known memecoin degen with real distribution), $3.3k mcap gives 10x+ room. Small position size justified by the influencer signal.
+
