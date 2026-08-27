@@ -2944,3 +2944,9 @@
 ## [2026-08-27 01:31 UTC] buy | [LLM] $higher at $3.04791e-06, spent 0.1 SOL
 - **Reasoning:** $higher — pure Elon Musk keyword token. Classic Musk-attention meta; even if he doesn't tweet, the search/attention around 'higher' is the signal. Small-cap viral attention play, risk is rug but upside is asymmetric if it catches.
 
+## [2026-08-27 01:34 UTC] sell | [PARTIAL][LLM] $🧲 at $4.641e-06 | P&L: -24.9%
+- **Reasoning:** -24.9% is halfway to hard cap and -25% is psychologically heavy; trimming half de-risks while keeping a runner on the +43.8% 24h recovery narrative.
+
+## [2026-08-27 01:34 UTC] buy | [LLM] $LEEK at $5.82246e-06, spent 0.1 SOL
+- **Reasoning:** $LEEK — meta trading-meme ('outperform your average degen at trenching') is exactly the degen-native narrative that catches fire on CT; 0.4min old with a live X account is the early-attention signal we want at $5.8k mcap.
+
