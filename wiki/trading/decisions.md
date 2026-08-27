@@ -3652,3 +3652,12 @@
 ## [2026-08-27 02:59 UTC] buy | [LLM] $CLAUDEFORCE at $7.47311e-06, spent 0.1 SOL
 - **Reasoning:** $CLAUDEFORCE has YouTube video backing plus RhysSullivan X post — narrative around Claude/AI meta is hot. $7.5k mcap with 28% bond gives solid entry.
 
+## [2026-08-27 03:01 UTC] sell | [PARTIAL][LLM] $CLAUDEFORCE at $2.83015e-06 | P&L: -62.1%
+- **Reasoning:** Hard -50% loss cap already breached at -62.1%; this is a mandatory auto-close per the rules the LLM cannot override. Pool is only $1 anyway.
+
+## [2026-08-27 03:01 UTC] sell | [FULL][LLM] $SIZECHAD at $3.47579e-06 | P&L: -41.7%
+- **Reasoning:** -41.7% loss, weak narrative, $329 illiquid bonding-curve pool — exit before the -50% hard cap triggers and liquidity dries up further.
+
+## [2026-08-27 03:01 UTC] buy | [LLM] $EDEK at $7.81574e-06, spent 0.1 SOL
+- **Reasoning:** $EDEK 'The Polish Humanoid' has a clear identity-meme narrative at $7.8k mcap, 28% bonded, fresh X attention — small-cap narrative launch is exactly where the alpha is.
+
