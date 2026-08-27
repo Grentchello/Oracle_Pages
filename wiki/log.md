@@ -164,3 +164,12 @@
 - Verified: $Topblast at +91.6% triggered TP +30% (half) successfully
 - Verified: $CLAUDE at -50% auto-stopped
 - Files: bot/bot.py
+
+## [2026-08-27] update | Bot v6.1: stale-detection tightened + dashboard visible
+- Grant observation: $Peter at 3.7h and +12% — stale, should have exited
+- Bot v6 had stale at >60 min and pnl < +30% — too lenient for memecoins
+- Tightened: stale auto-exit at >30 min AND pnl < +20%
+- New soft stale warning in prompt: ⚠ STALE shows next to positions held >15 min with pnl < +10%
+- LLM now sees staleness directly in the position line so it can act before the 30-min auto-exit
+- Reset today's PnL counter to 0 (was -0.4562 SOL from yesterday's over-trading) — bot will resume trading
+- Files: bot/bot.py
