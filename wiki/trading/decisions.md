@@ -5866,3 +5866,36 @@
 ## [2026-08-27 10:48 UTC] buy | [LLM] $timesUP at $3.82046e-06, spent 0.05 SOL
 - **Reasoning:** $timesUP has a genuinely weird story hook ('surrogate father launched this coin') — bizarre narratives go viral on memecoin twitter. Cheap $3.8k mcap, fresh launch, attention bait.
 
+## [2026-08-27 10:50 UTC] sell | [TP +100% (50%)] $copycat at $2.30895e-05 | P&L: +155.8%
+- **Reasoning:** Auto take-profit at +155.8%
+
+## [2026-08-27 10:50 UTC] sell | [TP +100% (50%)] $copycat at $2.30895e-05 | P&L: +155.8%
+- **Reasoning:** Auto take-profit at +155.8%
+
+## [2026-08-27 10:50 UTC] sell | [PARTIAL][LLM] $copycat at $2.30895e-05 | P&L: +155.8%
+- **Reasoning:** $copycat at +155.8% with our share=0% means we likely missed the real pump and any retrace will hit us hard. Lock half the gain now, let the rest ride if attention holds.
+
+## [2026-08-27 10:50 UTC] sell | [FULL][LLM] $CVA at $3.30677e-06 | P&L: -21.0%
+- **Reasoning:** $CVA down -21% on $207 pool liquidity (well below 5x position),2% of pool held = illiquid disaster waiting. -20% losers become -50% fast. Cut now.
+
+## [2026-08-27 10:50 UTC] sell | [FULL][LLM] $timesUP at $3.55866e-06 | P&L: -6.8%
+- **Reasoning:** $timesUP down -6.9% on $332 pool, 2% of pool. Stale low-liquidity bonding-curve token with no clear narrative. Free up slot for stronger candidates.
+
+## [2026-08-27 10:50 UTC] buy | [LLM] $SIA at $7.06874e-06, spent 0.05 SOL
+- **Reasoning:** $SIA 'Youngest Solana Artist' is a clean narrative-driven memecoin, brand new (0.7min), low mcap with viral potential. 26% bonded, decent liquidity entry.
+
+## [2026-08-27 10:50 UTC] sell | [FULL][LLM] $copycat at $2.30895e-05 | P&L: +155.8%
+- **Reasoning:** +155% is a massive bag on a $5.6k pool — thin liquidity means I can't actually exit my full size without crashing it. Lock the entire gain now before it mean-reverts. Runner risk > realized profit risk here.
+
+## [2026-08-27 10:50 UTC] sell | [FULL][LLM] $CVA at $3.30677e-06 | P&L: -21.0%
+- **Reasoning:** -21% with $207 pool and 0.0h held, no bounce signal visible. -20% rule says exit. Hoping for reversal on a sub-$1k liquidity meme is how -21% becomes -50%.
+
+## [2026-08-27 10:50 UTC] sell | [FULL][LLM] $timesUP at $3.55866e-06 | P&L: -6.8%
+- **Reasoning:** -6.9% and flat after entry, $332 pool, no momentum. Meets stale-exit criteria (>30 min flat at non-green), but preempting — capital is locked in a dead ticker, rotate it.
+
+## [2026-08-27 10:50 UTC] buy | [LLM] $MACKAREL at $4.38914e-06, spent 0.05 SOL
+- **Reasoning:** $MACKAREL — Mario Nawfal (millions of crypto followers) posted about it. Real attention signal vs the rest of the noise. Mackerel = absurd/fishing meme, fits the dumb-money viral pattern. Risk: brand-new, j7tracker deploy = no organic community yet.
+
+## [2026-08-27 10:50 UTC] buy | [LLM] $wifcock at $5.00377e-06, spent 0.05 SOL
+- **Reasoning:** $wifcock — crude humor is the #1 memecoin attention driver. Bonding curve only 19% means still very early, room to fill. Risk: niche appeal, may not break out of degen circles.
+
