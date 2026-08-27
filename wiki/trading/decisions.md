@@ -4447,3 +4447,27 @@
 ## [2026-08-27 08:12 UTC] buy | [LLM] $Cooked at $6.05055e-06, spent 0.1 SOL
 - **Reasoning:** $Cooked (Cooked Monkey) — fresh attention token at $6k mcap with X link. 'Cooked' is viral internet slang, narrative has meme potential. Small size, high upside if it catches.
 
+## [2026-08-27 08:13 UTC] sell | [TP +30% (half)] $RWDT at $1.75098e-05 | P&L: +90.3%
+- **Reasoning:** Auto take-profit at +90.3%
+
+## [2026-08-27 08:13 UTC] sell | [TP +30% (half)] $Cooked at $8.36058e-06 | P&L: +38.2%
+- **Reasoning:** Auto take-profit at +38.2%
+
+## [2026-08-27 08:13 UTC] sell | [FULL][LLM] $ELEPHANTS at $4.26731e-06 | P&L: +12.4%
+- **Reasoning:** $ELEPHANTS +12% but pool only $667 (under 5x min liquidity). Thin pool = can't exit cleanly at scale. Take the small gain and rotate.
+
+## [2026-08-27 08:13 UTC] sell | [FULL][LLM] $apeinbed at $3.8311e-06 | P&L: +19.3%
+- **Reasoning:** $apeinbed +19% but pool $469 (under 5x min liquidity). Same thin-pool problem — better to lock the gain now than risk illiquid exit.
+
+## [2026-08-27 08:13 UTC] sell | [PARTIAL][LLM] $RWDT at $1.75098e-05 | P&L: +90.3%
+- **Reasoning:** $RWDT +90% in minutes — past first TP. Lock half the gain, let runner ride on remaining half. Pool $4.5k is adequate.
+
+## [2026-08-27 08:13 UTC] sell | [PARTIAL][LLM] $Cooked at $8.36058e-06 | P&L: +38.2%
+- **Reasoning:** $Cooked +38% — past +30% first TP threshold. Lock half, let rest ride. Pool $2.2k adequate.
+
+## [2026-08-27 08:13 UTC] buy | [LLM] $Zoe at $1.6364e-05, spent 0.1 SOL
+- **Reasoning:** $Zoe 'Anti-AI' narrative — zeitgeist counter-trend coin, fresh launch, discord-launched community. Clear meme hook in current AI-crypto meta. 0.1 SOL entry.
+
+## [2026-08-27 08:13 UTC] buy | [LLM] $birb at $7.57788e-06, spent 0.1 SOL
+- **Reasoning:** $birb — simple, memeable animal ticker, fresh launch, real X post attached. Memecoins reward simple memorable names. 0.1 SOL entry.
+
