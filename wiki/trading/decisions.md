@@ -2893,3 +2893,12 @@
 ## [2026-08-27 01:22 UTC] buy | [LLM] $ZARD at $7.1973e-06, spent 0.1 SOL
 - **Reasoning:** $ZARD (Dark Charizard) — Pokemon IP remix, 0.4min old, mcap $7.2k. Memecoin meta loves Pokemon mashups; name alone = viral potential. 0.1 SOL.
 
+## [2026-08-27 01:24 UTC] sell | [FULL][LLM] $ket at $2.934e-06 | P&L: -69.5%
+- **Reasoning:** Hard cap breached at -69.5% — must close. Likely rug or instant dump from entry price 0.0000096 vs current 0.0000029.
+
+## [2026-08-27 01:24 UTC] sell | [FULL][LLM] $Runner at $2.845e-06 | P&L: -4.9%
+- **Reasoning:** Runner at -4.9% with negative 1h momentum (-2.5%) and no narrative — rotating the freed slot into the 🟢 attention cluster leader.
+
+## [2026-08-27 01:24 UTC] buy | [LLM] $🟢 at $7.30704e-06, spent 0.1 SOL
+- **Reasoning:** Leader of the coordinated 🟢/GREEN attention cluster — highest mcap ($7.3k), highest bond (27%), and a video link + dedicated 100x-themed X account. Viral-coordinated launches with multiple variants are high-risk but exactly the attention signal the rules reward. 0.1 SOL.
+
