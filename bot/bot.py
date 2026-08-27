@@ -20,10 +20,6 @@ import time
 import urllib.error
 import urllib.request
 import threading
-# Sparkline path (data fetched by separate collector process)
-SPARKLINE_PATH = WIKI_DIR / "trading" / "sparklines.json"
-HAS_SPARKLINES = SPARKLINE_PATH.exists()
-
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -37,6 +33,8 @@ WATCHLIST_PATH = WIKI_DIR / "trading" / "watchlist.json"
 TRADES_PATH = WIKI_DIR / "trading" / "trades.json"
 DECISION_LOG_PATH = WIKI_DIR / "trading" / "decision_log.json"
 LAST_SEEN_PATH = WIKI_DIR / "trading" / "last_seen_mints.json"
+SPARKLINE_PATH = WIKI_DIR / "trading" / "sparklines.json"
+HAS_SPARKLINES = SPARKLINE_PATH.exists()
 
 # === APIs ===
 DEXSCREENER_BASE = "https://api.dexscreener.com/latest/dex"
@@ -629,8 +627,29 @@ No prior trades — fresh slate.
                 pct_str = f"{pct:.0f}%" if pct is not None else "?"
                 warn = " ⚠ HUGE" if pct and pct > 100 else (" ⚠" if pct and pct > 30 else "")
                 liq_str = f", pool=${h['liquidity_usd']:.0f}, our share={pct_str}{warn}"
-            prompt += f"  - ${h['symbol']} entry ${h['entry_price_usd']:.10f} now {cur_str} = {pnl_str}, held {h['held_hours']:.1f}h{chg24_str}{chg1_str}{src}{liq_str}{h.get('stale_warning', '')}\n"
+            sparkline_str = ""
+            ph = h.get('price_history_30m')
+            if ph:
+                # Compress the price history into a tiny ASCII sparkline
+                prices = []
+                for tok in ph.split(", "):
+                    if "$" in tok:
+                        try:
+                            prices.append(float(tok.split("$")[1]))
+                        except (ValueError, IndexError):
+                            pass
+                if len(prices) >= 2:
+                    spark_chars = "▁▂▃▄▅▆▇█"
+                    min_p, max_p = min(prices), max(prices)
+                    rng = max_p - min_p if max_p > min_p else 1
+                    sparkline_str = " " + "".join([
+                        spark_chars[min(7, int((p - min_p) / rng * 7))]
+                        for p in prices
+                    ])
+            prompt += f"  - ${h['symbol']} entry ${h['entry_price_usd']:.10f} now {cur_str} = {pnl_str}, held {h['held_hours']:.1f}h{chg24_str}{chg1_str}{src}{liq_str}{h.get('stale_warning', '')}{sparkline_str}\n"
             prompt += f"      mint={full_mint}\n"
+            if ph:
+                prompt += f"      history_30m: {ph}\n"
         prompt += "\n"
 
     if candidates:
