@@ -4276,3 +4276,12 @@
 ## [2026-08-27 07:47 UTC] buy | [LLM] $AC at $2.85781e-06, spent 0.1 SOL
 - **Reasoning:** $AC (Air Conchickener) has a viral X post about a man tying a chicken to the ceiling as AC in Thailand — absurd visual story = exactly the kind of attention that pumps memecoins. $2.8k mcap is risky but the narrative is concrete and shareable.
 
+## [2026-08-27 07:48 UTC] sell | [FULL][LLM] $bodycam at $3.01753e-06 | P&L: +6.2%
+- **Reasoning:** Bodycam up only 6.3% on a tiny $97 pool with us holding 11% — we're a huge chunk of liquidity and will struggle to exit without moving price. Cut and redeploy.
+
+## [2026-08-27 07:48 UTC] sell | [PARTIAL][LLM] $AC at $3.35902e-06 | P&L: +17.5%
+- **Reasoning:** AC at +17.5% already in 0.0h — fast move. Lock half at this gain per scalp discipline, let the runner ride the rest with a free entry.
+
+## [2026-08-27 07:48 UTC] buy | [LLM] $CHUD at $5.64058e-06, spent 0.1 SOL
+- **Reasoning:** $CHUD fresh, highest mcap of the launches ($5.6k), 23% bonding curve progress — strongest of the new wave. Provocative name = attention magnet. In with 0.1 SOL.
+
