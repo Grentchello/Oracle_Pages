@@ -2599,3 +2599,9 @@
 ## [2026-08-27 00:49 UTC] buy | [LLM] $SKRIMP at $3.246e-06, spent 0.1 SOL
 - **Reasoning:** $SKRIMP highest mcap of the fresh batch ($3.6k), 11% bond furthest along, has both X link and Telegram group — strongest attention infrastructure. Shrimp narrative is memeable. Sizing one entry only given thin SOL.
 
+## [2026-08-27 00:50 UTC] sell | [PARTIAL][LLM] $blindape at $1.171e-05 | P&L: +94.7%
+- **Reasoning:** +94.7% in 0.7h with 1h showing +286% — parabolic. Take half off to lock profit, let the rest ride to 2x or moonbag it.
+
+## [2026-08-27 00:50 UTC] sell | [PARTIAL][LLM] $PTA at $5.942e-06 | P&L: +54.1%
+- **Reasoning:** +54.1% hits my profit-take zone cleanly. Lock half, let half run; the 1h +97.6% suggests momentum but distribution risk is real at this gain.
+

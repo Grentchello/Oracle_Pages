@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.175611,
+  "balance_sol": 1.194914,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
       "symbol": "blindape",
       "name": "blindape",
-      "amount": 412.68007857974396,
+      "amount": 206.34003928987198,
       "entry_price_usd": 6.013e-06,
-      "entry_sol_spent": 2.44140625e-05,
+      "entry_sol_spent": 1.220703125e-05,
       "entry_time": "2026-08-27T00:10:33.245228+00:00",
       "entry_usd_value": 10.164000000000001,
       "entry_signals": {
@@ -28,9 +28,9 @@
     "B21bwBAQP8TJMoVg9ynBZdAwQDwiJrpgVrPHW8yUpump": {
       "symbol": "PTA",
       "name": "Pokemon Theft Auto",
-      "amount": 655017.7515133003,
+      "amount": 327508.8757566502,
       "entry_price_usd": 3.855964199694998e-06,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0125,
       "entry_time": "2026-08-27T00:42:17.939902+00:00",
       "entry_usd_value": 10.1029,
       "entry_signals": {
@@ -3730,25 +3730,47 @@
       "pnl_pct": -66.52,
       "exit_reason": "LLM: sell_all — $DEI6900 -66.5% breaches the -50% hard cap. This should have been auto-closed already; exit immediately to free capital and stop the bleed.",
       "partial": false
+    },
+    {
+      "mint": "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump",
+      "symbol": "blindape",
+      "name": "blindape",
+      "amount_sold": 206.34003928987198,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:10:33.245228+00:00",
+      "exit_time": "2026-08-27T00:50:43.783737+00:00",
+      "entry_price_usd": 6.013e-06,
+      "exit_price_usd": 1.171e-05,
+      "entry_sol_for_chunk": 1.2e-05,
+      "exit_sol_received": 2.4e-05,
+      "pnl_sol": 1.2e-05,
+      "pnl_pct": 94.74,
+      "exit_reason": "LLM: sell_half — +94.7% in 0.7h with 1h showing +286% — parabolic. Take half off to lock profit, let the rest ride to 2x or moonbag it.",
+      "partial": true
+    },
+    {
+      "mint": "B21bwBAQP8TJMoVg9ynBZdAwQDwiJrpgVrPHW8yUpump",
+      "symbol": "PTA",
+      "name": "Pokemon Theft Auto",
+      "amount_sold": 327508.8757566502,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:42:17.939902+00:00",
+      "exit_time": "2026-08-27T00:50:43.783956+00:00",
+      "entry_price_usd": 3.855964199694998e-06,
+      "exit_price_usd": 5.942e-06,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.019279,
+      "pnl_sol": 0.006779,
+      "pnl_pct": 54.1,
+      "exit_reason": "LLM: sell_half — +54.1% hits my profit-take zone cleanly. Lock half, let half run; the 1h +97.6% suggests momentum but distribution risk is real at this gain.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T00:49:18.525361+00:00",
+  "last_updated": "2026-08-27T00:50:43.784064+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.95,
-  "portfolio_value_usd": 141.41,
+  "last_sol_price_usd": 100.94,
+  "portfolio_value_usd": 142.09,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 00:42 UTC",
-      "action": "buy",
-      "details": "[LLM] $Makeda at $9.4478e-06, spent 0.1 SOL",
-      "reason": "$Makeda 'The Queen' — regal narrative hook at 0.2min / $9.5k mcap, 31% bond. Strong story beats, low float, classic early-launch asymmetry."
-    },
-    {
-      "time": "2026-08-27 00:42 UTC",
-      "action": "buy",
-      "details": "[LLM] $COTUS at $6.2512e-06, spent 0.1 SOL",
-      "reason": "$COTUS 'Coin of the United States' — politically viral meme territory, 0.2min, $6.3k mcap. Narratives like this spike on engagement."
-    },
     {
       "time": "2026-08-27 00:42 UTC",
       "action": "buy",
@@ -3856,63 +3878,75 @@
       "action": "buy",
       "details": "[LLM] $SKRIMP at $3.246e-06, spent 0.1 SOL",
       "reason": "$SKRIMP highest mcap of the fresh batch ($3.6k), 11% bond furthest along, has both X link and Telegram group — strongest attention infrastructure. Shrimp narrative is memeable. Sizing one entry only given thin SOL."
+    },
+    {
+      "time": "2026-08-27 00:50 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $blindape at $1.171e-05 | P&L: +94.7%",
+      "reason": "+94.7% in 0.7h with 1h showing +286% — parabolic. Take half off to lock profit, let the rest ride to 2x or moonbag it."
+    },
+    {
+      "time": "2026-08-27 00:50 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $PTA at $5.942e-06 | P&L: +54.1%",
+      "reason": "+54.1% hits my profit-take zone cleanly. Lock half, let half run; the 1h +97.6% suggests momentum but distribution risk is real at this gain."
     }
   ],
   "trade_stats": {
-    "total": 214,
-    "wins": 103,
+    "total": 216,
+    "wins": 105,
     "losses": 111,
-    "win_rate_pct": 48.1,
-    "total_pnl_sol": -0.499364,
-    "avg_pnl_pct": 81.78,
+    "win_rate_pct": 48.6,
+    "total_pnl_sol": -0.492573,
+    "avg_pnl_pct": 81.71,
     "best_pnl_pct": 702.21,
     "worst_pnl_pct": -99.89,
-    "today_trades": 71,
-    "today_realized_sol": 0.029843,
-    "today_target_pct": 7.5,
+    "today_trades": 73,
+    "today_realized_sol": 0.036634,
+    "today_target_pct": 9.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 103,
+      "win_count": 105,
       "loss_count": 111,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T00:49:18.524806+00:00",
+  "last_llm_brief_at": "2026-08-27T00:50:43.783701+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
-      "price_usd": 8.916e-06,
-      "change_h24": 194.0,
-      "change_h1": 194.0,
+      "price_usd": 1.171e-05,
+      "change_h24": 286.0,
+      "change_h1": 286.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 83468.28,
+      "volume_h24": 84301.19,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "B21bwBAQP8TJMoVg9ynBZdAwQDwiJrpgVrPHW8yUpump": {
-      "price_usd": 6.373e-06,
-      "change_h24": 112.0,
-      "change_h1": 112.0,
+      "price_usd": 5.942e-06,
+      "change_h24": 97.62,
+      "change_h1": 97.62,
       "liquidity_usd": 0.0,
-      "volume_h24": 4584.98,
+      "volume_h24": 4981.3,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "DesJdYxR7c2EyMyCPT16X2GppbEes4Czs7B9Z2QTpump": {
-      "price_usd": 4.884e-06,
-      "change_h24": 62.02,
-      "change_h1": 62.02,
+      "price_usd": 4.979e-06,
+      "change_h24": 65.17,
+      "change_h1": 65.17,
       "liquidity_usd": 0.0,
-      "volume_h24": 1436.3,
+      "volume_h24": 1479.37,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "E9B2X32WujpmJk27EoQYcv7Hqf9WtfQg2Acm3YM163n9": {
-      "price_usd": 3.171e-06,
-      "change_h24": -17.23,
-      "change_h1": -17.23,
+    "3HR2za2R21e7e8wCFQGayH3PmXC2gMnfySZ556cbpump": {
+      "price_usd": 3.54e-06,
+      "change_h24": 17.57,
+      "change_h1": 17.57,
       "liquidity_usd": 0.0,
-      "volume_h24": 20232.09,
+      "volume_h24": 541.78,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }
