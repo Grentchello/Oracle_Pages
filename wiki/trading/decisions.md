@@ -4753,3 +4753,21 @@
 ## [2026-08-27 08:48 UTC] buy | [LLM] $inno at $4.194e-06, spent 0.1 SOL
 - **Reasoning:** $inno — wholesome narrative 'eat something good, take a nap' is the kind of feel-good meme that prints on attention markets; low mcap $3k, asymmetric upside.
 
+## [2026-08-27 08:49 UTC] sell | [hard-stop] $lockin closed at $2.94676e-06 | P&L: -78.3%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 08:49 UTC] sell | [TP +30% (half)] $GTAVI at $2.94207e-05 | P&L: +70.8%
+- **Reasoning:** Auto take-profit at +70.8%
+
+## [2026-08-27 08:49 UTC] sell | [TP +30% (half)] $wiffone at $3.10749e-05 | P&L: +78.0%
+- **Reasoning:** Auto take-profit at +78.0%
+
+## [2026-08-27 08:49 UTC] sell | [PARTIAL][LLM] $GTAVI at $2.94207e-05 | P&L: +70.8%
+- **Reasoning:** +$GTAVI +70.8% in 6 minutes is a textbook new-launch pump. Lock half at the +30% TP zone, let the rest ride the narrative if it keeps printing.
+
+## [2026-08-27 08:49 UTC] sell | [PARTIAL][LLM] $wiffone at $3.10749e-05 | P&L: +78.0%
+- **Reasoning:** +$wiffone +78% held <1h. Same logic — secure the gain, give the runner room. Bonding-curve momentum can evaporate fast so half-off is non-negotiable here.
+
+## [2026-08-27 08:49 UTC] sell | [FULL][LLM] $inno at $3.16693e-06 | P&L: -24.5%
+- **Reasoning:** $inno down -24.5% almost immediately on a $126 pool with our 6% footprint — we're part of the problem. Cut before it trips the -50% hard stop. Weak narrative, no reason to hold.
+
