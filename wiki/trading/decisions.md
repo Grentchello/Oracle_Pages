@@ -5596,3 +5596,24 @@
 ## [2026-08-27 10:22 UTC] buy | [LLM] $X at $6.91334e-06, spent 0.05 SOL
 - **Reasoning:** $X (X Agents) at $6.9k mcap with 26% bonded — 'X Agents' AI-agent meta is hot, account looks active. Early enough for asymmetric upside.
 
+## [2026-08-27 10:23 UTC] sell | [hard-stop] $Pillbert closed at $3.00915e-06 | P&L: -35.6%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:23 UTC] sell | [hard-stop] $X closed at $3.60401e-06 | P&L: -47.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:23 UTC] sell | [TP +30% (25%)] $aped at $1.06767e-05 | P&L: +40.9%
+- **Reasoning:** Auto take-profit at +40.9%
+
+## [2026-08-27 10:23 UTC] sell | [TP +100% (50%)] $ANTSEM at $2.02778e-05 | P&L: +106.2%
+- **Reasoning:** Auto take-profit at +106.2%
+
+## [2026-08-27 10:24 UTC] sell | [FULL][LLM] $aped at $1.06767e-05 | P&L: +40.9%
+- **Reasoning:** Up +40.9%, thin pool ($2858). Lock the gain — giveback risk is high on bonding-curve tokens and we're well past the first TP tier.
+
+## [2026-08-27 10:24 UTC] sell | [PARTIAL][LLM] $ANTSEM at $2.02778e-05 | P&L: +106.2%
+- **Reasoning:** Up +106.2% and fresh. Selling half locks +0.05 SOL realized; keeping half as runner since the move is parabolic and narrative intact. If it stalls, exit the rest next tick.
+
+## [2026-08-27 10:24 UTC] buy | [LLM] $pump.fun at $3.92999e-06, spent 0.05 SOL
+- **Reasoning:** $pump.fun Official App Coin — meta-narrative on the launchpad itself, attention signal is the platform's own branding. Small size fits narrative-driven scalp.
+
