@@ -6649,3 +6649,6 @@
 ## [2026-08-27 12:26 UTC] sell | [FULL][LLM] $BABYANSEM at $2.92144e-06 | P&L: -16.7%
 - **Reasoning:** -16.7% with $0 pool liquidity and price collapsing in 30m history (3.4→2.8). No bounce signal, bond curve is dead. Cut before -30% hard stop.
 
+## [2026-08-27 12:27 UTC] buy | [LLM] $Europathon at $3.03117e-06, spent 0.05 SOL
+- **Reasoning:** $Europathon has the strongest narrative of this batch — real humans (18 & 17 y/o) who quit jobs to livestream a Europe trip, with an active X account (@EuropathonPUMP). Human-story memecoins with verifiable streamers pump hard because content keeps generating. $3k mcap is early but liquidity thin (bond 2%) — size at min 0.05 SOL and exit fast if no traction in 15 min.
+
