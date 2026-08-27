@@ -2416,3 +2416,6 @@
 ## [2026-08-27 00:25 UTC] buy | [LLM] $Bunny at $1.89358e-05, spent 0.1 SOL
 - **Reasoning:** $Bunny 'First Animal on Forbes' has a real narrative hook (Forbes animal story), bond38% nearly graduating, $19k mcap. Strong attention signal, lowest-float sweet spot.
 
+## [2026-08-27 00:27 UTC] sell | [PARTIAL][LLM] $blindape at $1.05e-05 | P&L: +74.6%
+- **Reasoning:** +74.6% gain with 1h=+246% shows extreme momentum but also peak risk. Per rules take some profit at +50% — sell half to lock ~0.04 SOL profit, let runner ride for more upside.
+

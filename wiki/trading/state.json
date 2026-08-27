@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.623971,
+  "balance_sol": 1.629444,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
       "symbol": "blindape",
       "name": "blindape",
-      "amount": 105646.10011641445,
+      "amount": 52823.05005820723,
       "entry_price_usd": 6.013e-06,
-      "entry_sol_spent": 0.00625,
+      "entry_sol_spent": 0.003125,
       "entry_time": "2026-08-27T00:10:33.245228+00:00",
       "entry_usd_value": 10.164000000000001,
       "entry_signals": {
@@ -3106,19 +3106,30 @@
       "pnl_pct": -6.1,
       "exit_reason": "LLM: sell_all — $MEMELORD is -6.1% with 24h -26.2% — this one is actively bleeding while the rest of the book is flat. Cut the loser to free a slot and stop the drip.",
       "partial": false
+    },
+    {
+      "mint": "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump",
+      "symbol": "blindape",
+      "name": "blindape",
+      "amount_sold": 52823.05005820723,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:10:33.245228+00:00",
+      "exit_time": "2026-08-27T00:27:08.337060+00:00",
+      "entry_price_usd": 6.013e-06,
+      "exit_price_usd": 1.05e-05,
+      "entry_sol_for_chunk": 0.003125,
+      "exit_sol_received": 0.005473,
+      "pnl_sol": 0.002348,
+      "pnl_pct": 74.62,
+      "exit_reason": "LLM: sell_half — +74.6% gain with 1h=+246% shows extreme momentum but also peak risk. Per rules take some profit at +50% — sell half to lock ~0.04 SOL profit, let runn",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T00:25:51.663698+00:00",
+  "last_updated": "2026-08-27T00:27:08.337630+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.42,
-  "portfolio_value_usd": 205.87,
+  "last_sol_price_usd": 101.35,
+  "portfolio_value_usd": 206.0,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 00:15 UTC",
-      "action": "buy",
-      "details": "[LLM] $fomodog at $4.43399e-06, spent 0.1 SOL",
-      "reason": "'dog wif fomo' is a classic memecoin formula riding the fomo meta — fresh 0.4min age with attached X post is exactly the kind of low-mcap narrative play that 5-10x's."
-    },
     {
       "time": "2026-08-27 00:15 UTC",
       "action": "buy",
@@ -3232,36 +3243,42 @@
       "action": "buy",
       "details": "[LLM] $Bunny at $1.89358e-05, spent 0.1 SOL",
       "reason": "$Bunny 'First Animal on Forbes' has a real narrative hook (Forbes animal story), bond38% nearly graduating, $19k mcap. Strong attention signal, lowest-float sweet spot."
+    },
+    {
+      "time": "2026-08-27 00:27 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $blindape at $1.05e-05 | P&L: +74.6%",
+      "reason": "+74.6% gain with 1h=+246% shows extreme momentum but also peak risk. Per rules take some profit at +50% — sell half to lock ~0.04 SOL profit, let runner ride for more upside."
     }
   ],
   "trade_stats": {
-    "total": 176,
-    "wins": 88,
+    "total": 177,
+    "wins": 89,
     "losses": 88,
-    "win_rate_pct": 50.0,
-    "total_pnl_sol": 0.130222,
-    "avg_pnl_pct": 96.42,
+    "win_rate_pct": 50.3,
+    "total_pnl_sol": 0.13257,
+    "avg_pnl_pct": 96.3,
     "best_pnl_pct": 702.21,
     "worst_pnl_pct": -99.89,
-    "today_trades": 33,
-    "today_realized_sol": 0.659429,
-    "today_target_pct": 164.9,
+    "today_trades": 34,
+    "today_realized_sol": 0.661777,
+    "today_target_pct": 165.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 88,
+      "win_count": 89,
       "loss_count": 88,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T00:25:51.663307+00:00",
+  "last_llm_brief_at": "2026-08-27T00:27:08.336701+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
-      "price_usd": 9.742e-06,
-      "change_h24": 221.0,
-      "change_h1": 221.0,
+      "price_usd": 1.05e-05,
+      "change_h24": 246.0,
+      "change_h1": 246.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 49070.86,
+      "volume_h24": 50086.63,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
@@ -3283,21 +3300,21 @@
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "HMbvhvJvSAHr9EwVD4u7a9rvGSbqmfGZPjxFR85Gpump": {
-      "price_usd": 2.841e-06,
-      "change_h24": -26.25,
-      "change_h1": -26.25,
+    "ZHYHcb6H2cUTSJxtipJUoxhFzmJVXBe2LPs445Apump": {
+      "price_usd": 1.03e-05,
+      "change_h24": 9.3,
+      "change_h1": 9.3,
       "liquidity_usd": 0.0,
-      "volume_h24": 2513.94,
+      "volume_h24": 2777.43,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "ZHYHcb6H2cUTSJxtipJUoxhFzmJVXBe2LPs445Apump": {
-      "price_usd": 9.661e-06,
-      "change_h24": 2.43,
-      "change_h1": 2.43,
+    "BNimEDyc8hRXf52QTzFKSyoGCStBoNb4onUwQmrupump": {
+      "price_usd": 2.113e-05,
+      "change_h24": 599.0,
+      "change_h1": 599.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 2587.18,
+      "volume_h24": 18495.41,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }
