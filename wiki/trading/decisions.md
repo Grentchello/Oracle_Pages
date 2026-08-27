@@ -3994,3 +3994,6 @@
 ## [2026-08-27 03:32 UTC] sell | [FULL][LLM] $gamercat at $2.92029e-06 | P&L: -12.0%
 - **Reasoning:** $gamercat -12% in a $45 pool where we hold 20% — extremely illiquid, exit fills will be brutal. Even a small bounce won't compensate for the slippage risk; cut and rotate.
 
+## [2026-08-27 03:33 UTC] buy | [LLM] $DEATH at $2.9882e-06, spent 0.1 SOL
+- **Reasoning:** $DEATH 'FOID STARE' shares a poster with $GUILTY (RT_com) — coordinated dual-launch from an attention account is a strong signal. 0.1 SOL, will exit at +30%.
+
