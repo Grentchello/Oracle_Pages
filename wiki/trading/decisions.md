@@ -4108,3 +4108,21 @@
 ## [2026-08-27 07:14 UTC] buy | [LLM] $SP at $2.95553e-06, spent 0.1 SOL
 - **Reasoning:** $SP Single Parents — emotional community narrative often goes viral on CT, $3k mcap is bottom-of-barrel but the story angle has shareability. Small bet on narrative strength.
 
+## [2026-08-27 07:16 UTC] sell | [FULL][LLM] $tripletung at $2.84285e-06 | P&L: -48.2%
+- **Reasoning:** $tripletung down -48.2% with our share at 5% on a tiny $6 pool — this is a dead bonding curve about to hard-stop at -50%. Cut now, free the slot.
+
+## [2026-08-27 07:16 UTC] sell | [FULL][LLM] $XCU at $8.19868e-06 | P&L: -34.5%
+- **Reasoning:** $XCU down -34.5% in minutes with 0% share and thin $2132 pool — no bounce signal, this is going to -50% hard stop. Exit before the bot does.
+
+## [2026-08-27 07:16 UTC] sell | [FULL][LLM] $SP at $2.95001e-06 | P&L: -0.2%
+- **Reasoning:** $SP flat at -0.2% on $63 pool, our 16% share means we'd move price selling — but the position is dead and stale. Just clear it and free a slot for fresh launches.
+
+## [2026-08-27 07:16 UTC] buy | [LLM] $NLD at $4.69426e-06, spent 0.1 SOL
+- **Reasoning:** $NLD 'The First Ever Memecoin' with viral twitter attention at $4.6k mcap, 0.1min old — absurd narrative ('first irrational bank of NL') is the exact meme-attention flavor that 50-300x in hour one.
+
+## [2026-08-27 07:16 UTC] buy | [LLM] $5M at $4.30689e-06, spent 0.1 SOL
+- **Reasoning:** $5M '5M' backed by official @solana twitter at $4.3k mcap — official-account attention is the strongest launch signal in memecoins. Small size but viral narrative.
+
+## [2026-08-27 07:16 UTC] buy | [LLM] $beerdog at $4.508e-06, spent 0.1 SOL
+- **Reasoning:** $beerdog 'smoking beer dog' with viral twitter post at $4.5k mcap, <1min old — absurd imagery plus twitter attention fits the pump pattern.
+
