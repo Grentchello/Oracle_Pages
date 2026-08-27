@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.592817,
+  "balance_sol": 1.614943,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -25,34 +25,12 @@
       },
       "llm_entry": true
     },
-    "BvVSHNFGfoTtpxzph3ZJRx37TMBjtL6bggzgPvXYpump": {
-      "symbol": "higher",
-      "name": "higher",
-      "amount": 1671144.5177363348,
-      "entry_price_usd": 3.047911144692292e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T01:31:53.497504+00:00",
-      "entry_usd_value": 10.187000000000001,
-      "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3047.4698689233346,
-        "ath_market_cap_usd": 3146.3474047916907,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.034052197,
-        "description": "",
-        "twitter": "https://x.com/search?q=from%3Aelonmusk%20higher&src=typed_query",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "2kM8DbdcSgF31zX7b1W6sRuCnaFPniyzRsSCfb8Qpump": {
       "symbol": "Buddy",
       "name": "First Neuralink Dog",
-      "amount": 21490.462176556604,
+      "amount": 10745.231088278302,
       "entry_price_usd": 1.4791445497471047e-05,
-      "entry_sol_spent": 0.003125,
+      "entry_sol_spent": 0.0015625,
       "entry_time": "2026-08-27T01:36:46.387180+00:00",
       "entry_usd_value": 10.172,
       "entry_signals": {
@@ -94,9 +72,9 @@
     "47ss6JM7EmGLvUEma8XMrF9U8zEHiEu6oRVPEDp3pump": {
       "symbol": "Collective",
       "name": "The Agent Collective",
-      "amount": 1034878.3249054844,
+      "amount": 517439.1624527422,
       "entry_price_usd": 9.805017416831806e-06,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.05,
       "entry_time": "2026-08-27T01:43:55.599595+00:00",
       "entry_usd_value": 10.147,
       "entry_signals": {
@@ -109,6 +87,28 @@
         "real_sol_reserves": 25.77195175,
         "description": "",
         "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "zpEGQRyue3KifqBG6woWhXcv6dvJng5xw1DoivVpump": {
+      "symbol": "Marb",
+      "name": "Collective Agent",
+      "amount": 2143698.61158789,
+      "entry_price_usd": 4.7245447402225735e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T01:45:19.122603+00:00",
+      "entry_usd_value": 10.128,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 4721.746515276456,
+        "ath_market_cap_usd": 4763.585046469755,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 8.750617282,
+        "description": "",
+        "twitter": "https://x.com/nukidoya/status/2092789795852369941",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -5282,37 +5282,64 @@
       "pnl_pct": -12.16,
       "exit_reason": "LLM: sell_all — $TTP -12.2% held 0.0h — entering red immediately with no bounce signal. Redeploy the slot into a fresher, higher-conviction attention play.",
       "partial": false
+    },
+    {
+      "mint": "BvVSHNFGfoTtpxzph3ZJRx37TMBjtL6bggzgPvXYpump",
+      "symbol": "higher",
+      "name": "higher",
+      "amount_sold": 1671144.5177363348,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T01:31:53.497504+00:00",
+      "exit_time": "2026-08-27T01:45:19.121374+00:00",
+      "entry_price_usd": 3.047911144692292e-06,
+      "exit_price_usd": 2.861e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.047207,
+      "pnl_sol": -0.002793,
+      "pnl_pct": -6.13,
+      "exit_reason": "LLM: sell_all — -$6.1% with 1h -5.0% sustained downtrend, no catalyst visible, cut before it bleeds further.",
+      "partial": false
+    },
+    {
+      "mint": "2kM8DbdcSgF31zX7b1W6sRuCnaFPniyzRsSCfb8Qpump",
+      "symbol": "Buddy",
+      "name": "First Neuralink Dog",
+      "amount_sold": 10745.231088278302,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T01:36:46.387180+00:00",
+      "exit_time": "2026-08-27T01:45:19.122193+00:00",
+      "entry_price_usd": 1.4791445497471047e-05,
+      "exit_price_usd": 3.824e-05,
+      "entry_sol_for_chunk": 0.001563,
+      "exit_sol_received": 0.004057,
+      "pnl_sol": 0.002495,
+      "pnl_pct": 158.53,
+      "exit_reason": "LLM: sell_half — +$158% is exceptional, lock in profits on half while letting the rest ride the spike.",
+      "partial": true
+    },
+    {
+      "mint": "47ss6JM7EmGLvUEma8XMrF9U8zEHiEu6oRVPEDp3pump",
+      "symbol": "Collective",
+      "name": "The Agent Collective",
+      "amount_sold": 517439.1624527422,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T01:43:55.599595+00:00",
+      "exit_time": "2026-08-27T01:45:19.122379+00:00",
+      "entry_price_usd": 9.805017416831806e-06,
+      "exit_price_usd": 1.387e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.070862,
+      "pnl_sol": 0.020862,
+      "pnl_pct": 41.46,
+      "exit_reason": "LLM: sell_half — +$41.5% near target, 24h +305% parabolic but 1h fading — secure gains, let runner ride.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T01:43:55.599827+00:00",
+  "last_updated": "2026-08-27T01:45:19.122840+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.47,
-  "portfolio_value_usd": 189.87,
+  "last_sol_price_usd": 101.28,
+  "portfolio_value_usd": 191.61,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 01:35 UTC",
-      "action": "buy",
-      "details": "[LLM] $cat at $1.07188e-05, spent 0.1 SOL",
-      "reason": "$cat with 'cute animal tek' narrative at $10.7k mcap and 33% bond — strongest mcap of the new batch with a real X account attached. Animal meme + tech twist = viral-friendly. Early entry, decent story."
-    },
-    {
-      "time": "2026-08-27 01:35 UTC",
-      "action": "buy",
-      "details": "[LLM] $Avatar at $3.16201e-06, spent 0.1 SOL",
-      "reason": "$Avatar 'Pump Avatar' — meta-narrative about PumpFun itself. Self-referential memes spread fast in the trenches. $3.2k mcap with Twitter attached = classic low-mcap attention play."
-    },
-    {
-      "time": "2026-08-27 01:36 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $🧲 at $4.562e-06 | P&L: -26.2%",
-      "reason": "$🧲 is -26.2% in 0.1h. The 24h/+41.4% reads as stale pre-launch pump data — price is now bleeding hard in real-time. Cut the loss before it hits the -50% hard cap; free up slot for stronger narrative."
-    },
-    {
-      "time": "2026-08-27 01:36 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Avatar at $2.963e-06 | P&L: -6.3%",
-      "reason": "$Avatar is -6.3% with 24h/-16.4% and 1h/-16.4% — actively bleeding, no positive catalyst visible. Free up slot; better entries exist."
-    },
     {
       "time": "2026-08-27 01:36 UTC",
       "action": "buy",
@@ -5408,28 +5435,52 @@
       "action": "buy",
       "details": "[LLM] $Collective at $9.80502e-06, spent 0.1 SOL",
       "reason": "$Collective (The Agent Collective) is the LEADER of the trending PHASEONE/Collective copy-cluster at $9.8k mcap with 32% bond (highest in cluster, almost bonded). Catching the leader of a viral narrative at <$10k mcap is the textbook attention play — risk is it fades fast if narrative doesn't stick."
+    },
+    {
+      "time": "2026-08-27 01:45 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $higher at $2.861e-06 | P&L: -6.1%",
+      "reason": "-$6.1% with 1h -5.0% sustained downtrend, no catalyst visible, cut before it bleeds further."
+    },
+    {
+      "time": "2026-08-27 01:45 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Buddy at $3.824e-05 | P&L: +158.5%",
+      "reason": "+$158% is exceptional, lock in profits on half while letting the rest ride the spike."
+    },
+    {
+      "time": "2026-08-27 01:45 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Collective at $1.387e-05 | P&L: +41.5%",
+      "reason": "+$41.5% near target, 24h +305% parabolic but 1h fading — secure gains, let runner ride."
+    },
+    {
+      "time": "2026-08-27 01:45 UTC",
+      "action": "buy",
+      "details": "[LLM] $Marb at $4.72454e-06, spent 0.1 SOL",
+      "reason": "$Marb leader token with viral X link from nukidoya, 18% bond partially complete shows early buyers committing — swarm narrative has multiple forks which signals real attention."
     }
   ],
   "trade_stats": {
-    "total": 304,
-    "wins": 147,
-    "losses": 157,
-    "win_rate_pct": 48.4,
-    "total_pnl_sol": -0.029055,
-    "avg_pnl_pct": 71.99,
+    "total": 307,
+    "wins": 149,
+    "losses": 158,
+    "win_rate_pct": 48.5,
+    "total_pnl_sol": -0.008491,
+    "avg_pnl_pct": 71.92,
     "best_pnl_pct": 1379.24,
     "worst_pnl_pct": -99.89,
-    "today_trades": 161,
-    "today_realized_sol": 0.500152,
-    "today_target_pct": 125.0,
+    "today_trades": 164,
+    "today_realized_sol": 0.520716,
+    "today_target_pct": 130.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 147,
-      "loss_count": 157,
+      "win_count": 149,
+      "loss_count": 158,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T01:43:55.598444+00:00",
+  "last_llm_brief_at": "2026-08-27T01:45:19.120950+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AfmgmR1ffGJoirv8U3GWuxs2muHEahCmX2xtfrhrpump": {
@@ -5451,29 +5502,29 @@
       "source": "dexscreener"
     },
     "2kM8DbdcSgF31zX7b1W6sRuCnaFPniyzRsSCfb8Qpump": {
-      "price_usd": 3.9e-05,
-      "change_h24": 1172.0,
-      "change_h1": 1172.0,
-      "liquidity_usd": 0.0,
-      "volume_h24": 131233.76,
-      "dex_id": "pumpfun",
+      "price_usd": 3.824e-05,
+      "change_h24": -8.3,
+      "change_h1": -8.3,
+      "liquidity_usd": 14734.59,
+      "volume_h24": 13611.95,
+      "dex_id": "pumpswap",
       "source": "dexscreener"
     },
     "8Vw2qBmunN1Z6HxpYN5LYQ7ZGY8N4grNFAZJRGdipump": {
-      "price_usd": 8.298e-06,
-      "change_h24": 30.99,
-      "change_h1": 30.99,
+      "price_usd": 8.787e-06,
+      "change_h24": 38.7,
+      "change_h1": 38.7,
       "liquidity_usd": 0.0,
-      "volume_h24": 2436.69,
+      "volume_h24": 2953.08,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "GeAKZPLzvmHswPb1676TqNnVfgSc3f3B696fdx4Kpump": {
-      "price_usd": 2.835e-06,
-      "change_h24": -12.03,
-      "change_h1": -12.03,
+    "47ss6JM7EmGLvUEma8XMrF9U8zEHiEu6oRVPEDp3pump": {
+      "price_usd": 1.387e-05,
+      "change_h24": 305.0,
+      "change_h1": 305.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 415.96,
+      "volume_h24": 29251.81,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

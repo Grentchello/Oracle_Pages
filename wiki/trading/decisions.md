@@ -3022,3 +3022,15 @@
 ## [2026-08-27 01:43 UTC] buy | [LLM] $Collective at $9.80502e-06, spent 0.1 SOL
 - **Reasoning:** $Collective (The Agent Collective) is the LEADER of the trending PHASEONE/Collective copy-cluster at $9.8k mcap with 32% bond (highest in cluster, almost bonded). Catching the leader of a viral narrative at <$10k mcap is the textbook attention play — risk is it fades fast if narrative doesn't stick.
 
+## [2026-08-27 01:45 UTC] sell | [FULL][LLM] $higher at $2.861e-06 | P&L: -6.1%
+- **Reasoning:** -$6.1% with 1h -5.0% sustained downtrend, no catalyst visible, cut before it bleeds further.
+
+## [2026-08-27 01:45 UTC] sell | [PARTIAL][LLM] $Buddy at $3.824e-05 | P&L: +158.5%
+- **Reasoning:** +$158% is exceptional, lock in profits on half while letting the rest ride the spike.
+
+## [2026-08-27 01:45 UTC] sell | [PARTIAL][LLM] $Collective at $1.387e-05 | P&L: +41.5%
+- **Reasoning:** +$41.5% near target, 24h +305% parabolic but 1h fading — secure gains, let runner ride.
+
+## [2026-08-27 01:45 UTC] buy | [LLM] $Marb at $4.72454e-06, spent 0.1 SOL
+- **Reasoning:** $Marb leader token with viral X link from nukidoya, 18% bond partially complete shows early buyers committing — swarm narrative has multiple forks which signals real attention.
+
