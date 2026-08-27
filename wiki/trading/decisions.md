@@ -4972,3 +4972,9 @@
 ## [2026-08-27 09:12 UTC] buy | [LLM] $BOLDPLAN at $2.97019e-06, spent 0.05 SOL
 - **Reasoning:** $BOLDPLAN has a sharp narrative — sarcastic jab at VC-backed projects shutting down. Anti-VC meta trends well on CT, mcap $3k is fresh, X link present. Speculative but the story is memeable.
 
+## [2026-08-27 09:13 UTC] sell | [hard-stop] $Twitter closed at $3.30022e-06 | P&L: -33.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:13 UTC] sell | [hard-stop] $LEDOGE closed at $6.63938e-06 | P&L: -38.1%
+- **Reasoning:** Hard -30% stop
+

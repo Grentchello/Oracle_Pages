@@ -24,6 +24,12 @@ title: oracle_Vault — Master Dashboard
     Autonomous memecoin trading bot. Ground zero: deciding on chain, strategy,
     and infrastructure before any code.
 
+-   :material-rocket-launch: **[Trading Pairs Bot](projects/trading-pairs/index.md)**
+
+    ---
+
+    **Status:** v1 running. 6 pairs × 4 strategies, paper $1000 bankroll.
+
 -   :material-folder-open: **[Browse all projects](projects/index.md)**
 
     ---
@@ -51,6 +57,7 @@ The latest daily journal entry:
 
 - ✅ **[Tasks](tasks/index.md)** — private todo list (password-protected)
 - 📈 **[Memecoin Trading Dashboard](trading/index.html)** — paper trading bot, real Solana prices, 2 SOL paper portfolio
+- 📊 **[Trading Pairs Bot](projects/trading-pairs/index.md)** — multi-pair multi-strategy (SUPER/ROC/BB/DIR) on BTC/ETH/SOL/BNB/XRP/ARB
 - 🖼️ **[Wallpapers](_meta/wallpapers.md)** — phone wallpapers scraped from [alisonfriend.com](https://alisonfriend.com/) (36 images, iPhone + Android sizes)
 - **[Workflow docs →](_meta/method.md)**
 
