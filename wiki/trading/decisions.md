@@ -5797,3 +5797,18 @@
 ## [2026-08-27 10:40 UTC] buy | [LLM] $Inufected at $4.9906e-06, spent 0.05 SOL
 - **Reasoning:** $Inufected — doge-style cute meme with covid twist, decent narrative angle, 19% bonding already at 0.2min age shows real buy pressure. Diversifies covid cluster with animal mascot appeal.
 
+## [2026-08-27 10:41 UTC] sell | [hard-stop] $Inufected closed at $2.89459e-06 | P&L: -42.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:41 UTC] sell | [TP +30% (25%)] $チョロ松 at $9.57504e-06 | P&L: +86.8%
+- **Reasoning:** Auto take-profit at +86.8%
+
+## [2026-08-27 10:41 UTC] sell | [TP +200% (75%)] $COVID-26 at $4.20155e-05 | P&L: +251.4%
+- **Reasoning:** Auto take-profit at +251.4%
+
+## [2026-08-27 10:41 UTC] sell | [FULL][LLM] $COVID-26 at $4.20155e-05 | P&L: +251.4%
+- **Reasoning:** +251.4% in 0.1h — massive gain, likely fading soon. Lock the profit now rather than give back. Bonding-curve exit before graduation.
+
+## [2026-08-27 10:41 UTC] sell | [FULL][LLM] $NIMBUS at $4.86377e-06 | P&L: -6.4%
+- **Reasoning:** -6.4% with thin $920 pool (~9x position). Weak entry, no clear bounce signal in 0.0h. Cut it loose to free the slot for potential new entries.
+
