@@ -6181,3 +6181,12 @@
 ## [2026-08-27 11:27 UTC] buy | [LLM] $Cheshire at $6.28961e-06, spent 0.05 SOL
 - **Reasoning:** $Cheshire: 'The First Crypto Cat' is a strong narrative hook (Cheshire Cat = crypto cat meta), 0.5min old at $6.3k mcap, has active Twitter. Cat-themed memecoins have viral history. Early entry before bonding curve fills.
 
+## [2026-08-27 11:28 UTC] sell | [hard-stop] $NIGGA closed at $2.97075e-06 | P&L: -64.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:28 UTC] sell | [TP +30% (25%)] $Microduck at $1.35913e-05 | P&L: +64.4%
+- **Reasoning:** Auto take-profit at +64.4%
+
+## [2026-08-27 11:28 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+

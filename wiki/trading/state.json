@@ -1,36 +1,14 @@
 {
-  "balance_sol": 1.161358,
+  "balance_sol": 1.199868,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "CB6YKAHn32qogBEyeLkcpjWeEVPGeqCgCwJWte99pump": {
-      "symbol": "NIGGA",
-      "name": "Nigga Obama",
-      "amount": 628724.1710716002,
-      "entry_price_usd": 8.324e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T11:26:01.898527+00:00",
-      "entry_usd_value": 5.2335,
-      "entry_signals": {
-        "liquidity_usd": 1873.2388019535,
-        "volume_24h_usd": 5131.85,
-        "market_cap_usd": 8022.748947489337,
-        "ath_market_cap_usd": 11181.78277303394,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 17.89661605,
-        "description": "nigga obama followed by Barack Obama",
-        "twitter": "https://x.com/NiggaObamaa",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "RKFLPYjwDvj5JpUy6KTqJqF5tkVU7SdWRTTeQDtpump": {
       "symbol": "Microduck",
       "name": "Microduck",
-      "amount": 632537.7475669415,
+      "amount": 474403.3106752061,
       "entry_price_usd": 8.266700319646323e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.037500000000000006,
       "entry_time": "2026-08-27T11:27:18.089322+00:00",
       "entry_usd_value": 5.229,
       "entry_signals": {
@@ -16322,31 +16300,47 @@
       "pnl_pct": -27.99,
       "exit_reason": "LLM: sell_all — At -28% with only $41 pool liquidity and 9% of pool being our position, the -30% hard stop is imminent and thin liquidity will make the stop fill wors",
       "partial": false
+    },
+    {
+      "mint": "CB6YKAHn32qogBEyeLkcpjWeEVPGeqCgCwJWte99pump",
+      "symbol": "NIGGA",
+      "name": "Nigga Obama",
+      "amount_sold": 628724.1710716002,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T11:26:01.898527+00:00",
+      "exit_time": "2026-08-27T11:28:23.030781+00:00",
+      "entry_price_usd": 8.324e-06,
+      "exit_price_usd": 2.970751193150951e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.017906,
+      "pnl_sol": -0.032094,
+      "pnl_pct": -64.31,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "RKFLPYjwDvj5JpUy6KTqJqF5tkVU7SdWRTTeQDtpump",
+      "symbol": "Microduck",
+      "name": "Microduck",
+      "amount_sold": 158134.4368917354,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T11:27:18.089322+00:00",
+      "exit_time": "2026-08-27T11:28:23.031418+00:00",
+      "entry_price_usd": 8.266700319646323e-06,
+      "exit_price_usd": 1.3591278404984881e-05,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.020604,
+      "pnl_sol": 0.008104,
+      "pnl_pct": 64.41,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T11:27:18.379442+00:00",
+  "last_updated": "2026-08-27T11:28:51.077188+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.58,
-  "portfolio_value_usd": 137.15,
+  "last_sol_price_usd": 104.31,
+  "portfolio_value_usd": 137.83,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 11:16 UTC",
-      "action": "buy",
-      "details": "[LLM] $TOADBF at $5.18835e-06, spent 0.05 SOL",
-      "reason": "Clean meme brand ('girlboss toad') with its own X account — not bot spam. $5.2k mcap with 20% bonding shows early organic traction. Reasonable narrative strength for the risk."
-    },
-    {
-      "time": "2026-08-27 11:17 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $SURGE closed at $2.93199e-06 | P&L: -58.4%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-08-27 11:17 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $TOADBF closed at $2.93092e-06 | P&L: -43.5%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-08-27 11:17 UTC",
       "action": "buy",
@@ -16448,6 +16442,24 @@
       "action": "buy",
       "details": "[LLM] $Cheshire at $6.28961e-06, spent 0.05 SOL",
       "reason": "$Cheshire: 'The First Crypto Cat' is a strong narrative hook (Cheshire Cat = crypto cat meta), 0.5min old at $6.3k mcap, has active Twitter. Cat-themed memecoins have viral history. Early entry before bonding curve fills."
+    },
+    {
+      "time": "2026-08-27 11:28 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $NIGGA closed at $2.97075e-06 | P&L: -64.3%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 11:28 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Microduck at $1.35913e-05 | P&L: +64.4%",
+      "reason": "Auto take-profit at +64.4%"
+    },
+    {
+      "time": "2026-08-27 11:28 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -16469,19 +16481,41 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T11:27:17.803288+00:00",
+  "last_llm_brief_at": "2026-08-27T11:28:51.076884+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "CB6YKAHn32qogBEyeLkcpjWeEVPGeqCgCwJWte99pump": {
-      "price_usd": 7.398267805861774e-06,
+      "price_usd": 2.970751193150951e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1853.16632071704,
-      "volume_h24": 6488.9,
+      "liquidity_usd": 29.02342594068,
+      "volume_h24": 8075.45,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 17.720083388
+      "real_sol_reserves": 0.278242028
+    },
+    "RKFLPYjwDvj5JpUy6KTqJqF5tkVU7SdWRTTeQDtpump": {
+      "price_usd": 1.3591278404984881e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3626.1396160668005,
+      "volume_h24": 20556.46,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 34.76310628
+    },
+    "5og6X6z22GKu9pvoNRL67C3hzN8p9HH8fPxa4eXwpump": {
+      "price_usd": 7.639494603449445e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1935.42390613674,
+      "volume_h24": 3892.4,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 18.554538454
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
