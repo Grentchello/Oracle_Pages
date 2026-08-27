@@ -7015,3 +7015,18 @@
 ## [2026-08-27 13:11 UTC] buy | [LLM] $Ferguson at $4.93484e-06, spent 0.05 SOL
 - **Reasoning:** $Ferguson 'Dog on the Moon' — absurdist humor narrative (Doge-adjacent + space meme), blutogreg tweet signal, mcap $4.9k, brand new. Memecoins live on this kind of absurdist branding. Small position.
 
+## [2026-08-27 13:12 UTC] sell | [hard-stop] $$CALL closed at $2.92451e-06 | P&L: -51.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:12 UTC] sell | [hard-stop] $Ferguson closed at $3.002e-06 | P&L: -39.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:12 UTC] sell | [TP +30% (25%)] $PIGEONMAN at $8.64708e-06 | P&L: +93.7%
+- **Reasoning:** Auto take-profit at +93.7%
+
+## [2026-08-27 13:12 UTC] sell | [PARTIAL][LLM] $PIGEONMAN at $8.64708e-06 | P&L: +93.7%
+- **Reasoning:** +93.7% in 6 min on a thin $2258 pool. MC history shows classic fade: 119 peak → 101 now, momentum dying. Sell half to lock ~+93% gain, keep 50% as a moon bag in case it re-pumps. Asymmetric: if it dies I'm still up huge, if it runs I have skin in.
+
+## [2026-08-27 13:12 UTC] buy | [LLM] $BULLIO at $1.47207e-05, spent 0.05 SOL
+- **Reasoning:** $BULLIO has its own Twitter handle (@realbullio) — organic attention, not BingX spam. Highest bond progress (36%) and mcap ($14.7k) in the fresh batch. Bull narrative is evergreen. 0.05 SOL position.
+
