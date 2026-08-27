@@ -6718,3 +6718,6 @@
 ## [2026-08-27 12:38 UTC] buy | [LLM] $CHAIN at $4.5518e-06, spent 0.05 SOL
 - **Reasoning:** $CHAIN MAIL has a viral curse mechanic ('don't call it out = curse stays with you, send to 5 trench') — classic copy-pasta engagement bait that historically drives fast pumps. $4.5k mcap is entry-grade, bond 17% shows real buys. Risk: ultra-fresh, could rug, so position-size at 0.05 SOL.
 
+## [2026-08-27 12:39 UTC] buy | [LLM] $PHILLIP at $6.85681e-06, spent 0.05 SOL
+- **Reasoning:** Coordinated 'Phillip/Pillhead' narrative wave — 4+ token variants cross-referencing each other on X, $PHILLIP is the bond-progress leader at 26% with highest mcap ($6.9k). Concentrated attention, early enough to ride the first leg.
+
