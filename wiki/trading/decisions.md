@@ -7450,3 +7450,9 @@
 ## [2026-08-27 14:13 UTC] buy | [LLM] $ludger at $8.10668e-06, spent 0.05 SOL
 - **Reasoning:** $ludger (lowercase) variant has YouTube link — multi-platform attention signal vs the other LUDGER which is just a tweet. Lower mcap ($8k) and 28% bonding means early entry with real content behind it. Two LUDGERs racing is itself a viral signal.
 
+## [2026-08-27 14:14 UTC] sell | [hard-stop] $ludger closed at $3.066e-06 | P&L: -62.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 14:14 UTC] sell | [FULL][LLM] $WTF at $1.54755e-06 | P&L: +22.0%
+- **Reasoning:** $WTF is up +22% on a $414 pool (thin, our share shows 0% — easy to slip). Rules say lock gains at >20% when there's any doubt. 12min held with no further TP threshold until +25%, and thin liquidity means a reversal to -10% is fast. Take the profit, free the slot.
+
