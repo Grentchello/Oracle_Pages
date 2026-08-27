@@ -4942,3 +4942,18 @@
 ## [2026-08-27 09:09 UTC] buy | [LLM] $WASB at $3.74883e-06, spent 0.05 SOL
 - **Reasoning:** We Are So Back is a strong comeback-narrative meme that performs well in recovery sentiment. $3.7k mcap with bond11% already moving, decent attention signal. 0.05 SOL position.
 
+## [2026-08-27 09:10 UTC] sell | [TP +30% (25%)] $Choromatsu at $9.34784e-06 | P&L: +30.3%
+- **Reasoning:** Auto take-profit at +30.3%
+
+## [2026-08-27 09:10 UTC] sell | [PARTIAL][LLM] $Choromatsu at $9.34784e-06 | P&L: +30.3%
+- **Reasoning:** $Choromatsu is +30.3% which has triggered the auto-TP1, but I have discretion to add discipline — selling half locks in gains while letting the rest ride if it continues pumping. Pool is thin at $2,472 though, so exit size matters.
+
+## [2026-08-27 09:10 UTC] sell | [FULL][LLM] $WASB at $2.92339e-06 | P&L: -22.0%
+- **Reasoning:** $WASB is -22% and pool shows $0 — that's a dead/rugged position. Our 'share=389273356%' confirms we own a massive chunk of a zero-liquidity pool. Cut the bag now, -30% stop will likely hit anyway.
+
+## [2026-08-27 09:10 UTC] buy | [LLM] $RAM at $8.51879e-06, spent 0.05 SOL
+- **Reasoning:** $RAM has the highest mcap ($8.5k) and29% bonding curve progress — strongest early traction of the fresh batch. Fresh attention on a brand 'RAM' — attention-market play.
+
+## [2026-08-27 09:10 UTC] buy | [LLM] $Twitter at $4.9385e-06, spent 0.05 SOL
+- **Reasoning:** $Twitter (Twitter.now) — 'Twitter' is an attention magnet name, mcap $4.9k, very fresh (0.5min). Viral name potential even if derivative.
+
