@@ -7240,3 +7240,6 @@
 ## [2026-08-27 13:45 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-08-27 13:46 UTC] sell | [TP +30% (25%)] $Schwab at $1.92809e-05 | P&L: +51.8%
+- **Reasoning:** Auto take-profit at +51.8%
+
