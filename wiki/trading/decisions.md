@@ -4927,3 +4927,18 @@
 ## [2026-08-27 09:07 UTC] sell | [PARTIAL][LLM] $mouse at $2.97912e-05 | P&L: +41.5%
 - **Reasoning:** mouse +41.5% in <5min on $6870 pool — strong pump but classic memecoin behavior is to give back gains. Lock half, let the rest ride.
 
+## [2026-08-27 09:08 UTC] sell | [hard-stop] $mouse closed at $7.683e-06 | P&L: -63.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:08 UTC] sell | [TP +30% (25%)] $Choromatsu at $1.1302e-05 | P&L: +57.5%
+- **Reasoning:** Auto take-profit at +57.5%
+
+## [2026-08-27 09:09 UTC] sell | [PARTIAL][LLM] $Choromatsu at $1.1302e-05 | P&L: +57.5%
+- **Reasoning:** +57.5% in 0.1h hits the +50% take-profit threshold. Lock half the gain; let the other half ride if narrative holds. Bonding curve still active so upside remains, but memecoins reverse fast.
+
+## [2026-08-27 09:09 UTC] sell | [FULL][LLM] $BARRON at $3.25379e-06 | P&L: +8.4%
+- **Reasoning:** +8.4% with only $175 pool and our share is 3% — we're a meaningful chunk of liquidity and any sell will move price. Take the small gain and rotate into a fresher narrative with deeper liquidity.
+
+## [2026-08-27 09:09 UTC] buy | [LLM] $WASB at $3.74883e-06, spent 0.05 SOL
+- **Reasoning:** We Are So Back is a strong comeback-narrative meme that performs well in recovery sentiment. $3.7k mcap with bond11% already moving, decent attention signal. 0.05 SOL position.
+
