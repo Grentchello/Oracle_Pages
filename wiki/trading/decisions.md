@@ -6481,3 +6481,21 @@
 ## [2026-08-27 12:05 UTC] buy | [LLM] $PONKE at $5.06e-06, spent 0.05 SOL
 - **Reasoning:** $PONKE — Ponke is a recognizable Solana memecoin brand with repeat attention. Highest mcap of fresh batch ($8.4k) suggests early traction. Risky but narrative is established.
 
+## [2026-08-27 12:07 UTC] sell | [TP +30% (25%)] $PONKE at $9.07392e-06 | P&L: +79.3%
+- **Reasoning:** Auto take-profit at +79.3%
+
+## [2026-08-27 12:07 UTC] sell | [FULL][LLM] $tards  at $7.29301e-06 | P&L: -18.2%
+- **Reasoning:** $tards is -18.2%, dead-flat for 2-3 minutes with no bounce forming, history trending flat-to-down. At 0.1h held it's not yet stale by the 30min rule but the price action shows no recovery — risking another 12% to hit the -30% hard stop for nothing. Cut and free the slot.
+
+## [2026-08-27 12:07 UTC] sell | [PARTIAL][LLM] $PONKE at $9.07392e-06 | P&L: +79.3%
+- **Reasoning:** $PONKE is +79.3% in minutes, strong narrative gain. The +30% TP at 25% and +100% at 50% thresholds should have triggered — at +79% we're past the +100%/75% level. Lock half to bank the move, let the rest ride since it's a fresh pump with 0.0h hold time and the auto-TP ladder has likely already fired.
+
+## [2026-08-27 12:07 UTC] buy | [LLM] $CHILLBULL at $1.21512e-05, spent 0.05 SOL
+- **Reasoning:** $CHILLBULL has the deepest bond curve (34%) and highest mcap ($12k) of the new launches — early social proof that buyers aren't fully dumping. Bull mascot is a proven meme archetype, name is catchy and tweetable. 0.05 SOL position, liquidity still thin (~$12k) so small size.
+
+## [2026-08-27 12:07 UTC] buy | [LLM] $Steven at $5.50238e-06, spent 0.05 SOL
+- **Reasoning:** $Steven 'Chief AI Slopper' rides the AI-agent meta which is the single hottest narrative on Solana right now. 0.1min age with $5.5k mcap = very early. Has an attached X post (real attention, not just a launch). 0.05 SOL — liquidity is thin so size stays small.
+
+## [2026-08-27 12:07 UTC] buy | [LLM] $Floor at $3.964e-06, spent 0.05 SOL
+- **Reasoning:** $Floor 'Trading Floor' has the clearest launch narrative (discord.gg/uxento origin + linked X post by @MyWestLord). Explicit community launch provenance tends to drive coordinated buying in the first 30-60 min. 0.05 SOL. Linked twitter is the attention signal.
+
