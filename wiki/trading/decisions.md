@@ -6253,3 +6253,9 @@
 ## [2026-08-27 11:36 UTC] sell | [hard-stop] $HODL closed at $2.90644e-06 | P&L: -37.0%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 11:38 UTC] buy | [LLM] $Pot at $4.47004e-06, spent 0.05 SOL
+- **Reasoning:** $Pot has the strongest narrative — recurring 5-min winner mechanic is a viral loop, fresh twitter post, $4.5k mcap is bottom-of-curve with massive room. Risk: brand new, could rug; size 0.05 SOL.
+
+## [2026-08-27 11:38 UTC] buy | [LLM] $clicking at $4.307e-06, spent 0.05 SOL
+- **Reasoning:** $clicking has a community link (suggests existing audience being routed in) and a meta-narrative ('keep on clicking') that fits attention-market dynamics. $5.2k mcap, 20% bonded already showing traction. Risk: very young, thin.
+
