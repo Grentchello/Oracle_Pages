@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.262546,
+  "balance_sol": 1.275527,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AfmgmR1ffGJoirv8U3GWuxs2muHEahCmX2xtfrhrpump": {
       "symbol": "PRMPT",
       "name": "Promptato",
-      "amount": 868634.0176358044,
+      "amount": 434317.0088179022,
       "entry_price_usd": 2.901106736366121e-06,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0125,
       "entry_time": "2026-08-27T01:18:09.563922+00:00",
       "entry_usd_value": 10.08,
       "entry_signals": {
@@ -28,9 +28,9 @@
     "2kM8DbdcSgF31zX7b1W6sRuCnaFPniyzRsSCfb8Qpump": {
       "symbol": "Buddy",
       "name": "First Neuralink Dog",
-      "amount": 41.97355893858712,
+      "amount": 20.98677946929356,
       "entry_price_usd": 1.4791445497471047e-05,
-      "entry_sol_spent": 6.103515625e-06,
+      "entry_sol_spent": 3.0517578125e-06,
       "entry_time": "2026-08-27T01:36:46.387180+00:00",
       "entry_usd_value": 10.172,
       "entry_signals": {
@@ -5639,25 +5639,47 @@
       "pnl_pct": -15.49,
       "exit_reason": "LLM: sell_all — -15.5% loss and a NEW $HFHI launch with $6k mcap just showed up at age 0.3min — the narrative isn't paying off fast enough. Cut and rotate capital int",
       "partial": false
+    },
+    {
+      "mint": "AfmgmR1ffGJoirv8U3GWuxs2muHEahCmX2xtfrhrpump",
+      "symbol": "PRMPT",
+      "name": "Promptato",
+      "amount_sold": 434317.0088179022,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T01:18:09.563922+00:00",
+      "exit_time": "2026-08-27T02:00:02.225657+00:00",
+      "entry_price_usd": 2.901106736366121e-06,
+      "exit_price_usd": 3.03e-06,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.012967,
+      "pnl_sol": 0.000467,
+      "pnl_pct": 4.44,
+      "exit_reason": "LLM: sell_half — PRMPT has only gained 4.4% and the +50% profit-taking rule has not yet been reached, but momentum is modest. Sell half to reduce exposure while retain",
+      "partial": true
+    },
+    {
+      "mint": "2kM8DbdcSgF31zX7b1W6sRuCnaFPniyzRsSCfb8Qpump",
+      "symbol": "Buddy",
+      "name": "First Neuralink Dog",
+      "amount_sold": 20.98677946929356,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T01:36:46.387180+00:00",
+      "exit_time": "2026-08-27T02:00:02.225916+00:00",
+      "entry_price_usd": 1.4791445497471047e-05,
+      "exit_price_usd": 6.535e-05,
+      "entry_sol_for_chunk": 3e-06,
+      "exit_sol_received": 1.4e-05,
+      "pnl_sol": 1e-05,
+      "pnl_pct": 341.81,
+      "exit_reason": "LLM: sell_half — Buddy is up 341.8% after a strong run, so taking half profit protects gains while preserving exposure to continued attention. The position is already ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T01:58:33.057885+00:00",
+  "last_updated": "2026-08-27T02:00:02.226034+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.6,
-  "portfolio_value_usd": 161.27,
+  "last_sol_price_usd": 101.49,
+  "portfolio_value_usd": 161.19,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 01:48 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MICHELLE at $2.833e-06 | P&L: -4.3%",
-      "reason": "$MICHELLE at -4.3% but bleeding hard on 1h/24h and I already have exposure to the same narrative via fresh candidate — consolidate."
-    },
-    {
-      "time": "2026-08-27 01:48 UTC",
-      "action": "buy",
-      "details": "[LLM] $PICKLE at $2.91405e-06, spent 0.1 SOL",
-      "reason": "$PICKLE 'Dog in a Pickle' has a concrete virality claim ('millions of views within the past week, still growing') — funny mascot names with proven social traction are classic memecoin runners."
-    },
     {
       "time": "2026-08-27 01:49 UTC",
       "action": "sell",
@@ -5765,28 +5787,40 @@
       "action": "buy",
       "details": "[LLM] $roof at $3.92818e-05, spent 0.1 SOL",
       "reason": "$roof at $39k mcap with bond 42% (leading the launches) — highest mcap of fresh batch often signals first attention magnet. Name is short/memeable, early entry before viral pickup."
+    },
+    {
+      "time": "2026-08-27 02:00 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $PRMPT at $3.03e-06 | P&L: +4.4%",
+      "reason": "PRMPT has only gained 4.4% and the +50% profit-taking rule has not yet been reached, but momentum is modest. Sell half to reduce exposure while retaining some upside if the narrative strengthens."
+    },
+    {
+      "time": "2026-08-27 02:00 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Buddy at $6.535e-05 | P&L: +341.8%",
+      "reason": "Buddy is up 341.8% after a strong run, so taking half profit protects gains while preserving exposure to continued attention. The position is already highly profitable and the next move may be increasingly crowded."
     }
   ],
   "trade_stats": {
-    "total": 325,
-    "wins": 157,
+    "total": 327,
+    "wins": 159,
     "losses": 168,
-    "win_rate_pct": 48.3,
-    "total_pnl_sol": -0.312442,
-    "avg_pnl_pct": 75.81,
+    "win_rate_pct": 48.6,
+    "total_pnl_sol": -0.311965,
+    "avg_pnl_pct": 76.4,
     "best_pnl_pct": 1379.24,
     "worst_pnl_pct": -99.89,
-    "today_trades": 182,
-    "today_realized_sol": 0.216765,
-    "today_target_pct": 54.2,
+    "today_trades": 184,
+    "today_realized_sol": 0.217242,
+    "today_target_pct": 54.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 157,
+      "win_count": 159,
       "loss_count": 168,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T01:58:33.056872+00:00",
+  "last_llm_brief_at": "2026-08-27T02:00:02.225615+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AfmgmR1ffGJoirv8U3GWuxs2muHEahCmX2xtfrhrpump": {
@@ -5799,11 +5833,11 @@
       "source": "dexscreener"
     },
     "2kM8DbdcSgF31zX7b1W6sRuCnaFPniyzRsSCfb8Qpump": {
-      "price_usd": 0.0001012,
-      "change_h24": 143.0,
-      "change_h1": 143.0,
-      "liquidity_usd": 25827.34,
-      "volume_h24": 445378.56,
+      "price_usd": 6.535e-05,
+      "change_h24": 56.68,
+      "change_h1": 56.68,
+      "liquidity_usd": 20453.5,
+      "volume_h24": 482511.36,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     },
@@ -5817,21 +5851,21 @@
       "source": "dexscreener"
     },
     "25D9qie64vwqy1pLobaF8yQXboTBrvLaiz7a22pFpump": {
-      "price_usd": 1.731e-05,
-      "change_h24": 481.0,
-      "change_h1": 481.0,
+      "price_usd": 1.499e-05,
+      "change_h24": 403.0,
+      "change_h1": 403.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 21576.49,
+      "volume_h24": 22778.63,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "43wJeqvPCXgTajJboC8kojYDEZBfEBovUE1hgs3Xpump": {
-      "price_usd": 2.843e-06,
-      "change_h24": -6.33,
-      "change_h1": -6.33,
-      "liquidity_usd": 0.0,
-      "volume_h24": 1556.43,
-      "dex_id": "pumpfun",
+    "Hd1vMXHzjwqFJgGL5Hu5SozytQYL2cnkh1PugaWFpump": {
+      "price_usd": 5.142e-05,
+      "change_h24": 21.95,
+      "change_h1": 21.95,
+      "liquidity_usd": 17408.06,
+      "volume_h24": 20046.59,
+      "dex_id": "pumpswap",
       "source": "dexscreener"
     }
   }

@@ -3118,3 +3118,9 @@
 ## [2026-08-27 01:58 UTC] buy | [LLM] $roof at $3.92818e-05, spent 0.1 SOL
 - **Reasoning:** $roof at $39k mcap with bond 42% (leading the launches) — highest mcap of fresh batch often signals first attention magnet. Name is short/memeable, early entry before viral pickup.
 
+## [2026-08-27 02:00 UTC] sell | [PARTIAL][LLM] $PRMPT at $3.03e-06 | P&L: +4.4%
+- **Reasoning:** PRMPT has only gained 4.4% and the +50% profit-taking rule has not yet been reached, but momentum is modest. Sell half to reduce exposure while retaining some upside if the narrative strengthens.
+
+## [2026-08-27 02:00 UTC] sell | [PARTIAL][LLM] $Buddy at $6.535e-05 | P&L: +341.8%
+- **Reasoning:** Buddy is up 341.8% after a strong run, so taking half profit protects gains while preserving exposure to continued attention. The position is already highly profitable and the next move may be increasingly crowded.
+
