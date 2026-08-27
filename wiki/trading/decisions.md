@@ -7213,3 +7213,9 @@
 ## [2026-08-27 13:41 UTC] buy | [LLM] $ATTRITION at $2.30464e-05, spent 0.05 SOL
 - **Reasoning:** $ATTRITION 'War of Attrition' has the strongest narrative in the batch (military/conflict framing is viral on CT), $22.9k mcap with 39% bonded = established early traction, clear story to spread. Risk: 0.9min old, j7tracker deploy means some launchpad-fee overhead but also signals intent.
 
+## [2026-08-27 13:42 UTC] sell | [hard-stop] $ATTRITION closed at $3.16111e-06 | P&L: -86.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:42 UTC] buy | [LLM] $Schwab at $1.27047e-05, spent 0.05 SOL
+- **Reasoning:** Charles Schwab ticker ($SCHW) parody with Wu Blockchain/RabbiD0ng attention. Schwab+Swab duplicates dilute but the Schwab itself has clean branding and a top crypto account tweet — classic attention play at $12k mcap.
+
