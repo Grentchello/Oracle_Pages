@@ -5035,3 +5035,18 @@
 ## [2026-08-27 09:22 UTC] buy | [LLM] $narrative at $3.73e-06, spent 0.05 SOL
 - **Reasoning:** $narrative 'coinwithnarrative' is meta-narrative play (naming itself 'the narrative'), twitter attached, fresh 0.9min launch at $4.5k mcap — classic attention market play.
 
+## [2026-08-27 09:23 UTC] sell | [hard-stop] $Amro closed at $3.4436e-06 | P&L: -39.6%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:23 UTC] sell | [PARTIAL][LLM] $Quake at $2.31733e-05 | P&L: +26.9%
+- **Reasoning:** Quake +26.9% is approaching the +30% TP tier. Lock half the gain now — fresh memecoin momentum often fades fast, and partial exit lets the runner ride free.
+
+## [2026-08-27 09:23 UTC] sell | [FULL][LLM] $narrative at $2.94828e-06 | P&L: -21.0%
+- **Reasoning:** Narrative down -21% with pool=$0 and an absurd 563891458% share flag — the bonding curve is effectively dead and our share calc is broken/diluted. Cut before -30% hard stop, free the slot.
+
+## [2026-08-27 09:23 UTC] buy | [LLM] $retail at $5.04445e-06, spent 0.05 SOL
+- **Reasoning:** $retail (retardwiftail) at $5k mcap, 0.2min old — 'retardwif' is a classic viral Pepe-frog derivative, low mcap with fresh bonding curve (19%), exactly the early-attention setup the strategy targets.
+
+## [2026-08-27 09:23 UTC] buy | [LLM] $MANGOB at $1.26527e-05, spent 0.05 SOL
+- **Reasoning:** $MANGOB (Manic Goblin) at $12.6k mcap with a clear pirate/troll narrative and 0.4min age — whimsical character meme with visual hook, bonding curve only 5% so room to run.
+
