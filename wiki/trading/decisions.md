@@ -6130,3 +6130,9 @@
 ## [2026-08-27 11:17 UTC] sell | [hard-stop] $TOADBF closed at $2.93092e-06 | P&L: -43.5%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 11:17 UTC] buy | [LLM] $GBULL🪙 at $9.30679e-06, spent 0.05 SOL
+- **Reasoning:** $GBULL� — '60% airdropped to top 15 holders' is classic attention bait that drives buy competition and early FOMO; gold bull narrative taps the perpetual gold-vs-BTC debate, and highest mcap on bonding curve (31%) suggests organic traction already. Risk: narrative is thin and the airdrop gimmick has been done to death.
+
+## [2026-08-27 11:17 UTC] buy | [LLM] $KAIXIN at $4.39027e-06, spent 0.05 SOL
+- **Reasoning:** $KAIXIN — 'China's happiest little nut' is a clear, repeatable character with bilingual appeal (开心果) that can ride China-retail attention cycles; dedicated twitter handle suggests a real shiller, not just a deployer wallet. Risk: clawpump.tech is a lesser-known launchpad, and China-narrative tokens often need a specific catalyst to pump.
+
