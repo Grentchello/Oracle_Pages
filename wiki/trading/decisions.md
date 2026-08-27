@@ -5692,3 +5692,6 @@
 ## [2026-08-27 10:31 UTC] buy | [LLM] $Fox at $1.19155e-05, spent 0.05 SOL
 - **Reasoning:** $Fox (Red Fox In Fog) — @MarioPrezidente tweet is the kind of KOL shilled-art launch that captures attention, $11.9k mcap very early, decent narrative hook with the imagery concept.
 
+## [2026-08-27 10:32 UTC] sell | [hard-stop] $Fox closed at $5.16424e-06 | P&L: -56.7%
+- **Reasoning:** Hard -30% stop
+
