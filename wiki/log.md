@@ -217,3 +217,15 @@
 - Verified: LLM exit decision for $RISE cited "history shows price already flatlined at $0.000000065x after an initial pop" — LLM is using the data
 - Files: bot/sparkline_collector.py, bot/bot.py, wiki/trading/index.html, wiki/trading/assets/dashboard.css, wiki/trading/sparklines.json
 - Limitation: pump.fun tokens open/close fast, most positions never accumulate 2+ buckets. Visual sparkline only renders for positions held 60+ seconds. LLM history works whenever there's 2+ data points.
+
+## [2026-08-27] update | Sparklines now show MARKET CAP (not price)
+- Grant: "display the market cap graph for each token on the 1 second chart"
+- Changed: `bot/sparkline_collector.py` now records market cap alongside price
+  - `market_cap_sol = virtual_sol_reserves × 2` (bonding curve)
+  - Schema: `{ts: [], px: [], mc: []}` per mint
+- Changed: dashboard `renderSparkline()` uses `data.mc` (market cap series) instead of `data.px` (price)
+- Tooltip on hover shows: `MC 79.94→101.81 SOL (27.4%)`
+- Color: green if MC rising, red if falling
+- Bot's LLM prompt now includes market cap in history: `5min: $price (MC:85.3), 4min: $price (MC:88.1), ...`
+- Verified: $RISE shows 5 buckets of MC data: 79.94 → 101.81 SOL (+27.4%), renders as green sparkline on dashboard
+- Files: bot/sparkline_collector.py, bot/bot.py, wiki/trading/index.html
