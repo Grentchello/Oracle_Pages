@@ -99,3 +99,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- market cap sparklines -->
 
 <!-- force rebuild -->
+
+<!-- refresh state -->
