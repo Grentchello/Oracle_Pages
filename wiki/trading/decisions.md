@@ -2623,3 +2623,15 @@
 ## [2026-08-27 00:53 UTC] buy | [LLM] $Shrekli at $4.1542e-06, spent 0.1 SOL
 - **Reasoning:** Martin Shrekli is peak memecoin material — 'Pharma Bro,' jailed, universally hated/recognized villain. Companion $Daraprim launch confirms narrative traction. Fresh (0.1min), lowest mcap of the 'story' plays at $4k = most upside.
 
+## [2026-08-27 00:55 UTC] sell | [PARTIAL][LLM] $MEME1921 at $5.922e-06 | P&L: +54.8%
+- **Reasoning:** +54.8% hit the profit-take zone. 24h is +96% so the move may be exhausting. Lock half the gain, let the rest ride.
+
+## [2026-08-27 00:55 UTC] sell | [PARTIAL][LLM] $SKRIMP at $6.877e-06 | P&L: +111.9%
+- **Reasoning:** +111.9% is well past the +50% take-profit rule. 24h is +128% which suggests the parabolic move is near its peak. Lock profit, keep runner.
+
+## [2026-08-27 00:55 UTC] sell | [FULL][LLM] $Shrekli at $3.209e-06 | P&L: -22.8%
+- **Reasoning:** -22.8% and 24h is -8.6% which means the broader trend is down, not a temporary dip. No strong narrative signal and momentum is negative. Cut and free a slot for fresh launches.
+
+## [2026-08-27 00:55 UTC] buy | [LLM] $qCat at $3.41267e-06, spent 0.1 SOL
+- **Reasoning:** $qCat (quantum cat) at $3.4k mcap with onchaincrow tweet — crypto-native X account attention, 8% bond progress. Quantum + cat is a memeable combo. Early enough to catch a 5-10x if it grabs narrative.
+
