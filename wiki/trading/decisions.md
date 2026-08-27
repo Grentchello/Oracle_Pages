@@ -4057,3 +4057,6 @@
 ## [2026-08-27 03:45 UTC] sell | [FULL][LLM] $FONE at $3.14165e-06 | P&L: -38.6%
 - **Reasoning:** $FONE at -38.7% with $160 pool and 4% share — near the -50% hard stop, no bounce signal, and liquidity too thin to recover. Cut loss fast per discipline.
 
+## [2026-08-27 06:50 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
