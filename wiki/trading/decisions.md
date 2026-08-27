@@ -3952,3 +3952,30 @@
 ## [2026-08-27 03:29 UTC] buy | [LLM] $Kinnounko at $3.03343e-06, spent 0.1 SOL
 - **Reasoning:** $Kinnounko — 'Kin no unko' (jp 💩 meme) is genuinely weird/funny, 0.6min old, $3k mcap. Meme names with shock value travel.
 
+## [2026-08-27 03:30 UTC] sell | [TP +100% (75%)] $Cashew at $4.16208e-05 | P&L: +117.2%
+- **Reasoning:** Auto take-profit at +117.2%
+
+## [2026-08-27 03:30 UTC] sell | [TP +30% (half)] $PBJGUY at $5.84445e-06 | P&L: +67.4%
+- **Reasoning:** Auto take-profit at +67.4%
+
+## [2026-08-27 03:30 UTC] sell | [FULL][LLM] $Cashew at $4.16208e-05 | P&L: +117.2%
+- **Reasoning:** Cashew is up 117.2% in roughly 12 minutes, so the fast-pump gain should be locked while the position is clearly above the first profit-taking threshold.
+
+## [2026-08-27 03:30 UTC] sell | [PARTIAL][LLM] $PBJGUY at $5.84445e-06 | P&L: +67.4%
+- **Reasoning:** PBJGUY has surged 67.4% almost immediately and has very limited liquidity; taking half protects profit while leaving exposure to continued attention.
+
+## [2026-08-27 03:30 UTC] sell | [FULL][LLM] $SquawksHQ at $3.05503e-06 | P&L: -0.3%
+- **Reasoning:** SquawksHQ is flat, unheld for essentially no time, and has only a $112 pool, so it lacks both momentum and sufficient liquidity to justify another slot.
+
+## [2026-08-27 03:30 UTC] sell | [FULL][LLM] $Kinnounko at $3.03224e-06 | P&L: -0.0%
+- **Reasoning:** Kinnounko is flat with a $100 pool and no meaningful attention evidence; exit and rotate the capital into fresher launches.
+
+## [2026-08-27 03:30 UTC] buy | [LLM] $Scoobert at $5.57614e-06, spent 0.1 SOL
+- **Reasoning:** Scoobert is a very fresh launch with an immediately readable meme identity and $5.6K market cap; the main risk is that it has no supporting narrative beyond the name.
+
+## [2026-08-27 03:30 UTC] buy | [LLM] $blindape at $4.67885e-06, spent 0.1 SOL
+- **Reasoning:** blind ape has an external X attention signal and was detected at a $4.7K market cap, making it a high-upside but highly speculative momentum entry.
+
+## [2026-08-27 03:30 UTC] buy | [LLM] $gamercat at $3.319e-06, spent 0.1 SOL
+- **Reasoning:** gamer cat has a familiar gaming-cat meme identity and a sub-$4K launch valuation, suitable for a small attention-driven bet before wider discovery.
+
