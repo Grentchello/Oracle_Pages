@@ -6499,3 +6499,27 @@
 ## [2026-08-27 12:07 UTC] buy | [LLM] $Floor at $3.964e-06, spent 0.05 SOL
 - **Reasoning:** $Floor 'Trading Floor' has the clearest launch narrative (discord.gg/uxento origin + linked X post by @MyWestLord). Explicit community launch provenance tends to drive coordinated buying in the first 30-60 min. 0.05 SOL. Linked twitter is the attention signal.
 
+## [2026-08-27 12:08 UTC] sell | [hard-stop] $Steven closed at $3.70031e-06 | P&L: -32.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:08 UTC] sell | [TP +30% (25%)] $PONKE at $6.6041e-06 | P&L: +30.5%
+- **Reasoning:** Auto take-profit at +30.5%
+
+## [2026-08-27 12:08 UTC] sell | [TP +30% (25%)] $CHILLBULL at $1.87042e-05 | P&L: +53.9%
+- **Reasoning:** Auto take-profit at +53.9%
+
+## [2026-08-27 12:08 UTC] sell | [PARTIAL][LLM] $PONKE at $6.6041e-06 | P&L: +30.5%
+- **Reasoning:** PONKE +30.5% hit the profit-take zone. Pool only $1582 — thin and risky. Lock half to bank the gain, let runner breathe.
+
+## [2026-08-27 12:08 UTC] sell | [PARTIAL][LLM] $CHILLBULL at $1.87042e-05 | P&L: +53.9%
+- **Reasoning:** CHILLBULL +53.9% past auto-TP trigger. Strongest pool of the three ($4794). Lock half the profit, let remainder ride if narrative holds.
+
+## [2026-08-27 12:08 UTC] sell | [PARTIAL][LLM] $Floor at $5.00688e-06 | P&L: +26.3%
+- **Reasoning:** Floor +26.3% with our share=1% and only $974 pool — bag is large relative to liquidity. Take half off now, exit fully if no momentum in next tick.
+
+## [2026-08-27 12:08 UTC] buy | [LLM] $3310 at $5.63817e-06, spent 0.05 SOL
+- **Reasoning:** $3310 Nokia nostalgia meme — 'indestructible phone' is a proven viral narrative. 22% bonded, $5.6k mcap, real X account. Cheap entry with classic meme brand.
+
+## [2026-08-27 12:08 UTC] buy | [LLM] $JENSEN at $5.17535e-06, spent 0.05 SOL
+- **Reasoning:** $JENSEN Jensen Huang AI-celebrity meme has a real sub-niche following and a posted tweet. 20% bonded. AI-celebrity meta is hot. 0.05 SOL position.
+
