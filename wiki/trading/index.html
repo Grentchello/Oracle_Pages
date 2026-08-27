@@ -479,10 +479,12 @@ async function renderDecisions(state) {
 
 async function refresh() {
   try {
-    const [state, watchlist] = await Promise.all([
+    const [state, watchlist, sparklines] = await Promise.all([
       fetchJSON(STATE_URL),
       fetchJSON(WATCHLIST_URL),
+      fetchJSON(SPARKLINE_URL).catch(() => ({})),
     ]);
+    window._sparklines = sparklines;
     clearError();
     // Cache the watchlist on state so renderKPIs can compute open-position unrealized PnL
     state._watchlistCache = watchlist;

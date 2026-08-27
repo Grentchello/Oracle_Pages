@@ -5923,3 +5923,9 @@
 ## [2026-08-27 10:53 UTC] buy | [LLM] $MACKAREL at $5.27406e-06, spent 0.05 SOL
 - **Reasoning:** $MACKAREL 'A Mackerel Never Surrenders' — absurdist fish-martial-arts meme via Mario Nawfal (large crypto audience). $5.3k mcap, 0.6min old. Nawfal tweets regularly mint 5-20x movers. Worth a scalp.
 
+## [2026-08-27 10:54 UTC] sell | [hard-stop] $MACKAREL closed at $3.0454e-06 | P&L: -42.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:54 UTC] sell | [TP +30% (25%)] $Elephant at $7.8831e-06 | P&L: +39.3%
+- **Reasoning:** Auto take-profit at +39.3%
+
