@@ -73,7 +73,7 @@ const files = [
   "dccbe1b5c6f44b50b5ed030d5390db44.thumbnail.0000000000_iphone_1170x2532.jpg"
 ];
 
-const base = "/wallpapers/";
+const base = "/Oracle_Pages/wallpapers/";
 const grid = document.getElementById("grid");
 
 function prettyName(f) {
