@@ -7321,3 +7321,15 @@
 ## [2026-08-27 13:59 UTC] sell | [PARTIAL][LLM] $gavun at $7.0037e-06 | P&L: +39.1%
 - **Reasoning:** $gavun up +39.1% but on a tiny bonding-curve pool ($1.7k). Bonding-curve tokens that pump early often revert as curve completion stalls or insiders dump. Lock half the gain, let the rest ride with the stop at -30%.
 
+## [2026-08-27 14:01 UTC] sell | [FULL][LLM] $gavun at $4.83947e-06 | P&L: -3.9%
+- **Reasoning:** Down -3.9% at 0.1h, history shows MC swinging $72-$116k with no upward trend, pool only $883 (liquidity is barely5x position). No identifiable narrative in candidates list. Cut and redeploy into fresh attention.
+
+## [2026-08-27 14:01 UTC] buy | [LLM] $CRYPTO at $3.5109e-06, spent 0.05 SOL
+- **Reasoning:** $CRYPTO has a real coinbase-attributed X link and the meta-narrative (every blue-chip ticker in one symbol) is exactly the kind of self-aware joke that goes viral in memecoin circles. $3.5k mcap = early, risk is rug/migration but attention signal is strongest of the batch.
+
+## [2026-08-27 14:01 UTC] buy | [LLM] $TRENCHDOGS at $9.786e-06, spent 0.05 SOL
+- **Reasoning:** $TRENCHDOGS is leading the launch wave — highest mcap ($9.7k), furthest along bonding curve (31%), has Twitter link. Sniper favorite among the new batch; momentum is real.
+
+## [2026-08-27 14:01 UTC] buy | [LLM] $up at $3.04387e-06, spent 0.05 SOL
+- **Reasoning:** $up 'up only' is the purest meta-meme (the name IS the trade thesis) and the tweet comes from sns (Solana Name Service, legitimate ecosystem account). $3k mcap with real ecosystem affiliation is rare in this batch.
+
