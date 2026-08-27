@@ -5899,3 +5899,18 @@
 ## [2026-08-27 10:50 UTC] buy | [LLM] $wifcock at $5.00377e-06, spent 0.05 SOL
 - **Reasoning:** $wifcock — crude humor is the #1 memecoin attention driver. Bonding curve only 19% means still very early, room to fill. Risk: niche appeal, may not break out of degen circles.
 
+## [2026-08-27 10:51 UTC] sell | [TP +30% (25%)] $MACKAREL at $5.92537e-06 | P&L: +35.0%
+- **Reasoning:** Auto take-profit at +35.0%
+
+## [2026-08-27 10:51 UTC] sell | [TP +30% (25%)] $wifcock at $6.65166e-06 | P&L: +32.9%
+- **Reasoning:** Auto take-profit at +32.9%
+
+## [2026-08-27 10:52 UTC] sell | [FULL][LLM] $MACKAREL at $5.92537e-06 | P&L: +35.0%
+- **Reasoning:** +35% on a $1.3k bonding-curve pool — gains are fragile, liquidity is thin, and rule says lock profit >20% when there's any doubt. Selling now.
+
+## [2026-08-27 10:52 UTC] sell | [FULL][LLM] $wifcock at $6.65166e-06 | P&L: +32.9%
+- **Reasoning:** +32.9% on a $1.6k bonding-curve pool — same logic, take the +30% before the curve dumps. Lock the gain.
+
+## [2026-08-27 10:52 UTC] buy | [LLM] $SLM at $3.84481e-06, spent 0.05 SOL
+- **Reasoning:** $SLM 'Sex Language Model' from nexta_tv (credible CT account) — viral AI/sex crossover concept is meme-coded. $3.8k mcap is bottom-of-curve, asymmetric upside if it sticks.
+
