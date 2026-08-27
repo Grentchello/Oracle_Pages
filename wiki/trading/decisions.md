@@ -5338,3 +5338,21 @@
 ## [2026-08-27 09:57 UTC] buy | [LLM] $MEMELIFE at $4.65479e-06, spent 0.05 SOL
 - **Reasoning:** $MEMELIFE is 0.1min old at $4.6k — only 2 slots left after $ADAM and the 'My Life Is Memes' meta is meme-native and resonant. Cheap lottery ticket size.
 
+## [2026-08-27 09:58 UTC] sell | [hard-stop] $MEMELIFE closed at $3.00392e-06 | P&L: -35.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:58 UTC] sell | [TP +30% (25%)] $CTREMP at $2.90189e-05 | P&L: +71.8%
+- **Reasoning:** Auto take-profit at +71.8%
+
+## [2026-08-27 09:58 UTC] sell | [TP +500% (full)] $ADAM at $4.21541e-05 | P&L: +698.2%
+- **Reasoning:** Auto take-profit at +698.2%
+
+## [2026-08-27 09:58 UTC] sell | [PARTIAL][LLM] $CTREMP at $2.90189e-05 | P&L: +71.8%
+- **Reasoning:** $CTREMP is up 71.8% — well past the +30% threshold and approaching the +100% TP at 50% (currently 71.8%, so halfway to 100%). Locking half the gain de-risks while leaving runner exposure for the next leg. Bonding curve pool is small ($6.7k) so any continuation needs volume.
+
+## [2026-08-27 09:58 UTC] buy | [LLM] $RISE at $5.21315e-06, spent 0.05 SOL
+- **Reasoning:** $RISE has a clear attention narrative — '60% airdrop to top 15 holders at bonding' is a hunt/incentive structure that drives volume and viral engagement. Fresh (0.1min), small mcap ($5.2k), and the airdrop mechanic is the kind of meta-narrative that pumps on launch day. Risk: bonding only 20%, ultra-thin liquidity, could rug.
+
+## [2026-08-27 09:58 UTC] buy | [LLM] $chicky at $6.58157e-06, spent 0.05 SOL
+- **Reasoning:** $chicky is the freshest attention token (0.3min, mcap $6.6k, bond 25% already moving) with a named X handle posting about it. Animal-meme + ultra-fresh launch is the classic pump.fun runner setup. Risk: no clear viral trigger yet besides the deployer tweet, ultra-low liquidity.
+
