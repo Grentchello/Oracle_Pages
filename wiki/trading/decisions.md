@@ -3433,3 +3433,18 @@
 ## [2026-08-27 02:38 UTC] buy | [LLM] $FAMILY at $3.41836e-06, spent 0.1 SOL
 - **Reasoning:** $FAMILY from zuck_devs (Zuckerberg-adjacent) — 'The AI Family' has viral narrative potential, fresh launch with real X attention.
 
+## [2026-08-27 02:40 UTC] sell | [PARTIAL][LLM] $stage at $1.08e-05 | P&L: +131.5%
+- **Reasoning:** $stage +131.5% in 0.3h on a $4.5k mcap micro-cap is parabolic. Lock half profit now; let the rest ride if narrative sustains. Free-float is tiny and a -70% wick can come in seconds.
+
+## [2026-08-27 02:40 UTC] sell | [FULL][LLM] $cat at $3.096e-06 | P&L: -49.0%
+- **Reasoning:** $cat -49.0% and 24h -9.2% — this one is dying, not dipping. Cut it free up a position and free SOL for fresh launches.
+
+## [2026-08-27 02:40 UTC] sell | [FULL][LLM] $FAMILY at $2.826e-06 | P&L: -17.3%
+- **Reasoning:** $FAMILY -17.3% with 24h -12.1%. Dead cat bounce territory; rotating capital into fresh attention is better than hoping.
+
+## [2026-08-27 02:40 UTC] buy | [LLM] $Bubblik at $4.56654e-06, spent 0.1 SOL
+- **Reasoning:** $Bubblik — 'Bubblik Terminal' is a clean, brandable name (terminal = utility framing) and tweet is from @bigbonderboi, an attention account. $4.5k mcap, 0.3min old = first-mover window.
+
+## [2026-08-27 02:40 UTC] buy | [LLM] $Duster at $3.39741e-06, spent 0.1 SOL
+- **Reasoning:** $Duster the Buffalo — animal mascot + a tweet from @gettindevvy. There are 3 'Duster' launches in the list (possible copycat battle) so size small, but the Buffalo angle is the freshest narrative.
+
