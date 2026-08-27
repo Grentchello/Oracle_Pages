@@ -4066,3 +4066,12 @@
 ## [2026-08-27 07:10 UTC] buy | [LLM] $BLINDAPE at $1.63393e-05, spent 0.1 SOL
 - **Reasoning:**  $BLINDAPE has a self-aware memetic narrative ('no thesis, just blind ape') — that's a feature, not a bug, in memecoin markets. Bond 37% complete and tied to a dedicated account (@BlindApeOnPF) showing intent to push. Speculative but cheap at $16k mcap.
 
+## [2026-08-27 07:11 UTC] sell | [FULL][LLM] $copper at $3.58091e-06 | P&L: -82.7%
+- **Reasoning:** $copper is at -82.7%, well past the -50% hard stop territory and held 0.0h — no bounce signal, exit immediately to free the slot and stop further bleed.
+
+## [2026-08-27 07:11 UTC] sell | [FULL][LLM] $BLINDAPE at $2.84873e-06 | P&L: -82.6%
+- **Reasoning:** $BLINDAPE at -82.6% with only $11 pool liquidity and 16% of pool — this is a dead bonding-curve token with no path back. Cut it now.
+
+## [2026-08-27 07:11 UTC] buy | [LLM] $tripletung at $5.48569e-06, spent 0.1 SOL
+- **Reasoning:** $tripletung has the strongest meme hook (tung tung tung, Italian brainrot / viral sound meme) and a dedicated X account @tripletung at 0.3min age — exactly the kind of attention narrative that pumps fresh launches. Risk: ultra-low mcap, may rug.
+
