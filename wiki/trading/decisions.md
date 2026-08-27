@@ -3418,3 +3418,18 @@
 ## [2026-08-27 02:37 UTC] buy | [LLM] $Duster at $8.05757e-06, spent 0.1 SOL
 - **Reasoning:** $Duster the Buffalo — strongest narrative of the new batch (animal mascot, dedicated X post), $8k mcap with 29% bond (closest to graduation), freshest attention. Buys the slot opened by closing $RESET.
 
+## [2026-08-27 02:38 UTC] sell | [PARTIAL][LLM] $stage at $1.112e-05 | P&L: +138.4%
+- **Reasoning:** At +138% with +268% 24h momentum. Take profit on half to lock gains, let the other half ride if narrative continues.
+
+## [2026-08-27 02:38 UTC] sell | [FULL][LLM] $TROLLPISTA at $2.904e-06 | P&L: -67.2%
+- **Reasoning:** Down -67.2%, well past the -50% hard cap. Cut loss and free up slot.
+
+## [2026-08-27 02:38 UTC] sell | [FULL][LLM] $Duster at $2.995e-06 | P&L: -62.8%
+- **Reasoning:** Down -62.8%, past -50% hard cap. Must exit.
+
+## [2026-08-27 02:38 UTC] buy | [LLM] $cat at $6.06465e-06, spent 0.1 SOL
+- **Reasoning:** $cat variant with highest mcap ($6k) of the kitten cluster — viral X attention from blankspeaker, 0.2min old. Strong attention signal.
+
+## [2026-08-27 02:38 UTC] buy | [LLM] $FAMILY at $3.41836e-06, spent 0.1 SOL
+- **Reasoning:** $FAMILY from zuck_devs (Zuckerberg-adjacent) — 'The AI Family' has viral narrative potential, fresh launch with real X attention.
+
