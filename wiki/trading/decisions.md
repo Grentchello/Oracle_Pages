@@ -7183,3 +7183,6 @@
 ## [2026-08-27 13:33 UTC] sell | [hard-stop] $Tito closed at $3.58608e-06 | P&L: -59.2%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 13:36 UTC] buy | [LLM] $TRENCHLANA at $1.02013e-05, spent 0.05 SOL
+- **Reasoning:** TRENCHLANA cluster is suspicious (many clones from one mert post) but the highest-mcap variant ($10.2k, bond 32%) has the most liquidity depth and is most likely to be the one organic traders land on. Small 0.05 SOL scalp on the highest-mcap variant only — treating as attention-test trade, not conviction.
+

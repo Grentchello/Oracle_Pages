@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.388415,
+  "balance_sol": 0.338415,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "8iLGwaaeX9ho41EmwiuB4AQNMaKquDpb77rV5VUdpump": {
+      "symbol": "TRENCHLANA",
+      "name": "trenchlana",
+      "amount": 511260.1576864439,
+      "entry_price_usd": 1.0201264310524797e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-27T13:36:52.909918+00:00",
+      "entry_usd_value": 5.2155000000000005,
+      "entry_signals": {
+        "liquidity_usd": 61.81333400169001,
+        "volume_24h_usd": null,
+        "market_cap_usd": 10238.094007879516,
+        "ath_market_cap_usd": 10308.452781922033,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.592592599,
+        "description": "",
+        "twitter": "https://twitter.com/mert/status/2092969457090023898",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -19623,17 +19646,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-08-27T13:35:21.096853+00:00",
+  "last_updated": "2026-08-27T13:36:52.910255+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.48,
-  "portfolio_value_usd": 40.58,
+  "last_sol_price_usd": 104.31,
+  "portfolio_value_usd": 40.52,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 13:26 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $OSCAR closed at $2.94477e-06 | P&L: -55.4%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-08-27 13:27 UTC",
       "action": "sell",
@@ -19747,6 +19764,12 @@
       "action": "sell",
       "details": "[hard-stop] $Tito closed at $3.58608e-06 | P&L: -59.2%",
       "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 13:36 UTC",
+      "action": "buy",
+      "details": "[LLM] $TRENCHLANA at $1.02013e-05, spent 0.05 SOL",
+      "reason": "TRENCHLANA cluster is suspicious (many clones from one mert post) but the highest-mcap variant ($10.2k, bond 32%) has the most liquidity depth and is most likely to be the one organic traders land on. Small 0.05 SOL scalp on the highest-mcap variant only — treating as attention-test trade, not conviction."
     }
   ],
   "trade_stats": {
@@ -19768,7 +19791,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T13:35:21.096804+00:00",
+  "last_llm_brief_at": "2026-08-27T13:36:52.590853+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot"
