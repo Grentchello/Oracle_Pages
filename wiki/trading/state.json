@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.857416,
+  "balance_sol": 0.853549,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "D696WmvsTBzF5eyBscjY6FHHNCsWAnC1rkBQcErVBVPT": {
       "symbol": "ROBOT",
       "name": "RobotCoin",
-      "amount": 610479.5978719248,
+      "amount": 228929.84920197178,
       "entry_price_usd": 8.54737818952421e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.018750000000000003,
       "entry_time": "2026-08-27T12:46:45.822287+00:00",
       "entry_usd_value": 5.218,
       "entry_signals": {
@@ -43,6 +43,28 @@
         "real_sol_reserves": 45.785260967,
         "description": "",
         "twitter": "https://x.com/WhaleFUD/status/2092956776828137632",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "4sT6b5oJw9mureDric3Fwg3FTuiBV2GNtn7gRoUxpump": {
+      "symbol": "JENSON",
+      "name": " jenSON",
+      "amount": 1753524.7578351386,
+      "entry_price_usd": 2.9802829852553094e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-27T12:48:25.560190+00:00",
+      "entry_usd_value": 5.226,
+      "entry_signals": {
+        "liquidity_usd": 30.96888885792,
+        "volume_24h_usd": null,
+        "market_cap_usd": 2966.9120342266356,
+        "ath_market_cap_usd": 2987.9911324827763,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.296296296,
+        "description": "just a meme: it's jenSON. jenSON season. dad just printed $96.2B. jenSON prints the chart. compute is revenue.",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -18391,31 +18413,47 @@
       "pnl_pct": -0.01,
       "exit_reason": "LLM: sell_all — $BULLMODE is flat at -0.0% with weak pool ($175, below 5x position size rule). No momentum, no narrative — free up the slot.",
       "partial": false
+    },
+    {
+      "mint": "D696WmvsTBzF5eyBscjY6FHHNCsWAnC1rkBQcErVBVPT",
+      "symbol": "ROBOT",
+      "name": "RobotCoin",
+      "amount_sold": 152619.8994679812,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T12:46:45.822287+00:00",
+      "exit_time": "2026-08-27T12:47:50.159427+00:00",
+      "entry_price_usd": 8.54737818952421e-06,
+      "exit_price_usd": 1.2637486977747252e-05,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.018453,
+      "pnl_sol": 0.005953,
+      "pnl_pct": 47.85,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "D696WmvsTBzF5eyBscjY6FHHNCsWAnC1rkBQcErVBVPT",
+      "symbol": "ROBOT",
+      "name": "RobotCoin",
+      "amount_sold": 228929.84920197178,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T12:46:45.822287+00:00",
+      "exit_time": "2026-08-27T12:48:24.918907+00:00",
+      "entry_price_usd": 8.54737818952421e-06,
+      "exit_price_usd": 1.2637486977747252e-05,
+      "entry_sol_for_chunk": 0.01875,
+      "exit_sol_received": 0.02768,
+      "pnl_sol": 0.00893,
+      "pnl_pct": 47.85,
+      "exit_reason": "LLM: sell_half — $ROBOT up +47.9% — right at the auto-TP zone. Per 'be aggressive' rule, lock half the gains now while letting the other half ride if narrative holds. ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T12:46:46.137092+00:00",
+  "last_updated": "2026-08-27T12:48:25.560593+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.36,
-  "portfolio_value_usd": 96.65,
+  "last_sol_price_usd": 104.52,
+  "portfolio_value_usd": 98.35,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 12:44 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $GBP at $9.76814e-06 | P&L: +71.4%",
-      "reason": "Up +71% in<1min held — strong pump but bonding curve early, lock half the gain per profit-taking discipline while letting the other half ride if narrative continues."
-    },
-    {
-      "time": "2026-08-27 12:45 UTC",
-      "action": "sell",
-      "details": "[TP +100% (50%)] $GBP at $1.2242e-05 | P&L: +114.8%",
-      "reason": "Auto take-profit at +114.8%"
-    },
-    {
-      "time": "2026-08-27 12:45 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GBP at $1.2242e-05 | P&L: +114.8%",
-      "reason": "GBP is +114.8%, well past the +100% TP threshold. If bot hasn't auto-TPed, lock it now — rule says be aggressive on profit-taking when up >20% with any doubt. Clear 2x, take the win."
-    },
     {
       "time": "2026-08-27 12:45 UTC",
       "action": "buy",
@@ -18517,73 +18555,69 @@
       "action": "buy",
       "details": "[LLM] $ROBOT at $8.54738e-06, spent 0.05 SOL",
       "reason": "$ROBOT has strongest narrative signal — 'RobotCoin' tied to WhaleFUD status, bonding 29% (most progress = real traction), $8570 mcap with room to run."
+    },
+    {
+      "time": "2026-08-27 12:47 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $ROBOT at $1.26375e-05 | P&L: +47.9%",
+      "reason": "Auto take-profit at +47.9%"
+    },
+    {
+      "time": "2026-08-27 12:48 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $ROBOT at $1.26375e-05 | P&L: +47.9%",
+      "reason": "$ROBOT up +47.9% — right at the auto-TP zone. Per 'be aggressive' rule, lock half the gains now while letting the other half ride if narrative holds. Bot hasn't auto-triggered yet so this is my discretion call."
+    },
+    {
+      "time": "2026-08-27 12:48 UTC",
+      "action": "buy",
+      "details": "[LLM] $JENSON at $2.98028e-06, spent 0.05 SOL",
+      "reason": "$JENSON has the strongest narrative: 'dad just printed $96.2B, jenSON prints the chart' — direct Fed/JPowell money-printing meme. Macro attention plays are the kind that go viral. Risk: only 1% bond progress means thin validation, but narrative > metrics here."
     }
   ],
   "trade_stats": {
-    "total": 1079,
-    "wins": 567,
+    "total": 1081,
+    "wins": 569,
     "losses": 512,
-    "win_rate_pct": 52.5,
-    "total_pnl_sol": -0.973823,
+    "win_rate_pct": 52.6,
+    "total_pnl_sol": -0.95894,
     "avg_pnl_pct": 45.12,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 538,
-    "today_realized_sol": 0.458406,
-    "today_target_pct": 114.6,
+    "today_trades": 540,
+    "today_realized_sol": 0.473289,
+    "today_target_pct": 118.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 567,
+      "win_count": 569,
       "loss_count": 512,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T12:46:45.504368+00:00",
+  "last_llm_brief_at": "2026-08-27T12:48:24.918861+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "3BooG1Xc4K78qeb3giL7Ffn6n7dba3mE9CAVxqrHpump": {
-      "price_usd": 3.095711279320775e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 94.0368564694,
-      "volume_h24": 2078.68,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.901081415
-    },
     "8TvGyrcqApe1G1tctCJkGL2uoYDnnLoow8KSdwwCpump": {
-      "price_usd": 1.527622222701962e-05,
+      "price_usd": 1.0434438449996528e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4032.86895689288,
-      "volume_h24": 27593.19,
+      "liquidity_usd": 2789.48699368872,
+      "volume_h24": 50897.51,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 38.643819058
+      "real_sol_reserves": 26.688547586
     },
-    "Esmi3KgbSaEXszfN9M3bVzcDXs5Rv6p8CQKK7Ygivyu": {
-      "price_usd": 7.941974595422313e-06,
+    "D696WmvsTBzF5eyBscjY6FHHNCsWAnC1rkBQcErVBVPT": {
+      "price_usd": 1.2637486977747252e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2034.4550480792402,
-      "volume_h24": 10521.13,
+      "liquidity_usd": 3385.04490930528,
+      "volume_h24": 30223.22,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 19.494586509
-    },
-    "HUpzARjzMQSvCukBufNCkP6xw13PaR5TFFc1GNPipump": {
-      "price_usd": 3.2535415702928397e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 175.22172853292,
-      "volume_h24": 226.2,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.679012347
+      "real_sol_reserves": 32.386575864
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

@@ -6802,3 +6802,9 @@
 ## [2026-08-27 12:47 UTC] sell | [TP +30% (25%)] $ROBOT at $1.26375e-05 | P&L: +47.9%
 - **Reasoning:** Auto take-profit at +47.9%
 
+## [2026-08-27 12:48 UTC] sell | [PARTIAL][LLM] $ROBOT at $1.26375e-05 | P&L: +47.9%
+- **Reasoning:** $ROBOT up +47.9% — right at the auto-TP zone. Per 'be aggressive' rule, lock half the gains now while letting the other half ride if narrative holds. Bot hasn't auto-triggered yet so this is my discretion call.
+
+## [2026-08-27 12:48 UTC] buy | [LLM] $JENSON at $2.98028e-06, spent 0.05 SOL
+- **Reasoning:** $JENSON has the strongest narrative: 'dad just printed $96.2B, jenSON prints the chart' — direct Fed/JPowell money-printing meme. Macro attention plays are the kind that go viral. Risk: only 1% bond progress means thin validation, but narrative > metrics here.
+
