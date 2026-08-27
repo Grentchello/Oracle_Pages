@@ -2395,3 +2395,12 @@
 ## [2026-08-27 00:21 UTC] buy | [LLM] $MEMELORD at $3.02567e-06, spent 0.1 SOL
 - **Reasoning:** $MEMELORD — strongest attention name in the batch, tweeted by @iamjasonlevin (notable crypto voice), $3k mcap = pure early attention. High virality potential.
 
+## [2026-08-27 00:23 UTC] sell | [PARTIAL][LLM] $blindape at $1.369e-05 | P&L: +127.7%
+- **Reasoning:** $blindape +127% in 0.2h is a strong runner but parabolic moves mean reversion risk. Lock half profit, let the rest ride the narrative.
+
+## [2026-08-27 00:23 UTC] sell | [FULL][LLM] $1A at $6.526e-05 | P&L: +702.2%
+- **Reasoning:** $1A at +702% in 0.1h is parabolic — this is the top of the move. Take the win, don't watch it reverse to zero.
+
+## [2026-08-27 00:23 UTC] buy | [LLM] $meme at $1.8183e-05, spent 0.1 SOL
+- **Reasoning:** $meme is the meta-memecoin — 'just meme' is the purest attention play. Highest mcap of the new batch ($18k) and a real X post. Classic viral-launch setup, 0.1 SOL position.
+
