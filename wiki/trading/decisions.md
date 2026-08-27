@@ -2938,3 +2938,9 @@
 ## [2026-08-27 01:30 UTC] buy | [LLM] $🧲 at $6.17983e-06, spent 0.1 SOL
 - **Reasoning:** $🧲 MAGET — 'magnet for attention' framing with a dedicated X account (@magnet__fun) and tagline 'No coin will go unnoticed.' Self-aware meta-narrative plus real account = viral potential. 24% bond is solid.
 
+## [2026-08-27 01:31 UTC] sell | [FULL][LLM] $PUMP at $3.325e-06 | P&L: -48.7%
+- **Reasoning:** $PUMP at -48.7%, within 1.3% of the hard -50% cap. Selling now to avoid auto-close and preserve any remaining value for redeployment.
+
+## [2026-08-27 01:31 UTC] buy | [LLM] $higher at $3.04791e-06, spent 0.1 SOL
+- **Reasoning:** $higher — pure Elon Musk keyword token. Classic Musk-attention meta; even if he doesn't tweet, the search/attention around 'higher' is the signal. Small-cap viral attention play, risk is rug but upside is asymmetric if it catches.
+
