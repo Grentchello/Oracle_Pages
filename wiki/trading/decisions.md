@@ -5017,3 +5017,9 @@
 ## [2026-08-27 09:19 UTC] buy | [LLM] $internet at $3.64988e-06, spent 0.05 SOL
 - **Reasoning:** $internet has a verifiable X post attached and the 'internet coin' meta is a clear narrative that can run on attention alone. Sub-1min age, 0.05 SOL entry.
 
+## [2026-08-27 09:21 UTC] sell | [PARTIAL][LLM] $internet at $2.93613e-06 | P&L: -19.6%
+- **Reasoning:** $internet is -19.6% with 428% share of a $1 pool — effectively illiquid micro-cap, one tick from -30% hard stop. Cut the loss now, the position can't even be properly exited without crushing the curve further.
+
+## [2026-08-27 09:21 UTC] buy | [LLM] $Quake at $1.82653e-05, spent 0.05 SOL
+- **Reasoning:** Real narrative: created by Graeme Devine, an actual id Software Quake developer. Authentic creator + recognizable IP + Solana play-to-earn angle = strongest attention signal in this batch. $18k mcap at 0.4min age is the early-entry window. Risk: bond only 37%, still illiquid — size accordingly.
+

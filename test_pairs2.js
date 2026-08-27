@@ -10,7 +10,7 @@ const puppeteer = require('puppeteer-core');
     if (resp.status() >= 400) console.log(`HTTP ${resp.status()}: ${resp.url()}`);
   });
 
-  await page.goto('https://grentchello.github.io/Oracle_Pages/projects/trading-pairs/pairs-dashboard/?nocache=' + Date.now(), {waitUntil: 'networkidle2', timeout: 30000});
+  await page.goto('https://grentchello.github.io/Oracle_Pages/projects/trading-pairs/pairs-dashboard.html?nocache=' + Date.now(), {waitUntil: 'networkidle2', timeout: 30000});
   console.log('done');
   await browser.close();
 })();

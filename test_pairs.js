@@ -10,7 +10,7 @@ const puppeteer = require('puppeteer-core');
   page.on('pageerror', e => errors.push(e.message));
   page.on('console', msg => { if (msg.type() === 'error') errors.push(msg.text()); });
 
-  await page.goto('https://grentchello.github.io/Oracle_Pages/projects/trading-pairs/pairs-dashboard/?nocache=' + Date.now(), {waitUntil: 'networkidle2', timeout: 30000});
+  await page.goto('https://grentchello.github.io/Oracle_Pages/projects/trading-pairs/pairs-dashboard.html?nocache=' + Date.now(), {waitUntil: 'networkidle2', timeout: 30000});
 
   const result = await page.evaluate(() => {
     return {
