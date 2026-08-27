@@ -5527,3 +5527,6 @@
 ## [2026-08-27 10:15 UTC] buy | [LLM] $RAYPRICE at $5.5946e-06, spent 0.05 SOL
 - **Reasoning:** $RAYPRICE 'The Retarded Footballer' — sports meme narrative, sub-$6k mcap, bonding curve only 22% (3x room to migrate). Footballer memes trend hard during sports seasons. Fresh launch, decent narrative attention, but VERY thin liquidity ($2770 pool) — risk is rug-style dump. Position size 0.05 SOL keeps it tight.
 
+## [2026-08-27 10:16 UTC] sell | [TP +30% (25%)] $RAYPRICE at $7.32581e-06 | P&L: +30.9%
+- **Reasoning:** Auto take-profit at +30.9%
+
