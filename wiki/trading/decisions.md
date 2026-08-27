@@ -7456,3 +7456,9 @@
 ## [2026-08-27 14:14 UTC] sell | [FULL][LLM] $WTF at $1.54755e-06 | P&L: +22.0%
 - **Reasoning:** $WTF is up +22% on a $414 pool (thin, our share shows 0% — easy to slip). Rules say lock gains at >20% when there's any doubt. 12min held with no further TP threshold until +25%, and thin liquidity means a reversal to -10% is fast. Take the profit, free the slot.
 
+## [2026-08-27 14:17 UTC] buy | [LLM] $XIAO at $6.91514e-06, spent 0.05 SOL
+- **Reasoning:** $XIAO — 'The Loyal Dog' narrative with a real X account posting dog content (attention market). Fresh 0.2min launch at $6.9k mcap, highest bond completion (26%) of the batch signals organic buy pressure. Low mcap + dog meta + early entry is exactly the asymmetric setup.
+
+## [2026-08-27 14:17 UTC] buy | [LLM] $TACOCAT at $3.38793e-06, spent 0.05 SOL
+- **Reasoning:** $TACOCAT — palindrome meme with own X account, 'spell it backwards' is a sticky viral hook. 0.1min age, $3.4k mcap, minimal liquidity risk at entry. Pure attention-market play on a memorable concept.
+
