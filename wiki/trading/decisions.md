@@ -2551,3 +2551,18 @@
 ## [2026-08-27 00:43 UTC] sell | [PARTIAL][LLM] $Makeda at $2.156e-05 | P&L: +128.2%
 - **Reasoning:** $Makeda is +128% with 24h at +616% — taking half profit locks in gains on the biggest winner while letting the rest ride. Frees a slot for fresh entries.
 
+## [2026-08-27 00:45 UTC] sell | [FULL][LLM] $Makeda at $2.915e-06 | P&L: -69.2%
+- **Reasoning:** -69.1% breaches the -50% hard cap; should have been auto-closed. Cut immediately.
+
+## [2026-08-27 00:45 UTC] sell | [FULL][LLM] $Po at $8.461e-06 | P&L: -29.9%
+- **Reasoning:** -29.9% from entry in 12 minutes despite +148% 1h — momentum already fading vs my entry, free the slot.
+
+## [2026-08-27 00:45 UTC] sell | [FULL][LLM] $COTUS at $4.104e-06 | P&L: -34.4%
+- **Reasoning:** -34.3% in minutes, no narrative edge vs the new launches; free slot for better setups.
+
+## [2026-08-27 00:45 UTC] buy | [LLM] $MEME1921 at $3.82592e-06, spent 0.1 SOL
+- **Reasoning:** $MEME1921 — 'first meme' cultural-investigation hook with an X community link is a viral narrative; cheap sub-$4k mcap, asymmetric attention bet.
+
+## [2026-08-27 00:45 UTC] buy | [LLM] $HODL at $3.219e-06, spent 0.1 SOL
+- **Reasoning:** $HODL — cleanest ticker among the Bitcoin-tweet derivatives, rides Bitcoin's audience reach; small size, lottery-style attention play.
+
