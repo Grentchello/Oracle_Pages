@@ -4093,3 +4093,18 @@
 ## [2026-08-27 07:13 UTC] buy | [LLM] $cake at $7.11753e-06, spent 0.1 SOL
 - **Reasoning:** $cake deployed by Mario Prezidente via j7tracker.io — repeat deployer with proven track record. $7k mcap is highest in the batch, bond already 27% so real buy interest exists. Cake/chef narratives historically do well.
 
+## [2026-08-27 07:14 UTC] sell | [PARTIAL][LLM] $tripletung at $2.83024e-06 | P&L: -48.4%
+- **Reasoning:** -48.4% and 111% of a $1 pool — I'm the exit liquidity and we're 1.6% from the hard stop. Cut now, no bounce signal on a dead pool.
+
+## [2026-08-27 07:14 UTC] sell | [FULL][LLM] $cake at $3.57841e-06 | P&L: -49.7%
+- **Reasoning:** -49.7% — effectively at the hard stop. No reason to wait for the bot to auto-trigger, exit now to free the slot.
+
+## [2026-08-27 07:14 UTC] sell | [FULL][LLM] $$DONKEY at $3.04802e-06 | P&L: -3.4%
+- **Reasoning:** $116 pool with 8% share is a rug waiting to happen. -3.4% is small enough to exit clean and redeploy into fresher attention with real volume.
+
+## [2026-08-27 07:14 UTC] buy | [LLM] $XCU at $1.252e-05, spent 0.1 SOL
+- **Reasoning:** $XCU Copper — highest mcap of fresh launches ($22k), 39% bonded (closest to graduation), real X account signal. Best risk-adjusted entry of the batch.
+
+## [2026-08-27 07:14 UTC] buy | [LLM] $SP at $2.95553e-06, spent 0.1 SOL
+- **Reasoning:** $SP Single Parents — emotional community narrative often goes viral on CT, $3k mcap is bottom-of-barrel but the story angle has shareability. Small bet on narrative strength.
+
