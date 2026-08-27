@@ -5437,3 +5437,18 @@
 ## [2026-08-27 10:05 UTC] buy | [LLM] $Ape at $4.64772e-06, spent 0.05 SOL
 - **Reasoning:** $Ape 'Hypnosis' tied to RicherONG tweet — RicherONG has been a serial memecoin launcher with proven attention. $4.6k mcap at 0.1min age = ground floor, riding his call flow is a legit edge.
 
+## [2026-08-27 10:06 UTC] sell | [hard-stop] $Курсор closed at $5.26944e-06 | P&L: -35.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:06 UTC] sell | [TP +30% (25%)] $Ape at $6.47524e-06 | P&L: +39.3%
+- **Reasoning:** Auto take-profit at +39.3%
+
+## [2026-08-27 10:07 UTC] sell | [PARTIAL][LLM] $Ape at $6.47524e-06 | P&L: +39.3%
+- **Reasoning:** Up +39.3% in seconds, classic memecoin launch dynamics. Lock half the gain while letting the other half ride if it pumps further. Bot may auto-take-profit at +50% TP2; this preempts it and crystallizes profit on a thin pool where reversal is likely.
+
+## [2026-08-27 10:07 UTC] buy | [LLM] $FACE$LAP at $4.97736e-06, spent 0.05 SOL
+- **Reasoning:** NY Post tweet is a strong mainstream attention signal — rare for a $5k mcap microcap. Narrative around celebrity faces is viral-friendly. Risk: NY Post is paywalled and the desc is empty ('-'), so the link may be bait. Size small (0.05 SOL) given thin liquidity.
+
+## [2026-08-27 10:07 UTC] buy | [LLM] $BULLIO at $2.033e-05, spent 0.05 SOL
+- **Reasoning:** Highest mcap in the new batch ($22.6k) with a dedicated Twitter account (realbullio). 39% bonding curve progress means momentum is already building — fewer rug risk signals than 0% bonders. Story-driven launch, classic memecoin attention setup.
+
