@@ -3376,3 +3376,6 @@
 ## [2026-08-27 02:29 UTC] buy | [LLM] $Pirate Cat at $2.99649e-06, spent 0.1 SOL
 - **Reasoning:** $Pirate Cat has a real Reddit-viral story (surgery cat becoming pirate cat cult) — narrative-driven meme is exactly the attention signal that pumps. Low mcap $2,994 = high upside asymmetry.
 
+## [2026-08-27 02:31 UTC] sell | [FULL][LLM] $Pirate Cat at $2.827e-06 | P&L: -5.7%
+- **Reasoning:** Weakest position at -5.7% with 24h -17.2%, and a duplicate $Pirate Cat token just launched diluting attention. Free the slot for better setups.
+
