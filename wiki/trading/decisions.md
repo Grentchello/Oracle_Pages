@@ -5761,3 +5761,15 @@
 ## [2026-08-27 10:38 UTC] sell | [TP +30% (25%)] $COVID-26 at $2.25937e-05 | P&L: +89.0%
 - **Reasoning:** Auto take-profit at +88.9%
 
+## [2026-08-27 10:38 UTC] sell | [PARTIAL][LLM] $agent.md at $3.70815e-06 | P&L: +10.7%
+- **Reasoning:** At +10.7% with a weak $410 pool, the gain is positive but attention and liquidity are insufficient to justify full exposure. Lock profit while retaining half for momentum.
+
+## [2026-08-27 10:38 UTC] sell | [PARTIAL][LLM] $チョロ松 at $8.74335e-06 | P&L: +70.6%
+- **Reasoning:** The +70.6% move has already crossed the first major profit tier, but the $2,292 pool is shallow and the position is very new. Take half profit to reduce reversal risk.
+
+## [2026-08-27 10:38 UTC] sell | [PARTIAL][LLM] $COVID-26 at $2.25937e-05 | P&L: +89.0%
+- **Reasoning:** COVID-26 is up 88.9% in under six minutes with the strongest held pool at $5,571, indicating intense but highly volatile attention. Bank half while keeping exposure if the narrative continues.
+
+## [2026-08-27 10:38 UTC] sell | [FULL][LLM] $CJP at $2.97046e-06 | P&L: -24.6%
+- **Reasoning:** CJP is down 24.6% with only a $41 pool and no clear bounce signal, making it a severe liquidity and momentum risk. Exit rather than wait for a recovery.
+
