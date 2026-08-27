@@ -4909,3 +4909,9 @@
 ## [2026-08-27 09:04 UTC] buy | [LLM] $DORACZ at $3.11225e-06, spent 0.05 SOL
 - **Reasoning:** $DORACZ — CZ/Doraemon mashup is a memeable crossover with an evolving narrative arc (Homer → CZ). Cheap mcap, attention coin.
 
+## [2026-08-27 09:06 UTC] buy | [LLM] $mouse at $2.1051e-05, spent 0.05 SOL
+- **Reasoning:** $mouse (mouseandkeyboard) — highest mcap ($21k) of fresh launches with a real X account post, recognizable narrative meme. Bonding-curve only 39% so plenty of room.
+
+## [2026-08-27 09:06 UTC] buy | [LLM] $shockedcat at $7.03606e-06, spent 0.05 SOL
+- **Reasoning:** $shockedcat from mert (high-signal X account, $CAT meta adjacency) — even if cluster deploy, mert attention historically drives pumps. $7k mcap is asymmetric upside.
+
