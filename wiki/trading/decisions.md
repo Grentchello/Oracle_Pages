@@ -6922,3 +6922,15 @@
 ## [2026-08-27 12:59 UTC] buy | [LLM] $RHYS at $3.05703e-06, spent 0.05 SOL
 - **Reasoning:** $RHYS 'Saved By ChatGPT' — ChatGPT-attribution narrative is timely and the X author is the same one driving attention on the duplicate $Rhys launches. Bonding2%, mcap $3k, very early. Risk: liquidity thin and duplicate launches dilute attention, but asymmetric if one catches.
 
+## [2026-08-27 13:00 UTC] sell | [TP +30% (25%)] $RISE at $8.30685e-06 | P&L: +61.0%
+- **Reasoning:** Auto take-profit at +61.0%
+
+## [2026-08-27 13:01 UTC] sell | [FULL][LLM] $RHYS at $2.95558e-06 | P&L: -3.3%
+- **Reasoning:** $RHYS is at -3.3% with only $20 pool liquidity and we own 25% of it. We are the exit liquidity. Cut the loss now before the -30% hard stop hits on illiquid bag.
+
+## [2026-08-27 13:01 UTC] sell | [PARTIAL][LLM] $RISE at $8.30685e-06 | P&L: +61.0%
+- **Reasoning:** $RISE at +61% has crossed the +50% auto-TP threshold. Lock half the gain, let the other half ride the bonding curve. Already past the point of hope — this is realized profit-taking.
+
+## [2026-08-27 13:01 UTC] buy | [LLM] $PENNY at $9.32677e-06, spent 0.05 SOL
+- **Reasoning:** $PENNY lead mint at $9.4k mcap / 31% bonded — viral Cincinnati Zoo 'Penny the penguin' tweet is real attention. Highest bonding curve progress in cluster signals organic buy pressure, not just snipers. 0.05 SOL — asymmetric upside on a clear narrative, risk capped at -30%.
+

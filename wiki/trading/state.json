@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.85154,
+  "balance_sol": 0.859372,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "3M2XczYGATTGrCguXLew5vHUvMDsZoRpTKZBRgwPpump": {
       "symbol": "RISE",
       "name": "RISE",
-      "amount": 189857.2219700895,
+      "amount": 71196.45823878357,
       "entry_price_usd": 5.160127646628802e-06,
-      "entry_sol_spent": 0.009375000000000001,
+      "entry_sol_spent": 0.0035156250000000005,
       "entry_time": "2026-08-27T12:56:55.806910+00:00",
       "entry_usd_value": 5.2250000000000005,
       "entry_signals": {
@@ -25,24 +25,24 @@
       },
       "llm_entry": true
     },
-    "9inDkxYr2tgZAwcAyLeyUeJiCvzU6NCp9J1tRGPnRUu": {
-      "symbol": "RHYS",
-      "name": "Saved By ChatGPT",
-      "amount": 1708684.2934280874,
-      "entry_price_usd": 3.057030500069871e-06,
+    "2tpJN4Dsyp7sLeYfLnu72ayAHFHnjtWBLeDCsji7pump": {
+      "symbol": "PENNY",
+      "name": "Penny",
+      "amount": 559518.2923648504,
+      "entry_price_usd": 9.326772817281054e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T12:59:52.378714+00:00",
-      "entry_usd_value": 5.2235000000000005,
+      "entry_time": "2026-08-27T13:01:08.899343+00:00",
+      "entry_usd_value": 5.218500000000001,
       "entry_signals": {
-        "liquidity_usd": 82.48132217882,
+        "liquidity_usd": 715.81886938422,
         "volume_24h_usd": null,
-        "market_cap_usd": 3068.6135763134043,
-        "ath_market_cap_usd": 4600.697392484968,
+        "market_cap_usd": 9378.849671761594,
+        "ath_market_cap_usd": 14476.852410440668,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.789521606,
+        "real_sol_reserves": 6.858473406,
         "description": "",
-        "twitter": "https://x.com/prottlegang11/status/2092960000712786185",
+        "twitter": "https://twitter.com/CincinnatiZoo/status/2092960431795040274",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -18748,37 +18748,64 @@
       "pnl_pct": -20.88,
       "exit_reason": "LLM: sell_all — Down -20.9% on a $227 pool token held 0h — illiquid, no bounce signal, below my 5x liquidity rule. -20% becomes -50% fast. Cut and rotate.",
       "partial": false
+    },
+    {
+      "mint": "3M2XczYGATTGrCguXLew5vHUvMDsZoRpTKZBRgwPpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 47464.30549252238,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T12:56:55.806910+00:00",
+      "exit_time": "2026-08-27T13:00:47.897417+00:00",
+      "entry_price_usd": 5.160127646628802e-06,
+      "exit_price_usd": 8.306848421314989e-06,
+      "entry_sol_for_chunk": 0.002344,
+      "exit_sol_received": 0.003778,
+      "pnl_sol": 0.001434,
+      "pnl_pct": 60.98,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "9inDkxYr2tgZAwcAyLeyUeJiCvzU6NCp9J1tRGPnRUu",
+      "symbol": "RHYS",
+      "name": "Saved By ChatGPT",
+      "amount_sold": 1708684.2934280874,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T12:59:52.378714+00:00",
+      "exit_time": "2026-08-27T13:01:08.587856+00:00",
+      "entry_price_usd": 3.057030500069871e-06,
+      "exit_price_usd": 2.9555823473128742e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.048387,
+      "pnl_sol": -0.001613,
+      "pnl_pct": -3.32,
+      "exit_reason": "LLM: sell_all — $RHYS is at -3.3% with only $20 pool liquidity and we own 25% of it. We are the exit liquidity. Cut the loss now before the -30% hard stop hits on ill",
+      "partial": false
+    },
+    {
+      "mint": "3M2XczYGATTGrCguXLew5vHUvMDsZoRpTKZBRgwPpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 71196.45823878357,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T12:56:55.806910+00:00",
+      "exit_time": "2026-08-27T13:01:08.588130+00:00",
+      "entry_price_usd": 5.160127646628802e-06,
+      "exit_price_usd": 8.306848421314989e-06,
+      "entry_sol_for_chunk": 0.003516,
+      "exit_sol_received": 0.005667,
+      "pnl_sol": 0.002151,
+      "pnl_pct": 60.98,
+      "exit_reason": "LLM: sell_half — $RISE at +61% has crossed the +50% auto-TP threshold. Lock half the gain, let the other half ride the bonding curve. Already past the point of hope — ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T12:59:52.378981+00:00",
+  "last_updated": "2026-08-27T13:01:08.899730+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.47,
-  "portfolio_value_usd": 95.16,
+  "last_sol_price_usd": 104.37,
+  "portfolio_value_usd": 95.28,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 12:56 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $mofo closed at $2.92171e-06 | P&L: -70.1%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-08-27 12:56 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $HolyBull at $2.71726e-05 | P&L: +87.3%",
-      "reason": "Auto take-profit at +87.3%"
-    },
-    {
-      "time": "2026-08-27 12:56 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $FRIENDS at $1.56618e-05 | P&L: +0.9%",
-      "reason": "FRIENDS is flat (+0.9%) after 6 minutes, pool only $4.1k, no momentum. Stale risk + tiny liquidity = exit and free the slot for fresh launches with real narrative."
-    },
-    {
-      "time": "2026-08-27 12:56 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $HolyBull at $2.71726e-05 | P&L: +87.3%",
-      "reason": "HolyBull is +87% — already past the +50% TP zone and the rules say lock gains when in doubt. Memecoin green candles fade fast; -30% rule can wipe this in minutes. Bank it."
-    },
     {
       "time": "2026-08-27 12:56 UTC",
       "action": "buy",
@@ -18874,51 +18901,75 @@
       "action": "buy",
       "details": "[LLM] $RHYS at $3.05703e-06, spent 0.05 SOL",
       "reason": "$RHYS 'Saved By ChatGPT' — ChatGPT-attribution narrative is timely and the X author is the same one driving attention on the duplicate $Rhys launches. Bonding2%, mcap $3k, very early. Risk: liquidity thin and duplicate launches dilute attention, but asymmetric if one catches."
+    },
+    {
+      "time": "2026-08-27 13:00 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $RISE at $8.30685e-06 | P&L: +61.0%",
+      "reason": "Auto take-profit at +61.0%"
+    },
+    {
+      "time": "2026-08-27 13:01 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RHYS at $2.95558e-06 | P&L: -3.3%",
+      "reason": "$RHYS is at -3.3% with only $20 pool liquidity and we own 25% of it. We are the exit liquidity. Cut the loss now before the -30% hard stop hits on illiquid bag."
+    },
+    {
+      "time": "2026-08-27 13:01 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RISE at $8.30685e-06 | P&L: +61.0%",
+      "reason": "$RISE at +61% has crossed the +50% auto-TP threshold. Lock half the gain, let the other half ride the bonding curve. Already past the point of hope — this is realized profit-taking."
+    },
+    {
+      "time": "2026-08-27 13:01 UTC",
+      "action": "buy",
+      "details": "[LLM] $PENNY at $9.32677e-06, spent 0.05 SOL",
+      "reason": "$PENNY lead mint at $9.4k mcap / 31% bonded — viral Cincinnati Zoo 'Penny the penguin' tweet is real attention. Highest bonding curve progress in cluster signals organic buy pressure, not just snipers. 0.05 SOL — asymmetric upside on a clear narrative, risk capped at -30%."
     }
   ],
   "trade_stats": {
-    "total": 1100,
-    "wins": 579,
-    "losses": 521,
-    "win_rate_pct": 52.6,
-    "total_pnl_sol": -0.989074,
-    "avg_pnl_pct": 44.59,
+    "total": 1103,
+    "wins": 581,
+    "losses": 522,
+    "win_rate_pct": 52.7,
+    "total_pnl_sol": -0.987102,
+    "avg_pnl_pct": 44.57,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 559,
-    "today_realized_sol": 0.443155,
-    "today_target_pct": 110.8,
+    "today_trades": 562,
+    "today_realized_sol": 0.445127,
+    "today_target_pct": 111.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 579,
-      "loss_count": 521,
+      "win_count": 581,
+      "loss_count": 522,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T12:59:52.094085+00:00",
+  "last_llm_brief_at": "2026-08-27T13:01:08.587817+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "3M2XczYGATTGrCguXLew5vHUvMDsZoRpTKZBRgwPpump": {
-      "price_usd": 7.274964739668623e-06,
+      "price_usd": 8.306848421314989e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1812.10067197747,
-      "volume_h24": 1584.01,
+      "liquidity_usd": 2151.7280246097303,
+      "volume_h24": 2101.59,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 17.345655901
+      "real_sol_reserves": 20.616345929
     },
-    "AjRMbBWBBNc5VZDGa33j3sRQDDhmyBV8bHQB7GWUpump": {
-      "price_usd": 3.3597208115374445e-06,
+    "9inDkxYr2tgZAwcAyLeyUeJiCvzU6NCp9J1tRGPnRUu": {
+      "price_usd": 2.9555823473128742e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 227.20469412991,
-      "volume_h24": 16181.33,
+      "liquidity_usd": 20.055697973850002,
+      "volume_h24": 2673.72,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.174831953
+      "real_sol_reserves": 0.192159605
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
