@@ -3166,3 +3166,18 @@
 ## [2026-08-27 02:04 UTC] buy | [LLM] $DL at $3.429e-06, spent 0.1 SOL
 - **Reasoning:** $DL (Doing Life) launched by @nukidoya — a known X crypto account providing distribution. Below $3k mcap = very early, asymmetric upside.
 
+## [2026-08-27 02:04 UTC] sell | [PARTIAL][LLM] $roof at $6.458e-05 | P&L: +64.4%
+- **Reasoning:** $roof is +64% in 0.1h with 24h up 53% — momentum intact but take half profit to lock in gains and let the rest ride on a thin position.
+
+## [2026-08-27 02:04 UTC] sell | [FULL][LLM] $Kamaboko at $3.038e-06 | P&L: -58.3%
+- **Reasoning:** $Kamaboko is at -58.3%, hard cap is -50% — must close. Cut the loss and free the slot.
+
+## [2026-08-27 02:04 UTC] buy | [LLM] $BURPCOIN at $6.3851e-06, spent 0.1 SOL
+- **Reasoning:** $BURPCOIN — 'Decentralized AI after Claude Mythos ban' is a current-events narrative with a built-in audience. Story + recency = attention. 0.1 SOL.
+
+## [2026-08-27 02:04 UTC] buy | [LLM] $CIRCUS at $6.6244e-06, spent 0.1 SOL
+- **Reasoning:** $CIRCUS (Flea Circus) — absurd, memeable name; tiny $6.6k mcap with viral-tilt branding. Pure attention play at the bottom. 0.1 SOL.
+
+## [2026-08-27 02:04 UTC] buy | [LLM] $LILY at $3.43577e-06, spent 0.1 SOL
+- **Reasoning:** $LILY (The Collective Leader) — launched on discord.gg/uxento (pump.fun incubator with built-in shill base), fresh, sub-$4k mcap. 0.1 SOL.
+
