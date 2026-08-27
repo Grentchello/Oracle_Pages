@@ -203,3 +203,17 @@
   - Hard-coded Python interpreter path in runner caused crash → switched to sys.executable with absolute path
 - Files: bot/trading_pairs_bot.py, bot/runner_pairs.py, wiki/projects/trading-pairs/index.md, wiki/projects/trading-pairs/pairs-dashboard.html
 - Dashboard live: https://grentchello.github.io/Oracle_Pages/projects/trading-pairs/pairs-dashboard.html
+
+## [2026-08-27] update | Sparklines + LLM price history (v8)
+- Grant: "Is Lily stale?" — checked: +74% in 1.3h, pool $4533, NOT stale
+- Full mint: `55Ufpo4bpfUksyLtvwAtJPJy4djDayqg65kgKSknpump` (pump.fun format)
+- Grant also asked for 1-second graph of every token + LLM uses chart in decisions
+- Implementation:
+  - Created `bot/sparkline_collector.py` — polls pump.fun REST API every 60s for all held positions + watchlist mints, stores bucketed price history (60s buckets, 60-min retention) to `wiki/trading/sparklines.json`
+  - Found that pumpportal WS now requires API key (0.02 SOL). DexScreener WS also requires auth. Only free option: pump.fun REST polling
+  - Bot reads sparklines, adds `price_history_30m` (10-point compressed) to LLM prompt for each held position
+  - Dashboard adds SVG sparkline render to renderHoldings + renderWatchlist (60×18 px inline SVG, color-coded by trend)
+  - CSS for `.sparkline-cell` added to dashboard.css
+- Verified: LLM exit decision for $RISE cited "history shows price already flatlined at $0.000000065x after an initial pop" — LLM is using the data
+- Files: bot/sparkline_collector.py, bot/bot.py, wiki/trading/index.html, wiki/trading/assets/dashboard.css, wiki/trading/sparklines.json
+- Limitation: pump.fun tokens open/close fast, most positions never accumulate 2+ buckets. Visual sparkline only renders for positions held 60+ seconds. LLM history works whenever there's 2+ data points.
