@@ -1,48 +1,26 @@
 {
-  "balance_sol": 0.51042,
+  "balance_sol": 0.549118,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "GJhUB3JB4diJjCymsZcc8tREhM27z65vaYN6Aqyjpump": {
-      "symbol": "BUKELE",
-      "name": "Official Bukele Coin",
-      "amount": 1314439.4614231847,
-      "entry_price_usd": 7.703664031081556e-06,
+    "4Ts5G4x4YsaijLaKrRePv392gSfxAab7R9puqrEYpump": {
+      "symbol": "CUTE",
+      "name": "Cute Spongebob",
+      "amount": 1358361.3009263861,
+      "entry_price_usd": 7.447208627852552e-06,
       "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T07:19:20.164103+00:00",
-      "entry_usd_value": 10.126000000000001,
+      "entry_time": "2026-08-27T07:20:56.288048+00:00",
+      "entry_usd_value": 10.116,
       "entry_signals": {
-        "liquidity_usd": 481.28901613832005,
+        "liquidity_usd": 1321.5471835842,
         "volume_24h_usd": null,
-        "market_cap_usd": 7677.245616193357,
-        "ath_market_cap_usd": 7707.030485094744,
+        "market_cap_usd": 7456.58794143702,
+        "ath_market_cap_usd": 8608.525972330852,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 4.753002332,
+        "real_sol_reserves": 13.063930245,
         "description": "",
-        "twitter": "https://x.com/krelixcooks/status/2092874266316263487?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "2sW87YodUUp8msi38b6eWn4ohdKZsUjRBBHDFd9rpump": {
-      "symbol": "IPR",
-      "name": "Infinite Pump Rewards",
-      "amount": 3339539.602376548,
-      "entry_price_usd": 3.032154490036273e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T07:19:20.455884+00:00",
-      "entry_usd_value": 10.126000000000001,
-      "entry_signals": {
-        "liquidity_usd": 102.17964818048,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3021.756228248155,
-        "ath_market_cap_usd": 3070.1902191853496,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.009082048,
-        "description": "Every 30 seconds, the bot distributes $PUMP to all holders using 100% of creator rewards.",
-        "twitter": "https://x.com/a1lon9_builds/status/2092874156110995501",
+        "twitter": "https://x.com/kiryusol/status/2092874615819297198",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -9075,31 +9053,47 @@
       "pnl_pct": -24.25,
       "exit_reason": "LLM: sell_all — -24% with no bounce signal and pool only $167 — losers exit fast per rules.",
       "partial": false
+    },
+    {
+      "mint": "GJhUB3JB4diJjCymsZcc8tREhM27z65vaYN6Aqyjpump",
+      "symbol": "BUKELE",
+      "name": "Official Bukele Coin",
+      "amount_sold": 1314439.4614231847,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T07:19:20.164103+00:00",
+      "exit_time": "2026-08-27T07:20:55.991557+00:00",
+      "entry_price_usd": 7.703664031081556e-06,
+      "exit_price_usd": 3.0012555001692667e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.038997,
+      "pnl_sol": -0.061003,
+      "pnl_pct": -61.04,
+      "exit_reason": "LLM: sell_all — Position is at -61%, well past the -50% hard stop. Should have been auto-stopped; exiting immediately to free slot and stop further bleed.",
+      "partial": false
+    },
+    {
+      "mint": "2sW87YodUUp8msi38b6eWn4ohdKZsUjRBBHDFd9rpump",
+      "symbol": "IPR",
+      "name": "Infinite Pump Rewards",
+      "amount_sold": 3339539.602376548,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T07:19:20.455884+00:00",
+      "exit_time": "2026-08-27T07:20:55.991865+00:00",
+      "entry_price_usd": 3.032154490036273e-06,
+      "exit_price_usd": 3.0200889430795698e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.099701,
+      "pnl_sol": -0.000299,
+      "pnl_pct": -0.4,
+      "exit_reason": "LLM: sell_all — Flat at -0.4% after entering, $101 pool barely covers a 0.1 SOL position. No momentum, stale on arrival. Exiting to free capital for fresh attention.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T07:19:20.456131+00:00",
+  "last_updated": "2026-08-27T07:20:56.288468+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.26,
-  "portfolio_value_usd": 71.94,
+  "last_sol_price_usd": 101.16,
+  "portfolio_value_usd": 65.66,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 07:16 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $XCU at $8.19868e-06 | P&L: -34.5%",
-      "reason": "$XCU down -34.5% in minutes with 0% share and thin $2132 pool — no bounce signal, this is going to -50% hard stop. Exit before the bot does."
-    },
-    {
-      "time": "2026-08-27 07:16 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SP at $2.95001e-06 | P&L: -0.2%",
-      "reason": "$SP flat at -0.2% on $63 pool, our 16% share means we'd move price selling — but the position is dead and stale. Just clear it and free a slot for fresh launches."
-    },
-    {
-      "time": "2026-08-27 07:16 UTC",
-      "action": "buy",
-      "details": "[LLM] $NLD at $4.69426e-06, spent 0.1 SOL",
-      "reason": "$NLD 'The First Ever Memecoin' with viral twitter attention at $4.6k mcap, 0.1min old — absurd narrative ('first irrational bank of NL') is the exact meme-attention flavor that 50-300x in hour one."
-    },
     {
       "time": "2026-08-27 07:16 UTC",
       "action": "buy",
@@ -9201,84 +9195,69 @@
       "action": "buy",
       "details": "[LLM] $IPR at $3.03215e-06, spent 0.1 SOL",
       "reason": "$IPR 'Infinite Pump Rewards' — novel mechanism: every 30s bot distributes $PUMP to holders from creator rewards. Passive-yield hook creates holder retention and viral narrative. mcap $3k, asymmetric."
+    },
+    {
+      "time": "2026-08-27 07:20 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BUKELE at $3.00126e-06 | P&L: -61.0%",
+      "reason": "Position is at -61%, well past the -50% hard stop. Should have been auto-stopped; exiting immediately to free slot and stop further bleed."
+    },
+    {
+      "time": "2026-08-27 07:20 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $IPR at $3.02009e-06 | P&L: -0.4%",
+      "reason": "Flat at -0.4% after entering, $101 pool barely covers a 0.1 SOL position. No momentum, stale on arrival. Exiting to free capital for fresh attention."
+    },
+    {
+      "time": "2026-08-27 07:20 UTC",
+      "action": "buy",
+      "details": "[LLM] $CUTE at $7.44721e-06, spent 0.1 SOL",
+      "reason": "$CUTE — Spongebob meme has proven viral DNA, kiryusol is a real attention account, $7.4k mcap is early enough for upside. Bond 28% is healthy. One of the few launches with a coherent narrative rather than deployer spam."
     }
   ],
   "trade_stats": {
-    "total": 531,
+    "total": 533,
     "wins": 244,
-    "losses": 287,
-    "win_rate_pct": 46.0,
-    "total_pnl_sol": -1.189571,
-    "avg_pnl_pct": 58.96,
+    "losses": 289,
+    "win_rate_pct": 45.8,
+    "total_pnl_sol": -1.250873,
+    "avg_pnl_pct": 58.62,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 22,
-    "today_realized_sol": -0.204114,
-    "today_target_pct": -51.0,
+    "today_trades": 24,
+    "today_realized_sol": -0.265416,
+    "today_target_pct": -66.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 244,
-      "loss_count": 287,
+      "loss_count": 289,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T07:19:19.878182+00:00",
+  "last_llm_brief_at": "2026-08-27T07:20:55.991514+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "BbBDK6n7uWTYAWJMew7hLgRNZeFEWuLJN6Vt3b2cpump": {
-      "price_usd": 9.58473745073474e-06,
+    "GJhUB3JB4diJjCymsZcc8tREhM27z65vaYN6Aqyjpump": {
+      "price_usd": 3.0012555001692667e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2551.6562485440004,
-      "volume_h24": 12806.43,
+      "liquidity_usd": 91.39729917563999,
+      "volume_h24": 10834.21,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 25.1990544
+      "real_sol_reserves": 0.903492479
     },
-    "CCvnAuWaTdChrzAwotXqwWiTjKbvonaw7ouRyfZwpump": {
-      "price_usd": 4.306459770580501e-06,
+    "2sW87YodUUp8msi38b6eWn4ohdKZsUjRBBHDFd9rpump": {
+      "price_usd": 3.0200889430795698e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 708.8200004050401,
-      "volume_h24": 985.67,
+      "liquidity_usd": 101.19069477648,
+      "volume_h24": 151.97,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 7.000000004
-    },
-    "mGUcNYRe2C9ZsVR3DWUoxGTT1AsBQyN9e9K38vJpump": {
-      "price_usd": 9.080334544446676e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2402.59427853052,
-      "volume_h24": 9216.31,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 23.726982802
-    },
-    "5PrFrMgrX53e5tMEE1wRziKjcBvugnneR46gbdoZpump": {
-      "price_usd": 3.0023821796668687e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 90.52911670684001,
-      "volume_h24": 6581.67,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.894026434
-    },
-    "AsTkvF28dj6HfFrhqmFRhpAzAbxV7tA34iYAtwDPpump": {
-      "price_usd": 3.151891224361635e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 167.47326553096002,
-      "volume_h24": 13414.69,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.653893596
+      "real_sol_reserves": 1.000303428
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

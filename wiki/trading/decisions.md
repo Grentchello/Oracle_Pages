@@ -4171,3 +4171,12 @@
 ## [2026-08-27 07:19 UTC] buy | [LLM] $IPR at $3.03215e-06, spent 0.1 SOL
 - **Reasoning:** $IPR 'Infinite Pump Rewards' — novel mechanism: every 30s bot distributes $PUMP to holders from creator rewards. Passive-yield hook creates holder retention and viral narrative. mcap $3k, asymmetric.
 
+## [2026-08-27 07:20 UTC] sell | [FULL][LLM] $BUKELE at $3.00126e-06 | P&L: -61.0%
+- **Reasoning:** Position is at -61%, well past the -50% hard stop. Should have been auto-stopped; exiting immediately to free slot and stop further bleed.
+
+## [2026-08-27 07:20 UTC] sell | [FULL][LLM] $IPR at $3.02009e-06 | P&L: -0.4%
+- **Reasoning:** Flat at -0.4% after entering, $101 pool barely covers a 0.1 SOL position. No momentum, stale on arrival. Exiting to free capital for fresh attention.
+
+## [2026-08-27 07:20 UTC] buy | [LLM] $CUTE at $7.44721e-06, spent 0.1 SOL
+- **Reasoning:** $CUTE — Spongebob meme has proven viral DNA, kiryusol is a real attention account, $7.4k mcap is early enough for upside. Bond 28% is healthy. One of the few launches with a coherent narrative rather than deployer spam.
+
