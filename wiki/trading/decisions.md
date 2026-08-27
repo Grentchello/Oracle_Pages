@@ -2578,3 +2578,12 @@
 ## [2026-08-27 00:46 UTC] buy | [LLM] $CHAMELEON at $4.45249e-06, spent 0.1 SOL
 - **Reasoning:** $CHAMELEON — 'Chameleon of Undying Devotion' is a strong emotional/viral phrase. Phantom-attached tweet at launch is a legitimacy signal. Memeability is good.
 
+## [2026-08-27 00:47 UTC] sell | [FULL][LLM] $MUSK at $2.949e-06 | P&L: -35.7%
+- **Reasoning:** Down 35.7% on a generic $MUSK name with no unique narrative and 1h -2.1% showing no bounce — freeing slot + SOL for stronger setups.
+
+## [2026-08-27 00:47 UTC] sell | [FULL][LLM] $CHAMELEON at $2.897e-06 | P&L: -34.9%
+- **Reasoning:** Down 34.9%, 1h -24.6% and falling — no narrative edge, near -50% cap, cut and redeploy.
+
+## [2026-08-27 00:47 UTC] buy | [LLM] $DEI6900 at $9.47159e-06, spent 0.1 SOL
+- **Reasoning:** EricBalchunas (Bloomberg ETF analyst, real verified account) tweet about 'degenerate economy' + Howard Lindzon going viral. Multiple copycats spawned within minutes confirming attention. Strongest narrative of the tick.
+
