@@ -4564,3 +4564,12 @@
 ## [2026-08-27 08:26 UTC] buy | [LLM] $ATF at $6.87515e-06, spent 0.1 SOL
 - **Reasoning:** $ATF (AI TRADING FOREX) — strongest attention signal of the fresh batch: AI + Forex sits at the intersection of two hot metas, 26% bonding progress is 2-3x any peer (real traction, not just noise), $6.9k mcap is room to run, and it has a live X account. Best risk/reward of the slot.
 
+## [2026-08-27 08:28 UTC] sell | [TP +100% (75%)] $sigma at $8.43067e-06 | P&L: +164.3%
+- **Reasoning:** Auto take-profit at +164.3%
+
+## [2026-08-27 08:28 UTC] sell | [PARTIAL][LLM] $sigma at $8.43067e-06 | P&L: +164.3%
+- **Reasoning:** $sigma at +164% — well past +100% TP threshold. Lock half the gain, let the rest ride if narrative continues.
+
+## [2026-08-27 08:28 UTC] sell | [PARTIAL][LLM] $SUMMER at $2.90537e-06 | P&L: -1.4%
+- **Reasoning:** $SUMMER at -1.3% with 0.2h held, 476% pool share = illiquid and flat. No momentum, stale, free the slot.
+

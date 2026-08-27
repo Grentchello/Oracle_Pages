@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.225005,
+  "balance_sol": 1.251727,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -17,9 +17,9 @@
     "7WN4BmzxFpFoYQYC74DEVyTFT57vZZUp2KT6huKgpump": {
       "symbol": "SUMMER",
       "name": "SOLANA SUMMER",
-      "amount": 872665.5348047538,
+      "amount": 45856.97852504501,
       "entry_price_usd": 2.945e-06,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0013137042972398594,
       "entry_time": "2026-08-27T08:18:34.597366+00:00",
       "entry_usd_value": 10.280000000000001,
       "entry_signals": {
@@ -39,9 +39,9 @@
     "DPqp3TNztkyf29htAHgXspk6ozupwG9YnkNVhUGYpump": {
       "symbol": "sigma",
       "name": "SIGMA BOY b",
-      "amount": 50643.727596604906,
+      "amount": 6330.465949575613,
       "entry_price_usd": 3.189560833409681e-06,
-      "entry_sol_spent": 0.0015625,
+      "entry_sol_spent": 0.0001953125,
       "entry_time": "2026-08-27T08:22:59.728589+00:00",
       "entry_usd_value": 10.338000000000001,
       "entry_signals": {
@@ -10575,31 +10575,64 @@
       "pnl_pct": 163.56,
       "exit_reason": "LLM: sell_half — $sigma is +163.6% — screaming take-profit per scalp rules. Pool=$0 and 822M% share are clearly broken data fields, so this is a defensive half-exit: i",
       "partial": true
+    },
+    {
+      "mint": "DPqp3TNztkyf29htAHgXspk6ozupwG9YnkNVhUGYpump",
+      "symbol": "sigma",
+      "name": "SIGMA BOY b",
+      "amount_sold": 37982.79569745368,
+      "fraction_sold": 0.75,
+      "entry_time": "2026-08-27T08:22:59.728589+00:00",
+      "exit_time": "2026-08-27T08:28:03.390574+00:00",
+      "entry_price_usd": 3.189560833409681e-06,
+      "exit_price_usd": 8.430671953082244e-06,
+      "entry_sol_for_chunk": 0.001172,
+      "exit_sol_received": 0.003083,
+      "pnl_sol": 0.001911,
+      "pnl_pct": 164.32,
+      "exit_reason": "auto-TP +100% (75%)",
+      "partial": true
+    },
+    {
+      "mint": "DPqp3TNztkyf29htAHgXspk6ozupwG9YnkNVhUGYpump",
+      "symbol": "sigma",
+      "name": "SIGMA BOY b",
+      "amount_sold": 6330.465949575613,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T08:22:59.728589+00:00",
+      "exit_time": "2026-08-27T08:28:28.474111+00:00",
+      "entry_price_usd": 3.189560833409681e-06,
+      "exit_price_usd": 8.430671953082244e-06,
+      "entry_sol_for_chunk": 0.000195,
+      "exit_sol_received": 0.000514,
+      "pnl_sol": 0.000318,
+      "pnl_pct": 164.32,
+      "exit_reason": "LLM: sell_half — $sigma at +164% — well past +100% TP threshold. Lock half the gain, let the rest ride if narrative continues.",
+      "partial": true
+    },
+    {
+      "mint": "7WN4BmzxFpFoYQYC74DEVyTFT57vZZUp2KT6huKgpump",
+      "symbol": "SUMMER",
+      "name": "SOLANA SUMMER",
+      "amount_sold": 826808.5562797089,
+      "fraction_sold": 0.9474518281104056,
+      "entry_time": "2026-08-27T08:18:34.597366+00:00",
+      "exit_time": "2026-08-27T08:28:28.474341+00:00",
+      "entry_price_usd": 2.945e-06,
+      "exit_price_usd": 2.9053736610063627e-06,
+      "entry_sol_for_chunk": 0.023686,
+      "exit_sol_received": 0.023125,
+      "pnl_sol": -0.000562,
+      "pnl_pct": -1.35,
+      "exit_reason": "LLM: sell_all — $SUMMER at -1.3% with 0.2h held, 476% pool share = illiquid and flat. No momentum, stale, free the slot.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T08:26:58.313589+00:00",
+  "last_updated": "2026-08-27T08:28:28.474471+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.58,
-  "portfolio_value_usd": 160.35,
+  "last_sol_price_usd": 103.88,
+  "portfolio_value_usd": 160.92,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 08:18 UTC",
-      "action": "sell",
-      "details": "[TP +30% (half)] $RWDT at $1.48368e-05 | P&L: +61.2%",
-      "reason": "Auto take-profit at +61.2%"
-    },
-    {
-      "time": "2026-08-27 08:18 UTC",
-      "action": "sell",
-      "details": "[TP +100% (75%)] $birb at $1.65084e-05 | P&L: +117.8%",
-      "reason": "Auto take-profit at +117.8%"
-    },
-    {
-      "time": "2026-08-27 08:18 UTC",
-      "action": "sell",
-      "details": "[TP +100% (75%)] $Thank at $2.09361e-05 | P&L: +230.4%",
-      "reason": "Auto take-profit at +230.4%"
-    },
     {
       "time": "2026-08-27 08:18 UTC",
       "action": "sell",
@@ -10701,28 +10734,46 @@
       "action": "buy",
       "details": "[LLM] $ATF at $6.87515e-06, spent 0.1 SOL",
       "reason": "$ATF (AI TRADING FOREX) — strongest attention signal of the fresh batch: AI + Forex sits at the intersection of two hot metas, 26% bonding progress is 2-3x any peer (real traction, not just noise), $6.9k mcap is room to run, and it has a live X account. Best risk/reward of the slot."
+    },
+    {
+      "time": "2026-08-27 08:28 UTC",
+      "action": "sell",
+      "details": "[TP +100% (75%)] $sigma at $8.43067e-06 | P&L: +164.3%",
+      "reason": "Auto take-profit at +164.3%"
+    },
+    {
+      "time": "2026-08-27 08:28 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $sigma at $8.43067e-06 | P&L: +164.3%",
+      "reason": "$sigma at +164% — well past +100% TP threshold. Lock half the gain, let the rest ride if narrative continues."
+    },
+    {
+      "time": "2026-08-27 08:28 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $SUMMER at $2.90537e-06 | P&L: -1.4%",
+      "reason": "$SUMMER at -1.3% with 0.2h held, 476% pool share = illiquid and flat. No momentum, stale, free the slot."
     }
   ],
   "trade_stats": {
-    "total": 616,
-    "wins": 303,
-    "losses": 313,
-    "win_rate_pct": 49.2,
-    "total_pnl_sol": -0.448423,
-    "avg_pnl_pct": 57.11,
+    "total": 619,
+    "wins": 305,
+    "losses": 314,
+    "win_rate_pct": 49.3,
+    "total_pnl_sol": -0.446756,
+    "avg_pnl_pct": 57.36,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 75,
-    "today_realized_sol": 0.983806,
-    "today_target_pct": 246.0,
+    "today_trades": 78,
+    "today_realized_sol": 0.985473,
+    "today_target_pct": 246.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 303,
-      "loss_count": 313,
+      "win_count": 305,
+      "loss_count": 314,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T08:26:58.004843+00:00",
+  "last_llm_brief_at": "2026-08-27T08:28:28.473951+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FAKE_HARDSTOP_MINT_pump": {
@@ -10737,21 +10788,21 @@
       "real_sol_reserves": 0
     },
     "7WN4BmzxFpFoYQYC74DEVyTFT57vZZUp2KT6huKgpump": {
-      "price_usd": 2.999593719566412e-06,
+      "price_usd": 2.9053736610063627e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 55.09363365654,
+      "liquidity_usd": 0.53292663032,
       "volume_h24": 7705.11,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.531894513
+      "real_sol_reserves": 0.005130214
     },
     "DPqp3TNztkyf29htAHgXspk6ozupwG9YnkNVhUGYpump": {
-      "price_usd": 8.406324613980158e-06,
+      "price_usd": 8.430671953082244e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.0358e-07,
+      "liquidity_usd": 1.0388e-07,
       "volume_h24": 286.42,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
@@ -10759,15 +10810,26 @@
       "real_sol_reserves": 1e-09
     },
     "39VXpavn2shcpVk58zVNXyAHVVDZG2fHXZUwZFZMpump": {
-      "price_usd": 4.103113119657706e-06,
+      "price_usd": 4.950287000434391e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 591.3517801757,
-      "volume_h24": 2687.21,
+      "liquidity_usd": 952.16865207044,
+      "volume_h24": 2965.64,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 5.709130915
+      "real_sol_reserves": 9.166044013
+    },
+    "7S6Kjg1sChE5VmXvyk65PjUH9XessW8fhBKJkQk2pump": {
+      "price_usd": 6.183640347959816e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1430.8472637731998,
+      "volume_h24": 3010.71,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 13.77403989
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
