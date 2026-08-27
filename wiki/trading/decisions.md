@@ -7120,3 +7120,9 @@
 ## [2026-08-27 13:25 UTC] buy | [LLM] $OSCAR at $6.60674e-06, spent 0.05 SOL
 - **Reasoning:** OSCAR — fresh name tied to a personal X account (miriamfsilveira), $6.6k mcap with 25% bonding curve. Narrative tokens with a real human face tend to hold attention better than bots. Small bet on attention stickiness.
 
+## [2026-08-27 13:26 UTC] sell | [hard-stop] $A/I closed at $2.93547e-06 | P&L: -70.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:26 UTC] sell | [hard-stop] $OSCAR closed at $2.94477e-06 | P&L: -55.4%
+- **Reasoning:** Hard -30% stop
+
