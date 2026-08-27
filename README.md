@@ -91,3 +91,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- v6.1 stale -->
 
 <!-- trading pairs bot deploy -->
+
+<!-- trading pairs dashboard fix -->
