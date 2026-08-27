@@ -5995,3 +5995,9 @@
 ## [2026-08-27 11:03 UTC] sell | [FULL][LLM] $Alex at $1.10392e-05 | P&L: +27.7%
 - **Reasoning:** Up +27.7% but only 0.0h held and pool is tiny ($2959) with our share at 0% — this is a phantom P&L on an illiquid bonding-curve microcap. The bot's TP ladder starts at +25% so we're knocking on the door; rule says take profit when up >20% and doubt exists. Lock it.
 
+## [2026-08-27 11:04 UTC] buy | [LLM] $Pioneer at $1.06321e-05, spent 0.05 SOL
+- **Reasoning:** $Pioneer: top mcap ($10.6k) and bond progress (32%) of the fresh batch. j7tracker deployer narrative is currently rotating on CT — that's the meta-attention signal. Tight stop at -30%, scale out at +50%.
+
+## [2026-08-27 11:04 UTC] buy | [LLM] $PSYOP at $4.1754e-06, spent 0.05 SOL
+- **Reasoning:** $PSYOP: psyop is a recurring meta-narrative that historically pumps hard on pumpfun. Low mcap ($4.2k) so size risk is contained; small speculative add to the rotation play.
+
