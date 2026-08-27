@@ -7084,3 +7084,6 @@
 ## [2026-08-27 13:19 UTC] sell | [hard-stop] $MONEY closed at $2.92479e-06 | P&L: -52.9%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 13:19 UTC] sell | [FULL][LLM] $MVA-CR19 at $6.84397e-06 | P&L: -24.5%
+- **Reasoning:** Down -24.5% and approaching the -30% hard cap. Price has dropped steadily from entry, no bounce signal, 0% pool share means we'd be exit liquidity. Cutting the loss now before it hits auto-stop.
+

@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.651479,
+  "balance_sol": 0.712887,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "F4VbD9rebgLWYRDMHGkcHsTC7yYXGybtpj1Km9qHpump": {
-      "symbol": "MVA-CR19",
-      "name": "MVA-CR19",
-      "amount": 578002.8486905905,
-      "entry_price_usd": 9.061374025863455e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T13:18:19.418279+00:00",
-      "entry_usd_value": 5.237500000000001,
-      "entry_signals": {
-        "liquidity_usd": 777.88114475975,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9041.706304409916,
-        "ath_market_cap_usd": 14467.943609977865,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 7.426072981,
-        "description": "",
-        "twitter": "https://x.com/MarioPrezidente/status/2092964691425304611",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "Fy5gu7Maj3Rys39PsME5BK5o98QrTbqUnZiL2Wpdpump": {
-      "symbol": "MONEY",
-      "name": "New Money",
-      "amount": 843830.9605563257,
-      "entry_price_usd": 6.2068118436268225e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T13:18:20.046037+00:00",
-      "entry_usd_value": 5.237500000000001,
-      "entry_signals": {
-        "liquidity_usd": 161.90361507575,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6193.339952266137,
-        "ath_market_cap_usd": 10225.530994506304,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.545619237,
-        "description": "-",
-        "twitter": "https://twitter.com/solflare/status/2092964583744946194",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -19360,25 +19315,47 @@
       "pnl_pct": -44.92,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "Fy5gu7Maj3Rys39PsME5BK5o98QrTbqUnZiL2Wpdpump",
+      "symbol": "MONEY",
+      "name": "New Money",
+      "amount_sold": 843830.9605563257,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T13:18:20.046037+00:00",
+      "exit_time": "2026-08-27T13:19:24.607456+00:00",
+      "entry_price_usd": 6.2068118436268225e-06,
+      "exit_price_usd": 2.924790312813551e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.023593,
+      "pnl_sol": -0.026407,
+      "pnl_pct": -52.88,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "F4VbD9rebgLWYRDMHGkcHsTC7yYXGybtpj1Km9qHpump",
+      "symbol": "MVA-CR19",
+      "name": "MVA-CR19",
+      "amount_sold": 578002.8486905905,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T13:18:19.418279+00:00",
+      "exit_time": "2026-08-27T13:19:40.964108+00:00",
+      "entry_price_usd": 9.061374025863455e-06,
+      "exit_price_usd": 6.843968115766113e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.037815,
+      "pnl_sol": -0.012185,
+      "pnl_pct": -24.47,
+      "exit_reason": "LLM: sell_all — Down -24.5% and approaching the -30% hard cap. Price has dropped steadily from entry, no bounce signal, 0% pool share means we'd be exit liquidity. Cu",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T13:18:20.046313+00:00",
+  "last_updated": "2026-08-27T13:19:40.965251+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.75,
-  "portfolio_value_usd": 78.72,
+  "last_sol_price_usd": 104.61,
+  "portfolio_value_usd": 74.58,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 13:12 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $PIGEONMAN at $8.64708e-06 | P&L: +93.7%",
-      "reason": "Auto take-profit at +93.7%"
-    },
-    {
-      "time": "2026-08-27 13:12 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $PIGEONMAN at $8.64708e-06 | P&L: +93.7%",
-      "reason": "+93.7% in 6 min on a thin $2258 pool. MC history shows classic fade: 119 peak → 101 now, momentum dying. Sell half to lock ~+93% gain, keep 50% as a moon bag in case it re-pumps. Asymmetric: if it dies I'm still up huge, if it runs I have skin in."
-    },
     {
       "time": "2026-08-27 13:12 UTC",
       "action": "buy",
@@ -19486,51 +19463,63 @@
       "action": "buy",
       "details": "[LLM] $MONEY at $6.20681e-06, spent 0.05 SOL",
       "reason": "$MONEY (New Money) from @solflare tweet — 'New Money' is one of the most meta-viral memecoin names possible. $6k mcap, 0.1min old, solflare signal gives it a legitimacy boost. Self-referential memecoins pump on narrative alone."
+    },
+    {
+      "time": "2026-08-27 13:19 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $MONEY closed at $2.92479e-06 | P&L: -52.9%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 13:19 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MVA-CR19 at $6.84397e-06 | P&L: -24.5%",
+      "reason": "Down -24.5% and approaching the -30% hard cap. Price has dropped steadily from entry, no bounce signal, 0% pool share means we'd be exit liquidity. Cutting the loss now before it hits auto-stop."
     }
   ],
   "trade_stats": {
-    "total": 1136,
+    "total": 1138,
     "wins": 601,
-    "losses": 535,
-    "win_rate_pct": 52.9,
-    "total_pnl_sol": -1.14851,
-    "avg_pnl_pct": 44.66,
+    "losses": 537,
+    "win_rate_pct": 52.8,
+    "total_pnl_sol": -1.187102,
+    "avg_pnl_pct": 44.51,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 595,
-    "today_realized_sol": 0.283719,
-    "today_target_pct": 70.9,
+    "today_trades": 597,
+    "today_realized_sol": 0.245127,
+    "today_target_pct": 61.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 601,
-      "loss_count": 535,
+      "loss_count": 537,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T13:18:19.115550+00:00",
+  "last_llm_brief_at": "2026-08-27T13:19:40.964070+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "Cq9jEg9HvMtfjjJdCdPVN2eyakgcCEKB1nejbQqwpump": {
-      "price_usd": 3.0869131524410554e-08,
+    "F4VbD9rebgLWYRDMHGkcHsTC7yYXGybtpj1Km9qHpump": {
+      "price_usd": 6.843968115766113e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 7.3325e-07,
-      "volume_h24": 14790.25,
+      "liquidity_usd": 1662.3614454282,
+      "volume_h24": 29884.06,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 7e-09
+      "real_sol_reserves": 15.89103762
     },
-    "8NbXTLqTqvoTr5upfYKsKFQsWaArF4zmyjzTdwSxpump": {
-      "price_usd": 3.0189828660845806e-06,
+    "Fy5gu7Maj3Rys39PsME5BK5o98QrTbqUnZiL2Wpdpump": {
+      "price_usd": 2.924790312813551e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 48.06670320625,
-      "volume_h24": 7802.83,
+      "liquidity_usd": 5.64894e-06,
+      "volume_h24": 19153.94,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.458870675
+      "real_sol_reserves": 5.4e-08
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
