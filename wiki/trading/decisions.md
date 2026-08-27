@@ -6646,3 +6646,6 @@
 ## [2026-08-27 12:24 UTC] buy | [LLM] $PumpLiquid at $3.04678e-06, spent 0.05 SOL
 - **Reasoning:** $PumpLiquid at $3k mcap with actual product narrative — 'first ever Creator Perpetual Trading' on pump.fun. Story + utility story = attention magnet.
 
+## [2026-08-27 12:26 UTC] sell | [FULL][LLM] $BABYANSEM at $2.92144e-06 | P&L: -16.7%
+- **Reasoning:** -16.7% with $0 pool liquidity and price collapsing in 30m history (3.4→2.8). No bounce signal, bond curve is dead. Cut before -30% hard stop.
+
