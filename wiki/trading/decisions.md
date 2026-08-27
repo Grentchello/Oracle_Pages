@@ -6247,3 +6247,9 @@
 ## [2026-08-27 11:35 UTC] buy | [LLM] $HODL at $4.61599e-06, spent 0.05 SOL
 - **Reasoning:** $HODL 'Diamond Hands' posted by mdudas (notable tech founder) — classic meme name with a credible tweeter, $4.6k mcap entry.
 
+## [2026-08-27 11:36 UTC] sell | [hard-stop] $Moby closed at $3.15192e-06 | P&L: -48.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:36 UTC] sell | [hard-stop] $HODL closed at $2.90644e-06 | P&L: -37.0%
+- **Reasoning:** Hard -30% stop
+
