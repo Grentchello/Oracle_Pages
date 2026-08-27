@@ -3661,3 +3661,15 @@
 ## [2026-08-27 03:01 UTC] buy | [LLM] $EDEK at $7.81574e-06, spent 0.1 SOL
 - **Reasoning:** $EDEK 'The Polish Humanoid' has a clear identity-meme narrative at $7.8k mcap, 28% bonded, fresh X attention — small-cap narrative launch is exactly where the alpha is.
 
+## [2026-08-27 03:03 UTC] sell | [FULL][LLM] $CLAUDEFORCE at $2.8307e-06 | P&L: -62.1%
+- **Reasoning:** $CLAUDEFORCE is at -62.1%, well past the -50% hard cap. Honor the cap and clear the slot. Pool is only $1 anyway — dead.
+
+## [2026-08-27 03:03 UTC] sell | [PARTIAL][LLM] $cat at $9.55e-05 | P&L: +446.2%
+- **Reasoning:** $cat is up +446% on a $24k pool with a hot 'cat meta' narrative. Take profit on half, let the runner ride.
+
+## [2026-08-27 03:03 UTC] sell | [PARTIAL][LLM] $Gamble at $1.60354e-05 | P&L: +85.7%
+- **Reasoning:** $Gamble at +85.7% — lock in gains on half, narrative still intact but $Gamble naming has limited shelf life, so don't let it mean-revert back.
+
+## [2026-08-27 03:03 UTC] buy | [LLM] $Ape at $1.12195e-05, spent 0.1 SOL
+- **Reasoning:** $Ape (Just Ape) — 0.6min old, $11k mcap, named X shill account attached. Ape narrative is evergreen meme territory, fresh attention signal. Highest quality fresh launch in the batch.
+
