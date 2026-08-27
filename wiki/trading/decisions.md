@@ -5515,3 +5515,15 @@
 ## [2026-08-27 10:14 UTC] buy | [LLM] $ANSEM at $1.33065e-05, spent 0.05 SOL
 - **Reasoning:** $ANSEM ties to a known crypto influencer/narrative, $13k mcap is small enough to 5x easily, fresh X post — classic attention trade.
 
+## [2026-08-27 10:15 UTC] sell | [hard-stop] $ANSEM closed at $2.98196e-06 | P&L: -77.6%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:15 UTC] sell | [TP +30% (25%)] $aped at $1.03668e-05 | P&L: +36.8%
+- **Reasoning:** Auto take-profit at +36.8%
+
+## [2026-08-27 10:15 UTC] sell | [PARTIAL][LLM] $aped at $1.03668e-05 | P&L: +36.8%
+- **Reasoning:** Up +36.8% — past first TP threshold. Bot should have auto-taken 25% at +30% but per rules I can act on positions not yet fully TP'd. Take half off the table to lock gains and let the rest ride if narrative holds. +30% scalp discipline says lock it.
+
+## [2026-08-27 10:15 UTC] buy | [LLM] $RAYPRICE at $5.5946e-06, spent 0.05 SOL
+- **Reasoning:** $RAYPRICE 'The Retarded Footballer' — sports meme narrative, sub-$6k mcap, bonding curve only 22% (3x room to migrate). Footballer memes trend hard during sports seasons. Fresh launch, decent narrative attention, but VERY thin liquidity ($2770 pool) — risk is rug-style dump. Position size 0.05 SOL keeps it tight.
+
