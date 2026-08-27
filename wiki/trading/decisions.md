@@ -4216,3 +4216,6 @@
 ## [2026-08-27 07:25 UTC] sell | [FULL][LLM] $LEEK at $2.87915e-06 | P&L: -67.0%
 - **Reasoning:** $LEEK is -66.9%, already past the -50% hard stop. Whatever remains in this position is likely unrecoverable or illiquid. Sell_all to recover any residual SOL and free the slot.
 
+## [2026-08-27 07:27 UTC] sell | [FULL][LLM] $tripletung at $2.82637e-06 | P&L: -6.3%
+- **Reasoning:** Held 0.0h and already -6.3% — fresh entry, no bounce signal, and the bonding-curve share% shows we're an outsized portion of thin liquidity. Cut and rotate into a live launch.
+

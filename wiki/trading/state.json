@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.373898,
+  "balance_sol": 0.467761,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GjDBF8cHp5QCskFcsg6DCqrGUTZWKnCcSMnHvN2Qpump": {
-      "symbol": "tripletung",
-      "name": "tung tung tung ",
-      "amount": 3357166.480616946,
-      "entry_price_usd": 3.0168298350634012e-06,
-      "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T07:23:57.603350+00:00",
-      "entry_usd_value": 10.128,
-      "entry_signals": {
-        "liquidity_usd": 97.7566100856,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3003.388290207648,
-        "ath_market_cap_usd": 4061.4409577743218,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.965211395,
-        "description": "tripletung",
-        "twitter": "https://x.com/tripletung/",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -9206,19 +9183,30 @@
       "pnl_pct": -66.95,
       "exit_reason": "LLM: sell_all — $LEEK is -66.9%, already past the -50% hard stop. Whatever remains in this position is likely unrecoverable or illiquid. Sell_all to recover any resid",
       "partial": false
+    },
+    {
+      "mint": "GjDBF8cHp5QCskFcsg6DCqrGUTZWKnCcSMnHvN2Qpump",
+      "symbol": "tripletung",
+      "name": "tung tung tung ",
+      "amount_sold": 3357166.444850279,
+      "fraction_sold": 0.9999999893461742,
+      "entry_time": "2026-08-27T07:23:57.603350+00:00",
+      "exit_time": "2026-08-27T07:27:02.928012+00:00",
+      "entry_price_usd": 3.0168298350634012e-06,
+      "exit_price_usd": 2.826374650889432e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.093863,
+      "pnl_sol": -0.006137,
+      "pnl_pct": -6.31,
+      "exit_reason": "LLM: sell_all — Held 0.0h and already -6.3% — fresh entry, no bounce signal, and the bonding-curve share% shows we're an outsized portion of thin liquidity. Cut and r",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T07:25:36.874438+00:00",
+  "last_updated": "2026-08-27T07:27:02.928288+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.24,
-  "portfolio_value_usd": 47.98,
+  "last_sol_price_usd": 101.09,
+  "portfolio_value_usd": 47.29,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 07:19 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $beerdog at $9.08033e-06 | P&L: +101.4%",
-      "reason": "+101% past +100% TP threshold — lock the profit."
-    },
     {
       "time": "2026-08-27 07:19 UTC",
       "action": "sell",
@@ -9332,62 +9320,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $LEEK at $2.87915e-06 | P&L: -67.0%",
       "reason": "$LEEK is -66.9%, already past the -50% hard stop. Whatever remains in this position is likely unrecoverable or illiquid. Sell_all to recover any residual SOL and free the slot."
+    },
+    {
+      "time": "2026-08-27 07:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $tripletung at $2.82637e-06 | P&L: -6.3%",
+      "reason": "Held 0.0h and already -6.3% — fresh entry, no bounce signal, and the bonding-curve share% shows we're an outsized portion of thin liquidity. Cut and rotate into a live launch."
     }
   ],
   "trade_stats": {
-    "total": 540,
+    "total": 541,
     "wins": 246,
-    "losses": 294,
-    "win_rate_pct": 45.6,
-    "total_pnl_sol": -1.426092,
-    "avg_pnl_pct": 57.46,
+    "losses": 295,
+    "win_rate_pct": 45.5,
+    "total_pnl_sol": -1.432229,
+    "avg_pnl_pct": 57.34,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 31,
-    "today_realized_sol": -0.440635,
-    "today_target_pct": -110.2,
+    "today_trades": 32,
+    "today_realized_sol": -0.446772,
+    "today_target_pct": -111.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 246,
-      "loss_count": 294,
+      "loss_count": 295,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T07:25:36.873507+00:00",
+  "last_llm_brief_at": "2026-08-27T07:27:02.927863+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "Cwp1etG38gw93uE4Lc1Ch7QP9J16yuw9jUiXTGAFpump": {
-      "price_usd": 2.832917942672788e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1.26021638564,
-      "volume_h24": 8047.57,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.012447811
-    },
-    "8hBc3Mu1MrXXEWz76TyTv6ELJQ1UxmfitQU7X4Ywpump": {
-      "price_usd": 2.879151669078707e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 25.95398186932,
-      "volume_h24": 14325.59,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.256360943
-    },
     "GjDBF8cHp5QCskFcsg6DCqrGUTZWKnCcSMnHvN2Qpump": {
-      "price_usd": 3.015638354085888e-06,
+      "price_usd": 2.826374650889432e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 97.71800162979999,
+      "liquidity_usd": 4.0436000000000006e-07,
       "volume_h24": 1101.73,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.965211395
+      "real_sol_reserves": 4e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
