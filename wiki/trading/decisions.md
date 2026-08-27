@@ -2815,3 +2815,6 @@
 ## [2026-08-27 01:13 UTC] sell | [PARTIAL][LLM] $uponly at $9.036e-06 | P&L: +23.1%
 - **Reasoning:** +23% in 6 minutes with a +177% 1h move already priced in — bag is fully heated. Take half off the table to bank SOL and free a slot for a better fresh-narrative entry.
 
+## [2026-08-27 01:15 UTC] sell | [PARTIAL][LLM] $SKRIMP at $5.529e-06 | P&L: +70.3%
+- **Reasoning:** +70.3% in 0.4h with 24h at +83.6%. Lock in some profit per the +50% take-profit rule while keeping upside in a strong runner.
+
