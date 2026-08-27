@@ -7231,3 +7231,12 @@
 ## [2026-08-27 13:44 UTC] buy | [LLM] $Meow at $6.756e-06, spent 0.05 SOL
 - **Reasoning:** $Meow (SpaceX Cat) - cats-in-space is peak memetic territory, $6.4k mcap with 25% bonding curve already filled shows real buy pressure, narrative has crossover appeal. Small position size given the 0.5min age and unverified narrative.
 
+## [2026-08-27 13:45 UTC] sell | [hard-stop] $Meow closed at $3.04173e-06 | P&L: -55.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:45 UTC] sell | [TP +30% (25%)] $Schwab at $1.88181e-05 | P&L: +48.1%
+- **Reasoning:** Auto take-profit at +48.1%
+
+## [2026-08-27 13:45 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+

@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.566992,
+  "balance_sol": 0.596403,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GHghNNWwHL4QZmA4oceLSW7gDiHMNrioF9Pur2g4ig4R": {
       "symbol": "Schwab",
       "name": "Charles Schwab",
-      "amount": 154549.6975738168,
+      "amount": 115912.27318036261,
       "entry_price_usd": 1.2704651195206534e-05,
-      "entry_sol_spent": 0.018750000000000003,
+      "entry_sol_spent": 0.014062500000000002,
       "entry_time": "2026-08-27T13:42:35.697206+00:00",
       "entry_usd_value": 5.236000000000001,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 46.011843032,
         "description": "memecoin",
         "twitter": "https://x.com/RabbiD0ng_Devs/status/2092970305404760256",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "GefHC2MvF9jWBx3Yj3PAeMeY4GysqQybixL3ZYPpump": {
-      "symbol": "Meow",
-      "name": "SpaceX Cat",
-      "amount": 772942.5695677917,
-      "entry_price_usd": 6.756e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T13:44:04.659259+00:00",
-      "entry_usd_value": 5.222,
-      "entry_signals": {
-        "liquidity_usd": 2205.26254804044,
-        "volume_24h_usd": 1648.7,
-        "market_cap_usd": 6451.844924382934,
-        "ath_market_cap_usd": 9681.243658849977,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 21.115114401,
-        "description": "",
-        "twitter": "https://x.com/RickMaloney88/status/2092971143166861541",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -19802,31 +19780,47 @@
       "pnl_pct": 40.63,
       "exit_reason": "LLM: sell_half — $Schwab at +40.6% is past the 25% auto-TP threshold. Lock in gains on half while letting the rest ride the Charles Schwab financial meme narrative if ",
       "partial": true
+    },
+    {
+      "mint": "GefHC2MvF9jWBx3Yj3PAeMeY4GysqQybixL3ZYPpump",
+      "symbol": "Meow",
+      "name": "SpaceX Cat",
+      "amount_sold": 772942.5695677917,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T13:44:04.659259+00:00",
+      "exit_time": "2026-08-27T13:45:08.892147+00:00",
+      "entry_price_usd": 6.756e-06,
+      "exit_price_usd": 3.041725881259002e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.022464,
+      "pnl_sol": -0.027536,
+      "pnl_pct": -54.98,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "GHghNNWwHL4QZmA4oceLSW7gDiHMNrioF9Pur2g4ig4R",
+      "symbol": "Schwab",
+      "name": "Charles Schwab",
+      "amount_sold": 38637.4243934542,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T13:42:35.697206+00:00",
+      "exit_time": "2026-08-27T13:45:08.892342+00:00",
+      "entry_price_usd": 1.2704651195206534e-05,
+      "exit_price_usd": 1.8818078588742212e-05,
+      "entry_sol_for_chunk": 0.004688,
+      "exit_sol_received": 0.006947,
+      "pnl_sol": 0.00226,
+      "pnl_pct": 48.12,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T13:44:04.659693+00:00",
+  "last_updated": "2026-08-27T13:45:34.681472+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.44,
-  "portfolio_value_usd": 66.4,
+  "last_sol_price_usd": 104.66,
+  "portfolio_value_usd": 63.89,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 13:32 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $DEPE closed at $2.92199e-06 | P&L: -36.9%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-08-27 13:32 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $cyburlek at $6.15021e-06 | P&L: -22.0%",
-      "reason": "Down22% with no clear bounce signal, tiny $1.4k pool, and bot will hard-stop at -30% shortly. Discipline rule says exit fast when down >20% — don't hope. Cut it, free the slot."
-    },
-    {
-      "time": "2026-08-27 13:32 UTC",
-      "action": "buy",
-      "details": "[LLM] $Tito at $8.79316e-06, spent 0.05 SOL",
-      "reason": "$Tito 'apeonpc' is the freshest highest-mcap launch at $8.8k, bonding curve already 30% filled — early attention accumulating. 'Ape on PC' is a clear degens-ape narrative; ride the first wave with 0.05 SOL."
-    },
     {
       "time": "2026-08-27 13:33 UTC",
       "action": "sell",
@@ -19928,6 +19922,24 @@
       "action": "buy",
       "details": "[LLM] $Meow at $6.756e-06, spent 0.05 SOL",
       "reason": "$Meow (SpaceX Cat) - cats-in-space is peak memetic territory, $6.4k mcap with 25% bonding curve already filled shows real buy pressure, narrative has crossover appeal. Small position size given the 0.5min age and unverified narrative."
+    },
+    {
+      "time": "2026-08-27 13:45 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $Meow closed at $3.04173e-06 | P&L: -55.0%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 13:45 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Schwab at $1.88181e-05 | P&L: +48.1%",
+      "reason": "Auto take-profit at +48.1%"
+    },
+    {
+      "time": "2026-08-27 13:45 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -19949,30 +19961,30 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T13:44:04.285521+00:00",
+  "last_llm_brief_at": "2026-08-27T13:45:34.680315+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "6t5btfVX9TCviD9VscNTto2Sc2gDB29xGzemLFNaZk1q": {
-      "price_usd": 4.594792496376882e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 797.1105909191599,
-      "volume_h24": 2658.93,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 7.632234689
-    },
     "GHghNNWwHL4QZmA4oceLSW7gDiHMNrioF9Pur2g4ig4R": {
-      "price_usd": 1.7867079259507235e-05,
+      "price_usd": 1.8818078588742212e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4617.139072262639,
-      "volume_h24": 31369.16,
+      "liquidity_usd": 4822.49921834676,
+      "volume_h24": 56428.32,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 44.208531906
+      "real_sol_reserves": 46.077768186
+    },
+    "GefHC2MvF9jWBx3Yj3PAeMeY4GysqQybixL3ZYPpump": {
+      "price_usd": 3.041725881259002e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 61.385869664939996,
+      "volume_h24": 7774.44,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.586526559
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
