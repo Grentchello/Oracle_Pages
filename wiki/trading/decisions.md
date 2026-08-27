@@ -6757,3 +6757,33 @@
 ## [2026-08-27 12:45 UTC] buy | [LLM] $BULLMODE at $3.254e-06, spent 0.05 SOL
 - **Reasoning:** $BULLMODE (Black Bull Mode) at $3.3k mcap from Chinese crypto community — CN memecoin waves on Solana have delivered outsized returns (BULL/NEIRO-style runs). Narrative strong, mcap is tiny.
 
+## [2026-08-27 12:46 UTC] sell | [hard-stop] $TOAD closed at $3.09571e-06 | P&L: -56.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:46 UTC] sell | [TP +30% (25%)] $QQ at $1.55369e-05 | P&L: +45.9%
+- **Reasoning:** Auto take-profit at +45.9%
+
+## [2026-08-27 12:46 UTC] sell | [TP +30% (25%)] $Huggy at $1.04744e-05 | P&L: +59.7%
+- **Reasoning:** Auto take-profit at +59.7%
+
+## [2026-08-27 12:46 UTC] sell | [hard-stop] $TOAD closed at $3.09571e-06 | P&L: -56.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:46 UTC] sell | [TP +30% (25%)] $QQ at $1.52762e-05 | P&L: +43.4%
+- **Reasoning:** Auto take-profit at +43.4%
+
+## [2026-08-27 12:46 UTC] sell | [FULL][LLM] $QQ at $1.55369e-05 | P&L: +45.9%
+- **Reasoning:** $QQ is up +45.9% which clears the +25% TP threshold and bot auto-TP would have triggered; however I'm also seeing the +59% Huggy position right next to it suggesting this is a coordinated pump cluster — taking profit now on both before any reversal. Locking the gain.
+
+## [2026-08-27 12:46 UTC] sell | [FULL][LLM] $Huggy at $1.04744e-05 | P&L: +59.7%
+- **Reasoning:** $Huggy is up +59.7%, well past the +50% TP threshold. With bonding-curve pool only $2.8k, liquidity is thin and any reversal will be brutal. Lock the +60% now.
+
+## [2026-08-27 12:46 UTC] sell | [FULL][LLM] $BULLMODE at $3.25354e-06 | P&L: -0.0%
+- **Reasoning:** $BULLMODE is flat at 0.0% with a tiny $175 pool and we hold 3% of supply — that's exit liquidity risk. Stale position, no momentum, exit fast to free the slot.
+
+## [2026-08-27 12:46 UTC] buy | [LLM] $Robolympics at $5.14575e-06, spent 0.05 SOL
+- **Reasoning:** $Robolympics — narrative is timely (Robot Olympics theme), 20% bonded already with $5k mcap and an X post to back it. Fresh attention play with above-avg liquidity among the cluster.
+
+## [2026-08-27 12:46 UTC] buy | [LLM] $SHOCKED at $2.99801e-06, spent 0.05 SOL
+- **Reasoning:** $SHOCKED — 'Shocked Cat' cluster narrative is the strongest story here: 2 independent creators launching matching tokens within 72s signals organic viral coordination, not bot spam. Classic attention-market setup.
+
