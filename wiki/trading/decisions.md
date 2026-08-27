@@ -6706,3 +6706,9 @@
 ## [2026-08-27 12:35 UTC] sell | [FULL][LLM] $TOADBULL at $7.09048e-06 | P&L: +2.5%
 - **Reasoning:** Only +2.5% after entry, pool $1750 is well below the 5x position-size minimum ($25), and price is flatlining. Stale and illiquid — capital is better deployed elsewhere.
 
+## [2026-08-27 12:37 UTC] sell | [FULL][LLM] $AI at $2.91361e-06 | P&L: -19.7%
+- **Reasoning:** $AI is down -19.7% and approaching the -30% hard stop. Price is bleeding (2min ago $0.0000000347 → 1min ago $0.0000000280, -19% acceleration). No bounce signal, chart is █▁ death. Cut the loss before the hard stop hits and free the slot for fresher attention.
+
+## [2026-08-27 12:37 UTC] buy | [LLM] $fomorena at $7.84288e-06, spent 0.05 SOL
+- **Reasoning:** $fomorena has the strongest narrative of the batch: '3 AI models, $100 each, just the fomo app' is a clean viral hook (AI + competition + meta-narrative about FOMO itself). Highest mcap ($7.8k) of new launches, 28% bonding curve progress signals real buys already flowing. Lead entry over the others.
+
