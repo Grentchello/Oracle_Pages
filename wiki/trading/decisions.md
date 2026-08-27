@@ -5143,3 +5143,6 @@
 ## [2026-08-27 09:33 UTC] sell | [FULL][LLM] $NSC at $6.83913e-06 | P&L: -10.9%
 - **Reasoning:** $NSC down -10.9% already and just entered (0.0h held). No clear narrative in the candidate list, pool only $1658. Discipline rule: exit losers fast. -10% becomes -30% quick on these microcaps — cut it now rather than hope.
 
+## [2026-08-27 09:35 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
