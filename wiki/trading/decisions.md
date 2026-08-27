@@ -6955,3 +6955,18 @@
 ## [2026-08-27 13:03 UTC] buy | [LLM] $Dr.GPT at $4.61339e-06, spent 0.05 SOL
 - **Reasoning:** $Dr.GPT (Surgical ChatGPT) is brand new with Elons55thbday posting — AI+meme crossover narrative, sub-$5k mcap. ChatGPT parables have been pumping lately.
 
+## [2026-08-27 13:04 UTC] sell | [hard-stop] $HOMER closed at $5.15807e-06 | P&L: -55.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:04 UTC] sell | [hard-stop] $Dr.GPT closed at $2.9329e-06 | P&L: -36.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:04 UTC] sell | [TP +100% (50%)] $RISE at $1.04818e-05 | P&L: +103.1%
+- **Reasoning:** Auto take-profit at +103.1%
+
+## [2026-08-27 13:05 UTC] sell | [FULL][LLM] $RISE at $1.04818e-05 | P&L: +103.1%
+- **Reasoning:** Up +103% — the bot already auto-took-profit at the +100%/75% level, but if there's any remaining exposure this is a clear lock-in moment. Bonding-curve at $2,802 pool and our 0% share means thin liquidity for exit; better to bank the gain than chase a higher high on a microcap that's already done most of its move.
+
+## [2026-08-27 13:05 UTC] buy | [LLM] $ROBOT at $3.43725e-06, spent 0.05 SOL
+- **Reasoning:** $ROBOT — 'Robot Olympics' viral in China is a real cultural moment with mass-market attention potential, narrative is specific and visual (easy to meme), and it's sub-$4k mcap with viral momentum. High risk but the attention signal is concrete.
+
