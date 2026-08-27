@@ -4915,3 +4915,15 @@
 ## [2026-08-27 09:06 UTC] buy | [LLM] $shockedcat at $7.03606e-06, spent 0.05 SOL
 - **Reasoning:** $shockedcat from mert (high-signal X account, $CAT meta adjacency) — even if cluster deploy, mert attention historically drives pumps. $7k mcap is asymmetric upside.
 
+## [2026-08-27 09:07 UTC] sell | [hard-stop] $shockedcat closed at $3.02575e-06 | P&L: -57.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:07 UTC] sell | [TP +30% (25%)] $mouse at $2.97912e-05 | P&L: +41.5%
+- **Reasoning:** Auto take-profit at +41.5%
+
+## [2026-08-27 09:07 UTC] sell | [FULL][LLM] $DORACZ at $3.109e-06 | P&L: -0.1%
+- **Reasoning:** DORACZ flat at -0.1% with $103 pool — meets min liquidity but barely. Stale-tilted and not moving. Cut it, free the slot.
+
+## [2026-08-27 09:07 UTC] sell | [PARTIAL][LLM] $mouse at $2.97912e-05 | P&L: +41.5%
+- **Reasoning:** mouse +41.5% in <5min on $6870 pool — strong pump but classic memecoin behavior is to give back gains. Lock half, let the rest ride.
+
