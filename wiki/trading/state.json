@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.745744,
+  "balance_sol": 1.742965,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
       "symbol": "blindape",
       "name": "blindape",
-      "amount": 845168.8009313156,
+      "amount": 422584.4004656578,
       "entry_price_usd": 6.013e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T00:10:33.245228+00:00",
       "entry_usd_value": 10.164000000000001,
       "entry_signals": {
@@ -28,9 +28,9 @@
     "9BepWhU7EaYdDZ46Wk2pHebq8xvTNQySJQWXp7S4pump": {
       "symbol": "1A",
       "name": "Free Speech Coin",
-      "amount": 155219.72956361403,
+      "amount": 77609.86478180702,
       "entry_price_usd": 8.135e-06,
-      "entry_sol_spent": 0.0125,
+      "entry_sol_spent": 0.00625,
       "entry_time": "2026-08-27T00:14:35.491329+00:00",
       "entry_usd_value": 10.101700000000001,
       "entry_signals": {
@@ -87,6 +87,28 @@
         "real_sol_reserves": 0.23618978,
         "description": "Squishy, the viral chipmunk with 15M+ followers and 2B+ views. Owner is fully onboard, with all creator fees directed to support Squishy’s care.",
         "twitter": "https://x.com/Emre1sol/status/2072383097971286126",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "GWZ4AYB3qzYLQqrWpHGXoEaRZuCvATkz2MZH6ukVpump": {
+      "symbol": "SPORTSBETTOR",
+      "name": "The Sportsbettor",
+      "amount": 1499535.490734476,
+      "entry_price_usd": 6.739286974161685e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T00:20:23.065914+00:00",
+      "entry_usd_value": 10.105800000000002,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 6747.430754990076,
+        "ath_market_cap_usd": 7948.630871505557,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 16.33211375,
+        "description": "",
+        "twitter": "https://x.com/XBusiness/status/2092768276359020788",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -2931,31 +2953,47 @@
       "pnl_pct": -34.89,
       "exit_reason": "LLM: sell_all — At -34.9% with 24h still -4.2% and no catalyst visible, this is a slow bleed toward the -50% hard cap. Cut it, free a slot, redeploy into fresher atte",
       "partial": false
+    },
+    {
+      "mint": "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump",
+      "symbol": "blindape",
+      "name": "blindape",
+      "amount_sold": 422584.4004656578,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:10:33.245228+00:00",
+      "exit_time": "2026-08-27T00:20:23.065614+00:00",
+      "entry_price_usd": 6.013e-06,
+      "exit_price_usd": 1.147e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.047963,
+      "pnl_sol": 0.022963,
+      "pnl_pct": 90.75,
+      "exit_reason": "LLM: sell_half — $blindape at +90.8% in 0.2h is a parabolic move; lock in gains on half while letting the runner ride. Bond-age data suggests these micro-caps often fa",
+      "partial": true
+    },
+    {
+      "mint": "9BepWhU7EaYdDZ46Wk2pHebq8xvTNQySJQWXp7S4pump",
+      "symbol": "1A",
+      "name": "Free Speech Coin",
+      "amount_sold": 77609.86478180702,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:14:35.491329+00:00",
+      "exit_time": "2026-08-27T00:20:23.065813+00:00",
+      "entry_price_usd": 8.135e-06,
+      "exit_price_usd": 6.414e-05,
+      "entry_sol_for_chunk": 0.00625,
+      "exit_sol_received": 0.049258,
+      "pnl_sol": 0.043008,
+      "pnl_pct": 688.44,
+      "exit_reason": "LLM: sell_half — $1A at +688% in 0.1h is an extreme spike — classic attention-launched vertical. Take half off to lock the +688% gain, ride the rest with a tight menta",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T00:18:56.232723+00:00",
+  "last_updated": "2026-08-27T00:20:23.066012+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.096,
-  "portfolio_value_usd": 203.07,
+  "last_sol_price_usd": 101.058,
+  "portfolio_value_usd": 209.65,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 00:13 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $PAINTER at $4.268e-06 | P&L: -31.9%",
-      "reason": "$PAINTER at -32% with weak 1h/24h progression divergence is concerning. Cut half to lock in remaining size as buy-in, let the rest ride for free."
-    },
-    {
-      "time": "2026-08-27 00:13 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CAKE at $3.195e-06 | P&L: -29.4%",
-      "reason": "$CAKE at -29.4% with only +7.9% 24h — this has the weakest momentum of the losers. The narrative isn't pulling weight. Cut and free the slot."
-    },
-    {
-      "time": "2026-08-27 00:13 UTC",
-      "action": "buy",
-      "details": "[LLM] $CLAUDETOPIA at $1.06782e-05, spent 0.1 SOL",
-      "reason": "$CLAUDETOPIA — strongest launch narrative of the batch with $10.6k mcap and 33% bond. Claude/AI meta is the dominant narrative cycle right now. Small position to ride the AI meme wave."
-    },
     {
       "time": "2026-08-27 00:14 UTC",
       "action": "sell",
@@ -3057,55 +3095,64 @@
       "action": "sell",
       "details": "[FULL][LLM] $fomodog at $2.887e-06 | P&L: -34.9%",
       "reason": "At -34.9% with 24h still -4.2% and no catalyst visible, this is a slow bleed toward the -50% hard cap. Cut it, free a slot, redeploy into fresher attention next tick."
+    },
+    {
+      "time": "2026-08-27 00:20 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $blindape at $1.147e-05 | P&L: +90.8%",
+      "reason": "$blindape at +90.8% in 0.2h is a parabolic move; lock in gains on half while letting the runner ride. Bond-age data suggests these micro-caps often fade fast after first spike."
+    },
+    {
+      "time": "2026-08-27 00:20 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $1A at $6.414e-05 | P&L: +688.4%",
+      "reason": "$1A at +688% in 0.1h is an extreme spike — classic attention-launched vertical. Take half off to lock the +688% gain, ride the rest with a tight mental stop."
+    },
+    {
+      "time": "2026-08-27 00:20 UTC",
+      "action": "buy",
+      "details": "[LLM] $SPORTSBETTOR at $6.73929e-06, spent 0.1 SOL",
+      "reason": "$SPORTSBETTOR — sports betting narrative is evergreen attention (NFL season, gambling memes). Bond 26% indicates organic buy pressure, mcap only $6.7k = room to run. 0.1 SOL risk."
     }
   ],
   "trade_stats": {
-    "total": 167,
-    "wins": 82,
+    "total": 169,
+    "wins": 84,
     "losses": 85,
-    "win_rate_pct": 49.1,
-    "total_pnl_sol": 0.108245,
-    "avg_pnl_pct": 87.76,
-    "best_pnl_pct": 666.22,
+    "win_rate_pct": 49.7,
+    "total_pnl_sol": 0.174216,
+    "avg_pnl_pct": 91.34,
+    "best_pnl_pct": 688.44,
     "worst_pnl_pct": -99.89,
-    "today_trades": 24,
-    "today_realized_sol": 0.637452,
-    "today_target_pct": 159.4,
+    "today_trades": 26,
+    "today_realized_sol": 0.703423,
+    "today_target_pct": 175.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 82,
+      "win_count": 84,
       "loss_count": 85,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T00:18:56.232151+00:00",
+  "last_llm_brief_at": "2026-08-27T00:20:23.065582+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
-      "price_usd": 4.23e-06,
-      "change_h24": 39.42,
-      "change_h1": 39.42,
+      "price_usd": 1.147e-05,
+      "change_h24": 278.0,
+      "change_h1": 278.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 19503.55,
+      "volume_h24": 26037.18,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "9BepWhU7EaYdDZ46Wk2pHebq8xvTNQySJQWXp7S4pump": {
-      "price_usd": 3.579e-05,
-      "change_h24": -12.42,
-      "change_h1": -12.42,
-      "liquidity_usd": 14279.52,
-      "volume_h24": 82381.9,
+      "price_usd": 6.414e-05,
+      "change_h24": 56.93,
+      "change_h1": 56.93,
+      "liquidity_usd": 19737.36,
+      "volume_h24": 89691.19,
       "dex_id": "pumpswap",
-      "source": "dexscreener"
-    },
-    "5x7t3CtDWaDGggbvf4u2uMLME3W3mGmbFwBExJqipump": {
-      "price_usd": 2.887e-06,
-      "change_h24": -4.24,
-      "change_h1": -4.24,
-      "liquidity_usd": 0.0,
-      "volume_h24": 5106.79,
-      "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "7yDtC3Af5ifYMSVayN1mFu74VEdzXJJCJbwNjbytpump": {
@@ -3118,11 +3165,11 @@
       "source": "dexscreener"
     },
     "HpbsRLkUbAmEjbsA1nvzRYhja4Zz9ytbSxnSzoXCpump": {
-      "price_usd": 2.888e-06,
-      "change_h24": -3.28,
-      "change_h1": -3.28,
+      "price_usd": 2.863e-06,
+      "change_h24": -4.11,
+      "change_h1": -4.11,
       "liquidity_usd": 0.0,
-      "volume_h24": 821.26,
+      "volume_h24": 834.28,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

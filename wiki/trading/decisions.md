@@ -2374,3 +2374,12 @@
 ## [2026-08-27 00:18 UTC] sell | [FULL][LLM] $fomodog at $2.887e-06 | P&L: -34.9%
 - **Reasoning:** At -34.9% with 24h still -4.2% and no catalyst visible, this is a slow bleed toward the -50% hard cap. Cut it, free a slot, redeploy into fresher attention next tick.
 
+## [2026-08-27 00:20 UTC] sell | [PARTIAL][LLM] $blindape at $1.147e-05 | P&L: +90.8%
+- **Reasoning:** $blindape at +90.8% in 0.2h is a parabolic move; lock in gains on half while letting the runner ride. Bond-age data suggests these micro-caps often fade fast after first spike.
+
+## [2026-08-27 00:20 UTC] sell | [PARTIAL][LLM] $1A at $6.414e-05 | P&L: +688.4%
+- **Reasoning:** $1A at +688% in 0.1h is an extreme spike — classic attention-launched vertical. Take half off to lock the +688% gain, ride the rest with a tight mental stop.
+
+## [2026-08-27 00:20 UTC] buy | [LLM] $SPORTSBETTOR at $6.73929e-06, spent 0.1 SOL
+- **Reasoning:** $SPORTSBETTOR — sports betting narrative is evergreen attention (NFL season, gambling memes). Bond 26% indicates organic buy pressure, mcap only $6.7k = room to run. 0.1 SOL risk.
+
