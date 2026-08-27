@@ -5971,3 +5971,9 @@
 ## [2026-08-27 10:57 UTC] buy | [LLM] $PHANTOM at $3.032e-06, spent 0.05 SOL
 - **Reasoning:** $PHANTOM (Phantom Hoodiez) — has a real brand handle @phantomhoodiez attached, not a j7tracker deploy-spam pattern. Brand-tied launches carry more durability than one-off jokes; bond 2% but that just means cheap entry.
 
+## [2026-08-27 10:59 UTC] buy | [LLM] $SILICON at $5.411e-06, spent 0.05 SOL
+- **Reasoning:** $SILICON is the bonding-curve leader of this batch (29% complete, $8.5k mcap) with edgy attention via BUTTSEXDEV tweet. Silicon Goddess has cultural narrative weight. Relative strength matters in launches.
+
+## [2026-08-27 10:59 UTC] buy | [LLM] $RISE at $5.167e-06, spent 0.05 SOL
+- **Reasoning:** $RISE has a built-in demand mechanic: 60% airdrop to top 15 holders at bonding completion. That creates real buy pressure as holders accumulate to qualify. Narrative + mechanics.
+
