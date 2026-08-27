@@ -2977,3 +2977,12 @@
 ## [2026-08-27 01:36 UTC] buy | [LLM] $Buddy at $1.47914e-05, spent 0.1 SOL
 - **Reasoning:** $Buddy (Neuralink Dog) — strongest narrative in the batch: real news catalyst (Neuralink first dog implant), highest mcap ($14.8k), 36% bond (most committed capital of new launches). Attention market loves real-world tie-ins. Risk: duplicate $BUDDY at $3k may fragment attention.
 
+## [2026-08-27 01:38 UTC] sell | [PARTIAL][LLM] $Buddy at $3.215e-05 | P&L: +117.4%
+- **Reasoning:** $Buddy is +117% with 948% 1h momentum — lock in profit on half while letting the other half ride the viral continuation. Classic take-profit discipline.
+
+## [2026-08-27 01:38 UTC] sell | [FULL][LLM] $cat at $1.512e-05 | P&L: +41.1%
+- **Reasoning:** $cat is +41% now but 24h shows -63.8% — this is a dead cat bounce on a dying narrative. Take the green before it reverts.
+
+## [2026-08-27 01:38 UTC] buy | [LLM] $TWH at $6.38062e-06, spent 0.1 SOL
+- **Reasoning:** $TWH 'TOAD WIF HELMET' — playful animal-meme format (pepe/frog derivatives have proven viral). Fresh 0.1min launch at $6.4k mcap is exactly the attention-launched early entry the strategy calls for. 0.1 SOL.
+
