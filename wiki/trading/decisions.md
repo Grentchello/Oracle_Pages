@@ -5233,3 +5233,15 @@
 ## [2026-08-27 09:46 UTC] buy | [LLM] $MOON at $4.95746e-06, spent 0.05 SOL
 - **Reasoning:** $MOON — the most memeable name in crypto with a coordinated X launch (heisenberg83 status). $4.9k mcap, 19% bonded already shows buy pressure. Attention-launched meta-coins with 'moon' branding historically catch fire on day-one.
 
+## [2026-08-27 09:47 UTC] sell | [hard-stop] $Crescent closed at $3.07094e-06 | P&L: -31.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:47 UTC] sell | [hard-stop] $MOON closed at $3.14484e-06 | P&L: -36.6%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:48 UTC] sell | [FULL][LLM] $ANUS at $2.95885e-06 | P&L: -21.9%
+- **Reasoning:** Down -21.9% on a tiny $12 pool with 15% share — that's dangerously illiquid and approaching the -30% hard stop. No bounce signal, only 0.1h old but the pool is too thin to trust recovery. Cut and free the slot.
+
+## [2026-08-27 09:48 UTC] buy | [LLM] $COUNTY at $1.126e-05, spent 0.05 SOL
+- **Reasoning:** $COUNTY (Pump County) — sub-$10k mcap with an actively promoting X account (@PumpCounty__X). Brandable 'county' meme angle, bonding curve only 29% (still early room to run). Sizing 0.05 SOL given the small pool.
+
