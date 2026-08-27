@@ -5962,3 +5962,12 @@
 ## [2026-08-27 10:56 UTC] buy | [LLM] $Mob at $3.141e-06, spent 0.05 SOL
 - **Reasoning:** $Mob 'Monkey on bike' has explicit Chinese TikTok + Instagram viral playbook in the description — operator is engineering cross-platform meme distribution. That's the meta. Fresh launch, low mcap, clear attention strategy.
 
+## [2026-08-27 10:57 UTC] sell | [FULL][LLM] $Jordan at $2.91046e-06 | P&L: -6.0%
+- **Reasoning:** Down -6% AND we hold 25% of an empty bonding-curve pool ($0 liquidity). That share concentration means we cannot exit cleanly — the only way to recover is to ride, but with no depth the next seller nukes the price. Cut now, free the slot for a tradable name.
+
+## [2026-08-27 10:57 UTC] sell | [FULL][LLM] $Larry at $3.04397e-06 | P&L: -17.5%
+- **Reasoning:** -17.5% is one bad tick from the -20% cut zone and there's no bounce signal — the 30m history isn't provided so I have nothing suggesting a reclaim. Stale losers turn into -30% bag-holders. Exit while the exit exists.
+
+## [2026-08-27 10:57 UTC] buy | [LLM] $PHANTOM at $3.032e-06, spent 0.05 SOL
+- **Reasoning:** $PHANTOM (Phantom Hoodiez) — has a real brand handle @phantomhoodiez attached, not a j7tracker deploy-spam pattern. Brand-tied launches carry more durability than one-off jokes; bond 2% but that just means cheap entry.
+
