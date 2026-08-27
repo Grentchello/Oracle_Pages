@@ -3034,3 +3034,18 @@
 ## [2026-08-27 01:45 UTC] buy | [LLM] $Marb at $4.72454e-06, spent 0.1 SOL
 - **Reasoning:** $Marb leader token with viral X link from nukidoya, 18% bond partially complete shows early buyers committing — swarm narrative has multiple forks which signals real attention.
 
+## [2026-08-27 01:46 UTC] sell | [PARTIAL][LLM] $Buddy at $2.294e-05 | P&L: +55.1%
+- **Reasoning:** Up +55% but 1h/24h both -45% — classic fade pattern. Lock in half the gains, let the rest ride or stop out at breakeven.
+
+## [2026-08-27 01:46 UTC] sell | [FULL][LLM] $TWH at $3.058e-06 | P&L: -52.1%
+- **Reasoning:** HARD CAP BREACH at -52.1%. Automatic close per rules, LLM cannot override.
+
+## [2026-08-27 01:46 UTC] sell | [FULL][LLM] $Collective at $3.05e-06 | P&L: -68.9%
+- **Reasoning:** HARD CAP BREACH at -68.9%. Automatic close per rules, LLM cannot override.
+
+## [2026-08-27 01:46 UTC] buy | [LLM] $Phonzi at $2.45776e-05, spent 0.1 SOL
+- **Reasoning:** $Phonzi has the strongest attention signal: explicit 'FOMO' narrative piggybacking on a hot market, real Twitter handle, $24k mcap with 40% bond. Memecoin narrative play.
+
+## [2026-08-27 01:46 UTC] buy | [LLM] $MICHELLE at $2.96084e-06, spent 0.1 SOL
+- **Reasoning:** Michelle Obama political meme — political figure coins move on news cycles and have viral potential. Two competitors already launched, this one is fresher at $3k mcap with low bond (early entry).
+
