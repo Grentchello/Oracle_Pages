@@ -2410,3 +2410,9 @@
 ## [2026-08-27 00:24 UTC] buy | [LLM] $TRIPSOL at $9.69566e-06, spent 0.1 SOL
 - **Reasoning:** $TRIPSOL — 'Trip Pump Sol' name is a self-aware meta-narrative,60% airdrop to top 15 holders creates a real attention/incentive loop, 31% bond is furthest along. Strongest narrative of the batch.
 
+## [2026-08-27 00:25 UTC] sell | [FULL][LLM] $MEMELORD at $2.841e-06 | P&L: -6.1%
+- **Reasoning:** $MEMELORD is -6.1% with 24h -26.2% — this one is actively bleeding while the rest of the book is flat. Cut the loser to free a slot and stop the drip.
+
+## [2026-08-27 00:25 UTC] buy | [LLM] $Bunny at $1.89358e-05, spent 0.1 SOL
+- **Reasoning:** $Bunny 'First Animal on Forbes' has a real narrative hook (Forbes animal story), bond38% nearly graduating, $19k mcap. Strong attention signal, lowest-float sweet spot.
+
