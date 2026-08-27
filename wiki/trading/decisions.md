@@ -6571,3 +6571,6 @@
 ## [2026-08-27 12:13 UTC] buy | [LLM] $Jing Tian at $3.96301e-06, spent 0.05 SOL
 - **Reasoning:** $Jing Tian carries a Justin Sun-attached tweet (high-follower celebrity amplifier) plus a personal-romance narrative — exactly the kind of attention that pumps microcaps in the first hour. Asymmetric risk at $4k mcap.
 
+## [2026-08-27 12:14 UTC] sell | [hard-stop] $CYBERWAR closed at $4.04439e-06 | P&L: -44.1%
+- **Reasoning:** Hard -30% stop
+
