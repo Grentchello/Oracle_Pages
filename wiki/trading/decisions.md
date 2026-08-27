@@ -4804,3 +4804,15 @@
 ## [2026-08-27 08:52 UTC] buy | [LLM] $TENDIES at $6.758e-06, spent 0.05 SOL
 - **Reasoning:** TENDIES has a memorable meme-food identity, an active-looking X handle, and a Discord launch source that can rapidly distribute attention. Its 1.1-minute age and low market cap create substantial volatility, but the narrative is sufficiently clear for a small experimental position.
 
+## [2026-08-27 08:53 UTC] sell | [hard-stop] $TENDIES closed at $3.34515e-06 | P&L: -50.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 08:53 UTC] sell | [TP +30% (25%)] $computa at $1.19095e-05 | P&L: +87.5%
+- **Reasoning:** Auto take-profit at +87.5%
+
+## [2026-08-27 08:53 UTC] sell | [PARTIAL][LLM] $computa at $1.19095e-05 | P&L: +87.5%
+- **Reasoning:** Up +87.5% — bot already auto-TP'd at +50% so half is locked. Sell remaining half now to bank gains; bonding-curve pool is only $3.2k and reverse is fast. Discipline says aggressive profit-taking when up >20%.
+
+## [2026-08-27 08:54 UTC] buy | [LLM] $Finley at $3.15296e-06, spent 0.05 SOL
+- **Reasoning:** $Finley — real Guinness World Record dog narrative (tennis ball record), posted by @gwr. This is the strongest viral story in the batch: real animal, real record, real X account. Low mcap $3.1k, fresh 0.2min. Classic attention-meme setup.
+
