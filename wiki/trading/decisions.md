@@ -4645,3 +4645,18 @@
 ## [2026-08-27 08:34 UTC] buy | [LLM] $SOLBONKEY at $1.225e-06, spent 0.1 SOL
 - **Reasoning:** $SOLBONKEY — cross-chain narrative (Base 5mil → SOL), explicit shilling, degen-friendly brand, $2.3k mcap with viral migration story.
 
+## [2026-08-27 08:35 UTC] sell | [PARTIAL][LLM] $Baby at $2.92953e-06 | P&L: -32.1%
+- **Reasoning:** Down -32% with pool only $8 and we hold 88% of it — we're the exit liquidity. No bounce signal, -50% hard stop is close. Cut now.
+
+## [2026-08-27 08:35 UTC] sell | [FULL][LLM] $Pepe at $3.01774e-06 | P&L: -27.7%
+- **Reasoning:** Down -27.7% on a generic Pepe name with weak narrative differentiation. -50% cap approaching, exit before it gets worse.
+
+## [2026-08-27 08:35 UTC] sell | [PARTIAL][LLM] $SOLBONKEY at $9.0109e-07 | P&L: -26.4%
+- **Reasoning:** Down -26.4%, pool only $17, we hold 45% — illiquid and bleeding. No reason to hold, free the slot for fresh entries.
+
+## [2026-08-27 08:35 UTC] buy | [LLM] $SOLAMA at $1.717e-05, spent 0.1 SOL
+- **Reasoning:** $SOLAMA — Solama narrative piggybacks on Bonk/Solana dog meta, $18k mcap with 37% bonding curve progress (some traction already), dedicated X account @SolamaSPL. Clear narrative, decent attention signal.
+
+## [2026-08-27 08:35 UTC] buy | [LLM] $MEOW at $3.731e-06, spent 0.1 SOL
+- **Reasoning:** $MEOW 'Lock In' — HTX (major exchange) tweet is unusual attention signal for a fresh launch, sub-minute age with $3.7k mcap. CEX-adjacent attention can drive early pumps.
+
