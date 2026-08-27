@@ -3463,3 +3463,21 @@
 ## [2026-08-27 02:43 UTC] sell | [FULL][LLM] $Duster at $2.825e-06 | P&L: -16.9%
 - **Reasoning:** -16.8% with -3.2% on both 24h and 1h — no momentum, flat/dead. Slots are precious, freeing this for a higher-conviction play.
 
+## [2026-08-27 02:44 UTC] sell | [PARTIAL][LLM] $stage at $1.04148e-05 | P&L: +123.2%
+- **Reasoning:** $stage is +123% but bonding curve and 0% movement on 1h/24h suggests momentum has stalled. Lock in profit on half, let the rest ride if narrative stays hot.
+
+## [2026-08-27 02:44 UTC] sell | [FULL][LLM] $idk at $5.95528e-06 | P&L: -24.1%
+- **Reasoning:** $idk at -24.1% with no positive1h/24h signal and no clear narrative — capital is better deployed in fresh launches with attention.
+
+## [2026-08-27 02:44 UTC] buy | [LLM] $GREENPISTA at $9.63813e-06, spent 0.1 SOL
+- **Reasoning:** $GREENPISTA has a memorable, memeable 'Green Pistachio' identity at $9.6k mcap with 31% bonded — strong narrative coin at low mcap, classic attention play.
+
+## [2026-08-27 02:44 UTC] buy | [LLM] $ASHBORN at $3.71889e-06, spent 0.1 SOL
+- **Reasoning:** $ASHBORN has a rich lore description (Emberwyrm, volcanic map, Kaer castle) plus an active X account — narrative depth is exactly what drives memecoin virality.
+
+## [2026-08-27 02:44 UTC] sell | [PARTIAL][LLM] $stage at $1.03898e-05 | P&L: +122.7%
+- **Reasoning:** $stage is up +122.7% in 0.4h on a bonding-curve token with no catalyst shown. Take partial profit — this kind of move on a microcap can reverse fast, lock in gains while keeping skin in the game.
+
+## [2026-08-27 02:44 UTC] buy | [LLM] $PHAWIZ at $7.59981e-06, spent 0.1 SOL
+- **Reasoning:** $PHAWIZ 'Phantom Wizard / the real Pepe Tod' — explicit viral meme narrative with a TikTok-style hook ('most viral meme token out there'). $7.5k mcap with a story is the kind of asymmetric attention play the rules describe.
+

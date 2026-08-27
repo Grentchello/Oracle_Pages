@@ -814,18 +814,22 @@ def main():
     held_prices = {}  # mint -> {price_usd, change_24h, change_1h, liq, vol_24h, source}
     for mint, pos in state.get("positions", {}).items():
         pair = held_dex_data.get(mint)
-        if pair and _to_float(pair.get("priceUsd")) > 0:
+        ds_liq = _to_float((pair.get("liquidity") or {}).get("usd")) if pair else 0
+        ds_price = _to_float(pair.get("priceUsd")) if pair else 0
+
+        if ds_price > 0 and ds_liq > 0:
+            # Best case: real DEX with confirmed liquidity
             held_prices[mint] = {
-                "price_usd": _to_float(pair.get("priceUsd")),
+                "price_usd": ds_price,
                 "change_h24": _to_float((pair.get("priceChange") or {}).get("h24")),
                 "change_h1": _to_float((pair.get("priceChange") or {}).get("h1")),
-                "liquidity_usd": _to_float((pair.get("liquidity") or {}).get("usd")),
+                "liquidity_usd": ds_liq,
                 "volume_h24": _to_float((pair.get("volume") or {}).get("h24")),
                 "dex_id": pair.get("dexId"),
                 "source": "dexscreener",
             }
         else:
-            # No DexScreener pair. Try pump.fun bonding-curve.
+            # No real DEX liquidity. Try pump.fun bonding-curve (real_sol_reserves as liquidity proxy).
             coin = fetch_pumpfun_coin(mint)
             price_usd = 0
             chg24 = 0
@@ -839,15 +843,18 @@ def main():
                     price_usd = price_sol * sol_price
                 real_sol = _to_float(coin.get("real_sol_reserves")) / 1e9
                 complete = bool(coin.get("complete"))
+            # Effective liquidity: real_sol for bonding curve tokens, 0 if no data
+            effective_liq = real_sol * sol_price
             held_prices[mint] = {
-                "price_usd": price_usd,
+                "price_usd": price_usd if price_usd > 0 else ds_price,
                 "change_h24": chg24,
                 "change_h1": 0,
-                "liquidity_usd": real_sol * sol_price if real_sol > 0 else 0,
-                "volume_h24": 0,
-                "dex_id": "pumpfun",
-                "source": "bonding-curve" if price_usd > 0 else "missing",
+                "liquidity_usd": effective_liq,
+                "volume_h24": _to_float((pair.get("volume") or {}).get("h24")) if pair else 0,
+                "dex_id": "pumpfun" if not complete else pair.get("dexId") if pair else None,
+                "source": "bonding-curve" if price_usd > 0 else ("dexscreener-no-liq" if ds_price > 0 else "missing"),
                 "complete": complete,
+                "real_sol_reserves": real_sol,
             }
     if held_mints:
         log(f"Fetched prices for {len(held_mints)} held positions ({sum(1 for v in held_prices.values() if v['price_usd'] > 0)} with valid price)")
@@ -1024,6 +1031,26 @@ def main():
             token = next((t for t in tokens if t["mint"] == target_mint), None)
             if not token or _to_float(token.get("price_usd")) <= 0:
                 log(f"DEBUG: {target_mint[:10]} matched but no price (price_usd={token.get('price_usd') if token else 'NO TOKEN'})")
+                continue
+            # Liquidity gate: skip if effective liquidity < 5x position size.
+            # Position of 0.1 SOL (~$10) needs ≥$50 pool liquidity to exit safely.
+            pos_value_usd = POSITION_SIZE_SOL * sol_price
+            eff_liq = _to_float(token.get("liquidity_usd"))
+            if eff_liq <= 0:
+                # Try to fetch pump.fun data for liquidity proxy
+                coin = fetch_pumpfun_coin(target_mint)
+                if coin:
+                    real_sol = _to_float(coin.get("real_sol_reserves")) / 1e9
+                    eff_liq = real_sol * sol_price
+                    token["liquidity_usd"] = eff_liq
+                    token["real_sol_reserves"] = real_sol
+                    if not token.get("price_usd"):
+                        vsr = _to_float(coin.get("virtual_sol_reserves")) / 1e9
+                        vtr = _to_float(coin.get("virtual_token_reserves")) / 1e6
+                        if vsr > 0 and vtr > 0:
+                            token["price_usd"] = (vsr / vtr) * sol_price
+            if eff_liq < pos_value_usd * 5:
+                log(f"LIQUIDITY GATE: ${token.get('symbol')} rejected — pool ${eff_liq:.0f} < 5x position ${pos_value_usd:.2f}")
                 continue
             pos, err = execute_buy(state, target_mint, token, _to_float(token["price_usd"]), sol_price)
             if pos:
