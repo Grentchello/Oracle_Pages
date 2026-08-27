@@ -7273,3 +7273,12 @@
 ## [2026-08-27 13:51 UTC] buy | [LLM] $$WADDLE at $2.98422e-06, spent 0.05 SOL
 - **Reasoning:** $$WADDLE (MicroDuck) — tied to a real tweet from Hugging Face CEO @clementdelangue, which is a verified high-profile crypto-AI account. Story is strong: open-source $399 robot vs Big Tech humanoids. This has the strongest 'real attention from real account' signal in the batch. Position 0.05 SOL.
 
+## [2026-08-27 13:52 UTC] sell | [hard-stop] $SAMMY closed at $5.49239e-06 | P&L: -34.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 13:52 UTC] sell | [FULL][LLM] $$WADDLE at $3.01344e-06 | P&L: +1.0%
+- **Reasoning:** $WADDLE pool is only $42 with our 12% share — dangerously illiquid and barely clears the 5x position minimum. +1% gain with a tiny pool means any further delay risks getting stuck. Take what we can and free the slot.
+
+## [2026-08-27 13:52 UTC] buy | [LLM] $Ape8110 at $3.279e-06, spent 0.05 SOL
+- **Reasoning:** $Ape8110 'Apeonbananaphone' has the strongest narrative of the batch — concrete cultural reference (Nokia 8110 / Matrix banana phone), decent $3.3k mcap with bonding curve just starting. Memorable name + recognizable meme hook = real attention potential. 0.05 SOL position.
+
