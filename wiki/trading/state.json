@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.104382,
+  "balance_sol": 1.082082,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
       "symbol": "blindape",
       "name": "blindape",
-      "amount": 103.17001964493599,
+      "amount": 51.585009822467995,
       "entry_price_usd": 6.013e-06,
-      "entry_sol_spent": 6.103515625e-06,
+      "entry_sol_spent": 3.0517578125e-06,
       "entry_time": "2026-08-27T00:10:33.245228+00:00",
       "entry_usd_value": 10.164000000000001,
       "entry_signals": {
@@ -28,9 +28,9 @@
     "DesJdYxR7c2EyMyCPT16X2GppbEes4Czs7B9Z2QTpump": {
       "symbol": "MEME1921",
       "name": "The First Meme",
-      "amount": 2643022.432381412,
+      "amount": 1321511.216190706,
       "entry_price_usd": 3.825922881361587e-06,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.05,
       "entry_time": "2026-08-27T00:45:01.865156+00:00",
       "entry_usd_value": 10.112000000000002,
       "entry_signals": {
@@ -87,6 +87,28 @@
         "real_sol_reserves": 1.234247859,
         "description": "",
         "twitter": "https://x.com/turtleninjah/status/2092776980219326498?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "BD8BSi7QNSbTDVLmMetuaUuCi3DdcngMpXyUQybJpump": {
+      "symbol": "Shrekli",
+      "name": "Martin Shrekli",
+      "amount": 2432114.1456122627,
+      "entry_price_usd": 4.154204693980979e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T00:53:34.652524+00:00",
+      "entry_usd_value": 10.1035,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 4151.609932442063,
+        "ath_market_cap_usd": 4148.462775977175,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 6.380487267,
+        "description": "Martin Shrekli!",
+        "twitter": "https://x.com/KankiAlpha/status/2092777326140682694",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -3798,31 +3820,47 @@
       "pnl_pct": -24.22,
       "exit_reason": "LLM: sell_all — -24.2% and the 1h shows accelerating decline (-2.8% on 24h means it dropped from a higher level and isn't recovering). Free the slot for fresher atten",
       "partial": false
+    },
+    {
+      "mint": "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump",
+      "symbol": "blindape",
+      "name": "blindape",
+      "amount_sold": 51.585009822467995,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:10:33.245228+00:00",
+      "exit_time": "2026-08-27T00:53:34.651115+00:00",
+      "entry_price_usd": 6.013e-06,
+      "exit_price_usd": 1.181e-05,
+      "entry_sol_for_chunk": 3e-06,
+      "exit_sol_received": 6e-06,
+      "pnl_sol": 3e-06,
+      "pnl_pct": 96.41,
+      "exit_reason": "LLM: sell_half — +96.4% is past the +50% profit-take threshold and 290% 1h move suggests late to the easy pump. Lock half, let the rest ride if narrative continues.",
+      "partial": true
+    },
+    {
+      "mint": "DesJdYxR7c2EyMyCPT16X2GppbEes4Czs7B9Z2QTpump",
+      "symbol": "MEME1921",
+      "name": "The First Meme",
+      "amount_sold": 1321511.216190706,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:45:01.865156+00:00",
+      "exit_time": "2026-08-27T00:53:34.652291+00:00",
+      "entry_price_usd": 3.825922881361587e-06,
+      "exit_price_usd": 5.94e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.077694,
+      "pnl_sol": 0.027694,
+      "pnl_pct": 55.26,
+      "exit_reason": "LLM: sell_half — +55.3% just crossed the +50% profit-take line. 97% 1h move is extreme — take partial gains, keep runner in case continuation.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T00:52:02.443612+00:00",
+  "last_updated": "2026-08-27T00:53:34.652761+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.2,
-  "portfolio_value_usd": 142.09,
+  "last_sol_price_usd": 101.035,
+  "portfolio_value_usd": 144.7,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 00:45 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Po at $8.461e-06 | P&L: -29.9%",
-      "reason": "-29.9% from entry in 12 minutes despite +148% 1h — momentum already fading vs my entry, free the slot."
-    },
-    {
-      "time": "2026-08-27 00:45 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $COTUS at $4.104e-06 | P&L: -34.4%",
-      "reason": "-34.3% in minutes, no narrative edge vs the new launches; free slot for better setups."
-    },
-    {
-      "time": "2026-08-27 00:45 UTC",
-      "action": "buy",
-      "details": "[LLM] $MEME1921 at $3.82592e-06, spent 0.1 SOL",
-      "reason": "$MEME1921 — 'first meme' cultural-investigation hook with an X community link is a viral narrative; cheap sub-$4k mcap, asymmetric attention bet."
-    },
     {
       "time": "2026-08-27 00:45 UTC",
       "action": "buy",
@@ -3924,63 +3962,81 @@
       "action": "buy",
       "details": "[LLM] $FALLING at $3.06706e-06, spent 0.1 SOL",
       "reason": "$FALLING (The Falling Cat) — falling cat videos are proven viral meme format with strong X post backing. $3k mcap, 0.1min old, bond4% progressing — earliest attention capture at lowest mcap."
+    },
+    {
+      "time": "2026-08-27 00:53 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $blindape at $1.181e-05 | P&L: +96.4%",
+      "reason": "+96.4% is past the +50% profit-take threshold and 290% 1h move suggests late to the easy pump. Lock half, let the rest ride if narrative continues."
+    },
+    {
+      "time": "2026-08-27 00:53 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $MEME1921 at $5.94e-06 | P&L: +55.3%",
+      "reason": "+55.3% just crossed the +50% profit-take line. 97% 1h move is extreme — take partial gains, keep runner in case continuation."
+    },
+    {
+      "time": "2026-08-27 00:53 UTC",
+      "action": "buy",
+      "details": "[LLM] $Shrekli at $4.1542e-06, spent 0.1 SOL",
+      "reason": "Martin Shrekli is peak memecoin material — 'Pharma Bro,' jailed, universally hated/recognized villain. Companion $Daraprim launch confirms narrative traction. Fresh (0.1min), lowest mcap of the 'story' plays at $4k = most upside."
     }
   ],
   "trade_stats": {
-    "total": 218,
-    "wins": 106,
+    "total": 220,
+    "wins": 108,
     "losses": 112,
-    "win_rate_pct": 48.6,
-    "total_pnl_sol": -0.495611,
-    "avg_pnl_pct": 81.31,
+    "win_rate_pct": 49.1,
+    "total_pnl_sol": -0.467914,
+    "avg_pnl_pct": 81.26,
     "best_pnl_pct": 702.21,
     "worst_pnl_pct": -99.89,
-    "today_trades": 75,
-    "today_realized_sol": 0.033596,
-    "today_target_pct": 8.4,
+    "today_trades": 77,
+    "today_realized_sol": 0.061293,
+    "today_target_pct": 15.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 106,
+      "win_count": 108,
       "loss_count": 112,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T00:52:02.443025+00:00",
+  "last_llm_brief_at": "2026-08-27T00:53:34.651083+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
-      "price_usd": 1.207e-05,
-      "change_h24": 298.0,
-      "change_h1": 298.0,
+      "price_usd": 1.181e-05,
+      "change_h24": 290.0,
+      "change_h1": 290.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 84951.23,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "B21bwBAQP8TJMoVg9ynBZdAwQDwiJrpgVrPHW8yUpump": {
-      "price_usd": 2.922e-06,
-      "change_h24": -2.8,
-      "change_h1": -2.8,
-      "liquidity_usd": 0.0,
-      "volume_h24": 6296.47,
+      "volume_h24": 85049.1,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "DesJdYxR7c2EyMyCPT16X2GppbEes4Czs7B9Z2QTpump": {
-      "price_usd": 5.397e-06,
-      "change_h24": 79.03,
-      "change_h1": 79.03,
+      "price_usd": 5.94e-06,
+      "change_h24": 97.06,
+      "change_h1": 97.06,
       "liquidity_usd": 0.0,
-      "volume_h24": 1642.21,
+      "volume_h24": 2204.9,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "3HR2za2R21e7e8wCFQGayH3PmXC2gMnfySZ556cbpump": {
-      "price_usd": 4.36e-06,
-      "change_h24": 44.79,
-      "change_h1": 44.79,
+      "price_usd": 4.227e-06,
+      "change_h24": 40.39,
+      "change_h1": 40.39,
       "liquidity_usd": 0.0,
-      "volume_h24": 1110.07,
+      "volume_h24": 1310.56,
+      "dex_id": "pumpfun",
+      "source": "dexscreener"
+    },
+    "CsLLTgYCPCLJFzLRLxciEwM4NVboaBmSFZiXQJN9pump": {
+      "price_usd": 2.824e-06,
+      "change_h24": -6.33,
+      "change_h1": -6.33,
+      "liquidity_usd": 0.0,
+      "volume_h24": 252.09,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

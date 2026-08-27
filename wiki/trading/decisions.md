@@ -2614,3 +2614,12 @@
 ## [2026-08-27 00:52 UTC] buy | [LLM] $FALLING at $3.06706e-06, spent 0.1 SOL
 - **Reasoning:** $FALLING (The Falling Cat) — falling cat videos are proven viral meme format with strong X post backing. $3k mcap, 0.1min old, bond4% progressing — earliest attention capture at lowest mcap.
 
+## [2026-08-27 00:53 UTC] sell | [PARTIAL][LLM] $blindape at $1.181e-05 | P&L: +96.4%
+- **Reasoning:** +96.4% is past the +50% profit-take threshold and 290% 1h move suggests late to the easy pump. Lock half, let the rest ride if narrative continues.
+
+## [2026-08-27 00:53 UTC] sell | [PARTIAL][LLM] $MEME1921 at $5.94e-06 | P&L: +55.3%
+- **Reasoning:** +55.3% just crossed the +50% profit-take line. 97% 1h move is extreme — take partial gains, keep runner in case continuation.
+
+## [2026-08-27 00:53 UTC] buy | [LLM] $Shrekli at $4.1542e-06, spent 0.1 SOL
+- **Reasoning:** Martin Shrekli is peak memecoin material — 'Pharma Bro,' jailed, universally hated/recognized villain. Companion $Daraprim launch confirms narrative traction. Fresh (0.1min), lowest mcap of the 'story' plays at $4k = most upside.
+
