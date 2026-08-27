@@ -5677,3 +5677,18 @@
 ## [2026-08-27 10:30 UTC] buy | [LLM] $DED at $4.31258e-06, spent 0.05 SOL
 - **Reasoning:** $DED 'The Door Eating Dog' is absurdist humor with viral potential (think 'door' + 'eating' is the kind of unhinged that trends). $4.3k mcap, 15% bonded, fresh. Cheap entry, asymmetric upside.
 
+## [2026-08-27 10:31 UTC] sell | [FULL][LLM] $OG at $5.80514e-06 | P&L: -22.1%
+- **Reasoning:** $OG down -22.1%, pool only $1290, very thin liquidity and no bounce signal — exit before the -30% hard stop hits and to free slot.
+
+## [2026-08-27 10:31 UTC] sell | [FULL][LLM] $SHIT at $5.34663e-06 | P&L: -25.8%
+- **Reasoning:** $SHIT down -25.7% and approaching the -30% hard stop, weak pool $1112 — cut the loss now, no narrative to hold for.
+
+## [2026-08-27 10:31 UTC] sell | [FULL][LLM] $DED at $3.13351e-06 | P&L: -27.3%
+- **Reasoning:** $DED down -27.3% with the weakest pool ($121) of the three — already near hard stop, exit cleanly and rotate into fresher names.
+
+## [2026-08-27 10:31 UTC] buy | [LLM] $PweaseBull at $1.59045e-05, spent 0.05 SOL
+- **Reasoning:** $PweaseBull — 'Pwease' is a viral meme format with proven attention (Pwease family pumps regularly), highest mcap of fresh batch at $15.9k, bonding 36% — early but narrative is the play.
+
+## [2026-08-27 10:31 UTC] buy | [LLM] $Fox at $1.19155e-05, spent 0.05 SOL
+- **Reasoning:** $Fox (Red Fox In Fog) — @MarioPrezidente tweet is the kind of KOL shilled-art launch that captures attention, $11.9k mcap very early, decent narrative hook with the imagery concept.
+
