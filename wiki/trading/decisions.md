@@ -3067,3 +3067,12 @@
 ## [2026-08-27 01:49 UTC] sell | [PARTIAL][LLM] $Buddy at $3.881e-05 | P&L: +162.4%
 - **Reasoning:** $Buddy is +162% but 24h/1h both -7% — momentum is fading, partial exit locks in ~0.13 SOL profit while leaving a free runner. Selling all would also be defensible; half is the disciplined middle ground.
 
+## [2026-08-27 01:50 UTC] sell | [PARTIAL][LLM] $Buddy at $5.529e-05 | P&L: +273.8%
+- **Reasoning:** $Buddy is +273.8% in 0.2h — this is parabolic, classic take-profit signal. Lock in some gains on half; let the rest ride if narrative holds. Degen moons rarely sustain.
+
+## [2026-08-27 01:50 UTC] buy | [LLM] $AGENTS at $3.48648e-06, spent 0.1 SOL
+- **Reasoning:** $AGENTS has the strongest narrative — 'Ansem Agents' ties into the meta of AI/agent trading infrastructure, and Ansem is a known memecoin amplifier. Community-powered agents narrative is hot. Low mcap, fresh attention.
+
+## [2026-08-27 01:50 UTC] buy | [LLM] $Scramble at $5.99076e-06, spent 0.1 SOL
+- **Reasoning:** $Scramble has a memeable name ('Scramble Cat'), bond 24% (highest in batch = strongest buy pressure so far), and an active twitter link. j7tracker deploys often see early traction.
+
