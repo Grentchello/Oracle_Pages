@@ -6352,3 +6352,9 @@
 ## [2026-08-27 11:51 UTC] buy | [LLM] $BESKAR at $4.444e-06, spent 0.05 SOL
 - **Reasoning:** $BESKAR narrative is strong - Star Wars 'mandalorian beskar' meme coin with explicit '100% open market, no team allocation' fair launch claim. Has dedicated @BeskarCovert twitter. Narrative quality is high for viral spread.
 
+## [2026-08-27 11:52 UTC] sell | [TP +100% (50%)] $UNYIL at $1.91115e-05 | P&L: +164.7%
+- **Reasoning:** Auto take-profit at +164.7%
+
+## [2026-08-27 11:52 UTC] sell | [TP +30% (25%)] $KC at $2.11258e-05 | P&L: +88.0%
+- **Reasoning:** Auto take-profit at +88.0%
+
