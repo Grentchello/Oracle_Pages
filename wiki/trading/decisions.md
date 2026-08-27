@@ -6427,3 +6427,9 @@
 ## [2026-08-27 11:59 UTC] sell | [hard-stop] $YOU closed at $2.90494e-06 | P&L: -33.8%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 11:59 UTC] buy | [LLM] $Aur0ra at $2.135e-05, spent 0.05 SOL
+- **Reasoning:** $Aur0ra at $23.9k mcap with 39% bonding curve progress and linked Twitter (QuantaDev123) — biggest fresh launch of the batch with real attention signal and closest to graduation. Narrative name with cosmic/viral appeal.
+
+## [2026-08-27 11:59 UTC] buy | [LLM] $Yayoi at $4.43212e-06, spent 0.05 SOL
+- **Reasoning:** $Yayoi 'RIP Yayoi Kusama' — death-tribute narrative is a proven viral pattern in memecoins. Ultra-fresh at $4.4k mcap with active tweet, asymmetric upside if tribute catches.
+
