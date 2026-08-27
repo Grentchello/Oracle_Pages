@@ -3505,3 +3505,21 @@
 ## [2026-08-27 02:48 UTC] sell | [PARTIAL][LLM] $GREENPISTA at $1.62812e-05 | P&L: +68.9%
 - **Reasoning:** $GREENPISTA at +68.9% — taking profit per the +50% rule. Half keeps upside if narrative continues, half locks in gains.
 
+## [2026-08-27 02:48 UTC] sell | [FULL][LLM] $ATLAS at $2.93398e-06 | P&L: -39.2%
+- **Reasoning:** ATLAS -39.2% on a thin $57 pool with no real traction — cut and redeploy capital into fresh attention.
+
+## [2026-08-27 02:48 UTC] sell | [FULL][LLM] $USEFUL at $2.82749e-06 | P&L: -6.4%
+- **Reasoning:** USEFUL has pool=$0 (dead liquidity) and our 'share' is absurdly inflated — this is a rug, exit immediately.
+
+## [2026-08-27 02:48 UTC] sell | [FULL][LLM] $monkey.jpeg at $3.19966e-06 | P&L: -81.6%
+- **Reasoning:** monkey.jpeg down -81.6%, well below the -50% trigger consideration; bonding curve dead, no narrative left, harvest remaining dust.
+
+## [2026-08-27 02:48 UTC] buy | [LLM] $WIF² at $9.15215e-06, spent 0.1 SOL
+- **Reasoning:** $WIF² fresh launch with viral X post and bonding31% — dogwifhat meta has proven attention, riding the early wave.
+
+## [2026-08-27 02:48 UTC] buy | [LLM] $WIFWIF at $8.19759e-06, spent 0.1 SOL
+- **Reasoning:** $WIFWIF same dogwifhat narrative, twin launch getting traction — bet on the meme cluster attention.
+
+## [2026-08-27 02:48 UTC] buy | [LLM] $MAX at $3.01673e-06, spent 0.1 SOL
+- **Reasoning:** $MAX riding Claude/AI narrative with a specific viral story (Claude's pet dog) — attention-driven AI meme angle.
+
