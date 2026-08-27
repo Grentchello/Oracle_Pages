@@ -3229,3 +3229,18 @@
 ## [2026-08-27 02:08 UTC] buy | [LLM] $NetNut at $3.27433e-06, spent 0.1 SOL
 - **Reasoning:** Concrete viral moment: squirrel running on the net during a live Mets MLB game — this type of organic live-sports viral footage has historical 10x+ memecoin precedent (see: $Rally, various stadium animal coins). $3.2k mcap is the sweet spot, 0.1min age means pure early attention. Risk: 0.1min = extreme rug risk, size is already 0.1 SOL which is our standard risk unit.
 
+## [2026-08-27 02:10 UTC] sell | [FULL][LLM] $MOON at $1.324e-06 | P&L: -64.0%
+- **Reasoning:** $MOON is at -64%, well past the -50% hard cap. Should have been auto-closed. Cutting loss now to free slot for fresh attention.
+
+## [2026-08-27 02:10 UTC] sell | [FULL][LLM] $NEYMAR at $2.953e-06 | P&L: -43.4%
+- **Reasoning:** $NEYMAR at -43.4% and1h=-3.2% shows continued bleed toward -50% hard cap. Exit preemptively to preserve capital for better setups.
+
+## [2026-08-27 02:10 UTC] sell | [FULL][LLM] $Shrekli at $2.979e-06 | P&L: -30.0%
+- **Reasoning:** $Shrekli at -30% with 1h=-13.4% is bleeding fast in just0.0h held. No narrative momentum visible, cutting to redeploy slot.
+
+## [2026-08-27 02:10 UTC] buy | [LLM] $HODL at $2.35098e-05, spent 0.1 SOL
+- **Reasoning:** $HODL — 'HODL' is the most iconic crypto meme name, backed by BitcoinCom (major crypto media) tweet. $23.5k mcap with 39% bond = real attention, not bots. Classic attention-market play.
+
+## [2026-08-27 02:10 UTC] buy | [LLM] $ALEX at $7.12435e-06, spent 0.1 SOL
+- **Reasoning:** $ALEX (Anthropic Emotional AI) — AI agent narrative is the hottest meta in crypto right now. $7k mcap is extremely early; if narrative catches, 10-50x is on table. High risk but attention-aligned.
+
