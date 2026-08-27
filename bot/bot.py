@@ -918,12 +918,17 @@ def main():
 
     # 8. Hard stop-loss (-50%) — non-negotiable
     for mint, pos in list(state.get("positions", {}).items()):
-        token = next((t for t in tokens if t["mint"] == mint), None)
-        if not token:
-            continue
-        cur_price = _to_float(token.get("price_usd"))
+        # Hard stop fires regardless of whether mint is in fresh-tokens list.
+        # Use held_prices (always populated for held positions).
+        hp = held_prices.get(mint) or {}
+        cur_price = _to_float(hp.get("price_usd"))
         if cur_price <= 0:
-            continue
+            # Try fresh tokens as fallback
+            token = next((t for t in tokens if t["mint"] == mint), None)
+            if token:
+                cur_price = _to_float(token.get("price_usd"))
+            if cur_price <= 0:
+                continue
         entry_price = _to_float(pos.get("entry_price_usd"))
         if entry_price > 0 and cur_price / entry_price <= (1 - HARD_STOP_LOSS):
             trade = execute_sell(state, mint, cur_price, 1.0, f"hard-stop -{int(HARD_STOP_LOSS*100)}%")
