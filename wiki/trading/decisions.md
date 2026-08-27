@@ -5317,3 +5317,9 @@
 ## [2026-08-27 09:55 UTC] buy | [LLM] $Stocker at $3.32531e-06, spent 0.05 SOL
 - **Reasoning:** $Stocker — agent narrative ('basket of bulls tracked in real time') + Memestockerlive X account is a legit-looking creator account. Agent meta is hot right now. 0.05 SOL entry.
 
+## [2026-08-27 09:56 UTC] sell | [TP +30% (25%)] $CTREMP at $2.65274e-05 | P&L: +57.1%
+- **Reasoning:** Auto take-profit at +57.1%
+
+## [2026-08-27 09:56 UTC] sell | [TP +30% (25%)] $GOATS at $4.74238e-06 | P&L: +32.5%
+- **Reasoning:** Auto take-profit at +32.5%
+
