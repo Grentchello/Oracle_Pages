@@ -6979,3 +6979,6 @@
 ## [2026-08-27 13:06 UTC] buy | [LLM] $BLINDAPE at $3.03395e-06, spent 0.05 SOL
 - **Reasoning:** $BLINDAPE 'No thesis, just blind ape' is meta-narrative with dedicated Twitter account @BlindApeOnPF — self-aware ape meta resonates with current memecoin culture, $3k mcap fresh.
 
+## [2026-08-27 13:07 UTC] sell | [TP +100% (50%)] $PIGEONMAN at $1.0495e-05 | P&L: +135.2%
+- **Reasoning:** Auto take-profit at +135.1%
+
