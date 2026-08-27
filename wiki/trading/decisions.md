@@ -7318,3 +7318,6 @@
 ## [2026-08-27 13:59 UTC] sell | [TP +30% (25%)] $gavun at $7.0037e-06 | P&L: +39.1%
 - **Reasoning:** Auto take-profit at +39.1%
 
+## [2026-08-27 13:59 UTC] sell | [PARTIAL][LLM] $gavun at $7.0037e-06 | P&L: +39.1%
+- **Reasoning:** $gavun up +39.1% but on a tiny bonding-curve pool ($1.7k). Bonding-curve tokens that pump early often revert as curve completion stalls or insiders dump. Lock half the gain, let the rest ride with the stop at -30%.
+
