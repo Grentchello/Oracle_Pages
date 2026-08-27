@@ -4543,3 +4543,15 @@
 ## [2026-08-27 08:23 UTC] buy | [LLM] $Liberty at $9.943e-06, spent 0.1 SOL
 - **Reasoning:** $Liberty (The Bald Eagle) — highest mcap $13.3k of fresh launches, patriotic narrative with dev push on Twitter, discord-launched. Strongest mcap signal in the batch. 0.1 SOL.
 
+## [2026-08-27 08:24 UTC] sell | [hard-stop] $Liberty closed at $4.6387e-06 | P&L: -53.4%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 08:24 UTC] sell | [TP +100% (75%)] $sigma at $8.4185e-06 | P&L: +163.9%
+- **Reasoning:** Auto take-profit at +163.9%
+
+## [2026-08-27 08:24 UTC] sell | [PARTIAL][LLM] $sigma at $8.4185e-06 | P&L: +163.9%
+- **Reasoning:** Showing +163.9% gain — locking half at this level per scalp discipline. Note: pool=$0 and share% data is nonsensical (likely data feed corruption), so half-exit may not execute cleanly. If real, this is a clear take-profit signal.
+
+## [2026-08-27 08:25 UTC] buy | [LLM] $THEJEETS at $4.804e-06, spent 0.1 SOL
+- **Reasoning:** $THEJEETS — 'the sims except everyone is a jeet' is genuinely meta-funny memecoin culture self-awareness. Strongest narrative among fresh launches; the 'jeet' in-group reference is exactly the kind of insider humor that pumps in this market. Risk: $4.4k mcap and only 16% bonding — high rug probability, size is small at 0.1 SOL.
+
