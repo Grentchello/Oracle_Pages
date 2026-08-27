@@ -924,6 +924,7 @@ def main():
         if cur_price <= 0 or entry_price <= 0:
             continue
         pnl_pct = (cur_price / entry_price - 1) * 100
+        log(f"TP-check: ${pos.get('symbol')} pnl={pnl_pct:+.1f}% cur={cur_price:.10f} entry={entry_price:.10f}")
         # Take-profit tiers
         if pnl_pct >= 300:
             tp_action = "TP +300% (full)"

@@ -3706,3 +3706,15 @@
 ## [2026-08-27 03:06 UTC] buy | [LLM] $Dolly at $5.65118e-06, spent 0.1 SOL
 - **Reasoning:** $Dolly (Dolly Parton) — celebrity name is pure attention fuel, has X post driving signal, $5.6k mcap is pre-pump territory. Two copies racing means the narrative is hot.
 
+## [2026-08-27 03:07 UTC] sell | [FULL][LLM] $Gamble at $7.06743e-06 | P&L: -18.1%
+- **Reasoning:** $Gamble down 18% on a $1.7k pool with 0% our-share — no edge here, freeing slot for a fresher attention play.
+
+## [2026-08-27 03:07 UTC] sell | [FULL][LLM] $hakes at $3.71965e-06 | P&L: +26.7%
+- **Reasoning:** $hakes up +26.7% but tiny $445 pool with our 3% share — illiquid exit risk grows the longer we hold; lock the green and redeploy.
+
+## [2026-08-27 03:07 UTC] sell | [FULL][LLM] $cat at $2.715e-06 | P&L: -84.5%
+- **Reasoning:** $cat down 84.5% in 0.1h on $2.7k pool with 0% share — this is dead, free the slot instead of waiting on a miracle.
+
+## [2026-08-27 03:07 UTC] sell | [FULL][LLM] $Dolly at $8.02176e-06 | P&L: +42.0%
+- **Reasoning:** $Dolly +41.9% on $2k pool — taking profit, freeing slot for fresh attention buys.
+
