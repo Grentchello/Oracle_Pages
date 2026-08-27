@@ -2302,3 +2302,9 @@
 ## [2026-08-27 00:09 UTC] buy | [LLM] $SAVMON at $3.47197e-06, spent 0.1 SOL
 - **Reasoning:** $SAVMON (Savage Mongoose) — zumpsol twitter handle attached, animal-meme format ('the real Pepe Tod' adjacent copy in this cluster). Duplicate launches suggest a creator pushing attention — early sizing pays if one catches.
 
+## [2026-08-27 00:10 UTC] sell | [FULL][LLM] $Trumppower at $3.225e-07 | P&L: +34.9%
+- **Reasoning:** +34.9% but 24h=-88.7% and 1h=-88.7% — textbook dead cat bounce after a massive dump. Take the profit before it fades, free a slot for fresh attention.
+
+## [2026-08-27 00:10 UTC] buy | [LLM] $blindape at $6.013e-06, spent 0.1 SOL
+- **Reasoning:** $blindape — ape meta at $4.9k mcap with 19% bond filling fast, classic viral attention play, 0.6min old means earliest entry.
+
