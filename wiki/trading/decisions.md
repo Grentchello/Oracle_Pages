@@ -3916,3 +3916,21 @@
 ## [2026-08-27 03:25 UTC] buy | [LLM] $aped at $6.235e-06, spent 0.1 SOL
 - **Reasoning:** $aped has a one-word punchy name and a dedicated X account (@aped_onsol_) launched minutes ago — the dedicated handle is a strong attention signal. Small bet on viral naming.
 
+## [2026-08-27 03:26 UTC] sell | [TP +100% (75%)] $Cashew at $4.14679e-05 | P&L: +116.4%
+- **Reasoning:** Auto take-profit at +116.4%
+
+## [2026-08-27 03:26 UTC] sell | [TP +30% (half)] $aped at $1.12876e-05 | P&L: +81.0%
+- **Reasoning:** Auto take-profit at +81.0%
+
+## [2026-08-27 03:27 UTC] sell | [PARTIAL][LLM] $Cashew at $4.14679e-05 | P&L: +116.4%
+- **Reasoning:** +116% with no visible narrative catalyst and tiny mcap ($8.5k pool). Highly revertable. Lock half, let the rest ride if momentum continues.
+
+## [2026-08-27 03:27 UTC] sell | [FULL][LLM] $CALLY at $1.03178e-05 | P&L: +19.2%
+- **Reasoning:** +19% with no narrative and low liquidity ($2.7k pool). Marginal gain not worth revert risk; free the slot for higher-conviction entries.
+
+## [2026-08-27 03:27 UTC] sell | [PARTIAL][LLM] $aped at $1.12876e-05 | P&L: +81.0%
+- **Reasoning:** +81% but no narrative signal and tiny pool ($3k). Lock half, ride half — same logic as Cashew.
+
+## [2026-08-27 03:27 UTC] buy | [LLM] $fone at $6.73863e-06, spent 0.1 SOL
+- **Reasoning:** $fone/monkeyonfone has the strongest bonding-curve progress (26%) of any fresh launch and a real twitter handle — attention > logic in memecoins.
+
