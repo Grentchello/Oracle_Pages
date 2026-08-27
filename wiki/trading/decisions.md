@@ -2437,3 +2437,15 @@
 ## [2026-08-27 00:31 UTC] buy | [LLM] $TopKek at $9.51658e-06, spent 0.1 SOL
 - **Reasoning:** $TopKek — 'Top Kek' is a legendary viral meme template, $9.5k mcap is the highest among fresh launches, 31% bond progress is leading, and Twitter post is generating attention. Best narrative-to-mcap ratio in the slate.
 
+## [2026-08-27 00:32 UTC] sell | [FULL][LLM] $Gary at $2.835e-06 | P&L: -6.3%
+- **Reasoning:** -6.3% and bleeding. Weakest position, no narrative momentum, freeing slot + cash for fresh meta-play ($APE).
+
+## [2026-08-27 00:32 UTC] sell | [FULL][LLM] $Squishy at $2.838e-06 | P&L: -1.2%
+- **Reasoning:** -1.2% and fading (-4.9% 24h). No attention catalyst, freeing second slot for $APE entry.
+
+## [2026-08-27 00:32 UTC] buy | [LLM] $APE at $9.01508e-06, spent 0.1 SOL
+- **Reasoning:** $APE — 'ape' meta is literally playing out in our book (+175% on $blindape). Bond 31% (highest), highest mcap ($9k = some validation), X link from @_GodDev. Doubling down on the meta-narrative that's already paying us.
+
+## [2026-08-27 00:32 UTC] buy | [LLM] $mouse at $4.74213e-06, spent 0.1 SOL
+- **Reasoning:** $mouse (tardwifmouse) — classic animal-meme naming pattern that historically prints. Bond 19%, X tweet attached. Viral attention format, $4.7k mcap = pure early-stage attention.
+
