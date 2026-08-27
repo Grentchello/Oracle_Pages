@@ -4789,3 +4789,9 @@
 ## [2026-08-27 08:51 UTC] sell | [FULL][LLM] $wiffone at $3.32962e-05 | P&L: +90.7%
 - **Reasoning:** $wiffone at +90.7% in 0.0h is a fart-joke meme with weak narrative. Bonding-curve tokens with no story reverse violently. Take the +90% profit NOW - don't hope for a 2x that likely becomes a -50%.
 
+## [2026-08-27 08:51 UTC] sell | [PARTIAL][LLM] $GTAVI at $2.95321e-05 | P&L: +71.5%
+- **Reasoning:** +71.5% in 0.1h, bonding curve barely filled (26% in pool), strong narrative name (GTA VI hype). Lock half the gain now — the other half rides free. Refuse to give back 50% of a winner.
+
+## [2026-08-27 08:51 UTC] sell | [PARTIAL][LLM] $wiffone at $3.32962e-05 | P&L: +90.7%
+- **Reasoning:** +90.7% in 0.0h, pool only $7.4k, our share 0% (still on bonding curve). Lock half — these microcap bonding-curve runners rug or fade fast once the curve fills. Don't be a hero.
+
