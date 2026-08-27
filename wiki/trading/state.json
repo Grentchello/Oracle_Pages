@@ -1,14 +1,14 @@
 {
-  "balance_sol": 1.200748,
+  "balance_sol": 1.175611,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
       "symbol": "blindape",
       "name": "blindape",
-      "amount": 825.3601571594879,
+      "amount": 412.68007857974396,
       "entry_price_usd": 6.013e-06,
-      "entry_sol_spent": 4.8828125e-05,
+      "entry_sol_spent": 2.44140625e-05,
       "entry_time": "2026-08-27T00:10:33.245228+00:00",
       "entry_usd_value": 10.164000000000001,
       "entry_signals": {
@@ -28,9 +28,9 @@
     "B21bwBAQP8TJMoVg9ynBZdAwQDwiJrpgVrPHW8yUpump": {
       "symbol": "PTA",
       "name": "Pokemon Theft Auto",
-      "amount": 1310035.5030266007,
+      "amount": 655017.7515133003,
       "entry_price_usd": 3.855964199694998e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T00:42:17.939902+00:00",
       "entry_usd_value": 10.1029,
       "entry_signals": {
@@ -69,24 +69,24 @@
       },
       "llm_entry": true
     },
-    "E9B2X32WujpmJk27EoQYcv7Hqf9WtfQg2Acm3YM163n9": {
-      "symbol": "DEI6900",
-      "name": "Degenerate Economy Index 6900",
-      "amount": 1065712.8150908563,
-      "entry_price_usd": 9.471594839684318e-06,
+    "3HR2za2R21e7e8wCFQGayH3PmXC2gMnfySZ556cbpump": {
+      "symbol": "SKRIMP",
+      "name": "SmokinSkrimp",
+      "amount": 3109981.5157116456,
+      "entry_price_usd": 3.246e-06,
       "entry_sol_spent": 0.1,
-      "entry_time": "2026-08-27T00:47:45.543473+00:00",
-      "entry_usd_value": 10.094000000000001,
+      "entry_time": "2026-08-27T00:49:18.525256+00:00",
+      "entry_usd_value": 10.095,
       "entry_signals": {
-        "liquidity_usd": null,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9481.424991833432,
-        "ath_market_cap_usd": 10877.673393824398,
+        "liquidity_usd": 0.0,
+        "volume_24h_usd": 219.78,
+        "market_cap_usd": 3626.0000921345404,
+        "ath_market_cap_usd": 3635.9551800933414,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 24.959198987,
-        "description": "",
-        "twitter": "https://x.com/i/status/2092775902945869864",
+        "real_sol_reserves": 4.061525214,
+        "description": "Skrimpin ain’t easy https://x.com/smokinskrimpz?s=11 https://t.me/+L5CXjRHqMLg5NDEx",
+        "twitter": "https://x.com/smokinskrimpz?s=11",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -3679,37 +3679,64 @@
       "pnl_pct": -34.94,
       "exit_reason": "LLM: sell_all — Down 34.9%, 1h -24.6% and falling — no narrative edge, near -50% cap, cut and redeploy.",
       "partial": false
+    },
+    {
+      "mint": "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump",
+      "symbol": "blindape",
+      "name": "blindape",
+      "amount_sold": 412.68007857974396,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:10:33.245228+00:00",
+      "exit_time": "2026-08-27T00:49:18.524842+00:00",
+      "entry_price_usd": 6.013e-06,
+      "exit_price_usd": 8.916e-06,
+      "entry_sol_for_chunk": 2.4e-05,
+      "exit_sol_received": 3.6e-05,
+      "pnl_sol": 1.2e-05,
+      "pnl_pct": 48.28,
+      "exit_reason": "LLM: sell_half — $blindape +48% approaching the +50% take-profit zone; secure partial gains while letting the runner continue. 1h +194% suggests momentum may extend, s",
+      "partial": true
+    },
+    {
+      "mint": "B21bwBAQP8TJMoVg9ynBZdAwQDwiJrpgVrPHW8yUpump",
+      "symbol": "PTA",
+      "name": "Pokemon Theft Auto",
+      "amount_sold": 655017.7515133003,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T00:42:17.939902+00:00",
+      "exit_time": "2026-08-27T00:49:18.525066+00:00",
+      "entry_price_usd": 3.855964199694998e-06,
+      "exit_price_usd": 6.373e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.041351,
+      "pnl_sol": 0.016351,
+      "pnl_pct": 65.28,
+      "exit_reason": "LLM: sell_half — $PTA +65% already past the +50% profit-take trigger. Lock in gains; 1h +112% is parabolic, retrace risk is high.",
+      "partial": true
+    },
+    {
+      "mint": "E9B2X32WujpmJk27EoQYcv7Hqf9WtfQg2Acm3YM163n9",
+      "symbol": "DEI6900",
+      "name": "Degenerate Economy Index 6900",
+      "amount_sold": 1065712.8150908563,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T00:47:45.543473+00:00",
+      "exit_time": "2026-08-27T00:49:18.525167+00:00",
+      "entry_price_usd": 9.471594839684318e-06,
+      "exit_price_usd": 3.171e-06,
+      "entry_sol_for_chunk": 0.1,
+      "exit_sol_received": 0.033476,
+      "pnl_sol": -0.066524,
+      "pnl_pct": -66.52,
+      "exit_reason": "LLM: sell_all — $DEI6900 -66.5% breaches the -50% hard cap. This should have been auto-closed already; exit immediately to free capital and stop the bleed.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-27T00:47:45.543611+00:00",
+  "last_updated": "2026-08-27T00:49:18.525361+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.94,
-  "portfolio_value_usd": 146.47,
+  "last_sol_price_usd": 100.95,
+  "portfolio_value_usd": 141.41,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 00:40 UTC",
-      "action": "buy",
-      "details": "[LLM] $gubby at $3.06278e-06, spent 0.1 SOL",
-      "reason": "$gubby — pushed by named YouTuber KreekCraft (millions of views in the Roblox/creator space). That's a real attention source with a built-in audience, not random X chatter. Strongest narrative in the batch."
-    },
-    {
-      "time": "2026-08-27 00:42 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $LARRY at $2.823e-06 | P&L: -6.3%",
-      "reason": "$LARRY -6.3% with 1h flat (-6.3%) — no momentum, no narrative edge. Free slot."
-    },
-    {
-      "time": "2026-08-27 00:42 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Homerunner at $3.068e-06 | P&L: -69.8%",
-      "reason": "$Homerunner -69.8% is already past the -50% hard cap and 1h only +1.8% — should have been auto-closed. Sell to salvage remainder."
-    },
-    {
-      "time": "2026-08-27 00:42 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $gubby at $2.823e-06 | P&L: -7.8%",
-      "reason": "$gubby -7.8% with 1h -6.2%, no attention signal worth holding. Free slot."
-    },
     {
       "time": "2026-08-27 00:42 UTC",
       "action": "buy",
@@ -3805,72 +3832,87 @@
       "action": "buy",
       "details": "[LLM] $DEI6900 at $9.47159e-06, spent 0.1 SOL",
       "reason": "EricBalchunas (Bloomberg ETF analyst, real verified account) tweet about 'degenerate economy' + Howard Lindzon going viral. Multiple copycats spawned within minutes confirming attention. Strongest narrative of the tick."
+    },
+    {
+      "time": "2026-08-27 00:49 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $blindape at $8.916e-06 | P&L: +48.3%",
+      "reason": "$blindape +48% approaching the +50% take-profit zone; secure partial gains while letting the runner continue. 1h +194% suggests momentum may extend, so don't full-exit yet."
+    },
+    {
+      "time": "2026-08-27 00:49 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $PTA at $6.373e-06 | P&L: +65.3%",
+      "reason": "$PTA +65% already past the +50% profit-take trigger. Lock in gains; 1h +112% is parabolic, retrace risk is high."
+    },
+    {
+      "time": "2026-08-27 00:49 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DEI6900 at $3.171e-06 | P&L: -66.5%",
+      "reason": "$DEI6900 -66.5% breaches the -50% hard cap. This should have been auto-closed already; exit immediately to free capital and stop the bleed."
+    },
+    {
+      "time": "2026-08-27 00:49 UTC",
+      "action": "buy",
+      "details": "[LLM] $SKRIMP at $3.246e-06, spent 0.1 SOL",
+      "reason": "$SKRIMP highest mcap of the fresh batch ($3.6k), 11% bond furthest along, has both X link and Telegram group — strongest attention infrastructure. Shrimp narrative is memeable. Sizing one entry only given thin SOL."
     }
   ],
   "trade_stats": {
-    "total": 211,
-    "wins": 101,
-    "losses": 110,
-    "win_rate_pct": 47.9,
-    "total_pnl_sol": -0.449203,
-    "avg_pnl_pct": 82.72,
+    "total": 214,
+    "wins": 103,
+    "losses": 111,
+    "win_rate_pct": 48.1,
+    "total_pnl_sol": -0.499364,
+    "avg_pnl_pct": 81.78,
     "best_pnl_pct": 702.21,
     "worst_pnl_pct": -99.89,
-    "today_trades": 68,
-    "today_realized_sol": 0.080004,
-    "today_target_pct": 20.0,
+    "today_trades": 71,
+    "today_realized_sol": 0.029843,
+    "today_target_pct": 7.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 101,
-      "loss_count": 110,
+      "win_count": 103,
+      "loss_count": 111,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T00:47:45.542021+00:00",
+  "last_llm_brief_at": "2026-08-27T00:49:18.524806+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AF1As73PRoLLjZAkQi2RiEumBqu5quQLd46GJv1qpump": {
-      "price_usd": 9.053e-06,
-      "change_h24": 198.0,
-      "change_h1": 198.0,
+      "price_usd": 8.916e-06,
+      "change_h24": 194.0,
+      "change_h1": 194.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 83404.28,
+      "volume_h24": 83468.28,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "B21bwBAQP8TJMoVg9ynBZdAwQDwiJrpgVrPHW8yUpump": {
-      "price_usd": 6.228e-06,
-      "change_h24": 107.0,
-      "change_h1": 107.0,
+      "price_usd": 6.373e-06,
+      "change_h24": 112.0,
+      "change_h1": 112.0,
       "liquidity_usd": 0.0,
-      "volume_h24": 4175.3,
+      "volume_h24": 4584.98,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
     "DesJdYxR7c2EyMyCPT16X2GppbEes4Czs7B9Z2QTpump": {
-      "price_usd": 4.108e-06,
-      "change_h24": 36.3,
-      "change_h1": 36.3,
+      "price_usd": 4.884e-06,
+      "change_h24": 62.02,
+      "change_h1": 62.02,
       "liquidity_usd": 0.0,
-      "volume_h24": 794.26,
+      "volume_h24": 1436.3,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "DzJXfJYc9Xph686YyYvRv5qQo5wCRnuX7uF1DUuApump": {
-      "price_usd": 2.949e-06,
-      "change_h24": -2.08,
-      "change_h1": -2.08,
+    "E9B2X32WujpmJk27EoQYcv7Hqf9WtfQg2Acm3YM163n9": {
+      "price_usd": 3.171e-06,
+      "change_h24": -17.23,
+      "change_h1": -17.23,
       "liquidity_usd": 0.0,
-      "volume_h24": 8786.8,
-      "dex_id": "pumpfun",
-      "source": "dexscreener"
-    },
-    "7p89oJ4fwkJe49q2dWNdhXKhgCXcpxBEe7EW8uakpump": {
-      "price_usd": 2.897e-06,
-      "change_h24": -24.6,
-      "change_h1": -24.6,
-      "liquidity_usd": 0.0,
-      "volume_h24": 1873.55,
+      "volume_h24": 20232.09,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

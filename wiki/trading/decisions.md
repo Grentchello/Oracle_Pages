@@ -2587,3 +2587,15 @@
 ## [2026-08-27 00:47 UTC] buy | [LLM] $DEI6900 at $9.47159e-06, spent 0.1 SOL
 - **Reasoning:** EricBalchunas (Bloomberg ETF analyst, real verified account) tweet about 'degenerate economy' + Howard Lindzon going viral. Multiple copycats spawned within minutes confirming attention. Strongest narrative of the tick.
 
+## [2026-08-27 00:49 UTC] sell | [PARTIAL][LLM] $blindape at $8.916e-06 | P&L: +48.3%
+- **Reasoning:** $blindape +48% approaching the +50% take-profit zone; secure partial gains while letting the runner continue. 1h +194% suggests momentum may extend, so don't full-exit yet.
+
+## [2026-08-27 00:49 UTC] sell | [PARTIAL][LLM] $PTA at $6.373e-06 | P&L: +65.3%
+- **Reasoning:** $PTA +65% already past the +50% profit-take trigger. Lock in gains; 1h +112% is parabolic, retrace risk is high.
+
+## [2026-08-27 00:49 UTC] sell | [FULL][LLM] $DEI6900 at $3.171e-06 | P&L: -66.5%
+- **Reasoning:** $DEI6900 -66.5% breaches the -50% hard cap. This should have been auto-closed already; exit immediately to free capital and stop the bleed.
+
+## [2026-08-27 00:49 UTC] buy | [LLM] $SKRIMP at $3.246e-06, spent 0.1 SOL
+- **Reasoning:** $SKRIMP highest mcap of the fresh batch ($3.6k), 11% bond furthest along, has both X link and Telegram group — strongest attention infrastructure. Shrimp narrative is memeable. Sizing one entry only given thin SOL.
+
