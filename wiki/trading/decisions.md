@@ -5716,3 +5716,9 @@
 ## [2026-08-27 10:34 UTC] buy | [LLM] $チョロ松 at $5.12549e-06, spent 0.05 SOL
 - **Reasoning:** $Choromatsu is the Sony Walkman monkey — genuine nostalgia IP from a globally recognized Japanese ad campaign, niche but real cultural attention at $5k mcap, 0.05 SOL speculative entry.
 
+## [2026-08-27 10:35 UTC] sell | [hard-stop] $CHLOE closed at $3.03792e-06 | P&L: -64.7%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:35 UTC] sell | [TP +30% (25%)] $チョロ松 at $7.76436e-06 | P&L: +51.5%
+- **Reasoning:** Auto take-profit at +51.5%
+
