@@ -3013,3 +3013,12 @@
 ## [2026-08-27 01:42 UTC] buy | [LLM] $TTP at $3.22754e-06, spent 0.1 SOL
 - **Reasoning:** $TTP 'Take The Pill' has a real narrative hook tied to an onboarding mission and a vocal X account pushing it — attention is the moat here at $3.2k mcap.
 
+## [2026-08-27 01:43 UTC] sell | [PARTIAL][LLM] $Buddy at $3.9e-05 | P&L: +163.7%
+- **Reasoning:** $Buddy is up163% with 24h showing +1172% — rule says take some profit at +50%. Lock in gains, let the rest ride if narrative continues.
+
+## [2026-08-27 01:43 UTC] sell | [FULL][LLM] $TTP at $2.835e-06 | P&L: -12.2%
+- **Reasoning:** $TTP -12.2% held 0.0h — entering red immediately with no bounce signal. Redeploy the slot into a fresher, higher-conviction attention play.
+
+## [2026-08-27 01:43 UTC] buy | [LLM] $Collective at $9.80502e-06, spent 0.1 SOL
+- **Reasoning:** $Collective (The Agent Collective) is the LEADER of the trending PHASEONE/Collective copy-cluster at $9.8k mcap with 32% bond (highest in cluster, almost bonded). Catching the leader of a viral narrative at <$10k mcap is the textbook attention play — risk is it fades fast if narrative doesn't stick.
+
