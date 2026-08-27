@@ -6358,3 +6358,18 @@
 ## [2026-08-27 11:52 UTC] sell | [TP +30% (25%)] $KC at $2.11258e-05 | P&L: +88.0%
 - **Reasoning:** Auto take-profit at +88.0%
 
+## [2026-08-27 11:52 UTC] sell | [FULL][LLM] $rondy at $3.76518e-06 | P&L: +13.7%
+- **Reasoning:** $rondy +13.7% but pool is only $436 — way below 5x position min liquidity. Thin pool = exit risk dominates. Free slot for better setup.
+
+## [2026-08-27 11:52 UTC] sell | [FULL][LLM] $BESKAR at $4.95256e-06 | P&L: +11.4%
+- **Reasoning:** $BESKAR only +11.4%, pool $957 (below 5x min liquidity), held 0.0h with no momentum signal. Lock small gain and rotate.
+
+## [2026-08-27 11:52 UTC] sell | [FULL][LLM] $MILF at $8.22464e-06 | P&L: +26.1%
+- **Reasoning:** $MILF +26.1% — past the +20% take-profit threshold per discipline rules. Pool only $2129, thin. Take the gain, don't hope.
+
+## [2026-08-27 11:52 UTC] sell | [PARTIAL][LLM] $UNYIL at $1.91115e-05 | P&L: +164.7%
+- **Reasoning:** $UNYIL +164.7% — massive runner. Lock half the profit, let the rest ride. Bonding curve still active, but this gain can evaporate fast on a memecoin.
+
+## [2026-08-27 11:52 UTC] buy | [LLM] $BULLIO at $1.40438e-05, spent 0.05 SOL
+- **Reasoning:** $BULLIO has the cleanest Twitter signal of the new launches (@realbullio, real handle, viral post), $14k mcap, 35% bonded. Best narrative-to-mcap ratio. 0.05 SOL ($5) size — below bot's 0.1 SOL default given the small free balance and experimental nature.
+
