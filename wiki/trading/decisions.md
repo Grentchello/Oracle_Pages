@@ -4024,3 +4024,6 @@
 ## [2026-08-27 03:38 UTC] buy | [LLM] $bread at $4.28245e-06, spent 0.1 SOL
 - **Reasoning:** $bread — strongest narrative in the batch ('market dead send this bread' is a counter-narrative play with viral potential), Barchart CT account backing, deployed via j7tracker (some signal). Distinctive vs the $ape spam cluster. Sub-$5k mcap with story = attention-launched alpha.
 
+## [2026-08-27 03:40 UTC] sell | [FULL][LLM] $bread at $2.95454e-06 | P&L: -31.0%
+- **Reasoning:** $bread is -31% with no bounce signal and only $65 pool liquidity (we own 11% — extremely illiquid). Per loser discipline, exit before it hits -50% hard stop. -20% losers become -50% quickly.
+
