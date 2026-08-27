@@ -3091,3 +3091,15 @@
 ## [2026-08-27 01:52 UTC] buy | [LLM] $Zhdun at $7.58928e-06, spent 0.1 SOL
 - **Reasoning:** $Zhdun — team claims to be behind Earl's $47M run. Proven devs with verifiable track record is the strongest narrative in the batch. High risk if fake, but asymmetric if real.
 
+## [2026-08-27 01:53 UTC] sell | [PARTIAL][LLM] $Buddy at $7.417e-05 | P&L: +401.4%
+- **Reasoning:** $Buddy at +401% is the obvious take-profit per the +50% rule. Sell half to lock in ~0.2 SOL profit and let the rest ride if attention continues.
+
+## [2026-08-27 01:53 UTC] sell | [FULL][LLM] $Swarm at $8.679e-06 | P&L: -39.2%
+- **Reasoning:** $Swarm at -39.3% with 24h -79.5% and 1h -79.5% — the trend is hard down, no bounce signal. Cut the loss now before it hits the -50% hard cap. Free up a slot.
+
+## [2026-08-27 01:53 UTC] sell | [FULL][LLM] $Zhdun at $4.113e-06 | P&L: -45.8%
+- **Reasoning:** $Zhdun at -45.8% is 4.2% from the -50% hard cap. The 1h is +35.6% which is misleading (likely a dead-cat bounce off a deeper low) — protecting capital by exiting near the floor.
+
+## [2026-08-27 01:53 UTC] buy | [LLM] $Winner at $1.47695e-05, spent 0.1 SOL
+- **Reasoning:** $Winner has the strongest fundamentals of the new launches: highest mcap ($14.7k), bond 36% (most committed), and a relatable narrative ('Winner Takes All'). Attention signal is clear. 0.1 SOL position.
+
