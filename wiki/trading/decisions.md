@@ -6451,3 +6451,9 @@
 ## [2026-08-27 12:01 UTC] buy | [LLM] $67boobs at $5.11329e-06, spent 0.05 SOL
 - **Reasoning:** $67boobs is pure attention bait — edgy name + OG account promo = viral potential in memecoin's attention economy. Sub-$5k mcap means cheap entry if it pops.
 
+## [2026-08-27 12:02 UTC] sell | [hard-stop] $Robonigga closed at $3.10715e-06 | P&L: -55.1%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:02 UTC] sell | [hard-stop] $67boobs closed at $2.91445e-06 | P&L: -43.0%
+- **Reasoning:** Hard -30% stop
+
