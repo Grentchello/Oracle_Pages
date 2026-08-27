@@ -4225,3 +4225,15 @@
 ## [2026-08-27 07:35 UTC] buy | [LLM] $TTT at $5.72731e-06, spent 0.1 SOL
 - **Reasoning:** gossip10x (crypto alpha account) posted 'The Token Trap' — coordinated attention event with $TripleT clone. Mature0.7min gives the bond the most runway (23%), narrative is novel/cryptic which drives engagement. Second scalp position.
 
+## [2026-08-27 07:35 UTC] sell | [TP +30% (half)] $TTT at $7.75232e-06 | P&L: +35.4%
+- **Reasoning:** Auto take-profit at +35.4%
+
+## [2026-08-27 07:35 UTC] sell | [TP +30% (half)] $TTT at $8.22772e-06 | P&L: +43.7%
+- **Reasoning:** Auto take-profit at +43.7%
+
+## [2026-08-27 07:35 UTC] sell | [FULL][LLM] $₿ull at $6.87008e-06 | P&L: -2.4%
+- **Reasoning:** $₿ull is down -2.4% with only $1694 pool liquidity and our1% share is meaningful. Bonding-curve tokens with weak pools bleed; cut it now before -20%.
+
+## [2026-08-27 07:35 UTC] sell | [FULL][LLM] $TTT at $8.22772e-06 | P&L: +43.7%
+- **Reasoning:** $TTT is up +43.7% already — this exceeds the +30% take-profit threshold. Lock the gain immediately. Pool is thin ($2140), retrace risk is high.
+
