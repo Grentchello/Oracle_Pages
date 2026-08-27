@@ -6271,3 +6271,12 @@
 ## [2026-08-27 11:41 UTC] buy | [LLM] $MORTY at $3.88603e-06, spent 0.05 SOL
 - **Reasoning:** $MORTY has Adult Swim's official X account attached — that is a real celebrity/brand catalyst, and mcap is only $3.9k. High-variance but the attention anchor is concrete. 0.05 SOL entry.
 
+## [2026-08-27 11:42 UTC] sell | [hard-stop] $ape closed at $8.47811e-06 | P&L: -41.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 11:42 UTC] sell | [FULL][LLM] $QSBTC at $3.11917e-06 | P&L: +5.9%
+- **Reasoning:** Flat at +5.9% for 6+ minutes (price hasn't moved off $0.0000000301). No momentum, no narrative push, bonding-curve pool only $115. Lock the small gain before it goes stale and turns negative — capital rotation beats bag-holding a dead ticker.
+
+## [2026-08-27 11:42 UTC] buy | [LLM] $GOYPLUG at $3.355e-06, spent 0.05 SOL
+- **Reasoning:** $GOYPLUG — political shock humor with RT_com tweet backing, exactly the kind of edgy narrative that pumps on attention. $3.3k mcap at 0.6min age = very early. Risk: edgy political content can get rugged/flagged, but the attention signal is real and fresh.
+
