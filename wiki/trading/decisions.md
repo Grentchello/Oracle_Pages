@@ -5323,3 +5323,18 @@
 ## [2026-08-27 09:56 UTC] sell | [TP +30% (25%)] $GOATS at $4.74238e-06 | P&L: +32.5%
 - **Reasoning:** Auto take-profit at +32.5%
 
+## [2026-08-27 09:57 UTC] sell | [PARTIAL][LLM] $CTREMP at $2.65274e-05 | P&L: +57.1%
+- **Reasoning:** $CTREMP is up +57.1% and the bonding curve is only 39% with pool $6.3k — locking half protects a >20% gain per the profit-taking rule while letting the rest ride if it keeps pumping.
+
+## [2026-08-27 09:57 UTC] sell | [FULL][LLM] $GOATS at $4.74238e-06 | P&L: +32.5%
+- **Reasoning:** $GOATS is up +32.5% but pool is thin ($860), our share is 1%, and bonding curve is mid-stage — thin liquidity means the next -20% pullback hits fast. Take the >30% win and rotate.
+
+## [2026-08-27 09:57 UTC] sell | [FULL][LLM] $Stocker at $2.99972e-06 | P&L: -9.8%
+- **Reasoning:** $Stocker is -9.8% with a $42 pool and 11% share (we ARE the liquidity) — this is a dead micro-cap with no depth, no exit liquidity for a bounce. Cut it before it hits -30%.
+
+## [2026-08-27 09:57 UTC] buy | [LLM] $ADAM at $5.281e-06, spent 0.05 SOL
+- **Reasoning:** $ADAM ('it's just a prank bro') is the freshest high-mcap launch at $22.6k with 39% bonding curve already — strongest narrative velocity and clearest attention signal (vega twitter). Highest conviction entry of the batch.
+
+## [2026-08-27 09:57 UTC] buy | [LLM] $MEMELIFE at $4.65479e-06, spent 0.05 SOL
+- **Reasoning:** $MEMELIFE is 0.1min old at $4.6k — only 2 slots left after $ADAM and the 'My Life Is Memes' meta is meme-native and resonant. Cheap lottery ticket size.
+
