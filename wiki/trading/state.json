@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.689978,
+  "balance_sol": 1.637989,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -50,9 +50,9 @@
     "2kM8DbdcSgF31zX7b1W6sRuCnaFPniyzRsSCfb8Qpump": {
       "symbol": "Buddy",
       "name": "First Neuralink Dog",
-      "amount": 343847.39482490567,
+      "amount": 171923.69741245284,
       "entry_price_usd": 1.4791445497471047e-05,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-27T01:36:46.387180+00:00",
       "entry_usd_value": 10.172,
       "entry_signals": {
@@ -87,6 +87,28 @@
         "real_sol_reserves": 14.935397779,
         "description": "TOAD WIF HELMET ",
         "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "7EeREFuex1AMrki7YeTG3UXoNVKzASvD3zzrKoKApump": {
+      "symbol": "SWC",
+      "name": "Stand With Crypto",
+      "amount": 1075112.3266614643,
+      "entry_price_usd": 9.46598764391674e-06,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T01:39:25.880753+00:00",
+      "entry_usd_value": 10.177,
+      "entry_signals": {
+        "liquidity_usd": null,
+        "volume_24h_usd": null,
+        "market_cap_usd": 9450.0963885847,
+        "ath_market_cap_usd": 10016.548955529983,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 24.718422434,
+        "description": "",
+        "twitter": "https://x.com/nukidoya/status/2092788071351656643",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -5124,25 +5146,30 @@
       "pnl_pct": 41.06,
       "exit_reason": "LLM: sell_all — $cat is +41% now but 24h shows -63.8% — this is a dead cat bounce on a dying narrative. Take the green before it reverts.",
       "partial": false
+    },
+    {
+      "mint": "2kM8DbdcSgF31zX7b1W6sRuCnaFPniyzRsSCfb8Qpump",
+      "symbol": "Buddy",
+      "name": "First Neuralink Dog",
+      "amount_sold": 171923.69741245284,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T01:36:46.387180+00:00",
+      "exit_time": "2026-08-27T01:39:25.880466+00:00",
+      "entry_price_usd": 1.4791445497471047e-05,
+      "exit_price_usd": 2.842e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.048011,
+      "pnl_sol": 0.023011,
+      "pnl_pct": 92.14,
+      "exit_reason": "LLM: sell_half — $Buddy +92% with 1h +827% is parabolic — take partial profits to lock in gains while leaving runner for further upside.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T01:38:06.222329+00:00",
+  "last_updated": "2026-08-27T01:39:25.880977+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.72,
-  "portfolio_value_usd": 197.3,
+  "last_sol_price_usd": 101.77,
+  "portfolio_value_usd": 199.72,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 01:29 UTC",
-      "action": "buy",
-      "details": "[LLM] $Quant at $1.07781e-05, spent 0.1 SOL",
-      "reason": "$Quant — already at 33% bond progression with an X link (afpost), $10.8k mcap, leading the new-launch wave. The 33% bond means real buy pressure vs the 0-1% bonds on everything else. Narrative + traction signal worth a 0.1 SOL entry."
-    },
-    {
-      "time": "2026-08-27 01:30 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Quant at $4.414e-06 | P&L: -59.0%",
-      "reason": "$Quant is at -59.0%, which breaches the hard -50% loss cap. The position MUST be closed immediately per system rules. The 24h shows +28.4% suggesting the price snapshot may be stale/wrong direction, but I cannot override the hard cap — sell now."
-    },
     {
       "time": "2026-08-27 01:30 UTC",
       "action": "buy",
@@ -5250,36 +5277,48 @@
       "action": "buy",
       "details": "[LLM] $TWH at $6.38062e-06, spent 0.1 SOL",
       "reason": "$TWH 'TOAD WIF HELMET' — playful animal-meme format (pepe/frog derivatives have proven viral). Fresh 0.1min launch at $6.4k mcap is exactly the attention-launched early entry the strategy calls for. 0.1 SOL."
+    },
+    {
+      "time": "2026-08-27 01:39 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Buddy at $2.842e-05 | P&L: +92.1%",
+      "reason": "$Buddy +92% with 1h +827% is parabolic — take partial profits to lock in gains while leaving runner for further upside."
+    },
+    {
+      "time": "2026-08-27 01:39 UTC",
+      "action": "buy",
+      "details": "[LLM] $SWC at $9.46599e-06, spent 0.1 SOL",
+      "reason": "$SWC 'Stand With Crypto' — strong narrative tied to crypto political movement, highest mcap at $9.4k with 31% bond suggests real buys, viral X source."
     }
   ],
   "trade_stats": {
-    "total": 296,
-    "wins": 142,
+    "total": 297,
+    "wins": 143,
     "losses": 154,
-    "win_rate_pct": 48.0,
-    "total_pnl_sol": 0.039981,
-    "avg_pnl_pct": 73.03,
+    "win_rate_pct": 48.1,
+    "total_pnl_sol": 0.062992,
+    "avg_pnl_pct": 73.09,
     "best_pnl_pct": 1379.24,
     "worst_pnl_pct": -99.89,
-    "today_trades": 153,
-    "today_realized_sol": 0.569188,
-    "today_target_pct": 142.3,
+    "today_trades": 154,
+    "today_realized_sol": 0.592199,
+    "today_target_pct": 148.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 142,
+      "win_count": 143,
       "loss_count": 154,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T01:38:06.221824+00:00",
+  "last_llm_brief_at": "2026-08-27T01:39:25.880426+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AfmgmR1ffGJoirv8U3GWuxs2muHEahCmX2xtfrhrpump": {
-      "price_usd": 3.021e-06,
-      "change_h24": 5.01,
-      "change_h1": 5.01,
+      "price_usd": 3.03e-06,
+      "change_h24": 5.3,
+      "change_h1": 5.3,
       "liquidity_usd": 0.0,
-      "volume_h24": 163.03,
+      "volume_h24": 168.05,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
@@ -5292,21 +5331,21 @@
       "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "AHRfdcTkYVfyD8HZMFpBcKKTtdRwaFg6Ut7rX383pump": {
-      "price_usd": 1.512e-05,
-      "change_h24": -63.82,
-      "change_h1": -63.82,
-      "liquidity_usd": 8619.5,
-      "volume_h24": 47141.45,
-      "dex_id": "pumpswap",
+    "2kM8DbdcSgF31zX7b1W6sRuCnaFPniyzRsSCfb8Qpump": {
+      "price_usd": 2.842e-05,
+      "change_h24": 827.0,
+      "change_h1": 827.0,
+      "liquidity_usd": 0.0,
+      "volume_h24": 101365.81,
+      "dex_id": "pumpfun",
       "source": "dexscreener"
     },
-    "2kM8DbdcSgF31zX7b1W6sRuCnaFPniyzRsSCfb8Qpump": {
-      "price_usd": 3.215e-05,
-      "change_h24": 948.0,
-      "change_h1": 948.0,
+    "8Vw2qBmunN1Z6HxpYN5LYQ7ZGY8N4grNFAZJRGdipump": {
+      "price_usd": 6.647e-06,
+      "change_h24": 4.92,
+      "change_h1": 4.92,
       "liquidity_usd": 0.0,
-      "volume_h24": 77574.38,
+      "volume_h24": 1614.09,
       "dex_id": "pumpfun",
       "source": "dexscreener"
     }

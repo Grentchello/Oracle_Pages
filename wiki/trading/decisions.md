@@ -2986,3 +2986,9 @@
 ## [2026-08-27 01:38 UTC] buy | [LLM] $TWH at $6.38062e-06, spent 0.1 SOL
 - **Reasoning:** $TWH 'TOAD WIF HELMET' — playful animal-meme format (pepe/frog derivatives have proven viral). Fresh 0.1min launch at $6.4k mcap is exactly the attention-launched early entry the strategy calls for. 0.1 SOL.
 
+## [2026-08-27 01:39 UTC] sell | [PARTIAL][LLM] $Buddy at $2.842e-05 | P&L: +92.1%
+- **Reasoning:** $Buddy +92% with 1h +827% is parabolic — take partial profits to lock in gains while leaving runner for further upside.
+
+## [2026-08-27 01:39 UTC] buy | [LLM] $SWC at $9.46599e-06, spent 0.1 SOL
+- **Reasoning:** $SWC 'Stand With Crypto' — strong narrative tied to crypto political movement, highest mcap at $9.4k with 31% bond suggests real buys, viral X source.
+
