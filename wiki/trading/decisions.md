@@ -6532,3 +6532,9 @@
 ## [2026-08-27 12:10 UTC] sell | [TP +30% (25%)] $3310 at $8.4032e-06 | P&L: +49.0%
 - **Reasoning:** Auto take-profit at +49.0%
 
+## [2026-08-27 12:10 UTC] sell | [PARTIAL][LLM] $Floor at $6.16981e-06 | P&L: +55.6%
+- **Reasoning:** $Floor +55.6% is past 50% TP but on a $1423 pool — extreme rug risk; lock half the gain, let runner ride with a free roll.
+
+## [2026-08-27 12:10 UTC] sell | [PARTIAL][LLM] $3310 at $8.4032e-06 | P&L: +49.0%
+- **Reasoning:** $3310 +49% near 50% TP, pool only $2183; thin liquidity warrants locking half before any reversal.
+

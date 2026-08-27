@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.774684,
+  "balance_sol": 0.875443,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -50,9 +50,9 @@
     "BfHo1LKzbymrRX7KMFrMHzyJWEjoawr8JiGfRDxcpump": {
       "symbol": "Floor",
       "name": "Trading Floor",
-      "amount": 656975.2774974775,
+      "amount": 246365.72906155407,
       "entry_price_usd": 3.964e-06,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.009375000000000001,
       "entry_time": "2026-08-27T12:07:26.710365+00:00",
       "entry_usd_value": 5.208500000000001,
       "entry_signals": {
@@ -72,9 +72,9 @@
     "FBpGzj2VN7Us4retrDPd5C2yJexruhqvB5TYtQCEpump": {
       "symbol": "3310",
       "name": "Nokia 3310",
-      "amount": 922800.1209297613,
+      "amount": 346050.0453486605,
       "entry_price_usd": 5.638165711072786e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.018750000000000003,
       "entry_time": "2026-08-27T12:08:58.018333+00:00",
       "entry_usd_value": 5.2029000000000005,
       "entry_signals": {
@@ -87,28 +87,6 @@
         "real_sol_reserves": 15.862389099,
         "description": "",
         "twitter": "https://x.com/Rainmaker1973/status/1927305314082165186",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "3mGfuk2RhNT2FNEQvgdxS7gzVeoEDKHr11nS95oypump": {
-      "symbol": "JENSEN",
-      "name": "Jensen Memes",
-      "amount": 1005323.464599489,
-      "entry_price_usd": 5.17534921168162e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-27T12:08:58.317955+00:00",
-      "entry_usd_value": 5.2029000000000005,
-      "entry_signals": {
-        "liquidity_usd": 111.278979728226,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5159.940244094955,
-        "ath_market_cap_usd": 7739.165554425065,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.069393797,
-        "description": "",
-        "twitter": "https://x.com/jncquant/status/2092947287127245151",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -17556,43 +17534,98 @@
       "pnl_pct": 26.31,
       "exit_reason": "LLM: sell_half — Floor +26.3% with our share=1% and only $974 pool — bag is large relative to liquidity. Take half off now, exit fully if no momentum in next tick.",
       "partial": true
+    },
+    {
+      "mint": "3mGfuk2RhNT2FNEQvgdxS7gzVeoEDKHr11nS95oypump",
+      "symbol": "JENSEN",
+      "name": "Jensen Memes",
+      "amount_sold": 1005323.464599489,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-27T12:08:58.317955+00:00",
+      "exit_time": "2026-08-27T12:10:03.550636+00:00",
+      "entry_price_usd": 5.17534921168162e-06,
+      "exit_price_usd": 3.105787905243297e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.029956,
+      "pnl_sol": -0.020044,
+      "pnl_pct": -39.99,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "BfHo1LKzbymrRX7KMFrMHzyJWEjoawr8JiGfRDxcpump",
+      "symbol": "Floor",
+      "name": "Trading Floor",
+      "amount_sold": 164243.81937436937,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T12:07:26.710365+00:00",
+      "exit_time": "2026-08-27T12:10:03.551380+00:00",
+      "entry_price_usd": 3.964e-06,
+      "exit_price_usd": 6.1698073494755676e-06,
+      "entry_sol_for_chunk": 0.00625,
+      "exit_sol_received": 0.009722,
+      "pnl_sol": 0.003472,
+      "pnl_pct": 55.65,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "FBpGzj2VN7Us4retrDPd5C2yJexruhqvB5TYtQCEpump",
+      "symbol": "3310",
+      "name": "Nokia 3310",
+      "amount_sold": 230700.03023244033,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-27T12:08:58.018333+00:00",
+      "exit_time": "2026-08-27T12:10:03.551637+00:00",
+      "entry_price_usd": 5.638165711072786e-06,
+      "exit_price_usd": 8.40320301035939e-06,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.018599,
+      "pnl_sol": 0.006099,
+      "pnl_pct": 49.04,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "BfHo1LKzbymrRX7KMFrMHzyJWEjoawr8JiGfRDxcpump",
+      "symbol": "Floor",
+      "name": "Trading Floor",
+      "amount_sold": 246365.72906155407,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T12:07:26.710365+00:00",
+      "exit_time": "2026-08-27T12:10:34.709133+00:00",
+      "entry_price_usd": 3.964e-06,
+      "exit_price_usd": 6.1698073494755676e-06,
+      "entry_sol_for_chunk": 0.009375,
+      "exit_sol_received": 0.014583,
+      "pnl_sol": 0.005208,
+      "pnl_pct": 55.65,
+      "exit_reason": "LLM: sell_half — $Floor +55.6% is past 50% TP but on a $1423 pool — extreme rug risk; lock half the gain, let runner ride with a free roll.",
+      "partial": true
+    },
+    {
+      "mint": "FBpGzj2VN7Us4retrDPd5C2yJexruhqvB5TYtQCEpump",
+      "symbol": "3310",
+      "name": "Nokia 3310",
+      "amount_sold": 346050.0453486605,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T12:08:58.018333+00:00",
+      "exit_time": "2026-08-27T12:10:34.709896+00:00",
+      "entry_price_usd": 5.638165711072786e-06,
+      "exit_price_usd": 8.40320301035939e-06,
+      "entry_sol_for_chunk": 0.01875,
+      "exit_sol_received": 0.027899,
+      "pnl_sol": 0.009149,
+      "pnl_pct": 49.04,
+      "exit_reason": "LLM: sell_half — $3310 +49% near 50% TP, pool only $2183; thin liquidity warrants locking half before any reversal.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T12:08:58.318361+00:00",
+  "last_updated": "2026-08-27T12:10:34.710601+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.058,
-  "portfolio_value_usd": 96.31,
+  "last_sol_price_usd": 104.23,
+  "portfolio_value_usd": 96.86,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 12:04 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $tards  at $1.17208e-05 | P&L: +31.4%",
-      "reason": "Auto take-profit at +31.4%"
-    },
-    {
-      "time": "2026-08-27 12:04 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CIGR at $3.126e-05 | P&L: -19.5%",
-      "reason": "$CIGR down -19.5% and flatlined (▁▁▁▁▁) for 6+ minutes with no bounce signal — sits at the -20% loser-exit threshold. Locking the loss and freeing the slot beats bag-holding a dead chart."
-    },
-    {
-      "time": "2026-08-27 12:04 UTC",
-      "action": "buy",
-      "details": "[LLM] $FOOD at $6.61917e-06, spent 0.05 SOL",
-      "reason": "$FOOD has the strongest narrative of the batch — WatcherGuru (large CT account) is amplifying a 'foodcoin' angle tied to a current food-price story, which is the kind of atttention that pumps 5-10x. Mcap $6.6k with a real X signal beats the generic 0.1min launches; risk is rug/scam but the attention driver justifies a 0.05 SOL position."
-    },
-    {
-      "time": "2026-08-27 12:05 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $FOOD closed at $3.47715e-06 | P&L: -47.5%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-08-27 12:05 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $tards  at $7.29651e-06 | P&L: -18.2%",
-      "reason": "$tards is down -18.2% on a fresh bonding-curve entry and price action shows weakness (0min candle below 1min candle). No viral narrative backing the name — just a meta-joke about red candles. Cut the loss before it hits -30% hard stop."
-    },
     {
       "time": "2026-08-27 12:05 UTC",
       "action": "buy",
@@ -17682,73 +17715,114 @@
       "action": "buy",
       "details": "[LLM] $JENSEN at $5.17535e-06, spent 0.05 SOL",
       "reason": "$JENSEN Jensen Huang AI-celebrity meme has a real sub-niche following and a posted tweet. 20% bonded. AI-celebrity meta is hot. 0.05 SOL position."
+    },
+    {
+      "time": "2026-08-27 12:10 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $JENSEN closed at $3.10579e-06 | P&L: -40.0%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-27 12:10 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Floor at $6.16981e-06 | P&L: +55.6%",
+      "reason": "Auto take-profit at +55.6%"
+    },
+    {
+      "time": "2026-08-27 12:10 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $3310 at $8.4032e-06 | P&L: +49.0%",
+      "reason": "Auto take-profit at +49.0%"
+    },
+    {
+      "time": "2026-08-27 12:10 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Floor at $6.16981e-06 | P&L: +55.6%",
+      "reason": "$Floor +55.6% is past 50% TP but on a $1423 pool — extreme rug risk; lock half the gain, let runner ride with a free roll."
+    },
+    {
+      "time": "2026-08-27 12:10 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $3310 at $8.4032e-06 | P&L: +49.0%",
+      "reason": "$3310 +49% near 50% TP, pool only $2183; thin liquidity warrants locking half before any reversal."
     }
   ],
   "trade_stats": {
-    "total": 1026,
-    "wins": 539,
-    "losses": 487,
-    "win_rate_pct": 52.5,
-    "total_pnl_sol": -0.974522,
-    "avg_pnl_pct": 46.29,
+    "total": 1031,
+    "wins": 543,
+    "losses": 488,
+    "win_rate_pct": 52.7,
+    "total_pnl_sol": -0.970638,
+    "avg_pnl_pct": 46.23,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 485,
-    "today_realized_sol": 0.457707,
-    "today_target_pct": 114.4,
+    "today_trades": 490,
+    "today_realized_sol": 0.461591,
+    "today_target_pct": 115.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 539,
-      "loss_count": 487,
+      "win_count": 543,
+      "loss_count": 488,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T12:08:57.708488+00:00",
+  "last_llm_brief_at": "2026-08-27T12:10:34.709089+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "8mL12aJTxqN6jtRRVnfs5dtCiPF32J3x9rDVSukVpump": {
-      "price_usd": 6.604098482009194e-06,
+      "price_usd": 5.862016549495437e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1581.585085788768,
-      "volume_h24": 22692.18,
+      "liquidity_usd": 1307.96474205782,
+      "volume_h24": 26090.36,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 15.199072496
+      "real_sol_reserves": 12.548831834
     },
     "5SwhonuPNGqt3CCDsx1u5spchdHe9B8U5b68RbtMpump": {
-      "price_usd": 1.87041855219879e-05,
+      "price_usd": 1.5165756913179501e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4793.564495874943,
-      "volume_h24": 9233.98,
+      "liquidity_usd": 4006.37394305757,
+      "volume_h24": 22436.81,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 46.066275499
-    },
-    "7i8zeDUh3pnDCe6B4hwF7PnjJvg9apy39AnpbzFKpump": {
-      "price_usd": 3.7003108315358525e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 398.865232077534,
-      "volume_h24": 20755.04,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 3.833104923
+      "real_sol_reserves": 38.437819659
     },
     "BfHo1LKzbymrRX7KMFrMHzyJWEjoawr8JiGfRDxcpump": {
-      "price_usd": 5.006879114825029e-06,
+      "price_usd": 6.1698073494755676e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 973.52282241243,
-      "volume_h24": 4128.25,
+      "liquidity_usd": 1422.9036975839701,
+      "volume_h24": 6569.35,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 9.355578835
+      "real_sol_reserves": 13.651575339
+    },
+    "FBpGzj2VN7Us4retrDPd5C2yJexruhqvB5TYtQCEpump": {
+      "price_usd": 8.40320301035939e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2182.9137238398002,
+      "volume_h24": 10455.73,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 20.94323826
+    },
+    "3mGfuk2RhNT2FNEQvgdxS7gzVeoEDKHr11nS95oypump": {
+      "price_usd": 3.105787905243297e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 101.16859479664,
+      "volume_h24": 8056.45,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.970628368
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
