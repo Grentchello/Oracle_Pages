@@ -6808,3 +6808,15 @@
 ## [2026-08-27 12:48 UTC] buy | [LLM] $JENSON at $2.98028e-06, spent 0.05 SOL
 - **Reasoning:** $JENSON has the strongest narrative: 'dad just printed $96.2B, jenSON prints the chart' — direct Fed/JPowell money-printing meme. Macro attention plays are the kind that go viral. Risk: only 1% bond progress means thin validation, but narrative > metrics here.
 
+## [2026-08-27 12:49 UTC] sell | [FULL][LLM] $QQ at $1.0329e-05 | P&L: -3.0%
+- **Reasoning:** $QQ -3% with MC dropping (119→110) and no bounce signal. Locked slot, exit to free capital for fresh attention.
+
+## [2026-08-27 12:49 UTC] sell | [FULL][LLM] $ROBOT at $7.27456e-06 | P&L: -14.9%
+- **Reasoning:** $ROBOT -14.9% with MC collapsing from 158→97.5 in minutes. Cutting before -20% auto-stop triggers to preserve capital.
+
+## [2026-08-27 12:49 UTC] sell | [FULL][LLM] $JENSON at $2.98057e-06 | P&L: +0.0%
+- **Reasoning:** $JENSON flat at $60 mcap with only $31 pool — too illiquid to trust, and our 17% share means we'd move the price anyway. Cut and redeploy.
+
+## [2026-08-27 12:49 UTC] buy | [LLM] $FATTOGOR at $3.36616e-06, spent 0.05 SOL
+- **Reasoning:** $FATTOGOR tied to Conor McGregor ($TheNotoriousMMA) is the strongest celebrity-narrative launch in this batch. $3.3k mcap is tiny — high upside if McGregor engagement picks up, hard rug risk if it doesn't.
+
