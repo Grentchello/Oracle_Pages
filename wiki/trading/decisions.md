@@ -5068,3 +5068,9 @@
 ## [2026-08-27 09:25 UTC] buy | [LLM] $Tapping at $1.06778e-05, spent 0.05 SOL
 - **Reasoning:** $Tapping 'Never Stop Tapping' — simple catchy name, 32% bonded, 0.5min old. Mobile-game/meta-tap is recognizable viral hook.
 
+## [2026-08-27 09:26 UTC] sell | [hard-stop] $LEEKCORP closed at $4.33427e-06 | P&L: -38.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:26 UTC] sell | [TP +100% (50%)] $Tapping at $2.45349e-05 | P&L: +129.8%
+- **Reasoning:** Auto take-profit at +129.8%
+
