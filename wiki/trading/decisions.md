@@ -6841,3 +6841,6 @@
 ## [2026-08-27 12:52 UTC] sell | [hard-stop] $SPIDER closed at $2.93358e-06 | P&L: -39.3%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-27 12:52 UTC] buy | [LLM] $FRIENDS at $1.5523e-05, spent 0.05 SOL
+- **Reasoning:** $FRIENDS on friends.bid is the freshest launch (~6s old) with the highest bond progress (36%) and largest mcap ($15.5k) of the new batch — the .bid domain + brandable 'FRIENDS' ticker has obvious viral framing for an attention market. Slightly above the $3-5k mcap of the rest of the field, and the most-bonded token usually leads attention rotation on pump.fun.
+
