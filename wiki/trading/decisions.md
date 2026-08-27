@@ -5302,3 +5302,18 @@
 ## [2026-08-27 09:53 UTC] buy | [LLM] $CTREMP at $1.689e-05, spent 0.05 SOL
 - **Reasoning:** $CTREMP has the strongest narrative of the batch — Tremp meme branding, a live X account (@CRYPTOTREMP), descriptive pitch, and already $20k mcap at 38% bonding; real attention signal vs the rest.
 
+## [2026-08-27 09:55 UTC] sell | [TP +30% (25%)] $CTREMP at $2.29783e-05 | P&L: +36.0%
+- **Reasoning:** Auto take-profit at +36.0%
+
+## [2026-08-27 09:55 UTC] sell | [FULL][LLM] $PPEPE at $3.26799e-06 | P&L: +2.8%
+- **Reasoning:** $PPEPE is only +2.8% after 6 minutes with $179 pool — basically flat, weak liquidity, no momentum. Better to free the slot for a fresh launch with actual attention.
+
+## [2026-08-27 09:55 UTC] sell | [PARTIAL][LLM] $CTREMP at $2.29783e-05 | P&L: +36.0%
+- **Reasoning:** $CTREMP is +36% already which has likely triggered the +30% TP at 25% (auto). For any remaining position, lock half the gain — it's only been held 0.0h and momentum could reverse. Secure profit while letting the rest ride.
+
+## [2026-08-27 09:55 UTC] buy | [LLM] $GOATS at $3.57823e-06, spent 0.05 SOL
+- **Reasoning:** $GOATS 'The Watergun Goats' — absurdist animal meme + active X poster (CubeExtrem60235) at $3.5k mcap with 9% bonding. Pure attention-coin territory, fits the viral playbook. Small 0.05 SOL entry.
+
+## [2026-08-27 09:55 UTC] buy | [LLM] $Stocker at $3.32531e-06, spent 0.05 SOL
+- **Reasoning:** $Stocker — agent narrative ('basket of bulls tracked in real time') + Memestockerlive X account is a legit-looking creator account. Agent meta is hot right now. 0.05 SOL entry.
+
