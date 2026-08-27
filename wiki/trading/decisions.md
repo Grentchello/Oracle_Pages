@@ -5386,3 +5386,30 @@
 ## [2026-08-27 10:01 UTC] buy | [LLM] $7up at $8.28299e-06, spent 0.05 SOL
 - **Reasoning:** $7up '7up founder' — $8.3k mcap, founder narrative, drink brand association. Simple memorable ticker with viral potential. 0.05 SOL ($5).
 
+## [2026-08-27 10:02 UTC] sell | [hard-stop] $Macy closed at $3.05804e-06 | P&L: -64.1%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 10:02 UTC] sell | [TP +30% (25%)] $CTREMP at $2.72351e-05 | P&L: +61.2%
+- **Reasoning:** Auto take-profit at +61.2%
+
+## [2026-08-27 10:02 UTC] sell | [TP +30% (25%)] $RISE at $8.39727e-06 | P&L: +61.1%
+- **Reasoning:** Auto take-profit at +61.1%
+
+## [2026-08-27 10:02 UTC] sell | [TP +200% (75%)] $7up at $2.8154e-05 | P&L: +239.9%
+- **Reasoning:** Auto take-profit at +239.9%
+
+## [2026-08-27 10:02 UTC] sell | [PARTIAL][LLM] $CTREMP at $2.72351e-05 | P&L: +61.2%
+- **Reasoning:** +61% in 6min on bonding curve — lock half the gain, let remainder ride the narrative. Pool $6435 is thin so partial exit reduces risk.
+
+## [2026-08-27 10:02 UTC] sell | [FULL][LLM] $RISE at $8.39727e-06 | P&L: +61.1%
+- **Reasoning:** +61% but pool only $2180 (below 5x position size requirement of $25, weak liquidity). Lock the gain before illiquid reversal.
+
+## [2026-08-27 10:02 UTC] sell | [FULL][LLM] $LP at $3.95452e-06 | P&L: +26.3%
+- **Reasoning:** Pool=$0 is a hard red flag — zero liquidity means we can't actually realize the +26% on-paper gain. Exit to free the slot and avoid getting trapped.
+
+## [2026-08-27 10:02 UTC] sell | [FULL][LLM] $7up at $2.8154e-05 | P&L: +239.9%
+- **Reasoning:** +239% is the auto-tier-2 zone; with pool only $70 this is extremely illiquid and a single seller could collapse price. Lock the massive gain now — do not hope for more.
+
+## [2026-08-27 10:02 UTC] buy | [LLM] $CRYSTAL at $1.1754e-06, spent 0.05 SOL
+- **Reasoning:** RIP CRYSTAL THE MONKEY — emotional death-announcement narrative is a known viral attention pattern on X/CT. Real story, low mcap $1.1k, fresh launch = highest attention/reward ratio in batch.
+
