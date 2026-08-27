@@ -51,6 +51,7 @@ The latest daily journal entry:
 
 - ✅ **[Tasks](tasks/index.md)** — private todo list (password-protected)
 - 📈 **[Memecoin Trading Dashboard](trading/index.html)** — paper trading bot, real Solana prices, 2 SOL paper portfolio
+- 🖼️ **[Wallpapers](_meta/wallpapers/)** — phone wallpapers scraped from [alisonfriend.com](https://alisonfriend.com/) (36 images, iPhone + Android sizes)
 - **[Workflow docs →](_meta/method.md)**
 
 See the [full daily journal](daily/index.md) for everything.

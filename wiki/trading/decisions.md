@@ -3157,3 +3157,12 @@
 ## [2026-08-27 02:03 UTC] buy | [LLM] $NEYMAR at $5.21489e-06, spent 0.1 SOL
 - **Reasoning:** $NEYMAR — Neymar is a global celebrity with ~200M+ social reach. Celebrity memecoins with real names are the highest-attention category in this market. $5k mcap is prime attention-market entry. Risk: celebrity rugs are common, but attention is the asset.
 
+## [2026-08-27 02:04 UTC] sell | [FULL][LLM] $Kamaboko at $3.038e-06 | P&L: -58.3%
+- **Reasoning:** -58.3% — past the -50% hard cap. Mandatory close regardless of thesis.
+
+## [2026-08-27 02:04 UTC] buy | [LLM] $TRI at $1.15415e-05, spent 0.1 SOL
+- **Reasoning:** $TRI has the strongest bond curve (34%) of any new launch — real buyers are bonding, mcap already $11.5k shows traction. Narrative is fresh; catching early.
+
+## [2026-08-27 02:04 UTC] buy | [LLM] $DL at $3.429e-06, spent 0.1 SOL
+- **Reasoning:** $DL (Doing Life) launched by @nukidoya — a known X crypto account providing distribution. Below $3k mcap = very early, asymmetric upside.
+
