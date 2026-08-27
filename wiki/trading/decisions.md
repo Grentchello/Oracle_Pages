@@ -5023,3 +5023,15 @@
 ## [2026-08-27 09:21 UTC] buy | [LLM] $Quake at $1.82653e-05, spent 0.05 SOL
 - **Reasoning:** Real narrative: created by Graeme Devine, an actual id Software Quake developer. Authentic creator + recognizable IP + Solana play-to-earn angle = strongest attention signal in this batch. $18k mcap at 0.4min age is the early-entry window. Risk: bond only 37%, still illiquid — size accordingly.
 
+## [2026-08-27 09:22 UTC] sell | [FULL][LLM] $wifi at $1.22862e-05 | P&L: +4.4%
+- **Reasoning:** $wifi is only +4.4% after 0.1h with $3.3k pool liquidity — barely moving, will go stale. Lock the small gain and free the slot.
+
+## [2026-08-27 09:22 UTC] sell | [FULL][LLM] $internet at $2.94649e-06 | P&L: -19.3%
+- **Reasoning:** $internet is -19.3% with only $1 pool liquidity — this is a dead bonding-curve coin, will likely hit -30% hard stop. Cut the loss now.
+
+## [2026-08-27 09:22 UTC] buy | [LLM] $Amro at $5.70464e-06, spent 0.05 SOL
+- **Reasoning:** $Amro 'Cat Of War' has a twitter link (ITWILLRUN), 0.3min old, mcap $5.7k — fresh meme narrative with attention signal. Small position to test.
+
+## [2026-08-27 09:22 UTC] buy | [LLM] $narrative at $3.73e-06, spent 0.05 SOL
+- **Reasoning:** $narrative 'coinwithnarrative' is meta-narrative play (naming itself 'the narrative'), twitter attached, fresh 0.9min launch at $4.5k mcap — classic attention market play.
+
