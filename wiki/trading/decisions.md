@@ -2950,3 +2950,21 @@
 ## [2026-08-27 01:34 UTC] buy | [LLM] $LEEK at $5.82246e-06, spent 0.1 SOL
 - **Reasoning:** $LEEK — meta trading-meme ('outperform your average degen at trenching') is exactly the degen-native narrative that catches fire on CT; 0.4min old with a live X account is the early-attention signal we want at $5.8k mcap.
 
+## [2026-08-27 01:35 UTC] sell | [PARTIAL][LLM] $PRMPT at $3.021e-06 | P&L: +4.1%
+- **Reasoning:** $PRMPT at +4.1% with 24h only +5% — momentum fading. Take half profit off the table, let the rest ride or exit at +50%.
+
+## [2026-08-27 01:35 UTC] sell | [FULL][LLM] $HML at $2.822e-06 | P&L: -2.8%
+- **Reasoning:** $HML bleeding both 1h and 24h (-2.8% now, -6.3% trend). No narrative strength visible. Cut the loss before it grows.
+
+## [2026-08-27 01:35 UTC] sell | [PARTIAL][LLM] $higher at $6.36e-06 | P&L: +108.7%
+- **Reasoning:** $higher at +108.7% with 1h=+111% — already a massive runner. Lock in half the gains, let the other half ride if the narrative keeps going.
+
+## [2026-08-27 01:35 UTC] sell | [FULL][LLM] $LEEK at $2.854e-06 | P&L: -51.0%
+- **Reasoning:** $LEEK at -51.0% has breached the -50% hard cap. This position will auto-close, but I'm confirming exit — no recovery signal in the data.
+
+## [2026-08-27 01:35 UTC] buy | [LLM] $cat at $1.07188e-05, spent 0.1 SOL
+- **Reasoning:** $cat with 'cute animal tek' narrative at $10.7k mcap and 33% bond — strongest mcap of the new batch with a real X account attached. Animal meme + tech twist = viral-friendly. Early entry, decent story.
+
+## [2026-08-27 01:35 UTC] buy | [LLM] $Avatar at $3.16201e-06, spent 0.1 SOL
+- **Reasoning:** $Avatar 'Pump Avatar' — meta-narrative about PumpFun itself. Self-referential memes spread fast in the trenches. $3.2k mcap with Twitter attached = classic low-mcap attention play.
+
