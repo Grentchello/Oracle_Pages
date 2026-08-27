@@ -3076,3 +3076,18 @@
 ## [2026-08-27 01:50 UTC] buy | [LLM] $Scramble at $5.99076e-06, spent 0.1 SOL
 - **Reasoning:** $Scramble has a memeable name ('Scramble Cat'), bond 24% (highest in batch = strongest buy pressure so far), and an active twitter link. j7tracker deploys often see early traction.
 
+## [2026-08-27 01:52 UTC] sell | [PARTIAL][LLM] $Buddy at $5.835e-05 | P&L: +294.5%
+- **Reasoning:** $Buddy at +294.5% in 0.3h is a moonshot — locking in half protects gains while leaving a runner.1h at +39.9% suggests some cooling from peak; take profit.
+
+## [2026-08-27 01:52 UTC] sell | [FULL][LLM] $AGENTS at $2.879e-06 | P&L: -17.4%
+- **Reasoning:** $AGENTS at -17.4% just entered, 24h essentially flat (+1.2%) — the drop is post-entry weakness with no catalyst. Cut and free the slot for fresh launches.
+
+## [2026-08-27 01:52 UTC] sell | [FULL][LLM] $Scramble at $5.97e-06 | P&L: -0.3%
+- **Reasoning:** $Scramble at -0.3% but 24h=-85.7% is a screaming bleed — dead narrative, no reason to wait. Free the slot.
+
+## [2026-08-27 01:52 UTC] buy | [LLM] $Swarm at $1.42872e-05, spent 0.1 SOL
+- **Reasoning:** $Swarm has highest mcap ($14k) of new launches with a dedicated dev Twitter and bond at 36% — narrative + early traction, worth a small position.
+
+## [2026-08-27 01:52 UTC] buy | [LLM] $Zhdun at $7.58928e-06, spent 0.1 SOL
+- **Reasoning:** $Zhdun — team claims to be behind Earl's $47M run. Proven devs with verifiable track record is the strongest narrative in the batch. High risk if fake, but asymmetric if real.
+
