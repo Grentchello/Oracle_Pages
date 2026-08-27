@@ -1,5 +1,5 @@
 {
-  "balance_sol": 1.036724,
+  "balance_sol": 0.969176,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -50,9 +50,9 @@
     "37wFDx322zdBCNUnbCDsn6uusMMgR1SgzJXfWKagpump": {
       "symbol": "ATLAS",
       "name": "The Sisyphean Holder",
-      "amount": 2090965.6029838377,
+      "amount": 1045482.8014919189,
       "entry_price_usd": 4.826e-06,
-      "entry_sol_spent": 0.1,
+      "entry_sol_spent": 0.05,
       "entry_time": "2026-08-27T02:45:09.405548+00:00",
       "entry_usd_value": 10.091000000000001,
       "entry_signals": {
@@ -87,6 +87,28 @@
         "real_sol_reserves": 0.987654322,
         "description": "A Useful Coin",
         "twitter": "https://x.com/rorymoon_2/status/2092805373069533661?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "6ePBXoNjXkQKH1NfMDZEVAKQigiug6XzhCHvnpFmpump": {
+      "symbol": "monkey.jpeg",
+      "name": "monkey.jpeg",
+      "amount": 579031.5643277931,
+      "entry_price_usd": 1.7420466553857318e-05,
+      "entry_sol_spent": 0.1,
+      "entry_time": "2026-08-27T02:46:34.748631+00:00",
+      "entry_usd_value": 10.087000000000002,
+      "entry_signals": {
+        "liquidity_usd": 1471.06227937053,
+        "volume_24h_usd": null,
+        "market_cap_usd": 17377.405700299503,
+        "ath_market_cap_usd": 17827.481580370055,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 14.583744219,
+        "description": "-",
+        "twitter": "https://x.com/based16z/status/2092805444829851953",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -6824,25 +6846,30 @@
       "pnl_pct": -24.09,
       "exit_reason": "LLM: sell_all — $ASHBORN -24.1% and dropping fast, no narrative signal to justify bag-holding. Cut and redeploy into fresh attention.",
       "partial": false
+    },
+    {
+      "mint": "37wFDx322zdBCNUnbCDsn6uusMMgR1SgzJXfWKagpump",
+      "symbol": "ATLAS",
+      "name": "The Sisyphean Holder",
+      "amount_sold": 1045482.8014919189,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-27T02:45:09.405548+00:00",
+      "exit_time": "2026-08-27T02:46:34.426878+00:00",
+      "entry_price_usd": 4.826e-06,
+      "exit_price_usd": 3.1310232368735817e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.032452,
+      "pnl_sol": -0.017548,
+      "pnl_pct": -35.12,
+      "exit_reason": "LLM: sell_half — $ATLAS -35% and narrative is being diluted by multiple copycat launches this tick; cut risk toward the -50% hard cap while keeping a small bounce posi",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-27T02:45:10.002034+00:00",
+  "last_updated": "2026-08-27T02:46:34.749003+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.91,
-  "portfolio_value_usd": 139.99,
+  "last_sol_price_usd": 100.87,
+  "portfolio_value_usd": 138.18,
   "recent_decisions": [
-    {
-      "time": "2026-08-27 02:40 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $cat at $3.096e-06 | P&L: -49.0%",
-      "reason": "$cat -49.0% and 24h -9.2% — this one is dying, not dipping. Cut it free up a position and free SOL for fresh launches."
-    },
-    {
-      "time": "2026-08-27 02:40 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $FAMILY at $2.826e-06 | P&L: -17.3%",
-      "reason": "$FAMILY -17.3% with 24h -12.1%. Dead cat bounce territory; rotating capital into fresh attention is better than hoping."
-    },
     {
       "time": "2026-08-27 02:40 UTC",
       "action": "buy",
@@ -6950,46 +6977,47 @@
       "action": "buy",
       "details": "[LLM] $USEFUL at $3.01996e-06, spent 0.1 SOL",
       "reason": "$USEFUL with X link from rorymoon_2 is the freshest narrative coin — 0.3min old, $3k mcap, classic attention-launched play."
+    },
+    {
+      "time": "2026-08-27 02:46 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $ATLAS at $3.13102e-06 | P&L: -35.1%",
+      "reason": "$ATLAS -35% and narrative is being diluted by multiple copycat launches this tick; cut risk toward the -50% hard cap while keeping a small bounce position."
+    },
+    {
+      "time": "2026-08-27 02:46 UTC",
+      "action": "buy",
+      "details": "[LLM] $monkey.jpeg at $1.74205e-05, spent 0.1 SOL",
+      "reason": "$monkey.jpeg has the strongest attention signal — @based16z tweet already spawning 4+ copycats this tick, classic viral-attention pattern at $17k mcap. Risk: very early, could rug; position size is small (0.1 SOL) so loss is contained."
     }
   ],
   "trade_stats": {
-    "total": 396,
+    "total": 397,
     "wins": 180,
-    "losses": 216,
-    "win_rate_pct": 45.5,
-    "total_pnl_sol": -0.51327,
-    "avg_pnl_pct": 71.86,
+    "losses": 217,
+    "win_rate_pct": 45.3,
+    "total_pnl_sol": -0.530818,
+    "avg_pnl_pct": 71.59,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 253,
-    "today_realized_sol": 0.015937,
-    "today_target_pct": 4.0,
+    "today_trades": 254,
+    "today_realized_sol": -0.001611,
+    "today_target_pct": -0.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 180,
-      "loss_count": 216,
+      "loss_count": 217,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-27T02:45:09.109611+00:00",
+  "last_llm_brief_at": "2026-08-27T02:46:34.426832+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "7DFy4JGzirMwCmMQEoHZJBuQNnJYmkurraLGRtktpump": {
-      "price_usd": 1.1986770161938554e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 3212.61510873408,
-      "volume_h24": 17295.38,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 31.836439488
-    },
     "BRc9vvMh3pGRwboaq8m1tT1EmAzy27nS3LhnYYVV9VRL": {
-      "price_usd": 4.762816157441682e-06,
+      "price_usd": 4.760928211288698e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 906.0219956740599,
+      "liquidity_usd": 905.66285505542,
       "volume_h24": 5362.97,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
@@ -6997,26 +7025,37 @@
       "real_sol_reserves": 8.978515466
     },
     "dktEerU1BK3L4nwoEkaA7daR1ioqf1jZYDSz6fApump": {
-      "price_usd": 1.4674436188095712e-05,
+      "price_usd": 1.0986978758405786e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3876.81956008224,
-      "volume_h24": 0,
+      "liquidity_usd": 2946.7367035183,
+      "volume_h24": 7381.6,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 38.418586464
+      "real_sol_reserves": 29.21321209
     },
-    "CFNZoy2p2DfcjdwZN2Z6xpYtyTX9H3kJKsTfSAGwpump": {
-      "price_usd": 2.823052442736939e-06,
+    "37wFDx322zdBCNUnbCDsn6uusMMgR1SgzJXfWKagpump": {
+      "price_usd": 3.1310232368735817e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.9174989474999999,
-      "volume_h24": 0,
+      "liquidity_usd": 162.38695686598,
+      "volume_h24": 18488.18,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.00909225
+      "real_sol_reserves": 1.609863754
+    },
+    "H9L8RBq2qxiXCcWHpLPE7CbjyDFSSHSBzZAecuR3pump": {
+      "price_usd": 3.00897409874046e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 99.62469146014001,
+      "volume_h24": 149.39,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.987654322
     }
   }
 }

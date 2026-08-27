@@ -3496,3 +3496,9 @@
 ## [2026-08-27 02:45 UTC] buy | [LLM] $USEFUL at $3.01996e-06, spent 0.1 SOL
 - **Reasoning:** $USEFUL with X link from rorymoon_2 is the freshest narrative coin — 0.3min old, $3k mcap, classic attention-launched play.
 
+## [2026-08-27 02:46 UTC] sell | [PARTIAL][LLM] $ATLAS at $3.13102e-06 | P&L: -35.1%
+- **Reasoning:** $ATLAS -35% and narrative is being diluted by multiple copycat launches this tick; cut risk toward the -50% hard cap while keeping a small bounce position.
+
+## [2026-08-27 02:46 UTC] buy | [LLM] $monkey.jpeg at $1.74205e-05, spent 0.1 SOL
+- **Reasoning:** $monkey.jpeg has the strongest attention signal — @based16z tweet already spawning 4+ copycats this tick, classic viral-attention pattern at $17k mcap. Risk: very early, could rug; position size is small (0.1 SOL) so loss is contained.
+

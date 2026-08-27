@@ -489,10 +489,13 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
             "current_price_usd": cur_price,
             "pnl_pct": round(pnl_pct, 1) if pnl_pct is not None else None,
             "held_hours": round(held_hours, 1),
-            "change_24h": hprice.get("change_h24"),
-            "change_1h": hprice.get("change_h1"),
+            "change_24h": hprice.get("change_24h"),
+            "change_1h": hprice.get("change_1h"),
             "liquidity_usd": hprice.get("liquidity_usd"),
             "volume_h24": hprice.get("volume_h24"),
+            "pos_value_usd": round((pos.get("amount", 0) * cur_price), 2) if cur_price > 0 else 0,
+            "pos_pct_of_liq": round(((pos.get("amount", 0) * cur_price) / hprice.get("liquidity_usd", 0) * 100), 1) if cur_price > 0 and hprice.get("liquidity_usd", 0) > 0 else None,
+            "real_sol_reserves": hprice.get("real_sol_reserves"),
             "dex_id": hprice.get("dex_id"),
             "price_source": hprice.get("source", "missing"),
         })
@@ -993,6 +996,20 @@ def main():
         fraction = 1.0 if action == "sell_all" else 0.5 if action == "sell_half" else None
         if fraction is None:
             continue
+        # Liquidity-aware exit cap: if position > 30% of pool, sell only what fits.
+        pos = state["positions"].get(target_mint)
+        pos_value = (pos.get("amount", 0) * cur_price) if pos else 0
+        liq = _to_float(hprice.get("liquidity_usd"))
+        if liq > 0 and pos_value > 0:
+            current_pct = pos_value / liq * 100
+            if current_pct > 30:
+                # Sell only enough to bring position to 25% of pool
+                target_value = liq * 0.25
+                keep_value = min(target_value, pos_value * 0.5)  # never keep more than half
+                safe_fraction = max(0.1, (pos_value - keep_value) / pos_value)
+                if safe_fraction < fraction:
+                    log(f"LIQUIDITY CAP: ${pos.get('symbol')} was sell {action} but pos={current_pct:.0f}% of pool — capping at {safe_fraction*100:.0f}% to avoid -90% slippage")
+                    fraction = safe_fraction
         trade = execute_sell(state, target_mint, cur_price, fraction, f"LLM: {action} — {reasoning[:150]}")
         if trade:
             exits_made += 1
