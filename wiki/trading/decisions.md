@@ -6943,3 +6943,6 @@
 ## [2026-08-27 13:02 UTC] sell | [PARTIAL][LLM] $RISE at $8.38065e-06 | P&L: +62.4%
 - **Reasoning:** RISE is up +62% already past the +50% TP threshold with a tiny $2.1k pool — the kind of parabolic move that reverts hard. Take half off the table to lock the +62% gain, let the rest ride with a free mental stop.
 
+## [2026-08-27 13:03 UTC] sell | [TP +30% (25%)] $RISE at $8.71718e-06 | P&L: +68.9%
+- **Reasoning:** Auto take-profit at +68.9%
+
