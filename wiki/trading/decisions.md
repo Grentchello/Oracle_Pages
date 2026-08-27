@@ -6862,3 +6862,21 @@
 ## [2026-08-27 12:55 UTC] buy | [LLM] $mofo at $9.77315e-06, spent 0.05 SOL
 - **Reasoning:** $mofo (The Trading Agent) — meme name with strong virality, highest mcap at $9,799 shows some traction, 31% bonding curve. The meta-narrative (a memecoin literally called The Trading Agent) is the kind of self-referential humor that pumps on CT.
 
+## [2026-08-27 12:56 UTC] sell | [hard-stop] $mofo closed at $2.92171e-06 | P&L: -70.1%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 12:56 UTC] sell | [TP +30% (25%)] $HolyBull at $2.71726e-05 | P&L: +87.3%
+- **Reasoning:** Auto take-profit at +87.3%
+
+## [2026-08-27 12:56 UTC] sell | [FULL][LLM] $FRIENDS at $1.56618e-05 | P&L: +0.9%
+- **Reasoning:** FRIENDS is flat (+0.9%) after 6 minutes, pool only $4.1k, no momentum. Stale risk + tiny liquidity = exit and free the slot for fresh launches with real narrative.
+
+## [2026-08-27 12:56 UTC] sell | [FULL][LLM] $HolyBull at $2.71726e-05 | P&L: +87.3%
+- **Reasoning:** HolyBull is +87% — already past the +50% TP zone and the rules say lock gains when in doubt. Memecoin green candles fade fast; -30% rule can wipe this in minutes. Bank it.
+
+## [2026-08-27 12:56 UTC] buy | [LLM] $XCOIN at $7.7529e-06, spent 0.05 SOL
+- **Reasoning:** $XCOIN has the strongest narrative on the board — Twitter/X reportedly launching a creator coin is a massive platform-level catalyst with viral potential. $7.8k mcap, real news hook, 0.4min old.
+
+## [2026-08-27 12:56 UTC] buy | [LLM] $RISE at $5.16013e-06, spent 0.05 SOL
+- **Reasoning:** $RISE has a concrete attention mechanic — 60% airdrop to top 15 holders creates forced buying and holder competition, classic pump.fun retention play. Fresh, $5.2k mcap, has X account.
+
