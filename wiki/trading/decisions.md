@@ -5638,3 +5638,6 @@
 ## [2026-08-27 10:27 UTC] sell | [FULL][LLM] $GLIRAP at $3.84134e-06 | P&L: +0.9%
 - **Reasoning:** Flat (+0.9%) with $20 pool (4x below min liquidity), our 26% share means we ARE the liquidity. Stale and illiquid — exit before it bleeds.
 
+## [2026-08-27 10:28 UTC] sell | [TP +100% (50%)] $ANTSEM at $2.13142e-05 | P&L: +116.7%
+- **Reasoning:** Auto take-profit at +116.7%
+
