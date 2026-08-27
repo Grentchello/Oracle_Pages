@@ -5221,3 +5221,15 @@
 ## [2026-08-27 09:45 UTC] buy | [LLM] $AI at $5.78425e-06, spent 0.05 SOL
 - **Reasoning:** $AI 'Ape In' is the obvious meta-narrative token — literally the name of the strategy. 0.6min old, $5.7k mcap, viral-attention bait (every CT trader apes in). Pool small but the name itself is the attention signal. 0.05 SOL position size.
 
+## [2026-08-27 09:46 UTC] sell | [hard-stop] $AI closed at $2.96266e-06 | P&L: -48.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-27 09:46 UTC] sell | [PARTIAL][LLM] $ANUS at $2.94805e-06 | P&L: -22.1%
+- **Reasoning:** Down -22.1% with a 55% pool share means I'm the exit liquidity if anyone sells. No bounce signal, narrative is dead on arrival. -20% rule says cut, and being the dominant pool holder makes holding worse — exit now before the hard stop fires.
+
+## [2026-08-27 09:46 UTC] buy | [LLM] $Crescent at $4.50947e-06, spent 0.05 SOL
+- **Reasoning:** $Crescent — 'Waning Crescent' is a clean astronomy/celestial narrative tied to a current lunar phase, which historically trends well on CT. Sub-$5k mcap, fresh 0.1min age, same twitter signal as $MOON suggests coordinated launch attention. 0.05 SOL size for asymmetric upside.
+
+## [2026-08-27 09:46 UTC] buy | [LLM] $MOON at $4.95746e-06, spent 0.05 SOL
+- **Reasoning:** $MOON — the most memeable name in crypto with a coordinated X launch (heisenberg83 status). $4.9k mcap, 19% bonded already shows buy pressure. Attention-launched meta-coins with 'moon' branding historically catch fire on day-one.
+
