@@ -4324,3 +4324,12 @@
 ## [2026-08-27 07:52 UTC] buy | [LLM] $GOOB at $5.09375e-06, spent 0.1 SOL
 - **Reasoning:** $GOOB 'GET OUT OF BED' has relatable viral hook, $5.1k mcap with 20% bonding curve progress showing some traction — decent attention-market candidate at 0.1 SOL.
 
+## [2026-08-27 07:53 UTC] sell | [hard-stop] $DOGGYSTYLE closed at $2.98327e-06 | P&L: -84.8%
+- **Reasoning:** Hard -50% stop
+
+## [2026-08-27 07:53 UTC] sell | [TP +300% (full)] $GOOB at $2.592e-05 | P&L: +408.9%
+- **Reasoning:** Auto take-profit at +408.9%
+
+## [2026-08-27 07:54 UTC] buy | [LLM] $CNM at $5.00624e-06, spent 0.1 SOL
+- **Reasoning:** $CNM at 0.1min, $5k mcap, has Twitter link — freshest launch with a clear cultural narrative (China/never-misses meme) and attached attention. Highest urgency in the batch.
+
