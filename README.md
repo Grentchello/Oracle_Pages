@@ -105,3 +105,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- memecoin bot halted -->
 
 <!-- CoinCLIP research note -->
+
+<!-- ME2F fragility research -->
