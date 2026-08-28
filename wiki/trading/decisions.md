@@ -8710,3 +8710,6 @@
 ## [2026-08-28 07:44 UTC] sell | [PARTIAL][LLM] $sob at $1.64734e-05 | P&L: +18.9%
 - **Reasoning:** Up +18.9% in 0.0h with pool=$4321 and our share 0% — bonding curve is thin and momentum just started. Per the rules, lock the partial gain at this level since we have no conviction it'll hold, while keeping a runner in case it 5x's.
 
+## [2026-08-28 07:45 UTC] sell | [hard-stop] $sob closed at $7.93883e-06 | P&L: -42.7%
+- **Reasoning:** Hard -30% stop
+
