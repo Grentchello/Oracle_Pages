@@ -8644,3 +8644,6 @@
 ## [2026-08-28 07:21 UTC] buy | [LLM] $IRL at $3.13631e-06, spent 0.05 SOL
 - **Reasoning:** $IRL (Internet Reactions Living) - meta-meme about memes going viral, has Twitter attention signal (decusol). Relatable narrative + social proof = attention catalyst. Small size0.05 SOL, high risk but asymmetric upside if it catches.
 
+## [2026-08-28 07:23 UTC] sell | [PARTIAL][LLM] $BONNIE at $2.98596e-06 | P&L: -10.8%
+- **Reasoning:** Down10.8% in 6 minutes with a tiny $3 pool (we own 38% — basically illiquid), price flatlined at $0.0000000280 for the last 4 snapshots. No bounce signal, no narrative boost. Cut before -30% hard stop.
+
