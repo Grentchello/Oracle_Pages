@@ -101,3 +101,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- force rebuild -->
 
 <!-- refresh state -->
+
+<!-- memecoin bot halted -->
