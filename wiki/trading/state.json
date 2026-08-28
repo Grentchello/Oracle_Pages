@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.124565,
+  "balance_sol": 0.097026,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "88ERjNnqMLWGKrkmBNWZATURDoKADbkeXRFC753opump": {
       "symbol": "BONNIE",
       "name": "Justice For Bonnie Pierce",
-      "amount": 1596485.5185943558,
+      "amount": 798242.7592971779,
       "entry_price_usd": 3.348918570027111e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-28T07:17:44.433055+00:00",
       "entry_usd_value": 5.346500000000001,
       "entry_signals": {
@@ -43,6 +43,28 @@
         "real_sol_reserves": 1.049279249,
         "description": "",
         "twitter": "https://twitter.com/igetsjiggy6767/status/2093236438317879498",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "GU8Shrf4h9xsirUGTxKVywfw1goHxnBFyD9EsEdQpump": {
+      "symbol": "PIKACIO",
+      "name": "Pikacio",
+      "amount": 669831.4763501161,
+      "entry_price_usd": 7.96468990837844e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-28T07:19:05.897251+00:00",
+      "entry_usd_value": 5.335000000000001,
+      "entry_signals": {
+        "liquidity_usd": 2029.763221783,
+        "volume_24h_usd": null,
+        "market_cap_usd": 7977.070831906247,
+        "ath_market_cap_usd": 7949.200937844339,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 19.02308549,
+        "description": "Pikacio is a strange little yellow creature powered by electricity and pure confusion. He watches the charts, never knows what’s happening, and simply keeps staring. Very yellow. Very electric. ⚡ No Prophecies. Just Pikacio.",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -20839,25 +20861,30 @@
       "pnl_pct": -4.61,
       "exit_reason": "LLM: sell_all — Price has been completely flatlined at MC:60 for the last 4 minutes on the bonding curve with no volume action. -4.6% with zero momentum means buyers ",
       "partial": false
+    },
+    {
+      "mint": "88ERjNnqMLWGKrkmBNWZATURDoKADbkeXRFC753opump",
+      "symbol": "BONNIE",
+      "name": "Justice For Bonnie Pierce",
+      "amount_sold": 798242.7592971779,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-28T07:17:44.433055+00:00",
+      "exit_time": "2026-08-28T07:19:05.596806+00:00",
+      "entry_price_usd": 3.348918570027111e-06,
+      "exit_price_usd": 3.002269824440247e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.022461,
+      "pnl_sol": -0.002539,
+      "pnl_pct": -10.35,
+      "exit_reason": "LLM: sell_all — Pool only $10, our share 47% — illiquid death trap. Cut before we lose more and can't exit.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-28T07:17:44.433447+00:00",
+  "last_updated": "2026-08-28T07:19:05.897673+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.93,
-  "portfolio_value_usd": 24.01,
+  "last_sol_price_usd": 106.7,
+  "portfolio_value_usd": 23.71,
   "recent_decisions": [
-    {
-      "time": "2026-08-28 06:53 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-08-28 06:55 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-28 06:56 UTC",
       "action": "observe",
@@ -20965,29 +20992,64 @@
       "action": "buy",
       "details": "[LLM] $BONNIE at $3.34892e-06, spent 0.05 SOL",
       "reason": "$BONNIE 'Justice For Bonnie Pierce' — viral cause/justice narratives pump hard on memecoin attention markets. Sub-$5k mcap, fresh launch, emotional hook = textbook attention play."
+    },
+    {
+      "time": "2026-08-28 07:19 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BONNIE at $3.00227e-06 | P&L: -10.3%",
+      "reason": "Pool only $10, our share 47% — illiquid death trap. Cut before we lose more and can't exit."
+    },
+    {
+      "time": "2026-08-28 07:19 UTC",
+      "action": "buy",
+      "details": "[LLM] $PIKACIO at $7.96469e-06, spent 0.05 SOL",
+      "reason": "PIKACIO = Pikachu parody, classic meme DNA, age 0.2min, mcap $7.9k — freshest narrative with clearest attention hook."
     }
   ],
   "trade_stats": {
-    "total": 1223,
+    "total": 1224,
     "wins": 637,
-    "losses": 586,
-    "win_rate_pct": 52.1,
-    "total_pnl_sol": -1.675426,
-    "avg_pnl_pct": 41.9,
+    "losses": 587,
+    "win_rate_pct": 52.0,
+    "total_pnl_sol": -1.677965,
+    "avg_pnl_pct": 41.85,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 0,
-    "today_realized_sol": 0,
-    "today_target_pct": 0.0,
+    "today_trades": 1,
+    "today_realized_sol": -0.002539,
+    "today_target_pct": -0.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 637,
-      "loss_count": 586,
+      "loss_count": 587,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-28T07:17:43.844719+00:00",
+  "last_llm_brief_at": "2026-08-28T07:19:05.596662+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "AbNLacD7Ec78bHQKBPD8cPDv4mRwJDUThsSsb3Rbpump": {
+      "price_usd": 5.965581312582028e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1325.5683621169,
+      "volume_h24": 8940.7,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 12.423321107
+    },
+    "88ERjNnqMLWGKrkmBNWZATURDoKADbkeXRFC753opump": {
+      "price_usd": 3.002269824440247e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 10.2015065482,
+      "volume_h24": 4264.27,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.095609246
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot"
 }

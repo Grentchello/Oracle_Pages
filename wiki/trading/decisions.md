@@ -8620,3 +8620,9 @@
 ## [2026-08-28 07:17 UTC] buy | [LLM] $BONNIE at $3.34892e-06, spent 0.05 SOL
 - **Reasoning:** $BONNIE 'Justice For Bonnie Pierce' — viral cause/justice narratives pump hard on memecoin attention markets. Sub-$5k mcap, fresh launch, emotional hook = textbook attention play.
 
+## [2026-08-28 07:19 UTC] sell | [PARTIAL][LLM] $BONNIE at $3.00227e-06 | P&L: -10.3%
+- **Reasoning:** Pool only $10, our share 47% — illiquid death trap. Cut before we lose more and can't exit.
+
+## [2026-08-28 07:19 UTC] buy | [LLM] $PIKACIO at $7.96469e-06, spent 0.05 SOL
+- **Reasoning:** PIKACIO = Pikachu parody, classic meme DNA, age 0.2min, mcap $7.9k — freshest narrative with clearest attention hook.
+
