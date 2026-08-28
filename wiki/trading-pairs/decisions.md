@@ -68,3 +68,5 @@
 
 ## [2026-08-28 14:13 UTC] close | ETHUSDT DIR SL -2.1% P&L=-2.1%
 
+## [2026-08-28 16:01 UTC] close | BNBUSDT DIR SL -2.0% P&L=-2.0%
+
