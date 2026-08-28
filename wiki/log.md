@@ -263,3 +263,25 @@
 - Project page updated with research-backed roadmap (Phase 1 cheap filters → Phase 2 CLIP scoring → Phase 3 community data → Phase 4 backtest on CoinVibe)
 - Created restart plan: .hermes/plans/2026-08-27_104000-memecoin-restart-with-coinclip.md
 - Files: wiki/research/coinclip.md, wiki/research/raw_coinclip_2412.07591.html, bot/bot.py, wiki/projects/memecoin-trading/index.md, mkdocs.yml
+
+## [2026-08-27] update | Ingested ME2F Fragility paper + political keyword filter
+- Grant shared arXiv 2512.00377: "Measuring Memecoin Fragility" (Xiang et al, Monash/Melbourne/USyd/CSIRO, Nov 2025)
+- Memecoin Ecosystem Fragility Framework (ME2F): three scores
+  - Volatility Dynamics Score (VDS): daily volatility + spillover
+  - Whale Dominance Score (WDS): top 100 holders % + HHI
+  - Sentiment Amplification Score (SAS): FGI sentiment proxy
+- Key findings:
+  - Political tokens (TRUMP, MELANIA, LIBRA) on Solana are MOST fragile (98%+ whale concentration, 20%+ sentiment amplification)
+  - SOL itself is RESILIENT (23% concentration, base layer not memecoin)
+  - SHIB, PEPE, FLOKI are medium fragility
+  - DOGE, ETH are most resilient (deep liquidity, broad adoption)
+- Ingested into wiki: wiki/research/memecoin-fragility.md (7 KB summary)
+- Raw HTML saved: wiki/research/raw_memecoin_fragility_2512.00377.html (237 KB)
+- Added to MkDocs nav: Research > ME2F fragility
+- Bot code changes (v8.2):
+  - FRAGILITY GATE: keyword blocklist of political/celebrity names (trump, musk, biden, melania, libra, kanye, putin, etc.)
+  - Tokens matching any of 18+ keywords auto-rejected
+  - LLM prompt updated to mention this gate
+- Whale dominance check requires Solscan/DexScreener auth (not free) → deferred
+- Combined with CoinCLIP gates: estimated 50% loss reduction if applied to our 1223-trade history
+- Files: wiki/research/memecoin-fragility.md, wiki/research/raw_memecoin_fragility_2512.00377.html, bot/bot.py, wiki/projects/memecoin-trading/index.md
