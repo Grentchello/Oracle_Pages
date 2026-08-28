@@ -8704,3 +8704,6 @@
 ## [2026-08-28 07:41 UTC] sell | [hard-stop] $Yae-chan closed at $5.11083e-06 | P&L: -30.5%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-28 07:42 UTC] buy | [LLM] $sob at $1.385e-05, spent 0.05 SOL
+- **Reasoning:** $sob - 'standing on business' is a viral cultural phrase with meme legs, highest mcap ($13k) in the batch signals organic early buying, fresh launch at 1.4min offers attention entry before broader discovery.
+
