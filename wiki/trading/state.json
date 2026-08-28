@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.088885,
+  "balance_sol": 0.127577,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7SARMsaa5sjy55A8VQNUtY9ENCVwskKZ1qbX36qQpump": {
-      "symbol": "FLATBUSH",
-      "name": "Flatbush Cats",
-      "amount": 925212.9295232471,
-      "entry_price_usd": 5.768401877771101e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-28T07:37:32.183327+00:00",
-      "entry_usd_value": 5.337,
-      "entry_signals": {
-        "liquidity_usd": 1040.7591042208198,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5752.629065196034,
-        "ath_market_cap_usd": 6789.386901910493,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 9.750413193,
-        "description": "",
-        "twitter": "https://x.com/missedentryx/status/2093240685499486644?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21089,19 +21066,30 @@
       "pnl_pct": 77.17,
       "exit_reason": "LLM: sell_all — Position is +77% per price tick and bot should have already auto-TP'd; locking remaining gains. Pool is thin ($8.5k) and 'greg' narrative has limited ",
       "partial": false
+    },
+    {
+      "mint": "7SARMsaa5sjy55A8VQNUtY9ENCVwskKZ1qbX36qQpump",
+      "symbol": "FLATBUSH",
+      "name": "Flatbush Cats",
+      "amount_sold": 925212.9295232471,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-28T07:37:32.183327+00:00",
+      "exit_time": "2026-08-28T07:39:01.789329+00:00",
+      "entry_price_usd": 5.768401877771101e-06,
+      "exit_price_usd": 4.468022820964443e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.038692,
+      "pnl_sol": -0.011308,
+      "pnl_pct": -22.54,
+      "exit_reason": "LLM: sell_all — Down -22.5% just entered (0.0h held), approaching -30% hard stop, pool only $715 with my 1% share = terrible exit liquidity. No bounce signal. Cut and",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-28T07:37:32.183745+00:00",
+  "last_updated": "2026-08-28T07:39:01.789639+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.74,
-  "portfolio_value_usd": 14.82,
+  "last_sol_price_usd": 106.84,
+  "portfolio_value_usd": 13.63,
   "recent_decisions": [
-    {
-      "time": "2026-08-28 07:21 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $BONNIE at $2.99116e-06 | P&L: -10.7%",
-      "reason": "$BONNIE -10.7% with pool only $5 (our share 52% = we'll crash it selling anyway). Bonding-curve dump with no recovery signal in 30m. Capital is locked in illiquid position, exit to free slot."
-    },
     {
       "time": "2026-08-28 07:21 UTC",
       "action": "sell",
@@ -21215,40 +21203,46 @@
       "action": "buy",
       "details": "[LLM] $FLATBUSH at $5.7684e-06, spent 0.05 SOL",
       "reason": "Flatbush Cats is a real NYC cat rescue org with built-in viral sympathy narrative. $5.7k mcap with 22% bonding curve progress = real traction already, organic attention from a credible real-world story. Animal rescue memes historically pump hard on attention. Risk: $5.7k mc means thin pool, could rug or die — but narrative + early bonding curve makes this the best risk/reward in the slate."
+    },
+    {
+      "time": "2026-08-28 07:39 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FLATBUSH at $4.46802e-06 | P&L: -22.5%",
+      "reason": "Down -22.5% just entered (0.0h held), approaching -30% hard stop, pool only $715 with my 1% share = terrible exit liquidity. No bounce signal. Cut and free the slot per 'losers exit fast' rule."
     }
   ],
   "trade_stats": {
-    "total": 1239,
+    "total": 1240,
     "wins": 640,
-    "losses": 599,
-    "win_rate_pct": 51.7,
-    "total_pnl_sol": -1.761105,
-    "avg_pnl_pct": 41.28,
+    "losses": 600,
+    "win_rate_pct": 51.6,
+    "total_pnl_sol": -1.772413,
+    "avg_pnl_pct": 41.23,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 16,
-    "today_realized_sol": -0.085679,
-    "today_target_pct": -21.4,
+    "today_trades": 17,
+    "today_realized_sol": -0.096987,
+    "today_target_pct": -24.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 640,
-      "loss_count": 599,
+      "loss_count": 600,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-28T07:37:31.887745+00:00",
+  "last_llm_brief_at": "2026-08-28T07:39:01.788860+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "J58uwcpCU3vpomu5bmx23XNNzLDnTDw3GQgGQ1Jepump": {
-      "price_usd": 3.9899194954557474e-05,
+    "7SARMsaa5sjy55A8VQNUtY9ENCVwskKZ1qbX36qQpump": {
+      "price_usd": 4.468022820964443e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 8506.43200609488,
-      "volume_h24": 95796.25,
+      "liquidity_usd": 714.79144975188,
+      "volume_h24": 8391.65,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 79.693011112
+      "real_sol_reserves": 6.690298107
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

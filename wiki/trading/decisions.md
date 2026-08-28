@@ -8695,3 +8695,6 @@
 ## [2026-08-28 07:37 UTC] buy | [LLM] $FLATBUSH at $5.7684e-06, spent 0.05 SOL
 - **Reasoning:** Flatbush Cats is a real NYC cat rescue org with built-in viral sympathy narrative. $5.7k mcap with 22% bonding curve progress = real traction already, organic attention from a credible real-world story. Animal rescue memes historically pump hard on attention. Risk: $5.7k mc means thin pool, could rug or die — but narrative + early bonding curve makes this the best risk/reward in the slate.
 
+## [2026-08-28 07:39 UTC] sell | [FULL][LLM] $FLATBUSH at $4.46802e-06 | P&L: -22.5%
+- **Reasoning:** Down -22.5% just entered (0.0h held), approaching -30% hard stop, pool only $715 with my 1% share = terrible exit liquidity. No bounce signal. Cut and free the slot per 'losers exit fast' rule.
+
