@@ -56,7 +56,7 @@ The latest daily journal entry:
 ## Live systems
 
 - ✅ **[Tasks](tasks/index.md)** — private todo list (password-protected)
-- 📈 **[Memecoin Trading Dashboard](trading/index.html)** — paper trading bot, real Solana prices, 2 SOL paper portfolio
+- ⛔ **[Memecoin Trading Dashboard](trading/index.html)** — *HALTED*. Lost 88.5% over 1223 trades. State preserved.
 - 📊 **[Trading Pairs Bot](projects/trading-pairs/index.md)** — multi-pair multi-strategy (SUPER/ROC/BB/DIR) on BTC/ETH/SOL/BNB/XRP/ARB
 - 🖼️ **[Wallpapers](_meta/wallpapers.md)** — phone wallpapers scraped from [alisonfriend.com](https://alisonfriend.com/) (36 images, iPhone + Android sizes)
 - **[Workflow docs →](_meta/method.md)**
