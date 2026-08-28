@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.056415,
+  "balance_sol": 0.095522,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "83yaKkUgGTEGrA7x9V57cDbVZxJwD1wr7aerrxYvpump": {
-      "symbol": "walkie",
-      "name": "dogonwalkie",
-      "amount": 485876.5907572967,
-      "entry_price_usd": 1.0985299768570593e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-28T07:46:39.494553+00:00",
-      "entry_usd_value": 5.3375,
-      "entry_signals": {
-        "liquidity_usd": 2766.8289230627497,
-        "volume_24h_usd": null,
-        "market_cap_usd": 10990.74498042044,
-        "ath_market_cap_usd": 12846.00580729632,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 25.918772113,
-        "description": "dogonwalkie.",
-        "twitter": "https://x.com/dogonwalkie/status/2093243430185156785?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21157,19 +21134,30 @@
       "pnl_pct": -42.68,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "83yaKkUgGTEGrA7x9V57cDbVZxJwD1wr7aerrxYvpump",
+      "symbol": "walkie",
+      "name": "dogonwalkie",
+      "amount_sold": 485876.5907572967,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-28T07:46:39.494553+00:00",
+      "exit_time": "2026-08-28T07:48:28.506629+00:00",
+      "entry_price_usd": 1.0985299768570593e-05,
+      "exit_price_usd": 8.58875818162397e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.039107,
+      "pnl_sol": -0.010893,
+      "pnl_pct": -21.82,
+      "exit_reason": "LLM: sell_all — $walkie is down -21.8% in minutes with no bounce, narrative is thin (generic dog name, no viral hook), pool only $2230. Hits the -20% loser-exit thres",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-28T07:46:39.790683+00:00",
+  "last_updated": "2026-08-28T07:48:28.506933+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.75,
-  "portfolio_value_usd": 11.36,
+  "last_sol_price_usd": 106.71,
+  "portfolio_value_usd": 10.19,
   "recent_decisions": [
-    {
-      "time": "2026-08-28 07:28 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BONNIE at $3.01929e-06 | P&L: -9.8%",
-      "reason": "Down9.8%, flatlined at MC:60 for 10+ minutes. No bounce signal, no narrative momentum. Stale exit before -30% stop triggers."
-    },
     {
       "time": "2026-08-28 07:28 UTC",
       "action": "sell",
@@ -21283,40 +21271,46 @@
       "action": "buy",
       "details": "[LLM] $walkie at $1.09853e-05, spent 0.05 SOL",
       "reason": "$walkie has 32% bond completion (10x the other launches) — real demand queueing. Dog meme + viral X account is the canonical pump.fun narrative. Sizing 0.05 SOL to stay above reserve + buffer."
+    },
+    {
+      "time": "2026-08-28 07:48 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $walkie at $8.58876e-06 | P&L: -21.8%",
+      "reason": "$walkie is down -21.8% in minutes with no bounce, narrative is thin (generic dog name, no viral hook), pool only $2230. Hits the -20% loser-exit threshold and the hard -30% stop is close. Cut it before it bleeds further."
     }
   ],
   "trade_stats": {
-    "total": 1243,
+    "total": 1244,
     "wins": 641,
-    "losses": 602,
-    "win_rate_pct": 51.6,
-    "total_pnl_sol": -1.793575,
-    "avg_pnl_pct": 41.09,
+    "losses": 603,
+    "win_rate_pct": 51.5,
+    "total_pnl_sol": -1.804468,
+    "avg_pnl_pct": 41.04,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 20,
-    "today_realized_sol": -0.118149,
-    "today_target_pct": -29.5,
+    "today_trades": 21,
+    "today_realized_sol": -0.129042,
+    "today_target_pct": -32.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 641,
-      "loss_count": 602,
+      "loss_count": 603,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-28T07:46:39.201937+00:00",
+  "last_llm_brief_at": "2026-08-28T07:48:28.506022+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "FkmeyyZfLt3pBWxhvAJ9YmYC6efSKjZt2VFLzvFMpump": {
-      "price_usd": 7.93883194987515e-06,
+    "83yaKkUgGTEGrA7x9V57cDbVZxJwD1wr7aerrxYvpump": {
+      "price_usd": 8.58875818162397e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2020.53260194275,
-      "volume_h24": 42130.14,
+      "liquidity_usd": 2230.30572096105,
+      "volume_h24": 21559.03,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 18.927705873
+      "real_sol_reserves": 20.900625255
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

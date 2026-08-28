@@ -8716,3 +8716,6 @@
 ## [2026-08-28 07:46 UTC] buy | [LLM] $walkie at $1.09853e-05, spent 0.05 SOL
 - **Reasoning:** $walkie has 32% bond completion (10x the other launches) — real demand queueing. Dog meme + viral X account is the canonical pump.fun narrative. Sizing 0.05 SOL to stay above reserve + buffer.
 
+## [2026-08-28 07:48 UTC] sell | [FULL][LLM] $walkie at $8.58876e-06 | P&L: -21.8%
+- **Reasoning:** $walkie is down -21.8% in minutes with no bounce, narrative is thin (generic dog name, no viral hook), pool only $2230. Hits the -20% loser-exit threshold and the hard -30% stop is close. Cut it before it bleeds further.
+
