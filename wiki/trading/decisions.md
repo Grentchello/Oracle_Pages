@@ -8683,3 +8683,6 @@
 ## [2026-08-28 07:33 UTC] buy | [LLM] $GREG at $2.252e-05, spent 0.05 SOL
 - **Reasoning:** $GREG Flying Hippo is the leading new launch with $30k mcap, 41% bond (closest to graduation = imminent buy pressure), and a real twitter link. Highest organic traction among fresh mints. Narrative 'Flying Hippo' is absurd enough to be viral. Risk: still very young (1.2min), could rug.
 
+## [2026-08-28 07:35 UTC] sell | [PARTIAL][LLM] $GREG at $2.76937e-05 | P&L: +23.0%
+- **Reasoning:** Up +23% near 25% auto-TP threshold; price spiked to 248 micro then pulled back to 232 before bouncing to 281 — showing volatility. Take half off to lock gains, let the other half ride if narrative holds. Selling all would forfeit further upside; selling none risks giving back the +23%.
+

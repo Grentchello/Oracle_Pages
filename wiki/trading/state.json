@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.063755,
+  "balance_sol": 0.09455,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "J58uwcpCU3vpomu5bmx23XNNzLDnTDw3GQgGQ1Jepump": {
       "symbol": "GREG",
       "name": "The Flying Hippo",
-      "amount": 237211.3676731794,
+      "amount": 118605.6838365897,
       "entry_price_usd": 2.252e-05,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-28T07:33:18.776513+00:00",
       "entry_usd_value": 5.3420000000000005,
       "entry_signals": {
@@ -21038,19 +21038,30 @@
       "pnl_pct": -56.51,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "J58uwcpCU3vpomu5bmx23XNNzLDnTDw3GQgGQ1Jepump",
+      "symbol": "GREG",
+      "name": "The Flying Hippo",
+      "amount_sold": 118605.6838365897,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-28T07:33:18.776513+00:00",
+      "exit_time": "2026-08-28T07:35:52.693551+00:00",
+      "entry_price_usd": 2.252e-05,
+      "exit_price_usd": 2.7693730365639526e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.030795,
+      "pnl_sol": 0.005795,
+      "pnl_pct": 22.97,
+      "exit_reason": "LLM: sell_half — Up +23% near 25% auto-TP threshold; price spiked to 248 micro then pulled back to 232 before bouncing to 281 — showing volatility. Take half off to lo",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-28T07:34:35.784213+00:00",
+  "last_updated": "2026-08-28T07:35:52.693851+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.72,
-  "portfolio_value_usd": 12.15,
+  "last_sol_price_usd": 106.66,
+  "portfolio_value_usd": 12.76,
   "recent_decisions": [
-    {
-      "time": "2026-08-28 07:19 UTC",
-      "action": "buy",
-      "details": "[LLM] $PIKACIO at $7.96469e-06, spent 0.05 SOL",
-      "reason": "PIKACIO = Pikachu parody, classic meme DNA, age 0.2min, mcap $7.9k — freshest narrative with clearest attention hook."
-    },
     {
       "time": "2026-08-28 07:20 UTC",
       "action": "sell",
@@ -21164,40 +21175,46 @@
       "action": "buy",
       "details": "[LLM] $GREG at $2.252e-05, spent 0.05 SOL",
       "reason": "$GREG Flying Hippo is the leading new launch with $30k mcap, 41% bond (closest to graduation = imminent buy pressure), and a real twitter link. Highest organic traction among fresh mints. Narrative 'Flying Hippo' is absurd enough to be viral. Risk: still very young (1.2min), could rug."
+    },
+    {
+      "time": "2026-08-28 07:35 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $GREG at $2.76937e-05 | P&L: +23.0%",
+      "reason": "Up +23% near 25% auto-TP threshold; price spiked to 248 micro then pulled back to 232 before bouncing to 281 — showing volatility. Take half off to lock gains, let the other half ride if narrative holds. Selling all would forfeit further upside; selling none risks giving back the +23%."
     }
   ],
   "trade_stats": {
-    "total": 1236,
-    "wins": 637,
+    "total": 1237,
+    "wins": 638,
     "losses": 599,
-    "win_rate_pct": 51.5,
-    "total_pnl_sol": -1.786235,
-    "avg_pnl_pct": 41.24,
+    "win_rate_pct": 51.6,
+    "total_pnl_sol": -1.78044,
+    "avg_pnl_pct": 41.23,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 13,
-    "today_realized_sol": -0.110809,
-    "today_target_pct": -27.7,
+    "today_trades": 14,
+    "today_realized_sol": -0.105014,
+    "today_target_pct": -26.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 637,
+      "win_count": 638,
       "loss_count": 599,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-28T07:34:35.783836+00:00",
+  "last_llm_brief_at": "2026-08-28T07:35:52.693511+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "J58uwcpCU3vpomu5bmx23XNNzLDnTDw3GQgGQ1Jepump": {
-      "price_usd": 2.476508049574058e-05,
+      "price_usd": 2.7693730365639526e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 6022.05967088624,
-      "volume_h24": 60374.81,
+      "liquidity_usd": 6551.26406664336,
+      "volume_h24": 79956.58,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 56.428595117
+      "real_sol_reserves": 61.421939496
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
