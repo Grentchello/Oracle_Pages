@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.127577,
+  "balance_sol": 0.077577,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "Fd2tpx1kZRmgDdkeC2LLSKi4gm8MAtkyGpTaux3Epump": {
+      "symbol": "Yae-chan",
+      "name": "ヤエちゃん",
+      "amount": 726247.1115943999,
+      "entry_price_usd": 7.357e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-28T07:40:25.435960+00:00",
+      "entry_usd_value": 5.343,
+      "entry_signals": {
+        "liquidity_usd": 3095.98585722348,
+        "volume_24h_usd": 7860.18,
+        "market_cap_usd": 12524.188411492285,
+        "ath_market_cap_usd": 12916.955329383454,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 28.972355018,
+        "description": "",
+        "twitter": "https://x.com/ForestManSol555/status/2093241817764372495",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21085,17 +21108,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-08-28T07:39:01.789639+00:00",
+  "last_updated": "2026-08-28T07:40:25.722892+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.84,
+  "last_sol_price_usd": 106.86,
   "portfolio_value_usd": 13.63,
   "recent_decisions": [
-    {
-      "time": "2026-08-28 07:21 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $@cat at $3.05477e-06 | P&L: -21.6%",
-      "reason": "$@cat -21.6% already, approaching hard stop. No bounce in 30m history, price grinding down. Discipline says exit before -30% triggers and we lose more."
-    },
     {
       "time": "2026-08-28 07:21 UTC",
       "action": "buy",
@@ -21209,6 +21226,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $FLATBUSH at $4.46802e-06 | P&L: -22.5%",
       "reason": "Down -22.5% just entered (0.0h held), approaching -30% hard stop, pool only $715 with my 1% share = terrible exit liquidity. No bounce signal. Cut and free the slot per 'losers exit fast' rule."
+    },
+    {
+      "time": "2026-08-28 07:40 UTC",
+      "action": "buy",
+      "details": "[LLM] $Yae-chan at $7.357e-06, spent 0.05 SOL",
+      "reason": "$Yae-chan (ヤエちゃん) — anime-style character meme, bond 34% (strongest among candidates), 157 buys vs 88 sells in first minute, +70% already on the curve. Pump.fun graduation imminent, name has cute/quirky viral appeal. Highest bond completion = real organic demand. Risk: thin book before migration."
     }
   ],
   "trade_stats": {
@@ -21230,20 +21253,8 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-28T07:39:01.788860+00:00",
+  "last_llm_brief_at": "2026-08-28T07:40:25.143560+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "7SARMsaa5sjy55A8VQNUtY9ENCVwskKZ1qbX36qQpump": {
-      "price_usd": 4.468022820964443e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 714.79144975188,
-      "volume_h24": 8391.65,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 6.690298107
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot"
 }

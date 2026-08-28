@@ -8698,3 +8698,6 @@
 ## [2026-08-28 07:39 UTC] sell | [FULL][LLM] $FLATBUSH at $4.46802e-06 | P&L: -22.5%
 - **Reasoning:** Down -22.5% just entered (0.0h held), approaching -30% hard stop, pool only $715 with my 1% share = terrible exit liquidity. No bounce signal. Cut and free the slot per 'losers exit fast' rule.
 
+## [2026-08-28 07:40 UTC] buy | [LLM] $Yae-chan at $7.357e-06, spent 0.05 SOL
+- **Reasoning:** $Yae-chan (ヤエちゃん) — anime-style character meme, bond 34% (strongest among candidates), 157 buys vs 88 sells in first minute, +70% already on the curve. Pump.fun graduation imminent, name has cute/quirky viral appeal. Highest bond completion = real organic demand. Risk: thin book before migration.
+
