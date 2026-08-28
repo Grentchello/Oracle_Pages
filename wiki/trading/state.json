@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.062341,
+  "balance_sol": 0.092082,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "FkmeyyZfLt3pBWxhvAJ9YmYC6efSKjZt2VFLzvFMpump": {
       "symbol": "sob",
       "name": "standing on business",
-      "amount": 385451.2635379061,
+      "amount": 192725.63176895306,
       "entry_price_usd": 1.385e-05,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-08-28T07:42:01.671299+00:00",
       "entry_usd_value": 5.3385,
       "entry_signals": {
@@ -21123,19 +21123,30 @@
       "pnl_pct": -30.53,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "FkmeyyZfLt3pBWxhvAJ9YmYC6efSKjZt2VFLzvFMpump",
+      "symbol": "sob",
+      "name": "standing on business",
+      "amount_sold": 192725.63176895306,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-28T07:42:01.671299+00:00",
+      "exit_time": "2026-08-28T07:44:49.569677+00:00",
+      "entry_price_usd": 1.385e-05,
+      "exit_price_usd": 1.6473399982778967e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.029741,
+      "pnl_sol": 0.004741,
+      "pnl_pct": 18.94,
+      "exit_reason": "LLM: sell_half — Up +18.9% in 0.0h with pool=$4321 and our share 0% — bonding curve is thin and momentum just started. Per the rules, lock the partial gain at this lev",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-28T07:43:34.907558+00:00",
+  "last_updated": "2026-08-28T07:44:51.965762+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.77,
-  "portfolio_value_usd": 11.99,
+  "last_sol_price_usd": 106.75,
+  "portfolio_value_usd": 12.5,
   "recent_decisions": [
-    {
-      "time": "2026-08-28 07:25 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $BONNIE at $2.98988e-06 | P&L: -10.7%",
-      "reason": "$BONNIE is -10.7% and has flatlined at MC ~60 for 5 straight minutes — clear deceleration, not a bounce setup. Cut exposure on a stale loser per scalp discipline (lock capital, stop hoping); still hold half in case the cat narrative wakes up, but the read is the early pump already faded."
-    },
     {
       "time": "2026-08-28 07:25 UTC",
       "action": "buy",
@@ -21249,40 +21260,46 @@
       "action": "buy",
       "details": "[LLM] $sob at $1.385e-05, spent 0.05 SOL",
       "reason": "$sob - 'standing on business' is a viral cultural phrase with meme legs, highest mcap ($13k) in the batch signals organic early buying, fresh launch at 1.4min offers attention entry before broader discovery."
+    },
+    {
+      "time": "2026-08-28 07:44 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $sob at $1.64734e-05 | P&L: +18.9%",
+      "reason": "Up +18.9% in 0.0h with pool=$4321 and our share 0% — bonding curve is thin and momentum just started. Per the rules, lock the partial gain at this level since we have no conviction it'll hold, while keeping a runner in case it 5x's."
     }
   ],
   "trade_stats": {
-    "total": 1241,
-    "wins": 640,
+    "total": 1242,
+    "wins": 641,
     "losses": 601,
     "win_rate_pct": 51.6,
-    "total_pnl_sol": -1.787649,
-    "avg_pnl_pct": 41.17,
+    "total_pnl_sol": -1.782908,
+    "avg_pnl_pct": 41.16,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 18,
-    "today_realized_sol": -0.112223,
-    "today_target_pct": -28.1,
+    "today_trades": 19,
+    "today_realized_sol": -0.107482,
+    "today_target_pct": -26.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 640,
+      "win_count": 641,
       "loss_count": 601,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-28T07:43:34.907143+00:00",
+  "last_llm_brief_at": "2026-08-28T07:44:49.569644+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FkmeyyZfLt3pBWxhvAJ9YmYC6efSKjZt2VFLzvFMpump": {
-      "price_usd": 1.3308737982692522e-05,
+      "price_usd": 1.6473399982778967e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3560.12052847917,
-      "volume_h24": 34018.62,
+      "liquidity_usd": 4321.279404841,
+      "volume_h24": 41346.93,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 33.343828121
+      "real_sol_reserves": 40.480369132
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

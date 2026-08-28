@@ -8707,3 +8707,6 @@
 ## [2026-08-28 07:42 UTC] buy | [LLM] $sob at $1.385e-05, spent 0.05 SOL
 - **Reasoning:** $sob - 'standing on business' is a viral cultural phrase with meme legs, highest mcap ($13k) in the batch signals organic early buying, fresh launch at 1.4min offers attention entry before broader discovery.
 
+## [2026-08-28 07:44 UTC] sell | [PARTIAL][LLM] $sob at $1.64734e-05 | P&L: +18.9%
+- **Reasoning:** Up +18.9% in 0.0h with pool=$4321 and our share 0% — bonding curve is thin and momentum just started. Per the rules, lock the partial gain at this level since we have no conviction it'll hold, while keeping a runner in case it 5x's.
+
