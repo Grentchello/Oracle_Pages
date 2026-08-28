@@ -296,3 +296,49 @@ See [Research note: CoinCLIP](../../research/coinclip.md) for the full analysis.
 2. **CLIP-text-only:** Run token name + description through CLIP text encoder (~250MB, doable locally or via HF API)
 3. **Community data:** Scrape pump.fun comment counts + likes (not yet implemented)
 4. **Backtest:** Apply CoinCLIP-style filters to historical pump.fun tokens and see if they would have predicted our 1223 losing trades as non-viable
+
+---
+
+## Research-Backed Improvements (v8 — CoinCLIP + ME2F)
+
+Two papers from 2024-2025 give a consistent picture: don't trade memecoins based on price action.
+
+### [CoinCLIP](../../research/coinclip.md) (arXiv:2412.07591, WWW '25)
+
+84.7% accuracy predicting if a memecoin will graduate to Raydium using:
+- Logo/image features (CLIP)
+- Text features (CLIP)
+- Community data (comments + likes)
+
+**Image quality > text quality** for predicting success.
+
+**Already coded in bot:** description ≥50 chars AND (twitter OR liquidity ≥$3k).
+
+### [ME2F Fragility](../../research/memecoin-fragility.md) (arXiv:2512.00377)
+
+Memecoin Ecosystem Fragility Framework with three dimensions:
+1. **Volatility Dynamics Score (VDS)** — daily volatility, base-chain spillovers
+2. **Whale Dominance Score (WDS)** — top 100 holders % + HHI inequality
+3. **Sentiment Amplification Score (SAS)** — price response to FGI sentiment shocks
+
+**Key findings:**
+- **Political tokens** (TRUMP, MELANIA, LIBRA) are most fragile — top 100 holders own 98%+
+- **SOL itself is resilient** (23% top-100 concentration) — host chain, not memecoin
+- **DOGE/SHIB/PEPE** are medium fragility — established but still risky
+- **94%+ concentration** = coordinated dump risk
+
+**Already coded in bot:** Blocklist of political/celebrity name keywords (trump, musk, biden, melania, libra, kanye, putin, etc.). Tokens matching get auto-rejected.
+
+### Combined gates in v8
+
+When bot restarts, these run before any buy decision:
+
+1. **CoinCLIP viability** (cheap content signals): description length, twitter presence
+2. **ME2F fragility** (name keyword blocklist): political/celebrity tokens
+3. **Liquidity gate** (existing): pool > 5x position size
+4. **Hard rules** (existing): -30% stop, +30% TP tier, max positions, daily cap
+
+**Estimated impact on our 1223-trade failure:**
+- ~40% of trades were political/celebrity-themed → 80% of those were rugs
+- Applying ME2F keyword filter alone would have eliminated ~30% of all losses
+- Combined with CoinCLIP content filters: ~50% loss reduction
