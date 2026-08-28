@@ -1,26 +1,26 @@
 {
-  "balance_sol": 0.092082,
+  "balance_sol": 0.056415,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "FkmeyyZfLt3pBWxhvAJ9YmYC6efSKjZt2VFLzvFMpump": {
-      "symbol": "sob",
-      "name": "standing on business",
-      "amount": 192725.63176895306,
-      "entry_price_usd": 1.385e-05,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-08-28T07:42:01.671299+00:00",
-      "entry_usd_value": 5.3385,
+    "83yaKkUgGTEGrA7x9V57cDbVZxJwD1wr7aerrxYvpump": {
+      "symbol": "walkie",
+      "name": "dogonwalkie",
+      "amount": 485876.5907572967,
+      "entry_price_usd": 1.0985299768570593e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-28T07:46:39.494553+00:00",
+      "entry_usd_value": 5.3375,
       "entry_signals": {
-        "liquidity_usd": 3870.1502235522603,
-        "volume_24h_usd": 22778.13,
-        "market_cap_usd": 13224.606532491865,
-        "ath_market_cap_usd": 15833.90320183381,
+        "liquidity_usd": 2766.8289230627497,
+        "volume_24h_usd": null,
+        "market_cap_usd": 10990.74498042044,
+        "ath_market_cap_usd": 12846.00580729632,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 36.247543538,
-        "description": "",
-        "twitter": "https://x.com/robert_thedev_/status/2093242152767639912?s=20",
+        "real_sol_reserves": 25.918772113,
+        "description": "dogonwalkie.",
+        "twitter": "https://x.com/dogonwalkie/status/2093243430185156785?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -21140,25 +21140,30 @@
       "pnl_pct": 18.94,
       "exit_reason": "LLM: sell_half — Up +18.9% in 0.0h with pool=$4321 and our share 0% — bonding curve is thin and momentum just started. Per the rules, lock the partial gain at this lev",
       "partial": true
+    },
+    {
+      "mint": "FkmeyyZfLt3pBWxhvAJ9YmYC6efSKjZt2VFLzvFMpump",
+      "symbol": "sob",
+      "name": "standing on business",
+      "amount_sold": 192725.63176895306,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-28T07:42:01.671299+00:00",
+      "exit_time": "2026-08-28T07:45:55.674332+00:00",
+      "entry_price_usd": 1.385e-05,
+      "exit_price_usd": 7.93883194987515e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.014333,
+      "pnl_sol": -0.010667,
+      "pnl_pct": -42.68,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-28T07:44:51.965762+00:00",
+  "last_updated": "2026-08-28T07:46:39.790683+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 106.75,
-  "portfolio_value_usd": 12.5,
+  "portfolio_value_usd": 11.36,
   "recent_decisions": [
-    {
-      "time": "2026-08-28 07:25 UTC",
-      "action": "buy",
-      "details": "[LLM] $chibi at $3.172e-06, spent 0.05 SOL",
-      "reason": "$chibi has the strongest narrative in this batch — kitten newly rescued by Kabosu-chan's mom, the literal inspiration behind Dogecoin. That's direct Doge-lineage lore, meme communities will latch. $3.1k mcap at 3% bond = plenty of room. Risk: brand-new, bonding curve thin, animal-meta crowded today (COGE, PCT, Rory all competing for the same attention)."
-    },
-    {
-      "time": "2026-08-28 07:27 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-28 07:28 UTC",
       "action": "sell",
@@ -21266,40 +21271,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $sob at $1.64734e-05 | P&L: +18.9%",
       "reason": "Up +18.9% in 0.0h with pool=$4321 and our share 0% — bonding curve is thin and momentum just started. Per the rules, lock the partial gain at this level since we have no conviction it'll hold, while keeping a runner in case it 5x's."
+    },
+    {
+      "time": "2026-08-28 07:45 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $sob closed at $7.93883e-06 | P&L: -42.7%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-28 07:46 UTC",
+      "action": "buy",
+      "details": "[LLM] $walkie at $1.09853e-05, spent 0.05 SOL",
+      "reason": "$walkie has 32% bond completion (10x the other launches) — real demand queueing. Dog meme + viral X account is the canonical pump.fun narrative. Sizing 0.05 SOL to stay above reserve + buffer."
     }
   ],
   "trade_stats": {
-    "total": 1242,
+    "total": 1243,
     "wins": 641,
-    "losses": 601,
+    "losses": 602,
     "win_rate_pct": 51.6,
-    "total_pnl_sol": -1.782908,
-    "avg_pnl_pct": 41.16,
+    "total_pnl_sol": -1.793575,
+    "avg_pnl_pct": 41.09,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 19,
-    "today_realized_sol": -0.107482,
-    "today_target_pct": -26.9,
+    "today_trades": 20,
+    "today_realized_sol": -0.118149,
+    "today_target_pct": -29.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 641,
-      "loss_count": 601,
+      "loss_count": 602,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-28T07:44:49.569644+00:00",
+  "last_llm_brief_at": "2026-08-28T07:46:39.201937+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FkmeyyZfLt3pBWxhvAJ9YmYC6efSKjZt2VFLzvFMpump": {
-      "price_usd": 1.6473399982778967e-05,
+      "price_usd": 7.93883194987515e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4321.279404841,
-      "volume_h24": 41346.93,
+      "liquidity_usd": 2020.53260194275,
+      "volume_h24": 42130.14,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 40.480369132
+      "real_sol_reserves": 18.927705873
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
