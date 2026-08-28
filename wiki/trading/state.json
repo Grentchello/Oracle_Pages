@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.092223,
+  "balance_sol": 0.093132,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "88ERjNnqMLWGKrkmBNWZATURDoKADbkeXRFC753opump": {
       "symbol": "BONNIE",
       "name": "Justice For Bonnie Pierce",
-      "amount": 798242.7592971779,
+      "amount": 380595.37017864204,
       "entry_price_usd": 3.348918570027111e-06,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.011919787738311014,
       "entry_time": "2026-08-28T07:17:44.433055+00:00",
       "entry_usd_value": 5.346500000000001,
       "entry_signals": {
@@ -25,24 +25,24 @@
       },
       "llm_entry": true
     },
-    "Cxx67QoEbEn3eHu1rUqSppCwYWttfnDPjSLVTp3Kpump": {
-      "symbol": "@cat",
-      "name": "@cat",
-      "amount": 1368913.891361738,
-      "entry_price_usd": 3.895058727686627e-06,
+    "8AvdSkEfUtxEu8mJjfhzbsySPaZFVPuAeeqeKZtwpump": {
+      "symbol": "IRL",
+      "name": "Internet Reactions Living",
+      "amount": 1700722.7808630103,
+      "entry_price_usd": 3.136313607378934e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-08-28T07:20:29.421233+00:00",
-      "entry_usd_value": 5.332000000000001,
+      "entry_time": "2026-08-28T07:21:57.307750+00:00",
+      "entry_usd_value": 5.3340000000000005,
       "entry_signals": {
-        "liquidity_usd": 356.07366812280003,
+        "liquidity_usd": 80.63252633940002,
         "volume_24h_usd": null,
-        "market_cap_usd": 3878.073292028783,
-        "ath_market_cap_usd": 7367.197278529681,
+        "market_cap_usd": 3135.5486387036453,
+        "ath_market_cap_usd": 5138.69471641508,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 3.339025395,
-        "description": "purr purr",
-        "twitter": "https://x.com/cat",
+        "real_sol_reserves": 0.755835455,
+        "description": "",
+        "twitter": "https://x.com/decusol/status/2093237327128588375",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -20890,31 +20890,47 @@
       "pnl_pct": -61.96,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "88ERjNnqMLWGKrkmBNWZATURDoKADbkeXRFC753opump",
+      "symbol": "BONNIE",
+      "name": "Justice For Bonnie Pierce",
+      "amount_sold": 417647.38911853585,
+      "fraction_sold": 0.5232084904675595,
+      "entry_time": "2026-08-28T07:17:44.433055+00:00",
+      "exit_time": "2026-08-28T07:21:57.002702+00:00",
+      "entry_price_usd": 3.348918570027111e-06,
+      "exit_price_usd": 2.9911592224983014e-06,
+      "entry_sol_for_chunk": 0.01308,
+      "exit_sol_received": 0.01171,
+      "pnl_sol": -0.00137,
+      "pnl_pct": -10.68,
+      "exit_reason": "LLM: sell_all — $BONNIE -10.7% with pool only $5 (our share 52% = we'll crash it selling anyway). Bonding-curve dump with no recovery signal in 30m. Capital is locked",
+      "partial": true
+    },
+    {
+      "mint": "Cxx67QoEbEn3eHu1rUqSppCwYWttfnDPjSLVTp3Kpump",
+      "symbol": "@cat",
+      "name": "@cat",
+      "amount_sold": 1368913.891361738,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-28T07:20:29.421233+00:00",
+      "exit_time": "2026-08-28T07:21:57.002920+00:00",
+      "entry_price_usd": 3.895058727686627e-06,
+      "exit_price_usd": 3.0547717776996106e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.039199,
+      "pnl_sol": -0.010801,
+      "pnl_pct": -21.57,
+      "exit_reason": "LLM: sell_all — $@cat -21.6% already, approaching hard stop. No bounce in 30m history, price grinding down. Discipline says exit before -30% triggers and we lose more",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-28T07:20:30.037205+00:00",
+  "last_updated": "2026-08-28T07:21:57.308094+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.64,
-  "portfolio_value_usd": 17.84,
+  "last_sol_price_usd": 106.68,
+  "portfolio_value_usd": 16.54,
   "recent_decisions": [
-    {
-      "time": "2026-08-28 07:00 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-08-28 07:01 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-08-28 07:03 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-28 07:04 UTC",
       "action": "observe",
@@ -21016,62 +21032,69 @@
       "action": "buy",
       "details": "[LLM] $@cat at $3.89506e-06, spent 0.05 SOL",
       "reason": "$@cat — simple, viral-friendly cat meme with 'purr purr' description at sub-$4k mcap. Cat coins historically pump on pure simplicity. Small bet, asymmetric upside."
+    },
+    {
+      "time": "2026-08-28 07:21 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BONNIE at $2.99116e-06 | P&L: -10.7%",
+      "reason": "$BONNIE -10.7% with pool only $5 (our share 52% = we'll crash it selling anyway). Bonding-curve dump with no recovery signal in 30m. Capital is locked in illiquid position, exit to free slot."
+    },
+    {
+      "time": "2026-08-28 07:21 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $@cat at $3.05477e-06 | P&L: -21.6%",
+      "reason": "$@cat -21.6% already, approaching hard stop. No bounce in 30m history, price grinding down. Discipline says exit before -30% triggers and we lose more."
+    },
+    {
+      "time": "2026-08-28 07:21 UTC",
+      "action": "buy",
+      "details": "[LLM] $IRL at $3.13631e-06, spent 0.05 SOL",
+      "reason": "$IRL (Internet Reactions Living) - meta-meme about memes going viral, has Twitter attention signal (decusol). Relatable narrative + social proof = attention catalyst. Small size0.05 SOL, high risk but asymmetric upside if it catches."
     }
   ],
   "trade_stats": {
-    "total": 1226,
+    "total": 1228,
     "wins": 637,
-    "losses": 589,
-    "win_rate_pct": 52.0,
-    "total_pnl_sol": -1.732768,
-    "avg_pnl_pct": 41.7,
+    "losses": 591,
+    "win_rate_pct": 51.9,
+    "total_pnl_sol": -1.744939,
+    "avg_pnl_pct": 41.6,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 3,
-    "today_realized_sol": -0.057342,
-    "today_target_pct": -14.3,
+    "today_trades": 5,
+    "today_realized_sol": -0.069513,
+    "today_target_pct": -17.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 637,
-      "loss_count": 589,
+      "loss_count": 591,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-28T07:20:29.129669+00:00",
+  "last_llm_brief_at": "2026-08-28T07:21:57.002551+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "AbNLacD7Ec78bHQKBPD8cPDv4mRwJDUThsSsb3Rbpump": {
-      "price_usd": 3.241305567092487e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 136.45053728872,
-      "volume_h24": 15121.57,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.279543673
-    },
     "88ERjNnqMLWGKrkmBNWZATURDoKADbkeXRFC753opump": {
-      "price_usd": 3.002789033545162e-06,
+      "price_usd": 2.9911592224983014e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 11.3760923324,
-      "volume_h24": 4375.4,
+      "liquidity_usd": 4.5536854062000005,
+      "volume_h24": 4392.03,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.106677535
+      "real_sol_reserves": 0.042685465
     },
-    "GU8Shrf4h9xsirUGTxKVywfw1goHxnBFyD9EsEdQpump": {
-      "price_usd": 3.0299599147108752e-06,
+    "Cxx67QoEbEn3eHu1rUqSppCwYWttfnDPjSLVTp3Kpump": {
+      "price_usd": 3.0547717776996106e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 25.868906196239998,
-      "volume_h24": 4098.42,
+      "liquidity_usd": 38.4540402876,
+      "volume_h24": 6050.98,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.242581641
+      "real_sol_reserves": 0.36046157
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

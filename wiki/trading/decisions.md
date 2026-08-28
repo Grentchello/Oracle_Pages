@@ -8635,3 +8635,12 @@
 ## [2026-08-28 07:20 UTC] buy | [LLM] $@cat at $3.89506e-06, spent 0.05 SOL
 - **Reasoning:** $@cat — simple, viral-friendly cat meme with 'purr purr' description at sub-$4k mcap. Cat coins historically pump on pure simplicity. Small bet, asymmetric upside.
 
+## [2026-08-28 07:21 UTC] sell | [PARTIAL][LLM] $BONNIE at $2.99116e-06 | P&L: -10.7%
+- **Reasoning:** $BONNIE -10.7% with pool only $5 (our share 52% = we'll crash it selling anyway). Bonding-curve dump with no recovery signal in 30m. Capital is locked in illiquid position, exit to free slot.
+
+## [2026-08-28 07:21 UTC] sell | [FULL][LLM] $@cat at $3.05477e-06 | P&L: -21.6%
+- **Reasoning:** $@cat -21.6% already, approaching hard stop. No bounce in 30m history, price grinding down. Discipline says exit before -30% triggers and we lose more.
+
+## [2026-08-28 07:21 UTC] buy | [LLM] $IRL at $3.13631e-06, spent 0.05 SOL
+- **Reasoning:** $IRL (Internet Reactions Living) - meta-meme about memes going viral, has Twitter attention signal (decusol). Relatable narrative + social proof = attention catalyst. Small size0.05 SOL, high risk but asymmetric upside if it catches.
+
