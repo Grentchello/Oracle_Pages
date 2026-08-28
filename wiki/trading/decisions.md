@@ -8668,3 +8668,6 @@
 ## [2026-08-28 07:28 UTC] buy | [LLM] $UNMASK at $3.59334e-06, spent 0.05 SOL
 - **Reasoning:** $UNMASK has the strongest narrative of the batch ('interdimensional ape ripping off the mask' is meme-ready), only 0.8min old, mcap $3.5k is entry-point territory. Viral ape meta is hot.
 
+## [2026-08-28 07:30 UTC] sell | [FULL][LLM] $IRL at $2.99871e-06 | P&L: -4.4%
+- **Reasoning:** Down only 4.4% but price has been completely flat for 6+ minutes with no momentum. Pool is only $7 with my 25% share — that's catastrophic concentration risk on a slow bleeder. Free up capital for better setups.
+
