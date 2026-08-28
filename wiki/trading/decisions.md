@@ -8467,3 +8467,6 @@
 ## [2026-08-28 06:11 UTC] observe | LLM call failed: llm call failed
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-08-28 06:13 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
