@@ -8656,3 +8656,15 @@
 ## [2026-08-28 07:27 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-08-28 07:28 UTC] sell | [FULL][LLM] $BONNIE at $3.01929e-06 | P&L: -9.8%
+- **Reasoning:** Down9.8%, flatlined at MC:60 for 10+ minutes. No bounce signal, no narrative momentum. Stale exit before -30% stop triggers.
+
+## [2026-08-28 07:28 UTC] sell | [PARTIAL][LLM] $IRL at $3.03241e-06 | P&L: -3.3%
+- **Reasoning:** Down 3.3%, pool only $7, flat price action for 6 minutes. Bonding curve with no buy pressure. Free up slot and capital.
+
+## [2026-08-28 07:28 UTC] sell | [FULL][LLM] $chibi at $3.05527e-06 | P&L: -3.7%
+- **Reasoning:** Down 3.7%, flatlined for 3 minutes. No momentum, no buyers stepping in. Exit and rotate to fresh attention.
+
+## [2026-08-28 07:28 UTC] buy | [LLM] $UNMASK at $3.59334e-06, spent 0.05 SOL
+- **Reasoning:** $UNMASK has the strongest narrative of the batch ('interdimensional ape ripping off the mask' is meme-ready), only 0.8min old, mcap $3.5k is entry-point territory. Viral ape meta is hot.
+
