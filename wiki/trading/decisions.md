@@ -8701,3 +8701,6 @@
 ## [2026-08-28 07:40 UTC] buy | [LLM] $Yae-chan at $7.357e-06, spent 0.05 SOL
 - **Reasoning:** $Yae-chan (ヤエちゃん) — anime-style character meme, bond 34% (strongest among candidates), 157 buys vs 88 sells in first minute, +70% already on the curve. Pump.fun graduation imminent, name has cute/quirky viral appeal. Highest bond completion = real organic demand. Risk: thin book before migration.
 
+## [2026-08-28 07:41 UTC] sell | [hard-stop] $Yae-chan closed at $5.11083e-06 | P&L: -30.5%
+- **Reasoning:** Hard -30% stop
+
