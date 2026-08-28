@@ -247,3 +247,19 @@
   - Project page: full post-mortem (numbers, why we lost, what should have been different, alt to memecoins = trading pairs bot)
 - Trading Pairs Bot still running (PID 503699) — currently -70.65% on paper $1000, but only 7 closed trades so far. Same bug class as memecoin: time-stop at -0.5% per trade
 - Files: wiki/trading/state.halted.json, wiki/trading/trades.halted.json, wiki/projects/memecoin-trading/index.md, wiki/index.md, wiki/trading/index.html, wiki/log.md
+
+## [2026-08-27] update | Ingested CoinCLIP paper + viability gates in code
+- Grant shared arXiv 2412.07591: "CoinCLIP: A Multimodal Framework for Evaluating the Viability of Memecoins"
+- Key finding: 84.7% accuracy predicting if a memecoin graduates to Raydium (crosses $69k mcap) using CLIP image+text+community signals
+- Image features alone > text features alone for predicting success (logos matter more than names)
+- Community data (comments + likes) gives +1.10% accuracy on top of image+text
+- Ingested into wiki: wiki/research/coinclip.md (6 KB summary)
+- Raw HTML saved: wiki/research/raw_coinclip_2412.07591.html (82 KB)
+- Added to MkDocs nav: Research > CoinCLIP (memecoins)
+- Bot code changes (v8.1, gates will fire when bot restarts):
+  - VIABILITY GATE 1: description < 50 chars → skip (proxy for lazy projects)
+  - VIABILITY GATE 2: no twitter AND liquidity <$3k → skip (proxy for no-community tokens)
+- Updated bot's LLM prompt to mention the gates (so LLM doesn't try to override)
+- Project page updated with research-backed roadmap (Phase 1 cheap filters → Phase 2 CLIP scoring → Phase 3 community data → Phase 4 backtest on CoinVibe)
+- Created restart plan: .hermes/plans/2026-08-27_104000-memecoin-restart-with-coinclip.md
+- Files: wiki/research/coinclip.md, wiki/research/raw_coinclip_2412.07591.html, bot/bot.py, wiki/projects/memecoin-trading/index.md, mkdocs.yml
