@@ -591,6 +591,7 @@ Most memecoin traders hold for seconds to minutes. The fastest money is in fresh
 - Min liquidity 5x position size
 - Position size 0.05 SOL ($5 per position, halved from 0.1 in v7)
 - Viability gate (v8.1, from CoinCLIP paper arXiv:2412.07591): description ≥50 chars AND (twitter OR liquidity ≥$3k). Tokens failing this filter are SKIPPED automatically — LLM cannot override.
+- Fragility gate (v8.2, from ME2F paper arXiv:2512.00377): blocklist of political/celebrity keywords (trump, musk, biden, melania, libra, kanye, putin, etc.). ME2F found these are most fragile (whale concentration 90%+, sentiment amplification 20%+). LLM cannot override.
 
 **Your job:**
 1. **SOLD POSITIONS — when do you have discretion?** Only on positions NOT yet at TP thresholds. If bot already auto-took-profit, no action needed.
@@ -1235,6 +1236,24 @@ def main():
                 continue
             if not twitter and eff_liq < 3000:
                 log(f"VIABILITY GATE: ${token.get('symbol')} rejected — no twitter AND low liquidity (${eff_liq:.0f})")
+                continue
+            # === ME2F fragility filter (research: arXiv 2512.00377) ===
+            # ME2F found political/celebrity-themed tokens are the MOST fragile.
+            # Top-100 holders often >90%, sentiment amplification 20%+, volatility extreme.
+            # Filter: block names that scream "celebrity/political token" = high fragility
+            FRAGILITY_KEYWORDS = [
+                "trump", "biden", "harris", "musk", "elon", "cz", "binance",
+                "melania", "libra", "ivanka", "tiffany", "barron",
+                "kanye", "ye", "swift", "beyonce", "taylor",
+                "putin", "xi", "jinping", "modi", "zelensky",
+                "celebrity", "political", "president", "official", "government",
+            ]
+            sym_lower = (token.get("symbol") or "").lower()
+            name_lower = (token.get("name") or "").lower()
+            desc_lower = desc.lower()
+            matched_kw = next((kw for kw in FRAGILITY_KEYWORDS if kw in sym_lower or kw in name_lower or kw in desc_lower), None)
+            if matched_kw:
+                log(f"FRAGILITY GATE: ${token.get('symbol')} rejected — matches '{matched_kw}' (ME2F: political/celebrity = high fragility)")
                 continue
             # Dedup by symbol within tick — LLM sometimes picks same mint twice
             existing_syms = {p.get("symbol") for p in state.get("positions", {}).values()}
