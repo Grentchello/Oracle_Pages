@@ -8677,3 +8677,9 @@
 ## [2026-08-28 07:31 UTC] buy | [LLM] $PEPELEEK at $2.361e-06, spent 0.05 SOL
 - **Reasoning:** $PEPELEEK has the strongest narrative of the batch — PEPE + 'cyberpunk/matrix' is pre-validated viral meme territory, age 1.4min means real attention window. 0.05 SOL position, recognizing this is a sub-$4k mcap micro-launch with high rug risk but the meme IP gives asymmetric attention upside.
 
+## [2026-08-28 07:32 UTC] sell | [hard-stop] $PEPELEEK closed at $1.0267e-06 | P&L: -56.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-28 07:33 UTC] buy | [LLM] $GREG at $2.252e-05, spent 0.05 SOL
+- **Reasoning:** $GREG Flying Hippo is the leading new launch with $30k mcap, 41% bond (closest to graduation = imminent buy pressure), and a real twitter link. Highest organic traction among fresh mints. Narrative 'Flying Hippo' is absurd enough to be viral. Risk: still very young (1.2min), could rug.
+
