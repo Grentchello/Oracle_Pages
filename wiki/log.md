@@ -229,3 +229,21 @@
 - Bot's LLM prompt now includes market cap in history: `5min: $price (MC:85.3), 4min: $price (MC:88.1), ...`
 - Verified: $RISE shows 5 buckets of MC data: 79.94 → 101.81 SOL (+27.4%), renders as green sparkline on dashboard
 - Files: bot/sparkline_collector.py, bot/bot.py, wiki/trading/index.html
+
+## [2026-08-27] HALT | Memecoin Bot STOPPED at 0.22 SOL (-88.5%)
+- Grant directive (option C): "Stop memecoin bot entirely — keep only the trading pairs bot running"
+- Final stats: 1223 trades, -1.776 SOL realized
+- Wins: 646 (+12.55 SOL) at +1.94% avg
+- Losses: 577 (-14.20 SOL) at -2.46% avg
+- Win rate 53% but losses cost more than wins: structurally designed to lose
+- Biggest loss: $TREND -99.9% (-0.10 SOL)
+- Killed all bot processes: bot.py, runner.py, sparkline_collector.py
+- Also killed a rogue second bot instance (PID 800079) that was running "hermes chat" with memecoin-trading-bot prompt
+- Halted-state preserved: wiki/trading/state.halted.json (863KB), trades.halted.json (6KB)
+- Cron job `memecoin-bot-tick` was already disabled
+- Updated:
+  - Dashboard banner: ⚠ BOT HALTED
+  - Master dashboard: shows ⛔ instead of 📈
+  - Project page: full post-mortem (numbers, why we lost, what should have been different, alt to memecoins = trading pairs bot)
+- Trading Pairs Bot still running (PID 503699) — currently -70.65% on paper $1000, but only 7 closed trades so far. Same bug class as memecoin: time-stop at -0.5% per trade
+- Files: wiki/trading/state.halted.json, wiki/trading/trades.halted.json, wiki/projects/memecoin-trading/index.md, wiki/index.md, wiki/trading/index.html, wiki/log.md
