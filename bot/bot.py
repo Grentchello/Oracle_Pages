@@ -590,6 +590,7 @@ Most memecoin traders hold for seconds to minutes. The fastest money is in fresh
 - Daily loss cap -0.20 SOL (tightened from -0.4 in v7)
 - Min liquidity 5x position size
 - Position size 0.05 SOL ($5 per position, halved from 0.1 in v7)
+- Viability gate (v8.1, from CoinCLIP paper arXiv:2412.07591): description ≥50 chars AND (twitter OR liquidity ≥$3k). Tokens failing this filter are SKIPPED automatically — LLM cannot override.
 
 **Your job:**
 1. **SOLD POSITIONS — when do you have discretion?** Only on positions NOT yet at TP thresholds. If bot already auto-took-profit, no action needed.

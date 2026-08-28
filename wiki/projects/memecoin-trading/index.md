@@ -271,3 +271,28 @@ State preserved in `wiki/trading/state.halted.json` (863 KB) and `trades.halted.
 Still running: https://grentchello.github.io/Oracle_Pages/projects/trading-pairs/pairs-dashboard.html
 
 Started fresh at $1000 paper, multi-pair (BTC/ETH/SOL/BNB/XRP/ARB) × 4 strategies (SUPER/ROC/BB/DIR). Currently 0% P&L on real Binance public data. May or may not be profitable — give it time.
+
+---
+
+## Research-Backed Improvements (planned)
+
+See [Research note: CoinCLIP](../../research/coinclip.md) for the full analysis.
+
+**Key insight:** CoinCLIP paper (arXiv:2412.07591, Long et al. WWW 2025) shows memecoin viability can be predicted at **84.7% accuracy** from logo + name + community signals — **before price action**. Our bot failed because it traded price action only.
+
+**Already implemented in bot code (gates will fire when bot restarts):**
+- Skip tokens with description <50 chars (lazy projects)
+- Skip tokens with no twitter AND liquidity <$3k
+- CoinCLIP showed image quality > name quality for predicting success, but we can't run CLIP locally without GPU. The above two filters approximate the cheap signals.
+
+**Not yet implemented (would need CLIP model + GPU or hosted API):**
+- Full CoinCLIP viability scoring per candidate token
+- Comment sentiment/like-weighted scoring
+- Backtest on the CoinVibe dataset
+
+### Roadmap (if bot is restarted)
+
+1. **Filter pass:** Apply the CoinCLIP-style viability gates (already coded)
+2. **CLIP-text-only:** Run token name + description through CLIP text encoder (~250MB, doable locally or via HF API)
+3. **Community data:** Scrape pump.fun comment counts + likes (not yet implemented)
+4. **Backtest:** Apply CoinCLIP-style filters to historical pump.fun tokens and see if they would have predicted our 1223 losing trades as non-viable
