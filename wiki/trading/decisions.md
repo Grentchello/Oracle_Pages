@@ -8671,3 +8671,9 @@
 ## [2026-08-28 07:30 UTC] sell | [FULL][LLM] $IRL at $2.99871e-06 | P&L: -4.4%
 - **Reasoning:** Down only 4.4% but price has been completely flat for 6+ minutes with no momentum. Pool is only $7 with my 25% share — that's catastrophic concentration risk on a slow bleeder. Free up capital for better setups.
 
+## [2026-08-28 07:31 UTC] sell | [FULL][LLM] $UNMASK at $3.04722e-06 | P&L: -15.2%
+- **Reasoning:** $UNMASK is -15.2% with no bounce signal in 30m history (price flat-to-down since entry) and the pool is only $33 — our 14% share means exit liquidity is constrained, so the risk of the -30% hard stop kicking in is real. Cut now, free capital for fresh attention plays.
+
+## [2026-08-28 07:31 UTC] buy | [LLM] $PEPELEEK at $2.361e-06, spent 0.05 SOL
+- **Reasoning:** $PEPELEEK has the strongest narrative of the batch — PEPE + 'cyberpunk/matrix' is pre-validated viral meme territory, age 1.4min means real attention window. 0.05 SOL position, recognizing this is a sub-$4k mcap micro-launch with high rug risk but the meme IP gives asymmetric attention upside.
+
