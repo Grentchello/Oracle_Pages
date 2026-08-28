@@ -8686,3 +8686,12 @@
 ## [2026-08-28 07:35 UTC] sell | [PARTIAL][LLM] $GREG at $2.76937e-05 | P&L: +23.0%
 - **Reasoning:** Up +23% near 25% auto-TP threshold; price spiked to 248 micro then pulled back to 232 before bouncing to 281 — showing volatility. Take half off to lock gains, let the other half ride if narrative holds. Selling all would forfeit further upside; selling none risks giving back the +23%.
 
+## [2026-08-28 07:36 UTC] sell | [TP +30% (25%)] $GREG at $3.98992e-05 | P&L: +77.2%
+- **Reasoning:** Auto take-profit at +77.2%
+
+## [2026-08-28 07:37 UTC] sell | [FULL][LLM] $GREG at $3.98992e-05 | P&L: +77.2%
+- **Reasoning:** Position is +77% per price tick and bot should have already auto-TP'd; locking remaining gains. Pool is thin ($8.5k) and 'greg' narrative has limited viral ceiling. Free money is free money.
+
+## [2026-08-28 07:37 UTC] buy | [LLM] $FLATBUSH at $5.7684e-06, spent 0.05 SOL
+- **Reasoning:** Flatbush Cats is a real NYC cat rescue org with built-in viral sympathy narrative. $5.7k mcap with 22% bonding curve progress = real traction already, organic attention from a credible real-world story. Animal rescue memes historically pump hard on attention. Risk: $5.7k mc means thin pool, could rug or die — but narrative + early bonding curve makes this the best risk/reward in the slate.
+

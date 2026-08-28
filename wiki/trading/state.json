@@ -1,26 +1,26 @@
 {
-  "balance_sol": 0.09455,
+  "balance_sol": 0.088885,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "J58uwcpCU3vpomu5bmx23XNNzLDnTDw3GQgGQ1Jepump": {
-      "symbol": "GREG",
-      "name": "The Flying Hippo",
-      "amount": 118605.6838365897,
-      "entry_price_usd": 2.252e-05,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-08-28T07:33:18.776513+00:00",
-      "entry_usd_value": 5.3420000000000005,
+    "7SARMsaa5sjy55A8VQNUtY9ENCVwskKZ1qbX36qQpump": {
+      "symbol": "FLATBUSH",
+      "name": "Flatbush Cats",
+      "amount": 925212.9295232471,
+      "entry_price_usd": 5.768401877771101e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-08-28T07:37:32.183327+00:00",
+      "entry_usd_value": 5.337,
       "entry_signals": {
-        "liquidity_usd": 6891.65919032764,
-        "volume_24h_usd": 35383.5,
-        "market_cap_usd": 30473.79318547574,
-        "ath_market_cap_usd": 35619.56638935204,
+        "liquidity_usd": 1040.7591042208198,
+        "volume_24h_usd": null,
+        "market_cap_usd": 5752.629065196034,
+        "ath_market_cap_usd": 6789.386901910493,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 64.504485121,
+        "real_sol_reserves": 9.750413193,
         "description": "",
-        "twitter": "https://x.com/raeconthechef/status/2093239977870262538?s=20",
+        "twitter": "https://x.com/missedentryx/status/2093240685499486644?s=46",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -21055,31 +21055,47 @@
       "pnl_pct": 22.97,
       "exit_reason": "LLM: sell_half — Up +23% near 25% auto-TP threshold; price spiked to 248 micro then pulled back to 232 before bouncing to 281 — showing volatility. Take half off to lo",
       "partial": true
+    },
+    {
+      "mint": "J58uwcpCU3vpomu5bmx23XNNzLDnTDw3GQgGQ1Jepump",
+      "symbol": "GREG",
+      "name": "The Flying Hippo",
+      "amount_sold": 29651.420959147425,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-28T07:33:18.776513+00:00",
+      "exit_time": "2026-08-28T07:36:55.912710+00:00",
+      "entry_price_usd": 2.252e-05,
+      "exit_price_usd": 3.9899194954557474e-05,
+      "entry_sol_for_chunk": 0.00625,
+      "exit_sol_received": 0.011084,
+      "pnl_sol": 0.004834,
+      "pnl_pct": 77.17,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "J58uwcpCU3vpomu5bmx23XNNzLDnTDw3GQgGQ1Jepump",
+      "symbol": "GREG",
+      "name": "The Flying Hippo",
+      "amount_sold": 88954.26287744228,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-28T07:33:18.776513+00:00",
+      "exit_time": "2026-08-28T07:37:31.887780+00:00",
+      "entry_price_usd": 2.252e-05,
+      "exit_price_usd": 3.9899194954557474e-05,
+      "entry_sol_for_chunk": 0.01875,
+      "exit_sol_received": 0.033251,
+      "pnl_sol": 0.014501,
+      "pnl_pct": 77.17,
+      "exit_reason": "LLM: sell_all — Position is +77% per price tick and bot should have already auto-TP'd; locking remaining gains. Pool is thin ($8.5k) and 'greg' narrative has limited ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-28T07:35:52.693851+00:00",
+  "last_updated": "2026-08-28T07:37:32.183745+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.66,
-  "portfolio_value_usd": 12.76,
+  "last_sol_price_usd": 106.74,
+  "portfolio_value_usd": 14.82,
   "recent_decisions": [
-    {
-      "time": "2026-08-28 07:20 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $禅 closed at $3.24131e-06 | P&L: -47.8%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-08-28 07:20 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $PIKACIO closed at $3.02996e-06 | P&L: -62.0%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-08-28 07:20 UTC",
-      "action": "buy",
-      "details": "[LLM] $@cat at $3.89506e-06, spent 0.05 SOL",
-      "reason": "$@cat — simple, viral-friendly cat meme with 'purr purr' description at sub-$4k mcap. Cat coins historically pump on pure simplicity. Small bet, asymmetric upside."
-    },
     {
       "time": "2026-08-28 07:21 UTC",
       "action": "sell",
@@ -21181,40 +21197,58 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $GREG at $2.76937e-05 | P&L: +23.0%",
       "reason": "Up +23% near 25% auto-TP threshold; price spiked to 248 micro then pulled back to 232 before bouncing to 281 — showing volatility. Take half off to lock gains, let the other half ride if narrative holds. Selling all would forfeit further upside; selling none risks giving back the +23%."
+    },
+    {
+      "time": "2026-08-28 07:36 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $GREG at $3.98992e-05 | P&L: +77.2%",
+      "reason": "Auto take-profit at +77.2%"
+    },
+    {
+      "time": "2026-08-28 07:37 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GREG at $3.98992e-05 | P&L: +77.2%",
+      "reason": "Position is +77% per price tick and bot should have already auto-TP'd; locking remaining gains. Pool is thin ($8.5k) and 'greg' narrative has limited viral ceiling. Free money is free money."
+    },
+    {
+      "time": "2026-08-28 07:37 UTC",
+      "action": "buy",
+      "details": "[LLM] $FLATBUSH at $5.7684e-06, spent 0.05 SOL",
+      "reason": "Flatbush Cats is a real NYC cat rescue org with built-in viral sympathy narrative. $5.7k mcap with 22% bonding curve progress = real traction already, organic attention from a credible real-world story. Animal rescue memes historically pump hard on attention. Risk: $5.7k mc means thin pool, could rug or die — but narrative + early bonding curve makes this the best risk/reward in the slate."
     }
   ],
   "trade_stats": {
-    "total": 1237,
-    "wins": 638,
+    "total": 1239,
+    "wins": 640,
     "losses": 599,
-    "win_rate_pct": 51.6,
-    "total_pnl_sol": -1.78044,
-    "avg_pnl_pct": 41.23,
+    "win_rate_pct": 51.7,
+    "total_pnl_sol": -1.761105,
+    "avg_pnl_pct": 41.28,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 14,
-    "today_realized_sol": -0.105014,
-    "today_target_pct": -26.3,
+    "today_trades": 16,
+    "today_realized_sol": -0.085679,
+    "today_target_pct": -21.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 638,
+      "win_count": 640,
       "loss_count": 599,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-28T07:35:52.693511+00:00",
+  "last_llm_brief_at": "2026-08-28T07:37:31.887745+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "J58uwcpCU3vpomu5bmx23XNNzLDnTDw3GQgGQ1Jepump": {
-      "price_usd": 2.7693730365639526e-05,
+      "price_usd": 3.9899194954557474e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 6551.26406664336,
-      "volume_h24": 79956.58,
+      "liquidity_usd": 8506.43200609488,
+      "volume_h24": 95796.25,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 61.421939496
+      "real_sol_reserves": 79.693011112
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
