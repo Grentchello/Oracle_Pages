@@ -66,3 +66,5 @@
 
 ## [2026-08-27 13:04 UTC] close | BNBUSDT SUPER time-stop 4.0h P&L=-0.5%
 
+## [2026-08-28 14:13 UTC] close | ETHUSDT DIR SL -2.1% P&L=-2.1%
+
