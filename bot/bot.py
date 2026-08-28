@@ -1222,6 +1222,19 @@ def main():
             if eff_liq < pos_value_usd * 5:
                 log(f"LIQUIDITY GATE: ${token.get('symbol')} rejected — pool ${eff_liq:.0f} < 5x position ${pos_value_usd:.2f}")
                 continue
+            # === CoinCLIP-style viability filter (research: arXiv 2412.07591) ===
+            # Skip tokens that look like low-quality/quick-flips:
+            #  - Description < 50 chars (lazy project)
+            #  - No twitter handle (community signal missing)
+            #  - Very low liquidity (<$2k) — too easy to dump
+            desc = (token.get("description") or token.get("desc") or "").strip()
+            twitter = (token.get("twitter") or "").strip()
+            if len(desc) < 50:
+                log(f"VIABILITY GATE: ${token.get('symbol')} rejected — description too short ({len(desc)} chars)")
+                continue
+            if not twitter and eff_liq < 3000:
+                log(f"VIABILITY GATE: ${token.get('symbol')} rejected — no twitter AND low liquidity (${eff_liq:.0f})")
+                continue
             # Dedup by symbol within tick — LLM sometimes picks same mint twice
             existing_syms = {p.get("symbol") for p in state.get("positions", {}).values()}
             if token.get("symbol") in existing_syms:
