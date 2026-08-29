@@ -411,7 +411,8 @@ def call_llm(prompt, max_seconds=LLM_TIMEOUT_SECONDS):
             [HERMES_CLI, "chat", "-q", prompt, "-Q",
              "--max-turns", "1", "--run-budget", str(max_seconds),
              "--ignore-rules", "--safe-mode",
-             "-t", "terminal"],
+             "-t", "terminal",
+             "-m", "nemotron-3-ultra-free"],
             capture_output=True, text=True, timeout=max_seconds + 30,
         )
         if result.returncode != 0:
