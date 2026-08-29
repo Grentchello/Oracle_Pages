@@ -8953,3 +8953,6 @@
 ## [2026-08-29 12:46 UTC] buy | [LLM] $SOLTCG at $3.169e-06, spent 0.02 SOL
 - **Reasoning:** SOLTCG combines TCG + Solana + memecoin narrative — three hot sectors. Twitter from @briiid_ with 50+ char description. Fresh launch at $3k mcap, viable gate passes.
 
+## [2026-08-29 12:52 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
