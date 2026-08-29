@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.063239,
+  "balance_sol": 0.081698,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EFT7KEBh1hJf6kbZHppWkVimNDAqw2x1didRTo2tpump": {
-      "symbol": "BMT",
-      "name": "BlueMoonTrades (BMT)",
-      "amount": 660223.2854864433,
-      "entry_price_usd": 3.135e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-08-29T12:39:13.462672+00:00",
-      "entry_usd_value": 2.0698,
-      "entry_signals": {
-        "liquidity_usd": 129.79945775478,
-        "volume_24h_usd": 227.69,
-        "market_cap_usd": 3143.274630460195,
-        "ath_market_cap_usd": 3226.550760124599,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.254222222,
-        "description": "Primarily an Options Trader using Flow & Technical analysis. Tweets are to express personal opinions only",
-        "twitter": "https://x.com/BlueMoonTrades",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21429,19 +21406,30 @@
       "pnl_pct": 133.42,
       "exit_reason": "LLM: sell_all — $Heist is up +133% — well past the +100% auto-TP threshold (50% sell). Locking the full gain now; narrative unclear if it can sustain another leg.",
       "partial": false
+    },
+    {
+      "mint": "EFT7KEBh1hJf6kbZHppWkVimNDAqw2x1didRTo2tpump",
+      "symbol": "BMT",
+      "name": "BlueMoonTrades (BMT)",
+      "amount_sold": 660223.2586614433,
+      "fraction_sold": 0.9999999593698062,
+      "entry_time": "2026-08-29T12:39:13.462672+00:00",
+      "exit_time": "2026-08-29T12:44:46.689297+00:00",
+      "entry_price_usd": 3.135e-06,
+      "exit_price_usd": 2.897110904297167e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018459,
+      "pnl_sol": -0.001541,
+      "pnl_pct": -7.59,
+      "exit_reason": "LLM: sell_all — Down -7.6% in 6 minutes on bonding curve with $0 pool liquidity — impossible to exit cleanly if it rugs. The 615M% share display is a bug. Cut losses ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-29T12:43:09.366455+00:00",
+  "last_updated": "2026-08-29T12:44:46.999049+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.54,
-  "portfolio_value_usd": 8.62,
+  "last_sol_price_usd": 103.62,
+  "portfolio_value_usd": 8.47,
   "recent_decisions": [
-    {
-      "time": "2026-08-29 12:00 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-29 12:03 UTC",
       "action": "observe",
@@ -21555,35 +21543,41 @@
       "action": "buy",
       "details": "[LLM] $BMT at $3.135e-06, spent 0.02 SOL",
       "reason": "$BMT (BlueMoonTrades) — real options trader with 50+ char descriptive bio and active Twitter. Trader-following narrative attracts degen capital; passes viability gate (desc ≥50 chars + twitter). Early at $3k mcap, 0.7min old."
+    },
+    {
+      "time": "2026-08-29 12:44 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BMT at $2.89711e-06 | P&L: -7.6%",
+      "reason": "Down -7.6% in 6 minutes on bonding curve with $0 pool liquidity — impossible to exit cleanly if it rugs. The 615M% share display is a bug. Cut losses before -30% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 1259,
+    "total": 1260,
     "wins": 652,
-    "losses": 607,
-    "win_rate_pct": 51.8,
-    "total_pnl_sol": -1.81675,
-    "avg_pnl_pct": 41.26,
+    "losses": 608,
+    "win_rate_pct": 51.7,
+    "total_pnl_sol": -1.818291,
+    "avg_pnl_pct": 41.22,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 15,
-    "today_realized_sol": -0.012282,
-    "today_target_pct": -3.1,
+    "today_trades": 16,
+    "today_realized_sol": -0.013823,
+    "today_target_pct": -3.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 652,
-      "loss_count": 607,
+      "loss_count": 608,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-29T12:43:07.798227+00:00",
+  "last_llm_brief_at": "2026-08-29T12:44:46.689140+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EFT7KEBh1hJf6kbZHppWkVimNDAqw2x1didRTo2tpump": {
-      "price_usd": 2.8948741848188445e-06,
+      "price_usd": 2.897110904297167e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3.1062e-07,
+      "liquidity_usd": 3.1086e-07,
       "volume_h24": 359.53,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
