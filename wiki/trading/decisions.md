@@ -8911,3 +8911,6 @@
 ## [2026-08-29 12:18 UTC] buy | [LLM] $Heist at $4.93186e-06, spent 0.02 SOL
 - **Reasoning:** $Heist (The Chicken Heist) passes viability gate (desc >50 chars + twitter), claims 'craziest viral thing on X' with thieves narrative, highest bond (19%) and mcap ($4.9k) among viable fresh launches — strongest liquidity + attention signal for a 0.05 SOL scalp.
 
+## [2026-08-29 12:20 UTC] sell | [PARTIAL][LLM] $Heist at $6.01206e-06 | P&L: +21.9%
+- **Reasoning:** Up 21.9% in minutes on bonding curve with only $1.3k pool — thin liquidity means volatility cuts both ways. Locking half the gain while letting the runner ride.
+
