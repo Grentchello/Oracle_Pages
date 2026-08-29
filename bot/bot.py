@@ -48,12 +48,16 @@ PUMPFUN_NEW_LAUNCHES = "https://frontend-api-v3.pump.fun/coins?limit=30&offset=0
 SOL_MINT = "So11111111111111111111111111111111111111112"
 
 # === Strategy parameters (safeguards — LLM can't override) ===
-POSITION_SIZE_SOL = 0.05         # $5 per position (halved from 0.1 in v7)
-MAX_POSITIONS = 5
+# Conservative restart params (v8.3) — much tighter than v7
+POSITION_SIZE_SOL = 0.02         # $2 per position (was 0.05 in v7)
+MAX_POSITIONS = 2                # max 2 concurrent (was 5)
 MAX_HOLD_HOURS = 72
-HARD_STOP_LOSS = 0.30        # -30% hard cap (tightened from -50% in v7)
-DAILY_MAX_LOSS_SOL = 0.20    # daily loss cap -0.20 SOL (was -0.4; tighter in v7)
+HARD_STOP_LOSS = 0.30        # -30% hard cap
+DAILY_MAX_LOSS_SOL = 0.05    # daily loss cap -0.05 SOL (was 0.20)
 RESERVE_SOL = 0.05
+
+# Conservative mode flag
+CONSERVATIVE_MODE = True
 
 # LLM throttling
 LLM_BRIEF_INTERVAL_MIN = 5  # when idle, LLM ticks every 5 min
