@@ -23,8 +23,9 @@ import threading
 from datetime import datetime, timezone
 from pathlib import Path
 
-# Add bot directory to path for gmgn_client import
-sys.path.insert(0, str(Path(__file__).parent))
+# Add bot directory to path for gmgn_client import (works from any cwd)
+bot_dir = str(Path(__file__).parent)
+sys.path.insert(0, bot_dir)
 sys.path.insert(0, "/opt/data/hermes_work/bot")
 import gmgn_client
 

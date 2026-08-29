@@ -8866,3 +8866,6 @@
 ## [2026-08-29 11:26 UTC] buy | [LLM] $SPIKY at $3.11913e-06, spent 0.02 SOL
 - **Reasoning:** $SPIKY passes viability gate (long description + Twitter from @PenTheArtist). Creator narrative with emotional hook ('watched one character I created grow') — fresh 0.1min launch at $3k mcap, prime for attention pump.
 
+## [2026-08-29 11:29 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
