@@ -342,3 +342,61 @@ When bot restarts, these run before any buy decision:
 - ~40% of trades were political/celebrity-themed → 80% of those were rugs
 - Applying ME2F keyword filter alone would have eliminated ~30% of all losses
 - Combined with CoinCLIP content filters: ~50% loss reduction
+
+
+---
+
+## GMGN API Integration (v8.3)
+
+**API Key:** `gmgn_cc06618c6bab4a565da3d1e266fa3713` (configured in `~/.config/gmgn/.env`)
+
+**Skills installed:** `gmgn-token`, `gmgn-security`, `gmgn-holders`, `gmgn-traders`, `gmgn-market`, `gmgn-track`, `gmgn-swap`, `gmgn-portfolio`, `gmgn-kline-pattern`, `gmgn-cooking`
+
+### What GMGN gives us (real ME2F data)
+
+| ME2F Dimension | GMGN Field | Source |
+|---|---|---|
+| Whale Dominance (WDS) | `top_10_holder_rate` | `token info` / `token security` |
+| Smart Money | `wallet_tags_stat.smart_wallets` | `token info` |
+| KOL Presence | `wallet_tags_stat.renowned_wallets` | `token info` |
+| Dev Behavior | `dev.creator_token_status` (`creator_hold` / `creator_close`) | `token info` |
+| Rug Risk | `rug_ratio` (0-1) | `token security` |
+| Bot/Rat Activity | `top_rat_trader_percentage`, `top_bundler_trader_percentage`, `top_entrapment_trader_percentage` | `token info` |
+| Sniper Count | `wallet_tags_stat.sniper_wallets` | `token info` |
+| Liquidity | `liquidity` (USD) | `token info` |
+
+### Bot integration (v8.3)
+
+**New gate: GMGN fragility evaluation** — runs on every candidate before LLM sees it:
+
+```python
+fragility = gmgn_client.evaluate_fragility(mint)
+# Returns: fragile (bool), score (0-1), level (LOW/MEDIUM/HIGH/EXTREME), action (FULL SIZE/STANDARD/REDUCE/AVOID)
+```
+
+**Scoring logic (ME2F-aligned):**
+- `top_10_rate > 0.9` → +0.4 (EXTREME whale concentration)
+- `top_10_rate > 0.7` → +0.3 (HIGH)
+- `top_10_rate > 0.5` → +0.2 (MEDIUM)
+- `creator_status == creator_close` → +0.2 (dev exited)
+- `smart_wallets > 5` → -0.15 (smart money present = good)
+- `renowned_wallets > 10` → -0.1 (KOLs present = good)
+- `rat_trader_rate > 0.1` etc → +0.15 (suspicious activity)
+- `liquidity < $5k` → +0.1
+
+**Threshold:** score ≥ 0.5 → REJECTED (HIGH/EXTREME fragility)
+
+### Test result
+
+Token `EYE` (`6MAWnfagDCzqmHQh88FVt9F1zzLqXpwGJpaL7zUTpump`):
+- `top_10_rate: 16.4%` → resilient
+- `creator_hold` → dev holding
+- `smart_wallets: 3`, `renowned_wallets: 34` → smart money + KOLs present
+- `liquidity: $34k` → good
+- **Result: fragility=0.0, LOW, FULL SIZE**
+
+### Files
+- `/opt/data/hermes_work/bot/gmgn_client.py` — Python wrapper + ME2F evaluator
+- `/opt/data/hermes_work/bot/bot.py` — gate integrated at line ~1265
+- `/opt/data/home/.npm-global/bin/gmgn-cli` — CLI tool (v0.x)
+- `~/.config/gmgn/.env` — API key configured

@@ -285,3 +285,22 @@
 - Whale dominance check requires Solscan/DexScreener auth (not free) → deferred
 - Combined with CoinCLIP gates: estimated 50% loss reduction if applied to our 1223-trade history
 - Files: wiki/research/memecoin-fragility.md, wiki/research/raw_memecoin_fragility_2512.00377.html, bot/bot.py, wiki/projects/memecoin-trading/index.md
+
+## [2026-08-29] update | GMGN API integration + ME2F real-time fragility gate
+- Grant provided GMGN API key: gmgn_cc06618c6bab4a565da3d1e266fa3713
+- Installed 10 GMGN skills via npx: gmgn-token, gmgn-security, gmgn-holder-analysis, gmgn-kline-pattern, gmgn-market, gmgn-portfolio, gmgn-swap, gmgn-track, gmgn-cooking
+- Installed gmgn-cli globally via npm (~/.npm-global/bin/gmgn-cli)
+- Configured API key in ~/.config/gmgn/.env (keypair generated)
+- Created bot/gmgn_client.py — Python wrapper with ME2F-style fragility evaluator
+- Integrated GMGN fragility gate into bot.py (runs on every candidate before LLM)
+- GMGN provides real ME2F data:
+  - top_10_holder_rate (whale concentration = WDS)
+  - wallet_tags_stat.smart_wallets / renowned_wallets (smart money)
+  - dev.creator_token_status (dev holding vs exited)
+  - rug_ratio, bot_degen_rate, rat_trader_percentage, entrapment_percentage
+  - liquidity, holder_count, sniper_wallets, whale_wallets
+- Fragility scoring (0-1): top10>90%=+0.4, dev exited=+0.2, smart money=-0.15, KOLs=-0.1, rat/bundler activity=+0.15, low liquidity=+0.1
+- Threshold: score>=0.5 = REJECT (HIGH/EXTREME fragility)
+- Tested on EYE token: top10=16.4%, dev holding, smart_wallets=3, renowned=34, liquidity=$34k → fragility=0.0 (LOW, FULL SIZE)
+- Updated wiki: projects/memecoin-trading/index.md with GMGN integration details
+- Files: bot/gmgn_client.py, bot/bot.py (gate at line ~1265), ~/.config/gmgn/.env, wiki/research/memecoin-fragility.md
