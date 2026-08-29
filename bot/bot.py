@@ -25,6 +25,8 @@ from pathlib import Path
 
 # Add bot directory to path for gmgn_client import
 sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, "/opt/data/hermes_work/bot")
+import gmgn_client
 
 # === Paths ===
 SCRIPT_DIR = Path(__file__).parent.resolve()

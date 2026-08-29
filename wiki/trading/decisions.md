@@ -8854,3 +8854,9 @@
 ## [2026-08-29 11:19 UTC] buy | [LLM] $Spiky at $7.368e-06, spent 0.02 SOL
 - **Reasoning:** Creator of Pudgy Penguins (major NFT cultural phenomenon) launching a token — massive attention signal with real credibility. Description ≥50 chars, verified Twitter from the artist. Fresh launch at $10k mcap with strong narrative for viral spread.
 
+## [2026-08-29 11:20 UTC] sell | [TP +30% (25%)] $Spiky at $1.2224e-05 | P&L: +65.9%
+- **Reasoning:** Auto take-profit at +65.9%
+
+## [2026-08-29 11:22 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+

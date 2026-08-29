@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.067832,
+  "balance_sol": 0.076131,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "869nMZoZyK234A7yhyhSfM27NFQkRzMs3jL4bTumpump": {
       "symbol": "Spiky",
       "name": "Spiky",
-      "amount": 281188.92508143326,
+      "amount": 210891.69381107495,
       "entry_price_usd": 7.368e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.015,
       "entry_time": "2026-08-29T11:19:22.043617+00:00",
       "entry_usd_value": 2.0718,
       "entry_signals": {
@@ -21191,25 +21191,30 @@
       "pnl_pct": -38.46,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "869nMZoZyK234A7yhyhSfM27NFQkRzMs3jL4bTumpump",
+      "symbol": "Spiky",
+      "name": "Spiky",
+      "amount_sold": 70297.23127035832,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-29T11:19:22.043617+00:00",
+      "exit_time": "2026-08-29T11:20:26.407504+00:00",
+      "entry_price_usd": 7.368e-06,
+      "exit_price_usd": 1.2223957670937707e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.008299,
+      "pnl_sol": 0.003299,
+      "pnl_pct": 65.91,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-29T11:19:22.043841+00:00",
+  "last_updated": "2026-08-29T11:22:26.537200+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.59,
-  "portfolio_value_usd": 9.1,
+  "last_sol_price_usd": 103.55,
+  "portfolio_value_usd": 9.44,
   "recent_decisions": [
-    {
-      "time": "2026-08-29 10:57 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-08-29 10:58 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-29 10:59 UTC",
       "action": "observe",
@@ -21317,6 +21322,18 @@
       "action": "buy",
       "details": "[LLM] $Spiky at $7.368e-06, spent 0.02 SOL",
       "reason": "Creator of Pudgy Penguins (major NFT cultural phenomenon) launching a token — massive attention signal with real credibility. Description ≥50 chars, verified Twitter from the artist. Fresh launch at $10k mcap with strong narrative for viral spread."
+    },
+    {
+      "time": "2026-08-29 11:20 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Spiky at $1.2224e-05 | P&L: +65.9%",
+      "reason": "Auto take-profit at +65.9%"
+    },
+    {
+      "time": "2026-08-29 11:22 UTC",
+      "action": "observe",
+      "details": "LLM call failed: llm call failed",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -21338,19 +21355,19 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-29T11:19:21.744086+00:00",
+  "last_llm_brief_at": "2026-08-29T11:22:26.536189+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "J1T9f24bnudbFNpj2TdNpd2B9dkciMfumWzk2jYkpump": {
-      "price_usd": 3.6407518144125993e-06,
+    "869nMZoZyK234A7yhyhSfM27NFQkRzMs3jL4bTumpump": {
+      "price_usd": 1.2223957670937707e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 376.59520359891,
-      "volume_h24": 11306.41,
+      "liquidity_usd": 3276.7442037937,
+      "volume_h24": 15190.44,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.635439749
+      "real_sol_reserves": 31.644077294
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
