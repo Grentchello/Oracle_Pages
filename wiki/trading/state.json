@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.082827,
+  "balance_sol": 0.083239,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8xuUP6sjXYMWe9d4nx8kn2QNyGuBzf1CSJQc2XF2pump": {
-      "symbol": "Heist",
-      "name": "The Chicken Heist",
-      "amount": 3699.2824757511353,
-      "entry_price_usd": 4.93185801762692e-06,
-      "entry_sol_spent": 0.00017578125,
-      "entry_time": "2026-08-29T12:18:09.021893+00:00",
-      "entry_usd_value": 2.0758,
-      "entry_signals": {
-        "liquidity_usd": 998.6415948275601,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4936.7203487743645,
-        "ath_market_cap_usd": 7664.147607895923,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 9.621751564,
-        "description": "THIS IS GIGA, MAKE SURE TO READ One of the most craziest and viral thing on X at the moment.  Thieves basically steal 105KG of chicken from a truck, it looks like a heist straight from a movie.  It’s getting crazy engagement on X and across the world.  It’s now trending on X, every post has millions",
-        "twitter": "https://x.com/barnsrebirth0/status/2093673774348452082?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21395,25 +21372,47 @@
       "pnl_pct": 114.73,
       "exit_reason": "LLM: sell_half — Up 114.7% in 12 minutes — past +100% auto-TP threshold (50% sold). Locking half the gains now before potential reversal on this bonding-curve token wi",
       "partial": true
+    },
+    {
+      "mint": "8xuUP6sjXYMWe9d4nx8kn2QNyGuBzf1CSJQc2XF2pump",
+      "symbol": "Heist",
+      "name": "The Chicken Heist",
+      "amount_sold": 1849.6412378755676,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-29T12:18:09.021893+00:00",
+      "exit_time": "2026-08-29T12:30:59.934893+00:00",
+      "entry_price_usd": 4.93185801762692e-06,
+      "exit_price_usd": 1.151180289194424e-05,
+      "entry_sol_for_chunk": 8.8e-05,
+      "exit_sol_received": 0.000206,
+      "pnl_sol": 0.000118,
+      "pnl_pct": 133.42,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "8xuUP6sjXYMWe9d4nx8kn2QNyGuBzf1CSJQc2XF2pump",
+      "symbol": "Heist",
+      "name": "The Chicken Heist",
+      "amount_sold": 1849.6412378755676,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-29T12:18:09.021893+00:00",
+      "exit_time": "2026-08-29T12:32:33.783733+00:00",
+      "entry_price_usd": 4.93185801762692e-06,
+      "exit_price_usd": 1.151180289194424e-05,
+      "entry_sol_for_chunk": 8.8e-05,
+      "exit_sol_received": 0.000206,
+      "pnl_sol": 0.000118,
+      "pnl_pct": 133.42,
+      "exit_reason": "LLM: sell_all — $Heist is up +133% — well past the +100% auto-TP threshold (50% sell). Locking the full gain now; narrative unclear if it can sustain another leg.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-29T12:29:56.420785+00:00",
+  "last_updated": "2026-08-29T12:32:34.091120+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.44,
-  "portfolio_value_usd": 8.59,
+  "last_sol_price_usd": 103.52,
+  "portfolio_value_usd": 8.62,
   "recent_decisions": [
-    {
-      "time": "2026-08-29 11:51 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-08-29 11:54 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-29 11:57 UTC",
       "action": "observe",
@@ -21521,40 +21520,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Heist at $1.059e-05 | P&L: +114.7%",
       "reason": "Up 114.7% in 12 minutes — past +100% auto-TP threshold (50% sold). Locking half the gains now before potential reversal on this bonding-curve token with only $2.8k pool."
+    },
+    {
+      "time": "2026-08-29 12:30 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $Heist at $1.15118e-05 | P&L: +133.4%",
+      "reason": "Auto take-profit at +133.4%"
+    },
+    {
+      "time": "2026-08-29 12:32 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Heist at $1.15118e-05 | P&L: +133.4%",
+      "reason": "$Heist is up +133% — well past the +100% auto-TP threshold (50% sell). Locking the full gain now; narrative unclear if it can sustain another leg."
     }
   ],
   "trade_stats": {
-    "total": 1257,
-    "wins": 650,
+    "total": 1259,
+    "wins": 652,
     "losses": 607,
-    "win_rate_pct": 51.7,
-    "total_pnl_sol": -1.816986,
-    "avg_pnl_pct": 41.11,
+    "win_rate_pct": 51.8,
+    "total_pnl_sol": -1.81675,
+    "avg_pnl_pct": 41.26,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 13,
-    "today_realized_sol": -0.012518,
+    "today_trades": 15,
+    "today_realized_sol": -0.012282,
     "today_target_pct": -3.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 650,
+      "win_count": 652,
       "loss_count": 607,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-29T12:29:56.116301+00:00",
+  "last_llm_brief_at": "2026-08-29T12:32:33.783694+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "8xuUP6sjXYMWe9d4nx8kn2QNyGuBzf1CSJQc2XF2pump": {
-      "price_usd": 1.058995817849621e-05,
+      "price_usd": 1.151180289194424e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2834.95963363584,
-      "volume_h24": 28922.11,
+      "liquidity_usd": 3088.01626453968,
+      "volume_h24": 35668.26,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 27.406802336
+      "real_sol_reserves": 29.830141659
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
