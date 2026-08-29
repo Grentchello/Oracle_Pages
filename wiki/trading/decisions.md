@@ -8932,3 +8932,9 @@
 ## [2026-08-29 12:27 UTC] observe | LLM call failed: llm call failed
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-08-29 12:28 UTC] sell | [TP +100% (50%)] $Heist at $1.059e-05 | P&L: +114.7%
+- **Reasoning:** Auto take-profit at +114.7%
+
+## [2026-08-29 12:29 UTC] sell | [PARTIAL][LLM] $Heist at $1.059e-05 | P&L: +114.7%
+- **Reasoning:** Up 114.7% in 12 minutes — past +100% auto-TP threshold (50% sold). Locking half the gains now before potential reversal on this bonding-curve token with only $2.8k pool.
+
