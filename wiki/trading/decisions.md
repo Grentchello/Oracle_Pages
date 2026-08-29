@@ -8983,3 +8983,9 @@
 ## [2026-08-29 13:41 UTC] buy | [LLM] $DОGGO at $9.99064e-06, spent 0.02 SOL
 - **Reasoning:** $DОGGO has a clear viral narrative: 'zero taxes, community governance, playful approach to Web3' — strong meme-first utility angle on Solana. Fresh launch at $10k mcap with dedicated X account (doggosol_now) driving attention. Viability gate passes (desc ≥50 chars + twitter). High alpha potential in first hour.
 
+## [2026-08-29 13:42 UTC] sell | [hard-stop] $DОGGO closed at $2.92077e-06 | P&L: -70.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-29 13:44 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
