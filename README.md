@@ -107,3 +107,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- CoinCLIP research note -->
 
 <!-- ME2F fragility research -->
+
+<!-- GMGN API integration v8.3 -->
