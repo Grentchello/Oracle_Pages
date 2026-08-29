@@ -8944,3 +8944,6 @@
 ## [2026-08-29 12:32 UTC] sell | [FULL][LLM] $Heist at $1.15118e-05 | P&L: +133.4%
 - **Reasoning:** $Heist is up +133% — well past the +100% auto-TP threshold (50% sell). Locking the full gain now; narrative unclear if it can sustain another leg.
 
+## [2026-08-29 12:39 UTC] buy | [LLM] $BMT at $3.135e-06, spent 0.02 SOL
+- **Reasoning:** $BMT (BlueMoonTrades) — real options trader with 50+ char descriptive bio and active Twitter. Trader-following narrative attracts degen capital; passes viability gate (desc ≥50 chars + twitter). Early at $3k mcap, 0.7min old.
+

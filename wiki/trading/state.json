@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.083239,
+  "balance_sol": 0.063239,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "EFT7KEBh1hJf6kbZHppWkVimNDAqw2x1didRTo2tpump": {
+      "symbol": "BMT",
+      "name": "BlueMoonTrades (BMT)",
+      "amount": 660223.2854864433,
+      "entry_price_usd": 3.135e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-08-29T12:39:13.462672+00:00",
+      "entry_usd_value": 2.0698,
+      "entry_signals": {
+        "liquidity_usd": 129.79945775478,
+        "volume_24h_usd": 227.69,
+        "market_cap_usd": 3143.274630460195,
+        "ath_market_cap_usd": 3226.550760124599,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.254222222,
+        "description": "Primarily an Options Trader using Flow & Technical analysis. Tweets are to express personal opinions only",
+        "twitter": "https://x.com/BlueMoonTrades",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21408,17 +21431,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-08-29T12:37:17.072012+00:00",
+  "last_updated": "2026-08-29T12:39:15.201974+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.41,
+  "last_sol_price_usd": 103.49,
   "portfolio_value_usd": 8.61,
   "recent_decisions": [
-    {
-      "time": "2026-08-29 11:57 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-29 12:00 UTC",
       "action": "observe",
@@ -21532,6 +21549,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $Heist at $1.15118e-05 | P&L: +133.4%",
       "reason": "$Heist is up +133% — well past the +100% auto-TP threshold (50% sell). Locking the full gain now; narrative unclear if it can sustain another leg."
+    },
+    {
+      "time": "2026-08-29 12:39 UTC",
+      "action": "buy",
+      "details": "[LLM] $BMT at $3.135e-06, spent 0.02 SOL",
+      "reason": "$BMT (BlueMoonTrades) — real options trader with 50+ char descriptive bio and active Twitter. Trader-following narrative attracts degen capital; passes viability gate (desc ≥50 chars + twitter). Early at $3k mcap, 0.7min old."
     }
   ],
   "trade_stats": {
@@ -21553,7 +21576,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-29T12:37:16.677166+00:00",
+  "last_llm_brief_at": "2026-08-29T12:39:10.829872+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot"
