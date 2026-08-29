@@ -8926,3 +8926,9 @@
 ## [2026-08-29 12:24 UTC] sell | [PARTIAL][LLM] $Heist at $9.01698e-06 | P&L: +82.8%
 - **Reasoning:** Heist up 82.8% in 6 minutes — past +30% auto-TP (25% sold) and approaching +100% level. Lock half the gains now while letting remainder ride the bonding curve momentum.
 
+## [2026-08-29 12:25 UTC] sell | [TP +100% (50%)] $Heist at $1.3933e-05 | P&L: +182.5%
+- **Reasoning:** Auto take-profit at +182.5%
+
+## [2026-08-29 12:27 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+

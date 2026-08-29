@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.079701,
+  "balance_sol": 0.081691,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "8xuUP6sjXYMWe9d4nx8kn2QNyGuBzf1CSJQc2XF2pump": {
       "symbol": "Heist",
       "name": "The Chicken Heist",
-      "amount": 29594.259806009082,
+      "amount": 14797.129903004541,
       "entry_price_usd": 4.93185801762692e-06,
-      "entry_sol_spent": 0.00140625,
+      "entry_sol_spent": 0.000703125,
       "entry_time": "2026-08-29T12:18:09.021893+00:00",
       "entry_usd_value": 2.0758,
       "entry_signals": {
@@ -21344,25 +21344,30 @@
       "pnl_pct": 82.83,
       "exit_reason": "LLM: sell_half — Heist up 82.8% in 6 minutes — past +30% auto-TP (25% sold) and approaching +100% level. Lock half the gains now while letting remainder ride the bondi",
       "partial": true
+    },
+    {
+      "mint": "8xuUP6sjXYMWe9d4nx8kn2QNyGuBzf1CSJQc2XF2pump",
+      "symbol": "Heist",
+      "name": "The Chicken Heist",
+      "amount_sold": 14797.129903004541,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-29T12:18:09.021893+00:00",
+      "exit_time": "2026-08-29T12:25:07.106202+00:00",
+      "entry_price_usd": 4.93185801762692e-06,
+      "exit_price_usd": 1.3932995529405738e-05,
+      "entry_sol_for_chunk": 0.000703,
+      "exit_sol_received": 0.00199,
+      "pnl_sol": 0.001287,
+      "pnl_pct": 182.51,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-29T12:24:03.668729+00:00",
+  "last_updated": "2026-08-29T12:27:07.209686+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.9,
-  "portfolio_value_usd": 8.43,
+  "last_sol_price_usd": 103.58,
+  "portfolio_value_usd": 8.53,
   "recent_decisions": [
-    {
-      "time": "2026-08-29 11:29 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-08-29 11:37 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SPIKY at $2.89767e-06 | P&L: -7.1%",
-      "reason": "SPIKY down 7.1% in 12 minutes with pool=$0 and our share=206M% — extreme illiquidity risk. Cannot exit cleanly if it drops further. Freeing capital for fresh launches."
-    },
     {
       "time": "2026-08-29 11:40 UTC",
       "action": "observe",
@@ -21470,6 +21475,18 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Heist at $9.01698e-06 | P&L: +82.8%",
       "reason": "Heist up 82.8% in 6 minutes — past +30% auto-TP (25% sold) and approaching +100% level. Lock half the gains now while letting remainder ride the bonding curve momentum."
+    },
+    {
+      "time": "2026-08-29 12:25 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $Heist at $1.3933e-05 | P&L: +182.5%",
+      "reason": "Auto take-profit at +182.5%"
+    },
+    {
+      "time": "2026-08-29 12:27 UTC",
+      "action": "observe",
+      "details": "LLM call failed: llm call failed",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -21491,19 +21508,19 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-29T12:24:03.363436+00:00",
+  "last_llm_brief_at": "2026-08-29T12:27:07.209205+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "8xuUP6sjXYMWe9d4nx8kn2QNyGuBzf1CSJQc2XF2pump": {
-      "price_usd": 9.016982180679344e-06,
+      "price_usd": 1.3932995529405738e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2374.5996518361003,
-      "volume_h24": 17104.67,
+      "liquidity_usd": 3708.46047889844,
+      "volume_h24": 19304.85,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 22.854664599
+      "real_sol_reserves": 35.802862318
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
