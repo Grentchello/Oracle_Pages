@@ -8872,3 +8872,6 @@
 ## [2026-08-29 11:37 UTC] sell | [FULL][LLM] $SPIKY at $2.89767e-06 | P&L: -7.1%
 - **Reasoning:** SPIKY down 7.1% in 12 minutes with pool=$0 and our share=206M% — extreme illiquidity risk. Cannot exit cleanly if it drops further. Freeing capital for fresh launches.
 
+## [2026-08-29 11:40 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
