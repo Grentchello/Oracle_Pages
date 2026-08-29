@@ -8977,3 +8977,6 @@
 ## [2026-08-29 13:21 UTC] buy | [LLM] $FEDORA at $2.99908e-06, spent 0.02 SOL
 - **Reasoning:** $FEDORA passes viability gate (desc 58 chars + twitter from @moneyprintermtd). Fresh 0.1min launch at $3k mcap with 'Original bird. No roadmap' narrative — pure meme attention play. Bird meta is hot ($bird also launching). Low mcap = high upside if it catches bid.
 
+## [2026-08-29 13:27 UTC] sell | [FULL][LLM] $FEDORA at $2.99813e-06 | P&L: -0.0%
+- **Reasoning:** FEDORA flat after 6 minutes with only $51 pool liquidity and 4% share — illiquid bonding curve risk, freeing slot for fresh attention play
+

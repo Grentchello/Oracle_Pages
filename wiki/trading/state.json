@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.06152,
+  "balance_sol": 0.081487,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "f8f2YUskJN9cjvNu1dugQaufUeJAHjLiMTFZ9cmpump": {
-      "symbol": "FEDORA",
-      "name": "Fedora Pigeon",
-      "amount": 691144.9090002455,
-      "entry_price_usd": 2.999081629637329e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-08-29T13:21:53.620673+00:00",
-      "entry_usd_value": 2.0728,
-      "entry_signals": {
-        "liquidity_usd": 53.93941509556,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3005.8899389739295,
-        "ath_market_cap_usd": 3004.242631264556,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.520449779,
-        "description": "Just landed. Everyone is staring. Original bird. No roadmap.",
-        "twitter": "https://x.com/moneyprintermtd/status/2090861591918969012?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21463,19 +21440,30 @@
       "pnl_pct": -0.96,
       "exit_reason": "LLM: sell_all — SOLTCG is -1% after 18min on bonding curve with only $128 pool liquidity (2% our share). Marked STALE at 15min with no upside momentum. Illiquid bondi",
       "partial": false
+    },
+    {
+      "mint": "f8f2YUskJN9cjvNu1dugQaufUeJAHjLiMTFZ9cmpump",
+      "symbol": "FEDORA",
+      "name": "Fedora Pigeon",
+      "amount_sold": 691144.9090002455,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-29T13:21:53.620673+00:00",
+      "exit_time": "2026-08-29T13:27:07.488758+00:00",
+      "entry_price_usd": 2.999081629637329e-06,
+      "exit_price_usd": 2.998125568458484e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019967,
+      "pnl_sol": -3.3e-05,
+      "pnl_pct": -0.03,
+      "exit_reason": "LLM: sell_all — FEDORA flat after 6 minutes with only $51 pool liquidity and 4% share — illiquid bonding curve risk, freeing slot for fresh attention play",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-29T13:24:09.021671+00:00",
+  "last_updated": "2026-08-29T13:27:07.858990+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.69,
-  "portfolio_value_usd": 8.45,
+  "last_sol_price_usd": 103.78,
+  "portfolio_value_usd": 8.46,
   "recent_decisions": [
-    {
-      "time": "2026-08-29 12:22 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Heist at $7.20731e-06 | P&L: +46.1%",
-      "reason": "Heist up 46% in 6min on bonding curve with only $1.8k pool — locking half the gain now while keeping runner for potential continuation"
-    },
     {
       "time": "2026-08-29 12:23 UTC",
       "action": "sell",
@@ -21589,40 +21577,46 @@
       "action": "buy",
       "details": "[LLM] $FEDORA at $2.99908e-06, spent 0.02 SOL",
       "reason": "$FEDORA passes viability gate (desc 58 chars + twitter from @moneyprintermtd). Fresh 0.1min launch at $3k mcap with 'Original bird. No roadmap' narrative — pure meme attention play. Bird meta is hot ($bird also launching). Low mcap = high upside if it catches bid."
+    },
+    {
+      "time": "2026-08-29 13:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FEDORA at $2.99813e-06 | P&L: -0.0%",
+      "reason": "FEDORA flat after 6 minutes with only $51 pool liquidity and 4% share — illiquid bonding curve risk, freeing slot for fresh attention play"
     }
   ],
   "trade_stats": {
-    "total": 1261,
+    "total": 1262,
     "wins": 652,
-    "losses": 609,
+    "losses": 610,
     "win_rate_pct": 51.7,
-    "total_pnl_sol": -1.818469,
-    "avg_pnl_pct": 41.19,
+    "total_pnl_sol": -1.818502,
+    "avg_pnl_pct": 41.16,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 17,
-    "today_realized_sol": -0.014001,
+    "today_trades": 18,
+    "today_realized_sol": -0.014034,
     "today_target_pct": -3.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 652,
-      "loss_count": 609,
+      "loss_count": 610,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-29T13:24:06.991930+00:00",
+  "last_llm_brief_at": "2026-08-29T13:27:07.488724+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "f8f2YUskJN9cjvNu1dugQaufUeJAHjLiMTFZ9cmpump": {
-      "price_usd": 3.000528504217432e-06,
+      "price_usd": 2.998125568458484e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 53.96543758451,
-      "volume_h24": 53.95,
+      "liquidity_usd": 51.37056480654,
+      "volume_h24": 56.59,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.520449779
+      "real_sol_reserves": 0.494994843
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
