@@ -8848,3 +8848,9 @@
 ## [2026-08-29 11:17 UTC] buy | [LLM] $mina at $5.91632e-06, spent 0.02 SOL
 - **Reasoning:** $mina (lickinghamster) has 1.1M Twitter views with 300k in last hours — accelerating viral attention on a cute hamster narrative. MCAP $5.9k is extremely early for a token with this level of social proof. Passing viability gate (long desc + Twitter) and no political/celebrity fragility keywords.
 
+## [2026-08-29 11:18 UTC] sell | [hard-stop] $mina closed at $3.64075e-06 | P&L: -38.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-29 11:19 UTC] buy | [LLM] $Spiky at $7.368e-06, spent 0.02 SOL
+- **Reasoning:** Creator of Pudgy Penguins (major NFT cultural phenomenon) launching a token — massive attention signal with real credibility. Description ≥50 chars, verified Twitter from the artist. Fresh launch at $10k mcap with strong narrative for viral spread.
+
