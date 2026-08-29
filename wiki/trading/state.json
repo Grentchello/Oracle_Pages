@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.08152,
+  "balance_sol": 0.06152,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "f8f2YUskJN9cjvNu1dugQaufUeJAHjLiMTFZ9cmpump": {
+      "symbol": "FEDORA",
+      "name": "Fedora Pigeon",
+      "amount": 691144.9090002455,
+      "entry_price_usd": 2.999081629637329e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-08-29T13:21:53.620673+00:00",
+      "entry_usd_value": 2.0728,
+      "entry_signals": {
+        "liquidity_usd": 53.93941509556,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3005.8899389739295,
+        "ath_market_cap_usd": 3004.242631264556,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.520449779,
+        "description": "Just landed. Everyone is staring. Original bird. No roadmap.",
+        "twitter": "https://x.com/moneyprintermtd/status/2090861591918969012?s=46",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21442,17 +21465,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-08-29T13:20:15.260814+00:00",
+  "last_updated": "2026-08-29T13:21:53.620944+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.69,
+  "last_sol_price_usd": 103.64,
   "portfolio_value_usd": 8.45,
   "recent_decisions": [
-    {
-      "time": "2026-08-29 12:21 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $Heist at $7.20731e-06 | P&L: +46.1%",
-      "reason": "Auto take-profit at +46.1%"
-    },
     {
       "time": "2026-08-29 12:22 UTC",
       "action": "sell",
@@ -21566,6 +21583,12 @@
       "action": "observe",
       "details": "LLM call failed: llm call failed",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-08-29 13:21 UTC",
+      "action": "buy",
+      "details": "[LLM] $FEDORA at $2.99908e-06, spent 0.02 SOL",
+      "reason": "$FEDORA passes viability gate (desc 58 chars + twitter from @moneyprintermtd). Fresh 0.1min launch at $3k mcap with 'Original bird. No roadmap' narrative — pure meme attention play. Bird meta is hot ($bird also launching). Low mcap = high upside if it catches bid."
     }
   ],
   "trade_stats": {
@@ -21587,7 +21610,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-29T13:20:15.260139+00:00",
+  "last_llm_brief_at": "2026-08-29T13:21:51.421487+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot"
