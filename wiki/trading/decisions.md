@@ -8950,3 +8950,6 @@
 ## [2026-08-29 12:44 UTC] sell | [FULL][LLM] $BMT at $2.89711e-06 | P&L: -7.6%
 - **Reasoning:** Down -7.6% in 6 minutes on bonding curve with $0 pool liquidity — impossible to exit cleanly if it rugs. The 615M% share display is a bug. Cut losses before -30% hard stop.
 
+## [2026-08-29 12:46 UTC] buy | [LLM] $SOLTCG at $3.169e-06, spent 0.02 SOL
+- **Reasoning:** SOLTCG combines TCG + Solana + memecoin narrative — three hot sectors. Twitter from @briiid_ with 50+ char description. Fresh launch at $3k mcap, viable gate passes.
+
