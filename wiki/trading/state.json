@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.076131,
+  "balance_sol": 0.088273,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "869nMZoZyK234A7yhyhSfM27NFQkRzMs3jL4bTumpump": {
-      "symbol": "Spiky",
-      "name": "Spiky",
-      "amount": 210891.69381107495,
-      "entry_price_usd": 7.368e-06,
-      "entry_sol_spent": 0.015,
-      "entry_time": "2026-08-29T11:19:22.043617+00:00",
-      "entry_usd_value": 2.0718,
-      "entry_signals": {
-        "liquidity_usd": 2401.47040188357,
-        "volume_24h_usd": 7129.55,
-        "market_cap_usd": 10588.88010059786,
-        "ath_market_cap_usd": 11078.025389268136,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 23.182453923,
-        "description": "I was the artist and creator behind Pudgy Penguins, and I helped grow a simple penguin into a worldwide cultural phenomenon. What started as artwork became something much bigger. Memes, toys, plushies, games, and eventually a $5B memecoin. Watching Pudgy grow showed me what can happen when people tr",
-        "twitter": "https://x.com/PenTheArtist/status/2093659299570479467?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21208,19 +21185,30 @@
       "pnl_pct": 65.91,
       "exit_reason": "auto-TP +30% (25%)",
       "partial": true
+    },
+    {
+      "mint": "869nMZoZyK234A7yhyhSfM27NFQkRzMs3jL4bTumpump",
+      "symbol": "Spiky",
+      "name": "Spiky",
+      "amount_sold": 210891.69381107495,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-29T11:19:22.043617+00:00",
+      "exit_time": "2026-08-29T11:25:01.655778+00:00",
+      "entry_price_usd": 7.368e-06,
+      "exit_price_usd": 5.965741968777615e-06,
+      "entry_sol_for_chunk": 0.015,
+      "exit_sol_received": 0.012142,
+      "pnl_sol": -0.002858,
+      "pnl_pct": -19.03,
+      "exit_reason": "LLM: sell_all — Down 19% in just 6 minutes on bonding curve with only $1.3k liquidity. No recovery signal, rapid decline indicates failed launch. Exit before hitting ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-29T11:22:26.537200+00:00",
+  "last_updated": "2026-08-29T11:25:01.952245+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.55,
-  "portfolio_value_usd": 9.44,
+  "last_sol_price_usd": 103.62,
+  "portfolio_value_usd": 9.15,
   "recent_decisions": [
-    {
-      "time": "2026-08-29 10:59 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-29 11:00 UTC",
       "action": "observe",
@@ -21334,40 +21322,46 @@
       "action": "observe",
       "details": "LLM call failed: llm call failed",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-08-29 11:25 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Spiky at $5.96574e-06 | P&L: -19.0%",
+      "reason": "Down 19% in just 6 minutes on bonding curve with only $1.3k liquidity. No recovery signal, rapid decline indicates failed launch. Exit before hitting -30% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 1245,
-    "wins": 641,
-    "losses": 604,
+    "total": 1247,
+    "wins": 642,
+    "losses": 605,
     "win_rate_pct": 51.5,
-    "total_pnl_sol": -1.812158,
-    "avg_pnl_pct": 40.97,
+    "total_pnl_sol": -1.811717,
+    "avg_pnl_pct": 40.95,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 1,
-    "today_realized_sol": -0.00769,
-    "today_target_pct": -1.9,
+    "today_trades": 3,
+    "today_realized_sol": -0.007249,
+    "today_target_pct": -1.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 641,
-      "loss_count": 604,
+      "win_count": 642,
+      "loss_count": 605,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-29T11:22:26.536189+00:00",
+  "last_llm_brief_at": "2026-08-29T11:25:01.655742+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "869nMZoZyK234A7yhyhSfM27NFQkRzMs3jL4bTumpump": {
-      "price_usd": 1.2223957670937707e-05,
+      "price_usd": 5.965741968777615e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3276.7442037937,
-      "volume_h24": 15190.44,
+      "liquidity_usd": 1352.21812609224,
+      "volume_h24": 31142.87,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 31.644077294
+      "real_sol_reserves": 13.049779252
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"

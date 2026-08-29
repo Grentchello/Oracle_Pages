@@ -8860,3 +8860,6 @@
 ## [2026-08-29 11:22 UTC] observe | LLM call failed: llm call failed
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-08-29 11:25 UTC] sell | [FULL][LLM] $Spiky at $5.96574e-06 | P&L: -19.0%
+- **Reasoning:** Down 19% in just 6 minutes on bonding curve with only $1.3k liquidity. No recovery signal, rapid decline indicates failed launch. Exit before hitting -30% hard stop.
+
