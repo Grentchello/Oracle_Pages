@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.066308,
+  "balance_sol": 0.075421,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "8xuUP6sjXYMWe9d4nx8kn2QNyGuBzf1CSJQc2XF2pump": {
       "symbol": "Heist",
       "name": "The Chicken Heist",
-      "amount": 210448.06973162014,
+      "amount": 78918.02614935755,
       "entry_price_usd": 4.93185801762692e-06,
-      "entry_sol_spent": 0.01,
+      "entry_sol_spent": 0.00375,
       "entry_time": "2026-08-29T12:18:09.021893+00:00",
       "entry_usd_value": 2.0758,
       "entry_signals": {
@@ -21276,25 +21276,47 @@
       "pnl_pct": 21.9,
       "exit_reason": "LLM: sell_half — Up 21.9% in minutes on bonding curve with only $1.3k pool — thin liquidity means volatility cuts both ways. Locking half the gain while letting the ru",
       "partial": true
+    },
+    {
+      "mint": "8xuUP6sjXYMWe9d4nx8kn2QNyGuBzf1CSJQc2XF2pump",
+      "symbol": "Heist",
+      "name": "The Chicken Heist",
+      "amount_sold": 52612.017432905035,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-08-29T12:18:09.021893+00:00",
+      "exit_time": "2026-08-29T12:21:43.027587+00:00",
+      "entry_price_usd": 4.93185801762692e-06,
+      "exit_price_usd": 7.207308935266906e-06,
+      "entry_sol_for_chunk": 0.0025,
+      "exit_sol_received": 0.003645,
+      "pnl_sol": 0.001145,
+      "pnl_pct": 46.14,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "8xuUP6sjXYMWe9d4nx8kn2QNyGuBzf1CSJQc2XF2pump",
+      "symbol": "Heist",
+      "name": "The Chicken Heist",
+      "amount_sold": 78918.02614935755,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-29T12:18:09.021893+00:00",
+      "exit_time": "2026-08-29T12:22:27.546855+00:00",
+      "entry_price_usd": 4.93185801762692e-06,
+      "exit_price_usd": 7.207308935266906e-06,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.005468,
+      "pnl_sol": 0.001718,
+      "pnl_pct": 46.14,
+      "exit_reason": "LLM: sell_half — Heist up 46% in 6min on bonding curve with only $1.8k pool — locking half the gain now while keeping runner for potential continuation",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-29T12:20:39.205540+00:00",
+  "last_updated": "2026-08-29T12:22:27.861511+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.92,
-  "portfolio_value_usd": 7.93,
+  "last_sol_price_usd": 104.028,
+  "portfolio_value_usd": 8.24,
   "recent_decisions": [
-    {
-      "time": "2026-08-29 11:20 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $Spiky at $1.2224e-05 | P&L: +65.9%",
-      "reason": "Auto take-profit at +65.9%"
-    },
-    {
-      "time": "2026-08-29 11:22 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-29 11:25 UTC",
       "action": "sell",
@@ -21402,40 +21424,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Heist at $6.01206e-06 | P&L: +21.9%",
       "reason": "Up 21.9% in minutes on bonding curve with only $1.3k pool — thin liquidity means volatility cuts both ways. Locking half the gain while letting the runner ride."
+    },
+    {
+      "time": "2026-08-29 12:21 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Heist at $7.20731e-06 | P&L: +46.1%",
+      "reason": "Auto take-profit at +46.1%"
+    },
+    {
+      "time": "2026-08-29 12:22 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Heist at $7.20731e-06 | P&L: +46.1%",
+      "reason": "Heist up 46% in 6min on bonding curve with only $1.8k pool — locking half the gain now while keeping runner for potential continuation"
     }
   ],
   "trade_stats": {
-    "total": 1250,
-    "wins": 643,
+    "total": 1252,
+    "wins": 645,
     "losses": 607,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.823682,
-    "avg_pnl_pct": 40.81,
+    "win_rate_pct": 51.5,
+    "total_pnl_sol": -1.820819,
+    "avg_pnl_pct": 40.82,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 6,
-    "today_realized_sol": -0.019214,
-    "today_target_pct": -4.8,
+    "today_trades": 8,
+    "today_realized_sol": -0.016351,
+    "today_target_pct": -4.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 643,
+      "win_count": 645,
       "loss_count": 607,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-29T12:20:38.868322+00:00",
+  "last_llm_brief_at": "2026-08-29T12:22:27.546819+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "8xuUP6sjXYMWe9d4nx8kn2QNyGuBzf1CSJQc2XF2pump": {
-      "price_usd": 6.012055908037905e-06,
+      "price_usd": 7.207308935266906e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1366.97780750832,
-      "volume_h24": 14913.8,
+      "liquidity_usd": 1791.8819284119843,
+      "volume_h24": 16731.66,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 13.154135946
+      "real_sol_reserves": 17.224996428
     }
   },
   "_daily_pnl_reset": "manually reset to test bot"
