@@ -23,6 +23,9 @@ import threading
 from datetime import datetime, timezone
 from pathlib import Path
 
+# Add bot directory to path for gmgn_client import
+sys.path.insert(0, str(Path(__file__).parent))
+
 # === Paths ===
 SCRIPT_DIR = Path(__file__).parent.resolve()
 WORK_DIR = SCRIPT_DIR.parent
@@ -592,6 +595,7 @@ Most memecoin traders hold for seconds to minutes. The fastest money is in fresh
 - Position size 0.05 SOL ($5 per position, halved from 0.1 in v7)
 - Viability gate (v8.1, from CoinCLIP paper arXiv:2412.07591): description ≥50 chars AND (twitter OR liquidity ≥$3k). Tokens failing this filter are SKIPPED automatically — LLM cannot override.
 - Fragility gate (v8.2, from ME2F paper arXiv:2512.00377): blocklist of political/celebrity keywords (trump, musk, biden, melania, libra, kanye, putin, etc.). ME2F found these are most fragile (whale concentration 90%+, sentiment amplification 20%+). LLM cannot override.
+- GMGN fragility gate (v8.3, real-time ME2F evaluation): calls GMGN API to fetch top_10_holder_rate (whale concentration), smart_wallets, renowned_wallets, rug_ratio, creator_status, bot/rat/bundler activity. Computes ME2F-style fragility score (0-1). If score >=0.5 (HIGH/EXTREME), token is REJECTED. LLM cannot override.
 
 **Your job:**
 1. **SOLD POSITIONS — when do you have discretion?** Only on positions NOT yet at TP thresholds. If bot already auto-took-profit, no action needed.
@@ -1255,6 +1259,26 @@ def main():
             if matched_kw:
                 log(f"FRAGILITY GATE: ${token.get('symbol')} rejected — matches '{matched_kw}' (ME2F: political/celebrity = high fragility)")
                 continue
+            # === GMGN ME2F fragility evaluation (real whale/concentration data) ===
+            # Uses GMGN API (gmgn_cc06618c6bab4a565da3d1e266fa3713) to fetch:
+            # - top_10_holder_rate (whale concentration = WDS from ME2F)
+            # - smart_wallets / renowned_wallets (smart money signals)
+            # - rug_ratio, creator_status, bot/rat/bundler activity
+            # Only run for tokens that pass initial filters (rate limited)
+            try:
+                fragility = gmgn_client.evaluate_fragility(target_mint)
+                if fragility.get("error"):
+                    log(f"GMGN ERROR for ${token.get('symbol')}: {fragility['error']}")
+                elif fragility.get("fragile"):
+                    log(f"GMGN FRAGILITY GATE: ${token.get('symbol')} rejected — {fragility['level']} fragility ({fragility['score']}): {', '.join(fragility['signals'][:2])}")
+                    continue
+                else:
+                    log(f"GMGN OK: ${token.get('symbol')} fragility={fragility['score']} ({fragility['level']}) — {', '.join(fragility['signals'][:3])}")
+            except ImportError:
+                log("GMGN client not available (import failed)")
+            except Exception as e:
+                log(f"GMGN fragility check failed: {e}")
+
             # Dedup by symbol within tick — LLM sometimes picks same mint twice
             existing_syms = {p.get("symbol") for p in state.get("positions", {}).values()}
             if token.get("symbol") in existing_syms:
