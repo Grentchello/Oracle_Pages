@@ -8980,3 +8980,6 @@
 ## [2026-08-29 13:27 UTC] sell | [FULL][LLM] $FEDORA at $2.99813e-06 | P&L: -0.0%
 - **Reasoning:** FEDORA flat after 6 minutes with only $51 pool liquidity and 4% share — illiquid bonding curve risk, freeing slot for fresh attention play
 
+## [2026-08-29 13:41 UTC] buy | [LLM] $DОGGO at $9.99064e-06, spent 0.02 SOL
+- **Reasoning:** $DОGGO has a clear viral narrative: 'zero taxes, community governance, playful approach to Web3' — strong meme-first utility angle on Solana. Fresh launch at $10k mcap with dedicated X account (doggosol_now) driving attention. Viability gate passes (desc ≥50 chars + twitter). High alpha potential in first hour.
+
