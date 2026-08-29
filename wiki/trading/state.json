@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.061698,
+  "balance_sol": 0.08152,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FjAVJyTYZTM7M3d68b8zL3sDAN33i29tJX57N8Wjpump": {
-      "symbol": "SOLTCG",
-      "name": "SOL TCG",
-      "amount": 654023.3512148943,
-      "entry_price_usd": 3.169e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-08-29T12:46:38.454607+00:00",
-      "entry_usd_value": 2.0726,
-      "entry_signals": {
-        "liquidity_usd": 127.93827168425999,
-        "volume_24h_usd": 142.75,
-        "market_cap_usd": 3130.245351600125,
-        "ath_market_cap_usd": 3161.6093336553786,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.234567902,
-        "description": "I love TCGs. I love Solana. I absolutely love memecoins. So I thought… why not put all three together and create a memecoin? Would honestly love to see someone take the concept and somehow make it a real-life thing lol. The funny part would be people creating their own cards around the Solana world ",
-        "twitter": "https://x.com/briiid_/status/2093678950278893873?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21446,19 +21423,30 @@
       "pnl_pct": -7.59,
       "exit_reason": "LLM: sell_all — Down -7.6% in 6 minutes on bonding curve with $0 pool liquidity — impossible to exit cleanly if it rugs. The 615M% share display is a bug. Cut losses ",
       "partial": false
+    },
+    {
+      "mint": "FjAVJyTYZTM7M3d68b8zL3sDAN33i29tJX57N8Wjpump",
+      "symbol": "SOLTCG",
+      "name": "SOL TCG",
+      "amount_sold": 654023.3512148943,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-29T12:46:38.454607+00:00",
+      "exit_time": "2026-08-29T13:04:46.110768+00:00",
+      "entry_price_usd": 3.169e-06,
+      "exit_price_usd": 3.1386440787677514e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019822,
+      "pnl_sol": -0.000178,
+      "pnl_pct": -0.96,
+      "exit_reason": "LLM: sell_all — SOLTCG is -1% after 18min on bonding curve with only $128 pool liquidity (2% our share). Marked STALE at 15min with no upside momentum. Illiquid bondi",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-29T13:02:20.375103+00:00",
+  "last_updated": "2026-08-29T13:04:46.405031+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.66,
-  "portfolio_value_usd": 8.47,
+  "last_sol_price_usd": 103.56,
+  "portfolio_value_usd": 8.44,
   "recent_decisions": [
-    {
-      "time": "2026-08-29 12:12 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-29 12:15 UTC",
       "action": "observe",
@@ -21572,35 +21560,41 @@
       "action": "observe",
       "details": "LLM call failed: llm call failed",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-08-29 13:04 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SOLTCG at $3.13864e-06 | P&L: -1.0%",
+      "reason": "SOLTCG is -1% after 18min on bonding curve with only $128 pool liquidity (2% our share). Marked STALE at 15min with no upside momentum. Illiquid bonding curve position blocks a slot — exit to rotate into fresh launch with attention."
     }
   ],
   "trade_stats": {
-    "total": 1260,
+    "total": 1261,
     "wins": 652,
-    "losses": 608,
+    "losses": 609,
     "win_rate_pct": 51.7,
-    "total_pnl_sol": -1.818291,
-    "avg_pnl_pct": 41.22,
+    "total_pnl_sol": -1.818469,
+    "avg_pnl_pct": 41.19,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 16,
-    "today_realized_sol": -0.013823,
+    "today_trades": 17,
+    "today_realized_sol": -0.014001,
     "today_target_pct": -3.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 652,
-      "loss_count": 608,
+      "loss_count": 609,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-29T13:02:20.374923+00:00",
+  "last_llm_brief_at": "2026-08-29T13:04:46.110727+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FjAVJyTYZTM7M3d68b8zL3sDAN33i29tJX57N8Wjpump": {
-      "price_usd": 3.141674828167875e-06,
+      "price_usd": 3.1386440787677514e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 127.97530872131999,
+      "liquidity_usd": 127.85185193112,
       "volume_h24": 157.59,
       "dex_id": "pumpfun",
       "source": "bonding-curve",

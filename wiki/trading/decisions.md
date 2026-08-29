@@ -8962,3 +8962,6 @@
 ## [2026-08-29 13:02 UTC] observe | LLM call failed: llm call failed
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-08-29 13:04 UTC] sell | [FULL][LLM] $SOLTCG at $3.13864e-06 | P&L: -1.0%
+- **Reasoning:** SOLTCG is -1% after 18min on bonding curve with only $128 pool liquidity (2% our share). Marked STALE at 15min with no upside momentum. Illiquid bonding curve position blocks a slot — exit to rotate into fresh launch with attention.
+
