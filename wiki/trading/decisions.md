@@ -9199,3 +9199,6 @@
 ## [2026-08-29 22:46 UTC] observe | LLM call failed: llm call failed
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-08-29 22:48 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
