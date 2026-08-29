@@ -8899,3 +8899,9 @@
 ## [2026-08-29 12:09 UTC] buy | [LLM] $Angada at $1.51e-05, spent 0.02 SOL
 - **Reasoning:** $Angada has highest mcap ($17.7k) among fresh launches with 37% bond complete — further along curve means less early volatility risk. Twitter link provides attention signal. AI/meme hybrid narrative could attract speculative flow. Risk: description is just a link, but twitter presence passes viability gate.
 
+## [2026-08-29 12:10 UTC] sell | [hard-stop] $Angada closed at $5.5003e-06 | P&L: -63.6%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-29 12:12 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
