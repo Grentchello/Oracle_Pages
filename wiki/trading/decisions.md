@@ -8920,3 +8920,9 @@
 ## [2026-08-29 12:22 UTC] sell | [PARTIAL][LLM] $Heist at $7.20731e-06 | P&L: +46.1%
 - **Reasoning:** Heist up 46% in 6min on bonding curve with only $1.8k pool — locking half the gain now while keeping runner for potential continuation
 
+## [2026-08-29 12:23 UTC] sell | [TP +30% (25%)] $Heist at $9.01698e-06 | P&L: +82.8%
+- **Reasoning:** Auto take-profit at +82.8%
+
+## [2026-08-29 12:24 UTC] sell | [PARTIAL][LLM] $Heist at $9.01698e-06 | P&L: +82.8%
+- **Reasoning:** Heist up 82.8% in 6 minutes — past +30% auto-TP (25% sold) and approaching +100% level. Lock half the gains now while letting remainder ride the bonding curve momentum.
+
