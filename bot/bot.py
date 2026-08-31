@@ -415,7 +415,7 @@ def call_llm(prompt, max_seconds=LLM_TIMEOUT_SECONDS):
              "--max-turns", "1", "--run-budget", str(max_seconds),
              "--ignore-rules", "--safe-mode",
              "-t", "terminal",
-             "-m", "nemotron-3-ultra-free"],
+             "-m", "opencode_zen/mimo-v2.5-free"],
             capture_output=True, text=True, timeout=max_seconds + 30,
         )
         if result.returncode != 0:

@@ -10576,3 +10576,6 @@
 ## [2026-08-31 06:09 UTC] sell | [hard-stop] $MACRODUCK closed at $2.90505e-06 | P&L: -60.4%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-31 06:12 UTC] sell | [FULL][LLM] $UBRAC at $2.86831e-06 | P&L: +0.1%
+- **Reasoning:** Pool=$0, our share=999987147% — we ARE the liquidity. No buyers exist. This token is dead and consuming a position slot for zero value. Exit and free the slot.
+

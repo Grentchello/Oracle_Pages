@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.45721,
+  "balance_sol": 0.47721,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HpLJ3XRKgaxeiUBbsr9qkUfdtqyd4JVia8b7P88qpump": {
-      "symbol": "UBRAC",
-      "name": "Unbothered Raccoon",
-      "amount": 715324.1391949413,
-      "entry_price_usd": 2.8641561045399836e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-08-31T06:08:47.294435+00:00",
-      "entry_usd_value": 2.0488,
-      "entry_signals": {
-        "liquidity_usd": 50.10152770896,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2866.2374613556303,
-        "ath_market_cap_usd": 2864.245574469059,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.489081684,
-        "description": "An unbothered raccoon thriving in the trash while the world loses its mind. No stress, just vibes. 🦝",
-        "twitter": "https://x.com/ridsy36926tsby",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21769,19 +21746,30 @@
       "pnl_pct": -60.39,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "HpLJ3XRKgaxeiUBbsr9qkUfdtqyd4JVia8b7P88qpump",
+      "symbol": "UBRAC",
+      "name": "Unbothered Raccoon",
+      "amount_sold": 715324.121311608,
+      "fraction_sold": 0.9999999749996787,
+      "entry_time": "2026-08-31T06:08:47.294435+00:00",
+      "exit_time": "2026-08-31T06:12:41.143828+00:00",
+      "entry_price_usd": 2.8641561045399836e-06,
+      "exit_price_usd": 2.868313140918155e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.02,
+      "pnl_sol": -0.0,
+      "pnl_pct": 0.15,
+      "exit_reason": "LLM: sell_all — Pool=$0, our share=999987147% — we ARE the liquidity. No buyers exist. This token is dead and consuming a position slot for zero value. Exit and free ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-31T06:10:38.141282+00:00",
+  "last_updated": "2026-08-31T06:12:41.449183+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.55,
-  "portfolio_value_usd": 48.94,
+  "last_sol_price_usd": 102.59,
+  "portfolio_value_usd": 48.96,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 05:20 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $DOOMKEY at $2.85489e-06 | P&L: -1.3%",
-      "reason": "DOOMKEY is flat-slightly-down after 12 min on bonding curve with no real pool yet, share% shows tiny position not yet migrated — narrative unclear (Doom key?), no X link provided, and capital is locked. Rotate into fresh launches with actual attention signals."
-    },
     {
       "time": "2026-08-31 05:21 UTC",
       "action": "buy",
@@ -21895,47 +21883,42 @@
       "action": "sell",
       "details": "[hard-stop] $MACRODUCK closed at $2.90505e-06 | P&L: -60.4%",
       "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-31 06:12 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $UBRAC at $2.86831e-06 | P&L: +0.1%",
+      "reason": "Pool=$0, our share=999987147% — we ARE the liquidity. No buyers exist. This token is dead and consuming a position slot for zero value. Exit and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 1279,
+    "total": 1280,
     "wins": 656,
-    "losses": 623,
-    "win_rate_pct": 51.3,
+    "losses": 624,
+    "win_rate_pct": 51.2,
     "total_pnl_sol": -1.855435,
-    "avg_pnl_pct": 40.65,
+    "avg_pnl_pct": 40.62,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 16,
+    "today_trades": 17,
     "today_realized_sol": -0.02279,
     "today_target_pct": -5.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 656,
-      "loss_count": 623,
+      "loss_count": 624,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-31T06:10:38.141241+00:00",
+  "last_llm_brief_at": "2026-08-31T06:12:41.143750+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "GvpvFnxoYrR57uAyvJMCreaZqR9CZYiaXuifGsJpump": {
-      "price_usd": 2.905051995783246e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 20.2438000947,
-      "volume_h24": 7685.56,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.197404194
-    },
     "HpLJ3XRKgaxeiUBbsr9qkUfdtqyd4JVia8b7P88qpump": {
-      "price_usd": 2.8671947811790304e-06,
+      "price_usd": 2.868313140918155e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.051e-07,
-      "volume_h24": 50.2,
+      "liquidity_usd": 2.0518000000000001e-07,
+      "volume_h24": 100.41,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
