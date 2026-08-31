@@ -368,6 +368,31 @@ async def handle_output(request):
         return web.Response(status=404)
     return web.FileResponse(filepath)
 
+async def handle_outputs_page(request):
+    """Serve the outputs gallery HTML."""
+    html = (Path(__file__).parent / "outputs_gallery.html").read_text()
+    return web.Response(text=html, content_type="text/html")
+
+async def handle_list_outputs(request):
+    """List all generated images."""
+    files = sorted(OUTPUT_DIR.glob("*.png"), key=lambda f: f.stat().st_mtime, reverse=True)
+    result = []
+    for f in files:
+        # Try to find the prompt from active_jobs
+        prompt = ""
+        for jid, job in active_jobs.items():
+            if job.get("image_path") and Path(job["image_path"]).name == f.name:
+                prompt = job.get("prompt", "")
+                break
+        result.append({
+            "filename": f.name,
+            "url": f"/outputs/{f.name}",
+            "size_kb": round(f.stat().st_size / 1024),
+            "created": f.stat().st_mtime,
+            "prompt": prompt,
+        })
+    return web.json_response(result)
+
 async def handle_comfyui_status(request):
     """Check ComfyUI server status."""
     result = {"running": comfyui_ready, "pid": comfyui_process.pid if comfyui_process else None}
@@ -400,6 +425,8 @@ def main():
     app.router.add_post("/api/generate", handle_generate)
     app.router.add_get("/api/status/{prompt_id}", handle_status)
     app.router.get("/outputs/{filename}", handle_output)
+    app.router.add_get("/gallery", handle_outputs_page)
+    app.router.add_get("/api/outputs", handle_list_outputs)
     app.router.add_get("/api/comfyui", handle_comfyui_status)
     app.router.add_post("/api/comfyui/start", handle_start_comfyui)
     app.router.add_post("/api/comfyui/stop", handle_stop_comfyui)
