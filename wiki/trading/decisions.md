@@ -10582,3 +10582,6 @@
 ## [2026-08-31 06:14 UTC] buy | [LLM] $ANGRY at $3.55493e-06, spent 0.02 SOL
 - **Reasoning:** $ANGRY (Angry Cat) — viral cat video narrative with a clear hook ('cat got angry at food machine went viral globally'). Animal memes are attention magnets. Has both twitter and a descriptive story. At $3.5k mcap and 0.1min age, this is ultra-early with asymmetric upside if the narrative catches.
 
+## [2026-08-31 06:16 UTC] sell | [FULL][LLM] $ANGRY at $2.86999e-06 | P&L: -19.3%
+- **Reasoning:** Down 19.3% with pool=$0 and corrupted share data — this token appears rugged or dead. Cut the loss before it's unrecoverable.
+

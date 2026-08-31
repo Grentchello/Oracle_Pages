@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.45721,
+  "balance_sol": 0.473357,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4nasGimEYPG52AbXyZ1JRUVeysKfncxyfVUFvcQFpump": {
-      "symbol": "ANGRY",
-      "name": "Angry Cat",
-      "amount": 577507.6367084819,
-      "entry_price_usd": 3.5549313454989453e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-08-31T06:14:49.959483+00:00",
-      "entry_usd_value": 2.053,
-      "entry_signals": {
-        "liquidity_usd": 18.297078262150002,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3541.624281140379,
-        "ath_market_cap_usd": 3546.2111144926457,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.178247231,
-        "description": "The cat that got angry when the mama machine didn't dispense food at the right time went viral globally",
-        "twitter": "https://x.com/ZamHaberAjans/status/2093083112389349701?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21786,19 +21763,30 @@
       "pnl_pct": 0.15,
       "exit_reason": "LLM: sell_all — Pool=$0, our share=999987147% — we ARE the liquidity. No buyers exist. This token is dead and consuming a position slot for zero value. Exit and free ",
       "partial": false
+    },
+    {
+      "mint": "4nasGimEYPG52AbXyZ1JRUVeysKfncxyfVUFvcQFpump",
+      "symbol": "ANGRY",
+      "name": "Angry Cat",
+      "amount_sold": 577507.5383501486,
+      "fraction_sold": 0.999999829684792,
+      "entry_time": "2026-08-31T06:14:49.959483+00:00",
+      "exit_time": "2026-08-31T06:16:52.806607+00:00",
+      "entry_price_usd": 3.5549313454989453e-06,
+      "exit_price_usd": 2.869990681387838e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016147,
+      "pnl_sol": -0.003853,
+      "pnl_pct": -19.27,
+      "exit_reason": "LLM: sell_all — Down 19.3% with pool=$0 and corrupted share data — this token appears rugged or dead. Cut the loss before it's unrecoverable.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-31T06:14:49.959663+00:00",
+  "last_updated": "2026-08-31T06:16:53.322844+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 102.65,
-  "portfolio_value_usd": 48.99,
+  "portfolio_value_usd": 48.59,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 05:25 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $bitart at $2.87307e-06 | P&L: -5.9%",
-      "reason": "$bitart is down -5.9% after only 6 minutes, showing no bounce momentum. Holding a -5.9% bag with no clear catalyst wastes a precious position slot when there are multiple fresh launches competing for attention. Cut early, rotate capital into higher-attention fresh tokens."
-    },
     {
       "time": "2026-08-31 05:32 UTC",
       "action": "buy",
@@ -21912,30 +21900,48 @@
       "action": "buy",
       "details": "[LLM] $ANGRY at $3.55493e-06, spent 0.02 SOL",
       "reason": "$ANGRY (Angry Cat) — viral cat video narrative with a clear hook ('cat got angry at food machine went viral globally'). Animal memes are attention magnets. Has both twitter and a descriptive story. At $3.5k mcap and 0.1min age, this is ultra-early with asymmetric upside if the narrative catches."
+    },
+    {
+      "time": "2026-08-31 06:16 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ANGRY at $2.86999e-06 | P&L: -19.3%",
+      "reason": "Down 19.3% with pool=$0 and corrupted share data — this token appears rugged or dead. Cut the loss before it's unrecoverable."
     }
   ],
   "trade_stats": {
-    "total": 1280,
+    "total": 1281,
     "wins": 656,
-    "losses": 624,
+    "losses": 625,
     "win_rate_pct": 51.2,
-    "total_pnl_sol": -1.855435,
-    "avg_pnl_pct": 40.62,
+    "total_pnl_sol": -1.859288,
+    "avg_pnl_pct": 40.57,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 17,
-    "today_realized_sol": -0.02279,
-    "today_target_pct": -5.7,
+    "today_trades": 18,
+    "today_realized_sol": -0.026643,
+    "today_target_pct": -6.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 656,
-      "loss_count": 624,
+      "loss_count": 625,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-31T06:14:48.069572+00:00",
+  "last_llm_brief_at": "2026-08-31T06:16:52.806530+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "4nasGimEYPG52AbXyZ1JRUVeysKfncxyfVUFvcQFpump": {
+      "price_usd": 2.869990681387838e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.12915e-06,
+      "volume_h24": 1330.29,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.1e-08
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
