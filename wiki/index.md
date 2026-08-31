@@ -56,9 +56,21 @@ The latest daily journal entry:
 ## Live systems
 
 - ✅ **[Tasks](tasks/index.md)** — private todo list (password-protected)
-- ⛔ **[Memecoin Trading Dashboard](trading/index.html)** — *HALTED*. Lost 88.5% over 1223 trades. State preserved.
+- 🟢 **[Memecoin Trading Dashboard](trading/index.html)** — ACTIVE (v8.3 conservative mode, CoinCLIP + ME2F + GMGN fragility gates)
 - 📊 **[Trading Pairs Bot](projects/trading-pairs/index.md)** — multi-pair multi-strategy (SUPER/ROC/BB/DIR) on BTC/ETH/SOL/BNB/XRP/ARB
 - 🖼️ **[Wallpapers](_meta/wallpapers.md)** — phone wallpapers scraped from [alisonfriend.com](https://alisonfriend.com/) (36 images, iPhone + Android sizes)
 - **[Workflow docs →](_meta/method.md)**
 
 See the [full daily journal](daily/index.md) for everything.
+
+---
+
+## Free Claude Code (FCC)
+
+Admin UI for configuring free LLM providers (OpenAI, Claude, Hermes, Gemini, etc.):
+
+[Open FCC Admin →](https://calculation-enjoying-ips-unions.trycloudflare.com/admin){ .md-button .md-button--primary }
+
+**What it does:** Free Claude Code proxies 50+ LLM providers through a local server. When Hermes runs out of MiniMax tokens, it automatically falls back to FCC for free models (OpenCode Zen, GLM, etc.).
+
+**Status:** `opencode_zen/mimo-v2.5-free` active. No auth required. Ephemeral URL (restarting the tunnel gives a new URL).
