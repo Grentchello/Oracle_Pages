@@ -109,3 +109,5 @@ No edits happen here — all updates flow from `oracle_Vault`.
 <!-- ME2F fragility research -->
 
 <!-- GMGN API integration v8.3 -->
+
+<!-- v8.3 unhault: bot ACTIVE, balance topped to 0.5 SOL -->
