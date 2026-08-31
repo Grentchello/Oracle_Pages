@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.480339,
+  "balance_sol": 0.501109,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BWZfuMj33n1jkFPb7Ng8LcCgEJdFZMLZebQ6HKZEpump": {
-      "symbol": "SHIH",
-      "name": "Shih Tzu Crypto",
-      "amount": 710063.4768661896,
-      "entry_price_usd": 2.892699127499376e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-08-31T05:51:57.235486+00:00",
-      "entry_usd_value": 2.0540000000000003,
-      "entry_signals": {
-        "liquidity_usd": 70.3504339538,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2886.190163413298,
-        "ath_market_cap_usd": 2895.0256800595653,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.685009094,
-        "description": "Be part of the cutest crypto community on the blockchain!",
-        "twitter": "https://x.com/shihtzu_crypto",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21718,19 +21695,30 @@
       "pnl_pct": -25.03,
       "exit_reason": "LLM: sell_all — $GUNA is down -25% and approaching the -30% hard stop. Bonding curve only 20% complete, pool $1,516, our share 0% — no reason to hope for a bounce. Cu",
       "partial": false
+    },
+    {
+      "mint": "BWZfuMj33n1jkFPb7Ng8LcCgEJdFZMLZebQ6HKZEpump",
+      "symbol": "SHIH",
+      "name": "Shih Tzu Crypto",
+      "amount_sold": 710063.4768661896,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-31T05:51:57.235486+00:00",
+      "exit_time": "2026-08-31T05:57:11.284805+00:00",
+      "entry_price_usd": 2.892699127499376e-06,
+      "exit_price_usd": 3.0037216843577884e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.02077,
+      "pnl_sol": 0.00077,
+      "pnl_pct": 3.84,
+      "exit_reason": "LLM: sell_all — $SHIH is only +3.8% after 6 minutes, with $70 pool (tiny, illiquid) and 3% of supply — this is a classic stale microcap that will not move. Cut the sl",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-31T05:55:56.000658+00:00",
+  "last_updated": "2026-08-31T05:57:11.536375+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.7,
-  "portfolio_value_usd": 51.38,
+  "last_sol_price_usd": 102.69,
+  "portfolio_value_usd": 51.46,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 04:54 UTC",
-      "action": "buy",
-      "details": "[LLM] $LPAD at $5.06917e-06, spent 0.02 SOL",
-      "reason": "$LPAD (Lolpad) passes viability gate and has the strongest narrative in the batch: a meme launchpad meta-concept ('pair your meme with USDC or a stock like GOOGL, NVDA, SPCX'), real twitter handle @Lolpad_, mcap $5,069 with bond at 20% (graduation imminent). Meta-infra memecoins tend to capture attention from other degens. Position size 0.05 SOL keeps daily loss cap intact even on a full stop."
-    },
     {
       "time": "2026-08-31 04:56 UTC",
       "action": "sell",
@@ -21844,35 +21832,41 @@
       "action": "buy",
       "details": "[LLM] $SHIH at $2.8927e-06, spent 0.02 SOL",
       "reason": "Shih Tzu Crypto — clean pet/cute meta, dedicated X handle, viable description. Low mcap $2.9k with narrative + social = setup for early attention pump."
+    },
+    {
+      "time": "2026-08-31 05:57 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SHIH at $3.00372e-06 | P&L: +3.8%",
+      "reason": "$SHIH is only +3.8% after 6 minutes, with $70 pool (tiny, illiquid) and 3% of supply — this is a classic stale microcap that will not move. Cut the slot to free capital for fresher attention."
     }
   ],
   "trade_stats": {
-    "total": 1276,
-    "wins": 655,
+    "total": 1277,
+    "wins": 656,
     "losses": 621,
-    "win_rate_pct": 51.3,
-    "total_pnl_sol": -1.832306,
-    "avg_pnl_pct": 40.84,
+    "win_rate_pct": 51.4,
+    "total_pnl_sol": -1.831536,
+    "avg_pnl_pct": 40.81,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 13,
-    "today_realized_sol": 0.000339,
-    "today_target_pct": 0.1,
+    "today_trades": 14,
+    "today_realized_sol": 0.001109,
+    "today_target_pct": 0.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 655,
+      "win_count": 656,
       "loss_count": 621,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-31T05:55:55.747326+00:00",
+  "last_llm_brief_at": "2026-08-31T05:57:11.284769+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BWZfuMj33n1jkFPb7Ng8LcCgEJdFZMLZebQ6HKZEpump": {
-      "price_usd": 3.0040141881735797e-06,
+      "price_usd": 3.0037216843577884e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 70.3504339538,
+      "liquidity_usd": 70.34358386286,
       "volume_h24": 70.32,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
