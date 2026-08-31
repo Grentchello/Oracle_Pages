@@ -10483,3 +10483,6 @@
 ## [2026-08-31 04:34 UTC] buy | [LLM] $MALKIN at $1.14303e-05, spent 0.02 SOL
 - **Reasoning:** $MALKIN has the strongest narrative in the batch (cat + city story), real twitter handle, highest mcap ($11k), 33% bonded. Passes viability and fragility gates. Small position to test the attention thesis.
 
+## [2026-08-31 04:35 UTC] buy | [LLM] $PONSGUY at $4.943e-05, spent 0.02 SOL
+- **Reasoning:** $PONSGUY — clearest narrative of the batch ('pons guy' meme), real twitter handle, 42% bonding curve shows traction, $37k mcap leaves room. Only slot available, best shot.
+
