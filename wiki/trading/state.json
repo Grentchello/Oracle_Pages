@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.449296,
+  "balance_sol": 0.45721,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "GvpvFnxoYrR57uAyvJMCreaZqR9CZYiaXuifGsJpump": {
-      "symbol": "MACRODUCK",
-      "name": "MACRODUCK",
-      "amount": 279374.9455776928,
-      "entry_price_usd": 7.333513732820536e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-08-31T06:08:45.995116+00:00",
-      "entry_usd_value": 2.0488,
-      "entry_signals": {
-        "liquidity_usd": 1578.84436331856,
-        "volume_24h_usd": null,
-        "market_cap_usd": 7338.84293214953,
-        "ath_market_cap_usd": 7594.86891442515,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 15.412381524,
-        "description": "creator fees going into the development of the robot",
-        "twitter": "https://x.com/aesposito0/status/2094295575651143726?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "HpLJ3XRKgaxeiUBbsr9qkUfdtqyd4JVia8b7P88qpump": {
       "symbol": "UBRAC",
       "name": "Unbothered Raccoon",
@@ -21774,19 +21752,30 @@
       "pnl_pct": -59.11,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "GvpvFnxoYrR57uAyvJMCreaZqR9CZYiaXuifGsJpump",
+      "symbol": "MACRODUCK",
+      "name": "MACRODUCK",
+      "amount_sold": 279374.9455776928,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-31T06:08:45.995116+00:00",
+      "exit_time": "2026-08-31T06:09:51.310646+00:00",
+      "entry_price_usd": 7.333513732820536e-06,
+      "exit_price_usd": 2.905051995783246e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.007914,
+      "pnl_sol": -0.012086,
+      "pnl_pct": -60.39,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-31T06:08:47.294734+00:00",
+  "last_updated": "2026-08-31T06:10:38.141282+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.44,
-  "portfolio_value_usd": 50.12,
+  "last_sol_price_usd": 102.55,
+  "portfolio_value_usd": 48.94,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 05:13 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $DOOMKEY at $2.84858e-06 | P&L: -1.6%",
-      "reason": "DOOMKEY is at -1.6% after 6 minutes with our share at 45% of a tiny $4 pool — that's massive concentration risk and no momentum signal. Pool this thin means any sell will crater price, and the bot's >15min stale flag is imminent. Cut the dead weight and free the slot for something with attention."
-    },
     {
       "time": "2026-08-31 05:20 UTC",
       "action": "sell",
@@ -21900,40 +21889,57 @@
       "action": "buy",
       "details": "[LLM] $UBRAC at $2.86416e-06, spent 0.02 SOL",
       "reason": "$UBRAC (Unbothered Raccoon) — relatable viral narrative ('thriving in trash while world loses mind'), $2.8k mcap with X presence, has both twitter AND meaningful description (viability gate passed cleanly). Memecoin attention plays on relatable vibes."
+    },
+    {
+      "time": "2026-08-31 06:09 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $MACRODUCK closed at $2.90505e-06 | P&L: -60.4%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1278,
+    "total": 1279,
     "wins": 656,
-    "losses": 622,
+    "losses": 623,
     "win_rate_pct": 51.3,
-    "total_pnl_sol": -1.843349,
-    "avg_pnl_pct": 40.73,
+    "total_pnl_sol": -1.855435,
+    "avg_pnl_pct": 40.65,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 15,
-    "today_realized_sol": -0.010704,
-    "today_target_pct": -2.7,
+    "today_trades": 16,
+    "today_realized_sol": -0.02279,
+    "today_target_pct": -5.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 656,
-      "loss_count": 622,
+      "loss_count": 623,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-31T06:08:44.767503+00:00",
+  "last_llm_brief_at": "2026-08-31T06:10:38.141241+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "6KkCJDRbmC229ir7Dw2YaDKzTFVyENnxqiKAhcmHpump": {
-      "price_usd": 2.8811411168839135e-06,
+    "GvpvFnxoYrR57uAyvJMCreaZqR9CZYiaXuifGsJpump": {
+      "price_usd": 2.905051995783246e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 9.11868553648,
-      "volume_h24": 9567.3,
+      "liquidity_usd": 20.2438000947,
+      "volume_h24": 7685.56,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.089014892
+      "real_sol_reserves": 0.197404194
+    },
+    "HpLJ3XRKgaxeiUBbsr9qkUfdtqyd4JVia8b7P88qpump": {
+      "price_usd": 2.8671947811790304e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2.051e-07,
+      "volume_h24": 50.2,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

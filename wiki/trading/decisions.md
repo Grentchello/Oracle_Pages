@@ -10573,3 +10573,6 @@
 ## [2026-08-31 06:08 UTC] buy | [LLM] $UBRAC at $2.86416e-06, spent 0.02 SOL
 - **Reasoning:** $UBRAC (Unbothered Raccoon) — relatable viral narrative ('thriving in trash while world loses mind'), $2.8k mcap with X presence, has both twitter AND meaningful description (viability gate passed cleanly). Memecoin attention plays on relatable vibes.
 
+## [2026-08-31 06:09 UTC] sell | [hard-stop] $MACRODUCK closed at $2.90505e-06 | P&L: -60.4%
+- **Reasoning:** Hard -30% stop
+
