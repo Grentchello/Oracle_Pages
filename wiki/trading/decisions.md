@@ -10546,3 +10546,6 @@
 ## [2026-08-31 05:37 UTC] sell | [PARTIAL][LLM] $$Bag at $3.00403e-06 | P&L: +290.5%
 - **Reasoning:** Up +290% on a bonding-curve microcap with $97 pool — this is parabolic and could reverse hard. Lock the gain on half; let the rest ride if attention keeps flowing.
 
+## [2026-08-31 05:38 UTC] sell | [hard-stop] $$Bag closed at $9.15248e-09 | P&L: -98.8%
+- **Reasoning:** Hard -30% stop
+

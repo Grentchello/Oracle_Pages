@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.50534,
+  "balance_sol": 0.50537,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "B6yFzwDW7NKjishUrYy8mER6XPWeWoBWHpt5gV8kpump": {
-      "symbol": "$Bag",
-      "name": "BagMan",
-      "amount": 333593.34373374935,
-      "entry_price_usd": 7.692e-07,
-      "entry_sol_spent": 0.0025,
-      "entry_time": "2026-08-31T05:35:16.676028+00:00",
-      "entry_usd_value": 2.0528,
-      "entry_signals": {
-        "liquidity_usd": 302.79347984696,
-        "volume_24h_usd": 395.35,
-        "market_cap_usd": 1506.7550026584029,
-        "ath_market_cap_usd": 6518.96272610605,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.950053389,
-        "description": "You always find it early. You just never hold it. You spot the play. Wait for “confirmation.” It runs without you. BAGMAN doesn’t chase. He held. You weren’t early. You were just stubborn. $BAG",
-        "twitter": "https://x.com/lastbaggg?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21684,19 +21661,30 @@
       "pnl_pct": 290.54,
       "exit_reason": "LLM: sell_half — Up +290% on a bonding-curve microcap with $97 pool — this is parabolic and could reverse hard. Lock the gain on half; let the rest ride if attention k",
       "partial": true
+    },
+    {
+      "mint": "B6yFzwDW7NKjishUrYy8mER6XPWeWoBWHpt5gV8kpump",
+      "symbol": "$Bag",
+      "name": "BagMan",
+      "amount_sold": 333593.34373374935,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-31T05:35:16.676028+00:00",
+      "exit_time": "2026-08-31T05:38:40.617920+00:00",
+      "entry_price_usd": 7.692e-07,
+      "exit_price_usd": 9.152475215549855e-09,
+      "entry_sol_for_chunk": 0.0025,
+      "exit_sol_received": 3e-05,
+      "pnl_sol": -0.00247,
+      "pnl_pct": -98.81,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-31T05:37:36.729276+00:00",
+  "last_updated": "2026-08-31T05:39:06.607806+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.6,
-  "portfolio_value_usd": 52.1,
+  "last_sol_price_usd": 102.41,
+  "portfolio_value_usd": 51.75,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 04:36 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $MALKIN closed at $2.8605e-06 | P&L: -75.0%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-08-31 04:36 UTC",
       "action": "sell",
@@ -21810,40 +21798,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $$Bag at $3.00403e-06 | P&L: +290.5%",
       "reason": "Up +290% on a bonding-curve microcap with $97 pool — this is parabolic and could reverse hard. Lock the gain on half; let the rest ride if attention keeps flowing."
+    },
+    {
+      "time": "2026-08-31 05:38 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $$Bag closed at $9.15248e-09 | P&L: -98.8%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1274,
+    "total": 1275,
     "wins": 655,
-    "losses": 619,
+    "losses": 620,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.824805,
-    "avg_pnl_pct": 41.0,
+    "total_pnl_sol": -1.827275,
+    "avg_pnl_pct": 40.89,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 11,
-    "today_realized_sol": 0.00784,
-    "today_target_pct": 2.0,
+    "today_trades": 12,
+    "today_realized_sol": 0.00537,
+    "today_target_pct": 1.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 655,
-      "loss_count": 619,
+      "loss_count": 620,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-31T05:37:36.428117+00:00",
+  "last_llm_brief_at": "2026-08-31T05:39:06.093092+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "B6yFzwDW7NKjishUrYy8mER6XPWeWoBWHpt5gV8kpump": {
-      "price_usd": 3.0040262760630586e-06,
+      "price_usd": 9.152475215549855e-09,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 96.54179801219999,
-      "volume_h24": 2878.57,
+      "liquidity_usd": 0.43151426395,
+      "volume_h24": 4551.4,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.940953197
+      "real_sol_reserves": 0.004213595
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
