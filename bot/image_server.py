@@ -14,6 +14,7 @@ import sys
 import time
 import uuid
 from pathlib import Path
+import aiohttp
 from aiohttp import web, ClientSession, WSMsgType
 
 COMFYUI_DIR = Path("/opt/data/home/comfy/ComfyUI")
