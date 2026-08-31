@@ -93,3 +93,5 @@ Admin UI for configuring free LLM providers (OpenAI, Claude, Hermes, Gemini, etc
 4. ComfyUI auto-stops after 5 min idle to free ~8 GB RAM
 
 **Features:** Progress bar, generation history, auto lifecycle management
+
+[View All Generated Images →](https://incoming-cowboy-crop-and.trycloudflare.com/gallery){ .md-button }
