@@ -10507,3 +10507,6 @@
 ## [2026-08-31 04:57 UTC] buy | [LLM] $micscoin at $3.79527e-06, spent 0.02 SOL
 - **Reasoning:** $micscoin has a clear narrative (next agent token on Base/Solana, 'Made for Pons'), live twitter account, and reasonable $3.8k mcap at 0.6min — fresh agent-meta attention with real description. Skip fragility/viability gates cleanly.
 
+## [2026-08-31 04:59 UTC] sell | [FULL][LLM] $micscoin at $2.8898e-06 | P&L: -23.9%
+- **Reasoning:** $micscoin is down -23.9% in <1h, approaching the -30% hard stop, and the position is already 6% of a $28 pool — illiquid and likely heading to rug territory. Cut the loss now before the stop triggers worse.
+
