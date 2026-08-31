@@ -10555,3 +10555,6 @@
 ## [2026-08-31 05:44 UTC] sell | [FULL][LLM] $GUNA at $6.39012e-06 | P&L: -25.0%
 - **Reasoning:** $GUNA is down -25% and approaching the -30% hard stop. Bonding curve only 20% complete, pool $1,516, our share 0% — no reason to hope for a bounce. Cut the loss now, free the slot.
 
+## [2026-08-31 05:51 UTC] buy | [LLM] $SHIH at $2.8927e-06, spent 0.02 SOL
+- **Reasoning:** Shih Tzu Crypto — clean pet/cute meta, dedicated X handle, viable description. Low mcap $2.9k with narrative + social = setup for early attention pump.
+
