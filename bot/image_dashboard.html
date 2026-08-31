@@ -168,21 +168,32 @@ async function generate() {
   btn.disabled = true;
   document.getElementById('result').innerHTML = '';
   showProgress(true);
-  setStatus('Submitting...', 'running');
+  setStatus('Starting ComfyUI (may take 30s)...', 'running');
 
+  // Use XMLHttpRequest instead of fetch — more resilient to background tabs
   try {
-    const r = await fetch(`${API}/api/generate`, {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({workflow, prompt})
+    const d = await new Promise((resolve, reject) => {
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', `${API}/api/generate`);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.timeout = 120000; // 2 min timeout for ComfyUI startup
+      xhr.onload = () => {
+        try { resolve(JSON.parse(xhr.responseText)); }
+        catch(e) { reject(new Error('Bad response')); }
+      };
+      xhr.onerror = () => reject(new Error('Network error — are you online?'));
+      xhr.ontimeout = () => reject(new Error('Request timed out (ComfyUI may be starting)'));
+      xhr.send(JSON.stringify({workflow, prompt}));
     });
-    const d = await r.json();
+    
     if (d.error) { setStatus(d.error, 'error'); btn.disabled = false; return; }
     
-    setStatus(`Job submitted (${d.prompt_id.slice(0,8)}...) · CPU generation takes 2-5 min`, 'running');
+    setStatus(`Job queued (${d.prompt_id.slice(0,8)}...) · CPU generation takes 2-5 min`, 'running');
+    // Save job ID to localStorage so we can recover if tab goes to background
+    localStorage.setItem('oracle_last_job', JSON.stringify({id: d.prompt_id, prompt, time: Date.now()}));
     pollJob(d.prompt_id, prompt);
   } catch(e) {
-    setStatus('Network error: ' + e.message, 'error');
+    setStatus(e.message + ' — tap Generate to retry', 'error');
     btn.disabled = false;
   }
 }
@@ -197,9 +208,9 @@ async function pollJob(promptId, promptText) {
   const iv = setInterval(updateProgress, 1000);
 
   while (true) {
-    await new Promise(r => setTimeout(r, 3000));
+    await new Promise(r => setTimeout(r, 5000)); // Poll every 5s (less aggressive on mobile)
     try {
-      const r = await fetch(`${API}/api/status/${promptId}`);
+      const r = await fetch(`${API}/api/status/${promptId}`, {cache: 'no-store'});
       const d = await r.json();
       
       if (d.status === 'done') {
