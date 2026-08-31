@@ -44,19 +44,21 @@ async def start_comfyui():
         stderr=subprocess.DEVNULL,
     )
     
-    # Wait for ready (poll /system_stats)
-    for i in range(60):
+    # Wait for ready (poll /system_stats) — ComfyUI can take 30-60s on CPU
+    for i in range(90):  # up to 3 minutes
         await asyncio.sleep(2)
         try:
             async with ClientSession() as s:
-                async with s.get(f"http://127.0.0.1:{COMFYUI_PORT}/system_stats", timeout=aiohttp.ClientTimeout(total=3)) as r:
+                async with s.get(f"http://127.0.0.1:{COMFYUI_PORT}/system_stats", timeout=aiohttp.ClientTimeout(total=5)) as r:
                     if r.status == 200:
                         comfyui_ready = True
                         print(f"[server] ComfyUI ready (PID {comfyui_process.pid})")
                         return True
         except Exception:
+            if i % 10 == 0:
+                print(f"[server] Waiting for ComfyUI... ({i*2}s)")
             pass
-    print("[server] ComfyUI failed to start")
+    print("[server] ComfyUI failed to start after 3 minutes")
     return False
 
 async def stop_comfyui():
