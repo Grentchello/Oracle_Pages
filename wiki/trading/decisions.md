@@ -10549,3 +10549,6 @@
 ## [2026-08-31 05:38 UTC] sell | [hard-stop] $$Bag closed at $9.15248e-09 | P&L: -98.8%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-31 05:43 UTC] buy | [LLM] $GUNA at $8.52301e-06, spent 0.02 SOL
+- **Reasoning:** $GUNA — Nepal flood survivor is a real viral news moment with attached twitter traction; mcap $8.5k at 0.1min gives early entry on a story with genuine attention, not just abstract hype. Strong narrative + recency = scalp candidate.
+
