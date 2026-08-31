@@ -36,6 +36,17 @@ async def start_comfyui():
     if comfyui_process and comfyui_process.poll() is None:
         return True
     
+    # Check if ComfyUI is already running (from manual start or previous process)
+    try:
+        async with ClientSession() as s:
+            async with s.get(f"http://127.0.0.1:{COMFYUI_PORT}/system_stats", timeout=aiohttp.ClientTimeout(total=3)) as r:
+                if r.status == 200:
+                    comfyui_ready = True
+                    print(f"[server] ComfyUI already running on port {COMFYUI_PORT}")
+                    return True
+    except Exception:
+        pass
+    
     print("[server] Starting ComfyUI...")
     comfyui_process = subprocess.Popen(
         [str(COMFYUI_PY), "main.py", "--listen", "127.0.0.1", "--port", str(COMFYUI_PORT), "--cpu", "--disable-cuda-malloc"],
