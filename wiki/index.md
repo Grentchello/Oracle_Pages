@@ -77,12 +77,19 @@ Admin UI for configuring free LLM providers (OpenAI, Claude, Hermes, Gemini, etc
 
 ---
 
-## ComfyUI (Image Generation)
+## 🔮 Image Generator
 
-[Open ComfyUI →](https://genre-timeline-movers-wise.trycloudflare.com){ .md-button .md-button--primary }
+[Open Image Generator →](https://incoming-cowboy-crop-and.trycloudflare.com){ .md-button .md-button--primary }
 
-**What it does:** Local ComfyUI server running FLUX.2 Klein 4B (quantized GGUF Q8_0, 4 GB) on CPU/RAM. No GPU — uses regular RAM (~8.4 GB).
+**What it does:** Pick a workflow, enter a prompt, ComfyUI auto-starts → generates image → shuts down to save RAM.
 
-**Model:** FLUX.2 Klein 4B Q8_0 + Qwen3-4B Q8 text encoder + FLUX.2 VAE
+**Model:** FLUX.2 Klein 4B (GGUF Q8_0, 4 GB) on CPU · Qwen3-4B text encoder · ~2-5 min per image
 
-**Status:** Running on CPU. Slow but functional. Ephemeral URL (restarting gives new URL).
+**How it works:**
+
+1. Click **Start** (or it auto-starts when you generate)
+2. Type your prompt
+3. Click **Generate** — ComfyUI boots, runs the job, shows the image
+4. ComfyUI auto-stops after 5 min idle to free ~8 GB RAM
+
+**Features:** Progress bar, generation history, auto lifecycle management
