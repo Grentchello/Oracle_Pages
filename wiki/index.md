@@ -79,7 +79,7 @@ Admin UI for configuring free LLM providers (OpenAI, Claude, Hermes, Gemini, etc
 
 ## ComfyUI (Image Generation)
 
-[Open ComfyUI →](https://alberta-comment-cups-hudson.trycloudflare.com){ .md-button .md-button--primary }
+[Open ComfyUI →](https://genre-timeline-movers-wise.trycloudflare.com){ .md-button .md-button--primary }
 
 **What it does:** Local ComfyUI server running FLUX.2 Klein 4B (quantized GGUF Q8_0, 4 GB) on CPU/RAM. No GPU — uses regular RAM (~8.4 GB).
 
