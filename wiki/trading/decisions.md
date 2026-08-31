@@ -10600,3 +10600,6 @@
 ## [2026-08-31 06:36 UTC] buy | [LLM] $🧲 at $5.78576e-06, spent 0.02 SOL
 - **Reasoning:** Only token passing viability gate. $5.8k mcap with 23% bonding curve and active twitter — early attention magnet (literally). Simple viral name. Risk is high on any sub-$6k token but this is where the 5-10x live.
 
+## [2026-08-31 06:37 UTC] sell | [hard-stop] $🧲 closed at $2.92252e-06 | P&L: -49.5%
+- **Reasoning:** Hard -30% stop
+
