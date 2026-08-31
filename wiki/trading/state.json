@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.436969,
+  "balance_sol": 0.50534,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "B6yFzwDW7NKjishUrYy8mER6XPWeWoBWHpt5gV8kpump": {
       "symbol": "$Bag",
       "name": "BagMan",
-      "amount": 2668746.749869995,
+      "amount": 333593.34373374935,
       "entry_price_usd": 7.692e-07,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0025,
       "entry_time": "2026-08-31T05:35:16.676028+00:00",
       "entry_usd_value": 2.0528,
       "entry_signals": {
@@ -21650,25 +21650,47 @@
       "pnl_pct": -26.15,
       "exit_reason": "LLM: sell_all — Held $fat is at -26.2%, only 0.0h old but already close to the -30% hard stop. Bonding curve at 1%, $49 pool, 3% share — thin liquidity and no bounce ",
       "partial": false
+    },
+    {
+      "mint": "B6yFzwDW7NKjishUrYy8mER6XPWeWoBWHpt5gV8kpump",
+      "symbol": "$Bag",
+      "name": "BagMan",
+      "amount_sold": 2001560.062402496,
+      "fraction_sold": 0.75,
+      "entry_time": "2026-08-31T05:35:16.676028+00:00",
+      "exit_time": "2026-08-31T05:36:20.083128+00:00",
+      "entry_price_usd": 7.692e-07,
+      "exit_price_usd": 3.0040262760630586e-06,
+      "entry_sol_for_chunk": 0.015,
+      "exit_sol_received": 0.058604,
+      "pnl_sol": 0.043604,
+      "pnl_pct": 290.54,
+      "exit_reason": "auto-TP +200% (75%)",
+      "partial": true
+    },
+    {
+      "mint": "B6yFzwDW7NKjishUrYy8mER6XPWeWoBWHpt5gV8kpump",
+      "symbol": "$Bag",
+      "name": "BagMan",
+      "amount_sold": 333593.34373374935,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-31T05:35:16.676028+00:00",
+      "exit_time": "2026-08-31T05:37:36.428154+00:00",
+      "entry_price_usd": 7.692e-07,
+      "exit_price_usd": 3.0040262760630586e-06,
+      "entry_sol_for_chunk": 0.0025,
+      "exit_sol_received": 0.009767,
+      "pnl_sol": 0.007267,
+      "pnl_pct": 290.54,
+      "exit_reason": "LLM: sell_half — Up +290% on a bonding-curve microcap with $97 pool — this is parabolic and could reverse hard. Lock the gain on half; let the rest ride if attention k",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-31T05:35:16.676187+00:00",
+  "last_updated": "2026-08-31T05:37:36.729276+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.64,
-  "portfolio_value_usd": 46.9,
+  "last_sol_price_usd": 102.6,
+  "portfolio_value_usd": 52.1,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 04:34 UTC",
-      "action": "buy",
-      "details": "[LLM] $MALKIN at $1.14303e-05, spent 0.02 SOL",
-      "reason": "$MALKIN has the strongest narrative in the batch (cat + city story), real twitter handle, highest mcap ($11k), 33% bonded. Passes viability and fragility gates. Small position to test the attention thesis."
-    },
-    {
-      "time": "2026-08-31 04:35 UTC",
-      "action": "buy",
-      "details": "[LLM] $PONSGUY at $4.943e-05, spent 0.02 SOL",
-      "reason": "$PONSGUY — clearest narrative of the batch ('pons guy' meme), real twitter handle, 42% bonding curve shows traction, $37k mcap leaves room. Only slot available, best shot."
-    },
     {
       "time": "2026-08-31 04:36 UTC",
       "action": "sell",
@@ -21776,40 +21798,52 @@
       "action": "buy",
       "details": "[LLM] $$Bag at $7.692e-07, spent 0.02 SOL",
       "reason": "$$Bag has the strongest meta-narrative of the batch — it's literally a self-aware memecoin about traders who spot early but never hold. That kind of self-referential viral hook is exactly what pumps on CT. Mcap $1.5k, super early (bond 6%), positions size is small enough to risk. Only concern is the 6% bond means liquidity is thin — but for a 0.05 SOL entry that's acceptable."
+    },
+    {
+      "time": "2026-08-31 05:36 UTC",
+      "action": "sell",
+      "details": "[TP +200% (75%)] $$Bag at $3.00403e-06 | P&L: +290.5%",
+      "reason": "Auto take-profit at +290.5%"
+    },
+    {
+      "time": "2026-08-31 05:37 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $$Bag at $3.00403e-06 | P&L: +290.5%",
+      "reason": "Up +290% on a bonding-curve microcap with $97 pool — this is parabolic and could reverse hard. Lock the gain on half; let the rest ride if attention keeps flowing."
     }
   ],
   "trade_stats": {
-    "total": 1272,
-    "wins": 653,
+    "total": 1274,
+    "wins": 655,
     "losses": 619,
-    "win_rate_pct": 51.3,
-    "total_pnl_sol": -1.875676,
-    "avg_pnl_pct": 40.61,
+    "win_rate_pct": 51.4,
+    "total_pnl_sol": -1.824805,
+    "avg_pnl_pct": 41.0,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 9,
-    "today_realized_sol": -0.043031,
-    "today_target_pct": -10.8,
+    "today_trades": 11,
+    "today_realized_sol": 0.00784,
+    "today_target_pct": 2.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 653,
+      "win_count": 655,
       "loss_count": 619,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-31T05:35:15.362646+00:00",
+  "last_llm_brief_at": "2026-08-31T05:37:36.428117+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "8DuBtyMj7bLG81VEPTu5qxQSE53MNECa2jMuwpFjpump": {
-      "price_usd": 2.9613198627435223e-06,
+    "B6yFzwDW7NKjishUrYy8mER6XPWeWoBWHpt5gV8kpump": {
+      "price_usd": 3.0040262760630586e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 48.76201197576,
-      "volume_h24": 2534.92,
+      "liquidity_usd": 96.54179801219999,
+      "volume_h24": 2878.57,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.475078059
+      "real_sol_reserves": 0.940953197
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

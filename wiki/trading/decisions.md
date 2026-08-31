@@ -10540,3 +10540,9 @@
 ## [2026-08-31 05:35 UTC] buy | [LLM] $$Bag at $7.692e-07, spent 0.02 SOL
 - **Reasoning:** $$Bag has the strongest meta-narrative of the batch — it's literally a self-aware memecoin about traders who spot early but never hold. That kind of self-referential viral hook is exactly what pumps on CT. Mcap $1.5k, super early (bond 6%), positions size is small enough to risk. Only concern is the 6% bond means liquidity is thin — but for a 0.05 SOL entry that's acceptable.
 
+## [2026-08-31 05:36 UTC] sell | [TP +200% (75%)] $$Bag at $3.00403e-06 | P&L: +290.5%
+- **Reasoning:** Auto take-profit at +290.5%
+
+## [2026-08-31 05:37 UTC] sell | [PARTIAL][LLM] $$Bag at $3.00403e-06 | P&L: +290.5%
+- **Reasoning:** Up +290% on a bonding-curve microcap with $97 pool — this is parabolic and could reverse hard. Lock the gain on half; let the rest ride if attention keeps flowing.
+
