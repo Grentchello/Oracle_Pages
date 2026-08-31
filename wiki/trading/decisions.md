@@ -10591,3 +10591,6 @@
 ## [2026-08-31 06:29 UTC] sell | [FULL][LLM] $LOTTERY at $2.93285e-06 | P&L: +0.3%
 - **Reasoning:** $LOTTERY has a $33 total pool and we own 6% — our share is ~$2. At +0.3% after 6 minutes with zero momentum, this is dead capital. Free the slot for a fresh attention play.
 
+## [2026-08-31 06:32 UTC] buy | [LLM] $Predator at $1.708e-05, spent 0.02 SOL
+- **Reasoning:** $Predator (To Catch A Predator) — strongest attention signal: real person with TikTok/livestream audience, recognizable edgy narrative, $14.6k mcap at 0.9min old with 36% bond progress. Passes viability (twitter + desc) and no fragility blocklist flags. GMGN fragility check blocked by security policy but no political/celebrity keyword triggers.
+
