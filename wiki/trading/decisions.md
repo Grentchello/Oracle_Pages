@@ -10516,3 +10516,6 @@
 ## [2026-08-31 05:13 UTC] sell | [PARTIAL][LLM] $DOOMKEY at $2.84858e-06 | P&L: -1.6%
 - **Reasoning:** DOOMKEY is at -1.6% after 6 minutes with our share at 45% of a tiny $4 pool — that's massive concentration risk and no momentum signal. Pool this thin means any sell will crater price, and the bot's >15min stale flag is imminent. Cut the dead weight and free the slot for something with attention.
 
+## [2026-08-31 05:20 UTC] sell | [FULL][LLM] $DOOMKEY at $2.85489e-06 | P&L: -1.3%
+- **Reasoning:** DOOMKEY is flat-slightly-down after 12 min on bonding curve with no real pool yet, share% shows tiny position not yet migrated — narrative unclear (Doom key?), no X link provided, and capital is locked. Rotate into fresh launches with actual attention signals.
+
