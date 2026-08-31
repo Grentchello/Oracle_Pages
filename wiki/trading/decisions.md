@@ -10609,3 +10609,6 @@
 ## [2026-08-31 06:42 UTC] sell | [hard-stop] $HVALDIMIR closed at $2.87586e-06 | P&L: -40.4%
 - **Reasoning:** Hard -30% stop
 
+## [2026-08-31 07:57 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
