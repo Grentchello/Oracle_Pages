@@ -10522,3 +10522,6 @@
 ## [2026-08-31 05:21 UTC] buy | [LLM] $bitart at $3.05372e-06, spent 0.02 SOL
 - **Reasoning:** $bitart has a real Solana-native narrative (byte limit upgrade 1232→4096) — the only candidate with substantive description tied to an actual upcoming catalyst. $3k mcap is bottom-of-barrel = where 10x lives, but bond at 3% means very early and illiquid. 0.05 SOL position only. If it doesn't pump within 15 min, exit fast.
 
+## [2026-08-31 05:25 UTC] sell | [FULL][LLM] $bitart at $2.87307e-06 | P&L: -5.9%
+- **Reasoning:** $bitart is down -5.9% after only 6 minutes, showing no bounce momentum. Holding a -5.9% bag with no clear catalyst wastes a precious position slot when there are multiple fresh launches competing for attention. Cut early, rotate capital into higher-attention fresh tokens.
+
