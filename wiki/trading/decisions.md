@@ -10594,3 +10594,9 @@
 ## [2026-08-31 06:32 UTC] buy | [LLM] $Predator at $1.708e-05, spent 0.02 SOL
 - **Reasoning:** $Predator (To Catch A Predator) — strongest attention signal: real person with TikTok/livestream audience, recognizable edgy narrative, $14.6k mcap at 0.9min old with 36% bond progress. Passes viability (twitter + desc) and no fragility blocklist flags. GMGN fragility check blocked by security policy but no political/celebrity keyword triggers.
 
+## [2026-08-31 06:35 UTC] sell | [hard-stop] $Predator closed at $7.95383e-06 | P&L: -53.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-31 06:36 UTC] buy | [LLM] $🧲 at $5.78576e-06, spent 0.02 SOL
+- **Reasoning:** Only token passing viability gate. $5.8k mcap with 23% bonding curve and active twitter — early attention magnet (literally). Simple viral name. Risk is high on any sub-$6k token but this is where the 5-10x live.
+
