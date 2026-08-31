@@ -69,7 +69,7 @@ See the [full daily journal](daily/index.md) for everything.
 
 Admin UI for configuring free LLM providers (OpenAI, Claude, Hermes, Gemini, etc.):
 
-[Open FCC Admin →](https://calculation-enjoying-ips-unions.trycloudflare.com/admin){ .md-button .md-button--primary }
+[Open FCC Admin →](https://rugby-answer-computation-occur.trycloudflare.com/admin){ .md-button .md-button--primary }
 
 **What it does:** Free Claude Code proxies 50+ LLM providers through a local server. When Hermes runs out of MiniMax tokens, it automatically falls back to FCC for free models (OpenCode Zen, GLM, etc.).
 
@@ -79,7 +79,7 @@ Admin UI for configuring free LLM providers (OpenAI, Claude, Hermes, Gemini, etc
 
 ## ComfyUI (Image Generation)
 
-[Open ComfyUI →](https://yrs-config-supporting-sticks.trycloudflare.com){ .md-button .md-button--primary }
+[Open ComfyUI →](https://alberta-comment-cups-hudson.trycloudflare.com){ .md-button .md-button--primary }
 
 **What it does:** Local ComfyUI server running FLUX.2 Klein 4B (quantized GGUF Q8_0, 4 GB) on CPU/RAM. No GPU — uses regular RAM (~8.4 GB).
 
