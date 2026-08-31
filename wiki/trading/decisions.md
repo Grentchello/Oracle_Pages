@@ -10513,3 +10513,6 @@
 ## [2026-08-31 05:08 UTC] buy | [LLM] $DOOMKEY at $2.89366e-06, spent 0.02 SOL
 - **Reasoning:** $DOOMKEY has the strongest narrative in this batch — 'donkey scrolling at 4AM' is a relatable, memeable story with a real twitter account (doomkeyofficial). Bond only 1% though, so high risk — sizing in at 0.05 SOL with tight mental stop.
 
+## [2026-08-31 05:13 UTC] sell | [PARTIAL][LLM] $DOOMKEY at $2.84858e-06 | P&L: -1.6%
+- **Reasoning:** DOOMKEY is at -1.6% after 6 minutes with our share at 45% of a tiny $4 pool — that's massive concentration risk and no momentum signal. Pool this thin means any sell will crater price, and the bot's >15min stale flag is imminent. Cut the dead weight and free the slot for something with attention.
+

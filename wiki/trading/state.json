@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.445079,
+  "balance_sol": 0.454919,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "3EdxP5cNbSTFs2vHRTGciQt4xBNUmSQafzVxhwFxpump": {
       "symbol": "DOOMKEY",
       "name": "DOOMKEY",
-      "amount": 701878.6132665921,
+      "amount": 350939.3066332961,
       "entry_price_usd": 2.8936627525201036e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-08-31T05:08:56.843628+00:00",
       "entry_usd_value": 2.031,
       "entry_signals": {
@@ -21565,19 +21565,30 @@
       "pnl_pct": -23.86,
       "exit_reason": "LLM: sell_all — $micscoin is down -23.9% in <1h, approaching the -30% hard stop, and the position is already 6% of a $28 pool — illiquid and likely heading to rug ter",
       "partial": false
+    },
+    {
+      "mint": "3EdxP5cNbSTFs2vHRTGciQt4xBNUmSQafzVxhwFxpump",
+      "symbol": "DOOMKEY",
+      "name": "DOOMKEY",
+      "amount_sold": 350939.3066332961,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-08-31T05:08:56.843628+00:00",
+      "exit_time": "2026-08-31T05:13:07.767866+00:00",
+      "entry_price_usd": 2.8936627525201036e-06,
+      "exit_price_usd": 2.848584227757079e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.00984,
+      "pnl_sol": -0.00016,
+      "pnl_pct": -1.56,
+      "exit_reason": "LLM: sell_all — DOOMKEY is at -1.6% after 6 minutes with our share at 45% of a tiny $4 pool — that's massive concentration risk and no momentum signal. Pool this thin",
+      "partial": true
     }
   ],
-  "last_updated": "2026-08-31T05:11:47.643753+00:00",
+  "last_updated": "2026-08-31T05:13:08.339535+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.5,
-  "portfolio_value_usd": 47.21,
+  "last_sol_price_usd": 101.59,
+  "portfolio_value_usd": 47.23,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 04:04 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-31 04:05 UTC",
       "action": "observe",
@@ -21691,36 +21702,42 @@
       "action": "buy",
       "details": "[LLM] $DOOMKEY at $2.89366e-06, spent 0.02 SOL",
       "reason": "$DOOMKEY has the strongest narrative in this batch — 'donkey scrolling at 4AM' is a relatable, memeable story with a real twitter account (doomkeyofficial). Bond only 1% though, so high risk — sizing in at 0.05 SOL with tight mental stop."
+    },
+    {
+      "time": "2026-08-31 05:13 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $DOOMKEY at $2.84858e-06 | P&L: -1.6%",
+      "reason": "DOOMKEY is at -1.6% after 6 minutes with our share at 45% of a tiny $4 pool — that's massive concentration risk and no momentum signal. Pool this thin means any sell will crater price, and the bot's >15min stale flag is imminent. Cut the dead weight and free the slot for something with attention."
     }
   ],
   "trade_stats": {
-    "total": 1267,
+    "total": 1268,
     "wins": 653,
-    "losses": 614,
+    "losses": 615,
     "win_rate_pct": 51.5,
-    "total_pnl_sol": -1.867566,
-    "avg_pnl_pct": 40.8,
+    "total_pnl_sol": -1.867726,
+    "avg_pnl_pct": 40.77,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 4,
-    "today_realized_sol": -0.034921,
-    "today_target_pct": -8.7,
+    "today_trades": 5,
+    "today_realized_sol": -0.035081,
+    "today_target_pct": -8.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 653,
-      "loss_count": 614,
+      "loss_count": 615,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-31T05:11:47.132561+00:00",
+  "last_llm_brief_at": "2026-08-31T05:13:07.767677+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "3EdxP5cNbSTFs2vHRTGciQt4xBNUmSQafzVxhwFxpump": {
-      "price_usd": 2.84606062720094e-06,
+      "price_usd": 2.848584227757079e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4.408335617,
-      "volume_h24": 29.07,
+      "liquidity_usd": 4.4122444860200005,
+      "volume_h24": 53.73,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
