@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.465079,
+  "balance_sol": 0.445079,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "3EdxP5cNbSTFs2vHRTGciQt4xBNUmSQafzVxhwFxpump": {
+      "symbol": "DOOMKEY",
+      "name": "DOOMKEY",
+      "amount": 701878.6132665921,
+      "entry_price_usd": 2.8936627525201036e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-08-31T05:08:56.843628+00:00",
+      "entry_usd_value": 2.031,
+      "entry_signals": {
+        "liquidity_usd": 29.06145399195,
+        "volume_24h_usd": null,
+        "market_cap_usd": 2903.3576372179227,
+        "ath_market_cap_usd": 2893.5953883214415,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.286178769,
+        "description": "Big ears. Endless scroll. Meet DOOMKEY, the donkey who said “one more post” three hours ago. It’s 4 AM. He’s still scrolling. Just memes, no promises of profit.",
+        "twitter": "https://x.com/doomkeyofficial?s=11&t=mpso6JeTXSwCgttwsM_sqw",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21544,17 +21567,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-08-31T05:07:31.506663+00:00",
+  "last_updated": "2026-08-31T05:08:56.843905+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.66,
-  "portfolio_value_usd": 47.28,
+  "last_sol_price_usd": 101.55,
+  "portfolio_value_usd": 47.23,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 04:03 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-31 04:04 UTC",
       "action": "observe",
@@ -21668,6 +21685,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $micscoin at $2.8898e-06 | P&L: -23.9%",
       "reason": "$micscoin is down -23.9% in <1h, approaching the -30% hard stop, and the position is already 6% of a $28 pool — illiquid and likely heading to rug territory. Cut the loss now before the stop triggers worse."
+    },
+    {
+      "time": "2026-08-31 05:08 UTC",
+      "action": "buy",
+      "details": "[LLM] $DOOMKEY at $2.89366e-06, spent 0.02 SOL",
+      "reason": "$DOOMKEY has the strongest narrative in this batch — 'donkey scrolling at 4AM' is a relatable, memeable story with a real twitter account (doomkeyofficial). Bond only 1% though, so high risk — sizing in at 0.05 SOL with tight mental stop."
     }
   ],
   "trade_stats": {
@@ -21689,7 +21712,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-31T05:07:31.506620+00:00",
+  "last_llm_brief_at": "2026-08-31T05:08:55.047139+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",

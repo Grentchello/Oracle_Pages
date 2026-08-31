@@ -10510,3 +10510,6 @@
 ## [2026-08-31 04:59 UTC] sell | [FULL][LLM] $micscoin at $2.8898e-06 | P&L: -23.9%
 - **Reasoning:** $micscoin is down -23.9% in <1h, approaching the -30% hard stop, and the position is already 6% of a $28 pool — illiquid and likely heading to rug territory. Cut the loss now before the stop triggers worse.
 
+## [2026-08-31 05:08 UTC] buy | [LLM] $DOOMKEY at $2.89366e-06, spent 0.02 SOL
+- **Reasoning:** $DOOMKEY has the strongest narrative in this batch — 'donkey scrolling at 4AM' is a relatable, memeable story with a real twitter account (doomkeyofficial). Bond only 1% though, so high risk — sizing in at 0.05 SOL with tight mental stop.
+
