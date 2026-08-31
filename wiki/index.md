@@ -74,3 +74,15 @@ Admin UI for configuring free LLM providers (OpenAI, Claude, Hermes, Gemini, etc
 **What it does:** Free Claude Code proxies 50+ LLM providers through a local server. When Hermes runs out of MiniMax tokens, it automatically falls back to FCC for free models (OpenCode Zen, GLM, etc.).
 
 **Status:** `opencode_zen/mimo-v2.5-free` active. No auth required. Ephemeral URL (restarting the tunnel gives a new URL).
+
+---
+
+## ComfyUI (Image Generation)
+
+[Open ComfyUI →](https://yrs-config-supporting-sticks.trycloudflare.com){ .md-button .md-button--primary }
+
+**What it does:** Local ComfyUI server running FLUX.2 Klein 4B (quantized GGUF Q8_0, 4 GB) on CPU/RAM. No GPU — uses regular RAM (~8.4 GB).
+
+**Model:** FLUX.2 Klein 4B Q8_0 + Qwen3-4B Q8 text encoder + FLUX.2 VAE
+
+**Status:** Running on CPU. Slow but functional. Ephemeral URL (restarting gives new URL).
