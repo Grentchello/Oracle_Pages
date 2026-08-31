@@ -304,3 +304,14 @@
 - Tested on EYE token: top10=16.4%, dev holding, smart_wallets=3, renowned=34, liquidity=$34k → fragility=0.0 (LOW, FULL SIZE)
 - Updated wiki: projects/memecoin-trading/index.md with GMGN integration details
 - Files: bot/gmgn_client.py, bot/bot.py (gate at line ~1265), ~/.config/gmgn/.env, wiki/research/memecoin-fragility.md
+
+## [2026-08-31] update | v8.3 unhault — bot ACTIVE + topped up to 0.5 SOL
+- Found bot was running but halted banner still showing on dashboard (cached HTML)
+- Fixed: changed HALTED banner to "● BOT ACTIVE" with v8.3 details
+- Realized balance was 0.067 SOL — bot kept getting blocked by reserve gate ($0.07 < $0.05 reserve + $0.02 position)
+- Topped up state.json: 0.0673 SOL → 0.5 SOL (+0.4327 SOL) for v8.3 conservative mode
+- Bot immediately picked up new balance on next tick: Portfolio $50.57 (0.5 SOL × $101.14)
+- Dashboard live: https://grentchello.github.io/Oracle_Pages/trading/
+- Bot runner still running (PID 49594, uptime 41+ hours)
+- v8.3 gates all active: CoinCLIP viability, ME2F keyword, GMGN fragility
+- 1263 trades all-time, 0 open positions, ready to trade with $0.02 positions
