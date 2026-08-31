@@ -315,3 +315,21 @@
 - Bot runner still running (PID 49594, uptime 41+ hours)
 - v8.3 gates all active: CoinCLIP viability, ME2F keyword, GMGN fragility
 - 1263 trades all-time, 0 open positions, ready to trade with $0.02 positions
+
+## [2026-08-31] update | FCC (Free Claude Code) + Cloudflare tunnel for phone access
+- Grant wanted to access FCC server from phone — couldn't because container has private IP (10.0.3.2)
+- Solution: Cloudflare quick tunnel (no account needed, ephemeral URL)
+- Installed cloudflared arm64 binary to /opt/data/home/.local/bin/cloudflared
+- Started tunnel: `cloudflared tunnel --url http://localhost:8082`
+- **Phone URL: https://calculation-enjoying-ips-unions.trycloudflare.com**
+  - Also try: https://habits-presently-highlight-rays.trycloudflare.com (older URL still works for a few mins)
+- Tunnel is ephemeral — if it dies, restart with `bot/start_fcc_tunnel.sh start`
+- Created `/opt/data/hermes_work/bot/start_fcc_tunnel.sh` — start/stop/status/restart helper
+- Verified FCC proxying Anthropic API at port 8082 (and OpenAI Responses)
+- Configured Hermes to use FCC as LLM provider:
+  - `hermes config set model.provider anthropic`
+  - `hermes config set model.base_url http://localhost:8082`
+  - Added ANTHROPIC_API_KEY + ANTHROPIC_BASE_URL to /opt/data/.env
+- Bot updated to use `opencode_zen/mimo-v2.5-free` via FCC (was `nemotron-3-ultra-free` directly)
+- Test chat: `Yo. Loud and clear. What you need?` — works
+- IMPORTANT: trycloudflare URLs die when tunnel dies. For production, create named Cloudflare tunnel with account (no auth/account = ephemeral).
