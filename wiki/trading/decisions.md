@@ -10486,3 +10486,9 @@
 ## [2026-08-31 04:35 UTC] buy | [LLM] $PONSGUY at $4.943e-05, spent 0.02 SOL
 - **Reasoning:** $PONSGUY — clearest narrative of the batch ('pons guy' meme), real twitter handle, 42% bonding curve shows traction, $37k mcap leaves room. Only slot available, best shot.
 
+## [2026-08-31 04:36 UTC] sell | [hard-stop] $MALKIN closed at $2.8605e-06 | P&L: -75.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-08-31 04:36 UTC] sell | [hard-stop] $PONSGUY closed at $1.03e-05 | P&L: -79.2%
+- **Reasoning:** Hard -30% stop
+

@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.46,
+  "balance_sol": 0.469163,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "kEEGDkyZiVNLx5BsfkuuufRriBoZKiuvzvTCjkxpump": {
-      "symbol": "MALKIN",
-      "name": "MALKIN",
-      "amount": 176950.01568333,
-      "entry_price_usd": 1.1430346542718863e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-08-31T04:34:17.741158+00:00",
-      "entry_usd_value": 2.0225999999999997,
-      "entry_signals": {
-        "liquidity_usd": 3339.4191332747696,
-        "volume_24h_usd": null,
-        "market_cap_usd": 11439.479413059991,
-        "ath_market_cap_usd": 11474.858923866224,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 33.021053429,
-        "description": "A quiet black cat, a hot cup, and a city that never stops talking. Malkin is a community-built story for everyone who was awake before the noise.",
-        "twitter": "https://x.com/malkinpump",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "KJMRio2CTWtxH87cSeibTjmQZLaXL3CHvqqgwQ7pump": {
-      "symbol": "PONSGUY",
-      "name": "Just a pons guy",
-      "amount": 40967.02407444872,
-      "entry_price_usd": 4.943e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-08-31T04:35:46.109302+00:00",
-      "entry_usd_value": 2.025,
-      "entry_signals": {
-        "liquidity_usd": 16981.75,
-        "volume_24h_usd": 5190.46,
-        "market_cap_usd": 37712.16935698568,
-        "ath_market_cap_usd": 56164.23521694059,
-        "volatility_score": null,
-        "boost_mode": "IN_PROGRESS",
-        "real_sol_reserves": 84.551113983,
-        "description": "No prophecy. No roadmap to save the world. Just one glassy guy standing there while does pons guy things.",
-        "twitter": "https://x.com/ponsguysol",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21519,25 +21474,47 @@
       "pnl_pct": -70.76,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "kEEGDkyZiVNLx5BsfkuuufRriBoZKiuvzvTCjkxpump",
+      "symbol": "MALKIN",
+      "name": "MALKIN",
+      "amount_sold": 176950.01568333,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-31T04:34:17.741158+00:00",
+      "exit_time": "2026-08-31T04:36:49.572266+00:00",
+      "entry_price_usd": 1.1430346542718863e-05,
+      "exit_price_usd": 2.860503657300058e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.004997,
+      "pnl_sol": -0.015003,
+      "pnl_pct": -74.97,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "KJMRio2CTWtxH87cSeibTjmQZLaXL3CHvqqgwQ7pump",
+      "symbol": "PONSGUY",
+      "name": "Just a pons guy",
+      "amount_sold": 40967.02407444872,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-31T04:35:46.109302+00:00",
+      "exit_time": "2026-08-31T04:36:49.572523+00:00",
+      "entry_price_usd": 4.943e-05,
+      "exit_price_usd": 1.03e-05,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.004166,
+      "pnl_sol": -0.015834,
+      "pnl_pct": -79.16,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-31T04:35:46.109624+00:00",
+  "last_updated": "2026-08-31T04:37:06.711462+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.25,
-  "portfolio_value_usd": 50.62,
+  "last_sol_price_usd": 101.29,
+  "portfolio_value_usd": 47.52,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 03:39 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-08-31 03:42 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-31 03:46 UTC",
       "action": "observe",
@@ -21645,40 +21622,61 @@
       "action": "buy",
       "details": "[LLM] $PONSGUY at $4.943e-05, spent 0.02 SOL",
       "reason": "$PONSGUY — clearest narrative of the batch ('pons guy' meme), real twitter handle, 42% bonding curve shows traction, $37k mcap leaves room. Only slot available, best shot."
+    },
+    {
+      "time": "2026-08-31 04:36 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $MALKIN closed at $2.8605e-06 | P&L: -75.0%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-08-31 04:36 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $PONSGUY closed at $1.03e-05 | P&L: -79.2%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1263,
+    "total": 1265,
     "wins": 652,
-    "losses": 611,
-    "win_rate_pct": 51.6,
-    "total_pnl_sol": -1.832645,
-    "avg_pnl_pct": 41.07,
+    "losses": 613,
+    "win_rate_pct": 51.5,
+    "total_pnl_sol": -1.863482,
+    "avg_pnl_pct": 40.88,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 0,
-    "today_realized_sol": 0,
-    "today_target_pct": 0.0,
+    "today_trades": 2,
+    "today_realized_sol": -0.030837,
+    "today_target_pct": -7.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 652,
-      "loss_count": 611,
+      "loss_count": 613,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-31T04:35:44.504666+00:00",
+  "last_llm_brief_at": "2026-08-31T04:37:05.951443+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "kEEGDkyZiVNLx5BsfkuuufRriBoZKiuvzvTCjkxpump": {
-      "price_usd": 1.2259849811186977e-05,
+      "price_usd": 2.860503657300058e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3283.7152522725,
-      "volume_h24": 3985.49,
+      "liquidity_usd": 15.271837179550001,
+      "volume_h24": 9567.03,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 32.431755578
+      "real_sol_reserves": 0.150773395
+    },
+    "KJMRio2CTWtxH87cSeibTjmQZLaXL3CHvqqgwQ7pump": {
+      "price_usd": 1.03e-05,
+      "change_h24": -75.5,
+      "change_h1": -75.5,
+      "liquidity_usd": 6796.64,
+      "volume_h24": 16063.87,
+      "dex_id": "pumpswap",
+      "source": "dexscreener"
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
