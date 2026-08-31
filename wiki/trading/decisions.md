@@ -10519,3 +10519,6 @@
 ## [2026-08-31 05:20 UTC] sell | [FULL][LLM] $DOOMKEY at $2.85489e-06 | P&L: -1.3%
 - **Reasoning:** DOOMKEY is flat-slightly-down after 12 min on bonding curve with no real pool yet, share% shows tiny position not yet migrated — narrative unclear (Doom key?), no X link provided, and capital is locked. Rotate into fresh launches with actual attention signals.
 
+## [2026-08-31 05:21 UTC] buy | [LLM] $bitart at $3.05372e-06, spent 0.02 SOL
+- **Reasoning:** $bitart has a real Solana-native narrative (byte limit upgrade 1232→4096) — the only candidate with substantive description tied to an actual upcoming catalyst. $3k mcap is bottom-of-barrel = where 10x lives, but bond at 3% means very early and illiquid. 0.05 SOL position only. If it doesn't pump within 15 min, exit fast.
+
