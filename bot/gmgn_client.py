@@ -146,18 +146,19 @@ def evaluate_fragility(mint: str) -> Dict[str, Any]:
     signals = []
 
     # WDS component (whale dominance) - weight 0.4
+    # Tightened v8.4: 50%+ whale concentration = HIGH fragility (was MEDIUM)
     if top_10_rate > 0.9:
-        score += 0.4
+        score += 0.5
         signals.append(f"EXTREME whale concentration: top10={top_10_rate:.1%}")
     elif top_10_rate > 0.7:
-        score += 0.3
+        score += 0.4
         signals.append(f"HIGH whale concentration: top10={top_10_rate:.1%}")
     elif top_10_rate > 0.5:
-        score += 0.2
-        signals.append(f"MEDIUM whale concentration: top10={top_10_rate:.1%}")
+        score += 0.35  # was 0.2 - now closer to rejection threshold
+        signals.append(f"MEDIUM-HIGH whale concentration: top10={top_10_rate:.1%}")
     elif top_10_rate > 0.3:
-        score += 0.1
-        signals.append(f"LOW whale concentration: top10={top_10_rate:.1%}")
+        score += 0.15
+        signals.append(f"MEDIUM whale concentration: top10={top_10_rate:.1%}")
     else:
         signals.append(f"RESILIENT whale distribution: top10={top_10_rate:.1%}")
 
