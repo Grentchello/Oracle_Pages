@@ -37,15 +37,18 @@ async def start_comfyui():
         return True
     
     # Check if ComfyUI is already running (from manual start or previous process)
+    print(f"[server] Checking if ComfyUI is already running on port {COMFYUI_PORT}...")
     try:
         async with ClientSession() as s:
             async with s.get(f"http://127.0.0.1:{COMFYUI_PORT}/system_stats", timeout=aiohttp.ClientTimeout(total=3)) as r:
                 if r.status == 200:
                     comfyui_ready = True
-                    print(f"[server] ComfyUI already running on port {COMFYUI_PORT}")
+                    print(f"[server] ComfyUI already running on port {COMFYUI_PORT}!")
                     return True
-    except Exception:
-        pass
+                else:
+                    print(f"[server] ComfyUI check returned status {r.status}")
+    except Exception as e:
+        print(f"[server] ComfyUI check failed: {e}")
     
     print("[server] Starting ComfyUI...")
     comfyui_process = subprocess.Popen(
