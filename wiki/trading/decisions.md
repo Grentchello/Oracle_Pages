@@ -10552,3 +10552,6 @@
 ## [2026-08-31 05:43 UTC] buy | [LLM] $GUNA at $8.52301e-06, spent 0.02 SOL
 - **Reasoning:** $GUNA — Nepal flood survivor is a real viral news moment with attached twitter traction; mcap $8.5k at 0.1min gives early entry on a story with genuine attention, not just abstract hype. Strong narrative + recency = scalp candidate.
 
+## [2026-08-31 05:44 UTC] sell | [FULL][LLM] $GUNA at $6.39012e-06 | P&L: -25.0%
+- **Reasoning:** $GUNA is down -25% and approaching the -30% hard stop. Bonding curve only 20% complete, pool $1,516, our share 0% — no reason to hope for a bounce. Cut the loss now, free the slot.
+

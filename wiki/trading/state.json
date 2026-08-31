@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.48537,
+  "balance_sol": 0.500339,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CqUYCHZob4xLJfSHwMDNckRQkqxWMX5dirHfFRwwpump": {
-      "symbol": "GUNA",
-      "name": "The Warrior",
-      "amount": 240337.73565338098,
-      "entry_price_usd": 8.523006153949274e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-08-31T05:43:19.767100+00:00",
-      "entry_usd_value": 2.0484,
-      "entry_signals": {
-        "liquidity_usd": 2060.27037547758,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8506.083894531792,
-        "ath_market_cap_usd": 8545.28714208858,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 20.115898999,
-        "description": "I’m seeing this picking up traction on the internet.  A woman miraculously survived the Nepal floods after being trapped in a collages building.  They are literally calling her a ‘Warrior’ on all articles. https://www.bbc.co.uk/news/videos/cj64kgrpgjdo https://indianexpress.com/article/world/nepal-f",
-        "twitter": "https://x.com/barnsrebirth0/status/2094299734336835627?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21701,19 +21678,30 @@
       "pnl_pct": -98.81,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "CqUYCHZob4xLJfSHwMDNckRQkqxWMX5dirHfFRwwpump",
+      "symbol": "GUNA",
+      "name": "The Warrior",
+      "amount_sold": 240337.73565338098,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-31T05:43:19.767100+00:00",
+      "exit_time": "2026-08-31T05:44:36.533827+00:00",
+      "entry_price_usd": 8.523006153949274e-06,
+      "exit_price_usd": 6.390116346840097e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.014969,
+      "pnl_sol": -0.005031,
+      "pnl_pct": -25.03,
+      "exit_reason": "LLM: sell_all — $GUNA is down -25% and approaching the -30% hard stop. Bonding curve only 20% complete, pool $1,516, our share 0% — no reason to hope for a bounce. Cu",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-31T05:43:20.019603+00:00",
+  "last_updated": "2026-08-31T05:44:36.810820+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.42,
-  "portfolio_value_usd": 51.76,
+  "last_sol_price_usd": 102.6,
+  "portfolio_value_usd": 51.33,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 04:39 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-31 04:50 UTC",
       "action": "observe",
@@ -21827,30 +21815,48 @@
       "action": "buy",
       "details": "[LLM] $GUNA at $8.52301e-06, spent 0.02 SOL",
       "reason": "$GUNA — Nepal flood survivor is a real viral news moment with attached twitter traction; mcap $8.5k at 0.1min gives early entry on a story with genuine attention, not just abstract hype. Strong narrative + recency = scalp candidate."
+    },
+    {
+      "time": "2026-08-31 05:44 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GUNA at $6.39012e-06 | P&L: -25.0%",
+      "reason": "$GUNA is down -25% and approaching the -30% hard stop. Bonding curve only 20% complete, pool $1,516, our share 0% — no reason to hope for a bounce. Cut the loss now, free the slot."
     }
   ],
   "trade_stats": {
-    "total": 1275,
+    "total": 1276,
     "wins": 655,
-    "losses": 620,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.827275,
-    "avg_pnl_pct": 40.89,
+    "losses": 621,
+    "win_rate_pct": 51.3,
+    "total_pnl_sol": -1.832306,
+    "avg_pnl_pct": 40.84,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 12,
-    "today_realized_sol": 0.00537,
-    "today_target_pct": 1.3,
+    "today_trades": 13,
+    "today_realized_sol": 0.000339,
+    "today_target_pct": 0.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 655,
-      "loss_count": 620,
+      "loss_count": 621,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-31T05:43:17.782923+00:00",
+  "last_llm_brief_at": "2026-08-31T05:44:36.533789+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CqUYCHZob4xLJfSHwMDNckRQkqxWMX5dirHfFRwwpump": {
+      "price_usd": 6.390116346840097e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1515.9742056377997,
+      "volume_h24": 12041.16,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 14.775577053
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
