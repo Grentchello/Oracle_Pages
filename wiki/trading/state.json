@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.453357,
+  "balance_sol": 0.473404,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2ACE7jW7Xftf4zYadGrFzJNnftDSzkRdfneE9GHspump": {
-      "symbol": "LOTTERY",
-      "name": "LOTTERY",
-      "amount": 702111.4438722495,
-      "entry_price_usd": 2.9246069380028794e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-08-31T06:22:52.226537+00:00",
-      "entry_usd_value": 2.0534,
-      "entry_signals": {
-        "liquidity_usd": 28.866356232930002,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2921.482680427538,
-        "ath_market_cap_usd": 3193.369109499785,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.281156679,
-        "description": "The first hourly RWA lottery on @RobinhoodApp. Chainlink VRF-verified winners and verified on-chain.",
-        "twitter": "https://x.com/LotteryRH",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21803,19 +21780,30 @@
       "pnl_pct": -19.27,
       "exit_reason": "LLM: sell_all — Down 19.3% with pool=$0 and corrupted share data — this token appears rugged or dead. Cut the loss before it's unrecoverable.",
       "partial": false
+    },
+    {
+      "mint": "2ACE7jW7Xftf4zYadGrFzJNnftDSzkRdfneE9GHspump",
+      "symbol": "LOTTERY",
+      "name": "LOTTERY",
+      "amount_sold": 702111.4438722495,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-08-31T06:22:52.226537+00:00",
+      "exit_time": "2026-08-31T06:29:02.537489+00:00",
+      "entry_price_usd": 2.9246069380028794e-06,
+      "exit_price_usd": 2.9328468158679096e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020047,
+      "pnl_sol": 4.7e-05,
+      "pnl_pct": 0.28,
+      "exit_reason": "LLM: sell_all — $LOTTERY has a $33 total pool and we own 6% — our share is ~$2. At +0.3% after 6 minutes with zero momentum, this is dead capital. Free the slot for a",
+      "partial": false
     }
   ],
-  "last_updated": "2026-08-31T06:27:10.258936+00:00",
+  "last_updated": "2026-08-31T06:29:02.815089+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.45,
-  "portfolio_value_usd": 48.5,
+  "last_sol_price_usd": 102.72,
+  "portfolio_value_usd": 48.63,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 05:33 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $RISING at $2.91005e-06 | P&L: -6.4%",
-      "reason": "Down -6.4% in <1min, only $23 pool = thin liquidity and illiquid exit risk. Rule says default bias is exit on flat/down positions; -6% on a micro-cap bonding-curve with 8% pool share means slow bleed risk. Cut now while exit is still cheap."
-    },
     {
       "time": "2026-08-31 05:33 UTC",
       "action": "buy",
@@ -21929,40 +21917,46 @@
       "action": "buy",
       "details": "[LLM] $LOTTERY at $2.92461e-06, spent 0.02 SOL",
       "reason": "$LOTTERY has the strongest narrative: first hourly RWA lottery with Chainlink VRF verification. Real utility angle, not just a meme. Bond 1% suggests early launch with room to run. Risk is high but narrative is clear."
+    },
+    {
+      "time": "2026-08-31 06:29 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LOTTERY at $2.93285e-06 | P&L: +0.3%",
+      "reason": "$LOTTERY has a $33 total pool and we own 6% — our share is ~$2. At +0.3% after 6 minutes with zero momentum, this is dead capital. Free the slot for a fresh attention play."
     }
   ],
   "trade_stats": {
-    "total": 1281,
-    "wins": 656,
+    "total": 1282,
+    "wins": 657,
     "losses": 625,
     "win_rate_pct": 51.2,
-    "total_pnl_sol": -1.859288,
-    "avg_pnl_pct": 40.57,
+    "total_pnl_sol": -1.859241,
+    "avg_pnl_pct": 40.54,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 18,
-    "today_realized_sol": -0.026643,
-    "today_target_pct": -6.7,
+    "today_trades": 19,
+    "today_realized_sol": -0.026596,
+    "today_target_pct": -6.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 656,
+      "win_count": 657,
       "loss_count": 625,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-08-31T06:27:10.006569+00:00",
+  "last_llm_brief_at": "2026-08-31T06:29:02.537450+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2ACE7jW7Xftf4zYadGrFzJNnftDSzkRdfneE9GHspump": {
-      "price_usd": 2.9164773255099106e-06,
+      "price_usd": 2.9328468158679096e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 27.8142302061,
-      "volume_h24": 379.5,
+      "liquidity_usd": 32.50092704832,
+      "volume_h24": 384.1,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.271490778
+      "real_sol_reserves": 0.316403106
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -10588,3 +10588,6 @@
 ## [2026-08-31 06:22 UTC] buy | [LLM] $LOTTERY at $2.92461e-06, spent 0.02 SOL
 - **Reasoning:** $LOTTERY has the strongest narrative: first hourly RWA lottery with Chainlink VRF verification. Real utility angle, not just a meme. Bond 1% suggests early launch with room to run. Risk is high but narrative is clear.
 
+## [2026-08-31 06:29 UTC] sell | [FULL][LLM] $LOTTERY at $2.93285e-06 | P&L: +0.3%
+- **Reasoning:** $LOTTERY has a $33 total pool and we own 6% — our share is ~$2. At +0.3% after 6 minutes with zero momentum, this is dead capital. Free the slot for a fresh attention play.
+
