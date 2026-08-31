@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0f17">
+  <title>Memecoin Trading Bot</title>
+  <link rel="stylesheet" href="assets/dashboard.css">
+</head>
+<body>
+<div class="dashboard">
+
+  <header>
+    <h1>Memecoin Trading Bot</h1>
+    <div class="subtitle">
+      <span style="color:#10b981;font-weight:bold;">● BOT ACTIVE</span> · v8.3 conservative mode (0.02 SOL/pos, max 2 positions). CoinCLIP + ME2F + GMGN fragility gates. See <a href="../projects/memecoin-trading/index.md" style="color:#00d4ff;">project page</a> for details.
+    </div>
+  </header>
+
+  <div id="error-banner" class="error-banner" style="display:none"></div>
+
+  <section class="kpi-grid">
+    <div class="kpi">
+      <div class="kpi-label">SOL Free</div>
+      <div class="kpi-value" id="sol-balance">—</div>
+      <div class="kpi-sub" id="sol-balance-usd">—</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Total Value</div>
+      <div class="kpi-value" id="total-value">—</div>
+      <div class="kpi-sub" id="total-pnl">—</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Open / Slots</div>
+      <div class="kpi-value"><span id="position-count">0</span>/<span id="position-max">5</span></div>
+      <div class="kpi-sub" id="position-pnl">—</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Daily Target</div>
+      <div class="kpi-value" id="daily-target-pct">—%</div>
+      <div class="kpi-sub" id="win-rate-sub">—</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Daily Goal <span class="hint" id="daily-goal-hint">—</span></h2>
+    <div class="daily-bar">
+      <div class="daily-bar-fill" id="daily-bar-fill"></div>
+    </div>
+    <div class="daily-stats" id="daily-stats">—</div>
+  </section>
+
+  <section>
+    <h2>Trade History <span class="hint" id="trades-summary">no closed trades yet</span></h2>
+    <ul class="trade-list" id="trades">
+      <li class="loading">Loading…</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Strategy Learning <span class="hint">what works, what doesn't</span></h2>
+    <div class="learning" id="learning">Need at least 3 wins and 3 losses to extract patterns.</div>
+  </section>
+
+  <section>
+    <h2>Holdings <span class="hint" id="sol-price-hint">SOL @ —</span></h2>
+    <ul class="position-list" id="holdings">
+      <li class="loading">Loading…</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Trending on pump.fun <span class="hint" id="watchlist-meta">— tokens</span></h2>
+    <ul class="token-list" id="watchlist">
+      <li class="loading">Loading…</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Recent Decisions <span class="hint">last 10</span></h2>
+    <ul class="decision-list" id="decisions">
+      <li class="loading">Loading…</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>LLM Decision Log <span class="hint">raw prompts + responses</span></h2>
+    <div class="learning" id="decision-log">No LLM calls yet.</div>
+  </section>
+
+  <footer>
+    Auto-refreshes every 30s · Real prices via DexScreener & pump.fun · No real capital at risk · Bot ticks every 60s, LLM-decided
+  </footer>
+</div>
+
+<script>
+const STATE_URL = 'state.json';
+const WATCHLIST_URL = 'watchlist.json';
+const SPARKLINE_URL = '/Oracle_Pages/trading/sparklines.json';
+const RAW_BASE = 'https://raw.githubusercontent.com/Grentchello/oracle_Vault/main/wiki/trading/';
+const REFRESH_MS = 30000;
+
+function fmtUSD(v) {
+  if (v == null || isNaN(v)) return '—';
+  if (Math.abs(v) >= 1000000) return '$' + (v/1000000).toFixed(2) + 'M';
+  if (Math.abs(v) >= 1000) return '$' + v.toFixed(0);
+  if (Math.abs(v) >= 1) return '$' + v.toFixed(2);
+  if (v === 0) return '$0';
+  return '$' + v.toFixed(6);
+}
+
+function fmtSOL(v) {
+  if (v == null || isNaN(v)) return '—';
+  if (v >= 1) return v.toFixed(4) + ' SOL';
+  return v.toFixed(6) + ' SOL';
+}
+
+function fmtPct(v) {
+  const n = Number(v);
+  if (n == null || isNaN(n)) return { text: '—', cls: 'neu' };
+  const cls = n > 0 ? 'pos' : n < 0 ? 'neg' : 'neu';
+  const sign = n > 0 ? '+' : '';
+  return { text: sign + n.toFixed(2) + '%', cls };
+}
+
+function fmtTime(iso) {
+  if (!iso) return '—';
+  try {
+    const d = new Date(iso);
+    const now = new Date();
+    const diffSec = Math.round((now - d) / 1000);
+    if (diffSec < 60) return diffSec + 's ago';
+    if (diffSec < 3600) return Math.round(diffSec/60) + 'm ago';
+    if (diffSec < 86400) return Math.round(diffSec/3600) + 'h ago';
+    return d.toISOString().slice(0,16).replace('T', ' ');
+  } catch (e) {
+    return '—';
+  }
+}
+
+async function fetchText(url) {
+  const r = await fetch(url + '?t=' + Date.now(), { cache: 'no-store' });
+  if (!r.ok) throw new Error(`${url}: HTTP ${r.status}`);
+  return await r.text();
+}
+
+async function fetchJSON(url) {
+  return JSON.parse(await fetchText(url));
+}
+
+function showError(msg) {
+  const el = document.getElementById('error-banner');
+  el.textContent = msg;
+  el.style.display = 'block';
+}
+
+function clearError() {
+  document.getElementById('error-banner').style.display = 'none';
+}
+
+// Safe element helper — log instead of throw when an element is missing
+function setEl(id, prop, val) {
+  const el = document.getElementById(id);
+  if (!el) { console.warn('[dashboard] missing element #' + id); return; }
+  el[prop] = val;
+}
+
+async function renderKPIs(state) {
+  const solBalance = state.balance_sol || 0;
+  const solPrice = state.last_sol_price_usd || 0;
+  const totalValue = state.portfolio_value_usd || 0;
+  const startValue = state.starting_balance_usd || totalValue;
+  const positions = state.positions || {};
+  const stats = state.trade_stats || {};
+
+  document.getElementById('sol-balance').textContent = fmtSOL(solBalance);
+  document.getElementById('sol-balance-usd').textContent = '@ ' + fmtUSD(solPrice);
+
+  document.getElementById('total-value').textContent = fmtUSD(totalValue);
+
+  const pnl = totalValue - startValue;
+  const pnlPct = startValue > 0 ? (pnl / startValue * 100) : 0;
+  const pnlFmt = fmtPct(pnlPct);
+  const pnlEl = document.getElementById('total-pnl');
+  pnlEl.textContent = (pnl >= 0 ? '+' : '') + fmtUSD(pnl) + ' (' + pnlFmt.text + ')';
+  pnlEl.className = 'kpi-sub ' + pnlFmt.cls;
+
+  document.getElementById('position-count').textContent = Object.keys(positions).length;
+
+  // positions P&L (sum of open position unrealized gains in USD)
+  let posPnlUSD = 0;
+  for (const [mint, pos] of Object.entries(positions)) {
+    const watchEntry = (state._watchlistCache || { tokens: [] }).tokens.find(t => t.mint === mint);
+    const curPrice = watchEntry ? parseFloat(watchEntry.price_usd) : null;
+    if (curPrice && pos.entry_price_usd) {
+      posPnlUSD += (curPrice - pos.entry_price_usd) * pos.amount;
+    }
+  }
+  const posPnlEl = document.getElementById('position-pnl');
+  posPnlEl.textContent = (posPnlUSD >= 0 ? '+' : '') + fmtUSD(posPnlUSD) + ' unrealized';
+  posPnlEl.className = 'kpi-sub ' + (posPnlUSD >= 0 ? 'pos' : posPnlUSD < 0 ? 'neg' : 'neu');
+
+  // Daily target
+  if (stats.daily_target_pct) {
+    const tgtPct = Math.round(stats.today_target_pct || 0);
+    const tgtSol = stats.today_realized_sol || 0;
+    document.getElementById('daily-target-pct').textContent = tgtPct + '%';
+    document.getElementById('daily-target-pct').className = 'kpi-value ' + (tgtPct >= 100 ? 'pos' : tgtPct > 0 ? 'neu' : 'neg');
+
+    const fillEl = document.getElementById('daily-bar-fill');
+    fillEl.style.width = Math.min(100, tgtPct) + '%';
+    fillEl.className = 'daily-bar-fill ' + (tgtPct >= 100 ? 'fill-good' : tgtPct >= 50 ? 'fill-mid' : 'fill-low');
+
+    document.getElementById('daily-goal-hint').textContent =
+      `+${stats.daily_target_pct}% on 2 SOL paper = +0.4 SOL net gains today`;
+
+    const winRate = stats.total > 0 ? stats.win_rate_pct + '% win (' + stats.wins + '/' + stats.total + ')' : 'no trades yet';
+    document.getElementById('daily-stats').textContent =
+      `Today: ${(tgtSol >= 0 ? '+' : '')}${tgtSol.toFixed(4)} SOL realized · ${stats.today_trades} closed · all-time: ${(stats.total_pnl_sol >= 0 ? '+' : '')}${stats.total_pnl_sol.toFixed(4)} SOL · ${winRate}`;
+    document.getElementById('win-rate-sub').textContent = winRate;
+  } else {
+    document.getElementById('daily-target-pct').textContent = '—%';
+  }
+
+  document.getElementById('sol-price-hint').textContent = 'SOL @ ' + fmtUSD(solPrice);
+  const updatedEl = document.getElementById('updated');
+  if (updatedEl) updatedEl.textContent = fmtTime(state.last_updated);
+}
+
+function renderLearning(state) {
+  const el = document.getElementById('learning');
+  if (!el) return;
+  const stats = state.trade_stats || {};
+  const learning = stats.learning || {};
+  const total = stats.total || 0;
+
+  if (total === 0) {
+    el.innerHTML = '<div class="learning-note">No closed trades yet.</div>';
+    return;
+  }
+  if (total < 3 || (learning.win_count || 0) < 1 || (learning.loss_count || 0) < 1) {
+    el.innerHTML = '<div class="learning-note">Need at least 3 trades to extract patterns. Have ' + total + '.</div>';
+    return;
+  }
+
+  let html = '';
+  if (learning.price_change_h24_diff_pct !== undefined) {
+    html += '<div class="learning-row">Wins vs losses: ' + learning.price_change_h24_diff_pct + '% 24h-momentum delta</div>';
+  }
+  if (learning.liquidity_usd_diff_pct !== undefined) {
+    html += '<div class="learning-row">Liquidity: ' + learning.liquidity_usd_diff_pct + '% delta</div>';
+  }
+  if (learning.volume_24h_usd_diff_pct !== undefined) {
+    html += '<div class="learning-row">Volume: ' + learning.volume_24h_usd_diff_pct + '% delta</div>';
+  }
+  html += '<div class="learning-note-small">Sample: ' + (learning.win_count||0) + 'W / ' + (learning.loss_count||0) + 'L</div>';
+
+  el.innerHTML = html;
+}
+
+
+function renderSparkline(mint, width=60, height=20) {
+  // Returns SVG of MARKET CAP history (not raw price).
+  // Reads from sparklines cache (state.sparklines populated by refresh).
+  // data.mc = market cap in SOL per bucket
+  const data = (window._sparklines || {})[mint];
+  if (!data || !data.ts || data.ts.length < 2) return '';
+  const ts = data.ts;
+  // Prefer market cap, fall back to price if mc missing
+  const series = data.mc && data.mc.length >= ts.length ? data.mc : data.px;
+  if (series.length < 2) return '';
+  const minP = Math.min.apply(null, series);
+  const maxP = Math.max.apply(null, series);
+  const range = maxP - minP || 1;
+  const w = width, h = height;
+  const dt = (ts[ts.length - 1] - ts[0]) || 1;
+  const points = series.map((p, i) => {
+    const x = ((ts[i] - ts[0]) / dt) * w;
+    const y = h - ((p - minP) / range) * h;
+    return x.toFixed(1) + ',' + y.toFixed(1);
+  }).join(' ');
+  const color = series[series.length-1] >= series[0] ? '#10b981' : '#ef4444';
+  // Tooltip with first/last market cap in SOL
+  const firstMc = series[0].toFixed(2);
+  const lastMc = series[series.length-1].toFixed(2);
+  const pctChange = ((series[series.length-1] / series[0] - 1) * 100).toFixed(1);
+  const tooltip = `MC ${firstMc}→${lastMc} SOL (${pctChange}%)`;
+  return '<svg width="' + w + '" height="' + h + '" title="' + tooltip + '" style="vertical-align:middle;display:inline-block"><polyline fill="none" stroke="' + color + '" stroke-width="1.5" points="' + points + '"/></svg>';
+}
+
+async function renderHoldings(state, watchlist) {
+  const ul = document.getElementById('holdings');
+  if (!ul) return;
+  const positions = state.positions || {};
+  const solBalance = state.balance_sol || 0;
+  const solPrice = state.last_sol_price_usd || 0;
+
+  let html = '<li class="position-item">' +
+    '<div><div class="token-name">SOL <span class="token-symbol">free</span></div>' +
+    '<div class="token-meta">' + solBalance.toFixed(4) + ' · ' + fmtUSD(solBalance * solPrice) + '</div></div>' +
+    '<div class="token-price">' + fmtUSD(solPrice) + '</div>' +
+    '<div class="token-change neu">—</div></li>';
+
+  for (const mint in positions) {
+    const pos = positions[mint];
+    // Prefer state.held_prices (always fresh, from DexScreener).
+    // Fall back to watchlist (new launches). Fall back to null.
+    const hp = (state.held_prices || {})[mint];
+    let curPrice = hp && hp.price_usd ? parseFloat(hp.price_usd) : null;
+    if (curPrice === null || isNaN(curPrice)) {
+      const meta = (watchlist.tokens || []).find(t => t.mint === mint);
+      curPrice = meta ? parseFloat(meta.price_usd) : null;
+    }
+    const entryPrice = parseFloat(pos.entry_price_usd) || 0;
+    const amount = parseFloat(pos.amount) || 0;
+    const valueUSD = curPrice !== null && !isNaN(curPrice) ? curPrice * amount : null;
+    const pnlPct = (curPrice !== null && entryPrice > 0) ? ((curPrice / entryPrice - 1) * 100) : null;
+    const cls = pnlPct !== null ? (pnlPct >= 0 ? 'pos' : 'neg') : 'neu';
+    const sym = String(pos.symbol || mint.slice(0,8)).replace(/[<>&\\\"]/g, '');
+    const valueStr = valueUSD !== null ? fmtUSD(valueUSD) : '—';
+    const pnlStr = pnlPct !== null ? (pnlPct >= 0 ? '+' : '') + pnlPct.toFixed(1) + '%' : '—';
+
+    // Liquidity warning: how much of the pool do we own?
+    let liquidityBadge = '';
+    const liqUSD = hp ? Number(hp.liquidity_usd || 0) : 0;
+    if (valueUSD && liqUSD > 0) {
+      const pctOfLiq = valueUSD / liqUSD * 100;
+      let badgeCls = 'liq-ok';
+      let badgeText = '✓ ' + pctOfLiq.toFixed(0) + '% of pool';
+      if (pctOfLiq > 100) {
+        badgeCls = 'liq-stuck';
+        badgeText = '⚠ ' + pctOfLiq.toFixed(0) + '% of pool — STUCK';
+      } else if (pctOfLiq > 30) {
+        badgeCls = 'liq-partial';
+        badgeText = '⚠ ' + pctOfLiq.toFixed(0) + '% of pool — partial exit only';
+      }
+      liquidityBadge = '<div class="liquidity-badge ' + badgeCls + '">' + badgeText + '</div>';
+    } else if (valueUSD && valueUSD > 0) {
+      liquidityBadge = '<div class="liquidity-badge liq-unknown">? no liquidity data</div>';
+    }
+
+    const spark = renderSparkline(mint, 60, 18);
+html += '<li class="position-item" data-mint="' + mint + '">' +
+      '<div><div class="token-name">$' + sym + (spark ? ' <span class="sparkline-cell">' + spark + '</span>' : '') + '</div>' +
+      '<div class="token-meta">' + amount.toFixed(2) + ' @ ' + fmtUSD(entryPrice) + '</div>' +
+      (liquidityBadge ? liquidityBadge : '') +
+      '</div>' +
+      '<div class="token-price">' + valueStr + '</div>' +
+      '<div class="token-change ' + cls + '">' + pnlStr + '</div></li>';
+  }
+
+  ul.innerHTML = html;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[c]));
+}
+
+async function renderWatchlist(watchlist) {
+  const ul = document.getElementById('watchlist');
+  const meta = document.getElementById('watchlist-meta');
+  if (!ul) return;
+  const tokens = watchlist.tokens || [];
+  if (meta) meta.textContent = tokens.length + ' tokens';
+
+  if (tokens.length === 0) {
+    ul.innerHTML = '<li class="loading">No watchlist data yet.</li>';
+    return;
+  }
+
+  // Sort by market cap desc (coerce to numbers)
+  tokens.sort((a, b) => Number(b.market_cap_usd || 0) - Number(a.market_cap_usd || 0));
+
+  ul.innerHTML = tokens.slice(0, 25).map(t => {
+    const sym = String(t.symbol || '?').replace(/[<>&\"]/g, '');
+    const name = String(t.name || '').slice(0, 24).replace(/[<>&\"]/g, '');
+    const mcap = Number(t.market_cap_usd);
+    const liq = Number(t.liquidity_usd);
+    const vol = Number(t.volume_h24);
+    const price = Number(t.price_usd);
+    const chFmt = fmtPct(t.price_change_h24);
+    return '<li class="token-item" data-mint="' + t.mint + '">' +
+      '<div><div class="token-name">$' + sym + ' <span class="token-symbol">' + name + '</span></div>' +
+      '<div class="token-meta">mcap ' + fmtUSD(mcap) + ' · liq ' + fmtUSD(liq) + ' · vol24 ' + fmtUSD(vol) + '</div></div>' +
+      '<div class="token-price">' + fmtUSD(price) + '</div>' +
+      '<div class="token-change ' + chFmt.cls + '">' + chFmt.text + '</div></li>';
+  }).join('');
+}
+
+async function renderTrades(state) {
+  try {
+  const ul = document.getElementById('trades');
+  const summary = document.getElementById('trades-summary');
+  const trades = state.trades || [];
+  const stats = state.trade_stats || {};
+
+  const wins = stats.wins || 0;
+  const losses = stats.losses || 0;
+  const avg = stats.avg_pnl_pct || 0;
+  summary.textContent = `${stats.total} trades · ${wins}W/${losses}L · avg ${avg.toFixed(1)}% · best +${stats.best_pnl_pct}% / worst ${stats.worst_pnl_pct}%`;
+
+  if (trades.length === 0) {
+    ul.innerHTML = '<li class="loading">No closed trades.</li>';
+    return;
+  }
+
+  ul.innerHTML = trades.slice().reverse().slice(0, 20).map(t => {
+    const pnl = Number(t.pnl_pct) || 0;
+    const cls = pnl >= 0 ? 'pos' : 'neg';
+    const sign = pnl >= 0 ? '+' : '';
+    const sol = Number(t.pnl_sol) || 0;
+    const sym = String(t.symbol || '?').replace(/[<>&\"]/g, '');
+    return `<li class="trade-item">
+      <div>
+        <div class="token-name">$${sym}</div>
+        <div class="token-meta">${String(t.exit_reason || '').replace(/[<>&\"]/g, '')}</div>
+      </div>
+      <div class="token-price ${cls}">${sign}${pnl.toFixed(1)}%</div>
+      <div class="token-change ${cls}">${sign}${sol.toFixed(4)} SOL</div>
+    </li>`;
+  }).join('');
+  } catch (e) {
+    console.error('[renderTrades ERROR]', e.message, e.stack);
+    const ul = document.getElementById('trades');
+    if (ul) ul.innerHTML = '<li class="loading">renderTrades error: ' + String(e.message || '').replace(/[<>&\"]/g, '') + '</li>';
+  }
+}
+
+function computeDuration(start, end) {
+  try {
+    const s = new Date(start), e = new Date(end);
+    const sec = Math.round((e - s) / 1000);
+    if (sec < 3600) return Math.round(sec/60) + 'm';
+    if (sec < 86400) return (sec/3600).toFixed(1) + 'h';
+    return (sec/86400).toFixed(1) + 'd';
+  } catch (e) { return '?'; }
+}
+
+async function renderDecisionLog() {
+  const el = document.getElementById('decision-log');
+  if (!el) return;
+  try {
+    const text = await fetchText('decision_log.json');
+    const log = JSON.parse(text);
+    if (!Array.isArray(log) || log.length === 0) {
+      el.innerHTML = '<div class="learning-note">No LLM calls yet — bot will populate this on next tick.</div>';
+      return;
+    }
+    el.innerHTML = log.slice(-3).reverse().map(entry => {
+      const time = entry.time ? new Date(entry.time).toLocaleString() : '?';
+      const resp = String(entry.response || '').slice(0, 600);
+      const action = String(entry.action || 'tick');
+      return '<div class="learning-row"><strong>' + escapeHtml(time) + '</strong> — ' + escapeHtml(action) +
+        '<details style="margin-top:0.4rem"><summary style="cursor:pointer;color:var(--fg-muted)">view response</summary>' +
+        '<pre style="background:rgba(255,255,255,0.05);padding:0.5rem;border-radius:4px;overflow:auto;font-size:0.75rem;margin-top:0.3rem">' +
+        escapeHtml(resp) + '</pre></details></div>';
+    }).join('');
+  } catch (e) {
+    el.innerHTML = '<div class="learning-note">No LLM calls yet.</div>';
+  }
+}
+
+async function renderDecisions(state) {
+  const ul = document.getElementById('decisions');
+
+  // Decisions are bundled in state.json (under "recent_decisions") so we don't
+  // have to make a separate fetch for decisions.md, which MkDocs wraps as HTML.
+  const decisions = state.recent_decisions || [];
+
+  if (decisions.length === 0) {
+    ul.innerHTML = '<li class="loading">No decisions yet. Bot is in observe mode (Phase 1).</li>';
+    return;
+  }
+
+  // Show newest first
+  const recent = decisions.slice(-10).reverse();
+  ul.innerHTML = recent.map(d => `
+    <li class="decision-item">
+      <div class="decision-time">${escapeHtml(d.time)}</div>
+      <span class="decision-action action-${escapeHtml(d.action)}">${escapeHtml(d.action)}</span>
+      ${escapeHtml(d.details)}
+      ${d.reason ? `<div class="token-meta" style="margin-top:0.25rem">${escapeHtml(d.reason)}</div>` : ''}
+    </li>
+  `).join('');
+}
+
+async function refresh() {
+  try {
+    const [state, watchlist, sparklines] = await Promise.all([
+      fetchJSON(STATE_URL),
+      fetchJSON(WATCHLIST_URL),
+      fetchJSON(SPARKLINE_URL).catch(() => ({})),
+    ]);
+    window._sparklines = sparklines;
+    clearError();
+    // Cache the watchlist on state so renderKPIs can compute open-position unrealized PnL
+    state._watchlistCache = watchlist;
+    currentState = state;  // make available to live-price code
+    await renderKPIs(state);
+    try { await renderTrades(state); } catch (e) { console.error('renderTrades:', e); }
+    try { await renderLearning(state); } catch (e) { console.error('renderLearning:', e); }
+    try { await renderHoldings(state, watchlist); } catch (e) { console.error('renderHoldings:', e); }
+    try { await renderWatchlist(watchlist); } catch (e) { console.error('renderWatchlist:', e); }
+    try { await renderDecisions(state); } catch (e) { console.error('renderDecisions:', e); }
+    try { await renderDecisionLog(); } catch (e) { console.error('renderDecisionLog:', e); }
+  } catch (e) {
+    showError('Failed to load dashboard data: ' + e.message + ' — ' + (e.stack || '').split('\n')[1]);
+  }
+}
+
+// Initial load + auto-refresh
+let currentState = {};
+setInterval(() => refresh().then(() => {
+  if (currentState && currentState._watchlistCache) {
+    const allMints = [
+      ...(currentState._watchlistCache.tokens || []).map(t => t.mint),
+      ...Object.keys(currentState.positions || {}),
+    ];
+    updateLiveSubscriptions(allMints);
+    applyLivePrices();
+  }
+}), REFRESH_MS);
+
+// First call kicks things off
+refresh();
+
+// ============================================================================
+// Live price stream — pumpportal.fun WebSocket
+// ============================================================================
+// Subscribes to token trade events for the watchlist + held positions.
+// Prices update in real-time on the page without going through Git/Pages.
+const LIVE_WS_URL = 'wss://pumpportal.fun/api/data';
+const livePrices = {};       // mint -> { priceSol, ts, txType }
+let liveWs = null;
+let liveSubscriptions = new Set();
+
+function setLiveStatus(s) {
+  const el = document.getElementById('live-status');
+  if (el) el.textContent = s;
+}
+
+function connectLiveWS() {
+  try {
+    liveWs = new WebSocket(LIVE_WS_URL);
+  } catch (e) {
+    setLiveStatus('ws blocked');
+    return;
+  }
+  liveWs.onopen = () => {
+    setLiveStatus('● live');
+    if (liveSubscriptions.size > 0) {
+      liveWs.send(JSON.stringify({
+        method: 'subscribeTokenTrade',
+        keys: Array.from(liveSubscriptions),
+      }));
+    }
+  };
+  liveWs.onmessage = (event) => {
+    try {
+      const msg = JSON.parse(event.data);
+      handleLiveMessage(msg);
+    } catch (e) {}
+  };
+  liveWs.onerror = () => setLiveStatus('error');
+  liveWs.onclose = () => {
+    setLiveStatus('reconnecting…');
+    setTimeout(connectLiveWS, 2000);
+  };
+}
+
+function handleLiveMessage(msg) {
+  if (!msg || !msg.mint) return;
+  const mint = msg.mint;
+  if (!liveSubscriptions.has(mint)) return;
+  const solAmount = parseFloat(msg.solAmount) || 0;
+  const tokenAmount = parseFloat(msg.tokenAmount) || 0;
+  if (solAmount > 0 && tokenAmount > 0) {
+    // pumpportal returns amounts in lamports / base units
+    const sol = solAmount / 1e9;
+    const tokens = tokenAmount / 1e6;  // pump.fun tokens are 6 decimals (most common)
+    const priceInSol = sol / tokens;
+    livePrices[mint] = {
+      priceSol: priceInSol,
+      ts: msg.timestamp || Date.now(),
+      txType: msg.txType,
+      source: 'live',
+    };
+    applyLivePrices();
+  }
+}
+
+function resubscribeLive() {
+  if (!liveWs || liveWs.readyState !== WebSocket.OPEN) return;
+  liveWs.send(JSON.stringify({
+    method: 'subscribeTokenTrade',
+    keys: Array.from(liveSubscriptions),
+  }));
+}
+
+function updateLiveSubscriptions(newMints) {
+  const want = new Set(newMints.filter(Boolean));
+  const same = want.size === liveSubscriptions.size &&
+               Array.from(want).every(m => liveSubscriptions.has(m));
+  if (same) return;
+  liveSubscriptions = want;
+  resubscribeLive();
+}
+
+function applyLivePrices() {
+  const solPriceUsd = currentState.last_sol_price_usd || 0;
+  document.querySelectorAll('[data-mint]').forEach(row => {
+    const mint = row.getAttribute('data-mint');
+    const lp = livePrices[mint];
+    if (!lp) return;
+    const priceEl = row.querySelector('.token-price');
+    if (priceEl && lp.priceSol !== undefined) {
+      const priceUsd = lp.priceSol * solPriceUsd;
+      priceEl.textContent = fmtUSD(priceUsd);
+      priceEl.classList.add('price-live');
+      priceEl.title = `Live · ${lp.txType} · ${new Date(lp.ts).toLocaleTimeString()}`;
+    }
+  });
+}
+
+connectLiveWS();
+</script>
+</body>
+</html>

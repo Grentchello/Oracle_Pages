@@ -1,0 +1,269 @@
+<style>
+  body { background: #0a0e14; color: #e8e8e8; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  .tp-container { max-width: 1400px; margin: 0 auto; padding: 0.75rem; }
+  .tp-topbar {
+    background: linear-gradient(135deg, #1a2332, #0f1822);
+    border: 1px solid #2a3441;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    display: flex; flex-wrap: wrap; gap: 1rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+  .tp-topbar .title { font-size: 1rem; font-weight: 700; color: #00d4ff; }
+  .tp-topbar .stat { padding: 0.3rem 0.6rem; background: rgba(255,255,255,0.04); border-radius: 6px; font-size: 0.8rem; }
+  .tp-topbar .stat-label { color: rgba(255,255,255,0.5); margin-right: 0.3rem; }
+  .tp-topbar .stat-pos { color: #10b981; }
+  .tp-topbar .stat-neg { color: #ef4444; }
+
+  .tp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .tp-pair-card {
+    background: #131c28;
+    border: 1px solid #1f2a3a;
+    border-radius: 10px;
+    padding: 0.75rem;
+  }
+  .tp-pair-card .pair-name { font-size: 1rem; font-weight: 700; color: #00d4ff; }
+  .tp-pair-card .price { font-size: 1.3rem; font-weight: 700; margin-top: 0.2rem; }
+  .tp-pair-card .change-pos { color: #10b981; font-size: 0.85rem; }
+  .tp-pair-card .change-neg { color: #ef4444; font-size: 0.85rem; }
+  .tp-pair-card .pair-meta { color: rgba(255,255,255,0.4); font-size: 0.7rem; margin-top: 0.3rem; }
+  .tp-pair-card .strategies { display: flex; gap: 0.3rem; margin-top: 0.5rem; flex-wrap: wrap; }
+  .tp-strategy-pill {
+    background: rgba(0,212,255,0.1);
+    color: #00d4ff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+  }
+  .tp-strategy-pill.active { background: rgba(16,185,129,0.2); color: #10b981; font-weight: 700; }
+
+  .tp-section {
+    background: #131c28;
+    border: 1px solid #1f2a3a;
+    border-radius: 10px;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .tp-section h3 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: rgba(255,255,255,0.6); margin: 0 0 0.5rem 0; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  th, td { padding: 0.5rem; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  th { color: rgba(255,255,255,0.5); font-weight: 600; font-size: 0.7rem; text-transform: uppercase; }
+  td.pos { color: #10b981; }
+  td.neg { color: #ef4444; }
+  tr:last-child td { border-bottom: none; }
+
+  .tp-empty { color: rgba(255,255,255,0.4); padding: 1rem; text-align: center; font-style: italic; }
+
+  .tp-leaderboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+  .tp-leader {
+    background: rgba(255,255,255,0.03);
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 0.85rem;
+  }
+
+  @media (max-width: 600px) {
+    .tp-topbar { font-size: 0.8rem; }
+    .tp-grid { grid-template-columns: 1fr; }
+    table { font-size: 0.75rem; }
+  }
+</style>
+
+<div class="tp-container">
+
+  <div class="tp-topbar">
+    <span class="title">📊 Trading Pairs</span>
+    <span class="stat"><span class="stat-label">Bankroll:</span>$<span id="tp-bankroll">1000</span></span>
+    <span class="stat"><span class="stat-label">Positions:</span><span id="tp-position-count">0</span></span>
+    <span class="stat"><span class="stat-label">P&amp;L:</span><span id="tp-pnl">$0</span></span>
+    <span class="stat"><span class="stat-label">Win rate:</span><span id="tp-winrate">—</span></span>
+    <span class="stat" style="margin-left:auto"><span class="stat-label">Updated:</span><span id="tp-updated">—</span></span>
+  </div>
+
+  <h3 style="color:rgba(255,255,255,0.6);font-size:0.85rem;text-transform:uppercase;margin:0.5rem 0;">Pairs</h3>
+  <div class="tp-grid" id="tp-pairs"></div>
+
+  <div class="tp-section">
+    <h3>Open Positions</h3>
+    <table id="tp-positions">
+      <thead><tr>
+        <th>Pair</th><th>Strategy</th><th>Side</th><th>Size</th><th>Entry</th><th>Current</th><th>P&amp;L</th><th>Held</th>
+      </tr></thead>
+      <tbody><tr><td colspan="8" class="tp-empty">No open positions.</td></tr></tbody>
+    </table>
+  </div>
+
+  <div class="tp-section">
+    <h3>Strategy Leaderboard (Realized P&amp;L)</h3>
+    <div class="tp-leaderboard" id="tp-leaderboard">
+      <div class="tp-empty">No closed trades yet.</div>
+    </div>
+  </div>
+
+  <div class="tp-section">
+    <h3>Recent Trades</h3>
+    <table id="tp-trades">
+      <thead><tr>
+        <th>Pair</th><th>Strategy</th><th>Side</th><th>Entry</th><th>Exit</th><th>P&amp;L</th><th>Reason</th>
+      </tr></thead>
+      <tbody><tr><td colspan="7" class="tp-empty">No trades yet.</td></tr></tbody>
+    </table>
+  </div>
+
+  <div style="text-align:center;color:rgba(255,255,255,0.3);font-size:0.75rem;padding:1rem">
+    Refreshes every 30s · Paper trading · 6 pairs × 4 strategies
+  </div>
+
+</div>
+
+<script>
+const STATE_URL = "/Oracle_Pages/trading-pairs/state.json";
+const fmtUSD = v => {
+  v = Number(v) || 0;
+  if (Math.abs(v) >= 1000) return "$" + (v/1000).toFixed(1) + "k";
+  return "$" + v.toFixed(2);
+};
+const fmtPct = v => (v >= 0 ? "+" : "") + Number(v || 0).toFixed(2) + "%";
+
+function render(state) {
+  // Top bar
+  document.getElementById("tp-bankroll").textContent = (state.bankroll_usd || 0).toFixed(2);
+  document.getElementById("tp-position-count").textContent = Object.keys(state.positions || {}).length;
+  const pnl = state.total_pnl_usd || 0;
+  const pnlEl = document.getElementById("tp-pnl");
+  pnlEl.textContent = (pnl >= 0 ? "+$" : "-$") + Math.abs(pnl).toFixed(2);
+  pnlEl.className = pnl >= 0 ? "stat-pos" : "stat-neg";
+  const trades = state.trades || [];
+  const wins = trades.filter(t => (t.pnl_usd || 0) > 0).length;
+  document.getElementById("tp-winrate").textContent = trades.length > 0
+    ? Math.round(wins / trades.length * 100) + "% (" + wins + "/" + trades.length + ")"
+    : "—";
+  document.getElementById("tp-updated").textContent = state.last_tick
+    ? new Date(state.last_tick).toLocaleTimeString()
+    : "never";
+
+  // Pair cards
+  const pairsGrid = document.getElementById("tp-pairs");
+  pairsGrid.innerHTML = "";
+  const prices = state.prices || {};
+  for (const pair of Object.keys(prices)) {
+    const p = prices[pair];
+    const changeCls = p.change_24h_pct >= 0 ? "change-pos" : "change-neg";
+    // Find open positions for this pair
+    const opens = Object.entries(state.positions || {}).filter(([k, v]) => v.pair === pair);
+    let posHtml = "";
+    if (opens.length > 0) {
+      posHtml = '<div class="strategies">' +
+        opens.map(([k, v]) => {
+          const pnlCls = (v.current_value_usd && v.current_value_usd >= v.size_usd) ? "active" : "";
+          return `<span class="tp-strategy-pill ${pnlCls}">${v.strategy} ${v.side}</span>`;
+        }).join("") + "</div>";
+    }
+    pairsGrid.innerHTML += `
+      <div class="tp-pair-card">
+        <div class="pair-name">${pair}</div>
+        <div class="price">$${Number(p.price).toLocaleString(undefined, {maximumFractionDigits: 4})}</div>
+        <div class="${changeCls}">${fmtPct(p.change_24h_pct)} 24h</div>
+        <div class="pair-meta">high $${Number(p.high_24h).toFixed(2)} · low $${Number(p.low_24h).toFixed(2)}</div>
+        ${posHtml}
+      </div>
+    `;
+  }
+
+  // Open positions table
+  const posTbody = document.querySelector("#tp-positions tbody");
+  const positions = state.positions || {};
+  const posKeys = Object.keys(positions);
+  if (posKeys.length === 0) {
+    posTbody.innerHTML = '<tr><td colspan="8" class="tp-empty">No open positions.</td></tr>';
+  } else {
+    posTbody.innerHTML = posKeys.map(k => {
+      const p = positions[k];
+      const price = prices[p.pair] ? prices[p.pair].price : p.entry_price;
+      const delta_pct = (price - p.entry_price) / p.entry_price * 100;
+      const pnl = p.size_usd * delta_pct / 100;
+      const cls = pnl >= 0 ? "pos" : "neg";
+      const held = p.entry_time ? Math.round((Date.now() - new Date(p.entry_time).getTime()) / 60000) + "m" : "?";
+      return `<tr>
+        <td>${p.pair}</td>
+        <td>${p.strategy}</td>
+        <td class="${cls}">${p.side}</td>
+        <td>$${p.size_usd.toFixed(0)}</td>
+        <td>$${Number(p.entry_price).toFixed(4)}</td>
+        <td>$${Number(price).toFixed(4)}</td>
+        <td class="${cls}">$${pnl >= 0 ? "+" : ""}${pnl.toFixed(2)} (${delta_pct >= 0 ? "+" : ""}${delta_pct.toFixed(1)}%)</td>
+        <td>${held}</td>
+      </tr>`;
+    }).join("");
+  }
+
+  // Strategy leaderboard (aggregate by strategy)
+  const leaderboard = {};
+  for (const t of trades) {
+    const k = t.strategy;
+    if (!leaderboard[k]) leaderboard[k] = {pnl: 0, count: 0, wins: 0};
+    leaderboard[k].pnl += t.pnl_usd || 0;
+    leaderboard[k].count++;
+    if ((t.pnl_usd || 0) > 0) leaderboard[k].wins++;
+  }
+  const lbEl = document.getElementById("tp-leaderboard");
+  const lbKeys = Object.keys(leaderboard);
+  if (lbKeys.length === 0) {
+    lbEl.innerHTML = '<div class="tp-empty">No closed trades yet.</div>';
+  } else {
+    lbKeys.sort((a, b) => leaderboard[b].pnl - leaderboard[a].pnl);
+    lbEl.innerHTML = lbKeys.map(k => {
+      const v = leaderboard[k];
+      const cls = v.pnl >= 0 ? "pos" : "neg";
+      const winrate = v.count > 0 ? Math.round(v.wins / v.count * 100) : 0;
+      return `<div class="tp-leader"><span>${k}</span><span class="${cls}">$${v.pnl >= 0 ? "+" : ""}${v.pnl.toFixed(2)} (${winrate}%)</span></div>`;
+    }).join("");
+  }
+
+  // Recent trades
+  const tradesTbody = document.querySelector("#tp-trades tbody");
+  if (trades.length === 0) {
+    tradesTbody.innerHTML = '<tr><td colspan="7" class="tp-empty">No trades yet.</td></tr>';
+  } else {
+    const recent = trades.slice(-10).reverse();
+    tradesTbody.innerHTML = recent.map(t => {
+      const cls = t.pnl_usd >= 0 ? "pos" : "neg";
+      return `<tr>
+        <td>${t.pair}</td>
+        <td>${t.strategy}</td>
+        <td class="${cls}">${t.side}</td>
+        <td>$${Number(t.entry_price).toFixed(4)}</td>
+        <td>$${Number(t.exit_price).toFixed(4)}</td>
+        <td class="${cls}">$${t.pnl_usd >= 0 ? "+" : ""}${t.pnl_usd.toFixed(2)}</td>
+        <td>${t.exit_reason || ""}</td>
+      </tr>`;
+    }).join("");
+  }
+}
+
+async function refresh() {
+  try {
+    const r = await fetch(STATE_URL + "?nocache=" + Date.now());
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const state = await r.json();
+    render(state);
+  } catch (e) {
+    console.error("Trading pairs dashboard:", e);
+  }
+}
+
+refresh();
+setInterval(refresh, 30000);
+</script>
