@@ -81,17 +81,14 @@ Admin UI for configuring free LLM providers (OpenAI, Claude, Hermes, Gemini, etc
 
 [Open Image Generator →](https://incoming-cowboy-crop-and.trycloudflare.com){ .md-button .md-button--primary }
 
-**What it does:** Pick a workflow, enter a prompt, ComfyUI auto-starts → generates image → shuts down to save RAM.
-
-**Model:** FLUX.2 Klein 4B (GGUF Q8_0, 4 GB) on CPU · Qwen3-4B text encoder · ~2-5 min per image
+**What it does:** Enter a prompt, get an image. Powered by Pollinations AI (free, no account).
 
 **How it works:**
 
-1. Click **Start** (or it auto-starts when you generate)
-2. Type your prompt
-3. Click **Generate** — ComfyUI boots, runs the job, shows the image
-4. ComfyUI auto-stops after 5 min idle to free ~8 GB RAM
+1. Type your prompt
+2. Click **Generate** — image appears in ~2-10 seconds
+3. Click to zoom, download to save
 
-**Features:** Progress bar, generation history, auto lifecycle management
+**Features:** Progress bar, generation history, gallery of all outputs
 
 [View All Generated Images →](https://incoming-cowboy-crop-and.trycloudflare.com/gallery){ .md-button }
