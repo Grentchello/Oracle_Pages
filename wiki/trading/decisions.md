@@ -12001,3 +12001,6 @@
 ## [2026-09-01 10:16 UTC] sell | [FULL][LLM] $CALLOUT at $3.15154e-06 | P&L: +0.3%
 - **Reasoning:** +0.3% is noise, pool $155, no viral narrative. Free up slot and SOL for fresher launches with real attention signals.
 
+## [2026-09-01 10:26 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
