@@ -11578,3 +11578,6 @@
 ## [2026-09-01 04:20 UTC] sell | [PARTIAL][LLM] $3AM at $2.90591e-06 | P&L: -14.1%
 - **Reasoning:** Down -14.1% in 6 minutes with $1 pool liquidity and 183% pool share — exit will get worse fast. No bounce signal, no narrative catalyst. Per discipline: losers exit fast, don't hope for -14% to become -30%.
 
+## [2026-09-01 04:21 UTC] sell | [FULL][LLM] $3AM at $2.90591e-06 | P&L: -14.1%
+- **Reasoning:** $3AM down -14.1% after 0.1h with no bounce signal and pool only $1 — liquidity is dead, this is a slow bleed on a bonding curve. Cut it free, free up the slot for fresher attention.
+
