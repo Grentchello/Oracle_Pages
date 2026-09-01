@@ -11800,3 +11800,9 @@
 ## [2026-09-01 07:35 UTC] buy | [LLM] $LOVERO at $5.599e-06, spent 0.02 SOL
 - **Reasoning:** $LOVERO has a clear character-driven narrative (cartoon romantic with bandage + heart), twitter linked, passes viability gate. $5.6k mcap with story = attention room.
 
+## [2026-09-01 07:36 UTC] sell | [hard-stop] $LOVERO closed at $2.89744e-06 | P&L: -48.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-01 07:37 UTC] sell | [PARTIAL][LLM] $CIV at $2.89702e-06 | P&L: -2.3%
+- **Reasoning:** $CIV pool is only $6 and I own 32% of it — any sell I make will crater the price, and being 32% of a $6 pool means I'm the dominant exit liquidity. Cut the slot loose now before someone else dumps on me, even at -2.3%.
+

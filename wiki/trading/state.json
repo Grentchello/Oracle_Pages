@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.435441,
+  "balance_sol": 0.455579,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "CwakEKjiUWiRPLfgYThrHwn5Lrp6vmLH2w8SwhNaXbdU": {
       "symbol": "CIV",
       "name": "Ivory Coast",
-      "amount": 696633.9759375898,
+      "amount": 348316.9879687949,
       "entry_price_usd": 2.9651152130786303e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-01T07:34:05.247124+00:00",
       "entry_usd_value": 2.0656,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 0.298973887,
         "description": "Ivory Coast is the country token of World Index—a global on-chain ecosystem bringing every nation together in one connected market.",
         "twitter": "https://x.com/solworldindex",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "pYHbWdMytj2rrLctZsjVixDvhtzwEMo5vcYTokrpump": {
-      "symbol": "LOVERO",
-      "name": "LOVERO",
-      "amount": 368923.0219682086,
-      "entry_price_usd": 5.599e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T07:35:29.877276+00:00",
-      "entry_usd_value": 2.0656,
-      "entry_signals": {
-        "liquidity_usd": 1343.62945668896,
-        "volume_24h_usd": 1830.19,
-        "market_cap_usd": 5646.123844480324,
-        "ath_market_cap_usd": 6027.080566396369,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 13.009580332,
-        "description": "Meet LOVERO — a cartoon romantic with a golden bandage, a cheeky grin, and enough heart to turn Web3 noise into a shared community beat.",
-        "twitter": "https://x.com/LOVERO_SOL",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -23729,25 +23707,47 @@
       "pnl_pct": 35.91,
       "exit_reason": "LLM: sell_all — Up +35.9% on bonding curve, pool=$0, share% flag suggests illiquid/deep bonding state. Past +30% threshold and the easy money is on the table — lock t",
       "partial": false
+    },
+    {
+      "mint": "pYHbWdMytj2rrLctZsjVixDvhtzwEMo5vcYTokrpump",
+      "symbol": "LOVERO",
+      "name": "LOVERO",
+      "amount_sold": 368923.0219682086,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T07:35:29.877276+00:00",
+      "exit_time": "2026-09-01T07:36:34.115623+00:00",
+      "entry_price_usd": 5.599e-06,
+      "exit_price_usd": 2.897443057745427e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.010359,
+      "pnl_sol": -0.009641,
+      "pnl_pct": -48.25,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "CwakEKjiUWiRPLfgYThrHwn5Lrp6vmLH2w8SwhNaXbdU",
+      "symbol": "CIV",
+      "name": "Ivory Coast",
+      "amount_sold": 348316.9879687949,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T07:34:05.247124+00:00",
+      "exit_time": "2026-09-01T07:37:44.731698+00:00",
+      "entry_price_usd": 2.9651152130786303e-06,
+      "exit_price_usd": 2.897017273301656e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.009779,
+      "pnl_sol": -0.000221,
+      "pnl_pct": -2.3,
+      "exit_reason": "LLM: sell_all — $CIV pool is only $6 and I own 32% of it — any sell I make will crater the price, and being 32% of a $6 pool means I'm the dominant exit liquidity. Cu",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T07:35:29.877646+00:00",
+  "last_updated": "2026-09-01T07:37:45.000206+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.28,
-  "portfolio_value_usd": 49.1,
+  "last_sol_price_usd": 103.19,
+  "portfolio_value_usd": 48.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 06:54 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $MCAT closed at $6.9155e-09 | P&L: -99.7%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-09-01 07:05 UTC",
-      "action": "buy",
-      "details": "[LLM] $SHITCAT at $3.08474e-06, spent 0.02 SOL",
-      "reason": "$SHITCAT has the strongest attention signal: a real viral cat video (3.7M views, 500K likes). Animal meme narratives pump hard and fast. Fresh launch ($3k mcap), twitter present, narrative is concrete and provable. Standard 0.05 SOL scalp position."
-    },
     {
       "time": "2026-09-01 07:07 UTC",
       "action": "sell",
@@ -23855,40 +23855,63 @@
       "action": "buy",
       "details": "[LLM] $LOVERO at $5.599e-06, spent 0.02 SOL",
       "reason": "$LOVERO has a clear character-driven narrative (cartoon romantic with bandage + heart), twitter linked, passes viability gate. $5.6k mcap with story = attention room."
+    },
+    {
+      "time": "2026-09-01 07:36 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $LOVERO closed at $2.89744e-06 | P&L: -48.2%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-01 07:37 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $CIV at $2.89702e-06 | P&L: -2.3%",
+      "reason": "$CIV pool is only $6 and I own 32% of it — any sell I make will crater the price, and being 32% of a $6 pool means I'm the dominant exit liquidity. Cut the slot loose now before someone else dumps on me, even at -2.3%."
     }
   ],
   "trade_stats": {
-    "total": 1393,
+    "total": 1395,
     "wins": 701,
-    "losses": 692,
+    "losses": 694,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.857204,
-    "avg_pnl_pct": 38.97,
+    "total_pnl_sol": -1.867066,
+    "avg_pnl_pct": 38.87,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 108,
-    "today_realized_sol": 0.030684,
-    "today_target_pct": 7.7,
+    "today_trades": 110,
+    "today_realized_sol": 0.020822,
+    "today_target_pct": 5.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 701,
-      "loss_count": 692,
+      "loss_count": 694,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T07:35:28.511935+00:00",
+  "last_llm_brief_at": "2026-09-01T07:37:44.731551+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "CwakEKjiUWiRPLfgYThrHwn5Lrp6vmLH2w8SwhNaXbdU": {
-      "price_usd": 2.9454461973352255e-06,
+      "price_usd": 2.897017273301656e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 30.87802304936,
+      "liquidity_usd": 6.39316585915,
       "volume_h24": 53.71,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.298973887
+      "real_sol_reserves": 0.061955285
+    },
+    "pYHbWdMytj2rrLctZsjVixDvhtzwEMo5vcYTokrpump": {
+      "price_usd": 2.897443057745427e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 6.62112082435,
+      "volume_h24": 4393.95,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.064164365
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
