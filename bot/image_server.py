@@ -51,13 +51,13 @@ async def start_comfyui():
     except Exception as e:
         print(f"[server] ComfyUI check failed: {e}")
     
-    print("[server] Starting ComfyUI with low-mem mode...")
+    print("[server] Starting ComfyUI (fp16 mode for low RAM)...")
     comfyui_process = subprocess.Popen(
         [str(COMFYUI_PY), "main.py", "--listen", "127.0.0.1", "--port", str(COMFYUI_PORT),
-         "--cpu", "--lowvram", "--disable-cuda-malloc", "--force-fp16", "--async-offload", "2"],
+         "--cpu", "--disable-cuda-malloc", "--force-fp16", "--fp16-unet", "--fp16-text-enc", "--fp16-vae"],
         cwd=str(COMFYUI_DIR),
-        stdout=open("/opt/data/hermes_work/bot/comfyui_out.log", "w"),
-        stderr=subprocess.STDOUT,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
     )
     
     # Wait for ready (poll /system_stats) — ComfyUI can take 30-60s on CPU
@@ -91,9 +91,9 @@ async def stop_comfyui():
         print("[server] ComfyUI stopped")
 
 async def ensure_comfyui():
-    # Local ComfyUI disabled - 4 GB cgroup limit prevents model loading
-    # All requests routed to Pollinations API instead
-    return False
+    if comfyui_ready:
+        return True
+    return await start_comfyui()
 
 # ── Workflow Management ─────────────────────────────────────────────
 
@@ -329,8 +329,27 @@ async def handle_workflows(request):
     return web.json_response(result)
 
 async def handle_generate(request):
-    """Submit a generation job - routes to Pollinations (ComfyUI disabled by cgroup)."""
-    return await handle_pollinations_generate(request)
+    """Submit a generation job."""
+    global comfyui_last_used
+    data = await request.json()
+    workflow_name = data.get("workflow", "sd15_txt2img")
+    prompt_text = data.get("prompt", "")
+    
+    workflows = load_workflows()
+    if workflow_name not in workflows:
+        return web.json_response({"error": f"Unknown workflow: {workflow_name}"}, status=400)
+    
+    wf = workflows[workflow_name]
+    comfyui_last_used = time.time()
+    
+    prompt_id, error = await submit_job(wf["workflow"], prompt_text, wf["prompt_node"])
+    if error:
+        return web.json_response({"error": error}, status=500)
+    
+    # Start background poller
+    asyncio.create_task(_background_poll(prompt_id))
+    
+    return web.json_response({"prompt_id": prompt_id, "status": "pending"})
 
 async def _background_poll(prompt_id):
     """Background task to poll job and shutdown ComfyUI when done."""

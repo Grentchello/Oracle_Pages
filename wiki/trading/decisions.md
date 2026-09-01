@@ -11707,3 +11707,9 @@
 ## [2026-09-01 06:31 UTC] buy | [LLM] $Doc at $5.736e-06, spent 0.02 SOL
 - **Reasoning:** $Doc has the strongest narrative of the batch: riding the viral 'Cog/white cat' X moment, decent $4k mcap, active X link. Attention is fresh and the story is sticky.
 
+## [2026-09-01 06:32 UTC] sell | [hard-stop] $Doc closed at $3.08961e-06 | P&L: -46.1%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-01 06:32 UTC] buy | [LLM] $GRC at $2.968e-06, spent 0.02 SOL
+- **Reasoning:** $GRC (Greece) has a clear narrative — 'country token of World Index, every nation in one ecosystem' — which is a recurring meta (country/region tokens attract patriotic attention). Mcap $2.9k means10x potential is real if the narrative catches. Bond only 1% though, so higher risk; size0.05 SOL.
+
