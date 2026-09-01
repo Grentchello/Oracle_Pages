@@ -11947,3 +11947,6 @@
 ## [2026-09-01 09:18 UTC] buy | [LLM] $DOWN at $5.54857e-06, spent 0.02 SOL
 - **Reasoning:** $DOWN has the strongest organic narrative of the slate — real human-interest story (Mel Capri), active X account, named subject. Sub-$6k mcap + 0.3min old = early attention window. Risk: extremely fresh and sensitive subject may invite backlash. Sizing 0.05 SOL.
 
+## [2026-09-01 09:23 UTC] sell | [FULL][LLM] $DOWN at $5.55626e-06 | P&L: +0.1%
+- **Reasoning:** $DOWN is flat (+0.1%) after 6 minutes on a tiny $1211 pool with 0% share. No attention signal, no momentum, no narrative. Slot is better used on a fresh launch with viral potential.
+

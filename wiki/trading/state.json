@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.443198,
+  "balance_sol": 0.463226,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "B7Qb2Mm4uRwwZbGFJT8VgKjJh8SCWScAn88TLGRxpump": {
-      "symbol": "DOWN",
-      "name": "Are You Down?",
-      "amount": 367554.38956090464,
-      "entry_price_usd": 5.54856657387863e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T09:18:45.901942+00:00",
-      "entry_usd_value": 2.0394,
-      "entry_signals": {
-        "liquidity_usd": 1211.49047038437,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5559.347325094459,
-        "ath_market_cap_usd": 5552.087185272125,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 11.880851921,
-        "description": "Mel Capri, selected as the world's most beautiful beauty with Down syndrome, shared new photos. https://x.com/iconmedyaa/status/2094522128317989280?s=20",
-        "twitter": "https://x.com/iconmedyaa/status/2094522128317989280?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24268,19 +24245,30 @@
       "pnl_pct": -2.87,
       "exit_reason": "LLM: sell_all — $MOONER at -2.9% with 0.1h held, pool showing only $1 (likely illiquid/stale data), no bounce signal and bonding-curve structure. Cut the loss and fre",
       "partial": false
+    },
+    {
+      "mint": "B7Qb2Mm4uRwwZbGFJT8VgKjJh8SCWScAn88TLGRxpump",
+      "symbol": "DOWN",
+      "name": "Are You Down?",
+      "amount_sold": 367554.38956090464,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T09:18:45.901942+00:00",
+      "exit_time": "2026-09-01T09:23:34.811876+00:00",
+      "entry_price_usd": 5.54856657387863e-06,
+      "exit_price_usd": 5.55625868596235e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020028,
+      "pnl_sol": 2.8e-05,
+      "pnl_pct": 0.14,
+      "exit_reason": "LLM: sell_all — $DOWN is flat (+0.1%) after 6 minutes on a tiny $1211 pool with 0% share. No attention signal, no momentum, no narrative. Slot is better used on a fre",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T09:22:05.226005+00:00",
+  "last_updated": "2026-09-01T09:23:35.327233+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.96,
-  "portfolio_value_usd": 47.23,
+  "last_sol_price_usd": 101.97,
+  "portfolio_value_usd": 47.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 08:43 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $DVP at $2.30112e-05 | P&L: +81.5%",
-      "reason": "DVP is up 81.5%, crossing the first aggressive profit-taking threshold; the bonding-curve pool is only $5,630, so momentum can reverse quickly. Sell half to lock in gains while retaining exposure if attention continues."
-    },
     {
       "time": "2026-09-01 08:44 UTC",
       "action": "sell",
@@ -24394,35 +24382,41 @@
       "action": "buy",
       "details": "[LLM] $DOWN at $5.54857e-06, spent 0.02 SOL",
       "reason": "$DOWN has the strongest organic narrative of the slate — real human-interest story (Mel Capri), active X account, named subject. Sub-$6k mcap + 0.3min old = early attention window. Risk: extremely fresh and sensitive subject may invite backlash. Sizing 0.05 SOL."
+    },
+    {
+      "time": "2026-09-01 09:23 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DOWN at $5.55626e-06 | P&L: +0.1%",
+      "reason": "$DOWN is flat (+0.1%) after 6 minutes on a tiny $1211 pool with 0% share. No attention signal, no momentum, no narrative. Slot is better used on a fresh launch with viral potential."
     }
   ],
   "trade_stats": {
-    "total": 1426,
-    "wins": 720,
+    "total": 1427,
+    "wins": 721,
     "losses": 706,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.869446,
-    "avg_pnl_pct": 38.47,
+    "total_pnl_sol": -1.869418,
+    "avg_pnl_pct": 38.44,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 141,
-    "today_realized_sol": 0.018442,
+    "today_trades": 142,
+    "today_realized_sol": 0.01847,
     "today_target_pct": 4.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 720,
+      "win_count": 721,
       "loss_count": 706,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T09:22:04.982280+00:00",
+  "last_llm_brief_at": "2026-09-01T09:23:34.811841+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "B7Qb2Mm4uRwwZbGFJT8VgKjJh8SCWScAn88TLGRxpump": {
-      "price_usd": 5.55571379445642e-06,
+      "price_usd": 5.55625868596235e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1211.37166186516,
+      "liquidity_usd": 1211.49047038437,
       "volume_h24": 1210.57,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
