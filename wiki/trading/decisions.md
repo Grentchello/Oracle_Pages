@@ -11770,3 +11770,6 @@
 ## [2026-09-01 07:21 UTC] buy | [LLM] $HOLA at $2.97e-06, spent 0.02 SOL
 - **Reasoning:** HOLA pairs a resilience/community narrative with a listed X account and a sub-$3.1K mcap shortly after launch. The signal is weaker than APECOIN but still offers high attention-to-price leverage with severe early-launch risk.
 
+## [2026-09-01 07:28 UTC] buy | [LLM] $DANCECLUB at $3.527e-06, spent 0.02 SOL
+- **Reasoning:** $DANCECLUB — dedicated @absurddanceclub twitter, sharp absurd-meme angle ('dancing strange / confidence sky high'), $3k mcap 1 min old. Strongest narrative + real social handle of the batch; classic viral-attention setup.
+
