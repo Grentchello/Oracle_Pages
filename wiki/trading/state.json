@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.428426,
+  "balance_sol": 0.445331,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "95FjuqTssKcRgfiT69N32eLDAUH6BoGiwbiqyvPPpump": {
       "symbol": "$botfuk",
       "name": "$botfuk",
-      "amount": 613747.2318634781,
+      "amount": 230155.21194880427,
       "entry_price_usd": 3.32808018343023e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-01T09:26:37.742945+00:00",
       "entry_usd_value": 2.0425999999999997,
       "entry_signals": {
@@ -24319,25 +24319,47 @@
       "pnl_pct": -29.48,
       "exit_reason": "LLM: sell_all — $SEMI is at -29.5%, nearly at the -30% hard stop. Pool only $229, our share 1% — exit now before the hard stop kicks in and to free a position slot. S",
       "partial": false
+    },
+    {
+      "mint": "95FjuqTssKcRgfiT69N32eLDAUH6BoGiwbiqyvPPpump",
+      "symbol": "$botfuk",
+      "name": "$botfuk",
+      "amount_sold": 153436.80796586952,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-01T09:26:37.742945+00:00",
+      "exit_time": "2026-09-01T09:38:30.651145+00:00",
+      "entry_price_usd": 3.32808018343023e-06,
+      "exit_price_usd": 4.500391025893572e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.006762,
+      "pnl_sol": 0.001762,
+      "pnl_pct": 35.22,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "95FjuqTssKcRgfiT69N32eLDAUH6BoGiwbiqyvPPpump",
+      "symbol": "$botfuk",
+      "name": "$botfuk",
+      "amount_sold": 230155.21194880427,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T09:26:37.742945+00:00",
+      "exit_time": "2026-09-01T09:38:53.914184+00:00",
+      "entry_price_usd": 3.32808018343023e-06,
+      "exit_price_usd": 4.500391025893572e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.010143,
+      "pnl_sol": 0.002643,
+      "pnl_pct": 35.22,
+      "exit_reason": "LLM: sell_half — Up +35.2% — bot already triggered +30% TP at 25% sell level. Take half off the table, let the other half ride if the narrative catches on. Locking gai",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T09:37:27.160094+00:00",
+  "last_updated": "2026-09-01T09:38:54.165641+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.16,
-  "portfolio_value_usd": 45.81,
+  "last_sol_price_usd": 102.12,
+  "portfolio_value_usd": 46.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 08:59 UTC",
-      "action": "buy",
-      "details": "[LLM] $RISE at $5.17748e-06, spent 0.02 SOL",
-      "reason": "$RISE has the clearest narrative: '60% of supply airdropped to top 15 holders' is a viral attention mechanic that drives FOMO buying. Sub-$5k mcap, very fresh (0.3min), real twitter presence. Best attention-to-mcap ratio in the batch."
-    },
-    {
-      "time": "2026-09-01 09:02 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-01 09:03 UTC",
       "action": "sell",
@@ -24445,40 +24467,52 @@
       "action": "sell",
       "details": "[FULL][LLM] $SEMI at $3.2995e-06 | P&L: -29.5%",
       "reason": "$SEMI is at -29.5%, nearly at the -30% hard stop. Pool only $229, our share 1% — exit now before the hard stop kicks in and to free a position slot. Stale, no narrative, no reason to hold a -30% bag in a 0% bonding-curve coin."
+    },
+    {
+      "time": "2026-09-01 09:38 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $$botfuk at $4.50039e-06 | P&L: +35.2%",
+      "reason": "Auto take-profit at +35.2%"
+    },
+    {
+      "time": "2026-09-01 09:38 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $$botfuk at $4.50039e-06 | P&L: +35.2%",
+      "reason": "Up +35.2% — bot already triggered +30% TP at 25% sell level. Take half off the table, let the other half ride if the narrative catches on. Locking gain is the rule."
     }
   ],
   "trade_stats": {
-    "total": 1429,
-    "wins": 721,
+    "total": 1431,
+    "wins": 723,
     "losses": 708,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.884218,
-    "avg_pnl_pct": 38.34,
+    "total_pnl_sol": -1.879813,
+    "avg_pnl_pct": 38.33,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 144,
-    "today_realized_sol": 0.00367,
-    "today_target_pct": 0.9,
+    "today_trades": 146,
+    "today_realized_sol": 0.008075,
+    "today_target_pct": 2.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 721,
+      "win_count": 723,
       "loss_count": 708,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T09:37:26.911352+00:00",
+  "last_llm_brief_at": "2026-09-01T09:38:53.914146+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "95FjuqTssKcRgfiT69N32eLDAUH6BoGiwbiqyvPPpump": {
-      "price_usd": 3.865847393785583e-06,
+      "price_usd": 4.500391025893572e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 500.72333959959997,
-      "volume_h24": 1028.26,
+      "liquidity_usd": 782.6810621089201,
+      "volume_h24": 1432.9,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.901363935
+      "real_sol_reserves": 7.664326891
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

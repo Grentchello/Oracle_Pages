@@ -11965,3 +11965,9 @@
 ## [2026-09-01 09:34 UTC] sell | [FULL][LLM] $SEMI at $3.2995e-06 | P&L: -29.5%
 - **Reasoning:** $SEMI is at -29.5%, nearly at the -30% hard stop. Pool only $229, our share 1% — exit now before the hard stop kicks in and to free a position slot. Stale, no narrative, no reason to hold a -30% bag in a 0% bonding-curve coin.
 
+## [2026-09-01 09:38 UTC] sell | [TP +30% (25%)] $$botfuk at $4.50039e-06 | P&L: +35.2%
+- **Reasoning:** Auto take-profit at +35.2%
+
+## [2026-09-01 09:38 UTC] sell | [PARTIAL][LLM] $$botfuk at $4.50039e-06 | P&L: +35.2%
+- **Reasoning:** Up +35.2% — bot already triggered +30% TP at 25% sell level. Take half off the table, let the other half ride if the narrative catches on. Locking gain is the rule.
+
