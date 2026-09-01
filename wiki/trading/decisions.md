@@ -11644,3 +11644,6 @@
 ## [2026-09-01 05:24 UTC] sell | [hard-stop] $MOUSE closed at $3.43724e-06 | P&L: -44.9%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-01 05:40 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
