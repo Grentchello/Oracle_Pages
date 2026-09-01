@@ -1,8 +1,53 @@
 {
-  "balance_sol": 0.451826,
+  "balance_sol": 0.411826,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "2wzFYBLjdLnewviRv7sxGYRJX9i9pgRv92oV4MR2pump": {
+      "symbol": "GSHIBA",
+      "name": "GIGA SHIBA",
+      "amount": 221422.6848839731,
+      "entry_price_usd": 9.222e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-01T09:46:57.998872+00:00",
+      "entry_usd_value": 2.04196,
+      "entry_signals": {
+        "liquidity_usd": 2946.909842506144,
+        "volume_24h_usd": 3099.1,
+        "market_cap_usd": 9914.609236832393,
+        "ath_market_cap_usd": 10798.486972367515,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 28.863541328,
+        "description": "Long before anyone called him GIGA SHIBA, he lived alone among the ruins above a restless city.",
+        "twitter": "https://x.com/GIGA_SHIBA",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "G54wkdZChmFsETFVh7iJwiveY1ccYzSbWU9LnwE4pump": {
+      "symbol": "MORLI",
+      "name": "MORLI",
+      "amount": 234789.00770380592,
+      "entry_price_usd": 8.697e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-01T09:46:59.298294+00:00",
+      "entry_usd_value": 2.04196,
+      "entry_signals": {
+        "liquidity_usd": 1990.766208598222,
+        "volume_24h_usd": 2858.61,
+        "market_cap_usd": 8897.41371670198,
+        "ath_market_cap_usd": 9207.300617917668,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 19.498581839,
+        "description": "Morli is a tiny forest troublemaker with a big mushroom, terrible ideas, and absolutely no plans to behave.",
+        "twitter": "https://x.com/itsmorli",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24349,23 +24394,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-01T09:45:02.219477+00:00",
+  "last_updated": "2026-09-01T09:46:59.298545+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.22,
-  "portfolio_value_usd": 46.19,
+  "last_sol_price_usd": 102.098,
+  "portfolio_value_usd": 46.13,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 09:04 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $RISE at $6.98348e-06 | P&L: +34.9%",
-      "reason": "Auto take-profit at +34.9%"
-    },
-    {
-      "time": "2026-09-01 09:05 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $TRCAT at $2.92256e-06 | P&L: +1.6%",
-      "reason": "+$1.6% after 6min on a $37 pool is dead money. Bonding curve at 27% complete with tiny liquidity means I can't exit at scale anyway. Better to free the slot and recycle into a fresh launch with real attention."
-    },
     {
       "time": "2026-09-01 09:05 UTC",
       "action": "sell",
@@ -24473,6 +24506,18 @@
       "action": "sell",
       "details": "[FULL][LLM] $$botfuk at $2.88203e-06 | P&L: -13.4%",
       "reason": "Held 0.2h at -13.4%, not yet -20% but trending down with weak bounce signal. -30% stop is not far; cutting now locks a small manageable loss and frees the slot for fresh attention. Discipline beats hope."
+    },
+    {
+      "time": "2026-09-01 09:46 UTC",
+      "action": "buy",
+      "details": "[LLM] $GSHIBA at $9.222e-06, spent 0.02 SOL",
+      "reason": "$GSHIBA passes viability (103-char origin-lore desc, twitter handle) and clears the fragility blocklist. Strong prequel-narrative hook for a $9.9k mcap, fresh attention from a dedicated X account. Risk: brand-new launch, bond only 32% — size kept to 0.05 SOL."
+    },
+    {
+      "time": "2026-09-01 09:46 UTC",
+      "action": "buy",
+      "details": "[LLM] $MORLI at $8.697e-06, spent 0.02 SOL",
+      "reason": "$MORLI passes viability (79-char character desc, twitter), clean of blocklist. Original IP (forest troublemaker + mushroom mascot) at $8.9k mcap is the kind of fresh-attention play that 10x's if the art catches. Risk: same — minutes-old, bond 30%, small size to manage exposure."
     }
   ],
   "trade_stats": {
@@ -24494,7 +24539,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T09:45:01.685501+00:00",
+  "last_llm_brief_at": "2026-09-01T09:46:56.626343+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",

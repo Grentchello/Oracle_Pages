@@ -11974,3 +11974,9 @@
 ## [2026-09-01 09:40 UTC] sell | [FULL][LLM] $$botfuk at $2.88203e-06 | P&L: -13.4%
 - **Reasoning:** Held 0.2h at -13.4%, not yet -20% but trending down with weak bounce signal. -30% stop is not far; cutting now locks a small manageable loss and frees the slot for fresh attention. Discipline beats hope.
 
+## [2026-09-01 09:46 UTC] buy | [LLM] $GSHIBA at $9.222e-06, spent 0.02 SOL
+- **Reasoning:** $GSHIBA passes viability (103-char origin-lore desc, twitter handle) and clears the fragility blocklist. Strong prequel-narrative hook for a $9.9k mcap, fresh attention from a dedicated X account. Risk: brand-new launch, bond only 32% — size kept to 0.05 SOL.
+
+## [2026-09-01 09:46 UTC] buy | [LLM] $MORLI at $8.697e-06, spent 0.02 SOL
+- **Reasoning:** $MORLI passes viability (79-char character desc, twitter), clean of blocklist. Original IP (forest troublemaker + mushroom mascot) at $8.9k mcap is the kind of fresh-attention play that 10x's if the art catches. Risk: same — minutes-old, bond 30%, small size to manage exposure.
+
