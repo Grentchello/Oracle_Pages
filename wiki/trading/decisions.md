@@ -11758,3 +11758,9 @@
 ## [2026-09-01 07:16 UTC] buy | [LLM] $OGGoPro at $3.089e-06, spent 0.02 SOL
 - **Reasoning:** $OGGoPro — nostalgia play with cultural cache. Real GoPro twitter attached (@gopro), desc anchors a concrete product (2004 GoPro Hero 35mm film camera). $3,672 mcap is fresh but twitter link to a major brand account gives it attention potential if the post takes off. Passes viability + fragility gates. Buying 0.05 SOL.
 
+## [2026-09-01 07:20 UTC] sell | [FULL][LLM] $OGGoPro at $3.06955e-06 | P&L: -0.6%
+- **Reasoning:** Held 6 minutes at -0.6% on tiny $96 pool with 2% ownership. No clear narrative momentum and stale/flat — exit to free slot for fresh attention plays.
+
+## [2026-09-01 07:20 UTC] buy | [LLM] $XBROKE at $3.68533e-06, spent 0.02 SOL
+- **Reasoning:** XBROKE rides Musk's X Money rollout tweet — direct celebrity narrative with massive reach, but ME2F fragility gate likely blocks (musk keyword). Bot will check fragility.
+
