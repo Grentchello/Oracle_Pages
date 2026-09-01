@@ -11527,3 +11527,6 @@
 ## [2026-09-01 03:24 UTC] buy | [LLM] $CEO at $7.243e-06, spent 0.02 SOL
 - **Reasoning:** $CEO (Cat Executive Officer) is the only candidate passing both viability and fragility gates. $4.5k mcap, 0.7min old, has a narrative about rewarding community participants. Cat + corporate meme is a solid attention hook. Risk: sub-$5k mcap tokens are volatile, but that's where the 10x lives.
 
+## [2026-09-01 03:25 UTC] sell | [hard-stop] $CEO closed at $4.74647e-06 | P&L: -34.5%
+- **Reasoning:** Hard -30% stop
+
