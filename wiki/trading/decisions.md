@@ -11911,3 +11911,6 @@
 ## [2026-09-01 09:02 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-01 09:03 UTC] sell | [PARTIAL][LLM] $RISE at $6.40636e-06 | P&L: +23.7%
+- **Reasoning:** $RISE +23.7% with pool $1527 is solid — lock half the gain now per profit-taking discipline. our_share=0% is concerning but the +20% trigger means take profit on doubt. Leave half for runner potential.
+
