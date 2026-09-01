@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.445664,
+  "balance_sol": 0.454365,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DvP66AAAxpHqy3xCcbSBUuJFGU2XF4QVwiqsjuW1puMP": {
       "symbol": "DVP",
       "name": "DVP",
-      "amount": 60485.01577287067,
+      "amount": 22681.8809148265,
       "entry_price_usd": 1.268e-05,
-      "entry_sol_spent": 0.0075,
+      "entry_sol_spent": 0.0028125,
       "entry_time": "2026-09-01T08:39:18.672573+00:00",
       "entry_usd_value": 2.0452000000000004,
       "entry_signals": {
@@ -23996,25 +23996,47 @@
       "pnl_pct": 46.93,
       "exit_reason": "LLM: sell_half — Up +46.9% already, no narrative info shown, and bot's TP ladder should auto-take-profit at +50%. Selling half locks the gain; let the other half ride ",
       "partial": true
+    },
+    {
+      "mint": "DvP66AAAxpHqy3xCcbSBUuJFGU2XF4QVwiqsjuW1puMP",
+      "symbol": "DVP",
+      "name": "DVP",
+      "amount_sold": 15121.253943217667,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-01T08:39:18.672573+00:00",
+      "exit_time": "2026-09-01T08:41:47.934773+00:00",
+      "entry_price_usd": 1.268e-05,
+      "exit_price_usd": 2.3500494149909887e-05,
+      "entry_sol_for_chunk": 0.001875,
+      "exit_sol_received": 0.00348,
+      "pnl_sol": 0.001605,
+      "pnl_pct": 85.34,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "DvP66AAAxpHqy3xCcbSBUuJFGU2XF4QVwiqsjuW1puMP",
+      "symbol": "DVP",
+      "name": "DVP",
+      "amount_sold": 22681.8809148265,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T08:39:18.672573+00:00",
+      "exit_time": "2026-09-01T08:42:21.768323+00:00",
+      "entry_price_usd": 1.268e-05,
+      "exit_price_usd": 2.3500494149909887e-05,
+      "entry_sol_for_chunk": 0.002812,
+      "exit_sol_received": 0.005221,
+      "pnl_sol": 0.002408,
+      "pnl_pct": 85.34,
+      "exit_reason": "LLM: sell_half — Up +85.3% with very small pool ($5725) — high volatility risk. Lock half the gain now and let runner ride toward +200% TP. If bot auto-fired TP at +10",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T08:40:44.759206+00:00",
+  "last_updated": "2026-09-01T08:42:22.085613+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.29,
-  "portfolio_value_usd": 47.03,
+  "last_sol_price_usd": 102.1,
+  "portfolio_value_usd": 46.68,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 08:00 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $RISE at $5.80403e-06 | P&L: +11.0%",
-      "reason": "RISE up +11% already in 0.0h on tiny $1296 pool — classic volatile microcap. Lock half the gain now per profit-taking discipline; let the rest ride if narrative holds. Pool is too thin to trust a full hold."
-    },
-    {
-      "time": "2026-09-01 08:01 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $ASPIE at $5.83451e-06 | P&L: +31.3%",
-      "reason": "Auto take-profit at +31.3%"
-    },
     {
       "time": "2026-09-01 08:02 UTC",
       "action": "sell",
@@ -24122,40 +24144,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $DVP at $1.86304e-05 | P&L: +46.9%",
       "reason": "Up +46.9% already, no narrative info shown, and bot's TP ladder should auto-take-profit at +50%. Selling half locks the gain; let the other half ride if it breaks out, or get stopped at -30% on the remainder. Holding full position at +46% with no clear catalyst is greedy."
+    },
+    {
+      "time": "2026-09-01 08:41 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $DVP at $2.35005e-05 | P&L: +85.3%",
+      "reason": "Auto take-profit at +85.3%"
+    },
+    {
+      "time": "2026-09-01 08:42 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $DVP at $2.35005e-05 | P&L: +85.3%",
+      "reason": "Up +85.3% with very small pool ($5725) — high volatility risk. Lock half the gain now and let runner ride toward +200% TP. If bot auto-fired TP at +100% already (50%), this is redundant and I should sell_all. Given uncertainty, sell_half is the safer call."
     }
   ],
   "trade_stats": {
-    "total": 1410,
-    "wins": 707,
+    "total": 1412,
+    "wins": 709,
     "losses": 703,
-    "win_rate_pct": 50.1,
-    "total_pnl_sol": -1.879481,
-    "avg_pnl_pct": 38.47,
+    "win_rate_pct": 50.2,
+    "total_pnl_sol": -1.875468,
+    "avg_pnl_pct": 38.54,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 125,
-    "today_realized_sol": 0.008407,
-    "today_target_pct": 2.1,
+    "today_trades": 127,
+    "today_realized_sol": 0.01242,
+    "today_target_pct": 3.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 707,
+      "win_count": 709,
       "loss_count": 703,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T08:40:44.243789+00:00",
+  "last_llm_brief_at": "2026-09-01T08:42:21.768287+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DvP66AAAxpHqy3xCcbSBUuJFGU2XF4QVwiqsjuW1puMP": {
-      "price_usd": 1.8630414669933552e-05,
+      "price_usd": 2.3500494149909887e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4763.5824315431,
-      "volume_h24": 35731.84,
+      "liquidity_usd": 5725.4413390138,
+      "volume_h24": 56777.93,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 46.56938539
+      "real_sol_reserves": 56.076800578
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

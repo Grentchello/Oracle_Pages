@@ -11878,3 +11878,9 @@
 ## [2026-09-01 08:40 UTC] sell | [PARTIAL][LLM] $DVP at $1.86304e-05 | P&L: +46.9%
 - **Reasoning:** Up +46.9% already, no narrative info shown, and bot's TP ladder should auto-take-profit at +50%. Selling half locks the gain; let the other half ride if it breaks out, or get stopped at -30% on the remainder. Holding full position at +46% with no clear catalyst is greedy.
 
+## [2026-09-01 08:41 UTC] sell | [TP +30% (25%)] $DVP at $2.35005e-05 | P&L: +85.3%
+- **Reasoning:** Auto take-profit at +85.3%
+
+## [2026-09-01 08:42 UTC] sell | [PARTIAL][LLM] $DVP at $2.35005e-05 | P&L: +85.3%
+- **Reasoning:** Up +85.3% with very small pool ($5725) — high volatility risk. Lock half the gain now and let runner ride toward +200% TP. If bot auto-fired TP at +100% already (50%), this is redundant and I should sell_all. Given uncertainty, sell_half is the safer call.
+
