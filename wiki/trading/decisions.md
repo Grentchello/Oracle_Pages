@@ -11326,3 +11326,6 @@
 ## [2026-09-01 01:44 UTC] sell | [FULL][LLM] $jails2ool at $2.8876e-06 | P&L: -2.2%
 - **Reasoning:** Pool=$0 means no real liquidity has formed — still just a bonding curve with no exit depth. At -2.2% this is a clean exit. Free up the slot for better candidates.
 
+## [2026-09-01 01:49 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
