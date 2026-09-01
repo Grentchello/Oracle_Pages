@@ -55,9 +55,12 @@ button:disabled{opacity:0.4;cursor:not-allowed}
 
   <div class="card">
     <h2>Generate Image</h2>
-    <label>Workflow</label>
-    <select id="workflow-select" onchange="onWorkflowChange()"></select>
-    <p id="workflow-desc" style="color:#666;font-size:0.8rem;margin:-8px 0 12px"></p>
+    <label>Mode</label>
+    <select id="workflow-select" onchange="onWorkflowChange()">
+      <option value="">⚡ Fast (cloud, 2-10 sec)</option>
+      <option value="sd15_txt2img">🎨 Local SD 1.5 (CPU, 15-30 min)</option>
+    </select>
+    <p id="workflow-desc" style="color:#666;font-size:0.8rem;margin:-8px 0 12px">⚡ Cloud mode — fast, works on any prompt</p>
     <label>Prompt</label>
     <textarea id="prompt-input" placeholder="a beautiful sunset over mountains, photorealistic, 4k"></textarea>
     <button onclick="generate()" id="btn-generate">✨ Generate</button>
@@ -80,7 +83,6 @@ let polling = null;
 
 // ── Init ──────────────────────────────────────
 async function init() {
-  await loadWorkflows();
   setInterval(checkComfyui, 15000);
 }
 
@@ -128,9 +130,12 @@ async function stopComfyui() {
 
   <div class="card">
     <h2>Generate Image</h2>
-    <label>Workflow</label>
-    <select id="workflow-select" onchange="onWorkflowChange()"></select>
-    <p id="workflow-desc" style="color:#666;font-size:0.8rem;margin:-8px 0 12px"></p>
+    <label>Mode</label>
+    <select id="workflow-select" onchange="onWorkflowChange()">
+      <option value="">⚡ Fast (cloud, 2-10 sec)</option>
+      <option value="sd15_txt2img">🎨 Local SD 1.5 (CPU, 15-30 min)</option>
+    </select>
+    <p id="workflow-desc" style="color:#666;font-size:0.8rem;margin:-8px 0 12px">⚡ Cloud mode — fast, works on any prompt</p>
     <label>Prompt</label>
     <textarea id="prompt-input" placeholder="a beautiful sunset over mountains, photorealistic, 4k"></textarea>
 

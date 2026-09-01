@@ -81,13 +81,18 @@ Admin UI for configuring free LLM providers (OpenAI, Claude, Hermes, Gemini, etc
 
 [Open Image Generator →](https://incoming-cowboy-crop-and.trycloudflare.com){ .md-button .md-button--primary }
 
-**What it does:** Enter a prompt, get an image. Powered by Pollinations AI (free, no account).
+**What it does:** Enter a prompt, get an image. Two modes:
+
+**⚡ Fast mode (default)** — Pollinations AI cloud (2-10 sec)
+
+**🎨 Local SD 1.5** — Runs on this server CPU (15-30 min, free, private)
 
 **How it works:**
 
-1. Type your prompt
-2. Click **Generate** — image appears in ~2-10 seconds
-3. Click to zoom, download to save
+1. Choose mode (Fast recommended)
+2. Type your prompt
+3. Click **Generate** — image appears
+4. Click to zoom, download to save
 
 **Features:** Progress bar, generation history, gallery of all outputs
 

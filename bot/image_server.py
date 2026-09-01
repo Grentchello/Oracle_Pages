@@ -329,26 +329,29 @@ async def handle_workflows(request):
     return web.json_response(result)
 
 async def handle_generate(request):
-    """Submit a generation job."""
-    global comfyui_last_used
+    """Submit a generation job - uses Pollinations by default, local ComfyUI if workflow specified."""
     data = await request.json()
-    workflow_name = data.get("workflow", "sd15_txt2img")
+    workflow_name = data.get("workflow", "")
     prompt_text = data.get("prompt", "")
     
+    # If no workflow or "fast" specified, use Pollinations (fast, cloud)
+    if not workflow_name or workflow_name == "fast":
+        return await handle_pollinations_generate(request)
+    
+    # If a local workflow specified, use ComfyUI (slow on CPU)
     workflows = load_workflows()
     if workflow_name not in workflows:
         return web.json_response({"error": f"Unknown workflow: {workflow_name}"}, status=400)
     
     wf = workflows[workflow_name]
+    global comfyui_last_used
     comfyui_last_used = time.time()
     
     prompt_id, error = await submit_job(wf["workflow"], prompt_text, wf["prompt_node"])
     if error:
         return web.json_response({"error": error}, status=500)
     
-    # Start background poller
     asyncio.create_task(_background_poll(prompt_id))
-    
     return web.json_response({"prompt_id": prompt_id, "status": "pending"})
 
 async def _background_poll(prompt_id):
