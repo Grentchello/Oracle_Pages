@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.391102,
+  "balance_sol": 0.402923,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "HVa8mNUD2b3JQnPARL2XXQea7z15fj3PPxwTcZihpump": {
       "symbol": "Wolf",
       "name": "The White Wolf 🐺🌕",
-      "amount": 355922.74143816164,
+      "amount": 177961.37071908082,
       "entry_price_usd": 5.747314688953092e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-01T12:00:59.356886+00:00",
       "entry_usd_value": 2.0456,
       "entry_signals": {
@@ -24863,19 +24863,30 @@
       "pnl_pct": -1.69,
       "exit_reason": "LLM: sell_all — Pool is only $6 and we hold 17% — we ARE the liquidity. Any further drop accelerates and we can't exit cleanly. -1.7% loss is acceptable; becoming exi",
       "partial": false
+    },
+    {
+      "mint": "HVa8mNUD2b3JQnPARL2XXQea7z15fj3PPxwTcZihpump",
+      "symbol": "Wolf",
+      "name": "The White Wolf 🐺🌕",
+      "amount_sold": 177961.37071908082,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T12:00:59.356886+00:00",
+      "exit_time": "2026-09-01T12:05:13.466234+00:00",
+      "entry_price_usd": 5.747314688953092e-06,
+      "exit_price_usd": 6.795260894536229e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011821,
+      "pnl_sol": 0.001821,
+      "pnl_pct": 18.23,
+      "exit_reason": "LLM: sell_half — $Wolf up +18.2% after only 6 min, bonding-curve pool still tiny ($1.6k), and mcap only $12k-range. Lock half the gain now — thin liquidity means any r",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T12:03:51.526941+00:00",
+  "last_updated": "2026-09-01T12:05:13.759603+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.14,
-  "portfolio_value_usd": 41.99,
+  "last_sol_price_usd": 102.3,
+  "portfolio_value_usd": 42.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 11:36 UTC",
-      "action": "buy",
-      "details": "[LLM] $APEPE at $4.117e-06, spent 0.02 SOL",
-      "reason": "$APEPE combines a recognizable Pepe narrative with a fresh final-form concept and a live X account, which can attract quick attention. Its $4.1K mcap and 14% bond make it a speculative but potentially viral second position."
-    },
     {
       "time": "2026-09-01 11:37 UTC",
       "action": "sell",
@@ -24989,40 +25000,46 @@
       "action": "buy",
       "details": "[LLM] $Wolf at $5.74731e-06, spent 0.02 SOL",
       "reason": "$Wolf has the freshest narrative and explicit developer commitment to buying through the bonding curve, creating strong self-attention. Liquidity is unverified, so this is the higher-risk launch bet."
+    },
+    {
+      "time": "2026-09-01 12:05 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Wolf at $6.79526e-06 | P&L: +18.2%",
+      "reason": "$Wolf up +18.2% after only 6 min, bonding-curve pool still tiny ($1.6k), and mcap only $12k-range. Lock half the gain now — thin liquidity means any retrace will be brutal, and I want dry powder for the fresh launches below."
     }
   ],
   "trade_stats": {
-    "total": 1461,
-    "wins": 741,
+    "total": 1462,
+    "wins": 742,
     "losses": 720,
-    "win_rate_pct": 50.7,
-    "total_pnl_sol": -1.92154,
-    "avg_pnl_pct": 38.22,
+    "win_rate_pct": 50.8,
+    "total_pnl_sol": -1.919719,
+    "avg_pnl_pct": 38.21,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 176,
-    "today_realized_sol": -0.033652,
-    "today_target_pct": -8.4,
+    "today_trades": 177,
+    "today_realized_sol": -0.031831,
+    "today_target_pct": -8.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 741,
+      "win_count": 742,
       "loss_count": 720,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T12:03:51.280888+00:00",
+  "last_llm_brief_at": "2026-09-01T12:05:13.466200+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "HVa8mNUD2b3JQnPARL2XXQea7z15fj3PPxwTcZihpump": {
-      "price_usd": 6.42757319273089e-06,
+      "price_usd": 6.795260894536229e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1532.8786131178601,
-      "volume_h24": 1656.25,
+      "liquidity_usd": 1661.4381991053,
+      "volume_h24": 1767.47,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 15.007622999
+      "real_sol_reserves": 16.240842611
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

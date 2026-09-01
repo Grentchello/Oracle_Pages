@@ -12112,3 +12112,6 @@
 ## [2026-09-01 12:00 UTC] buy | [LLM] $Wolf at $5.74731e-06, spent 0.02 SOL
 - **Reasoning:** $Wolf has the freshest narrative and explicit developer commitment to buying through the bonding curve, creating strong self-attention. Liquidity is unverified, so this is the higher-risk launch bet.
 
+## [2026-09-01 12:05 UTC] sell | [PARTIAL][LLM] $Wolf at $6.79526e-06 | P&L: +18.2%
+- **Reasoning:** $Wolf up +18.2% after only 6 min, bonding-curve pool still tiny ($1.6k), and mcap only $12k-range. Lock half the gain now — thin liquidity means any retrace will be brutal, and I want dry powder for the fresh launches below.
+
