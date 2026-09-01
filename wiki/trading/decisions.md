@@ -11515,3 +11515,15 @@
 ## [2026-09-01 03:22 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-01 03:23 UTC] sell | [hard-stop] $$1 closed at $3.75289e-06 | P&L: -47.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-01 03:23 UTC] sell | [TP +100% (50%)] $BTС at $2.39269e-05 | P&L: +129.5%
+- **Reasoning:** Auto take-profit at +129.5%
+
+## [2026-09-01 03:24 UTC] sell | [FULL][LLM] $BTС at $2.39269e-05 | P&L: +129.5%
+- **Reasoning:** Up +129.5% in 0.1h — this is a massive win on a fresh position. The auto-TP should have fired at +100% but hasn't yet. I'm locking in the full gain rather than hoping for more. Capital rotation into fresh launches beats bag-holding a pumped token.
+
+## [2026-09-01 03:24 UTC] buy | [LLM] $CEO at $7.243e-06, spent 0.02 SOL
+- **Reasoning:** $CEO (Cat Executive Officer) is the only candidate passing both viability and fragility gates. $4.5k mcap, 0.7min old, has a narrative about rewarding community participants. Cat + corporate meme is a solid attention hook. Risk: sub-$5k mcap tokens are volatile, but that's where the 10x lives.
+
