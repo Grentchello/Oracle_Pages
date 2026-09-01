@@ -55,6 +55,9 @@ button:disabled{opacity:0.4;cursor:not-allowed}
 
   <div class="card">
     <h2>Generate Image</h2>
+    <label>Workflow</label>
+    <select id="workflow-select" onchange="onWorkflowChange()"></select>
+    <p id="workflow-desc" style="color:#666;font-size:0.8rem;margin:-8px 0 12px"></p>
     <label>Prompt</label>
     <textarea id="prompt-input" placeholder="a beautiful sunset over mountains, photorealistic, 4k"></textarea>
     <button onclick="generate()" id="btn-generate">✨ Generate</button>
@@ -77,7 +80,6 @@ let polling = null;
 
 // ── Init ──────────────────────────────────────
 async function init() {
-  await checkComfyui();
   await loadWorkflows();
   setInterval(checkComfyui, 15000);
 }
@@ -124,45 +126,13 @@ async function stopComfyui() {
   checkComfyui();
 }
 
-async function generate() {
-  const prompt = document.getElementById('prompt-input').value.trim();
-  if (!prompt) { setStatus('Enter a prompt', ''); return; }
-
-  const btn = document.getElementById('btn-generate');
-  btn.disabled = true;
-  document.getElementById('result').innerHTML = '';
-  showProgress(true);
-  setStatus('Generating via Pollinations AI...', 'running');
-
-  try {
-    const d = await new Promise((resolve, reject) => {
-      const xhr = new XMLHttpRequest();
-      xhr.open('POST', `${API}/api/pollinations`);
-      xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.timeout = 180000; // 3 min timeout
-      xhr.onload = () => {
-        try { resolve(JSON.parse(xhr.responseText)); }
-        catch(e) { reject(new Error('Bad response')); }
-      };
-      xhr.onerror = () => reject(new Error('Network error — are you online?'));
-      xhr.ontimeout = () => reject(new Error('Request timed out'));
-      xhr.send(JSON.stringify({prompt, width: 1024, height: 1024}));
-    });
-    
-    if (d.error) { setStatus(d.error, 'error'); btn.disabled = false; return; }
-    
-    document.getElementById('progress-fill').style.width = '100%';
-    setStatus(`Done in ${d.elapsed}s`, 'done');
-    document.getElementById('result').innerHTML = `<img src="${d.image_url}" alt="Generated image" loading="eager">`;
-    showProgress(false);
-    btn.disabled = false;
-    addHistory(prompt, d.image_url);
-  } catch(e) {
-    setStatus(e.message + ' — tap Generate to retry', 'error');
-    showProgress(false);
-    btn.disabled = false;
-  }
-}
+  <div class="card">
+    <h2>Generate Image</h2>
+    <label>Workflow</label>
+    <select id="workflow-select" onchange="onWorkflowChange()"></select>
+    <p id="workflow-desc" style="color:#666;font-size:0.8rem;margin:-8px 0 12px"></p>
+    <label>Prompt</label>
+    <textarea id="prompt-input" placeholder="a beautiful sunset over mountains, photorealistic, 4k"></textarea>
 
 async function pollJob(promptId, promptText) {
   const start = Date.now();
@@ -196,7 +166,7 @@ async function pollJob(promptId, promptText) {
         document.getElementById('btn-generate').disabled = false;
         return;
       }
-      setStatus(`Generating... ${d.elapsed}s elapsed`, 'running');
+      setStatus(`Generating on CPU... ${d.elapsed}s elapsed (may take 5-10 min)`, 'running');
     } catch(e) {}
   }
 }

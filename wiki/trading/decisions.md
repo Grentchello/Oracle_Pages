@@ -11722,3 +11722,6 @@
 ## [2026-09-01 06:39 UTC] sell | [FULL][LLM] $GTABALL at $2.96263e-06 | P&L: -28.5%
 - **Reasoning:** Down 28.5% and close to the hard -30% stop, with no bounce or narrative support shown. Exit immediately and rotate the slot rather than hope for recovery.
 
+## [2026-09-01 06:41 UTC] sell | [FULL][LLM] $GRC at $2.91778e-06 | P&L: -1.7%
+- **Reasoning:** $GRC is -1.7% after 6 minutes, flat and not moving up. With ~16% of a $7 pool, getting out frees the slot for fresh attention. Cut the slow bleed before it gets worse.
+

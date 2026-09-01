@@ -247,7 +247,7 @@ async def submit_job(workflow_data, prompt_text=None, prompt_node_id=None):
             }
             return prompt_id, None
 
-async def poll_job(prompt_id, timeout=300):
+async def poll_job(prompt_id, timeout=900):
     """Poll ComfyUI history until job completes. Returns image filename."""
     start = time.time()
     async with ClientSession() as session:
@@ -297,7 +297,7 @@ async def poll_job(prompt_id, timeout=300):
 
 # ── Auto-shutdown timer ─────────────────────────────────────────────
 comfyui_last_used = 0
-AUTO_SHUTDOWN_SECONDS = 300  # 5 minutes idle
+AUTO_SHUTDOWN_SECONDS = 900  # 15 min idle  # 5 minutes idle
 
 async def auto_shutdown_loop():
     """Shut down ComfyUI after idle timeout."""
