@@ -12082,3 +12082,9 @@
 ## [2026-09-01 11:44 UTC] sell | [PARTIAL][LLM] $APEPE at $8.57281e-06 | P&L: +108.2%
 - **Reasoning:** APEPE is up 108.2% and has already crossed the first major profit tier, so locking in half while retaining exposure fits the aggressive profit-taking rule. Momentum is strong, but the low $2,244 pool raises reversal risk.
 
+## [2026-09-01 11:45 UTC] sell | [TP +30% (25%)] $APEPE at $7.93976e-06 | P&L: +92.8%
+- **Reasoning:** Auto take-profit at +92.9%
+
+## [2026-09-01 11:45 UTC] sell | [PARTIAL][LLM] $APEPE at $7.93976e-06 | P&L: +92.8%
+- **Reasoning:** +92.9% on a $2,043 pool with 0% share is a knife's edge — thin liquidity means reversal can flash to -50%. Lock half the gain, let the rest ride toward +200%/$5k+ pool target.
+
