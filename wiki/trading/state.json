@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.391846,
+  "balance_sol": 0.430278,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "C8iuaWy3S1YE5X39qeQr7fqpGMfGKcRFHxY6qjMLpump": {
-      "symbol": "BEAR",
-      "name": "First Neuralink Dog",
-      "amount": 677792.3784494087,
-      "entry_price_usd": 3.044e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T00:16:05.457375+00:00",
-      "entry_usd_value": 2.0632,
-      "entry_signals": {
-        "liquidity_usd": 18.888851114679998,
-        "volume_24h_usd": 3114.11,
-        "market_cap_usd": 2930.177333359492,
-        "ath_market_cap_usd": 6450.770771769118,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.183102473,
-        "description": "Neuralink just announced the first successful implantation of a neuralink device into a chocalate lab named $Bear",
-        "twitter": "https://x.com/M5NFA/status/2094579137143001342",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "KMXEpt91whHNwHiP6ByBHr58MDsbLPSmXugXE7Ppump": {
-      "symbol": "ORCA",
-      "name": "ORCA",
-      "amount": 692111.2426368748,
-      "entry_price_usd": 2.9870920635870797e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T00:19:23.523068+00:00",
-      "entry_usd_value": 2.0674,
-      "entry_signals": {
-        "liquidity_usd": 24.922835096380002,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2973.867550225605,
-        "ath_market_cap_usd": 11272.699887261564,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.241103174,
-        "description": "$ORCA gives Claude, Codex, and Cursor their own isolated workspaces — multiple agents can build in parallel without stepping on each other’s code 🐋 Inspect every changed file, switch models on demand, and ship clean PRs from persistent containers that keep each task’s context intact 🤖",
-        "twitter": "https://x.com/orcaonsol_fun/status/2094580256246030604",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21910,25 +21865,47 @@
       "pnl_pct": -64.55,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "KMXEpt91whHNwHiP6ByBHr58MDsbLPSmXugXE7Ppump",
+      "symbol": "ORCA",
+      "name": "ORCA",
+      "amount_sold": 692111.054861875,
+      "fraction_sold": 0.9999997286924583,
+      "entry_time": "2026-09-01T00:19:23.523068+00:00",
+      "exit_time": "2026-09-01T00:21:11.856613+00:00",
+      "entry_price_usd": 2.9870920635870797e-06,
+      "exit_price_usd": 2.8917986972712308e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019351,
+      "pnl_sol": -0.000649,
+      "pnl_pct": -3.19,
+      "exit_reason": "LLM: sell_all — Pool is $0 with 92M% share — this is a dead/broken token. Even at only -3.2% the liquidity is gone. Exit whatever we can recover.",
+      "partial": false
+    },
+    {
+      "mint": "C8iuaWy3S1YE5X39qeQr7fqpGMfGKcRFHxY6qjMLpump",
+      "symbol": "BEAR",
+      "name": "First Neuralink Dog",
+      "amount_sold": 677792.3784494087,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T00:16:05.457375+00:00",
+      "exit_time": "2026-09-01T00:21:11.856798+00:00",
+      "entry_price_usd": 3.044e-06,
+      "exit_price_usd": 2.9118041365685946e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019081,
+      "pnl_sol": -0.000919,
+      "pnl_pct": -4.34,
+      "exit_reason": "LLM: sell_all — Down 4.3% with only $11 pool and no listed description or clear narrative. No attention signal to hold for. Free slot for a better setup.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T00:19:23.523229+00:00",
+  "last_updated": "2026-09-01T00:21:12.390766+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.37,
-  "portfolio_value_usd": 44.64,
+  "last_sol_price_usd": 103.43,
+  "portfolio_value_usd": 44.5,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 23:16 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-08-31 23:19 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-31 23:22 UTC",
       "action": "observe",
@@ -22036,40 +22013,63 @@
       "action": "buy",
       "details": "[LLM] $ORCA at $2.98709e-06, spent 0.02 SOL",
       "reason": "$ORCA — AI agent workspace narrative (Claude/Codex/Cursor parallel builds). Clear utility story at $3K mcap, passes viability gate. AI infra is the hottest memecoin meta right now; early entry on a working concept."
+    },
+    {
+      "time": "2026-09-01 00:21 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ORCA at $2.8918e-06 | P&L: -3.2%",
+      "reason": "Pool is $0 with 92M% share — this is a dead/broken token. Even at only -3.2% the liquidity is gone. Exit whatever we can recover."
+    },
+    {
+      "time": "2026-09-01 00:21 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BEAR at $2.9118e-06 | P&L: -4.3%",
+      "reason": "Down 4.3% with only $11 pool and no listed description or clear narrative. No attention signal to hold for. Free slot for a better setup."
     }
   ],
   "trade_stats": {
-    "total": 1286,
+    "total": 1288,
     "wins": 657,
-    "losses": 629,
-    "win_rate_pct": 51.1,
-    "total_pnl_sol": -1.900799,
-    "avg_pnl_pct": 40.25,
+    "losses": 631,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -1.902367,
+    "avg_pnl_pct": 40.19,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 1,
-    "today_realized_sol": -0.012911,
-    "today_target_pct": -3.2,
+    "today_trades": 3,
+    "today_realized_sol": -0.014479,
+    "today_target_pct": -3.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 657,
-      "loss_count": 629,
+      "loss_count": 631,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T00:19:22.059766+00:00",
+  "last_llm_brief_at": "2026-09-01T00:21:11.856152+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "C8iuaWy3S1YE5X39qeQr7fqpGMfGKcRFHxY6qjMLpump": {
-      "price_usd": 2.9110868864688734e-06,
+      "price_usd": 2.9118041365685946e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 11.227789941300001,
-      "volume_h24": 3187.12,
+      "liquidity_usd": 10.71442157749,
+      "volume_h24": 3187.64,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.10861749
+      "real_sol_reserves": 0.103591043
+    },
+    "KMXEpt91whHNwHiP6ByBHr58MDsbLPSmXugXE7Ppump": {
+      "price_usd": 2.8917986972712308e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2.17203e-06,
+      "volume_h24": 6736.91,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.1e-08
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
