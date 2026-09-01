@@ -11806,3 +11806,6 @@
 ## [2026-09-01 07:37 UTC] sell | [PARTIAL][LLM] $CIV at $2.89702e-06 | P&L: -2.3%
 - **Reasoning:** $CIV pool is only $6 and I own 32% of it — any sell I make will crater the price, and being 32% of a $6 pool means I'm the dominant exit liquidity. Cut the slot loose now before someone else dumps on me, even at -2.3%.
 
+## [2026-09-01 07:50 UTC] sell | [FULL][LLM] $CIV at $2.89561e-06 | P&L: -2.3%
+- **Reasoning:** $CIV is -2.3%, marked ⚠ STALE after 0.3h, pool is only $6 and we hold 16% of it — we ARE the liquidity with no one on the other side. Flat price action on a micro-pool = exit fast and free the slot for a live launch.
+
