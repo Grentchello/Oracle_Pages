@@ -11764,3 +11764,9 @@
 ## [2026-09-01 07:20 UTC] buy | [LLM] $XBROKE at $3.68533e-06, spent 0.02 SOL
 - **Reasoning:** XBROKE rides Musk's X Money rollout tweet — direct celebrity narrative with massive reach, but ME2F fragility gate likely blocks (musk keyword). Bot will check fragility.
 
+## [2026-09-01 07:21 UTC] sell | [hard-stop] $XBROKE closed at $1.29903e-06 | P&L: -64.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-01 07:21 UTC] buy | [LLM] $HOLA at $2.97e-06, spent 0.02 SOL
+- **Reasoning:** HOLA pairs a resilience/community narrative with a listed X account and a sub-$3.1K mcap shortly after launch. The signal is weaker than APECOIN but still offers high attention-to-price leverage with severe early-launch risk.
+
