@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.370733,
+  "balance_sol": 0.385961,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 3.839139568,
         "description": "A frog took his last $10, clicked one green button and never worked again. This is his coin. There is no team, no roadmap and no alarm clock.",
         "twitter": "https://x.com/chillfrogcoin?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "CEzJ4pbEoAuSDkbh7Skdq2tH2C1G4bNrKMFfwL7zpump": {
-      "symbol": "NoPro",
-      "name": "NoPro",
-      "amount": 521626.35054362076,
-      "entry_price_usd": 3.958772400680926e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T00:44:11.393327+00:00",
-      "entry_usd_value": 2.065,
-      "entry_signals": {
-        "liquidity_usd": 67.68590950975,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3957.0309090246396,
-        "ath_market_cap_usd": 3956.487240050606,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.655553603,
-        "description": "They calling him the next Roaring Kitty. He bought 8.5% of GoPro and taped the camera to his head. Then they launched $MARKETPLIER on Robinghood Chain, the same app that killed the buy button in 2021 and stopped the GME squeeze. Not a kitty. Not a squeeze. Not a pro. Memes live on Sol.  Robinghood a",
-        "twitter": "https://x.com/ShaneStoffer/status/2094497719201190030",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -21995,19 +21973,30 @@
       "pnl_pct": -86.5,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "CEzJ4pbEoAuSDkbh7Skdq2tH2C1G4bNrKMFfwL7zpump",
+      "symbol": "NoPro",
+      "name": "NoPro",
+      "amount_sold": 521626.35054362076,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T00:44:11.393327+00:00",
+      "exit_time": "2026-09-01T00:45:46.623501+00:00",
+      "entry_price_usd": 3.958772400680926e-06,
+      "exit_price_usd": 3.0134306739769627e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.015228,
+      "pnl_sol": -0.004772,
+      "pnl_pct": -23.88,
+      "exit_reason": "LLM: sell_all — Down 23.9% with only $68 pool liquidity - this is a dead token. Exit before -30% auto-stop triggers and preserve the remaining capital.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T00:44:11.393629+00:00",
+  "last_updated": "2026-09-01T00:45:46.623802+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.25,
-  "portfolio_value_usd": 42.41,
+  "last_sol_price_usd": 103.22,
+  "portfolio_value_usd": 41.9,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 23:47 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-31 23:50 UTC",
       "action": "observe",
@@ -22121,40 +22110,57 @@
       "action": "buy",
       "details": "[LLM] $NoPro at $3.95877e-06, spent 0.02 SOL",
       "reason": "$NoPro has the strongest narrative of the batch: 'next Roaring Kitty' angle with a real story (bought 8.5% of GoPro, taped camera to head). Passes viability gate (desc ≥50 chars, has twitter). $4k mcap on bonding curve — early entry. The Roaring Kitty parallel is a proven attention magnet."
+    },
+    {
+      "time": "2026-09-01 00:45 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $NoPro at $3.01343e-06 | P&L: -23.9%",
+      "reason": "Down 23.9% with only $68 pool liquidity - this is a dead token. Exit before -30% auto-stop triggers and preserve the remaining capital."
     }
   ],
   "trade_stats": {
-    "total": 1291,
+    "total": 1292,
     "wins": 658,
-    "losses": 633,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -1.921912,
-    "avg_pnl_pct": 40.02,
+    "losses": 634,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -1.926684,
+    "avg_pnl_pct": 39.97,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 6,
-    "today_realized_sol": -0.034024,
-    "today_target_pct": -8.5,
+    "today_trades": 7,
+    "today_realized_sol": -0.038796,
+    "today_target_pct": -9.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 658,
-      "loss_count": 633,
+      "loss_count": 634,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T00:44:10.013757+00:00",
+  "last_llm_brief_at": "2026-09-01T00:45:46.623462+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "Fsv2nfxLnVESMU11aPDNXiFZFHG7hWAYUtBqEiunpump": {
-      "price_usd": 4.096284770375686e-06,
+      "price_usd": 3.913522412917317e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 592.280990917,
-      "volume_h24": 1997.24,
+      "liquidity_usd": 509.40503374852,
+      "volume_h24": 2502.7,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 5.736377636
+      "real_sol_reserves": 4.935138866
+    },
+    "CEzJ4pbEoAuSDkbh7Skdq2tH2C1G4bNrKMFfwL7zpump": {
+      "price_usd": 3.0134306739769627e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 67.66624290166,
+      "volume_h24": 1032.53,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.655553603
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
