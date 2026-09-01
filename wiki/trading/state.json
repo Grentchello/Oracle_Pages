@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.494559,
+  "balance_sol": 0.511981,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "ZXNVeNPzUBzfndHhKySuHjVoJM2RV83igSMyC2npump": {
       "symbol": "BTС",
       "name": "Beat The Cancer",
-      "amount": 74418.20782069408,
+      "amount": 18604.55195517352,
       "entry_price_usd": 1.0425875907538934e-05,
-      "entry_sol_spent": 0.0075,
+      "entry_sol_spent": 0.001875,
       "entry_time": "2026-09-01T03:18:12.552737+00:00",
       "entry_usd_value": 2.069,
       "entry_signals": {
@@ -22845,25 +22845,30 @@
       "pnl_pct": 88.4,
       "exit_reason": "LLM: sell_half — Up 88.4% in <30min, approaching +100% auto-TP. Locking profit on half now per aggressive scalping rules. Letting remainder ride for the last 12% to au",
       "partial": true
+    },
+    {
+      "mint": "ZXNVeNPzUBzfndHhKySuHjVoJM2RV83igSMyC2npump",
+      "symbol": "BTС",
+      "name": "Beat The Cancer",
+      "amount_sold": 55813.65586552056,
+      "fraction_sold": 0.75,
+      "entry_time": "2026-09-01T03:18:12.552737+00:00",
+      "exit_time": "2026-09-01T03:21:47.937793+00:00",
+      "entry_price_usd": 1.0425875907538934e-05,
+      "exit_price_usd": 3.2288248423381726e-05,
+      "entry_sol_for_chunk": 0.005625,
+      "exit_sol_received": 0.017422,
+      "pnl_sol": 0.011797,
+      "pnl_pct": 209.69,
+      "exit_reason": "auto-TP +200% (75%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T03:20:44.215619+00:00",
+  "last_updated": "2026-09-01T03:22:28.602945+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.43,
-  "portfolio_value_usd": 54.0,
+  "last_sol_price_usd": 103.44,
+  "portfolio_value_usd": 55.22,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 02:57 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PONE at $2.97575e-06 | P&L: -4.7%",
-      "reason": "$PONE down 4.7% after 6 min with no catalyst or narrative momentum. Tiny $46 pool with 4% share = illiquid dead weight. Cut and rotate."
-    },
-    {
-      "time": "2026-09-01 02:57 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $LOAR at $2.93533e-06 | P&L: -0.0%",
-      "reason": "$LOAR completely flat after 3 min, $25 pool = dust. Zero attention signal. Exit to free capital for higher-conviction plays."
-    },
     {
       "time": "2026-09-01 03:02 UTC",
       "action": "buy",
@@ -22971,6 +22976,18 @@
       "action": "buy",
       "details": "[LLM] $$1 at $7.20904e-06, spent 0.02 SOL",
       "reason": "Strongest narrative of the batch — 'buy $1, write thesis' creates a viral participation loop. $7.2k mcap, 27% bonded, real community Twitter. The concept itself generates engagement. Worth 0.1 SOL risk for potential multi-x."
+    },
+    {
+      "time": "2026-09-01 03:21 UTC",
+      "action": "sell",
+      "details": "[TP +200% (75%)] $BTС at $3.22882e-05 | P&L: +209.7%",
+      "reason": "Auto take-profit at +209.7%"
+    },
+    {
+      "time": "2026-09-01 03:22 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -22992,30 +23009,30 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T03:20:42.604610+00:00",
+  "last_llm_brief_at": "2026-09-01T03:22:28.602769+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "FZhRd8xo9qux9ZuiY2NyaqDVBZTmKnPMgqug4Mo4pump": {
-      "price_usd": 2.8917986969820508e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1.86174e-06,
-      "volume_h24": 1511.31,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.8e-08
-    },
     "ZXNVeNPzUBzfndHhKySuHjVoJM2RV83igSMyC2npump": {
-      "price_usd": 1.964235678459015e-05,
+      "price_usd": 3.2288248423381726e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4983.97161993678,
-      "volume_h24": 20498.08,
+      "liquidity_usd": 7265.5639643450395,
+      "volume_h24": 59146.88,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 48.186905346
+      "real_sol_reserves": 70.239404141
+    },
+    "8kHDc8xTRWmFgUCeJyQbBcftEkeDojeKxurNgAN2pump": {
+      "price_usd": 7.665740226832436e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1949.01465211176,
+      "volume_h24": 15920.83,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 18.841982329
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
