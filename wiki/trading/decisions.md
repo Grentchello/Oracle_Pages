@@ -11626,3 +11626,6 @@
 ## [2026-09-01 05:10 UTC] sell | [FULL][LLM] $Anime  at $6.1031e-06 | P&L: +273.1%
 - **Reasoning:** $Anime is already up 273.1%, and the prompt explicitly says to lock gains when up over 20% and momentum is uncertain. Despite the strong move, it is on a bonding curve with only $76 in the pool, so exit into the spike rather than risk a rapid reversal.
 
+## [2026-09-01 05:13 UTC] buy | [LLM] $WOS at $2.967e-06, spent 0.02 SOL
+- **Reasoning:** $WOS (SOLwizards) has brand + RPG destiny narrative + established @SOLwizardsX twitter handle. 0.7min, $3k mcap. Risk: bond 1% complete, description short, but the handle suggests a real community vs. random launch.
+
