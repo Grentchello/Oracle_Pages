@@ -11635,3 +11635,6 @@
 ## [2026-09-01 05:20 UTC] buy | [LLM] $pump.fun  at $3.13241e-06, spent 0.02 SOL
 - **Reasoning:** Pump.fun Amazon-warehouse narrative is meta (about the platform itself) with both desc and twitter — passes viability cleanly, low fragility. Weak story but cheap entry at 0.05 SOL to learn how meta-narratives perform.
 
+## [2026-09-01 05:22 UTC] sell | [FULL][LLM] $pump.fun  at $3.1316e-06 | P&L: -0.0%
+- **Reasoning:** Position is flat at -0.0% after entry. Generic $pump.fun name has no narrative or attention hook, and it's already started its lifecycle on the bonding curve. No reason to hold dead capital — rotate into a fresher attention token.
+

@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.509995,
+  "balance_sol": 0.529998,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HvbZTHNYFFdLNRTCBcCs3wb4LpqqhkrRjBQqv5xhpump": {
-      "symbol": "pump.fun ",
-      "name": "Amazon warehouse",
-      "amount": 662748.7044790871,
-      "entry_price_usd": 3.132408989968094e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T05:20:49.659303+00:00",
-      "entry_usd_value": 2.076,
-      "entry_signals": {
-        "liquidity_usd": 121.387204566,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3117.992250843688,
-        "ath_market_cap_usd": 3134.1864359171223,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.16943357,
-        "description": "just trying to get a bonded coin by Amazon it’s gonna be my first time getting a bond if we can",
-        "twitter": "https://x.com/omw2ybh_sam?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -23197,19 +23174,30 @@
       "pnl_pct": -0.6,
       "exit_reason": "LLM: sell_all — $WOS is flat (-0.6%) after 0.1h on a tiny $25 pool where we hold 8% — that's enough share to move price but not enough liquidity to exit cleanly if it",
       "partial": false
+    },
+    {
+      "mint": "HvbZTHNYFFdLNRTCBcCs3wb4LpqqhkrRjBQqv5xhpump",
+      "symbol": "pump.fun ",
+      "name": "Amazon warehouse",
+      "amount_sold": 662748.7044790871,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T05:20:49.659303+00:00",
+      "exit_time": "2026-09-01T05:22:08.743487+00:00",
+      "entry_price_usd": 3.132408989968094e-06,
+      "exit_price_usd": 3.131603764534617e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020003,
+      "pnl_sol": 3e-06,
+      "pnl_pct": -0.03,
+      "exit_reason": "LLM: sell_all — Position is flat at -0.0% after entry. Generic $pump.fun name has no narrative or attention hook, and it's already started its lifecycle on the bondin",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T05:20:49.659594+00:00",
+  "last_updated": "2026-09-01T05:22:09.258773+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.8,
-  "portfolio_value_usd": 55.01,
+  "last_sol_price_usd": 103.76,
+  "portfolio_value_usd": 54.99,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 04:20 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $3AM at $2.90591e-06 | P&L: -14.1%",
-      "reason": "Down -14.1% in 6 minutes with $1 pool liquidity and 183% pool share — exit will get worse fast. No bounce signal, no narrative catalyst. Per discipline: losers exit fast, don't hope for -14% to become -30%."
-    },
     {
       "time": "2026-09-01 04:21 UTC",
       "action": "sell",
@@ -23323,30 +23311,48 @@
       "action": "buy",
       "details": "[LLM] $pump.fun  at $3.13241e-06, spent 0.02 SOL",
       "reason": "Pump.fun Amazon-warehouse narrative is meta (about the platform itself) with both desc and twitter — passes viability cleanly, low fragility. Weak story but cheap entry at 0.05 SOL to learn how meta-narratives perform."
+    },
+    {
+      "time": "2026-09-01 05:22 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $pump.fun  at $3.1316e-06 | P&L: -0.0%",
+      "reason": "Position is flat at -0.0% after entry. Generic $pump.fun name has no narrative or attention hook, and it's already started its lifecycle on the bonding curve. No reason to hold dead capital — rotate into a fresher attention token."
     }
   ],
   "trade_stats": {
-    "total": 1363,
-    "wins": 693,
+    "total": 1364,
+    "wins": 694,
     "losses": 670,
-    "win_rate_pct": 50.8,
-    "total_pnl_sol": -1.80265,
-    "avg_pnl_pct": 39.93,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -1.802647,
+    "avg_pnl_pct": 39.9,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 78,
-    "today_realized_sol": 0.085238,
+    "today_trades": 79,
+    "today_realized_sol": 0.085241,
     "today_target_pct": 21.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 693,
+      "win_count": 694,
       "loss_count": 670,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T05:20:47.979984+00:00",
+  "last_llm_brief_at": "2026-09-01T05:22:08.743447+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HvbZTHNYFFdLNRTCBcCs3wb4LpqqhkrRjBQqv5xhpump": {
+      "price_usd": 3.131603764534617e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 121.34042722320001,
+      "volume_h24": 121.48,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.16943357
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
