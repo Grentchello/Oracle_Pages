@@ -11284,3 +11284,9 @@
 ## [2026-09-01 01:06 UTC] sell | [FULL][LLM] $DDance at $2.91187e-06 | P&L: +0.3%
 - **Reasoning:** DDance is +0.3% with $11 pool and zero attention narrative. Dead capital in a bonding curve with no viral signal — rotate to fresh launches.
 
+## [2026-09-01 01:14 UTC] buy | [LLM] $VETS at $3.12694e-06, spent 0.02 SOL
+- **Reasoning:** $VETS passes viability (desc + twitter), clear charitable narrative — 'supporting disabled American veterans' is an emotional attention hook that drives sharing. Fresh 0.3min, $3.1k mcap, patriotism + charity is a proven memecoin narrative.
+
+## [2026-09-01 01:14 UTC] buy | [LLM] $BERD at $3.08491e-06, spent 0.02 SOL
+- **Reasoning:** $BERD passes viability (desc + twitter), 'blob-shaped bird' is visually memetic with a quirky description. Simple memorable name + weird art concept = attention magnet. $3.1k mcap, 0.5min old, low fragility risk.
+
