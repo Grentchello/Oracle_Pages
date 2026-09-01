@@ -11299,3 +11299,9 @@
 ## [2026-09-01 01:16 UTC] buy | [LLM] $SLOP at $4.973e-06, spent 0.02 SOL
 - **Reasoning:** $SLOP passes all gates. 'Slop' is a genuine internet meme (AI slop, slop content) with absurdist branding. 38% bond completion shows real organic buying pressure at $18.9k mcap. Has twitter. This is the freshest attention signal with the strongest narrative on the board.
 
+## [2026-09-01 01:17 UTC] sell | [TP +500% (full)] $SLOP at $2.61372e-05 | P&L: +425.6%
+- **Reasoning:** Auto take-profit at +425.6%
+
+## [2026-09-01 01:18 UTC] buy | [LLM] $ONTO at $3.22936e-06, spent 0.02 SOL
+- **Reasoning:** $ONTO — AI/Web3 data wallet narrative with official @ONTOWallet Twitter presence. Strong 50+ char description, viability gate passed. AI narrative has legs in current market, and real project backing reduces rug risk vs pure meme.
+
