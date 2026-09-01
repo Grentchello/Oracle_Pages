@@ -11956,3 +11956,6 @@
 ## [2026-09-01 09:28 UTC] buy | [LLM] $qSOL at $5.17097e-06, spent 0.02 SOL
 - **Reasoning:** $qSOL has a real narrative hook (first quantum-resistant Solana coin), explicit creator account (@qsolpf), clear description, and sub-$5k mcap with 20% bonding. Tech-narrative memecoins with defined stories tend to hold attention better than tracker-URL spam. Position size 0.05 SOL fits the cap.
 
+## [2026-09-01 09:29 UTC] sell | [hard-stop] $qSOL closed at $2.87523e-06 | P&L: -44.4%
+- **Reasoning:** Hard -30% stop
+
