@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.487919,
+  "balance_sol": 0.487976,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BWthRfrogaWQkSbJrkx1HJW42u6ZvXVRzeAGbNzEpump": {
-      "symbol": "MCAT",
-      "name": "MOON CAT",
-      "amount": 851191.4543960559,
-      "entry_price_usd": 2.434e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T06:52:59.939941+00:00",
-      "entry_usd_value": 2.0718,
-      "entry_signals": {
-        "liquidity_usd": 11.48775962985,
-        "volume_24h_usd": 13.18,
-        "market_cap_usd": 2919.1621026174425,
-        "ath_market_cap_usd": 3693.4176441456057,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.110896415,
-        "description": "🐱 MOONCAT ($MCAT) 🌙 Cats love the Moon. Traders love green candles. MoonCat loves both. 🚀📈 Just a cat with one mission: MEOW TO THE MOON! 🐾 Buy the meme. Join the pack. Chase the Moon.",
-        "twitter": "https://x.com/dluxyzfbi",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -23520,19 +23497,30 @@
       "pnl_pct": -4.83,
       "exit_reason": "LLM: sell_all — $HEARTBEAT down -4.8% on tiny $23 pool with our 9% share — we ARE the exit liquidity. Stale bonding-curve microcap with no catalyst; cut before it ble",
       "partial": false
+    },
+    {
+      "mint": "BWthRfrogaWQkSbJrkx1HJW42u6ZvXVRzeAGbNzEpump",
+      "symbol": "MCAT",
+      "name": "MOON CAT",
+      "amount_sold": 851191.4543960559,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T06:52:59.939941+00:00",
+      "exit_time": "2026-09-01T06:54:04.593464+00:00",
+      "entry_price_usd": 2.434e-06,
+      "exit_price_usd": 6.915503804808565e-09,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 5.7e-05,
+      "pnl_sol": -0.019943,
+      "pnl_pct": -99.72,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T06:52:59.940113+00:00",
+  "last_updated": "2026-09-01T06:54:35.910018+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 103.59,
-  "portfolio_value_usd": 52.62,
+  "portfolio_value_usd": 50.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 06:13 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $NUMB at $3.02145e-06 | P&L: -1.0%",
-      "reason": "$NUMB is flat (-1.0%) and marked STALE after 0.3h with only $59 pool liquidity. No momentum, no narrative lift visible. Capital is better deployed in fresh attention tokens right now."
-    },
     {
       "time": "2026-09-01 06:17 UTC",
       "action": "buy",
@@ -23646,30 +23634,48 @@
       "action": "buy",
       "details": "[LLM] $MCAT at $2.434e-06, spent 0.02 SOL",
       "reason": "$MCAT (MOON CAT) plays on the classic cats-love-moon meme with explicit green-candle/trader framing — a familiar, repeatable narrative that has minted multiple runners. Very fresh (0.6min), clear ticker, simple story. Risk: bond0%, ultra-early, but the attention angle is legible."
+    },
+    {
+      "time": "2026-09-01 06:54 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $MCAT closed at $6.9155e-09 | P&L: -99.7%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1382,
+    "total": 1383,
     "wins": 698,
-    "losses": 684,
+    "losses": 685,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.824726,
-    "avg_pnl_pct": 39.35,
+    "total_pnl_sol": -1.844669,
+    "avg_pnl_pct": 39.25,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 97,
-    "today_realized_sol": 0.063162,
-    "today_target_pct": 15.8,
+    "today_trades": 98,
+    "today_realized_sol": 0.043219,
+    "today_target_pct": 10.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 698,
-      "loss_count": 684,
+      "loss_count": 685,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T06:52:57.471111+00:00",
+  "last_llm_brief_at": "2026-09-01T06:54:35.909978+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BWthRfrogaWQkSbJrkx1HJW42u6ZvXVRzeAGbNzEpump": {
+      "price_usd": 6.915503804808565e-09,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.0525137642,
+      "volume_h24": 337.38,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.01016038
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
