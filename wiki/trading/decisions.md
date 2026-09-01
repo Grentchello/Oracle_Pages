@@ -11692,3 +11692,6 @@
 ## [2026-09-01 06:21 UTC] buy | [LLM] $bitart at $3.09817e-06, spent 0.02 SOL
 - **Reasoning:** $bitart rides a real Solana technical narrative (byte limit 1232→4096), has a backing tweet from @BananaInte, mcap $3k at 0.2min old — textbook early-attention entry. Viability passes (desc50+ chars + twitter), no celebrity/political keywords so not fragility-blocked. Sized0.05 SOL ($5) to keep 2-slot flexibility.
 
+## [2026-09-01 06:25 UTC] sell | [FULL][LLM] $bitart at $2.90047e-06 | P&L: -6.4%
+- **Reasoning:** $bitart down -6.4% in 0.1h, low momentum and '⚠ HUGE' concentration flagged. Cut early before -30% hard stop kicks in.
+

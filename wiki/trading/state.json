@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.496908,
+  "balance_sol": 0.515653,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GUXTauQFGu1p2bCGuurB7WmZccvimGmFHXeWDPampump": {
-      "symbol": "bitart",
-      "name": "bitart",
-      "amount": 670461.0720675781,
-      "entry_price_usd": 3.0981664507296434e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T06:21:18.411778+00:00",
-      "entry_usd_value": 2.0772,
-      "entry_signals": {
-        "liquidity_usd": 102.57777777906,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3089.4454974998794,
-        "ath_market_cap_usd": 3256.489598591438,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.987654321,
-        "description": "Solana byte transaction limit is due to increase from 1232 to 4096 making a massive impact on the chain.",
-        "twitter": "https://x.com/BananaInte/status/2094671557905760364?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -23367,19 +23344,30 @@
       "pnl_pct": -18.62,
       "exit_reason": "LLM: sell_all — Down -18.6% in 0h held with only $2.4k pool liquidity and no bounce signal. Discipline says exit at -20% with doubt; -30% hard stop is imminent and th",
       "partial": false
+    },
+    {
+      "mint": "GUXTauQFGu1p2bCGuurB7WmZccvimGmFHXeWDPampump",
+      "symbol": "bitart",
+      "name": "bitart",
+      "amount_sold": 670461.0631259115,
+      "fraction_sold": 0.9999999866634067,
+      "entry_time": "2026-09-01T06:21:18.411778+00:00",
+      "exit_time": "2026-09-01T06:25:21.857568+00:00",
+      "entry_price_usd": 3.0981664507296434e-06,
+      "exit_price_usd": 2.900465983321286e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018745,
+      "pnl_sol": -0.001255,
+      "pnl_pct": -6.38,
+      "exit_reason": "LLM: sell_all — $bitart down -6.4% in 0.1h, low momentum and '⚠ HUGE' concentration flagged. Cut early before -30% hard stop kicks in.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T06:23:16.488026+00:00",
+  "last_updated": "2026-09-01T06:25:22.362628+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.96,
-  "portfolio_value_usd": 53.74,
+  "last_sol_price_usd": 103.74,
+  "portfolio_value_usd": 53.49,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 05:20 UTC",
-      "action": "buy",
-      "details": "[LLM] $pump.fun  at $3.13241e-06, spent 0.02 SOL",
-      "reason": "Pump.fun Amazon-warehouse narrative is meta (about the platform itself) with both desc and twitter — passes viability cleanly, low fragility. Weak story but cheap entry at 0.05 SOL to learn how meta-narratives perform."
-    },
     {
       "time": "2026-09-01 05:22 UTC",
       "action": "sell",
@@ -23493,40 +23481,46 @@
       "action": "buy",
       "details": "[LLM] $bitart at $3.09817e-06, spent 0.02 SOL",
       "reason": "$bitart rides a real Solana technical narrative (byte limit 1232→4096), has a backing tweet from @BananaInte, mcap $3k at 0.2min old — textbook early-attention entry. Viability passes (desc50+ chars + twitter), no celebrity/political keywords so not fragility-blocked. Sized0.05 SOL ($5) to keep 2-slot flexibility."
+    },
+    {
+      "time": "2026-09-01 06:25 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $bitart at $2.90047e-06 | P&L: -6.4%",
+      "reason": "$bitart down -6.4% in 0.1h, low momentum and '⚠ HUGE' concentration flagged. Cut early before -30% hard stop kicks in."
     }
   ],
   "trade_stats": {
-    "total": 1373,
+    "total": 1374,
     "wins": 696,
-    "losses": 677,
+    "losses": 678,
     "win_rate_pct": 50.7,
-    "total_pnl_sol": -1.815737,
-    "avg_pnl_pct": 39.61,
+    "total_pnl_sol": -1.816992,
+    "avg_pnl_pct": 39.57,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 88,
-    "today_realized_sol": 0.072151,
-    "today_target_pct": 18.0,
+    "today_trades": 89,
+    "today_realized_sol": 0.070896,
+    "today_target_pct": 17.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 696,
-      "loss_count": 677,
+      "loss_count": 678,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T06:23:16.229110+00:00",
+  "last_llm_brief_at": "2026-09-01T06:25:21.857481+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GUXTauQFGu1p2bCGuurB7WmZccvimGmFHXeWDPampump": {
-      "price_usd": 3.1011494725385488e-06,
+      "price_usd": 2.900465983321286e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 102.67654321116,
-      "volume_h24": 268.39,
+      "liquidity_usd": 1.0374e-07,
+      "volume_h24": 371.04,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.987654321
+      "real_sol_reserves": 1e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
