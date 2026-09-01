@@ -11374,3 +11374,12 @@
 ## [2026-09-01 02:11 UTC] sell | [PARTIAL][LLM] $delulu at $1.42349e-05 | P&L: +88.7%
 - **Reasoning:** Up +88.7% in 6 minutes - very close to +100% auto-TP. Locking half now secures profit before potential reversal. Bonding curve near maturity.
 
+## [2026-09-01 02:12 UTC] sell | [hard-stop] $MRNA closed at $3.25835e-06 | P&L: -80.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-01 02:12 UTC] sell | [TP +30% (25%)] $delulu at $1.34492e-05 | P&L: +78.2%
+- **Reasoning:** Auto take-profit at +78.3%
+
+## [2026-09-01 02:14 UTC] sell | [PARTIAL][LLM] $delulu at $1.34492e-05 | P&L: +78.2%
+- **Reasoning:** delulu at +78.3% in 6 minutes is a textbook scalping win. Selling half locks ~39% on that portion while leaving skin in the game for a potential run to +100%. Aggressive profit-taking per discipline rules.
+
