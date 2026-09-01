@@ -11587,3 +11587,12 @@
 ## [2026-09-01 04:26 UTC] buy | [LLM] $BOUNTYBOY at $3.35333e-06, spent 0.02 SOL
 - **Reasoning:** $BOUNTYBOY passes viability gate (desc 66 chars + dedicated twitter @BountyBoyLive), has clean Pumpfun-native utility narrative (bounty leaderboard), no fragility keywords. Strongest narrative-to-data ratio among new launches.
 
+## [2026-09-01 04:27 UTC] sell | [FULL][LLM] $GIGAGAGA at $1.12091e-05 | P&L: +29.5%
+- **Reasoning:** Up +29.5% and approaching the +30% auto-TP trigger. Lock the gain now — bonding-curve token on thin pool, no reason to ride a 1-min-old position into a giveback.
+
+## [2026-09-01 04:27 UTC] sell | [FULL][LLM] $BOUNTYBOY at $3.1291e-06 | P&L: -6.7%
+- **Reasoning:** Down -6.7% on a $116 pool with our 2% share — thin liquidity, slow bleed. Cut the loser and rotate the slot into a fresher narrative.
+
+## [2026-09-01 04:27 UTC] buy | [LLM] $Chiikawa at $1.816e-05, spent 0.02 SOL
+- **Reasoning:** $Chiikawa — real Japanese IP (Nagano's massively popular character series), 120-char description, linked twitter, $19k mcap, 1 min old. Only candidate that clearly passes the viability gate with a story that can go viral internationally. 0.05 SOL.
+
