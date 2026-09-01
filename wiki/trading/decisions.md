@@ -11728,3 +11728,6 @@
 ## [2026-09-01 06:42 UTC] buy | [LLM] $GCard at $3.02366e-06, spent 0.02 SOL
 - **Reasoning:** $GCard — Grok literally posting report cards on X is a meta-narrative with built-in virality tied to Grok AI attention cycle. Tight narrative, strong attention signal. 0.05 SOL position.
 
+## [2026-09-01 06:45 UTC] sell | [FULL][LLM] $GCard at $2.96136e-06 | P&L: -2.1%
+- **Reasoning:** Down -2.1% after entry with only $32 pool and 6% of our share already — fragile liquidity, no narrative edge visible, fresh slate means better uses of capital exist.
+
