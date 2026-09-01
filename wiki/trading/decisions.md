@@ -12133,3 +12133,6 @@
 ## [2026-09-01 12:19 UTC] sell | [hard-stop] $LOM COIN closed at $2.99891e-06 | P&L: -70.1%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-01 13:14 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
