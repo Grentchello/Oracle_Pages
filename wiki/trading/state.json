@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.398743,
+  "balance_sol": 0.41061,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "auzZ3q7QM23U16cpiHMCwWEe8umhsUL7Zt5dk2Cpump": {
       "symbol": "Wolf🐺",
       "name": "The White Wolf 🐺🌕",
-      "amount": 360366.3112797334,
+      "amount": 180183.1556398667,
       "entry_price_usd": 5.676446260294593e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-01T11:16:15.102889+00:00",
       "entry_usd_value": 2.0456,
       "entry_signals": {
@@ -24506,19 +24506,30 @@
       "pnl_pct": -2.93,
       "exit_reason": "LLM: sell_all — Owning 216M% of pool means I AM the liquidity — any seller dumps onto me. Down only -2.9% but structure is terrible and no momentum. Cut the bag-holdi",
       "partial": false
+    },
+    {
+      "mint": "auzZ3q7QM23U16cpiHMCwWEe8umhsUL7Zt5dk2Cpump",
+      "symbol": "Wolf🐺",
+      "name": "The White Wolf 🐺🌕",
+      "amount_sold": 180183.1556398667,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T11:16:15.102889+00:00",
+      "exit_time": "2026-09-01T11:20:42.836711+00:00",
+      "entry_price_usd": 5.676446260294593e-06,
+      "exit_price_usd": 6.733361805231428e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011867,
+      "pnl_sol": 0.001867,
+      "pnl_pct": 18.62,
+      "exit_reason": "LLM: sell_half — Wolf is +18.6% but pool is tiny ($1,640) and bonding-curve — these tend to fade hard after the first pop. Lock half the gain now, let the rest ride if",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T11:19:17.862304+00:00",
+  "last_updated": "2026-09-01T11:20:43.375939+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.25,
-  "portfolio_value_usd": 42.82,
+  "last_sol_price_usd": 102.24,
+  "portfolio_value_usd": 43.0,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 09:38 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $$botfuk at $4.50039e-06 | P&L: +35.2%",
-      "reason": "Auto take-profit at +35.2%"
-    },
     {
       "time": "2026-09-01 09:38 UTC",
       "action": "sell",
@@ -24632,40 +24643,46 @@
       "action": "buy",
       "details": "[LLM] $Wolf🐺 at $5.67645e-06, spent 0.02 SOL",
       "reason": "$Wolf — fresh 0.3min, builder-narrative with explicit 'I will make several purchases' commitment (dev actively buying own curve = skin-in-game signal), twitter live. Strongest description in the batch; personal-creator memecoins pump on dev engagement."
+    },
+    {
+      "time": "2026-09-01 11:20 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Wolf🐺 at $6.73336e-06 | P&L: +18.6%",
+      "reason": "Wolf is +18.6% but pool is tiny ($1,640) and bonding-curve — these tend to fade hard after the first pop. Lock half the gain now, let the rest ride if a second wave hits."
     }
   ],
   "trade_stats": {
-    "total": 1440,
-    "wins": 725,
+    "total": 1441,
+    "wins": 726,
     "losses": 715,
-    "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.913901,
-    "avg_pnl_pct": 37.95,
+    "win_rate_pct": 50.4,
+    "total_pnl_sol": -1.912034,
+    "avg_pnl_pct": 37.94,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 155,
-    "today_realized_sol": -0.026013,
-    "today_target_pct": -6.5,
+    "today_trades": 156,
+    "today_realized_sol": -0.024146,
+    "today_target_pct": -6.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 725,
+      "win_count": 726,
       "loss_count": 715,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T11:19:17.600658+00:00",
+  "last_llm_brief_at": "2026-09-01T11:20:42.836676+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "auzZ3q7QM23U16cpiHMCwWEe8umhsUL7Zt5dk2Cpump": {
-      "price_usd": 6.437170042511548e-06,
+      "price_usd": 6.733361805231428e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1535.48582493675,
-      "volume_h24": 1472.71,
+      "liquidity_usd": 1640.26266581664,
+      "volume_h24": 1688.26,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 15.016976283
+      "real_sol_reserves": 16.043257686
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -12025,3 +12025,6 @@
 ## [2026-09-01 11:16 UTC] buy | [LLM] $Wolf🐺 at $5.67645e-06, spent 0.02 SOL
 - **Reasoning:** $Wolf — fresh 0.3min, builder-narrative with explicit 'I will make several purchases' commitment (dev actively buying own curve = skin-in-game signal), twitter live. Strongest description in the batch; personal-creator memecoins pump on dev engagement.
 
+## [2026-09-01 11:20 UTC] sell | [PARTIAL][LLM] $Wolf🐺 at $6.73336e-06 | P&L: +18.6%
+- **Reasoning:** Wolf is +18.6% but pool is tiny ($1,640) and bonding-curve — these tend to fade hard after the first pop. Lock half the gain now, let the rest ride if a second wave hits.
+
