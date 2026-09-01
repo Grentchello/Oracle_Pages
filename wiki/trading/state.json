@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.410278,
+  "balance_sol": 0.430585,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "cJyYQnQSj3GR5ihNf5RFQ4tM48ZyYUwgzAdccs9pump": {
-      "symbol": "fat",
-      "name": "fat",
-      "amount": 701288.1355932202,
-      "entry_price_usd": 2.95e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T00:26:04.208601+00:00",
-      "entry_usd_value": 2.0688,
-      "entry_signals": {
-        "liquidity_usd": 54.864072660960005,
-        "volume_24h_usd": 15043.2,
-        "market_cap_usd": 2995.927569200439,
-        "ath_market_cap_usd": 18368.07438380452,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.530395134,
-        "description": "\"He does not move. He does not speak. He simply waits  and the market obeys.\"",
-        "twitter": "https://x.com/fatwtf_",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21922,19 +21899,30 @@
       "pnl_pct": -4.34,
       "exit_reason": "LLM: sell_all — Down 4.3% with only $11 pool and no listed description or clear narrative. No attention signal to hold for. Free slot for a better setup.",
       "partial": false
+    },
+    {
+      "mint": "cJyYQnQSj3GR5ihNf5RFQ4tM48ZyYUwgzAdccs9pump",
+      "symbol": "fat",
+      "name": "fat",
+      "amount_sold": 701288.1355932202,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T00:26:04.208601+00:00",
+      "exit_time": "2026-09-01T00:29:42.434446+00:00",
+      "entry_price_usd": 2.95e-06,
+      "exit_price_usd": 2.9961139178902375e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020307,
+      "pnl_sol": 0.000307,
+      "pnl_pct": 1.56,
+      "exit_reason": "LLM: sell_all — Fat is +1.6% after 6 minutes with only $55 pool and 4% share. Zero attention momentum — this is dead capital sitting in a slot. Exit and rotate.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T00:28:06.681031+00:00",
+  "last_updated": "2026-09-01T00:29:42.693278+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.52,
-  "portfolio_value_usd": 44.54,
+  "last_sol_price_usd": 103.47,
+  "portfolio_value_usd": 44.55,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 23:25 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-31 23:28 UTC",
       "action": "observe",
@@ -22048,35 +22036,41 @@
       "action": "buy",
       "details": "[LLM] $fat at $2.95e-06, spent 0.02 SOL",
       "reason": "Only candidate passing viability + fragility gates. Stoic meme narrative ('He simply waits and the market obeys') is genuinely shareable. $3k mcap with real twitter — asymmetric risk-reward on a fresh launch. Buying 0.1 SOL."
+    },
+    {
+      "time": "2026-09-01 00:29 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $fat at $2.99611e-06 | P&L: +1.6%",
+      "reason": "Fat is +1.6% after 6 minutes with only $55 pool and 4% share. Zero attention momentum — this is dead capital sitting in a slot. Exit and rotate."
     }
   ],
   "trade_stats": {
-    "total": 1288,
-    "wins": 657,
+    "total": 1289,
+    "wins": 658,
     "losses": 631,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -1.902367,
-    "avg_pnl_pct": 40.19,
+    "total_pnl_sol": -1.90206,
+    "avg_pnl_pct": 40.16,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 3,
-    "today_realized_sol": -0.014479,
-    "today_target_pct": -3.6,
+    "today_trades": 4,
+    "today_realized_sol": -0.014172,
+    "today_target_pct": -3.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 657,
+      "win_count": 658,
       "loss_count": 631,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T00:28:06.433032+00:00",
+  "last_llm_brief_at": "2026-09-01T00:29:42.434413+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "cJyYQnQSj3GR5ihNf5RFQ4tM48ZyYUwgzAdccs9pump": {
-      "price_usd": 2.9975617355755035e-06,
+      "price_usd": 2.9961139178902375e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 54.90650427168,
+      "liquidity_usd": 54.87998451498,
       "volume_h24": 15129.84,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
