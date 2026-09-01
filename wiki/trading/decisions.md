@@ -11638,3 +11638,6 @@
 ## [2026-09-01 05:22 UTC] sell | [FULL][LLM] $pump.fun  at $3.1316e-06 | P&L: -0.0%
 - **Reasoning:** Position is flat at -0.0% after entry. Generic $pump.fun name has no narrative or attention hook, and it's already started its lifecycle on the bonding curve. No reason to hold dead capital — rotate into a fresher attention token.
 
+## [2026-09-01 05:23 UTC] buy | [LLM] $MOUSE at $6.23647e-06, spent 0.02 SOL
+- **Reasoning:** $MOUSE — universal relatable meme ('we all hold a mouse every day'), 0.1min old, $6.2k mcap, boy_sold_down tweet attached. Low mcap + clear narrative + active promoter = classic attention launch setup.
+
