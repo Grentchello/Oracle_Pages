@@ -11821,3 +11821,9 @@
 ## [2026-09-01 08:00 UTC] sell | [PARTIAL][LLM] $RISE at $5.80403e-06 | P&L: +11.0%
 - **Reasoning:** RISE up +11% already in 0.0h on tiny $1296 pool — classic volatile microcap. Lock half the gain now per profit-taking discipline; let the rest ride if narrative holds. Pool is too thin to trust a full hold.
 
+## [2026-09-01 08:01 UTC] sell | [TP +30% (25%)] $ASPIE at $5.83451e-06 | P&L: +31.3%
+- **Reasoning:** Auto take-profit at +31.3%
+
+## [2026-09-01 08:02 UTC] sell | [PARTIAL][LLM] $RISE at $6.22592e-06 | P&L: +19.1%
+- **Reasoning:** RISE at +19%, close to +30% TP but hasn't triggered. Lock half the gain now — bonding-curve tokens at 0.0h held with small pool ($1453) can reverse fast. Free a slot for fresh entry.
+
