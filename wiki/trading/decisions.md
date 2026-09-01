@@ -11413,3 +11413,12 @@
 ## [2026-09-01 02:32 UTC] buy | [LLM] $DEBT  at $2.53437e-06, spent 0.02 SOL
 - **Reasoning:** DEBT (AURA DEBT) — strongest narrative in the batch: 'aura debt' concept is memeable and relatable to crypto Twitter culture. Description passes viability gate (50+ chars, has Twitter). $2,530 mcap and 0.2 min age means we're catching it at the absolute floor. If the aura debt meme catches on, this is a 5-10x from here.
 
+## [2026-09-01 02:33 UTC] sell | [TP +30% (25%)] $DEBT  at $4.01297e-06 | P&L: +58.3%
+- **Reasoning:** Auto take-profit at +58.3%
+
+## [2026-09-01 02:34 UTC] sell | [FULL][LLM] $DEBT  at $4.01297e-06 | P&L: +58.3%
+- **Reasoning:** +58.3% in <1 hour is a textbook scalp win. The hard auto-TP should've caught this at +100%/+200% tiers but at +58% with only 2% share of a $122 pool, slippage will eat future gains. Lock this in — a 58% winner pays for 2-3 losers.
+
+## [2026-09-01 02:34 UTC] buy | [LLM] $BULLPEN at $3.47956e-06, spent 0.02 SOL
+- **Reasoning:** $BULLPEN is the only candidate passing both viability gates (desc >50 chars + twitter present). 'Trading agent tokenized on Solana' narrative taps the AI-agent meta that's been hot. At $3.4k mcap and 0.2min old, entry is ultra-early. Risk: low liquidity, only 8% bonding progress, and 'trading agent' is a crowded narrative — but the upside at this mcap is asymmetric.
+
