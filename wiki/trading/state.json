@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.44374,
+  "balance_sol": 0.461909,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "73dmtuoNPzFS5Vbs6qDyavbzFkrmDM5nagW23av6pump": {
       "symbol": "MOONER",
       "name": "Mooner",
-      "amount": 695735.6056036494,
+      "amount": 46101.04370075551,
       "entry_price_usd": 2.9361728558186716e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0013252460655871223,
       "entry_time": "2026-09-01T09:09:31.232149+00:00",
       "entry_usd_value": 2.0428,
       "entry_signals": {
@@ -24234,19 +24234,30 @@
       "pnl_pct": 0.01,
       "exit_reason": "LLM: sell_all — HERODOG flat +0.0%, pool only $20 (below the 5x position size liquidity floor = ~$51), just entered. $20 pool is a rug magnet — exit immediately befor",
       "partial": false
+    },
+    {
+      "mint": "73dmtuoNPzFS5Vbs6qDyavbzFkrmDM5nagW23av6pump",
+      "symbol": "MOONER",
+      "name": "Mooner",
+      "amount_sold": 649634.5619028939,
+      "fraction_sold": 0.9337376967206439,
+      "entry_time": "2026-09-01T09:09:31.232149+00:00",
+      "exit_time": "2026-09-01T09:12:51.480787+00:00",
+      "entry_price_usd": 2.9361728558186716e-06,
+      "exit_price_usd": 2.8525182864318723e-06,
+      "entry_sol_for_chunk": 0.018675,
+      "exit_sol_received": 0.018169,
+      "pnl_sol": -0.000505,
+      "pnl_pct": -2.85,
+      "exit_reason": "LLM: sell_all — 377% pool share with only $1 pool means position is 3.77x the entire pool - essentially unsellable without catastrophic slippage. Already down 2.8% on",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T09:11:16.055177+00:00",
+  "last_updated": "2026-09-01T09:12:52.014319+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.11,
-  "portfolio_value_usd": 47.35,
+  "last_sol_price_usd": 101.99,
+  "portfolio_value_usd": 47.25,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 08:41 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $DVP at $2.35005e-05 | P&L: +85.3%",
-      "reason": "Auto take-profit at +85.3%"
-    },
     {
       "time": "2026-09-01 08:42 UTC",
       "action": "sell",
@@ -24360,36 +24371,42 @@
       "action": "buy",
       "details": "[LLM] $MOONER at $2.93617e-06, spent 0.02 SOL",
       "reason": "$MOONER has the strongest narrative — dogs building civilization on moon, good X account, fresh launch with $2.9k mcap. Memecoin attention play with story backing."
+    },
+    {
+      "time": "2026-09-01 09:12 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $MOONER at $2.85252e-06 | P&L: -2.9%",
+      "reason": "377% pool share with only $1 pool means position is 3.77x the entire pool - essentially unsellable without catastrophic slippage. Already down 2.8% on a fresh position with no momentum. Cut and free the slot for a liquid opportunity."
     }
   ],
   "trade_stats": {
-    "total": 1424,
+    "total": 1425,
     "wins": 720,
-    "losses": 704,
-    "win_rate_pct": 50.6,
-    "total_pnl_sol": -1.868905,
-    "avg_pnl_pct": 38.53,
+    "losses": 705,
+    "win_rate_pct": 50.5,
+    "total_pnl_sol": -1.86941,
+    "avg_pnl_pct": 38.5,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 139,
-    "today_realized_sol": 0.018983,
-    "today_target_pct": 4.7,
+    "today_trades": 140,
+    "today_realized_sol": 0.018478,
+    "today_target_pct": 4.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 720,
-      "loss_count": 704,
+      "loss_count": 705,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T09:11:15.791983+00:00",
+  "last_llm_brief_at": "2026-09-01T09:12:51.480695+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "73dmtuoNPzFS5Vbs6qDyavbzFkrmDM5nagW23av6pump": {
-      "price_usd": 2.855874519340705e-06,
+      "price_usd": 2.8525182864318723e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.52663518408,
-      "volume_h24": 1182.26,
+      "liquidity_usd": 0.52601628072,
+      "volume_h24": 1190.17,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,

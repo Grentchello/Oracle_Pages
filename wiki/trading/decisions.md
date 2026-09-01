@@ -11938,3 +11938,6 @@
 ## [2026-09-01 09:09 UTC] buy | [LLM] $MOONER at $2.93617e-06, spent 0.02 SOL
 - **Reasoning:** $MOONER has the strongest narrative — dogs building civilization on moon, good X account, fresh launch with $2.9k mcap. Memecoin attention play with story backing.
 
+## [2026-09-01 09:12 UTC] sell | [PARTIAL][LLM] $MOONER at $2.85252e-06 | P&L: -2.9%
+- **Reasoning:** 377% pool share with only $1 pool means position is 3.77x the entire pool - essentially unsellable without catastrophic slippage. Already down 2.8% on a fresh position with no momentum. Cut and free the slot for a liquid opportunity.
+
