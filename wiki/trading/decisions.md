@@ -11341,3 +11341,9 @@
 ## [2026-09-01 01:59 UTC] buy | [LLM] $Moko at $4.50681e-06, spent 0.02 SOL
 - **Reasoning:** $Moko has genuine storytelling — Red Panda baby naming event with community engagement. Organic narrative with twitter presence. Bond 17% shows some traction. Cute animal + community event = attention potential.
 
+## [2026-09-01 02:00 UTC] sell | [hard-stop] $Moko closed at $2.91743e-06 | P&L: -35.3%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-01 02:01 UTC] buy | [LLM] $CVS at $3.04249e-06, spent 0.02 SOL
+- **Reasoning:** $CVS (CVS RECEIPT) — relatable humor about absurdly long CVS receipts, 0.1min old, $3k mcap, passes viability gate. Risk: very low bond at 3%, might be too niche, but everyday humor has viral potential.
+
