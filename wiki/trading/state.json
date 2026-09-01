@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.387052,
+  "balance_sol": 0.39303,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "34yKaqkeukhL9ze7nZcpVodGibouvfsGP3fNPkuYpump": {
-      "symbol": "LOM COIN",
-      "name": "LEAGUE OF MEME COIN",
-      "amount": 203904.3824701195,
-      "entry_price_usd": 1.004e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T12:18:10.670026+00:00",
-      "entry_usd_value": 2.0472,
-      "entry_signals": {
-        "liquidity_usd": 2752.21787875908,
-        "volume_24h_usd": 2681.26,
-        "market_cap_usd": 10337.527680198316,
-        "ath_market_cap_usd": 10288.138162941455,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 26.887630703,
-        "description": "Every hero has a weapon. Ours is the memes that shaped the internet. Browse the gallery and find your spirit champion ",
-        "twitter": "https://x.com/leagueofmeme_",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24931,19 +24908,30 @@
       "pnl_pct": -51.25,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "34yKaqkeukhL9ze7nZcpVodGibouvfsGP3fNPkuYpump",
+      "symbol": "LOM COIN",
+      "name": "LEAGUE OF MEME COIN",
+      "amount_sold": 203904.3824701195,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T12:18:10.670026+00:00",
+      "exit_time": "2026-09-01T12:19:14.212488+00:00",
+      "entry_price_usd": 1.004e-05,
+      "exit_price_usd": 2.998911033271648e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.005978,
+      "pnl_sol": -0.014022,
+      "pnl_pct": -70.13,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T12:18:10.940950+00:00",
+  "last_updated": "2026-09-01T12:19:36.477595+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.36,
-  "portfolio_value_usd": 41.67,
+  "last_sol_price_usd": 102.29,
+  "portfolio_value_usd": 40.2,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 11:42 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $APEPE at $9.24141e-06 | P&L: +124.5%",
-      "reason": "+124% is already past the +100% TP threshold (bot auto-sells 50%), so I'm taking the remaining half off the table. Bonding curve only, pool=$2447 thin — give back gains fast here. Lock the profit."
-    },
     {
       "time": "2026-09-01 11:42 UTC",
       "action": "buy",
@@ -25057,30 +25045,48 @@
       "action": "buy",
       "details": "[LLM] $LOM COIN at $1.004e-05, spent 0.02 SOL",
       "reason": "League-of-meme-gallery narrative and dedicated X account provide the clearest attention signal, with a $10.3K mcap offering strong early-launch upside. Risk is the very fresh 0.9-minute age, incomplete bond curve, and uncertain liquidity depth."
+    },
+    {
+      "time": "2026-09-01 12:19 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $LOM COIN closed at $2.99891e-06 | P&L: -70.1%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1465,
+    "total": 1466,
     "wins": 744,
-    "losses": 721,
+    "losses": 722,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -1.92559,
-    "avg_pnl_pct": 38.15,
+    "total_pnl_sol": -1.939612,
+    "avg_pnl_pct": 38.08,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 180,
-    "today_realized_sol": -0.037702,
-    "today_target_pct": -9.4,
+    "today_trades": 181,
+    "today_realized_sol": -0.051724,
+    "today_target_pct": -12.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 744,
-      "loss_count": 721,
+      "loss_count": 722,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T12:18:09.208030+00:00",
+  "last_llm_brief_at": "2026-09-01T12:19:36.477030+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "34yKaqkeukhL9ze7nZcpVodGibouvfsGP3fNPkuYpump": {
+      "price_usd": 2.998911033271648e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 73.68120618803,
+      "volume_h24": 2776.67,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.720316807
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

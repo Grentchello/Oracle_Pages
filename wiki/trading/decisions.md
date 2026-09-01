@@ -12130,3 +12130,6 @@
 ## [2026-09-01 12:18 UTC] buy | [LLM] $LOM COIN at $1.004e-05, spent 0.02 SOL
 - **Reasoning:** League-of-meme-gallery narrative and dedicated X account provide the clearest attention signal, with a $10.3K mcap offering strong early-launch upside. Risk is the very fresh 0.9-minute age, incomplete bond curve, and uncertain liquidity depth.
 
+## [2026-09-01 12:19 UTC] sell | [hard-stop] $LOM COIN closed at $2.99891e-06 | P&L: -70.1%
+- **Reasoning:** Hard -30% stop
+
