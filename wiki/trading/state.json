@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.433331,
+  "balance_sol": 0.413331,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "8gr3oFGTB76AfK9Und3k9PEZKgodKBaF13FRDSM4pump": {
+      "symbol": "FAPE",
+      "name": "FIGHTING APE",
+      "amount": 628767.7141096735,
+      "entry_price_usd": 3.246e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-01T10:13:25.287679+00:00",
+      "entry_usd_value": 2.0409800000000002,
+      "entry_signals": {
+        "liquidity_usd": 201.57827170950702,
+        "volume_24h_usd": 406.01,
+        "market_cap_usd": 3246.6998796884923,
+        "ath_market_cap_usd": 3439.413423019208,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.975308643,
+        "description": "ONE APE. ONE CAGE. NO FEAR. APE NEVER TAPS. nobody knows how the ape got into the octagon   but he's not leaving until he wins $FAPE 🦍🥊",
+        "twitter": "https://x.com/fapeufc",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24400,17 +24423,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-01T10:12:02.547194+00:00",
+  "last_updated": "2026-09-01T10:13:25.287857+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.95,
-  "portfolio_value_usd": 44.18,
+  "last_sol_price_usd": 102.049,
+  "portfolio_value_usd": 44.22,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 09:06 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $RISE at $7.28325e-06 | P&L: +40.7%",
-      "reason": "RISE up +40.7% already, well above the 25% auto-TP threshold but bot hasn't fired yet. Narrative unclear (no desc), pool only $1830 thin, 0% our share means likely early LP absorption. Lock the +40% gain — this is exactly the 'take some profit' + 'lock the gain' rule firing."
-    },
     {
       "time": "2026-09-01 09:06 UTC",
       "action": "sell",
@@ -24524,6 +24541,12 @@
       "action": "sell",
       "details": "[hard-stop] $MORLI closed at $2.99034e-06 | P&L: -65.6%",
       "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-01 10:13 UTC",
+      "action": "buy",
+      "details": "[LLM] $FAPE at $3.246e-06, spent 0.02 SOL",
+      "reason": "$FAPE passes viability gate (long desc + own @fapeufc twitter) and fragility gate (UFC ape meme, no political/celebrity keywords). Clear memeable hook ('ape never taps' in the cage), higher bond completion (6%) and mcap ($3.2k) than peers. Risk: ultra-early, bond not near curve — but that's where the alpha is per strategy."
     }
   ],
   "trade_stats": {
@@ -24545,7 +24568,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T10:12:02.293829+00:00",
+  "last_llm_brief_at": "2026-09-01T10:13:23.258810+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",

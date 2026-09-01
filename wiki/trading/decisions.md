@@ -11989,3 +11989,6 @@
 ## [2026-09-01 09:50 UTC] sell | [hard-stop] $MORLI closed at $2.99034e-06 | P&L: -65.6%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-01 10:13 UTC] buy | [LLM] $FAPE at $3.246e-06, spent 0.02 SOL
+- **Reasoning:** $FAPE passes viability gate (long desc + own @fapeufc twitter) and fragility gate (UFC ape meme, no political/celebrity keywords). Clear memeable hook ('ape never taps' in the cage), higher bond completion (6%) and mcap ($3.2k) than peers. Risk: ultra-early, bond not near curve — but that's where the alpha is per strategy.
+
