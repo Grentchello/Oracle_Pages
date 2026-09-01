@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.472397,
+  "balance_sol": 0.452397,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "NNDwdjdxLcXsvEdwdPNDhot6RWkwCQW5wUojVjJpump": {
+      "symbol": "RWA BABIES",
+      "name": "RWA BABIES",
+      "amount": 197829.021793339,
+      "entry_price_usd": 1.0436284733575506e-05,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-01T01:56:08.563835+00:00",
+      "entry_usd_value": 2.0646,
+      "entry_signals": {
+        "liquidity_usd": 41.45828918103,
+        "volume_24h_usd": null,
+        "market_cap_usd": 10393.79862502778,
+        "ath_market_cap_usd": 15830.285851870003,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.401610861,
+        "description": "Windows 95 nursery vibes make $RWA BABIES feel like ten thousand contract-drawn desk kids 🍼 Welded to $BABY, paid in stock, and dripping through ranks, taxes, buybacks, and flywheel chaos 📈",
+        "twitter": "https://x.com/rwababiesonsol/status/2094604877489897832",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -22156,17 +22179,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-01T01:54:35.653311+00:00",
+  "last_updated": "2026-09-01T01:56:08.564004+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.28,
-  "portfolio_value_usd": 48.79,
+  "last_sol_price_usd": 103.23,
+  "portfolio_value_usd": 48.77,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 00:57 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $tape closed at $2.95923e-06 | P&L: -64.6%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-01 00:58 UTC",
       "action": "sell",
@@ -22280,6 +22297,12 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-01 01:56 UTC",
+      "action": "buy",
+      "details": "[LLM] $RWA BABIES at $1.04363e-05, spent 0.02 SOL",
+      "reason": "Best viability candidate: has real description (>50 chars), active Twitter, $10k mcap with 32% bonding progress. The Windows 95 nursery aesthetic is a distinct visual hook that could catch attention. Early enough (0.3min) to have upside, late enough to have some buy pressure forming."
     }
   ],
   "trade_stats": {
@@ -22301,7 +22324,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T01:54:35.653000+00:00",
+  "last_llm_brief_at": "2026-09-01T01:56:07.257295+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
