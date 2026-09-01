@@ -11311,3 +11311,6 @@
 ## [2026-09-01 01:24 UTC] sell | [FULL][LLM] $ONTO at $2.88207e-06 | P&L: -10.8%
 - **Reasoning:** Pool=$0 with our share=892128066% means zero external liquidity. This token is a ghost — we ARE the market. Down -10.8% with no exit path. Must cut now before bonding curve completes and we're stuck.
 
+## [2026-09-01 01:26 UTC] sell | [FULL][LLM] $Mercy at $1.37342e-05 | P&L: -14.5%
+- **Reasoning:** Down 14.5% with no narrative or description provided — this is a blind position with no attention signal to ride. Freeing the slot for $BATC which has a stronger launch profile (13% bonding vs Mercy's thin $3658 pool) and clear vigilante narrative.
+
