@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.488882,
+  "balance_sol": 0.507919,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "YAjmeoRxTKYUdvx6oXYnKTWHHyMbHQpAmEPEX5Mpump": {
-      "symbol": "HEARTBEAT",
-      "name": "HEARTBEAT.EXE",
-      "amount": 670992.1118362055,
-      "entry_price_usd": 3.092733824129624e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T06:48:06.709959+00:00",
-      "entry_usd_value": 2.0752,
-      "entry_signals": {
-        "liquidity_usd": 27.979678075280003,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3092.0453235775667,
-        "ath_market_cap_usd": 4234.156592165379,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.269657653,
-        "description": "A living digital entity on Solana, powered by holders, fees, heartbeats, on-chain events, and human interaction.",
-        "twitter": "https://x.com/h3artbeatexe/status/2094678207773757754",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -23503,19 +23480,30 @@
       "pnl_pct": -2.06,
       "exit_reason": "LLM: sell_all — Down -2.1% after entry with only $32 pool and 6% of our share already — fragile liquidity, no narrative edge visible, fresh slate means better uses of",
       "partial": false
+    },
+    {
+      "mint": "YAjmeoRxTKYUdvx6oXYnKTWHHyMbHQpAmEPEX5Mpump",
+      "symbol": "HEARTBEAT",
+      "name": "HEARTBEAT.EXE",
+      "amount_sold": 670992.1118362055,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T06:48:06.709959+00:00",
+      "exit_time": "2026-09-01T06:51:32.247479+00:00",
+      "entry_price_usd": 3.092733824129624e-06,
+      "exit_price_usd": 2.9432116066086703e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019037,
+      "pnl_sol": -0.000963,
+      "pnl_pct": -4.83,
+      "exit_reason": "LLM: sell_all — $HEARTBEAT down -4.8% on tiny $23 pool with our 9% share — we ARE the exit liquidity. Stale bonding-curve microcap with no catalyst; cut before it ble",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T06:49:52.580205+00:00",
+  "last_updated": "2026-09-01T06:51:32.775516+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 103.74,
-  "portfolio_value_usd": 52.79,
+  "portfolio_value_usd": 52.69,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 06:11 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $GENTRY at $7.57966e-06 | P&L: +37.1%",
-      "reason": "$GENTRY is up +37.1%, well past the +30% TP threshold — bot should auto-trigger, but locking in half secures gains while letting runner play. Pool $1917 is thin, high rug risk on the remainder."
-    },
     {
       "time": "2026-09-01 06:12 UTC",
       "action": "sell",
@@ -23629,28 +23617,34 @@
       "action": "buy",
       "details": "[LLM] $HEARTBEAT at $3.09273e-06, spent 0.02 SOL",
       "reason": "$HEARTBEAT - 'living digital entity on Solana' narrative rides the agent/AI meta which is hot. Dedicated @h3artbeatexe twitter, narrative-rich description (>50 chars). Strong attention signal at $3k mcap."
+    },
+    {
+      "time": "2026-09-01 06:51 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HEARTBEAT at $2.94321e-06 | P&L: -4.8%",
+      "reason": "$HEARTBEAT down -4.8% on tiny $23 pool with our 9% share — we ARE the exit liquidity. Stale bonding-curve microcap with no catalyst; cut before it bleeds further."
     }
   ],
   "trade_stats": {
-    "total": 1381,
+    "total": 1382,
     "wins": 698,
-    "losses": 683,
+    "losses": 684,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.823763,
-    "avg_pnl_pct": 39.38,
+    "total_pnl_sol": -1.824726,
+    "avg_pnl_pct": 39.35,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 96,
-    "today_realized_sol": 0.064125,
-    "today_target_pct": 16.0,
+    "today_trades": 97,
+    "today_realized_sol": 0.063162,
+    "today_target_pct": 15.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 698,
-      "loss_count": 683,
+      "loss_count": 684,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T06:49:52.311990+00:00",
+  "last_llm_brief_at": "2026-09-01T06:51:32.247434+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "YAjmeoRxTKYUdvx6oXYnKTWHHyMbHQpAmEPEX5Mpump": {

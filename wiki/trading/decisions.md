@@ -11734,3 +11734,6 @@
 ## [2026-09-01 06:48 UTC] buy | [LLM] $HEARTBEAT at $3.09273e-06, spent 0.02 SOL
 - **Reasoning:** $HEARTBEAT - 'living digital entity on Solana' narrative rides the agent/AI meta which is hot. Dedicated @h3artbeatexe twitter, narrative-rich description (>50 chars). Strong attention signal at $3k mcap.
 
+## [2026-09-01 06:51 UTC] sell | [FULL][LLM] $HEARTBEAT at $2.94321e-06 | P&L: -4.8%
+- **Reasoning:** $HEARTBEAT down -4.8% on tiny $23 pool with our 9% share — we ARE the exit liquidity. Stale bonding-curve microcap with no catalyst; cut before it bleeds further.
+
