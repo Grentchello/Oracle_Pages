@@ -11383,3 +11383,9 @@
 ## [2026-09-01 02:14 UTC] sell | [PARTIAL][LLM] $delulu at $1.34492e-05 | P&L: +78.2%
 - **Reasoning:** delulu at +78.3% in 6 minutes is a textbook scalping win. Selling half locks ~39% on that portion while leaving skin in the game for a potential run to +100%. Aggressive profit-taking per discipline rules.
 
+## [2026-09-01 02:15 UTC] sell | [TP +30% (25%)] $delulu at $1.20072e-05 | P&L: +59.1%
+- **Reasoning:** Auto take-profit at +59.1%
+
+## [2026-09-01 02:16 UTC] sell | [PARTIAL][LLM] $delulu at $1.20072e-05 | P&L: +59.1%
+- **Reasoning:** +59.1% in 6 minutes is an excellent scalp. Sell half to lock ~0.03 SOL profit; let the rest ride as a free position with a tight mental stop if momentum fades.
+

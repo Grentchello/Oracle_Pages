@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.451284,
+  "balance_sol": 0.451809,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "59LPFsaU3L8fGmuksMdG2Nwb2xvrMctEBZpasLrFpump": {
       "symbol": "delulu",
       "name": "delulu",
-      "amount": 7211.4701679522905,
+      "amount": 2704.301312982109,
       "entry_price_usd": 7.545108952513382e-06,
-      "entry_sol_spent": 0.00052734375,
+      "entry_sol_spent": 0.00019775390625,
       "entry_time": "2026-09-01T02:06:40.462148+00:00",
       "entry_usd_value": 2.0636,
       "entry_signals": {
@@ -22381,25 +22381,47 @@
       "pnl_pct": 78.25,
       "exit_reason": "LLM: sell_half — delulu at +78.3% in 6 minutes is a textbook scalping win. Selling half locks ~39% on that portion while leaving skin in the game for a potential run t",
       "partial": true
+    },
+    {
+      "mint": "59LPFsaU3L8fGmuksMdG2Nwb2xvrMctEBZpasLrFpump",
+      "symbol": "delulu",
+      "name": "delulu",
+      "amount_sold": 1802.8675419880726,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-01T02:06:40.462148+00:00",
+      "exit_time": "2026-09-01T02:15:22.978702+00:00",
+      "entry_price_usd": 7.545108952513382e-06,
+      "exit_price_usd": 1.2007153649630878e-05,
+      "entry_sol_for_chunk": 0.000132,
+      "exit_sol_received": 0.00021,
+      "pnl_sol": 7.8e-05,
+      "pnl_pct": 59.14,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "59LPFsaU3L8fGmuksMdG2Nwb2xvrMctEBZpasLrFpump",
+      "symbol": "delulu",
+      "name": "delulu",
+      "amount_sold": 2704.301312982109,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T02:06:40.462148+00:00",
+      "exit_time": "2026-09-01T02:16:00.109356+00:00",
+      "entry_price_usd": 7.545108952513382e-06,
+      "exit_price_usd": 1.2007153649630878e-05,
+      "entry_sol_for_chunk": 0.000198,
+      "exit_sol_received": 0.000315,
+      "pnl_sol": 0.000118,
+      "pnl_pct": 59.14,
+      "exit_reason": "LLM: sell_half — +59.1% in 6 minutes is an excellent scalp. Sell half to lock ~0.03 SOL profit; let the rest ride as a free position with a tight mental stop if moment",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T02:14:19.740451+00:00",
+  "last_updated": "2026-09-01T02:16:00.367023+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.02,
-  "portfolio_value_usd": 46.55,
+  "last_sol_price_usd": 102.94,
+  "portfolio_value_usd": 46.53,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 01:44 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $jails2ool at $2.8876e-06 | P&L: -2.2%",
-      "reason": "Pool=$0 means no real liquidity has formed — still just a bonding curve with no exit depth. At -2.2% this is a clean exit. Free up the slot for better candidates."
-    },
-    {
-      "time": "2026-09-01 01:49 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-01 01:54 UTC",
       "action": "observe",
@@ -22507,51 +22529,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $delulu at $1.34492e-05 | P&L: +78.2%",
       "reason": "delulu at +78.3% in 6 minutes is a textbook scalping win. Selling half locks ~39% on that portion while leaving skin in the game for a potential run to +100%. Aggressive profit-taking per discipline rules."
+    },
+    {
+      "time": "2026-09-01 02:15 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $delulu at $1.20072e-05 | P&L: +59.1%",
+      "reason": "Auto take-profit at +59.1%"
+    },
+    {
+      "time": "2026-09-01 02:16 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $delulu at $1.20072e-05 | P&L: +59.1%",
+      "reason": "+59.1% in 6 minutes is an excellent scalp. Sell half to lock ~0.03 SOL profit; let the rest ride as a free position with a tight mental stop if momentum fades."
     }
   ],
   "trade_stats": {
-    "total": 1315,
-    "wins": 668,
+    "total": 1317,
+    "wins": 670,
     "losses": 647,
-    "win_rate_pct": 50.8,
-    "total_pnl_sol": -1.880834,
-    "avg_pnl_pct": 39.83,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -1.880638,
+    "avg_pnl_pct": 39.86,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 30,
-    "today_realized_sol": 0.007054,
+    "today_trades": 32,
+    "today_realized_sol": 0.00725,
     "today_target_pct": 1.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 668,
+      "win_count": 670,
       "loss_count": 647,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T02:14:19.739635+00:00",
+  "last_llm_brief_at": "2026-09-01T02:16:00.109312+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "59LPFsaU3L8fGmuksMdG2Nwb2xvrMctEBZpasLrFpump": {
-      "price_usd": 1.344920633311796e-05,
+      "price_usd": 1.2007153649630878e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3587.7563778689396,
-      "volume_h24": 28310.46,
+      "liquidity_usd": 3219.52289226744,
+      "volume_h24": 30569.72,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 34.825823897
-    },
-    "Nxiekw6S8j6djSkpguJiiJbeN77zT5tYjJgiw14pump": {
-      "price_usd": 3.2583460844416524e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 196.552615197,
-      "volume_h24": 55623.74,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.90790735
+      "real_sol_reserves": 31.275722676
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
