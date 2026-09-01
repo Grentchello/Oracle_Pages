@@ -51,13 +51,13 @@ async def start_comfyui():
     except Exception as e:
         print(f"[server] ComfyUI check failed: {e}")
     
-    print("[server] Starting ComfyUI...")
+    print("[server] Starting ComfyUI with low-mem mode...")
     comfyui_process = subprocess.Popen(
-        [str(COMFYUI_PY), "main.py", "--listen", "127.0.0.1", "--port", str(COMFYUI_PORT), 
-         "--cpu", "--disable-cuda-malloc", "--mmap-torch-files", "--disable-smart-memory"],
+        [str(COMFYUI_PY), "main.py", "--listen", "127.0.0.1", "--port", str(COMFYUI_PORT),
+         "--cpu", "--lowvram", "--disable-cuda-malloc", "--force-fp16", "--async-offload", "2"],
         cwd=str(COMFYUI_DIR),
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.DEVNULL,
+        stdout=open("/opt/data/hermes_work/bot/comfyui_out.log", "w"),
+        stderr=subprocess.STDOUT,
     )
     
     # Wait for ready (poll /system_stats) — ComfyUI can take 30-60s on CPU
