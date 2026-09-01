@@ -12061,3 +12061,9 @@
 ## [2026-09-01 11:38 UTC] sell | [PARTIAL][LLM] $APEPE at $9.01144e-06 | P&L: +118.9%
 - **Reasoning:** $APEPE is up +118.9% on a tiny $2,378 pool — liquidity is dangerously thin and 0% our share means we won't be able to exit cleanly at size. Lock half the gain now at +50%+ and let the rest ride with a mental stop at entry.
 
+## [2026-09-01 11:39 UTC] sell | [TP +100% (50%)] $APEPE at $9.96189e-06 | P&L: +142.0%
+- **Reasoning:** Auto take-profit at +142.0%
+
+## [2026-09-01 11:41 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+

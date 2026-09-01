@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.40945,
+  "balance_sol": 0.415498,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GdfJVfwBtJmsUK2Nh3Kxmeb76BjVuT3TSZVaqPU1pump": {
       "symbol": "APEPE",
       "name": "APEPE",
-      "amount": 124301.67597765362,
+      "amount": 62150.83798882681,
       "entry_price_usd": 4.117e-06,
-      "entry_sol_spent": 0.005,
+      "entry_sol_spent": 0.0025,
       "entry_time": "2026-09-01T11:36:44.270780+00:00",
       "entry_usd_value": 2.0469999999999997,
       "entry_signals": {
@@ -24659,25 +24659,30 @@
       "pnl_pct": 118.88,
       "exit_reason": "LLM: sell_half — $APEPE is up +118.9% on a tiny $2,378 pool — liquidity is dangerously thin and 0% our share means we won't be able to exit cleanly at size. Lock half ",
       "partial": true
+    },
+    {
+      "mint": "GdfJVfwBtJmsUK2Nh3Kxmeb76BjVuT3TSZVaqPU1pump",
+      "symbol": "APEPE",
+      "name": "APEPE",
+      "amount_sold": 62150.83798882681,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T11:36:44.270780+00:00",
+      "exit_time": "2026-09-01T11:39:12.983490+00:00",
+      "entry_price_usd": 4.117e-06,
+      "exit_price_usd": 9.961893028427421e-06,
+      "entry_sol_for_chunk": 0.0025,
+      "exit_sol_received": 0.006048,
+      "pnl_sol": 0.003548,
+      "pnl_pct": 141.97,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T11:38:09.760641+00:00",
+  "last_updated": "2026-09-01T11:41:13.105834+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.38,
-  "portfolio_value_usd": 42.43,
+  "last_sol_price_usd": 102.37,
+  "portfolio_value_usd": 42.79,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 10:26 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-01 10:29 UTC",
-      "action": "buy",
-      "details": "[LLM] $STATIC at $1.221e-05, spent 0.02 SOL",
-      "reason": "$STATIC has the strongest narrative of the batch — 'unknown signal watching, remembering, never disconnects' reads like a viral mystery/horror memecoin hook. Highest mcap ($10.7k) + already-bonded 33% = real traction, plus dedicated @STATICAT_MEOW twitter account. Highest conviction entry."
-    },
     {
       "time": "2026-09-01 10:30 UTC",
       "action": "buy",
@@ -24785,6 +24790,18 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $APEPE at $9.01144e-06 | P&L: +118.9%",
       "reason": "$APEPE is up +118.9% on a tiny $2,378 pool — liquidity is dangerously thin and 0% our share means we won't be able to exit cleanly at size. Lock half the gain now at +50%+ and let the rest ride with a mental stop at entry."
+    },
+    {
+      "time": "2026-09-01 11:39 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $APEPE at $9.96189e-06 | P&L: +142.0%",
+      "reason": "Auto take-profit at +142.0%"
+    },
+    {
+      "time": "2026-09-01 11:41 UTC",
+      "action": "observe",
+      "details": "LLM call failed: llm call failed",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -24806,19 +24823,19 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T11:38:09.760312+00:00",
+  "last_llm_brief_at": "2026-09-01T11:41:13.105535+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GdfJVfwBtJmsUK2Nh3Kxmeb76BjVuT3TSZVaqPU1pump": {
-      "price_usd": 9.011435345349743e-06,
+      "price_usd": 9.961893028427421e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2378.205147908,
-      "volume_h24": 2438.69,
+      "liquidity_usd": 2658.4138954677,
+      "volume_h24": 2579.13,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 23.2291966
+      "real_sol_reserves": 25.96868121
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
