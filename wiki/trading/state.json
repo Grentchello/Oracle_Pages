@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.461852,
+  "balance_sol": 0.475441,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GGeoWSxfzRgbsWEodKVf7XYN5RNrv1pm2v9Yuemnpump": {
-      "symbol": "QUOKKA",
-      "name": "Quokka",
-      "amount": 309779.77201561385,
-      "entry_price_usd": 3.331398926680029e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-01T07:29:41.879617+00:00",
-      "entry_usd_value": 2.064,
-      "entry_signals": {
-        "liquidity_usd": 33.236394165600004,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3333.814604581462,
-        "ath_market_cap_usd": 3338.5862907403516,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.322058083,
-        "description": "GIGA NARRATIVE THIS LIL GUY IS RESURFACING THE WEB AND GOING VIRAL!!’n ",
-        "twitter": "https://x.com/amazlngnature/status/1866880680027685047?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -23673,25 +23650,47 @@
       "pnl_pct": 29.51,
       "exit_reason": "LLM: sell_half — QUOKKA is up 29.5%, already near the first profit-taking level, but its $43 pool and 6% ownership create liquidity and exit-risk concerns. Lock half w",
       "partial": true
+    },
+    {
+      "mint": "GGeoWSxfzRgbsWEodKVf7XYN5RNrv1pm2v9Yuemnpump",
+      "symbol": "QUOKKA",
+      "name": "Quokka",
+      "amount_sold": 77444.94300390346,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-01T07:29:41.879617+00:00",
+      "exit_time": "2026-09-01T07:32:06.694134+00:00",
+      "entry_price_usd": 3.331398926680029e-06,
+      "exit_price_usd": 4.527815040619307e-06,
+      "entry_sol_for_chunk": 0.0025,
+      "exit_sol_received": 0.003397,
+      "pnl_sol": 0.000897,
+      "pnl_pct": 35.91,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "GGeoWSxfzRgbsWEodKVf7XYN5RNrv1pm2v9Yuemnpump",
+      "symbol": "QUOKKA",
+      "name": "Quokka",
+      "amount_sold": 232334.8233124935,
+      "fraction_sold": 0.9999999754698127,
+      "entry_time": "2026-09-01T07:29:41.879617+00:00",
+      "exit_time": "2026-09-01T07:32:24.998839+00:00",
+      "entry_price_usd": 3.331398926680029e-06,
+      "exit_price_usd": 4.527815040619307e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.010192,
+      "pnl_sol": 0.002692,
+      "pnl_pct": 35.91,
+      "exit_reason": "LLM: sell_all — Up +35.9% on bonding curve, pool=$0, share% flag suggests illiquid/deep bonding state. Past +30% threshold and the easy money is on the table — lock t",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T07:31:03.059110+00:00",
+  "last_updated": "2026-09-01T07:32:25.524044+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.24,
-  "portfolio_value_usd": 48.71,
+  "last_sol_price_usd": 103.22,
+  "portfolio_value_usd": 49.08,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 06:45 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GCard at $2.96136e-06 | P&L: -2.1%",
-      "reason": "Down -2.1% after entry with only $32 pool and 6% of our share already — fragile liquidity, no narrative edge visible, fresh slate means better uses of capital exist."
-    },
-    {
-      "time": "2026-09-01 06:48 UTC",
-      "action": "buy",
-      "details": "[LLM] $HEARTBEAT at $3.09273e-06, spent 0.02 SOL",
-      "reason": "$HEARTBEAT - 'living digital entity on Solana' narrative rides the agent/AI meta which is hot. Dedicated @h3artbeatexe twitter, narrative-rich description (>50 chars). Strong attention signal at $3k mcap."
-    },
     {
       "time": "2026-09-01 06:51 UTC",
       "action": "sell",
@@ -23799,51 +23798,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $QUOKKA at $4.31461e-06 | P&L: +29.5%",
       "reason": "QUOKKA is up 29.5%, already near the first profit-taking level, but its $43 pool and 6% ownership create liquidity and exit-risk concerns. Lock half while retaining exposure to the narrative."
+    },
+    {
+      "time": "2026-09-01 07:32 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $QUOKKA at $4.52782e-06 | P&L: +35.9%",
+      "reason": "Auto take-profit at +35.9%"
+    },
+    {
+      "time": "2026-09-01 07:32 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $QUOKKA at $4.52782e-06 | P&L: +35.9%",
+      "reason": "Up +35.9% on bonding curve, pool=$0, share% flag suggests illiquid/deep bonding state. Past +30% threshold and the easy money is on the table — lock the gain rather than ride a bonding-curve token back to zero."
     }
   ],
   "trade_stats": {
-    "total": 1391,
-    "wins": 699,
+    "total": 1393,
+    "wins": 701,
     "losses": 692,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.860793,
+    "total_pnl_sol": -1.857204,
     "avg_pnl_pct": 38.97,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 106,
-    "today_realized_sol": 0.027095,
-    "today_target_pct": 6.8,
+    "today_trades": 108,
+    "today_realized_sol": 0.030684,
+    "today_target_pct": 7.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 699,
+      "win_count": 701,
       "loss_count": 692,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T07:31:03.057535+00:00",
+  "last_llm_brief_at": "2026-09-01T07:32:24.985208+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "E2Qu1NA7vvLkNjY2fpCAocPiRtdhPbbVVnSUYhVwpump": {
-      "price_usd": 2.894158857408185e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 4.113497037759999,
-      "volume_h24": 4218.67,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.039844024
-    },
     "GGeoWSxfzRgbsWEodKVf7XYN5RNrv1pm2v9Yuemnpump": {
-      "price_usd": 4.314613116436233e-06,
+      "price_usd": 4.527815040619307e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 43.04451331656,
-      "volume_h24": 70.31,
+      "liquidity_usd": 1.0322000000000001e-07,
+      "volume_h24": 126.26,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.416936394
+      "real_sol_reserves": 1e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

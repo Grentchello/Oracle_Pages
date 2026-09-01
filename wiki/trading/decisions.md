@@ -11788,3 +11788,9 @@
 ## [2026-09-01 07:31 UTC] sell | [PARTIAL][LLM] $QUOKKA at $4.31461e-06 | P&L: +29.5%
 - **Reasoning:** QUOKKA is up 29.5%, already near the first profit-taking level, but its $43 pool and 6% ownership create liquidity and exit-risk concerns. Lock half while retaining exposure to the narrative.
 
+## [2026-09-01 07:32 UTC] sell | [TP +30% (25%)] $QUOKKA at $4.52782e-06 | P&L: +35.9%
+- **Reasoning:** Auto take-profit at +35.9%
+
+## [2026-09-01 07:32 UTC] sell | [FULL][LLM] $QUOKKA at $4.52782e-06 | P&L: +35.9%
+- **Reasoning:** Up +35.9% on bonding curve, pool=$0, share% flag suggests illiquid/deep bonding state. Past +30% threshold and the easy money is on the table — lock the gain rather than ride a bonding-curve token back to zero.
+
