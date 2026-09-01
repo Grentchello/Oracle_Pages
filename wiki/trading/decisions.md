@@ -11926,3 +11926,12 @@
 ## [2026-09-01 09:05 UTC] buy | [LLM] $HERODOG at $2.89e-06, spent 0.02 SOL
 - **Reasoning:** Hero-dog-vs-tiger viral animal story is exactly the kind of attention token that pumps — strong descriptive narrative, real twitter account (WolfprwX), bonding only 1% so early entry with full upside. Risk: very fresh, mcap only $2.9k — small size and thin liquidity, but $5 position is sized for that.
 
+## [2026-09-01 09:06 UTC] sell | [TP +30% (25%)] $RISE at $7.28325e-06 | P&L: +40.7%
+- **Reasoning:** Auto take-profit at +40.7%
+
+## [2026-09-01 09:06 UTC] sell | [FULL][LLM] $RISE at $7.28325e-06 | P&L: +40.7%
+- **Reasoning:** RISE up +40.7% already, well above the 25% auto-TP threshold but bot hasn't fired yet. Narrative unclear (no desc), pool only $1830 thin, 0% our share means likely early LP absorption. Lock the +40% gain — this is exactly the 'take some profit' + 'lock the gain' rule firing.
+
+## [2026-09-01 09:06 UTC] sell | [FULL][LLM] $HERODOG at $2.89029e-06 | P&L: +0.0%
+- **Reasoning:** HERODOG flat +0.0%, pool only $20 (below the 5x position size liquidity floor = ~$51), just entered. $20 pool is a rug magnet — exit immediately before the -30% stop catches us. Free up the slot for fresh attention.
+

@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.438463,
+  "balance_sol": 0.46374,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3R4V12d8G97uNDZtxw5Bu1uPdMvomVUSPRvabTtrpump": {
-      "symbol": "RISE",
-      "name": "RISE",
-      "amount": 73895.68985266074,
-      "entry_price_usd": 5.177483974543667e-06,
-      "entry_sol_spent": 0.00375,
-      "entry_time": "2026-09-01T08:59:43.414806+00:00",
-      "entry_usd_value": 2.0405,
-      "entry_signals": {
-        "liquidity_usd": 1062.818105104525,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5179.167595073586,
-        "ath_market_cap_usd": 5176.390372194718,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 10.417232101,
-        "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. GL. ",
-        "twitter": "https://x.com/_rise",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "2Pu58Zb48oVP9kyzmBWmPSdJXVAPKeUDAxyLfEB7pump": {
-      "symbol": "HERODOG",
-      "name": "Hero Dog",
-      "amount": 706089.965397924,
-      "entry_price_usd": 2.89e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T09:05:20.591873+00:00",
-      "entry_usd_value": 2.0406,
-      "entry_signals": {
-        "liquidity_usd": 20.15407405392,
-        "volume_24h_usd": 22.12,
-        "market_cap_usd": 2892.1713362306914,
-        "ath_market_cap_usd": 2895.4831496302745,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.197530864,
-        "description": "The dog that didn’t think twice. When the tiger attacked, everyone froze…   except this dog. No cape. No training. Just pure heart. Hero Dog.",
-        "twitter": "https://x.com/WolfprwX/status/2094664640621912496",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24205,31 +24160,64 @@
       "pnl_pct": 34.88,
       "exit_reason": "LLM: sell_half — +$34.9% is past the 25% TP zone — bot should have already taken partial, but our share=0% means it's all still on the table. Lock half the gain now pe",
       "partial": true
+    },
+    {
+      "mint": "3R4V12d8G97uNDZtxw5Bu1uPdMvomVUSPRvabTtrpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 18473.922463165185,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-01T08:59:43.414806+00:00",
+      "exit_time": "2026-09-01T09:06:24.565839+00:00",
+      "entry_price_usd": 5.177483974543667e-06,
+      "exit_price_usd": 7.2832529649078705e-06,
+      "entry_sol_for_chunk": 0.000937,
+      "exit_sol_received": 0.001319,
+      "pnl_sol": 0.000381,
+      "pnl_pct": 40.67,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "3R4V12d8G97uNDZtxw5Bu1uPdMvomVUSPRvabTtrpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 55421.76738949555,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T08:59:43.414806+00:00",
+      "exit_time": "2026-09-01T09:06:43.923119+00:00",
+      "entry_price_usd": 5.177483974543667e-06,
+      "exit_price_usd": 7.2832529649078705e-06,
+      "entry_sol_for_chunk": 0.002812,
+      "exit_sol_received": 0.003956,
+      "pnl_sol": 0.001144,
+      "pnl_pct": 40.67,
+      "exit_reason": "LLM: sell_all — RISE up +40.7% already, well above the 25% auto-TP threshold but bot hasn't fired yet. Narrative unclear (no desc), pool only $1830 thin, 0% our share",
+      "partial": false
+    },
+    {
+      "mint": "2Pu58Zb48oVP9kyzmBWmPSdJXVAPKeUDAxyLfEB7pump",
+      "symbol": "HERODOG",
+      "name": "Hero Dog",
+      "amount_sold": 706089.965397924,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T09:05:20.591873+00:00",
+      "exit_time": "2026-09-01T09:06:43.924123+00:00",
+      "entry_price_usd": 2.89e-06,
+      "exit_price_usd": 2.8902889627236606e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020002,
+      "pnl_sol": 2e-06,
+      "pnl_pct": 0.01,
+      "exit_reason": "LLM: sell_all — HERODOG flat +0.0%, pool only $20 (below the 5x position size liquidity floor = ~$51), just entered. $20 pool is a rug magnet — exit immediately befor",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T09:05:20.592025+00:00",
+  "last_updated": "2026-09-01T09:06:44.194978+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.03,
-  "portfolio_value_usd": 47.16,
+  "last_sol_price_usd": 102.028,
+  "portfolio_value_usd": 47.31,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 08:22 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $DOGHEAD at $3.06665e-06 | P&L: -0.1%",
-      "reason": "$DOGHEAD flat at -0.1% after entry, bonding curve barely 2%, no momentum signal, lock capital for fresher launches with stronger attention."
-    },
-    {
-      "time": "2026-09-01 08:39 UTC",
-      "action": "buy",
-      "details": "[LLM] $DVP at $1.268e-05, spent 0.02 SOL",
-      "reason": "Delivery-versus-payment settlement and yield narrative is differentiated, with a dedicated X account and the slate's highest market cap and bonding progress. Extremely fresh liquidity and incomplete bonding make this a high-risk momentum entry."
-    },
-    {
-      "time": "2026-09-01 08:40 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $DVP at $1.86304e-05 | P&L: +46.9%",
-      "reason": "Auto take-profit at +46.9%"
-    },
     {
       "time": "2026-09-01 08:40 UTC",
       "action": "sell",
@@ -24331,51 +24319,69 @@
       "action": "buy",
       "details": "[LLM] $HERODOG at $2.89e-06, spent 0.02 SOL",
       "reason": "Hero-dog-vs-tiger viral animal story is exactly the kind of attention token that pumps — strong descriptive narrative, real twitter account (WolfprwX), bonding only 1% so early entry with full upside. Risk: very fresh, mcap only $2.9k — small size and thin liquidity, but $5 position is sized for that."
+    },
+    {
+      "time": "2026-09-01 09:06 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $RISE at $7.28325e-06 | P&L: +40.7%",
+      "reason": "Auto take-profit at +40.7%"
+    },
+    {
+      "time": "2026-09-01 09:06 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RISE at $7.28325e-06 | P&L: +40.7%",
+      "reason": "RISE up +40.7% already, well above the 25% auto-TP threshold but bot hasn't fired yet. Narrative unclear (no desc), pool only $1830 thin, 0% our share means likely early LP absorption. Lock the +40% gain — this is exactly the 'take some profit' + 'lock the gain' rule firing."
+    },
+    {
+      "time": "2026-09-01 09:06 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HERODOG at $2.89029e-06 | P&L: +0.0%",
+      "reason": "HERODOG flat +0.0%, pool only $20 (below the 5x position size liquidity floor = ~$51), just entered. $20 pool is a rug magnet — exit immediately before the -30% stop catches us. Free up the slot for fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 1421,
-    "wins": 717,
+    "total": 1424,
+    "wins": 720,
     "losses": 704,
-    "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.870432,
-    "avg_pnl_pct": 38.55,
+    "win_rate_pct": 50.6,
+    "total_pnl_sol": -1.868905,
+    "avg_pnl_pct": 38.53,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 136,
-    "today_realized_sol": 0.017456,
-    "today_target_pct": 4.4,
+    "today_trades": 139,
+    "today_realized_sol": 0.018983,
+    "today_target_pct": 4.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 717,
+      "win_count": 720,
       "loss_count": 704,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T09:05:19.055330+00:00",
+  "last_llm_brief_at": "2026-09-01T09:06:43.923071+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "4CqR8qGFeoVCfvXCueghbUUwLup3imMUWpFTSHYrpump": {
-      "price_usd": 2.922564004614691e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 37.27858131678,
-      "volume_h24": 39.3,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.365368826
-    },
     "3R4V12d8G97uNDZtxw5Bu1uPdMvomVUSPRvabTtrpump": {
-      "price_usd": 6.98347958101765e-06,
+      "price_usd": 7.2832529649078705e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1728.27123811356,
-      "volume_h24": 1714.24,
+      "liquidity_usd": 1829.993433952264,
+      "volume_h24": 1817.65,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 16.938853652
+      "real_sol_reserves": 17.936188438
+    },
+    "2Pu58Zb48oVP9kyzmBWmPSdJXVAPKeUDAxyLfEB7pump": {
+      "price_usd": 2.8902889627236606e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 20.153678992192003,
+      "volume_h24": 22.12,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.197530864
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
