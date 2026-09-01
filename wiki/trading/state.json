@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.499239,
+  "balance_sol": 0.508487,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9uvRxpRXHEQ6YhtCdrAVo9BsnywGrHmEWiBhAD7ypump": {
-      "symbol": "ZOF",
-      "name": "ZooOnFone",
-      "amount": 330758.41673136,
-      "entry_price_usd": 3.1288697358850264e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-01T03:30:49.484750+00:00",
-      "entry_usd_value": 2.0698,
-      "entry_signals": {
-        "liquidity_usd": 61.42618358356,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3128.3338264241365,
-        "ath_market_cap_usd": 3313.794805637727,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.593547044,
-        "description": "one memecoin can change your whole life, or maybe a zoo of them. posts are blowing up on X about how one coin can change your life, narra is unlike any other ",
-        "twitter": "https://x.com/i/trending/2094560932470849719",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -22942,19 +22919,30 @@
       "pnl_pct": -7.13,
       "exit_reason": "LLM: sell_all — ZOF is -7.1% with only $5 total pool and we own 40% of it. This is a zombie token - no narrative, thin liquidity means we ARE the market. Exit and red",
       "partial": true
+    },
+    {
+      "mint": "9uvRxpRXHEQ6YhtCdrAVo9BsnywGrHmEWiBhAD7ypump",
+      "symbol": "ZOF",
+      "name": "ZooOnFone",
+      "amount_sold": 330758.24683969346,
+      "fraction_sold": 0.9999994863572385,
+      "entry_time": "2026-09-01T03:30:49.484750+00:00",
+      "exit_time": "2026-09-01T03:34:15.231515+00:00",
+      "entry_price_usd": 3.1288697358850264e-06,
+      "exit_price_usd": 2.8987884454519298e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.009248,
+      "pnl_sol": -0.000752,
+      "pnl_pct": -7.35,
+      "exit_reason": "LLM: sell_all — $ZOF is down 7.4% with pool=$0 and broken-looking share data. No liquidity, no reason to hold. Free the slot and capital.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T03:32:34.135366+00:00",
+  "last_updated": "2026-09-01T03:34:15.579420+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.61,
-  "portfolio_value_usd": 52.76,
+  "last_sol_price_usd": 103.68,
+  "portfolio_value_usd": 52.72,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 03:09 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-01 03:12 UTC",
       "action": "buy",
@@ -23068,40 +23056,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $ZOF at $2.90591e-06 | P&L: -7.1%",
       "reason": "ZOF is -7.1% with only $5 total pool and we own 40% of it. This is a zombie token - no narrative, thin liquidity means we ARE the market. Exit and redeploy into fresh attention."
+    },
+    {
+      "time": "2026-09-01 03:34 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ZOF at $2.89879e-06 | P&L: -7.3%",
+      "reason": "$ZOF is down 7.4% with pool=$0 and broken-looking share data. No liquidity, no reason to hold. Free the slot and capital."
     }
   ],
   "trade_stats": {
-    "total": 1348,
+    "total": 1349,
     "wins": 689,
-    "losses": 659,
+    "losses": 660,
     "win_rate_pct": 51.1,
-    "total_pnl_sol": -1.823406,
-    "avg_pnl_pct": 40.1,
+    "total_pnl_sol": -1.824158,
+    "avg_pnl_pct": 40.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 63,
-    "today_realized_sol": 0.064482,
-    "today_target_pct": 16.1,
+    "today_trades": 64,
+    "today_realized_sol": 0.06373,
+    "today_target_pct": 15.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 689,
-      "loss_count": 659,
+      "loss_count": 660,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T03:32:33.879794+00:00",
+  "last_llm_brief_at": "2026-09-01T03:34:15.231353+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "9uvRxpRXHEQ6YhtCdrAVo9BsnywGrHmEWiBhAD7ypump": {
-      "price_usd": 2.905911460336324e-06,
+      "price_usd": 2.8987884454519298e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4.8676879407,
-      "volume_h24": 774.8,
+      "liquidity_usd": 1.96992e-06,
+      "volume_h24": 836.17,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.04698087
+      "real_sol_reserves": 1.9e-08
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

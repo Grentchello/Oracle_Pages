@@ -11542,3 +11542,6 @@
 ## [2026-09-01 03:32 UTC] sell | [PARTIAL][LLM] $ZOF at $2.90591e-06 | P&L: -7.1%
 - **Reasoning:** ZOF is -7.1% with only $5 total pool and we own 40% of it. This is a zombie token - no narrative, thin liquidity means we ARE the market. Exit and redeploy into fresh attention.
 
+## [2026-09-01 03:34 UTC] sell | [FULL][LLM] $ZOF at $2.89879e-06 | P&L: -7.3%
+- **Reasoning:** $ZOF is down 7.4% with pool=$0 and broken-looking share data. No liquidity, no reason to hold. Free the slot and capital.
+
