@@ -11620,3 +11620,9 @@
 ## [2026-09-01 05:09 UTC] buy | [LLM] $Anime  at $1.636e-06, spent 0.02 SOL
 - **Reasoning:** $Anime (Takashi Murakami) has the strongest narrative on the board — actual art-world artist attached, real creative project with Kaikai Kiki design team, and confirmed twitter (takashipom). Highest mcap ($13k) of the batch suggests organic traction. Cultural legitimacy + viral potential = high attention signal.
 
+## [2026-09-01 05:10 UTC] sell | [TP +200% (75%)] $Anime  at $6.1031e-06 | P&L: +273.1%
+- **Reasoning:** Auto take-profit at +273.1%
+
+## [2026-09-01 05:10 UTC] sell | [FULL][LLM] $Anime  at $6.1031e-06 | P&L: +273.1%
+- **Reasoning:** $Anime is already up 273.1%, and the prompt explicitly says to lock gains when up over 20% and momentum is uncertain. Despite the strong move, it is on a bonding curve with only $76 in the pool, so exit into the spike rather than risk a rapid reversal.
+
