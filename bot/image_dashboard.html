@@ -55,9 +55,6 @@ button:disabled{opacity:0.4;cursor:not-allowed}
 
   <div class="card">
     <h2>Generate Image</h2>
-    <label>Workflow</label>
-    <select id="workflow-select" onchange="onWorkflowChange()"></select>
-    <p id="workflow-desc" style="color:#666;font-size:0.8rem;margin:-8px 0 12px"></p>
     <label>Prompt</label>
     <textarea id="prompt-input" placeholder="a beautiful sunset over mountains, photorealistic, 4k"></textarea>
     <button onclick="generate()" id="btn-generate">✨ Generate</button>
@@ -105,31 +102,6 @@ async function checkComfyui() {
     document.getElementById('comfyui-label').textContent = 'Server unreachable';
   }
 }
-
-async function loadWorkflows() {
-  try {
-    const r = await fetch(`${API}/api/workflows`);
-    workflows = await r.json();
-    const sel = document.getElementById('workflow-select');
-    sel.innerHTML = '';
-    for (const [k, v] of Object.entries(workflows)) {
-      const opt = document.createElement('option');
-      opt.value = k;
-      opt.textContent = v.name;
-      sel.appendChild(opt);
-    }
-    onWorkflowChange();
-  } catch(e) {
-    document.getElementById('workflow-select').innerHTML = '<option>No workflows found</option>';
-  }
-}
-
-function onWorkflowChange() {
-  const sel = document.getElementById('workflow-select').value;
-  const wf = workflows[sel];
-  document.getElementById('workflow-desc').textContent = wf ? wf.description : '';
-}
-
 async function startComfyui() {
   document.getElementById('btn-start').disabled = true;
   document.getElementById('comfyui-dot').className = 'dot loading';

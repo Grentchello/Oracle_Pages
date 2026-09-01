@@ -11650,3 +11650,9 @@
 ## [2026-09-01 05:45 UTC] buy | [LLM] $FRA at $2.94902e-06, spent 0.02 SOL
 - **Reasoning:** France has a clear World Index nation narrative, a substantive description, and a dedicated Twitter account, offering more durable attention than most raw launches. It is still only seconds old at roughly $2.9k, so bonding and liquidity risk are extreme.
 
+## [2026-09-01 05:51 UTC] sell | [FULL][LLM] $FRA at $2.92885e-06 | P&L: -0.7%
+- **Reasoning:** Held 6min flat (-0.7%) on a $8k pool where I'm 27% of liquidity — no buyers showing up, no momentum, no narrative signal. Freeing the slot to rotate into a fresh narrative play.
+
+## [2026-09-01 05:51 UTC] buy | [LLM] $TBUCK at $3.31827e-06, spent 0.02 SOL
+- **Reasoning:** $TBUCK — 'shit bucket for degenerate traders' is a self-aware meta-narrative that memecoin Twitter loves, has twitter presence (passes viability gate), 6% bonded at 0.4min is brand new. Risk: ultra-low mcap ($3.3k), thin liquidity.
+

@@ -91,9 +91,9 @@ async def stop_comfyui():
         print("[server] ComfyUI stopped")
 
 async def ensure_comfyui():
-    if comfyui_ready:
-        return True
-    return await start_comfyui()
+    # Local ComfyUI disabled - 4 GB cgroup limit prevents model loading
+    # All requests routed to Pollinations API instead
+    return False
 
 # ── Workflow Management ─────────────────────────────────────────────
 
@@ -329,27 +329,8 @@ async def handle_workflows(request):
     return web.json_response(result)
 
 async def handle_generate(request):
-    """Submit a generation job."""
-    global comfyui_last_used
-    data = await request.json()
-    workflow_name = data.get("workflow", "flux_klein_txt2img")
-    prompt_text = data.get("prompt", "")
-    
-    workflows = load_workflows()
-    if workflow_name not in workflows:
-        return web.json_response({"error": f"Unknown workflow: {workflow_name}"}, status=400)
-    
-    wf = workflows[workflow_name]
-    comfyui_last_used = time.time()
-    
-    prompt_id, error = await submit_job(wf["workflow"], prompt_text, wf["prompt_node"])
-    if error:
-        return web.json_response({"error": error}, status=500)
-    
-    # Start background poller
-    asyncio.create_task(_background_poll(prompt_id))
-    
-    return web.json_response({"prompt_id": prompt_id, "status": "pending"})
+    """Submit a generation job - routes to Pollinations (ComfyUI disabled by cgroup)."""
+    return await handle_pollinations_generate(request)
 
 async def _background_poll(prompt_id):
     """Background task to poll job and shutdown ComfyUI when done."""
