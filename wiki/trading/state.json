@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.475441,
+  "balance_sol": 0.455441,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "CwakEKjiUWiRPLfgYThrHwn5Lrp6vmLH2w8SwhNaXbdU": {
+      "symbol": "CIV",
+      "name": "Ivory Coast",
+      "amount": 696633.9759375898,
+      "entry_price_usd": 2.9651152130786303e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-01T07:34:05.247124+00:00",
+      "entry_usd_value": 2.0656,
+      "entry_signals": {
+        "liquidity_usd": 30.87802304936,
+        "volume_24h_usd": null,
+        "market_cap_usd": 2973.267430647339,
+        "ath_market_cap_usd": 2970.3733545510872,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.298973887,
+        "description": "Ivory Coast is the country token of World Index—a global on-chain ecosystem bringing every nation together in one connected market.",
+        "twitter": "https://x.com/solworldindex",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -23686,17 +23709,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-01T07:32:25.524044+00:00",
+  "last_updated": "2026-09-01T07:34:05.247305+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.22,
-  "portfolio_value_usd": 49.08,
+  "last_sol_price_usd": 103.28,
+  "portfolio_value_usd": 49.1,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 06:51 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $HEARTBEAT at $2.94321e-06 | P&L: -4.8%",
-      "reason": "$HEARTBEAT down -4.8% on tiny $23 pool with our 9% share — we ARE the exit liquidity. Stale bonding-curve microcap with no catalyst; cut before it bleeds further."
-    },
     {
       "time": "2026-09-01 06:52 UTC",
       "action": "buy",
@@ -23810,6 +23827,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $QUOKKA at $4.52782e-06 | P&L: +35.9%",
       "reason": "Up +35.9% on bonding curve, pool=$0, share% flag suggests illiquid/deep bonding state. Past +30% threshold and the easy money is on the table — lock the gain rather than ride a bonding-curve token back to zero."
+    },
+    {
+      "time": "2026-09-01 07:34 UTC",
+      "action": "buy",
+      "details": "[LLM] $CIV at $2.96512e-06, spent 0.02 SOL",
+      "reason": "$CIV has the cleanest narrative — Ivory Coast token in a World Index country series on Solana (nation-as-meme trend has paid repeatedly). Twitter @solworldindex active, desc 150+ chars, viability gate passed. Mcap $2.9k is tiny but that's where new launches live. Sizing 0.05 SOL to test the thesis."
     }
   ],
   "trade_stats": {
@@ -23831,21 +23854,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T07:32:24.985208+00:00",
+  "last_llm_brief_at": "2026-09-01T07:34:03.741038+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "GGeoWSxfzRgbsWEodKVf7XYN5RNrv1pm2v9Yuemnpump": {
-      "price_usd": 4.527815040619307e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1.0322000000000001e-07,
-      "volume_h24": 126.26,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1e-09
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

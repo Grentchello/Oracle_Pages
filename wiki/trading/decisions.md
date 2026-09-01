@@ -11794,3 +11794,6 @@
 ## [2026-09-01 07:32 UTC] sell | [FULL][LLM] $QUOKKA at $4.52782e-06 | P&L: +35.9%
 - **Reasoning:** Up +35.9% on bonding curve, pool=$0, share% flag suggests illiquid/deep bonding state. Past +30% threshold and the easy money is on the table — lock the gain rather than ride a bonding-curve token back to zero.
 
+## [2026-09-01 07:34 UTC] buy | [LLM] $CIV at $2.96512e-06, spent 0.02 SOL
+- **Reasoning:** $CIV has the cleanest narrative — Ivory Coast token in a World Index country series on Solana (nation-as-meme trend has paid repeatedly). Twitter @solworldindex active, desc 150+ chars, viability gate passed. Mcap $2.9k is tiny but that's where new launches live. Sizing 0.05 SOL to test the thesis.
+
