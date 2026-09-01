@@ -12049,3 +12049,6 @@
 ## [2026-09-01 11:26 UTC] buy | [LLM] $FGL at $3.015e-05, spent 0.02 SOL
 - **Reasoning:** $FGL has the strongest narrative of the batch — explicit 'Robinhood coin rugged' redemption arc + buyback mechanic, real founder-led X account, $19k mcap is in the sweet spot, and a $5 position is 5% of balance with tight -30% stop. Attention market is live.
 
+## [2026-09-01 11:27 UTC] sell | [hard-stop] $FGL closed at $5.44401e-06 | P&L: -81.9%
+- **Reasoning:** Hard -30% stop
+
