@@ -45,19 +45,12 @@ button:disabled{opacity:0.4;cursor:not-allowed}
 <body>
 <div class="header">
   <h1>🔮 Oracle Image Generator</h1>
-  <p>FLUX.2 Klein 4B · CPU · Auto-shutdown after 5 min idle</p>
+  <p>Pollinations AI · Free · No GPU needed</p>
   <a href="/gallery" style="color:#00d4ff;font-size:0.85rem;margin-top:4px;display:inline-block">🖼️ View All Generated Images →</a>
 </div>
 <div class="container">
   <div class="card">
-    <div class="comfyui-status">
-      <div class="dot" id="comfyui-dot"></div>
-      <span id="comfyui-label">Checking...</span>
-      <div class="actions">
-        <button onclick="startComfyui()" id="btn-start">Start</button>
-        <button onclick="stopComfyui()" id="btn-stop">Stop</button>
-      </div>
-    </div>
+    <div style="color:#666;font-size:0.85rem;margin-bottom:12px">Powered by <a href="https://pollinations.ai" style="color:#00d4ff">Pollinations AI</a> — free, no account needed</div>
   </div>
 
   <div class="card">
@@ -161,39 +154,40 @@ async function stopComfyui() {
 
 async function generate() {
   const prompt = document.getElementById('prompt-input').value.trim();
-  const workflow = document.getElementById('workflow-select').value;
   if (!prompt) { setStatus('Enter a prompt', ''); return; }
 
   const btn = document.getElementById('btn-generate');
   btn.disabled = true;
   document.getElementById('result').innerHTML = '';
   showProgress(true);
-  setStatus('Starting ComfyUI (may take 30s)...', 'running');
+  setStatus('Generating via Pollinations AI...', 'running');
 
-  // Use XMLHttpRequest instead of fetch — more resilient to background tabs
   try {
     const d = await new Promise((resolve, reject) => {
       const xhr = new XMLHttpRequest();
-      xhr.open('POST', `${API}/api/generate`);
+      xhr.open('POST', `${API}/api/pollinations`);
       xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.timeout = 120000; // 2 min timeout for ComfyUI startup
+      xhr.timeout = 180000; // 3 min timeout
       xhr.onload = () => {
         try { resolve(JSON.parse(xhr.responseText)); }
         catch(e) { reject(new Error('Bad response')); }
       };
       xhr.onerror = () => reject(new Error('Network error — are you online?'));
-      xhr.ontimeout = () => reject(new Error('Request timed out (ComfyUI may be starting)'));
-      xhr.send(JSON.stringify({workflow, prompt}));
+      xhr.ontimeout = () => reject(new Error('Request timed out'));
+      xhr.send(JSON.stringify({prompt, width: 1024, height: 1024}));
     });
     
     if (d.error) { setStatus(d.error, 'error'); btn.disabled = false; return; }
     
-    setStatus(`Job queued (${d.prompt_id.slice(0,8)}...) · CPU generation takes 2-5 min`, 'running');
-    // Save job ID to localStorage so we can recover if tab goes to background
-    localStorage.setItem('oracle_last_job', JSON.stringify({id: d.prompt_id, prompt, time: Date.now()}));
-    pollJob(d.prompt_id, prompt);
+    document.getElementById('progress-fill').style.width = '100%';
+    setStatus(`Done in ${d.elapsed}s`, 'done');
+    document.getElementById('result').innerHTML = `<img src="${d.image_url}" alt="Generated image" loading="eager">`;
+    showProgress(false);
+    btn.disabled = false;
+    addHistory(prompt, d.image_url);
   } catch(e) {
     setStatus(e.message + ' — tap Generate to retry', 'error');
+    showProgress(false);
     btn.disabled = false;
   }
 }
