@@ -12124,3 +12124,6 @@
 ## [2026-09-01 12:08 UTC] sell | [FULL][LLM] $Wolf at $8.26863e-06 | P&L: +43.9%
 - **Reasoning:** +43.9% profit, held 0.1h on bonding-curve with $2149 pool (tiny). TP1/TP2 likely auto-triggered by bot. Freeing slot for fresh StonkInu entry — locking gains beats hoping for more on low-liquidity curve.
 
+## [2026-09-01 12:10 UTC] sell | [hard-stop] $BELLA  closed at $2.87007e-06 | P&L: -51.2%
+- **Reasoning:** Hard -30% stop
+

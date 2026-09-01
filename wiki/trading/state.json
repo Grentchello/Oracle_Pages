@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.397304,
+  "balance_sol": 0.407052,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9Leoo8rzHqjiPii568zcYbGXVXcq5GWKNrmvLDHZpump": {
-      "symbol": "BELLA ",
-      "name": "The Smiling Dog ",
-      "amount": 347205.7074910821,
-      "entry_price_usd": 5.887e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T12:06:40.371499+00:00",
-      "entry_usd_value": 2.044,
-      "entry_signals": {
-        "liquidity_usd": 1396.3868693376,
-        "volume_24h_usd": 3841.39,
-        "market_cap_usd": 6056.5321345883685,
-        "ath_market_cap_usd": 8301.183255678736,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 13.663276608,
-        "description": "Bella the dog is currently going viral in just an hour of post because of her smiling.  ",
-        "twitter": "https://x.com/floor_islava/status/2094758358863724758?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24914,19 +24891,30 @@
       "pnl_pct": 43.87,
       "exit_reason": "LLM: sell_all — +43.9% profit, held 0.1h on bonding-curve with $2149 pool (tiny). TP1/TP2 likely auto-triggered by bot. Freeing slot for fresh StonkInu entry — lockin",
       "partial": false
+    },
+    {
+      "mint": "9Leoo8rzHqjiPii568zcYbGXVXcq5GWKNrmvLDHZpump",
+      "symbol": "BELLA ",
+      "name": "The Smiling Dog ",
+      "amount_sold": 347205.7074910821,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T12:06:40.371499+00:00",
+      "exit_time": "2026-09-01T12:10:53.389349+00:00",
+      "entry_price_usd": 5.887e-06,
+      "exit_price_usd": 2.870070788304808e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.009748,
+      "pnl_sol": -0.010252,
+      "pnl_pct": -51.25,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T12:09:50.030268+00:00",
+  "last_updated": "2026-09-01T12:11:24.261279+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.4,
-  "portfolio_value_usd": 42.73,
+  "last_sol_price_usd": 102.23,
+  "portfolio_value_usd": 41.61,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 11:41 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-01 11:42 UTC",
       "action": "sell",
@@ -25040,40 +25028,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $Wolf at $8.26863e-06 | P&L: +43.9%",
       "reason": "+43.9% profit, held 0.1h on bonding-curve with $2149 pool (tiny). TP1/TP2 likely auto-triggered by bot. Freeing slot for fresh StonkInu entry — locking gains beats hoping for more on low-liquidity curve."
+    },
+    {
+      "time": "2026-09-01 12:10 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $BELLA  closed at $2.87007e-06 | P&L: -51.2%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1464,
+    "total": 1465,
     "wins": 744,
-    "losses": 720,
+    "losses": 721,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -1.915338,
-    "avg_pnl_pct": 38.21,
+    "total_pnl_sol": -1.92559,
+    "avg_pnl_pct": 38.15,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 179,
-    "today_realized_sol": -0.02745,
-    "today_target_pct": -6.9,
+    "today_trades": 180,
+    "today_realized_sol": -0.037702,
+    "today_target_pct": -9.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 744,
-      "loss_count": 720,
+      "loss_count": 721,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T12:09:50.029737+00:00",
+  "last_llm_brief_at": "2026-09-01T12:11:23.745874+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "9Leoo8rzHqjiPii568zcYbGXVXcq5GWKNrmvLDHZpump": {
-      "price_usd": 6.004447826383342e-06,
+      "price_usd": 2.870070788304808e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1376.8422299648,
-      "volume_h24": 3924.17,
+      "liquidity_usd": 6.33643366105,
+      "volume_h24": 6844.42,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 13.445724902
+      "real_sol_reserves": 0.061982135
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
