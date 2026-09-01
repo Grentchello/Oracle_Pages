@@ -11914,3 +11914,15 @@
 ## [2026-09-01 09:03 UTC] sell | [PARTIAL][LLM] $RISE at $6.40636e-06 | P&L: +23.7%
 - **Reasoning:** $RISE +23.7% with pool $1527 is solid — lock half the gain now per profit-taking discipline. our_share=0% is concerning but the +20% trigger means take profit on doubt. Leave half for runner potential.
 
+## [2026-09-01 09:04 UTC] sell | [TP +30% (25%)] $RISE at $6.98348e-06 | P&L: +34.9%
+- **Reasoning:** Auto take-profit at +34.9%
+
+## [2026-09-01 09:05 UTC] sell | [FULL][LLM] $TRCAT at $2.92256e-06 | P&L: +1.6%
+- **Reasoning:** +$1.6% after 6min on a $37 pool is dead money. Bonding curve at 27% complete with tiny liquidity means I can't exit at scale anyway. Better to free the slot and recycle into a fresh launch with real attention.
+
+## [2026-09-01 09:05 UTC] sell | [PARTIAL][LLM] $RISE at $6.98348e-06 | P&L: +34.9%
+- **Reasoning:** +$34.9% is past the 25% TP zone — bot should have already taken partial, but our share=0% means it's all still on the table. Lock half the gain now per the '>20% with any doubt' rule; let the rest ride if narrative holds.
+
+## [2026-09-01 09:05 UTC] buy | [LLM] $HERODOG at $2.89e-06, spent 0.02 SOL
+- **Reasoning:** Hero-dog-vs-tiger viral animal story is exactly the kind of attention token that pumps — strong descriptive narrative, real twitter account (WolfprwX), bonding only 1% so early entry with full upside. Risk: very fresh, mcap only $2.9k — small size and thin liquidity, but $5 position is sized for that.
+
