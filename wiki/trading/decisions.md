@@ -12103,3 +12103,6 @@
 ## [2026-09-01 11:51 UTC] sell | [PARTIAL][LLM] $ai2027 at $2.87408e-06 | P&L: -1.7%
 - **Reasoning:** ai2027 is only -1.7% but I hold 33% of pool — that's a liquidity trap, not a position. Selling all would crash it; selling half reduces exposure, frees a slot, and keeps skin in for any bounce.
 
+## [2026-09-01 11:54 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
