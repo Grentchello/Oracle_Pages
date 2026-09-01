@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.427345,
+  "balance_sol": 0.447304,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HX5oCZnv4RUjtHkfk8BAHX9UBuYsQGYiqnNZyDUqpump": {
-      "symbol": "DOGHEAD",
-      "name": "DOGHEAD",
-      "amount": 668035.1906158358,
-      "entry_price_usd": 3.069e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T08:20:35.346864+00:00",
-      "entry_usd_value": 2.0502000000000002,
-      "entry_signals": {
-        "liquidity_usd": 103.77555545178001,
-        "volume_24h_usd": 105.96,
-        "market_cap_usd": 3067.1098692432674,
-        "ath_market_cap_usd": 3064.1633346409467,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.012345678,
-        "description": "This OG headless dog meme ran to $1.5m  PERFECT time for this meta to be a runner",
-        "twitter": "https://x.com/Zoboo_sol/status/2094701316941418520?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -23945,19 +23922,30 @@
       "pnl_pct": -1.64,
       "exit_reason": "LLM: sell_all — MEOWPIN is flat (-1.6%) at only 0.0h held but pool is only $1,253 (liquidity gate is thin), and I want a fresh slot open to deploy into the fresh laun",
       "partial": false
+    },
+    {
+      "mint": "HX5oCZnv4RUjtHkfk8BAHX9UBuYsQGYiqnNZyDUqpump",
+      "symbol": "DOGHEAD",
+      "name": "DOGHEAD",
+      "amount_sold": 668035.1906158358,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T08:20:35.346864+00:00",
+      "exit_time": "2026-09-01T08:22:08.928305+00:00",
+      "entry_price_usd": 3.069e-06,
+      "exit_price_usd": 3.0666548487654644e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019959,
+      "pnl_sol": -4.1e-05,
+      "pnl_pct": -0.08,
+      "exit_reason": "LLM: sell_all — $DOGHEAD flat at -0.1% after entry, bonding curve barely 2%, no momentum signal, lock capital for fresher launches with stronger attention.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T08:20:35.347119+00:00",
+  "last_updated": "2026-09-01T08:22:09.199473+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.51,
-  "portfolio_value_usd": 45.86,
+  "last_sol_price_usd": 102.64,
+  "portfolio_value_usd": 45.91,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 07:50 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CIV at $2.89561e-06 | P&L: -2.3%",
-      "reason": "$CIV is -2.3%, marked ⚠ STALE after 0.3h, pool is only $6 and we hold 16% of it — we ARE the liquidity with no one on the other side. Flat price action on a micro-pool = exit fast and free the slot for a live launch."
-    },
     {
       "time": "2026-09-01 07:57 UTC",
       "action": "buy",
@@ -24071,40 +24059,46 @@
       "action": "buy",
       "details": "[LLM] $DOGHEAD at $3.069e-06, spent 0.02 SOL",
       "reason": "$DOGHEAD has the clearest narrative — explicit callout that 'headless dog meta ran to $1.5m' with a real Twitter post timestamped seconds ago. $3k mcap, bonding curve 3% only. Classic meta-momentum play, $5 risk for a potential 5-10x replay."
+    },
+    {
+      "time": "2026-09-01 08:22 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DOGHEAD at $3.06665e-06 | P&L: -0.1%",
+      "reason": "$DOGHEAD flat at -0.1% after entry, bonding curve barely 2%, no momentum signal, lock capital for fresher launches with stronger attention."
     }
   ],
   "trade_stats": {
-    "total": 1407,
+    "total": 1408,
     "wins": 705,
-    "losses": 702,
+    "losses": 703,
     "win_rate_pct": 50.1,
-    "total_pnl_sol": -1.8853,
-    "avg_pnl_pct": 38.49,
+    "total_pnl_sol": -1.885341,
+    "avg_pnl_pct": 38.46,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 122,
-    "today_realized_sol": 0.002588,
+    "today_trades": 123,
+    "today_realized_sol": 0.002547,
     "today_target_pct": 0.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 705,
-      "loss_count": 702,
+      "loss_count": 703,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T08:20:33.981038+00:00",
+  "last_llm_brief_at": "2026-09-01T08:22:08.928268+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "vWzEcTZgkZnCN1hT9BTywP7WGGvga7J6NoLMnGypump": {
-      "price_usd": 5.6765365286692654e-06,
+    "HX5oCZnv4RUjtHkfk8BAHX9UBuYsQGYiqnNZyDUqpump": {
+      "price_usd": 3.0666548487654644e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1252.68078152214,
-      "volume_h24": 1364.85,
+      "liquidity_usd": 103.90716038992,
+      "volume_h24": 105.96,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 12.220083714
+      "real_sol_reserves": 1.012345678
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

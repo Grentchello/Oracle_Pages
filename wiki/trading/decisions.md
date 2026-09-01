@@ -11866,3 +11866,6 @@
 ## [2026-09-01 08:20 UTC] buy | [LLM] $DOGHEAD at $3.069e-06, spent 0.02 SOL
 - **Reasoning:** $DOGHEAD has the clearest narrative — explicit callout that 'headless dog meta ran to $1.5m' with a real Twitter post timestamped seconds ago. $3k mcap, bonding curve 3% only. Classic meta-momentum play, $5 risk for a potential 5-10x replay.
 
+## [2026-09-01 08:22 UTC] sell | [FULL][LLM] $DOGHEAD at $3.06665e-06 | P&L: -0.1%
+- **Reasoning:** $DOGHEAD flat at -0.1% after entry, bonding curve barely 2%, no momentum signal, lock capital for fresher launches with stronger attention.
+
