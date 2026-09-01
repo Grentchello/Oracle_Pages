@@ -11323,3 +11323,6 @@
 ## [2026-09-01 01:40 UTC] sell | [FULL][LLM] $Adekk at $4.71518e-06 | P&L: -15.3%
 - **Reasoning:** Down 15.3% in 0.1h with no clear narrative or attention signal. Cutting loser to free slot for better opportunity.
 
+## [2026-09-01 01:44 UTC] sell | [FULL][LLM] $jails2ool at $2.8876e-06 | P&L: -2.2%
+- **Reasoning:** Pool=$0 means no real liquidity has formed — still just a bonding curve with no exit depth. At -2.2% this is a clean exit. Free up the slot for better candidates.
+
