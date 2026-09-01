@@ -11896,3 +11896,6 @@
 ## [2026-09-01 08:45 UTC] sell | [FULL][LLM] $DVP at $1.98962e-05 | P&L: +56.9%
 - **Reasoning:** Up +56.9%, past the +50% auto-TP threshold. Memecoin at sub-$5k pool on bonding curve can reverse fast. Lock the gain.
 
+## [2026-09-01 08:46 UTC] buy | [LLM] $DOGE at $3.255e-06, spent 0.02 SOL
+- **Reasoning:** $DOGE 'Doge King' has the strongest narrative of the batch — proper description ('the king nobody asked for'), twitter attached, $3k mcap with room to 10x if the story catches. Meta-coin attention play, sizing 0.05 SOL with tight -30% stop.
+
