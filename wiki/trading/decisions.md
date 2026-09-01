@@ -11461,3 +11461,15 @@
 ## [2026-09-01 03:02 UTC] buy | [LLM] $NFPS at $3.442e-06, spent 0.02 SOL
 - **Reasoning:** $NFPS (No Fap Survivors) has a timely seasonal narrative — it's literally September 1st, the NoFap September challenge starts today. Cultural resonance + dedicated Twitter. $3k mcap is micro but the timing is perfect for a short-term pump.
 
+## [2026-09-01 03:03 UTC] sell | [TP +30% (25%)] $tape at $7.70001e-06 | P&L: +53.3%
+- **Reasoning:** Auto take-profit at +53.3%
+
+## [2026-09-01 03:04 UTC] sell | [PARTIAL][LLM] $tape at $7.70001e-06 | P&L: +53.3%
+- **Reasoning:** $tape is up +53.3% in under an hour - that's a strong gain on a bonding curve token. Sell half to lock in profit while letting the rest ride if it continues pumping.
+
+## [2026-09-01 03:04 UTC] sell | [FULL][LLM] $NFPS at $3.04436e-06 | P&L: -11.6%
+- **Reasoning:** $NFPS is down -11.6% with only $82 pool liquidity - extremely thin and no clear catalyst. Free up the slot and capital for better opportunities from fresh launches.
+
+## [2026-09-01 03:04 UTC] buy | [LLM] $Ragnar at $3.2948e-06, spent 0.02 SOL
+- **Reasoning:** $Ragnar (Call Dog) has the best narrative - guy with wig + glasses making phone calls is visually funny meme content. Has twitter, passes viability gate with 50+ char description, mcap $3,280 is ultra-early at 6% bond. High viral potential if video circulates.
+
