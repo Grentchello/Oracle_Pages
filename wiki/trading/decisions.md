@@ -11539,3 +11539,6 @@
 ## [2026-09-01 03:30 UTC] buy | [LLM] $ZOF at $3.12887e-06, spent 0.02 SOL
 - **Reasoning:** ZOF (ZooOnFone) passes viability gate with 62-char narrative about 'zoo of memecoins' — meta/self-referential narrative that can go viral. $3.1k mcap is ground floor. Bond 4% means early in curve. Twitter active. Risk is low bond = thin liquidity, but position size is only 0.05 SOL.
 
+## [2026-09-01 03:32 UTC] sell | [PARTIAL][LLM] $ZOF at $2.90591e-06 | P&L: -7.1%
+- **Reasoning:** ZOF is -7.1% with only $5 total pool and we own 40% of it. This is a zombie token - no narrative, thin liquidity means we ARE the market. Exit and redeploy into fresh attention.
+

@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.489962,
+  "balance_sol": 0.499239,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "9uvRxpRXHEQ6YhtCdrAVo9BsnywGrHmEWiBhAD7ypump": {
       "symbol": "ZOF",
       "name": "ZooOnFone",
-      "amount": 661516.83346272,
+      "amount": 330758.41673136,
       "entry_price_usd": 3.1288697358850264e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-01T03:30:49.484750+00:00",
       "entry_usd_value": 2.0698,
       "entry_signals": {
@@ -22925,19 +22925,30 @@
       "pnl_pct": -49.19,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "9uvRxpRXHEQ6YhtCdrAVo9BsnywGrHmEWiBhAD7ypump",
+      "symbol": "ZOF",
+      "name": "ZooOnFone",
+      "amount_sold": 330758.41673136,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T03:30:49.484750+00:00",
+      "exit_time": "2026-09-01T03:32:33.879950+00:00",
+      "entry_price_usd": 3.1288697358850264e-06,
+      "exit_price_usd": 2.905911460336324e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.009277,
+      "pnl_sol": -0.000723,
+      "pnl_pct": -7.13,
+      "exit_reason": "LLM: sell_all — ZOF is -7.1% with only $5 total pool and we own 40% of it. This is a zombie token - no narrative, thin liquidity means we ARE the market. Exit and red",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T03:30:49.485008+00:00",
+  "last_updated": "2026-09-01T03:32:34.135366+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.49,
-  "portfolio_value_usd": 52.78,
+  "last_sol_price_usd": 103.61,
+  "portfolio_value_usd": 52.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 03:06 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Ragnar at $2.88677e-06 | P&L: -12.4%",
-      "reason": "Pool=$0 with share=219294370% is broken anomalous data. Down -12.4% with no reliable liquidity signal. Cut now before it gets worse — rotating capital into fresher plays."
-    },
     {
       "time": "2026-09-01 03:09 UTC",
       "action": "observe",
@@ -23051,40 +23062,46 @@
       "action": "buy",
       "details": "[LLM] $ZOF at $3.12887e-06, spent 0.02 SOL",
       "reason": "ZOF (ZooOnFone) passes viability gate with 62-char narrative about 'zoo of memecoins' — meta/self-referential narrative that can go viral. $3.1k mcap is ground floor. Bond 4% means early in curve. Twitter active. Risk is low bond = thin liquidity, but position size is only 0.05 SOL."
+    },
+    {
+      "time": "2026-09-01 03:32 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $ZOF at $2.90591e-06 | P&L: -7.1%",
+      "reason": "ZOF is -7.1% with only $5 total pool and we own 40% of it. This is a zombie token - no narrative, thin liquidity means we ARE the market. Exit and redeploy into fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 1347,
+    "total": 1348,
     "wins": 689,
-    "losses": 658,
-    "win_rate_pct": 51.2,
-    "total_pnl_sol": -1.822683,
-    "avg_pnl_pct": 40.14,
+    "losses": 659,
+    "win_rate_pct": 51.1,
+    "total_pnl_sol": -1.823406,
+    "avg_pnl_pct": 40.1,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 62,
-    "today_realized_sol": 0.065205,
-    "today_target_pct": 16.3,
+    "today_trades": 63,
+    "today_realized_sol": 0.064482,
+    "today_target_pct": 16.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 689,
-      "loss_count": 658,
+      "loss_count": 659,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T03:30:48.158024+00:00",
+  "last_llm_brief_at": "2026-09-01T03:32:33.879794+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "7X2cSDe3B7h8qVhZZEtdqMMYtPK7YMMvhsUC3ebspump": {
-      "price_usd": 2.9854743033692044e-06,
+    "9uvRxpRXHEQ6YhtCdrAVo9BsnywGrHmEWiBhAD7ypump": {
+      "price_usd": 2.905911460336324e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 48.97075629926999,
-      "volume_h24": 9005.72,
+      "liquidity_usd": 4.8676879407,
+      "volume_h24": 774.8,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.473193123
+      "real_sol_reserves": 0.04698087
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
