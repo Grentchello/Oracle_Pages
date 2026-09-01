@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.457569,
+  "balance_sol": 0.459228,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DvP66AAAxpHqy3xCcbSBUuJFGU2XF4QVwiqsjuW1puMP": {
-      "symbol": "DVP",
-      "name": "DVP",
-      "amount": 8505.705343059937,
-      "entry_price_usd": 1.268e-05,
-      "entry_sol_spent": 0.0010546875,
-      "entry_time": "2026-09-01T08:39:18.672573+00:00",
-      "entry_usd_value": 2.0452000000000004,
-      "entry_signals": {
-        "liquidity_usd": 6711.531679241,
-        "volume_24h_usd": 13075.95,
-        "market_cap_usd": 12449.600213964897,
-        "ath_market_cap_usd": 17817.334103528192,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 65.63203285,
-        "description": "Delivery-Versus-Payment Desks, earn stocks and yield with settlement or nothing. ",
-        "twitter": "https://x.com/DVPDesks",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24064,25 +24041,47 @@
       "pnl_pct": 81.48,
       "exit_reason": "LLM: sell_half — DVP is up 81.5%, crossing the first aggressive profit-taking threshold; the bonding-curve pool is only $5,630, so momentum can reverse quickly. Sell h",
       "partial": true
+    },
+    {
+      "mint": "DvP66AAAxpHqy3xCcbSBUuJFGU2XF4QVwiqsjuW1puMP",
+      "symbol": "DVP",
+      "name": "DVP",
+      "amount_sold": 2126.4263357649843,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-01T08:39:18.672573+00:00",
+      "exit_time": "2026-09-01T08:44:43.469581+00:00",
+      "entry_price_usd": 1.268e-05,
+      "exit_price_usd": 1.9896163554219346e-05,
+      "entry_sol_for_chunk": 0.000264,
+      "exit_sol_received": 0.000415,
+      "pnl_sol": 0.000151,
+      "pnl_pct": 56.91,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "DvP66AAAxpHqy3xCcbSBUuJFGU2XF4QVwiqsjuW1puMP",
+      "symbol": "DVP",
+      "name": "DVP",
+      "amount_sold": 6379.279007294953,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T08:39:18.672573+00:00",
+      "exit_time": "2026-09-01T08:45:06.628240+00:00",
+      "entry_price_usd": 1.268e-05,
+      "exit_price_usd": 1.9896163554219346e-05,
+      "entry_sol_for_chunk": 0.000791,
+      "exit_sol_received": 0.001244,
+      "pnl_sol": 0.000453,
+      "pnl_pct": 56.91,
+      "exit_reason": "LLM: sell_all — Up +56.9%, past the +50% auto-TP threshold. Memecoin at sub-$5k pool on bonding curve can reverse fast. Lock the gain.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T08:43:39.685622+00:00",
+  "last_updated": "2026-09-01T08:45:06.890744+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.81,
-  "portfolio_value_usd": 46.69,
+  "last_sol_price_usd": 102.042,
+  "portfolio_value_usd": 46.86,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 08:04 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ASPIE at $3.38078e-06 | P&L: -23.9%",
-      "reason": "$ASPIE is down -23.9% and only 0.1h old — within 6% of the -30% hard cap with no bounce signal. Pool is tiny ($256), our share is 0% on the bonding curve, and there is zero narrative attention in this tick. Cutting the loss now beats waiting to hit the hard stop."
-    },
-    {
-      "time": "2026-09-01 08:04 UTC",
-      "action": "buy",
-      "details": "[LLM] $PUP at $9.60222e-06, spent 0.02 SOL",
-      "reason": "$PUP (Hatty Pup) passes the viability gate — description ≥50 chars AND real twitter @hattypupsol. Narrative is sticky and memeable ('fruit/veggie helmet pup that turns rescued colors into hats'), mcap $9.6k with 31% bonding progress gives room to run, and it's the cleanest attention signal in this batch. Risk: brand-new (0.6min), small liquidity, classic microcap — size stays at 0.05 SOL."
-    },
     {
       "time": "2026-09-01 08:05 UTC",
       "action": "sell",
@@ -24190,40 +24189,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $DVP at $2.30112e-05 | P&L: +81.5%",
       "reason": "DVP is up 81.5%, crossing the first aggressive profit-taking threshold; the bonding-curve pool is only $5,630, so momentum can reverse quickly. Sell half to lock in gains while retaining exposure if attention continues."
+    },
+    {
+      "time": "2026-09-01 08:44 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $DVP at $1.98962e-05 | P&L: +56.9%",
+      "reason": "Auto take-profit at +56.9%"
+    },
+    {
+      "time": "2026-09-01 08:45 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DVP at $1.98962e-05 | P&L: +56.9%",
+      "reason": "Up +56.9%, past the +50% auto-TP threshold. Memecoin at sub-$5k pool on bonding curve can reverse fast. Lock the gain."
     }
   ],
   "trade_stats": {
-    "total": 1414,
-    "wins": 711,
+    "total": 1416,
+    "wins": 713,
     "losses": 703,
-    "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.874021,
-    "avg_pnl_pct": 38.6,
+    "win_rate_pct": 50.4,
+    "total_pnl_sol": -1.873417,
+    "avg_pnl_pct": 38.63,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 129,
-    "today_realized_sol": 0.013867,
-    "today_target_pct": 3.5,
+    "today_trades": 131,
+    "today_realized_sol": 0.014471,
+    "today_target_pct": 3.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 711,
+      "win_count": 713,
       "loss_count": 703,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T08:43:39.417928+00:00",
+  "last_llm_brief_at": "2026-09-01T08:45:06.628199+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DvP66AAAxpHqy3xCcbSBUuJFGU2XF4QVwiqsjuW1puMP": {
-      "price_usd": 2.30111784255967e-05,
+      "price_usd": 1.9896163554219346e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 5629.80646013283,
-      "volume_h24": 68322.24,
+      "liquidity_usd": 5022.895201337034,
+      "volume_h24": 74045.71,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 55.297185543
+      "real_sol_reserves": 49.223801977
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

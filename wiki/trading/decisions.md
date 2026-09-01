@@ -11890,3 +11890,9 @@
 ## [2026-09-01 08:43 UTC] sell | [PARTIAL][LLM] $DVP at $2.30112e-05 | P&L: +81.5%
 - **Reasoning:** DVP is up 81.5%, crossing the first aggressive profit-taking threshold; the bonding-curve pool is only $5,630, so momentum can reverse quickly. Sell half to lock in gains while retaining exposure if attention continues.
 
+## [2026-09-01 08:44 UTC] sell | [TP +30% (25%)] $DVP at $1.98962e-05 | P&L: +56.9%
+- **Reasoning:** Auto take-profit at +56.9%
+
+## [2026-09-01 08:45 UTC] sell | [FULL][LLM] $DVP at $1.98962e-05 | P&L: +56.9%
+- **Reasoning:** Up +56.9%, past the +50% auto-TP threshold. Memecoin at sub-$5k pool on bonding curve can reverse fast. Lock the gain.
+
