@@ -11935,3 +11935,6 @@
 ## [2026-09-01 09:06 UTC] sell | [FULL][LLM] $HERODOG at $2.89029e-06 | P&L: +0.0%
 - **Reasoning:** HERODOG flat +0.0%, pool only $20 (below the 5x position size liquidity floor = ~$51), just entered. $20 pool is a rug magnet — exit immediately before the -30% stop catches us. Free up the slot for fresh attention.
 
+## [2026-09-01 09:09 UTC] buy | [LLM] $MOONER at $2.93617e-06, spent 0.02 SOL
+- **Reasoning:** $MOONER has the strongest narrative — dogs building civilization on moon, good X account, fresh launch with $2.9k mcap. Memecoin attention play with story backing.
+
