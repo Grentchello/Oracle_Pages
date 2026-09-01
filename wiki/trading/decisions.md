@@ -11428,3 +11428,6 @@
 ## [2026-09-01 02:41 UTC] sell | [PARTIAL][LLM] $BULLPEN at $2.89077e-06 | P&L: -16.9%
 - **Reasoning:** Down 16.9% in a $5 pool where we own 34%. No narrative, no catalyst, bonding curve only 27%. Taking the loss before it hits -30% hard stop.
 
+## [2026-09-01 02:46 UTC] sell | [FULL][LLM] $BULLPEN at $2.89038e-06 | P&L: -16.9%
+- **Reasoning:** Down -16.9% approaching -20% stop threshold. Tiny $5 pool with no bounce signal after 12 minutes. Better to preserve 0.048 SOL for a cleaner entry than risk a -30% auto-stop on illiquid liquidity.
+

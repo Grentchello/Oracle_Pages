@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.479829,
+  "balance_sol": 0.488154,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "J4Q2YRMwHWLat5cn4emP1qgYE5iR4K6JTPoBMHgF3s9m": {
-      "symbol": "BULLPEN",
-      "name": "BULLPEN",
-      "amount": 296790.22771338315,
-      "entry_price_usd": 3.4795620056510116e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-01T02:34:21.118702+00:00",
-      "entry_usd_value": 2.0654,
-      "entry_signals": {
-        "liquidity_usd": 302.92533309237,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3468.3782174192825,
-        "ath_market_cap_usd": 3482.309737630879,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.933333331,
-        "description": "BULLPEN powered by clawpump.tech : BULLPEN Tokenized Agent Agent type: Trading agent",
-        "twitter": "https://x.com/ConejoCapital",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -22568,19 +22545,30 @@
       "pnl_pct": -16.92,
       "exit_reason": "LLM: sell_all — Down 16.9% in a $5 pool where we own 34%. No narrative, no catalyst, bonding curve only 27%. Taking the loss before it hits -30% hard stop.",
       "partial": true
+    },
+    {
+      "mint": "J4Q2YRMwHWLat5cn4emP1qgYE5iR4K6JTPoBMHgF3s9m",
+      "symbol": "BULLPEN",
+      "name": "BULLPEN",
+      "amount_sold": 296790.22771338315,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T02:34:21.118702+00:00",
+      "exit_time": "2026-09-01T02:46:21.978563+00:00",
+      "entry_price_usd": 3.4795620056510116e-06,
+      "exit_price_usd": 2.890376112129548e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.008325,
+      "pnl_sol": -0.001675,
+      "pnl_pct": -16.93,
+      "exit_reason": "LLM: sell_all — Down -16.9% approaching -20% stop threshold. Tiny $5 pool with no bounce signal after 12 minutes. Better to preserve 0.048 SOL for a cleaner entry tha",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T02:43:36.749549+00:00",
+  "last_updated": "2026-09-01T02:46:22.232274+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.14,
-  "portfolio_value_usd": 50.52,
+  "last_sol_price_usd": 103.04,
+  "portfolio_value_usd": 50.3,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 02:11 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $MRNA at $2.76918e-05 | P&L: +62.4%",
-      "reason": "Auto take-profit at +62.4%"
-    },
     {
       "time": "2026-09-01 02:11 UTC",
       "action": "sell",
@@ -22694,35 +22682,41 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $BULLPEN at $2.89077e-06 | P&L: -16.9%",
       "reason": "Down 16.9% in a $5 pool where we own 34%. No narrative, no catalyst, bonding curve only 27%. Taking the loss before it hits -30% hard stop."
+    },
+    {
+      "time": "2026-09-01 02:46 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BULLPEN at $2.89038e-06 | P&L: -16.9%",
+      "reason": "Down -16.9% approaching -20% stop threshold. Tiny $5 pool with no bounce signal after 12 minutes. Better to preserve 0.048 SOL for a cleaner entry than risk a -30% auto-stop on illiquid liquidity."
     }
   ],
   "trade_stats": {
-    "total": 1326,
+    "total": 1327,
     "wins": 678,
-    "losses": 648,
+    "losses": 649,
     "win_rate_pct": 51.1,
-    "total_pnl_sol": -1.842817,
-    "avg_pnl_pct": 40.07,
+    "total_pnl_sol": -1.844492,
+    "avg_pnl_pct": 40.03,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 41,
-    "today_realized_sol": 0.045071,
-    "today_target_pct": 11.3,
+    "today_trades": 42,
+    "today_realized_sol": 0.043396,
+    "today_target_pct": 10.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 678,
-      "loss_count": 648,
+      "loss_count": 649,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T02:43:36.192258+00:00",
+  "last_llm_brief_at": "2026-09-01T02:46:21.978524+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "J4Q2YRMwHWLat5cn4emP1qgYE5iR4K6JTPoBMHgF3s9m": {
-      "price_usd": 2.893181213170046e-06,
+      "price_usd": 2.890376112129548e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 5.08753851048,
+      "liquidity_usd": 5.08260585728,
       "volume_h24": 1355.19,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
