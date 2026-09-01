@@ -11671,3 +11671,9 @@
 ## [2026-09-01 06:09 UTC] buy | [LLM] $GENTRY at $5.527e-06, spent 0.02 SOL
 - **Reasoning:** $GENTRY has the strongest narrative of the batch — 'GENERATIONAL ENTRY' tied to a 300K-view viral clip, $9.3k mcap at 1min, already 31% bonded. Pure attention market play; entering for the meme momentum.
 
+## [2026-09-01 06:11 UTC] sell | [TP +30% (25%)] $GENTRY at $7.57966e-06 | P&L: +37.1%
+- **Reasoning:** Auto take-profit at +37.1%
+
+## [2026-09-01 06:11 UTC] sell | [PARTIAL][LLM] $GENTRY at $7.57966e-06 | P&L: +37.1%
+- **Reasoning:** $GENTRY is up +37.1%, well past the +30% TP threshold — bot should auto-trigger, but locking in half secures gains while letting runner play. Pool $1917 is thin, high rug risk on the remainder.
+
