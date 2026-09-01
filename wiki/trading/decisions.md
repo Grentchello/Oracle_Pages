@@ -12115,3 +12115,6 @@
 ## [2026-09-01 12:05 UTC] sell | [PARTIAL][LLM] $Wolf at $6.79526e-06 | P&L: +18.2%
 - **Reasoning:** $Wolf up +18.2% after only 6 min, bonding-curve pool still tiny ($1.6k), and mcap only $12k-range. Lock half the gain now — thin liquidity means any retrace will be brutal, and I want dry powder for the fresh launches below.
 
+## [2026-09-01 12:06 UTC] buy | [LLM] $BELLA  at $5.887e-06, spent 0.02 SOL
+- **Reasoning:** $BELLA — viral smiling dog narrative with real twitter link to floor_islava, mcap $6k, strongest story in batch. Liquidity thin but meets5x position size for 0.05 SOL entry. Memecoin attention play with clear viral hook.
+
