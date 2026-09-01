@@ -11773,3 +11773,12 @@
 ## [2026-09-01 07:28 UTC] buy | [LLM] $DANCECLUB at $3.527e-06, spent 0.02 SOL
 - **Reasoning:** $DANCECLUB — dedicated @absurddanceclub twitter, sharp absurd-meme angle ('dancing strange / confidence sky high'), $3k mcap 1 min old. Strongest narrative + real social handle of the batch; classic viral-attention setup.
 
+## [2026-09-01 07:29 UTC] sell | [PARTIAL][LLM] $HOLA at $2.89304e-06 | P&L: -2.6%
+- **Reasoning:** HOLA is a zombie: pool=$4, we own 49% — we ARE the liquidity. Selling will hurt but holding = total loss. Cut the corpse and redeploy into fresh attention.
+
+## [2026-09-01 07:29 UTC] sell | [FULL][LLM] $DANCECLUB at $2.99249e-06 | P&L: -15.2%
+- **Reasoning:** DANCECLUB at -15.2% with no momentum after 0.0h. Approaching -20% danger zone. Lock the loss now, redeploy into fresher viral flow rather than hope for a bounce that may not come.
+
+## [2026-09-01 07:29 UTC] buy | [LLM] $QUOKKA at $3.3314e-06, spent 0.02 SOL
+- **Reasoning:** $QUOKKA — explicit 'GIGA NARRATIVE... GOING VIRAL' descriptor is a direct attention signal. 0.7min old, $3.3k mcap, very early. Story-driven memecoin with self-aware viral framing. High risk/reward at this mcap.
+
