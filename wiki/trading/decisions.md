@@ -11836,3 +11836,12 @@
 ## [2026-09-01 08:04 UTC] buy | [LLM] $PUP at $9.60222e-06, spent 0.02 SOL
 - **Reasoning:** $PUP (Hatty Pup) passes the viability gate — description ≥50 chars AND real twitter @hattypupsol. Narrative is sticky and memeable ('fruit/veggie helmet pup that turns rescued colors into hats'), mcap $9.6k with 31% bonding progress gives room to run, and it's the cleanest attention signal in this batch. Risk: brand-new (0.6min), small liquidity, classic microcap — size stays at 0.05 SOL.
 
+## [2026-09-01 08:05 UTC] sell | [hard-stop] $PUP closed at $2.90592e-06 | P&L: -69.7%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-01 08:05 UTC] buy | [LLM] $LWHALE at $3.491e-06, spent 0.02 SOL
+- **Reasoning:** $LWHALE rides the BlackRock/ETF whale narrative which is currently hot in crypto Twitter. Has both desc and twitter, fresh launch, and 'whale' meta tokens historically pump on ETF flow news. Tiny mcap = max upside if narrative catches.
+
+## [2026-09-01 08:05 UTC] buy | [LLM] $ROU at $2.915e-06, spent 0.02 SOL
+- **Reasoning:** $ROU is part of the 'country token' meta (World Index ecosystem) which has shown real staying power on previous launches. Has both desc and twitter, real project backing, and country tokens get geographic community attention that can 5-10x.
+
