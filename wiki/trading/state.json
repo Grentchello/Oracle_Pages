@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.488487,
+  "balance_sol": 0.508333,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ESDkLYVSuSvAYRkyA9P3ZrM5mqvspP3YU78D169Rpump": {
-      "symbol": "RUGX",
-      "name": "The Rug Matrix",
-      "amount": 663185.8803303924,
-      "entry_price_usd": 3.137069201418366e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T03:41:35.685805+00:00",
-      "entry_usd_value": 2.08046,
-      "entry_signals": {
-        "liquidity_usd": 173.60411129599098,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3127.3337888687447,
-        "ath_market_cap_usd": 3139.125940019798,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.668901217,
-        "description": "You thought you escaped the rug. You were just another node in the matrix.",
-        "twitter": "https://x.com/boru_crypto/status/2094414925200498728",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -22959,19 +22936,30 @@
       "pnl_pct": -7.35,
       "exit_reason": "LLM: sell_all — $ZOF is down 7.4% with pool=$0 and broken-looking share data. No liquidity, no reason to hold. Free the slot and capital.",
       "partial": false
+    },
+    {
+      "mint": "ESDkLYVSuSvAYRkyA9P3ZrM5mqvspP3YU78D169Rpump",
+      "symbol": "RUGX",
+      "name": "The Rug Matrix",
+      "amount_sold": 663185.8803303924,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T03:41:35.685805+00:00",
+      "exit_time": "2026-09-01T03:47:46.942503+00:00",
+      "entry_price_usd": 3.137069201418366e-06,
+      "exit_price_usd": 3.1073896661350396e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019846,
+      "pnl_sol": -0.000154,
+      "pnl_pct": -0.95,
+      "exit_reason": "LLM: sell_all — RUGX flat at -0.9% after 6 min with no narrative and only $108 pool. Capital rotation beats bag-holding on a token with no clear attention signal.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T03:45:30.432097+00:00",
+  "last_updated": "2026-09-01T03:47:47.542582+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.92,
-  "portfolio_value_usd": 52.84,
+  "last_sol_price_usd": 103.84,
+  "portfolio_value_usd": 52.79,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 03:15 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $$1 closed at $3.08767e-06 | P&L: -72.2%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-01 03:16 UTC",
       "action": "buy",
@@ -23085,35 +23073,41 @@
       "action": "buy",
       "details": "[LLM] $RUGX at $3.13707e-06, spent 0.02 SOL",
       "reason": "RUGX has the strongest narrative hook: self-aware 'rug' meme with a Matrix twist. Description passes viability gate (>50 chars), has a Twitter link from boru_crypto. At $3,127 mcap and 0.1min old, this is ground-floor attention. Risk is the ironic 'rug' name could deter, but self-aware humor is exactly what goes viral in memecoin culture. Placing 0.1 SOL."
+    },
+    {
+      "time": "2026-09-01 03:47 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RUGX at $3.10739e-06 | P&L: -0.9%",
+      "reason": "RUGX flat at -0.9% after 6 min with no narrative and only $108 pool. Capital rotation beats bag-holding on a token with no clear attention signal."
     }
   ],
   "trade_stats": {
-    "total": 1349,
+    "total": 1350,
     "wins": 689,
-    "losses": 660,
-    "win_rate_pct": 51.1,
-    "total_pnl_sol": -1.824158,
-    "avg_pnl_pct": 40.07,
+    "losses": 661,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -1.824312,
+    "avg_pnl_pct": 40.04,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 64,
-    "today_realized_sol": 0.06373,
+    "today_trades": 65,
+    "today_realized_sol": 0.063576,
     "today_target_pct": 15.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 689,
-      "loss_count": 660,
+      "loss_count": 661,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T03:45:30.181764+00:00",
+  "last_llm_brief_at": "2026-09-01T03:47:46.942468+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "ESDkLYVSuSvAYRkyA9P3ZrM5mqvspP3YU78D169Rpump": {
-      "price_usd": 3.109783648928672e-06,
+      "price_usd": 3.1073896661350396e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 107.73734625528,
+      "liquidity_usd": 107.65440757456001,
       "volume_h24": 278.78,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
