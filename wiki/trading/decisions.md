@@ -11602,3 +11602,6 @@
 ## [2026-09-01 04:39 UTC] buy | [LLM] $BEAR at $4.99833e-06, spent 0.02 SOL
 - **Reasoning:** $BEAR has the strongest narrative on the board — ties directly to Neuralink's actual implant announcement, which is a real viral news event. Bond at 19% (highest of the batch) suggests early traction. Risk: tiny $5k mcap means thin liquidity and high rug risk on a brand-new mint, but the narrative edge justifies a small position.
 
+## [2026-09-01 04:40 UTC] sell | [hard-stop] $BEAR closed at $2.91685e-06 | P&L: -41.6%
+- **Reasoning:** Hard -30% stop
+

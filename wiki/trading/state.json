@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.491688,
+  "balance_sol": 0.503369,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "pXbdRGky2J1EVURsUDkh7Fj3YbSFuLfgpFF1ffvpump": {
-      "symbol": "BEAR",
-      "name": "First Neuralink Dog",
-      "amount": 415579.20203337487,
-      "entry_price_usd": 4.99832520452547e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T04:39:19.067168+00:00",
-      "entry_usd_value": 2.0772,
-      "entry_signals": {
-        "liquidity_usd": 1533.2782419442801,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4981.312578767133,
-        "ath_market_cap_usd": 4997.62497699104,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 14.762933198,
-        "description": "Neuralink just announced the first successful implantation of a neuralink device into a chocalate lab named $Bear",
-        "twitter": "https://x.com/degenesis0x/status/2094646106185482371",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -23095,19 +23072,30 @@
       "pnl_pct": 20.4,
       "exit_reason": "LLM: sell_all — Hit +20.4%, no strong narrative given, $5.4k pool is thin, held 0h — lock the scalp gain per discipline rules before it reverses.",
       "partial": false
+    },
+    {
+      "mint": "pXbdRGky2J1EVURsUDkh7Fj3YbSFuLfgpFF1ffvpump",
+      "symbol": "BEAR",
+      "name": "First Neuralink Dog",
+      "amount_sold": 415579.20203337487,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T04:39:19.067168+00:00",
+      "exit_time": "2026-09-01T04:40:22.326514+00:00",
+      "entry_price_usd": 4.99832520452547e-06,
+      "exit_price_usd": 2.9168530059241672e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.011681,
+      "pnl_sol": -0.008319,
+      "pnl_pct": -41.64,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T04:39:19.067354+00:00",
+  "last_updated": "2026-09-01T04:40:49.386255+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.86,
-  "portfolio_value_usd": 53.14,
+  "last_sol_price_usd": 103.77,
+  "portfolio_value_usd": 52.23,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 03:34 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ZOF at $2.89879e-06 | P&L: -7.3%",
-      "reason": "$ZOF is down 7.4% with pool=$0 and broken-looking share data. No liquidity, no reason to hold. Free the slot and capital."
-    },
     {
       "time": "2026-09-01 03:41 UTC",
       "action": "buy",
@@ -23221,30 +23209,48 @@
       "action": "buy",
       "details": "[LLM] $BEAR at $4.99833e-06, spent 0.02 SOL",
       "reason": "$BEAR has the strongest narrative on the board — ties directly to Neuralink's actual implant announcement, which is a real viral news event. Bond at 19% (highest of the batch) suggests early traction. Risk: tiny $5k mcap means thin liquidity and high rug risk on a brand-new mint, but the narrative edge justifies a small position."
+    },
+    {
+      "time": "2026-09-01 04:40 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $BEAR closed at $2.91685e-06 | P&L: -41.6%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1357,
+    "total": 1358,
     "wins": 691,
-    "losses": 666,
+    "losses": 667,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -1.820957,
-    "avg_pnl_pct": 39.83,
+    "total_pnl_sol": -1.829276,
+    "avg_pnl_pct": 39.77,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 72,
-    "today_realized_sol": 0.066931,
-    "today_target_pct": 16.7,
+    "today_trades": 73,
+    "today_realized_sol": 0.058612,
+    "today_target_pct": 14.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 691,
-      "loss_count": 666,
+      "loss_count": 667,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T04:39:17.777722+00:00",
+  "last_llm_brief_at": "2026-09-01T04:40:49.065955+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "pXbdRGky2J1EVURsUDkh7Fj3YbSFuLfgpFF1ffvpump": {
+      "price_usd": 2.9168530059241672e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 8.33049672813,
+      "volume_h24": 6183.62,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.080278469
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
