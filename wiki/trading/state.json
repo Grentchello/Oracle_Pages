@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.393331,
+  "balance_sol": 0.433363,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8gr3oFGTB76AfK9Und3k9PEZKgodKBaF13FRDSM4pump": {
-      "symbol": "FAPE",
-      "name": "FIGHTING APE",
-      "amount": 628767.7141096735,
-      "entry_price_usd": 3.246e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T10:13:25.287679+00:00",
-      "entry_usd_value": 2.0409800000000002,
-      "entry_signals": {
-        "liquidity_usd": 201.57827170950702,
-        "volume_24h_usd": 406.01,
-        "market_cap_usd": 3246.6998796884923,
-        "ath_market_cap_usd": 3439.413423019208,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.975308643,
-        "description": "ONE APE. ONE CAGE. NO FEAR. APE NEVER TAPS. nobody knows how the ape got into the octagon   but he's not leaving until he wins $FAPE 🦍🥊",
-        "twitter": "https://x.com/fapeufc",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "6weKL4bgqqqbMGYRgTmxmV3gJnAKWKHfc6W8CuRtpump": {
-      "symbol": "CALLOUT",
-      "name": "Callout or get Called Out",
-      "amount": 650243.8493763048,
-      "entry_price_usd": 3.140667923208839e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T10:14:51.744442+00:00",
-      "entry_usd_value": 2.0422000000000002,
-      "entry_signals": {
-        "liquidity_usd": 154.97923350262,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3132.3758515711556,
-        "ath_market_cap_usd": 3144.018973744865,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.517767442,
-        "description": "While y’all are arguing about charts this capybara is on a yacht making the next call $CALLOUT just went live",
-        "twitter": "https://x.com/AHonestDev",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24443,25 +24398,47 @@
       "pnl_pct": -65.62,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "8gr3oFGTB76AfK9Und3k9PEZKgodKBaF13FRDSM4pump",
+      "symbol": "FAPE",
+      "name": "FIGHTING APE",
+      "amount_sold": 628767.7141096735,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T10:13:25.287679+00:00",
+      "exit_time": "2026-09-01T10:16:23.336694+00:00",
+      "entry_price_usd": 3.246e-06,
+      "exit_price_usd": 3.244493322515212e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019971,
+      "pnl_sol": -2.9e-05,
+      "pnl_pct": -0.05,
+      "exit_reason": "LLM: sell_all — Flat at 0.0% after entry, pool only $202, tiny mcap with no clear narrative catalyst. Stale capital — better to rotate into fresh attention.",
+      "partial": false
+    },
+    {
+      "mint": "6weKL4bgqqqbMGYRgTmxmV3gJnAKWKHfc6W8CuRtpump",
+      "symbol": "CALLOUT",
+      "name": "Callout or get Called Out",
+      "amount_sold": 650243.8493763048,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T10:14:51.744442+00:00",
+      "exit_time": "2026-09-01T10:16:23.336968+00:00",
+      "entry_price_usd": 3.140667923208839e-06,
+      "exit_price_usd": 3.1515398580804624e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020061,
+      "pnl_sol": 6.1e-05,
+      "pnl_pct": 0.35,
+      "exit_reason": "LLM: sell_all — +0.3% is noise, pool $155, no viral narrative. Free up slot and SOL for fresher launches with real attention signals.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T10:14:51.744627+00:00",
+  "last_updated": "2026-09-01T10:16:24.167380+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.11,
-  "portfolio_value_usd": 44.25,
+  "last_sol_price_usd": 102.15,
+  "portfolio_value_usd": 44.27,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 09:09 UTC",
-      "action": "buy",
-      "details": "[LLM] $MOONER at $2.93617e-06, spent 0.02 SOL",
-      "reason": "$MOONER has the strongest narrative — dogs building civilization on moon, good X account, fresh launch with $2.9k mcap. Memecoin attention play with story backing."
-    },
-    {
-      "time": "2026-09-01 09:12 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $MOONER at $2.85252e-06 | P&L: -2.9%",
-      "reason": "377% pool share with only $1 pool means position is 3.77x the entire pool - essentially unsellable without catastrophic slippage. Already down 2.8% on a fresh position with no momentum. Cut and free the slot for a liquid opportunity."
-    },
     {
       "time": "2026-09-01 09:18 UTC",
       "action": "sell",
@@ -24569,40 +24546,63 @@
       "action": "buy",
       "details": "[LLM] $CALLOUT at $3.14067e-06, spent 0.02 SOL",
       "reason": "$CALLOUT has the strongest narrative of the batch (capybara-on-yacht 'callout or get called out' meme), rich description passing the viability gate, active Twitter presence, and sub-$4k mcap = room to run. Small position to learn the pattern."
+    },
+    {
+      "time": "2026-09-01 10:16 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FAPE at $3.24449e-06 | P&L: -0.1%",
+      "reason": "Flat at 0.0% after entry, pool only $202, tiny mcap with no clear narrative catalyst. Stale capital — better to rotate into fresh attention."
+    },
+    {
+      "time": "2026-09-01 10:16 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CALLOUT at $3.15154e-06 | P&L: +0.3%",
+      "reason": "+0.3% is noise, pool $155, no viral narrative. Free up slot and SOL for fresher launches with real attention signals."
     }
   ],
   "trade_stats": {
-    "total": 1435,
-    "wins": 724,
-    "losses": 711,
+    "total": 1437,
+    "wins": 725,
+    "losses": 712,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.899313,
-    "avg_pnl_pct": 38.13,
+    "total_pnl_sol": -1.899281,
+    "avg_pnl_pct": 38.08,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 150,
-    "today_realized_sol": -0.011425,
-    "today_target_pct": -2.9,
+    "today_trades": 152,
+    "today_realized_sol": -0.011393,
+    "today_target_pct": -2.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 724,
-      "loss_count": 711,
+      "win_count": 725,
+      "loss_count": 712,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T10:14:50.449921+00:00",
+  "last_llm_brief_at": "2026-09-01T10:16:23.336658+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "8gr3oFGTB76AfK9Und3k9PEZKgodKBaF13FRDSM4pump": {
-      "price_usd": 3.2432228405484902e-06,
+      "price_usd": 3.244493322515212e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 201.69876553673,
+      "liquidity_usd": 201.77777788245,
       "volume_h24": 408.78,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 1.975308643
+    },
+    "6weKL4bgqqqbMGYRgTmxmV3gJnAKWKHfc6W8CuRtpump": {
+      "price_usd": 3.1515398580804624e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 154.64897927415,
+      "volume_h24": 3379.5,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.513940081
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

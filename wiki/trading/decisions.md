@@ -11995,3 +11995,9 @@
 ## [2026-09-01 10:14 UTC] buy | [LLM] $CALLOUT at $3.14067e-06, spent 0.02 SOL
 - **Reasoning:** $CALLOUT has the strongest narrative of the batch (capybara-on-yacht 'callout or get called out' meme), rich description passing the viability gate, active Twitter presence, and sub-$4k mcap = room to run. Small position to learn the pattern.
 
+## [2026-09-01 10:16 UTC] sell | [FULL][LLM] $FAPE at $3.24449e-06 | P&L: -0.1%
+- **Reasoning:** Flat at 0.0% after entry, pool only $202, tiny mcap with no clear narrative catalyst. Stale capital — better to rotate into fresh attention.
+
+## [2026-09-01 10:16 UTC] sell | [FULL][LLM] $CALLOUT at $3.15154e-06 | P&L: +0.3%
+- **Reasoning:** +0.3% is noise, pool $155, no viral narrative. Free up slot and SOL for fresher launches with real attention signals.
+
