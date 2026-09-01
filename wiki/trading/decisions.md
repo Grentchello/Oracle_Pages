@@ -11395,3 +11395,9 @@
 ## [2026-09-01 02:17 UTC] sell | [PARTIAL][LLM] $delulu at $1.38633e-05 | P&L: +83.7%
 - **Reasoning:** +83.7% in 12 minutes on a bonding-curve token is exceptional. Lock half the gain now; if it keeps running I still have exposure. Stale risk rises with every minute at this level.
 
+## [2026-09-01 02:18 UTC] sell | [TP +30% (25%)] $delulu at $1.09587e-05 | P&L: +45.2%
+- **Reasoning:** Auto take-profit at +45.2%
+
+## [2026-09-01 02:19 UTC] sell | [FULL][LLM] $delulu at $1.09587e-05 | P&L: +45.2%
+- **Reasoning:** $delulu is up +45.2% in just 12 minutes — lock it in. At $2,938 pool liquidity, this is still micro-cap territory where gains can vanish instantly. +45% on a paper trade is a great first result; don't give it back hoping for +100%.
+
