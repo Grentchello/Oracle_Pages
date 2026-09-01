@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.42989,
+  "balance_sol": 0.433331,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "G54wkdZChmFsETFVh7iJwiveY1ccYzSbWU9LnwE4pump": {
-      "symbol": "MORLI",
-      "name": "MORLI",
-      "amount": 117394.50385190296,
-      "entry_price_usd": 8.697e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-01T09:46:59.298294+00:00",
-      "entry_usd_value": 2.04196,
-      "entry_signals": {
-        "liquidity_usd": 1990.766208598222,
-        "volume_24h_usd": 2858.61,
-        "market_cap_usd": 8897.41371670198,
-        "ath_market_cap_usd": 9207.300617917668,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 19.498581839,
-        "description": "Morli is a tiny forest troublemaker with a big mushroom, terrible ideas, and absolutely no plans to behave.",
-        "twitter": "https://x.com/itsmorli",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24404,19 +24381,30 @@
       "pnl_pct": 18.63,
       "exit_reason": "LLM: sell_half — MORLI is up 18.6% but has negligible pool liquidity at just $2,760 and 0% pool share, making an exit difficult and the move suspect. Take half profit ",
       "partial": true
+    },
+    {
+      "mint": "G54wkdZChmFsETFVh7iJwiveY1ccYzSbWU9LnwE4pump",
+      "symbol": "MORLI",
+      "name": "MORLI",
+      "amount_sold": 117394.50385190296,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T09:46:59.298294+00:00",
+      "exit_time": "2026-09-01T09:50:45.174173+00:00",
+      "entry_price_usd": 8.697e-06,
+      "exit_price_usd": 2.990336262774902e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.003441,
+      "pnl_sol": -0.006559,
+      "pnl_pct": -65.62,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T09:49:41.781063+00:00",
+  "last_updated": "2026-09-01T09:51:24.278285+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.039,
-  "portfolio_value_usd": 44.89,
+  "last_sol_price_usd": 102.024,
+  "portfolio_value_usd": 44.21,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 09:06 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $RISE at $7.28325e-06 | P&L: +40.7%",
-      "reason": "Auto take-profit at +40.7%"
-    },
     {
       "time": "2026-09-01 09:06 UTC",
       "action": "sell",
@@ -24530,40 +24518,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $MORLI at $1.03175e-05 | P&L: +18.6%",
       "reason": "MORLI is up 18.6% but has negligible pool liquidity at just $2,760 and 0% pool share, making an exit difficult and the move suspect. Take half profit now while keeping a small runner for attention-driven upside."
+    },
+    {
+      "time": "2026-09-01 09:50 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $MORLI closed at $2.99034e-06 | P&L: -65.6%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1434,
+    "total": 1435,
     "wins": 724,
-    "losses": 710,
+    "losses": 711,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.892754,
-    "avg_pnl_pct": 38.21,
+    "total_pnl_sol": -1.899313,
+    "avg_pnl_pct": 38.13,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 149,
-    "today_realized_sol": -0.004866,
-    "today_target_pct": -1.2,
+    "today_trades": 150,
+    "today_realized_sol": -0.011425,
+    "today_target_pct": -2.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 724,
-      "loss_count": 710,
+      "loss_count": 711,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T09:49:41.521899+00:00",
+  "last_llm_brief_at": "2026-09-01T09:51:24.278245+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "G54wkdZChmFsETFVh7iJwiveY1ccYzSbWU9LnwE4pump": {
-      "price_usd": 1.0317520486988924e-05,
+      "price_usd": 2.990336262774902e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2760.28112326428,
-      "volume_h24": 8887.1,
+      "liquidity_usd": 73.082884363632,
+      "volume_h24": 11121.39,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 27.05123652
+      "real_sol_reserves": 0.716330318
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

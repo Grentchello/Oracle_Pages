@@ -11986,3 +11986,6 @@
 ## [2026-09-01 09:49 UTC] sell | [PARTIAL][LLM] $MORLI at $1.03175e-05 | P&L: +18.6%
 - **Reasoning:** MORLI is up 18.6% but has negligible pool liquidity at just $2,760 and 0% pool share, making an exit difficult and the move suspect. Take half profit now while keeping a small runner for attention-driven upside.
 
+## [2026-09-01 09:50 UTC] sell | [hard-stop] $MORLI closed at $2.99034e-06 | P&L: -65.6%
+- **Reasoning:** Hard -30% stop
+
