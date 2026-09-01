@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.495294,
+  "balance_sol": 0.48513,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "5a6PAoqntBQMCX17Lz8jv3b9a3tRXfH1MWvpSTGsqQWG": {
       "symbol": "GRC",
       "name": "Greece",
-      "amount": 700673.8544474394,
+      "amount": 350336.9272237197,
       "entry_price_usd": 2.968e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-01T06:32:51.176961+00:00",
       "entry_usd_value": 2.0796,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 0.213142484,
         "description": "Greece is the country token of World Index—a global on-chain ecosystem bringing every nation together in one connected market.",
         "twitter": "https://x.com/solworldindex",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "J4G22TBoLerHdogvyNZaEqEXUFEbfqS1xEg3Uebnpump": {
+      "symbol": "GTABALL",
+      "name": "GTA BALL",
+      "amount": 501328.18159864773,
+      "entry_price_usd": 4.141e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-01T06:38:07.760985+00:00",
+      "entry_usd_value": 2.076,
+      "entry_signals": {
+        "liquidity_usd": 37.8505892436,
+        "volume_24h_usd": 2449.13,
+        "market_cap_usd": 3254.4783893810973,
+        "ath_market_cap_usd": 5361.488290936351,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.364649222,
+        "description": "A community memecoin on Solana built around one simple loop: trading fees fund GTA 6 giveaways for holders Prize money come from the 3% fee on every trade in the $GTABALL / $TTWO pool on Meteora Pons pays those fees out in ETH, which is what the Prize Vault holds and what buys the games More volume ",
+        "twitter": "https://x.com/gtaball_sol",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -23435,25 +23457,30 @@
       "pnl_pct": -46.14,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "5a6PAoqntBQMCX17Lz8jv3b9a3tRXfH1MWvpSTGsqQWG",
+      "symbol": "GRC",
+      "name": "Greece",
+      "amount_sold": 350336.9272237197,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T06:32:51.176961+00:00",
+      "exit_time": "2026-09-01T06:38:05.558486+00:00",
+      "entry_price_usd": 2.968e-06,
+      "exit_price_usd": 2.9144111007479975e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.009836,
+      "pnl_sol": -0.000164,
+      "pnl_pct": -1.81,
+      "exit_reason": "LLM: sell_all — Pool is only $7 and we hold 31% — we ARE the liquidity. Any seller wrecks us, and price is flat after 6min. Free the slot for a fresher narrative.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T06:36:26.651302+00:00",
+  "last_updated": "2026-09-01T06:38:07.761136+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.96,
-  "portfolio_value_usd": 53.57,
+  "last_sol_price_usd": 103.8,
+  "portfolio_value_usd": 53.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 05:51 UTC",
-      "action": "buy",
-      "details": "[LLM] $TBUCK at $3.31827e-06, spent 0.02 SOL",
-      "reason": "$TBUCK — 'shit bucket for degenerate traders' is a self-aware meta-narrative that memecoin Twitter loves, has twitter presence (passes viability gate), 6% bonded at 0.4min is brand new. Risk: ultra-low mcap ($3.3k), thin liquidity."
-    },
-    {
-      "time": "2026-09-01 05:52 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $TBUCK at $3.21326e-06 | P&L: -3.2%",
-      "reason": "$TBUCK down -3.2% at 0h, tiny $157 pool = illiquid, no clear narrative or viral signal. Cut the dead weight fast and free the slot for a real launch."
-    },
     {
       "time": "2026-09-01 05:52 UTC",
       "action": "buy",
@@ -23561,40 +23588,52 @@
       "action": "buy",
       "details": "[LLM] $GRC at $2.968e-06, spent 0.02 SOL",
       "reason": "$GRC (Greece) has a clear narrative — 'country token of World Index, every nation in one ecosystem' — which is a recurring meta (country/region tokens attract patriotic attention). Mcap $2.9k means10x potential is real if the narrative catches. Bond only 1% though, so higher risk; size0.05 SOL."
+    },
+    {
+      "time": "2026-09-01 06:38 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $GRC at $2.91441e-06 | P&L: -1.8%",
+      "reason": "Pool is only $7 and we hold 31% — we ARE the liquidity. Any seller wrecks us, and price is flat after 6min. Free the slot for a fresher narrative."
+    },
+    {
+      "time": "2026-09-01 06:38 UTC",
+      "action": "buy",
+      "details": "[LLM] $GTABALL at $4.141e-06, spent 0.02 SOL",
+      "reason": "Clearest narrative in the slate: GTA 6 giveaway funded by trading fees is a built-in attention loop, plus an actual twitter handle. Passes viability gate (desc + twitter). Risk: $3.2k mcap, sub-2min old — but that's where the alpha is."
     }
   ],
   "trade_stats": {
-    "total": 1377,
+    "total": 1378,
     "wins": 698,
-    "losses": 679,
+    "losses": 680,
     "win_rate_pct": 50.7,
-    "total_pnl_sol": -1.817351,
-    "avg_pnl_pct": 39.52,
+    "total_pnl_sol": -1.817515,
+    "avg_pnl_pct": 39.49,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 92,
-    "today_realized_sol": 0.070537,
+    "today_trades": 93,
+    "today_realized_sol": 0.070373,
     "today_target_pct": 17.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 698,
-      "loss_count": 679,
+      "loss_count": 680,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T06:36:26.366430+00:00",
+  "last_llm_brief_at": "2026-09-01T06:38:05.557226+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5a6PAoqntBQMCX17Lz8jv3b9a3tRXfH1MWvpSTGsqQWG": {
-      "price_usd": 2.9369171908516947e-06,
+      "price_usd": 2.9144111007479975e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 16.21392720272,
-      "volume_h24": 53.02,
+      "liquidity_usd": 6.574615707,
+      "volume_h24": 62.64,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.155963132
+      "real_sol_reserves": 0.063339265
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

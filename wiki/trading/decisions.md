@@ -11713,3 +11713,9 @@
 ## [2026-09-01 06:32 UTC] buy | [LLM] $GRC at $2.968e-06, spent 0.02 SOL
 - **Reasoning:** $GRC (Greece) has a clear narrative — 'country token of World Index, every nation in one ecosystem' — which is a recurring meta (country/region tokens attract patriotic attention). Mcap $2.9k means10x potential is real if the narrative catches. Bond only 1% though, so higher risk; size0.05 SOL.
 
+## [2026-09-01 06:38 UTC] sell | [PARTIAL][LLM] $GRC at $2.91441e-06 | P&L: -1.8%
+- **Reasoning:** Pool is only $7 and we hold 31% — we ARE the liquidity. Any seller wrecks us, and price is flat after 6min. Free the slot for a fresher narrative.
+
+## [2026-09-01 06:38 UTC] buy | [LLM] $GTABALL at $4.141e-06, spent 0.02 SOL
+- **Reasoning:** Clearest narrative in the slate: GTA 6 giveaway funded by trading fees is a built-in attention loop, plus an actual twitter handle. Passes viability gate (desc + twitter). Risk: $3.2k mcap, sub-2min old — but that's where the alpha is.
+
