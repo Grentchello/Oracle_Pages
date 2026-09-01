@@ -1,36 +1,14 @@
 {
-  "balance_sol": 0.410865,
+  "balance_sol": 0.442329,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "EaSRis1ZriztYkW6o53FfkQ8oLQ23QZj8GqyCpnhpump": {
-      "symbol": "CVS",
-      "name": "CVS RECEIPT ",
-      "amount": 678655.4568298145,
-      "entry_price_usd": 3.0424864034030555e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T02:01:37.758726+00:00",
-      "entry_usd_value": 2.0648,
-      "entry_signals": {
-        "liquidity_usd": 64.54548477755999,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3043.5761141408334,
-        "ath_market_cap_usd": 3409.393725736066,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.625198419,
-        "description": "CVS receipts are absolutely ridiculous and absolutely unnecessary to be that long. I don’t know why but I find this funny. I’m just trying to launch a funny meme and hope others make $. no rug no farming",
-        "twitter": "https://x.com/bigmikenj78/status/2094606014074986571?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "59LPFsaU3L8fGmuksMdG2Nwb2xvrMctEBZpasLrFpump": {
       "symbol": "delulu",
       "name": "delulu",
-      "amount": 273501.68340678315,
+      "amount": 136750.84170339158,
       "entry_price_usd": 7.545108952513382e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-01T02:06:40.462148+00:00",
       "entry_usd_value": 2.0636,
       "entry_signals": {
@@ -22233,25 +22211,47 @@
       "pnl_pct": -35.27,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "EaSRis1ZriztYkW6o53FfkQ8oLQ23QZj8GqyCpnhpump",
+      "symbol": "CVS",
+      "name": "CVS RECEIPT ",
+      "amount_sold": 678655.4568298145,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T02:01:37.758726+00:00",
+      "exit_time": "2026-09-01T02:08:28.083711+00:00",
+      "entry_price_usd": 3.0424864034030555e-06,
+      "exit_price_usd": 2.9613715834384785e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019498,
+      "pnl_sol": -0.000502,
+      "pnl_pct": -2.67,
+      "exit_reason": "LLM: sell_all — Pool is only $42 — dangerously thin, our 5% share means we're a whale here and any exit has brutal slippage. -2.7% is a small loss, cut it free the sl",
+      "partial": false
+    },
+    {
+      "mint": "59LPFsaU3L8fGmuksMdG2Nwb2xvrMctEBZpasLrFpump",
+      "symbol": "delulu",
+      "name": "delulu",
+      "amount_sold": 136750.84170339158,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T02:06:40.462148+00:00",
+      "exit_time": "2026-09-01T02:08:28.083979+00:00",
+      "entry_price_usd": 7.545108952513382e-06,
+      "exit_price_usd": 9.019231286347494e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011966,
+      "pnl_sol": 0.001966,
+      "pnl_pct": 19.54,
+      "exit_reason": "LLM: sell_half — +19.5% in minutes — take profit on half, let the rest ride with a free house. Don't give back a 20% gain hoping for more.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T02:06:40.462476+00:00",
+  "last_updated": "2026-09-01T02:08:28.346800+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.18,
-  "portfolio_value_usd": 46.52,
+  "last_sol_price_usd": 103.075,
+  "portfolio_value_usd": 46.62,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 01:16 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $VETS at $3.0914e-06 | P&L: -1.1%",
-      "reason": "$VETS is dead capital - no narrative, no description, $112 pool with 2% share, essentially flat at -1.1%. Free the slot and SOL for a real attention play."
-    },
-    {
-      "time": "2026-09-01 01:16 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BERD at $2.89779e-06 | P&L: -6.1%",
-      "reason": "$BERD pool is only $10 - we own 19% of it. Already -6.1% and dropping with catastrophically thin liquidity. Selling into this pool will hurt but holding is worse. Exit NOW."
-    },
     {
       "time": "2026-09-01 01:16 UTC",
       "action": "buy",
@@ -22359,40 +22359,63 @@
       "action": "buy",
       "details": "[LLM] $delulu at $7.54511e-06, spent 0.02 SOL",
       "reason": "Only $7.5k mcap with a self-aware meta narrative ('everyone in the trenches is delulu') — cultural commentary on crypto trading is inherently viral. Has Twitter and description, passes viability gate. 28% bonding still building. Risk: very early, thin liquidity."
+    },
+    {
+      "time": "2026-09-01 02:08 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CVS at $2.96137e-06 | P&L: -2.7%",
+      "reason": "Pool is only $42 — dangerously thin, our 5% share means we're a whale here and any exit has brutal slippage. -2.7% is a small loss, cut it free the slot for a better play."
+    },
+    {
+      "time": "2026-09-01 02:08 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $delulu at $9.01923e-06 | P&L: +19.5%",
+      "reason": "+19.5% in minutes — take profit on half, let the rest ride with a free house. Don't give back a 20% gain hoping for more."
     }
   ],
   "trade_stats": {
-    "total": 1305,
-    "wins": 660,
-    "losses": 645,
+    "total": 1307,
+    "wins": 661,
+    "losses": 646,
     "win_rate_pct": 50.6,
-    "total_pnl_sol": -1.88178,
-    "avg_pnl_pct": 39.74,
+    "total_pnl_sol": -1.880316,
+    "avg_pnl_pct": 39.69,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 20,
-    "today_realized_sol": 0.006108,
-    "today_target_pct": 1.5,
+    "today_trades": 22,
+    "today_realized_sol": 0.007572,
+    "today_target_pct": 1.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 660,
-      "loss_count": 645,
+      "win_count": 661,
+      "loss_count": 646,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T02:06:38.621913+00:00",
+  "last_llm_brief_at": "2026-09-01T02:08:28.083676+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EaSRis1ZriztYkW6o53FfkQ8oLQ23QZj8GqyCpnhpump": {
-      "price_usd": 2.964388260773051e-06,
+      "price_usd": 2.9613715834384785e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 42.40385767002,
+      "liquidity_usd": 42.360705847425,
       "volume_h24": 852.59,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.410969739
+    },
+    "59LPFsaU3L8fGmuksMdG2Nwb2xvrMctEBZpasLrFpump": {
+      "price_usd": 9.019231286347494e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2378.185764445575,
+      "volume_h24": 17284.47,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 23.072381901
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

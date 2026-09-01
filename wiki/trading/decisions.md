@@ -11350,3 +11350,9 @@
 ## [2026-09-01 02:06 UTC] buy | [LLM] $delulu at $7.54511e-06, spent 0.02 SOL
 - **Reasoning:** Only $7.5k mcap with a self-aware meta narrative ('everyone in the trenches is delulu') — cultural commentary on crypto trading is inherently viral. Has Twitter and description, passes viability gate. 28% bonding still building. Risk: very early, thin liquidity.
 
+## [2026-09-01 02:08 UTC] sell | [FULL][LLM] $CVS at $2.96137e-06 | P&L: -2.7%
+- **Reasoning:** Pool is only $42 — dangerously thin, our 5% share means we're a whale here and any exit has brutal slippage. -2.7% is a small loss, cut it free the slot for a better play.
+
+## [2026-09-01 02:08 UTC] sell | [PARTIAL][LLM] $delulu at $9.01923e-06 | P&L: +19.5%
+- **Reasoning:** +19.5% in minutes — take profit on half, let the rest ride with a free house. Don't give back a 20% gain hoping for more.
+
