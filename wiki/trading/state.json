@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.385961,
+  "balance_sol": 0.411387,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Fsv2nfxLnVESMU11aPDNXiFZFHG7hWAYUtBqEiunpump": {
-      "symbol": "CHILLFROG",
-      "name": "ChillFrog",
-      "amount": 482138.68783562916,
-      "entry_price_usd": 4.283e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T00:42:25.803594+00:00",
-      "entry_usd_value": 2.065,
-      "entry_signals": {
-        "liquidity_usd": 396.391160396,
-        "volume_24h_usd": 1657.53,
-        "market_cap_usd": 3685.6166687349123,
-        "ath_market_cap_usd": 5337.351381344768,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.839139568,
-        "description": "A frog took his last $10, clicked one green button and never worked again. This is his coin. There is no team, no roadmap and no alarm clock.",
-        "twitter": "https://x.com/chillfrogcoin?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -21990,19 +21967,30 @@
       "pnl_pct": -23.88,
       "exit_reason": "LLM: sell_all — Down 23.9% with only $68 pool liquidity - this is a dead token. Exit before -30% auto-stop triggers and preserve the remaining capital.",
       "partial": false
+    },
+    {
+      "mint": "Fsv2nfxLnVESMU11aPDNXiFZFHG7hWAYUtBqEiunpump",
+      "symbol": "CHILLFROG",
+      "name": "ChillFrog",
+      "amount_sold": 482138.68783562916,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T00:42:25.803594+00:00",
+      "exit_time": "2026-09-01T00:47:25.649103+00:00",
+      "entry_price_usd": 4.283e-06,
+      "exit_price_usd": 5.445048576613315e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.025426,
+      "pnl_sol": 0.005426,
+      "pnl_pct": 27.13,
+      "exit_reason": "LLM: sell_all — Up 27% in 10 minutes — that's a solid scalp. Name is cute but not exceptional, and we're sitting right at the edge of the first TP threshold. Lock the",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T00:45:46.623802+00:00",
+  "last_updated": "2026-09-01T00:47:25.908869+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.22,
-  "portfolio_value_usd": 41.9,
+  "last_sol_price_usd": 103.25,
+  "portfolio_value_usd": 42.48,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 23:50 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-31 23:53 UTC",
       "action": "observe",
@@ -22116,51 +22104,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $NoPro at $3.01343e-06 | P&L: -23.9%",
       "reason": "Down 23.9% with only $68 pool liquidity - this is a dead token. Exit before -30% auto-stop triggers and preserve the remaining capital."
+    },
+    {
+      "time": "2026-09-01 00:47 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CHILLFROG at $5.44505e-06 | P&L: +27.1%",
+      "reason": "Up 27% in 10 minutes — that's a solid scalp. Name is cute but not exceptional, and we're sitting right at the edge of the first TP threshold. Lock the gain rather than risk a reversal on a bonding curve token."
     }
   ],
   "trade_stats": {
-    "total": 1292,
-    "wins": 658,
+    "total": 1293,
+    "wins": 659,
     "losses": 634,
-    "win_rate_pct": 50.9,
-    "total_pnl_sol": -1.926684,
-    "avg_pnl_pct": 39.97,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -1.921258,
+    "avg_pnl_pct": 39.96,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 7,
-    "today_realized_sol": -0.038796,
-    "today_target_pct": -9.7,
+    "today_trades": 8,
+    "today_realized_sol": -0.03337,
+    "today_target_pct": -8.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 658,
+      "win_count": 659,
       "loss_count": 634,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T00:45:46.623462+00:00",
+  "last_llm_brief_at": "2026-09-01T00:47:25.649068+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "Fsv2nfxLnVESMU11aPDNXiFZFHG7hWAYUtBqEiunpump": {
-      "price_usd": 3.913522412917317e-06,
+      "price_usd": 5.445048576613315e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 509.40503374852,
-      "volume_h24": 2502.7,
+      "liquidity_usd": 1156.5873002495,
+      "volume_h24": 2895.71,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.935138866
-    },
-    "CEzJ4pbEoAuSDkbh7Skdq2tH2C1G4bNrKMFfwL7zpump": {
-      "price_usd": 3.0134306739769627e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 67.66624290166,
-      "volume_h24": 1032.53,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.655553603
+      "real_sol_reserves": 11.201814046
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

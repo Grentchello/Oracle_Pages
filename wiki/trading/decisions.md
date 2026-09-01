@@ -11263,3 +11263,6 @@
 ## [2026-09-01 00:45 UTC] sell | [FULL][LLM] $NoPro at $3.01343e-06 | P&L: -23.9%
 - **Reasoning:** Down 23.9% with only $68 pool liquidity - this is a dead token. Exit before -30% auto-stop triggers and preserve the remaining capital.
 
+## [2026-09-01 00:47 UTC] sell | [FULL][LLM] $CHILLFROG at $5.44505e-06 | P&L: +27.1%
+- **Reasoning:** Up 27% in 10 minutes — that's a solid scalp. Name is cute but not exceptional, and we're sitting right at the edge of the first TP threshold. Lock the gain rather than risk a reversal on a bonding curve token.
+
