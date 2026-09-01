@@ -11425,3 +11425,6 @@
 ## [2026-09-01 02:39 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-01 02:41 UTC] sell | [PARTIAL][LLM] $BULLPEN at $2.89077e-06 | P&L: -16.9%
+- **Reasoning:** Down 16.9% in a $5 pool where we own 34%. No narrative, no catalyst, bonding curve only 27%. Taking the loss before it hits -30% hard stop.
+

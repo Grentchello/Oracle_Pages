@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.471504,
+  "balance_sol": 0.479829,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "J4Q2YRMwHWLat5cn4emP1qgYE5iR4K6JTPoBMHgF3s9m": {
       "symbol": "BULLPEN",
       "name": "BULLPEN",
-      "amount": 593580.4554267663,
+      "amount": 296790.22771338315,
       "entry_price_usd": 3.4795620056510116e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-01T02:34:21.118702+00:00",
       "entry_usd_value": 2.0654,
       "entry_signals": {
@@ -22551,19 +22551,30 @@
       "pnl_pct": 58.34,
       "exit_reason": "LLM: sell_all — +58.3% in <1 hour is a textbook scalp win. The hard auto-TP should've caught this at +100%/+200% tiers but at +58% with only 2% share of a $122 pool, ",
       "partial": false
+    },
+    {
+      "mint": "J4Q2YRMwHWLat5cn4emP1qgYE5iR4K6JTPoBMHgF3s9m",
+      "symbol": "BULLPEN",
+      "name": "BULLPEN",
+      "amount_sold": 296790.22771338315,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T02:34:21.118702+00:00",
+      "exit_time": "2026-09-01T02:41:38.972868+00:00",
+      "entry_price_usd": 3.4795620056510116e-06,
+      "exit_price_usd": 2.8907688262752176e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.008325,
+      "pnl_sol": -0.001675,
+      "pnl_pct": -16.92,
+      "exit_reason": "LLM: sell_all — Down 16.9% in a $5 pool where we own 34%. No narrative, no catalyst, bonding curve only 27%. Taking the loss before it hits -30% hard stop.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T02:39:49.298251+00:00",
+  "last_updated": "2026-09-01T02:41:39.602907+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.13,
-  "portfolio_value_usd": 50.69,
+  "last_sol_price_usd": 103.054,
+  "portfolio_value_usd": 50.48,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 02:11 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $delulu at $1.42349e-05 | P&L: +88.7%",
-      "reason": "Auto take-profit at +88.7%"
-    },
     {
       "time": "2026-09-01 02:11 UTC",
       "action": "sell",
@@ -22677,35 +22688,41 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-01 02:41 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BULLPEN at $2.89077e-06 | P&L: -16.9%",
+      "reason": "Down 16.9% in a $5 pool where we own 34%. No narrative, no catalyst, bonding curve only 27%. Taking the loss before it hits -30% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 1325,
+    "total": 1326,
     "wins": 678,
-    "losses": 647,
-    "win_rate_pct": 51.2,
-    "total_pnl_sol": -1.841142,
-    "avg_pnl_pct": 40.11,
+    "losses": 648,
+    "win_rate_pct": 51.1,
+    "total_pnl_sol": -1.842817,
+    "avg_pnl_pct": 40.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 40,
-    "today_realized_sol": 0.046746,
-    "today_target_pct": 11.7,
+    "today_trades": 41,
+    "today_realized_sol": 0.045071,
+    "today_target_pct": 11.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 678,
-      "loss_count": 647,
+      "loss_count": 648,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T02:39:49.297917+00:00",
+  "last_llm_brief_at": "2026-09-01T02:41:38.972023+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "J4Q2YRMwHWLat5cn4emP1qgYE5iR4K6JTPoBMHgF3s9m": {
-      "price_usd": 2.892900703065996e-06,
+      "price_usd": 2.8907688262752176e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 5.08704524516,
+      "liquidity_usd": 5.0832964287280005,
       "volume_h24": 1355.19,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
