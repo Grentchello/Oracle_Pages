@@ -11281,3 +11281,6 @@
 ## [2026-09-01 01:01 UTC] buy | [LLM] $DDance at $2.90286e-06, spent 0.02 SOL
 - **Reasoning:** $DDance 'Dog Dance' — passes viability gate (desc 90+ chars, twitter from @LostMemeArchive). Dog memes are perennial attention magnets, and the Brazil angle gives it a regional viral vector. At $2.9k mcap and 0.2min old, this is pure early alpha if the tweet picks up.
 
+## [2026-09-01 01:06 UTC] sell | [FULL][LLM] $DDance at $2.91187e-06 | P&L: +0.3%
+- **Reasoning:** DDance is +0.3% with $11 pool and zero attention narrative. Dead capital in a bonding curve with no viral signal — rotate to fresh launches.
+
