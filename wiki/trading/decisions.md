@@ -11845,3 +11845,6 @@
 ## [2026-09-01 08:05 UTC] buy | [LLM] $ROU at $2.915e-06, spent 0.02 SOL
 - **Reasoning:** $ROU is part of the 'country token' meta (World Index ecosystem) which has shown real staying power on previous launches. Has both desc and twitter, real project backing, and country tokens get geographic community attention that can 5-10x.
 
+## [2026-09-01 08:07 UTC] sell | [FULL][LLM] $ROU at $2.91005e-06 | P&L: -0.2%
+- **Reasoning:** $ROU pool is only $17 and we hold 12% — our own position dominates liquidity and any other seller will crater us. Cut the slot now, free capital for a fresher narrative.
+
