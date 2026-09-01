@@ -11269,3 +11269,6 @@
 ## [2026-09-01 00:52 UTC] buy | [LLM] $MGC at $3.05491e-06, spent 0.02 SOL
 - **Reasoning:** $MGC (Mom Get The Camera) — iconic internet nostalgia meme, 52-char desc passes viability, no fragility flags, $3k mcap with 0.2min age is maximum freshness. Classic meme revival narrative has viral potential.
 
+## [2026-09-01 00:56 UTC] buy | [LLM] $tape at $8.35763e-06, spent 0.02 SOL
+- **Reasoning:** $tape (apeontape) has the strongest signal: ape branding (proven meta), novel game-theory narrative (50 apes, seats that fill, selling loses everything), 29% bonding = real momentum, $8.3k mcap with active twitter. Passes viability and fragility gates. GMGN fragility check was blocked but no celebrity/political keywords present.
+
