@@ -12010,3 +12010,6 @@
 ## [2026-09-01 10:30 UTC] buy | [LLM] $ROMANO at $2.965e-06, spent 0.02 SOL
 - **Reasoning:** $ROMANO has a real viral narrative (UT Austin Joey Romano uber-to-hospital story) with attached twitter from @Defo1277 and mcap only $2,974 — classic early-attention setup with room to run. Passes viability gate (twitter present).
 
+## [2026-09-01 10:31 UTC] sell | [hard-stop] $STATIC closed at $3.64809e-06 | P&L: -70.1%
+- **Reasoning:** Hard -30% stop
+

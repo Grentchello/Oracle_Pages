@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.393363,
+  "balance_sol": 0.399328,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "2BfiJKLLvGBhKtiFYfUWrLpGCUWrzjApsCE8B6fKpump": {
-      "symbol": "STATIC",
-      "name": "STATICAT",
-      "amount": 167534.80753480754,
-      "entry_price_usd": 1.221e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T10:29:22.354562+00:00",
-      "entry_usd_value": 2.0456,
-      "entry_signals": {
-        "liquidity_usd": 3215.91457863424,
-        "volume_24h_usd": 3272.17,
-        "market_cap_usd": 10693.525725268622,
-        "ath_market_cap_usd": 12216.459220600322,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 31.442262208,
-        "description": "An unknown signal has entered the network. It watches, remembers and never disconnects.",
-        "twitter": "https://x.com/STATICAT_MEOW",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "BZFf9Y5c5svMXfCkcFzVWxZgDMy5qSothURmxTaCpump": {
       "symbol": "ROMANO",
       "name": "Joey Romano",
@@ -24477,19 +24455,30 @@
       "pnl_pct": 0.35,
       "exit_reason": "LLM: sell_all — +0.3% is noise, pool $155, no viral narrative. Free up slot and SOL for fresher launches with real attention signals.",
       "partial": false
+    },
+    {
+      "mint": "2BfiJKLLvGBhKtiFYfUWrLpGCUWrzjApsCE8B6fKpump",
+      "symbol": "STATIC",
+      "name": "STATICAT",
+      "amount_sold": 167534.80753480754,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T10:29:22.354562+00:00",
+      "exit_time": "2026-09-01T10:31:54.113856+00:00",
+      "entry_price_usd": 1.221e-05,
+      "exit_price_usd": 3.6480888868536953e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.005965,
+      "pnl_sol": -0.014035,
+      "pnl_pct": -70.12,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T10:30:49.823884+00:00",
+  "last_updated": "2026-09-01T10:32:28.591655+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.33,
-  "portfolio_value_usd": 44.5,
+  "last_sol_price_usd": 102.46,
+  "portfolio_value_usd": 42.96,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 09:26 UTC",
-      "action": "buy",
-      "details": "[LLM] $$botfuk at $3.32808e-06, spent 0.02 SOL",
-      "reason": "$botfuk passes viability gate (57-char desc + twitter). Narrative is provocative/viral ('first robot with autonomous sexual awareness' from @catholicpeter), low mcap $3.3k, fresh 0.2min — asymmetric attention bet with meme-coin DNA. Fragility risk acknowledged; riding small size for narrative potential."
-    },
     {
       "time": "2026-09-01 09:28 UTC",
       "action": "buy",
@@ -24603,40 +24592,57 @@
       "action": "buy",
       "details": "[LLM] $ROMANO at $2.965e-06, spent 0.02 SOL",
       "reason": "$ROMANO has a real viral narrative (UT Austin Joey Romano uber-to-hospital story) with attached twitter from @Defo1277 and mcap only $2,974 — classic early-attention setup with room to run. Passes viability gate (twitter present)."
+    },
+    {
+      "time": "2026-09-01 10:31 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $STATIC closed at $3.64809e-06 | P&L: -70.1%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1437,
+    "total": 1438,
     "wins": 725,
-    "losses": 712,
-    "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.899281,
-    "avg_pnl_pct": 38.08,
+    "losses": 713,
+    "win_rate_pct": 50.4,
+    "total_pnl_sol": -1.913316,
+    "avg_pnl_pct": 38.01,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 152,
-    "today_realized_sol": -0.011393,
-    "today_target_pct": -2.8,
+    "today_trades": 153,
+    "today_realized_sol": -0.025428,
+    "today_target_pct": -6.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 725,
-      "loss_count": 712,
+      "loss_count": 713,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T10:30:48.451824+00:00",
+  "last_llm_brief_at": "2026-09-01T10:32:28.330424+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2BfiJKLLvGBhKtiFYfUWrLpGCUWrzjApsCE8B6fKpump": {
-      "price_usd": 1.4362706261088037e-05,
+      "price_usd": 3.6480888868536953e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3808.38417688458,
-      "volume_h24": 4995.89,
+      "liquidity_usd": 394.92899046223994,
+      "volume_h24": 11212.55,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 37.216692826
+      "real_sol_reserves": 3.854469944
+    },
+    "BZFf9Y5c5svMXfCkcFzVWxZgDMy5qSothURmxTaCpump": {
+      "price_usd": 2.969020183525049e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 55.47866465974,
+      "volume_h24": 58.91,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.541466569
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
