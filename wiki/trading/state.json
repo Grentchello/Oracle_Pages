@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.500634,
+  "balance_sol": 0.516908,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5qLJu88xkgEB3DsmDquyxDVyapguZpaNgBGhFKNZpump": {
-      "symbol": "XCC",
-      "name": "XRP CLARITY COIN",
-      "amount": 181633.5078534031,
-      "entry_price_usd": 1.146e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T06:17:58.954366+00:00",
-      "entry_usd_value": 2.08152,
-      "entry_signals": {
-        "liquidity_usd": 2466.9866670097317,
-        "volume_24h_usd": 3228.33,
-        "market_cap_usd": 11473.169710793196,
-        "ath_market_cap_usd": 11731.73988293232,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 23.703703707,
-        "description": "XRP CLARITY COIN ($XCC) 🇺🇸 Clarity is coming. $30,000,000,000,000 is waiting.",
-        "twitter": "https://x.com/Steph_iscrypto",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -23350,19 +23327,30 @@
       "pnl_pct": -0.96,
       "exit_reason": "LLM: sell_all — $NUMB is flat (-1.0%) and marked STALE after 0.3h with only $59 pool liquidity. No momentum, no narrative lift visible. Capital is better deployed in ",
       "partial": false
+    },
+    {
+      "mint": "5qLJu88xkgEB3DsmDquyxDVyapguZpaNgBGhFKNZpump",
+      "symbol": "XCC",
+      "name": "XRP CLARITY COIN",
+      "amount_sold": 181633.5078534031,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T06:17:58.954366+00:00",
+      "exit_time": "2026-09-01T06:19:28.512556+00:00",
+      "entry_price_usd": 1.146e-05,
+      "exit_price_usd": 9.326292342001005e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016274,
+      "pnl_sol": -0.003726,
+      "pnl_pct": -18.62,
+      "exit_reason": "LLM: sell_all — Down -18.6% in 0h held with only $2.4k pool liquidity and no bounce signal. Discipline says exit at -20% with doubt; -30% hard stop is imminent and th",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T06:17:59.226123+00:00",
+  "last_updated": "2026-09-01T06:19:28.792887+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.076,
-  "portfolio_value_usd": 54.19,
+  "last_sol_price_usd": 104.093,
+  "portfolio_value_usd": 53.81,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 05:13 UTC",
-      "action": "buy",
-      "details": "[LLM] $WOS at $2.967e-06, spent 0.02 SOL",
-      "reason": "$WOS (SOLwizards) has brand + RPG destiny narrative + established @SOLwizardsX twitter handle. 0.7min, $3k mcap. Risk: bond 1% complete, description short, but the handle suggests a real community vs. random launch."
-    },
     {
       "time": "2026-09-01 05:19 UTC",
       "action": "sell",
@@ -23476,30 +23464,48 @@
       "action": "buy",
       "details": "[LLM] $XCC at $1.146e-05, spent 0.02 SOL",
       "reason": "$XCC has a strong narrative hook tying to the $30T XRP clarity catalyst with an active twitter promoter (Steph_iscrypto). $11k mcap is entry zone for fresh launches, and the story is concrete enough to attract attention beyond pure degen noise."
+    },
+    {
+      "time": "2026-09-01 06:19 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $XCC at $9.32629e-06 | P&L: -18.6%",
+      "reason": "Down -18.6% in 0h held with only $2.4k pool liquidity and no bounce signal. Discipline says exit at -20% with doubt; -30% hard stop is imminent and thin liquidity makes the stop worse. Free the slot for a fresher narrative play."
     }
   ],
   "trade_stats": {
-    "total": 1372,
+    "total": 1373,
     "wins": 696,
-    "losses": 676,
+    "losses": 677,
     "win_rate_pct": 50.7,
-    "total_pnl_sol": -1.812011,
-    "avg_pnl_pct": 39.65,
+    "total_pnl_sol": -1.815737,
+    "avg_pnl_pct": 39.61,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 87,
-    "today_realized_sol": 0.075877,
-    "today_target_pct": 19.0,
+    "today_trades": 88,
+    "today_realized_sol": 0.072151,
+    "today_target_pct": 18.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 696,
-      "loss_count": 676,
+      "loss_count": 677,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T06:17:57.431222+00:00",
+  "last_llm_brief_at": "2026-09-01T06:19:28.512520+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5qLJu88xkgEB3DsmDquyxDVyapguZpaNgBGhFKNZpump": {
+      "price_usd": 9.326292342001005e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2467.3896299727508,
+      "volume_h24": 3838.46,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 23.703703707
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
