@@ -11551,3 +11551,6 @@
 ## [2026-09-01 03:47 UTC] sell | [FULL][LLM] $RUGX at $3.10739e-06 | P&L: -0.9%
 - **Reasoning:** RUGX flat at -0.9% after 6 min with no narrative and only $108 pool. Capital rotation beats bag-holding on a token with no clear attention signal.
 
+## [2026-09-01 03:50 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
