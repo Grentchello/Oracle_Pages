@@ -11356,3 +11356,12 @@
 ## [2026-09-01 02:08 UTC] sell | [PARTIAL][LLM] $delulu at $9.01923e-06 | P&L: +19.5%
 - **Reasoning:** +19.5% in minutes — take profit on half, let the rest ride with a free house. Don't give back a 20% gain hoping for more.
 
+## [2026-09-01 02:09 UTC] sell | [TP +30% (25%)] $delulu at $1.44412e-05 | P&L: +91.4%
+- **Reasoning:** Auto take-profit at +91.4%
+
+## [2026-09-01 02:10 UTC] sell | [PARTIAL][LLM] $delulu at $1.44412e-05 | P&L: +91.4%
+- **Reasoning:** Up 91.4% — near the +100% auto-TP threshold. Selling half now locks in ~0.05 SOL profit while letting the remaining half ride toward the auto TP. No reason to risk a pullback on a bonding curve token this close to threshold.
+
+## [2026-09-01 02:10 UTC] buy | [LLM] $MRNA at $1.705e-05, spent 0.02 SOL
+- **Reasoning:** MRNA has the strongest narrative — mRNA vaccine meme tied to Moderna's Phase 3 moment, with a clear Twitter (@mrna_sol) and decent mcap ($18k) on a bonding curve. The crypto-vaccine crossover has viral potential. 0.05 SOL size keeps risk tight.
+
