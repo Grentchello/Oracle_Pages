@@ -12034,3 +12034,9 @@
 ## [2026-09-01 11:22 UTC] sell | [PARTIAL][LLM] $Wolf🐺 at $7.591e-06 | P&L: +33.7%
 - **Reasoning:** Up +33.7% past the 25% TP threshold. Lock half the gain per scalp discipline. Wolf meme is generic — no strong narrative warranting a full hold into +100%/+200% tiers. Free up capital for fresh attention plays.
 
+## [2026-09-01 11:23 UTC] sell | [TP +30% (25%)] $Wolf🐺 at $8.31365e-06 | P&L: +46.5%
+- **Reasoning:** Auto take-profit at +46.5%
+
+## [2026-09-01 11:23 UTC] sell | [FULL][LLM] $Wolf🐺 at $8.31365e-06 | P&L: +46.5%
+- **Reasoning:** Up +46.5% in 6 minutes is exactly the kind of pump we want to lock in. Memecoin narrative decay is brutal — taking the 25% TP-tier gain and rotating capital to fresh attention. Bot will also auto-trigger 25% TP but I'm confirming full exit at +46.5% before the inevitable retrace.
+
