@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.472278,
+  "balance_sol": 0.475562,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7fpTP1MaG4fnm5zTTWQHKS5eexWXysLtMK6Y4wqcpump": {
-      "symbol": "XDOG",
-      "name": "XDOG",
-      "amount": 851930.9778142977,
-      "entry_price_usd": 2.434e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T04:57:49.532810+00:00",
-      "entry_usd_value": 2.0736000000000003,
-      "entry_signals": {
-        "liquidity_usd": 23.45328805248,
-        "volume_24h_usd": 5.77,
-        "market_cap_usd": 4926.790187921751,
-        "ath_market_cap_usd": 4926.790187921751,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.226208411,
-        "description": "X-Dog, ticker XDOG, is a community-driven meme coin built on Solana for speed and low fees. The name plays on the X platform and the classic dog meme, with a nod to the idea of a loyal, fast-moving community token. No presale, no team allocation — the full supply is fair-launched so everyone starts ",
-        "twitter": "https://x.com/_xdogs?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -23129,19 +23106,30 @@
       "pnl_pct": -55.46,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "7fpTP1MaG4fnm5zTTWQHKS5eexWXysLtMK6Y4wqcpump",
+      "symbol": "XDOG",
+      "name": "XDOG",
+      "amount_sold": 851930.9778142977,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T04:57:49.532810+00:00",
+      "exit_time": "2026-09-01T04:58:52.779118+00:00",
+      "entry_price_usd": 2.434e-06,
+      "exit_price_usd": 3.991865450607553e-07,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.003284,
+      "pnl_sol": -0.016716,
+      "pnl_pct": -83.6,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T04:57:49.533087+00:00",
+  "last_updated": "2026-09-01T04:59:25.462885+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.68,
-  "portfolio_value_usd": 51.04,
+  "last_sol_price_usd": 103.55,
+  "portfolio_value_usd": 49.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 03:52 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-01 03:55 UTC",
       "action": "observe",
@@ -23255,30 +23243,48 @@
       "action": "buy",
       "details": "[LLM] $XDOG at $2.434e-06, spent 0.02 SOL",
       "reason": "$XDOG — clear 'X-Dog' narrative tying to X platform attention, real description (50+ chars), twitter attached, $4.9k mcap. X-themed coins have pump history when X/Twitter is in news cycle. Low bond (3%) means very early — high upside if narrative catches, high risk of death."
+    },
+    {
+      "time": "2026-09-01 04:58 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $XDOG closed at $3.99187e-07 | P&L: -83.6%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1359,
+    "total": 1360,
     "wins": 691,
-    "losses": 668,
+    "losses": 669,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -1.840367,
-    "avg_pnl_pct": 39.7,
+    "total_pnl_sol": -1.857083,
+    "avg_pnl_pct": 39.61,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 74,
-    "today_realized_sol": 0.047521,
-    "today_target_pct": 11.9,
+    "today_trades": 75,
+    "today_realized_sol": 0.030805,
+    "today_target_pct": 7.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 691,
-      "loss_count": 668,
+      "loss_count": 669,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T04:57:47.531829+00:00",
+  "last_llm_brief_at": "2026-09-01T04:59:25.207868+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "7fpTP1MaG4fnm5zTTWQHKS5eexWXysLtMK6Y4wqcpump": {
+      "price_usd": 3.991865450607553e-07,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.0355e-07,
+      "volume_h24": 784.44,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
