@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.411826,
+  "balance_sol": 0.41802,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "2wzFYBLjdLnewviRv7sxGYRJX9i9pgRv92oV4MR2pump": {
-      "symbol": "GSHIBA",
-      "name": "GIGA SHIBA",
-      "amount": 221422.6848839731,
-      "entry_price_usd": 9.222e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T09:46:57.998872+00:00",
-      "entry_usd_value": 2.04196,
-      "entry_signals": {
-        "liquidity_usd": 2946.909842506144,
-        "volume_24h_usd": 3099.1,
-        "market_cap_usd": 9914.609236832393,
-        "ath_market_cap_usd": 10798.486972367515,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 28.863541328,
-        "description": "Long before anyone called him GIGA SHIBA, he lived alone among the ruins above a restless city.",
-        "twitter": "https://x.com/GIGA_SHIBA",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "G54wkdZChmFsETFVh7iJwiveY1ccYzSbWU9LnwE4pump": {
       "symbol": "MORLI",
       "name": "MORLI",
@@ -24392,19 +24370,30 @@
       "pnl_pct": -13.4,
       "exit_reason": "LLM: sell_all — Held 0.2h at -13.4%, not yet -20% but trending down with weak bounce signal. -30% stop is not far; cutting now locks a small manageable loss and frees",
       "partial": false
+    },
+    {
+      "mint": "2wzFYBLjdLnewviRv7sxGYRJX9i9pgRv92oV4MR2pump",
+      "symbol": "GSHIBA",
+      "name": "GIGA SHIBA",
+      "amount_sold": 221422.6848839731,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T09:46:57.998872+00:00",
+      "exit_time": "2026-09-01T09:48:03.475221+00:00",
+      "entry_price_usd": 9.222e-06,
+      "exit_price_usd": 2.856220371867752e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.006194,
+      "pnl_sol": -0.013806,
+      "pnl_pct": -69.03,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T09:46:59.298545+00:00",
+  "last_updated": "2026-09-01T09:48:24.973807+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.098,
-  "portfolio_value_usd": 46.13,
+  "last_sol_price_usd": 102.099,
+  "portfolio_value_usd": 44.72,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 09:05 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $RISE at $6.98348e-06 | P&L: +34.9%",
-      "reason": "+$34.9% is past the 25% TP zone — bot should have already taken partial, but our share=0% means it's all still on the table. Lock half the gain now per the '>20% with any doubt' rule; let the rest ride if narrative holds."
-    },
     {
       "time": "2026-09-01 09:05 UTC",
       "action": "buy",
@@ -24518,30 +24507,59 @@
       "action": "buy",
       "details": "[LLM] $MORLI at $8.697e-06, spent 0.02 SOL",
       "reason": "$MORLI passes viability (79-char character desc, twitter), clean of blocklist. Original IP (forest troublemaker + mushroom mascot) at $8.9k mcap is the kind of fresh-attention play that 10x's if the art catches. Risk: same — minutes-old, bond 30%, small size to manage exposure."
+    },
+    {
+      "time": "2026-09-01 09:48 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $GSHIBA closed at $2.85622e-06 | P&L: -69.0%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1432,
+    "total": 1433,
     "wins": 723,
-    "losses": 709,
+    "losses": 710,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.880818,
-    "avg_pnl_pct": 38.3,
+    "total_pnl_sol": -1.894624,
+    "avg_pnl_pct": 38.22,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 147,
-    "today_realized_sol": 0.00707,
-    "today_target_pct": 1.8,
+    "today_trades": 148,
+    "today_realized_sol": -0.006736,
+    "today_target_pct": -1.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 723,
-      "loss_count": 709,
+      "loss_count": 710,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T09:46:56.626343+00:00",
+  "last_llm_brief_at": "2026-09-01T09:48:24.973758+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2wzFYBLjdLnewviRv7sxGYRJX9i9pgRv92oV4MR2pump": {
+      "price_usd": 2.856220371867752e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.8771054527650001,
+      "volume_h24": 8569.47,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.008590735
+    },
+    "G54wkdZChmFsETFVh7iJwiveY1ccYzSbWU9LnwE4pump": {
+      "price_usd": 9.248963888630923e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2450.408072665167,
+      "volume_h24": 5598.97,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 24.000314133
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

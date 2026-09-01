@@ -11980,3 +11980,6 @@
 ## [2026-09-01 09:46 UTC] buy | [LLM] $MORLI at $8.697e-06, spent 0.02 SOL
 - **Reasoning:** $MORLI passes viability (79-char character desc, twitter), clean of blocklist. Original IP (forest troublemaker + mushroom mascot) at $8.9k mcap is the kind of fresh-attention play that 10x's if the art catches. Risk: same — minutes-old, bond 30%, small size to manage exposure.
 
+## [2026-09-01 09:48 UTC] sell | [hard-stop] $GSHIBA closed at $2.85622e-06 | P&L: -69.0%
+- **Reasoning:** Hard -30% stop
+
