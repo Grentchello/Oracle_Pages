@@ -11317,3 +11317,6 @@
 ## [2026-09-01 01:31 UTC] buy | [LLM] $jails2ool at $2.95147e-06, spent 0.02 SOL
 - **Reasoning:** Strongest narrative in the batch — 'lost everything from Jailstool' personal redemption story (89 chars) + linked Twitter. Jailstool brand has proven viral history. Viability gate PASS, fragility gate PASS.
 
+## [2026-09-01 01:34 UTC] buy | [LLM] $Adekk at $5.564e-06, spent 0.02 SOL
+- **Reasoning:** $Adekk (The Paralysed Cat) is the clear standout: highest bonding curve progress (31%), strongest narrative (viral TikTok cat with emotional 'help her walk' hook), has active twitter, passes viability gate. Viral animal content is a proven attention magnet — this is exactly the kind of story that gets shared. GMGN fragility check unavailable due to security restrictions, but no political/celebrity keywords detected.
+
