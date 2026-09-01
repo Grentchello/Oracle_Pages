@@ -11266,3 +11266,6 @@
 ## [2026-09-01 00:47 UTC] sell | [FULL][LLM] $CHILLFROG at $5.44505e-06 | P&L: +27.1%
 - **Reasoning:** Up 27% in 10 minutes — that's a solid scalp. Name is cute but not exceptional, and we're sitting right at the edge of the first TP threshold. Lock the gain rather than risk a reversal on a bonding curve token.
 
+## [2026-09-01 00:52 UTC] buy | [LLM] $MGC at $3.05491e-06, spent 0.02 SOL
+- **Reasoning:** $MGC (Mom Get The Camera) — iconic internet nostalgia meme, 52-char desc passes viability, no fragility flags, $3k mcap with 0.2min age is maximum freshness. Classic meme revival narrative has viral potential.
+
