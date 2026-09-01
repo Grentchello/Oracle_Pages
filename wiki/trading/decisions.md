@@ -11632,3 +11632,6 @@
 ## [2026-09-01 05:19 UTC] sell | [FULL][LLM] $WOS at $2.94907e-06 | P&L: -0.6%
 - **Reasoning:** $WOS is flat (-0.6%) after 0.1h on a tiny $25 pool where we hold 8% — that's enough share to move price but not enough liquidity to exit cleanly if it dumps. Stale capital; better to free the slot for fresh attention.
 
+## [2026-09-01 05:20 UTC] buy | [LLM] $pump.fun  at $3.13241e-06, spent 0.02 SOL
+- **Reasoning:** Pump.fun Amazon-warehouse narrative is meta (about the platform itself) with both desc and twitter — passes viability cleanly, low fragility. Weak story but cheap entry at 0.05 SOL to learn how meta-narratives perform.
+
