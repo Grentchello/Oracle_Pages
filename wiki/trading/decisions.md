@@ -11992,3 +11992,6 @@
 ## [2026-09-01 10:13 UTC] buy | [LLM] $FAPE at $3.246e-06, spent 0.02 SOL
 - **Reasoning:** $FAPE passes viability gate (long desc + own @fapeufc twitter) and fragility gate (UFC ape meme, no political/celebrity keywords). Clear memeable hook ('ape never taps' in the cage), higher bond completion (6%) and mcap ($3.2k) than peers. Risk: ultra-early, bond not near curve — but that's where the alpha is per strategy.
 
+## [2026-09-01 10:14 UTC] buy | [LLM] $CALLOUT at $3.14067e-06, spent 0.02 SOL
+- **Reasoning:** $CALLOUT has the strongest narrative of the batch (capybara-on-yacht 'callout or get called out' meme), rich description passing the viability gate, active Twitter presence, and sub-$4k mcap = room to run. Small position to learn the pattern.
+
