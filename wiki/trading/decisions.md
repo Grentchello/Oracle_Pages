@@ -11437,3 +11437,12 @@
 ## [2026-09-01 02:49 UTC] buy | [LLM] $TOWN at $4.754e-06, spent 0.02 SOL
 - **Reasoning:** $TOWN has 23% bonding curve — highest conviction signal on the board. 'Burn $TOWN to build higher' is a clear tokenomics hook. $5.8k mcap, sub-1min, room to run. Attention signal: 63-char narrative + active Twitter.
 
+## [2026-09-01 02:51 UTC] sell | [TP +100% (50%)] $TOWN at $1.32161e-05 | P&L: +178.0%
+- **Reasoning:** Auto take-profit at +178.0%
+
+## [2026-09-01 02:52 UTC] sell | [FULL][LLM] $TOWN at $1.32161e-05 | P&L: +178.0%
+- **Reasoning:** Up +178% on a sub-$10k mcap pump.fun token. At these micro-caps, gains evaporate in seconds. Lock the profit and rotate. We can re-enter if it continues, but taking +178% is a massive win on a fresh slate.
+
+## [2026-09-01 02:52 UTC] buy | [LLM] $PONE at $3.121e-06, spent 0.02 SOL
+- **Reasoning:** $PONE (APE ON PONE) passes viability gate with a funny ape/phone pun narrative and active Twitter. At $3.3k mcap with 6% bonding, it's ultra-early with room to run. The 'Why phone when PONE' story is memeable. Position size 0.05 SOL, accepting the risk for a potential micro-cap runner.
+
