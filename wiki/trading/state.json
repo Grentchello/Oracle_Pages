@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.496103,
+  "balance_sol": 0.520634,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "57oBeZa8VsB7sK9v4iiVM8uRLgpeKAbpSbfTjH2npump": {
-      "symbol": "NUMB",
-      "name": "NUMB",
-      "amount": 683507.5657500951,
-      "entry_price_usd": 3.0507343363663565e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T05:57:37.086567+00:00",
-      "entry_usd_value": 2.0852,
-      "entry_signals": {
-        "liquidity_usd": 71.99049355134001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3052.9937963439397,
-        "ath_market_cap_usd": 3811.4146174000175,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.690490059,
-        "description": "We’re all NUMB on PUMP. 😐 He bought the top. Held the bottom. Survived every rug. Now he feels nothing. His name is NUMB. No free team allocation. No launch airdrops. Community-first. Creator-funded growth. $NUMB — Tired. Rekt. Still here.",
-        "twitter": "https://x.com/NumbOnPump",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "J2RoG3s6Uf4t3B8WK8C6ow41yHKtL3ydCGzB6LZkpump": {
-      "symbol": "GENTRY",
-      "name": "Generational Entry",
-      "amount": 141182.3774199385,
-      "entry_price_usd": 5.527e-06,
-      "entry_sol_spent": 0.0075,
-      "entry_time": "2026-09-01T06:09:58.415611+00:00",
-      "entry_usd_value": 2.0808400000000002,
-      "entry_signals": {
-        "liquidity_usd": 2454.2544431424362,
-        "volume_24h_usd": 8940.89,
-        "market_cap_usd": 9343.254260474592,
-        "ath_market_cap_usd": 11223.146563653976,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 23.589074058,
-        "description": "Ayooo why bro drilling shawty like that? 😭 Bro caught a GENERATIONAL ENTRY! Who doesn’t love a good entry?  300K VIEWS IN 23 HOURS! Many bonders, Many more overlooked..",
-        "twitter": "https://x.com/Devilantesol/status/2094668653492879422",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -23338,25 +23293,47 @@
       "pnl_pct": 37.14,
       "exit_reason": "LLM: sell_half — $GENTRY is up +37.1%, well past the +30% TP threshold — bot should auto-trigger, but locking in half secures gains while letting runner play. Pool $19",
       "partial": true
+    },
+    {
+      "mint": "J2RoG3s6Uf4t3B8WK8C6ow41yHKtL3ydCGzB6LZkpump",
+      "symbol": "GENTRY",
+      "name": "Generational Entry",
+      "amount_sold": 141182.3774199385,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T06:09:58.415611+00:00",
+      "exit_time": "2026-09-01T06:12:50.322621+00:00",
+      "entry_price_usd": 5.527e-06,
+      "exit_price_usd": 3.4561450096154448e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.004688,
+      "pnl_sol": -0.002812,
+      "pnl_pct": -37.47,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "57oBeZa8VsB7sK9v4iiVM8uRLgpeKAbpSbfTjH2npump",
+      "symbol": "NUMB",
+      "name": "NUMB",
+      "amount_sold": 683507.5657500951,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T05:57:37.086567+00:00",
+      "exit_time": "2026-09-01T06:13:12.082308+00:00",
+      "entry_price_usd": 3.0507343363663565e-06,
+      "exit_price_usd": 3.0214459313242733e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019843,
+      "pnl_sol": -0.000157,
+      "pnl_pct": -0.96,
+      "exit_reason": "LLM: sell_all — $NUMB is flat (-1.0%) and marked STALE after 0.3h with only $59 pool liquidity. No momentum, no narrative lift visible. Capital is better deployed in ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T06:11:46.059633+00:00",
+  "last_updated": "2026-09-01T06:13:12.586986+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.0016,
-  "portfolio_value_usd": 54.46,
+  "last_sol_price_usd": 104.076,
+  "portfolio_value_usd": 54.19,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 05:09 UTC",
-      "action": "buy",
-      "details": "[LLM] $Anime  at $1.636e-06, spent 0.02 SOL",
-      "reason": "$Anime (Takashi Murakami) has the strongest narrative on the board — actual art-world artist attached, real creative project with Kaikai Kiki design team, and confirmed twitter (takashipom). Highest mcap ($13k) of the batch suggests organic traction. Cultural legitimacy + viral potential = high attention signal."
-    },
-    {
-      "time": "2026-09-01 05:10 UTC",
-      "action": "sell",
-      "details": "[TP +200% (75%)] $Anime  at $6.1031e-06 | P&L: +273.1%",
-      "reason": "Auto take-profit at +273.1%"
-    },
     {
       "time": "2026-09-01 05:10 UTC",
       "action": "sell",
@@ -23464,35 +23441,47 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $GENTRY at $7.57966e-06 | P&L: +37.1%",
       "reason": "$GENTRY is up +37.1%, well past the +30% TP threshold — bot should auto-trigger, but locking in half secures gains while letting runner play. Pool $1917 is thin, high rug risk on the remainder."
+    },
+    {
+      "time": "2026-09-01 06:12 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $GENTRY closed at $3.45615e-06 | P&L: -37.5%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-01 06:13 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $NUMB at $3.02145e-06 | P&L: -1.0%",
+      "reason": "$NUMB is flat (-1.0%) and marked STALE after 0.3h with only $59 pool liquidity. No momentum, no narrative lift visible. Capital is better deployed in fresh attention tokens right now."
     }
   ],
   "trade_stats": {
-    "total": 1370,
+    "total": 1372,
     "wins": 696,
-    "losses": 674,
-    "win_rate_pct": 50.8,
-    "total_pnl_sol": -1.809042,
-    "avg_pnl_pct": 39.74,
+    "losses": 676,
+    "win_rate_pct": 50.7,
+    "total_pnl_sol": -1.812011,
+    "avg_pnl_pct": 39.65,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 85,
-    "today_realized_sol": 0.078846,
-    "today_target_pct": 19.7,
+    "today_trades": 87,
+    "today_realized_sol": 0.075877,
+    "today_target_pct": 19.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 696,
-      "loss_count": 674,
+      "loss_count": 676,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T06:11:46.058544+00:00",
+  "last_llm_brief_at": "2026-09-01T06:13:12.082271+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "57oBeZa8VsB7sK9v4iiVM8uRLgpeKAbpSbfTjH2npump": {
-      "price_usd": 3.0192860137900624e-06,
+      "price_usd": 3.0214459313242733e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 59.260172520935996,
+      "liquidity_usd": 59.30256568445999,
       "volume_h24": 861.2,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
@@ -23500,15 +23489,15 @@
       "real_sol_reserves": 0.569800585
     },
     "J2RoG3s6Uf4t3B8WK8C6ow41yHKtL3ydCGzB6LZkpump": {
-      "price_usd": 7.5796625254611865e-06,
+      "price_usd": 3.4561450096154448e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1917.3403687223329,
-      "volume_h24": 23217.68,
+      "liquidity_usd": 280.483490845404,
+      "volume_h24": 29313.55,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 18.435681458
+      "real_sol_reserves": 2.694987229
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

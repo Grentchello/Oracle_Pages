@@ -11677,3 +11677,9 @@
 ## [2026-09-01 06:11 UTC] sell | [PARTIAL][LLM] $GENTRY at $7.57966e-06 | P&L: +37.1%
 - **Reasoning:** $GENTRY is up +37.1%, well past the +30% TP threshold — bot should auto-trigger, but locking in half secures gains while letting runner play. Pool $1917 is thin, high rug risk on the remainder.
 
+## [2026-09-01 06:12 UTC] sell | [hard-stop] $GENTRY closed at $3.45615e-06 | P&L: -37.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-01 06:13 UTC] sell | [FULL][LLM] $NUMB at $3.02145e-06 | P&L: -1.0%
+- **Reasoning:** $NUMB is flat (-1.0%) and marked STALE after 0.3h with only $59 pool liquidity. No momentum, no narrative lift visible. Capital is better deployed in fresh attention tokens right now.
+
