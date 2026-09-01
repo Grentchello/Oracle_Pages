@@ -11827,3 +11827,12 @@
 ## [2026-09-01 08:02 UTC] sell | [PARTIAL][LLM] $RISE at $6.22592e-06 | P&L: +19.1%
 - **Reasoning:** RISE at +19%, close to +30% TP but hasn't triggered. Lock half the gain now — bonding-curve tokens at 0.0h held with small pool ($1453) can reverse fast. Free a slot for fresh entry.
 
+## [2026-09-01 08:03 UTC] sell | [hard-stop] $RISE closed at $3.31121e-06 | P&L: -36.6%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-01 08:04 UTC] sell | [FULL][LLM] $ASPIE at $3.38078e-06 | P&L: -23.9%
+- **Reasoning:** $ASPIE is down -23.9% and only 0.1h old — within 6% of the -30% hard cap with no bounce signal. Pool is tiny ($256), our share is 0% on the bonding curve, and there is zero narrative attention in this tick. Cutting the loss now beats waiting to hit the hard stop.
+
+## [2026-09-01 08:04 UTC] buy | [LLM] $PUP at $9.60222e-06, spent 0.02 SOL
+- **Reasoning:** $PUP (Hatty Pup) passes the viability gate — description ≥50 chars AND real twitter @hattypupsol. Narrative is sticky and memeable ('fruit/veggie helmet pup that turns rescued colors into hats'), mcap $9.6k with 31% bonding progress gives room to run, and it's the cleanest attention signal in this batch. Risk: brand-new (0.6min), small liquidity, classic microcap — size stays at 0.05 SOL.
+
