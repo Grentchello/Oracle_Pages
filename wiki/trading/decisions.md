@@ -11656,3 +11656,9 @@
 ## [2026-09-01 05:51 UTC] buy | [LLM] $TBUCK at $3.31827e-06, spent 0.02 SOL
 - **Reasoning:** $TBUCK — 'shit bucket for degenerate traders' is a self-aware meta-narrative that memecoin Twitter loves, has twitter presence (passes viability gate), 6% bonded at 0.4min is brand new. Risk: ultra-low mcap ($3.3k), thin liquidity.
 
+## [2026-09-01 05:52 UTC] sell | [FULL][LLM] $TBUCK at $3.21326e-06 | P&L: -3.2%
+- **Reasoning:** $TBUCK down -3.2% at 0h, tiny $157 pool = illiquid, no clear narrative or viral signal. Cut the dead weight fast and free the slot for a real launch.
+
+## [2026-09-01 05:52 UTC] buy | [LLM] $TRUSTIEE2 at $3.114e-06, spent 0.02 SOL
+- **Reasoning:** $TRUSTIEE2 has the strongest narrative of the batch — a self-aware burned-lp creator begging for a life change, with a PUMPFUN tweet boost. Bonding curve only 3% means heavy upside if it pumps, and the authenticity angle is exactly the kind of story that goes viral.
+
