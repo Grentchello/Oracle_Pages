@@ -11596,3 +11596,6 @@
 ## [2026-09-01 04:27 UTC] buy | [LLM] $Chiikawa at $1.816e-05, spent 0.02 SOL
 - **Reasoning:** $Chiikawa — real Japanese IP (Nagano's massively popular character series), 120-char description, linked twitter, $19k mcap, 1 min old. Only candidate that clearly passes the viability gate with a story that can go viral internationally. 0.05 SOL.
 
+## [2026-09-01 04:29 UTC] sell | [FULL][LLM] $Chiikawa at $2.18647e-05 | P&L: +20.4%
+- **Reasoning:** Hit +20.4%, no strong narrative given, $5.4k pool is thin, held 0h — lock the scalp gain per discipline rules before it reverses.
+
