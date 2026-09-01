@@ -11314,3 +11314,6 @@
 ## [2026-09-01 01:26 UTC] sell | [FULL][LLM] $Mercy at $1.37342e-05 | P&L: -14.5%
 - **Reasoning:** Down 14.5% with no narrative or description provided — this is a blind position with no attention signal to ride. Freeing the slot for $BATC which has a stronger launch profile (13% bonding vs Mercy's thin $3658 pool) and clear vigilante narrative.
 
+## [2026-09-01 01:31 UTC] buy | [LLM] $jails2ool at $2.95147e-06, spent 0.02 SOL
+- **Reasoning:** Strongest narrative in the batch — 'lost everything from Jailstool' personal redemption story (89 chars) + linked Twitter. Jailstool brand has proven viral history. Viability gate PASS, fragility gate PASS.
+
