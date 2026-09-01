@@ -11629,3 +11629,6 @@
 ## [2026-09-01 05:13 UTC] buy | [LLM] $WOS at $2.967e-06, spent 0.02 SOL
 - **Reasoning:** $WOS (SOLwizards) has brand + RPG destiny narrative + established @SOLwizardsX twitter handle. 0.7min, $3k mcap. Risk: bond 1% complete, description short, but the handle suggests a real community vs. random launch.
 
+## [2026-09-01 05:19 UTC] sell | [FULL][LLM] $WOS at $2.94907e-06 | P&L: -0.6%
+- **Reasoning:** $WOS is flat (-0.6%) after 0.1h on a tiny $25 pool where we hold 8% — that's enough share to move price but not enough liquidity to exit cleanly if it dumps. Stale capital; better to free the slot for fresh attention.
+
