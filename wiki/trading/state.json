@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.48513,
+  "balance_sol": 0.499428,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 0.213142484,
         "description": "Greece is the country token of World Index—a global on-chain ecosystem bringing every nation together in one connected market.",
         "twitter": "https://x.com/solworldindex",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "J4G22TBoLerHdogvyNZaEqEXUFEbfqS1xEg3Uebnpump": {
-      "symbol": "GTABALL",
-      "name": "GTA BALL",
-      "amount": 501328.18159864773,
-      "entry_price_usd": 4.141e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T06:38:07.760985+00:00",
-      "entry_usd_value": 2.076,
-      "entry_signals": {
-        "liquidity_usd": 37.8505892436,
-        "volume_24h_usd": 2449.13,
-        "market_cap_usd": 3254.4783893810973,
-        "ath_market_cap_usd": 5361.488290936351,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.364649222,
-        "description": "A community memecoin on Solana built around one simple loop: trading fees fund GTA 6 giveaways for holders Prize money come from the 3% fee on every trade in the $GTABALL / $TTWO pool on Meteora Pons pays those fees out in ETH, which is what the Prize Vault holds and what buys the games More volume ",
-        "twitter": "https://x.com/gtaball_sol",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -23474,19 +23452,30 @@
       "pnl_pct": -1.81,
       "exit_reason": "LLM: sell_all — Pool is only $7 and we hold 31% — we ARE the liquidity. Any seller wrecks us, and price is flat after 6min. Free the slot for a fresher narrative.",
       "partial": true
+    },
+    {
+      "mint": "J4G22TBoLerHdogvyNZaEqEXUFEbfqS1xEg3Uebnpump",
+      "symbol": "GTABALL",
+      "name": "GTA BALL",
+      "amount_sold": 501328.18159864773,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T06:38:07.760985+00:00",
+      "exit_time": "2026-09-01T06:39:34.552248+00:00",
+      "entry_price_usd": 4.141e-06,
+      "exit_price_usd": 2.962634951226715e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.014298,
+      "pnl_sol": -0.005702,
+      "pnl_pct": -28.46,
+      "exit_reason": "LLM: sell_all — Down 28.5% and close to the hard -30% stop, with no bounce or narrative support shown. Exit immediately and rotate the slot rather than hope for recov",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T06:38:07.761136+00:00",
+  "last_updated": "2026-09-01T06:39:34.830653+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.8,
-  "portfolio_value_usd": 53.47,
+  "last_sol_price_usd": 103.88,
+  "portfolio_value_usd": 52.92,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 05:52 UTC",
-      "action": "buy",
-      "details": "[LLM] $TRUSTIEE2 at $3.114e-06, spent 0.02 SOL",
-      "reason": "$TRUSTIEE2 has the strongest narrative of the batch — a self-aware burned-lp creator begging for a life change, with a PUMPFUN tweet boost. Bonding curve only 3% means heavy upside if it pumps, and the authenticity angle is exactly the kind of story that goes viral."
-    },
     {
       "time": "2026-09-01 05:57 UTC",
       "action": "buy",
@@ -23600,40 +23589,57 @@
       "action": "buy",
       "details": "[LLM] $GTABALL at $4.141e-06, spent 0.02 SOL",
       "reason": "Clearest narrative in the slate: GTA 6 giveaway funded by trading fees is a built-in attention loop, plus an actual twitter handle. Passes viability gate (desc + twitter). Risk: $3.2k mcap, sub-2min old — but that's where the alpha is."
+    },
+    {
+      "time": "2026-09-01 06:39 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GTABALL at $2.96263e-06 | P&L: -28.5%",
+      "reason": "Down 28.5% and close to the hard -30% stop, with no bounce or narrative support shown. Exit immediately and rotate the slot rather than hope for recovery."
     }
   ],
   "trade_stats": {
-    "total": 1378,
+    "total": 1379,
     "wins": 698,
-    "losses": 680,
-    "win_rate_pct": 50.7,
-    "total_pnl_sol": -1.817515,
-    "avg_pnl_pct": 39.49,
+    "losses": 681,
+    "win_rate_pct": 50.6,
+    "total_pnl_sol": -1.823217,
+    "avg_pnl_pct": 39.44,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 93,
-    "today_realized_sol": 0.070373,
-    "today_target_pct": 17.6,
+    "today_trades": 94,
+    "today_realized_sol": 0.064671,
+    "today_target_pct": 16.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 698,
-      "loss_count": 680,
+      "loss_count": 681,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T06:38:05.557226+00:00",
+  "last_llm_brief_at": "2026-09-01T06:39:34.552205+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5a6PAoqntBQMCX17Lz8jv3b9a3tRXfH1MWvpSTGsqQWG": {
-      "price_usd": 2.9144111007479975e-06,
+      "price_usd": 2.916657275006763e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 6.574615707,
+      "liquidity_usd": 6.5796828482,
       "volume_h24": 62.64,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.063339265
+    },
+    "J4G22TBoLerHdogvyNZaEqEXUFEbfqS1xEg3Uebnpump": {
+      "price_usd": 2.962634951226715e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 31.09848974008,
+      "volume_h24": 4531.3,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.299369366
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
