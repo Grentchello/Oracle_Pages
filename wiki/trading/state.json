@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.485903,
+  "balance_sol": 0.50072,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7hQLBKsZ6tM9WKFghpbAdfTHxogKmguwdB1gtQM5pump": {
       "symbol": "3AM",
       "name": "3AM",
-      "amount": 613246.5996451805,
+      "amount": 83609.84606880392,
       "entry_price_usd": 3.382e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0027267936297463336,
       "entry_time": "2026-09-01T04:15:01.206139+00:00",
       "entry_usd_value": 2.0740000000000003,
       "entry_signals": {
@@ -23010,19 +23010,30 @@
       "pnl_pct": -11.64,
       "exit_reason": "LLM: sell_all — $FUPA is down 11.6% on a $377 pool (barely above 5x liquidity gate), no narrative beyond crude humor, and pool is too thin to recover. Cutting at -11.",
       "partial": false
+    },
+    {
+      "mint": "7hQLBKsZ6tM9WKFghpbAdfTHxogKmguwdB1gtQM5pump",
+      "symbol": "3AM",
+      "name": "3AM",
+      "amount_sold": 529636.7535763766,
+      "fraction_sold": 0.8636603185126833,
+      "entry_time": "2026-09-01T04:15:01.206139+00:00",
+      "exit_time": "2026-09-01T04:20:28.167724+00:00",
+      "entry_price_usd": 3.382e-06,
+      "exit_price_usd": 2.905912397985543e-06,
+      "entry_sol_for_chunk": 0.017273,
+      "exit_sol_received": 0.014817,
+      "pnl_sol": -0.002456,
+      "pnl_pct": -14.08,
+      "exit_reason": "LLM: sell_all — Down -14.1% in 6 minutes with $1 pool liquidity and 183% pool share — exit will get worse fast. No bounce signal, no narrative catalyst. Per disciplin",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T04:18:56.253986+00:00",
+  "last_updated": "2026-09-01T04:20:28.438157+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.83,
-  "portfolio_value_usd": 52.53,
+  "last_sol_price_usd": 103.87,
+  "portfolio_value_usd": 52.29,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 03:23 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $$1 closed at $3.75289e-06 | P&L: -47.9%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-01 03:23 UTC",
       "action": "sell",
@@ -23136,40 +23147,46 @@
       "action": "buy",
       "details": "[LLM] $3AM at $3.382e-06, spent 0.02 SOL",
       "reason": "$3AM has the strongest narrative for a memecoin — relatable 'always 3am in the trenches' vibe, live X account posting, no-utility honest framing matches current meta. Fresh 1.4min age, $3.3k mcap, bond 7% — early enough for the pump, liquidity passes viability gate. Attention signal is real and self-aware."
+    },
+    {
+      "time": "2026-09-01 04:20 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $3AM at $2.90591e-06 | P&L: -14.1%",
+      "reason": "Down -14.1% in 6 minutes with $1 pool liquidity and 183% pool share — exit will get worse fast. No bounce signal, no narrative catalyst. Per discipline: losers exit fast, don't hope for -14% to become -30%."
     }
   ],
   "trade_stats": {
-    "total": 1352,
+    "total": 1353,
     "wins": 689,
-    "losses": 663,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -1.826742,
-    "avg_pnl_pct": 39.97,
+    "losses": 664,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -1.829198,
+    "avg_pnl_pct": 39.93,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 67,
-    "today_realized_sol": 0.061146,
-    "today_target_pct": 15.3,
+    "today_trades": 68,
+    "today_realized_sol": 0.05869,
+    "today_target_pct": 14.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 689,
-      "loss_count": 663,
+      "loss_count": 664,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T04:18:55.900522+00:00",
+  "last_llm_brief_at": "2026-09-01T04:20:28.167225+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7hQLBKsZ6tM9WKFghpbAdfTHxogKmguwdB1gtQM5pump": {
-      "price_usd": 2.908080427145985e-06,
+      "price_usd": 2.905912397985543e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.73395094873,
-      "volume_h24": 1356.8,
+      "liquidity_usd": 0.97185155314,
+      "volume_h24": 1583.02,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.026331031
+      "real_sol_reserves": 0.009356422
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

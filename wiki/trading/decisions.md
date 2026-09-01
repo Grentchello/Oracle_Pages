@@ -11575,3 +11575,6 @@
 ## [2026-09-01 04:15 UTC] buy | [LLM] $3AM at $3.382e-06, spent 0.02 SOL
 - **Reasoning:** $3AM has the strongest narrative for a memecoin — relatable 'always 3am in the trenches' vibe, live X account posting, no-utility honest framing matches current meta. Fresh 1.4min age, $3.3k mcap, bond 7% — early enough for the pump, liquidity passes viability gate. Attention signal is real and self-aware.
 
+## [2026-09-01 04:20 UTC] sell | [PARTIAL][LLM] $3AM at $2.90591e-06 | P&L: -14.1%
+- **Reasoning:** Down -14.1% in 6 minutes with $1 pool liquidity and 183% pool share — exit will get worse fast. No bounce signal, no narrative catalyst. Per discipline: losers exit fast, don't hope for -14% to become -30%.
+
