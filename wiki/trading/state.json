@@ -1,24 +1,24 @@
 {
-  "balance_sol": 0.424757,
+  "balance_sol": 0.411846,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "8nrp9SDeLbEhHJ4ckWMEwtofbZ7EB4MQ3Kod34Vopump": {
+    "C8iuaWy3S1YE5X39qeQr7fqpGMfGKcRFHxY6qjMLpump": {
       "symbol": "BEAR",
       "name": "First Neuralink Dog",
-      "amount": 244383.7519891607,
-      "entry_price_usd": 8.442459792054877e-06,
+      "amount": 677792.3784494087,
+      "entry_price_usd": 3.044e-06,
       "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T00:14:21.411920+00:00",
+      "entry_time": "2026-09-01T00:16:05.457375+00:00",
       "entry_usd_value": 2.0632,
       "entry_signals": {
-        "liquidity_usd": 57.5302605472,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8404.65073118966,
-        "ath_market_cap_usd": 9049.694461319023,
+        "liquidity_usd": 18.888851114679998,
+        "volume_24h_usd": 3114.11,
+        "market_cap_usd": 2930.177333359492,
+        "ath_market_cap_usd": 6450.770771769118,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.55767992,
+        "real_sol_reserves": 0.183102473,
         "description": "Neuralink just announced the first successful implantation of a neuralink device into a chocalate lab named $Bear",
         "twitter": "https://x.com/M5NFA/status/2094579137143001342",
         "source_endpoint": "new-launches"
@@ -21871,25 +21871,30 @@
       "pnl_pct": -40.37,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "8nrp9SDeLbEhHJ4ckWMEwtofbZ7EB4MQ3Kod34Vopump",
+      "symbol": "BEAR",
+      "name": "First Neuralink Dog",
+      "amount_sold": 244383.7519891607,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T00:14:21.411920+00:00",
+      "exit_time": "2026-09-01T00:15:24.751925+00:00",
+      "entry_price_usd": 8.442459792054877e-06,
+      "exit_price_usd": 2.9924790000120586e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.007089,
+      "pnl_sol": -0.012911,
+      "pnl_pct": -64.55,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T00:14:21.412108+00:00",
+  "last_updated": "2026-09-01T00:16:05.457717+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 103.16,
-  "portfolio_value_usd": 45.88,
+  "portfolio_value_usd": 44.55,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 23:07 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-08-31 23:10 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-08-31 23:13 UTC",
       "action": "observe",
@@ -21997,30 +22002,54 @@
       "action": "buy",
       "details": "[LLM] $BEAR at $8.44246e-06, spent 0.02 SOL",
       "reason": "$BEAR (First Neuralink Dog) has the strongest narrative in the batch — Neuralink implant into a chocolate lab is absurdly viral meme material. 115-char description, active twitter, 29% bond, $8.4k mcap. Risk: Neuralink = Musk association but not keyword-blocked. High risk/reward at micro mcap."
+    },
+    {
+      "time": "2026-09-01 00:15 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $BEAR closed at $2.99248e-06 | P&L: -64.5%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-01 00:16 UTC",
+      "action": "buy",
+      "details": "[LLM] $BEAR at $3.044e-06, spent 0.02 SOL",
+      "reason": "$BEAR (First Neuralink Dog) is the only candidate passing the viability gate with a strong narrative — Neuralink + chocolate lab is timely and memeable. Twitter from M5NFA, 115-char description, mcap $2,930 at 1.2min old. Risk is high but this is where alpha lives in fresh launches."
     }
   ],
   "trade_stats": {
-    "total": 1285,
+    "total": 1286,
     "wins": 657,
-    "losses": 628,
+    "losses": 629,
     "win_rate_pct": 51.1,
-    "total_pnl_sol": -1.887888,
-    "avg_pnl_pct": 40.34,
+    "total_pnl_sol": -1.900799,
+    "avg_pnl_pct": 40.25,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 0,
-    "today_realized_sol": 0,
-    "today_target_pct": 0.0,
+    "today_trades": 1,
+    "today_realized_sol": -0.012911,
+    "today_target_pct": -3.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 657,
-      "loss_count": 628,
+      "loss_count": 629,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T00:14:19.572219+00:00",
+  "last_llm_brief_at": "2026-09-01T00:16:03.693202+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8nrp9SDeLbEhHJ4ckWMEwtofbZ7EB4MQ3Kod34Vopump": {
+      "price_usd": 2.9924790000120586e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 57.5302605472,
+      "volume_h24": 10287.23,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.55767992
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
