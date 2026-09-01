@@ -11455,3 +11455,9 @@
 ## [2026-09-01 02:57 UTC] sell | [FULL][LLM] $LOAR at $2.93533e-06 | P&L: -0.0%
 - **Reasoning:** $LOAR completely flat after 3 min, $25 pool = dust. Zero attention signal. Exit to free capital for higher-conviction plays.
 
+## [2026-09-01 03:02 UTC] buy | [LLM] $tape at $5.022e-06, spent 0.02 SOL
+- **Reasoning:** $tape (apeontape) has the strongest narrative of this batch — vault mechanic where selling the ape loses your vault contents creates holding incentive. Ape theme is proven. $5.9k mcap, 1 min old, good entry for a scalp.
+
+## [2026-09-01 03:02 UTC] buy | [LLM] $NFPS at $3.442e-06, spent 0.02 SOL
+- **Reasoning:** $NFPS (No Fap Survivors) has a timely seasonal narrative — it's literally September 1st, the NoFap September challenge starts today. Cultural resonance + dedicated Twitter. $3k mcap is micro but the timing is perfect for a short-term pump.
+
