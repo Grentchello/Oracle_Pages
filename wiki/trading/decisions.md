@@ -11563,3 +11563,9 @@
 ## [2026-09-01 04:04 UTC] buy | [LLM] $BULLCAMP at $3.557e-06, spent 0.02 SOL
 - **Reasoning:** BULLCAMP has a coherent game-loop narrative (clawpump.tech shared hunting camp) with @Nostalgicgareth tweet backing it. Degen launchpad narratives with actual mechanics pump. Risk: $3.9k mcap with 12% bond = still pre-launch, may not fill cleanly.
 
+## [2026-09-01 04:12 UTC] sell | [FULL][LLM] $BULLCAMP at $3.53957e-06 | P&L: -0.5%
+- **Reasoning:** BULLCAMP is flat (-0.5%) after 6 minutes, pool only $327, and the narrative (bull market camp) is generic without clear viral catalyst. Capital rotation — this slot is better used on a fresh attention launch.
+
+## [2026-09-01 04:12 UTC] buy | [LLM] $FUPA at $4.12375e-06, spent 0.02 SOL
+- **Reasoning:** $FUPA has explicit narrative ('everyone sending cats, this is the perfect depiction') and a real X post from @Devilantesol — attention-driven meme with body-positivity/contrarian angle vs cat meta. Risks: crude name may cap ceiling, low mcap $4.1k.
+
