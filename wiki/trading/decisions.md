@@ -11389,3 +11389,9 @@
 ## [2026-09-01 02:16 UTC] sell | [PARTIAL][LLM] $delulu at $1.20072e-05 | P&L: +59.1%
 - **Reasoning:** +59.1% in 6 minutes is an excellent scalp. Sell half to lock ~0.03 SOL profit; let the rest ride as a free position with a tight mental stop if momentum fades.
 
+## [2026-09-01 02:17 UTC] sell | [TP +30% (25%)] $delulu at $1.38633e-05 | P&L: +83.7%
+- **Reasoning:** Auto take-profit at +83.7%
+
+## [2026-09-01 02:17 UTC] sell | [PARTIAL][LLM] $delulu at $1.38633e-05 | P&L: +83.7%
+- **Reasoning:** +83.7% in 12 minutes on a bonding-curve token is exceptional. Lock half the gain now; if it keeps running I still have exposure. Stale risk rises with every minute at this level.
+

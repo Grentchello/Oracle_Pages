@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.451809,
+  "balance_sol": 0.452036,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "59LPFsaU3L8fGmuksMdG2Nwb2xvrMctEBZpasLrFpump": {
       "symbol": "delulu",
       "name": "delulu",
-      "amount": 2704.301312982109,
+      "amount": 1014.1129923682909,
       "entry_price_usd": 7.545108952513382e-06,
-      "entry_sol_spent": 0.00019775390625,
+      "entry_sol_spent": 7.415771484375e-05,
       "entry_time": "2026-09-01T02:06:40.462148+00:00",
       "entry_usd_value": 2.0636,
       "entry_signals": {
@@ -22415,25 +22415,47 @@
       "pnl_pct": 59.14,
       "exit_reason": "LLM: sell_half — +59.1% in 6 minutes is an excellent scalp. Sell half to lock ~0.03 SOL profit; let the rest ride as a free position with a tight mental stop if moment",
       "partial": true
+    },
+    {
+      "mint": "59LPFsaU3L8fGmuksMdG2Nwb2xvrMctEBZpasLrFpump",
+      "symbol": "delulu",
+      "name": "delulu",
+      "amount_sold": 676.0753282455272,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-01T02:06:40.462148+00:00",
+      "exit_time": "2026-09-01T02:17:04.147246+00:00",
+      "entry_price_usd": 7.545108952513382e-06,
+      "exit_price_usd": 1.3863335715720872e-05,
+      "entry_sol_for_chunk": 4.9e-05,
+      "exit_sol_received": 9.1e-05,
+      "pnl_sol": 4.1e-05,
+      "pnl_pct": 83.74,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "59LPFsaU3L8fGmuksMdG2Nwb2xvrMctEBZpasLrFpump",
+      "symbol": "delulu",
+      "name": "delulu",
+      "amount_sold": 1014.1129923682909,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T02:06:40.462148+00:00",
+      "exit_time": "2026-09-01T02:17:48.095613+00:00",
+      "entry_price_usd": 7.545108952513382e-06,
+      "exit_price_usd": 1.3863335715720872e-05,
+      "entry_sol_for_chunk": 7.4e-05,
+      "exit_sol_received": 0.000136,
+      "pnl_sol": 6.2e-05,
+      "pnl_pct": 83.74,
+      "exit_reason": "LLM: sell_half — +83.7% in 12 minutes on a bonding-curve token is exceptional. Lock half the gain now; if it keeps running I still have exposure. Stale risk rises with",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T02:16:00.367023+00:00",
+  "last_updated": "2026-09-01T02:17:48.646905+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.94,
-  "portfolio_value_usd": 46.53,
+  "last_sol_price_usd": 103.082,
+  "portfolio_value_usd": 46.6,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 01:54 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-01 01:56 UTC",
-      "action": "buy",
-      "details": "[LLM] $RWA BABIES at $1.04363e-05, spent 0.02 SOL",
-      "reason": "Best viability candidate: has real description (>50 chars), active Twitter, $10k mcap with 32% bonding progress. The Windows 95 nursery aesthetic is a distinct visual hook that could catch attention. Early enough (0.3min) to have upside, late enough to have some buy pressure forming."
-    },
     {
       "time": "2026-09-01 01:57 UTC",
       "action": "sell",
@@ -22541,40 +22563,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $delulu at $1.20072e-05 | P&L: +59.1%",
       "reason": "+59.1% in 6 minutes is an excellent scalp. Sell half to lock ~0.03 SOL profit; let the rest ride as a free position with a tight mental stop if momentum fades."
+    },
+    {
+      "time": "2026-09-01 02:17 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $delulu at $1.38633e-05 | P&L: +83.7%",
+      "reason": "Auto take-profit at +83.7%"
+    },
+    {
+      "time": "2026-09-01 02:17 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $delulu at $1.38633e-05 | P&L: +83.7%",
+      "reason": "+83.7% in 12 minutes on a bonding-curve token is exceptional. Lock half the gain now; if it keeps running I still have exposure. Stale risk rises with every minute at this level."
     }
   ],
   "trade_stats": {
-    "total": 1317,
-    "wins": 670,
+    "total": 1319,
+    "wins": 672,
     "losses": 647,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -1.880638,
-    "avg_pnl_pct": 39.86,
+    "total_pnl_sol": -1.880535,
+    "avg_pnl_pct": 39.93,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 32,
-    "today_realized_sol": 0.00725,
+    "today_trades": 34,
+    "today_realized_sol": 0.007353,
     "today_target_pct": 1.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 670,
+      "win_count": 672,
       "loss_count": 647,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T02:16:00.109312+00:00",
+  "last_llm_brief_at": "2026-09-01T02:17:48.095579+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "59LPFsaU3L8fGmuksMdG2Nwb2xvrMctEBZpasLrFpump": {
-      "price_usd": 1.2007153649630878e-05,
+      "price_usd": 1.3863335715720872e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3219.52289226744,
-      "volume_h24": 30569.72,
+      "liquidity_usd": 3689.977151724416,
+      "volume_h24": 31127.89,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 31.275722676
+      "real_sol_reserves": 35.796522688
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
