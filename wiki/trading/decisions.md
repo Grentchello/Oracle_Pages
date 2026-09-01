@@ -11305,3 +11305,6 @@
 ## [2026-09-01 01:18 UTC] buy | [LLM] $ONTO at $3.22936e-06, spent 0.02 SOL
 - **Reasoning:** $ONTO — AI/Web3 data wallet narrative with official @ONTOWallet Twitter presence. Strong 50+ char description, viability gate passed. AI narrative has legs in current market, and real project backing reduces rug risk vs pure meme.
 
+## [2026-09-01 01:23 UTC] buy | [LLM] $Mercy at $1.60701e-05, spent 0.02 SOL
+- **Reasoning:** $Mercy has the strongest narrative — abused dog story with 100% charity fees. 37% bonding shows real buying interest at $16k mcap. Emotional animal rescue content is proven viral on crypto twitter.
+
