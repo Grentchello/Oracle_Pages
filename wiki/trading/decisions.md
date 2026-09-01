@@ -12067,3 +12067,12 @@
 ## [2026-09-01 11:41 UTC] observe | LLM call failed: llm call failed
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-01 11:42 UTC] sell | [TP +100% (50%)] $APEPE at $9.24141e-06 | P&L: +124.5%
+- **Reasoning:** Auto take-profit at +124.5%
+
+## [2026-09-01 11:42 UTC] sell | [PARTIAL][LLM] $APEPE at $9.24141e-06 | P&L: +124.5%
+- **Reasoning:** +124% is already past the +100% TP threshold (bot auto-sells 50%), so I'm taking the remaining half off the table. Bonding curve only, pool=$2447 thin — give back gains fast here. Lock the profit.
+
+## [2026-09-01 11:42 UTC] buy | [LLM] $ai2027 at $2.92251e-06, spent 0.02 SOL
+- **Reasoning:** $ai2027 — references the viral 'AI 2027' forecast scenario paper by Kokotajlo (cited X account), narrative is hot AI-doom/superintelligence zeitgeist, attention-driving theme. Tiny mcap $2.9k with real cultural story. Speculative but with actual meme potential. 0.05 SOL.
+
