@@ -53,7 +53,8 @@ async def start_comfyui():
     
     print("[server] Starting ComfyUI...")
     comfyui_process = subprocess.Popen(
-        [str(COMFYUI_PY), "main.py", "--listen", "127.0.0.1", "--port", str(COMFYUI_PORT), "--cpu", "--disable-cuda-malloc"],
+        [str(COMFYUI_PY), "main.py", "--listen", "127.0.0.1", "--port", str(COMFYUI_PORT), 
+         "--cpu", "--disable-cuda-malloc", "--mmap-torch-files", "--disable-smart-memory"],
         cwd=str(COMFYUI_DIR),
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
