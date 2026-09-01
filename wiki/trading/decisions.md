@@ -11698,3 +11698,12 @@
 ## [2026-09-01 06:28 UTC] buy | [LLM] $FYC at $3.12872e-06, spent 0.02 SOL
 - **Reasoning:** $FYC — strongest narrative in this batch: concrete viral meme (Duolingo Indonesia X translation), real creator (@rafedigs), recognizable absurdity. Micro-cap $3.1k = asymmetric upside if it pumps. Passes viability gate (desc + twitter). Sizing 0.05 SOL for fresh-slate discipline.
 
+## [2026-09-01 06:31 UTC] sell | [TP +30% (25%)] $FYC at $4.52207e-06 | P&L: +44.5%
+- **Reasoning:** Auto take-profit at +44.5%
+
+## [2026-09-01 06:31 UTC] sell | [FULL][LLM] $FYC at $4.52207e-06 | P&L: +44.5%
+- **Reasoning:** +44.5% already past the +30% TP ladder; pool is thin at $771 and we're on the bonding curve with 0% share. Lock the gain now — this is exactly the setup that dumps back to entry.
+
+## [2026-09-01 06:31 UTC] buy | [LLM] $Doc at $5.736e-06, spent 0.02 SOL
+- **Reasoning:** $Doc has the strongest narrative of the batch: riding the viral 'Cog/white cat' X moment, decent $4k mcap, active X link. Attention is fresh and the story is sticky.
+
