@@ -11782,3 +11782,9 @@
 ## [2026-09-01 07:29 UTC] buy | [LLM] $QUOKKA at $3.3314e-06, spent 0.02 SOL
 - **Reasoning:** $QUOKKA — explicit 'GIGA NARRATIVE... GOING VIRAL' descriptor is a direct attention signal. 0.7min old, $3.3k mcap, very early. Story-driven memecoin with self-aware viral framing. High risk/reward at this mcap.
 
+## [2026-09-01 07:31 UTC] sell | [FULL][LLM] $HOLA at $2.89416e-06 | P&L: -2.5%
+- **Reasoning:** HOLA is down 2.6% after only 0.2 hours and has just $4 of pool liquidity, making it highly fragile. No bounce signal is present, so exiting frees the slot.
+
+## [2026-09-01 07:31 UTC] sell | [PARTIAL][LLM] $QUOKKA at $4.31461e-06 | P&L: +29.5%
+- **Reasoning:** QUOKKA is up 29.5%, already near the first profit-taking level, but its $43 pool and 6% ownership create liquidity and exit-risk concerns. Lock half while retaining exposure to the narrative.
+
