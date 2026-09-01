@@ -11308,3 +11308,6 @@
 ## [2026-09-01 01:23 UTC] buy | [LLM] $Mercy at $1.60701e-05, spent 0.02 SOL
 - **Reasoning:** $Mercy has the strongest narrative — abused dog story with 100% charity fees. 37% bonding shows real buying interest at $16k mcap. Emotional animal rescue content is proven viral on crypto twitter.
 
+## [2026-09-01 01:24 UTC] sell | [FULL][LLM] $ONTO at $2.88207e-06 | P&L: -10.8%
+- **Reasoning:** Pool=$0 with our share=892128066% means zero external liquidity. This token is a ghost — we ARE the market. Down -10.8% with no exit path. Must cut now before bonding curve completes and we're stuck.
+
