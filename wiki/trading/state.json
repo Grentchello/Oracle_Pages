@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.427304,
+  "balance_sol": 0.445664,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DvP66AAAxpHqy3xCcbSBUuJFGU2XF4QVwiqsjuW1puMP": {
       "symbol": "DVP",
       "name": "DVP",
-      "amount": 161293.37539432177,
+      "amount": 60485.01577287067,
       "entry_price_usd": 1.268e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-01T08:39:18.672573+00:00",
       "entry_usd_value": 2.0452000000000004,
       "entry_signals": {
@@ -23962,25 +23962,47 @@
       "pnl_pct": -0.08,
       "exit_reason": "LLM: sell_all — $DOGHEAD flat at -0.1% after entry, bonding curve barely 2%, no momentum signal, lock capital for fresher launches with stronger attention.",
       "partial": false
+    },
+    {
+      "mint": "DvP66AAAxpHqy3xCcbSBUuJFGU2XF4QVwiqsjuW1puMP",
+      "symbol": "DVP",
+      "name": "DVP",
+      "amount_sold": 40323.34384858044,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-01T08:39:18.672573+00:00",
+      "exit_time": "2026-09-01T08:40:22.722471+00:00",
+      "entry_price_usd": 1.268e-05,
+      "exit_price_usd": 1.8630414669933552e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007344,
+      "pnl_sol": 0.002344,
+      "pnl_pct": 46.93,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "DvP66AAAxpHqy3xCcbSBUuJFGU2XF4QVwiqsjuW1puMP",
+      "symbol": "DVP",
+      "name": "DVP",
+      "amount_sold": 60485.01577287067,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T08:39:18.672573+00:00",
+      "exit_time": "2026-09-01T08:40:44.243824+00:00",
+      "entry_price_usd": 1.268e-05,
+      "exit_price_usd": 1.8630414669933552e-05,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.011016,
+      "pnl_sol": 0.003516,
+      "pnl_pct": 46.93,
+      "exit_reason": "LLM: sell_half — Up +46.9% already, no narrative info shown, and bot's TP ladder should auto-take-profit at +50%. Selling half locks the gain; let the other half ride ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T08:39:18.943813+00:00",
+  "last_updated": "2026-09-01T08:40:44.759206+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.26,
-  "portfolio_value_usd": 45.74,
+  "last_sol_price_usd": 102.29,
+  "portfolio_value_usd": 47.03,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 07:59 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $ASPIE at $5.40347e-06 | P&L: +21.6%",
-      "reason": "Up +21.6% on ultra-fresh 0.5min token with no confirmation yet — locking half the gain per scalp discipline, letting the other half ride into the bot's auto-TP ladder at +25%/30%."
-    },
-    {
-      "time": "2026-09-01 07:59 UTC",
-      "action": "buy",
-      "details": "[LLM] $RISE at $5.227e-06, spent 0.02 SOL",
-      "reason": "Airdrop-to-top-15 mechanic creates structural buying pressure (FOMO farmers chase top-holder slots), fresh 0.6min launch with clear narrative — classic attention-market entry."
-    },
     {
       "time": "2026-09-01 08:00 UTC",
       "action": "sell",
@@ -24088,30 +24110,54 @@
       "action": "buy",
       "details": "[LLM] $DVP at $1.268e-05, spent 0.02 SOL",
       "reason": "Delivery-versus-payment settlement and yield narrative is differentiated, with a dedicated X account and the slate's highest market cap and bonding progress. Extremely fresh liquidity and incomplete bonding make this a high-risk momentum entry."
+    },
+    {
+      "time": "2026-09-01 08:40 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $DVP at $1.86304e-05 | P&L: +46.9%",
+      "reason": "Auto take-profit at +46.9%"
+    },
+    {
+      "time": "2026-09-01 08:40 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $DVP at $1.86304e-05 | P&L: +46.9%",
+      "reason": "Up +46.9% already, no narrative info shown, and bot's TP ladder should auto-take-profit at +50%. Selling half locks the gain; let the other half ride if it breaks out, or get stopped at -30% on the remainder. Holding full position at +46% with no clear catalyst is greedy."
     }
   ],
   "trade_stats": {
-    "total": 1408,
-    "wins": 705,
+    "total": 1410,
+    "wins": 707,
     "losses": 703,
     "win_rate_pct": 50.1,
-    "total_pnl_sol": -1.885341,
-    "avg_pnl_pct": 38.46,
+    "total_pnl_sol": -1.879481,
+    "avg_pnl_pct": 38.47,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 123,
-    "today_realized_sol": 0.002547,
-    "today_target_pct": 0.6,
+    "today_trades": 125,
+    "today_realized_sol": 0.008407,
+    "today_target_pct": 2.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 705,
+      "win_count": 707,
       "loss_count": 703,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T08:39:17.269415+00:00",
+  "last_llm_brief_at": "2026-09-01T08:40:44.243789+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "DvP66AAAxpHqy3xCcbSBUuJFGU2XF4QVwiqsjuW1puMP": {
+      "price_usd": 1.8630414669933552e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4763.5824315431,
+      "volume_h24": 35731.84,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 46.56938539
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

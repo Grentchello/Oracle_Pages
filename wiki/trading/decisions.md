@@ -11872,3 +11872,9 @@
 ## [2026-09-01 08:39 UTC] buy | [LLM] $DVP at $1.268e-05, spent 0.02 SOL
 - **Reasoning:** Delivery-versus-payment settlement and yield narrative is differentiated, with a dedicated X account and the slate's highest market cap and bonding progress. Extremely fresh liquidity and incomplete bonding make this a high-risk momentum entry.
 
+## [2026-09-01 08:40 UTC] sell | [TP +30% (25%)] $DVP at $1.86304e-05 | P&L: +46.9%
+- **Reasoning:** Auto take-profit at +46.9%
+
+## [2026-09-01 08:40 UTC] sell | [PARTIAL][LLM] $DVP at $1.86304e-05 | P&L: +46.9%
+- **Reasoning:** Up +46.9% already, no narrative info shown, and bot's TP ladder should auto-take-profit at +50%. Selling half locks the gain; let the other half ride if it breaks out, or get stopped at -30% on the remainder. Holding full position at +46% with no clear catalyst is greedy.
+
