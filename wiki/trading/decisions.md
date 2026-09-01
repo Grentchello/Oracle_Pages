@@ -11338,3 +11338,6 @@
 ## [2026-09-01 01:57 UTC] sell | [hard-stop] $RWA BABIES closed at $2.89076e-06 | P&L: -72.3%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-01 01:59 UTC] buy | [LLM] $Moko at $4.50681e-06, spent 0.02 SOL
+- **Reasoning:** $Moko has genuine storytelling — Red Panda baby naming event with community engagement. Organic narrative with twitter presence. Bond 17% shows some traction. Cute animal + community event = attention potential.
+
