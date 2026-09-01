@@ -11404,3 +11404,12 @@
 ## [2026-09-01 02:29 UTC] buy | [LLM] $RENTZ at $4.4598e-06, spent 0.02 SOL
 - **Reasoning:** PlayRentz — chaotic Monopoly theme is a clear viral hook, 0.2min old with 16% bond showing active buying momentum at $4.4k mcap. Best risk/reward in the batch.
 
+## [2026-09-01 02:31 UTC] sell | [TP +100% (50%)] $RENTZ at $1.06457e-05 | P&L: +138.7%
+- **Reasoning:** Auto take-profit at +138.7%
+
+## [2026-09-01 02:32 UTC] sell | [FULL][LLM] $RENTZ at $1.06457e-05 | P&L: +138.7%
+- **Reasoning:** RENTZ up 138.7% from entry — exceeding the +100% auto-TP threshold. The bot's auto-take-profit should fire at 50% position at this level. If it hasn't, I'm selling the remainder. Locking the win; fresh launch with no confirmed narrative continuation, no reason to give back 138% of free money.
+
+## [2026-09-01 02:32 UTC] buy | [LLM] $DEBT  at $2.53437e-06, spent 0.02 SOL
+- **Reasoning:** DEBT (AURA DEBT) — strongest narrative in the batch: 'aura debt' concept is memeable and relatable to crypto Twitter culture. Description passes viability gate (50+ chars, has Twitter). $2,530 mcap and 0.2 min age means we're catching it at the absolute floor. If the aura debt meme catches on, this is a 5-10x from here.
+
