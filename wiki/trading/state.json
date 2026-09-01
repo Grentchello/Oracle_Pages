@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.432784,
+  "balance_sol": 0.452729,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "A9Qe4D5PMnXehwWmJu3xBnsHUngQWRL5etUu3fUFpump": {
-      "symbol": "LWHALE",
-      "name": "Larry Whale ",
-      "amount": 590661.7015181895,
-      "entry_price_usd": 3.491e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T08:05:55.670641+00:00",
-      "entry_usd_value": 2.062,
-      "entry_signals": {
-        "liquidity_usd": 311.04021345589996,
-        "volume_24h_usd": 311.07,
-        "market_cap_usd": 3487.6520554411786,
-        "ath_market_cap_usd": 3495.5806707698093,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.016878889,
-        "description": "BlackRock keeps buying. Larry keeps getting bigger. 🐋",
-        "twitter": "https://x.com/WhaleInsider/status/2094683837808644389",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -23894,19 +23871,30 @@
       "pnl_pct": -0.17,
       "exit_reason": "LLM: sell_all — $ROU pool is only $17 and we hold 12% — our own position dominates liquidity and any other seller will crater us. Cut the slot now, free capital for a",
       "partial": false
+    },
+    {
+      "mint": "A9Qe4D5PMnXehwWmJu3xBnsHUngQWRL5etUu3fUFpump",
+      "symbol": "LWHALE",
+      "name": "Larry Whale ",
+      "amount_sold": 590661.7015181895,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T08:05:55.670641+00:00",
+      "exit_time": "2026-09-01T08:11:36.501888+00:00",
+      "entry_price_usd": 3.491e-06,
+      "exit_price_usd": 3.4678541267059805e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019945,
+      "pnl_sol": -5.5e-05,
+      "pnl_pct": -0.66,
+      "exit_reason": "LLM: sell_all — LWHALE is flat (-0.7%) after 6 minutes, not up >10%, and pool is only $305. Stale + thin liquidity = locked slot. Exit and free up capital for fresh l",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T08:09:12.931177+00:00",
+  "last_updated": "2026-09-01T08:11:36.754139+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.87,
-  "portfolio_value_usd": 46.58,
+  "last_sol_price_usd": 102.7,
+  "portfolio_value_usd": 46.5,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 07:32 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $QUOKKA at $4.52782e-06 | P&L: +35.9%",
-      "reason": "Auto take-profit at +35.9%"
-    },
     {
       "time": "2026-09-01 07:32 UTC",
       "action": "sell",
@@ -24020,40 +24008,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $ROU at $2.91005e-06 | P&L: -0.2%",
       "reason": "$ROU pool is only $17 and we hold 12% — our own position dominates liquidity and any other seller will crater us. Cut the slot now, free capital for a fresher narrative."
+    },
+    {
+      "time": "2026-09-01 08:11 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LWHALE at $3.46785e-06 | P&L: -0.7%",
+      "reason": "LWHALE is flat (-0.7%) after 6 minutes, not up >10%, and pool is only $305. Stale + thin liquidity = locked slot. Exit and free up capital for fresh launches."
     }
   ],
   "trade_stats": {
-    "total": 1404,
+    "total": 1405,
     "wins": 705,
-    "losses": 699,
+    "losses": 700,
     "win_rate_pct": 50.2,
-    "total_pnl_sol": -1.879861,
-    "avg_pnl_pct": 38.59,
+    "total_pnl_sol": -1.879916,
+    "avg_pnl_pct": 38.56,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 119,
-    "today_realized_sol": 0.008027,
+    "today_trades": 120,
+    "today_realized_sol": 0.007972,
     "today_target_pct": 2.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 705,
-      "loss_count": 699,
+      "loss_count": 700,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T08:09:12.664619+00:00",
+  "last_llm_brief_at": "2026-09-01T08:11:36.501850+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "A9Qe4D5PMnXehwWmJu3xBnsHUngQWRL5etUu3fUFpump": {
-      "price_usd": 3.483692363051909e-06,
+      "price_usd": 3.4678541267059805e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 310.34633131143,
+      "liquidity_usd": 304.9155394038,
       "volume_h24": 311.07,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.016878889
+      "real_sol_reserves": 2.968992594
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

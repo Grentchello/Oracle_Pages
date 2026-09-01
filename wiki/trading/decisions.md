@@ -11848,3 +11848,6 @@
 ## [2026-09-01 08:07 UTC] sell | [FULL][LLM] $ROU at $2.91005e-06 | P&L: -0.2%
 - **Reasoning:** $ROU pool is only $17 and we hold 12% — our own position dominates liquidity and any other seller will crater us. Cut the slot now, free capital for a fresher narrative.
 
+## [2026-09-01 08:11 UTC] sell | [FULL][LLM] $LWHALE at $3.46785e-06 | P&L: -0.7%
+- **Reasoning:** LWHALE is flat (-0.7%) after 6 minutes, not up >10%, and pool is only $305. Stale + thin liquidity = locked slot. Exit and free up capital for fresh launches.
+
