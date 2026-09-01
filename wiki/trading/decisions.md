@@ -11983,3 +11983,6 @@
 ## [2026-09-01 09:48 UTC] sell | [hard-stop] $GSHIBA closed at $2.85622e-06 | P&L: -69.0%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-01 09:49 UTC] sell | [PARTIAL][LLM] $MORLI at $1.03175e-05 | P&L: +18.6%
+- **Reasoning:** MORLI is up 18.6% but has negligible pool liquidity at just $2,760 and 0% pool share, making an exit difficult and the move suspect. Take half profit now while keeping a small runner for attention-driven upside.
+
