@@ -12055,3 +12055,9 @@
 ## [2026-09-01 11:36 UTC] buy | [LLM] $APEPE at $4.117e-06, spent 0.02 SOL
 - **Reasoning:** $APEPE combines a recognizable Pepe narrative with a fresh final-form concept and a live X account, which can attract quick attention. Its $4.1K mcap and 14% bond make it a speculative but potentially viral second position.
 
+## [2026-09-01 11:37 UTC] sell | [TP +100% (50%)] $APEPE at $9.01144e-06 | P&L: +118.9%
+- **Reasoning:** Auto take-profit at +118.9%
+
+## [2026-09-01 11:38 UTC] sell | [PARTIAL][LLM] $APEPE at $9.01144e-06 | P&L: +118.9%
+- **Reasoning:** $APEPE is up +118.9% on a tiny $2,378 pool — liquidity is dangerously thin and 0% our share means we won't be able to exit cleanly at size. Lock half the gain now at +50%+ and let the rest ride with a mental stop at entry.
+
