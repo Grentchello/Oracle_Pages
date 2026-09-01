@@ -12097,3 +12097,6 @@
 ## [2026-09-01 11:48 UTC] buy | [LLM] $Wolf at $5.67898e-06, spent 0.02 SOL
 - **Reasoning:** $Wolf — passes viability (long desc + twitter), no fragility flags. Strong narrative: dev explicitly commits to buying until bonding complete (sustained buy pressure), wolf meme is timeless, bonding already 22% signals traction. Fresh 0.1min launch = pure attention play.
 
+## [2026-09-01 11:49 UTC] sell | [hard-stop] $Wolf closed at $2.9617e-06 | P&L: -47.9%
+- **Reasoning:** Hard -30% stop
+
