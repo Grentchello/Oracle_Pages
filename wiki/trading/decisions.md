@@ -11431,3 +11431,6 @@
 ## [2026-09-01 02:46 UTC] sell | [FULL][LLM] $BULLPEN at $2.89038e-06 | P&L: -16.9%
 - **Reasoning:** Down -16.9% approaching -20% stop threshold. Tiny $5 pool with no bounce signal after 12 minutes. Better to preserve 0.048 SOL for a cleaner entry than risk a -30% auto-stop on illiquid liquidity.
 
+## [2026-09-01 02:48 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
