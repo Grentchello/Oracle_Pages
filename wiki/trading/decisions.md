@@ -11797,3 +11797,6 @@
 ## [2026-09-01 07:34 UTC] buy | [LLM] $CIV at $2.96512e-06, spent 0.02 SOL
 - **Reasoning:** $CIV has the cleanest narrative — Ivory Coast token in a World Index country series on Solana (nation-as-meme trend has paid repeatedly). Twitter @solworldindex active, desc 150+ chars, viability gate passed. Mcap $2.9k is tiny but that's where new launches live. Sizing 0.05 SOL to test the thesis.
 
+## [2026-09-01 07:35 UTC] buy | [LLM] $LOVERO at $5.599e-06, spent 0.02 SOL
+- **Reasoning:** $LOVERO has a clear character-driven narrative (cartoon romantic with bandage + heart), twitter linked, passes viability gate. $5.6k mcap with story = attention room.
+
