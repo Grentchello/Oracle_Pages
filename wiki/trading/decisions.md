@@ -11971,3 +11971,6 @@
 ## [2026-09-01 09:38 UTC] sell | [PARTIAL][LLM] $$botfuk at $4.50039e-06 | P&L: +35.2%
 - **Reasoning:** Up +35.2% — bot already triggered +30% TP at 25% sell level. Take half off the table, let the other half ride if the narrative catches on. Locking gain is the rule.
 
+## [2026-09-01 09:40 UTC] sell | [FULL][LLM] $$botfuk at $2.88203e-06 | P&L: -13.4%
+- **Reasoning:** Held 0.2h at -13.4%, not yet -20% but trending down with weak bounce signal. -30% stop is not far; cutting now locks a small manageable loss and frees the slot for fresh attention. Discipline beats hope.
+

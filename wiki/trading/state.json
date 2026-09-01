@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.445331,
+  "balance_sol": 0.451826,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "95FjuqTssKcRgfiT69N32eLDAUH6BoGiwbiqyvPPpump": {
-      "symbol": "$botfuk",
-      "name": "$botfuk",
-      "amount": 230155.21194880427,
-      "entry_price_usd": 3.32808018343023e-06,
-      "entry_sol_spent": 0.0075,
-      "entry_time": "2026-09-01T09:26:37.742945+00:00",
-      "entry_usd_value": 2.0425999999999997,
-      "entry_signals": {
-        "liquidity_usd": 225.63553243196,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3339.705779052496,
-        "ath_market_cap_usd": 3625.938015054166,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.209297292,
-        "description": "The world‘s first robot with autonomous sexual awareness.",
-        "twitter": "https://x.com/catholicpeter/status/2094350003997409608?s=52",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24353,19 +24330,30 @@
       "pnl_pct": 35.22,
       "exit_reason": "LLM: sell_half — Up +35.2% — bot already triggered +30% TP at 25% sell level. Take half off the table, let the other half ride if the narrative catches on. Locking gai",
       "partial": true
+    },
+    {
+      "mint": "95FjuqTssKcRgfiT69N32eLDAUH6BoGiwbiqyvPPpump",
+      "symbol": "$botfuk",
+      "name": "$botfuk",
+      "amount_sold": 230155.21194880427,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T09:26:37.742945+00:00",
+      "exit_time": "2026-09-01T09:40:37.072276+00:00",
+      "entry_price_usd": 3.32808018343023e-06,
+      "exit_price_usd": 2.8820270004041527e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.006495,
+      "pnl_sol": -0.001005,
+      "pnl_pct": -13.4,
+      "exit_reason": "LLM: sell_all — Held 0.2h at -13.4%, not yet -20% but trending down with weak bounce signal. -30% stop is not far; cutting now locks a small manageable loss and frees",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T09:38:54.165641+00:00",
+  "last_updated": "2026-09-01T09:40:37.853329+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.12,
-  "portfolio_value_usd": 46.24,
+  "last_sol_price_usd": 102.13,
+  "portfolio_value_usd": 46.14,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 09:03 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $RISE at $6.40636e-06 | P&L: +23.7%",
-      "reason": "$RISE +23.7% with pool $1527 is solid — lock half the gain now per profit-taking discipline. our_share=0% is concerning but the +20% trigger means take profit on doubt. Leave half for runner potential."
-    },
     {
       "time": "2026-09-01 09:04 UTC",
       "action": "sell",
@@ -24479,40 +24467,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $$botfuk at $4.50039e-06 | P&L: +35.2%",
       "reason": "Up +35.2% — bot already triggered +30% TP at 25% sell level. Take half off the table, let the other half ride if the narrative catches on. Locking gain is the rule."
+    },
+    {
+      "time": "2026-09-01 09:40 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $$botfuk at $2.88203e-06 | P&L: -13.4%",
+      "reason": "Held 0.2h at -13.4%, not yet -20% but trending down with weak bounce signal. -30% stop is not far; cutting now locks a small manageable loss and frees the slot for fresh attention. Discipline beats hope."
     }
   ],
   "trade_stats": {
-    "total": 1431,
+    "total": 1432,
     "wins": 723,
-    "losses": 708,
+    "losses": 709,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.879813,
-    "avg_pnl_pct": 38.33,
+    "total_pnl_sol": -1.880818,
+    "avg_pnl_pct": 38.3,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 146,
-    "today_realized_sol": 0.008075,
-    "today_target_pct": 2.0,
+    "today_trades": 147,
+    "today_realized_sol": 0.00707,
+    "today_target_pct": 1.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 723,
-      "loss_count": 708,
+      "loss_count": 709,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T09:38:53.914146+00:00",
+  "last_llm_brief_at": "2026-09-01T09:40:37.072232+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "95FjuqTssKcRgfiT69N32eLDAUH6BoGiwbiqyvPPpump": {
-      "price_usd": 4.500391025893572e-06,
+      "price_usd": 2.8820270004041527e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 782.6810621089201,
-      "volume_h24": 1432.9,
+      "liquidity_usd": 14.22446785928,
+      "volume_h24": 1936.01,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 7.664326891
+      "real_sol_reserves": 0.139278056
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
