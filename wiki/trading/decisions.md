@@ -11884,3 +11884,9 @@
 ## [2026-09-01 08:42 UTC] sell | [PARTIAL][LLM] $DVP at $2.35005e-05 | P&L: +85.3%
 - **Reasoning:** Up +85.3% with very small pool ($5725) — high volatility risk. Lock half the gain now and let runner ride toward +200% TP. If bot auto-fired TP at +100% already (50%), this is redundant and I should sell_all. Given uncertainty, sell_half is the safer call.
 
+## [2026-09-01 08:43 UTC] sell | [TP +30% (25%)] $DVP at $2.30112e-05 | P&L: +81.5%
+- **Reasoning:** Auto take-profit at +81.5%
+
+## [2026-09-01 08:43 UTC] sell | [PARTIAL][LLM] $DVP at $2.30112e-05 | P&L: +81.5%
+- **Reasoning:** DVP is up 81.5%, crossing the first aggressive profit-taking threshold; the bonding-curve pool is only $5,630, so momentum can reverse quickly. Sell half to lock in gains while retaining exposure if attention continues.
+
