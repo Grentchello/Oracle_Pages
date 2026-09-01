@@ -12028,3 +12028,9 @@
 ## [2026-09-01 11:20 UTC] sell | [PARTIAL][LLM] $Wolf🐺 at $6.73336e-06 | P&L: +18.6%
 - **Reasoning:** Wolf is +18.6% but pool is tiny ($1,640) and bonding-curve — these tend to fade hard after the first pop. Lock half the gain now, let the rest ride if a second wave hits.
 
+## [2026-09-01 11:21 UTC] sell | [TP +30% (25%)] $Wolf🐺 at $7.591e-06 | P&L: +33.7%
+- **Reasoning:** Auto take-profit at +33.7%
+
+## [2026-09-01 11:22 UTC] sell | [PARTIAL][LLM] $Wolf🐺 at $7.591e-06 | P&L: +33.7%
+- **Reasoning:** Up +33.7% past the 25% TP threshold. Lock half the gain per scalp discipline. Wolf meme is generic — no strong narrative warranting a full hold into +100%/+200% tiers. Free up capital for fresh attention plays.
+
