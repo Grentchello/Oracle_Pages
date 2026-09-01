@@ -12022,3 +12022,6 @@
 ## [2026-09-01 10:56 UTC] sell | [FULL][LLM] $WORLD at $2.85769e-06 | P&L: -2.9%
 - **Reasoning:** Owning 216M% of pool means I AM the liquidity — any seller dumps onto me. Down only -2.9% but structure is terrible and no momentum. Cut the bag-holding risk before it becomes a -20% loss.
 
+## [2026-09-01 11:16 UTC] buy | [LLM] $Wolf🐺 at $5.67645e-06, spent 0.02 SOL
+- **Reasoning:** $Wolf — fresh 0.3min, builder-narrative with explicit 'I will make several purchases' commitment (dev actively buying own curve = skin-in-game signal), twitter live. Strongest description in the batch; personal-creator memecoins pump on dev engagement.
+
