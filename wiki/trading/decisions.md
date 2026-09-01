@@ -11449,3 +11449,9 @@
 ## [2026-09-01 02:56 UTC] buy | [LLM] $LOAR at $2.93561e-06, spent 0.02 SOL
 - **Reasoning:** LOAR — AI cinematic universe narrative with clear product pitch and dedicated twitter. Passes viability gate (desc 100+ chars, twitter present). At $2.9k mcap and 1% bond, ultra-early entry. AI is the hottest attention meta right now.
 
+## [2026-09-01 02:57 UTC] sell | [FULL][LLM] $PONE at $2.97575e-06 | P&L: -4.7%
+- **Reasoning:** $PONE down 4.7% after 6 min with no catalyst or narrative momentum. Tiny $46 pool with 4% share = illiquid dead weight. Cut and rotate.
+
+## [2026-09-01 02:57 UTC] sell | [FULL][LLM] $LOAR at $2.93533e-06 | P&L: -0.0%
+- **Reasoning:** $LOAR completely flat after 3 min, $25 pool = dust. Zero attention signal. Exit to free capital for higher-conviction plays.
+
