@@ -12076,3 +12076,9 @@
 ## [2026-09-01 11:42 UTC] buy | [LLM] $ai2027 at $2.92251e-06, spent 0.02 SOL
 - **Reasoning:** $ai2027 — references the viral 'AI 2027' forecast scenario paper by Kokotajlo (cited X account), narrative is hot AI-doom/superintelligence zeitgeist, attention-driving theme. Tiny mcap $2.9k with real cultural story. Speculative but with actual meme potential. 0.05 SOL.
 
+## [2026-09-01 11:43 UTC] sell | [TP +100% (50%)] $APEPE at $8.57281e-06 | P&L: +108.2%
+- **Reasoning:** Auto take-profit at +108.2%
+
+## [2026-09-01 11:44 UTC] sell | [PARTIAL][LLM] $APEPE at $8.57281e-06 | P&L: +108.2%
+- **Reasoning:** APEPE is up 108.2% and has already crossed the first major profit tier, so locking in half while retaining exposure fits the aggressive profit-taking rule. Momentum is strong, but the low $2,244 pool raises reversal risk.
+

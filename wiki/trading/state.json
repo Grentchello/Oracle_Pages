@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.3997,
+  "balance_sol": 0.400675,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GdfJVfwBtJmsUK2Nh3Kxmeb76BjVuT3TSZVaqPU1pump": {
       "symbol": "APEPE",
       "name": "APEPE",
-      "amount": 15537.709497206703,
+      "amount": 3884.4273743016756,
       "entry_price_usd": 4.117e-06,
-      "entry_sol_spent": 0.000625,
+      "entry_sol_spent": 0.00015625,
       "entry_time": "2026-09-01T11:36:44.270780+00:00",
       "entry_usd_value": 2.0469999999999997,
       "entry_signals": {
@@ -24732,25 +24732,47 @@
       "pnl_pct": 124.47,
       "exit_reason": "LLM: sell_half — +124% is already past the +100% TP threshold (bot auto-sells 50%), so I'm taking the remaining half off the table. Bonding curve only, pool=$2447 thin",
       "partial": true
+    },
+    {
+      "mint": "GdfJVfwBtJmsUK2Nh3Kxmeb76BjVuT3TSZVaqPU1pump",
+      "symbol": "APEPE",
+      "name": "APEPE",
+      "amount_sold": 7768.854748603351,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T11:36:44.270780+00:00",
+      "exit_time": "2026-09-01T11:43:42.928576+00:00",
+      "entry_price_usd": 4.117e-06,
+      "exit_price_usd": 8.572811131966378e-06,
+      "entry_sol_for_chunk": 0.000313,
+      "exit_sol_received": 0.00065,
+      "pnl_sol": 0.000338,
+      "pnl_pct": 108.23,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "GdfJVfwBtJmsUK2Nh3Kxmeb76BjVuT3TSZVaqPU1pump",
+      "symbol": "APEPE",
+      "name": "APEPE",
+      "amount_sold": 3884.4273743016756,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T11:36:44.270780+00:00",
+      "exit_time": "2026-09-01T11:44:02.209157+00:00",
+      "entry_price_usd": 4.117e-06,
+      "exit_price_usd": 8.572811131966378e-06,
+      "entry_sol_for_chunk": 0.000156,
+      "exit_sol_received": 0.000325,
+      "pnl_sol": 0.000169,
+      "pnl_pct": 108.23,
+      "exit_reason": "LLM: sell_half — APEPE is up 108.2% and has already crossed the first major profit tier, so locking in half while retaining exposure fits the aggressive profit-taking ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T11:42:39.032071+00:00",
+  "last_updated": "2026-09-01T11:44:02.210439+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.52,
-  "portfolio_value_usd": 43.09,
+  "last_sol_price_usd": 102.44,
+  "portfolio_value_usd": 43.11,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 10:49 UTC",
-      "action": "buy",
-      "details": "[LLM] $WORLD at $2.944e-06, spent 0.02 SOL",
-      "reason": "$WORLD — has the strongest fundamentals on the list: real description, real twitter project account, narrative ('interactive 3D globe / 195 country tokens') is concrete and differentiated. $2.9k mcap with established twitter handle is asymmetric. Passes viability gate cleanly. Bond 1% but mcap is tiny so position is cheap exposure to a real product story."
-    },
-    {
-      "time": "2026-09-01 10:56 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $WORLD at $2.85769e-06 | P&L: -2.9%",
-      "reason": "Owning 216M% of pool means I AM the liquidity — any seller dumps onto me. Down only -2.9% but structure is terrible and no momentum. Cut the bag-holding risk before it becomes a -20% loss."
-    },
     {
       "time": "2026-09-01 11:16 UTC",
       "action": "buy",
@@ -24858,40 +24880,63 @@
       "action": "buy",
       "details": "[LLM] $ai2027 at $2.92251e-06, spent 0.02 SOL",
       "reason": "$ai2027 — references the viral 'AI 2027' forecast scenario paper by Kokotajlo (cited X account), narrative is hot AI-doom/superintelligence zeitgeist, attention-driving theme. Tiny mcap $2.9k with real cultural story. Speculative but with actual meme potential. 0.05 SOL."
+    },
+    {
+      "time": "2026-09-01 11:43 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $APEPE at $8.57281e-06 | P&L: +108.2%",
+      "reason": "Auto take-profit at +108.2%"
+    },
+    {
+      "time": "2026-09-01 11:44 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $APEPE at $8.57281e-06 | P&L: +108.2%",
+      "reason": "APEPE is up 108.2% and has already crossed the first major profit tier, so locking in half while retaining exposure fits the aggressive profit-taking rule. Momentum is strong, but the low $2,244 pool raises reversal risk."
     }
   ],
   "trade_stats": {
-    "total": 1452,
-    "wins": 735,
+    "total": 1454,
+    "wins": 737,
     "losses": 717,
-    "win_rate_pct": 50.6,
-    "total_pnl_sol": -1.912318,
-    "avg_pnl_pct": 38.1,
+    "win_rate_pct": 50.7,
+    "total_pnl_sol": -1.911811,
+    "avg_pnl_pct": 38.19,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 167,
-    "today_realized_sol": -0.02443,
-    "today_target_pct": -6.1,
+    "today_trades": 169,
+    "today_realized_sol": -0.023923,
+    "today_target_pct": -6.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 735,
+      "win_count": 737,
       "loss_count": 717,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T11:42:37.736228+00:00",
+  "last_llm_brief_at": "2026-09-01T11:44:02.209121+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GdfJVfwBtJmsUK2Nh3Kxmeb76BjVuT3TSZVaqPU1pump": {
-      "price_usd": 9.2414068885662e-06,
+      "price_usd": 8.572811131966378e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2446.8759512317997,
-      "volume_h24": 6015.2,
+      "liquidity_usd": 2243.68052397268,
+      "volume_h24": 8476.66,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 23.867303465
+      "real_sol_reserves": 21.902386997
+    },
+    "y4Sr4SsCrjwar8Bzrjb7acwPheuUzHJkLrH3ESXpump": {
+      "price_usd": 2.900523395902664e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 19.4691327844,
+      "volume_h24": 545.01,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.19005401
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
