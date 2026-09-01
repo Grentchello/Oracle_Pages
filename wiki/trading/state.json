@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.452397,
+  "balance_sol": 0.457935,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "NNDwdjdxLcXsvEdwdPNDhot6RWkwCQW5wUojVjJpump": {
-      "symbol": "RWA BABIES",
-      "name": "RWA BABIES",
-      "amount": 197829.021793339,
-      "entry_price_usd": 1.0436284733575506e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T01:56:08.563835+00:00",
-      "entry_usd_value": 2.0646,
-      "entry_signals": {
-        "liquidity_usd": 41.45828918103,
-        "volume_24h_usd": null,
-        "market_cap_usd": 10393.79862502778,
-        "ath_market_cap_usd": 15830.285851870003,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.401610861,
-        "description": "Windows 95 nursery vibes make $RWA BABIES feel like ten thousand contract-drawn desk kids 🍼 Welded to $BABY, paid in stock, and dripping through ranks, taxes, buybacks, and flywheel chaos 📈",
-        "twitter": "https://x.com/rwababiesonsol/status/2094604877489897832",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -22177,19 +22154,30 @@
       "pnl_pct": -2.16,
       "exit_reason": "LLM: sell_all — Pool=$0 means no real liquidity has formed — still just a bonding curve with no exit depth. At -2.2% this is a clean exit. Free up the slot for better",
       "partial": false
+    },
+    {
+      "mint": "NNDwdjdxLcXsvEdwdPNDhot6RWkwCQW5wUojVjJpump",
+      "symbol": "RWA BABIES",
+      "name": "RWA BABIES",
+      "amount_sold": 197829.021793339,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T01:56:08.563835+00:00",
+      "exit_time": "2026-09-01T01:57:12.183251+00:00",
+      "entry_price_usd": 1.0436284733575506e-05,
+      "exit_price_usd": 2.8907598914492174e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.005538,
+      "pnl_sol": -0.014462,
+      "pnl_pct": -72.3,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T01:56:08.564004+00:00",
+  "last_updated": "2026-09-01T01:57:59.019886+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.23,
-  "portfolio_value_usd": 48.77,
+  "last_sol_price_usd": 103.27,
+  "portfolio_value_usd": 47.29,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 00:58 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MGC at $2.88453e-06 | P&L: -5.6%",
-      "reason": "Pool=$0 with 1.89B% share concentration is a red flag for broken liquidity. Down 5.6% on a tiny position — take the small loss, free the slot for fresher plays."
-    },
     {
       "time": "2026-09-01 01:01 UTC",
       "action": "buy",
@@ -22303,30 +22291,48 @@
       "action": "buy",
       "details": "[LLM] $RWA BABIES at $1.04363e-05, spent 0.02 SOL",
       "reason": "Best viability candidate: has real description (>50 chars), active Twitter, $10k mcap with 32% bonding progress. The Windows 95 nursery aesthetic is a distinct visual hook that could catch attention. Early enough (0.3min) to have upside, late enough to have some buy pressure forming."
+    },
+    {
+      "time": "2026-09-01 01:57 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $RWA BABIES closed at $2.89076e-06 | P&L: -72.3%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1303,
+    "total": 1304,
     "wins": 660,
-    "losses": 643,
-    "win_rate_pct": 50.7,
-    "total_pnl_sol": -1.860248,
-    "avg_pnl_pct": 39.89,
+    "losses": 644,
+    "win_rate_pct": 50.6,
+    "total_pnl_sol": -1.87471,
+    "avg_pnl_pct": 39.8,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 18,
-    "today_realized_sol": 0.02764,
-    "today_target_pct": 6.9,
+    "today_trades": 19,
+    "today_realized_sol": 0.013178,
+    "today_target_pct": 3.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 660,
-      "loss_count": 643,
+      "loss_count": 644,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T01:56:07.257295+00:00",
+  "last_llm_brief_at": "2026-09-01T01:57:59.019853+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "NNDwdjdxLcXsvEdwdPNDhot6RWkwCQW5wUojVjJpump": {
+      "price_usd": 2.8907598914492174e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.8421358365799998,
+      "volume_h24": 13159.64,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.017838054
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
