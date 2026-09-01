@@ -11560,3 +11560,6 @@
 ## [2026-09-01 03:55 UTC] observe | LLM call failed: llm call failed
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-01 04:04 UTC] buy | [LLM] $BULLCAMP at $3.557e-06, spent 0.02 SOL
+- **Reasoning:** BULLCAMP has a coherent game-loop narrative (clawpump.tech shared hunting camp) with @Nostalgicgareth tweet backing it. Degen launchpad narratives with actual mechanics pump. Risk: $3.9k mcap with 12% bond = still pre-launch, may not fill cleanly.
+
