@@ -11272,3 +11272,9 @@
 ## [2026-09-01 00:56 UTC] buy | [LLM] $tape at $8.35763e-06, spent 0.02 SOL
 - **Reasoning:** $tape (apeontape) has the strongest signal: ape branding (proven meta), novel game-theory narrative (50 apes, seats that fill, selling loses everything), 29% bonding = real momentum, $8.3k mcap with active twitter. Passes viability and fragility gates. GMGN fragility check was blocked but no celebrity/political keywords present.
 
+## [2026-09-01 00:57 UTC] sell | [hard-stop] $tape closed at $2.95923e-06 | P&L: -64.6%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-01 00:58 UTC] sell | [FULL][LLM] $MGC at $2.88453e-06 | P&L: -5.6%
+- **Reasoning:** Pool=$0 with 1.89B% share concentration is a red flag for broken liquidity. Down 5.6% on a tiny position — take the small loss, free the slot for fresher plays.
+

@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.371387,
+  "balance_sol": 0.397381,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4oq6j9fXhha2zN6SQyEr9aNeQ6QS5jE1DmqJyutspump": {
-      "symbol": "MGC",
-      "name": "Mom Get The Camera",
-      "amount": 676484.7576169268,
-      "entry_price_usd": 3.054909924770625e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T00:52:53.382038+00:00",
-      "entry_usd_value": 2.0666,
-      "entry_signals": {
-        "liquidity_usd": 87.76671583762,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3054.968764767437,
-        "ath_market_cap_usd": 3062.111860875087,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.849382714,
-        "description": "It's time to launch the original. Mom Get The Camera",
-        "twitter": "https://x.com/Ch3tamina/status/2094588677355614379",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "APEyUxfMifkAXAqGgUforS3KD3QzxUKuSR15nionTAPe": {
-      "symbol": "tape",
-      "name": "apeontape",
-      "amount": 246840.4428628757,
-      "entry_price_usd": 8.357625582231003e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T00:56:46.480839+00:00",
-      "entry_usd_value": 2.063,
-      "entry_signals": {
-        "liquidity_usd": 450.62863531935005,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8367.274261928567,
-        "ath_market_cap_usd": 9436.503297599498,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.368673149,
-        "description": "Fifty apes. Each one owns a seat, and the seat fills up over time. Sell the ape and everything in the seat goes with it.",
-        "twitter": "https://x.com/tapeapes/",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -22029,25 +21984,47 @@
       "pnl_pct": 27.13,
       "exit_reason": "LLM: sell_all — Up 27% in 10 minutes — that's a solid scalp. Name is cute but not exceptional, and we're sitting right at the edge of the first TP threshold. Lock the",
       "partial": false
+    },
+    {
+      "mint": "APEyUxfMifkAXAqGgUforS3KD3QzxUKuSR15nionTAPe",
+      "symbol": "tape",
+      "name": "apeontape",
+      "amount_sold": 246840.4428628757,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T00:56:46.480839+00:00",
+      "exit_time": "2026-09-01T00:57:50.291467+00:00",
+      "entry_price_usd": 8.357625582231003e-06,
+      "exit_price_usd": 2.9592270591964155e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.00708,
+      "pnl_sol": -0.01292,
+      "pnl_pct": -64.59,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "4oq6j9fXhha2zN6SQyEr9aNeQ6QS5jE1DmqJyutspump",
+      "symbol": "MGC",
+      "name": "Mom Get The Camera",
+      "amount_sold": 676484.7486752601,
+      "fraction_sold": 0.999999986782161,
+      "entry_time": "2026-09-01T00:52:53.382038+00:00",
+      "exit_time": "2026-09-01T00:58:33.429820+00:00",
+      "entry_price_usd": 3.054909924770625e-06,
+      "exit_price_usd": 2.8845293570393012e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018914,
+      "pnl_sol": -0.001086,
+      "pnl_pct": -5.58,
+      "exit_reason": "LLM: sell_all — Pool=$0 with 1.89B% share concentration is a red flag for broken liquidity. Down 5.6% on a tiny position — take the small loss, free the slot for fres",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T00:56:46.481112+00:00",
+  "last_updated": "2026-09-01T00:58:33.430107+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.15,
-  "portfolio_value_usd": 42.44,
+  "last_sol_price_usd": 103.17,
+  "portfolio_value_usd": 41.0,
   "recent_decisions": [
-    {
-      "time": "2026-08-31 23:59 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-01 00:10 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-01 00:14 UTC",
       "action": "buy",
@@ -22155,40 +22132,63 @@
       "action": "buy",
       "details": "[LLM] $tape at $8.35763e-06, spent 0.02 SOL",
       "reason": "$tape (apeontape) has the strongest signal: ape branding (proven meta), novel game-theory narrative (50 apes, seats that fill, selling loses everything), 29% bonding = real momentum, $8.3k mcap with active twitter. Passes viability and fragility gates. GMGN fragility check was blocked but no celebrity/political keywords present."
+    },
+    {
+      "time": "2026-09-01 00:57 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $tape closed at $2.95923e-06 | P&L: -64.6%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-01 00:58 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MGC at $2.88453e-06 | P&L: -5.6%",
+      "reason": "Pool=$0 with 1.89B% share concentration is a red flag for broken liquidity. Down 5.6% on a tiny position — take the small loss, free the slot for fresher plays."
     }
   ],
   "trade_stats": {
-    "total": 1293,
+    "total": 1295,
     "wins": 659,
-    "losses": 634,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -1.921258,
-    "avg_pnl_pct": 39.96,
+    "losses": 636,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -1.935264,
+    "avg_pnl_pct": 39.84,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 8,
-    "today_realized_sol": -0.03337,
-    "today_target_pct": -8.3,
+    "today_trades": 10,
+    "today_realized_sol": -0.047376,
+    "today_target_pct": -11.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 659,
-      "loss_count": 634,
+      "loss_count": 636,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T00:56:44.571464+00:00",
+  "last_llm_brief_at": "2026-09-01T00:58:33.429650+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4oq6j9fXhha2zN6SQyEr9aNeQ6QS5jE1DmqJyutspump": {
-      "price_usd": 2.979697141723247e-06,
+      "price_usd": 2.8845293570393012e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 50.938271554,
-      "volume_h24": 87.8,
+      "liquidity_usd": 1.0317e-07,
+      "volume_h24": 124.55,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.49382716
+      "real_sol_reserves": 1e-09
+    },
+    "APEyUxfMifkAXAqGgUforS3KD3QzxUKuSR15nionTAPe": {
+      "price_usd": 2.9592270591964155e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 39.81918018222,
+      "volume_h24": 13414.14,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.385956966
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
