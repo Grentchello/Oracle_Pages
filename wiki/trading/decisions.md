@@ -12088,3 +12088,9 @@
 ## [2026-09-01 11:45 UTC] sell | [PARTIAL][LLM] $APEPE at $7.93976e-06 | P&L: +92.8%
 - **Reasoning:** +92.9% on a $2,043 pool with 0% share is a knife's edge — thin liquidity means reversal can flash to -50%. Lock half the gain, let the rest ride toward +200%/$5k+ pool target.
 
+## [2026-09-01 11:46 UTC] sell | [TP +30% (25%)] $APEPE at $7.64108e-06 | P&L: +85.6%
+- **Reasoning:** Auto take-profit at +85.6%
+
+## [2026-09-01 11:46 UTC] sell | [FULL][LLM] $APEPE at $7.64108e-06 | P&L: +85.6%
+- **Reasoning:** Up +85.6% with only $1947 pool liquidity — exit before the thin pool kills the gain. Lock the profit, this is the scalp target.
+
