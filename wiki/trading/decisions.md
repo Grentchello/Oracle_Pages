@@ -11737,3 +11737,6 @@
 ## [2026-09-01 06:51 UTC] sell | [FULL][LLM] $HEARTBEAT at $2.94321e-06 | P&L: -4.8%
 - **Reasoning:** $HEARTBEAT down -4.8% on tiny $23 pool with our 9% share — we ARE the exit liquidity. Stale bonding-curve microcap with no catalyst; cut before it bleeds further.
 
+## [2026-09-01 06:52 UTC] buy | [LLM] $MCAT at $2.434e-06, spent 0.02 SOL
+- **Reasoning:** $MCAT (MOON CAT) plays on the classic cats-love-moon meme with explicit green-candle/trader framing — a familiar, repeatable narrative that has minted multiple runners. Very fresh (0.6min), clear ticker, simple story. Risk: bond0%, ultra-early, but the attention angle is legible.
+
