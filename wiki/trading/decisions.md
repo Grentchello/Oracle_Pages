@@ -11533,3 +11533,9 @@
 ## [2026-09-01 03:29 UTC] buy | [LLM] $GREEN at $5.87583e-06, spent 0.02 SOL
 - **Reasoning:** $GREEN — viral cat in car wash narrative is genuine attention (real meme story, not random ticker). Passes viability gate (91-char desc + twitter). Age 0.2min at $5.8k mcap = extremely early entry. Only candidate that clears all gates this tick.
 
+## [2026-09-01 03:30 UTC] sell | [hard-stop] $GREEN closed at $2.98547e-06 | P&L: -49.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-01 03:30 UTC] buy | [LLM] $ZOF at $3.12887e-06, spent 0.02 SOL
+- **Reasoning:** ZOF (ZooOnFone) passes viability gate with 62-char narrative about 'zoo of memecoins' — meta/self-referential narrative that can go viral. $3.1k mcap is ground floor. Bond 4% means early in curve. Twitter active. Risk is low bond = thin liquidity, but position size is only 0.05 SOL.
+
