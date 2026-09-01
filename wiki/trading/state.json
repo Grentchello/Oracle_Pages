@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.488154,
+  "balance_sol": 0.468154,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "GvwmTpLn65dgBRE1tRgCTCmAAmto4qbquxhxpYBwpump": {
+      "symbol": "TOWN",
+      "name": "Town Brokers",
+      "amount": 434286.91628102656,
+      "entry_price_usd": 4.754e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-01T02:49:56.512767+00:00",
+      "entry_usd_value": 2.0646,
+      "entry_signals": {
+        "liquidity_usd": 2358.1089139733103,
+        "volume_24h_usd": 1092.34,
+        "market_cap_usd": 5820.250940939147,
+        "ath_market_cap_usd": 5812.257022620475,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 22.843252097,
+        "description": " Every district pays its own stock. Burn $TOWN to build higher",
+        "twitter": "https://x.com/TownBrokersNFT",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -22564,17 +22587,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-01T02:48:12.300835+00:00",
+  "last_updated": "2026-09-01T02:49:56.772797+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.13,
-  "portfolio_value_usd": 50.34,
+  "last_sol_price_usd": 103.23,
+  "portfolio_value_usd": 50.39,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 02:12 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $MRNA closed at $3.25835e-06 | P&L: -80.9%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-01 02:12 UTC",
       "action": "sell",
@@ -22688,6 +22705,12 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-01 02:49 UTC",
+      "action": "buy",
+      "details": "[LLM] $TOWN at $4.754e-06, spent 0.02 SOL",
+      "reason": "$TOWN has 23% bonding curve — highest conviction signal on the board. 'Burn $TOWN to build higher' is a clear tokenomics hook. $5.8k mcap, sub-1min, room to run. Attention signal: 63-char narrative + active Twitter."
     }
   ],
   "trade_stats": {
@@ -22709,7 +22732,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T02:48:12.299713+00:00",
+  "last_llm_brief_at": "2026-09-01T02:49:55.161164+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
