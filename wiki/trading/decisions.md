@@ -11482,3 +11482,6 @@
 ## [2026-09-01 03:06 UTC] sell | [FULL][LLM] $Ragnar at $2.88677e-06 | P&L: -12.4%
 - **Reasoning:** Pool=$0 with share=219294370% is broken anomalous data. Down -12.4% with no reliable liquidity signal. Cut now before it gets worse — rotating capital into fresher plays.
 
+## [2026-09-01 03:09 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
