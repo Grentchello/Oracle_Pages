@@ -12019,3 +12019,6 @@
 ## [2026-09-01 10:49 UTC] buy | [LLM] $WORLD at $2.944e-06, spent 0.02 SOL
 - **Reasoning:** $WORLD — has the strongest fundamentals on the list: real description, real twitter project account, narrative ('interactive 3D globe / 195 country tokens') is concrete and differentiated. $2.9k mcap with established twitter handle is asymmetric. Passes viability gate cleanly. Bond 1% but mcap is tiny so position is cheap exposure to a real product story.
 
+## [2026-09-01 10:56 UTC] sell | [FULL][LLM] $WORLD at $2.85769e-06 | P&L: -2.9%
+- **Reasoning:** Owning 216M% of pool means I AM the liquidity — any seller dumps onto me. Down only -2.9% but structure is terrible and no momentum. Cut the bag-holding risk before it becomes a -20% loss.
+

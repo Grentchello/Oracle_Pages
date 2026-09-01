@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.399267,
+  "balance_sol": 0.418743,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2pR8wB5RnMCkCtVvA6JsgYGDvZ7UU8ky5c9Kv1srpump": {
-      "symbol": "WORLD",
-      "name": "World Index",
-      "amount": 696603.2608695653,
-      "entry_price_usd": 2.944e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T10:49:44.382913+00:00",
-      "entry_usd_value": 2.0508,
-      "entry_signals": {
-        "liquidity_usd": 40.50330082032001,
-        "volume_24h_usd": 1611.27,
-        "market_cap_usd": 2941.635936543556,
-        "ath_market_cap_usd": 4016.839171217013,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.395000008,
-        "description": "World Index is an interactive Solana platform where users explore 195 country-inspired tokens through a live 3D globe and discover each market as it launches.",
-        "twitter": "https://x.com/solworldindex/status/2094643339253400058",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24489,19 +24466,30 @@
       "pnl_pct": -0.17,
       "exit_reason": "LLM: sell_all — $ROMANO is flat at -0.2% after 0.1h with tiny $51 pool and our 4% share makes us a whale in illiquid water. No clear narrative, no twitter link, just ",
       "partial": false
+    },
+    {
+      "mint": "2pR8wB5RnMCkCtVvA6JsgYGDvZ7UU8ky5c9Kv1srpump",
+      "symbol": "WORLD",
+      "name": "World Index",
+      "amount_sold": 696603.1803945653,
+      "fraction_sold": 0.9999998844751318,
+      "entry_time": "2026-09-01T10:49:44.382913+00:00",
+      "exit_time": "2026-09-01T10:56:11.867904+00:00",
+      "entry_price_usd": 2.944e-06,
+      "exit_price_usd": 2.857688724063271e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019476,
+      "pnl_sol": -0.000524,
+      "pnl_pct": -2.93,
+      "exit_reason": "LLM: sell_all — Owning 216M% of pool means I AM the liquidity — any seller dumps onto me. Down only -2.9% but structure is terrible and no momentum. Cut the bag-holdi",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T10:54:30.633601+00:00",
+  "last_updated": "2026-09-01T10:56:12.177526+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.46,
-  "portfolio_value_usd": 42.96,
+  "last_sol_price_usd": 102.21,
+  "portfolio_value_usd": 42.8,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 09:32 UTC",
-      "action": "buy",
-      "details": "[LLM] $SEMI at $4.679e-06, spent 0.02 SOL",
-      "reason": "$SEMI / CHIPX — 'fees paid in actual semi stocks' (NVDA/AVGO/MU/AMD/TSM) is a genuinely novel attention narrative bridging stocks + crypto. X account @CHIPX6s1o plus a tangible real-world hook differentiates this from generic launches. Risky at $3.7k mcap but the narrative has viral potential."
-    },
     {
       "time": "2026-09-01 09:34 UTC",
       "action": "sell",
@@ -24615,35 +24603,41 @@
       "action": "buy",
       "details": "[LLM] $WORLD at $2.944e-06, spent 0.02 SOL",
       "reason": "$WORLD — has the strongest fundamentals on the list: real description, real twitter project account, narrative ('interactive 3D globe / 195 country tokens') is concrete and differentiated. $2.9k mcap with established twitter handle is asymmetric. Passes viability gate cleanly. Bond 1% but mcap is tiny so position is cheap exposure to a real product story."
+    },
+    {
+      "time": "2026-09-01 10:56 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WORLD at $2.85769e-06 | P&L: -2.9%",
+      "reason": "Owning 216M% of pool means I AM the liquidity — any seller dumps onto me. Down only -2.9% but structure is terrible and no momentum. Cut the bag-holding risk before it becomes a -20% loss."
     }
   ],
   "trade_stats": {
-    "total": 1439,
+    "total": 1440,
     "wins": 725,
-    "losses": 714,
-    "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.913377,
-    "avg_pnl_pct": 37.98,
+    "losses": 715,
+    "win_rate_pct": 50.3,
+    "total_pnl_sol": -1.913901,
+    "avg_pnl_pct": 37.95,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 154,
-    "today_realized_sol": -0.025489,
-    "today_target_pct": -6.4,
+    "today_trades": 155,
+    "today_realized_sol": -0.026013,
+    "today_target_pct": -6.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 725,
-      "loss_count": 714,
+      "loss_count": 715,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T10:54:30.377369+00:00",
+  "last_llm_brief_at": "2026-09-01T10:56:11.867755+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2pR8wB5RnMCkCtVvA6JsgYGDvZ7UU8ky5c9Kv1srpump": {
-      "price_usd": 2.864678472434427e-06,
+      "price_usd": 2.857688724063271e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 9.221399999999999e-07,
+      "liquidity_usd": 9.198899999999999e-07,
       "volume_h24": 1651.79,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
