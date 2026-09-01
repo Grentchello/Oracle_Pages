@@ -11446,3 +11446,6 @@
 ## [2026-09-01 02:52 UTC] buy | [LLM] $PONE at $3.121e-06, spent 0.02 SOL
 - **Reasoning:** $PONE (APE ON PONE) passes viability gate with a funny ape/phone pun narrative and active Twitter. At $3.3k mcap with 6% bonding, it's ultra-early with room to run. The 'Why phone when PONE' story is memeable. Position size 0.05 SOL, accepting the risk for a potential micro-cap runner.
 
+## [2026-09-01 02:56 UTC] buy | [LLM] $LOAR at $2.93561e-06, spent 0.02 SOL
+- **Reasoning:** LOAR — AI cinematic universe narrative with clear product pitch and dedicated twitter. Passes viability gate (desc 100+ chars, twitter present). At $2.9k mcap and 1% bond, ultra-early entry. AI is the hottest attention meta right now.
+
