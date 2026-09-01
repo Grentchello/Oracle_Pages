@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.439228,
+  "balance_sol": 0.457302,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GQ6hyFfaiKCF773aBooVRQUtyKF88ajxcdpczaBwpump": {
-      "symbol": "DOGE",
-      "name": "Doge King",
-      "amount": 627649.7695852534,
-      "entry_price_usd": 3.255e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-01T08:46:49.399779+00:00",
-      "entry_usd_value": 2.043,
-      "entry_signals": {
-        "liquidity_usd": 72.29341872675,
-        "volume_24h_usd": 2733.29,
-        "market_cap_usd": 2995.999396195061,
-        "ath_market_cap_usd": 4379.99920381435,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.707718245,
-        "description": "The crown finally found its owner. 👑🐕 Doge left the memes behind, built his throne, and became the king nobody asked for. No master plan. Just Doge doing Doge things. Meet $DOGE",
-        "twitter": "https://x.com/NellaTheRich",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24098,19 +24075,30 @@
       "pnl_pct": 56.91,
       "exit_reason": "LLM: sell_all — Up +56.9%, past the +50% auto-TP threshold. Memecoin at sub-$5k pool on bonding curve can reverse fast. Lock the gain.",
       "partial": false
+    },
+    {
+      "mint": "GQ6hyFfaiKCF773aBooVRQUtyKF88ajxcdpczaBwpump",
+      "symbol": "DOGE",
+      "name": "Doge King",
+      "amount_sold": 627649.7695852534,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-01T08:46:49.399779+00:00",
+      "exit_time": "2026-09-01T08:48:12.588733+00:00",
+      "entry_price_usd": 3.255e-06,
+      "exit_price_usd": 2.9434855509324805e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018074,
+      "pnl_sol": -0.001926,
+      "pnl_pct": -9.57,
+      "exit_reason": "LLM: sell_all — Down -9.6% at 0h held on a bonding-curve DOGE with 4% of pool — that's dangerously concentrated for a memecoin. Stale capital and asymmetric risk. Cut",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-01T08:46:49.667152+00:00",
+  "last_updated": "2026-09-01T08:48:12.863600+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.15,
-  "portfolio_value_usd": 46.91,
+  "last_sol_price_usd": 102.22,
+  "portfolio_value_usd": 46.75,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 08:05 UTC",
-      "action": "buy",
-      "details": "[LLM] $LWHALE at $3.491e-06, spent 0.02 SOL",
-      "reason": "$LWHALE rides the BlackRock/ETF whale narrative which is currently hot in crypto Twitter. Has both desc and twitter, fresh launch, and 'whale' meta tokens historically pump on ETF flow news. Tiny mcap = max upside if narrative catches."
-    },
     {
       "time": "2026-09-01 08:05 UTC",
       "action": "buy",
@@ -24224,30 +24212,48 @@
       "action": "buy",
       "details": "[LLM] $DOGE at $3.255e-06, spent 0.02 SOL",
       "reason": "$DOGE 'Doge King' has the strongest narrative of the batch — proper description ('the king nobody asked for'), twitter attached, $3k mcap with room to 10x if the story catches. Meta-coin attention play, sizing 0.05 SOL with tight -30% stop."
+    },
+    {
+      "time": "2026-09-01 08:48 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DOGE at $2.94349e-06 | P&L: -9.6%",
+      "reason": "Down -9.6% at 0h held on a bonding-curve DOGE with 4% of pool — that's dangerously concentrated for a memecoin. Stale capital and asymmetric risk. Cut it before it bleeds toward the -30% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 1416,
+    "total": 1417,
     "wins": 713,
-    "losses": 703,
-    "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.873417,
-    "avg_pnl_pct": 38.63,
+    "losses": 704,
+    "win_rate_pct": 50.3,
+    "total_pnl_sol": -1.875343,
+    "avg_pnl_pct": 38.59,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 131,
-    "today_realized_sol": 0.014471,
-    "today_target_pct": 3.6,
+    "today_trades": 132,
+    "today_realized_sol": 0.012545,
+    "today_target_pct": 3.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 713,
-      "loss_count": 703,
+      "loss_count": 704,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T08:46:47.882782+00:00",
+  "last_llm_brief_at": "2026-09-01T08:48:12.588696+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GQ6hyFfaiKCF773aBooVRQUtyKF88ajxcdpczaBwpump": {
+      "price_usd": 2.9434855509324805e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 45.54183096534,
+      "volume_h24": 2882.01,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.445527597
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

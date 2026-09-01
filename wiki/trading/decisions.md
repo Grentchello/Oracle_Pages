@@ -11899,3 +11899,6 @@
 ## [2026-09-01 08:46 UTC] buy | [LLM] $DOGE at $3.255e-06, spent 0.02 SOL
 - **Reasoning:** $DOGE 'Doge King' has the strongest narrative of the batch — proper description ('the king nobody asked for'), twitter attached, $3k mcap with room to 10x if the story catches. Meta-coin attention play, sizing 0.05 SOL with tight -30% stop.
 
+## [2026-09-01 08:48 UTC] sell | [FULL][LLM] $DOGE at $2.94349e-06 | P&L: -9.6%
+- **Reasoning:** Down -9.6% at 0h held on a bonding-curve DOGE with 4% of pool — that's dangerously concentrated for a memecoin. Stale capital and asymmetric risk. Cut it before it bleeds toward the -30% hard stop.
+
