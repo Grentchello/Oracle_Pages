@@ -11812,3 +11812,9 @@
 ## [2026-09-01 07:57 UTC] buy | [LLM] $ASPIE at $4.44215e-06, spent 0.02 SOL
 - **Reasoning:** $ASPIE has clear viral narrative (Pepe's autistic girlfriend, 4chan lore), real description, $4.4k mcap with room to run. Fresh attention from CartiDevs. Best risk/reward in the batch.
 
+## [2026-09-01 07:59 UTC] sell | [PARTIAL][LLM] $ASPIE at $5.40347e-06 | P&L: +21.6%
+- **Reasoning:** Up +21.6% on ultra-fresh 0.5min token with no confirmation yet — locking half the gain per scalp discipline, letting the other half ride into the bot's auto-TP ladder at +25%/30%.
+
+## [2026-09-01 07:59 UTC] buy | [LLM] $RISE at $5.227e-06, spent 0.02 SOL
+- **Reasoning:** Airdrop-to-top-15 mechanic creates structural buying pressure (FOMO farmers chase top-holder slots), fresh 0.6min launch with clear narrative — classic attention-market entry.
+
