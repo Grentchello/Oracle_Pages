@@ -11731,3 +11731,6 @@
 ## [2026-09-01 06:45 UTC] sell | [FULL][LLM] $GCard at $2.96136e-06 | P&L: -2.1%
 - **Reasoning:** Down -2.1% after entry with only $32 pool and 6% of our share already — fragile liquidity, no narrative edge visible, fresh slate means better uses of capital exist.
 
+## [2026-09-01 06:48 UTC] buy | [LLM] $HEARTBEAT at $3.09273e-06, spent 0.02 SOL
+- **Reasoning:** $HEARTBEAT - 'living digital entity on Solana' narrative rides the agent/AI meta which is hot. Dedicated @h3artbeatexe twitter, narrative-rich description (>50 chars). Strong attention signal at $3k mcap.
+
