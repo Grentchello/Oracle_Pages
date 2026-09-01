@@ -12013,3 +12013,6 @@
 ## [2026-09-01 10:31 UTC] sell | [hard-stop] $STATIC closed at $3.64809e-06 | P&L: -70.1%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-01 10:35 UTC] sell | [FULL][LLM] $ROMANO at $2.96005e-06 | P&L: -0.2%
+- **Reasoning:** $ROMANO is flat at -0.2% after 0.1h with tiny $51 pool and our 4% share makes us a whale in illiquid water. No clear narrative, no twitter link, just 'Romanoski' noise. Locked capital in a thin bonding-curve token = exit now while liquidity still exists.
+
