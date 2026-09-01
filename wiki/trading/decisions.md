@@ -11497,3 +11497,15 @@
 ## [2026-09-01 03:18 UTC] buy | [LLM] $BTС at $1.04259e-05, spent 0.02 SOL
 - **Reasoning:** Strongest candidate by far: charity narrative (cancer funding), passes all viability gates (desc+twitter), 32% bonding curve, $10.4k mcap. Only token with a real story and social proof. Position = 0.1 SOL.
 
+## [2026-09-01 03:19 UTC] sell | [TP +30% (25%)] $BTС at $1.96424e-05 | P&L: +88.4%
+- **Reasoning:** Auto take-profit at +88.4%
+
+## [2026-09-01 03:20 UTC] sell | [FULL][LLM] $Bundle at $2.8918e-06 | P&L: -12.5%
+- **Reasoning:** Pool is $0 with 97M% share — this token is rugged/dead. No liquidity to trade. Exit to free the slot and reclaim whatever dust remains.
+
+## [2026-09-01 03:20 UTC] sell | [PARTIAL][LLM] $BTС at $1.96424e-05 | P&L: +88.4%
+- **Reasoning:** Up 88.4% in <30min, approaching +100% auto-TP. Locking profit on half now per aggressive scalping rules. Letting remainder ride for the last 12% to auto-TP or beyond.
+
+## [2026-09-01 03:20 UTC] buy | [LLM] $$1 at $7.20904e-06, spent 0.02 SOL
+- **Reasoning:** Strongest narrative of the batch — 'buy $1, write thesis' creates a viral participation loop. $7.2k mcap, 27% bonded, real community Twitter. The concept itself generates engagement. Worth 0.1 SOL risk for potential multi-x.
+
