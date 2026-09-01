@@ -11695,3 +11695,6 @@
 ## [2026-09-01 06:25 UTC] sell | [FULL][LLM] $bitart at $2.90047e-06 | P&L: -6.4%
 - **Reasoning:** $bitart down -6.4% in 0.1h, low momentum and '⚠ HUGE' concentration flagged. Cut early before -30% hard stop kicks in.
 
+## [2026-09-01 06:28 UTC] buy | [LLM] $FYC at $3.12872e-06, spent 0.02 SOL
+- **Reasoning:** $FYC — strongest narrative in this batch: concrete viral meme (Duolingo Indonesia X translation), real creator (@rafedigs), recognizable absurdity. Micro-cap $3.1k = asymmetric upside if it pumps. Passes viability gate (desc + twitter). Sizing 0.05 SOL for fresh-slate discipline.
+
