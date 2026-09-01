@@ -11818,3 +11818,6 @@
 ## [2026-09-01 07:59 UTC] buy | [LLM] $RISE at $5.227e-06, spent 0.02 SOL
 - **Reasoning:** Airdrop-to-top-15 mechanic creates structural buying pressure (FOMO farmers chase top-holder slots), fresh 0.6min launch with clear narrative — classic attention-market entry.
 
+## [2026-09-01 08:00 UTC] sell | [PARTIAL][LLM] $RISE at $5.80403e-06 | P&L: +11.0%
+- **Reasoning:** RISE up +11% already in 0.0h on tiny $1296 pool — classic volatile microcap. Lock half the gain now per profit-taking discipline; let the rest ride if narrative holds. Pool is too thin to trust a full hold.
+

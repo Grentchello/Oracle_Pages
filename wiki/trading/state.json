@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.437526,
+  "balance_sol": 0.448631,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "Ee7gmjNtp3oGyM5sSWdLpqSnyeCpDGHqj3wrz3Aapump": {
       "symbol": "RISE",
       "name": "RISE",
-      "amount": 394337.095848479,
+      "amount": 197168.5479242395,
       "entry_price_usd": 5.227e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-01T07:59:12.749520+00:00",
       "entry_usd_value": 2.0612,
       "entry_signals": {
@@ -23797,19 +23797,30 @@
       "pnl_pct": 21.64,
       "exit_reason": "LLM: sell_half — Up +21.6% on ultra-fresh 0.5min token with no confirmation yet — locking half the gain per scalp discipline, letting the other half ride into the bot'",
       "partial": true
+    },
+    {
+      "mint": "Ee7gmjNtp3oGyM5sSWdLpqSnyeCpDGHqj3wrz3Aapump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 197168.5479242395,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-01T07:59:12.749520+00:00",
+      "exit_time": "2026-09-01T08:00:50.151146+00:00",
+      "entry_price_usd": 5.227e-06,
+      "exit_price_usd": 5.804025880636654e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011105,
+      "pnl_sol": 0.001105,
+      "pnl_pct": 11.04,
+      "exit_reason": "LLM: sell_half — RISE up +11% already in 0.0h on tiny $1296 pool — classic volatile microcap. Lock half the gain now per profit-taking discipline; let the rest ride if",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-01T07:59:12.749772+00:00",
+  "last_updated": "2026-09-01T08:00:50.152332+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.06,
-  "portfolio_value_usd": 49.84,
+  "last_sol_price_usd": 103.053,
+  "portfolio_value_usd": 48.29,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 07:20 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $OGGoPro at $3.06955e-06 | P&L: -0.6%",
-      "reason": "Held 6 minutes at -0.6% on tiny $96 pool with 2% ownership. No clear narrative momentum and stale/flat — exit to free slot for fresh attention plays."
-    },
     {
       "time": "2026-09-01 07:20 UTC",
       "action": "buy",
@@ -23923,40 +23934,57 @@
       "action": "buy",
       "details": "[LLM] $RISE at $5.227e-06, spent 0.02 SOL",
       "reason": "Airdrop-to-top-15 mechanic creates structural buying pressure (FOMO farmers chase top-holder slots), fresh 0.6min launch with clear narrative — classic attention-market entry."
+    },
+    {
+      "time": "2026-09-01 08:00 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RISE at $5.80403e-06 | P&L: +11.0%",
+      "reason": "RISE up +11% already in 0.0h on tiny $1296 pool — classic volatile microcap. Lock half the gain now per profit-taking discipline; let the rest ride if narrative holds. Pool is too thin to trust a full hold."
     }
   ],
   "trade_stats": {
-    "total": 1397,
-    "wins": 702,
+    "total": 1398,
+    "wins": 703,
     "losses": 695,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.865119,
-    "avg_pnl_pct": 38.83,
+    "total_pnl_sol": -1.864014,
+    "avg_pnl_pct": 38.81,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 112,
-    "today_realized_sol": 0.022769,
-    "today_target_pct": 5.7,
+    "today_trades": 113,
+    "today_realized_sol": 0.023874,
+    "today_target_pct": 6.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 702,
+      "win_count": 703,
       "loss_count": 695,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-01T07:59:11.240194+00:00",
+  "last_llm_brief_at": "2026-09-01T08:00:50.151100+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "HMhUghraxz7CGcschgjF7cJs5u4aTqPPx9mcCYTzpump": {
-      "price_usd": 5.4034723871621195e-06,
+      "price_usd": 4.304533119651023e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1142.1139484181,
-      "volume_h24": 17965.78,
+      "liquidity_usd": 687.2093894980619,
+      "volume_h24": 29285.98,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 11.082029385
+      "real_sol_reserves": 6.668504454
+    },
+    "Ee7gmjNtp3oGyM5sSWdLpqSnyeCpDGHqj3wrz3Aapump": {
+      "price_usd": 5.804025880636654e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1296.29743889661,
+      "volume_h24": 1387.63,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 12.57893937
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
