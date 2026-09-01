@@ -410,6 +410,47 @@ async def handle_list_outputs(request):
         })
     return web.json_response(result)
 
+async def handle_pollinations_generate(request):
+    """Generate image via Pollinations API (free, no GPU needed)."""
+    import urllib.request
+    import urllib.parse
+    
+    data = await request.json()
+    prompt = data.get("prompt", "a beautiful sunset")
+    width = data.get("width", 1024)
+    height = data.get("height", 1024)
+    model = data.get("model", "sana")
+    seed = data.get("seed", -1)
+    if seed == -1:
+        import random
+        seed = random.randint(0, 999999)
+    
+    encoded_prompt = urllib.parse.quote(prompt)
+    url = f"https://image.pollinations.ai/prompt/{encoded_prompt}?width={width}&height={height}&model={model}&seed={seed}&nologo=true"
+    
+    job_id = str(uuid.uuid4())[:8]
+    active_jobs[job_id] = {"status": "running", "prompt": prompt, "start_time": time.time()}
+    
+    try:
+        # Download the image
+        req = urllib.request.Request(url, headers={"User-Agent": "OracleImageGen/1.0"})
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            img_bytes = resp.read()
+            out_path = OUTPUT_DIR / f"pollinations_{job_id}.png"
+            out_path.write_bytes(img_bytes)
+            active_jobs[job_id]["status"] = "done"
+            active_jobs[job_id]["image_path"] = str(out_path)
+            return web.json_response({
+                "prompt_id": job_id,
+                "status": "done",
+                "image_url": f"/outputs/{out_path.name}",
+                "elapsed": round(time.time() - active_jobs[job_id]["start_time"], 1),
+                "engine": "pollinations"
+            })
+    except Exception as e:
+        active_jobs[job_id]["status"] = "error"
+        return web.json_response({"error": str(e)}, status=500)
+
 async def handle_comfyui_status(request):
     """Check ComfyUI server status."""
     result = {"running": comfyui_ready, "pid": comfyui_process.pid if comfyui_process else None}
@@ -444,6 +485,7 @@ def main():
     app.router.get("/outputs/{filename}", handle_output)
     app.router.add_get("/gallery", handle_outputs_page)
     app.router.add_get("/api/outputs", handle_list_outputs)
+    app.router.add_post("/api/pollinations", handle_pollinations_generate)
     app.router.add_get("/api/comfyui", handle_comfyui_status)
     app.router.add_post("/api/comfyui/start", handle_start_comfyui)
     app.router.add_post("/api/comfyui/stop", handle_stop_comfyui)

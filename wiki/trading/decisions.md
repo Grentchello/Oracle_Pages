@@ -11569,3 +11569,6 @@
 ## [2026-09-01 04:12 UTC] buy | [LLM] $FUPA at $4.12375e-06, spent 0.02 SOL
 - **Reasoning:** $FUPA has explicit narrative ('everyone sending cats, this is the perfect depiction') and a real X post from @Devilantesol — attention-driven meme with body-positivity/contrarian angle vs cat meta. Risks: crude name may cap ceiling, low mcap $4.1k.
 
+## [2026-09-01 04:13 UTC] sell | [FULL][LLM] $FUPA at $3.64386e-06 | P&L: -11.6%
+- **Reasoning:** $FUPA is down 11.6% on a $377 pool (barely above 5x liquidity gate), no narrative beyond crude humor, and pool is too thin to recover. Cutting at -11.6% is materially better than waiting for the -30% hard stop on illiquid bonding-curve tokens that bleed fast.
+
