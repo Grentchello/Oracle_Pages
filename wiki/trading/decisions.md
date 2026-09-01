@@ -11365,3 +11365,12 @@
 ## [2026-09-01 02:10 UTC] buy | [LLM] $MRNA at $1.705e-05, spent 0.02 SOL
 - **Reasoning:** MRNA has the strongest narrative — mRNA vaccine meme tied to Moderna's Phase 3 moment, with a clear Twitter (@mrna_sol) and decent mcap ($18k) on a bonding curve. The crypto-vaccine crossover has viral potential. 0.05 SOL size keeps risk tight.
 
+## [2026-09-01 02:11 UTC] sell | [TP +30% (25%)] $delulu at $1.42349e-05 | P&L: +88.7%
+- **Reasoning:** Auto take-profit at +88.7%
+
+## [2026-09-01 02:11 UTC] sell | [TP +30% (25%)] $MRNA at $2.76918e-05 | P&L: +62.4%
+- **Reasoning:** Auto take-profit at +62.4%
+
+## [2026-09-01 02:11 UTC] sell | [PARTIAL][LLM] $delulu at $1.42349e-05 | P&L: +88.7%
+- **Reasoning:** Up +88.7% in 6 minutes - very close to +100% auto-TP. Locking half now secures profit before potential reversal. Bonding curve near maturity.
+
