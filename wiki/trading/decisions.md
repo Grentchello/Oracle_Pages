@@ -11473,3 +11473,12 @@
 ## [2026-09-01 03:04 UTC] buy | [LLM] $Ragnar at $3.2948e-06, spent 0.02 SOL
 - **Reasoning:** $Ragnar (Call Dog) has the best narrative - guy with wig + glasses making phone calls is visually funny meme content. Has twitter, passes viability gate with 50+ char description, mcap $3,280 is ultra-early at 6% bond. High viral potential if video circulates.
 
+## [2026-09-01 03:05 UTC] sell | [TP +30% (25%)] $tape at $7.20868e-06 | P&L: +43.5%
+- **Reasoning:** Auto take-profit at +43.5%
+
+## [2026-09-01 03:06 UTC] sell | [FULL][LLM] $tape at $7.20868e-06 | P&L: +43.5%
+- **Reasoning:** $tape up +43.5% in 6 minutes — past auto-TP threshold, selling the rest to lock in gains and free a slot. Profit is real only when realized.
+
+## [2026-09-01 03:06 UTC] sell | [FULL][LLM] $Ragnar at $2.88677e-06 | P&L: -12.4%
+- **Reasoning:** Pool=$0 with share=219294370% is broken anomalous data. Down -12.4% with no reliable liquidity signal. Cut now before it gets worse — rotating capital into fresher plays.
+
