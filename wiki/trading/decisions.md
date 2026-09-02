@@ -12343,3 +12343,6 @@
 ## [2026-09-02 03:01 UTC] sell | [FULL][LLM] $MCD at $2.86644e-06 | P&L: +0.7%
 - **Reasoning:** Entry just made, +0.7% with no momentum, bonding curve only $39 pool — fragile liquidity. With a fresh slate and limited SOL, I want capital free to chase fresh attention rather than babysit a flat position.
 
+## [2026-09-02 03:05 UTC] buy | [LLM] $DAD at $3.654e-06, spent 0.02 SOL
+- **Reasoning:** $DAD 'FACE of SOLANA' tied to @fluffyonchain (real CT personality, 1.1min old, $3.3k mcap, 8% bond). Celebrity-influencer narrative is the exact attention signal that pumps early; tiny mcap gives 5-10x room. Fragility gate concern: celebrity-adjacent but not on the explicit blocklist, and the twitter is a known CT account not a politician. Best attention-to-mcap ratio on the board.
+
