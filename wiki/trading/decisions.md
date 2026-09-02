@@ -12220,3 +12220,6 @@
 ## [2026-09-02 00:33 UTC] buy | [LLM] $MIF at $2.97944e-06, spent 0.02 SOL
 - **Reasoning:** Magic Internet Finance has cultural nostalgia — Magic Internet Money is a legendary crypto meme (Dogecoin/Bitcoin roots). MS Paint wizard art is the exact absurdist memecoin aesthetic that pumps. Tiny mcap $2.9k with twitter presence gives asymmetric upside on attention. 0.05 SOL position.
 
+## [2026-09-02 00:40 UTC] sell | [FULL][LLM] $MIF at $2.78667e-06 | P&L: -6.5%
+- **Reasoning:** MIF is down 6.5% in 6 minutes on zero pool liquidity (bonding-curve trap, our share=624847225% means we ARE the exit liquidity). Stale and illiquid — exit now before it bleeds further into the -30% hard stop.
+
