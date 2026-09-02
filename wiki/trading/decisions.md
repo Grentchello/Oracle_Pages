@@ -12427,3 +12427,12 @@
 ## [2026-09-02 05:37 UTC] buy | [LLM] $NAEA at $1.53511e-06, spent 0.02 SOL
 - **Reasoning:** $NAEA passes viability gate (desc ~57 chars + twitter from @rap, a real X account). Narrative is concrete and viral: NASA literally just posted an Earth photo. Fresh attention-launched memecoins with real cultural hooks are exactly what the strategy is built for. Very low mcap ($1531) means high volatility both ways — sizing 0.05 SOL keeps risk bounded.
 
+## [2026-09-02 05:38 UTC] sell | [hard-stop] $Effect closed at $4.45716e-06 | P&L: -38.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-02 05:38 UTC] sell | [TP +30% (25%)] $NAEA at $2.71304e-06 | P&L: +76.7%
+- **Reasoning:** Auto take-profit at +76.7%
+
+## [2026-09-02 05:38 UTC] sell | [PARTIAL][LLM] $NAEA at $2.71304e-06 | P&L: +76.7%
+- **Reasoning:** Up +76.7% on bonding curve at 0.0h held — bonding curve caps upside, and our 12% share of a $23 pool makes us a meaningful exit liquidity event. Lock half the gain at +50%+ and let the rest ride if it breaks out post-curve. Don't hope — take the meat.
+

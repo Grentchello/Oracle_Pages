@@ -1,36 +1,14 @@
 {
-  "balance_sol": 0.304023,
+  "balance_sol": 0.338505,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "2WcAbyqumdLLtgRtmwsRDHFAfz9QHxiGtVfKmyMupump": {
-      "symbol": "Effect",
-      "name": "The Butterfly Effect",
-      "amount": 278332.17512161226,
-      "entry_price_usd": 7.195e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T05:35:44.604660+00:00",
-      "entry_usd_value": 2.0026,
-      "entry_signals": {
-        "liquidity_usd": 1557.92241907422,
-        "volume_24h_usd": 9859.61,
-        "market_cap_usd": 6976.551022819983,
-        "ath_market_cap_usd": 8579.220652194248,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 15.558997494,
-        "description": "Every financial tsunami begins with a movement nobody considers important .",
-        "twitter": "https://x.com/flyeffectsol/status/2095022388064792596",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "7nkeAiGNueJRYiqv2GPrecWLXECvjYf5DCxYXc1apump": {
       "symbol": "NAEA",
       "name": "NASA’s Earth",
-      "amount": 1304529.382853413,
+      "amount": 489198.5185700299,
       "entry_price_usd": 1.5351129888846878e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-02T05:37:11.280034+00:00",
       "entry_usd_value": 2.0026,
       "entry_signals": {
@@ -25667,31 +25645,64 @@
       "pnl_pct": -15.36,
       "exit_reason": "LLM: sell_all — Down -15.4% on a $156 pool where I own 1% of liquidity — bonding-curve illiquidity means any further drop will accelerate, and the -20% loser-exit rul",
       "partial": false
+    },
+    {
+      "mint": "2WcAbyqumdLLtgRtmwsRDHFAfz9QHxiGtVfKmyMupump",
+      "symbol": "Effect",
+      "name": "The Butterfly Effect",
+      "amount_sold": 278332.17512161226,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T05:35:44.604660+00:00",
+      "exit_time": "2026-09-02T05:38:15.329881+00:00",
+      "entry_price_usd": 7.195e-06,
+      "exit_price_usd": 4.457162655928933e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.01239,
+      "pnl_sol": -0.00761,
+      "pnl_pct": -38.05,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "7nkeAiGNueJRYiqv2GPrecWLXECvjYf5DCxYXc1apump",
+      "symbol": "NAEA",
+      "name": "NASA’s Earth",
+      "amount_sold": 326132.34571335325,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-02T05:37:11.280034+00:00",
+      "exit_time": "2026-09-02T05:38:15.330135+00:00",
+      "entry_price_usd": 1.5351129888846878e-06,
+      "exit_price_usd": 2.713039875454028e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.008837,
+      "pnl_sol": 0.003837,
+      "pnl_pct": 76.73,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "7nkeAiGNueJRYiqv2GPrecWLXECvjYf5DCxYXc1apump",
+      "symbol": "NAEA",
+      "name": "NASA’s Earth",
+      "amount_sold": 489198.5185700299,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-02T05:37:11.280034+00:00",
+      "exit_time": "2026-09-02T05:38:27.851336+00:00",
+      "entry_price_usd": 1.5351129888846878e-06,
+      "exit_price_usd": 2.713039875454028e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.013255,
+      "pnl_sol": 0.005755,
+      "pnl_pct": 76.73,
+      "exit_reason": "LLM: sell_half — Up +76.7% on bonding curve at 0.0h held — bonding curve caps upside, and our 12% share of a $23 pool makes us a meaningful exit liquidity event. Lock ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-02T05:37:11.280213+00:00",
+  "last_updated": "2026-09-02T05:38:27.851604+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 100.13,
-  "portfolio_value_usd": 33.86,
+  "portfolio_value_usd": 34.87,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 03:47 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $PumpLife at $6.77427e-06 | P&L: +86.4%",
-      "reason": "Auto take-profit at +86.4%"
-    },
-    {
-      "time": "2026-09-02 03:47 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PumpLife at $6.77427e-06 | P&L: +86.4%",
-      "reason": "Up +86.4% on a fresh launch with tiny $1.6k pool — this is peak attention moment, locking gains before it mean-reverts. The +100% TP at 50% is near; selling now captures the move cleanly."
-    },
-    {
-      "time": "2026-09-02 04:12 UTC",
-      "action": "buy",
-      "details": "[LLM] $CHURROTACO at $2.8e-06, spent 0.02 SOL",
-      "reason": "Churro Taco — absurd food-meme niche (dessert churro ice cream taco), Twitter source is a meme/news account, $2.8k mcap with room for 5-10x if the food-meme niche catches on. Low mcap + clear visual identity = classic viral meme structure. RISK: thin liquidity ($2.8k mcap, bond 1%) — but at $5 position size with -30% hard stop, the downside is contained."
-    },
     {
       "time": "2026-09-02 04:17 UTC",
       "action": "sell",
@@ -25793,40 +25804,69 @@
       "action": "buy",
       "details": "[LLM] $NAEA at $1.53511e-06, spent 0.02 SOL",
       "reason": "$NAEA passes viability gate (desc ~57 chars + twitter from @rap, a real X account). Narrative is concrete and viral: NASA literally just posted an Earth photo. Fresh attention-launched memecoins with real cultural hooks are exactly what the strategy is built for. Very low mcap ($1531) means high volatility both ways — sizing 0.05 SOL keeps risk bounded."
+    },
+    {
+      "time": "2026-09-02 05:38 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $Effect closed at $4.45716e-06 | P&L: -38.0%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-02 05:38 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $NAEA at $2.71304e-06 | P&L: +76.7%",
+      "reason": "Auto take-profit at +76.7%"
+    },
+    {
+      "time": "2026-09-02 05:38 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $NAEA at $2.71304e-06 | P&L: +76.7%",
+      "reason": "Up +76.7% on bonding curve at 0.0h held — bonding curve caps upside, and our 12% share of a $23 pool makes us a meaningful exit liquidity event. Lock half the gain at +50%+ and let the rest ride if it breaks out post-curve. Don't hope — take the meat."
     }
   ],
   "trade_stats": {
-    "total": 1507,
-    "wins": 759,
-    "losses": 748,
+    "total": 1510,
+    "wins": 761,
+    "losses": 749,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.988619,
-    "avg_pnl_pct": 37.07,
+    "total_pnl_sol": -1.986637,
+    "avg_pnl_pct": 37.08,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 41,
-    "today_realized_sol": -0.049007,
-    "today_target_pct": -12.3,
+    "today_trades": 44,
+    "today_realized_sol": -0.047025,
+    "today_target_pct": -11.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 759,
-      "loss_count": 748,
+      "win_count": 761,
+      "loss_count": 749,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T05:37:09.846555+00:00",
+  "last_llm_brief_at": "2026-09-02T05:38:27.851295+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2WcAbyqumdLLtgRtmwsRDHFAfz9QHxiGtVfKmyMupump": {
-      "price_usd": 5.998327098731473e-06,
+      "price_usd": 4.457162655928933e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1393.11219244727,
-      "volume_h24": 18010.17,
+      "liquidity_usd": 786.38475912206,
+      "volume_h24": 20962.92,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 13.913034979
+      "real_sol_reserves": 7.853637862
+    },
+    "7nkeAiGNueJRYiqv2GPrecWLXECvjYf5DCxYXc1apump": {
+      "price_usd": 2.713039875454028e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 23.15259159199,
+      "volume_h24": 3748.36,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.231225323
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
