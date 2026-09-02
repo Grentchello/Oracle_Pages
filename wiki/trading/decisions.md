@@ -12436,3 +12436,6 @@
 ## [2026-09-02 05:38 UTC] sell | [PARTIAL][LLM] $NAEA at $2.71304e-06 | P&L: +76.7%
 - **Reasoning:** Up +76.7% on bonding curve at 0.0h held — bonding curve caps upside, and our 12% share of a $23 pool makes us a meaningful exit liquidity event. Lock half the gain at +50%+ and let the rest ride if it breaks out post-curve. Don't hope — take the meat.
 
+## [2026-09-02 05:39 UTC] sell | [hard-stop] $NAEA closed at $2.61373e-07 | P&L: -83.0%
+- **Reasoning:** Hard -30% stop
+
