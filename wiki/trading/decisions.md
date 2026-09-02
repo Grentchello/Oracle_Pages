@@ -12337,3 +12337,6 @@
 ## [2026-09-02 02:54 UTC] sell | [FULL][LLM] $PANDAS at $5.56224e-06 | P&L: -26.4%
 - **Reasoning:** Down -26.4% with 0% pool share and thin liquidity ($1233). No bounce, sitting near the -30% hard stop. Cut the loss now rather than wait for auto-stop to fire.
 
+## [2026-09-02 02:59 UTC] buy | [LLM] $MCD at $2.847e-06, spent 0.02 SOL
+- **Reasoning:** $MCD has the strongest attention signal of the slate: a named partner (OTCDesks) with a dedicated twitter post, a concrete HODL-earn mechanic, and a recognizable brand hook (McDonald's french fry flywheel). Narrative is memeable and the twitter backing gives it a real launch pad vs pure spam. Risk: bond only 1% complete and mcap $2.8k — extremely early, high dump risk.
+
