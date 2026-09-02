@@ -12367,3 +12367,9 @@
 ## [2026-09-02 03:46 UTC] buy | [LLM] $PumpLife at $3.634e-06, spent 0.02 SOL
 - **Reasoning:** $PumpLife — manga-artist-to-trenchers narrative has a coherent niche community; twitter @PumpLifeAnime is actively posting, mcap $3.6k is early enough for 5-10x, and 'aspiring manga artist labour of love' is a relatable underdog story that meme Twitter rewards. Risks: niche appeal may cap ceiling, sub-$4k mcap means thin liquidity, GMGN fragility check unavailable due to Cloudflare block.
 
+## [2026-09-02 03:47 UTC] sell | [TP +30% (25%)] $PumpLife at $6.77427e-06 | P&L: +86.4%
+- **Reasoning:** Auto take-profit at +86.4%
+
+## [2026-09-02 03:47 UTC] sell | [FULL][LLM] $PumpLife at $6.77427e-06 | P&L: +86.4%
+- **Reasoning:** Up +86.4% on a fresh launch with tiny $1.6k pool — this is peak attention moment, locking gains before it mean-reverts. The +100% TP at 50% is near; selling now captures the move cleanly.
+
