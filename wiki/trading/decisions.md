@@ -12394,3 +12394,6 @@
 ## [2026-09-02 04:44 UTC] buy | [LLM] $DYLAN  at $1.084e-05, spent 0.02 SOL
 - **Reasoning:** $DYLAN — real viral video story (guy cast in GTA6 news), GTA6 is peak attention brand, $7k mcap with multiple clone mints confirming sniper interest. ME2F flags fragility but the narrative is grounded in real news not pure fiction. 0.05 SOL scalp — if it doesn't pump in 15 min, exit.
 
+## [2026-09-02 04:45 UTC] sell | [hard-stop] $DYLAN  closed at $3.56954e-06 | P&L: -67.1%
+- **Reasoning:** Hard -30% stop
+
