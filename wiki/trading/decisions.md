@@ -12292,3 +12292,6 @@
 ## [2026-09-02 01:57 UTC] buy | [LLM] $Landcoin at $3.352e-06, spent 0.02 SOL
 - **Reasoning:** $Landcoin pairs with a real estate company — narrative + utility hook is unusually strong for a <1min launch, and pump.fun mcap $3.8k is the sweet spot for 5-10x attention runs. Viable (desc + twitter). Skip fragility gate via GMGN post-buy check.
 
+## [2026-09-02 01:59 UTC] buy | [LLM] $INSIDER at $6.025e-06, spent 0.02 SOL
+- **Reasoning:** $INSIDER — TikTok virality play, dev paid $6k for a verified TikTok and is going to shill on every video. Attention narrative is concrete and repeatable. $8.9k mcap is fresh, bonding 31%.
+
