@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.330607,
+  "balance_sol": 0.357536,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8YATijj1UjLoQbioSRF1zahzja44gm43GysKHccTpump": {
-      "symbol": "ACTFY",
-      "name": "Actify AI",
-      "amount": 507823.71644505725,
-      "entry_price_usd": 3.961217120936966e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T03:29:32.957550+00:00",
-      "entry_usd_value": 2.0116,
-      "entry_signals": {
-        "liquidity_usd": 621.29486628822,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3960.9569794054555,
-        "ath_market_cap_usd": 3953.5628900018496,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 6.177121359,
-        "description": "Actify is a marketplace for computer-use agents. Try Career Agent today for free!",
-        "twitter": "https://x.com/ActifyAI",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25424,25 +25401,47 @@
       "pnl_pct": -6.62,
       "exit_reason": "LLM: sell_all — $DAD is down -6.6% with no momentum, liquidity only $314 (well under our 5x threshold), and it's a generic 'dad' name with no viral narrative. Cut the",
       "partial": false
+    },
+    {
+      "mint": "8YATijj1UjLoQbioSRF1zahzja44gm43GysKHccTpump",
+      "symbol": "ACTFY",
+      "name": "Actify AI",
+      "amount_sold": 126955.92911126431,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-02T03:29:32.957550+00:00",
+      "exit_time": "2026-09-02T03:30:36.712875+00:00",
+      "entry_price_usd": 3.961217120936966e-06,
+      "exit_price_usd": 5.335693425835917e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.006732,
+      "pnl_sol": 0.001732,
+      "pnl_pct": 34.7,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "8YATijj1UjLoQbioSRF1zahzja44gm43GysKHccTpump",
+      "symbol": "ACTFY",
+      "name": "Actify AI",
+      "amount_sold": 380867.78733379295,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T03:29:32.957550+00:00",
+      "exit_time": "2026-09-02T03:30:58.608462+00:00",
+      "entry_price_usd": 3.961217120936966e-06,
+      "exit_price_usd": 5.335693425835917e-06,
+      "entry_sol_for_chunk": 0.015,
+      "exit_sol_received": 0.020197,
+      "pnl_sol": 0.005197,
+      "pnl_pct": 34.7,
+      "exit_reason": "LLM: sell_all — $ACTFY is up +34.7% but pool is only $1139 and held 0.0h — extremely thin liquidity, any further push risks a rug or sharp reversal. Take profit now w",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T03:29:32.957819+00:00",
+  "last_updated": "2026-09-02T03:30:59.123042+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.58,
-  "portfolio_value_usd": 35.26,
+  "last_sol_price_usd": 100.62,
+  "portfolio_value_usd": 35.98,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 01:59 UTC",
-      "action": "buy",
-      "details": "[LLM] $INSIDER at $6.025e-06, spent 0.02 SOL",
-      "reason": "$INSIDER — TikTok virality play, dev paid $6k for a verified TikTok and is going to shill on every video. Attention narrative is concrete and repeatable. $8.9k mcap is fresh, bonding 31%."
-    },
-    {
-      "time": "2026-09-02 02:00 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $INSIDER closed at $2.95747e-06 | P&L: -50.9%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-02 02:02 UTC",
       "action": "sell",
@@ -25550,30 +25549,54 @@
       "action": "buy",
       "details": "[LLM] $ACTFY at $3.96122e-06, spent 0.02 SOL",
       "reason": "$ACTFY — AI agent marketplace narrative is hot in 2026, has real twitter handle (@ActifyAI), clear product story. Sub-$4k mcap with narrative backing. Size 0.05 SOL — discovery trade on attention."
+    },
+    {
+      "time": "2026-09-02 03:30 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $ACTFY at $5.33569e-06 | P&L: +34.7%",
+      "reason": "Auto take-profit at +34.7%"
+    },
+    {
+      "time": "2026-09-02 03:30 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ACTFY at $5.33569e-06 | P&L: +34.7%",
+      "reason": "$ACTFY is up +34.7% but pool is only $1139 and held 0.0h — extremely thin liquidity, any further push risks a rug or sharp reversal. Take profit now while we have it."
     }
   ],
   "trade_stats": {
-    "total": 1494,
-    "wins": 755,
+    "total": 1496,
+    "wins": 757,
     "losses": 739,
-    "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.982035,
-    "avg_pnl_pct": 37.34,
+    "win_rate_pct": 50.6,
+    "total_pnl_sol": -1.975106,
+    "avg_pnl_pct": 37.33,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 28,
-    "today_realized_sol": -0.042423,
-    "today_target_pct": -10.6,
+    "today_trades": 30,
+    "today_realized_sol": -0.035494,
+    "today_target_pct": -8.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 755,
+      "win_count": 757,
       "loss_count": 739,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T03:29:31.698329+00:00",
+  "last_llm_brief_at": "2026-09-02T03:30:58.608408+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8YATijj1UjLoQbioSRF1zahzja44gm43GysKHccTpump": {
+      "price_usd": 5.335693425835917e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1138.57281881928,
+      "volume_h24": 2261.02,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 11.315571644
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -12352,3 +12352,9 @@
 ## [2026-09-02 03:29 UTC] buy | [LLM] $ACTFY at $3.96122e-06, spent 0.02 SOL
 - **Reasoning:** $ACTFY — AI agent marketplace narrative is hot in 2026, has real twitter handle (@ActifyAI), clear product story. Sub-$4k mcap with narrative backing. Size 0.05 SOL — discovery trade on attention.
 
+## [2026-09-02 03:30 UTC] sell | [TP +30% (25%)] $ACTFY at $5.33569e-06 | P&L: +34.7%
+- **Reasoning:** Auto take-profit at +34.7%
+
+## [2026-09-02 03:30 UTC] sell | [FULL][LLM] $ACTFY at $5.33569e-06 | P&L: +34.7%
+- **Reasoning:** $ACTFY is up +34.7% but pool is only $1139 and held 0.0h — extremely thin liquidity, any further push risks a rug or sharp reversal. Take profit now while we have it.
+
