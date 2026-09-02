@@ -12400,3 +12400,6 @@
 ## [2026-09-02 04:47 UTC] buy | [LLM] $OZ at $2.92588e-06, spent 0.02 SOL
 - **Reasoning:** $OZ (Ozak AI) is single mint with own twitter handle @OzakAGI, AI meta is hot, viability passes (long desc + twitter). Bond only 2% is risky but $0.05 SOL position caps loss at -$5. Taking the trade for learning value - one position only to preserve capital for clearer setups.
 
+## [2026-09-02 04:57 UTC] sell | [FULL][LLM] $OZ at $2.79534e-06 | P&L: -4.5%
+- **Reasoning:** Down -4.5% in 12 min, no volume signal, and our share shows 273M% meaning illiquid / single-sided bonding curve. Cutting this dead weight now to free the slot for fresh launches with actual narratives.
+
