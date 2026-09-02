@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.343903,
+  "balance_sol": 0.358786,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BVAiVQTDRb7DctxMRusRrDGMXLMa3FhBSVpUH67apump": {
-      "symbol": "MMNW",
-      "name": "make memes not war",
-      "amount": 530184.8300996843,
-      "entry_price_usd": 3.7220981966401512e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T01:51:46.801742+00:00",
-      "entry_usd_value": 1.9734,
-      "entry_signals": {
-        "liquidity_usd": 478.22532237908996,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3722.2394943437334,
-        "ath_market_cap_usd": 3720.765378675471,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.846714527,
-        "description": "make memes not war. fees donated to savethechildren.org",
-        "twitter": "https://x.com/PsyopAnime/status/2094930488045531379",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25220,19 +25197,30 @@
       "pnl_pct": -4.66,
       "exit_reason": "LLM: sell_all — $STOCKCAT is -4.7% essentially at entry, held 0.0h, no momentum signal. Bonding-curve at $51 pool is tiny and easily dumped. Rotate capital into fresh",
       "partial": false
+    },
+    {
+      "mint": "BVAiVQTDRb7DctxMRusRrDGMXLMa3FhBSVpUH67apump",
+      "symbol": "MMNW",
+      "name": "make memes not war",
+      "amount_sold": 530184.8300996843,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T01:51:46.801742+00:00",
+      "exit_time": "2026-09-02T01:54:54.220886+00:00",
+      "entry_price_usd": 3.7220981966401512e-06,
+      "exit_price_usd": 2.7714996161903727e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.014883,
+      "pnl_sol": -0.005117,
+      "pnl_pct": -25.54,
+      "exit_reason": "LLM: sell_all — Down 25.5% on a $6-pool bonding-curve token with no bounce signal; only 4.5% from the -30% hard stop and no narrative strength visible. Cutting now fr",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T01:53:29.322665+00:00",
+  "last_updated": "2026-09-02T01:54:54.487903+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.74,
-  "portfolio_value_usd": 35.93,
+  "last_sol_price_usd": 98.73,
+  "portfolio_value_usd": 35.42,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 00:44 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-02 00:46 UTC",
       "action": "sell",
@@ -25346,40 +25334,46 @@
       "action": "buy",
       "details": "[LLM] $MMNW at $3.7221e-06, spent 0.02 SOL",
       "reason": "Only token passing the viability gate: long charity narrative ('make memes not war', fees to savethechildren.org) + twitter presence. Peace/charity memes travel on socials. Bond 12% still early, mcap $3.7k is bottom-of-curve attention entry. Risk: brand-new launch, narrative could flop, thin liquidity — but that's where alpha lives."
+    },
+    {
+      "time": "2026-09-02 01:54 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MMNW at $2.7715e-06 | P&L: -25.5%",
+      "reason": "Down 25.5% on a $6-pool bonding-curve token with no bounce signal; only 4.5% from the -30% hard stop and no narrative strength visible. Cutting now frees the slot and preserves capital for fresher launches."
     }
   ],
   "trade_stats": {
-    "total": 1482,
+    "total": 1483,
     "wins": 748,
-    "losses": 734,
-    "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.968739,
-    "avg_pnl_pct": 37.6,
+    "losses": 735,
+    "win_rate_pct": 50.4,
+    "total_pnl_sol": -1.973856,
+    "avg_pnl_pct": 37.56,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 16,
-    "today_realized_sol": -0.029127,
-    "today_target_pct": -7.3,
+    "today_trades": 17,
+    "today_realized_sol": -0.034244,
+    "today_target_pct": -8.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 748,
-      "loss_count": 734,
+      "loss_count": 735,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T01:53:29.051205+00:00",
+  "last_llm_brief_at": "2026-09-02T01:54:54.220345+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BVAiVQTDRb7DctxMRusRrDGMXLMa3FhBSVpUH67apump": {
-      "price_usd": 3.997711639701554e-06,
+      "price_usd": 2.7714996161903727e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 602.4162463561399,
-      "volume_h24": 504.96,
+      "liquidity_usd": 5.95356087501,
+      "volume_h24": 611.1,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 6.101035511
+      "real_sol_reserves": 0.060301437
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

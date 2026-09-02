@@ -12286,3 +12286,6 @@
 ## [2026-09-02 01:51 UTC] buy | [LLM] $MMNW at $3.7221e-06, spent 0.02 SOL
 - **Reasoning:** Only token passing the viability gate: long charity narrative ('make memes not war', fees to savethechildren.org) + twitter presence. Peace/charity memes travel on socials. Bond 12% still early, mcap $3.7k is bottom-of-curve attention entry. Risk: brand-new launch, narrative could flop, thin liquidity — but that's where alpha lives.
 
+## [2026-09-02 01:54 UTC] sell | [FULL][LLM] $MMNW at $2.7715e-06 | P&L: -25.5%
+- **Reasoning:** Down 25.5% on a $6-pool bonding-curve token with no bounce signal; only 4.5% from the -30% hard stop and no narrative strength visible. Cutting now frees the slot and preserves capital for fresher launches.
+
