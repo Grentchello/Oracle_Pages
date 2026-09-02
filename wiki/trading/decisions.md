@@ -12319,3 +12319,9 @@
 ## [2026-09-02 02:41 UTC] sell | [PARTIAL][LLM] $GMFRENS at $4.49336e-06 | P&L: +51.1%
 - **Reasoning:** Up +51.1% has blown past the +50% TP ladder trigger. Lock half the gain — this is a 0% bond curve, sub-$1k pool position with our share at 0%, which means thin liquidity could reverse it. Take profit on the moonshot, let the runner ride free.
 
+## [2026-09-02 02:42 UTC] sell | [TP +30% (25%)] $GMFRENS at $3.99151e-06 | P&L: +34.2%
+- **Reasoning:** Auto take-profit at +34.2%
+
+## [2026-09-02 02:42 UTC] sell | [FULL][LLM] $GMFRENS at $3.99151e-06 | P&L: +34.2%
+- **Reasoning:** Up +34.2% — above the +30% TP threshold and narrative (GMFrens) isn't strong enough to justify holding for +100%. Pool is only $589, so gains are fragile and could reverse on any sell pressure. Lock the gain, rotate capital.
+

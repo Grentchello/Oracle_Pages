@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.346553,
+  "balance_sol": 0.356614,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AvU8SngswUULxMf2QmzLGu28CAtPH9wZeZT3Y8wcpump": {
-      "symbol": "GMFRENS",
-      "name": "GMFRENS",
-      "amount": 251117.24599524593,
-      "entry_price_usd": 2.973511425074072e-06,
-      "entry_sol_spent": 0.0075,
-      "entry_time": "2026-09-02T02:40:02.085987+00:00",
-      "entry_usd_value": 1.9912,
-      "entry_signals": {
-        "liquidity_usd": 380.5482014406,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2965.7974037945114,
-        "ath_market_cap_usd": 3259.7886124926176,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.822300135,
-        "description": "The memecoin community to wish you a good morning.",
-        "twitter": "https://x.com/gmfrenmeme",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25322,25 +25299,47 @@
       "pnl_pct": 51.11,
       "exit_reason": "LLM: sell_half — Up +51.1% has blown past the +50% TP ladder trigger. Lock half the gain — this is a 0% bond curve, sub-$1k pool position with our share at 0%, which m",
       "partial": true
+    },
+    {
+      "mint": "AvU8SngswUULxMf2QmzLGu28CAtPH9wZeZT3Y8wcpump",
+      "symbol": "GMFRENS",
+      "name": "GMFRENS",
+      "amount_sold": 62779.31149881148,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-02T02:40:02.085987+00:00",
+      "exit_time": "2026-09-02T02:42:32.525278+00:00",
+      "entry_price_usd": 2.973511425074072e-06,
+      "exit_price_usd": 3.991513987236018e-06,
+      "entry_sol_for_chunk": 0.001875,
+      "exit_sol_received": 0.002515,
+      "pnl_sol": 0.00064,
+      "pnl_pct": 34.24,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "AvU8SngswUULxMf2QmzLGu28CAtPH9wZeZT3Y8wcpump",
+      "symbol": "GMFRENS",
+      "name": "GMFRENS",
+      "amount_sold": 188337.93449643446,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T02:40:02.085987+00:00",
+      "exit_time": "2026-09-02T02:42:54.457067+00:00",
+      "entry_price_usd": 2.973511425074072e-06,
+      "exit_price_usd": 3.991513987236018e-06,
+      "entry_sol_for_chunk": 0.005625,
+      "exit_sol_received": 0.007546,
+      "pnl_sol": 0.001921,
+      "pnl_pct": 34.24,
+      "exit_reason": "LLM: sell_all — Up +34.2% — above the +30% TP threshold and narrative (GMFrens) isn't strong enough to justify holding for +100%. Pool is only $589, so gains are frag",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T02:41:28.644113+00:00",
+  "last_updated": "2026-09-02T02:42:55.075925+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.77,
-  "portfolio_value_usd": 35.32,
+  "last_sol_price_usd": 99.62,
+  "portfolio_value_usd": 35.53,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 01:34 UTC",
-      "action": "buy",
-      "details": "[LLM] $PUMP TWINS at $3.21263e-06, spent 0.02 SOL",
-      "reason": "PUMP TWINS has the clearest narrative hook of the batch — 'FIRST TWINS on pump fun' is a memeable identity play, has description, has twitter, mcap $3.2k still cheap. Risk: bond only 6%, ultra-early, could rug. Sizing 0.05 SOL."
-    },
-    {
-      "time": "2026-09-02 01:38 UTC",
-      "action": "buy",
-      "details": "[LLM] $RAYGUN at $3.39923e-06, spent 0.02 SOL",
-      "reason": "$RAYGUN (Untold Raygun / Raygun the breakdancer) has STRONG narrative — viral Paris 2024 Olympics meme, Netflix reference, 'legend is back' framing. Meme coins with documented viral history and Netflix tie-in are exactly the attention-launch archetype. Fresh $3.4k mcap = early."
-    },
     {
       "time": "2026-09-02 01:39 UTC",
       "action": "sell",
@@ -25448,40 +25447,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $GMFRENS at $4.49336e-06 | P&L: +51.1%",
       "reason": "Up +51.1% has blown past the +50% TP ladder trigger. Lock half the gain — this is a 0% bond curve, sub-$1k pool position with our share at 0%, which means thin liquidity could reverse it. Take profit on the moonshot, let the runner ride free."
+    },
+    {
+      "time": "2026-09-02 02:42 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $GMFRENS at $3.99151e-06 | P&L: +34.2%",
+      "reason": "Auto take-profit at +34.2%"
+    },
+    {
+      "time": "2026-09-02 02:42 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GMFRENS at $3.99151e-06 | P&L: +34.2%",
+      "reason": "Up +34.2% — above the +30% TP threshold and narrative (GMFrens) isn't strong enough to justify holding for +100%. Pool is only $589, so gains are fragile and could reverse on any sell pressure. Lock the gain, rotate capital."
     }
   ],
   "trade_stats": {
-    "total": 1488,
-    "wins": 751,
+    "total": 1490,
+    "wins": 753,
     "losses": 737,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.978589,
+    "total_pnl_sol": -1.976028,
     "avg_pnl_pct": 37.46,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 22,
-    "today_realized_sol": -0.038977,
-    "today_target_pct": -9.7,
+    "today_trades": 24,
+    "today_realized_sol": -0.036416,
+    "today_target_pct": -9.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 751,
+      "win_count": 753,
       "loss_count": 737,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T02:41:28.373844+00:00",
+  "last_llm_brief_at": "2026-09-02T02:42:54.456581+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AvU8SngswUULxMf2QmzLGu28CAtPH9wZeZT3Y8wcpump": {
-      "price_usd": 4.493356294202503e-06,
+      "price_usd": 3.991513987236018e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 805.6953966336,
-      "volume_h24": 3140.42,
+      "liquidity_usd": 589.08899552412,
+      "volume_h24": 4940.37,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 8.07552768
+      "real_sol_reserves": 5.913360726
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
