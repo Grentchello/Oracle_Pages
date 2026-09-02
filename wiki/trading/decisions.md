@@ -12325,3 +12325,6 @@
 ## [2026-09-02 02:42 UTC] sell | [FULL][LLM] $GMFRENS at $3.99151e-06 | P&L: +34.2%
 - **Reasoning:** Up +34.2% — above the +30% TP threshold and narrative (GMFrens) isn't strong enough to justify holding for +100%. Pool is only $589, so gains are fragile and could reverse on any sell pressure. Lock the gain, rotate capital.
 
+## [2026-09-02 02:46 UTC] buy | [LLM] $pearcat at $3.068e-06, spent 0.02 SOL
+- **Reasoning:** $pearcat passes viability (desc ≥50 chars + twitter) and avoids fragility blocklist. Strong narrative: Tanuki cat meme already viral on YouTube/TikTok in China, mcap only $3.3k = massive upside if attention crosses to English X. One of the only clean plays in a field of sub-1min microcaps. 0.05 SOL position size.
+
