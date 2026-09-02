@@ -12265,3 +12265,6 @@
 ## [2026-09-02 01:38 UTC] buy | [LLM] $RAYGUN at $3.39923e-06, spent 0.02 SOL
 - **Reasoning:** $RAYGUN (Untold Raygun / Raygun the breakdancer) has STRONG narrative — viral Paris 2024 Olympics meme, Netflix reference, 'legend is back' framing. Meme coins with documented viral history and Netflix tie-in are exactly the attention-launch archetype. Fresh $3.4k mcap = early.
 
+## [2026-09-02 01:39 UTC] sell | [FULL][LLM] $RAYGUN at $2.88589e-06 | P&L: -15.1%
+- **Reasoning:** Down -15.1% with pool only $57 — dangerously thin liquidity, one dump wipes us to hard cap. No bounce signal, no clear narrative beyond the name. Per scalp discipline: losers exit fast at -20%, I'm pre-empting at -15% because the micro-pool makes recovery unlikely. Slot is more valuable than this bag.
+
