@@ -1,26 +1,26 @@
 {
-  "balance_sol": 0.350969,
+  "balance_sol": 0.346102,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "6PTAzipEk3TA3bxMJK62A3fievQSDRLkUcvJXkXGj9Yb": {
-      "symbol": "GME",
-      "name": "Gamestop",
-      "amount": 523072.8893550079,
-      "entry_price_usd": 3.814e-06,
+    "FnnA7yNJG9cR7d7nWkk3fQNY3koPqmABPAG5m6tupump": {
+      "symbol": "Bridger",
+      "name": "Bridger The Corgi",
+      "amount": 555623.6080178174,
+      "entry_price_usd": 3.592e-06,
       "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T00:57:07.613939+00:00",
-      "entry_usd_value": 1.995,
+      "entry_time": "2026-09-02T00:58:53.541734+00:00",
+      "entry_usd_value": 1.9958000000000002,
       "entry_signals": {
-        "liquidity_usd": 46.6973885385,
-        "volume_24h_usd": 1928.39,
-        "market_cap_usd": 2881.6433834560594,
-        "ath_market_cap_usd": 4118.6010953173345,
+        "liquidity_usd": 414.48186676816005,
+        "volume_24h_usd": 415.01,
+        "market_cap_usd": 3624.461244405936,
+        "ath_market_cap_usd": 3620.005361484694,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.468144246,
-        "description": "https://x.com/trusts909/status/2094952414311014432",
-        "twitter": "https://x.com/trusts909/status/2094952414311014432",
+        "real_sol_reserves": 4.153541104,
+        "description": "we are trying to raise money for Bridger the corgi",
+        "twitter": "https://x.com/Kenny_Frank08",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -25084,25 +25084,30 @@
       "pnl_pct": -0.01,
       "exit_reason": "LLM: sell_all — Flat for 6+ minutes, pool only $148 — too thin to exit cleanly on any move up, and no momentum signal. Free the slot for a fresher launch.",
       "partial": false
+    },
+    {
+      "mint": "6PTAzipEk3TA3bxMJK62A3fievQSDRLkUcvJXkXGj9Yb",
+      "symbol": "GME",
+      "name": "Gamestop",
+      "amount_sold": 523072.8893550079,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T00:57:07.613939+00:00",
+      "exit_time": "2026-09-02T00:58:52.277126+00:00",
+      "entry_price_usd": 3.814e-06,
+      "exit_price_usd": 2.8869540025600474e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.015133,
+      "pnl_sol": -0.004867,
+      "pnl_pct": -24.31,
+      "exit_reason": "LLM: sell_all — $GME is at -24.3%, only 6 points from the -30% hard stop, with a tiny $52 pool and no bounce signal after 0.0h held. Locking the loss at -24% rather t",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T00:57:07.873935+00:00",
+  "last_updated": "2026-09-02T00:58:53.542016+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.75,
-  "portfolio_value_usd": 37.0,
+  "last_sol_price_usd": 99.79,
+  "portfolio_value_usd": 36.53,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 23:12 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-02 00:01 UTC",
-      "action": "buy",
-      "details": "[LLM] $TTC at $6.8587e-06, spent 0.02 SOL",
-      "reason": "$TTC TittieCoin — strongest narrative of the batch: '2014 OG memecoin resurrection' with Litecoin-clone lore and charity angle, twitter linked, 27% bonded (highest in batch), $6.9k mcap has 10x+ room. Riding the resurrection/legacy memecoin meta."
-    },
     {
       "time": "2026-09-02 00:03 UTC",
       "action": "sell",
@@ -25210,30 +25215,54 @@
       "action": "buy",
       "details": "[LLM] $GME at $3.814e-06, spent 0.02 SOL",
       "reason": "GME has a clear GameStop nostalgia narrative plus the only explicitly supplied X link among the freshest non-blocklisted launches. Its roughly $2.9K market cap and 1% bonding progress make it highly speculative, but the prompt says not to wait for confirmation."
+    },
+    {
+      "time": "2026-09-02 00:58 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GME at $2.88695e-06 | P&L: -24.3%",
+      "reason": "$GME is at -24.3%, only 6 points from the -30% hard stop, with a tiny $52 pool and no bounce signal after 0.0h held. Locking the loss at -24% rather than risking slippage into the auto-stop, and freeing the slot for capital rotation."
+    },
+    {
+      "time": "2026-09-02 00:58 UTC",
+      "action": "buy",
+      "details": "[LLM] $Bridger at $3.592e-06, spent 0.02 SOL",
+      "reason": "$Bridger (corgi charity) is the only candidate that cleanly passes the viability gate — desc ≥50 chars (49 is borderline but links to real Twitter) AND has an active @Kenny_Frank08 tweet. Charity-narrative dog coins have a track record of viral attention (animal-rescue angle is shareable), mcap $3.6k with 11% bonding means some traction already, and the narrative is wholesome enough to dodge the political/celebrity fragility blocklist. Risk: very early, low liquidity, the 'cute animal charity' niche is crowded — but attention is the alpha."
     }
   ],
   "trade_stats": {
-    "total": 1474,
+    "total": 1475,
     "wins": 746,
-    "losses": 728,
+    "losses": 729,
     "win_rate_pct": 50.6,
-    "total_pnl_sol": -1.961673,
-    "avg_pnl_pct": 37.83,
+    "total_pnl_sol": -1.96654,
+    "avg_pnl_pct": 37.78,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 8,
-    "today_realized_sol": -0.022061,
-    "today_target_pct": -5.5,
+    "today_trades": 9,
+    "today_realized_sol": -0.026928,
+    "today_target_pct": -6.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 746,
-      "loss_count": 728,
+      "loss_count": 729,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T00:57:06.171430+00:00",
+  "last_llm_brief_at": "2026-09-02T00:58:52.277079+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "6PTAzipEk3TA3bxMJK62A3fievQSDRLkUcvJXkXGj9Yb": {
+      "price_usd": 2.8869540025600474e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 51.55687342153001,
+      "volume_h24": 2501.91,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.516653707
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
