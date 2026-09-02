@@ -12280,3 +12280,6 @@
 ## [2026-09-02 01:49 UTC] buy | [LLM] $STOCKCAT at $2.99932e-06, spent 0.02 SOL
 - **Reasoning:** $STOCKCAT: only token passing viability gate (desc 73 chars + twitter). 'Cat that trades stocks and shares profit' is a derivative utility-cat narrative, but it's the cleanest spec in a noisy batch. Fresh 0.9min age, mcap $3k — pure attention-market entry. Risk: thin liquidity, narrative weak, likely rug-rotates fast. Size 0.05 SOL per v7 cap.
 
+## [2026-09-02 01:50 UTC] sell | [FULL][LLM] $STOCKCAT at $2.85966e-06 | P&L: -4.7%
+- **Reasoning:** $STOCKCAT is -4.7% essentially at entry, held 0.0h, no momentum signal. Bonding-curve at $51 pool is tiny and easily dumped. Rotate capital into fresher launches with clearer narrative attention.
+

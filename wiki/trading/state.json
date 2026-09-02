@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.344813,
+  "balance_sol": 0.363903,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3vdUQPR5JiWrL6AauRHbihxCXvUt6isXxhciHYHmpump": {
-      "symbol": "STOCKCAT",
-      "name": "Stock Cat",
-      "amount": 659749.4171959489,
-      "entry_price_usd": 2.999320572968822e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T01:49:00.976738+00:00",
-      "entry_usd_value": 1.9788,
-      "entry_signals": {
-        "liquidity_usd": 51.681032264820004,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2991.457344586893,
-        "ath_market_cap_usd": 3758.3212969597316,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.522347203,
-        "description": "A cat that trades Stock Tokens and shares the profit with holders. ",
-        "twitter": "https://x.com/StockCatSOL/status/2094965362236219533?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25203,19 +25180,30 @@
       "pnl_pct": -5.88,
       "exit_reason": "LLM: sell_all — Down -5.9% after entry, on bonding curve with only $39 pool, and 5% of our slot locked. No narrative shown, fresh loss already. Cut and rotate into on",
       "partial": false
+    },
+    {
+      "mint": "3vdUQPR5JiWrL6AauRHbihxCXvUt6isXxhciHYHmpump",
+      "symbol": "STOCKCAT",
+      "name": "Stock Cat",
+      "amount_sold": 659749.4171959489,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T01:49:00.976738+00:00",
+      "exit_time": "2026-09-02T01:50:22.518729+00:00",
+      "entry_price_usd": 2.999320572968822e-06,
+      "exit_price_usd": 2.8596624561207773e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.01909,
+      "pnl_sol": -0.00091,
+      "pnl_pct": -4.66,
+      "exit_reason": "LLM: sell_all — $STOCKCAT is -4.7% essentially at entry, held 0.0h, no momentum signal. Bonding-curve at $51 pool is tiny and easily dumped. Rotate capital into fresh",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T01:49:00.976931+00:00",
+  "last_updated": "2026-09-02T01:50:23.025487+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.94,
-  "portfolio_value_usd": 36.09,
+  "last_sol_price_usd": 98.83,
+  "portfolio_value_usd": 35.96,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 00:40 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MIF at $2.78667e-06 | P&L: -6.5%",
-      "reason": "MIF is down 6.5% in 6 minutes on zero pool liquidity (bonding-curve trap, our share=624847225% means we ARE the exit liquidity). Stale and illiquid — exit now before it bleeds further into the -30% hard stop."
-    },
     {
       "time": "2026-09-02 00:41 UTC",
       "action": "buy",
@@ -25329,30 +25317,48 @@
       "action": "buy",
       "details": "[LLM] $STOCKCAT at $2.99932e-06, spent 0.02 SOL",
       "reason": "$STOCKCAT: only token passing viability gate (desc 73 chars + twitter). 'Cat that trades stocks and shares profit' is a derivative utility-cat narrative, but it's the cleanest spec in a noisy batch. Fresh 0.9min age, mcap $3k — pure attention-market entry. Risk: thin liquidity, narrative weak, likely rug-rotates fast. Size 0.05 SOL per v7 cap."
+    },
+    {
+      "time": "2026-09-02 01:50 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $STOCKCAT at $2.85966e-06 | P&L: -4.7%",
+      "reason": "$STOCKCAT is -4.7% essentially at entry, held 0.0h, no momentum signal. Bonding-curve at $51 pool is tiny and easily dumped. Rotate capital into fresher launches with clearer narrative attention."
     }
   ],
   "trade_stats": {
-    "total": 1481,
+    "total": 1482,
     "wins": 748,
-    "losses": 733,
+    "losses": 734,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.967829,
-    "avg_pnl_pct": 37.63,
+    "total_pnl_sol": -1.968739,
+    "avg_pnl_pct": 37.6,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 15,
-    "today_realized_sol": -0.028217,
-    "today_target_pct": -7.1,
+    "today_trades": 16,
+    "today_realized_sol": -0.029127,
+    "today_target_pct": -7.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 748,
-      "loss_count": 733,
+      "loss_count": 734,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T01:48:59.509991+00:00",
+  "last_llm_brief_at": "2026-09-02T01:50:22.518690+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3vdUQPR5JiWrL6AauRHbihxCXvUt6isXxhciHYHmpump": {
+      "price_usd": 2.8596624561207773e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 51.31484437231,
+      "volume_h24": 1246.49,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.519223357
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
