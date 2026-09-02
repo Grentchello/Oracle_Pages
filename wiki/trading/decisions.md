@@ -12439,3 +12439,6 @@
 ## [2026-09-02 05:39 UTC] sell | [hard-stop] $NAEA closed at $2.61373e-07 | P&L: -83.0%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-02 09:11 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
