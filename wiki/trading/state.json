@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.350969,
+  "balance_sol": 0.370969,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2uwGJTg6XJ4djstmFv9Rh2SQQ4UvddNGwaRepX2kpump": {
-      "symbol": "FORTSOL",
-      "name": "Fortsol",
-      "amount": 649591.9723175755,
-      "entry_price_usd": 3.0705428715256215e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T00:41:48.927592+00:00",
-      "entry_usd_value": 1.9946000000000002,
-      "entry_signals": {
-        "liquidity_usd": 147.74814829959,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3075.3281835405437,
-        "ath_market_cap_usd": 3124.443201418611,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.481481483,
-        "description": "The FPS built on Solana. Fast gameplay. Real competition. Web3 powered.",
-        "twitter": "https://x.com/fortsolfun",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25067,19 +25044,30 @@
       "pnl_pct": -6.47,
       "exit_reason": "LLM: sell_all — MIF is down 6.5% in 6 minutes on zero pool liquidity (bonding-curve trap, our share=624847225% means we ARE the exit liquidity). Stale and illiquid — ",
       "partial": false
+    },
+    {
+      "mint": "2uwGJTg6XJ4djstmFv9Rh2SQQ4UvddNGwaRepX2kpump",
+      "symbol": "FORTSOL",
+      "name": "Fortsol",
+      "amount_sold": 649591.9723175755,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T00:41:48.927592+00:00",
+      "exit_time": "2026-09-02T00:46:02.189753+00:00",
+      "entry_price_usd": 3.0705428715256215e-06,
+      "exit_price_usd": 3.0702349859474076e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.02,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.01,
+      "exit_reason": "LLM: sell_all — Flat for 6+ minutes, pool only $148 — too thin to exit cleanly on any move up, and no momentum signal. Free the slot for a fresher launch.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T00:44:27.404052+00:00",
+  "last_updated": "2026-09-02T00:46:02.455442+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.74,
-  "portfolio_value_usd": 37.0,
+  "last_sol_price_usd": 99.72,
+  "portfolio_value_usd": 36.99,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 21:13 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-01 21:42 UTC",
       "action": "observe",
@@ -25193,35 +25181,41 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-02 00:46 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FORTSOL at $3.07023e-06 | P&L: -0.0%",
+      "reason": "Flat for 6+ minutes, pool only $148 — too thin to exit cleanly on any move up, and no momentum signal. Free the slot for a fresher launch."
     }
   ],
   "trade_stats": {
-    "total": 1473,
+    "total": 1474,
     "wins": 746,
-    "losses": 727,
+    "losses": 728,
     "win_rate_pct": 50.6,
     "total_pnl_sol": -1.961673,
-    "avg_pnl_pct": 37.85,
+    "avg_pnl_pct": 37.83,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 7,
+    "today_trades": 8,
     "today_realized_sol": -0.022061,
     "today_target_pct": -5.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 746,
-      "loss_count": 727,
+      "loss_count": 728,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T00:44:27.403739+00:00",
+  "last_llm_brief_at": "2026-09-02T00:46:02.189714+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2uwGJTg6XJ4djstmFv9Rh2SQQ4UvddNGwaRepX2kpump": {
-      "price_usd": 3.070850757103835e-06,
+      "price_usd": 3.0702349859474076e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 147.76296311442,
+      "liquidity_usd": 147.73333348476,
       "volume_h24": 207.64,
       "dex_id": "pumpfun",
       "source": "bonding-curve",

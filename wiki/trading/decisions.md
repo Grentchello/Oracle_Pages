@@ -12229,3 +12229,6 @@
 ## [2026-09-02 00:44 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-02 00:46 UTC] sell | [FULL][LLM] $FORTSOL at $3.07023e-06 | P&L: -0.0%
+- **Reasoning:** Flat for 6+ minutes, pool only $148 — too thin to exit cleanly on any move up, and no momentum signal. Free the slot for a fresher launch.
+
