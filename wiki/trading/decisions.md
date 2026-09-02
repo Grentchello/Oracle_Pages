@@ -12211,3 +12211,6 @@
 ## [2026-09-02 00:18 UTC] sell | [FULL][LLM] $PRINTER at $2.85488e-06 | P&L: -2.1%
 - **Reasoning:** Down -2.1% on a bonding-curve token with only $29 pool depth — extremely fragile, and we've held 0h. Tiny loss, free up the slot for fresher attention.
 
+## [2026-09-02 00:22 UTC] buy | [LLM] $SOLR at $2.9575e-06, spent 0.02 SOL
+- **Reasoning:** $SOLR has an unusually substantive crypto-native narrative (treasury/spot pricing critique) — this kind of 'intellectual alpha' narrative can attract CT attention fast. 0.3min age, twitter linked. Smart-money bait memecoins with a real thesis often run hard.
+
