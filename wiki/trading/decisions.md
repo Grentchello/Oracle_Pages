@@ -12193,3 +12193,9 @@
 ## [2026-09-02 00:12 UTC] buy | [LLM] $kolo at $5.605e-06, spent 0.02 SOL
 - **Reasoning:** $kolo has the strongest narrative of the batch — autonomous prediction markets on wallet activity, real product story, active twitter. $5.7k mcap at0.7min is entry territory. Risk: brand-new, may rug, but viability gates pass and attention signal is concrete.
 
+## [2026-09-02 00:13 UTC] sell | [TP +30% (25%)] $kolo at $7.94262e-06 | P&L: +41.7%
+- **Reasoning:** Auto take-profit at +41.7%
+
+## [2026-09-02 00:14 UTC] sell | [FULL][LLM] $kolo at $7.94262e-06 | P&L: +41.7%
+- **Reasoning:** kolo is up +41.7% past the +30% TP tier with no visible narrative or attention signal in the prompt — lock the gain now before it gives back. Bot likely already trimmed but exit remaining to free the slot.
+

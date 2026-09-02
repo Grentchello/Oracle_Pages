@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.361812,
+  "balance_sol": 0.390137,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5d4f8d5pu1NKY9kkY2JaKbYTrtcnjRfD9xqcHsvMpump": {
-      "symbol": "kolo",
-      "name": "kolo",
-      "amount": 356788.58162355045,
-      "entry_price_usd": 5.605e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T00:12:48.211954+00:00",
-      "entry_usd_value": 1.9998,
-      "entry_signals": {
-        "liquidity_usd": 1663.62487777431,
-        "volume_24h_usd": 4581.41,
-        "market_cap_usd": 5737.218601229589,
-        "ath_market_cap_usd": 6465.471181879087,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 16.637912569,
-        "description": "kolo creates prediction markets on kol wallet activity. fully autonomous. every market settles against the chain.",
-        "twitter": "https://x.com/kolomarkets",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24965,25 +24942,47 @@
       "pnl_pct": -56.12,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "5d4f8d5pu1NKY9kkY2JaKbYTrtcnjRfD9xqcHsvMpump",
+      "symbol": "kolo",
+      "name": "kolo",
+      "amount_sold": 89197.14540588761,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-02T00:12:48.211954+00:00",
+      "exit_time": "2026-09-02T00:13:51.596041+00:00",
+      "entry_price_usd": 5.605e-06,
+      "exit_price_usd": 7.942619543868948e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007081,
+      "pnl_sol": 0.002081,
+      "pnl_pct": 41.71,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "5d4f8d5pu1NKY9kkY2JaKbYTrtcnjRfD9xqcHsvMpump",
+      "symbol": "kolo",
+      "name": "kolo",
+      "amount_sold": 267591.4362176628,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T00:12:48.211954+00:00",
+      "exit_time": "2026-09-02T00:14:13.357737+00:00",
+      "entry_price_usd": 5.605e-06,
+      "exit_price_usd": 7.942619543868948e-06,
+      "entry_sol_for_chunk": 0.015,
+      "exit_sol_received": 0.021244,
+      "pnl_sol": 0.006244,
+      "pnl_pct": 41.71,
+      "exit_reason": "LLM: sell_all — kolo is up +41.7% past the +30% TP tier with no visible narrative or attention signal in the prompt — lock the gain now before it gives back. Bot like",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T00:12:48.212238+00:00",
+  "last_updated": "2026-09-02T00:14:13.615932+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.99,
-  "portfolio_value_usd": 38.18,
+  "last_sol_price_usd": 100.044,
+  "portfolio_value_usd": 39.03,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 13:14 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-01 13:29 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-01 13:40 UTC",
       "action": "observe",
@@ -25091,30 +25090,54 @@
       "action": "buy",
       "details": "[LLM] $kolo at $5.605e-06, spent 0.02 SOL",
       "reason": "$kolo has the strongest narrative of the batch — autonomous prediction markets on wallet activity, real product story, active twitter. $5.7k mcap at0.7min is entry territory. Risk: brand-new, may rug, but viability gates pass and attention signal is concrete."
+    },
+    {
+      "time": "2026-09-02 00:13 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $kolo at $7.94262e-06 | P&L: +41.7%",
+      "reason": "Auto take-profit at +41.7%"
+    },
+    {
+      "time": "2026-09-02 00:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $kolo at $7.94262e-06 | P&L: +41.7%",
+      "reason": "kolo is up +41.7% past the +30% TP tier with no visible narrative or attention signal in the prompt — lock the gain now before it gives back. Bot likely already trimmed but exit remaining to free the slot."
     }
   ],
   "trade_stats": {
-    "total": 1467,
-    "wins": 744,
+    "total": 1469,
+    "wins": 746,
     "losses": 723,
-    "win_rate_pct": 50.7,
-    "total_pnl_sol": -1.95083,
+    "win_rate_pct": 50.8,
+    "total_pnl_sol": -1.942505,
     "avg_pnl_pct": 38.02,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 1,
-    "today_realized_sol": -0.011218,
-    "today_target_pct": -2.8,
+    "today_trades": 3,
+    "today_realized_sol": -0.002893,
+    "today_target_pct": -0.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 744,
+      "win_count": 746,
       "loss_count": 723,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T00:12:46.772693+00:00",
+  "last_llm_brief_at": "2026-09-02T00:14:13.357698+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5d4f8d5pu1NKY9kkY2JaKbYTrtcnjRfD9xqcHsvMpump": {
+      "price_usd": 7.942619543868948e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2056.20330504834,
+      "volume_h24": 6752.05,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 20.552989735
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
