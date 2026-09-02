@@ -12295,3 +12295,6 @@
 ## [2026-09-02 01:59 UTC] buy | [LLM] $INSIDER at $6.025e-06, spent 0.02 SOL
 - **Reasoning:** $INSIDER — TikTok virality play, dev paid $6k for a verified TikTok and is going to shill on every video. Attention narrative is concrete and repeatable. $8.9k mcap is fresh, bonding 31%.
 
+## [2026-09-02 02:00 UTC] sell | [hard-stop] $INSIDER closed at $2.95747e-06 | P&L: -50.9%
+- **Reasoning:** Hard -30% stop
+
