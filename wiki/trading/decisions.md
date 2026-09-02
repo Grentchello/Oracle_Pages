@@ -12268,3 +12268,6 @@
 ## [2026-09-02 01:39 UTC] sell | [FULL][LLM] $RAYGUN at $2.88589e-06 | P&L: -15.1%
 - **Reasoning:** Down -15.1% with pool only $57 — dangerously thin liquidity, one dump wipes us to hard cap. No bounce signal, no clear narrative beyond the name. Per scalp discipline: losers exit fast at -20%, I'm pre-empting at -15% because the micro-pool makes recovery unlikely. Slot is more valuable than this bag.
 
+## [2026-09-02 01:41 UTC] sell | [FULL][LLM] $PUMP TWINS at $3.90404e-06 | P&L: +21.5%
+- **Reasoning:** Up +21.5% on a $556 pool (extremely thin) means any exit by us or others will crater price. Per scalp discipline: up >20% with thin liquidity = take profit now. Lock the gain before it evaporates back into the bonding curve.
+
