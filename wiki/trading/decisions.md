@@ -12421,3 +12421,6 @@
 ## [2026-09-02 05:24 UTC] sell | [FULL][LLM] $SOLANA CAT at $3.09776e-06 | P&L: -15.4%
 - **Reasoning:** Down -15.4% on a $156 pool where I own 1% of liquidity — bonding-curve illiquidity means any further drop will accelerate, and the -20% loser-exit rule is about to trigger anyway. Cut it now while I can still get out near current price.
 
+## [2026-09-02 05:35 UTC] buy | [LLM] $Effect at $7.195e-06, spent 0.02 SOL
+- **Reasoning:** $Effect (The Butterfly Effect) has the strongest narrative of the batch — evocative 'financial tsunami' tagline + active Twitter account + already at $6.9k mcap vs $3k peers, suggesting real early traction. Fresh launch at 0.7min is exactly the attention window. Viability gate passes (desc >50 chars + twitter).
+
