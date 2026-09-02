@@ -12376,3 +12376,6 @@
 ## [2026-09-02 04:12 UTC] buy | [LLM] $CHURROTACO at $2.8e-06, spent 0.02 SOL
 - **Reasoning:** Churro Taco — absurd food-meme niche (dessert churro ice cream taco), Twitter source is a meme/news account, $2.8k mcap with room for 5-10x if the food-meme niche catches on. Low mcap + clear visual identity = classic viral meme structure. RISK: thin liquidity ($2.8k mcap, bond 1%) — but at $5 position size with -30% hard stop, the downside is contained.
 
+## [2026-09-02 04:17 UTC] sell | [FULL][LLM] $CHURROTACO at $2.79422e-06 | P&L: -0.2%
+- **Reasoning:** CHURROTACO is flat (-0.2%) after 6 minutes, pool is $0 (no real liquidity to exit into at scale), and our share=665091200% means we own a massive chunk of supply with no buyers — this is a trapped position. Cut losses on the illiquidity risk before it gets worse.
+
