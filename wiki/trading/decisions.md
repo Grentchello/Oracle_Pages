@@ -12205,3 +12205,9 @@
 ## [2026-09-02 00:17 UTC] buy | [LLM] $SAU at $6.279e-06, spent 0.02 SOL
 - **Reasoning:** $SAU has the strongest meta-narrative of the batch: an AI trading agent built to catch Pump.fun momentum before it's gone. Real twitter handle @sauniverse, $7.5k mcap at <1min, clear story for the AI-trading meta trend. Risk: very fresh, thin pool, but narrative is differentiated vs the $PASSIVE spam.
 
+## [2026-09-02 00:18 UTC] sell | [hard-stop] $SAU closed at $8.76143e-07 | P&L: -86.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-02 00:18 UTC] sell | [FULL][LLM] $PRINTER at $2.85488e-06 | P&L: -2.1%
+- **Reasoning:** Down -2.1% on a bonding-curve token with only $29 pool depth — extremely fragile, and we've held 0h. Tiny loss, free up the slot for fresher attention.
+
