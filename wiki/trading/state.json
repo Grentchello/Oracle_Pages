@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.327703,
+  "balance_sol": 0.346553,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AvU8SngswUULxMf2QmzLGu28CAtPH9wZeZT3Y8wcpump": {
       "symbol": "GMFRENS",
       "name": "GMFRENS",
-      "amount": 669645.9893206558,
+      "amount": 251117.24599524593,
       "entry_price_usd": 2.973511425074072e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-02T02:40:02.085987+00:00",
       "entry_usd_value": 1.9912,
       "entry_signals": {
@@ -25288,25 +25288,47 @@
       "pnl_pct": 6.24,
       "exit_reason": "LLM: sell_all — $1.84 notional in a $92 pool is a ghost position blocking a slot. +6.2% with no catalyst and tiny liquidity = will go stale or get rugged. Free the sl",
       "partial": false
+    },
+    {
+      "mint": "AvU8SngswUULxMf2QmzLGu28CAtPH9wZeZT3Y8wcpump",
+      "symbol": "GMFRENS",
+      "name": "GMFRENS",
+      "amount_sold": 167411.49733016395,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-02T02:40:02.085987+00:00",
+      "exit_time": "2026-09-02T02:41:05.712830+00:00",
+      "entry_price_usd": 2.973511425074072e-06,
+      "exit_price_usd": 4.493356294202503e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.00754,
+      "pnl_sol": 0.00254,
+      "pnl_pct": 51.11,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "AvU8SngswUULxMf2QmzLGu28CAtPH9wZeZT3Y8wcpump",
+      "symbol": "GMFRENS",
+      "name": "GMFRENS",
+      "amount_sold": 251117.24599524593,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-02T02:40:02.085987+00:00",
+      "exit_time": "2026-09-02T02:41:28.373883+00:00",
+      "entry_price_usd": 2.973511425074072e-06,
+      "exit_price_usd": 4.493356294202503e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.01131,
+      "pnl_sol": 0.00381,
+      "pnl_pct": 51.11,
+      "exit_reason": "LLM: sell_half — Up +51.1% has blown past the +50% TP ladder trigger. Lock half the gain — this is a 0% bond curve, sub-$1k pool position with our share at 0%, which m",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-02T02:40:02.086203+00:00",
+  "last_updated": "2026-09-02T02:41:28.644113+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.56,
-  "portfolio_value_usd": 34.62,
+  "last_sol_price_usd": 99.77,
+  "portfolio_value_usd": 35.32,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 01:19 UTC",
-      "action": "buy",
-      "details": "[LLM] $NASDANQ at $3.04365e-06, spent 0.02 SOL",
-      "reason": "$NASDANQ has the cleanest narrative hook of the slate — a self-aware 'memes vs nasdaq' meta with a dedicated X account already posting about it. Two mints racing means the thesis is being shopped, which is itself a signal. 0.05 SOL position, exit fast if it doesn't move in 15 min."
-    },
-    {
-      "time": "2026-09-02 01:22 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $NASDANQ at $2.82648e-06 | P&L: -7.1%",
-      "reason": "NASDANQ is down -7.1% after fresh entry, sitting on a $20 pool with our 9% share dominating the thin liquidity — exit now before it bleeds toward the -30% hard stop, slot is too valuable to park on a fading bonding-curve name."
-    },
     {
       "time": "2026-09-02 01:34 UTC",
       "action": "buy",
@@ -25414,30 +25436,54 @@
       "action": "buy",
       "details": "[LLM] $GMFRENS at $2.97351e-06, spent 0.02 SOL",
       "reason": "$GMFRENS — 'gm frens' is an established crypto community meme with a real cultural footprint (not just a random name). Has twitter handle (@gmfrenmeme) and passes viability gate (desc 53 chars). Best narrative foundation of the batch even if mcap is tiny ($3k). Only entry — daily loss cap is one bad trade away from triggering."
+    },
+    {
+      "time": "2026-09-02 02:41 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $GMFRENS at $4.49336e-06 | P&L: +51.1%",
+      "reason": "Auto take-profit at +51.1%"
+    },
+    {
+      "time": "2026-09-02 02:41 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $GMFRENS at $4.49336e-06 | P&L: +51.1%",
+      "reason": "Up +51.1% has blown past the +50% TP ladder trigger. Lock half the gain — this is a 0% bond curve, sub-$1k pool position with our share at 0%, which means thin liquidity could reverse it. Take profit on the moonshot, let the runner ride free."
     }
   ],
   "trade_stats": {
-    "total": 1486,
-    "wins": 749,
+    "total": 1488,
+    "wins": 751,
     "losses": 737,
-    "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.984939,
-    "avg_pnl_pct": 37.44,
+    "win_rate_pct": 50.5,
+    "total_pnl_sol": -1.978589,
+    "avg_pnl_pct": 37.46,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 20,
-    "today_realized_sol": -0.045327,
-    "today_target_pct": -11.3,
+    "today_trades": 22,
+    "today_realized_sol": -0.038977,
+    "today_target_pct": -9.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 749,
+      "win_count": 751,
       "loss_count": 737,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T02:40:00.045498+00:00",
+  "last_llm_brief_at": "2026-09-02T02:41:28.373844+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "AvU8SngswUULxMf2QmzLGu28CAtPH9wZeZT3Y8wcpump": {
+      "price_usd": 4.493356294202503e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 805.6953966336,
+      "volume_h24": 3140.42,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 8.07552768
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

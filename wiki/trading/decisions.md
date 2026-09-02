@@ -12313,3 +12313,9 @@
 ## [2026-09-02 02:40 UTC] buy | [LLM] $GMFRENS at $2.97351e-06, spent 0.02 SOL
 - **Reasoning:** $GMFRENS — 'gm frens' is an established crypto community meme with a real cultural footprint (not just a random name). Has twitter handle (@gmfrenmeme) and passes viability gate (desc 53 chars). Best narrative foundation of the batch even if mcap is tiny ($3k). Only entry — daily loss cap is one bad trade away from triggering.
 
+## [2026-09-02 02:41 UTC] sell | [TP +30% (25%)] $GMFRENS at $4.49336e-06 | P&L: +51.1%
+- **Reasoning:** Auto take-profit at +51.1%
+
+## [2026-09-02 02:41 UTC] sell | [PARTIAL][LLM] $GMFRENS at $4.49336e-06 | P&L: +51.1%
+- **Reasoning:** Up +51.1% has blown past the +50% TP ladder trigger. Lock half the gain — this is a 0% bond curve, sub-$1k pool position with our share at 0%, which means thin liquidity could reverse it. Take profit on the moonshot, let the runner ride free.
+
