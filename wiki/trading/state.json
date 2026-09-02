@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.37303,
+  "balance_sol": 0.381812,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "759xcCFouvFxWARS6PPhCco8Xtr7simjz2Y1R4frpump": {
-      "symbol": "TTC",
-      "name": "TittieCoin",
-      "amount": 291658.831228958,
-      "entry_price_usd": 6.858698540246313e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T00:01:57.470180+00:00",
-      "entry_usd_value": 2.0004,
-      "entry_signals": {
-        "liquidity_usd": 233.02956129293997,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6883.595187944075,
-        "ath_market_cap_usd": 6874.576681088085,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.329829647,
-        "description": "The OG dev of TittieCoin TTC that launched in 2014 was the pioneer of working towards donating the script Litecoin clone launched on Bitcoin Talk in 2014 and has now launching the breast cancer charity donation Token on Solana with 50% of creator rewards going to bcrf.org ",
-        "twitter": "https://x.com/tittiecoin_/status/2094930708254888297?s=46&t=tf-I9gKJKhNERJmOr7EGqQ",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -24948,19 +24925,30 @@
       "pnl_pct": -70.13,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "759xcCFouvFxWARS6PPhCco8Xtr7simjz2Y1R4frpump",
+      "symbol": "TTC",
+      "name": "TittieCoin",
+      "amount_sold": 291658.831228958,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T00:01:57.470180+00:00",
+      "exit_time": "2026-09-02T00:03:00.996947+00:00",
+      "entry_price_usd": 6.858698540246313e-06,
+      "exit_price_usd": 3.009577520776108e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.008782,
+      "pnl_sol": -0.011218,
+      "pnl_pct": -56.12,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T00:01:57.734362+00:00",
+  "last_updated": "2026-09-02T00:03:14.766858+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.02,
-  "portfolio_value_usd": 39.31,
+  "last_sol_price_usd": 99.95,
+  "portfolio_value_usd": 38.16,
   "recent_decisions": [
-    {
-      "time": "2026-09-01 12:10 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $BELLA  closed at $2.87007e-06 | P&L: -51.2%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-01 12:18 UTC",
       "action": "buy",
@@ -25074,30 +25062,48 @@
       "action": "buy",
       "details": "[LLM] $TTC at $6.8587e-06, spent 0.02 SOL",
       "reason": "$TTC TittieCoin — strongest narrative of the batch: '2014 OG memecoin resurrection' with Litecoin-clone lore and charity angle, twitter linked, 27% bonded (highest in batch), $6.9k mcap has 10x+ room. Riding the resurrection/legacy memecoin meta."
+    },
+    {
+      "time": "2026-09-02 00:03 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $TTC closed at $3.00958e-06 | P&L: -56.1%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1466,
+    "total": 1467,
     "wins": 744,
-    "losses": 722,
-    "win_rate_pct": 50.8,
-    "total_pnl_sol": -1.939612,
-    "avg_pnl_pct": 38.08,
+    "losses": 723,
+    "win_rate_pct": 50.7,
+    "total_pnl_sol": -1.95083,
+    "avg_pnl_pct": 38.02,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 0,
-    "today_realized_sol": 0,
-    "today_target_pct": 0.0,
+    "today_trades": 1,
+    "today_realized_sol": -0.011218,
+    "today_target_pct": -2.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 744,
-      "loss_count": 722,
+      "loss_count": 723,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T00:01:55.474400+00:00",
+  "last_llm_brief_at": "2026-09-02T00:03:14.766437+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "759xcCFouvFxWARS6PPhCco8Xtr7simjz2Y1R4frpump": {
+      "price_usd": 3.009577520776108e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 113.24969422630001,
+      "volume_h24": 14866.25,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.133063474
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
