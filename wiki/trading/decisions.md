@@ -12361,3 +12361,6 @@
 ## [2026-09-02 03:43 UTC] buy | [LLM] $PILLY at $3.427e-06, spent 0.02 SOL
 - **Reasoning:** $PILLY = Pumpfun's own mascot, backed by Pumpfun's official X account (twitter:https://x.com/Pumpfun). Meta-narrative: a Pumpfun-incubated mascot token. mcap $2.9k, bond 2%. Highest legitimacy signal on the board — Pumpfun promoting their own token is rare attention. 0.05 SOL position.
 
+## [2026-09-02 03:45 UTC] sell | [FULL][LLM] $PILLY at $2.82755e-06 | P&L: -17.5%
+- **Reasoning:** $PILLY is down -17.5% with pool only $14 (catastrophically thin liquidity) and our 12% share means we ARE the exit liquidity. Down >20% rule applies, but even before that — pool this thin will dump -50%+ in seconds. Cut now and free the slot.
+

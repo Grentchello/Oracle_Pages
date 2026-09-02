@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.337536,
+  "balance_sol": 0.354043,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FDiMMRbvDMCc5w8RwGpmkjCu6Tg6pGWwQB8cQUxsPhQD": {
-      "symbol": "PILLY",
-      "name": "The Pumpfun Mascot",
-      "amount": 584884.7388386343,
-      "entry_price_usd": 3.427e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T03:43:43.765727+00:00",
-      "entry_usd_value": 2.0044,
-      "entry_signals": {
-        "liquidity_usd": 31.03983403186,
-        "volume_24h_usd": 1245.58,
-        "market_cap_usd": 2889.927819551848,
-        "ath_market_cap_usd": 3719.465287224013,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.309716963,
-        "description": "The Pumpfun Mascot powered by clawpump.tech : PILLY The Pumpfun Mascot Agent type: Other",
-        "twitter": "https://x.com/Pumpfun",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25458,19 +25435,30 @@
       "pnl_pct": 34.7,
       "exit_reason": "LLM: sell_all — $ACTFY is up +34.7% but pool is only $1139 and held 0.0h — extremely thin liquidity, any further push risks a rug or sharp reversal. Take profit now w",
       "partial": false
+    },
+    {
+      "mint": "FDiMMRbvDMCc5w8RwGpmkjCu6Tg6pGWwQB8cQUxsPhQD",
+      "symbol": "PILLY",
+      "name": "The Pumpfun Mascot",
+      "amount_sold": 584884.7388386343,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T03:43:43.765727+00:00",
+      "exit_time": "2026-09-02T03:45:12.121361+00:00",
+      "entry_price_usd": 3.427e-06,
+      "exit_price_usd": 2.8275486208714815e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016507,
+      "pnl_sol": -0.003493,
+      "pnl_pct": -17.49,
+      "exit_reason": "LLM: sell_all — $PILLY is down -17.5% with pool only $14 (catastrophically thin liquidity) and our 12% share means we ARE the exit liquidity. Down >20% rule applies, ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T03:43:44.027151+00:00",
+  "last_updated": "2026-09-02T03:45:12.123123+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.22,
-  "portfolio_value_usd": 35.83,
+  "last_sol_price_usd": 100.19,
+  "portfolio_value_usd": 35.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 02:03 UTC",
-      "action": "buy",
-      "details": "[LLM] $PUMPFUN at $2.769e-06, spent 0.02 SOL",
-      "reason": "$PUMPFUN 'pumpfun is home' meta-token - self-referential pump.fun tribal narrative, the kind of inside joke that pumps on this platform. mcap $2.9k with tweet from 1xGodSpeed, bond just starting so still early. Highest attention/narrative ratio of the batch."
-    },
     {
       "time": "2026-09-02 02:10 UTC",
       "action": "sell",
@@ -25584,30 +25572,48 @@
       "action": "buy",
       "details": "[LLM] $PILLY at $3.427e-06, spent 0.02 SOL",
       "reason": "$PILLY = Pumpfun's own mascot, backed by Pumpfun's official X account (twitter:https://x.com/Pumpfun). Meta-narrative: a Pumpfun-incubated mascot token. mcap $2.9k, bond 2%. Highest legitimacy signal on the board — Pumpfun promoting their own token is rare attention. 0.05 SOL position."
+    },
+    {
+      "time": "2026-09-02 03:45 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PILLY at $2.82755e-06 | P&L: -17.5%",
+      "reason": "$PILLY is down -17.5% with pool only $14 (catastrophically thin liquidity) and our 12% share means we ARE the exit liquidity. Down >20% rule applies, but even before that — pool this thin will dump -50%+ in seconds. Cut now and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 1496,
+    "total": 1497,
     "wins": 757,
-    "losses": 739,
+    "losses": 740,
     "win_rate_pct": 50.6,
-    "total_pnl_sol": -1.975106,
-    "avg_pnl_pct": 37.33,
+    "total_pnl_sol": -1.978599,
+    "avg_pnl_pct": 37.3,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 30,
-    "today_realized_sol": -0.035494,
-    "today_target_pct": -8.9,
+    "today_trades": 31,
+    "today_realized_sol": -0.038987,
+    "today_target_pct": -9.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 757,
-      "loss_count": 739,
+      "loss_count": 740,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T03:43:42.461322+00:00",
+  "last_llm_brief_at": "2026-09-02T03:45:12.121323+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FDiMMRbvDMCc5w8RwGpmkjCu6Tg6pGWwQB8cQUxsPhQD": {
+      "price_usd": 2.8275486208714815e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 14.09677918759,
+      "volume_h24": 1621.8,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.140700461
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
