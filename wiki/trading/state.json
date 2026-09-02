@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.345962,
+  "balance_sol": 0.36452,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3CiMqFEeDA1WeWRh7KwXjHULL7cYAy8DBEWfQY8apump": {
-      "symbol": "NASDANQ",
-      "name": "Meme Economy Index",
-      "amount": 655002.5339976207,
-      "entry_price_usd": 3.0436523471636555e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T01:19:22.661883+00:00",
-      "entry_usd_value": 1.9936000000000003,
-      "entry_signals": {
-        "liquidity_usd": 134.68637518336,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3054.1465269510754,
-        "ath_market_cap_usd": 3045.829373187912,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.351187552,
-        "description": "Let's send NASDANQ so high that even Nasdaq investors get scared and rotate to Memes. ",
-        "twitter": "https://x.com/nasdanqonpf/status/2094957448721244474?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25135,19 +25112,30 @@
       "pnl_pct": -1.4,
       "exit_reason": "LLM: sell_all — Held 0.0h but already -1.4% with $49 pool liquidity and 4% of supply — that's thin exit depth. UNDERDOG narrative is generic and there's no real edge ",
       "partial": false
+    },
+    {
+      "mint": "3CiMqFEeDA1WeWRh7KwXjHULL7cYAy8DBEWfQY8apump",
+      "symbol": "NASDANQ",
+      "name": "Meme Economy Index",
+      "amount_sold": 655002.5339976207,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T01:19:22.661883+00:00",
+      "exit_time": "2026-09-02T01:22:27.269075+00:00",
+      "entry_price_usd": 3.0436523471636555e-06,
+      "exit_price_usd": 2.82648497071767e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018558,
+      "pnl_sol": -0.001442,
+      "pnl_pct": -7.14,
+      "exit_reason": "LLM: sell_all — NASDANQ is down -7.1% after fresh entry, sitting on a $20 pool with our 9% share dominating the thin liquidity — exit now before it bleeds toward the ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T01:21:02.319605+00:00",
+  "last_updated": "2026-09-02T01:22:27.547893+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.68,
-  "portfolio_value_usd": 36.48,
+  "last_sol_price_usd": 99.76,
+  "portfolio_value_usd": 36.36,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 00:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $kolo at $7.94262e-06 | P&L: +41.7%",
-      "reason": "kolo is up +41.7% past the +30% TP tier with no visible narrative or attention signal in the prompt — lock the gain now before it gives back. Bot likely already trimmed but exit remaining to free the slot."
-    },
     {
       "time": "2026-09-02 00:15 UTC",
       "action": "buy",
@@ -25261,40 +25249,46 @@
       "action": "buy",
       "details": "[LLM] $NASDANQ at $3.04365e-06, spent 0.02 SOL",
       "reason": "$NASDANQ has the cleanest narrative hook of the slate — a self-aware 'memes vs nasdaq' meta with a dedicated X account already posting about it. Two mints racing means the thesis is being shopped, which is itself a signal. 0.05 SOL position, exit fast if it doesn't move in 15 min."
+    },
+    {
+      "time": "2026-09-02 01:22 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $NASDANQ at $2.82648e-06 | P&L: -7.1%",
+      "reason": "NASDANQ is down -7.1% after fresh entry, sitting on a $20 pool with our 9% share dominating the thin liquidity — exit now before it bleeds toward the -30% hard stop, slot is too valuable to park on a fading bonding-curve name."
     }
   ],
   "trade_stats": {
-    "total": 1477,
+    "total": 1478,
     "wins": 747,
-    "losses": 730,
-    "win_rate_pct": 50.6,
-    "total_pnl_sol": -1.96668,
-    "avg_pnl_pct": 37.73,
+    "losses": 731,
+    "win_rate_pct": 50.5,
+    "total_pnl_sol": -1.968122,
+    "avg_pnl_pct": 37.7,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 11,
-    "today_realized_sol": -0.027068,
-    "today_target_pct": -6.8,
+    "today_trades": 12,
+    "today_realized_sol": -0.02851,
+    "today_target_pct": -7.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 747,
-      "loss_count": 730,
+      "loss_count": 731,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T01:21:02.031487+00:00",
+  "last_llm_brief_at": "2026-09-02T01:22:27.268593+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "3CiMqFEeDA1WeWRh7KwXjHULL7cYAy8DBEWfQY8apump": {
-      "price_usd": 3.0436523472607377e-06,
+      "price_usd": 2.82648497071767e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 134.68637518336,
+      "liquidity_usd": 19.94274197272,
       "volume_h24": 139.03,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.351187552
+      "real_sol_reserves": 0.199907197
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -12256,3 +12256,6 @@
 ## [2026-09-02 01:19 UTC] buy | [LLM] $NASDANQ at $3.04365e-06, spent 0.02 SOL
 - **Reasoning:** $NASDANQ has the cleanest narrative hook of the slate — a self-aware 'memes vs nasdaq' meta with a dedicated X account already posting about it. Two mints racing means the thesis is being shopped, which is itself a signal. 0.05 SOL position, exit fast if it doesn't move in 15 min.
 
+## [2026-09-02 01:22 UTC] sell | [FULL][LLM] $NASDANQ at $2.82648e-06 | P&L: -7.1%
+- **Reasoning:** NASDANQ is down -7.1% after fresh entry, sitting on a $20 pool with our 9% share dominating the thin liquidity — exit now before it bleeds toward the -30% hard stop, slot is too valuable to park on a fading bonding-curve name.
+
