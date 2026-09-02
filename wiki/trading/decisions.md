@@ -12307,3 +12307,6 @@
 ## [2026-09-02 02:10 UTC] sell | [FULL][LLM] $PUMPFUN at $2.94188e-06 | P&L: +6.2%
 - **Reasoning:** $1.84 notional in a $92 pool is a ghost position blocking a slot. +6.2% with no catalyst and tiny liquidity = will go stale or get rugged. Free the slot for a real narrative play.
 
+## [2026-09-02 02:17 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
