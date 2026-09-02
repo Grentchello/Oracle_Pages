@@ -12373,3 +12373,6 @@
 ## [2026-09-02 03:47 UTC] sell | [FULL][LLM] $PumpLife at $6.77427e-06 | P&L: +86.4%
 - **Reasoning:** Up +86.4% on a fresh launch with tiny $1.6k pool — this is peak attention moment, locking gains before it mean-reverts. The +100% TP at 50% is near; selling now captures the move cleanly.
 
+## [2026-09-02 04:12 UTC] buy | [LLM] $CHURROTACO at $2.8e-06, spent 0.02 SOL
+- **Reasoning:** Churro Taco — absurd food-meme niche (dessert churro ice cream taco), Twitter source is a meme/news account, $2.8k mcap with room for 5-10x if the food-meme niche catches on. Low mcap + clear visual identity = classic viral meme structure. RISK: thin liquidity ($2.8k mcap, bond 1%) — but at $5 position size with -30% hard stop, the downside is contained.
+
