@@ -12328,3 +12328,6 @@
 ## [2026-09-02 02:46 UTC] buy | [LLM] $pearcat at $3.068e-06, spent 0.02 SOL
 - **Reasoning:** $pearcat passes viability (desc ≥50 chars + twitter) and avoids fragility blocklist. Strong narrative: Tanuki cat meme already viral on YouTube/TikTok in China, mcap only $3.3k = massive upside if attention crosses to English X. One of the only clean plays in a field of sub-1min microcaps. 0.05 SOL position size.
 
+## [2026-09-02 02:49 UTC] sell | [FULL][LLM] $pearcat at $3.14546e-06 | P&L: +2.5%
+- **Reasoning:** +2.5% with pool only $184 and 1% share — illiquid micro-bag, no momentum after entry, freeing slot for stronger fresh narrative ($GINGER has bond 41% and clear meme DNA).
+
