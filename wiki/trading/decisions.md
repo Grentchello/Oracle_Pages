@@ -12187,3 +12187,6 @@
 ## [2026-09-02 00:03 UTC] sell | [hard-stop] $TTC closed at $3.00958e-06 | P&L: -56.1%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-02 00:10 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
