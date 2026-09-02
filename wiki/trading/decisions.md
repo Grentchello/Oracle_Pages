@@ -12298,3 +12298,6 @@
 ## [2026-09-02 02:00 UTC] sell | [hard-stop] $INSIDER closed at $2.95747e-06 | P&L: -50.9%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-02 02:02 UTC] sell | [FULL][LLM] $Landcoin at $2.99494e-06 | P&L: -10.7%
+- **Reasoning:** Down -10.7% in just 6 minutes on a thin $121 pool with 2% of supply — this is a slow bleed with no bounce signal. Cut it now before -30% hard stop hits, free the slot for fresher attention.
+

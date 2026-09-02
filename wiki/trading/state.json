@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.328593,
+  "balance_sol": 0.34647,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FQdpvHn9uGM8QWrs8Aj22EdXqtvCCUv2pfVpsrpNg7Mc": {
-      "symbol": "Landcoin",
-      "name": "Landcoin",
-      "amount": 590453.4606205251,
-      "entry_price_usd": 3.352e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T01:57:50.358886+00:00",
-      "entry_usd_value": 1.9791999999999998,
-      "entry_signals": {
-        "liquidity_usd": 515.39534975904,
-        "volume_24h_usd": 3090.89,
-        "market_cap_usd": 3828.644082431172,
-        "ath_market_cap_usd": 4537.929484359299,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.208117924,
-        "description": "The real Landcoin paired with a real estate company.",
-        "twitter": "https://x.com/landcoin_mcd/status/2094967412894392516",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25254,19 +25231,30 @@
       "pnl_pct": -50.91,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "FQdpvHn9uGM8QWrs8Aj22EdXqtvCCUv2pfVpsrpNg7Mc",
+      "symbol": "Landcoin",
+      "name": "Landcoin",
+      "amount_sold": 590453.4606205251,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T01:57:50.358886+00:00",
+      "exit_time": "2026-09-02T02:02:11.661684+00:00",
+      "entry_price_usd": 3.352e-06,
+      "exit_price_usd": 2.994944864075976e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.017877,
+      "pnl_sol": -0.002123,
+      "pnl_pct": -10.65,
+      "exit_reason": "LLM: sell_all — Down -10.7% in just 6 minutes on a thin $121 pool with 2% of supply — this is a slow bleed with no bounce signal. Cut it now before -30% hard stop hit",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T02:00:45.826072+00:00",
+  "last_updated": "2026-09-02T02:02:12.456883+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.051,
-  "portfolio_value_usd": 34.53,
+  "last_sol_price_usd": 98.92,
+  "portfolio_value_usd": 34.27,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 00:58 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GME at $2.88695e-06 | P&L: -24.3%",
-      "reason": "$GME is at -24.3%, only 6 points from the -30% hard stop, with a tiny $52 pool and no bounce signal after 0.0h held. Locking the loss at -24% rather than risking slippage into the auto-stop, and freeing the slot for capital rotation."
-    },
     {
       "time": "2026-09-02 00:58 UTC",
       "action": "buy",
@@ -25380,51 +25368,46 @@
       "action": "sell",
       "details": "[hard-stop] $INSIDER closed at $2.95747e-06 | P&L: -50.9%",
       "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-02 02:02 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Landcoin at $2.99494e-06 | P&L: -10.7%",
+      "reason": "Down -10.7% in just 6 minutes on a thin $121 pool with 2% of supply — this is a slow bleed with no bounce signal. Cut it now before -30% hard stop hits, free the slot for fresher attention."
     }
   ],
   "trade_stats": {
-    "total": 1484,
+    "total": 1485,
     "wins": 748,
-    "losses": 736,
+    "losses": 737,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.984049,
-    "avg_pnl_pct": 37.5,
+    "total_pnl_sol": -1.986172,
+    "avg_pnl_pct": 37.46,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 18,
-    "today_realized_sol": -0.044437,
-    "today_target_pct": -11.1,
+    "today_trades": 19,
+    "today_realized_sol": -0.04656,
+    "today_target_pct": -11.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 748,
-      "loss_count": 736,
+      "loss_count": 737,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T02:00:45.826025+00:00",
+  "last_llm_brief_at": "2026-09-02T02:02:11.661161+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FQdpvHn9uGM8QWrs8Aj22EdXqtvCCUv2pfVpsrpNg7Mc": {
-      "price_usd": 3.3199332999668847e-06,
+      "price_usd": 2.994944864075976e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 281.99838579120603,
-      "volume_h24": 4008.24,
+      "liquidity_usd": 120.53984065064,
+      "volume_h24": 4078.5,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.847001906
-    },
-    "AG6iyR5mD41SVBhEbif4PKNRFZsFmWDM9JEhHZGVpump": {
-      "price_usd": 2.9574733576485065e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 99.26158430796902,
-      "volume_h24": 16307.82,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.002126019
+      "real_sol_reserves": 1.218558842
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
