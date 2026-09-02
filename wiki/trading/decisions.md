@@ -12199,3 +12199,6 @@
 ## [2026-09-02 00:14 UTC] sell | [FULL][LLM] $kolo at $7.94262e-06 | P&L: +41.7%
 - **Reasoning:** kolo is up +41.7% past the +30% TP tier with no visible narrative or attention signal in the prompt — lock the gain now before it gives back. Bot likely already trimmed but exit remaining to free the slot.
 
+## [2026-09-02 00:15 UTC] buy | [LLM] $PRINTER at $2.917e-06, spent 0.02 SOL
+- **Reasoning:** $PRINTER has the strongest narrative — RWA tokenized stocks paying holders via sell-tax, full description explains mechanism, twitter present, bond still forming. This is the kind of story that catches CT attention in 2025-2026. Risk: mcap only $2.9k and bond 2%, so ultra-early — could rug fast. Sizing 0.1 SOL.
+
