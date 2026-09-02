@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.351264,
+  "balance_sol": 0.370024,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "B9qcFmTTDF4FAddwpNuovibLSX9nJ55uSUVUKPupump": {
-      "symbol": "HUSKY",
-      "name": "NonChalantHusky",
-      "amount": 587753.9005004416,
-      "entry_price_usd": 3.397e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T04:24:09.521131+00:00",
-      "entry_usd_value": 1.9966,
-      "entry_signals": {
-        "liquidity_usd": 306.8397122124,
-        "volume_24h_usd": 937.86,
-        "market_cap_usd": 3402.8712312266116,
-        "ath_market_cap_usd": 3612.092358585808,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.07362228,
-        "description": "a very nonchalant husky got captured few days ago and is viral now",
-        "twitter": "https://x.com/ChillHuskyy/status/2095004072755556616",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25526,19 +25503,30 @@
       "pnl_pct": -0.21,
       "exit_reason": "LLM: sell_all — CHURROTACO is flat (-0.2%) after 6 minutes, pool is $0 (no real liquidity to exit into at scale), and our share=665091200% means we own a massive chun",
       "partial": false
+    },
+    {
+      "mint": "B9qcFmTTDF4FAddwpNuovibLSX9nJ55uSUVUKPupump",
+      "symbol": "HUSKY",
+      "name": "NonChalantHusky",
+      "amount_sold": 587753.9005004416,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T04:24:09.521131+00:00",
+      "exit_time": "2026-09-02T04:26:52.691137+00:00",
+      "entry_price_usd": 3.397e-06,
+      "exit_price_usd": 3.1877436174513844e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.01876,
+      "pnl_sol": -0.00124,
+      "pnl_pct": -6.16,
+      "exit_reason": "LLM: sell_all — $HUSKY is -6.2% after just opened, pool only $205 (way below 5x position size rule = $25 min), and it's on bonding curve. Tiny pool = no exit liquidit",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T04:25:34.259847+00:00",
+  "last_updated": "2026-09-02T04:26:52.982342+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.93,
-  "portfolio_value_usd": 37.1,
+  "last_sol_price_usd": 99.87,
+  "portfolio_value_usd": 36.95,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 02:42 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GMFRENS at $3.99151e-06 | P&L: +34.2%",
-      "reason": "Up +34.2% — above the +30% TP threshold and narrative (GMFrens) isn't strong enough to justify holding for +100%. Pool is only $589, so gains are fragile and could reverse on any sell pressure. Lock the gain, rotate capital."
-    },
     {
       "time": "2026-09-02 02:46 UTC",
       "action": "buy",
@@ -25652,40 +25640,46 @@
       "action": "buy",
       "details": "[LLM] $HUSKY at $3.397e-06, spent 0.02 SOL",
       "reason": "Best narrative in this batch — tied to a real viral husky video with ongoing meme arc, fresh X presence, sub-$4k mcap at 1.2min. Classic story-driven attention play."
+    },
+    {
+      "time": "2026-09-02 04:26 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HUSKY at $3.18774e-06 | P&L: -6.2%",
+      "reason": "$HUSKY is -6.2% after just opened, pool only $205 (way below 5x position size rule = $25 min), and it's on bonding curve. Tiny pool = no exit liquidity + high rug probability. Cut it loose, free the slot, redeploy to a fresh launch with actual attention."
     }
   ],
   "trade_stats": {
-    "total": 1500,
+    "total": 1501,
     "wins": 759,
-    "losses": 741,
+    "losses": 742,
     "win_rate_pct": 50.6,
-    "total_pnl_sol": -1.961378,
-    "avg_pnl_pct": 37.34,
+    "total_pnl_sol": -1.962618,
+    "avg_pnl_pct": 37.31,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 34,
-    "today_realized_sol": -0.021766,
-    "today_target_pct": -5.4,
+    "today_trades": 35,
+    "today_realized_sol": -0.023006,
+    "today_target_pct": -5.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 759,
-      "loss_count": 741,
+      "loss_count": 742,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T04:25:33.982577+00:00",
+  "last_llm_brief_at": "2026-09-02T04:26:52.691097+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "B9qcFmTTDF4FAddwpNuovibLSX9nJ55uSUVUKPupump": {
-      "price_usd": 3.390109951197811e-06,
+      "price_usd": 3.1877436174513844e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 304.39087183371,
-      "volume_h24": 937.86,
+      "liquidity_usd": 205.15084284807,
+      "volume_h24": 1039.61,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.046040947
+      "real_sol_reserves": 2.054178861
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

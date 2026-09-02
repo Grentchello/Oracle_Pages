@@ -12382,3 +12382,6 @@
 ## [2026-09-02 04:24 UTC] buy | [LLM] $HUSKY at $3.397e-06, spent 0.02 SOL
 - **Reasoning:** Best narrative in this batch — tied to a real viral husky video with ongoing meme arc, fresh X presence, sub-$4k mcap at 1.2min. Classic story-driven attention play.
 
+## [2026-09-02 04:26 UTC] sell | [FULL][LLM] $HUSKY at $3.18774e-06 | P&L: -6.2%
+- **Reasoning:** $HUSKY is -6.2% after just opened, pool only $205 (way below 5x position size rule = $25 min), and it's on bonding curve. Tiny pool = no exit liquidity + high rug probability. Cut it loose, free the slot, redeploy to a fresh launch with actual attention.
+
