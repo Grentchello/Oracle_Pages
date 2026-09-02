@@ -12247,3 +12247,6 @@
 ## [2026-09-02 01:01 UTC] sell | [FULL][LLM] $Bridger at $3.61184e-06 | P&L: +0.6%
 - **Reasoning:** $Bridger is +0.6% after fresh entry, pool only $413, bonding-curve position with 0% share — this is dead weight. Stale capital rotation priority: free up the slot for fresh attention-launched mints.
 
+## [2026-09-02 01:05 UTC] buy | [LLM] $UNDERDOG at $2.9163e-06, spent 0.02 SOL
+- **Reasoning:** Underdog - AI agent narrative is the meta right now (ai16z, virtuals), has both twitter and description, complete info. Lower attention than Pumpatar but cleaner fundamentals. Position size 0.05 SOL.
+
