@@ -12214,3 +12214,6 @@
 ## [2026-09-02 00:22 UTC] buy | [LLM] $SOLR at $2.9575e-06, spent 0.02 SOL
 - **Reasoning:** $SOLR has an unusually substantive crypto-native narrative (treasury/spot pricing critique) — this kind of 'intellectual alpha' narrative can attract CT attention fast. 0.3min age, twitter linked. Smart-money bait memecoins with a real thesis often run hard.
 
+## [2026-09-02 00:25 UTC] sell | [FULL][LLM] $SOLR at $2.92028e-06 | P&L: -1.3%
+- **Reasoning:** $SOLR is down 1.3% on a tiny $66 pool, held 0h on bonding curve with 3% share — liquidity is dangerously thin and there's no clear narrative or attention catalyst. Cut it loose to free the slot for fresh launches.
+
