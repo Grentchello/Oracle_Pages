@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.346102,
+  "balance_sol": 0.366227,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FnnA7yNJG9cR7d7nWkk3fQNY3koPqmABPAG5m6tupump": {
-      "symbol": "Bridger",
-      "name": "Bridger The Corgi",
-      "amount": 555623.6080178174,
-      "entry_price_usd": 3.592e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T00:58:53.541734+00:00",
-      "entry_usd_value": 1.9958000000000002,
-      "entry_signals": {
-        "liquidity_usd": 414.48186676816005,
-        "volume_24h_usd": 415.01,
-        "market_cap_usd": 3624.461244405936,
-        "ath_market_cap_usd": 3620.005361484694,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.153541104,
-        "description": "we are trying to raise money for Bridger the corgi",
-        "twitter": "https://x.com/Kenny_Frank08",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25101,19 +25078,30 @@
       "pnl_pct": -24.31,
       "exit_reason": "LLM: sell_all — $GME is at -24.3%, only 6 points from the -30% hard stop, with a tiny $52 pool and no bounce signal after 0.0h held. Locking the loss at -24% rather t",
       "partial": false
+    },
+    {
+      "mint": "FnnA7yNJG9cR7d7nWkk3fQNY3koPqmABPAG5m6tupump",
+      "symbol": "Bridger",
+      "name": "Bridger The Corgi",
+      "amount_sold": 555623.6080178174,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T00:58:53.541734+00:00",
+      "exit_time": "2026-09-02T01:01:32.721131+00:00",
+      "entry_price_usd": 3.592e-06,
+      "exit_price_usd": 3.611836028415776e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020125,
+      "pnl_sol": 0.000125,
+      "pnl_pct": 0.55,
+      "exit_reason": "LLM: sell_all — $Bridger is +0.6% after fresh entry, pool only $413, bonding-curve position with 0% share — this is dead weight. Stale capital rotation priority: free",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T01:00:19.357985+00:00",
+  "last_updated": "2026-09-02T01:01:33.235227+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.7,
-  "portfolio_value_usd": 36.5,
+  "last_sol_price_usd": 99.72,
+  "portfolio_value_usd": 36.52,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 00:03 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $TTC closed at $3.00958e-06 | P&L: -56.1%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-02 00:10 UTC",
       "action": "observe",
@@ -25227,36 +25215,42 @@
       "action": "buy",
       "details": "[LLM] $Bridger at $3.592e-06, spent 0.02 SOL",
       "reason": "$Bridger (corgi charity) is the only candidate that cleanly passes the viability gate — desc ≥50 chars (49 is borderline but links to real Twitter) AND has an active @Kenny_Frank08 tweet. Charity-narrative dog coins have a track record of viral attention (animal-rescue angle is shareable), mcap $3.6k with 11% bonding means some traction already, and the narrative is wholesome enough to dodge the political/celebrity fragility blocklist. Risk: very early, low liquidity, the 'cute animal charity' niche is crowded — but attention is the alpha."
+    },
+    {
+      "time": "2026-09-02 01:01 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Bridger at $3.61184e-06 | P&L: +0.6%",
+      "reason": "$Bridger is +0.6% after fresh entry, pool only $413, bonding-curve position with 0% share — this is dead weight. Stale capital rotation priority: free up the slot for fresh attention-launched mints."
     }
   ],
   "trade_stats": {
-    "total": 1475,
-    "wins": 746,
+    "total": 1476,
+    "wins": 747,
     "losses": 729,
     "win_rate_pct": 50.6,
-    "total_pnl_sol": -1.96654,
-    "avg_pnl_pct": 37.78,
+    "total_pnl_sol": -1.966415,
+    "avg_pnl_pct": 37.76,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 9,
-    "today_realized_sol": -0.026928,
+    "today_trades": 10,
+    "today_realized_sol": -0.026803,
     "today_target_pct": -6.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 746,
+      "win_count": 747,
       "loss_count": 729,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T01:00:19.357443+00:00",
+  "last_llm_brief_at": "2026-09-02T01:01:32.721086+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FnnA7yNJG9cR7d7nWkk3fQNY3koPqmABPAG5m6tupump": {
-      "price_usd": 3.611111632902656e-06,
+      "price_usd": 3.611836028415776e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 413.3054862989,
-      "volume_h24": 425.57,
+      "liquidity_usd": 413.38839612564,
+      "volume_h24": 426.38,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,

@@ -12244,3 +12244,6 @@
 ## [2026-09-02 00:58 UTC] buy | [LLM] $Bridger at $3.592e-06, spent 0.02 SOL
 - **Reasoning:** $Bridger (corgi charity) is the only candidate that cleanly passes the viability gate — desc ≥50 chars (49 is borderline but links to real Twitter) AND has an active @Kenny_Frank08 tweet. Charity-narrative dog coins have a track record of viral attention (animal-rescue angle is shareable), mcap $3.6k with 11% bonding means some traction already, and the narrative is wholesome enough to dodge the political/celebrity fragility blocklist. Risk: very early, low liquidity, the 'cute animal charity' niche is crowded — but attention is the alpha.
 
+## [2026-09-02 01:01 UTC] sell | [FULL][LLM] $Bridger at $3.61184e-06 | P&L: +0.6%
+- **Reasoning:** $Bridger is +0.6% after fresh entry, pool only $413, bonding-curve position with 0% share — this is dead weight. Stale capital rotation priority: free up the slot for fresh attention-launched mints.
+
