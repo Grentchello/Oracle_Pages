@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.32647,
+  "balance_sol": 0.347703,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2rc4kPDuNmzvrukj66RqW5QeYdNvCT3GxFhnY8B6FdWT": {
-      "symbol": "PUMPFUN",
-      "name": "pumpfun is home",
-      "amount": 714626.2188515709,
-      "entry_price_usd": 2.769e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T02:03:34.983671+00:00",
-      "entry_usd_value": 1.9788,
-      "entry_signals": {
-        "liquidity_usd": 91.65804291168,
-        "volume_24h_usd": 1922.83,
-        "market_cap_usd": 2940.442585136285,
-        "ath_market_cap_usd": 4499.162539337019,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.926400272,
-        "description": "🇺🇸🇬🇧 What happens when the man who wanted the raids becomes the man in the chains? Milo Yiannopoulos told Piers Morgan that ICE put him in chains, hands and feet, and that he sat there weeping for an hour.  He said he had been cavalier when other people talked about what detention does to you... he ",
-        "twitter": "https://x.com/1xGodSpeed/status/2094968968419197297",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25271,19 +25248,30 @@
       "pnl_pct": -10.65,
       "exit_reason": "LLM: sell_all — Down -10.7% in just 6 minutes on a thin $121 pool with 2% of supply — this is a slow bleed with no bounce signal. Cut it now before -30% hard stop hit",
       "partial": false
+    },
+    {
+      "mint": "2rc4kPDuNmzvrukj66RqW5QeYdNvCT3GxFhnY8B6FdWT",
+      "symbol": "PUMPFUN",
+      "name": "pumpfun is home",
+      "amount_sold": 714626.2188515709,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T02:03:34.983671+00:00",
+      "exit_time": "2026-09-02T02:10:27.381497+00:00",
+      "entry_price_usd": 2.769e-06,
+      "exit_price_usd": 2.941884386644513e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.021233,
+      "pnl_sol": 0.001233,
+      "pnl_pct": 6.24,
+      "exit_reason": "LLM: sell_all — $1.84 notional in a $92 pool is a ghost position blocking a slot. +6.2% with no catalyst and tiny liquidity = will go stale or get rugged. Free the sl",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T02:08:25.067713+00:00",
+  "last_updated": "2026-09-02T02:10:27.641622+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.1,
-  "portfolio_value_usd": 34.33,
+  "last_sol_price_usd": 99.012,
+  "portfolio_value_usd": 34.43,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 01:01 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Bridger at $3.61184e-06 | P&L: +0.6%",
-      "reason": "$Bridger is +0.6% after fresh entry, pool only $413, bonding-curve position with 0% share — this is dead weight. Stale capital rotation priority: free up the slot for fresh attention-launched mints."
-    },
     {
       "time": "2026-09-02 01:05 UTC",
       "action": "buy",
@@ -25397,35 +25385,41 @@
       "action": "buy",
       "details": "[LLM] $PUMPFUN at $2.769e-06, spent 0.02 SOL",
       "reason": "$PUMPFUN 'pumpfun is home' meta-token - self-referential pump.fun tribal narrative, the kind of inside joke that pumps on this platform. mcap $2.9k with tweet from 1xGodSpeed, bond just starting so still early. Highest attention/narrative ratio of the batch."
+    },
+    {
+      "time": "2026-09-02 02:10 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PUMPFUN at $2.94188e-06 | P&L: +6.2%",
+      "reason": "$1.84 notional in a $92 pool is a ghost position blocking a slot. +6.2% with no catalyst and tiny liquidity = will go stale or get rugged. Free the slot for a real narrative play."
     }
   ],
   "trade_stats": {
-    "total": 1485,
-    "wins": 748,
+    "total": 1486,
+    "wins": 749,
     "losses": 737,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.986172,
-    "avg_pnl_pct": 37.46,
+    "total_pnl_sol": -1.984939,
+    "avg_pnl_pct": 37.44,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 19,
-    "today_realized_sol": -0.04656,
-    "today_target_pct": -11.6,
+    "today_trades": 20,
+    "today_realized_sol": -0.045327,
+    "today_target_pct": -11.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 748,
+      "win_count": 749,
       "loss_count": 737,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T02:08:25.067603+00:00",
+  "last_llm_brief_at": "2026-09-02T02:10:27.381462+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2rc4kPDuNmzvrukj66RqW5QeYdNvCT3GxFhnY8B6FdWT": {
-      "price_usd": 2.9444990780559044e-06,
+      "price_usd": 2.941884386644513e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 91.80626695519999,
+      "liquidity_usd": 91.724743731264,
       "volume_h24": 1922.83,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
