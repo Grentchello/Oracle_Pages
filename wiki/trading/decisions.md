@@ -12346,3 +12346,6 @@
 ## [2026-09-02 03:05 UTC] buy | [LLM] $DAD at $3.654e-06, spent 0.02 SOL
 - **Reasoning:** $DAD 'FACE of SOLANA' tied to @fluffyonchain (real CT personality, 1.1min old, $3.3k mcap, 8% bond). Celebrity-influencer narrative is the exact attention signal that pumps early; tiny mcap gives 5-10x room. Fragility gate concern: celebrity-adjacent but not on the explicit blocklist, and the twitter is a known CT account not a politician. Best attention-to-mcap ratio on the board.
 
+## [2026-09-02 03:08 UTC] sell | [FULL][LLM] $DAD at $3.41202e-06 | P&L: -6.6%
+- **Reasoning:** $DAD is down -6.6% with no momentum, liquidity only $314 (well under our 5x threshold), and it's a generic 'dad' name with no viral narrative. Cut the loss now and free the slot.
+
