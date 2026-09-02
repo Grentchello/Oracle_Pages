@@ -12340,3 +12340,6 @@
 ## [2026-09-02 02:59 UTC] buy | [LLM] $MCD at $2.847e-06, spent 0.02 SOL
 - **Reasoning:** $MCD has the strongest attention signal of the slate: a named partner (OTCDesks) with a dedicated twitter post, a concrete HODL-earn mechanic, and a recognizable brand hook (McDonald's french fry flywheel). Narrative is memeable and the twitter backing gives it a real launch pad vs pure spam. Risk: bond only 1% complete and mcap $2.8k — extremely early, high dump risk.
 
+## [2026-09-02 03:01 UTC] sell | [FULL][LLM] $MCD at $2.86644e-06 | P&L: +0.7%
+- **Reasoning:** Entry just made, +0.7% with no momentum, bonding curve only $39 pool — fragile liquidity. With a fresh slate and limited SOL, I want capital free to chase fresh attention rather than babysit a flat position.
+

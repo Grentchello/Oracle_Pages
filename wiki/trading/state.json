@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.331823,
+  "balance_sol": 0.351941,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3j5XC8qFCyfDc5qDurN1YHzkx7WV99fHCACS2j9Q88Tw": {
-      "symbol": "MCD",
-      "name": "French Fry Flywheel",
-      "amount": 701088.8654724271,
-      "entry_price_usd": 2.847e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-02T02:59:56.020730+00:00",
-      "entry_usd_value": 1.996,
-      "entry_signals": {
-        "liquidity_usd": 39.201314751,
-        "volume_24h_usd": 1116.13,
-        "market_cap_usd": 2864.4524871251397,
-        "ath_market_cap_usd": 3873.8633956632675,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.392798745,
-        "description": "Earn $MCD by HODLing. Unlimited french fries, powered by OTC Desks.",
-        "twitter": "https://x.com/OTCDesks/status/2094918022645338469",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25390,19 +25367,30 @@
       "pnl_pct": -26.42,
       "exit_reason": "LLM: sell_all — Down -26.4% with 0% pool share and thin liquidity ($1233). No bounce, sitting near the -30% hard stop. Cut the loss now rather than wait for auto-stop",
       "partial": false
+    },
+    {
+      "mint": "3j5XC8qFCyfDc5qDurN1YHzkx7WV99fHCACS2j9Q88Tw",
+      "symbol": "MCD",
+      "name": "French Fry Flywheel",
+      "amount_sold": 701088.8654724271,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-02T02:59:56.020730+00:00",
+      "exit_time": "2026-09-02T03:01:35.488141+00:00",
+      "entry_price_usd": 2.847e-06,
+      "exit_price_usd": 2.8664371560282882e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020118,
+      "pnl_sol": 0.000118,
+      "pnl_pct": 0.68,
+      "exit_reason": "LLM: sell_all — Entry just made, +0.7% with no momentum, bonding curve only $39 pool — fragile liquidity. With a fresh slate and limited SOL, I want capital free to c",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-02T02:59:56.283989+00:00",
+  "last_updated": "2026-09-02T03:01:36.278925+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.8,
-  "portfolio_value_usd": 35.11,
+  "last_sol_price_usd": 99.89,
+  "portfolio_value_usd": 35.16,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 01:50 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $STOCKCAT at $2.85966e-06 | P&L: -4.7%",
-      "reason": "$STOCKCAT is -4.7% essentially at entry, held 0.0h, no momentum signal. Bonding-curve at $51 pool is tiny and easily dumped. Rotate capital into fresher launches with clearer narrative attention."
-    },
     {
       "time": "2026-09-02 01:51 UTC",
       "action": "buy",
@@ -25516,30 +25504,48 @@
       "action": "buy",
       "details": "[LLM] $MCD at $2.847e-06, spent 0.02 SOL",
       "reason": "$MCD has the strongest attention signal of the slate: a named partner (OTCDesks) with a dedicated twitter post, a concrete HODL-earn mechanic, and a recognizable brand hook (McDonald's french fry flywheel). Narrative is memeable and the twitter backing gives it a real launch pad vs pure spam. Risk: bond only 1% complete and mcap $2.8k — extremely early, high dump risk."
+    },
+    {
+      "time": "2026-09-02 03:01 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MCD at $2.86644e-06 | P&L: +0.7%",
+      "reason": "Entry just made, +0.7% with no momentum, bonding curve only $39 pool — fragile liquidity. With a fresh slate and limited SOL, I want capital free to chase fresh attention rather than babysit a flat position."
     }
   ],
   "trade_stats": {
-    "total": 1492,
-    "wins": 754,
+    "total": 1493,
+    "wins": 755,
     "losses": 738,
-    "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.980819,
-    "avg_pnl_pct": 37.39,
+    "win_rate_pct": 50.6,
+    "total_pnl_sol": -1.980701,
+    "avg_pnl_pct": 37.37,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 26,
-    "today_realized_sol": -0.041207,
+    "today_trades": 27,
+    "today_realized_sol": -0.041089,
     "today_target_pct": -10.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 754,
+      "win_count": 755,
       "loss_count": 738,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-02T02:59:54.644114+00:00",
+  "last_llm_brief_at": "2026-09-02T03:01:35.488100+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3j5XC8qFCyfDc5qDurN1YHzkx7WV99fHCACS2j9Q88Tw": {
+      "price_usd": 2.8664371560282882e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 39.23666663805,
+      "volume_h24": 1126.54,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.392798745
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
