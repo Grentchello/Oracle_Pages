@@ -13549,3 +13549,6 @@
 ## [2026-09-03 15:36 UTC] buy | [LLM] $solsem at $8.25365e-06, spent 0.02 SOL
 - **Reasoning:** Clearest narrative on the board: 10% supply to ANSEM (real Solana KOL with audience) + 100% fees to Nepal relief = dual viral angle. $8k mcap is the highest in the batch and bond is 29% furthest along. Passes viability (desc + twitter) and fragility gates (no celebrity/political keywords). Risk: ANSEM-bait tokens often dump after the KOL acknowledgement, so I'll watch for quick +30-50% to take profit.
 
+## [2026-09-03 15:37 UTC] sell | [hard-stop] $solsem closed at $3.09271e-06 | P&L: -62.5%
+- **Reasoning:** Hard -30% stop
+
