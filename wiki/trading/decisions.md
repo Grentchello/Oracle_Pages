@@ -13534,3 +13534,6 @@
 ## [2026-09-03 15:16 UTC] sell | [PARTIAL][LLM] $ASTRA at $4.07329e-06 | P&L: +34.4%
 - **Reasoning:** Up +34.4% on a $566 pool — gains are real but liquidity is razor thin. Lock half to bank ~0.017 SOL profit and let the rest ride if momentum continues; full exit risks being the exit liquidity on a 0.9% pool share.
 
+## [2026-09-03 15:22 UTC] sell | [FULL][LLM] $ASTRA at $2.9214e-06 | P&L: -3.6%
+- **Reasoning:** $ASTRA is down -3.6% after 12 minutes on a $4 pool with our 19% share dominating liquidity — any exit will move price, but sitting flat-bonding-curve with no narrative surfaced is a worse outcome than realizing a small loss.
+

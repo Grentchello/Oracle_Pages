@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.381072,
+  "balance_sol": 0.388305,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5Eec7mgKeCBABQxQAmSLNV5STwrP6AJjzWPFBkHypump": {
-      "symbol": "ASTRA",
-      "name": "A6TRA",
-      "amount": 258028.6876811018,
-      "entry_price_usd": 3.030186321632271e-06,
-      "entry_sol_spent": 0.0075,
-      "entry_time": "2026-09-03T15:12:49.216672+00:00",
-      "entry_usd_value": 2.085,
-      "entry_signals": {
-        "liquidity_usd": 51.481481429999995,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3024.1551244307607,
-        "ath_market_cap_usd": 3035.154025801213,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.49382716,
-        "description": "\"Put That There\" clip courtesy of MIT Media Laboratory, Chris Schmandt, and Eric Hulteen. ON SEPTEMBER 3RD OPENAI LAUNCHED ASTRA",
-        "twitter": "https://x.com/OpenAI",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -29385,19 +29362,30 @@
       "pnl_pct": 34.42,
       "exit_reason": "LLM: sell_half — Up +34.4% on a $566 pool — gains are real but liquidity is razor thin. Lock half to bank ~0.017 SOL profit and let the rest ride if momentum continues",
       "partial": true
+    },
+    {
+      "mint": "5Eec7mgKeCBABQxQAmSLNV5STwrP6AJjzWPFBkHypump",
+      "symbol": "ASTRA",
+      "name": "A6TRA",
+      "amount_sold": 258028.6876811018,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T15:12:49.216672+00:00",
+      "exit_time": "2026-09-03T15:22:14.425073+00:00",
+      "entry_price_usd": 3.030186321632271e-06,
+      "exit_price_usd": 2.9214031661577924e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.007233,
+      "pnl_sol": -0.000267,
+      "pnl_pct": -3.59,
+      "exit_reason": "LLM: sell_all — $ASTRA is down -3.6% after 12 minutes on a $4 pool with our 19% share dominating liquidity — any exit will move price, but sitting flat-bonding-curve ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T15:20:49.253431+00:00",
+  "last_updated": "2026-09-03T15:22:14.679494+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.34,
-  "portfolio_value_usd": 40.54,
+  "last_sol_price_usd": 104.22,
+  "portfolio_value_usd": 40.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 14:42 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $HAMSTER at $1.3388e-05 | P&L: +45.8%",
-      "reason": "$HAMSTER +45.8% — between +30% TP (auto at 25%) and +100% TP. Lock half the gains at this level — narrative is generic (hamster meme), pool $3571 still thin, no reason to hold full size into the next leg without confirmation."
-    },
     {
       "time": "2026-09-03 14:43 UTC",
       "action": "sell",
@@ -29511,40 +29499,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $ASTRA at $4.07329e-06 | P&L: +34.4%",
       "reason": "Up +34.4% on a $566 pool — gains are real but liquidity is razor thin. Lock half to bank ~0.017 SOL profit and let the rest ride if momentum continues; full exit risks being the exit liquidity on a 0.9% pool share."
+    },
+    {
+      "time": "2026-09-03 15:22 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ASTRA at $2.9214e-06 | P&L: -3.6%",
+      "reason": "$ASTRA is down -3.6% after 12 minutes on a $4 pool with our 19% share dominating liquidity — any exit will move price, but sitting flat-bonding-curve with no narrative surfaced is a worse outcome than realizing a small loss."
     }
   ],
   "trade_stats": {
-    "total": 1727,
+    "total": 1728,
     "wins": 888,
-    "losses": 839,
+    "losses": 840,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.944072,
-    "avg_pnl_pct": 35.5,
+    "total_pnl_sol": -1.944339,
+    "avg_pnl_pct": 35.47,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 216,
-    "today_realized_sol": 0.048789,
-    "today_target_pct": 12.2,
+    "today_trades": 217,
+    "today_realized_sol": 0.048522,
+    "today_target_pct": 12.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 888,
-      "loss_count": 839,
+      "loss_count": 840,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T15:20:48.939477+00:00",
+  "last_llm_brief_at": "2026-09-03T15:22:14.425037+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5Eec7mgKeCBABQxQAmSLNV5STwrP6AJjzWPFBkHypump": {
-      "price_usd": 3.0843918185203203e-06,
+      "price_usd": 2.9214031661577924e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 88.4271921588,
-      "volume_h24": 1698.74,
+      "liquidity_usd": 4.03020324144,
+      "volume_h24": 1726.5,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.84749082
+      "real_sol_reserves": 0.038670152
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
