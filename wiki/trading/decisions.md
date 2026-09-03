@@ -12814,3 +12814,6 @@
 ## [2026-09-03 05:22 UTC] buy | [LLM] $HELI DOG at $3.211e-06, spent 0.02 SOL
 - **Reasoning:** $HELI DOG has the strongest attention signal: '1.3M views on TikTok, 28k on X' — that's real cross-platform virality in the description. Dog-themed meta is hot (train dogs rival narrative). Small mcap $3.2k = room to run. Risk: thin liquidity, but the social proof is concrete.
 
+## [2026-09-03 05:27 UTC] sell | [PARTIAL][LLM] $HELI DOG at $3.66723e-06 | P&L: +14.2%
+- **Reasoning:** $HELI DOG up +14.2% in 6 min but pool is $437 with our share=0% (insufficient liquidity to actually exit at scale). Take half profit now to lock gains before the bonding curve dumps, keep runner for the narrative.
+

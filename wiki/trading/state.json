@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.334616,
+  "balance_sol": 0.346065,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "2U6KJYC7WRS7XXkrvi73NvNSh8Y97hjrxJxanrQypump": {
       "symbol": "HELI DOG",
       "name": "HELI DOGTER",
-      "amount": 624042.3544067269,
+      "amount": 312021.17720336345,
       "entry_price_usd": 3.211e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T05:22:55.124349+00:00",
       "entry_usd_value": 2.0038,
       "entry_signals": {
@@ -26806,19 +26806,30 @@
       "pnl_pct": -17.91,
       "exit_reason": "LLM: sell_all — Down -17.9% on a fresh entry (held 0.0h, no time invested), 22% of pool is us, liquidity only $4 — this is illiquid bonding-curve drift, not a setup w",
       "partial": false
+    },
+    {
+      "mint": "2U6KJYC7WRS7XXkrvi73NvNSh8Y97hjrxJxanrQypump",
+      "symbol": "HELI DOG",
+      "name": "HELI DOGTER",
+      "amount_sold": 312021.17720336345,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T05:22:55.124349+00:00",
+      "exit_time": "2026-09-03T05:27:15.230097+00:00",
+      "entry_price_usd": 3.211e-06,
+      "exit_price_usd": 3.6672301303688943e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011449,
+      "pnl_sol": 0.001449,
+      "pnl_pct": 14.21,
+      "exit_reason": "LLM: sell_half — $HELI DOG up +14.2% in 6 min but pool is $437 with our share=0% (insufficient liquidity to actually exit at scale). Take half profit now to lock gains",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T05:25:51.028489+00:00",
+  "last_updated": "2026-09-03T05:27:15.230438+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.01,
-  "portfolio_value_usd": 37.48,
+  "last_sol_price_usd": 99.94,
+  "portfolio_value_usd": 37.6,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 04:31 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Moho at $1.1026e-05 | P&L: +49.3%",
-      "reason": "Up 49.3% and bonding curve is still incomplete (risk of dump as curve completes). Lock half the gain now per scalp discipline — up >20% with any doubt = take profit. Hold half for further upside if narrative ('Last Moho') sustains."
-    },
     {
       "time": "2026-09-03 04:32 UTC",
       "action": "sell",
@@ -26932,35 +26943,41 @@
       "action": "buy",
       "details": "[LLM] $HELI DOG at $3.211e-06, spent 0.02 SOL",
       "reason": "$HELI DOG has the strongest attention signal: '1.3M views on TikTok, 28k on X' — that's real cross-platform virality in the description. Dog-themed meta is hot (train dogs rival narrative). Small mcap $3.2k = room to run. Risk: thin liquidity, but the social proof is concrete."
+    },
+    {
+      "time": "2026-09-03 05:27 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $HELI DOG at $3.66723e-06 | P&L: +14.2%",
+      "reason": "$HELI DOG up +14.2% in 6 min but pool is $437 with our share=0% (insufficient liquidity to actually exit at scale). Take half profit now to lock gains before the bonding curve dumps, keep runner for the narrative."
     }
   ],
   "trade_stats": {
-    "total": 1574,
-    "wins": 793,
+    "total": 1575,
+    "wins": 794,
     "losses": 781,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.958027,
-    "avg_pnl_pct": 36.07,
+    "total_pnl_sol": -1.956578,
+    "avg_pnl_pct": 36.06,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 63,
-    "today_realized_sol": 0.034834,
-    "today_target_pct": 8.7,
+    "today_trades": 64,
+    "today_realized_sol": 0.036283,
+    "today_target_pct": 9.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 793,
+      "win_count": 794,
       "loss_count": 781,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T05:25:51.028432+00:00",
+  "last_llm_brief_at": "2026-09-03T05:27:15.230060+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "6NfXbizCW4xREm4YGJd81uhcJSKPGYhBKzQxQkYxpump": {
-      "price_usd": 2.8147868268646737e-06,
+      "price_usd": 2.812816673101245e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 9.966578958240001,
+      "liquidity_usd": 9.95960305056,
       "volume_h24": 30.99,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
@@ -26968,15 +26985,15 @@
       "real_sol_reserves": 0.099655824
     },
     "2U6KJYC7WRS7XXkrvi73NvNSh8Y97hjrxJxanrQypump": {
-      "price_usd": 3.2006408536283877e-06,
+      "price_usd": 3.6672301303688943e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 209.66778718225004,
-      "volume_h24": 273.95,
+      "liquidity_usd": 436.58251192878,
+      "volume_h24": 283.83,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.096468225
+      "real_sol_reserves": 4.368446187
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
