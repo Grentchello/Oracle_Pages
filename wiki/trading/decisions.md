@@ -12829,3 +12829,9 @@
 ## [2026-09-03 05:41 UTC] buy | [LLM] $A's CAT at $3.822e-06, spent 0.02 SOL
 - **Reasoning:** $A's CAT has the clearest crypto-native narrative: 'Ansem and the bull had a baby' piggybacks on a top memecoin influencer with a dedicated X account (@Blackcat_UD). Strong attention signal, passes viability and fragility gates.
 
+## [2026-09-03 05:43 UTC] sell | [FULL][LLM] $GRASS at $2.80541e-06 | P&L: -3.4%
+- **Reasoning:** $GRASS position shows our share=193537082% which indicates the token has effectively been absorbed/migrated or position data is broken — no recoverable value at bonding-curve, exiting to free slot and avoid further bleed.
+
+## [2026-09-03 05:43 UTC] sell | [FULL][LLM] $A's CAT at $2.89261e-06 | P&L: -24.3%
+- **Reasoning:** $A's CAT is -24.3%,6 points from the -30% hard stop. No bounce signal, no narrative traction visible, down 24% on a fresh entry = exit now before hard stop triggers at worse price.
+

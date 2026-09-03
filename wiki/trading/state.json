@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.338624,
+  "balance_sol": 0.373128,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4z7gbTdnRrN8uCQidcyUgsNXUWffzWZrrTDTdEX8EgGG": {
-      "symbol": "GRASS",
-      "name": "Grass Ritual",
-      "amount": 692217.6308539945,
-      "entry_price_usd": 2.904e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T05:39:50.448123+00:00",
-      "entry_usd_value": 2.0102,
-      "entry_signals": {
-        "liquidity_usd": 44.47632801347,
-        "volume_24h_usd": 1523.26,
-        "market_cap_usd": 2881.548048559114,
-        "ath_market_cap_usd": 4342.12322764413,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.442506497,
-        "description": "The ‘grass ritual’ comforting Nepalese whose loved ones can’t be found https://www.thetimes.com/world/asia/article/nepal-flood-victims-grass-ceremony-swfhmklv0?utm_term=Autofeed&utm_medium=Social&utm_source=Twitter#Echobox=1788413383",
-        "twitter": "https://twitter.com/thetimes/status/2095386028844441678",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "4PN1ZiGq7gLnDQH5D26vqWHTJFMR7mwYFsgpTfw3pump": {
-      "symbol": "A's CAT",
-      "name": "The Black Cat",
-      "amount": 525536.3683935114,
-      "entry_price_usd": 3.822e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T05:41:24.579280+00:00",
-      "entry_usd_value": 2.0086000000000004,
-      "entry_signals": {
-        "liquidity_usd": 37.79817656329,
-        "volume_24h_usd": 502.64,
-        "market_cap_usd": 2870.674951645262,
-        "ath_market_cap_usd": 3821.1091584813025,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.376363403,
-        "description": "If Ansem and the bull had a baby. It would be a black cat",
-        "twitter": "https://x.com/Blackcat_UD",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -26857,25 +26812,47 @@
       "pnl_pct": 26.49,
       "exit_reason": "LLM: sell_all — $HELI DOG up +26.5% in 6 min — locked below TP1 but near the +30% trigger. Bonding curve only 0% complete, no real liquidity yet, our share = 0%. Take",
       "partial": false
+    },
+    {
+      "mint": "4z7gbTdnRrN8uCQidcyUgsNXUWffzWZrrTDTdEX8EgGG",
+      "symbol": "GRASS",
+      "name": "Grass Ritual",
+      "amount_sold": 692217.5414373279,
+      "fraction_sold": 0.9999998708257885,
+      "entry_time": "2026-09-03T05:39:50.448123+00:00",
+      "exit_time": "2026-09-03T05:43:08.376307+00:00",
+      "entry_price_usd": 2.904e-06,
+      "exit_price_usd": 2.8054054063405405e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019354,
+      "pnl_sol": -0.000646,
+      "pnl_pct": -3.4,
+      "exit_reason": "LLM: sell_all — $GRASS position shows our share=193537082% which indicates the token has effectively been absorbed/migrated or position data is broken — no recoverabl",
+      "partial": false
+    },
+    {
+      "mint": "4PN1ZiGq7gLnDQH5D26vqWHTJFMR7mwYFsgpTfw3pump",
+      "symbol": "A's CAT",
+      "name": "The Black Cat",
+      "amount_sold": 525536.3683935114,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T05:41:24.579280+00:00",
+      "exit_time": "2026-09-03T05:43:08.376658+00:00",
+      "entry_price_usd": 3.822e-06,
+      "exit_price_usd": 2.8926079118289908e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.01515,
+      "pnl_sol": -0.00485,
+      "pnl_pct": -24.32,
+      "exit_reason": "LLM: sell_all — $A's CAT is -24.3%,6 points from the -30% hard stop. No bounce signal, no narrative traction visible, down 24% on a fresh entry = exit now before hard",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T05:41:24.579503+00:00",
+  "last_updated": "2026-09-03T05:43:08.756594+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.43,
-  "portfolio_value_usd": 38.03,
+  "last_sol_price_usd": 100.34,
+  "portfolio_value_usd": 37.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 04:49 UTC",
-      "action": "buy",
-      "details": "[LLM] $PEMP at $4.867e-06, spent 0.02 SOL",
-      "reason": "$PEMP has the strongest narrative — meta-joke about PumpFun callouts being the attention economy itself, self-referential viral hook. $7.1k mcap is highest of fresh launches, has tweet from callout account, bond 27% (some traction). 0.05 SOL position."
-    },
-    {
-      "time": "2026-09-03 04:50 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $PEMP at $7.72449e-06 | P&L: +58.7%",
-      "reason": "Auto take-profit at +58.7%"
-    },
     {
       "time": "2026-09-03 04:51 UTC",
       "action": "sell",
@@ -26983,40 +26960,63 @@
       "action": "buy",
       "details": "[LLM] $A's CAT at $3.822e-06, spent 0.02 SOL",
       "reason": "$A's CAT has the clearest crypto-native narrative: 'Ansem and the bull had a baby' piggybacks on a top memecoin influencer with a dedicated X account (@Blackcat_UD). Strong attention signal, passes viability and fragility gates."
+    },
+    {
+      "time": "2026-09-03 05:43 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GRASS at $2.80541e-06 | P&L: -3.4%",
+      "reason": "$GRASS position shows our share=193537082% which indicates the token has effectively been absorbed/migrated or position data is broken — no recoverable value at bonding-curve, exiting to free slot and avoid further bleed."
+    },
+    {
+      "time": "2026-09-03 05:43 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $A's CAT at $2.89261e-06 | P&L: -24.3%",
+      "reason": "$A's CAT is -24.3%,6 points from the -30% hard stop. No bounce signal, no narrative traction visible, down 24% on a fresh entry = exit now before hard stop triggers at worse price."
     }
   ],
   "trade_stats": {
-    "total": 1577,
+    "total": 1579,
     "wins": 795,
-    "losses": 782,
-    "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.954019,
-    "avg_pnl_pct": 36.03,
+    "losses": 784,
+    "win_rate_pct": 50.3,
+    "total_pnl_sol": -1.959515,
+    "avg_pnl_pct": 35.96,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 66,
-    "today_realized_sol": 0.038842,
-    "today_target_pct": 9.7,
+    "today_trades": 68,
+    "today_realized_sol": 0.033346,
+    "today_target_pct": 8.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 795,
-      "loss_count": 782,
+      "loss_count": 784,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T05:41:23.194675+00:00",
+  "last_llm_brief_at": "2026-09-03T05:43:08.351963+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4z7gbTdnRrN8uCQidcyUgsNXUWffzWZrrTDTdEX8EgGG": {
-      "price_usd": 2.807921715754241e-06,
+      "price_usd": 2.8054054063405405e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.0043e-06,
-      "volume_h24": 1539.81,
+      "liquidity_usd": 1.0034e-06,
+      "volume_h24": 1584.25,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 1e-08
+    },
+    "4PN1ZiGq7gLnDQH5D26vqWHTJFMR7mwYFsgpTfw3pump": {
+      "price_usd": 2.8926079118289908e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 46.426131379160005,
+      "volume_h24": 1047.73,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.462688174
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
