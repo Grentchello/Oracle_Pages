@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.334047,
+  "balance_sol": 0.354009,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GWw15sFtXsPDSkPrkcxB2gpe4PPtAQ7g8PPuCqmpump": {
-      "symbol": "DSCAT",
-      "name": "Doomscroll Cat",
-      "amount": 496441.39303876203,
-      "entry_price_usd": 4.237358184666425e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T17:42:16.673552+00:00",
-      "entry_usd_value": 2.1036,
-      "entry_signals": {
-        "liquidity_usd": 644.48229139776,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4238.691625180689,
-        "ath_market_cap_usd": 4235.324710918757,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 6.127422432,
-        "description": "Bro was supposed to touch grass. He opened his phone instead. 🐱📱 $DSCAT",
-        "twitter": "https://x.com/DSCATzz",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30082,19 +30059,30 @@
       "pnl_pct": -23.31,
       "exit_reason": "LLM: sell_all — Down -23.3% and only 0.0h held — close to -30% hard stop. No bounce signal, on bonding curve with thin $189 pool. Cut the loss now before the hard sto",
       "partial": false
+    },
+    {
+      "mint": "GWw15sFtXsPDSkPrkcxB2gpe4PPtAQ7g8PPuCqmpump",
+      "symbol": "DSCAT",
+      "name": "Doomscroll Cat",
+      "amount_sold": 496441.39303876203,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T17:42:16.673552+00:00",
+      "exit_time": "2026-09-03T17:44:49.798366+00:00",
+      "entry_price_usd": 4.237358184666425e-06,
+      "exit_price_usd": 4.226416866076725e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019962,
+      "pnl_sol": -3.8e-05,
+      "pnl_pct": -0.26,
+      "exit_reason": "LLM: sell_all — Position is flat (-0.3%) in a $628 pool with 0% share — no traction, no catalyst, just a locked slot. Free the capital for fresh attention with real s",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T17:43:32.695404+00:00",
+  "last_updated": "2026-09-03T17:44:50.303547+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.13,
-  "portfolio_value_usd": 37.22,
+  "last_sol_price_usd": 105.11,
+  "portfolio_value_usd": 37.21,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 16:44 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $TETSUO at $2.91724e-06 | P&L: -13.2%",
-      "reason": "The position is already down 13.2% after essentially no hold time, and the reported 173470013% share on a zero-value bonding-curve pool indicates a severe data or sizing anomaly. Exiting now is safer than risking a rapidly worsening loss or illiquidity."
-    },
     {
       "time": "2026-09-03 16:49 UTC",
       "action": "buy",
@@ -30208,40 +30196,46 @@
       "action": "buy",
       "details": "[LLM] $DSCAT at $4.23736e-06, spent 0.02 SOL",
       "reason": "$DSCAT (Doomscroll Cat) has the strongest narrative here — 'doomscroll' is peak 2026 attention vocabulary, the description is funny and memeable, dedicated X account @DSCATzz, and at $4.2k mcap with 0.7min age it's early enough for the classic 5-10x pump that viral-cat memecoins deliver. Classic attention-market play."
+    },
+    {
+      "time": "2026-09-03 17:44 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DSCAT at $4.22642e-06 | P&L: -0.3%",
+      "reason": "Position is flat (-0.3%) in a $628 pool with 0% share — no traction, no catalyst, just a locked slot. Free the capital for fresh attention with real signal."
     }
   ],
   "trade_stats": {
-    "total": 1768,
+    "total": 1769,
     "wins": 909,
-    "losses": 859,
+    "losses": 860,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.978599,
-    "avg_pnl_pct": 34.97,
+    "total_pnl_sol": -1.978637,
+    "avg_pnl_pct": 34.95,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 257,
-    "today_realized_sol": 0.014262,
+    "today_trades": 258,
+    "today_realized_sol": 0.014224,
     "today_target_pct": 3.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 909,
-      "loss_count": 859,
+      "loss_count": 860,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T17:43:32.445154+00:00",
+  "last_llm_brief_at": "2026-09-03T17:44:49.798330+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GWw15sFtXsPDSkPrkcxB2gpe4PPtAQ7g8PPuCqmpump": {
-      "price_usd": 4.2771986607401765e-06,
+      "price_usd": 4.226416866076725e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 650.6520650502899,
-      "volume_h24": 734.04,
+      "liquidity_usd": 628.23976783212,
+      "volume_h24": 872.07,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 6.189023733
+      "real_sol_reserves": 5.976974292
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
