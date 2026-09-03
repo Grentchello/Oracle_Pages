@@ -13486,3 +13486,9 @@
 ## [2026-09-03 14:43 UTC] sell | [FULL][LLM] $HAMSTER at $1.0853e-05 | P&L: +18.2%
 - **Reasoning:** +18.2% on HAMSTER after basically 0h held — bonding curve early, pool thin. Take the quick gain, free the slot for fresh attention.
 
+## [2026-09-03 14:44 UTC] sell | [TP +100% (50%)] $KAMA at $9.83651e-06 | P&L: +172.7%
+- **Reasoning:** Auto take-profit at +172.7%
+
+## [2026-09-03 14:45 UTC] sell | [FULL][LLM] $KAMA at $9.83651e-06 | P&L: +172.7%
+- **Reasoning:** KAMA at +172.7% has cleared the +100% TP tier. Bot already auto-took some profit at thresholds; the remainder is at peak territory on a thin bonding curve (pool $2621). Lock the gain before it mean-reverts. Position size is tiny so taking profit is better than hoping for another leg up.
+
