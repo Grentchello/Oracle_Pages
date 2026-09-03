@@ -12817,3 +12817,9 @@
 ## [2026-09-03 05:27 UTC] sell | [PARTIAL][LLM] $HELI DOG at $3.66723e-06 | P&L: +14.2%
 - **Reasoning:** $HELI DOG up +14.2% in 6 min but pool is $437 with our share=0% (insufficient liquidity to actually exit at scale). Take half profit now to lock gains before the bonding curve dumps, keep runner for the narrative.
 
+## [2026-09-03 05:28 UTC] sell | [FULL][LLM] $MISA at $2.80916e-06 | P&L: -1.3%
+- **Reasoning:** $MISA is down1.3% and flat after 12 min with only $10 pool liquidity — a microcap graveyard. Pool is so thin we can't even exit cleanly. Cut and free the slot.
+
+## [2026-09-03 05:28 UTC] sell | [FULL][LLM] $HELI DOG at $4.06163e-06 | P&L: +26.5%
+- **Reasoning:** $HELI DOG up +26.5% in 6 min — locked below TP1 but near the +30% trigger. Bonding curve only 0% complete, no real liquidity yet, our share = 0%. Take the gain now before it reverses into a bonding-curve ghost.
+
