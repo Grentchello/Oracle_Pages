@@ -13795,3 +13795,6 @@
 ## [2026-09-03 18:34 UTC] buy | [LLM] $Gold Bull at $5.708e-06, spent 0.02 SOL
 - **Reasoning:** $Gold Bull — clearest narrative of the bunch: dev self-promoting 'my memecoin' on Pump.fun with an active X account (@TheGoldBullDEV). 3 buys/0 sells in first minute is a tiny but real demand signal. mcap ~$5.7k is in the fresh-launch alpha zone. Risk: sub-$1k liquidity means slippage will hurt on the 0.05 SOL size — bot's 5x liquidity rule is borderline so sizing will be tight.
 
+## [2026-09-03 18:35 UTC] sell | [hard-stop] $Gold Bull closed at $3.02098e-06 | P&L: -47.1%
+- **Reasoning:** Hard -30% stop
+
