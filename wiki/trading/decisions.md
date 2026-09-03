@@ -13543,3 +13543,6 @@
 ## [2026-09-03 15:33 UTC] sell | [PARTIAL][LLM] $BAG at $2.93105e-06 | P&L: -6.6%
 - **Reasoning:** $BAG is -6.6% with no bounce after 6 min, I'm 32% of pool (liquidity risk), and the rules demand fast exits on losers. Free up the slot for a fresher narrative.
 
+## [2026-09-03 15:35 UTC] sell | [FULL][LLM] $BAG at $2.93469e-06 | P&L: -6.5%
+- **Reasoning:** Down 6.5% on a $6 pool where I hold 16% — illiquid, dev-heavy, and momentum is against me. Cut the loss and free the slot for a better setup.
+
