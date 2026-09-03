@@ -13438,3 +13438,6 @@
 ## [2026-09-03 14:15 UTC] buy | [LLM] $BULLX at $2.908e-06, spent 0.02 SOL
 - **Reasoning:** $BULLX ties directly to ansem (prominent SOL CT voice) with bullish narrative — 'horns out, bulls in' is a clean attention play at $2.9k mcap. Sizing with 0.05 SOL per bot rule, narrative is the alpha here.
 
+## [2026-09-03 14:19 UTC] buy | [LLM] $A16ZHL at $3.06151e-06, spent 0.02 SOL
+- **Reasoning:** $A16ZHL is a parody of AI16Z, which is one of the hottest AI-agent metas right now. 'Stuck inside a terminal' narrative is relatable crypto humor. Has twitter and a description. Risk: parody tokens often dump hard after initial spike.
+
