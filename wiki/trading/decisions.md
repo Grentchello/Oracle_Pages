@@ -13621,3 +13621,6 @@
 ## [2026-09-03 16:18 UTC] sell | [FULL][LLM] $$Vine at $2.94268e-06 | P&L: +0.1%
 - **Reasoning:** Flat +0.1% after 12min, pool only $18 with me holding 12% — massive slippage risk on any exit, no momentum, stale capital better rotated into fresh launches.
 
+## [2026-09-03 16:21 UTC] buy | [LLM] $GG at $9.363e-06, spent 0.02 SOL
+- **Reasoning:** $GG (Golden Goose) has a clean universal idiom narrative + twitter post from @keemotrades. Bond 26% means active buying. Classic attention-market play at $7k mcap.
+
