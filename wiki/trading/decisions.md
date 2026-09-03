@@ -13270,3 +13270,9 @@
 ## [2026-09-03 12:24 UTC] buy | [LLM] $shg at $5.73e-06, spent 0.02 SOL
 - **Reasoning:** $shg — Ghosty narrative with rich description, twitter @gh1stsol attached, 'ghost that refuses to disappear' is sticky meme copy. Sub-$6k mcap with story = classic 10x candidate if it grabs traction.
 
+## [2026-09-03 12:27 UTC] sell | [hard-stop] $shg closed at $2.81547e-06 | P&L: -50.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 12:27 UTC] buy | [LLM] $CREDIT at $4.42603e-06, spent 0.02 SOL
+- **Reasoning:** $CREDIT has the strongest narrative — 'buy memecoins on credit' is peak degen-fi viral concept, posted by inversebrah (high-attention CT account), and the airline miles/Visa angle is genuinely novel. Bond at 17% suggests early traction. Buying 0.1 SOL.
+
