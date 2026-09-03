@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.364564,
+  "balance_sol": 0.366632,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "2suRoRxUvYJP5fSMuq4qDtbQbVxFprpbcxGAHxkrpump": {
       "symbol": "rigbycat",
       "name": "rigbycat",
-      "amount": 58654.891304347824,
+      "amount": 21995.584239130432,
       "entry_price_usd": 3.22e-06,
-      "entry_sol_spent": 0.001875,
+      "entry_sol_spent": 0.000703125,
       "entry_time": "2026-09-03T06:28:48.585317+00:00",
       "entry_usd_value": 2.0146,
       "entry_signals": {
@@ -27078,25 +27078,47 @@
       "pnl_pct": 57.27,
       "exit_reason": "LLM: sell_half — $rigbycat is +57.3%, well past the +25% TP1 zone. Bonding-curve tokens at this mcap routinely give back gains — locking half protects +28%+ while lett",
       "partial": true
+    },
+    {
+      "mint": "2suRoRxUvYJP5fSMuq4qDtbQbVxFprpbcxGAHxkrpump",
+      "symbol": "rigbycat",
+      "name": "rigbycat",
+      "amount_sold": 14663.722826086956,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T06:28:48.585317+00:00",
+      "exit_time": "2026-09-03T06:32:39.659722+00:00",
+      "entry_price_usd": 3.22e-06,
+      "exit_price_usd": 5.684060065865234e-06,
+      "entry_sol_for_chunk": 0.000469,
+      "exit_sol_received": 0.000827,
+      "pnl_sol": 0.000358,
+      "pnl_pct": 76.52,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "2suRoRxUvYJP5fSMuq4qDtbQbVxFprpbcxGAHxkrpump",
+      "symbol": "rigbycat",
+      "name": "rigbycat",
+      "amount_sold": 21995.584239130432,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T06:28:48.585317+00:00",
+      "exit_time": "2026-09-03T06:32:57.376917+00:00",
+      "entry_price_usd": 3.22e-06,
+      "exit_price_usd": 5.684060065865234e-06,
+      "entry_sol_for_chunk": 0.000703,
+      "exit_sol_received": 0.001241,
+      "pnl_sol": 0.000537,
+      "pnl_pct": 76.52,
+      "exit_reason": "LLM: sell_half — rigbycat at +76.5% in 6min is a screaming winner — take half off the table and lock in gains. The other half is a free runner; if it keeps pumping, ri",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T06:31:35.925551+00:00",
+  "last_updated": "2026-09-03T06:32:57.377114+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.85,
-  "portfolio_value_usd": 38.97,
+  "last_sol_price_usd": 100.78,
+  "portfolio_value_usd": 39.03,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 05:45 UTC",
-      "action": "buy",
-      "details": "[LLM] $Rank 1 at $3.18919e-06, spent 0.02 SOL",
-      "reason": "$Rank 1 has a STRONG narrative hook — it's riding the BREAKING news that Solana ranked #1 in app revenue ($143M, 38% of all onchain). Posted by the official @solana account, which is mega-viral. Fresh launch at $3.2k mcap with 6% bond. Clear catalyst-driven attention. Buying 0.05 SOL."
-    },
-    {
-      "time": "2026-09-03 05:47 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Rank 1 at $3.18446e-06 | P&L: -0.1%",
-      "reason": "Held 0min at -0.1%, pool only $198 (illiquid), bonding-curve stage. No momentum, no edge — cut early before the -30% cap hits. Free the slot for fresher attention."
-    },
     {
       "time": "2026-09-03 05:51 UTC",
       "action": "observe",
@@ -27204,51 +27226,63 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $rigbycat at $5.06413e-06 | P&L: +57.3%",
       "reason": "$rigbycat is +57.3%, well past the +25% TP1 zone. Bonding-curve tokens at this mcap routinely give back gains — locking half protects +28%+ while letting the rest ride if narrative continues."
+    },
+    {
+      "time": "2026-09-03 06:32 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $rigbycat at $5.68406e-06 | P&L: +76.5%",
+      "reason": "Auto take-profit at +76.5%"
+    },
+    {
+      "time": "2026-09-03 06:32 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $rigbycat at $5.68406e-06 | P&L: +76.5%",
+      "reason": "rigbycat at +76.5% in 6min is a screaming winner — take half off the table and lock in gains. The other half is a free runner; if it keeps pumping, ride it, if it stalls, we already banked the +76%."
     }
   ],
   "trade_stats": {
-    "total": 1590,
-    "wins": 801,
+    "total": 1592,
+    "wins": 803,
     "losses": 789,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.946204,
-    "avg_pnl_pct": 35.92,
+    "total_pnl_sol": -1.945309,
+    "avg_pnl_pct": 35.97,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 79,
-    "today_realized_sol": 0.046657,
-    "today_target_pct": 11.7,
+    "today_trades": 81,
+    "today_realized_sol": 0.047552,
+    "today_target_pct": 11.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 801,
+      "win_count": 803,
       "loss_count": 789,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T06:31:35.925224+00:00",
+  "last_llm_brief_at": "2026-09-03T06:32:57.376877+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "9cunwKDbz29QGviC1yFBdkC2tWvTywsu3oV7vSxrpump": {
-      "price_usd": 3.1140925810548785e-06,
+      "price_usd": 3.3908964530243405e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 154.03931655215,
-      "volume_h24": 213.43,
+      "liquidity_usd": 293.29036798864,
+      "volume_h24": 586.06,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.527410179
+      "real_sol_reserves": 2.910204088
     },
     "2suRoRxUvYJP5fSMuq4qDtbQbVxFprpbcxGAHxkrpump": {
-      "price_usd": 5.064132059752197e-06,
+      "price_usd": 5.684060065865234e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1029.1274106208998,
-      "volume_h24": 10259.25,
+      "liquidity_usd": 1270.74787781474,
+      "volume_h24": 14334.86,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 10.204535554
+      "real_sol_reserves": 12.609127583
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

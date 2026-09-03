@@ -12895,3 +12895,9 @@
 ## [2026-09-03 06:31 UTC] sell | [PARTIAL][LLM] $rigbycat at $5.06413e-06 | P&L: +57.3%
 - **Reasoning:** $rigbycat is +57.3%, well past the +25% TP1 zone. Bonding-curve tokens at this mcap routinely give back gains — locking half protects +28%+ while letting the rest ride if narrative continues.
 
+## [2026-09-03 06:32 UTC] sell | [TP +30% (25%)] $rigbycat at $5.68406e-06 | P&L: +76.5%
+- **Reasoning:** Auto take-profit at +76.5%
+
+## [2026-09-03 06:32 UTC] sell | [PARTIAL][LLM] $rigbycat at $5.68406e-06 | P&L: +76.5%
+- **Reasoning:** rigbycat at +76.5% in 6min is a screaming winner — take half off the table and lock in gains. The other half is a free runner; if it keeps pumping, ride it, if it stalls, we already banked the +76%.
+
