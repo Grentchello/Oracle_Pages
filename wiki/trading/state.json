@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.351812,
+  "balance_sol": 0.383924,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Sa73M6icjt2cSwCQhgrXzMwmmA2hZSfdDJ6StgVpump": {
-      "symbol": "Crawlrr",
-      "name": "Crawlrr",
-      "amount": 153130.14505819022,
-      "entry_price_usd": 1.3741252574405866e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T21:16:43.341801+00:00",
-      "entry_usd_value": 2.1042,
-      "entry_signals": {
-        "liquidity_usd": 3267.40479909606,
-        "volume_24h_usd": null,
-        "market_cap_usd": 13745.880389677777,
-        "ath_market_cap_usd": 15517.530017754912,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 31.056028886,
-        "description": "$Crawlrr turns autonomous AI agents into a live social feed, where API posts carry HMAC signatures 🤖 Humans watch, reply when allowed, and every immutable post becomes attributable corpus data 🧾🕸️",
-        "twitter": "https://x.com/crawlrrclub/status/2095618844236677186",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -31238,25 +31215,47 @@
       "pnl_pct": -8.5,
       "exit_reason": "LLM: sell_all — Down 8.5% on a $57 pool where I'm 3% of liquidity — any further sell pressure will crash it through my -30% hard stop. No bounce signal, bonding curve",
       "partial": false
+    },
+    {
+      "mint": "Sa73M6icjt2cSwCQhgrXzMwmmA2hZSfdDJ6StgVpump",
+      "symbol": "Crawlrr",
+      "name": "Crawlrr",
+      "amount_sold": 38282.536264547554,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T21:16:43.341801+00:00",
+      "exit_time": "2026-09-03T21:17:47.024479+00:00",
+      "entry_price_usd": 1.3741252574405866e-05,
+      "exit_price_usd": 2.2073255130550265e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.008028,
+      "pnl_sol": 0.003028,
+      "pnl_pct": 60.63,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "Sa73M6icjt2cSwCQhgrXzMwmmA2hZSfdDJ6StgVpump",
+      "symbol": "Crawlrr",
+      "name": "Crawlrr",
+      "amount_sold": 114847.60879364266,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T21:16:43.341801+00:00",
+      "exit_time": "2026-09-03T21:18:06.421369+00:00",
+      "entry_price_usd": 1.3741252574405866e-05,
+      "exit_price_usd": 2.2073255130550265e-05,
+      "entry_sol_for_chunk": 0.015,
+      "exit_sol_received": 0.024084,
+      "pnl_sol": 0.009084,
+      "pnl_pct": 60.63,
+      "exit_reason": "LLM: sell_all — +60.6% in <1h on a bonding-curve token (pool only $5.5k) — bonding curves reverse brutally when early holders rotate out. Auto-TP is already triggered",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T21:16:43.598936+00:00",
+  "last_updated": "2026-09-03T21:18:06.421657+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.21,
-  "portfolio_value_usd": 39.12,
+  "last_sol_price_usd": 105.26,
+  "portfolio_value_usd": 40.41,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 20:53 UTC",
-      "action": "buy",
-      "details": "[LLM] $$LUCIA at $3.70073e-06, spent 0.02 SOL",
-      "reason": "$$LUCIA (OG LUCIA) — explicit 'genny wealth' CT OG narrative, solana-relic lore angle, twitter attached. Memecoin meta plays best when it references crypto history. 0.05 SOL size."
-    },
-    {
-      "time": "2026-09-03 20:59 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $$LUCIA at $3.37528e-06 | P&L: -8.8%",
-      "reason": "Down 8.8% in 6 minutes on a $228 bonding-curve pool where I'm 1% of liquidity — any further weakness and I get dumped on with no buyers. No bounce signal, thin liquidity, cut the loser fast per scalp discipline."
-    },
     {
       "time": "2026-09-03 20:59 UTC",
       "action": "buy",
@@ -31364,40 +31363,52 @@
       "action": "buy",
       "details": "[LLM] $Crawlrr at $1.37413e-05, spent 0.02 SOL",
       "reason": "$Crawlrr — AI agents + HMAC signatures is a strong tech-meta narrative riding the AI agent trend. 35% bonding curve (real traction, not just snipers), highest mcap of the fresh batch at $13.7k, has twitter. Best risk/reward in this slate."
+    },
+    {
+      "time": "2026-09-03 21:17 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Crawlrr at $2.20733e-05 | P&L: +60.6%",
+      "reason": "Auto take-profit at +60.6%"
+    },
+    {
+      "time": "2026-09-03 21:18 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Crawlrr at $2.20733e-05 | P&L: +60.6%",
+      "reason": "+60.6% in <1h on a bonding-curve token (pool only $5.5k) — bonding curves reverse brutally when early holders rotate out. Auto-TP is already triggered at +50%. Locking the gain now frees capital for fresh attention plays."
     }
   ],
   "trade_stats": {
-    "total": 1836,
-    "wins": 946,
+    "total": 1838,
+    "wins": 948,
     "losses": 890,
-    "win_rate_pct": 51.5,
-    "total_pnl_sol": -1.960834,
-    "avg_pnl_pct": 34.85,
+    "win_rate_pct": 51.6,
+    "total_pnl_sol": -1.948722,
+    "avg_pnl_pct": 34.88,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 325,
-    "today_realized_sol": 0.032027,
-    "today_target_pct": 8.0,
+    "today_trades": 327,
+    "today_realized_sol": 0.044139,
+    "today_target_pct": 11.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 946,
+      "win_count": 948,
       "loss_count": 890,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T21:16:41.958279+00:00",
+  "last_llm_brief_at": "2026-09-03T21:18:06.421328+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "74RMYPqAiupChs1qq7iHwm3koJYu52SwKaWYntKHpump": {
-      "price_usd": 3.049409197212927e-06,
+    "Sa73M6icjt2cSwCQhgrXzMwmmA2hZSfdDJ6StgVpump": {
+      "price_usd": 2.2073255130550265e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 57.33724153688999,
-      "volume_h24": 651.65,
+      "liquidity_usd": 5490.39279948504,
+      "volume_h24": 15564.85,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.544979009
+      "real_sol_reserves": 52.160296404
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -14083,3 +14083,9 @@
 ## [2026-09-03 21:16 UTC] buy | [LLM] $Crawlrr at $1.37413e-05, spent 0.02 SOL
 - **Reasoning:** $Crawlrr — AI agents + HMAC signatures is a strong tech-meta narrative riding the AI agent trend. 35% bonding curve (real traction, not just snipers), highest mcap of the fresh batch at $13.7k, has twitter. Best risk/reward in this slate.
 
+## [2026-09-03 21:17 UTC] sell | [TP +30% (25%)] $Crawlrr at $2.20733e-05 | P&L: +60.6%
+- **Reasoning:** Auto take-profit at +60.6%
+
+## [2026-09-03 21:18 UTC] sell | [FULL][LLM] $Crawlrr at $2.20733e-05 | P&L: +60.6%
+- **Reasoning:** +60.6% in <1h on a bonding-curve token (pool only $5.5k) — bonding curves reverse brutally when early holders rotate out. Auto-TP is already triggered at +50%. Locking the gain now frees capital for fresh attention plays.
+
