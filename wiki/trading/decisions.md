@@ -12502,3 +12502,6 @@
 ## [2026-09-03 00:18 UTC] buy | [LLM] $LONGCAT at $3.50587e-06, spent 0.02 SOL
 - **Reasoning:** $LONGCAT passes viability gate (desc >50 chars + twitter @longcathood), fresh 0.1min launch with a clean infinite-cat-vs-S&P meta narrative — viral-friendly and attention-coin shaped. Entry at 0.05 SOL per v7 sizing rule; bond only 10% complete so curve liquidity is thin but sufficient for $5 size.
 
+## [2026-09-03 00:19 UTC] sell | [FULL][LLM] $LONGCAT at $2.8892e-06 | P&L: -17.6%
+- **Reasoning:** LONGCAT is down -17.6% with no bounce signal, liquidity only $49, and it's been 0.0h on a bonding curve. Cut the loss before it hits the -30% hard stop — capital rotation beats bag-holding.
+
