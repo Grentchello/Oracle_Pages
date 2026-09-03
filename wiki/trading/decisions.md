@@ -13465,3 +13465,15 @@
 ## [2026-09-03 14:40 UTC] buy | [LLM] $HAMSTER at $9.182e-06, spent 0.02 SOL
 - **Reasoning:** $HAMSTER (Sisyphean Hamster) — strongest narrative: '1.5M views, people connecting to the video running nonstop' is a real attention signal with an explainable viral story. Mcap $10k, bond 32% (liquidity forming), passes viability gate (desc + twitter). Risk: only ~0.7min old, but that's where the alpha is.
 
+## [2026-09-03 14:41 UTC] sell | [TP +100% (50%)] $KAMA at $7.56622e-06 | P&L: +109.8%
+- **Reasoning:** Auto take-profit at +109.8%
+
+## [2026-09-03 14:41 UTC] sell | [TP +30% (25%)] $HAMSTER at $1.3388e-05 | P&L: +45.8%
+- **Reasoning:** Auto take-profit at +45.8%
+
+## [2026-09-03 14:42 UTC] sell | [PARTIAL][LLM] $KAMA at $7.56622e-06 | P&L: +109.8%
+- **Reasoning:** $KAMA +109.8% — has likely hit +100% TP at 75% (auto). Pool still only $1922 is thin; locking half protects the 2x while keeping runner exposure. Selling all here risks giving back 100%+ gains on a 0% share of a $1.9k pool.
+
+## [2026-09-03 14:42 UTC] sell | [PARTIAL][LLM] $HAMSTER at $1.3388e-05 | P&L: +45.8%
+- **Reasoning:** $HAMSTER +45.8% — between +30% TP (auto at 25%) and +100% TP. Lock half the gains at this level — narrative is generic (hamster meme), pool $3571 still thin, no reason to hold full size into the next leg without confirmation.
+
