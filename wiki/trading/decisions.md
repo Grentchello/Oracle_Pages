@@ -12616,3 +12616,9 @@
 ## [2026-09-03 02:24 UTC] buy | [LLM] $GMST at $3.027e-06, spent 0.02 SOL
 - **Reasoning:** $GMST has the strongest narrative of the batch — references real GME/RH action, offers a clear mechanism ($GMEx rewards to holders), and has a Twitter handle. Meme-coin playbook in action. Sizing with 0.05 SOL to stay under max-2 constraint with $Pump It open.
 
+## [2026-09-03 02:26 UTC] sell | [FULL][LLM] $Pump It at $2.86744e-06 | P&L: -1.4%
+- **Reasoning:** $Pump It is down 1.4% after 0.1h with only $32 pool liquidity. Generic name, no narrative, and 6% pool share means my exits move the price. Cut and rotate to fresher attention.
+
+## [2026-09-03 02:26 UTC] sell | [FULL][LLM] $GMST at $3.04782e-06 | P&L: +0.7%
+- **Reasoning:** $GMST is barely +0.7% on $126 pool after just minutes held. No clear narrative, and at this size my 2% share can drag exits. Flat is fine — rotate capital to fresh launches with real attention.
+
