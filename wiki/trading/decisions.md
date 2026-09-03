@@ -13762,3 +13762,6 @@
 ## [2026-09-03 17:57 UTC] sell | [FULL][LLM] $jawed at $3.35218e-06 | P&L: -7.1%
 - **Reasoning:** -7.1% with only $215 pool liquidity and 1% ownership — thin books get crushed. Better to free the slot for a fresh launch with real attention than babysit a stale small-cap.
 
+## [2026-09-03 18:04 UTC] sell | [FULL][LLM] $BC at $3.9626e-06 | P&L: -1.3%
+- **Reasoning:** Position down 1.3% after 0.1h with pool of only $510 and 0% share — liquidity is razor thin and there's no bounce signal. $BC isn't in the new launch flow, no viral attention driving it. Cut the dead weight and free the slot for a fresh attention play.
+

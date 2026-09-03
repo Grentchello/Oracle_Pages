@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.320263,
+  "balance_sol": 0.34001,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DTpg3KKdXG6bzpUA3SggpwmgNoqNvFMzvjZ5mL3apump": {
-      "symbol": "BC",
-      "name": "BackflipCat",
-      "amount": 523099.9252429603,
-      "entry_price_usd": 4.013e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T17:55:50.316985+00:00",
-      "entry_usd_value": 2.0991999999999997,
-      "entry_signals": {
-        "liquidity_usd": 526.0584319846399,
-        "volume_24h_usd": 549.51,
-        "market_cap_usd": 4057.6530103167884,
-        "ath_market_cap_usd": 4054.7779451539836,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.011989634,
-        "description": "Just my Cat doing Backflip Backflip + Cat = BackflipCat",
-        "twitter": "https://x.com/Alldaypp2/status/2095569625308418558?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30150,19 +30127,30 @@
       "pnl_pct": -7.06,
       "exit_reason": "LLM: sell_all — -7.1% with only $215 pool liquidity and 1% ownership — thin books get crushed. Better to free the slot for a fresh launch with real attention than bab",
       "partial": false
+    },
+    {
+      "mint": "DTpg3KKdXG6bzpUA3SggpwmgNoqNvFMzvjZ5mL3apump",
+      "symbol": "BC",
+      "name": "BackflipCat",
+      "amount_sold": 523099.9252429603,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T17:55:50.316985+00:00",
+      "exit_time": "2026-09-03T18:04:01.331965+00:00",
+      "entry_price_usd": 4.013e-06,
+      "exit_price_usd": 3.962602682630722e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019747,
+      "pnl_sol": -0.000253,
+      "pnl_pct": -1.26,
+      "exit_reason": "LLM: sell_all — Position down 1.3% after 0.1h with pool of only $510 and 0% share — liquidity is razor thin and there's no bounce signal. $BC isn't in the new launch ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T18:02:40.101284+00:00",
+  "last_updated": "2026-09-03T18:04:01.848688+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.033,
-  "portfolio_value_usd": 35.74,
+  "last_sol_price_usd": 104.97,
+  "portfolio_value_usd": 35.69,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 17:01 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $rhg at $4.19488e-06 | P&L: +11.9%",
-      "reason": "+12% on a $621 pool bonding-curve with 0% LP share is precarious - thin liquidity means a single sell could crash us back through entry. Lock half the gain, let the other half ride if it graduates."
-    },
     {
       "time": "2026-09-03 17:04 UTC",
       "action": "sell",
@@ -30276,35 +30264,41 @@
       "action": "sell",
       "details": "[FULL][LLM] $jawed at $3.35218e-06 | P&L: -7.1%",
       "reason": "-7.1% with only $215 pool liquidity and 1% ownership — thin books get crushed. Better to free the slot for a fresh launch with real attention than babysit a stale small-cap."
+    },
+    {
+      "time": "2026-09-03 18:04 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BC at $3.9626e-06 | P&L: -1.3%",
+      "reason": "Position down 1.3% after 0.1h with pool of only $510 and 0% share — liquidity is razor thin and there's no bounce signal. $BC isn't in the new launch flow, no viral attention driving it. Cut the dead weight and free the slot for a fresh attention play."
     }
   ],
   "trade_stats": {
-    "total": 1772,
+    "total": 1773,
     "wins": 909,
-    "losses": 863,
+    "losses": 864,
     "win_rate_pct": 51.3,
-    "total_pnl_sol": -1.992383,
-    "avg_pnl_pct": 34.85,
+    "total_pnl_sol": -1.992636,
+    "avg_pnl_pct": 34.83,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 261,
-    "today_realized_sol": 0.000478,
+    "today_trades": 262,
+    "today_realized_sol": 0.000225,
     "today_target_pct": 0.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 909,
-      "loss_count": 863,
+      "loss_count": 864,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T18:02:39.844251+00:00",
+  "last_llm_brief_at": "2026-09-03T18:04:01.331923+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DTpg3KKdXG6bzpUA3SggpwmgNoqNvFMzvjZ5mL3apump": {
-      "price_usd": 3.9649809237377594e-06,
+      "price_usd": 3.962602682630722e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 510.38257848577797,
+      "liquidity_usd": 510.07644515201997,
       "volume_h24": 654.09,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
