@@ -12784,3 +12784,6 @@
 ## [2026-09-03 04:52 UTC] sell | [PARTIAL][LLM] $PEMP at $6.59269e-06 | P&L: +35.5%
 - **Reasoning:** Up +35.5% and already past the +30% auto-TP threshold. Locking half locks ~+30% gain while letting the other half ride if attention continues.
 
+## [2026-09-03 04:53 UTC] sell | [FULL][LLM] $PEMP at $4.94647e-06 | P&L: +1.6%
+- **Reasoning:** Up only +1.6% after 6 minutes, pool just $985 — no momentum and tiny liquidity. Lock in the small gain and free the slot for a fresher launch.
+
