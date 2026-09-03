@@ -12742,3 +12742,9 @@
 ## [2026-09-03 04:23 UTC] buy | [LLM] $Candle at $9.13e-06, spent 0.02 SOL
 - **Reasoning:** $Candle — PumpFun meta-coin with a clear self-aware narrative ('callouts give bigger candles'), active X poster, $10.5k mcap with 33% bond complete (buying pressure). Viability gate passes (desc >50 chars + twitter). Fresh attention on PumpFun culture itself is memeable. 0.05 SOL.
 
+## [2026-09-03 04:24 UTC] sell | [TP +100% (50%)] $Candle at $1.87895e-05 | P&L: +105.8%
+- **Reasoning:** Auto take-profit at +105.8%
+
+## [2026-09-03 04:24 UTC] sell | [FULL][LLM] $Candle at $1.87895e-05 | P&L: +105.8%
+- **Reasoning:** Up +105.8% in under an hour on a bonding-curve token with unclear narrative — bot already auto-locked profit on half. The remaining half is a free option; bond % completion 35% means graduation risk + reversal risk both elevated. Take the 2x and rotate capital into fresh launches.
+
