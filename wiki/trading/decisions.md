@@ -14119,3 +14119,9 @@
 ## [2026-09-03 21:53 UTC] sell | [FULL][LLM] $bu11run at $4.43728e-06 | P&L: -4.0%
 - **Reasoning:** $bu11run down -4% after a fresh entry with zero narrative hook (bull run pun),4% already gone in minutes. No story, no catalyst, no reason to hold a stale loser.
 
+## [2026-09-03 21:56 UTC] sell | [PARTIAL][LLM] $Amzn at $2.94566e-06 | P&L: -3.4%
+- **Reasoning:** $Amzn pool is $1 and our share is 203% — liquidity has functionally evaporated, no recovery path even at only -3.4%. Better to free the slot for fresh alpha than wait for a -20% stop on a dead pool.
+
+## [2026-09-03 21:56 UTC] buy | [LLM] $PXPE! at $3.54781e-06, spent 0.02 SOL
+- **Reasoning:** $PXPE! (Pixel Pepe) — pixel-art Pepe derivative with active developer twitter (@pixelpepedevv), clear meme DNA (Pepe variants historically pump), and very fresh $3.5k mcap. Pure attention play with cultural meme template.
+

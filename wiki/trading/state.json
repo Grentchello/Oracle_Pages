@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.330941,
+  "balance_sol": 0.327841,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DB5Bn6u7TfDesuxEToMhdSyP7d7yZ26ypEBWHfSpump": {
       "symbol": "Amzn",
       "name": "Amazon",
-      "amount": 688727.5927197373,
+      "amount": 84670.40823489819,
       "entry_price_usd": 3.0495656369828054e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0024587488327726392,
       "entry_time": "2026-09-03T21:50:51.687985+00:00",
       "entry_usd_value": 2.10032,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 0.475198218,
         "description": "We seek to be Earth’s most customer-centric company.",
         "twitter": "https://x.com/amazon?s=11",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "zwFN2ezKoNjDsbQsWNSyzy5ddqADN7nYGeVWBzWpump": {
+      "symbol": "PXPE!",
+      "name": "Pixel Pepe",
+      "amount": 593549.0681531045,
+      "entry_price_usd": 3.547811146519759e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T21:56:33.838670+00:00",
+      "entry_usd_value": 2.1058000000000003,
+      "entry_signals": {
+        "liquidity_usd": 308.9423486361,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3553.737827191386,
+        "ath_market_cap_usd": 3576.3507044241346,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 2.93420409,
+        "description": "Pixel Pepe ($PXPE) is a neat little pixel memecoin powered by green energy, tidy vibes, and perfectly aligned chaos.",
+        "twitter": "https://x.com/pixelpepedevv",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -31357,25 +31379,30 @@
       "pnl_pct": -3.98,
       "exit_reason": "LLM: sell_all — $bu11run down -4% after a fresh entry with zero narrative hook (bull run pun),4% already gone in minutes. No story, no catalyst, no reason to hold a s",
       "partial": false
+    },
+    {
+      "mint": "DB5Bn6u7TfDesuxEToMhdSyP7d7yZ26ypEBWHfSpump",
+      "symbol": "Amzn",
+      "name": "Amazon",
+      "amount_sold": 604057.1844848391,
+      "fraction_sold": 0.877062558361368,
+      "entry_time": "2026-09-03T21:50:51.687985+00:00",
+      "exit_time": "2026-09-03T21:56:32.544833+00:00",
+      "entry_price_usd": 3.0495656369828054e-06,
+      "exit_price_usd": 2.9456622537837454e-06,
+      "entry_sol_for_chunk": 0.017541,
+      "exit_sol_received": 0.0169,
+      "pnl_sol": -0.000642,
+      "pnl_pct": -3.41,
+      "exit_reason": "LLM: sell_all — $Amzn pool is $1 and our share is 203% — liquidity has functionally evaporated, no recovery path even at only -3.4%. Better to free the slot for fresh",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T21:54:59.655837+00:00",
+  "last_updated": "2026-09-03T21:56:33.838838+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.22,
-  "portfolio_value_usd": 36.92,
+  "last_sol_price_usd": 105.29,
+  "portfolio_value_usd": 36.88,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 21:08 UTC",
-      "action": "buy",
-      "details": "[LLM] $PennyStock at $3.428e-06, spent 0.02 SOL",
-      "reason": "$PennyStock — self-aware meta-narrative ('memecoins are just penny stocks with a ticker and an X link') has viral potential, age 0.9min, mcap $3.6k with bonding at 9% = very early attention launch. High risk but strong meme-ability."
-    },
-    {
-      "time": "2026-09-03 21:09 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $LVL at $3.33565e-06 | P&L: -9.2%",
-      "reason": "$LVL at -9.1% after 6 minutes on $210 pool — no momentum, no narrative I can see in the data, and pool is dangerously thin. Cut the loss now before it deepens to -20%."
-    },
     {
       "time": "2026-09-03 21:09 UTC",
       "action": "sell",
@@ -31483,35 +31510,47 @@
       "action": "sell",
       "details": "[FULL][LLM] $bu11run at $4.43728e-06 | P&L: -4.0%",
       "reason": "$bu11run down -4% after a fresh entry with zero narrative hook (bull run pun),4% already gone in minutes. No story, no catalyst, no reason to hold a stale loser."
+    },
+    {
+      "time": "2026-09-03 21:56 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Amzn at $2.94566e-06 | P&L: -3.4%",
+      "reason": "$Amzn pool is $1 and our share is 203% — liquidity has functionally evaporated, no recovery path even at only -3.4%. Better to free the slot for fresh alpha than wait for a -20% stop on a dead pool."
+    },
+    {
+      "time": "2026-09-03 21:56 UTC",
+      "action": "buy",
+      "details": "[LLM] $PXPE! at $3.54781e-06, spent 0.02 SOL",
+      "reason": "$PXPE! (Pixel Pepe) — pixel-art Pepe derivative with active developer twitter (@pixelpepedevv), clear meme DNA (Pepe variants historically pump), and very fresh $3.5k mcap. Pure attention play with cultural meme template."
     }
   ],
   "trade_stats": {
-    "total": 1843,
+    "total": 1844,
     "wins": 948,
-    "losses": 895,
+    "losses": 896,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.981706,
-    "avg_pnl_pct": 34.69,
+    "total_pnl_sol": -1.982348,
+    "avg_pnl_pct": 34.67,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 332,
-    "today_realized_sol": 0.011155,
-    "today_target_pct": 2.8,
+    "today_trades": 333,
+    "today_realized_sol": 0.010513,
+    "today_target_pct": 2.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 948,
-      "loss_count": 895,
+      "loss_count": 896,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T21:54:59.408578+00:00",
+  "last_llm_brief_at": "2026-09-03T21:56:32.543992+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DB5Bn6u7TfDesuxEToMhdSyP7d7yZ26ypEBWHfSpump": {
-      "price_usd": 2.943703887768313e-06,
+      "price_usd": 2.9456622537837454e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.9969784396,
+      "liquidity_usd": 0.9976417022,
       "volume_h24": 121.5,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
