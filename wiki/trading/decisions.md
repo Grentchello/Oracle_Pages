@@ -14158,3 +14158,9 @@
 ## [2026-09-03 22:22 UTC] buy | [LLM] $HOLD at $7.19633e-06, spent 0.02 SOL
 - **Reasoning:** $HOLD has a real viral narrative (Lindsay Clancy juror holdout) trending on X, mcap $7.2k is still tiny with room to run, bond 27% shows real buy interest. Real-world crime narrative = proven memecoin attention magnet.
 
+## [2026-09-03 22:23 UTC] sell | [hard-stop] $HOLD closed at $3.81918e-06 | P&L: -46.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 22:23 UTC] buy | [LLM] $SMARTIN  at $4.032e-06, spent 0.02 SOL
+- **Reasoning:** $SMARTIN — Shkreli is a high-recognition crypto personality; 'big brain, bigger bags' is a tight narrative. Has twitter. Sub-1-min launch with $4.7k mcap — ride early.
+
