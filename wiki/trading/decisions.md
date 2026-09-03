@@ -13153,3 +13153,12 @@
 ## [2026-09-03 11:19 UTC] buy | [LLM] $raji at $3.81391e-06, spent 0.02 SOL
 - **Reasoning:** $raji has the clearest narrative in the batch — Indian desi energy meme with bilingual cultural appeal and an active X account @gh1stsol. Bond at 12% with organic progression suggests real buyers, not pure bot launch. Story-driven memecoins tend to hold attention longer than one-off jokes. Risk: only $3.8k mcap and thin liquidity, so a -30% stop will hit fast on any dump.
 
+## [2026-09-03 11:22 UTC] sell | [TP +30% (25%)] $raji at $5.41855e-06 | P&L: +42.1%
+- **Reasoning:** Auto take-profit at +42.1%
+
+## [2026-09-03 11:22 UTC] sell | [PARTIAL][LLM] $raji at $5.41855e-06 | P&L: +42.1%
+- **Reasoning:** Up +42.1% — well past +30% TP. Bonding curve, pool only $1171, our share 0% (illiquid). Half-off locks +21% gain while leaving runner for if it keeps going. Giving back this move to hope for a 2x would be malpractice.
+
+## [2026-09-03 11:22 UTC] buy | [LLM] $AMERDOGE at $3.9348e-06, spent 0.02 SOL
+- **Reasoning:** $AMERDOGE: patriotic Doge narrative with attached X account (ownthedoge status posted 0.2min ago). Doge meta is the most enduring memecoin category; US-flag angle plus low $3.9k mcap gives 10x room if narrative catches. 0.05 SOL.
+
