@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.342752,
+  "balance_sol": 0.344639,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "2FczTLqgNUz9SkVDqMXMTauCTrCRc1BVds8TzThYpump": {
       "symbol": "raji",
       "name": "raji",
-      "amount": 74148.89737366737,
+      "amount": 6662.274778213839,
       "entry_price_usd": 3.8139053312535195e-06,
-      "entry_sol_spent": 0.0028125,
+      "entry_sol_spent": 0.0002527029865231787,
       "entry_time": "2026-09-03T11:19:47.791598+00:00",
       "entry_usd_value": 2.011,
       "entry_signals": {
@@ -28030,19 +28030,30 @@
       "pnl_pct": 57.91,
       "exit_reason": "LLM: sell_half — +57.9% but our share=0% on a $1.4k pool means I can't actually realize this. Attempting partial exit to lock whatever the bonding curve will give me b",
       "partial": true
+    },
+    {
+      "mint": "2FczTLqgNUz9SkVDqMXMTauCTrCRc1BVds8TzThYpump",
+      "symbol": "raji",
+      "name": "raji",
+      "amount_sold": 67486.62259545352,
+      "fraction_sold": 0.9101500492362031,
+      "entry_time": "2026-09-03T11:19:47.791598+00:00",
+      "exit_time": "2026-09-03T11:25:50.242201+00:00",
+      "entry_price_usd": 3.8139053312535195e-06,
+      "exit_price_usd": 2.813094066427056e-06,
+      "entry_sol_for_chunk": 0.00256,
+      "exit_sol_received": 0.001887,
+      "pnl_sol": -0.000673,
+      "pnl_pct": -26.24,
+      "exit_reason": "LLM: sell_all — At -26.2% with 278% share (extremely illiquid), this is going to hit the -30% hard stop. Locking in -26% now is better than waiting for a worse auto-e",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T11:24:06.388846+00:00",
+  "last_updated": "2026-09-03T11:25:50.243146+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.6,
-  "portfolio_value_usd": 36.78,
+  "last_sol_price_usd": 100.61,
+  "portfolio_value_usd": 36.71,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 10:49 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $WOLF closed at $2.87292e-06 | P&L: -54.0%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-03 10:54 UTC",
       "action": "observe",
@@ -28156,51 +28167,57 @@
       "action": "buy",
       "details": "[LLM] $ROBINDWOG at $2.88227e-06, spent 0.02 SOL",
       "reason": "$ROBINDWOG — companion token to robincat, MS Paint aesthetic, organic narrative with real meme lineage (chillmigratoor's robincat series has traction). Best story in the batch; skipping the $Rubbish serial-launch cluster which smells like a farming playbook (5 tokens in 60s from same template)."
+    },
+    {
+      "time": "2026-09-03 11:25 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $raji at $2.81309e-06 | P&L: -26.2%",
+      "reason": "At -26.2% with 278% share (extremely illiquid), this is going to hit the -30% hard stop. Locking in -26% now is better than waiting for a worse auto-exit on a thin position. Stale losing slot."
     }
   ],
   "trade_stats": {
-    "total": 1646,
+    "total": 1647,
     "wins": 829,
-    "losses": 817,
-    "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.967081,
-    "avg_pnl_pct": 35.57,
+    "losses": 818,
+    "win_rate_pct": 50.3,
+    "total_pnl_sol": -1.967754,
+    "avg_pnl_pct": 35.53,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 135,
-    "today_realized_sol": 0.02578,
-    "today_target_pct": 6.4,
+    "today_trades": 136,
+    "today_realized_sol": 0.025107,
+    "today_target_pct": 6.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 829,
-      "loss_count": 817,
+      "loss_count": 818,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T11:24:05.001681+00:00",
+  "last_llm_brief_at": "2026-09-03T11:25:50.241601+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2FczTLqgNUz9SkVDqMXMTauCTrCRc1BVds8TzThYpump": {
-      "price_usd": 6.022588668075614e-06,
+      "price_usd": 2.813094066427056e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1398.2238629335998,
-      "volume_h24": 1269.96,
+      "liquidity_usd": 0.07496642259,
+      "volume_h24": 2822.87,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 13.898845556
+      "real_sol_reserves": 0.000745119
     },
-    "7gpQZGSLXKwLnFixzthnXAzZsC42QuTxPV9UZFsepump": {
-      "price_usd": 2.887229454087291e-06,
+    "HJotxeRkWSUuW9e8bgfAPPhZo8T4DN8PP3Dr1pM6pump": {
+      "price_usd": 2.887516455214558e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 39.7370004024,
-      "volume_h24": 2128.1,
+      "liquidity_usd": 39.74095060366,
+      "volume_h24": 2319.98,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.395000004
+      "real_sol_reserves": 0.395000006
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

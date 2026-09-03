@@ -13174,3 +13174,6 @@
 ## [2026-09-03 11:24 UTC] buy | [LLM] $ROBINDWOG at $2.88227e-06, spent 0.02 SOL
 - **Reasoning:** $ROBINDWOG — companion token to robincat, MS Paint aesthetic, organic narrative with real meme lineage (chillmigratoor's robincat series has traction). Best story in the batch; skipping the $Rubbish serial-launch cluster which smells like a farming playbook (5 tokens in 60s from same template).
 
+## [2026-09-03 11:25 UTC] sell | [PARTIAL][LLM] $raji at $2.81309e-06 | P&L: -26.2%
+- **Reasoning:** At -26.2% with 278% share (extremely illiquid), this is going to hit the -30% hard stop. Locking in -26% now is better than waiting for a worse auto-exit on a thin position. Stale losing slot.
+
