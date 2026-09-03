@@ -13291,3 +13291,6 @@
 ## [2026-09-03 12:32 UTC] sell | [FULL][LLM] $shg at $2.82833e-06 | P&L: -18.6%
 - **Reasoning:** -18.6% and no bounce signal; 'our share=35798646%' indicates we're a dust position in a likely-failed launch. Exiting per stale/loser discipline to free the slot.
 
+## [2026-09-03 12:33 UTC] buy | [LLM] $$NutJet  at $3.153e-06, spent 0.02 SOL
+- **Reasoning:** GTA 6 hype is the biggest gaming attention cycle in years; 'squirrel stole a plane before GTA 6' is a meme that can ride that wave. Passes viability (desc + twitter) and fragility gates. Risk: bond only 5%, thin liquidity, mcap $3k — could rug or fade fast.
+
