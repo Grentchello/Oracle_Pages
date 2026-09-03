@@ -13759,3 +13759,6 @@
 ## [2026-09-03 17:55 UTC] buy | [LLM] $jawed at $3.60666e-06, spent 0.02 SOL
 - **Reasoning:** $jawed — nostalgia/legacy narrative around YouTube's first video and co-founder Jawed Karim. Timeless internet-history meme angle, $3.6k mcap, posted X source. Viability passes. Fragility keywords absent. Risk: history-meme coins tend to be slower movers, not 1h pumps.
 
+## [2026-09-03 17:57 UTC] sell | [FULL][LLM] $jawed at $3.35218e-06 | P&L: -7.1%
+- **Reasoning:** -7.1% with only $215 pool liquidity and 1% ownership — thin books get crushed. Better to free the slot for a fresh launch with real attention than babysit a stale small-cap.
+
