@@ -13210,3 +13210,12 @@
 ## [2026-09-03 11:53 UTC] buy | [LLM] $cow at $3.682e-06, spent 0.02 SOL
 - **Reasoning:** $cow (cashcow) has a real product narrative: 'Self-tuning pump.fun launcher with 10 independent sources, hard-capped spend, code-enforced allowlist' — this is utility-meta attention, exactly the kind of narrative that pumps in current meta. $5.3k mcap is fresh, twitter active (@cashcowEXE). High attention signal.
 
+## [2026-09-03 11:54 UTC] sell | [TP +30% (25%)] $cow at $5.75095e-06 | P&L: +56.2%
+- **Reasoning:** Auto take-profit at +56.2%
+
+## [2026-09-03 11:55 UTC] sell | [PARTIAL][LLM] $cow at $5.75095e-06 | P&L: +56.2%
+- **Reasoning:** $cow is up +56.2%, well past the +50% TP threshold and into +100% territory. Hard rules auto-take-profit at +100%, so half off here locks in gains (~$2.50 profit on half) while letting the rest ride if the bonding-curve migration pumps further. Pool is only $1,296 thin — exit before liquidity evaporates.
+
+## [2026-09-03 11:55 UTC] buy | [LLM] $MARU at $2.894e-06, spent 0.02 SOL
+- **Reasoning:** $MARU — posted by @inversebrah, one of the most-followed memecoin thought-leaders on CT. Description has clear ape-in narrative ('taking over the timeline'). Strong attention signal with low mcap $2.9k. Passes viability gate.
+

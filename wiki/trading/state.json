@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.329834,
+  "balance_sol": 0.329364,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "4L6K7PJZKqjf18kpfvnfVbJeuBbJ27Z1XiaYf9hxpump": {
       "symbol": "cow",
       "name": "cashcow",
-      "amount": 547637.1537208039,
+      "amount": 205363.93264530145,
       "entry_price_usd": 3.682e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-03T11:53:40.300566+00:00",
       "entry_usd_value": 2.0164,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 8.274685049,
         "description": "Self-tuning http://pump.fun launcher. 10 independent sources, hard-capped spend, code-enforced allowlist. Public dashboard includes the duds.",
         "twitter": "https://x.com/cashcowEXE",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "5eDxoFdu3TZ2jwwHaN8CoxpNTqqQ7Zm2medzJ6Xapump": {
+      "symbol": "MARU",
+      "name": "Maru",
+      "amount": 696544.5749827229,
+      "entry_price_usd": 2.894e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T11:55:07.331134+00:00",
+      "entry_usd_value": 2.0158,
+      "entry_signals": {
+        "liquidity_usd": 39.81205040316,
+        "volume_24h_usd": 1868.91,
+        "market_cap_usd": 2882.8462481439815,
+        "ath_market_cap_usd": 4780.400256365164,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.395000004,
+        "description": "Maru is here and taking over the timeline. Ape in now before the ultimate send.",
+        "twitter": "https://x.com/inversebrah/status/2095480249513574644",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -28127,31 +28149,47 @@
       "pnl_pct": 24.53,
       "exit_reason": "LLM: sell_all — GOLDBULL is +24.5% — well past the +20% profit-taking threshold. Pool is tiny ($1,698) and we're at 0% share, meaning thin liquidity and high risk of ",
       "partial": false
+    },
+    {
+      "mint": "4L6K7PJZKqjf18kpfvnfVbJeuBbJ27Z1XiaYf9hxpump",
+      "symbol": "cow",
+      "name": "cashcow",
+      "amount_sold": 136909.28843020098,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T11:53:40.300566+00:00",
+      "exit_time": "2026-09-03T11:54:44.451178+00:00",
+      "entry_price_usd": 3.682e-06,
+      "exit_price_usd": 5.750948194531383e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007812,
+      "pnl_sol": 0.002812,
+      "pnl_pct": 56.19,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "4L6K7PJZKqjf18kpfvnfVbJeuBbJ27Z1XiaYf9hxpump",
+      "symbol": "cow",
+      "name": "cashcow",
+      "amount_sold": 205363.93264530145,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T11:53:40.300566+00:00",
+      "exit_time": "2026-09-03T11:55:05.821707+00:00",
+      "entry_price_usd": 3.682e-06,
+      "exit_price_usd": 5.750948194531383e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.011718,
+      "pnl_sol": 0.004218,
+      "pnl_pct": 56.19,
+      "exit_reason": "LLM: sell_half — $cow is up +56.2%, well past the +50% TP threshold and into +100% territory. Hard rules auto-take-profit at +100%, so half off here locks in gains (~$",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T11:53:40.300734+00:00",
+  "last_updated": "2026-09-03T11:55:07.331287+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.82,
-  "portfolio_value_usd": 35.27,
+  "last_sol_price_usd": 100.79,
+  "portfolio_value_usd": 35.97,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 11:19 UTC",
-      "action": "buy",
-      "details": "[LLM] $raji at $3.81391e-06, spent 0.02 SOL",
-      "reason": "$raji has the clearest narrative in the batch — Indian desi energy meme with bilingual cultural appeal and an active X account @gh1stsol. Bond at 12% with organic progression suggests real buyers, not pure bot launch. Story-driven memecoins tend to hold attention longer than one-off jokes. Risk: only $3.8k mcap and thin liquidity, so a -30% stop will hit fast on any dump."
-    },
-    {
-      "time": "2026-09-03 11:22 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $raji at $5.41855e-06 | P&L: +42.1%",
-      "reason": "Auto take-profit at +42.1%"
-    },
-    {
-      "time": "2026-09-03 11:22 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $raji at $5.41855e-06 | P&L: +42.1%",
-      "reason": "Up +42.1% — well past +30% TP. Bonding curve, pool only $1171, our share 0% (illiquid). Half-off locks +21% gain while leaving runner for if it keeps going. Giving back this move to hope for a 2x would be malpractice."
-    },
     {
       "time": "2026-09-03 11:22 UTC",
       "action": "buy",
@@ -28253,40 +28291,58 @@
       "action": "buy",
       "details": "[LLM] $cow at $3.682e-06, spent 0.02 SOL",
       "reason": "$cow (cashcow) has a real product narrative: 'Self-tuning pump.fun launcher with 10 independent sources, hard-capped spend, code-enforced allowlist' — this is utility-meta attention, exactly the kind of narrative that pumps in current meta. $5.3k mcap is fresh, twitter active (@cashcowEXE). High attention signal."
+    },
+    {
+      "time": "2026-09-03 11:54 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $cow at $5.75095e-06 | P&L: +56.2%",
+      "reason": "Auto take-profit at +56.2%"
+    },
+    {
+      "time": "2026-09-03 11:55 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $cow at $5.75095e-06 | P&L: +56.2%",
+      "reason": "$cow is up +56.2%, well past the +50% TP threshold and into +100% territory. Hard rules auto-take-profit at +100%, so half off here locks in gains (~$2.50 profit on half) while letting the rest ride if the bonding-curve migration pumps further. Pool is only $1,296 thin — exit before liquidity evaporates."
+    },
+    {
+      "time": "2026-09-03 11:55 UTC",
+      "action": "buy",
+      "details": "[LLM] $MARU at $2.894e-06, spent 0.02 SOL",
+      "reason": "$MARU — posted by @inversebrah, one of the most-followed memecoin thought-leaders on CT. Description has clear ape-in narrative ('taking over the timeline'). Strong attention signal with low mcap $2.9k. Passes viability gate."
     }
   ],
   "trade_stats": {
-    "total": 1653,
-    "wins": 831,
+    "total": 1655,
+    "wins": 833,
     "losses": 822,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.982811,
-    "avg_pnl_pct": 35.34,
+    "total_pnl_sol": -1.975781,
+    "avg_pnl_pct": 35.36,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 142,
-    "today_realized_sol": 0.01005,
-    "today_target_pct": 2.5,
+    "today_trades": 144,
+    "today_realized_sol": 0.01708,
+    "today_target_pct": 4.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 831,
+      "win_count": 833,
       "loss_count": 822,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T11:53:39.030643+00:00",
+  "last_llm_brief_at": "2026-09-03T11:55:05.821665+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "EJcTTMjUwHfcSDaMvqFYB3VYZRw5L6Y81m4L2AL2pump": {
-      "price_usd": 6.872798438462799e-06,
+    "4L6K7PJZKqjf18kpfvnfVbJeuBbJ27Z1XiaYf9hxpump": {
+      "price_usd": 5.750948194531383e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1698.21178822692,
-      "volume_h24": 1513.29,
+      "liquidity_usd": 1295.8543105850101,
+      "volume_h24": 2352.96,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 16.843997106
+      "real_sol_reserves": 12.856973019
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
