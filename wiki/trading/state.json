@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.368038,
+  "balance_sol": 0.385621,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "EDd95BKbF2E4xZHHsN2HtgpgLZRyMMZAhjesYCh7pump": {
       "symbol": "BULLISH",
       "name": "Bullish Trencher",
-      "amount": 516649.5901639344,
+      "amount": 193743.59631147538,
       "entry_price_usd": 3.904e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-03T06:47:30.406919+00:00",
       "entry_usd_value": 2.017,
       "entry_signals": {
@@ -27158,25 +27158,47 @@
       "pnl_pct": 23.0,
       "exit_reason": "LLM: sell_all — +23% gain, holding 0.1h — below the 25% TP threshold so bot hasn't auto-exited, but per scalp discipline if up >20% and any doubt, lock the gain. $560",
       "partial": false
+    },
+    {
+      "mint": "EDd95BKbF2E4xZHHsN2HtgpgLZRyMMZAhjesYCh7pump",
+      "symbol": "BULLISH",
+      "name": "Bullish Trencher",
+      "amount_sold": 129162.3975409836,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T06:47:30.406919+00:00",
+      "exit_time": "2026-09-03T06:48:34.873489+00:00",
+      "entry_price_usd": 3.904e-06,
+      "exit_price_usd": 5.49681345754519e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007033,
+      "pnl_sol": 0.002033,
+      "pnl_pct": 40.8,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "EDd95BKbF2E4xZHHsN2HtgpgLZRyMMZAhjesYCh7pump",
+      "symbol": "BULLISH",
+      "name": "Bullish Trencher",
+      "amount_sold": 193743.59631147538,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T06:47:30.406919+00:00",
+      "exit_time": "2026-09-03T06:48:59.755450+00:00",
+      "entry_price_usd": 3.904e-06,
+      "exit_price_usd": 5.49681345754519e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.01055,
+      "pnl_sol": 0.00305,
+      "pnl_pct": 40.8,
+      "exit_reason": "LLM: sell_half — Up +40.8% in <1h on bonding curve with only $1198 pool. Bonding-curve tokens mean-revert hard once momentum fades. Take half profit to lock gain, let ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T06:47:30.675502+00:00",
+  "last_updated": "2026-09-03T06:49:00.003600+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.85,
-  "portfolio_value_usd": 39.13,
+  "last_sol_price_usd": 100.95,
+  "portfolio_value_usd": 39.68,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 06:06 UTC",
-      "action": "buy",
-      "details": "[LLM] $Wally at $2.8683e-06, spent 0.02 SOL",
-      "reason": "$WALLY has the strongest narrative in the slate — explicit 'labubu of Japan' comparison, which references a proven 1000x cultural-virality playbook. Has twitter link (BananaInte). $2.9k mcap at 0.4min is entry-grade for an attention play. Risk: extremely young, bond only 1%, thin liquidity — must respect -30% hard stop."
-    },
-    {
-      "time": "2026-09-03 06:08 UTC",
-      "action": "buy",
-      "details": "[LLM] $Kauaʻi at $8.65267e-06, spent 0.02 SOL",
-      "reason": "$Kauaʻi has the strongest narrative of the batch — 'last known male' Kauaʻi bird story with a real creator twitter link, already $8.6k mcap and 30% bonded (real traction, not just-launch). Emotional extinction stories are proven viral fuel."
-    },
     {
       "time": "2026-09-03 06:09 UTC",
       "action": "sell",
@@ -27284,30 +27306,54 @@
       "action": "buy",
       "details": "[LLM] $BULLISH at $3.904e-06, spent 0.02 SOL",
       "reason": "$BULLISH has a live twitter post from @uncquant, a clear 'Robin Hood rotation' narrative that could catch CT attention, and $5.3k mcap is still early. The 21% bond shows real buys are landing. Taking the attention play; sizing 0.05 SOL."
+    },
+    {
+      "time": "2026-09-03 06:48 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $BULLISH at $5.49681e-06 | P&L: +40.8%",
+      "reason": "Auto take-profit at +40.8%"
+    },
+    {
+      "time": "2026-09-03 06:48 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BULLISH at $5.49681e-06 | P&L: +40.8%",
+      "reason": "Up +40.8% in <1h on bonding curve with only $1198 pool. Bonding-curve tokens mean-revert hard once momentum fades. Take half profit to lock gain, let the rest ride or exit on weakness."
     }
   ],
   "trade_stats": {
-    "total": 1596,
-    "wins": 807,
+    "total": 1598,
+    "wins": 809,
     "losses": 789,
     "win_rate_pct": 50.6,
-    "total_pnl_sol": -1.944607,
-    "avg_pnl_pct": 36.01,
+    "total_pnl_sol": -1.939524,
+    "avg_pnl_pct": 36.02,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 85,
-    "today_realized_sol": 0.048254,
-    "today_target_pct": 12.1,
+    "today_trades": 87,
+    "today_realized_sol": 0.053337,
+    "today_target_pct": 13.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 807,
+      "win_count": 809,
       "loss_count": 789,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T06:47:29.074939+00:00",
+  "last_llm_brief_at": "2026-09-03T06:48:59.755413+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EDd95BKbF2E4xZHHsN2HtgpgLZRyMMZAhjesYCh7pump": {
+      "price_usd": 5.49681345754519e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1197.8859139511999,
+      "volume_h24": 9082.31,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 11.866130896
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -12916,3 +12916,9 @@
 ## [2026-09-03 06:47 UTC] buy | [LLM] $BULLISH at $3.904e-06, spent 0.02 SOL
 - **Reasoning:** $BULLISH has a live twitter post from @uncquant, a clear 'Robin Hood rotation' narrative that could catch CT attention, and $5.3k mcap is still early. The 21% bond shows real buys are landing. Taking the attention play; sizing 0.05 SOL.
 
+## [2026-09-03 06:48 UTC] sell | [TP +30% (25%)] $BULLISH at $5.49681e-06 | P&L: +40.8%
+- **Reasoning:** Auto take-profit at +40.8%
+
+## [2026-09-03 06:48 UTC] sell | [PARTIAL][LLM] $BULLISH at $5.49681e-06 | P&L: +40.8%
+- **Reasoning:** Up +40.8% in <1h on bonding curve with only $1198 pool. Bonding-curve tokens mean-revert hard once momentum fades. Take half profit to lock gain, let the rest ride or exit on weakness.
+
