@@ -13855,3 +13855,6 @@
 ## [2026-09-03 19:13 UTC] buy | [LLM] $gc at $3.78e-06, spent 0.02 SOL
 - **Reasoning:** $GC ghost coin — has a narrative description (50+ chars passing viability), creator twitter @gh1stsol, sub-$4k mcap with bonding just starting. Ghost/spooky meta is recurring meme territory, low mcap gives multi-x upside if attention catches.
 
+## [2026-09-03 19:16 UTC] buy | [LLM] $ZEROCOOL at $7.82569e-06, spent 0.02 SOL
+- **Reasoning:** $ZEROCOOL has the strongest narrative of the batch: AI + cyberpunk security, dedicated @ZeroCool_AI twitter handle (not just a status link), viral hacker-movie name. AI narrative is hot, fresh0.1min age, $7.8k mcap = early entry. Risk: very young, bonding curve still28% — small buys only.
+
