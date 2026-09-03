@@ -14014,3 +14014,6 @@
 ## [2026-09-03 20:49 UTC] buy | [LLM] $BAGCOON at $4.14534e-06, spent 0.02 SOL
 - **Reasoning:** $BAGCOIN (Racoon Wif Bag) — strong narrative ('just a raccoon wif bag, no roadmap no utility' is peak memecoin self-awareness), X account linked (laserskullsol), mcap $4.1k with decent virality potential. Best attention signal in the batch.
 
+## [2026-09-03 20:50 UTC] sell | [hard-stop] $BAGCOON closed at $2.67315e-07 | P&L: -93.5%
+- **Reasoning:** Hard -30% stop
+
