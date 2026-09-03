@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.337074,
+  "balance_sol": 0.358069,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "L52FXdXXYD1bGV6mUKQgsT3rA99LpyUATip7ZJXpump": {
       "symbol": "shg",
       "name": "super haunt ghosty",
-      "amount": 580447.2069494902,
+      "amount": 217667.70260605885,
       "entry_price_usd": 3.472494958831622e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-03T12:29:08.807626+00:00",
       "entry_usd_value": 2.0156,
       "entry_signals": {
@@ -28399,25 +28399,47 @@
       "pnl_pct": -36.02,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "L52FXdXXYD1bGV6mUKQgsT3rA99LpyUATip7ZJXpump",
+      "symbol": "shg",
+      "name": "super haunt ghosty",
+      "amount_sold": 145111.80173737256,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T12:29:08.807626+00:00",
+      "exit_time": "2026-09-03T12:30:12.901399+00:00",
+      "entry_price_usd": 3.472494958831622e-06,
+      "exit_price_usd": 5.831786576933743e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.008398,
+      "pnl_sol": 0.003398,
+      "pnl_pct": 67.94,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "L52FXdXXYD1bGV6mUKQgsT3rA99LpyUATip7ZJXpump",
+      "symbol": "shg",
+      "name": "super haunt ghosty",
+      "amount_sold": 217667.70260605885,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T12:29:08.807626+00:00",
+      "exit_time": "2026-09-03T12:30:40.779821+00:00",
+      "entry_price_usd": 3.472494958831622e-06,
+      "exit_price_usd": 5.831786576933743e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.012597,
+      "pnl_sol": 0.005097,
+      "pnl_pct": 67.94,
+      "exit_reason": "LLM: sell_half — +67.9% in 0h is a strong pump on a tiny $1.3k pool. Take half off to lock gains — the other half rides free if it keeps going to +200%.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T12:29:08.807792+00:00",
+  "last_updated": "2026-09-03T12:30:40.781201+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.78,
-  "portfolio_value_usd": 35.99,
+  "last_sol_price_usd": 100.77,
+  "portfolio_value_usd": 37.19,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 11:57 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $cow at $5.47794e-06 | P&L: +48.8%",
-      "reason": "$cow at +48.8% — above +30% TP1 and racing toward +100% TP2. Sell half to lock gains and let the rest ride the bonding curve momentum; pool is still $1.2k so remaining size keeps exposure without overcommitting."
-    },
-    {
-      "time": "2026-09-03 11:57 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MARU at $2.93635e-06 | P&L: +1.5%",
-      "reason": "$MARU only +1.5% on a $62 pool with our 3% share — razor-thin liquidity, no clear narrative, and we already have a winner to deploy into. Free the slot."
-    },
     {
       "time": "2026-09-03 11:58 UTC",
       "action": "sell",
@@ -28525,40 +28547,52 @@
       "action": "buy",
       "details": "[LLM] $shg at $3.47249e-06, spent 0.02 SOL",
       "reason": "$SHG (super haunt ghosty) — clean narrative, desc 50+ chars, twitter attached. Ghost meme angle is repeatable across platforms. 0.2min age = first-mover slot."
+    },
+    {
+      "time": "2026-09-03 12:30 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $shg at $5.83179e-06 | P&L: +67.9%",
+      "reason": "Auto take-profit at +67.9%"
+    },
+    {
+      "time": "2026-09-03 12:30 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $shg at $5.83179e-06 | P&L: +67.9%",
+      "reason": "+67.9% in 0h is a strong pump on a tiny $1.3k pool. Take half off to lock gains — the other half rides free if it keeps going to +200%."
     }
   ],
   "trade_stats": {
-    "total": 1669,
-    "wins": 845,
+    "total": 1671,
+    "wins": 847,
     "losses": 824,
-    "win_rate_pct": 50.6,
-    "total_pnl_sol": -1.97557,
-    "avg_pnl_pct": 35.21,
+    "win_rate_pct": 50.7,
+    "total_pnl_sol": -1.967075,
+    "avg_pnl_pct": 35.25,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 158,
-    "today_realized_sol": 0.017291,
-    "today_target_pct": 4.3,
+    "today_trades": 160,
+    "today_realized_sol": 0.025786,
+    "today_target_pct": 6.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 845,
+      "win_count": 847,
       "loss_count": 824,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T12:29:06.996086+00:00",
+  "last_llm_brief_at": "2026-09-03T12:30:40.779782+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "GFR5buRGZL5gcM7PtCLSbq7TvQiKZSEwNzeAMWzMpump": {
-      "price_usd": 2.8317117670948075e-06,
+    "L52FXdXXYD1bGV6mUKQgsT3rA99LpyUATip7ZJXpump": {
+      "price_usd": 5.831786576933743e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 7.50405078316,
-      "volume_h24": 3399.62,
+      "liquidity_usd": 1326.27574964508,
+      "volume_h24": 334.2,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.074459722
+      "real_sol_reserves": 13.161414604
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

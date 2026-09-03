@@ -13282,3 +13282,9 @@
 ## [2026-09-03 12:29 UTC] buy | [LLM] $shg at $3.47249e-06, spent 0.02 SOL
 - **Reasoning:** $SHG (super haunt ghosty) — clean narrative, desc 50+ chars, twitter attached. Ghost meme angle is repeatable across platforms. 0.2min age = first-mover slot.
 
+## [2026-09-03 12:30 UTC] sell | [TP +30% (25%)] $shg at $5.83179e-06 | P&L: +67.9%
+- **Reasoning:** Auto take-profit at +67.9%
+
+## [2026-09-03 12:30 UTC] sell | [PARTIAL][LLM] $shg at $5.83179e-06 | P&L: +67.9%
+- **Reasoning:** +67.9% in 0h is a strong pump on a tiny $1.3k pool. Take half off to lock gains — the other half rides free if it keeps going to +200%.
+
