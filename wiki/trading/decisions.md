@@ -13111,3 +13111,6 @@
 ## [2026-09-03 10:44 UTC] sell | [hard-stop] $WOLF closed at $2.92761e-06 | P&L: -46.7%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-03 10:48 UTC] buy | [LLM] $WOLF at $6.25e-06, spent 0.02 SOL
+- **Reasoning:** $WOLF: best candidate — 26% bonding curve progress means real buyers already accumulating, dev publicly committed to keep buying through curve (narrative hook), $6.5k mcap with twitter presence. Description passes viability gate (>50 chars + twitter). Ultra-fresh at <1min = max attention window. Risk: still tiny mcap, could rug if dev dumps.
+
