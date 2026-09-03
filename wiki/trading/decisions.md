@@ -13429,3 +13429,6 @@
 ## [2026-09-03 14:10 UTC] sell | [FULL][LLM] $Roller at $3.09854e-06 | P&L: +4.3%
 - **Reasoning:** Up +4.3% in 0.1h with shallow $137 pool and 1% share — no momentum yet and tiny liquidity means exit gets worse if it stalls. Take the small gain and free the slot for fresh attention.
 
+## [2026-09-03 14:12 UTC] buy | [LLM] $Horseman at $2.86368e-06, spent 0.02 SOL
+- **Reasoning:** $Horseman (Headless Horseman) — Roblox brainrot narrative with dedicated X account (@HeadlessRH), meets viability gate (desc + twitter). Niche cultural tie-in has attention potential. Risk: mcap $2.8k, bond 0%, very early — size is small (0.05 SOL) so loss capped.
+
