@@ -13582,3 +13582,6 @@
 ## [2026-09-03 15:50 UTC] buy | [LLM] $INSIDER  at $9.442e-06, spent 0.02 SOL
 - **Reasoning:** $INSIDER has the strongest attention signal in the batch: paid 40 SOL for a verified TikTok account, doing it publicly — that's a build-in-public narrative traders love. Fresh, story-driven, mcap only $10k. Standard 0.05 SOL position, will bail if it doesn't pump in15 min.
 
+## [2026-09-03 15:51 UTC] sell | [hard-stop] $INSIDER  closed at $4.34867e-06 | P&L: -53.9%
+- **Reasoning:** Hard -30% stop
+
