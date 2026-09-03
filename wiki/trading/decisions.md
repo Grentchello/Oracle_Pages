@@ -13603,3 +13603,6 @@
 ## [2026-09-03 16:03 UTC] sell | [PARTIAL][LLM] $cyberfam at $5.51025e-06 | P&L: +19.2%
 - **Reasoning:** $cyberfam up +19.2% already, fresh entry, bonding curve live. Lock half the gain now per scalp discipline — if it pumps to +50%, we still have a runner. If it fades, we banked profit.
 
+## [2026-09-03 16:04 UTC] sell | [TP +30% (25%)] $cyberfam at $6.07733e-06 | P&L: +31.5%
+- **Reasoning:** Auto take-profit at +31.5%
+
