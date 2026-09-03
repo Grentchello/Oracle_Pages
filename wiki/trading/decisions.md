@@ -12748,3 +12748,6 @@
 ## [2026-09-03 04:24 UTC] sell | [FULL][LLM] $Candle at $1.87895e-05 | P&L: +105.8%
 - **Reasoning:** Up +105.8% in under an hour on a bonding-curve token with unclear narrative — bot already auto-locked profit on half. The remaining half is a free option; bond % completion 35% means graduation risk + reversal risk both elevated. Take the 2x and rotate capital into fresh launches.
 
+## [2026-09-03 04:29 UTC] buy | [LLM] $Moho at $7.384e-06, spent 0.02 SOL
+- **Reasoning:** $Moho (The Last Moho) has the strongest narrative of the batch: emotional 'last male Kauai bird recording' hook with author Devilante driving attention, real description (>50 chars) and twitter presence clears the viability gate. 24% bond and $6k mcap give early-entry asymmetry — viral animal/nostalgia memes historically pump hard on low mcaps.
+
