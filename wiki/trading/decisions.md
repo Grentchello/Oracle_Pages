@@ -14236,3 +14236,6 @@
 ## [2026-09-03 23:47 UTC] buy | [LLM] $RUFUS at $9.551e-06, spent 0.02 SOL
 - **Reasoning:** $RUFUS — Amazon Corgi nostalgia narrative is highly repeatable/viral with the tech community (Amazon employees, X tech accounts). Already at $10.7k mcap with 32% bond showing real demand, real X account (Cache100x), clear story hook. Best risk/reward in this batch.
 
+## [2026-09-03 23:51 UTC] sell | [FULL][LLM] $RUFUS at $8.46369e-06 | P&L: -11.4%
+- **Reasoning:** RUFUS down -11.4% after 0.1h on a tiny $2.2k pool with 0% share — this is a thin liquidity trap. Cut the loss now before it deepens toward the -30% hard stop.
+
