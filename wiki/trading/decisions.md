@@ -14131,3 +14131,9 @@
 ## [2026-09-03 22:01 UTC] buy | [LLM] $BROKE at $7.12875e-06, spent 0.02 SOL
 - **Reasoning:** $BROKE has the strongest narrative — 'rich for 7 seconds' is peak memecoin relatability, has twitter attached, $7k mcap is small but bonding curve 0% means earliest entry. Viral-meme potential is high.
 
+## [2026-09-03 22:02 UTC] sell | [hard-stop] $BROKE closed at $5.53035e-08 | P&L: -99.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 22:02 UTC] buy | [LLM] $Coco at $3.2587e-06, spent 0.02 SOL
+- **Reasoning:** $Coco — Croakie's dog selfie, personal-pet narrative with a known X figure (@Croakie). Crypto Twitter loves creator-pet tokens (see $jeff, $dogwifhat lineage). $3.2k mcap with real story behind it — classic attention-market play.
+
