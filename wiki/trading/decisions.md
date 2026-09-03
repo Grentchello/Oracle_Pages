@@ -14008,3 +14008,9 @@
 ## [2026-09-03 20:47 UTC] sell | [FULL][LLM] $myAImademe at $3.81991e-06 | P&L: -1.3%
 - **Reasoning:** -1.3% with only $443 pool liquidity and 0% share on bonding curve — this is a stale, illiquid bag. No narrative, no twitter link, no story. Cut it loose before it goes negative.
 
+## [2026-09-03 20:48 UTC] sell | [TP +500% (full)] $DEAXON at $2.4791e-05 | P&L: +303.1%
+- **Reasoning:** Auto take-profit at +303.1%
+
+## [2026-09-03 20:49 UTC] buy | [LLM] $BAGCOON at $4.14534e-06, spent 0.02 SOL
+- **Reasoning:** $BAGCOIN (Racoon Wif Bag) — strong narrative ('just a raccoon wif bag, no roadmap no utility' is peak memecoin self-awareness), X account linked (laserskullsol), mcap $4.1k with decent virality potential. Best attention signal in the batch.
+
