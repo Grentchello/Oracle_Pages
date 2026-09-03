@@ -13522,3 +13522,6 @@
 ## [2026-09-03 15:10 UTC] buy | [LLM] $TEEN at $5.47284e-06, spent 0.02 SOL
 - **Reasoning:** $TEEN CULT — anti-work/anti-corporate narrative resonates with zeitgeist, has dedicated twitter handle (teen_cult), bond at 21% (highest in batch = real buyers not just bots), mcap $5.5k. Risk: abstract narrative may not catch fire.
 
+## [2026-09-03 15:11 UTC] sell | [hard-stop] $TEEN closed at $3.04805e-06 | P&L: -44.3%
+- **Reasoning:** Hard -30% stop
+
