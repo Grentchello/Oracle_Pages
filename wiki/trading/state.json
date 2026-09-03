@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.339925,
+  "balance_sol": 0.319925,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "HWF4K8PEEMn8kTWHcX4jEV8jfrLHYFqyrSsX1Hz2pump": {
+      "symbol": "QUBY",
+      "name": "Quby On Solana",
+      "amount": 618719.2118226602,
+      "entry_price_usd": 3.248e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T04:07:16.385961+00:00",
+      "entry_usd_value": 2.0096000000000003,
+      "entry_signals": {
+        "liquidity_usd": 345.32055960768,
+        "volume_24h_usd": 246.62,
+        "market_cap_usd": 3475.9266649593487,
+        "ath_market_cap_usd": 3491.21431888761,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 3.436709391,
+        "description": "Every man needs a strong Quby. Every woman desires an even stronger Quby. And every trader needs a Quby on the Moon. 🌕 Born cute. Forged by memes. Hardened by the trenches. Quby is no longer just rosy cheeks and a silly smile. He survived the dips. He bought the fear. He held through the pain. He ne",
+        "twitter": "https://x.com/CallPumpdotfun/status/2095345528615866435",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -26457,17 +26480,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-03T04:05:44.390865+00:00",
+  "last_updated": "2026-09-03T04:07:16.638746+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.56,
-  "portfolio_value_usd": 34.18,
+  "last_sol_price_usd": 100.48,
+  "portfolio_value_usd": 34.16,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 03:16 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $TWINS at $3.47696e-06 | P&L: -4.9%",
-      "reason": "Only -4.9% but pool=$331 with our 1% share = tiny position in weak liquidity. Capital rotation beats holding a micro-share."
-    },
     {
       "time": "2026-09-03 03:16 UTC",
       "action": "buy",
@@ -26581,6 +26598,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $CSA at $5.30438e-06 | P&L: -19.1%",
       "reason": "$CSA is at -19.1% after 0.0h held, no bounce signal, bonding curve only $1127 liquidity, our share=0%. Cut it before the -30% hard stop hits — better to rotate capital into fresh launches."
+    },
+    {
+      "time": "2026-09-03 04:07 UTC",
+      "action": "buy",
+      "details": "[LLM] $QUBY at $3.248e-06, spent 0.02 SOL",
+      "reason": "$QUBY has a live X account (CallPumpdotfun) tied to the launch and a clear 'Quby on the Moon' lewd-humor meme narrative — passes viability gate (desc ≥50 chars + twitter), mcap only $3.5k so attention has room to 10x. Risk: brand-new token, narrative is blue humor which can flag quick."
     }
   ],
   "trade_stats": {
@@ -26602,21 +26625,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T04:05:44.132006+00:00",
+  "last_llm_brief_at": "2026-09-03T04:07:14.989001+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "5mwQQp2G4ikf64C7fhhyRtBwc4SE9cKZotuCyksSpump": {
-      "price_usd": 5.30438418573472e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1126.92197036448,
-      "volume_h24": 23663.69,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 11.206463508
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

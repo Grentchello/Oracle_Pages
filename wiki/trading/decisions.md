@@ -12730,3 +12730,6 @@
 ## [2026-09-03 04:05 UTC] sell | [FULL][LLM] $CSA at $5.30438e-06 | P&L: -19.1%
 - **Reasoning:** $CSA is at -19.1% after 0.0h held, no bounce signal, bonding curve only $1127 liquidity, our share=0%. Cut it before the -30% hard stop hits — better to rotate capital into fresh launches.
 
+## [2026-09-03 04:07 UTC] buy | [LLM] $QUBY at $3.248e-06, spent 0.02 SOL
+- **Reasoning:** $QUBY has a live X account (CallPumpdotfun) tied to the launch and a clear 'Quby on the Moon' lewd-humor meme narrative — passes viability gate (desc ≥50 chars + twitter), mcap only $3.5k so attention has room to 10x. Risk: brand-new token, narrative is blue humor which can flag quick.
+
