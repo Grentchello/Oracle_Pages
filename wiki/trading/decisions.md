@@ -12541,3 +12541,6 @@
 ## [2026-09-03 00:41 UTC] buy | [LLM] $$404 at $3.01011e-06, spent 0.02 SOL
 - **Reasoning:** $$404 has existential meme resonance ('if reality is just a page that loaded wrong') + branded twitter handle @imnotfound_404_. Mood-driven memecoins travel well on CT. Mcap $3k at 0.2min is prime discovery territory.
 
+## [2026-09-03 00:44 UTC] sell | [FULL][LLM] $$404 at $2.97068e-06 | P&L: -1.3%
+- **Reasoning:** $404 is flat at -1.3% with only $97 pool liquidity and 2% of our share — a textbook stale/fragile position. Freeing the slot to redeploy into a fresh attention launch follows the prompt's rotation-over-bagholding bias.
+
