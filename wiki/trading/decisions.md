@@ -12985,3 +12985,6 @@
 ## [2026-09-03 07:22 UTC] sell | [PARTIAL][LLM] $M2BCooT at $4.20966e-06 | P&L: +25.8%
 - **Reasoning:** Up +25.8% and approaching the +30% TP1 trigger. Lock half to bank the gain — bonding curve at 35% complete means the easy money is being extracted already, and the pool is only $670 so a sharp reversal is likely. Free slot + guaranteed profit > riding the rest.
 
+## [2026-09-03 07:24 UTC] sell | [PARTIAL][LLM] $M2BCooT at $4.10475e-06 | P&L: +22.7%
+- **Reasoning:** $M2BCooT is up +22.7% but held only 0.1h and pool liquidity is thin ($622). Per scalp discipline: up >20% with any doubt = lock gains. Selling half secures profit while letting runner ride toward +30% TP or higher.
+

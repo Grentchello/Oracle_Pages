@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.361959,
+  "balance_sol": 0.368091,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "4qiCFVFyJe25FDL3vB6MDdduGJFvpBUaSYHPHCyapump": {
       "symbol": "M2BCooT",
       "name": "Mars 2 Bandicoot",
-      "amount": 302071.12970711297,
+      "amount": 151035.56485355648,
       "entry_price_usd": 3.346e-06,
-      "entry_sol_spent": 0.01,
+      "entry_sol_spent": 0.005,
       "entry_time": "2026-09-03T07:17:16.675819+00:00",
       "entry_usd_value": 2.02146,
       "entry_signals": {
@@ -27396,19 +27396,30 @@
       "pnl_pct": 25.81,
       "exit_reason": "LLM: sell_half — Up +25.8% and approaching the +30% TP1 trigger. Lock half to bank the gain — bonding curve at 35% complete means the easy money is being extracted alr",
       "partial": true
+    },
+    {
+      "mint": "4qiCFVFyJe25FDL3vB6MDdduGJFvpBUaSYHPHCyapump",
+      "symbol": "M2BCooT",
+      "name": "Mars 2 Bandicoot",
+      "amount_sold": 151035.56485355648,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T07:17:16.675819+00:00",
+      "exit_time": "2026-09-03T07:24:06.582251+00:00",
+      "entry_price_usd": 3.346e-06,
+      "exit_price_usd": 4.104753608542351e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.006132,
+      "pnl_sol": 0.001132,
+      "pnl_pct": 22.68,
+      "exit_reason": "LLM: sell_half — $M2BCooT is up +22.7% but held only 0.1h and pool liquidity is thin ($622). Per scalp discipline: up >20% with any doubt = lock gains. Selling half se",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T07:22:26.036937+00:00",
+  "last_updated": "2026-09-03T07:24:06.836531+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.95,
-  "portfolio_value_usd": 37.55,
+  "last_sol_price_usd": 101.1,
+  "portfolio_value_usd": 37.72,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 06:53 UTC",
-      "action": "buy",
-      "details": "[LLM] $shg at $3.8312e-06, spent 0.02 SOL",
-      "reason": "$shg (superhero ghosty) — Robin Hood ghost narrative with twitter, mcap $3.8k, 0.4min age. Distinctive story ('the legend never died, came back as a ghost') is a memeable frame. Slightly behind $Buzz in named-influencer signal but solid organic setup."
-    },
     {
       "time": "2026-09-03 06:55 UTC",
       "action": "sell",
@@ -27522,40 +27533,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $M2BCooT at $4.20966e-06 | P&L: +25.8%",
       "reason": "Up +25.8% and approaching the +30% TP1 trigger. Lock half to bank the gain — bonding curve at 35% complete means the easy money is being extracted already, and the pool is only $670 so a sharp reversal is likely. Free slot + guaranteed profit > riding the rest."
+    },
+    {
+      "time": "2026-09-03 07:24 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $M2BCooT at $4.10475e-06 | P&L: +22.7%",
+      "reason": "$M2BCooT is up +22.7% but held only 0.1h and pool liquidity is thin ($622). Per scalp discipline: up >20% with any doubt = lock gains. Selling half secures profit while letting runner ride toward +30% TP or higher."
     }
   ],
   "trade_stats": {
-    "total": 1610,
-    "wins": 811,
+    "total": 1611,
+    "wins": 812,
     "losses": 799,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.960687,
-    "avg_pnl_pct": 35.67,
+    "total_pnl_sol": -1.959555,
+    "avg_pnl_pct": 35.66,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 99,
-    "today_realized_sol": 0.032174,
-    "today_target_pct": 8.0,
+    "today_trades": 100,
+    "today_realized_sol": 0.033306,
+    "today_target_pct": 8.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 811,
+      "win_count": 812,
       "loss_count": 799,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T07:22:25.499695+00:00",
+  "last_llm_brief_at": "2026-09-03T07:24:06.582212+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4qiCFVFyJe25FDL3vB6MDdduGJFvpBUaSYHPHCyapump": {
-      "price_usd": 4.209657700414545e-06,
+      "price_usd": 4.104753608542351e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 670.0972466850001,
-      "volume_h24": 4490.59,
+      "liquidity_usd": 621.9346238613,
+      "volume_h24": 4598.13,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 6.6379123
+      "real_sol_reserves": 6.151677783
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
