@@ -14245,3 +14245,9 @@
 ## [2026-09-03 23:55 UTC] buy | [LLM] $America at $8.056e-06, spent 0.02 SOL
 - **Reasoning:** Real X account with a hook (Cattelan $12.1M art piece, GLDx pairing). $11k mcap, brand new, narrative-driven. Best signal of the batch.
 
+## [2026-09-03 23:57 UTC] sell | [FULL][LLM] $NEXROM at $2.97884e-06 | P&L: -29.8%
+- **Reasoning:** NEXROM is at -29.8%, sitting 0.2% from the -30% hard stop. Pool is only $40 (severely illiquid, our 4% share makes any exit a rug-pull on ourselves). Cut losses now — there is no bounce signal on a $40 pool token with no narrative.
+
+## [2026-09-03 23:57 UTC] sell | [PARTIAL][LLM] $America at $9.22986e-06 | P&L: +14.6%
+- **Reasoning:** America is up +14.6% with $2,439 pool and zero narrative I can verify beyond a j7tracker deploy. Lock half the gain per scalp discipline; let the other half ride if attention builds.
+

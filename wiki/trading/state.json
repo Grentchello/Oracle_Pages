@@ -1,36 +1,14 @@
 {
-  "balance_sol": 0.266819,
+  "balance_sol": 0.292339,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "AMzDXyyYiqEDQj4MBn6RN6aJSuMQeB4uTK3UEvbUpump": {
-      "symbol": "NEXROM",
-      "name": "Nexrom DEX",
-      "amount": 490119.52902511467,
-      "entry_price_usd": 4.241414342609226e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T23:54:27.230030+00:00",
-      "entry_usd_value": 2.0788,
-      "entry_signals": {
-        "liquidity_usd": 793.2058098443399,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4242.163155642584,
-        "ath_market_cap_usd": 4410.94941955963,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 7.631381661,
-        "description": "NexromDEX is the first DEX aggregator built for x402 payments We enable AI agents to automatically swap tokens when paying for APIs  zero manual intervention needed Automatic x402 Payment Handler Zero-Friction Token Swaps & x402 Payments for AI Agents",
-        "twitter": "https://x.com/NexromDEX",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "BWmhZCGVcPDKdVH3dePAE6fcmCDiCW6KndvwRB5grB43": {
       "symbol": "America",
       "name": "The Golden toilet",
-      "amount": 257969.21549155904,
+      "amount": 128984.60774577952,
       "entry_price_usd": 8.056e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T23:55:49.566010+00:00",
       "entry_usd_value": 2.0782,
       "entry_signals": {
@@ -31770,25 +31748,47 @@
       "pnl_pct": -11.38,
       "exit_reason": "LLM: sell_all — RUFUS down -11.4% after 0.1h on a tiny $2.2k pool with 0% share — this is a thin liquidity trap. Cut the loss now before it deepens toward the -30% ha",
       "partial": false
+    },
+    {
+      "mint": "AMzDXyyYiqEDQj4MBn6RN6aJSuMQeB4uTK3UEvbUpump",
+      "symbol": "NEXROM",
+      "name": "Nexrom DEX",
+      "amount_sold": 490119.52902511467,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T23:54:27.230030+00:00",
+      "exit_time": "2026-09-03T23:57:08.909709+00:00",
+      "entry_price_usd": 4.241414342609226e-06,
+      "exit_price_usd": 2.9788448861442143e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.014057,
+      "pnl_sol": -0.005943,
+      "pnl_pct": -29.77,
+      "exit_reason": "LLM: sell_all — NEXROM is at -29.8%, sitting 0.2% from the -30% hard stop. Pool is only $40 (severely illiquid, our 4% share makes any exit a rug-pull on ourselves). ",
+      "partial": false
+    },
+    {
+      "mint": "BWmhZCGVcPDKdVH3dePAE6fcmCDiCW6KndvwRB5grB43",
+      "symbol": "America",
+      "name": "The Golden toilet",
+      "amount_sold": 128984.60774577952,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T23:55:49.566010+00:00",
+      "exit_time": "2026-09-03T23:57:08.910007+00:00",
+      "entry_price_usd": 8.056e-06,
+      "exit_price_usd": 9.229863403331885e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011463,
+      "pnl_sol": 0.001463,
+      "pnl_pct": 14.57,
+      "exit_reason": "LLM: sell_half — America is up +14.6% with $2,439 pool and zero narrative I can verify beyond a j7tracker deploy. Lock half the gain per scalp discipline; let the othe",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T23:55:49.566334+00:00",
+  "last_updated": "2026-09-03T23:57:09.188030+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.91,
-  "portfolio_value_usd": 31.88,
+  "last_sol_price_usd": 103.86,
+  "portfolio_value_usd": 31.4,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 22:36 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Rufus at $1.01279e-05 | P&L: +106.2%",
-      "reason": "Up +106% — well past +50% TP threshold, narrative unclear (Rufus is a generic name with no viral catalyst), pool only $2703 with our share at 0% (thin liquidity makes further upside risky). Lock the gain now."
-    },
-    {
-      "time": "2026-09-03 22:45 UTC",
-      "action": "buy",
-      "details": "[LLM] $ALIENZ at $3.05808e-06, spent 0.02 SOL",
-      "reason": "$ALIENZ has a mystery/recovery narrative ('records recovered, origins not meant to be public') plus a dedicated twitter handle (@AlienzClub). Memecoin lore narratives attract speculative attention. Lower mcap ($3k) = more upside if it sticks, but higher rug risk."
-    },
     {
       "time": "2026-09-03 22:57 UTC",
       "action": "sell",
@@ -31896,40 +31896,63 @@
       "action": "buy",
       "details": "[LLM] $America at $8.056e-06, spent 0.02 SOL",
       "reason": "Real X account with a hook (Cattelan $12.1M art piece, GLDx pairing). $11k mcap, brand new, narrative-driven. Best signal of the batch."
+    },
+    {
+      "time": "2026-09-03 23:57 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $NEXROM at $2.97884e-06 | P&L: -29.8%",
+      "reason": "NEXROM is at -29.8%, sitting 0.2% from the -30% hard stop. Pool is only $40 (severely illiquid, our 4% share makes any exit a rug-pull on ourselves). Cut losses now — there is no bounce signal on a $40 pool token with no narrative."
+    },
+    {
+      "time": "2026-09-03 23:57 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $America at $9.22986e-06 | P&L: +14.6%",
+      "reason": "America is up +14.6% with $2,439 pool and zero narrative I can verify beyond a j7tracker deploy. Lock half the gain per scalp discipline; let the other half ride if attention builds."
     }
   ],
   "trade_stats": {
-    "total": 1866,
-    "wins": 958,
-    "losses": 908,
+    "total": 1868,
+    "wins": 959,
+    "losses": 909,
     "win_rate_pct": 51.3,
-    "total_pnl_sol": -2.02583,
-    "avg_pnl_pct": 34.3,
+    "total_pnl_sol": -2.03031,
+    "avg_pnl_pct": 34.25,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 355,
-    "today_realized_sol": -0.032969,
-    "today_target_pct": -8.2,
+    "today_trades": 357,
+    "today_realized_sol": -0.037449,
+    "today_target_pct": -9.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 958,
-      "loss_count": 908,
+      "win_count": 959,
+      "loss_count": 909,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T23:55:48.237847+00:00",
+  "last_llm_brief_at": "2026-09-03T23:57:08.909668+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AMzDXyyYiqEDQj4MBn6RN6aJSuMQeB4uTK3UEvbUpump": {
-      "price_usd": 4.838920556994766e-06,
+      "price_usd": 2.9788448861442143e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 905.82389628941,
-      "volume_h24": 3647.39,
+      "liquidity_usd": 39.9936132324,
+      "volume_h24": 6740.85,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 8.717389051
+      "real_sol_reserves": 0.38507234
+    },
+    "BWmhZCGVcPDKdVH3dePAE6fcmCDiCW6KndvwRB5grB43": {
+      "price_usd": 9.229863403331885e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2439.17726050044,
+      "volume_h24": 25072.3,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 23.485242254
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
