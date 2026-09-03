@@ -12925,3 +12925,6 @@
 ## [2026-09-03 06:50 UTC] sell | [FULL][LLM] $BULLISH at $3.25236e-06 | P&L: -16.7%
 - **Reasoning:** -16.7% with 0% pool share and tiny $222 pool means no bounce support. Approaching -30% hard stop; cutting the loss now preserves capital and frees the slot.
 
+## [2026-09-03 06:53 UTC] buy | [LLM] $shg at $3.8312e-06, spent 0.02 SOL
+- **Reasoning:** $shg (superhero ghosty) — Robin Hood ghost narrative with twitter, mcap $3.8k, 0.4min age. Distinctive story ('the legend never died, came back as a ghost') is a memeable frame. Slightly behind $Buzz in named-influencer signal but solid organic setup.
+
