@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.324728,
+  "balance_sol": 0.343633,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EAQPDMaGEP7v2ZPyVhocrp8E9skNR5HqaWV4ZdVxpump": {
-      "symbol": "WINE",
-      "name": "Wine Coin",
-      "amount": 669351.2304250558,
-      "entry_price_usd": 3.129e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T18:27:54.569331+00:00",
-      "entry_usd_value": 2.0944,
-      "entry_signals": {
-        "liquidity_usd": 104.37089085192,
-        "volume_24h_usd": 112.22,
-        "market_cap_usd": 3126.9763963981018,
-        "ath_market_cap_usd": 3132.3089379131884,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.996666261,
-        "description": "Wine was born for kings, but the blockchain made it immortal. 🍷 No vineyards, no barrels — just pure chaos, luxury, and $WINE. WineCoin: sip the future.",
-        "twitter": "https://x.com/0xSpritz/status/2095579006737203395",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30235,19 +30212,30 @@
       "pnl_pct": 28.34,
       "exit_reason": "LLM: sell_all — Up +28.3% with only $5117 pool liquidity (barely 5x position) — thin liquidity + approaching TP zone = lock gains now. Free capital for fresh attentio",
       "partial": false
+    },
+    {
+      "mint": "EAQPDMaGEP7v2ZPyVhocrp8E9skNR5HqaWV4ZdVxpump",
+      "symbol": "WINE",
+      "name": "Wine Coin",
+      "amount_sold": 669351.2304250558,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T18:27:54.569331+00:00",
+      "exit_time": "2026-09-03T18:29:17.520465+00:00",
+      "entry_price_usd": 3.129e-06,
+      "exit_price_usd": 2.960218320932031e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018905,
+      "pnl_sol": -0.001095,
+      "pnl_pct": -5.39,
+      "exit_reason": "LLM: sell_all — $WINE at -5.4% after 0.0h, pool only $16 with our 12% share = we're dominating the pool, meaning exit liquidity is dangerously thin. Fresh launches gi",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T18:27:54.820630+00:00",
+  "last_updated": "2026-09-03T18:29:17.780464+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.72,
-  "portfolio_value_usd": 36.1,
+  "last_sol_price_usd": 104.81,
+  "portfolio_value_usd": 36.02,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 17:38 UTC",
-      "action": "buy",
-      "details": "[LLM] $Fenixxx at $4.301e-06, spent 0.02 SOL",
-      "reason": "$Fenixxx has a clear dev-incentive narrative (bot release at 1M mcap), Twitter presence, and Spanish-language memecoin community attention. Sub-$4k mcap with 4% bonding curve = early entry."
-    },
     {
       "time": "2026-09-03 17:39 UTC",
       "action": "sell",
@@ -30361,30 +30349,48 @@
       "action": "buy",
       "details": "[LLM] $WINE at $3.129e-06, spent 0.02 SOL",
       "reason": "$WINE has the strongest narrative of the batch — 'wine made immortal on blockchain' with luxury framing + real twitter @0xSpritz attached. $3.1k mcap is bottom-of-curve entry. Risk: brand-new, low liquidity, but attention signal is concrete (named account, themed story)."
+    },
+    {
+      "time": "2026-09-03 18:29 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WINE at $2.96022e-06 | P&L: -5.4%",
+      "reason": "$WINE at -5.4% after 0.0h, pool only $16 with our 12% share = we're dominating the pool, meaning exit liquidity is dangerously thin. Fresh launches give back early losses fast. Cut now at a small loss before it widens."
     }
   ],
   "trade_stats": {
-    "total": 1777,
+    "total": 1778,
     "wins": 912,
-    "losses": 865,
+    "losses": 866,
     "win_rate_pct": 51.3,
-    "total_pnl_sol": -1.987918,
-    "avg_pnl_pct": 34.78,
+    "total_pnl_sol": -1.989013,
+    "avg_pnl_pct": 34.76,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 266,
-    "today_realized_sol": 0.004943,
-    "today_target_pct": 1.2,
+    "today_trades": 267,
+    "today_realized_sol": 0.003848,
+    "today_target_pct": 1.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 912,
-      "loss_count": 865,
+      "loss_count": 866,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T18:27:53.057134+00:00",
+  "last_llm_brief_at": "2026-09-03T18:29:17.520432+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EAQPDMaGEP7v2ZPyVhocrp8E9skNR5HqaWV4ZdVxpump": {
+      "price_usd": 2.960218320932031e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 15.96659063868,
+      "volume_h24": 314.08,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.152338428
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -13789,3 +13789,6 @@
 ## [2026-09-03 18:27 UTC] buy | [LLM] $WINE at $3.129e-06, spent 0.02 SOL
 - **Reasoning:** $WINE has the strongest narrative of the batch — 'wine made immortal on blockchain' with luxury framing + real twitter @0xSpritz attached. $3.1k mcap is bottom-of-curve entry. Risk: brand-new, low liquidity, but attention signal is concrete (named account, themed story).
 
+## [2026-09-03 18:29 UTC] sell | [FULL][LLM] $WINE at $2.96022e-06 | P&L: -5.4%
+- **Reasoning:** $WINE at -5.4% after 0.0h, pool only $16 with our 12% share = we're dominating the pool, meaning exit liquidity is dangerously thin. Fresh launches give back early losses fast. Cut now at a small loss before it widens.
+
