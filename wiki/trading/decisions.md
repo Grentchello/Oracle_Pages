@@ -12553,3 +12553,9 @@
 ## [2026-09-03 01:02 UTC] buy | [LLM] $DogexFort at $2.864e-06, spent 0.02 SOL
 - **Reasoning:** $DogexFort (Miso) — cross-platform narrative: miso cat (existing meme) + doge lookalike spotted in fortnite. Fortnite crossovers have produced 10x pumps this year. Twitter + desc present.0.05 SOL position.
 
+## [2026-09-03 01:12 UTC] sell | [FULL][LLM] $DogexFort at $2.85217e-06 | P&L: -0.4%
+- **Reasoning:** Held only 12 min at -0.4% on a brand new launch with no viral traction yet — flat-to-slightly-down bonding-curve tokens tend to bleed as better launches attract flow. Cut the slot for fresh entries.
+
+## [2026-09-03 01:12 UTC] buy | [LLM] $SOLID at $3.174e-06, spent 0.02 SOL
+- **Reasoning:** $SOLID — narrative piggybacks on official @solana X post about Nepal charity. Endorsed by Solana's main account is rare attention leverage, even at low bond%.
+
