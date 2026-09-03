@@ -14191,3 +14191,6 @@
 ## [2026-09-03 22:45 UTC] buy | [LLM] $ALIENZ at $3.05808e-06, spent 0.02 SOL
 - **Reasoning:** $ALIENZ has a mystery/recovery narrative ('records recovered, origins not meant to be public') plus a dedicated twitter handle (@AlienzClub). Memecoin lore narratives attract speculative attention. Lower mcap ($3k) = more upside if it sticks, but higher rug risk.
 
+## [2026-09-03 22:57 UTC] sell | [FULL][LLM] $ALIENZ at $2.96921e-06 | P&L: -2.9%
+- **Reasoning:** Holding 6% of a $31 pool is a concentration/illiquidity bomb — any other seller crushes price. No clear narrative or twitter on $ALIENZ. -2.9% with 0.2h held is the optimal exit window before it goes stale.
+

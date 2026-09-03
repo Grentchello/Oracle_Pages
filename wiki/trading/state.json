@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.30374,
+  "balance_sol": 0.323154,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6n3SWitBWCWDRQ1DVvhfdgrghmKH6HvxFN3JHnr1pump": {
-      "symbol": "ALIENZ",
-      "name": "ALIENZ",
-      "amount": 680668.9138693716,
-      "entry_price_usd": 3.0580800115685493e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T22:45:41.403997+00:00",
-      "entry_usd_value": 2.08154,
-      "entry_signals": {
-        "liquidity_usd": 78.517672715774,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3059.611552220394,
-        "ath_market_cap_usd": 3204.265281635545,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.754419062,
-        "description": "Many records recovered. Their origins were never meant to be public.",
-        "twitter": "https://x.com/AlienzClub",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -31595,19 +31572,30 @@
       "pnl_pct": 106.19,
       "exit_reason": "LLM: sell_all — Up +106% — well past +50% TP threshold, narrative unclear (Rufus is a generic name with no viral catalyst), pool only $2703 with our share at 0% (thin",
       "partial": false
+    },
+    {
+      "mint": "6n3SWitBWCWDRQ1DVvhfdgrghmKH6HvxFN3JHnr1pump",
+      "symbol": "ALIENZ",
+      "name": "ALIENZ",
+      "amount_sold": 680668.9138693716,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T22:45:41.403997+00:00",
+      "exit_time": "2026-09-03T22:57:23.995526+00:00",
+      "entry_price_usd": 3.0580800115685493e-06,
+      "exit_price_usd": 2.9692068280096702e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019414,
+      "pnl_sol": -0.000586,
+      "pnl_pct": -2.91,
+      "exit_reason": "LLM: sell_all — Holding 6% of a $31 pool is a concentration/illiquidity bomb — any other seller crushes price. No clear narrative or twitter on $ALIENZ. -2.9% with 0.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T22:55:39.517341+00:00",
+  "last_updated": "2026-09-03T22:57:23.995812+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.2,
-  "portfolio_value_usd": 33.73,
+  "last_sol_price_usd": 104.1,
+  "portfolio_value_usd": 33.64,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 22:02 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $BROKE closed at $5.53035e-08 | P&L: -99.2%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-03 22:02 UTC",
       "action": "buy",
@@ -31721,35 +31709,41 @@
       "action": "buy",
       "details": "[LLM] $ALIENZ at $3.05808e-06, spent 0.02 SOL",
       "reason": "$ALIENZ has a mystery/recovery narrative ('records recovered, origins not meant to be public') plus a dedicated twitter handle (@AlienzClub). Memecoin lore narratives attract speculative attention. Lower mcap ($3k) = more upside if it sticks, but higher rug risk."
+    },
+    {
+      "time": "2026-09-03 22:57 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ALIENZ at $2.96921e-06 | P&L: -2.9%",
+      "reason": "Holding 6% of a $31 pool is a concentration/illiquidity bomb — any other seller crushes price. No clear narrative or twitter on $ALIENZ. -2.9% with 0.2h held is the optimal exit window before it goes stale."
     }
   ],
   "trade_stats": {
-    "total": 1857,
+    "total": 1858,
     "wins": 955,
-    "losses": 902,
+    "losses": 903,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.008908,
-    "avg_pnl_pct": 34.51,
+    "total_pnl_sol": -2.009494,
+    "avg_pnl_pct": 34.49,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 346,
-    "today_realized_sol": -0.016047,
-    "today_target_pct": -4.0,
+    "today_trades": 347,
+    "today_realized_sol": -0.016633,
+    "today_target_pct": -4.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 955,
-      "loss_count": 902,
+      "loss_count": 903,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T22:55:39.517292+00:00",
+  "last_llm_brief_at": "2026-09-03T22:57:23.995487+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "6n3SWitBWCWDRQ1DVvhfdgrghmKH6HvxFN3JHnr1pump": {
-      "price_usd": 2.972059092013522e-06,
+      "price_usd": 2.9692068280096702e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 31.3524771874,
+      "liquidity_usd": 31.3223884377,
       "volume_h24": 303.73,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
