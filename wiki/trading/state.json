@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.37004,
+  "balance_sol": 0.374458,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Cbfcw4RgiPgjUqJ6x7wje8boQpbZh9RqtDWpRw2jyjT5": {
-      "symbol": "HUGGY",
-      "name": "HUGGING FACE",
-      "amount": 35446.583351374225,
-      "entry_price_usd": 1.0658643634418229e-05,
-      "entry_sol_spent": 0.00375,
-      "entry_time": "2026-09-03T12:08:29.672758+00:00",
-      "entry_usd_value": 2.015,
-      "entry_signals": {
-        "liquidity_usd": 3710.2509749045,
-        "volume_24h_usd": null,
-        "market_cap_usd": 10701.553812373479,
-        "ath_market_cap_usd": 11935.96232232089,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 36.826312406,
-        "description": "https://x.com/ForestManSol555/status/2095482960212378011",
-        "twitter": "https://x.com/ForestManSol555/status/2095482960212378011",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -28348,19 +28325,30 @@
       "pnl_pct": 50.86,
       "exit_reason": "LLM: sell_half — HUGGY is up +50.9% which crosses the +50% TP threshold — bot likely auto-took partial, but locking in half here secures gains on a low-liquidity bondi",
       "partial": true
+    },
+    {
+      "mint": "Cbfcw4RgiPgjUqJ6x7wje8boQpbZh9RqtDWpRw2jyjT5",
+      "symbol": "HUGGY",
+      "name": "HUGGING FACE",
+      "amount_sold": 35446.583351374225,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T12:08:29.672758+00:00",
+      "exit_time": "2026-09-03T12:14:17.116844+00:00",
+      "entry_price_usd": 1.0658643634418229e-05,
+      "exit_price_usd": 1.2566266356994611e-05,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.004418,
+      "pnl_sol": 0.000668,
+      "pnl_pct": 17.9,
+      "exit_reason": "LLM: sell_all — HUGGY is up 17.9% and still on its bonding curve with only $3,362 liquidity, so the move is fragile and below the +30% profit-taking threshold. Lock t",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T12:12:59.161746+00:00",
+  "last_updated": "2026-09-03T12:14:17.404659+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.94,
-  "portfolio_value_usd": 37.73,
+  "last_sol_price_usd": 100.83,
+  "portfolio_value_usd": 37.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 11:53 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GOLDBULL at $6.8728e-06 | P&L: +24.5%",
-      "reason": "GOLDBULL is +24.5% — well past the +20% profit-taking threshold. Pool is tiny ($1,698) and we're at 0% share, meaning thin liquidity and high risk of rug-pull. Locking in gains now per scalp discipline."
-    },
     {
       "time": "2026-09-03 11:53 UTC",
       "action": "buy",
@@ -28474,40 +28462,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $HUGGY at $1.60795e-05 | P&L: +50.9%",
       "reason": "HUGGY is up +50.9% which crosses the +50% TP threshold — bot likely auto-took partial, but locking in half here secures gains on a low-liquidity bonding-curve token ($4.2k pool) where reversal is common. Holding remainder for continuation."
+    },
+    {
+      "time": "2026-09-03 12:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HUGGY at $1.25663e-05 | P&L: +17.9%",
+      "reason": "HUGGY is up 17.9% and still on its bonding curve with only $3,362 liquidity, so the move is fragile and below the +30% profit-taking threshold. Lock the gain and free the slot rather than give it back."
     }
   ],
   "trade_stats": {
-    "total": 1666,
-    "wins": 844,
+    "total": 1667,
+    "wins": 845,
     "losses": 822,
     "win_rate_pct": 50.7,
-    "total_pnl_sol": -1.958854,
-    "avg_pnl_pct": 35.32,
+    "total_pnl_sol": -1.958186,
+    "avg_pnl_pct": 35.31,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 155,
-    "today_realized_sol": 0.034007,
-    "today_target_pct": 8.5,
+    "today_trades": 156,
+    "today_realized_sol": 0.034675,
+    "today_target_pct": 8.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 844,
+      "win_count": 845,
       "loss_count": 822,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T12:12:58.897617+00:00",
+  "last_llm_brief_at": "2026-09-03T12:14:17.116799+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "Cbfcw4RgiPgjUqJ6x7wje8boQpbZh9RqtDWpRw2jyjT5": {
-      "price_usd": 1.6079478080458864e-05,
+      "price_usd": 1.2566266356994611e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4199.96593947938,
-      "volume_h24": 35436.58,
+      "liquidity_usd": 3361.5351210100202,
+      "volume_h24": 52627.33,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 41.608539127
+      "real_sol_reserves": 33.338640494
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

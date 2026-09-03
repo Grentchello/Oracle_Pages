@@ -13264,3 +13264,6 @@
 ## [2026-09-03 12:12 UTC] sell | [PARTIAL][LLM] $HUGGY at $1.60795e-05 | P&L: +50.9%
 - **Reasoning:** HUGGY is up +50.9% which crosses the +50% TP threshold — bot likely auto-took partial, but locking in half here secures gains on a low-liquidity bonding-curve token ($4.2k pool) where reversal is common. Holding remainder for continuation.
 
+## [2026-09-03 12:14 UTC] sell | [FULL][LLM] $HUGGY at $1.25663e-05 | P&L: +17.9%
+- **Reasoning:** HUGGY is up 17.9% and still on its bonding curve with only $3,362 liquidity, so the move is fragile and below the +30% profit-taking threshold. Lock the gain and free the slot rather than give it back.
+
