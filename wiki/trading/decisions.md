@@ -12913,3 +12913,6 @@
 ## [2026-09-03 06:36 UTC] sell | [FULL][LLM] $rigbycat at $3.96054e-06 | P&L: +23.0%
 - **Reasoning:** +23% gain, holding 0.1h — below the 25% TP threshold so bot hasn't auto-exited, but per scalp discipline if up >20% and any doubt, lock the gain. $560 pool liquidity is thin and bonding-curve means exit liquidity is fragile. Take the +23% now rather than hope for the 25% trigger.
 
+## [2026-09-03 06:47 UTC] buy | [LLM] $BULLISH at $3.904e-06, spent 0.02 SOL
+- **Reasoning:** $BULLISH has a live twitter post from @uncquant, a clear 'Robin Hood rotation' narrative that could catch CT attention, and $5.3k mcap is still early. The 21% bond shows real buys are landing. Taking the attention play; sizing 0.05 SOL.
+
