@@ -13402,3 +13402,9 @@
 ## [2026-09-03 13:51 UTC] sell | [hard-stop] $TPT closed at $7.03612e-08 | P&L: -98.5%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-03 13:55 UTC] sell | [TP +30% (25%)] $rhg at $4.51811e-06 | P&L: +30.6%
+- **Reasoning:** Auto take-profit at +30.6%
+
+## [2026-09-03 13:56 UTC] sell | [PARTIAL][LLM] $rhg at $4.51811e-06 | P&L: +30.6%
+- **Reasoning:** $rhg is up +30.6% and just crossed the +30% TP threshold — locking half the position secures gains while letting the other half ride if attention sustains. Pool is thin ($797) so any further upside is fragile.
+
