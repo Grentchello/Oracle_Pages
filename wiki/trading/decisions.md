@@ -13873,3 +13873,12 @@
 ## [2026-09-03 19:25 UTC] sell | [PARTIAL][LLM] $ONBOARDING at $1.15653e-05 | P&L: +77.6%
 - **Reasoning:** +77.6% is deep into the +30% TP threshold but still below +100%; the bot will auto-TP at +100% (50% remaining). Locking half now secures realized gain while leaving a runner. Bonding curve at 0% complete with $3k pool is fragile — better to bank half.
 
+## [2026-09-03 19:26 UTC] sell | [TP +30% (25%)] $ONBOARDING at $1.16286e-05 | P&L: +78.5%
+- **Reasoning:** Auto take-profit at +78.5%
+
+## [2026-09-03 19:26 UTC] sell | [PARTIAL][LLM] $ONBOARDING at $1.16286e-05 | P&L: +78.5%
+- **Reasoning:** The position is up 78.5% and has already crossed the +50% profit-taking threshold, so half should be realized. Keep half open only while momentum remains strong, since the low $3,119 pool and bonding-curve status create sharp reversal risk.
+
+## [2026-09-03 19:26 UTC] buy | [LLM] $BENCHMARK at $4.43687e-06, spent 0.02 SOL
+- **Reasoning:** BENCHMARK has a clear playable-Mario AI narrative and an X link from orbitalx0 at just $4,451 market cap, making this the strongest attention-driven launch. Risk is very high because the pool is shallow and no GMGN fragility metrics are shown.
+
