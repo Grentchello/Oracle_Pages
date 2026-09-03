@@ -13219,3 +13219,12 @@
 ## [2026-09-03 11:55 UTC] buy | [LLM] $MARU at $2.894e-06, spent 0.02 SOL
 - **Reasoning:** $MARU — posted by @inversebrah, one of the most-followed memecoin thought-leaders on CT. Description has clear ape-in narrative ('taking over the timeline'). Strong attention signal with low mcap $2.9k. Passes viability gate.
 
+## [2026-09-03 11:56 UTC] sell | [TP +30% (25%)] $cow at $5.47794e-06 | P&L: +48.8%
+- **Reasoning:** Auto take-profit at +48.8%
+
+## [2026-09-03 11:57 UTC] sell | [PARTIAL][LLM] $cow at $5.47794e-06 | P&L: +48.8%
+- **Reasoning:** $cow at +48.8% — above +30% TP1 and racing toward +100% TP2. Sell half to lock gains and let the rest ride the bonding curve momentum; pool is still $1.2k so remaining size keeps exposure without overcommitting.
+
+## [2026-09-03 11:57 UTC] sell | [FULL][LLM] $MARU at $2.93635e-06 | P&L: +1.5%
+- **Reasoning:** $MARU only +1.5% on a $62 pool with our 3% share — razor-thin liquidity, no clear narrative, and we already have a winner to deploy into. Free the slot.
+

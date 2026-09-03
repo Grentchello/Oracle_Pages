@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.329364,
+  "balance_sol": 0.356625,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "4L6K7PJZKqjf18kpfvnfVbJeuBbJ27Z1XiaYf9hxpump": {
       "symbol": "cow",
       "name": "cashcow",
-      "amount": 205363.93264530145,
+      "amount": 77011.47474198804,
       "entry_price_usd": 3.682e-06,
-      "entry_sol_spent": 0.0075,
+      "entry_sol_spent": 0.0028125,
       "entry_time": "2026-09-03T11:53:40.300566+00:00",
       "entry_usd_value": 2.0164,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 8.274685049,
         "description": "Self-tuning http://pump.fun launcher. 10 independent sources, hard-capped spend, code-enforced allowlist. Public dashboard includes the duds.",
         "twitter": "https://x.com/cashcowEXE",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "5eDxoFdu3TZ2jwwHaN8CoxpNTqqQ7Zm2medzJ6Xapump": {
-      "symbol": "MARU",
-      "name": "Maru",
-      "amount": 696544.5749827229,
-      "entry_price_usd": 2.894e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T11:55:07.331134+00:00",
-      "entry_usd_value": 2.0158,
-      "entry_signals": {
-        "liquidity_usd": 39.81205040316,
-        "volume_24h_usd": 1868.91,
-        "market_cap_usd": 2882.8462481439815,
-        "ath_market_cap_usd": 4780.400256365164,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.395000004,
-        "description": "Maru is here and taking over the timeline. Ape in now before the ultimate send.",
-        "twitter": "https://x.com/inversebrah/status/2095480249513574644",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -28183,31 +28161,64 @@
       "pnl_pct": 56.19,
       "exit_reason": "LLM: sell_half — $cow is up +56.2%, well past the +50% TP threshold and into +100% territory. Hard rules auto-take-profit at +100%, so half off here locks in gains (~$",
       "partial": true
+    },
+    {
+      "mint": "4L6K7PJZKqjf18kpfvnfVbJeuBbJ27Z1XiaYf9hxpump",
+      "symbol": "cow",
+      "name": "cashcow",
+      "amount_sold": 51340.98316132536,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T11:53:40.300566+00:00",
+      "exit_time": "2026-09-03T11:56:11.347997+00:00",
+      "entry_price_usd": 3.682e-06,
+      "exit_price_usd": 5.477942382117162e-06,
+      "entry_sol_for_chunk": 0.001875,
+      "exit_sol_received": 0.00279,
+      "pnl_sol": 0.000915,
+      "pnl_pct": 48.78,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "4L6K7PJZKqjf18kpfvnfVbJeuBbJ27Z1XiaYf9hxpump",
+      "symbol": "cow",
+      "name": "cashcow",
+      "amount_sold": 77011.47474198804,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T11:53:40.300566+00:00",
+      "exit_time": "2026-09-03T11:57:02.405950+00:00",
+      "entry_price_usd": 3.682e-06,
+      "exit_price_usd": 5.477942382117162e-06,
+      "entry_sol_for_chunk": 0.002812,
+      "exit_sol_received": 0.004184,
+      "pnl_sol": 0.001372,
+      "pnl_pct": 48.78,
+      "exit_reason": "LLM: sell_half — $cow at +48.8% — above +30% TP1 and racing toward +100% TP2. Sell half to lock gains and let the rest ride the bonding curve momentum; pool is still $",
+      "partial": true
+    },
+    {
+      "mint": "5eDxoFdu3TZ2jwwHaN8CoxpNTqqQ7Zm2medzJ6Xapump",
+      "symbol": "MARU",
+      "name": "Maru",
+      "amount_sold": 696544.5749827229,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T11:55:07.331134+00:00",
+      "exit_time": "2026-09-03T11:57:02.406261+00:00",
+      "entry_price_usd": 2.894e-06,
+      "exit_price_usd": 2.9363459046143625e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020287,
+      "pnl_sol": 0.000287,
+      "pnl_pct": 1.46,
+      "exit_reason": "LLM: sell_all — $MARU only +1.5% on a $62 pool with our 3% share — razor-thin liquidity, no clear narrative, and we already have a winner to deploy into. Free the slo",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T11:55:07.331287+00:00",
+  "last_updated": "2026-09-03T11:57:02.673518+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.79,
-  "portfolio_value_usd": 35.97,
+  "last_sol_price_usd": 100.82,
+  "portfolio_value_usd": 36.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 11:22 UTC",
-      "action": "buy",
-      "details": "[LLM] $AMERDOGE at $3.9348e-06, spent 0.02 SOL",
-      "reason": "$AMERDOGE: patriotic Doge narrative with attached X account (ownthedoge status posted 0.2min ago). Doge meta is the most enduring memecoin category; US-flag angle plus low $3.9k mcap gives 10x room if narrative catches. 0.05 SOL."
-    },
-    {
-      "time": "2026-09-03 11:23 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $raji at $6.02259e-06 | P&L: +57.9%",
-      "reason": "Auto take-profit at +57.9%"
-    },
-    {
-      "time": "2026-09-03 11:24 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $AMERDOGE at $2.88723e-06 | P&L: -26.6%",
-      "reason": "-26.6% loss, pool only $40, dead liquidity. Approaching -30% hard cap. No bounce signal — exit now before forced stop."
-    },
     {
       "time": "2026-09-03 11:24 UTC",
       "action": "sell",
@@ -28309,40 +28320,69 @@
       "action": "buy",
       "details": "[LLM] $MARU at $2.894e-06, spent 0.02 SOL",
       "reason": "$MARU — posted by @inversebrah, one of the most-followed memecoin thought-leaders on CT. Description has clear ape-in narrative ('taking over the timeline'). Strong attention signal with low mcap $2.9k. Passes viability gate."
+    },
+    {
+      "time": "2026-09-03 11:56 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $cow at $5.47794e-06 | P&L: +48.8%",
+      "reason": "Auto take-profit at +48.8%"
+    },
+    {
+      "time": "2026-09-03 11:57 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $cow at $5.47794e-06 | P&L: +48.8%",
+      "reason": "$cow at +48.8% — above +30% TP1 and racing toward +100% TP2. Sell half to lock gains and let the rest ride the bonding curve momentum; pool is still $1.2k so remaining size keeps exposure without overcommitting."
+    },
+    {
+      "time": "2026-09-03 11:57 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MARU at $2.93635e-06 | P&L: +1.5%",
+      "reason": "$MARU only +1.5% on a $62 pool with our 3% share — razor-thin liquidity, no clear narrative, and we already have a winner to deploy into. Free the slot."
     }
   ],
   "trade_stats": {
-    "total": 1655,
-    "wins": 833,
+    "total": 1658,
+    "wins": 836,
     "losses": 822,
-    "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.975781,
+    "win_rate_pct": 50.4,
+    "total_pnl_sol": -1.973207,
     "avg_pnl_pct": 35.36,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 144,
-    "today_realized_sol": 0.01708,
-    "today_target_pct": 4.3,
+    "today_trades": 147,
+    "today_realized_sol": 0.019654,
+    "today_target_pct": 4.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 833,
+      "win_count": 836,
       "loss_count": 822,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T11:55:05.821665+00:00",
+  "last_llm_brief_at": "2026-09-03T11:57:02.405914+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4L6K7PJZKqjf18kpfvnfVbJeuBbJ27Z1XiaYf9hxpump": {
-      "price_usd": 5.750948194531383e-06,
+      "price_usd": 5.477942382117162e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1295.8543105850101,
-      "volume_h24": 2352.96,
+      "liquidity_usd": 1191.80738359688,
+      "volume_h24": 7582.63,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 12.856973019
+      "real_sol_reserves": 11.821140484
+    },
+    "5eDxoFdu3TZ2jwwHaN8CoxpNTqqQ7Zm2medzJ6Xapump": {
+      "price_usd": 2.9363459046143625e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 62.40577703594,
+      "volume_h24": 1891.5,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.618982117
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
