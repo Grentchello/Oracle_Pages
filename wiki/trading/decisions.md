@@ -12976,3 +12976,6 @@
 ## [2026-09-03 07:14 UTC] buy | [LLM] $donki at $3.26685e-06, spent 0.02 SOL
 - **Reasoning:** $donki (Don Quijote) - strong narrative hook (Japanese retail giant Pancho going public independently), Japanese cultural meme with viral potential. Mcap $3.2k, very fresh, X post from @atiuoznc1. Cultural/national narrative can spread fast on Japanese crypto Twitter.
 
+## [2026-09-03 07:15 UTC] sell | [FULL][LLM] $donki at $3.26151e-06 | P&L: -0.2%
+- **Reasoning:** $donki is flat (-0.2%) after 0.0h with only $222 pool — barely above viability. No clear narrative, no viral hook, just a Japanese discounter meme. Cut and free the slot.
+
