@@ -13912,3 +13912,6 @@
 ## [2026-09-03 19:43 UTC] sell | [hard-stop] $Sam2 closed at $2.9522e-06 | P&L: -60.0%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-03 19:49 UTC] sell | [FULL][LLM] $DENAR at $4.20682e-06 | P&L: +3.0%
+- **Reasoning:** Only +3% after 6 minutes with dangerously thin pool ($617) — below 5x position size safety. Illiquidity risk outweighs the tiny gain; locking in the green and freeing the slot beats waiting for it to bleed on thin liquidity.
+
