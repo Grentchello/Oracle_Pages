@@ -13576,3 +13576,6 @@
 ## [2026-09-03 15:48 UTC] buy | [LLM] $down at $4.424e-06, spent 0.02 SOL
 - **Reasoning:** $down — 'AI is down worldwide' narrative taps a live zeitgeist meme if there's an AI outage story circulating; tweet from flikeroo gives attention signal. Viability passes (desc + twitter). New launch with cultural moment angle — classic attention play.
 
+## [2026-09-03 15:49 UTC] sell | [FULL][LLM] $down at $4.23998e-06 | P&L: -4.2%
+- **Reasoning:** $down is down4.2% in first minutes with $650 pool (below5x position size liquidity check), and we've held only 0.0h meaning momentum isn't working. Pool is too thin to trust a bounce—exit and free the slot.
+

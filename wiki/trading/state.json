@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.382049,
+  "balance_sol": 0.401262,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CLghCodBMjMDFQerqFQjWbnvcpED58eW5nBmoJLv2QXZ": {
-      "symbol": "down",
-      "name": "down intelligence",
-      "amount": 470316.4556962025,
-      "entry_price_usd": 4.424e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T15:48:06.487381+00:00",
-      "entry_usd_value": 2.08068,
-      "entry_signals": {
-        "liquidity_usd": 811.905996531462,
-        "volume_24h_usd": 2290.53,
-        "market_cap_usd": 4426.21962863081,
-        "ath_market_cap_usd": 5093.280632582323,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 7.804237043,
-        "description": "AI is down worldwide, that said we now have DOWN INTELLIGENCE",
-        "twitter": "https://x.com/flikeroo/status/2095538944322498890",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -29521,19 +29498,30 @@
       "pnl_pct": -1.12,
       "exit_reason": "LLM: sell_all — $Cat is essentially flat at -1.1% with 0% pool share on a tiny $380 pool. No momentum, no narrative catalyst, bonding-curve entry means exit will be r",
       "partial": false
+    },
+    {
+      "mint": "CLghCodBMjMDFQerqFQjWbnvcpED58eW5nBmoJLv2QXZ",
+      "symbol": "down",
+      "name": "down intelligence",
+      "amount_sold": 470316.4556962025,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T15:48:06.487381+00:00",
+      "exit_time": "2026-09-03T15:49:24.603157+00:00",
+      "entry_price_usd": 4.424e-06,
+      "exit_price_usd": 4.239976502172762e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019213,
+      "pnl_sol": -0.000787,
+      "pnl_pct": -4.16,
+      "exit_reason": "LLM: sell_all — $down is down4.2% in first minutes with $650 pool (below5x position size liquidity check), and we've held only 0.0h meaning momentum isn't working. Po",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T15:48:06.746049+00:00",
+  "last_updated": "2026-09-03T15:49:24.856840+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.034,
-  "portfolio_value_usd": 41.83,
+  "last_sol_price_usd": 103.79,
+  "portfolio_value_usd": 41.65,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 15:08 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $Atheist closed at $2.96172e-06 | P&L: -61.9%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-03 15:10 UTC",
       "action": "buy",
@@ -29647,30 +29635,48 @@
       "action": "buy",
       "details": "[LLM] $down at $4.424e-06, spent 0.02 SOL",
       "reason": "$down — 'AI is down worldwide' narrative taps a live zeitgeist meme if there's an AI outage story circulating; tweet from flikeroo gives attention signal. Viability passes (desc + twitter). New launch with cultural moment angle — classic attention play."
+    },
+    {
+      "time": "2026-09-03 15:49 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $down at $4.23998e-06 | P&L: -4.2%",
+      "reason": "$down is down4.2% in first minutes with $650 pool (below5x position size liquidity check), and we've held only 0.0h meaning momentum isn't working. Pool is too thin to trust a bounce—exit and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 1735,
+    "total": 1736,
     "wins": 891,
-    "losses": 844,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.930595,
-    "avg_pnl_pct": 35.44,
+    "losses": 845,
+    "win_rate_pct": 51.3,
+    "total_pnl_sol": -1.931382,
+    "avg_pnl_pct": 35.42,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 224,
-    "today_realized_sol": 0.062266,
-    "today_target_pct": 15.6,
+    "today_trades": 225,
+    "today_realized_sol": 0.061479,
+    "today_target_pct": 15.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 891,
-      "loss_count": 844,
+      "loss_count": 845,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T15:48:04.875695+00:00",
+  "last_llm_brief_at": "2026-09-03T15:49:24.603112+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CLghCodBMjMDFQerqFQjWbnvcpED58eW5nBmoJLv2QXZ": {
+      "price_usd": 4.239976502172762e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 650.04307451597,
+      "volume_h24": 3094.17,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 6.263060743
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
