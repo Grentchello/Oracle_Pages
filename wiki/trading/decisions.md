@@ -12703,3 +12703,9 @@
 ## [2026-09-03 03:53 UTC] buy | [LLM] $$BTCHAN at $3.146e-06, spent 0.02 SOL
 - **Reasoning:** $$BTCHAN has the strongest narrative on the board — a real 2013/2014 cultural artifact (Bitcoin-chan 'Fairy of Money'), active twitter, 1.1min old, $3.1k mcap = still cheap. Attention markets reward provenance + story. Risk: very fresh, bonding 5%.
 
+## [2026-09-03 03:55 UTC] sell | [FULL][LLM] $$BTCHAN at $2.88032e-06 | P&L: -8.4%
+- **Reasoning:** Down 8.4% already at 0.0h held — early red with no bounce signal. Stale/exit-fast rule: cut small loss now rather than let it bleed to -30%. Pool is thin at $37, easy to get stuck.
+
+## [2026-09-03 03:55 UTC] buy | [LLM] $MM at $7.48889e-06, spent 0.02 SOL
+- **Reasoning:** $MM (Marcat Maker) — bonding 28%, has twitter link, creator narrating a 'going live' story on PumpFun. Attention narrative + real-time livestream = viral mechanic. Fresh 0.1min age, decent bonding progress.
+

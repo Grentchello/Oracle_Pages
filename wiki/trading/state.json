@@ -1,26 +1,26 @@
 {
-  "balance_sol": 0.323811,
+  "balance_sol": 0.322115,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "DbbsarEVUpXAd2E8gg9txPLhpRL1TURsmk6fvQW7pump": {
-      "symbol": "$BTCHAN",
-      "name": "Bitcoin-chan",
-      "amount": 639033.693579148,
-      "entry_price_usd": 3.146e-06,
+    "CFXGdgMnR1WGvQXhwAR4NjUhBnQXC6XonVLvgwTCpump": {
+      "symbol": "MM",
+      "name": "Marcat Maker",
+      "amount": 268557.82276149566,
+      "entry_price_usd": 7.4888900249468175e-06,
       "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T03:53:37.116042+00:00",
-      "entry_usd_value": 2.0103999999999997,
+      "entry_time": "2026-09-03T03:55:14.086455+00:00",
+      "entry_usd_value": 2.0112,
       "entry_signals": {
-        "liquidity_usd": 178.58699837999998,
-        "volume_24h_usd": 975.78,
-        "market_cap_usd": 3144.837690329035,
-        "ath_market_cap_usd": 3770.843377145095,
+        "liquidity_usd": 1925.42728575336,
+        "volume_24h_usd": null,
+        "market_cap_usd": 7466.910890350907,
+        "ath_market_cap_usd": 8770.235595866869,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1.7766315,
-        "description": "Bitcoin-chan dates back to 2013/2014, originally created as the “Fairy of Money” and used in 4-panel comics built around Bitcoin culture.",
-        "twitter": "https://x.com/btchan_sol?s=11",
+        "real_sol_reserves": 19.147049381,
+        "description": "I'm Going Live on PumpFun  Introducing $MM What has been happening the last few days is absolutely crazy. We are literally moving the markets as degens First we ran up AMC, Then GME, Then Wendys, GPRO, then FAMI We are moving stocks from Pennies to 5x+ in a day Join the MarCat Makers  Paying all bag",
+        "twitter": "https://x.com/amiriasyna/status/2095359634030952707",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -26376,25 +26376,30 @@
       "pnl_pct": 30.98,
       "exit_reason": "LLM: sell_all — Already at +31% which is past the +30% TP threshold. Locking in profit — bot should auto-TP but I'll force it. Frees a slot and redeploys capital into",
       "partial": false
+    },
+    {
+      "mint": "DbbsarEVUpXAd2E8gg9txPLhpRL1TURsmk6fvQW7pump",
+      "symbol": "$BTCHAN",
+      "name": "Bitcoin-chan",
+      "amount_sold": 639033.693579148,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T03:53:37.116042+00:00",
+      "exit_time": "2026-09-03T03:55:12.803086+00:00",
+      "entry_price_usd": 3.146e-06,
+      "exit_price_usd": 2.880321588117242e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018304,
+      "pnl_sol": -0.001696,
+      "pnl_pct": -8.44,
+      "exit_reason": "LLM: sell_all — Down 8.4% already at 0.0h held — early red with no bounce signal. Stale/exit-fast rule: cut small loss now rather than let it bleed to -30%. Pool is t",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T03:53:37.116194+00:00",
+  "last_updated": "2026-09-03T03:55:14.086726+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.52,
-  "portfolio_value_usd": 34.56,
+  "last_sol_price_usd": 100.56,
+  "portfolio_value_usd": 34.4,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 02:36 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $GG at $1.38809e-05 | P&L: +27.1%",
-      "reason": "GG is up27.1% but not yet at the +30% TP threshold (which auto-triggers at +25% per bot logic — actually this should have triggered; assume bot will catch it). Taking half off locks profit on a bonding-curve token with thin pool ($3,688) where dump risk rises as it nears raydium migration. Trail with the rest."
-    },
-    {
-      "time": "2026-09-03 02:37 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $GG closed at $5.85517e-06 | P&L: -46.4%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-03 02:40 UTC",
       "action": "observe",
@@ -26502,40 +26507,52 @@
       "action": "buy",
       "details": "[LLM] $$BTCHAN at $3.146e-06, spent 0.02 SOL",
       "reason": "$$BTCHAN has the strongest narrative on the board — a real 2013/2014 cultural artifact (Bitcoin-chan 'Fairy of Money'), active twitter, 1.1min old, $3.1k mcap = still cheap. Attention markets reward provenance + story. Risk: very fresh, bonding 5%."
+    },
+    {
+      "time": "2026-09-03 03:55 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $$BTCHAN at $2.88032e-06 | P&L: -8.4%",
+      "reason": "Down 8.4% already at 0.0h held — early red with no bounce signal. Stale/exit-fast rule: cut small loss now rather than let it bleed to -30%. Pool is thin at $37, easy to get stuck."
+    },
+    {
+      "time": "2026-09-03 03:55 UTC",
+      "action": "buy",
+      "details": "[LLM] $MM at $7.48889e-06, spent 0.02 SOL",
+      "reason": "$MM (Marcat Maker) — bonding 28%, has twitter link, creator narrating a 'going live' story on PumpFun. Attention narrative + real-time livestream = viral mechanic. Fresh 0.1min age, decent bonding progress."
     }
   ],
   "trade_stats": {
-    "total": 1550,
+    "total": 1551,
     "wins": 779,
-    "losses": 771,
-    "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.988832,
-    "avg_pnl_pct": 36.28,
+    "losses": 772,
+    "win_rate_pct": 50.2,
+    "total_pnl_sol": -1.990528,
+    "avg_pnl_pct": 36.25,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 39,
-    "today_realized_sol": 0.004029,
-    "today_target_pct": 1.0,
+    "today_trades": 40,
+    "today_realized_sol": 0.002333,
+    "today_target_pct": 0.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 779,
-      "loss_count": 771,
+      "loss_count": 772,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T03:53:35.792466+00:00",
+  "last_llm_brief_at": "2026-09-03T03:55:12.803043+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "AHuhw5bLkA1tU6EC2yiXB2pWPWBpfd3sdLgKkUfXpump": {
-      "price_usd": 6.423458932791682e-06,
+    "DbbsarEVUpXAd2E8gg9txPLhpRL1TURsmk6fvQW7pump": {
+      "price_usd": 2.880321588117242e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1543.41692491,
-      "volume_h24": 4827.61,
+      "liquidity_usd": 36.669669995039996,
+      "volume_h24": 1125.05,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 15.35432675
+      "real_sol_reserves": 0.364654634
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
