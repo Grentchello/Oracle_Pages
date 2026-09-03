@@ -13366,3 +13366,9 @@
 ## [2026-09-03 13:35 UTC] sell | [FULL][LLM] $SoFiUSD at $3.03495e-06 | P&L: -27.8%
 - **Reasoning:** Down 27.8% and approaching the -30% hard stop. Pool is only $104 and our share is 1% — illiquid and weak bounce prospects. Cut the loss now rather than wait for the auto-stop.
 
+## [2026-09-03 13:38 UTC] buy | [LLM] $billions at $3.94763e-06, spent 0.02 SOL
+- **Reasoning:** a1lon9 tweet gives real CT attention (passes viability gate via twitter), 'billions will deploy' is a deployer-meta narrative. Mcap $4k is micro but that's where10x lives. 0.05 SOL — if it doesn't move in 15 min, stale-exit.
+
+## [2026-09-03 13:38 UTC] buy | [LLM] $QUBY at $3.14463e-06, spent 0.02 SOL
+- **Reasoning:** Quby nostalgia narrative + twitter presence passes viability. 'YOU REMEMBER QUBY' is classic memecoin recall-copy. 0.05 SOL, tight stop, plan to sell half at +50%.
+
