@@ -14167,3 +14167,9 @@
 ## [2026-09-03 22:27 UTC] buy | [LLM] $RWA BABIES at $6.546e-06, spent 0.02 SOL
 - **Reasoning:** $RWA BABIES has the strongest narrative of the fresh batch — explicit 'welded to $BABY' cross-reference, distinctive Windows 95 nursery art meme, dedicated X account already posting, $8.8k mcap with 30% bonding curve progress indicating real buy flow. Meme attention is genuine.
 
+## [2026-09-03 22:29 UTC] sell | [hard-stop] $RWA BABIES closed at $3.01352e-06 | P&L: -54.0%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 22:29 UTC] sell | [FULL][LLM] $SMARTIN  at $5.15321e-06 | P&L: +27.8%
+- **Reasoning:** Up +27.8% but pool only $1027 and our share already 0% (illiquid). Narrative weak (no clear attention signal behind 'SMARTIN'). Lock the gain before thin liquidity reverses it — hard to exit a $1k pool cleanly once momentum stalls.
+
