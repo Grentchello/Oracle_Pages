@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.349363,
+  "balance_sol": 0.361959,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "4qiCFVFyJe25FDL3vB6MDdduGJFvpBUaSYHPHCyapump": {
       "symbol": "M2BCooT",
       "name": "Mars 2 Bandicoot",
-      "amount": 604142.2594142259,
+      "amount": 302071.12970711297,
       "entry_price_usd": 3.346e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T07:17:16.675819+00:00",
       "entry_usd_value": 2.02146,
       "entry_signals": {
@@ -27379,19 +27379,30 @@
       "pnl_pct": -0.16,
       "exit_reason": "LLM: sell_all — $donki is flat (-0.2%) after 0.0h with only $222 pool — barely above viability. No clear narrative, no viral hook, just a Japanese discounter meme. Cu",
       "partial": false
+    },
+    {
+      "mint": "4qiCFVFyJe25FDL3vB6MDdduGJFvpBUaSYHPHCyapump",
+      "symbol": "M2BCooT",
+      "name": "Mars 2 Bandicoot",
+      "amount_sold": 302071.12970711297,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T07:17:16.675819+00:00",
+      "exit_time": "2026-09-03T07:22:25.500616+00:00",
+      "entry_price_usd": 3.346e-06,
+      "exit_price_usd": 4.209657700414545e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.012596,
+      "pnl_sol": 0.002596,
+      "pnl_pct": 25.81,
+      "exit_reason": "LLM: sell_half — Up +25.8% and approaching the +30% TP1 trigger. Lock half to bank the gain — bonding curve at 35% complete means the easy money is being extracted alr",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T07:20:51.512080+00:00",
+  "last_updated": "2026-09-03T07:22:26.036937+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.044,
-  "portfolio_value_usd": 37.32,
+  "last_sol_price_usd": 100.95,
+  "portfolio_value_usd": 37.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 06:50 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BULLISH at $3.25236e-06 | P&L: -16.7%",
-      "reason": "-16.7% with 0% pool share and tiny $222 pool means no bounce support. Approaching -30% hard stop; cutting the loss now preserves capital and frees the slot."
-    },
     {
       "time": "2026-09-03 06:53 UTC",
       "action": "buy",
@@ -27505,40 +27516,46 @@
       "action": "buy",
       "details": "[LLM] $M2BCooT at $3.346e-06, spent 0.02 SOL",
       "reason": "$M2BCooT — browser-native racing game on Solana is a rare product-backed narrative in memecoins; gaming meta consistently catches attention, mcap $3.8k with 12% bond gives early entry room. Risk: sub-$4k mcap is rug-prone, but the gameplay hook differentiates it from pure-joke tokens."
+    },
+    {
+      "time": "2026-09-03 07:22 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $M2BCooT at $4.20966e-06 | P&L: +25.8%",
+      "reason": "Up +25.8% and approaching the +30% TP1 trigger. Lock half to bank the gain — bonding curve at 35% complete means the easy money is being extracted already, and the pool is only $670 so a sharp reversal is likely. Free slot + guaranteed profit > riding the rest."
     }
   ],
   "trade_stats": {
-    "total": 1609,
-    "wins": 810,
+    "total": 1610,
+    "wins": 811,
     "losses": 799,
-    "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.963283,
+    "win_rate_pct": 50.4,
+    "total_pnl_sol": -1.960687,
     "avg_pnl_pct": 35.67,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 98,
-    "today_realized_sol": 0.029578,
-    "today_target_pct": 7.4,
+    "today_trades": 99,
+    "today_realized_sol": 0.032174,
+    "today_target_pct": 8.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 810,
+      "win_count": 811,
       "loss_count": 799,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T07:20:51.242252+00:00",
+  "last_llm_brief_at": "2026-09-03T07:22:25.499695+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4qiCFVFyJe25FDL3vB6MDdduGJFvpBUaSYHPHCyapump": {
-      "price_usd": 3.7882552537202173e-06,
+      "price_usd": 4.209657700414545e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 478.90836105921596,
-      "volume_h24": 4301.9,
+      "liquidity_usd": 670.0972466850001,
+      "volume_h24": 4490.59,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.739602164
+      "real_sol_reserves": 6.6379123
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -12982,3 +12982,6 @@
 ## [2026-09-03 07:17 UTC] buy | [LLM] $M2BCooT at $3.346e-06, spent 0.02 SOL
 - **Reasoning:** $M2BCooT — browser-native racing game on Solana is a rare product-backed narrative in memecoins; gaming meta consistently catches attention, mcap $3.8k with 12% bond gives early entry room. Risk: sub-$4k mcap is rug-prone, but the gameplay hook differentiates it from pure-joke tokens.
 
+## [2026-09-03 07:22 UTC] sell | [PARTIAL][LLM] $M2BCooT at $4.20966e-06 | P&L: +25.8%
+- **Reasoning:** Up +25.8% and approaching the +30% TP1 trigger. Lock half to bank the gain — bonding curve at 35% complete means the easy money is being extracted already, and the pool is only $670 so a sharp reversal is likely. Free slot + guaranteed profit > riding the rest.
+
