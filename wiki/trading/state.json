@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.337937,
+  "balance_sol": 0.363475,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3ttNQ5P5u1hYNTwz2T6vuZaPcjDFGyhy9dkN2tFPpump": {
-      "symbol": "ACPR",
-      "name": "acepyr",
-      "amount": 434475.415423874,
-      "entry_price_usd": 4.848145430610837e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T19:37:31.327917+00:00",
-      "entry_usd_value": 2.1064,
-      "entry_signals": {
-        "liquidity_usd": 902.7666582592,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4833.467768944838,
-        "ath_market_cap_usd": 4846.764454890002,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 8.57165456,
-        "description": "Qualitative Event Contract Markets in Testnet. Trade Cognition on Acepyr. ",
-        "twitter": "https://x.com/acepyr",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "4fpqebbqMLFFrYY495sCiB7jXWMkLPtgJdp6J1Sppump": {
-      "symbol": "Quarter",
-      "name": "Quarters",
-      "amount": 3152544.6890334664,
-      "entry_price_usd": 6.677145631979506e-07,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T19:38:48.915763+00:00",
-      "entry_usd_value": 2.105,
-      "entry_signals": {
-        "liquidity_usd": 30.816364104500003,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6344.0813605506,
-        "ath_market_cap_usd": 7095.396501194095,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.292792058,
-        "description": "quarters.fun is a pay-to-play arcade on Solana. A play costs a quarter (0.0025 SOL), every score is a replay anyone can re-run, and every pot pays out on-chain.",
-        "twitter": "https://x.com/quartersfun",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30614,25 +30569,47 @@
       "pnl_pct": -2.57,
       "exit_reason": "LLM: sell_all — Down -2.6% on a $667 pool (below healthy depth), no narrative, no attention signal visible. Thin liquidity + no catalyst = exit before it bleeds furth",
       "partial": false
+    },
+    {
+      "mint": "3ttNQ5P5u1hYNTwz2T6vuZaPcjDFGyhy9dkN2tFPpump",
+      "symbol": "ACPR",
+      "name": "acepyr",
+      "amount_sold": 434475.415423874,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T19:37:31.327917+00:00",
+      "exit_time": "2026-09-03T19:39:54.761810+00:00",
+      "entry_price_usd": 4.848145430610837e-06,
+      "exit_price_usd": 3.0122552031400567e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.012421,
+      "pnl_sol": -0.007579,
+      "pnl_pct": -37.87,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "4fpqebbqMLFFrYY495sCiB7jXWMkLPtgJdp6J1Sppump",
+      "symbol": "Quarter",
+      "name": "Quarters",
+      "amount_sold": 3152544.6890334664,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T19:38:48.915763+00:00",
+      "exit_time": "2026-09-03T19:39:54.762092+00:00",
+      "entry_price_usd": 6.677145631979506e-07,
+      "exit_price_usd": 4.38422601126411e-07,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.013117,
+      "pnl_sol": -0.006883,
+      "pnl_pct": -34.34,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T19:38:48.916045+00:00",
+  "last_updated": "2026-09-03T19:40:04.180182+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.25,
-  "portfolio_value_usd": 39.78,
+  "last_sol_price_usd": 105.37,
+  "portfolio_value_usd": 38.3,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 19:02 UTC",
-      "action": "buy",
-      "details": "[LLM] $hоmo at $9.392e-06, spent 0.02 SOL",
-      "reason": "$homo has the strongest fresh narrative and an X post, with a $12.6K market cap and 34% bonding-curve progress. The tiny age and parody-FOMO hook offer high attention potential, though the extremely early bonding-curve stage makes liquidity and rug risk high."
-    },
-    {
-      "time": "2026-09-03 19:03 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $hоmo at $1.48954e-05 | P&L: +58.6%",
-      "reason": "Auto take-profit at +58.6%"
-    },
     {
       "time": "2026-09-03 19:03 UTC",
       "action": "sell",
@@ -30740,40 +30717,63 @@
       "action": "buy",
       "details": "[LLM] $Quarter at $6.67715e-07, spent 0.02 SOL",
       "reason": "$Quarter — actual product narrative (pay-to-play arcade on Solana, 0.0025 SOL per play, replay mechanic). Description ≥50 chars, has twitter, real concept, not a copy. Lowest mcap of the 'real narrative' set and highest bonding curve progress (17%) = real traction. Best risk/reward of the batch."
+    },
+    {
+      "time": "2026-09-03 19:39 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $ACPR closed at $3.01226e-06 | P&L: -37.9%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-03 19:39 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $Quarter closed at $4.38423e-07 | P&L: -34.3%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1798,
+    "total": 1800,
     "wins": 924,
-    "losses": 874,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.95471,
-    "avg_pnl_pct": 34.98,
+    "losses": 876,
+    "win_rate_pct": 51.3,
+    "total_pnl_sol": -1.969172,
+    "avg_pnl_pct": 34.9,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 287,
-    "today_realized_sol": 0.038151,
-    "today_target_pct": 9.5,
+    "today_trades": 289,
+    "today_realized_sol": 0.023689,
+    "today_target_pct": 5.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 924,
-      "loss_count": 874,
+      "loss_count": 876,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T19:38:47.461509+00:00",
+  "last_llm_brief_at": "2026-09-03T19:40:03.671334+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "3ttNQ5P5u1hYNTwz2T6vuZaPcjDFGyhy9dkN2tFPpump": {
-      "price_usd": 4.901166825646395e-06,
+      "price_usd": 3.0122552031400567e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 917.4406077977501,
-      "volume_h24": 966.06,
+      "liquidity_usd": 35.32751243516,
+      "volume_h24": 1970.69,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 8.716775371
+      "real_sol_reserves": 0.335271068
+    },
+    "4fpqebbqMLFFrYY495sCiB7jXWMkLPtgJdp6J1Sppump": {
+      "price_usd": 4.38422601126411e-07,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 9.000150416210001,
+      "volume_h24": 3477.58,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.085414733
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

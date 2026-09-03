@@ -13897,3 +13897,9 @@
 ## [2026-09-03 19:38 UTC] buy | [LLM] $Quarter at $6.67715e-07, spent 0.02 SOL
 - **Reasoning:** $Quarter — actual product narrative (pay-to-play arcade on Solana, 0.0025 SOL per play, replay mechanic). Description ≥50 chars, has twitter, real concept, not a copy. Lowest mcap of the 'real narrative' set and highest bonding curve progress (17%) = real traction. Best risk/reward of the batch.
 
+## [2026-09-03 19:39 UTC] sell | [hard-stop] $ACPR closed at $3.01226e-06 | P&L: -37.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 19:39 UTC] sell | [hard-stop] $Quarter closed at $4.38423e-07 | P&L: -34.3%
+- **Reasoning:** Hard -30% stop
+
