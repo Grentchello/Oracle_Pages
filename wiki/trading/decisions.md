@@ -13162,3 +13162,15 @@
 ## [2026-09-03 11:22 UTC] buy | [LLM] $AMERDOGE at $3.9348e-06, spent 0.02 SOL
 - **Reasoning:** $AMERDOGE: patriotic Doge narrative with attached X account (ownthedoge status posted 0.2min ago). Doge meta is the most enduring memecoin category; US-flag angle plus low $3.9k mcap gives 10x room if narrative catches. 0.05 SOL.
 
+## [2026-09-03 11:23 UTC] sell | [TP +30% (25%)] $raji at $6.02259e-06 | P&L: +57.9%
+- **Reasoning:** Auto take-profit at +57.9%
+
+## [2026-09-03 11:24 UTC] sell | [FULL][LLM] $AMERDOGE at $2.88723e-06 | P&L: -26.6%
+- **Reasoning:** -26.6% loss, pool only $40, dead liquidity. Approaching -30% hard cap. No bounce signal — exit now before forced stop.
+
+## [2026-09-03 11:24 UTC] sell | [PARTIAL][LLM] $raji at $6.02259e-06 | P&L: +57.9%
+- **Reasoning:** +57.9% but our share=0% on a $1.4k pool means I can't actually realize this. Attempting partial exit to lock whatever the bonding curve will give me before it reverts.
+
+## [2026-09-03 11:24 UTC] buy | [LLM] $ROBINDWOG at $2.88227e-06, spent 0.02 SOL
+- **Reasoning:** $ROBINDWOG — companion token to robincat, MS Paint aesthetic, organic narrative with real meme lineage (chillmigratoor's robincat series has traction). Best story in the batch; skipping the $Rubbish serial-launch cluster which smells like a farming playbook (5 tokens in 60s from same template).
+
