@@ -13642,3 +13642,12 @@
 ## [2026-09-03 16:29 UTC] buy | [LLM] $rusty at $6.23909e-06, spent 0.02 SOL
 - **Reasoning:** $rusty — 'AI playing GTA V 24/7 with excellent instincts and terrible judgment' is genuinely funny and built for viral X spread. Low mcap ($6k) means room to run. Narrative + humor = attention magnet. 0.05 SOL.
 
+## [2026-09-03 16:30 UTC] sell | [hard-stop] $ANSEMPONS closed at $2.91883e-06 | P&L: -84.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 16:30 UTC] sell | [TP +30% (25%)] $rusty at $9.05166e-06 | P&L: +45.1%
+- **Reasoning:** Auto take-profit at +45.1%
+
+## [2026-09-03 16:31 UTC] sell | [PARTIAL][LLM] $rusty at $9.05166e-06 | P&L: +45.1%
+- **Reasoning:** +45% is well past the +30% auto-TP trigger; pool is tiny ($2385) and our share is 0% on bonding curve which means no real exit liquidity. Lock half now, let the rest ride if attention keeps building, but don't trust a bonding-curve token at <$3k liquidity to hold value.
+
