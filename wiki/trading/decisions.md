@@ -13933,3 +13933,6 @@
 ## [2026-09-03 20:13 UTC] sell | [FULL][LLM] $Candle at $6.92123e-06 | P&L: +0.6%
 - **Reasoning:** $Candle is essentially flat (+0.6%) on a tiny $1684 pool with 0% share. No momentum, no narrative catalyst visible, and capital is better rotated into fresh attention-launched tokens. Stale exit territory already.
 
+## [2026-09-03 20:14 UTC] buy | [LLM] $SNITCH at $3.9008e-06, spent 0.02 SOL
+- **Reasoning:** $SNITCH — 'Snitch on your favourite KOL' is a strong drama/attention narrative with an active X account (SnitchRobinhood). KOL-shipping culture pumps. Viability pass, not on blocklist. 0.05 SOL position.
+
