@@ -13399,3 +13399,6 @@
 ## [2026-09-03 13:50 UTC] buy | [LLM] $TPT at $4.72612e-06, spent 0.02 SOL
 - **Reasoning:** $TPT — Pumpfun 'trade replays' killcam feature is timely meta-narrative (ties directly to where traders already live), twitter @6Foot4Honda attached, desc passes gate. Low bond (2%) means fresh entry — high upside if narrative catches.
 
+## [2026-09-03 13:51 UTC] sell | [hard-stop] $TPT closed at $7.03612e-08 | P&L: -98.5%
+- **Reasoning:** Hard -30% stop
+
