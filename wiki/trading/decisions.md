@@ -13294,3 +13294,9 @@
 ## [2026-09-03 12:33 UTC] buy | [LLM] $$NutJet  at $3.153e-06, spent 0.02 SOL
 - **Reasoning:** GTA 6 hype is the biggest gaming attention cycle in years; 'squirrel stole a plane before GTA 6' is a meme that can ride that wave. Passes viability (desc + twitter) and fragility gates. Risk: bond only 5%, thin liquidity, mcap $3k — could rug or fade fast.
 
+## [2026-09-03 12:35 UTC] sell | [FULL][LLM] $$NutJet  at $3.17116e-06 | P&L: +0.6%
+- **Reasoning:** Flat at +0.6% after entry, pool only $177, no narrative momentum visible. Capital rotation beats bag-holding a dead-bonding-curve microcap with no catalyst.
+
+## [2026-09-03 12:35 UTC] buy | [LLM] $ARROW at $2.991e-06, spent 0.02 SOL
+- **Reasoning:** $ARROW has a real-world attention catalyst (Robinhood open-sourced an AI model called ArrowPro) plus a live X post — organic narrative beats pure-vibe launches. Passes viability (desc + twitter), bonding only 1% so we're early. Risk: news-driven pumps fade fast, will watch for +20%.
+
