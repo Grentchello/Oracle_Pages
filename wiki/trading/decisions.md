@@ -13357,3 +13357,6 @@
 ## [2026-09-03 13:29 UTC] sell | [PARTIAL][LLM] $BORB at $2.84305e-06 | P&L: -0.0%
 - **Reasoning:** $BORB is flat at -0.0% after 0.1h, marked ⚠ STALE, pool only $3k with our share at 69% meaning we ARE the exit liquidity. No momentum, no catalyst. Cut and free the slot.
 
+## [2026-09-03 13:32 UTC] sell | [FULL][LLM] $BORB at $2.84417e-06 | P&L: +0.0%
+- **Reasoning:** BORB is flat at 0.1h with only $3 pool and 25% of pool share — that means I'm a major chunk of the liquidity. Flat + illiquid + 25% pool share is a textbook rug-risk shape. Better to free the slot for the HUGGY narrative than wait for it to either go stale (>30min) or get dumped on. -30% hard stop is also uncomfortably close given the thin pool.
+
