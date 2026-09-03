@@ -13117,3 +13117,6 @@
 ## [2026-09-03 10:49 UTC] sell | [hard-stop] $WOLF closed at $2.87292e-06 | P&L: -54.0%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-03 10:54 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
