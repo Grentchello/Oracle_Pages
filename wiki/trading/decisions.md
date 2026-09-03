@@ -13126,3 +13126,12 @@
 ## [2026-09-03 11:00 UTC] buy | [LLM] $MICROWAVE at $6.63521e-06, spent 0.02 SOL
 - **Reasoning:** MICROWAVE has the strongest attention signal of the batch — viral @AIHegemonyMemes twitter post, edgy 'directed energy weapon' narrative that's politically spicy, mcap only $6.6k (massive room), passes viability (desc >50 chars + twitter). Memecoin attention plays reward the spicy, narrative-driven names — this fits.
 
+## [2026-09-03 11:01 UTC] sell | [hard-stop] $MICROWAVE closed at $2.91178e-06 | P&L: -56.1%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 11:02 UTC] sell | [FULL][LLM] $RISE at $5.93727e-06 | P&L: +19.9%
+- **Reasoning:** Lock +19.9% gain on $RISE before it evaporates. Pool is only $1369 (extremely thin), bonding curve 0%, held 0.0h — no patience earned. Selling all frees the slot for capital rotation per the aggressive profit-taking rule (up >20% with thin liquidity = exit).
+
+## [2026-09-03 11:02 UTC] buy | [LLM] $MICROWAVE at $2.919e-06, spent 0.02 SOL
+- **Reasoning:** $MICROWAVE passes viability gate (long description + twitter @AIHegemonyMemes). Quirky DEW conspiracy narrative is shareable and fits attention-market thesis. 1.7min old, mcap $2,917 — fresh launch with story. 0.05 SOL position; GMGN fragility gate will run automatically.
+
