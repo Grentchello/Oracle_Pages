@@ -13528,3 +13528,9 @@
 ## [2026-09-03 15:12 UTC] buy | [LLM] $ASTRA at $3.03019e-06, spent 0.02 SOL
 - **Reasoning:** $ASTRA tied to OpenAI launch on 9/3 + MIT 'Put That There' reference (OG AI moment). Strongest event-driven narrative in batch. Risk: $3k mcap and 2% bond mean thin liquidity and high rug/fragility risk — but narrative + AI meta attention is the alpha signal. Sizing 0.05 SOL ($5) to learn.
 
+## [2026-09-03 15:15 UTC] sell | [TP +30% (25%)] $ASTRA at $4.07329e-06 | P&L: +34.4%
+- **Reasoning:** Auto take-profit at +34.4%
+
+## [2026-09-03 15:16 UTC] sell | [PARTIAL][LLM] $ASTRA at $4.07329e-06 | P&L: +34.4%
+- **Reasoning:** Up +34.4% on a $566 pool — gains are real but liquidity is razor thin. Lock half to bank ~0.017 SOL profit and let the rest ride if momentum continues; full exit risks being the exit liquidity on a 0.9% pool share.
+
