@@ -13075,3 +13075,9 @@
 ## [2026-09-03 10:10 UTC] buy | [LLM] $raji at $3.799e-06, spent 0.02 SOL
 - **Reasoning:** $raji — India-themed narrative with explicit community angle, has twitter link, mcap $3,792. Cultural/regional memecoins can have strong viral potential in memecoin cycles. Passes viability gate (desc 50+ chars + twitter). Speculative but fits the attention-market thesis.
 
+## [2026-09-03 10:11 UTC] sell | [TP +30% (25%)] $raji at $6.7102e-06 | P&L: +76.6%
+- **Reasoning:** Auto take-profit at +76.6%
+
+## [2026-09-03 10:11 UTC] sell | [PARTIAL][LLM] $raji at $6.7102e-06 | P&L: +76.6%
+- **Reasoning:** Up +76.6% with thin $1647 pool — locked in gains already past the +50% TP threshold. Hold the runner with the half since narrative could continue, but the small pool means any sell pressure will crater price. Take profit NOW.
+

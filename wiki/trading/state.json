@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.369229,
+  "balance_sol": 0.391332,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "wHG2PWwphqRtwhThii54fgk8CRKj7Cdz7GSPanApump": {
       "symbol": "raji",
       "name": "raji",
-      "amount": 527823.1113450909,
+      "amount": 197933.6667544091,
       "entry_price_usd": 3.799e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-03T10:10:05.092722+00:00",
       "entry_usd_value": 2.0052000000000003,
       "entry_signals": {
@@ -27702,25 +27702,47 @@
       "pnl_pct": -14.17,
       "exit_reason": "LLM: sell_all — TREF is down -14.2% after just entering, with pool only $2,393 (fragile liquidity, below the 5x position size preference). No bounce signal visible. P",
       "partial": false
+    },
+    {
+      "mint": "wHG2PWwphqRtwhThii54fgk8CRKj7Cdz7GSPanApump",
+      "symbol": "raji",
+      "name": "raji",
+      "amount_sold": 131955.77783627273,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T10:10:05.092722+00:00",
+      "exit_time": "2026-09-03T10:11:08.887430+00:00",
+      "entry_price_usd": 3.799e-06,
+      "exit_price_usd": 6.710196884138664e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.008841,
+      "pnl_sol": 0.003841,
+      "pnl_pct": 76.63,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "wHG2PWwphqRtwhThii54fgk8CRKj7Cdz7GSPanApump",
+      "symbol": "raji",
+      "name": "raji",
+      "amount_sold": 197933.6667544091,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T10:10:05.092722+00:00",
+      "exit_time": "2026-09-03T10:11:25.008493+00:00",
+      "entry_price_usd": 3.799e-06,
+      "exit_price_usd": 6.710196884138664e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.013262,
+      "pnl_sol": 0.005762,
+      "pnl_pct": 76.63,
+      "exit_reason": "LLM: sell_half — Up +76.6% with thin $1647 pool — locked in gains already past the +50% TP threshold. Hold the runner with the half since narrative could continue, but",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T10:10:05.092885+00:00",
+  "last_updated": "2026-09-03T10:11:25.529533+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.26,
-  "portfolio_value_usd": 39.02,
+  "last_sol_price_usd": 100.15,
+  "portfolio_value_usd": 39.94,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 09:01 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SLOPMENU at $2.81912e-06 | P&L: -16.2%",
-      "reason": "Down -16.2% in 6 min with no bounce signal, pool only $4 with22% share = extremely thin exit. Better to cut now at -16% than wait for -30% hard stop. Stale capital needs rotation."
-    },
-    {
-      "time": "2026-09-03 09:04 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-03 09:07 UTC",
       "action": "buy",
@@ -27828,40 +27850,52 @@
       "action": "buy",
       "details": "[LLM] $raji at $3.799e-06, spent 0.02 SOL",
       "reason": "$raji — India-themed narrative with explicit community angle, has twitter link, mcap $3,792. Cultural/regional memecoins can have strong viral potential in memecoin cycles. Passes viability gate (desc 50+ chars + twitter). Speculative but fits the attention-market thesis."
+    },
+    {
+      "time": "2026-09-03 10:11 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $raji at $6.7102e-06 | P&L: +76.6%",
+      "reason": "Auto take-profit at +76.6%"
+    },
+    {
+      "time": "2026-09-03 10:11 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $raji at $6.7102e-06 | P&L: +76.6%",
+      "reason": "Up +76.6% with thin $1647 pool — locked in gains already past the +50% TP threshold. Hold the runner with the half since narrative could continue, but the small pool means any sell pressure will crater price. Take profit NOW."
     }
   ],
   "trade_stats": {
-    "total": 1628,
-    "wins": 822,
+    "total": 1630,
+    "wins": 824,
     "losses": 806,
-    "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.943417,
-    "avg_pnl_pct": 35.88,
+    "win_rate_pct": 50.6,
+    "total_pnl_sol": -1.933814,
+    "avg_pnl_pct": 35.93,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 117,
-    "today_realized_sol": 0.049444,
-    "today_target_pct": 12.4,
+    "today_trades": 119,
+    "today_realized_sol": 0.059047,
+    "today_target_pct": 14.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 822,
+      "win_count": 824,
       "loss_count": 806,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T10:10:03.683487+00:00",
+  "last_llm_brief_at": "2026-09-03T10:11:25.008452+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5R8bVvKrdotCukqqYb9emndQ9rqMiMfCVRTWWVdipump": {
-      "price_usd": 9.037966777219681e-06,
+    "wHG2PWwphqRtwhThii54fgk8CRKj7Cdz7GSPanApump": {
+      "price_usd": 6.710196884138664e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2393.02008204822,
-      "volume_h24": 13104.4,
+      "liquidity_usd": 1646.5777208302502,
+      "volume_h24": 594.18,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 23.868143647
+      "real_sol_reserves": 16.441115535
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
