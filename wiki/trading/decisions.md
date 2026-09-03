@@ -13417,3 +13417,9 @@
 ## [2026-09-03 14:06 UTC] buy | [LLM] $Roller at $2.971e-06, spent 0.02 SOL
 - **Reasoning:** $Roller has the strongest narrative of the batch — 23M+ views viral video of disabled kid rolling himself into 3rd place, emotional human-interest story that spreads. Passes viability gate (twitter link + long desc). Risks: bond only 5% complete, mcap $3.2k is tiny and illiquid. Sizing 0.05 SOL keeps exposure small.
 
+## [2026-09-03 14:07 UTC] sell | [PARTIAL][LLM] $Roller at $3.12657e-06 | P&L: +5.2%
+- **Reasoning:** Up +5.2% but only just entered, pool tiny at $152 with1% share — thin liquidity means any exit is fine but no reason to be greedy yet. Lock half, let the rest ride if narrative catches.
+
+## [2026-09-03 14:07 UTC] buy | [LLM] $CATCH at $3.435e-06, spent 0.02 SOL
+- **Reasoning:** $CATCH — Pokémon-style crash game with a dedicated X account, narrative is concrete (game mechanic = retention hook), low mcap $3.4k. Speculative but the 'first Pkmn crash game on SOL' angle is novel attention.
+

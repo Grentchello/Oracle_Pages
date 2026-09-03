@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.370187,
+  "balance_sol": 0.360703,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "5VitfcPrQcYNSEVqPMCspDCJN378pTHrKCoGuCqkpump": {
       "symbol": "Roller",
       "name": "Non Runner",
-      "amount": 682329.1820935712,
+      "amount": 341164.5910467856,
       "entry_price_usd": 2.971e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T14:06:28.418999+00:00",
       "entry_usd_value": 2.0272,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 1.8053184,
         "description": "23 million+ views in a day. Poor kids legs quit working and he rolled himself into 3rd place after staring Gold right in the face!",
         "twitter": "https://x.com/ezorreras/status/2095166245049954558?s=46",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "2wMsy4ECmwbgVLpMrwhSVkR6SJLsybqraHWKqa2Spump": {
+      "symbol": "CATCH",
+      "name": "PokéCatch",
+      "amount": 590567.6855895196,
+      "entry_price_usd": 3.435e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T14:07:57.779186+00:00",
+      "entry_usd_value": 2.0286,
+      "entry_signals": {
+        "liquidity_usd": 310.65363147735,
+        "volume_24h_usd": 308.62,
+        "market_cap_usd": 3450.1501741519287,
+        "ath_market_cap_usd": 3445.8339453326485,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 3.062739145,
+        "description": "PokeCatch on Solana 🟡 the first Pkmn-style crash game where the last bidder catches the wild Pkmn and takes the whole pot. Get ready, trainers. 🎯 ",
+        "twitter": "https://x.com/PokeCatchonSOL",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -28943,25 +28965,30 @@
       "pnl_pct": 33.28,
       "exit_reason": "LLM: sell_all — Up +33% and already past the +30% TP threshold territory — locking in gains per scalp discipline. Bonding curve pool only $838 and we've been flat-ish",
       "partial": false
+    },
+    {
+      "mint": "5VitfcPrQcYNSEVqPMCspDCJN378pTHrKCoGuCqkpump",
+      "symbol": "Roller",
+      "name": "Non Runner",
+      "amount_sold": 341164.5910467856,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T14:06:28.418999+00:00",
+      "exit_time": "2026-09-03T14:07:56.072556+00:00",
+      "entry_price_usd": 2.971e-06,
+      "exit_price_usd": 3.1265690399121857e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.010516,
+      "pnl_sol": 0.000516,
+      "pnl_pct": 5.24,
+      "exit_reason": "LLM: sell_half — Up +5.2% but only just entered, pool tiny at $152 with1% share — thin liquidity means any exit is fine but no reason to be greedy yet. Lock half, let ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T14:06:28.419171+00:00",
+  "last_updated": "2026-09-03T14:07:57.779506+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.36,
-  "portfolio_value_usd": 39.55,
+  "last_sol_price_usd": 101.43,
+  "portfolio_value_usd": 39.63,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 13:32 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BORB at $2.84417e-06 | P&L: +0.0%",
-      "reason": "BORB is flat at 0.1h with only $3 pool and 25% of pool share — that means I'm a major chunk of the liquidity. Flat + illiquid + 25% pool share is a textbook rug-risk shape. Better to free the slot for the HUGGY narrative than wait for it to either go stale (>30min) or get dumped on. -30% hard stop is also uncomfortably close given the thin pool."
-    },
-    {
-      "time": "2026-09-03 13:33 UTC",
-      "action": "buy",
-      "details": "[LLM] $SoFiUSD at $4.20089e-06, spent 0.02 SOL",
-      "reason": "$SoFiUSD ties to real Kraken/SoFi settlement news via CoinDesk — genuine corporate catalyst (not pure meme). Lowest mcap of the legit-narrative batch at $4.2k, just launched. Risk: thin liquidity, but the news hook gives it a reason to pump beyond pure attention arbitrage."
-    },
     {
       "time": "2026-09-03 13:35 UTC",
       "action": "sell",
@@ -29069,30 +29096,54 @@
       "action": "buy",
       "details": "[LLM] $Roller at $2.971e-06, spent 0.02 SOL",
       "reason": "$Roller has the strongest narrative of the batch — 23M+ views viral video of disabled kid rolling himself into 3rd place, emotional human-interest story that spreads. Passes viability gate (twitter link + long desc). Risks: bond only 5% complete, mcap $3.2k is tiny and illiquid. Sizing 0.05 SOL keeps exposure small."
+    },
+    {
+      "time": "2026-09-03 14:07 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Roller at $3.12657e-06 | P&L: +5.2%",
+      "reason": "Up +5.2% but only just entered, pool tiny at $152 with1% share — thin liquidity means any exit is fine but no reason to be greedy yet. Lock half, let the rest ride if narrative catches."
+    },
+    {
+      "time": "2026-09-03 14:07 UTC",
+      "action": "buy",
+      "details": "[LLM] $CATCH at $3.435e-06, spent 0.02 SOL",
+      "reason": "$CATCH — Pokémon-style crash game with a dedicated X account, narrative is concrete (game mechanic = retention hook), low mcap $3.4k. Speculative but the 'first Pkmn crash game on SOL' angle is novel attention."
     }
   ],
   "trade_stats": {
-    "total": 1701,
-    "wins": 871,
+    "total": 1702,
+    "wins": 872,
     "losses": 830,
     "win_rate_pct": 51.2,
-    "total_pnl_sol": -1.942458,
-    "avg_pnl_pct": 35.48,
+    "total_pnl_sol": -1.941942,
+    "avg_pnl_pct": 35.47,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 190,
-    "today_realized_sol": 0.050403,
-    "today_target_pct": 12.6,
+    "today_trades": 191,
+    "today_realized_sol": 0.050919,
+    "today_target_pct": 12.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 871,
+      "win_count": 872,
       "loss_count": 830,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T14:06:26.959584+00:00",
+  "last_llm_brief_at": "2026-09-03T14:07:56.072514+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5VitfcPrQcYNSEVqPMCspDCJN378pTHrKCoGuCqkpump": {
+      "price_usd": 3.1265690399121857e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 152.15039577171,
+      "volume_h24": 183.45,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.500053197
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
