@@ -14128,3 +14128,6 @@
 ## [2026-09-03 21:58 UTC] sell | [FULL][LLM] $Amzn at $2.94342e-06 | P&L: -3.5%
 - **Reasoning:** $Amzn has pool=$1 and we own 25% — far below the 5x-liquidity rule and effectively un-exitable. Cutting now at -3.5% frees a slot; holding just traps capital in dead liquidity.
 
+## [2026-09-03 22:01 UTC] buy | [LLM] $BROKE at $7.12875e-06, spent 0.02 SOL
+- **Reasoning:** $BROKE has the strongest narrative — 'rich for 7 seconds' is peak memecoin relatability, has twitter attached, $7k mcap is small but bonding curve 0% means earliest entry. Viral-meme potential is high.
+
