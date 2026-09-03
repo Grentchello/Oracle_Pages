@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.308211,
+  "balance_sol": 0.311534,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ctWgujb2q8pxAreBU6Kif2h7R8rD7dZGzgKRfuapump": {
-      "symbol": "PONS",
-      "name": "PONS",
-      "amount": 118849.85256309445,
-      "entry_price_usd": 3.41e-06,
-      "entry_sol_spent": 0.003893908505381938,
-      "entry_time": "2026-09-03T23:14:05.425682+00:00",
-      "entry_usd_value": 2.0816,
-      "entry_signals": {
-        "liquidity_usd": 371.150367636,
-        "volume_24h_usd": 259.19,
-        "market_cap_usd": 3405.1543606468317,
-        "ath_market_cap_usd": 3407.1873037568903,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.56601045,
-        "description": "new partnership of PONS + UNISWAP and they have a NAMED UNICORN? ",
-        "twitter": "https://x.com/Uniswap/status/2095624486578004067?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -31663,19 +31640,30 @@
       "pnl_pct": -14.64,
       "exit_reason": "LLM: sell_all — Down -14.6% with our share at 128% of pool (we ARE the liquidity). Held only 6 min, no bounce signal, still on bonding curve = no real exit liquidity ",
       "partial": true
+    },
+    {
+      "mint": "ctWgujb2q8pxAreBU6Kif2h7R8rD7dZGzgKRfuapump",
+      "symbol": "PONS",
+      "name": "PONS",
+      "amount_sold": 118849.74526309449,
+      "fraction_sold": 0.9999990971802014,
+      "entry_time": "2026-09-03T23:14:05.425682+00:00",
+      "exit_time": "2026-09-03T23:23:37.402219+00:00",
+      "entry_price_usd": 3.41e-06,
+      "exit_price_usd": 2.907176142821771e-06,
+      "entry_sol_for_chunk": 0.003894,
+      "exit_sol_received": 0.003323,
+      "pnl_sol": -0.000571,
+      "pnl_pct": -14.75,
+      "exit_reason": "LLM: sell_all — Down -14.7% on a 0.2h hold with no positive momentum signal. Pool=$0 + our share=27691019% screams rugged/illiquid bonding-curve artifact — every minu",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T23:22:16.972501+00:00",
+  "last_updated": "2026-09-03T23:23:37.671807+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.019,
-  "portfolio_value_usd": 32.47,
+  "last_sol_price_usd": 103.98,
+  "portfolio_value_usd": 32.39,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 22:22 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $Liquidеr closed at $2.93768e-06 | P&L: -55.1%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-03 22:22 UTC",
       "action": "buy",
@@ -31789,40 +31777,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $PONS at $2.91085e-06 | P&L: -14.6%",
       "reason": "Down -14.6% with our share at 128% of pool (we ARE the liquidity). Held only 6 min, no bounce signal, still on bonding curve = no real exit liquidity if it drops further. Cut and free the slot for a fresh launch."
+    },
+    {
+      "time": "2026-09-03 23:23 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PONS at $2.90718e-06 | P&L: -14.8%",
+      "reason": "Down -14.7% on a 0.2h hold with no positive momentum signal. Pool=$0 + our share=27691019% screams rugged/illiquid bonding-curve artifact — every minute held is exposure to -30% hard stop. Cut the loss now at -15% instead of hoping for a bounce."
     }
   ],
   "trade_stats": {
-    "total": 1861,
+    "total": 1862,
     "wins": 956,
-    "losses": 905,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.020544,
-    "avg_pnl_pct": 34.41,
+    "losses": 906,
+    "win_rate_pct": 51.3,
+    "total_pnl_sol": -2.021115,
+    "avg_pnl_pct": 34.38,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 350,
-    "today_realized_sol": -0.027683,
-    "today_target_pct": -6.9,
+    "today_trades": 351,
+    "today_realized_sol": -0.028254,
+    "today_target_pct": -7.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 956,
-      "loss_count": 905,
+      "loss_count": 906,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T23:22:16.456040+00:00",
+  "last_llm_brief_at": "2026-09-03T23:23:37.401644+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "ctWgujb2q8pxAreBU6Kif2h7R8rD7dZGzgKRfuapump": {
-      "price_usd": 2.9108464509566118e-06,
+      "price_usd": 2.907176142821771e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.38381468612,
+      "liquidity_usd": 1.24776e-06,
       "volume_h24": 1454.46,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.01330348
+      "real_sol_reserves": 1.2e-08
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

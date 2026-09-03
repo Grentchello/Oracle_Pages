@@ -14212,3 +14212,6 @@
 ## [2026-09-03 23:22 UTC] sell | [PARTIAL][LLM] $PONS at $2.91085e-06 | P&L: -14.6%
 - **Reasoning:** Down -14.6% with our share at 128% of pool (we ARE the liquidity). Held only 6 min, no bounce signal, still on bonding curve = no real exit liquidity if it drops further. Cut and free the slot for a fresh launch.
 
+## [2026-09-03 23:23 UTC] sell | [FULL][LLM] $PONS at $2.90718e-06 | P&L: -14.8%
+- **Reasoning:** Down -14.7% on a 0.2h hold with no positive momentum signal. Pool=$0 + our share=27691019% screams rugged/illiquid bonding-curve artifact — every minute held is exposure to -30% hard stop. Cut the loss now at -15% instead of hoping for a bounce.
+
