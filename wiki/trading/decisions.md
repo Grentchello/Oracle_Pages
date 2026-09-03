@@ -14056,3 +14056,6 @@
 ## [2026-09-03 21:04 UTC] buy | [LLM] $+1 at $3.57387e-06, spent 0.02 SOL
 - **Reasoning:** The superhero-animal narrative is simple, emotionally shareable, and described as already attracting millions of likes. Its fresh $3.6k market cap offers the strongest viral-entry setup, with copy quality and extreme early-stage liquidity risk.
 
+## [2026-09-03 21:05 UTC] sell | [FULL][LLM] $+1 at $2.95957e-06 | P&L: -17.2%
+- **Reasoning:** $+1 down -17.2% in minutes with no bounce, AND we're 12% of a $14 pool — exit liquidity is already thin and will only get worse as price drops further. Cutting now before -30% hard stop triggers lets me control the exit price rather than get steamrolled by the auto-stop into an even worse fill.
+
