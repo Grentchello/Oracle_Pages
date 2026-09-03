@@ -13804,3 +13804,12 @@
 ## [2026-09-03 18:43 UTC] buy | [LLM] $pc at $3.647e-06, spent 0.02 SOL
 - **Reasoning:** $pc (PUMP CITY) — meta-narrative that literally describes memecoin trading, has twitter + detailed description passing viability gate, mcap $3.6k with 9% bond (early curve). Size: 0.05 SOL ($5) — small enough to absorb -30% hard stop while still being meaningful. The other candidates are all sub-$7k mcap with <30% bond completion, $DPRK/$Acorn hit the fragility gate (political/violent content), and the rest have thin or no narrative.
 
+## [2026-09-03 18:44 UTC] sell | [TP +30% (25%)] $pc at $5.38974e-06 | P&L: +47.8%
+- **Reasoning:** Auto take-profit at +47.8%
+
+## [2026-09-03 18:44 UTC] sell | [FULL][LLM] $pc at $5.38974e-06 | P&L: +47.8%
+- **Reasoning:** Up +47.8% and held 0.0h — past the +25% auto-TP. Pool is only $1120 with our share at 0%, meaning thin liquidity and zero follow-through signal. Locking gains before the inevitable give-back on a no-volume micro-cap.
+
+## [2026-09-03 18:44 UTC] buy | [LLM] $AKA at $4.52787e-06, spent 0.02 SOL
+- **Reasoning:** $AKA (akadotfun) has the strongest narrative of the batch — 'MemeFi internet capital market backed by RWA, Built for Arc' gives it a story beyond pure pump-and-dump. 0.4min old, real account, decent desc passes viability gate. Risk: ultra-low mcap ($4.5k) and bond only 16% means early-stage volatility — size limits protect.
+
