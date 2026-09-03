@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.340334,
+  "balance_sol": 0.320334,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "HWhzRAwFFEPScBxJSyCyH9VbKHwq2q7gr7nU68bCpump": {
+      "symbol": "CAPE",
+      "name": "Ape Wif Cape",
+      "amount": 132994.923857868,
+      "entry_price_usd": 1.576e-05,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T18:19:54.272826+00:00",
+      "entry_usd_value": 2.096,
+      "entry_signals": {
+        "liquidity_usd": 4285.4221376328,
+        "volume_24h_usd": 65036.68,
+        "market_cap_usd": 16171.910801741673,
+        "ath_market_cap_usd": 32322.13140871928,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 40.891432611,
+        "description": "A dog wore a hat. This ape wears a cape. Same energy. Better outfit.",
+        "twitter": "https://x.com/i/communities/1846423467182153871",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30180,17 +30203,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-03T18:18:31.317561+00:00",
+  "last_updated": "2026-09-03T18:19:54.536716+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.95,
-  "portfolio_value_usd": 35.72,
+  "last_sol_price_usd": 104.8,
+  "portfolio_value_usd": 35.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 17:22 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $DECAGON at $2.98132e-06 | P&L: -14.5%",
-      "reason": "Down14.5% on a $28 pool with 6% of supply — this is illiquid bag-holder territory. No bounce signal, no narrative catalyst visible. Cut the loss before it hits -30% and frees the slot."
-    },
     {
       "time": "2026-09-03 17:36 UTC",
       "action": "buy",
@@ -30304,6 +30321,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $APOLLO at $3.26446e-06 | P&L: +1.7%",
       "reason": "Apollo up only +1.7% with $172 pool liquidity, well below 5x position size requirement, and the narrative is generic. Stale exit risk high. Lock tiny gain, free slot for fresh attention."
+    },
+    {
+      "time": "2026-09-03 18:19 UTC",
+      "action": "buy",
+      "details": "[LLM] $CAPE at $1.576e-05, spent 0.02 SOL",
+      "reason": "Strongest narrative in batch — continuation of viral 'wif' meme series (dogwifhat → apwifcape). Highest mcap $16k, bond 36% = real organic buys, twitter community link. Best attention-to-risk ratio."
     }
   ],
   "trade_stats": {
@@ -30325,21 +30348,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T18:18:31.071326+00:00",
+  "last_llm_brief_at": "2026-09-03T18:19:53.012357+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "FAJq8GdsC4DSHvZotrrHAF58cqdAoLRkETCWU6MsZnt1": {
-      "price_usd": 3.264455642720659e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 172.40992293784998,
-      "volume_h24": 233.85,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.642781543
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

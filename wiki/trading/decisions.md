@@ -13777,3 +13777,6 @@
 ## [2026-09-03 18:18 UTC] sell | [FULL][LLM] $APOLLO at $3.26446e-06 | P&L: +1.7%
 - **Reasoning:** Apollo up only +1.7% with $172 pool liquidity, well below 5x position size requirement, and the narrative is generic. Stale exit risk high. Lock tiny gain, free slot for fresh attention.
 
+## [2026-09-03 18:19 UTC] buy | [LLM] $CAPE at $1.576e-05, spent 0.02 SOL
+- **Reasoning:** Strongest narrative in batch — continuation of viral 'wif' meme series (dogwifhat → apwifcape). Highest mcap $16k, bond 36% = real organic buys, twitter community link. Best attention-to-risk ratio.
+
