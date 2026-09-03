@@ -12868,3 +12868,6 @@
 ## [2026-09-03 06:09 UTC] sell | [PARTIAL][LLM] $Kauaʻi at $1.00089e-05 | P&L: +15.7%
 - **Reasoning:** Up +15.7% with a real pool ($2675) but our share is 0% so we're tiny — book half the gain to lock profit and let the rest ride if Kauaʻi narrative continues. Per scalp discipline, >15% gains should be banked.
 
+## [2026-09-03 06:11 UTC] sell | [FULL][LLM] $Kauaʻi at $9.83962e-06 | P&L: +13.7%
+- **Reasoning:** +13.7% with 0% pool share means we're on the bonding curve only — thin liquidity, high slippage risk if it reverses. Not yet at +20% (no mandatory TP), but the rule says >15% and unsure → take profit. Locking gains and freeing a slot beats hoping.
+

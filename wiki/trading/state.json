@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.362155,
+  "balance_sol": 0.373536,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GgGhY3gXoXUujYrGHjePQJrk5upZU6Prt8DDdhSvpump": {
-      "symbol": "Kauaʻi",
-      "name": "The Last Call",
-      "amount": 116357.10965190634,
-      "entry_price_usd": 8.652672819150807e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-03T06:08:21.305872+00:00",
-      "entry_usd_value": 2.0136000000000003,
-      "entry_signals": {
-        "liquidity_usd": 1826.74152243108,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8644.997199349798,
-        "ath_market_cap_usd": 10368.459065510435,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 18.144035781,
-        "description": "Someone tried to run this earlier but gave us such a bad lore. As the post below explains, this is the last known male Kaua calling out for a mate that would never come.  We’re literally in the biggest callout meta ever, everyone’s talking about how their calls are making them so much money.  This i",
-        "twitter": "https://x.com/barnsrebirth0/status/2095392823025553589?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -26954,19 +26931,30 @@
       "pnl_pct": 15.67,
       "exit_reason": "LLM: sell_half — Up +15.7% with a real pool ($2675) but our share is 0% so we're tiny — book half the gain to lock profit and let the rest ride if Kauaʻi narrative con",
       "partial": true
+    },
+    {
+      "mint": "GgGhY3gXoXUujYrGHjePQJrk5upZU6Prt8DDdhSvpump",
+      "symbol": "Kauaʻi",
+      "name": "The Last Call",
+      "amount_sold": 116357.10965190634,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T06:08:21.305872+00:00",
+      "exit_time": "2026-09-03T06:11:15.340432+00:00",
+      "entry_price_usd": 8.652672819150807e-06,
+      "exit_price_usd": 9.839619214577552e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011381,
+      "pnl_sol": 0.001381,
+      "pnl_pct": 13.72,
+      "exit_reason": "LLM: sell_all — +13.7% with 0% pool share means we're on the bonding curve only — thin liquidity, high slippage risk if it reverses. Not yet at +20% (no mandatory TP)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T06:09:45.267363+00:00",
+  "last_updated": "2026-09-03T06:11:15.604595+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 100.6,
-  "portfolio_value_usd": 37.44,
+  "portfolio_value_usd": 37.58,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 05:18 UTC",
-      "action": "buy",
-      "details": "[LLM] $MISA at $2.84653e-06, spent 0.02 SOL",
-      "reason": "$MISA — anime convention viral moment (Misa Amane VA goes viral after fan interaction). Anime/Japanese cultural attention is a proven memecoin narrative (think NEIRO, SHIBO). Story is specific and recent. At $2.8k mcap with no bond completion, classic early-entry. 0.05 SOL."
-    },
     {
       "time": "2026-09-03 05:22 UTC",
       "action": "buy",
@@ -27080,51 +27068,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Kauaʻi at $1.00089e-05 | P&L: +15.7%",
       "reason": "Up +15.7% with a real pool ($2675) but our share is 0% so we're tiny — book half the gain to lock profit and let the rest ride if Kauaʻi narrative continues. Per scalp discipline, >15% gains should be banked."
+    },
+    {
+      "time": "2026-09-03 06:11 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Kauaʻi at $9.83962e-06 | P&L: +13.7%",
+      "reason": "+13.7% with 0% pool share means we're on the bonding curve only — thin liquidity, high slippage risk if it reverses. Not yet at +20% (no mandatory TP), but the rule says >15% and unsure → take profit. Locking gains and freeing a slot beats hoping."
     }
   ],
   "trade_stats": {
-    "total": 1584,
-    "wins": 796,
+    "total": 1585,
+    "wins": 797,
     "losses": 788,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.960488,
-    "avg_pnl_pct": 35.85,
+    "total_pnl_sol": -1.959107,
+    "avg_pnl_pct": 35.84,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 73,
-    "today_realized_sol": 0.032373,
-    "today_target_pct": 8.1,
+    "today_trades": 74,
+    "today_realized_sol": 0.033754,
+    "today_target_pct": 8.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 796,
+      "win_count": 797,
       "loss_count": 788,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T06:09:44.748693+00:00",
+  "last_llm_brief_at": "2026-09-03T06:11:15.340001+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "AyMm1j9w7uSZyQXd64nExctqxihnRGG8qrj2tQG5pump": {
-      "price_usd": 2.8478601390052345e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 18.818295454599998,
-      "volume_h24": 704.11,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.187060591
-    },
     "GgGhY3gXoXUujYrGHjePQJrk5upZU6Prt8DDdhSvpump": {
-      "price_usd": 1.0008922242204826e-05,
+      "price_usd": 9.839619214577552e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2675.1566972298,
-      "volume_h24": 20023.97,
+      "liquidity_usd": 2626.8008682834,
+      "volume_h24": 25426.17,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 26.592014883
+      "real_sol_reserves": 26.111340639
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
