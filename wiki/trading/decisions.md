@@ -12739,3 +12739,6 @@
 ## [2026-09-03 04:18 UTC] sell | [FULL][LLM] $QUBY at $3.18499e-06 | P&L: -1.9%
 - **Reasoning:** $QUBY is -1.9% after 12 min, pool only $198, no real momentum, and bonding-curve tokens at sub-$200 pools routinely rug or fade. Cut the slot for a fresh launch.
 
+## [2026-09-03 04:23 UTC] buy | [LLM] $Candle at $9.13e-06, spent 0.02 SOL
+- **Reasoning:** $Candle — PumpFun meta-coin with a clear self-aware narrative ('callouts give bigger candles'), active X poster, $10.5k mcap with 33% bond complete (buying pressure). Viability gate passes (desc >50 chars + twitter). Fresh attention on PumpFun culture itself is memeable. 0.05 SOL.
+
