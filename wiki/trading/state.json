@@ -29874,17 +29874,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-03T16:38:38.021914+00:00",
+  "last_updated": "2026-09-03T16:40:01.877629+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.29,
-  "portfolio_value_usd": 39.31,
+  "last_sol_price_usd": 104.38,
+  "portfolio_value_usd": 39.34,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 16:08 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $cyberfam at $6.6091e-06 | P&L: +43.0%",
-      "reason": "Up 43% in 6 min on a $1.5k pool — extreme fragility. Per scalp discipline, lock the gain rather than hope on a thin pool that can dump in one tx."
-    },
     {
       "time": "2026-09-03 16:08 UTC",
       "action": "buy",
@@ -29998,6 +29992,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $rusty at $1.16765e-05 | P&L: +87.2%",
       "reason": "Up +87.2% on a $3132 pool with 0% share — thin liquidity means even small exits move price hard. Lock the gain now, don't hope for +200% on illiquid bonding-curve. Capital rotation > bag-holding."
+    },
+    {
+      "time": "2026-09-03 16:40 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -30019,32 +30019,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T16:38:37.763600+00:00",
+  "last_llm_brief_at": "2026-09-03T16:40:01.875310+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "7Sj87Hw7Xb3hPfDWyRfThL2iEE8Bu7pcpJbbSYh4pump": {
-      "price_usd": 1.1676477643907087e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 3132.2141474968003,
-      "volume_h24": 11639.64,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 30.03369592
-    },
-    "DZSMpeDB9X7ZZu7q8qPJdNPSGDeg9mbiaKNvhtT8pump": {
-      "price_usd": 3.0524684868465093e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 72.46026347239001,
-      "volume_h24": 11832.56,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.694795891
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

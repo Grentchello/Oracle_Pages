@@ -13672,3 +13672,6 @@
 ## [2026-09-03 16:38 UTC] sell | [FULL][LLM] $rusty at $1.16765e-05 | P&L: +87.2%
 - **Reasoning:** Up +87.2% on a $3132 pool with 0% share — thin liquidity means even small exits move price hard. Lock the gain now, don't hope for +200% on illiquid bonding-curve. Capital rotation > bag-holding.
 
+## [2026-09-03 16:40 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
