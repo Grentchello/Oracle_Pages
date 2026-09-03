@@ -13588,3 +13588,6 @@
 ## [2026-09-03 15:58 UTC] buy | [LLM] $Lee at $3.01665e-06, spent 0.02 SOL
 - **Reasoning:** $Lee 'The $50M Larper' — meta-narrative directly about memecoin traders, ties into current attention cycle around memecoin culture, has X link. Same fragility caveat — likely rejected by GMGN. Skip-able narrative but the only one that comments on the market itself.
 
+## [2026-09-03 15:59 UTC] buy | [LLM] $HOOK at $3.418e-06, spent 0.02 SOL
+- **Reasoning:** $HOOK has a clear narrative (Hooked farming simulator, in-game reward currency), real project description, and verified twitter account (@hookedgamesol). Gaming tokens with utility framing tend to hold attention. Bond 7% means very early entry. Risks: low mcap $3.4k, unproven game, but narrative is concrete not just a joke name.
+
