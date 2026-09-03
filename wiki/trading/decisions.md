@@ -13891,3 +13891,6 @@
 ## [2026-09-03 19:27 UTC] sell | [FULL][LLM] $BENCHMARK at $4.32273e-06 | P&L: -2.6%
 - **Reasoning:** Down -2.6% on a $667 pool (below healthy depth), no narrative, no attention signal visible. Thin liquidity + no catalyst = exit before it bleeds further.
 
+## [2026-09-03 19:37 UTC] buy | [LLM] $ACPR at $4.84815e-06, spent 0.02 SOL
+- **Reasoning:** $ACPR is the only candidate passing the viability gate (description >=50 chars, has twitter). Narrative is a prediction/cognition-market product on Solana testnet — coherent story with a real twitter (@acepyr). Bond 18%, mcap $4.8k, age 0.2min — extremely early, capturing attention at launch. Risk: very low mcap and bond completion mean thin liquidity; size is small (0.05 SOL) to limit downside.
+
