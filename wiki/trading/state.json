@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.379492,
+  "balance_sol": 0.359492,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "GZJ9nnYGP8Ne3mXnRh6G4hNyMfSBP2FKujvVgDr3pump": {
+      "symbol": "SoFiUSD",
+      "name": "sofi",
+      "amount": 483040.1290962189,
+      "entry_price_usd": 4.20089321315123e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T13:33:49.878589+00:00",
+      "entry_usd_value": 2.0292,
+      "entry_signals": {
+        "liquidity_usd": 244.93730999808,
+        "volume_24h_usd": null,
+        "market_cap_usd": 4217.690912841269,
+        "ath_market_cap_usd": 4880.513973411982,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 2.414126848,
+        "description": "LATEST:  @krakenfx  joins  @SoFi 's settlement network and will list SoFiUSD, linking the crypto exchange directly to traditional banking rails.",
+        "twitter": "https://x.com/CoinDesk/status/2095504943406874670?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -28701,17 +28724,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-03T13:32:20.239262+00:00",
+  "last_updated": "2026-09-03T13:33:50.151509+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.53,
-  "portfolio_value_usd": 38.53,
+  "last_sol_price_usd": 101.46,
+  "portfolio_value_usd": 38.5,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 12:39 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ARROW at $2.82889e-06 | P&L: -5.4%",
-      "reason": "$ARROW is down -5.4% on a bonding-curve token with $0 pool liquidity — it's stuck pre-graduation. Stale flat position, no momentum signal, and the slot is better used on a fresh launch with narrative."
-    },
     {
       "time": "2026-09-03 12:52 UTC",
       "action": "buy",
@@ -28825,6 +28842,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $BORB at $2.84417e-06 | P&L: +0.0%",
       "reason": "BORB is flat at 0.1h with only $3 pool and 25% of pool share — that means I'm a major chunk of the liquidity. Flat + illiquid + 25% pool share is a textbook rug-risk shape. Better to free the slot for the HUGGY narrative than wait for it to either go stale (>30min) or get dumped on. -30% hard stop is also uncomfortably close given the thin pool."
+    },
+    {
+      "time": "2026-09-03 13:33 UTC",
+      "action": "buy",
+      "details": "[LLM] $SoFiUSD at $4.20089e-06, spent 0.02 SOL",
+      "reason": "$SoFiUSD ties to real Kraken/SoFi settlement news via CoinDesk — genuine corporate catalyst (not pure meme). Lowest mcap of the legit-narrative batch at $4.2k, just launched. Risk: thin liquidity, but the news hook gives it a reason to pump beyond pure attention arbitrage."
     }
   ],
   "trade_stats": {
@@ -28846,21 +28869,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T13:32:19.988621+00:00",
+  "last_llm_brief_at": "2026-09-03T13:33:48.433887+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "Aa4A7E7MX1btyTMGHK9rqGA8hiLkZreJtqB9VtwTpump": {
-      "price_usd": 2.844169941140051e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2.94574938658,
-      "volume_h24": 524.69,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.029013586
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

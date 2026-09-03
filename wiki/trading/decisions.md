@@ -13360,3 +13360,6 @@
 ## [2026-09-03 13:32 UTC] sell | [FULL][LLM] $BORB at $2.84417e-06 | P&L: +0.0%
 - **Reasoning:** BORB is flat at 0.1h with only $3 pool and 25% of pool share — that means I'm a major chunk of the liquidity. Flat + illiquid + 25% pool share is a textbook rug-risk shape. Better to free the slot for the HUGGY narrative than wait for it to either go stale (>30min) or get dumped on. -30% hard stop is also uncomfortably close given the thin pool.
 
+## [2026-09-03 13:33 UTC] buy | [LLM] $SoFiUSD at $4.20089e-06, spent 0.02 SOL
+- **Reasoning:** $SoFiUSD ties to real Kraken/SoFi settlement news via CoinDesk — genuine corporate catalyst (not pure meme). Lowest mcap of the legit-narrative batch at $4.2k, just launched. Risk: thin liquidity, but the news hook gives it a reason to pump beyond pure attention arbitrage.
+
