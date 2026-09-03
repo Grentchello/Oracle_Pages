@@ -14089,3 +14089,6 @@
 ## [2026-09-03 21:18 UTC] sell | [FULL][LLM] $Crawlrr at $2.20733e-05 | P&L: +60.6%
 - **Reasoning:** +60.6% in <1h on a bonding-curve token (pool only $5.5k) — bonding curves reverse brutally when early holders rotate out. Auto-TP is already triggered at +50%. Locking the gain now frees capital for fresh attention plays.
 
+## [2026-09-03 21:21 UTC] buy | [LLM] $Enchilada at $3.204e-06, spent 0.02 SOL
+- **Reasoning:** $Enchilada — real news story (Boston25: alleged shooting over spicier enchiladas), description meets viability gate, has twitter source. News-driven memecoins with human drama pump 5-20x in first hours. $3.2k mcap = massive upside. Tight stop at -30% if story doesn't catch.
+
