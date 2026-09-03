@@ -13918,3 +13918,6 @@
 ## [2026-09-03 20:00 UTC] buy | [LLM] $AD at $3.194e-06, spent 0.02 SOL
 - **Reasoning:** $AD (Artificial Doge) has the clearest narrative — AI + Doge is a proven meta (memes like $AIDOGE did multi-x), has twitter handle, description >50 chars, and at $3.2k mcap there's room for attention-driven upside. Thin liquidity is a risk but viability gate passes.
 
+## [2026-09-03 20:06 UTC] sell | [FULL][LLM] $AD at $3.21317e-06 | P&L: +0.6%
+- **Reasoning:** Held 0.1h, only +0.6%, pool is only $144 and we hold 2% of it — we ARE the liquidity. Ticker-only narrative '$AD' is weak, price is flat, and the slot is more valuable deployed in a fresh launch with a real narrative. Cut and rotate.
+

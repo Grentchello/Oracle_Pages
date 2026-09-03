@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.332108,
+  "balance_sol": 0.35224,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BUh7TaVkw6bJSr184PXm3CLhSzzcU4P8fJg6Q1qQpump": {
-      "symbol": "AD",
-      "name": "Artificial Doge",
-      "amount": 658547.2761427677,
-      "entry_price_usd": 3.194e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T20:00:42.295939+00:00",
-      "entry_usd_value": 2.1034,
-      "entry_signals": {
-        "liquidity_usd": 134.32491862088,
-        "volume_24h_usd": 134.23,
-        "market_cap_usd": 3196.784936262513,
-        "ath_market_cap_usd": 3195.8457456064893,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.277217064,
-        "description": "🤖🐕 Welcome to Artificial Doge ($AD). Where AI meets the Doge spirit. Built by the community, driven by innovation, and ready for the next chapter. Join the pack and be part of the journey. 🚀",
-        "twitter": "https://x.com/artificial_doge?s=11&t=sIzHpkKCWxRaT7kb3a7OKg",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30660,19 +30637,30 @@
       "pnl_pct": 2.98,
       "exit_reason": "LLM: sell_all — Only +3% after 6 minutes with dangerously thin pool ($617) — below 5x position size safety. Illiquidity risk outweighs the tiny gain; locking in the g",
       "partial": false
+    },
+    {
+      "mint": "BUh7TaVkw6bJSr184PXm3CLhSzzcU4P8fJg6Q1qQpump",
+      "symbol": "AD",
+      "name": "Artificial Doge",
+      "amount_sold": 658547.2761427677,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T20:00:42.295939+00:00",
+      "exit_time": "2026-09-03T20:06:22.610140+00:00",
+      "entry_price_usd": 3.194e-06,
+      "exit_price_usd": 3.213167860520426e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020132,
+      "pnl_sol": 0.000132,
+      "pnl_pct": 0.6,
+      "exit_reason": "LLM: sell_all — Held 0.1h, only +0.6%, pool is only $144 and we hold 2% of it — we ARE the liquidity. Ticker-only narrative '$AD' is weak, price is flat, and the slot",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T20:04:52.927946+00:00",
+  "last_updated": "2026-09-03T20:06:22.877990+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.15,
+  "last_sol_price_usd": 105.11,
   "portfolio_value_usd": 37.02,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 19:17 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $gc at $2.93989e-06 | P&L: -22.2%",
-      "reason": "-22.2% past my -20% loser-exit rule, no bounce signal in 6 minutes, pool is $0 — this is dead. Cut and free the slot."
-    },
     {
       "time": "2026-09-03 19:20 UTC",
       "action": "sell",
@@ -30786,35 +30774,41 @@
       "action": "buy",
       "details": "[LLM] $AD at $3.194e-06, spent 0.02 SOL",
       "reason": "$AD (Artificial Doge) has the clearest narrative — AI + Doge is a proven meta (memes like $AIDOGE did multi-x), has twitter handle, description >50 chars, and at $3.2k mcap there's room for attention-driven upside. Thin liquidity is a risk but viability gate passes."
+    },
+    {
+      "time": "2026-09-03 20:06 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $AD at $3.21317e-06 | P&L: +0.6%",
+      "reason": "Held 0.1h, only +0.6%, pool is only $144 and we hold 2% of it — we ARE the liquidity. Ticker-only narrative '$AD' is weak, price is flat, and the slot is more valuable deployed in a fresh launch with a real narrative. Cut and rotate."
     }
   ],
   "trade_stats": {
-    "total": 1802,
-    "wins": 925,
+    "total": 1803,
+    "wins": 926,
     "losses": 877,
-    "win_rate_pct": 51.3,
-    "total_pnl_sol": -1.980539,
-    "avg_pnl_pct": 34.83,
+    "win_rate_pct": 51.4,
+    "total_pnl_sol": -1.980407,
+    "avg_pnl_pct": 34.81,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 291,
-    "today_realized_sol": 0.012322,
+    "today_trades": 292,
+    "today_realized_sol": 0.012454,
     "today_target_pct": 3.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 925,
+      "win_count": 926,
       "loss_count": 877,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T20:04:52.662221+00:00",
+  "last_llm_brief_at": "2026-09-03T20:06:22.610104+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BUh7TaVkw6bJSr184PXm3CLhSzzcU4P8fJg6Q1qQpump": {
-      "price_usd": 3.2143906434565958e-06,
+      "price_usd": 3.213167860520426e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 143.9845521405,
+      "liquidity_usd": 143.9297791297,
       "volume_h24": 143.9,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
