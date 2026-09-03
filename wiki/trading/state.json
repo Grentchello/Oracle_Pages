@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.371862,
+  "balance_sol": 0.38204,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "4rvienbLPFFa2tbMYzncBsvacWcKD9Aj84E8DcVjpump": {
       "symbol": "shg",
       "name": "superhero ghosty",
-      "amount": 526988.7551663676,
+      "amount": 163396.16722246257,
       "entry_price_usd": 3.8312012926397495e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.006201125379644172,
       "entry_time": "2026-09-03T06:53:37.885049+00:00",
       "entry_usd_value": 2.019,
       "entry_signals": {
@@ -27209,19 +27209,30 @@
       "pnl_pct": -16.69,
       "exit_reason": "LLM: sell_all — -16.7% with 0% pool share and tiny $222 pool means no bounce support. Approaching -30% hard stop; cutting the loss now preserves capital and frees the",
       "partial": false
+    },
+    {
+      "mint": "4rvienbLPFFa2tbMYzncBsvacWcKD9Aj84E8DcVjpump",
+      "symbol": "shg",
+      "name": "superhero ghosty",
+      "amount_sold": 363592.5879439051,
+      "fraction_sold": 0.6899437310177914,
+      "entry_time": "2026-09-03T06:53:37.885049+00:00",
+      "exit_time": "2026-09-03T06:55:02.135481+00:00",
+      "entry_price_usd": 3.8312012926397495e-06,
+      "exit_price_usd": 2.822824821967992e-06,
+      "entry_sol_for_chunk": 0.013799,
+      "exit_sol_received": 0.010178,
+      "pnl_sol": -0.003621,
+      "pnl_pct": -26.32,
+      "exit_reason": "LLM: sell_all — Down -26.3% and at the hard stop threshold (our share=81% on a thin $2 pool is dangerously illiquid). Capital is locked in a dead token; better to fre",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T06:53:37.885453+00:00",
+  "last_updated": "2026-09-03T06:55:02.386749+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.95,
-  "portfolio_value_usd": 39.56,
+  "last_sol_price_usd": 100.84,
+  "portfolio_value_usd": 39.15,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 06:11 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Kauaʻi at $9.83962e-06 | P&L: +13.7%",
-      "reason": "+13.7% with 0% pool share means we're on the bonding curve only — thin liquidity, high slippage risk if it reverses. Not yet at +20% (no mandatory TP), but the rule says >15% and unsure → take profit. Locking gains and freeing a slot beats hoping."
-    },
     {
       "time": "2026-09-03 06:16 UTC",
       "action": "buy",
@@ -27335,30 +27346,48 @@
       "action": "buy",
       "details": "[LLM] $shg at $3.8312e-06, spent 0.02 SOL",
       "reason": "$shg (superhero ghosty) — Robin Hood ghost narrative with twitter, mcap $3.8k, 0.4min age. Distinctive story ('the legend never died, came back as a ghost') is a memeable frame. Slightly behind $Buzz in named-influencer signal but solid organic setup."
+    },
+    {
+      "time": "2026-09-03 06:55 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $shg at $2.82282e-06 | P&L: -26.3%",
+      "reason": "Down -26.3% and at the hard stop threshold (our share=81% on a thin $2 pool is dangerously illiquid). Capital is locked in a dead token; better to free the slot for fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 1599,
+    "total": 1600,
     "wins": 809,
-    "losses": 790,
+    "losses": 791,
     "win_rate_pct": 50.6,
-    "total_pnl_sol": -1.940783,
-    "avg_pnl_pct": 35.99,
+    "total_pnl_sol": -1.944404,
+    "avg_pnl_pct": 35.95,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 88,
-    "today_realized_sol": 0.052078,
-    "today_target_pct": 13.0,
+    "today_trades": 89,
+    "today_realized_sol": 0.048457,
+    "today_target_pct": 12.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 809,
-      "loss_count": 790,
+      "loss_count": 791,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T06:53:36.313423+00:00",
+  "last_llm_brief_at": "2026-09-03T06:55:02.134567+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "4rvienbLPFFa2tbMYzncBsvacWcKD9Aj84E8DcVjpump": {
+      "price_usd": 2.822824821967992e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.8449550266,
+      "volume_h24": 1096.39,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.018295865
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -12928,3 +12928,6 @@
 ## [2026-09-03 06:53 UTC] buy | [LLM] $shg at $3.8312e-06, spent 0.02 SOL
 - **Reasoning:** $shg (superhero ghosty) — Robin Hood ghost narrative with twitter, mcap $3.8k, 0.4min age. Distinctive story ('the legend never died, came back as a ghost') is a memeable frame. Slightly behind $Buzz in named-influencer signal but solid organic setup.
 
+## [2026-09-03 06:55 UTC] sell | [PARTIAL][LLM] $shg at $2.82282e-06 | P&L: -26.3%
+- **Reasoning:** Down -26.3% and at the hard stop threshold (our share=81% on a thin $2 pool is dangerously illiquid). Capital is locked in a dead token; better to free the slot for fresh attention.
+
