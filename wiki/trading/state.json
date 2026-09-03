@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.37728,
+  "balance_sol": 0.383783,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "66kks9vCtzAtmMa9ppyYhxvHVM6mXTLTeKGHD9qUpump": {
       "symbol": "RISE",
       "name": "RISE",
-      "amount": 149885.75780654987,
+      "amount": 56207.1591774562,
       "entry_price_usd": 5.252e-06,
-      "entry_sol_spent": 0.0075,
+      "entry_sol_spent": 0.0028125,
       "entry_time": "2026-09-03T20:59:06.521178+00:00",
       "entry_usd_value": 2.0991999999999997,
       "entry_signals": {
@@ -31085,25 +31085,47 @@
       "pnl_pct": 38.74,
       "exit_reason": "LLM: sell_half — +38.7% already past the +30% TP threshold but bot hasn't auto-triggered (still on bonding curve). Take half off the table to lock gains — pool is only",
       "partial": true
+    },
+    {
+      "mint": "66kks9vCtzAtmMa9ppyYhxvHVM6mXTLTeKGHD9qUpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 37471.43945163747,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T20:59:06.521178+00:00",
+      "exit_time": "2026-09-03T21:01:30.968489+00:00",
+      "entry_price_usd": 5.252e-06,
+      "exit_price_usd": 7.283901120072941e-06,
+      "entry_sol_for_chunk": 0.001875,
+      "exit_sol_received": 0.002601,
+      "pnl_sol": 0.000726,
+      "pnl_pct": 38.69,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "66kks9vCtzAtmMa9ppyYhxvHVM6mXTLTeKGHD9qUpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 56207.1591774562,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T20:59:06.521178+00:00",
+      "exit_time": "2026-09-03T21:01:51.598258+00:00",
+      "entry_price_usd": 5.252e-06,
+      "exit_price_usd": 7.283901120072941e-06,
+      "entry_sol_for_chunk": 0.002812,
+      "exit_sol_received": 0.003902,
+      "pnl_sol": 0.00109,
+      "pnl_pct": 38.69,
+      "exit_reason": "LLM: sell_half — Up +38.7% with TP threshold triggered — taking half off locks in gains while leaving runner. Pool is only $1812 (thin), so selling too much at once ri",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T21:00:27.061726+00:00",
+  "last_updated": "2026-09-03T21:01:51.854468+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.93,
-  "portfolio_value_usd": 40.38,
+  "last_sol_price_usd": 104.92,
+  "portfolio_value_usd": 40.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 20:41 UTC",
-      "action": "sell",
-      "details": "[TP +100% (50%)] $Intern at $4.566e-05 | P&L: +115.7%",
-      "reason": "Auto take-profit at +115.7%"
-    },
-    {
-      "time": "2026-09-03 20:41 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ASTRA at $3.13968e-06 | P&L: -0.0%",
-      "reason": "Pool is $106 (below 5x liquidity rule), only 1 buy/1 sell in m5, price flat at entry after 0.1h. Dead cat — recover the 0.05 SOL slot."
-    },
     {
       "time": "2026-09-03 20:41 UTC",
       "action": "sell",
@@ -31211,40 +31233,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $RISE at $7.28687e-06 | P&L: +38.7%",
       "reason": "+38.7% already past the +30% TP threshold but bot hasn't auto-triggered (still on bonding curve). Take half off the table to lock gains — pool is only $1813 so thin liquidity, and at 0% pool share this is a paper gain that vanishes fast. Trail the rest."
+    },
+    {
+      "time": "2026-09-03 21:01 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $RISE at $7.2839e-06 | P&L: +38.7%",
+      "reason": "Auto take-profit at +38.7%"
+    },
+    {
+      "time": "2026-09-03 21:01 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RISE at $7.2839e-06 | P&L: +38.7%",
+      "reason": "Up +38.7% with TP threshold triggered — taking half off locks in gains while leaving runner. Pool is only $1812 (thin), so selling too much at once risks slippage. Lock the gain now per scalp discipline; the other half is a free option on continued attention."
     }
   ],
   "trade_stats": {
-    "total": 1827,
-    "wins": 942,
+    "total": 1829,
+    "wins": 944,
     "losses": 885,
     "win_rate_pct": 51.6,
-    "total_pnl_sol": -1.947867,
+    "total_pnl_sol": -1.946051,
     "avg_pnl_pct": 34.97,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 316,
-    "today_realized_sol": 0.044994,
-    "today_target_pct": 11.2,
+    "today_trades": 318,
+    "today_realized_sol": 0.04681,
+    "today_target_pct": 11.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 942,
+      "win_count": 944,
       "loss_count": 885,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T21:00:26.796417+00:00",
+  "last_llm_brief_at": "2026-09-03T21:01:51.598219+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "66kks9vCtzAtmMa9ppyYhxvHVM6mXTLTeKGHD9qUpump": {
-      "price_usd": 7.286872984108042e-06,
+      "price_usd": 7.283901120072941e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1813.2336245494103,
-      "volume_h24": 1400.41,
+      "liquidity_usd": 1812.28549247652,
+      "volume_h24": 2013.69,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 17.280411937
+      "real_sol_reserves": 17.273022231
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

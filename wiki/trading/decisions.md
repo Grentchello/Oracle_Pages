@@ -14038,3 +14038,9 @@
 ## [2026-09-03 21:00 UTC] sell | [PARTIAL][LLM] $RISE at $7.28687e-06 | P&L: +38.7%
 - **Reasoning:** +38.7% already past the +30% TP threshold but bot hasn't auto-triggered (still on bonding curve). Take half off the table to lock gains — pool is only $1813 so thin liquidity, and at 0% pool share this is a paper gain that vanishes fast. Trail the rest.
 
+## [2026-09-03 21:01 UTC] sell | [TP +30% (25%)] $RISE at $7.2839e-06 | P&L: +38.7%
+- **Reasoning:** Auto take-profit at +38.7%
+
+## [2026-09-03 21:01 UTC] sell | [PARTIAL][LLM] $RISE at $7.2839e-06 | P&L: +38.7%
+- **Reasoning:** Up +38.7% with TP threshold triggered — taking half off locks in gains while leaving runner. Pool is only $1812 (thin), so selling too much at once risks slippage. Lock the gain now per scalp discipline; the other half is a free option on continued attention.
+
