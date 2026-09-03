@@ -14050,3 +14050,9 @@
 ## [2026-09-03 21:03 UTC] sell | [FULL][LLM] $RISE at $8.06494e-06 | P&L: +53.6%
 - **Reasoning:** Up +53.6% in 6 minutes on a $2k pool — classic peak pump on thin liquidity, my share is 0% so no incentive to hold. Take profit now before it reverses. Pool is too fragile to trust for continuation.
 
+## [2026-09-03 21:04 UTC] buy | [LLM] $LVL at $3.67156e-06, spent 0.02 SOL
+- **Reasoning:** White House-branded attention with a reported half-million impressions, 2.8k reposts, and immediate launch momentum. Low bonding completion and political-fragility risk make this a high-risk scalp requiring rapid profit-taking.
+
+## [2026-09-03 21:04 UTC] buy | [LLM] $+1 at $3.57387e-06, spent 0.02 SOL
+- **Reasoning:** The superhero-animal narrative is simple, emotionally shareable, and described as already attracting millions of likes. Its fresh $3.6k market cap offers the strongest viral-entry setup, with copy quality and extreme early-stage liquidity risk.
+
