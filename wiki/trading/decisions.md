@@ -12973,3 +12973,6 @@
 ## [2026-09-03 07:08 UTC] sell | [FULL][LLM] $rhg at $3.93127e-06 | P&L: +2.2%
 - **Reasoning:** rhg is flat at +2.2% with $544 pool, 0% our share — no momentum, would be marked stale fast. Free the slot for fresher attention.
 
+## [2026-09-03 07:14 UTC] buy | [LLM] $donki at $3.26685e-06, spent 0.02 SOL
+- **Reasoning:** $donki (Don Quijote) - strong narrative hook (Japanese retail giant Pancho going public independently), Japanese cultural meme with viral potential. Mcap $3.2k, very fresh, X post from @atiuoznc1. Cultural/national narrative can spread fast on Japanese crypto Twitter.
+
