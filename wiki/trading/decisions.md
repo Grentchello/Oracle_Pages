@@ -13027,3 +13027,9 @@
 ## [2026-09-03 09:09 UTC] sell | [PARTIAL][LLM] $Dark Arena at $2.59521e-05 | P&L: +21.6%
 - **Reasoning:** $Dark Arena is +21.6% and held <1h with bonding-curve pool only $6149 (thin). Per profit-taking discipline, up >20% with any doubt = lock gains. Sell half to bank +0.0022 SOL profit while letting runner ride free.
 
+## [2026-09-03 09:10 UTC] sell | [TP +100% (50%)] $Dark Arena at $6.211e-05 | P&L: +190.9%
+- **Reasoning:** Auto take-profit at +190.9%
+
+## [2026-09-03 09:11 UTC] sell | [PARTIAL][LLM] $Dark Arena at $6.211e-05 | P&L: +190.9%
+- **Reasoning:** Locked in 190.9% gain in <1h. Bot hasn't auto-TP'd yet (under 200% threshold). Sell half to bank the win, let the rest ride. If it keeps pumping, I keep upside; if it dumps, I protected profit.
+

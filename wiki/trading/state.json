@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.369306,
+  "balance_sol": 0.391103,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "Dh6MGtEtnirmfimatEbcNHaTVPJGWxujvYLPgnm6pump": {
       "symbol": "Dark Arena",
       "name": "Dark",
-      "amount": 47091.33489461359,
+      "amount": 11772.833723653397,
       "entry_price_usd": 2.135e-05,
-      "entry_sol_spent": 0.01,
+      "entry_sol_spent": 0.0025,
       "entry_time": "2026-09-03T09:07:54.843380+00:00",
       "entry_usd_value": 2.0108,
       "entry_signals": {
@@ -27532,25 +27532,47 @@
       "pnl_pct": 21.56,
       "exit_reason": "LLM: sell_half — $Dark Arena is +21.6% and held <1h with bonding-curve pool only $6149 (thin). Per profit-taking discipline, up >20% with any doubt = lock gains. Sell ",
       "partial": true
+    },
+    {
+      "mint": "Dh6MGtEtnirmfimatEbcNHaTVPJGWxujvYLPgnm6pump",
+      "symbol": "Dark Arena",
+      "name": "Dark",
+      "amount_sold": 23545.667447306794,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T09:07:54.843380+00:00",
+      "exit_time": "2026-09-03T09:10:43.995358+00:00",
+      "entry_price_usd": 2.135e-05,
+      "exit_price_usd": 6.211e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.014531,
+      "pnl_sol": 0.009531,
+      "pnl_pct": 190.91,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "Dh6MGtEtnirmfimatEbcNHaTVPJGWxujvYLPgnm6pump",
+      "symbol": "Dark Arena",
+      "name": "Dark",
+      "amount_sold": 11772.833723653397,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T09:07:54.843380+00:00",
+      "exit_time": "2026-09-03T09:11:03.067093+00:00",
+      "entry_price_usd": 2.135e-05,
+      "exit_price_usd": 6.211e-05,
+      "entry_sol_for_chunk": 0.0025,
+      "exit_sol_received": 0.007266,
+      "pnl_sol": 0.004766,
+      "pnl_pct": 190.91,
+      "exit_reason": "LLM: sell_half — Locked in 190.9% gain in <1h. Bot hasn't auto-TP'd yet (under 200% threshold). Sell half to bank the win, let the rest ride. If it keeps pumping, I ke",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T09:09:40.259820+00:00",
+  "last_updated": "2026-09-03T09:11:03.326931+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.56,
-  "portfolio_value_usd": 38.14,
+  "last_sol_price_usd": 100.64,
+  "portfolio_value_usd": 39.61,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 07:08 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BRIDGE at $3.03177e-06 | P&L: -13.7%",
-      "reason": "BRIDGE is -13.7% with $108 pool and 0% our share — no bounce signal and pool too thin to support recovery. Cut before -30% stop."
-    },
-    {
-      "time": "2026-09-03 07:08 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $rhg at $3.93127e-06 | P&L: +2.2%",
-      "reason": "rhg is flat at +2.2% with $544 pool, 0% our share — no momentum, would be marked stale fast. Free the slot for fresher attention."
-    },
     {
       "time": "2026-09-03 07:14 UTC",
       "action": "buy",
@@ -27658,40 +27680,50 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Dark Arena at $2.59521e-05 | P&L: +21.6%",
       "reason": "$Dark Arena is +21.6% and held <1h with bonding-curve pool only $6149 (thin). Per profit-taking discipline, up >20% with any doubt = lock gains. Sell half to bank +0.0022 SOL profit while letting runner ride free."
+    },
+    {
+      "time": "2026-09-03 09:10 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $Dark Arena at $6.211e-05 | P&L: +190.9%",
+      "reason": "Auto take-profit at +190.9%"
+    },
+    {
+      "time": "2026-09-03 09:11 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Dark Arena at $6.211e-05 | P&L: +190.9%",
+      "reason": "Locked in 190.9% gain in <1h. Bot hasn't auto-TP'd yet (under 200% threshold). Sell half to bank the win, let the rest ride. If it keeps pumping, I keep upside; if it dumps, I protected profit."
     }
   ],
   "trade_stats": {
-    "total": 1618,
-    "wins": 815,
+    "total": 1620,
+    "wins": 817,
     "losses": 803,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.95334,
-    "avg_pnl_pct": 35.55,
+    "total_pnl_sol": -1.939043,
+    "avg_pnl_pct": 35.74,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 107,
-    "today_realized_sol": 0.039521,
-    "today_target_pct": 9.9,
+    "today_trades": 109,
+    "today_realized_sol": 0.053818,
+    "today_target_pct": 13.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 815,
+      "win_count": 817,
       "loss_count": 803,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T09:09:39.722670+00:00",
+  "last_llm_brief_at": "2026-09-03T09:11:03.066671+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "Dh6MGtEtnirmfimatEbcNHaTVPJGWxujvYLPgnm6pump": {
-      "price_usd": 2.5952101040030738e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 6148.7679789268805,
-      "volume_h24": 13821.2,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 61.145266298
+      "price_usd": 6.211e-05,
+      "change_h24": 50.32,
+      "change_h1": 50.32,
+      "liquidity_usd": 19219.15,
+      "volume_h24": 16619.66,
+      "dex_id": "pumpswap",
+      "source": "dexscreener"
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
