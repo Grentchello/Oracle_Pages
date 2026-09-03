@@ -13033,3 +13033,12 @@
 ## [2026-09-03 09:11 UTC] sell | [PARTIAL][LLM] $Dark Arena at $6.211e-05 | P&L: +190.9%
 - **Reasoning:** Locked in 190.9% gain in <1h. Bot hasn't auto-TP'd yet (under 200% threshold). Sell half to bank the win, let the rest ride. If it keeps pumping, I keep upside; if it dumps, I protected profit.
 
+## [2026-09-03 09:12 UTC] sell | [TP +200% (75%)] $Dark Arena at $7.642e-05 | P&L: +257.9%
+- **Reasoning:** Auto take-profit at +257.9%
+
+## [2026-09-03 09:12 UTC] sell | [FULL][LLM] $Dark Arena at $7.642e-05 | P&L: +257.9%
+- **Reasoning:** +257.9% in 0.1h — past all TP thresholds, this is peak euphoria. Lock the gain before reversal. Bot should have already auto-TP'd; if still open, exit now to avoid giving it back.
+
+## [2026-09-03 09:12 UTC] buy | [LLM] $BEN at $4.214e-06, spent 0.02 SOL
+- **Reasoning:** $BEN — Solana-native perps trader character on Solflare, long descriptive narrative, official Solflare tweet gives it attention backing. $4.2k mcap with a clear story = room to5-10x if narrative catches.
+
