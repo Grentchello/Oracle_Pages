@@ -13768,3 +13768,6 @@
 ## [2026-09-03 18:12 UTC] buy | [LLM] $TAIDOU at $3.09752e-06, spent 0.02 SOL
 - **Reasoning:** TAIDOU has a genuine human story — ADHD founder using coin as accountability mechanism for an AI company with explicit buyback-and-burn promise. Long desc passes viability gate, has linked twitter. Memecoins reward weird sincere narratives. Risk: Chinese-language narrative may not cross to Western meme traders.
 
+## [2026-09-03 18:13 UTC] sell | [FULL][LLM] $TAIDOU at $3.09351e-06 | P&L: -0.1%
+- **Reasoning:** Flat at -0.1%, pool only $85 with 2% share = near-impossible to exit at meaningful size. No narrative momentum, no catalyst. Recycle capital into fresh attention.
+
