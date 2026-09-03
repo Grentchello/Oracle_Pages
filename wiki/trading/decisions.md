@@ -13771,3 +13771,6 @@
 ## [2026-09-03 18:13 UTC] sell | [FULL][LLM] $TAIDOU at $3.09351e-06 | P&L: -0.1%
 - **Reasoning:** Flat at -0.1%, pool only $85 with 2% share = near-impossible to exit at meaningful size. No narrative momentum, no catalyst. Recycle capital into fresh attention.
 
+## [2026-09-03 18:17 UTC] buy | [LLM] $APOLLO at $3.21e-06, spent 0.02 SOL
+- **Reasoning:** $APOLLO 'First cat on the moon' — cat meta is hot, has both desc and twitter, fresh 0.8min launch at $3.2k mcap with bonding curve only 5% in. Early attention play with narrative hook.
+
