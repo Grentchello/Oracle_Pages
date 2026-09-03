@@ -13456,3 +13456,12 @@
 ## [2026-09-03 14:39 UTC] buy | [LLM] $KAMA at $3.60679e-06, spent 0.02 SOL
 - **Reasoning:** Kama the surfing pig is a real viral IP with sentimental story + active twitter — nostalgia/narrative tokens with established characters pump hard in first hours.
 
+## [2026-09-03 14:40 UTC] sell | [TP +30% (25%)] $KAMA at $6.9886e-06 | P&L: +93.8%
+- **Reasoning:** Auto take-profit at +93.8%
+
+## [2026-09-03 14:40 UTC] sell | [PARTIAL][LLM] $KAMA at $6.9886e-06 | P&L: +93.8%
+- **Reasoning:** Up +93.8% almost immediately — classic memecoin first-hour pump before reversal. Lock in half the gain per scalp discipline ('if up >20% and you have ANY doubt, sell_all or sell_half'). Remaining half rides toward +200% auto-TP.
+
+## [2026-09-03 14:40 UTC] buy | [LLM] $HAMSTER at $9.182e-06, spent 0.02 SOL
+- **Reasoning:** $HAMSTER (Sisyphean Hamster) — strongest narrative: '1.5M views, people connecting to the video running nonstop' is a real attention signal with an explainable viral story. Mcap $10k, bond 32% (liquidity forming), passes viability gate (desc + twitter). Risk: only ~0.7min old, but that's where the alpha is.
+
