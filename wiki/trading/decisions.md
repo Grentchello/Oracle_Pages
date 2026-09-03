@@ -14092,3 +14092,6 @@
 ## [2026-09-03 21:21 UTC] buy | [LLM] $Enchilada at $3.204e-06, spent 0.02 SOL
 - **Reasoning:** $Enchilada — real news story (Boston25: alleged shooting over spicier enchiladas), description meets viability gate, has twitter source. News-driven memecoins with human drama pump 5-20x in first hours. $3.2k mcap = massive upside. Tight stop at -30% if story doesn't catch.
 
+## [2026-09-03 21:22 UTC] sell | [PARTIAL][LLM] $Enchilada at $2.94954e-06 | P&L: -7.9%
+- **Reasoning:** 78% pool share on a $2 pool = trapped. We are the market. Trying to recover from -7.9% while owning the entire book is impossible — any sell moves price against us, any buy barely helps. Cut the loss now and free the slot.
+
