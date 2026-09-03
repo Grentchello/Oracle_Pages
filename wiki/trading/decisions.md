@@ -13024,3 +13024,6 @@
 ## [2026-09-03 09:07 UTC] buy | [LLM] $Dark Arena at $2.135e-05, spent 0.02 SOL
 - **Reasoning:** $Dark Arena has the strongest narrative and largest market cap among viable fresh launches, with an on-chain card-battle RPG, explicit earning utility, and a linked X account. At roughly $22.2K mcap, it offers substantial early-launch upside, though it remains exposed to very high volatility and failure.
 
+## [2026-09-03 09:09 UTC] sell | [PARTIAL][LLM] $Dark Arena at $2.59521e-05 | P&L: +21.6%
+- **Reasoning:** $Dark Arena is +21.6% and held <1h with bonding-curve pool only $6149 (thin). Per profit-taking discipline, up >20% with any doubt = lock gains. Sell half to bank +0.0022 SOL profit while letting runner ride free.
+

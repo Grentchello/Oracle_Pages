@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.357153,
+  "balance_sol": 0.369306,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "Dh6MGtEtnirmfimatEbcNHaTVPJGWxujvYLPgnm6pump": {
       "symbol": "Dark Arena",
       "name": "Dark",
-      "amount": 94182.66978922718,
+      "amount": 47091.33489461359,
       "entry_price_usd": 2.135e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T09:07:54.843380+00:00",
       "entry_usd_value": 2.0108,
       "entry_signals": {
@@ -27515,19 +27515,30 @@
       "pnl_pct": -16.2,
       "exit_reason": "LLM: sell_all — Down -16.2% in 6 min with no bounce signal, pool only $4 with22% share = extremely thin exit. Better to cut now at -16% than wait for -30% hard stop. ",
       "partial": false
+    },
+    {
+      "mint": "Dh6MGtEtnirmfimatEbcNHaTVPJGWxujvYLPgnm6pump",
+      "symbol": "Dark Arena",
+      "name": "Dark",
+      "amount_sold": 47091.33489461359,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T09:07:54.843380+00:00",
+      "exit_time": "2026-09-03T09:09:39.722705+00:00",
+      "entry_price_usd": 2.135e-05,
+      "exit_price_usd": 2.5952101040030738e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.012153,
+      "pnl_sol": 0.002153,
+      "pnl_pct": 21.56,
+      "exit_reason": "LLM: sell_half — $Dark Arena is +21.6% and held <1h with bonding-curve pool only $6149 (thin). Per profit-taking discipline, up >20% with any doubt = lock gains. Sell ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T09:07:55.105076+00:00",
+  "last_updated": "2026-09-03T09:09:40.259820+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.54,
-  "portfolio_value_usd": 37.92,
+  "last_sol_price_usd": 100.56,
+  "portfolio_value_usd": 38.14,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 07:06 UTC",
-      "action": "buy",
-      "details": "[LLM] $rhg at $3.84827e-06, spent 0.02 SOL",
-      "reason": "$rhg passes viability (twitter + desc) and has the strongest narrative of the batch — Robin Hood ghost resurrection story with live X account @gh1stsol. $3.8k mcap means tiny entry gets real upside if it pumps. Risk: ultra-low mcap = rug-prone, so 0.05 SOL sizing only."
-    },
     {
       "time": "2026-09-03 07:08 UTC",
       "action": "sell",
@@ -27641,30 +27652,48 @@
       "action": "buy",
       "details": "[LLM] $Dark Arena at $2.135e-05, spent 0.02 SOL",
       "reason": "$Dark Arena has the strongest narrative and largest market cap among viable fresh launches, with an on-chain card-battle RPG, explicit earning utility, and a linked X account. At roughly $22.2K mcap, it offers substantial early-launch upside, though it remains exposed to very high volatility and failure."
+    },
+    {
+      "time": "2026-09-03 09:09 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Dark Arena at $2.59521e-05 | P&L: +21.6%",
+      "reason": "$Dark Arena is +21.6% and held <1h with bonding-curve pool only $6149 (thin). Per profit-taking discipline, up >20% with any doubt = lock gains. Sell half to bank +0.0022 SOL profit while letting runner ride free."
     }
   ],
   "trade_stats": {
-    "total": 1617,
-    "wins": 814,
+    "total": 1618,
+    "wins": 815,
     "losses": 803,
-    "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.955493,
-    "avg_pnl_pct": 35.56,
+    "win_rate_pct": 50.4,
+    "total_pnl_sol": -1.95334,
+    "avg_pnl_pct": 35.55,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 106,
-    "today_realized_sol": 0.037368,
-    "today_target_pct": 9.3,
+    "today_trades": 107,
+    "today_realized_sol": 0.039521,
+    "today_target_pct": 9.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 814,
+      "win_count": 815,
       "loss_count": 803,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T09:07:53.495744+00:00",
+  "last_llm_brief_at": "2026-09-03T09:09:39.722670+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Dh6MGtEtnirmfimatEbcNHaTVPJGWxujvYLPgnm6pump": {
+      "price_usd": 2.5952101040030738e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 6148.7679789268805,
+      "volume_h24": 13821.2,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 61.145266298
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
