@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.322064,
+  "balance_sol": 0.340774,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FQkj4581bYkXwXnKhtwqhkFWCg8t9eggGbGaVxEipump": {
-      "symbol": "PUMP",
-      "name": "Poor Until Market Pumps",
-      "amount": 662857.1428571428,
-      "entry_price_usd": 3.01e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T00:28:02.454696+00:00",
-      "entry_usd_value": 1.9952,
-      "entry_signals": {
-        "liquidity_usd": 113.77137051112001,
-        "volume_24h_usd": 239.87,
-        "market_cap_usd": 3007.9089210299585,
-        "ath_market_cap_usd": 3073.522927271347,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.140450787,
-        "description": "do not feed the dog, he does not want food, he wants $PUMP",
-        "twitter": "https://x.com/PoorUntilPump",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25798,19 +25775,30 @@
       "pnl_pct": 44.95,
       "exit_reason": "LLM: sell_all — +44.9% in <1h, near first auto-TP threshold. Bonding-curve pool only $4.3k — thin liquidity, easy to give back gains. Lock profit now.",
       "partial": false
+    },
+    {
+      "mint": "FQkj4581bYkXwXnKhtwqhkFWCg8t9eggGbGaVxEipump",
+      "symbol": "PUMP",
+      "name": "Poor Until Market Pumps",
+      "amount_sold": 662857.1428571428,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T00:28:02.454696+00:00",
+      "exit_time": "2026-09-03T00:29:22.188025+00:00",
+      "entry_price_usd": 3.01e-06,
+      "exit_price_usd": 2.814466849008266e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.01871,
+      "pnl_sol": -0.00129,
+      "pnl_pct": -6.5,
+      "exit_reason": "LLM: sell_all — Pool only $14 with our 13% curve share — exit before liquidity thins further. Down6.5% on generic 'PUMP' narrative with no edge. Cut loss small and fr",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T00:28:02.454876+00:00",
+  "last_updated": "2026-09-03T00:29:22.453510+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.76,
-  "portfolio_value_usd": 34.12,
+  "last_sol_price_usd": 99.71,
+  "portfolio_value_usd": 33.98,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 17:20 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-02 19:34 UTC",
       "action": "observe",
@@ -25924,30 +25912,48 @@
       "action": "buy",
       "details": "[LLM] $PUMP at $3.01e-06, spent 0.02 SOL",
       "reason": "$PUMP — meta-narrative (meme about being poor while launching a coin called PUMP) with both description and dedicated twitter @PoorUntilPump. Bond 4%, mcap $3k, 0.9min old. Self-aware memecoin meta tends to pop on CT. 0.05 SOL position."
+    },
+    {
+      "time": "2026-09-03 00:29 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PUMP at $2.81447e-06 | P&L: -6.5%",
+      "reason": "Pool only $14 with our 13% curve share — exit before liquidity thins further. Down6.5% on generic 'PUMP' narrative with no edge. Cut loss small and free the slot for a stronger narrative play."
     }
   ],
   "trade_stats": {
-    "total": 1516,
+    "total": 1517,
     "wins": 764,
-    "losses": 752,
+    "losses": 753,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.990578,
-    "avg_pnl_pct": 36.94,
+    "total_pnl_sol": -1.991868,
+    "avg_pnl_pct": 36.91,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 5,
-    "today_realized_sol": 0.002283,
-    "today_target_pct": 0.6,
+    "today_trades": 6,
+    "today_realized_sol": 0.000993,
+    "today_target_pct": 0.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 764,
-      "loss_count": 752,
+      "loss_count": 753,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T00:28:00.369510+00:00",
+  "last_llm_brief_at": "2026-09-03T00:29:22.187987+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FQkj4581bYkXwXnKhtwqhkFWCg8t9eggGbGaVxEipump": {
+      "price_usd": 2.814466849008266e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 14.2773921407,
+      "volume_h24": 239.87,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.14318917
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

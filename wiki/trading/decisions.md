@@ -12520,3 +12520,6 @@
 ## [2026-09-03 00:28 UTC] buy | [LLM] $PUMP at $3.01e-06, spent 0.02 SOL
 - **Reasoning:** $PUMP — meta-narrative (meme about being poor while launching a coin called PUMP) with both description and dedicated twitter @PoorUntilPump. Bond 4%, mcap $3k, 0.9min old. Self-aware memecoin meta tends to pop on CT. 0.05 SOL position.
 
+## [2026-09-03 00:29 UTC] sell | [FULL][LLM] $PUMP at $2.81447e-06 | P&L: -6.5%
+- **Reasoning:** Pool only $14 with our 13% curve share — exit before liquidity thins further. Down6.5% on generic 'PUMP' narrative with no edge. Cut loss small and free the slot for a stronger narrative play.
+
