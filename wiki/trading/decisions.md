@@ -13972,3 +13972,6 @@
 ## [2026-09-03 20:34 UTC] sell | [FULL][LLM] $FYC at $5.15129e-06 | P&L: -20.5%
 - **Reasoning:** Down20.5% already, no bounce signal, bonding curve with only $1020 pool. -20% losers bleed to -50% fast — exit now and free the slot.
 
+## [2026-09-03 20:36 UTC] buy | [LLM] $ASTRA at $3.13994e-06, spent 0.02 SOL
+- **Reasoning:** $ASTRA — OpenAI official twitter post + GPT-6 narrative is the strongest attention signal in batch. Mcap $3.1k with3% bond means thin liquidity so tight stop discipline applies, but official OpenAI amplification is rare and historically pumps fast. Position 0.05 SOL.
+
