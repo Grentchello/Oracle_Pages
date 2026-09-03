@@ -13354,3 +13354,6 @@
 ## [2026-09-03 13:24 UTC] buy | [LLM] $BORB at $2.844e-06, spent 0.02 SOL
 - **Reasoning:** $BORB has the strongest character-driven meme narrative — bird meme with personality ('fattest angriest bird'), dedicated twitter account (@borbcoinn), and 0.6min freshness. Character memes with humor pump hardest in the first hour.
 
+## [2026-09-03 13:29 UTC] sell | [PARTIAL][LLM] $BORB at $2.84305e-06 | P&L: -0.0%
+- **Reasoning:** $BORB is flat at -0.0% after 0.1h, marked ⚠ STALE, pool only $3k with our share at 69% meaning we ARE the exit liquidity. No momentum, no catalyst. Cut and free the slot.
+
