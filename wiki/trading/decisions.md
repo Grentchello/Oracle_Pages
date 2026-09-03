@@ -12778,3 +12778,9 @@
 ## [2026-09-03 04:51 UTC] sell | [PARTIAL][LLM] $PEMP at $7.72449e-06 | P&L: +58.7%
 - **Reasoning:** $PEMP is +58.7% and the bot's auto-TP ladder will likely trigger soon at +100%. Lock in half the gain now — the name 'Pemp Cult' is generic meme energy without a clear viral catalyst, and at 0.8min age riding a brand-new bonding curve with only $1985 pool, giveback risk is high. Take profit on the half while letting runners ride.
 
+## [2026-09-03 04:52 UTC] sell | [TP +30% (25%)] $PEMP at $6.59269e-06 | P&L: +35.5%
+- **Reasoning:** Auto take-profit at +35.5%
+
+## [2026-09-03 04:52 UTC] sell | [PARTIAL][LLM] $PEMP at $6.59269e-06 | P&L: +35.5%
+- **Reasoning:** Up +35.5% and already past the +30% auto-TP threshold. Locking half locks ~+30% gain while letting the other half ride if attention continues.
+
