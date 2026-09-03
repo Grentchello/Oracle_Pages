@@ -13744,3 +13744,6 @@
 ## [2026-09-03 17:50 UTC] buy | [LLM] $TURBOSNAIL at $6.718e-06, spent 0.02 SOL
 - **Reasoning:** $TURBOSNAIL — absurdist animal meme with the irony of 'slowest racer, fastest track.' Has twitter (x.com/TurboSnail_SOL), decent description, and $7.5k mcap with 27% bond complete — leading attention signal among fresh launches. Animal irony memes travel on CT.
 
+## [2026-09-03 17:51 UTC] buy | [LLM] $SS at $3.17259e-06, spent 0.02 SOL
+- **Reasoning:** $SS (Social Stock) has the strongest narrative: actual product (Web/iOS/Android), tokenized-stocks FOMO angle, real description, twitter presence. Fresh 0.1min launch with attention-market thesis.
+
