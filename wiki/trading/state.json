@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.334232,
+  "balance_sol": 0.348632,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CLFy7jfkChjSc48brHbyRNzb69JE7Wv45ofnTQfnpump": {
-      "symbol": "Chiikawa",
-      "name": "The Chiikawa Jet",
-      "amount": 233361.7144099024,
-      "entry_price_usd": 8.969766121632409e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T17:12:48.993495+00:00",
-      "entry_usd_value": 2.0932,
-      "entry_signals": {
-        "liquidity_usd": 2300.5891784201,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8990.24301485116,
-        "ath_market_cap_usd": 11803.277051455805,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 21.981551485,
-        "description": "I think we all missed this, literally all Nippon Airways plane will be covered in Chiikawa characters. It’s going to be called the Chiikawa Jet. This series is the biggest modern character in Japan, and now it’ll be all over Japanese places? You know how crazy that is?!?! Every normie travelling in ",
-        "twitter": "https://x.com/barnsrebirth0/status/2095560357884416045?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -29997,19 +29974,30 @@
       "pnl_pct": -20.62,
       "exit_reason": "LLM: sell_all — Down -20.6% at 0.1h hold on a $29 pool — exactly the scalp-discipline exit trigger. Pool is too thin to support recovery and bonding-curve tokens at -",
       "partial": false
+    },
+    {
+      "mint": "CLFy7jfkChjSc48brHbyRNzb69JE7Wv45ofnTQfnpump",
+      "symbol": "Chiikawa",
+      "name": "The Chiikawa Jet",
+      "amount_sold": 233361.7144099024,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T17:12:48.993495+00:00",
+      "exit_time": "2026-09-03T17:14:17.047195+00:00",
+      "entry_price_usd": 8.969766121632409e-06,
+      "exit_price_usd": 6.4595526537976535e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0144,
+      "pnl_sol": -0.0056,
+      "pnl_pct": -27.99,
+      "exit_reason": "LLM: sell_all — $Chiikawa is at -28.0%, only 2% from the -30% hard stop and showing zero bounce. Held for 0.0h with our share at 0% on a $1,525 pool — exit manually n",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T17:12:48.993675+00:00",
+  "last_updated": "2026-09-03T17:14:17.307710+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.66,
-  "portfolio_value_usd": 37.07,
+  "last_sol_price_usd": 104.68,
+  "portfolio_value_usd": 36.49,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 16:32 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $rusty at $8.04517e-06 | P&L: +28.9%",
-      "reason": "Up +28.9% in <1h is decent but not yet at TP thresholds. Take partial profits to lock in gains — bonding-curve tokens often dump hard once momentum fades, and the pool is thin ($2069). Selling half secures ~+0.0014 SOL while letting the rest ride if it breaks higher."
-    },
     {
       "time": "2026-09-03 16:36 UTC",
       "action": "sell",
@@ -30123,30 +30111,48 @@
       "action": "buy",
       "details": "[LLM] $Chiikawa at $8.96977e-06, spent 0.02 SOL",
       "reason": "$Chiikawa: real-world brand tie-in (Nippon Airways livery wrap), highest bond (30%) and highest mcap ($9k) of the new batch — organic Japan anime IP narrative pumps well in memecoin cycles. Small position (0.05 SOL) sized for sub-minute launch volatility."
+    },
+    {
+      "time": "2026-09-03 17:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Chiikawa at $6.45955e-06 | P&L: -28.0%",
+      "reason": "$Chiikawa is at -28.0%, only 2% from the -30% hard stop and showing zero bounce. Held for 0.0h with our share at 0% on a $1,525 pool — exit manually now rather than wait for the auto-stop to fire. Cut the loss, free the slot."
     }
   ],
   "trade_stats": {
-    "total": 1763,
+    "total": 1764,
     "wins": 907,
-    "losses": 856,
+    "losses": 857,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.978414,
-    "avg_pnl_pct": 35.03,
+    "total_pnl_sol": -1.984014,
+    "avg_pnl_pct": 35.0,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 252,
-    "today_realized_sol": 0.014447,
-    "today_target_pct": 3.6,
+    "today_trades": 253,
+    "today_realized_sol": 0.008847,
+    "today_target_pct": 2.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 907,
-      "loss_count": 856,
+      "loss_count": 857,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T17:12:47.669201+00:00",
+  "last_llm_brief_at": "2026-09-03T17:14:17.047157+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CLFy7jfkChjSc48brHbyRNzb69JE7Wv45ofnTQfnpump": {
+      "price_usd": 6.4595526537976535e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1525.050306946,
+      "volume_h24": 23888.66,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 14.56868845
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
