@@ -12691,3 +12691,6 @@
 ## [2026-09-03 03:46 UTC] sell | [FULL][LLM] $DEGENS at $2.98498e-06 | P&L: -17.1%
 - **Reasoning:** -17.1% with no bounce and pool only $94 (fails 5x liquidity gate). Per scalp rules, -20% losses become -50% quickly — exit before hard stop at -30%.
 
+## [2026-09-03 03:52 UTC] buy | [LLM] $SM at $4.904e-06, spent 0.02 SOL
+- **Reasoning:** $SM narrative is strongest here — 'tokenized mining rigs hashing for Solana' riffs the AI/miner meta which is pumping across CT, plus active @miner_on_sol twitter. Sub-1min age, $5.4k mcap = asymmetric upside if narrative catches. Risk: bond only 22%, may stall on curve.
+
