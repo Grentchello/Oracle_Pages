@@ -13345,3 +13345,6 @@
 ## [2026-09-03 13:06 UTC] sell | [FULL][LLM] $DERP at $1.38231e-05 | P&L: +48.9%
 - **Reasoning:** $DERP is up +48.9%, well past the +30% threshold. The bot should have auto-TP'd at 25% but apparently didn't fire — regardless, locking in a 49% gain is the right call. Memecoins give back gains fast; a bird in hand.
 
+## [2026-09-03 13:07 UTC] buy | [LLM] $raji at $4.76294e-06, spent 0.02 SOL
+- **Reasoning:** $raji has the cleanest narrative of the batch: Indian meme culture play with a real character/legend angle, 50+ char desc, attached X account (gh1stsol). $4.7k mcap = early entry window. Risk: bond only 19%, mcap can rug fast — tight mental stop.
+
