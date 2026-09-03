@@ -14194,3 +14194,6 @@
 ## [2026-09-03 22:57 UTC] sell | [FULL][LLM] $ALIENZ at $2.96921e-06 | P&L: -2.9%
 - **Reasoning:** Holding 6% of a $31 pool is a concentration/illiquidity bomb — any other seller crushes price. No clear narrative or twitter on $ALIENZ. -2.9% with 0.2h held is the optimal exit window before it goes stale.
 
+## [2026-09-03 23:08 UTC] buy | [LLM] $Wolf at $5.28e-06, spent 0.02 SOL
+- **Reasoning:** Wolf/winter narrative is trending, has twitter attached, dev publicly buying on bonding curve (showing conviction). Fresh $5.2k mcap with clear attention story. Second strongest pick.
+
