@@ -13786,3 +13786,6 @@
 ## [2026-09-03 18:24 UTC] sell | [FULL][LLM] $CAPE at $2.0226e-05 | P&L: +28.3%
 - **Reasoning:** Up +28.3% with only $5117 pool liquidity (barely 5x position) — thin liquidity + approaching TP zone = lock gains now. Free capital for fresh attention plays.
 
+## [2026-09-03 18:27 UTC] buy | [LLM] $WINE at $3.129e-06, spent 0.02 SOL
+- **Reasoning:** $WINE has the strongest narrative of the batch — 'wine made immortal on blockchain' with luxury framing + real twitter @0xSpritz attached. $3.1k mcap is bottom-of-curve entry. Risk: brand-new, low liquidity, but attention signal is concrete (named account, themed story).
+
