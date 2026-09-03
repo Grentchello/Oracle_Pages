@@ -13957,3 +13957,6 @@
 ## [2026-09-03 20:28 UTC] sell | [PARTIAL][LLM] $Wolf at $6.34843e-06 | P&L: +9.8%
 - **Reasoning:** Wolf at +9.8%, under the 15% staleness threshold but trending up. Lock half the gain at breakeven+, let the other half ride if it breaks 20%.
 
+## [2026-09-03 20:30 UTC] sell | [PARTIAL][LLM] $Wolf at $6.9413e-06 | P&L: +20.1%
+- **Reasoning:** +20.1% gain, just hit TP threshold. Pool is only $1691 (illiquid), so half-exit locks ~$1.05 profit while leaving runner for potential continuation. Symmetric to my 'lock the gain' rule at the20% mark.
+
