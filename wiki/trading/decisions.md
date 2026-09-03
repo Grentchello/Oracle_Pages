@@ -13408,3 +13408,9 @@
 ## [2026-09-03 13:56 UTC] sell | [PARTIAL][LLM] $rhg at $4.51811e-06 | P&L: +30.6%
 - **Reasoning:** $rhg is up +30.6% and just crossed the +30% TP threshold — locking half the position secures gains while letting the other half ride if attention sustains. Pool is thin ($797) so any further upside is fragile.
 
+## [2026-09-03 13:57 UTC] sell | [TP +30% (25%)] $rhg at $4.61166e-06 | P&L: +33.3%
+- **Reasoning:** Auto take-profit at +33.3%
+
+## [2026-09-03 13:57 UTC] sell | [FULL][LLM] $rhg at $4.61166e-06 | P&L: +33.3%
+- **Reasoning:** Up +33% and already past the +30% TP threshold territory — locking in gains per scalp discipline. Bonding curve pool only $838 and we've been flat-ish at this level; no reason to give back the profit hoping for more on a low-liquidity micro-cap.
+

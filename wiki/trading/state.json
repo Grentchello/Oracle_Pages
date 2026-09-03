@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.38017,
+  "balance_sol": 0.390187,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9kDkGon8dxBi7qbDQY6BrXWLwV372JCS7XPcec9fpump": {
-      "symbol": "rhg",
-      "name": "Robin Hood ghost",
-      "amount": 220144.50867052027,
-      "entry_price_usd": 3.46e-06,
-      "entry_sol_spent": 0.0075,
-      "entry_time": "2026-09-03T13:50:35.318047+00:00",
-      "entry_usd_value": 2.0312,
-      "entry_signals": {
-        "liquidity_usd": 313.19733935288,
-        "volume_24h_usd": 313.84,
-        "market_cap_usd": 3453.8633384265595,
-        "ath_market_cap_usd": 3454.3195426194575,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.083865098,
-        "description": "Robin Hood Ghost ($RHG) is the spirit of the blockchain, stealing attention and giving the memes back to the people. 👻🏹 Born from the legend of Robin Hood and powered by ghostly internet energy, $RHG is here to haunt the charts, shake up the timeline, and build a community that refuses to stay invis",
-        "twitter": "https://x.com/gh1stsol?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -28909,25 +28886,47 @@
       "pnl_pct": 30.58,
       "exit_reason": "LLM: sell_half — $rhg is up +30.6% and just crossed the +30% TP threshold — locking half the position secures gains while letting the other half ride if attention sust",
       "partial": true
+    },
+    {
+      "mint": "9kDkGon8dxBi7qbDQY6BrXWLwV372JCS7XPcec9fpump",
+      "symbol": "rhg",
+      "name": "Robin Hood ghost",
+      "amount_sold": 55036.12716763007,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T13:50:35.318047+00:00",
+      "exit_time": "2026-09-03T13:57:13.200216+00:00",
+      "entry_price_usd": 3.46e-06,
+      "exit_price_usd": 4.611659138942327e-06,
+      "entry_sol_for_chunk": 0.001875,
+      "exit_sol_received": 0.002504,
+      "pnl_sol": 0.000629,
+      "pnl_pct": 33.28,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "9kDkGon8dxBi7qbDQY6BrXWLwV372JCS7XPcec9fpump",
+      "symbol": "rhg",
+      "name": "Robin Hood ghost",
+      "amount_sold": 165108.3815028902,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T13:50:35.318047+00:00",
+      "exit_time": "2026-09-03T13:57:29.808474+00:00",
+      "entry_price_usd": 3.46e-06,
+      "exit_price_usd": 4.611659138942327e-06,
+      "entry_sol_for_chunk": 0.005625,
+      "exit_sol_received": 0.007513,
+      "pnl_sol": 0.001888,
+      "pnl_pct": 33.28,
+      "exit_reason": "LLM: sell_all — Up +33% and already past the +30% TP threshold territory — locking in gains per scalp discipline. Bonding curve pool only $838 and we've been flat-ish",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T13:56:08.670012+00:00",
+  "last_updated": "2026-09-03T13:57:30.315890+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.5,
-  "portfolio_value_usd": 39.35,
+  "last_sol_price_usd": 101.35,
+  "portfolio_value_usd": 39.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 13:11 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $raji at $5.91159e-06 | P&L: +24.1%",
-      "reason": "+24% gain on bonding curve with $1350 pool and our 0% share means thin liquidity and weak grip. Lock the profit before it reverses — small pools rug fast both directions."
-    },
-    {
-      "time": "2026-09-03 13:24 UTC",
-      "action": "buy",
-      "details": "[LLM] $BORB at $2.844e-06, spent 0.02 SOL",
-      "reason": "$BORB has the strongest character-driven meme narrative — bird meme with personality ('fattest angriest bird'), dedicated twitter account (@borbcoinn), and 0.6min freshness. Character memes with humor pump hardest in the first hour."
-    },
     {
       "time": "2026-09-03 13:29 UTC",
       "action": "sell",
@@ -29035,40 +29034,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $rhg at $4.51811e-06 | P&L: +30.6%",
       "reason": "$rhg is up +30.6% and just crossed the +30% TP threshold — locking half the position secures gains while letting the other half ride if attention sustains. Pool is thin ($797) so any further upside is fragile."
+    },
+    {
+      "time": "2026-09-03 13:57 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $rhg at $4.61166e-06 | P&L: +33.3%",
+      "reason": "Auto take-profit at +33.3%"
+    },
+    {
+      "time": "2026-09-03 13:57 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $rhg at $4.61166e-06 | P&L: +33.3%",
+      "reason": "Up +33% and already past the +30% TP threshold territory — locking in gains per scalp discipline. Bonding curve pool only $838 and we've been flat-ish at this level; no reason to give back the profit hoping for more on a low-liquidity micro-cap."
     }
   ],
   "trade_stats": {
-    "total": 1699,
-    "wins": 869,
+    "total": 1701,
+    "wins": 871,
     "losses": 830,
-    "win_rate_pct": 51.1,
-    "total_pnl_sol": -1.944975,
-    "avg_pnl_pct": 35.49,
+    "win_rate_pct": 51.2,
+    "total_pnl_sol": -1.942458,
+    "avg_pnl_pct": 35.48,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 188,
-    "today_realized_sol": 0.047886,
-    "today_target_pct": 12.0,
+    "today_trades": 190,
+    "today_realized_sol": 0.050403,
+    "today_target_pct": 12.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 869,
+      "win_count": 871,
       "loss_count": 830,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T13:56:08.141866+00:00",
+  "last_llm_brief_at": "2026-09-03T13:57:29.808438+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "9kDkGon8dxBi7qbDQY6BrXWLwV372JCS7XPcec9fpump": {
-      "price_usd": 4.518108450088923e-06,
+      "price_usd": 4.611659138942327e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 797.1280538445,
-      "volume_h24": 843.95,
+      "liquidity_usd": 838.3319572604499,
+      "volume_h24": 1001.13,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 7.853478363
+      "real_sol_reserves": 8.271652267
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
