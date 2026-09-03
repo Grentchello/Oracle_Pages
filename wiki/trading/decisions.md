@@ -13651,3 +13651,6 @@
 ## [2026-09-03 16:31 UTC] sell | [PARTIAL][LLM] $rusty at $9.05166e-06 | P&L: +45.1%
 - **Reasoning:** +45% is well past the +30% auto-TP trigger; pool is tiny ($2385) and our share is 0% on bonding curve which means no real exit liquidity. Lock half now, let the rest ride if attention keeps building, but don't trust a bonding-curve token at <$3k liquidity to hold value.
 
+## [2026-09-03 16:32 UTC] sell | [PARTIAL][LLM] $rusty at $8.04517e-06 | P&L: +28.9%
+- **Reasoning:** Up +28.9% in <1h is decent but not yet at TP thresholds. Take partial profits to lock in gains — bonding-curve tokens often dump hard once momentum fades, and the pool is thin ($2069). Selling half secures ~+0.0014 SOL while letting the rest ride if it breaks higher.
+
