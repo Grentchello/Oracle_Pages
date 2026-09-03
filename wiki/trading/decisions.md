@@ -12595,3 +12595,6 @@
 ## [2026-09-03 01:52 UTC] buy | [LLM] $SquadGames at $3.35274e-06, spent 0.02 SOL
 - **Reasoning:** $SquadGames — PumpFun meta-narrative ('Squads coming to PumpFun, let games begin'), real X account (@netvyxe), clear story targeting PumpFun traders. Meta-gaming the platform itself is viral fuel. Risk: bond only 8%, very early.
 
+## [2026-09-03 01:56 UTC] sell | [FULL][LLM] $SquadGames at $3.46284e-06 | P&L: +3.3%
+- **Reasoning:** +3.3% in 6 min on a $335 pool (barely clears the 5x liquidity rule). No real momentum signal yet and bonding-curve phase means thin exit depth. Rotating capital to a stronger attention candidate per 'capital rotation beats bag-holding.'
+
