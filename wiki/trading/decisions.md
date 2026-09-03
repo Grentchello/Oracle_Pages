@@ -12901,3 +12901,12 @@
 ## [2026-09-03 06:32 UTC] sell | [PARTIAL][LLM] $rigbycat at $5.68406e-06 | P&L: +76.5%
 - **Reasoning:** rigbycat at +76.5% in 6min is a screaming winner — take half off the table and lock in gains. The other half is a free runner; if it keeps pumping, ride it, if it stalls, we already banked the +76%.
 
+## [2026-09-03 06:34 UTC] sell | [TP +30% (25%)] $rigbycat at $6.27346e-06 | P&L: +94.8%
+- **Reasoning:** Auto take-profit at +94.8%
+
+## [2026-09-03 06:34 UTC] sell | [FULL][LLM] $Kattakun  at $3.06772e-06 | P&L: +1.2%
+- **Reasoning:** $Kattakun is +1.2% after 0.1h with only $130 pool liquidity — well below 5x position size rule, basically a dead cat on bonding curve. Flat for 6+ minutes is a yellow flag; with pool this thin, any exit attempt will eat the gain. Cut it free and rotate capital.
+
+## [2026-09-03 06:34 UTC] sell | [PARTIAL][LLM] $rigbycat at $6.27346e-06 | P&L: +94.8%
+- **Reasoning:** $rigbycat +94.8% in 0.1h is a strong pump but not yet at +100% TP auto-trigger. Lock half the bag at ~2x, let the runner ride free with house money. Pool $1487 is thin though — half-exit now reduces exposure to rug/illiquidity on the way back down.
+
