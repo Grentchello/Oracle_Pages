@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.338697,
+  "balance_sol": 0.354047,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CUQbija5uxMe9efTt8BipqQZUdV7bgyTjNJ6AST4pump": {
-      "symbol": "Fenixxx",
-      "name": "FenixxxSolana",
-      "amount": 488649.1513601488,
-      "entry_price_usd": 4.301e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T17:38:00.043110+00:00",
-      "entry_usd_value": 2.10168,
-      "entry_signals": {
-        "liquidity_usd": 74.726400093408,
-        "volume_24h_usd": 663.08,
-        "market_cap_usd": 3180.2264899293955,
-        "ath_market_cap_usd": 4302.84871414628,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.711111112,
-        "description": "Si $Fenixxx llega a 1M libero el bot en github para todos!  Si no llega a 1M o no quieres esperar, por 500$ de $Fenixxx lo podras comprar. $Fenixxx sera el token de la comunidad con el que podras acceder a lanzamientos, herramientas gratuitas e informacion importante. ",
-        "twitter": "https://x.com/fenixxxsolana",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30065,19 +30042,30 @@
       "pnl_pct": 65.01,
       "exit_reason": "LLM: sell_all — Up +65% past the +50% TP tier and0% pool share suggests we're not in the inner circle. Take the gain, rotate to fresh attention.",
       "partial": false
+    },
+    {
+      "mint": "CUQbija5uxMe9efTt8BipqQZUdV7bgyTjNJ6AST4pump",
+      "symbol": "Fenixxx",
+      "name": "FenixxxSolana",
+      "amount_sold": 488649.1513601488,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T17:38:00.043110+00:00",
+      "exit_time": "2026-09-03T17:39:35.843405+00:00",
+      "entry_price_usd": 4.301e-06,
+      "exit_price_usd": 3.2985329383973716e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.01535,
+      "pnl_sol": -0.00465,
+      "pnl_pct": -23.31,
+      "exit_reason": "LLM: sell_all — Down -23.3% and only 0.0h held — close to -30% hard stop. No bounce signal, on bonding curve with thin $189 pool. Cut the loss now before the hard sto",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T17:38:00.043369+00:00",
+  "last_updated": "2026-09-03T17:39:36.357246+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.084,
-  "portfolio_value_usd": 37.69,
+  "last_sol_price_usd": 105.0016,
+  "portfolio_value_usd": 37.18,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 16:40 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-03 16:42 UTC",
       "action": "buy",
@@ -30191,40 +30179,46 @@
       "action": "buy",
       "details": "[LLM] $Fenixxx at $4.301e-06, spent 0.02 SOL",
       "reason": "$Fenixxx has a clear dev-incentive narrative (bot release at 1M mcap), Twitter presence, and Spanish-language memecoin community attention. Sub-$4k mcap with 4% bonding curve = early entry."
+    },
+    {
+      "time": "2026-09-03 17:39 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Fenixxx at $3.29853e-06 | P&L: -23.3%",
+      "reason": "Down -23.3% and only 0.0h held — close to -30% hard stop. No bounce signal, on bonding curve with thin $189 pool. Cut the loss now before the hard stop hits, freeing the slot for a fresher attention play."
     }
   ],
   "trade_stats": {
-    "total": 1767,
+    "total": 1768,
     "wins": 909,
-    "losses": 858,
+    "losses": 859,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.973949,
-    "avg_pnl_pct": 35.0,
+    "total_pnl_sol": -1.978599,
+    "avg_pnl_pct": 34.97,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 256,
-    "today_realized_sol": 0.018912,
-    "today_target_pct": 4.7,
+    "today_trades": 257,
+    "today_realized_sol": 0.014262,
+    "today_target_pct": 3.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 909,
-      "loss_count": 858,
+      "loss_count": 859,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T17:37:58.618133+00:00",
+  "last_llm_brief_at": "2026-09-03T17:39:35.843351+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "H3S11Trk55Hq1fUhtkmX3UJsiwKS2CGPwmb9gqeApump": {
-      "price_usd": 3.333284309348595e-05,
+    "CUQbija5uxMe9efTt8BipqQZUdV7bgyTjNJ6AST4pump": {
+      "price_usd": 3.2985329383973716e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 7466.023879823124,
-      "volume_h24": 52199.72,
+      "liquidity_usd": 188.97076232059518,
+      "volume_h24": 1574.5,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 71.048150811
+      "real_sol_reserves": 1.799694122
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
