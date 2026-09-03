@@ -12988,3 +12988,6 @@
 ## [2026-09-03 07:24 UTC] sell | [PARTIAL][LLM] $M2BCooT at $4.10475e-06 | P&L: +22.7%
 - **Reasoning:** $M2BCooT is up +22.7% but held only 0.1h and pool liquidity is thin ($622). Per scalp discipline: up >20% with any doubt = lock gains. Selling half secures profit while letting runner ride toward +30% TP or higher.
 
+## [2026-09-03 07:25 UTC] sell | [FULL][LLM] $M2BCooT at $3.24306e-06 | P&L: -3.1%
+- **Reasoning:** Down -3.1% in 6 min on $218 pool (extremely thin), no clear bounce signal, and the bonding-curve token has 0% share — this is dead weight better recycled. Cut and free the slot.
+

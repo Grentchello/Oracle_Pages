@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.368091,
+  "balance_sol": 0.372943,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4qiCFVFyJe25FDL3vB6MDdduGJFvpBUaSYHPHCyapump": {
-      "symbol": "M2BCooT",
-      "name": "Mars 2 Bandicoot",
-      "amount": 151035.56485355648,
-      "entry_price_usd": 3.346e-06,
-      "entry_sol_spent": 0.005,
-      "entry_time": "2026-09-03T07:17:16.675819+00:00",
-      "entry_usd_value": 2.02146,
-      "entry_signals": {
-        "liquidity_usd": 489.4485297292919,
-        "volume_24h_usd": 1601.39,
-        "market_cap_usd": 3791.040826311536,
-        "ath_market_cap_usd": 4705.042636988881,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.842525004,
-        "description": "Browser native racing on @solana. Mars has roads now. Race them with $M2BCooT",
-        "twitter": "https://x.com/m2bandicoot/status/2095410200719282385?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -27413,19 +27390,30 @@
       "pnl_pct": 22.68,
       "exit_reason": "LLM: sell_half — $M2BCooT is up +22.7% but held only 0.1h and pool liquidity is thin ($622). Per scalp discipline: up >20% with any doubt = lock gains. Selling half se",
       "partial": true
+    },
+    {
+      "mint": "4qiCFVFyJe25FDL3vB6MDdduGJFvpBUaSYHPHCyapump",
+      "symbol": "M2BCooT",
+      "name": "Mars 2 Bandicoot",
+      "amount_sold": 151035.56485355648,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T07:17:16.675819+00:00",
+      "exit_time": "2026-09-03T07:25:38.803631+00:00",
+      "entry_price_usd": 3.346e-06,
+      "exit_price_usd": 3.2430613343627186e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.004852,
+      "pnl_sol": -0.000148,
+      "pnl_pct": -3.08,
+      "exit_reason": "LLM: sell_all — Down -3.1% in 6 min on $218 pool (extremely thin), no clear bounce signal, and the bonding-curve token has 0% share — this is dead weight better recyc",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T07:24:06.836531+00:00",
+  "last_updated": "2026-09-03T07:25:39.063303+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.1,
-  "portfolio_value_usd": 37.72,
+  "last_sol_price_usd": 100.95,
+  "portfolio_value_usd": 37.65,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 06:55 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $shg at $2.82282e-06 | P&L: -26.3%",
-      "reason": "Down -26.3% and at the hard stop threshold (our share=81% on a thin $2 pool is dangerously illiquid). Capital is locked in a dead token; better to free the slot for fresh attention."
-    },
     {
       "time": "2026-09-03 06:57 UTC",
       "action": "sell",
@@ -27539,40 +27527,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $M2BCooT at $4.10475e-06 | P&L: +22.7%",
       "reason": "$M2BCooT is up +22.7% but held only 0.1h and pool liquidity is thin ($622). Per scalp discipline: up >20% with any doubt = lock gains. Selling half secures profit while letting runner ride toward +30% TP or higher."
+    },
+    {
+      "time": "2026-09-03 07:25 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $M2BCooT at $3.24306e-06 | P&L: -3.1%",
+      "reason": "Down -3.1% in 6 min on $218 pool (extremely thin), no clear bounce signal, and the bonding-curve token has 0% share — this is dead weight better recycled. Cut and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 1611,
+    "total": 1612,
     "wins": 812,
-    "losses": 799,
+    "losses": 800,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.959555,
-    "avg_pnl_pct": 35.66,
+    "total_pnl_sol": -1.959703,
+    "avg_pnl_pct": 35.64,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 100,
-    "today_realized_sol": 0.033306,
+    "today_trades": 101,
+    "today_realized_sol": 0.033158,
     "today_target_pct": 8.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 812,
-      "loss_count": 799,
+      "loss_count": 800,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T07:24:06.582212+00:00",
+  "last_llm_brief_at": "2026-09-03T07:25:38.803596+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4qiCFVFyJe25FDL3vB6MDdduGJFvpBUaSYHPHCyapump": {
-      "price_usd": 4.104753608542351e-06,
+      "price_usd": 3.2430613343627186e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 621.9346238613,
-      "volume_h24": 4598.13,
+      "liquidity_usd": 217.81928329635002,
+      "volume_h24": 4704.59,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 6.151677783
+      "real_sol_reserves": 2.157694733
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
