@@ -13123,3 +13123,6 @@
 ## [2026-09-03 10:59 UTC] buy | [LLM] $RISE at $4.95e-06, spent 0.02 SOL
 - **Reasoning:** $RISE is the only candidate passing the viability gate (desc=120 chars + twitter present). The airdrop-to-top-holders mechanic creates a self-reinforcing attention loop — holders have incentive to shill. mcap $5k with 21% bonding curve progress is the sweet spot: early but not zero traction. Risk: 0.6min old means no price history to confirm — but that's the alpha window the rules demand we play in.
 
+## [2026-09-03 11:00 UTC] buy | [LLM] $MICROWAVE at $6.63521e-06, spent 0.02 SOL
+- **Reasoning:** MICROWAVE has the strongest attention signal of the batch — viral @AIHegemonyMemes twitter post, edgy 'directed energy weapon' narrative that's politically spicy, mcap only $6.6k (massive room), passes viability (desc >50 chars + twitter). Memecoin attention plays reward the spicy, narrative-driven names — this fits.
+
