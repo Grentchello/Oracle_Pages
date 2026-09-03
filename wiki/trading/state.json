@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.383783,
+  "balance_sol": 0.388102,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "66kks9vCtzAtmMa9ppyYhxvHVM6mXTLTeKGHD9qUpump": {
-      "symbol": "RISE",
-      "name": "RISE",
-      "amount": 56207.1591774562,
-      "entry_price_usd": 5.252e-06,
-      "entry_sol_spent": 0.0028125,
-      "entry_time": "2026-09-03T20:59:06.521178+00:00",
-      "entry_usd_value": 2.0991999999999997,
-      "entry_signals": {
-        "liquidity_usd": 1062.43889990656,
-        "volume_24h_usd": 1063.24,
-        "market_cap_usd": 5243.894010042811,
-        "ath_market_cap_usd": 5261.673576765324,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 10.122321836,
-        "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. GL. ",
-        "twitter": "https://x.com/_rise",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -31119,25 +31096,47 @@
       "pnl_pct": 38.69,
       "exit_reason": "LLM: sell_half — Up +38.7% with TP threshold triggered — taking half off locks in gains while leaving runner. Pool is only $1812 (thin), so selling too much at once ri",
       "partial": true
+    },
+    {
+      "mint": "66kks9vCtzAtmMa9ppyYhxvHVM6mXTLTeKGHD9qUpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 14051.78979436405,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T20:59:06.521178+00:00",
+      "exit_time": "2026-09-03T21:02:55.269609+00:00",
+      "entry_price_usd": 5.252e-06,
+      "exit_price_usd": 8.064936129460795e-06,
+      "entry_sol_for_chunk": 0.000703,
+      "exit_sol_received": 0.00108,
+      "pnl_sol": 0.000377,
+      "pnl_pct": 53.56,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "66kks9vCtzAtmMa9ppyYhxvHVM6mXTLTeKGHD9qUpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 42155.36938309215,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T20:59:06.521178+00:00",
+      "exit_time": "2026-09-03T21:03:15.938132+00:00",
+      "entry_price_usd": 5.252e-06,
+      "exit_price_usd": 8.064936129460795e-06,
+      "entry_sol_for_chunk": 0.002109,
+      "exit_sol_received": 0.003239,
+      "pnl_sol": 0.00113,
+      "pnl_pct": 53.56,
+      "exit_reason": "LLM: sell_all — Up +53.6% in 6 minutes on a $2k pool — classic peak pump on thin liquidity, my share is 0% so no incentive to hold. Take profit now before it reverses",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T21:01:51.854468+00:00",
+  "last_updated": "2026-09-03T21:03:16.191493+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.92,
-  "portfolio_value_usd": 40.56,
+  "last_sol_price_usd": 104.96,
+  "portfolio_value_usd": 40.74,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 20:41 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Intern at $4.566e-05 | P&L: +115.7%",
-      "reason": "Up 115.7% and still pumping (424 buys vs 196 sells m5, +1286% m5). Per the +100% TP rule I should lock gains; selling half banks profit while letting the runner ride."
-    },
-    {
-      "time": "2026-09-03 20:42 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $Intern at $4.063e-05 | P&L: +91.9%",
-      "reason": "Auto take-profit at +91.9%"
-    },
     {
       "time": "2026-09-03 20:43 UTC",
       "action": "sell",
@@ -31245,40 +31244,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $RISE at $7.2839e-06 | P&L: +38.7%",
       "reason": "Up +38.7% with TP threshold triggered — taking half off locks in gains while leaving runner. Pool is only $1812 (thin), so selling too much at once risks slippage. Lock the gain now per scalp discipline; the other half is a free option on continued attention."
+    },
+    {
+      "time": "2026-09-03 21:02 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $RISE at $8.06494e-06 | P&L: +53.6%",
+      "reason": "Auto take-profit at +53.6%"
+    },
+    {
+      "time": "2026-09-03 21:03 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RISE at $8.06494e-06 | P&L: +53.6%",
+      "reason": "Up +53.6% in 6 minutes on a $2k pool — classic peak pump on thin liquidity, my share is 0% so no incentive to hold. Take profit now before it reverses. Pool is too fragile to trust for continuation."
     }
   ],
   "trade_stats": {
-    "total": 1829,
-    "wins": 944,
+    "total": 1831,
+    "wins": 946,
     "losses": 885,
-    "win_rate_pct": 51.6,
-    "total_pnl_sol": -1.946051,
-    "avg_pnl_pct": 34.97,
+    "win_rate_pct": 51.7,
+    "total_pnl_sol": -1.944544,
+    "avg_pnl_pct": 34.99,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 318,
-    "today_realized_sol": 0.04681,
-    "today_target_pct": 11.7,
+    "today_trades": 320,
+    "today_realized_sol": 0.048317,
+    "today_target_pct": 12.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 944,
+      "win_count": 946,
       "loss_count": 885,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T21:01:51.598219+00:00",
+  "last_llm_brief_at": "2026-09-03T21:03:15.938096+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "66kks9vCtzAtmMa9ppyYhxvHVM6mXTLTeKGHD9qUpump": {
-      "price_usd": 7.283901120072941e-06,
+      "price_usd": 8.064936129460795e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1812.28549247652,
-      "volume_h24": 2013.69,
+      "liquidity_usd": 2071.2283975244795,
+      "volume_h24": 2275.32,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 17.273022231
+      "real_sol_reserves": 19.733502263
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

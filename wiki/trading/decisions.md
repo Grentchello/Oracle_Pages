@@ -14044,3 +14044,9 @@
 ## [2026-09-03 21:01 UTC] sell | [PARTIAL][LLM] $RISE at $7.2839e-06 | P&L: +38.7%
 - **Reasoning:** Up +38.7% with TP threshold triggered — taking half off locks in gains while leaving runner. Pool is only $1812 (thin), so selling too much at once risks slippage. Lock the gain now per scalp discipline; the other half is a free option on continued attention.
 
+## [2026-09-03 21:02 UTC] sell | [TP +30% (25%)] $RISE at $8.06494e-06 | P&L: +53.6%
+- **Reasoning:** Auto take-profit at +53.6%
+
+## [2026-09-03 21:03 UTC] sell | [FULL][LLM] $RISE at $8.06494e-06 | P&L: +53.6%
+- **Reasoning:** Up +53.6% in 6 minutes on a $2k pool — classic peak pump on thin liquidity, my share is 0% so no incentive to hold. Take profit now before it reverses. Pool is too fragile to trust for continuation.
+
