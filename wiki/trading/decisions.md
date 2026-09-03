@@ -14203,3 +14203,6 @@
 ## [2026-09-03 23:09 UTC] buy | [LLM] $toast at $3.106e-06, spent 0.02 SOL
 - **Reasoning:** Toast Malone = Post Malone parody with real linked twitter to Post Malone (35M+ followers). Funny, memeable name ('Circles to Cereals'), $3.1k mcap, narrative has viral potential for 5-10x in first hour.
 
+## [2026-09-03 23:12 UTC] sell | [FULL][LLM] $toast at $3.13504e-06 | P&L: +0.9%
+- **Reasoning:** $toast is flat (+0.9%) after entry, small mcap, no clear catalyst — capital is better rotated into the fresh attention candidates below.
+
