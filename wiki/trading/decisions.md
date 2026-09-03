@@ -13492,3 +13492,6 @@
 ## [2026-09-03 14:45 UTC] sell | [FULL][LLM] $KAMA at $9.83651e-06 | P&L: +172.7%
 - **Reasoning:** KAMA at +172.7% has cleared the +100% TP tier. Bot already auto-took some profit at thresholds; the remainder is at peak territory on a thin bonding curve (pool $2621). Lock the gain before it mean-reverts. Position size is tiny so taking profit is better than hoping for another leg up.
 
+## [2026-09-03 14:49 UTC] buy | [LLM] $$HOUSE at $3.471e-06, spent 0.02 SOL
+- **Reasoning:** $$HOUSE is the only candidate that passes the viability gate (description >>50 chars with a real emotional narrative — father's son's drawing vs lambo/dubai meme) AND the fragility gate (no celebrity/political keywords). Wholesome kid-drawing story has clear viral share potential on X. Risk: bond only 8% (low conviction), mcap $3.4k is fragile — but that's where memecoin attention alpha lives. Sizing 0.1 SOL with -30% hard stop enforced.
+

@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.417107,
+  "balance_sol": 0.397107,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "AZsX6t4PpDKHUvUHbtWfRbvp9C4MmzRfzHQTrki4pump": {
+      "symbol": "$HOUSE",
+      "name": "My son's drawing",
+      "amount": 593978.6804955344,
+      "entry_price_usd": 3.471e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T14:49:36.864759+00:00",
+      "entry_usd_value": 2.0617,
+      "entry_signals": {
+        "liquidity_usd": 312.1551377241,
+        "volume_24h_usd": 1151.71,
+        "market_cap_usd": 3446.2126399877507,
+        "ath_market_cap_usd": 4101.012985797245,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 3.02813346,
+        "description": "Most devs launch tokens to buy a Lamborghini or a mansion in Dubai. I'm launching my son's real-life drawing to do something way bigger: escape the rent trap and finally buy our first family house. He drew us smiling because he knows Solana is going to give us our own backyard to play. No rugs, no p",
+        "twitter": "https://x.com/MySonsHouseSol",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -29228,17 +29251,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-03T14:47:57.598509+00:00",
+  "last_updated": "2026-09-03T14:49:36.865056+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.0081,
-  "portfolio_value_usd": 42.97,
+  "last_sol_price_usd": 103.085,
+  "portfolio_value_usd": 43.0,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 14:15 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Horseman at $2.84147e-06 | P&L: -0.8%",
-      "reason": "$Horseman is down -0.8% at held 0.0h on a bonding-curve token with no pool (pool=$0 means no real liquidity yet). A 495146731% ownership share means we essentially own the entire supply — that's structural illiquidity, not a win condition. Cut it loose and free the slot for a fresh launch with more upside."
-    },
     {
       "time": "2026-09-03 14:15 UTC",
       "action": "buy",
@@ -29352,6 +29369,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $KAMA at $9.83651e-06 | P&L: +172.7%",
       "reason": "KAMA at +172.7% has cleared the +100% TP tier. Bot already auto-took some profit at thresholds; the remainder is at peak territory on a thin bonding curve (pool $2621). Lock the gain before it mean-reverts. Position size is tiny so taking profit is better than hoping for another leg up."
+    },
+    {
+      "time": "2026-09-03 14:49 UTC",
+      "action": "buy",
+      "details": "[LLM] $$HOUSE at $3.471e-06, spent 0.02 SOL",
+      "reason": "$$HOUSE is the only candidate that passes the viability gate (description >>50 chars with a real emotional narrative — father's son's drawing vs lambo/dubai meme) AND the fragility gate (no celebrity/political keywords). Wholesome kid-drawing story has clear viral share potential on X. Risk: bond only 8% (low conviction), mcap $3.4k is fragile — but that's where memecoin attention alpha lives. Sizing 0.1 SOL with -30% hard stop enforced."
     }
   ],
   "trade_stats": {
@@ -29373,7 +29396,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T14:47:57.082752+00:00",
+  "last_llm_brief_at": "2026-09-03T14:49:35.258465+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
