@@ -12583,3 +12583,6 @@
 ## [2026-09-03 01:30 UTC] sell | [PARTIAL][LLM] $STRAYDOG at $2.80728e-06 | P&L: -5.7%
 - **Reasoning:** 61% pool share in a $3 pool is a trap — we're exit liquidity for whoever's left. Small -5.7% loss is better than getting stuck as the only buyer when this dies. Freeing the slot is worth more than hope.
 
+## [2026-09-03 01:31 UTC] sell | [PARTIAL][LLM] $STRAYDOG at $2.81034e-06 | P&L: -5.6%
+- **Reasoning:** Our 41% share of a $2 pool is a rug waiting to happen — we ARE the liquidity and any other seller crashes our price. -5.6% with held<15min, but the position sizing itself is the risk. Exiting to free capital for fresh alpha.
+
