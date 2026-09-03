@@ -13099,3 +13099,12 @@
 ## [2026-09-03 10:40 UTC] buy | [LLM] $ASTRO at $2.996e-06, spent 0.02 SOL
 - **Reasoning:** $ASTRO (AstroBuddy) — has a comeback narrative (rugpull victim rescue), dedicated token twitter account, decent $3k mcap with active story. Best narrative in the slate.
 
+## [2026-09-03 10:42 UTC] sell | [FULL][LLM] $ben at $2.81492e-06 | P&L: -16.0%
+- **Reasoning:** $ben is down -16% in 0.1h with thin $11 pool and we hold 15% — exiting before -30% hard stop and freeing the slot for fresh attention.
+
+## [2026-09-03 10:42 UTC] sell | [FULL][LLM] $ASTRO at $2.94276e-06 | P&L: -1.8%
+- **Reasoning:** $ASTRO is flat (-1.8%) after just entering — no momentum signal, freeing capital for the multiple new launches with stronger narratives.
+
+## [2026-09-03 10:43 UTC] buy | [LLM] $WOLF at $5.492e-06, spent 0.02 SOL
+- **Reasoning:** $WOLF has a clear narrative (dev publicly committing to buy until bonding completes = guaranteed buy pressure), twitter attached, mcap $2.8k. This is a textbook attention setup with built-in dev bid.
+
