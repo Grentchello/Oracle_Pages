@@ -13861,3 +13861,6 @@
 ## [2026-09-03 19:17 UTC] sell | [FULL][LLM] $gc at $2.93989e-06 | P&L: -22.2%
 - **Reasoning:** -22.2% past my -20% loser-exit rule, no bounce signal in 6 minutes, pool is $0 — this is dead. Cut and free the slot.
 
+## [2026-09-03 19:20 UTC] sell | [FULL][LLM] $ZEROCOOL at $7.5305e-06 | P&L: -3.8%
+- **Reasoning:** Down 3.8% in 6 min with only $1893 pool (well below 5x position rule). Thin liquidity means any further move against me turns into a -30% fast. Free the slot for a better attention narrative.
+
