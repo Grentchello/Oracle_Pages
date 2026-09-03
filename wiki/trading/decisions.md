@@ -14143,3 +14143,6 @@
 ## [2026-09-03 22:04 UTC] sell | [FULL][LLM] $Coco at $3.26792e-06 | P&L: +0.3%
 - **Reasoning:** $Coco is +0.3% — essentially flat. Pool $174 is dangerously thin, 1% share is a liquidity liability. Stale capital. Exit and redeploy into fresher attention.
 
+## [2026-09-03 22:13 UTC] buy | [LLM] $SOLDINO at $3.698e-06, spent 0.02 SOL
+- **Reasoning:** $SOLDINO — Chrome offline dino is universally nostalgic IP, has a live playable game (rare for memecoins — gives organic content/replay value), passes viability gate (description + twitter). Lower bond % at 7% but the game utility + meme nostalgia combo is a strong narrative for sustained attention.
+
