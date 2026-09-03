@@ -13363,3 +13363,6 @@
 ## [2026-09-03 13:33 UTC] buy | [LLM] $SoFiUSD at $4.20089e-06, spent 0.02 SOL
 - **Reasoning:** $SoFiUSD ties to real Kraken/SoFi settlement news via CoinDesk — genuine corporate catalyst (not pure meme). Lowest mcap of the legit-narrative batch at $4.2k, just launched. Risk: thin liquidity, but the news hook gives it a reason to pump beyond pure attention arbitrage.
 
+## [2026-09-03 13:35 UTC] sell | [FULL][LLM] $SoFiUSD at $3.03495e-06 | P&L: -27.8%
+- **Reasoning:** Down 27.8% and approaching the -30% hard stop. Pool is only $104 and our share is 1% — illiquid and weak bounce prospects. Cut the loss now rather than wait for the auto-stop.
+
