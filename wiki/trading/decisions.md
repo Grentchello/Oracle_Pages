@@ -13390,3 +13390,12 @@
 ## [2026-09-03 13:49 UTC] sell | [PARTIAL][LLM] $billions at $1.08517e-05 | P&L: +174.9%
 - **Reasoning:** Up +174% in 0.2h but still on bonding-curve with only $2.9k pool — dangerously thin liquidity to exit. Lock half the gain (87% on that half) and let the rest ride if narrative holds. Selling all risks slippage eating the profit on this micro-pool.
 
+## [2026-09-03 13:50 UTC] sell | [TP +500% (full)] $billions at $1.64263e-05 | P&L: +316.1%
+- **Reasoning:** Auto take-profit at +316.1%
+
+## [2026-09-03 13:50 UTC] buy | [LLM] $rhg at $3.46e-06, spent 0.02 SOL
+- **Reasoning:** $rhg — 'Robin Hood Ghost' has a clear narrative (stealing attention, giving memes back), real twitter @gh1stsol, desc passes viability gate (90 chars), and mcap $3.4k is prime for a 5-10x attention pump. Best narrative of the batch.
+
+## [2026-09-03 13:50 UTC] buy | [LLM] $TPT at $4.72612e-06, spent 0.02 SOL
+- **Reasoning:** $TPT — Pumpfun 'trade replays' killcam feature is timely meta-narrative (ties directly to where traders already live), twitter @6Foot4Honda attached, desc passes gate. Low bond (2%) means fresh entry — high upside if narrative catches.
+
