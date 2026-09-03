@@ -13063,3 +13063,6 @@
 ## [2026-09-03 09:58 UTC] buy | [LLM] $Bon at $4.141e-06, spent 0.02 SOL
 - **Reasoning:** $Bon — narrative piggybacks on Bonk (BON), the OG Solana dog memecoin. Strong viral brand recall, decent liquidity at $3.9k mcap, fresh launch. The narrative is intact and 'Be like Bon' is a recognizable attention hook.
 
+## [2026-09-03 10:00 UTC] sell | [FULL][LLM] $Bon at $3.17702e-06 | P&L: -23.3%
+- **Reasoning:** $Bon is at -23.3%, held 0h on a thin $196 pool with only 1% share. Down >20% with no bounce signal - per discipline, exit fast before this becomes -30%. Lock the loss, free the slot.
+
