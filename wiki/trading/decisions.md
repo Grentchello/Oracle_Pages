@@ -12949,3 +12949,9 @@
 ## [2026-09-03 07:00 UTC] buy | [LLM] $TONK at $8.516e-06, spent 0.02 SOL
 - **Reasoning:** $TONK at $6k mcap with a cat-meme Reddit cross-post to X — that web3x Reddit-to-twitter pipeline is a real viral attention signal. Bond 24%, fresh, narrative is clear (cat meme). 0.05 SOL.
 
+## [2026-09-03 07:01 UTC] sell | [hard-stop] $TONK closed at $4.10835e-06 | P&L: -51.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 07:01 UTC] sell | [FULL][LLM] $SOLDEAD at $2.82022e-06 | P&L: -3.6%
+- **Reasoning:** Position is flat (-3.6%) on a bonding-curve token with $0 pool liquidity and our share 91100731% — this is essentially illiquid with massive supply overhang. No narrative here, just dead weight. Cut and free the slot.
+

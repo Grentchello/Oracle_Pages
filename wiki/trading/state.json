@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.36043,
+  "balance_sol": 0.375547,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HSZreun1LU11eRbEdXCGLpf23tH2j6mhmeWDjzmzpump": {
-      "symbol": "SOLDEAD",
-      "name": "SolDead",
-      "amount": 195502.16784220847,
-      "entry_price_usd": 2.926e-06,
-      "entry_sol_spent": 0.005673867715793513,
-      "entry_time": "2026-09-03T06:59:07.329804+00:00",
-      "entry_usd_value": 2.0164,
-      "entry_signals": {
-        "liquidity_usd": 57.01784120031999,
-        "volume_24h_usd": 67.24,
-        "market_cap_usd": 2926.6195051834466,
-        "ath_market_cap_usd": 2936.275630432737,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.565540976,
-        "description": "Everyone said Solana was unstoppable. Then Robinhood Chain entered the arena. SOLDEAD is the meme for the narrative that crypto attention is moving on. 🪦⚰️",
-        "twitter": "https://x.com/SolDeadCoin",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "CMySdiLhuoudziDTs5178XMJUM1ak6XefeJtfTvpump": {
-      "symbol": "TONK",
-      "name": "tonk",
-      "amount": 236965.71160169097,
-      "entry_price_usd": 8.516e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T07:00:28.936061+00:00",
-      "entry_usd_value": 2.0180000000000002,
-      "entry_signals": {
-        "liquidity_usd": 2099.7886721591003,
-        "volume_24h_usd": 8320.23,
-        "market_cap_usd": 5968.410666567201,
-        "ath_market_cap_usd": 9270.817129249735,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 20.810591399,
-        "description": "https://www.reddit.com/r/cats/comments/1w5r22w/comment/p7hdfsw/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button Launched on discord.gg/uxento",
-        "twitter": "https://x.com/milerozu/status/2095406229170356284",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -27299,25 +27254,47 @@
       "pnl_pct": -3.45,
       "exit_reason": "LLM: sell_all — Down -3.4% at 0.0h held on a 1m-old token with 88% supply ownership (extreme fragility — ME2F pattern). Bonding curve, no volume confirmation, and a h",
       "partial": true
+    },
+    {
+      "mint": "CMySdiLhuoudziDTs5178XMJUM1ak6XefeJtfTvpump",
+      "symbol": "TONK",
+      "name": "tonk",
+      "amount_sold": 236965.71160169097,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T07:00:28.936061+00:00",
+      "exit_time": "2026-09-03T07:01:33.025462+00:00",
+      "entry_price_usd": 8.516e-06,
+      "exit_price_usd": 4.10835295141508e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.009651,
+      "pnl_sol": -0.010349,
+      "pnl_pct": -51.76,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "HSZreun1LU11eRbEdXCGLpf23tH2j6mhmeWDjzmzpump",
+      "symbol": "SOLDEAD",
+      "name": "SolDead",
+      "amount_sold": 195502.1141922085,
+      "fraction_sold": 0.9999997255784907,
+      "entry_time": "2026-09-03T06:59:07.329804+00:00",
+      "exit_time": "2026-09-03T07:01:57.312762+00:00",
+      "entry_price_usd": 2.926e-06,
+      "exit_price_usd": 2.820223672511855e-06,
+      "entry_sol_for_chunk": 0.005674,
+      "exit_sol_received": 0.005466,
+      "pnl_sol": -0.000208,
+      "pnl_pct": -3.62,
+      "exit_reason": "LLM: sell_all — Position is flat (-3.6%) on a bonding-curve token with $0 pool liquidity and our share 91100731% — this is essentially illiquid with massive supply ov",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T07:00:28.936319+00:00",
+  "last_updated": "2026-09-03T07:01:57.858938+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.9,
-  "portfolio_value_usd": 38.96,
+  "last_sol_price_usd": 100.87,
+  "portfolio_value_usd": 37.88,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 06:31 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $rigbycat at $5.06413e-06 | P&L: +57.3%",
-      "reason": "Auto take-profit at +57.3%"
-    },
-    {
-      "time": "2026-09-03 06:31 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $rigbycat at $5.06413e-06 | P&L: +57.3%",
-      "reason": "$rigbycat is +57.3%, well past the +25% TP1 zone. Bonding-curve tokens at this mcap routinely give back gains — locking half protects +28%+ while letting the rest ride if narrative continues."
-    },
     {
       "time": "2026-09-03 06:32 UTC",
       "action": "sell",
@@ -27425,40 +27402,63 @@
       "action": "buy",
       "details": "[LLM] $TONK at $8.516e-06, spent 0.02 SOL",
       "reason": "$TONK at $6k mcap with a cat-meme Reddit cross-post to X — that web3x Reddit-to-twitter pipeline is a real viral attention signal. Bond 24%, fresh, narrative is clear (cat meme). 0.05 SOL."
+    },
+    {
+      "time": "2026-09-03 07:01 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $TONK closed at $4.10835e-06 | P&L: -51.8%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-03 07:01 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SOLDEAD at $2.82022e-06 | P&L: -3.6%",
+      "reason": "Position is flat (-3.6%) on a bonding-curve token with $0 pool liquidity and our share 91100731% — this is essentially illiquid with massive supply overhang. No narrative here, just dead weight. Cut and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 1603,
+    "total": 1605,
     "wins": 809,
-    "losses": 794,
-    "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.946542,
-    "avg_pnl_pct": 35.86,
+    "losses": 796,
+    "win_rate_pct": 50.4,
+    "total_pnl_sol": -1.957099,
+    "avg_pnl_pct": 35.78,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 92,
-    "today_realized_sol": 0.046319,
-    "today_target_pct": 11.6,
+    "today_trades": 94,
+    "today_realized_sol": 0.035762,
+    "today_target_pct": 8.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 809,
-      "loss_count": 794,
+      "loss_count": 796,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T07:00:27.499702+00:00",
+  "last_llm_brief_at": "2026-09-03T07:01:57.312667+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "HSZreun1LU11eRbEdXCGLpf23tH2j6mhmeWDjzmzpump": {
-      "price_usd": 2.8251819622828426e-06,
+      "price_usd": 2.820223672511855e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.2093167927,
-      "volume_h24": 67.24,
+      "liquidity_usd": 6.052200000000001e-07,
+      "volume_h24": 124.27,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.021896103
+      "real_sol_reserves": 6e-09
+    },
+    "CMySdiLhuoudziDTs5178XMJUM1ak6XefeJtfTvpump": {
+      "price_usd": 4.10835295141508e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 626.27510156827,
+      "volume_h24": 17161.8,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 6.208735021
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
