@@ -12571,3 +12571,6 @@
 ## [2026-09-03 01:22 UTC] sell | [FULL][LLM] $PULE  at $2.81823e-06 | P&L: -20.0%
 - **Reasoning:** Down exactly -20%, pool only $10, bonding-curve dead zone. At the edge of the -30% hard stop — exit before the bot force-closes it. Freeing slot for a better narrative play.
 
+## [2026-09-03 01:24 UTC] buy | [LLM] $PC at $3.15e-06, spent 0.02 SOL
+- **Reasoning:** $PC (Pump City) passes viability gate (88-char desc + twitter community link, real narrative: virtual city, 313 unique owners, Solana-native), no fragility hits. Concrete story beats the other sub-$10k noise. Risk: brand-new (1.1min) and bonding curve not started (0%), so first 0.05 SOL is lottery money on the narrative.
+

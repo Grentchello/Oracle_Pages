@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.31996,
+  "balance_sol": 0.29996,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 0.931441368,
         "description": "$SNORT powers the Snorter Bot ecosystem, unlocking premium features, staking rewards, and governance rights. Holders get access to low fee trades, advanced tools, and exclusive rewards. ",
         "twitter": "https://x.com/SnorterToken",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "Efsn7fjBzfn1jbofY3y323DqMSQQZ5VL698Ah1Swpump": {
+      "symbol": "PC",
+      "name": "Pump City",
+      "amount": 635555.5555555555,
+      "entry_price_usd": 3.15e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T01:24:01.631490+00:00",
+      "entry_usd_value": 2.002,
+      "entry_signals": {
+        "liquidity_usd": 14.9964868053,
+        "volume_24h_usd": 2588.98,
+        "market_cap_usd": 2820.9254849774265,
+        "ath_market_cap_usd": 4961.694060542606,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.149815053,
+        "description": "A little city you can own a piece of. 313 buildings, one owner each, all of it on Solana.  ",
+        "twitter": "https://x.com/i/communities/2018012942521024577",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -25953,17 +25975,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-03T01:22:04.708780+00:00",
+  "last_updated": "2026-09-03T01:24:01.631722+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.098,
+  "last_sol_price_usd": 100.1,
   "portfolio_value_usd": 34.03,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 00:26 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $COZY at $1.65095e-05 | P&L: +45.0%",
-      "reason": "Auto take-profit at +44.9%"
-    },
     {
       "time": "2026-09-03 00:26 UTC",
       "action": "sell",
@@ -26077,6 +26093,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $PULE  at $2.81823e-06 | P&L: -20.0%",
       "reason": "Down exactly -20%, pool only $10, bonding-curve dead zone. At the edge of the -30% hard stop — exit before the bot force-closes it. Freeing slot for a better narrative play."
+    },
+    {
+      "time": "2026-09-03 01:24 UTC",
+      "action": "buy",
+      "details": "[LLM] $PC at $3.15e-06, spent 0.02 SOL",
+      "reason": "$PC (Pump City) passes viability gate (88-char desc + twitter community link, real narrative: virtual city, 313 unique owners, Solana-native), no fragility hits. Concrete story beats the other sub-$10k noise. Risk: brand-new (1.1min) and bonding curve not started (0%), so first 0.05 SOL is lottery money on the narrative."
     }
   ],
   "trade_stats": {
@@ -26098,30 +26120,19 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T01:22:04.435811+00:00",
+  "last_llm_brief_at": "2026-09-03T01:23:59.686487+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "FAEubwKUqhu1q8kQVybvefzWcQP8WYnmiAm8BheWpump": {
-      "price_usd": 2.8182304284182113e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 10.49229638352,
-      "volume_h24": 5028.63,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.10482024
-    },
     "D4qURGyrSbVvniWy6zTy9s2yNYa5kuVDXFDhxKpQpump": {
-      "price_usd": 2.9998747055357876e-06,
+      "price_usd": 2.8543434727160614e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 106.08881114698201,
-      "volume_h24": 722.39,
+      "liquidity_usd": 29.7083239453,
+      "volume_h24": 802.11,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.059849459
+      "real_sol_reserves": 0.296786453
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
