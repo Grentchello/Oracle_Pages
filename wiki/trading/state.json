@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.390143,
+  "balance_sol": 0.397812,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "C7Gfjct3LBdgzMwSYJNsFGts1FKdf2tSQPvvxmFNpump": {
       "symbol": "INTERN",
       "name": "INTERN OFFICE",
-      "amount": 546742.7978198805,
+      "amount": 273371.39890994027,
       "entry_price_usd": 3.853e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T15:02:19.594335+00:00",
       "entry_usd_value": 2.1066,
       "entry_signals": {
@@ -29283,19 +29283,30 @@
       "pnl_pct": -24.14,
       "exit_reason": "LLM: sell_all — $YAPZO down -24.1%, very close to -30% hard stop. Bonding-curve pool with 'our share=758272810%' is alarming — that suggests near-zero liquidity at ou",
       "partial": false
+    },
+    {
+      "mint": "C7Gfjct3LBdgzMwSYJNsFGts1FKdf2tSQPvvxmFNpump",
+      "symbol": "INTERN",
+      "name": "INTERN OFFICE",
+      "amount_sold": 273371.39890994027,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T15:02:19.594335+00:00",
+      "exit_time": "2026-09-03T15:05:56.690790+00:00",
+      "entry_price_usd": 3.853e-06,
+      "exit_price_usd": 2.9502574068845584e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.007669,
+      "pnl_sol": -0.002331,
+      "pnl_pct": -23.43,
+      "exit_reason": "LLM: sell_all — Down 23.4% with 31% pool share in a $5 pool — I'm a liquidity crisis waiting to happen, no bounce signal, and only ~6.6% room left before the -30% har",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T15:04:31.352561+00:00",
+  "last_updated": "2026-09-03T15:05:57.058041+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.43,
-  "portfolio_value_usd": 43.24,
+  "last_sol_price_usd": 105.17,
+  "portfolio_value_usd": 42.89,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 14:33 UTC",
-      "action": "buy",
-      "details": "[LLM] $PUNK at $4.51788e-06, spent 0.02 SOL",
-      "reason": "$PUNK 'Ape Punk' has a strong narrative (classic meme archetype + 'wild side of blockchain' tagline), own twitter @apepunk0x, and full APE PUNK description. $4.5k mcap with bond 17% shows some traction. Speculative second position — if narrative catches, 10x possible from here."
-    },
     {
       "time": "2026-09-03 14:37 UTC",
       "action": "sell",
@@ -29409,40 +29420,46 @@
       "action": "buy",
       "details": "[LLM] $INTERN at $3.853e-06, spent 0.02 SOL",
       "reason": "$INTERN has the strongest original narrative of the batch — 'AI intern that never quits, pixel office, AI works 24/7' is a coherent attention hook tied to the AI-agent meta, pass the viability gate (real desc + twitter), no celebrity/political keywords, and bond is only 12% so entry is still early. Risk: bond not complete yet and brand-new (0.8 min) so volatility cuts both ways."
+    },
+    {
+      "time": "2026-09-03 15:05 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $INTERN at $2.95026e-06 | P&L: -23.4%",
+      "reason": "Down 23.4% with 31% pool share in a $5 pool — I'm a liquidity crisis waiting to happen, no bounce signal, and only ~6.6% room left before the -30% hard stop. Exit before the bot forces it."
     }
   ],
   "trade_stats": {
-    "total": 1721,
+    "total": 1722,
     "wins": 886,
-    "losses": 835,
+    "losses": 836,
     "win_rate_pct": 51.5,
-    "total_pnl_sol": -1.922501,
-    "avg_pnl_pct": 35.67,
+    "total_pnl_sol": -1.924832,
+    "avg_pnl_pct": 35.63,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 210,
-    "today_realized_sol": 0.07036,
-    "today_target_pct": 17.6,
+    "today_trades": 211,
+    "today_realized_sol": 0.068029,
+    "today_target_pct": 17.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 886,
-      "loss_count": 835,
+      "loss_count": 836,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T15:04:31.352142+00:00",
+  "last_llm_brief_at": "2026-09-03T15:05:56.690238+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "C7Gfjct3LBdgzMwSYJNsFGts1FKdf2tSQPvvxmFNpump": {
-      "price_usd": 3.944255008388509e-06,
+      "price_usd": 2.9502574068845584e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 495.78554432342,
+      "liquidity_usd": 5.25871675537,
       "volume_h24": 817.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.702509194
+      "real_sol_reserves": 0.050002061
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

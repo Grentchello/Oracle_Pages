@@ -13507,3 +13507,6 @@
 ## [2026-09-03 15:02 UTC] buy | [LLM] $INTERN at $3.853e-06, spent 0.02 SOL
 - **Reasoning:** $INTERN has the strongest original narrative of the batch — 'AI intern that never quits, pixel office, AI works 24/7' is a coherent attention hook tied to the AI-agent meta, pass the viability gate (real desc + twitter), no celebrity/political keywords, and bond is only 12% so entry is still early. Risk: bond not complete yet and brand-new (0.8 min) so volatility cuts both ways.
 
+## [2026-09-03 15:05 UTC] sell | [PARTIAL][LLM] $INTERN at $2.95026e-06 | P&L: -23.4%
+- **Reasoning:** Down 23.4% with 31% pool share in a $5 pool — I'm a liquidity crisis waiting to happen, no bounce signal, and only ~6.6% room left before the -30% hard stop. Exit before the bot forces it.
+
