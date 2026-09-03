@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.358196,
+  "balance_sol": 0.366407,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "BDuzERQ2CLrUFtqtnRDVTkrJF47syKvtnvFd1xCFpump": {
       "symbol": "A16KHEIL",
       "name": "KHEIL",
-      "amount": 585709.0484965307,
+      "amount": 292854.52424826537,
       "entry_price_usd": 3.438225865161665e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T05:09:11.787129+00:00",
       "entry_usd_value": 2.0138,
       "entry_signals": {
@@ -26750,19 +26750,30 @@
       "pnl_pct": -0.79,
       "exit_reason": "LLM: sell_all — Held 0.1h at -0.8%, barely below entry, pool only $918 (liquidity too thin), no momentum signal. With thin pool and 1/2 slots consumed, better to free",
       "partial": false
+    },
+    {
+      "mint": "BDuzERQ2CLrUFtqtnRDVTkrJF47syKvtnvFd1xCFpump",
+      "symbol": "A16KHEIL",
+      "name": "KHEIL",
+      "amount_sold": 292854.52424826537,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T05:09:11.787129+00:00",
+      "exit_time": "2026-09-03T05:10:32.237747+00:00",
+      "entry_price_usd": 3.438225865161665e-06,
+      "exit_price_usd": 2.8217397465161416e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.008211,
+      "pnl_sol": -0.001789,
+      "pnl_pct": -17.93,
+      "exit_reason": "LLM: sell_all — -17.9% with 39% pool share on a $4 bonding curve = catastrophic exit risk. I'm the exit liquidity. Cut now before it gets worse.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T05:09:11.787493+00:00",
+  "last_updated": "2026-09-03T05:10:32.749516+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.69,
-  "portfolio_value_usd": 38.08,
+  "last_sol_price_usd": 100.64,
+  "portfolio_value_usd": 37.88,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 04:24 UTC",
-      "action": "sell",
-      "details": "[TP +100% (50%)] $Candle at $1.87895e-05 | P&L: +105.8%",
-      "reason": "Auto take-profit at +105.8%"
-    },
     {
       "time": "2026-09-03 04:24 UTC",
       "action": "sell",
@@ -26876,30 +26887,48 @@
       "action": "buy",
       "details": "[LLM] $A16KHEIL at $3.43823e-06, spent 0.02 SOL",
       "reason": "KHEIL — mysterious tagline 'I have been here longer than this terminal remembers' plus dedicated x.com/ai16zkheil account gives a real viral hook. No celebrity-blocklist hit, has description, has twitter. Freshest of the non-Musk batch."
+    },
+    {
+      "time": "2026-09-03 05:10 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $A16KHEIL at $2.82174e-06 | P&L: -17.9%",
+      "reason": "-17.9% with 39% pool share on a $4 bonding curve = catastrophic exit risk. I'm the exit liquidity. Cut now before it gets worse."
     }
   ],
   "trade_stats": {
-    "total": 1572,
+    "total": 1573,
     "wins": 793,
-    "losses": 779,
+    "losses": 780,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.954447,
-    "avg_pnl_pct": 36.14,
+    "total_pnl_sol": -1.956236,
+    "avg_pnl_pct": 36.11,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 61,
-    "today_realized_sol": 0.038414,
-    "today_target_pct": 9.6,
+    "today_trades": 62,
+    "today_realized_sol": 0.036625,
+    "today_target_pct": 9.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 793,
-      "loss_count": 779,
+      "loss_count": 780,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T05:09:10.379784+00:00",
+  "last_llm_brief_at": "2026-09-03T05:10:32.237582+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BDuzERQ2CLrUFtqtnRDVTkrJF47syKvtnvFd1xCFpump": {
+      "price_usd": 2.8217397465161416e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4.2603689664,
+      "volume_h24": 1015.27,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.04233276
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
