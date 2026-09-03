@@ -13654,3 +13654,12 @@
 ## [2026-09-03 16:32 UTC] sell | [PARTIAL][LLM] $rusty at $8.04517e-06 | P&L: +28.9%
 - **Reasoning:** Up +28.9% in <1h is decent but not yet at TP thresholds. Take partial profits to lock in gains — bonding-curve tokens often dump hard once momentum fades, and the pool is thin ($2069). Selling half secures ~+0.0014 SOL while letting the rest ride if it breaks higher.
 
+## [2026-09-03 16:36 UTC] sell | [TP +30% (25%)] $rusty at $8.74201e-06 | P&L: +40.1%
+- **Reasoning:** Auto take-profit at +40.1%
+
+## [2026-09-03 16:36 UTC] sell | [PARTIAL][LLM] $rusty at $8.74201e-06 | P&L: +40.1%
+- **Reasoning:** Up +40.1% in 6 minutes — bot should have triggered +30% TP1 (25% off). Lock half the gain now; let the rest ride on a bonding-curve token showing strong initial momentum. If it stalls, I'll exit the remainder.
+
+## [2026-09-03 16:36 UTC] buy | [LLM] $CUTE at $7.026e-06, spent 0.02 SOL
+- **Reasoning:** $CUTE narrative is 'viral on X trending, Telegram tweeting it' — explicit attention signal in the description itself, which is rare and high-signal. $6.6k mcap with bond 25% means real buy pressure already. 0.05 SOL position. Skip if liquidity <$25.
+
