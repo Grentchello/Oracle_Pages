@@ -13372,3 +13372,9 @@
 ## [2026-09-03 13:38 UTC] buy | [LLM] $QUBY at $3.14463e-06, spent 0.02 SOL
 - **Reasoning:** Quby nostalgia narrative + twitter presence passes viability. 'YOU REMEMBER QUBY' is classic memecoin recall-copy. 0.05 SOL, tight stop, plan to sell half at +50%.
 
+## [2026-09-03 13:45 UTC] sell | [TP +100% (50%)] $billions at $9.64871e-06 | P&L: +144.4%
+- **Reasoning:** Auto take-profit at +144.4%
+
+## [2026-09-03 13:46 UTC] sell | [PARTIAL][LLM] $billions at $9.64871e-06 | P&L: +144.4%
+- **Reasoning:** Up +144% already above +100% TP threshold — bot should have auto-taken profit at 50%. Take remaining half off to lock gains and free a slot; this is a bonding-curve micro-cap with $2.5k pool, no reason to hold further.
+
