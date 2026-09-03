@@ -12580,3 +12580,6 @@
 ## [2026-09-03 01:27 UTC] buy | [LLM] $STRAYDOG at $2.97601e-06, spent 0.02 SOL
 - **Reasoning:** $STRAYDOG — 'feral alpha of the streets' dog narrative is a classic attention template (dog coins have historically pumped). Has twitter, real description, $2.98k mcap at 0.3min. Fits viability gate, no celeb keyword. Small bet on narrative + freshness.
 
+## [2026-09-03 01:30 UTC] sell | [PARTIAL][LLM] $STRAYDOG at $2.80728e-06 | P&L: -5.7%
+- **Reasoning:** 61% pool share in a $3 pool is a trap — we're exit liquidity for whoever's left. Small -5.7% loss is better than getting stuck as the only buyer when this dies. Freeing the slot is worth more than hope.
+
