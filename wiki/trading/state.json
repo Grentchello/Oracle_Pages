@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.316012,
+  "balance_sol": 0.341088,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Dhfn8kLws9vWCXrUc5kmybW5HaiarS9M5Sen1h1hpump": {
-      "symbol": "$SNIFF",
-      "name": "DOOBY SNIFF",
-      "amount": 4942156.862745098,
-      "entry_price_usd": 4.08e-07,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T03:29:42.025454+00:00",
-      "entry_usd_value": 2.0164,
-      "entry_signals": {
-        "liquidity_usd": 143.35126371997998,
-        "volume_24h_usd": 724.63,
-        "market_cap_usd": 1401.0172607420595,
-        "ath_market_cap_usd": 4841.336348493001,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.421853439,
-        "description": "Meet DOOBY: The Goodest Boy in Crypto! 🐕❤️ Every once in a while, a pup comes along that instantly steals your heart—and DOOBY is that very dog! With his oversized paws, floppy ears, and a heart twice the size of his appetite, DOOBY is the ultimate loyal companion everyone dreams of adopting. Whethe",
-        "twitter": "https://x.com/chrisatpumpfun/status/2095352216853045302?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -26308,19 +26285,30 @@
       "pnl_pct": 1.11,
       "exit_reason": "LLM: sell_all — CHMORTY is barely green (+1.1%) after 0.1h, sitting on a $36 pool with our 6% share — small move plus thin liquidity means any uptick I get I'll lose ",
       "partial": false
+    },
+    {
+      "mint": "Dhfn8kLws9vWCXrUc5kmybW5HaiarS9M5Sen1h1hpump",
+      "symbol": "$SNIFF",
+      "name": "DOOBY SNIFF",
+      "amount_sold": 4942156.862745098,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T03:29:42.025454+00:00",
+      "exit_time": "2026-09-03T03:31:14.201830+00:00",
+      "entry_price_usd": 4.08e-07,
+      "exit_price_usd": 5.106314056772218e-07,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.025076,
+      "pnl_sol": 0.005076,
+      "pnl_pct": 25.15,
+      "exit_reason": "LLM: sell_all — +25.2% gain with pool depth of only $16 and us owning 16% of the float — we are the exit liquidity. Position is essentially illiquid and any reversal ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T03:29:42.025648+00:00",
+  "last_updated": "2026-09-03T03:31:14.466528+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.82,
-  "portfolio_value_usd": 33.88,
+  "last_sol_price_usd": 100.64,
+  "portfolio_value_usd": 34.33,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 02:30 UTC",
-      "action": "buy",
-      "details": "[LLM] $GG at $1.092e-05, spent 0.02 SOL",
-      "reason": "$GG clears viability gate (description + keemotrades twitter). Bond 34% means real buyers are filling curve at $11.8k mcap — this is the only fresh token with both narrative and live attention. Keemotrades is a real CT voice, 'Golden Goose' is a clean memeable name. Risk: thin liquidity, early stage, will watch for +30% TP and -30% hard stop."
-    },
     {
       "time": "2026-09-03 02:31 UTC",
       "action": "sell",
@@ -26434,30 +26422,48 @@
       "action": "buy",
       "details": "[LLM] $$SNIFF at $4.08e-07, spent 0.02 SOL",
       "reason": "Dog coin meta — historically the highest-conversion memecoin genre (doge/shiba/bonk). 'Goodest Boy in Crypto' is a clear viral emotional hook, has twitter presence via pumpfun creator, decent description. Risk: $1.4k mcap is thin and liquidity/holder concentration unknown — fragility gate should evaluate. Sized at 0.05 SOL per v7 rules."
+    },
+    {
+      "time": "2026-09-03 03:31 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $$SNIFF at $5.10631e-07 | P&L: +25.1%",
+      "reason": "+25.2% gain with pool depth of only $16 and us owning 16% of the float — we are the exit liquidity. Position is essentially illiquid and any reversal means we crash through stops. Lock the gain as the first trade win of the experiment; pool cannot support a meaningful partial exit without price impact."
     }
   ],
   "trade_stats": {
-    "total": 1546,
-    "wins": 776,
+    "total": 1547,
+    "wins": 777,
     "losses": 770,
     "win_rate_pct": 50.2,
-    "total_pnl_sol": -1.996631,
+    "total_pnl_sol": -1.991555,
     "avg_pnl_pct": 36.32,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 35,
-    "today_realized_sol": -0.00377,
-    "today_target_pct": -0.9,
+    "today_trades": 36,
+    "today_realized_sol": 0.001306,
+    "today_target_pct": 0.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 776,
+      "win_count": 777,
       "loss_count": 770,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T03:29:40.667572+00:00",
+  "last_llm_brief_at": "2026-09-03T03:31:14.201793+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Dhfn8kLws9vWCXrUc5kmybW5HaiarS9M5Sen1h1hpump": {
+      "price_usd": 5.106314056772218e-07,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 16.21681067184,
+      "volume_h24": 1363.61,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.161136831
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

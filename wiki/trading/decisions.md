@@ -12682,3 +12682,6 @@
 ## [2026-09-03 03:29 UTC] buy | [LLM] $$SNIFF at $4.08e-07, spent 0.02 SOL
 - **Reasoning:** Dog coin meta — historically the highest-conversion memecoin genre (doge/shiba/bonk). 'Goodest Boy in Crypto' is a clear viral emotional hook, has twitter presence via pumpfun creator, decent description. Risk: $1.4k mcap is thin and liquidity/holder concentration unknown — fragility gate should evaluate. Sized at 0.05 SOL per v7 rules.
 
+## [2026-09-03 03:31 UTC] sell | [FULL][LLM] $$SNIFF at $5.10631e-07 | P&L: +25.1%
+- **Reasoning:** +25.2% gain with pool depth of only $16 and us owning 16% of the float — we are the exit liquidity. Position is essentially illiquid and any reversal means we crash through stops. Lock the gain as the first trade win of the experiment; pool cannot support a meaningful partial exit without price impact.
+
