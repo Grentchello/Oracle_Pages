@@ -12625,3 +12625,9 @@
 ## [2026-09-03 02:30 UTC] buy | [LLM] $GG at $1.092e-05, spent 0.02 SOL
 - **Reasoning:** $GG clears viability gate (description + keemotrades twitter). Bond 34% means real buyers are filling curve at $11.8k mcap — this is the only fresh token with both narrative and live attention. Keemotrades is a real CT voice, 'Golden Goose' is a clean memeable name. Risk: thin liquidity, early stage, will watch for +30% TP and -30% hard stop.
 
+## [2026-09-03 02:31 UTC] sell | [TP +30% (25%)] $GG at $1.53682e-05 | P&L: +40.7%
+- **Reasoning:** Auto take-profit at +40.7%
+
+## [2026-09-03 02:31 UTC] sell | [PARTIAL][LLM] $GG at $1.53682e-05 | P&L: +40.7%
+- **Reasoning:** Up +40.7% on a $4k pool — extreme liquidity risk and the asymmetric upside from here is poor. Lock in gains at TP1 zone; keep a runner in case it continues.
+
