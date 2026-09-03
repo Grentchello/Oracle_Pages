@@ -12811,3 +12811,6 @@
 ## [2026-09-03 05:18 UTC] buy | [LLM] $MISA at $2.84653e-06, spent 0.02 SOL
 - **Reasoning:** $MISA — anime convention viral moment (Misa Amane VA goes viral after fan interaction). Anime/Japanese cultural attention is a proven memecoin narrative (think NEIRO, SHIBO). Story is specific and recent. At $2.8k mcap with no bond completion, classic early-entry. 0.05 SOL.
 
+## [2026-09-03 05:22 UTC] buy | [LLM] $HELI DOG at $3.211e-06, spent 0.02 SOL
+- **Reasoning:** $HELI DOG has the strongest attention signal: '1.3M views on TikTok, 28k on X' — that's real cross-platform virality in the description. Dog-themed meta is hot (train dogs rival narrative). Small mcap $3.2k = room to run. Risk: thin liquidity, but the social proof is concrete.
+
