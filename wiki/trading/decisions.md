@@ -12586,3 +12586,9 @@
 ## [2026-09-03 01:31 UTC] sell | [PARTIAL][LLM] $STRAYDOG at $2.81034e-06 | P&L: -5.6%
 - **Reasoning:** Our 41% share of a $2 pool is a rug waiting to happen — we ARE the liquidity and any other seller crashes our price. -5.6% with held<15min, but the position sizing itself is the risk. Exiting to free capital for fresh alpha.
 
+## [2026-09-03 01:33 UTC] sell | [FULL][LLM] $STRAYDOG at $2.80978e-06 | P&L: -5.6%
+- **Reasoning:** $2 pool with 20% share is exit-liquidity death - the longer I hold, the worse the exit gets. Cutting loss now while I can still get a fill beats waiting for a bounce that requires buyers who don't exist in a $2 pool.
+
+## [2026-09-03 01:33 UTC] sell | [FULL][LLM] $Snorter at $2.85654e-06 | P&L: -7.1%
+- **Reasoning:** -7.1% on a $27 bonding-curve pool with no clear narrative traction after 12 min. Thin pool + no catalyst = stale risk. Freeing the slot for fresh attention is better than hoping.
+

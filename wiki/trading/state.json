@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.312841,
+  "balance_sol": 0.335266,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "D4qURGyrSbVvniWy6zTy9s2yNYa5kuVDXFDhxKpQpump": {
-      "symbol": "Snorter",
-      "name": "Snorter",
-      "amount": 652018.9600031122,
-      "entry_price_usd": 3.076290910298722e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T01:20:28.220412+00:00",
-      "entry_usd_value": 2.0058000000000002,
-      "entry_signals": {
-        "liquidity_usd": 93.41425479672,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3071.664110697251,
-        "ath_market_cap_usd": 3383.845672984098,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.931441368,
-        "description": "$SNORT powers the Snorter Bot ecosystem, unlocking premium features, staking rewards, and governance rights. Holders get access to low fee trades, advanced tools, and exclusive rewards. ",
-        "twitter": "https://x.com/SnorterToken",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "AkKLh7A6eAvAhmJhk6H2nP6m5GbxarQE3iH4tk8Qpump": {
-      "symbol": "STRAYDOG",
-      "name": "Stray Dog",
-      "amount": 138154.527551771,
-      "entry_price_usd": 2.9760099185159885e-06,
-      "entry_sol_spent": 0.004102876402374622,
-      "entry_time": "2026-09-03T01:27:23.164844+00:00",
-      "entry_usd_value": 2.0042,
-      "entry_signals": {
-        "liquidity_usd": 36.41810014304,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2979.6885603924648,
-        "ath_market_cap_usd": 2973.9310771399173,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.363417824,
-        "description": "StrayDog is not your polished corporate memecoin - it’s the feral alpha of the streets. Born from the alleyways of crypto, scarred by rugs, hardened by scams, and raised on scraps of degen dreams. StrayDog is 100% community-driven with no team tokens, no leash, and no master. It’s pure chaos, pure m",
-        "twitter": "https://x.com/straydogcoin",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -26024,25 +25979,47 @@
       "pnl_pct": -5.57,
       "exit_reason": "LLM: sell_all — Our 41% share of a $2 pool is a rug waiting to happen — we ARE the liquidity and any other seller crashes our price. -5.6% with held<15min, but the po",
       "partial": true
+    },
+    {
+      "mint": "AkKLh7A6eAvAhmJhk6H2nP6m5GbxarQE3iH4tk8Qpump",
+      "symbol": "STRAYDOG",
+      "name": "Stray Dog",
+      "amount_sold": 138154.527551771,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T01:27:23.164844+00:00",
+      "exit_time": "2026-09-03T01:33:17.708981+00:00",
+      "entry_price_usd": 2.9760099185159885e-06,
+      "exit_price_usd": 2.8097836834419953e-06,
+      "entry_sol_for_chunk": 0.004103,
+      "exit_sol_received": 0.003868,
+      "pnl_sol": -0.000235,
+      "pnl_pct": -5.59,
+      "exit_reason": "LLM: sell_all — $2 pool with 20% share is exit-liquidity death - the longer I hold, the worse the exit gets. Cutting loss now while I can still get a fill beats waiti",
+      "partial": false
+    },
+    {
+      "mint": "D4qURGyrSbVvniWy6zTy9s2yNYa5kuVDXFDhxKpQpump",
+      "symbol": "Snorter",
+      "name": "Snorter",
+      "amount_sold": 652018.9600031122,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T01:20:28.220412+00:00",
+      "exit_time": "2026-09-03T01:33:17.709238+00:00",
+      "entry_price_usd": 3.076290910298722e-06,
+      "exit_price_usd": 2.856538396147838e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018557,
+      "pnl_sol": -0.001443,
+      "pnl_pct": -7.14,
+      "exit_reason": "LLM: sell_all — -7.1% on a $27 bonding-curve pool with no clear narrative traction after 12 min. Thin pool + no catalyst = stale risk. Freeing the slot for fresh atte",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T01:31:45.031171+00:00",
+  "last_updated": "2026-09-03T01:33:17.709347+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.39,
-  "portfolio_value_usd": 33.82,
+  "last_sol_price_usd": 100.37,
+  "portfolio_value_usd": 33.65,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 00:36 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $CATARM at $2.78763e-06 | P&L: -2.4%",
-      "reason": "The position is down 2.4% and is not at a profit threshold, while the reported 104% pool share indicates extreme concentration and exit fragility. With no clear bounce signal, cut the loss now rather than hold a stale, highly concentrated position."
-    },
-    {
-      "time": "2026-09-03 00:36 UTC",
-      "action": "buy",
-      "details": "[LLM] $WAGR at $5.51758e-06, spent 0.02 SOL",
-      "reason": "WAGR combines a clear prediction-markets narrative with xStocks, PreStocks, and memecoin framing, plus an early $5.5K mcap launch and a dedicated Twitter account. It has the strongest early attention and narrative combination in the slate, though ultra-low bonding progress and low liquidity make it high risk."
-    },
     {
       "time": "2026-09-03 00:37 UTC",
       "action": "sell",
@@ -26150,35 +26127,47 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $STRAYDOG at $2.81034e-06 | P&L: -5.6%",
       "reason": "Our 41% share of a $2 pool is a rug waiting to happen — we ARE the liquidity and any other seller crashes our price. -5.6% with held<15min, but the position sizing itself is the risk. Exiting to free capital for fresh alpha."
+    },
+    {
+      "time": "2026-09-03 01:33 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $STRAYDOG at $2.80978e-06 | P&L: -5.6%",
+      "reason": "$2 pool with 20% share is exit-liquidity death - the longer I hold, the worse the exit gets. Cutting loss now while I can still get a fill beats waiting for a bounce that requires buyers who don't exist in a $2 pool."
+    },
+    {
+      "time": "2026-09-03 01:33 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Snorter at $2.85654e-06 | P&L: -7.1%",
+      "reason": "-7.1% on a $27 bonding-curve pool with no clear narrative traction after 12 min. Thin pool + no catalyst = stale risk. Freeing the slot for fresh attention is better than hoping."
     }
   ],
   "trade_stats": {
-    "total": 1528,
+    "total": 1530,
     "wins": 766,
-    "losses": 762,
+    "losses": 764,
     "win_rate_pct": 50.1,
-    "total_pnl_sol": -1.995699,
-    "avg_pnl_pct": 36.62,
+    "total_pnl_sol": -1.997377,
+    "avg_pnl_pct": 36.57,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 17,
-    "today_realized_sol": -0.002838,
-    "today_target_pct": -0.7,
+    "today_trades": 19,
+    "today_realized_sol": -0.004516,
+    "today_target_pct": -1.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 766,
-      "loss_count": 762,
+      "loss_count": 764,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T01:31:45.030790+00:00",
+  "last_llm_brief_at": "2026-09-03T01:33:17.708940+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "D4qURGyrSbVvniWy6zTy9s2yNYa5kuVDXFDhxKpQpump": {
-      "price_usd": 2.857107597781025e-06,
+      "price_usd": 2.856538396147838e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 26.868376588300002,
+      "liquidity_usd": 26.8630237889,
       "volume_h24": 805.03,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
@@ -26186,10 +26175,10 @@
       "real_sol_reserves": 0.26763997
     },
     "AkKLh7A6eAvAhmJhk6H2nP6m5GbxarQE3iH4tk8Qpump": {
-      "price_usd": 2.8103435686035856e-06,
+      "price_usd": 2.8097836834419953e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.898726265,
+      "liquidity_usd": 1.898347995,
       "volume_h24": 184.6,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
