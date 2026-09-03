@@ -13849,3 +13849,6 @@
 ## [2026-09-03 19:10 UTC] buy | [LLM] $CYBERCAB at $6.16495e-06, spent 0.02 SOL
 - **Reasoning:** $CYBERCAB — Musk tweet about unsupervised Cybercab. Tesla/robotaxi narrative tied to Musk. Bond24%, mcap $6k = pure early. Second Musk-tied token in the same minute. Musk-coined tokens historically pump hard and fast. Risks: bond not complete yet (could rug before graduating), and the desc mentioning KOL refunds is sketchy — but the Musk attention signal is the dominant factor.
 
+## [2026-09-03 19:11 UTC] sell | [hard-stop] $CYBERCAB closed at $3.06554e-06 | P&L: -50.3%
+- **Reasoning:** Hard -30% stop
+
