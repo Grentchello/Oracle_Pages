@@ -13198,3 +13198,6 @@
 ## [2026-09-03 11:49 UTC] buy | [LLM] $PCITY at $1.672e-06, spent 0.02 SOL
 - **Reasoning:** $PCITY — novel narrative ('own a piece of a Solana city, 313 buildings') + dedicated @PumpCityxSOL account + $540 mcap = max asymmetry on a fresh attention play.
 
+## [2026-09-03 11:50 UTC] sell | [hard-stop] $PCITY closed at $3.4079e-07 | P&L: -79.6%
+- **Reasoning:** Hard -30% stop
+
