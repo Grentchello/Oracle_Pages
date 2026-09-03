@@ -13864,3 +13864,6 @@
 ## [2026-09-03 19:20 UTC] sell | [FULL][LLM] $ZEROCOOL at $7.5305e-06 | P&L: -3.8%
 - **Reasoning:** Down 3.8% in 6 min with only $1893 pool (well below 5x position rule). Thin liquidity means any further move against me turns into a -30% fast. Free the slot for a better attention narrative.
 
+## [2026-09-03 19:23 UTC] buy | [LLM] $ONBOARDING at $6.51349e-06, spent 0.02 SOL
+- **Reasoning:** $ONBOARDING has the strongest narrative: IRL content creator wakeuptrov onboarding strangers to pump.fun daily — that's a repeatable content loop, not just a meme. Description passes viability gate (≥50 chars + twitter). Bond at 25% means real SOL is flowing in. Small 0.05 SOL position to test the thesis.
+
