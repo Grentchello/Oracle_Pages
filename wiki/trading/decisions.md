@@ -12997,3 +12997,6 @@
 ## [2026-09-03 07:43 UTC] sell | [FULL][LLM] $$SVAI at $3.01556e-06 | P&L: -7.1%
 - **Reasoning:** SVAI is -7.1% after12min on a $100 pool (we own 2%) — still in bonding curve, illiquid, no clear bounce signal. Flat-to-down bonding-curve plays don't recover; cut the slot.
 
+## [2026-09-03 07:57 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
