@@ -12964,3 +12964,6 @@
 ## [2026-09-03 07:04 UTC] buy | [LLM] $BRIDGE at $3.512e-06, spent 0.02 SOL
 - **Reasoning:** $BRIDGE has the strongest narrative of the fresh launches — AI-native humanoid robot tied to a real X post by @Tom_Nielse. Has twitter signal AND viability gate passes. Low mcap ($3.5k) with viral-tech attention potential. Risky but classic attention-launch setup.
 
+## [2026-09-03 07:06 UTC] buy | [LLM] $rhg at $3.84827e-06, spent 0.02 SOL
+- **Reasoning:** $rhg passes viability (twitter + desc) and has the strongest narrative of the batch — Robin Hood ghost resurrection story with live X account @gh1stsol. $3.8k mcap means tiny entry gets real upside if it pumps. Risk: ultra-low mcap = rug-prone, so 0.05 SOL sizing only.
+
