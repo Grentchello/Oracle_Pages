@@ -13693,3 +13693,9 @@
 ## [2026-09-03 16:56 UTC] sell | [FULL][LLM] $HSOG at $3.03541e-06 | P&L: +0.1%
 - **Reasoning:** Flat at +0.1% after 6min, pool only $57 (4% of pool = severe illiquidity), no momentum. Stale capital, rotating to fresh narrative.
 
+## [2026-09-03 16:59 UTC] buy | [LLM] $perpscape at $1.30771e-05, spent 0.02 SOL
+- **Reasoning:** $perpscape has the strongest narrative on the board — RuneScape nostalgia meets perp-DEX speculation, bonding curve already 35% complete (strongest traction), real twitter presence, $13k mcap leaves room for 5-10x if the Grand Exchange angle catches. Fresh launch with a coherent story beats thin jpegs.
+
+## [2026-09-03 16:59 UTC] buy | [LLM] $rhg at $3.74708e-06, spent 0.02 SOL
+- **Reasoning:** $rhg 'Robin Hood Ghost' is a clean ghost-meta narrative with a haunting/stealing-attention hook — the kind of low-effort high-attention name that pumps on CT. Only $3.7k mcap, fresh mint (0.1min), real twitter. High rug risk on a sub-1min token so sized small per rules.
+
