@@ -13945,3 +13945,6 @@
 ## [2026-09-03 20:21 UTC] sell | [FULL][LLM] $SNITCH at $3.18159e-06 | P&L: -18.4%
 - **Reasoning:** Down 18.4% with only $123 pool and 6 min held. One more tick of bleed hits -30% hard stop. Illiquid bonding-curve token with no visible bounce catalyst — cut the loss now rather than let it widen to the cap.
 
+## [2026-09-03 20:26 UTC] buy | [LLM] $GLITCH at $3.61699e-06, spent 0.02 SOL
+- **Reasoning:** $GLITCH has the strongest narrative + attention combo: explicit 'building live in trenches' thesis from a dedicated X account (@GlitchForeva), real description with builder-culture hook that resonates with degen community. Bond at 9% means fresh entry with room to run. Fits the 'live-builder' narrative that historically pumps hard.
+
