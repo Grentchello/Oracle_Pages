@@ -12823,3 +12823,6 @@
 ## [2026-09-03 05:28 UTC] sell | [FULL][LLM] $HELI DOG at $4.06163e-06 | P&L: +26.5%
 - **Reasoning:** $HELI DOG up +26.5% in 6 min — locked below TP1 but near the +30% trigger. Bonding curve only 0% complete, no real liquidity yet, our share = 0%. Take the gain now before it reverses into a bonding-curve ghost.
 
+## [2026-09-03 05:39 UTC] buy | [LLM] $GRASS at $2.904e-06, spent 0.02 SOL
+- **Reasoning:** $GRASS has organic news narrative (Nepal 'grass ritual' Times article), real-world sympathy hook drives attention beyond crypto twitter. Risk: 1min old, $2.9k mcap, thin liquidity — but news-anchored memecoins with emotional core have 5-10x potential.
+
