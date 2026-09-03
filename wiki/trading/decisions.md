@@ -13597,3 +13597,9 @@
 ## [2026-09-03 16:00 UTC] buy | [LLM] $cyberfam at $4.6213e-06, spent 0.02 SOL
 - **Reasoning:** $cyberfam has clearest narrative of the batch — 'cyber family/community' tied to an active X account (cyberleek_io), $4.6k mcap with 17% bonded = real early traction, non-fragility keywords passed. Memecoin attention plays need identity; this one has 'us vs them leaks' story which is retweet bait.
 
+## [2026-09-03 16:03 UTC] sell | [FULL][LLM] $Lee at $2.93458e-06 | P&L: -2.7%
+- **Reasoning:** $Lee down -2.7%, but pool=$0 and our share=69584483% — we're 100% of liquidity on a dead bonding curve. Anyone selling after us crashes it further. Cut loss now before -2.7% becomes -30%.
+
+## [2026-09-03 16:03 UTC] sell | [PARTIAL][LLM] $cyberfam at $5.51025e-06 | P&L: +19.2%
+- **Reasoning:** $cyberfam up +19.2% already, fresh entry, bonding curve live. Lock half the gain now per scalp discipline — if it pumps to +50%, we still have a runner. If it fades, we banked profit.
+

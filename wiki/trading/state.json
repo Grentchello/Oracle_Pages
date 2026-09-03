@@ -1,36 +1,14 @@
 {
-  "balance_sol": 0.349434,
+  "balance_sol": 0.380873,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "FSxH28oDKfq3YKMZ4RhipduGuZdLjxTrcieTK4V6pump": {
-      "symbol": "Lee",
-      "name": "The $50M Larper",
-      "amount": 696865.3972943415,
-      "entry_price_usd": 3.0166514339240098e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T15:58:03.165867+00:00",
-      "entry_usd_value": 2.1022,
-      "entry_signals": {
-        "liquidity_usd": 297.21707218505003,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3015.938273434974,
-        "ath_market_cap_usd": 5384.6949250472835,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.827676455,
-        "description": "https://x.com/ashthequant/status/2095541612734566616",
-        "twitter": "https://x.com/ashthequant/status/2095541612734566616",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "48UZbRdXkuYueFkUd2ECn63AuJyL6jdu5GGpY7ycpump": {
       "symbol": "cyberfam",
       "name": "cyber family",
-      "amount": 455456.61615692306,
+      "amount": 227728.30807846153,
       "entry_price_usd": 4.621296354765899e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T16:00:41.059992+00:00",
       "entry_usd_value": 2.1048,
       "entry_signals": {
@@ -29594,25 +29572,47 @@
       "pnl_pct": -4.83,
       "exit_reason": "LLM: sell_all — $HOOK at -4.8%, pool $162 is thin, narrative unclear (just a name), and we're at the slot limit with two fresh-launch candidates to fund. Rotate now b",
       "partial": false
+    },
+    {
+      "mint": "FSxH28oDKfq3YKMZ4RhipduGuZdLjxTrcieTK4V6pump",
+      "symbol": "Lee",
+      "name": "The $50M Larper",
+      "amount_sold": 696865.1469276751,
+      "fraction_sold": 0.9999996407244967,
+      "entry_time": "2026-09-03T15:58:03.165867+00:00",
+      "exit_time": "2026-09-03T16:03:33.595778+00:00",
+      "entry_price_usd": 3.0166514339240098e-06,
+      "exit_price_usd": 2.9345759580045478e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019484,
+      "pnl_sol": -0.000516,
+      "pnl_pct": -2.72,
+      "exit_reason": "LLM: sell_all — $Lee down -2.7%, but pool=$0 and our share=69584483% — we're 100% of liquidity on a dead bonding curve. Anyone selling after us crashes it further. Cu",
+      "partial": false
+    },
+    {
+      "mint": "48UZbRdXkuYueFkUd2ECn63AuJyL6jdu5GGpY7ycpump",
+      "symbol": "cyberfam",
+      "name": "cyber family",
+      "amount_sold": 227728.30807846153,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T16:00:41.059992+00:00",
+      "exit_time": "2026-09-03T16:03:33.596023+00:00",
+      "entry_price_usd": 4.621296354765899e-06,
+      "exit_price_usd": 5.510246874880087e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011955,
+      "pnl_sol": 0.001955,
+      "pnl_pct": 19.24,
+      "exit_reason": "LLM: sell_half — $cyberfam up +19.2% already, fresh entry, bonding curve live. Lock half the gain now per scalp discipline — if it pumps to +50%, we still have a runne",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T16:02:06.635753+00:00",
+  "last_updated": "2026-09-03T16:03:33.867666+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.01,
-  "portfolio_value_usd": 40.9,
+  "last_sol_price_usd": 104.96,
+  "portfolio_value_usd": 41.03,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 15:24 UTC",
-      "action": "buy",
-      "details": "[LLM] $BAG at $3.13802e-06, spent 0.02 SOL",
-      "reason": "$BAG — 0.2min old, $3.1k mcap, strong narrative ('secure the bag'), dedicated community Twitter (@TheBagCommunity), long desc showing raid/vibe intent. Classic meta-meme, community-built = attention play with low mcap entry."
-    },
-    {
-      "time": "2026-09-03 15:33 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $BAG at $2.93105e-06 | P&L: -6.6%",
-      "reason": "$BAG is -6.6% with no bounce after 6 min, I'm 32% of pool (liquidity risk), and the rules demand fast exits on losers. Free up the slot for a fresher narrative."
-    },
     {
       "time": "2026-09-03 15:35 UTC",
       "action": "sell",
@@ -29720,35 +29720,47 @@
       "action": "buy",
       "details": "[LLM] $cyberfam at $4.6213e-06, spent 0.02 SOL",
       "reason": "$cyberfam has clearest narrative of the batch — 'cyber family/community' tied to an active X account (cyberleek_io), $4.6k mcap with 17% bonded = real early traction, non-fragility keywords passed. Memecoin attention plays need identity; this one has 'us vs them leaks' story which is retweet bait."
+    },
+    {
+      "time": "2026-09-03 16:03 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Lee at $2.93458e-06 | P&L: -2.7%",
+      "reason": "$Lee down -2.7%, but pool=$0 and our share=69584483% — we're 100% of liquidity on a dead bonding curve. Anyone selling after us crashes it further. Cut loss now before -2.7% becomes -30%."
+    },
+    {
+      "time": "2026-09-03 16:03 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $cyberfam at $5.51025e-06 | P&L: +19.2%",
+      "reason": "$cyberfam up +19.2% already, fresh entry, bonding curve live. Lock half the gain now per scalp discipline — if it pumps to +50%, we still have a runner. If it fades, we banked profit."
     }
   ],
   "trade_stats": {
-    "total": 1738,
-    "wins": 891,
-    "losses": 847,
+    "total": 1740,
+    "wins": 892,
+    "losses": 848,
     "win_rate_pct": 51.3,
-    "total_pnl_sol": -1.94321,
-    "avg_pnl_pct": 35.35,
+    "total_pnl_sol": -1.941771,
+    "avg_pnl_pct": 35.32,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 227,
-    "today_realized_sol": 0.049651,
-    "today_target_pct": 12.4,
+    "today_trades": 229,
+    "today_realized_sol": 0.05109,
+    "today_target_pct": 12.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 891,
-      "loss_count": 847,
+      "win_count": 892,
+      "loss_count": 848,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T16:02:06.635707+00:00",
+  "last_llm_brief_at": "2026-09-03T16:03:33.595612+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FSxH28oDKfq3YKMZ4RhipduGuZdLjxTrcieTK4V6pump": {
-      "price_usd": 2.9359739076796646e-06,
+      "price_usd": 2.9345759580045478e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.94028e-06,
+      "liquidity_usd": 2.93888e-06,
       "volume_h24": 4535.97,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
@@ -29756,15 +29768,15 @@
       "real_sol_reserves": 2.8e-08
     },
     "48UZbRdXkuYueFkUd2ECn63AuJyL6jdu5GGpY7ycpump": {
-      "price_usd": 5.135080353333199e-06,
+      "price_usd": 5.510246874880087e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1015.98945720624,
-      "volume_h24": 1595.56,
+      "liquidity_usd": 1165.97275800576,
+      "volume_h24": 4770.41,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 9.675168624
+      "real_sol_reserves": 11.108734356
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
