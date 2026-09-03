@@ -13231,3 +13231,6 @@
 ## [2026-09-03 11:58 UTC] sell | [FULL][LLM] $cow at $3.69109e-06 | P&L: +0.2%
 - **Reasoning:** $cow is essentially flat (+0.2%) after 0.1h, tiny $437 pool, and we have only one slot — better to rotate into a fresh launch with actual momentum than babysit a dead bond curve.
 
+## [2026-09-03 12:02 UTC] buy | [LLM] $$TTMC at $2.874e-06, spent 0.02 SOL
+- **Reasoning:** TO THE MOON COIN with active tweet from @AusGouda — classic attention signal, narrative is universal, mcap $2.8k is bottom-fishing territory with upside.
+
