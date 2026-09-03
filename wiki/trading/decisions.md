@@ -13057,3 +13057,6 @@
 ## [2026-09-03 09:37 UTC] buy | [LLM] $NORMI at $3.43191e-06, spent 0.02 SOL
 - **Reasoning:** $NORMI (The Human Dog) — strongest narrative of the batch. 'Giga viral on Instagram' with an existing audience is exactly the attention-launched memecoin thesis. Cross-platform viral potential (IG→X→pump) historically outperforms pure-X plays. Viability: desc 70 chars + twitter present. Fragility: dog meme, no political/celebrity blacklist hit. Risk: 0.3min old, mcap $3.4k — could rug, but position size ($5) caps downside.
 
+## [2026-09-03 09:45 UTC] sell | [FULL][LLM] $NORMI at $4.10903e-06 | P&L: +19.7%
+- **Reasoning:** $NORMI at +19.7% on a $633 pool with 0% share — bonding-curve tokens this thin get dumped on hard. Locking the gain per 'if up >20% with doubt, take profit' rule.
+

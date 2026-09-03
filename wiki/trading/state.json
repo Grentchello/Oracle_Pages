@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.372783,
+  "balance_sol": 0.396731,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HwmJ4cMLeHLCVdT3AbDx5EZF1UMw5EdU65vavzVmpump": {
-      "symbol": "NORMI",
-      "name": "The Human Dog",
-      "amount": 584688.1412900703,
-      "entry_price_usd": 3.4319149958687187e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T09:37:35.169727+00:00",
-      "entry_usd_value": 2.0066,
-      "entry_signals": {
-        "liquidity_usd": 354.39281002932,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3444.5588545917267,
-        "ath_market_cap_usd": 3432.25705856142,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.532271604,
-        "description": "This Dog named Normi has been going giga viral on instagram for behaving and living like a human ",
-        "twitter": "https://x.com/cooktastic1/status/2095440443215417806?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -27651,19 +27628,30 @@
       "pnl_pct": 53.75,
       "exit_reason": "LLM: sell_all — GHT is up +53.8%, past the +50% TP threshold, only 0h old with no volume depth (pool=$1224, our share=0%). Lock the gain — small-cap bonding curve gai",
       "partial": false
+    },
+    {
+      "mint": "HwmJ4cMLeHLCVdT3AbDx5EZF1UMw5EdU65vavzVmpump",
+      "symbol": "NORMI",
+      "name": "The Human Dog",
+      "amount_sold": 584688.1412900703,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T09:37:35.169727+00:00",
+      "exit_time": "2026-09-03T09:45:59.085830+00:00",
+      "entry_price_usd": 3.4319149958687187e-06,
+      "exit_price_usd": 4.109025469501296e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.023948,
+      "pnl_sol": 0.003948,
+      "pnl_pct": 19.73,
+      "exit_reason": "LLM: sell_all — $NORMI at +19.7% on a $633 pool with 0% share — bonding-curve tokens this thin get dumped on hard. Locking the gain per 'if up >20% with doubt, take p",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T09:44:23.510010+00:00",
+  "last_updated": "2026-09-03T09:45:59.619840+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.23,
-  "portfolio_value_usd": 39.37,
+  "last_sol_price_usd": 100.32,
+  "portfolio_value_usd": 39.8,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 07:57 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-03 08:43 UTC",
       "action": "buy",
@@ -27777,40 +27765,46 @@
       "action": "buy",
       "details": "[LLM] $NORMI at $3.43191e-06, spent 0.02 SOL",
       "reason": "$NORMI (The Human Dog) — strongest narrative of the batch. 'Giga viral on Instagram' with an existing audience is exactly the attention-launched memecoin thesis. Cross-platform viral potential (IG→X→pump) historically outperforms pure-X plays. Viability: desc 70 chars + twitter present. Fragility: dog meme, no political/celebrity blacklist hit. Risk: 0.3min old, mcap $3.4k — could rug, but position size ($5) caps downside."
+    },
+    {
+      "time": "2026-09-03 09:45 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $NORMI at $4.10903e-06 | P&L: +19.7%",
+      "reason": "$NORMI at +19.7% on a $633 pool with 0% share — bonding-curve tokens this thin get dumped on hard. Locking the gain per 'if up >20% with doubt, take profit' rule."
     }
   ],
   "trade_stats": {
-    "total": 1625,
-    "wins": 821,
+    "total": 1626,
+    "wins": 822,
     "losses": 804,
-    "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.939863,
-    "avg_pnl_pct": 35.96,
+    "win_rate_pct": 50.6,
+    "total_pnl_sol": -1.935915,
+    "avg_pnl_pct": 35.95,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 114,
-    "today_realized_sol": 0.052998,
-    "today_target_pct": 13.2,
+    "today_trades": 115,
+    "today_realized_sol": 0.056946,
+    "today_target_pct": 14.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 821,
+      "win_count": 822,
       "loss_count": 804,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T09:44:22.939328+00:00",
+  "last_llm_brief_at": "2026-09-03T09:45:59.085788+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "HwmJ4cMLeHLCVdT3AbDx5EZF1UMw5EdU65vavzVmpump": {
-      "price_usd": 3.735736395315019e-06,
+      "price_usd": 4.109025469501296e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 464.8421751304501,
-      "volume_h24": 465.47,
+      "liquidity_usd": 633.1021892183999,
+      "volume_h24": 868.31,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.637754915
+      "real_sol_reserves": 6.310827245
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
