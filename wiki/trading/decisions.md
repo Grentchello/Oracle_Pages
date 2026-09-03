@@ -13228,3 +13228,6 @@
 ## [2026-09-03 11:57 UTC] sell | [FULL][LLM] $MARU at $2.93635e-06 | P&L: +1.5%
 - **Reasoning:** $MARU only +1.5% on a $62 pool with our 3% share — razor-thin liquidity, no clear narrative, and we already have a winner to deploy into. Free the slot.
 
+## [2026-09-03 11:58 UTC] sell | [FULL][LLM] $cow at $3.69109e-06 | P&L: +0.2%
+- **Reasoning:** $cow is essentially flat (+0.2%) after 0.1h, tiny $437 pool, and we have only one slot — better to rotate into a fresh launch with actual momentum than babysit a dead bond curve.
+

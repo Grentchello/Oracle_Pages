@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.356625,
+  "balance_sol": 0.359445,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4L6K7PJZKqjf18kpfvnfVbJeuBbJ27Z1XiaYf9hxpump": {
-      "symbol": "cow",
-      "name": "cashcow",
-      "amount": 77011.47474198804,
-      "entry_price_usd": 3.682e-06,
-      "entry_sol_spent": 0.0028125,
-      "entry_time": "2026-09-03T11:53:40.300566+00:00",
-      "entry_usd_value": 2.0164,
-      "entry_signals": {
-        "liquidity_usd": 834.25374664018,
-        "volume_24h_usd": 430.78,
-        "market_cap_usd": 5362.98422270067,
-        "ath_market_cap_usd": 5398.059485590555,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 8.274685049,
-        "description": "Self-tuning http://pump.fun launcher. 10 independent sources, hard-capped spend, code-enforced allowlist. Public dashboard includes the duds.",
-        "twitter": "https://x.com/cashcowEXE",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -28212,19 +28189,30 @@
       "pnl_pct": 1.46,
       "exit_reason": "LLM: sell_all — $MARU only +1.5% on a $62 pool with our 3% share — razor-thin liquidity, no clear narrative, and we already have a winner to deploy into. Free the slo",
       "partial": false
+    },
+    {
+      "mint": "4L6K7PJZKqjf18kpfvnfVbJeuBbJ27Z1XiaYf9hxpump",
+      "symbol": "cow",
+      "name": "cashcow",
+      "amount_sold": 77011.47474198804,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T11:53:40.300566+00:00",
+      "exit_time": "2026-09-03T11:58:23.738751+00:00",
+      "entry_price_usd": 3.682e-06,
+      "exit_price_usd": 3.6910881967225963e-06,
+      "entry_sol_for_chunk": 0.002812,
+      "exit_sol_received": 0.00282,
+      "pnl_sol": 8e-06,
+      "pnl_pct": 0.25,
+      "exit_reason": "LLM: sell_all — $cow is essentially flat (+0.2%) after 0.1h, tiny $437 pool, and we have only one slot — better to rotate into a fresh launch with actual momentum tha",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T11:57:02.673518+00:00",
+  "last_updated": "2026-09-03T11:58:24.283309+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.82,
-  "portfolio_value_usd": 36.24,
+  "last_sol_price_usd": 100.79,
+  "portfolio_value_usd": 36.23,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 11:24 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $raji at $6.02259e-06 | P&L: +57.9%",
-      "reason": "+57.9% but our share=0% on a $1.4k pool means I can't actually realize this. Attempting partial exit to lock whatever the bonding curve will give me before it reverts."
-    },
     {
       "time": "2026-09-03 11:24 UTC",
       "action": "buy",
@@ -28338,51 +28326,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $MARU at $2.93635e-06 | P&L: +1.5%",
       "reason": "$MARU only +1.5% on a $62 pool with our 3% share — razor-thin liquidity, no clear narrative, and we already have a winner to deploy into. Free the slot."
+    },
+    {
+      "time": "2026-09-03 11:58 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $cow at $3.69109e-06 | P&L: +0.2%",
+      "reason": "$cow is essentially flat (+0.2%) after 0.1h, tiny $437 pool, and we have only one slot — better to rotate into a fresh launch with actual momentum than babysit a dead bond curve."
     }
   ],
   "trade_stats": {
-    "total": 1658,
-    "wins": 836,
+    "total": 1659,
+    "wins": 837,
     "losses": 822,
-    "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.973207,
-    "avg_pnl_pct": 35.36,
+    "win_rate_pct": 50.5,
+    "total_pnl_sol": -1.973199,
+    "avg_pnl_pct": 35.34,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 147,
-    "today_realized_sol": 0.019654,
+    "today_trades": 148,
+    "today_realized_sol": 0.019662,
     "today_target_pct": 4.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 836,
+      "win_count": 837,
       "loss_count": 822,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T11:57:02.405914+00:00",
+  "last_llm_brief_at": "2026-09-03T11:58:23.738718+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4L6K7PJZKqjf18kpfvnfVbJeuBbJ27Z1XiaYf9hxpump": {
-      "price_usd": 5.477942382117162e-06,
+      "price_usd": 3.6910881967225963e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1191.80738359688,
-      "volume_h24": 7582.63,
+      "liquidity_usd": 436.86031181219005,
+      "volume_h24": 12557.24,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 11.821140484
-    },
-    "5eDxoFdu3TZ2jwwHaN8CoxpNTqqQ7Zm2medzJ6Xapump": {
-      "price_usd": 2.9363459046143625e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 62.40577703594,
-      "volume_h24": 1891.5,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.618982117
+      "real_sol_reserves": 4.334361661
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
