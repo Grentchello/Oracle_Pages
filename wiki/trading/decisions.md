@@ -13579,3 +13579,6 @@
 ## [2026-09-03 15:49 UTC] sell | [FULL][LLM] $down at $4.23998e-06 | P&L: -4.2%
 - **Reasoning:** $down is down4.2% in first minutes with $650 pool (below5x position size liquidity check), and we've held only 0.0h meaning momentum isn't working. Pool is too thin to trust a bounce—exit and free the slot.
 
+## [2026-09-03 15:50 UTC] buy | [LLM] $INSIDER  at $9.442e-06, spent 0.02 SOL
+- **Reasoning:** $INSIDER has the strongest attention signal in the batch: paid 40 SOL for a verified TikTok account, doing it publicly — that's a build-in-public narrative traders love. Fresh, story-driven, mcap only $10k. Standard 0.05 SOL position, will bail if it doesn't pump in15 min.
+
