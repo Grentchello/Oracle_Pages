@@ -12544,3 +12544,6 @@
 ## [2026-09-03 00:44 UTC] sell | [FULL][LLM] $$404 at $2.97068e-06 | P&L: -1.3%
 - **Reasoning:** $404 is flat at -1.3% with only $97 pool liquidity and 2% of our share — a textbook stale/fragile position. Freeing the slot to redeploy into a fresh attention launch follows the prompt's rotation-over-bagholding bias.
 
+## [2026-09-03 00:53 UTC] buy | [LLM] $LQI at $2.9897e-06, spent 0.02 SOL
+- **Reasoning:** $LQI (Lowest Quality Internet) — 'Dead Internet' meme is current meta with real description (>50 chars: 'Loading Dead Internet...Lowest Quality. Send.exe initializing... Malware detected.') and active twitter. Narrative has viral potential.
+
