@@ -13351,3 +13351,6 @@
 ## [2026-09-03 13:11 UTC] sell | [FULL][LLM] $raji at $5.91159e-06 | P&L: +24.1%
 - **Reasoning:** +24% gain on bonding curve with $1350 pool and our 0% share means thin liquidity and weak grip. Lock the profit before it reverses — small pools rug fast both directions.
 
+## [2026-09-03 13:24 UTC] buy | [LLM] $BORB at $2.844e-06, spent 0.02 SOL
+- **Reasoning:** $BORB has the strongest character-driven meme narrative — bird meme with personality ('fattest angriest bird'), dedicated twitter account (@borbcoinn), and 0.6min freshness. Character memes with humor pump hardest in the first hour.
+
