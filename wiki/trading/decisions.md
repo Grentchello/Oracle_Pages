@@ -12604,3 +12604,6 @@
 ## [2026-09-03 02:07 UTC] sell | [FULL][LLM] $NFLS at $4.10617e-06 | P&L: -19.4%
 - **Reasoning:** NFLS is down -19.4% after 6 minutes, bonding curve only 0% complete, pool tiny at $634, no narrative momentum. Near hard stop and no bounce signal — cut the loss now rather than hope.
 
+## [2026-09-03 02:12 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
