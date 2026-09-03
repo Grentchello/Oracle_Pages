@@ -12727,3 +12727,6 @@
 ## [2026-09-03 04:04 UTC] buy | [LLM] $CSA at $6.558e-06, spent 0.02 SOL
 - **Reasoning:** $CSA — explicit viral Facebook hook ('mommies in SHOCK'), strong emotional narrative, bond 28% (highest of the batch = most live traction). Pure attention-launched memecoin, exactly the entry signal.
 
+## [2026-09-03 04:05 UTC] sell | [FULL][LLM] $CSA at $5.30438e-06 | P&L: -19.1%
+- **Reasoning:** $CSA is at -19.1% after 0.0h held, no bounce signal, bonding curve only $1127 liquidity, our share=0%. Cut it before the -30% hard stop hits — better to rotate capital into fresh launches.
+
