@@ -14074,3 +14074,6 @@
 ## [2026-09-03 21:12 UTC] buy | [LLM] $BAGCOON at $4.96974e-07, spent 0.02 SOL
 - **Reasoning:** $BAGCOON passes viability (real desc + known creator @laserskullsol). Classic 'wif bag' meme template, sub-$500 mcap = maximum attention runway. Risk: tiny mcap and bonding curve only 1% — high volatility both ways.
 
+## [2026-09-03 21:13 UTC] sell | [hard-stop] $BAGCOON closed at $2.98498e-07 | P&L: -39.9%
+- **Reasoning:** Hard -30% stop
+
