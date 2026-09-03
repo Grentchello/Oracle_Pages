@@ -13477,3 +13477,12 @@
 ## [2026-09-03 14:42 UTC] sell | [PARTIAL][LLM] $HAMSTER at $1.3388e-05 | P&L: +45.8%
 - **Reasoning:** $HAMSTER +45.8% — between +30% TP (auto at 25%) and +100% TP. Lock half the gains at this level — narrative is generic (hamster meme), pool $3571 still thin, no reason to hold full size into the next leg without confirmation.
 
+## [2026-09-03 14:43 UTC] sell | [TP +30% (25%)] $KAMA at $7.08833e-06 | P&L: +96.5%
+- **Reasoning:** Auto take-profit at +96.5%
+
+## [2026-09-03 14:43 UTC] sell | [PARTIAL][LLM] $KAMA at $7.08833e-06 | P&L: +96.5%
+- **Reasoning:** +96.5% on KAMA — almost at +100% TP2 tier. Bonding curve only 35% complete, pool thin ($1759). Lock half the gain; let the runner ride free.
+
+## [2026-09-03 14:43 UTC] sell | [FULL][LLM] $HAMSTER at $1.0853e-05 | P&L: +18.2%
+- **Reasoning:** +18.2% on HAMSTER after basically 0h held — bonding curve early, pool thin. Take the quick gain, free the slot for fresh attention.
+

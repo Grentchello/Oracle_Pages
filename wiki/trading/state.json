@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.404049,
+  "balance_sol": 0.415197,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "895LDo3TENR1hmYVFZxNUDzUnYAWDHvdan9TJAbpump": {
       "symbol": "KAMA",
       "name": "Kama the Surfing Pig",
-      "amount": 53232.886911459944,
+      "amount": 19962.33259179748,
       "entry_price_usd": 3.6067929270743036e-06,
-      "entry_sol_spent": 0.001875,
+      "entry_sol_spent": 0.000703125,
       "entry_time": "2026-09-03T14:39:01.728993+00:00",
       "entry_usd_value": 2.048,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 5.546095118,
         "description": "The internet once fell in love with a surfing pig named Kama. She rode waves, made people smile — and somehow we forgot her. How did we let that happen? $KAMA is here to bring the legend back, one meme and one wave at a time. THE SURFING PIG IS BACK. TOO SMALL TO FAIL. TOO COOL TO CARE.",
         "twitter": "https://x.com/kamaonsol",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "78HBaYAAaNdv6jckRgetnf1QrCDuD16qXeCUakZupump": {
-      "symbol": "HAMSTER",
-      "name": "Sisyphean Hamster",
-      "amount": 83821.60749292093,
-      "entry_price_usd": 9.182e-06,
-      "entry_sol_spent": 0.0075,
-      "entry_time": "2026-09-03T14:40:47.019640+00:00",
-      "entry_usd_value": 2.0524,
-      "entry_signals": {
-        "liquidity_usd": 2750.7295898052603,
-        "volume_24h_usd": 16652.41,
-        "market_cap_usd": 10032.084100488968,
-        "ath_market_cap_usd": 10547.405781393836,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 26.805004773,
-        "description": "This hamster is going viral with 1.5M views. People are connecting to the video because it’s running non stop.  Solana has been so bad recently, but the only thing we can do is keep going. ",
-        "twitter": "https://x.com/barnsrebirth0/status/2095521951754203565?s=46",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -29186,31 +29164,64 @@
       "pnl_pct": 45.81,
       "exit_reason": "LLM: sell_half — $HAMSTER +45.8% — between +30% TP (auto at 25%) and +100% TP. Lock half the gains at this level — narrative is generic (hamster meme), pool $3571 stil",
       "partial": true
+    },
+    {
+      "mint": "895LDo3TENR1hmYVFZxNUDzUnYAWDHvdan9TJAbpump",
+      "symbol": "KAMA",
+      "name": "Kama the Surfing Pig",
+      "amount_sold": 13308.221727864986,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T14:39:01.728993+00:00",
+      "exit_time": "2026-09-03T14:43:29.577984+00:00",
+      "entry_price_usd": 3.6067929270743036e-06,
+      "exit_price_usd": 7.0883315190617284e-06,
+      "entry_sol_for_chunk": 0.000469,
+      "exit_sol_received": 0.000918,
+      "pnl_sol": 0.000449,
+      "pnl_pct": 96.53,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "895LDo3TENR1hmYVFZxNUDzUnYAWDHvdan9TJAbpump",
+      "symbol": "KAMA",
+      "name": "Kama the Surfing Pig",
+      "amount_sold": 19962.33259179748,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T14:39:01.728993+00:00",
+      "exit_time": "2026-09-03T14:43:52.495014+00:00",
+      "entry_price_usd": 3.6067929270743036e-06,
+      "exit_price_usd": 7.0883315190617284e-06,
+      "entry_sol_for_chunk": 0.000703,
+      "exit_sol_received": 0.001377,
+      "pnl_sol": 0.000674,
+      "pnl_pct": 96.53,
+      "exit_reason": "LLM: sell_half — +96.5% on KAMA — almost at +100% TP2 tier. Bonding curve only 35% complete, pool thin ($1759). Lock half the gain; let the runner ride free.",
+      "partial": true
+    },
+    {
+      "mint": "78HBaYAAaNdv6jckRgetnf1QrCDuD16qXeCUakZupump",
+      "symbol": "HAMSTER",
+      "name": "Sisyphean Hamster",
+      "amount_sold": 83821.60749292093,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T14:40:47.019640+00:00",
+      "exit_time": "2026-09-03T14:43:52.495304+00:00",
+      "entry_price_usd": 9.182e-06,
+      "exit_price_usd": 1.0852990808511712e-05,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.008853,
+      "pnl_sol": 0.001353,
+      "pnl_pct": 18.2,
+      "exit_reason": "LLM: sell_all — +18.2% on HAMSTER after basically 0h held — bonding curve early, pool thin. Take the quick gain, free the slot for fresh attention.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T14:42:24.699304+00:00",
+  "last_updated": "2026-09-03T14:43:53.019639+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.4,
-  "portfolio_value_usd": 42.34,
+  "last_sol_price_usd": 102.76,
+  "portfolio_value_usd": 42.74,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 14:07 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Roller at $3.12657e-06 | P&L: +5.2%",
-      "reason": "Up +5.2% but only just entered, pool tiny at $152 with1% share — thin liquidity means any exit is fine but no reason to be greedy yet. Lock half, let the rest ride if narrative catches."
-    },
-    {
-      "time": "2026-09-03 14:07 UTC",
-      "action": "buy",
-      "details": "[LLM] $CATCH at $3.435e-06, spent 0.02 SOL",
-      "reason": "$CATCH — Pokémon-style crash game with a dedicated X account, narrative is concrete (game mechanic = retention hook), low mcap $3.4k. Speculative but the 'first Pkmn crash game on SOL' angle is novel attention."
-    },
-    {
-      "time": "2026-09-03 14:09 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CATCH at $3.4373e-06 | P&L: +0.1%",
-      "reason": "$CATCH is flat at +0.1% with no momentum signal. Pool only $308, low liquidity, weak attention. Free up slot for fresh launch with actual narrative."
-    },
     {
       "time": "2026-09-03 14:10 UTC",
       "action": "sell",
@@ -29312,51 +29323,69 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $HAMSTER at $1.3388e-05 | P&L: +45.8%",
       "reason": "$HAMSTER +45.8% — between +30% TP (auto at 25%) and +100% TP. Lock half the gains at this level — narrative is generic (hamster meme), pool $3571 still thin, no reason to hold full size into the next leg without confirmation."
+    },
+    {
+      "time": "2026-09-03 14:43 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $KAMA at $7.08833e-06 | P&L: +96.5%",
+      "reason": "Auto take-profit at +96.5%"
+    },
+    {
+      "time": "2026-09-03 14:43 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $KAMA at $7.08833e-06 | P&L: +96.5%",
+      "reason": "+96.5% on KAMA — almost at +100% TP2 tier. Bonding curve only 35% complete, pool thin ($1759). Lock half the gain; let the runner ride free."
+    },
+    {
+      "time": "2026-09-03 14:43 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HAMSTER at $1.0853e-05 | P&L: +18.2%",
+      "reason": "+18.2% on HAMSTER after basically 0h held — bonding curve early, pool thin. Take the quick gain, free the slot for fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 1714,
-    "wins": 881,
+    "total": 1717,
+    "wins": 884,
     "losses": 833,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.919221,
-    "avg_pnl_pct": 35.51,
+    "win_rate_pct": 51.5,
+    "total_pnl_sol": -1.916745,
+    "avg_pnl_pct": 35.57,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 203,
-    "today_realized_sol": 0.07364,
-    "today_target_pct": 18.4,
+    "today_trades": 206,
+    "today_realized_sol": 0.076116,
+    "today_target_pct": 19.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 881,
+      "win_count": 884,
       "loss_count": 833,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T14:42:24.698819+00:00",
+  "last_llm_brief_at": "2026-09-03T14:43:52.494970+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "895LDo3TENR1hmYVFZxNUDzUnYAWDHvdan9TJAbpump": {
-      "price_usd": 7.566216067936141e-06,
+      "price_usd": 7.0883315190617284e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1922.0149440512,
-      "volume_h24": 5117.95,
+      "liquidity_usd": 1759.420348098,
+      "volume_h24": 9752.56,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 18.769677188
+      "real_sol_reserves": 17.12164605
     },
     "78HBaYAAaNdv6jckRgetnf1QrCDuD16qXeCUakZupump": {
-      "price_usd": 1.3387964247089436e-05,
+      "price_usd": 1.0852990808511712e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3571.053351424,
-      "volume_h24": 28895.71,
+      "liquidity_usd": 2908.86130571204,
+      "volume_h24": 35600.37,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 34.873567885
+      "real_sol_reserves": 28.307330729
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
