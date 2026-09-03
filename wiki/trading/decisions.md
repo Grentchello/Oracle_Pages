@@ -13720,3 +13720,6 @@
 ## [2026-09-03 17:22 UTC] sell | [FULL][LLM] $DECAGON at $2.98132e-06 | P&L: -14.5%
 - **Reasoning:** Down14.5% on a $28 pool with 6% of supply — this is illiquid bag-holder territory. No bounce signal, no narrative catalyst visible. Cut the loss before it hits -30% and frees the slot.
 
+## [2026-09-03 17:36 UTC] buy | [LLM] $LESSGO at $2.02e-05, spent 0.02 SOL
+- **Reasoning:** $LESSGO has the strongest signal of the batch — viral phrase 'when everything goes up there's only one thing to say', active Twitter @lessgosol, and the highest mcap ($28k) with bond already 40% filled. Universal meme appeal, fresh launch, attention catalyst present. Passes viability (desc + twitter) and fragility (no blocked keywords) gates.
+
