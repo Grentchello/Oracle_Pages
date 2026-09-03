@@ -14116,3 +14116,6 @@
 ## [2026-09-03 21:52 UTC] buy | [LLM] $bu11run at $4.621e-06, spent 0.02 SOL
 - **Reasoning:** $bu11run has the clearest meta-narrative of the batch - 'token that runs when other tokens run' is a viral hook tied to FOMO/pump.fun culture, has twitter link, decent desc, $4.9k mcap gives room to 5-10x.
 
+## [2026-09-03 21:53 UTC] sell | [FULL][LLM] $bu11run at $4.43728e-06 | P&L: -4.0%
+- **Reasoning:** $bu11run down -4% after a fresh entry with zero narrative hook (bull run pun),4% already gone in minutes. No story, no catalyst, no reason to hold a stale loser.
+
