@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.352908,
+  "balance_sol": 0.37267,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Aq3vatpXysxogWwtFQwYJ2magEK2CrkBqL3TwcDGpump": {
-      "symbol": "Torah",
-      "name": "Torah Sensei",
-      "amount": 596525.6257449344,
-      "entry_price_usd": 3.356e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T04:43:54.653676+00:00",
-      "entry_usd_value": 2.00194,
-      "entry_signals": {
-        "liquidity_usd": 224.29596174733499,
-        "volume_24h_usd": 284.63,
-        "market_cap_usd": 3350.3008461558366,
-        "ath_market_cap_usd": 3357.4543421542617,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.240786055,
-        "description": "Ansem said “Torah Sensei.” What is he shilling this time? 👀",
-        "twitter": "https://x.com/blknoiz06/status/2095257665450508601",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -26614,19 +26591,30 @@
       "pnl_pct": 46.07,
       "exit_reason": "LLM: sell_all — Up +46.1% — well past +30% TP threshold, bonding-curve pool only $2.9k is illiquid and prone to sharp reversal. Lock the gain, free the slot for fresh",
       "partial": false
+    },
+    {
+      "mint": "Aq3vatpXysxogWwtFQwYJ2magEK2CrkBqL3TwcDGpump",
+      "symbol": "Torah",
+      "name": "Torah Sensei",
+      "amount_sold": 596525.6257449344,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T04:43:54.653676+00:00",
+      "exit_time": "2026-09-03T04:45:15.744639+00:00",
+      "entry_price_usd": 3.356e-06,
+      "exit_price_usd": 3.3168004647133865e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019762,
+      "pnl_sol": -0.000238,
+      "pnl_pct": -1.17,
+      "exit_reason": "LLM: sell_all — $Torah down -1.2% after just opening, still on bonding curve with only $266 pool liquidity (well below 5x position size requirement of $50). Tiny liqu",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T04:43:54.653937+00:00",
+  "last_updated": "2026-09-03T04:45:16.281611+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.097,
-  "portfolio_value_usd": 37.33,
+  "last_sol_price_usd": 100.12,
+  "portfolio_value_usd": 37.31,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 03:55 UTC",
-      "action": "buy",
-      "details": "[LLM] $MM at $7.48889e-06, spent 0.02 SOL",
-      "reason": "$MM (Marcat Maker) — bonding 28%, has twitter link, creator narrating a 'going live' story on PumpFun. Attention narrative + real-time livestream = viral mechanic. Fresh 0.1min age, decent bonding progress."
-    },
     {
       "time": "2026-09-03 03:58 UTC",
       "action": "sell",
@@ -26740,30 +26728,48 @@
       "action": "buy",
       "details": "[LLM] $Torah at $3.356e-06, spent 0.02 SOL",
       "reason": "$Torah passes both viability gates (desc + twitter), has an Ansem-shibled meta-narrative which is exactly the attention-loop memecoin traders hunt. Smaller mcap ($3.3k) means more room if it catches a second wave. 0.1 SOL position."
+    },
+    {
+      "time": "2026-09-03 04:45 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Torah at $3.3168e-06 | P&L: -1.2%",
+      "reason": "$Torah down -1.2% after just opening, still on bonding curve with only $266 pool liquidity (well below 5x position size requirement of $50). Tiny liquidity + negative momentum + no clear attention signal in this tick = exit before it gets worse. Cut the dead weight."
     }
   ],
   "trade_stats": {
-    "total": 1564,
+    "total": 1565,
     "wins": 788,
-    "losses": 776,
+    "losses": 777,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.959735,
-    "avg_pnl_pct": 36.21,
+    "total_pnl_sol": -1.959973,
+    "avg_pnl_pct": 36.19,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 53,
-    "today_realized_sol": 0.033126,
-    "today_target_pct": 8.3,
+    "today_trades": 54,
+    "today_realized_sol": 0.032888,
+    "today_target_pct": 8.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 788,
-      "loss_count": 776,
+      "loss_count": 777,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T04:43:52.925311+00:00",
+  "last_llm_brief_at": "2026-09-03T04:45:15.744094+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Aq3vatpXysxogWwtFQwYJ2magEK2CrkBqL3TwcDGpump": {
+      "price_usd": 3.3168004647133865e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 265.89427840524,
+      "volume_h24": 459.76,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.655755877
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

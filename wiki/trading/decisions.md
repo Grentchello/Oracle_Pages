@@ -12766,3 +12766,6 @@
 ## [2026-09-03 04:43 UTC] buy | [LLM] $Torah at $3.356e-06, spent 0.02 SOL
 - **Reasoning:** $Torah passes both viability gates (desc + twitter), has an Ansem-shibled meta-narrative which is exactly the attention-loop memecoin traders hunt. Smaller mcap ($3.3k) means more room if it catches a second wave. 0.1 SOL position.
 
+## [2026-09-03 04:45 UTC] sell | [FULL][LLM] $Torah at $3.3168e-06 | P&L: -1.2%
+- **Reasoning:** $Torah down -1.2% after just opening, still on bonding curve with only $266 pool liquidity (well below 5x position size requirement of $50). Tiny liquidity + negative momentum + no clear attention signal in this tick = exit before it gets worse. Cut the dead weight.
+
