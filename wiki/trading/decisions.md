@@ -13087,3 +13087,6 @@
 ## [2026-09-03 10:24 UTC] buy | [LLM] $BENNIE at $3.05932e-06, spent 0.02 SOL
 - **Reasoning:** $BENNIE combines a memorable name, cute-meme branding, and a dedicated X account at an exceptionally low market cap. The narrative is less proven than the alternatives, but its early attention and large upside justify a small exploratory position.
 
+## [2026-09-03 10:28 UTC] sell | [FULL][LLM] $BENNIE at $2.89809e-06 | P&L: -5.3%
+- **Reasoning:** $BENNIE is down5.3% after6 minutes, with4% of a tiny $52 pool — exit immediately to free the slot. No bounce signal, just bleeding on low liquidity.
+
