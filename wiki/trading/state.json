@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.332384,
+  "balance_sol": 0.352532,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HrGNRvP42G4pLZwCNhkwitYfhDT9dMKAcpdssxgPpump": {
-      "symbol": "Candle",
-      "name": "Test Your Candle",
-      "amount": 306764.7565890764,
-      "entry_price_usd": 6.876930790409841e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T20:12:06.712955+00:00",
-      "entry_usd_value": 2.1096,
-      "entry_signals": {
-        "liquidity_usd": 1745.2432863860402,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6876.18486403255,
-        "ath_market_cap_usd": 7114.273211780113,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 16.545727023,
-        "description": "PumpFun callouts are literally giving known people bigger candles than Telegram's prime. So I'm making this coin, to see who has the best candle with PumpFun callouts. Test Your Candle.  Let's see who has the biggest candle.",
-        "twitter": "https://x.com/onboarder67/status/2095605459847671974",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30694,19 +30671,30 @@
       "pnl_pct": 0.75,
       "exit_reason": "LLM: sell_all — $Normie is +0.7% after 0.0h on a thin $3673 bonding curve with no momentum. Capital is better deployed in fresh attention; this is a stale, non-moving",
       "partial": false
+    },
+    {
+      "mint": "HrGNRvP42G4pLZwCNhkwitYfhDT9dMKAcpdssxgPpump",
+      "symbol": "Candle",
+      "name": "Test Your Candle",
+      "amount_sold": 306764.7565890764,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T20:12:06.712955+00:00",
+      "exit_time": "2026-09-03T20:13:26.130040+00:00",
+      "entry_price_usd": 6.876930790409841e-06,
+      "exit_price_usd": 6.921230948729624e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020148,
+      "pnl_sol": 0.000148,
+      "pnl_pct": 0.64,
+      "exit_reason": "LLM: sell_all — $Candle is essentially flat (+0.6%) on a tiny $1684 pool with 0% share. No momentum, no narrative catalyst visible, and capital is better rotated into",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T20:12:06.713133+00:00",
+  "last_updated": "2026-09-03T20:13:26.651370+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.48,
-  "portfolio_value_usd": 37.17,
+  "last_sol_price_usd": 105.38,
+  "portfolio_value_usd": 37.15,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 19:25 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $ONBOARDING at $1.15653e-05 | P&L: +77.6%",
-      "reason": "+77.6% is deep into the +30% TP threshold but still below +100%; the bot will auto-TP at +100% (50% remaining). Locking half now secures realized gain while leaving a runner. Bonding curve at 0% complete with $3k pool is fragile — better to bank half."
-    },
     {
       "time": "2026-09-03 19:26 UTC",
       "action": "sell",
@@ -30820,30 +30808,48 @@
       "action": "buy",
       "details": "[LLM] $Candle at $6.87693e-06, spent 0.02 SOL",
       "reason": "$Candle (Test Your Candle) — meta-narrative about PumpFun vs Telegram callouts, decent desc, $6.9k mcap, fresh. Meta-commentary tokens on PumpFun itself have track record of catching attention. 0.1 SOL position."
+    },
+    {
+      "time": "2026-09-03 20:13 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Candle at $6.92123e-06 | P&L: +0.6%",
+      "reason": "$Candle is essentially flat (+0.6%) on a tiny $1684 pool with 0% share. No momentum, no narrative catalyst visible, and capital is better rotated into fresh attention-launched tokens. Stale exit territory already."
     }
   ],
   "trade_stats": {
-    "total": 1804,
-    "wins": 927,
+    "total": 1805,
+    "wins": 928,
     "losses": 877,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.980263,
-    "avg_pnl_pct": 34.79,
+    "total_pnl_sol": -1.980115,
+    "avg_pnl_pct": 34.77,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 293,
-    "today_realized_sol": 0.012598,
-    "today_target_pct": 3.1,
+    "today_trades": 294,
+    "today_realized_sol": 0.012746,
+    "today_target_pct": 3.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 927,
+      "win_count": 928,
       "loss_count": 877,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T20:12:05.244317+00:00",
+  "last_llm_brief_at": "2026-09-03T20:13:26.130008+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HrGNRvP42G4pLZwCNhkwitYfhDT9dMKAcpdssxgPpump": {
+      "price_usd": 6.921230948729624e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1684.01808971198,
+      "volume_h24": 8662.29,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 15.980433571
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

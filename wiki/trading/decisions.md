@@ -13930,3 +13930,6 @@
 ## [2026-09-03 20:12 UTC] buy | [LLM] $Candle at $6.87693e-06, spent 0.02 SOL
 - **Reasoning:** $Candle (Test Your Candle) — meta-narrative about PumpFun vs Telegram callouts, decent desc, $6.9k mcap, fresh. Meta-commentary tokens on PumpFun itself have track record of catching attention. 0.1 SOL position.
 
+## [2026-09-03 20:13 UTC] sell | [FULL][LLM] $Candle at $6.92123e-06 | P&L: +0.6%
+- **Reasoning:** $Candle is essentially flat (+0.6%) on a tiny $1684 pool with 0% share. No momentum, no narrative catalyst visible, and capital is better rotated into fresh attention-launched tokens. Stale exit territory already.
+
