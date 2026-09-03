@@ -13765,3 +13765,6 @@
 ## [2026-09-03 18:04 UTC] sell | [FULL][LLM] $BC at $3.9626e-06 | P&L: -1.3%
 - **Reasoning:** Position down 1.3% after 0.1h with pool of only $510 and 0% share — liquidity is razor thin and there's no bounce signal. $BC isn't in the new launch flow, no viral attention driving it. Cut the dead weight and free the slot for a fresh attention play.
 
+## [2026-09-03 18:12 UTC] buy | [LLM] $TAIDOU at $3.09752e-06, spent 0.02 SOL
+- **Reasoning:** TAIDOU has a genuine human story — ADHD founder using coin as accountability mechanism for an AI company with explicit buyback-and-burn promise. Long desc passes viability gate, has linked twitter. Memecoins reward weird sincere narratives. Risk: Chinese-language narrative may not cross to Western meme traders.
+
