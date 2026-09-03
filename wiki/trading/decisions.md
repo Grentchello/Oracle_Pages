@@ -12565,3 +12565,6 @@
 ## [2026-09-03 01:18 UTC] buy | [LLM] $PULE  at $3.52105e-06, spent 0.02 SOL
 - **Reasoning:** $PULE has a meta-narrative: 'see who made the token before you buy it' — anti-rug tooling as a meme. Addressable to degen traders themselves, which is a strong reflexive audience. Low mcap $3.5k but fresh bond and clear story.
 
+## [2026-09-03 01:20 UTC] buy | [LLM] $Snorter at $3.07629e-06, spent 0.02 SOL
+- **Reasoning:** Snorter bot ecosystem narrative (recurring meta-narrative in 2024-2025), has twitter + 50+ char desc + real project story, passes viability gate. $3k mcap = early enough for attention pump. Risk: thin liquidity at $3k mcap means exit slippage.
+
