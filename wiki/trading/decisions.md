@@ -13501,3 +13501,6 @@
 ## [2026-09-03 14:55 UTC] buy | [LLM] $YAPZO at $3.82362e-06, spent 0.02 SOL
 - **Reasoning:** $YAPZO has the cleanest narrative of the batch — dedicated @yapzotalk twitter handle, coherent 'born in the group chat' origin story with full description, and a memorable brandable name. mcap $3.8k leaves room for 5-10x if attention catches. Risks: ultra-fresh (0.4min), bond only 11% (still on bonding curve), and could be a slow runner — but the substance here beats the celebrity/clone/scanner-token noise around it.
 
+## [2026-09-03 14:56 UTC] sell | [FULL][LLM] $YAPZO at $2.90047e-06 | P&L: -24.1%
+- **Reasoning:** $YAPZO down -24.1%, very close to -30% hard stop. Bonding-curve pool with 'our share=758272810%' is alarming — that suggests near-zero liquidity at our entry price. No bounce signal visible, capital rotation beats bag-holding.
+
