@@ -13090,3 +13090,6 @@
 ## [2026-09-03 10:28 UTC] sell | [FULL][LLM] $BENNIE at $2.89809e-06 | P&L: -5.3%
 - **Reasoning:** $BENNIE is down5.3% after6 minutes, with4% of a tiny $52 pool — exit immediately to free the slot. No bounce signal, just bleeding on low liquidity.
 
+## [2026-09-03 10:35 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
