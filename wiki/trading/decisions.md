@@ -12757,3 +12757,9 @@
 ## [2026-09-03 04:31 UTC] sell | [PARTIAL][LLM] $Moho at $1.1026e-05 | P&L: +49.3%
 - **Reasoning:** Up 49.3% and bonding curve is still incomplete (risk of dump as curve completes). Lock half the gain now per scalp discipline — up >20% with any doubt = take profit. Hold half for further upside if narrative ('Last Moho') sustains.
 
+## [2026-09-03 04:32 UTC] sell | [TP +30% (25%)] $Moho at $1.07857e-05 | P&L: +46.1%
+- **Reasoning:** Auto take-profit at +46.1%
+
+## [2026-09-03 04:32 UTC] sell | [FULL][LLM] $Moho at $1.07857e-05 | P&L: +46.1%
+- **Reasoning:** Up +46.1% — well past +30% TP threshold, bonding-curve pool only $2.9k is illiquid and prone to sharp reversal. Lock the gain, free the slot for fresh attention.
+
