@@ -13987,3 +13987,9 @@
 ## [2026-09-03 20:41 UTC] sell | [PARTIAL][LLM] $Intern at $4.566e-05 | P&L: +115.7%
 - **Reasoning:** Up 115.7% and still pumping (424 buys vs 196 sells m5, +1286% m5). Per the +100% TP rule I should lock gains; selling half banks profit while letting the runner ride.
 
+## [2026-09-03 20:42 UTC] sell | [TP +30% (25%)] $Intern at $4.063e-05 | P&L: +91.9%
+- **Reasoning:** Auto take-profit at +91.9%
+
+## [2026-09-03 20:43 UTC] sell | [FULL][LLM] $Intern at $4.063e-05 | P&L: +91.9%
+- **Reasoning:** +91.9% in <1 min on a $15.5k pool — peak attention has likely been captured, and small pools collapse fast after the initial pop. Lock the gain. Without a sell, a quick 50% retrace is real risk.
+

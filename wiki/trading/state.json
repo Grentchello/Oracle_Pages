@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.342267,
+  "balance_sol": 0.351871,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6dGkvc7xGyNc6GGr4FSJfnkzfC3xaNskjkj6HxVypump": {
-      "symbol": "Intern",
-      "name": "Intern",
-      "amount": 24844.119036372227,
-      "entry_price_usd": 2.117e-05,
-      "entry_sol_spent": 0.005,
-      "entry_time": "2026-09-03T20:40:14.490644+00:00",
-      "entry_usd_value": 2.1038,
-      "entry_signals": {
-        "liquidity_usd": 7862.246201639809,
-        "volume_24h_usd": 33298.8,
-        "market_cap_usd": 26000.06057213211,
-        "ath_market_cap_usd": 31876.69063125823,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 74.743285499,
-        "description": "Mint an AI intern with $intern, put it to work at Apple, Tesla or NVIDIA, and every hour it brings you real tokenized stock of that company, bought with the token's creator fees",
-        "twitter": "https://x.com/internagents",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30898,25 +30875,47 @@
       "pnl_pct": 115.68,
       "exit_reason": "LLM: sell_half — Up 115.7% and still pumping (424 buys vs 196 sells m5, +1286% m5). Per the +100% TP rule I should lock gains; selling half banks profit while letting ",
       "partial": true
+    },
+    {
+      "mint": "6dGkvc7xGyNc6GGr4FSJfnkzfC3xaNskjkj6HxVypump",
+      "symbol": "Intern",
+      "name": "Intern",
+      "amount_sold": 6211.029759093057,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T20:40:14.490644+00:00",
+      "exit_time": "2026-09-03T20:42:40.349373+00:00",
+      "entry_price_usd": 2.117e-05,
+      "exit_price_usd": 4.063e-05,
+      "entry_sol_for_chunk": 0.00125,
+      "exit_sol_received": 0.002401,
+      "pnl_sol": 0.001151,
+      "pnl_pct": 91.92,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "6dGkvc7xGyNc6GGr4FSJfnkzfC3xaNskjkj6HxVypump",
+      "symbol": "Intern",
+      "name": "Intern",
+      "amount_sold": 18633.08927727917,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T20:40:14.490644+00:00",
+      "exit_time": "2026-09-03T20:43:02.492333+00:00",
+      "entry_price_usd": 2.117e-05,
+      "exit_price_usd": 4.063e-05,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.007203,
+      "pnl_sol": 0.003453,
+      "pnl_pct": 91.92,
+      "exit_reason": "LLM: sell_all — +91.9% in <1 min on a $15.5k pool — peak attention has likely been captured, and small pools collapse fast after the initial pop. Lock the gain. Witho",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T20:41:36.856987+00:00",
+  "last_updated": "2026-09-03T20:43:02.492643+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.11,
-  "portfolio_value_usd": 36.5,
+  "last_sol_price_usd": 105.098,
+  "portfolio_value_usd": 36.98,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 20:12 UTC",
-      "action": "buy",
-      "details": "[LLM] $Candle at $6.87693e-06, spent 0.02 SOL",
-      "reason": "$Candle (Test Your Candle) — meta-narrative about PumpFun vs Telegram callouts, decent desc, $6.9k mcap, fresh. Meta-commentary tokens on PumpFun itself have track record of catching attention. 0.1 SOL position."
-    },
-    {
-      "time": "2026-09-03 20:13 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Candle at $6.92123e-06 | P&L: +0.6%",
-      "reason": "$Candle is essentially flat (+0.6%) on a tiny $1684 pool with 0% share. No momentum, no narrative catalyst visible, and capital is better rotated into fresh attention-launched tokens. Stale exit territory already."
-    },
     {
       "time": "2026-09-03 20:14 UTC",
       "action": "buy",
@@ -31024,47 +31023,48 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Intern at $4.566e-05 | P&L: +115.7%",
       "reason": "Up 115.7% and still pumping (424 buys vs 196 sells m5, +1286% m5). Per the +100% TP rule I should lock gains; selling half banks profit while letting the runner ride."
+    },
+    {
+      "time": "2026-09-03 20:42 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Intern at $4.063e-05 | P&L: +91.9%",
+      "reason": "Auto take-profit at +91.9%"
+    },
+    {
+      "time": "2026-09-03 20:43 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Intern at $4.063e-05 | P&L: +91.9%",
+      "reason": "+91.9% in <1 min on a $15.5k pool — peak attention has likely been captured, and small pools collapse fast after the initial pop. Lock the gain. Without a sell, a quick 50% retrace is real risk."
     }
   ],
   "trade_stats": {
-    "total": 1816,
-    "wins": 935,
+    "total": 1818,
+    "wins": 937,
     "losses": 881,
     "win_rate_pct": 51.5,
-    "total_pnl_sol": -1.98538,
-    "avg_pnl_pct": 34.66,
+    "total_pnl_sol": -1.980776,
+    "avg_pnl_pct": 34.73,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 305,
-    "today_realized_sol": 0.007481,
-    "today_target_pct": 1.9,
+    "today_trades": 307,
+    "today_realized_sol": 0.012085,
+    "today_target_pct": 3.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 935,
+      "win_count": 937,
       "loss_count": 881,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T20:41:36.855322+00:00",
+  "last_llm_brief_at": "2026-09-03T20:43:02.492148+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "GgjSyTCTpUgksQMRVHZthTCM6HQDZE8EUg54KJpupump": {
-      "price_usd": 3.1396840491811162e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 106.00857855785002,
-      "volume_h24": 109.06,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.008548935
-    },
     "6dGkvc7xGyNc6GGr4FSJfnkzfC3xaNskjkj6HxVypump": {
-      "price_usd": 4.566e-05,
-      "change_h24": 7.07,
-      "change_h1": 7.07,
-      "liquidity_usd": 16542.08,
-      "volume_h24": 9167.02,
+      "price_usd": 4.063e-05,
+      "change_h24": -4.71,
+      "change_h1": -4.71,
+      "liquidity_usd": 15519.98,
+      "volume_h24": 32932.83,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     }
