@@ -13798,3 +13798,6 @@
 ## [2026-09-03 18:35 UTC] sell | [hard-stop] $Gold Bull closed at $3.02098e-06 | P&L: -47.1%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-03 18:40 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
