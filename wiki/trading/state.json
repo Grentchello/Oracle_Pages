@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.328386,
+  "balance_sol": 0.359655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "2suRoRxUvYJP5fSMuq4qDtbQbVxFprpbcxGAHxkrpump": {
       "symbol": "rigbycat",
       "name": "rigbycat",
-      "amount": 625652.1739130435,
+      "amount": 156413.04347826086,
       "entry_price_usd": 3.22e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.005,
       "entry_time": "2026-09-03T06:28:48.585317+00:00",
       "entry_usd_value": 2.0146,
       "entry_signals": {
@@ -27010,25 +27010,47 @@
       "pnl_pct": -25.78,
       "exit_reason": "LLM: sell_all — At -25.8%, dangerously close to the -30% hard stop. Pool is only $34 with my 4% share — thin liquidity makes recovery unlikely. Better to rotate capit",
       "partial": false
+    },
+    {
+      "mint": "2suRoRxUvYJP5fSMuq4qDtbQbVxFprpbcxGAHxkrpump",
+      "symbol": "rigbycat",
+      "name": "rigbycat",
+      "amount_sold": 312826.0869565217,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T06:28:48.585317+00:00",
+      "exit_time": "2026-09-03T06:29:52.500750+00:00",
+      "entry_price_usd": 3.22e-06,
+      "exit_price_usd": 6.719109232059253e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.020846,
+      "pnl_sol": 0.010846,
+      "pnl_pct": 108.67,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "2suRoRxUvYJP5fSMuq4qDtbQbVxFprpbcxGAHxkrpump",
+      "symbol": "rigbycat",
+      "name": "rigbycat",
+      "amount_sold": 156413.04347826086,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T06:28:48.585317+00:00",
+      "exit_time": "2026-09-03T06:30:12.653561+00:00",
+      "entry_price_usd": 3.22e-06,
+      "exit_price_usd": 6.719109232059253e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.010423,
+      "pnl_sol": 0.005423,
+      "pnl_pct": 108.67,
+      "exit_reason": "LLM: sell_half — +108.7% with pool=$1,645 and our share=0% means trying to sell_all would crater the price. sell_half locks ~+50% realized gains, leaves skin in the ga",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T06:28:48.585662+00:00",
+  "last_updated": "2026-09-03T06:30:12.654758+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.73,
-  "portfolio_value_usd": 37.11,
+  "last_sol_price_usd": 100.83,
+  "portfolio_value_usd": 38.78,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 05:39 UTC",
-      "action": "buy",
-      "details": "[LLM] $GRASS at $2.904e-06, spent 0.02 SOL",
-      "reason": "$GRASS has organic news narrative (Nepal 'grass ritual' Times article), real-world sympathy hook drives attention beyond crypto twitter. Risk: 1min old, $2.9k mcap, thin liquidity — but news-anchored memecoins with emotional core have 5-10x potential."
-    },
-    {
-      "time": "2026-09-03 05:41 UTC",
-      "action": "buy",
-      "details": "[LLM] $A's CAT at $3.822e-06, spent 0.02 SOL",
-      "reason": "$A's CAT has the clearest crypto-native narrative: 'Ansem and the bull had a baby' piggybacks on a top memecoin influencer with a dedicated X account (@Blackcat_UD). Strong attention signal, passes viability and fragility gates."
-    },
     {
       "time": "2026-09-03 05:43 UTC",
       "action": "sell",
@@ -27136,40 +27158,63 @@
       "action": "buy",
       "details": "[LLM] $rigbycat at $3.22e-06, spent 0.02 SOL",
       "reason": "Strongest concrete attention signal in the batch: '50M views in one video' is documented viral proof, not just narrative. Fresh (1.2min), $3.8k mcap is tiny enough for 5-10x room. Risk: low bond (12%), thin liquidity could mean fast dump too — that's why I take the 0.05 SOL scalp size."
+    },
+    {
+      "time": "2026-09-03 06:29 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $rigbycat at $6.71911e-06 | P&L: +108.7%",
+      "reason": "Auto take-profit at +108.7%"
+    },
+    {
+      "time": "2026-09-03 06:30 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $rigbycat at $6.71911e-06 | P&L: +108.7%",
+      "reason": "+108.7% with pool=$1,645 and our share=0% means trying to sell_all would crater the price. sell_half locks ~+50% realized gains, leaves skin in the game if it keeps running, and respects thin liquidity. Half-exit is the only realistic profit-take here."
     }
   ],
   "trade_stats": {
-    "total": 1586,
-    "wins": 797,
+    "total": 1588,
+    "wins": 799,
     "losses": 789,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.964257,
-    "avg_pnl_pct": 35.8,
+    "total_pnl_sol": -1.947988,
+    "avg_pnl_pct": 35.89,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 75,
-    "today_realized_sol": 0.028604,
-    "today_target_pct": 7.2,
+    "today_trades": 77,
+    "today_realized_sol": 0.044873,
+    "today_target_pct": 11.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 797,
+      "win_count": 799,
       "loss_count": 789,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T06:28:47.114474+00:00",
+  "last_llm_brief_at": "2026-09-03T06:30:12.653523+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "9cunwKDbz29QGviC1yFBdkC2tWvTywsu3oV7vSxrpump": {
-      "price_usd": 3.097165241630516e-06,
+      "price_usd": 3.104087828285004e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 147.09893835686,
-      "volume_h24": 157.39,
+      "liquidity_usd": 149.21291674686,
+      "volume_h24": 159.36,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.460328982
+      "real_sol_reserves": 1.479846442
+    },
+    "2suRoRxUvYJP5fSMuq4qDtbQbVxFprpbcxGAHxkrpump": {
+      "price_usd": 6.719109232059253e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1645.03916771295,
+      "volume_h24": 4818.11,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 16.314977365
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

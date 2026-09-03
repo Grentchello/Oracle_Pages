@@ -12883,3 +12883,9 @@
 ## [2026-09-03 06:28 UTC] buy | [LLM] $rigbycat at $3.22e-06, spent 0.02 SOL
 - **Reasoning:** Strongest concrete attention signal in the batch: '50M views in one video' is documented viral proof, not just narrative. Fresh (1.2min), $3.8k mcap is tiny enough for 5-10x room. Risk: low bond (12%), thin liquidity could mean fast dump too — that's why I take the 0.05 SOL scalp size.
 
+## [2026-09-03 06:29 UTC] sell | [TP +100% (50%)] $rigbycat at $6.71911e-06 | P&L: +108.7%
+- **Reasoning:** Auto take-profit at +108.7%
+
+## [2026-09-03 06:30 UTC] sell | [PARTIAL][LLM] $rigbycat at $6.71911e-06 | P&L: +108.7%
+- **Reasoning:** +108.7% with pool=$1,645 and our share=0% means trying to sell_all would crater the price. sell_half locks ~+50% realized gains, leaves skin in the game if it keeps running, and respects thin liquidity. Half-exit is the only realistic profit-take here.
+
