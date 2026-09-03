@@ -13852,3 +13852,6 @@
 ## [2026-09-03 19:11 UTC] sell | [hard-stop] $CYBERCAB closed at $3.06554e-06 | P&L: -50.3%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-03 19:13 UTC] buy | [LLM] $gc at $3.78e-06, spent 0.02 SOL
+- **Reasoning:** $GC ghost coin — has a narrative description (50+ chars passing viability), creator twitter @gh1stsol, sub-$4k mcap with bonding just starting. Ghost/spooky meta is recurring meme territory, low mcap gives multi-x upside if attention catches.
+
