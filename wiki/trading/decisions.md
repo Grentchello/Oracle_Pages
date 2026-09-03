@@ -14197,3 +14197,9 @@
 ## [2026-09-03 23:08 UTC] buy | [LLM] $Wolf at $5.28e-06, spent 0.02 SOL
 - **Reasoning:** Wolf/winter narrative is trending, has twitter attached, dev publicly buying on bonding curve (showing conviction). Fresh $5.2k mcap with clear attention story. Second strongest pick.
 
+## [2026-09-03 23:09 UTC] sell | [hard-stop] $Wolf closed at $2.92781e-06 | P&L: -44.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 23:09 UTC] buy | [LLM] $toast at $3.106e-06, spent 0.02 SOL
+- **Reasoning:** Toast Malone = Post Malone parody with real linked twitter to Post Malone (35M+ followers). Funny, memeable name ('Circles to Cereals'), $3.1k mcap, narrative has viral potential for 5-10x in first hour.
+
