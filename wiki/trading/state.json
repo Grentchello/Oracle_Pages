@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.32001,
+  "balance_sol": 0.340334,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FAJq8GdsC4DSHvZotrrHAF58cqdAoLRkETCWU6MsZnt1": {
-      "symbol": "APOLLO",
-      "name": "Apollo",
-      "amount": 653395.6386292834,
-      "entry_price_usd": 3.21e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T18:17:18.525851+00:00",
-      "entry_usd_value": 2.0974,
-      "entry_signals": {
-        "liquidity_usd": 171.29552454081,
-        "volume_24h_usd": 207.74,
-        "market_cap_usd": 3259.916205913397,
-        "ath_market_cap_usd": 3261.0499103423203,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.633408263,
-        "description": "First cat on the moon. Zero gravity trajectory on Solana.",
-        "twitter": "https://x.com/lightningAko",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30184,19 +30161,30 @@
       "pnl_pct": -0.13,
       "exit_reason": "LLM: sell_all — Flat at -0.1%, pool only $85 with 2% share = near-impossible to exit at meaningful size. No narrative momentum, no catalyst. Recycle capital into fres",
       "partial": false
+    },
+    {
+      "mint": "FAJq8GdsC4DSHvZotrrHAF58cqdAoLRkETCWU6MsZnt1",
+      "symbol": "APOLLO",
+      "name": "Apollo",
+      "amount_sold": 653395.6386292834,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T18:17:18.525851+00:00",
+      "exit_time": "2026-09-03T18:18:31.071363+00:00",
+      "entry_price_usd": 3.21e-06,
+      "exit_price_usd": 3.264455642720659e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020324,
+      "pnl_sol": 0.000324,
+      "pnl_pct": 1.7,
+      "exit_reason": "LLM: sell_all — Apollo up only +1.7% with $172 pool liquidity, well below 5x position size requirement, and the narrative is generic. Stale exit risk high. Lock tiny ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T18:17:18.778899+00:00",
+  "last_updated": "2026-09-03T18:18:31.317561+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.87,
-  "portfolio_value_usd": 35.66,
+  "last_sol_price_usd": 104.95,
+  "portfolio_value_usd": 35.72,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 17:18 UTC",
-      "action": "buy",
-      "details": "[LLM] $DECAGON at $3.48679e-06, spent 0.02 SOL",
-      "reason": "$DECAGON tied to NASA Saturn atmospheric wave discovery — legitimate science narrative with viral hook, fresh 0.1min launch, decent $3.5k mcap entry. Story has legs beyond the typical jokecoin."
-    },
     {
       "time": "2026-09-03 17:22 UTC",
       "action": "sell",
@@ -30310,30 +30298,48 @@
       "action": "buy",
       "details": "[LLM] $APOLLO at $3.21e-06, spent 0.02 SOL",
       "reason": "$APOLLO 'First cat on the moon' — cat meta is hot, has both desc and twitter, fresh 0.8min launch at $3.2k mcap with bonding curve only 5% in. Early attention play with narrative hook."
+    },
+    {
+      "time": "2026-09-03 18:18 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $APOLLO at $3.26446e-06 | P&L: +1.7%",
+      "reason": "Apollo up only +1.7% with $172 pool liquidity, well below 5x position size requirement, and the narrative is generic. Stale exit risk high. Lock tiny gain, free slot for fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 1774,
-    "wins": 909,
+    "total": 1775,
+    "wins": 910,
     "losses": 865,
-    "win_rate_pct": 51.2,
-    "total_pnl_sol": -1.992636,
-    "avg_pnl_pct": 34.81,
+    "win_rate_pct": 51.3,
+    "total_pnl_sol": -1.992312,
+    "avg_pnl_pct": 34.8,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 263,
-    "today_realized_sol": 0.000225,
+    "today_trades": 264,
+    "today_realized_sol": 0.000549,
     "today_target_pct": 0.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 909,
+      "win_count": 910,
       "loss_count": 865,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T18:17:17.137215+00:00",
+  "last_llm_brief_at": "2026-09-03T18:18:31.071326+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FAJq8GdsC4DSHvZotrrHAF58cqdAoLRkETCWU6MsZnt1": {
+      "price_usd": 3.264455642720659e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 172.40992293784998,
+      "volume_h24": 233.85,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.642781543
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

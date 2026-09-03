@@ -13774,3 +13774,6 @@
 ## [2026-09-03 18:17 UTC] buy | [LLM] $APOLLO at $3.21e-06, spent 0.02 SOL
 - **Reasoning:** $APOLLO 'First cat on the moon' — cat meta is hot, has both desc and twitter, fresh 0.8min launch at $3.2k mcap with bonding curve only 5% in. Early attention play with narrative hook.
 
+## [2026-09-03 18:18 UTC] sell | [FULL][LLM] $APOLLO at $3.26446e-06 | P&L: +1.7%
+- **Reasoning:** Apollo up only +1.7% with $172 pool liquidity, well below 5x position size requirement, and the narrative is generic. Stale exit risk high. Lock tiny gain, free slot for fresh attention.
+
