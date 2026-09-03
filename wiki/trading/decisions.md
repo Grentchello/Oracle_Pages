@@ -12859,3 +12859,6 @@
 ## [2026-09-03 06:06 UTC] buy | [LLM] $Wally at $2.8683e-06, spent 0.02 SOL
 - **Reasoning:** $WALLY has the strongest narrative in the slate — explicit 'labubu of Japan' comparison, which references a proven 1000x cultural-virality playbook. Has twitter link (BananaInte). $2.9k mcap at 0.4min is entry-grade for an attention play. Risk: extremely young, bond only 1%, thin liquidity — must respect -30% hard stop.
 
+## [2026-09-03 06:08 UTC] buy | [LLM] $Kauaʻi at $8.65267e-06, spent 0.02 SOL
+- **Reasoning:** $Kauaʻi has the strongest narrative of the batch — 'last known male' Kauaʻi bird story with a real creator twitter link, already $8.6k mcap and 30% bonded (real traction, not just-launch). Emotional extinction stories are proven viral fuel.
+
