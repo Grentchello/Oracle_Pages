@@ -14032,3 +14032,9 @@
 ## [2026-09-03 20:59 UTC] buy | [LLM] $RISE at $5.252e-06, spent 0.02 SOL
 - **Reasoning:** $RISE has an explicit attention mechanic — 60% airdrop to top 15 holders incentivizes accumulation and creates a leaderboard narrative. That's a structural reason for traders to pay attention, not just a name.
 
+## [2026-09-03 21:00 UTC] sell | [TP +30% (25%)] $RISE at $7.28687e-06 | P&L: +38.7%
+- **Reasoning:** Auto take-profit at +38.7%
+
+## [2026-09-03 21:00 UTC] sell | [PARTIAL][LLM] $RISE at $7.28687e-06 | P&L: +38.7%
+- **Reasoning:** +38.7% already past the +30% TP threshold but bot hasn't auto-triggered (still on bonding curve). Take half off the table to lock gains — pool is only $1813 so thin liquidity, and at 0% pool share this is a paper gain that vanishes fast. Trail the rest.
+
