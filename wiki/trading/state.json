@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.321088,
+  "balance_sol": 0.337646,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EcVjQ8Qh2vFoNgo3qGGSCtGeEANXmMmHBX5gMUnMpump": {
-      "symbol": "DEGENS",
-      "name": "Degens",
-      "amount": 556770.0025176244,
-      "entry_price_usd": 3.6007687032969032e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T03:43:35.991555+00:00",
-      "entry_usd_value": 2.0048,
-      "entry_signals": {
-        "liquidity_usd": 94.69799493336,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3597.6469767971353,
-        "ath_market_cap_usd": 3598.9854564326993,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.944712639,
-        "description": "There is 3 DEGEN tiers. pick one, mint the NFT, own the yield generated. Built on @Solana RWAs by @xstocksFi, powered by @metaplex",
-        "twitter": "https://x.com/degenscoinpf?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -26325,19 +26302,30 @@
       "pnl_pct": 25.15,
       "exit_reason": "LLM: sell_all — +25.2% gain with pool depth of only $16 and us owning 16% of the float — we are the exit liquidity. Position is essentially illiquid and any reversal ",
       "partial": false
+    },
+    {
+      "mint": "EcVjQ8Qh2vFoNgo3qGGSCtGeEANXmMmHBX5gMUnMpump",
+      "symbol": "DEGENS",
+      "name": "Degens",
+      "amount_sold": 556770.0025176244,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T03:43:35.991555+00:00",
+      "exit_time": "2026-09-03T03:46:21.955792+00:00",
+      "entry_price_usd": 3.6007687032969032e-06,
+      "exit_price_usd": 2.9849794691491555e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016558,
+      "pnl_sol": -0.003442,
+      "pnl_pct": -17.1,
+      "exit_reason": "LLM: sell_all — -17.1% with no bounce and pool only $94 (fails 5x liquidity gate). Per scalp rules, -20% losses become -50% quickly — exit before hard stop at -30%.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T03:44:59.435313+00:00",
+  "last_updated": "2026-09-03T03:46:22.231473+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.35,
-  "portfolio_value_usd": 34.23,
+  "last_sol_price_usd": 100.37,
+  "portfolio_value_usd": 33.89,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 02:31 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $GG at $1.53682e-05 | P&L: +40.7%",
-      "reason": "Up +40.7% on a $4k pool — extreme liquidity risk and the asymmetric upside from here is poor. Lock in gains at TP1 zone; keep a runner in case it continues."
-    },
     {
       "time": "2026-09-03 02:32 UTC",
       "action": "sell",
@@ -26451,35 +26439,41 @@
       "action": "buy",
       "details": "[LLM] $DEGENS at $3.60077e-06, spent 0.02 SOL",
       "reason": "$DEGENS has actual utility narrative (NFT tiers + RWA yield via xStocks), real twitter handle @degenscoinpf, and bonds forming fast. 'DEGEN' is a culture-native Solana meme with built-in audience. Best risk/reward in the batch — enter at 0.05 SOL."
+    },
+    {
+      "time": "2026-09-03 03:46 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DEGENS at $2.98498e-06 | P&L: -17.1%",
+      "reason": "-17.1% with no bounce and pool only $94 (fails 5x liquidity gate). Per scalp rules, -20% losses become -50% quickly — exit before hard stop at -30%."
     }
   ],
   "trade_stats": {
-    "total": 1547,
+    "total": 1548,
     "wins": 777,
-    "losses": 770,
+    "losses": 771,
     "win_rate_pct": 50.2,
-    "total_pnl_sol": -1.991555,
-    "avg_pnl_pct": 36.32,
+    "total_pnl_sol": -1.994997,
+    "avg_pnl_pct": 36.28,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 36,
-    "today_realized_sol": 0.001306,
-    "today_target_pct": 0.3,
+    "today_trades": 37,
+    "today_realized_sol": -0.002136,
+    "today_target_pct": -0.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 777,
-      "loss_count": 770,
+      "loss_count": 771,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T03:44:58.931243+00:00",
+  "last_llm_brief_at": "2026-09-03T03:46:21.955753+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EcVjQ8Qh2vFoNgo3qGGSCtGeEANXmMmHBX5gMUnMpump": {
-      "price_usd": 2.9843846739973868e-06,
+      "price_usd": 2.9849794691491555e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 94.39256439945,
+      "liquidity_usd": 94.41137706799,
       "volume_h24": 729.8,
       "dex_id": "pumpfun",
       "source": "bonding-curve",

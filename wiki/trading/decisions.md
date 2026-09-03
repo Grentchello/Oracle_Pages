@@ -12688,3 +12688,6 @@
 ## [2026-09-03 03:43 UTC] buy | [LLM] $DEGENS at $3.60077e-06, spent 0.02 SOL
 - **Reasoning:** $DEGENS has actual utility narrative (NFT tiers + RWA yield via xStocks), real twitter handle @degenscoinpf, and bonds forming fast. 'DEGEN' is a culture-native Solana meme with built-in audience. Best risk/reward in the batch — enter at 0.05 SOL.
 
+## [2026-09-03 03:46 UTC] sell | [FULL][LLM] $DEGENS at $2.98498e-06 | P&L: -17.1%
+- **Reasoning:** -17.1% with no bounce and pool only $94 (fails 5x liquidity gate). Per scalp rules, -20% losses become -50% quickly — exit before hard stop at -30%.
+
