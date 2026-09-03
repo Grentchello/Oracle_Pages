@@ -13591,3 +13591,9 @@
 ## [2026-09-03 15:59 UTC] buy | [LLM] $HOOK at $3.418e-06, spent 0.02 SOL
 - **Reasoning:** $HOOK has a clear narrative (Hooked farming simulator, in-game reward currency), real project description, and verified twitter account (@hookedgamesol). Gaming tokens with utility framing tend to hold attention. Bond 7% means very early entry. Risks: low mcap $3.4k, unproven game, but narrative is concrete not just a joke name.
 
+## [2026-09-03 16:00 UTC] sell | [FULL][LLM] $HOOK at $3.25301e-06 | P&L: -4.8%
+- **Reasoning:** $HOOK at -4.8%, pool $162 is thin, narrative unclear (just a name), and we're at the slot limit with two fresh-launch candidates to fund. Rotate now before it bleeds further — both slots need to be paying attention, not parking.
+
+## [2026-09-03 16:00 UTC] buy | [LLM] $cyberfam at $4.6213e-06, spent 0.02 SOL
+- **Reasoning:** $cyberfam has clearest narrative of the batch — 'cyber family/community' tied to an active X account (cyberleek_io), $4.6k mcap with 17% bonded = real early traction, non-fragility keywords passed. Memecoin attention plays need identity; this one has 'us vs them leaks' story which is retweet bait.
+
