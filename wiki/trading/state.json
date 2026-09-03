@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.294454,
+  "balance_sol": 0.308211,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "ctWgujb2q8pxAreBU6Kif2h7R8rD7dZGzgKRfuapump": {
       "symbol": "PONS",
       "name": "PONS",
-      "amount": 610439.8826979472,
+      "amount": 118849.85256309445,
       "entry_price_usd": 3.41e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.003893908505381938,
       "entry_time": "2026-09-03T23:14:05.425682+00:00",
       "entry_usd_value": 2.0816,
       "entry_signals": {
@@ -31646,19 +31646,30 @@
       "pnl_pct": 0.94,
       "exit_reason": "LLM: sell_all — $toast is flat (+0.9%) after entry, small mcap, no clear catalyst — capital is better rotated into the fresh attention candidates below.",
       "partial": false
+    },
+    {
+      "mint": "ctWgujb2q8pxAreBU6Kif2h7R8rD7dZGzgKRfuapump",
+      "symbol": "PONS",
+      "name": "PONS",
+      "amount_sold": 491590.03013485274,
+      "fraction_sold": 0.8053045747309031,
+      "entry_time": "2026-09-03T23:14:05.425682+00:00",
+      "exit_time": "2026-09-03T23:22:16.456695+00:00",
+      "entry_price_usd": 3.41e-06,
+      "exit_price_usd": 2.9108464509566118e-06,
+      "entry_sol_for_chunk": 0.016106,
+      "exit_sol_received": 0.013757,
+      "pnl_sol": -0.00235,
+      "pnl_pct": -14.64,
+      "exit_reason": "LLM: sell_all — Down -14.6% with our share at 128% of pool (we ARE the liquidity). Held only 6 min, no bounce signal, still on bonding curve = no real exit liquidity ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T23:20:57.642664+00:00",
+  "last_updated": "2026-09-03T23:22:16.972501+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.12,
-  "portfolio_value_usd": 32.74,
+  "last_sol_price_usd": 104.019,
+  "portfolio_value_usd": 32.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 22:21 UTC",
-      "action": "buy",
-      "details": "[LLM] $Liquidеr at $6.54239e-06, spent 0.02 SOL",
-      "reason": "$Liquidеr has the strongest attention stack: 25% bond (3x next candidate), real concept narrative ('bonded drops' graded B-LQD), and a dedicated zone Twitter account @liquiderzone — that's infrastructure beyond a single tweet. Sizing at 0.05 SOL to clear the 5x liquidity check given $6.5k mcap; if liquidity gate fails, bot will reject and I learn nothing lost."
-    },
     {
       "time": "2026-09-03 22:22 UTC",
       "action": "sell",
@@ -31772,35 +31783,41 @@
       "action": "buy",
       "details": "[LLM] $PONS at $3.41e-06, spent 0.02 SOL",
       "reason": "The claimed PONS plus Uniswap partnership and named-unicorn angle provides a concrete viral catalyst backed by a visible Uniswap post, making this the strongest story-driven candidate. Its 7% bond completion and tiny market cap increase slippage and abandonment risk, so the second slot should still remain small."
+    },
+    {
+      "time": "2026-09-03 23:22 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $PONS at $2.91085e-06 | P&L: -14.6%",
+      "reason": "Down -14.6% with our share at 128% of pool (we ARE the liquidity). Held only 6 min, no bounce signal, still on bonding curve = no real exit liquidity if it drops further. Cut and free the slot for a fresh launch."
     }
   ],
   "trade_stats": {
-    "total": 1860,
+    "total": 1861,
     "wins": 956,
-    "losses": 904,
+    "losses": 905,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.018194,
-    "avg_pnl_pct": 34.43,
+    "total_pnl_sol": -2.020544,
+    "avg_pnl_pct": 34.41,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 349,
-    "today_realized_sol": -0.025333,
-    "today_target_pct": -6.3,
+    "today_trades": 350,
+    "today_realized_sol": -0.027683,
+    "today_target_pct": -6.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 956,
-      "loss_count": 904,
+      "loss_count": 905,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T23:20:57.642621+00:00",
+  "last_llm_brief_at": "2026-09-03T23:22:16.456040+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "ctWgujb2q8pxAreBU6Kif2h7R8rD7dZGzgKRfuapump": {
-      "price_usd": 2.913672814328175e-06,
+      "price_usd": 2.9108464509566118e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.3851583376,
+      "liquidity_usd": 1.38381468612,
       "volume_h24": 1454.46,
       "dex_id": "pumpfun",
       "source": "bonding-curve",

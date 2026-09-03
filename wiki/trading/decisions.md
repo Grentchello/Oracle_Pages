@@ -14209,3 +14209,6 @@
 ## [2026-09-03 23:14 UTC] buy | [LLM] $PONS at $3.41e-06, spent 0.02 SOL
 - **Reasoning:** The claimed PONS plus Uniswap partnership and named-unicorn angle provides a concrete viral catalyst backed by a visible Uniswap post, making this the strongest story-driven candidate. Its 7% bond completion and tiny market cap increase slippage and abandonment risk, so the second slot should still remain small.
 
+## [2026-09-03 23:22 UTC] sell | [PARTIAL][LLM] $PONS at $2.91085e-06 | P&L: -14.6%
+- **Reasoning:** Down -14.6% with our share at 128% of pool (we ARE the liquidity). Held only 6 min, no bounce signal, still on bonding curve = no real exit liquidity if it drops further. Cut and free the slot for a fresh launch.
+
