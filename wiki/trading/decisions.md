@@ -13705,3 +13705,6 @@
 ## [2026-09-03 17:01 UTC] sell | [PARTIAL][LLM] $rhg at $4.19488e-06 | P&L: +11.9%
 - **Reasoning:** +12% on a $621 pool bonding-curve with 0% LP share is precarious - thin liquidity means a single sell could crash us back through entry. Lock half the gain, let the other half ride if it graduates.
 
+## [2026-09-03 17:04 UTC] sell | [FULL][LLM] $rhg at $2.97433e-06 | P&L: -20.6%
+- **Reasoning:** Down -20.6% at 0.1h hold on a $29 pool — exactly the scalp-discipline exit trigger. Pool is too thin to support recovery and bonding-curve tokens at -20% decay into -50% fast. Lock the loss, free the slot.
+
