@@ -13690,3 +13690,6 @@
 ## [2026-09-03 16:52 UTC] sell | [FULL][LLM] $xAI at $3.14117e-06 | P&L: -18.2%
 - **Reasoning:** xAI at -18.2% with only $114 pool liquidity and no bounce signal — cutting pre-emptively before the -30% hard stop to preserve capital and free a slot. Thin bonding-curve + flat price action = bag-holder trap.
 
+## [2026-09-03 16:56 UTC] sell | [FULL][LLM] $HSOG at $3.03541e-06 | P&L: +0.1%
+- **Reasoning:** Flat at +0.1% after 6min, pool only $57 (4% of pool = severe illiquidity), no momentum. Stale capital, rotating to fresh narrative.
+

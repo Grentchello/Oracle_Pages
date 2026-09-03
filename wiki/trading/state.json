@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.350598,
+  "balance_sol": 0.370598,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5Zn8M8sAKeYkF3DWbSWKGMYGrmRF2g6LEvxjxZw3pump": {
-      "symbol": "HSOG",
-      "name": "HOTSOG",
-      "amount": 690055.4819206368,
-      "entry_price_usd": 3.0322199516134653e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T16:50:50.251073+00:00",
-      "entry_usd_value": 2.0924,
-      "entry_signals": {
-        "liquidity_usd": 56.96897989724,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3019.2092471300243,
-        "ath_market_cap_usd": 3032.379379818026,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.544532402,
-        "description": "Is it hot? Is it a dog? No, it’s a HotSog! 🌭 Half dachshund, half bun.",
-        "twitter": "https://x.com/DontLikeInbredd",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -29929,19 +29906,30 @@
       "pnl_pct": -18.17,
       "exit_reason": "LLM: sell_all — xAI at -18.2% with only $114 pool liquidity and no bounce signal — cutting pre-emptively before the -30% hard stop to preserve capital and free a slot",
       "partial": false
+    },
+    {
+      "mint": "5Zn8M8sAKeYkF3DWbSWKGMYGrmRF2g6LEvxjxZw3pump",
+      "symbol": "HSOG",
+      "name": "HOTSOG",
+      "amount_sold": 690055.4819206368,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T16:50:50.251073+00:00",
+      "exit_time": "2026-09-03T16:56:58.881988+00:00",
+      "entry_price_usd": 3.0322199516134653e-06,
+      "exit_price_usd": 3.035408101055995e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.02,
+      "pnl_sol": -0.0,
+      "pnl_pct": 0.11,
+      "exit_reason": "LLM: sell_all — Flat at +0.1% after 6min, pool only $57 (4% of pool = severe illiquidity), no momentum. Stale capital, rotating to fresh narrative.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T16:55:26.015656+00:00",
+  "last_updated": "2026-09-03T16:56:59.140027+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.64,
-  "portfolio_value_usd": 38.78,
+  "last_sol_price_usd": 104.73,
+  "portfolio_value_usd": 38.81,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 16:28 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $kgc at $5.75785e-06 | P&L: +37.9%",
-      "reason": "Auto take-profit at +37.9%"
-    },
     {
       "time": "2026-09-03 16:28 UTC",
       "action": "sell",
@@ -30055,35 +30043,41 @@
       "action": "sell",
       "details": "[FULL][LLM] $xAI at $3.14117e-06 | P&L: -18.2%",
       "reason": "xAI at -18.2% with only $114 pool liquidity and no bounce signal — cutting pre-emptively before the -30% hard stop to preserve capital and free a slot. Thin bonding-curve + flat price action = bag-holder trap."
+    },
+    {
+      "time": "2026-09-03 16:56 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HSOG at $3.03541e-06 | P&L: +0.1%",
+      "reason": "Flat at +0.1% after 6min, pool only $57 (4% of pool = severe illiquidity), no momentum. Stale capital, rotating to fresh narrative."
     }
   ],
   "trade_stats": {
-    "total": 1759,
+    "total": 1760,
     "wins": 906,
-    "losses": 853,
+    "losses": 854,
     "win_rate_pct": 51.5,
     "total_pnl_sol": -1.962048,
-    "avg_pnl_pct": 35.16,
+    "avg_pnl_pct": 35.14,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 248,
+    "today_trades": 249,
     "today_realized_sol": 0.030813,
     "today_target_pct": 7.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 906,
-      "loss_count": 853,
+      "loss_count": 854,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T16:55:25.753490+00:00",
+  "last_llm_brief_at": "2026-09-03T16:56:58.881953+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5Zn8M8sAKeYkF3DWbSWKGMYGrmRF2g6LEvxjxZw3pump": {
-      "price_usd": 3.0327996151484705e-06,
+      "price_usd": 3.035408101055995e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 56.97987054528,
+      "liquidity_usd": 57.028878461459996,
       "volume_h24": 58.01,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
