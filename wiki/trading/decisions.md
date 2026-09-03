@@ -13960,3 +13960,9 @@
 ## [2026-09-03 20:30 UTC] sell | [PARTIAL][LLM] $Wolf at $6.9413e-06 | P&L: +20.1%
 - **Reasoning:** +20.1% gain, just hit TP threshold. Pool is only $1691 (illiquid), so half-exit locks ~$1.05 profit while leaving runner for potential continuation. Symmetric to my 'lock the gain' rule at the20% mark.
 
+## [2026-09-03 20:31 UTC] sell | [TP +30% (25%)] $Wolf at $7.54235e-06 | P&L: +30.4%
+- **Reasoning:** Auto take-profit at +30.4%
+
+## [2026-09-03 20:31 UTC] sell | [FULL][LLM] $Wolf at $7.54235e-06 | P&L: +30.4%
+- **Reasoning:** At +30.4% we've hit the +30% TP threshold. Pool is only $1897 with 0% share — thin liquidity means any further move can reverse fast. Lock the gain.
+

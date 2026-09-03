@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.327481,
+  "balance_sol": 0.333988,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Aip7JndhJNw8KfweQg3EaNayWrfTe7zfsWcutU4Bpump": {
-      "symbol": "Wolf",
-      "name": "The White Wolf ☾🐺",
-      "amount": 90881.18298166725,
-      "entry_price_usd": 5.782e-06,
-      "entry_sol_spent": 0.005,
-      "entry_time": "2026-09-03T20:27:27.389945+00:00",
-      "entry_usd_value": 2.1019,
-      "entry_signals": {
-        "liquidity_usd": 1269.566366078485,
-        "volume_24h_usd": 1269.03,
-        "market_cap_usd": 5786.479560146008,
-        "ath_market_cap_usd": 5788.420018995345,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 12.080178563,
-        "description": "My version of a memecoin is now available on Pump.fun. I will make several purchases until the bonding curve is completed,  after which the airdrop will take place. 60% of the tokens will be distributed among the top 50 holders; the airdrop allocation will be proportional  to the number of tokens ea",
-        "twitter": "https://x.com/TheWhiteWolfDev",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30796,25 +30773,47 @@
       "pnl_pct": 20.05,
       "exit_reason": "LLM: sell_half — +20.1% gain, just hit TP threshold. Pool is only $1691 (illiquid), so half-exit locks ~$1.05 profit while leaving runner for potential continuation. S",
       "partial": true
+    },
+    {
+      "mint": "Aip7JndhJNw8KfweQg3EaNayWrfTe7zfsWcutU4Bpump",
+      "symbol": "Wolf",
+      "name": "The White Wolf ☾🐺",
+      "amount_sold": 22720.295745416814,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T20:27:27.389945+00:00",
+      "exit_time": "2026-09-03T20:31:26.148065+00:00",
+      "entry_price_usd": 5.782e-06,
+      "exit_price_usd": 7.5423467603889355e-06,
+      "entry_sol_for_chunk": 0.00125,
+      "exit_sol_received": 0.001627,
+      "pnl_sol": 0.000377,
+      "pnl_pct": 30.45,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "Aip7JndhJNw8KfweQg3EaNayWrfTe7zfsWcutU4Bpump",
+      "symbol": "Wolf",
+      "name": "The White Wolf ☾🐺",
+      "amount_sold": 68160.88723625045,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T20:27:27.389945+00:00",
+      "exit_time": "2026-09-03T20:31:45.840737+00:00",
+      "entry_price_usd": 5.782e-06,
+      "exit_price_usd": 7.5423467603889355e-06,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.00488,
+      "pnl_sol": 0.00113,
+      "pnl_pct": 30.45,
+      "exit_reason": "LLM: sell_all — At +30.4% we've hit the +30% TP threshold. Pool is only $1897 with 0% share — thin liquidity means any further move can reverse fast. Lock the gain.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T20:30:22.683243+00:00",
+  "last_updated": "2026-09-03T20:31:45.840937+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.44,
-  "portfolio_value_usd": 35.06,
+  "last_sol_price_usd": 105.35,
+  "portfolio_value_usd": 35.19,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 19:39 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $Quarter closed at $4.38423e-07 | P&L: -34.3%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-09-03 19:42 UTC",
-      "action": "buy",
-      "details": "[LLM] $Sam2 at $7.37263e-06, spent 0.02 SOL",
-      "reason": "$Sam2 has a viral narrative (ChatGPT cloned a hamster for uni project, blew up on Reddit), 27% bonding curve (closest to graduation, real momentum), twitter link from real1percentage, and viability passes. Highest attention signal of the batch."
-    },
     {
       "time": "2026-09-03 19:42 UTC",
       "action": "buy",
@@ -30922,40 +30921,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Wolf at $6.9413e-06 | P&L: +20.1%",
       "reason": "+20.1% gain, just hit TP threshold. Pool is only $1691 (illiquid), so half-exit locks ~$1.05 profit while leaving runner for potential continuation. Symmetric to my 'lock the gain' rule at the20% mark."
+    },
+    {
+      "time": "2026-09-03 20:31 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Wolf at $7.54235e-06 | P&L: +30.4%",
+      "reason": "Auto take-profit at +30.4%"
+    },
+    {
+      "time": "2026-09-03 20:31 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Wolf at $7.54235e-06 | P&L: +30.4%",
+      "reason": "At +30.4% we've hit the +30% TP threshold. Pool is only $1897 with 0% share — thin liquidity means any further move can reverse fast. Lock the gain."
     }
   ],
   "trade_stats": {
-    "total": 1810,
-    "wins": 930,
+    "total": 1812,
+    "wins": 932,
     "losses": 880,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.000166,
+    "total_pnl_sol": -1.998659,
     "avg_pnl_pct": 34.63,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 299,
-    "today_realized_sol": -0.007305,
-    "today_target_pct": -1.8,
+    "today_trades": 301,
+    "today_realized_sol": -0.005798,
+    "today_target_pct": -1.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 930,
+      "win_count": 932,
       "loss_count": 880,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T20:30:22.436026+00:00",
+  "last_llm_brief_at": "2026-09-03T20:31:45.840701+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "Aip7JndhJNw8KfweQg3EaNayWrfTe7zfsWcutU4Bpump": {
-      "price_usd": 6.941295045439677e-06,
+      "price_usd": 7.5423467603889355e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1690.6174580494398,
-      "volume_h24": 1583.75,
+      "liquidity_usd": 1896.9431073894,
+      "volume_h24": 1688.13,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 16.033928851
+      "real_sol_reserves": 18.006104484
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
