@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.360629,
+  "balance_sol": 0.37004,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "Cbfcw4RgiPgjUqJ6x7wje8boQpbZh9RqtDWpRw2jyjT5": {
       "symbol": "HUGGY",
       "name": "HUGGING FACE",
-      "amount": 94524.22227033126,
+      "amount": 35446.583351374225,
       "entry_price_usd": 1.0658643634418229e-05,
-      "entry_sol_spent": 0.01,
+      "entry_sol_spent": 0.00375,
       "entry_time": "2026-09-03T12:08:29.672758+00:00",
       "entry_usd_value": 2.015,
       "entry_signals": {
@@ -28314,25 +28314,47 @@
       "pnl_pct": 25.19,
       "exit_reason": "LLM: sell_half — HUGGY at +25.2% hit the auto-TP threshold. Lock half the gain, let the rest ride if narrative continues — standard scalp discipline.",
       "partial": true
+    },
+    {
+      "mint": "Cbfcw4RgiPgjUqJ6x7wje8boQpbZh9RqtDWpRw2jyjT5",
+      "symbol": "HUGGY",
+      "name": "HUGGING FACE",
+      "amount_sold": 23631.055567582815,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T12:08:29.672758+00:00",
+      "exit_time": "2026-09-03T12:12:32.886700+00:00",
+      "entry_price_usd": 1.0658643634418229e-05,
+      "exit_price_usd": 1.6079478080458864e-05,
+      "entry_sol_for_chunk": 0.0025,
+      "exit_sol_received": 0.003764,
+      "pnl_sol": 0.001264,
+      "pnl_pct": 50.86,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "Cbfcw4RgiPgjUqJ6x7wje8boQpbZh9RqtDWpRw2jyjT5",
+      "symbol": "HUGGY",
+      "name": "HUGGING FACE",
+      "amount_sold": 35446.583351374225,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T12:08:29.672758+00:00",
+      "exit_time": "2026-09-03T12:12:58.897655+00:00",
+      "entry_price_usd": 1.0658643634418229e-05,
+      "exit_price_usd": 1.6079478080458864e-05,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.005647,
+      "pnl_sol": 0.001897,
+      "pnl_pct": 50.86,
+      "exit_reason": "LLM: sell_half — HUGGY is up +50.9% which crosses the +50% TP threshold — bot likely auto-took partial, but locking in half here secures gains on a low-liquidity bondi",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T12:11:29.052766+00:00",
+  "last_updated": "2026-09-03T12:12:59.161746+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.75,
-  "portfolio_value_usd": 37.34,
+  "last_sol_price_usd": 100.94,
+  "portfolio_value_usd": 37.73,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 11:50 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $PCITY closed at $3.4079e-07 | P&L: -79.6%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-09-03 11:52 UTC",
-      "action": "buy",
-      "details": "[LLM] $GOLDBULL at $5.519e-06, spent 0.02 SOL",
-      "reason": "GOLDBULL has the strongest launch signal: a $6,019 market cap, 24% bonding progress, a descriptive narrative, and an identifiable X account. The 0.4-minute-old token is extremely fresh and may fail the $3,000 liquidity or GMGN fragility gate, but its attention profile warrants testing."
-    },
     {
       "time": "2026-09-03 11:53 UTC",
       "action": "sell",
@@ -28440,51 +28462,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $HUGGY at $1.33435e-05 | P&L: +25.2%",
       "reason": "HUGGY at +25.2% hit the auto-TP threshold. Lock half the gain, let the rest ride if narrative continues — standard scalp discipline."
+    },
+    {
+      "time": "2026-09-03 12:12 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $HUGGY at $1.60795e-05 | P&L: +50.9%",
+      "reason": "Auto take-profit at +50.9%"
+    },
+    {
+      "time": "2026-09-03 12:12 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $HUGGY at $1.60795e-05 | P&L: +50.9%",
+      "reason": "HUGGY is up +50.9% which crosses the +50% TP threshold — bot likely auto-took partial, but locking in half here secures gains on a low-liquidity bonding-curve token ($4.2k pool) where reversal is common. Holding remainder for continuation."
     }
   ],
   "trade_stats": {
-    "total": 1664,
-    "wins": 842,
+    "total": 1666,
+    "wins": 844,
     "losses": 822,
-    "win_rate_pct": 50.6,
-    "total_pnl_sol": -1.962015,
-    "avg_pnl_pct": 35.3,
+    "win_rate_pct": 50.7,
+    "total_pnl_sol": -1.958854,
+    "avg_pnl_pct": 35.32,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 153,
-    "today_realized_sol": 0.030846,
-    "today_target_pct": 7.7,
+    "today_trades": 155,
+    "today_realized_sol": 0.034007,
+    "today_target_pct": 8.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 842,
+      "win_count": 844,
       "loss_count": 822,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T12:11:28.787643+00:00",
+  "last_llm_brief_at": "2026-09-03T12:12:58.897617+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "JAWDavuAX9P7yobJMf6pdbrR65JAq4Qs5xH8L6pXpump": {
-      "price_usd": 3.5686901538551306e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 379.52450172975,
-      "volume_h24": 546.26,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 3.766992573
-    },
     "Cbfcw4RgiPgjUqJ6x7wje8boQpbZh9RqtDWpRw2jyjT5": {
-      "price_usd": 1.3343528995540608e-05,
+      "price_usd": 1.6079478080458864e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3555.8710923092494,
-      "volume_h24": 27917.09,
+      "liquidity_usd": 4199.96593947938,
+      "volume_h24": 35436.58,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 35.294005879
+      "real_sol_reserves": 41.608539127
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

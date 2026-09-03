@@ -13258,3 +13258,9 @@
 ## [2026-09-03 12:11 UTC] sell | [PARTIAL][LLM] $HUGGY at $1.33435e-05 | P&L: +25.2%
 - **Reasoning:** HUGGY at +25.2% hit the auto-TP threshold. Lock half the gain, let the rest ride if narrative continues — standard scalp discipline.
 
+## [2026-09-03 12:12 UTC] sell | [TP +30% (25%)] $HUGGY at $1.60795e-05 | P&L: +50.9%
+- **Reasoning:** Auto take-profit at +50.9%
+
+## [2026-09-03 12:12 UTC] sell | [PARTIAL][LLM] $HUGGY at $1.60795e-05 | P&L: +50.9%
+- **Reasoning:** HUGGY is up +50.9% which crosses the +50% TP threshold — bot likely auto-took partial, but locking in half here secures gains on a low-liquidity bonding-curve token ($4.2k pool) where reversal is common. Holding remainder for continuation.
+
