@@ -13081,3 +13081,6 @@
 ## [2026-09-03 10:11 UTC] sell | [PARTIAL][LLM] $raji at $6.7102e-06 | P&L: +76.6%
 - **Reasoning:** Up +76.6% with thin $1647 pool — locked in gains already past the +50% TP threshold. Hold the runner with the half since narrative could continue, but the small pool means any sell pressure will crater price. Take profit NOW.
 
+## [2026-09-03 10:13 UTC] sell | [FULL][LLM] $raji at $2.91254e-06 | P&L: -23.3%
+- **Reasoning:** Down -23.3% on a $60 pool — extremely illiquid and approaching the -30% hard stop. Exiting now avoids a guaranteed worse outcome; bag-holding into -30% on1% of a tiny pool is pure hope.
+
