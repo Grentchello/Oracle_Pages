@@ -12637,3 +12637,9 @@
 ## [2026-09-03 02:33 UTC] sell | [PARTIAL][LLM] $GG at $1.50617e-05 | P&L: +37.9%
 - **Reasoning:** +37.9% with no narrative moat and only $3,966 pool liquidity on a bonding curve. Lock half the gain to cover position cost + profit, let the rest ride to +100% TP at 50% trigger or a clear narrative continuation.
 
+## [2026-09-03 02:34 UTC] sell | [TP +30% (25%)] $GG at $1.74645e-05 | P&L: +59.9%
+- **Reasoning:** Auto take-profit at +59.9%
+
+## [2026-09-03 02:34 UTC] sell | [PARTIAL][LLM] $GG at $1.74645e-05 | P&L: +59.9%
+- **Reasoning:** +59.9% in 0.1h is a strong pump on a bonding-curve token where our pool share is 0% (illiquid exit). Lock half the gain now — let the rest ride if narrative continues, but don't watch it round-trip to breakeven. Partial exit captures profit while keeping upside exposure.
+

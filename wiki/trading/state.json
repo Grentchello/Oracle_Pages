@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.335793,
+  "balance_sol": 0.338588,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq": {
       "symbol": "GG",
       "name": "Golden Goose",
-      "amount": 25848.21428571429,
+      "amount": 9693.080357142859,
       "entry_price_usd": 1.092e-05,
-      "entry_sol_spent": 0.0028125,
+      "entry_sol_spent": 0.0010546875,
       "entry_time": "2026-09-03T02:30:02.980052+00:00",
       "entry_usd_value": 2.0072,
       "entry_signals": {
@@ -26172,25 +26172,47 @@
       "pnl_pct": 37.93,
       "exit_reason": "LLM: sell_half — +37.9% with no narrative moat and only $3,966 pool liquidity on a bonding curve. Lock half the gain to cover position cost + profit, let the rest ride",
       "partial": true
+    },
+    {
+      "mint": "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq",
+      "symbol": "GG",
+      "name": "Golden Goose",
+      "amount_sold": 6462.0535714285725,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T02:30:02.980052+00:00",
+      "exit_time": "2026-09-03T02:34:20.232935+00:00",
+      "entry_price_usd": 1.092e-05,
+      "exit_price_usd": 1.746450213647377e-05,
+      "entry_sol_for_chunk": 0.000703,
+      "exit_sol_received": 0.001118,
+      "pnl_sol": 0.000415,
+      "pnl_pct": 59.93,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq",
+      "symbol": "GG",
+      "name": "Golden Goose",
+      "amount_sold": 9693.080357142859,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T02:30:02.980052+00:00",
+      "exit_time": "2026-09-03T02:34:46.816904+00:00",
+      "entry_price_usd": 1.092e-05,
+      "exit_price_usd": 1.746450213647377e-05,
+      "entry_sol_for_chunk": 0.001055,
+      "exit_sol_received": 0.001677,
+      "pnl_sol": 0.000623,
+      "pnl_pct": 59.93,
+      "exit_reason": "LLM: sell_half — +59.9% in 0.1h is a strong pump on a bonding-curve token where our pool share is 0% (illiquid exit). Lock half the gain now — let the rest ride if nar",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T02:33:16.670108+00:00",
+  "last_updated": "2026-09-03T02:34:47.147628+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.7,
-  "portfolio_value_usd": 34.1,
+  "last_sol_price_usd": 100.93,
+  "portfolio_value_usd": 34.28,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 01:27 UTC",
-      "action": "buy",
-      "details": "[LLM] $STRAYDOG at $2.97601e-06, spent 0.02 SOL",
-      "reason": "$STRAYDOG — 'feral alpha of the streets' dog narrative is a classic attention template (dog coins have historically pumped). Has twitter, real description, $2.98k mcap at 0.3min. Fits viability gate, no celeb keyword. Small bet on narrative + freshness."
-    },
-    {
-      "time": "2026-09-03 01:30 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $STRAYDOG at $2.80728e-06 | P&L: -5.7%",
-      "reason": "61% pool share in a $3 pool is a trap — we're exit liquidity for whoever's left. Small -5.7% loss is better than getting stuck as the only buyer when this dies. Freeing the slot is worth more than hope."
-    },
     {
       "time": "2026-09-03 01:31 UTC",
       "action": "sell",
@@ -26298,40 +26320,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $GG at $1.50617e-05 | P&L: +37.9%",
       "reason": "+37.9% with no narrative moat and only $3,966 pool liquidity on a bonding curve. Lock half the gain to cover position cost + profit, let the rest ride to +100% TP at 50% trigger or a clear narrative continuation."
+    },
+    {
+      "time": "2026-09-03 02:34 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $GG at $1.74645e-05 | P&L: +59.9%",
+      "reason": "Auto take-profit at +59.9%"
+    },
+    {
+      "time": "2026-09-03 02:34 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $GG at $1.74645e-05 | P&L: +59.9%",
+      "reason": "+59.9% in 0.1h is a strong pump on a bonding-curve token where our pool share is 0% (illiquid exit). Lock half the gain now — let the rest ride if narrative continues, but don't watch it round-trip to breakeven. Partial exit captures profit while keeping upside exposure."
     }
   ],
   "trade_stats": {
-    "total": 1538,
-    "wins": 772,
+    "total": 1540,
+    "wins": 774,
     "losses": 766,
-    "win_rate_pct": 50.2,
-    "total_pnl_sol": -1.994037,
-    "avg_pnl_pct": 36.47,
+    "win_rate_pct": 50.3,
+    "total_pnl_sol": -1.992999,
+    "avg_pnl_pct": 36.5,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 27,
-    "today_realized_sol": -0.001176,
-    "today_target_pct": -0.3,
+    "today_trades": 29,
+    "today_realized_sol": -0.000138,
+    "today_target_pct": -0.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 772,
+      "win_count": 774,
       "loss_count": 766,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T02:33:16.669868+00:00",
+  "last_llm_brief_at": "2026-09-03T02:34:46.816491+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq": {
-      "price_usd": 1.5061694703459039e-05,
+      "price_usd": 1.746450213647377e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3966.3443316484004,
-      "volume_h24": 39079.08,
+      "liquidity_usd": 4504.766357131961,
+      "volume_h24": 43954.48,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 39.387729212
+      "real_sol_reserves": 44.632580572
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
