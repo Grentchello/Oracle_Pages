@@ -13045,3 +13045,6 @@
 ## [2026-09-03 09:13 UTC] sell | [hard-stop] $BEN closed at $4.20041e-07 | P&L: -90.0%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-03 09:25 UTC] buy | [LLM] $GHT at $3.612e-06, spent 0.02 SOL
+- **Reasoning:** $GHT has the cleanest narrative of the launch batch — 'something is haunting the blockchain' is a complete meme pitch with a dedicated twitter @gh1stsol and a ghost/spooky angle that trends every October. Sub-$5k mcap is where 10x lives. Bond 20% = ~$1k real buys already on curve. Risk: 1.4min old, no track record — bot will hard-stop at -30% if it dies.
+
