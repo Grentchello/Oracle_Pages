@@ -13939,3 +13939,6 @@
 ## [2026-09-03 20:17 UTC] buy | [LLM] $BAGCOON at $5.07446e-06, spent 0.02 SOL
 - **Reasoning:** $BAGCOON — 'Racoon Wif Bag' follows the proven 'wif' template (dogwifcat, etc.) which has historically gone viral. Has twitter, decent $5k mcap not overheated, narrative is meme-native and relatable. Risk: ultra-fresh launch with low liquidity, but viral template + raccoon cultural moment gives attention runway.
 
+## [2026-09-03 20:18 UTC] sell | [hard-stop] $BAGCOON closed at $4.42794e-07 | P&L: -91.3%
+- **Reasoning:** Hard -30% stop
+
