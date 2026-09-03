@@ -14113,3 +14113,6 @@
 ## [2026-09-03 21:50 UTC] buy | [LLM] $Amzn at $3.04957e-06, spent 0.02 SOL
 - **Reasoning:** $Amzn is an Amazon brand parody with a verbatim 'Earth's most customer-centric company' tagline + linked twitter handle. Brand-impersonation memecoins with real corporate phrasing routinely pump on launch attention. Passes viability gate (52-char desc + twitter) and has no celebrity/political fragility keyword. Risk: corporate IP could suppress X visibility; position size 0.05 SOL caps downside.
 
+## [2026-09-03 21:52 UTC] buy | [LLM] $bu11run at $4.621e-06, spent 0.02 SOL
+- **Reasoning:** $bu11run has the clearest meta-narrative of the batch - 'token that runs when other tokens run' is a viral hook tied to FOMO/pump.fun culture, has twitter link, decent desc, $4.9k mcap gives room to 5-10x.
+
