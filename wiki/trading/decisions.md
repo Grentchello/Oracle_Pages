@@ -13552,3 +13552,9 @@
 ## [2026-09-03 15:37 UTC] sell | [hard-stop] $solsem closed at $3.09271e-06 | P&L: -62.5%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-03 15:39 UTC] buy | [LLM] $solsem at $1.229e-05, spent 0.02 SOL
+- **Reasoning:** ANSEM-tied token with explicit10% supply airdrop to ANSEM + Nepal charity angle. ANSEM engagement historically drives 5-20x on tied launches. Bond already 37% in 1.1min shows buyers stepping in. $18k mcap is perfect entry zone — narrative is loud and clear, this is pure attention-market alpha.
+
+## [2026-09-03 15:39 UTC] buy | [LLM] $hims at $3.33195e-06, spent 0.02 SOL
+- **Reasoning:** Hims stock meme with explicit BONER/fartcoin vibes comparison — viral Meme-stock crossover narrative. Very fresh ($3.3k mcap, 0.1min old) so risk is higher, but if it catches the meme-stock-meets-crypto wave it can10x fast. Small satellite position.
+
