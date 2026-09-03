@@ -13189,3 +13189,12 @@
 ## [2026-09-03 11:48 UTC] buy | [LLM] $DYTB at $2.848e-06, spent 0.02 SOL
 - **Reasoning:** $DYTB has real viral attention signal — 17M views in 1 day on X, verifiable story (Dyson's AI toothbrush with 470k dental images). Crossover meme + tech narrative has crossover pump potential. Pool=$2.8k is thin but the attention story is concrete. Skip the tiny sub-$1k mcaps with no narrative.
 
+## [2026-09-03 11:49 UTC] sell | [FULL][LLM] $GROKTR at $2.81994e-06 | P&L: -18.3%
+- **Reasoning:** Pool=$0 makes position untradeable / illiquid; -18.3% with no liquidity = exit to recover any redeemable SOL and free the slot.
+
+## [2026-09-03 11:49 UTC] sell | [FULL][LLM] $DYTB at $2.86597e-06 | P&L: +0.6%
+- **Reasoning:** +0.6% on a $25 pool after immediate entry = flat with no catalyst. Stale at 0h, no attention signal, free the slot for fresh entries.
+
+## [2026-09-03 11:49 UTC] buy | [LLM] $PCITY at $1.672e-06, spent 0.02 SOL
+- **Reasoning:** $PCITY — novel narrative ('own a piece of a Solana city, 313 buildings') + dedicated @PumpCityxSOL account + $540 mcap = max asymmetry on a fresh attention play.
+
