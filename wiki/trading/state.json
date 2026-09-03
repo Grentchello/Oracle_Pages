@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.327565,
+  "balance_sol": 0.342064,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3BLvBCg2NKQJEj6raSrYcN17BeyjXHdaHa86vUDcpump": {
-      "symbol": "COZY",
-      "name": "COZY MON",
-      "amount": 87673.39771729588,
-      "entry_price_usd": 1.139e-05,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-03T00:24:06.538805+00:00",
-      "entry_usd_value": 1.9972,
-      "entry_signals": {
-        "liquidity_usd": 3461.10675596182,
-        "volume_24h_usd": 3351.05,
-        "market_cap_usd": 12110.805337033826,
-        "ath_market_cap_usd": 12320.18906326396,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 34.659590987,
-        "description": "Cozy Mon is a quiet little creature who finds comfort on tony things",
-        "twitter": "https://x.com/cozymon1",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -25764,25 +25741,47 @@
       "pnl_pct": 29.44,
       "exit_reason": "LLM: sell_half — Up 29.4%, past first TP threshold but bot hasn't fired. Lock half the gain — bonding curve pool is thin ($3.9k), narrative unclear, don't hope for con",
       "partial": true
+    },
+    {
+      "mint": "3BLvBCg2NKQJEj6raSrYcN17BeyjXHdaHa86vUDcpump",
+      "symbol": "COZY",
+      "name": "COZY MON",
+      "amount_sold": 21918.34942932397,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T00:24:06.538805+00:00",
+      "exit_time": "2026-09-03T00:26:27.758430+00:00",
+      "entry_price_usd": 1.139e-05,
+      "exit_price_usd": 1.6509549363109397e-05,
+      "entry_sol_for_chunk": 0.0025,
+      "exit_sol_received": 0.003625,
+      "pnl_sol": 0.001125,
+      "pnl_pct": 44.95,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "3BLvBCg2NKQJEj6raSrYcN17BeyjXHdaHa86vUDcpump",
+      "symbol": "COZY",
+      "name": "COZY MON",
+      "amount_sold": 65755.0482879719,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T00:24:06.538805+00:00",
+      "exit_time": "2026-09-03T00:26:38.099831+00:00",
+      "entry_price_usd": 1.139e-05,
+      "exit_price_usd": 1.6509549363109397e-05,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.010874,
+      "pnl_sol": 0.003374,
+      "pnl_pct": 44.95,
+      "exit_reason": "LLM: sell_all — +44.9% in <1h, near first auto-TP threshold. Bonding-curve pool only $4.3k — thin liquidity, easy to give back gains. Lock profit now.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T00:25:24.190436+00:00",
+  "last_updated": "2026-09-03T00:26:38.352230+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.92,
-  "portfolio_value_usd": 33.73,
+  "last_sol_price_usd": 99.83,
+  "portfolio_value_usd": 34.15,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 15:31 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-02 16:32 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-02 16:35 UTC",
       "action": "observe",
@@ -25890,40 +25889,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $COZY at $1.47432e-05 | P&L: +29.4%",
       "reason": "Up 29.4%, past first TP threshold but bot hasn't fired. Lock half the gain — bonding curve pool is thin ($3.9k), narrative unclear, don't hope for continuation."
+    },
+    {
+      "time": "2026-09-03 00:26 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $COZY at $1.65095e-05 | P&L: +45.0%",
+      "reason": "Auto take-profit at +44.9%"
+    },
+    {
+      "time": "2026-09-03 00:26 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $COZY at $1.65095e-05 | P&L: +45.0%",
+      "reason": "+44.9% in <1h, near first auto-TP threshold. Bonding-curve pool only $4.3k — thin liquidity, easy to give back gains. Lock profit now."
     }
   ],
   "trade_stats": {
-    "total": 1514,
-    "wins": 762,
+    "total": 1516,
+    "wins": 764,
     "losses": 752,
-    "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.995077,
-    "avg_pnl_pct": 36.93,
+    "win_rate_pct": 50.4,
+    "total_pnl_sol": -1.990578,
+    "avg_pnl_pct": 36.94,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 3,
-    "today_realized_sol": -0.002216,
-    "today_target_pct": -0.6,
+    "today_trades": 5,
+    "today_realized_sol": 0.002283,
+    "today_target_pct": 0.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 762,
+      "win_count": 764,
       "loss_count": 752,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T00:25:23.937315+00:00",
+  "last_llm_brief_at": "2026-09-03T00:26:38.099791+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "3BLvBCg2NKQJEj6raSrYcN17BeyjXHdaHa86vUDcpump": {
-      "price_usd": 1.4743168882402027e-05,
+      "price_usd": 1.6509549363109397e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3888.6394719006403,
-      "volume_h24": 4529.41,
+      "liquidity_usd": 4288.91042082618,
+      "volume_h24": 5780.97,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 38.917528742
+      "real_sol_reserves": 42.962139846
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

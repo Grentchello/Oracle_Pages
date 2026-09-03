@@ -12511,3 +12511,9 @@
 ## [2026-09-03 00:25 UTC] sell | [PARTIAL][LLM] $COZY at $1.47432e-05 | P&L: +29.4%
 - **Reasoning:** Up 29.4%, past first TP threshold but bot hasn't fired. Lock half the gain — bonding curve pool is thin ($3.9k), narrative unclear, don't hope for continuation.
 
+## [2026-09-03 00:26 UTC] sell | [TP +30% (25%)] $COZY at $1.65095e-05 | P&L: +45.0%
+- **Reasoning:** Auto take-profit at +44.9%
+
+## [2026-09-03 00:26 UTC] sell | [FULL][LLM] $COZY at $1.65095e-05 | P&L: +45.0%
+- **Reasoning:** +44.9% in <1h, near first auto-TP threshold. Bonding-curve pool only $4.3k — thin liquidity, easy to give back gains. Lock profit now.
+
