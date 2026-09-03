@@ -12676,3 +12676,6 @@
 ## [2026-09-03 03:16 UTC] buy | [LLM] $CHMORTY at $2.855e-06, spent 0.02 SOL
 - **Reasoning:** $CHMORTY fuses Chrome Hearts luxury drip with Rick & Morty meme IP — a real cultural crossover crypto-twitter loves. Passes viability (desc=70 chars + twitter), mcap $2.9k, fresh 1.1min launch. $0.05 position.
 
+## [2026-09-03 03:24 UTC] sell | [FULL][LLM] $CHMORTY at $2.88671e-06 | P&L: +1.1%
+- **Reasoning:** CHMORTY is barely green (+1.1%) after 0.1h, sitting on a $36 pool with our 6% share — small move plus thin liquidity means any uptick I get I'll lose on exit. Lock the scratch and free the slot for a fresh narrative launch.
+

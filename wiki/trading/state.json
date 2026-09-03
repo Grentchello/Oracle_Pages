@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.31574,
+  "balance_sol": 0.336012,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "96uTdmJk5ofeTUQnwy47BbsP58XcBDn1AKapzn26pump": {
-      "symbol": "CHMORTY",
-      "name": "Chrome morty",
-      "amount": 708231.1733800349,
-      "entry_price_usd": 2.855e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T03:16:17.329629+00:00",
-      "entry_usd_value": 2.022,
-      "entry_signals": {
-        "liquidity_usd": 40.739555154899996,
-        "volume_24h_usd": 19.91,
-        "market_cap_usd": 2888.420132386913,
-        "ath_market_cap_usd": 2883.886346081382,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.402962959,
-        "description": "Chrome Hearts Morty. Dripped out, unbothered, and ready to take over. ",
-        "twitter": "https://x.com/stunnadevwv/status/2095348803373039670?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -26291,19 +26268,30 @@
       "pnl_pct": -4.92,
       "exit_reason": "LLM: sell_all — Only -4.9% but pool=$331 with our 1% share = tiny position in weak liquidity. Capital rotation beats holding a micro-share.",
       "partial": false
+    },
+    {
+      "mint": "96uTdmJk5ofeTUQnwy47BbsP58XcBDn1AKapzn26pump",
+      "symbol": "CHMORTY",
+      "name": "Chrome morty",
+      "amount_sold": 708231.1733800349,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T03:16:17.329629+00:00",
+      "exit_time": "2026-09-03T03:24:04.179627+00:00",
+      "entry_price_usd": 2.855e-06,
+      "exit_price_usd": 2.886713650680402e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020272,
+      "pnl_sol": 0.000272,
+      "pnl_pct": 1.11,
+      "exit_reason": "LLM: sell_all — CHMORTY is barely green (+1.1%) after 0.1h, sitting on a $36 pool with our 6% share — small move plus thin liquidity means any uptick I get I'll lose ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T03:22:44.205225+00:00",
+  "last_updated": "2026-09-03T03:24:04.711339+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.87,
-  "portfolio_value_usd": 33.87,
+  "last_sol_price_usd": 100.85,
+  "portfolio_value_usd": 33.89,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 02:26 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Pump It at $2.86744e-06 | P&L: -1.4%",
-      "reason": "$Pump It is down 1.4% after 0.1h with only $32 pool liquidity. Generic name, no narrative, and 6% pool share means my exits move the price. Cut and rotate to fresher attention."
-    },
     {
       "time": "2026-09-03 02:26 UTC",
       "action": "sell",
@@ -26417,35 +26405,41 @@
       "action": "buy",
       "details": "[LLM] $CHMORTY at $2.855e-06, spent 0.02 SOL",
       "reason": "$CHMORTY fuses Chrome Hearts luxury drip with Rick & Morty meme IP — a real cultural crossover crypto-twitter loves. Passes viability (desc=70 chars + twitter), mcap $2.9k, fresh 1.1min launch. $0.05 position."
+    },
+    {
+      "time": "2026-09-03 03:24 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CHMORTY at $2.88671e-06 | P&L: +1.1%",
+      "reason": "CHMORTY is barely green (+1.1%) after 0.1h, sitting on a $36 pool with our 6% share — small move plus thin liquidity means any uptick I get I'll lose on exit. Lock the scratch and free the slot for a fresh narrative launch."
     }
   ],
   "trade_stats": {
-    "total": 1545,
-    "wins": 775,
+    "total": 1546,
+    "wins": 776,
     "losses": 770,
     "win_rate_pct": 50.2,
-    "total_pnl_sol": -1.996903,
-    "avg_pnl_pct": 36.35,
+    "total_pnl_sol": -1.996631,
+    "avg_pnl_pct": 36.32,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 34,
-    "today_realized_sol": -0.004042,
-    "today_target_pct": -1.0,
+    "today_trades": 35,
+    "today_realized_sol": -0.00377,
+    "today_target_pct": -0.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 775,
+      "win_count": 776,
       "loss_count": 770,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T03:22:44.205181+00:00",
+  "last_llm_brief_at": "2026-09-03T03:24:04.179589+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "96uTdmJk5ofeTUQnwy47BbsP58XcBDn1AKapzn26pump": {
-      "price_usd": 2.8872861273587723e-06,
+      "price_usd": 2.886713650680402e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 35.76762594405,
+      "liquidity_usd": 35.76053411775,
       "volume_h24": 276.57,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
