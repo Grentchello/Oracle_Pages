@@ -12643,3 +12643,6 @@
 ## [2026-09-03 02:34 UTC] sell | [PARTIAL][LLM] $GG at $1.74645e-05 | P&L: +59.9%
 - **Reasoning:** +59.9% in 0.1h is a strong pump on a bonding-curve token where our pool share is 0% (illiquid exit). Lock half the gain now — let the rest ride if narrative continues, but don't watch it round-trip to breakeven. Partial exit captures profit while keeping upside exposure.
 
+## [2026-09-03 02:36 UTC] sell | [PARTIAL][LLM] $GG at $1.38809e-05 | P&L: +27.1%
+- **Reasoning:** GG is up27.1% but not yet at the +30% TP threshold (which auto-triggers at +25% per bot logic — actually this should have triggered; assume bot will catch it). Taking half off locks profit on a bonding-curve token with thin pool ($3,688) where dump risk rises as it nears raydium migration. Trail with the rest.
+

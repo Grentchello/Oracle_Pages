@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.338588,
+  "balance_sol": 0.339254,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq": {
       "symbol": "GG",
       "name": "Golden Goose",
-      "amount": 9693.080357142859,
+      "amount": 4846.540178571429,
       "entry_price_usd": 1.092e-05,
-      "entry_sol_spent": 0.0010546875,
+      "entry_sol_spent": 0.00052734375,
       "entry_time": "2026-09-03T02:30:02.980052+00:00",
       "entry_usd_value": 2.0072,
       "entry_signals": {
@@ -26206,19 +26206,30 @@
       "pnl_pct": 59.93,
       "exit_reason": "LLM: sell_half — +59.9% in 0.1h is a strong pump on a bonding-curve token where our pool share is 0% (illiquid exit). Lock half the gain now — let the rest ride if nar",
       "partial": true
+    },
+    {
+      "mint": "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq",
+      "symbol": "GG",
+      "name": "Golden Goose",
+      "amount_sold": 4846.540178571429,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T02:30:02.980052+00:00",
+      "exit_time": "2026-09-03T02:36:12.296216+00:00",
+      "entry_price_usd": 1.092e-05,
+      "exit_price_usd": 1.3880893358007742e-05,
+      "entry_sol_for_chunk": 0.000527,
+      "exit_sol_received": 0.000666,
+      "pnl_sol": 0.000138,
+      "pnl_pct": 27.11,
+      "exit_reason": "LLM: sell_half — GG is up27.1% but not yet at the +30% TP threshold (which auto-triggers at +25% per bot logic — actually this should have triggered; assume bot will c",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T02:34:47.147628+00:00",
+  "last_updated": "2026-09-03T02:36:12.296509+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.93,
-  "portfolio_value_usd": 34.28,
+  "last_sol_price_usd": 101.079,
+  "portfolio_value_usd": 34.34,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 01:31 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $STRAYDOG at $2.81034e-06 | P&L: -5.6%",
-      "reason": "Our 41% share of a $2 pool is a rug waiting to happen — we ARE the liquidity and any other seller crashes our price. -5.6% with held<15min, but the position sizing itself is the risk. Exiting to free capital for fresh alpha."
-    },
     {
       "time": "2026-09-03 01:33 UTC",
       "action": "sell",
@@ -26332,40 +26343,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $GG at $1.74645e-05 | P&L: +59.9%",
       "reason": "+59.9% in 0.1h is a strong pump on a bonding-curve token where our pool share is 0% (illiquid exit). Lock half the gain now — let the rest ride if narrative continues, but don't watch it round-trip to breakeven. Partial exit captures profit while keeping upside exposure."
+    },
+    {
+      "time": "2026-09-03 02:36 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $GG at $1.38809e-05 | P&L: +27.1%",
+      "reason": "GG is up27.1% but not yet at the +30% TP threshold (which auto-triggers at +25% per bot logic — actually this should have triggered; assume bot will catch it). Taking half off locks profit on a bonding-curve token with thin pool ($3,688) where dump risk rises as it nears raydium migration. Trail with the rest."
     }
   ],
   "trade_stats": {
-    "total": 1540,
-    "wins": 774,
+    "total": 1541,
+    "wins": 775,
     "losses": 766,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.992999,
-    "avg_pnl_pct": 36.5,
+    "total_pnl_sol": -1.992861,
+    "avg_pnl_pct": 36.49,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 29,
-    "today_realized_sol": -0.000138,
+    "today_trades": 30,
+    "today_realized_sol": -0.0,
     "today_target_pct": -0.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 774,
+      "win_count": 775,
       "loss_count": 766,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T02:34:46.816491+00:00",
+  "last_llm_brief_at": "2026-09-03T02:36:12.296180+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq": {
-      "price_usd": 1.746450213647377e-05,
+      "price_usd": 1.3880893358007742e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4504.766357131961,
-      "volume_h24": 43954.48,
+      "liquidity_usd": 3688.100327263671,
+      "volume_h24": 50860.71,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 44.632580572
+      "real_sol_reserves": 36.487305249
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
