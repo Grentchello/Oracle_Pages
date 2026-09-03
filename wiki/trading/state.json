@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.38004,
+  "balance_sol": 0.382032,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8N4JU96C1LoYTrR5odzLMZDUeDetFuVWUsKzedbYpump": {
-      "symbol": "BEN",
-      "name": "BEN",
-      "amount": 477740.8637873754,
-      "entry_price_usd": 4.214e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T09:12:26.526590+00:00",
-      "entry_usd_value": 2.0132,
-      "entry_signals": {
-        "liquidity_usd": 11.407273764040001,
-        "volume_24h_usd": 113.32,
-        "market_cap_usd": 4214.018437933196,
-        "ath_market_cap_usd": 4214.018437933196,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.113324794,
-        "description": "This is Ben. Ben trades perps in Solflare. Ben stays on Solana. Ben uses USDC. Ben doesn't need a bridge or exchange account. Ben is smart. ",
-        "twitter": "https://x.com/solflare/status/2095431632958468551",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -27600,19 +27577,30 @@
       "pnl_pct": 257.94,
       "exit_reason": "LLM: sell_all — +257.9% in 0.1h — past all TP thresholds, this is peak euphoria. Lock the gain before reversal. Bot should have already auto-TP'd; if still open, exit",
       "partial": false
+    },
+    {
+      "mint": "8N4JU96C1LoYTrR5odzLMZDUeDetFuVWUsKzedbYpump",
+      "symbol": "BEN",
+      "name": "BEN",
+      "amount_sold": 477740.8637873754,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T09:12:26.526590+00:00",
+      "exit_time": "2026-09-03T09:13:30.415282+00:00",
+      "entry_price_usd": 4.214e-06,
+      "exit_price_usd": 4.2004098855371495e-07,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.001992,
+      "pnl_sol": -0.018008,
+      "pnl_pct": -90.03,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T09:12:26.526847+00:00",
+  "last_updated": "2026-09-03T09:13:58.004255+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.66,
-  "portfolio_value_usd": 40.27,
+  "last_sol_price_usd": 100.75,
+  "portfolio_value_usd": 38.49,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 07:22 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $M2BCooT at $4.20966e-06 | P&L: +25.8%",
-      "reason": "Up +25.8% and approaching the +30% TP1 trigger. Lock half to bank the gain — bonding curve at 35% complete means the easy money is being extracted already, and the pool is only $670 so a sharp reversal is likely. Free slot + guaranteed profit > riding the rest."
-    },
     {
       "time": "2026-09-03 07:24 UTC",
       "action": "sell",
@@ -27726,38 +27714,46 @@
       "action": "buy",
       "details": "[LLM] $BEN at $4.214e-06, spent 0.02 SOL",
       "reason": "$BEN — Solana-native perps trader character on Solflare, long descriptive narrative, official Solflare tweet gives it attention backing. $4.2k mcap with a clear story = room to5-10x if narrative catches."
+    },
+    {
+      "time": "2026-09-03 09:13 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $BEN closed at $4.20041e-07 | P&L: -90.0%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1622,
+    "total": 1623,
     "wins": 819,
-    "losses": 803,
+    "losses": 804,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.932606,
-    "avg_pnl_pct": 36.01,
+    "total_pnl_sol": -1.950614,
+    "avg_pnl_pct": 35.94,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 111,
-    "today_realized_sol": 0.060255,
-    "today_target_pct": 15.1,
+    "today_trades": 112,
+    "today_realized_sol": 0.042247,
+    "today_target_pct": 10.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 819,
-      "loss_count": 803,
+      "loss_count": 804,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T09:12:24.754249+00:00",
+  "last_llm_brief_at": "2026-09-03T09:13:57.494450+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "Dh6MGtEtnirmfimatEbcNHaTVPJGWxujvYLPgnm6pump": {
-      "price_usd": 7.642e-05,
-      "change_h24": 84.96,
-      "change_h1": 84.96,
-      "liquidity_usd": 21597.63,
-      "volume_h24": 56160.94,
-      "dex_id": "pumpswap",
-      "source": "dexscreener"
+    "8N4JU96C1LoYTrR5odzLMZDUeDetFuVWUsKzedbYpump": {
+      "price_usd": 4.2004098855371495e-07,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 9.04783309625,
+      "volume_h24": 113.32,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.089804795
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

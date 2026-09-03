@@ -13042,3 +13042,6 @@
 ## [2026-09-03 09:12 UTC] buy | [LLM] $BEN at $4.214e-06, spent 0.02 SOL
 - **Reasoning:** $BEN — Solana-native perps trader character on Solflare, long descriptive narrative, official Solflare tweet gives it attention backing. $4.2k mcap with a clear story = room to5-10x if narrative catches.
 
+## [2026-09-03 09:13 UTC] sell | [hard-stop] $BEN closed at $4.20041e-07 | P&L: -90.0%
+- **Reasoning:** Hard -30% stop
+
