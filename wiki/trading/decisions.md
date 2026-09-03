@@ -12880,3 +12880,6 @@
 ## [2026-09-03 06:26 UTC] buy | [LLM] $Kattakun  at $3.03e-06, spent 0.02 SOL
 - **Reasoning:** $Kattakun passes viability gate (long desc + twitter), $3k mcap, unique emotional narrative (real Japanese pelican mascot), fresh launch at 1.1min. Niche attention but authentic story often outperforms generic memes. Risk: bond only 4% complete, very low liquidity.
 
+## [2026-09-03 06:28 UTC] buy | [LLM] $rigbycat at $3.22e-06, spent 0.02 SOL
+- **Reasoning:** Strongest concrete attention signal in the batch: '50M views in one video' is documented viral proof, not just narrative. Fresh (1.2min), $3.8k mcap is tiny enough for 5-10x room. Risk: low bond (12%), thin liquidity could mean fast dump too — that's why I take the 0.05 SOL scalp size.
+
