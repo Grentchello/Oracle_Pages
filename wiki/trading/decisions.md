@@ -12931,3 +12931,9 @@
 ## [2026-09-03 06:55 UTC] sell | [PARTIAL][LLM] $shg at $2.82282e-06 | P&L: -26.3%
 - **Reasoning:** Down -26.3% and at the hard stop threshold (our share=81% on a thin $2 pool is dangerously illiquid). Capital is locked in a dead token; better to free the slot for fresh attention.
 
+## [2026-09-03 06:57 UTC] sell | [FULL][LLM] $shg at $2.81799e-06 | P&L: -26.4%
+- **Reasoning:** Position is at -26.4%, only 4% away from the -30% hard cap. Holding microcap dust with 35141480% share (pool=$0) means liquidity is gone — no bounce possible. Cut the loss now before the bot force-stops it. Fresh slate, no reason to ride a dead bonding-curve position to the wire.
+
+## [2026-09-03 06:57 UTC] buy | [LLM] $PACT at $3.31518e-06, spent 0.02 SOL
+- **Reasoning:** $PACT passes viability gate (desc ≥50 chars + twitter), narrative is novel — 'ad exchange for AI coding tools' targets the booming AI agent economy. mcap $3.3k with fresh launch, story is attention-friendly. Risk: 0.6min old, bonding curve only 7%, but that's where the alpha is per the prompt.
+

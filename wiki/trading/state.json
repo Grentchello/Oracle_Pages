@@ -1,26 +1,26 @@
 {
-  "balance_sol": 0.38204,
+  "balance_sol": 0.366608,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "4rvienbLPFFa2tbMYzncBsvacWcKD9Aj84E8DcVjpump": {
-      "symbol": "shg",
-      "name": "superhero ghosty",
-      "amount": 163396.16722246257,
-      "entry_price_usd": 3.8312012926397495e-06,
-      "entry_sol_spent": 0.006201125379644172,
-      "entry_time": "2026-09-03T06:53:37.885049+00:00",
-      "entry_usd_value": 2.019,
+    "B8Z8Myn7LrR1UMT8Dzg3BS7rBPhKxrcb77otkVSjpump": {
+      "symbol": "PACT",
+      "name": "Pact",
+      "amount": 608052.0852552457,
+      "entry_price_usd": 3.3151765266191224e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T06:57:32.888704+00:00",
+      "entry_usd_value": 2.0158,
       "entry_signals": {
-        "liquidity_usd": 502.4343089595,
+        "liquidity_usd": 255.91255496759,
         "volume_24h_usd": null,
-        "market_cap_usd": 3826.452579143494,
-        "ath_market_cap_usd": 4040.784037773769,
+        "market_cap_usd": 3318.616070771128,
+        "ath_market_cap_usd": 3316.1632841922797,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 4.97706101,
-        "description": "👻 ROBIN HOOD GHOST — $RHG The legend never died… he just came back as a ghost. 👻🏹 $RHG is the spirit of Robin Hood reborn on Solana — stealing attention from the rich, giving the vibes to the community, and haunting every chart in sight. No castles. No crowns. No boring narratives. Just pure meme en",
-        "twitter": "https://x.com/gh1stsol?s=11",
+        "real_sol_reserves": 2.539066921,
+        "description": "An ad exchange for AI coding tools. One sponsored line in your agent's status bar, sold by the rendered second. Advertisers pay USDC. Operators keep 70%.",
+        "twitter": "https://x.com/pact_sigil_bond",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -27226,25 +27226,30 @@
       "pnl_pct": -26.32,
       "exit_reason": "LLM: sell_all — Down -26.3% and at the hard stop threshold (our share=81% on a thin $2 pool is dangerously illiquid). Capital is locked in a dead token; better to fre",
       "partial": true
+    },
+    {
+      "mint": "4rvienbLPFFa2tbMYzncBsvacWcKD9Aj84E8DcVjpump",
+      "symbol": "shg",
+      "name": "superhero ghosty",
+      "amount_sold": 163396.05098079593,
+      "fraction_sold": 0.9999992885900043,
+      "entry_time": "2026-09-03T06:53:37.885049+00:00",
+      "exit_time": "2026-09-03T06:57:31.644257+00:00",
+      "entry_price_usd": 3.8312012926397495e-06,
+      "exit_price_usd": 2.817986953690839e-06,
+      "entry_sol_for_chunk": 0.006201,
+      "exit_sol_received": 0.004568,
+      "pnl_sol": -0.001633,
+      "pnl_pct": -26.45,
+      "exit_reason": "LLM: sell_all — Position is at -26.4%, only 4% away from the -30% hard cap. Holding microcap dust with 35141480% share (pool=$0) means liquidity is gone — no bounce p",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T06:55:02.386749+00:00",
+  "last_updated": "2026-09-03T06:57:32.888972+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.84,
-  "portfolio_value_usd": 39.15,
+  "last_sol_price_usd": 100.79,
+  "portfolio_value_usd": 38.97,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 06:16 UTC",
-      "action": "buy",
-      "details": "[LLM] $Shrek at $3.875e-06, spent 0.02 SOL",
-      "reason": "Shrek has strong IP recognition, X community link, and a concrete creator story. Memecoin-friendly narrative with broad appeal and age<1min - classic viral setup."
-    },
-    {
-      "time": "2026-09-03 06:18 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Shrek at $2.87601e-06 | P&L: -25.8%",
-      "reason": "At -25.8%, dangerously close to the -30% hard stop. Pool is only $34 with my 4% share — thin liquidity makes recovery unlikely. Better to rotate capital into fresh attention than ride a slow bleed to forced exit."
-    },
     {
       "time": "2026-09-03 06:26 UTC",
       "action": "buy",
@@ -27352,40 +27357,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $shg at $2.82282e-06 | P&L: -26.3%",
       "reason": "Down -26.3% and at the hard stop threshold (our share=81% on a thin $2 pool is dangerously illiquid). Capital is locked in a dead token; better to free the slot for fresh attention."
+    },
+    {
+      "time": "2026-09-03 06:57 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $shg at $2.81799e-06 | P&L: -26.4%",
+      "reason": "Position is at -26.4%, only 4% away from the -30% hard cap. Holding microcap dust with 35141480% share (pool=$0) means liquidity is gone — no bounce possible. Cut the loss now before the bot force-stops it. Fresh slate, no reason to ride a dead bonding-curve position to the wire."
+    },
+    {
+      "time": "2026-09-03 06:57 UTC",
+      "action": "buy",
+      "details": "[LLM] $PACT at $3.31518e-06, spent 0.02 SOL",
+      "reason": "$PACT passes viability gate (desc ≥50 chars + twitter), narrative is novel — 'ad exchange for AI coding tools' targets the booming AI agent economy. mcap $3.3k with fresh launch, story is attention-friendly. Risk: 0.6min old, bonding curve only 7%, but that's where the alpha is per the prompt."
     }
   ],
   "trade_stats": {
-    "total": 1600,
+    "total": 1601,
     "wins": 809,
-    "losses": 791,
-    "win_rate_pct": 50.6,
-    "total_pnl_sol": -1.944404,
-    "avg_pnl_pct": 35.95,
+    "losses": 792,
+    "win_rate_pct": 50.5,
+    "total_pnl_sol": -1.946037,
+    "avg_pnl_pct": 35.91,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 89,
-    "today_realized_sol": 0.048457,
-    "today_target_pct": 12.1,
+    "today_trades": 90,
+    "today_realized_sol": 0.046824,
+    "today_target_pct": 11.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 809,
-      "loss_count": 791,
+      "loss_count": 792,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T06:55:02.134567+00:00",
+  "last_llm_brief_at": "2026-09-03T06:57:31.643863+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4rvienbLPFFa2tbMYzncBsvacWcKD9Aj84E8DcVjpump": {
-      "price_usd": 2.822824821967992e-06,
+      "price_usd": 2.817986953690839e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.8449550266,
-      "volume_h24": 1096.39,
+      "liquidity_usd": 1.3102700000000002e-06,
+      "volume_h24": 2774.15,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.018295865
+      "real_sol_reserves": 1.3e-08
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
