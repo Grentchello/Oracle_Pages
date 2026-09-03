@@ -13498,3 +13498,6 @@
 ## [2026-09-03 14:52 UTC] sell | [FULL][LLM] $$HOUSE at $3.1179e-06 | P&L: -10.2%
 - **Reasoning:** Down -10.2% in <1 min on a bonding-curve with only $116 pool — no bounce signal, and the pool is so thin I can't trust exit liquidity. Cut it before it gets worse.
 
+## [2026-09-03 14:55 UTC] buy | [LLM] $YAPZO at $3.82362e-06, spent 0.02 SOL
+- **Reasoning:** $YAPZO has the cleanest narrative of the batch — dedicated @yapzotalk twitter handle, coherent 'born in the group chat' origin story with full description, and a memorable brandable name. mcap $3.8k leaves room for 5-10x if attention catches. Risks: ultra-fresh (0.4min), bond only 11% (still on bonding curve), and could be a slow runner — but the substance here beats the celebrity/clone/scanner-token noise around it.
+
