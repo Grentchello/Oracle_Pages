@@ -13315,3 +13315,6 @@
 ## [2026-09-03 12:55 UTC] sell | [FULL][LLM] $PARE at $5.20752e-06 | P&L: -3.7%
 - **Reasoning:** $PARE is -3.7% on a $1080 pool (way below ideal liquidity), no share, no momentum after entry. Freeing the slot to deploy into fresher attention.
 
+## [2026-09-03 12:58 UTC] sell | [PARTIAL][LLM] $DERP at $1.16305e-05 | P&L: +25.3%
+- **Reasoning:** DERP is +25.3% and approaching the +30% TP threshold where the bot auto-takes-profit at 25%. Locking in half the gain de-risks while leaving a runner for the +100%/+200% levels. Pool is thin ($3k) so exit velocity matters.
+

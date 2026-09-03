@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.349059,
+  "balance_sol": 0.358424,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GVfXevfQMG9Z4VU83r47wXbmfdVgKYaBQhQ1JcSPpump": {
       "symbol": "DERP",
       "name": "DERP",
-      "amount": 163507.10900473935,
+      "amount": 81753.55450236968,
       "entry_price_usd": 9.284e-06,
-      "entry_sol_spent": 0.015,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-03T12:52:55.257771+00:00",
       "entry_usd_value": 2.024,
       "entry_signals": {
@@ -28518,19 +28518,30 @@
       "pnl_pct": -3.71,
       "exit_reason": "LLM: sell_all — $PARE is -3.7% on a $1080 pool (way below ideal liquidity), no share, no momentum after entry. Freeing the slot to deploy into fresher attention.",
       "partial": false
+    },
+    {
+      "mint": "GVfXevfQMG9Z4VU83r47wXbmfdVgKYaBQhQ1JcSPpump",
+      "symbol": "DERP",
+      "name": "DERP",
+      "amount_sold": 81753.55450236968,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T12:52:55.257771+00:00",
+      "exit_time": "2026-09-03T12:58:04.913188+00:00",
+      "entry_price_usd": 9.284e-06,
+      "exit_price_usd": 1.1630506604108841e-05,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.009365,
+      "pnl_sol": 0.001865,
+      "pnl_pct": 25.27,
+      "exit_reason": "LLM: sell_half — DERP is +25.3% and approaching the +30% TP threshold where the bot auto-takes-profit at 25%. Locking in half the gain de-risks while leaving a runner ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T12:55:56.276102+00:00",
+  "last_updated": "2026-09-03T12:58:05.654223+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.46,
-  "portfolio_value_usd": 36.93,
+  "last_sol_price_usd": 101.53,
+  "portfolio_value_usd": 37.15,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 12:11 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $HUGGY at $1.33435e-05 | P&L: +25.2%",
-      "reason": "HUGGY at +25.2% hit the auto-TP threshold. Lock half the gain, let the rest ride if narrative continues — standard scalp discipline."
-    },
     {
       "time": "2026-09-03 12:12 UTC",
       "action": "sell",
@@ -28644,51 +28655,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $PARE at $5.20752e-06 | P&L: -3.7%",
       "reason": "$PARE is -3.7% on a $1080 pool (way below ideal liquidity), no share, no momentum after entry. Freeing the slot to deploy into fresher attention."
+    },
+    {
+      "time": "2026-09-03 12:58 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $DERP at $1.16305e-05 | P&L: +25.3%",
+      "reason": "DERP is +25.3% and approaching the +30% TP threshold where the bot auto-takes-profit at 25%. Locking in half the gain de-risks while leaving a runner for the +100%/+200% levels. Pool is thin ($3k) so exit velocity matters."
     }
   ],
   "trade_stats": {
-    "total": 1676,
-    "wins": 849,
+    "total": 1677,
+    "wins": 850,
     "losses": 827,
     "win_rate_pct": 50.7,
-    "total_pnl_sol": -1.968585,
-    "avg_pnl_pct": 35.15,
+    "total_pnl_sol": -1.96672,
+    "avg_pnl_pct": 35.14,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 165,
-    "today_realized_sol": 0.024276,
-    "today_target_pct": 6.1,
+    "today_trades": 166,
+    "today_realized_sol": 0.026141,
+    "today_target_pct": 6.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 849,
+      "win_count": 850,
       "loss_count": 827,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T12:55:56.008802+00:00",
+  "last_llm_brief_at": "2026-09-03T12:58:04.913152+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GVfXevfQMG9Z4VU83r47wXbmfdVgKYaBQhQ1JcSPpump": {
-      "price_usd": 1.243489662142527e-05,
+      "price_usd": 1.1630506604108841e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3328.9811879736603,
-      "volume_h24": 5601.21,
+      "liquidity_usd": 3119.43951909447,
+      "volume_h24": 7886.86,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 32.810774571
-    },
-    "GWSzFjaWSnPjazJHjt8ctpG2TukqUhU2jfdc3fMFpump": {
-      "price_usd": 5.207523002561369e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1080.2461474803,
-      "volume_h24": 7541.77,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 10.647015055
+      "real_sol_reserves": 30.724313199
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
