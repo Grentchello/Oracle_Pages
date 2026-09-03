@@ -12649,3 +12649,6 @@
 ## [2026-09-03 02:37 UTC] sell | [hard-stop] $GG closed at $5.85517e-06 | P&L: -46.4%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-03 02:40 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
