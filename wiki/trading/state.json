@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.314629,
+  "balance_sol": 0.327565,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "3BLvBCg2NKQJEj6raSrYcN17BeyjXHdaHa86vUDcpump": {
       "symbol": "COZY",
       "name": "COZY MON",
-      "amount": 175346.79543459177,
+      "amount": 87673.39771729588,
       "entry_price_usd": 1.139e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T00:24:06.538805+00:00",
       "entry_usd_value": 1.9972,
       "entry_signals": {
@@ -25747,19 +25747,30 @@
       "pnl_pct": -17.59,
       "exit_reason": "LLM: sell_all — LONGCAT is down -17.6% with no bounce signal, liquidity only $49, and it's been 0.0h on a bonding curve. Cut the loss before it hits the -30% hard sto",
       "partial": false
+    },
+    {
+      "mint": "3BLvBCg2NKQJEj6raSrYcN17BeyjXHdaHa86vUDcpump",
+      "symbol": "COZY",
+      "name": "COZY MON",
+      "amount_sold": 87673.39771729588,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T00:24:06.538805+00:00",
+      "exit_time": "2026-09-03T00:25:23.937358+00:00",
+      "entry_price_usd": 1.139e-05,
+      "exit_price_usd": 1.4743168882402027e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.012936,
+      "pnl_sol": 0.002936,
+      "pnl_pct": 29.44,
+      "exit_reason": "LLM: sell_half — Up 29.4%, past first TP threshold but bot hasn't fired. Lock half the gain — bonding curve pool is thin ($3.9k), narrative unclear, don't hope for con",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T00:24:06.539088+00:00",
+  "last_updated": "2026-09-03T00:25:24.190436+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.86,
-  "portfolio_value_usd": 33.42,
+  "last_sol_price_usd": 99.92,
+  "portfolio_value_usd": 33.73,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 10:48 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-02 15:31 UTC",
       "action": "observe",
@@ -25873,30 +25884,48 @@
       "action": "buy",
       "details": "[LLM] $COZY at $1.139e-05, spent 0.02 SOL",
       "reason": "COZY is the only token clearing both viability gate (71-char desc + twitter @cozymon1) and fragility gate. Quirky mascot narrative ('quiet little creature who finds comfort on tony things') fits memecoin attention style, $12k mcap with 34% bond fill at 1.3min is a textbook early-stage launch — small $5 risk per the v7 size cap, -30% hard stop protects downside."
+    },
+    {
+      "time": "2026-09-03 00:25 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $COZY at $1.47432e-05 | P&L: +29.4%",
+      "reason": "Up 29.4%, past first TP threshold but bot hasn't fired. Lock half the gain — bonding curve pool is thin ($3.9k), narrative unclear, don't hope for continuation."
     }
   ],
   "trade_stats": {
-    "total": 1513,
-    "wins": 761,
+    "total": 1514,
+    "wins": 762,
     "losses": 752,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.998013,
+    "total_pnl_sol": -1.995077,
     "avg_pnl_pct": 36.93,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 2,
-    "today_realized_sol": -0.005152,
-    "today_target_pct": -1.3,
+    "today_trades": 3,
+    "today_realized_sol": -0.002216,
+    "today_target_pct": -0.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 761,
+      "win_count": 762,
       "loss_count": 752,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T00:24:05.013767+00:00",
+  "last_llm_brief_at": "2026-09-03T00:25:23.937315+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3BLvBCg2NKQJEj6raSrYcN17BeyjXHdaHa86vUDcpump": {
+      "price_usd": 1.4743168882402027e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3888.6394719006403,
+      "volume_h24": 4529.41,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 38.917528742
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

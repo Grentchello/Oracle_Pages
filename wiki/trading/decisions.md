@@ -12508,3 +12508,6 @@
 ## [2026-09-03 00:24 UTC] buy | [LLM] $COZY at $1.139e-05, spent 0.02 SOL
 - **Reasoning:** COZY is the only token clearing both viability gate (71-char desc + twitter @cozymon1) and fragility gate. Quirky mascot narrative ('quiet little creature who finds comfort on tony things') fits memecoin attention style, $12k mcap with 34% bond fill at 1.3min is a textbook early-stage launch — small $5 risk per the v7 size cap, -30% hard stop protects downside.
 
+## [2026-09-03 00:25 UTC] sell | [PARTIAL][LLM] $COZY at $1.47432e-05 | P&L: +29.4%
+- **Reasoning:** Up 29.4%, past first TP threshold but bot hasn't fired. Lock half the gain — bonding curve pool is thin ($3.9k), narrative unclear, don't hope for continuation.
+
