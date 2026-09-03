@@ -13585,3 +13585,6 @@
 ## [2026-09-03 15:51 UTC] sell | [hard-stop] $INSIDER  closed at $4.34867e-06 | P&L: -53.9%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-03 15:58 UTC] buy | [LLM] $Lee at $3.01665e-06, spent 0.02 SOL
+- **Reasoning:** $Lee 'The $50M Larper' — meta-narrative directly about memecoin traders, ties into current attention cycle around memecoin culture, has X link. Same fragility caveat — likely rejected by GMGN. Skip-able narrative but the only one that comments on the market itself.
+
