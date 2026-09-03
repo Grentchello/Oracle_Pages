@@ -13453,3 +13453,6 @@
 ## [2026-09-03 14:37 UTC] sell | [FULL][LLM] $PUNK at $4.51125e-06 | P&L: -0.1%
 - **Reasoning:** $PUNK is flat (-0.1%) after 6min, pool only $781 with my 0% share — no momentum, no liquidity, this is a stale position. Freeing the slot for fresher attention.
 
+## [2026-09-03 14:39 UTC] buy | [LLM] $KAMA at $3.60679e-06, spent 0.02 SOL
+- **Reasoning:** Kama the surfing pig is a real viral IP with sentimental story + active twitter — nostalgia/narrative tokens with established characters pump hard in first hours.
+
