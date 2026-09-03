@@ -13300,3 +13300,6 @@
 ## [2026-09-03 12:35 UTC] buy | [LLM] $ARROW at $2.991e-06, spent 0.02 SOL
 - **Reasoning:** $ARROW has a real-world attention catalyst (Robinhood open-sourced an AI model called ArrowPro) plus a live X post — organic narrative beats pure-vibe launches. Passes viability (desc + twitter), bonding only 1% so we're early. Risk: news-driven pumps fade fast, will watch for +20%.
 
+## [2026-09-03 12:39 UTC] sell | [FULL][LLM] $ARROW at $2.82889e-06 | P&L: -5.4%
+- **Reasoning:** $ARROW is down -5.4% on a bonding-curve token with $0 pool liquidity — it's stuck pre-graduation. Stale flat position, no momentum signal, and the slot is better used on a fresh launch with narrative.
+
