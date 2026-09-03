@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.33424,
+  "balance_sol": 0.350598,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "68AcQRbK8Nr5jnHfaDCXNhzS7LjXZK3zVr2nUTJApump": {
-      "symbol": "xAI",
-      "name": "XoromeAI",
-      "amount": 544824.8541894171,
-      "entry_price_usd": 3.83866481846089e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T16:49:02.321255+00:00",
-      "entry_usd_value": 2.0913999999999997,
-      "entry_signals": {
-        "liquidity_usd": 245.75749346446997,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3823.4120058782714,
-        "ath_market_cap_usd": 4479.7768718778225,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.350172071,
-        "description": "The first AI agent finding purpose while building itself.",
-        "twitter": "x.com/xoromeai",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "5Zn8M8sAKeYkF3DWbSWKGMYGrmRF2g6LEvxjxZw3pump": {
       "symbol": "HSOG",
       "name": "HOTSOG",
@@ -29934,19 +29912,30 @@
       "pnl_pct": -13.18,
       "exit_reason": "LLM: sell_all — The position is already down 13.2% after essentially no hold time, and the reported 173470013% share on a zero-value bonding-curve pool indicates a se",
       "partial": false
+    },
+    {
+      "mint": "68AcQRbK8Nr5jnHfaDCXNhzS7LjXZK3zVr2nUTJApump",
+      "symbol": "xAI",
+      "name": "XoromeAI",
+      "amount_sold": 544824.8541894171,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T16:49:02.321255+00:00",
+      "exit_time": "2026-09-03T16:52:37.356337+00:00",
+      "entry_price_usd": 3.83866481846089e-06,
+      "exit_price_usd": 3.141165952770758e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016358,
+      "pnl_sol": -0.003642,
+      "pnl_pct": -18.17,
+      "exit_reason": "LLM: sell_all — xAI at -18.2% with only $114 pool liquidity and no bounce signal — cutting pre-emptively before the -30% hard stop to preserve capital and free a slot",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T16:50:50.251363+00:00",
+  "last_updated": "2026-09-03T16:52:37.645231+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 104.62,
-  "portfolio_value_usd": 39.15,
+  "portfolio_value_usd": 38.77,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 16:27 UTC",
-      "action": "buy",
-      "details": "[LLM] $kgc at $4.17536e-06, spent 0.02 SOL",
-      "reason": "$KGC (kirk girl coin) has a clear gendered-meme narrative targeting 'the girls and the degens' — attention-market archetype with viral potential. Bond still at 14% so it's genuine early, and has the lowest-age headline (0.1min) plus an X handle. Risks: ultra-low mcap ($4k) means high rug fragility; sizing at 0.05 SOL keeps the bet bounded."
-    },
     {
       "time": "2026-09-03 16:28 UTC",
       "action": "sell",
@@ -30060,40 +30049,57 @@
       "action": "buy",
       "details": "[LLM] $HSOG at $3.03222e-06, spent 0.02 SOL",
       "reason": "$HSOG 'HotSog 🌭 half dachshund half bun' has the absurdist humor hook that memecoins need to go viral on CT. Twitter present (@DontLikeInbredd), fresh0.8min launch at $3k mcap — early enough for attention capture."
+    },
+    {
+      "time": "2026-09-03 16:52 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $xAI at $3.14117e-06 | P&L: -18.2%",
+      "reason": "xAI at -18.2% with only $114 pool liquidity and no bounce signal — cutting pre-emptively before the -30% hard stop to preserve capital and free a slot. Thin bonding-curve + flat price action = bag-holder trap."
     }
   ],
   "trade_stats": {
-    "total": 1758,
+    "total": 1759,
     "wins": 906,
-    "losses": 852,
+    "losses": 853,
     "win_rate_pct": 51.5,
-    "total_pnl_sol": -1.958406,
-    "avg_pnl_pct": 35.19,
+    "total_pnl_sol": -1.962048,
+    "avg_pnl_pct": 35.16,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 247,
-    "today_realized_sol": 0.034455,
-    "today_target_pct": 8.6,
+    "today_trades": 248,
+    "today_realized_sol": 0.030813,
+    "today_target_pct": 7.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 906,
-      "loss_count": 852,
+      "loss_count": 853,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T16:50:48.921826+00:00",
+  "last_llm_brief_at": "2026-09-03T16:52:37.356301+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "68AcQRbK8Nr5jnHfaDCXNhzS7LjXZK3zVr2nUTJApump": {
-      "price_usd": 3.4013155834222974e-06,
+      "price_usd": 3.141165952770758e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 245.87500206802,
-      "volume_h24": 1716.54,
+      "liquidity_usd": 113.86990730922001,
+      "volume_h24": 1768.29,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.350172071
+      "real_sol_reserves": 1.088414331
+    },
+    "5Zn8M8sAKeYkF3DWbSWKGMYGrmRF2g6LEvxjxZw3pump": {
+      "price_usd": 3.0322199516134653e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 56.96897989724,
+      "volume_h24": 58.01,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.544532402
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
