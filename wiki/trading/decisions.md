@@ -13048,3 +13048,9 @@
 ## [2026-09-03 09:25 UTC] buy | [LLM] $GHT at $3.612e-06, spent 0.02 SOL
 - **Reasoning:** $GHT has the cleanest narrative of the launch batch — 'something is haunting the blockchain' is a complete meme pitch with a dedicated twitter @gh1stsol and a ghost/spooky angle that trends every October. Sub-$5k mcap is where 10x lives. Bond 20% = ~$1k real buys already on curve. Risk: 1.4min old, no track record — bot will hard-stop at -30% if it dies.
 
+## [2026-09-03 09:26 UTC] sell | [TP +30% (25%)] $GHT at $5.55346e-06 | P&L: +53.8%
+- **Reasoning:** Auto take-profit at +53.8%
+
+## [2026-09-03 09:27 UTC] sell | [FULL][LLM] $GHT at $5.55346e-06 | P&L: +53.8%
+- **Reasoning:** GHT is up +53.8%, past the +50% TP threshold, only 0h old with no volume depth (pool=$1224, our share=0%). Lock the gain — small-cap bonding curve gains evaporate fast.
+

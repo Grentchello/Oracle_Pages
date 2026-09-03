@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.362032,
+  "balance_sol": 0.392783,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2Vf1Ys2ZRvYSK3N8AH1UhwsFFAjriSWa13y1zUNXpump": {
-      "symbol": "GHT",
-      "name": "GHOST",
-      "amount": 556478.4053156147,
-      "entry_price_usd": 3.612e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T09:25:43.804123+00:00",
-      "entry_usd_value": 2.0100000000000002,
-      "entry_signals": {
-        "liquidity_usd": 1209.7607024625,
-        "volume_24h_usd": 404.54,
-        "market_cap_usd": 5072.9851440818875,
-        "ath_market_cap_usd": 5086.634339281489,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 12.037419925,
-        "description": "👻 GHOST | $GHT Something is haunting the blockchain… and it’s not going away. 👻⚡ GHOST is the meme coin built for the fearless, the degens, and everyone who knows the best legends never truly disappear. Born from pure ghost energy and powered by a community that refuses to fade, $GHT is here to brin",
-        "twitter": "https://x.com/gh1stsol?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -27617,25 +27594,47 @@
       "pnl_pct": -90.03,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "2Vf1Ys2ZRvYSK3N8AH1UhwsFFAjriSWa13y1zUNXpump",
+      "symbol": "GHT",
+      "name": "GHOST",
+      "amount_sold": 139119.60132890366,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T09:25:43.804123+00:00",
+      "exit_time": "2026-09-03T09:26:48.246460+00:00",
+      "entry_price_usd": 3.612e-06,
+      "exit_price_usd": 5.553464112059285e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007688,
+      "pnl_sol": 0.002688,
+      "pnl_pct": 53.75,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "2Vf1Ys2ZRvYSK3N8AH1UhwsFFAjriSWa13y1zUNXpump",
+      "symbol": "GHT",
+      "name": "GHOST",
+      "amount_sold": 417358.80398671096,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T09:25:43.804123+00:00",
+      "exit_time": "2026-09-03T09:27:11.272547+00:00",
+      "entry_price_usd": 3.612e-06,
+      "exit_price_usd": 5.553464112059285e-06,
+      "entry_sol_for_chunk": 0.015,
+      "exit_sol_received": 0.023063,
+      "pnl_sol": 0.008063,
+      "pnl_pct": 53.75,
+      "exit_reason": "LLM: sell_all — GHT is up +53.8%, past the +50% TP threshold, only 0h old with no volume depth (pool=$1224, our share=0%). Lock the gain — small-cap bonding curve gai",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T09:25:44.062962+00:00",
+  "last_updated": "2026-09-03T09:27:11.798240+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 100.5,
-  "portfolio_value_usd": 38.39,
+  "portfolio_value_usd": 39.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 07:25 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $M2BCooT at $3.24306e-06 | P&L: -3.1%",
-      "reason": "Down -3.1% in 6 min on $218 pool (extremely thin), no clear bounce signal, and the bonding-curve token has 0% share — this is dead weight better recycled. Cut and free the slot."
-    },
-    {
-      "time": "2026-09-03 07:33 UTC",
-      "action": "buy",
-      "details": "[LLM] $$SVAI at $3.2454e-06, spent 0.02 SOL",
-      "reason": "$$SVAI 'SmartViewAI' rides the durable AI-narrative meta with both twitter and >50 char desc (viability PASS). AI memecoins have been the most consistent attention market on Solana. Risk: very fresh (0.0min), bond only 6% — low liquidity means easy to get stuck, so the >30min stale-exit rule matters here."
-    },
     {
       "time": "2026-09-03 07:43 UTC",
       "action": "sell",
@@ -27743,30 +27742,54 @@
       "action": "buy",
       "details": "[LLM] $GHT at $3.612e-06, spent 0.02 SOL",
       "reason": "$GHT has the cleanest narrative of the launch batch — 'something is haunting the blockchain' is a complete meme pitch with a dedicated twitter @gh1stsol and a ghost/spooky angle that trends every October. Sub-$5k mcap is where 10x lives. Bond 20% = ~$1k real buys already on curve. Risk: 1.4min old, no track record — bot will hard-stop at -30% if it dies."
+    },
+    {
+      "time": "2026-09-03 09:26 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $GHT at $5.55346e-06 | P&L: +53.8%",
+      "reason": "Auto take-profit at +53.8%"
+    },
+    {
+      "time": "2026-09-03 09:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GHT at $5.55346e-06 | P&L: +53.8%",
+      "reason": "GHT is up +53.8%, past the +50% TP threshold, only 0h old with no volume depth (pool=$1224, our share=0%). Lock the gain — small-cap bonding curve gains evaporate fast."
     }
   ],
   "trade_stats": {
-    "total": 1623,
-    "wins": 819,
+    "total": 1625,
+    "wins": 821,
     "losses": 804,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.950614,
-    "avg_pnl_pct": 35.94,
+    "total_pnl_sol": -1.939863,
+    "avg_pnl_pct": 35.96,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 112,
-    "today_realized_sol": 0.042247,
-    "today_target_pct": 10.6,
+    "today_trades": 114,
+    "today_realized_sol": 0.052998,
+    "today_target_pct": 13.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 819,
+      "win_count": 821,
       "loss_count": 804,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T09:25:42.527821+00:00",
+  "last_llm_brief_at": "2026-09-03T09:27:11.272511+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2Vf1Ys2ZRvYSK3N8AH1UhwsFFAjriSWa13y1zUNXpump": {
+      "price_usd": 5.553464112059285e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1223.6299665765,
+      "volume_h24": 1472.3,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 12.175422553
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
