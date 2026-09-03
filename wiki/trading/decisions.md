@@ -13108,3 +13108,6 @@
 ## [2026-09-03 10:43 UTC] buy | [LLM] $WOLF at $5.492e-06, spent 0.02 SOL
 - **Reasoning:** $WOLF has a clear narrative (dev publicly committing to buy until bonding completes = guaranteed buy pressure), twitter attached, mcap $2.8k. This is a textbook attention setup with built-in dev bid.
 
+## [2026-09-03 10:44 UTC] sell | [hard-stop] $WOLF closed at $2.92761e-06 | P&L: -46.7%
+- **Reasoning:** Hard -30% stop
+
