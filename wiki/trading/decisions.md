@@ -13558,3 +13558,12 @@
 ## [2026-09-03 15:39 UTC] buy | [LLM] $hims at $3.33195e-06, spent 0.02 SOL
 - **Reasoning:** Hims stock meme with explicit BONER/fartcoin vibes comparison — viral Meme-stock crossover narrative. Very fresh ($3.3k mcap, 0.1min old) so risk is higher, but if it catches the meme-stock-meets-crypto wave it can10x fast. Small satellite position.
 
+## [2026-09-03 15:40 UTC] sell | [TP +100% (50%)] $solsem at $2.92852e-05 | P&L: +138.3%
+- **Reasoning:** Auto take-profit at +138.3%
+
+## [2026-09-03 15:40 UTC] sell | [FULL][LLM] $solsem at $2.92852e-05 | P&L: +138.3%
+- **Reasoning:** +138% with pool only $6.8k — liquidity is thin, bonding curve means any size exit dumps price hard. Take the win now, don't hope for more. Already past +100% TP threshold.
+
+## [2026-09-03 15:40 UTC] sell | [FULL][LLM] $hims at $3.35308e-06 | P&L: +0.6%
+- **Reasoning:** +0.6% on a $222 pool with 0.0h held is a coin-flip — either it pops in the next few min or it dies. I'd rather rotate the slot to a fresher narrative than babysit a flat bonding-curve position.
+
