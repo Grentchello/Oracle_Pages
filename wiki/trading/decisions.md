@@ -12856,3 +12856,6 @@
 ## [2026-09-03 06:02 UTC] sell | [FULL][LLM] $WSBCOIN at $2.84215e-06 | P&L: -5.7%
 - **Reasoning:** WSBCOIN pool=$13 is effectively untradable, down 5.7% at 0.0h held — classic fresh-launch bleed. No real liquidity means no clean exit. Freeing both slots to rotate into the live attention slate (Cointelegraph $ALMOND, Musk $BOT).
 
+## [2026-09-03 06:06 UTC] buy | [LLM] $Wally at $2.8683e-06, spent 0.02 SOL
+- **Reasoning:** $WALLY has the strongest narrative in the slate — explicit 'labubu of Japan' comparison, which references a proven 1000x cultural-virality playbook. Has twitter link (BananaInte). $2.9k mcap at 0.4min is entry-grade for an attention play. Risk: extremely young, bond only 1%, thin liquidity — must respect -30% hard stop.
+
