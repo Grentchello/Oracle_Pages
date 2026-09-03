@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.322115,
+  "balance_sol": 0.334931,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "CFXGdgMnR1WGvQXhwAR4NjUhBnQXC6XonVLvgwTCpump": {
       "symbol": "MM",
       "name": "Marcat Maker",
-      "amount": 268557.82276149566,
+      "amount": 134278.91138074783,
       "entry_price_usd": 7.4888900249468175e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T03:55:14.086455+00:00",
       "entry_usd_value": 2.0112,
       "entry_signals": {
@@ -26393,19 +26393,30 @@
       "pnl_pct": -8.44,
       "exit_reason": "LLM: sell_all — Down 8.4% already at 0.0h held — early red with no bounce signal. Stale/exit-fast rule: cut small loss now rather than let it bleed to -30%. Pool is t",
       "partial": false
+    },
+    {
+      "mint": "CFXGdgMnR1WGvQXhwAR4NjUhBnQXC6XonVLvgwTCpump",
+      "symbol": "MM",
+      "name": "Marcat Maker",
+      "amount_sold": 134278.91138074783,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T03:55:14.086455+00:00",
+      "exit_time": "2026-09-03T03:58:19.057029+00:00",
+      "entry_price_usd": 7.4888900249468175e-06,
+      "exit_price_usd": 9.601874996851264e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.012816,
+      "pnl_sol": 0.002816,
+      "pnl_pct": 28.21,
+      "exit_reason": "LLM: sell_half — +28.2% gain on thin $2558 pool bonding-curve position. Lock half the profit now while letting the rest ride — bonding curve thinness means a fast move",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T03:56:54.506005+00:00",
+  "last_updated": "2026-09-03T03:58:19.351463+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.47,
-  "portfolio_value_usd": 34.37,
+  "last_sol_price_usd": 100.6,
+  "portfolio_value_usd": 34.7,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 02:40 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-03 02:52 UTC",
       "action": "observe",
@@ -26519,40 +26530,46 @@
       "action": "buy",
       "details": "[LLM] $MM at $7.48889e-06, spent 0.02 SOL",
       "reason": "$MM (Marcat Maker) — bonding 28%, has twitter link, creator narrating a 'going live' story on PumpFun. Attention narrative + real-time livestream = viral mechanic. Fresh 0.1min age, decent bonding progress."
+    },
+    {
+      "time": "2026-09-03 03:58 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $MM at $9.60187e-06 | P&L: +28.2%",
+      "reason": "+28.2% gain on thin $2558 pool bonding-curve position. Lock half the profit now while letting the rest ride — bonding curve thinness means a fast move can reverse just as quickly."
     }
   ],
   "trade_stats": {
-    "total": 1551,
-    "wins": 779,
+    "total": 1552,
+    "wins": 780,
     "losses": 772,
-    "win_rate_pct": 50.2,
-    "total_pnl_sol": -1.990528,
-    "avg_pnl_pct": 36.25,
+    "win_rate_pct": 50.3,
+    "total_pnl_sol": -1.987712,
+    "avg_pnl_pct": 36.24,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 40,
-    "today_realized_sol": 0.002333,
-    "today_target_pct": 0.6,
+    "today_trades": 41,
+    "today_realized_sol": 0.005149,
+    "today_target_pct": 1.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 779,
+      "win_count": 780,
       "loss_count": 772,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T03:56:54.505960+00:00",
+  "last_llm_brief_at": "2026-09-03T03:58:19.056983+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "CFXGdgMnR1WGvQXhwAR4NjUhBnQXC6XonVLvgwTCpump": {
-      "price_usd": 6.576127147304724e-06,
+      "price_usd": 9.601874996851264e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1597.62913309269,
-      "volume_h24": 20891.92,
+      "liquidity_usd": 2558.1892421131997,
+      "volume_h24": 26049.34,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 15.901554027
+      "real_sol_reserves": 25.429316522
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -12709,3 +12709,6 @@
 ## [2026-09-03 03:55 UTC] buy | [LLM] $MM at $7.48889e-06, spent 0.02 SOL
 - **Reasoning:** $MM (Marcat Maker) — bonding 28%, has twitter link, creator narrating a 'going live' story on PumpFun. Attention narrative + real-time livestream = viral mechanic. Fresh 0.1min age, decent bonding progress.
 
+## [2026-09-03 03:58 UTC] sell | [PARTIAL][LLM] $MM at $9.60187e-06 | P&L: +28.2%
+- **Reasoning:** +28.2% gain on thin $2558 pool bonding-curve position. Lock half the profit now while letting the rest ride — bonding curve thinness means a fast move can reverse just as quickly.
+
