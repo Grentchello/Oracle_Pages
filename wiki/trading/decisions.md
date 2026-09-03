@@ -13339,3 +13339,9 @@
 ## [2026-09-03 13:02 UTC] sell | [PARTIAL][LLM] $DERP at $1.24382e-05 | P&L: +34.0%
 - **Reasoning:** DERP is up +34%, past the 50% auto-TP-trigger zone I'd normally hold for. Half off locks the gain; half rides if the narrative catches a second leg.
 
+## [2026-09-03 13:05 UTC] sell | [TP +30% (25%)] $DERP at $1.38231e-05 | P&L: +48.9%
+- **Reasoning:** Auto take-profit at +48.9%
+
+## [2026-09-03 13:06 UTC] sell | [FULL][LLM] $DERP at $1.38231e-05 | P&L: +48.9%
+- **Reasoning:** $DERP is up +48.9%, well past the +30% threshold. The bot should have auto-TP'd at 25% but apparently didn't fire — regardless, locking in a 49% gain is the right call. Memecoins give back gains fast; a bird in hand.
+
