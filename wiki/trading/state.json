@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.32437,
+  "balance_sol": 0.339928,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "AM1kwfudz4evgLun1jqwCdX2A8h9LTuBvKchcFu3pump": {
-      "symbol": "gc",
-      "name": "ghost coin",
-      "amount": 556455.0264550265,
-      "entry_price_usd": 3.78e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T19:13:22.166586+00:00",
-      "entry_usd_value": 2.1034,
-      "entry_signals": {
-        "liquidity_usd": 417.99121810082,
-        "volume_24h_usd": 440.23,
-        "market_cap_usd": 3771.24819025557,
-        "ath_market_cap_usd": 3797.86308411894,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.974433946,
-        "description": "👻 **GHOST COIN ($GC)** 👻 From the shadows of the internet comes **Ghost Coin** — the meme that refuses to disappear. 👻💀 Built for the degens, meme lovers, and late-night traders who believe every ghost deserves a bag. $GC is spooky, chaotic, and powered by pure internet energy. No promises, no borin",
-        "twitter": "https://x.com/gh1stsol?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "6wZ9B7oKkrhpfE7y82zi3h8W1w2o5ALLJp71BjP9pump": {
       "symbol": "ZEROCOOL",
       "name": "ZEROCOOL",
@@ -30461,19 +30439,30 @@
       "pnl_pct": -50.27,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "AM1kwfudz4evgLun1jqwCdX2A8h9LTuBvKchcFu3pump",
+      "symbol": "gc",
+      "name": "ghost coin",
+      "amount_sold": 556454.9638633599,
+      "fraction_sold": 0.9999998875171152,
+      "entry_time": "2026-09-03T19:13:22.166586+00:00",
+      "exit_time": "2026-09-03T19:17:46.823817+00:00",
+      "entry_price_usd": 3.78e-06,
+      "exit_price_usd": 2.939888164712069e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.015558,
+      "pnl_sol": -0.004442,
+      "pnl_pct": -22.23,
+      "exit_reason": "LLM: sell_all — -22.2% past my -20% loser-exit rule, no bounce signal in 6 minutes, pool is $0 — this is dead. Cut and free the slot.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T19:16:23.213296+00:00",
+  "last_updated": "2026-09-03T19:17:47.081198+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.056,
-  "portfolio_value_usd": 38.28,
+  "last_sol_price_usd": 105.15,
+  "portfolio_value_usd": 37.84,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 18:40 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-03 18:43 UTC",
       "action": "buy",
@@ -30587,40 +30576,57 @@
       "action": "buy",
       "details": "[LLM] $ZEROCOOL at $7.82569e-06, spent 0.02 SOL",
       "reason": "$ZEROCOOL has the strongest narrative of the batch: AI + cyberpunk security, dedicated @ZeroCool_AI twitter handle (not just a status link), viral hacker-movie name. AI narrative is hot, fresh0.1min age, $7.8k mcap = early entry. Risk: very young, bonding curve still28% — small buys only."
+    },
+    {
+      "time": "2026-09-03 19:17 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $gc at $2.93989e-06 | P&L: -22.2%",
+      "reason": "-22.2% past my -20% loser-exit rule, no bounce signal in 6 minutes, pool is $0 — this is dead. Cut and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 1789,
+    "total": 1790,
     "wins": 918,
-    "losses": 871,
+    "losses": 872,
     "win_rate_pct": 51.3,
-    "total_pnl_sol": -1.968276,
-    "avg_pnl_pct": 34.76,
+    "total_pnl_sol": -1.972718,
+    "avg_pnl_pct": 34.73,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 278,
-    "today_realized_sol": 0.024585,
-    "today_target_pct": 6.1,
+    "today_trades": 279,
+    "today_realized_sol": 0.020143,
+    "today_target_pct": 5.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 918,
-      "loss_count": 871,
+      "loss_count": 872,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T19:16:21.186705+00:00",
+  "last_llm_brief_at": "2026-09-03T19:17:46.823651+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AM1kwfudz4evgLun1jqwCdX2A8h9LTuBvKchcFu3pump": {
-      "price_usd": 3.821315039777827e-06,
+      "price_usd": 2.939888164712069e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 443.141584836608,
-      "volume_h24": 470.44,
+      "liquidity_usd": 7.3605e-07,
+      "volume_h24": 913.85,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.218146368
+      "real_sol_reserves": 7e-09
+    },
+    "6wZ9B7oKkrhpfE7y82zi3h8W1w2o5ALLJp71BjP9pump": {
+      "price_usd": 7.5211970378971276e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1891.0511126719502,
+      "volume_h24": 2161.92,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 17.984318713
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

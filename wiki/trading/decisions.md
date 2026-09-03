@@ -13858,3 +13858,6 @@
 ## [2026-09-03 19:16 UTC] buy | [LLM] $ZEROCOOL at $7.82569e-06, spent 0.02 SOL
 - **Reasoning:** $ZEROCOOL has the strongest narrative of the batch: AI + cyberpunk security, dedicated @ZeroCool_AI twitter handle (not just a status link), viral hacker-movie name. AI narrative is hot, fresh0.1min age, $7.8k mcap = early entry. Risk: very young, bonding curve still28% — small buys only.
 
+## [2026-09-03 19:17 UTC] sell | [FULL][LLM] $gc at $2.93989e-06 | P&L: -22.2%
+- **Reasoning:** -22.2% past my -20% loser-exit rule, no bounce signal in 6 minutes, pool is $0 — this is dead. Cut and free the slot.
+
