@@ -12736,3 +12736,6 @@
 ## [2026-09-03 04:11 UTC] sell | [PARTIAL][LLM] $QUBY at $4.05473e-06 | P&L: +24.8%
 - **Reasoning:** Locked +24.8% gains but pool is only $605 — dangerously thin for a 0.05 SOL exit. Selling half books profit and tests liquidity while keeping upside exposure. Per scalp rules: up >20% with thin pool = take some off.
 
+## [2026-09-03 04:18 UTC] sell | [FULL][LLM] $QUBY at $3.18499e-06 | P&L: -1.9%
+- **Reasoning:** $QUBY is -1.9% after 12 min, pool only $198, no real momentum, and bonding-curve tokens at sub-$200 pools routinely rug or fade. Cut the slot for a fresh launch.
+
