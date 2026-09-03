@@ -13333,3 +13333,9 @@
 ## [2026-09-03 13:01 UTC] sell | [FULL][LLM] $wvg at $5.76735e-06 | P&L: +33.4%
 - **Reasoning:** wvg has gained 33.4%, above the first profit-taking threshold, but has extremely low reported liquidity and no pool share. Momentum and liquidity risk favor realizing the gain.
 
+## [2026-09-03 13:02 UTC] sell | [TP +30% (25%)] $DERP at $1.24382e-05 | P&L: +34.0%
+- **Reasoning:** Auto take-profit at +34.0%
+
+## [2026-09-03 13:02 UTC] sell | [PARTIAL][LLM] $DERP at $1.24382e-05 | P&L: +34.0%
+- **Reasoning:** DERP is up +34%, past the 50% auto-TP-trigger zone I'd normally hold for. Half off locks the gain; half rides if the narrative catches a second leg.
+

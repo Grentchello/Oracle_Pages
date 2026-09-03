@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.372062,
+  "balance_sol": 0.373629,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GVfXevfQMG9Z4VU83r47wXbmfdVgKYaBQhQ1JcSPpump": {
       "symbol": "DERP",
       "name": "DERP",
-      "amount": 20438.38862559242,
+      "amount": 7664.395734597158,
       "entry_price_usd": 9.284e-06,
-      "entry_sol_spent": 0.001875,
+      "entry_sol_spent": 0.000703125,
       "entry_time": "2026-09-03T12:52:55.257771+00:00",
       "entry_usd_value": 2.024,
       "entry_signals": {
@@ -28603,25 +28603,47 @@
       "pnl_pct": 33.38,
       "exit_reason": "LLM: sell_all — wvg has gained 33.4%, above the first profit-taking threshold, but has extremely low reported liquidity and no pool share. Momentum and liquidity risk",
       "partial": false
+    },
+    {
+      "mint": "GVfXevfQMG9Z4VU83r47wXbmfdVgKYaBQhQ1JcSPpump",
+      "symbol": "DERP",
+      "name": "DERP",
+      "amount_sold": 5109.597156398105,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T12:52:55.257771+00:00",
+      "exit_time": "2026-09-03T13:02:09.747322+00:00",
+      "entry_price_usd": 9.284e-06,
+      "exit_price_usd": 1.2438200038391821e-05,
+      "entry_sol_for_chunk": 0.000469,
+      "exit_sol_received": 0.000627,
+      "pnl_sol": 0.000158,
+      "pnl_pct": 33.97,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "GVfXevfQMG9Z4VU83r47wXbmfdVgKYaBQhQ1JcSPpump",
+      "symbol": "DERP",
+      "name": "DERP",
+      "amount_sold": 7664.395734597158,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T12:52:55.257771+00:00",
+      "exit_time": "2026-09-03T13:02:33.922383+00:00",
+      "entry_price_usd": 9.284e-06,
+      "exit_price_usd": 1.2438200038391821e-05,
+      "entry_sol_for_chunk": 0.000703,
+      "exit_sol_received": 0.00094,
+      "pnl_sol": 0.000237,
+      "pnl_pct": 33.97,
+      "exit_reason": "LLM: sell_half — DERP is up +34%, past the 50% auto-TP-trigger zone I'd normally hold for. Half off locks the gain; half rides if the narrative catches a second leg.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T13:01:05.412834+00:00",
+  "last_updated": "2026-09-03T13:02:34.458407+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.64,
-  "portfolio_value_usd": 38.01,
+  "last_sol_price_usd": 101.42,
+  "portfolio_value_usd": 37.96,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 12:27 UTC",
-      "action": "buy",
-      "details": "[LLM] $CREDIT at $4.42603e-06, spent 0.02 SOL",
-      "reason": "$CREDIT has the strongest narrative — 'buy memecoins on credit' is peak degen-fi viral concept, posted by inversebrah (high-attention CT account), and the airline miles/Visa angle is genuinely novel. Bond at 17% suggests early traction. Buying 0.1 SOL."
-    },
-    {
-      "time": "2026-09-03 12:28 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $CREDIT closed at $2.83171e-06 | P&L: -36.0%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-03 12:29 UTC",
       "action": "buy",
@@ -28729,51 +28751,52 @@
       "action": "sell",
       "details": "[FULL][LLM] $wvg at $5.76735e-06 | P&L: +33.4%",
       "reason": "wvg has gained 33.4%, above the first profit-taking threshold, but has extremely low reported liquidity and no pool share. Momentum and liquidity risk favor realizing the gain."
+    },
+    {
+      "time": "2026-09-03 13:02 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $DERP at $1.24382e-05 | P&L: +34.0%",
+      "reason": "Auto take-profit at +34.0%"
+    },
+    {
+      "time": "2026-09-03 13:02 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $DERP at $1.24382e-05 | P&L: +34.0%",
+      "reason": "DERP is up +34%, past the 50% auto-TP-trigger zone I'd normally hold for. Half off locks the gain; half rides if the narrative catches a second leg."
     }
   ],
   "trade_stats": {
-    "total": 1681,
-    "wins": 854,
+    "total": 1683,
+    "wins": 856,
     "losses": 827,
-    "win_rate_pct": 50.8,
-    "total_pnl_sol": -1.958707,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -1.958312,
     "avg_pnl_pct": 35.13,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 170,
-    "today_realized_sol": 0.034154,
-    "today_target_pct": 8.5,
+    "today_trades": 172,
+    "today_realized_sol": 0.034549,
+    "today_target_pct": 8.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 854,
+      "win_count": 856,
       "loss_count": 827,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T13:01:05.411136+00:00",
+  "last_llm_brief_at": "2026-09-03T13:02:33.922340+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GVfXevfQMG9Z4VU83r47wXbmfdVgKYaBQhQ1JcSPpump": {
-      "price_usd": 1.092516963143353e-05,
+      "price_usd": 1.2438200038391821e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2929.50205530444,
-      "volume_h24": 11653.31,
+      "liquidity_usd": 3329.77111306334,
+      "volume_h24": 12711.58,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 28.822334271
-    },
-    "2rxhNAdeDVCfu94z9EBpAtKnoSkNRVPzgBGmHiPzpump": {
-      "price_usd": 5.767348540950998e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1294.7109701988,
-      "volume_h24": 1336.19,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 12.73820317
+      "real_sol_reserves": 32.831503777
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
