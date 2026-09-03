@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.323812,
+  "balance_sol": 0.37813,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "E2CKX6cQAo6wdBptn17WM4Z2HThiTxhLm1Yz8WGepump": {
-      "symbol": "AKA",
-      "name": "akadotfun",
-      "amount": 462866.582035918,
-      "entry_price_usd": 4.527870624795652e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T18:44:58.928987+00:00",
-      "entry_usd_value": 2.0958,
-      "entry_signals": {
-        "liquidity_usd": 1356.9172469500202,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4530.867896591764,
-        "ath_market_cap_usd": 4556.899331416672,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 12.948919238,
-        "description": "Crypto, aka FUN.  MemeFi internet capital market backed by RWA. Built for Arc.",
-        "twitter": "https://x.com/akadotfun",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30303,25 +30280,47 @@
       "pnl_pct": 47.79,
       "exit_reason": "LLM: sell_all — Up +47.8% and held 0.0h — past the +25% auto-TP. Pool is only $1120 with our share at 0%, meaning thin liquidity and zero follow-through signal. Locki",
       "partial": false
+    },
+    {
+      "mint": "E2CKX6cQAo6wdBptn17WM4Z2HThiTxhLm1Yz8WGepump",
+      "symbol": "AKA",
+      "name": "akadotfun",
+      "amount_sold": 231433.291017959,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T18:44:58.928987+00:00",
+      "exit_time": "2026-09-03T18:46:03.010742+00:00",
+      "entry_price_usd": 4.527870624795652e-06,
+      "exit_price_usd": 1.2297184521682133e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.027159,
+      "pnl_sol": 0.017159,
+      "pnl_pct": 171.59,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "E2CKX6cQAo6wdBptn17WM4Z2HThiTxhLm1Yz8WGepump",
+      "symbol": "AKA",
+      "name": "akadotfun",
+      "amount_sold": 231433.291017959,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T18:44:58.928987+00:00",
+      "exit_time": "2026-09-03T18:46:15.261341+00:00",
+      "entry_price_usd": 4.527870624795652e-06,
+      "exit_price_usd": 1.2297184521682133e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.027159,
+      "pnl_sol": 0.017159,
+      "pnl_pct": 171.59,
+      "exit_reason": "LLM: sell_all — $AKA is up +171.6%, well past the +100% auto-TP threshold and my own rules say take profit aggressively when up >20% with any doubt. Bonding curve at ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T18:44:58.929139+00:00",
+  "last_updated": "2026-09-03T18:46:15.520185+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 104.79,
-  "portfolio_value_usd": 36.03,
+  "portfolio_value_usd": 39.62,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 17:55 UTC",
-      "action": "buy",
-      "details": "[LLM] $BC at $4.013e-06, spent 0.02 SOL",
-      "reason": "$BC (BackflipCat) — has a clear cat-meme narrative with a posted X link (@Aldaypp2). $4k mcap is small but story-driven and bond 13% shows real inflow. Viability gate passes (desc >50 chars, twitter present). Risk: 3 ZCATBULL copies crowding attention in same minute."
-    },
-    {
-      "time": "2026-09-03 17:55 UTC",
-      "action": "buy",
-      "details": "[LLM] $jawed at $3.60666e-06, spent 0.02 SOL",
-      "reason": "$jawed — nostalgia/legacy narrative around YouTube's first video and co-founder Jawed Karim. Timeless internet-history meme angle, $3.6k mcap, posted X source. Viability passes. Fragility keywords absent. Risk: history-meme coins tend to be slower movers, not 1h pumps."
-    },
     {
       "time": "2026-09-03 17:57 UTC",
       "action": "sell",
@@ -30429,40 +30428,52 @@
       "action": "buy",
       "details": "[LLM] $AKA at $4.52787e-06, spent 0.02 SOL",
       "reason": "$AKA (akadotfun) has the strongest narrative of the batch — 'MemeFi internet capital market backed by RWA, Built for Arc' gives it a story beyond pure pump-and-dump. 0.4min old, real account, decent desc passes viability gate. Risk: ultra-low mcap ($4.5k) and bond only 16% means early-stage volatility — size limits protect."
+    },
+    {
+      "time": "2026-09-03 18:46 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $AKA at $1.22972e-05 | P&L: +171.6%",
+      "reason": "Auto take-profit at +171.6%"
+    },
+    {
+      "time": "2026-09-03 18:46 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $AKA at $1.22972e-05 | P&L: +171.6%",
+      "reason": "$AKA is up +171.6%, well past the +100% auto-TP threshold and my own rules say take profit aggressively when up >20% with any doubt. Bonding curve at 29% and 'our share=0%' suggests the position is already essentially locked profits-wise — sell_all to lock gains and free slot."
     }
   ],
   "trade_stats": {
-    "total": 1781,
-    "wins": 914,
+    "total": 1783,
+    "wins": 916,
     "losses": 867,
-    "win_rate_pct": 51.3,
-    "total_pnl_sol": -1.988834,
-    "avg_pnl_pct": 34.73,
+    "win_rate_pct": 51.4,
+    "total_pnl_sol": -1.954516,
+    "avg_pnl_pct": 34.88,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 270,
-    "today_realized_sol": 0.004027,
-    "today_target_pct": 1.0,
+    "today_trades": 272,
+    "today_realized_sol": 0.038345,
+    "today_target_pct": 9.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 914,
+      "win_count": 916,
       "loss_count": 867,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T18:44:57.615379+00:00",
+  "last_llm_brief_at": "2026-09-03T18:46:15.261303+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "8LBrF6nDmiUXNnHLG4gFGbEFP2meAH4jSCNie288pump": {
-      "price_usd": 5.389744800095322e-06,
+    "E2CKX6cQAo6wdBptn17WM4Z2HThiTxhLm1Yz8WGepump": {
+      "price_usd": 1.2297184521682133e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1120.1754448491602,
-      "volume_h24": 405.7,
+      "liquidity_usd": 3296.8544089966804,
+      "volume_h24": 2935.53,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 10.689717004
+      "real_sol_reserves": 31.461536492
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

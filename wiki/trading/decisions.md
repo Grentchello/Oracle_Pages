@@ -13813,3 +13813,9 @@
 ## [2026-09-03 18:44 UTC] buy | [LLM] $AKA at $4.52787e-06, spent 0.02 SOL
 - **Reasoning:** $AKA (akadotfun) has the strongest narrative of the batch — 'MemeFi internet capital market backed by RWA, Built for Arc' gives it a story beyond pure pump-and-dump. 0.4min old, real account, decent desc passes viability gate. Risk: ultra-low mcap ($4.5k) and bond only 16% means early-stage volatility — size limits protect.
 
+## [2026-09-03 18:46 UTC] sell | [TP +100% (50%)] $AKA at $1.22972e-05 | P&L: +171.6%
+- **Reasoning:** Auto take-profit at +171.6%
+
+## [2026-09-03 18:46 UTC] sell | [FULL][LLM] $AKA at $1.22972e-05 | P&L: +171.6%
+- **Reasoning:** $AKA is up +171.6%, well past the +100% auto-TP threshold and my own rules say take profit aggressively when up >20% with any doubt. Bonding curve at 29% and 'our share=0%' suggests the position is already essentially locked profits-wise — sell_all to lock gains and free slot.
+
