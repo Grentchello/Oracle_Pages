@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.366407,
+  "balance_sol": 0.374616,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BDuzERQ2CLrUFtqtnRDVTkrJF47syKvtnvFd1xCFpump": {
-      "symbol": "A16KHEIL",
-      "name": "KHEIL",
-      "amount": 292854.52424826537,
-      "entry_price_usd": 3.438225865161665e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-03T05:09:11.787129+00:00",
-      "entry_usd_value": 2.0138,
-      "entry_signals": {
-        "liquidity_usd": 402.54697681254,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3435.7140497265077,
-        "ath_market_cap_usd": 3759.7883674753994,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.997884366,
-        "description": "I have been here longer than this terminal remembers.",
-        "twitter": "https://x.com/ai16zkheil",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -26767,19 +26744,30 @@
       "pnl_pct": -17.93,
       "exit_reason": "LLM: sell_all — -17.9% with 39% pool share on a $4 bonding curve = catastrophic exit risk. I'm the exit liquidity. Cut now before it gets worse.",
       "partial": true
+    },
+    {
+      "mint": "BDuzERQ2CLrUFtqtnRDVTkrJF47syKvtnvFd1xCFpump",
+      "symbol": "A16KHEIL",
+      "name": "KHEIL",
+      "amount_sold": 292854.52424826537,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T05:09:11.787129+00:00",
+      "exit_time": "2026-09-03T05:11:46.527588+00:00",
+      "entry_price_usd": 3.438225865161665e-06,
+      "exit_price_usd": 2.822609249235838e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.008209,
+      "pnl_sol": -0.001791,
+      "pnl_pct": -17.91,
+      "exit_reason": "LLM: sell_all — Down -17.9% on a fresh entry (held 0.0h, no time invested), 22% of pool is us, liquidity only $4 — this is illiquid bonding-curve drift, not a setup w",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T05:10:32.749516+00:00",
+  "last_updated": "2026-09-03T05:11:47.043706+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.64,
-  "portfolio_value_usd": 37.88,
+  "last_sol_price_usd": 100.7,
+  "portfolio_value_usd": 37.72,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 04:24 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Candle at $1.87895e-05 | P&L: +105.8%",
-      "reason": "Up +105.8% in under an hour on a bonding-curve token with unclear narrative — bot already auto-locked profit on half. The remaining half is a free option; bond % completion 35% means graduation risk + reversal risk both elevated. Take the 2x and rotate capital into fresh launches."
-    },
     {
       "time": "2026-09-03 04:29 UTC",
       "action": "buy",
@@ -26893,40 +26881,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $A16KHEIL at $2.82174e-06 | P&L: -17.9%",
       "reason": "-17.9% with 39% pool share on a $4 bonding curve = catastrophic exit risk. I'm the exit liquidity. Cut now before it gets worse."
+    },
+    {
+      "time": "2026-09-03 05:11 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $A16KHEIL at $2.82261e-06 | P&L: -17.9%",
+      "reason": "Down -17.9% on a fresh entry (held 0.0h, no time invested), 22% of pool is us, liquidity only $4 — this is illiquid bonding-curve drift, not a setup worth defending. Cut before -30% hard stop kicks in."
     }
   ],
   "trade_stats": {
-    "total": 1573,
+    "total": 1574,
     "wins": 793,
-    "losses": 780,
+    "losses": 781,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.956236,
-    "avg_pnl_pct": 36.11,
+    "total_pnl_sol": -1.958027,
+    "avg_pnl_pct": 36.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 62,
-    "today_realized_sol": 0.036625,
-    "today_target_pct": 9.2,
+    "today_trades": 63,
+    "today_realized_sol": 0.034834,
+    "today_target_pct": 8.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 793,
-      "loss_count": 780,
+      "loss_count": 781,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T05:10:32.237582+00:00",
+  "last_llm_brief_at": "2026-09-03T05:11:46.527549+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BDuzERQ2CLrUFtqtnRDVTkrJF47syKvtnvFd1xCFpump": {
-      "price_usd": 2.8217397465161416e-06,
+      "price_usd": 2.822609249235838e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4.2603689664,
-      "volume_h24": 1015.27,
+      "liquidity_usd": 3.8274385289,
+      "volume_h24": 1423.75,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.04233276
+      "real_sol_reserves": 0.038008327
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

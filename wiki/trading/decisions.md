@@ -12805,3 +12805,6 @@
 ## [2026-09-03 05:10 UTC] sell | [PARTIAL][LLM] $A16KHEIL at $2.82174e-06 | P&L: -17.9%
 - **Reasoning:** -17.9% with 39% pool share on a $4 bonding curve = catastrophic exit risk. I'm the exit liquidity. Cut now before it gets worse.
 
+## [2026-09-03 05:11 UTC] sell | [FULL][LLM] $A16KHEIL at $2.82261e-06 | P&L: -17.9%
+- **Reasoning:** Down -17.9% on a fresh entry (held 0.0h, no time invested), 22% of pool is us, liquidity only $4 — this is illiquid bonding-curve drift, not a setup worth defending. Cut before -30% hard stop kicks in.
+
