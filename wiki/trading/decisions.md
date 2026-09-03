@@ -14173,3 +14173,6 @@
 ## [2026-09-03 22:29 UTC] sell | [FULL][LLM] $SMARTIN  at $5.15321e-06 | P&L: +27.8%
 - **Reasoning:** Up +27.8% but pool only $1027 and our share already 0% (illiquid). Narrative weak (no clear attention signal behind 'SMARTIN'). Lock the gain before thin liquidity reverses it — hard to exit a $1k pool cleanly once momentum stalls.
 
+## [2026-09-03 22:33 UTC] buy | [LLM] $Rufus at $4.912e-06, spent 0.02 SOL
+- **Reasoning:** $Rufus 'The Shocked Dog' has the strongest narrative signal — explicit 'gone viral on ALL social media' claim from a named X account (KankiAlpha). $5.9k mcap with twitter + desc satisfies viability gate. Not a blocked keyword. Higher mcap of the two Rufus duplicates = stronger early traction.
+
