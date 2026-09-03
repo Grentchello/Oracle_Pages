@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.356893,
+  "balance_sol": 0.37424,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3WwTFARidtmWdRbppkRsPiDxB6P5V5C8dqKphbj7pump": {
-      "symbol": "TETSUO",
-      "name": "tetsuo",
-      "amount": 620444.4122644783,
-      "entry_price_usd": 3.3601720940494305e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T16:42:53.452768+00:00",
-      "entry_usd_value": 2.0848,
-      "entry_signals": {
-        "liquidity_usd": 132.61197064895998,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3354.3391603806413,
-        "ath_market_cap_usd": 3602.223303351094,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.272179304,
-        "description": "C and Assembly • Grok • AgenC //: 👾 Launched on discord.gg/uxento",
-        "twitter": "https://x.com/tetsuoai",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -29895,19 +29872,30 @@
       "pnl_pct": 87.15,
       "exit_reason": "LLM: sell_all — Up +87.2% on a $3132 pool with 0% share — thin liquidity means even small exits move price hard. Lock the gain now, don't hope for +200% on illiquid b",
       "partial": false
+    },
+    {
+      "mint": "3WwTFARidtmWdRbppkRsPiDxB6P5V5C8dqKphbj7pump",
+      "symbol": "TETSUO",
+      "name": "tetsuo",
+      "amount_sold": 620444.3228478116,
+      "fraction_sold": 0.9999998558828722,
+      "entry_time": "2026-09-03T16:42:53.452768+00:00",
+      "exit_time": "2026-09-03T16:44:13.824798+00:00",
+      "entry_price_usd": 3.3601720940494305e-06,
+      "exit_price_usd": 2.9172413802827586e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.017347,
+      "pnl_sol": -0.002653,
+      "pnl_pct": -13.18,
+      "exit_reason": "LLM: sell_all — The position is already down 13.2% after essentially no hold time, and the reported 173470013% share on a zero-value bonding-curve pool indicates a se",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T16:42:53.453046+00:00",
+  "last_updated": "2026-09-03T16:44:15.214918+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.24,
-  "portfolio_value_usd": 39.29,
+  "last_sol_price_usd": 104.34,
+  "portfolio_value_usd": 39.05,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 16:18 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $$Vine at $2.94268e-06 | P&L: +0.1%",
-      "reason": "Flat +0.1% after 12min, pool only $18 with me holding 12% — massive slippage risk on any exit, no momentum, stale capital better rotated into fresh launches."
-    },
     {
       "time": "2026-09-03 16:21 UTC",
       "action": "buy",
@@ -30021,30 +30009,48 @@
       "action": "buy",
       "details": "[LLM] $TETSUO at $3.36017e-06, spent 0.02 SOL",
       "reason": "$TETSUO — AI agent narrative (Grok + AgentC) on uxento launchpad, has twitter and desc. Smallest position ok since narrative is mid-strength."
+    },
+    {
+      "time": "2026-09-03 16:44 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $TETSUO at $2.91724e-06 | P&L: -13.2%",
+      "reason": "The position is already down 13.2% after essentially no hold time, and the reported 173470013% share on a zero-value bonding-curve pool indicates a severe data or sizing anomaly. Exiting now is safer than risking a rapidly worsening loss or illiquidity."
     }
   ],
   "trade_stats": {
-    "total": 1757,
+    "total": 1758,
     "wins": 906,
-    "losses": 851,
-    "win_rate_pct": 51.6,
-    "total_pnl_sol": -1.955753,
-    "avg_pnl_pct": 35.22,
+    "losses": 852,
+    "win_rate_pct": 51.5,
+    "total_pnl_sol": -1.958406,
+    "avg_pnl_pct": 35.19,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 246,
-    "today_realized_sol": 0.037108,
-    "today_target_pct": 9.3,
+    "today_trades": 247,
+    "today_realized_sol": 0.034455,
+    "today_target_pct": 8.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 906,
-      "loss_count": 851,
+      "loss_count": 852,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T16:42:51.855835+00:00",
+  "last_llm_brief_at": "2026-09-03T16:44:13.824712+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3WwTFARidtmWdRbppkRsPiDxB6P5V5C8dqKphbj7pump": {
+      "price_usd": 2.9172413802827586e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.0434e-06,
+      "volume_h24": 684.23,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1e-08
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
