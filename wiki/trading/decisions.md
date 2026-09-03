@@ -12547,3 +12547,6 @@
 ## [2026-09-03 00:53 UTC] buy | [LLM] $LQI at $2.9897e-06, spent 0.02 SOL
 - **Reasoning:** $LQI (Lowest Quality Internet) — 'Dead Internet' meme is current meta with real description (>50 chars: 'Loading Dead Internet...Lowest Quality. Send.exe initializing... Malware detected.') and active twitter. Narrative has viral potential.
 
+## [2026-09-03 00:54 UTC] sell | [FULL][LLM] $LQI at $2.98789e-06 | P&L: -0.1%
+- **Reasoning:** Flat at -0.1% after just minutes held, $108 pool, no momentum signal — slot is better deployed on a fresh attention launch right now.
+
