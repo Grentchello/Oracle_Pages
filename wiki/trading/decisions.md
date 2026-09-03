@@ -12922,3 +12922,6 @@
 ## [2026-09-03 06:48 UTC] sell | [PARTIAL][LLM] $BULLISH at $5.49681e-06 | P&L: +40.8%
 - **Reasoning:** Up +40.8% in <1h on bonding curve with only $1198 pool. Bonding-curve tokens mean-revert hard once momentum fades. Take half profit to lock gain, let the rest ride or exit on weakness.
 
+## [2026-09-03 06:50 UTC] sell | [FULL][LLM] $BULLISH at $3.25236e-06 | P&L: -16.7%
+- **Reasoning:** -16.7% with 0% pool share and tiny $222 pool means no bounce support. Approaching -30% hard stop; cutting the loss now preserves capital and frees the slot.
+
