@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.314274,
+  "balance_sol": 0.330579,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AMKKECxakAyUZr63awwJh1FzKVBfzuRHYomYZAHpump": {
-      "symbol": "SNITCH",
-      "name": "snitch.cash",
-      "amount": 540197.0848071927,
-      "entry_price_usd": 3.900798540503236e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T20:14:45.160757+00:00",
-      "entry_usd_value": 2.1072,
-      "entry_signals": {
-        "liquidity_usd": 371.46938824079996,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3892.3863259915615,
-        "ath_market_cap_usd": 3991.8867860375103,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.52571553,
-        "description": "Snitch On Your Favourite KOL. Find them by their Solana wallets.",
-        "twitter": "https://x.com/SnitchRobinhood",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30728,19 +30705,30 @@
       "pnl_pct": -91.27,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "AMKKECxakAyUZr63awwJh1FzKVBfzuRHYomYZAHpump",
+      "symbol": "SNITCH",
+      "name": "snitch.cash",
+      "amount_sold": 540197.0848071927,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T20:14:45.160757+00:00",
+      "exit_time": "2026-09-03T20:21:39.789957+00:00",
+      "entry_price_usd": 3.900798540503236e-06,
+      "exit_price_usd": 3.1815892781289413e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016305,
+      "pnl_sol": -0.003695,
+      "pnl_pct": -18.44,
+      "exit_reason": "LLM: sell_all — Down 18.4% with only $123 pool and 6 min held. One more tick of bleed hits -30% hard stop. Illiquid bonding-curve token with no visible bounce catalys",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T20:20:12.475822+00:00",
+  "last_updated": "2026-09-03T20:21:39.790205+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.38,
-  "portfolio_value_usd": 35.23,
+  "last_sol_price_usd": 105.41,
+  "portfolio_value_usd": 34.85,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 19:27 UTC",
-      "action": "sell",
-      "details": "[TP +200% (75%)] $ONBOARDING at $2.02402e-05 | P&L: +210.7%",
-      "reason": "Auto take-profit at +210.7%"
-    },
     {
       "time": "2026-09-03 19:27 UTC",
       "action": "sell",
@@ -30854,40 +30842,46 @@
       "action": "sell",
       "details": "[hard-stop] $BAGCOON closed at $4.42794e-07 | P&L: -91.3%",
       "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-03 20:21 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SNITCH at $3.18159e-06 | P&L: -18.4%",
+      "reason": "Down 18.4% with only $123 pool and 6 min held. One more tick of bleed hits -30% hard stop. Illiquid bonding-curve token with no visible bounce catalyst — cut the loss now rather than let it widen to the cap."
     }
   ],
   "trade_stats": {
-    "total": 1806,
+    "total": 1807,
     "wins": 928,
-    "losses": 878,
+    "losses": 879,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.998373,
-    "avg_pnl_pct": 34.7,
+    "total_pnl_sol": -2.002068,
+    "avg_pnl_pct": 34.67,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 295,
-    "today_realized_sol": -0.005512,
-    "today_target_pct": -1.4,
+    "today_trades": 296,
+    "today_realized_sol": -0.009207,
+    "today_target_pct": -2.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 928,
-      "loss_count": 878,
+      "loss_count": 879,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T20:20:12.475776+00:00",
+  "last_llm_brief_at": "2026-09-03T20:21:39.789919+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AMKKECxakAyUZr63awwJh1FzKVBfzuRHYomYZAHpump": {
-      "price_usd": 4.264097058988837e-06,
+      "price_usd": 3.1815892781289413e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 641.8346953209399,
-      "volume_h24": 1235.54,
+      "liquidity_usd": 123.36629202740001,
+      "volume_h24": 1754.39,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 6.090668963
+      "real_sol_reserves": 1.17034714
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

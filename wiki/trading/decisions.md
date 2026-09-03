@@ -13942,3 +13942,6 @@
 ## [2026-09-03 20:18 UTC] sell | [hard-stop] $BAGCOON closed at $4.42794e-07 | P&L: -91.3%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-03 20:21 UTC] sell | [FULL][LLM] $SNITCH at $3.18159e-06 | P&L: -18.4%
+- **Reasoning:** Down 18.4% with only $123 pool and 6 min held. One more tick of bleed hits -30% hard stop. Illiquid bonding-curve token with no visible bounce catalyst — cut the loss now rather than let it widen to the cap.
+
