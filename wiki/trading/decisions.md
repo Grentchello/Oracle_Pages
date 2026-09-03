@@ -13060,3 +13060,6 @@
 ## [2026-09-03 09:45 UTC] sell | [FULL][LLM] $NORMI at $4.10903e-06 | P&L: +19.7%
 - **Reasoning:** $NORMI at +19.7% on a $633 pool with 0% share — bonding-curve tokens this thin get dumped on hard. Locking the gain per 'if up >20% with doubt, take profit' rule.
 
+## [2026-09-03 09:58 UTC] buy | [LLM] $Bon at $4.141e-06, spent 0.02 SOL
+- **Reasoning:** $Bon — narrative piggybacks on Bonk (BON), the OG Solana dog memecoin. Strong viral brand recall, decent liquidity at $3.9k mcap, fresh launch. The narrative is intact and 'Be like Bon' is a recognizable attention hook.
+
