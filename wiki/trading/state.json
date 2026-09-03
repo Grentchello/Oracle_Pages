@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.35267,
+  "balance_sol": 0.372507,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "D79PMY3svBfF56PpCkd2MYJx9LPrwCxYkmSFV8aTpump": {
       "symbol": "PEMP",
       "name": "The Pemp Cult",
-      "amount": 412040.27121430036,
+      "amount": 154515.10170536264,
       "entry_price_usd": 4.867e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-03T04:49:42.088835+00:00",
       "entry_usd_value": 2.0054,
       "entry_signals": {
@@ -26631,25 +26631,47 @@
       "pnl_pct": -1.17,
       "exit_reason": "LLM: sell_all — $Torah down -1.2% after just opening, still on bonding curve with only $266 pool liquidity (well below 5x position size requirement of $50). Tiny liqu",
       "partial": false
+    },
+    {
+      "mint": "D79PMY3svBfF56PpCkd2MYJx9LPrwCxYkmSFV8aTpump",
+      "symbol": "PEMP",
+      "name": "The Pemp Cult",
+      "amount_sold": 103010.06780357509,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T04:49:42.088835+00:00",
+      "exit_time": "2026-09-03T04:50:45.465838+00:00",
+      "entry_price_usd": 4.867e-06,
+      "exit_price_usd": 7.724494968567219e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007935,
+      "pnl_sol": 0.002935,
+      "pnl_pct": 58.71,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "D79PMY3svBfF56PpCkd2MYJx9LPrwCxYkmSFV8aTpump",
+      "symbol": "PEMP",
+      "name": "The Pemp Cult",
+      "amount_sold": 154515.10170536264,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T04:49:42.088835+00:00",
+      "exit_time": "2026-09-03T04:51:00.877739+00:00",
+      "entry_price_usd": 4.867e-06,
+      "exit_price_usd": 7.724494968567219e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.011902,
+      "pnl_sol": 0.004402,
+      "pnl_pct": 58.71,
+      "exit_reason": "LLM: sell_half — $PEMP is +58.7% and the bot's auto-TP ladder will likely trigger soon at +100%. Lock in half the gain now — the name 'Pemp Cult' is generic meme energ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T04:49:42.089113+00:00",
+  "last_updated": "2026-09-03T04:51:01.171221+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.27,
-  "portfolio_value_usd": 37.37,
+  "last_sol_price_usd": 100.28,
+  "portfolio_value_usd": 38.11,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 03:59 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $MM at $9.32649e-06 | P&L: +24.5%",
-      "reason": "+$24.5% but pool only $2,478 (well under 5x position size rule at $10), age fresh on bonding curve, attention narrative unclear. Lock half the gain per scalp discipline, ride half for the +100% TP at 50%."
-    },
-    {
-      "time": "2026-09-03 03:59 UTC",
-      "action": "buy",
-      "details": "[LLM] $TWINS at $3.708e-06, spent 0.02 SOL",
-      "reason": "GOLDEN TWINS - streamer coin with real X post (LaunchX2 with engagement), narrative clear (consistently viewed streamers on Pump Fun), brandable name. Liquidity thin but bonding curve momentum is the play. Fresh attention."
-    },
     {
       "time": "2026-09-03 04:00 UTC",
       "action": "sell",
@@ -26757,30 +26779,54 @@
       "action": "buy",
       "details": "[LLM] $PEMP at $4.867e-06, spent 0.02 SOL",
       "reason": "$PEMP has the strongest narrative — meta-joke about PumpFun callouts being the attention economy itself, self-referential viral hook. $7.1k mcap is highest of fresh launches, has tweet from callout account, bond 27% (some traction). 0.05 SOL position."
+    },
+    {
+      "time": "2026-09-03 04:50 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $PEMP at $7.72449e-06 | P&L: +58.7%",
+      "reason": "Auto take-profit at +58.7%"
+    },
+    {
+      "time": "2026-09-03 04:51 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $PEMP at $7.72449e-06 | P&L: +58.7%",
+      "reason": "$PEMP is +58.7% and the bot's auto-TP ladder will likely trigger soon at +100%. Lock in half the gain now — the name 'Pemp Cult' is generic meme energy without a clear viral catalyst, and at 0.8min age riding a brand-new bonding curve with only $1985 pool, giveback risk is high. Take profit on the half while letting runners ride."
     }
   ],
   "trade_stats": {
-    "total": 1565,
-    "wins": 788,
+    "total": 1567,
+    "wins": 790,
     "losses": 777,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.959973,
-    "avg_pnl_pct": 36.19,
+    "total_pnl_sol": -1.952636,
+    "avg_pnl_pct": 36.22,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 54,
-    "today_realized_sol": 0.032888,
-    "today_target_pct": 8.2,
+    "today_trades": 56,
+    "today_realized_sol": 0.040225,
+    "today_target_pct": 10.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 788,
+      "win_count": 790,
       "loss_count": 777,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T04:49:40.523493+00:00",
+  "last_llm_brief_at": "2026-09-03T04:51:00.877695+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "D79PMY3svBfF56PpCkd2MYJx9LPrwCxYkmSFV8aTpump": {
+      "price_usd": 7.724494968567219e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1985.0729256748002,
+      "volume_h24": 18144.4,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 19.79530241
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

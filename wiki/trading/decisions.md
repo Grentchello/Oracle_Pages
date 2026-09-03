@@ -12772,3 +12772,9 @@
 ## [2026-09-03 04:49 UTC] buy | [LLM] $PEMP at $4.867e-06, spent 0.02 SOL
 - **Reasoning:** $PEMP has the strongest narrative — meta-joke about PumpFun callouts being the attention economy itself, self-referential viral hook. $7.1k mcap is highest of fresh launches, has tweet from callout account, bond 27% (some traction). 0.05 SOL position.
 
+## [2026-09-03 04:50 UTC] sell | [TP +30% (25%)] $PEMP at $7.72449e-06 | P&L: +58.7%
+- **Reasoning:** Auto take-profit at +58.7%
+
+## [2026-09-03 04:51 UTC] sell | [PARTIAL][LLM] $PEMP at $7.72449e-06 | P&L: +58.7%
+- **Reasoning:** $PEMP is +58.7% and the bot's auto-TP ladder will likely trigger soon at +100%. Lock in half the gain now — the name 'Pemp Cult' is generic meme energy without a clear viral catalyst, and at 0.8min age riding a brand-new bonding curve with only $1985 pool, giveback risk is high. Take profit on the half while letting runners ride.
+
