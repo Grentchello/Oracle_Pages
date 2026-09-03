@@ -12667,3 +12667,12 @@
 ## [2026-09-03 03:14 UTC] buy | [LLM] $TWINS at $3.65703e-06, spent 0.02 SOL
 - **Reasoning:** $TWINS has a real narrative — 'number one consistently viewed streamers on PUMP FUN' — virality angle is concrete and the X post is live. $3.6k mcap, 11% bonded in seconds.
 
+## [2026-09-03 03:16 UTC] sell | [FULL][LLM] $ORI at $2.82746e-06 | P&L: -13.6%
+- **Reasoning:** Pool=$0 means the bonding curve is dead — we're 25% of a corpse at -13.6%. Cut immediately and free the slot.
+
+## [2026-09-03 03:16 UTC] sell | [FULL][LLM] $TWINS at $3.47696e-06 | P&L: -4.9%
+- **Reasoning:** Only -4.9% but pool=$331 with our 1% share = tiny position in weak liquidity. Capital rotation beats holding a micro-share.
+
+## [2026-09-03 03:16 UTC] buy | [LLM] $CHMORTY at $2.855e-06, spent 0.02 SOL
+- **Reasoning:** $CHMORTY fuses Chrome Hearts luxury drip with Rick & Morty meme IP — a real cultural crossover crypto-twitter loves. Passes viability (desc=70 chars + twitter), mcap $2.9k, fresh 1.1min launch. $0.05 position.
+
