@@ -14176,3 +14176,9 @@
 ## [2026-09-03 22:33 UTC] buy | [LLM] $Rufus at $4.912e-06, spent 0.02 SOL
 - **Reasoning:** $Rufus 'The Shocked Dog' has the strongest narrative signal — explicit 'gone viral on ALL social media' claim from a named X account (KankiAlpha). $5.9k mcap with twitter + desc satisfies viability gate. Not a blocked keyword. Higher mcap of the two Rufus duplicates = stronger early traction.
 
+## [2026-09-03 22:34 UTC] sell | [TP +30% (25%)] $Rufus at $9.48755e-06 | P&L: +93.2%
+- **Reasoning:** Auto take-profit at +93.2%
+
+## [2026-09-03 22:34 UTC] sell | [PARTIAL][LLM] $Rufus at $9.48755e-06 | P&L: +93.2%
+- **Reasoning:** $Rufus is +93% — a strong pump right after entry. Profit-taking discipline says lock in gains on a position that's already 2x. Sell half to bank ~+93%, let the rest ride if narrative continues, but secure capital.
+

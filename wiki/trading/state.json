@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.284066,
+  "balance_sol": 0.308264,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "Dmtr7tBGBTJXnqDo6Dof6k1e2VAtRLQYWwNBcDn8pump": {
       "symbol": "Rufus",
       "name": "The Shocked Dog",
-      "amount": 423762.21498371335,
+      "amount": 158910.8306188925,
       "entry_price_usd": 4.912e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-03T22:33:31.155794+00:00",
       "entry_usd_value": 2.08152,
       "entry_signals": {
@@ -31527,25 +31527,47 @@
       "pnl_pct": 27.81,
       "exit_reason": "LLM: sell_all — Up +27.8% but pool only $1027 and our share already 0% (illiquid). Narrative weak (no clear attention signal behind 'SMARTIN'). Lock the gain before t",
       "partial": false
+    },
+    {
+      "mint": "Dmtr7tBGBTJXnqDo6Dof6k1e2VAtRLQYWwNBcDn8pump",
+      "symbol": "Rufus",
+      "name": "The Shocked Dog",
+      "amount_sold": 105940.55374592834,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T22:33:31.155794+00:00",
+      "exit_time": "2026-09-03T22:34:34.650886+00:00",
+      "entry_price_usd": 4.912e-06,
+      "exit_price_usd": 9.48754503962103e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.009679,
+      "pnl_sol": 0.004679,
+      "pnl_pct": 93.15,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "Dmtr7tBGBTJXnqDo6Dof6k1e2VAtRLQYWwNBcDn8pump",
+      "symbol": "Rufus",
+      "name": "The Shocked Dog",
+      "amount_sold": 158910.8306188925,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T22:33:31.155794+00:00",
+      "exit_time": "2026-09-03T22:34:58.600106+00:00",
+      "entry_price_usd": 4.912e-06,
+      "exit_price_usd": 9.48754503962103e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.014519,
+      "pnl_sol": 0.007019,
+      "pnl_pct": 93.15,
+      "exit_reason": "LLM: sell_half — $Rufus is +93% — a strong pump right after entry. Profit-taking discipline says lock in gains on a position that's already 2x. Sell half to bank ~+93%",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T22:33:31.156080+00:00",
+  "last_updated": "2026-09-03T22:34:59.120268+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.076,
-  "portfolio_value_usd": 31.65,
+  "last_sol_price_usd": 103.84,
+  "portfolio_value_usd": 32.79,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 21:53 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $bu11run at $4.43728e-06 | P&L: -4.0%",
-      "reason": "$bu11run down -4% after a fresh entry with zero narrative hook (bull run pun),4% already gone in minutes. No story, no catalyst, no reason to hold a stale loser."
-    },
-    {
-      "time": "2026-09-03 21:56 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Amzn at $2.94566e-06 | P&L: -3.4%",
-      "reason": "$Amzn pool is $1 and our share is 203% — liquidity has functionally evaporated, no recovery path even at only -3.4%. Better to free the slot for fresh alpha than wait for a -20% stop on a dead pool."
-    },
     {
       "time": "2026-09-03 21:56 UTC",
       "action": "buy",
@@ -31653,30 +31675,54 @@
       "action": "buy",
       "details": "[LLM] $Rufus at $4.912e-06, spent 0.02 SOL",
       "reason": "$Rufus 'The Shocked Dog' has the strongest narrative signal — explicit 'gone viral on ALL social media' claim from a named X account (KankiAlpha). $5.9k mcap with twitter + desc satisfies viability gate. Not a blocked keyword. Higher mcap of the two Rufus duplicates = stronger early traction."
+    },
+    {
+      "time": "2026-09-03 22:34 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Rufus at $9.48755e-06 | P&L: +93.2%",
+      "reason": "Auto take-profit at +93.2%"
+    },
+    {
+      "time": "2026-09-03 22:34 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Rufus at $9.48755e-06 | P&L: +93.2%",
+      "reason": "$Rufus is +93% — a strong pump right after entry. Profit-taking discipline says lock in gains on a position that's already 2x. Sell half to bank ~+93%, let the rest ride if narrative continues, but secure capital."
     }
   ],
   "trade_stats": {
-    "total": 1853,
-    "wins": 951,
+    "total": 1855,
+    "wins": 953,
     "losses": 902,
-    "win_rate_pct": 51.3,
-    "total_pnl_sol": -2.028582,
-    "avg_pnl_pct": 34.37,
+    "win_rate_pct": 51.4,
+    "total_pnl_sol": -2.016884,
+    "avg_pnl_pct": 34.44,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 342,
-    "today_realized_sol": -0.035721,
-    "today_target_pct": -8.9,
+    "today_trades": 344,
+    "today_realized_sol": -0.024023,
+    "today_target_pct": -6.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 951,
+      "win_count": 953,
       "loss_count": 902,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T22:33:29.787735+00:00",
+  "last_llm_brief_at": "2026-09-03T22:34:58.599583+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Dmtr7tBGBTJXnqDo6Dof6k1e2VAtRLQYWwNBcDn8pump": {
+      "price_usd": 9.48754503962103e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2516.24379468528,
+      "volume_h24": 8844.7,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 24.231931767
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
