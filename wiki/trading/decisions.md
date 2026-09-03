@@ -12574,3 +12574,9 @@
 ## [2026-09-03 01:24 UTC] buy | [LLM] $PC at $3.15e-06, spent 0.02 SOL
 - **Reasoning:** $PC (Pump City) passes viability gate (88-char desc + twitter community link, real narrative: virtual city, 313 unique owners, Solana-native), no fragility hits. Concrete story beats the other sub-$10k noise. Risk: brand-new (1.1min) and bonding curve not started (0%), so first 0.05 SOL is lottery money on the narrative.
 
+## [2026-09-03 01:27 UTC] sell | [FULL][LLM] $PC at $2.8202e-06 | P&L: -10.5%
+- **Reasoning:** $PC down -10.5% with $10 pool and 18% share — this is illiquid trash, one seller walks it to -30%. Better to cut and free the slot for a fresh launch with attention. Loss is small, holding risks -30% hard stop.
+
+## [2026-09-03 01:27 UTC] buy | [LLM] $STRAYDOG at $2.97601e-06, spent 0.02 SOL
+- **Reasoning:** $STRAYDOG — 'feral alpha of the streets' dog narrative is a classic attention template (dog coins have historically pumped). Has twitter, real description, $2.98k mcap at 0.3min. Fits viability gate, no celeb keyword. Small bet on narrative + freshness.
+
