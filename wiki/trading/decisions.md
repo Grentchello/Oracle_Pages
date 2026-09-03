@@ -12718,3 +12718,6 @@
 ## [2026-09-03 03:59 UTC] buy | [LLM] $TWINS at $3.708e-06, spent 0.02 SOL
 - **Reasoning:** GOLDEN TWINS - streamer coin with real X post (LaunchX2 with engagement), narrative clear (consistently viewed streamers on Pump Fun), brandable name. Liquidity thin but bonding curve momentum is the play. Fresh attention.
 
+## [2026-09-03 04:00 UTC] sell | [hard-stop] $MM closed at $4.84025e-06 | P&L: -35.4%
+- **Reasoning:** Hard -30% stop
+

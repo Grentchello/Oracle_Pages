@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.321162,
+  "balance_sol": 0.324396,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "CFXGdgMnR1WGvQXhwAR4NjUhBnQXC6XonVLvgwTCpump": {
-      "symbol": "MM",
-      "name": "Marcat Maker",
-      "amount": 67139.45569037391,
-      "entry_price_usd": 7.4888900249468175e-06,
-      "entry_sol_spent": 0.005,
-      "entry_time": "2026-09-03T03:55:14.086455+00:00",
-      "entry_usd_value": 2.0112,
-      "entry_signals": {
-        "liquidity_usd": 1925.42728575336,
-        "volume_24h_usd": null,
-        "market_cap_usd": 7466.910890350907,
-        "ath_market_cap_usd": 8770.235595866869,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 19.147049381,
-        "description": "I'm Going Live on PumpFun  Introducing $MM What has been happening the last few days is absolutely crazy. We are literally moving the markets as degens First we ran up AMC, Then GME, Then Wendys, GPRO, then FAMI We are moving stocks from Pennies to 5x+ in a day Join the MarCat Makers  Paying all bag",
-        "twitter": "https://x.com/amiriasyna/status/2095359634030952707",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "2qg3mj773SezSrd6rhgXE5Pc8XcK5om6JvSf2vQYpump": {
       "symbol": "TWINS",
       "name": "GOLDEN TWINS",
@@ -26449,19 +26427,30 @@
       "pnl_pct": 24.54,
       "exit_reason": "LLM: sell_half — +$24.5% but pool only $2,478 (well under 5x position size rule at $10), age fresh on bonding curve, attention narrative unclear. Lock half the gain pe",
       "partial": true
+    },
+    {
+      "mint": "CFXGdgMnR1WGvQXhwAR4NjUhBnQXC6XonVLvgwTCpump",
+      "symbol": "MM",
+      "name": "Marcat Maker",
+      "amount_sold": 67139.45569037391,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T03:55:14.086455+00:00",
+      "exit_time": "2026-09-03T04:00:48.588773+00:00",
+      "entry_price_usd": 7.4888900249468175e-06,
+      "exit_price_usd": 4.840252464002702e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.003234,
+      "pnl_sol": -0.001766,
+      "pnl_pct": -35.37,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T03:59:44.413798+00:00",
+  "last_updated": "2026-09-03T04:01:24.347232+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.49,
-  "portfolio_value_usd": 34.79,
+  "last_sol_price_usd": 100.48,
+  "portfolio_value_usd": 34.61,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 03:11 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-03 03:14 UTC",
       "action": "sell",
@@ -26575,40 +26564,57 @@
       "action": "buy",
       "details": "[LLM] $TWINS at $3.708e-06, spent 0.02 SOL",
       "reason": "GOLDEN TWINS - streamer coin with real X post (LaunchX2 with engagement), narrative clear (consistently viewed streamers on Pump Fun), brandable name. Liquidity thin but bonding curve momentum is the play. Fresh attention."
+    },
+    {
+      "time": "2026-09-03 04:00 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $MM closed at $4.84025e-06 | P&L: -35.4%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1553,
+    "total": 1554,
     "wins": 781,
-    "losses": 772,
+    "losses": 773,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.986481,
-    "avg_pnl_pct": 36.23,
+    "total_pnl_sol": -1.988247,
+    "avg_pnl_pct": 36.19,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 42,
-    "today_realized_sol": 0.00638,
-    "today_target_pct": 1.6,
+    "today_trades": 43,
+    "today_realized_sol": 0.004614,
+    "today_target_pct": 1.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 781,
-      "loss_count": 772,
+      "loss_count": 773,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T03:59:43.144469+00:00",
+  "last_llm_brief_at": "2026-09-03T04:01:24.075314+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "CFXGdgMnR1WGvQXhwAR4NjUhBnQXC6XonVLvgwTCpump": {
-      "price_usd": 9.32649002762771e-06,
+      "price_usd": 4.840252464002702e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2477.93864847607,
-      "volume_h24": 35703.91,
+      "liquidity_usd": 942.3108246310401,
+      "volume_h24": 40656.23,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 24.658559543
+      "real_sol_reserves": 9.378093398
+    },
+    "2qg3mj773SezSrd6rhgXE5Pc8XcK5om6JvSf2vQYpump": {
+      "price_usd": 3.859418547412438e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 518.74321227008,
+      "volume_h24": 1406.71,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 5.162651396
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
