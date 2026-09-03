@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.314454,
+  "balance_sol": 0.294454,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "ctWgujb2q8pxAreBU6Kif2h7R8rD7dZGzgKRfuapump": {
+      "symbol": "PONS",
+      "name": "PONS",
+      "amount": 610439.8826979472,
+      "entry_price_usd": 3.41e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T23:14:05.425682+00:00",
+      "entry_usd_value": 2.0816,
+      "entry_signals": {
+        "liquidity_usd": 371.150367636,
+        "volume_24h_usd": 259.19,
+        "market_cap_usd": 3405.1543606468317,
+        "ath_market_cap_usd": 3407.1873037568903,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 3.56601045,
+        "description": "new partnership of PONS + UNISWAP and they have a NAMED UNICORN? ",
+        "twitter": "https://x.com/Uniswap/status/2095624486578004067?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -31625,17 +31648,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-03T23:12:49.915004+00:00",
+  "last_updated": "2026-09-03T23:14:05.425946+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.018,
-  "portfolio_value_usd": 32.71,
+  "last_sol_price_usd": 104.08,
+  "portfolio_value_usd": 32.73,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 22:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SOLDINO at $3.41253e-06 | P&L: -7.7%",
-      "reason": "$SOLDINO is down -7.7% with only 0.0h held but already flagged as weak (pool $250, our share 1% on bonding curve = low liquidity, no upside catalyst). At -7.7% with no narrative momentum and minimal liquidity, the -30% hard stop is close. Cut and rotate capital to fresh attention."
-    },
     {
       "time": "2026-09-03 22:21 UTC",
       "action": "buy",
@@ -31749,6 +31766,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $toast at $3.13504e-06 | P&L: +0.9%",
       "reason": "$toast is flat (+0.9%) after entry, small mcap, no clear catalyst — capital is better rotated into the fresh attention candidates below."
+    },
+    {
+      "time": "2026-09-03 23:14 UTC",
+      "action": "buy",
+      "details": "[LLM] $PONS at $3.41e-06, spent 0.02 SOL",
+      "reason": "The claimed PONS plus Uniswap partnership and named-unicorn angle provides a concrete viral catalyst backed by a visible Uniswap post, making this the strongest story-driven candidate. Its 7% bond completion and tiny market cap increase slippage and abandonment risk, so the second slot should still remain small."
     }
   ],
   "trade_stats": {
@@ -31770,21 +31793,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T23:12:49.387921+00:00",
+  "last_llm_brief_at": "2026-09-03T23:14:03.787852+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "B4v65Ty3d9FL9eP54wVX9D1i3B8bvbBUjZXNZcd2pump": {
-      "price_usd": 3.1350441056957616e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 119.39700003339799,
-      "volume_h24": 191.49,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.147849411
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
