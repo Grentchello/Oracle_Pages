@@ -12808,3 +12808,6 @@
 ## [2026-09-03 05:11 UTC] sell | [FULL][LLM] $A16KHEIL at $2.82261e-06 | P&L: -17.9%
 - **Reasoning:** Down -17.9% on a fresh entry (held 0.0h, no time invested), 22% of pool is us, liquidity only $4 — this is illiquid bonding-curve drift, not a setup worth defending. Cut before -30% hard stop kicks in.
 
+## [2026-09-03 05:18 UTC] buy | [LLM] $MISA at $2.84653e-06, spent 0.02 SOL
+- **Reasoning:** $MISA — anime convention viral moment (Misa Amane VA goes viral after fan interaction). Anime/Japanese cultural attention is a proven memecoin narrative (think NEIRO, SHIBO). Story is specific and recent. At $2.8k mcap with no bond completion, classic early-entry. 0.05 SOL.
+
