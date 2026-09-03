@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.370316,
+  "balance_sol": 0.39582,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "578MUbmpYDMpiVn9bupUp4mE1QACHuE3wrJckZ5Apump": {
       "symbol": "billions",
       "name": "billions",
-      "amount": 128165.47401430066,
+      "amount": 64082.73700715033,
       "entry_price_usd": 3.947631012885313e-06,
-      "entry_sol_spent": 0.005,
+      "entry_sol_spent": 0.0025,
       "entry_time": "2026-09-03T13:38:25.150301+00:00",
       "entry_usd_value": 2.0238,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 7.083544967,
         "description": "Alon says billions will deploy and billions must gamble",
         "twitter": "https://x.com/a1lon9/status/1839728212361773527",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "Dkqd5u8DgrSSpq5yLQuEZCRog9aZsuP1MtYchNgapump": {
-      "symbol": "QUBY",
-      "name": "Quby Coin",
-      "amount": 643574.3412838223,
-      "entry_price_usd": 3.144625057554128e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T13:38:26.574641+00:00",
-      "entry_usd_value": 2.0238,
-      "entry_signals": {
-        "liquidity_usd": 818.7792533316001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3157.309366280774,
-        "ath_market_cap_usd": 3144.4392439000885,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 8.09150364,
-        "description": "YOU REMEMBER QUBY. NOW EVERYONE WILL REMEMBER $QUBY",
-        "twitter": "https://x.com/CallPumpdotfun/status/2095345528615866435",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -28795,25 +28773,47 @@
       "pnl_pct": 144.42,
       "exit_reason": "LLM: sell_half — Up +144% already above +100% TP threshold — bot should have auto-taken profit at 50%. Take remaining half off to lock gains and free a slot; this is a",
       "partial": true
+    },
+    {
+      "mint": "578MUbmpYDMpiVn9bupUp4mE1QACHuE3wrJckZ5Apump",
+      "symbol": "billions",
+      "name": "billions",
+      "amount_sold": 64082.73700715033,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T13:38:25.150301+00:00",
+      "exit_time": "2026-09-03T13:47:09.078555+00:00",
+      "entry_price_usd": 3.947631012885313e-06,
+      "exit_price_usd": 1.0650740307896614e-05,
+      "entry_sol_for_chunk": 0.0025,
+      "exit_sol_received": 0.006702,
+      "pnl_sol": 0.004202,
+      "pnl_pct": 169.8,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "Dkqd5u8DgrSSpq5yLQuEZCRog9aZsuP1MtYchNgapump",
+      "symbol": "QUBY",
+      "name": "Quby Coin",
+      "amount_sold": 643574.3412838223,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T13:38:26.574641+00:00",
+      "exit_time": "2026-09-03T13:47:38.940477+00:00",
+      "entry_price_usd": 3.144625057554128e-06,
+      "exit_price_usd": 2.9752042528583236e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018802,
+      "pnl_sol": -0.001198,
+      "pnl_pct": -5.39,
+      "exit_reason": "LLM: sell_all — -5.4% with $68 pool (below 5x position safety), 0% bonding progress, no narrative signal in data, held 0.1h with no bounce. Capital rotation: free slo",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T13:46:04.707247+00:00",
+  "last_updated": "2026-09-03T13:47:39.201748+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.98,
-  "portfolio_value_usd": 40.29,
+  "last_sol_price_usd": 101.84,
+  "portfolio_value_usd": 40.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 12:59 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $DERP at $1.18141e-05 | P&L: +27.2%",
-      "reason": "+27.3% on a $3,168 pool is precarious — tiny liquidity means any sell can wipe the gain, and we're sitting just under the +30% TP trigger. Half-off locks ~0.0014 SOL profit while leaving a runner if the bonding curve actually completes. Stale risk is high given the pool depth."
-    },
-    {
-      "time": "2026-09-03 12:59 UTC",
-      "action": "buy",
-      "details": "[LLM] $wvg at $4.324e-06, spent 0.02 SOL",
-      "reason": "$wvg (Wolfs vs Ghosty) has the cleanest fresh-launch narrative — a 'meme battle' framing with two characters, twitter link present, $5.1k mcap and 1.3min old. Battle-memes travel on X. Viability gate passes (desc≥50 + twitter). Risk: brand new, no traction yet."
-    },
     {
       "time": "2026-09-03 13:00 UTC",
       "action": "sell",
@@ -28921,47 +28921,59 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $billions at $9.64871e-06 | P&L: +144.4%",
       "reason": "Up +144% already above +100% TP threshold — bot should have auto-taken profit at 50%. Take remaining half off to lock gains and free a slot; this is a bonding-curve micro-cap with $2.5k pool, no reason to hold further."
+    },
+    {
+      "time": "2026-09-03 13:47 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $billions at $1.06507e-05 | P&L: +169.8%",
+      "reason": "Auto take-profit at +169.8%"
+    },
+    {
+      "time": "2026-09-03 13:47 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $QUBY at $2.9752e-06 | P&L: -5.4%",
+      "reason": "-5.4% with $68 pool (below 5x position safety), 0% bonding progress, no narrative signal in data, held 0.1h with no bounce. Capital rotation: free slot for fresher attention."
     }
   ],
   "trade_stats": {
-    "total": 1691,
-    "wins": 863,
-    "losses": 828,
+    "total": 1693,
+    "wins": 864,
+    "losses": 829,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -1.937329,
-    "avg_pnl_pct": 35.19,
+    "total_pnl_sol": -1.934325,
+    "avg_pnl_pct": 35.24,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 180,
-    "today_realized_sol": 0.055532,
-    "today_target_pct": 13.9,
+    "today_trades": 182,
+    "today_realized_sol": 0.058536,
+    "today_target_pct": 14.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 863,
-      "loss_count": 828,
+      "win_count": 864,
+      "loss_count": 829,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T13:46:04.706028+00:00",
+  "last_llm_brief_at": "2026-09-03T13:47:38.940435+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "578MUbmpYDMpiVn9bupUp4mE1QACHuE3wrJckZ5Apump": {
-      "price_usd": 9.648706971046036e-06,
+      "price_usd": 1.0650740307896614e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2568.5800822037004,
-      "volume_h24": 0,
+      "liquidity_usd": 2853.74003694392,
+      "volume_h24": 15296.48,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 25.187096315
+      "real_sol_reserves": 28.021799263
     },
     "Dkqd5u8DgrSSpq5yLQuEZCRog9aZsuP1MtYchNgapump": {
-      "price_usd": 2.9792942822711295e-06,
+      "price_usd": 2.9752042528583236e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 67.9370797415,
-      "volume_h24": 0,
+      "liquidity_usd": 67.843814482,
+      "volume_h24": 3506.81,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,

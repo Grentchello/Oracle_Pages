@@ -13378,3 +13378,9 @@
 ## [2026-09-03 13:46 UTC] sell | [PARTIAL][LLM] $billions at $9.64871e-06 | P&L: +144.4%
 - **Reasoning:** Up +144% already above +100% TP threshold — bot should have auto-taken profit at 50%. Take remaining half off to lock gains and free a slot; this is a bonding-curve micro-cap with $2.5k pool, no reason to hold further.
 
+## [2026-09-03 13:47 UTC] sell | [TP +100% (50%)] $billions at $1.06507e-05 | P&L: +169.8%
+- **Reasoning:** Auto take-profit at +169.8%
+
+## [2026-09-03 13:47 UTC] sell | [FULL][LLM] $QUBY at $2.9752e-06 | P&L: -5.4%
+- **Reasoning:** -5.4% with $68 pool (below 5x position safety), 0% bonding progress, no narrative signal in data, held 0.1h with no bounce. Capital rotation: free slot for fresher attention.
+
