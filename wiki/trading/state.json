@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.342454,
+  "balance_sol": 0.351753,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DaA9wJRg31F9UvpDXmLyGiV2gVFhTojwwxGM3zPpump": {
-      "symbol": "BAGCOON",
-      "name": "Racoon Wif Bag",
-      "amount": 774767.7376765265,
-      "entry_price_usd": 2.713071153819271e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T21:42:44.152502+00:00",
-      "entry_usd_value": 2.102,
-      "entry_signals": {
-        "liquidity_usd": 74.33500524319999,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2711.7702489837834,
-        "ath_market_cap_usd": 7331.522490261184,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.707278832,
-        "description": "Bro secured the bag and refused to elaborate. No roadmap. No utility. Just a raccoon wif bag. 🦝💰",
-        "twitter": "https://x.com/laserskullsol?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -31323,19 +31300,30 @@
       "pnl_pct": -99.38,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "DaA9wJRg31F9UvpDXmLyGiV2gVFhTojwwxGM3zPpump",
+      "symbol": "BAGCOON",
+      "name": "Racoon Wif Bag",
+      "amount_sold": 774767.7376765265,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T21:42:44.152502+00:00",
+      "exit_time": "2026-09-03T21:43:48.143718+00:00",
+      "entry_price_usd": 2.713071153819271e-06,
+      "exit_price_usd": 1.2604905297896682e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.009299,
+      "pnl_sol": -0.010701,
+      "pnl_pct": -53.54,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T21:42:44.152808+00:00",
+  "last_updated": "2026-09-03T21:43:57.997108+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.1,
-  "portfolio_value_usd": 38.09,
+  "last_sol_price_usd": 105.024,
+  "portfolio_value_usd": 36.94,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 21:03 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $RISE at $8.06494e-06 | P&L: +53.6%",
-      "reason": "Up +53.6% in 6 minutes on a $2k pool — classic peak pump on thin liquidity, my share is 0% so no incentive to hold. Take profit now before it reverses. Pool is too fragile to trust for continuation."
-    },
     {
       "time": "2026-09-03 21:04 UTC",
       "action": "buy",
@@ -31449,30 +31437,48 @@
       "action": "buy",
       "details": "[LLM] $BAGCOON at $2.71307e-06, spent 0.02 SOL",
       "reason": "Solid meme narrative ('raccoon wif bag'), twitter from laserskullsol, fresh $2.7k mcap. Viability passes (desc ≥50 chars AND has twitter). Pure attention play with clear visual hook."
+    },
+    {
+      "time": "2026-09-03 21:43 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $BAGCOON closed at $1.26049e-06 | P&L: -53.5%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1841,
+    "total": 1842,
     "wins": 948,
-    "losses": 893,
+    "losses": 894,
     "win_rate_pct": 51.5,
-    "total_pnl_sol": -1.970193,
-    "avg_pnl_pct": 34.76,
+    "total_pnl_sol": -1.980894,
+    "avg_pnl_pct": 34.71,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 330,
-    "today_realized_sol": 0.022668,
-    "today_target_pct": 5.7,
+    "today_trades": 331,
+    "today_realized_sol": 0.011967,
+    "today_target_pct": 3.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 948,
-      "loss_count": 893,
+      "loss_count": 894,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T21:42:42.473278+00:00",
+  "last_llm_brief_at": "2026-09-03T21:43:57.479813+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "DaA9wJRg31F9UvpDXmLyGiV2gVFhTojwwxGM3zPpump": {
+      "price_usd": 1.2604905297896682e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 5.05377640992,
+      "volume_h24": 706.49,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.048120205
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

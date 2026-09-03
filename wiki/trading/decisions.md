@@ -14107,3 +14107,6 @@
 ## [2026-09-03 21:42 UTC] buy | [LLM] $BAGCOON at $2.71307e-06, spent 0.02 SOL
 - **Reasoning:** Solid meme narrative ('raccoon wif bag'), twitter from laserskullsol, fresh $2.7k mcap. Viability passes (desc ≥50 chars AND has twitter). Pure attention play with clear visual hook.
 
+## [2026-09-03 21:43 UTC] sell | [hard-stop] $BAGCOON closed at $1.26049e-06 | P&L: -53.5%
+- **Reasoning:** Hard -30% stop
+
