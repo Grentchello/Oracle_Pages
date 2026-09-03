@@ -13717,3 +13717,6 @@
 ## [2026-09-03 17:18 UTC] buy | [LLM] $DECAGON at $3.48679e-06, spent 0.02 SOL
 - **Reasoning:** $DECAGON tied to NASA Saturn atmospheric wave discovery — legitimate science narrative with viral hook, fresh 0.1min launch, decent $3.5k mcap entry. Story has legs beyond the typical jokecoin.
 
+## [2026-09-03 17:22 UTC] sell | [FULL][LLM] $DECAGON at $2.98132e-06 | P&L: -14.5%
+- **Reasoning:** Down14.5% on a $28 pool with 6% of supply — this is illiquid bag-holder territory. No bounce signal, no narrative catalyst visible. Cut the loss before it hits -30% and frees the slot.
+

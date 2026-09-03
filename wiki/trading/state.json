@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.328632,
+  "balance_sol": 0.345749,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GkPVZDF4xgdPozESrXv3GgTrnJVCy9Q61PSyLzLTpump": {
-      "symbol": "DECAGON",
-      "name": "Saturn's Decagon",
-      "amount": 601298.4532378971,
-      "entry_price_usd": 3.486787615551213e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T17:18:24.141869+00:00",
-      "entry_usd_value": 2.0966,
-      "entry_signals": {
-        "liquidity_usd": 217.23461776048998,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3481.8780926761037,
-        "ath_market_cap_usd": 3572.222414994918,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.072256203,
-        "description": "NASA just found a giant 10-sided atmospheric wave on Saturn. For decades Saturn was famous for the Hexagon at its north pole. Now there's a Decagon at the south pole.",
-        "twitter": "https://x.com/NASAHubble/status/2095212869805580560",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30014,19 +29991,30 @@
       "pnl_pct": -27.99,
       "exit_reason": "LLM: sell_all — $Chiikawa is at -28.0%, only 2% from the -30% hard stop and showing zero bounce. Held for 0.0h with our share at 0% on a $1,525 pool — exit manually n",
       "partial": false
+    },
+    {
+      "mint": "GkPVZDF4xgdPozESrXv3GgTrnJVCy9Q61PSyLzLTpump",
+      "symbol": "DECAGON",
+      "name": "Saturn's Decagon",
+      "amount_sold": 601298.4532378971,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T17:18:24.141869+00:00",
+      "exit_time": "2026-09-03T17:22:45.118511+00:00",
+      "entry_price_usd": 3.486787615551213e-06,
+      "exit_price_usd": 2.9813201849163504e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.017117,
+      "pnl_sol": -0.002883,
+      "pnl_pct": -14.5,
+      "exit_reason": "LLM: sell_all — Down14.5% on a $28 pool with 6% of supply — this is illiquid bag-holder territory. No bounce signal, no narrative catalyst visible. Cut the loss befor",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T17:21:29.592241+00:00",
+  "last_updated": "2026-09-03T17:22:45.118741+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.67,
-  "portfolio_value_usd": 36.49,
+  "last_sol_price_usd": 104.73,
+  "portfolio_value_usd": 36.21,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 16:36 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $rusty at $8.74201e-06 | P&L: +40.1%",
-      "reason": "Up +40.1% in 6 minutes — bot should have triggered +30% TP1 (25% off). Lock half the gain now; let the rest ride on a bonding-curve token showing strong initial momentum. If it stalls, I'll exit the remainder."
-    },
     {
       "time": "2026-09-03 16:36 UTC",
       "action": "buy",
@@ -30140,40 +30128,46 @@
       "action": "buy",
       "details": "[LLM] $DECAGON at $3.48679e-06, spent 0.02 SOL",
       "reason": "$DECAGON tied to NASA Saturn atmospheric wave discovery — legitimate science narrative with viral hook, fresh 0.1min launch, decent $3.5k mcap entry. Story has legs beyond the typical jokecoin."
+    },
+    {
+      "time": "2026-09-03 17:22 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DECAGON at $2.98132e-06 | P&L: -14.5%",
+      "reason": "Down14.5% on a $28 pool with 6% of supply — this is illiquid bag-holder territory. No bounce signal, no narrative catalyst visible. Cut the loss before it hits -30% and frees the slot."
     }
   ],
   "trade_stats": {
-    "total": 1764,
+    "total": 1765,
     "wins": 907,
-    "losses": 857,
+    "losses": 858,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.984014,
-    "avg_pnl_pct": 35.0,
+    "total_pnl_sol": -1.986897,
+    "avg_pnl_pct": 34.97,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 253,
-    "today_realized_sol": 0.008847,
-    "today_target_pct": 2.2,
+    "today_trades": 254,
+    "today_realized_sol": 0.005964,
+    "today_target_pct": 1.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 907,
-      "loss_count": 857,
+      "loss_count": 858,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T17:21:29.326948+00:00",
+  "last_llm_brief_at": "2026-09-03T17:22:45.118472+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GkPVZDF4xgdPozESrXv3GgTrnJVCy9Q61PSyLzLTpump": {
-      "price_usd": 3.2940534694051295e-06,
+      "price_usd": 2.9813201849163504e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 191.37779346609,
-      "volume_h24": 1606.06,
+      "liquidity_usd": 28.39992545886,
+      "volume_h24": 1769.17,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.828392027
+      "real_sol_reserves": 0.271172782
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
