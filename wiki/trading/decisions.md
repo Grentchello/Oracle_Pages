@@ -13069,3 +13069,9 @@
 ## [2026-09-03 10:08 UTC] buy | [LLM] $TREF at $1.053e-05, spent 0.02 SOL
 - **Reasoning:** $TREF has a genuinely unique narrative — interactive token where mentioning @trefworld on X drives utility. Strong attention mechanic (viral by design), twitter presence confirmed, mcap $8k at 1.3min = early entry on a story-driven launch. Risky as always with1-min tokens, but the interactive X-mention mechanic is the kind of hook that spreads.
 
+## [2026-09-03 10:10 UTC] sell | [FULL][LLM] $TREF at $9.03797e-06 | P&L: -14.2%
+- **Reasoning:** TREF is down -14.2% after just entering, with pool only $2,393 (fragile liquidity, below the 5x position size preference). No bounce signal visible. Per rules, exit fast on losers before -20% becomes -30%. Free up capital for fresh attention.
+
+## [2026-09-03 10:10 UTC] buy | [LLM] $raji at $3.799e-06, spent 0.02 SOL
+- **Reasoning:** $raji — India-themed narrative with explicit community angle, has twitter link, mcap $3,792. Cultural/regional memecoins can have strong viral potential in memecoin cycles. Passes viability gate (desc 50+ chars + twitter). Speculative but fits the attention-market thesis.
+
