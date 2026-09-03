@@ -12562,3 +12562,6 @@
 ## [2026-09-03 01:17 UTC] sell | [FULL][LLM] $SOLID at $3.18837e-06 | P&L: +0.5%
 - **Reasoning:** $SOLID is +0.5% after 0.1h with only $199 pool liquidity (well below 5x position size gate of ~$500). Stagnant, illiquid, and our 1% share of a $199 pool means we can't exit cleanly anyway. Cut the dead weight and free the slot for fresher launches.
 
+## [2026-09-03 01:18 UTC] buy | [LLM] $PULE  at $3.52105e-06, spent 0.02 SOL
+- **Reasoning:** $PULE has a meta-narrative: 'see who made the token before you buy it' — anti-rug tooling as a meme. Addressable to degen traders themselves, which is a strong reflexive audience. Low mcap $3.5k but fresh bond and clear story.
+
