@@ -13426,3 +13426,6 @@
 ## [2026-09-03 14:09 UTC] sell | [FULL][LLM] $CATCH at $3.4373e-06 | P&L: +0.1%
 - **Reasoning:** $CATCH is flat at +0.1% with no momentum signal. Pool only $308, low liquidity, weak attention. Free up slot for fresh launch with actual narrative.
 
+## [2026-09-03 14:10 UTC] sell | [FULL][LLM] $Roller at $3.09854e-06 | P&L: +4.3%
+- **Reasoning:** Up +4.3% in 0.1h with shallow $137 pool and 1% share — no momentum yet and tiny liquidity means exit gets worse if it stalls. Take the small gain and free the slot for fresh attention.
+
