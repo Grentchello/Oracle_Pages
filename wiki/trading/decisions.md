@@ -13825,3 +13825,9 @@
 ## [2026-09-03 18:54 UTC] buy | [LLM] $Feet at $1.1292e-05, spent 0.02 SOL
 - **Reasoning:** $Feet has the strongest attention signal of this batch: viral X post from @CryptoVegeta explicitly claiming 'super viral all over the internet', highest mcap ($11.2k) at 0.2min age showing real bid, and a stock-pairing narrative (TakeTwo) that gives it a TradFi angle. Risk: fetish-adjacent niche narrative is fragile if it doesn't cross to broader crypto Twitter. Sizing 0.05 SOL.
 
+## [2026-09-03 18:55 UTC] sell | [hard-stop] $Feet closed at $2.94235e-06 | P&L: -73.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 18:56 UTC] buy | [LLM] $Callscan at $2.99413e-06, spent 0.02 SOL
+- **Reasoning:** $Callscan has clearest utility narrative (pump.fun callout tracker with caller stats + AI analysis), active X account @callscan_app, $3k mcap at 1% bonding — concrete product hook beats generic hype. Risk: tiny mcap, very fresh.
+
