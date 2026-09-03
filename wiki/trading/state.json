@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.327841,
+  "balance_sol": 0.33021,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "DB5Bn6u7TfDesuxEToMhdSyP7d7yZ26ypEBWHfSpump": {
-      "symbol": "Amzn",
-      "name": "Amazon",
-      "amount": 84670.40823489819,
-      "entry_price_usd": 3.0495656369828054e-06,
-      "entry_sol_spent": 0.0024587488327726392,
-      "entry_time": "2026-09-03T21:50:51.687985+00:00",
-      "entry_usd_value": 2.10032,
-      "entry_signals": {
-        "liquidity_usd": 49.903416061488,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3050.9610498073857,
-        "ath_market_cap_usd": 3049.805320279576,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.475198218,
-        "description": "We seek to be Earth’s most customer-centric company.",
-        "twitter": "https://x.com/amazon?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "zwFN2ezKoNjDsbQsWNSyzy5ddqADN7nYGeVWBzWpump": {
       "symbol": "PXPE!",
       "name": "Pixel Pepe",
@@ -31396,19 +31374,30 @@
       "pnl_pct": -3.41,
       "exit_reason": "LLM: sell_all — $Amzn pool is $1 and our share is 203% — liquidity has functionally evaporated, no recovery path even at only -3.4%. Better to free the slot for fresh",
       "partial": true
+    },
+    {
+      "mint": "DB5Bn6u7TfDesuxEToMhdSyP7d7yZ26ypEBWHfSpump",
+      "symbol": "Amzn",
+      "name": "Amazon",
+      "amount_sold": 84670.40823489819,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T21:50:51.687985+00:00",
+      "exit_time": "2026-09-03T21:58:18.557451+00:00",
+      "entry_price_usd": 3.0495656369828054e-06,
+      "exit_price_usd": 2.9434241211946797e-06,
+      "entry_sol_for_chunk": 0.002459,
+      "exit_sol_received": 0.002369,
+      "pnl_sol": -9e-05,
+      "pnl_pct": -3.48,
+      "exit_reason": "LLM: sell_all — $Amzn has pool=$1 and we own 25% — far below the 5x-liquidity rule and effectively un-exitable. Cutting now at -3.5% frees a slot; holding just traps ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T21:56:33.838838+00:00",
+  "last_updated": "2026-09-03T21:58:18.557746+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.29,
-  "portfolio_value_usd": 36.88,
+  "last_sol_price_usd": 105.21,
+  "portfolio_value_usd": 36.85,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 21:09 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PennyStock at $3.20368e-06 | P&L: -6.5%",
-      "reason": "$PennyStock at -6.5% on $143 pool — microcap illiquid junk, age 0h, no attention signal visible. Free up the slot for a fresh launch with real narrative."
-    },
     {
       "time": "2026-09-03 21:09 UTC",
       "action": "buy",
@@ -31522,40 +31511,57 @@
       "action": "buy",
       "details": "[LLM] $PXPE! at $3.54781e-06, spent 0.02 SOL",
       "reason": "$PXPE! (Pixel Pepe) — pixel-art Pepe derivative with active developer twitter (@pixelpepedevv), clear meme DNA (Pepe variants historically pump), and very fresh $3.5k mcap. Pure attention play with cultural meme template."
+    },
+    {
+      "time": "2026-09-03 21:58 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Amzn at $2.94342e-06 | P&L: -3.5%",
+      "reason": "$Amzn has pool=$1 and we own 25% — far below the 5x-liquidity rule and effectively un-exitable. Cutting now at -3.5% frees a slot; holding just traps capital in dead liquidity."
     }
   ],
   "trade_stats": {
-    "total": 1844,
+    "total": 1845,
     "wins": 948,
-    "losses": 896,
+    "losses": 897,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.982348,
-    "avg_pnl_pct": 34.67,
+    "total_pnl_sol": -1.982438,
+    "avg_pnl_pct": 34.65,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 333,
-    "today_realized_sol": 0.010513,
+    "today_trades": 334,
+    "today_realized_sol": 0.010423,
     "today_target_pct": 2.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 948,
-      "loss_count": 896,
+      "loss_count": 897,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T21:56:32.543992+00:00",
+  "last_llm_brief_at": "2026-09-03T21:58:18.557415+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DB5Bn6u7TfDesuxEToMhdSyP7d7yZ26ypEBWHfSpump": {
-      "price_usd": 2.9456622537837454e-06,
+      "price_usd": 2.9434241211946797e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.9976417022,
+      "liquidity_usd": 0.9968836877999999,
       "volume_h24": 121.5,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.00947518
+    },
+    "zwFN2ezKoNjDsbQsWNSyzy5ddqADN7nYGeVWBzWpump": {
+      "price_usd": 3.5451154974389193e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 308.7076123089,
+      "volume_h24": 360.24,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.93420409
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

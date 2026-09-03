@@ -14125,3 +14125,6 @@
 ## [2026-09-03 21:56 UTC] buy | [LLM] $PXPE! at $3.54781e-06, spent 0.02 SOL
 - **Reasoning:** $PXPE! (Pixel Pepe) — pixel-art Pepe derivative with active developer twitter (@pixelpepedevv), clear meme DNA (Pepe variants historically pump), and very fresh $3.5k mcap. Pure attention play with cultural meme template.
 
+## [2026-09-03 21:58 UTC] sell | [FULL][LLM] $Amzn at $2.94342e-06 | P&L: -3.5%
+- **Reasoning:** $Amzn has pool=$1 and we own 25% — far below the 5x-liquidity rule and effectively un-exitable. Cutting now at -3.5% frees a slot; holding just traps capital in dead liquidity.
+
