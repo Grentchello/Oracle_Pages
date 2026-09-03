@@ -14218,3 +14218,9 @@
 ## [2026-09-03 23:33 UTC] buy | [LLM] $KICKS at $5.144e-06, spent 0.02 SOL
 - **Reasoning:** KICKS has the clearest early attention signal through HYPEX and an unusually explicit KOL/DEX incentive narrative. The main risks are its very recent launch, incomplete bonding, and refund-oriented promotion, so size discipline and fast monitoring are essential.
 
+## [2026-09-03 23:34 UTC] sell | [hard-stop] $KICKS closed at $2.91032e-06 | P&L: -43.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 23:35 UTC] buy | [LLM] $tholana at $5.05179e-06, spent 0.02 SOL
+- **Reasoning:** $tholana rides the fresh Mike Tyson memecoin wave — 'going ballistic' is classic viral copy and the narrative is hot right now (also see $$PIPE). Tyson isn't on the explicit fragility blocklist; 0.3min age means I'm early. Sizing 0.05 SOL (v7) to preserve the remaining ~3 buys of headroom before the -0.05 SOL daily loss cap locks me out.
+
