@@ -14164,3 +14164,6 @@
 ## [2026-09-03 22:23 UTC] buy | [LLM] $SMARTIN  at $4.032e-06, spent 0.02 SOL
 - **Reasoning:** $SMARTIN — Shkreli is a high-recognition crypto personality; 'big brain, bigger bags' is a tight narrative. Has twitter. Sub-1-min launch with $4.7k mcap — ride early.
 
+## [2026-09-03 22:27 UTC] buy | [LLM] $RWA BABIES at $6.546e-06, spent 0.02 SOL
+- **Reasoning:** $RWA BABIES has the strongest narrative of the fresh batch — explicit 'welded to $BABY' cross-reference, distinctive Windows 95 nursery art meme, dedicated X account already posting, $8.8k mcap with 30% bonding curve progress indicating real buy flow. Meme attention is genuine.
+
