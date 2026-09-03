@@ -1,36 +1,14 @@
 {
-  "balance_sol": 0.290579,
+  "balance_sol": 0.321498,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "AvGLvz4zcZSTHKif635uuaThQ4MKprc8oxoamVhMpump": {
-      "symbol": "GLITCH",
-      "name": "Glitch Forever",
-      "amount": 581644.2015773394,
-      "entry_price_usd": 3.6169878325869707e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T20:26:01.660720+00:00",
-      "entry_usd_value": 2.1038,
-      "entry_signals": {
-        "liquidity_usd": 352.35524521087,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3626.691689259991,
-        "ath_market_cap_usd": 3747.0807279728283,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.349702873,
-        "description": "MAKE THE TRENCHES GLITCH AGAIN. GLiTCH is being built LIVE in the Solana trenches. Watch the machine hunt runners, analyze launches, expose rugs, track the data and evolve in real time. No crystal ball. No promises of overnight riches. Just AI, code, data and degeneracy with one mission: BEAT THE TR",
-        "twitter": "https://x.com/GlitchForeva",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "Aip7JndhJNw8KfweQg3EaNayWrfTe7zfsWcutU4Bpump": {
       "symbol": "Wolf",
       "name": "The White Wolf ☾🐺",
-      "amount": 363524.731926669,
+      "amount": 181762.3659633345,
       "entry_price_usd": 5.782e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T20:27:27.389945+00:00",
       "entry_usd_value": 2.1019,
       "entry_signals": {
@@ -30767,25 +30745,47 @@
       "pnl_pct": -18.44,
       "exit_reason": "LLM: sell_all — Down 18.4% with only $123 pool and 6 min held. One more tick of bleed hits -30% hard stop. Illiquid bonding-curve token with no visible bounce catalys",
       "partial": false
+    },
+    {
+      "mint": "AvGLvz4zcZSTHKif635uuaThQ4MKprc8oxoamVhMpump",
+      "symbol": "GLITCH",
+      "name": "Glitch Forever",
+      "amount_sold": 581644.2015773394,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T20:26:01.660720+00:00",
+      "exit_time": "2026-09-03T20:28:59.310661+00:00",
+      "entry_price_usd": 3.6169878325869707e-06,
+      "exit_price_usd": 3.613271110261505e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.01996,
+      "pnl_sol": -4e-05,
+      "pnl_pct": -0.1,
+      "exit_reason": "LLM: sell_all — GLITCH at -0.1% with pool of only $341 — liquidity is half my 5x minimum requirement, exit is forced by risk. Frees slot for stronger narrative.",
+      "partial": false
+    },
+    {
+      "mint": "Aip7JndhJNw8KfweQg3EaNayWrfTe7zfsWcutU4Bpump",
+      "symbol": "Wolf",
+      "name": "The White Wolf ☾🐺",
+      "amount_sold": 181762.3659633345,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T20:27:27.389945+00:00",
+      "exit_time": "2026-09-03T20:28:59.310952+00:00",
+      "entry_price_usd": 5.782e-06,
+      "exit_price_usd": 6.3484275224652224e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.010959,
+      "pnl_sol": 0.000959,
+      "pnl_pct": 9.8,
+      "exit_reason": "LLM: sell_half — Wolf at +9.8%, under the 15% staleness threshold but trending up. Lock half the gain at breakeven+, let the other half ride if it breaks 20%.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T20:27:27.390243+00:00",
+  "last_updated": "2026-09-03T20:28:59.829907+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.095,
-  "portfolio_value_usd": 34.74,
+  "last_sol_price_usd": 105.29,
+  "portfolio_value_usd": 34.9,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 19:37 UTC",
-      "action": "buy",
-      "details": "[LLM] $ACPR at $4.84815e-06, spent 0.02 SOL",
-      "reason": "$ACPR is the only candidate passing the viability gate (description >=50 chars, has twitter). Narrative is a prediction/cognition-market product on Solana testnet — coherent story with a real twitter (@acepyr). Bond 18%, mcap $4.8k, age 0.2min — extremely early, capturing attention at launch. Risk: very low mcap and bond completion mean thin liquidity; size is small (0.05 SOL) to limit downside."
-    },
-    {
-      "time": "2026-09-03 19:38 UTC",
-      "action": "buy",
-      "details": "[LLM] $Quarter at $6.67715e-07, spent 0.02 SOL",
-      "reason": "$Quarter — actual product narrative (pay-to-play arcade on Solana, 0.0025 SOL per play, replay mechanic). Description ≥50 chars, has twitter, real concept, not a copy. Lowest mcap of the 'real narrative' set and highest bonding curve progress (17%) = real traction. Best risk/reward of the batch."
-    },
     {
       "time": "2026-09-03 19:39 UTC",
       "action": "sell",
@@ -30893,40 +30893,63 @@
       "action": "buy",
       "details": "[LLM] $Wolf at $5.782e-06, spent 0.02 SOL",
       "reason": "Wolf narrative + dev's own twitter with explicit promise to buy through bonding curve. Self-interested creator buying their own token = sustained buying pressure. Age 0.6min, low mcap $5.8k, classic early entry."
+    },
+    {
+      "time": "2026-09-03 20:28 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GLITCH at $3.61327e-06 | P&L: -0.1%",
+      "reason": "GLITCH at -0.1% with pool of only $341 — liquidity is half my 5x minimum requirement, exit is forced by risk. Frees slot for stronger narrative."
+    },
+    {
+      "time": "2026-09-03 20:28 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Wolf at $6.34843e-06 | P&L: +9.8%",
+      "reason": "Wolf at +9.8%, under the 15% staleness threshold but trending up. Lock half the gain at breakeven+, let the other half ride if it breaks 20%."
     }
   ],
   "trade_stats": {
-    "total": 1807,
-    "wins": 928,
-    "losses": 879,
+    "total": 1809,
+    "wins": 929,
+    "losses": 880,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.002068,
-    "avg_pnl_pct": 34.67,
+    "total_pnl_sol": -2.001149,
+    "avg_pnl_pct": 34.64,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 296,
-    "today_realized_sol": -0.009207,
-    "today_target_pct": -2.3,
+    "today_trades": 298,
+    "today_realized_sol": -0.008288,
+    "today_target_pct": -2.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 928,
-      "loss_count": 879,
+      "win_count": 929,
+      "loss_count": 880,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T20:27:26.024766+00:00",
+  "last_llm_brief_at": "2026-09-03T20:28:59.310621+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AvGLvz4zcZSTHKif635uuaThQ4MKprc8oxoamVhMpump": {
-      "price_usd": 3.6065792319587126e-06,
+      "price_usd": 3.613271110261505e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 340.15537905118,
-      "volume_h24": 491.29,
+      "liquidity_usd": 340.78652514676,
+      "volume_h24": 510.08,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 3.236646644
+    },
+    "Aip7JndhJNw8KfweQg3EaNayWrfTe7zfsWcutU4Bpump": {
+      "price_usd": 6.3484275224652224e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1479.9022476038701,
+      "volume_h24": 1375.65,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 14.055487203
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

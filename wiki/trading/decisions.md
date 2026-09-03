@@ -13951,3 +13951,9 @@
 ## [2026-09-03 20:27 UTC] buy | [LLM] $Wolf at $5.782e-06, spent 0.02 SOL
 - **Reasoning:** Wolf narrative + dev's own twitter with explicit promise to buy through bonding curve. Self-interested creator buying their own token = sustained buying pressure. Age 0.6min, low mcap $5.8k, classic early entry.
 
+## [2026-09-03 20:28 UTC] sell | [FULL][LLM] $GLITCH at $3.61327e-06 | P&L: -0.1%
+- **Reasoning:** GLITCH at -0.1% with pool of only $341 — liquidity is half my 5x minimum requirement, exit is forced by risk. Frees slot for stronger narrative.
+
+## [2026-09-03 20:28 UTC] sell | [PARTIAL][LLM] $Wolf at $6.34843e-06 | P&L: +9.8%
+- **Reasoning:** Wolf at +9.8%, under the 15% staleness threshold but trending up. Lock half the gain at breakeven+, let the other half ride if it breaks 20%.
+
