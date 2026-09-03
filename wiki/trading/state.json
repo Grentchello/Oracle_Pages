@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.319925,
+  "balance_sol": 0.332385,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "HWF4K8PEEMn8kTWHcX4jEV8jfrLHYFqyrSsX1Hz2pump": {
       "symbol": "QUBY",
       "name": "Quby On Solana",
-      "amount": 618719.2118226602,
+      "amount": 309359.6059113301,
       "entry_price_usd": 3.248e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T04:07:16.385961+00:00",
       "entry_usd_value": 2.0096000000000003,
       "entry_signals": {
@@ -26478,19 +26478,30 @@
       "pnl_pct": -19.12,
       "exit_reason": "LLM: sell_all — $CSA is at -19.1% after 0.0h held, no bounce signal, bonding curve only $1127 liquidity, our share=0%. Cut it before the -30% hard stop hits — better ",
       "partial": false
+    },
+    {
+      "mint": "HWF4K8PEEMn8kTWHcX4jEV8jfrLHYFqyrSsX1Hz2pump",
+      "symbol": "QUBY",
+      "name": "Quby On Solana",
+      "amount_sold": 309359.6059113301,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T04:07:16.385961+00:00",
+      "exit_time": "2026-09-03T04:11:40.208314+00:00",
+      "entry_price_usd": 3.248e-06,
+      "exit_price_usd": 4.054729276129709e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.01246,
+      "pnl_sol": 0.00246,
+      "pnl_pct": 24.84,
+      "exit_reason": "LLM: sell_half — Locked +24.8% gains but pool is only $605 — dangerously thin for a 0.05 SOL exit. Selling half books profit and tests liquidity while keeping upside e",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T04:10:14.430877+00:00",
+  "last_updated": "2026-09-03T04:11:40.209429+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.64,
-  "portfolio_value_usd": 34.21,
+  "last_sol_price_usd": 100.67,
+  "portfolio_value_usd": 34.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 03:16 UTC",
-      "action": "buy",
-      "details": "[LLM] $CHMORTY at $2.855e-06, spent 0.02 SOL",
-      "reason": "$CHMORTY fuses Chrome Hearts luxury drip with Rick & Morty meme IP — a real cultural crossover crypto-twitter loves. Passes viability (desc=70 chars + twitter), mcap $2.9k, fresh 1.1min launch. $0.05 position."
-    },
     {
       "time": "2026-09-03 03:24 UTC",
       "action": "sell",
@@ -26604,40 +26615,46 @@
       "action": "buy",
       "details": "[LLM] $QUBY at $3.248e-06, spent 0.02 SOL",
       "reason": "$QUBY has a live X account (CallPumpdotfun) tied to the launch and a clear 'Quby on the Moon' lewd-humor meme narrative — passes viability gate (desc ≥50 chars + twitter), mcap only $3.5k so attention has room to 10x. Risk: brand-new token, narrative is blue humor which can flag quick."
+    },
+    {
+      "time": "2026-09-03 04:11 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $QUBY at $4.05473e-06 | P&L: +24.8%",
+      "reason": "Locked +24.8% gains but pool is only $605 — dangerously thin for a 0.05 SOL exit. Selling half books profit and tests liquidity while keeping upside exposure. Per scalp rules: up >20% with thin pool = take some off."
     }
   ],
   "trade_stats": {
-    "total": 1556,
-    "wins": 781,
+    "total": 1557,
+    "wins": 782,
     "losses": 775,
     "win_rate_pct": 50.2,
-    "total_pnl_sol": -1.992718,
-    "avg_pnl_pct": 36.13,
+    "total_pnl_sol": -1.990258,
+    "avg_pnl_pct": 36.12,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 45,
-    "today_realized_sol": 0.000143,
-    "today_target_pct": 0.0,
+    "today_trades": 46,
+    "today_realized_sol": 0.002603,
+    "today_target_pct": 0.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 781,
+      "win_count": 782,
       "loss_count": 775,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T04:10:14.173151+00:00",
+  "last_llm_brief_at": "2026-09-03T04:11:40.208274+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "HWF4K8PEEMn8kTWHcX4jEV8jfrLHYFqyrSsX1Hz2pump": {
-      "price_usd": 3.329813020150671e-06,
+      "price_usd": 4.054729276129709e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 265.19759952112,
+      "liquidity_usd": 604.76180551895,
       "volume_h24": 449.3,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.635111283
+      "real_sol_reserves": 6.007368685
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -12733,3 +12733,6 @@
 ## [2026-09-03 04:07 UTC] buy | [LLM] $QUBY at $3.248e-06, spent 0.02 SOL
 - **Reasoning:** $QUBY has a live X account (CallPumpdotfun) tied to the launch and a clear 'Quby on the Moon' lewd-humor meme narrative — passes viability gate (desc ≥50 chars + twitter), mcap only $3.5k so attention has room to 10x. Risk: brand-new token, narrative is blue humor which can flag quick.
 
+## [2026-09-03 04:11 UTC] sell | [PARTIAL][LLM] $QUBY at $4.05473e-06 | P&L: +24.8%
+- **Reasoning:** Locked +24.8% gains but pool is only $605 — dangerously thin for a 0.05 SOL exit. Selling half books profit and tests liquidity while keeping upside exposure. Per scalp rules: up >20% with thin pool = take some off.
+
