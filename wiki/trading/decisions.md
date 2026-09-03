@@ -12694,3 +12694,12 @@
 ## [2026-09-03 03:52 UTC] buy | [LLM] $SM at $4.904e-06, spent 0.02 SOL
 - **Reasoning:** $SM narrative is strongest here — 'tokenized mining rigs hashing for Solana' riffs the AI/miner meta which is pumping across CT, plus active @miner_on_sol twitter. Sub-1min age, $5.4k mcap = asymmetric upside if narrative catches. Risk: bond only 22%, may stall on curve.
 
+## [2026-09-03 03:53 UTC] sell | [TP +30% (25%)] $SM at $6.42346e-06 | P&L: +31.0%
+- **Reasoning:** Auto take-profit at +31.0%
+
+## [2026-09-03 03:53 UTC] sell | [FULL][LLM] $SM at $6.42346e-06 | P&L: +31.0%
+- **Reasoning:** Already at +31% which is past the +30% TP threshold. Locking in profit — bot should auto-TP but I'll force it. Frees a slot and redeploys capital into a fresh narrative.
+
+## [2026-09-03 03:53 UTC] buy | [LLM] $$BTCHAN at $3.146e-06, spent 0.02 SOL
+- **Reasoning:** $$BTCHAN has the strongest narrative on the board — a real 2013/2014 cultural artifact (Bitcoin-chan 'Fairy of Money'), active twitter, 1.1min old, $3.1k mcap = still cheap. Attention markets reward provenance + story. Risk: very fresh, bonding 5%.
+

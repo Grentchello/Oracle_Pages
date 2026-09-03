@@ -1,26 +1,26 @@
 {
-  "balance_sol": 0.317646,
+  "balance_sol": 0.323811,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "AHuhw5bLkA1tU6EC2yiXB2pWPWBpfd3sdLgKkUfXpump": {
-      "symbol": "SM",
-      "name": "Solana Miners",
-      "amount": 409461.66394779773,
-      "entry_price_usd": 4.904e-06,
+    "DbbsarEVUpXAd2E8gg9txPLhpRL1TURsmk6fvQW7pump": {
+      "symbol": "$BTCHAN",
+      "name": "Bitcoin-chan",
+      "amount": 639033.693579148,
+      "entry_price_usd": 3.146e-06,
       "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T03:52:13.891681+00:00",
-      "entry_usd_value": 2.008,
+      "entry_time": "2026-09-03T03:53:37.116042+00:00",
+      "entry_usd_value": 2.0103999999999997,
       "entry_signals": {
-        "liquidity_usd": 2590.2459211652003,
-        "volume_24h_usd": 970.07,
-        "market_cap_usd": 5385.442126872632,
-        "ath_market_cap_usd": 5383.643776653812,
+        "liquidity_usd": 178.58699837999998,
+        "volume_24h_usd": 975.78,
+        "market_cap_usd": 3144.837690329035,
+        "ath_market_cap_usd": 3770.843377145095,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 25.799262163,
-        "description": "5,000 rigs that hash for Solana. Plug in, burn to light up, lit rigs print tokenized stock.  Hash. Print. Repeat.",
-        "twitter": "https://x.com/miner_on_sol",
+        "real_sol_reserves": 1.7766315,
+        "description": "Bitcoin-chan dates back to 2013/2014, originally created as the “Fairy of Money” and used in 4-panel comics built around Bitcoin culture.",
+        "twitter": "https://x.com/btchan_sol?s=11",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -26342,31 +26342,47 @@
       "pnl_pct": -17.1,
       "exit_reason": "LLM: sell_all — -17.1% with no bounce and pool only $94 (fails 5x liquidity gate). Per scalp rules, -20% losses become -50% quickly — exit before hard stop at -30%.",
       "partial": false
+    },
+    {
+      "mint": "AHuhw5bLkA1tU6EC2yiXB2pWPWBpfd3sdLgKkUfXpump",
+      "symbol": "SM",
+      "name": "Solana Miners",
+      "amount_sold": 102365.41598694943,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T03:52:13.891681+00:00",
+      "exit_time": "2026-09-03T03:53:17.355884+00:00",
+      "entry_price_usd": 4.904e-06,
+      "exit_price_usd": 6.423458932791682e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.006541,
+      "pnl_sol": 0.001541,
+      "pnl_pct": 30.98,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "AHuhw5bLkA1tU6EC2yiXB2pWPWBpfd3sdLgKkUfXpump",
+      "symbol": "SM",
+      "name": "Solana Miners",
+      "amount_sold": 307096.24796084827,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T03:52:13.891681+00:00",
+      "exit_time": "2026-09-03T03:53:35.792511+00:00",
+      "entry_price_usd": 4.904e-06,
+      "exit_price_usd": 6.423458932791682e-06,
+      "entry_sol_for_chunk": 0.015,
+      "exit_sol_received": 0.019624,
+      "pnl_sol": 0.004624,
+      "pnl_pct": 30.98,
+      "exit_reason": "LLM: sell_all — Already at +31% which is past the +30% TP threshold. Locking in profit — bot should auto-TP but I'll force it. Frees a slot and redeploys capital into",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T03:52:14.157350+00:00",
+  "last_updated": "2026-09-03T03:53:37.116194+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.4,
-  "portfolio_value_usd": 33.9,
+  "last_sol_price_usd": 100.52,
+  "portfolio_value_usd": 34.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 02:33 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $GG at $1.50617e-05 | P&L: +37.9%",
-      "reason": "+37.9% with no narrative moat and only $3,966 pool liquidity on a bonding curve. Lock half the gain to cover position cost + profit, let the rest ride to +100% TP at 50% trigger or a clear narrative continuation."
-    },
-    {
-      "time": "2026-09-03 02:34 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $GG at $1.74645e-05 | P&L: +59.9%",
-      "reason": "Auto take-profit at +59.9%"
-    },
-    {
-      "time": "2026-09-03 02:34 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $GG at $1.74645e-05 | P&L: +59.9%",
-      "reason": "+59.9% in 0.1h is a strong pump on a bonding-curve token where our pool share is 0% (illiquid exit). Lock half the gain now — let the rest ride if narrative continues, but don't watch it round-trip to breakeven. Partial exit captures profit while keeping upside exposure."
-    },
     {
       "time": "2026-09-03 02:36 UTC",
       "action": "sell",
@@ -26468,30 +26484,60 @@
       "action": "buy",
       "details": "[LLM] $SM at $4.904e-06, spent 0.02 SOL",
       "reason": "$SM narrative is strongest here — 'tokenized mining rigs hashing for Solana' riffs the AI/miner meta which is pumping across CT, plus active @miner_on_sol twitter. Sub-1min age, $5.4k mcap = asymmetric upside if narrative catches. Risk: bond only 22%, may stall on curve."
+    },
+    {
+      "time": "2026-09-03 03:53 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $SM at $6.42346e-06 | P&L: +31.0%",
+      "reason": "Auto take-profit at +31.0%"
+    },
+    {
+      "time": "2026-09-03 03:53 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SM at $6.42346e-06 | P&L: +31.0%",
+      "reason": "Already at +31% which is past the +30% TP threshold. Locking in profit — bot should auto-TP but I'll force it. Frees a slot and redeploys capital into a fresh narrative."
+    },
+    {
+      "time": "2026-09-03 03:53 UTC",
+      "action": "buy",
+      "details": "[LLM] $$BTCHAN at $3.146e-06, spent 0.02 SOL",
+      "reason": "$$BTCHAN has the strongest narrative on the board — a real 2013/2014 cultural artifact (Bitcoin-chan 'Fairy of Money'), active twitter, 1.1min old, $3.1k mcap = still cheap. Attention markets reward provenance + story. Risk: very fresh, bonding 5%."
     }
   ],
   "trade_stats": {
-    "total": 1548,
-    "wins": 777,
+    "total": 1550,
+    "wins": 779,
     "losses": 771,
-    "win_rate_pct": 50.2,
-    "total_pnl_sol": -1.994997,
+    "win_rate_pct": 50.3,
+    "total_pnl_sol": -1.988832,
     "avg_pnl_pct": 36.28,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 37,
-    "today_realized_sol": -0.002136,
-    "today_target_pct": -0.5,
+    "today_trades": 39,
+    "today_realized_sol": 0.004029,
+    "today_target_pct": 1.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 777,
+      "win_count": 779,
       "loss_count": 771,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T03:52:12.601383+00:00",
+  "last_llm_brief_at": "2026-09-03T03:53:35.792466+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "AHuhw5bLkA1tU6EC2yiXB2pWPWBpfd3sdLgKkUfXpump": {
+      "price_usd": 6.423458932791682e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1543.41692491,
+      "volume_h24": 4827.61,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 15.35432675
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
