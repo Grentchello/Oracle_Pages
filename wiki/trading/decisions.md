@@ -12967,3 +12967,9 @@
 ## [2026-09-03 07:06 UTC] buy | [LLM] $rhg at $3.84827e-06, spent 0.02 SOL
 - **Reasoning:** $rhg passes viability (twitter + desc) and has the strongest narrative of the batch — Robin Hood ghost resurrection story with live X account @gh1stsol. $3.8k mcap means tiny entry gets real upside if it pumps. Risk: ultra-low mcap = rug-prone, so 0.05 SOL sizing only.
 
+## [2026-09-03 07:08 UTC] sell | [FULL][LLM] $BRIDGE at $3.03177e-06 | P&L: -13.7%
+- **Reasoning:** BRIDGE is -13.7% with $108 pool and 0% our share — no bounce signal and pool too thin to support recovery. Cut before -30% stop.
+
+## [2026-09-03 07:08 UTC] sell | [FULL][LLM] $rhg at $3.93127e-06 | P&L: +2.2%
+- **Reasoning:** rhg is flat at +2.2% with $544 pool, 0% our share — no momentum, would be marked stale fast. Free the slot for fresher attention.
+
