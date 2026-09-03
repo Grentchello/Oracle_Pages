@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.282825,
+  "balance_sol": 0.305959,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GbiraNu3qotRyjxEhXAW5JiB3dQBUWjvUNEND51Upump": {
-      "symbol": "tholana",
-      "name": "tholana",
-      "amount": 412067.6421900259,
-      "entry_price_usd": 5.051791955651856e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T23:35:16.018440+00:00",
-      "entry_usd_value": 2.08168,
-      "entry_signals": {
-        "liquidity_usd": 307.816323573624,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5064.880827146389,
-        "ath_market_cap_usd": 11589.704668158929,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.957383686,
-        "description": "Mike Tyson coins are going ballistic. Only on tholana",
-        "twitter": "https://x.com/Gigi_Crypto/status/2095656339313766610",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -31697,19 +31674,30 @@
       "pnl_pct": -43.42,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "GbiraNu3qotRyjxEhXAW5JiB3dQBUWjvUNEND51Upump",
+      "symbol": "tholana",
+      "name": "tholana",
+      "amount_sold": 412067.6421900259,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T23:35:16.018440+00:00",
+      "exit_time": "2026-09-03T23:38:20.963885+00:00",
+      "entry_price_usd": 5.051791955651856e-06,
+      "exit_price_usd": 5.850510698009034e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.023134,
+      "pnl_sol": 0.003134,
+      "pnl_pct": 15.81,
+      "exit_reason": "LLM: sell_all — Up 15.8% but on bonding curve with $1.3k pool and no follow-through volume yet — Berlin hippo narrative is cute but thin, and gains can evaporate fast",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T23:36:52.861730+00:00",
+  "last_updated": "2026-09-03T23:38:20.964987+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.033,
-  "portfolio_value_usd": 31.3,
+  "last_sol_price_usd": 104.21,
+  "portfolio_value_usd": 31.88,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 22:27 UTC",
-      "action": "buy",
-      "details": "[LLM] $RWA BABIES at $6.546e-06, spent 0.02 SOL",
-      "reason": "$RWA BABIES has the strongest narrative of the fresh batch — explicit 'welded to $BABY' cross-reference, distinctive Windows 95 nursery art meme, dedicated X account already posting, $8.8k mcap with 30% bonding curve progress indicating real buy flow. Meme attention is genuine."
-    },
     {
       "time": "2026-09-03 22:29 UTC",
       "action": "sell",
@@ -31823,40 +31811,46 @@
       "action": "buy",
       "details": "[LLM] $tholana at $5.05179e-06, spent 0.02 SOL",
       "reason": "$tholana rides the fresh Mike Tyson memecoin wave — 'going ballistic' is classic viral copy and the narrative is hot right now (also see $$PIPE). Tyson isn't on the explicit fragility blocklist; 0.3min age means I'm early. Sizing 0.05 SOL (v7) to preserve the remaining ~3 buys of headroom before the -0.05 SOL daily loss cap locks me out."
+    },
+    {
+      "time": "2026-09-03 23:38 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $tholana at $5.85051e-06 | P&L: +15.8%",
+      "reason": "Up 15.8% but on bonding curve with $1.3k pool and no follow-through volume yet — Berlin hippo narrative is cute but thin, and gains can evaporate fast once curve graduates. Locking the 15% before the -30% stop catches me."
     }
   ],
   "trade_stats": {
-    "total": 1863,
-    "wins": 956,
+    "total": 1864,
+    "wins": 957,
     "losses": 907,
     "win_rate_pct": 51.3,
-    "total_pnl_sol": -2.029824,
-    "avg_pnl_pct": 34.34,
+    "total_pnl_sol": -2.02669,
+    "avg_pnl_pct": 34.33,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 352,
-    "today_realized_sol": -0.036963,
-    "today_target_pct": -9.2,
+    "today_trades": 353,
+    "today_realized_sol": -0.033829,
+    "today_target_pct": -8.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 956,
+      "win_count": 957,
       "loss_count": 907,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T23:36:52.607507+00:00",
+  "last_llm_brief_at": "2026-09-03T23:38:20.963850+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GbiraNu3qotRyjxEhXAW5JiB3dQBUWjvUNEND51Upump": {
-      "price_usd": 4.912613389279728e-06,
+      "price_usd": 5.850510698009034e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 935.0510717667929,
-      "volume_h24": 18247.18,
+      "liquidity_usd": 1303.7851727436698,
+      "volume_h24": 20695.24,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 8.988023721
+      "real_sol_reserves": 12.511133027
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

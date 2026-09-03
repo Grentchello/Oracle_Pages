@@ -14224,3 +14224,6 @@
 ## [2026-09-03 23:35 UTC] buy | [LLM] $tholana at $5.05179e-06, spent 0.02 SOL
 - **Reasoning:** $tholana rides the fresh Mike Tyson memecoin wave — 'going ballistic' is classic viral copy and the narrative is hot right now (also see $$PIPE). Tyson isn't on the explicit fragility blocklist; 0.3min age means I'm early. Sizing 0.05 SOL (v7) to preserve the remaining ~3 buys of headroom before the -0.05 SOL daily loss cap locks me out.
 
+## [2026-09-03 23:38 UTC] sell | [FULL][LLM] $tholana at $5.85051e-06 | P&L: +15.8%
+- **Reasoning:** Up 15.8% but on bonding curve with $1.3k pool and no follow-through volume yet — Berlin hippo narrative is cute but thin, and gains can evaporate fast once curve graduates. Locking the 15% before the -30% stop catches me.
+
