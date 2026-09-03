@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.32935,
+  "balance_sol": 0.335793,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq": {
       "symbol": "GG",
       "name": "Golden Goose",
-      "amount": 68928.57142857143,
+      "amount": 25848.21428571429,
       "entry_price_usd": 1.092e-05,
-      "entry_sol_spent": 0.0075,
+      "entry_sol_spent": 0.0028125,
       "entry_time": "2026-09-03T02:30:02.980052+00:00",
       "entry_usd_value": 2.0072,
       "entry_signals": {
@@ -26138,25 +26138,47 @@
       "pnl_pct": 40.73,
       "exit_reason": "LLM: sell_half — Up +40.7% on a $4k pool — extreme liquidity risk and the asymmetric upside from here is poor. Lock in gains at TP1 zone; keep a runner in case it cont",
       "partial": true
+    },
+    {
+      "mint": "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq",
+      "symbol": "GG",
+      "name": "Golden Goose",
+      "amount_sold": 17232.14285714286,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T02:30:02.980052+00:00",
+      "exit_time": "2026-09-03T02:32:32.486434+00:00",
+      "entry_price_usd": 1.092e-05,
+      "exit_price_usd": 1.5061694703459039e-05,
+      "entry_sol_for_chunk": 0.001875,
+      "exit_sol_received": 0.002577,
+      "pnl_sol": 0.000702,
+      "pnl_pct": 37.93,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq",
+      "symbol": "GG",
+      "name": "Golden Goose",
+      "amount_sold": 25848.21428571429,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T02:30:02.980052+00:00",
+      "exit_time": "2026-09-03T02:33:16.669903+00:00",
+      "entry_price_usd": 1.092e-05,
+      "exit_price_usd": 1.5061694703459039e-05,
+      "entry_sol_for_chunk": 0.002812,
+      "exit_sol_received": 0.003866,
+      "pnl_sol": 0.001054,
+      "pnl_pct": 37.93,
+      "exit_reason": "LLM: sell_half — +37.9% with no narrative moat and only $3,966 pool liquidity on a bonding curve. Lock half the gain to cover position cost + profit, let the rest ride",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T02:31:29.045845+00:00",
+  "last_updated": "2026-09-03T02:33:16.670108+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.49,
-  "portfolio_value_usd": 33.85,
+  "last_sol_price_usd": 100.7,
+  "portfolio_value_usd": 34.1,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 01:24 UTC",
-      "action": "buy",
-      "details": "[LLM] $PC at $3.15e-06, spent 0.02 SOL",
-      "reason": "$PC (Pump City) passes viability gate (88-char desc + twitter community link, real narrative: virtual city, 313 unique owners, Solana-native), no fragility hits. Concrete story beats the other sub-$10k noise. Risk: brand-new (1.1min) and bonding curve not started (0%), so first 0.05 SOL is lottery money on the narrative."
-    },
-    {
-      "time": "2026-09-03 01:27 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PC at $2.8202e-06 | P&L: -10.5%",
-      "reason": "$PC down -10.5% with $10 pool and 18% share — this is illiquid trash, one seller walks it to -30%. Better to cut and free the slot for a fresh launch with attention. Loss is small, holding risks -30% hard stop."
-    },
     {
       "time": "2026-09-03 01:27 UTC",
       "action": "buy",
@@ -26264,40 +26286,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $GG at $1.53682e-05 | P&L: +40.7%",
       "reason": "Up +40.7% on a $4k pool — extreme liquidity risk and the asymmetric upside from here is poor. Lock in gains at TP1 zone; keep a runner in case it continues."
+    },
+    {
+      "time": "2026-09-03 02:32 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $GG at $1.50617e-05 | P&L: +37.9%",
+      "reason": "Auto take-profit at +37.9%"
+    },
+    {
+      "time": "2026-09-03 02:33 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $GG at $1.50617e-05 | P&L: +37.9%",
+      "reason": "+37.9% with no narrative moat and only $3,966 pool liquidity on a bonding curve. Lock half the gain to cover position cost + profit, let the rest ride to +100% TP at 50% trigger or a clear narrative continuation."
     }
   ],
   "trade_stats": {
-    "total": 1536,
-    "wins": 770,
+    "total": 1538,
+    "wins": 772,
     "losses": 766,
-    "win_rate_pct": 50.1,
-    "total_pnl_sol": -1.995793,
+    "win_rate_pct": 50.2,
+    "total_pnl_sol": -1.994037,
     "avg_pnl_pct": 36.47,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 25,
-    "today_realized_sol": -0.002932,
-    "today_target_pct": -0.7,
+    "today_trades": 27,
+    "today_realized_sol": -0.001176,
+    "today_target_pct": -0.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 770,
+      "win_count": 772,
       "loss_count": 766,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T02:31:28.777493+00:00",
+  "last_llm_brief_at": "2026-09-03T02:33:16.669868+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq": {
-      "price_usd": 1.5368158461512445e-05,
+      "price_usd": 1.5061694703459039e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4036.0096052924696,
-      "volume_h24": 30737.63,
+      "liquidity_usd": 3966.3443316484004,
+      "volume_h24": 39079.08,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 40.163295903
+      "real_sol_reserves": 39.387729212
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

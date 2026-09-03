@@ -12631,3 +12631,9 @@
 ## [2026-09-03 02:31 UTC] sell | [PARTIAL][LLM] $GG at $1.53682e-05 | P&L: +40.7%
 - **Reasoning:** Up +40.7% on a $4k pool — extreme liquidity risk and the asymmetric upside from here is poor. Lock in gains at TP1 zone; keep a runner in case it continues.
 
+## [2026-09-03 02:32 UTC] sell | [TP +30% (25%)] $GG at $1.50617e-05 | P&L: +37.9%
+- **Reasoning:** Auto take-profit at +37.9%
+
+## [2026-09-03 02:33 UTC] sell | [PARTIAL][LLM] $GG at $1.50617e-05 | P&L: +37.9%
+- **Reasoning:** +37.9% with no narrative moat and only $3,966 pool liquidity on a bonding curve. Lock half the gain to cover position cost + profit, let the rest ride to +100% TP at 50% trigger or a clear narrative continuation.
+
