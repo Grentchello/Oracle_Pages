@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.376459,
+  "balance_sol": 0.382329,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "pbsAm8qd3H7mxq1nkCpNmWhEogrvUiXEEG9GXk5pump": {
-      "symbol": "Enchilada",
-      "name": "Spicy Joaquin",
-      "amount": 209937.53247140028,
-      "entry_price_usd": 3.204e-06,
-      "entry_sol_spent": 0.006385417258765583,
-      "entry_time": "2026-09-03T21:21:06.325807+00:00",
-      "entry_usd_value": 2.1068000000000002,
-      "entry_signals": {
-        "liquidity_usd": 85.30614574412,
-        "volume_24h_usd": 135.31,
-        "market_cap_usd": 3208.6947165016054,
-        "ath_market_cap_usd": 3206.479118524903,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.809817218,
-        "description": "Ervin Joaquin Gutierrez allegedly shot and killed his cousin Nathaniel Cavazos after an argument over spicier enchiladas escalated",
-        "twitter": "https://x.com/boston25/status/2095532341774930385?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -31289,19 +31266,30 @@
       "pnl_pct": -7.94,
       "exit_reason": "LLM: sell_all — 78% pool share on a $2 pool = trapped. We are the market. Trying to recover from -7.9% while owning the entire book is impossible — any sell moves pri",
       "partial": true
+    },
+    {
+      "mint": "pbsAm8qd3H7mxq1nkCpNmWhEogrvUiXEEG9GXk5pump",
+      "symbol": "Enchilada",
+      "name": "Spicy Joaquin",
+      "amount_sold": 209937.42517140033,
+      "fraction_sold": 0.9999994888955839,
+      "entry_time": "2026-09-03T21:21:06.325807+00:00",
+      "exit_time": "2026-09-03T21:27:55.063274+00:00",
+      "entry_price_usd": 3.204e-06,
+      "exit_price_usd": 2.9390493953974277e-06,
+      "entry_sol_for_chunk": 0.006385,
+      "exit_sol_received": 0.00587,
+      "pnl_sol": -0.000516,
+      "pnl_pct": -8.27,
+      "exit_reason": "LLM: sell_all — $Enchilada at -8.3% with pool=$0 and our share=48913684% indicates the bonding curve has collapsed with effectively no exit liquidity. Try exit now to",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T21:26:37.804429+00:00",
+  "last_updated": "2026-09-03T21:27:55.601973+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.000069,
-  "portfolio_value_usd": 40.2,
+  "last_sol_price_usd": 105.12,
+  "portfolio_value_usd": 40.19,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 21:00 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $RISE at $7.28687e-06 | P&L: +38.7%",
-      "reason": "+38.7% already past the +30% TP threshold but bot hasn't auto-triggered (still on bonding curve). Take half off the table to lock gains — pool is only $1813 so thin liquidity, and at 0% pool share this is a paper gain that vanishes fast. Trail the rest."
-    },
     {
       "time": "2026-09-03 21:01 UTC",
       "action": "sell",
@@ -31415,35 +31403,41 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Enchilada at $2.94954e-06 | P&L: -7.9%",
       "reason": "78% pool share on a $2 pool = trapped. We are the market. Trying to recover from -7.9% while owning the entire book is impossible — any sell moves price against us, any buy barely helps. Cut the loss now and free the slot."
+    },
+    {
+      "time": "2026-09-03 21:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Enchilada at $2.93905e-06 | P&L: -8.3%",
+      "reason": "$Enchilada at -8.3% with pool=$0 and our share=48913684% indicates the bonding curve has collapsed with effectively no exit liquidity. Try exit now to salvage the -8% before it slides to -30% hard stop or full rug. If sell fails due to no liquidity, accept the loss and move on."
     }
   ],
   "trade_stats": {
-    "total": 1839,
+    "total": 1840,
     "wins": 948,
-    "losses": 891,
+    "losses": 892,
     "win_rate_pct": 51.5,
-    "total_pnl_sol": -1.949802,
-    "avg_pnl_pct": 34.86,
+    "total_pnl_sol": -1.950318,
+    "avg_pnl_pct": 34.83,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 328,
-    "today_realized_sol": 0.043059,
-    "today_target_pct": 10.8,
+    "today_trades": 329,
+    "today_realized_sol": 0.042543,
+    "today_target_pct": 10.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 948,
-      "loss_count": 891,
+      "loss_count": 892,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T21:26:37.537253+00:00",
+  "last_llm_brief_at": "2026-09-03T21:27:55.058961+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "pbsAm8qd3H7mxq1nkCpNmWhEogrvUiXEEG9GXk5pump": {
-      "price_usd": 2.935696245349488e-06,
+      "price_usd": 2.9390493953974277e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.260000828e-06,
+      "liquidity_usd": 1.26144e-06,
       "volume_h24": 296.59,
       "dex_id": "pumpfun",
       "source": "bonding-curve",

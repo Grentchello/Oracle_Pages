@@ -14095,3 +14095,6 @@
 ## [2026-09-03 21:22 UTC] sell | [PARTIAL][LLM] $Enchilada at $2.94954e-06 | P&L: -7.9%
 - **Reasoning:** 78% pool share on a $2 pool = trapped. We are the market. Trying to recover from -7.9% while owning the entire book is impossible — any sell moves price against us, any buy barely helps. Cut the loss now and free the slot.
 
+## [2026-09-03 21:27 UTC] sell | [FULL][LLM] $Enchilada at $2.93905e-06 | P&L: -8.3%
+- **Reasoning:** $Enchilada at -8.3% with pool=$0 and our share=48913684% indicates the bonding curve has collapsed with effectively no exit liquidity. Try exit now to salvage the -8% before it slides to -30% hard stop or full rug. If sell fails due to no liquidity, accept the loss and move on.
+
