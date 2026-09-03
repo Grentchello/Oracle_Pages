@@ -13969,3 +13969,6 @@
 ## [2026-09-03 20:33 UTC] buy | [LLM] $FYC at $6.48185e-06, spent 0.02 SOL
 - **Reasoning:** $FYC rides a real X news event (For You recommendation code pushed to GitHub/@XOpenSource) — rare legit news hook for a micro-launch, has twitter, narrative legible to normies. Risk: 0.5min old, $6.5k mcap, thin liquidity — if X community doesn't bite it stalls and -30% stop hits. Other candidates either blocked (TrumpDiamond fragility), fail viability (no twitter + sub-$3k), or have weaker narratives than this news-anchored one.
 
+## [2026-09-03 20:34 UTC] sell | [FULL][LLM] $FYC at $5.15129e-06 | P&L: -20.5%
+- **Reasoning:** Down20.5% already, no bounce signal, bonding curve with only $1020 pool. -20% losers bleed to -50% fast — exit now and free the slot.
+

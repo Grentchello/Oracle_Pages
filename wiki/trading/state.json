@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.313988,
+  "balance_sol": 0.329884,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "A33ts1Z1nJMyuQ9HAhTCZcqxUGHWMYY6zv4ZNXpcpump": {
-      "symbol": "FYC",
-      "name": "For You Coin",
-      "amount": 324845.6990542365,
-      "entry_price_usd": 6.481846630970623e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T20:33:31.031876+00:00",
-      "entry_usd_value": 2.1056,
-      "entry_signals": {
-        "liquidity_usd": 1579.5458319558402,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6465.999895267339,
-        "ath_market_cap_usd": 6482.815922178469,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 15.003284878,
-        "description": "X just pushed more For You code to GitHub. Credit to @XOpenSource. What this drop does to your feed⁡:⁣ - Retrieval now prefers⁤ posts you sit on⁠. ⁡Candidate pull now uses ⁠long dwell, so posts people actually read get into⁣ the mix more. Quick skims and short video taps count ⁢less when the system ",
-        "twitter": "https://twitter.com/blankspeaker/status/2095610533177438284",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30830,19 +30807,30 @@
       "pnl_pct": 30.45,
       "exit_reason": "LLM: sell_all — At +30.4% we've hit the +30% TP threshold. Pool is only $1897 with 0% share — thin liquidity means any further move can reverse fast. Lock the gain.",
       "partial": false
+    },
+    {
+      "mint": "A33ts1Z1nJMyuQ9HAhTCZcqxUGHWMYY6zv4ZNXpcpump",
+      "symbol": "FYC",
+      "name": "For You Coin",
+      "amount_sold": 324845.6990542365,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T20:33:31.031876+00:00",
+      "exit_time": "2026-09-03T20:34:44.888349+00:00",
+      "entry_price_usd": 6.481846630970623e-06,
+      "exit_price_usd": 5.1512938338383205e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.015896,
+      "pnl_sol": -0.004104,
+      "pnl_pct": -20.53,
+      "exit_reason": "LLM: sell_all — Down20.5% already, no bounce signal, bonding curve with only $1020 pool. -20% losers bleed to -50% fast — exit now and free the slot.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T20:33:31.032052+00:00",
+  "last_updated": "2026-09-03T20:34:45.152595+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.28,
-  "portfolio_value_usd": 35.16,
+  "last_sol_price_usd": 105.27,
+  "portfolio_value_usd": 34.73,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 19:43 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $Sam2 closed at $2.9522e-06 | P&L: -60.0%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-03 19:49 UTC",
       "action": "sell",
@@ -30956,30 +30944,48 @@
       "action": "buy",
       "details": "[LLM] $FYC at $6.48185e-06, spent 0.02 SOL",
       "reason": "$FYC rides a real X news event (For You recommendation code pushed to GitHub/@XOpenSource) — rare legit news hook for a micro-launch, has twitter, narrative legible to normies. Risk: 0.5min old, $6.5k mcap, thin liquidity — if X community doesn't bite it stalls and -30% stop hits. Other candidates either blocked (TrumpDiamond fragility), fail viability (no twitter + sub-$3k), or have weaker narratives than this news-anchored one."
+    },
+    {
+      "time": "2026-09-03 20:34 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FYC at $5.15129e-06 | P&L: -20.5%",
+      "reason": "Down20.5% already, no bounce signal, bonding curve with only $1020 pool. -20% losers bleed to -50% fast — exit now and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 1812,
+    "total": 1813,
     "wins": 932,
-    "losses": 880,
+    "losses": 881,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.998659,
-    "avg_pnl_pct": 34.63,
+    "total_pnl_sol": -2.002763,
+    "avg_pnl_pct": 34.59,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 301,
-    "today_realized_sol": -0.005798,
-    "today_target_pct": -1.4,
+    "today_trades": 302,
+    "today_realized_sol": -0.009902,
+    "today_target_pct": -2.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 932,
-      "loss_count": 880,
+      "loss_count": 881,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T20:33:29.600995+00:00",
+  "last_llm_brief_at": "2026-09-03T20:34:44.888313+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "A33ts1Z1nJMyuQ9HAhTCZcqxUGHWMYY6zv4ZNXpcpump": {
+      "price_usd": 5.1512938338383205e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1019.92430950806,
+      "volume_h24": 6696.72,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 9.688651178
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
