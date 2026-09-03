@@ -13966,3 +13966,6 @@
 ## [2026-09-03 20:31 UTC] sell | [FULL][LLM] $Wolf at $7.54235e-06 | P&L: +30.4%
 - **Reasoning:** At +30.4% we've hit the +30% TP threshold. Pool is only $1897 with 0% share — thin liquidity means any further move can reverse fast. Lock the gain.
 
+## [2026-09-03 20:33 UTC] buy | [LLM] $FYC at $6.48185e-06, spent 0.02 SOL
+- **Reasoning:** $FYC rides a real X news event (For You recommendation code pushed to GitHub/@XOpenSource) — rare legit news hook for a micro-launch, has twitter, narrative legible to normies. Risk: 0.5min old, $6.5k mcap, thin liquidity — if X community doesn't bite it stalls and -30% stop hits. Other candidates either blocked (TrumpDiamond fragility), fail viability (no twitter + sub-$3k), or have weaker narratives than this news-anchored one.
+
