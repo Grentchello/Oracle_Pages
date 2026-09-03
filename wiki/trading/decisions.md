@@ -14251,3 +14251,6 @@
 ## [2026-09-03 23:57 UTC] sell | [PARTIAL][LLM] $America at $9.22986e-06 | P&L: +14.6%
 - **Reasoning:** America is up +14.6% with $2,439 pool and zero narrative I can verify beyond a j7tracker deploy. Lock half the gain per scalp discipline; let the other half ride if attention builds.
 
+## [2026-09-03 23:58 UTC] sell | [FULL][LLM] $America at $9.12456e-06 | P&L: +13.3%
+- **Reasoning:** +13.3% with no clear catalyst, thin pool ($2.4k), and many fresher launches to rotate into. Lock the small gain and free the slot.
+
