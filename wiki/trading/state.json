@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.311144,
+  "balance_sol": 0.329616,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "958JqA1A2dNdwv1bjcZh4E6wFGDEBr41ZS58YphJpump": {
-      "symbol": "SOLDINO",
-      "name": "SOL Dino",
-      "amount": 566684.6944294213,
-      "entry_price_usd": 3.698e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T22:13:13.350475+00:00",
-      "entry_usd_value": 2.0956,
-      "entry_signals": {
-        "liquidity_usd": 248.72538478086,
-        "volume_24h_usd": 893.57,
-        "market_cap_usd": 3411.969590317649,
-        "ath_market_cap_usd": 3854.1126974757335,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.373786837,
-        "description": "The Chrome offline dino, rebuilt for Solana. A real game, live now: endless run, leaderboard, rare power-ups you catch mid-jump. A pump.fun pill that makes the dino breathe fire. Free, no wallet. Every chain gets its dino. This is Solana's. No internet? No problem. We build anyway. Play: soldino.fun",
-        "twitter": "https://x.com/0xVZs/status/2095635636606714313",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -31442,19 +31419,30 @@
       "pnl_pct": 0.28,
       "exit_reason": "LLM: sell_all — $Coco is +0.3% — essentially flat. Pool $174 is dangerously thin, 1% share is a liquidity liability. Stale capital. Exit and redeploy into fresher att",
       "partial": false
+    },
+    {
+      "mint": "958JqA1A2dNdwv1bjcZh4E6wFGDEBr41ZS58YphJpump",
+      "symbol": "SOLDINO",
+      "name": "SOL Dino",
+      "amount_sold": 566684.6944294213,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T22:13:13.350475+00:00",
+      "exit_time": "2026-09-03T22:14:29.331552+00:00",
+      "entry_price_usd": 3.698e-06,
+      "exit_price_usd": 3.412531695994368e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018472,
+      "pnl_sol": -0.001528,
+      "pnl_pct": -7.72,
+      "exit_reason": "LLM: sell_all — $SOLDINO is down -7.7% with only 0.0h held but already flagged as weak (pool $250, our share 1% on bonding curve = low liquidity, no upside catalyst).",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T22:13:13.350756+00:00",
+  "last_updated": "2026-09-03T22:14:29.857139+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.78,
-  "portfolio_value_usd": 34.7,
+  "last_sol_price_usd": 104.69,
+  "portfolio_value_usd": 34.51,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 21:18 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Crawlrr at $2.20733e-05 | P&L: +60.6%",
-      "reason": "+60.6% in <1h on a bonding-curve token (pool only $5.5k) — bonding curves reverse brutally when early holders rotate out. Auto-TP is already triggered at +50%. Locking the gain now frees capital for fresh attention plays."
-    },
     {
       "time": "2026-09-03 21:21 UTC",
       "action": "buy",
@@ -31568,30 +31556,48 @@
       "action": "buy",
       "details": "[LLM] $SOLDINO at $3.698e-06, spent 0.02 SOL",
       "reason": "$SOLDINO — Chrome offline dino is universally nostalgic IP, has a live playable game (rare for memecoins — gives organic content/replay value), passes viability gate (description + twitter). Lower bond % at 7% but the game utility + meme nostalgia combo is a strong narrative for sustained attention."
+    },
+    {
+      "time": "2026-09-03 22:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SOLDINO at $3.41253e-06 | P&L: -7.7%",
+      "reason": "$SOLDINO is down -7.7% with only 0.0h held but already flagged as weak (pool $250, our share 1% on bonding curve = low liquidity, no upside catalyst). At -7.7% with no narrative momentum and minimal liquidity, the -30% hard stop is close. Cut and rotate capital to fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 1848,
+    "total": 1849,
     "wins": 950,
-    "losses": 898,
+    "losses": 899,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.001504,
-    "avg_pnl_pct": 34.54,
+    "total_pnl_sol": -2.003032,
+    "avg_pnl_pct": 34.52,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 337,
-    "today_realized_sol": -0.008643,
-    "today_target_pct": -2.2,
+    "today_trades": 338,
+    "today_realized_sol": -0.010171,
+    "today_target_pct": -2.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 950,
-      "loss_count": 898,
+      "loss_count": 899,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T22:13:11.765792+00:00",
+  "last_llm_brief_at": "2026-09-03T22:14:29.331515+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "958JqA1A2dNdwv1bjcZh4E6wFGDEBr41ZS58YphJpump": {
+      "price_usd": 3.412531695994368e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 250.48463088906,
+      "volume_h24": 1063.09,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.392631874
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

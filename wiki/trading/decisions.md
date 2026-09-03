@@ -14146,3 +14146,6 @@
 ## [2026-09-03 22:13 UTC] buy | [LLM] $SOLDINO at $3.698e-06, spent 0.02 SOL
 - **Reasoning:** $SOLDINO — Chrome offline dino is universally nostalgic IP, has a live playable game (rare for memecoins — gives organic content/replay value), passes viability gate (description + twitter). Lower bond % at 7% but the game utility + meme nostalgia combo is a strong narrative for sustained attention.
 
+## [2026-09-03 22:14 UTC] sell | [FULL][LLM] $SOLDINO at $3.41253e-06 | P&L: -7.7%
+- **Reasoning:** $SOLDINO is down -7.7% with only 0.0h held but already flagged as weak (pool $250, our share 1% on bonding curve = low liquidity, no upside catalyst). At -7.7% with no narrative momentum and minimal liquidity, the -30% hard stop is close. Cut and rotate capital to fresh attention.
+
