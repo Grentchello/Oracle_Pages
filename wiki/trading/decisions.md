@@ -13432,3 +13432,9 @@
 ## [2026-09-03 14:12 UTC] buy | [LLM] $Horseman at $2.86368e-06, spent 0.02 SOL
 - **Reasoning:** $Horseman (Headless Horseman) — Roblox brainrot narrative with dedicated X account (@HeadlessRH), meets viability gate (desc + twitter). Niche cultural tie-in has attention potential. Risk: mcap $2.8k, bond 0%, very early — size is small (0.05 SOL) so loss capped.
 
+## [2026-09-03 14:15 UTC] sell | [FULL][LLM] $Horseman at $2.84147e-06 | P&L: -0.8%
+- **Reasoning:** $Horseman is down -0.8% at held 0.0h on a bonding-curve token with no pool (pool=$0 means no real liquidity yet). A 495146731% ownership share means we essentially own the entire supply — that's structural illiquidity, not a win condition. Cut it loose and free the slot for a fresh launch with more upside.
+
+## [2026-09-03 14:15 UTC] buy | [LLM] $BULLX at $2.908e-06, spent 0.02 SOL
+- **Reasoning:** $BULLX ties directly to ansem (prominent SOL CT voice) with bullish narrative — 'horns out, bulls in' is a clean attention play at $2.9k mcap. Sizing with 0.05 SOL per bot rule, narrative is the alpha here.
+
