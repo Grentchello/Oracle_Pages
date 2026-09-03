@@ -13267,3 +13267,6 @@
 ## [2026-09-03 12:14 UTC] sell | [FULL][LLM] $HUGGY at $1.25663e-05 | P&L: +17.9%
 - **Reasoning:** HUGGY is up 17.9% and still on its bonding curve with only $3,362 liquidity, so the move is fragile and below the +30% profit-taking threshold. Lock the gain and free the slot rather than give it back.
 
+## [2026-09-03 12:24 UTC] buy | [LLM] $shg at $5.73e-06, spent 0.02 SOL
+- **Reasoning:** $shg — Ghosty narrative with rich description, twitter @gh1stsol attached, 'ghost that refuses to disappear' is sticky meme copy. Sub-$6k mcap with story = classic 10x candidate if it grabs traction.
+
