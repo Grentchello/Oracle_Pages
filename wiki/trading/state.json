@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.387015,
+  "balance_sol": 0.367015,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "5ocfuK5a9iqHucKhGy24reepv58pNE393TZJCwn4pump": {
+      "symbol": "solsem",
+      "name": "solsem",
+      "amount": 253439.39040200532,
+      "entry_price_usd": 8.253649902968868e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T15:36:31.360736+00:00",
+      "entry_usd_value": 2.0918,
+      "entry_signals": {
+        "liquidity_usd": 3153.95334122352,
+        "volume_24h_usd": null,
+        "market_cap_usd": 8258.091113347271,
+        "ath_market_cap_usd": 8252.860759656605,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 30.155400528,
+        "description": "10% of supply will be sent to ANSEM! 100% of fees will be redirected to support Nepal!",
+        "twitter": "https://x.com/solsemcoin",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -29415,17 +29438,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-03T15:35:06.281558+00:00",
+  "last_updated": "2026-09-03T15:36:31.360934+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.55,
-  "portfolio_value_usd": 40.46,
+  "last_sol_price_usd": 104.59,
+  "portfolio_value_usd": 40.48,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 14:44 UTC",
-      "action": "sell",
-      "details": "[TP +100% (50%)] $KAMA at $9.83651e-06 | P&L: +172.7%",
-      "reason": "Auto take-profit at +172.7%"
-    },
     {
       "time": "2026-09-03 14:45 UTC",
       "action": "sell",
@@ -29539,6 +29556,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $BAG at $2.93469e-06 | P&L: -6.5%",
       "reason": "Down 6.5% on a $6 pool where I hold 16% — illiquid, dev-heavy, and momentum is against me. Cut the loss and free the slot for a better setup."
+    },
+    {
+      "time": "2026-09-03 15:36 UTC",
+      "action": "buy",
+      "details": "[LLM] $solsem at $8.25365e-06, spent 0.02 SOL",
+      "reason": "Clearest narrative on the board: 10% supply to ANSEM (real Solana KOL with audience) + 100% fees to Nepal relief = dual viral angle. $8k mcap is the highest in the batch and bond is 29% furthest along. Passes viability (desc + twitter) and fragility gates (no celebrity/political keywords). Risk: ANSEM-bait tokens often dump after the KOL acknowledgement, so I'll watch for quick +30-50% to take profit."
     }
   ],
   "trade_stats": {
@@ -29560,21 +29583,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T15:35:06.280193+00:00",
+  "last_llm_brief_at": "2026-09-03T15:36:29.929862+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "J8h86YE8NS6GYcC4yAf3SGYjYWBQuQ8vC43taBjzfLcS": {
-      "price_usd": 2.93469435501085e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 6.20737950615,
-      "volume_h24": 309.74,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.059372353
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

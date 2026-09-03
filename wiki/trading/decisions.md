@@ -13546,3 +13546,6 @@
 ## [2026-09-03 15:35 UTC] sell | [FULL][LLM] $BAG at $2.93469e-06 | P&L: -6.5%
 - **Reasoning:** Down 6.5% on a $6 pool where I hold 16% — illiquid, dev-heavy, and momentum is against me. Cut the loss and free the slot for a better setup.
 
+## [2026-09-03 15:36 UTC] buy | [LLM] $solsem at $8.25365e-06, spent 0.02 SOL
+- **Reasoning:** Clearest narrative on the board: 10% supply to ANSEM (real Solana KOL with audience) + 100% fees to Nepal relief = dual viral angle. $8k mcap is the highest in the batch and bond is 29% furthest along. Passes viability (desc + twitter) and fragility gates (no celebrity/political keywords). Risk: ANSEM-bait tokens often dump after the KOL acknowledgement, so I'll watch for quick +30-50% to take profit.
+
