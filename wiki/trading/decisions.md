@@ -13699,3 +13699,9 @@
 ## [2026-09-03 16:59 UTC] buy | [LLM] $rhg at $3.74708e-06, spent 0.02 SOL
 - **Reasoning:** $rhg 'Robin Hood Ghost' is a clean ghost-meta narrative with a haunting/stealing-attention hook — the kind of low-effort high-attention name that pumps on CT. Only $3.7k mcap, fresh mint (0.1min), real twitter. High rug risk on a sub-1min token so sized small per rules.
 
+## [2026-09-03 17:00 UTC] sell | [hard-stop] $perpscape closed at $2.93548e-06 | P&L: -77.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 17:01 UTC] sell | [PARTIAL][LLM] $rhg at $4.19488e-06 | P&L: +11.9%
+- **Reasoning:** +12% on a $621 pool bonding-curve with 0% LP share is precarious - thin liquidity means a single sell could crash us back through entry. Lock half the gain, let the other half ride if it graduates.
+

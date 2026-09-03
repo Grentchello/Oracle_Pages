@@ -1,36 +1,14 @@
 {
-  "balance_sol": 0.330598,
+  "balance_sol": 0.346287,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "PJetxWRS1Z9rQ2gnKvKNvWFm67bV7Ni5eJUiystpump": {
-      "symbol": "perpscape",
-      "name": "perpscape",
-      "amount": 159882.51895179565,
-      "entry_price_usd": 1.3077101947776878e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T16:59:40.594769+00:00",
-      "entry_usd_value": 2.0908,
-      "entry_signals": {
-        "liquidity_usd": 2526.7181228227205,
-        "volume_24h_usd": null,
-        "market_cap_usd": 13041.921148794523,
-        "ath_market_cap_usd": 14326.531943132715,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 24.169869168,
-        "description": "$perpscape turns RuneScape nostalgia into a Grand Exchange perp arena, settling STOXX/SOL on Percolator with 20x danger 🎮 Trade booths, West Bank OTC, hiscores, and liquidations make every gp feel like degen medieval leverage ⚔️",
-        "twitter": "https://x.com/perpscapeonsol/status/2095554107704561963",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "AJUyTuyexMjG6GJxDYUJD78UQtuHdECbqGtKMXPTpump": {
       "symbol": "rhg",
       "name": "Robin Hood ghost ",
-      "amount": 557980.4054683706,
+      "amount": 278990.2027341853,
       "entry_price_usd": 3.7470849863356326e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T16:59:41.960112+00:00",
       "entry_usd_value": 2.0908,
       "entry_signals": {
@@ -29968,25 +29946,47 @@
       "pnl_pct": 0.11,
       "exit_reason": "LLM: sell_all — Flat at +0.1% after 6min, pool only $57 (4% of pool = severe illiquidity), no momentum. Stale capital, rotating to fresh narrative.",
       "partial": false
+    },
+    {
+      "mint": "PJetxWRS1Z9rQ2gnKvKNvWFm67bV7Ni5eJUiystpump",
+      "symbol": "perpscape",
+      "name": "perpscape",
+      "amount_sold": 159882.51895179565,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T16:59:40.594769+00:00",
+      "exit_time": "2026-09-03T17:00:46.162940+00:00",
+      "entry_price_usd": 1.3077101947776878e-05,
+      "exit_price_usd": 2.93547923612634e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.004491,
+      "pnl_sol": -0.015509,
+      "pnl_pct": -77.55,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "AJUyTuyexMjG6GJxDYUJD78UQtuHdECbqGtKMXPTpump",
+      "symbol": "rhg",
+      "name": "Robin Hood ghost ",
+      "amount_sold": 278990.2027341853,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T16:59:41.960112+00:00",
+      "exit_time": "2026-09-03T17:01:10.367429+00:00",
+      "entry_price_usd": 3.7470849863356326e-06,
+      "exit_price_usd": 4.194883655370469e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011198,
+      "pnl_sol": 0.001198,
+      "pnl_pct": 11.95,
+      "exit_reason": "LLM: sell_half — +12% on a $621 pool bonding-curve with 0% LP share is precarious - thin liquidity means a single sell could crash us back through entry. Lock half the",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T16:59:41.960373+00:00",
+  "last_updated": "2026-09-03T17:01:10.629959+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.54,
-  "portfolio_value_usd": 38.74,
+  "last_sol_price_usd": 104.51,
+  "portfolio_value_usd": 37.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 16:29 UTC",
-      "action": "buy",
-      "details": "[LLM] $rusty at $6.23909e-06, spent 0.02 SOL",
-      "reason": "$rusty — 'AI playing GTA V 24/7 with excellent instincts and terrible judgment' is genuinely funny and built for viral X spread. Low mcap ($6k) means room to run. Narrative + humor = attention magnet. 0.05 SOL."
-    },
-    {
-      "time": "2026-09-03 16:30 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $ANSEMPONS closed at $2.91883e-06 | P&L: -84.8%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-03 16:30 UTC",
       "action": "sell",
@@ -30094,30 +30094,65 @@
       "action": "buy",
       "details": "[LLM] $rhg at $3.74708e-06, spent 0.02 SOL",
       "reason": "$rhg 'Robin Hood Ghost' is a clean ghost-meta narrative with a haunting/stealing-attention hook — the kind of low-effort high-attention name that pumps on CT. Only $3.7k mcap, fresh mint (0.1min), real twitter. High rug risk on a sub-1min token so sized small per rules."
+    },
+    {
+      "time": "2026-09-03 17:00 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $perpscape closed at $2.93548e-06 | P&L: -77.5%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-03 17:01 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $rhg at $4.19488e-06 | P&L: +11.9%",
+      "reason": "+12% on a $621 pool bonding-curve with 0% LP share is precarious - thin liquidity means a single sell could crash us back through entry. Lock half the gain, let the other half ride if it graduates."
     }
   ],
   "trade_stats": {
-    "total": 1760,
-    "wins": 906,
-    "losses": 854,
+    "total": 1762,
+    "wins": 907,
+    "losses": 855,
     "win_rate_pct": 51.5,
-    "total_pnl_sol": -1.962048,
-    "avg_pnl_pct": 35.14,
+    "total_pnl_sol": -1.976359,
+    "avg_pnl_pct": 35.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 249,
-    "today_realized_sol": 0.030813,
-    "today_target_pct": 7.7,
+    "today_trades": 251,
+    "today_realized_sol": 0.016502,
+    "today_target_pct": 4.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 906,
-      "loss_count": 854,
+      "win_count": 907,
+      "loss_count": 855,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T16:59:39.179521+00:00",
+  "last_llm_brief_at": "2026-09-03T17:01:10.367358+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "PJetxWRS1Z9rQ2gnKvKNvWFm67bV7Ni5eJUiystpump": {
+      "price_usd": 2.93547923612634e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 7.226285110870001,
+      "volume_h24": 15787.93,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.069144437
+    },
+    "AJUyTuyexMjG6GJxDYUJD78UQtuHdECbqGtKMXPTpump": {
+      "price_usd": 4.194883655370469e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 621.33821702085,
+      "volume_h24": 622.44,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 5.945251335
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
