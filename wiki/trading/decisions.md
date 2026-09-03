@@ -13867,3 +13867,9 @@
 ## [2026-09-03 19:23 UTC] buy | [LLM] $ONBOARDING at $6.51349e-06, spent 0.02 SOL
 - **Reasoning:** $ONBOARDING has the strongest narrative: IRL content creator wakeuptrov onboarding strangers to pump.fun daily — that's a repeatable content loop, not just a meme. Description passes viability gate (≥50 chars + twitter). Bond at 25% means real SOL is flowing in. Small 0.05 SOL position to test the thesis.
 
+## [2026-09-03 19:24 UTC] sell | [TP +30% (25%)] $ONBOARDING at $1.15653e-05 | P&L: +77.6%
+- **Reasoning:** Auto take-profit at +77.6%
+
+## [2026-09-03 19:25 UTC] sell | [PARTIAL][LLM] $ONBOARDING at $1.15653e-05 | P&L: +77.6%
+- **Reasoning:** +77.6% is deep into the +30% TP threshold but still below +100%; the bot will auto-TP at +100% (50% remaining). Locking half now secures realized gain while leaving a runner. Bonding curve at 0% complete with $3k pool is fragile — better to bank half.
+
