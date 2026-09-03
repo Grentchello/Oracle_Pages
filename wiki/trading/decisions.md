@@ -12874,3 +12874,6 @@
 ## [2026-09-03 06:16 UTC] buy | [LLM] $Shrek at $3.875e-06, spent 0.02 SOL
 - **Reasoning:** Shrek has strong IP recognition, X community link, and a concrete creator story. Memecoin-friendly narrative with broad appeal and age<1min - classic viral setup.
 
+## [2026-09-03 06:18 UTC] sell | [FULL][LLM] $Shrek at $2.87601e-06 | P&L: -25.8%
+- **Reasoning:** At -25.8%, dangerously close to the -30% hard stop. Pool is only $34 with my 4% share — thin liquidity makes recovery unlikely. Better to rotate capital into fresh attention than ride a slow bleed to forced exit.
+
