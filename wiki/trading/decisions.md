@@ -13840,3 +13840,9 @@
 ## [2026-09-03 19:02 UTC] buy | [LLM] $hоmo at $9.392e-06, spent 0.02 SOL
 - **Reasoning:** $homo has the strongest fresh narrative and an X post, with a $12.6K market cap and 34% bonding-curve progress. The tiny age and parody-FOMO hook offer high attention potential, though the extremely early bonding-curve stage makes liquidity and rug risk high.
 
+## [2026-09-03 19:03 UTC] sell | [TP +30% (25%)] $hоmo at $1.48954e-05 | P&L: +58.6%
+- **Reasoning:** Auto take-profit at +58.6%
+
+## [2026-09-03 19:03 UTC] sell | [FULL][LLM] $hоmo at $1.48954e-05 | P&L: +58.6%
+- **Reasoning:** Up +58.6% — well past the +50% TP threshold. Pool is only $3947 (extremely thin); any meaningful sell will crater price. Per scalp discipline: when up >20% with thin liquidity, lock the gain immediately. Don't hope for a 10x that the orderbook can't deliver.
+

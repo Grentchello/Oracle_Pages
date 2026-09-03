@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.34279,
+  "balance_sol": 0.374437,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "RP2szJ3eFbqLpCJUwS5AxX3pJB1mNqcQSVo4Lhgpump": {
-      "symbol": "hоmo",
-      "name": "homo",
-      "amount": 223935.26405451453,
-      "entry_price_usd": 9.392e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T19:02:01.073131+00:00",
-      "entry_usd_value": 2.1032,
-      "entry_signals": {
-        "liquidity_usd": 3023.02970651132,
-        "volume_24h_usd": 3669.57,
-        "market_cap_usd": 12611.800365274741,
-        "ath_market_cap_usd": 13117.593963596662,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 28.746954227,
-        "description": "$homo is born from FOMO, a parody character for everyone who panic-buys the next candle 🧠 No team, roadmap, or promises — just meme-vault chaos, moon jokes, and a contract ready to copy 🌙",
-        "twitter": "https://x.com/homoclub_og/status/2095586123405820004",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30388,25 +30365,47 @@
       "pnl_pct": -1.8,
       "exit_reason": "LLM: sell_all — The position is only down 1.8% after 0.1 hours, but it also reports zero pool liquidity and an extreme ownership share. Exit quickly rather than carry",
       "partial": false
+    },
+    {
+      "mint": "RP2szJ3eFbqLpCJUwS5AxX3pJB1mNqcQSVo4Lhgpump",
+      "symbol": "hоmo",
+      "name": "homo",
+      "amount_sold": 55983.81601362863,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T19:02:01.073131+00:00",
+      "exit_time": "2026-09-03T19:03:04.652902+00:00",
+      "entry_price_usd": 9.392e-06,
+      "exit_price_usd": 1.4895439603759985e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007912,
+      "pnl_sol": 0.002912,
+      "pnl_pct": 58.6,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "RP2szJ3eFbqLpCJUwS5AxX3pJB1mNqcQSVo4Lhgpump",
+      "symbol": "hоmo",
+      "name": "homo",
+      "amount_sold": 167951.4480408859,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T19:02:01.073131+00:00",
+      "exit_time": "2026-09-03T19:03:32.573504+00:00",
+      "entry_price_usd": 9.392e-06,
+      "exit_price_usd": 1.4895439603759985e-05,
+      "entry_sol_for_chunk": 0.015,
+      "exit_sol_received": 0.023735,
+      "pnl_sol": 0.008735,
+      "pnl_pct": 58.6,
+      "exit_reason": "LLM: sell_all — Up +58.6% — well past the +50% TP threshold. Pool is only $3947 (extremely thin); any meaningful sell will crater price. Per scalp discipline: when up",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T19:02:01.073286+00:00",
+  "last_updated": "2026-09-03T19:03:32.832259+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.16,
-  "portfolio_value_usd": 38.15,
+  "last_sol_price_usd": 105.4,
+  "portfolio_value_usd": 39.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 18:22 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $CAPE at $1.82187e-05 | P&L: +15.6%",
-      "reason": "$CAPE up +15.6% with only 0.0h held, very low liquidity pool ($4.7k) and our share=0% (haven't actually filled). Low liquidity means any sell will crash price. Lock partial gain now before it reverses on bonding-curve with this little depth."
-    },
-    {
-      "time": "2026-09-03 18:24 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CAPE at $2.0226e-05 | P&L: +28.3%",
-      "reason": "Up +28.3% with only $5117 pool liquidity (barely 5x position) — thin liquidity + approaching TP zone = lock gains now. Free capital for fresh attention plays."
-    },
     {
       "time": "2026-09-03 18:27 UTC",
       "action": "buy",
@@ -30514,51 +30513,52 @@
       "action": "buy",
       "details": "[LLM] $hоmo at $9.392e-06, spent 0.02 SOL",
       "reason": "$homo has the strongest fresh narrative and an X post, with a $12.6K market cap and 34% bonding-curve progress. The tiny age and parody-FOMO hook offer high attention potential, though the extremely early bonding-curve stage makes liquidity and rug risk high."
+    },
+    {
+      "time": "2026-09-03 19:03 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $hоmo at $1.48954e-05 | P&L: +58.6%",
+      "reason": "Auto take-profit at +58.6%"
+    },
+    {
+      "time": "2026-09-03 19:03 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $hоmo at $1.48954e-05 | P&L: +58.6%",
+      "reason": "Up +58.6% — well past the +50% TP threshold. Pool is only $3947 (extremely thin); any meaningful sell will crater price. Per scalp discipline: when up >20% with thin liquidity, lock the gain immediately. Don't hope for a 10x that the orderbook can't deliver."
     }
   ],
   "trade_stats": {
-    "total": 1786,
-    "wins": 916,
+    "total": 1788,
+    "wins": 918,
     "losses": 870,
     "win_rate_pct": 51.3,
-    "total_pnl_sol": -1.969856,
-    "avg_pnl_pct": 34.78,
+    "total_pnl_sol": -1.958209,
+    "avg_pnl_pct": 34.81,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 275,
-    "today_realized_sol": 0.023005,
-    "today_target_pct": 5.8,
+    "today_trades": 277,
+    "today_realized_sol": 0.034652,
+    "today_target_pct": 8.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 916,
+      "win_count": 918,
       "loss_count": 870,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T19:01:59.640084+00:00",
+  "last_llm_brief_at": "2026-09-03T19:03:32.573461+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "6MRBwyzUZL8oPwu2auP35VSm8eKZJxQMiPLLXhU6pump": {
-      "price_usd": 2.9401677542548743e-06,
+    "RP2szJ3eFbqLpCJUwS5AxX3pJB1mNqcQSVo4Lhgpump": {
+      "price_usd": 1.4895439603759985e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3.1547999999999996e-07,
-      "volume_h24": 76.32,
+      "liquidity_usd": 3946.9826855402007,
+      "volume_h24": 9732.72,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3e-09
-    },
-    "Gh2WmxTtjea2Fi9HRXqCkJWrJsjrKjLBf16RXW4Bpump": {
-      "price_usd": 2.9401677542548743e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 3.1547999999999996e-07,
-      "volume_h24": 352.65,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 3e-09
+      "real_sol_reserves": 37.447653563
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
