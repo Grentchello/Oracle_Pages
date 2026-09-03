@@ -13384,3 +13384,9 @@
 ## [2026-09-03 13:47 UTC] sell | [FULL][LLM] $QUBY at $2.9752e-06 | P&L: -5.4%
 - **Reasoning:** -5.4% with $68 pool (below 5x position safety), 0% bonding progress, no narrative signal in data, held 0.1h with no bounce. Capital rotation: free slot for fresher attention.
 
+## [2026-09-03 13:48 UTC] sell | [TP +100% (50%)] $billions at $1.08517e-05 | P&L: +174.9%
+- **Reasoning:** Auto take-profit at +174.9%
+
+## [2026-09-03 13:49 UTC] sell | [PARTIAL][LLM] $billions at $1.08517e-05 | P&L: +174.9%
+- **Reasoning:** Up +174% in 0.2h but still on bonding-curve with only $2.9k pool — dangerously thin liquidity to exit. Lock half the gain (87% on that half) and let the rest ride if narrative holds. Selling all risks slippage eating the profit on this micro-pool.
+

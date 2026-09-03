@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.39582,
+  "balance_sol": 0.40095,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "578MUbmpYDMpiVn9bupUp4mE1QACHuE3wrJckZ5Apump": {
       "symbol": "billions",
       "name": "billions",
-      "amount": 64082.73700715033,
+      "amount": 16020.684251787583,
       "entry_price_usd": 3.947631012885313e-06,
-      "entry_sol_spent": 0.0025,
+      "entry_sol_spent": 0.000625,
       "entry_time": "2026-09-03T13:38:25.150301+00:00",
       "entry_usd_value": 2.0238,
       "entry_signals": {
@@ -28807,25 +28807,47 @@
       "pnl_pct": -5.39,
       "exit_reason": "LLM: sell_all — -5.4% with $68 pool (below 5x position safety), 0% bonding progress, no narrative signal in data, held 0.1h with no bounce. Capital rotation: free slo",
       "partial": false
+    },
+    {
+      "mint": "578MUbmpYDMpiVn9bupUp4mE1QACHuE3wrJckZ5Apump",
+      "symbol": "billions",
+      "name": "billions",
+      "amount_sold": 32041.368503575166,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T13:38:25.150301+00:00",
+      "exit_time": "2026-09-03T13:48:42.982899+00:00",
+      "entry_price_usd": 3.947631012885313e-06,
+      "exit_price_usd": 1.0851727576416097e-05,
+      "entry_sol_for_chunk": 0.00125,
+      "exit_sol_received": 0.00342,
+      "pnl_sol": 0.00217,
+      "pnl_pct": 174.89,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "578MUbmpYDMpiVn9bupUp4mE1QACHuE3wrJckZ5Apump",
+      "symbol": "billions",
+      "name": "billions",
+      "amount_sold": 16020.684251787583,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T13:38:25.150301+00:00",
+      "exit_time": "2026-09-03T13:49:03.118252+00:00",
+      "entry_price_usd": 3.947631012885313e-06,
+      "exit_price_usd": 1.0851727576416097e-05,
+      "entry_sol_for_chunk": 0.000625,
+      "exit_sol_received": 0.00171,
+      "pnl_sol": 0.001085,
+      "pnl_pct": 174.89,
+      "exit_reason": "LLM: sell_half — Up +174% in 0.2h but still on bonding-curve with only $2.9k pool — dangerously thin liquidity to exit. Lock half the gain (87% on that half) and let t",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T13:47:39.201748+00:00",
+  "last_updated": "2026-09-03T13:49:03.386087+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.84,
-  "portfolio_value_usd": 40.56,
+  "last_sol_price_usd": 101.67,
+  "portfolio_value_usd": 40.83,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 13:00 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $wvg at $5.76735e-06 | P&L: +33.4%",
-      "reason": "Auto take-profit at +33.4%"
-    },
-    {
-      "time": "2026-09-03 13:01 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $DERP at $1.09252e-05 | P&L: +17.7%",
-      "reason": "DERP is up 17.7% but sits on a low-liquidity bonding curve with no tradeable pool share shown. Lock in gains while retaining exposure, but it is already close to the +20% stale-risk threshold."
-    },
     {
       "time": "2026-09-03 13:01 UTC",
       "action": "sell",
@@ -28933,51 +28955,52 @@
       "action": "sell",
       "details": "[FULL][LLM] $QUBY at $2.9752e-06 | P&L: -5.4%",
       "reason": "-5.4% with $68 pool (below 5x position safety), 0% bonding progress, no narrative signal in data, held 0.1h with no bounce. Capital rotation: free slot for fresher attention."
+    },
+    {
+      "time": "2026-09-03 13:48 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $billions at $1.08517e-05 | P&L: +174.9%",
+      "reason": "Auto take-profit at +174.9%"
+    },
+    {
+      "time": "2026-09-03 13:49 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $billions at $1.08517e-05 | P&L: +174.9%",
+      "reason": "Up +174% in 0.2h but still on bonding-curve with only $2.9k pool — dangerously thin liquidity to exit. Lock half the gain (87% on that half) and let the rest ride if narrative holds. Selling all risks slippage eating the profit on this micro-pool."
     }
   ],
   "trade_stats": {
-    "total": 1693,
-    "wins": 864,
+    "total": 1695,
+    "wins": 866,
     "losses": 829,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -1.934325,
-    "avg_pnl_pct": 35.24,
+    "win_rate_pct": 51.1,
+    "total_pnl_sol": -1.93107,
+    "avg_pnl_pct": 35.41,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 182,
-    "today_realized_sol": 0.058536,
-    "today_target_pct": 14.6,
+    "today_trades": 184,
+    "today_realized_sol": 0.061791,
+    "today_target_pct": 15.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 864,
+      "win_count": 866,
       "loss_count": 829,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T13:47:38.940435+00:00",
+  "last_llm_brief_at": "2026-09-03T13:49:03.118171+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "578MUbmpYDMpiVn9bupUp4mE1QACHuE3wrJckZ5Apump": {
-      "price_usd": 1.0650740307896614e-05,
+      "price_usd": 1.0851727576416097e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2853.74003694392,
-      "volume_h24": 15296.48,
+      "liquidity_usd": 2909.35223246706,
+      "volume_h24": 19141.09,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 28.021799263
-    },
-    "Dkqd5u8DgrSSpq5yLQuEZCRog9aZsuP1MtYchNgapump": {
-      "price_usd": 2.9752042528583236e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 67.843814482,
-      "volume_h24": 3506.81,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.666180425
+      "real_sol_reserves": 28.615641118
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
