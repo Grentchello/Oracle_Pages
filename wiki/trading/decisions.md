@@ -13318,3 +13318,9 @@
 ## [2026-09-03 12:58 UTC] sell | [PARTIAL][LLM] $DERP at $1.16305e-05 | P&L: +25.3%
 - **Reasoning:** DERP is +25.3% and approaching the +30% TP threshold where the bot auto-takes-profit at 25%. Locking in half the gain de-risks while leaving a runner for the +100%/+200% levels. Pool is thin ($3k) so exit velocity matters.
 
+## [2026-09-03 12:59 UTC] sell | [PARTIAL][LLM] $DERP at $1.18141e-05 | P&L: +27.2%
+- **Reasoning:** +27.3% on a $3,168 pool is precarious — tiny liquidity means any sell can wipe the gain, and we're sitting just under the +30% TP trigger. Half-off locks ~0.0014 SOL profit while leaving a runner if the bonding curve actually completes. Stale risk is high given the pool depth.
+
+## [2026-09-03 12:59 UTC] buy | [LLM] $wvg at $4.324e-06, spent 0.02 SOL
+- **Reasoning:** $wvg (Wolfs vs Ghosty) has the cleanest fresh-launch narrative — a 'meme battle' framing with two characters, twitter link present, $5.1k mcap and 1.3min old. Battle-memes travel on X. Viability gate passes (desc≥50 + twitter). Risk: brand new, no traction yet.
+

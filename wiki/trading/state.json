@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.358424,
+  "balance_sol": 0.343173,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GVfXevfQMG9Z4VU83r47wXbmfdVgKYaBQhQ1JcSPpump": {
       "symbol": "DERP",
       "name": "DERP",
-      "amount": 81753.55450236968,
+      "amount": 40876.77725118484,
       "entry_price_usd": 9.284e-06,
-      "entry_sol_spent": 0.0075,
+      "entry_sol_spent": 0.00375,
       "entry_time": "2026-09-03T12:52:55.257771+00:00",
       "entry_usd_value": 2.024,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 27.057590588,
         "description": "DERP is a duck with zero thoughts and unlimited confidence. Nobody knows what he's doing. Neither does he.",
         "twitter": "https://x.com/derpso1ana",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "2rxhNAdeDVCfu94z9EBpAtKnoSkNRVPzgBGmHiPzpump": {
+      "symbol": "wvg",
+      "name": "wolfs vs ghosty",
+      "amount": 470397.77983348764,
+      "entry_price_usd": 4.324e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T12:59:39.679593+00:00",
+      "entry_usd_value": 2.0340000000000003,
+      "entry_signals": {
+        "liquidity_usd": 1251.0309502845,
+        "volume_24h_usd": 729.88,
+        "market_cap_usd": 5125.189849023602,
+        "ath_market_cap_usd": 5127.237612799613,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 12.301189285,
+        "description": "🐺👻 WOLFS vs GHOSTY — the ultimate meme battle is here. On one side, the Wolfs: wild, relentless, and ready to hunt. 🐺 On the other, Ghosty: mysterious, untouchable, and impossible to catch. 👻 Two legends. Two energies. One timeline. This isn’t just a meme — it’s a showdown between the hunters and th",
+        "twitter": "https://x.com/gh1stsol?s=11",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -28535,25 +28557,30 @@
       "pnl_pct": 25.27,
       "exit_reason": "LLM: sell_half — DERP is +25.3% and approaching the +30% TP threshold where the bot auto-takes-profit at 25%. Locking in half the gain de-risks while leaving a runner ",
       "partial": true
+    },
+    {
+      "mint": "GVfXevfQMG9Z4VU83r47wXbmfdVgKYaBQhQ1JcSPpump",
+      "symbol": "DERP",
+      "name": "DERP",
+      "amount_sold": 40876.77725118484,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T12:52:55.257771+00:00",
+      "exit_time": "2026-09-03T12:59:38.331501+00:00",
+      "entry_price_usd": 9.284e-06,
+      "exit_price_usd": 1.1814145055208595e-05,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.004749,
+      "pnl_sol": 0.000999,
+      "pnl_pct": 27.25,
+      "exit_reason": "LLM: sell_half — +27.3% on a $3,168 pool is precarious — tiny liquidity means any sell can wipe the gain, and we're sitting just under the +30% TP trigger. Half-off lo",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T12:58:05.654223+00:00",
+  "last_updated": "2026-09-03T12:59:39.679763+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.53,
-  "portfolio_value_usd": 37.15,
+  "last_sol_price_usd": 101.7,
+  "portfolio_value_usd": 37.31,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 12:12 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $HUGGY at $1.60795e-05 | P&L: +50.9%",
-      "reason": "Auto take-profit at +50.9%"
-    },
-    {
-      "time": "2026-09-03 12:12 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $HUGGY at $1.60795e-05 | P&L: +50.9%",
-      "reason": "HUGGY is up +50.9% which crosses the +50% TP threshold — bot likely auto-took partial, but locking in half here secures gains on a low-liquidity bonding-curve token ($4.2k pool) where reversal is common. Holding remainder for continuation."
-    },
     {
       "time": "2026-09-03 12:14 UTC",
       "action": "sell",
@@ -28661,40 +28688,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $DERP at $1.16305e-05 | P&L: +25.3%",
       "reason": "DERP is +25.3% and approaching the +30% TP threshold where the bot auto-takes-profit at 25%. Locking in half the gain de-risks while leaving a runner for the +100%/+200% levels. Pool is thin ($3k) so exit velocity matters."
+    },
+    {
+      "time": "2026-09-03 12:59 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $DERP at $1.18141e-05 | P&L: +27.2%",
+      "reason": "+27.3% on a $3,168 pool is precarious — tiny liquidity means any sell can wipe the gain, and we're sitting just under the +30% TP trigger. Half-off locks ~0.0014 SOL profit while leaving a runner if the bonding curve actually completes. Stale risk is high given the pool depth."
+    },
+    {
+      "time": "2026-09-03 12:59 UTC",
+      "action": "buy",
+      "details": "[LLM] $wvg at $4.324e-06, spent 0.02 SOL",
+      "reason": "$wvg (Wolfs vs Ghosty) has the cleanest fresh-launch narrative — a 'meme battle' framing with two characters, twitter link present, $5.1k mcap and 1.3min old. Battle-memes travel on X. Viability gate passes (desc≥50 + twitter). Risk: brand new, no traction yet."
     }
   ],
   "trade_stats": {
-    "total": 1677,
-    "wins": 850,
+    "total": 1678,
+    "wins": 851,
     "losses": 827,
     "win_rate_pct": 50.7,
-    "total_pnl_sol": -1.96672,
+    "total_pnl_sol": -1.965721,
     "avg_pnl_pct": 35.14,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 166,
-    "today_realized_sol": 0.026141,
-    "today_target_pct": 6.5,
+    "today_trades": 167,
+    "today_realized_sol": 0.02714,
+    "today_target_pct": 6.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 850,
+      "win_count": 851,
       "loss_count": 827,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T12:58:04.913152+00:00",
+  "last_llm_brief_at": "2026-09-03T12:59:38.331464+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GVfXevfQMG9Z4VU83r47wXbmfdVgKYaBQhQ1JcSPpump": {
-      "price_usd": 1.1630506604108841e-05,
+      "price_usd": 1.1814145055208595e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3119.43951909447,
-      "volume_h24": 7886.86,
+      "liquidity_usd": 3168.0223050600002,
+      "volume_h24": 10041.24,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 30.724313199
+      "real_sol_reserves": 31.1506618
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
