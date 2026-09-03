@@ -13441,3 +13441,9 @@
 ## [2026-09-03 14:19 UTC] buy | [LLM] $A16ZHL at $3.06151e-06, spent 0.02 SOL
 - **Reasoning:** $A16ZHL is a parody of AI16Z, which is one of the hottest AI-agent metas right now. 'Stuck inside a terminal' narrative is relatable crypto humor. Has twitter and a description. Risk: parody tokens often dump hard after initial spike.
 
+## [2026-09-03 14:20 UTC] sell | [FULL][LLM] $BULLX at $2.93238e-06 | P&L: +0.8%
+- **Reasoning:** BULLX up only +0.8% on a $45 pool, bonding-curve barely moved in 0.1h, no clear narrative or volume surge. Stale exit territory — free up the slot.
+
+## [2026-09-03 14:20 UTC] sell | [FULL][LLM] $A16ZHL at $2.8655e-06 | P&L: -6.4%
+- **Reasoning:** A16ZHL down -6.4% with tiny $9 pool (20% of our share = illiquid exit). No narrative, basically dead on arrival. Cut before it gets worse.
+

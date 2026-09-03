@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.350954,
+  "balance_sol": 0.389818,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9CzRg7ikmUsv5V6MhhenFKeW5b7qguTh8C2TDT4jpump": {
-      "symbol": "BULLX",
-      "name": "ansem bull ",
-      "amount": 698968.363136176,
-      "entry_price_usd": 2.908e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T14:15:02.730854+00:00",
-      "entry_usd_value": 2.0326,
-      "entry_signals": {
-        "liquidity_usd": 36.79357588985,
-        "volume_24h_usd": 36.76,
-        "market_cap_usd": 2911.6723487203694,
-        "ath_market_cap_usd": 2908.670701055696,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.362034595,
-        "description": "They called it a good morning. We took it as a signal. The horns are out. The hood is up. The bulls have entered the green. No roadmap. No promises. Just pure bull energy. 🐂🟢",
-        "twitter": "https://x.com/blknoiz06/status/2095507840592920943?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "FkznMJTxNwEVM7RZMACJhcPT78Qx5pdkzDQNxfyXpump": {
-      "symbol": "A16ZHL",
-      "name": "AI16Z ZAEHL",
-      "amount": 666207.5630051213,
-      "entry_price_usd": 3.06150832452246e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T14:19:22.204484+00:00",
-      "entry_usd_value": 2.0396,
-      "entry_signals": {
-        "liquidity_usd": 110.79308620698,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3051.2816526177767,
-        "ath_market_cap_usd": 3058.5863413627085,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.086419751,
-        "description": "stuck inside a terminal. not sure how i got here. still trying to get out.",
-        "twitter": "https://x.com/ai16zzaehl",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -29033,25 +28988,47 @@
       "pnl_pct": -0.78,
       "exit_reason": "LLM: sell_all — $Horseman is down -0.8% at held 0.0h on a bonding-curve token with no pool (pool=$0 means no real liquidity yet). A 495146731% ownership share means w",
       "partial": false
+    },
+    {
+      "mint": "9CzRg7ikmUsv5V6MhhenFKeW5b7qguTh8C2TDT4jpump",
+      "symbol": "BULLX",
+      "name": "ansem bull ",
+      "amount_sold": 698968.363136176,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T14:15:02.730854+00:00",
+      "exit_time": "2026-09-03T14:20:39.534821+00:00",
+      "entry_price_usd": 2.908e-06,
+      "exit_price_usd": 2.932376089007854e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020122,
+      "pnl_sol": 0.000122,
+      "pnl_pct": 0.84,
+      "exit_reason": "LLM: sell_all — BULLX up only +0.8% on a $45 pool, bonding-curve barely moved in 0.1h, no clear narrative or volume surge. Stale exit territory — free up the slot.",
+      "partial": false
+    },
+    {
+      "mint": "FkznMJTxNwEVM7RZMACJhcPT78Qx5pdkzDQNxfyXpump",
+      "symbol": "A16ZHL",
+      "name": "AI16Z ZAEHL",
+      "amount_sold": 666207.5630051213,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T14:19:22.204484+00:00",
+      "exit_time": "2026-09-03T14:20:39.536346+00:00",
+      "entry_price_usd": 3.06150832452246e-06,
+      "exit_price_usd": 2.8655037517963055e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018742,
+      "pnl_sol": -0.001258,
+      "pnl_pct": -6.4,
+      "exit_reason": "LLM: sell_all — A16ZHL down -6.4% with tiny $9 pool (20% of our share = illiquid exit). No narrative, basically dead on arrival. Cut before it gets worse.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T14:19:22.204651+00:00",
+  "last_updated": "2026-09-03T14:20:39.805174+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.98,
-  "portfolio_value_usd": 39.86,
+  "last_sol_price_usd": 101.86,
+  "portfolio_value_usd": 39.71,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 13:47 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $QUBY at $2.9752e-06 | P&L: -5.4%",
-      "reason": "-5.4% with $68 pool (below 5x position safety), 0% bonding progress, no narrative signal in data, held 0.1h with no bounce. Capital rotation: free slot for fresher attention."
-    },
-    {
-      "time": "2026-09-03 13:48 UTC",
-      "action": "sell",
-      "details": "[TP +100% (50%)] $billions at $1.08517e-05 | P&L: +174.9%",
-      "reason": "Auto take-profit at +174.9%"
-    },
     {
       "time": "2026-09-03 13:49 UTC",
       "action": "sell",
@@ -29159,40 +29136,63 @@
       "action": "buy",
       "details": "[LLM] $A16ZHL at $3.06151e-06, spent 0.02 SOL",
       "reason": "$A16ZHL is a parody of AI16Z, which is one of the hottest AI-agent metas right now. 'Stuck inside a terminal' narrative is relatable crypto humor. Has twitter and a description. Risk: parody tokens often dump hard after initial spike."
+    },
+    {
+      "time": "2026-09-03 14:20 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BULLX at $2.93238e-06 | P&L: +0.8%",
+      "reason": "BULLX up only +0.8% on a $45 pool, bonding-curve barely moved in 0.1h, no clear narrative or volume surge. Stale exit territory — free up the slot."
+    },
+    {
+      "time": "2026-09-03 14:20 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $A16ZHL at $2.8655e-06 | P&L: -6.4%",
+      "reason": "A16ZHL down -6.4% with tiny $9 pool (20% of our share = illiquid exit). No narrative, basically dead on arrival. Cut before it gets worse."
     }
   ],
   "trade_stats": {
-    "total": 1705,
-    "wins": 874,
-    "losses": 831,
+    "total": 1707,
+    "wins": 875,
+    "losses": 832,
     "win_rate_pct": 51.3,
-    "total_pnl_sol": -1.941691,
-    "avg_pnl_pct": 35.41,
+    "total_pnl_sol": -1.942827,
+    "avg_pnl_pct": 35.36,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 194,
-    "today_realized_sol": 0.05117,
-    "today_target_pct": 12.8,
+    "today_trades": 196,
+    "today_realized_sol": 0.050034,
+    "today_target_pct": 12.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 874,
-      "loss_count": 831,
+      "win_count": 875,
+      "loss_count": 832,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T14:19:20.561144+00:00",
+  "last_llm_brief_at": "2026-09-03T14:20:39.534780+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "9CzRg7ikmUsv5V6MhhenFKeW5b7qguTh8C2TDT4jpump": {
-      "price_usd": 2.9358306848323287e-06,
+      "price_usd": 2.932376089007854e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 45.041603481,
-      "volume_h24": 65.7,
+      "liquidity_usd": 44.988602967,
+      "volume_h24": 78.63,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.44167095
+    },
+    "FkznMJTxNwEVM7RZMACJhcPT78Qx5pdkzDQNxfyXpump": {
+      "price_usd": 2.8655037517963055e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 9.428218234160001,
+      "volume_h24": 110.77,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.092560556
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
