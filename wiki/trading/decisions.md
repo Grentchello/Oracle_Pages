@@ -13495,3 +13495,6 @@
 ## [2026-09-03 14:49 UTC] buy | [LLM] $$HOUSE at $3.471e-06, spent 0.02 SOL
 - **Reasoning:** $$HOUSE is the only candidate that passes the viability gate (description >>50 chars with a real emotional narrative — father's son's drawing vs lambo/dubai meme) AND the fragility gate (no celebrity/political keywords). Wholesome kid-drawing story has clear viral share potential on X. Risk: bond only 8% (low conviction), mcap $3.4k is fragile — but that's where memecoin attention alpha lives. Sizing 0.1 SOL with -30% hard stop enforced.
 
+## [2026-09-03 14:52 UTC] sell | [FULL][LLM] $$HOUSE at $3.1179e-06 | P&L: -10.2%
+- **Reasoning:** Down -10.2% in <1 min on a bonding-curve with only $116 pool — no bounce signal, and the pool is so thin I can't trust exit liquidity. Cut it before it gets worse.
+

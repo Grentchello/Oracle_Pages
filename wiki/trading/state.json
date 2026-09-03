@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.397107,
+  "balance_sol": 0.414978,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AZsX6t4PpDKHUvUHbtWfRbvp9C4MmzRfzHQTrki4pump": {
-      "symbol": "$HOUSE",
-      "name": "My son's drawing",
-      "amount": 593978.6804955344,
-      "entry_price_usd": 3.471e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T14:49:36.864759+00:00",
-      "entry_usd_value": 2.0617,
-      "entry_signals": {
-        "liquidity_usd": 312.1551377241,
-        "volume_24h_usd": 1151.71,
-        "market_cap_usd": 3446.2126399877507,
-        "ath_market_cap_usd": 4101.012985797245,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.02813346,
-        "description": "Most devs launch tokens to buy a Lamborghini or a mansion in Dubai. I'm launching my son's real-life drawing to do something way bigger: escape the rent trap and finally buy our first family house. He drew us smiling because he knows Solana is going to give us our own backyard to play. No rugs, no p",
-        "twitter": "https://x.com/MySonsHouseSol",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -29249,19 +29226,30 @@
       "pnl_pct": 172.72,
       "exit_reason": "LLM: sell_all — KAMA at +172.7% has cleared the +100% TP tier. Bot already auto-took some profit at thresholds; the remainder is at peak territory on a thin bonding c",
       "partial": false
+    },
+    {
+      "mint": "AZsX6t4PpDKHUvUHbtWfRbvp9C4MmzRfzHQTrki4pump",
+      "symbol": "$HOUSE",
+      "name": "My son's drawing",
+      "amount_sold": 593978.6804955344,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T14:49:36.864759+00:00",
+      "exit_time": "2026-09-03T14:52:19.172089+00:00",
+      "entry_price_usd": 3.471e-06,
+      "exit_price_usd": 3.117904409466497e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.017871,
+      "pnl_sol": -0.002129,
+      "pnl_pct": -10.17,
+      "exit_reason": "LLM: sell_all — Down -10.2% in <1 min on a bonding-curve with only $116 pool — no bounce signal, and the pool is so thin I can't trust exit liquidity. Cut it before i",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T14:51:02.740079+00:00",
+  "last_updated": "2026-09-03T14:52:19.705565+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.76,
-  "portfolio_value_usd": 43.27,
+  "last_sol_price_usd": 103.63,
+  "portfolio_value_usd": 43.0,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 14:15 UTC",
-      "action": "buy",
-      "details": "[LLM] $BULLX at $2.908e-06, spent 0.02 SOL",
-      "reason": "$BULLX ties directly to ansem (prominent SOL CT voice) with bullish narrative — 'horns out, bulls in' is a clean attention play at $2.9k mcap. Sizing with 0.05 SOL per bot rule, narrative is the alpha here."
-    },
     {
       "time": "2026-09-03 14:19 UTC",
       "action": "buy",
@@ -29375,40 +29363,46 @@
       "action": "buy",
       "details": "[LLM] $$HOUSE at $3.471e-06, spent 0.02 SOL",
       "reason": "$$HOUSE is the only candidate that passes the viability gate (description >>50 chars with a real emotional narrative — father's son's drawing vs lambo/dubai meme) AND the fragility gate (no celebrity/political keywords). Wholesome kid-drawing story has clear viral share potential on X. Risk: bond only 8% (low conviction), mcap $3.4k is fragile — but that's where memecoin attention alpha lives. Sizing 0.1 SOL with -30% hard stop enforced."
+    },
+    {
+      "time": "2026-09-03 14:52 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $$HOUSE at $3.1179e-06 | P&L: -10.2%",
+      "reason": "Down -10.2% in <1 min on a bonding-curve with only $116 pool — no bounce signal, and the pool is so thin I can't trust exit liquidity. Cut it before it gets worse."
     }
   ],
   "trade_stats": {
-    "total": 1719,
+    "total": 1720,
     "wins": 886,
-    "losses": 833,
+    "losses": 834,
     "win_rate_pct": 51.5,
-    "total_pnl_sol": -1.915537,
-    "avg_pnl_pct": 35.73,
+    "total_pnl_sol": -1.917666,
+    "avg_pnl_pct": 35.7,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 208,
-    "today_realized_sol": 0.077324,
-    "today_target_pct": 19.3,
+    "today_trades": 209,
+    "today_realized_sol": 0.075195,
+    "today_target_pct": 18.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 886,
-      "loss_count": 833,
+      "loss_count": 834,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T14:51:02.473450+00:00",
+  "last_llm_brief_at": "2026-09-03T14:52:19.172047+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AZsX6t4PpDKHUvUHbtWfRbvp9C4MmzRfzHQTrki4pump": {
-      "price_usd": 3.6355141015086695e-06,
+      "price_usd": 3.117904409466497e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 371.84376498248,
-      "volume_h24": 1581.53,
+      "liquidity_usd": 116.13651110736001,
+      "volume_h24": 1778.43,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.583690873
+      "real_sol_reserves": 1.120684272
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
