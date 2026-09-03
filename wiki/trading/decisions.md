@@ -13747,3 +13747,9 @@
 ## [2026-09-03 17:51 UTC] buy | [LLM] $SS at $3.17259e-06, spent 0.02 SOL
 - **Reasoning:** $SS (Social Stock) has the strongest narrative: actual product (Web/iOS/Android), tokenized-stocks FOMO angle, real description, twitter presence. Fresh 0.1min launch with attention-market thesis.
 
+## [2026-09-03 17:52 UTC] sell | [hard-stop] $TURBOSNAIL closed at $2.95053e-06 | P&L: -56.1%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 17:53 UTC] sell | [FULL][LLM] $SS at $2.99321e-06 | P&L: -5.7%
+- **Reasoning:** $SS is down 5.7% on a $30 pool where I already hold 7% — that's effectively the entire float. The -5.7% will widen to -20%+ the moment I try to exit because there are no buyers. Cut now, accept the small loss, free the slot. Would rather have a slot open for a fresh attention launch than die in illiquidity.
+

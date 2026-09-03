@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.314009,
+  "balance_sol": 0.341693,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "79wwJBFJjSGGN7KK8gTfiKtKvrFkxGDCrJRhn7sppump": {
-      "symbol": "TURBOSNAIL",
-      "name": "TURBOSNAIL",
-      "amount": 313247.99047335517,
-      "entry_price_usd": 6.718e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T17:50:21.878720+00:00",
-      "entry_usd_value": 2.1044,
-      "entry_signals": {
-        "liquidity_usd": 2203.84059284464,
-        "volume_24h_usd": 1614.09,
-        "market_cap_usd": 7526.878589914714,
-        "ath_market_cap_usd": 7517.4140412420475,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 20.945073112,
-        "description": "Meet TurboSnail — the slowest-looking racer with the fastest track in town.",
-        "twitter": "x.com/TurboSnail_SOL",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "DBKi1gkbZewd7m5Q3m8r3PrUgH7jyd5peJdDCVchpump": {
-      "symbol": "SS",
-      "name": "Social Stock",
-      "amount": 663054.5233526096,
-      "entry_price_usd": 3.172589773407389e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T17:51:43.303912+00:00",
-      "entry_usd_value": 2.1036,
-      "entry_signals": {
-        "liquidity_usd": 96.76474404516001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3172.3081619908608,
-        "ath_market_cap_usd": 3170.890726534342,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.919991862,
-        "description": "FOMO for tokenized stocks. Trade, share your thesis, see what others think. Web, iOS, Android",
-        "twitter": "https://x.com/trysocialstock",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30121,25 +30076,47 @@
       "pnl_pct": -0.26,
       "exit_reason": "LLM: sell_all — Position is flat (-0.3%) in a $628 pool with 0% share — no traction, no catalyst, just a locked slot. Free the capital for fresh attention with real s",
       "partial": false
+    },
+    {
+      "mint": "79wwJBFJjSGGN7KK8gTfiKtKvrFkxGDCrJRhn7sppump",
+      "symbol": "TURBOSNAIL",
+      "name": "TURBOSNAIL",
+      "amount_sold": 313247.99047335517,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T17:50:21.878720+00:00",
+      "exit_time": "2026-09-03T17:52:47.117549+00:00",
+      "entry_price_usd": 6.718e-06,
+      "exit_price_usd": 2.9505337043461737e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.008796,
+      "pnl_sol": -0.011204,
+      "pnl_pct": -56.08,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "DBKi1gkbZewd7m5Q3m8r3PrUgH7jyd5peJdDCVchpump",
+      "symbol": "SS",
+      "name": "Social Stock",
+      "amount_sold": 663054.5233526096,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T17:51:43.303912+00:00",
+      "exit_time": "2026-09-03T17:53:07.299564+00:00",
+      "entry_price_usd": 3.172589773407389e-06,
+      "exit_price_usd": 2.9932106591342897e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018888,
+      "pnl_sol": -0.001112,
+      "pnl_pct": -5.65,
+      "exit_reason": "LLM: sell_all — $SS is down 5.7% on a $30 pool where I already hold 7% — that's effectively the entire float. The -5.7% will widen to -20%+ the moment I try to exit b",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T17:51:43.304082+00:00",
+  "last_updated": "2026-09-03T17:53:07.565535+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.18,
-  "portfolio_value_usd": 37.24,
+  "last_sol_price_usd": 105.078,
+  "portfolio_value_usd": 35.9,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 16:52 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $xAI at $3.14117e-06 | P&L: -18.2%",
-      "reason": "xAI at -18.2% with only $114 pool liquidity and no bounce signal — cutting pre-emptively before the -30% hard stop to preserve capital and free a slot. Thin bonding-curve + flat price action = bag-holder trap."
-    },
-    {
-      "time": "2026-09-03 16:56 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $HSOG at $3.03541e-06 | P&L: +0.1%",
-      "reason": "Flat at +0.1% after 6min, pool only $57 (4% of pool = severe illiquidity), no momentum. Stale capital, rotating to fresh narrative."
-    },
     {
       "time": "2026-09-03 16:59 UTC",
       "action": "buy",
@@ -30247,40 +30224,63 @@
       "action": "buy",
       "details": "[LLM] $SS at $3.17259e-06, spent 0.02 SOL",
       "reason": "$SS (Social Stock) has the strongest narrative: actual product (Web/iOS/Android), tokenized-stocks FOMO angle, real description, twitter presence. Fresh 0.1min launch with attention-market thesis."
+    },
+    {
+      "time": "2026-09-03 17:52 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $TURBOSNAIL closed at $2.95053e-06 | P&L: -56.1%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-03 17:53 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SS at $2.99321e-06 | P&L: -5.7%",
+      "reason": "$SS is down 5.7% on a $30 pool where I already hold 7% — that's effectively the entire float. The -5.7% will widen to -20%+ the moment I try to exit because there are no buyers. Cut now, accept the small loss, free the slot. Would rather have a slot open for a fresh attention launch than die in illiquidity."
     }
   ],
   "trade_stats": {
-    "total": 1769,
+    "total": 1771,
     "wins": 909,
-    "losses": 860,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.978637,
-    "avg_pnl_pct": 34.95,
+    "losses": 862,
+    "win_rate_pct": 51.3,
+    "total_pnl_sol": -1.990953,
+    "avg_pnl_pct": 34.88,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 258,
-    "today_realized_sol": 0.014224,
-    "today_target_pct": 3.6,
+    "today_trades": 260,
+    "today_realized_sol": 0.001908,
+    "today_target_pct": 0.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 909,
-      "loss_count": 860,
+      "loss_count": 862,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T17:51:41.904807+00:00",
+  "last_llm_brief_at": "2026-09-03T17:53:07.299522+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "79wwJBFJjSGGN7KK8gTfiKtKvrFkxGDCrJRhn7sppump": {
-      "price_usd": 6.750154246125152e-06,
+      "price_usd": 2.9505337043461737e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1625.21665563714,
-      "volume_h24": 4859.01,
+      "liquidity_usd": 6.784035223122001,
+      "volume_h24": 7659.44,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 15.451765123
+      "real_sol_reserves": 0.064561899
+    },
+    "DBKi1gkbZewd7m5Q3m8r3PrUgH7jyd5peJdDCVchpump": {
+      "price_usd": 2.9932106591342897e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 29.549027356902002,
+      "volume_h24": 190.51,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.281210409
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
