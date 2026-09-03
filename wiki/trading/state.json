@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.374976,
+  "balance_sol": 0.38873,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "J1N1WqBvY3oxp6Yr9Vh5DmEVrh1i8USUw3Vty5HgMgn6": {
-      "symbol": "GG",
-      "name": "Golden Goose",
-      "amount": 222157.6417814803,
-      "entry_price_usd": 9.363e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T16:21:56.388792+00:00",
-      "entry_usd_value": 2.0800620000000003,
-      "entry_signals": {
-        "liquidity_usd": 775.789751916953,
-        "volume_24h_usd": 23636.87,
-        "market_cap_usd": 6937.424174724697,
-        "ath_market_cap_usd": 12589.020632038719,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 7.459294501,
-        "description": "A golden goose is a valuable asset, business, or investment that continuously produces a steady and reliable stream of income/profit.",
-        "twitter": "https://x.com/keemotrades/status/2095547274566738264",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -29691,19 +29668,30 @@
       "pnl_pct": 0.14,
       "exit_reason": "LLM: sell_all — Flat +0.1% after 12min, pool only $18 with me holding 12% — massive slippage risk on any exit, no momentum, stale capital better rotated into fresh la",
       "partial": false
+    },
+    {
+      "mint": "J1N1WqBvY3oxp6Yr9Vh5DmEVrh1i8USUw3Vty5HgMgn6",
+      "symbol": "GG",
+      "name": "Golden Goose",
+      "amount_sold": 222157.6417814803,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T16:21:56.388792+00:00",
+      "exit_time": "2026-09-03T16:23:00.509480+00:00",
+      "entry_price_usd": 9.363e-06,
+      "exit_price_usd": 6.450519666494741e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.013754,
+      "pnl_sol": -0.006246,
+      "pnl_pct": -31.11,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T16:21:56.667093+00:00",
+  "last_updated": "2026-09-03T16:23:09.276216+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.0031,
-  "portfolio_value_usd": 41.08,
+  "last_sol_price_usd": 104.19,
+  "portfolio_value_usd": 40.5,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 15:40 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $hims at $3.35308e-06 | P&L: +0.6%",
-      "reason": "+0.6% on a $222 pool with 0.0h held is a coin-flip — either it pops in the next few min or it dies. I'd rather rotate the slot to a fresher narrative than babysit a flat bonding-curve position."
-    },
     {
       "time": "2026-09-03 15:42 UTC",
       "action": "buy",
@@ -29817,30 +29805,48 @@
       "action": "buy",
       "details": "[LLM] $GG at $9.363e-06, spent 0.02 SOL",
       "reason": "$GG (Golden Goose) has a clean universal idiom narrative + twitter post from @keemotrades. Bond 26% means active buying. Classic attention-market play at $7k mcap."
+    },
+    {
+      "time": "2026-09-03 16:23 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $GG closed at $6.45052e-06 | P&L: -31.1%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1745,
+    "total": 1746,
     "wins": 897,
-    "losses": 848,
+    "losses": 849,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.937669,
-    "avg_pnl_pct": 35.3,
+    "total_pnl_sol": -1.943915,
+    "avg_pnl_pct": 35.27,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 234,
-    "today_realized_sol": 0.055192,
-    "today_target_pct": 13.8,
+    "today_trades": 235,
+    "today_realized_sol": 0.048946,
+    "today_target_pct": 12.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 897,
-      "loss_count": 848,
+      "loss_count": 849,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T16:21:54.861121+00:00",
+  "last_llm_brief_at": "2026-09-03T16:23:09.276185+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "J1N1WqBvY3oxp6Yr9Vh5DmEVrh1i8USUw3Vty5HgMgn6": {
+      "price_usd": 6.450519666494741e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1525.5626119956,
+      "volume_h24": 31851.04,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 14.64212124
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

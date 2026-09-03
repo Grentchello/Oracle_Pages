@@ -13624,3 +13624,6 @@
 ## [2026-09-03 16:21 UTC] buy | [LLM] $GG at $9.363e-06, spent 0.02 SOL
 - **Reasoning:** $GG (Golden Goose) has a clean universal idiom narrative + twitter post from @keemotrades. Bond 26% means active buying. Classic attention-market play at $7k mcap.
 
+## [2026-09-03 16:23 UTC] sell | [hard-stop] $GG closed at $6.45052e-06 | P&L: -31.1%
+- **Reasoning:** Hard -30% stop
+
