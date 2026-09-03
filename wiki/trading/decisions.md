@@ -13240,3 +13240,12 @@
 ## [2026-09-03 12:05 UTC] buy | [LLM] $SM at $3.345e-06, spent 0.02 SOL
 - **Reasoning:** $SM (Solana Miners) — cleanest narrative: real story (5000 rigs, tokenized mining), twitter presence (@miner_on_sol), decent $4.2k mcap and 15% bonded. Mining meta has legs and this has actual narrative vs pure meme.
 
+## [2026-09-03 12:06 UTC] sell | [TP +30% (25%)] $SM at $4.74302e-06 | P&L: +41.8%
+- **Reasoning:** Auto take-profit at +41.8%
+
+## [2026-09-03 12:07 UTC] sell | [FULL][LLM] $SM at $4.74302e-06 | P&L: +41.8%
+- **Reasoning:** $SM is at +41.8%, well past the +30% take-profit threshold the bot should have auto-triggered. Lock the gain — bonding-curve tokens with 0% pool share and only $900 liquidity can reverse violently. Sell_all to convert paper gain to realized profit.
+
+## [2026-09-03 12:07 UTC] buy | [LLM] $ENOS at $3.514e-06, spent 0.02 SOL
+- **Reasoning:** $ENOS — 'The Forgotten Astrochimp' has a genuinely interesting narrative (first chimp to orbit Earth). Chimp/太空 monkey narratives have historic viral potential on memecoin Twitter. Low mcap ($3.5k), fresh launch, real story angle. Worth0.05 SOL.
+
