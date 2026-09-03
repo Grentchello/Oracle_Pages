@@ -13936,3 +13936,6 @@
 ## [2026-09-03 20:14 UTC] buy | [LLM] $SNITCH at $3.9008e-06, spent 0.02 SOL
 - **Reasoning:** $SNITCH — 'Snitch on your favourite KOL' is a strong drama/attention narrative with an active X account (SnitchRobinhood). KOL-shipping culture pumps. Viability pass, not on blocklist. 0.05 SOL position.
 
+## [2026-09-03 20:17 UTC] buy | [LLM] $BAGCOON at $5.07446e-06, spent 0.02 SOL
+- **Reasoning:** $BAGCOON — 'Racoon Wif Bag' follows the proven 'wif' template (dogwifcat, etc.) which has historically gone viral. Has twitter, decent $5k mcap not overheated, narrative is meme-native and relatable. Risk: ultra-fresh launch with low liquidity, but viral template + raccoon cultural moment gives attention runway.
+
