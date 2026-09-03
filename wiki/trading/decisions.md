@@ -14182,3 +14182,9 @@
 ## [2026-09-03 22:34 UTC] sell | [PARTIAL][LLM] $Rufus at $9.48755e-06 | P&L: +93.2%
 - **Reasoning:** $Rufus is +93% — a strong pump right after entry. Profit-taking discipline says lock in gains on a position that's already 2x. Sell half to bank ~+93%, let the rest ride if narrative continues, but secure capital.
 
+## [2026-09-03 22:36 UTC] sell | [TP +100% (50%)] $Rufus at $1.01279e-05 | P&L: +106.2%
+- **Reasoning:** Auto take-profit at +106.2%
+
+## [2026-09-03 22:36 UTC] sell | [FULL][LLM] $Rufus at $1.01279e-05 | P&L: +106.2%
+- **Reasoning:** Up +106% — well past +50% TP threshold, narrative unclear (Rufus is a generic name with no viral catalyst), pool only $2703 with our share at 0% (thin liquidity makes further upside risky). Lock the gain now.
+

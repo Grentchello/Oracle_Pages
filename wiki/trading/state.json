@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.308264,
+  "balance_sol": 0.32374,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Dmtr7tBGBTJXnqDo6Dof6k1e2VAtRLQYWwNBcDn8pump": {
-      "symbol": "Rufus",
-      "name": "The Shocked Dog",
-      "amount": 158910.8306188925,
-      "entry_price_usd": 4.912e-06,
-      "entry_sol_spent": 0.0075,
-      "entry_time": "2026-09-03T22:33:31.155794+00:00",
-      "entry_usd_value": 2.08152,
-      "entry_signals": {
-        "liquidity_usd": 1328.7824934935038,
-        "volume_24h_usd": 6044.56,
-        "market_cap_usd": 5895.685706003143,
-        "ath_market_cap_usd": 6030.955658505577,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 12.767424704,
-        "description": "Rufus, the SHOCKED dog gone viral on ALL social media!",
-        "twitter": "https://x.com/KankiAlpha/status/2095641021908660362",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -31561,25 +31538,47 @@
       "pnl_pct": 93.15,
       "exit_reason": "LLM: sell_half — $Rufus is +93% — a strong pump right after entry. Profit-taking discipline says lock in gains on a position that's already 2x. Sell half to bank ~+93%",
       "partial": true
+    },
+    {
+      "mint": "Dmtr7tBGBTJXnqDo6Dof6k1e2VAtRLQYWwNBcDn8pump",
+      "symbol": "Rufus",
+      "name": "The Shocked Dog",
+      "amount_sold": 79455.41530944625,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T22:33:31.155794+00:00",
+      "exit_time": "2026-09-03T22:36:02.703314+00:00",
+      "entry_price_usd": 4.912e-06,
+      "exit_price_usd": 1.0127934875488666e-05,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.007738,
+      "pnl_sol": 0.003988,
+      "pnl_pct": 106.19,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "Dmtr7tBGBTJXnqDo6Dof6k1e2VAtRLQYWwNBcDn8pump",
+      "symbol": "Rufus",
+      "name": "The Shocked Dog",
+      "amount_sold": 79455.41530944625,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T22:33:31.155794+00:00",
+      "exit_time": "2026-09-03T22:36:23.456193+00:00",
+      "entry_price_usd": 4.912e-06,
+      "exit_price_usd": 1.0127934875488666e-05,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.007738,
+      "pnl_sol": 0.003988,
+      "pnl_pct": 106.19,
+      "exit_reason": "LLM: sell_all — Up +106% — well past +50% TP threshold, narrative unclear (Rufus is a generic name with no viral catalyst), pool only $2703 with our share at 0% (thin",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T22:34:59.120268+00:00",
+  "last_updated": "2026-09-03T22:36:23.456869+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.84,
-  "portfolio_value_usd": 32.79,
+  "last_sol_price_usd": 104.001,
+  "portfolio_value_usd": 33.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 21:56 UTC",
-      "action": "buy",
-      "details": "[LLM] $PXPE! at $3.54781e-06, spent 0.02 SOL",
-      "reason": "$PXPE! (Pixel Pepe) — pixel-art Pepe derivative with active developer twitter (@pixelpepedevv), clear meme DNA (Pepe variants historically pump), and very fresh $3.5k mcap. Pure attention play with cultural meme template."
-    },
-    {
-      "time": "2026-09-03 21:58 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Amzn at $2.94342e-06 | P&L: -3.5%",
-      "reason": "$Amzn has pool=$1 and we own 25% — far below the 5x-liquidity rule and effectively un-exitable. Cutting now at -3.5% frees a slot; holding just traps capital in dead liquidity."
-    },
     {
       "time": "2026-09-03 22:01 UTC",
       "action": "buy",
@@ -31687,40 +31686,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Rufus at $9.48755e-06 | P&L: +93.2%",
       "reason": "$Rufus is +93% — a strong pump right after entry. Profit-taking discipline says lock in gains on a position that's already 2x. Sell half to bank ~+93%, let the rest ride if narrative continues, but secure capital."
+    },
+    {
+      "time": "2026-09-03 22:36 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $Rufus at $1.01279e-05 | P&L: +106.2%",
+      "reason": "Auto take-profit at +106.2%"
+    },
+    {
+      "time": "2026-09-03 22:36 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Rufus at $1.01279e-05 | P&L: +106.2%",
+      "reason": "Up +106% — well past +50% TP threshold, narrative unclear (Rufus is a generic name with no viral catalyst), pool only $2703 with our share at 0% (thin liquidity makes further upside risky). Lock the gain now."
     }
   ],
   "trade_stats": {
-    "total": 1855,
-    "wins": 953,
+    "total": 1857,
+    "wins": 955,
     "losses": 902,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.016884,
-    "avg_pnl_pct": 34.44,
+    "total_pnl_sol": -2.008908,
+    "avg_pnl_pct": 34.51,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 344,
-    "today_realized_sol": -0.024023,
-    "today_target_pct": -6.0,
+    "today_trades": 346,
+    "today_realized_sol": -0.016047,
+    "today_target_pct": -4.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 953,
+      "win_count": 955,
       "loss_count": 902,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T22:34:58.599583+00:00",
+  "last_llm_brief_at": "2026-09-03T22:36:23.455413+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "Dmtr7tBGBTJXnqDo6Dof6k1e2VAtRLQYWwNBcDn8pump": {
-      "price_usd": 9.48754503962103e-06,
+      "price_usd": 1.0127934875488666e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2516.24379468528,
-      "volume_h24": 8844.7,
+      "liquidity_usd": 2702.8748923877642,
+      "volume_h24": 11323.35,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 24.231931767
+      "real_sol_reserves": 25.988931764
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
