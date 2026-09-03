@@ -14077,3 +14077,9 @@
 ## [2026-09-03 21:13 UTC] sell | [hard-stop] $BAGCOON closed at $2.98498e-07 | P&L: -39.9%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-03 21:16 UTC] sell | [FULL][LLM] $DINOPONS at $3.04941e-06 | P&L: -8.5%
+- **Reasoning:** Down 8.5% on a $57 pool where I'm 3% of liquidity — any further sell pressure will crash it through my -30% hard stop. No bounce signal, bonding curve barely active. Lock the -8.5% loss now before it gets worse.
+
+## [2026-09-03 21:16 UTC] buy | [LLM] $Crawlrr at $1.37413e-05, spent 0.02 SOL
+- **Reasoning:** $Crawlrr — AI agents + HMAC signatures is a strong tech-meta narrative riding the AI agent trend. 35% bonding curve (real traction, not just snipers), highest mcap of the fresh batch at $13.7k, has twitter. Best risk/reward in this slate.
+
