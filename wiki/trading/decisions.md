@@ -12841,3 +12841,6 @@
 ## [2026-09-03 05:47 UTC] sell | [FULL][LLM] $Rank 1 at $3.18446e-06 | P&L: -0.1%
 - **Reasoning:** Held 0min at -0.1%, pool only $198 (illiquid), bonding-curve stage. No momentum, no edge — cut early before the -30% cap hits. Free the slot for fresher attention.
 
+## [2026-09-03 05:51 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
