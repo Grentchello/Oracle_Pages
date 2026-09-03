@@ -13003,3 +13003,9 @@
 ## [2026-09-03 08:43 UTC] buy | [LLM] $gvw at $3.581e-06, spent 0.02 SOL
 - **Reasoning:** $GVW has the cleanest narrative of the batch — ghost vs wolves battle with character art, a dedicated creator twitter (gh1stsol), and a clear story arc. $3.5k mcap with 1.2min age gives early entry. Skipping the 6 $BEN clones since they split the same Solflare-attention across many mints, and skipping $Israel :/ + $PISSWASHER for fragility gate (political/celebrity keywords).
 
+## [2026-09-03 08:44 UTC] sell | [TP +30% (25%)] $gvw at $5.17866e-06 | P&L: +44.6%
+- **Reasoning:** Auto take-profit at +44.6%
+
+## [2026-09-03 08:45 UTC] sell | [FULL][LLM] $gvw at $5.17866e-06 | P&L: +44.6%
+- **Reasoning:** Up +44.6% past TP threshold on a $1077 pool with our share at 0% — price is thin and illiquid, lock the gain before it reverses or we get stuck when bigger sellers arrive.
+
