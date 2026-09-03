@@ -13684,3 +13684,6 @@
 ## [2026-09-03 16:49 UTC] buy | [LLM] $xAI at $3.83866e-06, spent 0.02 SOL
 - **Reasoning:** $xAI — AI-agent self-building narrative is the strongest meta, real twitter handle (x.com/xoromeai), description passes viability gate, sub-$4k mcap has 10x room. Risk: GMGN fragility score unverifiable from this environment (Cloudflare block), so I'm sizing at the 0.05 SOL minimum and reserving the second slot for a confirmed-clear candidate next tick.
 
+## [2026-09-03 16:50 UTC] buy | [LLM] $HSOG at $3.03222e-06, spent 0.02 SOL
+- **Reasoning:** $HSOG 'HotSog 🌭 half dachshund half bun' has the absurdist humor hook that memecoins need to go viral on CT. Twitter present (@DontLikeInbredd), fresh0.8min launch at $3k mcap — early enough for attention capture.
+
