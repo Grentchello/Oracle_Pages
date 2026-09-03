@@ -13993,3 +13993,9 @@
 ## [2026-09-03 20:43 UTC] sell | [FULL][LLM] $Intern at $4.063e-05 | P&L: +91.9%
 - **Reasoning:** +91.9% in <1 min on a $15.5k pool — peak attention has likely been captured, and small pools collapse fast after the initial pop. Lock the gain. Without a sell, a quick 50% retrace is real risk.
 
+## [2026-09-03 20:45 UTC] buy | [LLM] $DEAXON at $6.15032e-06, spent 0.02 SOL
+- **Reasoning:** $DEAXON has the freshest narrative — anti-spyware 'exposing the reich' angle is edgy political attention that travels on X, twitter link present, mcap $6k with bond 24% (momentum). Risk: political fragility per ME2F, but not in blocklist keywords.
+
+## [2026-09-03 20:45 UTC] buy | [LLM] $myAImademe at $3.871e-06, spent 0.02 SOL
+- **Reasoning:** $myAImademe has a clean viral hook — 'Boomer' character + AI trading shark, twitter handle active, passes viability gate (desc ≥50 chars + twitter). AI meta is hot attention right now. Risk: $3.8k mcap means liquidity could fail 5x gate.
+
