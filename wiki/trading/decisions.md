@@ -12532,3 +12532,6 @@
 ## [2026-09-03 00:36 UTC] buy | [LLM] $WAGR at $5.51758e-06, spent 0.02 SOL
 - **Reasoning:** WAGR combines a clear prediction-markets narrative with xStocks, PreStocks, and memecoin framing, plus an early $5.5K mcap launch and a dedicated Twitter account. It has the strongest early attention and narrative combination in the slate, though ultra-low bonding progress and low liquidity make it high risk.
 
+## [2026-09-03 00:37 UTC] sell | [FULL][LLM] $WAGR at $6.63934e-06 | P&L: +20.3%
+- **Reasoning:** +20.3% gain with our share=0% (illiquid/slippage concern) and pool only $1626. Per discipline: when up >20% with any doubt, lock the gain. Frees slot for fresh alpha.
+

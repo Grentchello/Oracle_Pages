@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.315632,
+  "balance_sol": 0.339691,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 0.363184713,
         "description": "Dogs have legs. Cats have arms. You’ve been lied to your entire life. $CATARM",
         "twitter": "https://x.com/CatArmRH",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "WAGRzJvM1paARxegQcJmUAZ5u6UzUETukjoxXDM7Ks9": {
-      "symbol": "WAGR",
-      "name": "WAGR",
-      "amount": 360955.30183062167,
-      "entry_price_usd": 5.517580680764065e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T00:36:03.208508+00:00",
-      "entry_usd_value": 1.9916,
-      "entry_signals": {
-        "liquidity_usd": 1418.6751820550398,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5524.817435630966,
-        "ath_market_cap_usd": 5587.279453327697,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 14.246587488,
-        "description": "predict the next pair. xStocks, PreStocks & memecoins. bet right, get paid.",
-        "twitter": "https://x.com/LetsWagrr",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -25854,19 +25832,30 @@
       "pnl_pct": -2.39,
       "exit_reason": "LLM: sell_all — The position is down 2.4% and is not at a profit threshold, while the reported 104% pool share indicates extreme concentration and exit fragility. Wit",
       "partial": true
+    },
+    {
+      "mint": "WAGRzJvM1paARxegQcJmUAZ5u6UzUETukjoxXDM7Ks9",
+      "symbol": "WAGR",
+      "name": "WAGR",
+      "amount_sold": 360955.30183062167,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T00:36:03.208508+00:00",
+      "exit_time": "2026-09-03T00:37:33.719595+00:00",
+      "entry_price_usd": 5.517580680764065e-06,
+      "exit_price_usd": 6.639344169717918e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.024059,
+      "pnl_sol": 0.004059,
+      "pnl_pct": 20.33,
+      "exit_reason": "LLM: sell_all — +20.3% gain with our share=0% (illiquid/slippage concern) and pool only $1626. Per discipline: when up >20% with any doubt, lock the gain. Frees slot ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T00:36:03.208762+00:00",
+  "last_updated": "2026-09-03T00:37:33.979968+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.58,
-  "portfolio_value_usd": 33.9,
+  "last_sol_price_usd": 99.61,
+  "portfolio_value_usd": 34.31,
   "recent_decisions": [
-    {
-      "time": "2026-09-02 22:08 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-02 22:20 UTC",
       "action": "observe",
@@ -25980,40 +25969,57 @@
       "action": "buy",
       "details": "[LLM] $WAGR at $5.51758e-06, spent 0.02 SOL",
       "reason": "WAGR combines a clear prediction-markets narrative with xStocks, PreStocks, and memecoin framing, plus an early $5.5K mcap launch and a dedicated Twitter account. It has the strongest early attention and narrative combination in the slate, though ultra-low bonding progress and low liquidity make it high risk."
+    },
+    {
+      "time": "2026-09-03 00:37 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WAGR at $6.63934e-06 | P&L: +20.3%",
+      "reason": "+20.3% gain with our share=0% (illiquid/slippage concern) and pool only $1626. Per discipline: when up >20% with any doubt, lock the gain. Frees slot for fresh alpha."
     }
   ],
   "trade_stats": {
-    "total": 1518,
-    "wins": 764,
+    "total": 1519,
+    "wins": 765,
     "losses": 754,
-    "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.992226,
-    "avg_pnl_pct": 36.88,
+    "win_rate_pct": 50.4,
+    "total_pnl_sol": -1.988167,
+    "avg_pnl_pct": 36.87,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 7,
-    "today_realized_sol": 0.000635,
-    "today_target_pct": 0.2,
+    "today_trades": 8,
+    "today_realized_sol": 0.004694,
+    "today_target_pct": 1.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 764,
+      "win_count": 765,
       "loss_count": 754,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T00:36:01.755172+00:00",
+  "last_llm_brief_at": "2026-09-03T00:37:33.719555+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BmHQ9NVaM4BMqkzkHmZWrSU2D4janhymH52gHLkzpump": {
-      "price_usd": 2.7876259014268077e-06,
+      "price_usd": 2.7884657164202078e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.86071682784,
-      "volume_h24": 174.61,
+      "liquidity_usd": 1.8612773972799999,
+      "volume_h24": 208.94,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.018685648
+    },
+    "WAGRzJvM1paARxegQcJmUAZ5u6UzUETukjoxXDM7Ks9": {
+      "price_usd": 6.639344169717918e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1625.66769626835,
+      "volume_h24": 1742.21,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 16.320326235
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
