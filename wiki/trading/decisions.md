@@ -13780,3 +13780,6 @@
 ## [2026-09-03 18:19 UTC] buy | [LLM] $CAPE at $1.576e-05, spent 0.02 SOL
 - **Reasoning:** Strongest narrative in batch — continuation of viral 'wif' meme series (dogwifhat → apwifcape). Highest mcap $16k, bond 36% = real organic buys, twitter community link. Best attention-to-risk ratio.
 
+## [2026-09-03 18:22 UTC] sell | [PARTIAL][LLM] $CAPE at $1.82187e-05 | P&L: +15.6%
+- **Reasoning:** $CAPE up +15.6% with only 0.0h held, very low liquidity pool ($4.7k) and our share=0% (haven't actually filled). Low liquidity means any sell will crash price. Lock partial gain now before it reverses on bonding-curve with this little depth.
+
