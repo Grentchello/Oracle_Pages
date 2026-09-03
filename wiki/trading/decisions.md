@@ -14101,3 +14101,6 @@
 ## [2026-09-03 21:29 UTC] buy | [LLM] $BROKE at $4.627e-06, spent 0.02 SOL
 - **Reasoning:** $BROKE has the strongest narrative on the slate—'rich for 7 seconds' is relatable, concise, and linked to an X post—plus a $21,868 market cap that is already running. It is still a very young, low-bond launch, so entry depends on liquidity and GMGN fragility checks passing.
 
+## [2026-09-03 21:30 UTC] sell | [hard-stop] $BROKE closed at $2.89021e-08 | P&L: -99.4%
+- **Reasoning:** Hard -30% stop
+
