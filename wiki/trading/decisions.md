@@ -13909,3 +13909,6 @@
 ## [2026-09-03 19:42 UTC] buy | [LLM] $DENAR at $4.085e-06, spent 0.02 SOL
 - **Reasoning:** $DENAR has a real product narrative (tokenized equity money market on Solana), active @DenarMarkets twitter, viability passes. mcap only $4.2k with 14% bond — early entry on a utility-tinged narrative, not pure meme but has attention hook.
 
+## [2026-09-03 19:43 UTC] sell | [hard-stop] $Sam2 closed at $2.9522e-06 | P&L: -60.0%
+- **Reasoning:** Hard -30% stop
+
