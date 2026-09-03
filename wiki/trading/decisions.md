@@ -12568,3 +12568,6 @@
 ## [2026-09-03 01:20 UTC] buy | [LLM] $Snorter at $3.07629e-06, spent 0.02 SOL
 - **Reasoning:** Snorter bot ecosystem narrative (recurring meta-narrative in 2024-2025), has twitter + 50+ char desc + real project story, passes viability gate. $3k mcap = early enough for attention pump. Risk: thin liquidity at $3k mcap means exit slippage.
 
+## [2026-09-03 01:22 UTC] sell | [FULL][LLM] $PULE  at $2.81823e-06 | P&L: -20.0%
+- **Reasoning:** Down exactly -20%, pool only $10, bonding-curve dead zone. At the edge of the -30% hard stop — exit before the bot force-closes it. Freeing slot for a better narrative play.
+

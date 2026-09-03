@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.303921,
+  "balance_sol": 0.31996,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "FAEubwKUqhu1q8kQVybvefzWcQP8WYnmiAm8BheWpump": {
-      "symbol": "PULE ",
-      "name": "Pulesol",
-      "amount": 569660.3832476446,
-      "entry_price_usd": 3.5210452736153013e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T01:18:57.395663+00:00",
-      "entry_usd_value": 2.0058000000000002,
-      "entry_signals": {
-        "liquidity_usd": 90.08293039137,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3507.472086711101,
-        "ath_market_cap_usd": 5854.550604295276,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.898224453,
-        "description": "see who made the token before you buy it. every solana launch, free, no wallet. ",
-        "twitter": "https://x.com/pulesol",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "D4qURGyrSbVvniWy6zTy9s2yNYa5kuVDXFDhxKpQpump": {
       "symbol": "Snorter",
       "name": "Snorter",
@@ -25956,19 +25934,30 @@
       "pnl_pct": 0.45,
       "exit_reason": "LLM: sell_all — $SOLID is +0.5% after 0.1h with only $199 pool liquidity (well below 5x position size gate of ~$500). Stagnant, illiquid, and our 1% share of a $199 p",
       "partial": false
+    },
+    {
+      "mint": "FAEubwKUqhu1q8kQVybvefzWcQP8WYnmiAm8BheWpump",
+      "symbol": "PULE ",
+      "name": "Pulesol",
+      "amount_sold": 569660.3832476446,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T01:18:57.395663+00:00",
+      "exit_time": "2026-09-03T01:22:04.435858+00:00",
+      "entry_price_usd": 3.5210452736153013e-06,
+      "exit_price_usd": 2.8182304284182113e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016039,
+      "pnl_sol": -0.003961,
+      "pnl_pct": -19.96,
+      "exit_reason": "LLM: sell_all — Down exactly -20%, pool only $10, bonding-curve dead zone. At the edge of the -30% hard stop — exit before the bot force-closes it. Freeing slot for a",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T01:20:28.220590+00:00",
+  "last_updated": "2026-09-03T01:22:04.708780+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.29,
-  "portfolio_value_usd": 34.49,
+  "last_sol_price_usd": 100.098,
+  "portfolio_value_usd": 34.03,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 00:25 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $COZY at $1.47432e-05 | P&L: +29.4%",
-      "reason": "Up 29.4%, past first TP threshold but bot hasn't fired. Lock half the gain — bonding curve pool is thin ($3.9k), narrative unclear, don't hope for continuation."
-    },
     {
       "time": "2026-09-03 00:26 UTC",
       "action": "sell",
@@ -26082,40 +26071,57 @@
       "action": "buy",
       "details": "[LLM] $Snorter at $3.07629e-06, spent 0.02 SOL",
       "reason": "Snorter bot ecosystem narrative (recurring meta-narrative in 2024-2025), has twitter + 50+ char desc + real project story, passes viability gate. $3k mcap = early enough for attention pump. Risk: thin liquidity at $3k mcap means exit slippage."
+    },
+    {
+      "time": "2026-09-03 01:22 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PULE  at $2.81823e-06 | P&L: -20.0%",
+      "reason": "Down exactly -20%, pool only $10, bonding-curve dead zone. At the edge of the -30% hard stop — exit before the bot force-closes it. Freeing slot for a better narrative play."
     }
   ],
   "trade_stats": {
-    "total": 1524,
+    "total": 1525,
     "wins": 766,
-    "losses": 758,
-    "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.988721,
-    "avg_pnl_pct": 36.75,
+    "losses": 759,
+    "win_rate_pct": 50.2,
+    "total_pnl_sol": -1.992682,
+    "avg_pnl_pct": 36.71,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 13,
-    "today_realized_sol": 0.00414,
-    "today_target_pct": 1.0,
+    "today_trades": 14,
+    "today_realized_sol": 0.000179,
+    "today_target_pct": 0.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 766,
-      "loss_count": 758,
+      "loss_count": 759,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T01:20:26.393785+00:00",
+  "last_llm_brief_at": "2026-09-03T01:22:04.435811+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FAEubwKUqhu1q8kQVybvefzWcQP8WYnmiAm8BheWpump": {
-      "price_usd": 2.994254540516741e-06,
+      "price_usd": 2.8182304284182113e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 100.39263959412001,
-      "volume_h24": 4933.61,
+      "liquidity_usd": 10.49229638352,
+      "volume_h24": 5028.63,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.001023428
+      "real_sol_reserves": 0.10482024
+    },
+    "D4qURGyrSbVvniWy6zTy9s2yNYa5kuVDXFDhxKpQpump": {
+      "price_usd": 2.9998747055357876e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 106.08881114698201,
+      "volume_h24": 722.39,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.059849459
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
