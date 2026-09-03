@@ -12862,3 +12862,9 @@
 ## [2026-09-03 06:08 UTC] buy | [LLM] $Kauaʻi at $8.65267e-06, spent 0.02 SOL
 - **Reasoning:** $Kauaʻi has the strongest narrative of the batch — 'last known male' Kauaʻi bird story with a real creator twitter link, already $8.6k mcap and 30% bonded (real traction, not just-launch). Emotional extinction stories are proven viral fuel.
 
+## [2026-09-03 06:09 UTC] sell | [FULL][LLM] $Wally at $2.84786e-06 | P&L: -0.7%
+- **Reasoning:** Down -0.7% already, pool only $19 (dangerously thin, we own 11%), and -30% hard stop is way too close for a $19 pool where one dump = disaster. Cut now.
+
+## [2026-09-03 06:09 UTC] sell | [PARTIAL][LLM] $Kauaʻi at $1.00089e-05 | P&L: +15.7%
+- **Reasoning:** Up +15.7% with a real pool ($2675) but our share is 0% so we're tiny — book half the gain to lock profit and let the rest ride if Kauaʻi narrative continues. Per scalp discipline, >15% gains should be banked.
+
