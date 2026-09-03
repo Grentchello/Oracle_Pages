@@ -1,26 +1,26 @@
 {
-  "balance_sol": 0.324918,
+  "balance_sol": 0.329834,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "EJcTTMjUwHfcSDaMvqFYB3VYZRw5L6Y81m4L2AL2pump": {
-      "symbol": "GOLDBULL",
-      "name": "THE GOLD BULL 𓄀",
-      "amount": 365500.9965573473,
-      "entry_price_usd": 5.519e-06,
+    "4L6K7PJZKqjf18kpfvnfVbJeuBbJ27Z1XiaYf9hxpump": {
+      "symbol": "cow",
+      "name": "cashcow",
+      "amount": 547637.1537208039,
+      "entry_price_usd": 3.682e-06,
       "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T11:52:20.447108+00:00",
-      "entry_usd_value": 2.0172,
+      "entry_time": "2026-09-03T11:53:40.300566+00:00",
+      "entry_usd_value": 2.0164,
       "entry_signals": {
-        "liquidity_usd": 1404.56888839206,
-        "volume_24h_usd": 1206.53,
-        "market_cap_usd": 6019.46833714007,
-        "ath_market_cap_usd": 6045.00654612903,
+        "liquidity_usd": 834.25374664018,
+        "volume_24h_usd": 430.78,
+        "market_cap_usd": 5362.98422270067,
+        "ath_market_cap_usd": 5398.059485590555,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 13.925925921,
-        "description": "My version of a memecoin is now available on Pump.fun. I will make several purchases until the bonding curve is completed,  after which the airdrop will take place. 60% of the tokens will be distributed among the top 50 holders; the airdrop allocation will be proportional  to the number of tokens ea",
-        "twitter": "https://x.com/TheGoldBullDEV",
+        "real_sol_reserves": 8.274685049,
+        "description": "Self-tuning http://pump.fun launcher. 10 independent sources, hard-capped spend, code-enforced allowlist. Public dashboard includes the duds.",
+        "twitter": "https://x.com/cashcowEXE",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -28110,25 +28110,30 @@
       "pnl_pct": -79.62,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "EJcTTMjUwHfcSDaMvqFYB3VYZRw5L6Y81m4L2AL2pump",
+      "symbol": "GOLDBULL",
+      "name": "THE GOLD BULL 𓄀",
+      "amount_sold": 365500.9965573473,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T11:52:20.447108+00:00",
+      "exit_time": "2026-09-03T11:53:39.030686+00:00",
+      "entry_price_usd": 5.519e-06,
+      "exit_price_usd": 6.872798438462799e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.024916,
+      "pnl_sol": 0.004916,
+      "pnl_pct": 24.53,
+      "exit_reason": "LLM: sell_all — GOLDBULL is +24.5% — well past the +20% profit-taking threshold. Pool is tiny ($1,698) and we're at 0% share, meaning thin liquidity and high risk of ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T11:52:20.729775+00:00",
+  "last_updated": "2026-09-03T11:53:40.300734+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.86,
-  "portfolio_value_usd": 34.79,
+  "last_sol_price_usd": 100.82,
+  "portfolio_value_usd": 35.27,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 11:11 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $NYANOUTFIT at $2.88235e-06 | P&L: -7.2%",
-      "reason": "Pool only $40, we're 5% of it — illiquid bonding curve bag with no clear catalyst. Free up slot for stronger narrative play. Loss is small (-7.2%), better to rotate than hold a thin-pool dead position."
-    },
-    {
-      "time": "2026-09-03 11:14 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-03 11:19 UTC",
       "action": "buy",
@@ -28236,30 +28241,54 @@
       "action": "buy",
       "details": "[LLM] $GOLDBULL at $5.519e-06, spent 0.02 SOL",
       "reason": "GOLDBULL has the strongest launch signal: a $6,019 market cap, 24% bonding progress, a descriptive narrative, and an identifiable X account. The 0.4-minute-old token is extremely fresh and may fail the $3,000 liquidity or GMGN fragility gate, but its attention profile warrants testing."
+    },
+    {
+      "time": "2026-09-03 11:53 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GOLDBULL at $6.8728e-06 | P&L: +24.5%",
+      "reason": "GOLDBULL is +24.5% — well past the +20% profit-taking threshold. Pool is tiny ($1,698) and we're at 0% share, meaning thin liquidity and high risk of rug-pull. Locking in gains now per scalp discipline."
+    },
+    {
+      "time": "2026-09-03 11:53 UTC",
+      "action": "buy",
+      "details": "[LLM] $cow at $3.682e-06, spent 0.02 SOL",
+      "reason": "$cow (cashcow) has a real product narrative: 'Self-tuning pump.fun launcher with 10 independent sources, hard-capped spend, code-enforced allowlist' — this is utility-meta attention, exactly the kind of narrative that pumps in current meta. $5.3k mcap is fresh, twitter active (@cashcowEXE). High attention signal."
     }
   ],
   "trade_stats": {
-    "total": 1652,
-    "wins": 830,
+    "total": 1653,
+    "wins": 831,
     "losses": 822,
-    "win_rate_pct": 50.2,
-    "total_pnl_sol": -1.987727,
-    "avg_pnl_pct": 35.35,
+    "win_rate_pct": 50.3,
+    "total_pnl_sol": -1.982811,
+    "avg_pnl_pct": 35.34,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 141,
-    "today_realized_sol": 0.005134,
-    "today_target_pct": 1.3,
+    "today_trades": 142,
+    "today_realized_sol": 0.01005,
+    "today_target_pct": 2.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 830,
+      "win_count": 831,
       "loss_count": 822,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T11:52:19.069965+00:00",
+  "last_llm_brief_at": "2026-09-03T11:53:39.030643+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EJcTTMjUwHfcSDaMvqFYB3VYZRw5L6Y81m4L2AL2pump": {
+      "price_usd": 6.872798438462799e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1698.21178822692,
+      "volume_h24": 1513.29,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 16.843997106
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

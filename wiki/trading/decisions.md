@@ -13204,3 +13204,9 @@
 ## [2026-09-03 11:52 UTC] buy | [LLM] $GOLDBULL at $5.519e-06, spent 0.02 SOL
 - **Reasoning:** GOLDBULL has the strongest launch signal: a $6,019 market cap, 24% bonding progress, a descriptive narrative, and an identifiable X account. The 0.4-minute-old token is extremely fresh and may fail the $3,000 liquidity or GMGN fragility gate, but its attention profile warrants testing.
 
+## [2026-09-03 11:53 UTC] sell | [FULL][LLM] $GOLDBULL at $6.8728e-06 | P&L: +24.5%
+- **Reasoning:** GOLDBULL is +24.5% — well past the +20% profit-taking threshold. Pool is tiny ($1,698) and we're at 0% share, meaning thin liquidity and high risk of rug-pull. Locking in gains now per scalp discipline.
+
+## [2026-09-03 11:53 UTC] buy | [LLM] $cow at $3.682e-06, spent 0.02 SOL
+- **Reasoning:** $cow (cashcow) has a real product narrative: 'Self-tuning pump.fun launcher with 10 independent sources, hard-capped spend, code-enforced allowlist' — this is utility-meta attention, exactly the kind of narrative that pumps in current meta. $5.3k mcap is fresh, twitter active (@cashcowEXE). High attention signal.
+
