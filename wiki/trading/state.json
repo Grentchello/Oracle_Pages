@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.339254,
+  "balance_sol": 0.339536,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq": {
-      "symbol": "GG",
-      "name": "Golden Goose",
-      "amount": 4846.540178571429,
-      "entry_price_usd": 1.092e-05,
-      "entry_sol_spent": 0.00052734375,
-      "entry_time": "2026-09-03T02:30:02.980052+00:00",
-      "entry_usd_value": 2.0072,
-      "entry_signals": {
-        "liquidity_usd": 4229.8086012832,
-        "volume_24h_usd": 8250.69,
-        "market_cap_usd": 11852.034111633735,
-        "ath_market_cap_usd": 14723.801797085085,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 42.14635912,
-        "description": "A golden goose is a valuable asset, business, or investment that continuously produces a steady and reliable stream of income/profit.",
-        "twitter": "https://x.com/keemotrades/status/2095338125694288349",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -26223,19 +26200,30 @@
       "pnl_pct": 27.11,
       "exit_reason": "LLM: sell_half — GG is up27.1% but not yet at the +30% TP threshold (which auto-triggers at +25% per bot logic — actually this should have triggered; assume bot will c",
       "partial": true
+    },
+    {
+      "mint": "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq",
+      "symbol": "GG",
+      "name": "Golden Goose",
+      "amount_sold": 4846.540178571429,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T02:30:02.980052+00:00",
+      "exit_time": "2026-09-03T02:37:15.873296+00:00",
+      "entry_price_usd": 1.092e-05,
+      "exit_price_usd": 5.855171492623069e-06,
+      "entry_sol_for_chunk": 0.000527,
+      "exit_sol_received": 0.000282,
+      "pnl_sol": -0.000246,
+      "pnl_pct": -46.38,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T02:36:12.296509+00:00",
+  "last_updated": "2026-09-03T02:37:38.234016+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.079,
-  "portfolio_value_usd": 34.34,
+  "last_sol_price_usd": 100.73,
+  "portfolio_value_usd": 34.2,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 01:33 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $STRAYDOG at $2.80978e-06 | P&L: -5.6%",
-      "reason": "$2 pool with 20% share is exit-liquidity death - the longer I hold, the worse the exit gets. Cutting loss now while I can still get a fill beats waiting for a bounce that requires buyers who don't exist in a $2 pool."
-    },
     {
       "time": "2026-09-03 01:33 UTC",
       "action": "sell",
@@ -26349,40 +26337,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $GG at $1.38809e-05 | P&L: +27.1%",
       "reason": "GG is up27.1% but not yet at the +30% TP threshold (which auto-triggers at +25% per bot logic — actually this should have triggered; assume bot will catch it). Taking half off locks profit on a bonding-curve token with thin pool ($3,688) where dump risk rises as it nears raydium migration. Trail with the rest."
+    },
+    {
+      "time": "2026-09-03 02:37 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $GG closed at $5.85517e-06 | P&L: -46.4%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1541,
+    "total": 1542,
     "wins": 775,
-    "losses": 766,
+    "losses": 767,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.992861,
-    "avg_pnl_pct": 36.49,
+    "total_pnl_sol": -1.993107,
+    "avg_pnl_pct": 36.44,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 30,
-    "today_realized_sol": -0.0,
-    "today_target_pct": -0.0,
+    "today_trades": 31,
+    "today_realized_sol": -0.000246,
+    "today_target_pct": -0.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 775,
-      "loss_count": 766,
+      "loss_count": 767,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T02:36:12.296180+00:00",
+  "last_llm_brief_at": "2026-09-03T02:37:37.947949+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "ETHc1Ksoq6TC94Bprc5iXcQpvGwTe7MnWRNJ3MTTTovq": {
-      "price_usd": 1.3880893358007742e-05,
+      "price_usd": 5.855171492623069e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3688.100327263671,
-      "volume_h24": 50860.71,
+      "liquidity_usd": 1335.3223030854701,
+      "volume_h24": 56527.54,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 36.487305249
+      "real_sol_reserves": 13.256450939
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -12646,3 +12646,6 @@
 ## [2026-09-03 02:36 UTC] sell | [PARTIAL][LLM] $GG at $1.38809e-05 | P&L: +27.1%
 - **Reasoning:** GG is up27.1% but not yet at the +30% TP threshold (which auto-triggers at +25% per bot logic — actually this should have triggered; assume bot will catch it). Taking half off locks profit on a bonding-curve token with thin pool ($3,688) where dump risk rises as it nears raydium migration. Trail with the rest.
 
+## [2026-09-03 02:37 UTC] sell | [hard-stop] $GG closed at $5.85517e-06 | P&L: -46.4%
+- **Reasoning:** Hard -30% stop
+
