@@ -12850,3 +12850,9 @@
 ## [2026-09-03 06:00 UTC] buy | [LLM] $WSBCOIN at $3.013e-06, spent 0.02 SOL
 - **Reasoning:** $WSBCOIN — WSB actually posting about Reddit ad sales is a real attention catalyst, not just a theme. Recognizable brand, fresh launch, Twitter link to the actual story. Best narrative-to-launch ratio on the board.
 
+## [2026-09-03 06:02 UTC] sell | [FULL][LLM] $Harold at $2.81799e-06 | P&L: -6.3%
+- **Reasoning:** $Harold is a zombie bonding-curve position (pool=$0, our share=936240672% means we ARE the liquidity — there's no counterparty to exit into at any clean price). Down only 6.3% but the structure makes this an exit trap. Cut and rotate capital into fresh attention.
+
+## [2026-09-03 06:02 UTC] sell | [FULL][LLM] $WSBCOIN at $2.84215e-06 | P&L: -5.7%
+- **Reasoning:** WSBCOIN pool=$13 is effectively untradable, down 5.7% at 0.0h held — classic fresh-launch bleed. No real liquidity means no clean exit. Freeing both slots to rotate into the live attention slate (Cointelegraph $ALMOND, Musk $BOT).
+

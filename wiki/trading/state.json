@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.333116,
+  "balance_sol": 0.370724,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Hpiq9t7ZGWvczJoXBbKR1RKBQnNJMZRcTHeAwN3Lpump": {
-      "symbol": "Harold",
-      "name": "Harold The Trader",
-      "amount": 669724.160850781,
-      "entry_price_usd": 3.009e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T05:57:13.999546+00:00",
-      "entry_usd_value": 2.0152,
-      "entry_signals": {
-        "liquidity_usd": 13.018462339080003,
-        "volume_24h_usd": 103.24,
-        "market_cap_usd": 2999.1123269587633,
-        "ath_market_cap_usd": 3009.6958759696663,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.129202683,
-        "description": "Waited a while for someone to deploy this so ive decided to do it myself",
-        "twitter": "https://x.com/BenitoMuss5gzu/status/2095390222632587349?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "GSqTsGLN6UewJwRwE7XRctQZEMu6ba1wyjyhrp8qpump": {
-      "symbol": "WSBCOIN",
-      "name": "WallstreetBets Coin",
-      "amount": 669631.5964155326,
-      "entry_price_usd": 3.013e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T06:00:28.077064+00:00",
-      "entry_usd_value": 2.0176,
-      "entry_signals": {
-        "liquidity_usd": 12.94470601944,
-        "volume_24h_usd": 103.29,
-        "market_cap_usd": 2843.2542367532724,
-        "ath_market_cap_usd": 2844.0258970529835,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.128317863,
-        "description": "r/wallstreetbets posted on their reddit they are selling advertisements in their reddit,",
-        "twitter": "https://x.com/BananaInte/status/2095390968346284118?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -26908,25 +26863,47 @@
       "pnl_pct": -0.15,
       "exit_reason": "LLM: sell_all — Held 0min at -0.1%, pool only $198 (illiquid), bonding-curve stage. No momentum, no edge — cut early before the -30% cap hits. Free the slot for fresh",
       "partial": false
+    },
+    {
+      "mint": "Hpiq9t7ZGWvczJoXBbKR1RKBQnNJMZRcTHeAwN3Lpump",
+      "symbol": "Harold",
+      "name": "Harold The Trader",
+      "amount_sold": 669724.1429674476,
+      "fraction_sold": 0.9999999732974643,
+      "entry_time": "2026-09-03T05:57:13.999546+00:00",
+      "exit_time": "2026-09-03T06:02:18.161133+00:00",
+      "entry_price_usd": 3.009e-06,
+      "exit_price_usd": 2.817986952657577e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018725,
+      "pnl_sol": -0.001275,
+      "pnl_pct": -6.35,
+      "exit_reason": "LLM: sell_all — $Harold is a zombie bonding-curve position (pool=$0, our share=936240672% means we ARE the liquidity — there's no counterparty to exit into at any cle",
+      "partial": false
+    },
+    {
+      "mint": "GSqTsGLN6UewJwRwE7XRctQZEMu6ba1wyjyhrp8qpump",
+      "symbol": "WSBCOIN",
+      "name": "WallstreetBets Coin",
+      "amount_sold": 669631.5964155326,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T06:00:28.077064+00:00",
+      "exit_time": "2026-09-03T06:02:18.162536+00:00",
+      "entry_price_usd": 3.013e-06,
+      "exit_price_usd": 2.8421450450388543e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018883,
+      "pnl_sol": -0.001117,
+      "pnl_pct": -5.67,
+      "exit_reason": "LLM: sell_all — WSBCOIN pool=$13 is effectively untradable, down 5.7% at 0.0h held — classic fresh-launch bleed. No real liquidity means no clean exit. Freeing both s",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T06:00:28.077253+00:00",
+  "last_updated": "2026-09-03T06:02:18.162696+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.88,
-  "portfolio_value_usd": 37.64,
+  "last_sol_price_usd": 100.79,
+  "portfolio_value_usd": 37.37,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 04:56 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SHREK at $3.02626e-06 | P&L: -16.6%",
-      "reason": "$SHREK is -16.6% with only $111 pool liquidity and 2% of that is ours — thin exit depth and approaching the -20% 'exit fast' threshold. Free the slot for fresher attention."
-    },
-    {
-      "time": "2026-09-03 05:00 UTC",
-      "action": "buy",
-      "details": "[LLM] $PussyCat at $4.8291e-06, spent 0.02 SOL",
-      "reason": "$PussyCat has a viral self-aware narrative ('pussy the whole timeline can afford'), active twitter, and is0.1min old at $4.8k mcap — peak attention-launched conditions for a meta meme pump."
-    },
     {
       "time": "2026-09-03 05:04 UTC",
       "action": "sell",
@@ -27034,40 +27011,63 @@
       "action": "buy",
       "details": "[LLM] $WSBCOIN at $3.013e-06, spent 0.02 SOL",
       "reason": "$WSBCOIN — WSB actually posting about Reddit ad sales is a real attention catalyst, not just a theme. Recognizable brand, fresh launch, Twitter link to the actual story. Best narrative-to-launch ratio on the board."
+    },
+    {
+      "time": "2026-09-03 06:02 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Harold at $2.81799e-06 | P&L: -6.3%",
+      "reason": "$Harold is a zombie bonding-curve position (pool=$0, our share=936240672% means we ARE the liquidity — there's no counterparty to exit into at any clean price). Down only 6.3% but the structure makes this an exit trap. Cut and rotate capital into fresh attention."
+    },
+    {
+      "time": "2026-09-03 06:02 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WSBCOIN at $2.84215e-06 | P&L: -5.7%",
+      "reason": "WSBCOIN pool=$13 is effectively untradable, down 5.7% at 0.0h held — classic fresh-launch bleed. No real liquidity means no clean exit. Freeing both slots to rotate into the live attention slate (Cointelegraph $ALMOND, Musk $BOT)."
     }
   ],
   "trade_stats": {
-    "total": 1580,
+    "total": 1582,
     "wins": 795,
-    "losses": 785,
+    "losses": 787,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.959527,
-    "avg_pnl_pct": 35.94,
+    "total_pnl_sol": -1.961919,
+    "avg_pnl_pct": 35.89,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 69,
-    "today_realized_sol": 0.033334,
-    "today_target_pct": 8.3,
+    "today_trades": 71,
+    "today_realized_sol": 0.030942,
+    "today_target_pct": 7.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 795,
-      "loss_count": 785,
+      "loss_count": 787,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T06:00:26.666404+00:00",
+  "last_llm_brief_at": "2026-09-03T06:02:18.161046+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "Hpiq9t7ZGWvczJoXBbKR1RKBQnNJMZRcTHeAwN3Lpump": {
-      "price_usd": 2.844682926411708e-06,
+      "price_usd": 2.817986952657577e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 12.94470612032,
-      "volume_h24": 193.48,
+      "liquidity_usd": 2.0158000000000004e-07,
+      "volume_h24": 193.57,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.128317864
+      "real_sol_reserves": 2e-09
+    },
+    "GSqTsGLN6UewJwRwE7XRctQZEMu6ba1wyjyhrp8qpump": {
+      "price_usd": 2.8421450450388543e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 12.93315741177,
+      "volume_h24": 193.65,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.128317863
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
