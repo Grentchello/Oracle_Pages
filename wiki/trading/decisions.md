@@ -13288,3 +13288,6 @@
 ## [2026-09-03 12:30 UTC] sell | [PARTIAL][LLM] $shg at $5.83179e-06 | P&L: +67.9%
 - **Reasoning:** +67.9% in 0h is a strong pump on a tiny $1.3k pool. Take half off to lock gains — the other half rides free if it keeps going to +200%.
 
+## [2026-09-03 12:32 UTC] sell | [FULL][LLM] $shg at $2.82833e-06 | P&L: -18.6%
+- **Reasoning:** -18.6% and no bounce signal; 'our share=35798646%' indicates we're a dust position in a likely-failed launch. Exiting per stale/loser discipline to free the slot.
+
