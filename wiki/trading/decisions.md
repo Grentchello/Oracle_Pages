@@ -13177,3 +13177,9 @@
 ## [2026-09-03 11:25 UTC] sell | [PARTIAL][LLM] $raji at $2.81309e-06 | P&L: -26.2%
 - **Reasoning:** At -26.2% with 278% share (extremely illiquid), this is going to hit the -30% hard stop. Locking in -26% now is better than waiting for a worse auto-exit on a thin position. Stale losing slot.
 
+## [2026-09-03 11:27 UTC] sell | [FULL][LLM] $raji at $2.81449e-06 | P&L: -26.2%
+- **Reasoning:** $raji is down -26.2% with a $0 pool (still on bonding curve) and our share is 25% — this is approaching the -30% hard stop. No clear bounce signal, and a bonding-curve token with a 25% concentration suggests thin liquidity to escape from. Cut the loss now before the auto-stop hits.
+
+## [2026-09-03 11:27 UTC] sell | [FULL][LLM] $ROBINDWOG at $2.81435e-06 | P&L: -2.4%
+- **Reasoning:** $ROBINDWOG shows our share as 278815038% which is a data error flag — likely the position is far smaller than it looks or the display is broken. Token is essentially flat at -2.4% on a $0 pool with no momentum. Stale exit: flat for any time with no buyers = locked capital. Free the slot.
+

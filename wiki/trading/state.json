@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.344639,
+  "balance_sol": 0.364342,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2FczTLqgNUz9SkVDqMXMTauCTrCRc1BVds8TzThYpump": {
-      "symbol": "raji",
-      "name": "raji",
-      "amount": 6662.274778213839,
-      "entry_price_usd": 3.8139053312535195e-06,
-      "entry_sol_spent": 0.0002527029865231787,
-      "entry_time": "2026-09-03T11:19:47.791598+00:00",
-      "entry_usd_value": 2.011,
-      "entry_signals": {
-        "liquidity_usd": 496.97186539214994,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3805.297791612441,
-        "ath_market_cap_usd": 3835.877337228601,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.942534713,
-        "description": "🇮🇳 RAJI ($RAJI) — the Indian meme coin bringing desi energy 🌶️🔥 to the crypto streets! 🚀🌕 Born from memes 😂, powered by community 🤝, and fueled by pure internet chaos 🌀, RAJI is here to represent Indian culture 🇮🇳 with a global meme twist 🌎. From chai ☕ to crypto 💎, from Bollywood vibes 🎬 to full-se",
-        "twitter": "https://x.com/gh1stsol?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "HJotxeRkWSUuW9e8bgfAPPhZo8T4DN8PP3Dr1pM6pump": {
-      "symbol": "ROBINDWOG",
-      "name": "Robin Dwog",
-      "amount": 698059.9158195634,
-      "entry_price_usd": 2.882274077630992e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T11:24:06.388700+00:00",
-      "entry_usd_value": 2.012,
-      "entry_signals": {
-        "liquidity_usd": 39.7370006036,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2886.196047698694,
-        "ath_market_cap_usd": 5210.233379149014,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.395000006,
-        "description": "He is literally wearing a robinhood hat. The ultimate companion token to robincat, perfectly drawn in MS Paint style.",
-        "twitter": "https://x.com/chillmigratoor/status/2095472634280415456",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -28047,25 +28002,47 @@
       "pnl_pct": -26.24,
       "exit_reason": "LLM: sell_all — At -26.2% with 278% share (extremely illiquid), this is going to hit the -30% hard stop. Locking in -26% now is better than waiting for a worse auto-e",
       "partial": true
+    },
+    {
+      "mint": "2FczTLqgNUz9SkVDqMXMTauCTrCRc1BVds8TzThYpump",
+      "symbol": "raji",
+      "name": "raji",
+      "amount_sold": 6662.274778213839,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T11:19:47.791598+00:00",
+      "exit_time": "2026-09-03T11:27:23.570558+00:00",
+      "entry_price_usd": 3.8139053312535195e-06,
+      "exit_price_usd": 2.8144920855436582e-06,
+      "entry_sol_for_chunk": 0.000253,
+      "exit_sol_received": 0.000186,
+      "pnl_sol": -6.6e-05,
+      "pnl_pct": -26.2,
+      "exit_reason": "LLM: sell_all — $raji is down -26.2% with a $0 pool (still on bonding curve) and our share is 25% — this is approaching the -30% hard stop. No clear bounce signal, an",
+      "partial": false
+    },
+    {
+      "mint": "HJotxeRkWSUuW9e8bgfAPPhZo8T4DN8PP3Dr1pM6pump",
+      "symbol": "ROBINDWOG",
+      "name": "Robin Dwog",
+      "amount_sold": 698059.8532278967,
+      "fraction_sold": 0.9999999103348219,
+      "entry_time": "2026-09-03T11:24:06.388700+00:00",
+      "exit_time": "2026-09-03T11:27:23.570914+00:00",
+      "entry_price_usd": 2.882274077630992e-06,
+      "exit_price_usd": 2.8143522839744825e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019517,
+      "pnl_sol": -0.000483,
+      "pnl_pct": -2.36,
+      "exit_reason": "LLM: sell_all — $ROBINDWOG shows our share as 278815038% which is a data error flag — likely the position is far smaller than it looks or the display is broken. Token",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T11:25:50.243146+00:00",
+  "last_updated": "2026-09-03T11:27:23.828163+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.61,
-  "portfolio_value_usd": 36.71,
+  "last_sol_price_usd": 100.66,
+  "portfolio_value_usd": 36.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 10:54 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-03 10:59 UTC",
-      "action": "buy",
-      "details": "[LLM] $RISE at $4.95e-06, spent 0.02 SOL",
-      "reason": "$RISE is the only candidate passing the viability gate (desc=120 chars + twitter present). The airdrop-to-top-holders mechanic creates a self-reinforcing attention loop — holders have incentive to shill. mcap $5k with 21% bonding curve progress is the sweet spot: early but not zero traction. Risk: 0.6min old means no price history to confirm — but that's the alpha window the rules demand we play in."
-    },
     {
       "time": "2026-09-03 11:00 UTC",
       "action": "buy",
@@ -28173,35 +28150,47 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $raji at $2.81309e-06 | P&L: -26.2%",
       "reason": "At -26.2% with 278% share (extremely illiquid), this is going to hit the -30% hard stop. Locking in -26% now is better than waiting for a worse auto-exit on a thin position. Stale losing slot."
+    },
+    {
+      "time": "2026-09-03 11:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $raji at $2.81449e-06 | P&L: -26.2%",
+      "reason": "$raji is down -26.2% with a $0 pool (still on bonding curve) and our share is 25% — this is approaching the -30% hard stop. No clear bounce signal, and a bonding-curve token with a 25% concentration suggests thin liquidity to escape from. Cut the loss now before the auto-stop hits."
+    },
+    {
+      "time": "2026-09-03 11:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ROBINDWOG at $2.81435e-06 | P&L: -2.4%",
+      "reason": "$ROBINDWOG shows our share as 278815038% which is a data error flag — likely the position is far smaller than it looks or the display is broken. Token is essentially flat at -2.4% on a $0 pool with no momentum. Stale exit: flat for any time with no buyers = locked capital. Free the slot."
     }
   ],
   "trade_stats": {
-    "total": 1647,
+    "total": 1649,
     "wins": 829,
-    "losses": 818,
+    "losses": 820,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.967754,
-    "avg_pnl_pct": 35.53,
+    "total_pnl_sol": -1.968303,
+    "avg_pnl_pct": 35.47,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 136,
-    "today_realized_sol": 0.025107,
-    "today_target_pct": 6.3,
+    "today_trades": 138,
+    "today_realized_sol": 0.024558,
+    "today_target_pct": 6.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 829,
-      "loss_count": 818,
+      "loss_count": 820,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T11:25:50.241601+00:00",
+  "last_llm_brief_at": "2026-09-03T11:27:23.570507+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2FczTLqgNUz9SkVDqMXMTauCTrCRc1BVds8TzThYpump": {
-      "price_usd": 2.813094066427056e-06,
+      "price_usd": 2.8144920855436582e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.07496642259,
+      "liquidity_usd": 0.07500367854000001,
       "volume_h24": 2822.87,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
@@ -28209,15 +28198,15 @@
       "real_sol_reserves": 0.000745119
     },
     "HJotxeRkWSUuW9e8bgfAPPhZo8T4DN8PP3Dr1pM6pump": {
-      "price_usd": 2.887516455214558e-06,
+      "price_usd": 2.8143522839744825e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 39.74095060366,
+      "liquidity_usd": 7.046199999999999e-07,
       "volume_h24": 2319.98,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.395000006
+      "real_sol_reserves": 7e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
