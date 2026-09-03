@@ -13252,3 +13252,9 @@
 ## [2026-09-03 12:08 UTC] buy | [LLM] $HUGGY at $1.06586e-05, spent 0.02 SOL
 - **Reasoning:** $HUGGY (Hugging Face) has the strongest narrative of the batch — Hugging Face is a real AI brand with massive mindshare, $10.7k mcap is early,33% bonded shows traction. Clean political/celebrity keywords. Strong attention signal from ForestManSol.
 
+## [2026-09-03 12:11 UTC] sell | [FULL][LLM] $ENOS at $3.56869e-06 | P&L: +1.6%
+- **Reasoning:** ENOS is flat at +1.6% after 0.1h with only $380 pool liquidity — dangerously thin, high rug/slippage risk, no narrative momentum. Free slot and capital.
+
+## [2026-09-03 12:11 UTC] sell | [PARTIAL][LLM] $HUGGY at $1.33435e-05 | P&L: +25.2%
+- **Reasoning:** HUGGY at +25.2% hit the auto-TP threshold. Lock half the gain, let the rest ride if narrative continues — standard scalp discipline.
+

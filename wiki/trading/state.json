@@ -1,36 +1,14 @@
 {
-  "balance_sol": 0.327809,
+  "balance_sol": 0.360629,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "JAWDavuAX9P7yobJMf6pdbrR65JAq4Qs5xH8L6pXpump": {
-      "symbol": "ENOS",
-      "name": "The Forgotten Astrochimp",
-      "amount": 573136.0273192943,
-      "entry_price_usd": 3.514e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T12:07:02.316855+00:00",
-      "entry_usd_value": 2.0140000000000002,
-      "entry_signals": {
-        "liquidity_usd": 373.2489017505,
-        "volume_24h_usd": 402.92,
-        "market_cap_usd": 3523.0301486927415,
-        "ath_market_cap_usd": 3565.878385193714,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.706543215,
-        "description": "The first chimp to orbit Earth. The pioneer history forgot.",
-        "twitter": "https://x.com/01_shabe/status/2095482937793708065",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "Cbfcw4RgiPgjUqJ6x7wje8boQpbZh9RqtDWpRw2jyjT5": {
       "symbol": "HUGGY",
       "name": "HUGGING FACE",
-      "amount": 189048.44454066252,
+      "amount": 94524.22227033126,
       "entry_price_usd": 1.0658643634418229e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-03T12:08:29.672758+00:00",
       "entry_usd_value": 2.015,
       "entry_signals": {
@@ -28302,25 +28280,47 @@
       "pnl_pct": 41.79,
       "exit_reason": "LLM: sell_all — $SM is at +41.8%, well past the +30% take-profit threshold the bot should have auto-triggered. Lock the gain — bonding-curve tokens with 0% pool share",
       "partial": false
+    },
+    {
+      "mint": "JAWDavuAX9P7yobJMf6pdbrR65JAq4Qs5xH8L6pXpump",
+      "symbol": "ENOS",
+      "name": "The Forgotten Astrochimp",
+      "amount_sold": 573136.0273192943,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T12:07:02.316855+00:00",
+      "exit_time": "2026-09-03T12:11:28.787683+00:00",
+      "entry_price_usd": 3.514e-06,
+      "exit_price_usd": 3.5686901538551306e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020301,
+      "pnl_sol": 0.000301,
+      "pnl_pct": 1.56,
+      "exit_reason": "LLM: sell_all — ENOS is flat at +1.6% after 0.1h with only $380 pool liquidity — dangerously thin, high rug/slippage risk, no narrative momentum. Free slot and capita",
+      "partial": false
+    },
+    {
+      "mint": "Cbfcw4RgiPgjUqJ6x7wje8boQpbZh9RqtDWpRw2jyjT5",
+      "symbol": "HUGGY",
+      "name": "HUGGING FACE",
+      "amount_sold": 94524.22227033126,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T12:08:29.672758+00:00",
+      "exit_time": "2026-09-03T12:11:28.787912+00:00",
+      "entry_price_usd": 1.0658643634418229e-05,
+      "exit_price_usd": 1.3343528995540608e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.012519,
+      "pnl_sol": 0.002519,
+      "pnl_pct": 25.19,
+      "exit_reason": "LLM: sell_half — HUGGY at +25.2% hit the auto-TP threshold. Lock half the gain, let the rest ride if narrative continues — standard scalp discipline.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T12:09:44.885899+00:00",
+  "last_updated": "2026-09-03T12:11:29.052766+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.76,
-  "portfolio_value_usd": 37.06,
+  "last_sol_price_usd": 100.75,
+  "portfolio_value_usd": 37.34,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 11:49 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $DYTB at $2.86597e-06 | P&L: +0.6%",
-      "reason": "+0.6% on a $25 pool after immediate entry = flat with no catalyst. Stale at 0h, no attention signal, free the slot for fresh entries."
-    },
-    {
-      "time": "2026-09-03 11:49 UTC",
-      "action": "buy",
-      "details": "[LLM] $PCITY at $1.672e-06, spent 0.02 SOL",
-      "reason": "$PCITY — novel narrative ('own a piece of a Solana city, 313 buildings') + dedicated @PumpCityxSOL account + $540 mcap = max asymmetry on a fresh attention play."
-    },
     {
       "time": "2026-09-03 11:50 UTC",
       "action": "sell",
@@ -28428,51 +28428,63 @@
       "action": "buy",
       "details": "[LLM] $HUGGY at $1.06586e-05, spent 0.02 SOL",
       "reason": "$HUGGY (Hugging Face) has the strongest narrative of the batch — Hugging Face is a real AI brand with massive mindshare, $10.7k mcap is early,33% bonded shows traction. Clean political/celebrity keywords. Strong attention signal from ForestManSol."
+    },
+    {
+      "time": "2026-09-03 12:11 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ENOS at $3.56869e-06 | P&L: +1.6%",
+      "reason": "ENOS is flat at +1.6% after 0.1h with only $380 pool liquidity — dangerously thin, high rug/slippage risk, no narrative momentum. Free slot and capital."
+    },
+    {
+      "time": "2026-09-03 12:11 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $HUGGY at $1.33435e-05 | P&L: +25.2%",
+      "reason": "HUGGY at +25.2% hit the auto-TP threshold. Lock half the gain, let the rest ride if narrative continues — standard scalp discipline."
     }
   ],
   "trade_stats": {
-    "total": 1662,
-    "wins": 840,
+    "total": 1664,
+    "wins": 842,
     "losses": 822,
-    "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.964835,
-    "avg_pnl_pct": 35.32,
+    "win_rate_pct": 50.6,
+    "total_pnl_sol": -1.962015,
+    "avg_pnl_pct": 35.3,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 151,
-    "today_realized_sol": 0.028026,
-    "today_target_pct": 7.0,
+    "today_trades": 153,
+    "today_realized_sol": 0.030846,
+    "today_target_pct": 7.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 840,
+      "win_count": 842,
       "loss_count": 822,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T12:09:44.885857+00:00",
+  "last_llm_brief_at": "2026-09-03T12:11:28.787643+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "JAWDavuAX9P7yobJMf6pdbrR65JAq4Qs5xH8L6pXpump": {
-      "price_usd": 3.5690443662773493e-06,
+      "price_usd": 3.5686901538551306e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 379.56217165548003,
-      "volume_h24": 481.6,
+      "liquidity_usd": 379.52450172975,
+      "volume_h24": 546.26,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 3.766992573
     },
     "Cbfcw4RgiPgjUqJ6x7wje8boQpbZh9RqtDWpRw2jyjT5": {
-      "price_usd": 1.092779365451273e-05,
+      "price_usd": 1.3343528995540608e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2930.67880278756,
-      "volume_h24": 21535.14,
+      "liquidity_usd": 3555.8710923092494,
+      "volume_h24": 27917.09,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 29.085736431
+      "real_sol_reserves": 35.294005879
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
