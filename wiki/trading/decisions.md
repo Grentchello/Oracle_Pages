@@ -14110,3 +14110,6 @@
 ## [2026-09-03 21:43 UTC] sell | [hard-stop] $BAGCOON closed at $1.26049e-06 | P&L: -53.5%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-03 21:50 UTC] buy | [LLM] $Amzn at $3.04957e-06, spent 0.02 SOL
+- **Reasoning:** $Amzn is an Amazon brand parody with a verbatim 'Earth's most customer-centric company' tagline + linked twitter handle. Brand-impersonation memecoins with real corporate phrasing routinely pump on launch attention. Passes viability gate (52-char desc + twitter) and has no celebrity/political fragility keyword. Risk: corporate IP could suppress X visibility; position size 0.05 SOL caps downside.
+
