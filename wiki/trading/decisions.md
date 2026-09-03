@@ -13831,3 +13831,12 @@
 ## [2026-09-03 18:56 UTC] buy | [LLM] $Callscan at $2.99413e-06, spent 0.02 SOL
 - **Reasoning:** $Callscan has clearest utility narrative (pump.fun callout tracker with caller stats + AI analysis), active X account @callscan_app, $3k mcap at 1% bonding — concrete product hook beats generic hype. Risk: tiny mcap, very fresh.
 
+## [2026-09-03 19:01 UTC] sell | [FULL][LLM] $BREADPIT at $2.94017e-06 | P&L: -0.8%
+- **Reasoning:** The position is slightly down after only 0.2 hours, but it is on a bonding curve with zero reported pool liquidity and an extreme reported ownership share. Exit to free a slot and avoid the clear liquidity and concentration risk.
+
+## [2026-09-03 19:01 UTC] sell | [FULL][LLM] $Callscan at $2.94017e-06 | P&L: -1.8%
+- **Reasoning:** The position is only down 1.8% after 0.1 hours, but it also reports zero pool liquidity and an extreme ownership share. Exit quickly rather than carry a structurally unsafe holding into a loss.
+
+## [2026-09-03 19:02 UTC] buy | [LLM] $hоmo at $9.392e-06, spent 0.02 SOL
+- **Reasoning:** $homo has the strongest fresh narrative and an X post, with a $12.6K market cap and 34% bonding-curve progress. The tiny age and parody-FOMO hook offer high attention potential, though the extremely early bonding-curve stage makes liquidity and rug risk high.
+
