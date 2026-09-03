@@ -13882,3 +13882,12 @@
 ## [2026-09-03 19:26 UTC] buy | [LLM] $BENCHMARK at $4.43687e-06, spent 0.02 SOL
 - **Reasoning:** BENCHMARK has a clear playable-Mario AI narrative and an X link from orbitalx0 at just $4,451 market cap, making this the strongest attention-driven launch. Risk is very high because the pool is shallow and no GMGN fragility metrics are shown.
 
+## [2026-09-03 19:27 UTC] sell | [TP +200% (75%)] $ONBOARDING at $2.02402e-05 | P&L: +210.7%
+- **Reasoning:** Auto take-profit at +210.7%
+
+## [2026-09-03 19:27 UTC] sell | [FULL][LLM] $ONBOARDING at $2.02402e-05 | P&L: +210.7%
+- **Reasoning:** Up +210.7% — well past the +200% TP threshold. Lock the gain; narrative may not sustain from here and giving back 3x gains to hope for more is poor risk/reward.
+
+## [2026-09-03 19:27 UTC] sell | [FULL][LLM] $BENCHMARK at $4.32273e-06 | P&L: -2.6%
+- **Reasoning:** Down -2.6% on a $667 pool (below healthy depth), no narrative, no attention signal visible. Thin liquidity + no catalyst = exit before it bleeds further.
+

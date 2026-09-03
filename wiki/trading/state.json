@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.349712,
+  "balance_sol": 0.377937,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5eLcW9sTax56Hpr45yiXu82TyuUWi5xGgLchuH3apump": {
-      "symbol": "ONBOARDING",
-      "name": "ONBOARDING",
-      "amount": 45584.740271303446,
-      "entry_price_usd": 6.513487259834507e-06,
-      "entry_sol_spent": 0.0028125,
-      "entry_time": "2026-09-03T19:23:43.581977+00:00",
-      "entry_usd_value": 2.1113999999999997,
-      "entry_signals": {
-        "liquidity_usd": 2141.1565777845,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6488.441157558162,
-        "ath_market_cap_usd": 6509.785363125309,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 20.28186585,
-        "description": "LIVE IRL EVERYDAY ONBOARDING STRANGERS TO PUMP.FUN",
-        "twitter": "https://x.com/wakeuptrav/status/2095593323025035657?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "CgMk8FipuQ5RgTSigr9V1YgQ7y5aWe7SnnZ7y9ncpump": {
-      "symbol": "BENCHMARK",
-      "name": "Mario 1-1 ",
-      "amount": 475019.9175508406,
-      "entry_price_usd": 4.4368665862825155e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T19:26:29.620302+00:00",
-      "entry_usd_value": 2.1076,
-      "entry_signals": {
-        "liquidity_usd": 696.1729326252799,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4450.887916362901,
-        "ath_market_cap_usd": 5977.173564286909,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 6.606309856,
-        "description": "a brand-new model, run at high effort, can one-shot a surprisingly complete, playable Super Mario 1-1 from scratch. That’s the “benchmark.”​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ ",
-        "twitter": "https://x.com/orbitalx0/status/2095593835531272197?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -30563,31 +30518,64 @@
       "pnl_pct": 78.53,
       "exit_reason": "LLM: sell_half — The position is up 78.5% and has already crossed the +50% profit-taking threshold, so half should be realized. Keep half open only while momentum rema",
       "partial": true
+    },
+    {
+      "mint": "5eLcW9sTax56Hpr45yiXu82TyuUWi5xGgLchuH3apump",
+      "symbol": "ONBOARDING",
+      "name": "ONBOARDING",
+      "amount_sold": 34188.55520347758,
+      "fraction_sold": 0.75,
+      "entry_time": "2026-09-03T19:23:43.581977+00:00",
+      "exit_time": "2026-09-03T19:27:33.665486+00:00",
+      "entry_price_usd": 6.513487259834507e-06,
+      "exit_price_usd": 2.0240161327012075e-05,
+      "entry_sol_for_chunk": 0.002109,
+      "exit_sol_received": 0.006563,
+      "pnl_sol": 0.004453,
+      "pnl_pct": 210.74,
+      "exit_reason": "auto-TP +200% (75%)",
+      "partial": true
+    },
+    {
+      "mint": "5eLcW9sTax56Hpr45yiXu82TyuUWi5xGgLchuH3apump",
+      "symbol": "ONBOARDING",
+      "name": "ONBOARDING",
+      "amount_sold": 11396.185067825862,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T19:23:43.581977+00:00",
+      "exit_time": "2026-09-03T19:27:49.403729+00:00",
+      "entry_price_usd": 6.513487259834507e-06,
+      "exit_price_usd": 2.0240161327012075e-05,
+      "entry_sol_for_chunk": 0.000703,
+      "exit_sol_received": 0.002188,
+      "pnl_sol": 0.001484,
+      "pnl_pct": 210.74,
+      "exit_reason": "LLM: sell_all — Up +210.7% — well past the +200% TP threshold. Lock the gain; narrative may not sustain from here and giving back 3x gains to hope for more is poor ri",
+      "partial": false
+    },
+    {
+      "mint": "CgMk8FipuQ5RgTSigr9V1YgQ7y5aWe7SnnZ7y9ncpump",
+      "symbol": "BENCHMARK",
+      "name": "Mario 1-1 ",
+      "amount_sold": 475019.9175508406,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T19:26:29.620302+00:00",
+      "exit_time": "2026-09-03T19:27:49.404361+00:00",
+      "entry_price_usd": 4.4368665862825155e-06,
+      "exit_price_usd": 4.322733104662915e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019474,
+      "pnl_sol": -0.000526,
+      "pnl_pct": -2.57,
+      "exit_reason": "LLM: sell_all — Down -2.6% on a $667 pool (below healthy depth), no narrative, no attention signal visible. Thin liquidity + no catalyst = exit before it bleeds furth",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T19:26:29.620616+00:00",
+  "last_updated": "2026-09-03T19:27:49.665495+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.38,
-  "portfolio_value_usd": 39.26,
+  "last_sol_price_usd": 105.44,
+  "portfolio_value_usd": 39.85,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 18:54 UTC",
-      "action": "buy",
-      "details": "[LLM] $Feet at $1.1292e-05, spent 0.02 SOL",
-      "reason": "$Feet has the strongest attention signal of this batch: viral X post from @CryptoVegeta explicitly claiming 'super viral all over the internet', highest mcap ($11.2k) at 0.2min age showing real bid, and a stock-pairing narrative (TakeTwo) that gives it a TradFi angle. Risk: fetish-adjacent niche narrative is fragile if it doesn't cross to broader crypto Twitter. Sizing 0.05 SOL."
-    },
-    {
-      "time": "2026-09-03 18:55 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $Feet closed at $2.94235e-06 | P&L: -73.9%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-09-03 18:56 UTC",
-      "action": "buy",
-      "details": "[LLM] $Callscan at $2.99413e-06, spent 0.02 SOL",
-      "reason": "$Callscan has clearest utility narrative (pump.fun callout tracker with caller stats + AI analysis), active X account @callscan_app, $3k mcap at 1% bonding — concrete product hook beats generic hype. Risk: tiny mcap, very fresh."
-    },
     {
       "time": "2026-09-03 19:01 UTC",
       "action": "sell",
@@ -30689,40 +30677,69 @@
       "action": "buy",
       "details": "[LLM] $BENCHMARK at $4.43687e-06, spent 0.02 SOL",
       "reason": "BENCHMARK has a clear playable-Mario AI narrative and an X link from orbitalx0 at just $4,451 market cap, making this the strongest attention-driven launch. Risk is very high because the pool is shallow and no GMGN fragility metrics are shown."
+    },
+    {
+      "time": "2026-09-03 19:27 UTC",
+      "action": "sell",
+      "details": "[TP +200% (75%)] $ONBOARDING at $2.02402e-05 | P&L: +210.7%",
+      "reason": "Auto take-profit at +210.7%"
+    },
+    {
+      "time": "2026-09-03 19:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ONBOARDING at $2.02402e-05 | P&L: +210.7%",
+      "reason": "Up +210.7% — well past the +200% TP threshold. Lock the gain; narrative may not sustain from here and giving back 3x gains to hope for more is poor risk/reward."
+    },
+    {
+      "time": "2026-09-03 19:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BENCHMARK at $4.32273e-06 | P&L: -2.6%",
+      "reason": "Down -2.6% on a $667 pool (below healthy depth), no narrative, no attention signal visible. Thin liquidity + no catalyst = exit before it bleeds further."
     }
   ],
   "trade_stats": {
-    "total": 1795,
-    "wins": 922,
-    "losses": 873,
+    "total": 1798,
+    "wins": 924,
+    "losses": 874,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -1.960121,
-    "avg_pnl_pct": 34.8,
+    "total_pnl_sol": -1.95471,
+    "avg_pnl_pct": 34.98,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 284,
-    "today_realized_sol": 0.03274,
-    "today_target_pct": 8.2,
+    "today_trades": 287,
+    "today_realized_sol": 0.038151,
+    "today_target_pct": 9.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 922,
-      "loss_count": 873,
+      "win_count": 924,
+      "loss_count": 874,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T19:26:28.319040+00:00",
+  "last_llm_brief_at": "2026-09-03T19:27:49.403687+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5eLcW9sTax56Hpr45yiXu82TyuUWi5xGgLchuH3apump": {
-      "price_usd": 1.1628648209118883e-05,
+      "price_usd": 2.0240161327012075e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3119.2443543789,
-      "volume_h24": 7064.74,
+      "liquidity_usd": 5125.18989025648,
+      "volume_h24": 14568.97,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 29.599965405
+      "real_sol_reserves": 48.607643117
+    },
+    "CgMk8FipuQ5RgTSigr9V1YgQ7y5aWe7SnnZ7y9ncpump": {
+      "price_usd": 4.322733104662915e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 667.184737824,
+      "volume_h24": 5733.1,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 6.3276246
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
