@@ -13663,3 +13663,12 @@
 ## [2026-09-03 16:36 UTC] buy | [LLM] $CUTE at $7.026e-06, spent 0.02 SOL
 - **Reasoning:** $CUTE narrative is 'viral on X trending, Telegram tweeting it' — explicit attention signal in the description itself, which is rare and high-signal. $6.6k mcap with bond 25% means real buy pressure already. 0.05 SOL position. Skip if liquidity <$25.
 
+## [2026-09-03 16:38 UTC] sell | [hard-stop] $CUTE closed at $3.05247e-06 | P&L: -56.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-03 16:38 UTC] sell | [TP +30% (25%)] $rusty at $1.16765e-05 | P&L: +87.2%
+- **Reasoning:** Auto take-profit at +87.2%
+
+## [2026-09-03 16:38 UTC] sell | [FULL][LLM] $rusty at $1.16765e-05 | P&L: +87.2%
+- **Reasoning:** Up +87.2% on a $3132 pool with 0% share — thin liquidity means even small exits move price hard. Lock the gain now, don't hope for +200% on illiquid bonding-curve. Capital rotation > bag-holding.
+
