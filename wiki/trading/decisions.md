@@ -13783,3 +13783,6 @@
 ## [2026-09-03 18:22 UTC] sell | [PARTIAL][LLM] $CAPE at $1.82187e-05 | P&L: +15.6%
 - **Reasoning:** $CAPE up +15.6% with only 0.0h held, very low liquidity pool ($4.7k) and our share=0% (haven't actually filled). Low liquidity means any sell will crash price. Lock partial gain now before it reverses on bonding-curve with this little depth.
 
+## [2026-09-03 18:24 UTC] sell | [FULL][LLM] $CAPE at $2.0226e-05 | P&L: +28.3%
+- **Reasoning:** Up +28.3% with only $5117 pool liquidity (barely 5x position) — thin liquidity + approaching TP zone = lock gains now. Free capital for fresh attention plays.
+
