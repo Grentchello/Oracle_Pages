@@ -13948,3 +13948,6 @@
 ## [2026-09-03 20:26 UTC] buy | [LLM] $GLITCH at $3.61699e-06, spent 0.02 SOL
 - **Reasoning:** $GLITCH has the strongest narrative + attention combo: explicit 'building live in trenches' thesis from a dedicated X account (@GlitchForeva), real description with builder-culture hook that resonates with degen community. Bond at 9% means fresh entry with room to run. Fits the 'live-builder' narrative that historically pumps hard.
 
+## [2026-09-03 20:27 UTC] buy | [LLM] $Wolf at $5.782e-06, spent 0.02 SOL
+- **Reasoning:** Wolf narrative + dev's own twitter with explicit promise to buy through bonding curve. Self-interested creator buying their own token = sustained buying pressure. Age 0.6min, low mcap $5.8k, classic early entry.
+
