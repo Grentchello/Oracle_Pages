@@ -14188,3 +14188,6 @@
 ## [2026-09-03 22:36 UTC] sell | [FULL][LLM] $Rufus at $1.01279e-05 | P&L: +106.2%
 - **Reasoning:** Up +106% — well past +50% TP threshold, narrative unclear (Rufus is a generic name with no viral catalyst), pool only $2703 with our share at 0% (thin liquidity makes further upside risky). Lock the gain now.
 
+## [2026-09-03 22:45 UTC] buy | [LLM] $ALIENZ at $3.05808e-06, spent 0.02 SOL
+- **Reasoning:** $ALIENZ has a mystery/recovery narrative ('records recovered, origins not meant to be public') plus a dedicated twitter handle (@AlienzClub). Memecoin lore narratives attract speculative attention. Lower mcap ($3k) = more upside if it sticks, but higher rug risk.
+
