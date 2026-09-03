@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.410143,
+  "balance_sol": 0.390143,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "C7Gfjct3LBdgzMwSYJNsFGts1FKdf2tSQPvvxmFNpump": {
+      "symbol": "INTERN",
+      "name": "INTERN OFFICE",
+      "amount": 546742.7978198805,
+      "entry_price_usd": 3.853e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T15:02:19.594335+00:00",
+      "entry_usd_value": 2.1066,
+      "entry_signals": {
+        "liquidity_usd": 495.31529340402,
+        "volume_24h_usd": 796.29,
+        "market_cap_usd": 3955.8024688218616,
+        "ath_market_cap_usd": 4235.708647282554,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 4.702509194,
+        "description": "The AI intern that never quits. ☕ A pixel office where a real AI works 24/7 — every buy makes him grind, every milestone gets him promoted. Watch him live: internoffice.xyz. No presale. 0% team. Unpaid forever.",
+        "twitter": "https://x.com/internofficeHQ",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -29262,17 +29285,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-03T15:00:55.016967+00:00",
+  "last_updated": "2026-09-03T15:02:19.594547+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.81,
-  "portfolio_value_usd": 42.99,
+  "last_sol_price_usd": 105.33,
+  "portfolio_value_usd": 43.2,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 14:20 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $A16ZHL at $2.8655e-06 | P&L: -6.4%",
-      "reason": "A16ZHL down -6.4% with tiny $9 pool (20% of our share = illiquid exit). No narrative, basically dead on arrival. Cut before it gets worse."
-    },
     {
       "time": "2026-09-03 14:33 UTC",
       "action": "buy",
@@ -29386,6 +29403,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $YAPZO at $2.90047e-06 | P&L: -24.1%",
       "reason": "$YAPZO down -24.1%, very close to -30% hard stop. Bonding-curve pool with 'our share=758272810%' is alarming — that suggests near-zero liquidity at our entry price. No bounce signal visible, capital rotation beats bag-holding."
+    },
+    {
+      "time": "2026-09-03 15:02 UTC",
+      "action": "buy",
+      "details": "[LLM] $INTERN at $3.853e-06, spent 0.02 SOL",
+      "reason": "$INTERN has the strongest original narrative of the batch — 'AI intern that never quits, pixel office, AI works 24/7' is a coherent attention hook tied to the AI-agent meta, pass the viability gate (real desc + twitter), no celebrity/political keywords, and bond is only 12% so entry is still early. Risk: bond not complete yet and brand-new (0.8 min) so volatility cuts both ways."
     }
   ],
   "trade_stats": {
@@ -29407,7 +29430,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T15:00:54.505560+00:00",
+  "last_llm_brief_at": "2026-09-03T15:02:18.314874+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
