@@ -13234,3 +13234,9 @@
 ## [2026-09-03 12:02 UTC] buy | [LLM] $$TTMC at $2.874e-06, spent 0.02 SOL
 - **Reasoning:** TO THE MOON COIN with active tweet from @AusGouda — classic attention signal, narrative is universal, mcap $2.8k is bottom-fishing territory with upside.
 
+## [2026-09-03 12:05 UTC] sell | [FULL][LLM] $$TTMC at $2.87132e-06 | P&L: -0.1%
+- **Reasoning:** Flat at -0.1% on a $30 pool with no momentum signal. Micro-cap with no clear narrative — freeing the slot for fresh attention. Default bias: exit when no movement.
+
+## [2026-09-03 12:05 UTC] buy | [LLM] $SM at $3.345e-06, spent 0.02 SOL
+- **Reasoning:** $SM (Solana Miners) — cleanest narrative: real story (5000 rigs, tokenized mining), twitter presence (@miner_on_sol), decent $4.2k mcap and 15% bonded. Mining meta has legs and this has actual narrative vs pure meme.
+
