@@ -13723,3 +13723,12 @@
 ## [2026-09-03 17:36 UTC] buy | [LLM] $LESSGO at $2.02e-05, spent 0.02 SOL
 - **Reasoning:** $LESSGO has the strongest signal of the batch — viral phrase 'when everything goes up there's only one thing to say', active Twitter @lessgosol, and the highest mcap ($28k) with bond already 40% filled. Universal meme appeal, fresh launch, attention catalyst present. Passes viability (desc + twitter) and fragility (no blocked keywords) gates.
 
+## [2026-09-03 17:37 UTC] sell | [TP +30% (25%)] $LESSGO at $3.33328e-05 | P&L: +65.0%
+- **Reasoning:** Auto take-profit at +65.0%
+
+## [2026-09-03 17:37 UTC] sell | [FULL][LLM] $LESSGO at $3.33328e-05 | P&L: +65.0%
+- **Reasoning:** Up +65% past the +50% TP tier and0% pool share suggests we're not in the inner circle. Take the gain, rotate to fresh attention.
+
+## [2026-09-03 17:38 UTC] buy | [LLM] $Fenixxx at $4.301e-06, spent 0.02 SOL
+- **Reasoning:** $Fenixxx has a clear dev-incentive narrative (bot release at 1M mcap), Twitter presence, and Spanish-language memecoin community attention. Sub-$4k mcap with 4% bonding curve = early entry.
+
