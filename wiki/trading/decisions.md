@@ -12847,3 +12847,6 @@
 ## [2026-09-03 05:57 UTC] buy | [LLM] $Harold at $3.009e-06, spent 0.02 SOL
 - **Reasoning:** $Harold (Harold The Trader) — meta-narrative about a 'trader' coin, dev deployed it themselves ('Waited a while for someone to deploy this'). Has a story angle and twitter signal. Small position 0.05 SOL.
 
+## [2026-09-03 06:00 UTC] buy | [LLM] $WSBCOIN at $3.013e-06, spent 0.02 SOL
+- **Reasoning:** $WSBCOIN — WSB actually posting about Reddit ad sales is a real attention catalyst, not just a theme. Recognizable brand, fresh launch, Twitter link to the actual story. Best narrative-to-launch ratio on the board.
+
