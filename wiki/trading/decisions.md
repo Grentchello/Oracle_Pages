@@ -12889,3 +12889,9 @@
 ## [2026-09-03 06:30 UTC] sell | [PARTIAL][LLM] $rigbycat at $6.71911e-06 | P&L: +108.7%
 - **Reasoning:** +108.7% with pool=$1,645 and our share=0% means trying to sell_all would crater the price. sell_half locks ~+50% realized gains, leaves skin in the game if it keeps running, and respects thin liquidity. Half-exit is the only realistic profit-take here.
 
+## [2026-09-03 06:31 UTC] sell | [TP +30% (25%)] $rigbycat at $5.06413e-06 | P&L: +57.3%
+- **Reasoning:** Auto take-profit at +57.3%
+
+## [2026-09-03 06:31 UTC] sell | [PARTIAL][LLM] $rigbycat at $5.06413e-06 | P&L: +57.3%
+- **Reasoning:** $rigbycat is +57.3%, well past the +25% TP1 zone. Bonding-curve tokens at this mcap routinely give back gains — locking half protects +28%+ while letting the rest ride if narrative continues.
+
