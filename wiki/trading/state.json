@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.366608,
+  "balance_sol": 0.36043,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "HSZreun1LU11eRbEdXCGLpf23tH2j6mhmeWDjzmzpump": {
       "symbol": "SOLDEAD",
       "name": "SolDead",
-      "amount": 689131.9207108681,
+      "amount": 195502.16784220847,
       "entry_price_usd": 2.926e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.005673867715793513,
       "entry_time": "2026-09-03T06:59:07.329804+00:00",
       "entry_usd_value": 2.0164,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 0.565540976,
         "description": "Everyone said Solana was unstoppable. Then Robinhood Chain entered the arena. SOLDEAD is the meme for the narrative that crypto attention is moving on. 🪦⚰️",
         "twitter": "https://x.com/SolDeadCoin",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "CMySdiLhuoudziDTs5178XMJUM1ak6XefeJtfTvpump": {
+      "symbol": "TONK",
+      "name": "tonk",
+      "amount": 236965.71160169097,
+      "entry_price_usd": 8.516e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-03T07:00:28.936061+00:00",
+      "entry_usd_value": 2.0180000000000002,
+      "entry_signals": {
+        "liquidity_usd": 2099.7886721591003,
+        "volume_24h_usd": 8320.23,
+        "market_cap_usd": 5968.410666567201,
+        "ath_market_cap_usd": 9270.817129249735,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 20.810591399,
+        "description": "https://www.reddit.com/r/cats/comments/1w5r22w/comment/p7hdfsw/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button Launched on discord.gg/uxento",
+        "twitter": "https://x.com/milerozu/status/2095406229170356284",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -27260,25 +27282,30 @@
       "pnl_pct": 0.03,
       "exit_reason": "LLM: sell_all — $PACT is flat at +0.0% after holding, pool only $256, and capital is locked in a stagnant bonding-curve position. Rotate into fresh launches with bett",
       "partial": false
+    },
+    {
+      "mint": "HSZreun1LU11eRbEdXCGLpf23tH2j6mhmeWDjzmzpump",
+      "symbol": "SOLDEAD",
+      "name": "SolDead",
+      "amount_sold": 493629.7528686596,
+      "fraction_sold": 0.7163066142103244,
+      "entry_time": "2026-09-03T06:59:07.329804+00:00",
+      "exit_time": "2026-09-03T07:00:27.500180+00:00",
+      "entry_price_usd": 2.926e-06,
+      "exit_price_usd": 2.8251819622828426e-06,
+      "entry_sol_for_chunk": 0.014326,
+      "exit_sol_received": 0.013822,
+      "pnl_sol": -0.000505,
+      "pnl_pct": -3.45,
+      "exit_reason": "LLM: sell_all — Down -3.4% at 0.0h held on a 1m-old token with 88% supply ownership (extreme fragility — ME2F pattern). Bonding curve, no volume confirmation, and a h",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T06:59:07.329966+00:00",
+  "last_updated": "2026-09-03T07:00:28.936319+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.82,
-  "portfolio_value_usd": 38.98,
+  "last_sol_price_usd": 100.9,
+  "portfolio_value_usd": 38.96,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 06:29 UTC",
-      "action": "sell",
-      "details": "[TP +100% (50%)] $rigbycat at $6.71911e-06 | P&L: +108.7%",
-      "reason": "Auto take-profit at +108.7%"
-    },
-    {
-      "time": "2026-09-03 06:30 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $rigbycat at $6.71911e-06 | P&L: +108.7%",
-      "reason": "+108.7% with pool=$1,645 and our share=0% means trying to sell_all would crater the price. sell_half locks ~+50% realized gains, leaves skin in the game if it keeps running, and respects thin liquidity. Half-exit is the only realistic profit-take here."
-    },
     {
       "time": "2026-09-03 06:31 UTC",
       "action": "sell",
@@ -27386,40 +27413,52 @@
       "action": "buy",
       "details": "[LLM] $SOLDEAD at $2.926e-06, spent 0.02 SOL",
       "reason": "$SOLDEAD has a real narrative (Solana vs Robinhood Chain), dedicated twitter @SolDeadCoin, mcap $2.9k with room to run. Counter-narrative memes pump hard on attention. Pass viability gate."
+    },
+    {
+      "time": "2026-09-03 07:00 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $SOLDEAD at $2.82518e-06 | P&L: -3.5%",
+      "reason": "Down -3.4% at 0.0h held on a 1m-old token with 88% supply ownership (extreme fragility — ME2F pattern). Bonding curve, no volume confirmation, and a heavily concentrated holder is exactly the rug setup. Cut and rotate."
+    },
+    {
+      "time": "2026-09-03 07:00 UTC",
+      "action": "buy",
+      "details": "[LLM] $TONK at $8.516e-06, spent 0.02 SOL",
+      "reason": "$TONK at $6k mcap with a cat-meme Reddit cross-post to X — that web3x Reddit-to-twitter pipeline is a real viral attention signal. Bond 24%, fresh, narrative is clear (cat meme). 0.05 SOL."
     }
   ],
   "trade_stats": {
-    "total": 1602,
+    "total": 1603,
     "wins": 809,
-    "losses": 793,
+    "losses": 794,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.946037,
-    "avg_pnl_pct": 35.89,
+    "total_pnl_sol": -1.946542,
+    "avg_pnl_pct": 35.86,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 91,
-    "today_realized_sol": 0.046824,
-    "today_target_pct": 11.7,
+    "today_trades": 92,
+    "today_realized_sol": 0.046319,
+    "today_target_pct": 11.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 809,
-      "loss_count": 793,
+      "loss_count": 794,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T06:59:06.010605+00:00",
+  "last_llm_brief_at": "2026-09-03T07:00:27.499702+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "B8Z8Myn7LrR1UMT8Dzg3BS7rBPhKxrcb77otkVSjpump": {
-      "price_usd": 3.3161632841922798e-06,
+    "HSZreun1LU11eRbEdXCGLpf23tH2j6mhmeWDjzmzpump": {
+      "price_usd": 2.8251819622828426e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 255.98872697521998,
-      "volume_h24": 256.26,
+      "liquidity_usd": 2.2093167927,
+      "volume_h24": 67.24,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.539066921
+      "real_sol_reserves": 0.021896103
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

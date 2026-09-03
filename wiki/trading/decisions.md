@@ -12943,3 +12943,9 @@
 ## [2026-09-03 06:59 UTC] buy | [LLM] $SOLDEAD at $2.926e-06, spent 0.02 SOL
 - **Reasoning:** $SOLDEAD has a real narrative (Solana vs Robinhood Chain), dedicated twitter @SolDeadCoin, mcap $2.9k with room to run. Counter-narrative memes pump hard on attention. Pass viability gate.
 
+## [2026-09-03 07:00 UTC] sell | [PARTIAL][LLM] $SOLDEAD at $2.82518e-06 | P&L: -3.5%
+- **Reasoning:** Down -3.4% at 0.0h held on a 1m-old token with 88% supply ownership (extreme fragility — ME2F pattern). Bonding curve, no volume confirmation, and a heavily concentrated holder is exactly the rug setup. Cut and rotate.
+
+## [2026-09-03 07:00 UTC] buy | [LLM] $TONK at $8.516e-06, spent 0.02 SOL
+- **Reasoning:** $TONK at $6k mcap with a cat-meme Reddit cross-post to X — that web3x Reddit-to-twitter pipeline is a real viral attention signal. Bond 24%, fresh, narrative is clear (cat meme). 0.05 SOL.
+
