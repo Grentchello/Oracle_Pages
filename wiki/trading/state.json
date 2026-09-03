@@ -1,36 +1,14 @@
 {
-  "balance_sol": 0.289884,
+  "balance_sol": 0.342267,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "GgjSyTCTpUgksQMRVHZthTCM6HQDZE8EUg54KJpupump": {
-      "symbol": "ASTRA",
-      "name": "GPT-6 Astra",
-      "amount": 669757.7023326571,
-      "entry_price_usd": 3.1399414932827102e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T20:36:05.340247+00:00",
-      "entry_usd_value": 2.103,
-      "entry_signals": {
-        "liquidity_usd": 105.5623396263,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3132.953246412468,
-        "ath_market_cap_usd": 3140.512291526117,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.003921442,
-        "description": "Anything you can do on a computer, Astra can do for you. Fast.",
-        "twitter": "https://x.com/openai/status/2095595741528125780",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "6dGkvc7xGyNc6GGr4FSJfnkzfC3xaNskjkj6HxVypump": {
       "symbol": "Intern",
       "name": "Intern",
-      "amount": 99376.47614548891,
+      "amount": 24844.119036372227,
       "entry_price_usd": 2.117e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.005,
       "entry_time": "2026-09-03T20:40:14.490644+00:00",
       "entry_usd_value": 2.1038,
       "entry_signals": {
@@ -30869,31 +30847,64 @@
       "pnl_pct": -20.53,
       "exit_reason": "LLM: sell_all — Down20.5% already, no bounce signal, bonding curve with only $1020 pool. -20% losers bleed to -50% fast — exit now and free the slot.",
       "partial": false
+    },
+    {
+      "mint": "6dGkvc7xGyNc6GGr4FSJfnkzfC3xaNskjkj6HxVypump",
+      "symbol": "Intern",
+      "name": "Intern",
+      "amount_sold": 49688.238072744454,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T20:40:14.490644+00:00",
+      "exit_time": "2026-09-03T20:41:18.541457+00:00",
+      "entry_price_usd": 2.117e-05,
+      "exit_price_usd": 4.566e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.021585,
+      "pnl_sol": 0.011585,
+      "pnl_pct": 115.68,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "GgjSyTCTpUgksQMRVHZthTCM6HQDZE8EUg54KJpupump",
+      "symbol": "ASTRA",
+      "name": "GPT-6 Astra",
+      "amount_sold": 669757.7023326571,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T20:36:05.340247+00:00",
+      "exit_time": "2026-09-03T20:41:36.855360+00:00",
+      "entry_price_usd": 3.1399414932827102e-06,
+      "exit_price_usd": 3.1396840491811162e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020006,
+      "pnl_sol": 6e-06,
+      "pnl_pct": -0.01,
+      "exit_reason": "LLM: sell_all — Pool is $106 (below 5x liquidity rule), only 1 buy/1 sell in m5, price flat at entry after 0.1h. Dead cat — recover the 0.05 SOL slot.",
+      "partial": false
+    },
+    {
+      "mint": "6dGkvc7xGyNc6GGr4FSJfnkzfC3xaNskjkj6HxVypump",
+      "symbol": "Intern",
+      "name": "Intern",
+      "amount_sold": 24844.119036372227,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T20:40:14.490644+00:00",
+      "exit_time": "2026-09-03T20:41:36.856516+00:00",
+      "entry_price_usd": 2.117e-05,
+      "exit_price_usd": 4.566e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.010792,
+      "pnl_sol": 0.005792,
+      "pnl_pct": 115.68,
+      "exit_reason": "LLM: sell_half — Up 115.7% and still pumping (424 buys vs 196 sells m5, +1286% m5). Per the +100% TP rule I should lock gains; selling half banks profit while letting ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T20:40:14.490825+00:00",
+  "last_updated": "2026-09-03T20:41:36.856987+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.19,
-  "portfolio_value_usd": 34.7,
+  "last_sol_price_usd": 105.11,
+  "portfolio_value_usd": 36.5,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 20:06 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $AD at $3.21317e-06 | P&L: +0.6%",
-      "reason": "Held 0.1h, only +0.6%, pool is only $144 and we hold 2% of it — we ARE the liquidity. Ticker-only narrative '$AD' is weak, price is flat, and the slot is more valuable deployed in a fresh launch with a real narrative. Cut and rotate."
-    },
-    {
-      "time": "2026-09-03 20:07 UTC",
-      "action": "buy",
-      "details": "[LLM] $Normie at $1.367e-05, spent 0.02 SOL",
-      "reason": "Normie has the strongest immediate attention signal: a claimed 500k-follower TikTok account, an imminent livestream, and a prior-coin success narrative. At roughly $13.8k market cap and only 1.3 minutes old, it offers compelling early viral potential despite elevated fresh-launch risk."
-    },
-    {
-      "time": "2026-09-03 20:09 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Normie at $1.37722e-05 | P&L: +0.8%",
-      "reason": "$Normie is +0.7% after 0.0h on a thin $3673 bonding curve with no momentum. Capital is better deployed in fresh attention; this is a stale, non-moving position."
-    },
     {
       "time": "2026-09-03 20:12 UTC",
       "action": "buy",
@@ -30995,40 +31006,67 @@
       "action": "buy",
       "details": "[LLM] $Intern at $2.117e-05, spent 0.02 SOL",
       "reason": "$Intern has the strongest narrative of the batch — AI agent thesis with concrete utility (tokenized earnings from Apple/Tesla/NVIDIA), real twitter (@internagents), $26k mcap with 40% bonding, freshest attention. Classic attention-market play."
+    },
+    {
+      "time": "2026-09-03 20:41 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $Intern at $4.566e-05 | P&L: +115.7%",
+      "reason": "Auto take-profit at +115.7%"
+    },
+    {
+      "time": "2026-09-03 20:41 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ASTRA at $3.13968e-06 | P&L: -0.0%",
+      "reason": "Pool is $106 (below 5x liquidity rule), only 1 buy/1 sell in m5, price flat at entry after 0.1h. Dead cat — recover the 0.05 SOL slot."
+    },
+    {
+      "time": "2026-09-03 20:41 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Intern at $4.566e-05 | P&L: +115.7%",
+      "reason": "Up 115.7% and still pumping (424 buys vs 196 sells m5, +1286% m5). Per the +100% TP rule I should lock gains; selling half banks profit while letting the runner ride."
     }
   ],
   "trade_stats": {
-    "total": 1813,
-    "wins": 932,
+    "total": 1816,
+    "wins": 935,
     "losses": 881,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.002763,
-    "avg_pnl_pct": 34.59,
+    "win_rate_pct": 51.5,
+    "total_pnl_sol": -1.98538,
+    "avg_pnl_pct": 34.66,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 302,
-    "today_realized_sol": -0.009902,
-    "today_target_pct": -2.5,
+    "today_trades": 305,
+    "today_realized_sol": 0.007481,
+    "today_target_pct": 1.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 932,
+      "win_count": 935,
       "loss_count": 881,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T20:40:13.104608+00:00",
+  "last_llm_brief_at": "2026-09-03T20:41:36.855322+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GgjSyTCTpUgksQMRVHZthTCM6HQDZE8EUg54KJpupump": {
-      "price_usd": 3.1420736859800363e-06,
+      "price_usd": 3.1396840491811162e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 106.08926247265,
+      "liquidity_usd": 106.00857855785002,
       "volume_h24": 109.06,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 1.008548935
+    },
+    "6dGkvc7xGyNc6GGr4FSJfnkzfC3xaNskjkj6HxVypump": {
+      "price_usd": 4.566e-05,
+      "change_h24": 7.07,
+      "change_h1": 7.07,
+      "liquidity_usd": 16542.08,
+      "volume_h24": 9167.02,
+      "dex_id": "pumpswap",
+      "source": "dexscreener"
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

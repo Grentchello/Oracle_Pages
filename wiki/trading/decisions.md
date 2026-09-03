@@ -13978,3 +13978,12 @@
 ## [2026-09-03 20:40 UTC] buy | [LLM] $Intern at $2.117e-05, spent 0.02 SOL
 - **Reasoning:** $Intern has the strongest narrative of the batch — AI agent thesis with concrete utility (tokenized earnings from Apple/Tesla/NVIDIA), real twitter (@internagents), $26k mcap with 40% bonding, freshest attention. Classic attention-market play.
 
+## [2026-09-03 20:41 UTC] sell | [TP +100% (50%)] $Intern at $4.566e-05 | P&L: +115.7%
+- **Reasoning:** Auto take-profit at +115.7%
+
+## [2026-09-03 20:41 UTC] sell | [FULL][LLM] $ASTRA at $3.13968e-06 | P&L: -0.0%
+- **Reasoning:** Pool is $106 (below 5x liquidity rule), only 1 buy/1 sell in m5, price flat at entry after 0.1h. Dead cat — recover the 0.05 SOL slot.
+
+## [2026-09-03 20:41 UTC] sell | [PARTIAL][LLM] $Intern at $4.566e-05 | P&L: +115.7%
+- **Reasoning:** Up 115.7% and still pumping (424 buys vs 196 sells m5, +1286% m5). Per the +100% TP rule I should lock gains; selling half banks profit while letting the runner ride.
+
