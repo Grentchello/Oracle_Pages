@@ -14137,3 +14137,9 @@
 ## [2026-09-03 22:02 UTC] buy | [LLM] $Coco at $3.2587e-06, spent 0.02 SOL
 - **Reasoning:** $Coco — Croakie's dog selfie, personal-pet narrative with a known X figure (@Croakie). Crypto Twitter loves creator-pet tokens (see $jeff, $dogwifhat lineage). $3.2k mcap with real story behind it — classic attention-market play.
 
+## [2026-09-03 22:04 UTC] sell | [FULL][LLM] $PXPE! at $3.66523e-06 | P&L: +3.3%
+- **Reasoning:** $PXPE! only +3.3% after 6 minutes (0.1h). Pool is thin at $370 — our 1% share means slippage on exit will be brutal. Not up >10% in 15min would mark it stale. Cut and free the slot.
+
+## [2026-09-03 22:04 UTC] sell | [FULL][LLM] $Coco at $3.26792e-06 | P&L: +0.3%
+- **Reasoning:** $Coco is +0.3% — essentially flat. Pool $174 is dangerously thin, 1% share is a liquidity liability. Stale capital. Exit and redeploy into fresher attention.
+
