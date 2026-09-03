@@ -13135,3 +13135,6 @@
 ## [2026-09-03 11:02 UTC] buy | [LLM] $MICROWAVE at $2.919e-06, spent 0.02 SOL
 - **Reasoning:** $MICROWAVE passes viability gate (long description + twitter @AIHegemonyMemes). Quirky DEW conspiracy narrative is shareable and fits attention-market thesis. 1.7min old, mcap $2,917 — fresh launch with story. 0.05 SOL position; GMGN fragility gate will run automatically.
 
+## [2026-09-03 11:05 UTC] sell | [PARTIAL][LLM] $MICROWAVE at $2.81298e-06 | P&L: -3.6%
+- **Reasoning:** $MICROWAVE is at -3.6% after 0h on a bonding curve with only $3 pool and a 64% share of our position — that's extreme concentration in a tiny illiquid pool. Bonding-curve tokens with low mcap and single-position dominance are rug-prone. Cut loss now, free the slot for fresh attention.
+

@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.34511,
+  "balance_sol": 0.356877,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "Aec6nsaJv7WmUDMhfCaYpZPrHohCqgFk79mG4xKQpump": {
       "symbol": "MICROWAVE",
       "name": "Microwave Weapon",
-      "amount": 687495.7177115451,
+      "amount": 267482.70339238044,
       "entry_price_usd": 2.919e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.00778136347620449,
       "entry_time": "2026-09-03T11:02:40.228898+00:00",
       "entry_usd_value": 2.0068,
       "entry_signals": {
@@ -27872,19 +27872,30 @@
       "pnl_pct": 19.94,
       "exit_reason": "LLM: sell_all — Lock +19.9% gain on $RISE before it evaporates. Pool is only $1369 (extremely thin), bonding curve 0%, held 0.0h — no patience earned. Selling all fre",
       "partial": false
+    },
+    {
+      "mint": "Aec6nsaJv7WmUDMhfCaYpZPrHohCqgFk79mG4xKQpump",
+      "symbol": "MICROWAVE",
+      "name": "Microwave Weapon",
+      "amount_sold": 420013.0143191646,
+      "fraction_sold": 0.6109318261897755,
+      "entry_time": "2026-09-03T11:02:40.228898+00:00",
+      "exit_time": "2026-09-03T11:05:35.707810+00:00",
+      "entry_price_usd": 2.919e-06,
+      "exit_price_usd": 2.812975194077291e-06,
+      "entry_sol_for_chunk": 0.012219,
+      "exit_sol_received": 0.011767,
+      "pnl_sol": -0.000452,
+      "pnl_pct": -3.63,
+      "exit_reason": "LLM: sell_all — $MICROWAVE is at -3.6% after 0h on a bonding curve with only $3 pool and a 64% share of our position — that's extreme concentration in a tiny illiquid",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T11:04:08.878699+00:00",
+  "last_updated": "2026-09-03T11:05:35.708022+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.52,
-  "portfolio_value_usd": 36.7,
+  "last_sol_price_usd": 100.41,
+  "portfolio_value_usd": 36.61,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 10:11 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $raji at $6.7102e-06 | P&L: +76.6%",
-      "reason": "Auto take-profit at +76.6%"
-    },
     {
       "time": "2026-09-03 10:11 UTC",
       "action": "sell",
@@ -27998,40 +28009,46 @@
       "action": "buy",
       "details": "[LLM] $MICROWAVE at $2.919e-06, spent 0.02 SOL",
       "reason": "$MICROWAVE passes viability gate (long description + twitter @AIHegemonyMemes). Quirky DEW conspiracy narrative is shareable and fits attention-market thesis. 1.7min old, mcap $2,917 — fresh launch with story. 0.05 SOL position; GMGN fragility gate will run automatically."
+    },
+    {
+      "time": "2026-09-03 11:05 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $MICROWAVE at $2.81298e-06 | P&L: -3.6%",
+      "reason": "$MICROWAVE is at -3.6% after 0h on a bonding curve with only $3 pool and a 64% share of our position — that's extreme concentration in a tiny illiquid pool. Bonding-curve tokens with low mcap and single-position dominance are rug-prone. Cut loss now, free the slot for fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 1638,
+    "total": 1639,
     "wins": 825,
-    "losses": 813,
-    "win_rate_pct": 50.4,
-    "total_pnl_sol": -1.967536,
-    "avg_pnl_pct": 35.64,
+    "losses": 814,
+    "win_rate_pct": 50.3,
+    "total_pnl_sol": -1.967988,
+    "avg_pnl_pct": 35.62,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 127,
-    "today_realized_sol": 0.025325,
-    "today_target_pct": 6.3,
+    "today_trades": 128,
+    "today_realized_sol": 0.024873,
+    "today_target_pct": 6.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 825,
-      "loss_count": 813,
+      "loss_count": 814,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T11:04:08.878261+00:00",
+  "last_llm_brief_at": "2026-09-03T11:05:35.706288+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "Aec6nsaJv7WmUDMhfCaYpZPrHohCqgFk79mG4xKQpump": {
-      "price_usd": 2.916121194588674e-06,
+      "price_usd": 2.812975194077291e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 56.17578926876,
+      "liquidity_usd": 3.0096888379499998,
       "volume_h24": 4381.09,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.558851863
+      "real_sol_reserves": 0.029973995
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
