@@ -13324,3 +13324,12 @@
 ## [2026-09-03 12:59 UTC] buy | [LLM] $wvg at $4.324e-06, spent 0.02 SOL
 - **Reasoning:** $wvg (Wolfs vs Ghosty) has the cleanest fresh-launch narrative — a 'meme battle' framing with two characters, twitter link present, $5.1k mcap and 1.3min old. Battle-memes travel on X. Viability gate passes (desc≥50 + twitter). Risk: brand new, no traction yet.
 
+## [2026-09-03 13:00 UTC] sell | [TP +30% (25%)] $wvg at $5.76735e-06 | P&L: +33.4%
+- **Reasoning:** Auto take-profit at +33.4%
+
+## [2026-09-03 13:01 UTC] sell | [PARTIAL][LLM] $DERP at $1.09252e-05 | P&L: +17.7%
+- **Reasoning:** DERP is up 17.7% but sits on a low-liquidity bonding curve with no tradeable pool share shown. Lock in gains while retaining exposure, but it is already close to the +20% stale-risk threshold.
+
+## [2026-09-03 13:01 UTC] sell | [FULL][LLM] $wvg at $5.76735e-06 | P&L: +33.4%
+- **Reasoning:** wvg has gained 33.4%, above the first profit-taking threshold, but has extremely low reported liquidity and no pool share. Momentum and liquidity risk favor realizing the gain.
+
