@@ -13999,3 +13999,12 @@
 ## [2026-09-03 20:45 UTC] buy | [LLM] $myAImademe at $3.871e-06, spent 0.02 SOL
 - **Reasoning:** $myAImademe has a clean viral hook — 'Boomer' character + AI trading shark, twitter handle active, passes viability gate (desc ≥50 chars + twitter). AI meta is hot attention right now. Risk: $3.8k mcap means liquidity could fail 5x gate.
 
+## [2026-09-03 20:47 UTC] sell | [TP +200% (75%)] $DEAXON at $2.06138e-05 | P&L: +235.2%
+- **Reasoning:** Auto take-profit at +235.2%
+
+## [2026-09-03 20:47 UTC] sell | [PARTIAL][LLM] $DEAXON at $2.06138e-05 | P&L: +235.2%
+- **Reasoning:** +235% is way past +75% TP threshold; taking half locks $5+ in profit and lets the rest ride. The bonding curve is still active so momentum could continue, but this gain is real and the rules demand aggressive profit-taking above 100%.
+
+## [2026-09-03 20:47 UTC] sell | [FULL][LLM] $myAImademe at $3.81991e-06 | P&L: -1.3%
+- **Reasoning:** -1.3% with only $443 pool liquidity and 0% share on bonding curve — this is a stale, illiquid bag. No narrative, no twitter link, no story. Cut it loose before it goes negative.
+
