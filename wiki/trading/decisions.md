@@ -12910,3 +12910,6 @@
 ## [2026-09-03 06:34 UTC] sell | [PARTIAL][LLM] $rigbycat at $6.27346e-06 | P&L: +94.8%
 - **Reasoning:** $rigbycat +94.8% in 0.1h is a strong pump but not yet at +100% TP auto-trigger. Lock half the bag at ~2x, let the runner ride free with house money. Pool $1487 is thin though — half-exit now reduces exposure to rug/illiquidity on the way back down.
 
+## [2026-09-03 06:36 UTC] sell | [FULL][LLM] $rigbycat at $3.96054e-06 | P&L: +23.0%
+- **Reasoning:** +23% gain, holding 0.1h — below the 25% TP threshold so bot hasn't auto-exited, but per scalp discipline if up >20% and any doubt, lock the gain. $560 pool liquidity is thin and bonding-curve means exit liquidity is fragile. Take the +23% now rather than hope for the 25% trigger.
+

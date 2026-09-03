@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.387714,
+  "balance_sol": 0.388038,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2suRoRxUvYJP5fSMuq4qDtbQbVxFprpbcxGAHxkrpump": {
-      "symbol": "rigbycat",
-      "name": "rigbycat",
-      "amount": 8248.344089673912,
-      "entry_price_usd": 3.22e-06,
-      "entry_sol_spent": 0.000263671875,
-      "entry_time": "2026-09-03T06:28:48.585317+00:00",
-      "entry_usd_value": 2.0146,
-      "entry_signals": {
-        "liquidity_usd": 591.8585645527801,
-        "volume_24h_usd": 209.34,
-        "market_cap_usd": 3816.8959699062684,
-        "ath_market_cap_usd": 3838.710792315706,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.875693086,
-        "description": "rigbycat got 50M in a one fucking video that is no way.",
-        "twitter": "https://x.com/atiuoznc1/status/2095397572324245863?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -27141,19 +27118,30 @@
       "pnl_pct": 94.83,
       "exit_reason": "LLM: sell_half — $rigbycat +94.8% in 0.1h is a strong pump but not yet at +100% TP auto-trigger. Lock half the bag at ~2x, let the runner ride free with house money. P",
       "partial": true
+    },
+    {
+      "mint": "2suRoRxUvYJP5fSMuq4qDtbQbVxFprpbcxGAHxkrpump",
+      "symbol": "rigbycat",
+      "name": "rigbycat",
+      "amount_sold": 8248.344089673912,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T06:28:48.585317+00:00",
+      "exit_time": "2026-09-03T06:36:00.401024+00:00",
+      "entry_price_usd": 3.22e-06,
+      "exit_price_usd": 3.960538552275153e-06,
+      "entry_sol_for_chunk": 0.000264,
+      "exit_sol_received": 0.000324,
+      "pnl_sol": 6e-05,
+      "pnl_pct": 23.0,
+      "exit_reason": "LLM: sell_all — +23% gain, holding 0.1h — below the 25% TP threshold so bot hasn't auto-exited, but per scalp discipline if up >20% and any doubt, lock the gain. $560",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T06:34:31.617251+00:00",
+  "last_updated": "2026-09-03T06:36:01.225482+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.84,
-  "portfolio_value_usd": 39.12,
+  "last_sol_price_usd": 100.9,
+  "portfolio_value_usd": 39.15,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 06:02 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Harold at $2.81799e-06 | P&L: -6.3%",
-      "reason": "$Harold is a zombie bonding-curve position (pool=$0, our share=936240672% means we ARE the liquidity — there's no counterparty to exit into at any clean price). Down only 6.3% but the structure makes this an exit trap. Cut and rotate capital into fresh attention."
-    },
     {
       "time": "2026-09-03 06:02 UTC",
       "action": "sell",
@@ -27267,51 +27255,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $rigbycat at $6.27346e-06 | P&L: +94.8%",
       "reason": "$rigbycat +94.8% in 0.1h is a strong pump but not yet at +100% TP auto-trigger. Lock half the bag at ~2x, let the runner ride free with house money. Pool $1487 is thin though — half-exit now reduces exposure to rug/illiquidity on the way back down."
+    },
+    {
+      "time": "2026-09-03 06:36 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $rigbycat at $3.96054e-06 | P&L: +23.0%",
+      "reason": "+23% gain, holding 0.1h — below the 25% TP threshold so bot hasn't auto-exited, but per scalp discipline if up >20% and any doubt, lock the gain. $560 pool liquidity is thin and bonding-curve means exit liquidity is fragile. Take the +23% now rather than hope for the 25% trigger."
     }
   ],
   "trade_stats": {
-    "total": 1595,
-    "wins": 806,
+    "total": 1596,
+    "wins": 807,
     "losses": 789,
-    "win_rate_pct": 50.5,
-    "total_pnl_sol": -1.944667,
-    "avg_pnl_pct": 36.02,
+    "win_rate_pct": 50.6,
+    "total_pnl_sol": -1.944607,
+    "avg_pnl_pct": 36.01,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 84,
-    "today_realized_sol": 0.048194,
-    "today_target_pct": 12.0,
+    "today_trades": 85,
+    "today_realized_sol": 0.048254,
+    "today_target_pct": 12.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 806,
+      "win_count": 807,
       "loss_count": 789,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T06:34:31.345700+00:00",
+  "last_llm_brief_at": "2026-09-03T06:36:00.400976+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "9cunwKDbz29QGviC1yFBdkC2tWvTywsu3oV7vSxrpump": {
-      "price_usd": 3.067719085530052e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 130.42000919796,
-      "volume_h24": 1255.6,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.293336069
-    },
     "2suRoRxUvYJP5fSMuq4qDtbQbVxFprpbcxGAHxkrpump": {
-      "price_usd": 6.273459467823522e-06,
+      "price_usd": 3.960538552275153e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1487.43759214388,
-      "volume_h24": 16255.52,
+      "liquidity_usd": 559.6020824848,
+      "volume_h24": 18931.16,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 14.750471957
+      "real_sol_reserves": 5.546105872
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
