@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.343349,
+  "balance_sol": 0.361957,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "44fTJtwKpWQGwS3362rawpcaAd9XbrfXgdvxnNGQpump": {
       "symbol": "Moho",
       "name": "The Last Moho",
-      "amount": 271451.7876489707,
+      "amount": 101794.42036836402,
       "entry_price_usd": 7.384e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-03T04:29:50.470702+00:00",
       "entry_usd_value": 2.0044,
       "entry_signals": {
@@ -26546,25 +26546,47 @@
       "pnl_pct": 105.8,
       "exit_reason": "LLM: sell_all — Up +105.8% in under an hour on a bonding-curve token with unclear narrative — bot already auto-locked profit on half. The remaining half is a free opt",
       "partial": false
+    },
+    {
+      "mint": "44fTJtwKpWQGwS3362rawpcaAd9XbrfXgdvxnNGQpump",
+      "symbol": "Moho",
+      "name": "The Last Moho",
+      "amount_sold": 67862.94691224268,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T04:29:50.470702+00:00",
+      "exit_time": "2026-09-03T04:30:54.023977+00:00",
+      "entry_price_usd": 7.384e-06,
+      "exit_price_usd": 1.1026016737305597e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007443,
+      "pnl_sol": 0.002443,
+      "pnl_pct": 49.32,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "44fTJtwKpWQGwS3362rawpcaAd9XbrfXgdvxnNGQpump",
+      "symbol": "Moho",
+      "name": "The Last Moho",
+      "amount_sold": 101794.42036836402,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-03T04:29:50.470702+00:00",
+      "exit_time": "2026-09-03T04:31:15.778273+00:00",
+      "entry_price_usd": 7.384e-06,
+      "exit_price_usd": 1.1026016737305597e-05,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.011165,
+      "pnl_sol": 0.003665,
+      "pnl_pct": 49.32,
+      "exit_reason": "LLM: sell_half — Up 49.3% and bonding curve is still incomplete (risk of dump as curve completes). Lock half the gain now per scalp discipline — up >20% with any doubt",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-03T04:29:50.740031+00:00",
+  "last_updated": "2026-09-03T04:31:16.037522+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.22,
-  "portfolio_value_usd": 36.41,
+  "last_sol_price_usd": 100.53,
+  "portfolio_value_usd": 37.14,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 03:52 UTC",
-      "action": "buy",
-      "details": "[LLM] $SM at $4.904e-06, spent 0.02 SOL",
-      "reason": "$SM narrative is strongest here — 'tokenized mining rigs hashing for Solana' riffs the AI/miner meta which is pumping across CT, plus active @miner_on_sol twitter. Sub-1min age, $5.4k mcap = asymmetric upside if narrative catches. Risk: bond only 22%, may stall on curve."
-    },
-    {
-      "time": "2026-09-03 03:53 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $SM at $6.42346e-06 | P&L: +31.0%",
-      "reason": "Auto take-profit at +31.0%"
-    },
     {
       "time": "2026-09-03 03:53 UTC",
       "action": "sell",
@@ -26672,30 +26694,54 @@
       "action": "buy",
       "details": "[LLM] $Moho at $7.384e-06, spent 0.02 SOL",
       "reason": "$Moho (The Last Moho) has the strongest narrative of the batch: emotional 'last male Kauai bird recording' hook with author Devilante driving attention, real description (>50 chars) and twitter presence clears the viability gate. 24% bond and $6k mcap give early-entry asymmetry — viral animal/nostalgia memes historically pump hard on low mcaps."
+    },
+    {
+      "time": "2026-09-03 04:30 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Moho at $1.1026e-05 | P&L: +49.3%",
+      "reason": "Auto take-profit at +49.3%"
+    },
+    {
+      "time": "2026-09-03 04:31 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Moho at $1.1026e-05 | P&L: +49.3%",
+      "reason": "Up 49.3% and bonding curve is still incomplete (risk of dump as curve completes). Lock half the gain now per scalp discipline — up >20% with any doubt = take profit. Hold half for further upside if narrative ('Last Moho') sustains."
     }
   ],
   "trade_stats": {
-    "total": 1560,
-    "wins": 784,
+    "total": 1562,
+    "wins": 786,
     "losses": 776,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -1.969294,
-    "avg_pnl_pct": 36.19,
+    "total_pnl_sol": -1.963186,
+    "avg_pnl_pct": 36.2,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 49,
-    "today_realized_sol": 0.023567,
-    "today_target_pct": 5.9,
+    "today_trades": 51,
+    "today_realized_sol": 0.029675,
+    "today_target_pct": 7.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 784,
+      "win_count": 786,
       "loss_count": 776,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T04:29:49.131497+00:00",
+  "last_llm_brief_at": "2026-09-03T04:31:15.778232+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "44fTJtwKpWQGwS3362rawpcaAd9XbrfXgdvxnNGQpump": {
+      "price_usd": 1.1026016737305597e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2957.4457712100902,
+      "volume_h24": 31090.05,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 29.418539453
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

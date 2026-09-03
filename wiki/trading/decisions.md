@@ -12751,3 +12751,9 @@
 ## [2026-09-03 04:29 UTC] buy | [LLM] $Moho at $7.384e-06, spent 0.02 SOL
 - **Reasoning:** $Moho (The Last Moho) has the strongest narrative of the batch: emotional 'last male Kauai bird recording' hook with author Devilante driving attention, real description (>50 chars) and twitter presence clears the viability gate. 24% bond and $6k mcap give early-entry asymmetry — viral animal/nostalgia memes historically pump hard on low mcaps.
 
+## [2026-09-03 04:30 UTC] sell | [TP +30% (25%)] $Moho at $1.1026e-05 | P&L: +49.3%
+- **Reasoning:** Auto take-profit at +49.3%
+
+## [2026-09-03 04:31 UTC] sell | [PARTIAL][LLM] $Moho at $1.1026e-05 | P&L: +49.3%
+- **Reasoning:** Up 49.3% and bonding curve is still incomplete (risk of dump as curve completes). Lock half the gain now per scalp discipline — up >20% with any doubt = take profit. Hold half for further upside if narrative ('Last Moho') sustains.
+
