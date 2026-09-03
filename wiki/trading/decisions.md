@@ -12979,3 +12979,6 @@
 ## [2026-09-03 07:15 UTC] sell | [FULL][LLM] $donki at $3.26151e-06 | P&L: -0.2%
 - **Reasoning:** $donki is flat (-0.2%) after 0.0h with only $222 pool — barely above viability. No clear narrative, no viral hook, just a Japanese discounter meme. Cut and free the slot.
 
+## [2026-09-03 07:17 UTC] buy | [LLM] $M2BCooT at $3.346e-06, spent 0.02 SOL
+- **Reasoning:** $M2BCooT — browser-native racing game on Solana is a rare product-backed narrative in memecoins; gaming meta consistently catches attention, mcap $3.8k with 12% bond gives early entry room. Risk: sub-$4k mcap is rug-prone, but the gameplay hook differentiates it from pure-joke tokens.
+
