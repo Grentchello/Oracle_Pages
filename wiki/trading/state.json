@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.323171,
+  "balance_sol": 0.349059,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GVfXevfQMG9Z4VU83r47wXbmfdVgKYaBQhQ1JcSPpump": {
       "symbol": "DERP",
       "name": "DERP",
-      "amount": 218009.4786729858,
+      "amount": 163507.10900473935,
       "entry_price_usd": 9.284e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.015,
       "entry_time": "2026-09-03T12:52:55.257771+00:00",
       "entry_usd_value": 2.024,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 27.057590588,
         "description": "DERP is a duck with zero thoughts and unlimited confidence. Nobody knows what he's doing. Neither does he.",
         "twitter": "https://x.com/derpso1ana",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "GWSzFjaWSnPjazJHjt8ctpG2TukqUhU2jfdc3fMFpump": {
-      "symbol": "PARE",
-      "name": "Pare Stocks",
-      "amount": 374244.12530067965,
-      "entry_price_usd": 5.408234527058652e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-03T12:52:56.614059+00:00",
-      "entry_usd_value": 2.024,
-      "entry_signals": {
-        "liquidity_usd": 526.8369608876001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5397.734713031642,
-        "ath_market_cap_usd": 5407.165706005873,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.205898823,
-        "description": "PARE splits a tokenized stock into two things you can trade separately: the stock itself",
-        "twitter": "https://x.com/PareStocks",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -28506,25 +28484,47 @@
       "pnl_pct": -5.42,
       "exit_reason": "LLM: sell_all — $ARROW is down -5.4% on a bonding-curve token with $0 pool liquidity — it's stuck pre-graduation. Stale flat position, no momentum signal, and the slo",
       "partial": false
+    },
+    {
+      "mint": "GVfXevfQMG9Z4VU83r47wXbmfdVgKYaBQhQ1JcSPpump",
+      "symbol": "DERP",
+      "name": "DERP",
+      "amount_sold": 54502.36966824645,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-03T12:52:55.257771+00:00",
+      "exit_time": "2026-09-03T12:55:18.107513+00:00",
+      "entry_price_usd": 9.284e-06,
+      "exit_price_usd": 1.243489662142527e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.00668,
+      "pnl_sol": 0.00168,
+      "pnl_pct": 33.94,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "GWSzFjaWSnPjazJHjt8ctpG2TukqUhU2jfdc3fMFpump",
+      "symbol": "PARE",
+      "name": "Pare Stocks",
+      "amount_sold": 374244.12530067965,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-03T12:52:56.614059+00:00",
+      "exit_time": "2026-09-03T12:55:56.008840+00:00",
+      "entry_price_usd": 5.408234527058652e-06,
+      "exit_price_usd": 5.207523002561369e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019208,
+      "pnl_sol": -0.000792,
+      "pnl_pct": -3.71,
+      "exit_reason": "LLM: sell_all — $PARE is -3.7% on a $1080 pool (way below ideal liquidity), no share, no momentum after entry. Freeing the slot to deploy into fresher attention.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-03T12:54:13.953258+00:00",
+  "last_updated": "2026-09-03T12:55:56.276102+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.39,
-  "portfolio_value_usd": 36.81,
+  "last_sol_price_usd": 101.46,
+  "portfolio_value_usd": 36.93,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 12:08 UTC",
-      "action": "buy",
-      "details": "[LLM] $HUGGY at $1.06586e-05, spent 0.02 SOL",
-      "reason": "$HUGGY (Hugging Face) has the strongest narrative of the batch — Hugging Face is a real AI brand with massive mindshare, $10.7k mcap is early,33% bonded shows traction. Clean political/celebrity keywords. Strong attention signal from ForestManSol."
-    },
-    {
-      "time": "2026-09-03 12:11 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ENOS at $3.56869e-06 | P&L: +1.6%",
-      "reason": "ENOS is flat at +1.6% after 0.1h with only $380 pool liquidity — dangerously thin, high rug/slippage risk, no narrative momentum. Free slot and capital."
-    },
     {
       "time": "2026-09-03 12:11 UTC",
       "action": "sell",
@@ -28632,51 +28632,63 @@
       "action": "buy",
       "details": "[LLM] $PARE at $5.40823e-06, spent 0.02 SOL",
       "reason": "Pare Stocks — tokenized stocks split narrative is topical and explainable, twitter live, fresh launch (0.1min), real-world hook = attention magnet."
+    },
+    {
+      "time": "2026-09-03 12:55 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $DERP at $1.24349e-05 | P&L: +33.9%",
+      "reason": "Auto take-profit at +33.9%"
+    },
+    {
+      "time": "2026-09-03 12:55 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PARE at $5.20752e-06 | P&L: -3.7%",
+      "reason": "$PARE is -3.7% on a $1080 pool (way below ideal liquidity), no share, no momentum after entry. Freeing the slot to deploy into fresher attention."
     }
   ],
   "trade_stats": {
-    "total": 1674,
-    "wins": 848,
-    "losses": 826,
+    "total": 1676,
+    "wins": 849,
+    "losses": 827,
     "win_rate_pct": 50.7,
-    "total_pnl_sol": -1.969473,
-    "avg_pnl_pct": 35.17,
+    "total_pnl_sol": -1.968585,
+    "avg_pnl_pct": 35.15,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 163,
-    "today_realized_sol": 0.023388,
-    "today_target_pct": 5.8,
+    "today_trades": 165,
+    "today_realized_sol": 0.024276,
+    "today_target_pct": 6.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 848,
-      "loss_count": 826,
+      "win_count": 849,
+      "loss_count": 827,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-03T12:54:13.953216+00:00",
+  "last_llm_brief_at": "2026-09-03T12:55:56.008802+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GVfXevfQMG9Z4VU83r47wXbmfdVgKYaBQhQ1JcSPpump": {
-      "price_usd": 9.738453433564883e-06,
+      "price_usd": 1.243489662142527e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2596.01407224918,
-      "volume_h24": 4507.81,
+      "liquidity_usd": 3328.9811879736603,
+      "volume_h24": 5601.21,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 25.604241762
+      "real_sol_reserves": 32.810774571
     },
     "GWSzFjaWSnPjazJHjt8ctpG2TukqUhU2jfdc3fMFpump": {
-      "price_usd": 5.366992847952722e-06,
+      "price_usd": 5.207523002561369e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1143.57075335739,
-      "volume_h24": 6358.21,
+      "liquidity_usd": 1080.2461474803,
+      "volume_h24": 7541.77,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 11.278930401
+      "real_sol_reserves": 10.647015055
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

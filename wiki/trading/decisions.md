@@ -13309,3 +13309,9 @@
 ## [2026-09-03 12:52 UTC] buy | [LLM] $PARE at $5.40823e-06, spent 0.02 SOL
 - **Reasoning:** Pare Stocks — tokenized stocks split narrative is topical and explainable, twitter live, fresh launch (0.1min), real-world hook = attention magnet.
 
+## [2026-09-03 12:55 UTC] sell | [TP +30% (25%)] $DERP at $1.24349e-05 | P&L: +33.9%
+- **Reasoning:** Auto take-profit at +33.9%
+
+## [2026-09-03 12:55 UTC] sell | [FULL][LLM] $PARE at $5.20752e-06 | P&L: -3.7%
+- **Reasoning:** $PARE is -3.7% on a $1080 pool (way below ideal liquidity), no share, no momentum after entry. Freeing the slot to deploy into fresher attention.
+
