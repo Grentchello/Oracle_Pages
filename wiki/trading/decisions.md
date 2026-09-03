@@ -13066,3 +13066,6 @@
 ## [2026-09-03 10:00 UTC] sell | [FULL][LLM] $Bon at $3.17702e-06 | P&L: -23.3%
 - **Reasoning:** $Bon is at -23.3%, held 0h on a thin $196 pool with only 1% share. Down >20% with no bounce signal - per discipline, exit fast before this becomes -30%. Lock the loss, free the slot.
 
+## [2026-09-03 10:08 UTC] buy | [LLM] $TREF at $1.053e-05, spent 0.02 SOL
+- **Reasoning:** $TREF has a genuinely unique narrative — interactive token where mentioning @trefworld on X drives utility. Strong attention mechanic (viral by design), twitter presence confirmed, mcap $8k at 1.3min = early entry on a story-driven launch. Risky as always with1-min tokens, but the interactive X-mention mechanic is the kind of hook that spreads.
+
