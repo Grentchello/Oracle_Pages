@@ -14305,3 +14305,6 @@
 ## [2026-09-04 00:32 UTC] buy | [LLM] $RDR at $3.027e-06, spent 0.02 SOL
 - **Reasoning:** $RDR 'Red Doge Redemption' ties two live attention threads — GTA/TTWO discourse + Solana cowboy meta — and has a real OTC desks tweet attached, which passes the viability gate cleanly. Risk: $3k mcap with 2% bond means liquidity is razor thin; bail if it doesn't lift in first 10 min.
 
+## [2026-09-04 00:35 UTC] sell | [PARTIAL][LLM] $RDR at $3.11454e-06 | P&L: +2.9%
+- **Reasoning:** +2.9% with tiny $110 pool and 2% share makes exit liquidity fragile. Take half off the table to lock in green and reduce risk on this microcap; let the rest ride if it pops.
+
