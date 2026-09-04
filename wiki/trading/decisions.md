@@ -14476,3 +14476,6 @@
 ## [2026-09-04 02:37 UTC] sell | [FULL][LLM] $LOONG at $6.82993e-06 | P&L: +3.9%
 - **Reasoning:** Held 0.1h, only +3.9%, still on bonding curve with $1666 pool. Stale signal — no momentum to justify locking 0.05 SOL here. Free up slot for fresh attention.
 
+## [2026-09-04 02:44 UTC] buy | [LLM] $FIBER at $3.982e-06, spent 0.02 SOL
+- **Reasoning:** $FIBER has clearest attention signal of the batch: real twitter (@fiber_evm) + coherent 'privacy onchain' narrative + viable $3.9k mcap. Not a celebrity/political token so passes fragility gate. 0.05 SOL position to test the thesis.
+
