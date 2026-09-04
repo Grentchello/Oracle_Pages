@@ -14308,3 +14308,6 @@
 ## [2026-09-04 00:35 UTC] sell | [PARTIAL][LLM] $RDR at $3.11454e-06 | P&L: +2.9%
 - **Reasoning:** +2.9% with tiny $110 pool and 2% share makes exit liquidity fragile. Take half off the table to lock in green and reduce risk on this microcap; let the rest ride if it pops.
 
+## [2026-09-04 00:36 UTC] sell | [FULL][LLM] $RDR at $3.11849e-06 | P&L: +3.0%
+- **Reasoning:** $RDR is up only +3% after 6 minutes on a $111 pool — not enough momentum to justify holding. Pool is tiny and our share is 1%, so any meaningful move up will require more volume than this. Take the small gain, free the slot.
+
