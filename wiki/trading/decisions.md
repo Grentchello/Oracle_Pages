@@ -14281,3 +14281,9 @@
 ## [2026-09-04 00:19 UTC] sell | [PARTIAL][LLM] $Heist at $7.81938e-06 | P&L: +114.4%
 - **Reasoning:** +114% past +50% TP threshold on bonding curve. Bonding curve graduation often triggers dumps. Lock half the gain, let rest ride with house money.
 
+## [2026-09-04 00:20 UTC] sell | [TP +30% (25%)] $Heist at $5.64666e-06 | P&L: +54.8%
+- **Reasoning:** Auto take-profit at +54.8%
+
+## [2026-09-04 00:20 UTC] sell | [PARTIAL][LLM] $Heist at $5.64666e-06 | P&L: +54.8%
+- **Reasoning:** +54.8% already exceeds the +50% TP threshold and we've held 6 minutes — take half off to lock gains while letting the runner ride. Pool is tiny ($1,230) so the second half can either run or get stopped at -30% from here; either way we banked profit.
+

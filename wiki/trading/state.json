@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.322481,
+  "balance_sol": 0.327321,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DRDz1jSR3dReRxxp3s5n6ahDi1Z9TT7VakdEbAi9pump": {
       "symbol": "Heist",
       "name": "The Guinness Heist",
-      "amount": 142336.16671236634,
+      "amount": 53376.062517137376,
       "entry_price_usd": 3.647e-06,
-      "entry_sol_spent": 0.005,
+      "entry_sol_spent": 0.001875,
       "entry_time": "2026-09-04T00:16:22.161790+00:00",
       "entry_usd_value": 2.0764,
       "entry_signals": {
@@ -31901,25 +31901,47 @@
       "pnl_pct": 114.41,
       "exit_reason": "LLM: sell_half — +114% past +50% TP threshold on bonding curve. Bonding curve graduation often triggers dumps. Lock half the gain, let rest ride with house money.",
       "partial": true
+    },
+    {
+      "mint": "DRDz1jSR3dReRxxp3s5n6ahDi1Z9TT7VakdEbAi9pump",
+      "symbol": "Heist",
+      "name": "The Guinness Heist",
+      "amount_sold": 35584.041678091584,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-04T00:16:22.161790+00:00",
+      "exit_time": "2026-09-04T00:20:26.756800+00:00",
+      "entry_price_usd": 3.647e-06,
+      "exit_price_usd": 5.646657679464587e-06,
+      "entry_sol_for_chunk": 0.00125,
+      "exit_sol_received": 0.001936,
+      "pnl_sol": 0.000686,
+      "pnl_pct": 54.83,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "DRDz1jSR3dReRxxp3s5n6ahDi1Z9TT7VakdEbAi9pump",
+      "symbol": "Heist",
+      "name": "The Guinness Heist",
+      "amount_sold": 53376.062517137376,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-04T00:16:22.161790+00:00",
+      "exit_time": "2026-09-04T00:20:51.328818+00:00",
+      "entry_price_usd": 3.647e-06,
+      "exit_price_usd": 5.646657679464587e-06,
+      "entry_sol_for_chunk": 0.001875,
+      "exit_sol_received": 0.002904,
+      "pnl_sol": 0.001029,
+      "pnl_pct": 54.83,
+      "exit_reason": "LLM: sell_half — +54.8% already exceeds the +50% TP threshold and we've held 6 minutes — take half off to lock gains while letting the runner ride. Pool is tiny ($1,23",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-04T00:19:23.166013+00:00",
+  "last_updated": "2026-09-04T00:20:51.600328+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.033,
-  "portfolio_value_usd": 34.07,
+  "last_sol_price_usd": 103.77,
+  "portfolio_value_usd": 34.16,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 23:35 UTC",
-      "action": "buy",
-      "details": "[LLM] $tholana at $5.05179e-06, spent 0.02 SOL",
-      "reason": "$tholana rides the fresh Mike Tyson memecoin wave — 'going ballistic' is classic viral copy and the narrative is hot right now (also see $$PIPE). Tyson isn't on the explicit fragility blocklist; 0.3min age means I'm early. Sizing 0.05 SOL (v7) to preserve the remaining ~3 buys of headroom before the -0.05 SOL daily loss cap locks me out."
-    },
-    {
-      "time": "2026-09-03 23:38 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $tholana at $5.85051e-06 | P&L: +15.8%",
-      "reason": "Up 15.8% but on bonding curve with $1.3k pool and no follow-through volume yet — Berlin hippo narrative is cute but thin, and gains can evaporate fast once curve graduates. Locking the 15% before the -30% stop catches me."
-    },
     {
       "time": "2026-09-03 23:39 UTC",
       "action": "buy",
@@ -32027,40 +32049,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Heist at $7.81938e-06 | P&L: +114.4%",
       "reason": "+114% past +50% TP threshold on bonding curve. Bonding curve graduation often triggers dumps. Lock half the gain, let rest ride with house money."
+    },
+    {
+      "time": "2026-09-04 00:20 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Heist at $5.64666e-06 | P&L: +54.8%",
+      "reason": "Auto take-profit at +54.8%"
+    },
+    {
+      "time": "2026-09-04 00:20 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Heist at $5.64666e-06 | P&L: +54.8%",
+      "reason": "+54.8% already exceeds the +50% TP threshold and we've held 6 minutes — take half off to lock gains while letting the runner ride. Pool is tiny ($1,230) so the second half can either run or get stopped at -30% from here; either way we banked profit."
     }
   ],
   "trade_stats": {
-    "total": 1875,
-    "wins": 964,
+    "total": 1877,
+    "wins": 966,
     "losses": 911,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.005168,
-    "avg_pnl_pct": 34.29,
+    "win_rate_pct": 51.5,
+    "total_pnl_sol": -2.003453,
+    "avg_pnl_pct": 34.31,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 6,
-    "today_realized_sol": 0.023831,
-    "today_target_pct": 6.0,
+    "today_trades": 8,
+    "today_realized_sol": 0.025546,
+    "today_target_pct": 6.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 964,
+      "win_count": 966,
       "loss_count": 911,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T00:19:22.534827+00:00",
+  "last_llm_brief_at": "2026-09-04T00:20:51.328781+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DRDz1jSR3dReRxxp3s5n6ahDi1Z9TT7VakdEbAi9pump": {
-      "price_usd": 7.819381025788324e-06,
+      "price_usd": 5.646657679464587e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1996.2081931083071,
-      "volume_h24": 4422.04,
+      "liquidity_usd": 1229.922977265,
+      "volume_h24": 5749.85,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 19.188220979
+      "real_sol_reserves": 11.8523945
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
