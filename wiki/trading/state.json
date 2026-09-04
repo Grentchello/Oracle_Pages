@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.284742,
+  "balance_sol": 0.301641,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "3RJVfhNcbwR421Ffsf8KK9ntnjof1U1HrV8Cn2uypump": {
       "symbol": "astra",
       "name": "gpt-6-astra",
-      "amount": 705746.3447806869,
+      "amount": 101767.14090071544,
       "entry_price_usd": 2.941e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0028839580014357693,
       "entry_time": "2026-09-04T02:00:24.874659+00:00",
       "entry_usd_value": 2.0756,
       "entry_signals": {
@@ -32484,19 +32484,30 @@
       "pnl_pct": 199.59,
       "exit_reason": "LLM: sell_all — Up +199.6% — locking in the 3x before it evaporates. Bonding curve is only 12% complete so exit slippage will hurt, but a guaranteed gain now beats ho",
       "partial": false
+    },
+    {
+      "mint": "3RJVfhNcbwR421Ffsf8KK9ntnjof1U1HrV8Cn2uypump",
+      "symbol": "astra",
+      "name": "gpt-6-astra",
+      "amount_sold": 603979.2038799714,
+      "fraction_sold": 0.8558020999282115,
+      "entry_time": "2026-09-04T02:00:24.874659+00:00",
+      "exit_time": "2026-09-04T02:04:22.364999+00:00",
+      "entry_price_usd": 2.941e-06,
+      "exit_price_usd": 2.901269784964787e-06,
+      "entry_sol_for_chunk": 0.017116,
+      "exit_sol_received": 0.016899,
+      "pnl_sol": -0.000217,
+      "pnl_pct": -1.35,
+      "exit_reason": "LLM: sell_all — Pool only $1 and we hold 173% — exit immediately. The price quote is stale or the pool is effectively dead, and holding a 173% share in a $1 pool is a",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-04T02:02:43.484357+00:00",
+  "last_updated": "2026-09-04T02:04:22.365242+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.75,
-  "portfolio_value_usd": 33.69,
+  "last_sol_price_usd": 103.69,
+  "portfolio_value_usd": 33.65,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 01:27 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $Motion at $1.05081e-05 | P&L: +42.6%",
-      "reason": "Auto take-profit at +42.6%"
-    },
     {
       "time": "2026-09-04 01:27 UTC",
       "action": "sell",
@@ -32610,40 +32621,57 @@
       "action": "buy",
       "details": "[LLM] $Selvo at $2.983e-06, spent 0.02 SOL",
       "reason": "$Selvo has the cleanest meta-narrative on the board ('they told me to sell, so I bought it instead') — self-referential to trading culture, attention-friendly hook, real X account (@SelvoSOL), mcap sub-3k with fresh launch energy. Best risk/reward of the candidates; defaults bias is to take the trade."
+    },
+    {
+      "time": "2026-09-04 02:04 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $astra at $2.90127e-06 | P&L: -1.4%",
+      "reason": "Pool only $1 and we hold 173% — exit immediately. The price quote is stale or the pool is effectively dead, and holding a 173% share in a $1 pool is a guaranteed rug/zero-out. Cut the loss at -1.4% rather than wait for it to gap to -30%."
     }
   ],
   "trade_stats": {
-    "total": 1908,
+    "total": 1909,
     "wins": 984,
-    "losses": 924,
-    "win_rate_pct": 51.6,
-    "total_pnl_sol": -2.007909,
-    "avg_pnl_pct": 34.23,
+    "losses": 925,
+    "win_rate_pct": 51.5,
+    "total_pnl_sol": -2.008126,
+    "avg_pnl_pct": 34.21,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 39,
-    "today_realized_sol": 0.02109,
-    "today_target_pct": 5.3,
+    "today_trades": 40,
+    "today_realized_sol": 0.020873,
+    "today_target_pct": 5.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 984,
-      "loss_count": 924,
+      "loss_count": 925,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T02:02:42.149627+00:00",
+  "last_llm_brief_at": "2026-09-04T02:04:22.364908+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "3RJVfhNcbwR421Ffsf8KK9ntnjof1U1HrV8Cn2uypump": {
-      "price_usd": 2.9029485986121775e-06,
+      "price_usd": 2.901269784964787e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.18169911625,
-      "volume_h24": 268.76,
+      "liquidity_usd": 1.1810157239899999,
+      "volume_h24": 288.52,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.011389871
+    },
+    "DsvLLXcgjMDVhUPp5wxx15EBAmfWcqALTxrESh7Ypump": {
+      "price_usd": 2.953096212989417e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 28.85231310607,
+      "volume_h24": 238.15,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.278255503
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

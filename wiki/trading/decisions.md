@@ -14440,3 +14440,6 @@
 ## [2026-09-04 02:02 UTC] buy | [LLM] $Selvo at $2.983e-06, spent 0.02 SOL
 - **Reasoning:** $Selvo has the cleanest meta-narrative on the board ('they told me to sell, so I bought it instead') — self-referential to trading culture, attention-friendly hook, real X account (@SelvoSOL), mcap sub-3k with fresh launch energy. Best risk/reward of the candidates; defaults bias is to take the trade.
 
+## [2026-09-04 02:04 UTC] sell | [PARTIAL][LLM] $astra at $2.90127e-06 | P&L: -1.4%
+- **Reasoning:** Pool only $1 and we hold 173% — exit immediately. The price quote is stale or the pool is effectively dead, and holding a 173% share in a $1 pool is a guaranteed rug/zero-out. Cut the loss at -1.4% rather than wait for it to gap to -30%.
+
