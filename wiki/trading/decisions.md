@@ -14341,3 +14341,9 @@
 ## [2026-09-04 00:56 UTC] sell | [PARTIAL][LLM] $foneOS at $2.57127e-05 | P&L: +56.9%
 - **Reasoning:** +56.9% in <1h on thin $6k bonding curve pool. Lock in gains on half — runner narrative unclear, thin liquidity could mean sharp reversal. Half keeps upside if it continues.
 
+## [2026-09-04 00:57 UTC] sell | [hard-stop] $foneOS closed at $3.04233e-06 | P&L: -81.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-04 00:57 UTC] buy | [LLM] $WRC  at $3.9453e-06, spent 0.02 SOL
+- **Reasoning:** $WRC has the strongest narrative of the slate (physical AI narrative is hot), real description, dedicated twitter (@wrc2026_), and only 12% bond = early entry if it catches. Slightly higher risk than $creampie but asymmetric upside on a credible AI story.
+
