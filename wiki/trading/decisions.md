@@ -14566,3 +14566,9 @@
 ## [2026-09-04 04:14 UTC] sell | [FULL][LLM] $DD at $2.95873e-06 | P&L: -2.3%
 - **Reasoning:** $DD is on a $31 pool — effectively illiquid and rug-prone. Down only 2.3% but no bounce signal and the thin liquidity means exit is the right rotation. Freeing slot for fresher attention.
 
+## [2026-09-04 04:15 UTC] sell | [FULL][LLM] $MPGA at $8.81709e-06 | P&L: -26.1%
+- **Reasoning:** $MPGA at -26.2%, near the -30% hard stop, with 0% share of a $2314 pool on a bonding curve at 0% — capital is effectively gone. Recovering SOL now is better than waiting for auto-stop, since the position has no meaningful stake left.
+
+## [2026-09-04 04:15 UTC] buy | [LLM] $HEAVY at $3.08e-06, spent 0.02 SOL
+- **Reasoning:** $HEAVY has a concrete visual meme moment (pill folding a gold bar), a real X presence, and a narrative that targets the boomer/gold crowd — strong attention hook for early pump.
+
