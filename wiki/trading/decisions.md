@@ -14497,3 +14497,6 @@
 ## [2026-09-04 02:52 UTC] sell | [PARTIAL][LLM] $index at $6.63556e-06 | P&L: +62.0%
 - **Reasoning:** $index is up +62% — well past the +50% TP level. Narrative (S&P/index parody with viral tweet) is strong, but at 2x in minutes the probability of pullback is high. Lock half the gain, let the rest ride if it keeps pumping.
 
+## [2026-09-04 02:54 UTC] sell | [FULL][LLM] $HERE at $2.89862e-06 | P&L: -6.3%
+- **Reasoning:** $HERE at -6.3% with our share=25% of pool — severe concentration risk for a fresh launch. Small realized loss acceptable to rotate capital into a stronger narrative and preserve our winning $index position.
+
