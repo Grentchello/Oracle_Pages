@@ -14350,3 +14350,6 @@
 ## [2026-09-04 01:02 UTC] sell | [FULL][LLM] $WRC  at $2.89739e-06 | P&L: -26.6%
 - **Reasoning:** Down -26.6% with pool=$0 (zero real liquidity) — this is a dead bonding-curve token heading straight to the -30% hard stop. Better to lock the -26.6% loss now than wait for the auto-stop, and free up the position slot for a fresh entry with actual attention behind it.
 
+## [2026-09-04 01:08 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
