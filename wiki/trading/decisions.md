@@ -14590,3 +14590,6 @@
 ## [2026-09-04 04:48 UTC] buy | [LLM] $$SHERRY at $3.07727e-06, spent 0.02 SOL
 - **Reasoning:** $$SHERRY has a real narrative ('Dalton is worried' — 90 days no feelings, then Dalton showed up). Linked twitter @Sato1794. mcap $3k, age 0.2min = super fresh attention launch with story-driven meme potential. Viability gate PASSES (desc ≥50 chars + twitter). Taking the small position per the 'default bias: take the trade' guidance on a narrative launch.
 
+## [2026-09-04 04:49 UTC] sell | [FULL][LLM] $$SHERRY at $3.07608e-06 | P&L: -0.0%
+- **Reasoning:** Flat at 0.0% with no momentum signal and just entered — freeing the slot for a higher-narrative candidate rather than bag-holding a coin with no catalyst.
+
