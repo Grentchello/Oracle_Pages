@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.261878,
+  "balance_sol": 0.298517,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "8MWCAQtJ6LPBYerzCBHKHUoYuHM7EoD7JnpZerPrpump": {
       "symbol": "HERE",
       "name": "WE ARE HERE",
-      "amount": 669059.1658583899,
+      "amount": 82709.49174871325,
       "entry_price_usd": 3.093e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0024724118872984447,
       "entry_time": "2026-09-04T02:49:25.561134+00:00",
       "entry_usd_value": 2.0694,
       "entry_signals": {
@@ -28,9 +28,9 @@
     "FrPuM4ohDm5k6Eqwsnw9BA5pSvtFShdpwhmH5TZPpump": {
       "symbol": "index",
       "name": "indexfund.fun",
-      "amount": 505126.95312499994,
+      "amount": 189422.60742187497,
       "entry_price_usd": 4.096e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-04T02:50:46.071633+00:00",
       "entry_usd_value": 2.069,
       "entry_signals": {
@@ -32637,31 +32637,64 @@
       "pnl_pct": -26.04,
       "exit_reason": "LLM: sell_all — $FIBER at -26%, held 0.0h, no bounce signal on bonding curve. Approaching -30% hard stop. Capital rotation is mandatory — locked capital teaches nothi",
       "partial": false
+    },
+    {
+      "mint": "FrPuM4ohDm5k6Eqwsnw9BA5pSvtFShdpwhmH5TZPpump",
+      "symbol": "index",
+      "name": "indexfund.fun",
+      "amount_sold": 126281.73828124999,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-04T02:50:46.071633+00:00",
+      "exit_time": "2026-09-04T02:51:49.984238+00:00",
+      "entry_price_usd": 4.096e-06,
+      "exit_price_usd": 6.63555859918348e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.008094,
+      "pnl_sol": 0.003094,
+      "pnl_pct": 62.0,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "8MWCAQtJ6LPBYerzCBHKHUoYuHM7EoD7JnpZerPrpump",
+      "symbol": "HERE",
+      "name": "WE ARE HERE",
+      "amount_sold": 586349.6741096767,
+      "fraction_sold": 0.8763794056350778,
+      "entry_time": "2026-09-04T02:49:25.561134+00:00",
+      "exit_time": "2026-09-04T02:52:19.880460+00:00",
+      "entry_price_usd": 3.093e-06,
+      "exit_price_usd": 2.8963809515396637e-06,
+      "entry_sol_for_chunk": 0.017528,
+      "exit_sol_received": 0.016404,
+      "pnl_sol": -0.001124,
+      "pnl_pct": -6.36,
+      "exit_reason": "LLM: sell_all — $HERE is down 6.4% with our share at 202% — we're a HUGE portion of a $1 pool, meaning illiquidity risk and likely no real volume behind it. Bonding c",
+      "partial": true
+    },
+    {
+      "mint": "FrPuM4ohDm5k6Eqwsnw9BA5pSvtFShdpwhmH5TZPpump",
+      "symbol": "index",
+      "name": "indexfund.fun",
+      "amount_sold": 189422.60742187497,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-04T02:50:46.071633+00:00",
+      "exit_time": "2026-09-04T02:52:19.880640+00:00",
+      "entry_price_usd": 4.096e-06,
+      "exit_price_usd": 6.63555859918348e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.012141,
+      "pnl_sol": 0.004641,
+      "pnl_pct": 62.0,
+      "exit_reason": "LLM: sell_half — $index is up +62% — well past the +50% TP level. Narrative (S&P/index parody with viral tweet) is strong, but at 2x in minutes the probability of pull",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-04T02:50:46.071810+00:00",
+  "last_updated": "2026-09-04T02:52:19.880739+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.45,
-  "portfolio_value_usd": 31.23,
+  "last_sol_price_usd": 103.53,
+  "portfolio_value_usd": 31.94,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 01:41 UTC",
-      "action": "sell",
-      "details": "[TP +100% (50%)] $Thuggies at $1.04257e-05 | P&L: +199.6%",
-      "reason": "Auto take-profit at +199.6%"
-    },
-    {
-      "time": "2026-09-04 01:42 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Thuggies at $1.04257e-05 | P&L: +199.6%",
-      "reason": "Up +199.6% — locking in the 3x before it evaporates. Bonding curve is only 12% complete so exit slippage will hurt, but a guaranteed gain now beats holding for a 10x that may never come on a thin curve."
-    },
-    {
-      "time": "2026-09-04 02:00 UTC",
-      "action": "buy",
-      "details": "[LLM] $astra at $2.941e-06, spent 0.02 SOL",
-      "reason": "$astra (gpt-6-astra) — OpenAI narrative with cited OpenAI tweet as the attention source. AI memecoins are hot, $3k mcap is ground floor, real catalyst not just hype. Tight0.05 SOL size, will exit fast on +30%."
-    },
     {
       "time": "2026-09-04 02:02 UTC",
       "action": "buy",
@@ -32763,40 +32796,69 @@
       "action": "buy",
       "details": "[LLM] $index at $4.096e-06, spent 0.02 SOL",
       "reason": "$index (indexfund.fun) — clear product narrative (memecoin index funds / launchpad) with a live @indexfundfun X account and an actual description. Bonding 15% but narrative is differentiated from the noise — this is the kind of 'story' play that pumps on attention. Worth rotating into."
+    },
+    {
+      "time": "2026-09-04 02:51 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $index at $6.63556e-06 | P&L: +62.0%",
+      "reason": "Auto take-profit at +62.0%"
+    },
+    {
+      "time": "2026-09-04 02:52 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $HERE at $2.89638e-06 | P&L: -6.4%",
+      "reason": "$HERE is down 6.4% with our share at 202% — we're a HUGE portion of a $1 pool, meaning illiquidity risk and likely no real volume behind it. Bonding curve, age 0h, no narrative momentum. Cut and free the slot."
+    },
+    {
+      "time": "2026-09-04 02:52 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $index at $6.63556e-06 | P&L: +62.0%",
+      "reason": "$index is up +62% — well past the +50% TP level. Narrative (S&P/index parody with viral tweet) is strong, but at 2x in minutes the probability of pullback is high. Lock half the gain, let the rest ride if it keeps pumping."
     }
   ],
   "trade_stats": {
-    "total": 1917,
-    "wins": 986,
-    "losses": 931,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.030773,
-    "avg_pnl_pct": 34.0,
+    "total": 1920,
+    "wins": 988,
+    "losses": 932,
+    "win_rate_pct": 51.5,
+    "total_pnl_sol": -2.024162,
+    "avg_pnl_pct": 34.01,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 48,
-    "today_realized_sol": -0.001774,
-    "today_target_pct": -0.4,
+    "today_trades": 51,
+    "today_realized_sol": 0.004837,
+    "today_target_pct": 1.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 986,
-      "loss_count": 931,
+      "win_count": 988,
+      "loss_count": 932,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T02:50:44.613227+00:00",
+  "last_llm_brief_at": "2026-09-04T02:52:19.879801+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "8MWCAQtJ6LPBYerzCBHKHUoYuHM7EoD7JnpZerPrpump": {
-      "price_usd": 3.0883359401916697e-06,
+      "price_usd": 2.8963809515396637e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 103.41909534700001,
+      "liquidity_usd": 0.95823278565,
       "volume_h24": 103.58,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.99970126
+      "real_sol_reserves": 0.009255605
+    },
+    "FrPuM4ohDm5k6Eqwsnw9BA5pSvtFShdpwhmH5TZPpump": {
+      "price_usd": 6.63555859918348e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1596.63828626043,
+      "volume_h24": 5825.15,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 15.421986731
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

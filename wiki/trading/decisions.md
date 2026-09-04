@@ -14488,3 +14488,12 @@
 ## [2026-09-04 02:50 UTC] buy | [LLM] $index at $4.096e-06, spent 0.02 SOL
 - **Reasoning:** $index (indexfund.fun) — clear product narrative (memecoin index funds / launchpad) with a live @indexfundfun X account and an actual description. Bonding 15% but narrative is differentiated from the noise — this is the kind of 'story' play that pumps on attention. Worth rotating into.
 
+## [2026-09-04 02:51 UTC] sell | [TP +30% (25%)] $index at $6.63556e-06 | P&L: +62.0%
+- **Reasoning:** Auto take-profit at +62.0%
+
+## [2026-09-04 02:52 UTC] sell | [PARTIAL][LLM] $HERE at $2.89638e-06 | P&L: -6.4%
+- **Reasoning:** $HERE is down 6.4% with our share at 202% — we're a HUGE portion of a $1 pool, meaning illiquidity risk and likely no real volume behind it. Bonding curve, age 0h, no narrative momentum. Cut and free the slot.
+
+## [2026-09-04 02:52 UTC] sell | [PARTIAL][LLM] $index at $6.63556e-06 | P&L: +62.0%
+- **Reasoning:** $index is up +62% — well past the +50% TP level. Narrative (S&P/index parody with viral tweet) is strong, but at 2x in minutes the probability of pullback is high. Lock half the gain, let the rest ride if it keeps pumping.
+
