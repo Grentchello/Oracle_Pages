@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.327321,
+  "balance_sol": 0.328985,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DRDz1jSR3dReRxxp3s5n6ahDi1Z9TT7VakdEbAi9pump": {
-      "symbol": "Heist",
-      "name": "The Guinness Heist",
-      "amount": 53376.062517137376,
-      "entry_price_usd": 3.647e-06,
-      "entry_sol_spent": 0.001875,
-      "entry_time": "2026-09-04T00:16:22.161790+00:00",
-      "entry_usd_value": 2.0764,
-      "entry_signals": {
-        "liquidity_usd": 384.91545448965996,
-        "volume_24h_usd": 2047.31,
-        "market_cap_usd": 3639.053489490908,
-        "ath_market_cap_usd": 4111.401772377582,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.707527013,
-        "description": "Literally the biggest news in the UK right now.  It’s on every news article and so many posts on X:  Remember the KitCat Heist? It hit 1M.. ",
-        "twitter": "https://x.com/barnsrebirth0/status/2095664334965817846?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -31935,19 +31912,30 @@
       "pnl_pct": 54.83,
       "exit_reason": "LLM: sell_half — +54.8% already exceeds the +50% TP threshold and we've held 6 minutes — take half off to lock gains while letting the runner ride. Pool is tiny ($1,23",
       "partial": true
+    },
+    {
+      "mint": "DRDz1jSR3dReRxxp3s5n6ahDi1Z9TT7VakdEbAi9pump",
+      "symbol": "Heist",
+      "name": "The Guinness Heist",
+      "amount_sold": 53376.062517137376,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T00:16:22.161790+00:00",
+      "exit_time": "2026-09-04T00:22:14.740737+00:00",
+      "entry_price_usd": 3.647e-06,
+      "exit_price_usd": 3.239662951588191e-06,
+      "entry_sol_for_chunk": 0.001875,
+      "exit_sol_received": 0.001664,
+      "pnl_sol": -0.000211,
+      "pnl_pct": -11.17,
+      "exit_reason": "LLM: sell_all — $Heist is down -11.2% after 6 minutes with tiny $174 pool liquidity (already below my 5x position size minimum) and 0% bonding curve progress. Pool is",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T00:20:51.600328+00:00",
+  "last_updated": "2026-09-04T00:22:15.264652+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.77,
-  "portfolio_value_usd": 34.16,
+  "last_sol_price_usd": 103.94,
+  "portfolio_value_usd": 34.19,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 23:39 UTC",
-      "action": "buy",
-      "details": "[LLM] $HATE at $3.233e-06, spent 0.02 SOL",
-      "reason": "$HATE 'HATE WATCHING' — passes viability (desc + twitter). Self-aware meta-narrative ('you hate me, but you're still watching') is classic viral memecoin bait. Attention = product. High rug risk but micro-cap entry at $3.2k mcap. Sizing at 0.05 SOL ($5) keeps loss bounded."
-    },
     {
       "time": "2026-09-03 23:41 UTC",
       "action": "sell",
@@ -32061,40 +32049,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Heist at $5.64666e-06 | P&L: +54.8%",
       "reason": "+54.8% already exceeds the +50% TP threshold and we've held 6 minutes — take half off to lock gains while letting the runner ride. Pool is tiny ($1,230) so the second half can either run or get stopped at -30% from here; either way we banked profit."
+    },
+    {
+      "time": "2026-09-04 00:22 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Heist at $3.23966e-06 | P&L: -11.2%",
+      "reason": "$Heist is down -11.2% after 6 minutes with tiny $174 pool liquidity (already below my 5x position size minimum) and 0% bonding curve progress. Pool is essentially dead — no real volume, no momentum. Cut the loss now before it hits the -30% hard stop. Capital rotation beats bag-holding a microcap that isn't moving."
     }
   ],
   "trade_stats": {
-    "total": 1877,
+    "total": 1878,
     "wins": 966,
-    "losses": 911,
-    "win_rate_pct": 51.5,
-    "total_pnl_sol": -2.003453,
-    "avg_pnl_pct": 34.31,
+    "losses": 912,
+    "win_rate_pct": 51.4,
+    "total_pnl_sol": -2.003664,
+    "avg_pnl_pct": 34.29,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 8,
-    "today_realized_sol": 0.025546,
-    "today_target_pct": 6.4,
+    "today_trades": 9,
+    "today_realized_sol": 0.025335,
+    "today_target_pct": 6.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 966,
-      "loss_count": 911,
+      "loss_count": 912,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T00:20:51.328781+00:00",
+  "last_llm_brief_at": "2026-09-04T00:22:14.740702+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DRDz1jSR3dReRxxp3s5n6ahDi1Z9TT7VakdEbAi9pump": {
-      "price_usd": 5.646657679464587e-06,
+      "price_usd": 3.239662951588191e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1229.922977265,
-      "volume_h24": 5749.85,
+      "liquidity_usd": 174.1178729541,
+      "volume_h24": 6603.99,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 11.8523945
+      "real_sol_reserves": 1.675176765
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

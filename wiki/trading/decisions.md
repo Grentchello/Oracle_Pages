@@ -14287,3 +14287,6 @@
 ## [2026-09-04 00:20 UTC] sell | [PARTIAL][LLM] $Heist at $5.64666e-06 | P&L: +54.8%
 - **Reasoning:** +54.8% already exceeds the +50% TP threshold and we've held 6 minutes — take half off to lock gains while letting the runner ride. Pool is tiny ($1,230) so the second half can either run or get stopped at -30% from here; either way we banked profit.
 
+## [2026-09-04 00:22 UTC] sell | [FULL][LLM] $Heist at $3.23966e-06 | P&L: -11.2%
+- **Reasoning:** $Heist is down -11.2% after 6 minutes with tiny $174 pool liquidity (already below my 5x position size minimum) and 0% bonding curve progress. Pool is essentially dead — no real volume, no momentum. Cut the loss now before it hits the -30% hard stop. Capital rotation beats bag-holding a microcap that isn't moving.
+
