@@ -14401,3 +14401,9 @@
 ## [2026-09-04 01:29 UTC] buy | [LLM] $CASHDOG at $3.27501e-06, spent 0.02 SOL
 - **Reasoning:** $CASHDOG passes viability (86-char desc, twitter @cashdogsoll). Dog-meme narrative with a story ('good boy on the blockchain') is classic viral memecoin fuel at $3.2k mcap. Fragility gate clean — no political/celebrity keywords. High-risk lottery ticket but the attention hook is real.
 
+## [2026-09-04 01:30 UTC] sell | [FULL][LLM] $CASHDOG at $3.20555e-06 | P&L: -2.1%
+- **Reasoning:** $CASHDOG is -2.1% after 0h with only $163 pool liquidity — well below the 5x position size threshold (need $517+). Thin liquidity + immediate red = exit before it gets worse. Free up slot for fresher attention.
+
+## [2026-09-04 01:30 UTC] buy | [LLM] $PWENGO at $3.049e-06, spent 0.02 SOL
+- **Reasoning:** $PWENGO has desc + twitter @itspwengo + 'community-led meme coin with a face you remember' — real narrative, real account, $3k mcap1.5min old. Attention signal present, viability gate passes. Fresh narrative memecoin play.
+
