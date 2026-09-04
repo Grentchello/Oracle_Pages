@@ -14428,3 +14428,9 @@
 ## [2026-09-04 01:40 UTC] sell | [PARTIAL][LLM] $Thuggies at $6.9955e-06 | P&L: +101.0%
 - **Reasoning:** +101% already, past the 100% TP band per rules (bot should have auto-taken 50% at +50%, leaving half runner). Locking half now protects the 2x gain against a mean reversion; letting the other half ride to see if narrative pushes to 200%+.
 
+## [2026-09-04 01:41 UTC] sell | [TP +100% (50%)] $Thuggies at $1.04257e-05 | P&L: +199.6%
+- **Reasoning:** Auto take-profit at +199.6%
+
+## [2026-09-04 01:42 UTC] sell | [FULL][LLM] $Thuggies at $1.04257e-05 | P&L: +199.6%
+- **Reasoning:** Up +199.6% — locking in the 3x before it evaporates. Bonding curve is only 12% complete so exit slippage will hurt, but a guaranteed gain now beats holding for a 10x that may never come on a thin curve.
+

@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.319128,
+  "balance_sol": 0.324742,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7cywpZ1ia4RinkQ3waqW2msezA61FymxTQdwBkzLpump": {
-      "symbol": "Thuggies",
-      "name": "Telethuggies",
-      "amount": 55678.87931034483,
-      "entry_price_usd": 3.48e-06,
-      "entry_sol_spent": 0.001875,
-      "entry_time": "2026-09-04T01:36:50.581219+00:00",
-      "entry_usd_value": 2.0668,
-      "entry_signals": {
-        "liquidity_usd": 2597.46132142564,
-        "volume_24h_usd": 372.74,
-        "market_cap_usd": 8407.77752585228,
-        "ath_market_cap_usd": 8466.007531818557,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 25.135100846,
-        "description": "TeleThuggies is a meme coin where innocent Teletubbies become legendary hustlers in a world of absurd. Fueled by, chaos, and degen culture, TeleThuggies is all about laughs, community, and embracing the most unhinged side of crypto—without taking anything too seriously. No promises, just vibes.",
-        "twitter": "https://x.com/TheTeleThuggies",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -32428,25 +32405,47 @@
       "pnl_pct": 101.02,
       "exit_reason": "LLM: sell_half — +101% already, past the 100% TP band per rules (bot should have auto-taken 50% at +50%, leaving half runner). Locking half now protects the 2x gain ag",
       "partial": true
+    },
+    {
+      "mint": "7cywpZ1ia4RinkQ3waqW2msezA61FymxTQdwBkzLpump",
+      "symbol": "Thuggies",
+      "name": "Telethuggies",
+      "amount_sold": 27839.439655172417,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-04T01:36:50.581219+00:00",
+      "exit_time": "2026-09-04T01:41:38.168668+00:00",
+      "entry_price_usd": 3.48e-06,
+      "exit_price_usd": 1.0425665682122256e-05,
+      "entry_sol_for_chunk": 0.000937,
+      "exit_sol_received": 0.002807,
+      "pnl_sol": 0.001869,
+      "pnl_pct": 199.59,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "7cywpZ1ia4RinkQ3waqW2msezA61FymxTQdwBkzLpump",
+      "symbol": "Thuggies",
+      "name": "Telethuggies",
+      "amount_sold": 27839.439655172417,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T01:36:50.581219+00:00",
+      "exit_time": "2026-09-04T01:42:11.623500+00:00",
+      "entry_price_usd": 3.48e-06,
+      "exit_price_usd": 1.0425665682122256e-05,
+      "entry_sol_for_chunk": 0.000937,
+      "exit_sol_received": 0.002807,
+      "pnl_sol": 0.001869,
+      "pnl_pct": 199.59,
+      "exit_reason": "LLM: sell_all — Up +199.6% — locking in the 3x before it evaporates. Bonding curve is only 12% complete so exit slippage will hurt, but a guaranteed gain now beats ho",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T01:40:34.934287+00:00",
+  "last_updated": "2026-09-04T01:42:11.887412+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.54,
-  "portfolio_value_usd": 33.24,
+  "last_sol_price_usd": 103.41,
+  "portfolio_value_usd": 33.58,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 01:24 UTC",
-      "action": "buy",
-      "details": "[LLM] $Motion at $7.371e-06, spent 0.02 SOL",
-      "reason": "$Motion — meta-narrative: 'settling the PumpFun vs Fomo debate' via motion-based voting. Taps directly into active memecoin trader culture. mcap $8.5k, bond 29% (stronger than FORG), twitter active. Viability passes. Lower conviction than FORG but slot 2 needs to be filled."
-    },
-    {
-      "time": "2026-09-04 01:25 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $Motion at $1.13979e-05 | P&L: +54.6%",
-      "reason": "Auto take-profit at +54.6%"
-    },
     {
       "time": "2026-09-04 01:26 UTC",
       "action": "sell",
@@ -32554,40 +32553,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Thuggies at $6.9955e-06 | P&L: +101.0%",
       "reason": "+101% already, past the 100% TP band per rules (bot should have auto-taken 50% at +50%, leaving half runner). Locking half now protects the 2x gain against a mean reversion; letting the other half ride to see if narrative pushes to 200%+."
+    },
+    {
+      "time": "2026-09-04 01:41 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $Thuggies at $1.04257e-05 | P&L: +199.6%",
+      "reason": "Auto take-profit at +199.6%"
+    },
+    {
+      "time": "2026-09-04 01:42 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Thuggies at $1.04257e-05 | P&L: +199.6%",
+      "reason": "Up +199.6% — locking in the 3x before it evaporates. Bonding curve is only 12% complete so exit slippage will hurt, but a guaranteed gain now beats holding for a 10x that may never come on a thin curve."
     }
   ],
   "trade_stats": {
-    "total": 1906,
-    "wins": 982,
+    "total": 1908,
+    "wins": 984,
     "losses": 924,
-    "win_rate_pct": 51.5,
-    "total_pnl_sol": -2.011647,
-    "avg_pnl_pct": 34.06,
+    "win_rate_pct": 51.6,
+    "total_pnl_sol": -2.007909,
+    "avg_pnl_pct": 34.23,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 37,
-    "today_realized_sol": 0.017352,
-    "today_target_pct": 4.3,
+    "today_trades": 39,
+    "today_realized_sol": 0.02109,
+    "today_target_pct": 5.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 982,
+      "win_count": 984,
       "loss_count": 924,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T01:40:34.933136+00:00",
+  "last_llm_brief_at": "2026-09-04T01:42:11.623461+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7cywpZ1ia4RinkQ3waqW2msezA61FymxTQdwBkzLpump": {
-      "price_usd": 6.995504541132773e-06,
+      "price_usd": 1.0425665682122256e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1722.43180779364,
-      "volume_h24": 9437.3,
+      "liquidity_usd": 2788.7628427218,
+      "volume_h24": 10963.59,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 16.635424066
+      "real_sol_reserves": 26.96801898
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
