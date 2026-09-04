@@ -14602,3 +14602,6 @@
 ## [2026-09-04 04:54 UTC] buy | [LLM] $Memebook at $3.007e-06, spent 0.02 SOL
 - **Reasoning:** $Memebook has a real product narrative (Solana Social App with photos/reels/tips/NFTs), a live twitter (@memebookapp), and $3k mcap with bonding just starting — classic early-attention setup with a story beyond the meme.
 
+## [2026-09-04 04:55 UTC] sell | [FULL][LLM] $Memebook at $2.9438e-06 | P&L: -2.1%
+- **Reasoning:** $Memebook is down -2.1% just minutes after entry with only $20 pool liquidity and 10% of pool share — this is micro-cap noise, not a runner. No narrative momentum, no attention signal. Cut and free the slot.
+
