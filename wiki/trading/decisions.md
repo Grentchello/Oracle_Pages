@@ -14551,3 +14551,6 @@
 ## [2026-09-04 03:50 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-04 04:01 UTC] buy | [LLM] $DD at $3.028e-06, spent 0.02 SOL
+- **Reasoning:** $DD has a coherent platform narrative (depot/dispatch), real twitter, and proper description — one of the few tokens with substance beyond a joke name. Low bond 2% but viable narrative + twitter passes the gates. Risk: ultra-low mcap, most fail at this stage.
+
