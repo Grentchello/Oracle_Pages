@@ -14455,3 +14455,6 @@
 ## [2026-09-04 02:14 UTC] sell | [FULL][LLM] $Selvo at $2.94911e-06 | P&L: -1.1%
 - **Reasoning:** $Selvo is -1.1% but only held 0.2h and pool is $29 with our 7% share — that's micro-thin liquidity where -30% can hit in minutes. Better to free the slot for a fresher, larger-pool launch.
 
+## [2026-09-04 02:15 UTC] sell | [hard-stop] $Jizz closed at $9.63709e-06 | P&L: -42.0%
+- **Reasoning:** Hard -30% stop
+
