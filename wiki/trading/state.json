@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.290386,
+  "balance_sol": 0.322481,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DRDz1jSR3dReRxxp3s5n6ahDi1Z9TT7VakdEbAi9pump": {
       "symbol": "Heist",
       "name": "The Guinness Heist",
-      "amount": 569344.6668494653,
+      "amount": 142336.16671236634,
       "entry_price_usd": 3.647e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.005,
       "entry_time": "2026-09-04T00:16:22.161790+00:00",
       "entry_usd_value": 2.0764,
       "entry_signals": {
@@ -31867,25 +31867,47 @@
       "pnl_pct": 53.57,
       "exit_reason": "LLM: sell_all — CALLTRAIN is up +53.6%, well past the +50% TP threshold and the +25% auto-take-profit zone. Narrative (CALLTRAIN) is unclear/corny, no clear catalyst ",
       "partial": false
+    },
+    {
+      "mint": "DRDz1jSR3dReRxxp3s5n6ahDi1Z9TT7VakdEbAi9pump",
+      "symbol": "Heist",
+      "name": "The Guinness Heist",
+      "amount_sold": 284672.3334247327,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-04T00:16:22.161790+00:00",
+      "exit_time": "2026-09-04T00:18:52.229500+00:00",
+      "entry_price_usd": 3.647e-06,
+      "exit_price_usd": 7.819381025788324e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.021397,
+      "pnl_sol": 0.011397,
+      "pnl_pct": 114.41,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "DRDz1jSR3dReRxxp3s5n6ahDi1Z9TT7VakdEbAi9pump",
+      "symbol": "Heist",
+      "name": "The Guinness Heist",
+      "amount_sold": 142336.16671236634,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-04T00:16:22.161790+00:00",
+      "exit_time": "2026-09-04T00:19:22.535270+00:00",
+      "entry_price_usd": 3.647e-06,
+      "exit_price_usd": 7.819381025788324e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.010698,
+      "pnl_sol": 0.005698,
+      "pnl_pct": 114.41,
+      "exit_reason": "LLM: sell_half — +114% past +50% TP threshold on bonding curve. Bonding curve graduation often triggers dumps. Lock half the gain, let rest ride with house money.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-04T00:17:48.891691+00:00",
+  "last_updated": "2026-09-04T00:19:23.166013+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.92,
-  "portfolio_value_usd": 32.25,
+  "last_sol_price_usd": 104.033,
+  "portfolio_value_usd": 34.07,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 23:33 UTC",
-      "action": "buy",
-      "details": "[LLM] $KICKS at $5.144e-06, spent 0.02 SOL",
-      "reason": "KICKS has the clearest early attention signal through HYPEX and an unusually explicit KOL/DEX incentive narrative. The main risks are its very recent launch, incomplete bonding, and refund-oriented promotion, so size discipline and fast monitoring are essential."
-    },
-    {
-      "time": "2026-09-03 23:34 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $KICKS closed at $2.91032e-06 | P&L: -43.4%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-03 23:35 UTC",
       "action": "buy",
@@ -31993,51 +32015,52 @@
       "action": "sell",
       "details": "[FULL][LLM] $CALLTRAIN at $1.08187e-05 | P&L: +53.6%",
       "reason": "CALLTRAIN is up +53.6%, well past the +50% TP threshold and the +25% auto-take-profit zone. Narrative (CALLTRAIN) is unclear/corny, no clear catalyst to keep pumping. Lock the gain — discipline says take profit when up >20% with doubt, and this one has no clear narrative strength to justify holding."
+    },
+    {
+      "time": "2026-09-04 00:18 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $Heist at $7.81938e-06 | P&L: +114.4%",
+      "reason": "Auto take-profit at +114.4%"
+    },
+    {
+      "time": "2026-09-04 00:19 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Heist at $7.81938e-06 | P&L: +114.4%",
+      "reason": "+114% past +50% TP threshold on bonding curve. Bonding curve graduation often triggers dumps. Lock half the gain, let rest ride with house money."
     }
   ],
   "trade_stats": {
-    "total": 1873,
-    "wins": 962,
+    "total": 1875,
+    "wins": 964,
     "losses": 911,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.022263,
-    "avg_pnl_pct": 34.2,
+    "total_pnl_sol": -2.005168,
+    "avg_pnl_pct": 34.29,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 4,
-    "today_realized_sol": 0.006736,
-    "today_target_pct": 1.7,
+    "today_trades": 6,
+    "today_realized_sol": 0.023831,
+    "today_target_pct": 6.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 962,
+      "win_count": 964,
       "loss_count": 911,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T00:17:48.620716+00:00",
+  "last_llm_brief_at": "2026-09-04T00:19:22.534827+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DRDz1jSR3dReRxxp3s5n6ahDi1Z9TT7VakdEbAi9pump": {
-      "price_usd": 4.158523267487551e-06,
+      "price_usd": 7.819381025788324e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 612.14916546528,
-      "volume_h24": 2917.92,
+      "liquidity_usd": 1996.2081931083071,
+      "volume_h24": 4422.04,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 5.890580884
-    },
-    "3URENekgDeifYzeJDpxuwe7m4hZm7aunjTfjNVMupump": {
-      "price_usd": 1.08187361739227e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2898.26834838504,
-      "volume_h24": 17244.81,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 27.889418287
+      "real_sol_reserves": 19.188220979
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
