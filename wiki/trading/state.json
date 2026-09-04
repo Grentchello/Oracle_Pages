@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.287077,
+  "balance_sol": 0.301878,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Hn8Y8EhbbwMyUHXGsvVhF9TMEk2Wvjbx8dozGiuapump": {
-      "symbol": "FIBER",
-      "name": "fiberEVM",
-      "amount": 520391.7629331994,
-      "entry_price_usd": 3.982e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T02:44:28.657653+00:00",
-      "entry_usd_value": 2.0722,
-      "entry_signals": {
-        "liquidity_usd": 554.20308976487,
-        "volume_24h_usd": 846.81,
-        "market_cap_usd": 3938.864608782093,
-        "ath_market_cap_usd": 4307.906753651743,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.348934367,
-        "description": "Build and protect wealth onchain with full privacy.",
-        "twitter": "https://x.com/fiber_evm",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -32598,19 +32575,30 @@
       "pnl_pct": 3.86,
       "exit_reason": "LLM: sell_all — Held 0.1h, only +3.9%, still on bonding curve with $1666 pool. Stale signal — no momentum to justify locking 0.05 SOL here. Free up slot for fresh att",
       "partial": false
+    },
+    {
+      "mint": "Hn8Y8EhbbwMyUHXGsvVhF9TMEk2Wvjbx8dozGiuapump",
+      "symbol": "FIBER",
+      "name": "fiberEVM",
+      "amount_sold": 520391.7629331994,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T02:44:28.657653+00:00",
+      "exit_time": "2026-09-04T02:46:07.107921+00:00",
+      "entry_price_usd": 3.982e-06,
+      "exit_price_usd": 2.9449500549329285e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.014801,
+      "pnl_sol": -0.005199,
+      "pnl_pct": -26.04,
+      "exit_reason": "LLM: sell_all — $FIBER at -26%, held 0.0h, no bounce signal on bonding curve. Approaching -30% hard stop. Capital rotation is mandatory — locked capital teaches nothi",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T02:44:28.657833+00:00",
+  "last_updated": "2026-09-04T02:46:07.644154+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.61,
-  "portfolio_value_usd": 31.82,
+  "last_sol_price_usd": 103.54,
+  "portfolio_value_usd": 31.26,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 01:38 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Thuggies at $6.44342e-06 | P&L: +85.2%",
-      "reason": "+85.2% in <1h with no clear narrative (no twitter/desc) = momentum-only pump that can reverse fast. Per profit-taking discipline: lock the gain with half, let remaining ride in case of continuation. Frees ~0.04 SOL for rotation."
-    },
     {
       "time": "2026-09-04 01:40 UTC",
       "action": "sell",
@@ -32724,30 +32712,48 @@
       "action": "buy",
       "details": "[LLM] $FIBER at $3.982e-06, spent 0.02 SOL",
       "reason": "$FIBER has clearest attention signal of the batch: real twitter (@fiber_evm) + coherent 'privacy onchain' narrative + viable $3.9k mcap. Not a celebrity/political token so passes fragility gate. 0.05 SOL position to test the thesis."
+    },
+    {
+      "time": "2026-09-04 02:46 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FIBER at $2.94495e-06 | P&L: -26.0%",
+      "reason": "$FIBER at -26%, held 0.0h, no bounce signal on bonding curve. Approaching -30% hard stop. Capital rotation is mandatory — locked capital teaches nothing."
     }
   ],
   "trade_stats": {
-    "total": 1916,
+    "total": 1917,
     "wins": 986,
-    "losses": 930,
-    "win_rate_pct": 51.5,
-    "total_pnl_sol": -2.025574,
-    "avg_pnl_pct": 34.03,
+    "losses": 931,
+    "win_rate_pct": 51.4,
+    "total_pnl_sol": -2.030773,
+    "avg_pnl_pct": 34.0,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 47,
-    "today_realized_sol": 0.003425,
-    "today_target_pct": 0.9,
+    "today_trades": 48,
+    "today_realized_sol": -0.001774,
+    "today_target_pct": -0.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 986,
-      "loss_count": 930,
+      "loss_count": 931,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T02:44:27.152088+00:00",
+  "last_llm_brief_at": "2026-09-04T02:46:07.107886+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Hn8Y8EhbbwMyUHXGsvVhF9TMEk2Wvjbx8dozGiuapump": {
+      "price_usd": 2.9449500549329285e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 26.750517676860003,
+      "volume_h24": 2695.24,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.258359259
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

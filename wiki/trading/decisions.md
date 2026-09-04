@@ -14479,3 +14479,6 @@
 ## [2026-09-04 02:44 UTC] buy | [LLM] $FIBER at $3.982e-06, spent 0.02 SOL
 - **Reasoning:** $FIBER has clearest attention signal of the batch: real twitter (@fiber_evm) + coherent 'privacy onchain' narrative + viable $3.9k mcap. Not a celebrity/political token so passes fragility gate. 0.05 SOL position to test the thesis.
 
+## [2026-09-04 02:46 UTC] sell | [FULL][LLM] $FIBER at $2.94495e-06 | P&L: -26.0%
+- **Reasoning:** $FIBER at -26%, held 0.0h, no bounce signal on bonding curve. Approaching -30% hard stop. Capital rotation is mandatory — locked capital teaches nothing.
+
