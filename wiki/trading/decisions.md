@@ -14380,3 +14380,12 @@
 ## [2026-09-04 01:26 UTC] sell | [PARTIAL][LLM] $Motion at $1.13979e-05 | P&L: +54.6%
 - **Reasoning:** $Motion is up +54.6% which means TP at 25% (0.5x position) auto-sold some; remaining position is +54.6%. Pool is $3k which is OK but not great. Take half off the table here — lock the gain, let the rest ride with a higher mental stop. Up >50% with meme attention = take profit, don't hope for more.
 
+## [2026-09-04 01:27 UTC] sell | [TP +30% (25%)] $Motion at $1.05081e-05 | P&L: +42.6%
+- **Reasoning:** Auto take-profit at +42.6%
+
+## [2026-09-04 01:27 UTC] sell | [PARTIAL][LLM] $Motion at $1.05081e-05 | P&L: +42.6%
+- **Reasoning:** +42.6% on bonding curve with tiny $2812 pool. Bonding curve tokens routinely retrace hard after early pumps. Lock half the profit as free-ride; let the other half run if the bid keeps coming. If it rolls over, the sold half saved me.
+
+## [2026-09-04 01:27 UTC] buy | [LLM] $UNFAZED at $3.252e-06, spent 0.02 SOL
+- **Reasoning:** $UNFAZED — TikTok viral 'literal definition of unfazed' narrative with confirmed Twitter presence. Low $3.2k mcap is the entry zone, not a skip reason. Classic attention-launch play: story + creator account + fresh curve. Sizing 0.05 SOL — if it pumps, ride; if it stalls, cut fast per scalp rules.
+
