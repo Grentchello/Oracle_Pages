@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.231453,
+  "balance_sol": 0.250995,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "EytP2gNq8usyjat9U1scQsJ5kn7DZ9LKa6b5m4Awpump": {
-      "symbol": "DD",
-      "name": "DockDuty",
-      "amount": 685138.7054161163,
-      "entry_price_usd": 3.028e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T04:01:41.290676+00:00",
-      "entry_usd_value": 2.0746,
-      "entry_signals": {
-        "liquidity_usd": 67.98596310528,
-        "volume_24h_usd": 341.07,
-        "market_cap_usd": 3033.377897942417,
-        "ath_market_cap_usd": 3277.0914905737654,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.655412736,
-        "description": "DockDuty is an independent depot and dispatch platform. We are not affiliated with, endorsed by, sponsored by, or partnered with Tesla, Inc. “Cybercab” and “Tesla” are trademarks of Tesla, Inc., used here for descriptive reference only.",
-        "twitter": "https://x.com/DockDutyLLC",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "qViDuQPpf6hCWPGYdFxFUedzaSvn8PpRKQWnTANpump": {
       "symbol": "MPGA",
       "name": "Make PumpFun Great Again",
@@ -32875,19 +32853,30 @@
       "pnl_pct": -91.45,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "EytP2gNq8usyjat9U1scQsJ5kn7DZ9LKa6b5m4Awpump",
+      "symbol": "DD",
+      "name": "DockDuty",
+      "amount_sold": 685138.7054161163,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T04:01:41.290676+00:00",
+      "exit_time": "2026-09-04T04:14:17.808931+00:00",
+      "entry_price_usd": 3.028e-06,
+      "exit_price_usd": 2.9587307382032155e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019542,
+      "pnl_sol": -0.000458,
+      "pnl_pct": -2.29,
+      "exit_reason": "LLM: sell_all — $DD is on a $31 pool — effectively illiquid and rug-prone. Down only 2.3% but no bounce signal and the thin liquidity means exit is the right rotation",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T04:12:42.299616+00:00",
+  "last_updated": "2026-09-04T04:14:18.087209+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.61,
-  "portfolio_value_usd": 28.13,
+  "last_sol_price_usd": 103.73,
+  "portfolio_value_usd": 28.11,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 03:02 UTC",
-      "action": "buy",
-      "details": "[LLM] $INDEX at $3.285e-06, spent 0.02 SOL",
-      "reason": "$INDEX (indexfund.fun) — meta-meta play: 'pair memecoins with your own index funds' is a hot narrative on CT right now (ETF-ification of memecoins). Has twitter + 124-char desc (passes viability), mcap $3.2k at 1.1min = very early on bonding curve (6%), good attention surface for5-10x potential."
-    },
     {
       "time": "2026-09-04 03:07 UTC",
       "action": "sell",
@@ -33001,51 +32990,57 @@
       "action": "buy",
       "details": "[LLM] $MPGA at $1.194e-05, spent 0.02 SOL",
       "reason": "$MPGA — PumpFun meta-meme, founder just took MMGA to 500k (track-record flex = strongest narrative in the batch). Highest mcap ($10k) and only token with both passing-desc + twitter + real virality signal. Sizing 0.05 SOL to respect reserve."
+    },
+    {
+      "time": "2026-09-04 04:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DD at $2.95873e-06 | P&L: -2.3%",
+      "reason": "$DD is on a $31 pool — effectively illiquid and rug-prone. Down only 2.3% but no bounce signal and the thin liquidity means exit is the right rotation. Freeing slot for fresher attention."
     }
   ],
   "trade_stats": {
-    "total": 1931,
+    "total": 1932,
     "wins": 989,
-    "losses": 942,
+    "losses": 943,
     "win_rate_pct": 51.2,
-    "total_pnl_sol": -2.061199,
-    "avg_pnl_pct": 33.71,
+    "total_pnl_sol": -2.061657,
+    "avg_pnl_pct": 33.69,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 62,
-    "today_realized_sol": -0.0322,
-    "today_target_pct": -8.0,
+    "today_trades": 63,
+    "today_realized_sol": -0.032658,
+    "today_target_pct": -8.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 989,
-      "loss_count": 942,
+      "loss_count": 943,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T04:12:40.487029+00:00",
+  "last_llm_brief_at": "2026-09-04T04:14:17.808888+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EytP2gNq8usyjat9U1scQsJ5kn7DZ9LKa6b5m4Awpump": {
-      "price_usd": 2.9535044342690706e-06,
+      "price_usd": 2.9587307382032155e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 30.25785628021,
-      "volume_h24": 379.83,
+      "liquidity_usd": 31.252112456070005,
+      "volume_h24": 380.79,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.292036061
+      "real_sol_reserves": 0.301283259
     },
-    "3suESXScqeAtqUpTr7iDD39kb7bcYgHz3syfAeoupump": {
-      "price_usd": 3.964957222682475e-07,
+    "qViDuQPpf6hCWPGYdFxFUedzaSvn8PpRKQWnTANpump": {
+      "price_usd": 1.1258319220477715e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 6.08443166487,
-      "volume_h24": 4128.15,
+      "liquidity_usd": 3019.35611758297,
+      "volume_h24": 53989.64,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.058724367
+      "real_sol_reserves": 29.107838789
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
