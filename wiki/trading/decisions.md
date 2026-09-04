@@ -14512,3 +14512,6 @@
 ## [2026-09-04 03:11 UTC] buy | [LLM] $RADAR at $1.331e-05, spent 0.02 SOL
 - **Reasoning:** $RADAR has the strongest fresh-launch narrative: 'X launching trading beta feature' is a concrete catalyst that could go mainstream-news viral. 37% bond complete (most committed of the batch), $17.7k mcap (highest), 1.2min age. Risk: could be fabricated; will be tight on TP — selling half at +50%.
 
+## [2026-09-04 03:13 UTC] sell | [hard-stop] $RADAR closed at $5.04213e-06 | P&L: -62.1%
+- **Reasoning:** Hard -30% stop
+

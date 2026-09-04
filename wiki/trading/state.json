@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.285566,
+  "balance_sol": 0.29315,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GXFPpsMD3u5nwSy42BpJwDsjhexWn3s2oLjQPhagpump": {
-      "symbol": "RADAR",
-      "name": "X Radar",
-      "amount": 156258.45229151016,
-      "entry_price_usd": 1.331e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T03:11:59.100191+00:00",
-      "entry_usd_value": 2.0798,
-      "entry_signals": {
-        "liquidity_usd": 2718.71683332539,
-        "volume_24h_usd": 18055.1,
-        "market_cap_usd": 17724.539097368794,
-        "ath_market_cap_usd": 18804.831856697732,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 26.144021861,
-        "description": "X has a new feature in beta for literally traders this is alpha.",
-        "twitter": "https://x.com/newdeployer/status/2095710886207910263?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -32717,19 +32694,30 @@
       "pnl_pct": -6.06,
       "exit_reason": "LLM: sell_all — $INDEX is down -6.1% after 0.1h with only $95 pool liquidity and 2% of pool = illiquid. Bonding-curve tokens under $100 pool have no real exit depth; ",
       "partial": false
+    },
+    {
+      "mint": "GXFPpsMD3u5nwSy42BpJwDsjhexWn3s2oLjQPhagpump",
+      "symbol": "RADAR",
+      "name": "X Radar",
+      "amount_sold": 156258.45229151016,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T03:11:59.100191+00:00",
+      "exit_time": "2026-09-04T03:13:02.753723+00:00",
+      "entry_price_usd": 1.331e-05,
+      "exit_price_usd": 5.042129400851811e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.007584,
+      "pnl_sol": -0.012416,
+      "pnl_pct": -62.12,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T03:11:59.100366+00:00",
+  "last_updated": "2026-09-04T03:13:28.777650+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.99,
-  "portfolio_value_usd": 31.78,
+  "last_sol_price_usd": 103.89,
+  "portfolio_value_usd": 30.46,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 02:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Selvo at $2.94911e-06 | P&L: -1.1%",
-      "reason": "$Selvo is -1.1% but only held 0.2h and pool is $29 with our 7% share — that's micro-thin liquidity where -30% can hit in minutes. Better to free the slot for a fresher, larger-pool launch."
-    },
     {
       "time": "2026-09-04 02:15 UTC",
       "action": "sell",
@@ -32843,30 +32831,48 @@
       "action": "buy",
       "details": "[LLM] $RADAR at $1.331e-05, spent 0.02 SOL",
       "reason": "$RADAR has the strongest fresh-launch narrative: 'X launching trading beta feature' is a concrete catalyst that could go mainstream-news viral. 37% bond complete (most committed of the batch), $17.7k mcap (highest), 1.2min age. Risk: could be fabricated; will be tight on TP — selling half at +50%."
+    },
+    {
+      "time": "2026-09-04 03:13 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $RADAR closed at $5.04213e-06 | P&L: -62.1%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1923,
+    "total": 1924,
     "wins": 988,
-    "losses": 935,
+    "losses": 936,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.027086,
-    "avg_pnl_pct": 33.94,
+    "total_pnl_sol": -2.039502,
+    "avg_pnl_pct": 33.89,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 54,
-    "today_realized_sol": 0.001913,
-    "today_target_pct": 0.5,
+    "today_trades": 55,
+    "today_realized_sol": -0.010503,
+    "today_target_pct": -2.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 988,
-      "loss_count": 935,
+      "loss_count": 936,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T03:11:57.493530+00:00",
+  "last_llm_brief_at": "2026-09-04T03:13:28.206756+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GXFPpsMD3u5nwSy42BpJwDsjhexWn3s2oLjQPhagpump": {
+      "price_usd": 5.042129400851811e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 989.6348186552999,
+      "volume_h24": 43857.16,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 9.52579477
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
