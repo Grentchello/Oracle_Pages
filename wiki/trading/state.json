@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.260561,
+  "balance_sol": 0.301351,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "36RximcS6vskBKHGk78M1SXtSwMnDA7DFHdSQiu7pump": {
-      "symbol": "MOLE",
-      "name": "Mole Protocol",
-      "amount": 320491.55145929335,
-      "entry_price_usd": 6.51e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T00:39:18.856883+00:00",
-      "entry_usd_value": 2.0864,
-      "entry_signals": {
-        "liquidity_usd": 1549.9967712588798,
-        "volume_24h_usd": 7660.69,
-        "market_cap_usd": 6527.627458298414,
-        "ath_market_cap_usd": 7718.498098219845,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 14.858097884,
-        "description": "Most AI-written code \"passes all tests\" but that doesn't mean the tests actually work. Agents love writing tests that assert nothing.  mole checks.  It plants realistic bugs in your code on purpose the forgotten await, the off-by-one, the missing null check and sees whether your tests notice. Whatev",
-        "twitter": "https://x.com/i/communities/1965041408877691008",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "5n9yH2atcA1iaGF2zGjb5vWGjd6Ykz2GteRzwKSQpump": {
-      "symbol": "FP",
-      "name": "FlippingProfits",
-      "amount": 595589.5724993122,
-      "entry_price_usd": 3.485957605482419e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T00:45:43.730938+00:00",
-      "entry_usd_value": 2.0762,
-      "entry_signals": {
-        "liquidity_usd": 298.73808486333,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3483.620002526985,
-        "ath_market_cap_usd": 3486.9373496208627,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.877738993,
-        "description": "Craziest callouts. I've profited so much from this guy and he's followed by ANSEM lmao.",
-        "twitter": "https://x.com/flippingprofits?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -32059,25 +32014,47 @@
       "pnl_pct": -57.7,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "36RximcS6vskBKHGk78M1SXtSwMnDA7DFHdSQiu7pump",
+      "symbol": "MOLE",
+      "name": "Mole Protocol",
+      "amount_sold": 320491.55145929335,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T00:39:18.856883+00:00",
+      "exit_time": "2026-09-04T00:47:03.699510+00:00",
+      "entry_price_usd": 6.51e-06,
+      "exit_price_usd": 6.733405238840322e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.02079,
+      "pnl_sol": 0.00079,
+      "pnl_pct": 3.43,
+      "exit_reason": "LLM: sell_all — Only +3.4% after 0.1h with pool liquidity at $1629 (below 5x position rule). Stale, weak liquidity, no momentum — exit and free slot.",
+      "partial": false
+    },
+    {
+      "mint": "5n9yH2atcA1iaGF2zGjb5vWGjd6Ykz2GteRzwKSQpump",
+      "symbol": "FP",
+      "name": "FlippingProfits",
+      "amount_sold": 595589.5724993122,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T00:45:43.730938+00:00",
+      "exit_time": "2026-09-04T00:47:03.699741+00:00",
+      "entry_price_usd": 3.485957605482419e-06,
+      "exit_price_usd": 3.4856218037672197e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.02,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.01,
+      "exit_reason": "LLM: sell_all — Flat at -0.0% after just entered, pool only $299 (way below 5x rule, basically illiquid). Cut immediately — can't even exit cleanly at this depth.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T00:45:43.731094+00:00",
+  "last_updated": "2026-09-04T00:47:03.699847+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.81,
-  "portfolio_value_usd": 31.21,
+  "last_sol_price_usd": 103.8,
+  "portfolio_value_usd": 31.28,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 00:16 UTC",
-      "action": "buy",
-      "details": "[LLM] $CALLTRAIN at $7.045e-06, spent 0.02 SOL",
-      "reason": "$CALLTRAIN has the strongest meta-narrative of the batch — self-referential call-train mechanics designed to spread on X, 32% bonding already, highest mcap of fresh launches. Memecoin attention play."
-    },
-    {
-      "time": "2026-09-04 00:17 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $CALLTRAIN at $1.08187e-05 | P&L: +53.6%",
-      "reason": "Auto take-profit at +53.6%"
-    },
     {
       "time": "2026-09-04 00:17 UTC",
       "action": "sell",
@@ -32185,51 +32162,63 @@
       "action": "buy",
       "details": "[LLM] $FP at $3.48596e-06, spent 0.02 SOL",
       "reason": "ANSEM-callout narrative is the highest-quality attention signal in this batch — the description literally says followed by ANSEM. Real social alpha, fresh launch ($3.5k mcap), tiny position size absorbs the risk if it's noise."
+    },
+    {
+      "time": "2026-09-04 00:47 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MOLE at $6.73341e-06 | P&L: +3.4%",
+      "reason": "Only +3.4% after 0.1h with pool liquidity at $1629 (below 5x position rule). Stale, weak liquidity, no momentum — exit and free slot."
+    },
+    {
+      "time": "2026-09-04 00:47 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FP at $3.48562e-06 | P&L: -0.0%",
+      "reason": "Flat at -0.0% after just entered, pool only $299 (way below 5x rule, basically illiquid). Cut immediately — can't even exit cleanly at this depth."
     }
   ],
   "trade_stats": {
-    "total": 1883,
-    "wins": 968,
-    "losses": 915,
+    "total": 1885,
+    "wins": 969,
+    "losses": 916,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.032088,
-    "avg_pnl_pct": 34.12,
+    "total_pnl_sol": -2.031298,
+    "avg_pnl_pct": 34.09,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 14,
-    "today_realized_sol": -0.003089,
-    "today_target_pct": -0.8,
+    "today_trades": 16,
+    "today_realized_sol": -0.002299,
+    "today_target_pct": -0.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 968,
-      "loss_count": 915,
+      "win_count": 969,
+      "loss_count": 916,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T00:45:42.139679+00:00",
+  "last_llm_brief_at": "2026-09-04T00:47:03.699470+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "36RximcS6vskBKHGk78M1SXtSwMnDA7DFHdSQiu7pump": {
-      "price_usd": 6.43292978677313e-06,
+      "price_usd": 6.733405238840322e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1522.13835352733,
-      "volume_h24": 10249.94,
+      "liquidity_usd": 1629.2557478898,
+      "volume_h24": 11045.65,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 14.662733393
+      "real_sol_reserves": 15.696105471
     },
-    "apMvjxr2dLHvRCX6vZXhURWSgu76o5rDRtLbntXpump": {
-      "price_usd": 2.939799453360622e-06,
+    "5n9yH2atcA1iaGF2zGjb5vWGjd6Ykz2GteRzwKSQpump": {
+      "price_usd": 3.4856218037672197e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 19.9882656603,
-      "volume_h24": 10711.9,
+      "liquidity_usd": 298.7093074734,
+      "volume_h24": 299.95,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.19254663
+      "real_sol_reserves": 2.877738993
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

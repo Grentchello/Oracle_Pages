@@ -14326,3 +14326,9 @@
 ## [2026-09-04 00:45 UTC] buy | [LLM] $FP at $3.48596e-06, spent 0.02 SOL
 - **Reasoning:** ANSEM-callout narrative is the highest-quality attention signal in this batch — the description literally says followed by ANSEM. Real social alpha, fresh launch ($3.5k mcap), tiny position size absorbs the risk if it's noise.
 
+## [2026-09-04 00:47 UTC] sell | [FULL][LLM] $MOLE at $6.73341e-06 | P&L: +3.4%
+- **Reasoning:** Only +3.4% after 0.1h with pool liquidity at $1629 (below 5x position rule). Stale, weak liquidity, no momentum — exit and free slot.
+
+## [2026-09-04 00:47 UTC] sell | [FULL][LLM] $FP at $3.48562e-06 | P&L: -0.0%
+- **Reasoning:** Flat at -0.0% after just entered, pool only $299 (way below 5x rule, basically illiquid). Cut immediately — can't even exit cleanly at this depth.
+
