@@ -14443,3 +14443,9 @@
 ## [2026-09-04 02:04 UTC] sell | [PARTIAL][LLM] $astra at $2.90127e-06 | P&L: -1.4%
 - **Reasoning:** Pool only $1 and we hold 173% — exit immediately. The price quote is stale or the pool is effectively dead, and holding a 173% share in a $1 pool is a guaranteed rug/zero-out. Cut the loss at -1.4% rather than wait for it to gap to -30%.
 
+## [2026-09-04 02:09 UTC] sell | [FULL][LLM] $astra at $2.89627e-06 | P&L: -1.5%
+- **Reasoning:** Position is at -1.5% with 47421780% share - we essentially own the entire bonding curve which means zero organic buyers and no real exit liquidity. Cutting the loss and rotating capital into a token with actual attention flow.
+
+## [2026-09-04 02:09 UTC] buy | [LLM] $Jizz at $1.66287e-05, spent 0.02 SOL
+- **Reasoning:** $Jizz has the strongest attention stack: dev claims $Jizzmas hit 3M (track record) and references Boner's 100m ETH run. Bond already at 37% in under a minute = active organic buying. Provocative name = viral catalyst. Mcap $16.7k leaves plenty of runway.
+
