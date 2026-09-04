@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.286275,
+  "balance_sol": 0.307077,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7tLv9S9z2NvTt2EndQ6AiFCL3hNP8Qx1yW7zTKZRpump": {
-      "symbol": "LOONG",
-      "name": "LOONG",
-      "amount": 315049.68493638624,
-      "entry_price_usd": 6.57610560828947e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T02:33:07.900196+00:00",
-      "entry_usd_value": 2.0718,
-      "entry_signals": {
-        "liquidity_usd": 2000.3956482528902,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6586.662489083814,
-        "ath_market_cap_usd": 16606.3223058224,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 19.310702271,
-        "description": "This dog has been going giga viral all week, pulling millions of likes and views just because of his insanely LOONG face and nose.",
-        "twitter": "https://x.com/milesondex/status/2095701081368285346",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -32581,19 +32558,30 @@
       "pnl_pct": -31.44,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "7tLv9S9z2NvTt2EndQ6AiFCL3hNP8Qx1yW7zTKZRpump",
+      "symbol": "LOONG",
+      "name": "LOONG",
+      "amount_sold": 315049.68493638624,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T02:33:07.900196+00:00",
+      "exit_time": "2026-09-04T02:37:34.248554+00:00",
+      "entry_price_usd": 6.57610560828947e-06,
+      "exit_price_usd": 6.829933560039156e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020802,
+      "pnl_sol": 0.000802,
+      "pnl_pct": 3.86,
+      "exit_reason": "LLM: sell_all — Held 0.1h, only +3.9%, still on bonding curve with $1666 pool. Stale signal — no momentum to justify locking 0.05 SOL here. Free up slot for fresh att",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T02:36:11.519067+00:00",
+  "last_updated": "2026-09-04T02:37:34.512345+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.58,
-  "portfolio_value_usd": 31.72,
+  "last_sol_price_usd": 103.44,
+  "portfolio_value_usd": 31.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 01:36 UTC",
-      "action": "buy",
-      "details": "[LLM] $Thuggies at $3.48e-06, spent 0.02 SOL",
-      "reason": "TeleThuggies = IP mashup of Teletubbies-as-hustlers, visually memeable, has a real X account, and 29% bond complete shows organic attention already converting to capital. Best narrative-to-mcap ratio on the board."
-    },
     {
       "time": "2026-09-04 01:37 UTC",
       "action": "sell",
@@ -32707,40 +32695,46 @@
       "action": "buy",
       "details": "[LLM] $LOONG at $6.57611e-06, spent 0.02 SOL",
       "reason": "$LOONG has a clear viral narrative (dog meme going giga viral with millions of likes/views), X post from milesondex, $6.6k mcap. Animal meme + viral X = classic attention pump setup. Second scalp slot."
+    },
+    {
+      "time": "2026-09-04 02:37 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LOONG at $6.82993e-06 | P&L: +3.9%",
+      "reason": "Held 0.1h, only +3.9%, still on bonding curve with $1666 pool. Stale signal — no momentum to justify locking 0.05 SOL here. Free up slot for fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 1915,
-    "wins": 985,
+    "total": 1916,
+    "wins": 986,
     "losses": 930,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.026376,
-    "avg_pnl_pct": 34.05,
+    "win_rate_pct": 51.5,
+    "total_pnl_sol": -2.025574,
+    "avg_pnl_pct": 34.03,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 46,
-    "today_realized_sol": 0.002623,
-    "today_target_pct": 0.7,
+    "today_trades": 47,
+    "today_realized_sol": 0.003425,
+    "today_target_pct": 0.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 985,
+      "win_count": 986,
       "loss_count": 930,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T02:36:11.519038+00:00",
+  "last_llm_brief_at": "2026-09-04T02:37:34.248030+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7tLv9S9z2NvTt2EndQ6AiFCL3hNP8Qx1yW7zTKZRpump": {
-      "price_usd": 6.885896456025212e-06,
+      "price_usd": 6.829933560039156e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1684.17936958122,
-      "volume_h24": 17927.75,
+      "liquidity_usd": 1665.6425581068002,
+      "volume_h24": 19281.43,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 16.259696559
+      "real_sol_reserves": 16.102499595
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

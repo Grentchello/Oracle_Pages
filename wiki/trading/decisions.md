@@ -14473,3 +14473,6 @@
 ## [2026-09-04 02:33 UTC] buy | [LLM] $LOONG at $6.57611e-06, spent 0.02 SOL
 - **Reasoning:** $LOONG has a clear viral narrative (dog meme going giga viral with millions of likes/views), X post from milesondex, $6.6k mcap. Animal meme + viral X = classic attention pump setup. Second scalp slot.
 
+## [2026-09-04 02:37 UTC] sell | [FULL][LLM] $LOONG at $6.82993e-06 | P&L: +3.9%
+- **Reasoning:** Held 0.1h, only +3.9%, still on bonding curve with $1666 pool. Stale signal — no momentum to justify locking 0.05 SOL here. Free up slot for fresh attention.
+
