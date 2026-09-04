@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.295562,
+  "balance_sol": 0.315373,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "DsvLLXcgjMDVhUPp5wxx15EBAmfWcqALTxrESh7Ypump": {
-      "symbol": "Selvo",
-      "name": "Selvo",
-      "amount": 695608.4478712706,
-      "entry_price_usd": 2.983e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T02:02:43.484167+00:00",
-      "entry_usd_value": 2.075,
-      "entry_signals": {
-        "liquidity_usd": 28.869008436250002,
-        "volume_24h_usd": 224.18,
-        "market_cap_usd": 2977.24552004319,
-        "ath_market_cap_usd": 3156.609191203539,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.278255503,
-        "description": "$SEL. They told me to sell. So I bought it instead. ",
-        "twitter": "https://x.com/SelvoSOL",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "3cQNpf5RVcB8xLypU2WeBDh23JojwY7jbChmREHspump": {
       "symbol": "Jizz",
       "name": "Jizz",
@@ -32535,19 +32513,30 @@
       "pnl_pct": 10.71,
       "exit_reason": "LLM: sell_half — $Jizz is up +10.7% in <5 minutes on bonding curve — classic early pump signature. Both positions occupy 2/2 slots and we're blind to the fresh launche",
       "partial": true
+    },
+    {
+      "mint": "DsvLLXcgjMDVhUPp5wxx15EBAmfWcqALTxrESh7Ypump",
+      "symbol": "Selvo",
+      "name": "Selvo",
+      "amount_sold": 695608.4478712706,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T02:02:43.484167+00:00",
+      "exit_time": "2026-09-04T02:14:47.519320+00:00",
+      "entry_price_usd": 2.983e-06,
+      "exit_price_usd": 2.9491090062209868e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019811,
+      "pnl_sol": -0.000189,
+      "pnl_pct": -1.14,
+      "exit_reason": "LLM: sell_all — $Selvo is -1.1% but only held 0.2h and pool is $29 with our 7% share — that's micro-thin liquidity where -30% can hit in minutes. Better to free the s",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T02:13:06.829358+00:00",
+  "last_updated": "2026-09-04T02:14:47.520299+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.54,
-  "portfolio_value_usd": 33.71,
+  "last_sol_price_usd": 103.55,
+  "portfolio_value_usd": 33.69,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 01:29 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Motion at $1.10192e-05 | P&L: +49.5%",
-      "reason": "Motion is up +49.5% in 0.1h, momentum hot but pool is thin ($2,954) — locking half the gain is mandatory discipline when >20% with thin liquidity. Rider keeps runner exposure."
-    },
     {
       "time": "2026-09-04 01:29 UTC",
       "action": "sell",
@@ -32661,35 +32650,41 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Jizz at $1.84094e-05 | P&L: +10.7%",
       "reason": "$Jizz is up +10.7% in <5 minutes on bonding curve — classic early pump signature. Both positions occupy 2/2 slots and we're blind to the fresh launches. Lock half the gain now (rule: take profit when up >15% OR when capital rotation matters; here it's the latter, plus locking a 10%+ gain with no resistance overhead). Free a slot for higher-attention fresh launches like $BRB/$STEVE."
+    },
+    {
+      "time": "2026-09-04 02:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Selvo at $2.94911e-06 | P&L: -1.1%",
+      "reason": "$Selvo is -1.1% but only held 0.2h and pool is $29 with our 7% share — that's micro-thin liquidity where -30% can hit in minutes. Better to free the slot for a fresher, larger-pool launch."
     }
   ],
   "trade_stats": {
-    "total": 1911,
+    "total": 1912,
     "wins": 985,
-    "losses": 926,
+    "losses": 927,
     "win_rate_pct": 51.5,
-    "total_pnl_sol": -2.007089,
-    "avg_pnl_pct": 34.18,
+    "total_pnl_sol": -2.007278,
+    "avg_pnl_pct": 34.16,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 42,
-    "today_realized_sol": 0.02191,
-    "today_target_pct": 5.5,
+    "today_trades": 43,
+    "today_realized_sol": 0.021721,
+    "today_target_pct": 5.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 985,
-      "loss_count": 926,
+      "loss_count": 927,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T02:13:06.828952+00:00",
+  "last_llm_brief_at": "2026-09-04T02:14:47.519279+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DsvLLXcgjMDVhUPp5wxx15EBAmfWcqALTxrESh7Ypump": {
-      "price_usd": 2.9488242057375278e-06,
+      "price_usd": 2.9491090062209868e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 28.810574780620005,
+      "liquidity_usd": 28.81335733565,
       "volume_h24": 238.15,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
@@ -32697,15 +32692,15 @@
       "real_sol_reserves": 0.278255503
     },
     "3cQNpf5RVcB8xLypU2WeBDh23JojwY7jbChmREHspump": {
-      "price_usd": 1.8409401940737732e-05,
+      "price_usd": 1.7342379623818086e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4726.91334373392,
-      "volume_h24": 75628.44,
+      "liquidity_usd": 4496.58571918795,
+      "volume_h24": 87148.39,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 45.653016648
+      "real_sol_reserves": 43.424294729
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
