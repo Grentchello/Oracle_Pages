@@ -14572,3 +14572,6 @@
 ## [2026-09-04 04:15 UTC] buy | [LLM] $HEAVY at $3.08e-06, spent 0.02 SOL
 - **Reasoning:** $HEAVY has a concrete visual meme moment (pill folding a gold bar), a real X presence, and a narrative that targets the boomer/gold crowd — strong attention hook for early pump.
 
+## [2026-09-04 04:17 UTC] sell | [FULL][LLM] $HEAVY at $3.08538e-06 | P&L: +0.2%
+- **Reasoning:** Flat at +0.2% after holding, on a tiny $95 pool with no momentum — stale entry pattern, exit to free the slot for fresher attention.
+
