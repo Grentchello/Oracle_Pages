@@ -14449,3 +14449,6 @@
 ## [2026-09-04 02:09 UTC] buy | [LLM] $Jizz at $1.66287e-05, spent 0.02 SOL
 - **Reasoning:** $Jizz has the strongest attention stack: dev claims $Jizzmas hit 3M (track record) and references Boner's 100m ETH run. Bond already at 37% in under a minute = active organic buying. Provocative name = viral catalyst. Mcap $16.7k leaves plenty of runway.
 
+## [2026-09-04 02:13 UTC] sell | [PARTIAL][LLM] $Jizz at $1.84094e-05 | P&L: +10.7%
+- **Reasoning:** $Jizz is up +10.7% in <5 minutes on bonding curve — classic early pump signature. Both positions occupy 2/2 slots and we're blind to the fresh launches. Lock half the gain now (rule: take profit when up >15% OR when capital rotation matters; here it's the latter, plus locking a 10%+ gain with no resistance overhead). Free a slot for higher-attention fresh launches like $BRB/$STEVE.
+

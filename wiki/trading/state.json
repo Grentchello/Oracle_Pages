@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.284486,
+  "balance_sol": 0.295562,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "3cQNpf5RVcB8xLypU2WeBDh23JojwY7jbChmREHspump": {
       "symbol": "Jizz",
       "name": "Jizz",
-      "amount": 124592.11904700988,
+      "amount": 62296.05952350494,
       "entry_price_usd": 1.662866010986047e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-04T02:09:39.186973+00:00",
       "entry_usd_value": 2.0718,
       "entry_signals": {
@@ -32518,19 +32518,30 @@
       "pnl_pct": -1.52,
       "exit_reason": "LLM: sell_all — Position is at -1.5% with 47421780% share - we essentially own the entire bonding curve which means zero organic buyers and no real exit liquidity. Cu",
       "partial": false
+    },
+    {
+      "mint": "3cQNpf5RVcB8xLypU2WeBDh23JojwY7jbChmREHspump",
+      "symbol": "Jizz",
+      "name": "Jizz",
+      "amount_sold": 62296.05952350494,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-04T02:09:39.186973+00:00",
+      "exit_time": "2026-09-04T02:13:06.829007+00:00",
+      "entry_price_usd": 1.662866010986047e-05,
+      "exit_price_usd": 1.8409401940737732e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011076,
+      "pnl_sol": 0.001076,
+      "pnl_pct": 10.71,
+      "exit_reason": "LLM: sell_half — $Jizz is up +10.7% in <5 minutes on bonding curve — classic early pump signature. Both positions occupy 2/2 slots and we're blind to the fresh launche",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-04T02:11:22.610478+00:00",
+  "last_updated": "2026-09-04T02:13:06.829358+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.59,
-  "portfolio_value_usd": 33.62,
+  "last_sol_price_usd": 103.54,
+  "portfolio_value_usd": 33.71,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 01:28 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $Motion at $1.10192e-05 | P&L: +49.5%",
-      "reason": "Auto take-profit at +49.5%"
-    },
     {
       "time": "2026-09-04 01:29 UTC",
       "action": "sell",
@@ -32644,35 +32655,41 @@
       "action": "buy",
       "details": "[LLM] $Jizz at $1.66287e-05, spent 0.02 SOL",
       "reason": "$Jizz has the strongest attention stack: dev claims $Jizzmas hit 3M (track record) and references Boner's 100m ETH run. Bond already at 37% in under a minute = active organic buying. Provocative name = viral catalyst. Mcap $16.7k leaves plenty of runway."
+    },
+    {
+      "time": "2026-09-04 02:13 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Jizz at $1.84094e-05 | P&L: +10.7%",
+      "reason": "$Jizz is up +10.7% in <5 minutes on bonding curve — classic early pump signature. Both positions occupy 2/2 slots and we're blind to the fresh launches. Lock half the gain now (rule: take profit when up >15% OR when capital rotation matters; here it's the latter, plus locking a 10%+ gain with no resistance overhead). Free a slot for higher-attention fresh launches like $BRB/$STEVE."
     }
   ],
   "trade_stats": {
-    "total": 1910,
-    "wins": 984,
+    "total": 1911,
+    "wins": 985,
     "losses": 926,
     "win_rate_pct": 51.5,
-    "total_pnl_sol": -2.008165,
-    "avg_pnl_pct": 34.19,
+    "total_pnl_sol": -2.007089,
+    "avg_pnl_pct": 34.18,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 41,
-    "today_realized_sol": 0.020834,
-    "today_target_pct": 5.2,
+    "today_trades": 42,
+    "today_realized_sol": 0.02191,
+    "today_target_pct": 5.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 984,
+      "win_count": 985,
       "loss_count": 926,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T02:11:22.610421+00:00",
+  "last_llm_brief_at": "2026-09-04T02:13:06.828952+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DsvLLXcgjMDVhUPp5wxx15EBAmfWcqALTxrESh7Ypump": {
-      "price_usd": 2.950248208154824e-06,
+      "price_usd": 2.9488242057375278e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 28.824487555770002,
+      "liquidity_usd": 28.810574780620005,
       "volume_h24": 238.15,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
@@ -32680,15 +32697,15 @@
       "real_sol_reserves": 0.278255503
     },
     "3cQNpf5RVcB8xLypU2WeBDh23JojwY7jbChmREHspump": {
-      "price_usd": 1.6866465100790405e-05,
+      "price_usd": 1.8409401940737732e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4391.785026753751,
-      "volume_h24": 60688.67,
+      "liquidity_usd": 4726.91334373392,
+      "volume_h24": 75628.44,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 42.395839625
+      "real_sol_reserves": 45.653016648
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
