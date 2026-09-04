@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.281351,
+  "balance_sol": 0.300988,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "6h8LDT7jQE5UeFyodFkvHS3ix2UKVtosH1VPNdxwpump": {
       "symbol": "foneOS",
       "name": "foneOS",
-      "amount": 126699.20683343502,
+      "amount": 47512.202562538136,
       "entry_price_usd": 1.639e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-04T00:54:27.738184+00:00",
       "entry_usd_value": 2.0766,
       "entry_signals": {
@@ -32071,25 +32071,47 @@
       "pnl_pct": -0.01,
       "exit_reason": "LLM: sell_all — Flat at -0.0% after just entered, pool only $299 (way below 5x rule, basically illiquid). Cut immediately — can't even exit cleanly at this depth.",
       "partial": false
+    },
+    {
+      "mint": "6h8LDT7jQE5UeFyodFkvHS3ix2UKVtosH1VPNdxwpump",
+      "symbol": "foneOS",
+      "name": "foneOS",
+      "amount_sold": 31674.801708358755,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-04T00:54:27.738184+00:00",
+      "exit_time": "2026-09-04T00:55:31.805585+00:00",
+      "entry_price_usd": 1.639e-05,
+      "exit_price_usd": 2.5712735920349677e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007855,
+      "pnl_sol": 0.002855,
+      "pnl_pct": 56.88,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "6h8LDT7jQE5UeFyodFkvHS3ix2UKVtosH1VPNdxwpump",
+      "symbol": "foneOS",
+      "name": "foneOS",
+      "amount_sold": 47512.202562538136,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-04T00:54:27.738184+00:00",
+      "exit_time": "2026-09-04T00:56:27.334553+00:00",
+      "entry_price_usd": 1.639e-05,
+      "exit_price_usd": 2.5712735920349677e-05,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.011782,
+      "pnl_sol": 0.004282,
+      "pnl_pct": 56.88,
+      "exit_reason": "LLM: sell_half — +56.9% in <1h on thin $6k bonding curve pool. Lock in gains on half — runner narrative unclear, thin liquidity could mean sharp reversal. Half keeps u",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-04T00:54:27.738361+00:00",
+  "last_updated": "2026-09-04T00:56:28.105505+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.83,
-  "portfolio_value_usd": 31.29,
+  "last_sol_price_usd": 103.69,
+  "portfolio_value_usd": 31.99,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 00:18 UTC",
-      "action": "sell",
-      "details": "[TP +100% (50%)] $Heist at $7.81938e-06 | P&L: +114.4%",
-      "reason": "Auto take-profit at +114.4%"
-    },
-    {
-      "time": "2026-09-04 00:19 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Heist at $7.81938e-06 | P&L: +114.4%",
-      "reason": "+114% past +50% TP threshold on bonding curve. Bonding curve graduation often triggers dumps. Lock half the gain, let rest ride with house money."
-    },
     {
       "time": "2026-09-04 00:20 UTC",
       "action": "sell",
@@ -32197,30 +32219,54 @@
       "action": "buy",
       "details": "[LLM] $foneOS at $1.639e-05, spent 0.02 SOL",
       "reason": "$foneOS — meta-narrative 'phone whose only app is buy' is perfectly viral for a memecoin trading audience, passes viability gate (long desc + twitter), no fragility flags, fresh $16.8k mcap launchpad entry with room to run. Single buy because reserve constraint (0.3014 SOL minus 0.05 reserve = one 0.1 SOL position only)."
+    },
+    {
+      "time": "2026-09-04 00:55 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $foneOS at $2.57127e-05 | P&L: +56.9%",
+      "reason": "Auto take-profit at +56.9%"
+    },
+    {
+      "time": "2026-09-04 00:56 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $foneOS at $2.57127e-05 | P&L: +56.9%",
+      "reason": "+56.9% in <1h on thin $6k bonding curve pool. Lock in gains on half — runner narrative unclear, thin liquidity could mean sharp reversal. Half keeps upside if it continues."
     }
   ],
   "trade_stats": {
-    "total": 1885,
-    "wins": 969,
+    "total": 1887,
+    "wins": 971,
     "losses": 916,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.031298,
-    "avg_pnl_pct": 34.09,
+    "win_rate_pct": 51.5,
+    "total_pnl_sol": -2.024161,
+    "avg_pnl_pct": 34.11,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 16,
-    "today_realized_sol": -0.002299,
-    "today_target_pct": -0.6,
+    "today_trades": 18,
+    "today_realized_sol": 0.004838,
+    "today_target_pct": 1.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 969,
+      "win_count": 971,
       "loss_count": 916,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T00:54:26.330165+00:00",
+  "last_llm_brief_at": "2026-09-04T00:56:27.334511+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "6h8LDT7jQE5UeFyodFkvHS3ix2UKVtosH1VPNdxwpump": {
+      "price_usd": 2.5712735920349677e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 6153.39651177766,
+      "volume_h24": 6193.23,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 59.344165414
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

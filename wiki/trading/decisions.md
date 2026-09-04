@@ -14335,3 +14335,9 @@
 ## [2026-09-04 00:54 UTC] buy | [LLM] $foneOS at $1.639e-05, spent 0.02 SOL
 - **Reasoning:** $foneOS — meta-narrative 'phone whose only app is buy' is perfectly viral for a memecoin trading audience, passes viability gate (long desc + twitter), no fragility flags, fresh $16.8k mcap launchpad entry with room to run. Single buy because reserve constraint (0.3014 SOL minus 0.05 reserve = one 0.1 SOL position only).
 
+## [2026-09-04 00:55 UTC] sell | [TP +30% (25%)] $foneOS at $2.57127e-05 | P&L: +56.9%
+- **Reasoning:** Auto take-profit at +56.9%
+
+## [2026-09-04 00:56 UTC] sell | [PARTIAL][LLM] $foneOS at $2.57127e-05 | P&L: +56.9%
+- **Reasoning:** +56.9% in <1h on thin $6k bonding curve pool. Lock in gains on half — runner narrative unclear, thin liquidity could mean sharp reversal. Half keeps upside if it continues.
+
