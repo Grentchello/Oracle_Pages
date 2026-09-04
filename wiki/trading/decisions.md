@@ -14407,3 +14407,9 @@
 ## [2026-09-04 01:30 UTC] buy | [LLM] $PWENGO at $3.049e-06, spent 0.02 SOL
 - **Reasoning:** $PWENGO has desc + twitter @itspwengo + 'community-led meme coin with a face you remember' — real narrative, real account, $3k mcap1.5min old. Attention signal present, viability gate passes. Fresh narrative memecoin play.
 
+## [2026-09-04 01:32 UTC] sell | [FULL][LLM] $Motion at $7.31512e-06 | P&L: -0.8%
+- **Reasoning:** $Motion down -0.8% after 0.1h on $1831 pool — flat/no momentum, fresh launches with stronger narratives (OPENSLOP, Wolf) available. Cut and rotate.
+
+## [2026-09-04 01:32 UTC] sell | [FULL][LLM] $PWENGO at $3.01683e-06 | P&L: -1.1%
+- **Reasoning:** $PWENGO down -1.1% on a tiny $64 pool with 3% share — liquidity is dangerously thin (<5x position rule violated), and the narrative is weak. Exit immediately to free slot.
+
