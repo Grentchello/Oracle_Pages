@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.300831,
+  "balance_sol": 0.306793,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FrPuM4ohDm5k6Eqwsnw9BA5pSvtFShdpwhmH5TZPpump": {
-      "symbol": "index",
-      "name": "indexfund.fun",
-      "amount": 189422.60742187497,
-      "entry_price_usd": 4.096e-06,
-      "entry_sol_spent": 0.0075,
-      "entry_time": "2026-09-04T02:50:46.071633+00:00",
-      "entry_usd_value": 2.069,
-      "entry_signals": {
-        "liquidity_usd": 462.37956405970004,
-        "volume_24h_usd": 2813.48,
-        "market_cap_usd": 4227.972343864687,
-        "ath_market_cap_usd": 4825.529121695947,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.469594626,
-        "description": "Pair Memecoins with your own indexfunds. Launchpads for meme/indexes ",
-        "twitter": "https://x.com/indexfundfun",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -32683,19 +32660,30 @@
       "pnl_pct": -6.28,
       "exit_reason": "LLM: sell_all — $HERE at -6.3% with our share=25% of pool — severe concentration risk for a fresh launch. Small realized loss acceptable to rotate capital into a stro",
       "partial": false
+    },
+    {
+      "mint": "FrPuM4ohDm5k6Eqwsnw9BA5pSvtFShdpwhmH5TZPpump",
+      "symbol": "index",
+      "name": "indexfund.fun",
+      "amount_sold": 189422.60742187497,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T02:50:46.071633+00:00",
+      "exit_time": "2026-09-04T02:57:41.817176+00:00",
+      "entry_price_usd": 4.096e-06,
+      "exit_price_usd": 3.2661442261761707e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.005962,
+      "pnl_sol": -0.001538,
+      "pnl_pct": -20.26,
+      "exit_reason": "LLM: sell_all — $index down -20.3% already, approaching the -30% hard cap. Bonding-curve liquidity is only $190, our share is 0% — no bounce signal, no interest, no n",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T02:56:12.840696+00:00",
+  "last_updated": "2026-09-04T02:57:42.182967+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.69,
-  "portfolio_value_usd": 31.97,
+  "last_sol_price_usd": 103.77,
+  "portfolio_value_usd": 31.84,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 02:04 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $astra at $2.90127e-06 | P&L: -1.4%",
-      "reason": "Pool only $1 and we hold 173% — exit immediately. The price quote is stale or the pool is effectively dead, and holding a 173% share in a $1 pool is a guaranteed rug/zero-out. Cut the loss at -1.4% rather than wait for it to gap to -30%."
-    },
     {
       "time": "2026-09-04 02:09 UTC",
       "action": "sell",
@@ -32809,40 +32797,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $HERE at $2.89862e-06 | P&L: -6.3%",
       "reason": "$HERE at -6.3% with our share=25% of pool — severe concentration risk for a fresh launch. Small realized loss acceptable to rotate capital into a stronger narrative and preserve our winning $index position."
+    },
+    {
+      "time": "2026-09-04 02:57 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $index at $3.26614e-06 | P&L: -20.3%",
+      "reason": "$index down -20.3% already, approaching the -30% hard cap. Bonding-curve liquidity is only $190, our share is 0% — no bounce signal, no interest, no narrative. Cut the loss before it gets worse."
     }
   ],
   "trade_stats": {
-    "total": 1921,
+    "total": 1922,
     "wins": 988,
-    "losses": 933,
+    "losses": 934,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.024321,
-    "avg_pnl_pct": 33.99,
+    "total_pnl_sol": -2.025859,
+    "avg_pnl_pct": 33.96,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 52,
-    "today_realized_sol": 0.004678,
-    "today_target_pct": 1.2,
+    "today_trades": 53,
+    "today_realized_sol": 0.00314,
+    "today_target_pct": 0.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 988,
-      "loss_count": 933,
+      "loss_count": 934,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T02:56:12.575081+00:00",
+  "last_llm_brief_at": "2026-09-04T02:57:41.817143+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FrPuM4ohDm5k6Eqwsnw9BA5pSvtFShdpwhmH5TZPpump": {
-      "price_usd": 3.880932763916382e-06,
+      "price_usd": 3.2661442261761707e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 488.42545775685,
-      "volume_h24": 9652.46,
+      "liquidity_usd": 189.94185137213998,
+      "volume_h24": 10002.31,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.710439365
+      "real_sol_reserves": 1.830411982
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

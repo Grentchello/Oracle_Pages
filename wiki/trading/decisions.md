@@ -14500,3 +14500,6 @@
 ## [2026-09-04 02:54 UTC] sell | [FULL][LLM] $HERE at $2.89862e-06 | P&L: -6.3%
 - **Reasoning:** $HERE at -6.3% with our share=25% of pool — severe concentration risk for a fresh launch. Small realized loss acceptable to rotate capital into a stronger narrative and preserve our winning $index position.
 
+## [2026-09-04 02:57 UTC] sell | [FULL][LLM] $index at $3.26614e-06 | P&L: -20.3%
+- **Reasoning:** $index down -20.3% already, approaching the -30% hard cap. Bonding-curve liquidity is only $190, our share is 0% — no bounce signal, no interest, no narrative. Cut the loss before it gets worse.
+
