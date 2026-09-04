@@ -14518,3 +14518,6 @@
 ## [2026-09-04 03:21 UTC] buy | [LLM] $Millie at $5.129e-06, spent 0.02 SOL
 - **Reasoning:** Millie — viral zoo story tied to a real X post (Memphis Zoo mandrill birth), 'first mandrill ever born' is a clean emotional hook that trends on cute-animal accounts. Good narrative with organic-looking attention.
 
+## [2026-09-04 03:22 UTC] sell | [FULL][LLM] $Millie at $5.1558e-06 | P&L: +0.5%
+- **Reasoning:** Flat +0.5% on a $1036 pool with 0% share is dead capital — no momentum, no edge, and the slot is better deployed on a fresher launch with viral narrative.
+
