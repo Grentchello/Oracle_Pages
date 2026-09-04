@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.284734,
+  "balance_sol": 0.307842,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7cywpZ1ia4RinkQ3waqW2msezA61FymxTQdwBkzLpump": {
       "symbol": "Thuggies",
       "name": "Telethuggies",
-      "amount": 593908.0459770116,
+      "amount": 222715.51724137933,
       "entry_price_usd": 3.48e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-04T01:36:50.581219+00:00",
       "entry_usd_value": 2.0668,
       "entry_signals": {
@@ -32360,25 +32360,47 @@
       "pnl_pct": -1.06,
       "exit_reason": "LLM: sell_all — $PWENGO down -1.1% on a tiny $64 pool with 3% share — liquidity is dangerously thin (<5x position rule violated), and the narrative is weak. Exit imme",
       "partial": false
+    },
+    {
+      "mint": "7cywpZ1ia4RinkQ3waqW2msezA61FymxTQdwBkzLpump",
+      "symbol": "Thuggies",
+      "name": "Telethuggies",
+      "amount_sold": 148477.0114942529,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-04T01:36:50.581219+00:00",
+      "exit_time": "2026-09-04T01:37:54.318839+00:00",
+      "entry_price_usd": 3.48e-06,
+      "exit_price_usd": 6.443415710089645e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.009243,
+      "pnl_sol": 0.004243,
+      "pnl_pct": 85.16,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "7cywpZ1ia4RinkQ3waqW2msezA61FymxTQdwBkzLpump",
+      "symbol": "Thuggies",
+      "name": "Telethuggies",
+      "amount_sold": 222715.51724137933,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-04T01:36:50.581219+00:00",
+      "exit_time": "2026-09-04T01:38:58.249143+00:00",
+      "entry_price_usd": 3.48e-06,
+      "exit_price_usd": 6.443415710089645e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.013865,
+      "pnl_sol": 0.006365,
+      "pnl_pct": 85.16,
+      "exit_reason": "LLM: sell_half — +85.2% in <1h with no clear narrative (no twitter/desc) = momentum-only pump that can reverse fast. Per profit-taking discipline: lock the gain with h",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-04T01:36:50.843861+00:00",
+  "last_updated": "2026-09-04T01:38:58.659419+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.34,
-  "portfolio_value_usd": 31.49,
+  "last_sol_price_usd": 103.5,
+  "portfolio_value_usd": 32.64,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 01:11 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Maid at $2.94838e-06 | P&L: -13.3%",
-      "reason": "$Maid is -13.3% in 0.0h on a $25 pool with no bounce signal. Capital is better rotated to a fresh launch with stronger narrative than bag-holding a thin bonding-curve position."
-    },
-    {
-      "time": "2026-09-04 01:17 UTC",
-      "action": "buy",
-      "details": "[LLM] $Peekachu at $3.078e-06, spent 0.02 SOL",
-      "reason": "$Peekachu 'Justice for Peekachu' is a strong emotional charity narrative (whale died at Shedd Aquarium), real WashTimes X post, charity-to-profit angle is highly shareable. $3k mcap with twitter passes viability. Whale/death narratives go viral on TikTok/X. 0.05 SOL position."
-    },
     {
       "time": "2026-09-04 01:21 UTC",
       "action": "sell",
@@ -32486,30 +32508,54 @@
       "action": "buy",
       "details": "[LLM] $Thuggies at $3.48e-06, spent 0.02 SOL",
       "reason": "TeleThuggies = IP mashup of Teletubbies-as-hustlers, visually memeable, has a real X account, and 29% bond complete shows organic attention already converting to capital. Best narrative-to-mcap ratio on the board."
+    },
+    {
+      "time": "2026-09-04 01:37 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Thuggies at $6.44342e-06 | P&L: +85.2%",
+      "reason": "Auto take-profit at +85.2%"
+    },
+    {
+      "time": "2026-09-04 01:38 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Thuggies at $6.44342e-06 | P&L: +85.2%",
+      "reason": "+85.2% in <1h with no clear narrative (no twitter/desc) = momentum-only pump that can reverse fast. Per profit-taking discipline: lock the gain with half, let remaining ride in case of continuation. Frees ~0.04 SOL for rotation."
     }
   ],
   "trade_stats": {
-    "total": 1902,
-    "wins": 978,
+    "total": 1904,
+    "wins": 980,
     "losses": 924,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.027916,
-    "avg_pnl_pct": 33.93,
+    "win_rate_pct": 51.5,
+    "total_pnl_sol": -2.017308,
+    "avg_pnl_pct": 33.99,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 33,
-    "today_realized_sol": 0.001083,
-    "today_target_pct": 0.3,
+    "today_trades": 35,
+    "today_realized_sol": 0.011691,
+    "today_target_pct": 2.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 978,
+      "win_count": 980,
       "loss_count": 924,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T01:36:49.251001+00:00",
+  "last_llm_brief_at": "2026-09-04T01:38:58.249105+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "7cywpZ1ia4RinkQ3waqW2msezA61FymxTQdwBkzLpump": {
+      "price_usd": 6.443415710089645e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1528.282062945,
+      "volume_h24": 7661.95,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 14.76601027
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

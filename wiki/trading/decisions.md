@@ -14416,3 +14416,9 @@
 ## [2026-09-04 01:36 UTC] buy | [LLM] $Thuggies at $3.48e-06, spent 0.02 SOL
 - **Reasoning:** TeleThuggies = IP mashup of Teletubbies-as-hustlers, visually memeable, has a real X account, and 29% bond complete shows organic attention already converting to capital. Best narrative-to-mcap ratio on the board.
 
+## [2026-09-04 01:37 UTC] sell | [TP +30% (25%)] $Thuggies at $6.44342e-06 | P&L: +85.2%
+- **Reasoning:** Auto take-profit at +85.2%
+
+## [2026-09-04 01:38 UTC] sell | [PARTIAL][LLM] $Thuggies at $6.44342e-06 | P&L: +85.2%
+- **Reasoning:** +85.2% in <1h with no clear narrative (no twitter/desc) = momentum-only pump that can reverse fast. Per profit-taking discipline: lock the gain with half, let remaining ride in case of continuation. Frees ~0.04 SOL for rotation.
+
