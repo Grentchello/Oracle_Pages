@@ -14296,3 +14296,6 @@
 ## [2026-09-04 00:24 UTC] sell | [hard-stop] $UP closed at $2.90484e-06 | P&L: -56.5%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-04 00:30 UTC] buy | [LLM] $Bella at $4.836e-06, spent 0.02 SOL
+- **Reasoning:** $Bella — viral dog smirking meme on X, has a real narrative (dog going viral on X), description over 50 chars, twitter link present, and liquidity is already ~$4k. Attention-driven memecoins with a viral visual moment are exactly the early-pump setup we want.
+
