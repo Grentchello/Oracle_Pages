@@ -14578,3 +14578,9 @@
 ## [2026-09-04 04:21 UTC] buy | [LLM] $AMC at $4.26489e-06, spent 0.02 SOL
 - **Reasoning:** $AMC is a meta-narrative coin about PumpFun callouts — the kind of self-referential meme that prints on attention platforms. Fresh (0.3min), has twitter + description (passes viability), and the name itself is the pitch. Risky at $4.2k mcap but that's where the alpha is.
 
+## [2026-09-04 04:23 UTC] sell | [FULL][LLM] $AMC at $3.1049e-06 | P&L: -27.2%
+- **Reasoning:** Down 27.2%, only 2.8% from hard -30% stop. Pool $105 with 1% share means exit liquidity is fine but the position is dying — bonding curve at 25% with weak volume. Cutting before auto-stop fires; capital better deployed in fresh narrative.
+
+## [2026-09-04 04:23 UTC] buy | [LLM] $Anon at $3.15924e-06, spent 0.02 SOL
+- **Reasoning:** $Anon passes viability gate (desc ~85 chars + twitter). Anonymous meme has durable narrative power ('We are Legion, Expect us') and trades on nostalgia + edgy identity. Low mcap $3.1k with X presence = asymmetric upside. Position size 0.05 SOL.
+
