@@ -14506,3 +14506,6 @@
 ## [2026-09-04 03:02 UTC] buy | [LLM] $INDEX at $3.285e-06, spent 0.02 SOL
 - **Reasoning:** $INDEX (indexfund.fun) — meta-meta play: 'pair memecoins with your own index funds' is a hot narrative on CT right now (ETF-ification of memecoins). Has twitter + 124-char desc (passes viability), mcap $3.2k at 1.1min = very early on bonding curve (6%), good attention surface for5-10x potential.
 
+## [2026-09-04 03:07 UTC] sell | [FULL][LLM] $INDEX at $3.08582e-06 | P&L: -6.1%
+- **Reasoning:** $INDEX is down -6.1% after 0.1h with only $95 pool liquidity and 2% of pool = illiquid. Bonding-curve tokens under $100 pool have no real exit depth; cutting -6% beats catching a -30% stop. Free up the slot.
+

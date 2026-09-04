@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.286793,
+  "balance_sol": 0.305566,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "34SBWtDyprAc3TpvCzpX33TcfjzDPwvAXTrun9rHpump": {
-      "symbol": "INDEX",
-      "name": "indexfund.fun",
-      "amount": 632389.6499238965,
-      "entry_price_usd": 3.285e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T03:02:22.822668+00:00",
-      "entry_usd_value": 2.0774,
-      "entry_signals": {
-        "liquidity_usd": 199.18503652021002,
-        "volume_24h_usd": 1167.2,
-        "market_cap_usd": 3271.9757698433314,
-        "ath_market_cap_usd": 3794.0719973396112,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.917637783,
-        "description": "Pair Memecoins with your own indexfunds. Launchpads for meme/indexes ",
-        "twitter": "https://x.com/indexfundfun",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -32700,19 +32677,30 @@
       "pnl_pct": -20.26,
       "exit_reason": "LLM: sell_all — $index down -20.3% already, approaching the -30% hard cap. Bonding-curve liquidity is only $190, our share is 0% — no bounce signal, no interest, no n",
       "partial": false
+    },
+    {
+      "mint": "34SBWtDyprAc3TpvCzpX33TcfjzDPwvAXTrun9rHpump",
+      "symbol": "INDEX",
+      "name": "indexfund.fun",
+      "amount_sold": 632389.6499238965,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T03:02:22.822668+00:00",
+      "exit_time": "2026-09-04T03:07:17.363183+00:00",
+      "entry_price_usd": 3.285e-06,
+      "exit_price_usd": 3.0858180944226503e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018773,
+      "pnl_sol": -0.001227,
+      "pnl_pct": -6.06,
+      "exit_reason": "LLM: sell_all — $INDEX is down -6.1% after 0.1h with only $95 pool liquidity and 2% of pool = illiquid. Bonding-curve tokens under $100 pool have no real exit depth; ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T03:05:28.127117+00:00",
+  "last_updated": "2026-09-04T03:07:17.859217+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.92,
-  "portfolio_value_usd": 31.88,
+  "last_sol_price_usd": 103.95,
+  "portfolio_value_usd": 31.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 02:09 UTC",
-      "action": "buy",
-      "details": "[LLM] $Jizz at $1.66287e-05, spent 0.02 SOL",
-      "reason": "$Jizz has the strongest attention stack: dev claims $Jizzmas hit 3M (track record) and references Boner's 100m ETH run. Bond already at 37% in under a minute = active organic buying. Provocative name = viral catalyst. Mcap $16.7k leaves plenty of runway."
-    },
     {
       "time": "2026-09-04 02:13 UTC",
       "action": "sell",
@@ -32826,40 +32814,46 @@
       "action": "buy",
       "details": "[LLM] $INDEX at $3.285e-06, spent 0.02 SOL",
       "reason": "$INDEX (indexfund.fun) — meta-meta play: 'pair memecoins with your own index funds' is a hot narrative on CT right now (ETF-ification of memecoins). Has twitter + 124-char desc (passes viability), mcap $3.2k at 1.1min = very early on bonding curve (6%), good attention surface for5-10x potential."
+    },
+    {
+      "time": "2026-09-04 03:07 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $INDEX at $3.08582e-06 | P&L: -6.1%",
+      "reason": "$INDEX is down -6.1% after 0.1h with only $95 pool liquidity and 2% of pool = illiquid. Bonding-curve tokens under $100 pool have no real exit depth; cutting -6% beats catching a -30% stop. Free up the slot."
     }
   ],
   "trade_stats": {
-    "total": 1922,
+    "total": 1923,
     "wins": 988,
-    "losses": 934,
+    "losses": 935,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.025859,
-    "avg_pnl_pct": 33.96,
+    "total_pnl_sol": -2.027086,
+    "avg_pnl_pct": 33.94,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 53,
-    "today_realized_sol": 0.00314,
-    "today_target_pct": 0.8,
+    "today_trades": 54,
+    "today_realized_sol": 0.001913,
+    "today_target_pct": 0.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 988,
-      "loss_count": 934,
+      "loss_count": 935,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T03:05:27.857899+00:00",
+  "last_llm_brief_at": "2026-09-04T03:07:17.362685+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "34SBWtDyprAc3TpvCzpX33TcfjzDPwvAXTrun9rHpump": {
-      "price_usd": 3.2223515443539766e-06,
+      "price_usd": 3.0858180944226503e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 165.59378264328,
-      "volume_h24": 1417.96,
+      "liquidity_usd": 94.8489955875,
+      "volume_h24": 1488.76,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.593473659
+      "real_sol_reserves": 0.91244825
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
