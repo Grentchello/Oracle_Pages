@@ -14365,3 +14365,9 @@
 ## [2026-09-04 01:21 UTC] sell | [FULL][LLM] $Peekachu at $2.96288e-06 | P&L: -3.7%
 - **Reasoning:** Down -3.7% after6 minutes on a $34 pool where I'm 6% of liquidity. My position is meaningful relative to the pool — any bounce helps me more by freeing the slot for a fresh launch with narrative. No clear catalyst, exit now and redeploy.
 
+## [2026-09-04 01:24 UTC] buy | [LLM] $FORG at $3.039e-06, spent 0.02 SOL
+- **Reasoning:** $FORG — Matt Furie (Pepe creator) cyber-frog narrative. Furie ecosystem tokens have historically run hard on attention. mcap $3k, bond 2%, very early. Viability passes (desc + twitter). If ME2F/GMGN gate clears (low whale concentration), this is a top-tier attention play.
+
+## [2026-09-04 01:24 UTC] buy | [LLM] $Motion at $7.371e-06, spent 0.02 SOL
+- **Reasoning:** $Motion — meta-narrative: 'settling the PumpFun vs Fomo debate' via motion-based voting. Taps directly into active memecoin trader culture. mcap $8.5k, bond 29% (stronger than FORG), twitter active. Viability passes. Lower conviction than FORG but slot 2 needs to be filled.
+
