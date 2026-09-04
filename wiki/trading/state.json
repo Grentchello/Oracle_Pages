@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.259702,
+  "balance_sol": 0.290386,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 3.707527013,
         "description": "Literally the biggest news in the UK right now.  It’s on every news article and so many posts on X:  Remember the KitCat Heist? It hit 1M.. ",
         "twitter": "https://x.com/barnsrebirth0/status/2095664334965817846?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "3URENekgDeifYzeJDpxuwe7m4hZm7aunjTfjNVMupump": {
-      "symbol": "CALLTRAIN",
-      "name": "Call Train",
-      "amount": 294733.85379701917,
-      "entry_price_usd": 7.045e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T00:16:23.569495+00:00",
-      "entry_usd_value": 2.0764,
-      "entry_signals": {
-        "liquidity_usd": 2757.0353066775197,
-        "volume_24h_usd": 5603.42,
-        "market_cap_usd": 10289.725935756147,
-        "ath_market_cap_usd": 11593.330665329424,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 26.555917036,
-        "description": "Buy the coin. Hold the coin. Call the coin. Follow everyone that calls the coin.  $CALLTRAIN",
-        "twitter": "https://x.com/Boatyy_/status/2095666726545338554?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -31855,25 +31833,47 @@
       "pnl_pct": -19.78,
       "exit_reason": "LLM: sell_all — Toilet down -19.8% after 6 minutes on a $5 pool with 15% share — every additional second I'm in this illiquid graveyard burns the slot. Cut the loss, ",
       "partial": false
+    },
+    {
+      "mint": "3URENekgDeifYzeJDpxuwe7m4hZm7aunjTfjNVMupump",
+      "symbol": "CALLTRAIN",
+      "name": "Call Train",
+      "amount_sold": 73683.46344925479,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-04T00:16:23.569495+00:00",
+      "exit_time": "2026-09-04T00:17:27.672673+00:00",
+      "entry_price_usd": 7.045e-06,
+      "exit_price_usd": 1.08187361739227e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007671,
+      "pnl_sol": 0.002671,
+      "pnl_pct": 53.57,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "3URENekgDeifYzeJDpxuwe7m4hZm7aunjTfjNVMupump",
+      "symbol": "CALLTRAIN",
+      "name": "Call Train",
+      "amount_sold": 221050.39034776436,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T00:16:23.569495+00:00",
+      "exit_time": "2026-09-04T00:17:48.620760+00:00",
+      "entry_price_usd": 7.045e-06,
+      "exit_price_usd": 1.08187361739227e-05,
+      "entry_sol_for_chunk": 0.015,
+      "exit_sol_received": 0.023013,
+      "pnl_sol": 0.008013,
+      "pnl_pct": 53.57,
+      "exit_reason": "LLM: sell_all — CALLTRAIN is up +53.6%, well past the +50% TP threshold and the +25% auto-take-profit zone. Narrative (CALLTRAIN) is unclear/corny, no clear catalyst ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T00:16:23.569754+00:00",
+  "last_updated": "2026-09-04T00:17:48.891691+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.82,
-  "portfolio_value_usd": 31.12,
+  "last_sol_price_usd": 103.92,
+  "portfolio_value_usd": 32.25,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 23:22 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $PONS at $2.91085e-06 | P&L: -14.6%",
-      "reason": "Down -14.6% with our share at 128% of pool (we ARE the liquidity). Held only 6 min, no bounce signal, still on bonding curve = no real exit liquidity if it drops further. Cut and free the slot for a fresh launch."
-    },
-    {
-      "time": "2026-09-03 23:23 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PONS at $2.90718e-06 | P&L: -14.8%",
-      "reason": "Down -14.7% on a 0.2h hold with no positive momentum signal. Pool=$0 + our share=27691019% screams rugged/illiquid bonding-curve artifact — every minute held is exposure to -30% hard stop. Cut the loss now at -15% instead of hoping for a bounce."
-    },
     {
       "time": "2026-09-03 23:33 UTC",
       "action": "buy",
@@ -31981,40 +31981,63 @@
       "action": "buy",
       "details": "[LLM] $CALLTRAIN at $7.045e-06, spent 0.02 SOL",
       "reason": "$CALLTRAIN has the strongest meta-narrative of the batch — self-referential call-train mechanics designed to spread on X, 32% bonding already, highest mcap of fresh launches. Memecoin attention play."
+    },
+    {
+      "time": "2026-09-04 00:17 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $CALLTRAIN at $1.08187e-05 | P&L: +53.6%",
+      "reason": "Auto take-profit at +53.6%"
+    },
+    {
+      "time": "2026-09-04 00:17 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CALLTRAIN at $1.08187e-05 | P&L: +53.6%",
+      "reason": "CALLTRAIN is up +53.6%, well past the +50% TP threshold and the +25% auto-take-profit zone. Narrative (CALLTRAIN) is unclear/corny, no clear catalyst to keep pumping. Lock the gain — discipline says take profit when up >20% with doubt, and this one has no clear narrative strength to justify holding."
     }
   ],
   "trade_stats": {
-    "total": 1871,
-    "wins": 960,
+    "total": 1873,
+    "wins": 962,
     "losses": 911,
-    "win_rate_pct": 51.3,
-    "total_pnl_sol": -2.032947,
-    "avg_pnl_pct": 34.18,
+    "win_rate_pct": 51.4,
+    "total_pnl_sol": -2.022263,
+    "avg_pnl_pct": 34.2,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 2,
-    "today_realized_sol": -0.003948,
-    "today_target_pct": -1.0,
+    "today_trades": 4,
+    "today_realized_sol": 0.006736,
+    "today_target_pct": 1.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 960,
+      "win_count": 962,
       "loss_count": 911,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T00:16:20.294730+00:00",
+  "last_llm_brief_at": "2026-09-04T00:17:48.620716+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "78DjBXkPVySNxSgrkUcMckZ1ireNwjRxsBf1KJHQZaBC": {
-      "price_usd": 2.9129148281862813e-06,
+    "DRDz1jSR3dReRxxp3s5n6ahDi1Z9TT7VakdEbAi9pump": {
+      "price_usd": 4.158523267487551e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 5.473995878239999,
-      "volume_h24": 5111.29,
+      "liquidity_usd": 612.14916546528,
+      "volume_h24": 2917.92,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.052725832
+      "real_sol_reserves": 5.890580884
+    },
+    "3URENekgDeifYzeJDpxuwe7m4hZm7aunjTfjNVMupump": {
+      "price_usd": 1.08187361739227e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2898.26834838504,
+      "volume_h24": 17244.81,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 27.889418287
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

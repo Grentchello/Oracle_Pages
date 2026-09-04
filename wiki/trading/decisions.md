@@ -14269,3 +14269,9 @@
 ## [2026-09-04 00:16 UTC] buy | [LLM] $CALLTRAIN at $7.045e-06, spent 0.02 SOL
 - **Reasoning:** $CALLTRAIN has the strongest meta-narrative of the batch — self-referential call-train mechanics designed to spread on X, 32% bonding already, highest mcap of fresh launches. Memecoin attention play.
 
+## [2026-09-04 00:17 UTC] sell | [TP +30% (25%)] $CALLTRAIN at $1.08187e-05 | P&L: +53.6%
+- **Reasoning:** Auto take-profit at +53.6%
+
+## [2026-09-04 00:17 UTC] sell | [FULL][LLM] $CALLTRAIN at $1.08187e-05 | P&L: +53.6%
+- **Reasoning:** CALLTRAIN is up +53.6%, well past the +50% TP threshold and the +25% auto-take-profit zone. Narrative (CALLTRAIN) is unclear/corny, no clear catalyst to keep pumping. Lock the gain — discipline says take profit when up >20% with doubt, and this one has no clear narrative strength to justify holding.
+
