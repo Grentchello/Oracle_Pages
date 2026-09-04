@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.307842,
+  "balance_sol": 0.319128,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7cywpZ1ia4RinkQ3waqW2msezA61FymxTQdwBkzLpump": {
       "symbol": "Thuggies",
       "name": "Telethuggies",
-      "amount": 222715.51724137933,
+      "amount": 55678.87931034483,
       "entry_price_usd": 3.48e-06,
-      "entry_sol_spent": 0.0075,
+      "entry_sol_spent": 0.001875,
       "entry_time": "2026-09-04T01:36:50.581219+00:00",
       "entry_usd_value": 2.0668,
       "entry_signals": {
@@ -32394,25 +32394,47 @@
       "pnl_pct": 85.16,
       "exit_reason": "LLM: sell_half — +85.2% in <1h with no clear narrative (no twitter/desc) = momentum-only pump that can reverse fast. Per profit-taking discipline: lock the gain with h",
       "partial": true
+    },
+    {
+      "mint": "7cywpZ1ia4RinkQ3waqW2msezA61FymxTQdwBkzLpump",
+      "symbol": "Thuggies",
+      "name": "Telethuggies",
+      "amount_sold": 111357.75862068967,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-04T01:36:50.581219+00:00",
+      "exit_time": "2026-09-04T01:40:02.552595+00:00",
+      "entry_price_usd": 3.48e-06,
+      "exit_price_usd": 6.995504541132773e-06,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.007524,
+      "pnl_sol": 0.003774,
+      "pnl_pct": 101.02,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "7cywpZ1ia4RinkQ3waqW2msezA61FymxTQdwBkzLpump",
+      "symbol": "Thuggies",
+      "name": "Telethuggies",
+      "amount_sold": 55678.87931034483,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-04T01:36:50.581219+00:00",
+      "exit_time": "2026-09-04T01:40:34.933175+00:00",
+      "entry_price_usd": 3.48e-06,
+      "exit_price_usd": 6.995504541132773e-06,
+      "entry_sol_for_chunk": 0.001875,
+      "exit_sol_received": 0.003762,
+      "pnl_sol": 0.001887,
+      "pnl_pct": 101.02,
+      "exit_reason": "LLM: sell_half — +101% already, past the 100% TP band per rules (bot should have auto-taken 50% at +50%, leaving half runner). Locking half now protects the 2x gain ag",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-04T01:38:58.659419+00:00",
+  "last_updated": "2026-09-04T01:40:34.934287+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.5,
-  "portfolio_value_usd": 32.64,
+  "last_sol_price_usd": 103.54,
+  "portfolio_value_usd": 33.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 01:21 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Peekachu at $2.96288e-06 | P&L: -3.7%",
-      "reason": "Down -3.7% after6 minutes on a $34 pool where I'm 6% of liquidity. My position is meaningful relative to the pool — any bounce helps me more by freeing the slot for a fresh launch with narrative. No clear catalyst, exit now and redeploy."
-    },
-    {
-      "time": "2026-09-04 01:24 UTC",
-      "action": "buy",
-      "details": "[LLM] $FORG at $3.039e-06, spent 0.02 SOL",
-      "reason": "$FORG — Matt Furie (Pepe creator) cyber-frog narrative. Furie ecosystem tokens have historically run hard on attention. mcap $3k, bond 2%, very early. Viability passes (desc + twitter). If ME2F/GMGN gate clears (low whale concentration), this is a top-tier attention play."
-    },
     {
       "time": "2026-09-04 01:24 UTC",
       "action": "buy",
@@ -32520,40 +32542,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Thuggies at $6.44342e-06 | P&L: +85.2%",
       "reason": "+85.2% in <1h with no clear narrative (no twitter/desc) = momentum-only pump that can reverse fast. Per profit-taking discipline: lock the gain with half, let remaining ride in case of continuation. Frees ~0.04 SOL for rotation."
+    },
+    {
+      "time": "2026-09-04 01:40 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $Thuggies at $6.9955e-06 | P&L: +101.0%",
+      "reason": "Auto take-profit at +101.0%"
+    },
+    {
+      "time": "2026-09-04 01:40 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Thuggies at $6.9955e-06 | P&L: +101.0%",
+      "reason": "+101% already, past the 100% TP band per rules (bot should have auto-taken 50% at +50%, leaving half runner). Locking half now protects the 2x gain against a mean reversion; letting the other half ride to see if narrative pushes to 200%+."
     }
   ],
   "trade_stats": {
-    "total": 1904,
-    "wins": 980,
+    "total": 1906,
+    "wins": 982,
     "losses": 924,
     "win_rate_pct": 51.5,
-    "total_pnl_sol": -2.017308,
-    "avg_pnl_pct": 33.99,
+    "total_pnl_sol": -2.011647,
+    "avg_pnl_pct": 34.06,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 35,
-    "today_realized_sol": 0.011691,
-    "today_target_pct": 2.9,
+    "today_trades": 37,
+    "today_realized_sol": 0.017352,
+    "today_target_pct": 4.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 980,
+      "win_count": 982,
       "loss_count": 924,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T01:38:58.249105+00:00",
+  "last_llm_brief_at": "2026-09-04T01:40:34.933136+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7cywpZ1ia4RinkQ3waqW2msezA61FymxTQdwBkzLpump": {
-      "price_usd": 6.443415710089645e-06,
+      "price_usd": 6.995504541132773e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1528.282062945,
-      "volume_h24": 7661.95,
+      "liquidity_usd": 1722.43180779364,
+      "volume_h24": 9437.3,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 14.76601027
+      "real_sol_reserves": 16.635424066
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

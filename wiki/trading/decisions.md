@@ -14422,3 +14422,9 @@
 ## [2026-09-04 01:38 UTC] sell | [PARTIAL][LLM] $Thuggies at $6.44342e-06 | P&L: +85.2%
 - **Reasoning:** +85.2% in <1h with no clear narrative (no twitter/desc) = momentum-only pump that can reverse fast. Per profit-taking discipline: lock the gain with half, let remaining ride in case of continuation. Frees ~0.04 SOL for rotation.
 
+## [2026-09-04 01:40 UTC] sell | [TP +100% (50%)] $Thuggies at $6.9955e-06 | P&L: +101.0%
+- **Reasoning:** Auto take-profit at +101.0%
+
+## [2026-09-04 01:40 UTC] sell | [PARTIAL][LLM] $Thuggies at $6.9955e-06 | P&L: +101.0%
+- **Reasoning:** +101% already, past the 100% TP band per rules (bot should have auto-taken 50% at +50%, leaving half runner). Locking half now protects the 2x gain against a mean reversion; letting the other half ride to see if narrative pushes to 200%+.
+
