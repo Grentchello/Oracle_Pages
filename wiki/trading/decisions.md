@@ -14515,3 +14515,6 @@
 ## [2026-09-04 03:13 UTC] sell | [hard-stop] $RADAR closed at $5.04213e-06 | P&L: -62.1%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-04 03:21 UTC] buy | [LLM] $Millie at $5.129e-06, spent 0.02 SOL
+- **Reasoning:** Millie — viral zoo story tied to a real X post (Memphis Zoo mandrill birth), 'first mandrill ever born' is a clean emotional hook that trends on cute-animal accounts. Good narrative with organic-looking attention.
+
