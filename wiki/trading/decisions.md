@@ -14389,3 +14389,15 @@
 ## [2026-09-04 01:27 UTC] buy | [LLM] $UNFAZED at $3.252e-06, spent 0.02 SOL
 - **Reasoning:** $UNFAZED — TikTok viral 'literal definition of unfazed' narrative with confirmed Twitter presence. Low $3.2k mcap is the entry zone, not a skip reason. Classic attention-launch play: story + creator account + fresh curve. Sizing 0.05 SOL — if it pumps, ride; if it stalls, cut fast per scalp rules.
 
+## [2026-09-04 01:28 UTC] sell | [TP +30% (25%)] $Motion at $1.10192e-05 | P&L: +49.5%
+- **Reasoning:** Auto take-profit at +49.5%
+
+## [2026-09-04 01:29 UTC] sell | [PARTIAL][LLM] $Motion at $1.10192e-05 | P&L: +49.5%
+- **Reasoning:** Motion is up +49.5% in 0.1h, momentum hot but pool is thin ($2,954) — locking half the gain is mandatory discipline when >20% with thin liquidity. Rider keeps runner exposure.
+
+## [2026-09-04 01:29 UTC] sell | [FULL][LLM] $UNFAZED at $3.24783e-06 | P&L: -0.1%
+- **Reasoning:** UNFAZED is flat at -0.1% with only $184 pool — that liquidity is dangerously thin and the slot is wasted capital. Rotating out to free a slot for a fresh narrative play.
+
+## [2026-09-04 01:29 UTC] buy | [LLM] $CASHDOG at $3.27501e-06, spent 0.02 SOL
+- **Reasoning:** $CASHDOG passes viability (86-char desc, twitter @cashdogsoll). Dog-meme narrative with a story ('good boy on the blockchain') is classic viral memecoin fuel at $3.2k mcap. Fragility gate clean — no political/celebrity keywords. High-risk lottery ticket but the attention hook is real.
+
