@@ -14596,3 +14596,9 @@
 ## [2026-09-04 04:52 UTC] buy | [LLM] $ApeCoin at $3.321e-06, spent 0.02 SOL
 - **Reasoning:** $ApeCoin — ape nostalgia is a proven memecoin narrative (Bored Ape legacy), twitter handle apecoinsolla, $3.3k mcap with 64-char description that passes viability gate. Second-best narrative play in this batch.
 
+## [2026-09-04 04:54 UTC] sell | [FULL][LLM] $ApeCoin at $3.30071e-06 | P&L: -0.6%
+- **Reasoning:** ApeCoin is essentially flat (-0.6%) on a tiny $205 pool, fresh entry, no momentum signal. Pool depth is too thin to trust and we've already been in for 0.0h with no catalyst — better to rotate into a fresh launch with real attention than babysit a stalled microcap.
+
+## [2026-09-04 04:54 UTC] buy | [LLM] $Memebook at $3.007e-06, spent 0.02 SOL
+- **Reasoning:** $Memebook has a real product narrative (Solana Social App with photos/reels/tips/NFTs), a live twitter (@memebookapp), and $3k mcap with bonding just starting — classic early-attention setup with a story beyond the meme.
+
