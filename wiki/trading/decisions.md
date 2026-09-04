@@ -14347,3 +14347,6 @@
 ## [2026-09-04 00:57 UTC] buy | [LLM] $WRC  at $3.9453e-06, spent 0.02 SOL
 - **Reasoning:** $WRC has the strongest narrative of the slate (physical AI narrative is hot), real description, dedicated twitter (@wrc2026_), and only 12% bond = early entry if it catches. Slightly higher risk than $creampie but asymmetric upside on a credible AI story.
 
+## [2026-09-04 01:02 UTC] sell | [FULL][LLM] $WRC  at $2.89739e-06 | P&L: -26.6%
+- **Reasoning:** Down -26.6% with pool=$0 (zero real liquidity) — this is a dead bonding-curve token heading straight to the -30% hard stop. Better to lock the -26.6% loss now than wait for the auto-stop, and free up the position slot for a fresh entry with actual attention behind it.
+

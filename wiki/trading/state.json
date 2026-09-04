@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.282381,
+  "balance_sol": 0.297086,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5WtStELpFzF1riEd96W8RHB1U2bLycWbYKeGBWxGpump": {
-      "symbol": "WRC ",
-      "name": "WRC ",
-      "amount": 525942.5147951671,
-      "entry_price_usd": 3.9452980917660305e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T00:57:55.087656+00:00",
-      "entry_usd_value": 2.075,
-      "entry_signals": {
-        "liquidity_usd": 537.6973793362499,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3951.615352797351,
-        "ath_market_cap_usd": 4149.462442227858,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.182625343,
-        "description": "A field intelligence system for the moment physical AI crosses from performance to production.",
-        "twitter": "https://x.com/wrc2026_",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -32122,19 +32099,30 @@
       "pnl_pct": -81.44,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "5WtStELpFzF1riEd96W8RHB1U2bLycWbYKeGBWxGpump",
+      "symbol": "WRC ",
+      "name": "WRC ",
+      "amount_sold": 525942.4432618339,
+      "fraction_sold": 0.9999998639902056,
+      "entry_time": "2026-09-04T00:57:55.087656+00:00",
+      "exit_time": "2026-09-04T01:02:41.355593+00:00",
+      "entry_price_usd": 3.9452980917660305e-06,
+      "exit_price_usd": 2.8973904947148556e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.014705,
+      "pnl_sol": -0.005295,
+      "pnl_pct": -26.56,
+      "exit_reason": "LLM: sell_all — Down -26.6% with pool=$0 (zero real liquidity) — this is a dead bonding-curve token heading straight to the -30% hard stop. Better to lock the -26.6% ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T01:00:46.301267+00:00",
+  "last_updated": "2026-09-04T01:02:41.631575+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.53,
-  "portfolio_value_usd": 31.31,
+  "last_sol_price_usd": 103.63,
+  "portfolio_value_usd": 30.79,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 00:22 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Heist at $3.23966e-06 | P&L: -11.2%",
-      "reason": "$Heist is down -11.2% after 6 minutes with tiny $174 pool liquidity (already below my 5x position size minimum) and 0% bonding curve progress. Pool is essentially dead — no real volume, no momentum. Cut the loss now before it hits the -30% hard stop. Capital rotation beats bag-holding a microcap that isn't moving."
-    },
     {
       "time": "2026-09-04 00:23 UTC",
       "action": "buy",
@@ -32248,40 +32236,46 @@
       "action": "buy",
       "details": "[LLM] $WRC  at $3.9453e-06, spent 0.02 SOL",
       "reason": "$WRC has the strongest narrative of the slate (physical AI narrative is hot), real description, dedicated twitter (@wrc2026_), and only 12% bond = early entry if it catches. Slightly higher risk than $creampie but asymmetric upside on a credible AI story."
+    },
+    {
+      "time": "2026-09-04 01:02 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WRC  at $2.89739e-06 | P&L: -26.6%",
+      "reason": "Down -26.6% with pool=$0 (zero real liquidity) — this is a dead bonding-curve token heading straight to the -30% hard stop. Better to lock the -26.6% loss now than wait for the auto-stop, and free up the position slot for a fresh entry with actual attention behind it."
     }
   ],
   "trade_stats": {
-    "total": 1888,
+    "total": 1889,
     "wins": 971,
-    "losses": 917,
+    "losses": 918,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.030268,
-    "avg_pnl_pct": 34.05,
+    "total_pnl_sol": -2.035563,
+    "avg_pnl_pct": 34.02,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 19,
-    "today_realized_sol": -0.001269,
-    "today_target_pct": -0.3,
+    "today_trades": 20,
+    "today_realized_sol": -0.006564,
+    "today_target_pct": -1.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 971,
-      "loss_count": 917,
+      "loss_count": 918,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T01:00:46.009190+00:00",
+  "last_llm_brief_at": "2026-09-04T01:02:41.354993+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5WtStELpFzF1riEd96W8RHB1U2bLycWbYKeGBWxGpump": {
-      "price_usd": 3.936509822581814e-06,
+      "price_usd": 2.8973904947148556e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 516.10683161793,
+      "liquidity_usd": 8.2904e-07,
       "volume_h24": 791.43,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.985094481
+      "real_sol_reserves": 8e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
