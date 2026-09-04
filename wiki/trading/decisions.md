@@ -14584,3 +14584,6 @@
 ## [2026-09-04 04:23 UTC] buy | [LLM] $Anon at $3.15924e-06, spent 0.02 SOL
 - **Reasoning:** $Anon passes viability gate (desc ~85 chars + twitter). Anonymous meme has durable narrative power ('We are Legion, Expect us') and trades on nostalgia + edgy identity. Low mcap $3.1k with X presence = asymmetric upside. Position size 0.05 SOL.
 
+## [2026-09-04 04:25 UTC] sell | [FULL][LLM] $Anon at $3.1492e-06 | P&L: -0.3%
+- **Reasoning:** Anon at -0.3% on a $126 pool (way below 5x position size viability) on bonding curve — slot is wasted. Free capital for a real narrative play.
+

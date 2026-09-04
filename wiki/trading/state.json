@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.240315,
+  "balance_sol": 0.260231,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HZYWgKXDwLFtUx72tp7jMWKy2rU12w5r3SQXX63qvGhr": {
-      "symbol": "Anon",
-      "name": "Anonymous",
-      "amount": 657942.6960736314,
-      "entry_price_usd": 3.1592416974978937e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T04:23:48.282652+00:00",
-      "entry_usd_value": 2.0786000000000002,
-      "entry_signals": {
-        "liquidity_usd": 122.09323717413001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3160.548335748625,
-        "ath_market_cap_usd": 3157.4101032767076,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.174764141,
-        "description": "We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us.",
-        "twitter": "https://x.com/YourAnonOne",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -32921,19 +32898,30 @@
       "pnl_pct": -27.2,
       "exit_reason": "LLM: sell_all — Down 27.2%, only 2.8% from hard -30% stop. Pool $105 with 1% share means exit liquidity is fine but the position is dying — bonding curve at 25% with ",
       "partial": false
+    },
+    {
+      "mint": "HZYWgKXDwLFtUx72tp7jMWKy2rU12w5r3SQXX63qvGhr",
+      "symbol": "Anon",
+      "name": "Anonymous",
+      "amount_sold": 657942.6960736314,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T04:23:48.282652+00:00",
+      "exit_time": "2026-09-04T04:25:38.401521+00:00",
+      "entry_price_usd": 3.1592416974978937e-06,
+      "exit_price_usd": 3.1491993975142834e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019916,
+      "pnl_sol": -8.4e-05,
+      "pnl_pct": -0.32,
+      "exit_reason": "LLM: sell_all — Anon at -0.3% on a $126 pool (way below 5x position size viability) on bonding curve — slot is wasted. Free capital for a real narrative play.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T04:23:48.282916+00:00",
+  "last_updated": "2026-09-04T04:25:38.700577+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.93,
-  "portfolio_value_usd": 27.05,
+  "last_sol_price_usd": 104.037,
+  "portfolio_value_usd": 27.07,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 03:34 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BFG at $2.92551e-06 | P&L: -2.2%",
-      "reason": "Pool is only $10 and I hold 20% of it — I'm effectively the only liquidity. This is a dead bonding-curve token with no real buyers. Better to redeploy the 0.05 SOL to a fresh launch with actual attention."
-    },
     {
       "time": "2026-09-04 03:35 UTC",
       "action": "buy",
@@ -33047,40 +33035,46 @@
       "action": "buy",
       "details": "[LLM] $Anon at $3.15924e-06, spent 0.02 SOL",
       "reason": "$Anon passes viability gate (desc ~85 chars + twitter). Anonymous meme has durable narrative power ('We are Legion, Expect us') and trades on nostalgia + edgy identity. Low mcap $3.1k with X presence = asymmetric upside. Position size 0.05 SOL."
+    },
+    {
+      "time": "2026-09-04 04:25 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Anon at $3.1492e-06 | P&L: -0.3%",
+      "reason": "Anon at -0.3% on a $126 pool (way below 5x position size viability) on bonding curve — slot is wasted. Free capital for a real narrative play."
     }
   ],
   "trade_stats": {
-    "total": 1935,
+    "total": 1936,
     "wins": 990,
-    "losses": 945,
-    "win_rate_pct": 51.2,
-    "total_pnl_sol": -2.072337,
-    "avg_pnl_pct": 33.61,
+    "losses": 946,
+    "win_rate_pct": 51.1,
+    "total_pnl_sol": -2.072421,
+    "avg_pnl_pct": 33.59,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 66,
-    "today_realized_sol": -0.043338,
-    "today_target_pct": -10.8,
+    "today_trades": 67,
+    "today_realized_sol": -0.043422,
+    "today_target_pct": -10.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 990,
-      "loss_count": 945,
+      "loss_count": 946,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T04:23:46.824768+00:00",
+  "last_llm_brief_at": "2026-09-04T04:25:38.401076+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "6ZgLN4vd1TRwJWMzhUnmZ8gVuecqheHwcN2uoypzpump": {
-      "price_usd": 3.1049013178777283e-06,
+    "HZYWgKXDwLFtUx72tp7jMWKy2rU12w5r3SQXX63qvGhr": {
+      "price_usd": 3.1491993975142834e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 105.05953680678002,
-      "volume_h24": 3005.52,
+      "liquidity_usd": 126.429771465795,
+      "volume_h24": 677.03,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.010868246
+      "real_sol_reserves": 1.215238535
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
