@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.301166,
+  "balance_sol": 0.312569,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "87HCqtmFrux3EbQEzesqsZFEkn4QVUFf91n1F9igkFWk": {
-      "symbol": "SOLCAT",
-      "name": "solcat",
-      "amount": 381385.0785945225,
-      "entry_price_usd": 5.427585178812839e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T02:23:08.918575+00:00",
-      "entry_usd_value": 2.07,
-      "entry_signals": {
-        "liquidity_usd": 859.7751142725,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5452.682171713328,
-        "ath_market_cap_usd": 7281.90957840574,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 8.307005935,
-        "description": "solcat — created with its artwork embedded in the same Solana transaction.",
-        "twitter": "https://x.com/cented/status/2095696392979112245",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -32547,19 +32524,30 @@
       "pnl_pct": -42.05,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "87HCqtmFrux3EbQEzesqsZFEkn4QVUFf91n1F9igkFWk",
+      "symbol": "SOLCAT",
+      "name": "solcat",
+      "amount_sold": 381385.0785945225,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T02:23:08.918575+00:00",
+      "exit_time": "2026-09-04T02:24:12.640645+00:00",
+      "entry_price_usd": 5.427585178812839e-06,
+      "exit_price_usd": 3.0946430198245377e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.011403,
+      "pnl_sol": -0.008597,
+      "pnl_pct": -42.98,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T02:23:08.918762+00:00",
+  "last_updated": "2026-09-04T02:24:45.100851+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 103.5,
-  "portfolio_value_usd": 33.24,
+  "portfolio_value_usd": 32.35,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 01:30 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CASHDOG at $3.20555e-06 | P&L: -2.1%",
-      "reason": "$CASHDOG is -2.1% after 0h with only $163 pool liquidity — well below the 5x position size threshold (need $517+). Thin liquidity + immediate red = exit before it gets worse. Free up slot for fresher attention."
-    },
     {
       "time": "2026-09-04 01:30 UTC",
       "action": "buy",
@@ -32673,30 +32661,48 @@
       "action": "buy",
       "details": "[LLM] $SOLCAT at $5.42759e-06, spent 0.02 SOL",
       "reason": "$SOLCAT has cended (cented) tweet — he's a real memecoin alpha account whose calls move markets. 'Artwork embedded in same tx' is a novel mechanic that gives it a narrative beyond just a cat coin. 0.4min age = freshest possible entry."
+    },
+    {
+      "time": "2026-09-04 02:24 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $SOLCAT closed at $3.09464e-06 | P&L: -43.0%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1913,
+    "total": 1914,
     "wins": 985,
-    "losses": 928,
+    "losses": 929,
     "win_rate_pct": 51.5,
-    "total_pnl_sol": -2.011485,
-    "avg_pnl_pct": 34.12,
+    "total_pnl_sol": -2.020082,
+    "avg_pnl_pct": 34.08,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 44,
-    "today_realized_sol": 0.017514,
-    "today_target_pct": 4.4,
+    "today_trades": 45,
+    "today_realized_sol": 0.008917,
+    "today_target_pct": 2.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 985,
-      "loss_count": 928,
+      "loss_count": 929,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T02:23:07.216779+00:00",
+  "last_llm_brief_at": "2026-09-04T02:24:45.100806+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "87HCqtmFrux3EbQEzesqsZFEkn4QVUFf91n1F9igkFWk": {
+      "price_usd": 3.0946430198245377e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 105.9677470845,
+      "volume_h24": 10706.74,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.023842967
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
