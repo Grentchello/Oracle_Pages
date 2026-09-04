@@ -14536,3 +14536,6 @@
 ## [2026-09-04 03:37 UTC] buy | [LLM] $OFLY at $3.02516e-06, spent 0.02 SOL
 - **Reasoning:** $OFLY passes viability (real desc, has twitter @Oflypro), sub-1min old at $3k mcap. Utility-flavored narrative (onchain wallet profiler) gives it a longer attention shelf than pure jokes. Sizing 0.05 SOL given thin liquidity and unknown token.
 
+## [2026-09-04 03:38 UTC] sell | [FULL][LLM] $VIRAL at $2.90336e-06 | P&L: -6.5%
+- **Reasoning:** $VIRAL is a death trap: pool=$1 with my25% share means I'm essentially the only liquidity. Hard -30% stop will trigger anyway, better to take the -6.5% loss now than let it ride to -30%. Freeing the slot is required for any new entries anyway.
+

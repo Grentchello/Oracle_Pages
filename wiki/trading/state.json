@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.269203,
+  "balance_sol": 0.271497,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "BhjP6mYjvi34q2Y8UhVbbr2FgFoAfDTnBT4wYafvpump": {
-      "symbol": "VIRAL",
-      "name": "The Viral Challenge",
-      "amount": 81993.00951336914,
-      "entry_price_usd": 3.106e-06,
-      "entry_sol_spent": 0.002453943799850882,
-      "entry_time": "2026-09-04T03:35:33.801835+00:00",
-      "entry_usd_value": 2.0756,
-      "entry_signals": {
-        "liquidity_usd": 95.54001837722,
-        "volume_24h_usd": 119.03,
-        "market_cap_usd": 3106.4935622526614,
-        "ath_market_cap_usd": 3238.4581318826768,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.920601449,
-        "description": "We have never created a Viral Project within memecoins ---> it's time.",
-        "twitter": "https://x.com/BenitoMuss5gzu/status/2095716906514645072?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "39aPY7XRKfXcgk9EyB2xqWoKzgbvApXiCU1dcgjSpump": {
       "symbol": "OFLY",
       "name": "OflyPro",
@@ -32807,19 +32785,30 @@
       "pnl_pct": -6.43,
       "exit_reason": "LLM: sell_all — Pool is only $1 with our 204% share — exit is nearly impossible without further loss, and at -6.4% this is a liquidity trap, not a trade. Better to ta",
       "partial": true
+    },
+    {
+      "mint": "BhjP6mYjvi34q2Y8UhVbbr2FgFoAfDTnBT4wYafvpump",
+      "symbol": "VIRAL",
+      "name": "The Viral Challenge",
+      "amount_sold": 81993.00951336914,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T03:35:33.801835+00:00",
+      "exit_time": "2026-09-04T03:38:48.123086+00:00",
+      "entry_price_usd": 3.106e-06,
+      "exit_price_usd": 2.9033594890938173e-06,
+      "entry_sol_for_chunk": 0.002454,
+      "exit_sol_received": 0.002294,
+      "pnl_sol": -0.00016,
+      "pnl_pct": -6.52,
+      "exit_reason": "LLM: sell_all — $VIRAL is a death trap: pool=$1 with my25% share means I'm essentially the only liquidity. Hard -30% stop will trigger anyway, better to take the -6.5",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T03:37:03.703024+00:00",
+  "last_updated": "2026-09-04T03:38:48.124246+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.88,
-  "portfolio_value_usd": 30.3,
+  "last_sol_price_usd": 103.78,
+  "portfolio_value_usd": 30.25,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 02:44 UTC",
-      "action": "buy",
-      "details": "[LLM] $FIBER at $3.982e-06, spent 0.02 SOL",
-      "reason": "$FIBER has clearest attention signal of the batch: real twitter (@fiber_evm) + coherent 'privacy onchain' narrative + viable $3.9k mcap. Not a celebrity/political token so passes fragility gate. 0.05 SOL position to test the thesis."
-    },
     {
       "time": "2026-09-04 02:46 UTC",
       "action": "sell",
@@ -32933,40 +32922,57 @@
       "action": "buy",
       "details": "[LLM] $OFLY at $3.02516e-06, spent 0.02 SOL",
       "reason": "$OFLY passes viability (real desc, has twitter @Oflypro), sub-1min old at $3k mcap. Utility-flavored narrative (onchain wallet profiler) gives it a longer attention shelf than pure jokes. Sizing 0.05 SOL given thin liquidity and unknown token."
+    },
+    {
+      "time": "2026-09-04 03:38 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $VIRAL at $2.90336e-06 | P&L: -6.5%",
+      "reason": "$VIRAL is a death trap: pool=$1 with my25% share means I'm essentially the only liquidity. Hard -30% stop will trigger anyway, better to take the -6.5% loss now than let it ride to -30%. Freeing the slot is required for any new entries anyway."
     }
   ],
   "trade_stats": {
-    "total": 1927,
+    "total": 1928,
     "wins": 989,
-    "losses": 938,
+    "losses": 939,
     "win_rate_pct": 51.3,
-    "total_pnl_sol": -2.040995,
-    "avg_pnl_pct": 33.83,
+    "total_pnl_sol": -2.041155,
+    "avg_pnl_pct": 33.81,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 58,
-    "today_realized_sol": -0.011996,
+    "today_trades": 59,
+    "today_realized_sol": -0.012156,
     "today_target_pct": -3.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 989,
-      "loss_count": 938,
+      "loss_count": 939,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T03:37:02.340496+00:00",
+  "last_llm_brief_at": "2026-09-04T03:38:48.123050+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BhjP6mYjvi34q2Y8UhVbbr2FgFoAfDTnBT4wYafvpump": {
-      "price_usd": 2.906157098931063e-06,
+      "price_usd": 2.9033594890938173e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.9531382666399999,
+      "liquidity_usd": 0.95222072884,
       "volume_h24": 364.54,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.009175378
+    },
+    "39aPY7XRKfXcgk9EyB2xqWoKzgbvApXiCU1dcgjSpump": {
+      "price_usd": 2.952230831142188e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 27.054296013820004,
+      "volume_h24": 752.92,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.260688919
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
