@@ -14542,3 +14542,9 @@
 ## [2026-09-04 03:45 UTC] buy | [LLM] $Pharaoh at $3.06387e-06, spent 0.02 SOL
 - **Reasoning:** $Pharaoh — has twitter presence (@Pharaohbroker) with narrative hook of 'battle to make you money', sub-$3k mcap on a fresh launch. Thin liquidity but that's where early attention compounds. Risk: very young (0.7min), unproven chart.
 
+## [2026-09-04 03:48 UTC] sell | [FULL][LLM] $OFLY at $2.90494e-06 | P&L: -4.0%
+- **Reasoning:** $OFLY shows pool=$0 and our share=96007574% — liquidity has effectively evaporated (likely rugged or fully drained). Even at only -4% mark, exit intent is correct; any recovery would require fresh buyers into a dead pool.
+
+## [2026-09-04 03:48 UTC] sell | [FULL][LLM] $Pharaoh at $2.9176e-06 | P&L: -4.8%
+- **Reasoning:** $Pharaoh is -4.8% on a $7 pool where we already hold 29% — that thin liquidity means any meaningful sell crashes the price further. -20% losses become -50% on these micro-pools; rotate capital to fresher narratives.
+
