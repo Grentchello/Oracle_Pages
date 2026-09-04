@@ -14260,3 +14260,12 @@
 ## [2026-09-04 00:13 UTC] sell | [PARTIAL][LLM] $Toilet at $2.91067e-06 | P&L: -19.8%
 - **Reasoning:** At -19.8% only ~10% from the -30% hard stop. Pool is only $5 with 30% of supply — exit is illiquid but waiting is worse. Cut the loss now.
 
+## [2026-09-04 00:16 UTC] sell | [FULL][LLM] $Toilet at $2.91291e-06 | P&L: -19.8%
+- **Reasoning:** Toilet down -19.8% after 6 minutes on a $5 pool with 15% share — every additional second I'm in this illiquid graveyard burns the slot. Cut the loss, free the capital for a fresh attention launch.
+
+## [2026-09-04 00:16 UTC] buy | [LLM] $Heist at $3.647e-06, spent 0.02 SOL
+- **Reasoning:** $Heist has real news-cycle attention (UK Guinness story trending on X), 1.1min age, narrative-driven. Risk: thin $3.6k mcap means brutal volatility, so size matters — but memecoins ARE attention and this has it.
+
+## [2026-09-04 00:16 UTC] buy | [LLM] $CALLTRAIN at $7.045e-06, spent 0.02 SOL
+- **Reasoning:** $CALLTRAIN has the strongest meta-narrative of the batch — self-referential call-train mechanics designed to spread on X, 32% bonding already, highest mcap of fresh launches. Memecoin attention play.
+
