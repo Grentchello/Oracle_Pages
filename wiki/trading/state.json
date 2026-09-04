@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.272802,
+  "balance_sol": 0.269203,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "BhjP6mYjvi34q2Y8UhVbbr2FgFoAfDTnBT4wYafvpump": {
       "symbol": "VIRAL",
       "name": "The Viral Challenge",
-      "amount": 668254.990341275,
+      "amount": 81993.00951336914,
       "entry_price_usd": 3.106e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.002453943799850882,
       "entry_time": "2026-09-04T03:35:33.801835+00:00",
       "entry_usd_value": 2.0756,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 0.920601449,
         "description": "We have never created a Viral Project within memecoins ---> it's time.",
         "twitter": "https://x.com/BenitoMuss5gzu/status/2095716906514645072?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "39aPY7XRKfXcgk9EyB2xqWoKzgbvApXiCU1dcgjSpump": {
+      "symbol": "OFLY",
+      "name": "OflyPro",
+      "amount": 686774.1816606882,
+      "entry_price_usd": 3.0251574032328303e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-04T03:37:03.702771+00:00",
+      "entry_usd_value": 2.0776,
+      "entry_signals": {
+        "liquidity_usd": 58.39955684724,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3009.5463968205386,
+        "ath_market_cap_usd": 3686.1911066692046,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.562182873,
+        "description": "A professional wallet profile built from public onchain data — score, age, activity, assets, behavior, personality and passport.",
+        "twitter": "https://x.com/Oflypro",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -32768,25 +32790,30 @@
       "pnl_pct": -2.2,
       "exit_reason": "LLM: sell_all — Pool is only $10 and I hold 20% of it — I'm effectively the only liquidity. This is a dead bonding-curve token with no real buyers. Better to redeploy",
       "partial": false
+    },
+    {
+      "mint": "BhjP6mYjvi34q2Y8UhVbbr2FgFoAfDTnBT4wYafvpump",
+      "symbol": "VIRAL",
+      "name": "The Viral Challenge",
+      "amount_sold": 586261.9808279058,
+      "fraction_sold": 0.8773028100074559,
+      "entry_time": "2026-09-04T03:35:33.801835+00:00",
+      "exit_time": "2026-09-04T03:37:02.341537+00:00",
+      "entry_price_usd": 3.106e-06,
+      "exit_price_usd": 2.906157098931063e-06,
+      "entry_sol_for_chunk": 0.017546,
+      "exit_sol_received": 0.016401,
+      "pnl_sol": -0.001145,
+      "pnl_pct": -6.43,
+      "exit_reason": "LLM: sell_all — Pool is only $1 with our 204% share — exit is nearly impossible without further loss, and at -6.4% this is a liquidity trap, not a trade. Better to ta",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-04T03:35:33.802150+00:00",
+  "last_updated": "2026-09-04T03:37:03.703024+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.78,
-  "portfolio_value_usd": 30.39,
+  "last_sol_price_usd": 103.88,
+  "portfolio_value_usd": 30.3,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 02:33 UTC",
-      "action": "buy",
-      "details": "[LLM] $LOONG at $6.57611e-06, spent 0.02 SOL",
-      "reason": "$LOONG has a clear viral narrative (dog meme going giga viral with millions of likes/views), X post from milesondex, $6.6k mcap. Animal meme + viral X = classic attention pump setup. Second scalp slot."
-    },
-    {
-      "time": "2026-09-04 02:37 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $LOONG at $6.82993e-06 | P&L: +3.9%",
-      "reason": "Held 0.1h, only +3.9%, still on bonding curve with $1666 pool. Stale signal — no momentum to justify locking 0.05 SOL here. Free up slot for fresh attention."
-    },
     {
       "time": "2026-09-04 02:44 UTC",
       "action": "buy",
@@ -32894,30 +32921,54 @@
       "action": "buy",
       "details": "[LLM] $VIRAL at $3.106e-06, spent 0.02 SOL",
       "reason": "$VIRAL: self-aware meta-narrative ('We have never created a Viral Project within memecoins — it's time'), has X link (BenitoMuss5gzu), $3.1k mcap, 3% bond. The meta-narrative (calling itself THE viral challenge) is actually a clever attention hook — irony-driven virality. Small position."
+    },
+    {
+      "time": "2026-09-04 03:37 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $VIRAL at $2.90616e-06 | P&L: -6.4%",
+      "reason": "Pool is only $1 with our 204% share — exit is nearly impossible without further loss, and at -6.4% this is a liquidity trap, not a trade. Better to take the small loss now than get stopped at -30% with no buyers."
+    },
+    {
+      "time": "2026-09-04 03:37 UTC",
+      "action": "buy",
+      "details": "[LLM] $OFLY at $3.02516e-06, spent 0.02 SOL",
+      "reason": "$OFLY passes viability (real desc, has twitter @Oflypro), sub-1min old at $3k mcap. Utility-flavored narrative (onchain wallet profiler) gives it a longer attention shelf than pure jokes. Sizing 0.05 SOL given thin liquidity and unknown token."
     }
   ],
   "trade_stats": {
-    "total": 1926,
+    "total": 1927,
     "wins": 989,
-    "losses": 937,
+    "losses": 938,
     "win_rate_pct": 51.3,
-    "total_pnl_sol": -2.03985,
-    "avg_pnl_pct": 33.85,
+    "total_pnl_sol": -2.040995,
+    "avg_pnl_pct": 33.83,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 57,
-    "today_realized_sol": -0.010851,
-    "today_target_pct": -2.7,
+    "today_trades": 58,
+    "today_realized_sol": -0.011996,
+    "today_target_pct": -3.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 989,
-      "loss_count": 937,
+      "loss_count": 938,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T03:35:32.134982+00:00",
+  "last_llm_brief_at": "2026-09-04T03:37:02.340496+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BhjP6mYjvi34q2Y8UhVbbr2FgFoAfDTnBT4wYafvpump": {
+      "price_usd": 2.906157098931063e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.9531382666399999,
+      "volume_h24": 364.54,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.009175378
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
