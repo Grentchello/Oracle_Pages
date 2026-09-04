@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.239669,
+  "balance_sol": 0.252871,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3eTMbJAgoFJkrLHoy8XoNWjioDewWidaginsTRFgpump": {
-      "symbol": "STICK",
-      "name": "Stick With This Coin",
-      "amount": 464424.10714285716,
-      "entry_price_usd": 4.48e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T04:57:35.661538+00:00",
-      "entry_usd_value": 2.08062,
-      "entry_signals": {
-        "liquidity_usd": 127.04519347578001,
-        "volume_24h_usd": 8365.5,
-        "market_cap_usd": 4410.717710244235,
-        "ath_market_cap_usd": 6571.662764431352,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.22122438,
-        "description": "Everyone’s obsessed with chasing the next shiny object.. 🪾 A new chain gets hyped → everyone runs there.. Solana starts gaining momentum → everyone comes back.. Then something new drops → everyone leaves again. Coins die. Communities scatter. Nothing gets the chance to truly stick.. Maybe the proble",
-        "twitter": "https://x.com/Devilantesol/status/2095737563726090494",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -32989,19 +32966,30 @@
       "pnl_pct": -2.1,
       "exit_reason": "LLM: sell_all — $Memebook is down -2.1% just minutes after entry with only $20 pool liquidity and 10% of pool share — this is micro-cap noise, not a runner. No narrat",
       "partial": false
+    },
+    {
+      "mint": "3eTMbJAgoFJkrLHoy8XoNWjioDewWidaginsTRFgpump",
+      "symbol": "STICK",
+      "name": "Stick With This Coin",
+      "amount_sold": 464424.10714285716,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T04:57:35.661538+00:00",
+      "exit_time": "2026-09-04T04:58:38.985267+00:00",
+      "entry_price_usd": 4.48e-06,
+      "exit_price_usd": 2.953436058506113e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.013202,
+      "pnl_sol": -0.006798,
+      "pnl_pct": -34.08,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T04:57:35.661730+00:00",
+  "last_updated": "2026-09-04T04:58:56.087091+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.031,
-  "portfolio_value_usd": 27.01,
+  "last_sol_price_usd": 103.9,
+  "portfolio_value_usd": 26.27,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 03:50 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-04 04:01 UTC",
       "action": "buy",
@@ -33115,30 +33103,48 @@
       "action": "buy",
       "details": "[LLM] $STICK at $4.48e-06, spent 0.02 SOL",
       "reason": "$STICK has the most developed narrative (chains/hype meta-commentary), active twitter from @Devilantesol, and contrarian 'stick with this' angle resonates in a rotation-frenzied market."
+    },
+    {
+      "time": "2026-09-04 04:58 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $STICK closed at $2.95344e-06 | P&L: -34.1%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1939,
+    "total": 1940,
     "wins": 990,
-    "losses": 949,
-    "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.072983,
-    "avg_pnl_pct": 33.54,
+    "losses": 950,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.079781,
+    "avg_pnl_pct": 33.5,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 70,
-    "today_realized_sol": -0.043984,
-    "today_target_pct": -11.0,
+    "today_trades": 71,
+    "today_realized_sol": -0.050782,
+    "today_target_pct": -12.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 990,
-      "loss_count": 949,
+      "loss_count": 950,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T04:57:34.105284+00:00",
+  "last_llm_brief_at": "2026-09-04T04:58:56.086964+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3eTMbJAgoFJkrLHoy8XoNWjioDewWidaginsTRFgpump": {
+      "price_usd": 2.953436058506113e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 25.9107556169,
+      "volume_h24": 10651.24,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.249381671
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

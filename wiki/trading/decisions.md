@@ -14608,3 +14608,6 @@
 ## [2026-09-04 04:57 UTC] buy | [LLM] $STICK at $4.48e-06, spent 0.02 SOL
 - **Reasoning:** $STICK has the most developed narrative (chains/hype meta-commentary), active twitter from @Devilantesol, and contrarian 'stick with this' angle resonates in a rotation-frenzied market.
 
+## [2026-09-04 04:58 UTC] sell | [hard-stop] $STICK closed at $2.95344e-06 | P&L: -34.1%
+- **Reasoning:** Hard -30% stop
+
