@@ -14257,3 +14257,6 @@
 ## [2026-09-04 00:11 UTC] buy | [LLM] $Toilet at $3.63119e-06, spent 0.02 SOL
 - **Reasoning:** $Toilet — real-world art story ($12.1M Cattelan 'America' auction) paired with GLDx gives a cultural hook most launches lack. Passes viability (desc + twitter) and fragility. Tight stop at -30% since age <1min.
 
+## [2026-09-04 00:13 UTC] sell | [PARTIAL][LLM] $Toilet at $2.91067e-06 | P&L: -19.8%
+- **Reasoning:** At -19.8% only ~10% from the -30% hard stop. Pool is only $5 with 30% of supply — exit is illiquid but waiting is worse. Cut the loss now.
+
