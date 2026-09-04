@@ -14299,3 +14299,9 @@
 ## [2026-09-04 00:30 UTC] buy | [LLM] $Bella at $4.836e-06, spent 0.02 SOL
 - **Reasoning:** $Bella — viral dog smirking meme on X, has a real narrative (dog going viral on X), description over 50 chars, twitter link present, and liquidity is already ~$4k. Attention-driven memecoins with a viral visual moment are exactly the early-pump setup we want.
 
+## [2026-09-04 00:31 UTC] sell | [hard-stop] $Bella closed at $3.347e-06 | P&L: -30.8%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-04 00:32 UTC] buy | [LLM] $RDR at $3.027e-06, spent 0.02 SOL
+- **Reasoning:** $RDR 'Red Doge Redemption' ties two live attention threads — GTA/TTWO discourse + Solana cowboy meta — and has a real OTC desks tweet attached, which passes the viability gate cleanly. Risk: $3k mcap with 2% bond means liquidity is razor thin; bail if it doesn't lift in first 10 min.
+
