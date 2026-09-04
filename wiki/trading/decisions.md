@@ -14356,3 +14356,6 @@
 ## [2026-09-04 01:10 UTC] buy | [LLM] $Maid at $3.399e-06, spent 0.02 SOL
 - **Reasoning:** $Maid: clear character narrative ('Biker Maid'), dev commits to DEX listing at 25k mcap = skin-in-game signal, passes viability (desc+twitter) and fragility gates. Position size 0.05 SOL.
 
+## [2026-09-04 01:11 UTC] sell | [FULL][LLM] $Maid at $2.94838e-06 | P&L: -13.3%
+- **Reasoning:** $Maid is -13.3% in 0.0h on a $25 pool with no bounce signal. Capital is better rotated to a fresh launch with stronger narrative than bag-holding a thin bonding-curve position.
+
