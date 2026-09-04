@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.274434,
+  "balance_sol": 0.293708,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "JB2whQWojYLhSK1kbkUtJ8Vxr8JTWoXF4P4hzwCMpump": {
-      "symbol": "Peekachu",
-      "name": "Justice for Peekachu",
-      "amount": 674333.9831059129,
-      "entry_price_usd": 3.078e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T01:17:38.088316+00:00",
-      "entry_usd_value": 2.0756,
-      "entry_signals": {
-        "liquidity_usd": 89.05825924916,
-        "volume_24h_usd": 101.64,
-        "market_cap_usd": 3069.1307711878067,
-        "ath_market_cap_usd": 3094.524281009853,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.858144722,
-        "description": "Peekachu the whale died at the Chicago Shedd Aquarium.  Run it for Peekachu, profit to charity!",
-        "twitter": "https://x.com/WashTimes/status/2095681510623834470?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -32156,19 +32133,30 @@
       "pnl_pct": -13.26,
       "exit_reason": "LLM: sell_all — $Maid is -13.3% in 0.0h on a $25 pool with no bounce signal. Capital is better rotated to a fresh launch with stronger narrative than bag-holding a th",
       "partial": false
+    },
+    {
+      "mint": "JB2whQWojYLhSK1kbkUtJ8Vxr8JTWoXF4P4hzwCMpump",
+      "symbol": "Peekachu",
+      "name": "Justice for Peekachu",
+      "amount_sold": 674333.9831059129,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T01:17:38.088316+00:00",
+      "exit_time": "2026-09-04T01:21:16.419000+00:00",
+      "entry_price_usd": 3.078e-06,
+      "exit_price_usd": 2.9628809258115704e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019274,
+      "pnl_sol": -0.000726,
+      "pnl_pct": -3.74,
+      "exit_reason": "LLM: sell_all — Down -3.7% after6 minutes on a $34 pool where I'm 6% of liquidity. My position is meaningful relative to the pool — any bounce helps me more by freein",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T01:19:36.802566+00:00",
+  "last_updated": "2026-09-04T01:21:16.690374+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.77,
-  "portfolio_value_usd": 30.55,
+  "last_sol_price_usd": 103.66,
+  "portfolio_value_usd": 30.45,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 00:32 UTC",
-      "action": "buy",
-      "details": "[LLM] $RDR at $3.027e-06, spent 0.02 SOL",
-      "reason": "$RDR 'Red Doge Redemption' ties two live attention threads — GTA/TTWO discourse + Solana cowboy meta — and has a real OTC desks tweet attached, which passes the viability gate cleanly. Risk: $3k mcap with 2% bond means liquidity is razor thin; bail if it doesn't lift in first 10 min."
-    },
     {
       "time": "2026-09-04 00:35 UTC",
       "action": "sell",
@@ -32282,40 +32270,46 @@
       "action": "buy",
       "details": "[LLM] $Peekachu at $3.078e-06, spent 0.02 SOL",
       "reason": "$Peekachu 'Justice for Peekachu' is a strong emotional charity narrative (whale died at Shedd Aquarium), real WashTimes X post, charity-to-profit angle is highly shareable. $3k mcap with twitter passes viability. Whale/death narratives go viral on TikTok/X. 0.05 SOL position."
+    },
+    {
+      "time": "2026-09-04 01:21 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Peekachu at $2.96288e-06 | P&L: -3.7%",
+      "reason": "Down -3.7% after6 minutes on a $34 pool where I'm 6% of liquidity. My position is meaningful relative to the pool — any bounce helps me more by freeing the slot for a fresh launch with narrative. No clear catalyst, exit now and redeploy."
     }
   ],
   "trade_stats": {
-    "total": 1890,
+    "total": 1891,
     "wins": 971,
-    "losses": 919,
-    "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.038215,
-    "avg_pnl_pct": 33.99,
+    "losses": 920,
+    "win_rate_pct": 51.3,
+    "total_pnl_sol": -2.038941,
+    "avg_pnl_pct": 33.97,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 21,
-    "today_realized_sol": -0.009216,
-    "today_target_pct": -2.3,
+    "today_trades": 22,
+    "today_realized_sol": -0.009942,
+    "today_target_pct": -2.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 971,
-      "loss_count": 919,
+      "loss_count": 920,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T01:19:36.537534+00:00",
+  "last_llm_brief_at": "2026-09-04T01:21:16.418554+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "JB2whQWojYLhSK1kbkUtJ8Vxr8JTWoXF4P4hzwCMpump": {
-      "price_usd": 2.967873576675663e-06,
+      "price_usd": 2.9628809258115704e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 35.511631041239994,
-      "volume_h24": 209.15,
+      "liquidity_usd": 34.494309605759994,
+      "volume_h24": 224.45,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.342214812
+      "real_sol_reserves": 0.332763936
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
