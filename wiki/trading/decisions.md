@@ -14320,3 +14320,9 @@
 ## [2026-09-04 00:44 UTC] buy | [LLM] $TCM at $6.9497e-06, spent 0.02 SOL
 - **Reasoning:** $TCM (Trencher Capital Market) — clean narrative wrapping a real brand with a gated trading-terminal aesthetic, has live twitter presence (@tcm_coin), descriptive pitch, no political/celebrity triggers, mcap $6.9k is fresh enough for upside. Best risk-adjusted entry of the batch.
 
+## [2026-09-04 00:45 UTC] sell | [hard-stop] $TCM closed at $2.9398e-06 | P&L: -57.7%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-04 00:45 UTC] buy | [LLM] $FP at $3.48596e-06, spent 0.02 SOL
+- **Reasoning:** ANSEM-callout narrative is the highest-quality attention signal in this batch — the description literally says followed by ANSEM. Real social alpha, fresh launch ($3.5k mcap), tiny position size absorbs the risk if it's noise.
+
