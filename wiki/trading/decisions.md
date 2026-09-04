@@ -14293,3 +14293,6 @@
 ## [2026-09-04 00:23 UTC] buy | [LLM] $UP at $6.67193e-06, spent 0.02 SOL
 - **Reasoning:** $UP SYNDROME has a clean counter-narrative angle (red candles = buy signal), live twitter @upzone_og, and the strongest bond (25%) plus highest mcap ($6.6k) in the new batch — that's relative attention and commitment. First-position size, will size 0.05 SOL.
 
+## [2026-09-04 00:24 UTC] sell | [hard-stop] $UP closed at $2.90484e-06 | P&L: -56.5%
+- **Reasoning:** Hard -30% stop
+

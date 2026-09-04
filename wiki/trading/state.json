@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.308985,
+  "balance_sol": 0.317699,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "TFSaELzxBVk8EV9u2EdtmPw6uhuidtFv5RgxgNopump": {
-      "symbol": "UP",
-      "name": "UP SYNDROME",
-      "amount": 311604.0510844168,
-      "entry_price_usd": 6.671928663202063e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T00:23:32.406805+00:00",
-      "entry_usd_value": 2.079,
-      "entry_signals": {
-        "liquidity_usd": 2392.5592542158997,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6646.948517551215,
-        "ath_market_cap_usd": 6793.507279603784,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 23.016443042,
-        "description": "$UP turns market panic into pure momentum — red candles become buy signals while conviction refuses to cool off 🐂 Fueled by squeezed shorts, relentless holders, and unapologetic Solana optimism, the only acceptable destination is higher 📈⚡",
-        "twitter": "https://x.com/upzone_og",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -31952,19 +31929,30 @@
       "pnl_pct": -11.17,
       "exit_reason": "LLM: sell_all — $Heist is down -11.2% after 6 minutes with tiny $174 pool liquidity (already below my 5x position size minimum) and 0% bonding curve progress. Pool is",
       "partial": false
+    },
+    {
+      "mint": "TFSaELzxBVk8EV9u2EdtmPw6uhuidtFv5RgxgNopump",
+      "symbol": "UP",
+      "name": "UP SYNDROME",
+      "amount_sold": 311604.0510844168,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T00:23:32.406805+00:00",
+      "exit_time": "2026-09-04T00:24:36.392913+00:00",
+      "entry_price_usd": 6.671928663202063e-06,
+      "exit_price_usd": 2.9048388931223654e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.008714,
+      "pnl_sol": -0.011286,
+      "pnl_pct": -56.46,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-04T00:23:32.673183+00:00",
+  "last_updated": "2026-09-04T00:24:55.135085+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.95,
-  "portfolio_value_usd": 34.2,
+  "last_sol_price_usd": 103.87,
+  "portfolio_value_usd": 33.0,
   "recent_decisions": [
-    {
-      "time": "2026-09-03 23:47 UTC",
-      "action": "buy",
-      "details": "[LLM] $RUFUS at $9.551e-06, spent 0.02 SOL",
-      "reason": "$RUFUS — Amazon Corgi nostalgia narrative is highly repeatable/viral with the tech community (Amazon employees, X tech accounts). Already at $10.7k mcap with 32% bond showing real demand, real X account (Cache100x), clear story hook. Best risk/reward in this batch."
-    },
     {
       "time": "2026-09-03 23:51 UTC",
       "action": "sell",
@@ -32078,30 +32066,48 @@
       "action": "buy",
       "details": "[LLM] $UP at $6.67193e-06, spent 0.02 SOL",
       "reason": "$UP SYNDROME has a clean counter-narrative angle (red candles = buy signal), live twitter @upzone_og, and the strongest bond (25%) plus highest mcap ($6.6k) in the new batch — that's relative attention and commitment. First-position size, will size 0.05 SOL."
+    },
+    {
+      "time": "2026-09-04 00:24 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $UP closed at $2.90484e-06 | P&L: -56.5%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1878,
+    "total": 1879,
     "wins": 966,
-    "losses": 912,
+    "losses": 913,
     "win_rate_pct": 51.4,
-    "total_pnl_sol": -2.003664,
-    "avg_pnl_pct": 34.29,
+    "total_pnl_sol": -2.01495,
+    "avg_pnl_pct": 34.24,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 9,
-    "today_realized_sol": 0.025335,
-    "today_target_pct": 6.3,
+    "today_trades": 10,
+    "today_realized_sol": 0.014049,
+    "today_target_pct": 3.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 966,
-      "loss_count": 912,
+      "loss_count": 913,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T00:23:30.355531+00:00",
+  "last_llm_brief_at": "2026-09-04T00:24:54.588687+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "TFSaELzxBVk8EV9u2EdtmPw6uhuidtFv5RgxgNopump": {
+      "price_usd": 2.9048388931223654e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.39604239142,
+      "volume_h24": 4182.69,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.003812866
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
