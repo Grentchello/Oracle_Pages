@@ -1,36 +1,14 @@
 {
-  "balance_sol": 0.253708,
+  "balance_sol": 0.295028,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "EqossmDTYoWQjbJLLD3WQkujy93vQ4Sw7sRwdt9Fpump": {
-      "symbol": "FORG",
-      "name": "FORG",
-      "amount": 682329.7137216191,
-      "entry_price_usd": 3.039e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-04T01:24:29.519085+00:00",
-      "entry_usd_value": 2.0736000000000003,
-      "entry_signals": {
-        "liquidity_usd": 19.495278339840002,
-        "volume_24h_usd": 825.32,
-        "market_cap_usd": 3024.216509297303,
-        "ath_market_cap_usd": 3552.816039377597,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.188033163,
-        "description": "🚀 Meet Forg — the cyber-frog disruptor 🐸💥 Born from Matt Furie’s zany universe, fueling the meme economy with chaos, color, and crypto 🔥 Join the movement where art, memes, and utility collide. Feel good, man — the future’s frog-tastic and it’s only just beginning!",
-        "twitter": "https://x.com/forg_mattfurie",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "3GnjurRWFzqSesmX8ySVPgRxbqBxnhMkmudTavL1pump": {
       "symbol": "Motion",
       "name": "Motion",
-      "amount": 281318.68131868134,
+      "amount": 105494.5054945055,
       "entry_price_usd": 7.371e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-04T01:24:30.766643+00:00",
       "entry_usd_value": 2.0736000000000003,
       "entry_signals": {
@@ -32195,31 +32173,64 @@
       "pnl_pct": -3.74,
       "exit_reason": "LLM: sell_all — Down -3.7% after6 minutes on a $34 pool where I'm 6% of liquidity. My position is meaningful relative to the pool — any bounce helps me more by freein",
       "partial": false
+    },
+    {
+      "mint": "3GnjurRWFzqSesmX8ySVPgRxbqBxnhMkmudTavL1pump",
+      "symbol": "Motion",
+      "name": "Motion",
+      "amount_sold": 70329.67032967033,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-04T01:24:30.766643+00:00",
+      "exit_time": "2026-09-04T01:25:34.894535+00:00",
+      "entry_price_usd": 7.371e-06,
+      "exit_price_usd": 1.1397851841811234e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007741,
+      "pnl_sol": 0.002741,
+      "pnl_pct": 54.63,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "EqossmDTYoWQjbJLLD3WQkujy93vQ4Sw7sRwdt9Fpump",
+      "symbol": "FORG",
+      "name": "FORG",
+      "amount_sold": 682329.7137216191,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-04T01:24:29.519085+00:00",
+      "exit_time": "2026-09-04T01:26:09.058167+00:00",
+      "entry_price_usd": 3.039e-06,
+      "exit_price_usd": 3.3336525244486163e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.021967,
+      "pnl_sol": 0.001967,
+      "pnl_pct": 9.7,
+      "exit_reason": "LLM: sell_all — $FORG is up +9.7% but held 0.0h with only $227 pool liquidity — dangerously thin. Position size + tiny pool = any sell will crash the price. Better to",
+      "partial": false
+    },
+    {
+      "mint": "3GnjurRWFzqSesmX8ySVPgRxbqBxnhMkmudTavL1pump",
+      "symbol": "Motion",
+      "name": "Motion",
+      "amount_sold": 105494.5054945055,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-04T01:24:30.766643+00:00",
+      "exit_time": "2026-09-04T01:26:09.059280+00:00",
+      "entry_price_usd": 7.371e-06,
+      "exit_price_usd": 1.1397851841811234e-05,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.011612,
+      "pnl_sol": 0.004112,
+      "pnl_pct": 54.63,
+      "exit_reason": "LLM: sell_half — $Motion is up +54.6% which means TP at 25% (0.5x position) auto-sold some; remaining position is +54.6%. Pool is $3k which is OK but not great. Take h",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-04T01:24:30.766803+00:00",
+  "last_updated": "2026-09-04T01:26:09.059777+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.68,
-  "portfolio_value_usd": 30.45,
+  "last_sol_price_usd": 103.55,
+  "portfolio_value_usd": 31.33,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 00:39 UTC",
-      "action": "buy",
-      "details": "[LLM] $MOLE at $6.51e-06, spent 0.02 SOL",
-      "reason": "AI/crypto meta narrative resonates with devs, has twitter community link, narrative-driven attention with room to run from $6.5k mcap."
-    },
-    {
-      "time": "2026-09-04 00:40 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-04 00:44 UTC",
-      "action": "buy",
-      "details": "[LLM] $TCM at $6.9497e-06, spent 0.02 SOL",
-      "reason": "$TCM (Trencher Capital Market) — clean narrative wrapping a real brand with a gated trading-terminal aesthetic, has live twitter presence (@tcm_coin), descriptive pitch, no political/celebrity triggers, mcap $6.9k is fresh enough for upside. Best risk-adjusted entry of the batch."
-    },
     {
       "time": "2026-09-04 00:45 UTC",
       "action": "sell",
@@ -32321,30 +32332,71 @@
       "action": "buy",
       "details": "[LLM] $Motion at $7.371e-06, spent 0.02 SOL",
       "reason": "$Motion — meta-narrative: 'settling the PumpFun vs Fomo debate' via motion-based voting. Taps directly into active memecoin trader culture. mcap $8.5k, bond 29% (stronger than FORG), twitter active. Viability passes. Lower conviction than FORG but slot 2 needs to be filled."
+    },
+    {
+      "time": "2026-09-04 01:25 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Motion at $1.13979e-05 | P&L: +54.6%",
+      "reason": "Auto take-profit at +54.6%"
+    },
+    {
+      "time": "2026-09-04 01:26 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FORG at $3.33365e-06 | P&L: +9.7%",
+      "reason": "$FORG is up +9.7% but held 0.0h with only $227 pool liquidity — dangerously thin. Position size + tiny pool = any sell will crash the price. Better to lock the small gain than risk a -30% stop. Memecoins with sub-$300 liquidity are exit-on-green territory."
+    },
+    {
+      "time": "2026-09-04 01:26 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Motion at $1.13979e-05 | P&L: +54.6%",
+      "reason": "$Motion is up +54.6% which means TP at 25% (0.5x position) auto-sold some; remaining position is +54.6%. Pool is $3k which is OK but not great. Take half off the table here — lock the gain, let the rest ride with a higher mental stop. Up >50% with meme attention = take profit, don't hope for more."
     }
   ],
   "trade_stats": {
-    "total": 1891,
-    "wins": 971,
+    "total": 1894,
+    "wins": 974,
     "losses": 920,
-    "win_rate_pct": 51.3,
-    "total_pnl_sol": -2.038941,
-    "avg_pnl_pct": 33.97,
+    "win_rate_pct": 51.4,
+    "total_pnl_sol": -2.030121,
+    "avg_pnl_pct": 33.98,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 22,
-    "today_realized_sol": -0.009942,
-    "today_target_pct": -2.5,
+    "today_trades": 25,
+    "today_realized_sol": -0.001122,
+    "today_target_pct": -0.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 971,
+      "win_count": 974,
       "loss_count": 920,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-04T01:24:27.952007+00:00",
+  "last_llm_brief_at": "2026-09-04T01:26:09.058128+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EqossmDTYoWQjbJLLD3WQkujy93vQ4Sw7sRwdt9Fpump": {
+      "price_usd": 3.3336525244486163e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 226.9635073298,
+      "volume_h24": 879.9,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.191825276
+    },
+    "3GnjurRWFzqSesmX8ySVPgRxbqBxnhMkmudTavL1pump": {
+      "price_usd": 1.1397851841811234e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3057.2787976294503,
+      "volume_h24": 16572.46,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 29.524662459
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

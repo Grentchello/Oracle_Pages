@@ -14371,3 +14371,12 @@
 ## [2026-09-04 01:24 UTC] buy | [LLM] $Motion at $7.371e-06, spent 0.02 SOL
 - **Reasoning:** $Motion — meta-narrative: 'settling the PumpFun vs Fomo debate' via motion-based voting. Taps directly into active memecoin trader culture. mcap $8.5k, bond 29% (stronger than FORG), twitter active. Viability passes. Lower conviction than FORG but slot 2 needs to be filled.
 
+## [2026-09-04 01:25 UTC] sell | [TP +30% (25%)] $Motion at $1.13979e-05 | P&L: +54.6%
+- **Reasoning:** Auto take-profit at +54.6%
+
+## [2026-09-04 01:26 UTC] sell | [FULL][LLM] $FORG at $3.33365e-06 | P&L: +9.7%
+- **Reasoning:** $FORG is up +9.7% but held 0.0h with only $227 pool liquidity — dangerously thin. Position size + tiny pool = any sell will crash the price. Better to lock the small gain than risk a -30% stop. Memecoins with sub-$300 liquidity are exit-on-green territory.
+
+## [2026-09-04 01:26 UTC] sell | [PARTIAL][LLM] $Motion at $1.13979e-05 | P&L: +54.6%
+- **Reasoning:** $Motion is up +54.6% which means TP at 25% (0.5x position) auto-sold some; remaining position is +54.6%. Pool is $3k which is OK but not great. Take half off the table here — lock the gain, let the rest ride with a higher mental stop. Up >50% with meme attention = take profit, don't hope for more.
+
