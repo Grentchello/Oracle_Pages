@@ -14437,3 +14437,6 @@
 ## [2026-09-04 02:00 UTC] buy | [LLM] $astra at $2.941e-06, spent 0.02 SOL
 - **Reasoning:** $astra (gpt-6-astra) — OpenAI narrative with cited OpenAI tweet as the attention source. AI memecoins are hot, $3k mcap is ground floor, real catalyst not just hype. Tight0.05 SOL size, will exit fast on +30%.
 
+## [2026-09-04 02:02 UTC] buy | [LLM] $Selvo at $2.983e-06, spent 0.02 SOL
+- **Reasoning:** $Selvo has the cleanest meta-narrative on the board ('they told me to sell, so I bought it instead') — self-referential to trading culture, attention-friendly hook, real X account (@SelvoSOL), mcap sub-3k with fresh launch energy. Best risk/reward of the candidates; defaults bias is to take the trade.
+
