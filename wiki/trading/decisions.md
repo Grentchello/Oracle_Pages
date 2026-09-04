@@ -14548,3 +14548,6 @@
 ## [2026-09-04 03:48 UTC] sell | [FULL][LLM] $Pharaoh at $2.9176e-06 | P&L: -4.8%
 - **Reasoning:** $Pharaoh is -4.8% on a $7 pool where we already hold 29% — that thin liquidity means any meaningful sell crashes the price further. -20% losses become -50% on these micro-pools; rotate capital to fresher narratives.
 
+## [2026-09-04 03:50 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
