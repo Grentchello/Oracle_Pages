@@ -14509,3 +14509,6 @@
 ## [2026-09-04 03:07 UTC] sell | [FULL][LLM] $INDEX at $3.08582e-06 | P&L: -6.1%
 - **Reasoning:** $INDEX is down -6.1% after 0.1h with only $95 pool liquidity and 2% of pool = illiquid. Bonding-curve tokens under $100 pool have no real exit depth; cutting -6% beats catching a -30% stop. Free up the slot.
 
+## [2026-09-04 03:11 UTC] buy | [LLM] $RADAR at $1.331e-05, spent 0.02 SOL
+- **Reasoning:** $RADAR has the strongest fresh-launch narrative: 'X launching trading beta feature' is a concrete catalyst that could go mainstream-news viral. 37% bond complete (most committed of the batch), $17.7k mcap (highest), 1.2min age. Risk: could be fabricated; will be tight on TP — selling half at +50%.
+
