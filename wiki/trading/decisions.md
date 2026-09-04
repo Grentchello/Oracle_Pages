@@ -14485,3 +14485,6 @@
 ## [2026-09-04 02:49 UTC] buy | [LLM] $HERE at $3.093e-06, spent 0.02 SOL
 - **Reasoning:** $HERE has Pump.fun's own official twitter backing it, meta-viral narrative ('you always wanted to be early') targets memecoin traders directly, mcap $3k is fresh entry territory. Strongest attention signal in the batch.
 
+## [2026-09-04 02:50 UTC] buy | [LLM] $index at $4.096e-06, spent 0.02 SOL
+- **Reasoning:** $index (indexfund.fun) — clear product narrative (memecoin index funds / launchpad) with a live @indexfundfun X account and an actual description. Bonding 15% but narrative is differentiated from the noise — this is the kind of 'story' play that pumps on attention. Worth rotating into.
+
