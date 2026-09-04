@@ -14539,3 +14539,6 @@
 ## [2026-09-04 03:38 UTC] sell | [FULL][LLM] $VIRAL at $2.90336e-06 | P&L: -6.5%
 - **Reasoning:** $VIRAL is a death trap: pool=$1 with my25% share means I'm essentially the only liquidity. Hard -30% stop will trigger anyway, better to take the -6.5% loss now than let it ride to -30%. Freeing the slot is required for any new entries anyway.
 
+## [2026-09-04 03:45 UTC] buy | [LLM] $Pharaoh at $3.06387e-06, spent 0.02 SOL
+- **Reasoning:** $Pharaoh — has twitter presence (@Pharaohbroker) with narrative hook of 'battle to make you money', sub-$3k mcap on a fresh launch. Thin liquidity but that's where early attention compounds. Risk: very young (0.7min), unproven chart.
+
