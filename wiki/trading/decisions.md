@@ -14521,3 +14521,6 @@
 ## [2026-09-04 03:22 UTC] sell | [FULL][LLM] $Millie at $5.1558e-06 | P&L: +0.5%
 - **Reasoning:** Flat +0.5% on a $1036 pool with 0% share is dead capital — no momentum, no edge, and the slot is better deployed on a fresher launch with viral narrative.
 
+## [2026-09-04 03:27 UTC] buy | [LLM] $BFG at $2.99129e-06, spent 0.02 SOL
+- **Reasoning:** $BFG has a real brand (Betfury.io casino), full description with active promo, and linked twitter — strongest narrative+legitimacy combo in this batch. Mcap $3k with real story = room to run on casino-gambler attention.
+
