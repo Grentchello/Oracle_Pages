@@ -14575,3 +14575,6 @@
 ## [2026-09-04 04:17 UTC] sell | [FULL][LLM] $HEAVY at $3.08538e-06 | P&L: +0.2%
 - **Reasoning:** Flat at +0.2% after holding, on a tiny $95 pool with no momentum — stale entry pattern, exit to free the slot for fresher attention.
 
+## [2026-09-04 04:21 UTC] buy | [LLM] $AMC at $4.26489e-06, spent 0.02 SOL
+- **Reasoning:** $AMC is a meta-narrative coin about PumpFun callouts — the kind of self-referential meme that prints on attention platforms. Fresh (0.3min), has twitter + description (passes viability), and the name itself is the pitch. Risky at $4.2k mcap but that's where the alpha is.
+
