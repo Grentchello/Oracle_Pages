@@ -14611,3 +14611,6 @@
 ## [2026-09-04 04:58 UTC] sell | [hard-stop] $STICK closed at $2.95344e-06 | P&L: -34.1%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-04 06:06 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
