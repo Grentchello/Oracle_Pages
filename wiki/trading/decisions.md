@@ -14860,3 +14860,6 @@
 ## [2026-09-05 02:26 UTC] buy | [LLM] $raji at $5.04e-06, spent 0.02 SOL
 - **Reasoning:** $raji has a clear narrative (Raji the Indian — 'Ask the questions, expose the truth'), real twitter handle, emoji-driven cultural angle, and $5k mcap at only 20% bonding. Indian community memecoins have shown viral traction before. 0.05 SOL size fits min liquidity once curve develops.
 
+## [2026-09-05 02:28 UTC] sell | [FULL][LLM] $rti at $3.59719e-06 | P&L: +1.2%
+- **Reasoning:** $rti is only +1.2% after 0.1h with a thin $378 pool and 0% share — no momentum signal, weak liquidity, and a -20% move is one bad wick away. Lock the +1.2%, free the slot, recycle capital into a fresh viral launch.
+
