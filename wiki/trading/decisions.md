@@ -14815,3 +14815,6 @@
 ## [2026-09-05 01:46 UTC] buy | [LLM] $CASE at $3.32561e-06, spent 0.02 SOL
 - **Reasoning:** $CASE has a novel 'memestock basket' narrative (creator fees buy OpenAI/Anthropic/etc) - this is a fresh attention hook that differentiates it from generic launches. 0.1min old, small mcap, real description passes viability gate.
 
+## [2026-09-05 01:48 UTC] sell | [FULL][LLM] $CASE at $3.07868e-06 | P&L: -7.4%
+- **Reasoning:** $CASE down -7.4% at 0.0h with only $118 pool liquidity — 2% of a tiny pool means any seller wrecks us. Cut it loose, free the slot.
+
