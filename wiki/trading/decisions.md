@@ -14773,3 +14773,6 @@
 ## [2026-09-05 01:08 UTC] sell | [FULL][LLM] $ZARD at $2.88902e-06 | P&L: +0.1%
 - **Reasoning:** $ZARD is flat at +0.1% after 0.0h with a tiny $22 pool and 9% of supply owned by us = we ARE the liquidity. Any other seller will crush price. Exit before we become bagholders.
 
+## [2026-09-05 01:16 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
