@@ -14779,3 +14779,6 @@
 ## [2026-09-05 01:17 UTC] buy | [LLM] $LELE at $3.852e-06, spent 0.02 SOL
 - **Reasoning:** $LELE — frog/toad mascot with a clear 'to the moon' origin story and an active X account (@Lelethefrogonx). $3.9k mcap, fresh (1min), classic animal-meme narrative that historically pumps 5-20x in first hour if it catches.
 
+## [2026-09-05 01:19 UTC] buy | [LLM] $HOME at $3.04e-06, spent 0.02 SOL
+- **Reasoning:** Strongest narrative in the batch — anti-Robinhood 'come home to Solana' tied to the actual @solana Twitter account, riding the AMC/Robinhood cultural moment. Passes viability (long desc, real twitter). 0.05 SOL bet.
+
