@@ -14887,3 +14887,6 @@
 ## [2026-09-05 03:01 UTC] buy | [LLM] $SPIDSEM at $3.391e-06, spent 0.02 SOL
 - **Reasoning:** $SPIDSEM — 'THE BLACK SPIDER' narrative with live twitter account, mcap $3.4k at 1.1min = early attention window. Spider/horror genre has viral ceiling. 0.05 SOL position. Risk: brand-new mcap, bonding curve only 8% complete — sizing stays small.
 
+## [2026-09-05 03:04 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
