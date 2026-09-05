@@ -14746,3 +14746,6 @@
 ## [2026-09-05 00:33 UTC] sell | [PARTIAL][LLM] $$Hero at $1.7676e-05 | P&L: +27.2%
 - **Reasoning:** $Hero is +27.2% and held only 0.1h — approaching the +30% TP1 zone. Pool is thin ($4557) so any push higher will be hard to exit on. Lock half the gain, let the rest ride to TP2 (+50%).
 
+## [2026-09-05 00:34 UTC] sell | [FULL][LLM] $$Hero at $1.78824e-05 | P&L: +28.7%
+- **Reasoning:** Up +28.7% on thin $4601 pool after 0.1h — classic pump-and-dump setup on bonding curve. Lock the gain before it reverses; the 25% auto-TP will likely trigger soon anyway.
+

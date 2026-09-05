@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.250856,
+  "balance_sol": 0.251761,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GH7rFsTf7LEg21gWNVRjcges84UjhkVfsdSyHpBHpump": {
-      "symbol": "$Hero",
-      "name": "Zero To Hero ",
-      "amount": 5151.394788783558,
-      "entry_price_usd": 1.3894901853737041e-05,
-      "entry_sol_spent": 0.000703125,
-      "entry_time": "2026-09-05T00:27:34.112307+00:00",
-      "entry_usd_value": 2.036,
-      "entry_signals": {
-        "liquidity_usd": 3840.735782812,
-        "volume_24h_usd": null,
-        "market_cap_usd": 13907.18614831656,
-        "ath_market_cap_usd": 14531.071906457035,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 37.72824934,
-        "description": "$HERO (Hero) is built around a simple story: zero to hero. @saealex has been posting about dropping a coin, and the community turned the idea into something bigger — a narrative built around starting with nothing and building something together. $HERO represents the journey from ZERO → HERO, powered",
-        "twitter": "https://x.com/ZeroToHeroCoinX",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33261,19 +33238,30 @@
       "pnl_pct": 27.21,
       "exit_reason": "LLM: sell_half — $Hero is +27.2% and held only 0.1h — approaching the +30% TP1 zone. Pool is thin ($4557) so any push higher will be hard to exit on. Lock half the gai",
       "partial": true
+    },
+    {
+      "mint": "GH7rFsTf7LEg21gWNVRjcges84UjhkVfsdSyHpBHpump",
+      "symbol": "$Hero",
+      "name": "Zero To Hero ",
+      "amount_sold": 5151.394788783558,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T00:27:34.112307+00:00",
+      "exit_time": "2026-09-05T00:34:37.269083+00:00",
+      "entry_price_usd": 1.3894901853737041e-05,
+      "exit_price_usd": 1.788240064506255e-05,
+      "entry_sol_for_chunk": 0.000703,
+      "exit_sol_received": 0.000905,
+      "pnl_sol": 0.000202,
+      "pnl_pct": 28.7,
+      "exit_reason": "LLM: sell_all — Up +28.7% on thin $4601 pool after 0.1h — classic pump-and-dump setup on bonding curve. Lock the gain before it reverses; the 25% auto-TP will likely ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T00:33:21.825067+00:00",
+  "last_updated": "2026-09-05T00:34:37.269354+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.84,
-  "portfolio_value_usd": 25.62,
+  "last_sol_price_usd": 101.83,
+  "portfolio_value_usd": 25.64,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 00:07 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $AFRICA at $4.67006e-06 | P&L: +56.6%",
-      "reason": "Auto take-profit at +56.6%"
-    },
     {
       "time": "2026-09-05 00:07 UTC",
       "action": "sell",
@@ -33387,40 +33375,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $$Hero at $1.7676e-05 | P&L: +27.2%",
       "reason": "$Hero is +27.2% and held only 0.1h — approaching the +30% TP1 zone. Pool is thin ($4557) so any push higher will be hard to exit on. Lock half the gain, let the rest ride to TP2 (+50%)."
+    },
+    {
+      "time": "2026-09-05 00:34 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $$Hero at $1.78824e-05 | P&L: +28.7%",
+      "reason": "Up +28.7% on thin $4601 pool after 0.1h — classic pump-and-dump setup on bonding curve. Lock the gain before it reverses; the 25% auto-TP will likely trigger soon anyway."
     }
   ],
   "trade_stats": {
-    "total": 1955,
-    "wins": 1000,
+    "total": 1956,
+    "wins": 1001,
     "losses": 955,
     "win_rate_pct": 51.2,
-    "total_pnl_sol": -2.081093,
+    "total_pnl_sol": -2.080891,
     "avg_pnl_pct": 33.38,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 15,
-    "today_realized_sol": -0.001312,
+    "today_trades": 16,
+    "today_realized_sol": -0.00111,
     "today_target_pct": -0.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1000,
+      "win_count": 1001,
       "loss_count": 955,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T00:33:21.567973+00:00",
+  "last_llm_brief_at": "2026-09-05T00:34:37.269048+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GH7rFsTf7LEg21gWNVRjcges84UjhkVfsdSyHpBHpump": {
-      "price_usd": 1.7675951369577996e-05,
+      "price_usd": 1.788240064506255e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4557.01566129192,
-      "volume_h24": 23580.31,
+      "liquidity_usd": 4601.26477606846,
+      "volume_h24": 26168.77,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 44.746815213
+      "real_sol_reserves": 45.185748562
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
