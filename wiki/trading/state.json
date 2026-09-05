@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.227814,
+  "balance_sol": 0.251727,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5yDx5dR8QkyNKNdwEhxuZGLDkzy2uyAKrnnZgKJQpump": {
-      "symbol": "FLAUDE",
-      "name": "Flaude",
-      "amount": 703834.1968911916,
-      "entry_price_usd": 2.895e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T00:44:16.646953+00:00",
-      "entry_usd_value": 2.0376,
-      "entry_signals": {
-        "liquidity_usd": 323.50332327012,
-        "volume_24h_usd": 24.66,
-        "market_cap_usd": 3485.1293146131525,
-        "ath_market_cap_usd": 3485.1293146131525,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.175336899,
-        "description": "An agent that trades one venue. certain about everything, early to nothing.  ",
-        "twitter": "https://x.com/flaudetrading",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33295,19 +33272,30 @@
       "pnl_pct": -19.78,
       "exit_reason": "LLM: sell_all — Scientia is at -19.8% (essentially the -20% danger zone), held 0h with pool=$0 — this is a dead bonding-curve bag with no real liquidity and our share",
       "partial": false
+    },
+    {
+      "mint": "5yDx5dR8QkyNKNdwEhxuZGLDkzy2uyAKrnnZgKJQpump",
+      "symbol": "FLAUDE",
+      "name": "Flaude",
+      "amount_sold": 703834.1968911916,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T00:44:16.646953+00:00",
+      "exit_time": "2026-09-05T00:45:38.043405+00:00",
+      "entry_price_usd": 2.895e-06,
+      "exit_price_usd": 3.46441417823452e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.023913,
+      "pnl_sol": 0.003913,
+      "pnl_pct": 19.67,
+      "exit_reason": "LLM: sell_all — Up +19.7% but only held 0h on a $313 pool with 1% share — thin liquidity means any retrace to entry is likely. Lock the gain now rather than watch it ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T00:44:16.647131+00:00",
+  "last_updated": "2026-09-05T00:45:38.541826+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.88,
-  "portfolio_value_usd": 25.25,
+  "last_sol_price_usd": 101.97,
+  "portfolio_value_usd": 25.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 00:09 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $RENTOPOLY closed at $3.015e-06 | P&L: -68.3%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-05 00:10 UTC",
       "action": "buy",
@@ -33421,30 +33409,48 @@
       "action": "buy",
       "details": "[LLM] $FLAUDE at $2.895e-06, spent 0.02 SOL",
       "reason": "$FLAUDE passes viability gate (65-char desc + twitter @flaudetrading), is not on fragility blocklist, and rides the AI-agent meta-narrative with self-aware humor about overconfident traders. Fresh launch (0.8min) with $3.5k mcap is thin but twitter presence suggests real attention. Sizing 0.05 SOL ($5) — max loss $1.50 if it rugs, acceptable learning cost on first trade."
+    },
+    {
+      "time": "2026-09-05 00:45 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FLAUDE at $3.46441e-06 | P&L: +19.7%",
+      "reason": "Up +19.7% but only held 0h on a $313 pool with 1% share — thin liquidity means any retrace to entry is likely. Lock the gain now rather than watch it evaporate."
     }
   ],
   "trade_stats": {
-    "total": 1957,
-    "wins": 1001,
+    "total": 1958,
+    "wins": 1002,
     "losses": 956,
-    "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.084838,
-    "avg_pnl_pct": 33.35,
+    "win_rate_pct": 51.2,
+    "total_pnl_sol": -2.080925,
+    "avg_pnl_pct": 33.34,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 17,
-    "today_realized_sol": -0.005057,
-    "today_target_pct": -1.3,
+    "today_trades": 18,
+    "today_realized_sol": -0.001144,
+    "today_target_pct": -0.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1001,
+      "win_count": 1002,
       "loss_count": 956,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T00:44:15.296627+00:00",
+  "last_llm_brief_at": "2026-09-05T00:45:38.043353+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5yDx5dR8QkyNKNdwEhxuZGLDkzy2uyAKrnnZgKJQpump": {
+      "price_usd": 3.46441417823452e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 313.0866261666,
+      "volume_h24": 344.22,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.07037978
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

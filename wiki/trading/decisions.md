@@ -14758,3 +14758,6 @@
 ## [2026-09-05 00:44 UTC] buy | [LLM] $FLAUDE at $2.895e-06, spent 0.02 SOL
 - **Reasoning:** $FLAUDE passes viability gate (65-char desc + twitter @flaudetrading), is not on fragility blocklist, and rides the AI-agent meta-narrative with self-aware humor about overconfident traders. Fresh launch (0.8min) with $3.5k mcap is thin but twitter presence suggests real attention. Sizing 0.05 SOL ($5) — max loss $1.50 if it rugs, acceptable learning cost on first trade.
 
+## [2026-09-05 00:45 UTC] sell | [FULL][LLM] $FLAUDE at $3.46441e-06 | P&L: +19.7%
+- **Reasoning:** Up +19.7% but only held 0h on a $313 pool with 1% share — thin liquidity means any retrace to entry is likely. Lock the gain now rather than watch it evaporate.
+
