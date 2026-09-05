@@ -1,24 +1,24 @@
 {
-  "balance_sol": 0.238652,
+  "balance_sol": 0.224988,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "aox7gon23QpK4f5bSrcpjWqHKCV55DjqhLaWjkKpump": {
       "symbol": "RENTOPOLY",
       "name": "RENTOPOLY",
-      "amount": 213964.1156908555,
-      "entry_price_usd": 9.518418513422908e-06,
+      "amount": 713955.1192145862,
+      "entry_price_usd": 2.852e-06,
       "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T00:08:54.102313+00:00",
-      "entry_usd_value": 2.0366,
+      "entry_time": "2026-09-05T00:10:09.713762+00:00",
+      "entry_usd_value": 2.0362,
       "entry_signals": {
-        "liquidity_usd": 133.66977029871,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9517.483777243648,
+        "liquidity_usd": 89.09748050384,
+        "volume_24h_usd": 6728.24,
+        "market_cap_usd": 3016.14643950995,
         "ath_market_cap_usd": 11777.246773888282,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1.312675737,
+        "real_sol_reserves": 0.875134864,
         "description": "$RENTOPOLY turns Monopoly into live on-chain rent, where every deed buys a Bank share 🎩 Six districts, real payouts every 30 seconds, and open-book balances make buying the block feel playable 🏘️",
         "twitter": "https://x.com/rentopolyzone/status/2096027427931619493",
         "source_endpoint": "new-launches"
@@ -33074,25 +33074,30 @@
       "pnl_pct": -10.48,
       "exit_reason": "LLM: sell_all — Down 10.5% in <1h with only $22 pool liquidity = classic thin-bonding-curve dump setup. No bounce signal, narrative unclear, and capital is better rot",
       "partial": false
+    },
+    {
+      "mint": "aox7gon23QpK4f5bSrcpjWqHKCV55DjqhLaWjkKpump",
+      "symbol": "RENTOPOLY",
+      "name": "RENTOPOLY",
+      "amount_sold": 213964.1156908555,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T00:08:54.102313+00:00",
+      "exit_time": "2026-09-05T00:09:57.783643+00:00",
+      "entry_price_usd": 9.518418513422908e-06,
+      "exit_price_usd": 3.0149991014284597e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.006336,
+      "pnl_sol": -0.013664,
+      "pnl_pct": -68.32,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T00:08:54.102536+00:00",
+  "last_updated": "2026-09-05T00:10:09.713921+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.83,
-  "portfolio_value_usd": 26.34,
+  "last_sol_price_usd": 101.81,
+  "portfolio_value_usd": 24.94,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 14:20 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-04 14:34 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-04 15:34 UTC",
       "action": "observe",
@@ -33200,40 +33205,52 @@
       "action": "buy",
       "details": "[LLM] $RENTOPOLY at $9.51842e-06, spent 0.02 SOL",
       "reason": "$RENTOPOLY has the clearest narrative of the batch — 'Monopoly into live on-chain rent' is a meme-able concept with six districts and real payouts framing. $9.5k mcap at 31% bonding is early but not micro, twitter link present meets viability gate. Risk: small pool = whale-concentration fragility, size small (0.05 SOL)."
+    },
+    {
+      "time": "2026-09-05 00:09 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $RENTOPOLY closed at $3.015e-06 | P&L: -68.3%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-05 00:10 UTC",
+      "action": "buy",
+      "details": "[LLM] $RENTOPOLY at $2.852e-06, spent 0.02 SOL",
+      "reason": "$RENTOPOLY has a real narrative hook (Monopoly → on-chain rent, 6 districts, real payouts) plus an attached X account. $3k mcap with story + twitter = classic early attention play."
     }
   ],
   "trade_stats": {
-    "total": 1944,
+    "total": 1945,
     "wins": 992,
-    "losses": 952,
+    "losses": 953,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.074,
-    "avg_pnl_pct": 33.49,
+    "total_pnl_sol": -2.087664,
+    "avg_pnl_pct": 33.43,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 4,
-    "today_realized_sol": 0.005781,
-    "today_target_pct": 1.4,
+    "today_trades": 5,
+    "today_realized_sol": -0.007883,
+    "today_target_pct": -2.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 992,
-      "loss_count": 952,
+      "loss_count": 953,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T00:08:52.720464+00:00",
+  "last_llm_brief_at": "2026-09-05T00:10:09.188797+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5TLSonq8gSUB9MbUSwGseP5a2aaatW92k9X8iJvXpump": {
-      "price_usd": 2.670391725991628e-06,
+    "aox7gon23QpK4f5bSrcpjWqHKCV55DjqhLaWjkKpump": {
+      "price_usd": 3.0149991014284597e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 22.33433072408,
-      "volume_h24": 214.37,
+      "liquidity_usd": 89.09748050384,
+      "volume_h24": 6728.24,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.219329576
+      "real_sol_reserves": 0.875134864
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
