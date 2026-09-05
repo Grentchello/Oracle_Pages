@@ -1,26 +1,26 @@
 {
-  "balance_sol": 0.210826,
+  "balance_sol": 0.20474,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "HsAFE2xfUEgTTWtcQm4XskPnxNDBeLrb98fdzVQ83Q1b": {
-      "symbol": "GG",
-      "name": "Golden Goose",
-      "amount": 269383.9862814932,
-      "entry_price_usd": 7.581e-06,
+    "CKYuKi35pm2cGRjPnw2LyRQKkCzSYMkuPiZbEQrwQBa7": {
+      "symbol": "MEMEETF",
+      "name": "MemeStock ETF by OTC",
+      "amount": 667516.3398692809,
+      "entry_price_usd": 3.06e-06,
       "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T01:39:15.040024+00:00",
-      "entry_usd_value": 2.0422000000000002,
+      "entry_time": "2026-09-05T01:40:42.792305+00:00",
+      "entry_usd_value": 2.0425999999999997,
       "entry_signals": {
-        "liquidity_usd": 1915.3313750256998,
-        "volume_24h_usd": 11843.62,
-        "market_cap_usd": 8683.975355585933,
-        "ath_market_cap_usd": 9392.656198911329,
+        "liquidity_usd": 109.49638198352,
+        "volume_24h_usd": 119.01,
+        "market_cap_usd": 3060.2393752547714,
+        "ath_market_cap_usd": 3068.210114340763,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 18.75752987,
-        "description": "a golden goose is a valuable asset, business, or investment that continuously produces a steady and reliable stream of income/profit.",
-        "twitter": "https://x.com/keemotrades/status/2096050033682501804",
+        "real_sol_reserves": 1.072127504,
+        "description": "Powered by OTC Desks https://magiceden.io/marketplace/otc_desks",
+        "twitter": "https://x.com/OTCDesks/status/2096035428595900632",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -33397,25 +33397,30 @@
       "pnl_pct": -99.4,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "HsAFE2xfUEgTTWtcQm4XskPnxNDBeLrb98fdzVQ83Q1b",
+      "symbol": "GG",
+      "name": "Golden Goose",
+      "amount_sold": 269383.9862814932,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T01:39:15.040024+00:00",
+      "exit_time": "2026-09-05T01:40:18.866959+00:00",
+      "entry_price_usd": 7.581e-06,
+      "exit_price_usd": 5.275207374231724e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.013914,
+      "pnl_sol": -0.006086,
+      "pnl_pct": -30.42,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T01:39:15.292078+00:00",
+  "last_updated": "2026-09-05T01:40:42.792656+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.11,
-  "portfolio_value_usd": 23.57,
+  "last_sol_price_usd": 102.13,
+  "portfolio_value_usd": 22.95,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 00:32 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $$Hero at $1.99927e-05 | P&L: +43.9%",
-      "reason": "Up +43.9% in 6min on a $5k pool — bonding curve, our share=0% means thin liquidity for our size. Lock half the gain now; let the other half ride if it breaks higher. Aggressive profit-taking is the rule."
-    },
-    {
-      "time": "2026-09-05 00:33 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $$Hero at $1.7676e-05 | P&L: +27.2%",
-      "reason": "$Hero is +27.2% and held only 0.1h — approaching the +30% TP1 zone. Pool is thin ($4557) so any push higher will be hard to exit on. Lock half the gain, let the rest ride to TP2 (+50%)."
-    },
     {
       "time": "2026-09-05 00:34 UTC",
       "action": "sell",
@@ -33523,30 +33528,54 @@
       "action": "buy",
       "details": "[LLM] $GG at $7.581e-06, spent 0.02 SOL",
       "reason": "$GG Golden Goose — highest mcap ($8.6k) of fresh launches, bonding curve 30% (real buy pressure), twitter from @keemotrades (active trading account = attention signal), clear narrative asset. Strongest entry."
+    },
+    {
+      "time": "2026-09-05 01:40 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $GG closed at $5.27521e-06 | P&L: -30.4%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-05 01:40 UTC",
+      "action": "buy",
+      "details": "[LLM] $MEMEETF at $3.06e-06, spent 0.02 SOL",
+      "reason": "$MEMEETF ties to OTC Desks (real Magic Eden marketplace partner) and rides ETF attention meta — brand tie-in is a legitimate attention signal at $3k mcap with twitter confirmation. Low mcap = high upside if attention catches, but also high rug risk on a brand-impersonation play."
     }
   ],
   "trade_stats": {
-    "total": 1963,
+    "total": 1964,
     "wins": 1003,
-    "losses": 960,
+    "losses": 961,
     "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.101826,
-    "avg_pnl_pct": 33.21,
+    "total_pnl_sol": -2.107912,
+    "avg_pnl_pct": 33.17,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 23,
-    "today_realized_sol": -0.022045,
-    "today_target_pct": -5.5,
+    "today_trades": 24,
+    "today_realized_sol": -0.028131,
+    "today_target_pct": -7.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1003,
-      "loss_count": 960,
+      "loss_count": 961,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T01:39:13.560034+00:00",
+  "last_llm_brief_at": "2026-09-05T01:40:41.459188+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HsAFE2xfUEgTTWtcQm4XskPnxNDBeLrb98fdzVQ83Q1b": {
+      "price_usd": 5.275207374231724e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1100.54301608034,
+      "volume_h24": 16008.44,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 10.775903418
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

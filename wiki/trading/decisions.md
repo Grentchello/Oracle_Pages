@@ -14800,3 +14800,9 @@
 ## [2026-09-05 01:39 UTC] buy | [LLM] $GG at $7.581e-06, spent 0.02 SOL
 - **Reasoning:** $GG Golden Goose — highest mcap ($8.6k) of fresh launches, bonding curve 30% (real buy pressure), twitter from @keemotrades (active trading account = attention signal), clear narrative asset. Strongest entry.
 
+## [2026-09-05 01:40 UTC] sell | [hard-stop] $GG closed at $5.27521e-06 | P&L: -30.4%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-05 01:40 UTC] buy | [LLM] $MEMEETF at $3.06e-06, spent 0.02 SOL
+- **Reasoning:** $MEMEETF ties to OTC Desks (real Magic Eden marketplace partner) and rides ETF attention meta — brand tie-in is a legitimate attention signal at $3k mcap with twitter confirmation. Low mcap = high upside if attention catches, but also high rug risk on a brand-impersonation play.
+
