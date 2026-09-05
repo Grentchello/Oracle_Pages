@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.230826,
+  "balance_sol": 0.250706,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "N8PBTMqUYBED4bQoMdn86yuQYdLnoB8nWHP2AZkpump": {
-      "symbol": "LELE",
-      "name": "LELE",
-      "amount": 528971.9626168224,
-      "entry_price_usd": 3.852e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T01:17:38.458054+00:00",
-      "entry_usd_value": 2.0376,
-      "entry_signals": {
-        "liquidity_usd": 544.31292731256,
-        "volume_24h_usd": 572.65,
-        "market_cap_usd": 3940.49771982248,
-        "ath_market_cap_usd": 3940.49771982248,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.342686762,
-        "description": "Since she was a tiny tadpole shes had one dream, to go to the moon Now shes bringing the whole community along for the ride",
-        "twitter": "https://x.com/Lelethefrogonx/all",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33363,19 +33340,30 @@
       "pnl_pct": -4.38,
       "exit_reason": "LLM: sell_all — Pool only $30 (fails 5x liquidity rule), down 4.4%, our position is 6% of pool meaning we'd move price selling — but that's exactly why this is too th",
       "partial": false
+    },
+    {
+      "mint": "N8PBTMqUYBED4bQoMdn86yuQYdLnoB8nWHP2AZkpump",
+      "symbol": "LELE",
+      "name": "LELE",
+      "amount_sold": 528971.9626168224,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T01:17:38.458054+00:00",
+      "exit_time": "2026-09-05T01:22:01.221516+00:00",
+      "entry_price_usd": 3.852e-06,
+      "exit_price_usd": 3.828860948118825e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.01988,
+      "pnl_sol": -0.00012,
+      "pnl_pct": -0.6,
+      "exit_reason": "LLM: sell_all — Pool is only $487, well below the 5x position size liquidity floor. Flat at -0.6% after 6 minutes with no momentum and no narrative signal — locking c",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T01:20:41.263191+00:00",
+  "last_updated": "2026-09-05T01:22:01.486455+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.96,
-  "portfolio_value_usd": 25.57,
+  "last_sol_price_usd": 101.88,
+  "portfolio_value_usd": 25.54,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 00:27 UTC",
-      "action": "buy",
-      "details": "[LLM] $$Hero at $1.38949e-05, spent 0.02 SOL",
-      "reason": "$$Hero has the strongest narrative of the batch ('zero to hero' arc), a creator (@saealex) who has been priming attention with posts before launch, the highest mcap ($13.9k — liquidity safety), and a real description. This is the kind of pre-narrative launch that often 5-10x in the first hour."
-    },
     {
       "time": "2026-09-05 00:28 UTC",
       "action": "sell",
@@ -33489,51 +33477,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $HOME at $2.90672e-06 | P&L: -4.4%",
       "reason": "Pool only $30 (fails 5x liquidity rule), down 4.4%, our position is 6% of pool meaning we'd move price selling — but that's exactly why this is too thin to hold. Stale illiquid microcap with no clear narrative. Cut losses, free slot."
+    },
+    {
+      "time": "2026-09-05 01:22 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LELE at $3.82886e-06 | P&L: -0.6%",
+      "reason": "Pool is only $487, well below the 5x position size liquidity floor. Flat at -0.6% after 6 minutes with no momentum and no narrative signal — locking capital back for a better setup."
     }
   ],
   "trade_stats": {
-    "total": 1961,
+    "total": 1962,
     "wins": 1003,
-    "losses": 958,
+    "losses": 959,
     "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.081826,
-    "avg_pnl_pct": 33.29,
+    "total_pnl_sol": -2.081946,
+    "avg_pnl_pct": 33.27,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 21,
-    "today_realized_sol": -0.002045,
+    "today_trades": 22,
+    "today_realized_sol": -0.002165,
     "today_target_pct": -0.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1003,
-      "loss_count": 958,
+      "loss_count": 959,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T01:20:35.931068+00:00",
+  "last_llm_brief_at": "2026-09-05T01:22:01.221475+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "N8PBTMqUYBED4bQoMdn86yuQYdLnoB8nWHP2AZkpump": {
-      "price_usd": 3.831867513449111e-06,
+      "price_usd": 3.828860948118825e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 487.54223528548,
+      "liquidity_usd": 487.15969920444,
       "volume_h24": 716.84,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 4.781701013
-    },
-    "ARB77HSddaw4WvbfRpfnYJnbryR9nUgw8wnGVAENpump": {
-      "price_usd": 2.9067213832738057e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 29.909789099399998,
-      "volume_h24": 231.62,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.293348265
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

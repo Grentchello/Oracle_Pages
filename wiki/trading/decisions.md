@@ -14785,3 +14785,6 @@
 ## [2026-09-05 01:20 UTC] sell | [FULL][LLM] $HOME at $2.90672e-06 | P&L: -4.4%
 - **Reasoning:** Pool only $30 (fails 5x liquidity rule), down 4.4%, our position is 6% of pool meaning we'd move price selling — but that's exactly why this is too thin to hold. Stale illiquid microcap with no clear narrative. Cut losses, free slot.
 
+## [2026-09-05 01:22 UTC] sell | [FULL][LLM] $LELE at $3.82886e-06 | P&L: -0.6%
+- **Reasoning:** Pool is only $487, well below the 5x position size liquidity floor. Flat at -0.6% after 6 minutes with no momentum and no narrative signal — locking capital back for a better setup.
+
