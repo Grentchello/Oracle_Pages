@@ -14857,3 +14857,6 @@
 ## [2026-09-05 02:23 UTC] buy | [LLM] $rti at $3.55316e-06, spent 0.02 SOL
 - **Reasoning:** $rti — Indian RTI (Right to Information) civic narrative has viral potential, active X account @gh1stsol, freshest launch (0.3min), mcap ~$3.5k. Buying 0.05 SOL. Risk: brand-new launch, bond only 9% complete, no confirmed holders yet — tight stop will protect.
 
+## [2026-09-05 02:26 UTC] buy | [LLM] $raji at $5.04e-06, spent 0.02 SOL
+- **Reasoning:** $raji has a clear narrative (Raji the Indian — 'Ask the questions, expose the truth'), real twitter handle, emoji-driven cultural angle, and $5k mcap at only 20% bonding. Indian community memecoins have shown viral traction before. 0.05 SOL size fits min liquidity once curve develops.
+
