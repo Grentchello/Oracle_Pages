@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.193357,
+  "balance_sol": 0.203024,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "CKYuKi35pm2cGRjPnw2LyRQKkCzSYMkuPiZbEQrwQBa7": {
-      "symbol": "MEMEETF",
-      "name": "MemeStock ETF by OTC",
-      "amount": 333758.16993464046,
-      "entry_price_usd": 3.06e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-05T01:40:42.792305+00:00",
-      "entry_usd_value": 2.0425999999999997,
-      "entry_signals": {
-        "liquidity_usd": 109.49638198352,
-        "volume_24h_usd": 119.01,
-        "market_cap_usd": 3060.2393752547714,
-        "ath_market_cap_usd": 3068.210114340763,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.072127504,
-        "description": "Powered by OTC Desks https://magiceden.io/marketplace/otc_desks",
-        "twitter": "https://x.com/OTCDesks/status/2096035428595900632",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "B5subNV4HFK9e9R7r6pjUMaUFg18jLT6EN3mLiJS3Sxv": {
       "symbol": "CULIO",
       "name": "Culio",
@@ -33487,19 +33465,30 @@
       "pnl_pct": 4.1,
       "exit_reason": "LLM: sell_half — MEMEETF up +4.1% after 0.2h, pool only $174 — tiny. Half off locks +2% gain and frees capital for fresh launches with much more attention.",
       "partial": true
+    },
+    {
+      "mint": "CKYuKi35pm2cGRjPnw2LyRQKkCzSYMkuPiZbEQrwQBa7",
+      "symbol": "MEMEETF",
+      "name": "MemeStock ETF by OTC",
+      "amount_sold": 333758.16993464046,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T01:40:42.792305+00:00",
+      "exit_time": "2026-09-05T01:52:29.949609+00:00",
+      "entry_price_usd": 3.06e-06,
+      "exit_price_usd": 2.955143264375789e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.009667,
+      "pnl_sol": -0.000333,
+      "pnl_pct": -3.43,
+      "exit_reason": "LLM: sell_all — Down3.4% at 20min with $55 pool (only 11x position size — thin liquidity for exit), no clear narrative momentum, and I need to free a slot to rotate i",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T01:51:09.668691+00:00",
+  "last_updated": "2026-09-05T01:52:30.207301+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.038,
-  "portfolio_value_usd": 22.79,
+  "last_sol_price_usd": 102.025,
+  "portfolio_value_usd": 22.75,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 00:58 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Taiwan at $2.93844e-06 | P&L: -0.3%",
-      "reason": "Taiwan position is -0.3% after 0.0h, pool only $48 (well below 5x position), bonding-curve phase with no momentum. Liquidity is dangerously thin and the narrative has no viral catalyst — exit to free the slot."
-    },
     {
       "time": "2026-09-05 01:07 UTC",
       "action": "buy",
@@ -33613,40 +33602,57 @@
       "action": "buy",
       "details": "[LLM] $CULIO at $3.024e-06, spent 0.02 SOL",
       "reason": "$CULIO — strong narrative: 'AI agents invented this horse meme on their own Backrooms wiki, nowhere else on internet.' That's a genuinely novel story, has Twitter, mcap $3k — easy 5-10x potential if narrative spreads."
+    },
+    {
+      "time": "2026-09-05 01:52 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MEMEETF at $2.95514e-06 | P&L: -3.4%",
+      "reason": "Down3.4% at 20min with $55 pool (only 11x position size — thin liquidity for exit), no clear narrative momentum, and I need to free a slot to rotate into a higher-quality fresh launch. Lock the small loss rather than risk it deepening."
     }
   ],
   "trade_stats": {
-    "total": 1967,
+    "total": 1968,
     "wins": 1004,
-    "losses": 963,
+    "losses": 964,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.109295,
-    "avg_pnl_pct": 33.12,
+    "total_pnl_sol": -2.109628,
+    "avg_pnl_pct": 33.1,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 27,
-    "today_realized_sol": -0.029514,
-    "today_target_pct": -7.4,
+    "today_trades": 28,
+    "today_realized_sol": -0.029847,
+    "today_target_pct": -7.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1004,
-      "loss_count": 963,
+      "loss_count": 964,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T01:51:08.112466+00:00",
+  "last_llm_brief_at": "2026-09-05T01:52:29.949564+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "CKYuKi35pm2cGRjPnw2LyRQKkCzSYMkuPiZbEQrwQBa7": {
-      "price_usd": 3.1854434990507597e-06,
+      "price_usd": 2.955143264375789e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 173.503408418654,
+      "liquidity_usd": 54.572848162525005,
       "volume_h24": 275.02,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.700380333
+      "real_sol_reserves": 0.534896821
+    },
+    "B5subNV4HFK9e9R7r6pjUMaUFg18jLT6EN3mLiJS3Sxv": {
+      "price_usd": 3.02623455304785e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 91.82250040810001,
+      "volume_h24": 385.25,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.900000004
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
