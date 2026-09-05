@@ -14722,3 +14722,9 @@
 ## [2026-09-05 00:26 UTC] buy | [LLM] $DBD at $3.235e-06, spent 0.02 SOL
 - **Reasoning:** DBD has a clear anti-criminal investigation narrative, an active branded X account, and the strongest viable launch profile at roughly $3.2K market cap. Buy 0.05 SOL and exit if it fails to gain traction or becomes stale.
 
+## [2026-09-05 00:27 UTC] sell | [FULL][LLM] $DBD at $2.8945e-06 | P&L: -10.5%
+- **Reasoning:** $DBD is -10.5% and only 0.0h old with no momentum — barely started and already red on a bonding-curve pool of $26. Disciplined scalp says exit before it deepens; the -30% hard stop will hit if I wait.
+
+## [2026-09-05 00:27 UTC] buy | [LLM] $$Hero at $1.38949e-05, spent 0.02 SOL
+- **Reasoning:** $$Hero has the strongest narrative of the batch ('zero to hero' arc), a creator (@saealex) who has been priming attention with posts before launch, the highest mcap ($13.9k — liquidity safety), and a real description. This is the kind of pre-narrative launch that often 5-10x in the first hour.
+

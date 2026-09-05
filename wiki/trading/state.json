@@ -1,26 +1,26 @@
 {
-  "balance_sol": 0.226938,
+  "balance_sol": 0.224847,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "ZrTqHv2sgBg3XADefReJoGNj8FJScrr8wtNVWVspump": {
-      "symbol": "DBD",
-      "name": "Department of Bad Decisions",
-      "amount": 629860.8964451314,
-      "entry_price_usd": 3.235e-06,
+    "GH7rFsTf7LEg21gWNVRjcges84UjhkVfsdSyHpBHpump": {
+      "symbol": "$Hero",
+      "name": "Zero To Hero ",
+      "amount": 146528.56288095456,
+      "entry_price_usd": 1.3894901853737041e-05,
       "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T00:26:11.694906+00:00",
-      "entry_usd_value": 2.0376,
+      "entry_time": "2026-09-05T00:27:34.112307+00:00",
+      "entry_usd_value": 2.036,
       "entry_signals": {
-        "liquidity_usd": 52.50574267812,
-        "volume_24h_usd": 973.49,
-        "market_cap_usd": 3235.01932386585,
-        "ath_market_cap_usd": 3540.3256640468485,
+        "liquidity_usd": 3840.735782812,
+        "volume_24h_usd": null,
+        "market_cap_usd": 13907.18614831656,
+        "ath_market_cap_usd": 14531.071906457035,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.515368499,
-        "description": "John reads the paperwork. John checks the receipts. John follows the connections. John does not make criminal findings; courts and investigators do that.",
-        "twitter": "https://x.com/DBDDepartment",
+        "real_sol_reserves": 37.72824934,
+        "description": "$HERO (Hero) is built around a simple story: zero to hero. @saealex has been posting about dropping a coin, and the community turned the idea into something bigger — a narrative built around starting with nothing and building something together. $HERO represents the journey from ZERO → HERO, powered",
+        "twitter": "https://x.com/ZeroToHeroCoinX",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -33142,25 +33142,30 @@
       "pnl_pct": -5.36,
       "exit_reason": "LLM: sell_all — $CASH DOG is down 5.4% with essentially no hold time, weak pool liquidity of $102, and no clear viral narrative. Exit to protect the remaining balance",
       "partial": false
+    },
+    {
+      "mint": "ZrTqHv2sgBg3XADefReJoGNj8FJScrr8wtNVWVspump",
+      "symbol": "DBD",
+      "name": "Department of Bad Decisions",
+      "amount_sold": 629860.8964451314,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T00:26:11.694906+00:00",
+      "exit_time": "2026-09-05T00:27:32.747422+00:00",
+      "entry_price_usd": 3.235e-06,
+      "exit_price_usd": 2.8945043390811713e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.017909,
+      "pnl_sol": -0.002091,
+      "pnl_pct": -10.53,
+      "exit_reason": "LLM: sell_all — $DBD is -10.5% and only 0.0h old with no momentum — barely started and already red on a bonding-curve pool of $26. Disciplined scalp says exit before ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T00:26:11.972305+00:00",
+  "last_updated": "2026-09-05T00:27:34.112634+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.88,
-  "portfolio_value_usd": 25.16,
+  "last_sol_price_usd": 101.8,
+  "portfolio_value_usd": 24.93,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 20:22 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-04 21:26 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-04 22:20 UTC",
       "action": "observe",
@@ -33268,30 +33273,54 @@
       "action": "buy",
       "details": "[LLM] $DBD at $3.235e-06, spent 0.02 SOL",
       "reason": "DBD has a clear anti-criminal investigation narrative, an active branded X account, and the strongest viable launch profile at roughly $3.2K market cap. Buy 0.05 SOL and exit if it fails to gain traction or becomes stale."
+    },
+    {
+      "time": "2026-09-05 00:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DBD at $2.8945e-06 | P&L: -10.5%",
+      "reason": "$DBD is -10.5% and only 0.0h old with no momentum — barely started and already red on a bonding-curve pool of $26. Disciplined scalp says exit before it deepens; the -30% hard stop will hit if I wait."
+    },
+    {
+      "time": "2026-09-05 00:27 UTC",
+      "action": "buy",
+      "details": "[LLM] $$Hero at $1.38949e-05, spent 0.02 SOL",
+      "reason": "$$Hero has the strongest narrative of the batch ('zero to hero' arc), a creator (@saealex) who has been priming attention with posts before launch, the highest mcap ($13.9k — liquidity safety), and a real description. This is the kind of pre-narrative launch that often 5-10x in the first hour."
     }
   ],
   "trade_stats": {
-    "total": 1948,
+    "total": 1949,
     "wins": 994,
-    "losses": 954,
+    "losses": 955,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.085714,
-    "avg_pnl_pct": 33.39,
+    "total_pnl_sol": -2.087805,
+    "avg_pnl_pct": 33.36,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 8,
-    "today_realized_sol": -0.005933,
-    "today_target_pct": -1.5,
+    "today_trades": 9,
+    "today_realized_sol": -0.008024,
+    "today_target_pct": -2.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 994,
-      "loss_count": 954,
+      "loss_count": 955,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T00:26:10.314492+00:00",
+  "last_llm_brief_at": "2026-09-05T00:27:32.747361+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "ZrTqHv2sgBg3XADefReJoGNj8FJScrr8wtNVWVspump": {
+      "price_usd": 2.8945043390811713e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 25.7926624648,
+      "volume_h24": 1123.23,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.253366036
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
