@@ -14764,3 +14764,6 @@
 ## [2026-09-05 00:57 UTC] buy | [LLM] $Taiwan at $2.9474e-06, spent 0.02 SOL
 - **Reasoning:** $Taiwan has a linked X account (machibigbrother), full narrative description passing viability gate, $3k mcap with recognizable geo-cultural narrative. Taiwan/cultural tokens have shown viral attention cycles. Risk: bond at 2%, very early — position is the hard-rules-mandated 0.05 SOL not 0.1, leaving reserve intact.
 
+## [2026-09-05 00:58 UTC] sell | [FULL][LLM] $Taiwan at $2.93844e-06 | P&L: -0.3%
+- **Reasoning:** Taiwan position is -0.3% after 0.0h, pool only $48 (well below 5x position), bonding-curve phase with no momentum. Liquidity is dangerously thin and the narrative has no viral catalyst — exit to free the slot.
+
