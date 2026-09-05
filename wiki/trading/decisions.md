@@ -14908,3 +14908,6 @@
 ## [2026-09-05 03:18 UTC] buy | [LLM] $SPIDEYPRC at $1.64281e-07, spent 0.02 SOL
 - **Reasoning:** $SPIDEYPRC fuses two viral archetypes (stoner + superhero) with a self-deprecating punchline ('OFF AH BAR AND PROBABLY OFF SOME BLOW TOO'), passes the viability gate via attached twitter, and shows 21% bond at 0.5min age — real early traction. $164 mcap leaves multi-x headroom. With daily P&L at -0.0367 SOL (within ~0.013 SOL of the -0.05 daily loss cap), this is effectively my last entry slot today, so I want the highest-conviction narrative, not the longest list.
 
+## [2026-09-05 03:19 UTC] sell | [hard-stop] $SPIDEYPRC closed at $1.91287e-08 | P&L: -88.4%
+- **Reasoning:** Hard -30% stop
+
