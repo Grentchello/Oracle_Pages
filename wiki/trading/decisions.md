@@ -14728,3 +14728,6 @@
 ## [2026-09-05 00:27 UTC] buy | [LLM] $$Hero at $1.38949e-05, spent 0.02 SOL
 - **Reasoning:** $$Hero has the strongest narrative of the batch ('zero to hero' arc), a creator (@saealex) who has been priming attention with posts before launch, the highest mcap ($13.9k — liquidity safety), and a real description. This is the kind of pre-narrative launch that often 5-10x in the first hour.
 
+## [2026-09-05 00:28 UTC] sell | [PARTIAL][LLM] $$Hero at $1.76703e-05 | P&L: +27.2%
+- **Reasoning:** +27.2% with thin pool ($4556) and 0% our share on bonding curve — locking half the gain because this is illiquid and the bot's TP ladder hasn't fired yet (still under +30% trigger). Ride the other half if it keeps pumping, but don't give back the profit on a single wick.
+

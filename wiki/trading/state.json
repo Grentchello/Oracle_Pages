@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.224847,
+  "balance_sol": 0.23756,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GH7rFsTf7LEg21gWNVRjcges84UjhkVfsdSyHpBHpump": {
       "symbol": "$Hero",
       "name": "Zero To Hero ",
-      "amount": 146528.56288095456,
+      "amount": 73264.28144047728,
       "entry_price_usd": 1.3894901853737041e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-05T00:27:34.112307+00:00",
       "entry_usd_value": 2.036,
       "entry_signals": {
@@ -33159,19 +33159,30 @@
       "pnl_pct": -10.53,
       "exit_reason": "LLM: sell_all — $DBD is -10.5% and only 0.0h old with no momentum — barely started and already red on a bonding-curve pool of $26. Disciplined scalp says exit before ",
       "partial": false
+    },
+    {
+      "mint": "GH7rFsTf7LEg21gWNVRjcges84UjhkVfsdSyHpBHpump",
+      "symbol": "$Hero",
+      "name": "Zero To Hero ",
+      "amount_sold": 73264.28144047728,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-05T00:27:34.112307+00:00",
+      "exit_time": "2026-09-05T00:28:52.341262+00:00",
+      "entry_price_usd": 1.3894901853737041e-05,
+      "exit_price_usd": 1.767027750095397e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.012713,
+      "pnl_sol": 0.002713,
+      "pnl_pct": 27.17,
+      "exit_reason": "LLM: sell_half — +27.2% with thin pool ($4556) and 0% our share on bonding curve — locking half the gain because this is illiquid and the bot's TP ladder hasn't fired ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-05T00:27:34.112634+00:00",
+  "last_updated": "2026-09-05T00:28:52.613988+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.8,
-  "portfolio_value_usd": 24.93,
+  "last_sol_price_usd": 101.83,
+  "portfolio_value_usd": 25.21,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 22:20 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-04 22:48 UTC",
       "action": "observe",
@@ -33285,40 +33296,46 @@
       "action": "buy",
       "details": "[LLM] $$Hero at $1.38949e-05, spent 0.02 SOL",
       "reason": "$$Hero has the strongest narrative of the batch ('zero to hero' arc), a creator (@saealex) who has been priming attention with posts before launch, the highest mcap ($13.9k — liquidity safety), and a real description. This is the kind of pre-narrative launch that often 5-10x in the first hour."
+    },
+    {
+      "time": "2026-09-05 00:28 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $$Hero at $1.76703e-05 | P&L: +27.2%",
+      "reason": "+27.2% with thin pool ($4556) and 0% our share on bonding curve — locking half the gain because this is illiquid and the bot's TP ladder hasn't fired yet (still under +30% trigger). Ride the other half if it keeps pumping, but don't give back the profit on a single wick."
     }
   ],
   "trade_stats": {
-    "total": 1949,
-    "wins": 994,
+    "total": 1950,
+    "wins": 995,
     "losses": 955,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.087805,
+    "total_pnl_sol": -2.085092,
     "avg_pnl_pct": 33.36,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 9,
-    "today_realized_sol": -0.008024,
-    "today_target_pct": -2.0,
+    "today_trades": 10,
+    "today_realized_sol": -0.005311,
+    "today_target_pct": -1.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 994,
+      "win_count": 995,
       "loss_count": 955,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T00:27:32.747361+00:00",
+  "last_llm_brief_at": "2026-09-05T00:28:52.341222+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "ZrTqHv2sgBg3XADefReJoGNj8FJScrr8wtNVWVspump": {
-      "price_usd": 2.8945043390811713e-06,
+    "GH7rFsTf7LEg21gWNVRjcges84UjhkVfsdSyHpBHpump": {
+      "price_usd": 1.767027750095397e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 25.7926624648,
-      "volume_h24": 1123.23,
+      "liquidity_usd": 4555.72013640333,
+      "volume_h24": 10908.73,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.253366036
+      "real_sol_reserves": 44.738487051
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
