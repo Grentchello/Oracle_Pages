@@ -14845,3 +14845,6 @@
 ## [2026-09-05 02:09 UTC] sell | [FULL][LLM] $Alon at $3.0555e-06 | P&L: -24.9%
 - **Reasoning:** $Alon is down -24.9%, approaching hard stop at -30%. Pool is only $110 — extremely thin liquidity and our share is 1%. No bounce signal visible. Per scalp discipline rule #3 (losers exit fast at -20% with no bounce), cut now rather than wait for -30% hard stop.
 
+## [2026-09-05 02:11 UTC] sell | [FULL][LLM] $Liqft at $6.43475e-06 | P&L: +19.6%
+- **Reasoning:** +19.6% gain on $Liqft after 6 minutes — we're below the +20% stale mark but the pool is only $1,537 (thin liquidity for exit), bonding-curve token, and any further attention fade will wipe gains fast. Lock the 19.6% now while we can. Position sizing rules mean I can redeploy immediately into a fresh narrative.
+
