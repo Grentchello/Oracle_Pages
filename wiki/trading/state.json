@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.193312,
+  "balance_sol": 0.216162,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HV11H1LKwTkv7qXFBsmnzWWEXrRy9sD9XMVpwNS5pump": {
-      "symbol": "punch",
-      "name": "punch",
-      "amount": 526272.2810643244,
-      "entry_price_usd": 3.871e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T03:09:18.263135+00:00",
-      "entry_usd_value": 2.0372,
-      "entry_signals": {
-        "liquidity_usd": 517.1435184498,
-        "volume_24h_usd": 507.36,
-        "market_cap_usd": 3893.353644777714,
-        "ath_market_cap_usd": 3893.353644777714,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.07700293,
-        "description": "🥊🐒 **Meet PUNCH** — the little monkey with the biggest attitude on the blockchain. Built around pure meme energy, PUNCH never backs down, never stops swinging, and always brings his teddy along for the ride. 👊🧸 **$PUNCH — One punch. One teddy. One legendary meme.** 🚀🔥 ",
-        "twitter": "https://x.com/gh1stsol?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33686,19 +33663,30 @@
       "pnl_pct": -4.98,
       "exit_reason": "LLM: sell_all — $hamster at -5% with pool of only $2,265 (barely above the 5x liquidity floor for a $5 position) and 0% of supply = no real organic demand, just enter",
       "partial": false
+    },
+    {
+      "mint": "HV11H1LKwTkv7qXFBsmnzWWEXrRy9sD9XMVpwNS5pump",
+      "symbol": "punch",
+      "name": "punch",
+      "amount_sold": 526272.2810643244,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T03:09:18.263135+00:00",
+      "exit_time": "2026-09-05T03:12:48.185032+00:00",
+      "entry_price_usd": 3.871e-06,
+      "exit_price_usd": 4.424258870780691e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.02285,
+      "pnl_sol": 0.00285,
+      "pnl_pct": 14.29,
+      "exit_reason": "LLM: sell_all — Locking +14.3% gain on a $752-pool micro-cap. Pool is too thin to trust a hold; one whale sell nukes it. Realizing profit frees slot and improves dail",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T03:11:03.710237+00:00",
+  "last_updated": "2026-09-05T03:12:48.435201+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.81,
-  "portfolio_value_usd": 21.77,
+  "last_sol_price_usd": 101.9,
+  "portfolio_value_usd": 22.03,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 02:09 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Alon at $3.0555e-06 | P&L: -24.9%",
-      "reason": "$Alon is down -24.9%, approaching hard stop at -30%. Pool is only $110 — extremely thin liquidity and our share is 1%. No bounce signal visible. Per scalp discipline rule #3 (losers exit fast at -20% with no bounce), cut now rather than wait for -30% hard stop."
-    },
     {
       "time": "2026-09-05 02:11 UTC",
       "action": "sell",
@@ -33812,40 +33800,46 @@
       "action": "buy",
       "details": "[LLM] $punch at $3.871e-06, spent 0.02 SOL",
       "reason": "$punch passes viability (real desc + twitter @gh1stsol), mcap $3,893 has held through ~1min with liquidity forming, classic boxing-monkey visual identity is a strong meme template, narrative clear. Risk: brand-new bonding-curve, thin liquidity."
+    },
+    {
+      "time": "2026-09-05 03:12 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $punch at $4.42426e-06 | P&L: +14.3%",
+      "reason": "Locking +14.3% gain on a $752-pool micro-cap. Pool is too thin to trust a hold; one whale sell nukes it. Realizing profit frees slot and improves daily P&L (-0.0396 → ~-0.032), giving me room for one disciplined entry. Not at +25% auto-TP yet, so this is discretionary profit-lock per the prompt's 'lock the gain' directive."
     }
   ],
   "trade_stats": {
-    "total": 1980,
-    "wins": 1008,
+    "total": 1981,
+    "wins": 1009,
     "losses": 972,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.11934,
-    "avg_pnl_pct": 32.88,
+    "total_pnl_sol": -2.11649,
+    "avg_pnl_pct": 32.87,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 40,
-    "today_realized_sol": -0.039559,
-    "today_target_pct": -9.9,
+    "today_trades": 41,
+    "today_realized_sol": -0.036709,
+    "today_target_pct": -9.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1008,
+      "win_count": 1009,
       "loss_count": 972,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T03:11:03.709842+00:00",
+  "last_llm_brief_at": "2026-09-05T03:12:48.184993+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "HV11H1LKwTkv7qXFBsmnzWWEXrRy9sD9XMVpwNS5pump": {
-      "price_usd": 3.966012553730947e-06,
+      "price_usd": 4.424258870780691e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 550.92811632742,
-      "volume_h24": 551.22,
+      "liquidity_usd": 752.4988391139001,
+      "volume_h24": 786.69,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 5.411335982
+      "real_sol_reserves": 7.384679481
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
