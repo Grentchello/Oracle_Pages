@@ -14749,3 +14749,6 @@
 ## [2026-09-05 00:34 UTC] sell | [FULL][LLM] $$Hero at $1.78824e-05 | P&L: +28.7%
 - **Reasoning:** Up +28.7% on thin $4601 pool after 0.1h — classic pump-and-dump setup on bonding curve. Lock the gain before it reverses; the 25% auto-TP will likely trigger soon anyway.
 
+## [2026-09-05 00:38 UTC] buy | [LLM] $Scientia at $3.55055e-06, spent 0.02 SOL
+- **Reasoning:** $Scientia — AI/agents narrative is hot, has dedicated X account (@ScientiaXyz) signaling real promoter, clear story differentiates from generic memes. Low mcap ($3.5k) means cheap entry if it runs. Risk: AI narrative is crowded; need viral tweet to pop.
+
