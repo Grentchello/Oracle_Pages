@@ -14851,3 +14851,6 @@
 ## [2026-09-05 02:16 UTC] buy | [LLM] $COF at $3.16645e-06, spent 0.02 SOL
 - **Reasoning:** $COF (Cat On Fone) — relatable trader-meme narrative with strong description and twitter presence from @CallPumpdotfun. $3.1k mcap with 5% bond progress is early. Meme resonates with degen culture.
 
+## [2026-09-05 02:20 UTC] sell | [FULL][LLM] $COF at $2.84762e-06 | P&L: -10.1%
+- **Reasoning:** $COF is down -10.1% in 0.1h with no bounce signal, narrative is weak ('Cat trade. Cat lose. Cat trade more' is self-deprecating, not viral), and capital is better rotated into a fresh attention launch with narrative momentum.
+
