@@ -14788,3 +14788,6 @@
 ## [2026-09-05 01:22 UTC] sell | [FULL][LLM] $LELE at $3.82886e-06 | P&L: -0.6%
 - **Reasoning:** Pool is only $487, well below the 5x position size liquidity floor. Flat at -0.6% after 6 minutes with no momentum and no narrative signal — locking capital back for a better setup.
 
+## [2026-09-05 01:23 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
