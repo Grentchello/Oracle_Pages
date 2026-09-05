@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.231761,
+  "balance_sol": 0.247814,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FdhAuC8vNKZTkq4LdbZDULkv2GTg7g8i3MPDJd6Tpump": {
-      "symbol": "Scientia",
-      "name": "Scientia",
-      "amount": 574164.2332742722,
-      "entry_price_usd": 3.5505520578572553e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T00:38:44.468994+00:00",
-      "entry_usd_value": 2.0386,
-      "entry_signals": {
-        "liquidity_usd": 504.7793030826801,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3549.503915452828,
-        "ath_market_cap_usd": 3817.978944691967,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.952215276,
-        "description": "Train Agents and Models in a back tested Neural Network  that doesn't lie",
-        "twitter": "https://x.com/ScientiaXyz",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33278,19 +33255,30 @@
       "pnl_pct": 28.7,
       "exit_reason": "LLM: sell_all — Up +28.7% on thin $4601 pool after 0.1h — classic pump-and-dump setup on bonding curve. Lock the gain before it reverses; the 25% auto-TP will likely ",
       "partial": false
+    },
+    {
+      "mint": "FdhAuC8vNKZTkq4LdbZDULkv2GTg7g8i3MPDJd6Tpump",
+      "symbol": "Scientia",
+      "name": "Scientia",
+      "amount_sold": 574164.1617409389,
+      "fraction_sold": 0.999999875413115,
+      "entry_time": "2026-09-05T00:38:44.468994+00:00",
+      "exit_time": "2026-09-05T00:40:32.606648+00:00",
+      "entry_price_usd": 3.5505520578572553e-06,
+      "exit_price_usd": 2.84818266618356e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016053,
+      "pnl_sol": -0.003947,
+      "pnl_pct": -19.78,
+      "exit_reason": "LLM: sell_all — Scientia is at -19.8% (essentially the -20% danger zone), held 0h with pool=$0 — this is a dead bonding-curve bag with no real liquidity and our share",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T00:38:44.469270+00:00",
+  "last_updated": "2026-09-05T00:40:32.888547+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.93,
-  "portfolio_value_usd": 25.66,
+  "last_sol_price_usd": 101.87,
+  "portfolio_value_usd": 25.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 00:08 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $AFRICA at $2.67039e-06 | P&L: -10.5%",
-      "reason": "Down 10.5% in <1h with only $22 pool liquidity = classic thin-bonding-curve dump setup. No bounce signal, narrative unclear, and capital is better rotated into a fresher launch with stronger attention."
-    },
     {
       "time": "2026-09-05 00:08 UTC",
       "action": "buy",
@@ -33404,30 +33392,48 @@
       "action": "buy",
       "details": "[LLM] $Scientia at $3.55055e-06, spent 0.02 SOL",
       "reason": "$Scientia — AI/agents narrative is hot, has dedicated X account (@ScientiaXyz) signaling real promoter, clear story differentiates from generic memes. Low mcap ($3.5k) means cheap entry if it runs. Risk: AI narrative is crowded; need viral tweet to pop."
+    },
+    {
+      "time": "2026-09-05 00:40 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Scientia at $2.84818e-06 | P&L: -19.8%",
+      "reason": "Scientia is at -19.8% (essentially the -20% danger zone), held 0h with pool=$0 — this is a dead bonding-curve bag with no real liquidity and our share is absurdly high (200663176%) meaning no one is on the other side. Cut the loss now, free the slot for a fresh attention token. -0.001 SOL realized is cheap tuition vs holding to -30%."
     }
   ],
   "trade_stats": {
-    "total": 1956,
+    "total": 1957,
     "wins": 1001,
-    "losses": 955,
-    "win_rate_pct": 51.2,
-    "total_pnl_sol": -2.080891,
-    "avg_pnl_pct": 33.38,
+    "losses": 956,
+    "win_rate_pct": 51.1,
+    "total_pnl_sol": -2.084838,
+    "avg_pnl_pct": 33.35,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 16,
-    "today_realized_sol": -0.00111,
-    "today_target_pct": -0.3,
+    "today_trades": 17,
+    "today_realized_sol": -0.005057,
+    "today_target_pct": -1.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1001,
-      "loss_count": 955,
+      "loss_count": 956,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T00:38:42.846025+00:00",
+  "last_llm_brief_at": "2026-09-05T00:40:32.606546+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FdhAuC8vNKZTkq4LdbZDULkv2GTg7g8i3MPDJd6Tpump": {
+      "price_usd": 2.84818266618356e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 8.149600000000001e-07,
+      "volume_h24": 1284.28,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 8e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

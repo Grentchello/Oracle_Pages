@@ -14752,3 +14752,6 @@
 ## [2026-09-05 00:38 UTC] buy | [LLM] $Scientia at $3.55055e-06, spent 0.02 SOL
 - **Reasoning:** $Scientia — AI/agents narrative is hot, has dedicated X account (@ScientiaXyz) signaling real promoter, clear story differentiates from generic memes. Low mcap ($3.5k) means cheap entry if it runs. Risk: AI narrative is crowded; need viral tweet to pop.
 
+## [2026-09-05 00:40 UTC] sell | [FULL][LLM] $Scientia at $2.84818e-06 | P&L: -19.8%
+- **Reasoning:** Scientia is at -19.8% (essentially the -20% danger zone), held 0h with pool=$0 — this is a dead bonding-curve bag with no real liquidity and our share is absurdly high (200663176%) meaning no one is on the other side. Cut the loss now, free the slot for a fresh attention token. -0.001 SOL realized is cheap tuition vs holding to -30%.
+
