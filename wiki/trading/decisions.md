@@ -14704,3 +14704,6 @@
 ## [2026-09-05 00:10 UTC] buy | [LLM] $RENTOPOLY at $2.852e-06, spent 0.02 SOL
 - **Reasoning:** $RENTOPOLY has a real narrative hook (Monopoly → on-chain rent, 6 districts, real payouts) plus an attached X account. $3k mcap with story + twitter = classic early attention play.
 
+## [2026-09-05 00:12 UTC] sell | [FULL][LLM] $RENTOPOLY at $2.904e-06 | P&L: +1.8%
+- **Reasoning:** +1.8% in 0.0h on $29 pool with no momentum. Pool is 5x under min liquidity threshold. Capital is locked with no catalyst — rotate to fresh attention.
+

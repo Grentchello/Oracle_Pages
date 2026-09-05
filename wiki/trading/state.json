@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.224988,
+  "balance_sol": 0.245329,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "aox7gon23QpK4f5bSrcpjWqHKCV55DjqhLaWjkKpump": {
-      "symbol": "RENTOPOLY",
-      "name": "RENTOPOLY",
-      "amount": 713955.1192145862,
-      "entry_price_usd": 2.852e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T00:10:09.713762+00:00",
-      "entry_usd_value": 2.0362,
-      "entry_signals": {
-        "liquidity_usd": 89.09748050384,
-        "volume_24h_usd": 6728.24,
-        "market_cap_usd": 3016.14643950995,
-        "ath_market_cap_usd": 11777.246773888282,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.875134864,
-        "description": "$RENTOPOLY turns Monopoly into live on-chain rent, where every deed buys a Bank share 🎩 Six districts, real payouts every 30 seconds, and open-book balances make buying the block feel playable 🏘️",
-        "twitter": "https://x.com/rentopolyzone/status/2096027427931619493",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33091,19 +33068,30 @@
       "pnl_pct": -68.32,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "aox7gon23QpK4f5bSrcpjWqHKCV55DjqhLaWjkKpump",
+      "symbol": "RENTOPOLY",
+      "name": "RENTOPOLY",
+      "amount_sold": 713955.1192145862,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T00:10:09.713762+00:00",
+      "exit_time": "2026-09-05T00:12:51.713968+00:00",
+      "entry_price_usd": 2.852e-06,
+      "exit_price_usd": 2.904000528408659e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020341,
+      "pnl_sol": 0.000341,
+      "pnl_pct": 1.82,
+      "exit_reason": "LLM: sell_all — +1.8% in 0.0h on $29 pool with no momentum. Pool is 5x under min liquidity threshold. Capital is locked with no catalyst — rotate to fresh attention.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T00:11:33.659132+00:00",
+  "last_updated": "2026-09-05T00:12:51.959720+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.89,
-  "portfolio_value_usd": 24.96,
+  "last_sol_price_usd": 101.93,
+  "portfolio_value_usd": 25.01,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 15:34 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-04 16:28 UTC",
       "action": "observe",
@@ -33217,35 +33205,41 @@
       "action": "buy",
       "details": "[LLM] $RENTOPOLY at $2.852e-06, spent 0.02 SOL",
       "reason": "$RENTOPOLY has a real narrative hook (Monopoly → on-chain rent, 6 districts, real payouts) plus an attached X account. $3k mcap with story + twitter = classic early attention play."
+    },
+    {
+      "time": "2026-09-05 00:12 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RENTOPOLY at $2.904e-06 | P&L: +1.8%",
+      "reason": "+1.8% in 0.0h on $29 pool with no momentum. Pool is 5x under min liquidity threshold. Capital is locked with no catalyst — rotate to fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 1945,
-    "wins": 992,
+    "total": 1946,
+    "wins": 993,
     "losses": 953,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.087664,
-    "avg_pnl_pct": 33.43,
+    "total_pnl_sol": -2.087323,
+    "avg_pnl_pct": 33.42,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 5,
-    "today_realized_sol": -0.007883,
-    "today_target_pct": -2.0,
+    "today_trades": 6,
+    "today_realized_sol": -0.007542,
+    "today_target_pct": -1.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 992,
+      "win_count": 993,
       "loss_count": 953,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T00:11:33.659088+00:00",
+  "last_llm_brief_at": "2026-09-05T00:12:51.713209+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "aox7gon23QpK4f5bSrcpjWqHKCV55DjqhLaWjkKpump": {
-      "price_usd": 2.902860922589603e-06,
+      "price_usd": 2.904000528408659e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 28.89828276985,
+      "liquidity_usd": 28.90962766445,
       "volume_h24": 6873.87,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
