@@ -14911,3 +14911,6 @@
 ## [2026-09-05 03:19 UTC] sell | [hard-stop] $SPIDEYPRC closed at $1.91287e-08 | P&L: -88.4%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-05 04:07 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
