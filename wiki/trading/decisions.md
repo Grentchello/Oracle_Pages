@@ -14716,3 +14716,6 @@
 ## [2026-09-05 00:23 UTC] buy | [LLM] $CASH DOG at $3.21e-06, spent 0.02 SOL
 - **Reasoning:** $CASH DOG — explicit DOG>CAT counter-narrative to Cash Cat pump, LaunchX2 promotion, $3.3k mcap. Has a clear narrative angle ('cats had their run, dogs want bag').
 
+## [2026-09-05 00:24 UTC] sell | [FULL][LLM] $CASH DOG at $3.03785e-06 | P&L: -5.4%
+- **Reasoning:** $CASH DOG is down 5.4% with essentially no hold time, weak pool liquidity of $102, and no clear viral narrative. Exit to protect the remaining balance and free the slot.
+

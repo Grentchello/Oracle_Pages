@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.228012,
+  "balance_sol": 0.246938,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "77unGJ2HrW8f9aYzXtJ4zLJbpso6XbL8BcAzYWTvpump": {
-      "symbol": "CASH DOG",
-      "name": "CASH DOG",
-      "amount": 634018.691588785,
-      "entry_price_usd": 3.21e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T00:23:28.639071+00:00",
-      "entry_usd_value": 2.0352,
-      "entry_signals": {
-        "liquidity_usd": 226.29063890496,
-        "volume_24h_usd": 210.55,
-        "market_cap_usd": 3291.3997805753065,
-        "ath_market_cap_usd": 3291.3997805753065,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.223768071,
-        "description": "$CASHDOG — DOG OVER CAT. Cash Cat already got sent. Cash Dog never did. Cats had their run. Now the dogs want the bag. DOG > CAT. CASHDOG > CASHCAT. SEND $CASHDOG.",
-        "twitter": "https://x.com/LaunchX2_/status/2096030780115812561?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33125,19 +33102,30 @@
       "pnl_pct": 13.37,
       "exit_reason": "LLM: sell_all — Up +13.4% on tiny $359 pool with1% of supply — extremely thin, vulnerable to single-wallet dump. Take the gain now, redeploy into fresh attention.",
       "partial": false
+    },
+    {
+      "mint": "77unGJ2HrW8f9aYzXtJ4zLJbpso6XbL8BcAzYWTvpump",
+      "symbol": "CASH DOG",
+      "name": "CASH DOG",
+      "amount_sold": 634018.691588785,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T00:23:28.639071+00:00",
+      "exit_time": "2026-09-05T00:24:54.201308+00:00",
+      "entry_price_usd": 3.21e-06,
+      "exit_price_usd": 3.0378498411980768e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018926,
+      "pnl_sol": -0.001074,
+      "pnl_pct": -5.36,
+      "exit_reason": "LLM: sell_all — $CASH DOG is down 5.4% with essentially no hold time, weak pool liquidity of $102, and no clear viral narrative. Exit to protect the remaining balance",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T00:23:28.639235+00:00",
+  "last_updated": "2026-09-05T00:24:54.775226+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.76,
-  "portfolio_value_usd": 25.24,
+  "last_sol_price_usd": 101.77,
+  "portfolio_value_usd": 25.13,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 18:58 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-04 20:03 UTC",
       "action": "observe",
@@ -33251,40 +33239,46 @@
       "action": "buy",
       "details": "[LLM] $CASH DOG at $3.21e-06, spent 0.02 SOL",
       "reason": "$CASH DOG — explicit DOG>CAT counter-narrative to Cash Cat pump, LaunchX2 promotion, $3.3k mcap. Has a clear narrative angle ('cats had their run, dogs want bag')."
+    },
+    {
+      "time": "2026-09-05 00:24 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CASH DOG at $3.03785e-06 | P&L: -5.4%",
+      "reason": "$CASH DOG is down 5.4% with essentially no hold time, weak pool liquidity of $102, and no clear viral narrative. Exit to protect the remaining balance and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 1947,
+    "total": 1948,
     "wins": 994,
-    "losses": 953,
-    "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.08464,
-    "avg_pnl_pct": 33.41,
+    "losses": 954,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.085714,
+    "avg_pnl_pct": 33.39,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 7,
-    "today_realized_sol": -0.004859,
-    "today_target_pct": -1.2,
+    "today_trades": 8,
+    "today_realized_sol": -0.005933,
+    "today_target_pct": -1.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 994,
-      "loss_count": 953,
+      "loss_count": 954,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T00:23:27.076128+00:00",
+  "last_llm_brief_at": "2026-09-05T00:24:54.201273+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "FeeQ3AZZKEyEtGsLrUxdHcML2dGgTgteFT5qh1zrpump": {
-      "price_usd": 3.5539104456954353e-06,
+    "77unGJ2HrW8f9aYzXtJ4zLJbpso6XbL8BcAzYWTvpump": {
+      "price_usd": 3.0378498411980768e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 359.14701012480003,
-      "volume_h24": 1386.2,
+      "liquidity_usd": 101.56703255801999,
+      "volume_h24": 278.19,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.52935348
+      "real_sol_reserves": 0.998005626
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
