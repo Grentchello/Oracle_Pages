@@ -14884,3 +14884,6 @@
 ## [2026-09-05 02:51 UTC] sell | [FULL][LLM] $RMM at $3.00827e-06 | P&L: +0.3%
 - **Reasoning:** $RMM flat at +0.3% on $85 pool, no momentum signal after initial entry. Freeing slot for fresher narrative play with stronger attention hook.
 
+## [2026-09-05 03:01 UTC] buy | [LLM] $SPIDSEM at $3.391e-06, spent 0.02 SOL
+- **Reasoning:** $SPIDSEM — 'THE BLACK SPIDER' narrative with live twitter account, mcap $3.4k at 1.1min = early attention window. Spider/horror genre has viral ceiling. 0.05 SOL position. Risk: brand-new mcap, bonding curve only 8% complete — sizing stays small.
+
