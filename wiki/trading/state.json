@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.194533,
+  "balance_sol": 0.214242,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FENVimwA1Heh9rXGf1DirJWaSSatywhwmzUViUoCpump": {
-      "symbol": "pron",
-      "name": "pooron trader",
-      "amount": 697669.6367374915,
-      "entry_price_usd": 2.918e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T02:33:03.576651+00:00",
-      "entry_usd_value": 2.0358,
-      "entry_signals": {
-        "liquidity_usd": 37.50953112504,
-        "volume_24h_usd": 38.66,
-        "market_cap_usd": 2917.6398916578287,
-        "ath_market_cap_usd": 2918.795270237091,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.368499176,
-        "description": "Seeing everyone make millions in the trenches while you’re losing money",
-        "twitter": "https://x.com/Ministerr/status/2095879494481396176",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33618,19 +33595,30 @@
       "pnl_pct": -26.84,
       "exit_reason": "LLM: sell_all — Down -26.8%, approaching hard stop. Pool only $293 (thin), no bounce signal — cut the loss now per scalp discipline (-20% rule).",
       "partial": false
+    },
+    {
+      "mint": "FENVimwA1Heh9rXGf1DirJWaSSatywhwmzUViUoCpump",
+      "symbol": "pron",
+      "name": "pooron trader",
+      "amount_sold": 697669.6367374915,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T02:33:03.576651+00:00",
+      "exit_time": "2026-09-05T02:36:11.263960+00:00",
+      "entry_price_usd": 2.918e-06,
+      "exit_price_usd": 2.8783924896591496e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019709,
+      "pnl_sol": -0.000291,
+      "pnl_pct": -1.36,
+      "exit_reason": "LLM: sell_all — Down -1.4% on a bonding-curve with only $16 pool liquidity and we own 13% of it — we ARE the exit liquidity. This is the textbook thin-pool trap where",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T02:34:43.588276+00:00",
+  "last_updated": "2026-09-05T02:36:12.281793+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.88,
-  "portfolio_value_usd": 21.85,
+  "last_sol_price_usd": 101.89,
+  "portfolio_value_usd": 21.83,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 01:48 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CASE at $3.07868e-06 | P&L: -7.4%",
-      "reason": "$CASE down -7.4% at 0.0h with only $118 pool liquidity — 2% of a tiny pool means any seller wrecks us. Cut it loose, free the slot."
-    },
     {
       "time": "2026-09-05 01:51 UTC",
       "action": "sell",
@@ -33744,40 +33732,46 @@
       "action": "buy",
       "details": "[LLM] $pron at $2.918e-06, spent 0.02 SOL",
       "reason": "$pron ('pooron trader') has a relatable trenches-narrative, attached X post from @Ministerr (Ministerr account has traction), mcap $2.9k is fresh, 1.1min age. Memecoin meta-play on 'losing money in trenches' has viral potential."
+    },
+    {
+      "time": "2026-09-05 02:36 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $pron at $2.87839e-06 | P&L: -1.4%",
+      "reason": "Down -1.4% on a bonding-curve with only $16 pool liquidity and we own 13% of it — we ARE the exit liquidity. This is the textbook thin-pool trap where our own position causes slippage on exit. Cut and rotate."
     }
   ],
   "trade_stats": {
-    "total": 1976,
+    "total": 1977,
     "wins": 1007,
-    "losses": 969,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.118119,
-    "avg_pnl_pct": 32.95,
+    "losses": 970,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -2.11841,
+    "avg_pnl_pct": 32.93,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 36,
-    "today_realized_sol": -0.038338,
-    "today_target_pct": -9.6,
+    "today_trades": 37,
+    "today_realized_sol": -0.038629,
+    "today_target_pct": -9.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1007,
-      "loss_count": 969,
+      "loss_count": 970,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T02:34:43.329868+00:00",
+  "last_llm_brief_at": "2026-09-05T02:36:11.263494+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FENVimwA1Heh9rXGf1DirJWaSSatywhwmzUViUoCpump": {
-      "price_usd": 2.8836520247971656e-06,
+      "price_usd": 2.8783924896591496e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 18.82136071368,
-      "volume_h24": 58.4,
+      "liquidity_usd": 15.86639251578,
+      "volume_h24": 59.84,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.184740486
+      "real_sol_reserves": 0.155720802
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
