@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.232361,
+  "balance_sol": 0.251931,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "5TLSonq8gSUB9MbUSwGseP5a2aaatW92k9X8iJvXpump": {
       "symbol": "AFRICA",
       "name": "AFRICA",
-      "amount": 683487.3296276209,
+      "amount": 256307.7486103578,
       "entry_price_usd": 2.982937520013405e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-05T00:06:01.149670+00:00",
       "entry_usd_value": 2.0388,
       "entry_signals": {
@@ -33023,25 +33023,47 @@
       "pnl_pct": -2.48,
       "exit_reason": "LLM: sell_all — $Shivolink is -2.5% and flat at 0.0h held — no momentum, micro-cap with only $240 pool (well below 5x position size). Free up the slot for fresh launc",
       "partial": false
+    },
+    {
+      "mint": "5TLSonq8gSUB9MbUSwGseP5a2aaatW92k9X8iJvXpump",
+      "symbol": "AFRICA",
+      "name": "AFRICA",
+      "amount_sold": 170871.83240690522,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-05T00:06:01.149670+00:00",
+      "exit_time": "2026-09-05T00:07:04.885877+00:00",
+      "entry_price_usd": 2.982937520013405e-06,
+      "exit_price_usd": 4.67006099204161e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007828,
+      "pnl_sol": 0.002828,
+      "pnl_pct": 56.56,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "5TLSonq8gSUB9MbUSwGseP5a2aaatW92k9X8iJvXpump",
+      "symbol": "AFRICA",
+      "name": "AFRICA",
+      "amount_sold": 256307.7486103578,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-05T00:06:01.149670+00:00",
+      "exit_time": "2026-09-05T00:07:27.532077+00:00",
+      "entry_price_usd": 2.982937520013405e-06,
+      "exit_price_usd": 4.67006099204161e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.011742,
+      "pnl_sol": 0.004242,
+      "pnl_pct": 56.56,
+      "exit_reason": "LLM: sell_half — Up +56.6% on a $39 pool where we own 6% — illiquid and easy to reverse. Lock half the gain now, keep a runner for further upside without risking the w",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-05T00:06:01.149850+00:00",
+  "last_updated": "2026-09-05T00:07:27.798229+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.94,
-  "portfolio_value_usd": 25.73,
+  "portfolio_value_usd": 26.45,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 12:00 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-04 12:55 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-04 13:21 UTC",
       "action": "observe",
@@ -33149,30 +33171,54 @@
       "action": "buy",
       "details": "[LLM] $AFRICA at $2.98294e-06, spent 0.02 SOL",
       "reason": "$AFRICA - narrative tied to UN vote ditching Mercator projection (164-1, only US opposed). Polymarket twitter attached = real news catalyst. Cultural/political meme with viral potential. $3k mcap is entry-point range."
+    },
+    {
+      "time": "2026-09-05 00:07 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $AFRICA at $4.67006e-06 | P&L: +56.6%",
+      "reason": "Auto take-profit at +56.6%"
+    },
+    {
+      "time": "2026-09-05 00:07 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $AFRICA at $4.67006e-06 | P&L: +56.6%",
+      "reason": "Up +56.6% on a $39 pool where we own 6% — illiquid and easy to reverse. Lock half the gain now, keep a runner for further upside without risking the whole position."
     }
   ],
   "trade_stats": {
-    "total": 1941,
-    "wins": 990,
+    "total": 1943,
+    "wins": 992,
     "losses": 951,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.080291,
-    "avg_pnl_pct": 33.48,
+    "win_rate_pct": 51.1,
+    "total_pnl_sol": -2.073221,
+    "avg_pnl_pct": 33.51,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 1,
-    "today_realized_sol": -0.00051,
-    "today_target_pct": -0.1,
+    "today_trades": 3,
+    "today_realized_sol": 0.00656,
+    "today_target_pct": 1.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 990,
+      "win_count": 992,
       "loss_count": 951,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T00:05:59.239862+00:00",
+  "last_llm_brief_at": "2026-09-05T00:07:27.532038+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5TLSonq8gSUB9MbUSwGseP5a2aaatW92k9X8iJvXpump": {
+      "price_usd": 4.67006099204161e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 39.05813270694,
+      "volume_h24": 124.88,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.383148251
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

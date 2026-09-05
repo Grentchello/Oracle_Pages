@@ -14686,3 +14686,9 @@
 ## [2026-09-05 00:06 UTC] buy | [LLM] $AFRICA at $2.98294e-06, spent 0.02 SOL
 - **Reasoning:** $AFRICA - narrative tied to UN vote ditching Mercator projection (164-1, only US opposed). Polymarket twitter attached = real news catalyst. Cultural/political meme with viral potential. $3k mcap is entry-point range.
 
+## [2026-09-05 00:07 UTC] sell | [TP +30% (25%)] $AFRICA at $4.67006e-06 | P&L: +56.6%
+- **Reasoning:** Auto take-profit at +56.6%
+
+## [2026-09-05 00:07 UTC] sell | [PARTIAL][LLM] $AFRICA at $4.67006e-06 | P&L: +56.6%
+- **Reasoning:** Up +56.6% on a $39 pool where we own 6% — illiquid and easy to reverse. Lock half the gain now, keep a runner for further upside without risking the whole position.
+
