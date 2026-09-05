@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.183024,
+  "balance_sol": 0.222744,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "B5subNV4HFK9e9R7r6pjUMaUFg18jLT6EN3mLiJS3Sxv": {
-      "symbol": "CULIO",
-      "name": "Culio",
-      "amount": 674854.4973544973,
-      "entry_price_usd": 3.024e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T01:51:09.668526+00:00",
-      "entry_usd_value": 2.04076,
-      "entry_signals": {
-        "liquidity_usd": 91.834200408152,
-        "volume_24h_usd": 385.25,
-        "market_cap_usd": 3024.3065427959696,
-        "ath_market_cap_usd": 3261.392974846304,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.900000004,
-        "description": "Culio — the horse meme AI agents invented on their own Backrooms wiki. Nowhere else on the internet until humans found it. https://x.com/PetaIS0L/status/2095988652165779473",
-        "twitter": "https://x.com/PetaIS0L/status/2095988652165779473",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "8dLJ2VAyVmqBZKh2fJwLdFpQ18nTQrV36XBcgUYyBEfq": {
-      "symbol": "BASECA",
-      "name": "Basecat",
-      "amount": 704699.3780234968,
-      "entry_price_usd": 2.894e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T01:55:14.542910+00:00",
-      "entry_usd_value": 2.0394,
-      "entry_signals": {
-        "liquidity_usd": 14.474974024169999,
-        "volume_24h_usd": 238.3,
-        "market_cap_usd": 2860.4387655240125,
-        "ath_market_cap_usd": 3105.6355403295315,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.141953261,
-        "description": "Inspired by what's trending right now: \"Basecat\" — Launched by SO(u)L Trading",
-        "twitter": "https://x.com/BasecatOnBase",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33504,25 +33459,47 @@
       "pnl_pct": -3.43,
       "exit_reason": "LLM: sell_all — Down3.4% at 20min with $55 pool (only 11x position size — thin liquidity for exit), no clear narrative momentum, and I need to free a slot to rotate i",
       "partial": false
+    },
+    {
+      "mint": "B5subNV4HFK9e9R7r6pjUMaUFg18jLT6EN3mLiJS3Sxv",
+      "symbol": "CULIO",
+      "name": "Culio",
+      "amount_sold": 674854.4973544973,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T01:51:09.668526+00:00",
+      "exit_time": "2026-09-05T01:56:30.977632+00:00",
+      "entry_price_usd": 3.024e-06,
+      "exit_price_usd": 3.022230224063175e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020017,
+      "pnl_sol": 1.7e-05,
+      "pnl_pct": -0.06,
+      "exit_reason": "LLM: sell_all — $CULIO flat (-0.1%) after 0.1h on a $92 pool with 2% share — no attention signal, no momentum, no narrative. Free up the slot for something with a pul",
+      "partial": false
+    },
+    {
+      "mint": "8dLJ2VAyVmqBZKh2fJwLdFpQ18nTQrV36XBcgUYyBEfq",
+      "symbol": "BASECA",
+      "name": "Basecat",
+      "amount_sold": 704699.2796651636,
+      "fraction_sold": 0.999999860425117,
+      "entry_time": "2026-09-05T01:55:14.542910+00:00",
+      "exit_time": "2026-09-05T01:56:30.977978+00:00",
+      "entry_price_usd": 2.894e-06,
+      "exit_price_usd": 2.8487418463381083e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019703,
+      "pnl_sol": -0.000297,
+      "pnl_pct": -1.56,
+      "exit_reason": "LLM: sell_all — $BASECA pool shows $0 liquidity and our share of 179115321% means the bot can't even quote a real price — this is broken/rugged/stuck. Cut the loss an",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T01:55:14.543178+00:00",
+  "last_updated": "2026-09-05T01:56:31.240423+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.97,
-  "portfolio_value_usd": 22.74,
+  "last_sol_price_usd": 101.89,
+  "portfolio_value_usd": 22.7,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 01:08 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ZARD at $2.88902e-06 | P&L: +0.1%",
-      "reason": "$ZARD is flat at +0.1% after 0.0h with a tiny $22 pool and 9% of supply owned by us = we ARE the liquidity. Any other seller will crush price. Exit before we become bagholders."
-    },
-    {
-      "time": "2026-09-05 01:16 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-05 01:17 UTC",
       "action": "buy",
@@ -33630,40 +33607,63 @@
       "action": "buy",
       "details": "[LLM] $BASECA at $2.894e-06, spent 0.02 SOL",
       "reason": "$BASECA — trending 'Basecat' meme narrative, named launcher (SO(u)L Trading), twitter presence, clean attention hook. Passes viability + fragility gates. Best narrative of the batch."
+    },
+    {
+      "time": "2026-09-05 01:56 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CULIO at $3.02223e-06 | P&L: -0.1%",
+      "reason": "$CULIO flat (-0.1%) after 0.1h on a $92 pool with 2% share — no attention signal, no momentum, no narrative. Free up the slot for something with a pulse."
+    },
+    {
+      "time": "2026-09-05 01:56 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BASECA at $2.84874e-06 | P&L: -1.6%",
+      "reason": "$BASECA pool shows $0 liquidity and our share of 179115321% means the bot can't even quote a real price — this is broken/rugged/stuck. Cut the loss and reclaim the slot."
     }
   ],
   "trade_stats": {
-    "total": 1968,
-    "wins": 1004,
-    "losses": 964,
+    "total": 1970,
+    "wins": 1005,
+    "losses": 965,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.109628,
-    "avg_pnl_pct": 33.1,
+    "total_pnl_sol": -2.109908,
+    "avg_pnl_pct": 33.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 28,
-    "today_realized_sol": -0.029847,
+    "today_trades": 30,
+    "today_realized_sol": -0.030127,
     "today_target_pct": -7.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1004,
-      "loss_count": 964,
+      "win_count": 1005,
+      "loss_count": 965,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T01:55:13.165845+00:00",
+  "last_llm_brief_at": "2026-09-05T01:56:30.977596+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "B5subNV4HFK9e9R7r6pjUMaUFg18jLT6EN3mLiJS3Sxv": {
-      "price_usd": 3.024603159757797e-06,
+      "price_usd": 3.022230224063175e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 91.77300040788,
+      "liquidity_usd": 91.70100040756,
       "volume_h24": 385.25,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.900000004
+    },
+    "8dLJ2VAyVmqBZKh2fJwLdFpQ18nTQrV36XBcgUYyBEfq": {
+      "price_usd": 2.8487418463381083e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.1207899999999999e-06,
+      "volume_h24": 286.69,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.1e-08
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

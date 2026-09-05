@@ -14830,3 +14830,9 @@
 ## [2026-09-05 01:55 UTC] buy | [LLM] $BASECA at $2.894e-06, spent 0.02 SOL
 - **Reasoning:** $BASECA — trending 'Basecat' meme narrative, named launcher (SO(u)L Trading), twitter presence, clean attention hook. Passes viability + fragility gates. Best narrative of the batch.
 
+## [2026-09-05 01:56 UTC] sell | [FULL][LLM] $CULIO at $3.02223e-06 | P&L: -0.1%
+- **Reasoning:** $CULIO flat (-0.1%) after 0.1h on a $92 pool with 2% share — no attention signal, no momentum, no narrative. Free up the slot for something with a pulse.
+
+## [2026-09-05 01:56 UTC] sell | [FULL][LLM] $BASECA at $2.84874e-06 | P&L: -1.6%
+- **Reasoning:** $BASECA pool shows $0 liquidity and our share of 179115321% means the bot can't even quote a real price — this is broken/rugged/stuck. Cut the loss and reclaim the slot.
+
