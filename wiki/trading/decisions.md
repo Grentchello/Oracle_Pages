@@ -14770,3 +14770,6 @@
 ## [2026-09-05 01:07 UTC] buy | [LLM] $ZARD at $2.886e-06, spent 0.02 SOL
 - **Reasoning:** $ZARD (fat charizard) is the only candidate that clears the viability gate (desc 56 chars + twitter). Pokemon/charizard nostalgia is a proven viral narrative on memecoins, age 0.7min means fresh attention, and 0.05 SOL size keeps risk bounded even if liquidity is thin. Risk: $2.9k mcap liquidity may not meet 5x rule — accepting because bot auto-blocks at execution if so.
 
+## [2026-09-05 01:08 UTC] sell | [FULL][LLM] $ZARD at $2.88902e-06 | P&L: +0.1%
+- **Reasoning:** $ZARD is flat at +0.1% after 0.0h with a tiny $22 pool and 9% of supply owned by us = we ARE the liquidity. Any other seller will crush price. Exit before we become bagholders.
+

@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.231666,
+  "balance_sol": 0.251703,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9KpcHakJSwD5Rvhb1rdYuvp9Uz8dqcYnDkNbcyZCpump": {
-      "symbol": "ZARD",
-      "name": "fat charizard",
-      "amount": 706444.9064449065,
-      "entry_price_usd": 2.886e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T01:07:17.007578+00:00",
-      "entry_usd_value": 2.0388,
-      "entry_signals": {
-        "liquidity_usd": 21.998002846080002,
-        "volume_24h_usd": 19.99,
-        "market_cap_usd": 2887.4322009786015,
-        "ath_market_cap_usd": 2889.933040947522,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.215793632,
-        "description": "charizard is here!? well kind of so charizard fans unite!",
-        "twitter": "https://x.com/fatcharizardx?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33329,19 +33306,30 @@
       "pnl_pct": -0.3,
       "exit_reason": "LLM: sell_all — Taiwan position is -0.3% after 0.0h, pool only $48 (well below 5x position), bonding-curve phase with no momentum. Liquidity is dangerously thin and t",
       "partial": false
+    },
+    {
+      "mint": "9KpcHakJSwD5Rvhb1rdYuvp9Uz8dqcYnDkNbcyZCpump",
+      "symbol": "ZARD",
+      "name": "fat charizard",
+      "amount_sold": 706444.9064449065,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T01:07:17.007578+00:00",
+      "exit_time": "2026-09-05T01:08:36.599103+00:00",
+      "entry_price_usd": 2.886e-06,
+      "exit_price_usd": 2.889021051745058e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020037,
+      "pnl_sol": 3.7e-05,
+      "pnl_pct": 0.1,
+      "exit_reason": "LLM: sell_all — $ZARD is flat at +0.1% after 0.0h with a tiny $22 pool and 9% of supply owned by us = we ARE the liquidity. Any other seller will crush price. Exit be",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T01:07:17.007761+00:00",
+  "last_updated": "2026-09-05T01:08:36.861091+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.94,
-  "portfolio_value_usd": 25.65,
+  "last_sol_price_usd": 101.86,
+  "portfolio_value_usd": 25.64,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 00:23 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $robinalon at $3.55391e-06 | P&L: +13.4%",
-      "reason": "Up +13.4% on tiny $359 pool with1% of supply — extremely thin, vulnerable to single-wallet dump. Take the gain now, redeploy into fresh attention."
-    },
     {
       "time": "2026-09-05 00:23 UTC",
       "action": "buy",
@@ -33455,30 +33443,48 @@
       "action": "buy",
       "details": "[LLM] $ZARD at $2.886e-06, spent 0.02 SOL",
       "reason": "$ZARD (fat charizard) is the only candidate that clears the viability gate (desc 56 chars + twitter). Pokemon/charizard nostalgia is a proven viral narrative on memecoins, age 0.7min means fresh attention, and 0.05 SOL size keeps risk bounded even if liquidity is thin. Risk: $2.9k mcap liquidity may not meet 5x rule — accepting because bot auto-blocks at execution if so."
+    },
+    {
+      "time": "2026-09-05 01:08 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ZARD at $2.88902e-06 | P&L: +0.1%",
+      "reason": "$ZARD is flat at +0.1% after 0.0h with a tiny $22 pool and 9% of supply owned by us = we ARE the liquidity. Any other seller will crush price. Exit before we become bagholders."
     }
   ],
   "trade_stats": {
-    "total": 1959,
-    "wins": 1002,
+    "total": 1960,
+    "wins": 1003,
     "losses": 957,
-    "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.080986,
-    "avg_pnl_pct": 33.33,
+    "win_rate_pct": 51.2,
+    "total_pnl_sol": -2.080949,
+    "avg_pnl_pct": 33.31,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 19,
-    "today_realized_sol": -0.001205,
+    "today_trades": 20,
+    "today_realized_sol": -0.001168,
     "today_target_pct": -0.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1002,
+      "win_count": 1003,
       "loss_count": 957,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T01:07:15.426615+00:00",
+  "last_llm_brief_at": "2026-09-05T01:08:36.599067+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "9KpcHakJSwD5Rvhb1rdYuvp9Uz8dqcYnDkNbcyZCpump": {
+      "price_usd": 2.889021051745058e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 21.98073935552,
+      "volume_h24": 26.04,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.215793632
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
