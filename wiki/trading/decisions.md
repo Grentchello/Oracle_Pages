@@ -14761,3 +14761,6 @@
 ## [2026-09-05 00:45 UTC] sell | [FULL][LLM] $FLAUDE at $3.46441e-06 | P&L: +19.7%
 - **Reasoning:** Up +19.7% but only held 0h on a $313 pool with 1% share — thin liquidity means any retrace to entry is likely. Lock the gain now rather than watch it evaporate.
 
+## [2026-09-05 00:57 UTC] buy | [LLM] $Taiwan at $2.9474e-06, spent 0.02 SOL
+- **Reasoning:** $Taiwan has a linked X account (machibigbrother), full narrative description passing viability gate, $3k mcap with recognizable geo-cultural narrative. Taiwan/cultural tokens have shown viral attention cycles. Risk: bond at 2%, very early — position is the hard-rules-mandated 0.05 SOL not 0.1, leaving reserve intact.
+
