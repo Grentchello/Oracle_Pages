@@ -14854,3 +14854,6 @@
 ## [2026-09-05 02:20 UTC] sell | [FULL][LLM] $COF at $2.84762e-06 | P&L: -10.1%
 - **Reasoning:** $COF is down -10.1% in 0.1h with no bounce signal, narrative is weak ('Cat trade. Cat lose. Cat trade more' is self-deprecating, not viral), and capital is better rotated into a fresh attention launch with narrative momentum.
 
+## [2026-09-05 02:23 UTC] buy | [LLM] $rti at $3.55316e-06, spent 0.02 SOL
+- **Reasoning:** $rti — Indian RTI (Right to Information) civic narrative has viral potential, active X account @gh1stsol, freshest launch (0.3min), mcap ~$3.5k. Buying 0.05 SOL. Risk: brand-new launch, bond only 9% complete, no confirmed holders yet — tight stop will protect.
+
