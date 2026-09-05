@@ -14842,3 +14842,6 @@
 ## [2026-09-05 02:08 UTC] buy | [LLM] $Alon at $4.0696e-06, spent 0.02 SOL
 - **Reasoning:** $Alon — freshest launch (0.1min), $4k mcap, has viral X post from MrLustFn, rival-narrative to Vlad the Trencher ('original inventor'). Classic pump.fun story-coin with early attention. Sized 0.05 SOL per scalp rules.
 
+## [2026-09-05 02:09 UTC] sell | [FULL][LLM] $Alon at $3.0555e-06 | P&L: -24.9%
+- **Reasoning:** $Alon is down -24.9%, approaching hard stop at -30%. Pool is only $110 — extremely thin liquidity and our share is 1%. No bounce signal visible. Per scalp discipline rule #3 (losers exit fast at -20% with no bounce), cut now rather than wait for -30% hard stop.
+
