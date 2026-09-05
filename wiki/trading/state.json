@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.202938,
+  "balance_sol": 0.193357,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "CKYuKi35pm2cGRjPnw2LyRQKkCzSYMkuPiZbEQrwQBa7": {
       "symbol": "MEMEETF",
       "name": "MemeStock ETF by OTC",
-      "amount": 667516.3398692809,
+      "amount": 333758.16993464046,
       "entry_price_usd": 3.06e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-05T01:40:42.792305+00:00",
       "entry_usd_value": 2.0425999999999997,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 1.072127504,
         "description": "Powered by OTC Desks https://magiceden.io/marketplace/otc_desks",
         "twitter": "https://x.com/OTCDesks/status/2096035428595900632",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "B5subNV4HFK9e9R7r6pjUMaUFg18jLT6EN3mLiJS3Sxv": {
+      "symbol": "CULIO",
+      "name": "Culio",
+      "amount": 674854.4973544973,
+      "entry_price_usd": 3.024e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-05T01:51:09.668526+00:00",
+      "entry_usd_value": 2.04076,
+      "entry_signals": {
+        "liquidity_usd": 91.834200408152,
+        "volume_24h_usd": 385.25,
+        "market_cap_usd": 3024.3065427959696,
+        "ath_market_cap_usd": 3261.392974846304,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.900000004,
+        "description": "Culio — the horse meme AI agents invented on their own Backrooms wiki. Nowhere else on the internet until humans found it. https://x.com/PetaIS0L/status/2095988652165779473",
+        "twitter": "https://x.com/PetaIS0L/status/2095988652165779473",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -33448,25 +33470,30 @@
       "pnl_pct": -7.43,
       "exit_reason": "LLM: sell_all — $CASE down -7.4% at 0.0h with only $118 pool liquidity — 2% of a tiny pool means any seller wrecks us. Cut it loose, free the slot.",
       "partial": false
+    },
+    {
+      "mint": "CKYuKi35pm2cGRjPnw2LyRQKkCzSYMkuPiZbEQrwQBa7",
+      "symbol": "MEMEETF",
+      "name": "MemeStock ETF by OTC",
+      "amount_sold": 333758.16993464046,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-05T01:40:42.792305+00:00",
+      "exit_time": "2026-09-05T01:51:08.112961+00:00",
+      "entry_price_usd": 3.06e-06,
+      "exit_price_usd": 3.1854434990507597e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.010419,
+      "pnl_sol": 0.000419,
+      "pnl_pct": 4.1,
+      "exit_reason": "LLM: sell_half — MEMEETF up +4.1% after 0.2h, pool only $174 — tiny. Half off locks +2% gain and frees capital for fresh launches with much more attention.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-05T01:49:34.963145+00:00",
+  "last_updated": "2026-09-05T01:51:09.668691+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.092,
-  "portfolio_value_usd": 22.76,
+  "last_sol_price_usd": 102.038,
+  "portfolio_value_usd": 22.79,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 00:45 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $FLAUDE at $3.46441e-06 | P&L: +19.7%",
-      "reason": "Up +19.7% but only held 0h on a $313 pool with 1% share — thin liquidity means any retrace to entry is likely. Lock the gain now rather than watch it evaporate."
-    },
-    {
-      "time": "2026-09-05 00:57 UTC",
-      "action": "buy",
-      "details": "[LLM] $Taiwan at $2.9474e-06, spent 0.02 SOL",
-      "reason": "$Taiwan has a linked X account (machibigbrother), full narrative description passing viability gate, $3k mcap with recognizable geo-cultural narrative. Taiwan/cultural tokens have shown viral attention cycles. Risk: bond at 2%, very early — position is the hard-rules-mandated 0.05 SOL not 0.1, leaving reserve intact."
-    },
     {
       "time": "2026-09-05 00:58 UTC",
       "action": "sell",
@@ -33574,40 +33601,52 @@
       "action": "sell",
       "details": "[FULL][LLM] $CASE at $3.07868e-06 | P&L: -7.4%",
       "reason": "$CASE down -7.4% at 0.0h with only $118 pool liquidity — 2% of a tiny pool means any seller wrecks us. Cut it loose, free the slot."
+    },
+    {
+      "time": "2026-09-05 01:51 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $MEMEETF at $3.18544e-06 | P&L: +4.1%",
+      "reason": "MEMEETF up +4.1% after 0.2h, pool only $174 — tiny. Half off locks +2% gain and frees capital for fresh launches with much more attention."
+    },
+    {
+      "time": "2026-09-05 01:51 UTC",
+      "action": "buy",
+      "details": "[LLM] $CULIO at $3.024e-06, spent 0.02 SOL",
+      "reason": "$CULIO — strong narrative: 'AI agents invented this horse meme on their own Backrooms wiki, nowhere else on internet.' That's a genuinely novel story, has Twitter, mcap $3k — easy 5-10x potential if narrative spreads."
     }
   ],
   "trade_stats": {
-    "total": 1966,
-    "wins": 1003,
+    "total": 1967,
+    "wins": 1004,
     "losses": 963,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.109714,
-    "avg_pnl_pct": 33.13,
+    "total_pnl_sol": -2.109295,
+    "avg_pnl_pct": 33.12,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 26,
-    "today_realized_sol": -0.029933,
-    "today_target_pct": -7.5,
+    "today_trades": 27,
+    "today_realized_sol": -0.029514,
+    "today_target_pct": -7.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1003,
+      "win_count": 1004,
       "loss_count": 963,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T01:49:34.697354+00:00",
+  "last_llm_brief_at": "2026-09-05T01:51:08.112466+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "CKYuKi35pm2cGRjPnw2LyRQKkCzSYMkuPiZbEQrwQBa7": {
-      "price_usd": 3.2207343491554893e-06,
+      "price_usd": 3.1854434990507597e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 190.61254137742,
-      "volume_h24": 258.03,
+      "liquidity_usd": 173.503408418654,
+      "volume_h24": 275.02,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.867066385
+      "real_sol_reserves": 1.700380333
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

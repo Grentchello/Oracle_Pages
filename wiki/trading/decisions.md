@@ -14818,3 +14818,9 @@
 ## [2026-09-05 01:48 UTC] sell | [FULL][LLM] $CASE at $3.07868e-06 | P&L: -7.4%
 - **Reasoning:** $CASE down -7.4% at 0.0h with only $118 pool liquidity — 2% of a tiny pool means any seller wrecks us. Cut it loose, free the slot.
 
+## [2026-09-05 01:51 UTC] sell | [PARTIAL][LLM] $MEMEETF at $3.18544e-06 | P&L: +4.1%
+- **Reasoning:** MEMEETF up +4.1% after 0.2h, pool only $174 — tiny. Half off locks +2% gain and frees capital for fresh launches with much more attention.
+
+## [2026-09-05 01:51 UTC] buy | [LLM] $CULIO at $3.024e-06, spent 0.02 SOL
+- **Reasoning:** $CULIO — strong narrative: 'AI agents invented this horse meme on their own Backrooms wiki, nowhere else on internet.' That's a genuinely novel story, has Twitter, mcap $3k — easy 5-10x potential if narrative spreads.
+
