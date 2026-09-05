@@ -14812,3 +14812,6 @@
 ## [2026-09-05 01:43 UTC] sell | [FULL][LLM] $TAKEIT at $3.1406e-06 | P&L: -1.7%
 - **Reasoning:** $TAKEIT -1.7% on a meaningless-name ticker at $149 pool with only 1% share. Free the slot — better narratives launching now ($Raydiumdog has official Raydium X post backing, $GOKU/ETF/true/HookPot all viable). Capital rotation beats bag-holding a junk ticker at breakeven.
 
+## [2026-09-05 01:46 UTC] buy | [LLM] $CASE at $3.32561e-06, spent 0.02 SOL
+- **Reasoning:** $CASE has a novel 'memestock basket' narrative (creator fees buy OpenAI/Anthropic/etc) - this is a fresh attention hook that differentiates it from generic launches. 0.1min old, small mcap, real description passes viability gate.
+
