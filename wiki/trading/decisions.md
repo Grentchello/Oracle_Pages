@@ -14794,3 +14794,6 @@
 ## [2026-09-05 01:24 UTC] buy | [LLM] $$NOSELL at $5.275e-06, spent 0.02 SOL
 - **Reasoning:** $NOSELL (No Sell September) has the highest mcap ($8.1k) of any launch, a self-referential meta-narrative ('hold or fail' challenge) that pre-commits holders psychologically — exactly the kind of attention loop that 5-10x's in memecoins. Community-driven bagholder game = viral mechanism.
 
+## [2026-09-05 01:26 UTC] sell | [hard-stop] $$NOSELL closed at $3.17078e-08 | P&L: -99.4%
+- **Reasoning:** Hard -30% stop
+

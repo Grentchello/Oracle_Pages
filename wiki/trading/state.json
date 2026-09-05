@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.230706,
+  "balance_sol": 0.230826,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7RprHPS1HJx7AUNBHKWMGDYAuQX6JtAggDcpFb3Ppump": {
-      "symbol": "$NOSELL",
-      "name": "No Sell September",
-      "amount": 386236.9668246446,
-      "entry_price_usd": 5.275e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T01:24:57.241095+00:00",
-      "entry_usd_value": 2.0374000000000003,
-      "entry_signals": {
-        "liquidity_usd": 128.52421541344,
-        "volume_24h_usd": 25.52,
-        "market_cap_usd": 8100.4028894683415,
-        "ath_market_cap_usd": 39970.3373610978,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.261649312,
-        "description": "NO SELL SEPTEMBER 🫡 The challenge is simple: Survive September without touching the red button. Sell = you failed. Hold = you’re still in the game. 30 days. One button. Zero self-control. $NOSELL — made for memes, not promises.",
-        "twitter": "https://x.com/NoSellSeptember",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33380,19 +33357,30 @@
       "pnl_pct": -0.6,
       "exit_reason": "LLM: sell_all — Pool is only $487, well below the 5x position size liquidity floor. Flat at -0.6% after 6 minutes with no momentum and no narrative signal — locking c",
       "partial": false
+    },
+    {
+      "mint": "7RprHPS1HJx7AUNBHKWMGDYAuQX6JtAggDcpFb3Ppump",
+      "symbol": "$NOSELL",
+      "name": "No Sell September",
+      "amount_sold": 386236.9668246446,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T01:24:57.241095+00:00",
+      "exit_time": "2026-09-05T01:26:01.165586+00:00",
+      "entry_price_usd": 5.275e-06,
+      "exit_price_usd": 3.1707765549327035e-08,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.00012,
+      "pnl_sol": -0.01988,
+      "pnl_pct": -99.4,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T01:24:57.241373+00:00",
+  "last_updated": "2026-09-05T01:26:23.867330+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.87,
-  "portfolio_value_usd": 25.54,
+  "last_sol_price_usd": 101.95,
+  "portfolio_value_usd": 23.53,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 00:30 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $$Hero at $2.00979e-05 | P&L: +44.6%",
-      "reason": "Up +44.6% but 'our share=0%' suggests fill uncertainty — locking half locks realized gains while letting the rest ride the +50/+100/+200 trailing TP ladder. Stale-flat risk is real on a 0.0h hold reading."
-    },
     {
       "time": "2026-09-05 00:31 UTC",
       "action": "sell",
@@ -33506,30 +33494,48 @@
       "action": "buy",
       "details": "[LLM] $$NOSELL at $5.275e-06, spent 0.02 SOL",
       "reason": "$NOSELL (No Sell September) has the highest mcap ($8.1k) of any launch, a self-referential meta-narrative ('hold or fail' challenge) that pre-commits holders psychologically — exactly the kind of attention loop that 5-10x's in memecoins. Community-driven bagholder game = viral mechanism."
+    },
+    {
+      "time": "2026-09-05 01:26 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $$NOSELL closed at $3.17078e-08 | P&L: -99.4%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 1962,
+    "total": 1963,
     "wins": 1003,
-    "losses": 959,
+    "losses": 960,
     "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.081946,
-    "avg_pnl_pct": 33.27,
+    "total_pnl_sol": -2.101826,
+    "avg_pnl_pct": 33.21,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 22,
-    "today_realized_sol": -0.002165,
-    "today_target_pct": -0.5,
+    "today_trades": 23,
+    "today_realized_sol": -0.022045,
+    "today_target_pct": -5.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1003,
-      "loss_count": 959,
+      "loss_count": 960,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T01:24:55.454715+00:00",
+  "last_llm_brief_at": "2026-09-05T01:26:23.329819+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "7RprHPS1HJx7AUNBHKWMGDYAuQX6JtAggDcpFb3Ppump": {
+      "price_usd": 3.1707765549327035e-08,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4.4789079760999995,
+      "volume_h24": 3411.2,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.043932398
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
