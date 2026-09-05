@@ -14881,3 +14881,6 @@
 ## [2026-09-05 02:50 UTC] buy | [LLM] $RMM at $2.99991e-06, spent 0.02 SOL
 - **Reasoning:** $RMM (Real Monkey Motion) — has Twitter link referencing a viral video/tweet, 'degen community' narrative is live, mcap $3k with 2% bonding. Attention signal present via X post.
 
+## [2026-09-05 02:51 UTC] sell | [FULL][LLM] $RMM at $3.00827e-06 | P&L: +0.3%
+- **Reasoning:** $RMM flat at +0.3% on $85 pool, no momentum signal after initial entry. Freeing slot for fresher narrative play with stronger attention hook.
+

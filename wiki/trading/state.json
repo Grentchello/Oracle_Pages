@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.194242,
+  "balance_sol": 0.214306,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EcQKos6j2ALRkryvo1uBEDpCNpKfwjaYfPPNA9X4pump": {
-      "symbol": "RMM",
-      "name": "Real Monkey Motion   ",
-      "amount": 679153.2012473883,
-      "entry_price_usd": 2.9999122381488377e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-05T02:50:02.781513+00:00",
-      "entry_usd_value": 2.0374000000000003,
-      "entry_signals": {
-        "liquidity_usd": 85.32704607522001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2999.604130876994,
-        "ath_market_cap_usd": 8934.604981743403,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.837607206,
-        "description": "Real Monkey Motion ($RMM) is the ultimate high energy meme coin built for the degen community",
-        "twitter": "https://x.com/entrydotwtf/status/2096066866594898169?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33635,19 +33612,30 @@
       "pnl_pct": -1.36,
       "exit_reason": "LLM: sell_all — Down -1.4% on a bonding-curve with only $16 pool liquidity and we own 13% of it — we ARE the exit liquidity. This is the textbook thin-pool trap where",
       "partial": false
+    },
+    {
+      "mint": "EcQKos6j2ALRkryvo1uBEDpCNpKfwjaYfPPNA9X4pump",
+      "symbol": "RMM",
+      "name": "Real Monkey Motion   ",
+      "amount_sold": 679153.2012473883,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T02:50:02.781513+00:00",
+      "exit_time": "2026-09-05T02:51:23.570455+00:00",
+      "entry_price_usd": 2.9999122381488377e-06,
+      "exit_price_usd": 3.0082651411361154e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020064,
+      "pnl_sol": 6.4e-05,
+      "pnl_pct": 0.28,
+      "exit_reason": "LLM: sell_all — $RMM flat at +0.3% on $85 pool, no momentum signal after initial entry. Freeing slot for fresher narrative play with stronger attention hook.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T02:50:03.295002+00:00",
+  "last_updated": "2026-09-05T02:51:23.817301+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.87,
+  "last_sol_price_usd": 101.83,
   "portfolio_value_usd": 21.82,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 01:51 UTC",
-      "action": "buy",
-      "details": "[LLM] $CULIO at $3.024e-06, spent 0.02 SOL",
-      "reason": "$CULIO — strong narrative: 'AI agents invented this horse meme on their own Backrooms wiki, nowhere else on internet.' That's a genuinely novel story, has Twitter, mcap $3k — easy 5-10x potential if narrative spreads."
-    },
     {
       "time": "2026-09-05 01:52 UTC",
       "action": "sell",
@@ -33761,30 +33749,48 @@
       "action": "buy",
       "details": "[LLM] $RMM at $2.99991e-06, spent 0.02 SOL",
       "reason": "$RMM (Real Monkey Motion) — has Twitter link referencing a viral video/tweet, 'degen community' narrative is live, mcap $3k with 2% bonding. Attention signal present via X post."
+    },
+    {
+      "time": "2026-09-05 02:51 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RMM at $3.00827e-06 | P&L: +0.3%",
+      "reason": "$RMM flat at +0.3% on $85 pool, no momentum signal after initial entry. Freeing slot for fresher narrative play with stronger attention hook."
     }
   ],
   "trade_stats": {
-    "total": 1977,
-    "wins": 1007,
+    "total": 1978,
+    "wins": 1008,
     "losses": 970,
-    "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.11841,
-    "avg_pnl_pct": 32.93,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.118346,
+    "avg_pnl_pct": 32.91,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 37,
-    "today_realized_sol": -0.038629,
-    "today_target_pct": -9.7,
+    "today_trades": 38,
+    "today_realized_sol": -0.038565,
+    "today_target_pct": -9.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1007,
+      "win_count": 1008,
       "loss_count": 970,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T02:50:01.033118+00:00",
+  "last_llm_brief_at": "2026-09-05T02:51:23.570419+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EcQKos6j2ALRkryvo1uBEDpCNpKfwjaYfPPNA9X4pump": {
+      "price_usd": 3.0082651411361154e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 85.29354178698,
+      "volume_h24": 4836.32,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.837607206
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
