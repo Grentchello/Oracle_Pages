@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.23756,
+  "balance_sol": 0.24659,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GH7rFsTf7LEg21gWNVRjcges84UjhkVfsdSyHpBHpump": {
       "symbol": "$Hero",
       "name": "Zero To Hero ",
-      "amount": 73264.28144047728,
+      "amount": 27474.105540178978,
       "entry_price_usd": 1.3894901853737041e-05,
-      "entry_sol_spent": 0.01,
+      "entry_sol_spent": 0.00375,
       "entry_time": "2026-09-05T00:27:34.112307+00:00",
       "entry_usd_value": 2.036,
       "entry_signals": {
@@ -33176,25 +33176,47 @@
       "pnl_pct": 27.17,
       "exit_reason": "LLM: sell_half — +27.2% with thin pool ($4556) and 0% our share on bonding curve — locking half the gain because this is illiquid and the bot's TP ladder hasn't fired ",
       "partial": true
+    },
+    {
+      "mint": "GH7rFsTf7LEg21gWNVRjcges84UjhkVfsdSyHpBHpump",
+      "symbol": "$Hero",
+      "name": "Zero To Hero ",
+      "amount_sold": 18316.07036011932,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-05T00:27:34.112307+00:00",
+      "exit_time": "2026-09-05T00:29:56.055338+00:00",
+      "entry_price_usd": 1.3894901853737041e-05,
+      "exit_price_usd": 2.009785999538758e-05,
+      "entry_sol_for_chunk": 0.0025,
+      "exit_sol_received": 0.003612,
+      "pnl_sol": 0.001112,
+      "pnl_pct": 44.64,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "GH7rFsTf7LEg21gWNVRjcges84UjhkVfsdSyHpBHpump",
+      "symbol": "$Hero",
+      "name": "Zero To Hero ",
+      "amount_sold": 27474.105540178978,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-05T00:27:34.112307+00:00",
+      "exit_time": "2026-09-05T00:30:42.769330+00:00",
+      "entry_price_usd": 1.3894901853737041e-05,
+      "exit_price_usd": 2.009785999538758e-05,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.005418,
+      "pnl_sol": 0.001668,
+      "pnl_pct": 44.64,
+      "exit_reason": "LLM: sell_half — Up +44.6% but 'our share=0%' suggests fill uncertainty — locking half locks realized gains while letting the rest ride the +50/+100/+200 trailing TP l",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-05T00:28:52.613988+00:00",
+  "last_updated": "2026-09-05T00:30:42.770217+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.83,
-  "portfolio_value_usd": 25.21,
+  "last_sol_price_usd": 101.91,
+  "portfolio_value_usd": 25.51,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 22:48 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-04 23:39 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-05 00:02 UTC",
       "action": "buy",
@@ -33302,40 +33324,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $$Hero at $1.76703e-05 | P&L: +27.2%",
       "reason": "+27.2% with thin pool ($4556) and 0% our share on bonding curve — locking half the gain because this is illiquid and the bot's TP ladder hasn't fired yet (still under +30% trigger). Ride the other half if it keeps pumping, but don't give back the profit on a single wick."
+    },
+    {
+      "time": "2026-09-05 00:29 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $$Hero at $2.00979e-05 | P&L: +44.6%",
+      "reason": "Auto take-profit at +44.6%"
+    },
+    {
+      "time": "2026-09-05 00:30 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $$Hero at $2.00979e-05 | P&L: +44.6%",
+      "reason": "Up +44.6% but 'our share=0%' suggests fill uncertainty — locking half locks realized gains while letting the rest ride the +50/+100/+200 trailing TP ladder. Stale-flat risk is real on a 0.0h hold reading."
     }
   ],
   "trade_stats": {
-    "total": 1950,
-    "wins": 995,
+    "total": 1952,
+    "wins": 997,
     "losses": 955,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.085092,
-    "avg_pnl_pct": 33.36,
+    "win_rate_pct": 51.1,
+    "total_pnl_sol": -2.082312,
+    "avg_pnl_pct": 33.37,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 10,
-    "today_realized_sol": -0.005311,
-    "today_target_pct": -1.3,
+    "today_trades": 12,
+    "today_realized_sol": -0.002531,
+    "today_target_pct": -0.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 995,
+      "win_count": 997,
       "loss_count": 955,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T00:28:52.341222+00:00",
+  "last_llm_brief_at": "2026-09-05T00:30:42.769281+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GH7rFsTf7LEg21gWNVRjcges84UjhkVfsdSyHpBHpump": {
-      "price_usd": 1.767027750095397e-05,
+      "price_usd": 2.009785999538758e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4555.72013640333,
-      "volume_h24": 10908.73,
+      "liquidity_usd": 5062.4713192646705,
+      "volume_h24": 16948.07,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 44.738487051
+      "real_sol_reserves": 49.675903437
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

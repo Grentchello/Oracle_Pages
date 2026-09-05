@@ -14731,3 +14731,9 @@
 ## [2026-09-05 00:28 UTC] sell | [PARTIAL][LLM] $$Hero at $1.76703e-05 | P&L: +27.2%
 - **Reasoning:** +27.2% with thin pool ($4556) and 0% our share on bonding curve — locking half the gain because this is illiquid and the bot's TP ladder hasn't fired yet (still under +30% trigger). Ride the other half if it keeps pumping, but don't give back the profit on a single wick.
 
+## [2026-09-05 00:29 UTC] sell | [TP +30% (25%)] $$Hero at $2.00979e-05 | P&L: +44.6%
+- **Reasoning:** Auto take-profit at +44.6%
+
+## [2026-09-05 00:30 UTC] sell | [PARTIAL][LLM] $$Hero at $2.00979e-05 | P&L: +44.6%
+- **Reasoning:** Up +44.6% but 'our share=0%' suggests fill uncertainty — locking half locks realized gains while letting the rest ride the +50/+100/+200 trailing TP ladder. Stale-flat risk is real on a 0.0h hold reading.
+
