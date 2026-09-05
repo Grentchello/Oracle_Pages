@@ -14782,3 +14782,6 @@
 ## [2026-09-05 01:19 UTC] buy | [LLM] $HOME at $3.04e-06, spent 0.02 SOL
 - **Reasoning:** Strongest narrative in the batch — anti-Robinhood 'come home to Solana' tied to the actual @solana Twitter account, riding the AMC/Robinhood cultural moment. Passes viability (long desc, real twitter). 0.05 SOL bet.
 
+## [2026-09-05 01:20 UTC] sell | [FULL][LLM] $HOME at $2.90672e-06 | P&L: -4.4%
+- **Reasoning:** Pool only $30 (fails 5x liquidity rule), down 4.4%, our position is 6% of pool meaning we'd move price selling — but that's exactly why this is too thin to hold. Stale illiquid microcap with no clear narrative. Cut losses, free slot.
+
