@@ -14839,3 +14839,6 @@
 ## [2026-09-05 02:07 UTC] buy | [LLM] $Liqft at $5.38e-06, spent 0.02 SOL
 - **Reasoning:** $Liqft: liquidity-strategy narrative with clear five-edge hook, brand-name concise, twitter live (x.com/Liqft_), mcap $5.2k with bond already 21% — earliest attention with a real project story. Strongest narrative among the fresh batch.
 
+## [2026-09-05 02:08 UTC] buy | [LLM] $Alon at $4.0696e-06, spent 0.02 SOL
+- **Reasoning:** $Alon — freshest launch (0.1min), $4k mcap, has viral X post from MrLustFn, rival-narrative to Vlad the Trencher ('original inventor'). Classic pump.fun story-coin with early attention. Sized 0.05 SOL per scalp rules.
+
