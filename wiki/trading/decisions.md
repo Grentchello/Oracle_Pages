@@ -14836,3 +14836,6 @@
 ## [2026-09-05 01:56 UTC] sell | [FULL][LLM] $BASECA at $2.84874e-06 | P&L: -1.6%
 - **Reasoning:** $BASECA pool shows $0 liquidity and our share of 179115321% means the bot can't even quote a real price — this is broken/rugged/stuck. Cut the loss and reclaim the slot.
 
+## [2026-09-05 02:07 UTC] buy | [LLM] $Liqft at $5.38e-06, spent 0.02 SOL
+- **Reasoning:** $Liqft: liquidity-strategy narrative with clear five-edge hook, brand-name concise, twitter live (x.com/Liqft_), mcap $5.2k with bond already 21% — earliest attention with a real project story. Strongest narrative among the fresh batch.
+
