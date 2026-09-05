@@ -14878,3 +14878,6 @@
 ## [2026-09-05 02:36 UTC] sell | [FULL][LLM] $pron at $2.87839e-06 | P&L: -1.4%
 - **Reasoning:** Down -1.4% on a bonding-curve with only $16 pool liquidity and we own 13% of it — we ARE the exit liquidity. This is the textbook thin-pool trap where our own position causes slippage on exit. Cut and rotate.
 
+## [2026-09-05 02:50 UTC] buy | [LLM] $RMM at $2.99991e-06, spent 0.02 SOL
+- **Reasoning:** $RMM (Real Monkey Motion) — has Twitter link referencing a viral video/tweet, 'degen community' narrative is live, mcap $3k with 2% bonding. Attention signal present via X post.
+
