@@ -14692,3 +14692,9 @@
 ## [2026-09-05 00:07 UTC] sell | [PARTIAL][LLM] $AFRICA at $4.67006e-06 | P&L: +56.6%
 - **Reasoning:** Up +56.6% on a $39 pool where we own 6% — illiquid and easy to reverse. Lock half the gain now, keep a runner for further upside without risking the whole position.
 
+## [2026-09-05 00:08 UTC] sell | [FULL][LLM] $AFRICA at $2.67039e-06 | P&L: -10.5%
+- **Reasoning:** Down 10.5% in <1h with only $22 pool liquidity = classic thin-bonding-curve dump setup. No bounce signal, narrative unclear, and capital is better rotated into a fresher launch with stronger attention.
+
+## [2026-09-05 00:08 UTC] buy | [LLM] $RENTOPOLY at $9.51842e-06, spent 0.02 SOL
+- **Reasoning:** $RENTOPOLY has the clearest narrative of the batch — 'Monopoly into live on-chain rent' is a meme-able concept with six districts and real payouts framing. $9.5k mcap at 31% bonding is early but not micro, twitter link present meets viability gate. Risk: small pool = whale-concentration fragility, size small (0.05 SOL).
+

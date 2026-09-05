@@ -1,26 +1,26 @@
 {
-  "balance_sol": 0.251931,
+  "balance_sol": 0.238652,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "5TLSonq8gSUB9MbUSwGseP5a2aaatW92k9X8iJvXpump": {
-      "symbol": "AFRICA",
-      "name": "AFRICA",
-      "amount": 256307.7486103578,
-      "entry_price_usd": 2.982937520013405e-06,
-      "entry_sol_spent": 0.0075,
-      "entry_time": "2026-09-05T00:06:01.149670+00:00",
-      "entry_usd_value": 2.0388,
+    "aox7gon23QpK4f5bSrcpjWqHKCV55DjqhLaWjkKpump": {
+      "symbol": "RENTOPOLY",
+      "name": "RENTOPOLY",
+      "amount": 213964.1156908555,
+      "entry_price_usd": 9.518418513422908e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-05T00:08:54.102313+00:00",
+      "entry_usd_value": 2.0366,
       "entry_signals": {
-        "liquidity_usd": 20.59373948754,
+        "liquidity_usd": 133.66977029871,
         "volume_24h_usd": null,
-        "market_cap_usd": 2981.1818181181648,
-        "ath_market_cap_usd": 3838.0359703671797,
+        "market_cap_usd": 9517.483777243648,
+        "ath_market_cap_usd": 11777.246773888282,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.202018241,
-        "description": "JUST IN: UN votes 164-1 to ditch the Mercator projection in favor of the “Equal Earth” map, with the U.S. casting the lone vote against.",
-        "twitter": "https://x.com/Polymarket/status/2095923585906868527",
+        "real_sol_reserves": 1.312675737,
+        "description": "$RENTOPOLY turns Monopoly into live on-chain rent, where every deed buys a Bank share 🎩 Six districts, real payouts every 30 seconds, and open-book balances make buying the block feel playable 🏘️",
+        "twitter": "https://x.com/rentopolyzone/status/2096027427931619493",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -33057,25 +33057,30 @@
       "pnl_pct": 56.56,
       "exit_reason": "LLM: sell_half — Up +56.6% on a $39 pool where we own 6% — illiquid and easy to reverse. Lock half the gain now, keep a runner for further upside without risking the w",
       "partial": true
+    },
+    {
+      "mint": "5TLSonq8gSUB9MbUSwGseP5a2aaatW92k9X8iJvXpump",
+      "symbol": "AFRICA",
+      "name": "AFRICA",
+      "amount_sold": 256307.7486103578,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-05T00:06:01.149670+00:00",
+      "exit_time": "2026-09-05T00:08:52.720504+00:00",
+      "entry_price_usd": 2.982937520013405e-06,
+      "exit_price_usd": 2.670391725991628e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.006721,
+      "pnl_sol": -0.000779,
+      "pnl_pct": -10.48,
+      "exit_reason": "LLM: sell_all — Down 10.5% in <1h with only $22 pool liquidity = classic thin-bonding-curve dump setup. No bounce signal, narrative unclear, and capital is better rot",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-05T00:07:27.798229+00:00",
+  "last_updated": "2026-09-05T00:08:54.102536+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.94,
-  "portfolio_value_usd": 26.45,
+  "last_sol_price_usd": 101.83,
+  "portfolio_value_usd": 26.34,
   "recent_decisions": [
-    {
-      "time": "2026-09-04 13:21 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-04 13:44 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-04 14:20 UTC",
       "action": "observe",
@@ -33183,40 +33188,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $AFRICA at $4.67006e-06 | P&L: +56.6%",
       "reason": "Up +56.6% on a $39 pool where we own 6% — illiquid and easy to reverse. Lock half the gain now, keep a runner for further upside without risking the whole position."
+    },
+    {
+      "time": "2026-09-05 00:08 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $AFRICA at $2.67039e-06 | P&L: -10.5%",
+      "reason": "Down 10.5% in <1h with only $22 pool liquidity = classic thin-bonding-curve dump setup. No bounce signal, narrative unclear, and capital is better rotated into a fresher launch with stronger attention."
+    },
+    {
+      "time": "2026-09-05 00:08 UTC",
+      "action": "buy",
+      "details": "[LLM] $RENTOPOLY at $9.51842e-06, spent 0.02 SOL",
+      "reason": "$RENTOPOLY has the clearest narrative of the batch — 'Monopoly into live on-chain rent' is a meme-able concept with six districts and real payouts framing. $9.5k mcap at 31% bonding is early but not micro, twitter link present meets viability gate. Risk: small pool = whale-concentration fragility, size small (0.05 SOL)."
     }
   ],
   "trade_stats": {
-    "total": 1943,
+    "total": 1944,
     "wins": 992,
-    "losses": 951,
-    "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.073221,
-    "avg_pnl_pct": 33.51,
+    "losses": 952,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.074,
+    "avg_pnl_pct": 33.49,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 3,
-    "today_realized_sol": 0.00656,
-    "today_target_pct": 1.6,
+    "today_trades": 4,
+    "today_realized_sol": 0.005781,
+    "today_target_pct": 1.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 992,
-      "loss_count": 951,
+      "loss_count": 952,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-05T00:07:27.532038+00:00",
+  "last_llm_brief_at": "2026-09-05T00:08:52.720464+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5TLSonq8gSUB9MbUSwGseP5a2aaatW92k9X8iJvXpump": {
-      "price_usd": 4.67006099204161e-06,
+      "price_usd": 2.670391725991628e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 39.05813270694,
-      "volume_h24": 124.88,
+      "liquidity_usd": 22.33433072408,
+      "volume_h24": 214.37,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.383148251
+      "real_sol_reserves": 0.219329576
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
