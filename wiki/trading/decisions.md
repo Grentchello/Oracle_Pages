@@ -15541,3 +15541,6 @@
 ## [2026-09-06 10:50 UTC] buy | [LLM] $rimallen at $4.282e-06, spent 0.02 SOL
 - **Reasoning:** $rimallen has the strongest viable narrative: multi-stage meme arc (WHEEL → BIKE TYSON → Tim Allen as rim), live X account, $5.3k mcap, 20% bonded. Fresh attention, not on the blocklist.
 
+## [2026-09-06 10:52 UTC] sell | [FULL][LLM] $DOOM at $2.99362e-06 | P&L: -1.2%
+- **Reasoning:** $DOOM pool is only $9 with my 22% share — I'm the liquidity. Price is flat (-1.2%) with no momentum. Better to free the slot for a fresher narrative than sit in a dead micro-pool.
+

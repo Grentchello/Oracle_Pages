@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.152636,
+  "balance_sol": 0.172424,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "41UwByTGMDChedF5PSsY5bxjgSBTYHAMVyRPvs2Lpump": {
-      "symbol": "DOOM",
-      "name": "doomsday",
-      "amount": 703584.5457472722,
-      "entry_price_usd": 3.0313343476508117e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T10:47:52.820175+00:00",
-      "entry_usd_value": 2.1328,
-      "entry_signals": {
-        "liquidity_usd": 26.60029130424,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3029.962522834826,
-        "ath_market_cap_usd": 3029.962522834826,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.249440091,
-        "description": "The next coin to hit 1000x, believe in the power of fate.",
-        "twitter": "https://x.com/doomsday121726",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "BikRKWCsbvk13icQvnd7G6vn66fJqzppdDwnoGxVpump": {
       "symbol": "rimallen",
       "name": "Rim Allen",
@@ -35595,19 +35573,30 @@
       "pnl_pct": 2.24,
       "exit_reason": "LLM: sell_all — Pool is only $144 with our 2% share — too illiquid to trust exit at TP levels. +2.2% is barely above entry; freeing the slot for a fresher, narrative-",
       "partial": false
+    },
+    {
+      "mint": "41UwByTGMDChedF5PSsY5bxjgSBTYHAMVyRPvs2Lpump",
+      "symbol": "DOOM",
+      "name": "doomsday",
+      "amount_sold": 703584.5457472722,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T10:47:52.820175+00:00",
+      "exit_time": "2026-09-06T10:52:15.026524+00:00",
+      "entry_price_usd": 3.0313343476508117e-06,
+      "exit_price_usd": 2.9936166822526786e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019788,
+      "pnl_sol": -0.000212,
+      "pnl_pct": -1.24,
+      "exit_reason": "LLM: sell_all — $DOOM pool is only $9 with my 22% share — I'm the liquidity. Price is flat (-1.2%) with no momentum. Better to free the slot for a fresher narrative t",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T10:50:52.136945+00:00",
+  "last_updated": "2026-09-06T10:52:15.300461+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 106.44,
   "portfolio_value_usd": 20.48,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 09:40 UTC",
-      "action": "buy",
-      "details": "[LLM] $gozu at $6.877e-06, spent 0.02 SOL",
-      "reason": "$gozu has the strongest meta-narrative of the batch — self-aware 'aping on vibes' joke targets traders directly, has twitter link, and mcap $7k with 26% bond means real buys are flowing. Memecoins about trader psychology tend to spread."
-    },
     {
       "time": "2026-09-06 09:41 UTC",
       "action": "sell",
@@ -35721,28 +35710,34 @@
       "action": "buy",
       "details": "[LLM] $rimallen at $4.282e-06, spent 0.02 SOL",
       "reason": "$rimallen has the strongest viable narrative: multi-stage meme arc (WHEEL → BIKE TYSON → Tim Allen as rim), live X account, $5.3k mcap, 20% bonded. Fresh attention, not on the blocklist."
+    },
+    {
+      "time": "2026-09-06 10:52 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DOOM at $2.99362e-06 | P&L: -1.2%",
+      "reason": "$DOOM pool is only $9 with my 22% share — I'm the liquidity. Price is flat (-1.2%) with no momentum. Better to free the slot for a fresher narrative than sit in a dead micro-pool."
     }
   ],
   "trade_stats": {
-    "total": 2091,
+    "total": 2092,
     "wins": 1067,
-    "losses": 1024,
+    "losses": 1025,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.140014,
-    "avg_pnl_pct": 32.21,
+    "total_pnl_sol": -2.140226,
+    "avg_pnl_pct": 32.19,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 109,
-    "today_realized_sol": -0.005856,
+    "today_trades": 110,
+    "today_realized_sol": -0.006068,
     "today_target_pct": -1.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1067,
-      "loss_count": 1024,
+      "loss_count": 1025,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T10:50:50.674130+00:00",
+  "last_llm_brief_at": "2026-09-06T10:52:15.026488+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "41UwByTGMDChedF5PSsY5bxjgSBTYHAMVyRPvs2Lpump": {
@@ -35755,6 +35750,17 @@
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.088888889
+    },
+    "BikRKWCsbvk13icQvnd7G6vn66fJqzppdDwnoGxVpump": {
+      "price_usd": 4.571124893115053e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 764.332273797,
+      "volume_h24": 1650.47,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 7.180874425
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
