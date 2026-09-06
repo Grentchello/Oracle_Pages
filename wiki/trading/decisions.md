@@ -15175,3 +15175,6 @@
 ## [2026-09-06 04:17 UTC] buy | [LLM] $BrokerD at $3.787e-06, spent 0.02 SOL
 - **Reasoning:** $BrokerD has the cleanest narrative of the batch — 'Markets on command, AI broker per identity' is a concrete hook that fits the AI-agent meta, has a live twitter, and $3.5k mcap with bond at 8% gives early-entry room. 0.05 SOL sized for the volatility.
 
+## [2026-09-06 04:19 UTC] sell | [PARTIAL][LLM] $BrokerD at $2.95898e-06 | P&L: -21.9%
+- **Reasoning:** Down -21.9% and approaching the -30% hard cap. No bounce signal, bonding-curve pool is empty, and the 'huge share' flag at 3721% means I'm the exit liquidity. Cut it now before the auto-stop hits worse.
+

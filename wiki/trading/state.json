@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.219843,
+  "balance_sol": 0.235406,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "4bGn9VkYKL6kKriyChs34p2HgpdrZP7uzntUSjuzpump": {
       "symbol": "BrokerD",
       "name": "BrokerDesk",
-      "amount": 560390.810668075,
+      "amount": 3764.854602914162,
       "entry_price_usd": 3.787e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.00013436532260141298,
       "entry_time": "2026-09-06T04:17:01.193498+00:00",
       "entry_usd_value": 2.1222,
       "entry_signals": {
@@ -34434,19 +34434,30 @@
       "pnl_pct": -0.15,
       "exit_reason": "LLM: sell_all — 6 min held, flat at -0.1%, pool only $101 (right at the 5x rule edge), no bounce signal — textbook stale exit, freeing the slot for fresh attention pl",
       "partial": false
+    },
+    {
+      "mint": "4bGn9VkYKL6kKriyChs34p2HgpdrZP7uzntUSjuzpump",
+      "symbol": "BrokerD",
+      "name": "BrokerDesk",
+      "amount_sold": 556625.9560651608,
+      "fraction_sold": 0.9932817338699294,
+      "entry_time": "2026-09-06T04:17:01.193498+00:00",
+      "exit_time": "2026-09-06T04:19:58.608838+00:00",
+      "entry_price_usd": 3.787e-06,
+      "exit_price_usd": 2.958983336667751e-06,
+      "entry_sol_for_chunk": 0.019866,
+      "exit_sol_received": 0.015563,
+      "pnl_sol": -0.004302,
+      "pnl_pct": -21.86,
+      "exit_reason": "LLM: sell_all — Down -21.9% and approaching the -30% hard cap. No bounce signal, bonding-curve pool is empty, and the 'huge share' flag at 3721% means I'm the exit li",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T04:18:37.960539+00:00",
+  "last_updated": "2026-09-06T04:19:58.864169+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.11,
-  "portfolio_value_usd": 25.45,
+  "last_sol_price_usd": 105.83,
+  "portfolio_value_usd": 24.93,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 03:33 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $VORTA at $6.86413e-06 | P&L: +58.3%",
-      "reason": "Up +58% already past TP1; lock half the gain. VORTA narrative is thin (no twitter/desc visible) so don't ride back to zero — keep a runner but bank profit."
-    },
     {
       "time": "2026-09-06 03:34 UTC",
       "action": "sell",
@@ -34560,40 +34571,46 @@
       "action": "buy",
       "details": "[LLM] $BrokerD at $3.787e-06, spent 0.02 SOL",
       "reason": "$BrokerD has the cleanest narrative of the batch — 'Markets on command, AI broker per identity' is a concrete hook that fits the AI-agent meta, has a live twitter, and $3.5k mcap with bond at 8% gives early-entry room. 0.05 SOL sized for the volatility."
+    },
+    {
+      "time": "2026-09-06 04:19 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BrokerD at $2.95898e-06 | P&L: -21.9%",
+      "reason": "Down -21.9% and approaching the -30% hard cap. No bounce signal, bonding-curve pool is empty, and the 'huge share' flag at 3721% means I'm the exit liquidity. Cut it now before the auto-stop hits worse."
     }
   ],
   "trade_stats": {
-    "total": 2024,
+    "total": 2025,
     "wins": 1031,
-    "losses": 993,
+    "losses": 994,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.092809,
-    "avg_pnl_pct": 32.54,
+    "total_pnl_sol": -2.097111,
+    "avg_pnl_pct": 32.51,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 42,
-    "today_realized_sol": 0.041349,
-    "today_target_pct": 10.3,
+    "today_trades": 43,
+    "today_realized_sol": 0.037047,
+    "today_target_pct": 9.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1031,
-      "loss_count": 993,
+      "loss_count": 994,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T04:18:37.698523+00:00",
+  "last_llm_brief_at": "2026-09-06T04:19:58.608755+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4bGn9VkYKL6kKriyChs34p2HgpdrZP7uzntUSjuzpump": {
-      "price_usd": 3.5087550863610873e-06,
+      "price_usd": 2.958983336667751e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 278.60521772844004,
-      "volume_h24": 895.31,
+      "liquidity_usd": 0.04456056814,
+      "volume_h24": 1211.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.625626404
+      "real_sol_reserves": 0.000421058
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
