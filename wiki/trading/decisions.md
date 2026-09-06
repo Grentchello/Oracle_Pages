@@ -15118,3 +15118,6 @@
 ## [2026-09-06 03:33 UTC] sell | [PARTIAL][LLM] $VORTA at $6.86413e-06 | P&L: +58.3%
 - **Reasoning:** Up +58% already past TP1; lock half the gain. VORTA narrative is thin (no twitter/desc visible) so don't ride back to zero — keep a runner but bank profit.
 
+## [2026-09-06 03:34 UTC] sell | [TP +30% (25%)] $VORTA at $6.84969e-06 | P&L: +58.0%
+- **Reasoning:** Auto take-profit at +58.0%
+

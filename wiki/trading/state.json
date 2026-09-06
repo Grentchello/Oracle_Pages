@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.169886,
+  "balance_sol": 0.172842,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "FfB74iNT8kTLNwjKKo9uCL1Vbnk1LWeig9Z7SxZ9pump": {
       "symbol": "VORTA",
       "name": "VortaMarkets",
-      "amount": 182543.25259515573,
+      "amount": 136907.4394463668,
       "entry_price_usd": 4.335e-06,
-      "entry_sol_spent": 0.0075,
+      "entry_sol_spent": 0.005625,
       "entry_time": "2026-09-06T03:32:05.263576+00:00",
       "entry_usd_value": 2.1102000000000003,
       "entry_signals": {
@@ -34230,19 +34230,30 @@
       "pnl_pct": 58.34,
       "exit_reason": "LLM: sell_half — Up +58% already past TP1; lock half the gain. VORTA narrative is thin (no twitter/desc visible) so don't ride back to zero — keep a runner but bank pr",
       "partial": true
+    },
+    {
+      "mint": "FfB74iNT8kTLNwjKKo9uCL1Vbnk1LWeig9Z7SxZ9pump",
+      "symbol": "VORTA",
+      "name": "VortaMarkets",
+      "amount_sold": 45635.81314878893,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-06T03:32:05.263576+00:00",
+      "exit_time": "2026-09-06T03:34:28.544725+00:00",
+      "entry_price_usd": 4.335e-06,
+      "exit_price_usd": 6.849686605837751e-06,
+      "entry_sol_for_chunk": 0.001875,
+      "exit_sol_received": 0.002956,
+      "pnl_sol": 0.001081,
+      "pnl_pct": 58.01,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T03:33:24.830014+00:00",
+  "last_updated": "2026-09-06T03:34:56.181518+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.38,
-  "portfolio_value_usd": 18.69,
+  "last_sol_price_usd": 105.74,
+  "portfolio_value_usd": 18.87,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 02:38 UTC",
-      "action": "buy",
-      "details": "[LLM] $memefi at $2.961e-06, spent 0.02 SOL",
-      "reason": "$memefi — lore/culture narrative with twitter post and substantive desc, 0.7min age. Risk: mcap $3.5k is thin, but the click-game lore gives it a story arc that can attract attention traders."
-    },
     {
       "time": "2026-09-06 02:41 UTC",
       "action": "sell",
@@ -34356,51 +34367,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $VORTA at $6.86413e-06 | P&L: +58.3%",
       "reason": "Up +58% already past TP1; lock half the gain. VORTA narrative is thin (no twitter/desc visible) so don't ride back to zero — keep a runner but bank profit."
+    },
+    {
+      "time": "2026-09-06 03:34 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $VORTA at $6.84969e-06 | P&L: +58.0%",
+      "reason": "Auto take-profit at +58.0%"
     }
   ],
   "trade_stats": {
-    "total": 2012,
-    "wins": 1021,
+    "total": 2013,
+    "wins": 1022,
     "losses": 991,
-    "win_rate_pct": 50.7,
-    "total_pnl_sol": -2.155266,
-    "avg_pnl_pct": 32.31,
+    "win_rate_pct": 50.8,
+    "total_pnl_sol": -2.154185,
+    "avg_pnl_pct": 32.32,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 30,
-    "today_realized_sol": -0.021108,
-    "today_target_pct": -5.3,
+    "today_trades": 31,
+    "today_realized_sol": -0.020027,
+    "today_target_pct": -5.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1021,
+      "win_count": 1022,
       "loss_count": 991,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T03:33:24.580142+00:00",
+  "last_llm_brief_at": "2026-09-06T03:34:55.928442+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "DyfwT1yE6qhbG8hHXtkCZ5ihwoYctS24GS3cXdyFpump": {
-      "price_usd": 2.9748748349401283e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 15.283406508259999,
-      "volume_h24": 1663.16,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.145031377
-    },
     "FfB74iNT8kTLNwjKKo9uCL1Vbnk1LWeig9Z7SxZ9pump": {
-      "price_usd": 6.864130390855122e-06,
+      "price_usd": 6.849686605837751e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1663.9892006111,
-      "volume_h24": 1780.8,
+      "liquidity_usd": 1656.3362064679798,
+      "volume_h24": 2773.11,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 15.790370095
+      "real_sol_reserves": 15.664234977
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
