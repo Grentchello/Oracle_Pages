@@ -15085,3 +15085,6 @@
 ## [2026-09-06 02:51 UTC] sell | [FULL][LLM] $PMP at $7.69833e-06 | P&L: -26.9%
 - **Reasoning:** $PMP is at -26.9%, only 3.1% from the -30% hard stop. Pool is $1954 (dead),0% our share means no incentive to hold, and no bounce signal. Cut losses and free the slot.
 
+## [2026-09-06 03:07 UTC] buy | [LLM] $Peanie at $3.169e-06, spent 0.02 SOL
+- **Reasoning:** $Peanie has the strongest narrative: cute penguin mascot with hat, viral X image linked, proper description passing viability gate, $3.1k mcap with meme-art potential. Micro-cap with clear attention story beats the vague/generic names.
+
