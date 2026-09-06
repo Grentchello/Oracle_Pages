@@ -15214,3 +15214,6 @@
 ## [2026-09-06 04:57 UTC] buy | [LLM] $Fomosis at $4.41662e-06, spent 0.02 SOL
 - **Reasoning:** $Fomosis — FOMO agents narrative is current meta (8 AI agents trading is a hook), has live twitter (Fomosis_) and decent description. Low mcap ($4.4k) with viral narrative potential. Position 0.05 SOL.
 
+## [2026-09-06 04:58 UTC] sell | [FULL][LLM] $Fomosis at $5.24114e-06 | P&L: +18.7%
+- **Reasoning:** Up +18.7% on a thin $1k pool with our share=0% — lock the green before it reverses, liquidity is too shallow to trust a runner.
+
