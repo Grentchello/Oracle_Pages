@@ -15499,3 +15499,9 @@
 ## [2026-09-06 09:44 UTC] sell | [PARTIAL][LLM] $gozu at $9.99711e-06 | P&L: +45.4%
 - **Reasoning:** Up +45% already, hit first TP territory. Bonding-curve pool only $2.6k, our share is 0% so selling half locks gains and lets the runner ride free if it keeps going.
 
+## [2026-09-06 09:45 UTC] sell | [TP +30% (25%)] $gozu at $1.07689e-05 | P&L: +56.6%
+- **Reasoning:** Auto take-profit at +56.6%
+
+## [2026-09-06 09:46 UTC] sell | [FULL][LLM] $gozu at $1.07689e-05 | P&L: +56.6%
+- **Reasoning:** Up +56.6% past the 50% TP threshold, only 0.1h old on bonding-curve with our share 0% and pool only $2881. Lock the gain — the bot would have auto-closed at 50% if it could, and I shouldn't hope for more when liquidity is this thin and my share is already gone.
+

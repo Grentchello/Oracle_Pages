@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.187387,
+  "balance_sol": 0.199155,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GKhSW36nRBJUrmQ6RoZG9JCE8QNZ9cXkVL3WPKxrpump": {
-      "symbol": "gozu",
-      "name": "gozu",
-      "amount": 116213.46517376762,
-      "entry_price_usd": 6.877e-06,
-      "entry_sol_spent": 0.0075,
-      "entry_time": "2026-09-06T09:40:23.962067+00:00",
-      "entry_usd_value": 2.1312,
-      "entry_signals": {
-        "liquidity_usd": 1717.0942879123202,
-        "volume_24h_usd": 1660.41,
-        "market_cap_usd": 6955.265381777898,
-        "ath_market_cap_usd": 6955.265381777898,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 16.113872822,
-        "description": "\"gozu\" means aping into trades purely on vibes - no thesis, just conviction and hopium. We all have gozuism. Only those who embrace it are going to make it",
-        "twitter": "https://x.com/search?q=gozu&src=typed_query&f=top",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35454,25 +35431,47 @@
       "pnl_pct": 45.37,
       "exit_reason": "LLM: sell_half — Up +45% already, hit first TP territory. Bonding-curve pool only $2.6k, our share is 0% so selling half locks gains and lets the runner ride free if i",
       "partial": true
+    },
+    {
+      "mint": "GKhSW36nRBJUrmQ6RoZG9JCE8QNZ9cXkVL3WPKxrpump",
+      "symbol": "gozu",
+      "name": "gozu",
+      "amount_sold": 29053.366293441904,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-06T09:40:23.962067+00:00",
+      "exit_time": "2026-09-06T09:45:46.718188+00:00",
+      "entry_price_usd": 6.877e-06,
+      "exit_price_usd": 1.0768883144270776e-05,
+      "entry_sol_for_chunk": 0.001875,
+      "exit_sol_received": 0.002942,
+      "pnl_sol": 0.001067,
+      "pnl_pct": 56.59,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "GKhSW36nRBJUrmQ6RoZG9JCE8QNZ9cXkVL3WPKxrpump",
+      "symbol": "gozu",
+      "name": "gozu",
+      "amount_sold": 87160.0988803257,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T09:40:23.962067+00:00",
+      "exit_time": "2026-09-06T09:46:02.174314+00:00",
+      "entry_price_usd": 6.877e-06,
+      "exit_price_usd": 1.0768883144270776e-05,
+      "entry_sol_for_chunk": 0.005625,
+      "exit_sol_received": 0.008826,
+      "pnl_sol": 0.003201,
+      "pnl_pct": 56.59,
+      "exit_reason": "LLM: sell_all — Up +56.6% past the 50% TP threshold, only 0.1h old on bonding-curve with our share 0% and pool only $2881. Lock the gain — the bot would have auto-clo",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T09:44:42.826009+00:00",
+  "last_updated": "2026-09-06T09:46:02.677473+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.47,
-  "portfolio_value_usd": 20.75,
+  "last_sol_price_usd": 106.35,
+  "portfolio_value_usd": 21.18,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 08:13 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GLIZZY at $5.81692e-06 | P&L: +23.3%",
-      "reason": "Up +23.3% approaching the +25% auto-TP line, but the $1282 pool is too thin to trust continuation — bonding-curve tokens rug or dump hard once early buyers rotate out. Lock the gain now; per scalp discipline, when up >20% with any doubt, take profit."
-    },
-    {
-      "time": "2026-09-06 08:16 UTC",
-      "action": "buy",
-      "details": "[LLM] $JUICY  at $3.051e-06, spent 0.02 SOL",
-      "reason": "$JUICY — Biggie's 'Juicy' nostalgia narrative is a strong evergreen meme hook with confirmed Twitter presence (@chingonamics). Passes viability gate (long desc + twitter). 0.05 SOL position; if it doesn't pump in 15 min, mark stale and consider exit."
-    },
     {
       "time": "2026-09-06 08:21 UTC",
       "action": "sell",
@@ -35580,40 +35579,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $gozu at $9.99711e-06 | P&L: +45.4%",
       "reason": "Up +45% already, hit first TP territory. Bonding-curve pool only $2.6k, our share is 0% so selling half locks gains and lets the runner ride free if it keeps going."
+    },
+    {
+      "time": "2026-09-06 09:45 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $gozu at $1.07689e-05 | P&L: +56.6%",
+      "reason": "Auto take-profit at +56.6%"
+    },
+    {
+      "time": "2026-09-06 09:46 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $gozu at $1.07689e-05 | P&L: +56.6%",
+      "reason": "Up +56.6% past the 50% TP threshold, only 0.1h old on bonding-curve with our share 0% and pool only $2881. Lock the gain — the bot would have auto-closed at 50% if it could, and I shouldn't hope for more when liquidity is this thin and my share is already gone."
     }
   ],
   "trade_stats": {
-    "total": 2084,
-    "wins": 1063,
+    "total": 2086,
+    "wins": 1065,
     "losses": 1021,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.137763,
-    "avg_pnl_pct": 32.28,
+    "win_rate_pct": 51.1,
+    "total_pnl_sol": -2.133495,
+    "avg_pnl_pct": 32.3,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 102,
-    "today_realized_sol": -0.003605,
-    "today_target_pct": -0.9,
+    "today_trades": 104,
+    "today_realized_sol": 0.000663,
+    "today_target_pct": 0.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1063,
+      "win_count": 1065,
       "loss_count": 1021,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T09:44:42.563186+00:00",
+  "last_llm_brief_at": "2026-09-06T09:46:02.173966+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GKhSW36nRBJUrmQ6RoZG9JCE8QNZ9cXkVL3WPKxrpump": {
-      "price_usd": 9.997110061745256e-06,
+      "price_usd": 1.0768883144270776e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2659.3424423338497,
-      "volume_h24": 3749.87,
+      "liquidity_usd": 2881.2595953164996,
+      "volume_h24": 5421.71,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 24.977387455
+      "real_sol_reserves": 27.09223879
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
