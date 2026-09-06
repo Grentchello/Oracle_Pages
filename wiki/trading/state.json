@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.155457,
+  "balance_sol": 0.147307,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "79QBSBKfjKDigHJxJxJLxZe5WrHBMpiLULYyHQyApump": {
       "symbol": "NERU",
       "name": "TONNERU",
-      "amount": 75087.46876115674,
+      "amount": 37543.73438057837,
       "entry_price_usd": 2.801e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-06T08:45:02.616646+00:00",
       "entry_usd_value": 2.1032,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 34.2244909,
         "description": "Hello, this is Tonneru, here to accompany you. One face, 1,000 shapes. Hard to imitate, loved by many. Make it however you like. ",
         "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "FqkQBzBfgL4VgNuiFWTSCSH6adKpUrAtYniXDKxUpump": {
+      "symbol": "Morrow",
+      "name": "Morrow Ways ",
+      "amount": 532034.4129554656,
+      "entry_price_usd": 3.952e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-06T08:46:20.087626+00:00",
+      "entry_usd_value": 2.1026,
+      "entry_signals": {
+        "liquidity_usd": 503.25334312970995,
+        "volume_24h_usd": 981.51,
+        "market_cap_usd": 3952.5739871412293,
+        "ath_market_cap_usd": 4405.017499786277,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 4.786962267,
+        "description": "Morrow is the read-only agent terminal for Stock  Tokens.",
+        "twitter": "https://x.com/Morrowways",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -35267,25 +35289,30 @@
       "pnl_pct": -1.04,
       "exit_reason": "LLM: sell_all — Held 0.1h, down 1% and flat. No momentum, bonding-curve pool of only $42, no clear narrative ('Juicy'). Not worth tying up a slot.",
       "partial": false
+    },
+    {
+      "mint": "79QBSBKfjKDigHJxJxJLxZe5WrHBMpiLULYyHQyApump",
+      "symbol": "NERU",
+      "name": "TONNERU",
+      "amount_sold": 37543.73438057837,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T08:45:02.616646+00:00",
+      "exit_time": "2026-09-06T08:46:18.679146+00:00",
+      "entry_price_usd": 2.801e-05,
+      "exit_price_usd": 3.318287546886975e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.01185,
+      "pnl_sol": 0.00185,
+      "pnl_pct": 18.47,
+      "exit_reason": "LLM: sell_half — +18.5% in the first hour is exactly the zone where the scalping rules say 'lock some gain.' Bonding-curve token at 0% with thin pool ($7.4k) can rever",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T08:45:02.616833+00:00",
+  "last_updated": "2026-09-06T08:46:20.087888+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.16,
-  "portfolio_value_usd": 18.45,
+  "last_sol_price_usd": 105.13,
+  "portfolio_value_usd": 18.52,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 07:41 UTC",
-      "action": "buy",
-      "details": "[LLM] $OINT at $3.379e-06, spent 0.02 SOL",
-      "reason": "$OINT ('Open Intelligence') hits the AI-agent meta, the dominant 2026 narrative. 1-min launch, real twitter source (AMMACEO), passes viability gate (desc>50 chars + twitter). Risk: thin $3.4k mcap liquidity, possible rug."
-    },
-    {
-      "time": "2026-09-06 07:42 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $OINT at $3.04575e-06 | P&L: -9.9%",
-      "reason": "$OINT at -9.9% on a $59 pool with our 3% share makes us the de facto exit liquidity. Pool is too thin to absorb any further selling without a -30% trip. Cut the loss now, free the slot."
-    },
     {
       "time": "2026-09-06 07:42 UTC",
       "action": "buy",
@@ -35393,30 +35420,54 @@
       "action": "buy",
       "details": "[LLM] $NERU at $2.801e-05, spent 0.02 SOL",
       "reason": "$NERU (TONNERU) passes viability (long desc, $13.4k mcap) and the 'one face, 1000 shapes' art-meme narrative is concrete and memeable. Bond 35% — closest to graduation among new launches, signals real buy pressure. Tiny position 0.05 SOL per rules."
+    },
+    {
+      "time": "2026-09-06 08:46 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $NERU at $3.31829e-05 | P&L: +18.5%",
+      "reason": "+18.5% in the first hour is exactly the zone where the scalping rules say 'lock some gain.' Bonding-curve token at 0% with thin pool ($7.4k) can reverse fast on the first sell pressure. Take half profit, let the rest ride with a free mental stop at entry."
+    },
+    {
+      "time": "2026-09-06 08:46 UTC",
+      "action": "buy",
+      "details": "[LLM] $Morrow at $3.952e-06, spent 0.02 SOL",
+      "reason": "$Morrow — 'read-only agent terminal for Stock Tokens' is a sharp narrative piggybacking on the stockless/meta-stock launch above. 0.9min old, has Twitter, narrative angle is novel (agent tooling + memecoin). Risky but fits the 'catch the wave early' mandate."
     }
   ],
   "trade_stats": {
-    "total": 2073,
-    "wins": 1055,
+    "total": 2074,
+    "wins": 1056,
     "losses": 1018,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.157193,
-    "avg_pnl_pct": 32.28,
+    "total_pnl_sol": -2.155343,
+    "avg_pnl_pct": 32.27,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 91,
-    "today_realized_sol": -0.023035,
-    "today_target_pct": -5.8,
+    "today_trades": 92,
+    "today_realized_sol": -0.021185,
+    "today_target_pct": -5.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1055,
+      "win_count": 1056,
       "loss_count": 1018,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T08:45:00.745343+00:00",
+  "last_llm_brief_at": "2026-09-06T08:46:18.679104+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "79QBSBKfjKDigHJxJxJLxZe5WrHBMpiLULYyHQyApump": {
+      "price_usd": 3.318287546886975e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 7443.048635626969,
+      "volume_h24": 14612.46,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 70.798522169
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

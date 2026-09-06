@@ -15451,3 +15451,9 @@
 ## [2026-09-06 08:45 UTC] buy | [LLM] $NERU at $2.801e-05, spent 0.02 SOL
 - **Reasoning:** $NERU (TONNERU) passes viability (long desc, $13.4k mcap) and the 'one face, 1000 shapes' art-meme narrative is concrete and memeable. Bond 35% — closest to graduation among new launches, signals real buy pressure. Tiny position 0.05 SOL per rules.
 
+## [2026-09-06 08:46 UTC] sell | [PARTIAL][LLM] $NERU at $3.31829e-05 | P&L: +18.5%
+- **Reasoning:** +18.5% in the first hour is exactly the zone where the scalping rules say 'lock some gain.' Bonding-curve token at 0% with thin pool ($7.4k) can reverse fast on the first sell pressure. Take half profit, let the rest ride with a free mental stop at entry.
+
+## [2026-09-06 08:46 UTC] buy | [LLM] $Morrow at $3.952e-06, spent 0.02 SOL
+- **Reasoning:** $Morrow — 'read-only agent terminal for Stock Tokens' is a sharp narrative piggybacking on the stockless/meta-stock launch above. 0.9min old, has Twitter, narrative angle is novel (agent tooling + memecoin). Risky but fits the 'catch the wave early' mandate.
+
