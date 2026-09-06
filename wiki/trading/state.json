@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.214848,
+  "balance_sol": 0.206385,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "CBJba9QmPZT8Fu63Qny7mq8T8tu2as5Ye3k8AGpupump": {
       "symbol": "ROBINDOG",
       "name": "Robin Dog",
-      "amount": 165681.76316370504,
+      "amount": 82840.88158185252,
       "entry_price_usd": 1.283062154462687e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-06T03:50:35.176990+00:00",
       "entry_usd_value": 2.1258000000000004,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 33.784696384,
         "description": "Just a dog with a hat, a suspiciously good plan, and enough lore to keep the whole forest talking.",
         "twitter": "https://x.com/robincoindog",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "25Hu1tivnxK6v76QYxNjzp2ttqbaxtSWvc5suuXypump": {
+      "symbol": "NEET",
+      "name": "EMPLOYIM\r\n",
+      "amount": 680789.6081459982,
+      "entry_price_usd": 3.1196128357243405e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-06T03:52:01.125843+00:00",
+      "entry_usd_value": 2.1238,
+      "entry_signals": {
+        "liquidity_usd": 79.8222563082,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3118.4349801425205,
+        "ath_market_cap_usd": 3118.4349801425205,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.75169278,
+        "description": "my fellow employim who get to feel what it's like to be a neet with a mysterious source of income and no responsibilities",
+        "twitter": "https://x.com/Pumpfun/status/2096329212302963116",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -34349,25 +34371,30 @@
       "pnl_pct": 308.52,
       "exit_reason": "auto-TP +500% (full)",
       "partial": false
+    },
+    {
+      "mint": "CBJba9QmPZT8Fu63Qny7mq8T8tu2as5Ye3k8AGpupump",
+      "symbol": "ROBINDOG",
+      "name": "Robin Dog",
+      "amount_sold": 82840.88158185252,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T03:50:35.176990+00:00",
+      "exit_time": "2026-09-06T03:51:59.368247+00:00",
+      "entry_price_usd": 1.283062154462687e-05,
+      "exit_price_usd": 1.4788931554341493e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011537,
+      "pnl_sol": 0.001537,
+      "pnl_pct": 15.26,
+      "exit_reason": "LLM: sell_half — ROBINDOG is up +15.3% on weak $3.9k liquidity and bonding curve. No clear viral narrative shown — half-exit locks the gain and frees capital for the f",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T03:50:35.436180+00:00",
+  "last_updated": "2026-09-06T03:52:01.126096+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.29,
-  "portfolio_value_usd": 24.96,
+  "last_sol_price_usd": 106.19,
+  "portfolio_value_usd": 25.1,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 03:21 UTC",
-      "action": "buy",
-      "details": "[LLM] $THIN at $3.634e-06, spent 0.02 SOL",
-      "reason": "$THIN 'ThinFi' — meta-narrative token about finding thin-liquidity plays targets the exact degen Twitter crowd that drives memecoin attention. Has twitter @ThinFiRh and utility-flavored desc. Age 0.6min, mcap $3.2k. Viability passes. Risk: meta-tokens often get rugged when utility doesn't materialize, but the attention hook is real."
-    },
-    {
-      "time": "2026-09-06 03:23 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $THIN at $2.92926e-06 | P&L: -19.4%",
-      "reason": "Down 19.4% approaching -30% hard stop, and our share = 70106552% of pool means we are effectively the entire bonding curve — zero liquidity to exit cleanly later. Cutting the loss now frees the slot and the 0.05 SOL position for better setups."
-    },
     {
       "time": "2026-09-06 03:26 UTC",
       "action": "buy",
@@ -34475,30 +34502,54 @@
       "action": "buy",
       "details": "[LLM] $ROBINDOG at $1.28306e-05, spent 0.02 SOL",
       "reason": "$ROBINDOG is the strongest of the batch: highest mcap ($12.8k), bond 34% (close to graduation = real buying pressure), dedicated X account (robincoindog), and lore-rich description. Dog-with-hat is a proven meme category. Passes viability (desc + twitter) and fragility gates."
+    },
+    {
+      "time": "2026-09-06 03:51 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $ROBINDOG at $1.47889e-05 | P&L: +15.3%",
+      "reason": "ROBINDOG is up +15.3% on weak $3.9k liquidity and bonding curve. No clear viral narrative shown — half-exit locks the gain and frees capital for the fresh attention launches."
+    },
+    {
+      "time": "2026-09-06 03:52 UTC",
+      "action": "buy",
+      "details": "[LLM] $NEET at $3.11961e-06, spent 0.02 SOL",
+      "reason": "$NEET has strong NEET/incel-coded narrative with clear X community signal (Pumpfun official post) — this is the kind of ironic 'employim' story that pumps on attention."
     }
   ],
   "trade_stats": {
-    "total": 2019,
-    "wins": 1027,
+    "total": 2020,
+    "wins": 1028,
     "losses": 992,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.097804,
-    "avg_pnl_pct": 32.58,
+    "total_pnl_sol": -2.096267,
+    "avg_pnl_pct": 32.57,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 37,
-    "today_realized_sol": 0.036354,
-    "today_target_pct": 9.1,
+    "today_trades": 38,
+    "today_realized_sol": 0.037891,
+    "today_target_pct": 9.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1027,
+      "win_count": 1028,
       "loss_count": 992,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T03:50:33.783788+00:00",
+  "last_llm_brief_at": "2026-09-06T03:51:59.368209+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CBJba9QmPZT8Fu63Qny7mq8T8tu2as5Ye3k8AGpupump": {
+      "price_usd": 1.4788931554341493e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3924.31797782262,
+      "volume_h24": 14505.93,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 36.955626498
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

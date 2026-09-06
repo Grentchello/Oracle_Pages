@@ -15151,3 +15151,9 @@
 ## [2026-09-06 03:50 UTC] buy | [LLM] $ROBINDOG at $1.28306e-05, spent 0.02 SOL
 - **Reasoning:** $ROBINDOG is the strongest of the batch: highest mcap ($12.8k), bond 34% (close to graduation = real buying pressure), dedicated X account (robincoindog), and lore-rich description. Dog-with-hat is a proven meme category. Passes viability (desc + twitter) and fragility gates.
 
+## [2026-09-06 03:51 UTC] sell | [PARTIAL][LLM] $ROBINDOG at $1.47889e-05 | P&L: +15.3%
+- **Reasoning:** ROBINDOG is up +15.3% on weak $3.9k liquidity and bonding curve. No clear viral narrative shown — half-exit locks the gain and frees capital for the fresh attention launches.
+
+## [2026-09-06 03:52 UTC] buy | [LLM] $NEET at $3.11961e-06, spent 0.02 SOL
+- **Reasoning:** $NEET has strong NEET/incel-coded narrative with clear X community signal (Pumpfun official post) — this is the kind of ironic 'employim' story that pumps on attention.
+
