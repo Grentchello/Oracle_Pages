@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.215629,
+  "balance_sol": 0.233435,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DUkjk7QWAmFDKmH5sCNCtJ4nYGPuzQDjjVTpCLWRpump": {
-      "symbol": "Darpanet",
-      "name": "Darpanet",
-      "amount": 632517.8997613366,
-      "entry_price_usd": 3.352e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T04:40:27.877345+00:00",
-      "entry_usd_value": 2.1202,
-      "entry_signals": {
-        "liquidity_usd": 20.113501829180002,
-        "volume_24h_usd": 202.97,
-        "market_cap_usd": 3653.523101056917,
-        "ath_market_cap_usd": 3653.523101056917,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.189732118,
-        "description": "DARPANET ($DARPANET) The DARPA scientist was warned to stay silent. He didn’t. Darpanet is the declassified meme network they tried to bury — the microwave auditory effect, the silent protocols, and the directed energy that turns your skull into a receiver. This is the frequency they never wanted yo",
-        "twitter": "https://x.com/CMDRVALTHOR/status/2095482997180903869",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34502,19 +34479,30 @@
       "pnl_pct": 0.0,
       "exit_reason": "LLM: sell_all — WFPLB is flat with essentially no price movement, has only $18 in pool liquidity, and is immediately stale. Exit and rotate into stronger attention.",
       "partial": false
+    },
+    {
+      "mint": "DUkjk7QWAmFDKmH5sCNCtJ4nYGPuzQDjjVTpCLWRpump",
+      "symbol": "Darpanet",
+      "name": "Darpanet",
+      "amount_sold": 632517.8997613366,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T04:40:27.877345+00:00",
+      "exit_time": "2026-09-06T04:43:42.856521+00:00",
+      "entry_price_usd": 3.352e-06,
+      "exit_price_usd": 2.985361954584166e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.017806,
+      "pnl_sol": -0.002194,
+      "pnl_pct": -10.94,
+      "exit_reason": "LLM: sell_all — Down -10.9% on a bonding-curve position with tiny $11 pool — fragile structure, and down 10% on day one with no momentum signal. Cut the bag now befor",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T04:42:15.090303+00:00",
+  "last_updated": "2026-09-06T04:43:43.121470+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.94,
-  "portfolio_value_usd": 24.96,
+  "last_sol_price_usd": 106.046,
+  "portfolio_value_usd": 24.75,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 03:39 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $OVL at $9.98424e-06 | P&L: +98.9%",
-      "reason": "$OVL at +98.9% is about to hit the +100% TP threshold. Lock half the gain now — bonding curve only 17% so there's room, but attention on a sub-$3k pool is fragile and I'd rather bank +98% than give it back to a dump."
-    },
     {
       "time": "2026-09-06 03:39 UTC",
       "action": "sell",
@@ -34628,40 +34616,46 @@
       "action": "buy",
       "details": "[LLM] $Darpanet at $3.352e-06, spent 0.02 SOL",
       "reason": "$Darpanet is the only candidate that passes the viability gate (50+ char desc + twitter link). DARPA-declassified conspiracy narrative has strong viral potential — exactly the kind of attention-driven story that 10x's in hours. Bonding curve at 9% means very early entry. Risk: 1.2min old, tiny mcap $3.6k, narrative could fail to spread. Sized at 0.05 SOL to keep reserves."
+    },
+    {
+      "time": "2026-09-06 04:43 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Darpanet at $2.98536e-06 | P&L: -10.9%",
+      "reason": "Down -10.9% on a bonding-curve position with tiny $11 pool — fragile structure, and down 10% on day one with no momentum signal. Cut the bag now before it hits the -30% hard stop, free the slot for fresh alpha."
     }
   ],
   "trade_stats": {
-    "total": 2028,
+    "total": 2029,
     "wins": 1033,
-    "losses": 995,
+    "losses": 996,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.097022,
-    "avg_pnl_pct": 32.45,
+    "total_pnl_sol": -2.099216,
+    "avg_pnl_pct": 32.43,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 46,
-    "today_realized_sol": 0.037136,
-    "today_target_pct": 9.3,
+    "today_trades": 47,
+    "today_realized_sol": 0.034942,
+    "today_target_pct": 8.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1033,
-      "loss_count": 995,
+      "loss_count": 996,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T04:42:14.836979+00:00",
+  "last_llm_brief_at": "2026-09-06T04:43:42.856045+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DUkjk7QWAmFDKmH5sCNCtJ4nYGPuzQDjjVTpCLWRpump": {
-      "price_usd": 2.999559703993515e-06,
+      "price_usd": 2.985361954584166e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 20.10022058092,
+      "liquidity_usd": 10.937886246916,
       "volume_h24": 921.48,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.189732118
+      "real_sol_reserves": 0.103142846
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

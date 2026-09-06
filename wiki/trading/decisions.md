@@ -15196,3 +15196,6 @@
 ## [2026-09-06 04:40 UTC] buy | [LLM] $Darpanet at $3.352e-06, spent 0.02 SOL
 - **Reasoning:** $Darpanet is the only candidate that passes the viability gate (50+ char desc + twitter link). DARPA-declassified conspiracy narrative has strong viral potential — exactly the kind of attention-driven story that 10x's in hours. Bonding curve at 9% means very early entry. Risk: 1.2min old, tiny mcap $3.6k, narrative could fail to spread. Sized at 0.05 SOL to keep reserves.
 
+## [2026-09-06 04:43 UTC] sell | [FULL][LLM] $Darpanet at $2.98536e-06 | P&L: -10.9%
+- **Reasoning:** Down -10.9% on a bonding-curve position with tiny $11 pool — fragile structure, and down 10% on day one with no momentum signal. Cut the bag now before it hits the -30% hard stop, free the slot for fresh alpha.
+
