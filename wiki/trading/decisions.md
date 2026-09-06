@@ -15331,3 +15331,9 @@
 ## [2026-09-06 07:09 UTC] buy | [LLM] $BUBU at $7.914e-06, spent 0.02 SOL
 - **Reasoning:** $BUBU has the strongest narrative of the fresh slate — cute cat trapped in a bubble, viral-feeling story, linked twitter @itsbubuland, highest fresh-launch mcap at $9.4k. Sizing 0.05 SOL (half-standard) since I'm filling my 2nd slot on a fresh 2 SOL balance.
 
+## [2026-09-06 07:10 UTC] sell | [hard-stop] $BUBU closed at $3.0697e-06 | P&L: -61.2%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-06 07:11 UTC] sell | [FULL][LLM] $HOODHAT at $3.5724e-06 | P&L: -0.9%
+- **Reasoning:** Just entered this tick at -0.9% with $322 pool liquidity — that's below the 5x position size threshold and well under $3k viability floor. Cut it now and free the slot for a real launch.
+

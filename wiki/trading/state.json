@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.179344,
+  "balance_sol": 0.206998,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GpDaBVBjjedCGqycyaueJFLJsVTksYJaUXeWLFCPpump": {
-      "symbol": "HOODHAT",
-      "name": "HoodHat",
-      "amount": 585476.8573541519,
-      "entry_price_usd": 3.603216717281643e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T07:08:10.369742+00:00",
-      "entry_usd_value": 2.1096,
-      "entry_signals": {
-        "liquidity_usd": 333.3659109606,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3599.99053426055,
-        "ath_market_cap_usd": 3689.9830241083496,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.160465595,
-        "description": "HoodHat launches and explores coins on Pons V2. Pons owns the trading protocol; HoodHat provides the interface, wallet flow and portfolio tools.",
-        "twitter": "https://x.com/HoodHatdotfun",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "AAEsax1SpKnniwD7SA9eduVbD99B4VMAJfqJjbxtpump": {
-      "symbol": "BUBU",
-      "name": "BUBU",
-      "amount": 266338.13495072024,
-      "entry_price_usd": 7.914e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T07:09:54.862212+00:00",
-      "entry_usd_value": 2.1078,
-      "entry_signals": {
-        "liquidity_usd": 1568.27819310003,
-        "volume_24h_usd": 2023.34,
-        "market_cap_usd": 9461.261308779207,
-        "ath_market_cap_usd": 9497.814993143105,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 14.880711577,
-        "description": "BUBU is a tiny cat with one tiny problem — the bubble won't let him out. He seems fine with it though.",
-        "twitter": "https://x.com/itsbubuland",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34898,25 +34853,47 @@
       "pnl_pct": -5.03,
       "exit_reason": "LLM: sell_all — Pool=$0 means zero real liquidity, and our 'share=949686727%' is a screaming red flag that the bonding curve is broken or we bought into a zombie toke",
       "partial": false
+    },
+    {
+      "mint": "AAEsax1SpKnniwD7SA9eduVbD99B4VMAJfqJjbxtpump",
+      "symbol": "BUBU",
+      "name": "BUBU",
+      "amount_sold": 266338.13495072024,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T07:09:54.862212+00:00",
+      "exit_time": "2026-09-06T07:10:58.781676+00:00",
+      "entry_price_usd": 7.914e-06,
+      "exit_price_usd": 3.069697940773672e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.007772,
+      "pnl_sol": -0.012228,
+      "pnl_pct": -61.21,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "GpDaBVBjjedCGqycyaueJFLJsVTksYJaUXeWLFCPpump",
+      "symbol": "HOODHAT",
+      "name": "HoodHat",
+      "amount_sold": 585476.8573541519,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T07:08:10.369742+00:00",
+      "exit_time": "2026-09-06T07:11:15.061151+00:00",
+      "entry_price_usd": 3.603216717281643e-06,
+      "exit_price_usd": 3.5723985819204048e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019882,
+      "pnl_sol": -0.000118,
+      "pnl_pct": -0.86,
+      "exit_reason": "LLM: sell_all — Just entered this tick at -0.9% with $322 pool liquidity — that's below the 5x position size threshold and well under $3k viability floor. Cut it now ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T07:09:54.862562+00:00",
+  "last_updated": "2026-09-06T07:11:15.565599+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.39,
-  "portfolio_value_usd": 23.1,
+  "last_sol_price_usd": 105.2,
+  "portfolio_value_usd": 21.78,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 06:23 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Y-R-U GAY at $2.98811e-06 | P&L: +0.8%",
-      "reason": "Up only +0.7% after holding, bond=100% but pool is tiny ($14) and our share is 15% — that's essentially exit liquidity territory. +0.7% is not the viral pump the name implies. Take the trivial gain, free the slot, redeploy into a fresher launch."
-    },
-    {
-      "time": "2026-09-06 06:23 UTC",
-      "action": "buy",
-      "details": "[LLM] $MEMECAT at $3.44e-06, spent 0.02 SOL",
-      "reason": "$MEMECAT has the strongest narrative of the batch: 'meme from 2ch.net before 4chan, reddit, discord' is genuine OG-internet lore, and there's an active X post promoting it. $3.4k mcap, 0.6min old — classic early attention play."
-    },
     {
       "time": "2026-09-06 06:25 UTC",
       "action": "sell",
@@ -35024,40 +35001,63 @@
       "action": "buy",
       "details": "[LLM] $BUBU at $7.914e-06, spent 0.02 SOL",
       "reason": "$BUBU has the strongest narrative of the fresh slate — cute cat trapped in a bubble, viral-feeling story, linked twitter @itsbubuland, highest fresh-launch mcap at $9.4k. Sizing 0.05 SOL (half-standard) since I'm filling my 2nd slot on a fresh 2 SOL balance."
+    },
+    {
+      "time": "2026-09-06 07:10 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $BUBU closed at $3.0697e-06 | P&L: -61.2%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-06 07:11 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HOODHAT at $3.5724e-06 | P&L: -0.9%",
+      "reason": "Just entered this tick at -0.9% with $322 pool liquidity — that's below the 5x position size threshold and well under $3k viability floor. Cut it now and free the slot for a real launch."
     }
   ],
   "trade_stats": {
-    "total": 2050,
+    "total": 2052,
     "wins": 1042,
-    "losses": 1008,
+    "losses": 1010,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.113307,
-    "avg_pnl_pct": 32.06,
+    "total_pnl_sol": -2.125653,
+    "avg_pnl_pct": 32.0,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 68,
-    "today_realized_sol": 0.020851,
-    "today_target_pct": 5.2,
+    "today_trades": 70,
+    "today_realized_sol": 0.008505,
+    "today_target_pct": 2.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1042,
-      "loss_count": 1008,
+      "loss_count": 1010,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T07:09:53.455015+00:00",
+  "last_llm_brief_at": "2026-09-06T07:11:15.061109+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GpDaBVBjjedCGqycyaueJFLJsVTksYJaUXeWLFCPpump": {
-      "price_usd": 3.5788506325911733e-06,
+      "price_usd": 3.5723985819204048e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 322.73186858775,
-      "volume_h24": 450.41,
+      "liquidity_usd": 322.15003867,
+      "volume_h24": 451.43,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 3.062262725
+    },
+    "AAEsax1SpKnniwD7SA9eduVbD99B4VMAJfqJjbxtpump": {
+      "price_usd": 3.069697940773672e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 68.15698872920001,
+      "volume_h24": 5634.86,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.647880121
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
