@@ -15391,3 +15391,6 @@
 ## [2026-09-06 07:36 UTC] sell | [FULL][LLM] $ANSEMINU at $7.098e-05 | P&L: +204.4%
 - **Reasoning:** +204% in 12 minutes is a moonshot. Bonding curve likely fully filled and dev may be preparing to dump. Lock the gain — this is +0.02 SOL locked profit on a fresh slate. Don't hope for 10x when3x is already in the bag.
 
+## [2026-09-06 07:41 UTC] buy | [LLM] $OINT at $3.379e-06, spent 0.02 SOL
+- **Reasoning:** $OINT ('Open Intelligence') hits the AI-agent meta, the dominant 2026 narrative. 1-min launch, real twitter source (AMMACEO), passes viability gate (desc>50 chars + twitter). Risk: thin $3.4k mcap liquidity, possible rug.
+
