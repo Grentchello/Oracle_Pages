@@ -15430,3 +15430,9 @@
 ## [2026-09-06 08:07 UTC] buy | [LLM] $ANSEMINU at $2.016e-05, spent 0.02 SOL
 - **Reasoning:** ANSEM is a top-3 crypto memecoin KOL with a real following; piggybacking on his brand is the clearest attention narrative in this batch. Bonding curve at 40% means organic buys are actually flowing. Viability passes (twitter + long desc). Sizing 0.05 SOL.
 
+## [2026-09-06 08:08 UTC] sell | [TP +30% (25%)] $ANSEMINU at $2.95008e-05 | P&L: +46.3%
+- **Reasoning:** Auto take-profit at +46.3%
+
+## [2026-09-06 08:09 UTC] buy | [LLM] $GLIZZY at $4.71602e-06, spent 0.02 SOL
+- **Reasoning:** GLIZZY passes viability gate (desc ≥50 chars AND has twitter). Absurdist 'Glizzillionaire' is classic viral memecoin energy — silly internet humor travels fast. Bonding curve only 17%, mcap $4.7k, plenty of room. No fragility triggers (no political/celebrity keywords). 0.05 SOL position fits budget.
+

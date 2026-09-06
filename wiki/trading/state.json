@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.161459,
+  "balance_sol": 0.14877,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "BG2ga3ea8XYoG1STLbAuCFQoCjerAWX916aNGVM5pump": {
       "symbol": "ANSEMINU",
       "name": "ANSEM INU",
-      "amount": 104384.92063492064,
+      "amount": 78288.69047619047,
       "entry_price_usd": 2.016e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.015,
       "entry_time": "2026-09-06T08:07:27.215005+00:00",
       "entry_usd_value": 2.1044,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 59.886041058,
         "description": "ANSEM INU HAS AWAKENED The next generation of COPPERINU x ANSEM meme energy. Born from copper. Blessed by ANSEM. Raised by degens.",
         "twitter": "https://x.com/anseminu_sol/status/2096509225442611413",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "EHsxY2SPqmbZYhFmSWXNDZHBFy6JarS95ykzEinkpump": {
+      "symbol": "GLIZZY",
+      "name": "GLIZZILLIONAIRE",
+      "amount": 446562.7928610149,
+      "entry_price_usd": 4.716022099618713e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-06T08:09:13.605713+00:00",
+      "entry_usd_value": 2.106,
+      "entry_signals": {
+        "liquidity_usd": 1383.0927958457999,
+        "volume_24h_usd": null,
+        "market_cap_usd": 4713.609591328226,
+        "ath_market_cap_usd": 5107.861624854064,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 13.134784386,
+        "description": "Look at all those Glizzillionaires. They be glizzin’ it up!",
+        "twitter": "X.com/glizzillionaire",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -35199,25 +35221,30 @@
       "pnl_pct": -5.16,
       "exit_reason": "LLM: sell_all — Pool is $23 and we own 8% — we ARE the liquidity, which means any exit moves price against us and any small sell from holders nukes our value. Already",
       "partial": false
+    },
+    {
+      "mint": "BG2ga3ea8XYoG1STLbAuCFQoCjerAWX916aNGVM5pump",
+      "symbol": "ANSEMINU",
+      "name": "ANSEM INU",
+      "amount_sold": 26096.23015873016,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-06T08:07:27.215005+00:00",
+      "exit_time": "2026-09-06T08:08:30.910476+00:00",
+      "entry_price_usd": 2.016e-05,
+      "exit_price_usd": 2.9500821827814218e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007311,
+      "pnl_sol": 0.002311,
+      "pnl_pct": 46.33,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T08:07:27.215148+00:00",
+  "last_updated": "2026-09-06T08:09:13.605981+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.22,
-  "portfolio_value_usd": 19.09,
+  "last_sol_price_usd": 105.3,
+  "portfolio_value_usd": 20.05,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 07:31 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-06 07:32 UTC",
-      "action": "sell",
-      "details": "[TP +100% (50%)] $ANSEMINU at $6.572e-05 | P&L: +181.8%",
-      "reason": "Auto take-profit at +181.8%"
-    },
     {
       "time": "2026-09-06 07:32 UTC",
       "action": "observe",
@@ -35325,40 +35352,52 @@
       "action": "buy",
       "details": "[LLM] $ANSEMINU at $2.016e-05, spent 0.02 SOL",
       "reason": "ANSEM is a top-3 crypto memecoin KOL with a real following; piggybacking on his brand is the clearest attention narrative in this batch. Bonding curve at 40% means organic buys are actually flowing. Viability passes (twitter + long desc). Sizing 0.05 SOL."
+    },
+    {
+      "time": "2026-09-06 08:08 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $ANSEMINU at $2.95008e-05 | P&L: +46.3%",
+      "reason": "Auto take-profit at +46.3%"
+    },
+    {
+      "time": "2026-09-06 08:09 UTC",
+      "action": "buy",
+      "details": "[LLM] $GLIZZY at $4.71602e-06, spent 0.02 SOL",
+      "reason": "GLIZZY passes viability gate (desc ≥50 chars AND has twitter). Absurdist 'Glizzillionaire' is classic viral memecoin energy — silly internet humor travels fast. Bonding curve only 17%, mcap $4.7k, plenty of room. No fragility triggers (no political/celebrity keywords). 0.05 SOL position fits budget."
     }
   ],
   "trade_stats": {
-    "total": 2069,
-    "wins": 1053,
+    "total": 2070,
+    "wins": 1054,
     "losses": 1016,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.151191,
-    "avg_pnl_pct": 32.35,
+    "total_pnl_sol": -2.14888,
+    "avg_pnl_pct": 32.36,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 87,
-    "today_realized_sol": -0.017033,
-    "today_target_pct": -4.3,
+    "today_trades": 88,
+    "today_realized_sol": -0.014722,
+    "today_target_pct": -3.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1053,
+      "win_count": 1054,
       "loss_count": 1016,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T08:07:25.826552+00:00",
+  "last_llm_brief_at": "2026-09-06T08:09:12.133718+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "FsaQYmnqadz4z1ZHzftxZbAq7h1cuXBEgCKLQLXcpump": {
-      "price_usd": 2.985574150381632e-06,
+    "BG2ga3ea8XYoG1STLbAuCFQoCjerAWX916aNGVM5pump": {
+      "price_usd": 2.9500821827814218e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 23.3739927322,
-      "volume_h24": 2691.58,
+      "liquidity_usd": 6840.809619976801,
+      "volume_h24": 13710.14,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.22214401
+      "real_sol_reserves": 64.964953656
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
