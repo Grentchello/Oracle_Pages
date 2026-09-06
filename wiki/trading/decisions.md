@@ -15535,3 +15535,6 @@
 ## [2026-09-06 10:23 UTC] sell | [FULL][LLM] $FICAT at $3.25421e-06 | P&L: +2.2%
 - **Reasoning:** Pool is only $144 with our 2% share — too illiquid to trust exit at TP levels. +2.2% is barely above entry; freeing the slot for a fresher, narrative-driven launch is better than bag-holding thin liquidity.
 
+## [2026-09-06 10:47 UTC] buy | [LLM] $DOOM at $3.03133e-06, spent 0.02 SOL
+- **Reasoning:** $DOOM — 'doomsday / 1000x fate' is a classic viral meme angle, has Twitter presence. Viability gate passes (57-char desc + twitter). Fresh 0.1min age, sized 0.05 SOL to bound downside if it rugs.
+
