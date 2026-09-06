@@ -14953,3 +14953,6 @@
 ## [2026-09-06 00:11 UTC] buy | [LLM] $RUNNER at $2.96752e-06, spent 0.02 SOL
 - **Reasoning:** $RUNNER/ZOLANA has active crypto attention (ansem mention, blknoiz06 twitter), memecoin meta narrative about Zolana needing a runner posted Sept 5. $2.9k mcap = early entry, 0.05 SOL sizing limits downside.
 
+## [2026-09-06 00:12 UTC] buy | [LLM] $ANTH at $3.46492e-06, spent 0.02 SOL
+- **Reasoning:** $ANTH has the strongest narrative of the batch — 'Anthropic Stock Token' ties the AI-stock-tokenization meta-trend to a memecoin with a dedicated X account (@STOCKS_OTC_). Passes viability (twitter + desc>50) and no fragility flags.
+
