@@ -15442,3 +15442,6 @@
 ## [2026-09-06 08:13 UTC] sell | [FULL][LLM] $GLIZZY at $5.81692e-06 | P&L: +23.3%
 - **Reasoning:** Up +23.3% approaching the +25% auto-TP line, but the $1282 pool is too thin to trust continuation — bonding-curve tokens rug or dump hard once early buyers rotate out. Lock the gain now; per scalp discipline, when up >20% with any doubt, take profit.
 
+## [2026-09-06 08:16 UTC] buy | [LLM] $JUICY  at $3.051e-06, spent 0.02 SOL
+- **Reasoning:** $JUICY — Biggie's 'Juicy' nostalgia narrative is a strong evergreen meme hook with confirmed Twitter presence (@chingonamics). Passes viability gate (long desc + twitter). 0.05 SOL position; if it doesn't pump in 15 min, mark stale and consider exit.
+
