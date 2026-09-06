@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.143447,
+  "balance_sol": 0.155145,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "64a7h7cptKS7ngk1LzXXk31j9xsngnyTkEQnuKS4pump": {
       "symbol": "bagged",
       "name": "Bag Guy",
-      "amount": 614629.3827491138,
+      "amount": 307314.6913745569,
       "entry_price_usd": 3.467130045863516e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-06T09:37:51.105665+00:00",
       "entry_usd_value": 2.131,
       "entry_signals": {
@@ -35391,19 +35391,30 @@
       "pnl_pct": -2.98,
       "exit_reason": "LLM: sell_all — Pool is only $8 and my position is 25% of it - I'm liquidity-locked. At -3% with no volume on a bonding-curve thin pool, this will only get worse. Try",
       "partial": false
+    },
+    {
+      "mint": "64a7h7cptKS7ngk1LzXXk31j9xsngnyTkEQnuKS4pump",
+      "symbol": "bagged",
+      "name": "Bag Guy",
+      "amount_sold": 307314.6913745569,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T09:37:51.105665+00:00",
+      "exit_time": "2026-09-06T09:41:54.161303+00:00",
+      "entry_price_usd": 3.467130045863516e-06,
+      "exit_price_usd": 4.0534672703922824e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011698,
+      "pnl_sol": 0.001698,
+      "pnl_pct": 16.91,
+      "exit_reason": "LLM: sell_half — Locked +16.9% on extremely thin $533 pool with bonding only 8% complete — gains can vanish fast on a token this illiquid. Half-exit secures profit and",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T09:40:23.962310+00:00",
+  "last_updated": "2026-09-06T09:41:54.162476+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.56,
-  "portfolio_value_usd": 19.55,
+  "last_sol_price_usd": 106.49,
+  "portfolio_value_usd": 19.78,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 08:07 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Buffalo at $2.98557e-06 | P&L: -5.2%",
-      "reason": "Pool is $23 and we own 8% — we ARE the liquidity, which means any exit moves price against us and any small sell from holders nukes our value. Already -5.2% with no visible narrative. Cut the slot loose before it bleeds further."
-    },
     {
       "time": "2026-09-06 08:07 UTC",
       "action": "buy",
@@ -35517,40 +35528,57 @@
       "action": "buy",
       "details": "[LLM] $gozu at $6.877e-06, spent 0.02 SOL",
       "reason": "$gozu has the strongest meta-narrative of the batch — self-aware 'aping on vibes' joke targets traders directly, has twitter link, and mcap $7k with 26% bond means real buys are flowing. Memecoins about trader psychology tend to spread."
+    },
+    {
+      "time": "2026-09-06 09:41 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $bagged at $4.05347e-06 | P&L: +16.9%",
+      "reason": "Locked +16.9% on extremely thin $533 pool with bonding only 8% complete — gains can vanish fast on a token this illiquid. Half-exit secures profit and frees a slot for a fresher narrative launch."
     }
   ],
   "trade_stats": {
-    "total": 2079,
-    "wins": 1058,
+    "total": 2080,
+    "wins": 1059,
     "losses": 1021,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.149203,
+    "total_pnl_sol": -2.147505,
     "avg_pnl_pct": 32.26,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 97,
-    "today_realized_sol": -0.015045,
-    "today_target_pct": -3.8,
+    "today_trades": 98,
+    "today_realized_sol": -0.013347,
+    "today_target_pct": -3.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1058,
+      "win_count": 1059,
       "loss_count": 1021,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T09:40:22.422898+00:00",
+  "last_llm_brief_at": "2026-09-06T09:41:54.161268+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "64a7h7cptKS7ngk1LzXXk31j9xsngnyTkEQnuKS4pump": {
-      "price_usd": 3.879547520483966e-06,
+      "price_usd": 4.0534672703922824e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 451.14374460671996,
-      "volume_h24": 770.35,
+      "liquidity_usd": 532.8908540108699,
+      "volume_h24": 1259.96,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.233706312
+      "real_sol_reserves": 5.004139863
+    },
+    "GKhSW36nRBJUrmQ6RoZG9JCE8QNZ9cXkVL3WPKxrpump": {
+      "price_usd": 7.512961139645428e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1880.1180181041,
+      "volume_h24": 2085.44,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 17.65534809
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

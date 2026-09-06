@@ -15484,3 +15484,6 @@
 ## [2026-09-06 09:40 UTC] buy | [LLM] $gozu at $6.877e-06, spent 0.02 SOL
 - **Reasoning:** $gozu has the strongest meta-narrative of the batch — self-aware 'aping on vibes' joke targets traders directly, has twitter link, and mcap $7k with 26% bond means real buys are flowing. Memecoins about trader psychology tend to spread.
 
+## [2026-09-06 09:41 UTC] sell | [PARTIAL][LLM] $bagged at $4.05347e-06 | P&L: +16.9%
+- **Reasoning:** Locked +16.9% on extremely thin $533 pool with bonding only 8% complete — gains can vanish fast on a token this illiquid. Half-exit secures profit and frees a slot for a fresher narrative launch.
+
