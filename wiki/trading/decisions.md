@@ -15346,3 +15346,9 @@
 ## [2026-09-06 07:23 UTC] buy | [LLM] $ANSEMINU at $2.332e-05, spent 0.02 SOL
 - **Reasoning:** $ANSEMINU is the strongest launch this tick: ANSEM is a real Solana memecoin KOL with proven attention-pull, mcap only $27k (room to run), has active twitter, viability gate passes. Buying 0.05 SOL. Narrative is influencer-driven which carries both attention and fragility risk — sized small accordingly.
 
+## [2026-09-06 07:24 UTC] sell | [FULL][LLM] $RugClub at $2.9733e-06 | P&L: -2.7%
+- **Reasoning:** $RugClub is down 2.7% with a tiny $16 pool, 13% of supply is ours (severe exit illiquidity), and the name itself screams rug. Better to cut bait now than get crushed when someone dumps through us.
+
+## [2026-09-06 07:24 UTC] sell | [PARTIAL][LLM] $ANSEMINU at $2.9587e-05 | P&L: +26.9%
+- **Reasoning:** ANSEMINU is up +26.9% in minutes — this is a KOL-name token riding attention, the kind that gives back gains fast. Lock half the profit, let the rest ride to the +30% TP or a +50% spike.
+

@@ -1,36 +1,14 @@
 {
-  "balance_sol": 0.166998,
+  "balance_sol": 0.199112,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "82STzPxBNYP6t3rvsjzfpaSKYHsyrReuYfjhXgcopump": {
-      "symbol": "RugClub",
-      "name": "The Pumpfun Rug Club",
-      "amount": 687994.766110566,
-      "entry_price_usd": 3.057e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T07:20:00.599992+00:00",
-      "entry_usd_value": 2.1032,
-      "entry_signals": {
-        "liquidity_usd": 34.439731744,
-        "volume_24h_usd": 542.97,
-        "market_cap_usd": 3003.4618622994844,
-        "ath_market_cap_usd": 3364.2201235574253,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.3274984,
-        "description": "PUMP.FUN USED TO BE FUN. People used to find a coin, grab a bag, work together, build a community, and actually have a shot at growing something. Now? Rugs. Farms. Repeat. The fun is gone. If you’ve been rugged, farmed, dumped on, or watched another community get drained while the insiders walked aw",
-        "twitter": "https://x.com/witkusdave91700/status/2096497425313562746?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "Au6uWJqXKC5aMpxyreVk2FQ3xZWAH95rp519R9k3pump": {
       "symbol": "ANSEMINU",
       "name": "ANSEM INU",
-      "amount": 90308.74785591767,
+      "amount": 45154.37392795883,
       "entry_price_usd": 2.332e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-06T07:23:10.770539+00:00",
       "entry_usd_value": 2.106,
       "entry_signals": {
@@ -34932,25 +34910,47 @@
       "pnl_pct": -0.86,
       "exit_reason": "LLM: sell_all — Just entered this tick at -0.9% with $322 pool liquidity — that's below the 5x position size threshold and well under $3k viability floor. Cut it now ",
       "partial": false
+    },
+    {
+      "mint": "82STzPxBNYP6t3rvsjzfpaSKYHsyrReuYfjhXgcopump",
+      "symbol": "RugClub",
+      "name": "The Pumpfun Rug Club",
+      "amount_sold": 687994.766110566,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T07:20:00.599992+00:00",
+      "exit_time": "2026-09-06T07:24:34.885017+00:00",
+      "entry_price_usd": 3.057e-06,
+      "exit_price_usd": 2.9733036755082306e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019427,
+      "pnl_sol": -0.000573,
+      "pnl_pct": -2.74,
+      "exit_reason": "LLM: sell_all — $RugClub is down 2.7% with a tiny $16 pool, 13% of supply is ours (severe exit illiquidity), and the name itself screams rug. Better to cut bait now t",
+      "partial": false
+    },
+    {
+      "mint": "Au6uWJqXKC5aMpxyreVk2FQ3xZWAH95rp519R9k3pump",
+      "symbol": "ANSEMINU",
+      "name": "ANSEM INU",
+      "amount_sold": 45154.37392795883,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T07:23:10.770539+00:00",
+      "exit_time": "2026-09-06T07:24:34.885224+00:00",
+      "entry_price_usd": 2.332e-05,
+      "exit_price_usd": 2.9586968094269433e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.012687,
+      "pnl_sol": 0.002687,
+      "pnl_pct": 26.87,
+      "exit_reason": "LLM: sell_half — ANSEMINU is up +26.9% in minutes — this is a KOL-name token riding attention, the kind that gives back gains fast. Lock half the profit, let the rest ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T07:23:10.770724+00:00",
+  "last_updated": "2026-09-06T07:24:35.144618+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 105.3,
-  "portfolio_value_usd": 21.73,
+  "portfolio_value_usd": 22.02,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 06:27 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $OTCxPUMP at $3.93277e-06 | P&L: -22.3%",
-      "reason": "$OTCxPUMP is at -22.3% with pool only $485 and our share 0% — no bounce signal, micro liquidity, classic slow bleed. Lock the loss before -30% hard stop."
-    },
-    {
-      "time": "2026-09-06 06:27 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $AGI at $3.02702e-06 | P&L: -18.1%",
-      "reason": "$AGI at -18.1% with pool just $36 (below 5x position min) and 5% share — dead pool, no recovery possible. Cut before -30% hard stop."
-    },
     {
       "time": "2026-09-06 06:32 UTC",
       "action": "buy",
@@ -35058,28 +35058,40 @@
       "action": "buy",
       "details": "[LLM] $ANSEMINU at $2.332e-05, spent 0.02 SOL",
       "reason": "$ANSEMINU is the strongest launch this tick: ANSEM is a real Solana memecoin KOL with proven attention-pull, mcap only $27k (room to run), has active twitter, viability gate passes. Buying 0.05 SOL. Narrative is influencer-driven which carries both attention and fragility risk — sized small accordingly."
+    },
+    {
+      "time": "2026-09-06 07:24 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RugClub at $2.9733e-06 | P&L: -2.7%",
+      "reason": "$RugClub is down 2.7% with a tiny $16 pool, 13% of supply is ours (severe exit illiquidity), and the name itself screams rug. Better to cut bait now than get crushed when someone dumps through us."
+    },
+    {
+      "time": "2026-09-06 07:24 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $ANSEMINU at $2.9587e-05 | P&L: +26.9%",
+      "reason": "ANSEMINU is up +26.9% in minutes — this is a KOL-name token riding attention, the kind that gives back gains fast. Lock half the profit, let the rest ride to the +30% TP or a +50% spike."
     }
   ],
   "trade_stats": {
-    "total": 2052,
-    "wins": 1042,
-    "losses": 1010,
+    "total": 2054,
+    "wins": 1043,
+    "losses": 1011,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.125653,
-    "avg_pnl_pct": 32.0,
+    "total_pnl_sol": -2.123539,
+    "avg_pnl_pct": 31.98,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 70,
-    "today_realized_sol": 0.008505,
-    "today_target_pct": 2.1,
+    "today_trades": 72,
+    "today_realized_sol": 0.010619,
+    "today_target_pct": 2.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1042,
-      "loss_count": 1010,
+      "win_count": 1043,
+      "loss_count": 1011,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T07:23:09.536672+00:00",
+  "last_llm_brief_at": "2026-09-06T07:24:34.884980+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "82STzPxBNYP6t3rvsjzfpaSKYHsyrReuYfjhXgcopump": {
@@ -35092,6 +35104,17 @@
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.148515788
+    },
+    "Au6uWJqXKC5aMpxyreVk2FQ3xZWAH95rp519R9k3pump": {
+      "price_usd": 2.9586968094269433e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 6855.3993611259,
+      "volume_h24": 27266.04,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 65.103507703
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
