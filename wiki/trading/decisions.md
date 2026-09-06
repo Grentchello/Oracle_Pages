@@ -15040,3 +15040,6 @@
 ## [2026-09-06 01:54 UTC] buy | [LLM] $FAKEWR at $3.41e-06, spent 0.02 SOL
 - **Reasoning:** $FAKEWR has a real narrative (NFL DeJean meme), dedicated twitter handle (fakewr49), and the 'not a lie if you believe it' hook is memeable. Fresh1.4min, $3.4k mcap = classic early-launch entry. Risk: narrative may not catch fire beyond niche NFL audience.
 
+## [2026-09-06 01:58 UTC] sell | [FULL][LLM] $FAKEWR at $3.44154e-06 | P&L: +0.9%
+- **Reasoning:** FAKEWR is barely up +0.9% after 6 minutes, pool only $275, and name is meta-parody ('FAKE WRAP' style) with no viral catalyst. Stale already, no momentum — exit and free the slot for a fresher launch.
+
