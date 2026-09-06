@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.207713,
+  "balance_sol": 0.212162,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "Au6uWJqXKC5aMpxyreVk2FQ3xZWAH95rp519R9k3pump": {
       "symbol": "ANSEMINU",
       "name": "ANSEM INU",
-      "amount": 16932.890222984563,
+      "amount": 8466.445111492281,
       "entry_price_usd": 2.332e-05,
-      "entry_sol_spent": 0.00375,
+      "entry_sol_spent": 0.001875,
       "entry_time": "2026-09-06T07:23:10.770539+00:00",
       "entry_usd_value": 2.106,
       "entry_signals": {
@@ -34978,25 +34978,30 @@
       "pnl_pct": 94.13,
       "exit_reason": "auto-TP +30% (25%)",
       "partial": true
+    },
+    {
+      "mint": "Au6uWJqXKC5aMpxyreVk2FQ3xZWAH95rp519R9k3pump",
+      "symbol": "ANSEMINU",
+      "name": "ANSEM INU",
+      "amount_sold": 8466.445111492281,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T07:23:10.770539+00:00",
+      "exit_time": "2026-09-06T07:28:54.426126+00:00",
+      "entry_price_usd": 2.332e-05,
+      "exit_price_usd": 5.527e-05,
+      "entry_sol_for_chunk": 0.001875,
+      "exit_sol_received": 0.004449,
+      "pnl_sol": 0.002574,
+      "pnl_pct": 137.01,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T07:27:51.279183+00:00",
+  "last_updated": "2026-09-06T07:29:47.894597+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.18,
-  "portfolio_value_usd": 22.24,
+  "last_sol_price_usd": 105.19,
+  "portfolio_value_usd": 22.51,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 06:37 UTC",
-      "action": "buy",
-      "details": "[LLM] $PONSCAT at $3.07311e-06, spent 0.02 SOL",
-      "reason": "$PONSCAT — cat narrative with a story-driven description ('tiny glass guardian carrying one clean signal through the noise') and dedicated X account. Micro-cap, brand-able mascot, fresh launch attention."
-    },
-    {
-      "time": "2026-09-06 06:38 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PONSCAT at $3.04202e-06 | P&L: -1.0%",
-      "reason": "$PONSCAT is flat (-1%) at 0h held with only $50 pool and 4% of pool owned — that's a thin, illiquid position with no momentum signal. Exiting frees the slot for a fresher, higher-attention launch."
-    },
     {
       "time": "2026-09-06 06:40 UTC",
       "action": "buy",
@@ -35104,6 +35109,18 @@
       "action": "observe",
       "details": "LLM call failed: llm call failed",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-06 07:28 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $ANSEMINU at $5.527e-05 | P&L: +137.0%",
+      "reason": "Auto take-profit at +137.0%"
+    },
+    {
+      "time": "2026-09-06 07:29 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -35125,15 +35142,15 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T07:27:51.278877+00:00",
+  "last_llm_brief_at": "2026-09-06T07:29:47.894242+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "Au6uWJqXKC5aMpxyreVk2FQ3xZWAH95rp519R9k3pump": {
-      "price_usd": 4.527e-05,
-      "change_h24": 4.29,
-      "change_h1": 4.29,
-      "liquidity_usd": 16467.7,
-      "volume_h24": 9417.89,
+      "price_usd": 5.527e-05,
+      "change_h24": 27.32,
+      "change_h1": 27.32,
+      "liquidity_usd": 18418.63,
+      "volume_h24": 23627.45,
       "dex_id": "pumpswap",
       "source": "dexscreener"
     }
