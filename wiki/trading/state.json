@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.164592,
+  "balance_sol": 0.184047,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3n45f9zvS7QNFJcycArmrd4KXu8fNx7qLMMd7vKYpump": {
-      "symbol": "AntiFomo",
-      "name": "AntiFomo Bot",
-      "amount": 685692.925436918,
-      "entry_price_usd": 3.0690122676402022e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T09:03:11.997909+00:00",
-      "entry_usd_value": 2.1044,
-      "entry_signals": {
-        "liquidity_usd": 67.50330923862,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3069.8588548200687,
-        "ath_market_cap_usd": 3365.3583095115855,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.641544471,
-        "description": "Stop chasing pumps. Follow the wallets that actually win. Al-ranked top @fomo traders.",
-        "twitter": "https://x.com/AntiFomoBot",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35335,19 +35312,30 @@
       "pnl_pct": -1.12,
       "exit_reason": "LLM: sell_all — Morrow is -1.1% on a tiny $481 bonding-curve pool with 0% share. No momentum, no narrative strength, no liquidity. Exit the dead weight immediately to",
       "partial": false
+    },
+    {
+      "mint": "3n45f9zvS7QNFJcycArmrd4KXu8fNx7qLMMd7vKYpump",
+      "symbol": "AntiFomo",
+      "name": "AntiFomo Bot",
+      "amount_sold": 685692.925436918,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T09:03:11.997909+00:00",
+      "exit_time": "2026-09-06T09:06:01.213548+00:00",
+      "entry_price_usd": 3.0690122676402022e-06,
+      "exit_price_usd": 2.989409673093298e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019455,
+      "pnl_sol": -0.000545,
+      "pnl_pct": -2.59,
+      "exit_reason": "LLM: sell_all — The position is down 2.6% but has no clear momentum signal yet, and the extremely small $23 pool plus 9% ownership creates severe exit fragility. Recy",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T09:04:42.586937+00:00",
+  "last_updated": "2026-09-06T09:06:01.213838+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.32,
-  "portfolio_value_usd": 19.44,
+  "last_sol_price_usd": 105.36,
+  "portfolio_value_usd": 19.39,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 08:00 UTC",
-      "action": "buy",
-      "details": "[LLM] $HEARTFUND at $3.1e-06, spent 0.02 SOL",
-      "reason": "$HEARTFUND — genuine viral sympathy narrative (real X account solheartana, baby heart surgery story, going LIVE for proof). Sympathy tokens historically pump 2-5x on launch attention before fading. Risk: charity dumps are common, and narrative could fall flat if no engagement."
-    },
     {
       "time": "2026-09-06 08:01 UTC",
       "action": "sell",
@@ -35461,40 +35449,46 @@
       "action": "buy",
       "details": "[LLM] $AntiFomo at $3.06901e-06, spent 0.02 SOL",
       "reason": "AntiFomo Bot passes viability gate (104-char desc + Twitter), meta-narrative around tracking winning wallets has attention potential. $3k mcap is fresh enough for 5-10x but thin liquidity means size matters - 0.05 SOL position only."
+    },
+    {
+      "time": "2026-09-06 09:06 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $AntiFomo at $2.98941e-06 | P&L: -2.6%",
+      "reason": "The position is down 2.6% but has no clear momentum signal yet, and the extremely small $23 pool plus 9% ownership creates severe exit fragility. Recycle the slot rather than wait in a bonding-curve position."
     }
   ],
   "trade_stats": {
-    "total": 2077,
+    "total": 2078,
     "wins": 1058,
-    "losses": 1019,
+    "losses": 1020,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.148058,
-    "avg_pnl_pct": 32.3,
+    "total_pnl_sol": -2.148603,
+    "avg_pnl_pct": 32.28,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 95,
-    "today_realized_sol": -0.0139,
-    "today_target_pct": -3.5,
+    "today_trades": 96,
+    "today_realized_sol": -0.014445,
+    "today_target_pct": -3.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1058,
-      "loss_count": 1019,
+      "loss_count": 1020,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T09:04:42.586887+00:00",
+  "last_llm_brief_at": "2026-09-06T09:06:01.213506+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "3n45f9zvS7QNFJcycArmrd4KXu8fNx7qLMMd7vKYpump": {
-      "price_usd": 3.07192902556606e-06,
+      "price_usd": 2.989409673093298e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 67.56746368572,
-      "volume_h24": 578.92,
+      "liquidity_usd": 23.332174080479998,
+      "volume_h24": 623.19,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.641544471
+      "real_sol_reserves": 0.221451918
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -15469,3 +15469,6 @@
 ## [2026-09-06 09:03 UTC] buy | [LLM] $AntiFomo at $3.06901e-06, spent 0.02 SOL
 - **Reasoning:** AntiFomo Bot passes viability gate (104-char desc + Twitter), meta-narrative around tracking winning wallets has attention potential. $3k mcap is fresh enough for 5-10x but thin liquidity means size matters - 0.05 SOL position only.
 
+## [2026-09-06 09:06 UTC] sell | [FULL][LLM] $AntiFomo at $2.98941e-06 | P&L: -2.6%
+- **Reasoning:** The position is down 2.6% but has no clear momentum signal yet, and the extremely small $23 pool plus 9% ownership creates severe exit fragility. Recycle the slot rather than wait in a bonding-curve position.
+
