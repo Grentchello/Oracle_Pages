@@ -15253,3 +15253,6 @@
 ## [2026-09-06 05:52 UTC] buy | [LLM] $MAGMA at $3.11747e-06, spent 0.02 SOL
 - **Reasoning:** $MAGMA — real breaking news hook (Anak Krakatau eruption halted flights), active X account, narrative-driven meme with viral potential. Viable.
 
+## [2026-09-06 05:58 UTC] sell | [FULL][LLM] $MAGMA at $3.08152e-06 | P&L: -1.1%
+- **Reasoning:** MAGMA is down 1.2% after 6 minutes with pool only $56 and our share is 4% — that's dangerously thin liquidity for a position our size. A 4% pool share means our own exit will crater the price. Cut now before we eat the -30% hard stop.
+

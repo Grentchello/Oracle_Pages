@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.223898,
+  "balance_sol": 0.24369,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2Nw9bma1cyviVaq6hb7oBT3AVuWvg5EZSFJePQzQpump": {
-      "symbol": "MAGMA",
-      "name": "anak krakatoa",
-      "amount": 683503.7810403745,
-      "entry_price_usd": 3.1174662951486056e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T05:52:37.981435+00:00",
-      "entry_usd_value": 2.1308000000000002,
-      "entry_signals": {
-        "liquidity_usd": 73.62793743396,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3117.4662951486052,
-        "ath_market_cap_usd": 3117.4662951486052,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.691082574,
-        "description": "Indonesia's Anak Krakatau eruption halts flights, schools.  Time to rest and full send $MAGMA",
-        "twitter": "https://x.com/yourmolecule/status/2096474321472667825?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34672,19 +34649,30 @@
       "pnl_pct": 1.08,
       "exit_reason": "LLM: sell_all — Flat at +1.1% in 0.1h on a $116 pool — no momentum, thin liquidity makes any bounce hard. Freeing slot for a higher-attention fresh launch.",
       "partial": false
+    },
+    {
+      "mint": "2Nw9bma1cyviVaq6hb7oBT3AVuWvg5EZSFJePQzQpump",
+      "symbol": "MAGMA",
+      "name": "anak krakatoa",
+      "amount_sold": 683503.7810403745,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T05:52:37.981435+00:00",
+      "exit_time": "2026-09-06T05:58:20.520287+00:00",
+      "entry_price_usd": 3.1174662951486056e-06,
+      "exit_price_usd": 3.0815151360388127e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019792,
+      "pnl_sol": -0.000208,
+      "pnl_pct": -1.15,
+      "exit_reason": "LLM: sell_all — MAGMA is down 1.2% after 6 minutes with pool only $56 and our share is 4% — that's dangerously thin liquidity for a position our size. A 4% pool share",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T05:56:59.653522+00:00",
+  "last_updated": "2026-09-06T05:58:20.805925+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.64,
-  "portfolio_value_usd": 26.01,
+  "last_sol_price_usd": 106.42,
+  "portfolio_value_usd": 25.93,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 04:40 UTC",
-      "action": "buy",
-      "details": "[LLM] $Darpanet at $3.352e-06, spent 0.02 SOL",
-      "reason": "$Darpanet is the only candidate that passes the viability gate (50+ char desc + twitter link). DARPA-declassified conspiracy narrative has strong viral potential — exactly the kind of attention-driven story that 10x's in hours. Bonding curve at 9% means very early entry. Risk: 1.2min old, tiny mcap $3.6k, narrative could fail to spread. Sized at 0.05 SOL to keep reserves."
-    },
     {
       "time": "2026-09-06 04:43 UTC",
       "action": "sell",
@@ -34798,35 +34786,41 @@
       "action": "buy",
       "details": "[LLM] $MAGMA at $3.11747e-06, spent 0.02 SOL",
       "reason": "$MAGMA — real breaking news hook (Anak Krakatau eruption halted flights), active X account, narrative-driven meme with viral potential. Viable."
+    },
+    {
+      "time": "2026-09-06 05:58 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MAGMA at $3.08152e-06 | P&L: -1.1%",
+      "reason": "MAGMA is down 1.2% after 6 minutes with pool only $56 and our share is 4% — that's dangerously thin liquidity for a position our size. A 4% pool share means our own exit will crater the price. Cut now before we eat the -30% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 2038,
+    "total": 2039,
     "wins": 1040,
-    "losses": 998,
+    "losses": 999,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.088753,
-    "avg_pnl_pct": 32.31,
+    "total_pnl_sol": -2.088961,
+    "avg_pnl_pct": 32.3,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 56,
-    "today_realized_sol": 0.045405,
-    "today_target_pct": 11.4,
+    "today_trades": 57,
+    "today_realized_sol": 0.045197,
+    "today_target_pct": 11.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1040,
-      "loss_count": 998,
+      "loss_count": 999,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T05:56:59.653475+00:00",
+  "last_llm_brief_at": "2026-09-06T05:58:20.520248+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2Nw9bma1cyviVaq6hb7oBT3AVuWvg5EZSFJePQzQpump": {
-      "price_usd": 3.0878854924561073e-06,
+      "price_usd": 3.0815151360388127e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 56.55075626896,
+      "liquidity_usd": 56.43409116788,
       "volume_h24": 90.83,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
