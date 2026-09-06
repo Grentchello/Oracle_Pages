@@ -15106,3 +15106,6 @@
 ## [2026-09-06 03:30 UTC] buy | [LLM] $OFFSHORE at $2.9675e-06, spent 0.02 SOL
 - **Reasoning:** $OFFSHORE has a Twitter, interesting narrative ('rich money relaxes on islands, tokenized stocks with dividends') = meme-meets-DeFi attention. Risk: structured-product wrappers are historically rug-prone, fragility gate may flag it. Buying small to test.
 
+## [2026-09-06 03:32 UTC] buy | [LLM] $VORTA at $4.335e-06, spent 0.02 SOL
+- **Reasoning:** VORTA — PreIPO tokenized stocks narrative is genuinely novel and timely (PreIPO/spacex-openai chatter is loud this week), has twitter, description solid. Mcap $4.3k is rock-bottom, classic early attention window. Bet fits the 'attention market' thesis — story > numbers here.
+
