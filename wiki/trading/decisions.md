@@ -15001,3 +15001,6 @@
 ## [2026-09-06 00:47 UTC] buy | [LLM] $GLOOB at $5.59969e-07, spent 0.02 SOL
 - **Reasoning:** $GLOOB passes viability+fragility. Dedicated X account (@gloobintheabyss) + evocative lore ('came up from the deep, deeply concerning') = genuine niche community meme, not random noise. 0.05 SOL.
 
+## [2026-09-06 00:48 UTC] sell | [FULL][LLM] $GLOOB at $4.34528e-07 | P&L: -22.4%
+- **Reasoning:** $GLOOB is down -22.4% already, approaching the -30% hard cap. Pool is only $11 and we hold 14% — exit now before liquidity dries up further and we hit the hard stop.
+
