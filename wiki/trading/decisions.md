@@ -15220,3 +15220,6 @@
 ## [2026-09-06 05:08 UTC] buy | [LLM] $TORTY at $9.1159e-06, spent 0.02 SOL
 - **Reasoning:** $TORTY — viability gate pass (twitter + 50+ char poetic desc), fresh 0.5min launch, mcap $9k with 30% bond progress signals real demand. Quirky 'philosophical turtle' narrative has meme legs on CT. Standard 0.05 SOL size, -30% hard stop enforced.
 
+## [2026-09-06 05:10 UTC] sell | [FULL][LLM] $TORTY at $1.1526e-05 | P&L: +26.4%
+- **Reasoning:** Up +26.4% but on thin $3091 bonding-curve pool with weak 'Torty/tortoise' narrative and our share effectively 0% — liquidity risk is severe and the +30% TP threshold isn't safely reachable here. Lock the gain now rather than watch it evaporate.
+
