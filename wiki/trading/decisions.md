@@ -15322,3 +15322,6 @@
 ## [2026-09-06 06:57 UTC] buy | [LLM] $SNOOZE at $3.103e-06, spent 0.02 SOL
 - **Reasoning:** $SNOOZE (Billionaire Nap Club) has the strongest narrative of the batch — 'generational wealth is staying asleep' is the exact ironic self-deprecating humor that screenshots on crypto X. Has linked twitter, brandable name, mcap $3.1k is fresh enough to ride. Risk: bond only 3% means liquidity is thin and this could rug fast — I'll watch the 30-min stale flag closely.
 
+## [2026-09-06 07:05 UTC] sell | [FULL][LLM] $SNOOZE at $2.94688e-06 | P&L: -5.0%
+- **Reasoning:** Pool=$0 means zero real liquidity, and our 'share=949686727%' is a screaming red flag that the bonding curve is broken or we bought into a zombie token. -5% is small but a token with no pool has no realistic recovery path — capital is better redeployed into a fresh launch with live liquidity.
+

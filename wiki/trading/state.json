@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.20035,
+  "balance_sol": 0.219344,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9paFXLbwnfyAyUYsKLiRmMy2RGVgEPDZGEf6atSUbBJz": {
-      "symbol": "SNOOZE",
-      "name": "Billionaire Nap Club",
-      "amount": 679342.5717048018,
-      "entry_price_usd": 3.103e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T06:57:35.943068+00:00",
-      "entry_usd_value": 2.108,
-      "entry_signals": {
-        "liquidity_usd": 103.84551231600001,
-        "volume_24h_usd": 83.27,
-        "market_cap_usd": 3143.6174179656155,
-        "ath_market_cap_usd": 3143.6174179656155,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.98525154,
-        "description": "The only way to reach generational wealth is staying asleep. — A movement dedicated to holders who refuse to look at their screens during 90% drawdowns. It is high-stakes napping for the chronically exhausted investor.",
-        "twitter": "https://x.com/BillionaireNap",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34859,19 +34836,30 @@
       "pnl_pct": -0.59,
       "exit_reason": "LLM: sell_all — Huge share concentration on bonding curve (496561866% pool share) means I'm the exit liquidity - any other seller will crush price. -0.6% is small but",
       "partial": false
+    },
+    {
+      "mint": "9paFXLbwnfyAyUYsKLiRmMy2RGVgEPDZGEf6atSUbBJz",
+      "symbol": "SNOOZE",
+      "name": "Billionaire Nap Club",
+      "amount_sold": 679342.5538214684,
+      "fraction_sold": 0.9999999736755297,
+      "entry_time": "2026-09-06T06:57:35.943068+00:00",
+      "exit_time": "2026-09-06T07:05:36.626943+00:00",
+      "entry_price_usd": 3.103e-06,
+      "exit_price_usd": 2.9468779125916123e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018994,
+      "pnl_sol": -0.001006,
+      "pnl_pct": -5.03,
+      "exit_reason": "LLM: sell_all — Pool=$0 means zero real liquidity, and our 'share=949686727%' is a screaming red flag that the bonding curve is broken or we bought into a zombie toke",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T07:03:49.363975+00:00",
+  "last_updated": "2026-09-06T07:05:36.888546+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.59,
-  "portfolio_value_usd": 23.26,
+  "last_sol_price_usd": 105.4,
+  "portfolio_value_usd": 23.12,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 06:11 UTC",
-      "action": "buy",
-      "details": "[LLM] $BORING at $3.01e-06, spent 0.02 SOL",
-      "reason": "$BORING — passes viability (100+ char desc + twitter), 'anti-narrative' meta-meme is timely as market is saturated with overpromising coins, $3k mcap has room to run. Risk: irony/meta memes can be hit or miss."
-    },
     {
       "time": "2026-09-06 06:17 UTC",
       "action": "sell",
@@ -34985,35 +34973,41 @@
       "action": "buy",
       "details": "[LLM] $SNOOZE at $3.103e-06, spent 0.02 SOL",
       "reason": "$SNOOZE (Billionaire Nap Club) has the strongest narrative of the batch — 'generational wealth is staying asleep' is the exact ironic self-deprecating humor that screenshots on crypto X. Has linked twitter, brandable name, mcap $3.1k is fresh enough to ride. Risk: bond only 3% means liquidity is thin and this could rug fast — I'll watch the 30-min stale flag closely."
+    },
+    {
+      "time": "2026-09-06 07:05 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SNOOZE at $2.94688e-06 | P&L: -5.0%",
+      "reason": "Pool=$0 means zero real liquidity, and our 'share=949686727%' is a screaming red flag that the bonding curve is broken or we bought into a zombie token. -5% is small but a token with no pool has no realistic recovery path — capital is better redeployed into a fresh launch with live liquidity."
     }
   ],
   "trade_stats": {
-    "total": 2049,
+    "total": 2050,
     "wins": 1042,
-    "losses": 1007,
-    "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.112301,
-    "avg_pnl_pct": 32.08,
+    "losses": 1008,
+    "win_rate_pct": 50.8,
+    "total_pnl_sol": -2.113307,
+    "avg_pnl_pct": 32.06,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 67,
-    "today_realized_sol": 0.021857,
-    "today_target_pct": 5.5,
+    "today_trades": 68,
+    "today_realized_sol": 0.020851,
+    "today_target_pct": 5.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1042,
-      "loss_count": 1007,
+      "loss_count": 1008,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T07:03:49.363635+00:00",
+  "last_llm_brief_at": "2026-09-06T07:05:36.626465+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "9paFXLbwnfyAyUYsKLiRmMy2RGVgEPDZGEf6atSUbBJz": {
-      "price_usd": 2.952190121352451e-06,
+      "price_usd": 2.9468779125916123e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.1118000000000002e-07,
+      "liquidity_usd": 2.1080000000000003e-07,
       "volume_h24": 207.64,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
