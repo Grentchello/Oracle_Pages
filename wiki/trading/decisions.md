@@ -15577,3 +15577,6 @@
 ## [2026-09-06 11:15 UTC] buy | [LLM] $WOLF at $7.578e-06, spent 0.02 SOL
 - **Reasoning:** Best narrative of the batch: 'my version of a memecoin' + dev twitter + 27% bonded + $7.7k mcap with viral-attention potential. Standard 0.05 SOL position.
 
+## [2026-09-06 11:16 UTC] sell | [PARTIAL][LLM] $WOLF at $9.40409e-06 | P&L: +24.1%
+- **Reasoning:** WOLF at +24.1% is approaching the +30% auto-TP threshold. Per scalping discipline, lock half the gain now while letting the remainder ride to the bot's auto-TP or higher. Pool $2,483 is thin enough that partial exit is safer than waiting for the full pump to reverse.
+
