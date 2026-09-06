@@ -15052,3 +15052,6 @@
 ## [2026-09-06 02:25 UTC] buy | [LLM] $DOG at $3.10889e-06, spent 0.02 SOL
 - **Reasoning:** $DOG has the strongest viral hook of the batch — Google UK easter egg for 'memecoins' is a screenshotable, shareable attention story. Twitter present (Dogcoinpons), passes viability gate (desc 77 chars + social). Risk: $3.1k mcap at 0.1min, bond only 3%, extreme fragility — GMGN gate will evaluate whale concentration. If it clears the gate, the narrative alone can drive a 5-10x in the first hour.
 
+## [2026-09-06 02:26 UTC] sell | [PARTIAL][LLM] $DOG at $2.91201e-06 | P&L: -6.3%
+- **Reasoning:** Down6.3% on a $2 pool with 98% of supply — illiquid bonding-curve bag with no catalyst. -20% rule kicks in fast on $2k pools; cut now while slippage is still survivable.
+

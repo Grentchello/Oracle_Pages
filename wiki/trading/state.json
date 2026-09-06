@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.150835,
+  "balance_sol": 0.164818,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "6yWH8NYmCDGFLTdqPiZfNmuXbDviGLePZ4VedrR5pump": {
       "symbol": "DOG",
       "name": "Dog Coin",
-      "amount": 669492.9936508304,
+      "amount": 169985.9955863104,
       "entry_price_usd": 3.108889890915767e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.005078051516547027,
       "entry_time": "2026-09-06T02:25:41.373959+00:00",
       "entry_usd_value": 2.0813800000000002,
       "entry_signals": {
@@ -34009,19 +34009,30 @@
       "pnl_pct": 4.42,
       "exit_reason": "LLM: sell_all — +4.4% with only $96 pool (4.8x pos size, near min liquidity). No strong narrative catalyst. Freeing slot for stronger viral candidate ($Kite Tyson) is",
       "partial": false
+    },
+    {
+      "mint": "6yWH8NYmCDGFLTdqPiZfNmuXbDviGLePZ4VedrR5pump",
+      "symbol": "DOG",
+      "name": "Dog Coin",
+      "amount_sold": 499506.99806451995,
+      "fraction_sold": 0.7460974241726487,
+      "entry_time": "2026-09-06T02:25:41.373959+00:00",
+      "exit_time": "2026-09-06T02:26:57.307357+00:00",
+      "entry_price_usd": 3.108889890915767e-06,
+      "exit_price_usd": 2.9120142301599956e-06,
+      "entry_sol_for_chunk": 0.014922,
+      "exit_sol_received": 0.013983,
+      "pnl_sol": -0.000939,
+      "pnl_pct": -6.33,
+      "exit_reason": "LLM: sell_all — Down6.3% on a $2 pool with 98% of supply — illiquid bonding-curve bag with no catalyst. -20% rule kicks in fast on $2k pools; cut now while slippage i",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T02:25:41.374216+00:00",
+  "last_updated": "2026-09-06T02:26:57.571930+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.069,
-  "portfolio_value_usd": 17.78,
+  "last_sol_price_usd": 104.021,
+  "portfolio_value_usd": 17.64,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 00:43 UTC",
-      "action": "buy",
-      "details": "[LLM] $RETCG at $3.12921e-06, spent 0.02 SOL",
-      "reason": "$RETCG is the only candidate passing the viability gate (real desc + twitter) and not on the celebrity/political blocklist. Niche 'card grading on-chain' narrative at $3.1k mcap = early attention window. Sizing 0.05 SOL."
-    },
     {
       "time": "2026-09-06 00:44 UTC",
       "action": "sell",
@@ -34135,30 +34146,48 @@
       "action": "buy",
       "details": "[LLM] $DOG at $3.10889e-06, spent 0.02 SOL",
       "reason": "$DOG has the strongest viral hook of the batch — Google UK easter egg for 'memecoins' is a screenshotable, shareable attention story. Twitter present (Dogcoinpons), passes viability gate (desc 77 chars + social). Risk: $3.1k mcap at 0.1min, bond only 3%, extreme fragility — GMGN gate will evaluate whale concentration. If it clears the gate, the narrative alone can drive a 5-10x in the first hour."
+    },
+    {
+      "time": "2026-09-06 02:26 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $DOG at $2.91201e-06 | P&L: -6.3%",
+      "reason": "Down6.3% on a $2 pool with 98% of supply — illiquid bonding-curve bag with no catalyst. -20% rule kicks in fast on $2k pools; cut now while slippage is still survivable."
     }
   ],
   "trade_stats": {
-    "total": 1999,
+    "total": 2000,
     "wins": 1015,
-    "losses": 984,
-    "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.161817,
-    "avg_pnl_pct": 32.45,
+    "losses": 985,
+    "win_rate_pct": 50.7,
+    "total_pnl_sol": -2.162756,
+    "avg_pnl_pct": 32.43,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 17,
-    "today_realized_sol": -0.027659,
-    "today_target_pct": -6.9,
+    "today_trades": 18,
+    "today_realized_sol": -0.028598,
+    "today_target_pct": -7.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1015,
-      "loss_count": 984,
+      "loss_count": 985,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T02:25:39.839138+00:00",
+  "last_llm_brief_at": "2026-09-06T02:26:57.307198+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "6yWH8NYmCDGFLTdqPiZfNmuXbDviGLePZ4VedrR5pump": {
+      "price_usd": 2.9120142301599956e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.9800065523010002,
+      "volume_h24": 185.36,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.019034681
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
