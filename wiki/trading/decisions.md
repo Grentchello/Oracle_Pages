@@ -15580,3 +15580,6 @@
 ## [2026-09-06 11:16 UTC] sell | [PARTIAL][LLM] $WOLF at $9.40409e-06 | P&L: +24.1%
 - **Reasoning:** WOLF at +24.1% is approaching the +30% auto-TP threshold. Per scalping discipline, lock half the gain now while letting the remainder ride to the bot's auto-TP or higher. Pool $2,483 is thin enough that partial exit is safer than waiting for the full pump to reverse.
 
+## [2026-09-06 11:17 UTC] sell | [hard-stop] $WOLF closed at $3.06527e-06 | P&L: -59.5%
+- **Reasoning:** Hard -30% stop
+
