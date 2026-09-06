@@ -15571,3 +15571,9 @@
 ## [2026-09-06 11:13 UTC] buy | [LLM] $OTCxPUMP at $3.68258e-06, spent 0.02 SOL
 - **Reasoning:** OTCxPUMP has the cleanest narrative of this batch — 'OTC desk that pays you to hold' is a real attention hook in a rewards-obsessed market, plus active Twitter handle and decent $3.7k mcap with 9% bonding progress (some early traction). Risk: ultra-low mcap means high rug probability, but the story is buyable.
 
+## [2026-09-06 11:15 UTC] sell | [FULL][LLM] $OTCxPUMP at $3.67703e-06 | P&L: -0.1%
+- **Reasoning:** Flat at -0.2%, pool $355 with 1% share is enough to exit cleanly. Need to free a slot for WOLF which has stronger narrative and bonding progress.
+
+## [2026-09-06 11:15 UTC] buy | [LLM] $WOLF at $7.578e-06, spent 0.02 SOL
+- **Reasoning:** Best narrative of the batch: 'my version of a memecoin' + dev twitter + 27% bonded + $7.7k mcap with viral-attention potential. Standard 0.05 SOL position.
+
