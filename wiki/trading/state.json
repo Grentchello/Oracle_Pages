@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.189196,
+  "balance_sol": 0.194252,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BikRKWCsbvk13icQvnd7G6vn66fJqzppdDwnoGxVpump": {
-      "symbol": "rimallen",
-      "name": "Rim Allen",
-      "amount": 124287.71602055115,
-      "entry_price_usd": 4.282e-06,
-      "entry_sol_spent": 0.005,
-      "entry_time": "2026-09-06T10:50:52.136759+00:00",
-      "entry_usd_value": 2.1288,
-      "entry_signals": {
-        "liquidity_usd": 792.11322832644,
-        "volume_24h_usd": 636.62,
-        "market_cap_usd": 5272.812351455576,
-        "ath_market_cap_usd": 5272.812351455576,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 7.441875501,
-        "description": "At first, people invented the WHEEL. Then came BIKE TYSON. Now the rim has spoken. Tim Allen became the rim. The final piece. The chrome that holds it all together. No more Tool Time. Only Rim Time. Half man. Half rim. 100% unstoppable. The wheel was first. The bike was second. The rim is forever. $",
-        "twitter": "https://x.com/rimallen_pump?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35624,19 +35601,30 @@
       "pnl_pct": 13.98,
       "exit_reason": "LLM: sell_half — $rimallen is +14% but not yet at +30% TP threshold and only 0.1h old. Per scalp discipline, locking in half at +14% secures gain while leaving runner ",
       "partial": true
+    },
+    {
+      "mint": "BikRKWCsbvk13icQvnd7G6vn66fJqzppdDwnoGxVpump",
+      "symbol": "rimallen",
+      "name": "Rim Allen",
+      "amount_sold": 124287.71602055115,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T10:50:52.136759+00:00",
+      "exit_time": "2026-09-06T10:57:40.564652+00:00",
+      "entry_price_usd": 4.282e-06,
+      "exit_price_usd": 4.338080004474045e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.005056,
+      "pnl_sol": 5.6e-05,
+      "pnl_pct": 1.31,
+      "exit_reason": "LLM: sell_all — Only +1.3% after 6 minutes on a $660 pool — no momentum, slot is more valuable than a marginal gain. Rotating into a stronger narrative candidate.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T10:56:17.865109+00:00",
+  "last_updated": "2026-09-06T10:57:41.974609+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.71,
+  "last_sol_price_usd": 106.64,
   "portfolio_value_usd": 20.72,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 09:43 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $bagged at $4.86624e-06 | P&L: +40.4%",
-      "reason": "$bagged is +40.4% — well past +30% TP threshold. Pool only $891 which is tight for our size and risks slippage. Lock the gain; narrative unclear (no twitter/desc visible) so don't trust a continuation."
-    },
     {
       "time": "2026-09-06 09:44 UTC",
       "action": "sell",
@@ -35750,40 +35738,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $rimallen at $4.8805e-06 | P&L: +14.0%",
       "reason": "$rimallen is +14% but not yet at +30% TP threshold and only 0.1h old. Per scalp discipline, locking in half at +14% secures gain while leaving runner for momentum. Tight pool ($893) with 0% share means thin liquidity — better to bank partial profit now than hope."
+    },
+    {
+      "time": "2026-09-06 10:57 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $rimallen at $4.33808e-06 | P&L: +1.3%",
+      "reason": "Only +1.3% after 6 minutes on a $660 pool — no momentum, slot is more valuable than a marginal gain. Rotating into a stronger narrative candidate."
     }
   ],
   "trade_stats": {
-    "total": 2094,
-    "wins": 1069,
+    "total": 2095,
+    "wins": 1070,
     "losses": 1025,
     "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.138454,
-    "avg_pnl_pct": 32.17,
+    "total_pnl_sol": -2.138398,
+    "avg_pnl_pct": 32.16,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 112,
-    "today_realized_sol": -0.004296,
+    "today_trades": 113,
+    "today_realized_sol": -0.00424,
     "today_target_pct": -1.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1069,
+      "win_count": 1070,
       "loss_count": 1025,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T10:56:17.864785+00:00",
+  "last_llm_brief_at": "2026-09-06T10:57:40.564619+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BikRKWCsbvk13icQvnd7G6vn66fJqzppdDwnoGxVpump": {
-      "price_usd": 4.880501323179372e-06,
+      "price_usd": 4.338080004474045e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 893.1471168185699,
-      "volume_h24": 3709.31,
+      "liquidity_usd": 659.7516363128,
+      "volume_h24": 3939.54,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 8.369853967
+      "real_sol_reserves": 6.18671827
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

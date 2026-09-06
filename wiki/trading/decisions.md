@@ -15550,3 +15550,6 @@
 ## [2026-09-06 10:56 UTC] sell | [PARTIAL][LLM] $rimallen at $4.8805e-06 | P&L: +14.0%
 - **Reasoning:** $rimallen is +14% but not yet at +30% TP threshold and only 0.1h old. Per scalp discipline, locking in half at +14% secures gain while leaving runner for momentum. Tight pool ($893) with 0% share means thin liquidity — better to bank partial profit now than hope.
 
+## [2026-09-06 10:57 UTC] sell | [FULL][LLM] $rimallen at $4.33808e-06 | P&L: +1.3%
+- **Reasoning:** Only +1.3% after 6 minutes on a $660 pool — no momentum, slot is more valuable than a marginal gain. Rotating into a stronger narrative candidate.
+
