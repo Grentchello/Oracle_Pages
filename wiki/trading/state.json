@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.14877,
+  "balance_sol": 0.150978,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "BG2ga3ea8XYoG1STLbAuCFQoCjerAWX916aNGVM5pump": {
-      "symbol": "ANSEMINU",
-      "name": "ANSEM INU",
-      "amount": 78288.69047619047,
-      "entry_price_usd": 2.016e-05,
-      "entry_sol_spent": 0.015,
-      "entry_time": "2026-09-06T08:07:27.215005+00:00",
-      "entry_usd_value": 2.1044,
-      "entry_signals": {
-        "liquidity_usd": 6301.20924012276,
-        "volume_24h_usd": 5768.54,
-        "market_cap_usd": 25420.2197066539,
-        "ath_market_cap_usd": 25775.145118439676,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 59.886041058,
-        "description": "ANSEM INU HAS AWAKENED The next generation of COPPERINU x ANSEM meme energy. Born from copper. Blessed by ANSEM. Raised by degens.",
-        "twitter": "https://x.com/anseminu_sol/status/2096509225442611413",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "EHsxY2SPqmbZYhFmSWXNDZHBFy6JarS95ykzEinkpump": {
       "symbol": "GLIZZY",
       "name": "GLIZZILLIONAIRE",
@@ -35238,19 +35216,30 @@
       "pnl_pct": 46.33,
       "exit_reason": "auto-TP +30% (25%)",
       "partial": true
+    },
+    {
+      "mint": "BG2ga3ea8XYoG1STLbAuCFQoCjerAWX916aNGVM5pump",
+      "symbol": "ANSEMINU",
+      "name": "ANSEM INU",
+      "amount_sold": 78288.69047619047,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T08:07:27.215005+00:00",
+      "exit_time": "2026-09-06T08:10:17.566160+00:00",
+      "entry_price_usd": 2.016e-05,
+      "exit_price_usd": 2.9729723304225237e-06,
+      "entry_sol_for_chunk": 0.015,
+      "exit_sol_received": 0.002208,
+      "pnl_sol": -0.012792,
+      "pnl_pct": -85.25,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T08:09:13.605981+00:00",
+  "last_updated": "2026-09-06T08:10:50.767610+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.3,
-  "portfolio_value_usd": 20.05,
+  "last_sol_price_usd": 105.39,
+  "portfolio_value_usd": 18.63,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 07:32 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-06 07:33 UTC",
       "action": "sell",
@@ -35364,40 +35353,57 @@
       "action": "buy",
       "details": "[LLM] $GLIZZY at $4.71602e-06, spent 0.02 SOL",
       "reason": "GLIZZY passes viability gate (desc ≥50 chars AND has twitter). Absurdist 'Glizzillionaire' is classic viral memecoin energy — silly internet humor travels fast. Bonding curve only 17%, mcap $4.7k, plenty of room. No fragility triggers (no political/celebrity keywords). 0.05 SOL position fits budget."
+    },
+    {
+      "time": "2026-09-06 08:10 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $ANSEMINU closed at $2.97297e-06 | P&L: -85.2%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2070,
+    "total": 2071,
     "wins": 1054,
-    "losses": 1016,
+    "losses": 1017,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.14888,
-    "avg_pnl_pct": 32.36,
+    "total_pnl_sol": -2.161672,
+    "avg_pnl_pct": 32.3,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 88,
-    "today_realized_sol": -0.014722,
-    "today_target_pct": -3.7,
+    "today_trades": 89,
+    "today_realized_sol": -0.027514,
+    "today_target_pct": -6.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1054,
-      "loss_count": 1016,
+      "loss_count": 1017,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T08:09:12.133718+00:00",
+  "last_llm_brief_at": "2026-09-06T08:10:50.451553+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BG2ga3ea8XYoG1STLbAuCFQoCjerAWX916aNGVM5pump": {
-      "price_usd": 2.9500821827814218e-05,
+      "price_usd": 2.9729723304225237e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 6840.809619976801,
-      "volume_h24": 13710.14,
+      "liquidity_usd": 14.11814272887,
+      "volume_h24": 39400.96,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 64.964953656
+      "real_sol_reserves": 0.133960933
+    },
+    "EHsxY2SPqmbZYhFmSWXNDZHBFy6JarS95ykzEinkpump": {
+      "price_usd": 5.577631244634585e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1188.25826169069,
+      "volume_h24": 1711.66,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 11.274867271
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

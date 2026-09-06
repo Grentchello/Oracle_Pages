@@ -15436,3 +15436,6 @@
 ## [2026-09-06 08:09 UTC] buy | [LLM] $GLIZZY at $4.71602e-06, spent 0.02 SOL
 - **Reasoning:** GLIZZY passes viability gate (desc ≥50 chars AND has twitter). Absurdist 'Glizzillionaire' is classic viral memecoin energy — silly internet humor travels fast. Bonding curve only 17%, mcap $4.7k, plenty of room. No fragility triggers (no political/celebrity keywords). 0.05 SOL position fits budget.
 
+## [2026-09-06 08:10 UTC] sell | [hard-stop] $ANSEMINU closed at $2.97297e-06 | P&L: -85.2%
+- **Reasoning:** Hard -30% stop
+
