@@ -15589,3 +15589,6 @@
 ## [2026-09-06 11:30 UTC] buy | [LLM] $RD at $1.523e-05, spent 0.02 SOL
 - **Reasoning:** $RD (RIBBIT_DOWN) has the strongest attention signal of the bunch — a viral Minecraft 'ribbits' mod-pack narrative with a top X post, mcap already at $15k (highest of new launches) yet still tiny enough for 5-10x potential. Bond at 0% means I'm getting in pre-bonding-curve momentum. Risk: trend could die if the mod-pack doesn't catch on broader X, but attention is literally the asset here.
 
+## [2026-09-06 11:31 UTC] sell | [hard-stop] $RD closed at $3.63729e-06 | P&L: -76.1%
+- **Reasoning:** Hard -30% stop
+

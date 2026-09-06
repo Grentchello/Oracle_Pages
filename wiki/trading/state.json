@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.161339,
+  "balance_sol": 0.166114,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "B6FzD8HtkSkL6jC29EbGpmEcL6bdaEnkqcU4A3dXpump": {
-      "symbol": "RD",
-      "name": "RIBBIT_DOWN",
-      "amount": 139934.3401181878,
-      "entry_price_usd": 1.523e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T11:30:24.348724+00:00",
-      "entry_usd_value": 2.1312,
-      "entry_signals": {
-        "liquidity_usd": 57.793021128,
-        "volume_24h_usd": 715.64,
-        "market_cap_usd": 15136.749772112256,
-        "ath_market_cap_usd": 39243.57130618002,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.542351925,
-        "description": "THIS NEW TREND IS GOING SUPER VIRAL, A new mod-pack has just been released in Minecraft called 'ribbits' and it's going giga viral right now getting millions of views",
-        "twitter": "https://x.com/genyrational/status/2094438721428893841",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35743,19 +35720,30 @@
       "pnl_pct": -0.13,
       "exit_reason": "LLM: sell_all — Held 6 minutes, essentially flat (-0.1%) on $16 pool with no momentum signal. Stale already, and capital rotation matters — I'd rather redeploy 0.1 SO",
       "partial": false
+    },
+    {
+      "mint": "B6FzD8HtkSkL6jC29EbGpmEcL6bdaEnkqcU4A3dXpump",
+      "symbol": "RD",
+      "name": "RIBBIT_DOWN",
+      "amount_sold": 139934.3401181878,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T11:30:24.348724+00:00",
+      "exit_time": "2026-09-06T11:31:30.216930+00:00",
+      "entry_price_usd": 1.523e-05,
+      "exit_price_usd": 3.6372865465891906e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.004775,
+      "pnl_sol": -0.015225,
+      "pnl_pct": -76.12,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T11:30:24.348915+00:00",
+  "last_updated": "2026-09-06T11:31:51.011217+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.56,
-  "portfolio_value_usd": 19.32,
+  "last_sol_price_usd": 106.6,
+  "portfolio_value_usd": 17.71,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 10:13 UTC",
-      "action": "buy",
-      "details": "[LLM] $FICAT at $3.18288e-06, spent 0.02 SOL",
-      "reason": "$FICAT (Fighting Cats) has a clear cute-animal fight narrative, dedicated twitter @ficatonsol, and CT-style copy ('No utility' is a meme flex). 0.5min old, $3.2k mcap — perfect for 10x potential if the cat-meme angle catches."
-    },
     {
       "time": "2026-09-06 10:23 UTC",
       "action": "sell",
@@ -35869,30 +35857,48 @@
       "action": "buy",
       "details": "[LLM] $RD at $1.523e-05, spent 0.02 SOL",
       "reason": "$RD (RIBBIT_DOWN) has the strongest attention signal of the bunch — a viral Minecraft 'ribbits' mod-pack narrative with a top X post, mcap already at $15k (highest of new launches) yet still tiny enough for 5-10x potential. Bond at 0% means I'm getting in pre-bonding-curve momentum. Risk: trend could die if the mod-pack doesn't catch on broader X, but attention is literally the asset here."
+    },
+    {
+      "time": "2026-09-06 11:31 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $RD closed at $3.63729e-06 | P&L: -76.1%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2101,
+    "total": 2102,
     "wins": 1071,
-    "losses": 1030,
+    "losses": 1031,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.151311,
-    "avg_pnl_pct": 32.03,
+    "total_pnl_sol": -2.166536,
+    "avg_pnl_pct": 31.97,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 119,
-    "today_realized_sol": -0.017153,
-    "today_target_pct": -4.3,
+    "today_trades": 120,
+    "today_realized_sol": -0.032378,
+    "today_target_pct": -8.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1071,
-      "loss_count": 1030,
+      "loss_count": 1031,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T11:30:22.618457+00:00",
+  "last_llm_brief_at": "2026-09-06T11:31:50.431694+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "B6FzD8HtkSkL6jC29EbGpmEcL6bdaEnkqcU4A3dXpump": {
+      "price_usd": 3.6372865465891906e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 23.662862048799997,
+      "volume_h24": 1792.64,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.221978068
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
