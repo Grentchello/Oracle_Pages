@@ -15544,3 +15544,6 @@
 ## [2026-09-06 10:52 UTC] sell | [FULL][LLM] $DOOM at $2.99362e-06 | P&L: -1.2%
 - **Reasoning:** $DOOM pool is only $9 with my 22% share — I'm the liquidity. Price is flat (-1.2%) with no momentum. Better to free the slot for a fresher narrative than sit in a dead micro-pool.
 
+## [2026-09-06 10:54 UTC] sell | [PARTIAL][LLM] $rimallen at $4.75711e-06 | P&L: +11.1%
+- **Reasoning:** Up 11% but only 0.1h held and mcap is tiny — this is classic pre-dump territory on bonding curve. Take half profit to lock in gains and let the rest ride if it breaks higher; if it reverses I have dry powder to manage risk.
+
