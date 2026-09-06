@@ -15211,3 +15211,6 @@
 ## [2026-09-06 04:49 UTC] sell | [FULL][LLM] $PBMT at $3.14275e-06 | P&L: +2.3%
 - **Reasoning:** PBMT at +2.3% but $91 pool — both positions are essentially the same sub-$100-pool microbonding-curve bet. Lock the small gain and rotate into fresh attention.
 
+## [2026-09-06 04:57 UTC] buy | [LLM] $Fomosis at $4.41662e-06, spent 0.02 SOL
+- **Reasoning:** $Fomosis — FOMO agents narrative is current meta (8 AI agents trading is a hook), has live twitter (Fomosis_) and decent description. Low mcap ($4.4k) with viral narrative potential. Position 0.05 SOL.
+
