@@ -15235,3 +15235,6 @@
 ## [2026-09-06 05:18 UTC] sell | [PARTIAL][LLM] $MEMETOPIA at $3.36899e-06 | P&L: +9.4%
 - **Reasoning:** $MEMETOPIA is up +9.5% but held 0.0h with $217 pool liquidity (well below 5x position). Tiny liquidity + tiny gain = exit half to lock profit and reduce exposure; let the other half ride if narrative picks up.
 
+## [2026-09-06 05:25 UTC] buy | [LLM] $CapyAI at $3.04265e-06, spent 0.02 SOL
+- **Reasoning:** $CapyAI (CapyAgent) — 'zero compute, zero hallucinations, zero output, just vibes' is a perfect viral AI-meta parody narrative. Has real X account @RealCapyAgent, mcap $3k (room for 10-50x), bonding 1% so early entry. Capybara + AI agent meta has been hot. Best narrative/attention ratio in the batch.
+
