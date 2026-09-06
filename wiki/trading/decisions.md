@@ -15265,3 +15265,6 @@
 ## [2026-09-06 06:11 UTC] buy | [LLM] $BORING at $3.01e-06, spent 0.02 SOL
 - **Reasoning:** $BORING — passes viability (100+ char desc + twitter), 'anti-narrative' meta-meme is timely as market is saturated with overpromising coins, $3k mcap has room to run. Risk: irony/meta memes can be hit or miss.
 
+## [2026-09-06 06:17 UTC] sell | [FULL][LLM] $BORING at $3.00896e-06 | P&L: -0.0%
+- **Reasoning:** $BORING is flat at -0.0% after 0.1h, pool only $21, our share 10% — this is illiquid micro-cap noise, not a narrative. Stale entry with no momentum and exit liquidity is thin; rotating capital to fresh attention is better than bag-holding a dead token.
+
