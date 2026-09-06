@@ -15088,3 +15088,6 @@
 ## [2026-09-06 03:07 UTC] buy | [LLM] $Peanie at $3.169e-06, spent 0.02 SOL
 - **Reasoning:** $Peanie has the strongest narrative: cute penguin mascot with hat, viral X image linked, proper description passing viability gate, $3.1k mcap with meme-art potential. Micro-cap with clear attention story beats the vague/generic names.
 
+## [2026-09-06 03:16 UTC] sell | [FULL][LLM] $Peanie at $3.09769e-06 | P&L: -2.2%
+- **Reasoning:** Down -2.3% at 0.1h with only $93 pool liquidity and we hold 2% of it. Pool is dangerously thin for a 2% holder — any other seller moves price against us hard. Cut and free the slot for fresh attention.
+
