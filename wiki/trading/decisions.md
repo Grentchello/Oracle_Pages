@@ -15478,3 +15478,6 @@
 ## [2026-09-06 09:13 UTC] sell | [FULL][LLM] $NODAL at $2.96493e-06 | P&L: -3.0%
 - **Reasoning:** Pool is only $8 and my position is 25% of it - I'm liquidity-locked. At -3% with no volume on a bonding-curve thin pool, this will only get worse. Try to exit now even at slippage; a small realized loss beats being stuck unable to sell when it tanks to -30%.
 
+## [2026-09-06 09:37 UTC] buy | [LLM] $bagged at $3.46713e-06, spent 0.02 SOL
+- **Reasoning:** $bagged — fresh 0.4min, has Twitter (@laughingguz8h1), simple viral phrase 'got bagged' that memes well. New launches with social presence are where attention alpha lives.
+
