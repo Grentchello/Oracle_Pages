@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.152856,
+  "balance_sol": 0.172656,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FsRYEz1nCQ2tu3BqiN5mbRp6jiQHs5KtrQ1DvfNeYtNL": {
-      "symbol": "ODEZA",
-      "name": "Odesa Sea Access Deal",
-      "amount": 704732.7204630575,
-      "entry_price_usd": 2.937e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T00:32:33.404259+00:00",
-      "entry_usd_value": 2.0698,
-      "entry_signals": {
-        "liquidity_usd": 21.550324183879997,
-        "volume_24h_usd": 24.6,
-        "market_cap_usd": 2929.0884536210556,
-        "ath_market_cap_usd": 2937.6928962030443,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.208235812,
-        "description": "Negotiation vs escalation: if diplomacy fails, Russia’s push could threaten Ukraine’s sea access and economic leverage. Track the map-pressure narrative.",
-        "twitter": "https://twitter.com/MarioNawfal/status/2096395706802032751",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33822,19 +33799,30 @@
       "pnl_pct": -22.39,
       "exit_reason": "LLM: sell_all — $PTown is down -22.4% and only 6 minutes old — fast bleed, no bounce signal, thin $10 pool with our 8% share makes exit harder. Cut it now before -30%",
       "partial": false
+    },
+    {
+      "mint": "FsRYEz1nCQ2tu3BqiN5mbRp6jiQHs5KtrQ1DvfNeYtNL",
+      "symbol": "ODEZA",
+      "name": "Odesa Sea Access Deal",
+      "amount_sold": 704732.7204630575,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T00:32:33.404259+00:00",
+      "exit_time": "2026-09-06T00:33:58.681524+00:00",
+      "entry_price_usd": 2.937e-06,
+      "exit_price_usd": 2.9050349683579387e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0198,
+      "pnl_sol": -0.0002,
+      "pnl_pct": -1.09,
+      "exit_reason": "LLM: sell_all — Held 0.0h and already -1.1%, volume is thin and there's no narrative catalyst visible. With multiple fresh launches competing for attention and only 0",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T00:32:33.404538+00:00",
+  "last_updated": "2026-09-06T00:33:58.681847+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.49,
-  "portfolio_value_usd": 17.89,
+  "last_sol_price_usd": 103.4,
+  "portfolio_value_usd": 17.85,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 13:41 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-05 15:47 UTC",
       "action": "observe",
@@ -33948,40 +33936,46 @@
       "action": "buy",
       "details": "[LLM] $ODEZA at $2.937e-06, spent 0.02 SOL",
       "reason": "$ODEZA — geopolitical narrative tied to live Russia/Ukraine news, real Twitter handle (MarioNawfal = 1M+ followers, narrative driver). Fresh $2.9k mcap, has liquidity + twitter (passes viability gate). 0.05 SOL position size per bot rules."
+    },
+    {
+      "time": "2026-09-06 00:33 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ODEZA at $2.90503e-06 | P&L: -1.1%",
+      "reason": "Held 0.0h and already -1.1%, volume is thin and there's no narrative catalyst visible. With multiple fresh launches competing for attention and only 0.1529 SOL free, I'd rather free up the slot for a higher-conviction play than babysit a flat bonding-curve token."
     }
   ],
   "trade_stats": {
-    "total": 1988,
+    "total": 1989,
     "wins": 1009,
-    "losses": 979,
-    "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.159796,
-    "avg_pnl_pct": 32.63,
+    "losses": 980,
+    "win_rate_pct": 50.7,
+    "total_pnl_sol": -2.159996,
+    "avg_pnl_pct": 32.61,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 6,
-    "today_realized_sol": -0.025638,
-    "today_target_pct": -6.4,
+    "today_trades": 7,
+    "today_realized_sol": -0.025838,
+    "today_target_pct": -6.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1009,
-      "loss_count": 979,
+      "loss_count": 980,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T00:32:32.010794+00:00",
+  "last_llm_brief_at": "2026-09-06T00:33:58.681481+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5ohebBgGmHhwb7BN5UBDA3H3Ca5b62TUTbvmn5wxpump": {
-      "price_usd": 2.9113270135029585e-06,
+    "FsRYEz1nCQ2tu3BqiN5mbRp6jiQHs5KtrQ1DvfNeYtNL": {
+      "price_usd": 2.9050349683579387e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 9.56221975876,
-      "volume_h24": 6548.98,
+      "liquidity_usd": 7.542092162,
+      "volume_h24": 31.75,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.092397524
+      "real_sol_reserves": 0.07294093
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
