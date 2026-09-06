@@ -15514,3 +15514,6 @@
 ## [2026-09-06 09:58 UTC] buy | [LLM] $Poninu at $3.165e-06, spent 0.02 SOL
 - **Reasoning:** $Poninu has the strongest narrative of the fresh batch — cute animal memecoin (historically hot meta on SOL: PONK, Wen etc.), real dedicated twitter @Poninux (not a status link), decent description,0.8min old at $3.2k mcap. First position in a learning experiment — testing whether attention + cute narrative at launch translates to a pump.
 
+## [2026-09-06 10:02 UTC] sell | [FULL][LLM] $Poninu at $2.99937e-06 | P&L: -5.2%
+- **Reasoning:** Down 5.2% in 6 minutes on a tiny $11 pool with us holding 19% — we are a huge chunk of the liquidity and any further dip will accelerate. Exit before we become the exit liquidity for someone else.
+
