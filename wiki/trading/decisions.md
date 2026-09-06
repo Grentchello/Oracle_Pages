@@ -15400,3 +15400,6 @@
 ## [2026-09-06 07:42 UTC] buy | [LLM] $SOL at $7.48361e-07, spent 0.02 SOL
 - **Reasoning:** $SOL/DegenX is the only fresh launch passing the viability gate (real desc + twitter, 0.2min old, sub-$1k mcap). 'Built in the lab' degen-narrative fits the attention-market thesis. High risk at this mcap but it's the cleanest signal in the batch — other fresh launches fail desc-length or hit celebrity/ethnic fragility flags.
 
+## [2026-09-06 07:43 UTC] sell | [hard-stop] $SOL closed at $1.42447e-07 | P&L: -81.0%
+- **Reasoning:** Hard -30% stop
+
