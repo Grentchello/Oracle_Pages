@@ -15145,3 +15145,6 @@
 ## [2026-09-06 03:40 UTC] sell | [TP +500% (full)] $OVL at $2.05036e-05 | P&L: +308.5%
 - **Reasoning:** Auto take-profit at +308.5%
 
+## [2026-09-06 03:43 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
