@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.179155,
+  "balance_sol": 0.199151,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Fe4E2kE7ztrgQXrvg1VWUsLUrprv31ZJhX9f6v8bpump": {
-      "symbol": " $PMEAL",
-      "name": "McDonald Pirate Meal",
-      "amount": 652531.4513654495,
-      "entry_price_usd": 3.259e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T09:51:18.923788+00:00",
-      "entry_usd_value": 2.1266,
-      "entry_signals": {
-        "liquidity_usd": 149.61773654079,
-        "volume_24h_usd": 149.65,
-        "market_cap_usd": 3260.4961294534733,
-        "ath_market_cap_usd": 3260.4961294534733,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.407107463,
-        "description": "🏴‍☠️🍔 PIRATE MEAL — $PMEAL Ahoy, degens! 🏴‍☠️ The wildest meal on the seven seas has arrived. $PMEAL is a community-driven meme coin inspired by internet culture, pirate chaos, fast-food memes, and the hunt for legendary treasure. 🍔🍟💰 No maps. No rules. Just memes, community, and a ship full of hung",
-        "twitter": "https://x.com/McDonalds/status/2094440276366438686",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35488,19 +35465,30 @@
       "pnl_pct": 56.59,
       "exit_reason": "LLM: sell_all — Up +56.6% past the 50% TP threshold, only 0.1h old on bonding-curve with our share 0% and pool only $2881. Lock the gain — the bot would have auto-clo",
       "partial": false
+    },
+    {
+      "mint": "Fe4E2kE7ztrgQXrvg1VWUsLUrprv31ZJhX9f6v8bpump",
+      "symbol": " $PMEAL",
+      "name": "McDonald Pirate Meal",
+      "amount_sold": 652531.4513654495,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T09:51:18.923788+00:00",
+      "exit_time": "2026-09-06T09:52:34.567246+00:00",
+      "entry_price_usd": 3.259e-06,
+      "exit_price_usd": 3.2628938609091542e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019996,
+      "pnl_sol": -4e-06,
+      "pnl_pct": 0.12,
+      "exit_reason": "LLM: sell_all — $PMEAL is flat (+0.1%) on a $150 pool with 1% of pool depth — liquidity is razor thin and we've made nothing in the brief hold. Free up the slot for f",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T09:51:18.924072+00:00",
+  "last_updated": "2026-09-06T09:52:35.087837+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.33,
-  "portfolio_value_usd": 21.18,
+  "last_sol_price_usd": 106.48,
+  "portfolio_value_usd": 21.21,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 08:45 UTC",
-      "action": "buy",
-      "details": "[LLM] $NERU at $2.801e-05, spent 0.02 SOL",
-      "reason": "$NERU (TONNERU) passes viability (long desc, $13.4k mcap) and the 'one face, 1000 shapes' art-meme narrative is concrete and memeable. Bond 35% — closest to graduation among new launches, signals real buy pressure. Tiny position 0.05 SOL per rules."
-    },
     {
       "time": "2026-09-06 08:46 UTC",
       "action": "sell",
@@ -35614,30 +35602,48 @@
       "action": "buy",
       "details": "[LLM] $ $PMEAL at $3.259e-06, spent 0.02 SOL",
       "reason": "McDonald Pirate Meal — has Twitter link pointing to the official McDonald's account which is a massive brand-impersonation attention play (viral by nature, easy to trend). Age ~1min, mcap $3.2k. Risk: brand-impersonation tokens are polarizing and can rug fast, but the attention asymmetry is huge. Small spec position approved."
+    },
+    {
+      "time": "2026-09-06 09:52 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ $PMEAL at $3.26289e-06 | P&L: +0.1%",
+      "reason": "$PMEAL is flat (+0.1%) on a $150 pool with 1% of pool depth — liquidity is razor thin and we've made nothing in the brief hold. Free up the slot for fresh attention; micro-cap bonding-curve names can rug or stagnate fast."
     }
   ],
   "trade_stats": {
-    "total": 2086,
+    "total": 2087,
     "wins": 1065,
-    "losses": 1021,
-    "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.133495,
-    "avg_pnl_pct": 32.3,
+    "losses": 1022,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.133499,
+    "avg_pnl_pct": 32.28,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 104,
-    "today_realized_sol": 0.000663,
+    "today_trades": 105,
+    "today_realized_sol": 0.000659,
     "today_target_pct": 0.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1065,
-      "loss_count": 1021,
+      "loss_count": 1022,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T09:51:17.213303+00:00",
+  "last_llm_brief_at": "2026-09-06T09:52:34.567208+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Fe4E2kE7ztrgQXrvg1VWUsLUrprv31ZJhX9f6v8bpump": {
+      "price_usd": 3.2628938609091542e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 149.82880266024,
+      "volume_h24": 149.65,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.407107463
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

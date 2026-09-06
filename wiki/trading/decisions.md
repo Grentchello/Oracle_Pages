@@ -15508,3 +15508,6 @@
 ## [2026-09-06 09:51 UTC] buy | [LLM] $ $PMEAL at $3.259e-06, spent 0.02 SOL
 - **Reasoning:** McDonald Pirate Meal — has Twitter link pointing to the official McDonald's account which is a massive brand-impersonation attention play (viral by nature, easy to trend). Age ~1min, mcap $3.2k. Risk: brand-impersonation tokens are polarizing and can rug fast, but the attention asymmetry is huge. Small spec position approved.
 
+## [2026-09-06 09:52 UTC] sell | [FULL][LLM] $ $PMEAL at $3.26289e-06 | P&L: +0.1%
+- **Reasoning:** $PMEAL is flat (+0.1%) on a $150 pool with 1% of pool depth — liquidity is razor thin and we've made nothing in the brief hold. Free up the slot for fresh attention; micro-cap bonding-curve names can rug or stagnate fast.
+
