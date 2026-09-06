@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.114229,
+  "balance_sol": 0.142001,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6GUZz6KBmPguXiFdT6Z6qGCsXsXrWVbVeh57PhZupump": {
-      "symbol": "WOLF",
-      "name": "The White Wolf 🌕🐺❄︎",
-      "amount": 282020.79165882675,
-      "entry_price_usd": 7.5434154605650915e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T11:42:31.140169+00:00",
-      "entry_usd_value": 2.1274,
-      "entry_signals": {
-        "liquidity_usd": 2151.27299979823,
-        "volume_24h_usd": null,
-        "market_cap_usd": 7546.878248093116,
-        "ath_market_cap_usd": 7581.051869515907,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 20.224433579,
-        "description": "My version of a memecoin is now available on Pump.fun. I will make several purchases until the bonding curve is completed,  after which the airdrop will take place. 60% of the tokens will be distributed among the top 20 holders;  the airdrop allocation will be proportional to the number of tokens ea",
-        "twitter": "https://x.com/TheWhiteWolfDev",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "EAfs5BzWGuze2SNPH4dQPBf6wvZgRaz6YLnZMkjaySYP": {
-      "symbol": "PUMPBANK",
-      "name": "PUMPBANK",
-      "amount": 570960.8158883522,
-      "entry_price_usd": 3.726e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T11:42:32.420559+00:00",
-      "entry_usd_value": 2.1274,
-      "entry_signals": {
-        "liquidity_usd": 380.32725154149,
-        "volume_24h_usd": 415.51,
-        "market_cap_usd": 3726.857577294765,
-        "ath_market_cap_usd": 3727.4553932912854,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.575512377,
-        "description": "The era of zero-utility token farming is over. Welcome to $PUMPBANK, a high-momentum asset engineered to rewrite the rules of wallet distribution. Our hardcoded protocol directive is absolute: Hold Pump Bank, accumulate real $PUMP tokens automatically. Every network transaction feeds the utility eng",
-        "twitter": "https://x.com/OTCDesks",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35833,25 +35788,47 @@
       "pnl_pct": -4.85,
       "exit_reason": "LLM: sell_all — Held <1h and already -4.9% on a bonding-curve position with tiny pool ($345) and 1% share. No bounce signal, narrative is just '$solana' (commodity pl",
       "partial": false
+    },
+    {
+      "mint": "6GUZz6KBmPguXiFdT6Z6qGCsXsXrWVbVeh57PhZupump",
+      "symbol": "WOLF",
+      "name": "The White Wolf 🌕🐺❄︎",
+      "amount_sold": 282020.79165882675,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T11:42:31.140169+00:00",
+      "exit_time": "2026-09-06T11:43:36.341380+00:00",
+      "entry_price_usd": 7.5434154605650915e-06,
+      "exit_price_usd": 2.975562569662947e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.007894,
+      "pnl_sol": -0.012106,
+      "pnl_pct": -60.55,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "EAfs5BzWGuze2SNPH4dQPBf6wvZgRaz6YLnZMkjaySYP",
+      "symbol": "PUMPBANK",
+      "name": "PUMPBANK",
+      "amount_sold": 570960.8158883522,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T11:42:32.420559+00:00",
+      "exit_time": "2026-09-06T11:43:56.934835+00:00",
+      "entry_price_usd": 3.726e-06,
+      "exit_price_usd": 3.7009211890507213e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019878,
+      "pnl_sol": -0.000122,
+      "pnl_pct": -0.67,
+      "exit_reason": "LLM: sell_all — PUMPBANK is flat (-0.7%) on a $370 pool — extremely thin liquidity for our 0.05 SOL position. Held 0.0h with no narrative hook visible. Exiting now be",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T11:42:32.420726+00:00",
+  "last_updated": "2026-09-06T11:43:56.935147+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.37,
-  "portfolio_value_usd": 16.41,
+  "last_sol_price_usd": 106.3,
+  "portfolio_value_usd": 15.09,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 11:00 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $MOON closed at $2.99127e-06 | P&L: -44.9%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-09-06 11:00 UTC",
-      "action": "buy",
-      "details": "[LLM] $$SPOCAT$ at $3.2282e-06, spent 0.02 SOL",
-      "reason": "$SPOCAT has a clear narrative (music-loving cat mascot) and an attached X account — classic viral meme format. Tiny mcap ($3.2k) gives big upside if the cat meme catches."
-    },
     {
       "time": "2026-09-06 11:11 UTC",
       "action": "sell",
@@ -35959,40 +35936,63 @@
       "action": "buy",
       "details": "[LLM] $PUMPBANK at $3.726e-06, spent 0.02 SOL",
       "reason": "$PUMPBANK — explicit 'meta-narrative' play attacking pump.fun token farming, ties to OTC Desks twitter presence, 10% bonded already with description >50 chars. Meta-coins tend to grab trader attention on launch."
+    },
+    {
+      "time": "2026-09-06 11:43 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $WOLF closed at $2.97556e-06 | P&L: -60.5%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-06 11:43 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PUMPBANK at $3.70092e-06 | P&L: -0.7%",
+      "reason": "PUMPBANK is flat (-0.7%) on a $370 pool — extremely thin liquidity for our 0.05 SOL position. Held 0.0h with no narrative hook visible. Exiting now before the stale timer trips and pool depth turns any sell into a bigger slippage loss."
     }
   ],
   "trade_stats": {
-    "total": 2105,
+    "total": 2107,
     "wins": 1071,
-    "losses": 1034,
-    "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.178421,
-    "avg_pnl_pct": 31.9,
+    "losses": 1036,
+    "win_rate_pct": 50.8,
+    "total_pnl_sol": -2.190649,
+    "avg_pnl_pct": 31.84,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 123,
-    "today_realized_sol": -0.044263,
-    "today_target_pct": -11.1,
+    "today_trades": 125,
+    "today_realized_sol": -0.056491,
+    "today_target_pct": -14.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1071,
-      "loss_count": 1034,
+      "loss_count": 1036,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T11:42:29.793719+00:00",
+  "last_llm_brief_at": "2026-09-06T11:43:56.934801+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2dAnYsK5SXCAwprnipq4xsZdozzvgPNWFsfcPDDHpump": {
-      "price_usd": 3.652785605409054e-06,
+    "6GUZz6KBmPguXiFdT6Z6qGCsXsXrWVbVeh57PhZupump": {
+      "price_usd": 2.975562569662947e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 345.46919410509,
-      "volume_h24": 1438.57,
+      "liquidity_usd": 1.8887598726,
+      "volume_h24": 4378.9,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.247806657
+      "real_sol_reserves": 0.017768202
+    },
+    "EAfs5BzWGuze2SNPH4dQPBf6wvZgRaz6YLnZMkjaySYP": {
+      "price_usd": 3.7009211890507213e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 369.6234734235,
+      "volume_h24": 426.3,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.477172845
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

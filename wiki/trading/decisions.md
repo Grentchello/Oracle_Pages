@@ -15616,3 +15616,9 @@
 ## [2026-09-06 11:42 UTC] buy | [LLM] $PUMPBANK at $3.726e-06, spent 0.02 SOL
 - **Reasoning:** $PUMPBANK — explicit 'meta-narrative' play attacking pump.fun token farming, ties to OTC Desks twitter presence, 10% bonded already with description >50 chars. Meta-coins tend to grab trader attention on launch.
 
+## [2026-09-06 11:43 UTC] sell | [hard-stop] $WOLF closed at $2.97556e-06 | P&L: -60.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-06 11:43 UTC] sell | [FULL][LLM] $PUMPBANK at $3.70092e-06 | P&L: -0.7%
+- **Reasoning:** PUMPBANK is flat (-0.7%) on a $370 pool — extremely thin liquidity for our 0.05 SOL position. Held 0.0h with no narrative hook visible. Exiting now before the stale timer trips and pool depth turns any sell into a bigger slippage loss.
+
