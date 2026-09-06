@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.222985,
+  "balance_sol": 0.233941,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "4DCjH4DnnsqFUZLHenxJJALCGWUED8TZAbn56QSTpump": {
       "symbol": "MEMETOPIA",
       "name": "MEMETOPIA",
-      "amount": 686484.7303443794,
+      "amount": 343242.3651721897,
       "entry_price_usd": 3.078e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-06T05:16:33.094262+00:00",
       "entry_usd_value": 2.113,
       "entry_signals": {
@@ -34604,19 +34604,30 @@
       "pnl_pct": 0.53,
       "exit_reason": "LLM: sell_all — CAPYBARA is flat (+0.5%) after 0.0h on a tiny $113 pool with 2% share — no momentum, no narrative fire. Freeing the slot for a higher-attention launch",
       "partial": false
+    },
+    {
+      "mint": "4DCjH4DnnsqFUZLHenxJJALCGWUED8TZAbn56QSTpump",
+      "symbol": "MEMETOPIA",
+      "name": "MEMETOPIA",
+      "amount_sold": 343242.3651721897,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T05:16:33.094262+00:00",
+      "exit_time": "2026-09-06T05:18:26.605967+00:00",
+      "entry_price_usd": 3.078e-06,
+      "exit_price_usd": 3.3689900646239975e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.010956,
+      "pnl_sol": 0.000956,
+      "pnl_pct": 9.45,
+      "exit_reason": "LLM: sell_half — $MEMETOPIA is up +9.5% but held 0.0h with $217 pool liquidity (well below 5x position). Tiny liquidity + tiny gain = exit half to lock profit and redu",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T05:16:33.344499+00:00",
+  "last_updated": "2026-09-06T05:18:26.606286+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.65,
-  "portfolio_value_usd": 25.67,
+  "last_sol_price_usd": 105.55,
+  "portfolio_value_usd": 25.75,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 04:17 UTC",
-      "action": "buy",
-      "details": "[LLM] $BrokerD at $3.787e-06, spent 0.02 SOL",
-      "reason": "$BrokerD has the cleanest narrative of the batch — 'Markets on command, AI broker per identity' is a concrete hook that fits the AI-agent meta, has a live twitter, and $3.5k mcap with bond at 8% gives early-entry room. 0.05 SOL sized for the volatility."
-    },
     {
       "time": "2026-09-06 04:19 UTC",
       "action": "sell",
@@ -34730,40 +34741,46 @@
       "action": "buy",
       "details": "[LLM] $MEMETOPIA at $3.078e-06, spent 0.02 SOL",
       "reason": "$MEMETOPIA has a X link from @thematrixwizard with a 'Valhalla / no utility, just chilling' ironic-meme angle. Memes that openly mock utility often catch on. Mcap $3.1k, bond 3% — early curve, small bet."
+    },
+    {
+      "time": "2026-09-06 05:18 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $MEMETOPIA at $3.36899e-06 | P&L: +9.4%",
+      "reason": "$MEMETOPIA is up +9.5% but held 0.0h with $217 pool liquidity (well below 5x position). Tiny liquidity + tiny gain = exit half to lock profit and reduce exposure; let the other half ride if narrative picks up."
     }
   ],
   "trade_stats": {
-    "total": 2034,
-    "wins": 1038,
+    "total": 2035,
+    "wins": 1039,
     "losses": 996,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.089666,
-    "avg_pnl_pct": 32.37,
+    "win_rate_pct": 51.1,
+    "total_pnl_sol": -2.08871,
+    "avg_pnl_pct": 32.36,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 52,
-    "today_realized_sol": 0.044492,
-    "today_target_pct": 11.1,
+    "today_trades": 53,
+    "today_realized_sol": 0.045448,
+    "today_target_pct": 11.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1038,
+      "win_count": 1039,
       "loss_count": 996,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T05:16:31.477769+00:00",
+  "last_llm_brief_at": "2026-09-06T05:18:26.605583+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5TtgAVfBF2hByjqMYhXEiQe2jvyNGcSCZNFgzB8Wpump": {
-      "price_usd": 3.1686184495608908e-06,
+    "4DCjH4DnnsqFUZLHenxJJALCGWUED8TZAbn56QSTpump": {
+      "price_usd": 3.3689900646239975e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 113.19257177290001,
-      "volume_h24": 902.52,
+      "liquidity_usd": 216.79192645359998,
+      "volume_h24": 266.53,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.071392066
+      "real_sol_reserves": 2.053926352
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

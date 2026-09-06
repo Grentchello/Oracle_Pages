@@ -15232,3 +15232,6 @@
 ## [2026-09-06 05:16 UTC] buy | [LLM] $MEMETOPIA at $3.078e-06, spent 0.02 SOL
 - **Reasoning:** $MEMETOPIA has a X link from @thematrixwizard with a 'Valhalla / no utility, just chilling' ironic-meme angle. Memes that openly mock utility often catch on. Mcap $3.1k, bond 3% — early curve, small bet.
 
+## [2026-09-06 05:18 UTC] sell | [PARTIAL][LLM] $MEMETOPIA at $3.36899e-06 | P&L: +9.4%
+- **Reasoning:** $MEMETOPIA is up +9.5% but held 0.0h with $217 pool liquidity (well below 5x position). Tiny liquidity + tiny gain = exit half to lock profit and reduce exposure; let the other half ride if narrative picks up.
+
