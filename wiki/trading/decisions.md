@@ -15352,3 +15352,6 @@
 ## [2026-09-06 07:24 UTC] sell | [PARTIAL][LLM] $ANSEMINU at $2.9587e-05 | P&L: +26.9%
 - **Reasoning:** ANSEMINU is up +26.9% in minutes — this is a KOL-name token riding attention, the kind that gives back gains fast. Lock half the profit, let the rest ride to the +30% TP or a +50% spike.
 
+## [2026-09-06 07:26 UTC] sell | [PARTIAL][LLM] $ANSEMINU at $2.8732e-05 | P&L: +23.2%
+- **Reasoning:** ANSEMINU is up +23.2% in 0h — clear momentum but not yet at +25% TP. Lock half the gain now per scalp discipline (profit-taking aggressive above 20%). Hold the rest for the +25% auto-TP or higher narrative push.
+
