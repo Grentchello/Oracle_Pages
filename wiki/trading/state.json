@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.151309,
+  "balance_sol": 0.178412,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "B8qACpXiKXRyta2euHvNbfmkqCwZ137Px5SY9Fy2pump": {
-      "symbol": "Chimp",
-      "name": "GigaChimp",
-      "amount": 259803.21054106738,
-      "entry_price_usd": 8.057637146362723e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T02:41:30.336925+00:00",
-      "entry_usd_value": 2.0934,
-      "entry_signals": {
-        "liquidity_usd": 2146.52579399172,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8058.3823222964475,
-        "ath_market_cap_usd": 8613.341182721906,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 20.507555116,
-        "description": "I’m side you guys remember the ‘100 men vs 1 gorilla’ which went over 7M market cap?  & The recent ‘man vs chimp’ that went to like 250K?  This is now going viral everywhere, Cole Johnson claims that he could win a match against a ‘full grown/adult chimpanzee’. It’s funny everyone saying how he’s go",
-        "twitter": "https://x.com/barnsrebirth0/status/2096428166046732293?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34060,25 +34037,47 @@
       "pnl_pct": 9.17,
       "exit_reason": "LLM: sell_all — Up only +9.2% in 0.0h on a $160 pool with 1% share — illiquid and not breaking out. Lock the small gain rather than risk the -30% stop. Free up capita",
       "partial": false
+    },
+    {
+      "mint": "B8qACpXiKXRyta2euHvNbfmkqCwZ137Px5SY9Fy2pump",
+      "symbol": "Chimp",
+      "name": "GigaChimp",
+      "amount_sold": 64950.802635266846,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-06T02:41:30.336925+00:00",
+      "exit_time": "2026-09-06T02:42:33.798266+00:00",
+      "entry_price_usd": 8.057637146362723e-06,
+      "exit_price_usd": 1.0913793033833003e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.006776,
+      "pnl_sol": 0.001776,
+      "pnl_pct": 35.45,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "B8qACpXiKXRyta2euHvNbfmkqCwZ137Px5SY9Fy2pump",
+      "symbol": "Chimp",
+      "name": "GigaChimp",
+      "amount_sold": 194852.40790580053,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T02:41:30.336925+00:00",
+      "exit_time": "2026-09-06T02:42:51.674497+00:00",
+      "entry_price_usd": 8.057637146362723e-06,
+      "exit_price_usd": 1.0913793033833003e-05,
+      "entry_sol_for_chunk": 0.015,
+      "exit_sol_received": 0.020327,
+      "pnl_sol": 0.005327,
+      "pnl_pct": 35.45,
+      "exit_reason": "LLM: sell_all — +35% already blown past the +30% TP at 25% threshold — bot should have auto-TP'd but since I'm in the loop, lock the gain now. Bonding curve only 9% c",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T02:41:30.337188+00:00",
+  "last_updated": "2026-09-06T02:42:51.674697+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.67,
-  "portfolio_value_usd": 17.93,
+  "last_sol_price_usd": 104.62,
+  "portfolio_value_usd": 18.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 01:00 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GIV15 at $2.90164e-06 | P&L: -0.8%",
-      "reason": "Position is -0.8% with effectively zero value (~$2 of a $7 pool, 28% share), no movement in 0.0h, and freeing the slot lets me act on a real launch instead of holding dust."
-    },
-    {
-      "time": "2026-09-06 01:18 UTC",
-      "action": "buy",
-      "details": "[LLM] $USEFUL at $3.655e-06, spent 0.02 SOL",
-      "reason": "$USEFUL 'USEFUL MEMESTOCK' is a meta-ironic narrative that flips zero-utility farming — exactly the kind of CT bait that catches attention. Has full description, twitter presence, bond at 10% with room to run, $3.6k mcap is fresh enough to capture early momentum. Position size 0.05 SOL ($5)."
-    },
     {
       "time": "2026-09-06 01:19 UTC",
       "action": "sell",
@@ -34186,40 +34185,52 @@
       "action": "buy",
       "details": "[LLM] $Chimp at $8.05764e-06, spent 0.02 SOL",
       "reason": "$Chimp has the strongest narrative — '100 men vs 1 gorilla' hit 7M mcap, this is the sequel piggybacking on viral attention. Twitter link present (viability gate pass), $8k mcap with 28% bonding curve = early but real traction. Memecoin attention markets reward these 'next chapter' plays."
+    },
+    {
+      "time": "2026-09-06 02:42 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Chimp at $1.09138e-05 | P&L: +35.5%",
+      "reason": "Auto take-profit at +35.4%"
+    },
+    {
+      "time": "2026-09-06 02:42 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Chimp at $1.09138e-05 | P&L: +35.5%",
+      "reason": "+35% already blown past the +30% TP at 25% threshold — bot should have auto-TP'd but since I'm in the loop, lock the gain now. Bonding curve only 9% complete, pool tiny at $2.9k, easy to rug back to zero. Don't give back profit on hope."
     }
   ],
   "trade_stats": {
-    "total": 2002,
-    "wins": 1016,
+    "total": 2004,
+    "wins": 1018,
     "losses": 986,
-    "win_rate_pct": 50.7,
-    "total_pnl_sol": -2.161343,
+    "win_rate_pct": 50.8,
+    "total_pnl_sol": -2.15424,
     "avg_pnl_pct": 32.4,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 20,
-    "today_realized_sol": -0.027185,
-    "today_target_pct": -6.8,
+    "today_trades": 22,
+    "today_realized_sol": -0.020082,
+    "today_target_pct": -5.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1016,
+      "win_count": 1018,
       "loss_count": 986,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T02:41:28.993129+00:00",
+  "last_llm_brief_at": "2026-09-06T02:42:51.674459+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "DYZWLewtWP5NcrtiuLaPD5zaYjHTL7a1rf4MBok5pump": {
-      "price_usd": 3.2324965791680784e-06,
+    "B8qACpXiKXRyta2euHvNbfmkqCwZ137Px5SY9Fy2pump": {
+      "price_usd": 1.0913793033833003e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 160.10287036515,
-      "volume_h24": 2266.32,
+      "liquidity_usd": 2923.9551762762603,
+      "volume_h24": 17188.66,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.529596545
+      "real_sol_reserves": 27.948338523
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

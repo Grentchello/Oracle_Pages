@@ -15067,3 +15067,9 @@
 ## [2026-09-06 02:41 UTC] buy | [LLM] $Chimp at $8.05764e-06, spent 0.02 SOL
 - **Reasoning:** $Chimp has the strongest narrative — '100 men vs 1 gorilla' hit 7M mcap, this is the sequel piggybacking on viral attention. Twitter link present (viability gate pass), $8k mcap with 28% bonding curve = early but real traction. Memecoin attention markets reward these 'next chapter' plays.
 
+## [2026-09-06 02:42 UTC] sell | [TP +30% (25%)] $Chimp at $1.09138e-05 | P&L: +35.5%
+- **Reasoning:** Auto take-profit at +35.4%
+
+## [2026-09-06 02:42 UTC] sell | [FULL][LLM] $Chimp at $1.09138e-05 | P&L: +35.5%
+- **Reasoning:** +35% already blown past the +30% TP at 25% threshold — bot should have auto-TP'd but since I'm in the loop, lock the gain now. Bonding curve only 9% complete, pool tiny at $2.9k, easy to rug back to zero. Don't give back profit on hope.
+
