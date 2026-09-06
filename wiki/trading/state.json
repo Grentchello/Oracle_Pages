@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.184592,
+  "balance_sol": 0.164592,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "3n45f9zvS7QNFJcycArmrd4KXu8fNx7qLMMd7vKYpump": {
+      "symbol": "AntiFomo",
+      "name": "AntiFomo Bot",
+      "amount": 685692.925436918,
+      "entry_price_usd": 3.0690122676402022e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-06T09:03:11.997909+00:00",
+      "entry_usd_value": 2.1044,
+      "entry_signals": {
+        "liquidity_usd": 67.50330923862,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3069.8588548200687,
+        "ath_market_cap_usd": 3365.3583095115855,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.641544471,
+        "description": "Stop chasing pumps. Follow the wallets that actually win. Al-ranked top @fomo traders.",
+        "twitter": "https://x.com/AntiFomoBot",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35314,17 +35337,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-06T09:01:41.567200+00:00",
+  "last_updated": "2026-09-06T09:03:12.499168+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.26,
-  "portfolio_value_usd": 19.43,
+  "last_sol_price_usd": 105.22,
+  "portfolio_value_usd": 19.42,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 07:57 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $WFM at $3.15053e-06 | P&L: +0.5%",
-      "reason": "Pool is only $110 — far below the 5x position-size liquidity rule. With2% of pool share, any sell will move price against me. +0.5% is not worth the exit-liquidity risk. Cut and redeploy."
-    },
     {
       "time": "2026-09-06 08:00 UTC",
       "action": "buy",
@@ -35438,6 +35455,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $Morrow at $3.90755e-06 | P&L: -1.1%",
       "reason": "Morrow is -1.1% on a tiny $481 bonding-curve pool with 0% share. No momentum, no narrative strength, no liquidity. Exit the dead weight immediately to free a slot for live launches."
+    },
+    {
+      "time": "2026-09-06 09:03 UTC",
+      "action": "buy",
+      "details": "[LLM] $AntiFomo at $3.06901e-06, spent 0.02 SOL",
+      "reason": "AntiFomo Bot passes viability gate (104-char desc + Twitter), meta-narrative around tracking winning wallets has attention potential. $3k mcap is fresh enough for 5-10x but thin liquidity means size matters - 0.05 SOL position only."
     }
   ],
   "trade_stats": {
@@ -35459,7 +35482,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T09:01:41.288423+00:00",
+  "last_llm_brief_at": "2026-09-06T09:03:10.585639+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",

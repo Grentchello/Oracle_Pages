@@ -15466,3 +15466,6 @@
 ## [2026-09-06 08:47 UTC] sell | [FULL][LLM] $Morrow at $3.90755e-06 | P&L: -1.1%
 - **Reasoning:** Morrow is -1.1% on a tiny $481 bonding-curve pool with 0% share. No momentum, no narrative strength, no liquidity. Exit the dead weight immediately to free a slot for live launches.
 
+## [2026-09-06 09:03 UTC] buy | [LLM] $AntiFomo at $3.06901e-06, spent 0.02 SOL
+- **Reasoning:** AntiFomo Bot passes viability gate (104-char desc + Twitter), meta-narrative around tracking winning wallets has attention potential. $3k mcap is fresh enough for 5-10x but thin liquidity means size matters - 0.05 SOL position only.
+
