@@ -1,36 +1,14 @@
 {
-  "balance_sol": 0.130079,
+  "balance_sol": 0.169886,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "DyfwT1yE6qhbG8hHXtkCZ5ihwoYctS24GS3cXdyFpump": {
-      "symbol": "OFFSHORE",
-      "name": "Offshore.fun",
-      "amount": 708125.6296536673,
-      "entry_price_usd": 2.9674960374301673e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T03:30:45.885539+00:00",
-      "entry_usd_value": 2.10136,
-      "entry_signals": {
-        "liquidity_usd": 15.238156718635999,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2966.1403457847887,
-        "ath_market_cap_usd": 4407.655658812427,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.145031377,
-        "description": "🏝️ Where rich money goes to relax. Tokenized stocks earning dividends in a vault that never sleeps. ",
-        "twitter": "https://x.com/OffshoreOnHood",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "FfB74iNT8kTLNwjKKo9uCL1Vbnk1LWeig9Z7SxZ9pump": {
       "symbol": "VORTA",
       "name": "VortaMarkets",
-      "amount": 486782.00692041527,
+      "amount": 182543.25259515573,
       "entry_price_usd": 4.335e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-06T03:32:05.263576+00:00",
       "entry_usd_value": 2.1102000000000003,
       "entry_signals": {
@@ -34201,31 +34179,64 @@
       "pnl_pct": -18.22,
       "exit_reason": "LLM: sell_all — Down -18.2% on a $115 pool with no bounce signal and just entered — thin liquidity + no narrative momentum = exit before the -30% hard stop. Reclaim c",
       "partial": false
+    },
+    {
+      "mint": "FfB74iNT8kTLNwjKKo9uCL1Vbnk1LWeig9Z7SxZ9pump",
+      "symbol": "VORTA",
+      "name": "VortaMarkets",
+      "amount_sold": 121695.50173010382,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-06T03:32:05.263576+00:00",
+      "exit_time": "2026-09-06T03:33:09.672863+00:00",
+      "entry_price_usd": 4.335e-06,
+      "exit_price_usd": 6.864130390855122e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007927,
+      "pnl_sol": 0.002927,
+      "pnl_pct": 58.34,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "DyfwT1yE6qhbG8hHXtkCZ5ihwoYctS24GS3cXdyFpump",
+      "symbol": "OFFSHORE",
+      "name": "Offshore.fun",
+      "amount_sold": 708125.6296536673,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T03:30:45.885539+00:00",
+      "exit_time": "2026-09-06T03:33:24.580179+00:00",
+      "entry_price_usd": 2.9674960374301673e-06,
+      "exit_price_usd": 2.9748748349401283e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.01999,
+      "pnl_sol": -1e-05,
+      "pnl_pct": 0.25,
+      "exit_reason": "LLM: sell_all — Flat (+0.2%) on bonding-curve with tiny $15 pool and 14% share = extremely illiquid. Free up the slot immediately.",
+      "partial": false
+    },
+    {
+      "mint": "FfB74iNT8kTLNwjKKo9uCL1Vbnk1LWeig9Z7SxZ9pump",
+      "symbol": "VORTA",
+      "name": "VortaMarkets",
+      "amount_sold": 182543.25259515573,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T03:32:05.263576+00:00",
+      "exit_time": "2026-09-06T03:33:24.581322+00:00",
+      "entry_price_usd": 4.335e-06,
+      "exit_price_usd": 6.864130390855122e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.01189,
+      "pnl_sol": 0.00439,
+      "pnl_pct": 58.34,
+      "exit_reason": "LLM: sell_half — Up +58% already past TP1; lock half the gain. VORTA narrative is thin (no twitter/desc visible) so don't ride back to zero — keep a runner but bank pr",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T03:32:05.263775+00:00",
+  "last_updated": "2026-09-06T03:33:24.830014+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.51,
-  "portfolio_value_usd": 17.94,
+  "last_sol_price_usd": 105.38,
+  "portfolio_value_usd": 18.69,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 02:25 UTC",
-      "action": "buy",
-      "details": "[LLM] $DOG at $3.10889e-06, spent 0.02 SOL",
-      "reason": "$DOG has the strongest viral hook of the batch — Google UK easter egg for 'memecoins' is a screenshotable, shareable attention story. Twitter present (Dogcoinpons), passes viability gate (desc 77 chars + social). Risk: $3.1k mcap at 0.1min, bond only 3%, extreme fragility — GMGN gate will evaluate whale concentration. If it clears the gate, the narrative alone can drive a 5-10x in the first hour."
-    },
-    {
-      "time": "2026-09-06 02:26 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $DOG at $2.91201e-06 | P&L: -6.3%",
-      "reason": "Down6.3% on a $2 pool with 98% of supply — illiquid bonding-curve bag with no catalyst. -20% rule kicks in fast on $2k pools; cut now while slippage is still survivable."
-    },
-    {
-      "time": "2026-09-06 02:29 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $DOG at $2.91201e-06 | P&L: -6.3%",
-      "reason": "$DOG is at -6.3% after6 minutes with no momentum, bonding-curve pool tiny at $2, and our share is 25% — exit before it bleeds further. Capital rotation: free this slot for a fresh launch."
-    },
     {
       "time": "2026-09-06 02:38 UTC",
       "action": "buy",
@@ -34327,40 +34338,69 @@
       "action": "buy",
       "details": "[LLM] $VORTA at $4.335e-06, spent 0.02 SOL",
       "reason": "VORTA — PreIPO tokenized stocks narrative is genuinely novel and timely (PreIPO/spacex-openai chatter is loud this week), has twitter, description solid. Mcap $4.3k is rock-bottom, classic early attention window. Bet fits the 'attention market' thesis — story > numbers here."
+    },
+    {
+      "time": "2026-09-06 03:33 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $VORTA at $6.86413e-06 | P&L: +58.3%",
+      "reason": "Auto take-profit at +58.3%"
+    },
+    {
+      "time": "2026-09-06 03:33 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $OFFSHORE at $2.97487e-06 | P&L: +0.2%",
+      "reason": "Flat (+0.2%) on bonding-curve with tiny $15 pool and 14% share = extremely illiquid. Free up the slot immediately."
+    },
+    {
+      "time": "2026-09-06 03:33 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $VORTA at $6.86413e-06 | P&L: +58.3%",
+      "reason": "Up +58% already past TP1; lock half the gain. VORTA narrative is thin (no twitter/desc visible) so don't ride back to zero — keep a runner but bank profit."
     }
   ],
   "trade_stats": {
-    "total": 2009,
-    "wins": 1019,
-    "losses": 990,
+    "total": 2012,
+    "wins": 1021,
+    "losses": 991,
     "win_rate_pct": 50.7,
-    "total_pnl_sol": -2.162573,
-    "avg_pnl_pct": 32.3,
+    "total_pnl_sol": -2.155266,
+    "avg_pnl_pct": 32.31,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 27,
-    "today_realized_sol": -0.028415,
-    "today_target_pct": -7.1,
+    "today_trades": 30,
+    "today_realized_sol": -0.021108,
+    "today_target_pct": -5.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1019,
-      "loss_count": 990,
+      "win_count": 1021,
+      "loss_count": 991,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T03:32:03.902129+00:00",
+  "last_llm_brief_at": "2026-09-06T03:33:24.580142+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DyfwT1yE6qhbG8hHXtkCZ5ihwoYctS24GS3cXdyFpump": {
-      "price_usd": 2.978544731775792e-06,
+      "price_usd": 2.9748748349401283e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 15.30226058727,
+      "liquidity_usd": 15.283406508259999,
       "volume_h24": 1663.16,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.145031377
+    },
+    "FfB74iNT8kTLNwjKKo9uCL1Vbnk1LWeig9Z7SxZ9pump": {
+      "price_usd": 6.864130390855122e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1663.9892006111,
+      "volume_h24": 1780.8,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 15.790370095
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

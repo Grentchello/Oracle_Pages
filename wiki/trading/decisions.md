@@ -15109,3 +15109,12 @@
 ## [2026-09-06 03:32 UTC] buy | [LLM] $VORTA at $4.335e-06, spent 0.02 SOL
 - **Reasoning:** VORTA — PreIPO tokenized stocks narrative is genuinely novel and timely (PreIPO/spacex-openai chatter is loud this week), has twitter, description solid. Mcap $4.3k is rock-bottom, classic early attention window. Bet fits the 'attention market' thesis — story > numbers here.
 
+## [2026-09-06 03:33 UTC] sell | [TP +30% (25%)] $VORTA at $6.86413e-06 | P&L: +58.3%
+- **Reasoning:** Auto take-profit at +58.3%
+
+## [2026-09-06 03:33 UTC] sell | [FULL][LLM] $OFFSHORE at $2.97487e-06 | P&L: +0.2%
+- **Reasoning:** Flat (+0.2%) on bonding-curve with tiny $15 pool and 14% share = extremely illiquid. Free up the slot immediately.
+
+## [2026-09-06 03:33 UTC] sell | [PARTIAL][LLM] $VORTA at $6.86413e-06 | P&L: +58.3%
+- **Reasoning:** Up +58% already past TP1; lock half the gain. VORTA narrative is thin (no twitter/desc visible) so don't ride back to zero — keep a runner but bank profit.
+
