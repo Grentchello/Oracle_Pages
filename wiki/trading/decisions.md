@@ -15538,3 +15538,6 @@
 ## [2026-09-06 10:47 UTC] buy | [LLM] $DOOM at $3.03133e-06, spent 0.02 SOL
 - **Reasoning:** $DOOM — 'doomsday / 1000x fate' is a classic viral meme angle, has Twitter presence. Viability gate passes (57-char desc + twitter). Fresh 0.1min age, sized 0.05 SOL to bound downside if it rugs.
 
+## [2026-09-06 10:50 UTC] buy | [LLM] $rimallen at $4.282e-06, spent 0.02 SOL
+- **Reasoning:** $rimallen has the strongest viable narrative: multi-stage meme arc (WHEEL → BIKE TYSON → Tim Allen as rim), live X account, $5.3k mcap, 20% bonded. Fresh attention, not on the blocklist.
+
