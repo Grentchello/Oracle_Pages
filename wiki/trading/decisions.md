@@ -15124,3 +15124,9 @@
 ## [2026-09-06 03:35 UTC] sell | [hard-stop] $VORTA closed at $2.9807e-06 | P&L: -31.2%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-06 03:38 UTC] buy | [LLM] $OVL at $5.019e-06, spent 0.02 SOL
+- **Reasoning:** $OVL has the strongest narrative of the batch (RWA/tokenized power plant equity) plus a dedicated project twitter (@overload_xyz). RWA narrative is hot on CT right now. Risk: 0.7min old, $6.7k mcap — very early, could rug, but the narrative gives it attention potential.
+
+## [2026-09-06 03:38 UTC] buy | [LLM] $BOXBOT at $1.066e-05, spent 0.02 SOL
+- **Reasoning:** $BOXBOT has the most substantive description in the batch — execution engine narrative on Solana order books is a clear product story that could attract dev/alpha CT attention. $13k mcap with 35% bond progress shows some traction. Risk: age 1.8min, no twitter link provided.
+
