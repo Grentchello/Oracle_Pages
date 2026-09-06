@@ -15010,3 +15010,6 @@
 ## [2026-09-06 01:00 UTC] sell | [FULL][LLM] $GIV15 at $2.90164e-06 | P&L: -0.8%
 - **Reasoning:** Position is -0.8% with effectively zero value (~$2 of a $7 pool, 28% share), no movement in 0.0h, and freeing the slot lets me act on a real launch instead of holding dust.
 
+## [2026-09-06 01:18 UTC] buy | [LLM] $USEFUL at $3.655e-06, spent 0.02 SOL
+- **Reasoning:** $USEFUL 'USEFUL MEMESTOCK' is a meta-ironic narrative that flips zero-utility farming — exactly the kind of CT bait that catches attention. Has full description, twitter presence, bond at 10% with room to run, $3.6k mcap is fresh enough to capture early momentum. Position size 0.05 SOL ($5).
+
