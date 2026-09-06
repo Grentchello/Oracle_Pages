@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.1692,
+  "balance_sol": 0.187387,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GKhSW36nRBJUrmQ6RoZG9JCE8QNZ9cXkVL3WPKxrpump": {
       "symbol": "gozu",
       "name": "gozu",
-      "amount": 309902.57379671367,
+      "amount": 116213.46517376762,
       "entry_price_usd": 6.877e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-06T09:40:23.962067+00:00",
       "entry_usd_value": 2.1312,
       "entry_signals": {
@@ -35420,25 +35420,47 @@
       "pnl_pct": 40.35,
       "exit_reason": "LLM: sell_all — $bagged is +40.4% — well past +30% TP threshold. Pool only $891 which is tight for our size and risks slippage. Lock the gain; narrative unclear (no t",
       "partial": false
+    },
+    {
+      "mint": "GKhSW36nRBJUrmQ6RoZG9JCE8QNZ9cXkVL3WPKxrpump",
+      "symbol": "gozu",
+      "name": "gozu",
+      "amount_sold": 77475.64344917842,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-06T09:40:23.962067+00:00",
+      "exit_time": "2026-09-06T09:44:26.735108+00:00",
+      "entry_price_usd": 6.877e-06,
+      "exit_price_usd": 9.997110061745256e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007275,
+      "pnl_sol": 0.002275,
+      "pnl_pct": 45.37,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "GKhSW36nRBJUrmQ6RoZG9JCE8QNZ9cXkVL3WPKxrpump",
+      "symbol": "gozu",
+      "name": "gozu",
+      "amount_sold": 116213.46517376762,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T09:40:23.962067+00:00",
+      "exit_time": "2026-09-06T09:44:42.563229+00:00",
+      "entry_price_usd": 6.877e-06,
+      "exit_price_usd": 9.997110061745256e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.010912,
+      "pnl_sol": 0.003412,
+      "pnl_pct": 45.37,
+      "exit_reason": "LLM: sell_half — Up +45% already, hit first TP territory. Bonding-curve pool only $2.6k, our share is 0% so selling half locks gains and lets the runner ride free if i",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T09:43:23.264793+00:00",
+  "last_updated": "2026-09-06T09:44:42.826009+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.4,
-  "portfolio_value_usd": 20.44,
+  "last_sol_price_usd": 106.47,
+  "portfolio_value_usd": 20.75,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 08:09 UTC",
-      "action": "buy",
-      "details": "[LLM] $GLIZZY at $4.71602e-06, spent 0.02 SOL",
-      "reason": "GLIZZY passes viability gate (desc ≥50 chars AND has twitter). Absurdist 'Glizzillionaire' is classic viral memecoin energy — silly internet humor travels fast. Bonding curve only 17%, mcap $4.7k, plenty of room. No fragility triggers (no political/celebrity keywords). 0.05 SOL position fits budget."
-    },
-    {
-      "time": "2026-09-06 08:10 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $ANSEMINU closed at $2.97297e-06 | P&L: -85.2%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-06 08:13 UTC",
       "action": "sell",
@@ -35546,51 +35568,52 @@
       "action": "sell",
       "details": "[FULL][LLM] $bagged at $4.86624e-06 | P&L: +40.4%",
       "reason": "$bagged is +40.4% — well past +30% TP threshold. Pool only $891 which is tight for our size and risks slippage. Lock the gain; narrative unclear (no twitter/desc visible) so don't trust a continuation."
+    },
+    {
+      "time": "2026-09-06 09:44 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $gozu at $9.99711e-06 | P&L: +45.4%",
+      "reason": "Auto take-profit at +45.4%"
+    },
+    {
+      "time": "2026-09-06 09:44 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $gozu at $9.99711e-06 | P&L: +45.4%",
+      "reason": "Up +45% already, hit first TP territory. Bonding-curve pool only $2.6k, our share is 0% so selling half locks gains and lets the runner ride free if it keeps going."
     }
   ],
   "trade_stats": {
-    "total": 2082,
-    "wins": 1061,
+    "total": 2084,
+    "wins": 1063,
     "losses": 1021,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.14345,
-    "avg_pnl_pct": 32.26,
+    "total_pnl_sol": -2.137763,
+    "avg_pnl_pct": 32.28,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 100,
-    "today_realized_sol": -0.009292,
-    "today_target_pct": -2.3,
+    "today_trades": 102,
+    "today_realized_sol": -0.003605,
+    "today_target_pct": -0.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1061,
+      "win_count": 1063,
       "loss_count": 1021,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T09:43:22.749985+00:00",
+  "last_llm_brief_at": "2026-09-06T09:44:42.563186+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "64a7h7cptKS7ngk1LzXXk31j9xsngnyTkEQnuKS4pump": {
-      "price_usd": 4.866242128318196e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 890.5184854831999,
-      "volume_h24": 1462.03,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 8.369534638
-    },
     "GKhSW36nRBJUrmQ6RoZG9JCE8QNZ9cXkVL3WPKxrpump": {
-      "price_usd": 7.864839724862744e-06,
+      "price_usd": 9.997110061745256e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1998.1061556288003,
-      "volume_h24": 2558.77,
+      "liquidity_usd": 2659.3424423338497,
+      "volume_h24": 3749.87,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 18.779193192
+      "real_sol_reserves": 24.977387455
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

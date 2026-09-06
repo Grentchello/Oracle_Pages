@@ -15493,3 +15493,9 @@
 ## [2026-09-06 09:43 UTC] sell | [FULL][LLM] $bagged at $4.86624e-06 | P&L: +40.4%
 - **Reasoning:** $bagged is +40.4% — well past +30% TP threshold. Pool only $891 which is tight for our size and risks slippage. Lock the gain; narrative unclear (no twitter/desc visible) so don't trust a continuation.
 
+## [2026-09-06 09:44 UTC] sell | [TP +30% (25%)] $gozu at $9.99711e-06 | P&L: +45.4%
+- **Reasoning:** Auto take-profit at +45.4%
+
+## [2026-09-06 09:44 UTC] sell | [PARTIAL][LLM] $gozu at $9.99711e-06 | P&L: +45.4%
+- **Reasoning:** Up +45% already, hit first TP territory. Bonding-curve pool only $2.6k, our share is 0% so selling half locks gains and lets the runner ride free if it keeps going.
+
