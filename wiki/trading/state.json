@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.220488,
+  "balance_sol": 0.200488,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "2MCKT7w4w3BMS4Tu67rbP18SprxpseHDHu1y7xRudDgx": {
+      "symbol": "DEPRAV",
+      "name": "Office Coffee Cat",
+      "amount": 710414.510190383,
+      "entry_price_usd": 2.9681263118273295e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-06T06:49:27.570793+00:00",
+      "entry_usd_value": 2.1086,
+      "entry_signals": {
+        "liquidity_usd": 14.054729809770002,
+        "volume_24h_usd": null,
+        "market_cap_usd": 2968.7372224348337,
+        "ath_market_cap_usd": 2968.7372224348337,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.133308639,
+        "description": "Third cup of sludge, zero will to live, one sharp claw. — The patron saint of the 9-to-5 grind who has seen too many spreadsheets. He represents every corporate slave at 2 PM on a Tuesday.",
+        "twitter": "https://x.com/OfficeCoffeeCat",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34821,17 +34844,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-06T06:48:02.757784+00:00",
+  "last_updated": "2026-09-06T06:49:27.571069+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.45,
+  "last_sol_price_usd": 105.43,
   "portfolio_value_usd": 23.25,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 05:58 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MAGMA at $3.08152e-06 | P&L: -1.1%",
-      "reason": "MAGMA is down 1.2% after 6 minutes with pool only $56 and our share is 4% — that's dangerously thin liquidity for a position our size. A 4% pool share means our own exit will crater the price. Cut now before we eat the -30% hard stop."
-    },
     {
       "time": "2026-09-06 06:02 UTC",
       "action": "buy",
@@ -34945,6 +34962,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $GRUM at $3.12351e-06 | P&L: -0.1%",
       "reason": "$GRUM is flat at -0.1% after 0.1h, bonding curve barely 7% complete, pool only $93. No momentum signal, no narrative lift, and our 2% share makes us exit liquidity risk. Flat + weak pool + no catalyst = stale exit per discipline."
+    },
+    {
+      "time": "2026-09-06 06:49 UTC",
+      "action": "buy",
+      "details": "[LLM] $DEPRAV at $2.96813e-06, spent 0.02 SOL",
+      "reason": "DEPRAV (Office Coffee Cat) — most polished launch here: vivid narrative copy ('third cup of sludge, zero will to live, one sharp claw') + live X account. Office/workplace-relatable meme has viral legs. 0.05 SOL."
     }
   ],
   "trade_stats": {
@@ -34966,21 +34989,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T06:48:02.502721+00:00",
+  "last_llm_brief_at": "2026-09-06T06:49:25.999837+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "2teSTV6n2kYow7c3piHqpninj7LTZNPnugZsLRJkpump": {
-      "price_usd": 3.1235122674535408e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 92.65738650225,
-      "volume_h24": 92.69,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.878685505
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

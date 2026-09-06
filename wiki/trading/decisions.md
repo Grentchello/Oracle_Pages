@@ -15313,3 +15313,6 @@
 ## [2026-09-06 06:48 UTC] sell | [FULL][LLM] $GRUM at $3.12351e-06 | P&L: -0.1%
 - **Reasoning:** $GRUM is flat at -0.1% after 0.1h, bonding curve barely 7% complete, pool only $93. No momentum signal, no narrative lift, and our 2% share makes us exit liquidity risk. Flat + weak pool + no catalyst = stale exit per discipline.
 
+## [2026-09-06 06:49 UTC] buy | [LLM] $DEPRAV at $2.96813e-06, spent 0.02 SOL
+- **Reasoning:** DEPRAV (Office Coffee Cat) — most polished launch here: vivid narrative copy ('third cup of sludge, zero will to live, one sharp claw') + live X account. Office/workplace-relatable meme has viral legs. 0.05 SOL.
+
