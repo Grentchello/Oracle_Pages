@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.178493,
+  "balance_sol": 0.198493,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "68Ry57hqJkh6XmhMFxqo9Uj4VqB7hVWr1FrJKatvLSxY": {
-      "symbol": "ANTH",
-      "name": "Anthropic Stock Token",
-      "amount": 596205.0492543157,
-      "entry_price_usd": 3.464915304866561e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T00:12:56.046442+00:00",
-      "entry_usd_value": 2.0658000000000003,
-      "entry_signals": {
-        "liquidity_usd": 295.48835198388,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3466.9280352208257,
-        "ath_market_cap_usd": 3466.9280352208257,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.860764372,
-        "description": "$ANTH 🤖 Hold → Earn Anthropic Stock Every trade buys AI stock for ALL holders 🧠 Daily auto-rewards • Fair Launch",
-        "twitter": "https://x.com/STOCKS_OTC_",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33737,19 +33714,30 @@
       "pnl_pct": 0.0,
       "exit_reason": "LLM: sell_all — $RUNNER is flat at +0.0% held 0.1h with only $41 pool — already flagging as thin liquidity, our 5% share means any further action will move price agai",
       "partial": false
+    },
+    {
+      "mint": "68Ry57hqJkh6XmhMFxqo9Uj4VqB7hVWr1FrJKatvLSxY",
+      "symbol": "ANTH",
+      "name": "Anthropic Stock Token",
+      "amount_sold": 596205.0492543157,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T00:12:56.046442+00:00",
+      "exit_time": "2026-09-06T00:18:30.616194+00:00",
+      "entry_price_usd": 3.464915304866561e-06,
+      "exit_price_usd": 3.468605310516046e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.02,
+      "pnl_sol": 0.0,
+      "pnl_pct": 0.11,
+      "exit_reason": "LLM: sell_all — Flat at +0.1% after 0.1h with only $296 pool liquidity and 1% of pool share — illiquid, no momentum, no clear narrative. Free the slot for stronger se",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T00:17:09.216258+00:00",
+  "last_updated": "2026-09-06T00:18:31.151543+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.32,
-  "portfolio_value_usd": 20.51,
+  "last_sol_price_usd": 103.4,
+  "portfolio_value_usd": 20.52,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 03:09 UTC",
-      "action": "buy",
-      "details": "[LLM] $punch at $3.871e-06, spent 0.02 SOL",
-      "reason": "$punch passes viability (real desc + twitter @gh1stsol), mcap $3,893 has held through ~1min with liquidity forming, classic boxing-monkey visual identity is a strong meme template, narrative clear. Risk: brand-new bonding-curve, thin liquidity."
-    },
     {
       "time": "2026-09-05 03:12 UTC",
       "action": "sell",
@@ -33863,35 +33851,41 @@
       "action": "sell",
       "details": "[FULL][LLM] $RUNNER at $2.96767e-06 | P&L: +0.0%",
       "reason": "$RUNNER is flat at +0.0% held 0.1h with only $41 pool — already flagging as thin liquidity, our 5% share means any further action will move price against us. Cut and free the slot."
+    },
+    {
+      "time": "2026-09-06 00:18 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ANTH at $3.46861e-06 | P&L: +0.1%",
+      "reason": "Flat at +0.1% after 0.1h with only $296 pool liquidity and 1% of pool share — illiquid, no momentum, no clear narrative. Free the slot for stronger setups."
     }
   ],
   "trade_stats": {
-    "total": 1983,
+    "total": 1984,
     "wins": 1009,
-    "losses": 974,
+    "losses": 975,
     "win_rate_pct": 50.9,
     "total_pnl_sol": -2.134159,
-    "avg_pnl_pct": 32.79,
+    "avg_pnl_pct": 32.77,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 1,
+    "today_trades": 2,
     "today_realized_sol": -1e-06,
     "today_target_pct": -0.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1009,
-      "loss_count": 974,
+      "loss_count": 975,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T00:17:08.941712+00:00",
+  "last_llm_brief_at": "2026-09-06T00:18:30.616089+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "68Ry57hqJkh6XmhMFxqo9Uj4VqB7hVWr1FrJKatvLSxY": {
-      "price_usd": 3.4659216700436927e-06,
+      "price_usd": 3.468605310516046e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 295.57417491504,
+      "liquidity_usd": 295.80303606480004,
       "volume_h24": 295.63,
       "dex_id": "pumpfun",
       "source": "bonding-curve",

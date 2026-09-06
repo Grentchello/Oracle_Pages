@@ -14959,3 +14959,6 @@
 ## [2026-09-06 00:15 UTC] sell | [FULL][LLM] $RUNNER at $2.96767e-06 | P&L: +0.0%
 - **Reasoning:** $RUNNER is flat at +0.0% held 0.1h with only $41 pool — already flagging as thin liquidity, our 5% share means any further action will move price against us. Cut and free the slot.
 
+## [2026-09-06 00:18 UTC] sell | [FULL][LLM] $ANTH at $3.46861e-06 | P&L: +0.1%
+- **Reasoning:** Flat at +0.1% after 0.1h with only $296 pool liquidity and 1% of pool share — illiquid, no momentum, no clear narrative. Free the slot for stronger setups.
+
