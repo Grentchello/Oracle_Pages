@@ -15013,3 +15013,9 @@
 ## [2026-09-06 01:18 UTC] buy | [LLM] $USEFUL at $3.655e-06, spent 0.02 SOL
 - **Reasoning:** $USEFUL 'USEFUL MEMESTOCK' is a meta-ironic narrative that flips zero-utility farming — exactly the kind of CT bait that catches attention. Has full description, twitter presence, bond at 10% with room to run, $3.6k mcap is fresh enough to capture early momentum. Position size 0.05 SOL ($5).
 
+## [2026-09-06 01:19 UTC] sell | [FULL][LLM] $USEFUL at $3.62829e-06 | P&L: -0.7%
+- **Reasoning:** $USEFUL is barely moved (-0.7%) on tiny $370 pool with 1% share — dead in the water, no narrative momentum, and pool is too thin to trust. Free up the slot for something with pulse.
+
+## [2026-09-06 01:19 UTC] buy | [LLM] $pill at $3.292e-06, spent 0.02 SOL
+- **Reasoning:** $pill has a real viral hook ('one pill can change your life'), an actual X post backing it (sapphycrypto), $3.3k mcap at 1min = classic early attention launch. Matrix/movie meme is evergreen; ride the first wave.
+
