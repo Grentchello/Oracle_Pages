@@ -15307,3 +15307,6 @@
 ## [2026-09-06 06:38 UTC] sell | [FULL][LLM] $PONSCAT at $3.04202e-06 | P&L: -1.0%
 - **Reasoning:** $PONSCAT is flat (-1%) at 0h held with only $50 pool and 4% of pool owned — that's a thin, illiquid position with no momentum signal. Exiting frees the slot for a fresher, higher-attention launch.
 
+## [2026-09-06 06:40 UTC] buy | [LLM] $GRUM at $3.12647e-06, spent 0.02 SOL
+- **Reasoning:** $GRUM has the strongest signal of the batch: a dedicated X account (@GrummingApp) plus a real 'community-funded startup' Web3 narrative with substantive description. Fresh (0.3min), tiny mcap = max upside if narrative catches. Viability gate passes (desc ≥50 chars + twitter).
+

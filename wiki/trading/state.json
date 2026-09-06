@@ -1,8 +1,31 @@
 {
-  "balance_sol": 0.220488,
+  "balance_sol": 0.200488,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "2teSTV6n2kYow7c3piHqpninj7LTZNPnugZsLRJkpump": {
+      "symbol": "GRUM",
+      "name": "Grumming",
+      "amount": 675201.4461333852,
+      "entry_price_usd": 3.1264743464174606e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-06T06:40:03.849307+00:00",
+      "entry_usd_value": 2.1109999999999998,
+      "entry_signals": {
+        "liquidity_usd": 92.74525505275,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3124.313860197602,
+        "ath_market_cap_usd": 3124.313860197602,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.878685505,
+        "description": "Grumming is a community-funded startup We’re raising from the community to build Grumming into something bigger We build together, we grow together",
+        "twitter": "https://x.com/GrummingApp",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34804,17 +34827,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-06T06:38:35.721428+00:00",
+  "last_updated": "2026-09-06T06:40:04.099361+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.43,
-  "portfolio_value_usd": 23.25,
+  "last_sol_price_usd": 105.55,
+  "portfolio_value_usd": 23.27,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 05:52 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $STONKCHUMP at $3.19921e-06 | P&L: +1.1%",
-      "reason": "Flat at +1.1% in 0.1h on a $116 pool — no momentum, thin liquidity makes any bounce hard. Freeing slot for a higher-attention fresh launch."
-    },
     {
       "time": "2026-09-06 05:52 UTC",
       "action": "buy",
@@ -34928,6 +34945,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $PONSCAT at $3.04202e-06 | P&L: -1.0%",
       "reason": "$PONSCAT is flat (-1%) at 0h held with only $50 pool and 4% of pool owned — that's a thin, illiquid position with no momentum signal. Exiting frees the slot for a fresher, higher-attention launch."
+    },
+    {
+      "time": "2026-09-06 06:40 UTC",
+      "action": "buy",
+      "details": "[LLM] $GRUM at $3.12647e-06, spent 0.02 SOL",
+      "reason": "$GRUM has the strongest signal of the batch: a dedicated X account (@GrummingApp) plus a real 'community-funded startup' Web3 narrative with substantive description. Fresh (0.3min), tiny mcap = max upside if narrative catches. Viability gate passes (desc ≥50 chars + twitter)."
     }
   ],
   "trade_stats": {
@@ -34949,21 +34972,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T06:38:35.469846+00:00",
+  "last_llm_brief_at": "2026-09-06T06:40:02.506463+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "Byk2TDkgG81DrHZcHSDMbpSh9SJ4jgRGFXBuuMYrpump": {
-      "price_usd": 3.042024035009589e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 50.19755975052001,
-      "volume_h24": 18154.25,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.476122164
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
