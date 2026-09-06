@@ -15586,3 +15586,6 @@
 ## [2026-09-06 11:19 UTC] sell | [FULL][LLM] $$CPS at $3.00803e-06 | P&L: -0.1%
 - **Reasoning:** Held 6 minutes, essentially flat (-0.1%) on $16 pool with no momentum signal. Stale already, and capital rotation matters — I'd rather redeploy 0.1 SOL into a fresh launch than babysit a dead bonding-curve position.
 
+## [2026-09-06 11:30 UTC] buy | [LLM] $RD at $1.523e-05, spent 0.02 SOL
+- **Reasoning:** $RD (RIBBIT_DOWN) has the strongest attention signal of the bunch — a viral Minecraft 'ribbits' mod-pack narrative with a top X post, mcap already at $15k (highest of new launches) yet still tiny enough for 5-10x potential. Bond at 0% means I'm getting in pre-bonding-curve momentum. Risk: trend could die if the mod-pack doesn't catch on broader X, but attention is literally the asset here.
+
