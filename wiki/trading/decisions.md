@@ -15424,3 +15424,9 @@
 ## [2026-09-06 08:04 UTC] buy | [LLM] $Buffalo at $3.148e-06, spent 0.02 SOL
 - **Reasoning:** NY Post article link is the strongest real-world attention signal on the board — actual media pickup on a <2min token is rare and feeds the viral loop. Nietzschean framing gives it a quotable narrative. Position0.05 SOL, will bail fast if no follow-through in first 10 min.
 
+## [2026-09-06 08:07 UTC] sell | [FULL][LLM] $Buffalo at $2.98557e-06 | P&L: -5.2%
+- **Reasoning:** Pool is $23 and we own 8% — we ARE the liquidity, which means any exit moves price against us and any small sell from holders nukes our value. Already -5.2% with no visible narrative. Cut the slot loose before it bleeds further.
+
+## [2026-09-06 08:07 UTC] buy | [LLM] $ANSEMINU at $2.016e-05, spent 0.02 SOL
+- **Reasoning:** ANSEM is a top-3 crypto memecoin KOL with a real following; piggybacking on his brand is the clearest attention narrative in this batch. Bonding curve at 40% means organic buys are actually flowing. Viability passes (twitter + long desc). Sizing 0.05 SOL.
+

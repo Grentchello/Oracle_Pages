@@ -1,26 +1,26 @@
 {
-  "balance_sol": 0.162505,
+  "balance_sol": 0.161459,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "FsaQYmnqadz4z1ZHzftxZbAq7h1cuXBEgCKLQLXcpump": {
-      "symbol": "Buffalo",
-      "name": "‪Nietzchean Buffalo‬",
-      "amount": 667979.6696315121,
-      "entry_price_usd": 3.148e-06,
+    "BG2ga3ea8XYoG1STLbAuCFQoCjerAWX916aNGVM5pump": {
+      "symbol": "ANSEMINU",
+      "name": "ANSEM INU",
+      "amount": 104384.92063492064,
+      "entry_price_usd": 2.016e-05,
       "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T08:04:41.185333+00:00",
-      "entry_usd_value": 2.1028000000000002,
+      "entry_time": "2026-09-06T08:07:27.215005+00:00",
+      "entry_usd_value": 2.1044,
       "entry_signals": {
-        "liquidity_usd": 89.9858132726,
-        "volume_24h_usd": 2579.05,
-        "market_cap_usd": 3150.572592530733,
-        "ath_market_cap_usd": 5105.981176120442,
+        "liquidity_usd": 6301.20924012276,
+        "volume_24h_usd": 5768.54,
+        "market_cap_usd": 25420.2197066539,
+        "ath_market_cap_usd": 25775.145118439676,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.85586659,
-        "description": "He who jumps into the void owes no explanation to those who stand and wat",
-        "twitter": "https://x.com/nypost/status/1938679521428844677?s=46",
+        "real_sol_reserves": 59.886041058,
+        "description": "ANSEM INU HAS AWAKENED The next generation of COPPERINU x ANSEM meme energy. Born from copper. Blessed by ANSEM. Raised by degens.",
+        "twitter": "https://x.com/anseminu_sol/status/2096509225442611413",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -35182,25 +35182,30 @@
       "pnl_pct": -83.88,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "FsaQYmnqadz4z1ZHzftxZbAq7h1cuXBEgCKLQLXcpump",
+      "symbol": "Buffalo",
+      "name": "‪Nietzchean Buffalo‬",
+      "amount_sold": 667979.6696315121,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T08:04:41.185333+00:00",
+      "exit_time": "2026-09-06T08:07:25.826587+00:00",
+      "entry_price_usd": 3.148e-06,
+      "exit_price_usd": 2.985574150381632e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018954,
+      "pnl_sol": -0.001046,
+      "pnl_pct": -5.16,
+      "exit_reason": "LLM: sell_all — Pool is $23 and we own 8% — we ARE the liquidity, which means any exit moves price against us and any small sell from holders nukes our value. Already",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T08:06:01.830606+00:00",
+  "last_updated": "2026-09-06T08:07:27.215148+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.32,
-  "portfolio_value_usd": 19.22,
+  "last_sol_price_usd": 105.22,
+  "portfolio_value_usd": 19.09,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 07:29 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-06 07:30 UTC",
-      "action": "sell",
-      "details": "[TP +100% (50%)] $ANSEMINU at $6.527e-05 | P&L: +179.9%",
-      "reason": "Auto take-profit at +179.9%"
-    },
     {
       "time": "2026-09-06 07:31 UTC",
       "action": "observe",
@@ -35308,40 +35313,52 @@
       "action": "buy",
       "details": "[LLM] $Buffalo at $3.148e-06, spent 0.02 SOL",
       "reason": "NY Post article link is the strongest real-world attention signal on the board — actual media pickup on a <2min token is rare and feeds the viral loop. Nietzschean framing gives it a quotable narrative. Position0.05 SOL, will bail fast if no follow-through in first 10 min."
+    },
+    {
+      "time": "2026-09-06 08:07 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Buffalo at $2.98557e-06 | P&L: -5.2%",
+      "reason": "Pool is $23 and we own 8% — we ARE the liquidity, which means any exit moves price against us and any small sell from holders nukes our value. Already -5.2% with no visible narrative. Cut the slot loose before it bleeds further."
+    },
+    {
+      "time": "2026-09-06 08:07 UTC",
+      "action": "buy",
+      "details": "[LLM] $ANSEMINU at $2.016e-05, spent 0.02 SOL",
+      "reason": "ANSEM is a top-3 crypto memecoin KOL with a real following; piggybacking on his brand is the clearest attention narrative in this batch. Bonding curve at 40% means organic buys are actually flowing. Viability passes (twitter + long desc). Sizing 0.05 SOL."
     }
   ],
   "trade_stats": {
-    "total": 2068,
+    "total": 2069,
     "wins": 1053,
-    "losses": 1015,
+    "losses": 1016,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.150145,
-    "avg_pnl_pct": 32.37,
+    "total_pnl_sol": -2.151191,
+    "avg_pnl_pct": 32.35,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 86,
-    "today_realized_sol": -0.015987,
-    "today_target_pct": -4.0,
+    "today_trades": 87,
+    "today_realized_sol": -0.017033,
+    "today_target_pct": -4.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1053,
-      "loss_count": 1015,
+      "loss_count": 1016,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T08:06:01.567795+00:00",
+  "last_llm_brief_at": "2026-09-06T08:07:25.826552+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FsaQYmnqadz4z1ZHzftxZbAq7h1cuXBEgCKLQLXcpump": {
-      "price_usd": 3.0966220083812283e-06,
+      "price_usd": 2.985574150381632e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 80.51191886632,
-      "volume_h24": 2659.59,
+      "liquidity_usd": 23.3739927322,
+      "volume_h24": 2691.58,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.764450426
+      "real_sol_reserves": 0.22214401
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
