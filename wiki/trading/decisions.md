@@ -15475,3 +15475,6 @@
 ## [2026-09-06 09:10 UTC] buy | [LLM] $NODAL at $3.056e-06, spent 0.02 SOL
 - **Reasoning:** NODAL — 'Index perpetuals on Robinhood Chain' has a real DeFi narrative (RWA/tokenization trend), tied to a visible Twitter account (@UseNodal). Best narrative+attention combo in the slate. Small entry.
 
+## [2026-09-06 09:13 UTC] sell | [FULL][LLM] $NODAL at $2.96493e-06 | P&L: -3.0%
+- **Reasoning:** Pool is only $8 and my position is 25% of it - I'm liquidity-locked. At -3% with no volume on a bonding-curve thin pool, this will only get worse. Try to exit now even at slippage; a small realized loss beats being stuck unable to sell when it tanks to -30%.
+
