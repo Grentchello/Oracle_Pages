@@ -14980,3 +14980,9 @@
 ## [2026-09-06 00:31 UTC] sell | [PARTIAL][LLM] $PTown at $2.90266e-06 | P&L: -22.6%
 - **Reasoning:** Down -22.6% and approaching hard -30% stop. Tiny $5 pool means we own 35% of liquidity — any further drop and we can't even exit cleanly. Cut now while we still can.
 
+## [2026-09-06 00:32 UTC] sell | [FULL][LLM] $PTown at $2.91133e-06 | P&L: -22.4%
+- **Reasoning:** $PTown is down -22.4% and only 6 minutes old — fast bleed, no bounce signal, thin $10 pool with our 8% share makes exit harder. Cut it now before -30% hard stop hits.
+
+## [2026-09-06 00:32 UTC] buy | [LLM] $ODEZA at $2.937e-06, spent 0.02 SOL
+- **Reasoning:** $ODEZA — geopolitical narrative tied to live Russia/Ukraine news, real Twitter handle (MarioNawfal = 1M+ followers, narrative driver). Fresh $2.9k mcap, has liquidity + twitter (passes viability gate). 0.05 SOL position size per bot rules.
+

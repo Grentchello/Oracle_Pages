@@ -1,26 +1,26 @@
 {
-  "balance_sol": 0.165096,
+  "balance_sol": 0.152856,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "5ohebBgGmHhwb7BN5UBDA3H3Ca5b62TUTbvmn5wxpump": {
-      "symbol": "PTown",
-      "name": "PokeTown",
-      "amount": 275865.29960436985,
-      "entry_price_usd": 3.751106070549833e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-06T00:28:42.235155+00:00",
-      "entry_usd_value": 2.0696000000000003,
+    "FsRYEz1nCQ2tu3BqiN5mbRp6jiQHs5KtrQ1DvfNeYtNL": {
+      "symbol": "ODEZA",
+      "name": "Odesa Sea Access Deal",
+      "amount": 704732.7204630575,
+      "entry_price_usd": 2.937e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-06T00:32:33.404259+00:00",
+      "entry_usd_value": 2.0698,
       "entry_signals": {
-        "liquidity_usd": 495.44350360076004,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3751.468566304621,
-        "ath_market_cap_usd": 6088.521936167557,
+        "liquidity_usd": 21.550324183879997,
+        "volume_24h_usd": 24.6,
+        "market_cap_usd": 2929.0884536210556,
+        "ath_market_cap_usd": 2937.6928962030443,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 4.787818937,
-        "description": "Watch AI Pokemon roam, chat & battle across 6 zones in this living world simulation with built in burn mechanisms. Card Pack System with 106 real moves, Talent Trees for stat progression, and AI Breeding that generates unique Pokemon with custom sprites",
-        "twitter": "https://x.com/PokeTownAI",
+        "real_sol_reserves": 0.208235812,
+        "description": "Negotiation vs escalation: if diplomacy fails, Russia’s push could threaten Ukraine’s sea access and economic leverage. Track the map-pressure narrative.",
+        "twitter": "https://twitter.com/MarioNawfal/status/2096395706802032751",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -33805,25 +33805,30 @@
       "pnl_pct": -22.62,
       "exit_reason": "LLM: sell_all — Down -22.6% and approaching hard -30% stop. Tiny $5 pool means we own 35% of liquidity — any further drop and we can't even exit cleanly. Cut now whil",
       "partial": true
+    },
+    {
+      "mint": "5ohebBgGmHhwb7BN5UBDA3H3Ca5b62TUTbvmn5wxpump",
+      "symbol": "PTown",
+      "name": "PokeTown",
+      "amount_sold": 275865.29960436985,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T00:28:42.235155+00:00",
+      "exit_time": "2026-09-06T00:32:32.011272+00:00",
+      "entry_price_usd": 3.751106070549833e-06,
+      "exit_price_usd": 2.9113270135029585e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.00776,
+      "pnl_sol": -0.00224,
+      "pnl_pct": -22.39,
+      "exit_reason": "LLM: sell_all — $PTown is down -22.4% and only 6 minutes old — fast bleed, no bounce signal, thin $10 pool with our 8% share makes exit harder. Cut it now before -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T00:31:17.312070+00:00",
+  "last_updated": "2026-09-06T00:32:33.404538+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.51,
-  "portfolio_value_usd": 18.12,
+  "last_sol_price_usd": 103.49,
+  "portfolio_value_usd": 17.89,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 10:40 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-05 13:17 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-05 13:41 UTC",
       "action": "observe",
@@ -33931,51 +33936,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $PTown at $2.90266e-06 | P&L: -22.6%",
       "reason": "Down -22.6% and approaching hard -30% stop. Tiny $5 pool means we own 35% of liquidity — any further drop and we can't even exit cleanly. Cut now while we still can."
+    },
+    {
+      "time": "2026-09-06 00:32 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PTown at $2.91133e-06 | P&L: -22.4%",
+      "reason": "$PTown is down -22.4% and only 6 minutes old — fast bleed, no bounce signal, thin $10 pool with our 8% share makes exit harder. Cut it now before -30% hard stop hits."
+    },
+    {
+      "time": "2026-09-06 00:32 UTC",
+      "action": "buy",
+      "details": "[LLM] $ODEZA at $2.937e-06, spent 0.02 SOL",
+      "reason": "$ODEZA — geopolitical narrative tied to live Russia/Ukraine news, real Twitter handle (MarioNawfal = 1M+ followers, narrative driver). Fresh $2.9k mcap, has liquidity + twitter (passes viability gate). 0.05 SOL position size per bot rules."
     }
   ],
   "trade_stats": {
-    "total": 1987,
+    "total": 1988,
     "wins": 1009,
-    "losses": 978,
+    "losses": 979,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.157556,
-    "avg_pnl_pct": 32.66,
+    "total_pnl_sol": -2.159796,
+    "avg_pnl_pct": 32.63,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 5,
-    "today_realized_sol": -0.023398,
-    "today_target_pct": -5.8,
+    "today_trades": 6,
+    "today_realized_sol": -0.025638,
+    "today_target_pct": -6.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1009,
-      "loss_count": 978,
+      "loss_count": 979,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T00:31:17.045120+00:00",
+  "last_llm_brief_at": "2026-09-06T00:32:32.010794+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5ohebBgGmHhwb7BN5UBDA3H3Ca5b62TUTbvmn5wxpump": {
-      "price_usd": 2.902656420978361e-06,
+      "price_usd": 2.9113270135029585e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4.6217328861,
+      "liquidity_usd": 9.56221975876,
       "volume_h24": 6548.98,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.04465011
-    },
-    "7AaKxGRzSAchSpzDNnkHRRTKeAwW9pKPvfFCKWaNpump": {
-      "price_usd": 2.1696930790265836e-07,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2.9341824435,
-      "volume_h24": 2319.56,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.02834685
+      "real_sol_reserves": 0.092397524
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
