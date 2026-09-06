@@ -15082,3 +15082,6 @@
 ## [2026-09-06 02:48 UTC] sell | [PARTIAL][LLM] $PMP at $1.29696e-05 | P&L: +23.2%
 - **Reasoning:** Up +23.2% on bonding curve, pool only $3470 — partial exit locks ~$0.58 SOL gain on a ~$5 position while letting the other half ride if Justice narrative keeps pumping. Sell_all would be too greedy given pool depth; full hold risks giving back gains.
 
+## [2026-09-06 02:51 UTC] sell | [FULL][LLM] $PMP at $7.69833e-06 | P&L: -26.9%
+- **Reasoning:** $PMP is at -26.9%, only 3.1% from the -30% hard stop. Pool is $1954 (dead),0% our share means no incentive to hold, and no bounce signal. Cut losses and free the slot.
+
