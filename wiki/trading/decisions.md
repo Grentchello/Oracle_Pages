@@ -15385,3 +15385,9 @@
 ## [2026-09-06 07:34 UTC] sell | [PARTIAL][LLM] $ANSEMINU at $6.899e-05 | P&L: +195.8%
 - **Reasoning:** $ANSEMINU up +195.8% in 0.2h on Ansem-related attention. Strong narrative still but at this gain we MUST bank profit. Sell half to lock ~0.05 SOL gain, let rest ride for the 5x bag. Stale exit not triggered but gains this size don't last in memes.
 
+## [2026-09-06 07:35 UTC] sell | [TP +200% (75%)] $ANSEMINU at $7.098e-05 | P&L: +204.4%
+- **Reasoning:** Auto take-profit at +204.4%
+
+## [2026-09-06 07:36 UTC] sell | [FULL][LLM] $ANSEMINU at $7.098e-05 | P&L: +204.4%
+- **Reasoning:** +204% in 12 minutes is a moonshot. Bonding curve likely fully filled and dev may be preparing to dump. Lock the gain — this is +0.02 SOL locked profit on a fresh slate. Don't hope for 10x when3x is already in the bag.
+
