@@ -15130,3 +15130,15 @@
 ## [2026-09-06 03:38 UTC] buy | [LLM] $BOXBOT at $1.066e-05, spent 0.02 SOL
 - **Reasoning:** $BOXBOT has the most substantive description in the batch — execution engine narrative on Solana order books is a clear product story that could attract dev/alpha CT attention. $13k mcap with 35% bond progress shows some traction. Risk: age 1.8min, no twitter link provided.
 
+## [2026-09-06 03:39 UTC] sell | [TP +30% (25%)] $OVL at $9.98424e-06 | P&L: +98.9%
+- **Reasoning:** Auto take-profit at +98.9%
+
+## [2026-09-06 03:39 UTC] sell | [TP +100% (50%)] $BOXBOT at $2.30458e-05 | P&L: +116.2%
+- **Reasoning:** Auto take-profit at +116.2%
+
+## [2026-09-06 03:39 UTC] sell | [PARTIAL][LLM] $OVL at $9.98424e-06 | P&L: +98.9%
+- **Reasoning:** $OVL at +98.9% is about to hit the +100% TP threshold. Lock half the gain now — bonding curve only 17% so there's room, but attention on a sub-$3k pool is fragile and I'd rather bank +98% than give it back to a dump.
+
+## [2026-09-06 03:39 UTC] sell | [FULL][LLM] $BOXBOT at $2.30458e-05 | P&L: +116.2%
+- **Reasoning:** $BOXBOT at +116.2% is past +100% TP and pool is only $5695. Thin liquidity means the next seller moves the price hard — take the full profit and free the slot for fresh attention.
+

@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.136707,
+  "balance_sol": 0.204421,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AEYQQoDZy9T49hgtMT7yjX37Crx6tbh5nQaP7FYRpump": {
       "symbol": "OVL",
       "name": "Overload",
-      "amount": 422554.29368400085,
+      "amount": 158457.86013150032,
       "entry_price_usd": 5.019e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-06T03:38:01.620050+00:00",
       "entry_usd_value": 2.1208,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 15.298640219,
         "description": "RWA-Play. Build a power plant. Turn megawatts into tokenized equity. ",
         "twitter": "https://x.com/overload_xyz",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "GMJHV5dWUoR9F4MLrMPKzyXeVehjJtdTuy3T15Wwpump": {
-      "symbol": "BOXBOT",
-      "name": "BOXBOT",
-      "amount": 198949.34333958724,
-      "entry_price_usd": 1.066e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T03:38:03.153544+00:00",
-      "entry_usd_value": 2.1208,
-      "entry_signals": {
-        "liquidity_usd": 3787.04435443576,
-        "volume_24h_usd": 3122.39,
-        "market_cap_usd": 13407.47401127218,
-        "ath_market_cap_usd": 13407.47401127218,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 35.713356794,
-        "description": "An execution engine, not a signal bot Boxbot holds a persistent, authenticated session on Solana's order book. When a rule you've defined is met — a price cross, a volume spike, a wallet trigger — it signs and submits the order directly to the chain's matching engine. There's no dashboard to refresh",
-        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -34286,37 +34264,81 @@
       "pnl_pct": -31.24,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "AEYQQoDZy9T49hgtMT7yjX37Crx6tbh5nQaP7FYRpump",
+      "symbol": "OVL",
+      "name": "Overload",
+      "amount_sold": 105638.57342100021,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-06T03:38:01.620050+00:00",
+      "exit_time": "2026-09-06T03:39:07.605745+00:00",
+      "entry_price_usd": 5.019e-06,
+      "exit_price_usd": 9.984235415130374e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.00989,
+      "pnl_sol": 0.00489,
+      "pnl_pct": 98.93,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "GMJHV5dWUoR9F4MLrMPKzyXeVehjJtdTuy3T15Wwpump",
+      "symbol": "BOXBOT",
+      "name": "BOXBOT",
+      "amount_sold": 99474.67166979362,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T03:38:03.153544+00:00",
+      "exit_time": "2026-09-06T03:39:07.606024+00:00",
+      "entry_price_usd": 1.066e-05,
+      "exit_price_usd": 2.3045778116054585e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.021495,
+      "pnl_sol": 0.011495,
+      "pnl_pct": 116.19,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "AEYQQoDZy9T49hgtMT7yjX37Crx6tbh5nQaP7FYRpump",
+      "symbol": "OVL",
+      "name": "Overload",
+      "amount_sold": 158457.86013150032,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T03:38:01.620050+00:00",
+      "exit_time": "2026-09-06T03:39:28.967233+00:00",
+      "entry_price_usd": 5.019e-06,
+      "exit_price_usd": 9.984235415130374e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.014834,
+      "pnl_sol": 0.007334,
+      "pnl_pct": 98.93,
+      "exit_reason": "LLM: sell_half — $OVL at +98.9% is about to hit the +100% TP threshold. Lock half the gain now — bonding curve only 17% so there's room, but attention on a sub-$3k poo",
+      "partial": true
+    },
+    {
+      "mint": "GMJHV5dWUoR9F4MLrMPKzyXeVehjJtdTuy3T15Wwpump",
+      "symbol": "BOXBOT",
+      "name": "BOXBOT",
+      "amount_sold": 99474.67166979362,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T03:38:03.153544+00:00",
+      "exit_time": "2026-09-06T03:39:28.968048+00:00",
+      "entry_price_usd": 1.066e-05,
+      "exit_price_usd": 2.3045778116054585e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.021495,
+      "pnl_sol": 0.011495,
+      "pnl_pct": 116.19,
+      "exit_reason": "LLM: sell_all — $BOXBOT at +116.2% is past +100% TP and pool is only $5695. Thin liquidity means the next seller moves the price hard — take the full profit and free ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T03:38:03.153800+00:00",
+  "last_updated": "2026-09-06T03:39:29.219877+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.04,
-  "portfolio_value_usd": 18.74,
+  "last_sol_price_usd": 106.65,
+  "portfolio_value_usd": 22.6,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 02:42 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Chimp at $1.09138e-05 | P&L: +35.5%",
-      "reason": "+35% already blown past the +30% TP at 25% threshold — bot should have auto-TP'd but since I'm in the loop, lock the gain now. Bonding curve only 9% complete, pool tiny at $2.9k, easy to rug back to zero. Don't give back profit on hope."
-    },
-    {
-      "time": "2026-09-06 02:45 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-06 02:46 UTC",
-      "action": "buy",
-      "details": "[LLM] $PMP at $1.053e-05, spent 0.02 SOL",
-      "reason": "$PMP meta-narrative 'Pump & Run Gymnasium' is attention-native — the name itself is a pump signal. Real tweet from Devployer, has description with story hook, mcap $9.7k gives room to run. Classic viral-launch scalp setup."
-    },
-    {
-      "time": "2026-09-06 02:48 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $PMP at $1.29696e-05 | P&L: +23.2%",
-      "reason": "Up +23.2% on bonding curve, pool only $3470 — partial exit locks ~$0.58 SOL gain on a ~$5 position while letting the other half ride if Justice narrative keeps pumping. Sell_all would be too greedy given pool depth; full hold risks giving back gains."
-    },
     {
       "time": "2026-09-06 02:51 UTC",
       "action": "sell",
@@ -34412,30 +34434,77 @@
       "action": "buy",
       "details": "[LLM] $BOXBOT at $1.066e-05, spent 0.02 SOL",
       "reason": "$BOXBOT has the most substantive description in the batch — execution engine narrative on Solana order books is a clear product story that could attract dev/alpha CT attention. $13k mcap with 35% bond progress shows some traction. Risk: age 1.8min, no twitter link provided."
+    },
+    {
+      "time": "2026-09-06 03:39 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $OVL at $9.98424e-06 | P&L: +98.9%",
+      "reason": "Auto take-profit at +98.9%"
+    },
+    {
+      "time": "2026-09-06 03:39 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $BOXBOT at $2.30458e-05 | P&L: +116.2%",
+      "reason": "Auto take-profit at +116.2%"
+    },
+    {
+      "time": "2026-09-06 03:39 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $OVL at $9.98424e-06 | P&L: +98.9%",
+      "reason": "$OVL at +98.9% is about to hit the +100% TP threshold. Lock half the gain now — bonding curve only 17% so there's room, but attention on a sub-$3k pool is fragile and I'd rather bank +98% than give it back to a dump."
+    },
+    {
+      "time": "2026-09-06 03:39 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BOXBOT at $2.30458e-05 | P&L: +116.2%",
+      "reason": "$BOXBOT at +116.2% is past +100% TP and pool is only $5695. Thin liquidity means the next seller moves the price hard — take the full profit and free the slot for fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 2014,
-    "wins": 1022,
+    "total": 2018,
+    "wins": 1026,
     "losses": 992,
-    "win_rate_pct": 50.7,
-    "total_pnl_sol": -2.155945,
-    "avg_pnl_pct": 32.29,
+    "win_rate_pct": 50.8,
+    "total_pnl_sol": -2.120731,
+    "avg_pnl_pct": 32.44,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 32,
-    "today_realized_sol": -0.021787,
-    "today_target_pct": -5.4,
+    "today_trades": 36,
+    "today_realized_sol": 0.013427,
+    "today_target_pct": 3.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1022,
+      "win_count": 1026,
       "loss_count": 992,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T03:37:59.870260+00:00",
+  "last_llm_brief_at": "2026-09-06T03:39:28.966796+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "AEYQQoDZy9T49hgtMT7yjX37Crx6tbh5nQaP7FYRpump": {
+      "price_usd": 9.984235415130374e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2655.1147772704503,
+      "volume_h24": 4692.13,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 24.895590973
+    },
+    "GMJHV5dWUoR9F4MLrMPKzyXeVehjJtdTuy3T15Wwpump": {
+      "price_usd": 2.3045778116054585e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 5695.308587952451,
+      "volume_h24": 5510.18,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 53.401862053
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
