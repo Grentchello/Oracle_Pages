@@ -15157,3 +15157,12 @@
 ## [2026-09-06 03:52 UTC] buy | [LLM] $NEET at $3.11961e-06, spent 0.02 SOL
 - **Reasoning:** $NEET has strong NEET/incel-coded narrative with clear X community signal (Pumpfun official post) — this is the kind of ironic 'employim' story that pumps on attention.
 
+## [2026-09-06 03:53 UTC] sell | [TP +30% (25%)] $ROBINDOG at $1.67666e-05 | P&L: +30.7%
+- **Reasoning:** Auto take-profit at +30.7%
+
+## [2026-09-06 03:53 UTC] sell | [FULL][LLM] $ROBINDOG at $1.67666e-05 | P&L: +30.7%
+- **Reasoning:** $ROBINDOG at +30.7% has likely already auto-TP'd at 25% threshold; any remaining shares should be sold now to lock gains — rule is be aggressive on profit, and narrative (Robin dog meme) is generic with no viral catalyst.
+
+## [2026-09-06 03:53 UTC] sell | [FULL][LLM] $NEET at $3.17989e-06 | P&L: +1.9%
+- **Reasoning:** $NEET at +1.9% on only $111 pool liquidity is fragile; flat after entry with no momentum = stale capital. Better to free the slot for a fresher launch with real attention.
+
