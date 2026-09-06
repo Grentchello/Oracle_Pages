@@ -14995,3 +14995,6 @@
 ## [2026-09-06 00:43 UTC] buy | [LLM] $RETCG at $3.12921e-06, spent 0.02 SOL
 - **Reasoning:** $RETCG is the only candidate passing the viability gate (real desc + twitter) and not on the celebrity/political blocklist. Niche 'card grading on-chain' narrative at $3.1k mcap = early attention window. Sizing 0.05 SOL.
 
+## [2026-09-06 00:44 UTC] sell | [FULL][LLM] $RETCG at $3.17076e-06 | P&L: +1.3%
+- **Reasoning:** Pool $146 is dangerously thin (1% share = exit illiquidity risk). No narrative, no description, no socials — just a micro-cap random tick. +1.3% is noise; better to rotate capital into a fresh attention launch.
+

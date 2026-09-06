@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.152656,
+  "balance_sol": 0.172922,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "SgTEts6ioiY75wUvT42xmEhcS6BW9N9mVDmTSDReTcg": {
-      "symbol": "RETCG",
-      "name": "Re:TCG",
-      "amount": 661253.4690022606,
-      "entry_price_usd": 3.129208536511929e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T00:43:29.115002+00:00",
-      "entry_usd_value": 2.0692,
-      "entry_signals": {
-        "liquidity_usd": 124.42635377955997,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3127.810258267136,
-        "ath_market_cap_usd": 3127.810258267136,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.202651786,
-        "description": "Comps and auctions for cards nobody bothers to price. Professional grading costs about $80; the cards this is about are worth less than lunch. Graded low-value cards go up for auction and settle in $RETCG — 50% of what is paid is burned, 50% goes to the pool. That is the only thing the token does.",
-        "twitter": "https://x.com/retcgxyz",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33839,19 +33816,30 @@
       "pnl_pct": -1.09,
       "exit_reason": "LLM: sell_all — Held 0.0h and already -1.1%, volume is thin and there's no narrative catalyst visible. With multiple fresh launches competing for attention and only 0",
       "partial": false
+    },
+    {
+      "mint": "SgTEts6ioiY75wUvT42xmEhcS6BW9N9mVDmTSDReTcg",
+      "symbol": "RETCG",
+      "name": "Re:TCG",
+      "amount_sold": 661253.4690022606,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T00:43:29.115002+00:00",
+      "exit_time": "2026-09-06T00:44:43.760357+00:00",
+      "entry_price_usd": 3.129208536511929e-06,
+      "exit_price_usd": 3.170763663497802e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020266,
+      "pnl_sol": 0.000266,
+      "pnl_pct": 1.33,
+      "exit_reason": "LLM: sell_all — Pool $146 is dangerously thin (1% share = exit illiquidity risk). No narrative, no description, no socials — just a micro-cap random tick. +1.3% is no",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T00:43:29.115291+00:00",
+  "last_updated": "2026-09-06T00:44:44.041027+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 103.46,
-  "portfolio_value_usd": 17.86,
+  "portfolio_value_usd": 17.89,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 17:52 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-05 20:27 UTC",
       "action": "observe",
@@ -33965,30 +33953,48 @@
       "action": "buy",
       "details": "[LLM] $RETCG at $3.12921e-06, spent 0.02 SOL",
       "reason": "$RETCG is the only candidate passing the viability gate (real desc + twitter) and not on the celebrity/political blocklist. Niche 'card grading on-chain' narrative at $3.1k mcap = early attention window. Sizing 0.05 SOL."
+    },
+    {
+      "time": "2026-09-06 00:44 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RETCG at $3.17076e-06 | P&L: +1.3%",
+      "reason": "Pool $146 is dangerously thin (1% share = exit illiquidity risk). No narrative, no description, no socials — just a micro-cap random tick. +1.3% is noise; better to rotate capital into a fresh attention launch."
     }
   ],
   "trade_stats": {
-    "total": 1989,
-    "wins": 1009,
+    "total": 1990,
+    "wins": 1010,
     "losses": 980,
-    "win_rate_pct": 50.7,
-    "total_pnl_sol": -2.159996,
-    "avg_pnl_pct": 32.61,
+    "win_rate_pct": 50.8,
+    "total_pnl_sol": -2.15973,
+    "avg_pnl_pct": 32.6,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 7,
-    "today_realized_sol": -0.025838,
-    "today_target_pct": -6.5,
+    "today_trades": 8,
+    "today_realized_sol": -0.025572,
+    "today_target_pct": -6.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1009,
+      "win_count": 1010,
       "loss_count": 980,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T00:43:27.778806+00:00",
+  "last_llm_brief_at": "2026-09-06T00:44:43.760321+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "SgTEts6ioiY75wUvT42xmEhcS6BW9N9mVDmTSDReTcg": {
+      "price_usd": 3.170763663497802e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 145.79068921032,
+      "volume_h24": 124.34,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.409150292
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
