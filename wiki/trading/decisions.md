@@ -14992,3 +14992,6 @@
 ## [2026-09-06 00:38 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-06 00:43 UTC] buy | [LLM] $RETCG at $3.12921e-06, spent 0.02 SOL
+- **Reasoning:** $RETCG is the only candidate passing the viability gate (real desc + twitter) and not on the celebrity/political blocklist. Niche 'card grading on-chain' narrative at $3.1k mcap = early attention window. Sizing 0.05 SOL.
+
