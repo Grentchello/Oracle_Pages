@@ -1,30 +1,8 @@
 {
-  "balance_sol": 0.155145,
+  "balance_sol": 0.1692,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "64a7h7cptKS7ngk1LzXXk31j9xsngnyTkEQnuKS4pump": {
-      "symbol": "bagged",
-      "name": "Bag Guy",
-      "amount": 307314.6913745569,
-      "entry_price_usd": 3.467130045863516e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-06T09:37:51.105665+00:00",
-      "entry_usd_value": 2.131,
-      "entry_signals": {
-        "liquidity_usd": 309.92767658134994,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3468.271614294335,
-        "ath_market_cap_usd": 3730.210237746842,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.908753417,
-        "description": "He got bagged. Not just a bag on his head — he got THE BAG. 💰 Anonymous. Unbothered. Already bagged. $BAGGED — Get bagged or get left behind.",
-        "twitter": "https://x.com/laughingguz8h1?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "GKhSW36nRBJUrmQ6RoZG9JCE8QNZ9cXkVL3WPKxrpump": {
       "symbol": "gozu",
       "name": "gozu",
@@ -35408,25 +35386,47 @@
       "pnl_pct": 16.91,
       "exit_reason": "LLM: sell_half — Locked +16.9% on extremely thin $533 pool with bonding only 8% complete — gains can vanish fast on a token this illiquid. Half-exit secures profit and",
       "partial": true
+    },
+    {
+      "mint": "64a7h7cptKS7ngk1LzXXk31j9xsngnyTkEQnuKS4pump",
+      "symbol": "bagged",
+      "name": "Bag Guy",
+      "amount_sold": 76828.67284363923,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-06T09:37:51.105665+00:00",
+      "exit_time": "2026-09-06T09:42:58.013212+00:00",
+      "entry_price_usd": 3.467130045863516e-06,
+      "exit_price_usd": 4.866242128318196e-06,
+      "entry_sol_for_chunk": 0.0025,
+      "exit_sol_received": 0.003514,
+      "pnl_sol": 0.001014,
+      "pnl_pct": 40.35,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "64a7h7cptKS7ngk1LzXXk31j9xsngnyTkEQnuKS4pump",
+      "symbol": "bagged",
+      "name": "Bag Guy",
+      "amount_sold": 230486.0185309177,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T09:37:51.105665+00:00",
+      "exit_time": "2026-09-06T09:43:22.750513+00:00",
+      "entry_price_usd": 3.467130045863516e-06,
+      "exit_price_usd": 4.866242128318196e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.010541,
+      "pnl_sol": 0.003041,
+      "pnl_pct": 40.35,
+      "exit_reason": "LLM: sell_all — $bagged is +40.4% — well past +30% TP threshold. Pool only $891 which is tight for our size and risks slippage. Lock the gain; narrative unclear (no t",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T09:41:54.162476+00:00",
+  "last_updated": "2026-09-06T09:43:23.264793+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.49,
-  "portfolio_value_usd": 19.78,
+  "last_sol_price_usd": 106.4,
+  "portfolio_value_usd": 20.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 08:07 UTC",
-      "action": "buy",
-      "details": "[LLM] $ANSEMINU at $2.016e-05, spent 0.02 SOL",
-      "reason": "ANSEM is a top-3 crypto memecoin KOL with a real following; piggybacking on his brand is the clearest attention narrative in this batch. Bonding curve at 40% means organic buys are actually flowing. Viability passes (twitter + long desc). Sizing 0.05 SOL."
-    },
-    {
-      "time": "2026-09-06 08:08 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $ANSEMINU at $2.95008e-05 | P&L: +46.3%",
-      "reason": "Auto take-profit at +46.3%"
-    },
     {
       "time": "2026-09-06 08:09 UTC",
       "action": "buy",
@@ -35534,51 +35534,63 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $bagged at $4.05347e-06 | P&L: +16.9%",
       "reason": "Locked +16.9% on extremely thin $533 pool with bonding only 8% complete — gains can vanish fast on a token this illiquid. Half-exit secures profit and frees a slot for a fresher narrative launch."
+    },
+    {
+      "time": "2026-09-06 09:42 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $bagged at $4.86624e-06 | P&L: +40.4%",
+      "reason": "Auto take-profit at +40.4%"
+    },
+    {
+      "time": "2026-09-06 09:43 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $bagged at $4.86624e-06 | P&L: +40.4%",
+      "reason": "$bagged is +40.4% — well past +30% TP threshold. Pool only $891 which is tight for our size and risks slippage. Lock the gain; narrative unclear (no twitter/desc visible) so don't trust a continuation."
     }
   ],
   "trade_stats": {
-    "total": 2080,
-    "wins": 1059,
+    "total": 2082,
+    "wins": 1061,
     "losses": 1021,
-    "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.147505,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.14345,
     "avg_pnl_pct": 32.26,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 98,
-    "today_realized_sol": -0.013347,
-    "today_target_pct": -3.3,
+    "today_trades": 100,
+    "today_realized_sol": -0.009292,
+    "today_target_pct": -2.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1059,
+      "win_count": 1061,
       "loss_count": 1021,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T09:41:54.161268+00:00",
+  "last_llm_brief_at": "2026-09-06T09:43:22.749985+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "64a7h7cptKS7ngk1LzXXk31j9xsngnyTkEQnuKS4pump": {
-      "price_usd": 4.0534672703922824e-06,
+      "price_usd": 4.866242128318196e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 532.8908540108699,
-      "volume_h24": 1259.96,
+      "liquidity_usd": 890.5184854831999,
+      "volume_h24": 1462.03,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 5.004139863
+      "real_sol_reserves": 8.369534638
     },
     "GKhSW36nRBJUrmQ6RoZG9JCE8QNZ9cXkVL3WPKxrpump": {
-      "price_usd": 7.512961139645428e-06,
+      "price_usd": 7.864839724862744e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1880.1180181041,
-      "volume_h24": 2085.44,
+      "liquidity_usd": 1998.1061556288003,
+      "volume_h24": 2558.77,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 17.65534809
+      "real_sol_reserves": 18.779193192
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

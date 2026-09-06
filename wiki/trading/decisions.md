@@ -15487,3 +15487,9 @@
 ## [2026-09-06 09:41 UTC] sell | [PARTIAL][LLM] $bagged at $4.05347e-06 | P&L: +16.9%
 - **Reasoning:** Locked +16.9% on extremely thin $533 pool with bonding only 8% complete — gains can vanish fast on a token this illiquid. Half-exit secures profit and frees a slot for a fresher narrative launch.
 
+## [2026-09-06 09:42 UTC] sell | [TP +30% (25%)] $bagged at $4.86624e-06 | P&L: +40.4%
+- **Reasoning:** Auto take-profit at +40.4%
+
+## [2026-09-06 09:43 UTC] sell | [FULL][LLM] $bagged at $4.86624e-06 | P&L: +40.4%
+- **Reasoning:** $bagged is +40.4% — well past +30% TP threshold. Pool only $891 which is tight for our size and risks slippage. Lock the gain; narrative unclear (no twitter/desc visible) so don't trust a continuation.
+
