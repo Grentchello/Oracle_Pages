@@ -15046,3 +15046,6 @@
 ## [2026-09-06 02:07 UTC] buy | [LLM] $ASS at $2.96268e-06, spent 0.02 SOL
 - **Reasoning:** $ASSumption passes viability (long desc + twitter). The 'you made an assumption' meta-narrative is self-referential and memeable. $2.9k mcap is floor-level. Slot2 of 2 — going with both micro-caps to test fresh-launch attention thesis.
 
+## [2026-09-06 02:11 UTC] sell | [FULL][LLM] $ASS at $3.09358e-06 | P&L: +4.4%
+- **Reasoning:** +4.4% with only $96 pool (4.8x pos size, near min liquidity). No strong narrative catalyst. Freeing slot for stronger viral candidate ($Kite Tyson) is better rotation than hoping on thin liquidity.
+
