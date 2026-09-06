@@ -15526,3 +15526,6 @@
 ## [2026-09-06 10:09 UTC] buy | [LLM] $PONSAN at $6.558e-07, spent 0.02 SOL
 - **Reasoning:** $PONSAN has full viability:100+ char description, twitter handle, 'become the meta' cultural narrative. Sub-$1k mcap with attention machinery (twitter) is exactly the early-attention setup we want.0.05 SOL position.
 
+## [2026-09-06 10:10 UTC] sell | [hard-stop] $PONSAN closed at $3.16287e-07 | P&L: -51.8%
+- **Reasoning:** Hard -30% stop
+

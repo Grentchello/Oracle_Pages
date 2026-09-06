@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.182525,
+  "balance_sol": 0.192167,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HLoCzdy6p3dAD94NY58HcBam9fmT9GzQGkyQ6zmwpump": {
-      "symbol": "PONSAN",
-      "name": "PONSAN_COIN",
-      "amount": 3250991.1558401952,
-      "entry_price_usd": 6.558e-07,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T10:09:29.994924+00:00",
-      "entry_usd_value": 2.132,
-      "entry_signals": {
-        "liquidity_usd": 10.7209939616,
-        "volume_24h_usd": 210.12,
-        "market_cap_usd": 847.5802563835224,
-        "ath_market_cap_usd": 3538.1205423765327,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.100572176,
-        "description": "Not here to follow the meta. Here to become it. Community built. Culture driven. PONSAN is inevitable.",
-        "twitter": "https://x.com/ponsancoinn",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35539,19 +35516,30 @@
       "pnl_pct": 22.24,
       "exit_reason": "LLM: sell_all — Up +22.2% with a 1% share of a $385 pool — extremely illiquid and exposed to rug/sell pressure. Lock the gain now; we have 1/2 slots free and better f",
       "partial": false
+    },
+    {
+      "mint": "HLoCzdy6p3dAD94NY58HcBam9fmT9GzQGkyQ6zmwpump",
+      "symbol": "PONSAN",
+      "name": "PONSAN_COIN",
+      "amount_sold": 3250991.1558401952,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T10:09:29.994924+00:00",
+      "exit_time": "2026-09-06T10:10:34.038890+00:00",
+      "entry_price_usd": 6.558e-07,
+      "exit_price_usd": 3.1628702692658993e-07,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.009642,
+      "pnl_sol": -0.010358,
+      "pnl_pct": -51.77,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T10:09:30.245519+00:00",
+  "last_updated": "2026-09-06T10:10:53.624927+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.6,
-  "portfolio_value_usd": 21.59,
+  "last_sol_price_usd": 106.64,
+  "portfolio_value_usd": 20.49,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 09:03 UTC",
-      "action": "buy",
-      "details": "[LLM] $AntiFomo at $3.06901e-06, spent 0.02 SOL",
-      "reason": "AntiFomo Bot passes viability gate (104-char desc + Twitter), meta-narrative around tracking winning wallets has attention potential. $3k mcap is fresh enough for 5-10x but thin liquidity means size matters - 0.05 SOL position only."
-    },
     {
       "time": "2026-09-06 09:06 UTC",
       "action": "sell",
@@ -35665,30 +35653,48 @@
       "action": "buy",
       "details": "[LLM] $PONSAN at $6.558e-07, spent 0.02 SOL",
       "reason": "$PONSAN has full viability:100+ char description, twitter handle, 'become the meta' cultural narrative. Sub-$1k mcap with attention machinery (twitter) is exactly the early-attention setup we want.0.05 SOL position."
+    },
+    {
+      "time": "2026-09-06 10:10 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $PONSAN closed at $3.16287e-07 | P&L: -51.8%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2089,
+    "total": 2090,
     "wins": 1066,
-    "losses": 1023,
+    "losses": 1024,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.130125,
-    "avg_pnl_pct": 32.26,
+    "total_pnl_sol": -2.140483,
+    "avg_pnl_pct": 32.22,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 107,
-    "today_realized_sol": 0.004033,
-    "today_target_pct": 1.0,
+    "today_trades": 108,
+    "today_realized_sol": -0.006325,
+    "today_target_pct": -1.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1066,
-      "loss_count": 1023,
+      "loss_count": 1024,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T10:09:28.622596+00:00",
+  "last_llm_brief_at": "2026-09-06T10:10:53.089240+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HLoCzdy6p3dAD94NY58HcBam9fmT9GzQGkyQ6zmwpump": {
+      "price_usd": 3.1628702692658993e-07,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 10.2785385228,
+      "volume_h24": 830.29,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.096385395
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
