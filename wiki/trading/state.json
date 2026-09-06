@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.150978,
+  "balance_sol": 0.175651,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EHsxY2SPqmbZYhFmSWXNDZHBFy6JarS95ykzEinkpump": {
-      "symbol": "GLIZZY",
-      "name": "GLIZZILLIONAIRE",
-      "amount": 446562.7928610149,
-      "entry_price_usd": 4.716022099618713e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T08:09:13.605713+00:00",
-      "entry_usd_value": 2.106,
-      "entry_signals": {
-        "liquidity_usd": 1383.0927958457999,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4713.609591328226,
-        "ath_market_cap_usd": 5107.861624854064,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 13.134784386,
-        "description": "Look at all those Glizzillionaires. They be glizzin’ it up!",
-        "twitter": "X.com/glizzillionaire",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35233,19 +35210,30 @@
       "pnl_pct": -85.25,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "EHsxY2SPqmbZYhFmSWXNDZHBFy6JarS95ykzEinkpump",
+      "symbol": "GLIZZY",
+      "name": "GLIZZILLIONAIRE",
+      "amount_sold": 446562.7928610149,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T08:09:13.605713+00:00",
+      "exit_time": "2026-09-06T08:13:49.479365+00:00",
+      "entry_price_usd": 4.716022099618713e-06,
+      "exit_price_usd": 5.816924306834161e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.024673,
+      "pnl_sol": 0.004673,
+      "pnl_pct": 23.34,
+      "exit_reason": "LLM: sell_all — Up +23.3% approaching the +25% auto-TP line, but the $1282 pool is too thin to trust continuation — bonding-curve tokens rug or dump hard once early b",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T08:12:22.447333+00:00",
+  "last_updated": "2026-09-06T08:13:49.730142+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.39,
-  "portfolio_value_usd": 18.02,
+  "last_sol_price_usd": 105.28,
+  "portfolio_value_usd": 18.49,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 07:33 UTC",
-      "action": "sell",
-      "details": "[TP +100% (50%)] $ANSEMINU at $6.899e-05 | P&L: +195.8%",
-      "reason": "Auto take-profit at +195.8%"
-    },
     {
       "time": "2026-09-06 07:34 UTC",
       "action": "sell",
@@ -35359,40 +35347,46 @@
       "action": "sell",
       "details": "[hard-stop] $ANSEMINU closed at $2.97297e-06 | P&L: -85.2%",
       "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-06 08:13 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GLIZZY at $5.81692e-06 | P&L: +23.3%",
+      "reason": "Up +23.3% approaching the +25% auto-TP line, but the $1282 pool is too thin to trust continuation — bonding-curve tokens rug or dump hard once early buyers rotate out. Lock the gain now; per scalp discipline, when up >20% with any doubt, take profit."
     }
   ],
   "trade_stats": {
-    "total": 2071,
-    "wins": 1054,
+    "total": 2072,
+    "wins": 1055,
     "losses": 1017,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.161672,
-    "avg_pnl_pct": 32.3,
+    "total_pnl_sol": -2.156999,
+    "avg_pnl_pct": 32.29,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 89,
-    "today_realized_sol": -0.027514,
-    "today_target_pct": -6.9,
+    "today_trades": 90,
+    "today_realized_sol": -0.022841,
+    "today_target_pct": -5.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1054,
+      "win_count": 1055,
       "loss_count": 1017,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T08:12:22.181863+00:00",
+  "last_llm_brief_at": "2026-09-06T08:13:49.479330+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EHsxY2SPqmbZYhFmSWXNDZHBFy6JarS95ykzEinkpump": {
-      "price_usd": 5.533602904840438e-06,
+      "price_usd": 5.816924306834161e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1171.05553841049,
-      "volume_h24": 2100.58,
+      "liquidity_usd": 1281.57099392448,
+      "volume_h24": 2196.36,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 11.111638091
+      "real_sol_reserves": 12.172976766
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
