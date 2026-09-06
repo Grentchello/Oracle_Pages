@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.158412,
+  "balance_sol": 0.170741,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7sjD6joMy3hjPRWovfAvLndqBDbH6S8qDUkRow1RAptQ": {
       "symbol": "PMP",
       "name": "Pump & Run Gymnasium",
-      "amount": 198214.62488129156,
+      "amount": 99107.31244064578,
       "entry_price_usd": 1.053e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-06T02:46:52.953993+00:00",
       "entry_usd_value": 2.0872,
       "entry_signals": {
@@ -34094,19 +34094,30 @@
       "pnl_pct": 35.45,
       "exit_reason": "LLM: sell_all — +35% already blown past the +30% TP at 25% threshold — bot should have auto-TP'd but since I'm in the loop, lock the gain now. Bonding curve only 9% c",
       "partial": false
+    },
+    {
+      "mint": "7sjD6joMy3hjPRWovfAvLndqBDbH6S8qDUkRow1RAptQ",
+      "symbol": "PMP",
+      "name": "Pump & Run Gymnasium",
+      "amount_sold": 99107.31244064578,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T02:46:52.953993+00:00",
+      "exit_time": "2026-09-06T02:48:30.761879+00:00",
+      "entry_price_usd": 1.053e-05,
+      "exit_price_usd": 1.2969589634872177e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.012329,
+      "pnl_sol": 0.002329,
+      "pnl_pct": 23.17,
+      "exit_reason": "LLM: sell_half — Up +23.2% on bonding curve, pool only $3470 — partial exit locks ~$0.58 SOL gain on a ~$5 position while letting the other half ride if Justice narrat",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T02:46:53.211518+00:00",
+  "last_updated": "2026-09-06T02:48:31.024840+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.36,
-  "portfolio_value_usd": 18.62,
+  "last_sol_price_usd": 104.26,
+  "portfolio_value_usd": 18.85,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 01:22 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $pill at $3.52859e-06 | P&L: +7.2%",
-      "reason": "Up +7.2% on a micro bonding-curve (pool $323, only 21% complete) means thin exit. Lock half the gain — remaining half is free option if it pumps post-curve."
-    },
     {
       "time": "2026-09-06 01:22 UTC",
       "action": "buy",
@@ -34220,30 +34231,48 @@
       "action": "buy",
       "details": "[LLM] $PMP at $1.053e-05, spent 0.02 SOL",
       "reason": "$PMP meta-narrative 'Pump & Run Gymnasium' is attention-native — the name itself is a pump signal. Real tweet from Devployer, has description with story hook, mcap $9.7k gives room to run. Classic viral-launch scalp setup."
+    },
+    {
+      "time": "2026-09-06 02:48 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $PMP at $1.29696e-05 | P&L: +23.2%",
+      "reason": "Up +23.2% on bonding curve, pool only $3470 — partial exit locks ~$0.58 SOL gain on a ~$5 position while letting the other half ride if Justice narrative keeps pumping. Sell_all would be too greedy given pool depth; full hold risks giving back gains."
     }
   ],
   "trade_stats": {
-    "total": 2004,
-    "wins": 1018,
+    "total": 2005,
+    "wins": 1019,
     "losses": 986,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.15424,
+    "total_pnl_sol": -2.151911,
     "avg_pnl_pct": 32.4,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 22,
-    "today_realized_sol": -0.020082,
-    "today_target_pct": -5.0,
+    "today_trades": 23,
+    "today_realized_sol": -0.017753,
+    "today_target_pct": -4.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1018,
+      "win_count": 1019,
       "loss_count": 986,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T02:46:51.540795+00:00",
+  "last_llm_brief_at": "2026-09-06T02:48:30.760897+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "7sjD6joMy3hjPRWovfAvLndqBDbH6S8qDUkRow1RAptQ": {
+      "price_usd": 1.2969589634872177e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3469.7466105135604,
+      "volume_h24": 11598.43,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 33.279748806
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

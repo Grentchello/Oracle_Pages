@@ -15079,3 +15079,6 @@
 ## [2026-09-06 02:46 UTC] buy | [LLM] $PMP at $1.053e-05, spent 0.02 SOL
 - **Reasoning:** $PMP meta-narrative 'Pump & Run Gymnasium' is attention-native — the name itself is a pump signal. Real tweet from Devployer, has description with story hook, mcap $9.7k gives room to run. Classic viral-launch scalp setup.
 
+## [2026-09-06 02:48 UTC] sell | [PARTIAL][LLM] $PMP at $1.29696e-05 | P&L: +23.2%
+- **Reasoning:** Up +23.2% on bonding curve, pool only $3470 — partial exit locks ~$0.58 SOL gain on a ~$5 position while letting the other half ride if Justice narrative keeps pumping. Sell_all would be too greedy given pool depth; full hold risks giving back gains.
+
