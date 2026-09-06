@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.179353,
+  "balance_sol": 0.199411,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "oCoscnDZP1BJ5256P3dcacGnf34zAYWzkeheUxh4WH3": {
-      "symbol": "WFM",
-      "name": "Whole Foods Market",
-      "amount": 669958.5326953748,
-      "entry_price_usd": 3.135e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T07:48:09.982802+00:00",
-      "entry_usd_value": 2.10032,
-      "entry_signals": {
-        "liquidity_usd": 115.49608379684001,
-        "volume_24h_usd": 319.15,
-        "market_cap_usd": 3155.4848027792436,
-        "ath_market_cap_usd": 3293.0667565377194,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.099795115,
-        "description": "Amazon bought Whole Foods for $13.7 BILLION in 2017. read that again. $13.7 FUCKING BILLION. anon then had the most idiotic idea imaginable: TOKENIZE THE FUCKING GROCERY STORE. $WFM is Whole Foods, but now it’s a shitcoin. Amazon owns the groceries. anon owns the bags. $WFM → AMZNx via OTC buy groce",
-        "twitter": "https://x.com/garyvee/status/875717200690262016",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35131,19 +35108,30 @@
       "pnl_pct": -80.97,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "oCoscnDZP1BJ5256P3dcacGnf34zAYWzkeheUxh4WH3",
+      "symbol": "WFM",
+      "name": "Whole Foods Market",
+      "amount_sold": 669958.5326953748,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T07:48:09.982802+00:00",
+      "exit_time": "2026-09-06T07:57:33.858878+00:00",
+      "entry_price_usd": 3.135e-06,
+      "exit_price_usd": 3.150534805075357e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020058,
+      "pnl_sol": 5.8e-05,
+      "pnl_pct": 0.5,
+      "exit_reason": "LLM: sell_all — Pool is only $110 — far below the 5x position-size liquidity rule. With2% of pool share, any sell will move price against me. +0.5% is not worth the e",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T07:56:06.325534+00:00",
+  "last_updated": "2026-09-06T07:57:34.106345+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.0053,
-  "portfolio_value_usd": 20.93,
+  "last_sol_price_usd": 105.23,
+  "portfolio_value_usd": 20.98,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 07:24 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $RugClub at $2.9733e-06 | P&L: -2.7%",
-      "reason": "$RugClub is down 2.7% with a tiny $16 pool, 13% of supply is ours (severe exit illiquidity), and the name itself screams rug. Better to cut bait now than get crushed when someone dumps through us."
-    },
     {
       "time": "2026-09-06 07:24 UTC",
       "action": "sell",
@@ -35257,40 +35245,46 @@
       "action": "buy",
       "details": "[LLM] $WFM at $3.135e-06, spent 0.02 SOL",
       "reason": "$WFM has the strongest attention signal: garyvee tweet (real X account, 19M+ followers) attached to a concrete narrative (Amazon's $13.7B Whole Foods buyout framed as the 'most idiotic trade in history'). Memorable ticker, defined story, fits the 'old news = new meme' meta that's been working (LIBRA-style cultural hijack). Low mcap ($3k) means thin liquidity but that's where attention-launched pumps live. Risk: garyvee tweet is from 2017 — if the bot is just scraping old tweets, the 'viral' signal is fake. Will watch first 5 min for real volume."
+    },
+    {
+      "time": "2026-09-06 07:57 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WFM at $3.15053e-06 | P&L: +0.5%",
+      "reason": "Pool is only $110 — far below the 5x position-size liquidity rule. With2% of pool share, any sell will move price against me. +0.5% is not worth the exit-liquidity risk. Cut and redeploy."
     }
   ],
   "trade_stats": {
-    "total": 2065,
-    "wins": 1052,
+    "total": 2066,
+    "wins": 1053,
     "losses": 1013,
-    "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.133297,
-    "avg_pnl_pct": 32.45,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.133239,
+    "avg_pnl_pct": 32.44,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 83,
-    "today_realized_sol": 0.000861,
+    "today_trades": 84,
+    "today_realized_sol": 0.000919,
     "today_target_pct": 0.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1052,
+      "win_count": 1053,
       "loss_count": 1013,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T07:56:06.325057+00:00",
+  "last_llm_brief_at": "2026-09-06T07:57:33.858836+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "oCoscnDZP1BJ5256P3dcacGnf34zAYWzkeheUxh4WH3": {
-      "price_usd": 3.140207781267724e-06,
+      "price_usd": 3.150534805075357e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 107.79757437125912,
-      "volume_h24": 440.68,
+      "liquidity_usd": 109.89900490529001,
+      "volume_h24": 457.63,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.026591747
+      "real_sol_reserves": 1.044369523
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
