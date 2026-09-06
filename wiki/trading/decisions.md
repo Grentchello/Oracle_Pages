@@ -15019,3 +15019,9 @@
 ## [2026-09-06 01:19 UTC] buy | [LLM] $pill at $3.292e-06, spent 0.02 SOL
 - **Reasoning:** $pill has a real viral hook ('one pill can change your life'), an actual X post backing it (sapphycrypto), $3.3k mcap at 1min = classic early attention launch. Matrix/movie meme is evergreen; ride the first wave.
 
+## [2026-09-06 01:22 UTC] sell | [PARTIAL][LLM] $pill at $3.52859e-06 | P&L: +7.2%
+- **Reasoning:** Up +7.2% on a micro bonding-curve (pool $323, only 21% complete) means thin exit. Lock half the gain — remaining half is free option if it pumps post-curve.
+
+## [2026-09-06 01:22 UTC] buy | [LLM] $Zcat at $3.01978e-06, spent 0.02 SOL
+- **Reasoning:** $Zcat — Ansem is a real Solana memecoin attention driver with track record of naming runners. Micro mcap $3k with named influencer = high-attention launch. Risky (Ansem tokens dump too), but the attention signal is concrete.
+

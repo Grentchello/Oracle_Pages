@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.148149,
+  "balance_sol": 0.138874,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "4Piiu7DFPbobz4pxUedz8DJgicnj4VhXCNFuoFRxpump": {
       "symbol": "pill",
       "name": "one pill can change your life ",
-      "amount": 629465.3705953828,
+      "amount": 314732.6852976914,
       "entry_price_usd": 3.292e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-06T01:19:46.091973+00:00",
       "entry_usd_value": 2.0722,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 2.405067147,
         "description": "i think I’m the pill that can change your life bro",
         "twitter": "https://x.com/sapphycrypto/status/2096396577493659656?s=46",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "3dZKSckB7rPghioVWCRGFKrHjeobuu4QBvjWFW1bpump": {
+      "symbol": "Zcat",
+      "name": "Zolana Cat",
+      "amount": 685811.2460799755,
+      "entry_price_usd": 3.019781334642173e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-06T01:22:40.627530+00:00",
+      "entry_usd_value": 2.071,
+      "entry_signals": {
+        "liquidity_usd": 68.20364241,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3020.947836364874,
+        "ath_market_cap_usd": 3020.9529687116196,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.6586542,
+        "description": "Ansem asked for a zolana Cat runner. let's run it up...",
+        "twitter": "https://x.com/blknoiz06/status/2096386768899637536",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -33907,25 +33929,30 @@
       "pnl_pct": -0.73,
       "exit_reason": "LLM: sell_all — $USEFUL is barely moved (-0.7%) on tiny $370 pool with 1% share — dead in the water, no narrative momentum, and pool is too thin to trust. Free up the",
       "partial": false
+    },
+    {
+      "mint": "4Piiu7DFPbobz4pxUedz8DJgicnj4VhXCNFuoFRxpump",
+      "symbol": "pill",
+      "name": "one pill can change your life ",
+      "amount_sold": 314732.6852976914,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T01:19:46.091973+00:00",
+      "exit_time": "2026-09-06T01:22:39.299902+00:00",
+      "entry_price_usd": 3.292e-06,
+      "exit_price_usd": 3.5285928887014373e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.010725,
+      "pnl_sol": 0.000725,
+      "pnl_pct": 7.19,
+      "exit_reason": "LLM: sell_half — Up +7.2% on a micro bonding-curve (pool $323, only 21% complete) means thin exit. Lock half the gain — remaining half is free option if it pumps post-",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T01:21:11.919559+00:00",
+  "last_updated": "2026-09-06T01:22:40.627787+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.57,
-  "portfolio_value_usd": 17.42,
+  "last_sol_price_usd": 103.55,
+  "portfolio_value_usd": 17.49,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 00:18 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ANTH at $3.46861e-06 | P&L: +0.1%",
-      "reason": "Flat at +0.1% after 0.1h with only $296 pool liquidity and 1% of pool share — illiquid, no momentum, no clear narrative. Free the slot for stronger setups."
-    },
-    {
-      "time": "2026-09-06 00:24 UTC",
-      "action": "buy",
-      "details": "[LLM] $Zol at $7.76598e-06, spent 0.02 SOL",
-      "reason": "Freshest narrative of the batch: GTA box-headed cat with a rifle is memeable visual art, backed by a specific @blknoiz06 X post (real creator signal, not bot). Highest mcap ($7.7k) and bond progress (28%) among0-1min launches indicate real early attention. Risk: ultra-low mcap = extreme volatility, will exit fast per scalp rules."
-    },
     {
       "time": "2026-09-06 00:25 UTC",
       "action": "sell",
@@ -34033,40 +34060,52 @@
       "action": "buy",
       "details": "[LLM] $pill at $3.292e-06, spent 0.02 SOL",
       "reason": "$pill has a real viral hook ('one pill can change your life'), an actual X post backing it (sapphycrypto), $3.3k mcap at 1min = classic early attention launch. Matrix/movie meme is evergreen; ride the first wave."
+    },
+    {
+      "time": "2026-09-06 01:22 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $pill at $3.52859e-06 | P&L: +7.2%",
+      "reason": "Up +7.2% on a micro bonding-curve (pool $323, only 21% complete) means thin exit. Lock half the gain — remaining half is free option if it pumps post-curve."
+    },
+    {
+      "time": "2026-09-06 01:22 UTC",
+      "action": "buy",
+      "details": "[LLM] $Zcat at $3.01978e-06, spent 0.02 SOL",
+      "reason": "$Zcat — Ansem is a real Solana memecoin attention driver with track record of naming runners. Micro mcap $3k with named influencer = high-attention launch. Risky (Ansem tokens dump too), but the attention signal is concrete."
     }
   ],
   "trade_stats": {
-    "total": 1993,
-    "wins": 1010,
+    "total": 1994,
+    "wins": 1011,
     "losses": 983,
     "win_rate_pct": 50.7,
-    "total_pnl_sol": -2.164503,
-    "avg_pnl_pct": 32.54,
+    "total_pnl_sol": -2.163778,
+    "avg_pnl_pct": 32.52,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 11,
-    "today_realized_sol": -0.030345,
-    "today_target_pct": -7.6,
+    "today_trades": 12,
+    "today_realized_sol": -0.02962,
+    "today_target_pct": -7.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1010,
+      "win_count": 1011,
       "loss_count": 983,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T01:21:11.919508+00:00",
+  "last_llm_brief_at": "2026-09-06T01:22:39.299865+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4Piiu7DFPbobz4pxUedz8DJgicnj4VhXCNFuoFRxpump": {
-      "price_usd": 3.5269664246124154e-06,
+      "price_usd": 3.5285928887014373e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 321.98412094631,
-      "volume_h24": 279.77,
+      "liquidity_usd": 323.0435118088,
+      "volume_h24": 386.48,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.108855083
+      "real_sol_reserves": 3.119686256
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
