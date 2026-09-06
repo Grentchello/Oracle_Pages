@@ -15025,3 +15025,9 @@
 ## [2026-09-06 01:22 UTC] buy | [LLM] $Zcat at $3.01978e-06, spent 0.02 SOL
 - **Reasoning:** $Zcat — Ansem is a real Solana memecoin attention driver with track record of naming runners. Micro mcap $3k with named influencer = high-attention launch. Risky (Ansem tokens dump too), but the attention signal is concrete.
 
+## [2026-09-06 01:23 UTC] sell | [FULL][LLM] $pill at $3.56178e-06 | P&L: +8.2%
+- **Reasoning:** +8.2% at 6min is marginal, bonding-curve only $339 liquidity means any exit slips badly. Lock the small gain rather than risk giving it back — pool is too thin to trust holding.
+
+## [2026-09-06 01:23 UTC] sell | [FULL][LLM] $Zcat at $2.99731e-06 | P&L: -0.7%
+- **Reasoning:** Slightly negative, pool only $54 (fails 5x liquidity rule: $54 < $25 needed but our 4% share effectively kills exit liquidity), and we already have 4% — exit before we become exit liquidity.
+

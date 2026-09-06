@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.138874,
+  "balance_sol": 0.169542,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4Piiu7DFPbobz4pxUedz8DJgicnj4VhXCNFuoFRxpump": {
-      "symbol": "pill",
-      "name": "one pill can change your life ",
-      "amount": 314732.6852976914,
-      "entry_price_usd": 3.292e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-06T01:19:46.091973+00:00",
-      "entry_usd_value": 2.0722,
-      "entry_signals": {
-        "liquidity_usd": 249.18900710067,
-        "volume_24h_usd": 205.12,
-        "market_cap_usd": 3321.7613673885944,
-        "ath_market_cap_usd": 3321.7613673885944,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.405067147,
-        "description": "i think I’m the pill that can change your life bro",
-        "twitter": "https://x.com/sapphycrypto/status/2096396577493659656?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "3dZKSckB7rPghioVWCRGFKrHjeobuu4QBvjWFW1bpump": {
-      "symbol": "Zcat",
-      "name": "Zolana Cat",
-      "amount": 685811.2460799755,
-      "entry_price_usd": 3.019781334642173e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T01:22:40.627530+00:00",
-      "entry_usd_value": 2.071,
-      "entry_signals": {
-        "liquidity_usd": 68.20364241,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3020.947836364874,
-        "ath_market_cap_usd": 3020.9529687116196,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.6586542,
-        "description": "Ansem asked for a zolana Cat runner. let's run it up...",
-        "twitter": "https://x.com/blknoiz06/status/2096386768899637536",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -33946,25 +33901,47 @@
       "pnl_pct": 7.19,
       "exit_reason": "LLM: sell_half — Up +7.2% on a micro bonding-curve (pool $323, only 21% complete) means thin exit. Lock half the gain — remaining half is free option if it pumps post-",
       "partial": true
+    },
+    {
+      "mint": "4Piiu7DFPbobz4pxUedz8DJgicnj4VhXCNFuoFRxpump",
+      "symbol": "pill",
+      "name": "one pill can change your life ",
+      "amount_sold": 314732.6852976914,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T01:19:46.091973+00:00",
+      "exit_time": "2026-09-06T01:23:56.641628+00:00",
+      "entry_price_usd": 3.292e-06,
+      "exit_price_usd": 3.56178139217897e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.010823,
+      "pnl_sol": 0.000823,
+      "pnl_pct": 8.2,
+      "exit_reason": "LLM: sell_all — +8.2% at 6min is marginal, bonding-curve only $339 liquidity means any exit slips badly. Lock the small gain rather than risk giving it back — pool is",
+      "partial": false
+    },
+    {
+      "mint": "3dZKSckB7rPghioVWCRGFKrHjeobuu4QBvjWFW1bpump",
+      "symbol": "Zcat",
+      "name": "Zolana Cat",
+      "amount_sold": 685811.2460799755,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T01:22:40.627530+00:00",
+      "exit_time": "2026-09-06T01:23:56.641935+00:00",
+      "entry_price_usd": 3.019781334642173e-06,
+      "exit_price_usd": 2.9973053051595494e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019845,
+      "pnl_sol": -0.000155,
+      "pnl_pct": -0.74,
+      "exit_reason": "LLM: sell_all — Slightly negative, pool only $54 (fails 5x liquidity rule: $54 < $25 needed but our 4% share effectively kills exit liquidity), and we already have 4%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T01:22:40.627787+00:00",
+  "last_updated": "2026-09-06T01:23:56.897879+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.55,
-  "portfolio_value_usd": 17.49,
+  "last_sol_price_usd": 103.58,
+  "portfolio_value_usd": 17.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 00:25 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $Zol closed at $2.89405e-06 | P&L: -62.7%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-09-06 00:28 UTC",
-      "action": "buy",
-      "details": "[LLM] $PTown at $3.75111e-06, spent 0.02 SOL",
-      "reason": "PTown (PokeTown) has the clearest narrative hook of the batch — AI Pokemon simulation with a real Twitter (@PokeTownAI), multi-zone gameplay, and built-in burn mechanics. AI+xPFT nostalgia is a proven viral combo. Bond only 11% so still early, mcap $3.75k leaves massive room if narrative catches. Passes viability (desc >50 chars + twitter)."
-    },
     {
       "time": "2026-09-06 00:29 UTC",
       "action": "buy",
@@ -34072,40 +34049,63 @@
       "action": "buy",
       "details": "[LLM] $Zcat at $3.01978e-06, spent 0.02 SOL",
       "reason": "$Zcat — Ansem is a real Solana memecoin attention driver with track record of naming runners. Micro mcap $3k with named influencer = high-attention launch. Risky (Ansem tokens dump too), but the attention signal is concrete."
+    },
+    {
+      "time": "2026-09-06 01:23 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $pill at $3.56178e-06 | P&L: +8.2%",
+      "reason": "+8.2% at 6min is marginal, bonding-curve only $339 liquidity means any exit slips badly. Lock the small gain rather than risk giving it back — pool is too thin to trust holding."
+    },
+    {
+      "time": "2026-09-06 01:23 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Zcat at $2.99731e-06 | P&L: -0.7%",
+      "reason": "Slightly negative, pool only $54 (fails 5x liquidity rule: $54 < $25 needed but our 4% share effectively kills exit liquidity), and we already have 4% — exit before we become exit liquidity."
     }
   ],
   "trade_stats": {
-    "total": 1994,
-    "wins": 1011,
-    "losses": 983,
+    "total": 1996,
+    "wins": 1012,
+    "losses": 984,
     "win_rate_pct": 50.7,
-    "total_pnl_sol": -2.163778,
-    "avg_pnl_pct": 32.52,
+    "total_pnl_sol": -2.16311,
+    "avg_pnl_pct": 32.49,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 12,
-    "today_realized_sol": -0.02962,
-    "today_target_pct": -7.4,
+    "today_trades": 14,
+    "today_realized_sol": -0.028952,
+    "today_target_pct": -7.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1011,
-      "loss_count": 983,
+      "win_count": 1012,
+      "loss_count": 984,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T01:22:39.299865+00:00",
+  "last_llm_brief_at": "2026-09-06T01:23:56.641587+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4Piiu7DFPbobz4pxUedz8DJgicnj4VhXCNFuoFRxpump": {
-      "price_usd": 3.5285928887014373e-06,
+      "price_usd": 3.56178139217897e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 323.0435118088,
-      "volume_h24": 386.48,
+      "liquidity_usd": 338.73329753784003,
+      "volume_h24": 394.22,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.119686256
+      "real_sol_reserves": 3.270257748
+    },
+    "3dZKSckB7rPghioVWCRGFKrHjeobuu4QBvjWFW1bpump": {
+      "price_usd": 2.9973053051595494e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 53.88705468142,
+      "volume_h24": 73.26,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.520245749
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
