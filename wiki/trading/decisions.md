@@ -15379,3 +15379,9 @@
 ## [2026-09-06 07:32 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-06 07:33 UTC] sell | [TP +100% (50%)] $ANSEMINU at $6.899e-05 | P&L: +195.8%
+- **Reasoning:** Auto take-profit at +195.8%
+
+## [2026-09-06 07:34 UTC] sell | [PARTIAL][LLM] $ANSEMINU at $6.899e-05 | P&L: +195.8%
+- **Reasoning:** $ANSEMINU up +195.8% in 0.2h on Ansem-related attention. Strong narrative still but at this gain we MUST bank profit. Sell half to lock ~0.05 SOL gain, let rest ride for the 5x bag. Stale exit not triggered but gains this size don't last in memes.
+
