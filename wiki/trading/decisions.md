@@ -15481,3 +15481,6 @@
 ## [2026-09-06 09:37 UTC] buy | [LLM] $bagged at $3.46713e-06, spent 0.02 SOL
 - **Reasoning:** $bagged — fresh 0.4min, has Twitter (@laughingguz8h1), simple viral phrase 'got bagged' that memes well. New launches with social presence are where attention alpha lives.
 
+## [2026-09-06 09:40 UTC] buy | [LLM] $gozu at $6.877e-06, spent 0.02 SOL
+- **Reasoning:** $gozu has the strongest meta-narrative of the batch — self-aware 'aping on vibes' joke targets traders directly, has twitter link, and mcap $7k with 26% bond means real buys are flowing. Memecoins about trader psychology tend to spread.
+
