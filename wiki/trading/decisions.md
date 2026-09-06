@@ -14998,3 +14998,6 @@
 ## [2026-09-06 00:44 UTC] sell | [FULL][LLM] $RETCG at $3.17076e-06 | P&L: +1.3%
 - **Reasoning:** Pool $146 is dangerously thin (1% share = exit illiquidity risk). No narrative, no description, no socials — just a micro-cap random tick. +1.3% is noise; better to rotate capital into a fresh attention launch.
 
+## [2026-09-06 00:47 UTC] buy | [LLM] $GLOOB at $5.59969e-07, spent 0.02 SOL
+- **Reasoning:** $GLOOB passes viability+fragility. Dedicated X account (@gloobintheabyss) + evocative lore ('came up from the deep, deeply concerning') = genuine niche community meme, not random noise. 0.05 SOL.
+
