@@ -15547,3 +15547,6 @@
 ## [2026-09-06 10:54 UTC] sell | [PARTIAL][LLM] $rimallen at $4.75711e-06 | P&L: +11.1%
 - **Reasoning:** Up 11% but only 0.1h held and mcap is tiny — this is classic pre-dump territory on bonding curve. Take half profit to lock in gains and let the rest ride if it breaks higher; if it reverses I have dry powder to manage risk.
 
+## [2026-09-06 10:56 UTC] sell | [PARTIAL][LLM] $rimallen at $4.8805e-06 | P&L: +14.0%
+- **Reasoning:** $rimallen is +14% but not yet at +30% TP threshold and only 0.1h old. Per scalp discipline, locking in half at +14% secures gain while leaving runner for momentum. Tight pool ($893) with 0% share means thin liquidity — better to bank partial profit now than hope.
+

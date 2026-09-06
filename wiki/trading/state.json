@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.183512,
+  "balance_sol": 0.189196,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "BikRKWCsbvk13icQvnd7G6vn66fJqzppdDwnoGxVpump": {
       "symbol": "rimallen",
       "name": "Rim Allen",
-      "amount": 248575.4320411023,
+      "amount": 124287.71602055115,
       "entry_price_usd": 4.282e-06,
-      "entry_sol_spent": 0.01,
+      "entry_sol_spent": 0.005,
       "entry_time": "2026-09-06T10:50:52.136759+00:00",
       "entry_usd_value": 2.1288,
       "entry_signals": {
@@ -35607,19 +35607,30 @@
       "pnl_pct": 11.1,
       "exit_reason": "LLM: sell_half — Up 11% but only 0.1h held and mcap is tiny — this is classic pre-dump territory on bonding curve. Take half profit to lock in gains and let the rest r",
       "partial": true
+    },
+    {
+      "mint": "BikRKWCsbvk13icQvnd7G6vn66fJqzppdDwnoGxVpump",
+      "symbol": "rimallen",
+      "name": "Rim Allen",
+      "amount_sold": 124287.71602055115,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T10:50:52.136759+00:00",
+      "exit_time": "2026-09-06T10:56:17.864823+00:00",
+      "entry_price_usd": 4.282e-06,
+      "exit_price_usd": 4.880501323179372e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.005684,
+      "pnl_sol": 0.000684,
+      "pnl_pct": 13.98,
+      "exit_reason": "LLM: sell_half — $rimallen is +14% but not yet at +30% TP threshold and only 0.1h old. Per scalp discipline, locking in half at +14% secures gain while leaving runner ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T10:55:00.312216+00:00",
+  "last_updated": "2026-09-06T10:56:17.865109+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.65,
-  "portfolio_value_usd": 20.64,
+  "last_sol_price_usd": 106.71,
+  "portfolio_value_usd": 20.72,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 09:42 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $bagged at $4.86624e-06 | P&L: +40.4%",
-      "reason": "Auto take-profit at +40.4%"
-    },
     {
       "time": "2026-09-06 09:43 UTC",
       "action": "sell",
@@ -35733,40 +35744,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $rimallen at $4.75711e-06 | P&L: +11.1%",
       "reason": "Up 11% but only 0.1h held and mcap is tiny — this is classic pre-dump territory on bonding curve. Take half profit to lock in gains and let the rest ride if it breaks higher; if it reverses I have dry powder to manage risk."
+    },
+    {
+      "time": "2026-09-06 10:56 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $rimallen at $4.8805e-06 | P&L: +14.0%",
+      "reason": "$rimallen is +14% but not yet at +30% TP threshold and only 0.1h old. Per scalp discipline, locking in half at +14% secures gain while leaving runner for momentum. Tight pool ($893) with 0% share means thin liquidity — better to bank partial profit now than hope."
     }
   ],
   "trade_stats": {
-    "total": 2093,
-    "wins": 1068,
+    "total": 2094,
+    "wins": 1069,
     "losses": 1025,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.139138,
-    "avg_pnl_pct": 32.18,
+    "win_rate_pct": 51.1,
+    "total_pnl_sol": -2.138454,
+    "avg_pnl_pct": 32.17,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 111,
-    "today_realized_sol": -0.00498,
-    "today_target_pct": -1.2,
+    "today_trades": 112,
+    "today_realized_sol": -0.004296,
+    "today_target_pct": -1.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1068,
+      "win_count": 1069,
       "loss_count": 1025,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T10:54:59.775684+00:00",
+  "last_llm_brief_at": "2026-09-06T10:56:17.864785+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BikRKWCsbvk13icQvnd7G6vn66fJqzppdDwnoGxVpump": {
-      "price_usd": 4.757107170054368e-06,
+      "price_usd": 4.880501323179372e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 841.71900218625,
-      "volume_h24": 3069.64,
+      "liquidity_usd": 893.1471168185699,
+      "volume_h24": 3709.31,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 7.892348825
+      "real_sol_reserves": 8.369853967
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
