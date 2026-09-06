@@ -15472,3 +15472,6 @@
 ## [2026-09-06 09:06 UTC] sell | [FULL][LLM] $AntiFomo at $2.98941e-06 | P&L: -2.6%
 - **Reasoning:** The position is down 2.6% but has no clear momentum signal yet, and the extremely small $23 pool plus 9% ownership creates severe exit fragility. Recycle the slot rather than wait in a bonding-curve position.
 
+## [2026-09-06 09:10 UTC] buy | [LLM] $NODAL at $3.056e-06, spent 0.02 SOL
+- **Reasoning:** NODAL — 'Index perpetuals on Robinhood Chain' has a real DeFi narrative (RWA/tokenization trend), tied to a visible Twitter account (@UseNodal). Best narrative+attention combo in the slate. Small entry.
+
