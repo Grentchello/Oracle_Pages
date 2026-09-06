@@ -15445,3 +15445,6 @@
 ## [2026-09-06 08:16 UTC] buy | [LLM] $JUICY  at $3.051e-06, spent 0.02 SOL
 - **Reasoning:** $JUICY — Biggie's 'Juicy' nostalgia narrative is a strong evergreen meme hook with confirmed Twitter presence (@chingonamics). Passes viability gate (long desc + twitter). 0.05 SOL position; if it doesn't pump in 15 min, mark stale and consider exit.
 
+## [2026-09-06 08:21 UTC] sell | [FULL][LLM] $JUICY  at $3.01916e-06 | P&L: -1.0%
+- **Reasoning:** Held 0.1h, down 1% and flat. No momentum, bonding-curve pool of only $42, no clear narrative ('Juicy'). Not worth tying up a slot.
+
