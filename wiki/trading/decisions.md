@@ -15319,3 +15319,6 @@
 ## [2026-09-06 06:53 UTC] sell | [FULL][LLM] $DEPRAV at $2.95051e-06 | P&L: -0.6%
 - **Reasoning:** Huge share concentration on bonding curve (496561866% pool share) means I'm the exit liquidity - any other seller will crush price. -0.6% is small but the structural risk is severe; cut now and free the slot for better setups.
 
+## [2026-09-06 06:57 UTC] buy | [LLM] $SNOOZE at $3.103e-06, spent 0.02 SOL
+- **Reasoning:** $SNOOZE (Billionaire Nap Club) has the strongest narrative of the batch — 'generational wealth is staying asleep' is the exact ironic self-deprecating humor that screenshots on crypto X. Has linked twitter, brandable name, mcap $3.1k is fresh enough to ride. Risk: bond only 3% means liquidity is thin and this could rug fast — I'll watch the 30-min stale flag closely.
+
