@@ -15073,3 +15073,6 @@
 ## [2026-09-06 02:42 UTC] sell | [FULL][LLM] $Chimp at $1.09138e-05 | P&L: +35.5%
 - **Reasoning:** +35% already blown past the +30% TP at 25% threshold — bot should have auto-TP'd but since I'm in the loop, lock the gain now. Bonding curve only 9% complete, pool tiny at $2.9k, easy to rug back to zero. Don't give back profit on hope.
 
+## [2026-09-06 02:45 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
