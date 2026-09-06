@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.172167,
+  "balance_sol": 0.192636,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "D1EeB7myLEG5zKRH8tcAf9ugz8NkttuZ88LBcFLnpump": {
-      "symbol": "FICAT",
-      "name": "Fighting Cats",
-      "amount": 670461.0718458025,
-      "entry_price_usd": 3.1828842711554067e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T10:13:55.887996+00:00",
-      "entry_usd_value": 2.134,
-      "entry_signals": {
-        "liquidity_usd": 105.38271658420001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3182.073712507305,
-        "ath_market_cap_usd": 3182.073712507305,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.987654326,
-        "description": "Two savage cats fighting over the last 1 SOL on earth! 😼🥊 Don't just watch, join the brawl and pump this bag! No utility, just pure catfight energy. 🚀🔥",
-        "twitter": "https://x.com/ficatonsol",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35556,19 +35533,30 @@
       "pnl_pct": -51.77,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "D1EeB7myLEG5zKRH8tcAf9ugz8NkttuZ88LBcFLnpump",
+      "symbol": "FICAT",
+      "name": "Fighting Cats",
+      "amount_sold": 670461.0718458025,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T10:13:55.887996+00:00",
+      "exit_time": "2026-09-06T10:23:08.589353+00:00",
+      "entry_price_usd": 3.1828842711554067e-06,
+      "exit_price_usd": 3.2542053623804595e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020469,
+      "pnl_sol": 0.000469,
+      "pnl_pct": 2.24,
+      "exit_reason": "LLM: sell_all — Pool is only $144 with our 2% share — too illiquid to trust exit at TP levels. +2.2% is barely above entry; freeing the slot for a fresher, narrative-",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T10:21:46.284558+00:00",
+  "last_updated": "2026-09-06T10:23:08.860228+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.65,
-  "portfolio_value_usd": 20.5,
+  "last_sol_price_usd": 106.59,
+  "portfolio_value_usd": 20.53,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 09:10 UTC",
-      "action": "buy",
-      "details": "[LLM] $NODAL at $3.056e-06, spent 0.02 SOL",
-      "reason": "NODAL — 'Index perpetuals on Robinhood Chain' has a real DeFi narrative (RWA/tokenization trend), tied to a visible Twitter account (@UseNodal). Best narrative+attention combo in the slate. Small entry."
-    },
     {
       "time": "2026-09-06 09:13 UTC",
       "action": "sell",
@@ -35682,40 +35670,46 @@
       "action": "buy",
       "details": "[LLM] $FICAT at $3.18288e-06, spent 0.02 SOL",
       "reason": "$FICAT (Fighting Cats) has a clear cute-animal fight narrative, dedicated twitter @ficatonsol, and CT-style copy ('No utility' is a meme flex). 0.5min old, $3.2k mcap — perfect for 10x potential if the cat-meme angle catches."
+    },
+    {
+      "time": "2026-09-06 10:23 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FICAT at $3.25421e-06 | P&L: +2.2%",
+      "reason": "Pool is only $144 with our 2% share — too illiquid to trust exit at TP levels. +2.2% is barely above entry; freeing the slot for a fresher, narrative-driven launch is better than bag-holding thin liquidity."
     }
   ],
   "trade_stats": {
-    "total": 2090,
-    "wins": 1066,
+    "total": 2091,
+    "wins": 1067,
     "losses": 1024,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.140483,
-    "avg_pnl_pct": 32.22,
+    "total_pnl_sol": -2.140014,
+    "avg_pnl_pct": 32.21,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 108,
-    "today_realized_sol": -0.006325,
-    "today_target_pct": -1.6,
+    "today_trades": 109,
+    "today_realized_sol": -0.005856,
+    "today_target_pct": -1.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1066,
+      "win_count": 1067,
       "loss_count": 1024,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T10:21:46.017206+00:00",
+  "last_llm_brief_at": "2026-09-06T10:23:08.589317+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "D1EeB7myLEG5zKRH8tcAf9ugz8NkttuZ88LBcFLnpump": {
-      "price_usd": 3.2560371694043078e-06,
+      "price_usd": 3.2542053623804595e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 143.87888447775,
-      "volume_h24": 308.6,
+      "liquidity_usd": 143.79794006424,
+      "volume_h24": 334.93,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.349075335
+      "real_sol_reserves": 1.349075336
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

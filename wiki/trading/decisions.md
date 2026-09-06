@@ -15532,3 +15532,6 @@
 ## [2026-09-06 10:13 UTC] buy | [LLM] $FICAT at $3.18288e-06, spent 0.02 SOL
 - **Reasoning:** $FICAT (Fighting Cats) has a clear cute-animal fight narrative, dedicated twitter @ficatonsol, and CT-style copy ('No utility' is a meme flex). 0.5min old, $3.2k mcap — perfect for 10x potential if the cat-meme angle catches.
 
+## [2026-09-06 10:23 UTC] sell | [FULL][LLM] $FICAT at $3.25421e-06 | P&L: +2.2%
+- **Reasoning:** Pool is only $144 with our 2% share — too illiquid to trust exit at TP levels. +2.2% is barely above entry; freeing the slot for a fresher, narrative-driven launch is better than bag-holding thin liquidity.
+
