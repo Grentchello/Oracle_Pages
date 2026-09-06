@@ -15355,3 +15355,9 @@
 ## [2026-09-06 07:26 UTC] sell | [PARTIAL][LLM] $ANSEMINU at $2.8732e-05 | P&L: +23.2%
 - **Reasoning:** ANSEMINU is up +23.2% in 0h — clear momentum but not yet at +25% TP. Lock half the gain now per scalp discipline (profit-taking aggressive above 20%). Hold the rest for the +25% auto-TP or higher narrative push.
 
+## [2026-09-06 07:27 UTC] sell | [TP +30% (25%)] $ANSEMINU at $4.527e-05 | P&L: +94.1%
+- **Reasoning:** Auto take-profit at +94.1%
+
+## [2026-09-06 07:27 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+

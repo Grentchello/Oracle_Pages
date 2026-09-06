@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.205284,
+  "balance_sol": 0.207713,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "Au6uWJqXKC5aMpxyreVk2FQ3xZWAH95rp519R9k3pump": {
       "symbol": "ANSEMINU",
       "name": "ANSEM INU",
-      "amount": 22577.186963979417,
+      "amount": 16932.890222984563,
       "entry_price_usd": 2.332e-05,
-      "entry_sol_spent": 0.005,
+      "entry_sol_spent": 0.00375,
       "entry_time": "2026-09-06T07:23:10.770539+00:00",
       "entry_usd_value": 2.106,
       "entry_signals": {
@@ -34961,25 +34961,30 @@
       "pnl_pct": 23.21,
       "exit_reason": "LLM: sell_half — ANSEMINU is up +23.2% in 0h — clear momentum but not yet at +25% TP. Lock half the gain now per scalp discipline (profit-taking aggressive above 20%).",
       "partial": true
+    },
+    {
+      "mint": "Au6uWJqXKC5aMpxyreVk2FQ3xZWAH95rp519R9k3pump",
+      "symbol": "ANSEMINU",
+      "name": "ANSEM INU",
+      "amount_sold": 5644.296740994854,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-06T07:23:10.770539+00:00",
+      "exit_time": "2026-09-06T07:27:40.563586+00:00",
+      "entry_price_usd": 2.332e-05,
+      "exit_price_usd": 4.527e-05,
+      "entry_sol_for_chunk": 0.00125,
+      "exit_sol_received": 0.002429,
+      "pnl_sol": 0.001179,
+      "pnl_pct": 94.13,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T07:26:37.632212+00:00",
+  "last_updated": "2026-09-06T07:27:51.279183+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.098,
-  "portfolio_value_usd": 22.1,
+  "last_sol_price_usd": 105.18,
+  "portfolio_value_usd": 22.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 06:34 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $SKULLETTA closed at $2.96282e-06 | P&L: -62.0%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-09-06 06:34 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-06 06:37 UTC",
       "action": "buy",
@@ -35087,6 +35092,18 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $ANSEMINU at $2.8732e-05 | P&L: +23.2%",
       "reason": "ANSEMINU is up +23.2% in 0h — clear momentum but not yet at +25% TP. Lock half the gain now per scalp discipline (profit-taking aggressive above 20%). Hold the rest for the +25% auto-TP or higher narrative push."
+    },
+    {
+      "time": "2026-09-06 07:27 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $ANSEMINU at $4.527e-05 | P&L: +94.1%",
+      "reason": "Auto take-profit at +94.1%"
+    },
+    {
+      "time": "2026-09-06 07:27 UTC",
+      "action": "observe",
+      "details": "LLM call failed: llm call failed",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -35108,19 +35125,17 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T07:26:37.631967+00:00",
+  "last_llm_brief_at": "2026-09-06T07:27:51.278877+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "Au6uWJqXKC5aMpxyreVk2FQ3xZWAH95rp519R9k3pump": {
-      "price_usd": 2.87319921878288e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 6706.235219953276,
-      "volume_h24": 35980.22,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 63.809351462
+      "price_usd": 4.527e-05,
+      "change_h24": 4.29,
+      "change_h1": 4.29,
+      "liquidity_usd": 16467.7,
+      "volume_h24": 9417.89,
+      "dex_id": "pumpswap",
+      "source": "dexscreener"
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
