@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.178094,
+  "balance_sol": 0.202525,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8a16SBcX7mvAMa8bpBRLUTHJ9LNmqotWmevWhVjjpump": {
-      "symbol": "DEEZ",
-      "name": "COMEDeeZ",
-      "amount": 696279.3733681462,
-      "entry_price_usd": 3.064e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T10:05:13.781687+00:00",
-      "entry_usd_value": 2.1334,
-      "entry_signals": {
-        "liquidity_usd": 44.64187842844,
-        "volume_24h_usd": 44.33,
-        "market_cap_usd": 3064.1635773111752,
-        "ath_market_cap_usd": 3064.1635773111752,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.418504532,
-        "description": "Comedy is work. Here's the room where you do it. Your joke book. 24+ AI writing tools powered by GPT-5, Claude, Gemini & Grok. A meme engine, live open mics, comedy workshops, and a directory of 443 touring pros. One workroom, no tabs, no chaos.",
-        "twitter": "https://x.com/comedeez",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35522,19 +35499,30 @@
       "pnl_pct": -5.23,
       "exit_reason": "LLM: sell_all — Down 5.2% in 6 minutes on a tiny $11 pool with us holding 19% — we are a huge chunk of the liquidity and any further dip will accelerate. Exit before ",
       "partial": false
+    },
+    {
+      "mint": "8a16SBcX7mvAMa8bpBRLUTHJ9LNmqotWmevWhVjjpump",
+      "symbol": "DEEZ",
+      "name": "COMEDeeZ",
+      "amount_sold": 696279.3733681462,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T10:05:13.781687+00:00",
+      "exit_time": "2026-09-06T10:08:11.947183+00:00",
+      "entry_price_usd": 3.064e-06,
+      "exit_price_usd": 3.745323701336616e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.024431,
+      "pnl_sol": 0.004431,
+      "pnl_pct": 22.24,
+      "exit_reason": "LLM: sell_all — Up +22.2% with a 1% share of a $385 pool — extremely illiquid and exposed to rug/sell pressure. Lock the gain now; we have 1/2 slots free and better f",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T10:06:48.659789+00:00",
+  "last_updated": "2026-09-06T10:08:12.198856+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.72,
-  "portfolio_value_usd": 21.14,
+  "last_sol_price_usd": 106.74,
+  "portfolio_value_usd": 21.62,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 08:47 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $NERU at $4.912e-05 | P&L: +75.4%",
-      "reason": "NERU is +75.4% — well past the +50% TP threshold and the +30% rule says lock the gain when in doubt. Theoretically bot should have auto-TP'd; it's still showing as held so it's either still climbing or stale. Free capital now and redeploy to fresh attention."
-    },
     {
       "time": "2026-09-06 08:47 UTC",
       "action": "sell",
@@ -35648,40 +35636,46 @@
       "action": "buy",
       "details": "[LLM] $DEEZ at $3.064e-06, spent 0.02 SOL",
       "reason": "$DEEZ (COMEDeeZ) has a verified twitter @comedeez plus AI-comedy utility narrative referencing GPT-5/Claude/Gemini — AI meta is the strongest narrative cycle right now. Passes viability gate (desc ≥50 chars + twitter), no fragility flags, $3k mcap = max upside."
+    },
+    {
+      "time": "2026-09-06 10:08 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DEEZ at $3.74532e-06 | P&L: +22.2%",
+      "reason": "Up +22.2% with a 1% share of a $385 pool — extremely illiquid and exposed to rug/sell pressure. Lock the gain now; we have 1/2 slots free and better fresh-launch candidates (Cult, SLOTH, MBL) with stronger narratives and liquidity to redeploy into."
     }
   ],
   "trade_stats": {
-    "total": 2088,
-    "wins": 1065,
+    "total": 2089,
+    "wins": 1066,
     "losses": 1023,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.134556,
-    "avg_pnl_pct": 32.27,
+    "total_pnl_sol": -2.130125,
+    "avg_pnl_pct": 32.26,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 106,
-    "today_realized_sol": -0.000398,
-    "today_target_pct": -0.1,
+    "today_trades": 107,
+    "today_realized_sol": 0.004033,
+    "today_target_pct": 1.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1065,
+      "win_count": 1066,
       "loss_count": 1023,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T10:06:48.401051+00:00",
+  "last_llm_brief_at": "2026-09-06T10:08:11.946484+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "8a16SBcX7mvAMa8bpBRLUTHJ9LNmqotWmevWhVjjpump": {
-      "price_usd": 3.067612917173064e-06,
+      "price_usd": 3.745323701336616e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 44.66280365504,
+      "liquidity_usd": 385.10883429119997,
       "volume_h24": 44.62,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.418504532
+      "real_sol_reserves": 3.60791488
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

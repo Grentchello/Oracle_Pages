@@ -15520,3 +15520,6 @@
 ## [2026-09-06 10:05 UTC] buy | [LLM] $DEEZ at $3.064e-06, spent 0.02 SOL
 - **Reasoning:** $DEEZ (COMEDeeZ) has a verified twitter @comedeez plus AI-comedy utility narrative referencing GPT-5/Claude/Gemini — AI meta is the strongest narrative cycle right now. Passes viability gate (desc ≥50 chars + twitter), no fragility flags, $3k mcap = max upside.
 
+## [2026-09-06 10:08 UTC] sell | [FULL][LLM] $DEEZ at $3.74532e-06 | P&L: +22.2%
+- **Reasoning:** Up +22.2% with a 1% share of a $385 pool — extremely illiquid and exposed to rug/sell pressure. Lock the gain now; we have 1/2 slots free and better fresh-launch candidates (Cult, SLOTH, MBL) with stronger narratives and liquidity to redeploy into.
+
