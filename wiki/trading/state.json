@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.213084,
+  "balance_sol": 0.220683,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "D8tWNgoB1w1y9vE2SDZs2AT2CzGrNY6UFCCQwXYXpump": {
-      "symbol": "SKULLETTA",
-      "name": "Skulletta",
-      "amount": 270903.267136451,
-      "entry_price_usd": 7.805e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T06:32:04.663593+00:00",
-      "entry_usd_value": 2.1144,
-      "entry_signals": {
-        "liquidity_usd": 2159.58455049612,
-        "volume_24h_usd": 1982.83,
-        "market_cap_usd": 9738.107378813473,
-        "ath_market_cap_usd": 9738.107378813473,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 20.427398321,
-        "description": "A tiny skeleton saint under a cartoon-blue sky, wearing a golden cross as a hat and smoking the last cigarette in the afterlife.",
-        "twitter": "https://x.com/skullettasol",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34791,25 +34768,30 @@
       "pnl_pct": -18.12,
       "exit_reason": "LLM: sell_all — $AGI at -18.1% with pool just $36 (below 5x position min) and 5% share — dead pool, no recovery possible. Cut before -30% hard stop.",
       "partial": false
+    },
+    {
+      "mint": "D8tWNgoB1w1y9vE2SDZs2AT2CzGrNY6UFCCQwXYXpump",
+      "symbol": "SKULLETTA",
+      "name": "Skulletta",
+      "amount_sold": 270903.267136451,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T06:32:04.663593+00:00",
+      "exit_time": "2026-09-06T06:34:25.986982+00:00",
+      "entry_price_usd": 7.805e-06,
+      "exit_price_usd": 2.9628181006839184e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.007599,
+      "pnl_sol": -0.012401,
+      "pnl_pct": -62.04,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T06:33:22.588294+00:00",
+  "last_updated": "2026-09-06T06:34:34.983994+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 105.62,
-  "portfolio_value_usd": 24.62,
+  "portfolio_value_usd": 23.31,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 05:25 UTC",
-      "action": "buy",
-      "details": "[LLM] $CapyAI at $3.04265e-06, spent 0.02 SOL",
-      "reason": "$CapyAI (CapyAgent) — 'zero compute, zero hallucinations, zero output, just vibes' is a perfect viral AI-meta parody narrative. Has real X account @RealCapyAgent, mcap $3k (room for 10-50x), bonding 1% so early entry. Capybara + AI agent meta has been hot. Best narrative/attention ratio in the batch."
-    },
-    {
-      "time": "2026-09-06 05:27 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CapyAI at $3.04524e-06 | P&L: +0.1%",
-      "reason": "CapyAI at +0.1% in 0.0h with pool=$42 and 5% share — basically flat and dead volume. Slot is locked with no momentum; free the capital for fresh launches."
-    },
     {
       "time": "2026-09-06 05:31 UTC",
       "action": "sell",
@@ -34917,6 +34899,18 @@
       "action": "buy",
       "details": "[LLM] $SKULLETTA at $7.805e-06, spent 0.02 SOL",
       "reason": "$SKULLETTA has a vivid, distinctive narrative (skeleton saint, golden cross hat, last cigarette) that could go viral on X — the @skullettasol handle is clean and brandable. Description is detailed and unique, mcap sub-$10k is in the prime 10x zone, and the aesthetic has strong meme-ability."
+    },
+    {
+      "time": "2026-09-06 06:34 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $SKULLETTA closed at $2.96282e-06 | P&L: -62.0%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-06 06:34 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -34938,19 +34932,19 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T06:33:22.318969+00:00",
+  "last_llm_brief_at": "2026-09-06T06:34:34.983293+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "D8tWNgoB1w1y9vE2SDZs2AT2CzGrNY6UFCCQwXYXpump": {
-      "price_usd": 7.784881853743442e-06,
+      "price_usd": 2.9628181006839184e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1976.09440771368,
-      "volume_h24": 4040.48,
+      "liquidity_usd": 5.24756715082,
+      "volume_h24": 5404.53,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 18.709471764
+      "real_sol_reserves": 0.049683461
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
