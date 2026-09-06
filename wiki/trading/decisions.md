@@ -15061,3 +15061,9 @@
 ## [2026-09-06 02:38 UTC] buy | [LLM] $memefi at $2.961e-06, spent 0.02 SOL
 - **Reasoning:** $memefi — lore/culture narrative with twitter post and substantive desc, 0.7min age. Risk: mcap $3.5k is thin, but the click-game lore gives it a story arc that can attract attention traders.
 
+## [2026-09-06 02:41 UTC] sell | [FULL][LLM] $memefi at $3.2325e-06 | P&L: +9.2%
+- **Reasoning:** Up only +9.2% in 0.0h on a $160 pool with 1% share — illiquid and not breaking out. Lock the small gain rather than risk the -30% stop. Free up capital for the fresh attention signals below.
+
+## [2026-09-06 02:41 UTC] buy | [LLM] $Chimp at $8.05764e-06, spent 0.02 SOL
+- **Reasoning:** $Chimp has the strongest narrative — '100 men vs 1 gorilla' hit 7M mcap, this is the sequel piggybacking on viral attention. Twitter link present (viability gate pass), $8k mcap with 28% bonding curve = early but real traction. Memecoin attention markets reward these 'next chapter' plays.
+
