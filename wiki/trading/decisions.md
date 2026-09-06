@@ -15316,3 +15316,6 @@
 ## [2026-09-06 06:49 UTC] buy | [LLM] $DEPRAV at $2.96813e-06, spent 0.02 SOL
 - **Reasoning:** DEPRAV (Office Coffee Cat) — most polished launch here: vivid narrative copy ('third cup of sludge, zero will to live, one sharp claw') + live X account. Office/workplace-relatable meme has viral legs. 0.05 SOL.
 
+## [2026-09-06 06:53 UTC] sell | [FULL][LLM] $DEPRAV at $2.95051e-06 | P&L: -0.6%
+- **Reasoning:** Huge share concentration on bonding curve (496561866% pool share) means I'm the exit liquidity - any other seller will crush price. -0.6% is small but the structural risk is severe; cut now and free the slot for better setups.
+
