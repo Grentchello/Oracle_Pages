@@ -15505,3 +15505,6 @@
 ## [2026-09-06 09:46 UTC] sell | [FULL][LLM] $gozu at $1.07689e-05 | P&L: +56.6%
 - **Reasoning:** Up +56.6% past the 50% TP threshold, only 0.1h old on bonding-curve with our share 0% and pool only $2881. Lock the gain — the bot would have auto-closed at 50% if it could, and I shouldn't hope for more when liquidity is this thin and my share is already gone.
 
+## [2026-09-06 09:51 UTC] buy | [LLM] $ $PMEAL at $3.259e-06, spent 0.02 SOL
+- **Reasoning:** McDonald Pirate Meal — has Twitter link pointing to the official McDonald's account which is a massive brand-impersonation attention play (viral by nature, easy to trend). Age ~1min, mcap $3.2k. Risk: brand-impersonation tokens are polarizing and can rug fast, but the attention asymmetry is huge. Small spec position approved.
+
