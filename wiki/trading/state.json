@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.215628,
+  "balance_sol": 0.235629,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "gCKBKjns3krFiAfdgscAGVburxrkVnmKTyWGy2hU257": {
-      "symbol": "WFPLB",
-      "name": "Whole Foods Pit Bull Lawsuit",
-      "amount": 707317.0731707317,
-      "entry_price_usd": 2.993e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T04:26:45.385897+00:00",
-      "entry_usd_value": 2.117,
-      "entry_signals": {
-        "liquidity_usd": 18.016383111449997,
-        "volume_24h_usd": 18.01,
-        "market_cap_usd": 2994.692279926496,
-        "ath_market_cap_usd": 2994.692279926496,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.170206737,
-        "description": "Whole Foods pit bull lawsuit frames animal aggression + media outrage into a single case file. If the story keeps circulating, attention stays liquid.",
-        "twitter": "https://twitter.com/DailyMail/status/2096454608981819472",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34485,19 +34462,30 @@
       "pnl_pct": 0.63,
       "exit_reason": "LLM: sell_all — $CRYCAT is flat at +0.6% with only $165 pool liquidity — no momentum signal and extreme rug/dump risk on a thin pool. Capital rotation: free up slot f",
       "partial": false
+    },
+    {
+      "mint": "gCKBKjns3krFiAfdgscAGVburxrkVnmKTyWGy2hU257",
+      "symbol": "WFPLB",
+      "name": "Whole Foods Pit Bull Lawsuit",
+      "amount_sold": 707317.0731707317,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T04:26:45.385897+00:00",
+      "exit_time": "2026-09-06T04:29:29.406022+00:00",
+      "entry_price_usd": 2.993e-06,
+      "exit_price_usd": 2.993136051304867e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020001,
+      "pnl_sol": 1e-06,
+      "pnl_pct": 0.0,
+      "exit_reason": "LLM: sell_all — WFPLB is flat with essentially no price movement, has only $18 in pool liquidity, and is immediately stale. Exit and rotate into stronger attention.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T04:28:12.748070+00:00",
+  "last_updated": "2026-09-06T04:29:29.660196+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.063,
-  "portfolio_value_usd": 24.99,
+  "last_sol_price_usd": 105.85,
+  "portfolio_value_usd": 24.94,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 03:39 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $OVL at $9.98424e-06 | P&L: +98.9%",
-      "reason": "Auto take-profit at +98.9%"
-    },
     {
       "time": "2026-09-06 03:39 UTC",
       "action": "sell",
@@ -34611,35 +34599,41 @@
       "action": "buy",
       "details": "[LLM] $WFPLB at $2.993e-06, spent 0.02 SOL",
       "reason": "$WFPLB has a real viral news hook (DailyMail story on Whole Foods pit bull lawsuit — animal + media outrage = classic viral fuel), passes viability (long desc + twitter), and mcap ~$3k is the typical entry zone for narrative runners. Risk: news cycle moves fast; must scalp into any pump."
+    },
+    {
+      "time": "2026-09-06 04:29 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WFPLB at $2.99314e-06 | P&L: +0.0%",
+      "reason": "WFPLB is flat with essentially no price movement, has only $18 in pool liquidity, and is immediately stale. Exit and rotate into stronger attention."
     }
   ],
   "trade_stats": {
-    "total": 2027,
-    "wins": 1032,
+    "total": 2028,
+    "wins": 1033,
     "losses": 995,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.097023,
-    "avg_pnl_pct": 32.47,
+    "total_pnl_sol": -2.097022,
+    "avg_pnl_pct": 32.45,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 45,
-    "today_realized_sol": 0.037135,
+    "today_trades": 46,
+    "today_realized_sol": 0.037136,
     "today_target_pct": 9.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1032,
+      "win_count": 1033,
       "loss_count": 995,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T04:28:12.473798+00:00",
+  "last_llm_brief_at": "2026-09-06T04:29:29.405989+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "gCKBKjns3krFiAfdgscAGVburxrkVnmKTyWGy2hU257": {
-      "price_usd": 2.9991590836990846e-06,
+      "price_usd": 2.993136051304867e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 18.052637146431,
+      "liquidity_usd": 18.016383111449997,
       "volume_h24": 18.01,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
