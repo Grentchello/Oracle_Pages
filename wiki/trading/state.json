@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.179411,
+  "balance_sol": 0.199279,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9tiUTQfVe72x32dokozdFihvBJRkfmQVoeXY1Zwfpump": {
-      "symbol": "HEARTFUND",
-      "name": "Support My Baby Heart",
-      "amount": 678903.2258064516,
-      "entry_price_usd": 3.1e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T08:00:21.796426+00:00",
-      "entry_usd_value": 2.1046,
-      "entry_signals": {
-        "liquidity_usd": 224.59182317829,
-        "volume_24h_usd": 83.18,
-        "market_cap_usd": 3301.295820958279,
-        "ath_market_cap_usd": 3301.295820958279,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.134294623,
-        "description": "My baby has a heart appointment coming up to schedule her for her surgery! I will be going LIVE showing proof of her health conditions. i know this will be expensive so im reaching out to the trenches to do there thing! for her! $HEART",
-        "twitter": "https://x.com/solheartana/status/2096132499592130680?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35148,19 +35125,30 @@
       "pnl_pct": 0.5,
       "exit_reason": "LLM: sell_all — Pool is only $110 — far below the 5x position-size liquidity rule. With2% of pool share, any sell will move price against me. +0.5% is not worth the e",
       "partial": false
+    },
+    {
+      "mint": "9tiUTQfVe72x32dokozdFihvBJRkfmQVoeXY1Zwfpump",
+      "symbol": "HEARTFUND",
+      "name": "Support My Baby Heart",
+      "amount_sold": 678903.2258064516,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T08:00:21.796426+00:00",
+      "exit_time": "2026-09-06T08:01:45.124289+00:00",
+      "entry_price_usd": 3.1e-06,
+      "exit_price_usd": 3.0798116818457354e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019868,
+      "pnl_sol": -0.000132,
+      "pnl_pct": -0.65,
+      "exit_reason": "LLM: sell_all — $HEARTFUND is at -0.7% after 0.0h with only $73 pool liquidity and 3% of supply — flat, illiquid, no narrative pulse. Stale exit rules will catch this",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T08:00:21.796624+00:00",
+  "last_updated": "2026-09-06T08:01:45.376910+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.23,
-  "portfolio_value_usd": 20.98,
+  "last_sol_price_usd": 105.24,
+  "portfolio_value_usd": 20.97,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 07:26 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $ANSEMINU at $2.8732e-05 | P&L: +23.2%",
-      "reason": "ANSEMINU is up +23.2% in 0h — clear momentum but not yet at +25% TP. Lock half the gain now per scalp discipline (profit-taking aggressive above 20%). Hold the rest for the +25% auto-TP or higher narrative push."
-    },
     {
       "time": "2026-09-06 07:27 UTC",
       "action": "sell",
@@ -35274,30 +35262,48 @@
       "action": "buy",
       "details": "[LLM] $HEARTFUND at $3.1e-06, spent 0.02 SOL",
       "reason": "$HEARTFUND — genuine viral sympathy narrative (real X account solheartana, baby heart surgery story, going LIVE for proof). Sympathy tokens historically pump 2-5x on launch attention before fading. Risk: charity dumps are common, and narrative could fall flat if no engagement."
+    },
+    {
+      "time": "2026-09-06 08:01 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HEARTFUND at $3.07981e-06 | P&L: -0.7%",
+      "reason": "$HEARTFUND is at -0.7% after 0.0h with only $73 pool liquidity and 3% of supply — flat, illiquid, no narrative pulse. Stale exit rules will catch this soon anyway; better to free the slot now for a fresher launch with attention."
     }
   ],
   "trade_stats": {
-    "total": 2066,
+    "total": 2067,
     "wins": 1053,
-    "losses": 1013,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.133239,
-    "avg_pnl_pct": 32.44,
+    "losses": 1014,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -2.133371,
+    "avg_pnl_pct": 32.42,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 84,
-    "today_realized_sol": 0.000919,
+    "today_trades": 85,
+    "today_realized_sol": 0.000787,
     "today_target_pct": 0.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1053,
-      "loss_count": 1013,
+      "loss_count": 1014,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T08:00:19.815633+00:00",
+  "last_llm_brief_at": "2026-09-06T08:01:45.123783+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "9tiUTQfVe72x32dokozdFihvBJRkfmQVoeXY1Zwfpump": {
+      "price_usd": 3.0798116818457354e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 72.87784576691999,
+      "volume_h24": 430.59,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.692491883
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

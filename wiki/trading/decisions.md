@@ -15412,3 +15412,6 @@
 ## [2026-09-06 08:00 UTC] buy | [LLM] $HEARTFUND at $3.1e-06, spent 0.02 SOL
 - **Reasoning:** $HEARTFUND — genuine viral sympathy narrative (real X account solheartana, baby heart surgery story, going LIVE for proof). Sympathy tokens historically pump 2-5x on launch attention before fading. Risk: charity dumps are common, and narrative could fall flat if no engagement.
 
+## [2026-09-06 08:01 UTC] sell | [FULL][LLM] $HEARTFUND at $3.07981e-06 | P&L: -0.7%
+- **Reasoning:** $HEARTFUND is at -0.7% after 0.0h with only $73 pool liquidity and 3% of supply — flat, illiquid, no narrative pulse. Stale exit rules will catch this soon anyway; better to free the slot now for a fresher launch with attention.
+
