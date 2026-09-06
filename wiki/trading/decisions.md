@@ -15583,3 +15583,6 @@
 ## [2026-09-06 11:17 UTC] sell | [hard-stop] $WOLF closed at $3.06527e-06 | P&L: -59.5%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-06 11:19 UTC] sell | [FULL][LLM] $$CPS at $3.00803e-06 | P&L: -0.1%
+- **Reasoning:** Held 6 minutes, essentially flat (-0.1%) on $16 pool with no momentum signal. Stale already, and capital rotation matters — I'd rather redeploy 0.1 SOL into a fresh launch than babysit a dead bonding-curve position.
+

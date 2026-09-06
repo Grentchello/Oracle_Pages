@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.161351,
+  "balance_sol": 0.181339,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "C9uxAYrSJPaPY4JLcKuGsu8Q4oiYj2iRCSd9K68Gpump": {
-      "symbol": "$CPS",
-      "name": "CPS",
-      "amount": 707869.1720905176,
-      "entry_price_usd": 3.011855981386592e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T11:11:59.309208+00:00",
-      "entry_usd_value": 2.132,
-      "entry_signals": {
-        "liquidity_usd": 16.8165197954,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3009.8196212273515,
-        "ath_market_cap_usd": 3009.8196212273515,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.157753469,
-        "description": "CyberPhysicalSystem (CPS) proposes a structural continuity between digital information and physical response. Each transaction acts as a discrete signal capable of generating measurable effects, forming a framework where data becomes action. CPS explores the boundary between computation, energy, and",
-        "twitter": "https://x.com/CYPHYSI",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -35726,19 +35703,30 @@
       "pnl_pct": -59.55,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "C9uxAYrSJPaPY4JLcKuGsu8Q4oiYj2iRCSd9K68Gpump",
+      "symbol": "$CPS",
+      "name": "CPS",
+      "amount_sold": 707869.1720905176,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T11:11:59.309208+00:00",
+      "exit_time": "2026-09-06T11:19:30.612502+00:00",
+      "entry_price_usd": 3.011855981386592e-06,
+      "exit_price_usd": 3.008029773806744e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019988,
+      "pnl_sol": -1.2e-05,
+      "pnl_pct": -0.13,
+      "exit_reason": "LLM: sell_all — Held 6 minutes, essentially flat (-0.1%) on $16 pool with no momentum signal. Stale already, and capital rotation matters — I'd rather redeploy 0.1 SO",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T11:18:02.156122+00:00",
+  "last_updated": "2026-09-06T11:19:31.154454+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 106.53,
   "portfolio_value_usd": 19.32,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 10:09 UTC",
-      "action": "buy",
-      "details": "[LLM] $PONSAN at $6.558e-07, spent 0.02 SOL",
-      "reason": "$PONSAN has full viability:100+ char description, twitter handle, 'become the meta' cultural narrative. Sub-$1k mcap with attention machinery (twitter) is exactly the early-attention setup we want.0.05 SOL position."
-    },
     {
       "time": "2026-09-06 10:10 UTC",
       "action": "sell",
@@ -35852,51 +35840,46 @@
       "action": "sell",
       "details": "[hard-stop] $WOLF closed at $3.06527e-06 | P&L: -59.5%",
       "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-06 11:19 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $$CPS at $3.00803e-06 | P&L: -0.1%",
+      "reason": "Held 6 minutes, essentially flat (-0.1%) on $16 pool with no momentum signal. Stale already, and capital rotation matters — I'd rather redeploy 0.1 SOL into a fresh launch than babysit a dead bonding-curve position."
     }
   ],
   "trade_stats": {
-    "total": 2100,
+    "total": 2101,
     "wins": 1071,
-    "losses": 1029,
+    "losses": 1030,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.151299,
-    "avg_pnl_pct": 32.04,
+    "total_pnl_sol": -2.151311,
+    "avg_pnl_pct": 32.03,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 118,
-    "today_realized_sol": -0.017141,
+    "today_trades": 119,
+    "today_realized_sol": -0.017153,
     "today_target_pct": -4.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1071,
-      "loss_count": 1029,
+      "loss_count": 1030,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T11:18:01.599176+00:00",
+  "last_llm_brief_at": "2026-09-06T11:19:30.612466+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "C9uxAYrSJPaPY4JLcKuGsu8Q4oiYj2iRCSd9K68Gpump": {
-      "price_usd": 3.0098782147946873e-06,
+      "price_usd": 3.008029773806744e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 16.80547705257,
+      "liquidity_usd": 15.818824423019999,
       "volume_h24": 18.89,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.157753469
-    },
-    "B5dzs2Q2xpyW2RWHcwmDqs9zuWySBbcsdBoJsmoApump": {
-      "price_usd": 3.0652678110572945e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 46.231787770379995,
-      "volume_h24": 5229.51,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.433979046
+      "real_sol_reserves": 0.148491734
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
