@@ -15595,3 +15595,9 @@
 ## [2026-09-06 11:33 UTC] buy | [LLM] $HackerAI at $6.474e-06, spent 0.02 SOL
 - **Reasoning:** $HackerAI rides a hot narrative — Sam Altman cybersecurity quote sourced via CoinMarketCap, tapping AI+cyber fear FOMO. mcap $6,711 is small enough for 5-10x potential if narrative spreads. Passing viability (desc + twitter) and not on fragility blocklist.
 
+## [2026-09-06 11:36 UTC] sell | [hard-stop] $HackerAI closed at $2.98176e-06 | P&L: -53.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-06 11:36 UTC] buy | [LLM] $zero at $3.623e-06, spent 0.02 SOL
+- **Reasoning:** $zero has a real contrarian anti-rugpull narrative ('spend it on stupid things'), twitter handle, and a $1M goal mentioned in desc. Meta-narrative plays well on pump.fun. Small mcap = high attention upside.
+
