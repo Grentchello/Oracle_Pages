@@ -14971,3 +14971,6 @@
 ## [2026-09-06 00:28 UTC] buy | [LLM] $PTown at $3.75111e-06, spent 0.02 SOL
 - **Reasoning:** PTown (PokeTown) has the clearest narrative hook of the batch — AI Pokemon simulation with a real Twitter (@PokeTownAI), multi-zone gameplay, and built-in burn mechanics. AI+xPFT nostalgia is a proven viral combo. Bond only 11% so still early, mcap $3.75k leaves massive room if narrative catches. Passes viability (desc >50 chars + twitter).
 
+## [2026-09-06 00:29 UTC] buy | [LLM] $$INDEX at $3.80041e-07, spent 0.02 SOL
+- **Reasoning:** $$INDEX has the meta-narrative (a 'cryptocurrency index' token is exactly the kind of recursive meme that gets shared by crypto Twitter) + verified Twitter @TheIndexFi + clear description. Low mcap $3.6k = high upside, liquidity meets gate via Twitter.
+
