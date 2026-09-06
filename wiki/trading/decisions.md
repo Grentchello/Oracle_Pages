@@ -15055,3 +15055,6 @@
 ## [2026-09-06 02:26 UTC] sell | [PARTIAL][LLM] $DOG at $2.91201e-06 | P&L: -6.3%
 - **Reasoning:** Down6.3% on a $2 pool with 98% of supply — illiquid bonding-curve bag with no catalyst. -20% rule kicks in fast on $2k pools; cut now while slippage is still survivable.
 
+## [2026-09-06 02:29 UTC] sell | [FULL][LLM] $DOG at $2.91201e-06 | P&L: -6.3%
+- **Reasoning:** $DOG is at -6.3% after6 minutes with no momentum, bonding-curve pool tiny at $2, and our share is 25% — exit before it bleeds further. Capital rotation: free this slot for a fresh launch.
+
