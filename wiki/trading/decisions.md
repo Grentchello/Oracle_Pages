@@ -15286,3 +15286,9 @@
 ## [2026-09-06 06:26 UTC] buy | [LLM] $AGI at $3.697e-06, spent 0.02 SOL
 - **Reasoning:** $AGI has a cohesive 'robots will buy $AGI before you' tech-meta narrative with a twitter handle (@bosunatiklama), passes viability and fragility gates. Classic AGI-tick narrative has trended multiple times in 2024-26, low mcap ($3k) gives multi-x runway if narrative catches.
 
+## [2026-09-06 06:27 UTC] sell | [FULL][LLM] $OTCxPUMP at $3.93277e-06 | P&L: -22.3%
+- **Reasoning:** $OTCxPUMP is at -22.3% with pool only $485 and our share 0% — no bounce signal, micro liquidity, classic slow bleed. Lock the loss before -30% hard stop.
+
+## [2026-09-06 06:27 UTC] sell | [FULL][LLM] $AGI at $3.02702e-06 | P&L: -18.1%
+- **Reasoning:** $AGI at -18.1% with pool just $36 (below 5x position min) and 5% share — dead pool, no recovery possible. Cut before -30% hard stop.
+

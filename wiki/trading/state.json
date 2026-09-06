@@ -1,53 +1,8 @@
 {
-  "balance_sol": 0.201167,
+  "balance_sol": 0.233084,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HhCJuHGnj4UzguSdSJjh1mwyvARYDKrkMfCKpYCVVTQ5": {
-      "symbol": "OTCxPUMP",
-      "name": "OTCxPUMP",
-      "amount": 418415.33293815446,
-      "entry_price_usd": 5.061e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T06:26:38.632846+00:00",
-      "entry_usd_value": 2.1176,
-      "entry_signals": {
-        "liquidity_usd": 987.7746284119601,
-        "volume_24h_usd": 1231.38,
-        "market_cap_usd": 5063.390189591065,
-        "ath_market_cap_usd": 5087.807007730387,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 9.329189917,
-        "description": "OTCxPUMP — the OTC desk that pays you to hold. Every buy and sell on OTCXPUMP feeds real rewards straight back to holders — paid out in OTC and PUMP, not just more of this token. No staking, no locking, no complicated claims. Just hold OTCxPUMP, and watch OTC and PUMP roll into your wallet as the co",
-        "twitter": "https://x.com/OTCDesks/status/2096479217387028641",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "8xCJS9ZPZ3DBZig2edSZ7USQKaiZByrgCwWy4YkYJEFV": {
-      "symbol": "AGI",
-      "name": "AGI_ACTIVATED",
-      "amount": 572788.7476332161,
-      "entry_price_usd": 3.697e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T06:26:40.056777+00:00",
-      "entry_usd_value": 2.1176,
-      "entry_signals": {
-        "liquidity_usd": 70.17896199756,
-        "volume_24h_usd": 801.88,
-        "market_cap_usd": 3091.08589530097,
-        "ath_market_cap_usd": 3719.0974201595363,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.662816037,
-        "description": "robots can walk. robots can work. robots can kung fu. at this rate, they’ll be buying $AGI before you do. 🤖 $AGI on Solana the robot economy starts here.",
-        "twitter": "https://x.com/bosunatiklama/status/2094923603263304076",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34779,25 +34734,47 @@
       "pnl_pct": -9.15,
       "exit_reason": "LLM: sell_all — $MEMECAT pool is only $86 with my 2% share — that's dangerously illiquid and the -30% hard stop will almost certainly hit before any meaningful bounce",
       "partial": false
+    },
+    {
+      "mint": "HhCJuHGnj4UzguSdSJjh1mwyvARYDKrkMfCKpYCVVTQ5",
+      "symbol": "OTCxPUMP",
+      "name": "OTCxPUMP",
+      "amount_sold": 418415.33293815446,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T06:26:38.632846+00:00",
+      "exit_time": "2026-09-06T06:27:55.407950+00:00",
+      "entry_price_usd": 5.061e-06,
+      "exit_price_usd": 3.932767734173492e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.015541,
+      "pnl_sol": -0.004459,
+      "pnl_pct": -22.29,
+      "exit_reason": "LLM: sell_all — $OTCxPUMP is at -22.3% with pool only $485 and our share 0% — no bounce signal, micro liquidity, classic slow bleed. Lock the loss before -30% hard st",
+      "partial": false
+    },
+    {
+      "mint": "8xCJS9ZPZ3DBZig2edSZ7USQKaiZByrgCwWy4YkYJEFV",
+      "symbol": "AGI",
+      "name": "AGI_ACTIVATED",
+      "amount_sold": 572788.7476332161,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T06:26:40.056777+00:00",
+      "exit_time": "2026-09-06T06:27:55.409127+00:00",
+      "entry_price_usd": 3.697e-06,
+      "exit_price_usd": 3.027016842089361e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016376,
+      "pnl_sol": -0.003624,
+      "pnl_pct": -18.12,
+      "exit_reason": "LLM: sell_all — $AGI at -18.1% with pool just $36 (below 5x position min) and 5% share — dead pool, no recovery possible. Cut before -30% hard stop.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T06:26:40.056943+00:00",
+  "last_updated": "2026-09-06T06:27:55.906129+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 105.88,
-  "portfolio_value_usd": 25.53,
+  "portfolio_value_usd": 24.68,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 05:16 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CAPYBARA at $3.16862e-06 | P&L: +0.5%",
-      "reason": "CAPYBARA is flat (+0.5%) after 0.0h on a tiny $113 pool with 2% share — no momentum, no narrative fire. Freeing the slot for a higher-attention launch."
-    },
-    {
-      "time": "2026-09-06 05:16 UTC",
-      "action": "buy",
-      "details": "[LLM] $MEMETOPIA at $3.078e-06, spent 0.02 SOL",
-      "reason": "$MEMETOPIA has a X link from @thematrixwizard with a 'Valhalla / no utility, just chilling' ironic-meme angle. Memes that openly mock utility often catch on. Mcap $3.1k, bond 3% — early curve, small bet."
-    },
     {
       "time": "2026-09-06 05:18 UTC",
       "action": "sell",
@@ -34905,30 +34882,65 @@
       "action": "buy",
       "details": "[LLM] $AGI at $3.697e-06, spent 0.02 SOL",
       "reason": "$AGI has a cohesive 'robots will buy $AGI before you' tech-meta narrative with a twitter handle (@bosunatiklama), passes viability and fragility gates. Classic AGI-tick narrative has trended multiple times in 2024-26, low mcap ($3k) gives multi-x runway if narrative catches."
+    },
+    {
+      "time": "2026-09-06 06:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $OTCxPUMP at $3.93277e-06 | P&L: -22.3%",
+      "reason": "$OTCxPUMP is at -22.3% with pool only $485 and our share 0% — no bounce signal, micro liquidity, classic slow bleed. Lock the loss before -30% hard stop."
+    },
+    {
+      "time": "2026-09-06 06:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $AGI at $3.02702e-06 | P&L: -18.1%",
+      "reason": "$AGI at -18.1% with pool just $36 (below 5x position min) and 5% share — dead pool, no recovery possible. Cut before -30% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 2043,
+    "total": 2045,
     "wins": 1042,
-    "losses": 1001,
+    "losses": 1003,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.091484,
-    "avg_pnl_pct": 32.23,
+    "total_pnl_sol": -2.099567,
+    "avg_pnl_pct": 32.18,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 61,
-    "today_realized_sol": 0.042674,
-    "today_target_pct": 10.7,
+    "today_trades": 63,
+    "today_realized_sol": 0.034591,
+    "today_target_pct": 8.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1042,
-      "loss_count": 1001,
+      "loss_count": 1003,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T06:26:37.252888+00:00",
+  "last_llm_brief_at": "2026-09-06T06:27:55.407907+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HhCJuHGnj4UzguSdSJjh1mwyvARYDKrkMfCKpYCVVTQ5": {
+      "price_usd": 3.932767734173492e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 484.74225462816,
+      "volume_h24": 1254.48,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4.578223032
+    },
+    "8xCJS9ZPZ3DBZig2edSZ7USQKaiZByrgCwWy4YkYJEFV": {
+      "price_usd": 3.027016842089361e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 35.5950952156,
+      "volume_h24": 1142.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.33618337
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
