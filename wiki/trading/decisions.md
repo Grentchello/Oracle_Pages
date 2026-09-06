@@ -15457,3 +15457,12 @@
 ## [2026-09-06 08:46 UTC] buy | [LLM] $Morrow at $3.952e-06, spent 0.02 SOL
 - **Reasoning:** $Morrow — 'read-only agent terminal for Stock Tokens' is a sharp narrative piggybacking on the stockless/meta-stock launch above. 0.9min old, has Twitter, narrative angle is novel (agent tooling + memecoin). Risky but fits the 'catch the wave early' mandate.
 
+## [2026-09-06 08:47 UTC] sell | [TP +30% (25%)] $NERU at $4.912e-05 | P&L: +75.4%
+- **Reasoning:** Auto take-profit at +75.4%
+
+## [2026-09-06 08:47 UTC] sell | [FULL][LLM] $NERU at $4.912e-05 | P&L: +75.4%
+- **Reasoning:** NERU is +75.4% — well past the +50% TP threshold and the +30% rule says lock the gain when in doubt. Theoretically bot should have auto-TP'd; it's still showing as held so it's either still climbing or stale. Free capital now and redeploy to fresh attention.
+
+## [2026-09-06 08:47 UTC] sell | [FULL][LLM] $Morrow at $3.90755e-06 | P&L: -1.1%
+- **Reasoning:** Morrow is -1.1% on a tiny $481 bonding-curve pool with 0% share. No momentum, no narrative strength, no liquidity. Exit the dead weight immediately to free a slot for live launches.
+
