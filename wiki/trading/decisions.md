@@ -15238,3 +15238,6 @@
 ## [2026-09-06 05:25 UTC] buy | [LLM] $CapyAI at $3.04265e-06, spent 0.02 SOL
 - **Reasoning:** $CapyAI (CapyAgent) — 'zero compute, zero hallucinations, zero output, just vibes' is a perfect viral AI-meta parody narrative. Has real X account @RealCapyAgent, mcap $3k (room for 10-50x), bonding 1% so early entry. Capybara + AI agent meta has been hot. Best narrative/attention ratio in the batch.
 
+## [2026-09-06 05:27 UTC] sell | [FULL][LLM] $CapyAI at $3.04524e-06 | P&L: +0.1%
+- **Reasoning:** CapyAI at +0.1% in 0.0h with pool=$42 and 5% share — basically flat and dead volume. Slot is locked with no momentum; free the capital for fresh launches.
+
