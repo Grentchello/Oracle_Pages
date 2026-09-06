@@ -15337,3 +15337,6 @@
 ## [2026-09-06 07:11 UTC] sell | [FULL][LLM] $HOODHAT at $3.5724e-06 | P&L: -0.9%
 - **Reasoning:** Just entered this tick at -0.9% with $322 pool liquidity — that's below the 5x position size threshold and well under $3k viability floor. Cut it now and free the slot for a real launch.
 
+## [2026-09-06 07:20 UTC] buy | [LLM] $RugClub at $3.057e-06, spent 0.02 SOL
+- **Reasoning:** $RugClub is a meta-narrative ('pump.fun rug club') with a real X link attached and $3k mcap — anti-pump.fun sentiment is itself viral on CT. Viability gate passes (twitter present). Risk: meta-narratives often die fast once the joke lands; will watch for exit signal quickly.
+
