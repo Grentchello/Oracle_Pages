@@ -15142,3 +15142,6 @@
 ## [2026-09-06 03:39 UTC] sell | [FULL][LLM] $BOXBOT at $2.30458e-05 | P&L: +116.2%
 - **Reasoning:** $BOXBOT at +116.2% is past +100% TP and pool is only $5695. Thin liquidity means the next seller moves the price hard — take the full profit and free the slot for fresh attention.
 
+## [2026-09-06 03:40 UTC] sell | [TP +500% (full)] $OVL at $2.05036e-05 | P&L: +308.5%
+- **Reasoning:** Auto take-profit at +308.5%
+

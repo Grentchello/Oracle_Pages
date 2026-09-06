@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.204421,
+  "balance_sol": 0.234848,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AEYQQoDZy9T49hgtMT7yjX37Crx6tbh5nQaP7FYRpump": {
-      "symbol": "OVL",
-      "name": "Overload",
-      "amount": 158457.86013150032,
-      "entry_price_usd": 5.019e-06,
-      "entry_sol_spent": 0.0075,
-      "entry_time": "2026-09-06T03:38:01.620050+00:00",
-      "entry_usd_value": 2.1208,
-      "entry_signals": {
-        "liquidity_usd": 1622.2678088227601,
-        "volume_24h_usd": 2930.0,
-        "market_cap_usd": 6774.617172757385,
-        "ath_market_cap_usd": 6774.617172757385,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 15.298640219,
-        "description": "RWA-Play. Build a power plant. Turn megawatts into tokenized equity. ",
-        "twitter": "https://x.com/overload_xyz",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34332,19 +34309,30 @@
       "pnl_pct": 116.19,
       "exit_reason": "LLM: sell_all — $BOXBOT at +116.2% is past +100% TP and pool is only $5695. Thin liquidity means the next seller moves the price hard — take the full profit and free ",
       "partial": false
+    },
+    {
+      "mint": "AEYQQoDZy9T49hgtMT7yjX37Crx6tbh5nQaP7FYRpump",
+      "symbol": "OVL",
+      "name": "Overload",
+      "amount_sold": 158457.86013150032,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T03:38:01.620050+00:00",
+      "exit_time": "2026-09-06T03:40:32.569791+00:00",
+      "entry_price_usd": 5.019e-06,
+      "exit_price_usd": 2.050357464494e-05,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.030427,
+      "pnl_sol": 0.022927,
+      "pnl_pct": 308.52,
+      "exit_reason": "auto-TP +500% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T03:39:29.219877+00:00",
+  "last_updated": "2026-09-06T03:41:00.520285+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.65,
-  "portfolio_value_usd": 22.6,
+  "last_sol_price_usd": 106.78,
+  "portfolio_value_usd": 25.08,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 02:51 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PMP at $7.69833e-06 | P&L: -26.9%",
-      "reason": "$PMP is at -26.9%, only 3.1% from the -30% hard stop. Pool is $1954 (dead),0% our share means no incentive to hold, and no bounce signal. Cut losses and free the slot."
-    },
     {
       "time": "2026-09-06 03:07 UTC",
       "action": "buy",
@@ -34458,51 +34446,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $BOXBOT at $2.30458e-05 | P&L: +116.2%",
       "reason": "$BOXBOT at +116.2% is past +100% TP and pool is only $5695. Thin liquidity means the next seller moves the price hard — take the full profit and free the slot for fresh attention."
+    },
+    {
+      "time": "2026-09-06 03:40 UTC",
+      "action": "sell",
+      "details": "[TP +500% (full)] $OVL at $2.05036e-05 | P&L: +308.5%",
+      "reason": "Auto take-profit at +308.5%"
     }
   ],
   "trade_stats": {
-    "total": 2018,
-    "wins": 1026,
+    "total": 2019,
+    "wins": 1027,
     "losses": 992,
-    "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.120731,
-    "avg_pnl_pct": 32.44,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -2.097804,
+    "avg_pnl_pct": 32.58,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 36,
-    "today_realized_sol": 0.013427,
-    "today_target_pct": 3.4,
+    "today_trades": 37,
+    "today_realized_sol": 0.036354,
+    "today_target_pct": 9.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1026,
+      "win_count": 1027,
       "loss_count": 992,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T03:39:28.966796+00:00",
+  "last_llm_brief_at": "2026-09-06T03:41:00.004858+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AEYQQoDZy9T49hgtMT7yjX37Crx6tbh5nQaP7FYRpump": {
-      "price_usd": 9.984235415130374e-06,
+      "price_usd": 2.050357464494e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2655.1147772704503,
-      "volume_h24": 4692.13,
+      "liquidity_usd": 5191.59107054002,
+      "volume_h24": 6773.1,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 24.895590973
-    },
-    "GMJHV5dWUoR9F4MLrMPKzyXeVehjJtdTuy3T15Wwpump": {
-      "price_usd": 2.3045778116054585e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 5695.308587952451,
-      "volume_h24": 5510.18,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 53.401862053
+      "real_sol_reserves": 48.619508059
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
