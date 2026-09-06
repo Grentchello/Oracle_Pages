@@ -14974,3 +14974,9 @@
 ## [2026-09-06 00:29 UTC] buy | [LLM] $$INDEX at $3.80041e-07, spent 0.02 SOL
 - **Reasoning:** $$INDEX has the meta-narrative (a 'cryptocurrency index' token is exactly the kind of recursive meme that gets shared by crypto Twitter) + verified Twitter @TheIndexFi + clear description. Low mcap $3.6k = high upside, liquidity meets gate via Twitter.
 
+## [2026-09-06 00:31 UTC] sell | [hard-stop] $$INDEX closed at $2.16969e-07 | P&L: -42.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-06 00:31 UTC] sell | [PARTIAL][LLM] $PTown at $2.90266e-06 | P&L: -22.6%
+- **Reasoning:** Down -22.6% and approaching hard -30% stop. Tiny $5 pool means we own 35% of liquidity — any further drop and we can't even exit cleanly. Cut now while we still can.
+

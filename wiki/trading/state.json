@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.145952,
+  "balance_sol": 0.165096,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "5ohebBgGmHhwb7BN5UBDA3H3Ca5b62TUTbvmn5wxpump": {
       "symbol": "PTown",
       "name": "PokeTown",
-      "amount": 551730.5992087397,
+      "amount": 275865.29960436985,
       "entry_price_usd": 3.751106070549833e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-06T00:28:42.235155+00:00",
       "entry_usd_value": 2.0696000000000003,
       "entry_signals": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 4.787818937,
         "description": "Watch AI Pokemon roam, chat & battle across 6 zones in this living world simulation with built in burn mechanisms. Card Pack System with 106 real moves, Talent Trees for stat progression, and AI Breeding that generates unique Pokemon with custom sprites",
         "twitter": "https://x.com/PokeTownAI",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "7AaKxGRzSAchSpzDNnkHRRTKeAwW9pKPvfFCKWaNpump": {
-      "symbol": "$INDEX",
-      "name": "INDEX ",
-      "amount": 5442573.460200896,
-      "entry_price_usd": 3.8004080516786474e-07,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T00:29:58.872037+00:00",
-      "entry_usd_value": 2.0684,
-      "entry_signals": {
-        "liquidity_usd": 17.313200190059998,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3674.7322100934516,
-        "ath_market_cap_usd": 11296.441507949025,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.167406693,
-        "description": "A cryptocurrency index is a tool that tracks the price and performance of a group of digital coins bundled together, much like the S&P 500 tracks traditional stocks. [1] (https://www.coinapi.io/blog/what-is-the-index-for-cryptocurrency)",
-        "twitter": "https://x.com/TheIndexFi",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -33793,25 +33771,47 @@
       "pnl_pct": -62.73,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "7AaKxGRzSAchSpzDNnkHRRTKeAwW9pKPvfFCKWaNpump",
+      "symbol": "$INDEX",
+      "name": "INDEX ",
+      "amount_sold": 5442573.460200896,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T00:29:58.872037+00:00",
+      "exit_time": "2026-09-06T00:31:02.863859+00:00",
+      "entry_price_usd": 3.8004080516786474e-07,
+      "exit_price_usd": 2.1696930790265836e-07,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.011408,
+      "pnl_sol": -0.008592,
+      "pnl_pct": -42.91,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
+    },
+    {
+      "mint": "5ohebBgGmHhwb7BN5UBDA3H3Ca5b62TUTbvmn5wxpump",
+      "symbol": "PTown",
+      "name": "PokeTown",
+      "amount_sold": 275865.29960436985,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-06T00:28:42.235155+00:00",
+      "exit_time": "2026-09-06T00:31:17.045282+00:00",
+      "entry_price_usd": 3.751106070549833e-06,
+      "exit_price_usd": 2.902656420978361e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.007736,
+      "pnl_sol": -0.002264,
+      "pnl_pct": -22.62,
+      "exit_reason": "LLM: sell_all — Down -22.6% and approaching hard -30% stop. Tiny $5 pool means we own 35% of liquidity — any further drop and we can't even exit cleanly. Cut now whil",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-06T00:29:58.872207+00:00",
+  "last_updated": "2026-09-06T00:31:17.312070+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.42,
-  "portfolio_value_usd": 19.23,
+  "last_sol_price_usd": 103.51,
+  "portfolio_value_usd": 18.12,
   "recent_decisions": [
-    {
-      "time": "2026-09-05 05:12 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-05 06:11 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-05 10:40 UTC",
       "action": "observe",
@@ -33919,40 +33919,63 @@
       "action": "buy",
       "details": "[LLM] $$INDEX at $3.80041e-07, spent 0.02 SOL",
       "reason": "$$INDEX has the meta-narrative (a 'cryptocurrency index' token is exactly the kind of recursive meme that gets shared by crypto Twitter) + verified Twitter @TheIndexFi + clear description. Low mcap $3.6k = high upside, liquidity meets gate via Twitter."
+    },
+    {
+      "time": "2026-09-06 00:31 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $$INDEX closed at $2.16969e-07 | P&L: -42.9%",
+      "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-06 00:31 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $PTown at $2.90266e-06 | P&L: -22.6%",
+      "reason": "Down -22.6% and approaching hard -30% stop. Tiny $5 pool means we own 35% of liquidity — any further drop and we can't even exit cleanly. Cut now while we still can."
     }
   ],
   "trade_stats": {
-    "total": 1985,
+    "total": 1987,
     "wins": 1009,
-    "losses": 976,
+    "losses": 978,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.1467,
-    "avg_pnl_pct": 32.72,
+    "total_pnl_sol": -2.157556,
+    "avg_pnl_pct": 32.66,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 3,
-    "today_realized_sol": -0.012542,
-    "today_target_pct": -3.1,
+    "today_trades": 5,
+    "today_realized_sol": -0.023398,
+    "today_target_pct": -5.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1009,
-      "loss_count": 976,
+      "loss_count": 978,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T00:29:57.307146+00:00",
+  "last_llm_brief_at": "2026-09-06T00:31:17.045120+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "5ohebBgGmHhwb7BN5UBDA3H3Ca5b62TUTbvmn5wxpump": {
-      "price_usd": 3.5244958503133013e-06,
+      "price_usd": 2.902656420978361e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 322.79971398934,
-      "volume_h24": 6054.22,
+      "liquidity_usd": 4.6217328861,
+      "volume_h24": 6548.98,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.121250377
+      "real_sol_reserves": 0.04465011
+    },
+    "7AaKxGRzSAchSpzDNnkHRRTKeAwW9pKPvfFCKWaNpump": {
+      "price_usd": 2.1696930790265836e-07,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2.9341824435,
+      "volume_h24": 2319.56,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.02834685
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
