@@ -15607,3 +15607,12 @@
 ## [2026-09-06 11:41 UTC] buy | [LLM] $solana at $3.839e-06, spent 0.02 SOL
 - **Reasoning:** $solana (Solana conda) — anti-frog/dog meta-narrative plays well in memecoin culture, mcap $3.9k is early enough for5-10x, twitter handle present. Decent attention story.
 
+## [2026-09-06 11:42 UTC] sell | [FULL][LLM] $solana at $3.65279e-06 | P&L: -4.8%
+- **Reasoning:** Held <1h and already -4.9% on a bonding-curve position with tiny pool ($345) and 1% share. No bounce signal, narrative is just '$solana' (commodity play). Cut the slow bleed now rather than wait for -30% stop.
+
+## [2026-09-06 11:42 UTC] buy | [LLM] $WOLF at $7.54342e-06, spent 0.02 SOL
+- **Reasoning:** $WOLF — freshest launch with highest mcap ($7.5k, 27% bonded), dev with a Twitter handle and explicit pump.fun narrative ('my version of a memecoin'). Has twitter signal — passes viability gate. Low mcap = high upside if attention catches.
+
+## [2026-09-06 11:42 UTC] buy | [LLM] $PUMPBANK at $3.726e-06, spent 0.02 SOL
+- **Reasoning:** $PUMPBANK — explicit 'meta-narrative' play attacking pump.fun token farming, ties to OTC Desks twitter presence, 10% bonded already with description >50 chars. Meta-coins tend to grab trader attention on launch.
+
