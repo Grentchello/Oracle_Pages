@@ -15259,3 +15259,6 @@
 ## [2026-09-06 06:02 UTC] buy | [LLM] $INI at $3.10483e-06, spent 0.02 SOL
 - **Reasoning:** $INI (INIGO MONTOYA) — iconic Princess Bride quote repurposed as a cat meme; the Princess Bride IP has multi-decade recognition, and the cat twist adds shareability. Twitter post from jayroo69 gives an attention anchor. Bond only 2% (very fresh) so I'm getting in at the absolute ground floor — high risk but this is exactly the 'narrative + freshness' setup.
 
+## [2026-09-06 06:10 UTC] sell | [FULL][LLM] $INI at $2.96897e-06 | P&L: -4.4%
+- **Reasoning:** Down -4.4% on a bonding-curve token, only 0.1h in but the382712600% share is the alert — this is effectively a micro-cap with no real pool, so any further dip is irreversible. Cut before the -30% hard stop.
+

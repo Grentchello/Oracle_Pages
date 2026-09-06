@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.22369,
+  "balance_sol": 0.242826,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ErYHeBWRwRJVLMMwnR5zCK5QNQ3qfDC4RZimCH6Cpump": {
-      "symbol": "INI",
-      "name": "INIGO MONTOYA",
-      "amount": 684417.7002944745,
-      "entry_price_usd": 3.104829111061428e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T06:02:28.851571+00:00",
-      "entry_usd_value": 2.125,
-      "entry_signals": {
-        "liquidity_usd": 69.21619838125,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3105.515826205992,
-        "ath_market_cap_usd": 3105.515826205992,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.651446573,
-        "description": "hello meow name is Inigo Montoya. you killed my father. prepare to die. 🐈 ",
-        "twitter": "https://x.com/jayroo69/status/1962875914502434968?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34689,19 +34666,30 @@
       "pnl_pct": -1.15,
       "exit_reason": "LLM: sell_all — MAGMA is down 1.2% after 6 minutes with pool only $56 and our share is 4% — that's dangerously thin liquidity for a position our size. A 4% pool share",
       "partial": false
+    },
+    {
+      "mint": "ErYHeBWRwRJVLMMwnR5zCK5QNQ3qfDC4RZimCH6Cpump",
+      "symbol": "INI",
+      "name": "INIGO MONTOYA",
+      "amount_sold": 684417.655586141,
+      "fraction_sold": 0.9999999346768306,
+      "entry_time": "2026-09-06T06:02:28.851571+00:00",
+      "exit_time": "2026-09-06T06:10:32.832540+00:00",
+      "entry_price_usd": 3.104829111061428e-06,
+      "exit_price_usd": 2.9689655177362068e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019136,
+      "pnl_sol": -0.000864,
+      "pnl_pct": -4.38,
+      "exit_reason": "LLM: sell_all — Down -4.4% on a bonding-curve token, only 0.1h in but the382712600% share is the alert — this is effectively a micro-cap with no real pool, so any fur",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T06:09:19.412048+00:00",
+  "last_updated": "2026-09-06T06:10:33.349476+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.16,
-  "portfolio_value_usd": 25.87,
+  "last_sol_price_usd": 106.19,
+  "portfolio_value_usd": 25.79,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 04:47 UTC",
-      "action": "buy",
-      "details": "[LLM] $GCAT at $3.144e-06, spent 0.02 SOL",
-      "reason": "$GCAT has a clear counter-narrative to ZEC Anonymous Cat ('got exposed, bag gone') — revenge/rug-recovery story is viral fuel. Twitter link present, ~$3.1k mcap, just under 1.5min old. Bond low (3%) but that gives entry. Narrative angle is novel for today."
-    },
     {
       "time": "2026-09-06 04:47 UTC",
       "action": "buy",
@@ -34815,35 +34803,41 @@
       "action": "buy",
       "details": "[LLM] $INI at $3.10483e-06, spent 0.02 SOL",
       "reason": "$INI (INIGO MONTOYA) — iconic Princess Bride quote repurposed as a cat meme; the Princess Bride IP has multi-decade recognition, and the cat twist adds shareability. Twitter post from jayroo69 gives an attention anchor. Bond only 2% (very fresh) so I'm getting in at the absolute ground floor — high risk but this is exactly the 'narrative + freshness' setup."
+    },
+    {
+      "time": "2026-09-06 06:10 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $INI at $2.96897e-06 | P&L: -4.4%",
+      "reason": "Down -4.4% on a bonding-curve token, only 0.1h in but the382712600% share is the alert — this is effectively a micro-cap with no real pool, so any further dip is irreversible. Cut before the -30% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 2039,
+    "total": 2040,
     "wins": 1040,
-    "losses": 999,
+    "losses": 1000,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.088961,
-    "avg_pnl_pct": 32.3,
+    "total_pnl_sol": -2.089825,
+    "avg_pnl_pct": 32.28,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 57,
-    "today_realized_sol": 0.045197,
-    "today_target_pct": 11.3,
+    "today_trades": 58,
+    "today_realized_sol": 0.044333,
+    "today_target_pct": 11.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1040,
-      "loss_count": 999,
+      "loss_count": 1000,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T06:09:19.411638+00:00",
+  "last_llm_brief_at": "2026-09-06T06:10:32.832457+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "ErYHeBWRwRJVLMMwnR5zCK5QNQ3qfDC4RZimCH6Cpump": {
-      "price_usd": 2.96812674793178e-06,
+      "price_usd": 2.9689655177362068e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 5.308e-07,
+      "liquidity_usd": 5.3095e-07,
       "volume_h24": 142.44,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
