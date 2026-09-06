@@ -15241,3 +15241,6 @@
 ## [2026-09-06 05:27 UTC] sell | [FULL][LLM] $CapyAI at $3.04524e-06 | P&L: +0.1%
 - **Reasoning:** CapyAI at +0.1% in 0.0h with pool=$42 and 5% share — basically flat and dead volume. Slot is locked with no momentum; free the capital for fresh launches.
 
+## [2026-09-06 05:31 UTC] sell | [FULL][LLM] $MEMETOPIA at $3.019e-06 | P&L: -1.9%
+- **Reasoning:** $MEMETOPIA is down -1.9% after 12 minutes and flat — no momentum, no clear narrative catalyst, and the position is stale per the rules. Better to free the slot for fresher attention than bag-hold a bonding-curve token at -2%.
+
