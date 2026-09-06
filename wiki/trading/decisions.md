@@ -15373,3 +15373,9 @@
 ## [2026-09-06 07:31 UTC] observe | LLM call failed: llm call failed
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-06 07:32 UTC] sell | [TP +100% (50%)] $ANSEMINU at $6.572e-05 | P&L: +181.8%
+- **Reasoning:** Auto take-profit at +181.8%
+
+## [2026-09-06 07:32 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
