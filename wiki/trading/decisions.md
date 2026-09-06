@@ -15103,3 +15103,6 @@
 ## [2026-09-06 03:29 UTC] sell | [FULL][LLM] $PokeETF at $3.14762e-06 | P&L: -18.2%
 - **Reasoning:** Down -18.2% on a $115 pool with no bounce signal and just entered — thin liquidity + no narrative momentum = exit before the -30% hard stop. Reclaim capital for a better setup.
 
+## [2026-09-06 03:30 UTC] buy | [LLM] $OFFSHORE at $2.9675e-06, spent 0.02 SOL
+- **Reasoning:** $OFFSHORE has a Twitter, interesting narrative ('rich money relaxes on islands, tokenized stocks with dividends') = meme-meets-DeFi attention. Risk: structured-product wrappers are historically rug-prone, fragility gate may flag it. Buying small to test.
+
