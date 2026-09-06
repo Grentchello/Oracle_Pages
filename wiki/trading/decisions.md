@@ -15247,3 +15247,9 @@
 ## [2026-09-06 05:47 UTC] buy | [LLM] $STONKCHUMP at $3.165e-06, spent 0.02 SOL
 - **Reasoning:** $STONKCHUMP — grumpy trader mascot narrative, has its own X account (@stonkchump), $3.2k mcap at 1.1min, character meme with clear visual hook (🐔📈). Stonk/angry trader meta is relatable and tradable. Take the entry.
 
+## [2026-09-06 05:52 UTC] sell | [FULL][LLM] $STONKCHUMP at $3.19921e-06 | P&L: +1.1%
+- **Reasoning:** Flat at +1.1% in 0.1h on a $116 pool — no momentum, thin liquidity makes any bounce hard. Freeing slot for a higher-attention fresh launch.
+
+## [2026-09-06 05:52 UTC] buy | [LLM] $MAGMA at $3.11747e-06, spent 0.02 SOL
+- **Reasoning:** $MAGMA — real breaking news hook (Anak Krakatau eruption halted flights), active X account, narrative-driven meme with viral potential. Viable.
+
