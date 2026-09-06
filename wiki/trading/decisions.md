@@ -15223,3 +15223,6 @@
 ## [2026-09-06 05:10 UTC] sell | [FULL][LLM] $TORTY at $1.1526e-05 | P&L: +26.4%
 - **Reasoning:** Up +26.4% but on thin $3091 bonding-curve pool with weak 'Torty/tortoise' narrative and our share effectively 0% — liquidity risk is severe and the +30% TP threshold isn't safely reachable here. Lock the gain now rather than watch it evaporate.
 
+## [2026-09-06 05:13 UTC] buy | [LLM] $CAPYBARA at $3.152e-06, spent 0.02 SOL
+- **Reasoning:** $CAPYBARA CLAUDE has the clearest narrative — ties Anthropic's Claude AI brand to a viral meme animal during a moment of AI hype. Has twitter presence and decent description. $3.7k mcap is fresh enough to capture early pump.
+
