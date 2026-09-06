@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.219854,
+  "balance_sol": 0.239843,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FGCntoT7G4w25naCtxc4Nc3ZMEhyWbZkmTtZtv6hpump": {
-      "symbol": "Goblin",
-      "name": "The Gouda Goblin",
-      "amount": 671726.7552182163,
-      "entry_price_usd": 3.162e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T03:54:59.547738+00:00",
-      "entry_usd_value": 2.124,
-      "entry_signals": {
-        "liquidity_usd": 100.91595506760001,
-        "volume_24h_usd": 102.54,
-        "market_cap_usd": 3161.2575059429482,
-        "ath_market_cap_usd": 3165.0181847927574,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.950244398,
-        "description": "The Gouda Goblin: LAST SEEN:Sprinting down the street at midnight, dragging a 3-foot string of molten cheddar behind him like a getaway cable.",
-        "twitter": "https://x.com/SenhorCobra_/status/2096296565572796472",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34417,19 +34394,30 @@
       "pnl_pct": 1.93,
       "exit_reason": "LLM: sell_all — $NEET at +1.9% on only $111 pool liquidity is fragile; flat after entry with no momentum = stale capital. Better to free the slot for a fresher launch",
       "partial": false
+    },
+    {
+      "mint": "FGCntoT7G4w25naCtxc4Nc3ZMEhyWbZkmTtZtv6hpump",
+      "symbol": "Goblin",
+      "name": "The Gouda Goblin",
+      "amount_sold": 671726.7552182163,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T03:54:59.547738+00:00",
+      "exit_time": "2026-09-06T03:58:59.831506+00:00",
+      "entry_price_usd": 3.162e-06,
+      "exit_price_usd": 3.1573488770599305e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019989,
+      "pnl_sol": -1.1e-05,
+      "pnl_pct": -0.15,
+      "exit_reason": "LLM: sell_all — 6 min held, flat at -0.1%, pool only $101 (right at the 5x rule edge), no bounce signal — textbook stale exit, freeing the slot for fresh attention pl",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T03:57:35.061503+00:00",
+  "last_updated": "2026-09-06T03:59:01.617539+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.23,
-  "portfolio_value_usd": 25.48,
+  "last_sol_price_usd": 106.1,
+  "portfolio_value_usd": 25.45,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 03:33 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $VORTA at $6.86413e-06 | P&L: +58.3%",
-      "reason": "Auto take-profit at +58.3%"
-    },
     {
       "time": "2026-09-06 03:33 UTC",
       "action": "sell",
@@ -34543,35 +34531,41 @@
       "action": "buy",
       "details": "[LLM] $Goblin at $3.162e-06, spent 0.02 SOL",
       "reason": "Only candidate passing viability gate: 158-char vivid absurdist narrative ('molten cheddar dragged down street at midnight') with an actual X post backing it. mcap $3.1k on fresh bonding curve = classic meme attention setup. No fragility keywords. Risking 0.05 SOL ($5.31) — well below the 5x-liquidity requirement and leaves 0.19 SOL reserve."
+    },
+    {
+      "time": "2026-09-06 03:58 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Goblin at $3.15735e-06 | P&L: -0.1%",
+      "reason": "6 min held, flat at -0.1%, pool only $101 (right at the 5x rule edge), no bounce signal — textbook stale exit, freeing the slot for fresh attention plays."
     }
   ],
   "trade_stats": {
-    "total": 2023,
+    "total": 2024,
     "wins": 1031,
-    "losses": 992,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.092798,
-    "avg_pnl_pct": 32.55,
+    "losses": 993,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -2.092809,
+    "avg_pnl_pct": 32.54,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 41,
-    "today_realized_sol": 0.04136,
+    "today_trades": 42,
+    "today_realized_sol": 0.041349,
     "today_target_pct": 10.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1031,
-      "loss_count": 992,
+      "loss_count": 993,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T03:57:35.061454+00:00",
+  "last_llm_brief_at": "2026-09-06T03:58:59.831473+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FGCntoT7G4w25naCtxc4Nc3ZMEhyWbZkmTtZtv6hpump": {
-      "price_usd": 3.1612174477858287e-06,
+      "price_usd": 3.1573488770599305e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 100.94446239954001,
+      "liquidity_usd": 100.8209306278,
       "volume_h24": 104.01,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
