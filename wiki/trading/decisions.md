@@ -15448,3 +15448,6 @@
 ## [2026-09-06 08:21 UTC] sell | [FULL][LLM] $JUICY  at $3.01916e-06 | P&L: -1.0%
 - **Reasoning:** Held 0.1h, down 1% and flat. No momentum, bonding-curve pool of only $42, no clear narrative ('Juicy'). Not worth tying up a slot.
 
+## [2026-09-06 08:45 UTC] buy | [LLM] $NERU at $2.801e-05, spent 0.02 SOL
+- **Reasoning:** $NERU (TONNERU) passes viability (long desc, $13.4k mcap) and the 'one face, 1000 shapes' art-meme narrative is concrete and memeable. Bond 35% — closest to graduation among new launches, signals real buy pressure. Tiny position 0.05 SOL per rules.
+
