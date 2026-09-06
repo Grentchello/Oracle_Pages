@@ -15100,3 +15100,6 @@
 ## [2026-09-06 03:26 UTC] buy | [LLM] $PokeETF at $3.84907e-06, spent 0.02 SOL
 - **Reasoning:** $PokeETF has the clearest attention signal: Pokemon is a multi-generational cultural IP with built-in retail mindshare, the fee→buyback→airdrop mechanic creates a real reflexive demand loop (holders get free Pokemon product), and the X handle is already set up. 0.1min age with $3.8k mcap = very early entry on a narrative that has obvious viral potential (Pokemon fans will engage). Viability gate passes (description present, has twitter).
 
+## [2026-09-06 03:29 UTC] sell | [FULL][LLM] $PokeETF at $3.14762e-06 | P&L: -18.2%
+- **Reasoning:** Down -18.2% on a $115 pool with no bounce signal and just entered — thin liquidity + no narrative momentum = exit before the -30% hard stop. Reclaim capital for a better setup.
+

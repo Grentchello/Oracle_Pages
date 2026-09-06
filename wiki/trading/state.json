@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.15371,
+  "balance_sol": 0.170079,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GsLMdQdPqcm5YzKvZX6KbwYf6THcRTGWevqavzQdpump": {
-      "symbol": "PokeETF",
-      "name": "PokeETF",
-      "amount": 544910.8528696458,
-      "entry_price_usd": 3.8490699698024595e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-06T03:26:26.984267+00:00",
-      "entry_usd_value": 2.0974,
-      "entry_signals": {
-        "liquidity_usd": 76.79151022379,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3846.8677747210427,
-        "ath_market_cap_usd": 4283.6629220619025,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.732254317,
-        "description": "All Fees are used to buy tokenized pokemon product which is then airdropped to holders.",
-        "twitter": "https://x.com/PokeETF",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34162,19 +34139,30 @@
       "pnl_pct": -19.39,
       "exit_reason": "LLM: sell_all — Down 19.4% approaching -30% hard stop, and our share = 70106552% of pool means we are effectively the entire bonding curve — zero liquidity to exit cl",
       "partial": false
+    },
+    {
+      "mint": "GsLMdQdPqcm5YzKvZX6KbwYf6THcRTGWevqavzQdpump",
+      "symbol": "PokeETF",
+      "name": "PokeETF",
+      "amount_sold": 544910.8528696458,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T03:26:26.984267+00:00",
+      "exit_time": "2026-09-06T03:29:17.754884+00:00",
+      "entry_price_usd": 3.8490699698024595e-06,
+      "exit_price_usd": 3.1476181813809204e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016369,
+      "pnl_sol": -0.003631,
+      "pnl_pct": -18.22,
+      "exit_reason": "LLM: sell_all — Down -18.2% on a $115 pool with no bounce signal and just entered — thin liquidity + no narrative momentum = exit before the -30% hard stop. Reclaim c",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T03:27:58.027262+00:00",
+  "last_updated": "2026-09-06T03:29:18.006585+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.68,
-  "portfolio_value_usd": 17.76,
+  "last_sol_price_usd": 104.78,
+  "portfolio_value_usd": 17.82,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 01:58 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $FAKEWR at $3.44154e-06 | P&L: +0.9%",
-      "reason": "FAKEWR is barely up +0.9% after 6 minutes, pool only $275, and name is meta-parody ('FAKE WRAP' style) with no viral catalyst. Stale already, no momentum — exit and free the slot for a fresher launch."
-    },
     {
       "time": "2026-09-06 02:07 UTC",
       "action": "buy",
@@ -34288,40 +34276,46 @@
       "action": "buy",
       "details": "[LLM] $PokeETF at $3.84907e-06, spent 0.02 SOL",
       "reason": "$PokeETF has the clearest attention signal: Pokemon is a multi-generational cultural IP with built-in retail mindshare, the fee→buyback→airdrop mechanic creates a real reflexive demand loop (holders get free Pokemon product), and the X handle is already set up. 0.1min age with $3.8k mcap = very early entry on a narrative that has obvious viral potential (Pokemon fans will engage). Viability gate passes (description present, has twitter)."
+    },
+    {
+      "time": "2026-09-06 03:29 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PokeETF at $3.14762e-06 | P&L: -18.2%",
+      "reason": "Down -18.2% on a $115 pool with no bounce signal and just entered — thin liquidity + no narrative momentum = exit before the -30% hard stop. Reclaim capital for a better setup."
     }
   ],
   "trade_stats": {
-    "total": 2008,
+    "total": 2009,
     "wins": 1019,
-    "losses": 989,
+    "losses": 990,
     "win_rate_pct": 50.7,
-    "total_pnl_sol": -2.158942,
-    "avg_pnl_pct": 32.32,
+    "total_pnl_sol": -2.162573,
+    "avg_pnl_pct": 32.3,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 26,
-    "today_realized_sol": -0.024784,
-    "today_target_pct": -6.2,
+    "today_trades": 27,
+    "today_realized_sol": -0.028415,
+    "today_target_pct": -7.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1019,
-      "loss_count": 989,
+      "loss_count": 990,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T03:27:57.774124+00:00",
+  "last_llm_brief_at": "2026-09-06T03:29:17.754844+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GsLMdQdPqcm5YzKvZX6KbwYf6THcRTGWevqavzQdpump": {
-      "price_usd": 3.525041456603864e-06,
+      "price_usd": 3.1476181813809204e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 306.06966176428006,
-      "volume_h24": 1239.03,
+      "liquidity_usd": 114.89729684082,
+      "volume_h24": 1468.74,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.923859971
+      "real_sol_reserves": 1.096557519
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
