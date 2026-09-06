@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.172842,
+  "balance_sol": 0.176707,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FfB74iNT8kTLNwjKKo9uCL1Vbnk1LWeig9Z7SxZ9pump": {
-      "symbol": "VORTA",
-      "name": "VortaMarkets",
-      "amount": 136907.4394463668,
-      "entry_price_usd": 4.335e-06,
-      "entry_sol_spent": 0.005625,
-      "entry_time": "2026-09-06T03:32:05.263576+00:00",
-      "entry_usd_value": 2.1102000000000003,
-      "entry_signals": {
-        "liquidity_usd": 657.3245169627301,
-        "volume_24h_usd": 694.69,
-        "market_cap_usd": 4323.462102915153,
-        "ath_market_cap_usd": 4360.0510803190255,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 6.229973623,
-        "description": "The Market Before The Market - PreIPO tokenised stocks",
-        "twitter": "https://x.com/VortaMarkets",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -34247,19 +34224,30 @@
       "pnl_pct": 58.01,
       "exit_reason": "auto-TP +30% (25%)",
       "partial": true
+    },
+    {
+      "mint": "FfB74iNT8kTLNwjKKo9uCL1Vbnk1LWeig9Z7SxZ9pump",
+      "symbol": "VORTA",
+      "name": "VortaMarkets",
+      "amount_sold": 136907.4394463668,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-06T03:32:05.263576+00:00",
+      "exit_time": "2026-09-06T03:35:59.648964+00:00",
+      "entry_price_usd": 4.335e-06,
+      "exit_price_usd": 2.9806958802113614e-06,
+      "entry_sol_for_chunk": 0.005625,
+      "exit_sol_received": 0.003865,
+      "pnl_sol": -0.00176,
+      "pnl_pct": -31.24,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-06T03:34:56.181518+00:00",
+  "last_updated": "2026-09-06T03:36:41.552111+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.74,
-  "portfolio_value_usd": 18.87,
+  "last_sol_price_usd": 105.59,
+  "portfolio_value_usd": 18.66,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 02:41 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $memefi at $3.2325e-06 | P&L: +9.2%",
-      "reason": "Up only +9.2% in 0.0h on a $160 pool with 1% share — illiquid and not breaking out. Lock the small gain rather than risk the -30% stop. Free up capital for the fresh attention signals below."
-    },
     {
       "time": "2026-09-06 02:41 UTC",
       "action": "buy",
@@ -34373,40 +34361,46 @@
       "action": "sell",
       "details": "[TP +30% (25%)] $VORTA at $6.84969e-06 | P&L: +58.0%",
       "reason": "Auto take-profit at +58.0%"
+    },
+    {
+      "time": "2026-09-06 03:35 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $VORTA closed at $2.9807e-06 | P&L: -31.2%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2013,
+    "total": 2014,
     "wins": 1022,
-    "losses": 991,
-    "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.154185,
-    "avg_pnl_pct": 32.32,
+    "losses": 992,
+    "win_rate_pct": 50.7,
+    "total_pnl_sol": -2.155945,
+    "avg_pnl_pct": 32.29,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 31,
-    "today_realized_sol": -0.020027,
-    "today_target_pct": -5.0,
+    "today_trades": 32,
+    "today_realized_sol": -0.021787,
+    "today_target_pct": -5.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1022,
-      "loss_count": 991,
+      "loss_count": 992,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-06T03:34:55.928442+00:00",
+  "last_llm_brief_at": "2026-09-06T03:36:41.301951+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FfB74iNT8kTLNwjKKo9uCL1Vbnk1LWeig9Z7SxZ9pump": {
-      "price_usd": 6.849686605837751e-06,
+      "price_usd": 2.9806958802113614e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1656.3362064679798,
-      "volume_h24": 2773.11,
+      "liquidity_usd": 15.25660037335,
+      "volume_h24": 5436.75,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 15.664234977
+      "real_sol_reserves": 0.144489065
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

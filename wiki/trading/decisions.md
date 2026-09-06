@@ -15121,3 +15121,6 @@
 ## [2026-09-06 03:34 UTC] sell | [TP +30% (25%)] $VORTA at $6.84969e-06 | P&L: +58.0%
 - **Reasoning:** Auto take-profit at +58.0%
 
+## [2026-09-06 03:35 UTC] sell | [hard-stop] $VORTA closed at $2.9807e-06 | P&L: -31.2%
+- **Reasoning:** Hard -30% stop
+
