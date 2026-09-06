@@ -15562,3 +15562,9 @@
 ## [2026-09-06 11:00 UTC] buy | [LLM] $$SPOCAT$ at $3.2282e-06, spent 0.02 SOL
 - **Reasoning:** $SPOCAT has a clear narrative (music-loving cat mascot) and an attached X account — classic viral meme format. Tiny mcap ($3.2k) gives big upside if the cat meme catches.
 
+## [2026-09-06 11:11 UTC] sell | [FULL][LLM] $$SPOCAT$ at $3.17659e-06 | P&L: -1.6%
+- **Reasoning:** Pool only $104 with our 2% share = catastrophic exit liquidity risk if it dumps further. -1.6% is a cheap ticket out vs. holding a micro-cap bonding-curve position that has shown no momentum in 12 min. Free the slot for fresher attention.
+
+## [2026-09-06 11:11 UTC] buy | [LLM] $$CPS at $3.01186e-06, spent 0.02 SOL
+- **Reasoning:** $CPS has the strongest narrative of the batch: an actual concept (CyberPhysicalSystem), crafted description, and a live X handle (@CYPHYSI) — that's a real attention signal, not just a name. 0.6min old, mcap $3k, story-led.
+
