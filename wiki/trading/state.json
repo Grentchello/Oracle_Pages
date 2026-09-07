@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.082611,
+  "balance_sol": 0.101906,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7hTeFGbf9HspBnfpNPNXkk1VDsiLa7oSrXXE7eikpump": {
-      "symbol": "Blackcat ",
-      "name": "Blackcat ",
-      "amount": 634913.0173965207,
-      "entry_price_usd": 3.334e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T12:57:18.726368+00:00",
-      "entry_usd_value": 2.1168,
-      "last_seen_price_usd": 3.429349126225499e-06,
-      "entry_signals": {
-        "liquidity_usd": 624.04843471488,
-        "volume_24h_usd": 195.57,
-        "market_cap_usd": 3885.2916513421765,
-        "ath_market_cap_usd": 3885.2916513421765,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.896149232,
-        "description": "Black cats are not bad lucks. They are elegant loving and delightful companions ",
-        "twitter": "https://x.com/blackscats/status/2096472399843578137?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38226,19 +38202,30 @@
       "pnl_pct": -0.04,
       "exit_reason": "LLM: sell_all — Flat at -0.04% after 0.1h with only $140 pool liquidity (2% of pool = our share is dangerously illiquid). No momentum, frees capital for fresh attenti",
       "partial": false
+    },
+    {
+      "mint": "7hTeFGbf9HspBnfpNPNXkk1VDsiLa7oSrXXE7eikpump",
+      "symbol": "Blackcat ",
+      "name": "Blackcat ",
+      "amount_sold": 634913.0173965207,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T12:57:18.726368+00:00",
+      "exit_time": "2026-09-07T13:14:11.476056+00:00",
+      "entry_price_usd": 3.334e-06,
+      "exit_price_usd": 3.212521243729028e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019295,
+      "pnl_sol": -0.000705,
+      "pnl_pct": -3.64,
+      "exit_reason": "LLM: sell_all — Blackcat is -3.6% after 0.3h, marked STALE, pool only $135 (way below 5x position size viability), no viral catalyst. Capital is locked with negative ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T13:12:48.623440+00:00",
+  "last_updated": "2026-09-07T13:14:11.477435+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.53,
-  "portfolio_value_usd": 10.83,
+  "last_sol_price_usd": 105.71,
+  "portfolio_value_usd": 10.77,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 11:28 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $POPFISH at $9.16986e-06 | P&L: +34.8%",
-      "reason": "Auto take-profit at +34.8%"
-    },
     {
       "time": "2026-09-07 11:28 UTC",
       "action": "sell",
@@ -38352,40 +38339,46 @@
       "action": "observe",
       "details": "LLM call failed: llm call failed",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-07 13:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Blackcat  at $3.21252e-06 | P&L: -3.6%",
+      "reason": "Blackcat is -3.6% after 0.3h, marked STALE, pool only $135 (way below 5x position size viability), no viral catalyst. Capital is locked with negative expected return. Rotate to fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 2247,
+    "total": 2248,
     "wins": 1144,
-    "losses": 1103,
+    "losses": 1104,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.230042,
-    "avg_pnl_pct": 30.99,
+    "total_pnl_sol": -2.230747,
+    "avg_pnl_pct": 30.97,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 140,
-    "today_realized_sol": -0.039393,
-    "today_target_pct": -9.8,
+    "today_trades": 141,
+    "today_realized_sol": -0.040098,
+    "today_target_pct": -10.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1144,
-      "loss_count": 1103,
+      "loss_count": 1104,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T13:12:48.128062+00:00",
+  "last_llm_brief_at": "2026-09-07T13:14:11.476020+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7hTeFGbf9HspBnfpNPNXkk1VDsiLa7oSrXXE7eikpump": {
-      "price_usd": 3.429349126225499e-06,
+      "price_usd": 3.212521243729028e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 247.2416158413,
-      "volume_h24": 1420.22,
+      "liquidity_usd": 134.99445799554,
+      "volume_h24": 1618.36,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.34285621
+      "real_sol_reserves": 1.277026374
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
