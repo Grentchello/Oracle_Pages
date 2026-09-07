@@ -16036,3 +16036,6 @@
 ## [2026-09-07 06:15 UTC] buy | [LLM] $CTO at $3.072e-06, spent 0.02 SOL
 - **Reasoning:** $CTO — 'Community Take Over' is a recognized crypto-native pattern (CTO = counter-narrative to 'it's over'); has twitter, real desc, low mcap $3.1k, 3% bonded. Pure attention meta-meme with viral framing. 0.05 SOL.
 
+## [2026-09-07 06:16 UTC] sell | [PARTIAL][LLM] $WhaleCoin at $3.15003e-06 | P&L: +0.8%
+- **Reasoning:** $WhaleCoin at +0.8% on $107 pool is flat after 6 minutes — not up >10%, trending toward stale territory. Sell half to lock in tiny green and free capital for a fresh attention launch.
+
