@@ -16363,3 +16363,6 @@
 ## [2026-09-07 12:13 UTC] sell | [FULL][LLM] $DOXXED at $3.20246e-06 | P&L: -0.0%
 - **Reasoning:** Flat at -0.04% after 0.1h with only $140 pool liquidity (2% of pool = our share is dangerously illiquid). No momentum, frees capital for fresh attention.
 
+## [2026-09-07 12:16 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
