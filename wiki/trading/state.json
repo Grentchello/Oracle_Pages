@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.147754,
+  "balance_sol": 0.167542,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HujcF1dxshnBWizEybw6qcWR5FMHPi6KwWuoqhpXpump": {
-      "symbol": "REBUILT",
-      "name": "Pump Fun Rebuilt",
-      "amount": 688927.3293186076,
-      "entry_price_usd": 3.045604246931605e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T06:43:35.520049+00:00",
-      "entry_usd_value": 2.0982,
-      "last_seen_price_usd": 3.016688253353391e-06,
-      "entry_signals": {
-        "liquidity_usd": 68.03870991528,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3045.313940550237,
-        "ath_market_cap_usd": 3045.313940550237,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.648543608,
-        "description": "It feels like pump.fun just bought the $200 Claude Code subscription and said, “Here, improve the UI and deploy it to prod.” It looks horrible. So I $REBUILT pump.fun to show what the UI should actually look like.",
-        "twitter": "https://x.com/PumpFunRebuilt/status/2096851131515240955",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -37308,19 +37284,30 @@
       "pnl_pct": -6.23,
       "exit_reason": "LLM: sell_all — $MyLast at -6.2% with only $67 pool liquidity and 3% share is fragile. No narrative edge, no twitter signal. Cut early before -20% rule kicks in. Free",
       "partial": false
+    },
+    {
+      "mint": "HujcF1dxshnBWizEybw6qcWR5FMHPi6KwWuoqhpXpump",
+      "symbol": "REBUILT",
+      "name": "Pump Fun Rebuilt",
+      "amount_sold": 688927.3293186076,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T06:43:35.520049+00:00",
+      "exit_time": "2026-09-07T06:59:51.243200+00:00",
+      "entry_price_usd": 3.045604246931605e-06,
+      "exit_price_usd": 3.0191010065124343e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019788,
+      "pnl_sol": -0.000212,
+      "pnl_pct": -0.87,
+      "exit_reason": "LLM: sell_all — $REBUILT is flat (-0.9%) after 0.3h, pool only $43 with our 5% share making us illiquid and prone to slippage. Stale capital — better to rotate into a",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T06:58:30.893196+00:00",
+  "last_updated": "2026-09-07T06:59:51.495286+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.026,
-  "portfolio_value_usd": 17.62,
+  "last_sol_price_usd": 105.11,
+  "portfolio_value_usd": 17.61,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 05:54 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-07 06:07 UTC",
       "action": "buy",
@@ -37434,35 +37421,41 @@
       "action": "sell",
       "details": "[FULL][LLM] $MyLast at $3.06157e-06 | P&L: -6.2%",
       "reason": "$MyLast at -6.2% with only $67 pool liquidity and 3% share is fragile. No narrative edge, no twitter signal. Cut early before -20% rule kicks in. Free up slot for stronger narrative."
+    },
+    {
+      "time": "2026-09-07 06:59 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $REBUILT at $3.0191e-06 | P&L: -0.9%",
+      "reason": "$REBUILT is flat (-0.9%) after 0.3h, pool only $43 with our 5% share making us illiquid and prone to slippage. Stale capital — better to rotate into a fresh launch with a real narrative."
     }
   ],
   "trade_stats": {
-    "total": 2193,
+    "total": 2194,
     "wins": 1118,
-    "losses": 1075,
+    "losses": 1076,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.164898,
-    "avg_pnl_pct": 31.76,
+    "total_pnl_sol": -2.16511,
+    "avg_pnl_pct": 31.74,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 86,
-    "today_realized_sol": 0.025751,
+    "today_trades": 87,
+    "today_realized_sol": 0.025539,
     "today_target_pct": 6.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1118,
-      "loss_count": 1075,
+      "loss_count": 1076,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T06:58:30.622514+00:00",
+  "last_llm_brief_at": "2026-09-07T06:59:51.243162+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "HujcF1dxshnBWizEybw6qcWR5FMHPi6KwWuoqhpXpump": {
-      "price_usd": 3.016688253353391e-06,
+      "price_usd": 3.0191010065124343e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 42.772919637644,
+      "liquidity_usd": 42.807129502340004,
       "volume_h24": 93.35,
       "dex_id": "pumpfun",
       "source": "bonding-curve",

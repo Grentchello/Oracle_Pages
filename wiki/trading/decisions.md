@@ -16087,3 +16087,6 @@
 ## [2026-09-07 06:45 UTC] sell | [FULL][LLM] $MyLast at $3.06157e-06 | P&L: -6.2%
 - **Reasoning:** $MyLast at -6.2% with only $67 pool liquidity and 3% share is fragile. No narrative edge, no twitter signal. Cut early before -20% rule kicks in. Free up slot for stronger narrative.
 
+## [2026-09-07 06:59 UTC] sell | [FULL][LLM] $REBUILT at $3.0191e-06 | P&L: -0.9%
+- **Reasoning:** $REBUILT is flat (-0.9%) after 0.3h, pool only $43 with our 5% share making us illiquid and prone to slippage. Stale capital — better to rotate into a fresh launch with a real narrative.
+
