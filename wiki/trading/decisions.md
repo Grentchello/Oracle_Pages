@@ -15991,3 +15991,6 @@
 ## [2026-09-07 05:03 UTC] buy | [LLM] $$HAVE at $3.04e-06, spent 0.02 SOL
 - **Reasoning:** $$HAVE has the strongest attention signal: relatable shareable meme format ('can i have this? 🥺'), CheezeDibbles twitter attached, 50+ char description passing viability gate, $3k mcap with room to 10x. Single 0.05 SOL position — preserving 0.05 SOL reserve floor.
 
+## [2026-09-07 05:08 UTC] sell | [FULL][LLM] $$HAVE at $2.94324e-06 | P&L: -3.2%
+- **Reasoning:** The position is only 0.1 hours old and slightly down, so there is no bounce signal to justify waiting. The reported $0 pool and enormous share also make the bonding-curve position appear unviable and difficult to exit safely.
+
