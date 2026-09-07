@@ -15847,3 +15847,9 @@
 ## [2026-09-07 02:20 UTC] buy | [LLM] $Brady at $2.36392e-05, spent 0.02 SOL
 - **Reasoning:** $Brady has the strongest attention signal in this batch — real Fortnite viral moment (sprite added to Fortnite today), credible X post from bonderonchain, and $23k mcap is still early enough for 2-5x if the narrative catches. Clear story + fresh launch = alpha window.
 
+## [2026-09-07 02:22 UTC] sell | [hard-stop] $Brady closed at $9.53895e-06 | P&L: -59.6%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-07 02:22 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
