@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.173292,
+  "balance_sol": 0.176475,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -21,28 +21,6 @@
         "real_sol_reserves": 28.707339436,
         "description": "Urgent hunt to find Stanley the armadillo that is on the loose in Sussex https://trib.al/urlN94Z",
         "twitter": "https://x.com/DailyMail/status/2096751953401250255",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt": {
-      "symbol": "BCAT",
-      "name": "Bitcoin Cat",
-      "amount": 14627.98539658765,
-      "entry_price_usd": 7.678e-06,
-      "entry_sol_spent": 0.0010546875,
-      "entry_time": "2026-09-07T00:09:09.433550+00:00",
-      "entry_usd_value": 2.1298,
-      "entry_signals": {
-        "liquidity_usd": 2424.18410618718,
-        "volume_24h_usd": 4496.82,
-        "market_cap_usd": 8304.950816436998,
-        "ath_market_cap_usd": 10044.70417690376,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 22.764429582,
-        "description": "Bitcoin Cat is the hidden cat quietly living on Bitcoin’s front page  a playful symbol of the culture, energy, and internet-native spirit surrounding the world’s first cryptocurrency.",
-        "twitter": "https://x.com/ramentrade/status/2096751997974393044",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -36020,25 +35998,47 @@
       "pnl_pct": 62.32,
       "exit_reason": "LLM: sell_half — BCAT up 62.3% — past +50% TP threshold. Cat meta is hot but I want to lock the gain and free a slot. Half-ride the rest with mental stop at breakeven.",
       "partial": true
+    },
+    {
+      "mint": "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt",
+      "symbol": "BCAT",
+      "name": "Bitcoin Cat",
+      "amount_sold": 10970.989047440737,
+      "fraction_sold": 0.75,
+      "entry_time": "2026-09-07T00:09:09.433550+00:00",
+      "exit_time": "2026-09-07T00:14:33.947471+00:00",
+      "entry_price_usd": 7.678e-06,
+      "exit_price_usd": 2.3166893677594968e-05,
+      "entry_sol_for_chunk": 0.000791,
+      "exit_sol_received": 0.002387,
+      "pnl_sol": 0.001596,
+      "pnl_pct": 201.73,
+      "exit_reason": "auto-TP +200% (75%)",
+      "partial": true
+    },
+    {
+      "mint": "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt",
+      "symbol": "BCAT",
+      "name": "Bitcoin Cat",
+      "amount_sold": 3656.9963491469125,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T00:09:09.433550+00:00",
+      "exit_time": "2026-09-07T00:14:54.463133+00:00",
+      "entry_price_usd": 7.678e-06,
+      "exit_price_usd": 2.3166893677594968e-05,
+      "entry_sol_for_chunk": 0.000264,
+      "exit_sol_received": 0.000796,
+      "pnl_sol": 0.000532,
+      "pnl_pct": 201.73,
+      "exit_reason": "LLM: sell_all — $BCAT at +201.7% is past the +200% TP threshold. Bonding-curve tokens give back gains fast — lock the 3x now rather than hope for more. Frees a slot f",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T00:13:30.002961+00:00",
+  "last_updated": "2026-09-07T00:14:54.752533+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.57,
-  "portfolio_value_usd": 18.98,
+  "last_sol_price_usd": 106.47,
+  "portfolio_value_usd": 19.19,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 14:22 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-06 14:46 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-06 15:47 UTC",
       "action": "observe",
@@ -36146,51 +36146,63 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $BCAT at $1.24627e-05 | P&L: +62.3%",
       "reason": "BCAT up 62.3% — past +50% TP threshold. Cat meta is hot but I want to lock the gain and free a slot. Half-ride the rest with mental stop at breakeven."
+    },
+    {
+      "time": "2026-09-07 00:14 UTC",
+      "action": "sell",
+      "details": "[TP +200% (75%)] $BCAT at $2.31669e-05 | P&L: +201.7%",
+      "reason": "Auto take-profit at +201.7%"
+    },
+    {
+      "time": "2026-09-07 00:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BCAT at $2.31669e-05 | P&L: +201.7%",
+      "reason": "$BCAT at +201.7% is past the +200% TP threshold. Bonding-curve tokens give back gains fast — lock the 3x now rather than hope for more. Frees a slot for fresh alpha."
     }
   ],
   "trade_stats": {
-    "total": 2116,
-    "wins": 1080,
+    "total": 2118,
+    "wins": 1082,
     "losses": 1036,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.154554,
-    "avg_pnl_pct": 32.04,
+    "win_rate_pct": 51.1,
+    "total_pnl_sol": -2.152426,
+    "avg_pnl_pct": 32.2,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 9,
-    "today_realized_sol": 0.036095,
-    "today_target_pct": 9.0,
+    "today_trades": 11,
+    "today_realized_sol": 0.038223,
+    "today_target_pct": 9.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1080,
+      "win_count": 1082,
       "loss_count": 1036,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T00:13:30.002628+00:00",
+  "last_llm_brief_at": "2026-09-07T00:14:54.463096+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DDn91hfV3KSphVygfYqJfGbuhwhTHJm8S9XhmK9r4sYX": {
-      "price_usd": 6.000919063859589e-06,
+      "price_usd": 5.722409049680881e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1340.08886942343,
-      "volume_h24": 42012.74,
+      "liquidity_usd": 1234.47054316131,
+      "volume_h24": 42721.05,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 12.574728999
+      "real_sol_reserves": 11.594538773
     },
     "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt": {
-      "price_usd": 1.246267188001892e-05,
+      "price_usd": 2.3166893677594968e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3341.48167296889,
-      "volume_h24": 19851.49,
+      "liquidity_usd": 5716.5219754870495,
+      "volume_h24": 21632.5,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 31.354805977
+      "real_sol_reserves": 53.691387015
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

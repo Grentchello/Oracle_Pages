@@ -15685,3 +15685,9 @@
 ## [2026-09-07 00:13 UTC] sell | [PARTIAL][LLM] $BCAT at $1.24627e-05 | P&L: +62.3%
 - **Reasoning:** BCAT up 62.3% — past +50% TP threshold. Cat meta is hot but I want to lock the gain and free a slot. Half-ride the rest with mental stop at breakeven.
 
+## [2026-09-07 00:14 UTC] sell | [TP +200% (75%)] $BCAT at $2.31669e-05 | P&L: +201.7%
+- **Reasoning:** Auto take-profit at +201.7%
+
+## [2026-09-07 00:14 UTC] sell | [FULL][LLM] $BCAT at $2.31669e-05 | P&L: +201.7%
+- **Reasoning:** $BCAT at +201.7% is past the +200% TP threshold. Bonding-curve tokens give back gains fast — lock the 3x now rather than hope for more. Frees a slot for fresh alpha.
+
