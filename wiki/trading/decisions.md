@@ -16294,3 +16294,6 @@
 ## [2026-09-07 10:38 UTC] buy | [LLM] $PUI at $3.332e-06, spent 0.02 SOL
 - **Reasoning:** $PUI passes viability (twitter link present), has a clear 'Fire Brigade deployment tonight' narrative with a dedicated X account (@PUI_fireman) — classic attention-launch setup at $3.4k mcap, sub-2min old, 0.05 SOL position
 
+## [2026-09-07 10:48 UTC] buy | [LLM] $NANOBCI at $3.133e-06, spent 0.02 SOL
+- **Reasoning:** $NANOBCI has the strongest narrative of the batch — real product story (Subsense non-surgical brain-computer interface, nasal-spray nanoparticles) backed by a Dexerto tweet,2.1min old at $3.1k mcap. Concrete tech + media pickup = viral attention potential.
+
