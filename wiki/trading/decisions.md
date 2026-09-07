@@ -15706,3 +15706,6 @@
 ## [2026-09-07 00:27 UTC] buy | [LLM] $ZPEPE at $4.0112e-06, spent 0.02 SOL
 - **Reasoning:** Anonymous Pepe format has repeatedly captured memecoin attention (AP, various Pepe derivatives). Has Twitter, has decent description. Second-best narrative in the batch. 0.05 SOL.
 
+## [2026-09-07 00:28 UTC] sell | [FULL][LLM] $ZPEPE at $3.53338e-06 | P&L: -11.9%
+- **Reasoning:** ZPEPE is down -11.9% after 0h held with bonding curve pool only $287 — extremely thin liquidity and no momentum. Cut before it hits -30% hard stop, free up slot for fresh launches.
+
