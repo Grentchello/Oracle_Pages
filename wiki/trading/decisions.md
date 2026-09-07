@@ -16405,3 +16405,6 @@
 ## [2026-09-07 13:38 UTC] sell | [hard-stop] $ZMAN closed at $2.99472e-06 | P&L: -74.7%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-07 13:40 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
