@@ -16183,3 +16183,6 @@
 ## [2026-09-07 08:11 UTC] buy | [LLM] $NMA at $9.068e-06, spent 0.02 SOL
 - **Reasoning:** $NMA 'Nemina' — cat meme narrative with real X account (@hardcatmemes), highest mcap $9.5k of the batch, bond 31% closest to graduation. Cat memecoins have proven viral track record. Viability gate passes (132-char desc + twitter). Single position due to thin 0.152 SOL balance — picking the strongest narrative.
 
+## [2026-09-07 08:12 UTC] sell | [hard-stop] $NMA closed at $3.01988e-06 | P&L: -66.7%
+- **Reasoning:** Hard -30% stop
+

@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.131993,
+  "balance_sol": 0.138645,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5kjTwdKhrBp6ZXyfgNLqpNdnAd2g9Zz4sZRvEfSypump": {
-      "symbol": "NMA",
-      "name": "Nemina",
-      "amount": 230569.03396559332,
-      "entry_price_usd": 9.068e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T08:11:14.572712+00:00",
-      "entry_usd_value": 2.0908,
-      "last_seen_price_usd": 9.068e-06,
-      "entry_signals": {
-        "liquidity_usd": 14.77008893282,
-        "volume_24h_usd": 2669.09,
-        "market_cap_usd": 9575.209457280396,
-        "ath_market_cap_usd": 9575.209457280396,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.141286483,
-        "description": "Meet the cutest cat on the blockchain — fluffy paws, big dreams, and absolutely zero financial responsibility. 🐱🚀",
-        "twitter": "https://x.com/hardcatmemes",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -37665,19 +37641,30 @@
       "pnl_pct": -27.11,
       "exit_reason": "LLM: sell_all — $wen is at -27.1% and only ~3 percentage points from the -30% hard stop. Held 0.0h on bonding curve with 0% pool share, no bounce signal, and pool is ",
       "partial": false
+    },
+    {
+      "mint": "5kjTwdKhrBp6ZXyfgNLqpNdnAd2g9Zz4sZRvEfSypump",
+      "symbol": "NMA",
+      "name": "Nemina",
+      "amount_sold": 230569.03396559332,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T08:11:14.572712+00:00",
+      "exit_time": "2026-09-07T08:12:18.415252+00:00",
+      "entry_price_usd": 9.068e-06,
+      "exit_price_usd": 3.0198813732664666e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.006652,
+      "pnl_sol": -0.013348,
+      "pnl_pct": -66.7,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T08:11:14.572902+00:00",
+  "last_updated": "2026-09-07T08:12:47.691459+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.54,
-  "portfolio_value_usd": 15.89,
+  "last_sol_price_usd": 104.68,
+  "portfolio_value_usd": 14.51,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 07:26 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SafeSascha at $3.02654e-06 | P&L: -6.0%",
-      "reason": "-6% held0h with only $50 pool liquidity and a name like 'SafeSascha' — this is a micro-cap grind that won't attract attention. Lock in the small loss and free the slot for fresher launches with actual narrative."
-    },
     {
       "time": "2026-09-07 07:28 UTC",
       "action": "sell",
@@ -37791,30 +37778,48 @@
       "action": "buy",
       "details": "[LLM] $NMA at $9.068e-06, spent 0.02 SOL",
       "reason": "$NMA 'Nemina' — cat meme narrative with real X account (@hardcatmemes), highest mcap $9.5k of the batch, bond 31% closest to graduation. Cat memecoins have proven viral track record. Viability gate passes (132-char desc + twitter). Single position due to thin 0.152 SOL balance — picking the strongest narrative."
+    },
+    {
+      "time": "2026-09-07 08:12 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $NMA closed at $3.01988e-06 | P&L: -66.7%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2214,
+    "total": 2215,
     "wins": 1128,
-    "losses": 1086,
+    "losses": 1087,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.180659,
-    "avg_pnl_pct": 31.46,
+    "total_pnl_sol": -2.194007,
+    "avg_pnl_pct": 31.41,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 107,
-    "today_realized_sol": 0.00999,
-    "today_target_pct": 2.5,
+    "today_trades": 108,
+    "today_realized_sol": -0.003358,
+    "today_target_pct": -0.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1128,
-      "loss_count": 1086,
+      "loss_count": 1087,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T08:11:13.074991+00:00",
+  "last_llm_brief_at": "2026-09-07T08:12:47.414096+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5kjTwdKhrBp6ZXyfgNLqpNdnAd2g9Zz4sZRvEfSypump": {
+      "price_usd": 3.0198813732664666e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 49.57505711684,
+      "volume_h24": 5988.41,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.473586713
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
