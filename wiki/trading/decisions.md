@@ -15721,3 +15721,6 @@
 ## [2026-09-07 00:37 UTC] sell | [FULL][LLM] $CCA at $2.96785e-06 | P&L: -6.8%
 - **Reasoning:** $CCA is down 6.8% in 6 minutes with no bounce signal, pool is $0 (liquidity evaporated), and our share shows 623M% (means we're holding the bag from bonding curve exit). Cut the loss now before it deepens toward -30% hard stop. Fresh slate means I should not babysit a dead position.
 
+## [2026-09-07 00:39 UTC] buy | [LLM] $ORGY at $3.042e-06, spent 0.02 SOL
+- **Reasoning:** $ORGY ties to an actual Wendy's brand X account (rare brand-engagement signal), has full viability metadata (desc+twitter), and brand-parody memecoins historically pump on the engagement wave. Risk: bond only 1% complete and mcap $3k means thin book — fragile if Wendy's deletes the tweet.
+
