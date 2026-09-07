@@ -16267,3 +16267,6 @@
 ## [2026-09-07 10:06 UTC] buy | [LLM] $rip tucker at $3.151e-06, spent 0.02 SOL
 - **Reasoning:** $rip tucker has genuine emotional virality — golden retriever passing story spreads on TikTok/X pet communities fast. mcap $3k + twitter = early attention. Risk: emotional-narrative coins can rug or die when news cycle moves on.
 
+## [2026-09-07 10:07 UTC] sell | [FULL][LLM] $rip tucker at $2.93374e-06 | P&L: -6.9%
+- **Reasoning:** $rip tucker is -6.9% AND pool=$0 AND our share=465302957% (data is corrupted/we own effectively the whole float, meaning no real liquidity to exit into). This is dead capital. Even worse, held 0h and pool is $0 — cannot exit at any meaningful price. Mark as loss, free the slot. Hard to exit but better than waiting for the -30% auto to fire.
+

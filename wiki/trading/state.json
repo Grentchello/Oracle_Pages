@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.085651,
+  "balance_sol": 0.104263,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -11,7 +11,7 @@
       "entry_sol_spent": 0.02,
       "entry_time": "2026-09-07T10:06:06.824665+00:00",
       "entry_usd_value": 2.0976,
-      "last_seen_price_usd": 3.02e-06,
+      "last_seen_price_usd": 3.2825902076102803e-06,
       "entry_signals": {
         "liquidity_usd": 36.3879303624,
         "volume_24h_usd": 275.7,
@@ -22,29 +22,6 @@
         "real_sol_reserves": 0.34694823,
         "description": "$CATHAT - CatAnsemHat. Not just a hat. It’s a lifestyle. 💰 Reward Stock: $ANSEM 🐱 THE LEGEND STARTS NOW.",
         "twitter": "https://x.com/DaVinciWhale",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "EVhmpfGrWpwvAw9zrqUM13tEHryaSKPW53brKXY3pump": {
-      "symbol": "rip tucker",
-      "name": "tucker",
-      "amount": 665693.4306569343,
-      "entry_price_usd": 3.151e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T10:06:08.201890+00:00",
-      "entry_usd_value": 2.0976,
-      "last_seen_price_usd": 3.151e-06,
-      "entry_signals": {
-        "liquidity_usd": 82.86814837992,
-        "volume_24h_usd": 611.37,
-        "market_cap_usd": 3149.945835407579,
-        "ath_market_cap_usd": 3590.7210958403853,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.790123459,
-        "description": "the famous golden retriever dog named tucker has passed away. I'm sure we have all since his cute face on Instagram before. fees will be sent to the owner.",
-        "twitter": "https://x.com/kaidabrda290490/status/2096901268610613665",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -37909,19 +37886,30 @@
       "pnl_pct": -2.22,
       "exit_reason": "LLM: sell_all — $GRAMLIN is -2.2% but only 0.0h held — actually it's a fresh entry from last tick. Bonding curve at $1136 pool, my share=0% (I got sandwiched or the c",
       "partial": false
+    },
+    {
+      "mint": "EVhmpfGrWpwvAw9zrqUM13tEHryaSKPW53brKXY3pump",
+      "symbol": "rip tucker",
+      "name": "tucker",
+      "amount_sold": 665693.3948902676,
+      "fraction_sold": 0.9999999462715643,
+      "entry_time": "2026-09-07T10:06:08.201890+00:00",
+      "exit_time": "2026-09-07T10:07:59.515188+00:00",
+      "entry_price_usd": 3.151e-06,
+      "exit_price_usd": 2.9337371858524888e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018612,
+      "pnl_sol": -0.001388,
+      "pnl_pct": -6.9,
+      "exit_reason": "LLM: sell_all — $rip tucker is -6.9% AND pool=$0 AND our share=465302957% (data is corrupted/we own effectively the whole float, meaning no real liquidity to exit int",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T10:06:08.202050+00:00",
+  "last_updated": "2026-09-07T10:08:00.036097+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.88,
-  "portfolio_value_usd": 13.18,
+  "last_sol_price_usd": 104.93,
+  "portfolio_value_usd": 13.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 08:54 UTC",
-      "action": "buy",
-      "details": "[LLM] $MEMETHOS at $3.708e-06, spent 0.02 SOL",
-      "reason": "MEMETHOS passes viability (desc ≥50 chars, has twitter). Mysterious 'myth appeared on-chain' framing is a real viral narrative — anonymity + on-chain origin is meme-canon. $3.7k mcap, 1min old = early attention window."
-    },
     {
       "time": "2026-09-07 08:56 UTC",
       "action": "sell",
@@ -38035,30 +38023,59 @@
       "action": "buy",
       "details": "[LLM] $rip tucker at $3.151e-06, spent 0.02 SOL",
       "reason": "$rip tucker has genuine emotional virality — golden retriever passing story spreads on TikTok/X pet communities fast. mcap $3k + twitter = early attention. Risk: emotional-narrative coins can rug or die when news cycle moves on."
+    },
+    {
+      "time": "2026-09-07 10:07 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $rip tucker at $2.93374e-06 | P&L: -6.9%",
+      "reason": "$rip tucker is -6.9% AND pool=$0 AND our share=465302957% (data is corrupted/we own effectively the whole float, meaning no real liquidity to exit into). This is dead capital. Even worse, held 0h and pool is $0 — cannot exit at any meaningful price. Mark as loss, free the slot. Hard to exit but better than waiting for the -30% auto to fire."
     }
   ],
   "trade_stats": {
-    "total": 2227,
+    "total": 2228,
     "wins": 1131,
-    "losses": 1096,
+    "losses": 1097,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.207001,
-    "avg_pnl_pct": 31.21,
+    "total_pnl_sol": -2.208389,
+    "avg_pnl_pct": 31.2,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 120,
-    "today_realized_sol": -0.016352,
-    "today_target_pct": -4.1,
+    "today_trades": 121,
+    "today_realized_sol": -0.01774,
+    "today_target_pct": -4.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1131,
-      "loss_count": 1096,
+      "loss_count": 1097,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T10:06:05.293052+00:00",
+  "last_llm_brief_at": "2026-09-07T10:07:59.514992+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "D9Pczff49uutEgGDFwsB9wHZXzNdvjgrRWDgiHZkEdAg": {
+      "price_usd": 3.2825902076102803e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 181.90391530801,
+      "volume_h24": 291.89,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.733573957
+    },
+    "EVhmpfGrWpwvAw9zrqUM13tEHryaSKPW53brKXY3pump": {
+      "price_usd": 2.9337371858524888e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4.1972000000000006e-07,
+      "volume_h24": 741.16,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
