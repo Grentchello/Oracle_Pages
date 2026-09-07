@@ -15904,3 +15904,6 @@
 ## [2026-09-07 02:52 UTC] sell | [hard-stop] $CAPY closed at $2.99169e-06 | P&L: -61.0%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-07 02:59 UTC] buy | [LLM] $Normie at $1.09694e-05, spent 0.02 SOL
+- **Reasoning:** $Normie — influencer with 5M TikTok followers explicitly promising onboarding is the strongest attention narrative here. Classic meta-coin launch, $10.9k mcap is early enough for 2-5x if the creator delivers. Real risk: creator is all talk, but the narrative itself is the trade.
+
