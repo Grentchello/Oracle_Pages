@@ -16504,3 +16504,6 @@
 ## [2026-09-07 16:31 UTC] sell | [FULL][LLM] $SMOKINGCAT at $8.99563e-06 | P&L: +21.1%
 - **Reasoning:** SMOKINGCAT is up +21.1% on a tiny $2370 pool — even on bonding curve this is thin. Rules say take profit when up >20% with any doubt. Locking the gain beats hoping for more.
 
+## [2026-09-07 16:54 UTC] buy | [LLM] $PSMG at $1.896e-05, spent 0.02 SOL
+- **Reasoning:** $PSMG has the strongest setup of the batch: highest mcap ($23k), bond 39% already (real capital in), unique biotech/medical narrative that differentiates from generic memes, twitter link present. Buying 0.05 SOL. Hard stop -30%, auto TP ladder active.
+
