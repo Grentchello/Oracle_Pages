@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.08951,
+  "balance_sol": 0.095889,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "6x84KWyqHSBVB2N6TXm5TfDCYJjswd9UxstxA6j1pump": {
       "symbol": "UP",
       "name": "UP Coin",
-      "amount": 196232.85981604704,
+      "amount": 98116.42990802352,
       "entry_price_usd": 5.346199413204542e-06,
-      "entry_sol_spent": 0.01,
+      "entry_sol_spent": 0.005,
       "entry_time": "2026-09-07T11:59:02.406951+00:00",
       "entry_usd_value": 2.0982,
-      "last_seen_price_usd": 6.300597320770765e-06,
+      "last_seen_price_usd": 6.82220574341074e-06,
       "entry_signals": {
         "liquidity_usd": 1138.4132663475,
         "volume_24h_usd": null,
@@ -38124,19 +38124,30 @@
       "pnl_pct": 17.85,
       "exit_reason": "LLM: sell_half — $UP is up +17.9% approaching the +25% TP1 zone. Bonding-curve tokens dump fast once early buyers take profit — locking half the gain protects against ",
       "partial": true
+    },
+    {
+      "mint": "6x84KWyqHSBVB2N6TXm5TfDCYJjswd9UxstxA6j1pump",
+      "symbol": "UP",
+      "name": "UP Coin",
+      "amount_sold": 98116.42990802352,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T11:59:02.406951+00:00",
+      "exit_time": "2026-09-07T12:04:46.593473+00:00",
+      "entry_price_usd": 5.346199413204542e-06,
+      "exit_price_usd": 6.82220574341074e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.006379,
+      "pnl_sol": 0.001379,
+      "pnl_pct": 27.61,
+      "exit_reason": "LLM: sell_half — $UP is up +27.6% in just 0.1h on a tiny $1652 bonding-curve pool where we hold 0% — extreme illiquidly. Take half profit now to lock the +27% gain whi",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T12:03:09.818778+00:00",
+  "last_updated": "2026-09-07T12:04:46.593704+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.032,
-  "portfolio_value_usd": 10.45,
+  "last_sol_price_usd": 104.93,
+  "portfolio_value_usd": 10.59,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 10:17 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Job at $1.36941e-05 | P&L: -12.0%",
-      "reason": "Down -12% with 0% pool share = no real position to recover. Pool only $3,653 is too thin to expect bounce. Cut loser to free slot + capital for fresh launches with stronger attention signals."
-    },
     {
       "time": "2026-09-07 10:23 UTC",
       "action": "buy",
@@ -38250,51 +38261,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $UP at $6.3006e-06 | P&L: +17.9%",
       "reason": "$UP is up +17.9% approaching the +25% TP1 zone. Bonding-curve tokens dump fast once early buyers take profit — locking half the gain protects against a reversal while letting the rest ride if it breaks +30%."
+    },
+    {
+      "time": "2026-09-07 12:04 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $UP at $6.82221e-06 | P&L: +27.6%",
+      "reason": "$UP is up +27.6% in just 0.1h on a tiny $1652 bonding-curve pool where we hold 0% — extreme illiquidly. Take half profit now to lock the +27% gain while letting the rest ride if narrative continues. Selling all risks missing a bigger move; selling half respects the 'up >20% take profit' discipline while keeping upside exposure."
     }
   ],
   "trade_stats": {
-    "total": 2241,
-    "wins": 1139,
+    "total": 2242,
+    "wins": 1140,
     "losses": 1102,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.233142,
+    "total_pnl_sol": -2.231763,
     "avg_pnl_pct": 30.99,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 134,
-    "today_realized_sol": -0.042493,
-    "today_target_pct": -10.6,
+    "today_trades": 135,
+    "today_realized_sol": -0.041114,
+    "today_target_pct": -10.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1139,
+      "win_count": 1140,
       "loss_count": 1102,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T12:03:09.818412+00:00",
+  "last_llm_brief_at": "2026-09-07T12:04:46.593431+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2XAo1trLxXKyhQjN4GxctNENNtrUpCfLtYE1qSgEmY4f": {
-      "price_usd": 2.936589003383217e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 6.30192e-07,
-      "volume_h24": 43.7,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 6e-09
-    },
     "6x84KWyqHSBVB2N6TXm5TfDCYJjswd9UxstxA6j1pump": {
-      "price_usd": 6.300597320770765e-06,
+      "price_usd": 6.82220574341074e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1464.469996272264,
-      "volume_h24": 1657.21,
+      "liquidity_usd": 1652.4480963794301,
+      "volume_h24": 1952.05,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 13.943083977
+      "real_sol_reserves": 15.748099651
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

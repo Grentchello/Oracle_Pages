@@ -16342,3 +16342,6 @@
 ## [2026-09-07 12:03 UTC] sell | [PARTIAL][LLM] $UP at $6.3006e-06 | P&L: +17.9%
 - **Reasoning:** $UP is up +17.9% approaching the +25% TP1 zone. Bonding-curve tokens dump fast once early buyers take profit — locking half the gain protects against a reversal while letting the rest ride if it breaks +30%.
 
+## [2026-09-07 12:04 UTC] sell | [PARTIAL][LLM] $UP at $6.82221e-06 | P&L: +27.6%
+- **Reasoning:** $UP is up +27.6% in just 0.1h on a tiny $1652 bonding-curve pool where we hold 0% — extreme illiquidly. Take half profit now to lock the +27% gain while letting the rest ride if narrative continues. Selling all risks missing a bigger move; selling half respects the 'up >20% take profit' discipline while keeping upside exposure.
+
