@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.103653,
+  "balance_sol": 0.119293,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CW3xfzau82QwpuceVMmFrHeFnGEfGYXapqXj2UpQpump": {
-      "symbol": "SNP",
-      "name": "Shit N Pee 500",
-      "amount": 535369.332654101,
-      "entry_price_usd": 3.926e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T03:52:41.462494+00:00",
-      "entry_usd_value": 2.1018600000000003,
-      "last_seen_price_usd": 3.926e-06,
-      "entry_signals": {
-        "liquidity_usd": 69.960398749956,
-        "volume_24h_usd": 748.22,
-        "market_cap_usd": 3070.9695414326425,
-        "ath_market_cap_usd": 3928.697983743509,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.665699892,
-        "description": "The only honest index. The S&P tracks 500 companies. The SNP tracks where your money actually goes. Piss flows upstream, shit flows downstream — and you've been downstream your whole life. $SNP is the way up. Not financial advice. Bathroom advice.",
-        "twitter": "https://x.com/shitnpee500?s=11 ",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -36934,19 +36910,30 @@
       "pnl_pct": -19.0,
       "exit_reason": "LLM: sell_all — $BOEING767 is at -19% with zero age elapsed, pool only $284 (thin and easily dumped further). Approaching hard -30% stop. No bounce signal, no narrati",
       "partial": false
+    },
+    {
+      "mint": "CW3xfzau82QwpuceVMmFrHeFnGEfGYXapqXj2UpQpump",
+      "symbol": "SNP",
+      "name": "Shit N Pee 500",
+      "amount_sold": 535369.332654101,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T03:52:41.462494+00:00",
+      "exit_time": "2026-09-07T03:54:05.066872+00:00",
+      "entry_price_usd": 3.926e-06,
+      "exit_price_usd": 3.069704589403952e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.01564,
+      "pnl_sol": -0.00436,
+      "pnl_pct": -21.81,
+      "exit_reason": "LLM: sell_all — Down -21.8% in 0h, pool only $70 (no liquidity to recover), bonding-curve token with no clear narrative. Cut the loss now before it hits -30% hard sto",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T03:52:41.462851+00:00",
+  "last_updated": "2026-09-07T03:54:05.067080+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.093,
-  "portfolio_value_usd": 13.0,
+  "last_sol_price_usd": 105.078,
+  "portfolio_value_usd": 12.54,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 03:03 UTC",
-      "action": "buy",
-      "details": "[LLM] $CATPHD at $3.275e-06, spent 0.02 SOL",
-      "reason": "$CATPHD has the strongest narrative of the batch — 'Dr. Cat' doctor-patient meme about buying the top is genuinely funny and shareable, has a real twitter account (@DoctorCatCoin), only $3.2k mcap and 1.4min old. High virality potential."
-    },
     {
       "time": "2026-09-07 03:08 UTC",
       "action": "sell",
@@ -37060,30 +37047,48 @@
       "action": "buy",
       "details": "[LLM] $SNP at $3.926e-06, spent 0.02 SOL",
       "reason": "$SNP 'Shit N Pee 500' is a satirical S&P parody — exactly the meme-culture humor that pumps on crypto X. Has twitter attached, desc is punchy and quotable. Low mcap ($3k) means massive upside if it catches. Taking0.05 SOL position to test narrative-driven entries."
+    },
+    {
+      "time": "2026-09-07 03:54 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SNP at $3.0697e-06 | P&L: -21.8%",
+      "reason": "Down -21.8% in 0h, pool only $70 (no liquidity to recover), bonding-curve token with no clear narrative. Cut the loss now before it hits -30% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 2171,
+    "total": 2172,
     "wins": 1107,
-    "losses": 1064,
+    "losses": 1065,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.208999,
-    "avg_pnl_pct": 31.71,
+    "total_pnl_sol": -2.213359,
+    "avg_pnl_pct": 31.68,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 64,
-    "today_realized_sol": -0.01835,
-    "today_target_pct": -4.6,
+    "today_trades": 65,
+    "today_realized_sol": -0.02271,
+    "today_target_pct": -5.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1107,
-      "loss_count": 1064,
+      "loss_count": 1065,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T03:52:39.963958+00:00",
+  "last_llm_brief_at": "2026-09-07T03:54:05.066838+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CW3xfzau82QwpuceVMmFrHeFnGEfGYXapqXj2UpQpump": {
+      "price_usd": 3.069704589403952e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 69.95041325157601,
+      "volume_h24": 1405.39,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.665699892
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

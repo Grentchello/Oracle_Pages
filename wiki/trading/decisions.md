@@ -15970,3 +15970,6 @@
 ## [2026-09-07 03:52 UTC] buy | [LLM] $SNP at $3.926e-06, spent 0.02 SOL
 - **Reasoning:** $SNP 'Shit N Pee 500' is a satirical S&P parody — exactly the meme-culture humor that pumps on crypto X. Has twitter attached, desc is punchy and quotable. Low mcap ($3k) means massive upside if it catches. Taking0.05 SOL position to test narrative-driven entries.
 
+## [2026-09-07 03:54 UTC] sell | [FULL][LLM] $SNP at $3.0697e-06 | P&L: -21.8%
+- **Reasoning:** Down -21.8% in 0h, pool only $70 (no liquidity to recover), bonding-curve token with no clear narrative. Cut the loss now before it hits -30% hard stop.
+
