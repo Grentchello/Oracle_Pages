@@ -15691,3 +15691,9 @@
 ## [2026-09-07 00:14 UTC] sell | [FULL][LLM] $BCAT at $2.31669e-05 | P&L: +201.7%
 - **Reasoning:** $BCAT at +201.7% is past the +200% TP threshold. Bonding-curve tokens give back gains fast — lock the 3x now rather than hope for more. Frees a slot for fresh alpha.
 
+## [2026-09-07 00:15 UTC] sell | [TP +30% (25%)] $STANLEY at $9.83846e-06 | P&L: +90.8%
+- **Reasoning:** Auto take-profit at +90.8%
+
+## [2026-09-07 00:16 UTC] sell | [FULL][LLM] $STANLEY at $9.83846e-06 | P&L: +90.8%
+- **Reasoning:** +90.8% in 0.1h on a tiny $2.6k pool — locked in nearly 2x. Per scalp discipline, take profit at +50%+, and at +90% with a thin pool there's serious rug/illiquidity risk. Lock the gain, rotate into a fresh launch.
+

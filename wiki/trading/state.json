@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.176475,
+  "balance_sol": 0.183636,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DDn91hfV3KSphVygfYqJfGbuhwhTHJm8S9XhmK9r4sYX": {
-      "symbol": "STANLEY",
-      "name": "Stanley",
-      "amount": 77479.63932518905,
-      "entry_price_usd": 5.157e-06,
-      "entry_sol_spent": 0.00375,
-      "entry_time": "2026-09-07T00:07:45.850375+00:00",
-      "entry_usd_value": 2.131,
-      "entry_signals": {
-        "liquidity_usd": 3058.7670169058,
-        "volume_24h_usd": 1010.46,
-        "market_cap_usd": 7033.743108982446,
-        "ath_market_cap_usd": 7892.430351512903,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 28.707339436,
-        "description": "Urgent hunt to find Stanley the armadillo that is on the loose in Sussex https://trib.al/urlN94Z",
-        "twitter": "https://x.com/DailyMail/status/2096751953401250255",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -36032,25 +36009,47 @@
       "pnl_pct": 201.73,
       "exit_reason": "LLM: sell_all — $BCAT at +201.7% is past the +200% TP threshold. Bonding-curve tokens give back gains fast — lock the 3x now rather than hope for more. Frees a slot f",
       "partial": false
+    },
+    {
+      "mint": "DDn91hfV3KSphVygfYqJfGbuhwhTHJm8S9XhmK9r4sYX",
+      "symbol": "STANLEY",
+      "name": "Stanley",
+      "amount_sold": 19369.909831297264,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-07T00:07:45.850375+00:00",
+      "exit_time": "2026-09-07T00:15:57.916369+00:00",
+      "entry_price_usd": 5.157e-06,
+      "exit_price_usd": 9.838463174070503e-06,
+      "entry_sol_for_chunk": 0.000937,
+      "exit_sol_received": 0.00179,
+      "pnl_sol": 0.000853,
+      "pnl_pct": 90.78,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "DDn91hfV3KSphVygfYqJfGbuhwhTHJm8S9XhmK9r4sYX",
+      "symbol": "STANLEY",
+      "name": "Stanley",
+      "amount_sold": 58109.72949389179,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T00:07:45.850375+00:00",
+      "exit_time": "2026-09-07T00:16:11.839087+00:00",
+      "entry_price_usd": 5.157e-06,
+      "exit_price_usd": 9.838463174070503e-06,
+      "entry_sol_for_chunk": 0.002812,
+      "exit_sol_received": 0.005371,
+      "pnl_sol": 0.002558,
+      "pnl_pct": 90.78,
+      "exit_reason": "LLM: sell_all — +90.8% in 0.1h on a tiny $2.6k pool — locked in nearly 2x. Per scalp discipline, take profit at +50%+, and at +90% with a thin pool there's serious ru",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T00:14:54.752533+00:00",
+  "last_updated": "2026-09-07T00:16:12.342660+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.47,
-  "portfolio_value_usd": 19.19,
+  "last_sol_price_usd": 106.45,
+  "portfolio_value_usd": 19.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 15:47 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-06 16:48 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-06 17:07 UTC",
       "action": "observe",
@@ -36158,51 +36157,52 @@
       "action": "sell",
       "details": "[FULL][LLM] $BCAT at $2.31669e-05 | P&L: +201.7%",
       "reason": "$BCAT at +201.7% is past the +200% TP threshold. Bonding-curve tokens give back gains fast — lock the 3x now rather than hope for more. Frees a slot for fresh alpha."
+    },
+    {
+      "time": "2026-09-07 00:15 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $STANLEY at $9.83846e-06 | P&L: +90.8%",
+      "reason": "Auto take-profit at +90.8%"
+    },
+    {
+      "time": "2026-09-07 00:16 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $STANLEY at $9.83846e-06 | P&L: +90.8%",
+      "reason": "+90.8% in 0.1h on a tiny $2.6k pool — locked in nearly 2x. Per scalp discipline, take profit at +50%+, and at +90% with a thin pool there's serious rug/illiquidity risk. Lock the gain, rotate into a fresh launch."
     }
   ],
   "trade_stats": {
-    "total": 2118,
-    "wins": 1082,
+    "total": 2120,
+    "wins": 1084,
     "losses": 1036,
     "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.152426,
-    "avg_pnl_pct": 32.2,
+    "total_pnl_sol": -2.149015,
+    "avg_pnl_pct": 32.25,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 11,
-    "today_realized_sol": 0.038223,
-    "today_target_pct": 9.6,
+    "today_trades": 13,
+    "today_realized_sol": 0.041634,
+    "today_target_pct": 10.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1082,
+      "win_count": 1084,
       "loss_count": 1036,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T00:14:54.463096+00:00",
+  "last_llm_brief_at": "2026-09-07T00:16:11.839049+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DDn91hfV3KSphVygfYqJfGbuhwhTHJm8S9XhmK9r4sYX": {
-      "price_usd": 5.722409049680881e-06,
+      "price_usd": 9.838463174070503e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1234.47054316131,
-      "volume_h24": 42721.05,
+      "liquidity_usd": 2612.76636933095,
+      "volume_h24": 44984.18,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 11.594538773
-    },
-    "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt": {
-      "price_usd": 2.3166893677594968e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 5716.5219754870495,
-      "volume_h24": 21632.5,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 53.691387015
+      "real_sol_reserves": 24.544540811
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
