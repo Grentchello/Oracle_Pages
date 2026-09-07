@@ -16318,3 +16318,6 @@
 ## [2026-09-07 11:28 UTC] sell | [PARTIAL][LLM] $POPFISH at $9.16986e-06 | P&L: +34.8%
 - **Reasoning:** Up +34.8% past first TP on a $2,418 pool bonding-curve position. Liquidity is below the 5x threshold and any larger holder selling will collapse price. Lock half the gain, keep the rest for a continued pump. Bot would auto-TP at +100% but I'd rather take17% realized gain now than risk the full position on thin liquidity.
 
+## [2026-09-07 11:30 UTC] sell | [FULL][LLM] $POPFISH at $8.67984e-06 | P&L: +27.6%
+- **Reasoning:** $POPFISH is up +27.6% and the +25% auto-TP should have fired — since it's still showing as held, locking the gain now is the disciplined move. Memecoins at micro-caps give back +20% gains fast; the bot enforces aggressive profit-taking at >20% and I should respect that.
+

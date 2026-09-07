@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.107626,
+  "balance_sol": 0.117201,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7z6pRVLuaHkhJivD2r9ayisv2ypTPgZa5oieBFuhpump": {
-      "symbol": "POPFISH",
-      "name": "POPFISH",
-      "amount": 115635.78835671581,
-      "entry_price_usd": 6.804338096202405e-06,
-      "entry_sol_spent": 0.0075,
-      "entry_time": "2026-09-07T11:27:28.266353+00:00",
-      "entry_usd_value": 2.0982,
-      "last_seen_price_usd": 9.169861027177943e-06,
-      "entry_signals": {
-        "liquidity_usd": 1809.7611488969999,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6801.967927058449,
-        "ath_market_cap_usd": 6968.399097150358,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 17.2506067,
-        "description": "This is the perfect Solana narrative.  At the perfect time to bring back the SOL trenches.  We have literally been given a remake of the $POPCAT meme but with a fish! It’s already at 300K views in 5 hrs, which is crazy.  Just watch the video below! $POPFISH",
-        "twitter": "https://x.com/barnsrebirth0/status/2096922913911828701?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38056,19 +38032,30 @@
       "pnl_pct": 34.76,
       "exit_reason": "LLM: sell_half — Up +34.8% past first TP on a $2,418 pool bonding-curve position. Liquidity is below the 5x threshold and any larger holder selling will collapse price",
       "partial": true
+    },
+    {
+      "mint": "7z6pRVLuaHkhJivD2r9ayisv2ypTPgZa5oieBFuhpump",
+      "symbol": "POPFISH",
+      "name": "POPFISH",
+      "amount_sold": 115635.78835671581,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T11:27:28.266353+00:00",
+      "exit_time": "2026-09-07T11:30:16.727231+00:00",
+      "entry_price_usd": 6.804338096202405e-06,
+      "exit_price_usd": 8.67983590164867e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.009575,
+      "pnl_sol": 0.002075,
+      "pnl_pct": 27.56,
+      "exit_reason": "LLM: sell_all — $POPFISH is up +27.6% and the +25% auto-TP should have fired — since it's still showing as held, locking the gain now is the disciplined move. Memecoi",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T11:28:45.010863+00:00",
+  "last_updated": "2026-09-07T11:30:16.992365+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 104.83,
-  "portfolio_value_usd": 12.24,
+  "portfolio_value_usd": 12.29,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 10:04 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GRAMLIN at $5.43175e-06 | P&L: -2.2%",
-      "reason": "$GRAMLIN is -2.2% but only 0.0h held — actually it's a fresh entry from last tick. Bonding curve at $1136 pool, my share=0% (I got sandwiched or the curve moved against me on entry). No conviction in the narrative; better to free the slot for fresh launches with actual attention."
-    },
     {
       "time": "2026-09-07 10:06 UTC",
       "action": "buy",
@@ -38182,40 +38169,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $POPFISH at $9.16986e-06 | P&L: +34.8%",
       "reason": "Up +34.8% past first TP on a $2,418 pool bonding-curve position. Liquidity is below the 5x threshold and any larger holder selling will collapse price. Lock half the gain, keep the rest for a continued pump. Bot would auto-TP at +100% but I'd rather take17% realized gain now than risk the full position on thin liquidity."
+    },
+    {
+      "time": "2026-09-07 11:30 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $POPFISH at $8.67984e-06 | P&L: +27.6%",
+      "reason": "$POPFISH is up +27.6% and the +25% auto-TP should have fired — since it's still showing as held, locking the gain now is the disciplined move. Memecoins at micro-caps give back +20% gains fast; the bot enforces aggressive profit-taking at >20% and I should respect that."
     }
   ],
   "trade_stats": {
-    "total": 2237,
-    "wins": 1137,
+    "total": 2238,
+    "wins": 1138,
     "losses": 1100,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.217526,
+    "total_pnl_sol": -2.215451,
     "avg_pnl_pct": 31.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 130,
-    "today_realized_sol": -0.026877,
-    "today_target_pct": -6.7,
+    "today_trades": 131,
+    "today_realized_sol": -0.024802,
+    "today_target_pct": -6.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1137,
+      "win_count": 1138,
       "loss_count": 1100,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T11:28:45.009812+00:00",
+  "last_llm_brief_at": "2026-09-07T11:30:16.727184+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7z6pRVLuaHkhJivD2r9ayisv2ypTPgZa5oieBFuhpump": {
-      "price_usd": 9.169861027177943e-06,
+      "price_usd": 8.67983590164867e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2417.7874508485497,
-      "volume_h24": 11503.59,
+      "liquidity_usd": 2267.11559921011,
+      "volume_h24": 15287.5,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 23.063888685
+      "real_sol_reserves": 21.626591617
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
