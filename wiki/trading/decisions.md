@@ -15907,3 +15907,6 @@
 ## [2026-09-07 02:59 UTC] buy | [LLM] $Normie at $1.09694e-05, spent 0.02 SOL
 - **Reasoning:** $Normie — influencer with 5M TikTok followers explicitly promising onboarding is the strongest attention narrative here. Classic meta-coin launch, $10.9k mcap is early enough for 2-5x if the creator delivers. Real risk: creator is all talk, but the narrative itself is the trade.
 
+## [2026-09-07 03:00 UTC] sell | [hard-stop] $Normie closed at $5.01616e-06 | P&L: -54.3%
+- **Reasoning:** Hard -30% stop
+

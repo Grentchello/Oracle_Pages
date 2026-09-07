@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.141771,
+  "balance_sol": 0.150935,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EeYjQSyQJauYZEWcMFFRV3ZRDG17MKGK8ruXSGPrBmj9": {
-      "symbol": "Normie",
-      "name": "Normie",
-      "amount": 193409.97546875055,
-      "entry_price_usd": 1.0969444543168298e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T02:59:04.161976+00:00",
-      "entry_usd_value": 2.1216,
-      "last_seen_price_usd": 1.0969444543168298e-05,
-      "entry_signals": {
-        "liquidity_usd": 2660.14142115696,
-        "volume_24h_usd": null,
-        "market_cap_usd": 10949.948005873048,
-        "ath_market_cap_usd": 13268.066415916552,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 25.076747937,
-        "description": "I have 5 MILLION followers and will onboard a bunch of normies through MY TIKTOK.",
-        "twitter": "https://x.com/robtmb1/status/2096794782504759320",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -36713,19 +36689,30 @@
       "pnl_pct": -61.05,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "EeYjQSyQJauYZEWcMFFRV3ZRDG17MKGK8ruXSGPrBmj9",
+      "symbol": "Normie",
+      "name": "Normie",
+      "amount_sold": 193409.97546875055,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T02:59:04.161976+00:00",
+      "exit_time": "2026-09-07T03:00:08.286613+00:00",
+      "entry_price_usd": 1.0969444543168298e-05,
+      "exit_price_usd": 5.016164730562183e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.009164,
+      "pnl_sol": -0.010836,
+      "pnl_pct": -54.27,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T02:59:04.501447+00:00",
+  "last_updated": "2026-09-07T03:00:41.230874+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.08,
-  "portfolio_value_usd": 17.16,
+  "last_sol_price_usd": 105.87,
+  "portfolio_value_usd": 15.98,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 02:22 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $Brady closed at $9.53895e-06 | P&L: -59.6%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-07 02:22 UTC",
       "action": "observe",
@@ -36839,30 +36826,48 @@
       "action": "buy",
       "details": "[LLM] $Normie at $1.09694e-05, spent 0.02 SOL",
       "reason": "$Normie — influencer with 5M TikTok followers explicitly promising onboarding is the strongest attention narrative here. Classic meta-coin launch, $10.9k mcap is early enough for 2-5x if the creator delivers. Real risk: creator is all talk, but the narrative itself is the trade."
+    },
+    {
+      "time": "2026-09-07 03:00 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $Normie closed at $5.01616e-06 | P&L: -54.3%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2158,
+    "total": 2159,
     "wins": 1101,
-    "losses": 1057,
+    "losses": 1058,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.170882,
-    "avg_pnl_pct": 31.89,
+    "total_pnl_sol": -2.181718,
+    "avg_pnl_pct": 31.85,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 51,
-    "today_realized_sol": 0.019767,
-    "today_target_pct": 4.9,
+    "today_trades": 52,
+    "today_realized_sol": 0.008931,
+    "today_target_pct": 2.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1101,
-      "loss_count": 1057,
+      "loss_count": 1058,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T02:59:02.755827+00:00",
+  "last_llm_brief_at": "2026-09-07T03:00:40.687922+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EeYjQSyQJauYZEWcMFFRV3ZRDG17MKGK8ruXSGPrBmj9": {
+      "price_usd": 5.016164730562183e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 958.4937231552001,
+      "volume_h24": 26042.36,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 9.05349696
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
