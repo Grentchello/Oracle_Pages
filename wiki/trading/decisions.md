@@ -16441,3 +16441,6 @@
 ## [2026-09-07 15:30 UTC] buy | [LLM] $MUTT at $3.106e-06, spent 0.02 SOL
 - **Reasoning:** $MUTT (MUTTonMars) is the only new launch that passes both hard gates: description 51 chars + has Twitter (viability ✓), no celebrity/political blocklist keywords (fragility ✓). Narrative is genuinely attention-worthy: Mars-themed meme name + '100% of fees redirected to Nepal fund' is a unique charity-hook that can go viral on crypto Twitter. mcap $3.3k is fresh-launch territory with clear upside if the charity angle picks up engagement. Sizing at 0.05 SOL per the hard rules; this leaves me with one slot open and 0.05 SOL reserve intact.
 
+## [2026-09-07 15:36 UTC] sell | [FULL][LLM] $MUTT at $3.04805e-06 | P&L: -1.9%
+- **Reasoning:** $MUTT is -1.9% after only 6 minutes, with tiny pool ($81) and only 2% of our share — no momentum signal yet, just slow bleed on weak liquidity. Cut it free, redeploy into the fresh launches where the attention is.
+
