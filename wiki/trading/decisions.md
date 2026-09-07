@@ -15661,3 +15661,15 @@
 ## [2026-09-07 00:09 UTC] buy | [LLM] $BCAT at $7.678e-06, spent 0.02 SOL
 - **Reasoning:** $BCAT 'Bitcoin Cat' rides the hot Bitcoin Ordinals/culture meta, has a shareable visual hook (hidden cat on BTC front page), mcap $8.3k with room to run. No fragility flags.
 
+## [2026-09-07 00:10 UTC] sell | [TP +30% (25%)] $STANLEY at $6.76496e-06 | P&L: +31.2%
+- **Reasoning:** Auto take-profit at +31.2%
+
+## [2026-09-07 00:10 UTC] sell | [TP +30% (25%)] $BCAT at $1.47842e-05 | P&L: +92.5%
+- **Reasoning:** Auto take-profit at +92.6%
+
+## [2026-09-07 00:10 UTC] sell | [PARTIAL][LLM] $BCAT at $1.47842e-05 | P&L: +92.5%
+- **Reasoning:** $BCAT at +92.6%, approaching the +100% TP trigger at 50%. Pool is only $3925 — thin liquidity means a sharp reversal is possible. Lock half the gains now, let the rest ride toward +200%/+500% if it keeps pumping.
+
+## [2026-09-07 00:10 UTC] sell | [PARTIAL][LLM] $STANLEY at $6.76496e-06 | P&L: +31.2%
+- **Reasoning:** $STANLEY at +31.2% has cleared the +25% TP threshold but pool is dangerously thin ($1620, 0% our share). Selling half locks in a realized gain while keeping exposure if the bonding curve continues filling.
+

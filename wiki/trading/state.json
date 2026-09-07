@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.129904,
+  "balance_sol": 0.16215,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DDn91hfV3KSphVygfYqJfGbuhwhTHJm8S9XhmK9r4sYX": {
       "symbol": "STANLEY",
       "name": "Stanley",
-      "amount": 206612.3715338375,
+      "amount": 77479.63932518905,
       "entry_price_usd": 5.157e-06,
-      "entry_sol_spent": 0.01,
+      "entry_sol_spent": 0.00375,
       "entry_time": "2026-09-07T00:07:45.850375+00:00",
       "entry_usd_value": 2.131,
       "entry_signals": {
@@ -28,9 +28,9 @@
     "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt": {
       "symbol": "BCAT",
       "name": "Bitcoin Cat",
-      "amount": 277389.9452982547,
+      "amount": 104021.22948684552,
       "entry_price_usd": 7.678e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-07T00:09:09.433550+00:00",
       "entry_usd_value": 2.1298,
       "entry_signals": {
@@ -35884,37 +35884,81 @@
       "pnl_pct": 178.88,
       "exit_reason": "auto-TP +100% (50%)",
       "partial": true
+    },
+    {
+      "mint": "DDn91hfV3KSphVygfYqJfGbuhwhTHJm8S9XhmK9r4sYX",
+      "symbol": "STANLEY",
+      "name": "Stanley",
+      "amount_sold": 51653.09288345937,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-07T00:07:45.850375+00:00",
+      "exit_time": "2026-09-07T00:10:13.505118+00:00",
+      "entry_price_usd": 5.157e-06,
+      "exit_price_usd": 6.764961120243338e-06,
+      "entry_sol_for_chunk": 0.0025,
+      "exit_sol_received": 0.003279,
+      "pnl_sol": 0.000779,
+      "pnl_pct": 31.18,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt",
+      "symbol": "BCAT",
+      "name": "Bitcoin Cat",
+      "amount_sold": 69347.48632456368,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-07T00:09:09.433550+00:00",
+      "exit_time": "2026-09-07T00:10:13.505424+00:00",
+      "entry_price_usd": 7.678e-06,
+      "exit_price_usd": 1.4784196223750513e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.00962,
+      "pnl_sol": 0.00462,
+      "pnl_pct": 92.55,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt",
+      "symbol": "BCAT",
+      "name": "Bitcoin Cat",
+      "amount_sold": 104021.22948684552,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T00:09:09.433550+00:00",
+      "exit_time": "2026-09-07T00:10:34.828080+00:00",
+      "entry_price_usd": 7.678e-06,
+      "exit_price_usd": 1.4784196223750513e-05,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.014429,
+      "pnl_sol": 0.006929,
+      "pnl_pct": 92.55,
+      "exit_reason": "LLM: sell_half — $BCAT at +92.6%, approaching the +100% TP trigger at 50%. Pool is only $3925 — thin liquidity means a sharp reversal is possible. Lock half the gains ",
+      "partial": true
+    },
+    {
+      "mint": "DDn91hfV3KSphVygfYqJfGbuhwhTHJm8S9XhmK9r4sYX",
+      "symbol": "STANLEY",
+      "name": "Stanley",
+      "amount_sold": 77479.63932518905,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T00:07:45.850375+00:00",
+      "exit_time": "2026-09-07T00:10:34.828828+00:00",
+      "entry_price_usd": 5.157e-06,
+      "exit_price_usd": 6.764961120243338e-06,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.004918,
+      "pnl_sol": 0.001168,
+      "pnl_pct": 31.18,
+      "exit_reason": "LLM: sell_half — $STANLEY at +31.2% has cleared the +25% TP threshold but pool is dangerously thin ($1620, 0% our share). Selling half locks in a realized gain while k",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T00:09:09.433818+00:00",
+  "last_updated": "2026-09-07T00:10:34.829018+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.49,
-  "portfolio_value_usd": 17.03,
+  "last_sol_price_usd": 106.58,
+  "portfolio_value_usd": 18.48,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 11:41 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $zero at $3.59518e-06 | P&L: -0.8%",
-      "reason": "$zero is down -0.8%, only 6 minutes old but flat-to-down with tiny pool ($317) and we're1% of liquidity. No narrative momentum, micro-cap bonding-curve only. Cut and free the slot for fresher attention."
-    },
-    {
-      "time": "2026-09-06 11:41 UTC",
-      "action": "buy",
-      "details": "[LLM] $solana at $3.839e-06, spent 0.02 SOL",
-      "reason": "$solana (Solana conda) — anti-frog/dog meta-narrative plays well in memecoin culture, mcap $3.9k is early enough for5-10x, twitter handle present. Decent attention story."
-    },
-    {
-      "time": "2026-09-06 11:42 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $solana at $3.65279e-06 | P&L: -4.8%",
-      "reason": "Held <1h and already -4.9% on a bonding-curve position with tiny pool ($345) and 1% share. No bounce signal, narrative is just '$solana' (commodity play). Cut the slow bleed now rather than wait for -30% stop."
-    },
-    {
-      "time": "2026-09-06 11:42 UTC",
-      "action": "buy",
-      "details": "[LLM] $WOLF at $7.54342e-06, spent 0.02 SOL",
-      "reason": "$WOLF — freshest launch with highest mcap ($7.5k, 27% bonded), dev with a Twitter handle and explicit pump.fun narrative ('my version of a memecoin'). Has twitter signal — passes viability gate. Low mcap = high upside if attention catches."
-    },
     {
       "time": "2026-09-06 11:42 UTC",
       "action": "buy",
@@ -36010,40 +36054,75 @@
       "action": "buy",
       "details": "[LLM] $BCAT at $7.678e-06, spent 0.02 SOL",
       "reason": "$BCAT 'Bitcoin Cat' rides the hot Bitcoin Ordinals/culture meta, has a shareable visual hook (hidden cat on BTC front page), mcap $8.3k with room to run. No fragility flags."
+    },
+    {
+      "time": "2026-09-07 00:10 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $STANLEY at $6.76496e-06 | P&L: +31.2%",
+      "reason": "Auto take-profit at +31.2%"
+    },
+    {
+      "time": "2026-09-07 00:10 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $BCAT at $1.47842e-05 | P&L: +92.5%",
+      "reason": "Auto take-profit at +92.6%"
+    },
+    {
+      "time": "2026-09-07 00:10 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BCAT at $1.47842e-05 | P&L: +92.5%",
+      "reason": "$BCAT at +92.6%, approaching the +100% TP trigger at 50%. Pool is only $3925 — thin liquidity means a sharp reversal is possible. Lock half the gains now, let the rest ride toward +200%/+500% if it keeps pumping."
+    },
+    {
+      "time": "2026-09-07 00:10 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $STANLEY at $6.76496e-06 | P&L: +31.2%",
+      "reason": "$STANLEY at +31.2% has cleared the +25% TP threshold but pool is dangerously thin ($1620, 0% our share). Selling half locks in a realized gain while keeping exposure if the bonding curve continues filling."
     }
   ],
   "trade_stats": {
-    "total": 2108,
-    "wins": 1072,
+    "total": 2112,
+    "wins": 1076,
     "losses": 1036,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.172746,
-    "avg_pnl_pct": 31.91,
+    "total_pnl_sol": -2.15925,
+    "avg_pnl_pct": 31.97,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 1,
-    "today_realized_sol": 0.017903,
-    "today_target_pct": 4.5,
+    "today_trades": 5,
+    "today_realized_sol": 0.031399,
+    "today_target_pct": 7.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1072,
+      "win_count": 1076,
       "loss_count": 1036,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T00:09:07.815910+00:00",
+  "last_llm_brief_at": "2026-09-07T00:10:34.827669+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DDn91hfV3KSphVygfYqJfGbuhwhTHJm8S9XhmK9r4sYX": {
-      "price_usd": 1.4381680860523167e-05,
+      "price_usd": 6.764961120243338e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3826.6355174871496,
-      "volume_h24": 18953.74,
+      "liquidity_usd": 1620.20290859994,
+      "volume_h24": 36523.9,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 35.934224035
+      "real_sol_reserves": 15.201753693
+    },
+    "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt": {
+      "price_usd": 1.4784196223750513e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3924.52188698244,
+      "volume_h24": 10537.24,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 36.822310818
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
