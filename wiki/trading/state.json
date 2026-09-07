@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.099241,
+  "balance_sol": 0.11111,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "5R3PJctGXmp3M7xLcRvckeBrMX9rZ1wLpfddbfNipump": {
       "symbol": "MVP",
       "name": "Most Valuable Pussy",
-      "amount": 454763.1384611699,
+      "amount": 227381.56923058495,
       "entry_price_usd": 4.622626202979943e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-07T04:45:48.644727+00:00",
       "entry_usd_value": 2.1022,
-      "last_seen_price_usd": 4.622626202979943e-06,
+      "last_seen_price_usd": 5.490719457086493e-06,
       "entry_signals": {
         "liquidity_usd": 2071.4982742073203,
         "volume_24h_usd": null,
@@ -36968,19 +36968,30 @@
       "pnl_pct": -0.29,
       "exit_reason": "LLM: sell_all — Position is flat (-0.3%) with negligible movement at 0.0h held. Pool is only $21 and we already own 10% — that's massive concentration risk for any ot",
       "partial": false
+    },
+    {
+      "mint": "5R3PJctGXmp3M7xLcRvckeBrMX9rZ1wLpfddbfNipump",
+      "symbol": "MVP",
+      "name": "Most Valuable Pussy",
+      "amount_sold": 227381.56923058495,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T04:45:48.644727+00:00",
+      "exit_time": "2026-09-07T04:47:28.612713+00:00",
+      "entry_price_usd": 4.622626202979943e-06,
+      "exit_price_usd": 5.490719457086493e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011869,
+      "pnl_sol": 0.001869,
+      "pnl_pct": 18.78,
+      "exit_reason": "LLM: sell_half — At +18.8% with only $1156 pool and 0% our share, this is thin and fragile. Lock half the gain now per the 'up >15% and unsure, take profit' rule; let ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T04:45:48.645015+00:00",
+  "last_updated": "2026-09-07T04:47:28.613001+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.11,
-  "portfolio_value_usd": 12.53,
+  "last_sol_price_usd": 105.19,
+  "portfolio_value_usd": 12.74,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 03:10 UTC",
-      "action": "buy",
-      "details": "[LLM] $POO at $3.5358e-06, spent 0.02 SOL",
-      "reason": "$POO (RobinPoo) has the strongest narrative: 'democratised the one asset every human produces daily' — classic absurdist memecoin humor. Mcap $3.5k is fresh, has twitter presence, and absurdist/meme-meta tokens historically pump on attention. Risky but asymmetric."
-    },
     {
       "time": "2026-09-07 03:11 UTC",
       "action": "sell",
@@ -37094,30 +37105,48 @@
       "action": "buy",
       "details": "[LLM] $MVP at $4.62263e-06, spent 0.02 SOL",
       "reason": "$MVP 'Most Valuable Pussy' — viral NFL-adjacent X story (Devilantesol, multi-K view tweet), freshest 0.3min launch, highest mcap in batch at $4.6k, passes viability gate (desc+twitter). Pure attention play. Allocating $5 / 0.05 SOL."
+    },
+    {
+      "time": "2026-09-07 04:47 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $MVP at $5.49072e-06 | P&L: +18.8%",
+      "reason": "At +18.8% with only $1156 pool and 0% our share, this is thin and fragile. Lock half the gain now per the 'up >15% and unsure, take profit' rule; let the remainder ride toward the +25% auto TP. Selling all would forfeit a real chance at the TP ladder on a fresh launch."
     }
   ],
   "trade_stats": {
-    "total": 2173,
-    "wins": 1107,
+    "total": 2174,
+    "wins": 1108,
     "losses": 1066,
-    "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.213411,
-    "avg_pnl_pct": 31.67,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.211542,
+    "avg_pnl_pct": 31.66,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 66,
-    "today_realized_sol": -0.022762,
-    "today_target_pct": -5.7,
+    "today_trades": 67,
+    "today_realized_sol": -0.020893,
+    "today_target_pct": -5.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1107,
+      "win_count": 1108,
       "loss_count": 1066,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T04:45:47.253478+00:00",
+  "last_llm_brief_at": "2026-09-07T04:47:28.612677+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5R3PJctGXmp3M7xLcRvckeBrMX9rZ1wLpfddbfNipump": {
+      "price_usd": 5.490719457086493e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1156.13709273115,
+      "volume_h24": 18732.64,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 10.990941085
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
