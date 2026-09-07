@@ -16039,3 +16039,6 @@
 ## [2026-09-07 06:16 UTC] sell | [PARTIAL][LLM] $WhaleCoin at $3.15003e-06 | P&L: +0.8%
 - **Reasoning:** $WhaleCoin at +0.8% on $107 pool is flat after 6 minutes — not up >10%, trending toward stale territory. Sell half to lock in tiny green and free capital for a fresh attention launch.
 
+## [2026-09-07 06:20 UTC] sell | [FULL][LLM] $WhaleCoin at $2.95088e-06 | P&L: -5.6%
+- **Reasoning:** Pool is only $5 and we hold 21% — we're the bag-holder risk. At -5.6% with no bounce signal and zero depth to exit cleanly later, cutting now beats riding to the -30% hard stop. Free the slot for a stronger narrative.
+

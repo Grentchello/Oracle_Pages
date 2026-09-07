@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.127092,
+  "balance_sol": 0.136537,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "uxjDZERUg4gXKkP3Fxp4Fh7oizAW2oQEuJtvFsapump": {
-      "symbol": "WhaleCoin",
-      "name": "Open Whale",
-      "amount": 336800.0,
-      "entry_price_usd": 3.125e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-07T06:07:57.282752+00:00",
-      "entry_usd_value": 2.105,
-      "last_seen_price_usd": 3.146448936363331e-06,
-      "entry_signals": {
-        "liquidity_usd": 100.935529271,
-        "volume_24h_usd": 97.65,
-        "market_cap_usd": 3126.553809961155,
-        "ath_market_cap_usd": 3126.553809961155,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.959007404,
-        "description": "Open AI's astra is the really AGI this whale is going to go up",
-        "twitter": "https://x.com/OpenAI/status/2095968413646737608",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "FVN5JSUUZfR5iAXqZXBnsRArFUouTmTB6ow6Bt51vVQa": {
       "symbol": "CTO",
       "name": "Community Take Over",
@@ -34,7 +11,7 @@
       "entry_sol_spent": 0.02,
       "entry_time": "2026-09-07T06:15:19.045989+00:00",
       "entry_usd_value": 2.108,
-      "last_seen_price_usd": 3.1507440434058435e-06,
+      "last_seen_price_usd": 3.1507325005786666e-06,
       "entry_signals": {
         "liquidity_usd": 109.25273194360001,
         "volume_24h_usd": 209.29,
@@ -37161,19 +37138,30 @@
       "pnl_pct": 0.8,
       "exit_reason": "LLM: sell_half — $WhaleCoin at +0.8% on $107 pool is flat after 6 minutes — not up >10%, trending toward stale territory. Sell half to lock in tiny green and free capi",
       "partial": true
+    },
+    {
+      "mint": "uxjDZERUg4gXKkP3Fxp4Fh7oizAW2oQEuJtvFsapump",
+      "symbol": "WhaleCoin",
+      "name": "Open Whale",
+      "amount_sold": 336800.0,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T06:07:57.282752+00:00",
+      "exit_time": "2026-09-07T06:20:19.677423+00:00",
+      "entry_price_usd": 3.125e-06,
+      "exit_price_usd": 2.950878573294083e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.009445,
+      "pnl_sol": -0.000555,
+      "pnl_pct": -5.57,
+      "exit_reason": "LLM: sell_all — Pool is only $5 and we hold 21% — we're the bag-holder risk. At -5.6% with no bounce signal and zero depth to exit cleanly later, cutting now beats ri",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T06:18:44.856789+00:00",
+  "last_updated": "2026-09-07T06:20:20.037650+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.29,
-  "portfolio_value_usd": 16.54,
+  "last_sol_price_usd": 105.23,
+  "portfolio_value_usd": 16.48,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 04:45 UTC",
-      "action": "buy",
-      "details": "[LLM] $MVP at $4.62263e-06, spent 0.02 SOL",
-      "reason": "$MVP 'Most Valuable Pussy' — viral NFL-adjacent X story (Devilantesol, multi-K view tweet), freshest 0.3min launch, highest mcap in batch at $4.6k, passes viability gate (desc+twitter). Pure attention play. Allocating $5 / 0.05 SOL."
-    },
     {
       "time": "2026-09-07 04:47 UTC",
       "action": "sell",
@@ -37287,51 +37275,57 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $WhaleCoin at $3.15003e-06 | P&L: +0.8%",
       "reason": "$WhaleCoin at +0.8% on $107 pool is flat after 6 minutes — not up >10%, trending toward stale territory. Sell half to lock in tiny green and free capital for a fresh attention launch."
+    },
+    {
+      "time": "2026-09-07 06:20 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WhaleCoin at $2.95088e-06 | P&L: -5.6%",
+      "reason": "Pool is only $5 and we hold 21% — we're the bag-holder risk. At -5.6% with no bounce signal and zero depth to exit cleanly later, cutting now beats riding to the -30% hard stop. Free the slot for a stronger narrative."
     }
   ],
   "trade_stats": {
-    "total": 2183,
+    "total": 2184,
     "wins": 1111,
-    "losses": 1072,
+    "losses": 1073,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.17556,
-    "avg_pnl_pct": 31.7,
+    "total_pnl_sol": -2.176115,
+    "avg_pnl_pct": 31.69,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 76,
-    "today_realized_sol": 0.015089,
-    "today_target_pct": 3.8,
+    "today_trades": 77,
+    "today_realized_sol": 0.014534,
+    "today_target_pct": 3.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1111,
-      "loss_count": 1072,
+      "loss_count": 1073,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T06:18:44.856745+00:00",
+  "last_llm_brief_at": "2026-09-07T06:20:19.677354+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "uxjDZERUg4gXKkP3Fxp4Fh7oizAW2oQEuJtvFsapump": {
-      "price_usd": 3.146448936363331e-06,
+      "price_usd": 2.950878573294083e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 106.91058598618001,
-      "volume_h24": 106.8,
+      "liquidity_usd": 4.692866754860001,
+      "volume_h24": 205.05,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.015391642
+      "real_sol_reserves": 0.044596282
     },
     "FVN5JSUUZfR5iAXqZXBnsRArFUouTmTB6ow6Bt51vVQa": {
-      "price_usd": 3.1507440434058435e-06,
+      "price_usd": 3.1507325005786666e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 109.13871106586001,
-      "volume_h24": 267.93,
+      "liquidity_usd": 110.00149766253,
+      "volume_h24": 272.93,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.036553434
+      "real_sol_reserves": 1.045343511
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
