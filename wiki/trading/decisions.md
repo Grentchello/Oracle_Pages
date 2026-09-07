@@ -16147,3 +16147,9 @@
 ## [2026-09-07 07:55 UTC] sell | [PARTIAL][LLM] $Kalshi at $6.47679e-06 | P&L: +25.7%
 - **Reasoning:** $Kalshi at +25.7% is above the 20% profit-take threshold and right at the auto-TP trigger. Locking half the position secures realized gain while keeping runner exposure in case the narrative extends.
 
+## [2026-09-07 07:57 UTC] sell | [PARTIAL][LLM] $Kalshi at $5.90363e-06 | P&L: +14.6%
+- **Reasoning:** $Kalshi +14.6% in 6 min on a thin $1.3k pool is a fragile lead — political/election-adjacent narratives pump fast then dump harder, lock half now and ride free with the rest.
+
+## [2026-09-07 07:57 UTC] sell | [FULL][LLM] $ZOLANA at $2.94537e-06 | P&L: -9.3%
+- **Reasoning:** $ZOLANA -9.3% in minutes on a $13 pool = illitquidity rug risk. Pool is below minimum viability, exit immediately and free the slot.
+
