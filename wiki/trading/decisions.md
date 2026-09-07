@@ -16390,3 +16390,6 @@
 ## [2026-09-07 13:21 UTC] sell | [FULL][LLM] $ZROBIN at $1.13635e-05 | P&L: +65.4%
 - **Reasoning:** +65% gain, my share=0% (no organic buyers on curve, likely thin/sybil), and bonding curve pool is only $3k — classic exit liquidity trap where late buyers push price up but real demand is absent. Lock the gain, don't give it back. The bot's +100% TP isn't triggered but the no-buyer signal is loud.
 
+## [2026-09-07 13:29 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
