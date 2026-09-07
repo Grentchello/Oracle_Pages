@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.12714,
+  "balance_sol": 0.136154,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -11,7 +11,7 @@
       "entry_sol_spent": 0.02,
       "entry_time": "2026-09-07T07:18:59.679433+00:00",
       "entry_usd_value": 2.1076,
-      "last_seen_price_usd": 5.375578349208123e-06,
+      "last_seen_price_usd": 5.462351882712686e-06,
       "entry_signals": {
         "liquidity_usd": 1148.10187976286,
         "volume_24h_usd": null,
@@ -29,12 +29,12 @@
     "Gizv5JSoSqct6qiJsPcQNVhXp224MZmfzkiYVw5Kpump": {
       "symbol": "PUMPMAS",
       "name": "Pumpstreaming until Christmas",
-      "amount": 643010.71171973,
+      "amount": 321505.355859865,
       "entry_price_usd": 3.2777058944527234e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-07T07:19:01.409052+00:00",
       "entry_usd_value": 2.1076,
-      "last_seen_price_usd": 3.2777058944527234e-06,
+      "last_seen_price_usd": 2.9529357127852488e-06,
       "entry_signals": {
         "liquidity_usd": 175.13439763754,
         "volume_24h_usd": null,
@@ -37382,19 +37382,30 @@
       "pnl_pct": -1.32,
       "exit_reason": "LLM: sell_all — Down 1.3% in 6 minutes with $40 pool depth, no momentum, no narrative catalyst visible. Flat memecoin with5% of a tiny pool = exit before it bleeds fu",
       "partial": false
+    },
+    {
+      "mint": "Gizv5JSoSqct6qiJsPcQNVhXp224MZmfzkiYVw5Kpump",
+      "symbol": "PUMPMAS",
+      "name": "Pumpstreaming until Christmas",
+      "amount_sold": 321505.355859865,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T07:19:01.409052+00:00",
+      "exit_time": "2026-09-07T07:20:35.639140+00:00",
+      "entry_price_usd": 3.2777058944527234e-06,
+      "exit_price_usd": 2.9529357127852488e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.009014,
+      "pnl_sol": -0.000986,
+      "pnl_pct": -9.91,
+      "exit_reason": "LLM: sell_all — $PUMPMAS is illiquid (pool $4, well below 5x position size) and we own 43% of the pool — we cannot safely exit. With -9.9% loss and effectively unsell",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T07:19:01.409208+00:00",
+  "last_updated": "2026-09-07T07:20:35.639374+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.38,
+  "last_sol_price_usd": 105.32,
   "portfolio_value_usd": 17.61,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 06:29 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CTO at $3.15169e-06 | P&L: +2.6%",
-      "reason": "$CTO is only +2.6% after 0.2h with tiny $110 pool — no viral narrative in the name, no twitter link in candidates, and we already have 2/2 slots. Slot is wasted on a stale almost-flat position."
-    },
     {
       "time": "2026-09-07 06:29 UTC",
       "action": "sell",
@@ -37508,30 +37519,59 @@
       "action": "buy",
       "details": "[LLM] $PUMPMAS at $3.27771e-06, spent 0.02 SOL",
       "reason": "$PUMPMAS has live-streamed creator fee giveaways to charity — built-in attention loop and recurring engagement, very memeable Christmas hook at $3.3k mcap."
+    },
+    {
+      "time": "2026-09-07 07:20 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $PUMPMAS at $2.95294e-06 | P&L: -9.9%",
+      "reason": "$PUMPMAS is illiquid (pool $4, well below 5x position size) and we own 43% of the pool — we cannot safely exit. With -9.9% loss and effectively unsellable, best to dump while any buyers exist rather than wait for the -30% hard stop or total death."
     }
   ],
   "trade_stats": {
-    "total": 2196,
+    "total": 2197,
     "wins": 1118,
-    "losses": 1078,
+    "losses": 1079,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.165512,
-    "avg_pnl_pct": 31.71,
+    "total_pnl_sol": -2.166498,
+    "avg_pnl_pct": 31.7,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 89,
-    "today_realized_sol": 0.025137,
-    "today_target_pct": 6.3,
+    "today_trades": 90,
+    "today_realized_sol": 0.024151,
+    "today_target_pct": 6.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1118,
-      "loss_count": 1078,
+      "loss_count": 1079,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T07:18:58.282169+00:00",
+  "last_llm_brief_at": "2026-09-07T07:20:35.638987+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BUsMgA4fKsWs6PVWz1hkiLxLWr8e6qyiWvGdZ3zcpump": {
+      "price_usd": 5.462351882712686e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1143.74089485364,
+      "volume_h24": 1378.22,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 10.859674277
+    },
+    "Gizv5JSoSqct6qiJsPcQNVhXp224MZmfzkiYVw5Kpump": {
+      "price_usd": 2.9529357127852488e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4.44688075644,
+      "volume_h24": 345.74,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.042222567
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

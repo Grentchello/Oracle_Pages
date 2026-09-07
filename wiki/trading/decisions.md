@@ -16108,3 +16108,6 @@
 ## [2026-09-07 07:19 UTC] buy | [LLM] $PUMPMAS at $3.27771e-06, spent 0.02 SOL
 - **Reasoning:** $PUMPMAS has live-streamed creator fee giveaways to charity — built-in attention loop and recurring engagement, very memeable Christmas hook at $3.3k mcap.
 
+## [2026-09-07 07:20 UTC] sell | [PARTIAL][LLM] $PUMPMAS at $2.95294e-06 | P&L: -9.9%
+- **Reasoning:** $PUMPMAS is illiquid (pool $4, well below 5x position size) and we own 43% of the pool — we cannot safely exit. With -9.9% loss and effectively unsellable, best to dump while any buyers exist rather than wait for the -30% hard stop or total death.
+
