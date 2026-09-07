@@ -16288,3 +16288,6 @@
 ## [2026-09-07 10:23 UTC] buy | [LLM] $prrrr at $7.134e-06, spent 0.02 SOL
 - **Reasoning:** $prrrr — viral cat meme with active X post from @barnsrebirth0, fresh 1-min launch at $9.9k mcap with31% bond filled. Pure attention play: name is catchy, the 'peak cat meme vibes' framing is explicitly designed for virality, and there's a real human posting the catalyst tweet. Liquidity risk is real (microcap) but that's where memecoin alpha lives.
 
+## [2026-09-07 10:24 UTC] sell | [FULL][LLM] $prrrr at $8.36404e-06 | P&L: +17.2%
+- **Reasoning:** Up +17.2% on a $2167 pool means liquidity is razor-thin — one sell and price craters. Rule says lock gains when up >15% and unsure. Bonding-curve tokens with micro-pools don't hold gains; they reverse hard. Take the profit.
+
