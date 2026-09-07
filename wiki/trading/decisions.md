@@ -16291,3 +16291,6 @@
 ## [2026-09-07 10:24 UTC] sell | [FULL][LLM] $prrrr at $8.36404e-06 | P&L: +17.2%
 - **Reasoning:** Up +17.2% on a $2167 pool means liquidity is razor-thin — one sell and price craters. Rule says lock gains when up >15% and unsure. Bonding-curve tokens with micro-pools don't hold gains; they reverse hard. Take the profit.
 
+## [2026-09-07 10:38 UTC] buy | [LLM] $PUI at $3.332e-06, spent 0.02 SOL
+- **Reasoning:** $PUI passes viability (twitter link present), has a clear 'Fire Brigade deployment tonight' narrative with a dedicated X account (@PUI_fireman) — classic attention-launch setup at $3.4k mcap, sub-2min old, 0.05 SOL position
+
