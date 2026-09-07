@@ -16198,3 +16198,6 @@
 ## [2026-09-07 08:28 UTC] sell | [FULL][LLM] $High at $3.02538e-06 | P&L: +0.1%
 - **Reasoning:** $High is flat (+0.1%) at 0.0h held, but the bonding curve is nearly complete and pool is only $52 — extremely thin, one seller away from a rug. Cut it free and rotate into fresher attention.
 
+## [2026-09-07 08:48 UTC] buy | [LLM] $$BUBBLE at $3.029e-06, spent 0.02 SOL
+- **Reasoning:** $$BUBBLE (JUSTICE FOR BUBBLE) — strongest narrative on the board: real emotional story about a dog killed on Korean Air, viral X post, asymmetric attention play. Bond only 2% is the risk — need to enter before it fills or it dies.
+
