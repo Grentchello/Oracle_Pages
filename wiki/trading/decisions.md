@@ -16456,3 +16456,9 @@
 ## [2026-09-07 15:42 UTC] sell | [PARTIAL][LLM] $WOLF at $9.81273e-06 | P&L: +31.5%
 - **Reasoning:** $WOLF is up +31.5% which has crossed the +30% TP1 threshold; locking half secures profit while letting the other half ride if attention continues. Held only 0.1h with pool still thin ($2613), so partial de-risk is prudent.
 
+## [2026-09-07 15:43 UTC] sell | [TP +30% (25%)] $WOLF at $1.06385e-05 | P&L: +42.5%
+- **Reasoning:** Auto take-profit at +42.5%
+
+## [2026-09-07 15:43 UTC] sell | [FULL][LLM] $WOLF at $1.06385e-05 | P&L: +42.5%
+- **Reasoning:** WOLF at +42.5% in 6 minutes with $2,849 pool liquidity is prime give-back territory. Take full profit now — locking +0.02 SOL realized is the right move on a thin bonding-curve token, and frees dry powder for a fresh narrative play.
+
