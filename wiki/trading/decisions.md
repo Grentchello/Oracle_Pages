@@ -16345,3 +16345,9 @@
 ## [2026-09-07 12:04 UTC] sell | [PARTIAL][LLM] $UP at $6.82221e-06 | P&L: +27.6%
 - **Reasoning:** $UP is up +27.6% in just 0.1h on a tiny $1652 bonding-curve pool where we hold 0% — extreme illiquidly. Take half profit now to lock the +27% gain while letting the rest ride if narrative continues. Selling all risks missing a bigger move; selling half respects the 'up >20% take profit' discipline while keeping upside exposure.
 
+## [2026-09-07 12:05 UTC] sell | [TP +30% (25%)] $UP at $7.07342e-06 | P&L: +32.3%
+- **Reasoning:** Auto take-profit at +32.3%
+
+## [2026-09-07 12:06 UTC] sell | [PARTIAL][LLM] $UP at $7.07342e-06 | P&L: +32.3%
+- **Reasoning:** Up 32.3% in 6 minutes, well past the +30% TP-at-25% trigger. Bonding curve pool only $1740, my share is 0% reported — extreme illiquidity risk. Lock half now, let the rest ride if it keeps pumping, but don't bag-hold a thin-pool position.
+
