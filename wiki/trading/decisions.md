@@ -16483,3 +16483,9 @@
 ## [2026-09-07 16:15 UTC] buy | [LLM] $apetop at $3.77358e-06, spent 0.02 SOL
 - **Reasoning:** $apetop is the strongest attention play — the 'What if we stop waiting for dips and all ape the top?' narrative is self-aware degen humor that the memecoin community loves to amplify. Fresh (0.4min), $3.7k mcap with runway, both twitter + description present (passes viability gate). 0.05 SOL position size keeps max stop-loss at -0.015 SOL, just under my 0.014 SOL remaining daily budget — tight but viable for a narrative-driven fresh launch.
 
+## [2026-09-07 16:19 UTC] sell | [FULL][LLM] $apetop at $3.05105e-06 | P&L: -19.1%
+- **Reasoning:** Down -19.1% in 6 minutes on a tiny $82 pool where I hold 2% (illiquid exit). Approaching the -20% loser-exit threshold with no bounce signal and no catalyst. Cut before it becomes -30%.
+
+## [2026-09-07 16:19 UTC] buy | [LLM] $TROK at $7.332e-06, spent 0.02 SOL
+- **Reasoning:** $TROK 'Republic of Kekestan' is a pure meme-meta narrative (Kekistan lore, meme-as-law), not political. Fresh0.9min launch, $7.3k mcap with27% bonded — early enough for attention-run. Risk: narrative is niche; if Kek meme doesn't catch, dies fast.
+
