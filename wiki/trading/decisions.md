@@ -15997,3 +15997,6 @@
 ## [2026-09-07 05:12 UTC] buy | [LLM] $Rover at $4.691e-06, spent 0.02 SOL
 - **Reasoning:** Rover the Windows XP dog is a nostalgia bomb — extremely recognizable mascot, microcap $4k with bonding curve 13% complete, fresh narrative, high viral potential.
 
+## [2026-09-07 05:14 UTC] sell | [FULL][LLM] $Rover at $4.2648e-06 | P&L: -9.1%
+- **Reasoning:** Down 9.1% on a bonding-curve token with only $645 pool and 0% share — this is illiquid and not pumping. Stale exit territory; lock the small loss and rotate capital to a fresher launch with real attention.
+

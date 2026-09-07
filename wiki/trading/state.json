@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.098706,
+  "balance_sol": 0.116899,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AFXUbcTPPh8YTYJqakWn32Q9voN6X5Evn6iPwzX6WbhP": {
-      "symbol": "Rover",
-      "name": "Rover the Windows XP Dog",
-      "amount": 448475.80473246647,
-      "entry_price_usd": 4.691e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T05:12:32.779924+00:00",
-      "entry_usd_value": 2.1038,
-      "last_seen_price_usd": 4.691e-06,
-      "entry_signals": {
-        "liquidity_usd": 441.25079446708,
-        "volume_24h_usd": 2779.77,
-        "market_cap_usd": 4036.2278564772205,
-        "ath_market_cap_usd": 5669.577838673062,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.194797932,
-        "description": "Rover was the default Search Companion in Windows XP, introduced with XP in 2001. He was part of Microsoft’s old animated-assistant era, built on Microsoft Agent technology. Now paired with Microsoft stocks.",
-        "twitter": "https://x.com/devoidheaven/status/2096828538330464545",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -37019,19 +36995,30 @@
       "pnl_pct": -3.18,
       "exit_reason": "LLM: sell_all — The position is only 0.1 hours old and slightly down, so there is no bounce signal to justify waiting. The reported $0 pool and enormous share also ma",
       "partial": false
+    },
+    {
+      "mint": "AFXUbcTPPh8YTYJqakWn32Q9voN6X5Evn6iPwzX6WbhP",
+      "symbol": "Rover",
+      "name": "Rover the Windows XP Dog",
+      "amount_sold": 448475.80473246647,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T05:12:32.779924+00:00",
+      "exit_time": "2026-09-07T05:14:02.382478+00:00",
+      "entry_price_usd": 4.691e-06,
+      "exit_price_usd": 4.264801792436817e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018193,
+      "pnl_sol": -0.001807,
+      "pnl_pct": -9.09,
+      "exit_reason": "LLM: sell_all — Down 9.1% on a bonding-curve token with only $645 pool and 0% share — this is illiquid and not pumping. Stale exit territory; lock the small loss and ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T05:12:32.780109+00:00",
+  "last_updated": "2026-09-07T05:14:02.892143+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.19,
-  "portfolio_value_usd": 12.49,
+  "last_sol_price_usd": 105.13,
+  "portfolio_value_usd": 12.29,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 03:19 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $MFT at $1.58647e-05 | P&L: +28.1%",
-      "reason": "+28.1% puts me right at the 25% TP threshold. Pool is only $4175 — thin liquidity means any reversal hits hard. Lock half the gain, keep a runner in case narrative extends."
-    },
     {
       "time": "2026-09-07 03:21 UTC",
       "action": "sell",
@@ -37145,30 +37132,48 @@
       "action": "buy",
       "details": "[LLM] $Rover at $4.691e-06, spent 0.02 SOL",
       "reason": "Rover the Windows XP dog is a nostalgia bomb — extremely recognizable mascot, microcap $4k with bonding curve 13% complete, fresh narrative, high viral potential."
+    },
+    {
+      "time": "2026-09-07 05:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Rover at $4.2648e-06 | P&L: -9.1%",
+      "reason": "Down 9.1% on a bonding-curve token with only $645 pool and 0% share — this is illiquid and not pumping. Stale exit territory; lock the small loss and rotate capital to a fresher launch with real attention."
     }
   ],
   "trade_stats": {
-    "total": 2176,
+    "total": 2177,
     "wins": 1108,
-    "losses": 1068,
+    "losses": 1069,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.213946,
-    "avg_pnl_pct": 31.62,
+    "total_pnl_sol": -2.215753,
+    "avg_pnl_pct": 31.6,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 69,
-    "today_realized_sol": -0.023297,
-    "today_target_pct": -5.8,
+    "today_trades": 70,
+    "today_realized_sol": -0.025104,
+    "today_target_pct": -6.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1108,
-      "loss_count": 1068,
+      "loss_count": 1069,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T05:12:31.371394+00:00",
+  "last_llm_brief_at": "2026-09-07T05:14:02.382438+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "AFXUbcTPPh8YTYJqakWn32Q9voN6X5Evn6iPwzX6WbhP": {
+      "price_usd": 4.264801792436817e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 645.1345819278899,
+      "volume_h24": 4754.29,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 6.136541253
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
