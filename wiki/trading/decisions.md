@@ -15943,3 +15943,9 @@
 ## [2026-09-07 03:21 UTC] sell | [PARTIAL][LLM] $MFT at $1.57139e-05 | P&L: +26.9%
 - **Reasoning:** +26.9% gain on $MFT — just under the +30% TP threshold but above the +20% profit-taking trigger. Lock half the gain now per scalp discipline; let the rest ride with a free option.
 
+## [2026-09-07 03:22 UTC] sell | [TP +30% (25%)] $MFT at $1.7839e-05 | P&L: +44.0%
+- **Reasoning:** Auto take-profit at +44.0%
+
+## [2026-09-07 03:23 UTC] sell | [PARTIAL][LLM] $MFT at $1.7839e-05 | P&L: +44.0%
+- **Reasoning:** $MFT is up +44% in 0.1h, well past the +25% auto-TP threshold. Bonding-curve only at 25% complete means liquidity is thin ($4.6k pool) and our 0% share suggests no other buyers - lock in gains by halving, give the rest room to run toward +100%.
+
