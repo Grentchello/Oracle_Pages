@@ -16168,3 +16168,6 @@
 ## [2026-09-07 08:02 UTC] sell | [hard-stop] $Jimothy closed at $1.5432e-06 | P&L: -68.8%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-07 08:04 UTC] buy | [LLM] $wen at $4.443e-06, spent 0.02 SOL
+- **Reasoning:** $wen — meta-memecoin about 'wen moon' itself. Self-referential crypto-native humor, has a clear narrative ('we have the perfect time to run $wen'), 2.2min old, mcap $6.5k, 25% bonded. This is exactly the kind of inside-joke attention play that pumps in this market. Entry with 0.05 SOL.
+
