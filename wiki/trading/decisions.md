@@ -16210,3 +16210,6 @@
 ## [2026-09-07 08:54 UTC] buy | [LLM] $MEMETHOS at $3.708e-06, spent 0.02 SOL
 - **Reasoning:** MEMETHOS passes viability (desc ≥50 chars, has twitter). Mysterious 'myth appeared on-chain' framing is a real viral narrative — anonymity + on-chain origin is meme-canon. $3.7k mcap, 1min old = early attention window.
 
+## [2026-09-07 08:56 UTC] sell | [FULL][LLM] $$BUBBLE at $2.99045e-06 | P&L: -1.3%
+- **Reasoning:** $BUBBLE pool is only $33 with our 6% share — dangerously illiquid, can't exit cleanly at size. -1.3% loss is small, better to free the slot than risk the -30% hard stop in a thin pool.
+

@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.092128,
+  "balance_sol": 0.111887,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "GSjW1vCayvmcmrMSGaVx5F5eSsJVU2gRU9DhqQPFpump": {
-      "symbol": "$BUBBLE",
-      "name": "JUSTICE FOR BUBBLE",
-      "amount": 692043.5787388576,
-      "entry_price_usd": 3.029e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T08:48:20.798678+00:00",
-      "entry_usd_value": 2.0962,
-      "last_seen_price_usd": 2.9895952484259215e-06,
-      "entry_signals": {
-        "liquidity_usd": 52.174109858600005,
-        "volume_24h_usd": 52.17,
-        "market_cap_usd": 3029.0158748960785,
-        "ath_market_cap_usd": 3029.0158748960785,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.49779706,
-        "description": "As a dog owner, the tragedy of Bubble hit me too hard to stay silent. Korean Air needs to take real accountability.Today, we launch $BUBBLE — a token born from love, built for justice. Let's make the blockchain roar for our pets.🛑 100% community-driven.⚖️ Fully transparent charity wallets for animal",
-        "twitter": "https://x.com/jenn_jwww/status/2095857509353566645?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "8StxMJiC4BWafD8LBTBTQeov347Qd4A7oXS2nJzTgoQz": {
       "symbol": "MEMETHOS",
       "name": "MEMETHOS",
@@ -34,7 +11,7 @@
       "entry_sol_spent": 0.02,
       "entry_time": "2026-09-07T08:54:27.891562+00:00",
       "entry_usd_value": 2.0942,
-      "last_seen_price_usd": 3.708e-06,
+      "last_seen_price_usd": 3.632950836639554e-06,
       "entry_signals": {
         "liquidity_usd": 363.85421653688,
         "volume_24h_usd": 464.21,
@@ -37756,19 +37733,30 @@
       "pnl_pct": 22.8,
       "exit_reason": "LLM: sell_all — Up +22.8% in 0.1h, just under +25% TP. Lock the gain and free a slot — discipline says take profit at >20% when doubt exists, and rotation into fresh ",
       "partial": false
+    },
+    {
+      "mint": "GSjW1vCayvmcmrMSGaVx5F5eSsJVU2gRU9DhqQPFpump",
+      "symbol": "$BUBBLE",
+      "name": "JUSTICE FOR BUBBLE",
+      "amount_sold": 692043.5787388576,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T08:48:20.798678+00:00",
+      "exit_time": "2026-09-07T08:56:17.058936+00:00",
+      "entry_price_usd": 3.029e-06,
+      "exit_price_usd": 2.9904517841670425e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019759,
+      "pnl_sol": -0.000241,
+      "pnl_pct": -1.27,
+      "exit_reason": "LLM: sell_all — $BUBBLE pool is only $33 with our 6% share — dangerously illiquid, can't exit cleanly at size. -1.3% loss is small, better to free the slot than risk ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T08:54:27.892156+00:00",
+  "last_updated": "2026-09-07T08:56:17.059225+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.71,
-  "portfolio_value_usd": 13.84,
+  "last_sol_price_usd": 104.74,
+  "portfolio_value_usd": 13.81,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 07:57 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ZOLANA at $2.94537e-06 | P&L: -9.3%",
-      "reason": "$ZOLANA -9.3% in minutes on a $13 pool = illitquidity rug risk. Pool is below minimum viability, exit immediately and free the slot."
-    },
     {
       "time": "2026-09-07 07:59 UTC",
       "action": "sell",
@@ -37882,51 +37870,57 @@
       "action": "buy",
       "details": "[LLM] $MEMETHOS at $3.708e-06, spent 0.02 SOL",
       "reason": "MEMETHOS passes viability (desc ≥50 chars, has twitter). Mysterious 'myth appeared on-chain' framing is a real viral narrative — anonymity + on-chain origin is meme-canon. $3.7k mcap, 1min old = early attention window."
+    },
+    {
+      "time": "2026-09-07 08:56 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $$BUBBLE at $2.99045e-06 | P&L: -1.3%",
+      "reason": "$BUBBLE pool is only $33 with our 6% share — dangerously illiquid, can't exit cleanly at size. -1.3% loss is small, better to free the slot than risk the -30% hard stop in a thin pool."
     }
   ],
   "trade_stats": {
-    "total": 2218,
+    "total": 2219,
     "wins": 1130,
-    "losses": 1088,
+    "losses": 1089,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.200524,
-    "avg_pnl_pct": 31.36,
+    "total_pnl_sol": -2.200765,
+    "avg_pnl_pct": 31.34,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 111,
-    "today_realized_sol": -0.009875,
+    "today_trades": 112,
+    "today_realized_sol": -0.010116,
     "today_target_pct": -2.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1130,
-      "loss_count": 1088,
+      "loss_count": 1089,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T08:54:26.481348+00:00",
+  "last_llm_brief_at": "2026-09-07T08:56:17.058900+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GSjW1vCayvmcmrMSGaVx5F5eSsJVU2gRU9DhqQPFpump": {
-      "price_usd": 2.9895952484259215e-06,
+      "price_usd": 2.9904517841670425e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 33.09353120806,
+      "liquidity_usd": 33.103012689639996,
       "volume_h24": 71.23,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 0.316049386
     },
-    "7C4wvdQPycqfP6b6vum9M73szCGq4ybyqk8Wxtp6pump": {
-      "price_usd": 3.7852867687018086e-06,
+    "8StxMJiC4BWafD8LBTBTQeov347Qd4A7oXS2nJzTgoQz": {
+      "price_usd": 3.632950836639554e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 430.63840730877,
-      "volume_h24": 124.99,
+      "liquidity_usd": 357.62664784263995,
+      "volume_h24": 494.87,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.112676987
+      "real_sol_reserves": 3.414422836
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
