@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.151046,
+  "balance_sol": 0.141463,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "srxbT3rUakpeS92LXmii7PRbjj5YasqhMF2MiZ8pump": {
       "symbol": "SHADY",
       "name": "Shady Cat",
-      "amount": 393887.9456706282,
+      "amount": 196943.9728353141,
       "entry_price_usd": 5.301e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-07T08:00:12.925929+00:00",
       "entry_usd_value": 2.088,
-      "last_seen_price_usd": 5.301e-06,
+      "last_seen_price_usd": 5.528786673314266e-06,
       "entry_signals": {
         "liquidity_usd": 1115.1325014156002,
         "volume_24h_usd": 1108.95,
@@ -22,6 +22,29 @@
         "real_sol_reserves": 10.681345799,
         "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. GL. ",
         "twitter": "https://x.com/_rise",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "9Rc9SJAFGQ2A9iSgbvKvGeDMZxWsmhWA9pzj4RSLpump": {
+      "symbol": "Jimothy",
+      "name": "Jimothy The Raccoon",
+      "amount": 423027.6609781854,
+      "entry_price_usd": 4.941993616128586e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-07T08:01:39.065135+00:00",
+      "entry_usd_value": 2.0906000000000002,
+      "last_seen_price_usd": 4.941993616128586e-06,
+      "entry_signals": {
+        "liquidity_usd": 35.91633364396,
+        "volume_24h_usd": null,
+        "market_cap_usd": 4940.102486838955,
+        "ath_market_cap_usd": 9312.417299867626,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.343598332,
+        "description": "Jimothy The Raccoon ($JIMOTHY) is a raccoon born with a wildly rare, entirely fictional spine curve — and a community token built in his honor. No cure needed. He's fine. He's iconic.",
+        "twitter": "https://x.com/rainmaker1973/status/2078003339699089718",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -37580,25 +37603,30 @@
       "pnl_pct": -39.5,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "srxbT3rUakpeS92LXmii7PRbjj5YasqhMF2MiZ8pump",
+      "symbol": "SHADY",
+      "name": "Shady Cat",
+      "amount_sold": 196943.9728353141,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T08:00:12.925929+00:00",
+      "exit_time": "2026-09-07T08:01:37.444729+00:00",
+      "entry_price_usd": 5.301e-06,
+      "exit_price_usd": 5.528786673314266e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.010417,
+      "pnl_sol": 0.000417,
+      "pnl_pct": 4.3,
+      "exit_reason": "LLM: sell_half — SHADY is only +4.3% after first read on tiny $1177 pool with 0% share — flat momentum, no catalyst yet. Take half off to lock breakeven+ and free a sl",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T08:00:12.926227+00:00",
+  "last_updated": "2026-09-07T08:01:39.065295+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.4,
-  "portfolio_value_usd": 17.86,
+  "last_sol_price_usd": 104.53,
+  "portfolio_value_usd": 17.92,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 07:16 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SHAKESKATE at $3.02075e-06 | P&L: -1.3%",
-      "reason": "Down 1.3% in 6 minutes with $40 pool depth, no momentum, no narrative catalyst visible. Flat memecoin with5% of a tiny pool = exit before it bleeds further. Capital rotation."
-    },
-    {
-      "time": "2026-09-07 07:18 UTC",
-      "action": "buy",
-      "details": "[LLM] $RISE at $5.37558e-06, spent 0.02 SOL",
-      "reason": "$RISE has a clear airdrop-to-top-holders mechanic that creates artificial buying pressure and FOMO — strong narrative for a sub-$6k mcap launch with 21% bonded."
-    },
     {
       "time": "2026-09-07 07:19 UTC",
       "action": "buy",
@@ -37706,40 +37734,52 @@
       "action": "buy",
       "details": "[LLM] $SHADY at $5.301e-06, spent 0.02 SOL",
       "reason": "$SHADY has the strongest structural mechanic in the batch — 60% supply airdropped to top 15 holders forces buy-to-qualify behavior, which is a self-reinforcing pump engine beyond pure narrative. $5.3k mcap on 1.0min token is early. Risk: airdrop tokens often dump when distribution completes, so I will watch for TP1 at +25-50% and not get greedy."
+    },
+    {
+      "time": "2026-09-07 08:01 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $SHADY at $5.52879e-06 | P&L: +4.3%",
+      "reason": "SHADY is only +4.3% after first read on tiny $1177 pool with 0% share — flat momentum, no catalyst yet. Take half off to lock breakeven+ and free a slot for stronger attention plays, keep half for potential breakout."
+    },
+    {
+      "time": "2026-09-07 08:01 UTC",
+      "action": "buy",
+      "details": "[LLM] $Jimothy at $4.94199e-06, spent 0.02 SOL",
+      "reason": "Jimothy The Raccoon has the strongest narrative of the batch — full backstory, raccoon with rare spine curve, real community pitch, tweet link, $4.9k mcap, fresh. Asymmetric bet."
     }
   ],
   "trade_stats": {
-    "total": 2209,
-    "wins": 1126,
+    "total": 2210,
+    "wins": 1127,
     "losses": 1083,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.161606,
-    "avg_pnl_pct": 31.58,
+    "total_pnl_sol": -2.161189,
+    "avg_pnl_pct": 31.57,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 102,
-    "today_realized_sol": 0.029043,
-    "today_target_pct": 7.3,
+    "today_trades": 103,
+    "today_realized_sol": 0.02946,
+    "today_target_pct": 7.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1126,
+      "win_count": 1127,
       "loss_count": 1083,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T08:00:11.301713+00:00",
+  "last_llm_brief_at": "2026-09-07T08:01:37.444689+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "Fb9xfPYWhjJfduB3Er81yiX1QSQgZxTYEN2W5W6oyhLT": {
-      "price_usd": 3.116611999379443e-06,
+    "srxbT3rUakpeS92LXmii7PRbjj5YasqhMF2MiZ8pump": {
+      "price_usd": 5.528786673314266e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 104.3248517316,
-      "volume_h24": 20261.8,
+      "liquidity_usd": 1177.26309111028,
+      "volume_h24": 1141.99,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.999280189
+      "real_sol_reserves": 11.262442276
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

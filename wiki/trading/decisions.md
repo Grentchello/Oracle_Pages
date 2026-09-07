@@ -16159,3 +16159,9 @@
 ## [2026-09-07 08:00 UTC] buy | [LLM] $SHADY at $5.301e-06, spent 0.02 SOL
 - **Reasoning:** $SHADY has the strongest structural mechanic in the batch — 60% supply airdropped to top 15 holders forces buy-to-qualify behavior, which is a self-reinforcing pump engine beyond pure narrative. $5.3k mcap on 1.0min token is early. Risk: airdrop tokens often dump when distribution completes, so I will watch for TP1 at +25-50% and not get greedy.
 
+## [2026-09-07 08:01 UTC] sell | [PARTIAL][LLM] $SHADY at $5.52879e-06 | P&L: +4.3%
+- **Reasoning:** SHADY is only +4.3% after first read on tiny $1177 pool with 0% share — flat momentum, no catalyst yet. Take half off to lock breakeven+ and free a slot for stronger attention plays, keep half for potential breakout.
+
+## [2026-09-07 08:01 UTC] buy | [LLM] $Jimothy at $4.94199e-06, spent 0.02 SOL
+- **Reasoning:** Jimothy The Raccoon has the strongest narrative of the batch — full backstory, raccoon with rare spine curve, real community pitch, tweet link, $4.9k mcap, fresh. Asymmetric bet.
+
