@@ -16063,3 +16063,9 @@
 ## [2026-09-07 06:34 UTC] sell | [PARTIAL][LLM] $Job at $1.44011e-05 | P&L: +45.7%
 - **Reasoning:** $Job is up +45.7% which has crossed my profit-taking threshold. With thin pool ($3827) and fresh bonding-curve dynamics, I should lock half the gain now rather than hope for continuation. Keep half for upside but don't give back the win.
 
+## [2026-09-07 06:35 UTC] sell | [TP +30% (25%)] $Job at $1.71077e-05 | P&L: +73.1%
+- **Reasoning:** Auto take-profit at +73.1%
+
+## [2026-09-07 06:36 UTC] sell | [PARTIAL][LLM] $Job at $1.71077e-05 | P&L: +73.1%
+- **Reasoning:** $Job is up +73.1% already and bonding curve is only 28% complete with thin pool ($4455). Lock half now — the TP ladder will catch the rest, but taking partial profit here protects against the inevitable retrace from this level.
+
