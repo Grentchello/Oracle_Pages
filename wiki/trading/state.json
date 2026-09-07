@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.091926,
+  "balance_sol": 0.097003,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "55MavFLnso2jyqQ3FWpXLrDAhXok9ZMBwj9XwZAtpump": {
-      "symbol": "ZMAN",
-      "name": "Anonymous Man",
-      "amount": 177884.94077834178,
-      "entry_price_usd": 1.182e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T13:37:04.636808+00:00",
-      "entry_usd_value": 2.1026,
-      "last_seen_price_usd": 1.182e-05,
-      "entry_signals": {
-        "liquidity_usd": 2071.65810980464,
-        "volume_24h_usd": 18082.85,
-        "market_cap_usd": 13398.808606787208,
-        "ath_market_cap_usd": 15425.916929987385,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 19.705679728,
-        "description": "Zman is nobody. Zman is everybody. The bag stays on.",
-        "twitter": "https://x.com/zmancoin",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38328,19 +38304,30 @@
       "pnl_pct": -0.27,
       "exit_reason": "LLM: sell_all — $WATCH is flat (-0.3%), held 0h on bonding curve with only $54 pool. Tiny position, no momentum, no narrative edge. Freeing the slot lets me rotate in",
       "partial": false
+    },
+    {
+      "mint": "55MavFLnso2jyqQ3FWpXLrDAhXok9ZMBwj9XwZAtpump",
+      "symbol": "ZMAN",
+      "name": "Anonymous Man",
+      "amount_sold": 177884.94077834178,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T13:37:04.636808+00:00",
+      "exit_time": "2026-09-07T13:38:08.663748+00:00",
+      "entry_price_usd": 1.182e-05,
+      "exit_price_usd": 2.9947237788321086e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.005077,
+      "pnl_sol": -0.014923,
+      "pnl_pct": -74.66,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T13:37:04.637096+00:00",
+  "last_updated": "2026-09-07T13:38:48.034008+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.13,
-  "portfolio_value_usd": 11.77,
+  "last_sol_price_usd": 104.93,
+  "portfolio_value_usd": 10.18,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 12:04 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $UP at $6.82221e-06 | P&L: +27.6%",
-      "reason": "$UP is up +27.6% in just 0.1h on a tiny $1652 bonding-curve pool where we hold 0% — extreme illiquidly. Take half profit now to lock the +27% gain while letting the rest ride if narrative continues. Selling all risks missing a bigger move; selling half respects the 'up >20% take profit' discipline while keeping upside exposure."
-    },
     {
       "time": "2026-09-07 12:05 UTC",
       "action": "sell",
@@ -38454,30 +38441,48 @@
       "action": "buy",
       "details": "[LLM] $ZMAN at $1.182e-05, spent 0.02 SOL",
       "reason": "Anonymous Man has the strongest philosophical meme hook ('nobody is everybody') and dedicated @zmancoin handle — absurdist identity memes travel well on CT, and it's tied with BOPPI at 35% bond progress."
+    },
+    {
+      "time": "2026-09-07 13:38 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $ZMAN closed at $2.99472e-06 | P&L: -74.7%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2253,
+    "total": 2254,
     "wins": 1148,
-    "losses": 1105,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.220727,
-    "avg_pnl_pct": 31.0,
+    "losses": 1106,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -2.23565,
+    "avg_pnl_pct": 30.95,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 146,
-    "today_realized_sol": -0.030078,
-    "today_target_pct": -7.5,
+    "today_trades": 147,
+    "today_realized_sol": -0.045001,
+    "today_target_pct": -11.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1148,
-      "loss_count": 1105,
+      "loss_count": 1106,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T13:37:02.906664+00:00",
+  "last_llm_brief_at": "2026-09-07T13:38:47.016839+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "55MavFLnso2jyqQ3FWpXLrDAhXok9ZMBwj9XwZAtpump": {
+      "price_usd": 2.9947237788321086e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 32.55102280136,
+      "volume_h24": 34315.95,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.310216552
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

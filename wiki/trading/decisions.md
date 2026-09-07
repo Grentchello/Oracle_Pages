@@ -16402,3 +16402,6 @@
 ## [2026-09-07 13:37 UTC] buy | [LLM] $ZMAN at $1.182e-05, spent 0.02 SOL
 - **Reasoning:** Anonymous Man has the strongest philosophical meme hook ('nobody is everybody') and dedicated @zmancoin handle — absurdist identity memes travel well on CT, and it's tied with BOPPI at 35% bond progress.
 
+## [2026-09-07 13:38 UTC] sell | [hard-stop] $ZMAN closed at $2.99472e-06 | P&L: -74.7%
+- **Reasoning:** Hard -30% stop
+
