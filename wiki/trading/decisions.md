@@ -15955,3 +15955,6 @@
 ## [2026-09-07 03:25 UTC] sell | [FULL][LLM] $MFT at $1.78151e-05 | P&L: +43.8%
 - **Reasoning:** $MFT is up +43.8% in 0.1h on a tiny $4.6k pool with no clear narrative visible in the candidate data. Per scalp discipline, when up >20% with no strong narrative anchor, lock the gain. Better to rotate capital into a fresh attention launch than hope a thin-pool runner keeps grinding.
 
+## [2026-09-07 03:44 UTC] buy | [LLM] $OPM at $7.73436e-06, spent 0.02 SOL
+- **Reasoning:** $OPM (Other People's Money) — strongest viral signal in the batch: 'hot-potatoing someone else’s cash' is a self-aware meta-meme about memecoin cycles itself, posted by @ashthequant (a known memecoin commentator with reach). Bond 28% complete at 0.4min age means capital is flowing in fast. $7.7k mcap with clear narrative + real X account = classic attention launch.
+
