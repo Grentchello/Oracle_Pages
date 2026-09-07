@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.140605,
+  "balance_sol": 0.145852,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "AVuUebiiaGSGezu6ww7TatHPu8AHyn6opJWMnQ4vpump": {
-      "symbol": "CATCOIN",
-      "name": "CATCOIN",
-      "amount": 177483.44390602727,
-      "entry_price_usd": 1.1851246255474365e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T02:14:11.864663+00:00",
-      "entry_usd_value": 2.1034,
-      "last_seen_price_usd": 1.1851246255474365e-05,
-      "entry_signals": {
-        "liquidity_usd": 3179.0513531186803,
-        "volume_24h_usd": null,
-        "market_cap_usd": 11848.971065343316,
-        "ath_market_cap_usd": 11849.824718840262,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 30.227739404,
-        "description": "CatCoin bringing cat lovers and crypto enthusiasts from around the world together.",
-        "twitter": "https://x.com/catcoin",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "CjjUiBevaExoj1VAoeiP3JuifBZuNXGAF5emkP8zpump": {
       "symbol": "$INBUN",
       "name": "Hot Dog in the Bun",
@@ -34,7 +11,7 @@
       "entry_sol_spent": 0.02,
       "entry_time": "2026-09-07T02:14:13.151473+00:00",
       "entry_usd_value": 2.1034,
-      "last_seen_price_usd": 3.044e-06,
+      "last_seen_price_usd": 3.0456758518435886e-06,
       "entry_signals": {
         "liquidity_usd": 55.74582272038,
         "volume_24h_usd": 55.72,
@@ -36464,19 +36441,30 @@
       "pnl_pct": -20.19,
       "exit_reason": "LLM: sell_all — spydog is -20.2% after 0.1h, only $27 pool (our 6% share = small absolute size), and the name has no clear viral narrative in the prompt. Per rules, -",
       "partial": false
+    },
+    {
+      "mint": "AVuUebiiaGSGezu6ww7TatHPu8AHyn6opJWMnQ4vpump",
+      "symbol": "CATCOIN",
+      "name": "CATCOIN",
+      "amount_sold": 177483.44390602727,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T02:14:11.864663+00:00",
+      "exit_time": "2026-09-07T02:15:17.340052+00:00",
+      "entry_price_usd": 1.1851246255474365e-05,
+      "exit_price_usd": 3.1058219537837828e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.005247,
+      "pnl_sol": -0.014753,
+      "pnl_pct": -73.79,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T02:14:13.152007+00:00",
+  "last_updated": "2026-09-07T02:15:34.845748+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.17,
-  "portfolio_value_usd": 18.99,
+  "last_sol_price_usd": 105.048,
+  "portfolio_value_usd": 17.43,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 01:26 UTC",
-      "action": "buy",
-      "details": "[LLM] $MR at $3.72719e-06, spent 0.02 SOL",
-      "reason": "Roaring Kitty 'memestocks return' narrative tied to a live tweet — Roaring Kitty catalysts historically moved GME/KMHB; $3.7k mcap is micro-cap attention play. Size 0.05 SOL."
-    },
     {
       "time": "2026-09-07 01:28 UTC",
       "action": "sell",
@@ -36590,30 +36578,59 @@
       "action": "buy",
       "details": "[LLM] $$INBUN at $3.044e-06, spent 0.02 SOL",
       "reason": "$$INBUN (Hot Dog in the Bun) — absurd visual narrative with X account attached (@Stimg100), bond at 2% but real story ('one stadium with one job'). Meme coin gold = stupid + shareable. Risk: bond curve barely started, liquidity thin."
+    },
+    {
+      "time": "2026-09-07 02:15 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $CATCOIN closed at $3.10582e-06 | P&L: -73.8%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2142,
+    "total": 2143,
     "wins": 1089,
-    "losses": 1053,
+    "losses": 1054,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.152046,
-    "avg_pnl_pct": 32.05,
+    "total_pnl_sol": -2.166799,
+    "avg_pnl_pct": 32.0,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 35,
-    "today_realized_sol": 0.038603,
-    "today_target_pct": 9.7,
+    "today_trades": 36,
+    "today_realized_sol": 0.02385,
+    "today_target_pct": 6.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1089,
-      "loss_count": 1053,
+      "loss_count": 1054,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T02:14:10.405250+00:00",
+  "last_llm_brief_at": "2026-09-07T02:15:34.595125+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "AVuUebiiaGSGezu6ww7TatHPu8AHyn6opJWMnQ4vpump": {
+      "price_usd": 3.1058219537837828e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 89.288588529504,
+      "volume_h24": 7169.32,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.849978948
+    },
+    "CjjUiBevaExoj1VAoeiP3JuifBZuNXGAF5emkP8zpump": {
+      "price_usd": 3.0456758518435886e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 57.75585418692,
+      "volume_h24": 57.8,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.549804415
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
