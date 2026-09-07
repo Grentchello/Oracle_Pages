@@ -16357,3 +16357,6 @@
 ## [2026-09-07 12:07 UTC] sell | [FULL][LLM] $UP at $7.38321e-06 | P&L: +38.1%
 - **Reasoning:** Up38.1% past the 25% TP threshold with bot already taking half. Bonding-curve token at $1845 pool liquidity — thin, reversal risk is high. Lock the gain, rotate capital to fresh attention.
 
+## [2026-09-07 12:08 UTC] buy | [LLM] $DOXXED at $3.20371e-06, spent 0.02 SOL
+- **Reasoning:** $DOXXED 'Doxxed Cat' — strong viral meme narrative (cat wears paper bag, 'no face no socials until today'). Discord launch viauxento. Meme coin culture loves ironic anonymity jokes. Position0.05 SOL.
+
