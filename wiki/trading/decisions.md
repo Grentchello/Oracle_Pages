@@ -16069,3 +16069,9 @@
 ## [2026-09-07 06:36 UTC] sell | [PARTIAL][LLM] $Job at $1.71077e-05 | P&L: +73.1%
 - **Reasoning:** $Job is up +73.1% already and bonding curve is only 28% complete with thin pool ($4455). Lock half now — the TP ladder will catch the rest, but taking partial profit here protects against the inevitable retrace from this level.
 
+## [2026-09-07 06:37 UTC] sell | [TP +100% (50%)] $Job at $2.04845e-05 | P&L: +107.2%
+- **Reasoning:** Auto take-profit at +107.2%
+
+## [2026-09-07 06:37 UTC] sell | [FULL][LLM] $Job at $2.04845e-05 | P&L: +107.2%
+- **Reasoning:** Up 107% in 6 minutes on a $5k pool — peak territory. Bot already auto-locked some profit at +100%. Memecoins rarely hold these levels; locking remaining gains now beats giving them back.
+

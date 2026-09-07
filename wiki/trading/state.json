@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.163181,
+  "balance_sol": 0.169009,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "j4n7y64xDWVemXD6cez2wb7e6AKaqBs4EdnCGB2pump": {
-      "symbol": "Job",
-      "name": "Jobcoin",
-      "amount": 29912.464309105337,
-      "entry_price_usd": 9.884779867835754e-06,
-      "entry_sol_spent": 0.0028125,
-      "entry_time": "2026-09-07T06:33:31.138973+00:00",
-      "entry_usd_value": 2.1026,
-      "last_seen_price_usd": 1.7107672050304134e-05,
-      "entry_signals": {
-        "liquidity_usd": 2879.20606364257,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9897.562088707762,
-        "ath_market_cap_usd": 10777.329290037183,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 27.387102289,
-        "description": "I will be going Live on PumpFun It’s so hard to find a stable job nowadays especially in this unstable time that is happening currently in the world UNEMPLOYMENT is a major issue. This is why I built the first coin that gives you a $JOB From home I will get Dex at 15k and I will get boosts as well a",
-        "twitter": "https://x.com/amiriasyna/status/2096848624122491163",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -37257,25 +37233,47 @@
       "pnl_pct": 73.07,
       "exit_reason": "LLM: sell_half — $Job is up +73.1% already and bonding curve is only 28% complete with thin pool ($4455). Lock half now — the TP ladder will catch the rest, but taking",
       "partial": true
+    },
+    {
+      "mint": "j4n7y64xDWVemXD6cez2wb7e6AKaqBs4EdnCGB2pump",
+      "symbol": "Job",
+      "name": "Jobcoin",
+      "amount_sold": 14956.232154552668,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T06:33:31.138973+00:00",
+      "exit_time": "2026-09-07T06:37:08.780557+00:00",
+      "entry_price_usd": 9.884779867835754e-06,
+      "exit_price_usd": 2.048452657221447e-05,
+      "entry_sol_for_chunk": 0.001406,
+      "exit_sol_received": 0.002914,
+      "pnl_sol": 0.001508,
+      "pnl_pct": 107.23,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
+    },
+    {
+      "mint": "j4n7y64xDWVemXD6cez2wb7e6AKaqBs4EdnCGB2pump",
+      "symbol": "Job",
+      "name": "Jobcoin",
+      "amount_sold": 14956.232154552668,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T06:33:31.138973+00:00",
+      "exit_time": "2026-09-07T06:37:22.594981+00:00",
+      "entry_price_usd": 9.884779867835754e-06,
+      "exit_price_usd": 2.048452657221447e-05,
+      "entry_sol_for_chunk": 0.001406,
+      "exit_sol_received": 0.002914,
+      "pnl_sol": 0.001508,
+      "pnl_pct": 107.23,
+      "exit_reason": "LLM: sell_all — Up 107% in 6 minutes on a $5k pool — peak territory. Bot already auto-locked some profit at +100%. Memecoins rarely hold these levels; locking remaini",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T06:36:05.247706+00:00",
+  "last_updated": "2026-09-07T06:37:22.842946+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.11,
-  "portfolio_value_usd": 17.45,
+  "last_sol_price_usd": 105.13,
+  "portfolio_value_usd": 17.77,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 05:37 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Unichan at $3.05769e-06 | P&L: -0.6%",
-      "reason": "We hold 4% of a $56 pool — we ARE the exit liquidity. Down -0.6% on a bonding curve with micro-liquidity means any other seller walks through us. Cut and rotate to a fresh attention launch."
-    },
-    {
-      "time": "2026-09-07 05:37 UTC",
-      "action": "buy",
-      "details": "[LLM] $BUZZ at $2.132e-05, spent 0.02 SOL",
-      "reason": "$BUZZ has the strongest attention stack: live X account (@buzzballonsol), brand-narrative ('iconic branding, internet culture'), $21k mcap with 1% bonding — name-recognition + community narrative is the textbook memecoin setup. Highest attention-density candidate in the batch."
-    },
     {
       "time": "2026-09-07 05:38 UTC",
       "action": "sell",
@@ -37383,40 +37381,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Job at $1.71077e-05 | P&L: +73.1%",
       "reason": "$Job is up +73.1% already and bonding curve is only 28% complete with thin pool ($4455). Lock half now — the TP ladder will catch the rest, but taking partial profit here protects against the inevitable retrace from this level."
+    },
+    {
+      "time": "2026-09-07 06:37 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $Job at $2.04845e-05 | P&L: +107.2%",
+      "reason": "Auto take-profit at +107.2%"
+    },
+    {
+      "time": "2026-09-07 06:37 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Job at $2.04845e-05 | P&L: +107.2%",
+      "reason": "Up 107% in 6 minutes on a $5k pool — peak territory. Bot already auto-locked some profit at +100%. Memecoins rarely hold these levels; locking remaining gains now beats giving them back."
     }
   ],
   "trade_stats": {
-    "total": 2190,
-    "wins": 1116,
+    "total": 2192,
+    "wins": 1118,
     "losses": 1074,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.166659,
-    "avg_pnl_pct": 31.71,
+    "total_pnl_sol": -2.163643,
+    "avg_pnl_pct": 31.78,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 83,
-    "today_realized_sol": 0.02399,
-    "today_target_pct": 6.0,
+    "today_trades": 85,
+    "today_realized_sol": 0.027006,
+    "today_target_pct": 6.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1116,
+      "win_count": 1118,
       "loss_count": 1074,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T06:36:04.467607+00:00",
+  "last_llm_brief_at": "2026-09-07T06:37:22.594938+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "j4n7y64xDWVemXD6cez2wb7e6AKaqBs4EdnCGB2pump": {
-      "price_usd": 1.7107672050304134e-05,
+      "price_usd": 2.048452657221447e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4454.83071195246,
-      "volume_h24": 21212.3,
+      "liquidity_usd": 5172.10729577868,
+      "volume_h24": 23409.4,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 42.382558386
+      "real_sol_reserves": 49.197253836
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
