@@ -15760,3 +15760,6 @@
 ## [2026-09-07 01:07 UTC] sell | [FULL][LLM] $Emberfin at $9.41377e-06 | P&L: +75.3%
 - **Reasoning:** +75.3% in <1min on a $2.4k pool bonding-curve token is parabolic. Bonding-curve tokens mean liquidity is paper-thin and any pullback is violent. Lock the gain — this is exactly the 'up >20% and doubt' scenario the discipline calls to exit on.
 
+## [2026-09-07 01:14 UTC] buy | [LLM] $PoP at $3.572e-06, spent 0.02 SOL
+- **Reasoning:** Specific 'PoP not PvP' narrative from Minster, has twitter anchor. Low mcap ($3.7k) = high upside if narrative catches. Risk: bond only 10%, very early, may not graduate.
+
