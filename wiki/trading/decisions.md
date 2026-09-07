@@ -16360,3 +16360,6 @@
 ## [2026-09-07 12:08 UTC] buy | [LLM] $DOXXED at $3.20371e-06, spent 0.02 SOL
 - **Reasoning:** $DOXXED 'Doxxed Cat' — strong viral meme narrative (cat wears paper bag, 'no face no socials until today'). Discord launch viauxento. Meme coin culture loves ironic anonymity jokes. Position0.05 SOL.
 
+## [2026-09-07 12:13 UTC] sell | [FULL][LLM] $DOXXED at $3.20246e-06 | P&L: -0.0%
+- **Reasoning:** Flat at -0.04% after 0.1h with only $140 pool liquidity (2% of pool = our share is dangerously illiquid). No momentum, frees capital for fresh attention.
+
