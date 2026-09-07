@@ -15796,3 +15796,6 @@
 ## [2026-09-07 01:32 UTC] buy | [LLM] $BROKE at $3.437e-06, spent 0.02 SOL
 - **Reasoning:** $BROKE has a strong relatable narrative ('still trading, too broke to sell'), active twitter, and a real story arc — memecoin attention magnets. Passes viability gate cleanly.
 
+## [2026-09-07 01:37 UTC] sell | [FULL][LLM] $BROKE at $2.97141e-06 | P&L: -13.6%
+- **Reasoning:** Down 13.5% on only $11 pool liquidity — I'm 17% of the pool, any further drop is unrecoverable and exit becomes harder. Cut the loss now, free slot for a better narrative play.
+
