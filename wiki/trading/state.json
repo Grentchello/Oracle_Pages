@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.091508,
+  "balance_sol": 0.094578,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9p5sKYjPAS26AKHKtp7xU8WoRGdeELy3gbRtrcvtpump": {
-      "symbol": "PSMG",
-      "name": "PsiloChemNerveGuard",
-      "amount": 109525.3164556962,
-      "entry_price_usd": 1.896e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T16:54:34.893709+00:00",
-      "entry_usd_value": 2.0766,
-      "last_seen_price_usd": 1.896e-05,
-      "entry_signals": {
-        "liquidity_usd": 11.22005295612,
-        "volume_24h_usd": 4174.37,
-        "market_cap_usd": 23163.15516669454,
-        "ath_market_cap_usd": 23163.15516669454,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.108061764,
-        "description": "Signals a concrete medical narrative pivot—a niche mention with a potential to echo through biotech discourse and neuroprotective demos.",
-        "twitter": "https://twitter.com/people/status/2097004991021990186",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38634,19 +38610,30 @@
       "pnl_pct": 21.1,
       "exit_reason": "LLM: sell_all — SMOKINGCAT is up +21.1% on a tiny $2370 pool — even on bonding curve this is thin. Rules say take profit when up >20% with any doubt. Locking the gain",
       "partial": false
+    },
+    {
+      "mint": "9p5sKYjPAS26AKHKtp7xU8WoRGdeELy3gbRtrcvtpump",
+      "symbol": "PSMG",
+      "name": "PsiloChemNerveGuard",
+      "amount_sold": 109525.3164556962,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T16:54:34.893709+00:00",
+      "exit_time": "2026-09-07T16:55:39.240891+00:00",
+      "entry_price_usd": 1.896e-05,
+      "exit_price_usd": 2.9113168772607008e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.00307,
+      "pnl_sol": -0.01693,
+      "pnl_pct": -84.64,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T16:54:35.223326+00:00",
+  "last_updated": "2026-09-07T16:55:55.103854+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.83,
-  "portfolio_value_usd": 11.58,
+  "last_sol_price_usd": 103.85,
+  "portfolio_value_usd": 9.82,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 15:40 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $WOLF at $9.14032e-06 | P&L: +22.5%",
-      "reason": "Up +22.5% and rules say lock gains above20%. Pool is only $2.4k — thin and fragile. Selling half secures profit while letting the rest ride if momentum continues."
-    },
     {
       "time": "2026-09-07 15:41 UTC",
       "action": "sell",
@@ -38760,30 +38747,48 @@
       "action": "buy",
       "details": "[LLM] $PSMG at $1.896e-05, spent 0.02 SOL",
       "reason": "$PSMG has the strongest setup of the batch: highest mcap ($23k), bond 39% already (real capital in), unique biotech/medical narrative that differentiates from generic memes, twitter link present. Buying 0.05 SOL. Hard stop -30%, auto TP ladder active."
+    },
+    {
+      "time": "2026-09-07 16:55 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $PSMG closed at $2.91132e-06 | P&L: -84.6%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2271,
+    "total": 2272,
     "wins": 1160,
-    "losses": 1111,
+    "losses": 1112,
     "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.221145,
-    "avg_pnl_pct": 30.81,
+    "total_pnl_sol": -2.238075,
+    "avg_pnl_pct": 30.76,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 164,
-    "today_realized_sol": -0.030496,
-    "today_target_pct": -7.6,
+    "today_trades": 165,
+    "today_realized_sol": -0.047426,
+    "today_target_pct": -11.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1160,
-      "loss_count": 1111,
+      "loss_count": 1112,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T16:54:33.235069+00:00",
+  "last_llm_brief_at": "2026-09-07T16:55:54.497179+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "9p5sKYjPAS26AKHKtp7xU8WoRGdeELy3gbRtrcvtpump": {
+      "price_usd": 2.9113168772607008e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4.1687194913,
+      "volume_h24": 13412.35,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.040141738
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

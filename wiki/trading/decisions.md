@@ -16507,3 +16507,6 @@
 ## [2026-09-07 16:54 UTC] buy | [LLM] $PSMG at $1.896e-05, spent 0.02 SOL
 - **Reasoning:** $PSMG has the strongest setup of the batch: highest mcap ($23k), bond 39% already (real capital in), unique biotech/medical narrative that differentiates from generic memes, twitter link present. Buying 0.05 SOL. Hard stop -30%, auto TP ladder active.
 
+## [2026-09-07 16:55 UTC] sell | [hard-stop] $PSMG closed at $2.91132e-06 | P&L: -84.6%
+- **Reasoning:** Hard -30% stop
+
