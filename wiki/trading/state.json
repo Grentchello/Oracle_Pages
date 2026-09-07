@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.113181,
+  "balance_sol": 0.125999,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DDdqXTD7WoeAniNAySqjb5ivrPGL4nmT17DTsfWSpump": {
       "symbol": "MFT",
       "name": "CATCOIN",
-      "amount": 170283.50038659945,
+      "amount": 85141.75019329973,
       "entry_price_usd": 1.2386402647416946e-05,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-07T03:18:01.880185+00:00",
       "entry_usd_value": 2.1092,
-      "last_seen_price_usd": 1.2386402647416946e-05,
+      "last_seen_price_usd": 1.5864749160163174e-05,
       "entry_signals": {
         "liquidity_usd": 3527.8424827987797,
         "volume_24h_usd": null,
@@ -36798,19 +36798,30 @@
       "pnl_pct": -53.12,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "DDdqXTD7WoeAniNAySqjb5ivrPGL4nmT17DTsfWSpump",
+      "symbol": "MFT",
+      "name": "CATCOIN",
+      "amount_sold": 85141.75019329973,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T03:18:01.880185+00:00",
+      "exit_time": "2026-09-07T03:19:37.275477+00:00",
+      "entry_price_usd": 1.2386402647416946e-05,
+      "exit_price_usd": 1.5864749160163174e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.012818,
+      "pnl_sol": 0.002818,
+      "pnl_pct": 28.08,
+      "exit_reason": "LLM: sell_half — +28.1% puts me right at the 25% TP threshold. Pool is only $4175 — thin liquidity means any reversal hits hard. Lock half the gain, keep a runner in c",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T03:18:02.137009+00:00",
+  "last_updated": "2026-09-07T03:19:37.544701+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.46,
-  "portfolio_value_usd": 14.05,
+  "last_sol_price_usd": 105.38,
+  "portfolio_value_usd": 14.33,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 02:43 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $OTCxPUMP at $3.03695e-06 | P&L: -17.7%",
-      "reason": "$OTCxPUMP -17.7% with $27 pool and 7% share — illiquid death spiral risk. No bounce signal, 0.0h into the hold. Cut before -30% hard stop."
-    },
     {
       "time": "2026-09-07 02:46 UTC",
       "action": "sell",
@@ -36924,30 +36935,48 @@
       "action": "buy",
       "details": "[LLM] $MFT at $1.23864e-05, spent 0.02 SOL",
       "reason": "$MFT (CATCOIN) has the highest mcap ($12.4k), real twitter handle (@catcoin - dedicated domain), and clear narrative ('cat lovers and crypto enthusiasts together'). Cats are proven memecoin meta. Bond at 34% = momentum building. This is exactly the attention signal we want."
+    },
+    {
+      "time": "2026-09-07 03:19 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $MFT at $1.58647e-05 | P&L: +28.1%",
+      "reason": "+28.1% puts me right at the 25% TP threshold. Pool is only $4175 — thin liquidity means any reversal hits hard. Lock half the gain, keep a runner in case narrative extends."
     }
   ],
   "trade_stats": {
-    "total": 2163,
-    "wins": 1101,
+    "total": 2164,
+    "wins": 1102,
     "losses": 1062,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.199472,
+    "total_pnl_sol": -2.196654,
     "avg_pnl_pct": 31.75,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 56,
-    "today_realized_sol": -0.008823,
-    "today_target_pct": -2.2,
+    "today_trades": 57,
+    "today_realized_sol": -0.006005,
+    "today_target_pct": -1.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1101,
+      "win_count": 1102,
       "loss_count": 1062,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T03:17:59.831019+00:00",
+  "last_llm_brief_at": "2026-09-07T03:19:37.274945+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "DDdqXTD7WoeAniNAySqjb5ivrPGL4nmT17DTsfWSpump": {
+      "price_usd": 1.5864749160163174e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4174.54709140964,
+      "volume_h24": 3528.96,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 39.614225578
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

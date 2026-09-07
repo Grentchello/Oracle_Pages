@@ -15937,3 +15937,6 @@
 ## [2026-09-07 03:18 UTC] buy | [LLM] $MFT at $1.23864e-05, spent 0.02 SOL
 - **Reasoning:** $MFT (CATCOIN) has the highest mcap ($12.4k), real twitter handle (@catcoin - dedicated domain), and clear narrative ('cat lovers and crypto enthusiasts together'). Cats are proven memecoin meta. Bond at 34% = momentum building. This is exactly the attention signal we want.
 
+## [2026-09-07 03:19 UTC] sell | [PARTIAL][LLM] $MFT at $1.58647e-05 | P&L: +28.1%
+- **Reasoning:** +28.1% puts me right at the 25% TP threshold. Pool is only $4175 — thin liquidity means any reversal hits hard. Lock half the gain, keep a runner in case narrative extends.
+
