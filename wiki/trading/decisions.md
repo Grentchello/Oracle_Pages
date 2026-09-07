@@ -16489,3 +16489,6 @@
 ## [2026-09-07 16:19 UTC] buy | [LLM] $TROK at $7.332e-06, spent 0.02 SOL
 - **Reasoning:** $TROK 'Republic of Kekestan' is a pure meme-meta narrative (Kekistan lore, meme-as-law), not political. Fresh0.9min launch, $7.3k mcap with27% bonded — early enough for attention-run. Risk: narrative is niche; if Kek meme doesn't catch, dies fast.
 
+## [2026-09-07 16:21 UTC] sell | [FULL][LLM] $TROK at $9.11305e-06 | P&L: +24.3%
+- **Reasoning:** TROK is up +24.3% and the bot auto-TPs at 25%, so I'm locking the gain one tick early before bonding-curve slippage eats it. Pool is only $2,405 — thin, swingy, exits get worse fast. Take the win.
+

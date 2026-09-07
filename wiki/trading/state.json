@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.082369,
+  "balance_sol": 0.107239,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "68G6SVyPFoSKETj1zGNpHrgARtQDcAWKfDNki84Qpump": {
-      "symbol": "TROK",
-      "name": "The Republic of Kekestan",
-      "amount": 282487.7250409165,
-      "entry_price_usd": 7.332e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T16:19:09.201942+00:00",
-      "entry_usd_value": 2.0712,
-      "last_seen_price_usd": 7.332e-06,
-      "entry_signals": {
-        "liquidity_usd": 2068.0920939792,
-        "volume_24h_usd": 1906.7,
-        "market_cap_usd": 7314.989181841565,
-        "ath_market_cap_usd": 7331.185474077095,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 19.96998932,
-        "description": "The Republic of Kekistan — where memes are law and KEK is currency.  ",
-        "twitter": "https://x.com/Kekrebubliih",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38583,19 +38559,30 @@
       "pnl_pct": -19.15,
       "exit_reason": "LLM: sell_all — Down -19.1% in 6 minutes on a tiny $82 pool where I hold 2% (illiquid exit). Approaching the -20% loser-exit threshold with no bounce signal and no ca",
       "partial": false
+    },
+    {
+      "mint": "68G6SVyPFoSKETj1zGNpHrgARtQDcAWKfDNki84Qpump",
+      "symbol": "TROK",
+      "name": "The Republic of Kekestan",
+      "amount_sold": 282487.7250409165,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T16:19:09.201942+00:00",
+      "exit_time": "2026-09-07T16:21:05.951177+00:00",
+      "entry_price_usd": 7.332e-06,
+      "exit_price_usd": 9.113050960405999e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.02487,
+      "pnl_sol": 0.00487,
+      "pnl_pct": 24.29,
+      "exit_reason": "LLM: sell_all — TROK is up +24.3% and the bot auto-TPs at 25%, so I'm locking the gain one tick early before bonding-curve slippage eats it. Pool is only $2,405 — thi",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T16:19:09.202276+00:00",
+  "last_updated": "2026-09-07T16:21:05.951538+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.56,
-  "portfolio_value_usd": 10.6,
+  "last_sol_price_usd": 103.51,
+  "portfolio_value_usd": 11.1,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 14:33 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PR at $3.27705e-06 | P&L: +8.4%",
-      "reason": "PARABOLIC RUN is up only +8.4% after entry, but more critically: pool is only $189 with our 1% share — extremely thin liquidity makes the position hard to exit cleanly. Volume is just $209 in 24h. With 0.0783 SOL free and daily target of +20%, I need to rotate capital into fresh attention. Holding a flat micro-cap with 0 sell pressure absorbed is wasted slot."
-    },
     {
       "time": "2026-09-07 14:34 UTC",
       "action": "buy",
@@ -38709,40 +38696,46 @@
       "action": "buy",
       "details": "[LLM] $TROK at $7.332e-06, spent 0.02 SOL",
       "reason": "$TROK 'Republic of Kekestan' is a pure meme-meta narrative (Kekistan lore, meme-as-law), not political. Fresh0.9min launch, $7.3k mcap with27% bonded — early enough for attention-run. Risk: narrative is niche; if Kek meme doesn't catch, dies fast."
+    },
+    {
+      "time": "2026-09-07 16:21 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $TROK at $9.11305e-06 | P&L: +24.3%",
+      "reason": "TROK is up +24.3% and the bot auto-TPs at 25%, so I'm locking the gain one tick early before bonding-curve slippage eats it. Pool is only $2,405 — thin, swingy, exits get worse fast. Take the win."
     }
   ],
   "trade_stats": {
-    "total": 2268,
-    "wins": 1157,
+    "total": 2269,
+    "wins": 1158,
     "losses": 1111,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.230284,
+    "total_pnl_sol": -2.225414,
     "avg_pnl_pct": 30.83,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 161,
-    "today_realized_sol": -0.039635,
-    "today_target_pct": -9.9,
+    "today_trades": 162,
+    "today_realized_sol": -0.034765,
+    "today_target_pct": -8.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1157,
+      "win_count": 1158,
       "loss_count": 1111,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T16:19:07.782707+00:00",
+  "last_llm_brief_at": "2026-09-07T16:21:05.951133+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "CqhGHaJRAyRHFedpR3kbuM4UJh1pVsw9MQBCpMU9pump": {
-      "price_usd": 3.0510451280489923e-06,
+    "68G6SVyPFoSKETj1zGNpHrgARtQDcAWKfDNki84Qpump": {
+      "price_usd": 9.113050960405999e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 82.39316748324,
-      "volume_h24": 882.73,
+      "liquidity_usd": 2405.10528721419,
+      "volume_h24": 2603.74,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.795608029
+      "real_sol_reserves": 23.235487269
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
