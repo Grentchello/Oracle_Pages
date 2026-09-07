@@ -15673,3 +15673,9 @@
 ## [2026-09-07 00:10 UTC] sell | [PARTIAL][LLM] $STANLEY at $6.76496e-06 | P&L: +31.2%
 - **Reasoning:** $STANLEY at +31.2% has cleared the +25% TP threshold but pool is dangerously thin ($1620, 0% our share). Selling half locks in a realized gain while keeping exposure if the bonding curve continues filling.
 
+## [2026-09-07 00:11 UTC] sell | [TP +30% (25%)] $BCAT at $1.35969e-05 | P&L: +77.1%
+- **Reasoning:** Auto take-profit at +77.1%
+
+## [2026-09-07 00:12 UTC] sell | [PARTIAL][LLM] $BCAT at $1.35969e-05 | P&L: +77.1%
+- **Reasoning:** $BCAT is +77%, well past the +50% TP zone. Lock in gains on half — bonding-curve tokens at this mc ($3.6k pool) can reverse fast. Keep half riding if narrative holds.
+
