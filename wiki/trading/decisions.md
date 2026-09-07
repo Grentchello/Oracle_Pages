@@ -15748,3 +15748,9 @@
 ## [2026-09-07 01:03 UTC] buy | [LLM] $GIFT at $5.62682e-06, spent 0.02 SOL
 - **Reasoning:** $GIFT — strongest narrative in the batch (trading fees → real-world gift cards, no KYC), Twitter link present, $5.6k mcap. Cleanest attention play with a story and utility claim. Sizing 0.05 SOL per v7 rules — only one position to preserve reserve.
 
+## [2026-09-07 01:05 UTC] sell | [FULL][LLM] $GIFT at $5.21485e-06 | P&L: -7.3%
+- **Reasoning:** Pool is only $1036 with our share at 0% — exit liquidity is the real risk here, not the -7.3%. Cutting now frees the slot for a better narrative; the -30% stop is very likely to hit on a pool this thin.
+
+## [2026-09-07 01:05 UTC] buy | [LLM] $Emberfin at $5.36871e-06, spent 0.02 SOL
+- **Reasoning:** Strongest attention signal in the batch: viral GIGA-framed X post, novel 'orange shark sighting' narrative, bonding already 20% (real buyers, not just bots). Mcap $5.4k is in the sweet spot for a 5-10x if the narrative spreads.
+
