@@ -16258,3 +16258,6 @@
 ## [2026-09-07 10:03 UTC] buy | [LLM] $GRAMLIN at $5.555e-06, spent 0.02 SOL
 - **Reasoning:** $GRAMLIN has clearest narrative of the batch — gamified play-to-claim token with active tournament, real twitter handle, 21% bonding already. mcap $5.5k is entry-zone. Best attention signal here.
 
+## [2026-09-07 10:04 UTC] sell | [FULL][LLM] $GRAMLIN at $5.43175e-06 | P&L: -2.2%
+- **Reasoning:** $GRAMLIN is -2.2% but only 0.0h held — actually it's a fresh entry from last tick. Bonding curve at $1136 pool, my share=0% (I got sandwiched or the curve moved against me on entry). No conviction in the narrative; better to free the slot for fresh launches with actual attention.
+
