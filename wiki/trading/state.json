@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.090768,
+  "balance_sol": 0.107626,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7z6pRVLuaHkhJivD2r9ayisv2ypTPgZa5oieBFuhpump": {
       "symbol": "POPFISH",
       "name": "POPFISH",
-      "amount": 308362.1022845755,
+      "amount": 115635.78835671581,
       "entry_price_usd": 6.804338096202405e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-07T11:27:28.266353+00:00",
       "entry_usd_value": 2.0982,
-      "last_seen_price_usd": 6.804338096202405e-06,
+      "last_seen_price_usd": 9.169861027177943e-06,
       "entry_signals": {
         "liquidity_usd": 1809.7611488969999,
         "volume_24h_usd": null,
@@ -38022,25 +38022,47 @@
       "pnl_pct": -83.62,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "7z6pRVLuaHkhJivD2r9ayisv2ypTPgZa5oieBFuhpump",
+      "symbol": "POPFISH",
+      "name": "POPFISH",
+      "amount_sold": 77090.52557114388,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-07T11:27:28.266353+00:00",
+      "exit_time": "2026-09-07T11:28:31.939071+00:00",
+      "entry_price_usd": 6.804338096202405e-06,
+      "exit_price_usd": 9.169861027177943e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.006743,
+      "pnl_sol": 0.001743,
+      "pnl_pct": 34.76,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "7z6pRVLuaHkhJivD2r9ayisv2ypTPgZa5oieBFuhpump",
+      "symbol": "POPFISH",
+      "name": "POPFISH",
+      "amount_sold": 115635.78835671581,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T11:27:28.266353+00:00",
+      "exit_time": "2026-09-07T11:28:45.009857+00:00",
+      "entry_price_usd": 6.804338096202405e-06,
+      "exit_price_usd": 9.169861027177943e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.010115,
+      "pnl_sol": 0.002615,
+      "pnl_pct": 34.76,
+      "exit_reason": "LLM: sell_half — Up +34.8% past first TP on a $2,418 pool bonding-curve position. Liquidity is below the 5x threshold and any larger holder selling will collapse price",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T11:27:28.266668+00:00",
+  "last_updated": "2026-09-07T11:28:45.010863+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.91,
-  "portfolio_value_usd": 11.62,
+  "last_sol_price_usd": 104.83,
+  "portfolio_value_usd": 12.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 10:03 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $UEG at $2.95131e-06 | P&L: -1.1%",
-      "reason": "UEG pool is only $10 with our 21% share — that's an instant liquidity trap. Even small sells will crash price. Exit fast at -1.1% before it gets worse."
-    },
-    {
-      "time": "2026-09-07 10:03 UTC",
-      "action": "buy",
-      "details": "[LLM] $GRAMLIN at $5.555e-06, spent 0.02 SOL",
-      "reason": "$GRAMLIN has clearest narrative of the batch — gamified play-to-claim token with active tournament, real twitter handle, 21% bonding already. mcap $5.5k is entry-zone. Best attention signal here."
-    },
     {
       "time": "2026-09-07 10:04 UTC",
       "action": "sell",
@@ -38148,30 +38170,54 @@
       "action": "buy",
       "details": "[LLM] $POPFISH at $6.80434e-06, spent 0.02 SOL",
       "reason": "POPFISH has the strongest signal of the batch: bond curve26% complete (most demand pressure,2x next closest), explicit 'bring back SOL trenches' narrative targeting active memecoin traders, full description + twitter both present (viability gate clearly passed), mcap still tiny at $6.8k. Risk: 0.3min old, very early, can rug - but bond 26% means real SOL is in. One position only - reserve constraint limits me to 1 entry at 0.05 SOL."
+    },
+    {
+      "time": "2026-09-07 11:28 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $POPFISH at $9.16986e-06 | P&L: +34.8%",
+      "reason": "Auto take-profit at +34.8%"
+    },
+    {
+      "time": "2026-09-07 11:28 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $POPFISH at $9.16986e-06 | P&L: +34.8%",
+      "reason": "Up +34.8% past first TP on a $2,418 pool bonding-curve position. Liquidity is below the 5x threshold and any larger holder selling will collapse price. Lock half the gain, keep the rest for a continued pump. Bot would auto-TP at +100% but I'd rather take17% realized gain now than risk the full position on thin liquidity."
     }
   ],
   "trade_stats": {
-    "total": 2235,
-    "wins": 1135,
+    "total": 2237,
+    "wins": 1137,
     "losses": 1100,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.221884,
+    "total_pnl_sol": -2.217526,
     "avg_pnl_pct": 31.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 128,
-    "today_realized_sol": -0.031235,
-    "today_target_pct": -7.8,
+    "today_trades": 130,
+    "today_realized_sol": -0.026877,
+    "today_target_pct": -6.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1135,
+      "win_count": 1137,
       "loss_count": 1100,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T11:27:26.885181+00:00",
+  "last_llm_brief_at": "2026-09-07T11:28:45.009812+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "7z6pRVLuaHkhJivD2r9ayisv2ypTPgZa5oieBFuhpump": {
+      "price_usd": 9.169861027177943e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2417.7874508485497,
+      "volume_h24": 11503.59,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 23.063888685
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -16312,3 +16312,9 @@
 ## [2026-09-07 11:27 UTC] buy | [LLM] $POPFISH at $6.80434e-06, spent 0.02 SOL
 - **Reasoning:** POPFISH has the strongest signal of the batch: bond curve26% complete (most demand pressure,2x next closest), explicit 'bring back SOL trenches' narrative targeting active memecoin traders, full description + twitter both present (viability gate clearly passed), mcap still tiny at $6.8k. Risk: 0.3min old, very early, can rug - but bond 26% means real SOL is in. One position only - reserve constraint limits me to 1 entry at 0.05 SOL.
 
+## [2026-09-07 11:28 UTC] sell | [TP +30% (25%)] $POPFISH at $9.16986e-06 | P&L: +34.8%
+- **Reasoning:** Auto take-profit at +34.8%
+
+## [2026-09-07 11:28 UTC] sell | [PARTIAL][LLM] $POPFISH at $9.16986e-06 | P&L: +34.8%
+- **Reasoning:** Up +34.8% past first TP on a $2,418 pool bonding-curve position. Liquidity is below the 5x threshold and any larger holder selling will collapse price. Lock half the gain, keep the rest for a continued pump. Bot would auto-TP at +100% but I'd rather take17% realized gain now than risk the full position on thin liquidity.
+
