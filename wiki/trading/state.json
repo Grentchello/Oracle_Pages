@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.175441,
+  "balance_sol": 0.186242,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8Nsd3LND2NCnsmgjSUzhuisnkEq2FD6u2oXe8cYE6J7H": {
-      "symbol": "RAVEN",
-      "name": "Wallstreet Ape",
-      "amount": 372473.49823321553,
-      "entry_price_usd": 5.66e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T01:57:08.362890+00:00",
-      "entry_usd_value": 2.1082,
-      "last_seen_price_usd": 5.66e-06,
-      "entry_signals": {
-        "liquidity_usd": 307.14682567591,
-        "volume_24h_usd": 7483.15,
-        "market_cap_usd": 4049.1250209338277,
-        "ath_market_cap_usd": 9470.605723675419,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.913830051,
-        "description": "In 1999 a chimpanzee named Raven was first successful NYSE trader who was an actual ape. He outperformed over 6,000 professional brokers by using darts to select stocks",
-        "twitter": "https://x.com/itsmazal/status/2096779432480346368",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -36390,19 +36366,30 @@
       "pnl_pct": 0.2,
       "exit_reason": "LLM: sell_all — $Kimchi is flat at +0.2% after 0.1h on a $260 pool with no momentum. Dead launch, no attention signal developing — better to free the slot for a fresh",
       "partial": false
+    },
+    {
+      "mint": "8Nsd3LND2NCnsmgjSUzhuisnkEq2FD6u2oXe8cYE6J7H",
+      "symbol": "RAVEN",
+      "name": "Wallstreet Ape",
+      "amount_sold": 372473.49823321553,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T01:57:08.362890+00:00",
+      "exit_time": "2026-09-07T01:58:12.198008+00:00",
+      "entry_price_usd": 5.66e-06,
+      "exit_price_usd": 3.0540022918121185e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.010801,
+      "pnl_sol": -0.009199,
+      "pnl_pct": -46.04,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T01:57:08.626753+00:00",
+  "last_updated": "2026-09-07T01:58:37.421874+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.41,
-  "portfolio_value_usd": 20.6,
+  "last_sol_price_usd": 105.32,
+  "portfolio_value_usd": 19.62,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 01:07 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Emberfin at $9.41377e-06 | P&L: +75.3%",
-      "reason": "+75.3% in <1min on a $2.4k pool bonding-curve token is parabolic. Bonding-curve tokens mean liquidity is paper-thin and any pullback is violent. Lock the gain — this is exactly the 'up >20% and doubt' scenario the discipline calls to exit on."
-    },
     {
       "time": "2026-09-07 01:14 UTC",
       "action": "buy",
@@ -36516,30 +36503,48 @@
       "action": "buy",
       "details": "[LLM] $RAVEN at $5.66e-06, spent 0.02 SOL",
       "reason": "$RAVEN combines a concrete Wall Street-ape story, a roughly $4k mcap launch, and an external X attention signal, offering the clearest immediate viral narrative. Buy the 0.1 SOL experimental position while treating bonding progress and ME2F fragility as the principal risks."
+    },
+    {
+      "time": "2026-09-07 01:58 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $RAVEN closed at $3.054e-06 | P&L: -46.0%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2139,
+    "total": 2140,
     "wins": 1089,
-    "losses": 1050,
+    "losses": 1051,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.13721,
-    "avg_pnl_pct": 32.13,
+    "total_pnl_sol": -2.146409,
+    "avg_pnl_pct": 32.09,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 32,
-    "today_realized_sol": 0.053439,
-    "today_target_pct": 13.4,
+    "today_trades": 33,
+    "today_realized_sol": 0.04424,
+    "today_target_pct": 11.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1089,
-      "loss_count": 1050,
+      "loss_count": 1051,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T01:57:06.956934+00:00",
+  "last_llm_brief_at": "2026-09-07T01:58:36.827353+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8Nsd3LND2NCnsmgjSUzhuisnkEq2FD6u2oXe8cYE6J7H": {
+      "price_usd": 3.0540022918121185e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 58.13736428563999,
+      "volume_h24": 10716.37,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.552006877
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

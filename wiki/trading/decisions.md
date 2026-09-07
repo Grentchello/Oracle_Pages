@@ -15817,3 +15817,6 @@
 ## [2026-09-07 01:57 UTC] buy | [LLM] $RAVEN at $5.66e-06, spent 0.02 SOL
 - **Reasoning:** $RAVEN combines a concrete Wall Street-ape story, a roughly $4k mcap launch, and an external X attention signal, offering the clearest immediate viral narrative. Buy the 0.1 SOL experimental position while treating bonding progress and ME2F fragility as the principal risks.
 
+## [2026-09-07 01:58 UTC] sell | [hard-stop] $RAVEN closed at $3.054e-06 | P&L: -46.0%
+- **Reasoning:** Hard -30% stop
+
