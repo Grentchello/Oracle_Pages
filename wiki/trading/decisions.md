@@ -16123,3 +16123,6 @@
 ## [2026-09-07 07:24 UTC] sell | [PARTIAL][LLM] $SafeSascha at $3.54095e-06 | P&L: +10.0%
 - **Reasoning:** $SafeSascha +10% on an even thinner $309 pool with only 1% bonding. Tiny pool = exit liquidity is the risk. Half off protects against rug-back while keeping upside exposure.
 
+## [2026-09-07 07:26 UTC] sell | [FULL][LLM] $SafeSascha at $3.02654e-06 | P&L: -6.0%
+- **Reasoning:** -6% held0h with only $50 pool liquidity and a name like 'SafeSascha' — this is a micro-cap grind that won't attract attention. Lock in the small loss and free the slot for fresher launches with actual narrative.
+
