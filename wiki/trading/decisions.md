@@ -16111,3 +16111,9 @@
 ## [2026-09-07 07:20 UTC] sell | [PARTIAL][LLM] $PUMPMAS at $2.95294e-06 | P&L: -9.9%
 - **Reasoning:** $PUMPMAS is illiquid (pool $4, well below 5x position size) and we own 43% of the pool — we cannot safely exit. With -9.9% loss and effectively unsellable, best to dump while any buyers exist rather than wait for the -30% hard stop or total death.
 
+## [2026-09-07 07:23 UTC] sell | [FULL][LLM] $PUMPMAS at $2.95153e-06 | P&L: -9.9%
+- **Reasoning:** $PUMPMAS is -10% with pool=$4 — that's catastrophically thin liquidity (below the 5x position size gate even for a 0.05 SOL pos). At 21% pool share I'm a forced seller into a vacuum. Cut the loss before it widens to -30%.
+
+## [2026-09-07 07:23 UTC] buy | [LLM] $SafeSascha at $3.21808e-06, spent 0.02 SOL
+- **Reasoning:** $SafeSascha has a genuine emotional narrative (mother fighting for child with rare genetic condition) + linked X account @dementiacentre. Real-cause memecoins with personal stories can go viral. Risk: charity tokens sometimes dump hard once sympathy trade fades — keep tight TP.
+
