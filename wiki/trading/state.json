@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.074176,
+  "balance_sol": 0.098339,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2RYhzRM4mbA3dAPiEw6o7mRgTJggcyGgwEvyiWa53Zpg": {
-      "symbol": "mofo",
-      "name": "mofo bot",
-      "amount": 542582.488958171,
-      "entry_price_usd": 3.849e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T14:25:05.220111+00:00",
-      "entry_usd_value": 2.0884,
-      "last_seen_price_usd": 3.849e-06,
-      "entry_signals": {
-        "liquidity_usd": 1538.01654380636,
-        "volume_24h_usd": 1171.24,
-        "market_cap_usd": 6677.169501034622,
-        "ath_market_cap_usd": 7097.79669554005,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 14.729137558,
-        "description": "copytrade the most profitable fomo traders on autopilot mofo.gg.",
-        "twitter": "https://x.com/trademofo",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38362,19 +38338,30 @@
       "pnl_pct": -14.65,
       "exit_reason": "LLM: sell_all — Down -14.6% with tiny $52 pool (we own 4% — that's basically the entire float), no clear narrative in 'VIBES', held 0.1h with no bounce. Stale microca",
       "partial": false
+    },
+    {
+      "mint": "2RYhzRM4mbA3dAPiEw6o7mRgTJggcyGgwEvyiWa53Zpg",
+      "symbol": "mofo",
+      "name": "mofo bot",
+      "amount_sold": 542582.488958171,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T14:25:05.220111+00:00",
+      "exit_time": "2026-09-07T14:26:24.922933+00:00",
+      "entry_price_usd": 3.849e-06,
+      "exit_price_usd": 4.647106138984309e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.024163,
+      "pnl_sol": 0.004163,
+      "pnl_pct": 20.74,
+      "exit_reason": "LLM: sell_all — The position is up 20.7%, already above the stated 20% profit-taking threshold. With a very small $820 pool, weak liquidity relative to the $5 positio",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T14:25:05.220299+00:00",
+  "last_updated": "2026-09-07T14:26:25.499547+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.42,
-  "portfolio_value_usd": 9.83,
+  "last_sol_price_usd": 104.35,
+  "portfolio_value_usd": 10.26,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 12:16 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-07 12:57 UTC",
       "action": "buy",
@@ -38488,30 +38475,48 @@
       "action": "buy",
       "details": "[LLM] $mofo at $3.849e-06, spent 0.02 SOL",
       "reason": "$mofo has both a product (mofo.gg copytrade bot) and an active trader's twitter (@trademofo) — utility-flavored attention tends to sustain beyond launch pump, and mcap $6.7k is entry-level."
+    },
+    {
+      "time": "2026-09-07 14:26 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $mofo at $4.64711e-06 | P&L: +20.7%",
+      "reason": "The position is up 20.7%, already above the stated 20% profit-taking threshold. With a very small $820 pool, weak liquidity relative to the $5 position-size rule, and no demonstrated momentum, lock in the gain rather than risk a rapid reversal."
     }
   ],
   "trade_stats": {
-    "total": 2255,
-    "wins": 1148,
+    "total": 2256,
+    "wins": 1149,
     "losses": 1107,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.238477,
+    "total_pnl_sol": -2.234314,
     "avg_pnl_pct": 30.93,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 148,
-    "today_realized_sol": -0.047828,
-    "today_target_pct": -12.0,
+    "today_trades": 149,
+    "today_realized_sol": -0.043665,
+    "today_target_pct": -10.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1148,
+      "win_count": 1149,
       "loss_count": 1107,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T14:25:03.388978+00:00",
+  "last_llm_brief_at": "2026-09-07T14:26:24.922420+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2RYhzRM4mbA3dAPiEw6o7mRgTJggcyGgwEvyiWa53Zpg": {
+      "price_usd": 4.647106138984309e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 820.4179560325,
+      "volume_h24": 4925.75,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 7.86217495
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

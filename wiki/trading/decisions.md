@@ -16423,3 +16423,6 @@
 ## [2026-09-07 14:25 UTC] buy | [LLM] $mofo at $3.849e-06, spent 0.02 SOL
 - **Reasoning:** $mofo has both a product (mofo.gg copytrade bot) and an active trader's twitter (@trademofo) — utility-flavored attention tends to sustain beyond launch pump, and mcap $6.7k is entry-level.
 
+## [2026-09-07 14:26 UTC] sell | [FULL][LLM] $mofo at $4.64711e-06 | P&L: +20.7%
+- **Reasoning:** The position is up 20.7%, already above the stated 20% profit-taking threshold. With a very small $820 pool, weak liquidity relative to the $5 position-size rule, and no demonstrated momentum, lock in the gain rather than risk a rapid reversal.
+
