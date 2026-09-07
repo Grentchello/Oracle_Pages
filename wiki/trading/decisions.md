@@ -15703,3 +15703,6 @@
 ## [2026-09-07 00:26 UTC] sell | [FULL][LLM] $LABCOIN at $3.04882e-06 | P&L: -19.3%
 - **Reasoning:** $LABCOIN is down -19.3% with only $43 pool liquidity and 4% of the curve — bonding curve tokens with thin liquidity don't bounce, they bleed to -30%. Cut it now and free the slot.
 
+## [2026-09-07 00:27 UTC] buy | [LLM] $ZPEPE at $4.0112e-06, spent 0.02 SOL
+- **Reasoning:** Anonymous Pepe format has repeatedly captured memecoin attention (AP, various Pepe derivatives). Has Twitter, has decent description. Second-best narrative in the batch. 0.05 SOL.
+
