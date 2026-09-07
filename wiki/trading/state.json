@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.096899,
+  "balance_sol": 0.116315,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "47BTxidYxXuvZB4JHvJQotB8ZvbirT3LihbbRa1xpump": {
-      "symbol": "ENRIQUE",
-      "name": "Enrique Hernandez",
-      "amount": 613666.763594068,
-      "entry_price_usd": 3.439e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T05:31:43.378887+00:00",
-      "entry_usd_value": 2.1104,
-      "last_seen_price_usd": 3.439e-06,
-      "entry_signals": {
-        "liquidity_usd": 219.49989621832,
-        "volume_24h_usd": 251.96,
-        "market_cap_usd": 3422.0951389212114,
-        "ath_market_cap_usd": 3444.315057904397,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.080173391,
-        "description": "“Your favorite reggaeton token. Also enjoy software when not on stage.” -Martin ",
-        "twitter": "https://x.com/martinshkreli?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -37036,19 +37012,30 @@
       "pnl_pct": -9.09,
       "exit_reason": "LLM: sell_all — Down 9.1% on a bonding-curve token with only $645 pool and 0% share — this is illiquid and not pumping. Stale exit territory; lock the small loss and ",
       "partial": false
+    },
+    {
+      "mint": "47BTxidYxXuvZB4JHvJQotB8ZvbirT3LihbbRa1xpump",
+      "symbol": "ENRIQUE",
+      "name": "Enrique Hernandez",
+      "amount_sold": 613666.763594068,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T05:31:43.378887+00:00",
+      "exit_time": "2026-09-07T05:33:15.461076+00:00",
+      "entry_price_usd": 3.439e-06,
+      "exit_price_usd": 3.340745268546228e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019416,
+      "pnl_sol": -0.000584,
+      "pnl_pct": -2.86,
+      "exit_reason": "LLM: sell_all — Pool is only $202 with 1% share — illiquid trap. Down 2.9% on a tiny bonding-curve position; better to free the slot for fresh attention than hold thr",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T05:31:43.379063+00:00",
+  "last_updated": "2026-09-07T05:33:15.987772+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.52,
-  "portfolio_value_usd": 12.34,
+  "last_sol_price_usd": 105.59,
+  "portfolio_value_usd": 12.28,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 03:22 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $MFT at $1.7839e-05 | P&L: +44.0%",
-      "reason": "Auto take-profit at +44.0%"
-    },
     {
       "time": "2026-09-07 03:23 UTC",
       "action": "sell",
@@ -37162,30 +37149,48 @@
       "action": "buy",
       "details": "[LLM] $ENRIQUE at $3.439e-06, spent 0.02 SOL",
       "reason": "$ENRIQUE: Shkreli X engagement + reggaeton mashup is genuinely novel attention bait — exactly the weird-mashup that pumps in this meta. mcap $3.4k is super early, bond only 7%. Risk: Shkreli is polarizing (fragility), liquidity is thin so any entry size matters. Sizing 0.05 SOL to respect thin balance."
+    },
+    {
+      "time": "2026-09-07 05:33 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ENRIQUE at $3.34075e-06 | P&L: -2.9%",
+      "reason": "Pool is only $202 with 1% share — illiquid trap. Down 2.9% on a tiny bonding-curve position; better to free the slot for fresh attention than hold through thinly-traded price discovery."
     }
   ],
   "trade_stats": {
-    "total": 2177,
+    "total": 2178,
     "wins": 1108,
-    "losses": 1069,
+    "losses": 1070,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.215753,
-    "avg_pnl_pct": 31.6,
+    "total_pnl_sol": -2.216337,
+    "avg_pnl_pct": 31.59,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 70,
-    "today_realized_sol": -0.025104,
-    "today_target_pct": -6.3,
+    "today_trades": 71,
+    "today_realized_sol": -0.025688,
+    "today_target_pct": -6.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1108,
-      "loss_count": 1069,
+      "loss_count": 1070,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T05:31:41.964294+00:00",
+  "last_llm_brief_at": "2026-09-07T05:33:15.461027+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "47BTxidYxXuvZB4JHvJQotB8ZvbirT3LihbbRa1xpump": {
+      "price_usd": 3.340745268546228e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 202.01805083659,
+      "volume_h24": 290.87,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.913230901
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -16003,3 +16003,6 @@
 ## [2026-09-07 05:31 UTC] buy | [LLM] $ENRIQUE at $3.439e-06, spent 0.02 SOL
 - **Reasoning:** $ENRIQUE: Shkreli X engagement + reggaeton mashup is genuinely novel attention bait — exactly the weird-mashup that pumps in this meta. mcap $3.4k is super early, bond only 7%. Risk: Shkreli is polarizing (fragility), liquidity is thin so any entry size matters. Sizing 0.05 SOL to respect thin balance.
 
+## [2026-09-07 05:33 UTC] sell | [FULL][LLM] $ENRIQUE at $3.34075e-06 | P&L: -2.9%
+- **Reasoning:** Pool is only $202 with 1% share — illiquid trap. Down 2.9% on a tiny bonding-curve position; better to free the slot for fresh attention than hold through thinly-traded price discovery.
+
