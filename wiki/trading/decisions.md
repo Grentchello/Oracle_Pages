@@ -16009,3 +16009,9 @@
 ## [2026-09-07 05:36 UTC] buy | [LLM] $Unichan at $3.076e-06, spent 0.02 SOL
 - **Reasoning:** $Unichan ties to Unipcs, a top memecoin KOL whose tweets have historically driven pumps. 'Psychic seer' is an established meme archetype from his feed. Risk: bond only 2% means liquidity is razor-thin and one dump could collapse it. Sizing at minimum (0.05 SOL).
 
+## [2026-09-07 05:37 UTC] sell | [FULL][LLM] $Unichan at $3.05769e-06 | P&L: -0.6%
+- **Reasoning:** We hold 4% of a $56 pool — we ARE the exit liquidity. Down -0.6% on a bonding curve with micro-liquidity means any other seller walks through us. Cut and rotate to a fresh attention launch.
+
+## [2026-09-07 05:37 UTC] buy | [LLM] $BUZZ at $2.132e-05, spent 0.02 SOL
+- **Reasoning:** $BUZZ has the strongest attention stack: live X account (@buzzballonsol), brand-narrative ('iconic branding, internet culture'), $21k mcap with 1% bonding — name-recognition + community narrative is the textbook memecoin setup. Highest attention-density candidate in the batch.
+
