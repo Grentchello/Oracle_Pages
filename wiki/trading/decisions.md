@@ -15985,3 +15985,6 @@
 ## [2026-09-07 04:47 UTC] sell | [PARTIAL][LLM] $MVP at $5.49072e-06 | P&L: +18.8%
 - **Reasoning:** At +18.8% with only $1156 pool and 0% our share, this is thin and fragile. Lock half the gain now per the 'up >15% and unsure, take profit' rule; let the remainder ride toward the +25% auto TP. Selling all would forfeit a real chance at the TP ladder on a fresh launch.
 
+## [2026-09-07 04:48 UTC] sell | [FULL][LLM] $MVP at $3.81556e-06 | P&L: -17.5%
+- **Reasoning:** Down -17.5% with pool only $439 and zero share. Approaching -20% rule threshold with no bounce signal — cut the loss and free the slot for fresh capital. -30% hard stop is close; better to exit on my terms.
+
