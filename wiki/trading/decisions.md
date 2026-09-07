@@ -16126,3 +16126,6 @@
 ## [2026-09-07 07:26 UTC] sell | [FULL][LLM] $SafeSascha at $3.02654e-06 | P&L: -6.0%
 - **Reasoning:** -6% held0h with only $50 pool liquidity and a name like 'SafeSascha' — this is a micro-cap grind that won't attract attention. Lock in the small loss and free the slot for fresher launches with actual narrative.
 
+## [2026-09-07 07:28 UTC] sell | [PARTIAL][LLM] $RISE at $6.85152e-06 | P&L: +27.5%
+- **Reasoning:** $RISE is up +27.5% in 6 minutes, already past the 25% auto-TP threshold. Bonding-curve tokens at this stage can reverse violently — locking half the gain now secures profit while leaving a runner for the next leg. Pool is only $1,662, thin liquidity amplifies reversal risk.
+

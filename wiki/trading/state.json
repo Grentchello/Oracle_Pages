@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.156776,
+  "balance_sol": 0.163168,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "BUsMgA4fKsWs6PVWz1hkiLxLWr8e6qyiWvGdZ3zcpump": {
       "symbol": "RISE",
       "name": "RISE",
-      "amount": 196034.72064642783,
+      "amount": 98017.36032321391,
       "entry_price_usd": 5.375578349208123e-06,
-      "entry_sol_spent": 0.01,
+      "entry_sol_spent": 0.005,
       "entry_time": "2026-09-07T07:18:59.679433+00:00",
       "entry_usd_value": 2.1076,
-      "last_seen_price_usd": 6.240334494075748e-06,
+      "last_seen_price_usd": 6.851515142646375e-06,
       "entry_signals": {
         "liquidity_usd": 1148.10187976286,
         "volume_24h_usd": null,
@@ -37444,19 +37444,30 @@
       "pnl_pct": -5.95,
       "exit_reason": "LLM: sell_all — -6% held0h with only $50 pool liquidity and a name like 'SafeSascha' — this is a micro-cap grind that won't attract attention. Lock in the small loss ",
       "partial": false
+    },
+    {
+      "mint": "BUsMgA4fKsWs6PVWz1hkiLxLWr8e6qyiWvGdZ3zcpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 98017.36032321391,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T07:18:59.679433+00:00",
+      "exit_time": "2026-09-07T07:28:12.253628+00:00",
+      "entry_price_usd": 5.375578349208123e-06,
+      "exit_price_usd": 6.851515142646375e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.006392,
+      "pnl_sol": 0.001392,
+      "pnl_pct": 27.46,
+      "exit_reason": "LLM: sell_half — $RISE is up +27.5% in 6 minutes, already past the 25% auto-TP threshold. Bonding-curve tokens at this stage can reverse violently — locking half the g",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T07:26:28.711362+00:00",
+  "last_updated": "2026-09-07T07:28:12.505368+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.91,
-  "portfolio_value_usd": 17.5,
+  "last_sol_price_usd": 105.064,
+  "portfolio_value_usd": 17.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 06:36 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Job at $1.71077e-05 | P&L: +73.1%",
-      "reason": "$Job is up +73.1% already and bonding curve is only 28% complete with thin pool ($4455). Lock half now — the TP ladder will catch the rest, but taking partial profit here protects against the inevitable retrace from this level."
-    },
     {
       "time": "2026-09-07 06:37 UTC",
       "action": "sell",
@@ -37570,51 +37581,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $SafeSascha at $3.02654e-06 | P&L: -6.0%",
       "reason": "-6% held0h with only $50 pool liquidity and a name like 'SafeSascha' — this is a micro-cap grind that won't attract attention. Lock in the small loss and free the slot for fresher launches with actual narrative."
+    },
+    {
+      "time": "2026-09-07 07:28 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RISE at $6.85152e-06 | P&L: +27.5%",
+      "reason": "$RISE is up +27.5% in 6 minutes, already past the 25% auto-TP threshold. Bonding-curve tokens at this stage can reverse violently — locking half the gain now secures profit while leaving a runner for the next leg. Pool is only $1,662, thin liquidity amplifies reversal risk."
     }
   ],
   "trade_stats": {
-    "total": 2201,
-    "wins": 1120,
+    "total": 2202,
+    "wins": 1121,
     "losses": 1081,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.165876,
+    "total_pnl_sol": -2.164484,
     "avg_pnl_pct": 31.64,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 94,
-    "today_realized_sol": 0.024773,
-    "today_target_pct": 6.2,
+    "today_trades": 95,
+    "today_realized_sol": 0.026165,
+    "today_target_pct": 6.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1120,
+      "win_count": 1121,
       "loss_count": 1081,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T07:26:28.208757+00:00",
+  "last_llm_brief_at": "2026-09-07T07:28:12.252669+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BUsMgA4fKsWs6PVWz1hkiLxLWr8e6qyiWvGdZ3zcpump": {
-      "price_usd": 6.240334494075748e-06,
+      "price_usd": 6.851515142646375e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1443.33609165369,
-      "volume_h24": 2046.94,
+      "liquidity_usd": 1661.799336958128,
+      "volume_h24": 2448.68,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 13.757850459
-    },
-    "DhnVVQVm8bg48vGjcHk1PifzH1GdYvxPGm9upCqppump": {
-      "price_usd": 3.0265380199590773e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 49.69530803951999,
-      "volume_h24": 569.07,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.473694672
+      "real_sol_reserves": 15.817019502
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
