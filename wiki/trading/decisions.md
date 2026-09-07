@@ -16231,3 +16231,9 @@
 ## [2026-09-07 09:39 UTC] buy | [LLM] $GTA6 at $3.01097e-06, spent 0.02 SOL
 - **Reasoning:** $GTA6 is a screaming attention play — GTA is one of the most recognized entertainment brands globally, narrative is obvious viral bait. $3k mcap at 0.6min is pure early-entry on a known-narrative launch.
 
+## [2026-09-07 09:42 UTC] sell | [FULL][LLM] $3RDLAW at $3.61459e-06 | P&L: +0.1%
+- **Reasoning:** Flat at +0.1% with only $345 pool liquidity — extreme fragility. 1% pool share on a bonding-curve microcap means any sell pressure crushes price. No narrative edge, just stale chop. Free the slot.
+
+## [2026-09-07 09:42 UTC] sell | [FULL][LLM] $GTA6 at $3.01344e-06 | P&L: +0.1%
+- **Reasoning:** Pool is only $41 with my 5% share — I AM the exit liquidity. +0.1% after immediate entry means no pump momentum. Cut before -30% hard stop triggers.
+
