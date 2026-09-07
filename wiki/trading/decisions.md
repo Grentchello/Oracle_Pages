@@ -16171,3 +16171,9 @@
 ## [2026-09-07 08:04 UTC] buy | [LLM] $wen at $4.443e-06, spent 0.02 SOL
 - **Reasoning:** $wen — meta-memecoin about 'wen moon' itself. Self-referential crypto-native humor, has a clear narrative ('we have the perfect time to run $wen'), 2.2min old, mcap $6.5k, 25% bonded. This is exactly the kind of inside-joke attention play that pumps in this market. Entry with 0.05 SOL.
 
+## [2026-09-07 08:05 UTC] sell | [hard-stop] $SHADY closed at $3.02812e-06 | P&L: -42.9%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-07 08:06 UTC] sell | [PARTIAL][LLM] $wen at $5.02081e-06 | P&L: +13.0%
+- **Reasoning:** $wen is +13% but under the +20% profit-taking threshold and held 0.0h on a bonding curve with only $974 pool. Lock half the gain now — these micro-launches dump back to curve fast, and half-rotates capital for a fresh entry while keeping upside if it breaks out.
+
