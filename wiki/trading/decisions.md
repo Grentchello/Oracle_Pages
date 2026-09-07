@@ -16165,3 +16165,6 @@
 ## [2026-09-07 08:01 UTC] buy | [LLM] $Jimothy at $4.94199e-06, spent 0.02 SOL
 - **Reasoning:** Jimothy The Raccoon has the strongest narrative of the batch — full backstory, raccoon with rare spine curve, real community pitch, tweet link, $4.9k mcap, fresh. Asymmetric bet.
 
+## [2026-09-07 08:02 UTC] sell | [hard-stop] $Jimothy closed at $1.5432e-06 | P&L: -68.8%
+- **Reasoning:** Hard -30% stop
+

@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.141463,
+  "balance_sol": 0.147708,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -11,7 +11,7 @@
       "entry_sol_spent": 0.01,
       "entry_time": "2026-09-07T08:00:12.925929+00:00",
       "entry_usd_value": 2.088,
-      "last_seen_price_usd": 5.528786673314266e-06,
+      "last_seen_price_usd": 5.462195090893481e-06,
       "entry_signals": {
         "liquidity_usd": 1115.1325014156002,
         "volume_24h_usd": 1108.95,
@@ -22,29 +22,6 @@
         "real_sol_reserves": 10.681345799,
         "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. GL. ",
         "twitter": "https://x.com/_rise",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "9Rc9SJAFGQ2A9iSgbvKvGeDMZxWsmhWA9pzj4RSLpump": {
-      "symbol": "Jimothy",
-      "name": "Jimothy The Raccoon",
-      "amount": 423027.6609781854,
-      "entry_price_usd": 4.941993616128586e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T08:01:39.065135+00:00",
-      "entry_usd_value": 2.0906000000000002,
-      "last_seen_price_usd": 4.941993616128586e-06,
-      "entry_signals": {
-        "liquidity_usd": 35.91633364396,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4940.102486838955,
-        "ath_market_cap_usd": 9312.417299867626,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.343598332,
-        "description": "Jimothy The Raccoon ($JIMOTHY) is a raccoon born with a wildly rare, entirely fictional spine curve — and a community token built in his honor. No cure needed. He's fine. He's iconic.",
-        "twitter": "https://x.com/rainmaker1973/status/2078003339699089718",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -37620,19 +37597,30 @@
       "pnl_pct": 4.3,
       "exit_reason": "LLM: sell_half — SHADY is only +4.3% after first read on tiny $1177 pool with 0% share — flat momentum, no catalyst yet. Take half off to lock breakeven+ and free a sl",
       "partial": true
+    },
+    {
+      "mint": "9Rc9SJAFGQ2A9iSgbvKvGeDMZxWsmhWA9pzj4RSLpump",
+      "symbol": "Jimothy",
+      "name": "Jimothy The Raccoon",
+      "amount_sold": 423027.6609781854,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T08:01:39.065135+00:00",
+      "exit_time": "2026-09-07T08:02:43.260778+00:00",
+      "entry_price_usd": 4.941993616128586e-06,
+      "exit_price_usd": 1.543201963883772e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.006245,
+      "pnl_sol": -0.013755,
+      "pnl_pct": -68.77,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T08:01:39.065295+00:00",
+  "last_updated": "2026-09-07T08:03:27.101129+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 104.53,
-  "portfolio_value_usd": 17.92,
+  "portfolio_value_usd": 16.48,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 07:19 UTC",
-      "action": "buy",
-      "details": "[LLM] $PUMPMAS at $3.27771e-06, spent 0.02 SOL",
-      "reason": "$PUMPMAS has live-streamed creator fee giveaways to charity — built-in attention loop and recurring engagement, very memeable Christmas hook at $3.3k mcap."
-    },
     {
       "time": "2026-09-07 07:20 UTC",
       "action": "sell",
@@ -37746,40 +37734,57 @@
       "action": "buy",
       "details": "[LLM] $Jimothy at $4.94199e-06, spent 0.02 SOL",
       "reason": "Jimothy The Raccoon has the strongest narrative of the batch — full backstory, raccoon with rare spine curve, real community pitch, tweet link, $4.9k mcap, fresh. Asymmetric bet."
+    },
+    {
+      "time": "2026-09-07 08:02 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $Jimothy closed at $1.5432e-06 | P&L: -68.8%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2210,
+    "total": 2211,
     "wins": 1127,
-    "losses": 1083,
+    "losses": 1084,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.161189,
-    "avg_pnl_pct": 31.57,
+    "total_pnl_sol": -2.174944,
+    "avg_pnl_pct": 31.53,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 103,
-    "today_realized_sol": 0.02946,
-    "today_target_pct": 7.4,
+    "today_trades": 104,
+    "today_realized_sol": 0.015705,
+    "today_target_pct": 3.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1127,
-      "loss_count": 1083,
+      "loss_count": 1084,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T08:01:37.444689+00:00",
+  "last_llm_brief_at": "2026-09-07T08:03:25.917126+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "srxbT3rUakpeS92LXmii7PRbjj5YasqhMF2MiZ8pump": {
-      "price_usd": 5.528786673314266e-06,
+      "price_usd": 5.462195090893481e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1177.26309111028,
-      "volume_h24": 1141.99,
+      "liquidity_usd": 1151.20941268849,
+      "volume_h24": 1360.51,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 11.262442276
+      "real_sol_reserves": 11.013196333
+    },
+    "9Rc9SJAFGQ2A9iSgbvKvGeDMZxWsmhWA9pzj4RSLpump": {
+      "price_usd": 1.543201963883772e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 36.18907154295,
+      "volume_h24": 5569.98,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.346207515
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
