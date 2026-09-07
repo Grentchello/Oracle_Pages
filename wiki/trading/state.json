@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.074578,
+  "balance_sol": 0.091783,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ByfpkvtETULBe2adq4oHf6HpJVc3o21qKQFAEsQapump": {
-      "symbol": "MRBEANSOL",
-      "name": "MrBean Sol",
-      "amount": 468803.61173814896,
-      "entry_price_usd": 4.43e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T16:57:39.547587+00:00",
-      "entry_usd_value": 2.0768,
-      "last_seen_price_usd": 3.83924769923107e-06,
-      "entry_signals": {
-        "liquidity_usd": 277.24956579936,
-        "volume_24h_usd": 830.21,
-        "market_cap_usd": 3253.878780796794,
-        "ath_market_cap_usd": 5057.064689569571,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.669968854,
-        "description": "Mr. Bean – The most awkward meme coin on Solana. Clumsy, hilarious and unexpectedly going to the moon",
-        "twitter": "https://x.com/solana/status/2086936425325281374",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38651,19 +38627,30 @@
       "pnl_pct": -84.64,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "ByfpkvtETULBe2adq4oHf6HpJVc3o21qKQFAEsQapump",
+      "symbol": "MRBEANSOL",
+      "name": "MrBean Sol",
+      "amount_sold": 468803.61173814896,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T16:57:39.547587+00:00",
+      "exit_time": "2026-09-07T17:01:01.974328+00:00",
+      "entry_price_usd": 4.43e-06,
+      "exit_price_usd": 3.8116441056959463e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.017205,
+      "pnl_sol": -0.002795,
+      "pnl_pct": -13.96,
+      "exit_reason": "LLM: sell_all — Down -14% on a $454-pool bonding-curve token with our share at 0% (essentially illiquid). Holding risks hitting the -30% hard stop, which would add an",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T16:58:59.183674+00:00",
+  "last_updated": "2026-09-07T17:01:01.975298+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.76,
-  "portfolio_value_usd": 9.82,
+  "last_sol_price_usd": 103.86,
+  "portfolio_value_usd": 9.53,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 15:42 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $WOLF at $9.81273e-06 | P&L: +31.5%",
-      "reason": "$WOLF is up +31.5% which has crossed the +30% TP1 threshold; locking half secures profit while letting the other half ride if attention continues. Held only 0.1h with pool still thin ($2613), so partial de-risk is prudent."
-    },
     {
       "time": "2026-09-07 15:43 UTC",
       "action": "sell",
@@ -38777,40 +38764,46 @@
       "action": "buy",
       "details": "[LLM] $MRBEANSOL at $4.43e-06, spent 0.02 SOL",
       "reason": "Mr. Bean is a globally recognized IP with genuine viral potential; the 'most awkward meme coin on Solana' framing is on-brand for memecoin humor. Risk: $3.2k mcap with only 5% bonding means thin liquidity and rug risk, but the attention signal (recognizable character + awkward-meme angle) is the strongest in this batch."
+    },
+    {
+      "time": "2026-09-07 17:01 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MRBEANSOL at $3.81164e-06 | P&L: -14.0%",
+      "reason": "Down -14% on a $454-pool bonding-curve token with our share at 0% (essentially illiquid). Holding risks hitting the -30% hard stop, which would add another 0.015 SOL loss on top of the -0.0474 SOL already realized today. Cutting now locks in ~0.007 SOL instead and prevents further damage — the trend is clearly down with no bounce signal."
     }
   ],
   "trade_stats": {
-    "total": 2272,
+    "total": 2273,
     "wins": 1160,
-    "losses": 1112,
-    "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.238075,
-    "avg_pnl_pct": 30.76,
+    "losses": 1113,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.24087,
+    "avg_pnl_pct": 30.74,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 165,
-    "today_realized_sol": -0.047426,
-    "today_target_pct": -11.9,
+    "today_trades": 166,
+    "today_realized_sol": -0.050221,
+    "today_target_pct": -12.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1160,
-      "loss_count": 1112,
+      "loss_count": 1113,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T16:58:59.183636+00:00",
+  "last_llm_brief_at": "2026-09-07T17:01:01.973762+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "ByfpkvtETULBe2adq4oHf6HpJVc3o21qKQFAEsQapump": {
-      "price_usd": 3.83924769923107e-06,
+      "price_usd": 3.8116441056959463e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 468.15230263096004,
-      "volume_h24": 2454.29,
+      "liquidity_usd": 453.97480024224,
+      "volume_h24": 2455.31,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.511876471
+      "real_sol_reserves": 4.371026384
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

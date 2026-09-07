@@ -16513,3 +16513,6 @@
 ## [2026-09-07 16:57 UTC] buy | [LLM] $MRBEANSOL at $4.43e-06, spent 0.02 SOL
 - **Reasoning:** Mr. Bean is a globally recognized IP with genuine viral potential; the 'most awkward meme coin on Solana' framing is on-brand for memecoin humor. Risk: $3.2k mcap with only 5% bonding means thin liquidity and rug risk, but the attention signal (recognizable character + awkward-meme angle) is the strongest in this batch.
 
+## [2026-09-07 17:01 UTC] sell | [FULL][LLM] $MRBEANSOL at $3.81164e-06 | P&L: -14.0%
+- **Reasoning:** Down -14% on a $454-pool bonding-curve token with our share at 0% (essentially illiquid). Holding risks hitting the -30% hard stop, which would add another 0.015 SOL loss on top of the -0.0474 SOL already realized today. Cutting now locks in ~0.007 SOL instead and prevents further damage — the trend is clearly down with no bounce signal.
+
