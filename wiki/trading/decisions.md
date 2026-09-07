@@ -16270,3 +16270,6 @@
 ## [2026-09-07 10:07 UTC] sell | [FULL][LLM] $rip tucker at $2.93374e-06 | P&L: -6.9%
 - **Reasoning:** $rip tucker is -6.9% AND pool=$0 AND our share=465302957% (data is corrupted/we own effectively the whole float, meaning no real liquidity to exit into). This is dead capital. Even worse, held 0h and pool is $0 — cannot exit at any meaningful price. Mark as loss, free the slot. Hard to exit but better than waiting for the -30% auto to fire.
 
+## [2026-09-07 10:12 UTC] buy | [LLM] $ZOOLANA at $3.06092e-06, spent 0.02 SOL
+- **Reasoning:** $ZOOLANA — meta-narrative: 'Solana should be home of animals, not just dog coins.' Pivots off the saturated dog-coin meta with a fresh angle, has description AND twitter (@Zoolanaonsol_), $3k mcap is early. Risky but the narrative is differentiated and attention-grabbing.
+
