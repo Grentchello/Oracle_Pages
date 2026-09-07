@@ -15772,3 +15772,6 @@
 ## [2026-09-07 01:19 UTC] sell | [FULL][LLM] $ZPEPE at $3.20116e-06 | P&L: -2.4%
 - **Reasoning:** Pool liquidity is only $131 with our 2% share — exit will be painful but the 'pepe derivative' narrative is exhausted and holding a bleeding micro-cap position ties up a slot. Cut loss, free capital for fresh attention.
 
+## [2026-09-07 01:22 UTC] sell | [FULL][LLM] $PoP at $3.099e-06 | P&L: -13.2%
+- **Reasoning:** The position is down 13.2% after only 0.1 hours and lacks a clear bounce signal. Its $79 pool and 2% share create elevated exit and liquidity risk, so exiting preserves capital for stronger launches.
+
