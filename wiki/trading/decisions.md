@@ -15940,3 +15940,6 @@
 ## [2026-09-07 03:19 UTC] sell | [PARTIAL][LLM] $MFT at $1.58647e-05 | P&L: +28.1%
 - **Reasoning:** +28.1% puts me right at the 25% TP threshold. Pool is only $4175 — thin liquidity means any reversal hits hard. Lock half the gain, keep a runner in case narrative extends.
 
+## [2026-09-07 03:21 UTC] sell | [PARTIAL][LLM] $MFT at $1.57139e-05 | P&L: +26.9%
+- **Reasoning:** +26.9% gain on $MFT — just under the +30% TP threshold but above the +20% profit-taking trigger. Lock half the gain now per scalp discipline; let the rest ride with a free option.
+

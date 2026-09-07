@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.125999,
+  "balance_sol": 0.132343,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DDdqXTD7WoeAniNAySqjb5ivrPGL4nmT17DTsfWSpump": {
       "symbol": "MFT",
       "name": "CATCOIN",
-      "amount": 85141.75019329973,
+      "amount": 42570.87509664986,
       "entry_price_usd": 1.2386402647416946e-05,
-      "entry_sol_spent": 0.01,
+      "entry_sol_spent": 0.005,
       "entry_time": "2026-09-07T03:18:01.880185+00:00",
       "entry_usd_value": 2.1092,
-      "last_seen_price_usd": 1.5864749160163174e-05,
+      "last_seen_price_usd": 1.5713924736200144e-05,
       "entry_signals": {
         "liquidity_usd": 3527.8424827987797,
         "volume_24h_usd": null,
@@ -36815,19 +36815,30 @@
       "pnl_pct": 28.08,
       "exit_reason": "LLM: sell_half — +28.1% puts me right at the 25% TP threshold. Pool is only $4175 — thin liquidity means any reversal hits hard. Lock half the gain, keep a runner in c",
       "partial": true
+    },
+    {
+      "mint": "DDdqXTD7WoeAniNAySqjb5ivrPGL4nmT17DTsfWSpump",
+      "symbol": "MFT",
+      "name": "CATCOIN",
+      "amount_sold": 42570.87509664986,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T03:18:01.880185+00:00",
+      "exit_time": "2026-09-07T03:21:15.560642+00:00",
+      "entry_price_usd": 1.2386402647416946e-05,
+      "exit_price_usd": 1.5713924736200144e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.006344,
+      "pnl_sol": 0.001344,
+      "pnl_pct": 26.86,
+      "exit_reason": "LLM: sell_half — +26.9% gain on $MFT — just under the +30% TP threshold but above the +20% profit-taking trigger. Lock half the gain now per scalp discipline; let the ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T03:19:37.544701+00:00",
+  "last_updated": "2026-09-07T03:21:15.561769+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.38,
-  "portfolio_value_usd": 14.33,
+  "last_sol_price_usd": 105.45,
+  "portfolio_value_usd": 14.48,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 02:46 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $CAPY at $9.9063e-06 | P&L: +29.0%",
-      "reason": "+29% with sub-$3k pool — discipline says lock the gain when in doubt. Selling half lets us bank roughly +0.014 SOL while keeping a runner with -30% stop if it keeps pumping."
-    },
     {
       "time": "2026-09-07 02:47 UTC",
       "action": "sell",
@@ -36941,40 +36952,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $MFT at $1.58647e-05 | P&L: +28.1%",
       "reason": "+28.1% puts me right at the 25% TP threshold. Pool is only $4175 — thin liquidity means any reversal hits hard. Lock half the gain, keep a runner in case narrative extends."
+    },
+    {
+      "time": "2026-09-07 03:21 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $MFT at $1.57139e-05 | P&L: +26.9%",
+      "reason": "+26.9% gain on $MFT — just under the +30% TP threshold but above the +20% profit-taking trigger. Lock half the gain now per scalp discipline; let the rest ride with a free option."
     }
   ],
   "trade_stats": {
-    "total": 2164,
-    "wins": 1102,
+    "total": 2165,
+    "wins": 1103,
     "losses": 1062,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.196654,
+    "total_pnl_sol": -2.19531,
     "avg_pnl_pct": 31.75,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 57,
-    "today_realized_sol": -0.006005,
-    "today_target_pct": -1.5,
+    "today_trades": 58,
+    "today_realized_sol": -0.004661,
+    "today_target_pct": -1.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1102,
+      "win_count": 1103,
       "loss_count": 1062,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T03:19:37.274945+00:00",
+  "last_llm_brief_at": "2026-09-07T03:21:15.560604+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DDdqXTD7WoeAniNAySqjb5ivrPGL4nmT17DTsfWSpump": {
-      "price_usd": 1.5864749160163174e-05,
+      "price_usd": 1.5713924736200144e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4174.54709140964,
-      "volume_h24": 3528.96,
+      "liquidity_usd": 4139.91728169585,
+      "volume_h24": 4366.83,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 39.614225578
+      "real_sol_reserves": 39.259528513
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
