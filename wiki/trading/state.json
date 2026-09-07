@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.086079,
+  "balance_sol": 0.106081,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -11,7 +11,7 @@
       "entry_sol_spent": 0.02,
       "entry_time": "2026-09-07T10:38:14.112795+00:00",
       "entry_usd_value": 2.0996,
-      "last_seen_price_usd": 3.5761212722657545e-06,
+      "last_seen_price_usd": 3.664136322706726e-06,
       "entry_signals": {
         "liquidity_usd": 232.06205657742,
         "volume_24h_usd": 227.95,
@@ -22,29 +22,6 @@
         "real_sol_reserves": 2.210535879,
         "description": "🚨 $PUI LAUNCH IS TONIGHT! 🚨 The waiting room is over. The Fire Brigade is deploying on Solana. 🔥🚒 Here is your briefing: 🟢 DEX PAID - Check. 📈 DEX BOOST: 50x until listing. 🌕 DEX BOOST: 500x once listed. We aren't just pumping; we are funding real-world emergency relief. 🌍 💡 Contract Address (CA): W",
         "twitter": "https://x.com/PUI_fireman",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "FP7YtNkp5cDk9xSwHJ2aASpc2xGTcmuXsTf1dmnDpump": {
-      "symbol": "NANOBCI",
-      "name": "NanoBCI",
-      "amount": 670526.6517714651,
-      "entry_price_usd": 3.133e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T10:48:12.343464+00:00",
-      "entry_usd_value": 2.10076,
-      "last_seen_price_usd": 3.133e-06,
-      "entry_signals": {
-        "liquidity_usd": 103.741234674236,
-        "volume_24h_usd": 126.64,
-        "market_cap_usd": 3134.7675222577172,
-        "ath_market_cap_usd": 3134.7675222577172,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.987654322,
-        "description": "NanoBCI is Subsense’s non-surgical brain-computer interface that delivers two types of nanoparticles through a nasal spray. The particles travel the olfactory pathway into the brain and, with a wearable headset, enable bidirectional reading and stimulation of neural activity without implants.",
-        "twitter": "https://x.com/Dexerto/status/2096901306057175216",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -37994,19 +37971,30 @@
       "pnl_pct": 17.24,
       "exit_reason": "LLM: sell_all — Up +17.2% on a $2167 pool means liquidity is razor-thin — one sell and price craters. Rule says lock gains when up >15% and unsure. Bonding-curve toke",
       "partial": false
+    },
+    {
+      "mint": "FP7YtNkp5cDk9xSwHJ2aASpc2xGTcmuXsTf1dmnDpump",
+      "symbol": "NANOBCI",
+      "name": "NanoBCI",
+      "amount_sold": 670526.6517714651,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T10:48:12.343464+00:00",
+      "exit_time": "2026-09-07T10:49:44.233081+00:00",
+      "entry_price_usd": 3.133e-06,
+      "exit_price_usd": 3.1329484850148296e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020002,
+      "pnl_sol": 2e-06,
+      "pnl_pct": -0.0,
+      "exit_reason": "LLM: sell_all — Pool only $104 with my 2% share = near-zero exit liquidity risk. Flat after entry, no narrative signal, no momentum. Freeing slot for a better candida",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T10:48:12.343649+00:00",
+  "last_updated": "2026-09-07T10:49:44.487779+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.038,
+  "last_sol_price_usd": 105.026,
   "portfolio_value_usd": 13.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 09:49 UTC",
-      "action": "buy",
-      "details": "[LLM] $BITPONS at $3.65831e-06, spent 0.02 SOL",
-      "reason": "$BITPONS has the strongest narrative of the batch — yield-bearing mechanic paying PONS+WBTC to holders is a concrete attention hook, not just a name. Active twitter (BullBareClub), bond only 9% so still early, mcap $3.6k gives room. Buying 0.05 SOL."
-    },
     {
       "time": "2026-09-07 09:50 UTC",
       "action": "sell",
@@ -38120,40 +38108,57 @@
       "action": "buy",
       "details": "[LLM] $NANOBCI at $3.133e-06, spent 0.02 SOL",
       "reason": "$NANOBCI has the strongest narrative of the batch — real product story (Subsense non-surgical brain-computer interface, nasal-spray nanoparticles) backed by a Dexerto tweet,2.1min old at $3.1k mcap. Concrete tech + media pickup = viral attention potential."
+    },
+    {
+      "time": "2026-09-07 10:49 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $NANOBCI at $3.13295e-06 | P&L: -0.0%",
+      "reason": "Pool only $104 with my 2% share = near-zero exit liquidity risk. Flat after entry, no narrative signal, no momentum. Freeing slot for a better candidate."
     }
   ],
   "trade_stats": {
-    "total": 2232,
-    "wins": 1133,
+    "total": 2233,
+    "wins": 1134,
     "losses": 1099,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.206573,
-    "avg_pnl_pct": 31.15,
+    "total_pnl_sol": -2.206571,
+    "avg_pnl_pct": 31.13,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 125,
-    "today_realized_sol": -0.015924,
+    "today_trades": 126,
+    "today_realized_sol": -0.015922,
     "today_target_pct": -4.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1133,
+      "win_count": 1134,
       "loss_count": 1099,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T10:48:10.953048+00:00",
+  "last_llm_brief_at": "2026-09-07T10:49:44.233028+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "CxVWpvtPeDhoJ9UrHaAVDw53qgiYLDzajNvUr1VHpump": {
-      "price_usd": 3.5761212722657545e-06,
+      "price_usd": 3.664136322706726e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 326.14133449608204,
-      "volume_h24": 386.98,
+      "liquidity_usd": 368.831374704368,
+      "volume_h24": 430.06,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.104984239
+      "real_sol_reserves": 3.511810168
+    },
+    "FP7YtNkp5cDk9xSwHJ2aASpc2xGTcmuXsTf1dmnDpump": {
+      "price_usd": 3.1329484850148296e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 103.729382822372,
+      "volume_h24": 126.64,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.987654322
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
