@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.163636,
+  "balance_sol": 0.179789,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5rCpheSiwgWwAe4E3Nw7giN2YYFNLEGZ9Ac36B8f39HH": {
-      "symbol": "LABCOIN",
-      "name": "LABCOIN",
-      "amount": 562456.9764363251,
-      "entry_price_usd": 3.777e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T00:24:43.823671+00:00",
-      "entry_usd_value": 2.1244,
-      "entry_signals": {
-        "liquidity_usd": 64.71019899338,
-        "volume_24h_usd": 427.88,
-        "market_cap_usd": 3092.834861633393,
-        "ath_market_cap_usd": 3798.2695710729704,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.609209179,
-        "description": "$LABCOIN — cracked the formula for fees that come back. Inspired by the Ansem creator-fee airdrop moment, built on the OTC Labs launchpad, riding the same Pump.fun energy that fueled Pons and JitoSOL chatter across CT. Every trade's fees are automatically sent straight to holders — pro rata, forever",
-        "twitter": "https://x.com/otc_labs",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -36066,19 +36043,30 @@
       "pnl_pct": 90.78,
       "exit_reason": "LLM: sell_all — +90.8% in 0.1h on a tiny $2.6k pool — locked in nearly 2x. Per scalp discipline, take profit at +50%+, and at +90% with a thin pool there's serious ru",
       "partial": false
+    },
+    {
+      "mint": "5rCpheSiwgWwAe4E3Nw7giN2YYFNLEGZ9Ac36B8f39HH",
+      "symbol": "LABCOIN",
+      "name": "LABCOIN",
+      "amount_sold": 562456.9764363251,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T00:24:43.823671+00:00",
+      "exit_time": "2026-09-07T00:26:02.940223+00:00",
+      "entry_price_usd": 3.777e-06,
+      "exit_price_usd": 3.048817451529859e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016153,
+      "pnl_sol": -0.003847,
+      "pnl_pct": -19.28,
+      "exit_reason": "LLM: sell_all — $LABCOIN is down -19.3% with only $43 pool liquidity and 4% of the curve — bonding curve tokens with thin liquidity don't bounce, they bleed to -30%. ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T00:24:44.075530+00:00",
+  "last_updated": "2026-09-07T00:26:03.455476+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.22,
-  "portfolio_value_usd": 19.51,
+  "last_sol_price_usd": 106.16,
+  "portfolio_value_usd": 19.09,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 18:32 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-06 19:55 UTC",
       "action": "observe",
@@ -36192,30 +36180,48 @@
       "action": "buy",
       "details": "[LLM] $LABCOIN at $3.777e-06, spent 0.02 SOL",
       "reason": "$LABCOIN rides the Ansem creator-fee meta-narrative (hottest creator economy story on Solana right now), passes viability gate (long desc + OTC Labs twitter), no fragility keywords. 0.05 SOL position."
+    },
+    {
+      "time": "2026-09-07 00:26 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LABCOIN at $3.04882e-06 | P&L: -19.3%",
+      "reason": "$LABCOIN is down -19.3% with only $43 pool liquidity and 4% of the curve — bonding curve tokens with thin liquidity don't bounce, they bleed to -30%. Cut it now and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 2120,
+    "total": 2121,
     "wins": 1084,
-    "losses": 1036,
+    "losses": 1037,
     "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.149015,
-    "avg_pnl_pct": 32.25,
+    "total_pnl_sol": -2.152862,
+    "avg_pnl_pct": 32.23,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 13,
-    "today_realized_sol": 0.041634,
-    "today_target_pct": 10.4,
+    "today_trades": 14,
+    "today_realized_sol": 0.037787,
+    "today_target_pct": 9.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1084,
-      "loss_count": 1036,
+      "loss_count": 1037,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T00:24:42.474557+00:00",
+  "last_llm_brief_at": "2026-09-07T00:26:02.940188+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5rCpheSiwgWwAe4E3Nw7giN2YYFNLEGZ9Ac36B8f39HH": {
+      "price_usd": 3.048817451529859e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 43.00027477736,
+      "volume_h24": 773.96,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.405051571
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
