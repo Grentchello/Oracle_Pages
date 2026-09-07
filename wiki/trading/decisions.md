@@ -16450,3 +16450,9 @@
 ## [2026-09-07 15:40 UTC] sell | [PARTIAL][LLM] $WOLF at $9.14032e-06 | P&L: +22.5%
 - **Reasoning:** Up +22.5% and rules say lock gains above20%. Pool is only $2.4k — thin and fragile. Selling half secures profit while letting the rest ride if momentum continues.
 
+## [2026-09-07 15:41 UTC] sell | [TP +30% (25%)] $WOLF at $9.81273e-06 | P&L: +31.5%
+- **Reasoning:** Auto take-profit at +31.5%
+
+## [2026-09-07 15:42 UTC] sell | [PARTIAL][LLM] $WOLF at $9.81273e-06 | P&L: +31.5%
+- **Reasoning:** $WOLF is up +31.5% which has crossed the +30% TP1 threshold; locking half secures profit while letting the other half ride if attention continues. Held only 0.1h with pool still thin ($2613), so partial de-risk is prudent.
+
