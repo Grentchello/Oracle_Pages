@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.146242,
+  "balance_sol": 0.164625,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "4uazyGReNkoBkwZ9t8Kyke5tqcsjS8GeUH1FiFrjpump": {
-      "symbol": "BALS",
-      "name": "Baldoz Swine",
-      "amount": 627941.6145367889,
-      "entry_price_usd": 3.357e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T02:02:53.255874+00:00",
-      "entry_usd_value": 2.108,
-      "last_seen_price_usd": 3.1801917338990713e-06,
-      "entry_signals": {
-        "liquidity_usd": 177.93214146900002,
-        "volume_24h_usd": 595.23,
-        "market_cap_usd": 3338.22623399152,
-        "ath_market_cap_usd": 3747.3694025784926,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.688160735,
-        "description": "INDONESIA, MEET BALDOZ SWINE! 🐷👑 Straight from Indonesia’s internet, Baldoz Swine is taking over the timeline. A unique pig with a rare condition, an unforgettable look, and now a community behind him",
-        "twitter": "https://x.com/rain__crypt/status/2096773994141868312?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "D2eGzvnZww346wT78UyvATryFtKSfa7T3NWE6gP5SrLb": {
       "symbol": "spydog",
       "name": "spydog",
@@ -34,7 +11,7 @@
       "entry_sol_spent": 0.02,
       "entry_time": "2026-09-07T02:06:33.075943+00:00",
       "entry_usd_value": 2.1042,
-      "last_seen_price_usd": 3.746e-06,
+      "last_seen_price_usd": 4.259934915906929e-06,
       "entry_signals": {
         "liquidity_usd": 774.48272818896,
         "volume_24h_usd": 3800.94,
@@ -36430,19 +36407,30 @@
       "pnl_pct": -46.04,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "4uazyGReNkoBkwZ9t8Kyke5tqcsjS8GeUH1FiFrjpump",
+      "symbol": "BALS",
+      "name": "Baldoz Swine",
+      "amount_sold": 627941.6145367889,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T02:02:53.255874+00:00",
+      "exit_time": "2026-09-07T02:08:09.648284+00:00",
+      "entry_price_usd": 3.357e-06,
+      "exit_price_usd": 3.0782928074654595e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018383,
+      "pnl_sol": -0.001617,
+      "pnl_pct": -8.3,
+      "exit_reason": "LLM: sell_all — $BALS is -8.3% on a $73 pool with 3% of supply held by us — pool is too thin to trust, no clear narrative signal, and I want to free a slot to rotate ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T02:06:33.076125+00:00",
+  "last_updated": "2026-09-07T02:08:09.906610+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.21,
-  "portfolio_value_usd": 19.6,
+  "last_sol_price_usd": 105.15,
+  "portfolio_value_usd": 19.41,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 01:17 UTC",
-      "action": "buy",
-      "details": "[LLM] $ZPEPE at $3.28e-06, spent 0.02 SOL",
-      "reason": "$ZPEPE (Anonymous Pepe) — strongest narrative of the batch: mystery/Anonymous Pepe meme IP is recognizable, has twitter (zpepecoin), story-style description creates intrigue. $3k mcap with attention story has multi-x potential in first hour. Risks: 1.4min old, thin liquidity, fragility unknown — sizing small."
-    },
     {
       "time": "2026-09-07 01:19 UTC",
       "action": "sell",
@@ -36556,40 +36544,57 @@
       "action": "buy",
       "details": "[LLM] $spydog at $3.746e-06, spent 0.02 SOL",
       "reason": "$spydog rides the SPY/S&P narrative with a clear thesis (ETF-tracking memecoin). Description is solid (≥50 chars), twitter live, and SPY-themed tokens have a track record of catching retail flows during market hours. Viability gate passes."
+    },
+    {
+      "time": "2026-09-07 02:08 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BALS at $3.07829e-06 | P&L: -8.3%",
+      "reason": "$BALS is -8.3% on a $73 pool with 3% of supply held by us — pool is too thin to trust, no clear narrative signal, and I want to free a slot to rotate into fresher attention ($NASDANQ has a real CyborgDeployed X post at $6.9k mcap). Cutting a small loss now beats watching it decay toward -30% on illiquid books."
     }
   ],
   "trade_stats": {
-    "total": 2140,
+    "total": 2141,
     "wins": 1089,
-    "losses": 1051,
+    "losses": 1052,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.146409,
-    "avg_pnl_pct": 32.09,
+    "total_pnl_sol": -2.148026,
+    "avg_pnl_pct": 32.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 33,
-    "today_realized_sol": 0.04424,
-    "today_target_pct": 11.1,
+    "today_trades": 34,
+    "today_realized_sol": 0.042623,
+    "today_target_pct": 10.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1089,
-      "loss_count": 1051,
+      "loss_count": 1052,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T02:06:31.468482+00:00",
+  "last_llm_brief_at": "2026-09-07T02:08:09.648244+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4uazyGReNkoBkwZ9t8Kyke5tqcsjS8GeUH1FiFrjpump": {
-      "price_usd": 3.1801917338990713e-06,
+      "price_usd": 3.0782928074654595e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 125.52675211944,
+      "liquidity_usd": 73.40013993525,
       "volume_h24": 682.97,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.193106664
+      "real_sol_reserves": 0.698051735
+    },
+    "D2eGzvnZww346wT78UyvATryFtKSfa7T3NWE6gP5SrLb": {
+      "price_usd": 4.259934915906929e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 642.7274290941,
+      "volume_h24": 7821.26,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 6.112481494
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
