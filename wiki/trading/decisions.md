@@ -16213,3 +16213,6 @@
 ## [2026-09-07 08:56 UTC] sell | [FULL][LLM] $$BUBBLE at $2.99045e-06 | P&L: -1.3%
 - **Reasoning:** $BUBBLE pool is only $33 with our 6% share — dangerously illiquid, can't exit cleanly at size. -1.3% loss is small, better to free the slot than risk the -30% hard stop in a thin pool.
 
+## [2026-09-07 09:01 UTC] sell | [FULL][LLM] $MEMETHOS at $3.60822e-06 | P&L: -2.7%
+- **Reasoning:** $MEMETHOS is -2.7% after only 6 minutes with a tiny $347 pool — this is exactly the stale-flip profile. Pool size means any sell pressure crushes price. Cut now while loss is small rather than wait for the -30% hard stop.
+
