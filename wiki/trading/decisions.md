@@ -16351,3 +16351,9 @@
 ## [2026-09-07 12:06 UTC] sell | [PARTIAL][LLM] $UP at $7.07342e-06 | P&L: +32.3%
 - **Reasoning:** Up 32.3% in 6 minutes, well past the +30% TP-at-25% trigger. Bonding curve pool only $1740, my share is 0% reported — extreme illiquidity risk. Lock half now, let the rest ride if it keeps pumping, but don't bag-hold a thin-pool position.
 
+## [2026-09-07 12:07 UTC] sell | [TP +30% (25%)] $UP at $7.38321e-06 | P&L: +38.1%
+- **Reasoning:** Auto take-profit at +38.1%
+
+## [2026-09-07 12:07 UTC] sell | [FULL][LLM] $UP at $7.38321e-06 | P&L: +38.1%
+- **Reasoning:** Up38.1% past the 25% TP threshold with bot already taking half. Bonding-curve token at $1845 pool liquidity — thin, reversal risk is high. Lock the gain, rotate capital to fresh attention.
+
