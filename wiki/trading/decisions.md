@@ -15724,3 +15724,6 @@
 ## [2026-09-07 00:39 UTC] buy | [LLM] $ORGY at $3.042e-06, spent 0.02 SOL
 - **Reasoning:** $ORGY ties to an actual Wendy's brand X account (rare brand-engagement signal), has full viability metadata (desc+twitter), and brand-parody memecoins historically pump on the engagement wave. Risk: bond only 1% complete and mcap $3k means thin book — fragile if Wendy's deletes the tweet.
 
+## [2026-09-07 00:43 UTC] sell | [FULL][LLM] $ORGY at $2.98465e-06 | P&L: -1.9%
+- **Reasoning:** $ORGY is down 1.9% after 6 minutes, our share is 22% of a tiny $9 pool — dangerously illiquid. Tiny flat moves on bonding-curve tokens with this concentration mean any further volume pushes it the wrong way. Cut and free the slot.
+

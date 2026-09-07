@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.144806,
+  "balance_sol": 0.164423,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ErYzLbvRMTKd2mqxagUznHTHmMc5MHd81Sk2XpCGpump": {
-      "symbol": "ORGY",
-      "name": "Wendy’s Dumpster Club",
-      "amount": 697567.3898750822,
-      "entry_price_usd": 3.042e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T00:39:06.453599+00:00",
-      "entry_usd_value": 2.122,
-      "entry_signals": {
-        "liquidity_usd": 47.1555551901,
-        "volume_24h_usd": 41.36,
-        "market_cap_usd": 3042.094587373748,
-        "ath_market_cap_usd": 3042.094587373748,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.444444441,
-        "description": "There’s a party every night behind the Wendy’s dumpster! Rats, cats, Jimothy, Dirty Mike & the Boys, schemers, scammers, spammers, all is welcome.  Come in thru the back!  ",
-        "twitter": "https://x.com/wendys/status/1948426303293579682?s=46&t=WNdc3S2jcXmPdMaqDKR79w",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true,
-      "last_seen_price_usd": 2.983803350972021e-06
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -36135,19 +36111,30 @@
       "pnl_pct": -6.79,
       "exit_reason": "LLM: sell_all — $CCA is down 6.8% in 6 minutes with no bounce signal, pool is $0 (liquidity evaporated), and our share shows 623M% (means we're holding the bag from b",
       "partial": false
+    },
+    {
+      "mint": "ErYzLbvRMTKd2mqxagUznHTHmMc5MHd81Sk2XpCGpump",
+      "symbol": "ORGY",
+      "name": "Wendy’s Dumpster Club",
+      "amount_sold": 697567.3898750822,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T00:39:06.453599+00:00",
+      "exit_time": "2026-09-07T00:43:25.301782+00:00",
+      "entry_price_usd": 3.042e-06,
+      "exit_price_usd": 2.9846470276970838e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019617,
+      "pnl_sol": -0.000383,
+      "pnl_pct": -1.89,
+      "exit_reason": "LLM: sell_all — $ORGY is down 1.9% after 6 minutes, our share is 22% of a tiny $9 pool — dangerously illiquid. Tiny flat moves on bonding-curve tokens with this conce",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T00:42:05.633244+00:00",
+  "last_updated": "2026-09-07T00:43:26.071314+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.1,
-  "portfolio_value_usd": 17.49,
+  "last_sol_price_usd": 106.13,
+  "portfolio_value_usd": 17.45,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 00:10 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $BCAT at $1.47842e-05 | P&L: +92.5%",
-      "reason": "Auto take-profit at +92.6%"
-    },
     {
       "time": "2026-09-07 00:10 UTC",
       "action": "sell",
@@ -36261,35 +36248,41 @@
       "action": "buy",
       "details": "[LLM] $ORGY at $3.042e-06, spent 0.02 SOL",
       "reason": "$ORGY ties to an actual Wendy's brand X account (rare brand-engagement signal), has full viability metadata (desc+twitter), and brand-parody memecoins historically pump on the engagement wave. Risk: bond only 1% complete and mcap $3k means thin book — fragile if Wendy's deletes the tweet."
+    },
+    {
+      "time": "2026-09-07 00:43 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ORGY at $2.98465e-06 | P&L: -1.9%",
+      "reason": "$ORGY is down 1.9% after 6 minutes, our share is 22% of a tiny $9 pool — dangerously illiquid. Tiny flat moves on bonding-curve tokens with this concentration mean any further volume pushes it the wrong way. Cut and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 2124,
+    "total": 2125,
     "wins": 1084,
-    "losses": 1040,
+    "losses": 1041,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.167845,
-    "avg_pnl_pct": 32.15,
+    "total_pnl_sol": -2.168228,
+    "avg_pnl_pct": 32.13,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 17,
-    "today_realized_sol": 0.022804,
-    "today_target_pct": 5.7,
+    "today_trades": 18,
+    "today_realized_sol": 0.022421,
+    "today_target_pct": 5.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1084,
-      "loss_count": 1040,
+      "loss_count": 1041,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T00:42:05.370252+00:00",
+  "last_llm_brief_at": "2026-09-07T00:43:25.301749+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "ErYzLbvRMTKd2mqxagUznHTHmMc5MHd81Sk2XpCGpump": {
-      "price_usd": 2.983803350972021e-06,
+      "price_usd": 2.9846470276970838e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 9.2969206174,
+      "liquidity_usd": 9.29954934142,
       "volume_h24": 84.97,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
