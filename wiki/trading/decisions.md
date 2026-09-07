@@ -15871,3 +15871,12 @@
 ## [2026-09-07 02:41 UTC] buy | [LLM] $CAPY at $7.681e-06, spent 0.02 SOL
 - **Reasoning:** $CAPY — 'doesn't know what a chart is' is a meta-meme with viral potential (the irony IS the trade). Real X account, decent mcap $8.6k, narrative clarity high. Buying 0.05 SOL.
 
+## [2026-09-07 02:42 UTC] sell | [TP +30% (25%)] $CAPY at $1.01459e-05 | P&L: +32.1%
+- **Reasoning:** Auto take-profit at +32.1%
+
+## [2026-09-07 02:43 UTC] sell | [PARTIAL][LLM] $CAPY at $1.01459e-05 | P&L: +32.1%
+- **Reasoning:** $CAPY +32% already crossed the +30% TP threshold — bot auto-took profit on half. Take the remaining half off too: 0.0h hold, tiny pool $2.7k, our share 0% means we'd need bigger players to push it further. Lock gains.
+
+## [2026-09-07 02:43 UTC] sell | [FULL][LLM] $OTCxPUMP at $3.03695e-06 | P&L: -17.7%
+- **Reasoning:** $OTCxPUMP -17.7% with $27 pool and 7% share — illiquid death spiral risk. No bounce signal, 0.0h into the hold. Cut before -30% hard stop.
+

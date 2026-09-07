@@ -1,40 +1,17 @@
 {
-  "balance_sol": 0.118943,
+  "balance_sol": 0.151869,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "BRKpsZpGCv7jmRPQReMtQuRJ1HzsFA6QUy76LJ6NgtX9": {
-      "symbol": "OTCxPUMP",
-      "name": "OTCxPUMP",
-      "amount": 577579.3474762188,
-      "entry_price_usd": 3.6884975359817844e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T02:40:17.819096+00:00",
-      "entry_usd_value": 2.1304,
-      "last_seen_price_usd": 3.698885719053457e-06,
-      "entry_signals": {
-        "liquidity_usd": 360.71986848247997,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3684.7457449430835,
-        "ath_market_cap_usd": 3874.0769059488352,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.386405074,
-        "description": "Lets run this memestock paired with  @otc_labs and  @Pumpfun OTC at ATH $0.016.",
-        "twitter": "https://x.com/OTCxPUMP/status/2096789781095293009",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump": {
       "symbol": "CAPY",
       "name": "CAPY",
-      "amount": 278140.86707459966,
+      "amount": 104302.82515297487,
       "entry_price_usd": 7.681e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-07T02:41:47.688109+00:00",
       "entry_usd_value": 2.1364,
-      "last_seen_price_usd": 7.681e-06,
+      "last_seen_price_usd": 1.01459470092108e-05,
       "entry_signals": {
         "liquidity_usd": 2306.99461972742,
         "volume_24h_usd": 1950.35,
@@ -36549,31 +36526,64 @@
       "pnl_pct": 10.08,
       "exit_reason": "LLM: sell_all — 0.0h held but pool share=0% is a red flag — position may not be properly in the LP. +10% gain is worth locking before bonding curve migrates or drains",
       "partial": false
+    },
+    {
+      "mint": "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump",
+      "symbol": "CAPY",
+      "name": "CAPY",
+      "amount_sold": 69535.21676864992,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-07T02:41:47.688109+00:00",
+      "exit_time": "2026-09-07T02:42:51.950523+00:00",
+      "entry_price_usd": 7.681e-06,
+      "exit_price_usd": 1.01459470092108e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.006603,
+      "pnl_sol": 0.001603,
+      "pnl_pct": 32.09,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump",
+      "symbol": "CAPY",
+      "name": "CAPY",
+      "amount_sold": 104302.82515297487,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T02:41:47.688109+00:00",
+      "exit_time": "2026-09-07T02:43:07.752048+00:00",
+      "entry_price_usd": 7.681e-06,
+      "exit_price_usd": 1.01459470092108e-05,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.009905,
+      "pnl_sol": 0.002405,
+      "pnl_pct": 32.09,
+      "exit_reason": "LLM: sell_half — $CAPY +32% already crossed the +30% TP threshold — bot auto-took profit on half. Take the remaining half off too: 0.0h hold, tiny pool $2.7k, our shar",
+      "partial": true
+    },
+    {
+      "mint": "BRKpsZpGCv7jmRPQReMtQuRJ1HzsFA6QUy76LJ6NgtX9",
+      "symbol": "OTCxPUMP",
+      "name": "OTCxPUMP",
+      "amount_sold": 577579.3474762188,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T02:40:17.819096+00:00",
+      "exit_time": "2026-09-07T02:43:07.752782+00:00",
+      "entry_price_usd": 3.6884975359817844e-06,
+      "exit_price_usd": 3.0369454653137475e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016418,
+      "pnl_sol": -0.003582,
+      "pnl_pct": -17.66,
+      "exit_reason": "LLM: sell_all — $OTCxPUMP -17.7% with $27 pool and 7% share — illiquid death spiral risk. No bounce signal, 0.0h into the hold. Cut before -30% hard stop.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T02:41:47.688441+00:00",
+  "last_updated": "2026-09-07T02:43:07.752986+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.82,
-  "portfolio_value_usd": 16.97,
+  "last_sol_price_usd": 106.84,
+  "portfolio_value_usd": 17.03,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 01:50 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Kimchi at $3.44888e-06 | P&L: +0.2%",
-      "reason": "$Kimchi is flat at +0.2% after 0.1h on a $260 pool with no momentum. Dead launch, no attention signal developing — better to free the slot for a fresh narrative play."
-    },
-    {
-      "time": "2026-09-07 01:57 UTC",
-      "action": "buy",
-      "details": "[LLM] $RAVEN at $5.66e-06, spent 0.02 SOL",
-      "reason": "$RAVEN combines a concrete Wall Street-ape story, a roughly $4k mcap launch, and an external X attention signal, offering the clearest immediate viral narrative. Buy the 0.1 SOL experimental position while treating bonding progress and ME2F fragility as the principal risks."
-    },
-    {
-      "time": "2026-09-07 01:58 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $RAVEN closed at $3.054e-06 | P&L: -46.0%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-07 02:02 UTC",
       "action": "buy",
@@ -36675,40 +36685,69 @@
       "action": "buy",
       "details": "[LLM] $CAPY at $7.681e-06, spent 0.02 SOL",
       "reason": "$CAPY — 'doesn't know what a chart is' is a meta-meme with viral potential (the irony IS the trade). Real X account, decent mcap $8.6k, narrative clarity high. Buying 0.05 SOL."
+    },
+    {
+      "time": "2026-09-07 02:42 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $CAPY at $1.01459e-05 | P&L: +32.1%",
+      "reason": "Auto take-profit at +32.1%"
+    },
+    {
+      "time": "2026-09-07 02:43 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $CAPY at $1.01459e-05 | P&L: +32.1%",
+      "reason": "$CAPY +32% already crossed the +30% TP threshold — bot auto-took profit on half. Take the remaining half off too: 0.0h hold, tiny pool $2.7k, our share 0% means we'd need bigger players to push it further. Lock gains."
+    },
+    {
+      "time": "2026-09-07 02:43 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $OTCxPUMP at $3.03695e-06 | P&L: -17.7%",
+      "reason": "$OTCxPUMP -17.7% with $27 pool and 7% share — illiquid death spiral risk. No bounce signal, 0.0h into the hold. Cut before -30% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 2147,
-    "wins": 1092,
-    "losses": 1055,
+    "total": 2150,
+    "wins": 1094,
+    "losses": 1056,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.173708,
-    "avg_pnl_pct": 31.92,
+    "total_pnl_sol": -2.173282,
+    "avg_pnl_pct": 31.9,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 40,
-    "today_realized_sol": 0.016941,
-    "today_target_pct": 4.2,
+    "today_trades": 43,
+    "today_realized_sol": 0.017367,
+    "today_target_pct": 4.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1092,
-      "loss_count": 1055,
+      "win_count": 1094,
+      "loss_count": 1056,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T02:41:46.343708+00:00",
+  "last_llm_brief_at": "2026-09-07T02:43:07.751602+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BRKpsZpGCv7jmRPQReMtQuRJ1HzsFA6QUy76LJ6NgtX9": {
-      "price_usd": 3.698885719053457e-06,
+      "price_usd": 3.0369454653137475e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 361.7357900046799,
-      "volume_h24": 548.57,
+      "liquidity_usd": 26.6107760894,
+      "volume_h24": 883.88,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.386405074
+      "real_sol_reserves": 0.249071285
+    },
+    "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump": {
+      "price_usd": 1.01459470092108e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2701.89183918392,
+      "volume_h24": 3979.68,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 25.289141138
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
