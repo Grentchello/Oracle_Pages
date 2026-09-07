@@ -16300,3 +16300,6 @@
 ## [2026-09-07 10:49 UTC] sell | [FULL][LLM] $NANOBCI at $3.13295e-06 | P&L: -0.0%
 - **Reasoning:** Pool only $104 with my 2% share = near-zero exit liquidity risk. Flat after entry, no narrative signal, no momentum. Freeing slot for a better candidate.
 
+## [2026-09-07 10:51 UTC] sell | [FULL][LLM] $PUI at $3.56844e-06 | P&L: +7.1%
+- **Reasoning:** +7.1% but the pool is only $323 with my 1% share, making me the exit liquidity on a bonding curve. 12 min held, no momentum, sub-$10k mcap micro-launch — this bleeds, not pumps. Take the green, redeploy to something with a real attention signal.
+
