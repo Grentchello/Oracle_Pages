@@ -15862,3 +15862,6 @@
 ## [2026-09-07 02:30 UTC] buy | [LLM] $CATCOIN at $1.278e-05, spent 0.02 SOL
 - **Reasoning:** $CATCOIN is the only launch passing the viability gate (desc 88 chars + twitter). Bond curve at 35% shows real buyers, mcap $13.6k is low enough for multi-x upside, and cat memes are evergreen viral fuel. Cats + crypto is a proven attention narrative. Sizing 0.05 SOL.
 
+## [2026-09-07 02:32 UTC] sell | [FULL][LLM] $CATCOIN at $1.40677e-05 | P&L: +10.1%
+- **Reasoning:** 0.0h held but pool share=0% is a red flag — position may not be properly in the LP. +10% gain is worth locking before bonding curve migrates or drains. Frees slot for fresh entry.
+
