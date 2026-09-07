@@ -16015,3 +16015,9 @@
 ## [2026-09-07 05:37 UTC] buy | [LLM] $BUZZ at $2.132e-05, spent 0.02 SOL
 - **Reasoning:** $BUZZ has the strongest attention stack: live X account (@buzzballonsol), brand-narrative ('iconic branding, internet culture'), $21k mcap with 1% bonding — name-recognition + community narrative is the textbook memecoin setup. Highest attention-density candidate in the batch.
 
+## [2026-09-07 05:38 UTC] sell | [TP +200% (75%)] $BUZZ at $6.487e-05 | P&L: +204.3%
+- **Reasoning:** Auto take-profit at +204.3%
+
+## [2026-09-07 05:39 UTC] sell | [FULL][LLM] $BUZZ at $6.487e-05 | P&L: +204.3%
+- **Reasoning:** $BUZZ is up +204.3% — past the +200% TP tier (which auto-sells 75%), and the rules say be aggressive taking profit when up >20% with any doubt. Memecoin 4x pumps routinely retrace 50%+ within hours. Lock the remaining bag before the bonding curve dumps. Freeing this slot also lets me rotate into a fresh launch.
+

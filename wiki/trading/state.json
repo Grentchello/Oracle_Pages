@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.096181,
+  "balance_sol": 0.157104,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GWkzp7jvEmehKRNZNpCcMU75MktCLTpzNapgM4oxpump": {
-      "symbol": "BUZZ",
-      "name": "BuzzBall",
-      "amount": 99080.45333220523,
-      "entry_price_usd": 2.132004778901615e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T05:37:30.509330+00:00",
-      "entry_usd_value": 2.1124,
-      "last_seen_price_usd": 2.132004778901615e-05,
-      "entry_signals": {
-        "liquidity_usd": 324.21242693902,
-        "volume_24h_usd": null,
-        "market_cap_usd": 21301.88073447145,
-        "ath_market_cap_usd": 21301.88073447145,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.069612071,
-        "description": "THE BUZZ IS HERE.  $BUZZ is a community-driven token built around iconic branding, internet culture, and a name that speaks for itself. GET IN. GET LOUD. GET BUZZED. $BUZZ — LET THE BUZZ BEGIN. 📈🔥 ",
-        "twitter": "https://x.com/buzzballonsol",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -37070,25 +37046,47 @@
       "pnl_pct": -0.6,
       "exit_reason": "LLM: sell_all — We hold 4% of a $56 pool — we ARE the exit liquidity. Down -0.6% on a bonding curve with micro-liquidity means any other seller walks through us. Cut ",
       "partial": false
+    },
+    {
+      "mint": "GWkzp7jvEmehKRNZNpCcMU75MktCLTpzNapgM4oxpump",
+      "symbol": "BUZZ",
+      "name": "BuzzBall",
+      "amount_sold": 74310.33999915392,
+      "fraction_sold": 0.75,
+      "entry_time": "2026-09-07T05:37:30.509330+00:00",
+      "exit_time": "2026-09-07T05:38:34.003757+00:00",
+      "entry_price_usd": 2.132004778901615e-05,
+      "exit_price_usd": 6.487002326325026e-05,
+      "entry_sol_for_chunk": 0.015,
+      "exit_sol_received": 0.045692,
+      "pnl_sol": 0.030692,
+      "pnl_pct": 204.27,
+      "exit_reason": "auto-TP +200% (75%)",
+      "partial": true
+    },
+    {
+      "mint": "GWkzp7jvEmehKRNZNpCcMU75MktCLTpzNapgM4oxpump",
+      "symbol": "BUZZ",
+      "name": "BuzzBall",
+      "amount_sold": 24770.113333051308,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T05:37:30.509330+00:00",
+      "exit_time": "2026-09-07T05:39:21.259780+00:00",
+      "entry_price_usd": 2.132004778901615e-05,
+      "exit_price_usd": 6.487002326325026e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.015231,
+      "pnl_sol": 0.010231,
+      "pnl_pct": 204.27,
+      "exit_reason": "LLM: sell_all — $BUZZ is up +204.3% — past the +200% TP tier (which auto-sells 75%), and the rules say be aggressive taking profit when up >20% with any doubt. Memeco",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T05:37:30.509615+00:00",
+  "last_updated": "2026-09-07T05:39:21.528832+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.62,
-  "portfolio_value_usd": 12.27,
+  "last_sol_price_usd": 105.5,
+  "portfolio_value_usd": 16.57,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 03:44 UTC",
-      "action": "buy",
-      "details": "[LLM] $OPM at $7.73436e-06, spent 0.02 SOL",
-      "reason": "$OPM (Other People's Money) — strongest viral signal in the batch: 'hot-potatoing someone else’s cash' is a self-aware meta-meme about memecoin cycles itself, posted by @ashthequant (a known memecoin commentator with reach). Bond 28% complete at 0.4min age means capital is flowing in fast. $7.7k mcap with clear narrative + real X account = classic attention launch."
-    },
-    {
-      "time": "2026-09-07 03:45 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $OPM closed at $3.05955e-06 | P&L: -60.4%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-07 03:47 UTC",
       "action": "buy",
@@ -37196,40 +37194,52 @@
       "action": "buy",
       "details": "[LLM] $BUZZ at $2.132e-05, spent 0.02 SOL",
       "reason": "$BUZZ has the strongest attention stack: live X account (@buzzballonsol), brand-narrative ('iconic branding, internet culture'), $21k mcap with 1% bonding — name-recognition + community narrative is the textbook memecoin setup. Highest attention-density candidate in the batch."
+    },
+    {
+      "time": "2026-09-07 05:38 UTC",
+      "action": "sell",
+      "details": "[TP +200% (75%)] $BUZZ at $6.487e-05 | P&L: +204.3%",
+      "reason": "Auto take-profit at +204.3%"
+    },
+    {
+      "time": "2026-09-07 05:39 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BUZZ at $6.487e-05 | P&L: +204.3%",
+      "reason": "$BUZZ is up +204.3% — past the +200% TP tier (which auto-sells 75%), and the rules say be aggressive taking profit when up >20% with any doubt. Memecoin 4x pumps routinely retrace 50%+ within hours. Lock the remaining bag before the bonding curve dumps. Freeing this slot also lets me rotate into a fresh launch."
     }
   ],
   "trade_stats": {
-    "total": 2179,
-    "wins": 1108,
+    "total": 2181,
+    "wins": 1110,
     "losses": 1071,
-    "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.216471,
-    "avg_pnl_pct": 31.57,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -2.175548,
+    "avg_pnl_pct": 31.73,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 72,
-    "today_realized_sol": -0.025822,
-    "today_target_pct": -6.5,
+    "today_trades": 74,
+    "today_realized_sol": 0.015101,
+    "today_target_pct": 3.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1108,
+      "win_count": 1110,
       "loss_count": 1071,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T05:37:29.107352+00:00",
+  "last_llm_brief_at": "2026-09-07T05:39:21.259740+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "4JLJas2egiPMTeo1mnvWF2Fht5ccYs3mj4JQpqDppump": {
-      "price_usd": 3.0576850742079786e-06,
+    "GWkzp7jvEmehKRNZNpCcMU75MktCLTpzNapgM4oxpump": {
+      "price_usd": 6.487002326325026e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 55.65919149502,
-      "volume_h24": 76.62,
+      "liquidity_usd": 16.047606688,
+      "volume_h24": 2238.21,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.526975871
+      "real_sol_reserves": 0.152110016
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
