@@ -1,14 +1,14 @@
 {
-  "balance_sol": 0.122001,
+  "balance_sol": 0.129904,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DDn91hfV3KSphVygfYqJfGbuhwhTHJm8S9XhmK9r4sYX": {
       "symbol": "STANLEY",
       "name": "Stanley",
-      "amount": 413224.743067675,
+      "amount": 206612.3715338375,
       "entry_price_usd": 5.157e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-07T00:07:45.850375+00:00",
       "entry_usd_value": 2.131,
       "entry_signals": {
@@ -21,6 +21,28 @@
         "real_sol_reserves": 28.707339436,
         "description": "Urgent hunt to find Stanley the armadillo that is on the loose in Sussex https://trib.al/urlN94Z",
         "twitter": "https://x.com/DailyMail/status/2096751953401250255",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    },
+    "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt": {
+      "symbol": "BCAT",
+      "name": "Bitcoin Cat",
+      "amount": 277389.9452982547,
+      "entry_price_usd": 7.678e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-07T00:09:09.433550+00:00",
+      "entry_usd_value": 2.1298,
+      "entry_signals": {
+        "liquidity_usd": 2424.18410618718,
+        "volume_24h_usd": 4496.82,
+        "market_cap_usd": 8304.950816436998,
+        "ath_market_cap_usd": 10044.70417690376,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 22.764429582,
+        "description": "Bitcoin Cat is the hidden cat quietly living on Bitcoin’s front page  a playful symbol of the culture, energy, and internet-native spirit surrounding the world’s first cryptocurrency.",
+        "twitter": "https://x.com/ramentrade/status/2096751997974393044",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -35845,25 +35867,30 @@
       "pnl_pct": -0.67,
       "exit_reason": "LLM: sell_all — PUMPBANK is flat (-0.7%) on a $370 pool — extremely thin liquidity for our 0.05 SOL position. Held 0.0h with no narrative hook visible. Exiting now be",
       "partial": false
+    },
+    {
+      "mint": "DDn91hfV3KSphVygfYqJfGbuhwhTHJm8S9XhmK9r4sYX",
+      "symbol": "STANLEY",
+      "name": "Stanley",
+      "amount_sold": 206612.3715338375,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T00:07:45.850375+00:00",
+      "exit_time": "2026-09-07T00:08:49.984941+00:00",
+      "entry_price_usd": 5.157e-06,
+      "exit_price_usd": 1.4381680860523167e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.027903,
+      "pnl_sol": 0.017903,
+      "pnl_pct": 178.88,
+      "exit_reason": "auto-TP +100% (50%)",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T00:07:45.850716+00:00",
+  "last_updated": "2026-09-07T00:09:09.433818+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.55,
-  "portfolio_value_usd": 15.13,
+  "last_sol_price_usd": 106.49,
+  "portfolio_value_usd": 17.03,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 11:36 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $HackerAI closed at $2.98176e-06 | P&L: -53.9%",
-      "reason": "Hard -30% stop"
-    },
-    {
-      "time": "2026-09-06 11:36 UTC",
-      "action": "buy",
-      "details": "[LLM] $zero at $3.623e-06, spent 0.02 SOL",
-      "reason": "$zero has a real contrarian anti-rugpull narrative ('spend it on stupid things'), twitter handle, and a $1M goal mentioned in desc. Meta-narrative plays well on pump.fun. Small mcap = high attention upside."
-    },
     {
       "time": "2026-09-06 11:41 UTC",
       "action": "sell",
@@ -35971,30 +35998,54 @@
       "action": "buy",
       "details": "[LLM] $STANLEY at $5.157e-06, spent 0.02 SOL",
       "reason": "$STANLEY — real DailyMail story about an armadillo on the loose in Sussex; passes viability gate (87-char desc + twitter); higher mcap than the competing $Stanley mint which lacks a description. Real-news attention has the strongest viral legs of this batch. Risk: two competing tokens dilute the narrative."
+    },
+    {
+      "time": "2026-09-07 00:08 UTC",
+      "action": "sell",
+      "details": "[TP +100% (50%)] $STANLEY at $1.43817e-05 | P&L: +178.9%",
+      "reason": "Auto take-profit at +178.9%"
+    },
+    {
+      "time": "2026-09-07 00:09 UTC",
+      "action": "buy",
+      "details": "[LLM] $BCAT at $7.678e-06, spent 0.02 SOL",
+      "reason": "$BCAT 'Bitcoin Cat' rides the hot Bitcoin Ordinals/culture meta, has a shareable visual hook (hidden cat on BTC front page), mcap $8.3k with room to run. No fragility flags."
     }
   ],
   "trade_stats": {
-    "total": 2107,
-    "wins": 1071,
+    "total": 2108,
+    "wins": 1072,
     "losses": 1036,
-    "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.190649,
-    "avg_pnl_pct": 31.84,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -2.172746,
+    "avg_pnl_pct": 31.91,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 0,
-    "today_realized_sol": 0,
-    "today_target_pct": 0.0,
+    "today_trades": 1,
+    "today_realized_sol": 0.017903,
+    "today_target_pct": 4.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1071,
+      "win_count": 1072,
       "loss_count": 1036,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T00:07:44.449179+00:00",
+  "last_llm_brief_at": "2026-09-07T00:09:07.815910+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "DDn91hfV3KSphVygfYqJfGbuhwhTHJm8S9XhmK9r4sYX": {
+      "price_usd": 1.4381680860523167e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3826.6355174871496,
+      "volume_h24": 18953.74,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 35.934224035
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
