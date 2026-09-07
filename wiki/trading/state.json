@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.163168,
+  "balance_sol": 0.169807,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BUsMgA4fKsWs6PVWz1hkiLxLWr8e6qyiWvGdZ3zcpump": {
-      "symbol": "RISE",
-      "name": "RISE",
-      "amount": 98017.36032321391,
-      "entry_price_usd": 5.375578349208123e-06,
-      "entry_sol_spent": 0.005,
-      "entry_time": "2026-09-07T07:18:59.679433+00:00",
-      "entry_usd_value": 2.1076,
-      "last_seen_price_usd": 6.851515142646375e-06,
-      "entry_signals": {
-        "liquidity_usd": 1148.10187976286,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5378.500544766701,
-        "ath_market_cap_usd": 5378.500544766701,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 10.894874547,
-        "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. GL. ",
-        "twitter": "https://x.com/_rise",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -37461,25 +37437,47 @@
       "pnl_pct": 27.46,
       "exit_reason": "LLM: sell_half — $RISE is up +27.5% in 6 minutes, already past the 25% auto-TP threshold. Bonding-curve tokens at this stage can reverse violently — locking half the g",
       "partial": true
+    },
+    {
+      "mint": "BUsMgA4fKsWs6PVWz1hkiLxLWr8e6qyiWvGdZ3zcpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 24504.34008080348,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-07T07:18:59.679433+00:00",
+      "exit_time": "2026-09-07T07:29:16.682063+00:00",
+      "entry_price_usd": 5.375578349208123e-06,
+      "exit_price_usd": 7.10572785010677e-06,
+      "entry_sol_for_chunk": 0.00125,
+      "exit_sol_received": 0.00166,
+      "pnl_sol": 0.00041,
+      "pnl_pct": 32.19,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "BUsMgA4fKsWs6PVWz1hkiLxLWr8e6qyiWvGdZ3zcpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 73513.02024241044,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T07:18:59.679433+00:00",
+      "exit_time": "2026-09-07T07:29:36.664178+00:00",
+      "entry_price_usd": 5.375578349208123e-06,
+      "exit_price_usd": 7.10572785010677e-06,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.004979,
+      "pnl_sol": 0.001229,
+      "pnl_pct": 32.19,
+      "exit_reason": "LLM: sell_all — Up +32.2% past first TP threshold, but pool is only $1751 — dangerously thin. Locking full gain before any pullback. 0.2h hold, momentum could reverse",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T07:28:12.505368+00:00",
+  "last_updated": "2026-09-07T07:29:37.188772+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.064,
-  "portfolio_value_usd": 17.67,
+  "last_sol_price_usd": 104.92,
+  "portfolio_value_usd": 17.82,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 06:37 UTC",
-      "action": "sell",
-      "details": "[TP +100% (50%)] $Job at $2.04845e-05 | P&L: +107.2%",
-      "reason": "Auto take-profit at +107.2%"
-    },
-    {
-      "time": "2026-09-07 06:37 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Job at $2.04845e-05 | P&L: +107.2%",
-      "reason": "Up 107% in 6 minutes on a $5k pool — peak territory. Bot already auto-locked some profit at +100%. Memecoins rarely hold these levels; locking remaining gains now beats giving them back."
-    },
     {
       "time": "2026-09-07 06:42 UTC",
       "action": "observe",
@@ -37587,40 +37585,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $RISE at $6.85152e-06 | P&L: +27.5%",
       "reason": "$RISE is up +27.5% in 6 minutes, already past the 25% auto-TP threshold. Bonding-curve tokens at this stage can reverse violently — locking half the gain now secures profit while leaving a runner for the next leg. Pool is only $1,662, thin liquidity amplifies reversal risk."
+    },
+    {
+      "time": "2026-09-07 07:29 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $RISE at $7.10573e-06 | P&L: +32.2%",
+      "reason": "Auto take-profit at +32.2%"
+    },
+    {
+      "time": "2026-09-07 07:29 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RISE at $7.10573e-06 | P&L: +32.2%",
+      "reason": "Up +32.2% past first TP threshold, but pool is only $1751 — dangerously thin. Locking full gain before any pullback. 0.2h hold, momentum could reverse fast on a sub-$2k pool."
     }
   ],
   "trade_stats": {
-    "total": 2202,
-    "wins": 1121,
+    "total": 2204,
+    "wins": 1123,
     "losses": 1081,
-    "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.164484,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.162845,
     "avg_pnl_pct": 31.64,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 95,
-    "today_realized_sol": 0.026165,
-    "today_target_pct": 6.5,
+    "today_trades": 97,
+    "today_realized_sol": 0.027804,
+    "today_target_pct": 7.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1121,
+      "win_count": 1123,
       "loss_count": 1081,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T07:28:12.252669+00:00",
+  "last_llm_brief_at": "2026-09-07T07:29:36.663955+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BUsMgA4fKsWs6PVWz1hkiLxLWr8e6qyiWvGdZ3zcpump": {
-      "price_usd": 6.851515142646375e-06,
+      "price_usd": 7.10572785010677e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1661.799336958128,
-      "volume_h24": 2448.68,
+      "liquidity_usd": 1751.24743692624,
+      "volume_h24": 2594.85,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 15.817019502
+      "real_sol_reserves": 16.691264172
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

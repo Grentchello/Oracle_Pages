@@ -16129,3 +16129,9 @@
 ## [2026-09-07 07:28 UTC] sell | [PARTIAL][LLM] $RISE at $6.85152e-06 | P&L: +27.5%
 - **Reasoning:** $RISE is up +27.5% in 6 minutes, already past the 25% auto-TP threshold. Bonding-curve tokens at this stage can reverse violently — locking half the gain now secures profit while leaving a runner for the next leg. Pool is only $1,662, thin liquidity amplifies reversal risk.
 
+## [2026-09-07 07:29 UTC] sell | [TP +30% (25%)] $RISE at $7.10573e-06 | P&L: +32.2%
+- **Reasoning:** Auto take-profit at +32.2%
+
+## [2026-09-07 07:29 UTC] sell | [FULL][LLM] $RISE at $7.10573e-06 | P&L: +32.2%
+- **Reasoning:** Up +32.2% past first TP threshold, but pool is only $1751 — dangerously thin. Locking full gain before any pullback. 0.2h hold, momentum could reverse fast on a sub-$2k pool.
+
