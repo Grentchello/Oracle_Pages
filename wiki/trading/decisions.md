@@ -16321,3 +16321,6 @@
 ## [2026-09-07 11:30 UTC] sell | [FULL][LLM] $POPFISH at $8.67984e-06 | P&L: +27.6%
 - **Reasoning:** $POPFISH is up +27.6% and the +25% auto-TP should have fired — since it's still showing as held, locking the gain now is the disciplined move. Memecoins at micro-caps give back +20% gains fast; the bot enforces aggressive profit-taking at >20% and I should respect that.
 
+## [2026-09-07 11:40 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
