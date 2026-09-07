@@ -16477,3 +16477,6 @@
 ## [2026-09-07 16:00 UTC] sell | [FULL][LLM] $RISE at $5.60639e-06 | P&L: +4.8%
 - **Reasoning:** $RISE is +4.8% but pool is only $1220 with no narrative lift — capital is locked in a ghost position. Selling frees0.05 SOL to rotate into fresh attention launches next tick.
 
+## [2026-09-07 16:04 UTC] sell | [FULL][LLM] $80s at $6.38603e-06 | P&L: -11.7%
+- **Reasoning:** $80s is down -11.7% on a $1508 bonding-curve pool with 0% share — illiquid micro-cap with no bounce signal. Cut the loss, free capital for stronger narrative plays.
+
