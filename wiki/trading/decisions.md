@@ -15865,3 +15865,6 @@
 ## [2026-09-07 02:32 UTC] sell | [FULL][LLM] $CATCOIN at $1.40677e-05 | P&L: +10.1%
 - **Reasoning:** 0.0h held but pool share=0% is a red flag — position may not be properly in the LP. +10% gain is worth locking before bonding curve migrates or drains. Frees slot for fresh entry.
 
+## [2026-09-07 02:40 UTC] buy | [LLM] $OTCxPUMP at $3.6885e-06, spent 0.02 SOL
+- **Reasoning:** OTCxPUMP — meta-narrative tying Pump.fun OTC launch with @otc_labs, narrative piggybacks on platform attention event, $3.7k mcap with explicit 'run this memestock' CTA from creator. Tight $5 position, asymmetric upside if OTC narrative catches.
+
