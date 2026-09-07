@@ -16336,3 +16336,9 @@
 ## [2026-09-07 11:59 UTC] buy | [LLM] $UP at $5.3462e-06, spent 0.02 SOL
 - **Reasoning:** $UP has a viral attention mechanic — 60% supply airdropped to top 15 holders creates forced buy pressure as traders compete for ranking. Fresh 0.2min launch, $5.3k mcap, passes viability gate (long desc + twitter). Risk: airdrop-incentive tokens can dump post-snapshot, size small.
 
+## [2026-09-07 12:03 UTC] sell | [FULL][LLM] $CHEEF at $2.93659e-06 | P&L: -1.2%
+- **Reasoning:** $CHEEF pool=$0, -1.2% with no liquidity means I cannot exit at any meaningful price anyway, but marking sell_all to formally close and free the slot. This position is functionally dead.
+
+## [2026-09-07 12:03 UTC] sell | [PARTIAL][LLM] $UP at $6.3006e-06 | P&L: +17.9%
+- **Reasoning:** $UP is up +17.9% approaching the +25% TP1 zone. Bonding-curve tokens dump fast once early buyers take profit — locking half the gain protects against a reversal while letting the rest ride if it breaks +30%.
+

@@ -1,40 +1,17 @@
 {
-  "balance_sol": 0.058013,
+  "balance_sol": 0.08951,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "2XAo1trLxXKyhQjN4GxctNENNtrUpCfLtYE1qSgEmY4f": {
-      "symbol": "CHEEF",
-      "name": "CHEEFROG",
-      "amount": 705499.259276759,
-      "entry_price_usd": 2.971796174739184e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T11:57:09.009785+00:00",
-      "entry_usd_value": 2.0966,
-      "last_seen_price_usd": 2.9351351357221622e-06,
-      "entry_signals": {
-        "liquidity_usd": 21.842793717139998,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2973.7805850437894,
-        "ath_market_cap_usd": 2973.7805850437894,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.208363958,
-        "description": "GPT-6 Astra creates a viral cheetah-frog hybrid capturing millions of views on X.",
-        "twitter": "https://x.com/lana_goat/status/2096930405723013143",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
     "6x84KWyqHSBVB2N6TXm5TfDCYJjswd9UxstxA6j1pump": {
       "symbol": "UP",
       "name": "UP Coin",
-      "amount": 392465.7196320941,
+      "amount": 196232.85981604704,
       "entry_price_usd": 5.346199413204542e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-07T11:59:02.406951+00:00",
       "entry_usd_value": 2.0982,
-      "last_seen_price_usd": 5.90362341975282e-06,
+      "last_seen_price_usd": 6.300597320770765e-06,
       "entry_signals": {
         "liquidity_usd": 1138.4132663475,
         "volume_24h_usd": null,
@@ -38113,25 +38090,47 @@
       "pnl_pct": -95.94,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "2XAo1trLxXKyhQjN4GxctNENNtrUpCfLtYE1qSgEmY4f",
+      "symbol": "CHEEF",
+      "name": "CHEEFROG",
+      "amount_sold": 705499.205626759,
+      "fraction_sold": 0.9999999239545623,
+      "entry_time": "2026-09-07T11:57:09.009785+00:00",
+      "exit_time": "2026-09-07T12:03:09.818498+00:00",
+      "entry_price_usd": 2.971796174739184e-06,
+      "exit_price_usd": 2.936589003383217e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019725,
+      "pnl_sol": -0.000275,
+      "pnl_pct": -1.18,
+      "exit_reason": "LLM: sell_all — $CHEEF pool=$0, -1.2% with no liquidity means I cannot exit at any meaningful price anyway, but marking sell_all to formally close and free the slot. ",
+      "partial": false
+    },
+    {
+      "mint": "6x84KWyqHSBVB2N6TXm5TfDCYJjswd9UxstxA6j1pump",
+      "symbol": "UP",
+      "name": "UP Coin",
+      "amount_sold": 196232.85981604704,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T11:59:02.406951+00:00",
+      "exit_time": "2026-09-07T12:03:09.818677+00:00",
+      "entry_price_usd": 5.346199413204542e-06,
+      "exit_price_usd": 6.300597320770765e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011772,
+      "pnl_sol": 0.001772,
+      "pnl_pct": 17.85,
+      "exit_reason": "LLM: sell_half — $UP is up +17.9% approaching the +25% TP1 zone. Bonding-curve tokens dump fast once early buyers take profit — locking half the gain protects against ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T12:01:48.443470+00:00",
+  "last_updated": "2026-09-07T12:03:09.818778+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.98,
-  "portfolio_value_usd": 10.29,
+  "last_sol_price_usd": 105.032,
+  "portfolio_value_usd": 10.45,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 10:13 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ZOOLANA at $3.06354e-06 | P&L: +0.1%",
-      "reason": "$ZOOLANA is essentially flat at +0.1% with $69 pool and 3% share — classic stale, illiquid bonding-curve trap. Cut and free the slot for a fresh launch with narrative."
-    },
-    {
-      "time": "2026-09-07 10:15 UTC",
-      "action": "buy",
-      "details": "[LLM] $Job at $1.55541e-05, spent 0.02 SOL",
-      "reason": "$Job has the strongest attention signal: dev claims 16M CTO track record and pitches 'first Tek coin using OTC pair' as a novel mechanism. Mcap $15.5k is pump.fun sweet spot, twitter link active, viability gate passes. Risk: Tek/OTC pair narrative is niche and may not break beyond CT."
-    },
     {
       "time": "2026-09-07 10:17 UTC",
       "action": "sell",
@@ -38239,35 +38238,47 @@
       "action": "buy",
       "details": "[LLM] $UP at $5.3462e-06, spent 0.02 SOL",
       "reason": "$UP has a viral attention mechanic — 60% supply airdropped to top 15 holders creates forced buy pressure as traders compete for ranking. Fresh 0.2min launch, $5.3k mcap, passes viability gate (long desc + twitter). Risk: airdrop-incentive tokens can dump post-snapshot, size small."
+    },
+    {
+      "time": "2026-09-07 12:03 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CHEEF at $2.93659e-06 | P&L: -1.2%",
+      "reason": "$CHEEF pool=$0, -1.2% with no liquidity means I cannot exit at any meaningful price anyway, but marking sell_all to formally close and free the slot. This position is functionally dead."
+    },
+    {
+      "time": "2026-09-07 12:03 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $UP at $6.3006e-06 | P&L: +17.9%",
+      "reason": "$UP is up +17.9% approaching the +25% TP1 zone. Bonding-curve tokens dump fast once early buyers take profit — locking half the gain protects against a reversal while letting the rest ride if it breaks +30%."
     }
   ],
   "trade_stats": {
-    "total": 2239,
-    "wins": 1138,
-    "losses": 1101,
+    "total": 2241,
+    "wins": 1139,
+    "losses": 1102,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.234639,
-    "avg_pnl_pct": 31.01,
+    "total_pnl_sol": -2.233142,
+    "avg_pnl_pct": 30.99,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 132,
-    "today_realized_sol": -0.04399,
-    "today_target_pct": -11.0,
+    "today_trades": 134,
+    "today_realized_sol": -0.042493,
+    "today_target_pct": -10.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1138,
-      "loss_count": 1101,
+      "win_count": 1139,
+      "loss_count": 1102,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T12:01:48.443424+00:00",
+  "last_llm_brief_at": "2026-09-07T12:03:09.818412+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2XAo1trLxXKyhQjN4GxctNENNtrUpCfLtYE1qSgEmY4f": {
-      "price_usd": 2.9351351357221622e-06,
+      "price_usd": 2.936589003383217e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 6.2988e-07,
+      "liquidity_usd": 6.30192e-07,
       "volume_h24": 43.7,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
@@ -38275,15 +38286,15 @@
       "real_sol_reserves": 6e-09
     },
     "6x84KWyqHSBVB2N6TXm5TfDCYJjswd9UxstxA6j1pump": {
-      "price_usd": 5.90362341975282e-06,
+      "price_usd": 6.300597320770765e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1317.15921679794,
-      "volume_h24": 1542.64,
+      "liquidity_usd": 1464.469996272264,
+      "volume_h24": 1657.21,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 12.546763353
+      "real_sol_reserves": 13.943083977
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
