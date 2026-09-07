@@ -1,55 +1,8 @@
 {
-  "balance_sol": 0.116537,
+  "balance_sol": 0.156848,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FVN5JSUUZfR5iAXqZXBnsRArFUouTmTB6ow6Bt51vVQa": {
-      "symbol": "CTO",
-      "name": "Community Take Over",
-      "amount": 686197.9166666667,
-      "entry_price_usd": 3.072e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T06:15:19.045989+00:00",
-      "entry_usd_value": 2.108,
-      "last_seen_price_usd": 3.1543806462206543e-06,
-      "entry_signals": {
-        "liquidity_usd": 109.25273194360001,
-        "volume_24h_usd": 209.29,
-        "market_cap_usd": 3159.0318016526294,
-        "ath_market_cap_usd": 3208.706606525359,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.036553434,
-        "description": "They said it's over. We said counter. No promises. No roadmap. Just CTO.",
-        "twitter": "https://x.com/i/communities/1985888823188840712",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "2SHmDcM3iaCw5gmJJptvUhv3jkK4tormdB5NDTikpump": {
-      "symbol": "CETTE",
-      "name": "Cette",
-      "amount": 657838.850718301,
-      "entry_price_usd": 3.202e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T06:27:45.644574+00:00",
-      "entry_usd_value": 2.1064,
-      "last_seen_price_usd": 3.202e-06,
-      "entry_signals": {
-        "liquidity_usd": 115.27557458247999,
-        "volume_24h_usd": 137.36,
-        "market_cap_usd": 3163.8488488499647,
-        "ath_market_cap_usd": 3163.8488488499647,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.094526914,
-        "description": "CATTE — The cutest meme on Solana! 🚀 Community-driven, fun-powered, and ready to go viral.  Join the CATTE movement! ",
-        "twitter": "https://x.com/Lontonmark/status/2096846116172300778",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -37178,25 +37131,47 @@
       "pnl_pct": -5.57,
       "exit_reason": "LLM: sell_all — Pool is only $5 and we hold 21% — we're the bag-holder risk. At -5.6% with no bounce signal and zero depth to exit cleanly later, cutting now beats ri",
       "partial": false
+    },
+    {
+      "mint": "FVN5JSUUZfR5iAXqZXBnsRArFUouTmTB6ow6Bt51vVQa",
+      "symbol": "CTO",
+      "name": "Community Take Over",
+      "amount_sold": 686197.9166666667,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T06:15:19.045989+00:00",
+      "exit_time": "2026-09-07T06:29:08.588895+00:00",
+      "entry_price_usd": 3.072e-06,
+      "exit_price_usd": 3.151685106359661e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020552,
+      "pnl_sol": 0.000552,
+      "pnl_pct": 2.59,
+      "exit_reason": "LLM: sell_all — $CTO is only +2.6% after 0.2h with tiny $110 pool — no viral narrative in the name, no twitter link in candidates, and we already have 2/2 slots. Slot",
+      "partial": false
+    },
+    {
+      "mint": "2SHmDcM3iaCw5gmJJptvUhv3jkK4tormdB5NDTikpump",
+      "symbol": "CETTE",
+      "name": "Cette",
+      "amount_sold": 657838.850718301,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T06:27:45.644574+00:00",
+      "exit_time": "2026-09-07T06:29:08.589182+00:00",
+      "entry_price_usd": 3.202e-06,
+      "exit_price_usd": 3.160723467635187e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019759,
+      "pnl_sol": -0.000241,
+      "pnl_pct": -1.29,
+      "exit_reason": "LLM: sell_all — $CETTE is -1.3% with $115 pool and 0.0h held — fresh entry already underwater with no bounce signal. Free the slot for a higher-attention launch.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T06:27:45.644857+00:00",
+  "last_updated": "2026-09-07T06:29:09.101683+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.32,
-  "portfolio_value_usd": 16.49,
+  "last_sol_price_usd": 105.23,
+  "portfolio_value_usd": 16.51,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 05:03 UTC",
-      "action": "buy",
-      "details": "[LLM] $$HAVE at $3.04e-06, spent 0.02 SOL",
-      "reason": "$$HAVE has the strongest attention signal: relatable shareable meme format ('can i have this? 🥺'), CheezeDibbles twitter attached, 50+ char description passing viability gate, $3k mcap with room to 10x. Single 0.05 SOL position — preserving 0.05 SOL reserve floor."
-    },
-    {
-      "time": "2026-09-07 05:08 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $$HAVE at $2.94324e-06 | P&L: -3.2%",
-      "reason": "The position is only 0.1 hours old and slightly down, so there is no bounce signal to justify waiting. The reported $0 pool and enormous share also make the bonding-curve position appear unviable and difficult to exit safely."
-    },
     {
       "time": "2026-09-07 05:12 UTC",
       "action": "buy",
@@ -37304,40 +37279,63 @@
       "action": "buy",
       "details": "[LLM] $CETTE at $3.202e-06, spent 0.02 SOL",
       "reason": "$CETTE — cat meme with explicit viral pitch ('cutest meme on Solana', 'ready to go viral') + twitter link to mark account. Cat meta is chronically hot on Solana and this launched into a 5-min-old bonding curve with $3k mcap. Has the attention-coining story pattern."
+    },
+    {
+      "time": "2026-09-07 06:29 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CTO at $3.15169e-06 | P&L: +2.6%",
+      "reason": "$CTO is only +2.6% after 0.2h with tiny $110 pool — no viral narrative in the name, no twitter link in candidates, and we already have 2/2 slots. Slot is wasted on a stale almost-flat position."
+    },
+    {
+      "time": "2026-09-07 06:29 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CETTE at $3.16072e-06 | P&L: -1.3%",
+      "reason": "$CETTE is -1.3% with $115 pool and 0.0h held — fresh entry already underwater with no bounce signal. Free the slot for a higher-attention launch."
     }
   ],
   "trade_stats": {
-    "total": 2184,
-    "wins": 1111,
-    "losses": 1073,
+    "total": 2186,
+    "wins": 1112,
+    "losses": 1074,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.176115,
-    "avg_pnl_pct": 31.69,
+    "total_pnl_sol": -2.175804,
+    "avg_pnl_pct": 31.66,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 77,
-    "today_realized_sol": 0.014534,
-    "today_target_pct": 3.6,
+    "today_trades": 79,
+    "today_realized_sol": 0.014845,
+    "today_target_pct": 3.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1111,
-      "loss_count": 1073,
+      "win_count": 1112,
+      "loss_count": 1074,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T06:27:44.229616+00:00",
+  "last_llm_brief_at": "2026-09-07T06:29:08.588858+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FVN5JSUUZfR5iAXqZXBnsRArFUouTmTB6ow6Bt51vVQa": {
-      "price_usd": 3.1543806462206543e-06,
+      "price_usd": 3.151685106359661e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 110.58982806604,
+      "liquidity_usd": 110.49532479481,
       "volume_h24": 273.42,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 1.050036347
+    },
+    "2SHmDcM3iaCw5gmJJptvUhv3jkK4tormdB5NDTikpump": {
+      "price_usd": 3.160723467635187e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 115.17706716022,
+      "volume_h24": 159.6,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.094526914
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
