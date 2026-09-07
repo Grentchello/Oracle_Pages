@@ -16240,3 +16240,6 @@
 ## [2026-09-07 09:49 UTC] buy | [LLM] $BITPONS at $3.65831e-06, spent 0.02 SOL
 - **Reasoning:** $BITPONS has the strongest narrative of the batch — yield-bearing mechanic paying PONS+WBTC to holders is a concrete attention hook, not just a name. Active twitter (BullBareClub), bond only 9% so still early, mcap $3.6k gives room. Buying 0.05 SOL.
 
+## [2026-09-07 09:50 UTC] sell | [FULL][LLM] $BITPONS at $3.04598e-06 | P&L: -16.7%
+- **Reasoning:** BITPONS is -16.7% after just 0.0h held with $58 pool liquidity (very thin, 3% of pool is our position creating massive exit slippage risk). Approaching the -20% 'cut fast' threshold. No clear bounce signal — exiting now to preserve capital for fresh attention plays.
+
