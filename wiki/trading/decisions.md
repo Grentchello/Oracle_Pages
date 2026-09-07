@@ -16501,3 +16501,6 @@
 ## [2026-09-07 16:29 UTC] buy | [LLM] $SMOKINGCAT at $7.428e-06, spent 0.02 SOL
 - **Reasoning:** $SMOKINGCAT has real meme DNA — the smoking cat image is a known absurdist internet meme with shareable viral potential. Has twitter, description, $7.5k mcap, 28% bond (more traction than most). Only fresh launch passing viability+fragility gates with an actual attention narrative. Sizing at 0.05 SOL (v7 rule) leaves reserve.
 
+## [2026-09-07 16:31 UTC] sell | [FULL][LLM] $SMOKINGCAT at $8.99563e-06 | P&L: +21.1%
+- **Reasoning:** SMOKINGCAT is up +21.1% on a tiny $2370 pool — even on bonding curve this is thin. Rules say take profit when up >20% with any doubt. Locking the gain beats hoping for more.
+
