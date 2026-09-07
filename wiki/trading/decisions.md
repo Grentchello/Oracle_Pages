@@ -16426,3 +16426,6 @@
 ## [2026-09-07 14:26 UTC] sell | [FULL][LLM] $mofo at $4.64711e-06 | P&L: +20.7%
 - **Reasoning:** The position is up 20.7%, already above the stated 20% profit-taking threshold. With a very small $820 pool, weak liquidity relative to the $5 position-size rule, and no demonstrated momentum, lock in the gain rather than risk a rapid reversal.
 
+## [2026-09-07 14:30 UTC] buy | [LLM] $PR at $3.02288e-06, spent 0.02 SOL
+- **Reasoning:** $PR (PARABOLIC RUN) — explicit DOGE 2021 nostalgia play with a clear narrative hook and active X account (abikhadka). Bond still at 2% so extremely early but the meme-cycle framing is the cleanest attention signal in the batch. 0.05 SOL position only — fits the reserve constraint.
+
