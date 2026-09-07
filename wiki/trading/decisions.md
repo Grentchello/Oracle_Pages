@@ -16099,3 +16099,6 @@
 ## [2026-09-07 07:11 UTC] buy | [LLM] $SHAKESKATE at $3.06125e-06, spent 0.02 SOL
 - **Reasoning:** $SHAKESKATE — creative absurdist meme (milkshake + roller skate), has both twitter signal (@wepaidinfull) and a vivid description. Memecoins live or die on shareable concepts; this has the 'what is that?' reaction factor.
 
+## [2026-09-07 07:16 UTC] sell | [FULL][LLM] $SHAKESKATE at $3.02075e-06 | P&L: -1.3%
+- **Reasoning:** Down 1.3% in 6 minutes with $40 pool depth, no momentum, no narrative catalyst visible. Flat memecoin with5% of a tiny pool = exit before it bleeds further. Capital rotation.
+
