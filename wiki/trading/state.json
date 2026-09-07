@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.077003,
+  "balance_sol": 0.094176,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4Uj9tJGSfQfx963HYJPyfEULs49JoJ9s5goNGyDupump": {
-      "symbol": "VIBES",
-      "name": "Royal Vibes Season",
-      "amount": 594457.0135746605,
-      "entry_price_usd": 3.536e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T14:04:05.467053+00:00",
-      "entry_usd_value": 2.102,
-      "last_seen_price_usd": 3.021762220507237e-06,
-      "entry_signals": {
-        "liquidity_usd": 304.8282699579,
-        "volume_24h_usd": 309.18,
-        "market_cap_usd": 3534.1351094658876,
-        "ath_market_cap_usd": 3538.3801096640454,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.900364129,
-        "description": "Built Royal Vibes Season because we could. Holding it because we must.",
-        "twitter": "https://x.com/solana",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38345,19 +38321,30 @@
       "pnl_pct": -74.66,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "4Uj9tJGSfQfx963HYJPyfEULs49JoJ9s5goNGyDupump",
+      "symbol": "VIBES",
+      "name": "Royal Vibes Season",
+      "amount_sold": 594457.0135746605,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T14:04:05.467053+00:00",
+      "exit_time": "2026-09-07T14:10:12.344189+00:00",
+      "entry_price_usd": 3.536e-06,
+      "exit_price_usd": 3.0180066842867213e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.017173,
+      "pnl_sol": -0.002827,
+      "pnl_pct": -14.65,
+      "exit_reason": "LLM: sell_all — Down -14.6% with tiny $52 pool (we own 4% — that's basically the entire float), no clear narrative in 'VIBES', held 0.1h with no bounce. Stale microca",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T14:08:52.337475+00:00",
+  "last_updated": "2026-09-07T14:10:12.647157+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.6,
-  "portfolio_value_usd": 10.16,
+  "last_sol_price_usd": 104.47,
+  "portfolio_value_usd": 9.84,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 12:07 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $UP at $7.38321e-06 | P&L: +38.1%",
-      "reason": "Up38.1% past the 25% TP threshold with bot already taking half. Bonding-curve token at $1845 pool liquidity — thin, reversal risk is high. Lock the gain, rotate capital to fresh attention."
-    },
     {
       "time": "2026-09-07 12:08 UTC",
       "action": "buy",
@@ -38471,36 +38458,42 @@
       "action": "buy",
       "details": "[LLM] $VIBES at $3.536e-06, spent 0.02 SOL",
       "reason": "$VIBES passes viability (desc >50 chars + twitter). Attached to the official @solana X account — rare, high-attention signal. Name has clean memecoin vibe. Risk: 1-min-old, low mcap ($3.5k), bond only 8% — may rug. Sizing 0.05 SOL ($5) per v7 rules."
+    },
+    {
+      "time": "2026-09-07 14:10 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $VIBES at $3.01801e-06 | P&L: -14.7%",
+      "reason": "Down -14.6% with tiny $52 pool (we own 4% — that's basically the entire float), no clear narrative in 'VIBES', held 0.1h with no bounce. Stale microcap with massive exit slippage risk — cut it before -30% hard stop triggers. We need the SOL for fresh launches."
     }
   ],
   "trade_stats": {
-    "total": 2254,
+    "total": 2255,
     "wins": 1148,
-    "losses": 1106,
+    "losses": 1107,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.23565,
-    "avg_pnl_pct": 30.95,
+    "total_pnl_sol": -2.238477,
+    "avg_pnl_pct": 30.93,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 147,
-    "today_realized_sol": -0.045001,
-    "today_target_pct": -11.3,
+    "today_trades": 148,
+    "today_realized_sol": -0.047828,
+    "today_target_pct": -12.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1148,
-      "loss_count": 1106,
+      "loss_count": 1107,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T14:08:52.337432+00:00",
+  "last_llm_brief_at": "2026-09-07T14:10:12.344153+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4Uj9tJGSfQfx963HYJPyfEULs49JoJ9s5goNGyDupump": {
-      "price_usd": 3.021762220507237e-06,
+      "price_usd": 3.0180066842867213e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 51.7487373938,
-      "volume_h24": 309.18,
+      "liquidity_usd": 51.68442251941,
+      "volume_h24": 560.58,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
