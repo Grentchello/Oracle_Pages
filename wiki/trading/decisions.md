@@ -15958,3 +15958,6 @@
 ## [2026-09-07 03:44 UTC] buy | [LLM] $OPM at $7.73436e-06, spent 0.02 SOL
 - **Reasoning:** $OPM (Other People's Money) — strongest viral signal in the batch: 'hot-potatoing someone else’s cash' is a self-aware meta-meme about memecoin cycles itself, posted by @ashthequant (a known memecoin commentator with reach). Bond 28% complete at 0.4min age means capital is flowing in fast. $7.7k mcap with clear narrative + real X account = classic attention launch.
 
+## [2026-09-07 03:45 UTC] sell | [hard-stop] $OPM closed at $3.05955e-06 | P&L: -60.4%
+- **Reasoning:** Hard -30% stop
+
