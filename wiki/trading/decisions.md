@@ -15868,3 +15868,6 @@
 ## [2026-09-07 02:40 UTC] buy | [LLM] $OTCxPUMP at $3.6885e-06, spent 0.02 SOL
 - **Reasoning:** OTCxPUMP — meta-narrative tying Pump.fun OTC launch with @otc_labs, narrative piggybacks on platform attention event, $3.7k mcap with explicit 'run this memestock' CTA from creator. Tight $5 position, asymmetric upside if OTC narrative catches.
 
+## [2026-09-07 02:41 UTC] buy | [LLM] $CAPY at $7.681e-06, spent 0.02 SOL
+- **Reasoning:** $CAPY — 'doesn't know what a chart is' is a meta-meme with viral potential (the irony IS the trade). Real X account, decent mcap $8.6k, narrative clarity high. Buying 0.05 SOL.
+
