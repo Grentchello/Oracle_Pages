@@ -11,7 +11,7 @@
       "entry_sol_spent": 0.02,
       "entry_time": "2026-09-07T01:14:21.372598+00:00",
       "entry_usd_value": 2.1134,
-      "last_seen_price_usd": 3.572e-06,
+      "last_seen_price_usd": 3.1331992201093863e-06,
       "entry_signals": {
         "liquidity_usd": 770.78009341044,
         "volume_24h_usd": 327.21,
@@ -36239,17 +36239,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-07T01:14:21.372771+00:00",
+  "last_updated": "2026-09-07T01:16:01.794750+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.67,
-  "portfolio_value_usd": 17.41,
+  "last_sol_price_usd": 105.51,
+  "portfolio_value_usd": 17.39,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 00:27 UTC",
-      "action": "buy",
-      "details": "[LLM] $ZPEPE at $4.0112e-06, spent 0.02 SOL",
-      "reason": "Anonymous Pepe format has repeatedly captured memecoin attention (AP, various Pepe derivatives). Has Twitter, has decent description. Second-best narrative in the batch. 0.05 SOL."
-    },
     {
       "time": "2026-09-07 00:28 UTC",
       "action": "sell",
@@ -36363,6 +36357,12 @@
       "action": "buy",
       "details": "[LLM] $PoP at $3.572e-06, spent 0.02 SOL",
       "reason": "Specific 'PoP not PvP' narrative from Minster, has twitter anchor. Low mcap ($3.7k) = high upside if narrative catches. Risk: bond only 10%, very early, may not graduate."
+    },
+    {
+      "time": "2026-09-07 01:16 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -36384,9 +36384,21 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T01:14:19.827074+00:00",
+  "last_llm_brief_at": "2026-09-07T01:16:01.794503+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "J3zrDaXYypmziKS4hghYbqFfYxqfsJjBUEjyyzYrpump": {
+      "price_usd": 3.1331992201093863e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 96.83030562963,
+      "volume_h24": 1840.3,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.917735813
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
