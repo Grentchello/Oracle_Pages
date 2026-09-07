@@ -16204,3 +16204,9 @@
 ## [2026-09-07 08:49 UTC] buy | [LLM] $ NSQK at $3.08245e-06, spent 0.02 SOL
 - **Reasoning:** $NSQK (NesQuack) has the clearest meme construction of the batch: 'QUACKONOMICS', chocolate milk economy angle, has twitter handle and 50+ char description passing viability gate, $3k mcap is the floor but the Nesquik nostalgia + animal meme is recognizable attention bait. Risk is0.05 SOL on a sub-1-min token — standard memecoin risk.
 
+## [2026-09-07 08:54 UTC] sell | [FULL][LLM] $ NSQK at $3.78529e-06 | P&L: +22.8%
+- **Reasoning:** Up +22.8% in 0.1h, just under +25% TP. Lock the gain and free a slot — discipline says take profit at >20% when doubt exists, and rotation into fresh MEMETHOS narrative beats bag-holding a token that's already 22% up with only $431 pool depth.
+
+## [2026-09-07 08:54 UTC] buy | [LLM] $MEMETHOS at $3.708e-06, spent 0.02 SOL
+- **Reasoning:** MEMETHOS passes viability (desc ≥50 chars, has twitter). Mysterious 'myth appeared on-chain' framing is a real viral narrative — anonymity + on-chain origin is meme-canon. $3.7k mcap, 1min old = early attention window.
+
