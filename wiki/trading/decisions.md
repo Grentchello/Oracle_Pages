@@ -15964,3 +15964,6 @@
 ## [2026-09-07 03:47 UTC] buy | [LLM] $BOEING767 at $4.30958e-06, spent 0.02 SOL
 - **Reasoning:** $BOEING767 — riding a real viral news event (Amazon cargo plane crash trending), has both X post + description with narrative hook. Event-driven memecoins pump hardest when the underlying story is still hot. Small mcap = room to run.
 
+## [2026-09-07 03:49 UTC] sell | [FULL][LLM] $BOEING767 at $3.49082e-06 | P&L: -19.0%
+- **Reasoning:** $BOEING767 is at -19% with zero age elapsed, pool only $284 (thin and easily dumped further). Approaching hard -30% stop. No bounce signal, no narrative momentum — capital is better rotated into a fresh attention launch than bag-held. Cut the loss now per loser-exit-fast discipline.
+
