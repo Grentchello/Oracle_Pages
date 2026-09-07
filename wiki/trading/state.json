@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.091926,
+  "balance_sol": 0.111926,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6u8cVivtVAxm2RqWga2bD3h9F3sskbQqGXT473W6pump": {
-      "symbol": "WATCH",
-      "name": "Watch Pumpty ",
-      "amount": 691463.4720978562,
-      "entry_price_usd": 3.054391280557925e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T13:33:25.204376+00:00",
-      "entry_usd_value": 2.112,
-      "last_seen_price_usd": 3.054391280557925e-06,
-      "entry_signals": {
-        "liquidity_usd": 54.216988848,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3050.911072134624,
-        "ath_market_cap_usd": 3756.1428984740946,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.513418455,
-        "description": "Watch Pumpty is a broadcast platform with a community-driven video schedule. Anyone can compete for a streaming slot by posting about $WATCH.  Livestreams on Pump Fun 24/7",
-        "twitter": "https://x.com/Pumptyfun",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38311,19 +38287,30 @@
       "pnl_pct": 65.42,
       "exit_reason": "LLM: sell_all — +65% gain, my share=0% (no organic buyers on curve, likely thin/sybil), and bonding curve pool is only $3k — classic exit liquidity trap where late bu",
       "partial": false
+    },
+    {
+      "mint": "6u8cVivtVAxm2RqWga2bD3h9F3sskbQqGXT473W6pump",
+      "symbol": "WATCH",
+      "name": "Watch Pumpty ",
+      "amount_sold": 691463.4720978562,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T13:33:25.204376+00:00",
+      "exit_time": "2026-09-07T13:35:08.611218+00:00",
+      "entry_price_usd": 3.054391280557925e-06,
+      "exit_price_usd": 3.0460032742003326e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.02,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.27,
+      "exit_reason": "LLM: sell_all — $WATCH is flat (-0.3%), held 0h on bonding curve with only $54 pool. Tiny position, no momentum, no narrative edge. Freeing the slot lets me rotate in",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T13:33:25.204741+00:00",
+  "last_updated": "2026-09-07T13:35:08.919608+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.6,
-  "portfolio_value_usd": 11.82,
+  "last_sol_price_usd": 105.31,
+  "portfolio_value_usd": 11.79,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 12:03 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CHEEF at $2.93659e-06 | P&L: -1.2%",
-      "reason": "$CHEEF pool=$0, -1.2% with no liquidity means I cannot exit at any meaningful price anyway, but marking sell_all to formally close and free the slot. This position is functionally dead."
-    },
     {
       "time": "2026-09-07 12:03 UTC",
       "action": "sell",
@@ -38437,30 +38424,48 @@
       "action": "buy",
       "details": "[LLM] $WATCH at $3.05439e-06, spent 0.02 SOL",
       "reason": "$WATCH has a real product narrative (broadcast platform with community-driven video slots) and a real Twitter account @Pumptyfun. Bond only 2% = ultra-early, high risk, but the attention signal (platform launch tied to a named project) beats the other pure-name spam. 0.05 SOL position."
+    },
+    {
+      "time": "2026-09-07 13:35 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WATCH at $3.046e-06 | P&L: -0.3%",
+      "reason": "$WATCH is flat (-0.3%), held 0h on bonding curve with only $54 pool. Tiny position, no momentum, no narrative edge. Freeing the slot lets me rotate into a fresh launch with actual attention. Tiny realized loss is acceptable to redeploy capital."
     }
   ],
   "trade_stats": {
-    "total": 2252,
+    "total": 2253,
     "wins": 1148,
-    "losses": 1104,
+    "losses": 1105,
     "win_rate_pct": 51.0,
     "total_pnl_sol": -2.220727,
-    "avg_pnl_pct": 31.01,
+    "avg_pnl_pct": 31.0,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 145,
+    "today_trades": 146,
     "today_realized_sol": -0.030078,
     "today_target_pct": -7.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1148,
-      "loss_count": 1104,
+      "loss_count": 1105,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T13:33:23.488565+00:00",
+  "last_llm_brief_at": "2026-09-07T13:35:08.611179+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "6u8cVivtVAxm2RqWga2bD3h9F3sskbQqGXT473W6pump": {
+      "price_usd": 3.0460032742003326e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 54.06809749605001,
+      "volume_h24": 1212.38,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.513418455
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
