@@ -16216,3 +16216,6 @@
 ## [2026-09-07 09:01 UTC] sell | [FULL][LLM] $MEMETHOS at $3.60822e-06 | P&L: -2.7%
 - **Reasoning:** $MEMETHOS is -2.7% after only 6 minutes with a tiny $347 pool — this is exactly the stale-flip profile. Pool size means any sell pressure crushes price. Cut now while loss is small rather than wait for the -30% hard stop.
 
+## [2026-09-07 09:04 UTC] buy | [LLM] $ZPENIS at $3.259e-06, spent 0.02 SOL
+- **Reasoning:** $ZPENIS has the cleanest setup in this batch: real desc (~55 chars), active twitter (iamjaynorton), explicit comp to $ZCAT (established weird-twitter niche), and 6% bond progress showing real buy flow. Crude humor niche has historical traction on Solana. Sized at 0.05 SOL to respect reserve floor. Risk: low liquidity, satirical narrative may not pump in minutes.
+
