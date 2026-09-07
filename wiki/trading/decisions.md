@@ -15841,3 +15841,6 @@
 ## [2026-09-07 02:15 UTC] sell | [hard-stop] $CATCOIN closed at $3.10582e-06 | P&L: -73.8%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-07 02:18 UTC] sell | [FULL][LLM] $$INBUN at $3.05019e-06 | P&L: +0.2%
+- **Reasoning:** Flat at +0.2% after 0.1h held on a $56 pool token (4% of pool = massive concentration risk). Pool is illiquid, no clear narrative momentum. Free slot and capital for fresher attention with stronger setups.
+
