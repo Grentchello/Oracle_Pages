@@ -16249,3 +16249,12 @@
 ## [2026-09-07 10:01 UTC] buy | [LLM] $UEG at $2.983e-06, spent 0.02 SOL
 - **Reasoning:** Best narrative of the batch: $UEG 'uber eat grinders' has a relatable working-class story (delivery drivers, bad tips), active twitter linked, and bonding curve just starting at 1%. Clear cultural hook that could resonate. Position size 0.05 SOL.
 
+## [2026-09-07 10:03 UTC] sell | [FULL][LLM] $OPRETURN at $3.12456e-06 | P&L: -1.4%
+- **Reasoning:** OPRETURN down -1.4% after 6min, bonding curve pool only $101 with our 2% share. No momentum, no catalyst visible, low liquidity exit risk. Free the slot.
+
+## [2026-09-07 10:03 UTC] sell | [FULL][LLM] $UEG at $2.95131e-06 | P&L: -1.1%
+- **Reasoning:** UEG pool is only $10 with our 21% share — that's an instant liquidity trap. Even small sells will crash price. Exit fast at -1.1% before it gets worse.
+
+## [2026-09-07 10:03 UTC] buy | [LLM] $GRAMLIN at $5.555e-06, spent 0.02 SOL
+- **Reasoning:** $GRAMLIN has clearest narrative of the batch — gamified play-to-claim token with active tournament, real twitter handle, 21% bonding already. mcap $5.5k is entry-zone. Best attention signal here.
+
