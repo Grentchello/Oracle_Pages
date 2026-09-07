@@ -15895,3 +15895,9 @@
 ## [2026-09-07 02:49 UTC] sell | [PARTIAL][LLM] $CAPY at $1.13496e-05 | P&L: +47.8%
 - **Reasoning:** Up +47.8% in 6 min but pool is only $3k — extremely fragile liquidity means any retrace evaporates gains fast. Sell half to lock profit (~0.024 SOL locked), hold remainder for potential further pump on the cat narrative. If it stalls, exit the rest next tick.
 
+## [2026-09-07 02:50 UTC] sell | [TP +30% (25%)] $CAPY at $1.16455e-05 | P&L: +51.6%
+- **Reasoning:** Auto take-profit at +51.6%
+
+## [2026-09-07 02:51 UTC] sell | [PARTIAL][LLM] $CAPY at $1.16455e-05 | P&L: +51.6%
+- **Reasoning:** Up +51.6%, well past the 25% TP1 threshold. CAPY narrative is solid (Capybara meme) but bonding-curve token with low pool ($3.1k) and our share is 0% — taking half off locks ~+50% gain and frees capital for fresh launches. Holding remainder for runner potential.
+

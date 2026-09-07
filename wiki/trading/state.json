@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.161194,
+  "balance_sol": 0.161694,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump": {
       "symbol": "CAPY",
       "name": "CAPY",
-      "amount": 7333.792393568545,
+      "amount": 2750.172147588204,
       "entry_price_usd": 7.681e-06,
-      "entry_sol_spent": 0.00052734375,
+      "entry_sol_spent": 0.00019775390625,
       "entry_time": "2026-09-07T02:41:47.688109+00:00",
       "entry_usd_value": 2.1364,
-      "last_seen_price_usd": 1.134962868246531e-05,
+      "last_seen_price_usd": 1.164548362830602e-05,
       "entry_signals": {
         "liquidity_usd": 2306.99461972742,
         "volume_24h_usd": 1950.35,
@@ -36662,25 +36662,47 @@
       "pnl_pct": 47.76,
       "exit_reason": "LLM: sell_half — Up +47.8% in 6 min but pool is only $3k — extremely fragile liquidity means any retrace evaporates gains fast. Sell half to lock profit (~0.024 SOL lo",
       "partial": true
+    },
+    {
+      "mint": "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump",
+      "symbol": "CAPY",
+      "name": "CAPY",
+      "amount_sold": 1833.4480983921362,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-07T02:41:47.688109+00:00",
+      "exit_time": "2026-09-07T02:50:42.932435+00:00",
+      "entry_price_usd": 7.681e-06,
+      "exit_price_usd": 1.164548362830602e-05,
+      "entry_sol_for_chunk": 0.000132,
+      "exit_sol_received": 0.0002,
+      "pnl_sol": 6.8e-05,
+      "pnl_pct": 51.61,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump",
+      "symbol": "CAPY",
+      "name": "CAPY",
+      "amount_sold": 2750.172147588204,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T02:41:47.688109+00:00",
+      "exit_time": "2026-09-07T02:51:30.180675+00:00",
+      "entry_price_usd": 7.681e-06,
+      "exit_price_usd": 1.164548362830602e-05,
+      "entry_sol_for_chunk": 0.000198,
+      "exit_sol_received": 0.0003,
+      "pnl_sol": 0.000102,
+      "pnl_pct": 51.61,
+      "exit_reason": "LLM: sell_half — Up +51.6%, well past the 25% TP1 threshold. CAPY narrative is solid (Capybara meme) but bonding-curve token with low pool ($3.1k) and our share is 0% ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T02:49:39.459746+00:00",
+  "last_updated": "2026-09-07T02:51:30.436110+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.77,
-  "portfolio_value_usd": 17.27,
+  "last_sol_price_usd": 106.83,
+  "portfolio_value_usd": 17.29,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 02:14 UTC",
-      "action": "buy",
-      "details": "[LLM] $$INBUN at $3.044e-06, spent 0.02 SOL",
-      "reason": "$$INBUN (Hot Dog in the Bun) — absurd visual narrative with X account attached (@Stimg100), bond at 2% but real story ('one stadium with one job'). Meme coin gold = stupid + shareable. Risk: bond curve barely started, liquidity thin."
-    },
-    {
-      "time": "2026-09-07 02:15 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $CATCOIN closed at $3.10582e-06 | P&L: -73.8%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-07 02:18 UTC",
       "action": "sell",
@@ -36788,40 +36810,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $CAPY at $1.13496e-05 | P&L: +47.8%",
       "reason": "Up +47.8% in 6 min but pool is only $3k — extremely fragile liquidity means any retrace evaporates gains fast. Sell half to lock profit (~0.024 SOL locked), hold remainder for potential further pump on the cat narrative. If it stalls, exit the rest next tick."
+    },
+    {
+      "time": "2026-09-07 02:50 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $CAPY at $1.16455e-05 | P&L: +51.6%",
+      "reason": "Auto take-profit at +51.6%"
+    },
+    {
+      "time": "2026-09-07 02:51 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $CAPY at $1.16455e-05 | P&L: +51.6%",
+      "reason": "Up +51.6%, well past the 25% TP1 threshold. CAPY narrative is solid (Capybara meme) but bonding-curve token with low pool ($3.1k) and our share is 0% — taking half off locks ~+50% gain and frees capital for fresh launches. Holding remainder for runner potential."
     }
   ],
   "trade_stats": {
-    "total": 2155,
-    "wins": 1099,
+    "total": 2157,
+    "wins": 1101,
     "losses": 1056,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.170931,
-    "avg_pnl_pct": 31.92,
+    "total_pnl_sol": -2.170761,
+    "avg_pnl_pct": 31.94,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 48,
-    "today_realized_sol": 0.019718,
-    "today_target_pct": 4.9,
+    "today_trades": 50,
+    "today_realized_sol": 0.019888,
+    "today_target_pct": 5.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1099,
+      "win_count": 1101,
       "loss_count": 1056,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T02:49:39.127458+00:00",
+  "last_llm_brief_at": "2026-09-07T02:51:30.180637+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump": {
-      "price_usd": 1.134962868246531e-05,
+      "price_usd": 1.164548362830602e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3042.52545817554,
-      "volume_h24": 12148.97,
+      "liquidity_usd": 3123.38263436424,
+      "volume_h24": 13353.52,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 28.496070602
+      "real_sol_reserves": 29.236943128
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
