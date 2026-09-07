@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.081744,
+  "balance_sol": 0.094016,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "9hVR3eAnXUtJ8PfF48uCJNjXYeZaX9nRf1dMvhkWpump": {
       "symbol": "WOLF",
       "name": "The White Wolf🌕 🐺 ❄︎",
-      "amount": 277730.3703953667,
+      "amount": 138865.18519768334,
       "entry_price_usd": 7.4640738679351265e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-07T15:37:45.337361+00:00",
       "entry_usd_value": 2.073,
-      "last_seen_price_usd": 8.230227678940047e-06,
+      "last_seen_price_usd": 9.14032275006944e-06,
       "entry_signals": {
         "liquidity_usd": 1954.10773256235,
         "volume_24h_usd": null,
@@ -38430,19 +38430,30 @@
       "pnl_pct": -1.87,
       "exit_reason": "LLM: sell_all — $MUTT is -1.9% after only 6 minutes, with tiny pool ($81) and only 2% of our share — no momentum signal yet, just slow bleed on weak liquidity. Cut it",
       "partial": false
+    },
+    {
+      "mint": "9hVR3eAnXUtJ8PfF48uCJNjXYeZaX9nRf1dMvhkWpump",
+      "symbol": "WOLF",
+      "name": "The White Wolf🌕 🐺 ❄︎",
+      "amount_sold": 138865.18519768334,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T15:37:45.337361+00:00",
+      "exit_time": "2026-09-07T15:40:35.663430+00:00",
+      "entry_price_usd": 7.4640738679351265e-06,
+      "exit_price_usd": 9.14032275006944e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.012272,
+      "pnl_sol": 0.002272,
+      "pnl_pct": 22.46,
+      "exit_reason": "LLM: sell_half — Up +22.5% and rules say lock gains above20%. Pool is only $2.4k — thin and fragile. Selling half secures profit while letting the rest ride if momentu",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T15:39:17.939359+00:00",
+  "last_updated": "2026-09-07T15:40:35.664801+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.45,
-  "portfolio_value_usd": 10.53,
+  "last_sol_price_usd": 103.43,
+  "portfolio_value_usd": 10.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 13:21 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ZROBIN at $1.13635e-05 | P&L: +65.4%",
-      "reason": "+65% gain, my share=0% (no organic buyers on curve, likely thin/sybil), and bonding curve pool is only $3k — classic exit liquidity trap where late buyers push price up but real demand is absent. Lock the gain, don't give it back. The bot's +100% TP isn't triggered but the no-buyer signal is loud."
-    },
     {
       "time": "2026-09-07 13:29 UTC",
       "action": "observe",
@@ -38556,40 +38567,46 @@
       "action": "buy",
       "details": "[LLM] $WOLF at $7.46407e-06, spent 0.02 SOL",
       "reason": "$WOLF passes both viability (124-char desc + twitter) and fragility (no political/celebrity keywords) gates. Mcap $7.5k with bond 27% complete shows real buy pressure in <30s since launch — clear early attention signal with a dedicated dev account posting about it. Risk: $7.5k mcap is already past the 'first entry' zone, so size small (0.05 SOL) and exit fast if it stalls."
+    },
+    {
+      "time": "2026-09-07 15:40 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $WOLF at $9.14032e-06 | P&L: +22.5%",
+      "reason": "Up +22.5% and rules say lock gains above20%. Pool is only $2.4k — thin and fragile. Selling half secures profit while letting the rest ride if momentum continues."
     }
   ],
   "trade_stats": {
-    "total": 2259,
-    "wins": 1151,
+    "total": 2260,
+    "wins": 1152,
     "losses": 1108,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.230909,
+    "total_pnl_sol": -2.228637,
     "avg_pnl_pct": 30.89,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 152,
-    "today_realized_sol": -0.04026,
-    "today_target_pct": -10.1,
+    "today_trades": 153,
+    "today_realized_sol": -0.037988,
+    "today_target_pct": -9.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1151,
+      "win_count": 1152,
       "loss_count": 1108,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T15:39:17.939302+00:00",
+  "last_llm_brief_at": "2026-09-07T15:40:35.663377+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "9hVR3eAnXUtJ8PfF48uCJNjXYeZaX9nRf1dMvhkWpump": {
-      "price_usd": 8.230227678940047e-06,
+      "price_usd": 9.14032275006944e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2131.6805089336003,
-      "volume_h24": 1968.42,
+      "liquidity_usd": 2413.61135439638,
+      "volume_h24": 2394.62,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 20.605901488
+      "real_sol_reserves": 23.335699066
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
