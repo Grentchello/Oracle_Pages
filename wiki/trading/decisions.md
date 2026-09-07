@@ -15754,3 +15754,9 @@
 ## [2026-09-07 01:05 UTC] buy | [LLM] $Emberfin at $5.36871e-06, spent 0.02 SOL
 - **Reasoning:** Strongest attention signal in the batch: viral GIGA-framed X post, novel 'orange shark sighting' narrative, bonding already 20% (real buyers, not just bots). Mcap $5.4k is in the sweet spot for a 5-10x if the narrative spreads.
 
+## [2026-09-07 01:06 UTC] sell | [TP +30% (25%)] $Emberfin at $9.41377e-06 | P&L: +75.3%
+- **Reasoning:** Auto take-profit at +75.3%
+
+## [2026-09-07 01:07 UTC] sell | [FULL][LLM] $Emberfin at $9.41377e-06 | P&L: +75.3%
+- **Reasoning:** +75.3% in <1min on a $2.4k pool bonding-curve token is parabolic. Bonding-curve tokens mean liquidity is paper-thin and any pullback is violent. Lock the gain — this is exactly the 'up >20% and doubt' scenario the discipline calls to exit on.
+
