@@ -16117,3 +16117,9 @@
 ## [2026-09-07 07:23 UTC] buy | [LLM] $SafeSascha at $3.21808e-06, spent 0.02 SOL
 - **Reasoning:** $SafeSascha has a genuine emotional narrative (mother fighting for child with rare genetic condition) + linked X account @dementiacentre. Real-cause memecoins with personal stories can go viral. Risk: charity tokens sometimes dump hard once sympathy trade fades — keep tight TP.
 
+## [2026-09-07 07:24 UTC] sell | [PARTIAL][LLM] $RISE at $5.9696e-06 | P&L: +11.1%
+- **Reasoning:** $RISE +11.1% on tiny $1342 pool, only 0.1h old — thin liquidity means any move is amplified. Lock half the gain per the +20%-and-unsure rule; let the rest ride if narrative holds.
+
+## [2026-09-07 07:24 UTC] sell | [PARTIAL][LLM] $SafeSascha at $3.54095e-06 | P&L: +10.0%
+- **Reasoning:** $SafeSascha +10% on an even thinner $309 pool with only 1% bonding. Tiny pool = exit liquidity is the risk. Half off protects against rug-back while keeping upside exposure.
+

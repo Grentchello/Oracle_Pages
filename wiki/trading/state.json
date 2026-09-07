@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.125168,
+  "balance_sol": 0.147339,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "BUsMgA4fKsWs6PVWz1hkiLxLWr8e6qyiWvGdZ3zcpump": {
       "symbol": "RISE",
       "name": "RISE",
-      "amount": 392069.44129285566,
+      "amount": 196034.72064642783,
       "entry_price_usd": 5.375578349208123e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-07T07:18:59.679433+00:00",
       "entry_usd_value": 2.1076,
-      "last_seen_price_usd": 5.773031497155889e-06,
+      "last_seen_price_usd": 5.9695970526182115e-06,
       "entry_signals": {
         "liquidity_usd": 1148.10187976286,
         "volume_24h_usd": null,
@@ -29,12 +29,12 @@
     "DhnVVQVm8bg48vGjcHk1PifzH1GdYvxPGm9upCqppump": {
       "symbol": "SafeSascha",
       "name": "Justice For My Daughter",
-      "amount": 654241.6210875437,
+      "amount": 327120.81054377183,
       "entry_price_usd": 3.218077132574049e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-07T07:23:16.592929+00:00",
       "entry_usd_value": 2.1054,
-      "last_seen_price_usd": 3.218077132574049e-06,
+      "last_seen_price_usd": 3.540950685622564e-06,
       "entry_signals": {
         "liquidity_usd": 295.19137324479,
         "volume_24h_usd": null,
@@ -37416,25 +37416,47 @@
       "pnl_pct": -9.95,
       "exit_reason": "LLM: sell_all — $PUMPMAS is -10% with pool=$4 — that's catastrophically thin liquidity (below the 5x position size gate even for a 0.05 SOL pos). At 21% pool share I'",
       "partial": false
+    },
+    {
+      "mint": "BUsMgA4fKsWs6PVWz1hkiLxLWr8e6qyiWvGdZ3zcpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 196034.72064642783,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T07:18:59.679433+00:00",
+      "exit_time": "2026-09-07T07:24:58.046157+00:00",
+      "entry_price_usd": 5.375578349208123e-06,
+      "exit_price_usd": 5.9695970526182115e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011142,
+      "pnl_sol": 0.001142,
+      "pnl_pct": 11.05,
+      "exit_reason": "LLM: sell_half — $RISE +11.1% on tiny $1342 pool, only 0.1h old — thin liquidity means any move is amplified. Lock half the gain per the +20%-and-unsure rule; let the ",
+      "partial": true
+    },
+    {
+      "mint": "DhnVVQVm8bg48vGjcHk1PifzH1GdYvxPGm9upCqppump",
+      "symbol": "SafeSascha",
+      "name": "Justice For My Daughter",
+      "amount_sold": 327120.81054377183,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T07:23:16.592929+00:00",
+      "exit_time": "2026-09-07T07:24:58.046489+00:00",
+      "entry_price_usd": 3.218077132574049e-06,
+      "exit_price_usd": 3.540950685622564e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011029,
+      "pnl_sol": 0.001029,
+      "pnl_pct": 10.03,
+      "exit_reason": "LLM: sell_half — $SafeSascha +10% on an even thinner $309 pool with only 1% bonding. Tiny pool = exit liquidity is the risk. Half off protects against rug-back while k",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T07:23:16.593200+00:00",
+  "last_updated": "2026-09-07T07:24:58.046685+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.27,
-  "portfolio_value_usd": 17.39,
+  "last_sol_price_usd": 105.026,
+  "portfolio_value_usd": 17.58,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 06:34 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $Job at $1.44011e-05 | P&L: +45.7%",
-      "reason": "Auto take-profit at +45.7%"
-    },
-    {
-      "time": "2026-09-07 06:34 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Job at $1.44011e-05 | P&L: +45.7%",
-      "reason": "$Job is up +45.7% which has crossed my profit-taking threshold. With thin pool ($3827) and fresh bonding-curve dynamics, I should lock half the gain now rather than hope for continuation. Keep half for upside but don't give back the win."
-    },
     {
       "time": "2026-09-07 06:35 UTC",
       "action": "sell",
@@ -37542,51 +37564,63 @@
       "action": "buy",
       "details": "[LLM] $SafeSascha at $3.21808e-06, spent 0.02 SOL",
       "reason": "$SafeSascha has a genuine emotional narrative (mother fighting for child with rare genetic condition) + linked X account @dementiacentre. Real-cause memecoins with personal stories can go viral. Risk: charity tokens sometimes dump hard once sympathy trade fades — keep tight TP."
+    },
+    {
+      "time": "2026-09-07 07:24 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RISE at $5.9696e-06 | P&L: +11.1%",
+      "reason": "$RISE +11.1% on tiny $1342 pool, only 0.1h old — thin liquidity means any move is amplified. Lock half the gain per the +20%-and-unsure rule; let the rest ride if narrative holds."
+    },
+    {
+      "time": "2026-09-07 07:24 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $SafeSascha at $3.54095e-06 | P&L: +10.0%",
+      "reason": "$SafeSascha +10% on an even thinner $309 pool with only 1% bonding. Tiny pool = exit liquidity is the risk. Half off protects against rug-back while keeping upside exposure."
     }
   ],
   "trade_stats": {
-    "total": 2198,
-    "wins": 1118,
+    "total": 2200,
+    "wins": 1120,
     "losses": 1080,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.167484,
-    "avg_pnl_pct": 31.68,
+    "total_pnl_sol": -2.165313,
+    "avg_pnl_pct": 31.66,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 91,
-    "today_realized_sol": 0.023165,
-    "today_target_pct": 5.8,
+    "today_trades": 93,
+    "today_realized_sol": 0.025336,
+    "today_target_pct": 6.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1118,
+      "win_count": 1120,
       "loss_count": 1080,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T07:23:15.156869+00:00",
+  "last_llm_brief_at": "2026-09-07T07:24:58.046124+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BUsMgA4fKsWs6PVWz1hkiLxLWr8e6qyiWvGdZ3zcpump": {
-      "price_usd": 5.773031497155889e-06,
+      "price_usd": 5.9695970526182115e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1264.87784045271,
-      "volume_h24": 1766.97,
+      "liquidity_usd": 1341.65094271045,
+      "volume_h24": 1909.17,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 12.015558473
+      "real_sol_reserves": 12.774464825
     },
-    "Gizv5JSoSqct6qiJsPcQNVhXp224MZmfzkiYVw5Kpump": {
-      "price_usd": 2.951533825340896e-06,
+    "DhnVVQVm8bg48vGjcHk1PifzH1GdYvxPGm9upCqppump": {
+      "price_usd": 3.540950685622564e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4.44476962809,
-      "volume_h24": 345.74,
+      "liquidity_usd": 309.162172246006,
+      "volume_h24": 309.91,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.042222567
+      "real_sol_reserves": 2.943672731
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
