@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.170441,
+  "balance_sol": 0.173292,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -28,9 +28,9 @@
     "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt": {
       "symbol": "BCAT",
       "name": "Bitcoin Cat",
-      "amount": 39007.96105756707,
+      "amount": 14627.98539658765,
       "entry_price_usd": 7.678e-06,
-      "entry_sol_spent": 0.0028125,
+      "entry_sol_spent": 0.0010546875,
       "entry_time": "2026-09-07T00:09:09.433550+00:00",
       "entry_usd_value": 2.1298,
       "entry_signals": {
@@ -35986,25 +35986,47 @@
       "pnl_pct": 77.09,
       "exit_reason": "LLM: sell_half — $BCAT is +77%, well past the +50% TP zone. Lock in gains on half — bonding-curve tokens at this mc ($3.6k pool) can reverse fast. Keep half riding if ",
       "partial": true
+    },
+    {
+      "mint": "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt",
+      "symbol": "BCAT",
+      "name": "Bitcoin Cat",
+      "amount_sold": 9751.990264391767,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-07T00:09:09.433550+00:00",
+      "exit_time": "2026-09-07T00:13:10.805208+00:00",
+      "entry_price_usd": 7.678e-06,
+      "exit_price_usd": 1.246267188001892e-05,
+      "entry_sol_for_chunk": 0.000703,
+      "exit_sol_received": 0.00114,
+      "pnl_sol": 0.000437,
+      "pnl_pct": 62.32,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt",
+      "symbol": "BCAT",
+      "name": "Bitcoin Cat",
+      "amount_sold": 14627.98539658765,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T00:09:09.433550+00:00",
+      "exit_time": "2026-09-07T00:13:30.002670+00:00",
+      "entry_price_usd": 7.678e-06,
+      "exit_price_usd": 1.246267188001892e-05,
+      "entry_sol_for_chunk": 0.001055,
+      "exit_sol_received": 0.001711,
+      "pnl_sol": 0.000656,
+      "pnl_pct": 62.32,
+      "exit_reason": "LLM: sell_half — BCAT up 62.3% — past +50% TP threshold. Cat meta is hot but I want to lock the gain and free a slot. Half-ride the rest with mental stop at breakeven.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T00:12:07.092959+00:00",
+  "last_updated": "2026-09-07T00:13:30.002961+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.62,
-  "portfolio_value_usd": 18.87,
+  "last_sol_price_usd": 106.57,
+  "portfolio_value_usd": 18.98,
   "recent_decisions": [
-    {
-      "time": "2026-09-06 11:43 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PUMPBANK at $3.70092e-06 | P&L: -0.7%",
-      "reason": "PUMPBANK is flat (-0.7%) on a $370 pool — extremely thin liquidity for our 0.05 SOL position. Held 0.0h with no narrative hook visible. Exiting now before the stale timer trips and pool depth turns any sell into a bigger slippage loss."
-    },
-    {
-      "time": "2026-09-06 12:16 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-06 14:22 UTC",
       "action": "observe",
@@ -36112,51 +36134,63 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $BCAT at $1.35969e-05 | P&L: +77.1%",
       "reason": "$BCAT is +77%, well past the +50% TP zone. Lock in gains on half — bonding-curve tokens at this mc ($3.6k pool) can reverse fast. Keep half riding if narrative holds."
+    },
+    {
+      "time": "2026-09-07 00:13 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $BCAT at $1.24627e-05 | P&L: +62.3%",
+      "reason": "Auto take-profit at +62.3%"
+    },
+    {
+      "time": "2026-09-07 00:13 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BCAT at $1.24627e-05 | P&L: +62.3%",
+      "reason": "BCAT up 62.3% — past +50% TP threshold. Cat meta is hot but I want to lock the gain and free a slot. Half-ride the rest with mental stop at breakeven."
     }
   ],
   "trade_stats": {
-    "total": 2114,
-    "wins": 1078,
+    "total": 2116,
+    "wins": 1080,
     "losses": 1036,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.155647,
-    "avg_pnl_pct": 32.01,
+    "total_pnl_sol": -2.154554,
+    "avg_pnl_pct": 32.04,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 7,
-    "today_realized_sol": 0.035002,
-    "today_target_pct": 8.8,
+    "today_trades": 9,
+    "today_realized_sol": 0.036095,
+    "today_target_pct": 9.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1078,
+      "win_count": 1080,
       "loss_count": 1036,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T00:12:07.091690+00:00",
+  "last_llm_brief_at": "2026-09-07T00:13:30.002628+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DDn91hfV3KSphVygfYqJfGbuhwhTHJm8S9XhmK9r4sYX": {
-      "price_usd": 5.859592507428245e-06,
+      "price_usd": 6.000919063859589e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1285.89492545406,
-      "volume_h24": 39104.56,
+      "liquidity_usd": 1340.08886942343,
+      "volume_h24": 42012.74,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 12.060541413
+      "real_sol_reserves": 12.574728999
     },
     "tfK3vpq3tuhQXTjKNvJcrGufvqGCe9gvWW44JNhvbkt": {
-      "price_usd": 1.3596941031746831e-05,
+      "price_usd": 1.246267188001892e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3632.65402773918,
-      "volume_h24": 15649.39,
+      "liquidity_usd": 3341.48167296889,
+      "volume_h24": 19851.49,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 34.071037589
+      "real_sol_reserves": 31.354805977
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
