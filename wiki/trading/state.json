@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.137104,
+  "balance_sol": 0.157027,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "G7uav2P7W4YfA7m4MPxyDdHEg3BohNUJFCbCYNVapump": {
-      "symbol": "HOODX",
-      "name": "ChainHood",
-      "amount": 662020.3166018928,
-      "entry_price_usd": 3.1872133635271082e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T05:41:59.065020+00:00",
-      "entry_usd_value": 2.11,
-      "last_seen_price_usd": 3.1746527711789892e-06,
-      "entry_signals": {
-        "liquidity_usd": 126.73043661300001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3185.6014172269142,
-        "ath_market_cap_usd": 3185.6014172269142,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.201236366,
-        "description": "THE HOOD IS ONCHAIN. 🦊 Built for degens, traders and the onchain community. No VC. No fake promises. No guaranteed returns. Just memes, community and chaos. $HOODX ",
-        "twitter": "https://x.com/HoodXSol",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -37104,19 +37080,30 @@
       "pnl_pct": 204.27,
       "exit_reason": "LLM: sell_all — $BUZZ is up +204.3% — past the +200% TP tier (which auto-sells 75%), and the rules say be aggressive taking profit when up >20% with any doubt. Memeco",
       "partial": false
+    },
+    {
+      "mint": "G7uav2P7W4YfA7m4MPxyDdHEg3BohNUJFCbCYNVapump",
+      "symbol": "HOODX",
+      "name": "ChainHood",
+      "amount_sold": 662020.3166018928,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T05:41:59.065020+00:00",
+      "exit_time": "2026-09-07T05:51:12.467830+00:00",
+      "entry_price_usd": 3.1872133635271082e-06,
+      "exit_price_usd": 3.1713423928983022e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019923,
+      "pnl_sol": -7.7e-05,
+      "pnl_pct": -0.5,
+      "exit_reason": "LLM: sell_all — Flat at -0.5% after 0.1h on a $119 bonding curve pool — liquidity is razor-thin, no momentum signal, and capital/slot is better deployed on a fresh na",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T05:49:40.373275+00:00",
+  "last_updated": "2026-09-07T05:51:12.727472+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.49,
-  "portfolio_value_usd": 16.57,
+  "last_sol_price_usd": 105.38,
+  "portfolio_value_usd": 16.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 03:49 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BOEING767 at $3.49082e-06 | P&L: -19.0%",
-      "reason": "$BOEING767 is at -19% with zero age elapsed, pool only $284 (thin and easily dumped further). Approaching hard -30% stop. No bounce signal, no narrative momentum — capital is better rotated into a fresh attention launch than bag-held. Cut the loss now per loser-exit-fast discipline."
-    },
     {
       "time": "2026-09-07 03:52 UTC",
       "action": "buy",
@@ -37230,35 +37217,41 @@
       "action": "buy",
       "details": "[LLM] $HOODX at $3.18721e-06, spent 0.02 SOL",
       "reason": "$HOODX passes viability (desc ≥50 chars + twitter). 'No VC, onchain degen' is a trending anti-rug narrative — attention magnet. 0.05 SOL size keeps reserve + slot open for next launch."
+    },
+    {
+      "time": "2026-09-07 05:51 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HOODX at $3.17134e-06 | P&L: -0.5%",
+      "reason": "Flat at -0.5% after 0.1h on a $119 bonding curve pool — liquidity is razor-thin, no momentum signal, and capital/slot is better deployed on a fresh narrative launch."
     }
   ],
   "trade_stats": {
-    "total": 2181,
+    "total": 2182,
     "wins": 1110,
-    "losses": 1071,
+    "losses": 1072,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.175548,
-    "avg_pnl_pct": 31.73,
+    "total_pnl_sol": -2.175625,
+    "avg_pnl_pct": 31.72,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 74,
-    "today_realized_sol": 0.015101,
+    "today_trades": 75,
+    "today_realized_sol": 0.015024,
     "today_target_pct": 3.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1110,
-      "loss_count": 1071,
+      "loss_count": 1072,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T05:49:40.093222+00:00",
+  "last_llm_brief_at": "2026-09-07T05:51:12.467791+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "G7uav2P7W4YfA7m4MPxyDdHEg3BohNUJFCbCYNVapump": {
-      "price_usd": 3.1746527711789892e-06,
+      "price_usd": 3.1713423928983022e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 118.62784728486999,
+      "liquidity_usd": 118.50414775693999,
       "volume_h24": 301.12,
       "dex_id": "pumpfun",
       "source": "bonding-curve",

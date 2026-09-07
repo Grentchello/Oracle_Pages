@@ -16024,3 +16024,6 @@
 ## [2026-09-07 05:41 UTC] buy | [LLM] $HOODX at $3.18721e-06, spent 0.02 SOL
 - **Reasoning:** $HOODX passes viability (desc ≥50 chars + twitter). 'No VC, onchain degen' is a trending anti-rug narrative — attention magnet. 0.05 SOL size keeps reserve + slot open for next launch.
 
+## [2026-09-07 05:51 UTC] sell | [FULL][LLM] $HOODX at $3.17134e-06 | P&L: -0.5%
+- **Reasoning:** Flat at -0.5% after 0.1h on a $119 bonding curve pool — liquidity is razor-thin, no momentum signal, and capital/slot is better deployed on a fresh narrative launch.
+
