@@ -16195,3 +16195,6 @@
 ## [2026-09-07 08:25 UTC] buy | [LLM] $High at $3.021e-06, spent 0.02 SOL
 - **Reasoning:** $High — strongest narrative of the batch: name-drops 'Ansem' (top Solana KOL), 'Substance' meme, meta-narrative about memecoin addiction. Has live X post for amplification. KOL-adjacent tokens historically pump 3-10x when the named figure engages. Sizing 0.05 SOL ($5) per bot rules.
 
+## [2026-09-07 08:28 UTC] sell | [FULL][LLM] $High at $3.02538e-06 | P&L: +0.1%
+- **Reasoning:** $High is flat (+0.1%) at 0.0h held, but the bonding curve is nearly complete and pool is only $52 — extremely thin, one seller away from a rug. Cut it free and rotate into fresher attention.
+
