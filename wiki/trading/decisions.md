@@ -15739,3 +15739,6 @@
 ## [2026-09-07 00:54 UTC] buy | [LLM] $BUYING at $3.407e-06, spent 0.02 SOL
 - **Reasoning:** $BUYING is the 'Ansem buying coins' meta-narrative — blknoiz06 tweet link, story is clear and proven attention driver. Mcap $3.4k is fresh but has a real X post. 0.05 SOL position size; failing this is cheap tuition on a high-attention narrative.
 
+## [2026-09-07 00:56 UTC] sell | [FULL][LLM] $BUYING at $3.36995e-06 | P&L: -1.1%
+- **Reasoning:** Down -1.1% after fresh entry, microcap ($210 pool, 1% share), no momentum signal. Liquidity is dangerously thin — a 0.05 SOL position can't even exit cleanly in a $210 pool. Cut the dead weight and free the slot.
+
