@@ -16054,3 +16054,6 @@
 ## [2026-09-07 06:29 UTC] sell | [FULL][LLM] $CETTE at $3.16072e-06 | P&L: -1.3%
 - **Reasoning:** $CETTE is -1.3% with $115 pool and 0.0h held — fresh entry already underwater with no bounce signal. Free the slot for a higher-attention launch.
 
+## [2026-09-07 06:33 UTC] buy | [LLM] $Job at $9.88478e-06, spent 0.02 SOL
+- **Reasoning:** $Job — relatable 'finding a job' meme narrative, $9.9k mcap with 0.4min age, has twitter link, bond 31% (closest to graduation). Strongest story in the batch, fresh attention window before graduation pump.
+
