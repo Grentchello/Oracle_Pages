@@ -16462,3 +16462,6 @@
 ## [2026-09-07 15:43 UTC] sell | [FULL][LLM] $WOLF at $1.06385e-05 | P&L: +42.5%
 - **Reasoning:** WOLF at +42.5% in 6 minutes with $2,849 pool liquidity is prime give-back territory. Take full profit now — locking +0.02 SOL realized is the right move on a thin bonding-curve token, and frees dry powder for a fresh narrative play.
 
+## [2026-09-07 15:45 UTC] buy | [LLM] $GRM at $2.92944e-06, spent 0.02 SOL
+- **Reasoning:** $GRM/GRRMONDAY - explicit 'going mega viral on social media' narrative, 0.1min age is the freshest hook, attention self-claims. Small mcap $2.9k means 5-10x room if narrative catches. Riskiest but highest narrative clarity.
+
