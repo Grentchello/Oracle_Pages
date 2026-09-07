@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.136848,
+  "balance_sol": 0.155066,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "j4n7y64xDWVemXD6cez2wb7e6AKaqBs4EdnCGB2pump": {
       "symbol": "Job",
       "name": "Jobcoin",
-      "amount": 212710.8573091935,
+      "amount": 79766.57149094756,
       "entry_price_usd": 9.884779867835754e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-07T06:33:31.138973+00:00",
       "entry_usd_value": 2.1026,
-      "last_seen_price_usd": 9.884779867835754e-06,
+      "last_seen_price_usd": 1.440111076070146e-05,
       "entry_signals": {
         "liquidity_usd": 2879.20606364257,
         "volume_24h_usd": null,
@@ -37189,25 +37189,47 @@
       "pnl_pct": -1.29,
       "exit_reason": "LLM: sell_all — $CETTE is -1.3% with $115 pool and 0.0h held — fresh entry already underwater with no bounce signal. Free the slot for a higher-attention launch.",
       "partial": false
+    },
+    {
+      "mint": "j4n7y64xDWVemXD6cez2wb7e6AKaqBs4EdnCGB2pump",
+      "symbol": "Job",
+      "name": "Jobcoin",
+      "amount_sold": 53177.714327298374,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-07T06:33:31.138973+00:00",
+      "exit_time": "2026-09-07T06:34:34.387559+00:00",
+      "entry_price_usd": 9.884779867835754e-06,
+      "exit_price_usd": 1.440111076070146e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.007287,
+      "pnl_sol": 0.002287,
+      "pnl_pct": 45.69,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "j4n7y64xDWVemXD6cez2wb7e6AKaqBs4EdnCGB2pump",
+      "symbol": "Job",
+      "name": "Jobcoin",
+      "amount_sold": 79766.57149094756,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T06:33:31.138973+00:00",
+      "exit_time": "2026-09-07T06:34:48.675701+00:00",
+      "entry_price_usd": 9.884779867835754e-06,
+      "exit_price_usd": 1.440111076070146e-05,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.010931,
+      "pnl_sol": 0.003431,
+      "pnl_pct": 45.69,
+      "exit_reason": "LLM: sell_half — $Job is up +45.7% which has crossed my profit-taking threshold. With thin pool ($3827) and fresh bonding-curve dynamics, I should lock half the gain n",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T06:33:31.139163+00:00",
+  "last_updated": "2026-09-07T06:34:48.948574+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.13,
-  "portfolio_value_usd": 16.49,
+  "last_sol_price_usd": 105.087,
+  "portfolio_value_usd": 17.08,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 05:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Rover at $4.2648e-06 | P&L: -9.1%",
-      "reason": "Down 9.1% on a bonding-curve token with only $645 pool and 0% share — this is illiquid and not pumping. Stale exit territory; lock the small loss and rotate capital to a fresher launch with real attention."
-    },
-    {
-      "time": "2026-09-07 05:31 UTC",
-      "action": "buy",
-      "details": "[LLM] $ENRIQUE at $3.439e-06, spent 0.02 SOL",
-      "reason": "$ENRIQUE: Shkreli X engagement + reggaeton mashup is genuinely novel attention bait — exactly the weird-mashup that pumps in this meta. mcap $3.4k is super early, bond only 7%. Risk: Shkreli is polarizing (fragility), liquidity is thin so any entry size matters. Sizing 0.05 SOL to respect thin balance."
-    },
     {
       "time": "2026-09-07 05:33 UTC",
       "action": "sell",
@@ -37315,30 +37337,54 @@
       "action": "buy",
       "details": "[LLM] $Job at $9.88478e-06, spent 0.02 SOL",
       "reason": "$Job — relatable 'finding a job' meme narrative, $9.9k mcap with 0.4min age, has twitter link, bond 31% (closest to graduation). Strongest story in the batch, fresh attention window before graduation pump."
+    },
+    {
+      "time": "2026-09-07 06:34 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $Job at $1.44011e-05 | P&L: +45.7%",
+      "reason": "Auto take-profit at +45.7%"
+    },
+    {
+      "time": "2026-09-07 06:34 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Job at $1.44011e-05 | P&L: +45.7%",
+      "reason": "$Job is up +45.7% which has crossed my profit-taking threshold. With thin pool ($3827) and fresh bonding-curve dynamics, I should lock half the gain now rather than hope for continuation. Keep half for upside but don't give back the win."
     }
   ],
   "trade_stats": {
-    "total": 2186,
-    "wins": 1112,
+    "total": 2188,
+    "wins": 1114,
     "losses": 1074,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.175804,
-    "avg_pnl_pct": 31.66,
+    "total_pnl_sol": -2.170086,
+    "avg_pnl_pct": 31.67,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 79,
-    "today_realized_sol": 0.014845,
-    "today_target_pct": 3.7,
+    "today_trades": 81,
+    "today_realized_sol": 0.020563,
+    "today_target_pct": 5.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1112,
+      "win_count": 1114,
       "loss_count": 1074,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T06:33:29.748593+00:00",
+  "last_llm_brief_at": "2026-09-07T06:34:48.675635+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "j4n7y64xDWVemXD6cez2wb7e6AKaqBs4EdnCGB2pump": {
+      "price_usd": 1.440111076070146e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3827.029331617857,
+      "volume_h24": 16766.64,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 36.417723711
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

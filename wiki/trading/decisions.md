@@ -16057,3 +16057,9 @@
 ## [2026-09-07 06:33 UTC] buy | [LLM] $Job at $9.88478e-06, spent 0.02 SOL
 - **Reasoning:** $Job — relatable 'finding a job' meme narrative, $9.9k mcap with 0.4min age, has twitter link, bond 31% (closest to graduation). Strongest story in the batch, fresh attention window before graduation pump.
 
+## [2026-09-07 06:34 UTC] sell | [TP +30% (25%)] $Job at $1.44011e-05 | P&L: +45.7%
+- **Reasoning:** Auto take-profit at +45.7%
+
+## [2026-09-07 06:34 UTC] sell | [PARTIAL][LLM] $Job at $1.44011e-05 | P&L: +45.7%
+- **Reasoning:** $Job is up +45.7% which has crossed my profit-taking threshold. With thin pool ($3827) and fresh bonding-curve dynamics, I should lock half the gain now rather than hope for continuation. Keep half for upside but don't give back the win.
+
