@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.10505,
+  "balance_sol": 0.122658,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GauaoXJxKg4gV5g77wpzvEfKN26RgzBGb5miytAryMe5": {
-      "symbol": "Job",
-      "name": "Job Coin",
-      "amount": 134922.85387191622,
-      "entry_price_usd": 1.5554073604107313e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T10:15:38.361232+00:00",
-      "entry_usd_value": 2.0986000000000002,
-      "last_seen_price_usd": 1.5554073604107313e-05,
-      "entry_signals": {
-        "liquidity_usd": 4455.38247734412,
-        "volume_24h_usd": null,
-        "market_cap_usd": 15533.184664101078,
-        "ath_market_cap_usd": 17271.346965632863,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 42.460521084,
-        "description": "I helped CTO $job coin to 16M. This is the first Tek coin using OTC pair.",
-        "twitter": "https://x.com/robtmb1/status/2096904699890778526",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -37937,19 +37913,30 @@
       "pnl_pct": 0.09,
       "exit_reason": "LLM: sell_all — $ZOOLANA is essentially flat at +0.1% with $69 pool and 3% share — classic stale, illiquid bonding-curve trap. Cut and free the slot for a fresh launc",
       "partial": false
+    },
+    {
+      "mint": "GauaoXJxKg4gV5g77wpzvEfKN26RgzBGb5miytAryMe5",
+      "symbol": "Job",
+      "name": "Job Coin",
+      "amount_sold": 134922.85387191622,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T10:15:38.361232+00:00",
+      "exit_time": "2026-09-07T10:17:15.252898+00:00",
+      "entry_price_usd": 1.5554073604107313e-05,
+      "exit_price_usd": 1.3694138770984581e-05,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.017608,
+      "pnl_sol": -0.002392,
+      "pnl_pct": -11.96,
+      "exit_reason": "LLM: sell_all — Down -12% with 0% pool share = no real position to recover. Pool only $3,653 is too thin to expect bounce. Cut loser to free slot + capital for fresh ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T10:15:38.361573+00:00",
+  "last_updated": "2026-09-07T10:17:15.649331+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 104.93,
-  "portfolio_value_usd": 13.12,
+  "portfolio_value_usd": 12.87,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 09:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ZPENIS at $3.04279e-06 | P&L: -6.6%",
-      "reason": "$ZPENIS is down 6.6% after 12 minutes, pool is only $58, and our share is 3% — that's effectively the entire pool. No momentum, no catalyst, and we're the liquidity. Cut the loss before it bleeds further into the -30% hard stop."
-    },
     {
       "time": "2026-09-07 09:34 UTC",
       "action": "buy",
@@ -38063,30 +38050,48 @@
       "action": "buy",
       "details": "[LLM] $Job at $1.55541e-05, spent 0.02 SOL",
       "reason": "$Job has the strongest attention signal: dev claims 16M CTO track record and pitches 'first Tek coin using OTC pair' as a novel mechanism. Mcap $15.5k is pump.fun sweet spot, twitter link active, viability gate passes. Risk: Tek/OTC pair narrative is niche and may not break beyond CT."
+    },
+    {
+      "time": "2026-09-07 10:17 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Job at $1.36941e-05 | P&L: -12.0%",
+      "reason": "Down -12% with 0% pool share = no real position to recover. Pool only $3,653 is too thin to expect bounce. Cut loser to free slot + capital for fresh launches with stronger attention signals."
     }
   ],
   "trade_stats": {
-    "total": 2230,
+    "total": 2231,
     "wins": 1132,
-    "losses": 1098,
-    "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.207602,
-    "avg_pnl_pct": 31.17,
+    "losses": 1099,
+    "win_rate_pct": 50.7,
+    "total_pnl_sol": -2.209994,
+    "avg_pnl_pct": 31.15,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 123,
-    "today_realized_sol": -0.016953,
-    "today_target_pct": -4.2,
+    "today_trades": 124,
+    "today_realized_sol": -0.019345,
+    "today_target_pct": -4.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1132,
-      "loss_count": 1098,
+      "loss_count": 1099,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T10:15:36.998870+00:00",
+  "last_llm_brief_at": "2026-09-07T10:17:15.252855+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GauaoXJxKg4gV5g77wpzvEfKN26RgzBGb5miytAryMe5": {
+      "price_usd": 1.3694138770984581e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3653.1769409387,
+      "volume_h24": 27837.6,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 34.81537159
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

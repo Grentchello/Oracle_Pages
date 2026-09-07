@@ -16282,3 +16282,6 @@
 ## [2026-09-07 10:15 UTC] buy | [LLM] $Job at $1.55541e-05, spent 0.02 SOL
 - **Reasoning:** $Job has the strongest attention signal: dev claims 16M CTO track record and pitches 'first Tek coin using OTC pair' as a novel mechanism. Mcap $15.5k is pump.fun sweet spot, twitter link active, viability gate passes. Risk: Tek/OTC pair narrative is niche and may not break beyond CT.
 
+## [2026-09-07 10:17 UTC] sell | [FULL][LLM] $Job at $1.36941e-05 | P&L: -12.0%
+- **Reasoning:** Down -12% with 0% pool share = no real position to recover. Pool only $3,653 is too thin to expect bounce. Cut loser to free slot + capital for fresh launches with stronger attention signals.
+
