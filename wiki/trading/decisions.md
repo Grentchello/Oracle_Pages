@@ -16429,3 +16429,6 @@
 ## [2026-09-07 14:30 UTC] buy | [LLM] $PR at $3.02288e-06, spent 0.02 SOL
 - **Reasoning:** $PR (PARABOLIC RUN) — explicit DOGE 2021 nostalgia play with a clear narrative hook and active X account (abikhadka). Bond still at 2% so extremely early but the meme-cycle framing is the cleanest attention signal in the batch. 0.05 SOL position only — fits the reserve constraint.
 
+## [2026-09-07 14:33 UTC] sell | [FULL][LLM] $PR at $3.27705e-06 | P&L: +8.4%
+- **Reasoning:** PARABOLIC RUN is up only +8.4% after entry, but more critically: pool is only $189 with our 1% share — extremely thin liquidity makes the position hard to exit cleanly. Volume is just $209 in 24h. With 0.0783 SOL free and daily target of +20%, I need to rotate capital into fresh attention. Holding a flat micro-cap with 0 sell pressure absorbed is wasted slot.
+

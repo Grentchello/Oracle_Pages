@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.078339,
+  "balance_sol": 0.10006,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FVUteSzpjWPgXyVRLQfiRYCgEghCoSGGYPU1wrmqpump": {
-      "symbol": "PR",
-      "name": "PARABOLIC RUN",
-      "amount": 690997.6116876171,
-      "entry_price_usd": 3.0228758604513017e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T14:30:22.475894+00:00",
-      "entry_usd_value": 2.0888,
-      "last_seen_price_usd": 3.2670200896114597e-06,
-      "entry_signals": {
-        "liquidity_usd": 184.1099605002,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3019.2275120961704,
-        "ath_market_cap_usd": 3035.0958623371494,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.762829955,
-        "description": "Remembering The DADDY DOGECOIN 2021 parabolic run.  let’s make future here.    All fees will be distributed to   trader. ",
-        "twitter": "https://x.com/abikhadka?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38379,19 +38355,30 @@
       "pnl_pct": 20.74,
       "exit_reason": "LLM: sell_all — The position is up 20.7%, already above the stated 20% profit-taking threshold. With a very small $820 pool, weak liquidity relative to the $5 positio",
       "partial": false
+    },
+    {
+      "mint": "FVUteSzpjWPgXyVRLQfiRYCgEghCoSGGYPU1wrmqpump",
+      "symbol": "PR",
+      "name": "PARABOLIC RUN",
+      "amount_sold": 690997.6116876171,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T14:30:22.475894+00:00",
+      "exit_time": "2026-09-07T14:33:22.648250+00:00",
+      "entry_price_usd": 3.0228758604513017e-06,
+      "exit_price_usd": 3.2770484766315992e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.021721,
+      "pnl_sol": 0.001721,
+      "pnl_pct": 8.41,
+      "exit_reason": "LLM: sell_all — PARABOLIC RUN is up only +8.4% after entry, but more critically: pool is only $189 with our 1% share — extremely thin liquidity makes the position har",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T14:31:46.859278+00:00",
+  "last_updated": "2026-09-07T14:33:22.954154+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.24,
-  "portfolio_value_usd": 10.25,
+  "last_sol_price_usd": 104.25,
+  "portfolio_value_usd": 10.43,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 13:09 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-07 13:14 UTC",
       "action": "sell",
@@ -38505,40 +38492,46 @@
       "action": "buy",
       "details": "[LLM] $PR at $3.02288e-06, spent 0.02 SOL",
       "reason": "$PR (PARABOLIC RUN) — explicit DOGE 2021 nostalgia play with a clear narrative hook and active X account (abikhadka). Bond still at 2% so extremely early but the meme-cycle framing is the cleanest attention signal in the batch. 0.05 SOL position only — fits the reserve constraint."
+    },
+    {
+      "time": "2026-09-07 14:33 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PR at $3.27705e-06 | P&L: +8.4%",
+      "reason": "PARABOLIC RUN is up only +8.4% after entry, but more critically: pool is only $189 with our 1% share — extremely thin liquidity makes the position hard to exit cleanly. Volume is just $209 in 24h. With 0.0783 SOL free and daily target of +20%, I need to rotate capital into fresh attention. Holding a flat micro-cap with 0 sell pressure absorbed is wasted slot."
     }
   ],
   "trade_stats": {
-    "total": 2256,
-    "wins": 1149,
+    "total": 2257,
+    "wins": 1150,
     "losses": 1107,
-    "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.234314,
-    "avg_pnl_pct": 30.93,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.232593,
+    "avg_pnl_pct": 30.92,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 149,
-    "today_realized_sol": -0.043665,
-    "today_target_pct": -10.9,
+    "today_trades": 150,
+    "today_realized_sol": -0.041944,
+    "today_target_pct": -10.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1149,
+      "win_count": 1150,
       "loss_count": 1107,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T14:31:46.561180+00:00",
+  "last_llm_brief_at": "2026-09-07T14:33:22.648214+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FVUteSzpjWPgXyVRLQfiRYCgEghCoSGGYPU1wrmqpump": {
-      "price_usd": 3.2670200896114597e-06,
+      "price_usd": 3.2770484766315992e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 183.7573945092,
-      "volume_h24": 204.65,
+      "liquidity_usd": 188.69418290775,
+      "volume_h24": 209.56,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.762829955
+      "real_sol_reserves": 1.810016143
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
