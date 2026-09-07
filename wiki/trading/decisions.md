@@ -15709,3 +15709,6 @@
 ## [2026-09-07 00:28 UTC] sell | [FULL][LLM] $ZPEPE at $3.53338e-06 | P&L: -11.9%
 - **Reasoning:** ZPEPE is down -11.9% after 0h held with bonding curve pool only $287 — extremely thin liquidity and no momentum. Cut before it hits -30% hard stop, free up slot for fresh launches.
 
+## [2026-09-07 00:33 UTC] buy | [LLM] $CCA at $3.184e-06, spent 0.02 SOL
+- **Reasoning:** CCA (Computer Control AI) — strongest narrative: 'AI agent that controls real-world computer actions' taps into the hot AI-agents meta. Has twitter (computeraicoin), clear desc, $3.2k mcap = early entry, bond 3% showing buy pressure. Sizing 0.05 SOL per bot.
+
