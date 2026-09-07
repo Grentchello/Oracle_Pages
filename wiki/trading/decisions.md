@@ -16444,3 +16444,6 @@
 ## [2026-09-07 15:36 UTC] sell | [FULL][LLM] $MUTT at $3.04805e-06 | P&L: -1.9%
 - **Reasoning:** $MUTT is -1.9% after only 6 minutes, with tiny pool ($81) and only 2% of our share — no momentum signal yet, just slow bleed on weak liquidity. Cut it free, redeploy into the fresh launches where the attention is.
 
+## [2026-09-07 15:37 UTC] buy | [LLM] $WOLF at $7.46407e-06, spent 0.02 SOL
+- **Reasoning:** $WOLF passes both viability (124-char desc + twitter) and fragility (no political/celebrity keywords) gates. Mcap $7.5k with bond 27% complete shows real buy pressure in <30s since launch — clear early attention signal with a dedicated dev account posting about it. Risk: $7.5k mcap is already past the 'first entry' zone, so size small (0.05 SOL) and exit fast if it stalls.
+
