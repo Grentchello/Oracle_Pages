@@ -16153,3 +16153,9 @@
 ## [2026-09-07 07:57 UTC] sell | [FULL][LLM] $ZOLANA at $2.94537e-06 | P&L: -9.3%
 - **Reasoning:** $ZOLANA -9.3% in minutes on a $13 pool = illitquidity rug risk. Pool is below minimum viability, exit immediately and free the slot.
 
+## [2026-09-07 07:59 UTC] sell | [hard-stop] $Kalshi closed at $3.11661e-06 | P&L: -39.5%
+- **Reasoning:** Hard -30% stop
+
+## [2026-09-07 08:00 UTC] buy | [LLM] $SHADY at $5.301e-06, spent 0.02 SOL
+- **Reasoning:** $SHADY has the strongest structural mechanic in the batch — 60% supply airdropped to top 15 holders forces buy-to-qualify behavior, which is a self-reinforcing pump engine beyond pure narrative. $5.3k mcap on 1.0min token is early. Risk: airdrop tokens often dump when distribution completes, so I will watch for TP1 at +25-50% and not get greedy.
+
