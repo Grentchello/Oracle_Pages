@@ -16084,3 +16084,6 @@
 ## [2026-09-07 06:43 UTC] buy | [LLM] $REBUILT at $3.0456e-06, spent 0.02 SOL
 - **Reasoning:** $REBUILT — pump.fun meta-narrative (rebuilds pump.fun UI). Self-referential memecoin meta always pumps because the audience IS the market. Active twitter account @PumpFunRebuilt. $3k mcap with built-in audience.
 
+## [2026-09-07 06:45 UTC] sell | [FULL][LLM] $MyLast at $3.06157e-06 | P&L: -6.2%
+- **Reasoning:** $MyLast at -6.2% with only $67 pool liquidity and 3% share is fragile. No narrative edge, no twitter signal. Cut early before -20% rule kicks in. Free up slot for stronger narrative.
+
