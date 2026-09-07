@@ -16279,3 +16279,6 @@
 ## [2026-09-07 10:13 UTC] sell | [FULL][LLM] $ZOOLANA at $3.06354e-06 | P&L: +0.1%
 - **Reasoning:** $ZOOLANA is essentially flat at +0.1% with $69 pool and 3% share — classic stale, illiquid bonding-curve trap. Cut and free the slot for a fresh launch with narrative.
 
+## [2026-09-07 10:15 UTC] buy | [LLM] $Job at $1.55541e-05, spent 0.02 SOL
+- **Reasoning:** $Job has the strongest attention signal: dev claims 16M CTO track record and pitches 'first Tek coin using OTC pair' as a novel mechanism. Mcap $15.5k is pump.fun sweet spot, twitter link active, viability gate passes. Risk: Tek/OTC pair narrative is niche and may not break beyond CT.
+

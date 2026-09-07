@@ -1,8 +1,32 @@
 {
-  "balance_sol": 0.12505,
+  "balance_sol": 0.10505,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "GauaoXJxKg4gV5g77wpzvEfKN26RgzBGb5miytAryMe5": {
+      "symbol": "Job",
+      "name": "Job Coin",
+      "amount": 134922.85387191622,
+      "entry_price_usd": 1.5554073604107313e-05,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-07T10:15:38.361232+00:00",
+      "entry_usd_value": 2.0986000000000002,
+      "last_seen_price_usd": 1.5554073604107313e-05,
+      "entry_signals": {
+        "liquidity_usd": 4455.38247734412,
+        "volume_24h_usd": null,
+        "market_cap_usd": 15533.184664101078,
+        "ath_market_cap_usd": 17271.346965632863,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 42.460521084,
+        "description": "I helped CTO $job coin to 16M. This is the first Tek coin using OTC pair.",
+        "twitter": "https://x.com/robtmb1/status/2096904699890778526",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -37915,17 +37939,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-07T10:13:56.379205+00:00",
+  "last_updated": "2026-09-07T10:15:38.361573+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 104.93,
   "portfolio_value_usd": 13.12,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 09:07 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-07 09:14 UTC",
       "action": "sell",
@@ -38039,6 +38057,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $ZOOLANA at $3.06354e-06 | P&L: +0.1%",
       "reason": "$ZOOLANA is essentially flat at +0.1% with $69 pool and 3% share — classic stale, illiquid bonding-curve trap. Cut and free the slot for a fresh launch with narrative."
+    },
+    {
+      "time": "2026-09-07 10:15 UTC",
+      "action": "buy",
+      "details": "[LLM] $Job at $1.55541e-05, spent 0.02 SOL",
+      "reason": "$Job has the strongest attention signal: dev claims 16M CTO track record and pitches 'first Tek coin using OTC pair' as a novel mechanism. Mcap $15.5k is pump.fun sweet spot, twitter link active, viability gate passes. Risk: Tek/OTC pair narrative is niche and may not break beyond CT."
     }
   ],
   "trade_stats": {
@@ -38060,32 +38084,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T10:13:56.124280+00:00",
+  "last_llm_brief_at": "2026-09-07T10:15:36.998870+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "D9Pczff49uutEgGDFwsB9wHZXzNdvjgrRWDgiHZkEdAg": {
-      "price_usd": 3.140305887762471e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 108.93908663757001,
-      "volume_h24": 516.18,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.038207249
-    },
-    "GaNzDnUELaUjRF3YJVnvi9wjcLVuLnfzuAfgUiSPo4kV": {
-      "price_usd": 3.0635435499866823e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 68.88736324414,
-      "volume_h24": 282.43,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.656507798
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
