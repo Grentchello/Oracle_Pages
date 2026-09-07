@@ -16384,3 +16384,9 @@
 ## [2026-09-07 13:20 UTC] sell | [PARTIAL][LLM] $ZROBIN at $9.70219e-06 | P&L: +41.2%
 - **Reasoning:** Up 41.2% — past the +30% TP threshold. Lock half the gain now per discipline rule 'up >20% with ANY doubt = take profit', let the rest ride the momentum if it continues.
 
+## [2026-09-07 13:21 UTC] sell | [TP +30% (25%)] $ZROBIN at $1.13635e-05 | P&L: +65.4%
+- **Reasoning:** Auto take-profit at +65.4%
+
+## [2026-09-07 13:21 UTC] sell | [FULL][LLM] $ZROBIN at $1.13635e-05 | P&L: +65.4%
+- **Reasoning:** +65% gain, my share=0% (no organic buyers on curve, likely thin/sybil), and bonding curve pool is only $3k — classic exit liquidity trap where late buyers push price up but real demand is absent. Lock the gain, don't give it back. The bot's +100% TP isn't triggered but the no-buyer signal is loud.
+
