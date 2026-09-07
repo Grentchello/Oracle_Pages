@@ -15883,3 +15883,9 @@
 ## [2026-09-07 02:46 UTC] sell | [PARTIAL][LLM] $CAPY at $9.9063e-06 | P&L: +29.0%
 - **Reasoning:** +29% with sub-$3k pool — discipline says lock the gain when in doubt. Selling half lets us bank roughly +0.014 SOL while keeping a runner with -30% stop if it keeps pumping.
 
+## [2026-09-07 02:47 UTC] sell | [TP +30% (25%)] $CAPY at $1.0448e-05 | P&L: +36.0%
+- **Reasoning:** Auto take-profit at +36.0%
+
+## [2026-09-07 02:47 UTC] sell | [PARTIAL][LLM] $CAPY at $1.0448e-05 | P&L: +36.0%
+- **Reasoning:** Up +36% past the +30% TP threshold. Lock half the gain — if bot hasn't auto-TP'd yet, take half manually to secure profit while letting remainder ride the capybara narrative.
+
