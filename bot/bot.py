@@ -54,7 +54,7 @@ SOL_MINT = "So11111111111111111111111111111111111111112"
 # Conservative restart params (v8.3) — much tighter than v7
 POSITION_SIZE_SOL = 0.02         # $2 per position (was 0.05 in v7)
 MAX_POSITIONS = 2                # max 2 concurrent (was 5)
-MAX_HOLD_HOURS = 72
+MAX_HOLD_HOURS = 24  # 24h max hold (was 72; tight) — memecoins die fast
 HARD_STOP_LOSS = 0.30        # -30% hard cap
 DAILY_MAX_LOSS_SOL = 0.05    # daily loss cap -0.05 SOL (was 0.20)
 RESERVE_SOL = 0.05
@@ -744,6 +744,7 @@ def execute_buy(state, mint, token, price_usd, sol_price):
         "entry_sol_spent": POSITION_SIZE_SOL,
         "entry_time": iso_now(),
         "entry_usd_value": usd_value,
+        "last_seen_price_usd": _to_float(token.get("price_usd", 0)),  # for rapid-drop detector
         "entry_signals": {
             "liquidity_usd": token.get("liquidity_usd"),
             "volume_24h_usd": token.get("volume_h24"),
@@ -998,6 +999,20 @@ def main():
             if cur_price <= 0:
                 continue
         entry_price = _to_float(pos.get("entry_price_usd"))
+        # Update last seen price for next tick's rapid-drop detection
+        pos["last_seen_price_usd"] = cur_price
+        # Rapid drop detector: if price dropped >15% since last tick, emergency exit
+        prev_price = _to_float(pos.get("last_seen_price_usd", 0))
+        if prev_price > 0 and cur_price / prev_price <= 0.85:
+            trade = execute_sell(state, mint, cur_price, 1.0, "rapid-drop -15%/tick")
+            if trade:
+                log(f"⚡ RAPID DROP: ${trade['symbol']} fell >15% in one tick — emergency exit")
+                append_decision({
+                    "action": "sell",
+                    "details": f"[rapid-drop] ${trade['symbol']} crashed >15% in one tick | P&L: {trade['pnl_pct']:+.1f}%",
+                    "reason": "Rapid drop detector (rug/snipe)",
+                })
+                continue  # skip the -30% check, already exited
         if entry_price > 0 and cur_price / entry_price <= (1 - HARD_STOP_LOSS):
             trade = execute_sell(state, mint, cur_price, 1.0, f"hard-stop -{int(HARD_STOP_LOSS*100)}%")
             if trade:
