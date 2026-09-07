@@ -15880,3 +15880,6 @@
 ## [2026-09-07 02:43 UTC] sell | [FULL][LLM] $OTCxPUMP at $3.03695e-06 | P&L: -17.7%
 - **Reasoning:** $OTCxPUMP -17.7% with $27 pool and 7% share — illiquid death spiral risk. No bounce signal, 0.0h into the hold. Cut before -30% hard stop.
 
+## [2026-09-07 02:46 UTC] sell | [PARTIAL][LLM] $CAPY at $9.9063e-06 | P&L: +29.0%
+- **Reasoning:** +29% with sub-$3k pool — discipline says lock the gain when in doubt. Selling half lets us bank roughly +0.014 SOL while keeping a runner with -30% stop if it keeps pumping.
+

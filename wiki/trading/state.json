@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.151869,
+  "balance_sol": 0.156707,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump": {
       "symbol": "CAPY",
       "name": "CAPY",
-      "amount": 104302.82515297487,
+      "amount": 52151.41257648743,
       "entry_price_usd": 7.681e-06,
-      "entry_sol_spent": 0.0075,
+      "entry_sol_spent": 0.00375,
       "entry_time": "2026-09-07T02:41:47.688109+00:00",
       "entry_usd_value": 2.1364,
-      "last_seen_price_usd": 8.764343212161336e-06,
+      "last_seen_price_usd": 9.906296071633808e-06,
       "entry_signals": {
         "liquidity_usd": 2306.99461972742,
         "volume_24h_usd": 1950.35,
@@ -36577,19 +36577,30 @@
       "pnl_pct": -17.66,
       "exit_reason": "LLM: sell_all — $OTCxPUMP -17.7% with $27 pool and 7% share — illiquid death spiral risk. No bounce signal, 0.0h into the hold. Cut before -30% hard stop.",
       "partial": false
+    },
+    {
+      "mint": "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump",
+      "symbol": "CAPY",
+      "name": "CAPY",
+      "amount_sold": 52151.41257648743,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T02:41:47.688109+00:00",
+      "exit_time": "2026-09-07T02:46:22.409753+00:00",
+      "entry_price_usd": 7.681e-06,
+      "exit_price_usd": 9.906296071633808e-06,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.004838,
+      "pnl_sol": 0.001088,
+      "pnl_pct": 28.97,
+      "exit_reason": "LLM: sell_half — +29% with sub-$3k pool — discipline says lock the gain when in doubt. Selling half lets us bank roughly +0.014 SOL while keeping a runner with -30% st",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T02:44:47.068855+00:00",
+  "last_updated": "2026-09-07T02:46:22.659836+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.84,
-  "portfolio_value_usd": 17.03,
+  "last_sol_price_usd": 106.79,
+  "portfolio_value_usd": 17.14,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 02:02 UTC",
-      "action": "buy",
-      "details": "[LLM] $BALS at $3.357e-06, spent 0.02 SOL",
-      "reason": "$BALS — Indonesian meme export narrative, real twitter post by rain__crypt, $3.3k mcap at <1min age is classic early-stage attention play. Asymmetric upside if it catches in regional communities."
-    },
     {
       "time": "2026-09-07 02:06 UTC",
       "action": "buy",
@@ -36703,40 +36714,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $OTCxPUMP at $3.03695e-06 | P&L: -17.7%",
       "reason": "$OTCxPUMP -17.7% with $27 pool and 7% share — illiquid death spiral risk. No bounce signal, 0.0h into the hold. Cut before -30% hard stop."
+    },
+    {
+      "time": "2026-09-07 02:46 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $CAPY at $9.9063e-06 | P&L: +29.0%",
+      "reason": "+29% with sub-$3k pool — discipline says lock the gain when in doubt. Selling half lets us bank roughly +0.014 SOL while keeping a runner with -30% stop if it keeps pumping."
     }
   ],
   "trade_stats": {
-    "total": 2150,
-    "wins": 1094,
+    "total": 2151,
+    "wins": 1095,
     "losses": 1056,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.173282,
+    "total_pnl_sol": -2.172194,
     "avg_pnl_pct": 31.9,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 43,
-    "today_realized_sol": 0.017367,
-    "today_target_pct": 4.3,
+    "today_trades": 44,
+    "today_realized_sol": 0.018455,
+    "today_target_pct": 4.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1094,
+      "win_count": 1095,
       "loss_count": 1056,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T02:44:46.806281+00:00",
+  "last_llm_brief_at": "2026-09-07T02:46:22.409713+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump": {
-      "price_usd": 8.764343212161336e-06,
+      "price_usd": 9.906296071633808e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2284.98673682992,
-      "volume_h24": 4209.23,
+      "liquidity_usd": 2631.8451512422903,
+      "volume_h24": 8499.51,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 21.386996788
+      "real_sol_reserves": 24.645052451
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
