@@ -16474,3 +16474,6 @@
 ## [2026-09-07 15:59 UTC] buy | [LLM] $RISE at $5.351e-06, spent 0.02 SOL
 - **Reasoning:** $RISE has the strongest attention setup of the batch: twitter link, clear 'airdrop to top 15 holders' mechanic that incentivizes buy-and-hold behavior (self-fulfilling pump), and mcap only $5.4k. The airdrop-to-top-holders angle is a known attention catalyst on pump.fun. Bond21% already moving fast. This is the kind of narrative-driven launch to catch early.
 
+## [2026-09-07 16:00 UTC] sell | [FULL][LLM] $RISE at $5.60639e-06 | P&L: +4.8%
+- **Reasoning:** $RISE is +4.8% but pool is only $1220 with no narrative lift — capital is locked in a ghost position. Selling frees0.05 SOL to rotate into fresh attention launches next tick.
+
