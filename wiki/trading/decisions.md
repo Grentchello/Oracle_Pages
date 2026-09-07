@@ -16006,3 +16006,6 @@
 ## [2026-09-07 05:33 UTC] sell | [FULL][LLM] $ENRIQUE at $3.34075e-06 | P&L: -2.9%
 - **Reasoning:** Pool is only $202 with 1% share — illiquid trap. Down 2.9% on a tiny bonding-curve position; better to free the slot for fresh attention than hold through thinly-traded price discovery.
 
+## [2026-09-07 05:36 UTC] buy | [LLM] $Unichan at $3.076e-06, spent 0.02 SOL
+- **Reasoning:** $Unichan ties to Unipcs, a top memecoin KOL whose tweets have historically driven pumps. 'Psychic seer' is an established meme archetype from his feed. Risk: bond only 2% means liquidity is razor-thin and one dump could collapse it. Sizing at minimum (0.05 SOL).
+
