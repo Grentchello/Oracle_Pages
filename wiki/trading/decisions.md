@@ -15733,3 +15733,6 @@
 ## [2026-09-07 00:47 UTC] sell | [hard-stop] $ROBINWIF closed at $3.1385e-06 | P&L: -65.3%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-07 00:53 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
