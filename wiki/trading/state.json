@@ -1,31 +1,8 @@
 {
-  "balance_sol": 0.146106,
+  "balance_sol": 0.164806,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2GQJ3n6vZXuq85HkPSXtkrcD76u3BHWxfuwn8zrmpump": {
-      "symbol": "CCA",
-      "name": "Computer Control AI",
-      "amount": 668844.2211055276,
-      "entry_price_usd": 3.184e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T00:33:04.644910+00:00",
-      "entry_usd_value": 2.1296,
-      "entry_signals": {
-        "liquidity_usd": 12.80886934272,
-        "volume_24h_usd": 110.36,
-        "market_cap_usd": 3184.885841291181,
-        "ath_market_cap_usd": 3184.885841291181,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.120293664,
-        "description": "The 1st Artificial Intelligence Capable of Real World Computer Actions 🖥️",
-        "twitter": "https://x.com/computeraicoin",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -36117,19 +36094,30 @@
       "pnl_pct": -56.41,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "2GQJ3n6vZXuq85HkPSXtkrcD76u3BHWxfuwn8zrmpump",
+      "symbol": "CCA",
+      "name": "Computer Control AI",
+      "amount_sold": 668844.1942805276,
+      "fraction_sold": 0.9999999598935012,
+      "entry_time": "2026-09-07T00:33:04.644910+00:00",
+      "exit_time": "2026-09-07T00:37:41.266030+00:00",
+      "entry_price_usd": 3.184e-06,
+      "exit_price_usd": 2.9678471577991147e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0187,
+      "pnl_sol": -0.0013,
+      "pnl_pct": -6.79,
+      "exit_reason": "LLM: sell_all — $CCA is down 6.8% in 6 minutes with no bounce signal, pool is $0 (liquidity evaporated), and our share shows 623M% (means we're holding the bag from b",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T00:36:04.364270+00:00",
+  "last_updated": "2026-09-07T00:37:41.266296+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.064,
-  "portfolio_value_usd": 17.63,
+  "last_sol_price_usd": 106.15,
+  "portfolio_value_usd": 17.49,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 00:09 UTC",
-      "action": "buy",
-      "details": "[LLM] $BCAT at $7.678e-06, spent 0.02 SOL",
-      "reason": "$BCAT 'Bitcoin Cat' rides the hot Bitcoin Ordinals/culture meta, has a shareable visual hook (hidden cat on BTC front page), mcap $8.3k with room to run. No fragility flags."
-    },
     {
       "time": "2026-09-07 00:10 UTC",
       "action": "sell",
@@ -36243,51 +36231,46 @@
       "action": "sell",
       "details": "[hard-stop] $100x closed at $4.55021e-06 | P&L: -56.4%",
       "reason": "Hard -30% stop"
+    },
+    {
+      "time": "2026-09-07 00:37 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CCA at $2.96785e-06 | P&L: -6.8%",
+      "reason": "$CCA is down 6.8% in 6 minutes with no bounce signal, pool is $0 (liquidity evaporated), and our share shows 623M% (means we're holding the bag from bonding curve exit). Cut the loss now before it deepens toward -30% hard stop. Fresh slate means I should not babysit a dead position."
     }
   ],
   "trade_stats": {
-    "total": 2123,
+    "total": 2124,
     "wins": 1084,
-    "losses": 1039,
-    "win_rate_pct": 51.1,
-    "total_pnl_sol": -2.166545,
-    "avg_pnl_pct": 32.17,
+    "losses": 1040,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.167845,
+    "avg_pnl_pct": 32.15,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 16,
-    "today_realized_sol": 0.024104,
-    "today_target_pct": 6.0,
+    "today_trades": 17,
+    "today_realized_sol": 0.022804,
+    "today_target_pct": 5.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1084,
-      "loss_count": 1039,
+      "loss_count": 1040,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T00:36:04.111723+00:00",
+  "last_llm_brief_at": "2026-09-07T00:37:41.265872+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2GQJ3n6vZXuq85HkPSXtkrcD76u3BHWxfuwn8zrmpump": {
-      "price_usd": 2.9654426843599177e-06,
+      "price_usd": 2.9678471577991147e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3.1819199999999997e-07,
+      "liquidity_usd": 3.1845e-07,
       "volume_h24": 237.13,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
       "real_sol_reserves": 3e-09
-    },
-    "Ae6yg8Ho8WPkHo2YqiF7yzGJff6BV6GkbR34XZxtpump": {
-      "price_usd": 4.550213288436158e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 759.5694417625439,
-      "volume_h24": 28175.86,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 7.161425571
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

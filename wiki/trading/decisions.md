@@ -15718,3 +15718,6 @@
 ## [2026-09-07 00:35 UTC] sell | [hard-stop] $100x closed at $4.55021e-06 | P&L: -56.4%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-07 00:37 UTC] sell | [FULL][LLM] $CCA at $2.96785e-06 | P&L: -6.8%
+- **Reasoning:** $CCA is down 6.8% in 6 minutes with no bounce signal, pool is $0 (liquidity evaporated), and our share shows 623M% (means we're holding the bag from bonding curve exit). Cut the loss now before it deepens toward -30% hard stop. Fresh slate means I should not babysit a dead position.
+
