@@ -6,59 +6,62 @@ title: 3D Printing Resources
 
 Free STL/3D model files for the local printer.
 
-## Chuck E. Cheese Cyberamic Can Opener (the meme)
+## Pizza Can Opener (Suri & Allen)
 
-Meme: "When you are now the head of Chuck E. Cheese" — a pizza-shaped Chuck E. Cheese Cyberamic can opener.
+🍕 Cozy Pizza Pull Tab Can Opener — exactly the model in your screenshot (purple body, yellow cheese slice lever).
 
-### Best matches (manual download needed)
+### Download
 
-| Source | URL | License | Notes |
-|--------|-----|---------|-------|
-| **Cults3D** (exact match) | https://cults3d.com/en/3d-model/home/beverage-can-opener-beer-can-opener-soda-can-opener | Free | Cyberamic Chuck E Cheese body shape with can-opener slot. Cloudflare-protected, requires browser. |
-| **Meshy** (CC0) | https://www.meshy.ai/3d-models/Chuck-E-Cheese-cyberamic-019ac271-4fd0-74b4-9203-963cbd5e92d1 | CC0 | Cyberamic model, multiple formats (GLB/OBJ/FBX/STL) |
-| **Printables** | https://www.printables.com/model/1199069-random-chuck-e-cheese | Free | "Random Chuck E. Cheese" cyberamic variant |
-| **Cults3D** (head) | https://cults3d.com/en/3d-model/art/chuck-e-cheese-showroom-statue-head-replica-decahexic | Free | Showroom statue head + hands |
-| **Thingiverse** | https://www.thingiverse.com/thing:3656366 | CC-BY | Standard Chuck figure |
+| Source | URL | Notes |
+|--------|-----|-------|
+| **MakerWorld (free)** | https://makerworld.com/en/models/3091153-pizza-can-opener | ⭐ **Direct match** — pizza slice shape with cheese lever |
+| **3Dsearch mirror** | https://3dsearch.net/model/pizza-can-opener-mw3091153 | Search aggregator listing |
+| **Suri & Allen series** | https://3dsearch.net/model/croissant-can-opener-mw3077820 | Sibling model — same designer (Croissant Can Opener) |
 
-### How to get the STL
-1. **Cults3D** (exact match) — open the URL in your browser, click "Download" — needs free account
-2. **Meshy** — direct download, no login required (CC0 = public domain)
-3. **Printables** — needs free account login
-4. **Thingiverse** — direct download, no login
+### How to download
+1. Open https://makerworld.com/en/models/3091153-pizza-can-opener in your browser
+2. Free Bambu/MakerWorld account (email signup, ~30 sec)
+3. Click "Download" → STL file
 
 ### Print settings (recommended)
-- **Material:** PETG (food-safe, durable)
+- **Material:** PETG (durable, food-safe enough for kitchen tools)
 - **Infill:** 20-40%
 - **Perimeters:** 4-6
 - **Layer height:** 0.2mm
-- **Supports:** Yes (for the handle slot)
-- **Orientation:** Pizza face up, handle down
-- **Scale:** 100% for desktop can, 110-120% for beer cans
+- **Supports:** Yes (tree supports work well)
+- **Min build plate:** 50mm
+- **Single piece**, no assembly needed
+- **Print time:** ~1-2 hours
 
-## Other free models
+---
 
-### Chuck E. Cheese variants
-- Chuck E Cheese Animatronic (mini replica with servos) — Printables #1132066
-- Chuck E Cheese animatronic head (simple) — Printables #1376214
-- Random Chuck E Cheese (cyberamic) — Printables #1199069
+## Other free can opener models
 
-### Cyberamic parts (for custom builds)
-- Cyberamic Chuck E Cheese jaw — Thingiverse #6906619
-- Chuck E Cheese Cyberamic Nose 3D Scan — STLFinder
-- Cyberamic Animatronic Jowls/Nose 3D Scan — STLFinder
-- Chuck E Cheese Cyberamic Animatronic (Sketchfab) — Pringly fun model #68514bf
+### Themed
+- Pizza Planet Rocket Can Opener — Cults3D #4604172 (free, 3MF)
+- Purple Cotton Candy Soda Can Opener — MakerWorld MW2973132 (free, 5-color AMS)
+- Croissant Can Opener — MakerWorld MW3077820 (free, sibling to Pizza)
+- Gun & Cheers Can Opener — MakerWorld #1801280 (free, M4x16mm screw required)
 
-### General can openers (non-meme)
+### Functional (non-thematic)
 - Universal Pop Top Can Opener — Thingiverse #3027499
 - Can Opener & Lid — Thingiverse #5401711
 - Simple Can Opener — Thingiverse #4632787
 
-## Sources
+---
 
-- **Thingiverse** — https://www.thingiverse.com/ (free, no login)
-- **Printables** — https://www.printables.com/ (free, login required)
-- **Cults3D** — https://cults3d.com/ (free + paid, login required)
-- **Meshy** — https://www.meshy.ai/ (free downloads, CC0/public domain)
-- **STLFinder** — https://www.stlfinder.com/ (search engine for all STL sites)
-- **Yeggi** — https://www.yeggi.com/ (another STL search engine)
-- **Sketchfab** — https://sketchfab.com/ (preview + download some models)
+## 3D Model Sources (free)
+
+| Site | URL | Login Required | Notes |
+|------|-----|----------------|-------|
+| **MakerWorld** | https://makerworld.com/ | Yes (free) | Best for multi-color, AMS |
+| **Printables** | https://www.printables.com/ | Yes (free) | Prusa's site, high quality |
+| **Thingiverse** | https://www.thingiverse.com/ | No | Oldest, huge library |
+| **Cults3D** | https://cults3d.com/ | Yes (free) | Good designs, Cloudflare-protected |
+| **Meshy** | https://www.meshy.ai/ | No | CC0 models, AI-generated |
+| **STLFinder** | https://www.stlfinder.com/ | No | Search engine across all |
+| **Yeggi** | https://www.yeggi.com/ | No | Another STL search engine |
+| **Sketchfab** | https://sketchfab.com/ | Some free | Preview + download some models |
+
+### Customize your own
+Suri & Allen made a **Can Opener Generator** at https://makerworld.com/en/models/3077820 — upload an image and it generates a 3D-printable can opener from that shape. Pizza was one example.
