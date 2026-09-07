@@ -15781,3 +15781,12 @@
 ## [2026-09-07 01:26 UTC] buy | [LLM] $MR at $3.72719e-06, spent 0.02 SOL
 - **Reasoning:** Roaring Kitty 'memestocks return' narrative tied to a live tweet — Roaring Kitty catalysts historically moved GME/KMHB; $3.7k mcap is micro-cap attention play. Size 0.05 SOL.
 
+## [2026-09-07 01:28 UTC] sell | [TP +200% (75%)] $PUMPKEY at $2.45436e-05 | P&L: +210.2%
+- **Reasoning:** Auto take-profit at +210.2%
+
+## [2026-09-07 01:28 UTC] sell | [FULL][LLM] $PUMPKEY at $2.45436e-05 | P&L: +210.2%
+- **Reasoning:** +210% already past every TP threshold (+30/100/200/500). If bot hasn't auto-closed, lock the gain now. Liquidity thin (pool=$5962), any reversal gives back gains fast.
+
+## [2026-09-07 01:28 UTC] sell | [FULL][LLM] $MR at $3.00899e-06 | P&L: -19.3%
+- **Reasoning:** -19.3% approaching -30% hard stop, pool only $34 (below 5x position), and no narrative bounce signal visible. Cut before the floor.
+

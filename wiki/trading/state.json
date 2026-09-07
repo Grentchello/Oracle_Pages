@@ -1,55 +1,8 @@
 {
-  "balance_sol": 0.121645,
+  "balance_sol": 0.199834,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CTJJug9DFpBo4ScbDErWGA2kSLv4NykkFp7PU2v4pump": {
-      "symbol": "PUMPKEY",
-      "name": "PumpKey",
-      "amount": 266262.1666034635,
-      "entry_price_usd": 7.911e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T01:26:54.579361+00:00",
-      "entry_usd_value": 2.1064,
-      "last_seen_price_usd": 7.911e-06,
-      "entry_signals": {
-        "liquidity_usd": 3390.84881991436,
-        "volume_24h_usd": 2946.7,
-        "market_cap_usd": 17982.434729081484,
-        "ath_market_cap_usd": 17982.434729081484,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 32.195678123,
-        "description": "Everyone remembers Friend Tech and its explosive growth. PumpKey is the Solana version. We are building on what they started and made improvements where they lacked. Hold keys to rooms and earn rewards. Claim your room and earn on every key bought and sold. Rewards build up and are ready for you whe",
-        "twitter": "https://x.com/pumpkeytech",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "DoiCngd2hAdk5KMHpAwahA75wRkemMLYcombM2kq8JSz": {
-      "symbol": "MR",
-      "name": "Memestocks return",
-      "amount": 565143.531737196,
-      "entry_price_usd": 3.72719474205983e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T01:26:56.240636+00:00",
-      "entry_usd_value": 2.1064,
-      "last_seen_price_usd": 3.72719474205983e-06,
-      "entry_signals": {
-        "liquidity_usd": 38.18485753648,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3727.927299324933,
-        "ath_market_cap_usd": 7731.876925741161,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.362560364,
-        "description": "Wait I just realize, how have we not ran RoaringKittys tweet saying Memestocks return with the LOCKED IN meme when we are in a crazy memestock meta?? paired to gme",
-        "twitter": "https://x.com/grok12_john/status/2096771976996049162",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -36294,31 +36247,64 @@
       "pnl_pct": -13.24,
       "exit_reason": "LLM: sell_all — The position is down 13.2% after only 0.1 hours and lacks a clear bounce signal. Its $79 pool and 2% share create elevated exit and liquidity risk, so",
       "partial": false
+    },
+    {
+      "mint": "CTJJug9DFpBo4ScbDErWGA2kSLv4NykkFp7PU2v4pump",
+      "symbol": "PUMPKEY",
+      "name": "PumpKey",
+      "amount_sold": 199696.62495259766,
+      "fraction_sold": 0.75,
+      "entry_time": "2026-09-07T01:26:54.579361+00:00",
+      "exit_time": "2026-09-07T01:28:00.366263+00:00",
+      "entry_price_usd": 7.911e-06,
+      "exit_price_usd": 2.4543579843212933e-05,
+      "entry_sol_for_chunk": 0.015,
+      "exit_sol_received": 0.046533,
+      "pnl_sol": 0.031533,
+      "pnl_pct": 210.25,
+      "exit_reason": "auto-TP +200% (75%)",
+      "partial": true
+    },
+    {
+      "mint": "CTJJug9DFpBo4ScbDErWGA2kSLv4NykkFp7PU2v4pump",
+      "symbol": "PUMPKEY",
+      "name": "PumpKey",
+      "amount_sold": 66565.54165086588,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T01:26:54.579361+00:00",
+      "exit_time": "2026-09-07T01:28:18.128605+00:00",
+      "entry_price_usd": 7.911e-06,
+      "exit_price_usd": 2.4543579843212933e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.015511,
+      "pnl_sol": 0.010511,
+      "pnl_pct": 210.25,
+      "exit_reason": "LLM: sell_all — +210% already past every TP threshold (+30/100/200/500). If bot hasn't auto-closed, lock the gain now. Liquidity thin (pool=$5962), any reversal gives",
+      "partial": false
+    },
+    {
+      "mint": "DoiCngd2hAdk5KMHpAwahA75wRkemMLYcombM2kq8JSz",
+      "symbol": "MR",
+      "name": "Memestocks return",
+      "amount_sold": 565143.531737196,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T01:26:56.240636+00:00",
+      "exit_time": "2026-09-07T01:28:18.128873+00:00",
+      "entry_price_usd": 3.72719474205983e-06,
+      "exit_price_usd": 3.008988988604792e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016145,
+      "pnl_sol": -0.003855,
+      "pnl_pct": -19.27,
+      "exit_reason": "LLM: sell_all — -19.3% approaching -30% hard stop, pool only $34 (below 5x position), and no narrative bounce signal visible. Cut before the floor.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T01:26:56.240890+00:00",
+  "last_updated": "2026-09-07T01:28:18.671530+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.32,
-  "portfolio_value_usd": 17.02,
+  "last_sol_price_usd": 105.33,
+  "portfolio_value_usd": 21.05,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 00:39 UTC",
-      "action": "buy",
-      "details": "[LLM] $ORGY at $3.042e-06, spent 0.02 SOL",
-      "reason": "$ORGY ties to an actual Wendy's brand X account (rare brand-engagement signal), has full viability metadata (desc+twitter), and brand-parody memecoins historically pump on the engagement wave. Risk: bond only 1% complete and mcap $3k means thin book — fragile if Wendy's deletes the tweet."
-    },
-    {
-      "time": "2026-09-07 00:43 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ORGY at $2.98465e-06 | P&L: -1.9%",
-      "reason": "$ORGY is down 1.9% after 6 minutes, our share is 22% of a tiny $9 pool — dangerously illiquid. Tiny flat moves on bonding-curve tokens with this concentration mean any further volume pushes it the wrong way. Cut and free the slot."
-    },
-    {
-      "time": "2026-09-07 00:44 UTC",
-      "action": "buy",
-      "details": "[LLM] $ROBINWIF at $9.04834e-06, spent 0.02 SOL",
-      "reason": "$ROBINWIF passes viability gate (description + twitter), narrative is strong — 'Wif Hat' is a recognized meme IP on Solana with a viral-ready character (green hat legend). Fresh launch (30s old) with $9k mcap gives early-entry alpha. Risk: brand-new mint, GMGN fragility not yet evaluated —0.05 SOL keeps exposure tight."
-    },
     {
       "time": "2026-09-07 00:47 UTC",
       "action": "sell",
@@ -36420,30 +36406,71 @@
       "action": "buy",
       "details": "[LLM] $MR at $3.72719e-06, spent 0.02 SOL",
       "reason": "Roaring Kitty 'memestocks return' narrative tied to a live tweet — Roaring Kitty catalysts historically moved GME/KMHB; $3.7k mcap is micro-cap attention play. Size 0.05 SOL."
+    },
+    {
+      "time": "2026-09-07 01:28 UTC",
+      "action": "sell",
+      "details": "[TP +200% (75%)] $PUMPKEY at $2.45436e-05 | P&L: +210.2%",
+      "reason": "Auto take-profit at +210.2%"
+    },
+    {
+      "time": "2026-09-07 01:28 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PUMPKEY at $2.45436e-05 | P&L: +210.2%",
+      "reason": "+210% already past every TP threshold (+30/100/200/500). If bot hasn't auto-closed, lock the gain now. Liquidity thin (pool=$5962), any reversal gives back gains fast."
+    },
+    {
+      "time": "2026-09-07 01:28 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MR at $3.00899e-06 | P&L: -19.3%",
+      "reason": "-19.3% approaching -30% hard stop, pool only $34 (below 5x position), and no narrative bounce signal visible. Cut before the floor."
     }
   ],
   "trade_stats": {
-    "total": 2132,
-    "wins": 1086,
-    "losses": 1046,
-    "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.171006,
-    "avg_pnl_pct": 32.06,
+    "total": 2135,
+    "wins": 1088,
+    "losses": 1047,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.132817,
+    "avg_pnl_pct": 32.2,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 25,
-    "today_realized_sol": 0.019643,
-    "today_target_pct": 4.9,
+    "today_trades": 28,
+    "today_realized_sol": 0.057832,
+    "today_target_pct": 14.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1086,
-      "loss_count": 1046,
+      "win_count": 1088,
+      "loss_count": 1047,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T01:26:53.200871+00:00",
+  "last_llm_brief_at": "2026-09-07T01:28:18.128567+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CTJJug9DFpBo4ScbDErWGA2kSLv4NykkFp7PU2v4pump": {
+      "price_usd": 2.4543579843212933e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 5962.42382666781,
+      "volume_h24": 16898.33,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 56.607080857
+    },
+    "DoiCngd2hAdk5KMHpAwahA75wRkemMLYcombM2kq8JSz": {
+      "price_usd": 3.008988988604792e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 34.18765096074,
+      "volume_h24": 3918.44,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.324576578
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
