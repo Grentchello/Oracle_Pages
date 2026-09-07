@@ -16378,3 +16378,9 @@
 ## [2026-09-07 13:18 UTC] buy | [LLM] $ZROBIN at $6.86967e-06, spent 0.02 SOL
 - **Reasoning:** $ZROBIN ('Robin The Anonymous') has the strongest narrative of the tick — mysterious forest-dwelling anon character is a classic crypto Twitter archetype that pumps (think anon mascots). Passes viability (desc >50 chars + Twitter), passes fragility (no political/celeb keywords), 0.4min old so I'm early. Risking 0.05 SOL ($5) of the $10.76 balance, keeping $5.76+ reserve. Will watch closely for +30% TP and bail fast if no follow-through in 15 min.
 
+## [2026-09-07 13:19 UTC] sell | [TP +30% (25%)] $ZROBIN at $9.70219e-06 | P&L: +41.2%
+- **Reasoning:** Auto take-profit at +41.2%
+
+## [2026-09-07 13:20 UTC] sell | [PARTIAL][LLM] $ZROBIN at $9.70219e-06 | P&L: +41.2%
+- **Reasoning:** Up 41.2% — past the +30% TP threshold. Lock half the gain now per discipline rule 'up >20% with ANY doubt = take profit', let the rest ride the momentum if it continues.
+
