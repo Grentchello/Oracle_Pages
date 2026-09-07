@@ -16465,3 +16465,6 @@
 ## [2026-09-07 15:45 UTC] buy | [LLM] $GRM at $2.92944e-06, spent 0.02 SOL
 - **Reasoning:** $GRM/GRRMONDAY - explicit 'going mega viral on social media' narrative, 0.1min age is the freshest hook, attention self-claims. Small mcap $2.9k means 5-10x room if narrative catches. Riskiest but highest narrative clarity.
 
+## [2026-09-07 15:47 UTC] sell | [FULL][LLM] $GRM at $2.92434e-06 | P&L: -0.2%
+- **Reasoning:** $GRM is flat at -0.2%, pool is only $20 with my 10% share making any exit extremely hard. Freeing the slot and capital is better than waiting for either TP or stop on a micro-pool position.
+

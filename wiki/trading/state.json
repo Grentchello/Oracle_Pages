@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.087624,
+  "balance_sol": 0.107624,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EJKy17AZxijaE8CpYXPgm7xEj14iDtPeswofDfPrpump": {
-      "symbol": "GRM",
-      "name": "GRRMONDAY",
-      "amount": 706005.5331204949,
-      "entry_price_usd": 2.929438797538457e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T15:45:13.732959+00:00",
-      "entry_usd_value": 2.0682,
-      "last_seen_price_usd": 2.9257561068539975e-06,
-      "entry_signals": {
-        "liquidity_usd": 20.42666664624,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2928.60826073316,
-        "ath_market_cap_usd": 2928.60826073316,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.197530864,
-        "description": "Today is the GRRMONDAY, this coin is about a meme that is going mega viral on Social Media",
-        "twitter": "https://x.com/madmoeny/status/2096987496387121321?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38515,19 +38491,30 @@
       "pnl_pct": 42.53,
       "exit_reason": "LLM: sell_all — WOLF at +42.5% in 6 minutes with $2,849 pool liquidity is prime give-back territory. Take full profit now — locking +0.02 SOL realized is the right mo",
       "partial": false
+    },
+    {
+      "mint": "EJKy17AZxijaE8CpYXPgm7xEj14iDtPeswofDfPrpump",
+      "symbol": "GRM",
+      "name": "GRRMONDAY",
+      "amount_sold": 706005.5331204949,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T15:45:13.732959+00:00",
+      "exit_time": "2026-09-07T15:47:50.903656+00:00",
+      "entry_price_usd": 2.929438797538457e-06,
+      "exit_price_usd": 2.9243396873599744e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.02,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.17,
+      "exit_reason": "LLM: sell_all — $GRM is flat at -0.2%, pool is only $20 with my 10% share making any exit extremely hard. Freeing the slot and capital is better than waiting for eith",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T15:46:33.667174+00:00",
+  "last_updated": "2026-09-07T15:47:50.905034+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.28,
-  "portfolio_value_usd": 11.12,
+  "last_sol_price_usd": 103.23,
+  "portfolio_value_usd": 11.11,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 13:40 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-07 13:44 UTC",
       "action": "observe",
@@ -38641,35 +38628,41 @@
       "action": "buy",
       "details": "[LLM] $GRM at $2.92944e-06, spent 0.02 SOL",
       "reason": "$GRM/GRRMONDAY - explicit 'going mega viral on social media' narrative, 0.1min age is the freshest hook, attention self-claims. Small mcap $2.9k means 5-10x room if narrative catches. Riskiest but highest narrative clarity."
+    },
+    {
+      "time": "2026-09-07 15:47 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GRM at $2.92434e-06 | P&L: -0.2%",
+      "reason": "$GRM is flat at -0.2%, pool is only $20 with my 10% share making any exit extremely hard. Freeing the slot and capital is better than waiting for either TP or stop on a micro-pool position."
     }
   ],
   "trade_stats": {
-    "total": 2264,
+    "total": 2265,
     "wins": 1156,
-    "losses": 1108,
-    "win_rate_pct": 51.1,
+    "losses": 1109,
+    "win_rate_pct": 51.0,
     "total_pnl_sol": -2.225029,
-    "avg_pnl_pct": 30.9,
+    "avg_pnl_pct": 30.88,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 157,
+    "today_trades": 158,
     "today_realized_sol": -0.03438,
     "today_target_pct": -8.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1156,
-      "loss_count": 1108,
+      "loss_count": 1109,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T15:46:33.380854+00:00",
+  "last_llm_brief_at": "2026-09-07T15:47:50.903621+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EJKy17AZxijaE8CpYXPgm7xEj14iDtPeswofDfPrpump": {
-      "price_usd": 2.9257561068539975e-06,
+      "price_usd": 2.9243396873599744e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 20.40098763392,
+      "liquidity_usd": 20.391111090720003,
       "volume_h24": 92.33,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
