@@ -16420,3 +16420,6 @@
 ## [2026-09-07 14:21 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-07 14:25 UTC] buy | [LLM] $mofo at $3.849e-06, spent 0.02 SOL
+- **Reasoning:** $mofo has both a product (mofo.gg copytrade bot) and an active trader's twitter (@trademofo) — utility-flavored attention tends to sustain beyond launch pump, and mcap $6.7k is entry-level.
+
