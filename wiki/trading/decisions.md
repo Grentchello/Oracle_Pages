@@ -16306,3 +16306,6 @@
 ## [2026-09-07 11:13 UTC] buy | [LLM] $TOAD at $1.91393e-05, spent 0.02 SOL
 - **Reasoning:** $TOAD (The Toad Pepe) passes viability gate: 100+ char desc, twitter present, mcap $19k. The Pepe derivative narrative is historically one of the strongest meme IPs, and the 'CTO it' framing is a known viral attention pattern. Bond at 38% suggests organic curve building. Sizing at 0.05 SOL ($5) leaves room for a second slot.
 
+## [2026-09-07 11:15 UTC] sell | [hard-stop] $TOAD closed at $3.13504e-06 | P&L: -83.6%
+- **Reasoning:** Hard -30% stop
+
