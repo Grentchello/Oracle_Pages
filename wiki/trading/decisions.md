@@ -16471,3 +16471,6 @@
 ## [2026-09-07 15:58 UTC] buy | [LLM] $80s at $7.233e-06, spent 0.02 SOL
 - **Reasoning:** ChatGPT '80s yearbook trend is genuinely viral on X right now (dodatsol tweet), $6.3k mcap is extremely early, has both twitter presence and decent description passing viability gate. Real attention narrative with low entry mcap = highest attention-to-price ratio on the board. Risk: bond only 25% so still very thin liquidity, will be volatile.
 
+## [2026-09-07 15:59 UTC] buy | [LLM] $RISE at $5.351e-06, spent 0.02 SOL
+- **Reasoning:** $RISE has the strongest attention setup of the batch: twitter link, clear 'airdrop to top 15 holders' mechanic that incentivizes buy-and-hold behavior (self-fulfilling pump), and mcap only $5.4k. The airdrop-to-top-holders angle is a known attention catalyst on pump.fun. Bond21% already moving fast. This is the kind of narrative-driven launch to catch early.
+
