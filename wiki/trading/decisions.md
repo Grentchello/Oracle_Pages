@@ -15793,3 +15793,6 @@
 ## [2026-09-07 01:31 UTC] buy | [LLM] $PRENUP at $3.55806e-06, spent 0.02 SOL
 - **Reasoning:** $PRENUP has the clearest narrative of the batch — Chip Wilson divorce is a real-world hook that resonates with the degen 'divorce memecoin' meta (LIBRA flashbacks). Has active X community (@prenups4degens), real story, real company ($6.1B LULU), and tweet seeds the angle. Even though prior divorce-coins rugged, the attention setup is textbook. 0.05 SOL size matches bot cap.
 
+## [2026-09-07 01:32 UTC] buy | [LLM] $BROKE at $3.437e-06, spent 0.02 SOL
+- **Reasoning:** $BROKE has a strong relatable narrative ('still trading, too broke to sell'), active twitter, and a real story arc — memecoin attention magnets. Passes viability gate cleanly.
+
