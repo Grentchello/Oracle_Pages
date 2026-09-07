@@ -16435,3 +16435,6 @@
 ## [2026-09-07 14:34 UTC] buy | [LLM] $WOLF at $6.611e-06, spent 0.02 SOL
 - **Reasoning:** $WOLF — white wolf meme with moon/wolf/winter iconography is classic viral memecoin aesthetic, has twitter attached (TheWhiteWolfDev), and dev explicitly committing to buy the bonding curve to completion is a strong attention/commitment signal. Early bond stage (26%) with $6.7k mcap gives 5-10x room if it catches.
 
+## [2026-09-07 14:36 UTC] sell | [FULL][LLM] $WOLF at $7.26661e-06 | P&L: +9.9%
+- **Reasoning:** WOLF is up 9.9% but remains on a nearly empty bonding curve with only $1,810 liquidity and no reported position share. Take the quick gain, avoid the likely post-pump collapse, and rotate into a fresh attention launch.
+
