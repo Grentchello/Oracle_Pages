@@ -15829,3 +15829,6 @@
 ## [2026-09-07 02:08 UTC] sell | [FULL][LLM] $BALS at $3.07829e-06 | P&L: -8.3%
 - **Reasoning:** $BALS is -8.3% on a $73 pool with 3% of supply held by us — pool is too thin to trust, no clear narrative signal, and I want to free a slot to rotate into fresher attention ($NASDANQ has a real CyborgDeployed X post at $6.9k mcap). Cutting a small loss now beats watching it decay toward -30% on illiquid books.
 
+## [2026-09-07 02:12 UTC] sell | [FULL][LLM] $spydog at $2.98972e-06 | P&L: -20.2%
+- **Reasoning:** spydog is -20.2% after 0.1h, only $27 pool (our 6% share = small absolute size), and the name has no clear viral narrative in the prompt. Per rules, -20%+ losers without a bounce signal get cut fast before they bleed to the -30% hard stop. Recover ~$4 of capital and free a slot.
+

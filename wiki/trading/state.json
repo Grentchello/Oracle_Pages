@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.164625,
+  "balance_sol": 0.180605,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "D2eGzvnZww346wT78UyvATryFtKSfa7T3NWE6gP5SrLb": {
-      "symbol": "spydog",
-      "name": "spydog",
-      "amount": 561719.1671115857,
-      "entry_price_usd": 3.746e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T02:06:33.075943+00:00",
-      "entry_usd_value": 2.1042,
-      "last_seen_price_usd": 4.678280251811799e-06,
-      "entry_signals": {
-        "liquidity_usd": 774.48272818896,
-        "volume_24h_usd": 3800.94,
-        "market_cap_usd": 4873.792159384742,
-        "ath_market_cap_usd": 6104.904398561226,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 7.361303376,
-        "description": "Spydog rewards holders with exposure to SPY, the ETF tracking the S&P 500, turning memecoin participation into real market rewards.",
-        "twitter": "https://x.com/hamboquant/status/2096781637375898012",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -36424,19 +36400,30 @@
       "pnl_pct": -8.3,
       "exit_reason": "LLM: sell_all — $BALS is -8.3% on a $73 pool with 3% of supply held by us — pool is too thin to trust, no clear narrative signal, and I want to free a slot to rotate ",
       "partial": false
+    },
+    {
+      "mint": "D2eGzvnZww346wT78UyvATryFtKSfa7T3NWE6gP5SrLb",
+      "symbol": "spydog",
+      "name": "spydog",
+      "amount_sold": 561719.1671115857,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T02:06:33.075943+00:00",
+      "exit_time": "2026-09-07T02:12:39.485680+00:00",
+      "entry_price_usd": 3.746e-06,
+      "exit_price_usd": 2.989723841044599e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.01598,
+      "pnl_sol": -0.00402,
+      "pnl_pct": -20.19,
+      "exit_reason": "LLM: sell_all — spydog is -20.2% after 0.1h, only $27 pool (our 6% share = small absolute size), and the name has no clear viral narrative in the prompt. Per rules, -",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T02:11:12.935210+00:00",
+  "last_updated": "2026-09-07T02:12:39.986221+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.02,
-  "portfolio_value_usd": 19.39,
+  "last_sol_price_usd": 105.093,
+  "portfolio_value_usd": 18.98,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 01:19 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ZPEPE at $3.20116e-06 | P&L: -2.4%",
-      "reason": "Pool liquidity is only $131 with our 2% share — exit will be painful but the 'pepe derivative' narrative is exhausted and holding a bleeding micro-cap position ties up a slot. Cut loss, free capital for fresh attention."
-    },
     {
       "time": "2026-09-07 01:22 UTC",
       "action": "sell",
@@ -36550,40 +36537,46 @@
       "action": "sell",
       "details": "[FULL][LLM] $BALS at $3.07829e-06 | P&L: -8.3%",
       "reason": "$BALS is -8.3% on a $73 pool with 3% of supply held by us — pool is too thin to trust, no clear narrative signal, and I want to free a slot to rotate into fresher attention ($NASDANQ has a real CyborgDeployed X post at $6.9k mcap). Cutting a small loss now beats watching it decay toward -30% on illiquid books."
+    },
+    {
+      "time": "2026-09-07 02:12 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $spydog at $2.98972e-06 | P&L: -20.2%",
+      "reason": "spydog is -20.2% after 0.1h, only $27 pool (our 6% share = small absolute size), and the name has no clear viral narrative in the prompt. Per rules, -20%+ losers without a bounce signal get cut fast before they bleed to the -30% hard stop. Recover ~$4 of capital and free a slot."
     }
   ],
   "trade_stats": {
-    "total": 2141,
+    "total": 2142,
     "wins": 1089,
-    "losses": 1052,
-    "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.148026,
-    "avg_pnl_pct": 32.07,
+    "losses": 1053,
+    "win_rate_pct": 50.8,
+    "total_pnl_sol": -2.152046,
+    "avg_pnl_pct": 32.05,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 34,
-    "today_realized_sol": 0.042623,
-    "today_target_pct": 10.7,
+    "today_trades": 35,
+    "today_realized_sol": 0.038603,
+    "today_target_pct": 9.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1089,
-      "loss_count": 1052,
+      "loss_count": 1053,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T02:11:12.313646+00:00",
+  "last_llm_brief_at": "2026-09-07T02:12:39.485641+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "D2eGzvnZww346wT78UyvATryFtKSfa7T3NWE6gP5SrLb": {
-      "price_usd": 4.678280251811799e-06,
+      "price_usd": 2.989723841044599e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 826.2536885882199,
-      "volume_h24": 9100.07,
+      "liquidity_usd": 27.472154937534,
+      "volume_h24": 10214.51,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 7.867584161
+      "real_sol_reserves": 0.261408038
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
