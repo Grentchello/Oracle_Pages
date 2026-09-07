@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.159894,
+  "balance_sol": 0.161194,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump": {
       "symbol": "CAPY",
       "name": "CAPY",
-      "amount": 19556.779716182788,
+      "amount": 7333.792393568545,
       "entry_price_usd": 7.681e-06,
-      "entry_sol_spent": 0.00140625,
+      "entry_sol_spent": 0.00052734375,
       "entry_time": "2026-09-07T02:41:47.688109+00:00",
       "entry_usd_value": 2.1364,
-      "last_seen_price_usd": 1.0448047499579564e-05,
+      "last_seen_price_usd": 1.134962868246531e-05,
       "entry_signals": {
         "liquidity_usd": 2306.99461972742,
         "volume_24h_usd": 1950.35,
@@ -36628,25 +36628,47 @@
       "pnl_pct": 36.02,
       "exit_reason": "LLM: sell_half — Up +36% past the +30% TP threshold. Lock half the gain — if bot hasn't auto-TP'd yet, take half manually to secure profit while letting remainder ride",
       "partial": true
+    },
+    {
+      "mint": "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump",
+      "symbol": "CAPY",
+      "name": "CAPY",
+      "amount_sold": 4889.194929045697,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-07T02:41:47.688109+00:00",
+      "exit_time": "2026-09-07T02:48:55.343666+00:00",
+      "entry_price_usd": 7.681e-06,
+      "exit_price_usd": 1.134962868246531e-05,
+      "entry_sol_for_chunk": 0.000352,
+      "exit_sol_received": 0.00052,
+      "pnl_sol": 0.000168,
+      "pnl_pct": 47.76,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump",
+      "symbol": "CAPY",
+      "name": "CAPY",
+      "amount_sold": 7333.792393568545,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T02:41:47.688109+00:00",
+      "exit_time": "2026-09-07T02:49:39.127892+00:00",
+      "entry_price_usd": 7.681e-06,
+      "exit_price_usd": 1.134962868246531e-05,
+      "entry_sol_for_chunk": 0.000527,
+      "exit_sol_received": 0.00078,
+      "pnl_sol": 0.000252,
+      "pnl_pct": 47.76,
+      "exit_reason": "LLM: sell_half — Up +47.8% in 6 min but pool is only $3k — extremely fragile liquidity means any retrace evaporates gains fast. Sell half to lock profit (~0.024 SOL lo",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T02:47:51.439472+00:00",
+  "last_updated": "2026-09-07T02:49:39.459746+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.88,
-  "portfolio_value_usd": 17.24,
+  "last_sol_price_usd": 106.77,
+  "portfolio_value_usd": 17.27,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 02:12 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $spydog at $2.98972e-06 | P&L: -20.2%",
-      "reason": "spydog is -20.2% after 0.1h, only $27 pool (our 6% share = small absolute size), and the name has no clear viral narrative in the prompt. Per rules, -20%+ losers without a bounce signal get cut fast before they bleed to the -30% hard stop. Recover ~$4 of capital and free a slot."
-    },
-    {
-      "time": "2026-09-07 02:14 UTC",
-      "action": "buy",
-      "details": "[LLM] $CATCOIN at $1.18512e-05, spent 0.02 SOL",
-      "reason": "$CATCOIN — cats are the original meme, has Twitter (@catcoin), 33% bond complete (strongest curve progress in the batch = real demand), highest mcap ($11.8k). Narrative is universal and recognizable. Risk: ultra-fresh (0.1min) and no clear unique hook beyond 'cats+crypto'."
-    },
     {
       "time": "2026-09-07 02:14 UTC",
       "action": "buy",
@@ -36754,40 +36776,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $CAPY at $1.0448e-05 | P&L: +36.0%",
       "reason": "Up +36% past the +30% TP threshold. Lock half the gain — if bot hasn't auto-TP'd yet, take half manually to secure profit while letting remainder ride the capybara narrative."
+    },
+    {
+      "time": "2026-09-07 02:48 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $CAPY at $1.13496e-05 | P&L: +47.8%",
+      "reason": "Auto take-profit at +47.8%"
+    },
+    {
+      "time": "2026-09-07 02:49 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $CAPY at $1.13496e-05 | P&L: +47.8%",
+      "reason": "Up +47.8% in 6 min but pool is only $3k — extremely fragile liquidity means any retrace evaporates gains fast. Sell half to lock profit (~0.024 SOL locked), hold remainder for potential further pump on the cat narrative. If it stalls, exit the rest next tick."
     }
   ],
   "trade_stats": {
-    "total": 2153,
-    "wins": 1097,
+    "total": 2155,
+    "wins": 1099,
     "losses": 1056,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.171351,
-    "avg_pnl_pct": 31.9,
+    "total_pnl_sol": -2.170931,
+    "avg_pnl_pct": 31.92,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 46,
-    "today_realized_sol": 0.019298,
-    "today_target_pct": 4.8,
+    "today_trades": 48,
+    "today_realized_sol": 0.019718,
+    "today_target_pct": 4.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1097,
+      "win_count": 1099,
       "loss_count": 1056,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T02:47:51.153317+00:00",
+  "last_llm_brief_at": "2026-09-07T02:49:39.127458+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump": {
-      "price_usd": 1.0448047499579564e-05,
+      "price_usd": 1.134962868246531e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2789.11205216448,
-      "volume_h24": 10155.98,
+      "liquidity_usd": 3042.52545817554,
+      "volume_h24": 12148.97,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 26.095734021
+      "real_sol_reserves": 28.496070602
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -15889,3 +15889,9 @@
 ## [2026-09-07 02:47 UTC] sell | [PARTIAL][LLM] $CAPY at $1.0448e-05 | P&L: +36.0%
 - **Reasoning:** Up +36% past the +30% TP threshold. Lock half the gain — if bot hasn't auto-TP'd yet, take half manually to secure profit while letting remainder ride the capybara narrative.
 
+## [2026-09-07 02:48 UTC] sell | [TP +30% (25%)] $CAPY at $1.13496e-05 | P&L: +47.8%
+- **Reasoning:** Auto take-profit at +47.8%
+
+## [2026-09-07 02:49 UTC] sell | [PARTIAL][LLM] $CAPY at $1.13496e-05 | P&L: +47.8%
+- **Reasoning:** Up +47.8% in 6 min but pool is only $3k — extremely fragile liquidity means any retrace evaporates gains fast. Sell half to lock profit (~0.024 SOL locked), hold remainder for potential further pump on the cat narrative. If it stalls, exit the rest next tick.
+
