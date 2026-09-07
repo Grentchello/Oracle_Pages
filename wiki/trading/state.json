@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.136844,
+  "balance_sol": 0.139541,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DDdqXTD7WoeAniNAySqjb5ivrPGL4nmT17DTsfWSpump": {
-      "symbol": "MFT",
-      "name": "CATCOIN",
-      "amount": 15964.078161243699,
-      "entry_price_usd": 1.2386402647416946e-05,
-      "entry_sol_spent": 0.001875,
-      "entry_time": "2026-09-07T03:18:01.880185+00:00",
-      "entry_usd_value": 2.1092,
-      "last_seen_price_usd": 1.783899401139859e-05,
-      "entry_signals": {
-        "liquidity_usd": 3527.8424827987797,
-        "volume_24h_usd": null,
-        "market_cap_usd": 12379.452514037534,
-        "ath_market_cap_usd": 12379.452514037534,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 33.451948443,
-        "description": "CatCoin  ₵  bringing cat lovers and crypto enthusiasts from around the world together ",
-        "twitter": "https://x.com/catcoin",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -36866,25 +36842,47 @@
       "pnl_pct": 44.02,
       "exit_reason": "LLM: sell_half — $MFT is up +44% in 0.1h, well past the +25% auto-TP threshold. Bonding-curve only at 25% complete means liquidity is thin ($4.6k pool) and our 0% shar",
       "partial": true
+    },
+    {
+      "mint": "DDdqXTD7WoeAniNAySqjb5ivrPGL4nmT17DTsfWSpump",
+      "symbol": "MFT",
+      "name": "CATCOIN",
+      "amount_sold": 3991.0195403109246,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-07T03:18:01.880185+00:00",
+      "exit_time": "2026-09-07T03:24:19.105340+00:00",
+      "entry_price_usd": 1.2386402647416946e-05,
+      "exit_price_usd": 1.781512201914072e-05,
+      "entry_sol_for_chunk": 0.000469,
+      "exit_sol_received": 0.000674,
+      "pnl_sol": 0.000206,
+      "pnl_pct": 43.83,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "DDdqXTD7WoeAniNAySqjb5ivrPGL4nmT17DTsfWSpump",
+      "symbol": "MFT",
+      "name": "CATCOIN",
+      "amount_sold": 11973.058620932774,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T03:18:01.880185+00:00",
+      "exit_time": "2026-09-07T03:25:20.340806+00:00",
+      "entry_price_usd": 1.2386402647416946e-05,
+      "exit_price_usd": 1.781512201914072e-05,
+      "entry_sol_for_chunk": 0.001406,
+      "exit_sol_received": 0.002023,
+      "pnl_sol": 0.000617,
+      "pnl_pct": 43.83,
+      "exit_reason": "LLM: sell_all — $MFT is up +43.8% in 0.1h on a tiny $4.6k pool with no clear narrative visible in the candidate data. Per scalp discipline, when up >20% with no stron",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T03:23:15.048414+00:00",
+  "last_updated": "2026-09-07T03:25:20.341100+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.45,
-  "portfolio_value_usd": 14.63,
+  "last_sol_price_usd": 105.44,
+  "portfolio_value_usd": 14.71,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 02:48 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $CAPY at $1.13496e-05 | P&L: +47.8%",
-      "reason": "Auto take-profit at +47.8%"
-    },
-    {
-      "time": "2026-09-07 02:49 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $CAPY at $1.13496e-05 | P&L: +47.8%",
-      "reason": "Up +47.8% in 6 min but pool is only $3k — extremely fragile liquidity means any retrace evaporates gains fast. Sell half to lock profit (~0.024 SOL locked), hold remainder for potential further pump on the cat narrative. If it stalls, exit the rest next tick."
-    },
     {
       "time": "2026-09-07 02:50 UTC",
       "action": "sell",
@@ -36992,40 +36990,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $MFT at $1.7839e-05 | P&L: +44.0%",
       "reason": "$MFT is up +44% in 0.1h, well past the +25% auto-TP threshold. Bonding-curve only at 25% complete means liquidity is thin ($4.6k pool) and our 0% share suggests no other buyers - lock in gains by halving, give the rest room to run toward +100%."
+    },
+    {
+      "time": "2026-09-07 03:24 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $MFT at $1.78151e-05 | P&L: +43.8%",
+      "reason": "Auto take-profit at +43.8%"
+    },
+    {
+      "time": "2026-09-07 03:25 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MFT at $1.78151e-05 | P&L: +43.8%",
+      "reason": "$MFT is up +43.8% in 0.1h on a tiny $4.6k pool with no clear narrative visible in the candidate data. Per scalp discipline, when up >20% with no strong narrative anchor, lock the gain. Better to rotate capital into a fresh attention launch than hope a thin-pool runner keeps grinding."
     }
   ],
   "trade_stats": {
-    "total": 2167,
-    "wins": 1105,
+    "total": 2169,
+    "wins": 1107,
     "losses": 1062,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.193934,
-    "avg_pnl_pct": 31.76,
+    "total_pnl_sol": -2.193111,
+    "avg_pnl_pct": 31.77,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 60,
-    "today_realized_sol": -0.003285,
-    "today_target_pct": -0.8,
+    "today_trades": 62,
+    "today_realized_sol": -0.002462,
+    "today_target_pct": -0.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1105,
+      "win_count": 1107,
       "loss_count": 1062,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T03:23:14.421163+00:00",
+  "last_llm_brief_at": "2026-09-07T03:25:20.340768+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DDdqXTD7WoeAniNAySqjb5ivrPGL4nmT17DTsfWSpump": {
-      "price_usd": 1.783899401139859e-05,
+      "price_usd": 1.781512201914072e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4618.101029518951,
+      "liquidity_usd": 4612.82391699248,
       "volume_h24": 4953.12,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 43.794225031
+      "real_sol_reserves": 43.748330017
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

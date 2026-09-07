@@ -15949,3 +15949,9 @@
 ## [2026-09-07 03:23 UTC] sell | [PARTIAL][LLM] $MFT at $1.7839e-05 | P&L: +44.0%
 - **Reasoning:** $MFT is up +44% in 0.1h, well past the +25% auto-TP threshold. Bonding-curve only at 25% complete means liquidity is thin ($4.6k pool) and our 0% share suggests no other buyers - lock in gains by halving, give the rest room to run toward +100%.
 
+## [2026-09-07 03:24 UTC] sell | [TP +30% (25%)] $MFT at $1.78151e-05 | P&L: +43.8%
+- **Reasoning:** Auto take-profit at +43.8%
+
+## [2026-09-07 03:25 UTC] sell | [FULL][LLM] $MFT at $1.78151e-05 | P&L: +43.8%
+- **Reasoning:** $MFT is up +43.8% in 0.1h on a tiny $4.6k pool with no clear narrative visible in the candidate data. Per scalp discipline, when up >20% with no strong narrative anchor, lock the gain. Better to rotate capital into a fresh attention launch than hope a thin-pool runner keeps grinding.
+
