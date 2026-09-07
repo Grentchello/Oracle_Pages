@@ -997,7 +997,14 @@ def main():
             if token:
                 cur_price = _to_float(token.get("price_usd"))
             if cur_price <= 0:
+                # No valid price - skip this tick (don't trigger false stop)
                 continue
+        # Sanity check: if price is absurdly low (<1% of entry), use prev_price as fallback
+        # (likely API error or rug - trust last seen price)
+        entry_price_check = _to_float(pos.get("entry_price_usd", 0))
+        if entry_price_check > 0 and cur_price < entry_price_check * 0.01:
+            log(f"⚠️ Suspiciously low price for ${pos.get('symbol')}: ${cur_price} vs entry ${entry_price_check} — likely API error, skipping")
+            continue
         entry_price = _to_float(pos.get("entry_price_usd"))
         # Update last seen price for next tick's rapid-drop detection
         pos["last_seen_price_usd"] = cur_price

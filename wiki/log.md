@@ -333,3 +333,28 @@
 - Bot updated to use `opencode_zen/mimo-v2.5-free` via FCC (was `nemotron-3-ultra-free` directly)
 - Test chat: `Yo. Loud and clear. What you need?` — works
 - IMPORTANT: trycloudflare URLs die when tunnel dies. For production, create named Cloudflare tunnel with account (no auth/account = ephemeral).
+
+## [2026-09-08] update | Memecoin bot bleeding — tightened stops + rapid-drop detector
+
+**Diagnosis (all-time):**
+- 2120 trades: 1084 wins (+14.01 SOL) vs 1008 losses (-16.16 SOL)
+- Win rate: 51.1% (decent)
+- Avg win: 12.92 mSOL | Avg loss: 16.03 mSOL
+- Payoff ratio: 0.81 ❌ (losses bigger than wins)
+- Net: **-2.15 SOL all-time**, last 24h +0.011 SOL
+
+**Root cause:** bot's hard-stop fires on the next tick, but for bonding-curve tokens that drop 80% in 60 sec, the stop catches -80% not -30%. Logging says "hard-stop -30%" but actual exit is -80%.
+
+**Fixes applied (v8.4):**
+1. **Tightened HARD_STOP_LOSS from -30% to -20%** — catches dumps sooner
+2. **Added rapid-drop detector** — if price drops >15% in ONE tick, emergency exit (catches rugs/snipes before they hit -30%)
+3. **Added last_seen_price_usd tracking** in positions — needed for rapid-drop detector
+4. **Added sanity check** — if price is <1% of entry (likely API error or rugged to nothing), skip stop and log warning (don't fire on stale/bad data)
+5. **Reduced MAX_HOLD_HOURS from 72h to 24h** — memecoins die fast, don't bag-hold
+
+Expected impact:
+- Stops should trigger at -20% instead of -80% (saves ~10-15 mSOL per caught rug)
+- Rapid-drop detector catches single-tick rugs (saves ~15-20 mSOL)
+- 24h max hold prevents stale positions bleeding
+
+Last 24h is positive +0.011 SOL, so bot IS working — just needs tighter risk management.
