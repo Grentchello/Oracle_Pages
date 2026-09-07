@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.144423,
+  "balance_sol": 0.151359,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8LMMuvaQdec5DxzdG341UpLcxn9e28mUK8SmeEompump": {
-      "symbol": "ROBINWIF",
-      "name": "Robin Wif Hat",
-      "amount": 234323.59725256762,
-      "entry_price_usd": 9.048341801080673e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T00:44:48.538861+00:00",
-      "entry_usd_value": 2.12024,
-      "last_seen_price_usd": 9.705945332351327e-06,
-      "entry_signals": {
-        "liquidity_usd": 2398.757678516164,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9048.209558317403,
-        "ath_market_cap_usd": 9048.209558317403,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 22.627227847,
-        "description": "Soft hat. Sharp stare. A tiny green legend walking into the chart like he already heard the punchline.",
-        "twitter": "https://x.com/robinwifhatsol",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -36152,19 +36128,30 @@
       "pnl_pct": -1.89,
       "exit_reason": "LLM: sell_all — $ORGY is down 1.9% after 6 minutes, our share is 22% of a tiny $9 pool — dangerously illiquid. Tiny flat moves on bonding-curve tokens with this conce",
       "partial": false
+    },
+    {
+      "mint": "8LMMuvaQdec5DxzdG341UpLcxn9e28mUK8SmeEompump",
+      "symbol": "ROBINWIF",
+      "name": "Robin Wif Hat",
+      "amount_sold": 234323.59725256762,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T00:44:48.538861+00:00",
+      "exit_time": "2026-09-07T00:47:22.392466+00:00",
+      "entry_price_usd": 9.048341801080673e-06,
+      "exit_price_usd": 3.138500086592853e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.006936,
+      "pnl_sol": -0.013064,
+      "pnl_pct": -65.31,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T00:46:18.749019+00:00",
+  "last_updated": "2026-09-07T00:47:40.235497+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 105.98,
-  "portfolio_value_usd": 17.43,
+  "last_sol_price_usd": 106.025,
+  "portfolio_value_usd": 16.05,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 00:10 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $STANLEY at $6.76496e-06 | P&L: +31.2%",
-      "reason": "$STANLEY at +31.2% has cleared the +25% TP threshold but pool is dangerously thin ($1620, 0% our share). Selling half locks in a realized gain while keeping exposure if the bonding curve continues filling."
-    },
     {
       "time": "2026-09-07 00:11 UTC",
       "action": "sell",
@@ -36278,40 +36265,46 @@
       "action": "buy",
       "details": "[LLM] $ROBINWIF at $9.04834e-06, spent 0.02 SOL",
       "reason": "$ROBINWIF passes viability gate (description + twitter), narrative is strong — 'Wif Hat' is a recognized meme IP on Solana with a viral-ready character (green hat legend). Fresh launch (30s old) with $9k mcap gives early-entry alpha. Risk: brand-new mint, GMGN fragility not yet evaluated —0.05 SOL keeps exposure tight."
+    },
+    {
+      "time": "2026-09-07 00:47 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $ROBINWIF closed at $3.1385e-06 | P&L: -65.3%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2125,
+    "total": 2126,
     "wins": 1084,
-    "losses": 1041,
+    "losses": 1042,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.168228,
-    "avg_pnl_pct": 32.13,
+    "total_pnl_sol": -2.181292,
+    "avg_pnl_pct": 32.09,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 18,
-    "today_realized_sol": 0.022421,
-    "today_target_pct": 5.6,
+    "today_trades": 19,
+    "today_realized_sol": 0.009357,
+    "today_target_pct": 2.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1084,
-      "loss_count": 1041,
+      "loss_count": 1042,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T00:46:18.488162+00:00",
+  "last_llm_brief_at": "2026-09-07T00:47:39.988055+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "8LMMuvaQdec5DxzdG341UpLcxn9e28mUK8SmeEompump": {
-      "price_usd": 9.705945332351327e-06,
+      "price_usd": 3.138500086592853e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2574.88498066632,
-      "volume_h24": 2526.07,
+      "liquidity_usd": 92.0969881301,
+      "volume_h24": 4389.39,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 24.295951884
+      "real_sol_reserves": 0.868634644
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
