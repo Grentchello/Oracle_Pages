@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.136924,
+  "balance_sol": 0.146352,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "Fb9xfPYWhjJfduB3Er81yiX1QSQgZxTYEN2W5W6oyhLT": {
       "symbol": "Kalshi",
       "name": "Kal this shi",
-      "amount": 304251.6016307513,
+      "amount": 152125.80081537564,
       "entry_price_usd": 5.151e-06,
-      "entry_sol_spent": 0.015,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-07T07:48:37.269738+00:00",
       "entry_usd_value": 2.0896,
-      "last_seen_price_usd": 7.323088030430944e-06,
+      "last_seen_price_usd": 6.476788489566243e-06,
       "entry_signals": {
         "liquidity_usd": 915.71582791536,
         "volume_24h_usd": 11123.73,
@@ -34,7 +34,7 @@
       "entry_sol_spent": 0.02,
       "entry_time": "2026-09-07T07:53:49.043930+00:00",
       "entry_usd_value": 2.0869999999999997,
-      "last_seen_price_usd": 3.246e-06,
+      "last_seen_price_usd": 3.122134349470669e-06,
       "entry_signals": {
         "liquidity_usd": 203.94129157535,
         "volume_24h_usd": 376.5,
@@ -37535,19 +37535,30 @@
       "pnl_pct": 42.17,
       "exit_reason": "auto-TP +30% (25%)",
       "partial": true
+    },
+    {
+      "mint": "Fb9xfPYWhjJfduB3Er81yiX1QSQgZxTYEN2W5W6oyhLT",
+      "symbol": "Kalshi",
+      "name": "Kal this shi",
+      "amount_sold": 152125.80081537564,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-07T07:48:37.269738+00:00",
+      "exit_time": "2026-09-07T07:55:42.065131+00:00",
+      "entry_price_usd": 5.151e-06,
+      "exit_price_usd": 6.476788489566243e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.009428,
+      "pnl_sol": 0.001928,
+      "pnl_pct": 25.74,
+      "exit_reason": "LLM: sell_half — $Kalshi at +25.7% is above the 20% profit-take threshold and right at the auto-TP trigger. Locking half the position secures realized gain while keepi",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-07T07:53:49.044201+00:00",
+  "last_updated": "2026-09-07T07:55:42.066111+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.35,
-  "portfolio_value_usd": 17.94,
+  "last_sol_price_usd": 104.51,
+  "portfolio_value_usd": 18.17,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 06:45 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MyLast at $3.06157e-06 | P&L: -6.2%",
-      "reason": "$MyLast at -6.2% with only $67 pool liquidity and 3% share is fragile. No narrative edge, no twitter signal. Cut early before -20% rule kicks in. Free up slot for stronger narrative."
-    },
     {
       "time": "2026-09-07 06:59 UTC",
       "action": "sell",
@@ -37661,40 +37672,57 @@
       "action": "buy",
       "details": "[LLM] $ZOLANA at $3.246e-06, spent 0.02 SOL",
       "reason": "Strongest attention signal in the batch: ansem (major Solana memecoin influencer) tweeted about Zolana deserving a runner. Real X catalyst, low mcap ($3.1k), bonding curve only 3% — room to run. Risk: very fresh, low liquidity ($3k), but position size 0.05 SOL limits downside to ~$5."
+    },
+    {
+      "time": "2026-09-07 07:55 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Kalshi at $6.47679e-06 | P&L: +25.7%",
+      "reason": "$Kalshi at +25.7% is above the 20% profit-take threshold and right at the auto-TP trigger. Locking half the position secures realized gain while keeping runner exposure in case the narrative extends."
     }
   ],
   "trade_stats": {
-    "total": 2205,
-    "wins": 1124,
+    "total": 2206,
+    "wins": 1125,
     "losses": 1081,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.160728,
+    "total_pnl_sol": -2.1588,
     "avg_pnl_pct": 31.64,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 98,
-    "today_realized_sol": 0.029921,
-    "today_target_pct": 7.5,
+    "today_trades": 99,
+    "today_realized_sol": 0.031849,
+    "today_target_pct": 8.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1124,
+      "win_count": 1125,
       "loss_count": 1081,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T07:53:47.635118+00:00",
+  "last_llm_brief_at": "2026-09-07T07:55:42.064698+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "Fb9xfPYWhjJfduB3Er81yiX1QSQgZxTYEN2W5W6oyhLT": {
-      "price_usd": 7.323088030430944e-06,
+      "price_usd": 6.476788489566243e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1829.18213454115,
-      "volume_h24": 16568.62,
+      "liquidity_usd": 1532.57557019189,
+      "volume_h24": 17883.71,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 17.529296929
+      "real_sol_reserves": 14.664391639
+    },
+    "AWhFdSiGX1mgpY1BCHLFjCgQa5DufWpWHFH8RUcTpump": {
+      "price_usd": 3.122134349470669e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 105.59683032045001,
+      "volume_h24": 678.02,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.010399295
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

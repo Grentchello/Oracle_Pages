@@ -16144,3 +16144,6 @@
 ## [2026-09-07 07:53 UTC] buy | [LLM] $ZOLANA at $3.246e-06, spent 0.02 SOL
 - **Reasoning:** Strongest attention signal in the batch: ansem (major Solana memecoin influencer) tweeted about Zolana deserving a runner. Real X catalyst, low mcap ($3.1k), bonding curve only 3% — room to run. Risk: very fresh, low liquidity ($3k), but position size 0.05 SOL limits downside to ~$5.
 
+## [2026-09-07 07:55 UTC] sell | [PARTIAL][LLM] $Kalshi at $6.47679e-06 | P&L: +25.7%
+- **Reasoning:** $Kalshi at +25.7% is above the 20% profit-take threshold and right at the auto-TP trigger. Locking half the position secures realized gain while keeping runner exposure in case the narrative extends.
+
