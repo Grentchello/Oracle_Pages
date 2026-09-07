@@ -16480,3 +16480,6 @@
 ## [2026-09-07 16:04 UTC] sell | [FULL][LLM] $80s at $6.38603e-06 | P&L: -11.7%
 - **Reasoning:** $80s is down -11.7% on a $1508 bonding-curve pool with 0% share — illiquid micro-cap with no bounce signal. Cut the loss, free capital for stronger narrative plays.
 
+## [2026-09-07 16:15 UTC] buy | [LLM] $apetop at $3.77358e-06, spent 0.02 SOL
+- **Reasoning:** $apetop is the strongest attention play — the 'What if we stop waiting for dips and all ape the top?' narrative is self-aware degen humor that the memecoin community loves to amplify. Fresh (0.4min), $3.7k mcap with runway, both twitter + description present (passes viability gate). 0.05 SOL position size keeps max stop-loss at -0.015 SOL, just under my 0.014 SOL remaining daily budget — tight but viable for a narrative-driven fresh launch.
+
