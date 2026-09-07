@@ -1,55 +1,8 @@
 {
-  "balance_sol": 0.084263,
+  "balance_sol": 0.12505,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "D9Pczff49uutEgGDFwsB9wHZXzNdvjgrRWDgiHZkEdAg": {
-      "symbol": "CATHAT",
-      "name": "CatAnsemHat",
-      "amount": 694569.536423841,
-      "entry_price_usd": 3.02e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T10:06:06.824665+00:00",
-      "entry_usd_value": 2.0976,
-      "last_seen_price_usd": 3.157862712914391e-06,
-      "entry_signals": {
-        "liquidity_usd": 36.3879303624,
-        "volume_24h_usd": 275.7,
-        "market_cap_usd": 3019.021268510379,
-        "ath_market_cap_usd": 3218.8517535331666,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.34694823,
-        "description": "$CATHAT - CatAnsemHat. Not just a hat. It’s a lifestyle. 💰 Reward Stock: $ANSEM 🐱 THE LEGEND STARTS NOW.",
-        "twitter": "https://x.com/DaVinciWhale",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    },
-    "GaNzDnUELaUjRF3YJVnvi9wjcLVuLnfzuAfgUiSPo4kV": {
-      "symbol": "ZOOLANA",
-      "name": "Zoolana",
-      "amount": 685023.7203284161,
-      "entry_price_usd": 3.060915903751108e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T10:12:35.502239+00:00",
-      "entry_usd_value": 2.0968,
-      "last_seen_price_usd": 3.060915903751108e-06,
-      "entry_signals": {
-        "liquidity_usd": 68.82827754232001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3059.8553974088577,
-        "ath_market_cap_usd": 3266.996145451938,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.656507798,
-        "description": "Solana was full of animal ticker, it should be Solana is home of them. Paired with JitoSOL & ZEC",
-        "twitter": "https://x.com/Zoolanaonsol_",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -37926,25 +37879,47 @@
       "pnl_pct": -6.9,
       "exit_reason": "LLM: sell_all — $rip tucker is -6.9% AND pool=$0 AND our share=465302957% (data is corrupted/we own effectively the whole float, meaning no real liquidity to exit int",
       "partial": false
+    },
+    {
+      "mint": "D9Pczff49uutEgGDFwsB9wHZXzNdvjgrRWDgiHZkEdAg",
+      "symbol": "CATHAT",
+      "name": "CatAnsemHat",
+      "amount_sold": 694569.536423841,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T10:06:06.824665+00:00",
+      "exit_time": "2026-09-07T10:13:56.124315+00:00",
+      "entry_price_usd": 3.02e-06,
+      "exit_price_usd": 3.140305887762471e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020787,
+      "pnl_sol": 0.000787,
+      "pnl_pct": 3.98,
+      "exit_reason": "LLM: sell_all — $CATHAT is only +4% after 0.1h, pool is tiny at $109 with 2% share (illiquid exit risk), and per bot rules 'flat for >30 min = stale exit'. Take the s",
+      "partial": false
+    },
+    {
+      "mint": "GaNzDnUELaUjRF3YJVnvi9wjcLVuLnfzuAfgUiSPo4kV",
+      "symbol": "ZOOLANA",
+      "name": "Zoolana",
+      "amount_sold": 685023.7203284161,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T10:12:35.502239+00:00",
+      "exit_time": "2026-09-07T10:13:56.124627+00:00",
+      "entry_price_usd": 3.060915903751108e-06,
+      "exit_price_usd": 3.0635435499866823e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.02,
+      "pnl_sol": 0.0,
+      "pnl_pct": 0.09,
+      "exit_reason": "LLM: sell_all — $ZOOLANA is essentially flat at +0.1% with $69 pool and 3% share — classic stale, illiquid bonding-curve trap. Cut and free the slot for a fresh launc",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T10:12:35.502479+00:00",
+  "last_updated": "2026-09-07T10:13:56.379205+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.84,
-  "portfolio_value_usd": 13.03,
+  "last_sol_price_usd": 104.93,
+  "portfolio_value_usd": 13.12,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 09:01 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MEMETHOS at $3.60822e-06 | P&L: -2.7%",
-      "reason": "$MEMETHOS is -2.7% after only 6 minutes with a tiny $347 pool — this is exactly the stale-flip profile. Pool size means any sell pressure crushes price. Cut now while loss is small rather than wait for the -30% hard stop."
-    },
-    {
-      "time": "2026-09-07 09:04 UTC",
-      "action": "buy",
-      "details": "[LLM] $ZPENIS at $3.259e-06, spent 0.02 SOL",
-      "reason": "$ZPENIS has the cleanest setup in this batch: real desc (~55 chars), active twitter (iamjaynorton), explicit comp to $ZCAT (established weird-twitter niche), and 6% bond progress showing real buy flow. Crude humor niche has historical traction on Solana. Sized at 0.05 SOL to respect reserve floor. Risk: low liquidity, satirical narrative may not pump in minutes."
-    },
     {
       "time": "2026-09-07 09:07 UTC",
       "action": "observe",
@@ -38052,40 +38027,63 @@
       "action": "buy",
       "details": "[LLM] $ZOOLANA at $3.06092e-06, spent 0.02 SOL",
       "reason": "$ZOOLANA — meta-narrative: 'Solana should be home of animals, not just dog coins.' Pivots off the saturated dog-coin meta with a fresh angle, has description AND twitter (@Zoolanaonsol_), $3k mcap is early. Risky but the narrative is differentiated and attention-grabbing."
+    },
+    {
+      "time": "2026-09-07 10:13 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CATHAT at $3.14031e-06 | P&L: +4.0%",
+      "reason": "$CATHAT is only +4% after 0.1h, pool is tiny at $109 with 2% share (illiquid exit risk), and per bot rules 'flat for >30 min = stale exit'. Take the small green and rotate capital into fresh attention."
+    },
+    {
+      "time": "2026-09-07 10:13 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ZOOLANA at $3.06354e-06 | P&L: +0.1%",
+      "reason": "$ZOOLANA is essentially flat at +0.1% with $69 pool and 3% share — classic stale, illiquid bonding-curve trap. Cut and free the slot for a fresh launch with narrative."
     }
   ],
   "trade_stats": {
-    "total": 2228,
-    "wins": 1131,
-    "losses": 1097,
+    "total": 2230,
+    "wins": 1132,
+    "losses": 1098,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.208389,
-    "avg_pnl_pct": 31.2,
+    "total_pnl_sol": -2.207602,
+    "avg_pnl_pct": 31.17,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 121,
-    "today_realized_sol": -0.01774,
-    "today_target_pct": -4.4,
+    "today_trades": 123,
+    "today_realized_sol": -0.016953,
+    "today_target_pct": -4.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1131,
-      "loss_count": 1097,
+      "win_count": 1132,
+      "loss_count": 1098,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T10:12:33.915749+00:00",
+  "last_llm_brief_at": "2026-09-07T10:13:56.124280+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "D9Pczff49uutEgGDFwsB9wHZXzNdvjgrRWDgiHZkEdAg": {
-      "price_usd": 3.157862712914391e-06,
+      "price_usd": 3.140305887762471e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 119.32964809,
-      "volume_h24": 505.69,
+      "liquidity_usd": 108.93908663757001,
+      "volume_h24": 516.18,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.13820725
+      "real_sol_reserves": 1.038207249
+    },
+    "GaNzDnUELaUjRF3YJVnvi9wjcLVuLnfzuAfgUiSPo4kV": {
+      "price_usd": 3.0635435499866823e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 68.88736324414,
+      "volume_h24": 282.43,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.656507798
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
