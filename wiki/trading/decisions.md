@@ -15931,3 +15931,6 @@
 ## [2026-09-07 03:15 UTC] buy | [LLM] $ZDOG at $6.302e-06, spent 0.02 SOL
 - **Reasoning:** $ZDOG (Anonymous Dog) has the strongest narrative/meme DNA — 'Nobody knows who is under the bag' is a perfect attention-market hook, and dogs have the deepest memecoin liquidity. 25% bond is filling. With 0.05 SOL reserve remaining after this, this is my last slot.
 
+## [2026-09-07 03:16 UTC] sell | [hard-stop] $ZDOG closed at $2.95422e-06 | P&L: -53.1%
+- **Reasoning:** Hard -30% stop
+

@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.123805,
+  "balance_sol": 0.133181,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "69qjAzxQMPKUtxoFwBeNVWPbznCPy5n46CUQa95jpump": {
-      "symbol": "ZDOG",
-      "name": "Anonymous Dog",
-      "amount": 334655.6648682958,
-      "entry_price_usd": 6.302e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-07T03:15:05.149582+00:00",
-      "entry_usd_value": 2.109,
-      "last_seen_price_usd": 6.302e-06,
-      "entry_signals": {
-        "liquidity_usd": 1667.6394645156,
-        "volume_24h_usd": 1525.8,
-        "market_cap_usd": 6742.865797835582,
-        "ath_market_cap_usd": 6742.865797835582,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 15.814504168,
-        "description": "Nobody knows who is under the bag. Nobody asked. The dog arrived, stared at the chart, and became the whole narrative.",
-        "twitter": "https://x.com/ZDOG_DEV",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -36781,19 +36757,30 @@
       "pnl_pct": -13.25,
       "exit_reason": "LLM: sell_all — Down -13.2% already with only $63 pool liquidity — this is a thin bonding-curve position with no momentum. Pool<5x position size threshold risk; bette",
       "partial": false
+    },
+    {
+      "mint": "69qjAzxQMPKUtxoFwBeNVWPbznCPy5n46CUQa95jpump",
+      "symbol": "ZDOG",
+      "name": "Anonymous Dog",
+      "amount_sold": 334655.6648682958,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T03:15:05.149582+00:00",
+      "exit_time": "2026-09-07T03:16:08.927258+00:00",
+      "entry_price_usd": 6.302e-06,
+      "exit_price_usd": 2.954224145405206e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.009376,
+      "pnl_sol": -0.010624,
+      "pnl_pct": -53.12,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T03:15:05.149758+00:00",
+  "last_updated": "2026-09-07T03:16:36.839347+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 105.45,
-  "portfolio_value_usd": 15.16,
+  "portfolio_value_usd": 14.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 02:42 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $CAPY at $1.01459e-05 | P&L: +32.1%",
-      "reason": "Auto take-profit at +32.1%"
-    },
     {
       "time": "2026-09-07 02:43 UTC",
       "action": "sell",
@@ -36907,30 +36894,48 @@
       "action": "buy",
       "details": "[LLM] $ZDOG at $6.302e-06, spent 0.02 SOL",
       "reason": "$ZDOG (Anonymous Dog) has the strongest narrative/meme DNA — 'Nobody knows who is under the bag' is a perfect attention-market hook, and dogs have the deepest memecoin liquidity. 25% bond is filling. With 0.05 SOL reserve remaining after this, this is my last slot."
+    },
+    {
+      "time": "2026-09-07 03:16 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $ZDOG closed at $2.95422e-06 | P&L: -53.1%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2162,
+    "total": 2163,
     "wins": 1101,
-    "losses": 1061,
+    "losses": 1062,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.188848,
-    "avg_pnl_pct": 31.79,
+    "total_pnl_sol": -2.199472,
+    "avg_pnl_pct": 31.75,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 55,
-    "today_realized_sol": 0.001801,
-    "today_target_pct": 0.5,
+    "today_trades": 56,
+    "today_realized_sol": -0.008823,
+    "today_target_pct": -2.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1101,
-      "loss_count": 1061,
+      "loss_count": 1062,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T03:15:03.435959+00:00",
+  "last_llm_brief_at": "2026-09-07T03:16:36.574958+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "69qjAzxQMPKUtxoFwBeNVWPbznCPy5n46CUQa95jpump": {
+      "price_usd": 2.954224145405206e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3.18964685475,
+      "volume_h24": 1847.59,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.030247955
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
