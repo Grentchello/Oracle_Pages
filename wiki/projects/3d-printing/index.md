@@ -6,32 +6,52 @@ title: 3D Printing Resources
 
 Free STL/3D model files for the local printer.
 
-## Pizza Can Opener (Suri & Allen)
+## Gun Can Opener — Pistol Style with Real Trigger
 
-🍕 Cozy Pizza Pull Tab Can Opener — exactly the model in your screenshot (purple body, yellow cheese slice lever).
+🔫 **"Gun Can Opener"** by QuantumLayers — pistol-grip can opener with a real spring-loaded trigger you pull to lift the tab. Opens cans one-handed.
 
 ### Download
 
 | Source | URL | Notes |
 |--------|-----|-------|
-| **MakerWorld (free)** | https://makerworld.com/en/models/3091153-pizza-can-opener | ⭐ **Direct match** — pizza slice shape with cheese lever |
-| **3Dsearch mirror** | https://3dsearch.net/model/pizza-can-opener-mw3091153 | Search aggregator listing |
-| **Suri & Allen series** | https://3dsearch.net/model/croissant-can-opener-mw3077820 | Sibling model — same designer (Croissant Can Opener) |
+| **Printables (free)** | https://www.printables.com/model/1480263-gun-can-opener | ⭐ **Trigger-activated** pistol-style, 1.9K downloads, 4.4★ |
+| **Nexprint mirror** | https://www.nexprint.com/en/models/G6188423 | Backup download, no login |
+| **3Dsearch mirror** | https://3dsearch.net/model/gun-can-opener-1480263 | Search aggregator |
 
-### How to download
-1. Open https://makerworld.com/en/models/3091153-pizza-can-opener in your browser
-2. Free Bambu/MakerWorld account (email signup, ~30 sec)
-3. Click "Download" → STL file
+### How it works
+1. Hook the can tab into the front slot (follow arrow direction)
+2. Hold the pistol grip firmly
+3. Pull the trigger underneath (like a toy gun)
+4. Trigger lever lifts the tab
+5. Remove lid
+
+**One-handed operation** — good for kids, seniors, weak grip, or anyone who hates breaking nails.
 
 ### Print settings (recommended)
-- **Material:** PETG (durable, food-safe enough for kitchen tools)
-- **Infill:** 20-40%
-- **Perimeters:** 4-6
-- **Layer height:** 0.2mm
-- **Supports:** Yes (tree supports work well)
-- **Min build plate:** 50mm
+- **Material:** PLA (home use) or PETG (durable)
+- **Layer height:** 0.2 mm
+- **Infill:** 20-40% (50% for extra stiffness)
+- **Perimeters:** 3 (or 1.2mm wall with 0.4mm nozzle)
+- **Supports:** Minimal — orient base flat on build plate to avoid support near trigger
+- **Adhesion:** Brim or raft for tall parts
+- **Nozzle:** 0.4 mm standard
+- **File format:** STL or 3MF
 - **Single piece**, no assembly needed
-- **Print time:** ~1-2 hours
+
+### Post-processing
+- Lightly sand contact edges
+- Round off sharp corners for comfort
+- Optionally apply food-safe coating to handle (avoid on can-contact parts)
+
+### Safety notes
+- Don't use on rusted/deformed cans
+- Don't use excessive force (it's a lever, not a pry bar)
+- Keep away from small kids (looks like a gun)
+
+### Other similar trigger-style openers
+- **Beer/Soda Can Opener (with trigger parts)** — Cults3D #3326968 — has actual trigger HOOK files
+- **Diamond Design Trigger Handle** — diamonddesignbytasha.co.uk (paid)
+- **Gun&Cheers Can Opener** — MakerWorld #1801280 (screw assembly)
 
 ---
 
