@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.161694,
+  "balance_sol": 0.161771,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump": {
-      "symbol": "CAPY",
-      "name": "CAPY",
-      "amount": 2750.172147588204,
-      "entry_price_usd": 7.681e-06,
-      "entry_sol_spent": 0.00019775390625,
-      "entry_time": "2026-09-07T02:41:47.688109+00:00",
-      "entry_usd_value": 2.1364,
-      "last_seen_price_usd": 1.164548362830602e-05,
-      "entry_signals": {
-        "liquidity_usd": 2306.99461972742,
-        "volume_24h_usd": 1950.35,
-        "market_cap_usd": 8665.283644880325,
-        "ath_market_cap_usd": 9801.10406331985,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 21.597028831,
-        "description": "CAPY doesn’t know what a chart is. He’s just here to chill.",
-        "twitter": "https://x.com/capydevv",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -36696,19 +36672,30 @@
       "pnl_pct": 51.61,
       "exit_reason": "LLM: sell_half — Up +51.6%, well past the 25% TP1 threshold. CAPY narrative is solid (Capybara meme) but bonding-curve token with low pool ($3.1k) and our share is 0% ",
       "partial": true
+    },
+    {
+      "mint": "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump",
+      "symbol": "CAPY",
+      "name": "CAPY",
+      "amount_sold": 2750.172147588204,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T02:41:47.688109+00:00",
+      "exit_time": "2026-09-07T02:52:34.210142+00:00",
+      "entry_price_usd": 7.681e-06,
+      "exit_price_usd": 2.991694536995478e-06,
+      "entry_sol_for_chunk": 0.000198,
+      "exit_sol_received": 7.7e-05,
+      "pnl_sol": -0.000121,
+      "pnl_pct": -61.05,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T02:51:30.436110+00:00",
+  "last_updated": "2026-09-07T02:52:48.297137+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.83,
-  "portfolio_value_usd": 17.29,
+  "last_sol_price_usd": 106.67,
+  "portfolio_value_usd": 17.26,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 02:18 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $$INBUN at $3.05019e-06 | P&L: +0.2%",
-      "reason": "Flat at +0.2% after 0.1h held on a $56 pool token (4% of pool = massive concentration risk). Pool is illiquid, no clear narrative momentum. Free slot and capital for fresher attention with stronger setups."
-    },
     {
       "time": "2026-09-07 02:20 UTC",
       "action": "buy",
@@ -36822,40 +36809,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $CAPY at $1.16455e-05 | P&L: +51.6%",
       "reason": "Up +51.6%, well past the 25% TP1 threshold. CAPY narrative is solid (Capybara meme) but bonding-curve token with low pool ($3.1k) and our share is 0% — taking half off locks ~+50% gain and frees capital for fresh launches. Holding remainder for runner potential."
+    },
+    {
+      "time": "2026-09-07 02:52 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $CAPY closed at $2.99169e-06 | P&L: -61.0%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2157,
+    "total": 2158,
     "wins": 1101,
-    "losses": 1056,
+    "losses": 1057,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.170761,
-    "avg_pnl_pct": 31.94,
+    "total_pnl_sol": -2.170882,
+    "avg_pnl_pct": 31.89,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 50,
-    "today_realized_sol": 0.019888,
-    "today_target_pct": 5.0,
+    "today_trades": 51,
+    "today_realized_sol": 0.019767,
+    "today_target_pct": 4.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1101,
-      "loss_count": 1056,
+      "loss_count": 1057,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T02:51:30.180637+00:00",
+  "last_llm_brief_at": "2026-09-07T02:52:47.804327+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7PRBZWNh5GWygYHLRewBwQjCSCPUQ4T27CVoG2Z3pump": {
-      "price_usd": 1.164548362830602e-05,
+      "price_usd": 2.991694536995478e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3123.38263436424,
-      "volume_h24": 13353.52,
+      "liquidity_usd": 4.99023209988,
+      "volume_h24": 16642.05,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 29.236943128
+      "real_sol_reserves": 0.046781964
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

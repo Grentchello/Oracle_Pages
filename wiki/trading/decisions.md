@@ -15901,3 +15901,6 @@
 ## [2026-09-07 02:51 UTC] sell | [PARTIAL][LLM] $CAPY at $1.16455e-05 | P&L: +51.6%
 - **Reasoning:** Up +51.6%, well past the 25% TP1 threshold. CAPY narrative is solid (Capybara meme) but bonding-curve token with low pool ($3.1k) and our share is 0% — taking half off locks ~+50% gain and frees capital for fresh launches. Holding remainder for runner potential.
 
+## [2026-09-07 02:52 UTC] sell | [hard-stop] $CAPY closed at $2.99169e-06 | P&L: -61.0%
+- **Reasoning:** Hard -30% stop
+
