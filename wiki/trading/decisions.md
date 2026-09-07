@@ -16177,3 +16177,6 @@
 ## [2026-09-07 08:06 UTC] sell | [PARTIAL][LLM] $wen at $5.02081e-06 | P&L: +13.0%
 - **Reasoning:** $wen is +13% but under the +20% profit-taking threshold and held 0.0h on a bonding curve with only $974 pool. Lock half the gain now — these micro-launches dump back to curve fast, and half-rotates capital for a fresh entry while keeping upside if it breaks out.
 
+## [2026-09-07 08:07 UTC] sell | [FULL][LLM] $wen at $3.23841e-06 | P&L: -27.1%
+- **Reasoning:** $wen is at -27.1% and only ~3 percentage points from the -30% hard stop. Held 0.0h on bonding curve with 0% pool share, no bounce signal, and pool is only $167 (micro liquidity). Cut it manually now instead of letting the auto-stop dictate the exact exit — controlled exit beats forced liquidation.
+

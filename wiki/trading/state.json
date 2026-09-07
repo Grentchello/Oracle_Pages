@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.144704,
+  "balance_sol": 0.151993,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DMosba4cycTjqkMf7k8zn9vGEizVNY4AfpDLiTPLusc6": {
-      "symbol": "wen",
-      "name": "wen",
-      "amount": 235066.39657888815,
-      "entry_price_usd": 4.443e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-07T08:04:45.624535+00:00",
-      "entry_usd_value": 2.0888,
-      "last_seen_price_usd": 5.020810449222509e-06,
-      "entry_signals": {
-        "liquidity_usd": 1449.76064204804,
-        "volume_24h_usd": 8775.99,
-        "market_cap_usd": 6575.220890818082,
-        "ath_market_cap_usd": 6927.310986453888,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 13.881277691,
-        "description": "every single cryprto person uses the term wen moon. wen dex wen rug wen that. we have the perfect time to run $wen paired with wendys stock perfect time.",
-        "twitter": "https://x.com/erasedevv/status/2096871634787545223",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -37648,19 +37624,30 @@
       "pnl_pct": 13.0,
       "exit_reason": "LLM: sell_half — $wen is +13% but under the +20% profit-taking threshold and held 0.0h on a bonding curve with only $974 pool. Lock half the gain now — these micro-lau",
       "partial": true
+    },
+    {
+      "mint": "DMosba4cycTjqkMf7k8zn9vGEizVNY4AfpDLiTPLusc6",
+      "symbol": "wen",
+      "name": "wen",
+      "amount_sold": 235066.39657888815,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-07T08:04:45.624535+00:00",
+      "exit_time": "2026-09-07T08:07:46.830793+00:00",
+      "entry_price_usd": 4.443e-06,
+      "exit_price_usd": 3.2384092740320447e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.007289,
+      "pnl_sol": -0.002711,
+      "pnl_pct": -27.11,
+      "exit_reason": "LLM: sell_all — $wen is at -27.1% and only ~3 percentage points from the -30% hard stop. Held 0.0h on bonding curve with 0% pool share, no bounce signal, and pool is ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-07T08:06:00.990651+00:00",
+  "last_updated": "2026-09-07T08:07:46.831020+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.53,
-  "portfolio_value_usd": 16.17,
+  "last_sol_price_usd": 104.43,
+  "portfolio_value_usd": 15.87,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 07:24 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $RISE at $5.9696e-06 | P&L: +11.1%",
-      "reason": "$RISE +11.1% on tiny $1342 pool, only 0.1h old — thin liquidity means any move is amplified. Lock half the gain per the +20%-and-unsure rule; let the rest ride if narrative holds."
-    },
     {
       "time": "2026-09-07 07:24 UTC",
       "action": "sell",
@@ -37774,51 +37761,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $wen at $5.02081e-06 | P&L: +13.0%",
       "reason": "$wen is +13% but under the +20% profit-taking threshold and held 0.0h on a bonding curve with only $974 pool. Lock half the gain now — these micro-launches dump back to curve fast, and half-rotates capital for a fresh entry while keeping upside if it breaks out."
+    },
+    {
+      "time": "2026-09-07 08:07 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $wen at $3.23841e-06 | P&L: -27.1%",
+      "reason": "$wen is at -27.1% and only ~3 percentage points from the -30% hard stop. Held 0.0h on bonding curve with 0% pool share, no bounce signal, and pool is only $167 (micro liquidity). Cut it manually now instead of letting the auto-stop dictate the exact exit — controlled exit beats forced liquidation."
     }
   ],
   "trade_stats": {
-    "total": 2213,
+    "total": 2214,
     "wins": 1128,
-    "losses": 1085,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.177948,
-    "avg_pnl_pct": 31.48,
+    "losses": 1086,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -2.180659,
+    "avg_pnl_pct": 31.46,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 106,
-    "today_realized_sol": 0.012701,
-    "today_target_pct": 3.2,
+    "today_trades": 107,
+    "today_realized_sol": 0.00999,
+    "today_target_pct": 2.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1128,
-      "loss_count": 1085,
+      "loss_count": 1086,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-07T08:06:00.480380+00:00",
+  "last_llm_brief_at": "2026-09-07T08:07:46.830754+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "srxbT3rUakpeS92LXmii7PRbjj5YasqhMF2MiZ8pump": {
-      "price_usd": 3.0281226197187903e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 56.13535046301,
-      "volume_h24": 2466.68,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.537026217
-    },
     "DMosba4cycTjqkMf7k8zn9vGEizVNY4AfpDLiTPLusc6": {
-      "price_usd": 5.020810449222509e-06,
+      "price_usd": 3.2384092740320447e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 974.34658419383,
-      "volume_h24": 11629.52,
+      "liquidity_usd": 166.53058137825,
+      "volume_h24": 12994.75,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 9.321214811
+      "real_sol_reserves": 1.594662275
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
