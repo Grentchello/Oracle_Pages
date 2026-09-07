@@ -15742,3 +15742,6 @@
 ## [2026-09-07 00:56 UTC] sell | [FULL][LLM] $BUYING at $3.36995e-06 | P&L: -1.1%
 - **Reasoning:** Down -1.1% after fresh entry, microcap ($210 pool, 1% share), no momentum signal. Liquidity is dangerously thin — a 0.05 SOL position can't even exit cleanly in a $210 pool. Cut the dead weight and free the slot.
 
+## [2026-09-07 00:57 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
