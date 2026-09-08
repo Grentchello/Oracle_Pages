@@ -16744,3 +16744,6 @@
 ## [2026-09-08 04:52 UTC] sell | [hard-stop] $TripleQ closed at $4.20795e-06 | P&L: -59.3%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-08 04:59 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
