@@ -16588,3 +16588,6 @@
 ## [2026-09-08 00:53 UTC] buy | [LLM] $COD at $2.92813e-06, spent 0.02 SOL
 - **Reasoning:** $COD turns the topical AI-agent trend into a playable competitive challenge and includes an explicit X post, giving it a concrete engagement hook. Its 0% bond and only $2,930 market cap imply extreme early-stage risk, but the unusual playable-game concept merits one small position.
 
+## [2026-09-08 01:04 UTC] sell | [FULL][LLM] $COD at $2.93113e-06 | P&L: +0.1%
+- **Reasoning:** $COD is flat at +0.1% after 12 minutes (0.2h), pool only $10, our share 20% — this is a dead microcap with no momentum and no narrative. Capital is better rotated into a fresh launch with attention.
+
