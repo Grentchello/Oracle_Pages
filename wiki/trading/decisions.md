@@ -16615,3 +16615,6 @@
 ## [2026-09-08 01:47 UTC] buy | [LLM] $Bubbles at $4.256e-06, spent 0.02 SOL
 - **Reasoning:** $Bubbles has a real narrative hook — Apple's upcoming AI companion tied to $AAPL with fee buybacks, and a CoolCat promo tweet. mcap $3.7k is tiny but that IS the alpha window.
 
+## [2026-09-08 01:48 UTC] sell | [hard-stop] $Bubbles closed at $2.93951e-06 | P&L: -30.9%
+- **Reasoning:** Hard -30% stop
+
