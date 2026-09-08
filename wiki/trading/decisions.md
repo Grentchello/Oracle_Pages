@@ -16633,3 +16633,6 @@
 ## [2026-09-08 01:57 UTC] sell | [FULL][LLM] $MVP at $1.4062e-05 | P&L: +88.5%
 - **Reasoning:** Up +88.5% in 0h — well past auto-TP thresholds. Lock the gain now. The discipline rules say exactly this: up >20% with any doubt, take profit. Capital freed enables fresh entries.
 
+## [2026-09-08 02:02 UTC] buy | [LLM] $$BNTR at $2.94819e-06, spent 0.02 SOL
+- **Reasoning:** $BNTR (Bountura) — clearest narrative in this batch: advertiser-funded task rewards paying USDC/USDG. Passes viability gate (description ≥50 chars + twitter link). Real concept vs. the noise of ATM copycats and number-meme junk. Small position to keep reserve.
+
