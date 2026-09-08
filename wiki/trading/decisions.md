@@ -16687,3 +16687,12 @@
 ## [2026-09-08 03:17 UTC] sell | [PARTIAL][LLM] $ChadGPT at $6.10209e-06 | P&L: +12.3%
 - **Reasoning:** Up 12.3% in <1h on a $2.8k mcap with low bonding curve progress ($1408 pool). The narrative is thin (just 'Many bonders, Many more overlooked') — I want to lock in some gain while leaving a runner in case it pumps on graduation.
 
+## [2026-09-08 03:18 UTC] sell | [TP +30% (25%)] $ChadGPT at $8.52486e-06 | P&L: +56.9%
+- **Reasoning:** Auto take-profit at +56.9%
+
+## [2026-09-08 03:18 UTC] sell | [FULL][LLM] $ChadGPT at $8.52486e-06 | P&L: +56.9%
+- **Reasoning:** Up +56.9% in 6 minutes on a $2226 bonding-curve pool with 0% sellable share — classic thin-liquidity trap where the next seller pushes price through the floor. Lock the gain now, capital rotation beats bag-holding.
+
+## [2026-09-08 03:18 UTC] buy | [LLM] $PGT at $3.03123e-06, spent 0.02 SOL
+- **Reasoning:** ProfitGPT ($PGT) is the only new launch with a real description (>50 chars), Twitter presence (@ProfitgptIN), and a narrative (AI x trading) that maps to current attention cycles. $3k mcap is bottom-of-curve, asymmetric upside if the AI narrative catches.
+
