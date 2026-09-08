@@ -16741,3 +16741,6 @@
 ## [2026-09-08 04:51 UTC] buy | [LLM] $TripleQ at $1.034e-05, spent 0.02 SOL
 - **Reasoning:** $TripleQ (Q Q Q Sahur) — passes viability (desc ≥50 chars + twitter) and fragility (no blocklist keywords). Highest mcap ($11.7k) of survivors with a real narrative: Tung Tung Tung Sahur meme variant, 34% bonding progress, active X post. Deploying 0.05 SOL.
 
+## [2026-09-08 04:52 UTC] sell | [hard-stop] $TripleQ closed at $4.20795e-06 | P&L: -59.3%
+- **Reasoning:** Hard -30% stop
+

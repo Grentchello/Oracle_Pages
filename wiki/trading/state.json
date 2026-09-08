@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.06541,
+  "balance_sol": 0.073556,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BKMX8hRnWKxSG3ZqEP6K3a78zGpjRdGWr7DyhvMYramv": {
-      "symbol": "TripleQ",
-      "name": "Q Q Q Sahur",
-      "amount": 199825.91876208902,
-      "entry_price_usd": 1.034e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-08T04:51:49.623991+00:00",
-      "entry_usd_value": 2.0662000000000003,
-      "last_seen_price_usd": 1.034e-05,
-      "entry_signals": {
-        "liquidity_usd": 1538.74730064256,
-        "volume_24h_usd": 6535.58,
-        "market_cap_usd": 11727.609645860406,
-        "ath_market_cap_usd": 15178.765065212518,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 14.894466176,
-        "description": "Since we cant run meme without pairs.. 🍐🍐 Lets just send an already coded meme.. Tung Tung Tung sahur but instead,  Q Q Q Sahur, paired with QQQ ETF..",
-        "twitter": "https://x.com/Devilantesol/status/2097185722746782123",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39297,19 +39273,30 @@
       "pnl_pct": -30.62,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "BKMX8hRnWKxSG3ZqEP6K3a78zGpjRdGWr7DyhvMYramv",
+      "symbol": "TripleQ",
+      "name": "Q Q Q Sahur",
+      "amount_sold": 199825.91876208902,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-08T04:51:49.623991+00:00",
+      "exit_time": "2026-09-08T04:52:53.192912+00:00",
+      "entry_price_usd": 1.034e-05,
+      "exit_price_usd": 4.207949436742063e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.008146,
+      "pnl_sol": -0.011854,
+      "pnl_pct": -59.3,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-08T04:51:49.624270+00:00",
+  "last_updated": "2026-09-08T04:53:20.484053+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.31,
-  "portfolio_value_usd": 8.82,
+  "last_sol_price_usd": 103.22,
+  "portfolio_value_usd": 7.59,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 03:15 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $ChadGPT at $7.3672e-06 | P&L: +35.6%",
-      "reason": "ChadGPT is +35.6% and already past the +30% threshold (auto-TP would handle, but taking manual half off locks profit on a thin $1852 pool where the next sell could crater price. Lock gains, let the rest ride on the AI narrative."
-    },
     {
       "time": "2026-09-08 03:17 UTC",
       "action": "sell",
@@ -39423,30 +39410,48 @@
       "action": "buy",
       "details": "[LLM] $TripleQ at $1.034e-05, spent 0.02 SOL",
       "reason": "$TripleQ (Q Q Q Sahur) — passes viability (desc ≥50 chars + twitter) and fragility (no blocklist keywords). Highest mcap ($11.7k) of survivors with a real narrative: Tung Tung Tung Sahur meme variant, 34% bonding progress, active X post. Deploying 0.05 SOL."
+    },
+    {
+      "time": "2026-09-08 04:52 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $TripleQ closed at $4.20795e-06 | P&L: -59.3%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2310,
+    "total": 2311,
     "wins": 1177,
-    "losses": 1133,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.247243,
-    "avg_pnl_pct": 30.45,
+    "losses": 1134,
+    "win_rate_pct": 50.9,
+    "total_pnl_sol": -2.259097,
+    "avg_pnl_pct": 30.41,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 37,
-    "today_realized_sol": -0.006373,
-    "today_target_pct": -1.6,
+    "today_trades": 38,
+    "today_realized_sol": -0.018227,
+    "today_target_pct": -4.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1177,
-      "loss_count": 1133,
+      "loss_count": 1134,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T04:51:48.259859+00:00",
+  "last_llm_brief_at": "2026-09-08T04:53:20.484009+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BKMX8hRnWKxSG3ZqEP6K3a78zGpjRdGWr7DyhvMYramv": {
+      "price_usd": 4.207949436742063e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 642.59120230188,
+      "volume_h24": 26353.38,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 6.225452454
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
