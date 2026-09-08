@@ -16672,3 +16672,6 @@
 ## [2026-09-08 02:57 UTC] sell | [FULL][LLM] $BCWO at $3.08474e-06 | P&L: -18.1%
 - **Reasoning:** BCWO is down 18.1% after only 0.1 hours, has no clear bounce signal, and sits on a thin $102 pool. Exit quickly rather than risk a faster move toward the hard stop.
 
+## [2026-09-08 03:01 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
