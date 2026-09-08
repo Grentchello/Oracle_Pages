@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.067423,
+  "balance_sol": 0.087442,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ASmpyxVdRkd95sVPMTCvdaL4oUCfdudwwmgu6UPNpump": {
-      "symbol": "SQRUNNER",
-      "name": "Squirrel Runner",
-      "amount": 581975.9305905402,
-      "entry_price_usd": 3.573e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-08T00:44:28.103894+00:00",
-      "entry_usd_value": 2.0794,
-      "last_seen_price_usd": 3.573e-06,
-      "entry_signals": {
-        "liquidity_usd": 340.59208807742,
-        "volume_24h_usd": 360.95,
-        "market_cap_usd": 3574.3343676562267,
-        "ath_market_cap_usd": 3574.3343676562267,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.275868886,
-        "description": "One phone call. One squirrel. One dog. Total chaos in under ten seconds. $SQUIRRELRUN immortalizes the moment nobody saw coming — because the chances are low, but never zero.",
-        "twitter": "https://x.com/Rainmaker1973/status/2097090034864120194",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38787,19 +38763,30 @@
       "pnl_pct": -21.66,
       "exit_reason": "LLM: sell_all — At -21.7% and approaching -30% hard stop, bonding curve position is illiquid with no bounce signal. Cut the loss now before hard stop triggers at wors",
       "partial": false
+    },
+    {
+      "mint": "ASmpyxVdRkd95sVPMTCvdaL4oUCfdudwwmgu6UPNpump",
+      "symbol": "SQRUNNER",
+      "name": "Squirrel Runner",
+      "amount_sold": 581975.9305905402,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-08T00:44:28.103894+00:00",
+      "exit_time": "2026-09-08T00:45:56.719096+00:00",
+      "entry_price_usd": 3.573e-06,
+      "exit_price_usd": 3.5729584328485715e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.020019,
+      "pnl_sol": 1.9e-05,
+      "pnl_pct": -0.0,
+      "exit_reason": "LLM: sell_all — $340 pool with my 1% share means I'm the exit liquidity. 0% P&L after entry, no momentum, frees slot for a fresh narrative play.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-08T00:44:28.403636+00:00",
+  "last_updated": "2026-09-08T00:45:56.998529+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.97,
-  "portfolio_value_usd": 9.09,
+  "last_sol_price_usd": 103.87,
+  "portfolio_value_usd": 9.08,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 18:43 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-07 19:42 UTC",
       "action": "observe",
@@ -38913,30 +38900,48 @@
       "action": "buy",
       "details": "[LLM] $SQRUNNER at $3.573e-06, spent 0.02 SOL",
       "reason": "$SQRUNNER has a viral video narrative (one phone call, squirrel, dog, chaos in 10 seconds) with an attached X link from Rainmaker1973 — exactly the kind of meme content that pumps on attention. Tiny $3.5k mcap means cheap entry if it catches fire. Fragility gate should clear since this is an animal/video meme, not a political/celebrity name."
+    },
+    {
+      "time": "2026-09-08 00:45 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SQRUNNER at $3.57296e-06 | P&L: -0.0%",
+      "reason": "$340 pool with my 1% share means I'm the exit liquidity. 0% P&L after entry, no momentum, frees slot for a fresh narrative play."
     }
   ],
   "trade_stats": {
-    "total": 2280,
-    "wins": 1162,
+    "total": 2281,
+    "wins": 1163,
     "losses": 1118,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.245231,
-    "avg_pnl_pct": 30.63,
+    "total_pnl_sol": -2.245212,
+    "avg_pnl_pct": 30.62,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 7,
-    "today_realized_sol": -0.004361,
+    "today_trades": 8,
+    "today_realized_sol": -0.004342,
     "today_target_pct": -1.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1162,
+      "win_count": 1163,
       "loss_count": 1118,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T00:44:26.656642+00:00",
+  "last_llm_brief_at": "2026-09-08T00:45:56.718554+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "ASmpyxVdRkd95sVPMTCvdaL4oUCfdudwwmgu6UPNpump": {
+      "price_usd": 3.5729584328485715e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 340.26450118882,
+      "volume_h24": 360.95,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.275868886
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
