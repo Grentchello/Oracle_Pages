@@ -16558,3 +16558,6 @@
 ## [2026-09-08 00:19 UTC] sell | [FULL][LLM] $STFU at $3.15056e-06 | P&L: +0.1%
 - **Reasoning:** Position is flat (+0.1%) after just opening, no momentum, and I need to free the slot for fresh attention launches. Stale-flat entries are the worst place to be — capital is locked with no upside catalyst.
 
+## [2026-09-08 00:24 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
