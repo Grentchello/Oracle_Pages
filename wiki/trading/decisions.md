@@ -16759,3 +16759,6 @@
 ## [2026-09-08 05:09 UTC] sell | [FULL][LLM] $CWP at $3.49358e-06 | P&L: -27.4%
 - **Reasoning:** $CWP is at -27.4%, near the -30% hard stop. With only 0% pool share and no clear bounce catalyst visible (bonding-curve token, age 0h, weak liquidity $311), holding into the hard stop is irrational. Cut the loss now and free the slot for fresh attention.
 
+## [2026-09-08 05:43 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
