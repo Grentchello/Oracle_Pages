@@ -1,8 +1,32 @@
 {
-  "balance_sol": 0.087424,
+  "balance_sol": 0.067424,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "F3ChUeXY5NBUJjSL1sFmAobP1fmDrYJf8GoJth9cpump": {
+      "symbol": "NOM",
+      "name": "Nominal1969",
+      "amount": 460003.99604285613,
+      "entry_price_usd": 4.52487373567529e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-08T01:07:24.717029+00:00",
+      "entry_usd_value": 2.08146,
+      "last_seen_price_usd": 4.52487373567529e-06,
+      "entry_signals": {
+        "liquidity_usd": 773.01758220429,
+        "volume_24h_usd": null,
+        "market_cap_usd": 4524.186633339836,
+        "ath_market_cap_usd": 4524.186633339836,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 7.42764773,
+        "description": "A platform designed to bring real-world assets and financial products onchain ",
+        "twitter": "https://x.com/Nominal1969",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38799,17 +38823,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-08T01:06:03.787660+00:00",
+  "last_updated": "2026-09-08T01:07:24.985874+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.13,
+  "last_sol_price_usd": 104.073,
   "portfolio_value_usd": 9.1,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 23:19 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-07 23:31 UTC",
       "action": "observe",
@@ -38923,6 +38941,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $COD at $2.93113e-06 | P&L: +0.1%",
       "reason": "$COD is flat at +0.1% after 12 minutes (0.2h), pool only $10, our share 20% — this is a dead microcap with no momentum and no narrative. Capital is better rotated into a fresh launch with attention."
+    },
+    {
+      "time": "2026-09-08 01:07 UTC",
+      "action": "buy",
+      "details": "[LLM] $NOM at $4.52487e-06, spent 0.02 SOL",
+      "reason": "$NOM has the strongest narrative of the batch — RWA (real-world assets) onchain is a hot narrative with a viral X account @Nominal1969 attached. Sub-$5k mcap with 17% bond progress and a clear thesis; this is the kind of fresh attention that 5-10x's in hours."
     }
   ],
   "trade_stats": {
@@ -38944,7 +38968,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T01:06:03.269910+00:00",
+  "last_llm_brief_at": "2026-09-08T01:07:23.322025+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",

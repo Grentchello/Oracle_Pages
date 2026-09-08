@@ -16591,3 +16591,6 @@
 ## [2026-09-08 01:04 UTC] sell | [FULL][LLM] $COD at $2.93113e-06 | P&L: +0.1%
 - **Reasoning:** $COD is flat at +0.1% after 12 minutes (0.2h), pool only $10, our share 20% — this is a dead microcap with no momentum and no narrative. Capital is better rotated into a fresh launch with attention.
 
+## [2026-09-08 01:07 UTC] buy | [LLM] $NOM at $4.52487e-06, spent 0.02 SOL
+- **Reasoning:** $NOM has the strongest narrative of the batch — RWA (real-world assets) onchain is a hot narrative with a viral X account @Nominal1969 attached. Sub-$5k mcap with 17% bond progress and a clear thesis; this is the kind of fresh attention that 5-10x's in hours.
+
