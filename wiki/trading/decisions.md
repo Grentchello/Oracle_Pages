@@ -16636,3 +16636,6 @@
 ## [2026-09-08 02:02 UTC] buy | [LLM] $$BNTR at $2.94819e-06, spent 0.02 SOL
 - **Reasoning:** $BNTR (Bountura) — clearest narrative in this batch: advertiser-funded task rewards paying USDC/USDG. Passes viability gate (description ≥50 chars + twitter link). Real concept vs. the noise of ATM copycats and number-meme junk. Small position to keep reserve.
 
+## [2026-09-08 02:05 UTC] sell | [FULL][LLM] $$BNTR at $2.9293e-06 | P&L: -0.6%
+- **Reasoning:** Position is only 0.0h old, down -0.6%, no real pump signal yet, mcap pool is tiny at $8. Cutting loose to free the slot for fresher attention plays where the alpha actually is.
+

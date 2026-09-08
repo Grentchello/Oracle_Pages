@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.078871,
+  "balance_sol": 0.098773,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8Wg1TtGEGva5k8G3FTx8D2qKWSEhQniSVhqXR2Fspump": {
-      "symbol": "$BNTR",
-      "name": "Bountura",
-      "amount": 708027.1259149465,
-      "entry_price_usd": 2.948192129365894e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-08T02:02:58.354067+00:00",
-      "entry_usd_value": 2.0874,
-      "last_seen_price_usd": 2.9307104124707413e-06,
-      "entry_signals": {
-        "liquidity_usd": 16.113614789579998,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2945.6498538878545,
-        "ath_market_cap_usd": 4058.0113278530907,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.154389334,
-        "description": "Get paid for tasks. Hold $BNTR. Get paid again. Advertiser-funded tasks pay USDC on Solana or USDG on Robinhood Chain. Weekly Bounty Vault.",
-        "twitter": "https://x.com/Bountura",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38974,19 +38950,30 @@
       "pnl_pct": 88.47,
       "exit_reason": "LLM: sell_all — Up +88.5% in 0h — well past auto-TP thresholds. Lock the gain now. The discipline rules say exactly this: up >20% with any doubt, take profit. Capital",
       "partial": false
+    },
+    {
+      "mint": "8Wg1TtGEGva5k8G3FTx8D2qKWSEhQniSVhqXR2Fspump",
+      "symbol": "$BNTR",
+      "name": "Bountura",
+      "amount_sold": 708027.1259149465,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-08T02:02:58.354067+00:00",
+      "exit_time": "2026-09-08T02:05:40.566021+00:00",
+      "entry_price_usd": 2.948192129365894e-06,
+      "exit_price_usd": 2.929304930784346e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019902,
+      "pnl_sol": -9.8e-05,
+      "pnl_pct": -0.64,
+      "exit_reason": "LLM: sell_all — Position is only 0.0h old, down -0.6%, no real pump signal yet, mcap pool is tiny at $8. Cutting loose to free the slot for fresher attention plays wh",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-08T02:04:21.382153+00:00",
+  "last_updated": "2026-09-08T02:05:41.332653+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.26,
-  "portfolio_value_usd": 10.31,
+  "last_sol_price_usd": 104.21,
+  "portfolio_value_usd": 10.29,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 00:40 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $HEGOTA at $2.90578e-06 | P&L: -21.7%",
-      "reason": "At -21.7% and approaching -30% hard stop, bonding curve position is illiquid with no bounce signal. Cut the loss now before hard stop triggers at worse price."
-    },
     {
       "time": "2026-09-08 00:44 UTC",
       "action": "buy",
@@ -39100,35 +39087,41 @@
       "action": "buy",
       "details": "[LLM] $$BNTR at $2.94819e-06, spent 0.02 SOL",
       "reason": "$BNTR (Bountura) — clearest narrative in this batch: advertiser-funded task rewards paying USDC/USDG. Passes viability gate (description ≥50 chars + twitter link). Real concept vs. the noise of ATM copycats and number-meme junk. Small position to keep reserve."
+    },
+    {
+      "time": "2026-09-08 02:05 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $$BNTR at $2.9293e-06 | P&L: -0.6%",
+      "reason": "Position is only 0.0h old, down -0.6%, no real pump signal yet, mcap pool is tiny at $8. Cutting loose to free the slot for fresher attention plays where the alpha actually is."
     }
   ],
   "trade_stats": {
-    "total": 2291,
+    "total": 2292,
     "wins": 1169,
-    "losses": 1122,
+    "losses": 1123,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.233783,
-    "avg_pnl_pct": 30.64,
+    "total_pnl_sol": -2.233881,
+    "avg_pnl_pct": 30.62,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 18,
-    "today_realized_sol": 0.007087,
-    "today_target_pct": 1.8,
+    "today_trades": 19,
+    "today_realized_sol": 0.006989,
+    "today_target_pct": 1.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1169,
-      "loss_count": 1122,
+      "loss_count": 1123,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T02:04:21.382080+00:00",
+  "last_llm_brief_at": "2026-09-08T02:05:40.565980+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "8Wg1TtGEGva5k8G3FTx8D2qKWSEhQniSVhqXR2Fspump": {
-      "price_usd": 2.9307104124707413e-06,
+      "price_usd": 2.929304930784346e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 8.41481719754,
+      "liquidity_usd": 8.41078170109,
       "volume_h24": 1133.15,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
