@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.084976,
+  "balance_sol": 0.089821,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "F3ChUeXY5NBUJjSL1sFmAobP1fmDrYJf8GoJth9cpump": {
-      "symbol": "NOM",
-      "name": "Nominal1969",
-      "amount": 172501.49851607106,
-      "entry_price_usd": 4.52487373567529e-06,
-      "entry_sol_spent": 0.0075,
-      "entry_time": "2026-09-08T01:07:24.717029+00:00",
-      "entry_usd_value": 2.08146,
-      "last_seen_price_usd": 6.354246757464621e-06,
-      "entry_signals": {
-        "liquidity_usd": 773.01758220429,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4524.186633339836,
-        "ath_market_cap_usd": 4524.186633339836,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 7.42764773,
-        "description": "A platform designed to bring real-world assets and financial products onchain ",
-        "twitter": "https://x.com/Nominal1969",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38855,19 +38831,30 @@
       "pnl_pct": 40.43,
       "exit_reason": "LLM: sell_half — $NOM is +40.4% after <1 min held, sitting between the 25% and 50% TP thresholds. Bot hasn't auto-triggered yet. Lock half profits now - this is textbo",
       "partial": true
+    },
+    {
+      "mint": "F3ChUeXY5NBUJjSL1sFmAobP1fmDrYJf8GoJth9cpump",
+      "symbol": "NOM",
+      "name": "Nominal1969",
+      "amount_sold": 172501.49851607106,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-08T01:07:24.717029+00:00",
+      "exit_time": "2026-09-08T01:09:59.409094+00:00",
+      "entry_price_usd": 4.52487373567529e-06,
+      "exit_price_usd": 2.924922275322228e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.004845,
+      "pnl_sol": -0.002655,
+      "pnl_pct": -35.36,
+      "exit_reason": "hard-stop -30%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-08T01:08:55.980601+00:00",
+  "last_updated": "2026-09-08T01:10:11.572242+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.083,
-  "portfolio_value_usd": 9.63,
+  "last_sol_price_usd": 104.14,
+  "portfolio_value_usd": 9.35,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 00:07 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Kgc at $2.89928e-06 | P&L: -8.1%",
-      "reason": "Pool is $1 with my share at 266% — I am effectively the entire liquidity. Down 8% in 6 min with no buyers means this is a dead bonding-curve token. Cut loss now, free capital for a fresh launch with real attention signal."
-    },
     {
       "time": "2026-09-08 00:10 UTC",
       "action": "buy",
@@ -38981,40 +38968,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $NOM at $6.35425e-06 | P&L: +40.4%",
       "reason": "$NOM is +40.4% after <1 min held, sitting between the 25% and 50% TP thresholds. Bot hasn't auto-triggered yet. Lock half profits now - this is textbook attention-market behavior (fast pump in first hour) and giving back gains is the bigger risk than leaving a runner. Half rides to next TP, half becomes realized."
+    },
+    {
+      "time": "2026-09-08 01:09 UTC",
+      "action": "sell",
+      "details": "[hard-stop] $NOM closed at $2.92492e-06 | P&L: -35.4%",
+      "reason": "Hard -30% stop"
     }
   ],
   "trade_stats": {
-    "total": 2284,
+    "total": 2285,
     "wins": 1165,
-    "losses": 1119,
+    "losses": 1120,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.240178,
-    "avg_pnl_pct": 30.62,
+    "total_pnl_sol": -2.242833,
+    "avg_pnl_pct": 30.59,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 11,
-    "today_realized_sol": 0.000692,
-    "today_target_pct": 0.2,
+    "today_trades": 12,
+    "today_realized_sol": -0.001963,
+    "today_target_pct": -0.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1165,
-      "loss_count": 1119,
+      "loss_count": 1120,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T01:08:55.979249+00:00",
+  "last_llm_brief_at": "2026-09-08T01:10:11.079200+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "F3ChUeXY5NBUJjSL1sFmAobP1fmDrYJf8GoJth9cpump": {
-      "price_usd": 6.354246757464621e-06,
+      "price_usd": 2.924922275322228e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1491.561388305555,
-      "volume_h24": 805.44,
+      "liquidity_usd": 7.11270482714,
+      "volume_h24": 4028.19,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 14.330499585
+      "real_sol_reserves": 0.068299451
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

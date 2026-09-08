@@ -16600,3 +16600,6 @@
 ## [2026-09-08 01:08 UTC] sell | [PARTIAL][LLM] $NOM at $6.35425e-06 | P&L: +40.4%
 - **Reasoning:** $NOM is +40.4% after <1 min held, sitting between the 25% and 50% TP thresholds. Bot hasn't auto-triggered yet. Lock half profits now - this is textbook attention-market behavior (fast pump in first hour) and giving back gains is the bigger risk than leaving a runner. Half rides to next TP, half becomes realized.
 
+## [2026-09-08 01:09 UTC] sell | [hard-stop] $NOM closed at $2.92492e-06 | P&L: -35.4%
+- **Reasoning:** Hard -30% stop
+
