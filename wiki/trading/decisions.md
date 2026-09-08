@@ -16621,3 +16621,9 @@
 ## [2026-09-08 01:54 UTC] buy | [LLM] $MVP at $7.461e-06, spent 0.02 SOL
 - **Reasoning:** Strongest attention signal in this batch — viral across multiple sports outlets plus Polymarket reference, with twitter link to @Devilantesol driving narrative. $MVP at 1min old and mcap $9.5k is still early enough for 2-5x in the first hour if the sports-twitter crowd piles in. Risk: position size 0.05 SOL will drop reserve below the 0.05 minimum given current 0.0821 SOL free balance — bot may reject on reserve/liquidity gate. Fragility-checked: not on political/celebrity blocklist, ME2F evaluation pending against real-time holder data.
 
+## [2026-09-08 01:55 UTC] sell | [TP +30% (25%)] $MVP at $1.35444e-05 | P&L: +81.5%
+- **Reasoning:** Auto take-profit at +81.5%
+
+## [2026-09-08 01:56 UTC] sell | [PARTIAL][LLM] $MVP at $1.35444e-05 | P&L: +81.5%
+- **Reasoning:** +81.5% in <1 min is parabolic and likely to retrace. Locking half the position secures ~0.02 SOL profit while letting the other half ride toward the +100% TP threshold (which auto-triggers at 50% sold). Disciplined scalp.
+

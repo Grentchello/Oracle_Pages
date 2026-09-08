@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.062064,
+  "balance_sol": 0.084752,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7csSTyCkCMAbYTwLqRin4cYqzz9u7716isrQorSupump": {
       "symbol": "MVP",
       "name": "Most Valuable Pussy",
-      "amount": 279238.70794799627,
+      "amount": 104714.51548049861,
       "entry_price_usd": 7.461e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-08T01:54:28.408800+00:00",
       "entry_usd_value": 2.0834,
-      "last_seen_price_usd": 7.461e-06,
+      "last_seen_price_usd": 1.3544420759000139e-05,
       "entry_signals": {
         "liquidity_usd": 3182.2521764152903,
         "volume_24h_usd": 16224.61,
@@ -38906,25 +38906,47 @@
       "pnl_pct": -30.93,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "7csSTyCkCMAbYTwLqRin4cYqzz9u7716isrQorSupump",
+      "symbol": "MVP",
+      "name": "Most Valuable Pussy",
+      "amount_sold": 69809.67698699907,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-08T01:54:28.408800+00:00",
+      "exit_time": "2026-09-08T01:55:32.230313+00:00",
+      "entry_price_usd": 7.461e-06,
+      "exit_price_usd": 1.3544420759000139e-05,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.009075,
+      "pnl_sol": 0.004075,
+      "pnl_pct": 81.54,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "7csSTyCkCMAbYTwLqRin4cYqzz9u7716isrQorSupump",
+      "symbol": "MVP",
+      "name": "Most Valuable Pussy",
+      "amount_sold": 104714.51548049861,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-08T01:54:28.408800+00:00",
+      "exit_time": "2026-09-08T01:56:01.315227+00:00",
+      "entry_price_usd": 7.461e-06,
+      "exit_price_usd": 1.3544420759000139e-05,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.013613,
+      "pnl_sol": 0.006113,
+      "pnl_pct": 81.54,
+      "exit_reason": "LLM: sell_half — +81.5% in <1 min is parabolic and likely to retrace. Locking half the position secures ~0.02 SOL profit while letting the other half ride toward the +",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-08T01:54:28.408980+00:00",
+  "last_updated": "2026-09-08T01:56:01.316593+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.17,
-  "portfolio_value_usd": 8.55,
+  "last_sol_price_usd": 104.19,
+  "portfolio_value_usd": 9.61,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 00:25 UTC",
-      "action": "buy",
-      "details": "[LLM] $mlgk at $3.77261e-06, spent 0.02 SOL",
-      "reason": "$mlgk (mlg Kirk): MLG meme nostalgia is a proven viral genre, 'legendary energy / chaotic vibes' copy is on-theme, twitter link to gh1stsol. Pure attention play. 0.05 SOL position."
-    },
-    {
-      "time": "2026-09-08 00:27 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $mlgk at $3.18871e-06 | P&L: -15.5%",
-      "reason": "$mlgk is already -15.5% in essentially zero time held, sitting in a $154 pool where we already own 1%. That's whale-thin liquidity for our size, and -15% becomes -30% fast in these conditions. Discipline rule: down >20% with no bounce = exit. Better to cut at -15% than wait for the hard -30% stop and free up capital for a real entry."
-    },
     {
       "time": "2026-09-08 00:33 UTC",
       "action": "buy",
@@ -39032,30 +39054,54 @@
       "action": "buy",
       "details": "[LLM] $MVP at $7.461e-06, spent 0.02 SOL",
       "reason": "Strongest attention signal in this batch — viral across multiple sports outlets plus Polymarket reference, with twitter link to @Devilantesol driving narrative. $MVP at 1min old and mcap $9.5k is still early enough for 2-5x in the first hour if the sports-twitter crowd piles in. Risk: position size 0.05 SOL will drop reserve below the 0.05 minimum given current 0.0821 SOL free balance — bot may reject on reserve/liquidity gate. Fragility-checked: not on political/celebrity blocklist, ME2F evaluation pending against real-time holder data."
+    },
+    {
+      "time": "2026-09-08 01:55 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $MVP at $1.35444e-05 | P&L: +81.5%",
+      "reason": "Auto take-profit at +81.5%"
+    },
+    {
+      "time": "2026-09-08 01:56 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $MVP at $1.35444e-05 | P&L: +81.5%",
+      "reason": "+81.5% in <1 min is parabolic and likely to retrace. Locking half the position secures ~0.02 SOL profit while letting the other half ride toward the +100% TP threshold (which auto-triggers at 50% sold). Disciplined scalp."
     }
   ],
   "trade_stats": {
-    "total": 2287,
-    "wins": 1165,
+    "total": 2289,
+    "wins": 1167,
     "losses": 1122,
-    "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.25059,
-    "avg_pnl_pct": 30.54,
+    "win_rate_pct": 51.0,
+    "total_pnl_sol": -2.240402,
+    "avg_pnl_pct": 30.59,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 14,
-    "today_realized_sol": -0.00972,
-    "today_target_pct": -2.4,
+    "today_trades": 16,
+    "today_realized_sol": 0.000468,
+    "today_target_pct": 0.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1165,
+      "win_count": 1167,
       "loss_count": 1122,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T01:54:27.083157+00:00",
+  "last_llm_brief_at": "2026-09-08T01:56:01.315186+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "7csSTyCkCMAbYTwLqRin4cYqzz9u7716isrQorSupump": {
+      "price_usd": 1.3544420759000139e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3614.20425450981,
+      "volume_h24": 25665.94,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 34.688590599
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
