@@ -16570,3 +16570,9 @@
 ## [2026-09-08 00:33 UTC] buy | [LLM] $ClaudeOS at $1.7216e-05, spent 0.02 SOL
 - **Reasoning:** $ClaudeOS — strongest narrative in the batch: 'agentic OS for the trenches' is a sharp AI-agent pitch targeting the degen audience, dedicated twitter handle exists, $17k mcap with real story (not generic). Viability gate passes (desc+twitter). Sizing at 0.035 SOL to stay safely above 0.05 reserve.
 
+## [2026-09-08 00:35 UTC] sell | [FULL][LLM] $ClaudeOS at $2.1902e-05 | P&L: +27.2%
+- **Reasoning:** +27.2% gain with bonding curve only 10% complete, very low liquidity ($5,440), and brand new position. Take profit now — bonding curve dumps are brutal and we have no track record yet to justify holding through potential reversion.
+
+## [2026-09-08 00:35 UTC] buy | [LLM] $HEGOTA at $3.709e-06, spent 0.02 SOL
+- **Reasoning:** Cointelegraph tweet (major crypto media attention) referencing Ethereum Foundation's Hegota upgrade with real technical hook (FOCIL, Frame Transactions). Narrative + verified tier-1 media mention = strong attention signal. Early age (1.5min), low mcap $3.7k = room to run.
+
