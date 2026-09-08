@@ -16549,3 +16549,9 @@
 ## [2026-09-08 00:11 UTC] sell | [FULL][LLM] $Kgc at $2.89879e-06 | P&L: -8.1%
 - **Reasoning:** $Kgc is down 8.1% at 0.2h held with pool=$0 and no bounce signal. The 7847834% share figure reflects a near-empty bonding curve with effectively no liquidity to exit into at any reasonable price. Cut now before it goes stale or worse — freeing the slot is more valuable than holding a ghost position.
 
+## [2026-09-08 00:18 UTC] sell | [FULL][LLM] $SA at $2.97319e-06 | P&L: -3.5%
+- **Reasoning:** $SA is down only -3.5% but the structural risk is unacceptable: pool=$39 and our share=5% means exit will be brutal on any further move, and there's no narrative or catalyst visible to justify holding a bag in a near-empty bonding curve. Rotating capital into a fresh attention launch is the higher-EV play.
+
+## [2026-09-08 00:18 UTC] buy | [LLM] $STFU at $3.147e-06, spent 0.02 SOL
+- **Reasoning:** $STFU has the cleanest attention signal in the batch: a real LaunchX2_ tweet, an actually viral-able 'cat picked a direction' meme narrative, fresh (0.7min, bonding 4%), mcap $3.1k with room to run, and passes viability+fragility gates. Highest narrative-to-mcap ratio on the slate.
+
