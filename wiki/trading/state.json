@@ -1,8 +1,32 @@
 {
-  "balance_sol": 0.073556,
+  "balance_sol": 0.053556,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "DHE39sDdK5aVQCdZCQ8CdA6CA8W4NZJKznDq9jaUpump": {
+      "symbol": "MACINTOSH",
+      "name": "MACINTOSH",
+      "amount": 653726.6095781794,
+      "entry_price_usd": 3.153e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-08T05:00:28.264411+00:00",
+      "entry_usd_value": 2.0612,
+      "last_seen_price_usd": 3.153e-06,
+      "entry_signals": {
+        "liquidity_usd": 142.5027166283,
+        "volume_24h_usd": 718.07,
+        "market_cap_usd": 3152.272678571539,
+        "ath_market_cap_usd": 3637.5418066298917,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.382716055,
+        "description": "The Macintosh is a line of personal computers designed, developed, and marketed by Apple since January 1984.",
+        "twitter": "https://x.com/blackrorys",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39292,17 +39316,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-08T04:59:09.744000+00:00",
+  "last_updated": "2026-09-08T05:00:28.264594+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.046,
+  "last_sol_price_usd": 103.06,
   "portfolio_value_usd": 7.58,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 03:18 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $ChadGPT at $8.52486e-06 | P&L: +56.9%",
-      "reason": "Auto take-profit at +56.9%"
-    },
     {
       "time": "2026-09-08 03:18 UTC",
       "action": "sell",
@@ -39416,6 +39434,12 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-08 05:00 UTC",
+      "action": "buy",
+      "details": "[LLM] $MACINTOSH at $3.153e-06, spent 0.02 SOL",
+      "reason": "$MACINTOSH passes viability (137-char desc, twitter present), not on fragility blocklist. Retro Apple nostalgia is a strong brand-derivative meme with viral potential. Mcap $3.1k, bond 4% — very early entry. Ruggish risk on microcap but narrative is clean."
     }
   ],
   "trade_stats": {
@@ -39437,7 +39461,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T04:59:09.743779+00:00",
+  "last_llm_brief_at": "2026-09-08T05:00:26.879277+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
