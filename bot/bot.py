@@ -51,6 +51,9 @@ PUMPFUN_NEW_LAUNCHES = "https://frontend-api-v3.pump.fun/coins?limit=30&offset=0
 SOL_MINT = "So11111111111111111111111111111111111111112"
 
 # === Strategy parameters (safeguards — LLM can't override) ===
+# v8.5 EMERGENCY: bot was bleeding fast. Temporarily disable new entries.
+PAUSE_NEW_ENTRIES = True         # Set True to halt new buys (v8.5 emergency brake)
+
 # Conservative restart params (v8.3) — much tighter than v7
 POSITION_SIZE_SOL = 0.01         # $1 per position (was $2 — minimum to survive rugs)
 MAX_POSITIONS = 1                # max 1 concurrent (was 2 — limit exposure)
@@ -1311,6 +1314,10 @@ def main():
             except Exception as e:
                 log(f"GMGN fragility check failed: {e}")
 
+            # EMERGENCY BRAKE — refuse all new entries if paused
+            if PAUSE_NEW_ENTRIES:
+                log(f"⏸️ PAUSED: Skipping ${token.get('symbol')} — PAUSE_NEW_ENTRIES=True")
+                continue
             # Dedup by symbol within tick — LLM sometimes picks same mint twice
             existing_syms = {p.get("symbol") for p in state.get("positions", {}).values()}
             if token.get("symbol") in existing_syms:
