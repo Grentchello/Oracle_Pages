@@ -16642,3 +16642,6 @@
 ## [2026-09-08 02:29 UTC] buy | [LLM] $Ponymarket at $3.228e-06, spent 0.02 SOL
 - **Reasoning:** $Ponymarket taps the Polymarket prediction-market meta (genuinely trending) with a creative 'animal runner' angle and a real X mention; low mcap $2.9k means thin liquidity (risk: rug or zero-volume) but the narrative is the sharpest in this batch.
 
+## [2026-09-08 02:34 UTC] sell | [FULL][LLM] $Ponymarket at $2.94287e-06 | P&L: -8.8%
+- **Reasoning:** $Ponymarket is down -8.8% after only 6min with a $20 pool (10% of it is mine — I'm the only meaningful exit liquidity). This is going to -30% hard stop if I wait. Cut it now, free the slot, lock a tiny loss instead of a guaranteed bigger one.
+
