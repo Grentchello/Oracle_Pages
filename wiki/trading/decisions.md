@@ -16594,3 +16594,9 @@
 ## [2026-09-08 01:07 UTC] buy | [LLM] $NOM at $4.52487e-06, spent 0.02 SOL
 - **Reasoning:** $NOM has the strongest narrative of the batch — RWA (real-world assets) onchain is a hot narrative with a viral X account @Nominal1969 attached. Sub-$5k mcap with 17% bond progress and a clear thesis; this is the kind of fresh attention that 5-10x's in hours.
 
+## [2026-09-08 01:08 UTC] sell | [TP +30% (25%)] $NOM at $6.35425e-06 | P&L: +40.4%
+- **Reasoning:** Auto take-profit at +40.4%
+
+## [2026-09-08 01:08 UTC] sell | [PARTIAL][LLM] $NOM at $6.35425e-06 | P&L: +40.4%
+- **Reasoning:** $NOM is +40.4% after <1 min held, sitting between the 25% and 50% TP thresholds. Bot hasn't auto-triggered yet. Lock half profits now - this is textbook attention-market behavior (fast pump in first hour) and giving back gains is the bigger risk than leaving a runner. Half rides to next TP, half becomes realized.
+
