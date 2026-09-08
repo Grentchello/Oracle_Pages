@@ -358,3 +358,30 @@ Expected impact:
 - 24h max hold prevents stale positions bleeding
 
 Last 24h is positive +0.011 SOL, so bot IS working — just needs tighter risk management.
+
+## [2026-09-08] update | Memecoin bot v8.5 — bot was bleeding fast, fixed critical bugs
+
+**State at intervention:**
+- Balance: **0.066 SOL** (started 0.5, lost 87%)
+- Last 24h: **-0.0611 SOL** (79 trades, 42 wins vs 34 losses, but losses 2x bigger)
+- All-time: **-2.5+ SOL** total
+
+**Critical bugs found in v8.4:**
+1. **`HARD_STOP_LOSS = 0.30` not 0.20** — my edit didn't apply (bot was holding file handle)
+2. **Rapid-drop detector never fired** — `last_seen_price_usd` was updated BEFORE the check, so `prev_price == cur_price`
+3. **Hitting -95% on "hard-stop -30%"** because the price drops 95% in 60s, bot catches at next tick
+
+**Fixes (v8.5):**
+- **HARD_STOP_LOSS: -30% → -20%** (catches dumps sooner)
+- **Rapid-drop detector order fixed** (compare to PREVIOUS tick's price)
+- **POSITION_SIZE: 0.02 → 0.01 SOL** (smaller bets = smaller losses)
+- **MAX_POSITIONS: 2 → 1** (limit exposure)
+- **DAILY_MAX_LOSS: 0.05 → 0.02 SOL** (stop bleeding faster)
+- **Bot killed + restarted** to load new code
+
+**Result:**
+- Daily loss cap triggered immediately (-0.0254 < -0.02)
+- Bot stopped trading for the rest of the day
+- Will resume tomorrow when daily PnL resets
+
+Bot still bleeding because memecoin market is brutal right now. Consider pausing entirely until conditions improve.
