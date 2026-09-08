@@ -16651,3 +16651,6 @@
 ## [2026-09-08 02:36 UTC] sell | [hard-stop] $ORGY closed at $3.19737e-06 | P&L: -41.1%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-08 02:38 UTC] buy | [LLM] $OTC at $3.10177e-06, spent 0.02 SOL
+- **Reasoning:** $OTC 'Own The Casino' rides the prediction-market meta (Polymarket, Kalshi, HYPE all in description) — a coherent narrative tying real cultural attention (election betting, Kalshi going mainstream) to a coin. Fresh launch at $3.1k mcap with paired-token story gives it 10x potential if the narrative catches. Best narrative of the batch.
+
