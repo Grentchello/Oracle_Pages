@@ -16609,3 +16609,9 @@
 ## [2026-09-08 01:45 UTC] buy | [LLM] $applecat at $4.7e-06, spent 0.02 SOL
 - **Reasoning:** $APPLECAT has clearest narrative of the bunch: branded X handle (APPLCATsolX), real description with cat meme angle, mcap $4.7k under 2 min old. Fits viability gate and no fragility keywords. Fresh launch alpha.
 
+## [2026-09-08 01:47 UTC] sell | [FULL][LLM] $applecat at $4.327e-06 | P&L: -7.9%
+- **Reasoning:** Down -7.9% at 0.0h held with bonding-curve only $685 pool and 0% share — fresh entry, no momentum, no reason to bag-hold a name with no clear catalyst. Free up slot and capital for the new attention-launched names.
+
+## [2026-09-08 01:47 UTC] buy | [LLM] $Bubbles at $4.256e-06, spent 0.02 SOL
+- **Reasoning:** $Bubbles has a real narrative hook — Apple's upcoming AI companion tied to $AAPL with fee buybacks, and a CoolCat promo tweet. mcap $3.7k is tiny but that IS the alpha window.
+
