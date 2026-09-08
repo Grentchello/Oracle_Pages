@@ -55,7 +55,7 @@ SOL_MINT = "So11111111111111111111111111111111111111112"
 POSITION_SIZE_SOL = 0.02         # $2 per position (was 0.05 in v7)
 MAX_POSITIONS = 2                # max 2 concurrent (was 5)
 MAX_HOLD_HOURS = 24  # 24h max hold (was 72; tight) — memecoins die fast
-HARD_STOP_LOSS = 0.30        # -30% hard cap
+HARD_STOP_LOSS = 0.20        # -20% hard cap (was -30% before v8.4)
 DAILY_MAX_LOSS_SOL = 0.05    # daily loss cap -0.05 SOL (was 0.20)
 RESERVE_SOL = 0.05
 
@@ -1006,9 +1006,8 @@ def main():
             log(f"⚠️ Suspiciously low price for ${pos.get('symbol')}: ${cur_price} vs entry ${entry_price_check} — likely API error, skipping")
             continue
         entry_price = _to_float(pos.get("entry_price_usd"))
-        # Update last seen price for next tick's rapid-drop detection
-        pos["last_seen_price_usd"] = cur_price
         # Rapid drop detector: if price dropped >15% since last tick, emergency exit
+        # (check BEFORE updating last_seen, so we compare to previous tick's price)
         prev_price = _to_float(pos.get("last_seen_price_usd", 0))
         if prev_price > 0 and cur_price / prev_price <= 0.85:
             trade = execute_sell(state, mint, cur_price, 1.0, "rapid-drop -15%/tick")
@@ -1029,6 +1028,9 @@ def main():
                     "details": f"[hard-stop] ${trade['symbol']} closed at ${cur_price:.6g} | P&L: {trade['pnl_pct']:+.1f}%",
                     "reason": f"Hard -{int(HARD_STOP_LOSS*100)}% stop",
                 })
+        else:
+            # Position still open after checks — update last_seen for next tick
+            pos["last_seen_price_usd"] = cur_price
 
     # 8b. Auto take-profit — lock in gains (non-negotiable)
     for mint, pos in list(state.get("positions", {}).items()):
