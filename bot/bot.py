@@ -52,11 +52,11 @@ SOL_MINT = "So11111111111111111111111111111111111111112"
 
 # === Strategy parameters (safeguards — LLM can't override) ===
 # Conservative restart params (v8.3) — much tighter than v7
-POSITION_SIZE_SOL = 0.02         # $2 per position (was 0.05 in v7)
-MAX_POSITIONS = 2                # max 2 concurrent (was 5)
+POSITION_SIZE_SOL = 0.01         # $1 per position (was $2 — minimum to survive rugs)
+MAX_POSITIONS = 1                # max 1 concurrent (was 2 — limit exposure)
 MAX_HOLD_HOURS = 24  # 24h max hold (was 72; tight) — memecoins die fast
 HARD_STOP_LOSS = 0.20        # -20% hard cap (was -30% before v8.4)
-DAILY_MAX_LOSS_SOL = 0.05    # daily loss cap -0.05 SOL (was 0.20)
+DAILY_MAX_LOSS_SOL = 0.02    # daily loss cap -0.02 SOL (was 0.05 — tighter)
 RESERVE_SOL = 0.05
 
 # Conservative mode flag
