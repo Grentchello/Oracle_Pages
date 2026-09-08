@@ -16627,3 +16627,9 @@
 ## [2026-09-08 01:56 UTC] sell | [PARTIAL][LLM] $MVP at $1.35444e-05 | P&L: +81.5%
 - **Reasoning:** +81.5% in <1 min is parabolic and likely to retrace. Locking half the position secures ~0.02 SOL profit while letting the other half ride toward the +100% TP threshold (which auto-triggers at 50% sold). Disciplined scalp.
 
+## [2026-09-08 01:57 UTC] sell | [TP +30% (25%)] $MVP at $1.4062e-05 | P&L: +88.5%
+- **Reasoning:** Auto take-profit at +88.5%
+
+## [2026-09-08 01:57 UTC] sell | [FULL][LLM] $MVP at $1.4062e-05 | P&L: +88.5%
+- **Reasoning:** Up +88.5% in 0h — well past auto-TP thresholds. Lock the gain now. The discipline rules say exactly this: up >20% with any doubt, take profit. Capital freed enables fresh entries.
+
