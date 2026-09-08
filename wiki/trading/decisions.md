@@ -16648,3 +16648,6 @@
 ## [2026-09-08 02:35 UTC] buy | [LLM] $ORGY at $5.42829e-06, spent 0.02 SOL
 - **Reasoning:** Crude 'DIABOLICAL orgy' tweet from @Devilantesol is exactly the kind of shock-value copy that spreads on X. Provocative name + low mcap ($5.4k) + viral tweet = meme attention catalyst. Higher rug risk so sizing small.
 
+## [2026-09-08 02:36 UTC] sell | [hard-stop] $ORGY closed at $3.19737e-06 | P&L: -41.1%
+- **Reasoning:** Hard -30% stop
+
