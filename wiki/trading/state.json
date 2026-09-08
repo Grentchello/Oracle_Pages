@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.051834,
+  "balance_sol": 0.066345,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CJJV3pSKUTiXEUcw2yn1ocduEYjKuH8KvS71E8Pspump": {
-      "symbol": "CWP",
-      "name": "Cat Wif Pistol",
-      "amount": 428525.8779566929,
-      "entry_price_usd": 4.81137804286435e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-08T05:07:46.338014+00:00",
-      "entry_usd_value": 2.0618000000000003,
-      "last_seen_price_usd": 4.81137804286435e-06,
-      "entry_signals": {
-        "liquidity_usd": 812.79926331188,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4809.990456418379,
-        "ath_market_cap_usd": 4809.990456418379,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 7.884365732,
-        "description": "Cat wif pistol is the most liked meme this month featured on Instagram and other social medias for marking 1m+ likes in just a few days and I’ve onboarded them.",
-        "twitter": "https://x.com/muikicho/status/2097189926391386177?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39331,19 +39307,30 @@
       "pnl_pct": -8.54,
       "exit_reason": "LLM: sell_all — MACINTOSH is down8.5% but barely held (0.0h on bonding curve, pool=$0, our share looks like a unit-display glitch but indicates illiquidity). Bonding-",
       "partial": false
+    },
+    {
+      "mint": "CJJV3pSKUTiXEUcw2yn1ocduEYjKuH8KvS71E8Pspump",
+      "symbol": "CWP",
+      "name": "Cat Wif Pistol",
+      "amount_sold": 428525.8779566929,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-08T05:07:46.338014+00:00",
+      "exit_time": "2026-09-08T05:09:18.367172+00:00",
+      "entry_price_usd": 4.81137804286435e-06,
+      "exit_price_usd": 3.4935752993639923e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.014511,
+      "pnl_sol": -0.005489,
+      "pnl_pct": -27.39,
+      "exit_reason": "LLM: sell_all — $CWP is at -27.4%, near the -30% hard stop. With only 0% pool share and no clear bounce catalyst visible (bonding-curve token, age 0h, weak liquidity ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-08T05:07:46.338184+00:00",
+  "last_updated": "2026-09-08T05:09:18.619034+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.09,
-  "portfolio_value_usd": 7.41,
+  "last_sol_price_usd": 103.17,
+  "portfolio_value_usd": 6.84,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 03:19 UTC",
-      "action": "buy",
-      "details": "[LLM] $BEAR at $2.917e-06, spent 0.02 SOL",
-      "reason": "$BEAR has the strongest narrative of the batch — viral ABC News video of a bear crossing a street in Gatlinburg, real mainstream media attention (not just CT). Real-world viral clip + animal meme = classic attention-market play. Mcap only $2.9k, bond 1%, very early. This is the highest-quality attention signal in the feed."
-    },
     {
       "time": "2026-09-08 03:21 UTC",
       "action": "sell",
@@ -39457,30 +39444,48 @@
       "action": "buy",
       "details": "[LLM] $CWP at $4.81138e-06, spent 0.02 SOL",
       "reason": "$CWP passes viability gate (twitter + long desc). 'Cat Wif Pistol' is a clear animal-meme derivative with viral Instagram claim (1m+ likes) — classic attention narrative. Mcap $4.8k with 18% bond, sub-1min old. Risk: unverified Instagram claim, tiny mcap = can rug fast. Position 0.05 SOL."
+    },
+    {
+      "time": "2026-09-08 05:09 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CWP at $3.49358e-06 | P&L: -27.4%",
+      "reason": "$CWP is at -27.4%, near the -30% hard stop. With only 0% pool share and no clear bounce catalyst visible (bonding-curve token, age 0h, weak liquidity $311), holding into the hard stop is irrational. Cut the loss now and free the slot for fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 2312,
+    "total": 2313,
     "wins": 1177,
-    "losses": 1135,
+    "losses": 1136,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.260819,
-    "avg_pnl_pct": 30.39,
+    "total_pnl_sol": -2.266308,
+    "avg_pnl_pct": 30.37,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 39,
-    "today_realized_sol": -0.019949,
-    "today_target_pct": -5.0,
+    "today_trades": 40,
+    "today_realized_sol": -0.025438,
+    "today_target_pct": -6.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1177,
-      "loss_count": 1135,
+      "loss_count": 1136,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T05:07:44.966797+00:00",
+  "last_llm_brief_at": "2026-09-08T05:09:18.367139+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CJJV3pSKUTiXEUcw2yn1ocduEYjKuH8KvS71E8Pspump": {
+      "price_usd": 3.4935752993639923e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 311.11657789014,
+      "volume_h24": 6457.03,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.015572142
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -16756,3 +16756,6 @@
 ## [2026-09-08 05:07 UTC] buy | [LLM] $CWP at $4.81138e-06, spent 0.02 SOL
 - **Reasoning:** $CWP passes viability gate (twitter + long desc). 'Cat Wif Pistol' is a clear animal-meme derivative with viral Instagram claim (1m+ likes) — classic attention narrative. Mcap $4.8k with 18% bond, sub-1min old. Risk: unverified Instagram claim, tiny mcap = can rug fast. Position 0.05 SOL.
 
+## [2026-09-08 05:09 UTC] sell | [FULL][LLM] $CWP at $3.49358e-06 | P&L: -27.4%
+- **Reasoning:** $CWP is at -27.4%, near the -30% hard stop. With only 0% pool share and no clear bounce catalyst visible (bonding-curve token, age 0h, weak liquidity $311), holding into the hard stop is irrational. Cut the loss now and free the slot for fresh attention.
+
