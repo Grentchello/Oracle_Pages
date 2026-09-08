@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.080076,
+  "balance_sol": 0.093193,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FmU1TadXHDBNzddyda73cjL1DgxEJK2Yocskv3jw97WG": {
-      "symbol": "OTC",
-      "name": "Own The Casino",
-      "amount": 334615.3705017234,
-      "entry_price_usd": 3.1017702457713447e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-08T02:38:36.604908+00:00",
-      "entry_usd_value": 2.0758,
-      "last_seen_price_usd": 3.4802161795572258e-06,
-      "entry_signals": {
-        "liquidity_usd": 101.11351309162,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3102.666797533297,
-        "ath_market_cap_usd": 3102.666797533297,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.974212478,
-        "description": "Own The Casino. $OTC paired with $POLYMARKET, $KALSHI, and $HYPE",
-        "twitter": "https://x.com/OwnTheCasino_",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39042,25 +39018,47 @@
       "pnl_pct": 12.2,
       "exit_reason": "LLM: sell_half — OTC is +12% with very thin pool ($296). At this liquidity even a 2x pump will likely mean nothing — better to lock half and let the other half ride if",
       "partial": true
+    },
+    {
+      "mint": "FmU1TadXHDBNzddyda73cjL1DgxEJK2Yocskv3jw97WG",
+      "symbol": "OTC",
+      "name": "Own The Casino",
+      "amount_sold": 83653.84262543084,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-08T02:38:36.604908+00:00",
+      "exit_time": "2026-09-08T02:41:28.666381+00:00",
+      "entry_price_usd": 3.1017702457713447e-06,
+      "exit_price_usd": 4.064255253444244e-06,
+      "entry_sol_for_chunk": 0.0025,
+      "exit_sol_received": 0.003279,
+      "pnl_sol": 0.000779,
+      "pnl_pct": 31.03,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "FmU1TadXHDBNzddyda73cjL1DgxEJK2Yocskv3jw97WG",
+      "symbol": "OTC",
+      "name": "Own The Casino",
+      "amount_sold": 250961.52787629253,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-08T02:38:36.604908+00:00",
+      "exit_time": "2026-09-08T02:41:38.972496+00:00",
+      "entry_price_usd": 3.1017702457713447e-06,
+      "exit_price_usd": 4.064255253444244e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.009838,
+      "pnl_sol": 0.002338,
+      "pnl_pct": 31.03,
+      "exit_reason": "LLM: sell_all — +31% hit, locking gains per aggressive profit discipline. Pool only $573 (thin), risk of reversal high. Better to rotate capital into a fresh launch.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-08T02:40:24.970034+00:00",
+  "last_updated": "2026-09-08T02:41:39.233981+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.84,
-  "portfolio_value_usd": 9.35,
+  "last_sol_price_usd": 103.68,
+  "portfolio_value_usd": 9.66,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 01:08 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $NOM at $6.35425e-06 | P&L: +40.4%",
-      "reason": "$NOM is +40.4% after <1 min held, sitting between the 25% and 50% TP thresholds. Bot hasn't auto-triggered yet. Lock half profits now - this is textbook attention-market behavior (fast pump in first hour) and giving back gains is the bigger risk than leaving a runner. Half rides to next TP, half becomes realized."
-    },
-    {
-      "time": "2026-09-08 01:09 UTC",
-      "action": "sell",
-      "details": "[hard-stop] $NOM closed at $2.92492e-06 | P&L: -35.4%",
-      "reason": "Hard -30% stop"
-    },
     {
       "time": "2026-09-08 01:32 UTC",
       "action": "observe",
@@ -39168,40 +39166,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $OTC at $3.48022e-06 | P&L: +12.2%",
       "reason": "OTC is +12% with very thin pool ($296). At this liquidity even a 2x pump will likely mean nothing — better to lock half and let the other half ride if a buyer appears. Bonding curve = 1% share means I'd be the exit liquidity anyway."
+    },
+    {
+      "time": "2026-09-08 02:41 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $OTC at $4.06426e-06 | P&L: +31.0%",
+      "reason": "Auto take-profit at +31.0%"
+    },
+    {
+      "time": "2026-09-08 02:41 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $OTC at $4.06426e-06 | P&L: +31.0%",
+      "reason": "+31% hit, locking gains per aggressive profit discipline. Pool only $573 (thin), risk of reversal high. Better to rotate capital into a fresh launch."
     }
   ],
   "trade_stats": {
-    "total": 2295,
-    "wins": 1170,
+    "total": 2297,
+    "wins": 1172,
     "losses": 1125,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.242578,
+    "total_pnl_sol": -2.239461,
     "avg_pnl_pct": 30.57,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 22,
-    "today_realized_sol": -0.001708,
-    "today_target_pct": -0.4,
+    "today_trades": 24,
+    "today_realized_sol": 0.001409,
+    "today_target_pct": 0.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1170,
+      "win_count": 1172,
       "loss_count": 1125,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T02:40:24.422481+00:00",
+  "last_llm_brief_at": "2026-09-08T02:41:38.972456+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FmU1TadXHDBNzddyda73cjL1DgxEJK2Yocskv3jw97WG": {
-      "price_usd": 3.4802161795572258e-06,
+      "price_usd": 4.064255253444244e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 295.51898827968,
-      "volume_h24": 426.88,
+      "liquidity_usd": 572.57245391616,
+      "volume_h24": 613.61,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.845907052
+      "real_sol_reserves": 5.522496662
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

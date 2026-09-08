@@ -16657,3 +16657,9 @@
 ## [2026-09-08 02:40 UTC] sell | [PARTIAL][LLM] $OTC at $3.48022e-06 | P&L: +12.2%
 - **Reasoning:** OTC is +12% with very thin pool ($296). At this liquidity even a 2x pump will likely mean nothing — better to lock half and let the other half ride if a buyer appears. Bonding curve = 1% share means I'd be the exit liquidity anyway.
 
+## [2026-09-08 02:41 UTC] sell | [TP +30% (25%)] $OTC at $4.06426e-06 | P&L: +31.0%
+- **Reasoning:** Auto take-profit at +31.0%
+
+## [2026-09-08 02:41 UTC] sell | [FULL][LLM] $OTC at $4.06426e-06 | P&L: +31.0%
+- **Reasoning:** +31% hit, locking gains per aggressive profit discipline. Pool only $573 (thin), risk of reversal high. Better to rotate capital into a fresh launch.
+
