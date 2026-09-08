@@ -16699,3 +16699,6 @@
 ## [2026-09-08 03:19 UTC] buy | [LLM] $BEAR at $2.917e-06, spent 0.02 SOL
 - **Reasoning:** $BEAR has the strongest narrative of the batch — viral ABC News video of a bear crossing a street in Gatlinburg, real mainstream media attention (not just CT). Real-world viral clip + animal meme = classic attention-market play. Mcap only $2.9k, bond 1%, very early. This is the highest-quality attention signal in the feed.
 
+## [2026-09-08 03:21 UTC] sell | [FULL][LLM] $BEAR at $2.89595e-06 | P&L: -0.7%
+- **Reasoning:** Pool is $9 with me holding 24% — I'm the bag-holder risk. -0.7% in a dead pool, no narrative strength, no recovery catalyst. Freeing the slot for fresh alpha.
+
