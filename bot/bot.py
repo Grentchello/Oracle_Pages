@@ -1047,18 +1047,18 @@ def main():
             continue
         pnl_pct = (cur_price / entry_price - 1) * 100
         log(f"TP-check: ${pos.get('symbol')} pnl={pnl_pct:+.1f}% cur={cur_price:.10f} entry={entry_price:.10f}")
-        # Take-profit tiers
-        if pnl_pct >= 300:
-            tp_action = "TP +500% (full)"
+        # Take-profit tiers (v8.6: higher targets so winners run further)
+        if pnl_pct >= 1000:  # 10x
+            tp_action = "TP +1000% (full)"
             tp_fraction = 1.0
-        elif pnl_pct >= 200:
-            tp_action = "TP +200% (75%)"
+        elif pnl_pct >= 500:  # 5x
+            tp_action = "TP +500% (75%)"
             tp_fraction = 0.75
-        elif pnl_pct >= 100:
-            tp_action = "TP +100% (50%)"
+        elif pnl_pct >= 300:  # 3x
+            tp_action = "TP +300% (50%)"
             tp_fraction = 0.5
-        elif pnl_pct >= 30:
-            tp_action = "TP +30% (25%)"
+        elif pnl_pct >= 100:  # 1x (was 100% at 50%, now 100% at 25%)
+            tp_action = "TP +100% (25%)"
             tp_fraction = 0.25
         else:
             continue
@@ -1262,6 +1262,18 @@ def main():
                             token["price_usd"] = (vsr / vtr) * sol_price
             if eff_liq < pos_value_usd * 5:
                 log(f"LIQUIDITY GATE: ${token.get('symbol')} rejected — pool ${eff_liq:.0f} < 5x position ${pos_value_usd:.2f}")
+                continue
+            
+            # v8.6: Minimum absolute liquidity (rugs cluster below $5k)
+            MIN_LIQUIDITY_USD = 5000  # any token with <$5k pool is too easy to dump
+            if eff_liq < MIN_LIQUIDITY_USD:
+                log(f"MIN-LIQ GATE: ${token.get('symbol')} rejected — pool ${eff_liq:.0f} < ${MIN_LIQUIDITY_USD} floor")
+                continue
+            
+            # v8.6: Minimum 24h volume (catches dead/abandoned tokens)
+            vol_24h = _to_float(token.get("volume_h24", 0))
+            if vol_24h < 5000:  # $5k 24h vol floor
+                log(f"VOL GATE: ${token.get('symbol')} rejected — vol_24h=${vol_24h:.0f} < $5k floor")
                 continue
             # === CoinCLIP-style viability filter (research: arXiv 2412.07591) ===
             # Skip tokens that look like low-quality/quick-flips:
