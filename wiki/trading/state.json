@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.071786,
+  "balance_sol": 0.087423,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Ai55yC7VVPqm6ri7DzyH7BqUkKz5ZkPAecJMvW8hHgEk": {
-      "symbol": "HEGOTA",
-      "name": "Hegota Upgrade",
-      "amount": 559288.2178484766,
-      "entry_price_usd": 3.709e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-08T00:35:54.231643+00:00",
-      "entry_usd_value": 2.0744,
-      "last_seen_price_usd": 3.631420509579756e-06,
-      "entry_signals": {
-        "liquidity_usd": 388.4052018838,
-        "volume_24h_usd": 533.59,
-        "market_cap_usd": 3671.05298378675,
-        "ath_market_cap_usd": 3716.1617527341123,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.744747415,
-        "description": "A meme coin celebrating the Ethereum Foundation's Hegota upgrade, featuring FOCIL and Frame Transactions, and the long-term goal of a quantum-resistant Ethereum L1.",
-        "twitter": "https://x.com/Cointelegraph/status/2097120314069000194",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38770,19 +38746,30 @@
       "pnl_pct": 27.22,
       "exit_reason": "LLM: sell_all — +27.2% gain with bonding curve only 10% complete, very low liquidity ($5,440), and brand new position. Take profit now — bonding curve dumps are bruta",
       "partial": false
+    },
+    {
+      "mint": "Ai55yC7VVPqm6ri7DzyH7BqUkKz5ZkPAecJMvW8hHgEk",
+      "symbol": "HEGOTA",
+      "name": "Hegota Upgrade",
+      "amount_sold": 559288.07478181,
+      "fraction_sold": 0.9999997441986761,
+      "entry_time": "2026-09-08T00:35:54.231643+00:00",
+      "exit_time": "2026-09-08T00:40:33.777630+00:00",
+      "entry_price_usd": 3.709e-06,
+      "exit_price_usd": 2.905778193534837e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.015637,
+      "pnl_sol": -0.004363,
+      "pnl_pct": -21.66,
+      "exit_reason": "LLM: sell_all — At -21.7% and approaching -30% hard stop, bonding curve position is illiquid with no bounce signal. Cut the loss now before hard stop triggers at wors",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-08T00:39:13.135126+00:00",
+  "last_updated": "2026-09-08T00:40:33.778335+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.94,
-  "portfolio_value_usd": 9.54,
+  "last_sol_price_usd": 103.93,
+  "portfolio_value_usd": 9.09,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 17:10 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-07 18:02 UTC",
       "action": "observe",
@@ -38896,40 +38883,46 @@
       "action": "buy",
       "details": "[LLM] $HEGOTA at $3.709e-06, spent 0.02 SOL",
       "reason": "Cointelegraph tweet (major crypto media attention) referencing Ethereum Foundation's Hegota upgrade with real technical hook (FOCIL, Frame Transactions). Narrative + verified tier-1 media mention = strong attention signal. Early age (1.5min), low mcap $3.7k = room to run."
+    },
+    {
+      "time": "2026-09-08 00:40 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HEGOTA at $2.90578e-06 | P&L: -21.7%",
+      "reason": "At -21.7% and approaching -30% hard stop, bonding curve position is illiquid with no bounce signal. Cut the loss now before hard stop triggers at worse price."
     }
   ],
   "trade_stats": {
-    "total": 2279,
+    "total": 2280,
     "wins": 1162,
-    "losses": 1117,
+    "losses": 1118,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.240868,
-    "avg_pnl_pct": 30.66,
+    "total_pnl_sol": -2.245231,
+    "avg_pnl_pct": 30.63,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 6,
-    "today_realized_sol": 2e-06,
-    "today_target_pct": 0.0,
+    "today_trades": 7,
+    "today_realized_sol": -0.004361,
+    "today_target_pct": -1.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1162,
-      "loss_count": 1117,
+      "loss_count": 1118,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T00:39:12.637016+00:00",
+  "last_llm_brief_at": "2026-09-08T00:40:33.777094+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "Ai55yC7VVPqm6ri7DzyH7BqUkKz5ZkPAecJMvW8hHgEk": {
-      "price_usd": 3.631420509579756e-06,
+      "price_usd": 2.905778193534837e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 367.50087710552003,
-      "volume_h24": 564.68,
+      "liquidity_usd": 1.6628800000000003e-06,
+      "volume_h24": 607.99,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.535702108
+      "real_sol_reserves": 1.6e-08
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

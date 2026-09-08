@@ -16576,3 +16576,6 @@
 ## [2026-09-08 00:35 UTC] buy | [LLM] $HEGOTA at $3.709e-06, spent 0.02 SOL
 - **Reasoning:** Cointelegraph tweet (major crypto media attention) referencing Ethereum Foundation's Hegota upgrade with real technical hook (FOCIL, Frame Transactions). Narrative + verified tier-1 media mention = strong attention signal. Early age (1.5min), low mcap $3.7k = room to run.
 
+## [2026-09-08 00:40 UTC] sell | [FULL][LLM] $HEGOTA at $2.90578e-06 | P&L: -21.7%
+- **Reasoning:** At -21.7% and approaching -30% hard stop, bonding curve position is illiquid with no bounce signal. Cut the loss now before hard stop triggers at worse price.
+
