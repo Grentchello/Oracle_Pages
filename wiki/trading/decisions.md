@@ -16735,3 +16735,6 @@
 ## [2026-09-08 04:28 UTC] buy | [LLM] $Nascat at $6.32e-06, spent 0.02 SOL
 - **Reasoning:** $Nascat has a specific stock-meta narrative (NasDuck 5m+ precedent), creator's track record claim (last 2 coins bonded), Twitter post, and reasonable $6.7k mcap. Best attention-to-mcap ratio in the list.
 
+## [2026-09-08 04:29 UTC] sell | [hard-stop] $Nascat closed at $4.38478e-06 | P&L: -30.6%
+- **Reasoning:** Hard -30% stop
+
