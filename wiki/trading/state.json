@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.076406,
+  "balance_sol": 0.096302,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2hn8EvFzCS6kvnMiK1B1XZD9Nttf61Uz6JAfWjWti2d7": {
-      "symbol": "ASTRA",
-      "name": "Astra Inu",
-      "amount": 686959.4145043247,
-      "entry_price_usd": 3.006e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-08T03:51:05.561024+00:00",
-      "entry_usd_value": 2.065,
-      "last_seen_price_usd": 2.9932186448965508e-06,
-      "entry_signals": {
-        "liquidity_usd": 72.55834061175,
-        "volume_24h_usd": 63.81,
-        "market_cap_usd": 3021.857005795962,
-        "ath_market_cap_usd": 3021.857005795962,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.702744219,
-        "description": "with the gpt-6 astra release, what better way to recieve rewards then openai stock",
-        "twitter": "https://x.com/OpenAI/status/2095595741528125780",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39229,19 +39205,30 @@
       "pnl_pct": -0.37,
       "exit_reason": "LLM: sell_all — JEETCODE is flat-to-slightly-down after 6 minutes, pool only $198 (illiquid), and our 1% share means exit will be painful. The name 'JEETCODE' is also",
       "partial": false
+    },
+    {
+      "mint": "2hn8EvFzCS6kvnMiK1B1XZD9Nttf61Uz6JAfWjWti2d7",
+      "symbol": "ASTRA",
+      "name": "Astra Inu",
+      "amount_sold": 686959.4145043247,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-08T03:51:05.561024+00:00",
+      "exit_time": "2026-09-08T03:55:29.987983+00:00",
+      "entry_price_usd": 3.006e-06,
+      "exit_price_usd": 2.9911913076431133e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019896,
+      "pnl_sol": -0.000104,
+      "pnl_pct": -0.49,
+      "exit_reason": "LLM: sell_all — $ASTRA flat at -0.5% after 0.1h, pool only $55 (we own 4%), liquidity razor-thin and any meaningful sell will crater price. Better to free the slot fo",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-08T03:54:08.070740+00:00",
+  "last_updated": "2026-09-08T03:55:30.246706+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.35,
-  "portfolio_value_usd": 9.96,
+  "last_sol_price_usd": 103.28,
+  "portfolio_value_usd": 9.95,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 02:41 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $OTC at $4.06426e-06 | P&L: +31.0%",
-      "reason": "Auto take-profit at +31.0%"
-    },
     {
       "time": "2026-09-08 02:41 UTC",
       "action": "sell",
@@ -39355,35 +39342,41 @@
       "action": "buy",
       "details": "[LLM] $ASTRA at $3.006e-06, spent 0.02 SOL",
       "reason": "GPT-6 / Astra narrative riding real OpenAI news (twitter link present, viability passes). Low mcap ~$3k is exactly the entry zone — fresh attention on a real-world catalyst, asymmetric upside if it sticks."
+    },
+    {
+      "time": "2026-09-08 03:55 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ASTRA at $2.99119e-06 | P&L: -0.5%",
+      "reason": "$ASTRA flat at -0.5% after 0.1h, pool only $55 (we own 4%), liquidity razor-thin and any meaningful sell will crater price. Better to free the slot for a fresh attention launch."
     }
   ],
   "trade_stats": {
-    "total": 2306,
+    "total": 2307,
     "wins": 1177,
-    "losses": 1129,
+    "losses": 1130,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.236247,
-    "avg_pnl_pct": 30.53,
+    "total_pnl_sol": -2.236351,
+    "avg_pnl_pct": 30.51,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 33,
-    "today_realized_sol": 0.004623,
-    "today_target_pct": 1.2,
+    "today_trades": 34,
+    "today_realized_sol": 0.004519,
+    "today_target_pct": 1.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1177,
-      "loss_count": 1129,
+      "loss_count": 1130,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T03:54:08.070510+00:00",
+  "last_llm_brief_at": "2026-09-08T03:55:29.987947+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2hn8EvFzCS6kvnMiK1B1XZD9Nttf61Uz6JAfWjWti2d7": {
-      "price_usd": 2.9932186448965508e-06,
+      "price_usd": 2.9911913076431133e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 55.12181541165,
+      "liquidity_usd": 55.08448084872,
       "volume_h24": 94.13,
       "dex_id": "pumpfun",
       "source": "bonding-curve",

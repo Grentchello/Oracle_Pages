@@ -16717,3 +16717,6 @@
 ## [2026-09-08 03:51 UTC] buy | [LLM] $ASTRA at $3.006e-06, spent 0.02 SOL
 - **Reasoning:** GPT-6 / Astra narrative riding real OpenAI news (twitter link present, viability passes). Low mcap ~$3k is exactly the entry zone — fresh attention on a real-world catalyst, asymmetric upside if it sticks.
 
+## [2026-09-08 03:55 UTC] sell | [FULL][LLM] $ASTRA at $2.99119e-06 | P&L: -0.5%
+- **Reasoning:** $ASTRA flat at -0.5% after 0.1h, pool only $55 (we own 4%), liquidity razor-thin and any meaningful sell will crater price. Better to free the slot for a fresh attention launch.
+
