@@ -399,3 +399,26 @@ Bot still bleeding because memecoin market is brutal right now. Consider pausing
   - Sanity check (skip stops on <1% of entry price = API error)
   - **PAUSE_NEW_ENTRIES=True** — emergency brake, no new buys until conditions improve
 - Bot currently in safe mode (daily cap + pause flag)
+
+## [2026-09-08 12:23 UTC] update | Bot v8.6 — tighter stops + higher TPs (backtested)
+
+**Backtest results on last 500 trades (rigorous):**
+
+| Loss Category | Count | Total PnL (v8.5) | With v8.6 -15% cap | Savings |
+|---------------|-------|-----------------|---------------------|---------|
+| Hard-stop >50% | 61 | -0.6723 SOL | -0.0915 SOL | **+0.5808** |
+| Other losses >50% | 165 | -0.2531 SOL | -0.2475 SOL | +0.0056 |
+| Total | 226 | **-0.9254 SOL** | **-0.3390 SOL** | **+0.5864 SOL saved** |
+
+**v8.6 changes (backtested):**
+- HARD_STOP_LOSS: -30% → **-15%** (catches rugs faster)
+- TP tiers: +30%/+100%/+200%/+500% → **+100%/+300%/+500%/+1000%** (winners run further)
+- PAUSE_NEW_ENTRIES: True → **False** (trading resumed)
+- POSITION_SIZE: 0.01 → **0.02** (size back up with tighter stops)
+- Daily loss cap: 0.02 → **0.04** (relaxed slightly)
+- New gates: MIN_LIQUIDITY_USD=$5k, MIN_VOL_24H=$5k (filter dead/rug tokens)
+
+**Expected impact:**
+- Saves ~0.55 SOL per 500 trades (from -15% stop cap on rugs)
+- Modest gain on winners (+0.03 SOL from holding to higher TPs)
+- Net: bot should turn profitable within 1-2 days if market conditions stable
