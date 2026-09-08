@@ -16696,3 +16696,6 @@
 ## [2026-09-08 03:18 UTC] buy | [LLM] $PGT at $3.03123e-06, spent 0.02 SOL
 - **Reasoning:** ProfitGPT ($PGT) is the only new launch with a real description (>50 chars), Twitter presence (@ProfitgptIN), and a narrative (AI x trading) that maps to current attention cycles. $3k mcap is bottom-of-curve, asymmetric upside if the AI narrative catches.
 
+## [2026-09-08 03:19 UTC] buy | [LLM] $BEAR at $2.917e-06, spent 0.02 SOL
+- **Reasoning:** $BEAR has the strongest narrative of the batch — viral ABC News video of a bear crossing a street in Gatlinburg, real mainstream media attention (not just CT). Real-world viral clip + animal meme = classic attention-market play. Mcap only $2.9k, bond 1%, very early. This is the highest-quality attention signal in the feed.
+
