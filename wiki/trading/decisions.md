@@ -16702,3 +16702,6 @@
 ## [2026-09-08 03:21 UTC] sell | [FULL][LLM] $BEAR at $2.89595e-06 | P&L: -0.7%
 - **Reasoning:** Pool is $9 with me holding 24% — I'm the bag-holder risk. -0.7% in a dead pool, no narrative strength, no recovery catalyst. Freeing the slot for fresh alpha.
 
+## [2026-09-08 03:27 UTC] sell | [FULL][LLM] $PGT at $3.02684e-06 | P&L: -0.1%
+- **Reasoning:** $PGT is flat (-0.1%) after 6 minutes, pool only $78, our 3% share means illiquid exit. No momentum signal, narrative is generic. Free up the slot.
+
