@@ -16603,3 +16603,6 @@
 ## [2026-09-08 01:09 UTC] sell | [hard-stop] $NOM closed at $2.92492e-06 | P&L: -35.4%
 - **Reasoning:** Hard -30% stop
 
+## [2026-09-08 01:32 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
