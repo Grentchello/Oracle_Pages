@@ -16645,3 +16645,6 @@
 ## [2026-09-08 02:34 UTC] sell | [FULL][LLM] $Ponymarket at $2.94287e-06 | P&L: -8.8%
 - **Reasoning:** $Ponymarket is down -8.8% after only 6min with a $20 pool (10% of it is mine — I'm the only meaningful exit liquidity). This is going to -30% hard stop if I wait. Cut it now, free the slot, lock a tiny loss instead of a guaranteed bigger one.
 
+## [2026-09-08 02:35 UTC] buy | [LLM] $ORGY at $5.42829e-06, spent 0.02 SOL
+- **Reasoning:** Crude 'DIABOLICAL orgy' tweet from @Devilantesol is exactly the kind of shock-value copy that spreads on X. Provocative name + low mcap ($5.4k) + viral tweet = meme attention catalyst. Higher rug risk so sizing small.
+
