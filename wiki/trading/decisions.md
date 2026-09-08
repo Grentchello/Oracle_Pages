@@ -16663,3 +16663,6 @@
 ## [2026-09-08 02:41 UTC] sell | [FULL][LLM] $OTC at $4.06426e-06 | P&L: +31.0%
 - **Reasoning:** +31% hit, locking gains per aggressive profit discipline. Pool only $573 (thin), risk of reversal high. Better to rotate capital into a fresh launch.
 
+## [2026-09-08 02:48 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
