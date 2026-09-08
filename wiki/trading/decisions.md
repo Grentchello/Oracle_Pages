@@ -16546,3 +16546,6 @@
 ## [2026-09-08 00:10 UTC] buy | [LLM] $SA at $3.08026e-06, spent 0.02 SOL
 - **Reasoning:** $SA — self-aware meta-narrative about meme attention itself, has twitter link + real desc, fresh 0.2min launch. Exactly the kind of self-referential viral template that pumps first-hour.
 
+## [2026-09-08 00:11 UTC] sell | [FULL][LLM] $Kgc at $2.89879e-06 | P&L: -8.1%
+- **Reasoning:** $Kgc is down 8.1% at 0.2h held with pool=$0 and no bounce signal. The 7847834% share figure reflects a near-empty bonding curve with effectively no liquidity to exit into at any reasonable price. Cut now before it goes stale or worse — freeing the slot is more valuable than holding a ghost position.
+
