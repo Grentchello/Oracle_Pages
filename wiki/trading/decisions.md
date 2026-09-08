@@ -16753,3 +16753,6 @@
 ## [2026-09-08 05:03 UTC] sell | [FULL][LLM] $MACINTOSH at $2.88369e-06 | P&L: -8.5%
 - **Reasoning:** MACINTOSH is down8.5% but barely held (0.0h on bonding curve, pool=$0, our share looks like a unit-display glitch but indicates illiquidity). Bonding-curve tokens with no real pool and a stale narrative exit fast — cut the loss before -30% hard stop kicks in.
 
+## [2026-09-08 05:07 UTC] buy | [LLM] $CWP at $4.81138e-06, spent 0.02 SOL
+- **Reasoning:** $CWP passes viability gate (twitter + long desc). 'Cat Wif Pistol' is a clear animal-meme derivative with viral Instagram claim (1m+ likes) — classic attention narrative. Mcap $4.8k with 18% bond, sub-1min old. Risk: unverified Instagram claim, tiny mcap = can rug fast. Position 0.05 SOL.
+
