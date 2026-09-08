@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.086556,
+  "balance_sol": 0.090773,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "8QwccbdY2YZngLSR6QRQNrmXXQXLNbeHqgsKy9d2uGv3": {
       "symbol": "ChadGPT",
       "name": "ChadGPT",
-      "amount": 142406.11192930784,
+      "amount": 71203.05596465392,
       "entry_price_usd": 5.432e-06,
-      "entry_sol_spent": 0.0075,
+      "entry_sol_spent": 0.00375,
       "entry_time": "2026-09-08T03:14:20.969606+00:00",
       "entry_usd_value": 2.0628,
-      "last_seen_price_usd": 7.36719771463967e-06,
+      "last_seen_price_usd": 6.102094650920945e-06,
       "entry_signals": {
         "liquidity_usd": 1517.02447315788,
         "volume_24h_usd": 1664.79,
@@ -39127,19 +39127,30 @@
       "pnl_pct": 35.63,
       "exit_reason": "LLM: sell_half — ChadGPT is +35.6% and already past the +30% threshold (auto-TP would handle, but taking manual half off locks profit on a thin $1852 pool where the ne",
       "partial": true
+    },
+    {
+      "mint": "8QwccbdY2YZngLSR6QRQNrmXXQXLNbeHqgsKy9d2uGv3",
+      "symbol": "ChadGPT",
+      "name": "ChadGPT",
+      "amount_sold": 71203.05596465392,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-08T03:14:20.969606+00:00",
+      "exit_time": "2026-09-08T03:17:02.200887+00:00",
+      "entry_price_usd": 5.432e-06,
+      "exit_price_usd": 6.102094650920945e-06,
+      "entry_sol_for_chunk": 0.00375,
+      "exit_sol_received": 0.004217,
+      "pnl_sol": 0.000467,
+      "pnl_pct": 12.34,
+      "exit_reason": "LLM: sell_half — Up 12.3% in <1h on a $2.8k mcap with low bonding curve progress ($1408 pool). The narrative is thin (just 'Many bonders, Many more overlooked') — I wa",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-08T03:15:41.051865+00:00",
+  "last_updated": "2026-09-08T03:17:02.462444+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.079,
-  "portfolio_value_usd": 9.7,
+  "last_sol_price_usd": 103.029,
+  "portfolio_value_usd": 9.74,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 01:56 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $MVP at $1.35444e-05 | P&L: +81.5%",
-      "reason": "+81.5% in <1 min is parabolic and likely to retrace. Locking half the position secures ~0.02 SOL profit while letting the other half ride toward the +100% TP threshold (which auto-triggers at 50% sold). Disciplined scalp."
-    },
     {
       "time": "2026-09-08 01:57 UTC",
       "action": "sell",
@@ -39253,40 +39264,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $ChadGPT at $7.3672e-06 | P&L: +35.6%",
       "reason": "ChadGPT is +35.6% and already past the +30% threshold (auto-TP would handle, but taking manual half off locks profit on a thin $1852 pool where the next sell could crater price. Lock gains, let the rest ride on the AI narrative."
+    },
+    {
+      "time": "2026-09-08 03:17 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $ChadGPT at $6.10209e-06 | P&L: +12.3%",
+      "reason": "Up 12.3% in <1h on a $2.8k mcap with low bonding curve progress ($1408 pool). The narrative is thin (just 'Many bonders, Many more overlooked') — I want to lock in some gain while leaving a runner in case it pumps on graduation."
     }
   ],
   "trade_stats": {
-    "total": 2300,
-    "wins": 1174,
+    "total": 2301,
+    "wins": 1175,
     "losses": 1126,
-    "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.238598,
-    "avg_pnl_pct": 30.55,
+    "win_rate_pct": 51.1,
+    "total_pnl_sol": -2.238131,
+    "avg_pnl_pct": 30.54,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 27,
-    "today_realized_sol": 0.002272,
-    "today_target_pct": 0.6,
+    "today_trades": 28,
+    "today_realized_sol": 0.002739,
+    "today_target_pct": 0.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1174,
+      "win_count": 1175,
       "loss_count": 1126,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T03:15:40.794616+00:00",
+  "last_llm_brief_at": "2026-09-08T03:17:02.200841+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "8QwccbdY2YZngLSR6QRQNrmXXQXLNbeHqgsKy9d2uGv3": {
-      "price_usd": 7.36719771463967e-06,
+      "price_usd": 6.102094650920945e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1851.838193548891,
-      "volume_h24": 10474.85,
+      "liquidity_usd": 1407.754057996146,
+      "volume_h24": 15222.58,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 17.965232429
+      "real_sol_reserves": 13.663668074
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

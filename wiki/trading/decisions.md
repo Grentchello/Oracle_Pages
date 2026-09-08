@@ -16684,3 +16684,6 @@
 ## [2026-09-08 03:15 UTC] sell | [PARTIAL][LLM] $ChadGPT at $7.3672e-06 | P&L: +35.6%
 - **Reasoning:** ChadGPT is +35.6% and already past the +30% threshold (auto-TP would handle, but taking manual half off locks profit on a thin $1852 pool where the next sell could crater price. Lock gains, let the rest ride on the AI narrative.
 
+## [2026-09-08 03:17 UTC] sell | [PARTIAL][LLM] $ChadGPT at $6.10209e-06 | P&L: +12.3%
+- **Reasoning:** Up 12.3% in <1h on a $2.8k mcap with low bonding curve progress ($1408 pool). The narrative is thin (just 'Many bonders, Many more overlooked') — I want to lock in some gain while leaving a runner in case it pumps on graduation.
+
