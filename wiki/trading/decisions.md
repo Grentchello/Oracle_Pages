@@ -16654,3 +16654,6 @@
 ## [2026-09-08 02:38 UTC] buy | [LLM] $OTC at $3.10177e-06, spent 0.02 SOL
 - **Reasoning:** $OTC 'Own The Casino' rides the prediction-market meta (Polymarket, Kalshi, HYPE all in description) — a coherent narrative tying real cultural attention (election betting, Kalshi going mainstream) to a coin. Fresh launch at $3.1k mcap with paired-token story gives it 10x potential if the narrative catches. Best narrative of the batch.
 
+## [2026-09-08 02:40 UTC] sell | [PARTIAL][LLM] $OTC at $3.48022e-06 | P&L: +12.2%
+- **Reasoning:** OTC is +12% with very thin pool ($296). At this liquidity even a 2x pump will likely mean nothing — better to lock half and let the other half ride if a buyer appears. Bonding curve = 1% share means I'd be the exit liquidity anyway.
+

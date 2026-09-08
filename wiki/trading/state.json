@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.068861,
+  "balance_sol": 0.080076,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "FmU1TadXHDBNzddyda73cjL1DgxEJK2Yocskv3jw97WG": {
       "symbol": "OTC",
       "name": "Own The Casino",
-      "amount": 669230.7410034467,
+      "amount": 334615.3705017234,
       "entry_price_usd": 3.1017702457713447e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-08T02:38:36.604908+00:00",
       "entry_usd_value": 2.0758,
-      "last_seen_price_usd": 3.1017702457713447e-06,
+      "last_seen_price_usd": 3.4802161795572258e-06,
       "entry_signals": {
         "liquidity_usd": 101.11351309162,
         "volume_24h_usd": null,
@@ -39025,19 +39025,30 @@
       "pnl_pct": -41.1,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "FmU1TadXHDBNzddyda73cjL1DgxEJK2Yocskv3jw97WG",
+      "symbol": "OTC",
+      "name": "Own The Casino",
+      "amount_sold": 334615.3705017234,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-08T02:38:36.604908+00:00",
+      "exit_time": "2026-09-08T02:40:24.422519+00:00",
+      "entry_price_usd": 3.1017702457713447e-06,
+      "exit_price_usd": 3.4802161795572258e-06,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.011215,
+      "pnl_sol": 0.001215,
+      "pnl_pct": 12.2,
+      "exit_reason": "LLM: sell_half — OTC is +12% with very thin pool ($296). At this liquidity even a 2x pump will likely mean nothing — better to lock half and let the other half ride if",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-08T02:38:36.605103+00:00",
+  "last_updated": "2026-09-08T02:40:24.970034+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.79,
-  "portfolio_value_usd": 9.22,
+  "last_sol_price_usd": 103.84,
+  "portfolio_value_usd": 9.35,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 01:08 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $NOM at $6.35425e-06 | P&L: +40.4%",
-      "reason": "Auto take-profit at +40.4%"
-    },
     {
       "time": "2026-09-08 01:08 UTC",
       "action": "sell",
@@ -39151,30 +39162,48 @@
       "action": "buy",
       "details": "[LLM] $OTC at $3.10177e-06, spent 0.02 SOL",
       "reason": "$OTC 'Own The Casino' rides the prediction-market meta (Polymarket, Kalshi, HYPE all in description) — a coherent narrative tying real cultural attention (election betting, Kalshi going mainstream) to a coin. Fresh launch at $3.1k mcap with paired-token story gives it 10x potential if the narrative catches. Best narrative of the batch."
+    },
+    {
+      "time": "2026-09-08 02:40 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $OTC at $3.48022e-06 | P&L: +12.2%",
+      "reason": "OTC is +12% with very thin pool ($296). At this liquidity even a 2x pump will likely mean nothing — better to lock half and let the other half ride if a buyer appears. Bonding curve = 1% share means I'd be the exit liquidity anyway."
     }
   ],
   "trade_stats": {
-    "total": 2294,
-    "wins": 1169,
+    "total": 2295,
+    "wins": 1170,
     "losses": 1125,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.243793,
-    "avg_pnl_pct": 30.58,
+    "total_pnl_sol": -2.242578,
+    "avg_pnl_pct": 30.57,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 21,
-    "today_realized_sol": -0.002923,
-    "today_target_pct": -0.7,
+    "today_trades": 22,
+    "today_realized_sol": -0.001708,
+    "today_target_pct": -0.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1169,
+      "win_count": 1170,
       "loss_count": 1125,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T02:38:35.295746+00:00",
+  "last_llm_brief_at": "2026-09-08T02:40:24.422481+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FmU1TadXHDBNzddyda73cjL1DgxEJK2Yocskv3jw97WG": {
+      "price_usd": 3.4802161795572258e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 295.51898827968,
+      "volume_h24": 426.88,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.845907052
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
