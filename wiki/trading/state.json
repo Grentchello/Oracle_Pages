@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.071749,
+  "balance_sol": 0.091534,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "E2BvCXW7cpVLVBEnG3yhHEEZ7i2uxdm1bAJTsy6Rpump": {
-      "symbol": "HORMUZ",
-      "name": "HORMUZ",
-      "amount": 696763.3175994606,
-      "entry_price_usd": 2.966e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-08T04:20:05.287806+00:00",
-      "entry_usd_value": 2.0666,
-      "last_seen_price_usd": 2.9298324951239986e-06,
-      "entry_signals": {
-        "liquidity_usd": 41.5017422576,
-        "volume_24h_usd": 41.5,
-        "market_cap_usd": 2965.3885368131155,
-        "ath_market_cap_usd": 2965.3885368131155,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.40164272,
-        "description": "They closed the Strait… so we opened the pump. 🛢️😂 Oil ⬆️ Gas ⬆️ Chaos ⬆️ $HORMUZ is not financial advice. It’s financial insanity. 🌊🚀",
-        "twitter": "https://x.com/centcom?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39263,19 +39239,30 @@
       "pnl_pct": -22.77,
       "exit_reason": "LLM: sell_all — $FELIX down -22.8% after 0h held, no bounce signal, share=46.8M% indicates zero real liquidity on the bonding curve. Cutting the loss before the -30% ",
       "partial": false
+    },
+    {
+      "mint": "E2BvCXW7cpVLVBEnG3yhHEEZ7i2uxdm1bAJTsy6Rpump",
+      "symbol": "HORMUZ",
+      "name": "HORMUZ",
+      "amount_sold": 696763.3175994606,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-08T04:20:05.287806+00:00",
+      "exit_time": "2026-09-08T04:25:15.503864+00:00",
+      "entry_price_usd": 2.966e-06,
+      "exit_price_usd": 2.9284127274872835e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.019785,
+      "pnl_sol": -0.000215,
+      "pnl_pct": -1.27,
+      "exit_reason": "LLM: sell_all — $HORMUZ is -1.3% after only 6 minutes with no momentum (pool=$24, our share=8% = immediate exit liquidity issue). At 8% of a $24 pool we are the marke",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-08T04:22:57.802535+00:00",
+  "last_updated": "2026-09-08T04:25:15.755567+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.18,
-  "portfolio_value_usd": 9.47,
+  "last_sol_price_usd": 103.13,
+  "portfolio_value_usd": 9.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 02:57 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BCWO at $3.08474e-06 | P&L: -18.1%",
-      "reason": "BCWO is down 18.1% after only 0.1 hours, has no clear bounce signal, and sits on a thin $102 pool. Exit quickly rather than risk a faster move toward the hard stop."
-    },
     {
       "time": "2026-09-08 03:01 UTC",
       "action": "observe",
@@ -39389,35 +39376,41 @@
       "action": "buy",
       "details": "[LLM] $HORMUZ at $2.966e-06, spent 0.02 SOL",
       "reason": "$HORMUZ — geopolitical news narrative (Strait of Hormuz closure), oil/gas chaos angle. $3k mcap, fresh, story-driven attention from current events."
+    },
+    {
+      "time": "2026-09-08 04:25 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HORMUZ at $2.92841e-06 | P&L: -1.3%",
+      "reason": "$HORMUZ is -1.3% after only 6 minutes with no momentum (pool=$24, our share=8% = immediate exit liquidity issue). At 8% of a $24 pool we are the market — exiting fast frees a slot and capital. Not a clear bounce signal, just chop."
     }
   ],
   "trade_stats": {
-    "total": 2308,
+    "total": 2309,
     "wins": 1177,
-    "losses": 1131,
+    "losses": 1132,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.240904,
-    "avg_pnl_pct": 30.49,
+    "total_pnl_sol": -2.241119,
+    "avg_pnl_pct": 30.48,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 35,
-    "today_realized_sol": -3.4e-05,
-    "today_target_pct": -0.0,
+    "today_trades": 36,
+    "today_realized_sol": -0.000249,
+    "today_target_pct": -0.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1177,
-      "loss_count": 1131,
+      "loss_count": 1132,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T04:22:57.802477+00:00",
+  "last_llm_brief_at": "2026-09-08T04:25:15.503823+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "E2BvCXW7cpVLVBEnG3yhHEEZ7i2uxdm1bAJTsy6Rpump": {
-      "price_usd": 2.9298324951239986e-06,
+      "price_usd": 2.9284127274872835e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 24.0616141766,
+      "liquidity_usd": 24.049954158099997,
       "volume_h24": 58.91,
       "dex_id": "pumpfun",
       "source": "bonding-curve",

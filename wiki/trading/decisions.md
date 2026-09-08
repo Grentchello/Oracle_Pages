@@ -16729,3 +16729,6 @@
 ## [2026-09-08 04:20 UTC] buy | [LLM] $HORMUZ at $2.966e-06, spent 0.02 SOL
 - **Reasoning:** $HORMUZ — geopolitical news narrative (Strait of Hormuz closure), oil/gas chaos angle. $3k mcap, fresh, story-driven attention from current events.
 
+## [2026-09-08 04:25 UTC] sell | [FULL][LLM] $HORMUZ at $2.92841e-06 | P&L: -1.3%
+- **Reasoning:** $HORMUZ is -1.3% after only 6 minutes with no momentum (pool=$24, our share=8% = immediate exit liquidity issue). At 8% of a $24 pool we are the market — exiting fast frees a slot and capital. Not a clear bounce signal, just chop.
+
