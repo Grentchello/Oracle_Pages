@@ -52,14 +52,14 @@ SOL_MINT = "So11111111111111111111111111111111111111112"
 
 # === Strategy parameters (safeguards — LLM can't override) ===
 # v8.5 EMERGENCY: bot was bleeding fast. Temporarily disable new entries.
-PAUSE_NEW_ENTRIES = True         # Set True to halt new buys (v8.5 emergency brake)
+PAUSE_NEW_ENTRIES = False        # v8.6: trading resumed (was True during bleed)
 
 # Conservative restart params (v8.3) — much tighter than v7
-POSITION_SIZE_SOL = 0.01         # $1 per position (was $2 — minimum to survive rugs)
+POSITION_SIZE_SOL = 0.02         # $2 per position (v8.6: was $1, can size back up with tighter stops)
 MAX_POSITIONS = 1                # max 1 concurrent (was 2 — limit exposure)
 MAX_HOLD_HOURS = 24  # 24h max hold (was 72; tight) — memecoins die fast
-HARD_STOP_LOSS = 0.20        # -20% hard cap (was -30% before v8.4)
-DAILY_MAX_LOSS_SOL = 0.02    # daily loss cap -0.02 SOL (was 0.05 — tighter)
+HARD_STOP_LOSS = 0.15        # -15% hard cap (v8.6: was -20%; tighter to limit loss size)
+DAILY_MAX_LOSS_SOL = 0.04    # daily loss cap -0.04 SOL (v8.6: was 0.02; relaxed slightly)
 RESERVE_SOL = 0.05
 
 # Conservative mode flag
