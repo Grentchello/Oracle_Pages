@@ -385,3 +385,17 @@ Last 24h is positive +0.011 SOL, so bot IS working — just needs tighter risk m
 - Will resume tomorrow when daily PnL resets
 
 Bot still bleeding because memecoin market is brutal right now. Consider pausing entirely until conditions improve.
+
+## [2026-09-08 12:17 UTC] update | Bot v8.5 emergency brake applied
+- Balance: 0.066 SOL (down 87% from 0.5)
+- Last 24h: -0.0611 SOL
+- Bot v8.4 fixes didn't actually deploy (bot was holding file handle when I patched, file reverted to 0.30 stop)
+- v8.5 fixes:
+  - HARD_STOP_LOSS: 0.20 (was 0.30, actually applied this time)
+  - POSITION_SIZE_SOL: 0.01 (was 0.02, smaller bets)
+  - MAX_POSITIONS: 1 (was 2)
+  - DAILY_MAX_LOSS_SOL: 0.02 (was 0.05)
+  - Rapid-drop detector order fixed (was updating price BEFORE check, so never fired)
+  - Sanity check (skip stops on <1% of entry price = API error)
+  - **PAUSE_NEW_ENTRIES=True** — emergency brake, no new buys until conditions improve
+- Bot currently in safe mode (daily cap + pause flag)
