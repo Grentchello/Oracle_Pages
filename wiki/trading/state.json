@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.076302,
+  "balance_sol": 0.091749,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5fwQogzkJsxh6QQvszk2d1o2ba7nnj3gQLU6Cvj5pump": {
-      "symbol": "FELIX",
-      "name": "Felix the Dinosaur",
-      "amount": 552500.6686279755,
-      "entry_price_usd": 3.739e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-08T04:04:16.425461+00:00",
-      "entry_usd_value": 2.0658000000000003,
-      "last_seen_price_usd": 3.739e-06,
-      "entry_signals": {
-        "liquidity_usd": 30.814846143840004,
-        "volume_24h_usd": 1835.83,
-        "market_cap_usd": 2943.6961322582574,
-        "ath_market_cap_usd": 3737.010815513462,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.298333296,
-        "description": "Felix the viral dinosaur with 600K followers and 50M+ views in 1 week. Creator fully on board with all creator fees directed to support him.",
-        "twitter": "https://x.com/milesondex/status/2097173495008378963",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39246,19 +39222,30 @@
       "pnl_pct": -0.49,
       "exit_reason": "LLM: sell_all — $ASTRA flat at -0.5% after 0.1h, pool only $55 (we own 4%), liquidity razor-thin and any meaningful sell will crater price. Better to free the slot fo",
       "partial": false
+    },
+    {
+      "mint": "5fwQogzkJsxh6QQvszk2d1o2ba7nnj3gQLU6Cvj5pump",
+      "symbol": "FELIX",
+      "name": "Felix the Dinosaur",
+      "amount_sold": 552500.373552976,
+      "fraction_sold": 0.9999994659282488,
+      "entry_time": "2026-09-08T04:04:16.425461+00:00",
+      "exit_time": "2026-09-08T04:05:39.062551+00:00",
+      "entry_price_usd": 3.739e-06,
+      "exit_price_usd": 2.8876048494019013e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.015447,
+      "pnl_sol": -0.004553,
+      "pnl_pct": -22.77,
+      "exit_reason": "LLM: sell_all — $FELIX down -22.8% after 0h held, no bounce signal, share=46.8M% indicates zero real liquidity on the bonding curve. Cutting the loss before the -30% ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-08T04:04:16.425750+00:00",
+  "last_updated": "2026-09-08T04:05:39.320970+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.29,
-  "portfolio_value_usd": 9.95,
+  "last_sol_price_usd": 103.28,
+  "portfolio_value_usd": 9.48,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 02:48 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-08 02:52 UTC",
       "action": "buy",
@@ -39372,30 +39359,48 @@
       "action": "buy",
       "details": "[LLM] $FELIX at $3.739e-06, spent 0.02 SOL",
       "reason": "Felix the Dinosaur — 600K followers and 50M+ views in 1 week is a real viral attention signal with an engaged creator publicly supporting the launch and directing fees. $2.9k mcap with this much built-in audience is asymmetric. Sole position due to thin SOL reserves."
+    },
+    {
+      "time": "2026-09-08 04:05 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FELIX at $2.8876e-06 | P&L: -22.8%",
+      "reason": "$FELIX down -22.8% after 0h held, no bounce signal, share=46.8M% indicates zero real liquidity on the bonding curve. Cutting the loss before the -30% hard stop — no narrative to hold for."
     }
   ],
   "trade_stats": {
-    "total": 2307,
+    "total": 2308,
     "wins": 1177,
-    "losses": 1130,
+    "losses": 1131,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.236351,
-    "avg_pnl_pct": 30.51,
+    "total_pnl_sol": -2.240904,
+    "avg_pnl_pct": 30.49,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 34,
-    "today_realized_sol": 0.004519,
-    "today_target_pct": 1.1,
+    "today_trades": 35,
+    "today_realized_sol": -3.4e-05,
+    "today_target_pct": -0.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1177,
-      "loss_count": 1130,
+      "loss_count": 1131,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T04:04:14.911171+00:00",
+  "last_llm_brief_at": "2026-09-08T04:05:39.061914+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5fwQogzkJsxh6QQvszk2d1o2ba7nnj3gQLU6Cvj5pump": {
+      "price_usd": 2.8876048494019013e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3.4082399999999997e-06,
+      "volume_h24": 2592.84,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.3e-08
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

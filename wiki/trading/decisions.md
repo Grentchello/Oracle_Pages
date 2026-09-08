@@ -16723,3 +16723,6 @@
 ## [2026-09-08 04:04 UTC] buy | [LLM] $FELIX at $3.739e-06, spent 0.02 SOL
 - **Reasoning:** Felix the Dinosaur — 600K followers and 50M+ views in 1 week is a real viral attention signal with an engaged creator publicly supporting the launch and directing fees. $2.9k mcap with this much built-in audience is asymmetric. Sole position due to thin SOL reserves.
 
+## [2026-09-08 04:05 UTC] sell | [FULL][LLM] $FELIX at $2.8876e-06 | P&L: -22.8%
+- **Reasoning:** $FELIX down -22.8% after 0h held, no bounce signal, share=46.8M% indicates zero real liquidity on the bonding curve. Cutting the loss before the -30% hard stop — no narrative to hold for.
+
