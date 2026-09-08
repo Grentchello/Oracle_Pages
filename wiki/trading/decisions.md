@@ -16750,3 +16750,6 @@
 ## [2026-09-08 05:00 UTC] buy | [LLM] $MACINTOSH at $3.153e-06, spent 0.02 SOL
 - **Reasoning:** $MACINTOSH passes viability (137-char desc, twitter present), not on fragility blocklist. Retro Apple nostalgia is a strong brand-derivative meme with viral potential. Mcap $3.1k, bond 4% — very early entry. Ruggish risk on microcap but narrative is clean.
 
+## [2026-09-08 05:03 UTC] sell | [FULL][LLM] $MACINTOSH at $2.88369e-06 | P&L: -8.5%
+- **Reasoning:** MACINTOSH is down8.5% but barely held (0.0h on bonding curve, pool=$0, our share looks like a unit-display glitch but indicates illiquidity). Bonding-curve tokens with no real pool and a stale narrative exit fast — cut the loss before -30% hard stop kicks in.
+

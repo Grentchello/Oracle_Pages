@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.053556,
+  "balance_sol": 0.071834,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DHE39sDdK5aVQCdZCQ8CdA6CA8W4NZJKznDq9jaUpump": {
-      "symbol": "MACINTOSH",
-      "name": "MACINTOSH",
-      "amount": 653726.6095781794,
-      "entry_price_usd": 3.153e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-08T05:00:28.264411+00:00",
-      "entry_usd_value": 2.0612,
-      "last_seen_price_usd": 3.150436937906545e-06,
-      "entry_signals": {
-        "liquidity_usd": 142.5027166283,
-        "volume_24h_usd": 718.07,
-        "market_cap_usd": 3152.272678571539,
-        "ath_market_cap_usd": 3637.5418066298917,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.382716055,
-        "description": "The Macintosh is a line of personal computers designed, developed, and marketed by Apple since January 1984.",
-        "twitter": "https://x.com/blackrorys",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39314,19 +39290,30 @@
       "pnl_pct": -59.3,
       "exit_reason": "hard-stop -30%",
       "partial": false
+    },
+    {
+      "mint": "DHE39sDdK5aVQCdZCQ8CdA6CA8W4NZJKznDq9jaUpump",
+      "symbol": "MACINTOSH",
+      "name": "MACINTOSH",
+      "amount_sold": 653726.5469865127,
+      "fraction_sold": 0.9999999042540632,
+      "entry_time": "2026-09-08T05:00:28.264411+00:00",
+      "exit_time": "2026-09-08T05:03:15.356410+00:00",
+      "entry_price_usd": 3.153e-06,
+      "exit_price_usd": 2.8836905878117242e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.018278,
+      "pnl_sol": -0.001722,
+      "pnl_pct": -8.54,
+      "exit_reason": "LLM: sell_all — MACINTOSH is down8.5% but barely held (0.0h on bonding curve, pool=$0, our share looks like a unit-display glitch but indicates illiquidity). Bonding-",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-08T05:01:59.255142+00:00",
+  "last_updated": "2026-09-08T05:03:15.873330+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.97,
-  "portfolio_value_usd": 7.58,
+  "last_sol_price_usd": 103.14,
+  "portfolio_value_usd": 7.41,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 03:18 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ChadGPT at $8.52486e-06 | P&L: +56.9%",
-      "reason": "Up +56.9% in 6 minutes on a $2226 bonding-curve pool with 0% sellable share — classic thin-liquidity trap where the next seller pushes price through the floor. Lock the gain now, capital rotation beats bag-holding."
-    },
     {
       "time": "2026-09-08 03:18 UTC",
       "action": "buy",
@@ -39440,40 +39427,46 @@
       "action": "buy",
       "details": "[LLM] $MACINTOSH at $3.153e-06, spent 0.02 SOL",
       "reason": "$MACINTOSH passes viability (137-char desc, twitter present), not on fragility blocklist. Retro Apple nostalgia is a strong brand-derivative meme with viral potential. Mcap $3.1k, bond 4% — very early entry. Ruggish risk on microcap but narrative is clean."
+    },
+    {
+      "time": "2026-09-08 05:03 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MACINTOSH at $2.88369e-06 | P&L: -8.5%",
+      "reason": "MACINTOSH is down8.5% but barely held (0.0h on bonding curve, pool=$0, our share looks like a unit-display glitch but indicates illiquidity). Bonding-curve tokens with no real pool and a stale narrative exit fast — cut the loss before -30% hard stop kicks in."
     }
   ],
   "trade_stats": {
-    "total": 2311,
+    "total": 2312,
     "wins": 1177,
-    "losses": 1134,
+    "losses": 1135,
     "win_rate_pct": 50.9,
-    "total_pnl_sol": -2.259097,
-    "avg_pnl_pct": 30.41,
+    "total_pnl_sol": -2.260819,
+    "avg_pnl_pct": 30.39,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 38,
-    "today_realized_sol": -0.018227,
-    "today_target_pct": -4.6,
+    "today_trades": 39,
+    "today_realized_sol": -0.019949,
+    "today_target_pct": -5.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1177,
-      "loss_count": 1134,
+      "loss_count": 1135,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T05:01:58.998360+00:00",
+  "last_llm_brief_at": "2026-09-08T05:03:15.355453+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DHE39sDdK5aVQCdZCQ8CdA6CA8W4NZJKznDq9jaUpump": {
-      "price_usd": 3.150436937906545e-06,
+      "price_usd": 2.8836905878117242e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 142.37827218335,
+      "liquidity_usd": 7.2198e-07,
       "volume_h24": 718.07,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.382716055
+      "real_sol_reserves": 7e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
