@@ -1,32 +1,8 @@
 {
-  "balance_sol": 0.069503,
+  "balance_sol": 0.086394,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8xt2ikY1W6MKwvXXQPM5ArEdDeYTsM962b73T4wbpump": {
-      "symbol": "mlgk",
-      "name": "mlg Kirk",
-      "amount": 548585.1444645165,
-      "entry_price_usd": 3.7726140069289934e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-08T00:25:46.102972+00:00",
-      "entry_usd_value": 2.0696000000000003,
-      "last_seen_price_usd": 3.7726140069289934e-06,
-      "entry_signals": {
-        "liquidity_usd": 521.2085528395199,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3777.718045979728,
-        "ath_market_cap_usd": 3777.718045979728,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.036804724,
-        "description": "🔥 MLG K has entered the arena! 😎 Built for the meme generation, MLG K brings legendary energy, chaotic vibes, and nonstop internet culture to the crypto streets. No limits, no boring moments—just memes, community, and pure MLG energy. ⚡ The legend is loading, the squad is assembling, and the memes a",
-        "twitter": "https://x.com/gh1stsol?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -38736,19 +38712,30 @@
       "pnl_pct": 0.11,
       "exit_reason": "LLM: sell_all — Position is flat (+0.1%) after just opening, no momentum, and I need to free the slot for fresh attention launches. Stale-flat entries are the worst p",
       "partial": false
+    },
+    {
+      "mint": "8xt2ikY1W6MKwvXXQPM5ArEdDeYTsM962b73T4wbpump",
+      "symbol": "mlgk",
+      "name": "mlg Kirk",
+      "amount_sold": 548585.1444645165,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-08T00:25:46.102972+00:00",
+      "exit_time": "2026-09-08T00:27:09.331739+00:00",
+      "entry_price_usd": 3.7726140069289934e-06,
+      "exit_price_usd": 3.1887059565117003e-06,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.016891,
+      "pnl_sol": -0.003109,
+      "pnl_pct": -15.48,
+      "exit_reason": "LLM: sell_all — $mlgk is already -15.5% in essentially zero time held, sitting in a $154 pool where we already own 1%. That's whale-thin liquidity for our size, and -",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-08T00:25:46.103147+00:00",
+  "last_updated": "2026-09-08T00:27:09.332003+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.48,
-  "portfolio_value_usd": 9.26,
+  "last_sol_price_usd": 103.56,
+  "portfolio_value_usd": 8.95,
   "recent_decisions": [
-    {
-      "time": "2026-09-07 16:54 UTC",
-      "action": "buy",
-      "details": "[LLM] $PSMG at $1.896e-05, spent 0.02 SOL",
-      "reason": "$PSMG has the strongest setup of the batch: highest mcap ($23k), bond 39% already (real capital in), unique biotech/medical narrative that differentiates from generic memes, twitter link present. Buying 0.05 SOL. Hard stop -30%, auto TP ladder active."
-    },
     {
       "time": "2026-09-07 16:55 UTC",
       "action": "sell",
@@ -38862,30 +38849,48 @@
       "action": "buy",
       "details": "[LLM] $mlgk at $3.77261e-06, spent 0.02 SOL",
       "reason": "$mlgk (mlg Kirk): MLG meme nostalgia is a proven viral genre, 'legendary energy / chaotic vibes' copy is on-theme, twitter link to gh1stsol. Pure attention play. 0.05 SOL position."
+    },
+    {
+      "time": "2026-09-08 00:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $mlgk at $3.18871e-06 | P&L: -15.5%",
+      "reason": "$mlgk is already -15.5% in essentially zero time held, sitting in a $154 pool where we already own 1%. That's whale-thin liquidity for our size, and -15% becomes -30% fast in these conditions. Discipline rule: down >20% with no bounce = exit. Better to cut at -15% than wait for the hard -30% stop and free up capital for a real entry."
     }
   ],
   "trade_stats": {
-    "total": 2277,
+    "total": 2278,
     "wins": 1161,
-    "losses": 1116,
+    "losses": 1117,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.243151,
-    "avg_pnl_pct": 30.68,
+    "total_pnl_sol": -2.24626,
+    "avg_pnl_pct": 30.66,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 4,
-    "today_realized_sol": -0.002281,
-    "today_target_pct": -0.6,
+    "today_trades": 5,
+    "today_realized_sol": -0.00539,
+    "today_target_pct": -1.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1161,
-      "loss_count": 1116,
+      "loss_count": 1117,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T00:25:44.346694+00:00",
+  "last_llm_brief_at": "2026-09-08T00:27:09.331703+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8xt2ikY1W6MKwvXXQPM5ArEdDeYTsM962b73T4wbpump": {
+      "price_usd": 3.1887059565117003e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 153.54640873536002,
+      "volume_h24": 549.73,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.482680656
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

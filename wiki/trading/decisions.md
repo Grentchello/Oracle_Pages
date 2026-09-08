@@ -16564,3 +16564,6 @@
 ## [2026-09-08 00:25 UTC] buy | [LLM] $mlgk at $3.77261e-06, spent 0.02 SOL
 - **Reasoning:** $mlgk (mlg Kirk): MLG meme nostalgia is a proven viral genre, 'legendary energy / chaotic vibes' copy is on-theme, twitter link to gh1stsol. Pure attention play. 0.05 SOL position.
 
+## [2026-09-08 00:27 UTC] sell | [FULL][LLM] $mlgk at $3.18871e-06 | P&L: -15.5%
+- **Reasoning:** $mlgk is already -15.5% in essentially zero time held, sitting in a $154 pool where we already own 1%. That's whale-thin liquidity for our size, and -15% becomes -30% fast in these conditions. Discipline rule: down >20% with no bounce = exit. Better to cut at -15% than wait for the hard -30% stop and free up capital for a real entry.
+
