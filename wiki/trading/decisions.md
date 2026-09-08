@@ -16678,3 +16678,9 @@
 ## [2026-09-08 03:14 UTC] buy | [LLM] $ChadGPT at $5.432e-06, spent 0.02 SOL
 - **Reasoning:** $ChadGPT rides the viral $GOAT/Gigachad AI-narrative that already produced a 100x runner; OG cat-themed AI meta is hot and ChadGPT has clear branding + twitter pump + description exceeds viability gate. Fresh launch at $6.6k mcap with active X post is exactly the attention-launched profile that 10x's. Risk: super young (0.5min), but that's the edge.
 
+## [2026-09-08 03:15 UTC] sell | [TP +30% (25%)] $ChadGPT at $7.3672e-06 | P&L: +35.6%
+- **Reasoning:** Auto take-profit at +35.6%
+
+## [2026-09-08 03:15 UTC] sell | [PARTIAL][LLM] $ChadGPT at $7.3672e-06 | P&L: +35.6%
+- **Reasoning:** ChadGPT is +35.6% and already past the +30% threshold (auto-TP would handle, but taking manual half off locks profit on a thin $1852 pool where the next sell could crater price. Lock gains, let the rest ride on the AI narrative.
+

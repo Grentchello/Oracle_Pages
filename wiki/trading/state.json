@@ -1,17 +1,17 @@
 {
-  "balance_sol": 0.069593,
+  "balance_sol": 0.086556,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "8QwccbdY2YZngLSR6QRQNrmXXQXLNbeHqgsKy9d2uGv3": {
       "symbol": "ChadGPT",
       "name": "ChadGPT",
-      "amount": 379749.63181148755,
+      "amount": 142406.11192930784,
       "entry_price_usd": 5.432e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.0075,
       "entry_time": "2026-09-08T03:14:20.969606+00:00",
       "entry_usd_value": 2.0628,
-      "last_seen_price_usd": 5.432e-06,
+      "last_seen_price_usd": 7.36719771463967e-06,
       "entry_signals": {
         "liquidity_usd": 1517.02447315788,
         "volume_24h_usd": 1664.79,
@@ -39093,25 +39093,47 @@
       "pnl_pct": -18.11,
       "exit_reason": "LLM: sell_all — BCWO is down 18.1% after only 0.1 hours, has no clear bounce signal, and sits on a thin $102 pool. Exit quickly rather than risk a faster move toward ",
       "partial": false
+    },
+    {
+      "mint": "8QwccbdY2YZngLSR6QRQNrmXXQXLNbeHqgsKy9d2uGv3",
+      "symbol": "ChadGPT",
+      "name": "ChadGPT",
+      "amount_sold": 94937.40795287189,
+      "fraction_sold": 0.25,
+      "entry_time": "2026-09-08T03:14:20.969606+00:00",
+      "exit_time": "2026-09-08T03:15:24.782674+00:00",
+      "entry_price_usd": 5.432e-06,
+      "exit_price_usd": 7.36719771463967e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.006785,
+      "pnl_sol": 0.001785,
+      "pnl_pct": 35.63,
+      "exit_reason": "auto-TP +30% (25%)",
+      "partial": true
+    },
+    {
+      "mint": "8QwccbdY2YZngLSR6QRQNrmXXQXLNbeHqgsKy9d2uGv3",
+      "symbol": "ChadGPT",
+      "name": "ChadGPT",
+      "amount_sold": 142406.11192930784,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-08T03:14:20.969606+00:00",
+      "exit_time": "2026-09-08T03:15:40.795036+00:00",
+      "entry_price_usd": 5.432e-06,
+      "exit_price_usd": 7.36719771463967e-06,
+      "entry_sol_for_chunk": 0.0075,
+      "exit_sol_received": 0.010178,
+      "pnl_sol": 0.002678,
+      "pnl_pct": 35.63,
+      "exit_reason": "LLM: sell_half — ChadGPT is +35.6% and already past the +30% threshold (auto-TP would handle, but taking manual half off locks profit on a thin $1852 pool where the ne",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-08T03:14:20.969890+00:00",
+  "last_updated": "2026-09-08T03:15:41.051865+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 103.14,
-  "portfolio_value_usd": 9.24,
+  "last_sol_price_usd": 103.079,
+  "portfolio_value_usd": 9.7,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 01:54 UTC",
-      "action": "buy",
-      "details": "[LLM] $MVP at $7.461e-06, spent 0.02 SOL",
-      "reason": "Strongest attention signal in this batch — viral across multiple sports outlets plus Polymarket reference, with twitter link to @Devilantesol driving narrative. $MVP at 1min old and mcap $9.5k is still early enough for 2-5x in the first hour if the sports-twitter crowd piles in. Risk: position size 0.05 SOL will drop reserve below the 0.05 minimum given current 0.0821 SOL free balance — bot may reject on reserve/liquidity gate. Fragility-checked: not on political/celebrity blocklist, ME2F evaluation pending against real-time holder data."
-    },
-    {
-      "time": "2026-09-08 01:55 UTC",
-      "action": "sell",
-      "details": "[TP +30% (25%)] $MVP at $1.35444e-05 | P&L: +81.5%",
-      "reason": "Auto take-profit at +81.5%"
-    },
     {
       "time": "2026-09-08 01:56 UTC",
       "action": "sell",
@@ -39219,30 +39241,54 @@
       "action": "buy",
       "details": "[LLM] $ChadGPT at $5.432e-06, spent 0.02 SOL",
       "reason": "$ChadGPT rides the viral $GOAT/Gigachad AI-narrative that already produced a 100x runner; OG cat-themed AI meta is hot and ChadGPT has clear branding + twitter pump + description exceeds viability gate. Fresh launch at $6.6k mcap with active X post is exactly the attention-launched profile that 10x's. Risk: super young (0.5min), but that's the edge."
+    },
+    {
+      "time": "2026-09-08 03:15 UTC",
+      "action": "sell",
+      "details": "[TP +30% (25%)] $ChadGPT at $7.3672e-06 | P&L: +35.6%",
+      "reason": "Auto take-profit at +35.6%"
+    },
+    {
+      "time": "2026-09-08 03:15 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $ChadGPT at $7.3672e-06 | P&L: +35.6%",
+      "reason": "ChadGPT is +35.6% and already past the +30% threshold (auto-TP would handle, but taking manual half off locks profit on a thin $1852 pool where the next sell could crater price. Lock gains, let the rest ride on the AI narrative."
     }
   ],
   "trade_stats": {
-    "total": 2298,
-    "wins": 1172,
+    "total": 2300,
+    "wins": 1174,
     "losses": 1126,
     "win_rate_pct": 51.0,
-    "total_pnl_sol": -2.243061,
+    "total_pnl_sol": -2.238598,
     "avg_pnl_pct": 30.55,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 25,
-    "today_realized_sol": -0.002191,
-    "today_target_pct": -0.5,
+    "today_trades": 27,
+    "today_realized_sol": 0.002272,
+    "today_target_pct": 0.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1172,
+      "win_count": 1174,
       "loss_count": 1126,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-08T03:14:19.626633+00:00",
+  "last_llm_brief_at": "2026-09-08T03:15:40.794616+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8QwccbdY2YZngLSR6QRQNrmXXQXLNbeHqgsKy9d2uGv3": {
+      "price_usd": 7.36719771463967e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1851.838193548891,
+      "volume_h24": 10474.85,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 17.965232429
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
