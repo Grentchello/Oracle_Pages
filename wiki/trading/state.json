@@ -1,8 +1,32 @@
 {
-  "balance_sol": 1.67523,
+  "balance_sol": 1.62523,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "6aBL3AMSWrpTSjcagWLqttHdHpNKgQpSq9nDDH15pump": {
+      "symbol": "OTC IS LARP",
+      "name": "ROTATE TO PURPS",
+      "amount": 1765017.4405686932,
+      "entry_price_usd": 2.97050889101169e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-09T08:33:50.892759+00:00",
+      "entry_usd_value": 5.243,
+      "last_seen_price_usd": 2.97050889101169e-06,
+      "entry_signals": {
+        "liquidity_usd": 20.70985020972,
+        "volume_24h_usd": null,
+        "market_cap_usd": 2971.626280791909,
+        "ath_market_cap_usd": 2971.626280791909,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.197500002,
+        "description": "",
+        "twitter": "https://x.com/all_ineed1/status/2097604078624731348?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40261,17 +40285,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-09T08:32:22.777282+00:00",
+  "last_updated": "2026-09-09T08:33:50.893049+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.88,
-  "portfolio_value_usd": 175.7,
+  "last_sol_price_usd": 104.86,
+  "portfolio_value_usd": 175.66,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 08:08 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $GS crashed >15% in one tick | P&L: -53.5%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-09 08:08 UTC",
       "action": "buy",
@@ -40385,6 +40403,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $RISE at $8.4255e-06 | P&L: +13.5%",
       "reason": "$RISE up 13.5% but just entered (0.0h), not at TP thresholds and not stale. Holding to see if the pump continues; thin pool ($2187) so wicks are likely — could spike to +30% TP quickly."
+    },
+    {
+      "time": "2026-09-09 08:33 UTC",
+      "action": "buy",
+      "details": "[LLM] $OTC IS LARP at $2.97051e-06, spent 0.05 SOL",
+      "reason": "Only candidate passing viability + fragility gates. Pure crypto-Twitter native meta-narrative ('OTC is LARP, rotate to purps') - the kind of insider humor CT loves. Twitter link present. Risk: 3 mint variants launched in seconds = spam pattern, narrative might not stick. Small 0.05 SOL test."
     }
   ],
   "trade_stats": {
@@ -40406,21 +40430,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T08:32:22.776506+00:00",
+  "last_llm_brief_at": "2026-09-09T08:33:49.509233+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "DLTtRtiyPtknPB2w5Y7ErkEsu7m1zGt3rfP6ArMEpump": {
-      "price_usd": 8.425497718074395e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2187.00557594568,
-      "volume_h24": 1906.83,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 20.852455911
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

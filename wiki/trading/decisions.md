@@ -17167,3 +17167,6 @@
 ## [2026-09-09 08:32 UTC] sell | [FULL][LLM] $RISE at $8.4255e-06 | P&L: +13.5%
 - **Reasoning:** $RISE up 13.5% but just entered (0.0h), not at TP thresholds and not stale. Holding to see if the pump continues; thin pool ($2187) so wicks are likely — could spike to +30% TP quickly.
 
+## [2026-09-09 08:33 UTC] buy | [LLM] $OTC IS LARP at $2.97051e-06, spent 0.05 SOL
+- **Reasoning:** Only candidate passing viability + fragility gates. Pure crypto-Twitter native meta-narrative ('OTC is LARP, rotate to purps') - the kind of insider humor CT loves. Twitter link present. Risk: 3 mint variants launched in seconds = spam pattern, narrative might not stick. Small 0.05 SOL test.
+
