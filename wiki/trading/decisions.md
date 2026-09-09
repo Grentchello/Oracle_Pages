@@ -16948,3 +16948,9 @@
 ## [2026-09-09 05:29 UTC] buy | [LLM] $Vee at $3.82811e-06, spent 0.05 SOL
 - **Reasoning:** $Vee (Visa Mascot) — brand hijack of a globally recognized mascot, sub-1min age, $3.8k mcap. Attention play on a recognizable IP that can trend on CT quickly.
 
+## [2026-09-09 05:31 UTC] sell | [FULL][LLM] $Vee at $3.28384e-06 | P&L: -14.2%
+- **Reasoning:** $Vee is down -14.2% with pool at only $190 and our share already 2% — liquidity is dead, any bounce will be impossible to realize. Approaching the -25% LLM cap; cut now rather than wait for the -30% hard stop.
+
+## [2026-09-09 05:31 UTC] buy | [LLM] $CHILLBULL at $1.7801e-05, spent 0.05 SOL
+- **Reasoning:** $CHILLBULL has the strongest organic traction of the batch — bonding curve 37% complete, $17.8k mcap still small, has X presence, memeable 'chill bull' name, and no celebrity/political keywords so it passes fragility gate. Fresh (0.1min) attention is exactly where the alpha is.
+
