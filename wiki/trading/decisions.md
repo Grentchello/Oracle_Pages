@@ -17107,3 +17107,9 @@
 ## [2026-09-09 08:07 UTC] buy | [LLM] $GS at $6.549e-06, spent 0.05 SOL
 - **Reasoning:** $GS leading bond curve at 22% — strongest traction signal in the batch. Golden Sacks (McDonald's parody) is a recognizable, memeable narrative with Twitter presence. Early mcap $5.6k with real buying pressure. Other candidates are all at 0-4% bond with unproven demand.
 
+## [2026-09-09 08:08 UTC] sell | [rapid-drop] $GS crashed >15% in one tick | P&L: -53.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 08:08 UTC] buy | [LLM] $WELL at $7.464e-06, spent 0.05 SOL
+- **Reasoning:** $WELL is the leader of this launch batch ($10.5k mcap vs $3k peers) with an actual X post attached — that's validated attention, not just a fresh mint. Viability gate passes (twitter present). Not on fragility blocklist. Position size 0.05 SOL leaves1.72 SOL free.
+
