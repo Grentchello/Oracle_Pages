@@ -1,8 +1,32 @@
 {
-  "balance_sol": 1.675554,
+  "balance_sol": 1.625554,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "Ak7eRCZGTWAYd1ckLFqVq9vc2LHpW5rdTxv9YmDQpump": {
+      "symbol": "LMAO",
+      "name": "LMAO",
+      "amount": 3993526.275704494,
+      "entry_price_usd": 1.313e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-09T08:38:33.874000+00:00",
+      "entry_usd_value": 5.243500000000001,
+      "last_seen_price_usd": 1.313e-06,
+      "entry_signals": {
+        "liquidity_usd": 13.165508370620001,
+        "volume_24h_usd": 13.07,
+        "market_cap_usd": 2152.960783817382,
+        "ath_market_cap_usd": 2567.5755632852956,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.125541226,
+        "description": "",
+        "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40295,17 +40319,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-09T08:36:51.255617+00:00",
+  "last_updated": "2026-09-09T08:38:33.874317+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.99,
-  "portfolio_value_usd": 175.92,
+  "last_sol_price_usd": 104.87,
+  "portfolio_value_usd": 175.72,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 08:12 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $SENTIENT crashed >15% in one tick | P&L: -29.6%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-09 08:14 UTC",
       "action": "observe",
@@ -40419,6 +40437,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $TIPSY at $3.72097e-06 | P&L: +0.7%",
       "reason": "Just entered at +0.6%, bonding curve only 13% complete, not stale yet. Give it time to develop — exit if it goes flat >30min or dumps -20%."
+    },
+    {
+      "time": "2026-09-09 08:38 UTC",
+      "action": "buy",
+      "details": "[LLM] $LMAO at $1.313e-06, spent 0.05 SOL",
+      "reason": "$LMAO has the strongest attention signal — universal internet humor meme, sub-$3k mcap with viral name recognition. Laugh-meme tokens historically pump hard on pure name virality. 0.05 SOL position ($5)."
     }
   ],
   "trade_stats": {
@@ -40440,21 +40464,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T08:36:51.255215+00:00",
+  "last_llm_brief_at": "2026-09-09T08:38:32.451964+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "2gBkFPhokSvTh1jtX7Db8VmofJGsozR9mvMTgpTRpump": {
-      "price_usd": 3.7209742894467576e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 396.49645169149,
-      "volume_h24": 462.19,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 3.776516351
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
