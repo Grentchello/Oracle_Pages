@@ -17095,3 +17095,6 @@
 ## [2026-09-09 08:00 UTC] sell | [v8.7 TP +50% (full)] $RTD at $1.39838e-05 | P&L: +122.8%
 - **Reasoning:** Auto take-profit at +122.8%
 
+## [2026-09-09 08:02 UTC] buy | [LLM] $BnB at $2.933e-06, spent 0.05 SOL
+- **Reasoning:** BNB Chain's official X account (@BNBCHAINZH) posted about it — that's a legit institutional attention signal, not just noise. 'Stonks' is a proven meme format, fresh launch at 0.9min gives early entry before any pump. Risk: very low mcap ($2.9k) and bond at 0% means thin liquidity, but the official-source catalyst justifies the entry.
+
