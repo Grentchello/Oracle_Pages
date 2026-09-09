@@ -571,7 +571,29 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         -(c.get("bonding_progress", 0) or 0),  # graduating first
         -(c.get("created_ts", 0) or 0),  # newer first
     ))
-    candidates = candidates[:15]
+    # v8.8: Filter out tokens that already pumped (likely at top of dump)
+    # If ATH market cap is >2x current mcap, token already pumped and is dumping
+    filtered_count = 0
+    pre_filter_count = len(candidates)
+    candidates_filtered = []
+    for c in candidates:
+        ath_mcap = c.get("ath_market_cap_usd", 0) or 0
+        cur_mcap = c.get("market_cap_usd", 0) or 0
+        # Skip if token has already pumped >2x from current (means dump incoming)
+        if ath_mcap > 0 and cur_mcap > 0 and ath_mcap / cur_mcap > 2.0:
+            filtered_count += 1
+            log(f"v8.8 PUMPED FILTER: ${c.get('symbol')} rejected — ATH ${ath_mcap:.0f} is {ath_mcap/cur_mcap:.1f}x current ${cur_mcap:.0f} (likely post-pump)")
+            continue
+        # Skip if change_24h > +200% (just pumped, about to dump)
+        chg24 = c.get("change_24h", 0) or 0
+        if chg24 > 200:
+            filtered_count += 1
+            log(f"v8.8 PUMPED FILTER: ${c.get('symbol')} rejected — change_24h={chg24:.0f}% (already pumped)")
+            continue
+        candidates_filtered.append(c)
+    if filtered_count > 0:
+        log(f"v8.8: filtered {filtered_count}/{pre_filter_count} candidates (already pumped)")
+    candidates = candidates_filtered[:15]
 
     new_launch_alert = ""
     if new_mints:
