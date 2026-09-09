@@ -16897,3 +16897,6 @@
 ## [2026-09-09 05:11 UTC] sell | [FULL][LLM] $Catecoin  at $1.95413e-07 | P&L: -99.0%
 - **Reasoning:** Position is at -99%, far past the -25% hard stop. The bot should have auto-closed already — calling sell_all to force-exit and free the slot for a fresh entry.
 
+## [2026-09-09 05:12 UTC] buy | [LLM] $USELESS at $3.01477e-06, spent 0.05 SOL
+- **Reasoning:** $USELESS — the 'memes are useless' Solana official tweet is genuine viral attention from a major protocol account. Anti-meme meta-narrative tends to print because irony IS the meme. Fresh0.2min, twitter attached, fits viability gate. Risk: meta-coin fatigue if Solana ecosystem reads it as cringe; size capped at 0.05 SOL.
+
