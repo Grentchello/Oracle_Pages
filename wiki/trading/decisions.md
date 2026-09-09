@@ -17182,3 +17182,9 @@
 ## [2026-09-09 08:38 UTC] buy | [LLM] $LMAO at $1.313e-06, spent 0.05 SOL
 - **Reasoning:** $LMAO has the strongest attention signal — universal internet humor meme, sub-$3k mcap with viral name recognition. Laugh-meme tokens historically pump hard on pure name virality. 0.05 SOL position ($5).
 
+## [2026-09-09 08:39 UTC] sell | [rapid-drop] $LMAO crashed >15% in one tick | P&L: -82.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 08:40 UTC] buy | [LLM] $Mud at $8.50894e-06, spent 0.05 SOL
+- **Reasoning:** $Mud (Mud to Moon) has the strongest attention signal of the cohort: highest mcap ($8.5k vs $1.5-3.6k for others), bond at 29% indicating organic early accumulation (not zero), dedicated twitter handle, and a clear migration/journey narrative. Buying 0.05 SOL to test the wave.
+

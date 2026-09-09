@@ -1,27 +1,27 @@
 {
-  "balance_sol": 1.625554,
+  "balance_sol": 1.584302,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "Ak7eRCZGTWAYd1ckLFqVq9vc2LHpW5rdTxv9YmDQpump": {
-      "symbol": "LMAO",
-      "name": "LMAO",
-      "amount": 3993526.275704494,
-      "entry_price_usd": 1.313e-06,
+    "6aGKstjw1v5u6sLS9sLEUr7xrfp3U2M39AWgbsH7pump": {
+      "symbol": "Mud",
+      "name": "Mud to Moon",
+      "amount": 616057.6889498847,
+      "entry_price_usd": 8.508943389596147e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T08:38:33.874000+00:00",
-      "entry_usd_value": 5.243500000000001,
-      "last_seen_price_usd": 1.313e-06,
+      "entry_time": "2026-09-09T08:40:28.939553+00:00",
+      "entry_usd_value": 5.242000000000001,
+      "last_seen_price_usd": 8.508943389596147e-06,
       "entry_signals": {
-        "liquidity_usd": 13.165508370620001,
-        "volume_24h_usd": 13.07,
-        "market_cap_usd": 2152.960783817382,
-        "ath_market_cap_usd": 2567.5755632852956,
+        "liquidity_usd": 960.14946349808,
+        "volume_24h_usd": null,
+        "market_cap_usd": 8504.885328078788,
+        "ath_market_cap_usd": 8878.96123112653,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.125541226,
+        "real_sol_reserves": 9.158236012,
         "description": "",
-        "twitter": "",
+        "twitter": "https://twitter.com/ch0senbygod5/status/2097605747962196186",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -40317,25 +40317,30 @@
       "pnl_pct": 0.65,
       "exit_reason": "LLM: sell_all — Just entered at +0.6%, bonding curve only 13% complete, not stale yet. Give it time to develop — exit if it goes flat >30min or dumps -20%.",
       "partial": false
+    },
+    {
+      "mint": "Ak7eRCZGTWAYd1ckLFqVq9vc2LHpW5rdTxv9YmDQpump",
+      "symbol": "LMAO",
+      "name": "LMAO",
+      "amount_sold": 3993526.275704494,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T08:38:33.874000+00:00",
+      "exit_time": "2026-09-09T08:39:38.965171+00:00",
+      "entry_price_usd": 1.313e-06,
+      "exit_price_usd": 2.2964502186064515e-07,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.008748,
+      "pnl_sol": -0.041252,
+      "pnl_pct": -82.51,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T08:38:33.874317+00:00",
+  "last_updated": "2026-09-09T08:40:28.939729+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.87,
-  "portfolio_value_usd": 175.72,
+  "last_sol_price_usd": 104.84,
+  "portfolio_value_usd": 171.34,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 08:14 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-09 08:17 UTC",
-      "action": "buy",
-      "details": "[LLM] $PUMPCAT at $3.47e-06, spent 0.05 SOL",
-      "reason": "$PUMPCAT combines two viral meme primitives (pump + cat) at $3k mcap, 0.7min old, with twitter presence. Fresh launches need entry before confirmation; this name has obvious meme potential on CT."
-    },
     {
       "time": "2026-09-09 08:18 UTC",
       "action": "sell",
@@ -40443,30 +40448,54 @@
       "action": "buy",
       "details": "[LLM] $LMAO at $1.313e-06, spent 0.05 SOL",
       "reason": "$LMAO has the strongest attention signal — universal internet humor meme, sub-$3k mcap with viral name recognition. Laugh-meme tokens historically pump hard on pure name virality. 0.05 SOL position ($5)."
+    },
+    {
+      "time": "2026-09-09 08:39 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $LMAO crashed >15% in one tick | P&L: -82.5%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-09 08:40 UTC",
+      "action": "buy",
+      "details": "[LLM] $Mud at $8.50894e-06, spent 0.05 SOL",
+      "reason": "$Mud (Mud to Moon) has the strongest attention signal of the cohort: highest mcap ($8.5k vs $1.5-3.6k for others), bond at 29% indicating organic early accumulation (not zero), dedicated twitter handle, and a clear migration/journey narrative. Buying 0.05 SOL to test the wave."
     }
   ],
   "trade_stats": {
-    "total": 2370,
+    "total": 2371,
     "wins": 1190,
-    "losses": 1180,
+    "losses": 1181,
     "win_rate_pct": 50.2,
-    "total_pnl_sol": -2.590756,
-    "avg_pnl_pct": 29.35,
+    "total_pnl_sol": -2.632008,
+    "avg_pnl_pct": 29.31,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 57,
-    "today_realized_sol": -0.324448,
-    "today_target_pct": -81.1,
+    "today_trades": 58,
+    "today_realized_sol": -0.3657,
+    "today_target_pct": -91.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1190,
-      "loss_count": 1180,
+      "loss_count": 1181,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T08:38:32.451964+00:00",
+  "last_llm_brief_at": "2026-09-09T08:40:27.235340+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Ak7eRCZGTWAYd1ckLFqVq9vc2LHpW5rdTxv9YmDQpump": {
+      "price_usd": 2.2964502186064515e-07,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.19081130112,
+      "volume_h24": 62.62,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.011358368
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
