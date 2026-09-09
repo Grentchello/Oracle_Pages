@@ -16873,3 +16873,6 @@
 ## [2026-09-09 04:59 UTC] buy | [LLM] $BOOM at $4.027e-06, spent 0.05 SOL
 - **Reasoning:** $BOOM has classic fresh-launch attention: punchy viral name, X post, sub-$4k mcap, bonds still filling. High-risk, high-reward launch sniper play. Taking 0.05 SOL.
 
+## [2026-09-09 05:02 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+

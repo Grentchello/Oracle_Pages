@@ -11,7 +11,7 @@
       "entry_sol_spent": 0.05,
       "entry_time": "2026-09-09T04:59:33.496694+00:00",
       "entry_usd_value": 5.2170000000000005,
-      "last_seen_price_usd": 4.027e-06,
+      "last_seen_price_usd": 4.050913471805015e-06,
       "entry_signals": {
         "liquidity_usd": 565.3056404968801,
         "volume_24h_usd": 857.58,
@@ -39469,17 +39469,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-09T04:59:33.496947+00:00",
+  "last_updated": "2026-09-09T05:02:37.375296+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 104.34,
   "portfolio_value_usd": 206.01,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 22:29 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-08 23:08 UTC",
       "action": "observe",
@@ -39593,6 +39587,12 @@
       "action": "buy",
       "details": "[LLM] $BOOM at $4.027e-06, spent 0.05 SOL",
       "reason": "$BOOM has classic fresh-launch attention: punchy viral name, X post, sub-$4k mcap, bonds still filling. High-risk, high-reward launch sniper play. Taking 0.05 SOL."
+    },
+    {
+      "time": "2026-09-09 05:02 UTC",
+      "action": "observe",
+      "details": "LLM call failed: llm call failed",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -39614,9 +39614,21 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T04:59:32.126921+00:00",
+  "last_llm_brief_at": "2026-09-09T05:02:37.374997+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "B4pEspAfd8QVoKKt9QgFZoLoVh6y53Lu76hvh6NSpump": {
+      "price_usd": 4.050913471805015e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 558.40701567168,
+      "volume_h24": 905.86,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 5.351801952
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
