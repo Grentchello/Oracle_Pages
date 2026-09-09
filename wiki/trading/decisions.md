@@ -17035,3 +17035,9 @@
 ## [2026-09-09 07:37 UTC] buy | [LLM] $MSI at $6.946e-06, spent 0.05 SOL
 - **Reasoning:** $MSI leads the batch: highest mcap ($7,875), 28% bond progress (most committed buyers), clear 'Meme Stock Index' meta-narrative that resonates with current trading culture, and active twitter. At ~1.2min old it's still early but already showing traction — this is exactly the early-traction entry the strategy calls for. 0.05 SOL size respects scalp discipline and leaves 1.8 SOL for rotation.
 
+## [2026-09-09 07:38 UTC] sell | [rapid-drop] $MSI crashed >15% in one tick | P&L: -49.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 07:38 UTC] buy | [LLM] $cwk  at $3.528e-06, spent 0.05 SOL
+- **Reasoning:** $cwk Crowwifknife rides the proven 'wif' meta (dogwifhat family) with a novel knife twist, has a live X post from dev_pscl, and is fresh at 0.6min / $3.3k mcap — textbook early-attention entry. Risk: bond only 6%, thin liquidity could reverse fast — I'll exit hard if no pump in 15 min.
+
