@@ -1270,14 +1270,9 @@ def main():
             #  - Description < 50 chars (lazy project)
             #  - No twitter handle (community signal missing)
             #  - Very low liquidity (<$2k) — too easy to dump
+            # v8.7: REMOVED description/twitter viability gates. They were blocking 80% of candidates.
+            # Trust the LLM's pick + 30-min cap + -25% stop.
             desc = (token.get("description") or token.get("desc") or "").strip()
-            twitter = (token.get("twitter") or "").strip()
-            if len(desc) < 50:
-                log(f"VIABILITY GATE: ${token.get('symbol')} rejected — description too short ({len(desc)} chars)")
-                continue
-            if not twitter and eff_liq < 3000:
-                log(f"VIABILITY GATE: ${token.get('symbol')} rejected — no twitter AND low liquidity (${eff_liq:.0f})")
-                continue
             # === ME2F fragility filter (research: arXiv 2512.00377) ===
             # ME2F found political/celebrity-themed tokens are the MOST fragile.
             # Top-100 holders often >90%, sentiment amplification 20%+, volatility extreme.
