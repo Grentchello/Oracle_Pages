@@ -17089,3 +17089,6 @@
 ## [2026-09-09 07:57 UTC] sell | [FULL][LLM] $DOGSHIP at $6.17458e-06 | P&L: +0.1%
 - **Reasoning:** DOGSHIP is flat (+0.1%) after 0h held, pool is only $1,422 — well below the 5x position-size liquidity requirement. No narrative, no viral signal, dead on arrival. Free the slot for a better candidate.
 
+## [2026-09-09 07:59 UTC] buy | [LLM] $RTD at $6.275e-06, spent 0.05 SOL
+- **Reasoning:** $RTD leading the batch by mcap ($7.4k), retard-format name has proven viral attention mechanics, bond filling at 27% indicates real buyers not just deployer spam, twitter attached. Small0.05 SOL position given extreme freshness (1.3min) and rug potential.
+

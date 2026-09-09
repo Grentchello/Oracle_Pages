@@ -1,8 +1,32 @@
 {
-  "balance_sol": 1.741125,
+  "balance_sol": 1.691125,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "KHysC4pjEXz3aEANFNV2A7ZMWTMujCmRYa6v51vpump": {
+      "symbol": "RTD",
+      "name": "RetardCoin",
+      "amount": 833067.7290836653,
+      "entry_price_usd": 6.275e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-09T07:59:21.924994+00:00",
+      "entry_usd_value": 5.2275,
+      "last_seen_price_usd": 6.275e-06,
+      "entry_signals": {
+        "liquidity_usd": 2500.3622041783497,
+        "volume_24h_usd": 9621.81,
+        "market_cap_usd": 7424.285663079949,
+        "ath_market_cap_usd": 11558.682071685795,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 23.915468237,
+        "description": "",
+        "twitter": "https://x.com/RTRDcoinPF/status/2097595192106701008?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40040,17 +40064,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-09T07:57:52.298903+00:00",
+  "last_updated": "2026-09-09T07:59:21.925170+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 104.55,
   "portfolio_value_usd": 182.03,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 07:36 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Spin crashed >15% in one tick | P&L: -23.4%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-09 07:37 UTC",
       "action": "buy",
@@ -40164,6 +40182,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $DOGSHIP at $6.17458e-06 | P&L: +0.1%",
       "reason": "DOGSHIP is flat (+0.1%) after 0h held, pool is only $1,422 — well below the 5x position-size liquidity requirement. No narrative, no viral signal, dead on arrival. Free the slot for a better candidate."
+    },
+    {
+      "time": "2026-09-09 07:59 UTC",
+      "action": "buy",
+      "details": "[LLM] $RTD at $6.275e-06, spent 0.05 SOL",
+      "reason": "$RTD leading the batch by mcap ($7.4k), retard-format name has proven viral attention mechanics, bond filling at 27% indicates real buyers not just deployer spam, twitter attached. Small0.05 SOL position given extreme freshness (1.3min) and rug potential."
     }
   ],
   "trade_stats": {
@@ -40185,21 +40209,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T07:57:51.198706+00:00",
+  "last_llm_brief_at": "2026-09-09T07:59:20.677615+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "FVq85rzcwsspvPELm4iAVWEEP3fSmzE6Vrmu183kpump": {
-      "price_usd": 6.1745751124409015e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1422.04289715945,
-      "volume_h24": 1427.17,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 13.601558079
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
