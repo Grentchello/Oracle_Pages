@@ -17146,3 +17146,9 @@
 ## [2026-09-09 08:23 UTC] buy | [LLM] $BAOLA at $4.423e-06, spent 0.05 SOL
 - **Reasoning:** $BAOLA MONEY — highest mcap of the new launches ($11.7k), has a description (viability gate), and 'BAOLA' has a vague-vibe memecoin energy (community driven, no tax). At 0.05 SOL, it's a small bet on a narrative token. Risk: extremely low mcap and bond only 1%, very early stage.
 
+## [2026-09-09 08:25 UTC] sell | [FULL][LLM] $BAOLA at $2.68526e-08 | P&L: -99.4%
+- **Reasoning:** $BAOLA is at -99.4%, pool is $1, my 3% share is worth roughly $0.03 — effectively worthless. Holding a dead bonding-curve position locks the slot and prevents rotation into fresh attention. Exit to free the position slot.
+
+## [2026-09-09 08:25 UTC] buy | [LLM] $WOOF at $9.536e-06, spent 0.05 SOL
+- **Reasoning:** $WOOF (Woof of Wallstreet) — strongest signal in the batch: highest bonding curve progress at 30%, highest mcap at $8.7k, fresh ~1min old, has Twitter attention. Clear narrative hook (Wall Street dog) riding a perennial meme. Best risk-adjusted entry despite no desc.
+
