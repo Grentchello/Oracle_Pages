@@ -16843,3 +16843,9 @@
 ## [2026-09-09 04:47 UTC] buy | [LLM] $MSLOP at $3.52157e-06, spent 0.05 SOL
 - **Reasoning:** $MSLOP (Microslop 95) rides a durable, evergreen 'Microsoft bad' meme with its own active X account posting at launch — real attention signal, not just a name. 0.2min old mcap $3.5k means early entry if it catches a bid; risk is a sub-10% bond curve and brand-IP takedown risk, but the narrative is culturally sticky.
 
+## [2026-09-09 04:48 UTC] sell | [rapid-drop] $MSLOP crashed >15% in one tick | P&L: -17.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 04:49 UTC] buy | [LLM] $CYBER at $8.567e-06, spent 0.05 SOL
+- **Reasoning:** $CYBER has the strongest narrative of the batch — 'Cyber Kitty memes you while harvesting $OTC' is a self-aware cyberpunk meme with a clear thematic hook. Active twitter, bond 29% furthest along of viable candidates, mcap $8.2k gives 10x+ room. Fits scalp playbook: fresh launch, story, attention.
+
