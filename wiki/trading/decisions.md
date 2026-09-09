@@ -17152,3 +17152,6 @@
 ## [2026-09-09 08:25 UTC] buy | [LLM] $WOOF at $9.536e-06, spent 0.05 SOL
 - **Reasoning:** $WOOF (Woof of Wallstreet) — strongest signal in the batch: highest bonding curve progress at 30%, highest mcap at $8.7k, fresh ~1min old, has Twitter attention. Clear narrative hook (Wall Street dog) riding a perennial meme. Best risk-adjusted entry despite no desc.
 
+## [2026-09-09 08:26 UTC] sell | [rapid-drop] $WOOF crashed >15% in one tick | P&L: -64.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

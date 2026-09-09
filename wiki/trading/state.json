@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.677393,
+  "balance_sol": 1.694999,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ACXBwS3J1GnztPkwPFzTyFhHrAEsvQape5xEBXKupump": {
-      "symbol": "WOOF",
-      "name": "Woof of Wallstreet",
-      "amount": 549234.479865772,
-      "entry_price_usd": 9.536e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T08:25:42.647793+00:00",
-      "entry_usd_value": 5.237500000000001,
-      "last_seen_price_usd": 9.536e-06,
-      "entry_signals": {
-        "liquidity_usd": 121.88483540975,
-        "volume_24h_usd": 8276.97,
-        "market_cap_usd": 8691.073969355719,
-        "ath_market_cap_usd": 11220.358881339806,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.163578381,
-        "description": "",
-        "twitter": "https://x.com/0xZynk/status/2097601825360715811?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40232,19 +40208,30 @@
       "pnl_pct": -99.39,
       "exit_reason": "LLM: sell_all — $BAOLA is at -99.4%, pool is $1, my 3% share is worth roughly $0.03 — effectively worthless. Holding a dead bonding-curve position locks the slot and ",
       "partial": false
+    },
+    {
+      "mint": "ACXBwS3J1GnztPkwPFzTyFhHrAEsvQape5xEBXKupump",
+      "symbol": "WOOF",
+      "name": "Woof of Wallstreet",
+      "amount_sold": 549234.479865772,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T08:25:42.647793+00:00",
+      "exit_time": "2026-09-09T08:26:55.409472+00:00",
+      "entry_price_usd": 9.536e-06,
+      "exit_price_usd": 3.3559409532198895e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.017606,
+      "pnl_sol": -0.032394,
+      "pnl_pct": -64.81,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T08:25:42.647963+00:00",
+  "last_updated": "2026-09-09T08:27:32.765261+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.75,
-  "portfolio_value_usd": 180.94,
+  "last_sol_price_usd": 104.69,
+  "portfolio_value_usd": 177.45,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 08:00 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $RTD at $1.39838e-05 | P&L: +122.8%",
-      "reason": "Auto take-profit at +122.8%"
-    },
     {
       "time": "2026-09-09 08:02 UTC",
       "action": "buy",
@@ -40358,40 +40345,46 @@
       "action": "buy",
       "details": "[LLM] $WOOF at $9.536e-06, spent 0.05 SOL",
       "reason": "$WOOF (Woof of Wallstreet) — strongest signal in the batch: highest bonding curve progress at 30%, highest mcap at $8.7k, fresh ~1min old, has Twitter attention. Clear narrative hook (Wall Street dog) riding a perennial meme. Best risk-adjusted entry despite no desc."
+    },
+    {
+      "time": "2026-09-09 08:26 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $WOOF crashed >15% in one tick | P&L: -64.8%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2365,
+    "total": 2366,
     "wins": 1188,
-    "losses": 1177,
+    "losses": 1178,
     "win_rate_pct": 50.2,
-    "total_pnl_sol": -2.538917,
-    "avg_pnl_pct": 29.46,
+    "total_pnl_sol": -2.571311,
+    "avg_pnl_pct": 29.42,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 52,
-    "today_realized_sol": -0.272609,
-    "today_target_pct": -68.2,
+    "today_trades": 53,
+    "today_realized_sol": -0.305003,
+    "today_target_pct": -76.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1188,
-      "loss_count": 1177,
+      "loss_count": 1178,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T08:25:41.367457+00:00",
+  "last_llm_brief_at": "2026-09-09T08:27:32.492792+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5TX8seLLr51P8MSj1EfC5ZQw9QQEsqwfgfnmG3Cxpump": {
-      "price_usd": 2.685257099084315e-08,
+    "ACXBwS3J1GnztPkwPFzTyFhHrAEsvQape5xEBXKupump": {
+      "price_usd": 3.3559409532198895e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.161593281,
-      "volume_h24": 3681.27,
+      "liquidity_usd": 222.24871653341998,
+      "volume_h24": 18362.59,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.011089196
+      "real_sol_reserves": 2.122922118
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
