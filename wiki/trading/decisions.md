@@ -17086,3 +17086,6 @@
 ## [2026-09-09 07:56 UTC] buy | [LLM] $DOGSHIP at $6.171e-06, spent 0.05 SOL
 - **Reasoning:** $DOGSHIP — dog+ship meta is classic attention bait, fresh launch with $6k mcap and 24% bond (near graduation). Memecoin meta plays catch quick attention on CT/dexscreener. 0.05 SOL position sizing per v7 rules.
 
+## [2026-09-09 07:57 UTC] sell | [FULL][LLM] $DOGSHIP at $6.17458e-06 | P&L: +0.1%
+- **Reasoning:** DOGSHIP is flat (+0.1%) after 0h held, pool is only $1,422 — well below the 5x position-size liquidity requirement. No narrative, no viral signal, dead on arrival. Free the slot for a better candidate.
+
