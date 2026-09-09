@@ -17215,3 +17215,6 @@
 ## [2026-09-09 08:53 UTC] buy | [LLM] $CATHOLIC at $6.398e-06, spent 0.05 SOL
 - **Reasoning:** Pope + cat narrative riding the cat meta, has twitter, bond 29% (closest to graduation = real buying pressure). $8.5k mcap with 29% bond completion is the safest fresh-launch play. Sized at 0.05 SOL to stay within v7 hard rule.
 
+## [2026-09-09 08:54 UTC] sell | [rapid-drop] $CATHOLIC crashed >15% in one tick | P&L: -53.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
