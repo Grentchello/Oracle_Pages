@@ -17065,3 +17065,9 @@
 ## [2026-09-09 07:46 UTC] buy | [LLM] $BTW at $7.278e-06, spent 0.05 SOL
 - **Reasoning:** $BTW (Banana Tape Wall) — Banana tape / 'Big Brain Time' is a real viral meme; bond 34% at 1.2min shows real buyer traction; $11.8k mcap is still early. Risky: name is generic enough to rug, but the meme root gives it a narrative floor.
 
+## [2026-09-09 07:47 UTC] sell | [FULL][LLM] $BTW at $6.73938e-06 | P&L: -7.4%
+- **Reasoning:** $BTW is down -7.4% right at entry with no momentum, low pool ($1,625), and no narrative signal in the candidates. Cut the loser early before it deepens — bonding-curve tokens at this liquidity die fast.
+
+## [2026-09-09 07:47 UTC] buy | [LLM] $SPI6900 at $3.7762e-06, spent 0.05 SOL
+- **Reasoning:** $SPI6900 is a stock-pair index (TSLAx) — narrative coin riding TSLA attention. Fresh launch, twitter post live, mcap $3.7k with room to run. Attention play with a clear ticker story.
+
