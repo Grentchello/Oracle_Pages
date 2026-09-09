@@ -17104,3 +17104,6 @@
 ## [2026-09-09 08:05 UTC] sell | [FULL][LLM] $BnB at $2.93919e-06 | P&L: +0.2%
 - **Reasoning:** $BnB entered at +0.2%, flat after 0min on bonding curve. No movement yet — give it a few more minutes for narrative to develop before deciding. Will sell at -20% or +20%.
 
+## [2026-09-09 08:07 UTC] buy | [LLM] $GS at $6.549e-06, spent 0.05 SOL
+- **Reasoning:** $GS leading bond curve at 22% — strongest traction signal in the batch. Golden Sacks (McDonald's parody) is a recognizable, memeable narrative with Twitter presence. Early mcap $5.6k with real buying pressure. Other candidates are all at 0-4% bond with unproven demand.
+
