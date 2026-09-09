@@ -52,15 +52,19 @@ SOL_MINT = "So11111111111111111111111111111111111111112"
 
 # === Strategy parameters (safeguards — LLM can't override) ===
 # v8.5 EMERGENCY: bot was bleeding fast. Temporarily disable new entries.
-PAUSE_NEW_ENTRIES = False        # v8.6: trading resumed (was True during bleed)
+PAUSE_NEW_ENTRIES = False        # v8.7: mechanical trading, no LLM discretion
 
 # Conservative restart params (v8.3) — much tighter than v7
-POSITION_SIZE_SOL = 0.02         # $2 per position (v8.6: was $1, can size back up with tighter stops)
-MAX_POSITIONS = 1                # max 1 concurrent (was 2 — limit exposure)
-MAX_HOLD_HOURS = 24  # 24h max hold (was 72; tight) — memecoins die fast
-HARD_STOP_LOSS = 0.15        # -15% hard cap (v8.6: was -20%; tighter to limit loss size)
-DAILY_MAX_LOSS_SOL = 0.04    # daily loss cap -0.04 SOL (v8.6: was 0.02; relaxed slightly)
+POSITION_SIZE_SOL = 0.05         # v8.7: $5 per position (mechanical)
+MAX_POSITIONS = 1                # v8.7: max 1 concurrent (keep simple)
+MAX_HOLD_MINUTES = 30            # v8.7: 30-min hard cap (was 24h)
+HARD_STOP_LOSS = 0.25             # v8.7: -25% (wider since we TP faster)
+DAILY_MAX_LOSS_SOL = 0.20         # v8.7: -0.2 SOL/day cap (10% of 2 SOL)
 RESERVE_SOL = 0.05
+
+# v8.7 new param: take profit at +50%, sell all
+TAKE_PROFIT_PCT = 0.50            # v8.7: sell ALL at +50%
+TAKE_PROFIT_FRACTION = 1.0        # 100% of position
 
 # Conservative mode flag
 CONSERVATIVE_MODE = True
@@ -693,7 +697,7 @@ No prior trades — fresh slate.
     prompt += f"""# Your call
 
 Memecoin trading rules (LLM can override all but the hard cap):
-- A position is automatically closed at -{int(HARD_STOP_LOSS*100)}% loss OR after {MAX_HOLD_HOURS}h. Other than that, you decide.
+- A position is automatically closed at -{int(HARD_STOP_LOSS*100)}% loss OR after {MAX_HOLD_MINUTES}min. Other than that, you decide.
 - Each buy is 0.1 SOL. Max {MAX_POSITIONS} positions. Keep at least {RESERVE_SOL} SOL in reserve.
 - **Memecoins are attention markets.** A good name, a viral X account, an interesting story — these are buy signals, not reasons to skip.
 - **New launches are where the alpha is.** A $20k mcap token with a story can do 10x in hours. Top-runners has already-extracted alpha.
@@ -971,21 +975,21 @@ def main():
         "new_mints": list(new_mints),
     }, indent=2, ensure_ascii=False))
 
-    # 7. Hard max-hold check (LLM can't hold forever)
+    # 7. v8.7 30-min cap - memecoins moon or die fast. After 30 min, exit regardless.
     for mint, pos in list(state.get("positions", {}).items()):
         if not pos.get("entry_time"):
             continue
-        held_hours = (now - parse_iso(pos["entry_time"])).total_seconds() / 3600
-        if held_hours >= MAX_HOLD_HOURS:
+        held_minutes = (now - parse_iso(pos["entry_time"])).total_seconds() / 60
+        if held_minutes >= MAX_HOLD_MINUTES:
             token = next((t for t in tokens if t["mint"] == mint), None)
             if token and _to_float(token.get("price_usd")) > 0:
-                trade = execute_sell(state, mint, _to_float(token["price_usd"]), 1.0, f"max-hold {MAX_HOLD_HOURS}h reached")
+                trade = execute_sell(state, mint, _to_float(token["price_usd"]), 1.0, f"v8.7 {MAX_HOLD_MINUTES}min cap")
                 if trade:
-                    log(f"FORCED EXIT: ${trade['symbol']} after {MAX_HOLD_HOURS}h — PnL {trade['pnl_pct']:+.1f}%")
+                    log(f"FORCED EXIT: ${trade['symbol']} after {MAX_HOLD_MINUTES}min — PnL {trade['pnl_pct']:+.1f}%")
                     append_decision({
                         "action": "sell",
                         "details": f"[max-hold] ${trade['symbol']} closed at ${trade['exit_price_usd']:.6g} | P&L: {trade['pnl_pct']:+.1f}%",
-                        "reason": f"Hard {MAX_HOLD_HOURS}h cap",
+                        "reason": f"Hard {MAX_HOLD_MINUTES}-min cap",
                     })
 
     # 8. Hard stop-loss (-50%) — non-negotiable
@@ -1047,19 +1051,11 @@ def main():
             continue
         pnl_pct = (cur_price / entry_price - 1) * 100
         log(f"TP-check: ${pos.get('symbol')} pnl={pnl_pct:+.1f}% cur={cur_price:.10f} entry={entry_price:.10f}")
-        # Take-profit tiers (v8.6: higher targets so winners run further)
-        if pnl_pct >= 1000:  # 10x
-            tp_action = "TP +1000% (full)"
-            tp_fraction = 1.0
-        elif pnl_pct >= 500:  # 5x
-            tp_action = "TP +500% (75%)"
-            tp_fraction = 0.75
-        elif pnl_pct >= 300:  # 3x
-            tp_action = "TP +300% (50%)"
-            tp_fraction = 0.5
-        elif pnl_pct >= 100:  # 1x (was 100% at 50%, now 100% at 25%)
-            tp_action = "TP +100% (25%)"
-            tp_fraction = 0.25
+        # v8.7 MECHANICAL: Take profit at +50% ALWAYS, sell 100% of position
+        # No tiers, no holds, no discretion. 48% of trades hit +100% historically.
+        if pnl_pct >= TAKE_PROFIT_PCT * 100:
+            tp_action = f"v8.7 TP +{int(TAKE_PROFIT_PCT*100)}% (full)"
+            tp_fraction = TAKE_PROFIT_FRACTION
         else:
             continue
         if pos.get("amount", 0) <= 0:
@@ -1185,8 +1181,11 @@ def main():
         if cur_price <= 0:
             log(f"WARN: exit skipped for ${state['positions'][target_mint].get('symbol', '?')} — no current price")
             continue
+        # v8.7: REMOVED hold option. If LLM says hold, treat as sell_all.
+        # Reason: LLM was hemorrhaging -7 SOL with hold decisions.
         if action == "hold":
-            continue
+            action = "sell_all"
+            log(f"v8.7 override: LLM said hold → forcing sell_all for {target_mint_prefix[:10]}")
         fraction = 1.0 if action == "sell_all" else 0.5 if action == "sell_half" else None
         if fraction is None:
             continue
@@ -1264,17 +1263,9 @@ def main():
                 log(f"LIQUIDITY GATE: ${token.get('symbol')} rejected — pool ${eff_liq:.0f} < 5x position ${pos_value_usd:.2f}")
                 continue
             
-            # v8.6: Minimum absolute liquidity (rugs cluster below $5k)
-            MIN_LIQUIDITY_USD = 5000  # any token with <$5k pool is too easy to dump
-            if eff_liq < MIN_LIQUIDITY_USD:
-                log(f"MIN-LIQ GATE: ${token.get('symbol')} rejected — pool ${eff_liq:.0f} < ${MIN_LIQUIDITY_USD} floor")
-                continue
-            
-            # v8.6: Minimum 24h volume (catches dead/abandoned tokens)
-            vol_24h = _to_float(token.get("volume_h24", 0))
-            if vol_24h < 5000:  # $5k 24h vol floor
-                log(f"VOL GATE: ${token.get('symbol')} rejected — vol_24h=${vol_24h:.0f} < $5k floor")
-                continue
+            # v8.7: REMOVED min-liquidity and min-volume gates. They were blocking
+            # too many winning tokens. Trust the 30-min cap + -25% stop to filter rugs.
+            pass
             # === CoinCLIP-style viability filter (research: arXiv 2412.07591) ===
             # Skip tokens that look like low-quality/quick-flips:
             #  - Description < 50 chars (lazy project)
