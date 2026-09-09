@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.925845,
+  "balance_sol": 1.926321,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3XyFWqiAVqJS3ukPVFYCipbNXn5mQYKrhLZ18Y31pump": {
-      "symbol": "Catecoin ",
-      "name": "auracat ",
-      "amount": 253937.0503610772,
-      "entry_price_usd": 2.0505081840543092e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T05:09:40.278687+00:00",
-      "entry_usd_value": 5.207000000000001,
-      "last_seen_price_usd": 2.0505081840543092e-05,
-      "entry_signals": {
-        "liquidity_usd": 19.41638459108,
-        "volume_24h_usd": null,
-        "market_cap_usd": 20518.86478397345,
-        "ath_market_cap_usd": 20518.86478397345,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.186445022,
-        "description": "cat been farming so much aura let’s give him some more ",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39518,19 +39494,30 @@
       "pnl_pct": -17.47,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "3XyFWqiAVqJS3ukPVFYCipbNXn5mQYKrhLZ18Y31pump",
+      "symbol": "Catecoin ",
+      "name": "auracat ",
+      "amount_sold": 253937.0503610772,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T05:09:40.278687+00:00",
+      "exit_time": "2026-09-09T05:11:07.833767+00:00",
+      "entry_price_usd": 2.0505081840543092e-05,
+      "exit_price_usd": 1.9541264956827615e-07,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.000476,
+      "pnl_sol": -0.049524,
+      "pnl_pct": -99.05,
+      "exit_reason": "LLM: sell_all — Position is at -99%, far past the -25% hard stop. The bot should have auto-closed already — calling sell_all to force-exit and free the slot for a fre",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T05:09:40.278948+00:00",
+  "last_updated": "2026-09-09T05:11:07.834015+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.14,
-  "portfolio_value_usd": 205.76,
+  "last_sol_price_usd": 104.3,
+  "portfolio_value_usd": 200.92,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 04:44 UTC",
-      "action": "buy",
-      "details": "[LLM] $WILSON at $3.97e-06, spent 0.05 SOL",
-      "reason": "$WILSON 'The Cruise Scammer' is a viral-ready narrative — cruise scammer stories trend hard on X/TikTok. 1.1min old, $3.8k mcap, Twitter attached. Low entry, high virality ceiling. Risk: story-driven coins need the story to circulate fast or they die in 10 min."
-    },
     {
       "time": "2026-09-09 04:46 UTC",
       "action": "sell",
@@ -39644,40 +39631,46 @@
       "action": "buy",
       "details": "[LLM] $Catecoin  at $2.05051e-05, spent 0.05 SOL",
       "reason": "$Catecoin has highest mcap ($20.5k) of fresh launches, 'auracat' cat-meme narrative fits attention-market thesis, and cat coins have a track record of viral pumps. Entry at sub-$20k mcap is the kind of early-position the strategy targets."
+    },
+    {
+      "time": "2026-09-09 05:11 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Catecoin  at $1.95413e-07 | P&L: -99.0%",
+      "reason": "Position is at -99%, far past the -25% hard stop. The bot should have auto-closed already — calling sell_all to force-exit and free the slot for a fresh entry."
     }
   ],
   "trade_stats": {
-    "total": 2323,
+    "total": 2324,
     "wins": 1179,
-    "losses": 1144,
-    "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.290464,
-    "avg_pnl_pct": 30.21,
+    "losses": 1145,
+    "win_rate_pct": 50.7,
+    "total_pnl_sol": -2.339988,
+    "avg_pnl_pct": 30.15,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 10,
-    "today_realized_sol": -0.024156,
-    "today_target_pct": -6.0,
+    "today_trades": 11,
+    "today_realized_sol": -0.07368,
+    "today_target_pct": -18.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1179,
-      "loss_count": 1144,
+      "loss_count": 1145,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T05:09:38.964741+00:00",
+  "last_llm_brief_at": "2026-09-09T05:11:07.833722+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2b8gC5wuR92kYp2u5vwYyYrY2KQTzGAPxh3wfnvnpump": {
-      "price_usd": 2.9142684641794437e-06,
+    "3XyFWqiAVqJS3ukPVFYCipbNXn5mQYKrhLZ18Y31pump": {
+      "price_usd": 1.9541264956827615e-07,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.40471550908,
-      "volume_h24": 630.0,
+      "liquidity_usd": 16.0186135515,
+      "volume_h24": 720.87,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.013488722
+      "real_sol_reserves": 0.153582105
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
