@@ -1,8 +1,32 @@
 {
-  "balance_sol": 1.616817,
+  "balance_sol": 1.566817,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "8ZvcPsQGZNVgLW7F9f1xWGdf3MMhXtA6KiGCiAFjpump": {
+      "symbol": "ROI",
+      "name": "Retards Outperforming Investors",
+      "amount": 1454066.056064391,
+      "entry_price_usd": 3.603e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-09T08:52:24.989037+00:00",
+      "entry_usd_value": 5.239000000000001,
+      "last_seen_price_usd": 3.603e-06,
+      "entry_signals": {
+        "liquidity_usd": 84.80460081392,
+        "volume_24h_usd": 1329.27,
+        "market_cap_usd": 3176.5957891652165,
+        "ath_market_cap_usd": 4014.5287556322987,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.809358664,
+        "description": "",
+        "twitter": "https://x.com/derivativist/status/2097608738869809478?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40380,17 +40404,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-09T08:50:55.609576+00:00",
+  "last_updated": "2026-09-09T08:52:24.989321+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.74,
-  "portfolio_value_usd": 169.35,
+  "last_sol_price_usd": 104.78,
+  "portfolio_value_usd": 169.41,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 08:25 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BAOLA at $2.68526e-08 | P&L: -99.4%",
-      "reason": "$BAOLA is at -99.4%, pool is $1, my 3% share is worth roughly $0.03 — effectively worthless. Holding a dead bonding-curve position locks the slot and prevents rotation into fresh attention. Exit to free the position slot."
-    },
     {
       "time": "2026-09-09 08:25 UTC",
       "action": "buy",
@@ -40504,6 +40522,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $MUSE at $3.29832e-06 | P&L: +19.3%",
       "reason": "Locking +19.3% gain on a $57 pool where we're already 11% of liquidity. Tiny pool + large our share = any sell pressure from others nukes our price. Up >15% with doubt = take profit per rules. Daily P&L at -0.39 SOL, one bad tick from -0.4 cap. Free the slot for fresh entries."
+    },
+    {
+      "time": "2026-09-09 08:52 UTC",
+      "action": "buy",
+      "details": "[LLM] $ROI at $3.603e-06, spent 0.05 SOL",
+      "reason": "$ROI (Retards Outperforming Investors) — pure degen meta-narrative targeting self-aware crypto traders. Ticker $ROI itself is the meme, strong viral hook, fresh launch (0.8min), has X post attached for attention pickup."
     }
   ],
   "trade_stats": {
@@ -40525,21 +40549,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T08:50:55.609287+00:00",
+  "last_llm_brief_at": "2026-09-09T08:52:23.666172+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "AJwTptXu2ezgiRvhVD9BLo2UKc4zmn99vX2CXtvapump": {
-      "price_usd": 3.2983240297418646e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 56.512563151319995,
-      "volume_h24": 65.41,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.539550918
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

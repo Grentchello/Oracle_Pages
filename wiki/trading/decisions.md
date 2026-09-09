@@ -17206,3 +17206,6 @@
 ## [2026-09-09 08:50 UTC] sell | [FULL][LLM] $MUSE at $3.29832e-06 | P&L: +19.3%
 - **Reasoning:** Locking +19.3% gain on a $57 pool where we're already 11% of liquidity. Tiny pool + large our share = any sell pressure from others nukes our price. Up >15% with doubt = take profit per rules. Daily P&L at -0.39 SOL, one bad tick from -0.4 cap. Free the slot for fresh entries.
 
+## [2026-09-09 08:52 UTC] buy | [LLM] $ROI at $3.603e-06, spent 0.05 SOL
+- **Reasoning:** $ROI (Retards Outperforming Investors) — pure degen meta-narrative targeting self-aware crypto traders. Ticker $ROI itself is the meme, strong viral hook, fresh launch (0.8min), has X post attached for attention pickup.
+
