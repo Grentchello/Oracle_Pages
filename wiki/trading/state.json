@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.738483,
+  "balance_sol": 1.741125,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6WzoLcuNa7z8U8hQrBSw88AkHrh5CyLJBvsPHieepump": {
-      "symbol": "seven",
-      "name": "GTA SEVEN ",
-      "amount": 94413.38521345599,
-      "entry_price_usd": 2.929e-06,
-      "entry_sol_spent": 0.0026412302319982098,
-      "entry_time": "2026-09-09T07:49:38.870784+00:00",
-      "entry_usd_value": 5.235,
-      "last_seen_price_usd": 2.926571154877094e-06,
-      "entry_signals": {
-        "liquidity_usd": 1.1062865844,
-        "volume_24h_usd": 1.1,
-        "market_cap_usd": 2929.089237132725,
-        "ath_market_cap_usd": 2929.089237132725,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.010566252,
-        "description": "It has been a long time and GTA six haven't been released. are gonna wait for GTa 7 now??",
-        "twitter": "https://x.com/gtasven",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40028,19 +40004,30 @@
       "pnl_pct": -0.08,
       "exit_reason": "LLM: sell_all — Position is essentially flat (-0.1%) but the real red flag is 'our share=473%' on a bonding-curve pool of only $1. We are the entire market — exit liq",
       "partial": true
+    },
+    {
+      "mint": "6WzoLcuNa7z8U8hQrBSw88AkHrh5CyLJBvsPHieepump",
+      "symbol": "seven",
+      "name": "GTA SEVEN ",
+      "amount_sold": 94413.38521345599,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T07:49:38.870784+00:00",
+      "exit_time": "2026-09-09T07:53:20.975736+00:00",
+      "entry_price_usd": 2.929e-06,
+      "exit_price_usd": 2.9254520072079253e-06,
+      "entry_sol_for_chunk": 0.002641,
+      "exit_sol_received": 0.002642,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.12,
+      "exit_reason": "LLM: sell_all — Flat at -0.1% after only 6 min, not yet stale. Exiting now would crash the $1 pool where I hold 25% share — exit friction is high. Give it a few more ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T07:51:38.427282+00:00",
+  "last_updated": "2026-09-09T07:53:20.975932+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.6,
-  "portfolio_value_usd": 182.12,
+  "last_sol_price_usd": 104.56,
+  "portfolio_value_usd": 182.05,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 07:33 UTC",
-      "action": "buy",
-      "details": "[LLM] $ANTIBROKE at $8.90466e-06, spent 0.05 SOL",
-      "reason": "$ANTIBROKE passes viability gate (has twitter, desc present), bond at 30% with progressing buys, anti-broke is a relatable viral narrative with a dedicated X handle. Small-cap entry on fresh attention, ride the launch."
-    },
     {
       "time": "2026-09-09 07:34 UTC",
       "action": "sell",
@@ -40154,35 +40141,41 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $seven at $2.92657e-06 | P&L: -0.1%",
       "reason": "Position is essentially flat (-0.1%) but the real red flag is 'our share=473%' on a bonding-curve pool of only $1. We are the entire market — exit liquidity will vanish if we wait, and any bounce will be eaten by the next seller. Cut and free the slot."
+    },
+    {
+      "time": "2026-09-09 07:53 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $seven at $2.92545e-06 | P&L: -0.1%",
+      "reason": "Flat at -0.1% after only 6 min, not yet stale. Exiting now would crash the $1 pool where I hold 25% share — exit friction is high. Give it a few more minutes; if still flat by 15 min mark, cut and redeploy."
     }
   ],
   "trade_stats": {
-    "total": 2353,
+    "total": 2354,
     "wins": 1185,
-    "losses": 1168,
-    "win_rate_pct": 50.4,
+    "losses": 1169,
+    "win_rate_pct": 50.3,
     "total_pnl_sol": -2.525185,
-    "avg_pnl_pct": 29.62,
+    "avg_pnl_pct": 29.61,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 40,
+    "today_trades": 41,
     "today_realized_sol": -0.258877,
     "today_target_pct": -64.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1185,
-      "loss_count": 1168,
+      "loss_count": 1169,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T07:51:38.426020+00:00",
+  "last_llm_brief_at": "2026-09-09T07:53:20.974928+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "6WzoLcuNa7z8U8hQrBSw88AkHrh5CyLJBvsPHieepump": {
-      "price_usd": 2.926571154877094e-06,
+      "price_usd": 2.9254520072079253e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.1052299592,
+      "liquidity_usd": 1.10480730912,
       "volume_h24": 1.1,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
