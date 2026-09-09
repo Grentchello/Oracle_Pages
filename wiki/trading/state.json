@@ -1,17 +1,17 @@
 {
-  "balance_sol": 1.931209,
+  "balance_sol": 1.956336,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "EZiLHmouexTUND7nat64sBWaLXbEAUjUYMQ7ZQojZFVx": {
       "symbol": "Buck",
       "name": "GME Mascot",
-      "amount": 1539902.0986263538,
+      "amount": 645518.9783355277,
       "entry_price_usd": 3.3862542330785293e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.02095974084688089,
       "entry_time": "2026-09-09T04:51:46.528155+00:00",
       "entry_usd_value": 5.214500000000001,
-      "last_seen_price_usd": 3.3862542330785293e-06,
+      "last_seen_price_usd": 2.9305237315683197e-06,
       "entry_signals": {
         "liquidity_usd": 94.64510770228,
         "volume_24h_usd": null,
@@ -39399,19 +39399,30 @@
       "pnl_pct": -5.86,
       "exit_reason": "LLM: sell_all — $CYBER only -5.9% after fresh entry (0.0h). Not at any stop/take-profit level. Bonding-curve pool $2075 is thin so price will move fast in either dire",
       "partial": false
+    },
+    {
+      "mint": "EZiLHmouexTUND7nat64sBWaLXbEAUjUYMQ7ZQojZFVx",
+      "symbol": "Buck",
+      "name": "GME Mascot",
+      "amount_sold": 894383.1202908261,
+      "fraction_sold": 0.5808051830623823,
+      "entry_time": "2026-09-09T04:51:46.528155+00:00",
+      "exit_time": "2026-09-09T04:53:04.333065+00:00",
+      "entry_price_usd": 3.3862542330785293e-06,
+      "exit_price_usd": 2.9305237315683197e-06,
+      "entry_sol_for_chunk": 0.02904,
+      "exit_sol_received": 0.025127,
+      "pnl_sol": -0.003913,
+      "pnl_pct": -13.46,
+      "exit_reason": "LLM: sell_all — Down 13.5%, but the real killer is we're 60% of an $8 pool — any meaningful exit will crater the price further. Cut and free the slot before liquidity",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-09T04:51:46.528337+00:00",
+  "last_updated": "2026-09-09T04:53:04.333305+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.29,
-  "portfolio_value_usd": 206.62,
+  "last_sol_price_usd": 104.31,
+  "portfolio_value_usd": 206.25,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 20:21 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-08 21:11 UTC",
       "action": "observe",
@@ -39525,30 +39536,48 @@
       "action": "buy",
       "details": "[LLM] $Buck at $3.38625e-06, spent 0.05 SOL",
       "reason": "$Buck is the GameStop official mascot memecoin — verified by @gamestop's own X account, with a real description 'Buck the Bunny'. Brand-IP memecoins (GameStop nostalgia +2021 GME-era attention) historically pump hard. Bond 7% so still pre-graduation; if it completes the curve this rides the Raydium migration wave. Best narrative-to-risk ratio in the batch."
+    },
+    {
+      "time": "2026-09-09 04:53 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Buck at $2.93052e-06 | P&L: -13.5%",
+      "reason": "Down 13.5%, but the real killer is we're 60% of an $8 pool — any meaningful exit will crater the price further. Cut and free the slot before liquidity evaporates."
     }
   ],
   "trade_stats": {
-    "total": 2316,
+    "total": 2317,
     "wins": 1177,
-    "losses": 1139,
+    "losses": 1140,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.285099,
-    "avg_pnl_pct": 30.31,
+    "total_pnl_sol": -2.289012,
+    "avg_pnl_pct": 30.29,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 3,
-    "today_realized_sol": -0.018791,
-    "today_target_pct": -4.7,
+    "today_trades": 4,
+    "today_realized_sol": -0.022704,
+    "today_target_pct": -5.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1177,
-      "loss_count": 1139,
+      "loss_count": 1140,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T04:51:44.734670+00:00",
+  "last_llm_brief_at": "2026-09-09T04:53:04.332908+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EZiLHmouexTUND7nat64sBWaLXbEAUjUYMQ7ZQojZFVx": {
+      "price_usd": 2.9305237315683197e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 7.566834740760001,
+      "volume_h24": 928.18,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.072541796
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -16855,3 +16855,6 @@
 ## [2026-09-09 04:51 UTC] buy | [LLM] $Buck at $3.38625e-06, spent 0.05 SOL
 - **Reasoning:** $Buck is the GameStop official mascot memecoin — verified by @gamestop's own X account, with a real description 'Buck the Bunny'. Brand-IP memecoins (GameStop nostalgia +2021 GME-era attention) historically pump hard. Bond 7% so still pre-graduation; if it completes the curve this rides the Raydium migration wave. Best narrative-to-risk ratio in the batch.
 
+## [2026-09-09 04:53 UTC] sell | [PARTIAL][LLM] $Buck at $2.93052e-06 | P&L: -13.5%
+- **Reasoning:** Down 13.5%, but the real killer is we're 60% of an $8 pool — any meaningful exit will crater the price further. Cut and free the slot before liquidity evaporates.
+
