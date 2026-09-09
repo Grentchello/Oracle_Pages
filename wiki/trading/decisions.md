@@ -17119,3 +17119,9 @@
 ## [2026-09-09 08:10 UTC] buy | [LLM] $SENTIENT at $2.942e-06, spent 0.05 SOL
 - **Reasoning:** $SENTIENT has the freshest original AI narrative (organic intelligence + decentralized tech), passes viability (long desc), age 0.6min means first-mover attention. Risk: brand-new mint with no twitter yet, could be a slow mover.
 
+## [2026-09-09 08:12 UTC] sell | [rapid-drop] $SENTIENT crashed >15% in one tick | P&L: -29.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 08:14 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
