@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.855019,
+  "balance_sol": 1.911068,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2imvBcH9cEfcx2QxsNZKp4NvL8Sjhm5FtzoXVGEJpump": {
-      "symbol": "PUMPx",
-      "name": "PUMP STOCK",
-      "amount": 736050.7428772179,
-      "entry_price_usd": 7.112960690093814e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T07:30:36.168657+00:00",
-      "entry_usd_value": 5.2355,
-      "last_seen_price_usd": 7.112960690093814e-06,
-      "entry_signals": {
-        "liquidity_usd": 2373.03168644572,
-        "volume_24h_usd": null,
-        "market_cap_usd": 7116.357195055181,
-        "ath_market_cap_usd": 7116.357195055181,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 22.662894532,
-        "description": "hold $PUMPx to receive $PUMP rewards",
-        "twitter": "https://x.com/PUMPxstock/status/2097588204614377976",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39841,19 +39817,30 @@
       "pnl_pct": -9.18,
       "exit_reason": "LLM: sell_all — $BOMBANANA is -9.2% on a tiny $1480 pool with 0% of pool share and no visible narrative — the -25% hard stop will catch further downside but rotating ",
       "partial": false
+    },
+    {
+      "mint": "2imvBcH9cEfcx2QxsNZKp4NvL8Sjhm5FtzoXVGEJpump",
+      "symbol": "PUMPx",
+      "name": "PUMP STOCK",
+      "amount_sold": 736050.7428772179,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T07:30:36.168657+00:00",
+      "exit_time": "2026-09-09T07:32:07.508373+00:00",
+      "entry_price_usd": 7.112960690093814e-06,
+      "exit_price_usd": 7.973437679962443e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.056049,
+      "pnl_sol": 0.006049,
+      "pnl_pct": 12.1,
+      "exit_reason": "LLM: sell_all — PUMPx is up +12.1% on a fresh entry (0.0h held) with positive momentum but below the +20% profit-take threshold. Bonding curve share display shows 0% ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T07:30:36.168820+00:00",
+  "last_updated": "2026-09-09T07:32:07.509052+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 104.71,
-  "portfolio_value_usd": 199.47,
+  "portfolio_value_usd": 200.11,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 05:32 UTC",
-      "action": "buy",
-      "details": "[LLM] $COWSOL at $5.269e-06, spent 0.05 SOL",
-      "reason": "$COWSOL at $5.3k mcap, bond 0% (brand new), cow mascot narrative has viral precedent in meme culture (wholesome + absurd). Early enough for asymmetric upside, mcap high enough to clear viability gate. Risk: cow meme is niche vs dog/frog — may not catch broad attention."
-    },
     {
       "time": "2026-09-09 05:33 UTC",
       "action": "sell",
@@ -39967,30 +39954,48 @@
       "action": "buy",
       "details": "[LLM] $PUMPx at $7.11296e-06, spent 0.05 SOL",
       "reason": "$PUMPx with 'hold to receive $PUMP rewards' hook has explicit attention bait, mcap $7k is fresh launch territory, X link live. Risks: tiny mcap, bond only 26% complete, unverified creator. Narrative meta-references PUMP token trend which has attention tailwind."
+    },
+    {
+      "time": "2026-09-09 07:32 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PUMPx at $7.97344e-06 | P&L: +12.1%",
+      "reason": "PUMPx is up +12.1% on a fresh entry (0.0h held) with positive momentum but below the +20% profit-take threshold. Bonding curve share display shows 0% which is normal for bonding-curve phase. Will reassess if it pushes past +20% or stalls."
     }
   ],
   "trade_stats": {
-    "total": 2342,
-    "wins": 1183,
+    "total": 2343,
+    "wins": 1184,
     "losses": 1159,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -2.36129,
-    "avg_pnl_pct": 29.9,
+    "total_pnl_sol": -2.355241,
+    "avg_pnl_pct": 29.89,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 29,
-    "today_realized_sol": -0.094982,
-    "today_target_pct": -23.7,
+    "today_trades": 30,
+    "today_realized_sol": -0.088933,
+    "today_target_pct": -22.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1183,
+      "win_count": 1184,
       "loss_count": 1159,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T07:30:34.830906+00:00",
+  "last_llm_brief_at": "2026-09-09T07:32:07.508281+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2imvBcH9cEfcx2QxsNZKp4NvL8Sjhm5FtzoXVGEJpump": {
+      "price_usd": 7.973437679962443e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2042.8477558385498,
+      "volume_h24": 15963.24,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 19.509576505
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

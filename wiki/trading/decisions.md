@@ -17017,3 +17017,6 @@
 ## [2026-09-09 07:30 UTC] buy | [LLM] $PUMPx at $7.11296e-06, spent 0.05 SOL
 - **Reasoning:** $PUMPx with 'hold to receive $PUMP rewards' hook has explicit attention bait, mcap $7k is fresh launch territory, X link live. Risks: tiny mcap, bond only 26% complete, unverified creator. Narrative meta-references PUMP token trend which has attention tailwind.
 
+## [2026-09-09 07:32 UTC] sell | [FULL][LLM] $PUMPx at $7.97344e-06 | P&L: +12.1%
+- **Reasoning:** PUMPx is up +12.1% on a fresh entry (0.0h held) with positive momentum but below the +20% profit-take threshold. Bonding curve share display shows 0% which is normal for bonding-curve phase. Will reassess if it pushes past +20% or stalls.
+
