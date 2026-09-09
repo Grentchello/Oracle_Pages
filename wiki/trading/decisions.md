@@ -16900,3 +16900,6 @@
 ## [2026-09-09 05:12 UTC] buy | [LLM] $USELESS at $3.01477e-06, spent 0.05 SOL
 - **Reasoning:** $USELESS — the 'memes are useless' Solana official tweet is genuine viral attention from a major protocol account. Anti-meme meta-narrative tends to print because irony IS the meme. Fresh0.2min, twitter attached, fits viability gate. Risk: meta-coin fatigue if Solana ecosystem reads it as cringe; size capped at 0.05 SOL.
 
+## [2026-09-09 05:13 UTC] sell | [FULL][LLM] $USELESS at $2.915e-06 | P&L: -3.3%
+- **Reasoning:** Fresh position at -3.3% is noise, not a -20% exit signal. $USELESS is a real meta-memecoin narrative on Solana. Bonding curve, huge share % means I'm early. Give it room to develop before rotating.
+

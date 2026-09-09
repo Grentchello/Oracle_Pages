@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.876321,
+  "balance_sol": 1.924685,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CGVWv8uSBWBmDBGzFovrE4E27ib92jDGiQWxnNaXpump": {
-      "symbol": "USELESS",
-      "name": "memes are useless",
-      "amount": 1729814.9825427441,
-      "entry_price_usd": 3.014773286524668e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T05:12:27.195842+00:00",
-      "entry_usd_value": 5.215,
-      "last_seen_price_usd": 3.014773286524668e-06,
-      "entry_signals": {
-        "liquidity_usd": 2.086e-07,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3013.474538842013,
-        "ath_market_cap_usd": 3013.474538842013,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2e-09,
-        "description": "Solana posted \"memes are useless\" and the line instantly became the meme. A flat anti-meme statement got recycled as pure meme fuel.",
-        "twitter": "https://x.com/theunipcs/status/2097553483507421667",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39535,19 +39511,30 @@
       "pnl_pct": -99.05,
       "exit_reason": "LLM: sell_all — Position is at -99%, far past the -25% hard stop. The bot should have auto-closed already — calling sell_all to force-exit and free the slot for a fre",
       "partial": false
+    },
+    {
+      "mint": "CGVWv8uSBWBmDBGzFovrE4E27ib92jDGiQWxnNaXpump",
+      "symbol": "USELESS",
+      "name": "memes are useless",
+      "amount_sold": 1729814.9646594108,
+      "fraction_sold": 0.9999999896617074,
+      "entry_time": "2026-09-09T05:12:27.195842+00:00",
+      "exit_time": "2026-09-09T05:13:48.227369+00:00",
+      "entry_price_usd": 3.014773286524668e-06,
+      "exit_price_usd": 2.91500466002658e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.048364,
+      "pnl_sol": -0.001636,
+      "pnl_pct": -3.31,
+      "exit_reason": "LLM: sell_all — Fresh position at -3.3% is noise, not a -20% exit signal. $USELESS is a real meta-memecoin narrative on Solana. Bonding curve, huge share % means I'm ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T05:12:27.196136+00:00",
+  "last_updated": "2026-09-09T05:13:48.227596+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.3,
-  "portfolio_value_usd": 200.92,
+  "last_sol_price_usd": 104.26,
+  "portfolio_value_usd": 200.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 04:47 UTC",
-      "action": "buy",
-      "details": "[LLM] $MSLOP at $3.52157e-06, spent 0.05 SOL",
-      "reason": "$MSLOP (Microslop 95) rides a durable, evergreen 'Microsoft bad' meme with its own active X account posting at launch — real attention signal, not just a name. 0.2min old mcap $3.5k means early entry if it catches a bid; risk is a sub-10% bond curve and brand-IP takedown risk, but the narrative is culturally sticky."
-    },
     {
       "time": "2026-09-09 04:48 UTC",
       "action": "sell",
@@ -39661,30 +39648,48 @@
       "action": "buy",
       "details": "[LLM] $USELESS at $3.01477e-06, spent 0.05 SOL",
       "reason": "$USELESS — the 'memes are useless' Solana official tweet is genuine viral attention from a major protocol account. Anti-meme meta-narrative tends to print because irony IS the meme. Fresh0.2min, twitter attached, fits viability gate. Risk: meta-coin fatigue if Solana ecosystem reads it as cringe; size capped at 0.05 SOL."
+    },
+    {
+      "time": "2026-09-09 05:13 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $USELESS at $2.915e-06 | P&L: -3.3%",
+      "reason": "Fresh position at -3.3% is noise, not a -20% exit signal. $USELESS is a real meta-memecoin narrative on Solana. Bonding curve, huge share % means I'm early. Give it room to develop before rotating."
     }
   ],
   "trade_stats": {
-    "total": 2324,
+    "total": 2325,
     "wins": 1179,
-    "losses": 1145,
+    "losses": 1146,
     "win_rate_pct": 50.7,
-    "total_pnl_sol": -2.339988,
-    "avg_pnl_pct": 30.15,
+    "total_pnl_sol": -2.341624,
+    "avg_pnl_pct": 30.14,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 11,
-    "today_realized_sol": -0.07368,
-    "today_target_pct": -18.4,
+    "today_trades": 12,
+    "today_realized_sol": -0.075316,
+    "today_target_pct": -18.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1179,
-      "loss_count": 1145,
+      "loss_count": 1146,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T05:12:25.894250+00:00",
+  "last_llm_brief_at": "2026-09-09T05:13:48.227245+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CGVWv8uSBWBmDBGzFovrE4E27ib92jDGiQWxnNaXpump": {
+      "price_usd": 2.91500466002658e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2.0852000000000002e-07,
+      "volume_h24": 104.99,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
