@@ -17218,3 +17218,6 @@
 ## [2026-09-09 08:54 UTC] sell | [rapid-drop] $CATHOLIC crashed >15% in one tick | P&L: -53.6%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-09 08:58 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
