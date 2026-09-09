@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.74202,
+  "balance_sol": 1.871496,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "14YjmxUQVZkoKR6uqgAqDqA1xGNM9GRYW4293jvtpump": {
-      "symbol": "Ninjacat",
-      "name": "The Microsoft Cat",
-      "amount": 503410.18251681083,
-      "entry_price_usd": 1.041e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T07:19:03.473894+00:00",
-      "entry_usd_value": 5.240500000000001,
-      "last_seen_price_usd": 1.041e-05,
-      "entry_signals": {
-        "liquidity_usd": 4265.14973806498,
-        "volume_24h_usd": 11303.75,
-        "market_cap_usd": 16066.659719232708,
-        "ath_market_cap_usd": 16327.537108739822,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 40.694110658,
-        "description": "",
-        "twitter": "https://x.com/i/status/2097585152100552818",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39773,19 +39749,30 @@
       "pnl_pct": -0.07,
       "exit_reason": "LLM: sell_all — Just entered at -0.1%, held 0.0h. Way too early to exit. -25% hard stop will catch any real drop. No reason to panic on a 0.1% move right after entry.",
       "partial": false
+    },
+    {
+      "mint": "14YjmxUQVZkoKR6uqgAqDqA1xGNM9GRYW4293jvtpump",
+      "symbol": "Ninjacat",
+      "name": "The Microsoft Cat",
+      "amount_sold": 503410.18251681083,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T07:19:03.473894+00:00",
+      "exit_time": "2026-09-09T07:20:07.918066+00:00",
+      "entry_price_usd": 1.041e-05,
+      "exit_price_usd": 2.6954268862744707e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.129476,
+      "pnl_sol": 0.079476,
+      "pnl_pct": 158.93,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T07:19:03.474344+00:00",
+  "last_updated": "2026-09-09T07:20:38.784804+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.81,
-  "portfolio_value_usd": 187.82,
+  "last_sol_price_usd": 104.8,
+  "portfolio_value_usd": 196.13,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 05:26 UTC",
-      "action": "buy",
-      "details": "[LLM] $NPC at $1.794e-05, spent 0.05 SOL",
-      "reason": "$NPC has the strongest narrative on the slate (OpenAI pairing + npcotc twitter with established CT presence) and is the only token where bond is meaningfully filling (40%), suggesting smart money flow. $24k mcap leaves real upside; freshness + narrative + wallet signal = edge. Sizing 0.05 SOL per bot cap."
-    },
     {
       "time": "2026-09-09 05:28 UTC",
       "action": "sell",
@@ -39899,30 +39886,48 @@
       "action": "buy",
       "details": "[LLM] $Ninjacat at $1.041e-05, spent 0.05 SOL",
       "reason": "Ninjacat ('The Microsoft Cat') is the strongest viral signal in this batch — recognizable meme IP (the old Windows XP cat assistant 'Clippy'-adjacent nostalgia), a live X post attached (2097585152100552818), and highest bond completion at 36% indicating real buyer traction vs the other Ninjacat mints at 20%/2%. Mcap $16k still has 5-10x runway if narrative catches. Taking the 0.1 SOL scalp to test the thesis — small size, tight mental stop."
+    },
+    {
+      "time": "2026-09-09 07:20 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $Ninjacat at $2.69543e-05 | P&L: +158.9%",
+      "reason": "Auto take-profit at +158.9%"
     }
   ],
   "trade_stats": {
-    "total": 2338,
-    "wins": 1181,
+    "total": 2339,
+    "wins": 1182,
     "losses": 1157,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -2.474289,
-    "avg_pnl_pct": 29.85,
+    "total_pnl_sol": -2.394813,
+    "avg_pnl_pct": 29.91,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 25,
-    "today_realized_sol": -0.207981,
-    "today_target_pct": -52.0,
+    "today_trades": 26,
+    "today_realized_sol": -0.128505,
+    "today_target_pct": -32.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1181,
+      "win_count": 1182,
       "loss_count": 1157,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T07:19:02.043227+00:00",
+  "last_llm_brief_at": "2026-09-09T07:20:38.784475+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "14YjmxUQVZkoKR6uqgAqDqA1xGNM9GRYW4293jvtpump": {
+      "price_usd": 2.6954268862744707e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 6391.7511810928,
+      "volume_h24": 35478.04,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 60.989992186
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
