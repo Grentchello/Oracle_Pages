@@ -17041,3 +17041,9 @@
 ## [2026-09-09 07:38 UTC] buy | [LLM] $cwk  at $3.528e-06, spent 0.05 SOL
 - **Reasoning:** $cwk Crowwifknife rides the proven 'wif' meta (dogwifhat family) with a novel knife twist, has a live X post from dev_pscl, and is fresh at 0.6min / $3.3k mcap — textbook early-attention entry. Risk: bond only 6%, thin liquidity could reverse fast — I'll exit hard if no pump in 15 min.
 
+## [2026-09-09 07:39 UTC] sell | [rapid-drop] $cwk  crashed >15% in one tick | P&L: -15.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 07:40 UTC] buy | [LLM] $Macbook at $2.216e-05, spent 0.05 SOL
+- **Reasoning:** $Macbook leads the Slightly Used electronics meme cluster — highest mcap ($18.9k), bond filling (38%), and twitter link present. Narrative is clear, attention is leading the pack.0.05 SOL size keeps risk small on a sub-$20k mcap play.
+
