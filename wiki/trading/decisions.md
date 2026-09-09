@@ -16999,3 +16999,9 @@
 ## [2026-09-09 07:23 UTC] buy | [LLM] $SHARTCOIN at $3.815e-06, spent 0.05 SOL
 - **Reasoning:** $SHARTCOIN has the strongest viral narrative in this batch — crude humor is high-shareability, CyborgDeployed is a known CT pumper, 1.7min fresh at $3.8k mcap gives room to 5-10x. Fits the attention-market thesis. Sizing 0.1 SOL.
 
+## [2026-09-09 07:25 UTC] sell | [FULL][LLM] $SHARTCOIN at $3.59771e-06 | P&L: -5.7%
+- **Reasoning:** $SHARTCOIN is on bonding curve with only $338 pool and we hold 2% of it — we're exposed to rug + illiquidity risk. -5.7% is small, narrative is weak (fart-joke ticker, no fresh catalyst), better to free the slot for a stronger fresh launch than babysit this.
+
+## [2026-09-09 07:25 UTC] buy | [LLM] $CHILL at $6.236e-06, spent 0.05 SOL
+- **Reasoning:** $CHILL has the cleanest meta-meme narrative ('Buy. Chill. Let it cook.' = self-aware memecoin culture hook), passes viability gate (desc + twitter), $7.6k mcap at 1.3min is fresh-attention sweet spot. Risk: bonding curve + very low mcap = rug-prone, sizing at 0.1 SOL keeps loss bounded.
+
