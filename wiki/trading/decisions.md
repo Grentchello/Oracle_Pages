@@ -16840,3 +16840,6 @@
 ## [2026-09-09 04:46 UTC] sell | [FULL][LLM] $WILSON at $3.4001e-06 | P&L: -14.4%
 - **Reasoning:** Position is only -14.4% and was just opened (0.0h held). Tight to the -25% hard cap but not at it yet. Bonding curve, illiquid — give it a couple minutes to see if it bounces; if not, exit on next tick.
 
+## [2026-09-09 04:47 UTC] buy | [LLM] $MSLOP at $3.52157e-06, spent 0.05 SOL
+- **Reasoning:** $MSLOP (Microslop 95) rides a durable, evergreen 'Microsoft bad' meme with its own active X account posting at launch — real attention signal, not just a name. 0.2min old mcap $3.5k means early entry if it catches a bid; risk is a sub-10% bond curve and brand-IP takedown risk, but the narrative is culturally sticky.
+

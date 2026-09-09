@@ -1,8 +1,32 @@
 {
-  "balance_sol": 1.992839,
+  "balance_sol": 1.942839,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "7BBoXbvyxnMg1WXnhvhTnofsWqguyh6VMrj6ahErpump": {
+      "symbol": "MSLOP",
+      "name": "Microslop 95",
+      "amount": 1477280.4096887747,
+      "entry_price_usd": 3.5215724556287877e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-09T04:47:44.748087+00:00",
+      "entry_usd_value": 5.20235,
+      "last_seen_price_usd": 3.5215724556287877e-06,
+      "entry_signals": {
+        "liquidity_usd": 312.932338614636,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3521.3355338906367,
+        "ath_market_cap_usd": 3521.3355338906367,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 3.007605588,
+        "description": "",
+        "twitter": "https://x.com/MSLOP95/status/2097547119053750540?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39343,17 +39367,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-09T04:46:10.649420+00:00",
+  "last_updated": "2026-09-09T04:47:44.748276+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.23,
-  "portfolio_value_usd": 207.71,
+  "last_sol_price_usd": 104.047,
+  "portfolio_value_usd": 207.35,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 14:01 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-08 16:18 UTC",
       "action": "observe",
@@ -39467,6 +39485,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $WILSON at $3.4001e-06 | P&L: -14.4%",
       "reason": "Position is only -14.4% and was just opened (0.0h held). Tight to the -25% hard cap but not at it yet. Bonding curve, illiquid — give it a couple minutes to see if it bounces; if not, exit on next tick."
+    },
+    {
+      "time": "2026-09-09 04:47 UTC",
+      "action": "buy",
+      "details": "[LLM] $MSLOP at $3.52157e-06, spent 0.05 SOL",
+      "reason": "$MSLOP (Microslop 95) rides a durable, evergreen 'Microsoft bad' meme with its own active X account posting at launch — real attention signal, not just a name. 0.2min old mcap $3.5k means early entry if it catches a bid; risk is a sub-10% bond curve and brand-IP takedown risk, but the narrative is culturally sticky."
     }
   ],
   "trade_stats": {
@@ -39488,21 +39512,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T04:46:10.649103+00:00",
+  "last_llm_brief_at": "2026-09-09T04:47:43.328242+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "ic1XuAr5D5K4TyNhdcMjEeSLYjbzKQ3RFMYwRzxpump": {
-      "price_usd": 3.4000995794346026e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 250.65691179984003,
-      "volume_h24": 1723.37,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 2.404844208
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
