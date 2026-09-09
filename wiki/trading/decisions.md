@@ -17176,3 +17176,6 @@
 ## [2026-09-09 08:35 UTC] buy | [LLM] $TIPSY at $3.697e-06, spent 0.05 SOL
 - **Reasoning:** $TIPSY (TipsyDog) — classic relatable animal meme (drunk dog), description >50 chars, dedicated @TipsyDogSOL Twitter, mcap $3.7k is fresh-launch sweet spot for5-10x attention play. Edgy-enough name to trend, low enough mcap for asymmetric upside.
 
+## [2026-09-09 08:36 UTC] sell | [FULL][LLM] $TIPSY at $3.72097e-06 | P&L: +0.7%
+- **Reasoning:** Just entered at +0.6%, bonding curve only 13% complete, not stale yet. Give it time to develop — exit if it goes flat >30min or dumps -20%.
+
