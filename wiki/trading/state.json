@@ -1,27 +1,27 @@
 {
-  "balance_sol": 1.818612,
+  "balance_sol": 1.859652,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "7KSgzTjkBnTWtZAjEpWgpLU8n82eioKtKyrhDD9UbXK9": {
-      "symbol": "CHILL",
-      "name": "Buy & Chill",
-      "amount": 841084.0282232201,
-      "entry_price_usd": 6.236e-06,
+    "5ygJ27k1ZyUBdeR9LeNxQ5vZ4n4togt3kxxcYnHUpump": {
+      "symbol": "BOMBANANA",
+      "name": "BOMBANANA",
+      "amount": 750465.6827625736,
+      "entry_price_usd": 6.979e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T07:25:45.485779+00:00",
-      "entry_usd_value": 5.245000000000001,
-      "last_seen_price_usd": 6.236e-06,
+      "entry_time": "2026-09-09T07:27:01.175509+00:00",
+      "entry_usd_value": 5.237500000000001,
+      "last_seen_price_usd": 6.979e-06,
       "entry_signals": {
-        "liquidity_usd": 1694.8021360966,
-        "volume_24h_usd": 10087.53,
-        "market_cap_usd": 7610.696965937395,
-        "ath_market_cap_usd": 7704.789433664543,
+        "liquidity_usd": 1945.2432315867502,
+        "volume_24h_usd": 8488.84,
+        "market_cap_usd": 6703.350005109407,
+        "ath_market_cap_usd": 7628.866262210879,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 16.156359734,
-        "description": "Buy the coin. Chill. Let it cook.",
-        "twitter": "https://x.com/Dogdevv/status/2097586575416713280",
+        "real_sol_reserves": 18.570341113,
+        "description": "",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -39807,25 +39807,30 @@
       "pnl_pct": -5.7,
       "exit_reason": "LLM: sell_all — $SHARTCOIN is on bonding curve with only $338 pool and we hold 2% of it — we're exposed to rug + illiquidity risk. -5.7% is small, narrative is weak (",
       "partial": false
+    },
+    {
+      "mint": "7KSgzTjkBnTWtZAjEpWgpLU8n82eioKtKyrhDD9UbXK9",
+      "symbol": "CHILL",
+      "name": "Buy & Chill",
+      "amount_sold": 841084.0282232201,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T07:25:45.485779+00:00",
+      "exit_time": "2026-09-09T07:26:49.180423+00:00",
+      "entry_price_usd": 6.236e-06,
+      "exit_price_usd": 1.1338236224301136e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.09104,
+      "pnl_sol": 0.04104,
+      "pnl_pct": 81.82,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T07:25:45.486045+00:00",
+  "last_updated": "2026-09-09T07:27:01.175775+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.9,
-  "portfolio_value_usd": 196.02,
+  "last_sol_price_usd": 104.75,
+  "portfolio_value_usd": 200.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 05:29 UTC",
-      "action": "buy",
-      "details": "[LLM] $Vee at $3.82811e-06, spent 0.05 SOL",
-      "reason": "$Vee (Visa Mascot) — brand hijack of a globally recognized mascot, sub-1min age, $3.8k mcap. Attention play on a recognizable IP that can trend on CT quickly."
-    },
-    {
-      "time": "2026-09-09 05:31 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Vee at $3.28384e-06 | P&L: -14.2%",
-      "reason": "$Vee is down -14.2% with pool at only $190 and our share already 2% — liquidity is dead, any bounce will be impossible to realize. Approaching the -25% LLM cap; cut now rather than wait for the -30% hard stop."
-    },
     {
       "time": "2026-09-09 05:31 UTC",
       "action": "buy",
@@ -39933,40 +39938,52 @@
       "action": "buy",
       "details": "[LLM] $CHILL at $6.236e-06, spent 0.05 SOL",
       "reason": "$CHILL has the cleanest meta-meme narrative ('Buy. Chill. Let it cook.' = self-aware memecoin culture hook), passes viability gate (desc + twitter), $7.6k mcap at 1.3min is fresh-attention sweet spot. Risk: bonding curve + very low mcap = rug-prone, sizing at 0.1 SOL keeps loss bounded."
+    },
+    {
+      "time": "2026-09-09 07:26 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $CHILL at $1.13382e-05 | P&L: +81.8%",
+      "reason": "Auto take-profit at +81.8%"
+    },
+    {
+      "time": "2026-09-09 07:27 UTC",
+      "action": "buy",
+      "details": "[LLM] $BOMBANANA at $6.979e-06, spent 0.05 SOL",
+      "reason": "BOMBANANA has the strongest early market-cap signal at $6,703 with a fresh ~1.8-minute launch and a highly memeable narrative. It is extremely early and liquidity/fragility are not yet confirmed, so this is a high-risk momentum entry."
     }
   ],
   "trade_stats": {
-    "total": 2340,
-    "wins": 1182,
+    "total": 2341,
+    "wins": 1183,
     "losses": 1158,
     "win_rate_pct": 50.5,
-    "total_pnl_sol": -2.397697,
-    "avg_pnl_pct": 29.89,
+    "total_pnl_sol": -2.356657,
+    "avg_pnl_pct": 29.92,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 27,
-    "today_realized_sol": -0.131389,
-    "today_target_pct": -32.8,
+    "today_trades": 28,
+    "today_realized_sol": -0.090349,
+    "today_target_pct": -22.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1182,
+      "win_count": 1183,
       "loss_count": 1158,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T07:25:44.069977+00:00",
+  "last_llm_brief_at": "2026-09-09T07:26:59.850758+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "GGpjbrCDXjWHddXPsBfWYhpreLVjffXytjeWpXX4ZJPX": {
-      "price_usd": 3.5977130888404806e-06,
+    "7KSgzTjkBnTWtZAjEpWgpLU8n82eioKtKyrhDD9UbXK9": {
+      "price_usd": 1.1338236224301136e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 338.47117689220005,
-      "volume_h24": 2089.2,
+      "liquidity_usd": 3040.656739175,
+      "volume_h24": 13723.79,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.226607978
+      "real_sol_reserves": 29.0277493
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
