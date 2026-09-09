@@ -17059,3 +17059,9 @@
 ## [2026-09-09 07:45 UTC] buy | [LLM] $PAYSH at $7.753e-06, spent 0.05 SOL
 - **Reasoning:** $PAYSH (Pay.sh) has the strongest organic traction of the batch — 27% bonding curve complete at 1.3min is rare and signals real buyer demand, plus a clean payment narrative that travels on CT. Beats celebrity-blocked tokens ($BEAST, $Trump, $Muskonomy) and low-bond peers ($Laptop at 12%, others at 0-6%). Risk: ultra-low mcap means rug/exploit risk is elevated even if narrative is good.
 
+## [2026-09-09 07:46 UTC] sell | [rapid-drop] $PAYSH crashed >15% in one tick | P&L: -43.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 07:46 UTC] buy | [LLM] $BTW at $7.278e-06, spent 0.05 SOL
+- **Reasoning:** $BTW (Banana Tape Wall) — Banana tape / 'Big Brain Time' is a real viral meme; bond 34% at 1.2min shows real buyer traction; $11.8k mcap is still early. Risky: name is generic enough to rug, but the meme root gives it a narrative floor.
+

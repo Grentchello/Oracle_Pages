@@ -1,27 +1,27 @@
 {
-  "balance_sol": 1.727848,
+  "balance_sol": 1.705981,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "33ZBy5F3dTGjKTs8FkBuxU36611vMeUd1nLvXQLQpump": {
-      "symbol": "PAYSH",
-      "name": "Pay.sh",
-      "amount": 674642.0740358571,
-      "entry_price_usd": 7.753e-06,
+    "74Cr4TWkNdEARnHThsvxdnvqnaoPfvRGCy5RiiPWpump": {
+      "symbol": "BTW",
+      "name": "Banana Tape Wall",
+      "amount": 718672.7122835944,
+      "entry_price_usd": 7.278e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T07:45:10.421460+00:00",
+      "entry_time": "2026-09-09T07:46:38.261521+00:00",
       "entry_usd_value": 5.2305,
-      "last_seen_price_usd": 7.753e-06,
+      "last_seen_price_usd": 7.278e-06,
       "entry_signals": {
-        "liquidity_usd": 1732.5910576088402,
-        "volume_24h_usd": 10038.79,
-        "market_cap_usd": 7366.021293302201,
-        "ath_market_cap_usd": 9719.349348572823,
+        "liquidity_usd": 2351.16651462891,
+        "volume_24h_usd": 12733.01,
+        "market_cap_usd": 11897.1086469737,
+        "ath_market_cap_usd": 13422.715062710091,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 16.562384644,
+        "real_sol_reserves": 22.475542631,
         "description": "",
-        "twitter": "https://x.com/TimothyChenX/status/2097591450183811258",
+        "twitter": "https://x.com/CrownerXBT/status/2097592037709127713?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -39960,25 +39960,30 @@
       "pnl_pct": -56.46,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "33ZBy5F3dTGjKTs8FkBuxU36611vMeUd1nLvXQLQpump",
+      "symbol": "PAYSH",
+      "name": "Pay.sh",
+      "amount_sold": 674642.0740358571,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T07:45:10.421460+00:00",
+      "exit_time": "2026-09-09T07:46:13.882016+00:00",
+      "entry_price_usd": 7.753e-06,
+      "exit_price_usd": 4.362332425597596e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.028133,
+      "pnl_sol": -0.021867,
+      "pnl_pct": -43.73,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T07:45:10.421743+00:00",
+  "last_updated": "2026-09-09T07:46:38.261687+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 104.61,
-  "portfolio_value_usd": 185.98,
+  "portfolio_value_usd": 183.69,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 07:25 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SHARTCOIN at $3.59771e-06 | P&L: -5.7%",
-      "reason": "$SHARTCOIN is on bonding curve with only $338 pool and we hold 2% of it — we're exposed to rug + illiquidity risk. -5.7% is small, narrative is weak (fart-joke ticker, no fresh catalyst), better to free the slot for a stronger fresh launch than babysit this."
-    },
-    {
-      "time": "2026-09-09 07:25 UTC",
-      "action": "buy",
-      "details": "[LLM] $CHILL at $6.236e-06, spent 0.05 SOL",
-      "reason": "$CHILL has the cleanest meta-meme narrative ('Buy. Chill. Let it cook.' = self-aware memecoin culture hook), passes viability gate (desc + twitter), $7.6k mcap at 1.3min is fresh-attention sweet spot. Risk: bonding curve + very low mcap = rug-prone, sizing at 0.1 SOL keeps loss bounded."
-    },
     {
       "time": "2026-09-09 07:26 UTC",
       "action": "sell",
@@ -40086,30 +40091,54 @@
       "action": "buy",
       "details": "[LLM] $PAYSH at $7.753e-06, spent 0.05 SOL",
       "reason": "$PAYSH (Pay.sh) has the strongest organic traction of the batch — 27% bonding curve complete at 1.3min is rare and signals real buyer demand, plus a clean payment narrative that travels on CT. Beats celebrity-blocked tokens ($BEAST, $Trump, $Muskonomy) and low-bond peers ($Laptop at 12%, others at 0-6%). Risk: ultra-low mcap means rug/exploit risk is elevated even if narrative is good."
+    },
+    {
+      "time": "2026-09-09 07:46 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $PAYSH crashed >15% in one tick | P&L: -43.7%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-09 07:46 UTC",
+      "action": "buy",
+      "details": "[LLM] $BTW at $7.278e-06, spent 0.05 SOL",
+      "reason": "$BTW (Banana Tape Wall) — Banana tape / 'Big Brain Time' is a real viral meme; bond 34% at 1.2min shows real buyer traction; $11.8k mcap is still early. Risky: name is generic enough to rug, but the meme root gives it a narrative floor."
     }
   ],
   "trade_stats": {
-    "total": 2349,
+    "total": 2350,
     "wins": 1184,
-    "losses": 1165,
+    "losses": 1166,
     "win_rate_pct": 50.4,
-    "total_pnl_sol": -2.488461,
-    "avg_pnl_pct": 29.7,
+    "total_pnl_sol": -2.510328,
+    "avg_pnl_pct": 29.67,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 36,
-    "today_realized_sol": -0.222153,
-    "today_target_pct": -55.5,
+    "today_trades": 37,
+    "today_realized_sol": -0.24402,
+    "today_target_pct": -61.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1184,
-      "loss_count": 1165,
+      "loss_count": 1166,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T07:45:08.928669+00:00",
+  "last_llm_brief_at": "2026-09-09T07:46:36.798360+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "33ZBy5F3dTGjKTs8FkBuxU36611vMeUd1nLvXQLQpump": {
+      "price_usd": 4.362332425597596e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 694.41449298243,
+      "volume_h24": 14972.42,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 6.638127263
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
