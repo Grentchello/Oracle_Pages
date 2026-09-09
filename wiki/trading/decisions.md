@@ -16942,3 +16942,9 @@
 ## [2026-09-09 05:28 UTC] buy | [LLM] $POWERBALL at $3.39769e-06, spent 0.05 SOL
 - **Reasoning:** $POWERBALL has a real hook — automated hourly holder raffles, gamified attention loop, repeat-engagement mechanic. $3.4k mcap is in the 10x zone. Real narrative, not just a name. Worth a 0.05 SOL scalp.
 
+## [2026-09-09 05:29 UTC] sell | [v8.7 TP +50% (full)] $POWERBALL at $8.90528e-06 | P&L: +162.1%
+- **Reasoning:** Auto take-profit at +162.1%
+
+## [2026-09-09 05:29 UTC] buy | [LLM] $Vee at $3.82811e-06, spent 0.05 SOL
+- **Reasoning:** $Vee (Visa Mascot) — brand hijack of a globally recognized mascot, sub-1min age, $3.8k mcap. Attention play on a recognizable IP that can trend on CT quickly.
+
