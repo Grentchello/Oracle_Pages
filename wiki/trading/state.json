@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.585155,
+  "balance_sol": 1.607116,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "WLrNGPJCfey5souJMRgYmtjamqxw56EzLEWswzoWcmH": {
-      "symbol": "Roko",
-      "name": "Roko’s Basilisk",
-      "amount": 586777.0863021327,
-      "entry_price_usd": 4.463790528199568e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-09T08:44:46.216878+00:00",
-      "entry_usd_value": 5.2385,
-      "last_seen_price_usd": 5.888140378275189e-06,
-      "entry_signals": {
-        "liquidity_usd": 1327.0524253511098,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4465.494752892972,
-        "ath_market_cap_usd": 6264.327511965236,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 12.666339843,
-        "description": "https://en.wikipedia.org/wiki/Roko%27s_basilisk",
-        "twitter": "https://x.com/meechie/status/2097606849969131927",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40368,19 +40344,30 @@
       "pnl_pct": 31.91,
       "exit_reason": "LLM: sell_half — +31.9% on bonding-curve token with only $1313 pool and 0% share — gains are fragile. Lock half the profit, let half ride in case curve completes, but ",
       "partial": true
+    },
+    {
+      "mint": "WLrNGPJCfey5souJMRgYmtjamqxw56EzLEWswzoWcmH",
+      "symbol": "Roko",
+      "name": "Roko’s Basilisk",
+      "amount_sold": 586777.0863021327,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T08:44:46.216878+00:00",
+      "exit_time": "2026-09-09T08:47:22.064203+00:00",
+      "entry_price_usd": 4.463790528199568e-06,
+      "exit_price_usd": 3.9208128700063766e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.021961,
+      "pnl_sol": -0.003039,
+      "pnl_pct": -12.16,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T08:46:18.422119+00:00",
+  "last_updated": "2026-09-09T08:47:52.554774+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.74,
-  "portfolio_value_usd": 169.05,
+  "last_sol_price_usd": 104.76,
+  "portfolio_value_usd": 168.36,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 08:20 UTC",
-      "action": "buy",
-      "details": "[LLM] $$AGF at $3.00052e-06, spent 0.05 SOL",
-      "reason": "$$AGF (Angry Gordon Freeman) — Half-Life/gaming meme with a 120-char creative description referencing iconic film quotes. Passes viability gate (desc≥50). Fresh launch (0.1min), $3k mcap = early entry. Risk: no twitter, very thin liquidity, untested narrative in crypto. Sized at 0.05 SOL per scalp rules."
-    },
     {
       "time": "2026-09-09 08:22 UTC",
       "action": "sell",
@@ -40494,40 +40481,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Roko at $5.88814e-06 | P&L: +31.9%",
       "reason": "+31.9% on bonding-curve token with only $1313 pool and 0% share — gains are fragile. Lock half the profit, let half ride in case curve completes, but don't trust illiquid pumps."
+    },
+    {
+      "time": "2026-09-09 08:47 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Roko crashed >15% in one tick | P&L: -12.2%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2373,
+    "total": 2374,
     "wins": 1191,
-    "losses": 1182,
+    "losses": 1183,
     "win_rate_pct": 50.2,
-    "total_pnl_sol": -2.656155,
-    "avg_pnl_pct": 29.27,
+    "total_pnl_sol": -2.659194,
+    "avg_pnl_pct": 29.25,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 60,
-    "today_realized_sol": -0.389847,
-    "today_target_pct": -97.5,
+    "today_trades": 61,
+    "today_realized_sol": -0.392886,
+    "today_target_pct": -98.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1191,
-      "loss_count": 1182,
+      "loss_count": 1183,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T08:46:18.421709+00:00",
+  "last_llm_brief_at": "2026-09-09T08:47:52.291737+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "WLrNGPJCfey5souJMRgYmtjamqxw56EzLEWswzoWcmH": {
-      "price_usd": 5.888140378275189e-06,
+      "price_usd": 3.9208128700063766e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1313.39647204812,
-      "volume_h24": 11952.07,
+      "liquidity_usd": 493.38768402792,
+      "volume_h24": 15295.54,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 12.539588238
+      "real_sol_reserves": 4.709695342
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
