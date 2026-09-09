@@ -16954,3 +16954,9 @@
 ## [2026-09-09 05:31 UTC] buy | [LLM] $CHILLBULL at $1.7801e-05, spent 0.05 SOL
 - **Reasoning:** $CHILLBULL has the strongest organic traction of the batch — bonding curve 37% complete, $17.8k mcap still small, has X presence, memeable 'chill bull' name, and no celebrity/political keywords so it passes fragility gate. Fresh (0.1min) attention is exactly where the alpha is.
 
+## [2026-09-09 05:32 UTC] sell | [rapid-drop] $CHILLBULL crashed >15% in one tick | P&L: -83.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 05:32 UTC] buy | [LLM] $COWSOL at $5.269e-06, spent 0.05 SOL
+- **Reasoning:** $COWSOL at $5.3k mcap, bond 0% (brand new), cow mascot narrative has viral precedent in meme culture (wholesome + absurd). Early enough for asymmetric upside, mcap high enough to clear viability gate. Risk: cow meme is niche vs dog/frog — may not catch broad attention.
+

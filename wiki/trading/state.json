@@ -1,27 +1,27 @@
 {
-  "balance_sol": 1.866568,
+  "balance_sol": 1.825041,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "HdUNUHbFGMd1wxkBrWXfXrmYXwmmvkU99a2ZmLUCpump": {
-      "symbol": "CHILLBULL",
-      "name": "Just a chill bull",
-      "amount": 293326.1609429461,
-      "entry_price_usd": 1.7801003440043038e-05,
+    "BafMmvCTDWcu21agXnybmL2TRhy3fkHjPs6mZNbvpump": {
+      "symbol": "COWSOL",
+      "name": "COW SOLANA",
+      "amount": 988612.6399696338,
+      "entry_price_usd": 5.269e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T05:31:09.962810+00:00",
-      "entry_usd_value": 5.221500000000001,
-      "last_seen_price_usd": 1.7801003440043038e-05,
+      "entry_time": "2026-09-09T05:32:44.022753+00:00",
+      "entry_usd_value": 5.2090000000000005,
+      "last_seen_price_usd": 5.269e-06,
       "entry_signals": {
-        "liquidity_usd": 125.13456780849002,
-        "volume_24h_usd": null,
-        "market_cap_usd": 17789.071330105253,
-        "ath_market_cap_usd": 17951.95224972674,
+        "liquidity_usd": 1.0418000000000001e-07,
+        "volume_24h_usd": 38.16,
+        "market_cap_usd": 5269.922640391582,
+        "ath_market_cap_usd": 5298.735526853622,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1.198262643,
-        "description": "Just a chill bull",
-        "twitter": "https://x.com/search?q=%24CHILLBULL&src=typed_query&f=top",
+        "real_sol_reserves": 1e-09,
+        "description": "",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -39688,25 +39688,30 @@
       "pnl_pct": -14.22,
       "exit_reason": "LLM: sell_all — $Vee is down -14.2% with pool at only $190 and our share already 2% — liquidity is dead, any bounce will be impossible to realize. Approaching the -25",
       "partial": false
+    },
+    {
+      "mint": "HdUNUHbFGMd1wxkBrWXfXrmYXwmmvkU99a2ZmLUCpump",
+      "symbol": "CHILLBULL",
+      "name": "Just a chill bull",
+      "amount_sold": 293326.1609429461,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T05:31:09.962810+00:00",
+      "exit_time": "2026-09-09T05:32:13.387968+00:00",
+      "entry_price_usd": 1.7801003440043038e-05,
+      "exit_price_usd": 3.0093458762859174e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.008473,
+      "pnl_sol": -0.041527,
+      "pnl_pct": -83.09,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T05:31:09.963015+00:00",
+  "last_updated": "2026-09-09T05:32:44.022907+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.43,
-  "portfolio_value_usd": 200.15,
+  "last_sol_price_usd": 104.18,
+  "portfolio_value_usd": 195.34,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 05:11 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Catecoin  at $1.95413e-07 | P&L: -99.0%",
-      "reason": "Position is at -99%, far past the -25% hard stop. The bot should have auto-closed already — calling sell_all to force-exit and free the slot for a fresh entry."
-    },
-    {
-      "time": "2026-09-09 05:12 UTC",
-      "action": "buy",
-      "details": "[LLM] $USELESS at $3.01477e-06, spent 0.05 SOL",
-      "reason": "$USELESS — the 'memes are useless' Solana official tweet is genuine viral attention from a major protocol account. Anti-meme meta-narrative tends to print because irony IS the meme. Fresh0.2min, twitter attached, fits viability gate. Risk: meta-coin fatigue if Solana ecosystem reads it as cringe; size capped at 0.05 SOL."
-    },
     {
       "time": "2026-09-09 05:13 UTC",
       "action": "sell",
@@ -39814,40 +39819,52 @@
       "action": "buy",
       "details": "[LLM] $CHILLBULL at $1.7801e-05, spent 0.05 SOL",
       "reason": "$CHILLBULL has the strongest organic traction of the batch — bonding curve 37% complete, $17.8k mcap still small, has X presence, memeable 'chill bull' name, and no celebrity/political keywords so it passes fragility gate. Fresh (0.1min) attention is exactly where the alpha is."
+    },
+    {
+      "time": "2026-09-09 05:32 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $CHILLBULL crashed >15% in one tick | P&L: -83.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-09 05:32 UTC",
+      "action": "buy",
+      "details": "[LLM] $COWSOL at $5.269e-06, spent 0.05 SOL",
+      "reason": "$COWSOL at $5.3k mcap, bond 0% (brand new), cow mascot narrative has viral precedent in meme culture (wholesome + absurd). Early enough for asymmetric upside, mcap high enough to clear viability gate. Risk: cow meme is niche vs dog/frog — may not catch broad attention."
     }
   ],
   "trade_stats": {
-    "total": 2333,
+    "total": 2334,
     "wins": 1181,
-    "losses": 1152,
+    "losses": 1153,
     "win_rate_pct": 50.6,
-    "total_pnl_sol": -2.349741,
-    "avg_pnl_pct": 30.03,
+    "total_pnl_sol": -2.391268,
+    "avg_pnl_pct": 29.98,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 20,
-    "today_realized_sol": -0.083433,
-    "today_target_pct": -20.9,
+    "today_trades": 21,
+    "today_realized_sol": -0.12496,
+    "today_target_pct": -31.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1181,
-      "loss_count": 1152,
+      "loss_count": 1153,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T05:31:08.696511+00:00",
+  "last_llm_brief_at": "2026-09-09T05:32:42.569979+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "BVQYkiGpkJGC4asdhEDvwnhfrrmSNcq3nojSmtQwpump": {
-      "price_usd": 3.2838396534393598e-06,
+    "HdUNUHbFGMd1wxkBrWXfXrmYXwmmvkU99a2ZmLUCpump": {
+      "price_usd": 3.0093458762859174e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 189.59319017847002,
-      "volume_h24": 11150.43,
+      "liquidity_usd": 51.39154310896001,
+      "volume_h24": 11040.9,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.815505029
+      "real_sol_reserves": 0.493295672
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
