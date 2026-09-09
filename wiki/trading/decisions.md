@@ -16930,3 +16930,9 @@
 ## [2026-09-09 05:25 UTC] buy | [LLM] $CHILLBULL at $1.98829e-05, spent 0.05 SOL
 - **Reasoning:** $CHILLBULL — chill bull is a recognizable, friendly mascot meme with broader appeal. $20k mcap with active X search traffic is a decent narrative entry; small position to test the launch.
 
+## [2026-09-09 05:26 UTC] sell | [rapid-drop] $CHILLBULL crashed >15% in one tick | P&L: -84.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 05:26 UTC] buy | [LLM] $NPC at $1.794e-05, spent 0.05 SOL
+- **Reasoning:** $NPC has the strongest narrative on the slate (OpenAI pairing + npcotc twitter with established CT presence) and is the only token where bond is meaningfully filling (40%), suggesting smart money flow. $24k mcap leaves real upside; freshness + narrative + wallet signal = edge. Sizing 0.05 SOL per bot cap.
+
