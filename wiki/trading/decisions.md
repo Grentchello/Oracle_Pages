@@ -17101,3 +17101,6 @@
 ## [2026-09-09 08:04 UTC] sell | [PARTIAL][LLM] $BnB at $2.93751e-06 | P&L: +0.1%
 - **Reasoning:** Position is only 0.0h old, +0.2% essentially flat, bonding-curve phase with 100% share — too early to exit, give it a chance to develop. Will reassess on next tick.
 
+## [2026-09-09 08:05 UTC] sell | [FULL][LLM] $BnB at $2.93919e-06 | P&L: +0.2%
+- **Reasoning:** $BnB entered at +0.2%, flat after 0min on bonding curve. No movement yet — give it a few more minutes for narrative to develop before deciding. Will sell at -20% or +20%.
+
