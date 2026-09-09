@@ -17155,3 +17155,6 @@
 ## [2026-09-09 08:26 UTC] sell | [rapid-drop] $WOOF crashed >15% in one tick | P&L: -64.8%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-09 08:29 UTC] buy | [LLM] $KRK at $8.293e-06, spent 0.05 SOL
+- **Reasoning:** $KRK (Kirkiversary) — 'Kirkinator' desc + $9.5k mcap (highest in batch = some early attention), narrative is a meme event ('Kirkiversary'). Fits viability gate (desc + mcap). Riskiest entry but highest narrative density in this batch.
+

@@ -1,8 +1,32 @@
 {
-  "balance_sol": 1.694999,
+  "balance_sol": 1.644999,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "9WoHAxCjXao5Udr89NqrcwVEJv8uLewmU16DeMWppump": {
+      "symbol": "KRK",
+      "name": "Kirkiversary",
+      "amount": 632099.360906789,
+      "entry_price_usd": 8.293e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-09T08:29:05.272901+00:00",
+      "entry_usd_value": 5.242000000000001,
+      "last_seen_price_usd": 8.293e-06,
+      "entry_signals": {
+        "liquidity_usd": 0.08852333144,
+        "volume_24h_usd": 679.44,
+        "market_cap_usd": 9471.12178944764,
+        "ath_market_cap_usd": 14703.16264491668,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.000844366,
+        "description": "Kirkinator",
+        "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40227,17 +40251,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-09T08:27:32.765261+00:00",
+  "last_updated": "2026-09-09T08:29:05.273188+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.69,
-  "portfolio_value_usd": 177.45,
+  "last_sol_price_usd": 104.84,
+  "portfolio_value_usd": 177.7,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 08:02 UTC",
-      "action": "buy",
-      "details": "[LLM] $BnB at $2.933e-06, spent 0.05 SOL",
-      "reason": "BNB Chain's official X account (@BNBCHAINZH) posted about it — that's a legit institutional attention signal, not just noise. 'Stonks' is a proven meme format, fresh launch at 0.9min gives early entry before any pump. Risk: very low mcap ($2.9k) and bond at 0% means thin liquidity, but the official-source catalyst justifies the entry."
-    },
     {
       "time": "2026-09-09 08:04 UTC",
       "action": "sell",
@@ -40351,6 +40369,12 @@
       "action": "sell",
       "details": "[rapid-drop] $WOOF crashed >15% in one tick | P&L: -64.8%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-09 08:29 UTC",
+      "action": "buy",
+      "details": "[LLM] $KRK at $8.293e-06, spent 0.05 SOL",
+      "reason": "$KRK (Kirkiversary) — 'Kirkinator' desc + $9.5k mcap (highest in batch = some early attention), narrative is a meme event ('Kirkiversary'). Fits viability gate (desc + mcap). Riskiest entry but highest narrative density in this batch."
     }
   ],
   "trade_stats": {
@@ -40372,21 +40396,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T08:27:32.492792+00:00",
+  "last_llm_brief_at": "2026-09-09T08:29:03.837823+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "ACXBwS3J1GnztPkwPFzTyFhHrAEsvQape5xEBXKupump": {
-      "price_usd": 3.3559409532198895e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 222.24871653341998,
-      "volume_h24": 18362.59,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 2.122922118
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
