@@ -17071,3 +17071,9 @@
 ## [2026-09-09 07:47 UTC] buy | [LLM] $SPI6900 at $3.7762e-06, spent 0.05 SOL
 - **Reasoning:** $SPI6900 is a stock-pair index (TSLAx) — narrative coin riding TSLA attention. Fresh launch, twitter post live, mcap $3.7k with room to run. Attention play with a clear ticker story.
 
+## [2026-09-09 07:49 UTC] sell | [rapid-drop] $SPI6900 crashed >15% in one tick | P&L: -22.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 07:49 UTC] buy | [LLM] $seven at $2.929e-06, spent 0.05 SOL
+- **Reasoning:** GTA 7 meme riding genuine cultural frustration over GTA 6 delay — organic viral narrative, has twitter (@gtasven), description passes viability, not on fragility blocklist. Bond at 0% = ultra-early entry with $5 risk. Will hard-stop at -25% if no traction.
+
