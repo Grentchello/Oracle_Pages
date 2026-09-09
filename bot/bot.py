@@ -1259,9 +1259,8 @@ def main():
                         vtr = _to_float(coin.get("virtual_token_reserves")) / 1e6
                         if vsr > 0 and vtr > 0:
                             token["price_usd"] = (vsr / vtr) * sol_price
-            if eff_liq < pos_value_usd * 5:
-                log(f"LIQUIDITY GATE: ${token.get('symbol')} rejected — pool ${eff_liq:.0f} < 5x position ${pos_value_usd:.2f}")
-                continue
+            # v8.7: REMOVED 5x position liquidity check. Was blocking too many good entries.
+            # Trust the 30-min cap + -25% stop to manage risk.
             
             # v8.7: REMOVED min-liquidity and min-volume gates. They were blocking
             # too many winning tokens. Trust the 30-min cap + -25% stop to filter rugs.
