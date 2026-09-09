@@ -16849,3 +16849,6 @@
 ## [2026-09-09 04:49 UTC] buy | [LLM] $CYBER at $8.567e-06, spent 0.05 SOL
 - **Reasoning:** $CYBER has the strongest narrative of the batch — 'Cyber Kitty memes you while harvesting $OTC' is a self-aware cyberpunk meme with a clear thematic hook. Active twitter, bond 29% furthest along of viable candidates, mcap $8.2k gives 10x+ room. Fits scalp playbook: fresh launch, story, attention.
 
+## [2026-09-09 04:50 UTC] sell | [FULL][LLM] $CYBER at $8.06529e-06 | P&L: -5.9%
+- **Reasoning:** $CYBER only -5.9% after fresh entry (0.0h). Not at any stop/take-profit level. Bonding-curve pool $2075 is thin so price will move fast in either direction — give it a few ticks to develop before judging.
+
