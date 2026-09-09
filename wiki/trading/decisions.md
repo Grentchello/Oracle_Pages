@@ -17077,3 +17077,6 @@
 ## [2026-09-09 07:49 UTC] buy | [LLM] $seven at $2.929e-06, spent 0.05 SOL
 - **Reasoning:** GTA 7 meme riding genuine cultural frustration over GTA 6 delay — organic viral narrative, has twitter (@gtasven), description passes viability, not on fragility blocklist. Bond at 0% = ultra-early entry with $5 risk. Will hard-stop at -25% if no traction.
 
+## [2026-09-09 07:51 UTC] sell | [PARTIAL][LLM] $seven at $2.92657e-06 | P&L: -0.1%
+- **Reasoning:** Position is essentially flat (-0.1%) but the real red flag is 'our share=473%' on a bonding-curve pool of only $1. We are the entire market — exit liquidity will vanish if we wait, and any bounce will be eaten by the next seller. Cut and free the slot.
+
