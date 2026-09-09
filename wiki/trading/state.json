@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.924395,
+  "balance_sol": 1.974426,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ALSaq94GG1S6kzcb4BzL8YQvhAHazupY9reVr9iDpump": {
-      "symbol": "SVP",
-      "name": "SVP Stars",
-      "amount": 1650490.0411002215,
-      "entry_price_usd": 3.163e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T04:55:35.541537+00:00",
-      "entry_usd_value": 5.2205,
-      "last_seen_price_usd": 3.163e-06,
-      "entry_signals": {
-        "liquidity_usd": 129.17826841547998,
-        "volume_24h_usd": 129.11,
-        "market_cap_usd": 3163.1243351716316,
-        "ath_market_cap_usd": 3163.1243351716316,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.237221228,
-        "description": "SVP Chain is an AI-Agent-First sovereign L1: identity, wallets, permissions, intent, collaboration, and reputation — so agents can act on chain like economic principals, not bolted-on bots.",
-        "twitter": "https://x.com/SvpChain",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39450,19 +39426,30 @@
       "pnl_pct": -13.74,
       "exit_reason": "LLM: sell_all — $Buck is down -13.7% after only 6 minutes with no bounce signal. Pool is tiny at $1 and our 25% share means we'd be the only exit liquidity. Cut it lo",
       "partial": false
+    },
+    {
+      "mint": "ALSaq94GG1S6kzcb4BzL8YQvhAHazupY9reVr9iDpump",
+      "symbol": "SVP",
+      "name": "SVP Stars",
+      "amount_sold": 1650490.0411002215,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T04:55:35.541537+00:00",
+      "exit_time": "2026-09-09T04:56:53.031218+00:00",
+      "entry_price_usd": 3.163e-06,
+      "exit_price_usd": 3.161608703003365e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050031,
+      "pnl_sol": 3.1e-05,
+      "pnl_pct": -0.04,
+      "exit_reason": "LLM: sell_all — At break-even, 0h held, no signal yet. Position just opened; rotating into another fresh bonding-curve token offers no edge since all candidates have ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T04:55:35.541809+00:00",
+  "last_updated": "2026-09-09T04:56:53.031494+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.41,
-  "portfolio_value_usd": 206.15,
+  "last_sol_price_usd": 104.3,
+  "portfolio_value_usd": 205.93,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 21:36 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-08 22:05 UTC",
       "action": "observe",
@@ -39576,40 +39563,46 @@
       "action": "buy",
       "details": "[LLM] $SVP at $3.163e-06, spent 0.05 SOL",
       "reason": "$SVP is an AI-Agent-First L1 narrative with a live X account — strong story, freshly launched under $5k mcap. This is the kind of 'infrastructure' meme that can run on narrative momentum.0.1 SOL position."
+    },
+    {
+      "time": "2026-09-09 04:56 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SVP at $3.16161e-06 | P&L: -0.0%",
+      "reason": "At break-even, 0h held, no signal yet. Position just opened; rotating into another fresh bonding-curve token offers no edge since all candidates have similar risk profile and I'm at max 1/1 slots. Let auto-stops handle downside, observe how this one develops."
     }
   ],
   "trade_stats": {
-    "total": 2319,
-    "wins": 1177,
+    "total": 2320,
+    "wins": 1178,
     "losses": 1142,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.291914,
-    "avg_pnl_pct": 30.26,
+    "total_pnl_sol": -2.291883,
+    "avg_pnl_pct": 30.24,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 6,
-    "today_realized_sol": -0.025606,
+    "today_trades": 7,
+    "today_realized_sol": -0.025575,
     "today_target_pct": -6.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1177,
+      "win_count": 1178,
       "loss_count": 1142,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T04:55:34.142197+00:00",
+  "last_llm_brief_at": "2026-09-09T04:56:53.031068+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "EZiLHmouexTUND7nat64sBWaLXbEAUjUYMQ7ZQojZFVx": {
-      "price_usd": 2.9208931777054556e-06,
+    "ALSaq94GG1S6kzcb4BzL8YQvhAHazupY9reVr9iDpump": {
+      "price_usd": 3.161608703003365e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.9090592383,
-      "volume_h24": 1021.94,
+      "liquidity_usd": 129.04217408039997,
+      "volume_h24": 129.11,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.00870663
+      "real_sol_reserves": 1.237221228
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
