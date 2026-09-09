@@ -17023,3 +17023,9 @@
 ## [2026-09-09 07:33 UTC] buy | [LLM] $ANTIBROKE at $8.90466e-06, spent 0.05 SOL
 - **Reasoning:** $ANTIBROKE passes viability gate (has twitter, desc present), bond at 30% with progressing buys, anti-broke is a relatable viral narrative with a dedicated X handle. Small-cap entry on fresh attention, ride the launch.
 
+## [2026-09-09 07:34 UTC] sell | [rapid-drop] $ANTIBROKE crashed >15% in one tick | P&L: -59.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 07:35 UTC] buy | [LLM] $Spin at $3.827e-06, spent 0.05 SOL
+- **Reasoning:** $Spin (Stock Spin) — best narrative among gate-passers. Stock market meme is a perennial attention theme on CT, $3.8k mcap is genuinely early, bond 11% shows organic progress, twitter link present. Small 0.05 SOL scalp to test the wave.
+
