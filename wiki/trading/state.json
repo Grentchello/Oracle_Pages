@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.841614,
+  "balance_sol": 1.891578,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FWg7SbzN8xVj3Kvjx7uqGGAZkgYJ76tgBtQMxuGopump": {
-      "symbol": "$NACHO",
-      "name": "NACHO CAT",
-      "amount": 1757988.5637403298,
-      "entry_price_usd": 2.973e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T05:21:09.490805+00:00",
-      "entry_usd_value": 5.226500000000001,
-      "last_seen_price_usd": 2.973e-06,
-      "entry_signals": {
-        "liquidity_usd": 25.8098765174,
-        "volume_24h_usd": 319.2,
-        "market_cap_usd": 2971.4278630790377,
-        "ath_market_cap_usd": 3253.370680444907,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.24691358,
-        "description": "This is Nacho. He’s my actual cat. He contributes nothing to society, so I put him on Solana.  $NACHO",
-        "twitter": "https://x.com/Nachocatcoins",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39586,19 +39562,30 @@
       "pnl_pct": -14.17,
       "exit_reason": "LLM: sell_all — At -14.2%, still inside the -25% hard stop. Only 0.0h held — giving it one more tick to see if the bonding-curve position bounces. The huge share % fl",
       "partial": false
+    },
+    {
+      "mint": "FWg7SbzN8xVj3Kvjx7uqGGAZkgYJ76tgBtQMxuGopump",
+      "symbol": "$NACHO",
+      "name": "NACHO CAT",
+      "amount_sold": 1757988.5637403298,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T05:21:09.490805+00:00",
+      "exit_time": "2026-09-09T05:22:30.706725+00:00",
+      "entry_price_usd": 2.973e-06,
+      "exit_price_usd": 2.9711436519013166e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049964,
+      "pnl_sol": -3.6e-05,
+      "pnl_pct": -0.06,
+      "exit_reason": "LLM: sell_all — $NACHO flat at -0.1% after 0h, no momentum signal, bonding curve only at $26 pool — rotating capital into $UBC which has stronger narrative and higher",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T05:21:09.490982+00:00",
+  "last_updated": "2026-09-09T05:22:32.038957+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.53,
-  "portfolio_value_usd": 197.73,
+  "last_sol_price_usd": 104.54,
+  "portfolio_value_usd": 197.75,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 04:54 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Buck at $2.91921e-06 | P&L: -13.8%",
-      "reason": "$Buck is down -13.8% with only $1 pool and207% of our share being the entire liquidity — we're the market and it's moving the wrong way. Exiting before the -25% hard cap to preserve capital for a fresh launch with real attention."
-    },
     {
       "time": "2026-09-09 04:55 UTC",
       "action": "sell",
@@ -39712,30 +39699,48 @@
       "action": "buy",
       "details": "[LLM] $$NACHO at $2.973e-06, spent 0.05 SOL",
       "reason": "$$NACHO — real cat with verified X account (@Nachocatcoins), long self-aware desc, fresh launch at $2,971 mcap. Pure attention play with authentic story. Best viability score of the batch."
+    },
+    {
+      "time": "2026-09-09 05:22 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $$NACHO at $2.97114e-06 | P&L: -0.1%",
+      "reason": "$NACHO flat at -0.1% after 0h, no momentum signal, bonding curve only at $26 pool — rotating capital into $UBC which has stronger narrative and higher mcap attention."
     }
   ],
   "trade_stats": {
-    "total": 2327,
+    "total": 2328,
     "wins": 1179,
-    "losses": 1148,
-    "win_rate_pct": 50.7,
-    "total_pnl_sol": -2.374695,
-    "avg_pnl_pct": 30.08,
+    "losses": 1149,
+    "win_rate_pct": 50.6,
+    "total_pnl_sol": -2.374731,
+    "avg_pnl_pct": 30.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 14,
-    "today_realized_sol": -0.108387,
+    "today_trades": 15,
+    "today_realized_sol": -0.108423,
     "today_target_pct": -27.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1179,
-      "loss_count": 1148,
+      "loss_count": 1149,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T05:21:07.964768+00:00",
+  "last_llm_brief_at": "2026-09-09T05:22:30.706681+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FWg7SbzN8xVj3Kvjx7uqGGAZkgYJ76tgBtQMxuGopump": {
+      "price_usd": 2.9711436519013166e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 25.8123456532,
+      "volume_h24": 319.2,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.24691358
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

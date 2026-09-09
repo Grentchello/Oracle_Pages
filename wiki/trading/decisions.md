@@ -16918,3 +16918,6 @@
 ## [2026-09-09 05:21 UTC] buy | [LLM] $$NACHO at $2.973e-06, spent 0.05 SOL
 - **Reasoning:** $$NACHO — real cat with verified X account (@Nachocatcoins), long self-aware desc, fresh launch at $2,971 mcap. Pure attention play with authentic story. Best viability score of the batch.
 
+## [2026-09-09 05:22 UTC] sell | [FULL][LLM] $$NACHO at $2.97114e-06 | P&L: -0.1%
+- **Reasoning:** $NACHO flat at -0.1% after 0h, no momentum signal, bonding curve only at $26 pool — rotating capital into $UBC which has stronger narrative and higher mcap attention.
+
