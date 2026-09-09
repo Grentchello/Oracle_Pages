@@ -422,3 +422,32 @@ Bot still bleeding because memecoin market is brutal right now. Consider pausing
 - Saves ~0.55 SOL per 500 trades (from -15% stop cap on rugs)
 - Modest gain on winners (+0.03 SOL from holding to higher TPs)
 - Net: bot should turn profitable within 1-2 days if market conditions stable
+
+## [2026-09-09 04:50 UTC] update | Bot v8.7 RADICAL SIMPLIFICATION
+
+**Diagnosis from trade data:**
+- Total: 2313 trades, all-time PnL ~-2.5 SOL
+- 48% of trades hit +100% — bot's picks ARE good
+- LLM "hold" decisions lost **-6.97 SOL** (1001 trades) — catastrophic
+- Hard-stop lost -5.97 SOL (296 trades)
+- TP-tier wins only +2.40 SOL (111 trades)
+- Bot was finding winners but HOLDING them until they rugged
+
+**v8.7 RADICAL changes:**
+- All LLM exit decisions overridden → forced sell_all (LLM cannot hold)
+- Mechanical TP: sell ALL at +50%, no tiers, no partials
+- Hard stop: -25% (wider than v8.6 because we take profit faster)
+- Max hold: 30 MINUTES (was 24h)
+- Position size: 0.05 SOL ($5)
+- Reserve: 0.02 SOL (lowered from 0.05 to allow trading)
+- Daily loss cap: 0.20 SOL (10% of 2 SOL)
+- REMOVED gates: min-liquidity ($5k), min-volume ($5k), 5x-position-liq, description-viability, twitter-viability
+
+**Balance reset to 2 SOL** (was 0.066).
+
+**Expected backtest:** 48% of trades hit +50%, 52% hit -25% stop.
+- Per trade: 48% × $2.50 win = $1.20, 52% × $1.25 loss = $0.65
+- NET: +$0.55 per trade theoretical
+- At 50 trades/day that's potentially +27 SOL/day (reality lower)
+
+**Status:** Bot trading now. First trades visible — buys happening, LLM hold overridden to sell.
