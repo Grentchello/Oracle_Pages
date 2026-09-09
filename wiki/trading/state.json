@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.74202,
+  "balance_sol": 1.79202,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FPjNUS6hcJxAtdw16T6gVnCTrwD8viQ29CAGuAfrpump": {
-      "symbol": "vrl",
-      "name": "VRL",
-      "amount": 333682.0207228934,
-      "entry_price_usd": 1.5717058979198945e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T07:14:24.161663+00:00",
-      "entry_usd_value": 5.2445,
-      "last_seen_price_usd": 1.5717058979198945e-05,
-      "entry_signals": {
-        "liquidity_usd": 1.0489000000000001e-07,
-        "volume_24h_usd": null,
-        "market_cap_usd": 15709.40834913362,
-        "ath_market_cap_usd": 15874.477184867606,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1e-09,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39756,19 +39732,30 @@
       "pnl_pct": -40.98,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "FPjNUS6hcJxAtdw16T6gVnCTrwD8viQ29CAGuAfrpump",
+      "symbol": "vrl",
+      "name": "VRL",
+      "amount_sold": 333682.01905448333,
+      "fraction_sold": 0.999999995,
+      "entry_time": "2026-09-09T07:14:24.161663+00:00",
+      "exit_time": "2026-09-09T07:15:56.937940+00:00",
+      "entry_price_usd": 1.5717058979198945e-05,
+      "exit_price_usd": 1.5706569951374137e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.07,
+      "exit_reason": "LLM: sell_all — Just entered at -0.1%, held 0.0h. Way too early to exit. -25% hard stop will catch any real drop. No reason to panic on a 0.1% move right after entry.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T07:14:24.161944+00:00",
+  "last_updated": "2026-09-09T07:15:56.938128+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.89,
-  "portfolio_value_usd": 187.96,
+  "last_sol_price_usd": 104.82,
+  "portfolio_value_usd": 187.84,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 05:25 UTC",
-      "action": "buy",
-      "details": "[LLM] $CHILLBULL at $1.98829e-05, spent 0.05 SOL",
-      "reason": "$CHILLBULL — chill bull is a recognizable, friendly mascot meme with broader appeal. $20k mcap with active X search traffic is a decent narrative entry; small position to test the launch."
-    },
     {
       "time": "2026-09-09 05:26 UTC",
       "action": "sell",
@@ -39882,30 +39869,48 @@
       "action": "buy",
       "details": "[LLM] $vrl at $1.57171e-05, spent 0.05 SOL",
       "reason": "$vrl is the only token with meaningful initial traction (mcap $15.7k vs ~$3k for everything else), suggesting early buyers already stepped in. The rest of the field is all sub-$3.5k mcaps under 2 minutes old with no clear differentiation — pure noise lottery tickets."
+    },
+    {
+      "time": "2026-09-09 07:15 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $vrl at $1.57066e-05 | P&L: -0.1%",
+      "reason": "Just entered at -0.1%, held 0.0h. Way too early to exit. -25% hard stop will catch any real drop. No reason to panic on a 0.1% move right after entry."
     }
   ],
   "trade_stats": {
-    "total": 2337,
+    "total": 2338,
     "wins": 1181,
-    "losses": 1156,
+    "losses": 1157,
     "win_rate_pct": 50.5,
     "total_pnl_sol": -2.474289,
-    "avg_pnl_pct": 29.87,
+    "avg_pnl_pct": 29.85,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 24,
+    "today_trades": 25,
     "today_realized_sol": -0.207981,
     "today_target_pct": -52.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1181,
-      "loss_count": 1156,
+      "loss_count": 1157,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T07:14:22.729240+00:00",
+  "last_llm_brief_at": "2026-09-09T07:15:56.937368+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FPjNUS6hcJxAtdw16T6gVnCTrwD8viQ29CAGuAfrpump": {
+      "price_usd": 1.5706569951374137e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.0482e-07,
+      "volume_h24": 211.25,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

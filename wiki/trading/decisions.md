@@ -16987,3 +16987,6 @@
 ## [2026-09-09 07:14 UTC] buy | [LLM] $vrl at $1.57171e-05, spent 0.05 SOL
 - **Reasoning:** $vrl is the only token with meaningful initial traction (mcap $15.7k vs ~$3k for everything else), suggesting early buyers already stepped in. The rest of the field is all sub-$3.5k mcaps under 2 minutes old with no clear differentiation — pure noise lottery tickets.
 
+## [2026-09-09 07:15 UTC] sell | [FULL][LLM] $vrl at $1.57066e-05 | P&L: -0.1%
+- **Reasoning:** Just entered at -0.1%, held 0.0h. Way too early to exit. -25% hard stop will catch any real drop. No reason to panic on a 0.1% move right after entry.
+
