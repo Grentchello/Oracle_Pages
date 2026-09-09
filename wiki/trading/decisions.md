@@ -16888,3 +16888,9 @@
 ## [2026-09-09 05:08 UTC] buy | [LLM] $GPU at $3.531e-06, spent 0.05 SOL
 - **Reasoning:** $GPU 'Gorilla Profiting Unit' rides the hot AI/GPU meta narrative with twitter signal attached, mcap $2.9k leaves 10-50x room; sizing 0.05 SOL per v7 spec.
 
+## [2026-09-09 05:09 UTC] sell | [rapid-drop] $GPU crashed >15% in one tick | P&L: -17.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 05:09 UTC] buy | [LLM] $Catecoin  at $2.05051e-05, spent 0.05 SOL
+- **Reasoning:** $Catecoin has highest mcap ($20.5k) of fresh launches, 'auracat' cat-meme narrative fits attention-market thesis, and cat coins have a track record of viral pumps. Entry at sub-$20k mcap is the kind of early-position the strategy targets.
+
