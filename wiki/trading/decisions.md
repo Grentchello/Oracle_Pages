@@ -17113,3 +17113,9 @@
 ## [2026-09-09 08:08 UTC] buy | [LLM] $WELL at $7.464e-06, spent 0.05 SOL
 - **Reasoning:** $WELL is the leader of this launch batch ($10.5k mcap vs $3k peers) with an actual X post attached — that's validated attention, not just a fresh mint. Viability gate passes (twitter present). Not on fragility blocklist. Position size 0.05 SOL leaves1.72 SOL free.
 
+## [2026-09-09 08:10 UTC] sell | [FULL][LLM] $WELL at $1.07917e-05 | P&L: +44.6%
+- **Reasoning:** Up +44.6% but pool only $2,890 means thin liquidity caps further upside. Take the gain, free the slot for a stronger narrative.
+
+## [2026-09-09 08:10 UTC] buy | [LLM] $SENTIENT at $2.942e-06, spent 0.05 SOL
+- **Reasoning:** $SENTIENT has the freshest original AI narrative (organic intelligence + decentralized tech), passes viability (long desc), age 0.6min means first-mover attention. Risk: brand-new mint with no twitter yet, could be a slow mover.
+
