@@ -1,8 +1,32 @@
 {
-  "balance_sol": 1.981209,
+  "balance_sol": 1.931209,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "EZiLHmouexTUND7nat64sBWaLXbEAUjUYMQ7ZQojZFVx": {
+      "symbol": "Buck",
+      "name": "GME Mascot",
+      "amount": 1539902.0986263538,
+      "entry_price_usd": 3.3862542330785293e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-09T04:51:46.528155+00:00",
+      "entry_usd_value": 5.214500000000001,
+      "last_seen_price_usd": 3.3862542330785293e-06,
+      "entry_signals": {
+        "liquidity_usd": 94.64510770228,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3384.630753246772,
+        "ath_market_cap_usd": 3851.9701784705226,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.907518532,
+        "description": "Buck the Bunny",
+        "twitter": "https://x.com/gamestop/status/1930346881751621945",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39377,17 +39401,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-09T04:50:21.708163+00:00",
+  "last_updated": "2026-09-09T04:51:46.528337+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.26,
-  "portfolio_value_usd": 206.56,
+  "last_sol_price_usd": 104.29,
+  "portfolio_value_usd": 206.62,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 20:10 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-08 20:21 UTC",
       "action": "observe",
@@ -39501,6 +39519,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $CYBER at $8.06529e-06 | P&L: -5.9%",
       "reason": "$CYBER only -5.9% after fresh entry (0.0h). Not at any stop/take-profit level. Bonding-curve pool $2075 is thin so price will move fast in either direction — give it a few ticks to develop before judging."
+    },
+    {
+      "time": "2026-09-09 04:51 UTC",
+      "action": "buy",
+      "details": "[LLM] $Buck at $3.38625e-06, spent 0.05 SOL",
+      "reason": "$Buck is the GameStop official mascot memecoin — verified by @gamestop's own X account, with a real description 'Buck the Bunny'. Brand-IP memecoins (GameStop nostalgia +2021 GME-era attention) historically pump hard. Bond 7% so still pre-graduation; if it completes the curve this rides the Raydium migration wave. Best narrative-to-risk ratio in the batch."
     }
   ],
   "trade_stats": {
@@ -39522,21 +39546,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T04:50:21.707757+00:00",
+  "last_llm_brief_at": "2026-09-09T04:51:44.734670+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "2RX8rVoMSCQkDMKeDLNBRc2mXDoTevx77T8gTQ4KkdPU": {
-      "price_usd": 8.065289486795693e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2074.90652738824,
-      "volume_h24": 9362.33,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 19.901271124
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
