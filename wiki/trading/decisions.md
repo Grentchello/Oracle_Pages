@@ -17128,3 +17128,9 @@
 ## [2026-09-09 08:17 UTC] buy | [LLM] $PUMPCAT at $3.47e-06, spent 0.05 SOL
 - **Reasoning:** $PUMPCAT combines two viral meme primitives (pump + cat) at $3k mcap, 0.7min old, with twitter presence. Fresh launches need entry before confirmation; this name has obvious meme potential on CT.
 
+## [2026-09-09 08:18 UTC] sell | [FULL][LLM] $PUMPCAT at $3.06913e-06 | P&L: -11.6%
+- **Reasoning:** PUMPCAT is down -11.6% with only $74 pool liquidity (6% of pool is our position = exit impact matters but pool is so thin any further selling will collapse price). Cut loss now to free the position slot and rotate into fresh launches with better narratives. -11.6% is recoverable; -30%+ on a $74 pool is not.
+
+## [2026-09-09 08:18 UTC] buy | [LLM] $SNAKITY at $3.173e-06, spent 0.05 SOL
+- **Reasoning:** $SNAKITY has the cleanest narrative of the batch: 'Snakity is literally a Snake plus Verity' is a coherent meme concept (snake + truth/Verity = anti-rug narrative hook), viability gate passes (desc >50 chars + twitter), $3.2k mcap, just launched. Small position to test the narrative before committing more.
+
