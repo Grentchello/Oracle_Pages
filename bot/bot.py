@@ -60,7 +60,7 @@ MAX_POSITIONS = 1                # v8.7: max 1 concurrent (keep simple)
 MAX_HOLD_MINUTES = 30            # v8.7: 30-min hard cap (was 24h)
 HARD_STOP_LOSS = 0.25             # v8.7: -25% (wider since we TP faster)
 DAILY_MAX_LOSS_SOL = 0.20         # v8.7: -0.2 SOL/day cap (10% of 2 SOL)
-RESERVE_SOL = 0.05
+RESERVE_SOL = 0.02  # v8.7: lowered so bot can trade with smaller balances
 
 # v8.7 new param: take profit at +50%, sell all
 TAKE_PROFIT_PCT = 0.50            # v8.7: sell ALL at +50%
