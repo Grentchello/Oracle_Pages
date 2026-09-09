@@ -16966,3 +16966,9 @@
 ## [2026-09-09 05:34 UTC] buy | [LLM] $AI at $1.209e-05, spent 0.05 SOL
 - **Reasoning:** Angel Investor has the strongest early attention signal, a linked X post, and a rising $9.7K market cap. It is exceptionally fresh and illiquid, so this is a high-risk momentum entry.
 
+## [2026-09-09 05:35 UTC] sell | [rapid-drop] $AI crashed >15% in one tick | P&L: -35.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 05:35 UTC] buy | [LLM] $Mud at $1.199e-05, spent 0.05 SOL
+- **Reasoning:** $Mud leads the batch: highest mcap ($10.5k), bond furthest along (32%), real X link from @junopeakz, still sub-2min old. Narrative is thin but momentum + early liquidity inflow is the strongest signal here. Sizing 0.05 SOL per scalp rules. If it doesn't move in 15 min, stale-exit.
+
