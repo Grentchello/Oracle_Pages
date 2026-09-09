@@ -16837,3 +16837,6 @@
 ## [2026-09-09 04:44 UTC] buy | [LLM] $WILSON at $3.97e-06, spent 0.05 SOL
 - **Reasoning:** $WILSON 'The Cruise Scammer' is a viral-ready narrative — cruise scammer stories trend hard on X/TikTok. 1.1min old, $3.8k mcap, Twitter attached. Low entry, high virality ceiling. Risk: story-driven coins need the story to circulate fast or they die in 10 min.
 
+## [2026-09-09 04:46 UTC] sell | [FULL][LLM] $WILSON at $3.4001e-06 | P&L: -14.4%
+- **Reasoning:** Position is only -14.4% and was just opened (0.0h held). Tight to the -25% hard cap but not at it yet. Bonding curve, illiquid — give it a couple minutes to see if it bounces; if not, exit on next tick.
+
