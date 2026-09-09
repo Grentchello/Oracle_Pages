@@ -16858,3 +16858,6 @@
 ## [2026-09-09 04:53 UTC] sell | [PARTIAL][LLM] $Buck at $2.93052e-06 | P&L: -13.5%
 - **Reasoning:** Down 13.5%, but the real killer is we're 60% of an $8 pool — any meaningful exit will crater the price further. Cut and free the slot before liquidity evaporates.
 
+## [2026-09-09 04:54 UTC] sell | [PARTIAL][LLM] $Buck at $2.91921e-06 | P&L: -13.8%
+- **Reasoning:** $Buck is down -13.8% with only $1 pool and207% of our share being the entire liquidity — we're the market and it's moving the wrong way. Exiting before the -25% hard cap to preserve capital for a fresh launch with real attention.
+

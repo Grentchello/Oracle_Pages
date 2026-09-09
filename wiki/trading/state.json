@@ -1,17 +1,17 @@
 {
-  "balance_sol": 1.956336,
+  "balance_sol": 1.972218,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "EZiLHmouexTUND7nat64sBWaLXbEAUjUYMQ7ZQojZFVx": {
       "symbol": "Buck",
       "name": "GME Mascot",
-      "amount": 645518.9783355277,
+      "amount": 77806.61453478102,
       "entry_price_usd": 3.3862542330785293e-06,
-      "entry_sol_spent": 0.02095974084688089,
+      "entry_sol_spent": 0.0025263493894899956,
       "entry_time": "2026-09-09T04:51:46.528155+00:00",
       "entry_usd_value": 5.214500000000001,
-      "last_seen_price_usd": 2.9305237315683197e-06,
+      "last_seen_price_usd": 2.919214664242547e-06,
       "entry_signals": {
         "liquidity_usd": 94.64510770228,
         "volume_24h_usd": null,
@@ -39416,19 +39416,30 @@
       "pnl_pct": -13.46,
       "exit_reason": "LLM: sell_all — Down 13.5%, but the real killer is we're 60% of an $8 pool — any meaningful exit will crater the price further. Cut and free the slot before liquidity",
       "partial": true
+    },
+    {
+      "mint": "EZiLHmouexTUND7nat64sBWaLXbEAUjUYMQ7ZQojZFVx",
+      "symbol": "Buck",
+      "name": "GME Mascot",
+      "amount_sold": 567712.3638007466,
+      "fraction_sold": 0.8794665731820843,
+      "entry_time": "2026-09-09T04:51:46.528155+00:00",
+      "exit_time": "2026-09-09T04:54:21.396219+00:00",
+      "entry_price_usd": 3.3862542330785293e-06,
+      "exit_price_usd": 2.919214664242547e-06,
+      "entry_sol_for_chunk": 0.018433,
+      "exit_sol_received": 0.015882,
+      "pnl_sol": -0.002552,
+      "pnl_pct": -13.79,
+      "exit_reason": "LLM: sell_all — $Buck is down -13.8% with only $1 pool and207% of our share being the entire liquidity — we're the market and it's moving the wrong way. Exiting befor",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-09T04:53:04.333305+00:00",
+  "last_updated": "2026-09-09T04:54:21.396477+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.31,
-  "portfolio_value_usd": 206.25,
+  "last_sol_price_usd": 104.35,
+  "portfolio_value_usd": 206.06,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 21:11 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-08 21:22 UTC",
       "action": "observe",
@@ -39542,40 +39553,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Buck at $2.93052e-06 | P&L: -13.5%",
       "reason": "Down 13.5%, but the real killer is we're 60% of an $8 pool — any meaningful exit will crater the price further. Cut and free the slot before liquidity evaporates."
+    },
+    {
+      "time": "2026-09-09 04:54 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Buck at $2.91921e-06 | P&L: -13.8%",
+      "reason": "$Buck is down -13.8% with only $1 pool and207% of our share being the entire liquidity — we're the market and it's moving the wrong way. Exiting before the -25% hard cap to preserve capital for a fresh launch with real attention."
     }
   ],
   "trade_stats": {
-    "total": 2317,
+    "total": 2318,
     "wins": 1177,
-    "losses": 1140,
+    "losses": 1141,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.289012,
-    "avg_pnl_pct": 30.29,
+    "total_pnl_sol": -2.291564,
+    "avg_pnl_pct": 30.28,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 4,
-    "today_realized_sol": -0.022704,
-    "today_target_pct": -5.7,
+    "today_trades": 5,
+    "today_realized_sol": -0.025256,
+    "today_target_pct": -6.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1177,
-      "loss_count": 1140,
+      "loss_count": 1141,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T04:53:04.332908+00:00",
+  "last_llm_brief_at": "2026-09-09T04:54:21.396067+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EZiLHmouexTUND7nat64sBWaLXbEAUjUYMQ7ZQojZFVx": {
-      "price_usd": 2.9305237315683197e-06,
+      "price_usd": 2.919214664242547e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 7.566834740760001,
-      "volume_h24": 928.18,
+      "liquidity_usd": 0.9085368404999999,
+      "volume_h24": 1021.94,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.072541796
+      "real_sol_reserves": 0.00870663
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
