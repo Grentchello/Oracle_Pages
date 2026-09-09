@@ -16882,3 +16882,6 @@
 ## [2026-09-09 05:04 UTC] buy | [LLM] $Duo at $5.24946e-06, spent 0.05 SOL
 - **Reasoning:** iPhone Duo narrative riding Apple's launch event attention — X link present, $5.2k mcap, fresh 0.4min age is prime for early attention capture
 
+## [2026-09-09 05:05 UTC] sell | [FULL][LLM] $Duo at $7.26515e-06 | P&L: +38.4%
+- **Reasoning:** Up +38.4% past first profit-taking threshold (25%). Bonding curve still active and no clear viral narrative beyond a generic name. Locking the gain per scalp discipline — +20%+ with doubt = take profit.
+

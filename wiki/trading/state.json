@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.915308,
+  "balance_sol": 1.984554,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DSpsLVQYMJNNrStSKTMzZCHAkEFJ29Jmm1F3u3D5pump": {
-      "symbol": "Duo",
-      "name": "iPhone Duo",
-      "amount": 992483.4899254206,
-      "entry_price_usd": 5.249457600943571e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T05:04:01.033848+00:00",
-      "entry_usd_value": 5.210000000000001,
-      "last_seen_price_usd": 5.249457600943571e-06,
-      "entry_signals": {
-        "liquidity_usd": 1501.2867402618,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5250.968961097394,
-        "ath_market_cap_usd": 6616.76668596233,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 14.407742229,
-        "description": "",
-        "twitter": "https://x.com/ApplesClubs/status/2096845863721247157?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39484,19 +39460,30 @@
       "pnl_pct": -18.34,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "DSpsLVQYMJNNrStSKTMzZCHAkEFJ29Jmm1F3u3D5pump",
+      "symbol": "Duo",
+      "name": "iPhone Duo",
+      "amount_sold": 992483.4899254206,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T05:04:01.033848+00:00",
+      "exit_time": "2026-09-09T05:05:18.898678+00:00",
+      "entry_price_usd": 5.249457600943571e-06,
+      "exit_price_usd": 7.265154277327529e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.069246,
+      "pnl_sol": 0.019246,
+      "pnl_pct": 38.4,
+      "exit_reason": "LLM: sell_all — Up +38.4% past first profit-taking threshold (25%). Bonding curve still active and no clear viral narrative beyond a generic name. Locking the gain pe",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T05:04:01.034022+00:00",
+  "last_updated": "2026-09-09T05:05:18.898929+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.2,
-  "portfolio_value_usd": 204.79,
+  "last_sol_price_usd": 104.13,
+  "portfolio_value_usd": 206.65,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 00:48 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-09 02:07 UTC",
       "action": "observe",
@@ -39610,40 +39597,46 @@
       "action": "buy",
       "details": "[LLM] $Duo at $5.24946e-06, spent 0.05 SOL",
       "reason": "iPhone Duo narrative riding Apple's launch event attention — X link present, $5.2k mcap, fresh 0.4min age is prime for early attention capture"
+    },
+    {
+      "time": "2026-09-09 05:05 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Duo at $7.26515e-06 | P&L: +38.4%",
+      "reason": "Up +38.4% past first profit-taking threshold (25%). Bonding curve still active and no clear viral narrative beyond a generic name. Locking the gain per scalp discipline — +20%+ with doubt = take profit."
     }
   ],
   "trade_stats": {
-    "total": 2321,
-    "wins": 1178,
+    "total": 2322,
+    "wins": 1179,
     "losses": 1143,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.301001,
-    "avg_pnl_pct": 30.22,
+    "total_pnl_sol": -2.281755,
+    "avg_pnl_pct": 30.23,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 8,
-    "today_realized_sol": -0.034693,
-    "today_target_pct": -8.7,
+    "today_trades": 9,
+    "today_realized_sol": -0.015447,
+    "today_target_pct": -3.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1178,
+      "win_count": 1179,
       "loss_count": 1143,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T05:03:59.271872+00:00",
+  "last_llm_brief_at": "2026-09-09T05:05:18.898636+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "B4pEspAfd8QVoKKt9QgFZoLoVh6y53Lu76hvh6NSpump": {
-      "price_usd": 3.2882565654807948e-06,
+    "DSpsLVQYMJNNrStSKTMzZCHAkEFJ29Jmm1F3u3D5pump": {
+      "price_usd": 7.265154277327529e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 195.06362476680002,
-      "volume_h24": 1277.8,
+      "liquidity_usd": 1810.91463379866,
+      "volume_h24": 13148.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.872011754
+      "real_sol_reserves": 17.390902082
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
