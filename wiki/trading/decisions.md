@@ -16960,3 +16960,9 @@
 ## [2026-09-09 05:32 UTC] buy | [LLM] $COWSOL at $5.269e-06, spent 0.05 SOL
 - **Reasoning:** $COWSOL at $5.3k mcap, bond 0% (brand new), cow mascot narrative has viral precedent in meme culture (wholesome + absurd). Early enough for asymmetric upside, mcap high enough to clear viability gate. Risk: cow meme is niche vs dog/frog — may not catch broad attention.
 
+## [2026-09-09 05:33 UTC] sell | [rapid-drop] $COWSOL crashed >15% in one tick | P&L: -89.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 05:34 UTC] buy | [LLM] $AI at $1.209e-05, spent 0.05 SOL
+- **Reasoning:** Angel Investor has the strongest early attention signal, a linked X post, and a rising $9.7K market cap. It is exceptionally fresh and illiquid, so this is a high-risk momentum entry.
+
