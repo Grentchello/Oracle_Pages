@@ -16975,3 +16975,6 @@
 ## [2026-09-09 05:36 UTC] sell | [rapid-drop] $Mud crashed >15% in one tick | P&L: -41.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-09 06:24 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
