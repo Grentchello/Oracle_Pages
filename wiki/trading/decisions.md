@@ -17203,3 +17203,6 @@
 ## [2026-09-09 08:49 UTC] buy | [LLM] $MUSE at $2.765e-06, spent 0.05 SOL
 - **Reasoning:** $MUSE AI has a real-looking twitter handle (Muse), a clear narrative ('world's first personal AI agent'), and is in the hot AI agent narrative. Viability gate passes, fragility gate clean. AI agent meta is still pumping.
 
+## [2026-09-09 08:50 UTC] sell | [FULL][LLM] $MUSE at $3.29832e-06 | P&L: +19.3%
+- **Reasoning:** Locking +19.3% gain on a $57 pool where we're already 11% of liquidity. Tiny pool + large our share = any sell pressure from others nukes our price. Up >15% with doubt = take profit per rules. Daily P&L at -0.39 SOL, one bad tick from -0.4 cap. Free the slot for fresh entries.
+
