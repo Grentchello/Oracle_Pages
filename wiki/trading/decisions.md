@@ -17092,3 +17092,6 @@
 ## [2026-09-09 07:59 UTC] buy | [LLM] $RTD at $6.275e-06, spent 0.05 SOL
 - **Reasoning:** $RTD leading the batch by mcap ($7.4k), retard-format name has proven viral attention mechanics, bond filling at 27% indicates real buyers not just deployer spam, twitter attached. Small0.05 SOL position given extreme freshness (1.3min) and rug potential.
 
+## [2026-09-09 08:00 UTC] sell | [v8.7 TP +50% (full)] $RTD at $1.39838e-05 | P&L: +122.8%
+- **Reasoning:** Auto take-profit at +122.8%
+

@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.691125,
+  "balance_sol": 1.802528,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "KHysC4pjEXz3aEANFNV2A7ZMWTMujCmRYa6v51vpump": {
-      "symbol": "RTD",
-      "name": "RetardCoin",
-      "amount": 833067.7290836653,
-      "entry_price_usd": 6.275e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T07:59:21.924994+00:00",
-      "entry_usd_value": 5.2275,
-      "last_seen_price_usd": 6.275e-06,
-      "entry_signals": {
-        "liquidity_usd": 2500.3622041783497,
-        "volume_24h_usd": 9621.81,
-        "market_cap_usd": 7424.285663079949,
-        "ath_market_cap_usd": 11558.682071685795,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 23.915468237,
-        "description": "",
-        "twitter": "https://x.com/RTRDcoinPF/status/2097595192106701008?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40062,19 +40038,30 @@
       "pnl_pct": 0.06,
       "exit_reason": "LLM: sell_all — DOGSHIP is flat (+0.1%) after 0h held, pool is only $1,422 — well below the 5x position-size liquidity requirement. No narrative, no viral signal, dea",
       "partial": false
+    },
+    {
+      "mint": "KHysC4pjEXz3aEANFNV2A7ZMWTMujCmRYa6v51vpump",
+      "symbol": "RTD",
+      "name": "RetardCoin",
+      "amount_sold": 833067.7290836653,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T07:59:21.924994+00:00",
+      "exit_time": "2026-09-09T08:00:36.776358+00:00",
+      "entry_price_usd": 6.275e-06,
+      "exit_price_usd": 1.3983766318793442e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.111403,
+      "pnl_sol": 0.061403,
+      "pnl_pct": 122.85,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T07:59:21.925170+00:00",
+  "last_updated": "2026-09-09T08:00:46.039498+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.55,
-  "portfolio_value_usd": 182.03,
+  "last_sol_price_usd": 104.57,
+  "portfolio_value_usd": 188.49,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 07:37 UTC",
-      "action": "buy",
-      "details": "[LLM] $MSI at $6.946e-06, spent 0.05 SOL",
-      "reason": "$MSI leads the batch: highest mcap ($7,875), 28% bond progress (most committed buyers), clear 'Meme Stock Index' meta-narrative that resonates with current trading culture, and active twitter. At ~1.2min old it's still early but already showing traction — this is exactly the early-traction entry the strategy calls for. 0.05 SOL size respects scalp discipline and leaves 1.8 SOL for rotation."
-    },
     {
       "time": "2026-09-09 07:38 UTC",
       "action": "sell",
@@ -40188,30 +40175,48 @@
       "action": "buy",
       "details": "[LLM] $RTD at $6.275e-06, spent 0.05 SOL",
       "reason": "$RTD leading the batch by mcap ($7.4k), retard-format name has proven viral attention mechanics, bond filling at 27% indicates real buyers not just deployer spam, twitter attached. Small0.05 SOL position given extreme freshness (1.3min) and rug potential."
+    },
+    {
+      "time": "2026-09-09 08:00 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $RTD at $1.39838e-05 | P&L: +122.8%",
+      "reason": "Auto take-profit at +122.8%"
     }
   ],
   "trade_stats": {
-    "total": 2355,
-    "wins": 1185,
+    "total": 2356,
+    "wins": 1186,
     "losses": 1170,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -2.525185,
-    "avg_pnl_pct": 29.6,
+    "total_pnl_sol": -2.463782,
+    "avg_pnl_pct": 29.64,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 42,
-    "today_realized_sol": -0.258877,
-    "today_target_pct": -64.7,
+    "today_trades": 43,
+    "today_realized_sol": -0.197474,
+    "today_target_pct": -49.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1185,
+      "win_count": 1186,
       "loss_count": 1170,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T07:59:20.677615+00:00",
+  "last_llm_brief_at": "2026-09-09T08:00:46.039462+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "KHysC4pjEXz3aEANFNV2A7ZMWTMujCmRYa6v51vpump": {
+      "price_usd": 1.3983766318793442e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3723.72153337343,
+      "volume_h24": 14948.51,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 35.609845399
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
