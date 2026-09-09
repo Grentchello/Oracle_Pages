@@ -16936,3 +16936,9 @@
 ## [2026-09-09 05:26 UTC] buy | [LLM] $NPC at $1.794e-05, spent 0.05 SOL
 - **Reasoning:** $NPC has the strongest narrative on the slate (OpenAI pairing + npcotc twitter with established CT presence) and is the only token where bond is meaningfully filling (40%), suggesting smart money flow. $24k mcap leaves real upside; freshness + narrative + wallet signal = edge. Sizing 0.05 SOL per bot cap.
 
+## [2026-09-09 05:28 UTC] sell | [FULL][LLM] $NPC at $1.92201e-05 | P&L: +7.1%
+- **Reasoning:** $NPC is +7.1% but only held 0.0h and on bonding curve. Not stale, not at TP threshold. Let it develop — bonding curve tokens can rip fast. Will exit if it stalls >15min or reverses hard.
+
+## [2026-09-09 05:28 UTC] buy | [LLM] $POWERBALL at $3.39769e-06, spent 0.05 SOL
+- **Reasoning:** $POWERBALL has a real hook — automated hourly holder raffles, gamified attention loop, repeat-engagement mechanic. $3.4k mcap is in the 10x zone. Real narrative, not just a name. Worth a 0.05 SOL scalp.
+
