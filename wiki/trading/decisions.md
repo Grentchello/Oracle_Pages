@@ -16996,3 +16996,6 @@
 ## [2026-09-09 07:20 UTC] sell | [v8.7 TP +50% (full)] $Ninjacat at $2.69543e-05 | P&L: +158.9%
 - **Reasoning:** Auto take-profit at +158.9%
 
+## [2026-09-09 07:23 UTC] buy | [LLM] $SHARTCOIN at $3.815e-06, spent 0.05 SOL
+- **Reasoning:** $SHARTCOIN has the strongest viral narrative in this batch — crude humor is high-shareability, CyborgDeployed is a known CT pumper, 1.7min fresh at $3.8k mcap gives room to 5-10x. Fits the attention-market thesis. Sizing 0.1 SOL.
+
