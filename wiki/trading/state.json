@@ -1,27 +1,27 @@
 {
-  "balance_sol": 1.924426,
+  "balance_sol": 1.915308,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "B4pEspAfd8QVoKKt9QgFZoLoVh6y53Lu76hvh6NSpump": {
-      "symbol": "BOOM",
-      "name": "boom",
-      "amount": 1295505.3389620066,
-      "entry_price_usd": 4.027e-06,
+    "DSpsLVQYMJNNrStSKTMzZCHAkEFJ29Jmm1F3u3D5pump": {
+      "symbol": "Duo",
+      "name": "iPhone Duo",
+      "amount": 992483.4899254206,
+      "entry_price_usd": 5.249457600943571e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T04:59:33.496694+00:00",
-      "entry_usd_value": 5.2170000000000005,
-      "last_seen_price_usd": 4.050913471805015e-06,
+      "entry_time": "2026-09-09T05:04:01.033848+00:00",
+      "entry_usd_value": 5.210000000000001,
+      "last_seen_price_usd": 5.249457600943571e-06,
       "entry_signals": {
-        "liquidity_usd": 565.3056404968801,
-        "volume_24h_usd": 857.58,
-        "market_cap_usd": 3993.814150923206,
-        "ath_market_cap_usd": 4037.742723559457,
+        "liquidity_usd": 1501.2867402618,
+        "volume_24h_usd": null,
+        "market_cap_usd": 5250.968961097394,
+        "ath_market_cap_usd": 6616.76668596233,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 5.417918732,
-        "description": "5 BIG BOOMS ",
-        "twitter": "https://x.com/followedbydev/status/2097550131859988905?s=46",
+        "real_sol_reserves": 14.407742229,
+        "description": "",
+        "twitter": "https://x.com/ApplesClubs/status/2096845863721247157?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -39467,25 +39467,30 @@
       "pnl_pct": -0.04,
       "exit_reason": "LLM: sell_all — At break-even, 0h held, no signal yet. Position just opened; rotating into another fresh bonding-curve token offers no edge since all candidates have ",
       "partial": false
+    },
+    {
+      "mint": "B4pEspAfd8QVoKKt9QgFZoLoVh6y53Lu76hvh6NSpump",
+      "symbol": "BOOM",
+      "name": "boom",
+      "amount_sold": 1295505.3389620066,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T04:59:33.496694+00:00",
+      "exit_time": "2026-09-09T05:03:40.904126+00:00",
+      "entry_price_usd": 4.027e-06,
+      "exit_price_usd": 3.2882565654807948e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.040882,
+      "pnl_sol": -0.009118,
+      "pnl_pct": -18.34,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T05:02:37.375296+00:00",
+  "last_updated": "2026-09-09T05:04:01.034022+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.34,
-  "portfolio_value_usd": 206.01,
+  "last_sol_price_usd": 104.2,
+  "portfolio_value_usd": 204.79,
   "recent_decisions": [
-    {
-      "time": "2026-09-08 23:08 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-09 00:22 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-09 00:48 UTC",
       "action": "observe",
@@ -39593,40 +39598,52 @@
       "action": "observe",
       "details": "LLM call failed: llm call failed",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-09 05:03 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $BOOM crashed >15% in one tick | P&L: -18.3%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-09 05:04 UTC",
+      "action": "buy",
+      "details": "[LLM] $Duo at $5.24946e-06, spent 0.05 SOL",
+      "reason": "iPhone Duo narrative riding Apple's launch event attention — X link present, $5.2k mcap, fresh 0.4min age is prime for early attention capture"
     }
   ],
   "trade_stats": {
-    "total": 2320,
+    "total": 2321,
     "wins": 1178,
-    "losses": 1142,
+    "losses": 1143,
     "win_rate_pct": 50.8,
-    "total_pnl_sol": -2.291883,
-    "avg_pnl_pct": 30.24,
+    "total_pnl_sol": -2.301001,
+    "avg_pnl_pct": 30.22,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 7,
-    "today_realized_sol": -0.025575,
-    "today_target_pct": -6.4,
+    "today_trades": 8,
+    "today_realized_sol": -0.034693,
+    "today_target_pct": -8.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1178,
-      "loss_count": 1142,
+      "loss_count": 1143,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T05:02:37.374997+00:00",
+  "last_llm_brief_at": "2026-09-09T05:03:59.271872+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "B4pEspAfd8QVoKKt9QgFZoLoVh6y53Lu76hvh6NSpump": {
-      "price_usd": 4.050913471805015e-06,
+      "price_usd": 3.2882565654807948e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 558.40701567168,
-      "volume_h24": 905.86,
+      "liquidity_usd": 195.06362476680002,
+      "volume_h24": 1277.8,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 5.351801952
+      "real_sol_reserves": 1.872011754
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

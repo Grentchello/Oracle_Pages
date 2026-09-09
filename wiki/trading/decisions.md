@@ -16876,3 +16876,9 @@
 ## [2026-09-09 05:02 UTC] observe | LLM call failed: llm call failed
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-09 05:03 UTC] sell | [rapid-drop] $BOOM crashed >15% in one tick | P&L: -18.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 05:04 UTC] buy | [LLM] $Duo at $5.24946e-06, spent 0.05 SOL
+- **Reasoning:** iPhone Duo narrative riding Apple's launch event attention — X link present, $5.2k mcap, fresh 0.4min age is prime for early attention capture
+
