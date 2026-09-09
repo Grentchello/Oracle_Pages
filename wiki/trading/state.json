@@ -1,8 +1,32 @@
 {
-  "balance_sol": 1.911068,
+  "balance_sol": 1.861068,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "EQq5BgCAhE9Xx7beeejhgG2fuVxTjGNENK2mTVEnpump": {
+      "symbol": "ANTIBROKE",
+      "name": "ANTIBROKE",
+      "amount": 587838.0171323331,
+      "entry_price_usd": 8.904663950684256e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-09T07:33:27.329673+00:00",
+      "entry_usd_value": 5.234500000000001,
+      "last_seen_price_usd": 8.904663950684256e-06,
+      "entry_signals": {
+        "liquidity_usd": 961.4962603298501,
+        "volume_24h_usd": null,
+        "market_cap_usd": 8908.353915924308,
+        "ath_market_cap_usd": 10225.413845165962,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 9.184222565,
+        "description": "Launched on discord.gg/uxento",
+        "twitter": "https://x.com/antibrokefun",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39836,17 +39860,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-09T07:32:07.509052+00:00",
+  "last_updated": "2026-09-09T07:33:27.329855+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.71,
-  "portfolio_value_usd": 200.11,
+  "last_sol_price_usd": 104.69,
+  "portfolio_value_usd": 200.07,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 05:33 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $COWSOL crashed >15% in one tick | P&L: -89.6%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-09 05:34 UTC",
       "action": "buy",
@@ -39960,6 +39978,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $PUMPx at $7.97344e-06 | P&L: +12.1%",
       "reason": "PUMPx is up +12.1% on a fresh entry (0.0h held) with positive momentum but below the +20% profit-take threshold. Bonding curve share display shows 0% which is normal for bonding-curve phase. Will reassess if it pushes past +20% or stalls."
+    },
+    {
+      "time": "2026-09-09 07:33 UTC",
+      "action": "buy",
+      "details": "[LLM] $ANTIBROKE at $8.90466e-06, spent 0.05 SOL",
+      "reason": "$ANTIBROKE passes viability gate (has twitter, desc present), bond at 30% with progressing buys, anti-broke is a relatable viral narrative with a dedicated X handle. Small-cap entry on fresh attention, ride the launch."
     }
   ],
   "trade_stats": {
@@ -39981,21 +40005,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T07:32:07.508281+00:00",
+  "last_llm_brief_at": "2026-09-09T07:33:25.690706+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "2imvBcH9cEfcx2QxsNZKp4NvL8Sjhm5FtzoXVGEJpump": {
-      "price_usd": 7.973437679962443e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2042.8477558385498,
-      "volume_h24": 15963.24,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 19.509576505
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

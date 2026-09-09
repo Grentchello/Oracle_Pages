@@ -17020,3 +17020,6 @@
 ## [2026-09-09 07:32 UTC] sell | [FULL][LLM] $PUMPx at $7.97344e-06 | P&L: +12.1%
 - **Reasoning:** PUMPx is up +12.1% on a fresh entry (0.0h held) with positive momentum but below the +20% profit-take threshold. Bonding curve share display shows 0% which is normal for bonding-curve phase. Will reassess if it pushes past +20% or stalls.
 
+## [2026-09-09 07:33 UTC] buy | [LLM] $ANTIBROKE at $8.90466e-06, spent 0.05 SOL
+- **Reasoning:** $ANTIBROKE passes viability gate (has twitter, desc present), bond at 30% with progressing buys, anti-broke is a relatable viral narrative with a dedicated X handle. Small-cap entry on fresh attention, ride the launch.
+
