@@ -1,8 +1,32 @@
 {
-  "balance_sol": 1.905019,
+  "balance_sol": 1.855019,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "2imvBcH9cEfcx2QxsNZKp4NvL8Sjhm5FtzoXVGEJpump": {
+      "symbol": "PUMPx",
+      "name": "PUMP STOCK",
+      "amount": 736050.7428772179,
+      "entry_price_usd": 7.112960690093814e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-09T07:30:36.168657+00:00",
+      "entry_usd_value": 5.2355,
+      "last_seen_price_usd": 7.112960690093814e-06,
+      "entry_signals": {
+        "liquidity_usd": 2373.03168644572,
+        "volume_24h_usd": null,
+        "market_cap_usd": 7116.357195055181,
+        "ath_market_cap_usd": 7116.357195055181,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 22.662894532,
+        "description": "hold $PUMPx to receive $PUMP rewards",
+        "twitter": "https://x.com/PUMPxstock/status/2097588204614377976",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39819,17 +39843,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-09T07:28:58.503845+00:00",
+  "last_updated": "2026-09-09T07:30:36.168820+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.85,
-  "portfolio_value_usd": 199.74,
+  "last_sol_price_usd": 104.71,
+  "portfolio_value_usd": 199.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 05:32 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $CHILLBULL crashed >15% in one tick | P&L: -83.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-09 05:32 UTC",
       "action": "buy",
@@ -39943,6 +39961,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $BOMBANANA at $6.3383e-06 | P&L: -9.2%",
       "reason": "$BOMBANANA is -9.2% on a tiny $1480 pool with 0% of pool share and no visible narrative — the -25% hard stop will catch further downside but rotating now frees the slot for a much stronger launch."
+    },
+    {
+      "time": "2026-09-09 07:30 UTC",
+      "action": "buy",
+      "details": "[LLM] $PUMPx at $7.11296e-06, spent 0.05 SOL",
+      "reason": "$PUMPx with 'hold to receive $PUMP rewards' hook has explicit attention bait, mcap $7k is fresh launch territory, X link live. Risks: tiny mcap, bond only 26% complete, unverified creator. Narrative meta-references PUMP token trend which has attention tailwind."
     }
   ],
   "trade_stats": {
@@ -39964,21 +39988,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T07:28:56.478595+00:00",
+  "last_llm_brief_at": "2026-09-09T07:30:34.830906+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "5ygJ27k1ZyUBdeR9LeNxQ5vZ4n4togt3kxxcYnHUpump": {
-      "price_usd": 6.338301321958592e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1479.7067110002,
-      "volume_h24": 10720.87,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 14.112605732
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
