@@ -16885,3 +16885,6 @@
 ## [2026-09-09 05:05 UTC] sell | [FULL][LLM] $Duo at $7.26515e-06 | P&L: +38.4%
 - **Reasoning:** Up +38.4% past first profit-taking threshold (25%). Bonding curve still active and no clear viral narrative beyond a generic name. Locking the gain per scalp discipline — +20%+ with doubt = take profit.
 
+## [2026-09-09 05:08 UTC] buy | [LLM] $GPU at $3.531e-06, spent 0.05 SOL
+- **Reasoning:** $GPU 'Gorilla Profiting Unit' rides the hot AI/GPU meta narrative with twitter signal attached, mcap $2.9k leaves 10-50x room; sizing 0.05 SOL per v7 spec.
+
