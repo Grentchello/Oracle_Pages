@@ -16906,3 +16906,9 @@
 ## [2026-09-09 05:15 UTC] buy | [LLM] $Spud at $6.53783e-06, spent 0.05 SOL
 - **Reasoning:** $Spud has the strongest narrative of the batch — a real, dated, verifiable OpenAI product-page glitch (openai.com/supply showed a potato tile titled SPUD in May 2026). That's the kind of weird-but-true internet lore that goes viral. 0.2min age = maximum fresh-launch alpha, $6.5k mcap is early enough for a 5-10x if narrative catches, bond already 25% (real buyers), and X link is live. Buying 0.05 SOL.
 
+## [2026-09-09 05:16 UTC] sell | [rapid-drop] $Spud crashed >15% in one tick | P&L: -51.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 05:16 UTC] buy | [LLM] $DUO at $3.409e-06, spent 0.05 SOL
+- **Reasoning:** $DUO 'iphone duo' passes viability gate (twitter link), narrative tied to AutismCapital (~200k followers crypto commentator) provides real attention signal. Fresh launch at $3.3k mcap = early entry with10x room. Risk: small account/liq, could be coordinated launch.
+
