@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.584302,
+  "balance_sol": 1.602168,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6aGKstjw1v5u6sLS9sLEUr7xrfp3U2M39AWgbsH7pump": {
-      "symbol": "Mud",
-      "name": "Mud to Moon",
-      "amount": 616057.6889498847,
-      "entry_price_usd": 8.508943389596147e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T08:40:28.939553+00:00",
-      "entry_usd_value": 5.242000000000001,
-      "last_seen_price_usd": 8.508943389596147e-06,
-      "entry_signals": {
-        "liquidity_usd": 960.14946349808,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8504.885328078788,
-        "ath_market_cap_usd": 8878.96123112653,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 9.158236012,
-        "description": "",
-        "twitter": "https://twitter.com/ch0senbygod5/status/2097605747962196186",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40334,19 +40310,30 @@
       "pnl_pct": -82.51,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "6aGKstjw1v5u6sLS9sLEUr7xrfp3U2M39AWgbsH7pump",
+      "symbol": "Mud",
+      "name": "Mud to Moon",
+      "amount_sold": 616057.6889498847,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-09T08:40:28.939553+00:00",
+      "exit_time": "2026-09-09T08:41:33.780265+00:00",
+      "entry_price_usd": 8.508943389596147e-06,
+      "exit_price_usd": 3.040768207163895e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.017866,
+      "pnl_sol": -0.032134,
+      "pnl_pct": -64.26,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T08:40:28.939729+00:00",
+  "last_updated": "2026-09-09T08:41:58.162983+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.84,
-  "portfolio_value_usd": 171.34,
+  "last_sol_price_usd": 104.85,
+  "portfolio_value_usd": 167.99,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 08:18 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PUMPCAT at $3.06913e-06 | P&L: -11.6%",
-      "reason": "PUMPCAT is down -11.6% with only $74 pool liquidity (6% of pool is our position = exit impact matters but pool is so thin any further selling will collapse price). Cut loss now to free the position slot and rotate into fresh launches with better narratives. -11.6% is recoverable; -30%+ on a $74 pool is not."
-    },
     {
       "time": "2026-09-09 08:18 UTC",
       "action": "buy",
@@ -40460,40 +40447,46 @@
       "action": "buy",
       "details": "[LLM] $Mud at $8.50894e-06, spent 0.05 SOL",
       "reason": "$Mud (Mud to Moon) has the strongest attention signal of the cohort: highest mcap ($8.5k vs $1.5-3.6k for others), bond at 29% indicating organic early accumulation (not zero), dedicated twitter handle, and a clear migration/journey narrative. Buying 0.05 SOL to test the wave."
+    },
+    {
+      "time": "2026-09-09 08:41 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Mud crashed >15% in one tick | P&L: -64.3%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2371,
+    "total": 2372,
     "wins": 1190,
-    "losses": 1181,
+    "losses": 1182,
     "win_rate_pct": 50.2,
-    "total_pnl_sol": -2.632008,
-    "avg_pnl_pct": 29.31,
+    "total_pnl_sol": -2.664142,
+    "avg_pnl_pct": 29.27,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 58,
-    "today_realized_sol": -0.3657,
-    "today_target_pct": -91.4,
+    "today_trades": 59,
+    "today_realized_sol": -0.397834,
+    "today_target_pct": -99.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1190,
-      "loss_count": 1181,
+      "loss_count": 1182,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T08:40:27.235340+00:00",
+  "last_llm_brief_at": "2026-09-09T08:41:57.828686+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "Ak7eRCZGTWAYd1ckLFqVq9vc2LHpW5rdTxv9YmDQpump": {
-      "price_usd": 2.2964502186064515e-07,
+    "6aGKstjw1v5u6sLS9sLEUr7xrfp3U2M39AWgbsH7pump": {
+      "price_usd": 3.040768207163895e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.19081130112,
-      "volume_h24": 62.62,
+      "liquidity_usd": 58.085830529999996,
+      "volume_h24": 11928.16,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.011358368
+      "real_sol_reserves": 0.5539898
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

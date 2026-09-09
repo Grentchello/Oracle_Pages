@@ -17188,3 +17188,6 @@
 ## [2026-09-09 08:40 UTC] buy | [LLM] $Mud at $8.50894e-06, spent 0.05 SOL
 - **Reasoning:** $Mud (Mud to Moon) has the strongest attention signal of the cohort: highest mcap ($8.5k vs $1.5-3.6k for others), bond at 29% indicating organic early accumulation (not zero), dedicated twitter handle, and a clear migration/journey narrative. Buying 0.05 SOL to test the wave.
 
+## [2026-09-09 08:41 UTC] sell | [rapid-drop] $Mud crashed >15% in one tick | P&L: -64.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
