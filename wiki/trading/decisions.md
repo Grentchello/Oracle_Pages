@@ -17194,3 +17194,6 @@
 ## [2026-09-09 08:44 UTC] buy | [LLM] $Roko at $4.46379e-06, spent 0.05 SOL
 - **Reasoning:** $Roko (Roko's Basilisk) — strongest narrative on the board. Roko's Basilisk is a well-known viral philosophical thought experiment with an established internet cult following, capable of catching fire with the right catalyst. Has twitter engagement (meechie), Wikipedia-backed description lending legitimacy, $4.5k mcap and 16% bond — still early enough to ride if it pumps, but the ultra-low mcap and fresh age (0.4min) mean high risk of rug or fade. Sizing at 0.05 SOL respects the v7 tighter risk discipline.
 
+## [2026-09-09 08:46 UTC] sell | [PARTIAL][LLM] $Roko at $5.88814e-06 | P&L: +31.9%
+- **Reasoning:** +31.9% on bonding-curve token with only $1313 pool and 0% share — gains are fragile. Lock half the profit, let half ride in case curve completes, but don't trust illiquid pumps.
+
