@@ -17047,3 +17047,9 @@
 ## [2026-09-09 07:40 UTC] buy | [LLM] $Macbook at $2.216e-05, spent 0.05 SOL
 - **Reasoning:** $Macbook leads the Slightly Used electronics meme cluster — highest mcap ($18.9k), bond filling (38%), and twitter link present. Narrative is clear, attention is leading the pack.0.05 SOL size keeps risk small on a sub-$20k mcap play.
 
+## [2026-09-09 07:41 UTC] sell | [rapid-drop] $Macbook crashed >15% in one tick | P&L: -62.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 07:41 UTC] buy | [LLM] $Roberthunter at $6.76782e-06, spent 0.05 SOL
+- **Reasoning:** Freshest launch (0.2min) in the Slightly Used Laptop narrative cluster — multiple competing mints racing for narrative ownership, and this one has the earliest Twitter signal from ITWILLRUN. $6.7k mcap with viral narrative potential, classic first-mover attention play. Risk: extreme youth + multiple copycat tokens means narrative may diffuse across mints, but the cheapest one with the right narrative often wins.
+
