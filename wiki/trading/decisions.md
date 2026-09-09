@@ -17170,3 +17170,9 @@
 ## [2026-09-09 08:33 UTC] buy | [LLM] $OTC IS LARP at $2.97051e-06, spent 0.05 SOL
 - **Reasoning:** Only candidate passing viability + fragility gates. Pure crypto-Twitter native meta-narrative ('OTC is LARP, rotate to purps') - the kind of insider humor CT loves. Twitter link present. Risk: 3 mint variants launched in seconds = spam pattern, narrative might not stick. Small 0.05 SOL test.
 
+## [2026-09-09 08:35 UTC] sell | [FULL][LLM] $OTC IS LARP at $2.97419e-06 | P&L: +0.1%
+- **Reasoning:** OTC is flat (+0.1%), pool only $21 (fails 5x liquidity rule), our share 25% means heavy exit slippage risk. Better to rotate slot to a fresh launch with stronger narrative and deeper liquidity than hold a stale bonding-curve bag.
+
+## [2026-09-09 08:35 UTC] buy | [LLM] $TIPSY at $3.697e-06, spent 0.05 SOL
+- **Reasoning:** $TIPSY (TipsyDog) — classic relatable animal meme (drunk dog), description >50 chars, dedicated @TipsyDogSOL Twitter, mcap $3.7k is fresh-launch sweet spot for5-10x attention play. Edgy-enough name to trend, low enough mcap for asymmetric upside.
+
