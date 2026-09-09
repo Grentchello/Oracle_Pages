@@ -17158,3 +17158,9 @@
 ## [2026-09-09 08:29 UTC] buy | [LLM] $KRK at $8.293e-06, spent 0.05 SOL
 - **Reasoning:** $KRK (Kirkiversary) — 'Kirkinator' desc + $9.5k mcap (highest in batch = some early attention), narrative is a meme event ('Kirkiversary'). Fits viability gate (desc + mcap). Riskiest entry but highest narrative density in this batch.
 
+## [2026-09-09 08:30 UTC] sell | [rapid-drop] $KRK crashed >15% in one tick | P&L: -53.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-09 08:30 UTC] buy | [LLM] $RISE at $7.42165e-06, spent 0.05 SOL
+- **Reasoning:** $RISE has the strongest narrative of the batch: 'My version of a memecoin' with a concrete 60% airdrop to top 15 holders creates built-in engagement and a clear holder-incentive loop. Highest mcap ($7.4k) and bonding at 27% suggests early traction. Attention signal is fresh and the mechanic is differentiated from generic launches.
+
