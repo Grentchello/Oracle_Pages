@@ -17164,3 +17164,6 @@
 ## [2026-09-09 08:30 UTC] buy | [LLM] $RISE at $7.42165e-06, spent 0.05 SOL
 - **Reasoning:** $RISE has the strongest narrative of the batch: 'My version of a memecoin' with a concrete 60% airdrop to top 15 holders creates built-in engagement and a clear holder-incentive loop. Highest mcap ($7.4k) and bonding at 27% suggests early traction. Attention signal is fresh and the mechanic is differentiated from generic launches.
 
+## [2026-09-09 08:32 UTC] sell | [FULL][LLM] $RISE at $8.4255e-06 | P&L: +13.5%
+- **Reasoning:** $RISE up 13.5% but just entered (0.0h), not at TP thresholds and not stale. Holding to see if the pump continues; thin pool ($2187) so wicks are likely — could spike to +30% TP quickly.
+
