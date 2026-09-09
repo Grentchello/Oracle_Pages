@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.848761,
+  "balance_sol": 1.891614,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GwDT3tfJ9Ar4kfXApuRreWqcfwVcgh6srUkJqp1upump": {
-      "symbol": "DUO",
-      "name": "iphone duo",
-      "amount": 1532707.5388677034,
-      "entry_price_usd": 3.409e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-09T05:16:32.603500+00:00",
-      "entry_usd_value": 5.2250000000000005,
-      "last_seen_price_usd": 3.409e-06,
-      "entry_signals": {
-        "liquidity_usd": 185.46732523,
-        "volume_24h_usd": 252.19,
-        "market_cap_usd": 3274.8164260563503,
-        "ath_market_cap_usd": 3406.041593582518,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.77480694,
-        "description": "",
-        "twitter": "https://x.com/AutismCapital/status/2097554021758448121",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -39569,19 +39545,30 @@
       "pnl_pct": -51.76,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "GwDT3tfJ9Ar4kfXApuRreWqcfwVcgh6srUkJqp1upump",
+      "symbol": "DUO",
+      "name": "iphone duo",
+      "amount_sold": 1532707.5299260367,
+      "fraction_sold": 0.9999999941660973,
+      "entry_time": "2026-09-09T05:16:32.603500+00:00",
+      "exit_time": "2026-09-09T05:18:15.187047+00:00",
+      "entry_price_usd": 3.409e-06,
+      "exit_price_usd": 2.925908667385508e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.042853,
+      "pnl_sol": -0.007147,
+      "pnl_pct": -14.17,
+      "exit_reason": "LLM: sell_all — At -14.2%, still inside the -25% hard stop. Only 0.0h held — giving it one more tick to see if the bonding-curve position bounces. The huge share % fl",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-09T05:16:32.603723+00:00",
+  "last_updated": "2026-09-09T05:18:15.187234+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.5,
-  "portfolio_value_usd": 198.42,
+  "last_sol_price_usd": 104.65,
+  "portfolio_value_usd": 197.96,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 04:51 UTC",
-      "action": "buy",
-      "details": "[LLM] $Buck at $3.38625e-06, spent 0.05 SOL",
-      "reason": "$Buck is the GameStop official mascot memecoin — verified by @gamestop's own X account, with a real description 'Buck the Bunny'. Brand-IP memecoins (GameStop nostalgia +2021 GME-era attention) historically pump hard. Bond 7% so still pre-graduation; if it completes the curve this rides the Raydium migration wave. Best narrative-to-risk ratio in the batch."
-    },
     {
       "time": "2026-09-09 04:53 UTC",
       "action": "sell",
@@ -39695,40 +39682,46 @@
       "action": "buy",
       "details": "[LLM] $DUO at $3.409e-06, spent 0.05 SOL",
       "reason": "$DUO 'iphone duo' passes viability gate (twitter link), narrative tied to AutismCapital (~200k followers crypto commentator) provides real attention signal. Fresh launch at $3.3k mcap = early entry with10x room. Risk: small account/liq, could be coordinated launch."
+    },
+    {
+      "time": "2026-09-09 05:18 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DUO at $2.92591e-06 | P&L: -14.2%",
+      "reason": "At -14.2%, still inside the -25% hard stop. Only 0.0h held — giving it one more tick to see if the bonding-curve position bounces. The huge share % flag is concerning but it's a fresh entry and not yet at the auto-stop threshold."
     }
   ],
   "trade_stats": {
-    "total": 2326,
+    "total": 2327,
     "wins": 1179,
-    "losses": 1147,
+    "losses": 1148,
     "win_rate_pct": 50.7,
-    "total_pnl_sol": -2.367548,
-    "avg_pnl_pct": 30.1,
+    "total_pnl_sol": -2.374695,
+    "avg_pnl_pct": 30.08,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 13,
-    "today_realized_sol": -0.10124,
-    "today_target_pct": -25.3,
+    "today_trades": 14,
+    "today_realized_sol": -0.108387,
+    "today_target_pct": -27.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1179,
-      "loss_count": 1147,
+      "loss_count": 1148,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T05:16:31.228378+00:00",
+  "last_llm_brief_at": "2026-09-09T05:18:15.186939+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "GrUjHEkLHckLJwUzb6CM6nrJHntadZxeKj6rNehDpump": {
-      "price_usd": 3.1538786013463753e-06,
+    "GwDT3tfJ9Ar4kfXApuRreWqcfwVcgh6srUkJqp1upump": {
+      "price_usd": 2.925908667385508e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 122.17521192800001,
-      "volume_h24": 11240.69,
+      "liquidity_usd": 1.0465000000000001e-07,
+      "volume_h24": 504.57,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.169140784
+      "real_sol_reserves": 1e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

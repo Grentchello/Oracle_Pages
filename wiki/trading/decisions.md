@@ -16912,3 +16912,6 @@
 ## [2026-09-09 05:16 UTC] buy | [LLM] $DUO at $3.409e-06, spent 0.05 SOL
 - **Reasoning:** $DUO 'iphone duo' passes viability gate (twitter link), narrative tied to AutismCapital (~200k followers crypto commentator) provides real attention signal. Fresh launch at $3.3k mcap = early entry with10x room. Risk: small account/liq, could be coordinated launch.
 
+## [2026-09-09 05:18 UTC] sell | [FULL][LLM] $DUO at $2.92591e-06 | P&L: -14.2%
+- **Reasoning:** At -14.2%, still inside the -25% hard stop. Only 0.0h held — giving it one more tick to see if the bonding-curve position bounces. The huge share % flag is concerning but it's a fresh entry and not yet at the auto-stop threshold.
+
