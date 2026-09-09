@@ -1,17 +1,17 @@
 {
-  "balance_sol": 1.752528,
+  "balance_sol": 1.790161,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GRaYGPMQdYRQpe4zWhhBuEKqaDRroeU99f1dhLAQpump": {
       "symbol": "BnB",
       "name": "Stonksssssssss",
-      "amount": 1781622.9116945108,
+      "amount": 440025.88616505894,
       "entry_price_usd": 2.933e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.01234901850657466,
       "entry_time": "2026-09-09T08:02:38.806753+00:00",
       "entry_usd_value": 5.2255,
-      "last_seen_price_usd": 2.933e-06,
+      "last_seen_price_usd": 2.9375108622930828e-06,
       "entry_signals": {
         "liquidity_usd": 6.2112850359700005,
         "volume_24h_usd": 5.47,
@@ -40079,19 +40079,30 @@
       "pnl_pct": 122.85,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "GRaYGPMQdYRQpe4zWhhBuEKqaDRroeU99f1dhLAQpump",
+      "symbol": "BnB",
+      "name": "Stonksssssssss",
+      "amount_sold": 1341597.025529452,
+      "fraction_sold": 0.7530196298685068,
+      "entry_time": "2026-09-09T08:02:38.806753+00:00",
+      "exit_time": "2026-09-09T08:04:05.163578+00:00",
+      "entry_price_usd": 2.933e-06,
+      "exit_price_usd": 2.9375108622930828e-06,
+      "entry_sol_for_chunk": 0.037651,
+      "exit_sol_received": 0.037633,
+      "pnl_sol": -1.8e-05,
+      "pnl_pct": 0.15,
+      "exit_reason": "LLM: sell_all — Position is only 0.0h old, +0.2% essentially flat, bonding-curve phase with 100% share — too early to exit, give it a chance to develop. Will reassess",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-09T08:02:38.807023+00:00",
+  "last_updated": "2026-09-09T08:04:05.163817+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 104.51,
-  "portfolio_value_usd": 188.38,
+  "last_sol_price_usd": 104.72,
+  "portfolio_value_usd": 188.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 07:38 UTC",
-      "action": "buy",
-      "details": "[LLM] $cwk  at $3.528e-06, spent 0.05 SOL",
-      "reason": "$cwk Crowwifknife rides the proven 'wif' meta (dogwifhat family) with a novel knife twist, has a live X post from dev_pscl, and is fresh at 0.6min / $3.3k mcap — textbook early-attention entry. Risk: bond only 6%, thin liquidity could reverse fast — I'll exit hard if no pump in 15 min."
-    },
     {
       "time": "2026-09-09 07:39 UTC",
       "action": "sell",
@@ -40205,30 +40216,48 @@
       "action": "buy",
       "details": "[LLM] $BnB at $2.933e-06, spent 0.05 SOL",
       "reason": "BNB Chain's official X account (@BNBCHAINZH) posted about it — that's a legit institutional attention signal, not just noise. 'Stonks' is a proven meme format, fresh launch at 0.9min gives early entry before any pump. Risk: very low mcap ($2.9k) and bond at 0% means thin liquidity, but the official-source catalyst justifies the entry."
+    },
+    {
+      "time": "2026-09-09 08:04 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BnB at $2.93751e-06 | P&L: +0.1%",
+      "reason": "Position is only 0.0h old, +0.2% essentially flat, bonding-curve phase with 100% share — too early to exit, give it a chance to develop. Will reassess on next tick."
     }
   ],
   "trade_stats": {
-    "total": 2356,
+    "total": 2357,
     "wins": 1186,
-    "losses": 1170,
+    "losses": 1171,
     "win_rate_pct": 50.3,
-    "total_pnl_sol": -2.463782,
-    "avg_pnl_pct": 29.64,
+    "total_pnl_sol": -2.4638,
+    "avg_pnl_pct": 29.62,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 43,
-    "today_realized_sol": -0.197474,
+    "today_trades": 44,
+    "today_realized_sol": -0.197492,
     "today_target_pct": -49.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1186,
-      "loss_count": 1170,
+      "loss_count": 1171,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-09T08:02:37.377843+00:00",
+  "last_llm_brief_at": "2026-09-09T08:04:05.163328+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GRaYGPMQdYRQpe4zWhhBuEKqaDRroeU99f1dhLAQpump": {
+      "price_usd": 2.9375108622930828e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 5.1703232812,
+      "volume_h24": 8.25,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.049372835
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

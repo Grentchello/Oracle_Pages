@@ -17098,3 +17098,6 @@
 ## [2026-09-09 08:02 UTC] buy | [LLM] $BnB at $2.933e-06, spent 0.05 SOL
 - **Reasoning:** BNB Chain's official X account (@BNBCHAINZH) posted about it — that's a legit institutional attention signal, not just noise. 'Stonks' is a proven meme format, fresh launch at 0.9min gives early entry before any pump. Risk: very low mcap ($2.9k) and bond at 0% means thin liquidity, but the official-source catalyst justifies the entry.
 
+## [2026-09-09 08:04 UTC] sell | [PARTIAL][LLM] $BnB at $2.93751e-06 | P&L: +0.1%
+- **Reasoning:** Position is only 0.0h old, +0.2% essentially flat, bonding-curve phase with 100% share — too early to exit, give it a chance to develop. Will reassess on next tick.
+
