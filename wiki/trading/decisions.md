@@ -16972,3 +16972,6 @@
 ## [2026-09-09 05:35 UTC] buy | [LLM] $Mud at $1.199e-05, spent 0.05 SOL
 - **Reasoning:** $Mud leads the batch: highest mcap ($10.5k), bond furthest along (32%), real X link from @junopeakz, still sub-2min old. Narrative is thin but momentum + early liquidity inflow is the strongest signal here. Sizing 0.05 SOL per scalp rules. If it doesn't move in 15 min, stale-exit.
 
+## [2026-09-09 05:36 UTC] sell | [rapid-drop] $Mud crashed >15% in one tick | P&L: -41.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
