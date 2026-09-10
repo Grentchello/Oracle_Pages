@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.53365,
+  "balance_sol": 4.563574,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "B7LHvWLY89DvZSQ3Qgf9ViNck1VaRXEuoXCX5XXxpump": {
-      "symbol": "RTC",
-      "name": "Return To Cashback",
-      "amount": 688900.9562810466,
-      "entry_price_usd": 7.345032626048067e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T08:41:59.403491+00:00",
-      "entry_usd_value": 5.0600000000000005,
-      "last_seen_price_usd": 7.345032626048067e-06,
-      "entry_signals": {
-        "liquidity_usd": 865.1901136076001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 7341.848559993286,
-        "ath_market_cap_usd": 7549.863975716255,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 8.549309423,
-        "description": "",
-        "twitter": "https://x.com/ForestManSol555/status/2097968698384380361",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44754,19 +44730,30 @@
       "pnl_pct": -58.77,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "B7LHvWLY89DvZSQ3Qgf9ViNck1VaRXEuoXCX5XXxpump",
+      "symbol": "RTC",
+      "name": "Return To Cashback",
+      "amount_sold": 688900.9562810466,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T08:41:59.403491+00:00",
+      "exit_time": "2026-09-10T08:43:03.764810+00:00",
+      "entry_price_usd": 7.345032626048067e-06,
+      "exit_price_usd": 4.3907030232133666e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.029924,
+      "pnl_sol": -0.020076,
+      "pnl_pct": -40.22,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T08:41:59.403678+00:00",
+  "last_updated": "2026-09-10T08:43:16.936496+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.2,
-  "portfolio_value_usd": 463.87,
+  "last_sol_price_usd": 101.08,
+  "portfolio_value_usd": 461.29,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 08:18 UTC",
-      "action": "buy",
-      "details": "[LLM] $Zchan at $5.019e-06, spent 0.05 SOL",
-      "reason": "$Zchan fuses Zcash brand with anime 'chan' meme template — this combo (NEIRO/GIGACHAD-style) has track record of pumping 10-50x in first hours. Sub-$5k mcap, 0.9min old = pure early attention play with real narrative hook."
-    },
     {
       "time": "2026-09-10 08:19 UTC",
       "action": "sell",
@@ -44880,30 +44867,48 @@
       "action": "buy",
       "details": "[LLM] $RTC at $7.34503e-06, spent 0.05 SOL",
       "reason": "$RTC at 0.2min old, mcap $7.3k, bond 28% furthest along, has a twitter link (ForestManSol555). Freshest attention signal in batch with a narrative (Return To Cashback) and social presence. Best risk/reward of the launches shown."
+    },
+    {
+      "time": "2026-09-10 08:43 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $RTC crashed >15% in one tick | P&L: -40.2%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2631,
+    "total": 2632,
     "wins": 1282,
-    "losses": 1349,
+    "losses": 1350,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.317361,
-    "avg_pnl_pct": 28.84,
+    "total_pnl_sol": 0.297285,
+    "avg_pnl_pct": 28.81,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 254,
-    "today_realized_sol": 3.002676,
-    "today_target_pct": 750.7,
+    "today_trades": 255,
+    "today_realized_sol": 2.9826,
+    "today_target_pct": 745.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1282,
-      "loss_count": 1349,
+      "loss_count": 1350,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T08:41:58.183366+00:00",
+  "last_llm_brief_at": "2026-09-10T08:43:15.436319+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "B7LHvWLY89DvZSQ3Qgf9ViNck1VaRXEuoXCX5XXxpump": {
+      "price_usd": 4.3907030232133666e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 747.3244266415201,
+      "volume_h24": 8959.45,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 7.393395594
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
