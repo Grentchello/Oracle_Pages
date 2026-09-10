@@ -20050,3 +20050,6 @@
 ## [2026-09-10 18:42 UTC] sell | [FULL][LLM] $casino at $2.77549e-06 | P&L: -0.2%
 - **Reasoning:** Just entered 0.0h ago at -0.2%, basically flat. No signal to exit yet — give it a few minutes to develop. Bonding-curve position will auto-stop at -25%.
 
+## [2026-09-10 18:43 UTC] buy | [LLM] $MyGPT at $3.533e-06, spent 0.05 SOL
+- **Reasoning:** $MyGPT — AI/GPT narrative is a proven attention evergreen (ChatGPT, GPT launches drive X trends). Has BOTH twitter (@letsgetdevvy) and discord launch (multi-channel shilling = organized attention). $3.3k mcap at 1.3min old with bond only 8% — extremely early, massive 10-50x room. Viability gate passes (twitter present). Risk: tiny mcap = rug potential, but hard -25% stop protects downside. Default bias: take the trade.
+
