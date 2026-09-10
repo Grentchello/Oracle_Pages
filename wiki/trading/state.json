@@ -1,27 +1,27 @@
 {
-  "balance_sol": 2.877836,
+  "balance_sol": 2.839995,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "DHyMCSgho2MFWB5UqTs4FNkkHjwgX7drTd587z9Xpump": {
-      "symbol": "1000X",
-      "name": "1000x Coin",
-      "amount": 433497.1681822957,
-      "entry_price_usd": 2.876e-06,
-      "entry_sol_spent": 0.012237316997372228,
-      "entry_time": "2026-09-10T02:59:35.301780+00:00",
-      "entry_usd_value": 5.094,
-      "last_seen_price_usd": 2.856022974651496e-06,
+    "BCzZWz3BJA8KHBktESDYeqjGVLv2LEQFvm326vWCpump": {
+      "symbol": "Nole",
+      "name": "NoleCoin",
+      "amount": 1098997.9483596082,
+      "entry_price_usd": 4.635586451825663e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T03:02:36.546486+00:00",
+      "entry_usd_value": 5.0945,
+      "last_seen_price_usd": 4.635586451825663e-06,
       "entry_signals": {
-        "liquidity_usd": 4.9552297614,
-        "volume_24h_usd": 15.17,
-        "market_cap_usd": 2856.864466394175,
-        "ath_market_cap_usd": 2875.973057022349,
+        "liquidity_usd": 1241.61615797237,
+        "volume_24h_usd": null,
+        "market_cap_usd": 4634.221572116617,
+        "ath_market_cap_usd": 5040.949474172357,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.048637905,
+        "real_sol_reserves": 12.185849033,
         "description": "",
-        "twitter": "https://x.com/igetsjiggy6767/status/2097882107938783642",
+        "twitter": "https://x.com/wifcashback/status/2097882834358968371?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -41898,25 +41898,30 @@
       "pnl_pct": -0.69,
       "exit_reason": "LLM: sell_all — Pool only $5 and our share is 102% — we ARE the liquidity. Cannot exit gracefully, position is unrecoverable. -0.7% now will become -25% when bot trie",
       "partial": true
+    },
+    {
+      "mint": "DHyMCSgho2MFWB5UqTs4FNkkHjwgX7drTd587z9Xpump",
+      "symbol": "1000X",
+      "name": "1000x Coin",
+      "amount_sold": 433497.1681822957,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T02:59:35.301780+00:00",
+      "exit_time": "2026-09-10T03:02:35.204851+00:00",
+      "entry_price_usd": 2.876e-06,
+      "exit_price_usd": 2.8579864553844133e-06,
+      "entry_sol_for_chunk": 0.012237,
+      "exit_sol_received": 0.012159,
+      "pnl_sol": -7.8e-05,
+      "pnl_pct": -0.63,
+      "exit_reason": "LLM: sell_all — $1000X is flat at -0.6% after a fresh entry with only $5 pool liquidity and 25% of supply share in our position — that's illiquid and we already have ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T03:01:03.134347+00:00",
+  "last_updated": "2026-09-10T03:02:36.546758+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.82,
-  "portfolio_value_usd": 294.27,
+  "last_sol_price_usd": 101.89,
+  "portfolio_value_usd": 294.46,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 02:43 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Joe at $3.66133e-08 | P&L: +3.1%",
-      "reason": "+3.1% fresh entry, just launched. Bonding curve only at 12% share, mcap tiny. Give it room to pump — no reason to exit at near-breakeven on a 0h-old position."
-    },
-    {
-      "time": "2026-09-10 02:44 UTC",
-      "action": "buy",
-      "details": "[LLM] $GRND at $6.08455e-08, spent 0.05 SOL",
-      "reason": "$GRND 'Grindr Inc' — brand-troll on a known mainstream name, 6% bond, brand-name recognition gives viral lift potential. Brand-trolls are the most replicated attention pattern. Risk: extremely fresh, low liquidity, will likely get flagged. Sizing in."
-    },
     {
       "time": "2026-09-10 02:46 UTC",
       "action": "sell",
@@ -42024,35 +42029,47 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $1000X at $2.85602e-06 | P&L: -0.7%",
       "reason": "Pool only $5 and our share is 102% — we ARE the liquidity. Cannot exit gracefully, position is unrecoverable. -0.7% now will become -25% when bot tries to sell into an empty pool. Cut and free the slot for a real launch."
+    },
+    {
+      "time": "2026-09-10 03:02 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $1000X at $2.85799e-06 | P&L: -0.6%",
+      "reason": "$1000X is flat at -0.6% after a fresh entry with only $5 pool liquidity and 25% of supply share in our position — that's illiquid and we already have 25% of pool, so any exit is also exit. Take the tiny loss, free the slot for fresh attention."
+    },
+    {
+      "time": "2026-09-10 03:02 UTC",
+      "action": "buy",
+      "details": "[LLM] $Nole at $4.63559e-06, spent 0.05 SOL",
+      "reason": "$Nole — NoleCoin, freshly launched, name plays on the Nick Saban retirement viral moment, attention signal from @wifcashback, narrative is recognizably memeable. Fresh launch, clear narrative, buy the attention wave."
     }
   ],
   "trade_stats": {
-    "total": 2463,
+    "total": 2464,
     "wins": 1215,
-    "losses": 1248,
+    "losses": 1249,
     "win_rate_pct": 49.3,
-    "total_pnl_sol": -1.376238,
-    "avg_pnl_pct": 29.24,
+    "total_pnl_sol": -1.376316,
+    "avg_pnl_pct": 29.23,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 86,
-    "today_realized_sol": 1.309077,
-    "today_target_pct": 327.3,
+    "today_trades": 87,
+    "today_realized_sol": 1.308999,
+    "today_target_pct": 327.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1215,
-      "loss_count": 1248,
+      "loss_count": 1249,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:01:03.134049+00:00",
+  "last_llm_brief_at": "2026-09-10T03:02:35.204814+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "DHyMCSgho2MFWB5UqTs4FNkkHjwgX7drTd587z9Xpump": {
-      "price_usd": 2.856022974651496e-06,
+      "price_usd": 2.8579864553844133e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4.9523114871,
+      "liquidity_usd": 4.95571614045,
       "volume_h24": 25.39,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
