@@ -18541,3 +18541,6 @@
 ## [2026-09-10 08:00 UTC] sell | [PARTIAL][LLM] $PAC-3310 at $2.00567e-08 | P&L: +20.3%
 - **Reasoning:** +20.3% gain with weak narrative (just ticker 'PAC', no clear story, no twitter shown). Bonding curve at 27% could still pump but no attention signal justifies holding full position. Lock half the gains, ride half free.
 
+## [2026-09-10 08:02 UTC] sell | [PARTIAL][LLM] $PAC-3310 at $2.00666e-08 | P&L: +20.4%
+- **Reasoning:** +20.4% and rising but the profit-taking rules say be aggressive when up >20% with any doubt — this is a thin bonding-curve pool ($3) and the 14% share I hold is huge relative to liquidity, meaning any further move will be hard to exit from cleanly. Lock half the gain, let the rest ride to TP or stop.
+

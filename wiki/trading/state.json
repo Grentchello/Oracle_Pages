@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.259349,
+  "balance_sol": 4.261165,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "J3D8DcYfRbkaC5DJNDWfcsqfiEcfqDEPpVoexgSDpump": {
       "symbol": "PAC-3310",
       "name": "ChatGPT Drug",
-      "amount": 18352288.623279463,
+      "amount": 9176144.311639732,
       "entry_price_usd": 1.666710491670498e-08,
-      "entry_sol_spent": 0.003018647191807461,
+      "entry_sol_spent": 0.0015093235959037306,
       "entry_time": "2026-09-10T07:57:50.973492+00:00",
       "entry_usd_value": 5.0665000000000004,
-      "last_seen_price_usd": 2.005672448190157e-08,
+      "last_seen_price_usd": 2.0066622194338358e-08,
       "entry_signals": {
         "liquidity_usd": 3.06093033219,
         "volume_24h_usd": null,
@@ -44431,19 +44431,30 @@
       "pnl_pct": 20.34,
       "exit_reason": "LLM: sell_half — +20.3% gain with weak narrative (just ticker 'PAC', no clear story, no twitter shown). Bonding curve at 27% could still pump but no attention signal j",
       "partial": true
+    },
+    {
+      "mint": "J3D8DcYfRbkaC5DJNDWfcsqfiEcfqDEPpVoexgSDpump",
+      "symbol": "PAC-3310",
+      "name": "ChatGPT Drug",
+      "amount_sold": 9176144.311639732,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T07:57:50.973492+00:00",
+      "exit_time": "2026-09-10T08:02:18.939060+00:00",
+      "entry_price_usd": 1.666710491670498e-08,
+      "exit_price_usd": 2.0066622194338358e-08,
+      "entry_sol_for_chunk": 0.001509,
+      "exit_sol_received": 0.001816,
+      "pnl_sol": 0.000307,
+      "pnl_pct": 20.4,
+      "exit_reason": "LLM: sell_half — +20.4% and rising but the profit-taking rules say be aggressive when up >20% with any doubt — this is a thin bonding-curve pool ($3) and the 14% share",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T08:00:43.218579+00:00",
+  "last_updated": "2026-09-10T08:02:18.939283+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.32,
-  "portfolio_value_usd": 431.86,
+  "last_sol_price_usd": 101.37,
+  "portfolio_value_usd": 432.11,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 07:41 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $WIF at $2.82473e-06 | P&L: -4.1%",
-      "reason": "$WIF is down -4.1% on a bonding-curve position just opened this tick, but the hard rules say position auto-closes at 30min or -25%. Given it's stale immediately and we have fresh attention tokens to rotate into, exit to free up the slot for higher-conviction plays."
-    },
     {
       "time": "2026-09-10 07:42 UTC",
       "action": "buy",
@@ -44557,35 +44568,41 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $PAC-3310 at $2.00567e-08 | P&L: +20.3%",
       "reason": "+20.3% gain with weak narrative (just ticker 'PAC', no clear story, no twitter shown). Bonding curve at 27% could still pump but no attention signal justifies holding full position. Lock half the gains, ride half free."
+    },
+    {
+      "time": "2026-09-10 08:02 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $PAC-3310 at $2.00666e-08 | P&L: +20.4%",
+      "reason": "+20.4% and rising but the profit-taking rules say be aggressive when up >20% with any doubt — this is a thin bonding-curve pool ($3) and the 14% share I hold is huge relative to liquidity, meaning any further move will be hard to exit from cleanly. Lock half the gain, let the rest ride to TP or stop."
     }
   ],
   "trade_stats": {
-    "total": 2612,
-    "wins": 1269,
+    "total": 2613,
+    "wins": 1270,
     "losses": 1343,
     "win_rate_pct": 48.6,
-    "total_pnl_sol": -0.003923,
+    "total_pnl_sol": -0.003616,
     "avg_pnl_pct": 28.7,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 235,
-    "today_realized_sol": 2.681392,
-    "today_target_pct": 670.3,
+    "today_trades": 236,
+    "today_realized_sol": 2.681699,
+    "today_target_pct": 670.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1269,
+      "win_count": 1270,
       "loss_count": 1343,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T08:00:43.218217+00:00",
+  "last_llm_brief_at": "2026-09-10T08:02:18.939022+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "J3D8DcYfRbkaC5DJNDWfcsqfiEcfqDEPpVoexgSDpump": {
-      "price_usd": 2.005672448190157e-08,
+      "price_usd": 2.0066622194338358e-08,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.7028695658,
+      "liquidity_usd": 2.70420339405,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
