@@ -19630,3 +19630,6 @@
 ## [2026-09-10 15:51 UTC] sell | [FULL][LLM] $Stimmy at $5.39012e-06 | P&L: +24.4%
 - **Reasoning:** $Stimmy is up +24.4% which is above the +20% profit-taking threshold. Position just opened (0.0h) so no stale risk yet, but rule says to lock gains when in doubt — bonding-curve pools this thin ($1.17k) can reverse fast. Take the 24% win and free up the slot.
 
+## [2026-09-10 15:52 UTC] buy | [LLM] $IHOLD at $3.314e-06, spent 0.05 SOL
+- **Reasoning:** $IHOLD — narrative: 'stretched fingers' phone meme, posted by AutismCapital (known memecoin X account). Description ≥50 chars, twitter present = passes viability gate. Meme is absurdist relatable humor, classic attention play. Low mcap $3.3k with bond forming. Risk: very new, but that's where alpha lives.
+
