@@ -17971,3 +17971,9 @@
 ## [2026-09-10 04:32 UTC] buy | [LLM] $UPS at $3.883e-06, spent 0.05 SOL
 - **Reasoning:** $UPS (UPSyndrome) — viral X post from @ZzzzzSol, memeable medical-syndrome naming convention that travels well on CT, $12.6k mcap with 34% bond progress shows organic buy-in, no fragility flags, clear attention signal. Best risk/reward of the slate.
 
+## [2026-09-10 04:33 UTC] sell | [v8.7 TP +50% (full)] $UPS at $1.24927e-05 | P&L: +221.7%
+- **Reasoning:** Auto take-profit at +221.7%
+
+## [2026-09-10 04:33 UTC] buy | [LLM] $Ape at $7.335e-06, spent 0.05 SOL
+- **Reasoning:** $Ape (Blind Ape) — strongest narrative of the batch, $8.4k mcap with 29% bonding curve, creator doing a live stream on PumpFun, framing against $ZCat (existing competitor). Live stream = real-time attention catalyst. 1 min old, fresh enough for early entry.
+
