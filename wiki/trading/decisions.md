@@ -18160,3 +18160,9 @@
 ## [2026-09-10 05:29 UTC] buy | [LLM] $ALTCOIN at $6.22364e-06, spent 0.05 SOL
 - **Reasoning:** $ALTCOIN — meta self-aware name ('Alternative Coin' about altcoins themselves), active X account @altcoinonx already posting, $6.2k mcap with 24% bond = early traction signal. Cleanest narrative in the batch, no celebrity fragility risk like $GROK, no clone ambiguity like $GS (two mints). Small position, tight stop at -25%.
 
+## [2026-09-10 05:30 UTC] sell | [rapid-drop] $ALTCOIN crashed >15% in one tick | P&L: -39.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 05:30 UTC] buy | [LLM] $GS at $6.257e-06, spent 0.05 SOL
+- **Reasoning:** $GS (Goldman Sacks) — strongest narrative of the batch. 'Wall Street had Goldman Sachs, trenches have Goldmans Sack' is a perfect Wall Street parody with high virality potential. Has Twitter presence already, decent $14.7k mcap gives room to run, and parody financial memes historically pump hard (see WIF, BODEN). The pun is clean and immediately understandable.
+
