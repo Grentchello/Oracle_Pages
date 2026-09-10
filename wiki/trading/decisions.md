@@ -19309,3 +19309,9 @@
 ## [2026-09-10 13:40 UTC] buy | [LLM] $XSTOCK at $6.381e-06, spent 0.05 SOL
 - **Reasoning:** $XSTOCK (PepsiCo xStock) is the strongest attention play in this batch — highest mcap ($6.4k), real brand affiliation, twitter link attached, and 'xStock' is a known legitimate tokenization launch pattern on Solana. Fits the 'viral narrative + real story' thesis. Sizing 0.05 SOL.
 
+## [2026-09-10 13:41 UTC] sell | [v8.7 TP +50% (full)] $XSTOCK at $9.69314e-06 | P&L: +51.9%
+- **Reasoning:** Auto take-profit at +51.9%
+
+## [2026-09-10 13:41 UTC] buy | [LLM] $1000X at $9.245e-06, spent 0.05 SOL
+- **Reasoning:** $1000X — the ticker itself IS the meme (aspirational 1000x), leading bond completion at 23%, has twitter, $5.6k mcap is in the sweet spot for early-stage attention plays. Classic meta-narrative memecoin DNA; entering on the launch attention.
+
