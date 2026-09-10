@@ -19729,3 +19729,6 @@
 ## [2026-09-10 16:41 UTC] sell | [PARTIAL][LLM] $1.50 at $1.19542e-09 | P&L: +40.1%
 - **Reasoning:** Up +40.1% past +30% TP threshold and our 1134% pool share means we're a whale in an illiquid bonding curve — locking in gains on half de-risks the position while keeping upside exposure. Realizing ~+0.02 SOL here.
 
+## [2026-09-10 16:42 UTC] sell | [PARTIAL][LLM] $1.50 at $1.15893e-09 | P&L: +35.8%
+- **Reasoning:** Up +35.8% on a $0-pool bonding-curve token with our share at 572% — that share % means exit liquidity is thin. Take partial profit now, let the runner ride free on the rest. If it pulls back hard, we already locked 50% of the gain.
+
