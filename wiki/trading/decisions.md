@@ -19555,3 +19555,9 @@
 ## [2026-09-10 15:26 UTC] sell | [PARTIAL][LLM] $Artcoin at $1.04366e-05 | P&L: +24.2%
 - **Reasoning:** Up +24.2% with weak narrative ('Artcoin' generic name, thin pool $2796, 0% our share on bonding curve). Per scalp discipline: up >20% with doubt → lock half the gain. Keep remainder if it continues, but don't bag-hold a thin-liquidity generic name.
 
+## [2026-09-10 15:27 UTC] sell | [FULL][LLM] $Artcoin at $1.09928e-05 | P&L: +30.8%
+- **Reasoning:** Up 30.8% in <1 min — already past the +30% TP threshold. Auto-TP territory. Lock the gain before it reverses. Freeing slot for fresh launch.
+
+## [2026-09-10 15:27 UTC] buy | [LLM] $BUCKAZOID at $6.456e-06, spent 0.05 SOL
+- **Reasoning:** BUCKAZOID — pop-culture recognizable reference (Futurama), $13.8k mcap fresh launch, narrative hook gives it attention potential. Best risk/reward of the new launches.
+

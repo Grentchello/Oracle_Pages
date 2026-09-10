@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.376136,
+  "balance_sol": 4.358693,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "H6tbQVAbDh4zse9uPnqeumEWAvCx2LKzspkP24tbpump": {
-      "symbol": "Artcoin",
-      "name": "Artcoin",
-      "amount": 296552.17757834884,
-      "entry_price_usd": 8.404929008964986e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-10T15:24:51.905494+00:00",
-      "entry_usd_value": 4.985,
-      "last_seen_price_usd": 1.0436608637276176e-05,
+    "Bx6yYAXdXPRqfQUamcBQZUtdwChMdD1mXHYvC9HHpump": {
+      "symbol": "BUCKAZOID",
+      "name": "BUCKAZOID",
+      "amount": 775480.1734820323,
+      "entry_price_usd": 6.456e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T15:27:46.959907+00:00",
+      "entry_usd_value": 5.0065,
+      "last_seen_price_usd": 6.456e-06,
       "entry_signals": {
-        "liquidity_usd": 4609.9503976104,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8408.301096832174,
-        "ath_market_cap_usd": 8408.301096832174,
+        "liquidity_usd": 0.01860225153,
+        "volume_24h_usd": 995.67,
+        "market_cap_usd": 13845.913992082471,
+        "ath_market_cap_usd": 21958.12716485392,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 46.238218632,
-        "description": "",
-        "twitter": "https://x.com/Bandit0x0/status/2098069607550493153",
+        "real_sol_reserves": 0.000185781,
+        "description": "BUCKAZOID",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -47576,25 +47576,30 @@
       "pnl_pct": 24.17,
       "exit_reason": "LLM: sell_half — Up +24.2% with weak narrative ('Artcoin' generic name, thin pool $2796, 0% our share on bonding curve). Per scalp discipline: up >20% with doubt → loc",
       "partial": true
+    },
+    {
+      "mint": "H6tbQVAbDh4zse9uPnqeumEWAvCx2LKzspkP24tbpump",
+      "symbol": "Artcoin",
+      "name": "Artcoin",
+      "amount_sold": 296552.17757834884,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T15:24:51.905494+00:00",
+      "exit_time": "2026-09-10T15:27:45.567187+00:00",
+      "entry_price_usd": 8.404929008964986e-06,
+      "exit_price_usd": 1.0992787879688175e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.032557,
+      "pnl_sol": 0.007557,
+      "pnl_pct": 30.79,
+      "exit_reason": "LLM: sell_all — Up 30.8% in <1 min — already past the +30% TP threshold. Auto-TP territory. Lock the gain before it reverses. Freeing slot for fresh launch.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T15:26:09.601301+00:00",
+  "last_updated": "2026-09-10T15:27:46.960067+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.71,
-  "portfolio_value_usd": 438.84,
+  "last_sol_price_usd": 100.13,
+  "portfolio_value_usd": 441.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 15:02 UTC",
-      "action": "buy",
-      "details": "[LLM] $CATESEM at $1.104e-05, spent 0.05 SOL",
-      "reason": "$CATESEM has the strongest attention signal — 10% supply to ANSEM (major Solana KOL), highest mcap ($20k), bond at 39% shows traction. Passes viability (desc + twitter) and fragility gates. KOL-rugged catalysts historically pump hard in first hour."
-    },
-    {
-      "time": "2026-09-10 15:03 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $CATESEM crashed >15% in one tick | P&L: -73.5%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 15:06 UTC",
       "action": "buy",
@@ -47702,40 +47707,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Artcoin at $1.04366e-05 | P&L: +24.2%",
       "reason": "Up +24.2% with weak narrative ('Artcoin' generic name, thin pool $2796, 0% our share on bonding curve). Per scalp discipline: up >20% with doubt → lock half the gain. Keep remainder if it continues, but don't bag-hold a thin-liquidity generic name."
+    },
+    {
+      "time": "2026-09-10 15:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Artcoin at $1.09928e-05 | P&L: +30.8%",
+      "reason": "Up 30.8% in <1 min — already past the +30% TP threshold. Auto-TP territory. Lock the gain before it reverses. Freeing slot for fresh launch."
+    },
+    {
+      "time": "2026-09-10 15:27 UTC",
+      "action": "buy",
+      "details": "[LLM] $BUCKAZOID at $6.456e-06, spent 0.05 SOL",
+      "reason": "BUCKAZOID — pop-culture recognizable reference (Futurama), $13.8k mcap fresh launch, narrative hook gives it attention potential. Best risk/reward of the new launches."
     }
   ],
   "trade_stats": {
-    "total": 2797,
-    "wins": 1335,
+    "total": 2798,
+    "wins": 1336,
     "losses": 1462,
     "win_rate_pct": 47.7,
-    "total_pnl_sol": 0.134894,
+    "total_pnl_sol": 0.142451,
     "avg_pnl_pct": 27.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 420,
-    "today_realized_sol": 2.820209,
-    "today_target_pct": 705.1,
+    "today_trades": 421,
+    "today_realized_sol": 2.827766,
+    "today_target_pct": 706.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1335,
+      "win_count": 1336,
       "loss_count": 1462,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T15:26:09.601035+00:00",
+  "last_llm_brief_at": "2026-09-10T15:27:45.567152+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "H6tbQVAbDh4zse9uPnqeumEWAvCx2LKzspkP24tbpump": {
-      "price_usd": 1.0436608637276176e-05,
+      "price_usd": 1.0992787879688175e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2796.44711753797,
-      "volume_h24": 27598.62,
+      "liquidity_usd": 2948.5605060601997,
+      "volume_h24": 49923.52,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 28.045804007
+      "real_sol_reserves": 29.44732354
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
