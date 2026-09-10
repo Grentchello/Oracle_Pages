@@ -20047,3 +20047,6 @@
 ## [2026-09-10 18:40 UTC] buy | [LLM] $casino at $2.781e-06, spent 0.05 SOL
 - **Reasoning:** $casino has the strongest narrative of the batch — 'no crying in the casino' is a recognizable cultural meme with viral potential, backed by a live X post from @meechie. Highest mcap ($4.2k) and most bonded (16%) shows organic demand. Risky as a sub-1min launch but that's where the alpha is.
 
+## [2026-09-10 18:42 UTC] sell | [FULL][LLM] $casino at $2.77549e-06 | P&L: -0.2%
+- **Reasoning:** Just entered 0.0h ago at -0.2%, basically flat. No signal to exit yet — give it a few minutes to develop. Bonding-curve position will auto-stop at -25%.
+
