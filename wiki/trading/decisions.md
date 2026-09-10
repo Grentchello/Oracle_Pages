@@ -17962,3 +17962,6 @@
 ## [2026-09-10 04:29 UTC] sell | [v8.7 TP +50% (full)] $ZAZU at $0.000540091 | P&L: +2813.1%
 - **Reasoning:** Auto take-profit at +2813.1%
 
+## [2026-09-10 04:30 UTC] buy | [LLM] $Snorp at $9.30614e-06, spent 0.05 SOL
+- **Reasoning:** $Snorp — strongest fresh launch by mcap ($9.3k), has twitter presence (snorponchain), launched via Discord community (uxento = attention hub), bond already 31% complete showing organic buying pressure. Memetic name with potential viral appeal; -25% stop protects downside.
+
