@@ -20110,3 +20110,6 @@
 ## [2026-09-10 18:58 UTC] buy | [LLM] $RISE at $6.39079e-06, spent 0.05 SOL
 - **Reasoning:** $RISE has the strongest narrative mechanic in the batch — 60% supply airdropped to top 15 holders creates a built-in viral incentive loop (holders shill to attract more holders to climb the leaderboard). Fresh X presence, just launched, sub-$7k mcap = room for the attention-driven 5-50x move that memecoin launches deliver.
 
+## [2026-09-10 19:00 UTC] sell | [FULL][LLM] $RISE at $6.85301e-06 | P&L: +7.2%
+- **Reasoning:** $RISE is +7.2% and just opened (0.0h). Not stale, not at TP threshold (25%), no reason to exit yet. Give it time to develop.
+
