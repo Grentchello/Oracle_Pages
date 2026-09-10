@@ -20752,3 +20752,9 @@
 ## [2026-09-10 23:00 UTC] buy | [LLM] $HOOD at $0.0009123, spent 0.05 SOL
 - **Reasoning:** $HOOD (Robinhood) is the only candidate with a real narrative and viral potential — Robinhood's brand is a meme magnet. Bond 43% complete and $916k mcap in <1min shows real demand. 0.05 SOL position sized to survive -25% hard stop.
 
+## [2026-09-10 23:02 UTC] sell | [FULL][LLM] $HOOD at $0.0009285 | P&L: +1.8%
+- **Reasoning:** Up only +1.8% after just opening — need more time to develop. Stale exit timer hasn't triggered. Position is tiny, will give it room to move or hit stop.
+
+## [2026-09-10 23:02 UTC] buy | [LLM] $SPRINKLER at $2.97269e-06, spent 0.05 SOL
+- **Reasoning:** $SPRINKLER (Sprinkler Kirk) — memecoin with a specific named character/persona (Sprinkler Kirk is a known CT shitposter). Real account, character-driven narrative. Best narrative in batch.
+
