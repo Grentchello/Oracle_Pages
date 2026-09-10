@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.953523,
+  "balance_sol": 4.978539,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "49gvY4gbLTVj38hAS6uCXaLkT71QkRa2Awi6KN5Vpump": {
       "symbol": "BOTRIOT",
       "name": "Robots Against AI",
-      "amount": 1776616.1932868683,
+      "amount": 888308.0966434341,
       "entry_price_usd": 2.844508577089166e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T11:30:21.528591+00:00",
       "entry_usd_value": 5.0536,
-      "last_seen_price_usd": 2.844508577089166e-06,
+      "last_seen_price_usd": 2.8474160614587282e-06,
       "entry_signals": {
         "liquidity_usd": 11.968921174144,
         "volume_24h_usd": null,
@@ -45825,19 +45825,30 @@
       "pnl_pct": -3.17,
       "exit_reason": "LLM: sell_all — The position is only down 3.2% and has just been opened, so there is not yet a clear reason to realize a loss. Its reported pool and share data are hi",
       "partial": false
+    },
+    {
+      "mint": "49gvY4gbLTVj38hAS6uCXaLkT71QkRa2Awi6KN5Vpump",
+      "symbol": "BOTRIOT",
+      "name": "Robots Against AI",
+      "amount_sold": 888308.0966434341,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T11:30:21.528591+00:00",
+      "exit_time": "2026-09-10T11:31:40.902785+00:00",
+      "entry_price_usd": 2.844508577089166e-06,
+      "exit_price_usd": 2.8474160614587282e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.025016,
+      "pnl_sol": 1.6e-05,
+      "pnl_pct": 0.1,
+      "exit_reason": "LLM: sell_all — Botriot is flat (+0.1%) with massive red flag: our share is 46% of a $11 pool — this means either we are the liquidity or extremely illiquid. At 46% c",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T11:30:21.528878+00:00",
+  "last_updated": "2026-09-10T11:31:40.903532+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.072,
-  "portfolio_value_usd": 505.72,
+  "last_sol_price_usd": 101.11,
+  "portfolio_value_usd": 505.91,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 11:04 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $mmrich crashed >15% in one tick | P&L: -94.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 11:05 UTC",
       "action": "buy",
@@ -45951,30 +45962,48 @@
       "action": "buy",
       "details": "[LLM] $BOTRIOT at $2.84451e-06, spent 0.05 SOL",
       "reason": "AI-vs-robots protest narrative is highly memeable for current X cycle, established twitter (_Sokkas), sub-1min age = attention-first entry, $2.8k mcap leaves room for early pump. Clean viability and fragility gates."
+    },
+    {
+      "time": "2026-09-10 11:31 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BOTRIOT at $2.84742e-06 | P&L: +0.1%",
+      "reason": "Botriot is flat (+0.1%) with massive red flag: our share is 46% of a $11 pool — this means either we are the liquidity or extremely illiquid. At 46% concentration, any other seller crashes our position. Cut exposure now, free up the slot for fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 2694,
-    "wins": 1308,
+    "total": 2695,
+    "wins": 1309,
     "losses": 1386,
     "win_rate_pct": 48.6,
-    "total_pnl_sol": 0.737236,
-    "avg_pnl_pct": 28.52,
+    "total_pnl_sol": 0.737252,
+    "avg_pnl_pct": 28.51,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 317,
-    "today_realized_sol": 3.422551,
+    "today_trades": 318,
+    "today_realized_sol": 3.422567,
     "today_target_pct": 855.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1308,
+      "win_count": 1309,
       "loss_count": 1386,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T11:30:19.941364+00:00",
+  "last_llm_brief_at": "2026-09-10T11:31:40.902228+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "49gvY4gbLTVj38hAS6uCXaLkT71QkRa2Awi6KN5Vpump": {
+      "price_usd": 2.8474160614587282e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 10.968884478149999,
+      "volume_h24": 32.03,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.108484665
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

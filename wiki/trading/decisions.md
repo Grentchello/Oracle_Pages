@@ -18985,3 +18985,6 @@
 ## [2026-09-10 11:30 UTC] buy | [LLM] $BOTRIOT at $2.84451e-06, spent 0.05 SOL
 - **Reasoning:** AI-vs-robots protest narrative is highly memeable for current X cycle, established twitter (_Sokkas), sub-1min age = attention-first entry, $2.8k mcap leaves room for early pump. Clean viability and fragility gates.
 
+## [2026-09-10 11:31 UTC] sell | [PARTIAL][LLM] $BOTRIOT at $2.84742e-06 | P&L: +0.1%
+- **Reasoning:** Botriot is flat (+0.1%) with massive red flag: our share is 46% of a $11 pool — this means either we are the liquidity or extremely illiquid. At 46% concentration, any other seller crashes our position. Cut exposure now, free up the slot for fresh attention.
+
