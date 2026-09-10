@@ -19627,3 +19627,6 @@
 ## [2026-09-10 15:50 UTC] buy | [LLM] $Stimmy at $4.332e-06, spent 0.05 SOL
 - **Reasoning:** $Stimmy at 0.7min, $7.4k mcap, 28% bonded (highest of the fresh launches = real organic buys happening), universal 'stimulus check' narrative that everyone has an opinion on, X link clears the viability gate, no fragile keywords. Best risk/reward of the batch — established enough traction to not be a deploy-bundle trap, fresh enough to catch the pump.
 
+## [2026-09-10 15:51 UTC] sell | [FULL][LLM] $Stimmy at $5.39012e-06 | P&L: +24.4%
+- **Reasoning:** $Stimmy is up +24.4% which is above the +20% profit-taking threshold. Position just opened (0.0h) so no stale risk yet, but rule says to lock gains when in doubt — bonding-curve pools this thin ($1.17k) can reverse fast. Take the 24% win and free up the slot.
+
