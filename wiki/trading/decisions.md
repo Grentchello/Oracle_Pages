@@ -19750,3 +19750,6 @@
 ## [2026-09-10 16:50 UTC] sell | [rapid-drop] $BREZ crashed >15% in one tick | P&L: -65.8%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 16:52 UTC] buy | [LLM] $KREX at $3.568e-06, spent 0.05 SOL
+- **Reasoning:** $KREX extends the active Kirk meme with a dinosaur twist ('Kirkosaurus') at<2min age — clear narrative, 50+ char desc, no political-figure keyword, attention is hot right now. Risk: mcap $3.6k means liquidity is razor-thin, position size must respect liquidity gate.
+
