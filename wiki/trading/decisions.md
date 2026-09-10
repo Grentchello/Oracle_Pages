@@ -19246,3 +19246,9 @@
 ## [2026-09-10 13:22 UTC] sell | [PARTIAL][LLM] $humanhuman at $6.65659e-06 | P&L: +45.7%
 - **Reasoning:** Up +45.7% in 0h, past 25% TP threshold — bot would auto-take-profit soon anyway. Pool is thin ($1637) so partial exit captures gains without tanking the chart. Let half ride to test if narrative has more.
 
+## [2026-09-10 13:23 UTC] sell | [v8.7 TP +50% (full)] $humanhuman at $8.4863e-06 | P&L: +85.7%
+- **Reasoning:** Auto take-profit at +85.7%
+
+## [2026-09-10 13:23 UTC] buy | [LLM] $holyfrog at $1.291e-05, spent 0.05 SOL
+- **Reasoning:** $holyfrog has the strongest fundamentals of the batch: highest mcap ($26.8k = best liquidity for 0.05 SOL size, exceeds 5x rule), bond 40% complete (most traction), and a viral absurdist name ('Holy Frog Father') that fits memecoin attention patterns. Fresh launch with no extraction yet.
+
