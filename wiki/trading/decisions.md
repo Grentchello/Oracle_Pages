@@ -19420,3 +19420,6 @@
 ## [2026-09-10 14:33 UTC] sell | [PARTIAL][LLM] $STARTUP at $8.63404e-08 | P&L: -0.8%
 - **Reasoning:** $STARTUP is flat at -0.8% after fresh entry, pool only $16, our share 31% — that's illiquidity risk, not a position. Bonding curve with 31% share means we are the exit liquidity. Cut and rotate to fresh attention.
 
+## [2026-09-10 14:34 UTC] sell | [rapid-drop] $STARTUP crashed >15% in one tick | P&L: -40.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
