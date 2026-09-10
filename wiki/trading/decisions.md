@@ -17629,3 +17629,6 @@
 ## [2026-09-10 02:27 UTC] buy | [LLM] $Man at $5.626e-06, spent 0.05 SOL
 - **Reasoning:** $Man is a generic, memeable name with the lowest risk profile in this batch — no political/celebrity trap. Bond at 22%, mcap $5.6k, fresh launch with X account. Good first scalp to learn from.
 
+## [2026-09-10 02:29 UTC] sell | [FULL][LLM] $Man at $6.157e-06 | P&L: +9.4%
+- **Reasoning:** The position is only minutes old and modestly up 9.4%, with no clear evidence yet of momentum exhaustion. Give the fresh launch more time, but exit if momentum stalls or the position reaches 30 minutes without a 20% gain.
+
