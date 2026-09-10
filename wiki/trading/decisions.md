@@ -20812,3 +20812,9 @@
 ## [2026-09-10 23:20 UTC] buy | [LLM] $pumponfone at $5.632e-06, spent 0.05 SOL
 - **Reasoning:** $pumponfone — pump.fon culture meta-token, 29% bonded (strongest curve fill = most organic buys so far), $7.7k mcap, twitter link to ramentrade. Pump.fon is a real attention narrative in current meta.
 
+## [2026-09-10 23:21 UTC] sell | [rapid-drop] $pumponfone crashed >15% in one tick | P&L: -46.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 23:22 UTC] buy | [LLM] $TikTok at $1.06649e-05, spent 0.05 SOL
+- **Reasoning:** $TikTok: strongest narrative on the board — creator claims 10s of thousands of TikTok viewers and is going live on PumpFun+TikTok. TikTok is the highest-converting attention channel for memecoins right now, and a $10.6k mcap with a claimed built-in audience is the textbook attention-launched setup. Risk: thin liquidity and creator claims are unverifiable, so I want to exit fast on any failure to pump in the first 15 minutes (stale flag will trigger).
+
