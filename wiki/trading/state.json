@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.35018,
+  "balance_sol": 4.30018,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "33NiYQH4Ao8t3e6ZREYMvPZbPUiaiijCknsi7tG9pump": {
+      "symbol": "MARVIN",
+      "name": "Marvin the Martian",
+      "amount": 245452.3463957426,
+      "entry_price_usd": 2.067e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T06:25:13.119114+00:00",
+      "entry_usd_value": 5.0735,
+      "last_seen_price_usd": 2.067e-05,
+      "entry_signals": {
+        "liquidity_usd": 5575.619742751391,
+        "volume_24h_usd": 6510.88,
+        "market_cap_usd": 23021.67915550271,
+        "ath_market_cap_usd": 23883.889272775206,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 54.948455137,
+        "description": "",
+        "twitter": "https://x.com/heishimmy/status/2097931266415091901?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -43627,17 +43651,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T06:23:51.083476+00:00",
+  "last_updated": "2026-09-10T06:25:13.119422+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.49,
-  "portfolio_value_usd": 441.5,
+  "last_sol_price_usd": 101.47,
+  "portfolio_value_usd": 441.41,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 06:01 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CHONK at $3.11631e-06 | P&L: -0.1%",
-      "reason": "Just entered this tick at -0.1%, essentially flat. Pool is thin ($138) so my 4% share means selling now would crash price and lock in ~zero. Give it room per the 30-min hold window and -25% hard stop."
-    },
     {
       "time": "2026-09-10 06:03 UTC",
       "action": "buy",
@@ -43751,6 +43769,12 @@
       "action": "sell",
       "details": "[rapid-drop] $GRUG crashed >15% in one tick | P&L: -63.0%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 06:25 UTC",
+      "action": "buy",
+      "details": "[LLM] $MARVIN at $2.067e-05, spent 0.05 SOL",
+      "reason": "$MARVIN — Looney Tunes brand is universally recognized (strongest narrative on the board), only 1.3min old, mcap $23k is pre-pump territory, and bond is 39% (real demand filling). The 'Exposure You Can Feel' / meme-coin-meta candidates are weaker: $TIGHTS at $287 mcap fails the 5x-liquidity gate, $WSM is a recycled dead brand, $TSIM explicitly disclaims itself, $mmrich is a textbook scam-pitch. Marvin has the attention + IP legs."
     }
   ],
   "trade_stats": {
@@ -43772,21 +43796,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T06:23:50.817104+00:00",
+  "last_llm_brief_at": "2026-09-10T06:25:11.648503+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "BUGfCRiRDpiSX2G9nmp5q9RLT4jJFaungt7NVxz7pump": {
-      "price_usd": 2.8378553924878774e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 0.15941602644,
-      "volume_h24": 17707.52,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.001570756
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
