@@ -20458,3 +20458,6 @@
 ## [2026-09-10 20:53 UTC] buy | [LLM] $HONOR at $1.0018e-05, spent 0.05 SOL
 - **Reasoning:** $HONOR has a CBS News twitter link (institutional media, not just CT noise) and 'Medal of Honor' is a strong patriotic narrative with mainstream recognition. Fresh launch (0.6min) is risky but this is exactly where alpha lives — $10k mcap with real media attention can 5-10x fast. Buying 0.05 SOL position.
 
+## [2026-09-10 20:54 UTC] sell | [rapid-drop] $HONOR crashed >15% in one tick | P&L: -72.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
