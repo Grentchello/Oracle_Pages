@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.552406,
+  "balance_sol": 4.623062,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "GZDhWUeqhsvVhYcgnJLoHHSyVri5JwAMbjKoeDuYpump": {
-      "symbol": "COURSE",
-      "name": "Course Seller",
-      "amount": 1294599702.440386,
-      "entry_price_usd": 3.945234955926611e-09,
+    "5j9mVSYrSQQkZc6U4c2xGRw6SjvfsAZZKnnQ2APypump": {
+      "symbol": "Apollo",
+      "name": "The SpaceX Dog",
+      "amount": 462761.12624886475,
+      "entry_price_usd": 1.101e-05,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T05:17:04.961376+00:00",
-      "entry_usd_value": 5.107500000000001,
-      "last_seen_price_usd": 3.945234955926611e-09,
+      "entry_time": "2026-09-10T05:18:22.378298+00:00",
+      "entry_usd_value": 5.095000000000001,
+      "last_seen_price_usd": 1.101e-05,
       "entry_signals": {
-        "liquidity_usd": 1.6637941732500001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4906.559110222335,
-        "ath_market_cap_usd": 6673.103080044014,
+        "liquidity_usd": 5217.8121270988,
+        "volume_24h_usd": 7317.01,
+        "market_cap_usd": 17317.23045355378,
+        "ath_market_cap_usd": 18739.265897167486,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.016287755,
+        "real_sol_reserves": 51.205222052,
         "description": "",
-        "twitter": "https://x.com/course_sol",
+        "twitter": "https://x.com/LoreDevor/status/2097916605850173563?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -43122,25 +43122,30 @@
       "pnl_pct": -29.78,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "GZDhWUeqhsvVhYcgnJLoHHSyVri5JwAMbjKoeDuYpump",
+      "symbol": "COURSE",
+      "name": "Course Seller",
+      "amount_sold": 1294599702.440386,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T05:17:04.961376+00:00",
+      "exit_time": "2026-09-10T05:18:08.681970+00:00",
+      "entry_price_usd": 3.945234955926611e-09,
+      "exit_price_usd": 9.49701375737474e-09,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.120656,
+      "pnl_sol": 0.070656,
+      "pnl_pct": 140.72,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T05:17:04.961686+00:00",
+  "last_updated": "2026-09-10T05:18:22.378610+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.15,
-  "portfolio_value_usd": 470.14,
+  "last_sol_price_usd": 101.9,
+  "portfolio_value_usd": 476.19,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 05:00 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $MOSES at $3.67947e-06 | P&L: +10.4%",
-      "reason": "Up 10.4% on a tiny $417 pool with only 1% share — this is illiquid and any dump kills the price. Lock half the gain now and let the rest ride on the bonding curve; if it doesn't push through 20% in the next 10-15 min, exit the rest."
-    },
-    {
-      "time": "2026-09-10 05:01 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MOSES at $3.23866e-06 | P&L: -2.8%",
-      "reason": "Down -2.8% on a $201 pool bonding-curve token after 0 minutes held. No bounce signal, liquidity is thin (only 1% share, $201 pool), and the symbol/name $MOSES lacks a viral narrative I can identify. Cutting early per discipline."
-    },
     {
       "time": "2026-09-10 05:01 UTC",
       "action": "buy",
@@ -43248,40 +43253,52 @@
       "action": "buy",
       "details": "[LLM] $COURSE at $3.94523e-09, spent 0.05 SOL",
       "reason": "$COURSE has the highest mcap ($4.9k) and a real X handle (@course_sol) of the fresh launches — 'Course Seller' is a clear memeable narrative (degree-scam culture) with low float and sub-1min age, classic viral meme setup."
+    },
+    {
+      "time": "2026-09-10 05:18 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $COURSE at $9.49701e-09 | P&L: +140.7%",
+      "reason": "Auto take-profit at +140.7%"
+    },
+    {
+      "time": "2026-09-10 05:18 UTC",
+      "action": "buy",
+      "details": "[LLM] $Apollo at $1.101e-05, spent 0.05 SOL",
+      "reason": "SpaceX Dog narrative has evergreen Musk-adjacent attention potential, LoreDevor twitter post confirmed, $17k mcap is leading the fresh batch (social proof), passes viability gate via twitter. Risk: sub-$20k mcap = thin liquidity, but that's where memecoin alpha lives."
     }
   ],
   "trade_stats": {
-    "total": 2535,
-    "wins": 1245,
+    "total": 2536,
+    "wins": 1246,
     "losses": 1290,
     "win_rate_pct": 49.1,
-    "total_pnl_sol": 0.336097,
-    "avg_pnl_pct": 29.83,
+    "total_pnl_sol": 0.406753,
+    "avg_pnl_pct": 29.87,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 158,
-    "today_realized_sol": 3.021412,
-    "today_target_pct": 755.4,
+    "today_trades": 159,
+    "today_realized_sol": 3.092068,
+    "today_target_pct": 773.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1245,
+      "win_count": 1246,
       "loss_count": 1290,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T05:17:03.633975+00:00",
+  "last_llm_brief_at": "2026-09-10T05:18:21.049705+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "9Z5EJQujCDNsya9NWYNJ5VkrSnQ87qYNaWhtBVMdpump": {
-      "price_usd": 3.4922694013608685e-06,
+    "GZDhWUeqhsvVhYcgnJLoHHSyVri5JwAMbjKoeDuYpump": {
+      "price_usd": 9.49701375737474e-09,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 324.20328652890004,
-      "volume_h24": 11356.37,
+      "liquidity_usd": 2.5035493072,
+      "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.173796246
+      "real_sol_reserves": 0.024568688
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

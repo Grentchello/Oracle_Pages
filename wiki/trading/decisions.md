@@ -18118,3 +18118,9 @@
 ## [2026-09-10 05:17 UTC] buy | [LLM] $COURSE at $3.94523e-09, spent 0.05 SOL
 - **Reasoning:** $COURSE has the highest mcap ($4.9k) and a real X handle (@course_sol) of the fresh launches — 'Course Seller' is a clear memeable narrative (degree-scam culture) with low float and sub-1min age, classic viral meme setup.
 
+## [2026-09-10 05:18 UTC] sell | [v8.7 TP +50% (full)] $COURSE at $9.49701e-09 | P&L: +140.7%
+- **Reasoning:** Auto take-profit at +140.7%
+
+## [2026-09-10 05:18 UTC] buy | [LLM] $Apollo at $1.101e-05, spent 0.05 SOL
+- **Reasoning:** SpaceX Dog narrative has evergreen Musk-adjacent attention potential, LoreDevor twitter post confirmed, $17k mcap is leading the fresh batch (social proof), passes viability gate via twitter. Risk: sub-$20k mcap = thin liquidity, but that's where memecoin alpha lives.
+
