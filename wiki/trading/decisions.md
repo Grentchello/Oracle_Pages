@@ -20035,3 +20035,9 @@
 ## [2026-09-10 18:38 UTC] buy | [LLM] $COBIE at $3.16831e-06, spent 0.05 SOL
 - **Reasoning:** $COBIE — Cobie is a verified, high-influence crypto personality (~700k X followers). Real account posted the launch tweet. Strongest attention signal in the batch. $3.2k mcap, real narrative = asymmetric upside. Sizing: 0.1 SOL.
 
+## [2026-09-10 18:39 UTC] sell | [FULL][LLM] $COBIE at $3.18713e-06 | P&L: +0.6%
+- **Reasoning:** $COBIE is +0.6% and just opened 0.0h ago. No reason to exit a fresh green position with no momentum signal either way. Will re-evaluate next tick.
+
+## [2026-09-10 18:39 UTC] buy | [LLM] $ZENCAT at $7.10286e-06, spent 0.05 SOL
+- **Reasoning:** $ZENCAT — cat meme narrative (evergreen), tweet from @Pumpfun (official attention channel), 0.3min old at $7k mcap with description. Strongest attention signal of the batch; cat memes have viral history. Risk: sub-$10k mcap, bonding curve only.
+
