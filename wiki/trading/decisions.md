@@ -19801,3 +19801,6 @@
 ## [2026-09-10 17:09 UTC] sell | [FULL][LLM] $FlyCar at $3.22786e-06 | P&L: +4.5%
 - **Reasoning:** $FlyCar just opened, +4.5% green, pool only $232 — too thin to exit cleanly right now; give it a few minutes to see if attention builds before rotating capital.
 
+## [2026-09-10 17:12 UTC] buy | [LLM] $CFENT at $3.05528e-06, spent 0.05 SOL
+- **Reasoning:** Only candidate passing viability gate (desc 51 chars + twitter). Carfentanil drug-meme has viral shock-value attention from @creepydotorg; edge of attention market. 0.05 SOL = $5 risk if it rugs; -25% hard cap means max loss ~$1.25. Will exit fast if no pump in 15min.
+
