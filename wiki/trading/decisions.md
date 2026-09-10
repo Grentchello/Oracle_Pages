@@ -18376,3 +18376,6 @@
 ## [2026-09-10 06:58 UTC] sell | [FULL][LLM] $SIS at $4.73781e-06 | P&L: -1.4%
 - **Reasoning:** $SIS is only -1.4% after 0h held, not yet at stale threshold (30min flat). Pool is thin ($884) which is concerning but no catalyst to exit. Let it breathe one more tick before deciding.
 
+## [2026-09-10 07:01 UTC] buy | [LLM] $Duk at $8.69354e-06, spent 0.05 SOL
+- **Reasoning:** $Duk — short punchy name, fresh Twitter signal at 0.1min, 30% bonded (leading curve progress = real demand). Sub-10k mcap with attention seed = highest asymmetry in batch.
+

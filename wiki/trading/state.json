@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.30346,
+  "balance_sol": 4.25346,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "CogrEhxpqKJ1sxmM3UHmTeqzMHYDfQavyVuBG3nipump": {
+      "symbol": "Duk",
+      "name": "Duk",
+      "amount": 585894.5551280262,
+      "entry_price_usd": 8.693543838937025e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T07:01:21.340749+00:00",
+      "entry_usd_value": 5.093500000000001,
+      "last_seen_price_usd": 8.693543838937025e-06,
+      "entry_signals": {
+        "liquidity_usd": 496.25643588983,
+        "volume_24h_usd": null,
+        "market_cap_usd": 8695.92463184215,
+        "ath_market_cap_usd": 9016.47587675576,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 4.871467909,
+        "description": "",
+        "twitter": "https://x.com/yvqex/status/2097943372027576758",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -43916,17 +43940,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T06:59:57.070559+00:00",
+  "last_updated": "2026-09-10T07:01:21.341027+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.9,
-  "portfolio_value_usd": 438.52,
+  "last_sol_price_usd": 101.87,
+  "portfolio_value_usd": 438.39,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 06:34 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $69 at $2.8477e-09 | P&L: -10.2%",
-      "reason": "$69 down only -10.2%, still well above -25% hard stop. Bonding-curve pool=$0 means exits would be illiquid; selling 51% share into a $69 mcap would crater price. Let the auto-stops handle it if it bleeds further."
-    },
     {
       "time": "2026-09-10 06:35 UTC",
       "action": "sell",
@@ -44040,6 +44058,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $SIS at $4.73781e-06 | P&L: -1.4%",
       "reason": "$SIS is only -1.4% after 0h held, not yet at stale threshold (30min flat). Pool is thin ($884) which is concerning but no catalyst to exit. Let it breathe one more tick before deciding."
+    },
+    {
+      "time": "2026-09-10 07:01 UTC",
+      "action": "buy",
+      "details": "[LLM] $Duk at $8.69354e-06, spent 0.05 SOL",
+      "reason": "$Duk — short punchy name, fresh Twitter signal at 0.1min, 30% bonded (leading curve progress = real demand). Sub-10k mcap with attention seed = highest asymmetry in batch."
     }
   ],
   "trade_stats": {
@@ -44061,7 +44085,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T06:59:56.818267+00:00",
+  "last_llm_brief_at": "2026-09-10T07:01:19.816490+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
