@@ -20227,3 +20227,6 @@
 ## [2026-09-10 19:31 UTC] sell | [PARTIAL][LLM] $SEASHELL at $2.78876e-06 | P&L: -13.6%
 - **Reasoning:** Down 13.6% with my position at 175% of pool liquidity. The oversized share means further drops will trigger worse slippage on exit, and we're approaching the -25% hard stop. Cut loss now while I still can exit at a reasonable price.
 
+## [2026-09-10 19:32 UTC] sell | [FULL][LLM] $SEASHELL at $2.80472e-06 | P&L: -13.1%
+- **Reasoning:** Position is fresh (0.0h held) and down only -13.1%, well above the -25% hard cap. No clear bounce signal yet but also no reason to panic exit a brand-new position. Giving it a few more minutes to find direction.
+

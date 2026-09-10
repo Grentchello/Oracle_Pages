@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.721344,
+  "balance_sol": 4.727544,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FdAMxAHVSAuUgXuEGExTkbgJgVFG6STqWM8oVqFzpump": {
-      "symbol": "SEASHELL",
-      "name": "Clawd Currency",
-      "amount": 221392.90371528355,
-      "entry_price_usd": 3.2265332436769936e-06,
-      "entry_sol_spent": 0.007128346110682988,
-      "entry_time": "2026-09-10T19:29:48.070423+00:00",
-      "entry_usd_value": 5.0105,
-      "last_seen_price_usd": 2.78876173045278e-06,
-      "entry_signals": {
-        "liquidity_usd": 1.5004930320599998,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3218.7539574798902,
-        "ath_market_cap_usd": 3491.1841850476108,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.014973486,
-        "description": "",
-        "twitter": "https://x.com/lorig110/status/2098131618284142964",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -49599,19 +49575,30 @@
       "pnl_pct": -13.57,
       "exit_reason": "LLM: sell_all — Down 13.6% with my position at 175% of pool liquidity. The oversized share means further drops will trigger worse slippage on exit, and we're approach",
       "partial": true
+    },
+    {
+      "mint": "FdAMxAHVSAuUgXuEGExTkbgJgVFG6STqWM8oVqFzpump",
+      "symbol": "SEASHELL",
+      "name": "Clawd Currency",
+      "amount_sold": 221392.90371528355,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T19:29:48.070423+00:00",
+      "exit_time": "2026-09-10T19:32:32.807890+00:00",
+      "entry_price_usd": 3.2265332436769936e-06,
+      "exit_price_usd": 2.8047247168592682e-06,
+      "entry_sol_for_chunk": 0.007128,
+      "exit_sol_received": 0.0062,
+      "pnl_sol": -0.000928,
+      "pnl_pct": -13.07,
+      "exit_reason": "LLM: sell_all — Position is fresh (0.0h held) and down only -13.1%, well above the -25% hard cap. No clear bounce signal yet but also no reason to panic exit a brand-",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T19:31:06.833267+00:00",
+  "last_updated": "2026-09-10T19:32:32.808125+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.58,
-  "portfolio_value_usd": 470.87,
+  "last_sol_price_usd": 100.15,
+  "portfolio_value_usd": 473.46,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:16 UTC",
-      "action": "buy",
-      "details": "[LLM] $MOOMOO at $9.0304e-06, spent 0.05 SOL",
-      "reason": "$MOOMOO — 4chan bull mascot is a proven viral meme archetype (PEPE/MOTHER lineage). Lowest mcap ($9k) in the freshest launches, 0.1 min old with twitter link attached. Risk: bond only 31%, very early — but attention narrative is strongest in the slate."
-    },
     {
       "time": "2026-09-10 19:17 UTC",
       "action": "sell",
@@ -49725,36 +49712,42 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $SEASHELL at $2.78876e-06 | P&L: -13.6%",
       "reason": "Down 13.6% with my position at 175% of pool liquidity. The oversized share means further drops will trigger worse slippage on exit, and we're approaching the -25% hard stop. Cut loss now while I still can exit at a reasonable price."
+    },
+    {
+      "time": "2026-09-10 19:32 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SEASHELL at $2.80472e-06 | P&L: -13.1%",
+      "reason": "Position is fresh (0.0h held) and down only -13.1%, well above the -25% hard cap. No clear bounce signal yet but also no reason to panic exit a brand-new position. Giving it a few more minutes to find direction."
     }
   ],
   "trade_stats": {
-    "total": 2916,
+    "total": 2917,
     "wins": 1372,
-    "losses": 1544,
-    "win_rate_pct": 47.1,
-    "total_pnl_sol": 0.462284,
-    "avg_pnl_pct": 26.25,
+    "losses": 1545,
+    "win_rate_pct": 47.0,
+    "total_pnl_sol": 0.461356,
+    "avg_pnl_pct": 26.24,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 539,
-    "today_realized_sol": 3.147599,
-    "today_target_pct": 786.9,
+    "today_trades": 540,
+    "today_realized_sol": 3.146671,
+    "today_target_pct": 786.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1372,
-      "loss_count": 1544,
+      "loss_count": 1545,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T19:31:06.832494+00:00",
+  "last_llm_brief_at": "2026-09-10T19:32:32.807018+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "FdAMxAHVSAuUgXuEGExTkbgJgVFG6STqWM8oVqFzpump": {
-      "price_usd": 2.78876173045278e-06,
+      "price_usd": 2.8047247168592682e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.4696482290999997,
-      "volume_h24": 1448.78,
+      "liquidity_usd": 2.48378459675,
+      "volume_h24": 1449.76,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
