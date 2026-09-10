@@ -18025,3 +18025,6 @@
 ## [2026-09-10 04:48 UTC] sell | [FULL][LLM] $LOL at $2.0264e-09 | P&L: +27.9%
 - **Reasoning:** At +27.9% past25% TP threshold but pool=$1 with our 25% share makes any sell order crash price to near-zero. Holding for higher TP is the only rational move; stuck position.
 
+## [2026-09-10 04:51 UTC] buy | [LLM] $EVIL at $3.558e-06, spent 0.05 SOL
+- **Reasoning:** $EVIL rides the TikTok Tung Tung Tung Sahur brainrot meme crossing into Solana degen. Active X account, very fresh (1.4min), mcap $3.2k gives huge upside if narrative catches. 0.05 SOL position, watching for bond completion.
+
