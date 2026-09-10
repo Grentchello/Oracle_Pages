@@ -594,6 +594,20 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
     if filtered_count > 0:
         log(f"v8.8: filtered {filtered_count}/{pre_filter_count} candidates (already pumped)")
     
+    # v8.9 AGE FILTER: Skip tokens less than 1 min old (still in initial pump/dump phase)
+    # Data shows most rapid-drop losses are tokens that just launched
+    age_filtered = 0
+    candidates_age = []
+    for c in candidates:
+        age_min = c.get("age_min", 0) or 0
+        if age_min < 1:
+            age_filtered += 1
+            log(f"v8.9 AGE FILTER: ${c.get('symbol')} rejected — only {age_min}min old (too volatile)")
+            continue
+        candidates_age.append(c)
+    if age_filtered > 0:
+        log(f"v8.9: filtered {age_filtered} candidates (too young <1min)")
+    
     # v8.9 MOMENTUM FILTER: Skip tokens showing immediate sell pressure
     # If change_1h is significantly negative, OR change_24h < -20%, skip
     # This catches tokens in mid-rug (where price is already dumping)

@@ -17701,3 +17701,9 @@
 ## [2026-09-10 02:52 UTC] buy | [LLM] $wifeguy at $1.11e-05, spent 0.05 SOL
 - **Reasoning:** $wifeguy — relatable viral meme archetype (wife guy TikTok/reddit genre), has its own X account (@wifeguy_sol), decent 50+ char description, mcap $6.5k with 26% bond is early but tradable. Pure attention play — wife/husband meme coin category has historical 10x-50x runs on narrative resonance. Small size, viral hook. Risk: bond not complete, but that's true for all these.
 
+## [2026-09-10 02:53 UTC] sell | [rapid-drop] $wifeguy crashed >15% in one tick | P&L: -63.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 02:53 UTC] buy | [LLM] $MANEKI at $7.56957e-06, spent 0.05 SOL
+- **Reasoning:** $MANEKI has the strongest narrative of the batch — Maneki-neko (lucky cat) is a globally recognized cultural symbol tied to wealth/luck, and it's already pulling $7.5k mcap with bond at 28% (highest bonding curve progress = most real demand). Memecoin attention play with a universal symbol beats the noise here.
+
