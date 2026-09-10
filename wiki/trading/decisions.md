@@ -20788,3 +20788,6 @@
 ## [2026-09-10 23:10 UTC] buy | [LLM] $STONK at $3.30836e-06, spent 0.05 SOL
 - **Reasoning:** $STONK has the most original narrative in this batch — 'AI traders with real neurons competing in a live bracket.' Novel meta-narrative, has dedicated X account (StonkWarsAI), description present. Memecoins are attention markets and this concept is built for virality. Risk: 0.4min old, mcap only $3.3k, very early — sizing accordingly at 0.05 SOL.
 
+## [2026-09-10 23:12 UTC] sell | [FULL][LLM] $STONK at $3.21736e-06 | P&L: -2.8%
+- **Reasoning:** $STONK is at -2.8% after 0h, just entered, noise not loss. Pool is thin ($234) but auto-stop handles -25%. Will reassess on next tick if it doesn't bounce.
+

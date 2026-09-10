@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.247264,
+  "balance_sol": 9.29614,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AJ273XahxBYsXNFXMhKGL3YWGuJVhmHHNeBk3YZBpump": {
-      "symbol": "STONK",
-      "name": "Stonk Wars",
-      "amount": 1501648.3140687568,
-      "entry_price_usd": 3.30836451748084e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T23:10:42.585432+00:00",
-      "entry_usd_value": 4.968,
-      "last_seen_price_usd": 3.30836451748084e-06,
-      "entry_signals": {
-        "liquidity_usd": 246.70901868912,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3296.5847008325127,
-        "ath_market_cap_usd": 3498.695743223425,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.482981267,
-        "description": "STONK WARS — 16 traders with real-neuron-count brains fight in a live bracket, one match at a time, trading meme coins for an hour in weekly tournaments! Two Stonks Men call it live. Pick winners, get paid in the coin. Fees claimed every round → 50% buyback → half to correct pickers. Watch: stonkwar",
-        "twitter": "https://x.com/StonkWarsAI",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51248,19 +51224,30 @@
       "pnl_pct": 153.91,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "AJ273XahxBYsXNFXMhKGL3YWGuJVhmHHNeBk3YZBpump",
+      "symbol": "STONK",
+      "name": "Stonk Wars",
+      "amount_sold": 1501648.3140687568,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T23:10:42.585432+00:00",
+      "exit_time": "2026-09-10T23:12:07.762084+00:00",
+      "entry_price_usd": 3.30836451748084e-06,
+      "exit_price_usd": 3.217362148712116e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.048876,
+      "pnl_sol": -0.001124,
+      "pnl_pct": -2.75,
+      "exit_reason": "LLM: sell_all — $STONK is at -2.8% after 0h, just entered, noise not loss. Pool is thin ($234) but auto-stop handles -25%. Will reassess on next tick if it doesn't bo",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T23:10:42.585716+00:00",
+  "last_updated": "2026-09-10T23:12:07.762344+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.36,
-  "portfolio_value_usd": 923.78,
+  "last_sol_price_usd": 98.85,
+  "portfolio_value_usd": 918.92,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 22:54 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $PUMPFUN at $3.399e-05 | P&L: +231.0%",
-      "reason": "Auto take-profit at +231.0%"
-    },
     {
       "time": "2026-09-10 22:54 UTC",
       "action": "buy",
@@ -51374,40 +51361,46 @@
       "action": "buy",
       "details": "[LLM] $STONK at $3.30836e-06, spent 0.05 SOL",
       "reason": "$STONK has the most original narrative in this batch — 'AI traders with real neurons competing in a live bracket.' Novel meta-narrative, has dedicated X account (StonkWarsAI), description present. Memecoins are attention markets and this concept is built for virality. Risk: 0.4min old, mcap only $3.3k, very early — sizing accordingly at 0.05 SOL."
+    },
+    {
+      "time": "2026-09-10 23:12 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $STONK at $3.21736e-06 | P&L: -2.8%",
+      "reason": "$STONK is at -2.8% after 0h, just entered, noise not loss. Pool is thin ($234) but auto-stop handles -25%. Will reassess on next tick if it doesn't bounce."
     }
   ],
   "trade_stats": {
-    "total": 3013,
+    "total": 3014,
     "wins": 1412,
-    "losses": 1601,
-    "win_rate_pct": 46.9,
-    "total_pnl_sol": 5.031075,
-    "avg_pnl_pct": 28.46,
+    "losses": 1602,
+    "win_rate_pct": 46.8,
+    "total_pnl_sol": 5.029951,
+    "avg_pnl_pct": 28.45,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 636,
-    "today_realized_sol": 7.71639,
-    "today_target_pct": 1929.1,
+    "today_trades": 637,
+    "today_realized_sol": 7.715266,
+    "today_target_pct": 1928.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1412,
-      "loss_count": 1601,
+      "loss_count": 1602,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T23:10:41.207057+00:00",
+  "last_llm_brief_at": "2026-09-10T23:12:07.761939+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "FBBYpLtioYs8zUkSu8nvzxZuHH2kiWDfCJzFifihpump": {
-      "price_usd": 3.1383602421047136e-05,
+    "AJ273XahxBYsXNFXMhKGL3YWGuJVhmHHNeBk3YZBpump": {
+      "price_usd": 3.217362148712116e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 7038.0454446475205,
-      "volume_h24": 17452.83,
+      "liquidity_usd": 234.12292143300002,
+      "volume_h24": 677.88,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 70.833790707
+      "real_sol_reserves": 2.36846658
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
