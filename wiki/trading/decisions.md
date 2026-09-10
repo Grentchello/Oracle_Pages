@@ -17923,3 +17923,6 @@
 ## [2026-09-10 04:15 UTC] sell | [PARTIAL][LLM] $ZIF at $2.85344e-06 | P&L: -0.1%
 - **Reasoning:** Position is at -0.1% break-even with only $2 pool and 215% share — this is effectively untradable on the bonding curve. Cutting now frees the slot before it goes negative; no narrative shown for ZIF to justify bag-holding.
 
+## [2026-09-10 04:16 UTC] sell | [FULL][LLM] $ZIF at $2.85596e-06 | P&L: +0.0%
+- **Reasoning:** Just opened, flat at +0.0%, bonding-curve with 25% pool share. No signal yet — let it develop for a few minutes before any decision.
+

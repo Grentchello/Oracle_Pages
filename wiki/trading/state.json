@@ -1,32 +1,8 @@
 {
-  "balance_sol": 2.803858,
+  "balance_sol": 2.80967,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "wM7UakvKbUzbZhFpQuv4B1ZxW2XEPNi6jDxNkGkpump": {
-      "symbol": "ZIF",
-      "name": "Zipper iPhone Flinch",
-      "amount": 207554.93448569218,
-      "entry_price_usd": 2.855e-06,
-      "entry_sol_spent": 0.005815204494177145,
-      "entry_time": "2026-09-10T04:13:40.350959+00:00",
-      "entry_usd_value": 5.095000000000001,
-      "last_seen_price_usd": 2.853438767994342e-06,
-      "entry_signals": {
-        "liquidity_usd": 2.3689811862,
-        "volume_24h_usd": 22.51,
-        "market_cap_usd": 2854.5588617207377,
-        "ath_market_cap_usd": 2873.370647728105,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.023248098,
-        "description": "",
-        "twitter": "https://x.com/beeple/status/2097897516444303853?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -42527,19 +42503,30 @@
       "pnl_pct": -0.05,
       "exit_reason": "LLM: sell_all — Position is at -0.1% break-even with only $2 pool and 215% share — this is effectively untradable on the bonding curve. Cutting now frees the slot bef",
       "partial": true
+    },
+    {
+      "mint": "wM7UakvKbUzbZhFpQuv4B1ZxW2XEPNi6jDxNkGkpump",
+      "symbol": "ZIF",
+      "name": "Zipper iPhone Flinch",
+      "amount_sold": 207554.93448569218,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T04:13:40.350959+00:00",
+      "exit_time": "2026-09-10T04:16:37.781673+00:00",
+      "entry_price_usd": 2.855e-06,
+      "exit_price_usd": 2.855958978878733e-06,
+      "entry_sol_for_chunk": 0.005815,
+      "exit_sol_received": 0.005812,
+      "pnl_sol": -3e-06,
+      "pnl_pct": 0.03,
+      "exit_reason": "LLM: sell_all — Just opened, flat at +0.0%, bonding-curve with 25% pool share. No signal yet — let it develop for a few minutes before any decision.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T04:15:09.207942+00:00",
+  "last_updated": "2026-09-10T04:16:37.781907+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.9,
-  "portfolio_value_usd": 286.31,
+  "last_sol_price_usd": 101.99,
+  "portfolio_value_usd": 286.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 03:52 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $att crashed >15% in one tick | P&L: -89.8%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 03:55 UTC",
       "action": "buy",
@@ -42653,35 +42640,41 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $ZIF at $2.85344e-06 | P&L: -0.1%",
       "reason": "Position is at -0.1% break-even with only $2 pool and 215% share — this is effectively untradable on the bonding curve. Cutting now frees the slot before it goes negative; no narrative shown for ZIF to justify bag-holding."
+    },
+    {
+      "time": "2026-09-10 04:16 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ZIF at $2.85596e-06 | P&L: +0.0%",
+      "reason": "Just opened, flat at +0.0%, bonding-curve with 25% pool share. No signal yet — let it develop for a few minutes before any decision."
     }
   ],
   "trade_stats": {
-    "total": 2500,
+    "total": 2501,
     "wins": 1230,
-    "losses": 1270,
+    "losses": 1271,
     "win_rate_pct": 49.2,
-    "total_pnl_sol": -1.456637,
-    "avg_pnl_pct": 28.79,
+    "total_pnl_sol": -1.45664,
+    "avg_pnl_pct": 28.78,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 123,
-    "today_realized_sol": 1.228678,
+    "today_trades": 124,
+    "today_realized_sol": 1.228675,
     "today_target_pct": 307.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1230,
-      "loss_count": 1270,
+      "loss_count": 1271,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T04:15:09.207502+00:00",
+  "last_llm_brief_at": "2026-09-10T04:16:37.781533+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "wM7UakvKbUzbZhFpQuv4B1ZxW2XEPNi6jDxNkGkpump": {
-      "price_usd": 2.853438767994342e-06,
+      "price_usd": 2.855958978878733e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.3689811862,
+      "liquidity_usd": 2.3710735150199995,
       "volume_h24": 22.51,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
