@@ -17389,3 +17389,6 @@
 ## [2026-09-10 00:56 UTC] sell | [FULL][LLM] $Method at $2.83985e-06 | P&L: -7.4%
 - **Reasoning:** Just entered (-7.4% in 0.0h on bonding curve is noise, not signal). No clear exit trigger yet — give it time to develop or hit the auto -25% hard stop.
 
+## [2026-09-10 00:57 UTC] buy | [LLM] $123 at $2.86088e-06, spent 0.05 SOL
+- **Reasoning:** $123 tagged with a toly (Solana founder) tweet — this is the highest-attention signal in the batch. Even if the tweet is unrelated, the attention spike alone drives the first-minute pump. Mcap $2.8k, bond 1% = very early entry. Risk: could be a fake tagged tweet or rug; size is only 0.1 SOL.
+

@@ -1,8 +1,32 @@
 {
-  "balance_sol": 1.442734,
+  "balance_sol": 1.392734,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "5E9Bq7MvUNwLPdzVPRFsGzwEYoDsqVVbLkcxmV3tpump": {
+      "symbol": "123",
+      "name": "123",
+      "amount": 1765017.4406267582,
+      "entry_price_usd": 2.860878246170146e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T00:57:51.088288+00:00",
+      "entry_usd_value": 5.0495,
+      "last_seen_price_usd": 2.860878246170146e-06,
+      "entry_signals": {
+        "liquidity_usd": 19.94552510099,
+        "volume_24h_usd": null,
+        "market_cap_usd": 2862.3890280120822,
+        "ath_market_cap_usd": 4888.401555289463,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.197500001,
+        "description": "",
+        "twitter": "https://x.com/toly/status/2097851759741768023",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40873,17 +40897,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T00:56:30.415529+00:00",
+  "last_updated": "2026-09-10T00:57:51.088539+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.06,
-  "portfolio_value_usd": 145.8,
+  "last_sol_price_usd": 100.99,
+  "portfolio_value_usd": 145.7,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 00:38 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $NORMIE at $2.8506e-06 | P&L: -6.2%",
-      "reason": "$NORMIE just opened 0.0h ago at -6.2%, bonding curve at 8% still has runway. Not at -25% hard stop, not stale (>15min). Give it a fair shot to bounce before rotating capital."
-    },
     {
       "time": "2026-09-10 00:40 UTC",
       "action": "buy",
@@ -40997,6 +41015,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $Method at $2.83985e-06 | P&L: -7.4%",
       "reason": "Just entered (-7.4% in 0.0h on bonding curve is noise, not signal). No clear exit trigger yet — give it time to develop or hit the auto -25% hard stop."
+    },
+    {
+      "time": "2026-09-10 00:57 UTC",
+      "action": "buy",
+      "details": "[LLM] $123 at $2.86088e-06, spent 0.05 SOL",
+      "reason": "$123 tagged with a toly (Solana founder) tweet — this is the highest-attention signal in the batch. Even if the tweet is unrelated, the attention spike alone drives the first-minute pump. Mcap $2.8k, bond 1% = very early entry. Risk: could be a fake tagged tweet or rug; size is only 0.1 SOL."
     }
   ],
   "trade_stats": {
@@ -41018,21 +41042,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T00:56:30.415231+00:00",
+  "last_llm_brief_at": "2026-09-10T00:57:49.594319+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "GN5cfmgcjZBwsvDcwtbM6Q1DiMEG9JcfAeGb59Fzpump": {
-      "price_usd": 2.8398546165597336e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 7.67229541426,
-      "volume_h24": 3996.08,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.075918221
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
