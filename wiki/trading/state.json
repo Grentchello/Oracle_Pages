@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.263428,
+  "balance_sol": 4.254203,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "AdFi6Bg1zNRAkyAe6pSeLdAGsyQfJHAaALG3qNpjpump": {
-      "symbol": "DOLAN",
-      "name": "Dolan The Duck",
-      "amount": 1458369.0987124464,
-      "entry_price_usd": 3.495e-06,
+    "8J9YcqbV696DRhN8oHMxof8V7rvGstTN79ZuV4vSKghb": {
+      "symbol": "SIS",
+      "name": "Self-improving superintelligence",
+      "amount": 1060457.8563995839,
+      "entry_price_usd": 4.805e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T06:55:16.906959+00:00",
-      "entry_usd_value": 5.097,
-      "last_seen_price_usd": 3.495e-06,
+      "entry_time": "2026-09-10T06:56:52.673255+00:00",
+      "entry_usd_value": 5.0955,
+      "last_seen_price_usd": 4.805e-06,
       "entry_signals": {
-        "liquidity_usd": 1.2232799999999999e-06,
-        "volume_24h_usd": 1115.15,
-        "market_cap_usd": 2850.419386042311,
-        "ath_market_cap_usd": 4031.564670744944,
+        "liquidity_usd": 837.9389188756799,
+        "volume_24h_usd": 7768.08,
+        "market_cap_usd": 4389.383847746066,
+        "ath_market_cap_usd": 8080.70488926888,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1.2e-08,
+        "real_sol_reserves": 8.222342448,
         "description": "",
-        "twitter": "https://x.com/yvqex/status/2097941625133535421",
+        "twitter": "https://x.com/Gen0xRay/status/2097941834890682531",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -43904,25 +43904,30 @@
       "pnl_pct": -0.03,
       "exit_reason": "LLM: sell_all — Pool=$0 means no exit liquidity exists — forced to hold. Position is flat at 0%, 0.0h held, so stale-exit gate not yet triggered. Will reassess next t",
       "partial": false
+    },
+    {
+      "mint": "AdFi6Bg1zNRAkyAe6pSeLdAGsyQfJHAaALG3qNpjpump",
+      "symbol": "DOLAN",
+      "name": "Dolan The Duck",
+      "amount_sold": 1458369.0987124464,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T06:55:16.906959+00:00",
+      "exit_time": "2026-09-10T06:56:20.470551+00:00",
+      "entry_price_usd": 3.495e-06,
+      "exit_price_usd": 2.8493010263028144e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.040775,
+      "pnl_sol": -0.009225,
+      "pnl_pct": -18.47,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T06:55:16.907141+00:00",
+  "last_updated": "2026-09-10T06:56:52.673466+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.94,
-  "portfolio_value_usd": 439.71,
+  "last_sol_price_usd": 101.91,
+  "portfolio_value_usd": 438.64,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 06:30 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BEANIE at $2.92772e-06 | P&L: +0.0%",
-      "reason": "Flat at +0.0% after just opening, $46 pool is dangerously illiquid for our 11% share, and we already have a fresh launch slate to rotate into. Free up the slot."
-    },
-    {
-      "time": "2026-09-10 06:30 UTC",
-      "action": "buy",
-      "details": "[LLM] $69 at $3.17189e-09, spent 0.05 SOL",
-      "reason": "$69 narrative riding direct Elon Musk tweet reference — meme-coin classic attention play, $4.5k mcap = early entry, viability gate passes. High fragility risk on celebrity keyword but liquidity ok."
-    },
     {
       "time": "2026-09-10 06:32 UTC",
       "action": "sell",
@@ -44030,30 +44035,54 @@
       "action": "buy",
       "details": "[LLM] $DOLAN at $3.495e-06, spent 0.05 SOL",
       "reason": "$DOLAN — Dolan Duck is nostalgic internet culture bait, fresh twitter, absurd enough to meme. Small mcap ($2.8k) means 10x is plausible if it catches. 0.05 SOL position."
+    },
+    {
+      "time": "2026-09-10 06:56 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $DOLAN crashed >15% in one tick | P&L: -18.5%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 06:56 UTC",
+      "action": "buy",
+      "details": "[LLM] $SIS at $4.805e-06, spent 0.05 SOL",
+      "reason": "$SIS — AI superintelligence narrative is the strongest current meta on CT, twitter signal from @Gen0xRay provides attention anchor, clean name (passes fragility gate), mcap $4.4k still has room. Risk: micro-cap, bond only 16% (still pre-graduation), thin liquidity — size 0.1 SOL keeps loss bounded at -25% = -0.025 SOL."
     }
   ],
   "trade_stats": {
-    "total": 2581,
+    "total": 2582,
     "wins": 1257,
-    "losses": 1324,
+    "losses": 1325,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.047135,
-    "avg_pnl_pct": 29.09,
+    "total_pnl_sol": 0.03791,
+    "avg_pnl_pct": 29.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 204,
-    "today_realized_sol": 2.73245,
-    "today_target_pct": 683.1,
+    "today_trades": 205,
+    "today_realized_sol": 2.723225,
+    "today_target_pct": 680.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1257,
-      "loss_count": 1324,
+      "loss_count": 1325,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T06:55:15.658440+00:00",
+  "last_llm_brief_at": "2026-09-10T06:56:51.358799+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "AdFi6Bg1zNRAkyAe6pSeLdAGsyQfJHAaALG3qNpjpump": {
+      "price_usd": 2.8493010263028144e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.2229199999999999e-06,
+      "volume_h24": 1443.3,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.2e-08
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

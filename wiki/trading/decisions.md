@@ -18367,3 +18367,9 @@
 ## [2026-09-10 06:55 UTC] buy | [LLM] $DOLAN at $3.495e-06, spent 0.05 SOL
 - **Reasoning:** $DOLAN — Dolan Duck is nostalgic internet culture bait, fresh twitter, absurd enough to meme. Small mcap ($2.8k) means 10x is plausible if it catches. 0.05 SOL position.
 
+## [2026-09-10 06:56 UTC] sell | [rapid-drop] $DOLAN crashed >15% in one tick | P&L: -18.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 06:56 UTC] buy | [LLM] $SIS at $4.805e-06, spent 0.05 SOL
+- **Reasoning:** $SIS — AI superintelligence narrative is the strongest current meta on CT, twitter signal from @Gen0xRay provides attention anchor, clean name (passes fragility gate), mcap $4.4k still has room. Risk: micro-cap, bond only 16% (still pre-graduation), thin liquidity — size 0.1 SOL keeps loss bounded at -25% = -0.025 SOL.
+
