@@ -17416,3 +17416,9 @@
 ## [2026-09-10 01:07 UTC] buy | [LLM] $CARDS at $6.606e-06, spent 0.05 SOL
 - **Reasoning:** $CARDS — Pokemon Cards narrative riding a Polymarket 'global currency' prediction story. Strong meme recognition (Pokémon is universal attention), $9.5k mcap with bonding curve only 31% — massive upside if the narrative catches. Twitter link suggests active shilling. Best narrative of the fresh launches.
 
+## [2026-09-10 01:08 UTC] sell | [rapid-drop] $CARDS crashed >15% in one tick | P&L: -27.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 01:08 UTC] buy | [LLM] $PISSCOIN at $8.08965e-06, spent 0.05 SOL
+- **Reasoning:** $PISSCOIN — crude humor meme with confirmed X post from @therhenjoyer, 0.3min old at $8k mcap with 29% bond. Crude-name tokens consistently capture attention on Pump.fun (PEPE lineage). $8k mcap leaves 10x+ upside, liquidity adequate for 0.05 SOL position.
+
