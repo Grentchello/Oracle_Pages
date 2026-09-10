@@ -20140,3 +20140,9 @@
 ## [2026-09-10 19:08 UTC] buy | [LLM] $CAUSA at $3.64e-06, spent 0.05 SOL
 - **Reasoning:** $CAUSA — launchpad narrative (pair memecoins with stocks) is novel and has an active X account (@Causadotfun). Sub-$3k mcap with a real platform story = early attention. Fits viability (twitter present) and not a fragility-blocklist keyword. Speculative but has structural attention angle.
 
+## [2026-09-10 19:09 UTC] sell | [rapid-drop] $CAUSA crashed >15% in one tick | P&L: -19.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:10 UTC] buy | [LLM] $GOR at $5.84265e-06, spent 0.05 SOL
+- **Reasoning:** $GOR (Gorbagana) — mcap $5.8k, age 0.4min. Backed by Anatoly Yakovenko (Solana co-founder) tweet. This is a Solana L2 / GOR chain narrative with a top-tier founder signal — exactly the kind of launch where early entry pays. Viability gate passes (twitter), fragility clean (chain narrative, not political/celebrity). Risk: founder tweets are often tongue-in-cheek; tight stop will enforce discipline.
+
