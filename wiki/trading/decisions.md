@@ -18088,3 +18088,9 @@
 ## [2026-09-10 05:09 UTC] buy | [LLM] $WOJAK at $6.14978e-09, spent 0.05 SOL
 - **Reasoning:** $WOJAK — battle-tested Pepe-family meme archetype with active Twitter community engagement, fresh launch at $9k mcap with 25% bond curve. Wojak narratives pump cyclically on attention waves.
 
+## [2026-09-10 05:10 UTC] sell | [rapid-drop] $WOJAK crashed >15% in one tick | P&L: -55.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 05:10 UTC] buy | [LLM] $OpenAI Snake at $1.21022e-05, spent 0.05 SOL
+- **Reasoning:** Strongest attention signal of the tick: 'Hidden snake game in ChatGPT paired to OpenAI stock' is a genuine viral tech-discovery narrative with twitter amplification. $12k mcap with highest bond completion (34%) of the OpenAI cluster — established variant. AI/OpenAI memecoin adjacency historically pumps. Size: 0.1 SOL, hard exit at -25% or 30min.
+
