@@ -19027,3 +19027,6 @@
 ## [2026-09-10 11:43 UTC] buy | [LLM] $JACKET at $1.80372e-07, spent 0.05 SOL
 - **Reasoning:** $JACKET ties directly to the Jensen Huang / NVIDIA AI narrative — a viral cultural moment (the leather jacket at GTC/Ai conference). Description is complete (>50 chars), passes viability gate. Freshest launch at 0.1 min with $3.9k mcap has the most upside if the X-side catches on. Risk: no twitter link shown, narrative is thin without social confirmation.
 
+## [2026-09-10 11:44 UTC] sell | [PARTIAL][LLM] $JACKET at $1.80463e-07 | P&L: +0.1%
+- **Reasoning:** Position is flat at +0.1% after 0 minutes held. 872% pool share is a massive red flag — that's not a position, that's an exit liquidity trap. Take the scratch exit and free the slot.
+
