@@ -19045,3 +19045,6 @@
 ## [2026-09-10 11:58 UTC] sell | [PARTIAL][LLM] $DERP at $5.50424e-06 | P&L: -0.0%
 - **Reasoning:** DERP pool share is 175% — extreme concentration, even small flow moves price against me. Position is flat on a fresh entry; rotating into a token with a stronger attention signal is better than holding illiquid dust.
 
+## [2026-09-10 12:00 UTC] sell | [FULL][LLM] $DERP at $5.5037e-06 | P&L: -0.1%
+- **Reasoning:** Held0.0h at -0.0% on a 25% share of a $3 pool — already stale and liquidity is too thin to support meaningful exit. Free the slot for fresh launches with real attention.
+
