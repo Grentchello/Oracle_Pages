@@ -20251,3 +20251,9 @@
 ## [2026-09-10 19:38 UTC] buy | [LLM] $bullton at $1.676e-05, spent 0.05 SOL
 - **Reasoning:** $bullton — 'bull baton' narrative with explicit Ansem dev allocation (10% supply) is a classic attention catalyst on Solana. $25k mcap at 1min old is in the sweet spot for early entry; both viability gates pass (desc + twitter). Risk: bond only 40%, so still pre-graduate — but that's where the alpha is.
 
+## [2026-09-10 19:39 UTC] sell | [v8.7 TP +50% (full)] $bullton at $2.63149e-05 | P&L: +57.0%
+- **Reasoning:** Auto take-profit at +57.0%
+
+## [2026-09-10 19:39 UTC] buy | [LLM] $marcat at $8.62288e-06, spent 0.05 SOL
+- **Reasoning:** $marcat is leading the batch on attention signals: bond curve already 30% complete vs 1-22% for peers, $8.5k mcap is the highest of the fresh launches, and a fresh tweet is attached. Viability gate passes (twitter present). No celebrity/political fragility flags. Sizing 0.05 SOL per the new discipline.
+
