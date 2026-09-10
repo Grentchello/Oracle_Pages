@@ -20641,3 +20641,9 @@
 ## [2026-09-10 22:24 UTC] buy | [LLM] $CHEESEBURGER at $1.249e-05, spent 0.05 SOL
 - **Reasoning:** $CHEESEBURGER 'STONKS' meme is classic viral territory - the Stonks meme has enduring internet recognition, highest mcap in fresh batch ($14.6k) with 36% bonding curve progress, X link provided suggests a posting account. 1.2min old = prime entry window before attention compounds.
 
+## [2026-09-10 22:25 UTC] sell | [FULL][LLM] $CHEESEBURGER at $1.63881e-05 | P&L: +31.2%
+- **Reasoning:** +31.2% gain already triggered TP at +25% per bot rules. Bonding-curve pool is thin at $4,262 and our share is 0% — exit into strength and lock the profit rather than hoping for more.
+
+## [2026-09-10 22:25 UTC] buy | [LLM] $NAUT at $3.451e-06, spent 0.05 SOL
+- **Reasoning:** $NAUT (Nautilus) has a clear creature-narrative + tied Twitter @Robinheartxyz (also behind $HEART listing). $3.4k mcap with 9% bonding curve progress = early attention window, low float, primed for a pump if narrative catches.
+
