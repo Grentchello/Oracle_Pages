@@ -17296,3 +17296,6 @@
 ## [2026-09-10 00:23 UTC] buy | [LLM] $FLIP at $1.28209e-07, spent 0.05 SOL
 - **Reasoning:** $FLIP — Apple flip phone narrative tied to real news-cycle attention (Apple's foldable device leaks), creator self-doxxed (@nadeemmako), and 'What does everyone think...' is classic engagement-bait that drives viral replies. Age 0.8min means I'm early to the attention pump, not after. Doxxed creator + concrete real-world narrative is the strongest combo in this batch.
 
+## [2026-09-10 00:25 UTC] sell | [PARTIAL][LLM] $FLIP at $1.28373e-07 | P&L: +0.1%
+- **Reasoning:** Essentially flat (+0.1%) but our1678% share of a $0 pool is a liquidity trap — any other seller will crush price before we can exit. Better to take the scratch now than risk becoming the exit liquidity for the next holder. Frees the slot for a real entry.
+
