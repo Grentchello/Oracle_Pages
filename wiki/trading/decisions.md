@@ -19135,3 +19135,6 @@
 ## [2026-09-10 12:40 UTC] sell | [PARTIAL][LLM] $Nemotron at $2.77987e-06 | P&L: -0.8%
 - **Reasoning:** Bonding curve with 5057% share and only -0.8% loss — selling half locks the position size down, frees 0.05 SOL for fresh attention plays, and keeps upside exposure if it bounces.
 
+## [2026-09-10 12:42 UTC] sell | [PARTIAL][LLM] $Nemotron at $2.8014e-06 | P&L: -0.1%
+- **Reasoning:** Just entered 0.0h ago at -0.1%, no signal to bail yet. Multiple Nemotron clones spawning ($2.7k mcap each via discord.gg/uxento) is a scam/clone-farm red flag, but my entry was on the original bonding curve. Will give it10-15 min to see if narrative develops or bail on first weakness.
+
