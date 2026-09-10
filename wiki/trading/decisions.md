@@ -19759,3 +19759,6 @@
 ## [2026-09-10 16:54 UTC] buy | [LLM] $KIRKVERSARY at $5.321e-06, spent 0.05 SOL
 - **Reasoning:** Kirkversary narrative tied to a live X post from @TobiasJochike (likely the Kirk vs. meme cycle) — low mcap ($5.3k), only 1.3min old, attention-driven. Fits the attention-market thesis; small size (0.05 SOL) keeps risk capped.
 
+## [2026-09-10 16:56 UTC] sell | [FULL][LLM] $KIRKVERSARY at $5.36913e-06 | P&L: +0.9%
+- **Reasoning:** $KIRKVERSARY is a Charlie Kirk political-memorial token — fragility gate principles (ME2F) flag political tokens as high whale-concentration / sentiment-amplification risk. Only +0.9% but freeing the slot for $SPSN rotation is worth exiting at near-flat.
+
