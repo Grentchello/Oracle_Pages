@@ -1,8 +1,32 @@
 {
-  "balance_sol": 5.078413,
+  "balance_sol": 5.028413,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "4PiZHm5EtMtiMxToWkzeqtrEziM4qVn1ASPxnt1spump": {
+      "symbol": "OILUP",
+      "name": "Oil Up",
+      "amount": 246853.65853658537,
+      "entry_price_usd": 2.05e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T10:16:15.703123+00:00",
+      "entry_usd_value": 5.0605,
+      "last_seen_price_usd": 2.05e-05,
+      "entry_signals": {
+        "liquidity_usd": 5454.13070921321,
+        "volume_24h_usd": 5722.72,
+        "market_cap_usd": 20619.260887071574,
+        "ath_market_cap_usd": 20855.665664999196,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 53.889247201,
+        "description": "",
+        "twitter": "https://x.com/jimcramer/status/2097991230529454504",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45293,17 +45317,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T10:14:46.486750+00:00",
+  "last_updated": "2026-09-10T10:16:15.703429+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.044,
-  "portfolio_value_usd": 513.14,
+  "last_sol_price_usd": 101.21,
+  "portfolio_value_usd": 513.99,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 09:53 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $PONSM at $1.01731e-05 | P&L: +45.1%",
-      "reason": "+45.1% on a thin bonding-curve pool ($2721) — locking half protects against reversal while letting the runner ride toward the +100% auto-TP. Stale-risk is low (0h held) but pool depth makes full-exit slippage painful."
-    },
     {
       "time": "2026-09-10 09:54 UTC",
       "action": "sell",
@@ -45417,6 +45435,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $RD at $2.84294e-06 | P&L: -4.0%",
       "reason": "$RD is only -4% after 0h held, well above the -25% hard cap. Bonding-curve at 25% pool share with $10 liquidity — thin but not yet a forced exit. Give it a few more minutes to develop before cutting."
+    },
+    {
+      "time": "2026-09-10 10:16 UTC",
+      "action": "buy",
+      "details": "[LLM] $OILUP at $2.05e-05, spent 0.05 SOL",
+      "reason": "$OILUP has Cramer attention (real X post), $20k mcap with asymmetric upside — Cramer-backed energy narrative could pump hard. Fresh mint, bond still forming, small position makes sense for attention play."
     }
   ],
   "trade_stats": {
@@ -45438,21 +45462,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:14:46.486505+00:00",
+  "last_llm_brief_at": "2026-09-10T10:16:14.274505+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "9NjjpztP9FsUcRNJySY8wgskZ5HXnBh3o54uon6rpump": {
-      "price_usd": 2.8429351012329778e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 9.559608542456,
-      "volume_h24": 142.09,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.094608374
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -18808,3 +18808,6 @@
 ## [2026-09-10 10:14 UTC] sell | [FULL][LLM] $RD at $2.84294e-06 | P&L: -4.0%
 - **Reasoning:** $RD is only -4% after 0h held, well above the -25% hard cap. Bonding-curve at 25% pool share with $10 liquidity — thin but not yet a forced exit. Give it a few more minutes to develop before cutting.
 
+## [2026-09-10 10:16 UTC] buy | [LLM] $OILUP at $2.05e-05, spent 0.05 SOL
+- **Reasoning:** $OILUP has Cramer attention (real X post), $20k mcap with asymmetric upside — Cramer-backed energy narrative could pump hard. Fresh mint, bond still forming, small position makes sense for attention play.
+
