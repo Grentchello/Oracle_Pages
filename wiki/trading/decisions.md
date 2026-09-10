@@ -19126,3 +19126,6 @@
 ## [2026-09-10 12:36 UTC] sell | [PARTIAL][LLM] $$MCAT at $7.15903e-08 | P&L: +0.8%
 - **Reasoning:** MCAT is +0.8% at 0h held, freshly entered. Our 152% share is concerning but it's been live for 0 minutes — give it a tick to develop. Stale exit threshold is 30min.
 
+## [2026-09-10 12:38 UTC] sell | [FULL][LLM] $$MCAT at $7.16403e-08 | P&L: +0.9%
+- **Reasoning:** $MCAT just entered 0.0h ago at +0.9% — far too early to exit on a bonding-curve cat meta coin with no downside signal. Give it room to develop the narrative; will reassess if it goes stale or hits -25% cap.
+
