@@ -20578,3 +20578,6 @@
 ## [2026-09-10 21:56 UTC] sell | [rapid-drop] $STIMMY crashed >15% in one tick | P&L: -34.5%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 21:57 UTC] buy | [LLM] $TIKTOK at $3.531e-06, spent 0.05 SOL
+- **Reasoning:** $TIKTOK (Tiktok Coin) - TikTok is a massive attention brand and meta-narrative (TikTok political ban drama has been a huge narrative). Fresh launch at $4.1k mcap with 15% bond curve. Bonding curve progress means organic buys are flowing. 0.05 SOL position sized for volatility.
+
