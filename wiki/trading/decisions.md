@@ -20581,3 +20581,9 @@
 ## [2026-09-10 21:57 UTC] buy | [LLM] $TIKTOK at $3.531e-06, spent 0.05 SOL
 - **Reasoning:** $TIKTOK (Tiktok Coin) - TikTok is a massive attention brand and meta-narrative (TikTok political ban drama has been a huge narrative). Fresh launch at $4.1k mcap with 15% bond curve. Bonding curve progress means organic buys are flowing. 0.05 SOL position sized for volatility.
 
+## [2026-09-10 21:59 UTC] sell | [FULL][LLM] $TIKTOK at $3.09946e-06 | P&L: -12.2%
+- **Reasoning:** Down -12.2% on a $164 pool where I hold 3% — thin liquidity means waiting for -25% hard stop risks a worse fill. No clear narrative catalyst; bag-holding has no edge here. Cut the loss cleanly to free the slot for fresh alpha.
+
+## [2026-09-10 21:59 UTC] buy | [LLM] $RISE at $6.381e-06, spent 0.05 SOL
+- **Reasoning:** $RISE has a clear attention mechanic: 60% supply airdropped to top-15 holders at bonding completion. This creates guaranteed buy-pressure from farmers racing for the leaderboard — textbook viral attention. Passes viability gate (desc ≥50 chars + twitter). Risk: brand-new (1 min), bonding only 26%.
+
