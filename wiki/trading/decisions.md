@@ -19159,3 +19159,6 @@
 ## [2026-09-10 12:51 UTC] sell | [PARTIAL][LLM] $VOID at $2.79214e-06 | P&L: +0.0%
 - **Reasoning:** We are 200% of the pool (⚠ HUGE) — we ARE the liquidity. Any other seller will crash the price against us. Flat at +0.0% on a bonding curve with massive concentration = exit immediately before someone else dumps on us.
 
+## [2026-09-10 12:53 UTC] sell | [FULL][LLM] $VOID at $2.79214e-06 | P&L: +0.0%
+- **Reasoning:** Just entered at 0.0% with 0.0h held. Pool is thin ($2, my share 25%) so exit slippage on a flat position would lock in a small loss for no reason. Bonding curve hasn't completed yet — give it a cycle to develop before rotating capital.
+

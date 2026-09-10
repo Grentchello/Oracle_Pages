@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.805932,
+  "balance_sol": 4.812154,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4cTHZNFAUsNHKe2BMsLSdTYrSNVT2DTwrjw584TMpump": {
-      "symbol": "VOID",
-      "name": "VOID",
-      "amount": 222182.2930652442,
-      "entry_price_usd": 2.792e-06,
-      "entry_sol_spent": 0.006237636623812587,
-      "entry_time": "2026-09-10T12:50:37.902212+00:00",
-      "entry_usd_value": 4.9725,
-      "last_seen_price_usd": 2.7921388331239773e-06,
-      "entry_signals": {
-        "liquidity_usd": 4.9545751319999995,
-        "volume_24h_usd": 6203.37,
-        "market_cap_usd": 2790.654467075203,
-        "ath_market_cap_usd": 11564.400276595841,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.04981976,
-        "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. Good luck.",
-        "twitter": "https://x.com/CryptoGainsDev",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -46403,19 +46379,30 @@
       "pnl_pct": 0.0,
       "exit_reason": "LLM: sell_all — We are 200% of the pool (⚠ HUGE) — we ARE the liquidity. Any other seller will crash the price against us. Flat at +0.0% on a bonding curve with massi",
       "partial": true
+    },
+    {
+      "mint": "4cTHZNFAUsNHKe2BMsLSdTYrSNVT2DTwrjw584TMpump",
+      "symbol": "VOID",
+      "name": "VOID",
+      "amount_sold": 222182.2930652442,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T12:50:37.902212+00:00",
+      "exit_time": "2026-09-10T12:53:55.237002+00:00",
+      "entry_price_usd": 2.792e-06,
+      "exit_price_usd": 2.7921388331239773e-06,
+      "entry_sol_for_chunk": 0.006238,
+      "exit_sol_received": 0.006222,
+      "pnl_sol": -1.5e-05,
+      "pnl_pct": 0.0,
+      "exit_reason": "LLM: sell_all — Just entered at 0.0% with 0.0h held. Pool is thin ($2, my share 25%) so exit slippage on a flat position would lock in a small loss for no reason. Bon",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T12:51:56.066289+00:00",
+  "last_updated": "2026-09-10T12:53:55.237231+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 99.7,
   "portfolio_value_usd": 479.77,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 12:27 UTC",
-      "action": "buy",
-      "details": "[LLM] $iDuo at $5.53771e-06, spent 0.05 SOL",
-      "reason": "iPhone Duo narrative with active Twitter attention from @meggarwicky; 22% bond progress is the highest among new launches indicating real demand; mcap $5.5k is in viable territory. Small position to test the narrative momentum."
-    },
     {
       "time": "2026-09-10 12:28 UTC",
       "action": "sell",
@@ -46529,28 +46516,34 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $VOID at $2.79214e-06 | P&L: +0.0%",
       "reason": "We are 200% of the pool (⚠ HUGE) — we ARE the liquidity. Any other seller will crash the price against us. Flat at +0.0% on a bonding curve with massive concentration = exit immediately before someone else dumps on us."
+    },
+    {
+      "time": "2026-09-10 12:53 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $VOID at $2.79214e-06 | P&L: +0.0%",
+      "reason": "Just entered at 0.0% with 0.0h held. Pool is thin ($2, my share 25%) so exit slippage on a flat position would lock in a small loss for no reason. Bonding curve hasn't completed yet — give it a cycle to develop before rotating capital."
     }
   ],
   "trade_stats": {
-    "total": 2728,
+    "total": 2729,
     "wins": 1318,
-    "losses": 1410,
+    "losses": 1411,
     "win_rate_pct": 48.3,
-    "total_pnl_sol": 0.545926,
-    "avg_pnl_pct": 28.03,
+    "total_pnl_sol": 0.545911,
+    "avg_pnl_pct": 28.02,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 351,
-    "today_realized_sol": 3.231241,
+    "today_trades": 352,
+    "today_realized_sol": 3.231226,
     "today_target_pct": 807.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1318,
-      "loss_count": 1410,
+      "loss_count": 1411,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T12:51:56.065071+00:00",
+  "last_llm_brief_at": "2026-09-10T12:53:55.236850+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "4cTHZNFAUsNHKe2BMsLSdTYrSNVT2DTwrjw584TMpump": {
@@ -46558,7 +46551,7 @@
       "change_h24": 0,
       "change_h1": 0,
       "liquidity_usd": 2.4814552340000002,
-      "volume_h24": 6215.15,
+      "volume_h24": 6217.64,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
