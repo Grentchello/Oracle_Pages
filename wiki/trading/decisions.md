@@ -20536,3 +20536,6 @@
 ## [2026-09-10 21:35 UTC] buy | [LLM] $$AMEMD at $3.644e-06, spent 0.05 SOL
 - **Reasoning:** $AMEMD has its own @amemdcorp twitter handle (project account, not a random status), a coherent absurdist tech-meme narrative ('MPU™ processes 69,420 memes/sec with zero useful output' is genuinely meme-fluent), and a real description. $3.6k mcap with bond still loading — early enough for 2-5x if the absurdist-engineer meme catches on. Tight mental stop; exit fast if it doesn't move in 15min.
 
+## [2026-09-10 21:37 UTC] sell | [FULL][LLM] $$AMEMD at $3.65063e-06 | P&L: +0.2%
+- **Reasoning:** Just entered, +0.2% flat, no bounce or dump signal yet. 1% of thin $423 pool means small size — no urgency to rotate. Give it a few more ticks to develop.
+
