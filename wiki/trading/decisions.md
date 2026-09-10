@@ -20899,3 +20899,6 @@
 ## [2026-09-10 23:56 UTC] sell | [FULL][LLM] $DEPE at $4.33722e-06 | P&L: +12.8%
 - **Reasoning:** $DEPE is up +12.8% on a fresh entry, not stale yet. Pool is thin ($746) so I want to give it a few more minutes to push toward the +25% auto-TP before taking profit. If it stalls flat, I'll exit on the next tick.
 
+## [2026-09-10 23:59 UTC] buy | [LLM] $RISE at $6.27653e-06, spent 0.05 SOL
+- **Reasoning:** $RISE has the classic '60% airdrop to top 15 holders' pump.fun hook that drives immediate chase-buying volume; twitter present, real description, sub-$7k mcap means I get in near curve bottom with the attention wave. Risk: bonding curve dump before graduation, but 0.1 SOL max loss is an acceptable lottery ticket for the attention velocity.
+
