@@ -20698,3 +20698,9 @@
 ## [2026-09-10 22:45 UTC] sell | [PARTIAL][LLM] $CYBERCAB at $1.21665e-07 | P&L: +0.1%
 - **Reasoning:** No narrative, no twitter, $7 pool with me holding 72% = exit liquidity nightmare. Position is essentially flat and I'm dominating the pool. Free the slot for a stronger launch with actual attention ($iPump has twitter + meta-narrative). Lock tiny loss now vs bigger loss trying to exit a thin pool.
 
+## [2026-09-10 22:46 UTC] sell | [FULL][LLM] $CYBERCAB at $1.20924e-07 | P&L: -0.5%
+- **Reasoning:** Just entered at -0.5%, bonding curve only 25% complete with tiny $7 pool, no narrative edge (generic 'CYBERCAB' name). Free up the slot for a fresher, higher-attention launch.
+
+## [2026-09-10 22:46 UTC] buy | [LLM] $Pumpban at $3.344e-06, spent 0.05 SOL
+- **Reasoning:** PUMPFUN BANNED ON APP STORE is a genuinely viral meta-narrative — Pump.fun's distribution channel just got kneecapped, this is the kind of event-driven attention that 5-10x's in hours. Real X catalyst implied, low mcap, fresh.
+
