@@ -19051,3 +19051,9 @@
 ## [2026-09-10 12:01 UTC] buy | [LLM] $BIGOIL at $1.53501e-09, spent 0.05 SOL
 - **Reasoning:** $BIGOIL — clear 'too much oil / not enough oil' meme narrative, sub-$5k mcap, fresh launch with 1% bond. Classic attention-market 'they're wrong, we're right' framing is a buy signal. 0.05 SOL position.
 
+## [2026-09-10 12:03 UTC] sell | [FULL][LLM] $BIGOIL at $1.5341e-09 | P&L: -0.1%
+- **Reasoning:** Flat at -0.1% after 0h, no momentum, bonding curve not progressing (pool=$0). Rotating capital into fresher narrative with stronger attention signal.
+
+## [2026-09-10 12:03 UTC] buy | [LLM] $BUDDY at $8.33995e-10, spent 0.05 SOL
+- **Reasoning:** BUDDY has the strongest narrative of the batch — 'first dog on chain, carved into Bitcoin block 299,825' is a unique, verifiable viral hook. Highest bond completion (18%) and mcap ($6.4k) of fresh launches suggests accumulating attention.
+
