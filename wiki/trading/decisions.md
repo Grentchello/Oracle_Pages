@@ -18142,3 +18142,9 @@
 ## [2026-09-10 05:22 UTC] buy | [LLM] $CRAZYFROG at $5.78606e-06, spent 0.05 SOL
 - **Reasoning:** Crazy Frog is a globally-recognized meme IP (ring ring ring). Has Twitter presence. Brand-name memecoins with existing cultural recognition are the highest-attention plays in this batch. Risk: mcap only $5.8k, very early — but that's where 10x lives.
 
+## [2026-09-10 05:23 UTC] sell | [v8.7 TP +50% (full)] $CRAZYFROG at $9.51866e-06 | P&L: +64.5%
+- **Reasoning:** Auto take-profit at +64.5%
+
+## [2026-09-10 05:24 UTC] buy | [LLM] $CUCK at $6.875e-06, spent 0.05 SOL
+- **Reasoning:** $CUCK (Vlad The Cuck) — strongest attention signal in batch: real named X account with viral post, $10k mcap (sweet spot for 5-10x), meme narrative with edgy political undercurrent that drives engagement, ultra-fresh at 0.8min. Risk: edgy name may attract bots; tight stop honored.
+
