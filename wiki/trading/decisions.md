@@ -18982,3 +18982,6 @@
 ## [2026-09-10 11:28 UTC] sell | [FULL][LLM] $BetOnBlak at $5.9658e-06 | P&L: -3.2%
 - **Reasoning:** The position is only down 3.2% and has just been opened, so there is not yet a clear reason to realize a loss. Its reported pool and share data are highly abnormal, so it should be monitored closely for a bounce or further weakness.
 
+## [2026-09-10 11:30 UTC] buy | [LLM] $BOTRIOT at $2.84451e-06, spent 0.05 SOL
+- **Reasoning:** AI-vs-robots protest narrative is highly memeable for current X cycle, established twitter (_Sokkas), sub-1min age = attention-first entry, $2.8k mcap leaves room for early pump. Clean viability and fragility gates.
+
