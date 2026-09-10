@@ -19363,3 +19363,6 @@
 ## [2026-09-10 14:11 UTC] buy | [LLM] $MONARK at $1.383e-05, spent 0.05 SOL
 - **Reasoning:** $MONARK — agentic AI meta narrative (company of agents), backed by clawpump.tech with active twitter, $10.5k mcap is early enough for 3-10x if narrative catches. Best attention play on the slate; other candidates fail viability (no twitter/short desc) or fragility gates ($FSDC tied to Musk).
 
+## [2026-09-10 14:12 UTC] sell | [FULL][LLM] $MONARK at $1.22519e-05 | P&L: -11.4%
+- **Reasoning:** $MONARK is at -11.4% just opened; not yet at -25% hard stop or 30min stale. Give it one tick to see if it bounces from the small-cap narrative or dumps further.
+
