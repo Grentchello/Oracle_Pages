@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.342277,
+  "balance_sol": 4.395096,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3KcT66woTCoofrkRhv3118LroU1ER4LSahCHCZG5pump": {
-      "symbol": "STRAIGHT",
-      "name": "Buy this if you're straight",
-      "amount": 407541.37080650264,
-      "entry_price_usd": 1.2235567618894697e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T15:22:03.029184+00:00",
-      "entry_usd_value": 4.9865,
-      "last_seen_price_usd": 1.2235567618894697e-05,
-      "entry_signals": {
-        "liquidity_usd": 2506.17716097124,
-        "volume_24h_usd": null,
-        "market_cap_usd": 12242.282535173217,
-        "ath_market_cap_usd": 13652.10876943317,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 25.129621588,
-        "description": "",
-        "twitter": "https://x.com/Infinitidigits/status/2098069178506702963?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -47542,19 +47518,30 @@
       "pnl_pct": -92.94,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "3KcT66woTCoofrkRhv3118LroU1ER4LSahCHCZG5pump",
+      "symbol": "STRAIGHT",
+      "name": "Buy this if you're straight",
+      "amount_sold": 407541.37080650264,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T15:22:03.029184+00:00",
+      "exit_time": "2026-09-10T15:23:20.428195+00:00",
+      "entry_price_usd": 1.2235567618894697e-05,
+      "exit_price_usd": 1.297982519462508e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.052819,
+      "pnl_sol": 0.002819,
+      "pnl_pct": 6.08,
+      "exit_reason": "LLM: sell_all — Just entered at +6.1%, bonding curve, no signal to rotate yet. Need more time to develop. New launches are too fresh/low-mcap to justify swapping out.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T15:22:03.029485+00:00",
+  "last_updated": "2026-09-10T15:23:20.428471+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.73,
-  "portfolio_value_usd": 438.04,
+  "last_sol_price_usd": 100.15,
+  "portfolio_value_usd": 440.17,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 14:59 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $CHIP crashed >15% in one tick | P&L: -18.7%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 14:59 UTC",
       "action": "buy",
@@ -47668,40 +47655,46 @@
       "action": "buy",
       "details": "[LLM] $STRAIGHT at $1.22356e-05, spent 0.05 SOL",
       "reason": "$STRAIGHT has a real X post from Infinitidigits backing it, viral 'buy if you're straight' attention-bait framing, $12k mcap, passes viability (twitter) and fragility gates. Position size 0.05 SOL — high rug risk at 0.3min age and34% bond, but the attention signal is concrete. -25% hard stop limits downside to ~0.0125 SOL."
+    },
+    {
+      "time": "2026-09-10 15:23 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $STRAIGHT at $1.29798e-05 | P&L: +6.1%",
+      "reason": "Just entered at +6.1%, bonding curve, no signal to rotate yet. Need more time to develop. New launches are too fresh/low-mcap to justify swapping out."
     }
   ],
   "trade_stats": {
-    "total": 2795,
-    "wins": 1333,
+    "total": 2796,
+    "wins": 1334,
     "losses": 1462,
     "win_rate_pct": 47.7,
-    "total_pnl_sol": 0.126035,
+    "total_pnl_sol": 0.128854,
     "avg_pnl_pct": 27.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 418,
-    "today_realized_sol": 2.81135,
-    "today_target_pct": 702.8,
+    "today_trades": 419,
+    "today_realized_sol": 2.814169,
+    "today_target_pct": 703.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1333,
+      "win_count": 1334,
       "loss_count": 1462,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T15:22:01.571303+00:00",
+  "last_llm_brief_at": "2026-09-10T15:23:20.427680+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "HhPy4SAgNY7bNcHcA2rRxkvdUMxsq7M4TopHHAUWpump": {
-      "price_usd": 7.987764099095666e-07,
+    "3KcT66woTCoofrkRhv3118LroU1ER4LSahCHCZG5pump": {
+      "price_usd": 1.297982519462508e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 9.973000000000001e-08,
-      "volume_h24": 232.98,
+      "liquidity_usd": 3464.2503144828506,
+      "volume_h24": 31845.19,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1e-09
+      "real_sol_reserves": 34.590617219
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

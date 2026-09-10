@@ -19546,3 +19546,6 @@
 ## [2026-09-10 15:22 UTC] buy | [LLM] $STRAIGHT at $1.22356e-05, spent 0.05 SOL
 - **Reasoning:** $STRAIGHT has a real X post from Infinitidigits backing it, viral 'buy if you're straight' attention-bait framing, $12k mcap, passes viability (twitter) and fragility gates. Position size 0.05 SOL — high rug risk at 0.3min age and34% bond, but the attention signal is concrete. -25% hard stop limits downside to ~0.0125 SOL.
 
+## [2026-09-10 15:23 UTC] sell | [FULL][LLM] $STRAIGHT at $1.29798e-05 | P&L: +6.1%
+- **Reasoning:** Just entered at +6.1%, bonding curve, no signal to rotate yet. Need more time to develop. New launches are too fresh/low-mcap to justify swapping out.
+
