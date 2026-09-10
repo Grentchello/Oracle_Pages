@@ -20176,3 +20176,9 @@
 ## [2026-09-10 19:18 UTC] buy | [LLM] $LICHEN at $3.64278e-06, spent 0.05 SOL
 - **Reasoning:** $LICHEN has the strongest narrative of the batch: synthetic compute markets with a concrete mainnet launch date (Sep 16) driving forward attention, active twitter @LichenMarkets, full description, and a real devnet already live. Date-driven catalyst + utility story = sustained attention, not just a meme pump.
 
+## [2026-09-10 19:19 UTC] sell | [FULL][LLM] $LICHEN at $3.53293e-06 | P&L: -3.0%
+- **Reasoning:** Only -3% on a fresh position, no panic. Give it time to develop — bot's -25% hard stop will catch any real dump. Exiting now just locks in noise.
+
+## [2026-09-10 19:19 UTC] buy | [LLM] $TUCKERBUDZYN at $3.645e-06, spent 0.05 SOL
+- **Reasoning:** $TUCKERBUDZYN — Tucker Carlson dog meme has clear viral narrative, has Twitter source attached, fresh launch under $3k mcap. Dog coins with celebrity/character association historically pump on attention spikes.
+
