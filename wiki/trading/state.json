@@ -1,32 +1,8 @@
 {
-  "balance_sol": 6.033621,
+  "balance_sol": 6.065853,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4Pj8RXADmqoT5FuZSVhjHW6fCtNxqgEvwgwn3Ygvpump": {
-      "symbol": "0DTE",
-      "name": "zerodteRH",
-      "amount": 1152828.8868445263,
-      "entry_price_usd": 4.348e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T20:24:33.360287+00:00",
-      "entry_usd_value": 5.0125,
-      "last_seen_price_usd": 4.348e-06,
-      "entry_signals": {
-        "liquidity_usd": 25.2343074475,
-        "volume_24h_usd": 761.07,
-        "market_cap_usd": 4373.6231962320535,
-        "ath_market_cap_usd": 4373.6231962320535,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.25171379,
-        "description": "Same-day SPY options on Solana. Sell-only book, priced off Chainlink. Settlement in ETH.",
-        "twitter": "https://x.com/zerodterh",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50041,19 +50017,30 @@
       "pnl_pct": -7.05,
       "exit_reason": "LLM: sell_all — Just opened 0h ago, -7% is normal bonding-curve dip with pool=$1538 still active. No clear exit signal yet — give it a few minutes to see if it bounce",
       "partial": false
+    },
+    {
+      "mint": "4Pj8RXADmqoT5FuZSVhjHW6fCtNxqgEvwgwn3Ygvpump",
+      "symbol": "0DTE",
+      "name": "zerodteRH",
+      "amount_sold": 1152828.8868445263,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T20:24:33.360287+00:00",
+      "exit_time": "2026-09-10T20:25:37.459734+00:00",
+      "entry_price_usd": 4.348e-06,
+      "exit_price_usd": 2.8062441759580245e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.032232,
+      "pnl_sol": -0.017768,
+      "pnl_pct": -35.46,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T20:24:33.360526+00:00",
+  "last_updated": "2026-09-10T20:25:57.042795+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.25,
-  "portfolio_value_usd": 609.88,
+  "last_sol_price_usd": 100.37,
+  "portfolio_value_usd": 608.83,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:59 UTC",
-      "action": "buy",
-      "details": "[LLM] $GS at $4.31176e-06, spent 0.05 SOL",
-      "reason": "$GS 'Goldman Sacks' — Wall Street parody narrative, fresh twitter handle, $4.3k mcap, 16% bonded. The 'Wall Street vs trenches' angle is a proven viral frame. Risk: parody coins often rug; small size (5% of 4.55 SOL) is the hedge."
-    },
     {
       "time": "2026-09-10 20:00 UTC",
       "action": "sell",
@@ -50167,30 +50154,48 @@
       "action": "buy",
       "details": "[LLM] $0DTE at $4.348e-06, spent 0.05 SOL",
       "reason": "$0DTE has the strongest narrative of the batch — novel concept bridging TradFi (SPY same-day options) and Solana DeFi via Chainlink oracles. Real twitter handle, substantive description. $4.4k mcap is pure attention-stage; if the concept catches fire among crypto-finance twitter, easy 5-10x. Risk: ultra-low liquidity may cause slippage or rug, and concept-coins often dump once the joke is understood. Size 0.05 SOL per the v7 halving."
+    },
+    {
+      "time": "2026-09-10 20:25 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $0DTE crashed >15% in one tick | P&L: -35.5%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2942,
+    "total": 2943,
     "wins": 1382,
-    "losses": 1560,
+    "losses": 1561,
     "win_rate_pct": 47.0,
-    "total_pnl_sol": 1.817433,
-    "avg_pnl_pct": 26.96,
+    "total_pnl_sol": 1.799665,
+    "avg_pnl_pct": 26.94,
     "best_pnl_pct": 2934.77,
     "worst_pnl_pct": -99.94,
-    "today_trades": 565,
-    "today_realized_sol": 4.502748,
-    "today_target_pct": 1125.7,
+    "today_trades": 566,
+    "today_realized_sol": 4.48498,
+    "today_target_pct": 1121.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1382,
-      "loss_count": 1560,
+      "loss_count": 1561,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T20:24:31.947785+00:00",
+  "last_llm_brief_at": "2026-09-10T20:25:56.793719+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "4Pj8RXADmqoT5FuZSVhjHW6fCtNxqgEvwgwn3Ygvpump": {
+      "price_usd": 2.8062441759580245e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 8.0296e-07,
+      "volume_h24": 1519.88,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 8e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
