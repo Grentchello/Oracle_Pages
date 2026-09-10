@@ -20728,3 +20728,9 @@
 ## [2026-09-10 22:53 UTC] buy | [LLM] $PUMPFUN at $1.027e-05, spent 0.05 SOL
 - **Reasoning:** $PUMPFUN 'JUSTICE FOR PUMPFUN' is the clearest meta-narrative of the tick — Pump.fun itself is the meme, and 0.7min age with $22.9k mcap means we're at the ground floor. Risk: ticker collision with the actual Pump.fun brand invites a coordinated dump, but the viral X link from grok12_john supplies real attention flow. Small size, scalp quick.
 
+## [2026-09-10 22:54 UTC] sell | [v8.7 TP +50% (full)] $PUMPFUN at $3.399e-05 | P&L: +231.0%
+- **Reasoning:** Auto take-profit at +231.0%
+
+## [2026-09-10 22:54 UTC] buy | [LLM] $FuckA at $0.000101594, spent 0.05 SOL
+- **Reasoning:** $FuckA 'Fuck Apple' — anti-corporate rage bait on the most universally-recognized tech brand is a known viral attention driver; passes viability (twitter present) and fragility (no blocklisted keywords). Risk: 0.2min age + 4% bond = ultra-early, dev could dump at graduation. Sizing at 0.05 SOL per v7 hardened rule.
+
