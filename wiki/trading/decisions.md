@@ -17386,3 +17386,6 @@
 ## [2026-09-10 00:54 UTC] sell | [PARTIAL][LLM] $Method at $2.84067e-06 | P&L: -7.4%
 - **Reasoning:** $Method is -7.4% but more importantly it's FLAT/STALE on bonding curve with 0.0h held — no momentum, no narrative momentum signal, and our 61% share of an $8 pool means we're illiquid. Cut and free the slot for fresh launches with actual attention.
 
+## [2026-09-10 00:56 UTC] sell | [FULL][LLM] $Method at $2.83985e-06 | P&L: -7.4%
+- **Reasoning:** Just entered (-7.4% in 0.0h on bonding curve is noise, not signal). No clear exit trigger yet — give it time to develop or hit the auto -25% hard stop.
+

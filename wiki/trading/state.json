@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.423754,
+  "balance_sol": 1.442734,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GN5cfmgcjZBwsvDcwtbM6Q1DiMEG9JcfAeGb59Fzpump": {
-      "symbol": "Method",
-      "name": "The Scientific Method",
-      "amount": 675412.6927415037,
-      "entry_price_usd": 3.067e-06,
-      "entry_sol_spent": 0.02048952253845887,
-      "entry_time": "2026-09-10T00:53:26.828149+00:00",
-      "entry_usd_value": 5.055,
-      "last_seen_price_usd": 2.8406695362498207e-06,
-      "entry_signals": {
-        "liquidity_usd": 104.69195753489998,
-        "volume_24h_usd": 3877.64,
-        "market_cap_usd": 3026.0377899412692,
-        "ath_market_cap_usd": 5734.355818218225,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.035528759,
-        "description": "",
-        "twitter": "https://x.com/lorig110/status/2097850385507418509",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40878,19 +40854,30 @@
       "pnl_pct": -7.38,
       "exit_reason": "LLM: sell_all — $Method is -7.4% but more importantly it's FLAT/STALE on bonding curve with 0.0h held — no momentum, no narrative momentum signal, and our 61% share o",
       "partial": true
+    },
+    {
+      "mint": "GN5cfmgcjZBwsvDcwtbM6Q1DiMEG9JcfAeGb59Fzpump",
+      "symbol": "Method",
+      "name": "The Scientific Method",
+      "amount_sold": 675412.6927415037,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T00:53:26.828149+00:00",
+      "exit_time": "2026-09-10T00:56:30.415311+00:00",
+      "entry_price_usd": 3.067e-06,
+      "exit_price_usd": 2.8398546165597336e-06,
+      "entry_sol_for_chunk": 0.02049,
+      "exit_sol_received": 0.01898,
+      "pnl_sol": -0.00151,
+      "pnl_pct": -7.41,
+      "exit_reason": "LLM: sell_all — Just entered (-7.4% in 0.0h on bonding curve is noise, not signal). No clear exit trigger yet — give it time to develop or hit the auto -25% hard stop",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T00:54:44.955588+00:00",
+  "last_updated": "2026-09-10T00:56:30.415529+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.089,
-  "portfolio_value_usd": 146.0,
+  "last_sol_price_usd": 101.06,
+  "portfolio_value_usd": 145.8,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 00:37 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $NORMIE at $2.85285e-06 | P&L: -6.2%",
-      "reason": "Owning 47% of a $10 pool at -6.1% means I AM the exit liquidity — any other seller will crash through me. Cut now, redeploy into fresher attention."
-    },
     {
       "time": "2026-09-10 00:38 UTC",
       "action": "sell",
@@ -41004,36 +40991,42 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Method at $2.84067e-06 | P&L: -7.4%",
       "reason": "$Method is -7.4% but more importantly it's FLAT/STALE on bonding curve with 0.0h held — no momentum, no narrative momentum signal, and our 61% share of an $8 pool means we're illiquid. Cut and free the slot for fresh launches with actual attention."
+    },
+    {
+      "time": "2026-09-10 00:56 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Method at $2.83985e-06 | P&L: -7.4%",
+      "reason": "Just entered (-7.4% in 0.0h on bonding curve is noise, not signal). No clear exit trigger yet — give it time to develop or hit the auto -25% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 2403,
+    "total": 2404,
     "wins": 1199,
-    "losses": 1204,
+    "losses": 1205,
     "win_rate_pct": 49.9,
-    "total_pnl_sol": -2.822067,
-    "avg_pnl_pct": 28.78,
+    "total_pnl_sol": -2.823577,
+    "avg_pnl_pct": 28.76,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 26,
-    "today_realized_sol": -0.136752,
-    "today_target_pct": -34.2,
+    "today_trades": 27,
+    "today_realized_sol": -0.138262,
+    "today_target_pct": -34.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1199,
-      "loss_count": 1204,
+      "loss_count": 1205,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T00:54:44.955152+00:00",
+  "last_llm_brief_at": "2026-09-10T00:56:30.415231+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GN5cfmgcjZBwsvDcwtbM6Q1DiMEG9JcfAeGb59Fzpump": {
-      "price_usd": 2.8406695362498207e-06,
+      "price_usd": 2.8398546165597336e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 7.674497042669,
-      "volume_h24": 3899.11,
+      "liquidity_usd": 7.67229541426,
+      "volume_h24": 3996.08,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
