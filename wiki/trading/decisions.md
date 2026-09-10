@@ -17935,3 +17935,9 @@
 ## [2026-09-10 04:21 UTC] buy | [LLM] $PONKS at $0.000251339, spent 0.05 SOL
 - **Reasoning:** $PONKS — highest mcap ($10k, 28% bond nearly full) of the fresh batch with twitter from otc_labs attached. Strongest attention signal in the slate, narrative coin on a meme-friendly ticker. Risk: bond still incomplete so liquidity is thin — bot's ME2F/GMGN gates should catch fragility before fill.
 
+## [2026-09-10 04:22 UTC] sell | [FULL][LLM] $PONKS at $0.00037165 | P&L: +47.9%
+- **Reasoning:** Up +47.9% on bonding curve (graduation risk imminent), no viral catalyst visible beyond name. Locking gain — bonding curve transitions cause wild slippage and I'd rather have +0.024 SOL than risk giving it back.
+
+## [2026-09-10 04:22 UTC] buy | [LLM] $GTACAT at $2.85414e-06, spent 0.05 SOL
+- **Reasoning:** $GTACAT rides the GTA 6 cat rumor — a real ongoing cultural narrative with twitter backing (DanielASMR769). Lowest-fragility pick of the fresh launches: no political keywords, has social proof, narrative has multi-day legs. Tiny size (0.05 SOL) so I can exit fast if it doesn't pop.
+
