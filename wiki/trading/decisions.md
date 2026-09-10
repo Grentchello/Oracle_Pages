@@ -20428,3 +20428,9 @@
 ## [2026-09-10 20:39 UTC] buy | [LLM] $SHH at $5.88144e-08, spent 0.05 SOL
 - **Reasoning:** $SHH 'Private AI inference on Solana' - AI narrative is hot, has twitter @Magicianafk, fresh 0.7min launch at $6.6k mcap. Bond 19% shows early organic interest. Viability gate passes (desc + twitter).
 
+## [2026-09-10 20:40 UTC] sell | [rapid-drop] $SHH crashed >15% in one tick | P&L: -42.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 20:40 UTC] buy | [LLM] $CHPT8 at $2.78628e-06, spent 0.05 SOL
+- **Reasoning:** $CHPT8 'Fortnite Chapter 8' — HYPEX twitter call (real verified crypto/Twitter account), concrete dated catalyst (Dec 5 release), viral gaming meme narrative. mcap $2.8k is entry-level, bond 0% means fresh launch. Best attention signal in the slate.
+
