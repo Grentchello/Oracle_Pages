@@ -20704,3 +20704,9 @@
 ## [2026-09-10 22:46 UTC] buy | [LLM] $Pumpban at $3.344e-06, spent 0.05 SOL
 - **Reasoning:** PUMPFUN BANNED ON APP STORE is a genuinely viral meta-narrative — Pump.fun's distribution channel just got kneecapped, this is the kind of event-driven attention that 5-10x's in hours. Real X catalyst implied, low mcap, fresh.
 
+## [2026-09-10 22:47 UTC] sell | [FULL][LLM] $Pumpban at $3.37634e-06 | P&L: +1.0%
+- **Reasoning:** Position is +1.0% after just 0.0h held on bonding curve with $302 pool. Bonding-curve entries often need a few minutes to develop; no clear signal to exit. Default is to give the new position a moment before rotating.
+
+## [2026-09-10 22:47 UTC] buy | [LLM] $Corf at $2.922e-06, spent 0.05 SOL
+- **Reasoning:** $Corf has a dedicated X account (@thecorfpump) posting about it within minutes of launch — that's the attention signal memecoin scalps need. Mcap $7.5k, bonding 28%, fresh narrative. Skip reasoning: but I already have 1/1 positions open, so this can't execute.
+
