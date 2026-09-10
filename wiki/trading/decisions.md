@@ -18442,3 +18442,6 @@
 ## [2026-09-10 07:26 UTC] buy | [LLM] $RISE at $7.395e-06, spent 0.05 SOL
 - **Reasoning:** $RISE — 60% supply airdropped to top 15 holders creates aggressive buy pressure + holder concentration incentive. Live twitter handle, clear narrative (memecoin done right), $7.3k mcap with 27% bonded. Strong attention setup.
 
+## [2026-09-10 07:27 UTC] sell | [FULL][LLM] $RISE at $7.85007e-06 | P&L: +6.2%
+- **Reasoning:** Fresh 0.0h hold at +6.2% with thin $2k pool. No clear exit signal yet — too early to tell. Will re-evaluate at +15% or 15min mark; prepared to cut if it goes stale flat.
+
