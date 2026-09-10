@@ -18523,3 +18523,6 @@
 ## [2026-09-10 07:52 UTC] buy | [LLM] $GD at $3.0318e-06, spent 0.05 SOL
 - **Reasoning:** $GD (Green Degen) has the cleanest viability profile of the slate: real community-focus desc >50 chars, dedicated twitter (@GDthememe), and sub-1min age for early attention capture. Narrative is honest degen-framing rather than empty hype. Risk: bond only 3%, mc $3k — extremely thin liquidity, could rug fast. Tight mental stop.
 
+## [2026-09-10 07:54 UTC] sell | [FULL][LLM] $GD at $2.99351e-06 | P&L: -1.3%
+- **Reasoning:** $GD is -1.3% on a $85 bonding-curve pool with 6% of pool. Fragile, illiquid, no bounce signal. Free the slot for a fresh launch with stronger narrative.
+
