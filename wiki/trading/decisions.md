@@ -20878,3 +20878,6 @@
 ## [2026-09-10 23:48 UTC] buy | [LLM] $APPLESS at $1.6742e-07, spent 0.05 SOL
 - **Reasoning:** $APPLESS narrative is tied to real breaking news — pump.fun reportedly delisted from Apple App Store. Meta-coin about the platform itself, inherently viral for Solana memecoin ecosystem. $5.5k mcap with thin liquidity (12% bond) is risky but the story is genuine attention. 0.05 SOL position keeps downside bounded.
 
+## [2026-09-10 23:50 UTC] sell | [PARTIAL][LLM] $APPLESS at $1.4267e-07 | P&L: -14.8%
+- **Reasoning:** Our 45% pool share means we are the market — any other seller will crush price, and -14.8% is 10% from the -25% hard cap. Cutting now while there's still a bid is the rational exit; hope is not a strategy on a thin bonding curve where we own nearly half the float.
+
