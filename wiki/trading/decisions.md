@@ -19909,3 +19909,6 @@
 ## [2026-09-10 17:56 UTC] buy | [LLM] $JOB⁠ at $5.187e-06, spent 0.05 SOL
 - **Reasoning:** $JOB from The Economist account gives institutional-tier attention signal at $4.8K mcap — extremely low entry with high-quality narrative source, classic asymmetric attention play.
 
+## [2026-09-10 17:57 UTC] sell | [FULL][LLM] $JOB⁠ at $4.84668e-06 | P&L: -6.6%
+- **Reasoning:** Position is only -6.6% and 0.0h old — well within the -20% discretion zone. Bonding-curve token with pool=$0 means share percentage is unreliable math, not a real concern yet. Give it one tick to establish direction before cutting.
+

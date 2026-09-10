@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.166507,
+  "balance_sol": 4.213245,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AYy1y9QMGoBGSm6puSPrmqmWJVS6WXsZJkvKkmLPpump": {
-      "symbol": "JOB⁠",
-      "name": "Impossible Job",
-      "amount": 969635.6275303646,
-      "entry_price_usd": 5.187e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T17:56:13.743244+00:00",
-      "entry_usd_value": 5.0295000000000005,
-      "last_seen_price_usd": 5.187e-06,
-      "entry_signals": {
-        "liquidity_usd": 0.09835458843,
-        "volume_24h_usd": 223.04,
-        "market_cap_usd": 4825.950536457706,
-        "ath_market_cap_usd": 5190.409797086967,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.000977777,
-        "description": "",
-        "twitter": "https://twitter.com/TheEconomist/status/2098108012216856661",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -48647,19 +48623,30 @@
       "pnl_pct": -0.4,
       "exit_reason": "LLM: sell_all — $Vel is flat (-0.4%) with bonding curve pool of only $1 and our share is 25% of LP — this is a micro-cap illiquid position with no momentum. Better to",
       "partial": false
+    },
+    {
+      "mint": "AYy1y9QMGoBGSm6puSPrmqmWJVS6WXsZJkvKkmLPpump",
+      "symbol": "JOB⁠",
+      "name": "Impossible Job",
+      "amount_sold": 969635.6119707355,
+      "fraction_sold": 0.9999999839531174,
+      "entry_time": "2026-09-10T17:56:13.743244+00:00",
+      "exit_time": "2026-09-10T17:57:48.679144+00:00",
+      "entry_price_usd": 5.187e-06,
+      "exit_price_usd": 4.846677251898307e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.046738,
+      "pnl_sol": -0.003262,
+      "pnl_pct": -6.56,
+      "exit_reason": "LLM: sell_all — Position is only -6.6% and 0.0h old — well within the -20% discretion zone. Bonding-curve token with pool=$0 means share percentage is unreliable math",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T17:56:13.743454+00:00",
+  "last_updated": "2026-09-10T17:57:48.679314+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.59,
-  "portfolio_value_usd": 424.14,
+  "last_sol_price_usd": 100.55,
+  "portfolio_value_usd": 423.64,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 17:29 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $TripleS crashed >15% in one tick | P&L: -58.2%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 17:31 UTC",
       "action": "buy",
@@ -48773,40 +48760,46 @@
       "action": "buy",
       "details": "[LLM] $JOB⁠ at $5.187e-06, spent 0.05 SOL",
       "reason": "$JOB from The Economist account gives institutional-tier attention signal at $4.8K mcap — extremely low entry with high-quality narrative source, classic asymmetric attention play."
+    },
+    {
+      "time": "2026-09-10 17:57 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $JOB⁠ at $4.84668e-06 | P&L: -6.6%",
+      "reason": "Position is only -6.6% and 0.0h old — well within the -20% discretion zone. Bonding-curve token with pool=$0 means share percentage is unreliable math, not a real concern yet. Give it one tick to establish direction before cutting."
     }
   ],
   "trade_stats": {
-    "total": 2860,
+    "total": 2861,
     "wins": 1361,
-    "losses": 1499,
+    "losses": 1500,
     "win_rate_pct": 47.6,
-    "total_pnl_sol": -0.049686,
-    "avg_pnl_pct": 26.43,
+    "total_pnl_sol": -0.052948,
+    "avg_pnl_pct": 26.42,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 483,
-    "today_realized_sol": 2.635629,
-    "today_target_pct": 658.9,
+    "today_trades": 484,
+    "today_realized_sol": 2.632367,
+    "today_target_pct": 658.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1361,
-      "loss_count": 1499,
+      "loss_count": 1500,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T17:56:11.102600+00:00",
+  "last_llm_brief_at": "2026-09-10T17:57:48.678992+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "29ANvmBW5Zv3RLVXPudF6iN5j4oXGSqtCcKJC9B4pump": {
-      "price_usd": 2.8142703965528843e-06,
+    "AYy1y9QMGoBGSm6puSPrmqmWJVS6WXsZJkvKkmLPpump": {
+      "price_usd": 4.846677251898307e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.00590020118,
-      "volume_h24": 20.83,
+      "liquidity_usd": 3.0165e-07,
+      "volume_h24": 410.41,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.010000002
+      "real_sol_reserves": 3e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
