@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.260209,
+  "balance_sol": 4.342784,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GYokEyTwCe1hY84ASmjcHgYQ33nMaKUULtYUQraGzNj5": {
-      "symbol": "Stocktard",
-      "name": "Stocktard",
-      "amount": 978303.747534517,
-      "entry_price_usd": 5.07e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T16:11:06.053856+00:00",
-      "entry_usd_value": 4.960000000000001,
-      "last_seen_price_usd": 5.07e-06,
-      "entry_signals": {
-        "liquidity_usd": 1886.3077215552,
-        "volume_24h_usd": 8330.45,
-        "market_cap_usd": 8564.073781796758,
-        "ath_market_cap_usd": 8940.451967217614,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 19.015198806,
-        "description": "",
-        "twitter": "https://x.com/pikalosi/status/2098080410810946015?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -47916,19 +47892,30 @@
       "pnl_pct": -10.18,
       "exit_reason": "LLM: sell_all — Down only -10.2% after 0.0h held, well inside -25% hard cap and 30-min auto-exit window. No bounce signal yet but too early to panic; let the bot's au",
       "partial": false
+    },
+    {
+      "mint": "GYokEyTwCe1hY84ASmjcHgYQ33nMaKUULtYUQraGzNj5",
+      "symbol": "Stocktard",
+      "name": "Stocktard",
+      "amount_sold": 978303.747534517,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T16:11:06.053856+00:00",
+      "exit_time": "2026-09-10T16:12:10.463543+00:00",
+      "entry_price_usd": 5.07e-06,
+      "exit_price_usd": 8.415293724972467e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.082575,
+      "pnl_sol": 0.032575,
+      "pnl_pct": 65.98,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T16:11:06.054021+00:00",
+  "last_updated": "2026-09-10T16:12:27.242704+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.2,
-  "portfolio_value_usd": 427.57,
+  "last_sol_price_usd": 99.7,
+  "portfolio_value_usd": 432.98,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 15:48 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $ok at $6.52082e-06 | P&L: +51.2%",
-      "reason": "Auto take-profit at +51.2%"
-    },
     {
       "time": "2026-09-10 15:48 UTC",
       "action": "buy",
@@ -48042,30 +48029,48 @@
       "action": "buy",
       "details": "[LLM] $Stocktard at $5.07e-06, spent 0.05 SOL",
       "reason": "$Stocktard has the strongest attention signal of the batch: pikalosi tweet (140k+ followers in crypto Twitter) provides verifiable viral entry point, 'tard' suffix is a proven meme format, finance/stocks angle taps stock-trader crowd that's currently engaged. $8.5k mcap is low enough to catch early upside. Viability gate passes (twitter present). Risk: thin liquidity at this stage, could rug — sizing 0.1 SOL respects the cap."
+    },
+    {
+      "time": "2026-09-10 16:12 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $Stocktard at $8.41529e-06 | P&L: +66.0%",
+      "reason": "Auto take-profit at +66.0%"
     }
   ],
   "trade_stats": {
-    "total": 2817,
-    "wins": 1344,
+    "total": 2818,
+    "wins": 1345,
     "losses": 1473,
     "win_rate_pct": 47.7,
-    "total_pnl_sol": 0.043967,
-    "avg_pnl_pct": 26.81,
+    "total_pnl_sol": 0.076542,
+    "avg_pnl_pct": 26.83,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 440,
-    "today_realized_sol": 2.729282,
-    "today_target_pct": 682.3,
+    "today_trades": 441,
+    "today_realized_sol": 2.761857,
+    "today_target_pct": 690.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1344,
+      "win_count": 1345,
       "loss_count": 1473,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T16:11:04.752684+00:00",
+  "last_llm_brief_at": "2026-09-10T16:12:27.242660+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GYokEyTwCe1hY84ASmjcHgYQ33nMaKUULtYUQraGzNj5": {
+      "price_usd": 8.415293724972467e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2205.880227657,
+      "volume_h24": 12234.96,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 22.12517781
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

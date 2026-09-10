@@ -19675,3 +19675,6 @@
 ## [2026-09-10 16:11 UTC] buy | [LLM] $Stocktard at $5.07e-06, spent 0.05 SOL
 - **Reasoning:** $Stocktard has the strongest attention signal of the batch: pikalosi tweet (140k+ followers in crypto Twitter) provides verifiable viral entry point, 'tard' suffix is a proven meme format, finance/stocks angle taps stock-trader crowd that's currently engaged. $8.5k mcap is low enough to catch early upside. Viability gate passes (twitter present). Risk: thin liquidity at this stage, could rug — sizing 0.1 SOL respects the cap.
 
+## [2026-09-10 16:12 UTC] sell | [v8.7 TP +50% (full)] $Stocktard at $8.41529e-06 | P&L: +66.0%
+- **Reasoning:** Auto take-profit at +66.0%
+
