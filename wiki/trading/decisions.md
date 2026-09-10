@@ -18898,3 +18898,9 @@
 ## [2026-09-10 10:53 UTC] sell | [PARTIAL][LLM] $MANATEE at $5.19589e-06 | P&L: +18.5%
 - **Reasoning:** +18.5% on a $1075 pool with only 1% share is thin — selling half locks ~$0.45 profit while letting the rest ride free toward the +25% auto-TP. Approaching the 20% doubt threshold with weak liquidity confirms the partial exit.
 
+## [2026-09-10 10:54 UTC] sell | [rapid-drop] $MANATEE crashed >15% in one tick | P&L: -35.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 10:54 UTC] buy | [LLM] $Groyper at $2.96453e-06, spent 0.05 SOL
+- **Reasoning:** $Groyper (Groyper) — political/groyper-adjacent narrative + actual twitter post from @derivativist + mcap $2.9k. NOTE: 'Groyper' sits in politically-fragile territory; fragility gate would normally block this. Borderline call — passing for narrative alpha but flagging ⚠ high fragility risk.
+
