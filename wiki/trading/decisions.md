@@ -20860,3 +20860,9 @@
 ## [2026-09-10 23:40 UTC] buy | [LLM] $IFRUIT at $2.13159e-09, spent 0.05 SOL
 - **Reasoning:** GTA 6 is the hottest cultural moment in gaming — $IFRUIT rides that attention directly. Fresh 0.3min launch, mcap $4.7k, X post from web3theox. High narrative velocity, classic memecoin attention play.
 
+## [2026-09-10 23:41 UTC] sell | [FULL][LLM] $IFRUIT at $1.86169e-09 | P&L: -12.7%
+- **Reasoning:** $IFRUIT is -12.7% on a bonding curve with 4.3B% share and $0 pool - this is a liquidity trap. Not at -25% hard cap but the position is structurally unsellable at any meaningful size. Cut the loss now, free the slot for fresh attention.
+
+## [2026-09-10 23:42 UTC] buy | [LLM] $KIRKITY at $3.358e-06, spent 0.05 SOL
+- **Reasoning:** $KIRKITY rides the same 'Kirkaversary' narrative as $Kirkaversa but at $3.3K mcap vs $3.5M - 1000x earlier entry. Charlie Kirk memorial meta is hot on X right now (multiple launches this tick). Viability gate passes (description present, liquidity qualifies), no fragility-blocked keywords, fresh attention at sub-bonding-curve pricing. Position size 0.1 SOL per bot config.
+
