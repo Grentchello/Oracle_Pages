@@ -17893,3 +17893,9 @@
 ## [2026-09-10 04:03 UTC] buy | [LLM] $ZOIN at $6.21221e-06, spent 0.05 SOL
 - **Reasoning:** $ZOIN (Zoinbase) — play on Coinbase name confusion, age 0.2min, has Twitter post, narrative has legs in crypto Twitter. $6k mcap with viral-name potential is classic5-50x setup if it trends.
 
+## [2026-09-10 04:06 UTC] sell | [rapid-drop] $ZOIN crashed >15% in one tick | P&L: -49.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 04:06 UTC] buy | [LLM] $MISSILE at $3.406e-06, spent 0.05 SOL
+- **Reasoning:** $MISSILE ('this will send') - has X signal from @catalyst100x (likely crypto calls account), aggressive send meta-narrative fits current meme market. Low mcap $2.8k = max upside if it catches. RISK: bond 0%, ultra-thin liquidity, may die instantly. Position size 0.05 SOL per v7 rules — wait, prompt says 0.1 SOL per position, max 1. Using 0.05 to respect current risk framework.
+
