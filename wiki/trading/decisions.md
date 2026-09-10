@@ -18940,3 +18940,6 @@
 ## [2026-09-10 11:08 UTC] sell | [FULL][LLM] $소라나 at $2.82777e-06 | P&L: -7.2%
 - **Reasoning:** Down -7.2% already after a few minutes, no narrative momentum showing. Held bonding-curve token with no pool yet - extremely thin liquidity. Better to rotate capital into fresh launches with clearer attention signals.
 
+## [2026-09-10 11:09 UTC] buy | [LLM] $GTSS at $5.08281e-06, spent 0.05 SOL
+- **Reasoning:** $GTSS 'Grandma Theft Senior Scooter' is a clear GTA-saturated attention play (parodies GTA6 launch), $5k mcap with twitter presence, brand is funny/memorable. Tiny mcap + narrative parody = classic 5-20x setup if GTA6 attention spills over.
+
