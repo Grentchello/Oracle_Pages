@@ -19891,3 +19891,6 @@
 ## [2026-09-10 17:50 UTC] sell | [FULL][LLM] $Midas at $8.38875e-06 | P&L: +0.1%
 - **Reasoning:** $Midas just entered 0.0h ago at +0.1% — no signal yet. Stale exit doesn't trigger until >30min flat. Give it room to develop.
 
+## [2026-09-10 17:52 UTC] buy | [LLM] $Season 1 at $9.37756e-05, spent 0.05 SOL
+- **Reasoning:** $Season 1 (S1) 'Pumpfun gib me the Airdrop' with cobie's tweet attached is a clear meta-narrative play on pumpfun rewards — attention catalyst present, mcap $3.6k, fits the new-launch alpha window.
+
