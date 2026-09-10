@@ -18301,3 +18301,9 @@
 ## [2026-09-10 06:27 UTC] buy | [LLM] $PUMPSEEK at $8.809e-07, spent 0.05 SOL
 - **Reasoning:** $PUMPSEEK rides the proven DeepSeek AI attention narrative (DeepSeek went mega-viral Jan 2025). $211 mcap with active X account gives asymmetric upside — if even a fraction of DeepSeek attention rotates here, this is 10-50x. Risk: ultra-low mcap means thin liquidity and rug risk, but that's the attention-market tradeoff.
 
+## [2026-09-10 06:29 UTC] sell | [FULL][LLM] $PUMPSEEK at $7.71509e-09 | P&L: -99.1%
+- **Reasoning:** Position is -99.1%, effectively dead. The hard stop should have triggered but since it's still held, dump immediately to free the slot and stop the bleed. No bounce signal visible.
+
+## [2026-09-10 06:29 UTC] buy | [LLM] $BEANIE at $2.927e-06, spent 0.05 SOL
+- **Reasoning:** $BEANIE has a real X account (BeanieBoyOTC) — that's actual attention infrastructure, not just a name. 'Only OGs' is a community-invite narrative that pumps in memecoin cycles. Bonding curve just starting (1%), so early entry. Risk: $2.9k mcap means illiquid exit — size will be tiny.
+
