@@ -20170,3 +20170,9 @@
 ## [2026-09-10 19:16 UTC] buy | [LLM] $MOOMOO at $9.0304e-06, spent 0.05 SOL
 - **Reasoning:** $MOOMOO — 4chan bull mascot is a proven viral meme archetype (PEPE/MOTHER lineage). Lowest mcap ($9k) in the freshest launches, 0.1 min old with twitter link attached. Risk: bond only 31%, very early — but attention narrative is strongest in the slate.
 
+## [2026-09-10 19:17 UTC] sell | [rapid-drop] $MOOMOO crashed >15% in one tick | P&L: -69.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:18 UTC] buy | [LLM] $LICHEN at $3.64278e-06, spent 0.05 SOL
+- **Reasoning:** $LICHEN has the strongest narrative of the batch: synthetic compute markets with a concrete mainnet launch date (Sep 16) driving forward attention, active twitter @LichenMarkets, full description, and a real devnet already live. Date-driven catalyst + utility story = sustained attention, not just a meme pump.
+
