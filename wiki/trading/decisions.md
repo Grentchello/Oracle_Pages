@@ -20101,3 +20101,6 @@
 ## [2026-09-10 18:55 UTC] buy | [LLM] $OINKINGTON at $2.81879e-06, spent 0.05 SOL
 - **Reasoning:** $OINKINGTON 'CASHAPP MASCOT' has the strongest attention signal in the batch — verified @CashApp X post driving the narrative, multiple copycat launches confirm real attention. Lowest mcap variant with twitter link gives best risk/reward on the attention wave.
 
+## [2026-09-10 18:57 UTC] sell | [PARTIAL][LLM] $OINKINGTON at $2.82329e-06 | P&L: +0.2%
+- **Reasoning:** I own 50% of a $10 pool — I'm the market. +0.2% is illusory; any real exit will crater the price. Free the slot for a better launch with real liquidity and narrative.
+

@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.89793,
+  "balance_sol": 4.92293,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "8nK2aVAaH96mxufGgJ6qrHznhJGpeJ9iCW2mZHzvpump": {
       "symbol": "OINKINGTON",
       "name": "CASHAPP MASCOT",
-      "amount": 1776470.4583834636,
+      "amount": 888235.2291917318,
       "entry_price_usd": 2.81879159676918e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T18:55:43.182131+00:00",
       "entry_usd_value": 5.0075,
-      "last_seen_price_usd": 2.81879159676918e-06,
+      "last_seen_price_usd": 2.8232949083566296e-06,
       "entry_signals": {
         "liquidity_usd": 10.015,
         "volume_24h_usd": null,
@@ -49225,19 +49225,30 @@
       "pnl_pct": -1.28,
       "exit_reason": "LLM: sell_all — Rotating out of $RESE — flat on bonding curve with $0 pool, no narrative signal, and I need the slot for higher-attention launches. Only -1.3% loss is",
       "partial": false
+    },
+    {
+      "mint": "8nK2aVAaH96mxufGgJ6qrHznhJGpeJ9iCW2mZHzvpump",
+      "symbol": "OINKINGTON",
+      "name": "CASHAPP MASCOT",
+      "amount_sold": 888235.2291917318,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T18:55:43.182131+00:00",
+      "exit_time": "2026-09-10T18:57:12.868508+00:00",
+      "entry_price_usd": 2.81879159676918e-06,
+      "exit_price_usd": 2.8232949083566296e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.025,
+      "pnl_sol": 0.0,
+      "pnl_pct": 0.16,
+      "exit_reason": "LLM: sell_all — I own 50% of a $10 pool — I'm the market. +0.2% is illusory; any real exit will crater the price. Free the slot for a better launch with real liquidit",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T18:55:43.182578+00:00",
+  "last_updated": "2026-09-10T18:57:12.868706+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.15,
-  "portfolio_value_usd": 495.54,
+  "last_sol_price_usd": 100.31,
+  "portfolio_value_usd": 496.32,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 18:40 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $ZENCAT crashed >15% in one tick | P&L: -26.8%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 18:40 UTC",
       "action": "buy",
@@ -49351,40 +49362,46 @@
       "action": "buy",
       "details": "[LLM] $OINKINGTON at $2.81879e-06, spent 0.05 SOL",
       "reason": "$OINKINGTON 'CASHAPP MASCOT' has the strongest attention signal in the batch — verified @CashApp X post driving the narrative, multiple copycat launches confirm real attention. Lowest mcap variant with twitter link gives best risk/reward on the attention wave."
+    },
+    {
+      "time": "2026-09-10 18:57 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $OINKINGTON at $2.82329e-06 | P&L: +0.2%",
+      "reason": "I own 50% of a $10 pool — I'm the market. +0.2% is illusory; any real exit will crater the price. Free the slot for a better launch with real liquidity and narrative."
     }
   ],
   "trade_stats": {
-    "total": 2894,
+    "total": 2895,
     "wins": 1368,
-    "losses": 1526,
+    "losses": 1527,
     "win_rate_pct": 47.3,
     "total_pnl_sol": 0.681741,
     "avg_pnl_pct": 26.6,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 517,
+    "today_trades": 518,
     "today_realized_sol": 3.367056,
     "today_target_pct": 841.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1368,
-      "loss_count": 1526,
+      "loss_count": 1527,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T18:55:41.804124+00:00",
+  "last_llm_brief_at": "2026-09-10T18:57:12.868208+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "CkoA1Aff2pYrZC9rvKkKpnqH7ta6rKNQZobwrMSqY5ER": {
-      "price_usd": 2.8000931968315936e-06,
+    "8nK2aVAaH96mxufGgJ6qrHznhJGpeJ9iCW2mZHzvpump": {
+      "price_usd": 2.8232949083566296e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.0030000000000001e-07,
-      "volume_h24": 30.46,
+      "liquidity_usd": 10.031,
+      "volume_h24": 9.98,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2e-09
+      "real_sol_reserves": 0.1
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
