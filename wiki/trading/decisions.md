@@ -18040,3 +18040,9 @@
 ## [2026-09-10 04:54 UTC] buy | [LLM] $MOSES at $9.473e-06, spent 0.05 SOL
 - **Reasoning:** $MOSES 'Anthropic Dog' fuses Anthropic AI brand with doge meme culture — exactly the AI-meets-meme narrative that pumps. 29% bond completion in 2 min shows real demand, not bot wash. Buying 0.05 SOL ($5) on the live mint at 29% bond, not the 2% duplicate.
 
+## [2026-09-10 04:56 UTC] sell | [v8.7 TP +50% (full)] $MOSES at $1.78235e-05 | P&L: +88.2%
+- **Reasoning:** Auto take-profit at +88.2%
+
+## [2026-09-10 04:56 UTC] buy | [LLM] $Jimothy at $3.21845e-06, spent 0.05 SOL
+- **Reasoning:** $Jimothy has dedicated X infrastructure (@jimothyworld), whimsical raccoon mascot narrative, mcap $3.2k at 0.4min age — extreme attention-to-mcap asymmetry. Viral animal memecoins with own social accounts historically pump hard in first hour.
+
