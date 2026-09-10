@@ -19396,3 +19396,6 @@
 ## [2026-09-10 14:23 UTC] sell | [FULL][LLM] $CABAL at $2.85168e-06 | P&L: +0.4%
 - **Reasoning:** Just entered (+0.4%), bonding curve only 17% filled means still early. No reason to exit, give it time to develop.
 
+## [2026-09-10 14:25 UTC] buy | [LLM] $BLURP at $2.78907e-06, spent 0.05 SOL
+- **Reasoning:** $BLURP is a Matt Furie (Pepe creator) character token — strongest narrative in the batch, survives the viability gate (desc ≥50 chars), bond at 0% means I'm entering at the absolute floor before any curve activity. Furie tokens have historical memecoin precedent.
+
