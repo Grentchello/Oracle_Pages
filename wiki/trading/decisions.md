@@ -19873,3 +19873,6 @@
 ## [2026-09-10 17:42 UTC] buy | [LLM] $BTCC at $5.57119e-10, spent 0.05 SOL
 - **Reasoning:** $BTCC 'The Bitcoin Cat' - crypto-native cat narrative riding BTC attention, fresh launch (0.9min), X post from dev account. Narrative is recognizable and memeable. Risk: tiny mcap ($4.3k), bond only 4% - high rug potential but ME2F gate will catch if fragility >0.5.
 
+## [2026-09-10 17:44 UTC] sell | [FULL][LLM] $BTCC at $5.32448e-10 | P&L: -4.4%
+- **Reasoning:** Down -4.4% with zero pool liquidity (bonding-curve only) and our share is 38328% — we're the entire bag, no exit possible at scale anyway. Cut it loose and free the slot for a real launch with liquidity.
+
