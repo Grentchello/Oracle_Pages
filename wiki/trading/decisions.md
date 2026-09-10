@@ -19057,3 +19057,6 @@
 ## [2026-09-10 12:03 UTC] buy | [LLM] $BUDDY at $8.33995e-10, spent 0.05 SOL
 - **Reasoning:** BUDDY has the strongest narrative of the batch — 'first dog on chain, carved into Bitcoin block 299,825' is a unique, verifiable viral hook. Highest bond completion (18%) and mcap ($6.4k) of fresh launches suggests accumulating attention.
 
+## [2026-09-10 12:04 UTC] sell | [PARTIAL][LLM] $BUDDY at $9.08784e-10 | P&L: +9.0%
+- **Reasoning:** $BUDDY is up 9% after just entering, bonding curve still active. No clear dump signal yet, giving it a bit more time to develop before deciding on partial profit-take.
+
