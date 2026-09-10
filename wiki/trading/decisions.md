@@ -17290,3 +17290,9 @@
 ## [2026-09-10 00:21 UTC] buy | [LLM] $SOLCHAN at $7.264e-06, spent 0.05 SOL
 - **Reasoning:** $SOLCHAN — Solana-Chan has a clear anime/meme narrative with an active X link (cyberaurix), only 1min old at $5.9k mcap. Anon-themed persona coins on Solana have historically pumped hard when they catch on (look at $FWOG, $RETARDIO arcs). Fresh launch + low mcap + named character = classic attention play.
 
+## [2026-09-10 00:22 UTC] sell | [rapid-drop] $SOLCHAN crashed >15% in one tick | P&L: -39.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 00:23 UTC] buy | [LLM] $FLIP at $1.28209e-07, spent 0.05 SOL
+- **Reasoning:** $FLIP — Apple flip phone narrative tied to real news-cycle attention (Apple's foldable device leaks), creator self-doxxed (@nadeemmako), and 'What does everyone think...' is classic engagement-bait that drives viral replies. Age 0.8min means I'm early to the attention pump, not after. Doxxed creator + concrete real-world narrative is the strongest combo in this batch.
+
