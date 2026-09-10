@@ -17659,3 +17659,9 @@
 ## [2026-09-10 02:36 UTC] buy | [LLM] $Unitslob  at $4.7066e-06, spent 0.05 SOL
 - **Reasoning:** $Unitslob has the strongest concrete attention signal in this batch: a 100 SOL dev buy at bond — that's real capital committed, not just narrative. Memeable name, $4.7k mcap early entry, 18% bond shows organic demand. Risk: 'slob' name is niche, could fail to spread. Sizing at 0.1 SOL as per slot.
 
+## [2026-09-10 02:37 UTC] sell | [rapid-drop] $Unitslob  crashed >15% in one tick | P&L: -36.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 02:38 UTC] buy | [LLM] $mooncat at $3.10074e-09, spent 0.05 SOL
+- **Reasoning:** mooncat is a classic cat-coin narrative (proven meme format — popcat, slerf, wif), brand-new (0.1min), and the twitter source 'wearetheretail' suggests launch visibility. Bond 7% is low but cat-narrative tokens historically pump on early organic attention. Take the 0.05 SOL scalp.
+
