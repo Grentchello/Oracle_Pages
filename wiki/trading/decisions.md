@@ -20095,3 +20095,9 @@
 ## [2026-09-10 18:54 UTC] buy | [LLM] $RESE at $2.83626e-06, spent 0.05 SOL
 - **Reasoning:** $RESE has the strongest narrative here — ties directly to a breaking crypto news event (quantum attack cost on Bitcoin). On-chain reactive memecoins with real X attention are the highest-conviction viral pattern. Fresh 0.1min age, $2.8k mcap with room to run.
 
+## [2026-09-10 18:55 UTC] sell | [FULL][LLM] $RESE at $2.80009e-06 | P&L: -1.3%
+- **Reasoning:** Rotating out of $RESE — flat on bonding curve with $0 pool, no narrative signal, and I need the slot for higher-attention launches. Only -1.3% loss is worth taking to free capital for the CashApp/OINKINGTON attention wave.
+
+## [2026-09-10 18:55 UTC] buy | [LLM] $OINKINGTON at $2.81879e-06, spent 0.05 SOL
+- **Reasoning:** $OINKINGTON 'CASHAPP MASCOT' has the strongest attention signal in the batch — verified @CashApp X post driving the narrative, multiple copycat launches confirm real attention. Lowest mcap variant with twitter link gives best risk/reward on the attention wave.
+
