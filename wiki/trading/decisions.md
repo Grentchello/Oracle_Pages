@@ -18757,3 +18757,9 @@
 ## [2026-09-10 09:56 UTC] buy | [LLM] $Pepe at $9.004e-06, spent 0.05 SOL
 - **Reasoning:** $Pepe is a proven viral attention brand; 'Cocaine Hippo' is an absurd remix with shock-value edge that travels well on X. Real twitter link present, age 1.4min at $8.5k mcap, bond 30% — early traction with a clear narrative. Highest attention ceiling of the batch; rest are nameless or thin.
 
+## [2026-09-10 09:57 UTC] sell | [rapid-drop] $Pepe crashed >15% in one tick | P&L: -41.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 09:57 UTC] buy | [LLM] $UFD at $5.90435e-06, spent 0.05 SOL
+- **Reasoning:** $UFD has the strongest attention signal: viral Derivativist tweet, multiple coordinated deploys (5 mints in the list — clear narrative hijack), fresh 0.6min age with highest bond completion (24%) suggesting real demand. Risk: extreme freshness, bonding not complete, could rug — but the attention is real and the window is now.
+
