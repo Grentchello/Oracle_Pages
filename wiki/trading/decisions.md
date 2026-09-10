@@ -20881,3 +20881,9 @@
 ## [2026-09-10 23:50 UTC] sell | [PARTIAL][LLM] $APPLESS at $1.4267e-07 | P&L: -14.8%
 - **Reasoning:** Our 45% pool share means we are the market — any other seller will crush price, and -14.8% is 10% from the -25% hard cap. Cutting now while there's still a bid is the rational exit; hope is not a strategy on a thin bonding curve where we own nearly half the float.
 
+## [2026-09-10 23:52 UTC] sell | [FULL][LLM] $APPLESS at $1.55395e-07 | P&L: -7.2%
+- **Reasoning:** Down only -7.2% in a $16 pool where I hold 15% — selling now crystallizes the loss AND crashes the pool for myself. Well within -25% hard cap and just entered, give it room to bounce or find a buyer.
+
+## [2026-09-10 23:52 UTC] buy | [LLM] $NUTS at $5.07442e-06, spent 0.05 SOL
+- **Reasoning:** Strongest narrative of the batch — 'Mafia Nuts' is a memorable, viral-style name with a real X post attached. $5k mcap is genuinely early (not top-runners extracted), bonding 21% shows organic buy pressure. Thin liquidity means I size small (0.05 SOL) and accept the rug risk.
+
