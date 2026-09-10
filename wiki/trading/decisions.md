@@ -20512,3 +20512,6 @@
 ## [2026-09-10 21:19 UTC] sell | [rapid-drop] $PROTOC crashed >15% in one tick | P&L: -60.1%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 21:22 UTC] buy | [LLM] $att at $2.14843e-06, spent 0.05 SOL
+- **Reasoning:** $att is a meta-narrative play — token literally named 'attention' in an attention market. 0.2min old, $2.1k mcap, 8% bond progress (highest among candidates, shows early buyer conviction), clean viability (description + name narrative). No political fragility flags. Risk: thin mcap + no Twitter, so purely narrative-driven — if the irony doesn't catch on X, it dies fast. But that's the trade.
+
