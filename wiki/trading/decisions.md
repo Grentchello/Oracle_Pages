@@ -18058,3 +18058,6 @@
 ## [2026-09-10 04:59 UTC] buy | [LLM] $MOSES at $3.333e-06, spent 0.05 SOL
 - **Reasoning:** $MOSES 'ANTHROPIC DOG' rides two narratives simultaneously — Anthropic stocks + AI dog meta. Description explicitly promises rewards/airdrops, twitter link to Anthropic stocks creates organic attention loop. $3.4k mcap with 8% bonding = early entry. Real narrative, real ticker, real launch energy.
 
+## [2026-09-10 05:00 UTC] sell | [PARTIAL][LLM] $MOSES at $3.67947e-06 | P&L: +10.4%
+- **Reasoning:** Up 10.4% on a tiny $417 pool with only 1% share — this is illiquid and any dump kills the price. Lock half the gain now and let the rest ride on the bonding curve; if it doesn't push through 20% in the next 10-15 min, exit the rest.
+
