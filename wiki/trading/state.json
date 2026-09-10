@@ -1,8 +1,32 @@
 {
-  "balance_sol": 5.02578,
+  "balance_sol": 4.97578,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "E8Lt9fCSmWyzddPchZNbYePqDNu9FLrfPc6qw7Ndpump": {
+      "symbol": "BetOnBlak",
+      "name": "BetOnBlack",
+      "amount": 568566.591422122,
+      "entry_price_usd": 8.86e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T11:17:02.125561+00:00",
+      "entry_usd_value": 5.0375000000000005,
+      "last_seen_price_usd": 8.86e-06,
+      "entry_signals": {
+        "liquidity_usd": 0.66984191625,
+        "volume_24h_usd": 3756.86,
+        "market_cap_usd": 8851.019679079482,
+        "ath_market_cap_usd": 10309.048585246252,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.006648555,
+        "description": "put the house on black ",
+        "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45735,17 +45759,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T11:15:40.660937+00:00",
+  "last_updated": "2026-09-10T11:17:02.125751+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.067,
-  "portfolio_value_usd": 507.94,
+  "last_sol_price_usd": 100.75,
+  "portfolio_value_usd": 506.35,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 10:54 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $MANATEE crashed >15% in one tick | P&L: -35.2%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 10:54 UTC",
       "action": "buy",
@@ -45859,6 +45877,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $Payward at $3.28219e-06 | P&L: +2.0%",
       "reason": "Only +2% on a $236 pool with no twitter/clear narrative — capital rotation play. Need slot for stronger attention signal in PONSISLAND which has twitter + creative story + leading mcap."
+    },
+    {
+      "time": "2026-09-10 11:17 UTC",
+      "action": "buy",
+      "details": "[LLM] $BetOnBlak at $8.86e-06, spent 0.05 SOL",
+      "reason": "$BetOnBlak has highest mcap ($8.8k) of fresh launches, gambling 'put the house on black' meta is trending, and early capital is already concentrating — strongest attention signal in this batch. 0.05 SOL scalp targeting quick 30-50% pop."
     }
   ],
   "trade_stats": {
@@ -45880,21 +45904,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T11:15:39.273625+00:00",
+  "last_llm_brief_at": "2026-09-10T11:17:00.331483+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "FWueoNVmtxxkbQ5w2xqZE8Do6ngFPGFMDMNJzvdopump": {
-      "price_usd": 3.2821892482473926e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 235.72616757254397,
-      "volume_h24": 270.94,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 2.332375232
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
