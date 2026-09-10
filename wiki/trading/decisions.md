@@ -19534,3 +19534,6 @@
 ## [2026-09-10 15:16 UTC] buy | [LLM] $🐂🀄️ at $3.349e-06, spent 0.05 SOL
 - **Reasoning:** $🐂🀄️ — bull + mahjong emoji coin, fresh (1min), $4.7k mcap, has live twitter link from @derivativist. Emoji tickers have viral sticker/share potential. Passes viability (twitter present). Memecoin narrative = cultural crossover (bull market x mahjong/gambling luck). 0.1 SOL entry.
 
+## [2026-09-10 15:17 UTC] sell | [v8.7 TP +50% (full)] $🐂🀄️ at $5.49451e-06 | P&L: +64.1%
+- **Reasoning:** Auto take-profit at +64.1%
+
