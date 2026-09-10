@@ -18664,3 +18664,6 @@
 ## [2026-09-10 09:00 UTC] buy | [LLM] $RISE at $7.365e-06, spent 0.05 SOL
 - **Reasoning:** RISE has a clear attention mechanic (60% airdrop to top 15 holders = guaranteed viral CT engagement), live twitter @_rise, $7.3k mcap is early enough, bonding curve narrative creates natural FOMO. Best narrative in the batch.
 
+## [2026-09-10 09:02 UTC] sell | [FULL][LLM] $RISE at $7.97026e-06 | P&L: +8.2%
+- **Reasoning:** $RISE is +8.2% in <1h on bonding curve with momentum intact; below +20% profit-taking threshold and well under 15min stale mark, so hold for continuation toward TP.
+
