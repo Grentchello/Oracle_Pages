@@ -19957,3 +19957,6 @@
 ## [2026-09-10 18:11 UTC] buy | [LLM] $SLOP at $5.45457e-06, spent 0.05 SOL
 - **Reasoning:** SLOP is the only token in this batch with a distinct, non-coordinated narrative — organic shill from @river100x (not the generic Pumpfun post), unique edgy name, and stands apart from the saturated cat wave. Attention markets reward distinctness; SLOP has it. Risks: mcap only $5.4k and 0.2min old, so fragility gate (top-10 holder rate, bundler activity) is the real test — high rug probability on any bonding-curve token this fresh, but asymmetric upside if the shill catches.
 
+## [2026-09-10 18:13 UTC] sell | [rapid-drop] $SLOP crashed >15% in one tick | P&L: -48.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
