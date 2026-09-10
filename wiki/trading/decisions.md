@@ -18844,3 +18844,6 @@
 ## [2026-09-10 10:30 UTC] sell | [rapid-drop] $pemp crashed >15% in one tick | P&L: -47.1%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 10:32 UTC] buy | [LLM] $STONKS at $1.03467e-05, spent 0.05 SOL
+- **Reasoning:** $STONKS is the freshest attention: classic memeable name ('Stonks'), brand-new X post from ForestManSol555 timestamp seconds ago, $10k mcap with bond 32% still filling — early enough to ride the pump if it catches. 0.1 SOL position, tight -25% stop will protect downside.
+
