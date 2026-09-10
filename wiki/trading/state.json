@@ -1,8 +1,32 @@
 {
-  "balance_sol": 1.602831,
+  "balance_sol": 1.552831,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "74Wjdpe43ts1AwqkpR5UZ3tkBS4E8WpQQAMtPHPmpump": {
+      "symbol": "BOB",
+      "name": "Bitcoin Bob",
+      "amount": 7138941205.053475,
+      "entry_price_usd": 7.110298087910892e-10,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T00:15:48.133622+00:00",
+      "entry_usd_value": 5.0760000000000005,
+      "last_seen_price_usd": 7.110298087910892e-10,
+      "entry_signals": {
+        "liquidity_usd": 0.190106352,
+        "volume_24h_usd": null,
+        "market_cap_usd": 5485.108145088959,
+        "ath_market_cap_usd": 5633.699166982069,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.0018726,
+        "description": "",
+        "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40499,17 +40523,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T00:14:13.696241+00:00",
+  "last_updated": "2026-09-10T00:15:48.133802+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.49,
-  "portfolio_value_usd": 162.67,
+  "last_sol_price_usd": 101.52,
+  "portfolio_value_usd": 162.72,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 08:53 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $ROI crashed >15% in one tick | P&L: -17.9%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-09 08:53 UTC",
       "action": "buy",
@@ -40623,6 +40641,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $TESLA CAT at $3.06301e-06 | P&L: +1.2%",
       "reason": "Just entered, +1.2%, no negative signal. Give it time to develop before rotating capital into something else."
+    },
+    {
+      "time": "2026-09-10 00:15 UTC",
+      "action": "buy",
+      "details": "[LLM] $BOB at $7.1103e-10, spent 0.05 SOL",
+      "reason": "$BOB 'Bitcoin Bob' — clean character coin, simplest possible name, lowest mcap tier ($5.5k), bond already 13% meaning buy pressure is real. Bitcoin-themed character is a familiar meme archetype with viral potential. Taking the freshest, cleanest shot."
     }
   ],
   "trade_stats": {
@@ -40644,21 +40668,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T00:14:13.695854+00:00",
+  "last_llm_brief_at": "2026-09-10T00:15:46.606914+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "56Rx4jAHTx7KFq9vZfdLirh8fq6yBYHFq7ATShmCpump": {
-      "price_usd": 3.063010253948285e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 118.64340166766999,
-      "volume_h24": 151.8,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.169015683
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
