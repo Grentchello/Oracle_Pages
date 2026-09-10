@@ -20659,3 +20659,9 @@
 ## [2026-09-10 22:29 UTC] buy | [LLM] $GOON at $3.91986e-06, spent 0.05 SOL
 - **Reasoning:** $GOON (Gains Out Of Nowhere) — clean acronymic ticker, 0.1min old, $3.9k mcap with twitter signal. Highest attention/narrative ratio of the batch. 0.05 SOL position, tight stop managed by bot.
 
+## [2026-09-10 22:30 UTC] sell | [rapid-drop] $GOON crashed >15% in one tick | P&L: -28.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 22:31 UTC] buy | [LLM] $AMD at $4.64203e-06, spent 0.05 SOL
+- **Reasoning:** $AMD ticker is an instant-attention brand grab (AMD chipmaker). 0.3min old, $4.6k mcap, bond 18% (real buyers, second-highest in batch). Narratives like this catch momentum quickly on ticker alone.
+
