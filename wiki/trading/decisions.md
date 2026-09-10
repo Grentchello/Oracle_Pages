@@ -19615,3 +19615,9 @@
 ## [2026-09-10 15:46 UTC] buy | [LLM] $ok at $4.31184e-06, spent 0.05 SOL
 - **Reasoning:** Viral 'everything is going to be ok' affirmation narrative is the kind of feel-good meme that prints in fresh launches; $4.3k mcap with X post = classic attention asymmetry play.
 
+## [2026-09-10 15:48 UTC] sell | [v8.7 TP +50% (full)] $ok at $6.52082e-06 | P&L: +51.2%
+- **Reasoning:** Auto take-profit at +51.2%
+
+## [2026-09-10 15:48 UTC] buy | [LLM] $STONKFLY at $3.65386e-06, spent 0.05 SOL
+- **Reasoning:** $STONKFLY has actual YouTube content link + Twitter post, 'Stonkfly' is a portmanteau meme with built-in virality (stonks meme family), fresh 0.1min launch - real attention signal vs pure slop
+
