@@ -18238,3 +18238,9 @@
 ## [2026-09-10 06:03 UTC] buy | [LLM] $ANSEM at $4.7759e-06, spent 0.05 SOL
 - **Reasoning:** $ANSEM - Name-dropping a known crypto influencer (@mystiquexbt posting) + Matt Furie creator angle = double attention hook. Sub-$5k mcap with Twitter signal. Fragility check: 'ANSEM' as a ticker is borderline celebrity-adjacent but not on the explicit blocklist. High risk, high attention. Size: 0.1 SOL.
 
+## [2026-09-10 06:04 UTC] sell | [rapid-drop] $ANSEM crashed >15% in one tick | P&L: -30.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 06:04 UTC] buy | [LLM] $blindape at $1.86035e-05, spent 0.05 SOL
+- **Reasoning:** $blindape has the strongest meme reflexivity in this batch — a token literally about blindly aping is meta-ironic and viral. 38% bond completion (vs0-4% for peers) shows real traction, and the rapid copy-cat launches confirm attention. Risk: 4 competing $blindape mints fragment liquidity; position size is small (0.05 SOL) so downside is contained.
+
