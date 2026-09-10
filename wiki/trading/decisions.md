@@ -18070,3 +18070,6 @@
 ## [2026-09-10 05:03 UTC] sell | [PARTIAL][LLM] $bugdroid at $1.37438e-07 | P&L: -0.5%
 - **Reasoning:** Pool is $9 with my 57% share — I'm the market, exit will be brutal but staying is worse. -0.5% loss is acceptable to free the slot for a better-narrative launch like $Malone tied to the $245M heist news.
 
+## [2026-09-10 05:04 UTC] sell | [FULL][LLM] $bugdroid at $1.43583e-07 | P&L: +3.9%
+- **Reasoning:** Only +3.9% after just opening, no reason to exit at break-even-plus on a bonding-curve position with 20% share. Will reassess at +20% or stale flag.
+
