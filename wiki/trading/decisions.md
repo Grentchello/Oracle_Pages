@@ -18214,3 +18214,9 @@
 ## [2026-09-10 05:55 UTC] buy | [LLM] $GTA at $1.698e-05, spent 0.05 SOL
 - **Reasoning:** $GTA6 narrative — one of the strongest evergreen attention magnets on the internet. Rockstar/GTA hype cycles reliably pump coins. At $17k mcap and 1.5min old, still has10-50x room if any catalyst hits. Best risk/reward of the slate.
 
+## [2026-09-10 05:56 UTC] sell | [rapid-drop] $GTA crashed >15% in one tick | P&L: -82.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 05:57 UTC] buy | [LLM] $WOJAK at $5.64608e-06, spent 0.05 SOL
+- **Reasoning:** $WOJAK is a culturally-iconic meme with an active X post. Wojak is a known viral attention brand — sub-$6k mcap, sub-1min old, classic pump.fun curve setup with real narrative. Small size, but the meme has legs.
+
