@@ -1,27 +1,27 @@
 {
-  "balance_sol": 9.254325,
+  "balance_sol": 9.246259,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "25sa5kucQQQVXo6HBTNme9xu5zu5WhBq3fokPvAopump": {
-      "symbol": "METH",
-      "name": "DEA",
-      "amount": 1460738.0630773078,
-      "entry_price_usd": 3.398624384129067e-06,
+    "KQLEZmM5Us8Nqhz1uR782RzAGicr7wzhwKbcUd7pump": {
+      "symbol": "HOOD",
+      "name": "Robinhood",
+      "amount": 5432.423544886551,
+      "entry_price_usd": 0.0009123,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T22:59:05.166832+00:00",
-      "entry_usd_value": 4.964500000000001,
-      "last_seen_price_usd": 3.398624384129067e-06,
+      "entry_time": "2026-09-10T23:00:54.671425+00:00",
+      "entry_usd_value": 4.956,
+      "last_seen_price_usd": 0.0009123,
       "entry_signals": {
-        "liquidity_usd": 316.38755511371005,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3401.085136816943,
-        "ath_market_cap_usd": 3525.9742330080535,
+        "liquidity_usd": 93383.52,
+        "volume_24h_usd": 35610.5,
+        "market_cap_usd": 916465.5968270893,
+        "ath_market_cap_usd": 916465.5968270893,
         "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.186499699,
+        "boost_mode": "IN_PROGRESS",
+        "real_sol_reserves": 12.16143337,
         "description": "",
-        "twitter": "https://x.com/Polymarket/status/2098181573971501175?s=20",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -51129,25 +51129,30 @@
       "pnl_pct": -66.28,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "25sa5kucQQQVXo6HBTNme9xu5zu5WhBq3fokPvAopump",
+      "symbol": "METH",
+      "name": "DEA",
+      "amount_sold": 1460738.0630773078,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T22:59:05.166832+00:00",
+      "exit_time": "2026-09-10T23:00:09.360342+00:00",
+      "entry_price_usd": 3.398624384129067e-06,
+      "exit_price_usd": 2.8454739240844534e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.041934,
+      "pnl_sol": -0.008066,
+      "pnl_pct": -16.28,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T22:59:05.167000+00:00",
+  "last_updated": "2026-09-10T23:00:54.671616+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.29,
-  "portfolio_value_usd": 923.83,
+  "last_sol_price_usd": 99.12,
+  "portfolio_value_usd": 921.45,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 22:40 UTC",
-      "action": "buy",
-      "details": "[LLM] $fun at $9.11399e-06, spent 0.05 SOL",
-      "reason": "$fun has the cleanest attention signal in the batch: official @Pumpfun X account tweet, 31% bonding curve progress (real buy pressure, not just creation), and meta-narrative framing ('there is no pump, I love you') that mirrors pump.fun's whole identity. At $9k mcap on a sub-1-min launch with a platform-endorsed tweet, this is the textbook attention-launched memecoin — buy 0.05 SOL."
-    },
-    {
-      "time": "2026-09-10 22:42 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $fun at $1.14655e-05 | P&L: +25.8%",
-      "reason": "$fun is at +25.8% — close to the +30% auto-TP threshold, and a pullback risk is high on a sub-$3k pool with 0% share. Locking in the gain now rather than gambling another minute for the auto-trigger; this also frees my only position slot for fresh attention."
-    },
     {
       "time": "2026-09-10 22:43 UTC",
       "action": "buy",
@@ -51255,40 +51260,52 @@
       "action": "buy",
       "details": "[LLM] $METH at $3.39862e-06, spent 0.05 SOL",
       "reason": "$METH (DEA) — Polymarket X account linkage is a real attention signal, Polymarket-attached tokens get speculative flow. Sub-$4k mcap, 0.3min old. High risk, high attention potential."
+    },
+    {
+      "time": "2026-09-10 23:00 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $METH crashed >15% in one tick | P&L: -16.3%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 23:00 UTC",
+      "action": "buy",
+      "details": "[LLM] $HOOD at $0.0009123, spent 0.05 SOL",
+      "reason": "$HOOD (Robinhood) is the only candidate with a real narrative and viral potential — Robinhood's brand is a meme magnet. Bond 43% complete and $916k mcap in <1min shows real demand. 0.05 SOL position sized to survive -25% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 3006,
+    "total": 3007,
     "wins": 1410,
-    "losses": 1596,
+    "losses": 1597,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 5.038136,
-    "avg_pnl_pct": 28.53,
+    "total_pnl_sol": 5.03007,
+    "avg_pnl_pct": 28.51,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 629,
-    "today_realized_sol": 7.723451,
-    "today_target_pct": 1930.9,
+    "today_trades": 630,
+    "today_realized_sol": 7.715385,
+    "today_target_pct": 1928.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1410,
-      "loss_count": 1596,
+      "loss_count": 1597,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T22:59:03.839759+00:00",
+  "last_llm_brief_at": "2026-09-10T23:00:53.559273+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "J1x4V6UgCPvqDpsT3PLy8beZ55w52RYKqGQaqt1Mpump": {
-      "price_usd": 3.0693161944780523e-06,
+    "25sa5kucQQQVXo6HBTNme9xu5zu5WhBq3fokPvAopump": {
+      "price_usd": 2.8454739240844534e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 153.38875313361,
-      "volume_h24": 15947.23,
+      "liquidity_usd": 39.53396065584,
+      "volume_h24": 789.09,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.544856009
+      "real_sol_reserves": 0.398849482
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

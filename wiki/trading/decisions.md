@@ -20746,3 +20746,9 @@
 ## [2026-09-10 22:59 UTC] buy | [LLM] $METH at $3.39862e-06, spent 0.05 SOL
 - **Reasoning:** $METH (DEA) — Polymarket X account linkage is a real attention signal, Polymarket-attached tokens get speculative flow. Sub-$4k mcap, 0.3min old. High risk, high attention potential.
 
+## [2026-09-10 23:00 UTC] sell | [rapid-drop] $METH crashed >15% in one tick | P&L: -16.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 23:00 UTC] buy | [LLM] $HOOD at $0.0009123, spent 0.05 SOL
+- **Reasoning:** $HOOD (Robinhood) is the only candidate with a real narrative and viral potential — Robinhood's brand is a meme magnet. Bond 43% complete and $916k mcap in <1min shows real demand. 0.05 SOL position sized to survive -25% hard stop.
+
