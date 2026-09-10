@@ -19072,3 +19072,6 @@
 ## [2026-09-10 12:15 UTC] buy | [LLM] $MCFARLAND at $2.92366e-06, spent 0.05 SOL
 - **Reasoning:** $MCFARLAND tribute to Master Roshi VA Mike McFarland — concrete grief-attention event with built-in anime community audience. Bond only 2% (very early), mcap $2.9k, narrative is unambiguous. Risks: tiny liquidity, tribute coins fade fast if no KOL picks it up, bot will hard-stop at -25%.
 
+## [2026-09-10 12:17 UTC] sell | [FULL][LLM] $MCFARLAND at $2.81743e-06 | P&L: -3.6%
+- **Reasoning:** Only -3.6% with 0.0h held, well within noise; our share of ~48 billion tiny tokens suggests deep bonding-curve micro-cap. No bounce signal yet but no panic signal either — give it a few minutes before judging.
+
