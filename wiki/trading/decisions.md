@@ -20029,3 +20029,9 @@
 ## [2026-09-10 18:36 UTC] sell | [PARTIAL][LLM] $casino at $1.63219e-08 | P&L: +11.6%
 - **Reasoning:** Up +11.5% on a brand-new position with no clear viral narrative visible (just 'casino' name). Bonding-curve token with 181% share — taking the small profit and freeing the slot is correct. Up 11% is in the 'lock it in' zone, not the 'ride the wave' zone.
 
+## [2026-09-10 18:37 UTC] sell | [rapid-drop] $casino crashed >15% in one tick | P&L: -31.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 18:38 UTC] buy | [LLM] $COBIE at $3.16831e-06, spent 0.05 SOL
+- **Reasoning:** $COBIE — Cobie is a verified, high-influence crypto personality (~700k X followers). Real account posted the launch tweet. Strongest attention signal in the batch. $3.2k mcap, real narrative = asymmetric upside. Sizing: 0.1 SOL.
+
