@@ -19735,3 +19735,6 @@
 ## [2026-09-10 16:44 UTC] sell | [PARTIAL][LLM] $1.50 at $1.21559e-09 | P&L: +42.5%
 - **Reasoning:** Up +42.5% in 6 minutes on a bonding-curve token with our share at 282% (HUGE concentration risk — this means we're a massive chunk of holders). Lock half the gain now; ride the rest with a free roll. Bonding curve tokens with extreme holder concentration dump violently once they migrate to Raydium.
 
+## [2026-09-10 16:45 UTC] sell | [PARTIAL][LLM] $1.50 at $1.22957e-09 | P&L: +44.1%
+- **Reasoning:** Up +44% on a bonding curve with $0 real pool liquidity. Any sell will crash price — but locking +44% is the right play per scalp rules: up >20% with ANY doubt = sell. Take the win, rotate capital.
+

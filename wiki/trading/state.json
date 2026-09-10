@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.320253,
+  "balance_sol": 4.323942,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "zn9D3BAQr7hu1yZ6kAct5JjSXFxLTAuQfaPtHqGpump": {
       "symbol": "1.50",
       "name": "Costco Hot Dog",
-      "amount": 363601059.3506917,
+      "amount": 64546413.26120007,
       "entry_price_usd": 8.531843954304746e-10,
-      "entry_sol_spent": 0.003125,
+      "entry_sol_spent": 0.0005547495978187021,
       "entry_time": "2026-09-10T16:37:03.337667+00:00",
       "entry_usd_value": 4.9635,
-      "last_seen_price_usd": 1.2155867610604298e-09,
+      "last_seen_price_usd": 1.2295699568748491e-09,
       "entry_signals": {
         "liquidity_usd": 0.20589600627,
         "volume_24h_usd": null,
@@ -48103,19 +48103,30 @@
       "pnl_pct": 42.48,
       "exit_reason": "LLM: sell_half — Up +42.5% in 6 minutes on a bonding-curve token with our share at 282% (HUGE concentration risk — this means we're a massive chunk of holders). Lock h",
       "partial": true
+    },
+    {
+      "mint": "zn9D3BAQr7hu1yZ6kAct5JjSXFxLTAuQfaPtHqGpump",
+      "symbol": "1.50",
+      "name": "Costco Hot Dog",
+      "amount_sold": 299054646.0894916,
+      "fraction_sold": 0.8224801286980153,
+      "entry_time": "2026-09-10T16:37:03.337667+00:00",
+      "exit_time": "2026-09-10T16:45:22.242366+00:00",
+      "entry_price_usd": 8.531843954304746e-10,
+      "exit_price_usd": 1.2295699568748491e-09,
+      "entry_sol_for_chunk": 0.00257,
+      "exit_sol_received": 0.003689,
+      "pnl_sol": 0.001119,
+      "pnl_pct": 44.12,
+      "exit_reason": "LLM: sell_all — Up +44% on a bonding curve with $0 real pool liquidity. Any sell will crash price — but locking +44% is the right play per scalp rules: up >20% with A",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T16:44:01.858687+00:00",
+  "last_updated": "2026-09-10T16:45:22.242639+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.022,
-  "portfolio_value_usd": 428.11,
+  "last_sol_price_usd": 99.67,
+  "portfolio_value_usd": 431.02,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 16:12 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $Stocktard at $8.41529e-06 | P&L: +66.0%",
-      "reason": "Auto take-profit at +66.0%"
-    },
     {
       "time": "2026-09-10 16:13 UTC",
       "action": "buy",
@@ -48229,40 +48240,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $1.50 at $1.21559e-09 | P&L: +42.5%",
       "reason": "Up +42.5% in 6 minutes on a bonding-curve token with our share at 282% (HUGE concentration risk — this means we're a massive chunk of holders). Lock half the gain now; ride the rest with a free roll. Bonding curve tokens with extreme holder concentration dump violently once they migrate to Raydium."
+    },
+    {
+      "time": "2026-09-10 16:45 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $1.50 at $1.22957e-09 | P&L: +44.1%",
+      "reason": "Up +44% on a bonding curve with $0 real pool liquidity. Any sell will crash price — but locking +44% is the right play per scalp rules: up >20% with ANY doubt = sell. Take the win, rotate capital."
     }
   ],
   "trade_stats": {
-    "total": 2828,
-    "wins": 1350,
+    "total": 2829,
+    "wins": 1351,
     "losses": 1478,
-    "win_rate_pct": 47.7,
-    "total_pnl_sol": 0.057136,
-    "avg_pnl_pct": 26.76,
+    "win_rate_pct": 47.8,
+    "total_pnl_sol": 0.058255,
+    "avg_pnl_pct": 26.77,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 451,
-    "today_realized_sol": 2.742451,
-    "today_target_pct": 685.6,
+    "today_trades": 452,
+    "today_realized_sol": 2.74357,
+    "today_target_pct": 685.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1350,
+      "win_count": 1351,
       "loss_count": 1478,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T16:44:01.856226+00:00",
+  "last_llm_brief_at": "2026-09-10T16:45:22.242201+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "zn9D3BAQr7hu1yZ6kAct5JjSXFxLTAuQfaPtHqGpump": {
-      "price_usd": 1.2155867610604298e-09,
+      "price_usd": 1.2295699568748491e-09,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.313473054202,
+      "liquidity_usd": 0.31745732228,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.003165691
+      "real_sol_reserves": 0.003185084
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
