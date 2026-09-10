@@ -20323,3 +20323,9 @@
 ## [2026-09-10 19:59 UTC] buy | [LLM] $GS at $4.31176e-06, spent 0.05 SOL
 - **Reasoning:** $GS 'Goldman Sacks' — Wall Street parody narrative, fresh twitter handle, $4.3k mcap, 16% bonded. The 'Wall Street vs trenches' angle is a proven viral frame. Risk: parody coins often rug; small size (5% of 4.55 SOL) is the hedge.
 
+## [2026-09-10 20:00 UTC] sell | [rapid-drop] $GS crashed >15% in one tick | P&L: -31.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 20:00 UTC] buy | [LLM] $CARRY at $1.526e-05, spent 0.05 SOL
+- **Reasoning:** $CARRY has the strongest narrative of the batch ('hold the coin, collect the carry' — a yield-meme meta that's been hot), a real X handle @usecarryportal, highest mcap ($25k) and furthest bond progress (40%) of the fresh launches. Risk: still unbonded, but 0.05 SOL caps the downside and the attention signal is genuine.
+

@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.556642,
+  "balance_sol": 4.540742,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "CHELHg4Pqy9SdoCdZe2yoRyW7g45qLL7uhThrqQtpump": {
-      "symbol": "GS",
-      "name": "Goldman Sacks",
-      "amount": 1153242.1094304929,
-      "entry_price_usd": 4.311757227158117e-06,
+    "GKCvJmW9vgsrvQMsYBySFVcvtVuGeHN6M5B54DPCpump": {
+      "symbol": "CARRY",
+      "name": "Carry Portal",
+      "amount": 325753.6041939712,
+      "entry_price_usd": 1.526e-05,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T19:59:13.629282+00:00",
-      "entry_usd_value": 4.9725,
-      "last_seen_price_usd": 4.311757227158117e-06,
+      "entry_time": "2026-09-10T20:00:47.666211+00:00",
+      "entry_usd_value": 4.971,
+      "last_seen_price_usd": 1.526e-05,
       "entry_signals": {
-        "liquidity_usd": 1398.2789400664499,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4326.498277507376,
-        "ath_market_cap_usd": 8801.133035555788,
+        "liquidity_usd": 5857.51710010494,
+        "volume_24h_usd": 7576.62,
+        "market_cap_usd": 24884.690659493896,
+        "ath_market_cap_usd": 26346.15855674856,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 14.060120061,
-        "description": "Wall Street had Goldman Sachs. Now the trenches have Goldmans Sack.",
-        "twitter": "https://x.com/GoldmanSacksOTC/status/2098139040386056334?s=20",
+        "real_sol_reserves": 58.916888957,
+        "description": "hold the coin, collect the carry.",
+        "twitter": "https://x.com/usecarryportal",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -49871,25 +49871,30 @@
       "pnl_pct": -0.03,
       "exit_reason": "LLM: sell_all — Held $No Crying 0.0h with pool $92 and our share 5% — already huge concentration risk in a tiny pool. -0.0% P&L means flat, and 5% of a $92 pool means",
       "partial": false
+    },
+    {
+      "mint": "CHELHg4Pqy9SdoCdZe2yoRyW7g45qLL7uhThrqQtpump",
+      "symbol": "GS",
+      "name": "Goldman Sacks",
+      "amount_sold": 1153242.1094304929,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T19:59:13.629282+00:00",
+      "exit_time": "2026-09-10T20:00:19.535903+00:00",
+      "entry_price_usd": 4.311757227158117e-06,
+      "exit_price_usd": 2.939704961106962e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0341,
+      "pnl_sol": -0.0159,
+      "pnl_pct": -31.82,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T19:59:13.629623+00:00",
+  "last_updated": "2026-09-10T20:00:47.666540+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.45,
-  "portfolio_value_usd": 458.13,
+  "last_sol_price_usd": 99.42,
+  "portfolio_value_usd": 456.41,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:42 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $helmert crashed >15% in one tick | P&L: -41.6%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
-    {
-      "time": "2026-09-10 19:42 UTC",
-      "action": "buy",
-      "details": "[LLM] $MOOMOO at $7.43711e-06, spent 0.05 SOL",
-      "reason": "$MOOMOO '4chan Bull Mascot' — classic 4chan meme narrative that historically pumps (PEPE lineage), bond 28% (buy pressure building), Twitter signal present, mcap $7.4k has room to run. 0.1 SOL position. Hard stop at -25% will protect if narrative dies."
-    },
     {
       "time": "2026-09-10 19:43 UTC",
       "action": "sell",
@@ -49997,40 +50002,52 @@
       "action": "buy",
       "details": "[LLM] $GS at $4.31176e-06, spent 0.05 SOL",
       "reason": "$GS 'Goldman Sacks' — Wall Street parody narrative, fresh twitter handle, $4.3k mcap, 16% bonded. The 'Wall Street vs trenches' angle is a proven viral frame. Risk: parody coins often rug; small size (5% of 4.55 SOL) is the hedge."
+    },
+    {
+      "time": "2026-09-10 20:00 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $GS crashed >15% in one tick | P&L: -31.8%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 20:00 UTC",
+      "action": "buy",
+      "details": "[LLM] $CARRY at $1.526e-05, spent 0.05 SOL",
+      "reason": "$CARRY has the strongest narrative of the batch ('hold the coin, collect the carry' — a yield-meme meta that's been hot), a real X handle @usecarryportal, highest mcap ($25k) and furthest bond progress (40%) of the fresh launches. Risk: still unbonded, but 0.05 SOL caps the downside and the attention signal is genuine."
     }
   ],
   "trade_stats": {
-    "total": 2932,
+    "total": 2933,
     "wins": 1376,
-    "losses": 1556,
+    "losses": 1557,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 0.340454,
-    "avg_pnl_pct": 26.02,
+    "total_pnl_sol": 0.324554,
+    "avg_pnl_pct": 26.0,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 555,
-    "today_realized_sol": 3.025769,
-    "today_target_pct": 756.4,
+    "today_trades": 556,
+    "today_realized_sol": 3.009869,
+    "today_target_pct": 752.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1376,
-      "loss_count": 1556,
+      "loss_count": 1557,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T19:59:12.191304+00:00",
+  "last_llm_brief_at": "2026-09-10T20:00:46.316199+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "rcd9WsZRuDRvBp3xzSjhhgMeyVGz4sXzLWDjxnzpump": {
-      "price_usd": 2.955279621128433e-06,
+    "CHELHg4Pqy9SdoCdZe2yoRyW7g45qLL7uhThrqQtpump": {
+      "price_usd": 2.939704961106962e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 92.32888871700001,
-      "volume_h24": 92.58,
+      "liquidity_usd": 84.65046514782,
+      "volume_h24": 11939.62,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.92839506
+      "real_sol_reserves": 0.851443021
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
