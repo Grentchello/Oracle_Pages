@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.174367,
+  "balance_sol": 4.146867,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "sUQutJBBDGf3FsuLDbupLHdFcFWcR17Yg8rfFLspump": {
-      "symbol": "puh",
-      "name": "puh",
-      "amount": 804163.3497850662,
-      "entry_price_usd": 6.281e-06,
+    "7zmw462qcHMgXuPJ1jWLjaY1ZjJk3yT3o7BuWiAipump": {
+      "symbol": "WIF",
+      "name": "dogwifmeta",
+      "amount": 1713412.5636672326,
+      "entry_price_usd": 2.945e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T07:36:40.585376+00:00",
-      "entry_usd_value": 5.05095,
-      "last_seen_price_usd": 6.281e-06,
+      "entry_time": "2026-09-10T07:38:29.817813+00:00",
+      "entry_usd_value": 5.046,
+      "last_seen_price_usd": 2.945e-06,
       "entry_signals": {
-        "liquidity_usd": 1770.517351363053,
-        "volume_24h_usd": 3436.18,
-        "market_cap_usd": 5886.569519086669,
-        "ath_market_cap_usd": 6389.01740539302,
+        "liquidity_usd": 1.6681039551599999,
+        "volume_24h_usd": 702.43,
+        "market_cap_usd": 2948.038236098544,
+        "ath_market_cap_usd": 3316.0584087480934,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 17.526577687,
+        "real_sol_reserves": 0.016528973,
         "description": "",
-        "twitter": "https://x.com/MayuriSolss/status/2097952027645010137",
+        "twitter": "https://x.com/derivativist/status/2097952348966400159?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -44210,25 +44210,30 @@
       "pnl_pct": -52.35,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "sUQutJBBDGf3FsuLDbupLHdFcFWcR17Yg8rfFLspump",
+      "symbol": "puh",
+      "name": "puh",
+      "amount_sold": 804163.3497850662,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T07:36:40.585376+00:00",
+      "exit_time": "2026-09-10T07:37:45.053614+00:00",
+      "entry_price_usd": 6.281e-06,
+      "exit_price_usd": 2.8236501159027543e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0225,
+      "pnl_sol": -0.0275,
+      "pnl_pct": -55.04,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T07:36:40.585613+00:00",
+  "last_updated": "2026-09-10T07:38:29.818080+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.019,
-  "portfolio_value_usd": 426.74,
+  "last_sol_price_usd": 100.92,
+  "portfolio_value_usd": 423.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 07:17 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $bizcat at $5.8981e-06 | P&L: +25.3%",
-      "reason": "+$25.3% with bot auto-TP at +30%/25% imminent — also bizcat narrative is stale and bonding-curve pool only $1344 (fragile liquidity) so I'd rather lock gain than hope for the +100% rung on a thin book. Take profit, free the slot."
-    },
-    {
-      "time": "2026-09-10 07:17 UTC",
-      "action": "buy",
-      "details": "[LLM] $CHET at $3.09282e-06, spent 0.05 SOL",
-      "reason": "$CHET (chetgtp) — AI chatbot narrative riding the GPT/AI agent meta, dedicated @chetgtpai account, description is decent. mcap $3k means earliest possible entry. Viability check: desc ~50 chars ✓, has twitter ✓, liquidity ~$3k borderline but acceptable. ME2F should clear (no political/celebrity keyword). High variance but right attention thesis for a small position."
-    },
     {
       "time": "2026-09-10 07:18 UTC",
       "action": "sell",
@@ -44336,40 +44341,52 @@
       "action": "buy",
       "details": "[LLM] $puh at $6.281e-06, spent 0.05 SOL",
       "reason": "$PUH at $5.8k mcap, brand new (0.8min), has an X post attached. Simple memorable name with attention hook. Viability gate passes (twitter present). Fragility gate passes (no flagged keywords). 0.1 SOL position."
+    },
+    {
+      "time": "2026-09-10 07:37 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $puh crashed >15% in one tick | P&L: -55.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 07:38 UTC",
+      "action": "buy",
+      "details": "[LLM] $WIF at $2.945e-06, spent 0.05 SOL",
+      "reason": "$WIF 'dogwifmeta' taps into the original dogwifhat meta (peak attention brand). Has X post from derivativist (larger account signal), mcap only $2.9k at 1min old = fresh launch with viral brand recognition and low entry. Classic attention play."
     }
   ],
   "trade_stats": {
-    "total": 2599,
+    "total": 2600,
     "wins": 1263,
-    "losses": 1336,
+    "losses": 1337,
     "win_rate_pct": 48.6,
-    "total_pnl_sol": -0.041926,
-    "avg_pnl_pct": 28.81,
+    "total_pnl_sol": -0.069426,
+    "avg_pnl_pct": 28.78,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 222,
-    "today_realized_sol": 2.643389,
-    "today_target_pct": 660.8,
+    "today_trades": 223,
+    "today_realized_sol": 2.615889,
+    "today_target_pct": 654.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1263,
-      "loss_count": 1336,
+      "loss_count": 1337,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T07:36:39.255305+00:00",
+  "last_llm_brief_at": "2026-09-10T07:38:28.481153+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "CmD3qDfJ2Sp86rkKHm9nX4LZDiP9BBK2Tn2SwkatMugf": {
-      "price_usd": 2.862614281574188e-06,
+    "sUQutJBBDGf3FsuLDbupLHdFcFWcR17Yg8rfFLspump": {
+      "price_usd": 2.8236501159027543e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 20.438642303946,
-      "volume_h24": 4227.24,
+      "liquidity_usd": 1.08809481552,
+      "volume_h24": 8039.4,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.202324734
+      "real_sol_reserves": 0.010781756
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

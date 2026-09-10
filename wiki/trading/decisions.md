@@ -18472,3 +18472,9 @@
 ## [2026-09-10 07:36 UTC] buy | [LLM] $puh at $6.281e-06, spent 0.05 SOL
 - **Reasoning:** $PUH at $5.8k mcap, brand new (0.8min), has an X post attached. Simple memorable name with attention hook. Viability gate passes (twitter present). Fragility gate passes (no flagged keywords). 0.1 SOL position.
 
+## [2026-09-10 07:37 UTC] sell | [rapid-drop] $puh crashed >15% in one tick | P&L: -55.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 07:38 UTC] buy | [LLM] $WIF at $2.945e-06, spent 0.05 SOL
+- **Reasoning:** $WIF 'dogwifmeta' taps into the original dogwifhat meta (peak attention brand). Has X post from derivativist (larger account signal), mcap only $2.9k at 1min old = fresh launch with viral brand recognition and low entry. Classic attention play.
+
