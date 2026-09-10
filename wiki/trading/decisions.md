@@ -18646,3 +18646,6 @@
 ## [2026-09-10 08:46 UTC] buy | [LLM] $INTERN at $2.29786e-07, spent 0.05 SOL
 - **Reasoning:** $INTERN 'Pay the $INTERN' is a relatable viral office meme with twitter presence, fresh launch at $5.9k mcap — classic attention-launched narrative with room to 5-10x.
 
+## [2026-09-10 08:47 UTC] sell | [FULL][LLM] $INTERN at $2.37652e-07 | P&L: +3.4%
+- **Reasoning:** Only +3.4% but I own 13% of a $40 pool — I AM the liquidity. Any meaningful size exit would crater price. Locking small green and freeing the slot is correct.
+
