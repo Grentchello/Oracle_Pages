@@ -20896,3 +20896,6 @@
 ## [2026-09-10 23:55 UTC] buy | [LLM] $DEPE at $3.846e-06, spent 0.05 SOL
 - **Reasoning:** $DEPE (Delulu Pepe) — Pepe is a battle-tested $1B+ meme IP family, 'Delulu' is trending Gen-Z internet slang, and there's an active Twitter account. $3.9k mcap at ~0.7min age with 13% bonding curve = very early entry with massive room. Risk: sub-1min launch is extremely fresh, liquidity is thin, and pure narrative (no utility) — but that's exactly where memecoin alpha lives.
 
+## [2026-09-10 23:56 UTC] sell | [FULL][LLM] $DEPE at $4.33722e-06 | P&L: +12.8%
+- **Reasoning:** $DEPE is up +12.8% on a fresh entry, not stale yet. Pool is thin ($746) so I want to give it a few more minutes to push toward the +25% auto-TP before taking profit. If it stalls flat, I'll exit on the next tick.
+

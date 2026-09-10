@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.296955,
+  "balance_sol": 9.353432,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2wz6Jws6FFSWYEN63q6iYvpi3Ept5YUeUNQeQ3eapump": {
-      "symbol": "DEPE",
-      "name": "Delulu Pepe",
-      "amount": 1290951.6380655225,
-      "entry_price_usd": 3.846e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T23:55:02.357492+00:00",
-      "entry_usd_value": 4.965,
-      "last_seen_price_usd": 3.846e-06,
-      "entry_signals": {
-        "liquidity_usd": 573.4081823570999,
-        "volume_24h_usd": 650.1,
-        "market_cap_usd": 3858.937327711094,
-        "ath_market_cap_usd": 4534.838549629372,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.774503347,
-        "description": "",
-        "twitter": "https://x.com/delulu_pepe?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51571,19 +51547,30 @@
       "pnl_pct": -41.73,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "2wz6Jws6FFSWYEN63q6iYvpi3Ept5YUeUNQeQ3eapump",
+      "symbol": "DEPE",
+      "name": "Delulu Pepe",
+      "amount_sold": 1290951.6380655225,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T23:55:02.357492+00:00",
+      "exit_time": "2026-09-10T23:56:26.768081+00:00",
+      "entry_price_usd": 3.846e-06,
+      "exit_price_usd": 4.3372190376019415e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.056477,
+      "pnl_sol": 0.006477,
+      "pnl_pct": 12.77,
+      "exit_reason": "LLM: sell_all — $DEPE is up +12.8% on a fresh entry, not stale yet. Pool is thin ($746) so I want to give it a few more minutes to push toward the +25% auto-TP before",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T23:55:02.357663+00:00",
+  "last_updated": "2026-09-10T23:56:26.768327+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.3,
-  "portfolio_value_usd": 928.15,
+  "last_sol_price_usd": 99.14,
+  "portfolio_value_usd": 927.3,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 23:35 UTC",
-      "action": "buy",
-      "details": "[LLM] $CPU at $9.56155e-09, spent 0.05 SOL",
-      "reason": "$CPU (Cat Processing Unit) — cat + tech meme formula is a proven viral combo. Highest mcap ($9.6k) of the fresh launches signals organic buy-in, twitter link present for attention spread, passes viability (twitter) and fragility gates. Age 1.2min is early enough to catch the wave before it pumps."
-    },
     {
       "time": "2026-09-10 23:36 UTC",
       "action": "sell",
@@ -51697,30 +51684,48 @@
       "action": "buy",
       "details": "[LLM] $DEPE at $3.846e-06, spent 0.05 SOL",
       "reason": "$DEPE (Delulu Pepe) — Pepe is a battle-tested $1B+ meme IP family, 'Delulu' is trending Gen-Z internet slang, and there's an active Twitter account. $3.9k mcap at ~0.7min age with 13% bonding curve = very early entry with massive room. Risk: sub-1min launch is extremely fresh, liquidity is thin, and pure narrative (no utility) — but that's exactly where memecoin alpha lives."
+    },
+    {
+      "time": "2026-09-10 23:56 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DEPE at $4.33722e-06 | P&L: +12.8%",
+      "reason": "$DEPE is up +12.8% on a fresh entry, not stale yet. Pool is thin ($746) so I want to give it a few more minutes to push toward the +25% auto-TP before taking profit. If it stalls flat, I'll exit on the next tick."
     }
   ],
   "trade_stats": {
-    "total": 3032,
-    "wins": 1417,
+    "total": 3033,
+    "wins": 1418,
     "losses": 1615,
-    "win_rate_pct": 46.7,
-    "total_pnl_sol": 5.080766,
-    "avg_pnl_pct": 28.31,
+    "win_rate_pct": 46.8,
+    "total_pnl_sol": 5.087243,
+    "avg_pnl_pct": 28.3,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 655,
-    "today_realized_sol": 7.766081,
-    "today_target_pct": 1941.5,
+    "today_trades": 656,
+    "today_realized_sol": 7.772558,
+    "today_target_pct": 1943.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1417,
+      "win_count": 1418,
       "loss_count": 1615,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T23:55:00.432991+00:00",
+  "last_llm_brief_at": "2026-09-10T23:56:26.767927+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2wz6Jws6FFSWYEN63q6iYvpi3Ept5YUeUNQeQ3eapump": {
+      "price_usd": 4.3372190376019415e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 746.2084642815599,
+      "volume_h24": 3243.55,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 7.526815254
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
