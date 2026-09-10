@@ -19444,3 +19444,9 @@
 ## [2026-09-10 14:42 UTC] buy | [LLM] $HOMO at $6.0426e-06, spent 0.05 SOL
 - **Reasoning:** $HOMO — absurd acronym stack (Hyperliquid+OpenAI+McDonalds+OTC) is a proven viral-meme format. Highest mcap ($6k) among fresh launches suggests some early traction, non-serial Twitter source (@alphapr0phet), and bond still at 24% means genuine early attention. Risk: 0.5min old means extremely volatile; size is small ($5) so loss is bounded.
 
+## [2026-09-10 14:43 UTC] sell | [rapid-drop] $HOMO crashed >15% in one tick | P&L: -53.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 14:43 UTC] buy | [LLM] $BUFFETT at $9.96593e-08, spent 0.05 SOL
+- **Reasoning:** $BUFFETT: Warren Buffett meme coin, mcap $5k, bond 10%. Buffett retirement/death narrative is evergreen attention bait — 'Warren Buffett is dead' style viral potential. Fresh uxento launch, X post active. Small position to test narrative traction. Risk: discord.gg/uxento = low-effort launchpad, expect rug behavior.
+
