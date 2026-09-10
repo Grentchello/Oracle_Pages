@@ -17578,3 +17578,6 @@
 ## [2026-09-10 02:03 UTC] buy | [LLM] $ACAT at $3.09503e-06, spent 0.05 SOL
 - **Reasoning:** $ACAT (alon cat): classic cat-coin revival narrative ('another cat coin to revive the trenches') backed by @ddddddd8a who is a known serial cat-coin launcher with viral attention. Mcap $3k is fresh, narrative is simple and memeable, attention signal is real (X post exists). High rug risk but asymmetry favors entry at this size.
 
+## [2026-09-10 02:04 UTC] sell | [PARTIAL][LLM] $ACAT at $2.85001e-06 | P&L: -7.9%
+- **Reasoning:** ACAT is down -7.9% on a tiny $12 pool where we own 38% — that's dangerously illiquid and we'll get crushed on exit. Flat in minutes with no bounce signal. Cut now and free the slot.
+
