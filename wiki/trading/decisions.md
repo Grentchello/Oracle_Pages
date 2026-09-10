@@ -19828,3 +19828,6 @@
 ## [2026-09-10 17:19 UTC] sell | [FULL][LLM] $Duffies at $3.20272e-06 | P&L: -0.0%
 - **Reasoning:** $Duffies is at break-even, just entered. No movement to act on yet. Give it a few minutes for the bonding curve to develop before judging.
 
+## [2026-09-10 17:23 UTC] buy | [LLM] $Solana Sum at $2.843e-06, spent 0.05 SOL
+- **Reasoning:** Toly (Solana co-founder) posted about it — rare top-tier catalyst that historically drives 2-10x pumps in first hour. Mcap $2,850 + 1% bond = thin but the narrative is the strongest in this batch. $5 position (0.05 SOL) caps downside; if it doesn't move in 15 min, exit as stale.
+
