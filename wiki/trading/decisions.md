@@ -17887,3 +17887,9 @@
 ## [2026-09-10 04:02 UTC] buy | [LLM] $TROOPER at $3.35089e-06, spent 0.05 SOL
 - **Reasoning:** $TROOPER has a real viral rescue-dog story tied to an X post (police trooper adopting abandoned puppy) — classic memecoin attention-driver. $3.3k mcap with bonding curve only 7% complete = huge upside if narrative catches. Acknowledging risk: very fresh, very small, could rug fast.
 
+## [2026-09-10 04:03 UTC] sell | [FULL][LLM] $TROOPER at $3.69553e-06 | P&L: +10.3%
+- **Reasoning:** +10.3% is decent but bonding-curve pool only $425, age 0min, and bot hasn't hit any TP yet. With cap1/1 positions and multiple fresh launches competing for capital, I'd rather rotate into new attention than babysit a thin pool. Lock the gain.
+
+## [2026-09-10 04:03 UTC] buy | [LLM] $ZOIN at $6.21221e-06, spent 0.05 SOL
+- **Reasoning:** $ZOIN (Zoinbase) — play on Coinbase name confusion, age 0.2min, has Twitter post, narrative has legs in crypto Twitter. $6k mcap with viral-name potential is classic5-50x setup if it trends.
+
