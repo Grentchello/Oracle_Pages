@@ -20518,3 +20518,6 @@
 ## [2026-09-10 21:24 UTC] sell | [FULL][LLM] $att at $2.47151e-06 | P&L: +15.0%
 - **Reasoning:** Up 15% on $att, held 0.0h, pool $242 (bonding-curve stage). Not yet at any TP threshold (+30% triggers 25% auto-sell). Small pool means easy 2-3x potential if momentum builds. Selling now locks in ~$0.75 SOL and burns the slot for marginal gain.
 
+## [2026-09-10 21:25 UTC] buy | [LLM] $fg at $5.53626e-07, spent 0.05 SOL
+- **Reasoning:** Falling Guy is a classic universally recognized meme reference with instant narrative clarity and ultra-low mcap ($552) — pure attention-market lottery ticket, fits 0.05 SOL position size.
+
