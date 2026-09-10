@@ -20158,3 +20158,9 @@
 ## [2026-09-10 19:12 UTC] buy | [LLM] $GOSTA at $8.39854e-06, spent 0.05 SOL
 - **Reasoning:** $GOSTA 'The Narcoleptic Pup' — freshest launch (0.3min), highest bond completion (30%), $8.4k mcap, real twitter handle @heishimmy with viral post. Memorable narrative name, ideal early-attention entry. Risk: very new, low liquidity — but that's where alpha is.
 
+## [2026-09-10 19:14 UTC] sell | [FULL][LLM] $GOSTA at $1.00855e-05 | P&L: +20.1%
+- **Reasoning:** Up +20.1% but pool is only $2,698 (way below 5x position size), our share is 0% so we can't exit at quoted price anyway. The thin liquidity means this is exit-impossible at fair value — sell_all to attempt exit before liquidity evaporates or anything reverses.
+
+## [2026-09-10 19:14 UTC] buy | [LLM] $APEZCAT at $9.22634e-06, spent 0.05 SOL
+- **Reasoning:** $APEZCAT has crossover narrative (ape + cat), fresh launch with viral X post, mcap only $9k — extreme early attention entry. Small position, classic meme crossover story.
+
