@@ -20500,3 +20500,6 @@
 ## [2026-09-10 21:13 UTC] sell | [FULL][LLM] $WENDY at $2.84948e-06 | P&L: -7.1%
 - **Reasoning:** Down -7.1% with our position at 17% of a $28 pool = textbook liquidity trap. No bounce signal, no narrative revival. Exiting fast per loser rule before this drifts toward -25% hard stop.
 
+## [2026-09-10 21:17 UTC] buy | [LLM] $Rocket at $5.67491e-06, spent 0.05 SOL
+- **Reasoning:** $Rocket 'The Tesla Hero' — Tesla is a permanent attention magnet, 0.1min old with a viral X post from @LoreDevor, $5.6k mcap with 23% bonding gives early-entry room. Strong narrative + fresh attention = textbook attention-market play. Risk: brand-new launch, low liquidity, could rug instantly — but the bot's -25% hard cap and 0.05 SOL size limits the downside.
+
