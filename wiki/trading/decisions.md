@@ -20383,3 +20383,6 @@
 ## [2026-09-10 20:25 UTC] sell | [rapid-drop] $0DTE crashed >15% in one tick | P&L: -35.5%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 20:27 UTC] buy | [LLM] $WENDY at $3.63998e-06, spent 0.05 SOL
+- **Reasoning:** $WENDY has the strongest attention signal: DailyMail (major news outlet, millions of followers) X post about a viral 'Justice for Wendy' story, plus a SECOND mint already launching on the same narrative ('they killed him viral') which confirms the story is trending and has real demand. Low mcap ($3.6k) means room for 5-10x if the story catches broader attention. Risk: bond only 11%, narrative may not break beyond DailyMail's audience.
+

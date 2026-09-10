@@ -1,8 +1,32 @@
 {
-  "balance_sol": 6.065853,
+  "balance_sol": 6.015853,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "2Sz9K5MuJ5HHWsXVBrJqG1XUoXKM27H2TEHX4CYHpump": {
+      "symbol": "WENDY",
+      "name": "Justice for Wendy",
+      "amount": 1371847.4510679776,
+      "entry_price_usd": 3.6399819791279137e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T20:27:20.883700+00:00",
+      "entry_usd_value": 4.993500000000001,
+      "last_seen_price_usd": 3.6399819791279137e-06,
+      "entry_signals": {
+        "liquidity_usd": 178.62608811441,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3643.744039819124,
+        "ath_market_cap_usd": 7532.158651246432,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.788586043,
+        "description": "",
+        "twitter": "https://x.com/DailyMail/status/2098144398831739008",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50036,17 +50060,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T20:25:57.042795+00:00",
+  "last_updated": "2026-09-10T20:27:20.883974+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.37,
-  "portfolio_value_usd": 608.83,
+  "last_sol_price_usd": 99.87,
+  "portfolio_value_usd": 605.8,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 20:00 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $GS crashed >15% in one tick | P&L: -31.8%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 20:00 UTC",
       "action": "buy",
@@ -50160,6 +50178,12 @@
       "action": "sell",
       "details": "[rapid-drop] $0DTE crashed >15% in one tick | P&L: -35.5%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 20:27 UTC",
+      "action": "buy",
+      "details": "[LLM] $WENDY at $3.63998e-06, spent 0.05 SOL",
+      "reason": "$WENDY has the strongest attention signal: DailyMail (major news outlet, millions of followers) X post about a viral 'Justice for Wendy' story, plus a SECOND mint already launching on the same narrative ('they killed him viral') which confirms the story is trending and has real demand. Low mcap ($3.6k) means room for 5-10x if the story catches broader attention. Risk: bond only 11%, narrative may not break beyond DailyMail's audience."
     }
   ],
   "trade_stats": {
@@ -50181,21 +50205,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T20:25:56.793719+00:00",
+  "last_llm_brief_at": "2026-09-10T20:27:19.611107+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "4Pj8RXADmqoT5FuZSVhjHW6fCtNxqgEvwgwn3Ygvpump": {
-      "price_usd": 2.8062441759580245e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 8.0296e-07,
-      "volume_h24": 1519.88,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 8e-09
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
