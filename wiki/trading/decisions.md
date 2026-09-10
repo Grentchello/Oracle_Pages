@@ -18184,3 +18184,6 @@
 ## [2026-09-10 05:39 UTC] buy | [LLM] $OPTIMUS at $1.4056e-07, spent 0.05 SOL
 - **Reasoning:** $OPTIMUS 'infinite money glitch' — viral phrase, launched from discord (organic community), fresh at 0.3min, $5k mcap. Narrative hook is strong but only 1.6x size of NEKO — NEKO has stronger meme heritage.
 
+## [2026-09-10 05:40 UTC] sell | [rapid-drop] $OPTIMUS crashed >15% in one tick | P&L: -21.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
