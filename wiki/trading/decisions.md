@@ -19561,3 +19561,9 @@
 ## [2026-09-10 15:27 UTC] buy | [LLM] $BUCKAZOID at $6.456e-06, spent 0.05 SOL
 - **Reasoning:** BUCKAZOID — pop-culture recognizable reference (Futurama), $13.8k mcap fresh launch, narrative hook gives it attention potential. Best risk/reward of the new launches.
 
+## [2026-09-10 15:28 UTC] sell | [rapid-drop] $BUCKAZOID crashed >15% in one tick | P&L: -91.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 15:29 UTC] buy | [LLM] $POOP at $4.897e-05, spent 0.05 SOL
+- **Reasoning:** $POOP/NASPOOP has classic memecoin DNA: irreverent humor narrative (shitcoin meta is evergreen — $PEPE lineage), live X account @naspoopsol, $52k mcap is in the sweet spot (not micro-cap dust, not yet priced-in), and 43% bond completion shows genuine organic buying pressure. Crude humor tokens with social presence historically 5-10x in first hours. Risk: narrative could be one-joke and die fast — that's why we have the -25% hard cap.
+
