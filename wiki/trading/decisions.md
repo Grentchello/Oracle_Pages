@@ -18256,3 +18256,6 @@
 ## [2026-09-10 06:10 UTC] buy | [LLM] $Fomo Lisa at $4.085e-06, spent 0.05 SOL
 - **Reasoning:** Meta-narrative 'the chart was the painting' taps into memecoin/artist culture — strong viral potential. 1.1min old, $4.8k mcap, has dedicated twitter handle. Fresh attention with a clear story, exactly what we're hunting. 0.05 SOL position.
 
+## [2026-09-10 06:11 UTC] sell | [FULL][LLM] $Fomo Lisa at $4.96916e-06 | P&L: +21.6%
+- **Reasoning:** +21.6% in0 min and approaching auto-TP zone. Bonding-curve pool is tiny ($982) and our1% share makes exit harder as price rises. Lock the gain now — this is peak attention for a micro-cap art derivative.
+
