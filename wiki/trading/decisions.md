@@ -17803,3 +17803,9 @@
 ## [2026-09-10 03:27 UTC] buy | [LLM] $HaWG at $3.709e-06, spent 0.05 SOL
 - **Reasoning:** $HaWG — strongest narrative of the batch: $ORE dividend-paying memecoin with a community SoV angle. Has both description and twitter, passes viability. Dividend mechanic gives it a reason to hold beyond pure attention.
 
+## [2026-09-10 03:28 UTC] sell | [v8.7 TP +50% (full)] $HaWG at $1.07239e-05 | P&L: +189.1%
+- **Reasoning:** Auto take-profit at +189.1%
+
+## [2026-09-10 03:28 UTC] buy | [LLM] $gras at $2.90103e-06, spent 0.05 SOL
+- **Reasoning:** $gras — 'Cupsey Touches Grass' rides on Cupsey, a well-known Solana memecoin figure. In-joke narrative = native attention from degens already watching. $2.9k mcap, 0.1min old, twitter post present — clean fresh-launch scalp with asymmetric upside if the figure tweets/replies. Risk: in-jokes can die instantly with no follow-through; 30min hard exit protects.
+
