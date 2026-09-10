@@ -17764,3 +17764,9 @@
 ## [2026-09-10 03:11 UTC] sell | [PARTIAL][LLM] $FLY at $3.38373e-07 | P&L: +13.2%
 - **Reasoning:** FLY is up 13.2% with strong initial attention and an 8% position share, but its $72 pool is extremely thin and most of the move may already be captured. Take half profit while allowing the other half to ride the viral narrative.
 
+## [2026-09-10 03:12 UTC] sell | [rapid-drop] $FLY crashed >15% in one tick | P&L: -20.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 03:12 UTC] buy | [LLM] $LMI at $1.15056e-09, spent 0.05 SOL
+- **Reasoning:** $LMI 'Lockheed Martin Inu' — defense/defense-stock parody is a timely narrative (LMT hot, gov contracts memeable). Real X account @LMIonPF, $6k mcap with 16% bond filled,<1min old. Low entry, clear story, viral potential if the account posts.
+
