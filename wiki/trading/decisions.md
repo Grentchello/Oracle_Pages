@@ -18721,3 +18721,6 @@
 ## [2026-09-10 09:34 UTC] sell | [FULL][LLM] $BetOnBlak at $4.03151e-06 | P&L: +14.1%
 - **Reasoning:** Pool is $1 with my 17% share — position is effectively illiquid and the +14% is unrealizable. Freeing the slot to rotate into a better-narrative candidate (Nasdaq6900 with verified twitter handle) is higher EV than waiting for the bot's auto-exit.
 
+## [2026-09-10 09:38 UTC] buy | [LLM] $ZLION at $3.48132e-08, spent 0.05 SOL
+- **Reasoning:** $ZLION has its own dedicated @ZLIONonSOL twitter account (not just a one-off post) and is the highest-mcap fresh launch at $4.2k — both signs of pre-existing attention rather than pure pump-and-dump. ZCash-Lion mashup has a clear narrative hook. Risks: still tiny mcap, bond only 1%, viability gate may fail since description is short — if skipped by gates, no trade.
+
