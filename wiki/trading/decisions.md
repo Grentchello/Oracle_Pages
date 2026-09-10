@@ -19144,3 +19144,6 @@
 ## [2026-09-10 12:44 UTC] buy | [LLM] $FlyCar at $8.573e-06, spent 0.05 SOL
 - **Reasoning:** $FlyCar — buying adspace on the viral X 'Fly car' is a real attention event with a concrete viral mechanic. $8k mcap is genuine early-entry territory, narrative is clear and shareable. Risk: ultra-low mcap means illiquid exit, but the attention signal is strong and distinct from generic noise.
 
+## [2026-09-10 12:46 UTC] sell | [FULL][LLM] $FlyCar at $8.5312e-06 | P&L: -0.5%
+- **Reasoning:** Just entered 0.0h ago, -0.5% is noise not signal. Bot auto-stop at -25% and 30min stale protects downside. Need a few minutes to see if bonding curve catches bid.
+

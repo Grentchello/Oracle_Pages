@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.781684,
+  "balance_sol": 4.831197,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GMQXPMyEZZy4f7qBWfe21BGpnJ7E5qAf6tNyA6jkpump": {
-      "symbol": "FlyCar",
-      "name": "The Flycoin Car",
-      "amount": 581943.3103930947,
-      "entry_price_usd": 8.573e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T12:44:55.727575+00:00",
-      "entry_usd_value": 4.989000000000001,
-      "last_seen_price_usd": 8.573e-06,
-      "entry_signals": {
-        "liquidity_usd": 3417.386408283,
-        "volume_24h_usd": 4772.45,
-        "market_cap_usd": 8214.835241617762,
-        "ath_market_cap_usd": 9291.642675078856,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 34.24921235,
-        "description": "buying all of the adspace on the viral Fly car on X",
-        "twitter": "https://x.com/Grodriguezz18/status/2098029394191167617?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -46352,19 +46328,30 @@
       "pnl_pct": -0.52,
       "exit_reason": "LLM: sell_all — Only -0.5% after 6min, well within noise. Narrative is clearly hot — 14+ copycat launches in one tick prove real attention. Free slot now would mean b",
       "partial": false
+    },
+    {
+      "mint": "GMQXPMyEZZy4f7qBWfe21BGpnJ7E5qAf6tNyA6jkpump",
+      "symbol": "FlyCar",
+      "name": "The Flycoin Car",
+      "amount_sold": 581943.3103930947,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T12:44:55.727575+00:00",
+      "exit_time": "2026-09-10T12:46:25.828277+00:00",
+      "entry_price_usd": 8.573e-06,
+      "exit_price_usd": 8.531204981453374e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049513,
+      "pnl_sol": -0.000487,
+      "pnl_pct": -0.49,
+      "exit_reason": "LLM: sell_all — Just entered 0.0h ago, -0.5% is noise not signal. Bot auto-stop at -25% and 30min stale protects downside. Need a few minutes to see if bonding curve ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T12:44:55.727757+00:00",
+  "last_updated": "2026-09-10T12:46:25.828506+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.78,
-  "portfolio_value_usd": 482.11,
+  "last_sol_price_usd": 100.27,
+  "portfolio_value_usd": 484.42,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 12:20 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $DSK crashed >15% in one tick | P&L: -66.8%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 12:23 UTC",
       "action": "buy",
@@ -46478,30 +46465,48 @@
       "action": "buy",
       "details": "[LLM] $FlyCar at $8.573e-06, spent 0.05 SOL",
       "reason": "$FlyCar — buying adspace on the viral X 'Fly car' is a real attention event with a concrete viral mechanic. $8k mcap is genuine early-entry territory, narrative is clear and shareable. Risk: ultra-low mcap means illiquid exit, but the attention signal is strong and distinct from generic noise."
+    },
+    {
+      "time": "2026-09-10 12:46 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FlyCar at $8.5312e-06 | P&L: -0.5%",
+      "reason": "Just entered 0.0h ago, -0.5% is noise not signal. Bot auto-stop at -25% and 30min stale protects downside. Need a few minutes to see if bonding curve catches bid."
     }
   ],
   "trade_stats": {
-    "total": 2725,
+    "total": 2726,
     "wins": 1318,
-    "losses": 1407,
-    "win_rate_pct": 48.4,
-    "total_pnl_sol": 0.565441,
-    "avg_pnl_pct": 28.08,
+    "losses": 1408,
+    "win_rate_pct": 48.3,
+    "total_pnl_sol": 0.564954,
+    "avg_pnl_pct": 28.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 348,
-    "today_realized_sol": 3.250756,
-    "today_target_pct": 812.7,
+    "today_trades": 349,
+    "today_realized_sol": 3.250269,
+    "today_target_pct": 812.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1318,
-      "loss_count": 1407,
+      "loss_count": 1408,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T12:44:54.406813+00:00",
+  "last_llm_brief_at": "2026-09-10T12:46:25.828129+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GMQXPMyEZZy4f7qBWfe21BGpnJ7E5qAf6tNyA6jkpump": {
+      "price_usd": 8.531204981453374e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2239.38474425382,
+      "volume_h24": 8570.63,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 22.333546866
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
