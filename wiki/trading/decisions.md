@@ -18337,3 +18337,6 @@
 ## [2026-09-10 06:41 UTC] buy | [LLM] $GARY at $6.31943e-09, spent 0.05 SOL
 - **Reasoning:** $GARY (Gary The Snail) — $9.1k mcap with 26% bonding curve already filled in 30 seconds suggests viral pump.fun traction. Memorable character narrative + bonding curve momentum = classic early-launch signal. Position size 0.05 SOL.
 
+## [2026-09-10 06:43 UTC] sell | [rapid-drop] $GARY crashed >15% in one tick | P&L: -22.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
