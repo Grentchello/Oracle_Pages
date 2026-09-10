@@ -20245,3 +20245,9 @@
 ## [2026-09-10 19:36 UTC] buy | [LLM] $VIBE at $7.452e-06, spent 0.05 SOL
 - **Reasoning:** $VIBE linked to toly (Solana co-founder) tweet at only $8.7k mcap — if genuine, this is mega attention at microcap, asymmetric 5-10x setup. Risk: could be impersonator, size is small enough to absorb a rug.
 
+## [2026-09-10 19:37 UTC] sell | [rapid-drop] $VIBE crashed >15% in one tick | P&L: -62.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:38 UTC] buy | [LLM] $bullton at $1.676e-05, spent 0.05 SOL
+- **Reasoning:** $bullton — 'bull baton' narrative with explicit Ansem dev allocation (10% supply) is a classic attention catalyst on Solana. $25k mcap at 1min old is in the sweet spot for early entry; both viability gates pass (desc + twitter). Risk: bond only 40%, so still pre-graduate — but that's where the alpha is.
+
