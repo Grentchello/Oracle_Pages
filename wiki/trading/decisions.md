@@ -20710,3 +20710,9 @@
 ## [2026-09-10 22:47 UTC] buy | [LLM] $Corf at $2.922e-06, spent 0.05 SOL
 - **Reasoning:** $Corf has a dedicated X account (@thecorfpump) posting about it within minutes of launch — that's the attention signal memecoin scalps need. Mcap $7.5k, bonding 28%, fresh narrative. Skip reasoning: but I already have 1/1 positions open, so this can't execute.
 
+## [2026-09-10 22:48 UTC] sell | [v8.7 TP +50% (full)] $Corf at $1.14251e-05 | P&L: +291.0%
+- **Reasoning:** Auto take-profit at +291.0%
+
+## [2026-09-10 22:49 UTC] buy | [LLM] $NOPUMP.FUN? at $2.95707e-06, spent 0.05 SOL
+- **Reasoning:** $NOPUMP.FUN? has the strongest meta-narrative here — anti-pump.fun contrarian joke with a dedicated X handle (@DevReputation), mcap $3k at 18s old. Asymmetric attention play: if the anti-pump.fun thesis catches on with CT, easy 3-5x from this base; if not, -25% hard stop caps the loss. Bonding only 3% complete so liquidity is thin — that's the risk, but the prompt explicitly says don't wait for confirmation.
+
