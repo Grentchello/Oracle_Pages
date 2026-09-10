@@ -18013,3 +18013,6 @@
 ## [2026-09-10 04:43 UTC] sell | [PARTIAL][LLM] $60P at $2.85452e-06 | P&L: -0.1%
 - **Reasoning:** 5066% share means we are the entire liquidity — any real exit will crash through us. Better to cut at -0.1% now than become exit liquidity for the next buyer. Free the slot to rotate.
 
+## [2026-09-10 04:44 UTC] sell | [FULL][LLM] $60P at $2.85117e-06 | P&L: -0.2%
+- **Reasoning:** Just entered ($60P), sitting at -0.2% which is pure noise. No momentum signal in either direction yet — give it a few minutes to develop. Bot will auto-stop at -25% if it bleeds.
+
