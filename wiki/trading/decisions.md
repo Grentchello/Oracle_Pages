@@ -17422,3 +17422,6 @@
 ## [2026-09-10 01:08 UTC] buy | [LLM] $PISSCOIN at $8.08965e-06, spent 0.05 SOL
 - **Reasoning:** $PISSCOIN — crude humor meme with confirmed X post from @therhenjoyer, 0.3min old at $8k mcap with 29% bond. Crude-name tokens consistently capture attention on Pump.fun (PEPE lineage). $8k mcap leaves 10x+ upside, liquidity adequate for 0.05 SOL position.
 
+## [2026-09-10 01:10 UTC] sell | [PARTIAL][LLM] $PISSCOIN at $1.00415e-05 | P&L: +24.1%
+- **Reasoning:** Up 24.1% and just below the +25% auto-TP threshold. Bonding-curve token with $2.6k pool and 0% share — thin liquidity means any retracement will be fast. Lock half the gain to secure profit while letting the rest ride if momentum continues.
+
