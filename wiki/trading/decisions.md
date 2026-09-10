@@ -18193,3 +18193,6 @@
 ## [2026-09-10 05:45 UTC] sell | [FULL][LLM] $PSYOP at $2.85154e-06 | P&L: -7.5%
 - **Reasoning:** PSYOP only -7.5% and just opened (0.0h held), well within the -25% hard cap. Bonding-curve position with huge share % is expected for a fresh buy. Give it room to develop before cutting.
 
+## [2026-09-10 05:48 UTC] buy | [LLM] $ted at $2.872e-06, spent 0.05 SOL
+- **Reasoning:** $ted 'HES LIVE ON NO CASHBACK' ties to viral streamer culture moment (Edgeyy has crypto CT reach). 0.05 SOL risk acceptable for attention-driven narrative. Multiple mints is a yellow flag (possible bundler split) but one legit mint can still pump on the narrative.
+
