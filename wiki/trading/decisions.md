@@ -19651,3 +19651,9 @@
 ## [2026-09-10 16:00 UTC] buy | [LLM] $Jirkin at $4.00738e-06, spent 0.05 SOL
 - **Reasoning:** $Jirkin is the freshest launch with a real X attention signal from @coinvswall at 0.5min age. Mcap $3.9k with bond 14% = entry point still open. Memecoin name + viral tweet is the exact attention recipe; risk is rug on a 0.5min old mint but position is 0.05 SOL so loss capped.
 
+## [2026-09-10 16:01 UTC] sell | [rapid-drop] $Jirkin crashed >15% in one tick | P&L: -26.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 16:01 UTC] buy | [LLM] $Meow at $4.3608e-06, spent 0.05 SOL
+- **Reasoning:** $Meow 'SpaceX Cat' — SpaceX is a perma-viral meme factory (Musk tweets, Starship launches, Elon cat posts). Combining with cat is a known attention combo. Has Twitter link, age 0.1min = maximum discovery window. 0.05 SOL = $5 risk, acceptable speculation on narrative. Will watch for +20% to take half, -15% to exit.
+
