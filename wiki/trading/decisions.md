@@ -18754,3 +18754,6 @@
 ## [2026-09-10 09:54 UTC] sell | [FULL][LLM] $PONSM at $1.02256e-05 | P&L: +45.8%
 - **Reasoning:** Up +45.8% on bonding curve with pool=$2736 (below 5x position size) and our share=0% — fragile. Take profit now, liquidity is thin and any reversal becomes a rug fast.
 
+## [2026-09-10 09:56 UTC] buy | [LLM] $Pepe at $9.004e-06, spent 0.05 SOL
+- **Reasoning:** $Pepe is a proven viral attention brand; 'Cocaine Hippo' is an absurd remix with shock-value edge that travels well on X. Real twitter link present, age 1.4min at $8.5k mcap, bond 30% — early traction with a clear narrative. Highest attention ceiling of the batch; rest are nameless or thin.
+

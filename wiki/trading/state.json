@@ -1,8 +1,32 @@
 {
-  "balance_sol": 5.129163,
+  "balance_sol": 5.079163,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "A31LaE9HL6HWt73iDYZ6m2AwWHwkH3nnz76hN8wopump": {
+      "symbol": "Pepe",
+      "name": "The Cocaine Hippo",
+      "amount": 561972.4566859173,
+      "entry_price_usd": 9.004e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T09:56:26.045898+00:00",
+      "entry_usd_value": 5.0600000000000005,
+      "last_seen_price_usd": 9.004e-06,
+      "entry_signals": {
+        "liquidity_usd": 2010.5325526484003,
+        "volume_24h_usd": 25944.28,
+        "market_cap_usd": 8504.973773288435,
+        "ath_market_cap_usd": 12939.836483431996,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 19.866922457,
+        "description": "Launched on discord.gg/uxento",
+        "twitter": "https://x.com/xWugi_wara/status/2097986999973990657",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45106,17 +45130,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T09:54:54.661903+00:00",
+  "last_updated": "2026-09-10T09:56:26.046093+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.2,
   "portfolio_value_usd": 519.07,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 09:16 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SUSPID at $3.48478e-06 | P&L: +13.2%",
-      "reason": "+13.2% with a tiny $334 pool and 2% ownership — exit now before the bot marks it stale. Pool too thin to safely hold, and the position is already at the 'lock the gain' zone per discipline rules."
-    },
     {
       "time": "2026-09-10 09:17 UTC",
       "action": "buy",
@@ -45230,6 +45248,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $PONSM at $1.02256e-05 | P&L: +45.8%",
       "reason": "Up +45.8% on bonding curve with pool=$2736 (below 5x position size) and our share=0% — fragile. Take profit now, liquidity is thin and any reversal becomes a rug fast."
+    },
+    {
+      "time": "2026-09-10 09:56 UTC",
+      "action": "buy",
+      "details": "[LLM] $Pepe at $9.004e-06, spent 0.05 SOL",
+      "reason": "$Pepe is a proven viral attention brand; 'Cocaine Hippo' is an absurd remix with shock-value edge that travels well on X. Real twitter link present, age 1.4min at $8.5k mcap, bond 30% — early traction with a clear narrative. Highest attention ceiling of the batch; rest are nameless or thin."
     }
   ],
   "trade_stats": {
@@ -45251,21 +45275,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T09:54:54.660784+00:00",
+  "last_llm_brief_at": "2026-09-10T09:56:24.444149+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "BFjwxovpPH6ejX9v9GzrBJqMriobUmtG6qgVC1pqpump": {
-      "price_usd": 1.0225597289279996e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2735.5848839220002,
-      "volume_h24": 4280.82,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 27.031471185
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
