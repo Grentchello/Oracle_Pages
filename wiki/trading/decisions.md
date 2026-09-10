@@ -17464,3 +17464,9 @@
 ## [2026-09-10 01:25 UTC] buy | [LLM] $Investor at $5.71844e-06, spent 0.05 SOL
 - **Reasoning:** $Investor — 0.3min old, $5.7k mcap with X post attached, 'The Investor' is a self-aware meta-narrative memecoin riding attention. Fresh, low mcap = room to 5-10x if narrative catches. Higher mcap than peers ($5.7k) shows early bid strength.
 
+## [2026-09-10 01:26 UTC] sell | [rapid-drop] $Investor crashed >15% in one tick | P&L: -49.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 01:27 UTC] buy | [LLM] $STARTUP at $6.63e-06, spent 0.05 SOL
+- **Reasoning:** $STARTUP has the freshest narrative (startup memecoin), highest mcap of the new batch at ~$10k,32% bond already filled, and active twitter. Classic 'launch meta' attention play — early entry before the curve completes.
+
