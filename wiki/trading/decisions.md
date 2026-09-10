@@ -18682,3 +18682,6 @@
 ## [2026-09-10 09:07 UTC] buy | [LLM] $RETAIL at $4.66391e-07, spent 0.05 SOL
 - **Reasoning:** $RETAIL with Vlad Tenev (Robinhood CEO) tweet = real celebrity/viral attention signal. $5k mcap with mainstream finance figure backing it is classic attention-market setup. Risk: tied to one tweet's virality, low liquidity, but that's where the alpha is.
 
+## [2026-09-10 09:09 UTC] sell | [FULL][LLM] $RETAIL at $5.74246e-07 | P&L: +23.1%
+- **Reasoning:** +23.1% profit triggers the 'up >20%, take the gain' rule. We hold 7% of the bonding curve — a significant share on a thin pool, so waiting for +30% auto-TP exposes us to dump risk. Lock it and free the slot.
+
