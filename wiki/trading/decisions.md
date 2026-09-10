@@ -19837,3 +19837,9 @@
 ## [2026-09-10 17:24 UTC] buy | [LLM] $iCat at $1.15607e-05, spent 0.05 SOL
 - **Reasoning:** $iCat — fresh 0.3min launch, $11.5k mcap, has a real X account (@icatsbot), bonding curve already 34% (showing real inflow). Cat mascot tokens historically get traction; cheapest of the fresh attention plays with a dedicated social. Risk: very new, but the entry is small.
 
+## [2026-09-10 17:25 UTC] sell | [rapid-drop] $iCat crashed >15% in one tick | P&L: -74.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 17:25 UTC] buy | [LLM] $NOISE at $1.996e-05, spent 0.05 SOL
+- **Reasoning:** $NOISE has the strongest setup: $20k mcap (already 5x the field), dedicated twitter @noiselabz suggesting real project backing, descriptive narrative (onchain music protocol), and clear narrative hook. Best risk/reward of the batch.
+
