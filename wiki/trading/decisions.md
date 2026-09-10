@@ -17983,3 +17983,6 @@
 ## [2026-09-10 04:34 UTC] buy | [LLM] $Entropy at $4.06329e-06, spent 0.05 SOL
 - **Reasoning:** Entropy The Whale is a fresh, absurdly memorable launch with an immediate X-post signal, but its 14% bonding progress and very low market cap create extreme reversal and liquidity risk.
 
+## [2026-09-10 04:36 UTC] sell | [PARTIAL][LLM] $Entropy at $6.05316e-06 | P&L: +49.0%
+- **Reasoning:** +49% in 0.0h on bonding curve — pump likely exhausted, lock half the gain and let the rest ride to graduation or hard stop. Bonding curve still active means asymmetric upside if it graduates, but mean-reversion risk is high.
+

@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.455468,
+  "balance_sol": 4.492675,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "Ayy9C2zRe3hkgzjYu6P7yB5CateNsRro2ALrmUTLpump": {
       "symbol": "Entropy",
       "name": "Entropy The Whale",
-      "amount": 1255767.5937812175,
+      "amount": 627883.7968906087,
       "entry_price_usd": 4.063291667398273e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T04:34:47.078079+00:00",
       "entry_usd_value": 5.102550000000001,
-      "last_seen_price_usd": 4.063291667398273e-06,
+      "last_seen_price_usd": 6.053157231847711e-06,
       "entry_signals": {
         "liquidity_usd": 1489.470446051505,
         "volume_24h_usd": null,
@@ -42697,19 +42697,30 @@
       "pnl_pct": 35.76,
       "exit_reason": "LLM: sell_all — The position is already up 35.8%, exceeding the profit-taking threshold, while the token remains on its bonding curve with only $2,658 in pool liquidi",
       "partial": false
+    },
+    {
+      "mint": "Ayy9C2zRe3hkgzjYu6P7yB5CateNsRro2ALrmUTLpump",
+      "symbol": "Entropy",
+      "name": "Entropy The Whale",
+      "amount_sold": 627883.7968906087,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T04:34:47.078079+00:00",
+      "exit_time": "2026-09-10T04:36:01.012354+00:00",
+      "entry_price_usd": 4.063291667398273e-06,
+      "exit_price_usd": 6.053157231847711e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.037207,
+      "pnl_sol": 0.012207,
+      "pnl_pct": 48.97,
+      "exit_reason": "LLM: sell_half — +49% in 0.0h on bonding curve — pump likely exhausted, lock half the gain and let the rest ride to graduation or hard stop. Bonding curve still active",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T04:34:47.078258+00:00",
+  "last_updated": "2026-09-10T04:36:01.012775+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.051,
-  "portfolio_value_usd": 459.79,
+  "last_sol_price_usd": 102.15,
+  "portfolio_value_usd": 462.63,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 04:16 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ZIF at $2.85596e-06 | P&L: +0.0%",
-      "reason": "Just opened, flat at +0.0%, bonding-curve with 25% pool share. No signal yet — let it develop for a few minutes before any decision."
-    },
     {
       "time": "2026-09-10 04:19 UTC",
       "action": "buy",
@@ -42823,40 +42834,46 @@
       "action": "buy",
       "details": "[LLM] $Entropy at $4.06329e-06, spent 0.05 SOL",
       "reason": "Entropy The Whale is a fresh, absurdly memorable launch with an immediate X-post signal, but its 14% bonding progress and very low market cap create extreme reversal and liquidity risk."
+    },
+    {
+      "time": "2026-09-10 04:36 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Entropy at $6.05316e-06 | P&L: +49.0%",
+      "reason": "+49% in 0.0h on bonding curve — pump likely exhausted, lock half the gain and let the rest ride to graduation or hard stop. Bonding curve still active means asymmetric upside if it graduates, but mean-reversion risk is high."
     }
   ],
   "trade_stats": {
-    "total": 2510,
-    "wins": 1235,
+    "total": 2511,
+    "wins": 1236,
     "losses": 1275,
     "win_rate_pct": 49.2,
-    "total_pnl_sol": 0.239158,
-    "avg_pnl_pct": 30.03,
+    "total_pnl_sol": 0.251365,
+    "avg_pnl_pct": 30.04,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 133,
-    "today_realized_sol": 2.924473,
-    "today_target_pct": 731.1,
+    "today_trades": 134,
+    "today_realized_sol": 2.93668,
+    "today_target_pct": 734.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1235,
+      "win_count": 1236,
       "loss_count": 1275,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T04:34:45.650523+00:00",
+  "last_llm_brief_at": "2026-09-10T04:36:01.012306+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "AiHHebwiE43juHWQEwuMrGoUf6fACex7sxR4bkaUpump": {
-      "price_usd": 9.95775427165341e-06,
+    "Ayy9C2zRe3hkgzjYu6P7yB5CateNsRro2ALrmUTLpump": {
+      "price_usd": 6.053157231847711e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2657.8614758606277,
-      "volume_h24": 11914.35,
+      "liquidity_usd": 1396.89474784605,
+      "volume_h24": 5163.3,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 26.044443228
+      "real_sol_reserves": 13.674936347
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
