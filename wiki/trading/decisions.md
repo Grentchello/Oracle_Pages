@@ -19078,3 +19078,9 @@
 ## [2026-09-10 12:18 UTC] buy | [LLM] $BetOnBlak at $1.239e-06, spent 0.05 SOL
 - **Reasoning:** $BetOnBlak (BetOnBlack) — gambling/risky-bet meme, sub-$1k mcap, 9% bonding curve progress showing real SOL flowing. Attention hook is clean (roulette energy), but second slot means we can only take one — skipping in favor of $PANIC.
 
+## [2026-09-10 12:19 UTC] sell | [rapid-drop] $BetOnBlak crashed >15% in one tick | P&L: -33.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 12:19 UTC] buy | [LLM] $DSK at $1.80916e-05, spent 0.05 SOL
+- **Reasoning:** $DSK 'DeepSeek' — narrative play on viral AI brand ('broke the internet, now breaking charts'). Decent description (≥50 chars), mcap $18k, twitter presence likely. Has the attention-market signal: recognizable name + cultural moment. Take 0.05 SOL position with tight stop.
+
