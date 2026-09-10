@@ -18499,3 +18499,9 @@
 ## [2026-09-10 07:47 UTC] buy | [LLM] $Normie at $2.221e-05, spent 0.05 SOL
 - **Reasoning:** $Normie has strongest attention signal among viable launches: X post from @derivativist, highest mcap at $24k (others sub-$5k), and a clear meme narrative. Risk: bond40% incomplete, could rug, but narrative + initial traction justify a small position.
 
+## [2026-09-10 07:48 UTC] sell | [FULL][LLM] $Normie at $2.87888e-05 | P&L: +29.6%
+- **Reasoning:** Up +29.6%, sitting right at the +30% TP threshold. Bot will auto-close anyway — selling now locks the gain and frees the slot for a fresh launch with better narrative.
+
+## [2026-09-10 07:48 UTC] buy | [LLM] $PP at $5.78611e-06, spent 0.05 SOL
+- **Reasoning:** $PP has a twitter link (attention signal) and $5.7k mcap on a fresh 0.4min launch. Pump-themed narrative has viral potential, low enough mcap for 5-10x move if attention catches.
+
