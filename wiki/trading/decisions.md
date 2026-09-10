@@ -19819,3 +19819,9 @@
 ## [2026-09-10 17:17 UTC] buy | [LLM] $SUPERSTONK at $3.46204e-06, spent 0.05 SOL
 - **Reasoning:** SUPERSTONK taps WSB/GameStop nostalgia — one of the most proven viral memecoin narratives (GME 2021, original SUPERSTONK saga). Has X link, two simultaneous mints suggest organic + coordinated retail attention. Higher bond (9%) of the two SUPERSTONK launches = stronger demand. 0.05 SOL position sized for fresh-slate discipline.
 
+## [2026-09-10 17:18 UTC] sell | [rapid-drop] $SUPERSTONK crashed >15% in one tick | P&L: -19.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 17:18 UTC] buy | [LLM] $Duffies at $3.20368e-06, spent 0.05 SOL
+- **Reasoning:** $Duffies - Hilary Duff reference with Daily Mail tweet attached, classic celebrity-adjacent narrative that pumps fast. $3.2k mcap is fresh, but celebrity tie gives viral potential. Caveat: no description and very thin liquidity at this size - small position size caps risk.
+
