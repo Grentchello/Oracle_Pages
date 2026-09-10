@@ -20683,3 +20683,6 @@
 ## [2026-09-10 22:38 UTC] buy | [LLM] $OzemPIG at $8.58135e-06, spent 0.05 SOL
 - **Reasoning:** $OzemPIG — 'Make Ozempig Great Again' Ozempic/weight-loss parody with syringe emoji. Narrative is hot (GLP-1 cultural moment), $8.5k mcap with twitter attached (RedThunderBirdy), bond 30%. High attention risk-reward at 0.1 SOL.
 
+## [2026-09-10 22:39 UTC] sell | [rapid-drop] $OzemPIG crashed >15% in one tick | P&L: -65.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
