@@ -17506,3 +17506,9 @@
 ## [2026-09-10 01:40 UTC] buy | [LLM] $AGI at $4.32021e-06, spent 0.05 SOL
 - **Reasoning:** $AGI 'Artificial Grifting Intelligence' is a self-aware satirical name that screams attention-market virality — the kind of meta-rug narrative that 4chan/CTs latch onto and screenshot. $4.3k mcap, sub-1min age, has twitter link = earliest entry. High fragility risk but the narrative asymmetry favors entry. Size: 0.05 SOL.
 
+## [2026-09-10 01:41 UTC] sell | [rapid-drop] $AGI crashed >15% in one tick | P&L: -34.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 01:41 UTC] buy | [LLM] $BP at $1.47777e-05, spent 0.05 SOL
+- **Reasoning:** BP has the strongest fresh-launch narrative at only $14.8K market cap, plus an active X account and 36% bonding progress. It is highly speculative, but the bold Bitcoin Porn angle provides a clear attention signal.
+
