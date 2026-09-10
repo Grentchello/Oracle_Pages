@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.810465,
+  "balance_sol": 4.903207,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CkkzbXoVWaZpWS5qrNtLE7c9yQ5wU5X3DbkdJdeipump": {
-      "symbol": "Kirkify",
-      "name": "Kirkification",
-      "amount": 1132662.192393736,
-      "entry_price_usd": 4.47e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T12:23:11.801025+00:00",
-      "entry_usd_value": 5.063000000000001,
-      "last_seen_price_usd": 4.47e-06,
-      "entry_signals": {
-        "liquidity_usd": 3934.7987831484006,
-        "volume_24h_usd": 4358.23,
-        "market_cap_usd": 10881.544409468988,
-        "ath_market_cap_usd": 13405.206043173172,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 38.85837234,
-        "description": "",
-        "twitter": "https://x.com/derivativist/status/2098024059191615713?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -46165,19 +46141,30 @@
       "pnl_pct": -66.8,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "CkkzbXoVWaZpWS5qrNtLE7c9yQ5wU5X3DbkdJdeipump",
+      "symbol": "Kirkify",
+      "name": "Kirkification",
+      "amount_sold": 1132662.192393736,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T12:23:11.801025+00:00",
+      "exit_time": "2026-09-10T12:24:15.659444+00:00",
+      "entry_price_usd": 4.47e-06,
+      "exit_price_usd": 8.249366279037775e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.092742,
+      "pnl_sol": 0.042742,
+      "pnl_pct": 84.55,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T12:23:11.801319+00:00",
+  "last_updated": "2026-09-10T12:24:30.658029+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.26,
-  "portfolio_value_usd": 492.17,
+  "last_sol_price_usd": 100.75,
+  "portfolio_value_usd": 494.0,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 11:46 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $JACKET at $1.80481e-07 | P&L: +0.1%",
-      "reason": "Just entered at +0.1%, no momentum yet. On bonding curve with 25% pool share, low liquidity risk. Bot will auto-close at 30min if flat. Give it a few minutes to develop."
-    },
     {
       "time": "2026-09-10 11:51 UTC",
       "action": "buy",
@@ -46291,30 +46278,48 @@
       "action": "buy",
       "details": "[LLM] $Kirkify at $4.47e-06, spent 0.05 SOL",
       "reason": "$Kirkify is the leader of a viral KIRK cluster launching simultaneously — 4+ related tokens (kirkoclock, Official Kirk Coin, KIRKLAND) hitting the same minute signals a coordinated narrative moment with real attention. Highest mcap of the cluster ($10.8k), bond 33% ahead of peers, derivativist X link as social anchor. Low-mcap entry into a fresh narrative beat is exactly where 10x lives."
+    },
+    {
+      "time": "2026-09-10 12:24 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $Kirkify at $8.24937e-06 | P&L: +84.5%",
+      "reason": "Auto take-profit at +84.5%"
     }
   ],
   "trade_stats": {
-    "total": 2714,
-    "wins": 1314,
+    "total": 2715,
+    "wins": 1315,
     "losses": 1400,
     "win_rate_pct": 48.4,
-    "total_pnl_sol": 0.594222,
-    "avg_pnl_pct": 28.22,
+    "total_pnl_sol": 0.636964,
+    "avg_pnl_pct": 28.24,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 337,
-    "today_realized_sol": 3.279537,
-    "today_target_pct": 819.9,
+    "today_trades": 338,
+    "today_realized_sol": 3.322279,
+    "today_target_pct": 830.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1314,
+      "win_count": 1315,
       "loss_count": 1400,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T12:23:10.434585+00:00",
+  "last_llm_brief_at": "2026-09-10T12:24:30.657148+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CkkzbXoVWaZpWS5qrNtLE7c9yQ5wU5X3DbkdJdeipump": {
+      "price_usd": 8.249366279037775e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2149.914378599,
+      "volume_h24": 20409.62,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 21.339100532
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -19090,3 +19090,6 @@
 ## [2026-09-10 12:23 UTC] buy | [LLM] $Kirkify at $4.47e-06, spent 0.05 SOL
 - **Reasoning:** $Kirkify is the leader of a viral KIRK cluster launching simultaneously — 4+ related tokens (kirkoclock, Official Kirk Coin, KIRKLAND) hitting the same minute signals a coordinated narrative moment with real attention. Highest mcap of the cluster ($10.8k), bond 33% ahead of peers, derivativist X link as social anchor. Low-mcap entry into a fresh narrative beat is exactly where 10x lives.
 
+## [2026-09-10 12:24 UTC] sell | [v8.7 TP +50% (full)] $Kirkify at $8.24937e-06 | P&L: +84.5%
+- **Reasoning:** Auto take-profit at +84.5%
+
