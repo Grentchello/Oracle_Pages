@@ -20341,3 +20341,6 @@
 ## [2026-09-10 20:05 UTC] buy | [LLM] $COTE at $9.46034e-06, spent 0.05 SOL
 - **Reasoning:** $COTE 'COTE KOIN' has the strongest narrative of the batch — clean ticker, dedicated twitter @cotekoin, and highest mcap ($9.4k) among completable candidates. Name is memeable and has a real X handle backing it. Small position to test the launch.
 
+## [2026-09-10 20:06 UTC] sell | [PARTIAL][LLM] $COTE at $1.2214e-05 | P&L: +29.1%
+- **Reasoning:** COTE KOIN is up +29.1% and just hit the +20% profit-taking threshold rule. Bonding-curve pool is only $3,270 — thin liquidity means a quick reversal is likely. Take half off the table to lock in gains, let the rest ride if narrative continues.
+

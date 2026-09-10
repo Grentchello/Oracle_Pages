@@ -1,17 +1,17 @@
 {
-  "balance_sol": 6.02026,
+  "balance_sol": 6.052686,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "BR9nKEkxcmJt7GiUW4VuUH3ZXdP4NUSs4ETzUMnwpump": {
       "symbol": "COTE",
       "name": "COTE KOIN",
-      "amount": 529209.5415235729,
+      "amount": 264604.77076178644,
       "entry_price_usd": 9.460335854086245e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T20:05:02.397812+00:00",
       "entry_usd_value": 5.0065,
-      "last_seen_price_usd": 9.460335854086245e-06,
+      "last_seen_price_usd": 1.2213969621687257e-05,
       "entry_signals": {
         "liquidity_usd": 2812.7712232785298,
         "volume_24h_usd": null,
@@ -49922,19 +49922,30 @@
       "pnl_pct": 2934.77,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "BR9nKEkxcmJt7GiUW4VuUH3ZXdP4NUSs4ETzUMnwpump",
+      "symbol": "COTE",
+      "name": "COTE KOIN",
+      "amount_sold": 264604.77076178644,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T20:05:02.397812+00:00",
+      "exit_time": "2026-09-10T20:06:22.601247+00:00",
+      "entry_price_usd": 9.460335854086245e-06,
+      "exit_price_usd": 1.2213969621687257e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.032426,
+      "pnl_sol": 0.007426,
+      "pnl_pct": 29.11,
+      "exit_reason": "LLM: sell_half — COTE KOIN is up +29.1% and just hit the +20% profit-taking threshold rule. Bonding-curve pool is only $3,270 — thin liquidity means a quick reversal i",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T20:05:02.398081+00:00",
+  "last_updated": "2026-09-10T20:06:22.602023+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.13,
-  "portfolio_value_usd": 607.82,
+  "last_sol_price_usd": 99.67,
+  "portfolio_value_usd": 605.77,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:46 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Milly crashed >15% in one tick | P&L: -48.2%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 19:48 UTC",
       "action": "buy",
@@ -50048,40 +50059,46 @@
       "action": "buy",
       "details": "[LLM] $COTE at $9.46034e-06, spent 0.05 SOL",
       "reason": "$COTE 'COTE KOIN' has the strongest narrative of the batch — clean ticker, dedicated twitter @cotekoin, and highest mcap ($9.4k) among completable candidates. Name is memeable and has a real X handle backing it. Small position to test the launch."
+    },
+    {
+      "time": "2026-09-10 20:06 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $COTE at $1.2214e-05 | P&L: +29.1%",
+      "reason": "COTE KOIN is up +29.1% and just hit the +20% profit-taking threshold rule. Bonding-curve pool is only $3,270 — thin liquidity means a quick reversal is likely. Take half off the table to lock in gains, let the rest ride if narrative continues."
     }
   ],
   "trade_stats": {
-    "total": 2935,
-    "wins": 1378,
+    "total": 2936,
+    "wins": 1379,
     "losses": 1557,
     "win_rate_pct": 47.0,
-    "total_pnl_sol": 1.804072,
+    "total_pnl_sol": 1.811498,
     "avg_pnl_pct": 27.0,
     "best_pnl_pct": 2934.77,
     "worst_pnl_pct": -99.94,
-    "today_trades": 558,
-    "today_realized_sol": 4.489387,
-    "today_target_pct": 1122.3,
+    "today_trades": 559,
+    "today_realized_sol": 4.496813,
+    "today_target_pct": 1124.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1378,
+      "win_count": 1379,
       "loss_count": 1557,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T20:05:00.815774+00:00",
+  "last_llm_brief_at": "2026-09-10T20:06:22.600827+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "BWxRkBV9oaWTKhPa82c1WABH7r4TwzS2APFsV8RZpump": {
-      "price_usd": 0.0002448455909950027,
+    "BR9nKEkxcmJt7GiUW4VuUH3ZXdP4NUSs4ETzUMnwpump": {
+      "price_usd": 1.2213969621687257e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 62096.850807121045,
-      "volume_h24": 23636.77,
+      "liquidity_usd": 3269.85391387728,
+      "volume_h24": 14519.38,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 620.162297085
+      "real_sol_reserves": 32.806801584
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
