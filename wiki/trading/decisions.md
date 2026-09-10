@@ -17341,3 +17341,6 @@
 ## [2026-09-10 00:41 UTC] buy | [LLM] $MON at $3.6012e-07, spent 0.05 SOL
 - **Reasoning:** $MON just.monki has the strongest narrative — 300K+ followers, 'Millions of views,' and 'One AI monkey. Fone was the warm-up. This is the main event' is a clear sequel/graduation narrative riding an existing attention base. $4k mcap, 1.2min old, failing viability gate barely (no twitter on token, but high follower claim and clear story). ME2F risk: sequel coins often rug hard post-peak — must exit fast on +50%.
 
+## [2026-09-10 00:43 UTC] sell | [PARTIAL][LLM] $MON at $3.59757e-07 | P&L: -0.1%
+- **Reasoning:** $MON is flat at -0.1% with 62% pool share concentration (extreme fragility) and zero momentum after fresh entry. Locked slot with no signal — exit and free the position.
+
