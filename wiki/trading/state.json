@@ -1,17 +1,17 @@
 {
-  "balance_sol": 2.751572,
+  "balance_sol": 2.780095,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7BmUDj85vU1mLU7kVNN9oksx1fyJvJiBxtxDo7L2pump": {
       "symbol": "FatCoin",
       "name": "FatCoin",
-      "amount": 23747888.045431223,
+      "amount": 11873944.022715611,
       "entry_price_usd": 2.1456644861437716e-07,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T04:10:56.346371+00:00",
       "entry_usd_value": 5.0955,
-      "last_seen_price_usd": 2.1456644861437716e-07,
+      "last_seen_price_usd": 2.448014802514067e-07,
       "entry_signals": {
         "liquidity_usd": 36.77585966505,
         "volume_24h_usd": 0.0,
@@ -42476,19 +42476,30 @@
       "pnl_pct": -2.0,
       "exit_reason": "LLM: sell_all — $210 pool with our 2% share means our own exit will move price. Flat at -2% on bonding curve with no momentum signal. Rotating into a stronger narrati",
       "partial": false
+    },
+    {
+      "mint": "7BmUDj85vU1mLU7kVNN9oksx1fyJvJiBxtxDo7L2pump",
+      "symbol": "FatCoin",
+      "name": "FatCoin",
+      "amount_sold": 11873944.022715611,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T04:10:56.346371+00:00",
+      "exit_time": "2026-09-10T04:12:16.147346+00:00",
+      "entry_price_usd": 2.1456644861437716e-07,
+      "exit_price_usd": 2.448014802514067e-07,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.028523,
+      "pnl_sol": 0.003523,
+      "pnl_pct": 14.09,
+      "exit_reason": "LLM: sell_half — FatCoin is up 14.1% but has very low liquidity at $42, so taking half profit reduces exposure while preserving some upside. The position is also close",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T04:10:56.346577+00:00",
+  "last_updated": "2026-09-10T04:12:16.147730+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.91,
-  "portfolio_value_usd": 285.51,
+  "portfolio_value_usd": 285.87,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 03:48 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $BUCKAZOIDS at $1.52074e-09 | P&L: +42.0%",
-      "reason": "Up +42% already past 25% TP threshold — bot should have auto-TP'd but in case it hasn't, lock half. Bonding curve not yet complete (pool=$0), remaining half gets free ride on continued attention momentum."
-    },
     {
       "time": "2026-09-10 03:50 UTC",
       "action": "sell",
@@ -42602,40 +42613,46 @@
       "action": "buy",
       "details": "[LLM] $FatCoin at $2.14566e-07, spent 0.05 SOL",
       "reason": "$FatCoin narrative is the cleanest in the batch — McDonald's $MCD stock pairing gimmick is memeable, has both description and twitter, viability gate passes. Risk: bonding curve at 13%, ultra-low mcap, narrative could flop if McDonald's doesn't bite back. Position size 0.05 SOL per v7 rules."
+    },
+    {
+      "time": "2026-09-10 04:12 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $FatCoin at $2.44801e-07 | P&L: +14.1%",
+      "reason": "FatCoin is up 14.1% but has very low liquidity at $42, so taking half profit reduces exposure while preserving some upside. The position is also close to the 30-minute stale threshold, making lock-in prudent."
     }
   ],
   "trade_stats": {
-    "total": 2497,
-    "wins": 1228,
+    "total": 2498,
+    "wins": 1229,
     "losses": 1269,
     "win_rate_pct": 49.2,
-    "total_pnl_sol": -1.464738,
+    "total_pnl_sol": -1.461215,
     "avg_pnl_pct": 28.81,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 120,
-    "today_realized_sol": 1.220577,
-    "today_target_pct": 305.1,
+    "today_trades": 121,
+    "today_realized_sol": 1.2241,
+    "today_target_pct": 306.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1228,
+      "win_count": 1229,
       "loss_count": 1269,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T04:10:55.004954+00:00",
+  "last_llm_brief_at": "2026-09-10T04:12:16.147308+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "JCwoEhK59T3fTA11wSCGQUuoPn6BJY4wjRQLk18mpump": {
-      "price_usd": 3.2546370056877103e-06,
+    "7BmUDj85vU1mLU7kVNN9oksx1fyJvJiBxtxDo7L2pump": {
+      "price_usd": 2.448014802514067e-07,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 210.23439853227,
-      "volume_h24": 317.27,
+      "liquidity_usd": 42.278801348189994,
+      "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.062941797
+      "real_sol_reserves": 0.414864109
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -17911,3 +17911,6 @@
 ## [2026-09-10 04:10 UTC] buy | [LLM] $FatCoin at $2.14566e-07, spent 0.05 SOL
 - **Reasoning:** $FatCoin narrative is the cleanest in the batch — McDonald's $MCD stock pairing gimmick is memeable, has both description and twitter, viability gate passes. Risk: bonding curve at 13%, ultra-low mcap, narrative could flop if McDonald's doesn't bite back. Position size 0.05 SOL per v7 rules.
 
+## [2026-09-10 04:12 UTC] sell | [PARTIAL][LLM] $FatCoin at $2.44801e-07 | P&L: +14.1%
+- **Reasoning:** FatCoin is up 14.1% but has very low liquidity at $42, so taking half profit reduces exposure while preserving some upside. The position is also close to the 30-minute stale threshold, making lock-in prudent.
+
