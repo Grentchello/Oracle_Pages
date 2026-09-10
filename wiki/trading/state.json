@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.172152,
+  "balance_sol": 4.222145,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3aEYiop7B5uMcKS3mqmWpHK5y6fzZ1VuhCCdwpoUpump": {
-      "symbol": "gnome",
-      "name": "gnome",
-      "amount": 1573982.0359093833,
-      "entry_price_usd": 3.174432672043315e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T17:31:33.617110+00:00",
-      "entry_usd_value": 4.996500000000001,
-      "last_seen_price_usd": 3.174432672043315e-06,
-      "entry_signals": {
-        "liquidity_usd": 197.61964824477,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3176.386315687172,
-        "ath_market_cap_usd": 3176.386315687172,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.977580789,
-        "description": "As time passes, a lot of meme coins rise... But only $GNOME must rule them all...",
-        "twitter": "https://x.com/Gnomestonk",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -48477,19 +48453,30 @@
       "pnl_pct": -58.21,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "3aEYiop7B5uMcKS3mqmWpHK5y6fzZ1VuhCCdwpoUpump",
+      "symbol": "gnome",
+      "name": "gnome",
+      "amount_sold": 1573982.0359093833,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T17:31:33.617110+00:00",
+      "exit_time": "2026-09-10T17:32:51.537149+00:00",
+      "entry_price_usd": 3.174432672043315e-06,
+      "exit_price_usd": 3.190180218238324e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049993,
+      "pnl_sol": -7e-06,
+      "pnl_pct": 0.5,
+      "exit_reason": "LLM: sell_all — Just opened at +0.5% on bonding curve, 0.0h held — no signal yet. Free option on attention; let the bot's +30%/-30% rails do the work.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T17:31:33.617292+00:00",
+  "last_updated": "2026-09-10T17:32:51.537499+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.93,
-  "portfolio_value_usd": 421.92,
+  "last_sol_price_usd": 100.44,
+  "portfolio_value_usd": 424.07,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 17:08 UTC",
-      "action": "buy",
-      "details": "[LLM] $FlyCar at $3.09005e-06, spent 0.05 SOL",
-      "reason": "$FlyCar is riding the 'viral Fly driving a car' attention hook — concrete narrative with a Twitter post. Mcap $3k = room to run if the video keeps circulating. Risk: very fresh, low liquidity, narrative could die in 30min."
-    },
     {
       "time": "2026-09-10 17:09 UTC",
       "action": "sell",
@@ -48603,30 +48590,48 @@
       "action": "buy",
       "details": "[LLM] $gnome at $3.17443e-06, spent 0.05 SOL",
       "reason": "$gnome has the cleanest narrative pass: 70-char LOTR-style desc, real twitter @Gnomestonk, mcap $3.1k — passes viability gate and name fragility gate. Attention-market thesis: Lord-of-the-Rings meme coin has viral cultural hook and is at $3k which is the entry zone you flagged."
+    },
+    {
+      "time": "2026-09-10 17:32 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $gnome at $3.19018e-06 | P&L: +0.5%",
+      "reason": "Just opened at +0.5% on bonding curve, 0.0h held — no signal yet. Free option on attention; let the bot's +30%/-30% rails do the work."
     }
   ],
   "trade_stats": {
-    "total": 2850,
+    "total": 2851,
     "wins": 1361,
-    "losses": 1489,
-    "win_rate_pct": 47.8,
-    "total_pnl_sol": -0.04409,
-    "avg_pnl_pct": 26.53,
+    "losses": 1490,
+    "win_rate_pct": 47.7,
+    "total_pnl_sol": -0.044097,
+    "avg_pnl_pct": 26.52,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 473,
-    "today_realized_sol": 2.641225,
+    "today_trades": 474,
+    "today_realized_sol": 2.641218,
     "today_target_pct": 660.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1361,
-      "loss_count": 1489,
+      "loss_count": 1490,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T17:31:32.207338+00:00",
+  "last_llm_brief_at": "2026-09-10T17:32:51.536267+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3aEYiop7B5uMcKS3mqmWpHK5y6fzZ1VuhCCdwpoUpump": {
+      "price_usd": 3.190180218238324e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 198.39999990204,
+      "volume_h24": 198.09,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.975308641
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
