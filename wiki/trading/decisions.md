@@ -17821,3 +17821,6 @@
 ## [2026-09-10 03:33 UTC] buy | [LLM] $$UZI at $5.73269e-07, spent 0.05 SOL
 - **Reasoning:** $$UZI has the strongest narrative of the batch — Lil Uzi Vert throwback meme coin with a clear story hook ('Before the fame. Before the hits'). Highest mcap ($5,631) suggests early traction. Cat-themed meta ($Cutecat, $KittenHood) is crowded and copy-pasted; $UZI has differentiated celebrity/music attention. Risky at <1min old but that's where the alpha is.
 
+## [2026-09-10 03:34 UTC] sell | [PARTIAL][LLM] $$UZI at $5.74001e-07 | P&L: +0.1%
+- **Reasoning:** Position is essentially flat (+0.1%), no momentum, fresh entry with HUGE share (5798%) on bonding curve = structurally dangerous. No reason to hold a non-mover. Free the slot.
+
