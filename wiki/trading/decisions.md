@@ -17986,3 +17986,9 @@
 ## [2026-09-10 04:36 UTC] sell | [PARTIAL][LLM] $Entropy at $6.05316e-06 | P&L: +49.0%
 - **Reasoning:** +49% in 0.0h on bonding curve — pump likely exhausted, lock half the gain and let the rest ride to graduation or hard stop. Bonding curve still active means asymmetric upside if it graduates, but mean-reversion risk is high.
 
+## [2026-09-10 04:37 UTC] sell | [rapid-drop] $Entropy crashed >15% in one tick | P&L: -13.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 04:37 UTC] buy | [LLM] $IBM at $2.34812e-09, spent 0.05 SOL
+- **Reasoning:** $IBM 'I Buy Memes' is pure meta-narrative — a token that IS the meme economy. Mcap $5.5k at 0.1min age is floor-level, asymmetric upside if the meta-meme angle catches. Fresh twitter post from DEVOOOOR67 gives immediate attention catalyst.
+
