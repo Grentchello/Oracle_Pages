@@ -18019,3 +18019,6 @@
 ## [2026-09-10 04:46 UTC] buy | [LLM] $LOL at $1.58375e-09, spent 0.05 SOL
 - **Reasoning:** $LOL has a real narrative hook — 'lolcoin predates dogecoin, first time paired to BTC' is a clear attention story with X community link. Highest mcap ($12k) and30% bond progress signals organic demand. 0.1 SOL position sized for fresh launch attention play.
 
+## [2026-09-10 04:47 UTC] sell | [PARTIAL][LLM] $LOL at $1.6333e-09 | P&L: +3.1%
+- **Reasoning:** Up only +3.1% after fresh entry, no conviction to sell at break-even. Our share is huge (1220%) suggesting tiny pool — any recovery could pop hard. Give it room to develop, but if it doesn't move >10% in next 15 min, it's stale and I exit.
+
