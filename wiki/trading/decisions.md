@@ -18811,3 +18811,6 @@
 ## [2026-09-10 10:16 UTC] buy | [LLM] $OILUP at $2.05e-05, spent 0.05 SOL
 - **Reasoning:** $OILUP has Cramer attention (real X post), $20k mcap with asymmetric upside — Cramer-backed energy narrative could pump hard. Fresh mint, bond still forming, small position makes sense for attention play.
 
+## [2026-09-10 10:17 UTC] sell | [FULL][LLM] $OILUP at $2.47988e-05 | P&L: +21.0%
+- **Reasoning:** Up 21% on a $5k pool bonding-curve position with 0% share — thin liquidity means any reversal will be brutal. Lock the gain now per the profit-taking discipline; this isn't a narrative play, just a fresh pump on an unproven curve.
+

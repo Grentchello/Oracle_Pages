@@ -1,32 +1,8 @@
 {
-  "balance_sol": 5.028413,
+  "balance_sol": 5.088946,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4PiZHm5EtMtiMxToWkzeqtrEziM4qVn1ASPxnt1spump": {
-      "symbol": "OILUP",
-      "name": "Oil Up",
-      "amount": 246853.65853658537,
-      "entry_price_usd": 2.05e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T10:16:15.703123+00:00",
-      "entry_usd_value": 5.0605,
-      "last_seen_price_usd": 2.05e-05,
-      "entry_signals": {
-        "liquidity_usd": 5454.13070921321,
-        "volume_24h_usd": 5722.72,
-        "market_cap_usd": 20619.260887071574,
-        "ath_market_cap_usd": 20855.665664999196,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 53.889247201,
-        "description": "",
-        "twitter": "https://x.com/jimcramer/status/2097991230529454504",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45315,19 +45291,30 @@
       "pnl_pct": -3.97,
       "exit_reason": "LLM: sell_all — $RD is only -4% after 0h held, well above the -25% hard cap. Bonding-curve at 25% pool share with $10 liquidity — thin but not yet a forced exit. Give",
       "partial": false
+    },
+    {
+      "mint": "4PiZHm5EtMtiMxToWkzeqtrEziM4qVn1ASPxnt1spump",
+      "symbol": "OILUP",
+      "name": "Oil Up",
+      "amount_sold": 246853.65853658537,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T10:16:15.703123+00:00",
+      "exit_time": "2026-09-10T10:17:34.953363+00:00",
+      "entry_price_usd": 2.05e-05,
+      "exit_price_usd": 2.4798811950485232e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.060533,
+      "pnl_sol": 0.010533,
+      "pnl_pct": 20.97,
+      "exit_reason": "LLM: sell_all — Up 21% on a $5k pool bonding-curve position with 0% share — thin liquidity means any reversal will be brutal. Lock the gain now per the profit-taking ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T10:16:15.703429+00:00",
+  "last_updated": "2026-09-10T10:17:35.960080+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.21,
-  "portfolio_value_usd": 513.99,
+  "last_sol_price_usd": 101.13,
+  "portfolio_value_usd": 514.65,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 09:54 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PONSM at $1.02256e-05 | P&L: +45.8%",
-      "reason": "Up +45.8% on bonding curve with pool=$2736 (below 5x position size) and our share=0% — fragile. Take profit now, liquidity is thin and any reversal becomes a rug fast."
-    },
     {
       "time": "2026-09-10 09:56 UTC",
       "action": "buy",
@@ -45441,30 +45428,48 @@
       "action": "buy",
       "details": "[LLM] $OILUP at $2.05e-05, spent 0.05 SOL",
       "reason": "$OILUP has Cramer attention (real X post), $20k mcap with asymmetric upside — Cramer-backed energy narrative could pump hard. Fresh mint, bond still forming, small position makes sense for attention play."
+    },
+    {
+      "time": "2026-09-10 10:17 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $OILUP at $2.47988e-05 | P&L: +21.0%",
+      "reason": "Up 21% on a $5k pool bonding-curve position with 0% share — thin liquidity means any reversal will be brutal. Lock the gain now per the profit-taking discipline; this isn't a narrative play, just a fresh pump on an unproven curve."
     }
   ],
   "trade_stats": {
-    "total": 2664,
-    "wins": 1298,
+    "total": 2665,
+    "wins": 1299,
     "losses": 1366,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.812126,
+    "total_pnl_sol": 0.822659,
     "avg_pnl_pct": 28.88,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 287,
-    "today_realized_sol": 3.497441,
-    "today_target_pct": 874.4,
+    "today_trades": 288,
+    "today_realized_sol": 3.507974,
+    "today_target_pct": 877.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1298,
+      "win_count": 1299,
       "loss_count": 1366,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:16:14.274505+00:00",
+  "last_llm_brief_at": "2026-09-10T10:17:34.953316+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "4PiZHm5EtMtiMxToWkzeqtrEziM4qVn1ASPxnt1spump": {
+      "price_usd": 2.4798811950485232e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 5951.055488862689,
+      "volume_h24": 7067.11,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 58.845599613
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
