@@ -18748,3 +18748,6 @@
 ## [2026-09-10 09:51 UTC] buy | [LLM] $PONSM at $7.0132e-06, spent 0.05 SOL
 - **Reasoning:** $PONSM 'Meaty Pons' — bizarre, surreal narrative ('living letter escaped the white background'), has twitter, fresh launch at $7k mcap. Pure attention play with quirky story. Best narrative candidate.
 
+## [2026-09-10 09:53 UTC] sell | [PARTIAL][LLM] $PONSM at $1.01731e-05 | P&L: +45.1%
+- **Reasoning:** +45.1% on a thin bonding-curve pool ($2721) — locking half protects against reversal while letting the runner ride toward the +100% auto-TP. Stale-risk is low (0h held) but pool depth makes full-exit slippage painful.
+

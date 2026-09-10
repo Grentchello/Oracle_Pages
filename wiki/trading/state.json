@@ -1,17 +1,17 @@
 {
-  "balance_sol": 5.056487,
+  "balance_sol": 5.092744,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "BFjwxovpPH6ejX9v9GzrBJqMriobUmtG6qgVC1pqpump": {
       "symbol": "PONSM",
       "name": "Meaty Pons",
-      "amount": 720854.452002737,
+      "amount": 360427.2260013685,
       "entry_price_usd": 7.01320493471934e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T09:51:35.415360+00:00",
       "entry_usd_value": 5.0555,
-      "last_seen_price_usd": 7.01320493471934e-06,
+      "last_seen_price_usd": 1.0173057810676772e-05,
       "entry_signals": {
         "liquidity_usd": 2097.7696141011097,
         "volume_24h_usd": null,
@@ -45094,19 +45094,30 @@
       "pnl_pct": -0.02,
       "exit_reason": "LLM: sell_all — Pool is only $21 and we own 24% — selling into this would crater the price worse than waiting. Position is essentially break-even at 0.0h held; let th",
       "partial": false
+    },
+    {
+      "mint": "BFjwxovpPH6ejX9v9GzrBJqMriobUmtG6qgVC1pqpump",
+      "symbol": "PONSM",
+      "name": "Meaty Pons",
+      "amount_sold": 360427.2260013685,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T09:51:35.415360+00:00",
+      "exit_time": "2026-09-10T09:53:24.718586+00:00",
+      "entry_price_usd": 7.01320493471934e-06,
+      "exit_price_usd": 1.0173057810676772e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.036257,
+      "pnl_sol": 0.011257,
+      "pnl_pct": 45.06,
+      "exit_reason": "LLM: sell_half — +45.1% on a thin bonding-curve pool ($2721) — locking half protects against reversal while letting the runner ride toward the +100% auto-TP. Stale-ris",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T09:51:35.415584+00:00",
+  "last_updated": "2026-09-10T09:53:24.719269+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.11,
-  "portfolio_value_usd": 516.32,
+  "last_sol_price_usd": 101.13,
+  "portfolio_value_usd": 517.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 09:12 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $DINOBOO at $3.4614e-06 | P&L: -13.3%",
-      "reason": "$DINOBOO is already -13.3% on a thin $322 pool with 0.0h held — classic weak launch with no bounce signal. Cutting before the -25% hard cap. Capital rotation beats bag-holding."
-    },
     {
       "time": "2026-09-10 09:15 UTC",
       "action": "buy",
@@ -45220,30 +45231,48 @@
       "action": "buy",
       "details": "[LLM] $PONSM at $7.0132e-06, spent 0.05 SOL",
       "reason": "$PONSM 'Meaty Pons' — bizarre, surreal narrative ('living letter escaped the white background'), has twitter, fresh launch at $7k mcap. Pure attention play with quirky story. Best narrative candidate."
+    },
+    {
+      "time": "2026-09-10 09:53 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $PONSM at $1.01731e-05 | P&L: +45.1%",
+      "reason": "+45.1% on a thin bonding-curve pool ($2721) — locking half protects against reversal while letting the runner ride toward the +100% auto-TP. Stale-risk is low (0h held) but pool depth makes full-exit slippage painful."
     }
   ],
   "trade_stats": {
-    "total": 2651,
-    "wins": 1292,
+    "total": 2652,
+    "wins": 1293,
     "losses": 1359,
-    "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.840198,
+    "win_rate_pct": 48.8,
+    "total_pnl_sol": 0.851455,
     "avg_pnl_pct": 29.03,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 274,
-    "today_realized_sol": 3.525513,
-    "today_target_pct": 881.4,
+    "today_trades": 275,
+    "today_realized_sol": 3.53677,
+    "today_target_pct": 884.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1292,
+      "win_count": 1293,
       "loss_count": 1359,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T09:51:33.800151+00:00",
+  "last_llm_brief_at": "2026-09-10T09:53:24.718546+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BFjwxovpPH6ejX9v9GzrBJqMriobUmtG6qgVC1pqpump": {
+      "price_usd": 1.0173057810676772e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2720.8471740260698,
+      "volume_h24": 2297.71,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 26.904451439
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
