@@ -20446,3 +20446,6 @@
 ## [2026-09-10 20:44 UTC] sell | [PARTIAL][LLM] $BSO at $3.74648e-08 | P&L: +0.1%
 - **Reasoning:** Bonding-curve position, effectively flat (+0.1%) after minutes, and we own 291% of pool — a single sell will tank the chart. Cut exposure now and free capital for fresh launches with actual momentum.
 
+## [2026-09-10 20:46 UTC] sell | [FULL][LLM] $BSO at $3.74461e-08 | P&L: +0.0%
+- **Reasoning:** Flat at entry after 0h, pool only $2 (illiquid, well below 5x position rule), no momentum signal. Rotating slot to a higher-attention fresh narrative.
+
