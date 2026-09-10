@@ -19417,3 +19417,6 @@
 ## [2026-09-10 14:32 UTC] buy | [LLM] $STARTUP at $8.70009e-08, spent 0.05 SOL
 - **Reasoning:** $STARTUP has the highest mcap of fresh launches ($6.6k), a Twitter signal from @madioncoins, and a clean narrative name — best risk-adjusted fresh attention play this tick. Others are sub-$3k mcap with no desc, likely auto-fail viability.
 
+## [2026-09-10 14:33 UTC] sell | [PARTIAL][LLM] $STARTUP at $8.63404e-08 | P&L: -0.8%
+- **Reasoning:** $STARTUP is flat at -0.8% after fresh entry, pool only $16, our share 31% — that's illiquidity risk, not a position. Bonding curve with 31% share means we are the exit liquidity. Cut and rotate to fresh attention.
+

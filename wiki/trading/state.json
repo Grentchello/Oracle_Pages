@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.617913,
+  "balance_sol": 4.642718,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "88VsfR6wqMLmXw21ooMHV7QT5caDsU6aUAmch8Zypump": {
       "symbol": "STARTUP",
       "name": "Aerotyne International",
-      "amount": 57441927.20889281,
+      "amount": 28720963.604446404,
       "entry_price_usd": 8.700091105624183e-08,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T14:32:25.431518+00:00",
       "entry_usd_value": 4.9975000000000005,
-      "last_seen_price_usd": 8.700091105624183e-08,
+      "last_seen_price_usd": 8.634036265700883e-08,
       "entry_signals": {
         "liquidity_usd": 18.6612269189,
         "volume_24h_usd": 0.0,
@@ -47151,19 +47151,30 @@
       "pnl_pct": -31.48,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "88VsfR6wqMLmXw21ooMHV7QT5caDsU6aUAmch8Zypump",
+      "symbol": "STARTUP",
+      "name": "Aerotyne International",
+      "amount_sold": 28720963.604446404,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T14:32:25.431518+00:00",
+      "exit_time": "2026-09-10T14:33:42.525562+00:00",
+      "entry_price_usd": 8.700091105624183e-08,
+      "exit_price_usd": 8.634036265700883e-08,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.024805,
+      "pnl_sol": -0.000195,
+      "pnl_pct": -0.76,
+      "exit_reason": "LLM: sell_all — $STARTUP is flat at -0.8% after fresh entry, pool only $16, our share 31% — that's illiquidity risk, not a position. Bonding curve with 31% share mean",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T14:32:25.431684+00:00",
+  "last_updated": "2026-09-10T14:33:42.525783+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.95,
-  "portfolio_value_usd": 466.56,
+  "last_sol_price_usd": 99.97,
+  "portfolio_value_usd": 466.63,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 14:08 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $NFTUP crashed >15% in one tick | P&L: -20.9%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 14:11 UTC",
       "action": "buy",
@@ -47277,30 +47288,48 @@
       "action": "buy",
       "details": "[LLM] $STARTUP at $8.70009e-08, spent 0.05 SOL",
       "reason": "$STARTUP has the highest mcap of fresh launches ($6.6k), a Twitter signal from @madioncoins, and a clean narrative name — best risk-adjusted fresh attention play this tick. Others are sub-$3k mcap with no desc, likely auto-fail viability."
+    },
+    {
+      "time": "2026-09-10 14:33 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $STARTUP at $8.63404e-08 | P&L: -0.8%",
+      "reason": "$STARTUP is flat at -0.8% after fresh entry, pool only $16, our share 31% — that's illiquidity risk, not a position. Bonding curve with 31% share means we are the exit liquidity. Cut and rotate to fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 2772,
+    "total": 2773,
     "wins": 1331,
-    "losses": 1441,
+    "losses": 1442,
     "win_rate_pct": 48.0,
-    "total_pnl_sol": 0.401671,
-    "avg_pnl_pct": 27.51,
+    "total_pnl_sol": 0.401476,
+    "avg_pnl_pct": 27.5,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 395,
-    "today_realized_sol": 3.086986,
+    "today_trades": 396,
+    "today_realized_sol": 3.086791,
     "today_target_pct": 771.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1331,
-      "loss_count": 1441,
+      "loss_count": 1442,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T14:32:24.108909+00:00",
+  "last_llm_brief_at": "2026-09-10T14:33:42.525372+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "88VsfR6wqMLmXw21ooMHV7QT5caDsU6aUAmch8Zypump": {
+      "price_usd": 8.634036265700883e-08,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 16.13502923864,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.161398712
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
