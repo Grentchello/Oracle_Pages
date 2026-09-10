@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.25346,
+  "balance_sol": 4.245972,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "CogrEhxpqKJ1sxmM3UHmTeqzMHYDfQavyVuBG3nipump": {
-      "symbol": "Duk",
-      "name": "Duk",
-      "amount": 585894.5551280262,
-      "entry_price_usd": 8.693543838937025e-06,
+    "25rmAaxCiNi4soYWdDbxrGnygTPKqNYMVzVpkUBEpump": {
+      "symbol": "TikTok",
+      "name": "Not Working, Not PAYING",
+      "amount": 1730889.367329674,
+      "entry_price_usd": 2.9389515563596987e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T07:01:21.340749+00:00",
-      "entry_usd_value": 5.093500000000001,
-      "last_seen_price_usd": 8.693543838937025e-06,
+      "entry_time": "2026-09-10T07:02:51.835653+00:00",
+      "entry_usd_value": 5.087,
+      "last_seen_price_usd": 2.9389515563596987e-06,
       "entry_signals": {
-        "liquidity_usd": 496.25643588983,
+        "liquidity_usd": 74.82336058348,
         "volume_24h_usd": null,
-        "market_cap_usd": 8695.92463184215,
-        "ath_market_cap_usd": 9016.47587675576,
+        "market_cap_usd": 2940.181770572225,
+        "ath_market_cap_usd": 2940.181770572225,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 4.871467909,
+        "real_sol_reserves": 0.735437002,
         "description": "",
-        "twitter": "https://x.com/yvqex/status/2097943372027576758",
+        "twitter": "https://x.com/prottlegang21/status/2097938954129461463",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -43938,25 +43938,30 @@
       "pnl_pct": -1.4,
       "exit_reason": "LLM: sell_all — $SIS is only -1.4% after 0h held, not yet at stale threshold (30min flat). Pool is thin ($884) which is concerning but no catalyst to exit. Let it bre",
       "partial": false
+    },
+    {
+      "mint": "CogrEhxpqKJ1sxmM3UHmTeqzMHYDfQavyVuBG3nipump",
+      "symbol": "Duk",
+      "name": "Duk",
+      "amount_sold": 585894.5551280262,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T07:01:21.340749+00:00",
+      "exit_time": "2026-09-10T07:02:25.928814+00:00",
+      "entry_price_usd": 8.693543838937025e-06,
+      "exit_price_usd": 7.382108966004393e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.042512,
+      "pnl_sol": -0.007488,
+      "pnl_pct": -15.09,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T07:01:21.341027+00:00",
+  "last_updated": "2026-09-10T07:02:51.835829+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.87,
-  "portfolio_value_usd": 438.39,
+  "last_sol_price_usd": 101.74,
+  "portfolio_value_usd": 437.07,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 06:35 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $69 at $2.68533e-09 | P&L: -15.3%",
-      "reason": "Down 15% in 6 min on bonding curve with 186% share concentration (illiquid). The Elon tweet (2022) is recycled, not fresh. Cut loss before -25% hard stop."
-    },
-    {
-      "time": "2026-09-10 06:37 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $69 at $2.68771e-09 | P&L: -15.3%",
-      "reason": "Down 15.3% in 6 min on a bonding-curve token with pool=$0 — liquidity has already evaporated, this is effectively dead. Better to lock the loss now at ~-15% than wait for the -25% hard cap to trigger or watch it bleed further."
-    },
     {
       "time": "2026-09-10 06:39 UTC",
       "action": "buy",
@@ -44064,30 +44069,54 @@
       "action": "buy",
       "details": "[LLM] $Duk at $8.69354e-06, spent 0.05 SOL",
       "reason": "$Duk — short punchy name, fresh Twitter signal at 0.1min, 30% bonded (leading curve progress = real demand). Sub-10k mcap with attention seed = highest asymmetry in batch."
+    },
+    {
+      "time": "2026-09-10 07:02 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Duk crashed >15% in one tick | P&L: -15.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 07:02 UTC",
+      "action": "buy",
+      "details": "[LLM] $TikTok at $2.93895e-06, spent 0.05 SOL",
+      "reason": "'TikTok — Not Working, Not PAYING' has viral anti-meta narrative targeting TikTok creators who got rugged. This is a relatable, attention-rich story for the creator economy crowd. Mcap $2.9k, bond only 2% = very early entry. Twitter link present. Risk: narrative may not gain traction, but the meta-rug counter-narrative is hot right now."
     }
   ],
   "trade_stats": {
-    "total": 2583,
+    "total": 2584,
     "wins": 1257,
-    "losses": 1326,
-    "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.037167,
-    "avg_pnl_pct": 29.06,
+    "losses": 1327,
+    "win_rate_pct": 48.6,
+    "total_pnl_sol": 0.029679,
+    "avg_pnl_pct": 29.04,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 206,
-    "today_realized_sol": 2.722482,
-    "today_target_pct": 680.6,
+    "today_trades": 207,
+    "today_realized_sol": 2.714994,
+    "today_target_pct": 678.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1257,
-      "loss_count": 1326,
+      "loss_count": 1327,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T07:01:19.816490+00:00",
+  "last_llm_brief_at": "2026-09-10T07:02:50.487279+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CogrEhxpqKJ1sxmM3UHmTeqzMHYDfQavyVuBG3nipump": {
+      "price_usd": 7.382108966004393e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1864.75893687348,
+      "volume_h24": 11408.04,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 18.328670502
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

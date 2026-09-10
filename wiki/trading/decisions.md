@@ -18379,3 +18379,9 @@
 ## [2026-09-10 07:01 UTC] buy | [LLM] $Duk at $8.69354e-06, spent 0.05 SOL
 - **Reasoning:** $Duk — short punchy name, fresh Twitter signal at 0.1min, 30% bonded (leading curve progress = real demand). Sub-10k mcap with attention seed = highest asymmetry in batch.
 
+## [2026-09-10 07:02 UTC] sell | [rapid-drop] $Duk crashed >15% in one tick | P&L: -15.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 07:02 UTC] buy | [LLM] $TikTok at $2.93895e-06, spent 0.05 SOL
+- **Reasoning:** 'TikTok — Not Working, Not PAYING' has viral anti-meta narrative targeting TikTok creators who got rugged. This is a relatable, attention-rich story for the creator economy crowd. Mcap $2.9k, bond only 2% = very early entry. Twitter link present. Risk: narrative may not gain traction, but the meta-rug counter-narrative is hot right now.
+
