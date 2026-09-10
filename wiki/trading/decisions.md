@@ -19114,3 +19114,6 @@
 ## [2026-09-10 12:32 UTC] buy | [LLM] $CHEESEBURGER at $5.29294e-06, spent 0.05 SOL
 - **Reasoning:** Food meme narrative (CHEESEBURGER), has twitter signal, bond at 21% (highest engagement of the batch). Simple universal name has viral potential. Risk: ultra-fresh (0.4min), need to monitor for immediate dump.
 
+## [2026-09-10 12:33 UTC] sell | [PARTIAL][LLM] $CHEESEBURGER at $6.82152e-06 | P&L: +28.9%
+- **Reasoning:** +28.9% in 0.0h is right at the auto +30% TP threshold — locking in half before the bot auto-triggers or the $1681 thin pool reverses. Selling only half keeps upside exposure if narrative runs, but secures realized gain on the rest. Low pool = can't safely sell_all without eating my own exit.
+

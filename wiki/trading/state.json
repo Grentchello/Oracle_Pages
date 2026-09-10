@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.78528,
+  "balance_sol": 4.817626,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7aL2tALDpDUsaCk4L3ZogoCQDY3mBKLyH6rVoYzEpump": {
       "symbol": "CHEESEBURGER",
       "name": "The Cheeseburger",
-      "amount": 954989.8869977865,
+      "amount": 477494.94349889323,
       "entry_price_usd": 5.2929356308583786e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T12:32:02.725639+00:00",
       "entry_usd_value": 5.0547,
-      "last_seen_price_usd": 5.2929356308583786e-06,
+      "last_seen_price_usd": 6.8215194613304115e-06,
       "entry_signals": {
         "liquidity_usd": 1099.624966661256,
         "volume_24h_usd": null,
@@ -46233,19 +46233,30 @@
       "pnl_pct": -61.87,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "7aL2tALDpDUsaCk4L3ZogoCQDY3mBKLyH6rVoYzEpump",
+      "symbol": "CHEESEBURGER",
+      "name": "The Cheeseburger",
+      "amount_sold": 477494.94349889323,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T12:32:02.725639+00:00",
+      "exit_time": "2026-09-10T12:33:31.335327+00:00",
+      "entry_price_usd": 5.2929356308583786e-06,
+      "exit_price_usd": 6.8215194613304115e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.032346,
+      "pnl_sol": 0.007346,
+      "pnl_pct": 28.88,
+      "exit_reason": "LLM: sell_half — +28.9% in 0.0h is right at the auto +30% TP threshold — locking in half before the bot auto-triggers or the $1681 thin pool reverses. Selling only hal",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T12:32:02.725808+00:00",
+  "last_updated": "2026-09-10T12:33:31.335567+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.094,
-  "portfolio_value_usd": 488.82,
+  "last_sol_price_usd": 100.7,
+  "portfolio_value_usd": 487.66,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 12:03 UTC",
-      "action": "buy",
-      "details": "[LLM] $BUDDY at $8.33995e-10, spent 0.05 SOL",
-      "reason": "BUDDY has the strongest narrative of the batch — 'first dog on chain, carved into Bitcoin block 299,825' is a unique, verifiable viral hook. Highest bond completion (18%) and mcap ($6.4k) of fresh launches suggests accumulating attention."
-    },
     {
       "time": "2026-09-10 12:04 UTC",
       "action": "sell",
@@ -46359,40 +46370,46 @@
       "action": "buy",
       "details": "[LLM] $CHEESEBURGER at $5.29294e-06, spent 0.05 SOL",
       "reason": "Food meme narrative (CHEESEBURGER), has twitter signal, bond at 21% (highest engagement of the batch). Simple universal name has viral potential. Risk: ultra-fresh (0.4min), need to monitor for immediate dump."
+    },
+    {
+      "time": "2026-09-10 12:33 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $CHEESEBURGER at $6.82152e-06 | P&L: +28.9%",
+      "reason": "+28.9% in 0.0h is right at the auto +30% TP threshold — locking in half before the bot auto-triggers or the $1681 thin pool reverses. Selling only half keeps upside exposure if narrative runs, but secures realized gain on the rest. Low pool = can't safely sell_all without eating my own exit."
     }
   ],
   "trade_stats": {
-    "total": 2718,
-    "wins": 1315,
+    "total": 2719,
+    "wins": 1316,
     "losses": 1403,
     "win_rate_pct": 48.4,
-    "total_pnl_sol": 0.569037,
+    "total_pnl_sol": 0.576383,
     "avg_pnl_pct": 28.16,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 341,
-    "today_realized_sol": 3.254352,
-    "today_target_pct": 813.6,
+    "today_trades": 342,
+    "today_realized_sol": 3.261698,
+    "today_target_pct": 815.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1315,
+      "win_count": 1316,
       "loss_count": 1403,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T12:32:01.409926+00:00",
+  "last_llm_brief_at": "2026-09-10T12:33:31.335288+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "Hs5eodoqhpMSgnuMXPAUPvGYLCoZaKtebrpXHcwppump": {
-      "price_usd": 2.861082401029294e-06,
+    "7aL2tALDpDUsaCk4L3ZogoCQDY3mBKLyH6rVoYzEpump": {
+      "price_usd": 6.8215194613304115e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 18.504258598937998,
-      "volume_h24": 4512.09,
+      "liquidity_usd": 1681.3590355534002,
+      "volume_h24": 3128.1,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.183040127
+      "real_sol_reserves": 16.696713362
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
