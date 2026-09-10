@@ -17332,3 +17332,6 @@
 ## [2026-09-10 00:38 UTC] sell | [FULL][LLM] $NORMIE at $2.8506e-06 | P&L: -6.2%
 - **Reasoning:** $NORMIE just opened 0.0h ago at -6.2%, bonding curve at 8% still has runway. Not at -25% hard stop, not stale (>15min). Give it a fair shot to bounce before rotating capital.
 
+## [2026-09-10 00:40 UTC] buy | [LLM] $gpu at $4.003e-06, spent 0.05 SOL
+- **Reasoning:** $gpu rides the AI/Nvidia narrative — the strongest attention magnet in crypto right now. Description is substantive ('Real Nvidia exposure, tokenized and put to work onchain'), has a dedicated twitter (@gpusol_), and the AI/GPU meta is peak attention. Fresh launch at $4k mcap = early entry. Risk: very low mcap means illiquid and easy to dump.
+
