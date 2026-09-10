@@ -20020,3 +20020,9 @@
 ## [2026-09-10 18:33 UTC] buy | [LLM] $casino at $2.04657e-08, spent 0.05 SOL
 - **Reasoning:** $casino has the strongest signal: highest mcap ($9k), 24% bonded, and a real X post from @ArenaFiBNB. 'No crying in the casino' is a punchy, memeable narrative with viral potential. Skip — already at max 1 position with $Stocklana held.
 
+## [2026-09-10 18:34 UTC] sell | [rapid-drop] $casino crashed >15% in one tick | P&L: -51.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 18:35 UTC] buy | [LLM] $casino at $1.46324e-08, spent 0.05 SOL
+- **Reasoning:** $casino has the strongest attention signal — tied to a viral X post (@river100x), $6.4k mcap with narrative 'no crying in the casino' (savvy trader meme), 15% bond showing early traction. Casino/gambling memes travel fast on crypto Twitter.
+
