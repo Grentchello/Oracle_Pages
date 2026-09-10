@@ -1,27 +1,27 @@
 {
-  "balance_sol": 1.464261,
+  "balance_sol": 1.429937,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "E2tZrMAGzVq5XnBJBiZTxfbpnDVRSkoPPrQTxN5kpump": {
-      "symbol": "EXTINCTION",
-      "name": "The Extinction",
-      "amount": 10990504.772063527,
-      "entry_price_usd": 4.6039741621894205e-07,
+    "EeRLY7nvzyeJgSd12h6U1345ap9uy4WrGLyvCZ4Tpump": {
+      "symbol": "QCAT",
+      "name": "Quantum Cat",
+      "amount": 586595.5113829129,
+      "entry_price_usd": 8.609612419456905e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T00:50:21.551602+00:00",
-      "entry_usd_value": 5.0600000000000005,
-      "last_seen_price_usd": 4.6039741621894205e-07,
+      "entry_time": "2026-09-10T00:51:58.146662+00:00",
+      "entry_usd_value": 5.05036,
+      "last_seen_price_usd": 8.609612419456905e-06,
       "entry_signals": {
-        "liquidity_usd": 1.012e-07,
+        "liquidity_usd": 2272.6629846181854,
         "volume_24h_usd": null,
-        "market_cap_usd": 4549.381583191127,
-        "ath_market_cap_usd": 7198.69787192171,
+        "market_cap_usd": 8611.073573750396,
+        "ath_market_cap_usd": 9992.578761694427,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1e-09,
+        "real_sol_reserves": 22.500009748,
         "description": "",
-        "twitter": "https://x.com/mdudas/status/2097840169281884541",
+        "twitter": "https://x.com/dayquants/status/2097850170193158251",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -40827,25 +40827,30 @@
       "pnl_pct": -1.72,
       "exit_reason": "LLM: sell_all — $BALLS is flat (-1.7%) on a bonding curve with only $320 pool liquidity (well below 5x position size rule of $500). This is exactly the kind of thin-l",
       "partial": false
+    },
+    {
+      "mint": "E2tZrMAGzVq5XnBJBiZTxfbpnDVRSkoPPrQTxN5kpump",
+      "symbol": "EXTINCTION",
+      "name": "The Extinction",
+      "amount_sold": 10990504.772063527,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T00:50:21.551602+00:00",
+      "exit_time": "2026-09-10T00:51:25.461274+00:00",
+      "entry_price_usd": 4.6039741621894205e-07,
+      "exit_price_usd": 1.4406567136400938e-07,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.015676,
+      "pnl_sol": -0.034324,
+      "pnl_pct": -68.71,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T00:50:21.551763+00:00",
+  "last_updated": "2026-09-10T00:51:58.146919+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.2,
-  "portfolio_value_usd": 153.24,
+  "last_sol_price_usd": 101.0072,
+  "portfolio_value_usd": 149.48,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 00:30 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $ETF crashed >15% in one tick | P&L: -41.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
-    {
-      "time": "2026-09-10 00:32 UTC",
-      "action": "buy",
-      "details": "[LLM] $SPY at $6.84338e-08, spent 0.05 SOL",
-      "reason": "Spycat has immediate X attention, the strongest social signal among the fresh microcaps, and a 5.2k mcap entry before confirmation. The main risk is an extremely early, low-liquidity launch, so use the full 0.1 SOL test position."
-    },
     {
       "time": "2026-09-10 00:33 UTC",
       "action": "sell",
@@ -40953,40 +40958,52 @@
       "action": "buy",
       "details": "[LLM] $EXTINCTION at $4.60397e-07, spent 0.05 SOL",
       "reason": "$EXTINCTION has viral-attention signal: tweet from @mdudas (notable crypto commentator, 200k+ followers), apocalyptic narrative fits current macro fear mood, $4.5k mcap with momentum. Best risk/reward among candidates — clear attention catalyst, funny-but-real narrative."
+    },
+    {
+      "time": "2026-09-10 00:51 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $EXTINCTION crashed >15% in one tick | P&L: -68.7%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 00:51 UTC",
+      "action": "buy",
+      "details": "[LLM] $QCAT at $8.60961e-06, spent 0.05 SOL",
+      "reason": "$QCAT has the strongest attention signal in this batch — twitter post from @dayquants plus dual listings (two $QCAT entries) suggesting coordinated viral interest. Quantum/cat narrative is highly memeable. 30% bond curve near completion = imminent graduation. Risk: dual mint could indicate scam fragmentation."
     }
   ],
   "trade_stats": {
-    "total": 2400,
+    "total": 2401,
     "wins": 1199,
-    "losses": 1201,
-    "win_rate_pct": 50.0,
-    "total_pnl_sol": -2.752049,
-    "avg_pnl_pct": 28.87,
+    "losses": 1202,
+    "win_rate_pct": 49.9,
+    "total_pnl_sol": -2.786373,
+    "avg_pnl_pct": 28.83,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 23,
-    "today_realized_sol": -0.066734,
-    "today_target_pct": -16.7,
+    "today_trades": 24,
+    "today_realized_sol": -0.101058,
+    "today_target_pct": -25.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1199,
-      "loss_count": 1201,
+      "loss_count": 1202,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T00:50:20.294610+00:00",
+  "last_llm_brief_at": "2026-09-10T00:51:56.768173+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "DgJP2xHdcFtHeRVZCfQkNUT3wgijHiaptLkP9QALpump": {
-      "price_usd": 3.4564408745790447e-06,
+    "E2tZrMAGzVq5XnBJBiZTxfbpnDVRSkoPPrQTxN5kpump": {
+      "price_usd": 1.4406567136400938e-07,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 319.56233398759997,
-      "volume_h24": 1321.22,
+      "liquidity_usd": 1.0100720000000001e-07,
+      "volume_h24": 612.36,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.157730573
+      "real_sol_reserves": 1e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

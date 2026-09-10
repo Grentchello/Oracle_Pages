@@ -17371,3 +17371,9 @@
 ## [2026-09-10 00:50 UTC] buy | [LLM] $EXTINCTION at $4.60397e-07, spent 0.05 SOL
 - **Reasoning:** $EXTINCTION has viral-attention signal: tweet from @mdudas (notable crypto commentator, 200k+ followers), apocalyptic narrative fits current macro fear mood, $4.5k mcap with momentum. Best risk/reward among candidates — clear attention catalyst, funny-but-real narrative.
 
+## [2026-09-10 00:51 UTC] sell | [rapid-drop] $EXTINCTION crashed >15% in one tick | P&L: -68.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 00:51 UTC] buy | [LLM] $QCAT at $8.60961e-06, spent 0.05 SOL
+- **Reasoning:** $QCAT has the strongest attention signal in this batch — twitter post from @dayquants plus dual listings (two $QCAT entries) suggesting coordinated viral interest. Quantum/cat narrative is highly memeable. 30% bond curve near completion = imminent graduation. Risk: dual mint could indicate scam fragmentation.
+
