@@ -19297,3 +19297,9 @@
 ## [2026-09-10 13:37 UTC] buy | [LLM] $bit meme  at $4.006e-06, spent 0.05 SOL
 - **Reasoning:** bit meme has a viral narrative hook (X post about bitcoin), extremely fresh launch ($4k mcap), and description mentions social media virality. Low mcap with attention signal = asymmetric upside. Risks: $4k mcap is tiny, no liquidity depth yet.
 
+## [2026-09-10 13:38 UTC] sell | [rapid-drop] $bit meme  crashed >15% in one tick | P&L: -90.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 13:39 UTC] buy | [LLM] $Meow at $5.41e-06, spent 0.05 SOL
+- **Reasoning:** $Meow (SpaceX Cat) has a viral SpaceX narrative hook with active twitter presence and $6k mcap — fresh attention with story. Risk: brand new (0.9min), but the narrative is the kind that trends.
+
