@@ -20452,3 +20452,6 @@
 ## [2026-09-10 20:48 UTC] buy | [LLM] $Wolfsol at $2.91772e-06, spent 0.05 SOL
 - **Reasoning:** $Wolfsol (Wolfpack) — passes viability (long desc + twitter @Wolfpackonsol), no fragility keywords, 'wild side of crypto' pack narrative has community-coin meme potential, $2.9k mcap is fresh enough for attention upside. Risk: bond at 2% means very early / illiquid, could rug fast.
 
+## [2026-09-10 20:50 UTC] sell | [FULL][LLM] $Wolfsol at $2.87463e-06 | P&L: -1.5%
+- **Reasoning:** Just entered (0.0h), only -1.5%, still on bonding curve. No catalyst to dump — give it a few minutes to develop before judging.
+
