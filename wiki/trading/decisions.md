@@ -20830,3 +20830,6 @@
 ## [2026-09-10 23:29 UTC] buy | [LLM] $Banned at $2.87269e-06, spent 0.05 SOL
 - **Reasoning:** $BANNED — Pump.fun delisting from Apple Store is a viral narrative with real-world news catalyst. Low mcap ($2.8k) means huge upside if attention catches. Bond low but narrative is strong enough to enter with 0.05 SOL.
 
+## [2026-09-10 23:30 UTC] sell | [PARTIAL][LLM] $Banned at $2.77147e-06 | P&L: -3.5%
+- **Reasoning:** Owning 119% of pool on a bonding-curve token is catastrophic concentration risk — any other seller dilutes my exit price. Down only 3.5% but the structural risk is worse than the loss. Cut and free the slot.
+
