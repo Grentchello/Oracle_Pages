@@ -17851,3 +17851,6 @@
 ## [2026-09-10 03:47 UTC] sell | [PARTIAL][LLM] $BUCKAZOIDS at $1.28093e-09 | P&L: +19.6%
 - **Reasoning:** Up +19.6% near the +25% TP line, but 1914% pool share means any seller crushes us — extreme fragility. Lock half the gain now, let the rest ride to TP or 0; asymmetric risk from here favors taking profit.
 
+## [2026-09-10 03:48 UTC] sell | [PARTIAL][LLM] $BUCKAZOIDS at $1.52074e-09 | P&L: +42.0%
+- **Reasoning:** Up +42% already past 25% TP threshold — bot should have auto-TP'd but in case it hasn't, lock half. Bonding curve not yet complete (pool=$0), remaining half gets free ride on continued attention momentum.
+

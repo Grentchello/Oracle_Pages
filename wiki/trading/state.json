@@ -1,17 +1,17 @@
 {
-  "balance_sol": 2.836372,
+  "balance_sol": 2.854096,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "EUDTDjoNNeKZGq6PptrWSz2DQsTEYXji3gqsSjEHpump": {
       "symbol": "BUCKAZOIDS",
       "name": "BUCKAZOIDS",
-      "amount": 2376240253.1105776,
+      "amount": 1188120126.5552888,
       "entry_price_usd": 1.0707040235807352e-09,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0125,
       "entry_time": "2026-09-10T03:46:05.626985+00:00",
       "entry_usd_value": 5.0885,
-      "last_seen_price_usd": 1.2809341922961298e-09,
+      "last_seen_price_usd": 1.5207381673888391e-09,
       "entry_signals": {
         "liquidity_usd": 0.18408473087,
         "volume_24h_usd": null,
@@ -42289,19 +42289,30 @@
       "pnl_pct": 19.63,
       "exit_reason": "LLM: sell_half — Up +19.6% near the +25% TP line, but 1914% pool share means any seller crushes us — extreme fragility. Lock half the gain now, let the rest ride to TP",
       "partial": true
+    },
+    {
+      "mint": "EUDTDjoNNeKZGq6PptrWSz2DQsTEYXji3gqsSjEHpump",
+      "symbol": "BUCKAZOIDS",
+      "name": "BUCKAZOIDS",
+      "amount_sold": 1188120126.5552888,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T03:46:05.626985+00:00",
+      "exit_time": "2026-09-10T03:48:56.074284+00:00",
+      "entry_price_usd": 1.0707040235807352e-09,
+      "exit_price_usd": 1.5207381673888391e-09,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.017724,
+      "pnl_sol": 0.005224,
+      "pnl_pct": 42.03,
+      "exit_reason": "LLM: sell_half — Up +42% already past 25% TP threshold — bot should have auto-TP'd but in case it hasn't, lock half. Bonding curve not yet complete (pool=$0), remainin",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T03:47:24.929778+00:00",
+  "last_updated": "2026-09-10T03:48:56.074525+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.77,
-  "portfolio_value_usd": 291.2,
+  "last_sol_price_usd": 101.94,
+  "portfolio_value_usd": 292.22,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 03:22 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Flyhard at $1.46469e-07 | P&L: +7.7%",
-      "reason": "+7.7% with 41% pool share means selling now would crater the price and burn my only position slot for ~0.004 SOL realized. The -25% hard stop protects downside; better to let it pump or get stopped cleanly than dump into a $13 pool I dominate."
-    },
     {
       "time": "2026-09-10 03:25 UTC",
       "action": "sell",
@@ -42415,40 +42426,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $BUCKAZOIDS at $1.28093e-09 | P&L: +19.6%",
       "reason": "Up +19.6% near the +25% TP line, but 1914% pool share means any seller crushes us — extreme fragility. Lock half the gain now, let the rest ride to TP or 0; asymmetric risk from here favors taking profit."
+    },
+    {
+      "time": "2026-09-10 03:48 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BUCKAZOIDS at $1.52074e-09 | P&L: +42.0%",
+      "reason": "Up +42% already past 25% TP threshold — bot should have auto-TP'd but in case it hasn't, lock half. Bonding curve not yet complete (pool=$0), remaining half gets free ride on continued attention momentum."
     }
   ],
   "trade_stats": {
-    "total": 2486,
-    "wins": 1223,
+    "total": 2487,
+    "wins": 1224,
     "losses": 1263,
     "win_rate_pct": 49.2,
-    "total_pnl_sol": -1.404938,
-    "avg_pnl_pct": 28.93,
+    "total_pnl_sol": -1.399714,
+    "avg_pnl_pct": 28.94,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 109,
-    "today_realized_sol": 1.280377,
-    "today_target_pct": 320.1,
+    "today_trades": 110,
+    "today_realized_sol": 1.285601,
+    "today_target_pct": 321.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1223,
+      "win_count": 1224,
       "loss_count": 1263,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:47:24.928684+00:00",
+  "last_llm_brief_at": "2026-09-10T03:48:56.074247+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EUDTDjoNNeKZGq6PptrWSz2DQsTEYXji3gqsSjEHpump": {
-      "price_usd": 1.2809341922961298e-09,
+      "price_usd": 1.5207381673888391e-09,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.31810686510999997,
+      "liquidity_usd": 0.39631743888,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.003125743
+      "real_sol_reserves": 0.003887752
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
