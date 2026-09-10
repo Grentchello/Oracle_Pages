@@ -18796,3 +18796,9 @@
 ## [2026-09-10 10:10 UTC] sell | [PARTIAL][LLM] $WENDOG at $4.51529e-06 | P&L: +31.7%
 - **Reasoning:** WENDOG +31.7% with bonding-curve only 28% — locking half at profit before it dumps back. Keep a runner on the remaining half for further upside since it's at the early TP zone.
 
+## [2026-09-10 10:11 UTC] sell | [rapid-drop] $WENDOG crashed >15% in one tick | P&L: +1.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 10:11 UTC] buy | [LLM] $RD at $2.96045e-06, spent 0.05 SOL
+- **Reasoning:** $RD (RETARDITION) — 'return to prime memecoin era' is a strong meta-narrative tapping nostalgia for the early 2020 memecoin cycle. Has twitter link from @MuseParisienne, $2.9k mcap with room to run, and 'RETARDITION' has viral insult-token energy. Liquidity likely thin but narrative fits attention-market thesis.
+
