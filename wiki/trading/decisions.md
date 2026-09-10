@@ -20104,3 +20104,9 @@
 ## [2026-09-10 18:57 UTC] sell | [PARTIAL][LLM] $OINKINGTON at $2.82329e-06 | P&L: +0.2%
 - **Reasoning:** I own 50% of a $10 pool — I'm the market. +0.2% is illusory; any real exit will crater the price. Free the slot for a better launch with real liquidity and narrative.
 
+## [2026-09-10 18:58 UTC] sell | [FULL][LLM] $OINKINGTON at $2.80838e-06 | P&L: -0.4%
+- **Reasoning:** Flat at -0.4% after just opening, but I'm 25% of a $10 pool — I'm the liquidity. No identified viral narrative vs. the fresh launches available. Rotating capital to a token with clearer attention signal rather than getting trapped in illiquid piggy coin.
+
+## [2026-09-10 18:58 UTC] buy | [LLM] $RISE at $6.39079e-06, spent 0.05 SOL
+- **Reasoning:** $RISE has the strongest narrative mechanic in the batch — 60% supply airdropped to top 15 holders creates a built-in viral incentive loop (holders shill to attract more holders to climb the leaderboard). Fresh X presence, just launched, sub-$7k mcap = room for the attention-driven 5-50x move that memecoin launches deliver.
+
