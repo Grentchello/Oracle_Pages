@@ -19219,3 +19219,6 @@
 ## [2026-09-10 13:12 UTC] buy | [LLM] $UFD at $3.57439e-06, spent 0.05 SOL
 - **Reasoning:** $UFD (Unicorn Fart Dust) — absurd, viral-name energy with X attention link. $3.5k mcap is ideal entry zone for a memecoin with meme-ability. Low liquidity at this mcap means fast 2-3x if it catches.
 
+## [2026-09-10 13:13 UTC] sell | [rapid-drop] $UFD crashed >15% in one tick | P&L: -22.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
