@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.086152,
+  "balance_sol": 9.119074,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EFazTa38rJniaVmCyxe7HqQ6hdJ3P3KafnGrbh8Kpump": {
-      "symbol": "STIMMY",
-      "name": "US DOLLAR STIMULUS ",
-      "amount": 75967447.2053851,
-      "entry_price_usd": 6.602169987942502e-08,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T21:55:24.052713+00:00",
-      "entry_usd_value": 5.0155,
-      "last_seen_price_usd": 6.602169987942502e-08,
-      "entry_signals": {
-        "liquidity_usd": 11.37970817431,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5815.815450024511,
-        "ath_market_cap_usd": 5815.815450024511,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.113445401,
-        "description": "THE STIMMY NEVER ENDED",
-        "twitter": "https://x.com/solidintel_x/status/2098161107336601849",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50636,19 +50612,30 @@
       "pnl_pct": -11.82,
       "exit_reason": "LLM: sell_all — $Doogle at -11.8% is still well above the -25% hard stop and only 0.0h into the hold. No clear bounce or breakdown yet — give it one more tick to deve",
       "partial": false
+    },
+    {
+      "mint": "EFazTa38rJniaVmCyxe7HqQ6hdJ3P3KafnGrbh8Kpump",
+      "symbol": "STIMMY",
+      "name": "US DOLLAR STIMULUS ",
+      "amount_sold": 75967447.2053851,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T21:55:24.052713+00:00",
+      "exit_time": "2026-09-10T21:56:27.866664+00:00",
+      "entry_price_usd": 6.602169987942502e-08,
+      "exit_price_usd": 4.3250274751351346e-08,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.032922,
+      "pnl_sol": -0.017078,
+      "pnl_pct": -34.49,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T21:55:24.052998+00:00",
+  "last_updated": "2026-09-10T21:56:41.249663+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.31,
-  "portfolio_value_usd": 916.45,
+  "last_sol_price_usd": 99.8,
+  "portfolio_value_usd": 910.08,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 21:24 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $att at $2.47151e-06 | P&L: +15.0%",
-      "reason": "Up 15% on $att, held 0.0h, pool $242 (bonding-curve stage). Not yet at any TP threshold (+30% triggers 25% auto-sell). Small pool means easy 2-3x potential if momentum builds. Selling now locks in ~$0.75 SOL and burns the slot for marginal gain."
-    },
     {
       "time": "2026-09-10 21:25 UTC",
       "action": "buy",
@@ -50762,30 +50749,48 @@
       "action": "buy",
       "details": "[LLM] $STIMMY at $6.60217e-08, spent 0.05 SOL",
       "reason": "$STIMMY has a clear macro-political narrative ('THE STIMMY NEVER ENDED'), Twitter link from @solidintel_x (credible signal account), $5.8k mcap in 0.3min shows early traction, and desc satisfies viability gate. Attention market bet on universal cultural frustration with stimulus/policy."
+    },
+    {
+      "time": "2026-09-10 21:56 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $STIMMY crashed >15% in one tick | P&L: -34.5%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2977,
+    "total": 2978,
     "wins": 1397,
-    "losses": 1580,
+    "losses": 1581,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 4.869963,
-    "avg_pnl_pct": 28.69,
+    "total_pnl_sol": 4.852885,
+    "avg_pnl_pct": 28.67,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 600,
-    "today_realized_sol": 7.555278,
-    "today_target_pct": 1888.8,
+    "today_trades": 601,
+    "today_realized_sol": 7.5382,
+    "today_target_pct": 1884.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1397,
-      "loss_count": 1580,
+      "loss_count": 1581,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T21:55:22.508237+00:00",
+  "last_llm_brief_at": "2026-09-10T21:56:40.984337+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EFazTa38rJniaVmCyxe7HqQ6hdJ3P3KafnGrbh8Kpump": {
+      "price_usd": 4.3250274751351346e-08,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.8962000000000002e-06,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.9e-08
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

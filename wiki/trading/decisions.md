@@ -20575,3 +20575,6 @@
 ## [2026-09-10 21:55 UTC] buy | [LLM] $STIMMY at $6.60217e-08, spent 0.05 SOL
 - **Reasoning:** $STIMMY has a clear macro-political narrative ('THE STIMMY NEVER ENDED'), Twitter link from @solidintel_x (credible signal account), $5.8k mcap in 0.3min shows early traction, and desc satisfies viability gate. Attention market bet on universal cultural frustration with stimulus/policy.
 
+## [2026-09-10 21:56 UTC] sell | [rapid-drop] $STIMMY crashed >15% in one tick | P&L: -34.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
