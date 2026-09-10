@@ -20299,3 +20299,6 @@
 ## [2026-09-10 19:51 UTC] buy | [LLM] $CNUT at $7.20397e-06, spent 0.05 SOL
 - **Reasoning:** $CNUT has duplicate mint detections indicating coordinated attention, has twitter signal, and is furthest along bond curve (27%) with highest mcap ($7.2k) of the duplicates — strongest attention signal among fresh launches. Risk: tiny mcap = high rug probability, but that's the memecoin game.
 
+## [2026-09-10 19:52 UTC] sell | [v8.7 TP +50% (full)] $CNUT at $1.2969e-05 | P&L: +80.0%
+- **Reasoning:** Auto take-profit at +80.0%
+
