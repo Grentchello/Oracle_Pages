@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.727544,
+  "balance_sol": 4.677544,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "5TTVgZDtirFLkYgiAGRWNqguzRAZVWKewaB3A2LKpump": {
+      "symbol": "ASTRA",
+      "name": "Astra",
+      "amount": 1764174.7871209183,
+      "entry_price_usd": 2.839004409633201e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T19:34:01.357031+00:00",
+      "entry_usd_value": 5.008500000000001,
+      "last_seen_price_usd": 2.839004409633201e-06,
+      "entry_signals": {
+        "liquidity_usd": 20.50590728088,
+        "volume_24h_usd": null,
+        "market_cap_usd": 2827.496160179566,
+        "ath_market_cap_usd": 4420.942300841763,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.204711064,
+        "description": "",
+        "twitter": "https://x.com/toly/status/2098132588502438177",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -49594,17 +49618,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T19:32:32.808125+00:00",
+  "last_updated": "2026-09-10T19:34:01.357226+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.15,
-  "portfolio_value_usd": 473.46,
+  "last_sol_price_usd": 100.17,
+  "portfolio_value_usd": 473.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:17 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $MOOMOO crashed >15% in one tick | P&L: -69.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 19:18 UTC",
       "action": "buy",
@@ -49718,6 +49736,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $SEASHELL at $2.80472e-06 | P&L: -13.1%",
       "reason": "Position is fresh (0.0h held) and down only -13.1%, well above the -25% hard cap. No clear bounce signal yet but also no reason to panic exit a brand-new position. Giving it a few more minutes to find direction."
+    },
+    {
+      "time": "2026-09-10 19:34 UTC",
+      "action": "buy",
+      "details": "[LLM] $ASTRA at $2.839e-06, spent 0.05 SOL",
+      "reason": "Toly (Solana cofounder) posted about $ASTRA — that's the highest-quality attention signal in this batch. $2.8k mcap is the asymmetric entry point; this kind of insider tweet is what drives 50-300% first-hour pumps. Risk: thin liquidity (bond 1%), and $ASTRA appears twice (second mint 41PJi2VJyz13Lfhabm9pceXHcoRZ86WvDziMjapg9dPx) suggesting copycats — take the one with the original Toly timestamp."
     }
   ],
   "trade_stats": {
@@ -49739,21 +49763,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T19:32:32.807018+00:00",
+  "last_llm_brief_at": "2026-09-10T19:33:58.328941+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "FdAMxAHVSAuUgXuEGExTkbgJgVFG6STqWM8oVqFzpump": {
-      "price_usd": 2.8047247168592682e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2.48378459675,
-      "volume_h24": 1449.76,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.024800645
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

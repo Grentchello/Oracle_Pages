@@ -20230,3 +20230,6 @@
 ## [2026-09-10 19:32 UTC] sell | [FULL][LLM] $SEASHELL at $2.80472e-06 | P&L: -13.1%
 - **Reasoning:** Position is fresh (0.0h held) and down only -13.1%, well above the -25% hard cap. No clear bounce signal yet but also no reason to panic exit a brand-new position. Giving it a few more minutes to find direction.
 
+## [2026-09-10 19:34 UTC] buy | [LLM] $ASTRA at $2.839e-06, spent 0.05 SOL
+- **Reasoning:** Toly (Solana cofounder) posted about $ASTRA — that's the highest-quality attention signal in this batch. $2.8k mcap is the asymmetric entry point; this kind of insider tweet is what drives 50-300% first-hour pumps. Risk: thin liquidity (bond 1%), and $ASTRA appears twice (second mint 41PJi2VJyz13Lfhabm9pceXHcoRZ86WvDziMjapg9dPx) suggesting copycats — take the one with the original Toly timestamp.
+
