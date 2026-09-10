@@ -20623,3 +20623,6 @@
 ## [2026-09-10 22:14 UTC] buy | [LLM] $bridgoor at $7.03473e-06, spent 0.05 SOL
 - **Reasoning:** $bridgoor is the freshest launch (~0.6min) with an attention-grabbing 'bridgoor' meme name and active X chatter (devioussol). Low mcap $7k with viral narrative potential fits the attention-market thesis. Bonding only 27% — entering early before graduation momentum.
 
+## [2026-09-10 22:16 UTC] sell | [rapid-drop] $bridgoor crashed >15% in one tick | P&L: -54.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
