@@ -20437,3 +20437,9 @@
 ## [2026-09-10 20:41 UTC] sell | [PARTIAL][LLM] $CHPT8 at $2.79551e-06 | P&L: +0.3%
 - **Reasoning:** $CHPT8 is flat (+0.3%) with pool only $1 and our share 721% — that share % on a $1 pool means illiquidity is about to make this un-sellable as more holders pile in. Exit now while we can.
 
+## [2026-09-10 20:43 UTC] sell | [FULL][LLM] $CHPT8 at $2.80978e-06 | P&L: +0.8%
+- **Reasoning:** $CHPT8 is only 0.0h old, +0.8% (basically flat), and the pool is $1 with us owning 25% — selling now would crater the price. Give it a few more minutes to see if the bonding curve moves; the auto 30min stale rule will handle exit if it doesn't.
+
+## [2026-09-10 20:43 UTC] buy | [LLM] $BSO at $3.74424e-08, spent 0.05 SOL
+- **Reasoning:** $BSO (Bag Stays On) passes the viability gate (twitter link + desc), no fragility keywords, and rides the Zcash privacy narrative which is currently trending — mcap $4.2k at bond=4% is early enough for 5-10x potential if the X post gets traction.
+
