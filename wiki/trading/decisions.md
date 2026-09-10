@@ -18712,3 +18712,6 @@
 ## [2026-09-10 09:28 UTC] buy | [LLM] $BetOnBlak at $3.53402e-06, spent 0.05 SOL
 - **Reasoning:** $BetOnBlack at $3.5k mcap with a clean gambling tagline 'put the house on black' has attention narrative potential and ultra-low entry. Gambling/casino meta works on memecoins. Small position for asymmetric upside.
 
+## [2026-09-10 09:29 UTC] sell | [PARTIAL][LLM] $BetOnBlak at $4.03915e-06 | P&L: +14.3%
+- **Reasoning:** Up +14.3% but our 580% share of a $1 pool is extreme concentration risk — any other seller dumps price through our position. Take the gain before liquidity evaporates or reverses.
+

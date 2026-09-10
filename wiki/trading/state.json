@@ -1,17 +1,17 @@
 {
-  "balance_sol": 5.076338,
+  "balance_sol": 5.13099,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AF1z7dVHdQxyR8J3ZkhTE6J7hrwaXmd5eqh2RT9Lpump": {
       "symbol": "BetOnBlak",
       "name": "BetOnBlack",
-      "amount": 1432221.55006535,
+      "amount": 61721.4188101864,
       "entry_price_usd": 3.5340202776372497e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.002154744103919193,
       "entry_time": "2026-09-10T09:28:06.783332+00:00",
       "entry_usd_value": 5.0615000000000006,
-      "last_seen_price_usd": 3.5340202776372497e-06,
+      "last_seen_price_usd": 4.039147044426912e-06,
       "entry_signals": {
         "liquidity_usd": 4.33026924543,
         "volume_24h_usd": null,
@@ -44975,19 +44975,30 @@
       "pnl_pct": -86.15,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "AF1z7dVHdQxyR8J3ZkhTE6J7hrwaXmd5eqh2RT9Lpump",
+      "symbol": "BetOnBlak",
+      "name": "BetOnBlack",
+      "amount_sold": 1370500.1312551636,
+      "fraction_sold": 0.9569051179216161,
+      "entry_time": "2026-09-10T09:28:06.783332+00:00",
+      "exit_time": "2026-09-10T09:29:50.052093+00:00",
+      "entry_price_usd": 3.5340202776372497e-06,
+      "exit_price_usd": 4.039147044426912e-06,
+      "entry_sol_for_chunk": 0.047845,
+      "exit_sol_received": 0.054652,
+      "pnl_sol": 0.006806,
+      "pnl_pct": 14.29,
+      "exit_reason": "LLM: sell_all — Up +14.3% but our 580% share of a $1 pool is extreme concentration risk — any other seller dumps price through our position. Take the gain before liqu",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T09:28:06.783822+00:00",
+  "last_updated": "2026-09-10T09:29:50.052316+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.23,
-  "portfolio_value_usd": 518.94,
+  "last_sol_price_usd": 101.29,
+  "portfolio_value_usd": 519.94,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 08:52 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $DINOBOO at $4.86778e-06 | P&L: +14.8%",
-      "reason": "Locking +14.8% gain before it reverses. Pool is tiny ($946) and bonding-curve tokens stall fast; better to rotate capital into a stronger fresh launch than hope for more upside here. Frees the 1-position slot."
-    },
     {
       "time": "2026-09-10 08:58 UTC",
       "action": "buy",
@@ -45101,30 +45112,48 @@
       "action": "buy",
       "details": "[LLM] $BetOnBlak at $3.53402e-06, spent 0.05 SOL",
       "reason": "$BetOnBlack at $3.5k mcap with a clean gambling tagline 'put the house on black' has attention narrative potential and ultra-low entry. Gambling/casino meta works on memecoins. Small position for asymmetric upside."
+    },
+    {
+      "time": "2026-09-10 09:29 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BetOnBlak at $4.03915e-06 | P&L: +14.3%",
+      "reason": "Up +14.3% but our 580% share of a $1 pool is extreme concentration risk — any other seller dumps price through our position. Take the gain before liquidity evaporates or reverses."
     }
   ],
   "trade_stats": {
-    "total": 2644,
-    "wins": 1288,
+    "total": 2645,
+    "wins": 1289,
     "losses": 1356,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.860049,
-    "avg_pnl_pct": 29.11,
+    "total_pnl_sol": 0.866855,
+    "avg_pnl_pct": 29.1,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 267,
-    "today_realized_sol": 3.545364,
-    "today_target_pct": 886.3,
+    "today_trades": 268,
+    "today_realized_sol": 3.55217,
+    "today_target_pct": 888.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1288,
+      "win_count": 1289,
       "loss_count": 1356,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T09:28:05.441090+00:00",
+  "last_llm_brief_at": "2026-09-10T09:29:50.051948+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "AF1z7dVHdQxyR8J3ZkhTE6J7hrwaXmd5eqh2RT9Lpump": {
+      "price_usd": 4.039147044426912e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.9972075454600001,
+      "volume_h24": 950.32,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.009845074
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
