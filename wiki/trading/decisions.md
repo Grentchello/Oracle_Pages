@@ -20164,3 +20164,6 @@
 ## [2026-09-10 19:14 UTC] buy | [LLM] $APEZCAT at $9.22634e-06, spent 0.05 SOL
 - **Reasoning:** $APEZCAT has crossover narrative (ape + cat), fresh launch with viral X post, mcap only $9k — extreme early attention entry. Small position, classic meme crossover story.
 
+## [2026-09-10 19:15 UTC] sell | [rapid-drop] $APEZCAT crashed >15% in one tick | P&L: -25.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
