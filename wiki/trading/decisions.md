@@ -20734,3 +20734,6 @@
 ## [2026-09-10 22:54 UTC] buy | [LLM] $FuckA at $0.000101594, spent 0.05 SOL
 - **Reasoning:** $FuckA 'Fuck Apple' — anti-corporate rage bait on the most universally-recognized tech brand is a known viral attention driver; passes viability (twitter present) and fragility (no blocklisted keywords). Risk: 0.2min age + 4% bond = ultra-early, dev could dump at graduation. Sizing at 0.05 SOL per v7 hardened rule.
 
+## [2026-09-10 22:56 UTC] sell | [FULL][LLM] $FuckA at $9.24093e-05 | P&L: -9.0%
+- **Reasoning:** $FuckA is only -9% (well within -25% hard cap) and was just entered (0.0h held). Still on bonding curve with the position fresh — no bounce signal yet but also no reason to panic. Give it time to develop before rotating.
+
