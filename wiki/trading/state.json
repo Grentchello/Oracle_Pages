@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.558783,
+  "balance_sol": 6.02026,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "BWxRkBV9oaWTKhPa82c1WABH7r4TwzS2APFsV8RZpump": {
-      "symbol": "[pump]",
-      "name": "Bracket Company",
-      "amount": 618120.9717402082,
-      "entry_price_usd": 8.068e-06,
+    "BR9nKEkxcmJt7GiUW4VuUH3ZXdP4NUSs4ETzUMnwpump": {
+      "symbol": "COTE",
+      "name": "COTE KOIN",
+      "amount": 529209.5415235729,
+      "entry_price_usd": 9.460335854086245e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T20:03:35.146354+00:00",
-      "entry_usd_value": 4.987,
-      "last_seen_price_usd": 8.068e-06,
+      "entry_time": "2026-09-10T20:05:02.397812+00:00",
+      "entry_usd_value": 5.0065,
+      "last_seen_price_usd": 9.460335854086245e-06,
       "entry_signals": {
-        "liquidity_usd": 126005.75573732384,
-        "volume_24h_usd": 4155.39,
-        "market_cap_usd": 14068.186127521572,
-        "ath_market_cap_usd": 15345.132458201571,
+        "liquidity_usd": 2812.7712232785298,
+        "volume_24h_usd": null,
+        "market_cap_usd": 9416.87480851669,
+        "ath_market_cap_usd": 9551.597842594783,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1263.342247216,
+        "real_sol_reserves": 28.091193681,
         "description": "",
-        "twitter": "https://x.com/nukidoya/status/2098139963594305779",
+        "twitter": "https://x.com/cotekoin",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -49905,25 +49905,30 @@
       "pnl_pct": 36.97,
       "exit_reason": "LLM: sell_all — Up +37% and at the +25%/30% TP threshold. Liquidity is thin ($5,203 pool, 0% our share — no exit liquidity shown). Take profit — bank the gain before ",
       "partial": false
+    },
+    {
+      "mint": "BWxRkBV9oaWTKhPa82c1WABH7r4TwzS2APFsV8RZpump",
+      "symbol": "[pump]",
+      "name": "Bracket Company",
+      "amount_sold": 618120.9717402082,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T20:03:35.146354+00:00",
+      "exit_time": "2026-09-10T20:04:40.203806+00:00",
+      "entry_price_usd": 8.068e-06,
+      "exit_price_usd": 0.0002448455909950027,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 1.511477,
+      "pnl_sol": 1.461477,
+      "pnl_pct": 2934.77,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T20:03:35.146714+00:00",
+  "last_updated": "2026-09-10T20:05:02.398081+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.74,
-  "portfolio_value_usd": 459.68,
+  "last_sol_price_usd": 100.13,
+  "portfolio_value_usd": 607.82,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:45 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $FLY crashed >15% in one tick | P&L: -96.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
-    {
-      "time": "2026-09-10 19:45 UTC",
-      "action": "buy",
-      "details": "[LLM] $Milly at $5.41372e-06, spent 0.05 SOL",
-      "reason": "$Milly - cat day narrative with real description (~50+ chars) and attached Twitter. 22% bond completion provides some liquidity backing. Cat memes have proven virality, timing around 'cat day' is a clean attention hook. Position 0.05 SOL."
-    },
     {
       "time": "2026-09-10 19:46 UTC",
       "action": "sell",
@@ -50031,30 +50036,54 @@
       "action": "buy",
       "details": "[LLM] $[pump] at $8.068e-06, spent 0.05 SOL",
       "reason": "$[pump] is a meta-meme on pump.fun itself - the name literally references the bonding curve mechanics. 33% bond progress in <1min means real buyers flooding in, and the $14k mcap is at the sweet spot for parabolic runs. This is the kind of self-aware meme that prints because the name itself is the narrative."
+    },
+    {
+      "time": "2026-09-10 20:04 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $[pump] at $0.000244846 | P&L: +2934.8%",
+      "reason": "Auto take-profit at +2934.8%"
+    },
+    {
+      "time": "2026-09-10 20:05 UTC",
+      "action": "buy",
+      "details": "[LLM] $COTE at $9.46034e-06, spent 0.05 SOL",
+      "reason": "$COTE 'COTE KOIN' has the strongest narrative of the batch — clean ticker, dedicated twitter @cotekoin, and highest mcap ($9.4k) among completable candidates. Name is memeable and has a real X handle backing it. Small position to test the launch."
     }
   ],
   "trade_stats": {
-    "total": 2934,
-    "wins": 1377,
+    "total": 2935,
+    "wins": 1378,
     "losses": 1557,
-    "win_rate_pct": 46.9,
-    "total_pnl_sol": 0.342595,
-    "avg_pnl_pct": 26.01,
-    "best_pnl_pct": 2884.19,
+    "win_rate_pct": 47.0,
+    "total_pnl_sol": 1.804072,
+    "avg_pnl_pct": 27.0,
+    "best_pnl_pct": 2934.77,
     "worst_pnl_pct": -99.94,
-    "today_trades": 557,
-    "today_realized_sol": 3.02791,
-    "today_target_pct": 757.0,
+    "today_trades": 558,
+    "today_realized_sol": 4.489387,
+    "today_target_pct": 1122.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1377,
+      "win_count": 1378,
       "loss_count": 1557,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T20:03:33.626101+00:00",
+  "last_llm_brief_at": "2026-09-10T20:05:00.815774+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BWxRkBV9oaWTKhPa82c1WABH7r4TwzS2APFsV8RZpump": {
+      "price_usd": 0.0002448455909950027,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 62096.850807121045,
+      "volume_h24": 23636.77,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 620.162297085
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

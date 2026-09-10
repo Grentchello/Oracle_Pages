@@ -20335,3 +20335,9 @@
 ## [2026-09-10 20:03 UTC] buy | [LLM] $[pump] at $8.068e-06, spent 0.05 SOL
 - **Reasoning:** $[pump] is a meta-meme on pump.fun itself - the name literally references the bonding curve mechanics. 33% bond progress in <1min means real buyers flooding in, and the $14k mcap is at the sweet spot for parabolic runs. This is the kind of self-aware meme that prints because the name itself is the narrative.
 
+## [2026-09-10 20:04 UTC] sell | [v8.7 TP +50% (full)] $[pump] at $0.000244846 | P&L: +2934.8%
+- **Reasoning:** Auto take-profit at +2934.8%
+
+## [2026-09-10 20:05 UTC] buy | [LLM] $COTE at $9.46034e-06, spent 0.05 SOL
+- **Reasoning:** $COTE 'COTE KOIN' has the strongest narrative of the batch — clean ticker, dedicated twitter @cotekoin, and highest mcap ($9.4k) among completable candidates. Name is memeable and has a real X handle backing it. Small position to test the launch.
+
