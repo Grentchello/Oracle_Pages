@@ -20515,3 +20515,6 @@
 ## [2026-09-10 21:22 UTC] buy | [LLM] $att at $2.14843e-06, spent 0.05 SOL
 - **Reasoning:** $att is a meta-narrative play — token literally named 'attention' in an attention market. 0.2min old, $2.1k mcap, 8% bond progress (highest among candidates, shows early buyer conviction), clean viability (description + name narrative). No political fragility flags. Risk: thin mcap + no Twitter, so purely narrative-driven — if the irony doesn't catch on X, it dies fast. But that's the trade.
 
+## [2026-09-10 21:24 UTC] sell | [FULL][LLM] $att at $2.47151e-06 | P&L: +15.0%
+- **Reasoning:** Up 15% on $att, held 0.0h, pool $242 (bonding-curve stage). Not yet at any TP threshold (+30% triggers 25% auto-sell). Small pool means easy 2-3x potential if momentum builds. Selling now locks in ~$0.75 SOL and burns the slot for marginal gain.
+

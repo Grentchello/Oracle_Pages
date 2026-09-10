@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.072586,
+  "balance_sol": 9.130094,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Sfz8Nx3tnZpx2d4Fx6396Rbv594YbxMJpGAwMqCpump": {
-      "symbol": "att",
-      "name": "attention",
-      "amount": 2334964.477980444,
-      "entry_price_usd": 2.148426687989219e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T21:22:43.412187+00:00",
-      "entry_usd_value": 5.016500000000001,
-      "last_seen_price_usd": 2.148426687989219e-06,
-      "entry_signals": {
-        "liquidity_usd": 157.20195565515,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2139.2188391320938,
-        "ath_market_cap_usd": 3855.2344731265607,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.566848955,
-        "description": "Attention everyone",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50449,19 +50425,30 @@
       "pnl_pct": -60.08,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "Sfz8Nx3tnZpx2d4Fx6396Rbv594YbxMJpGAwMqCpump",
+      "symbol": "att",
+      "name": "attention",
+      "amount_sold": 2334964.477980444,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T21:22:43.412187+00:00",
+      "exit_time": "2026-09-10T21:24:17.661632+00:00",
+      "entry_price_usd": 2.148426687989219e-06,
+      "exit_price_usd": 2.4715077170173446e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.057508,
+      "pnl_sol": 0.007508,
+      "pnl_pct": 15.04,
+      "exit_reason": "LLM: sell_all — Up 15% on $att, held 0.0h, pool $242 (bonding-curve stage). Not yet at any TP threshold (+30% triggers 25% auto-sell). Small pool means easy 2-3x pote",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T21:22:43.412511+00:00",
+  "last_updated": "2026-09-10T21:24:17.661805+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.33,
-  "portfolio_value_usd": 915.27,
+  "last_sol_price_usd": 100.35,
+  "portfolio_value_usd": 916.2,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 20:53 UTC",
-      "action": "buy",
-      "details": "[LLM] $HONOR at $1.0018e-05, spent 0.05 SOL",
-      "reason": "$HONOR has a CBS News twitter link (institutional media, not just CT noise) and 'Medal of Honor' is a strong patriotic narrative with mainstream recognition. Fresh launch (0.6min) is risky but this is exactly where alpha lives — $10k mcap with real media attention can 5-10x fast. Buying 0.05 SOL position."
-    },
     {
       "time": "2026-09-10 20:54 UTC",
       "action": "sell",
@@ -50575,30 +50562,48 @@
       "action": "buy",
       "details": "[LLM] $att at $2.14843e-06, spent 0.05 SOL",
       "reason": "$att is a meta-narrative play — token literally named 'attention' in an attention market. 0.2min old, $2.1k mcap, 8% bond progress (highest among candidates, shows early buyer conviction), clean viability (description + name narrative). No political fragility flags. Risk: thin mcap + no Twitter, so purely narrative-driven — if the irony doesn't catch on X, it dies fast. But that's the trade."
+    },
+    {
+      "time": "2026-09-10 21:24 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $att at $2.47151e-06 | P&L: +15.0%",
+      "reason": "Up 15% on $att, held 0.0h, pool $242 (bonding-curve stage). Not yet at any TP threshold (+30% triggers 25% auto-sell). Small pool means easy 2-3x potential if momentum builds. Selling now locks in ~$0.75 SOL and burns the slot for marginal gain."
     }
   ],
   "trade_stats": {
-    "total": 2966,
-    "wins": 1390,
+    "total": 2967,
+    "wins": 1391,
     "losses": 1576,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 4.856397,
+    "total_pnl_sol": 4.863905,
     "avg_pnl_pct": 28.79,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 589,
-    "today_realized_sol": 7.541712,
-    "today_target_pct": 1885.4,
+    "today_trades": 590,
+    "today_realized_sol": 7.54922,
+    "today_target_pct": 1887.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1390,
+      "win_count": 1391,
       "loss_count": 1576,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T21:22:41.973805+00:00",
+  "last_llm_brief_at": "2026-09-10T21:24:17.661552+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Sfz8Nx3tnZpx2d4Fx6396Rbv594YbxMJpGAwMqCpump": {
+      "price_usd": 2.4715077170173446e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 241.56000623249997,
+      "volume_h24": 2205.99,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.40717495
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
