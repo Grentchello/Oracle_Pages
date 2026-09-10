@@ -20152,3 +20152,9 @@
 ## [2026-09-10 19:11 UTC] buy | [LLM] $Flenzo at $5.86452e-06, spent 0.05 SOL
 - **Reasoning:** Flenzo: absurdist meme phrase ('common sense filed a complaint and moved out') with attached X account @Flenquip, sub-minute age, $5.8k mcap still in early attention window. Narrative has shareable humor — exactly the kind of low-mcap launch that 5-10x on first hour attention. Viability passes (desc >50 chars + twitter). 0.05 SOL size per v7 sizing rule.
 
+## [2026-09-10 19:12 UTC] sell | [rapid-drop] $Flenzo crashed >15% in one tick | P&L: -52.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:12 UTC] buy | [LLM] $GOSTA at $8.39854e-06, spent 0.05 SOL
+- **Reasoning:** $GOSTA 'The Narcoleptic Pup' — freshest launch (0.3min), highest bond completion (30%), $8.4k mcap, real twitter handle @heishimmy with viral post. Memorable narrative name, ideal early-attention entry. Risk: very new, low liquidity — but that's where alpha is.
+
