@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.245123,
+  "balance_sol": 4.278153,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9nyKeiEukJqKZLfFVNAgBgEoLjmeGqXbcyHzJ8mHpump": {
-      "symbol": "GTAVI",
-      "name": "GTA VI",
-      "amount": 1745553024.7698896,
-      "entry_price_usd": 2.911684679799406e-09,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T07:04:36.922624+00:00",
-      "entry_usd_value": 5.0825000000000005,
-      "last_seen_price_usd": 2.911684679799406e-09,
-      "entry_signals": {
-        "liquidity_usd": 0.49671465635,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 6109.035565508388,
-        "ath_market_cap_usd": 6109.035565508388,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.004886519,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -43972,19 +43948,30 @@
       "pnl_pct": -1.78,
       "exit_reason": "LLM: sell_all — Holding 21% of a $24 pool is extreme concentration risk — any other seller will crater our position. We're only down 1.8%, so we can exit clean and fr",
       "partial": false
+    },
+    {
+      "mint": "9nyKeiEukJqKZLfFVNAgBgEoLjmeGqXbcyHzJ8mHpump",
+      "symbol": "GTAVI",
+      "name": "GTA VI",
+      "amount_sold": 1745553024.7698896,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T07:04:36.922624+00:00",
+      "exit_time": "2026-09-10T07:05:41.291224+00:00",
+      "entry_price_usd": 2.911684679799406e-09,
+      "exit_price_usd": 1.9219260582933626e-09,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.03303,
+      "pnl_sol": -0.01697,
+      "pnl_pct": -33.99,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T07:04:36.922891+00:00",
+  "last_updated": "2026-09-10T07:06:00.922110+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.65,
-  "portfolio_value_usd": 436.6,
+  "last_sol_price_usd": 101.57,
+  "portfolio_value_usd": 434.53,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 06:41 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Catbot at $2.86426e-06 | P&L: -0.6%",
-      "reason": "Catbot is at -0.6% after just opening, flat movement, and I need the slot for fresh attention. Already in slot for0.0h means it's stale/no momentum. Free up capital for the new launches."
-    },
     {
       "time": "2026-09-10 06:41 UTC",
       "action": "buy",
@@ -44098,40 +44085,46 @@
       "action": "buy",
       "details": "[LLM] $GTAVI at $2.91168e-09, spent 0.05 SOL",
       "reason": "$GTAVI taps GTA VI — one of the most anticipated gaming releases ever, a proven viral attention magnet. $6k mcap at 0.7min is textbook early-entry territory; high upside if any Rockstar-related catalyst hits X."
+    },
+    {
+      "time": "2026-09-10 07:05 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $GTAVI crashed >15% in one tick | P&L: -34.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2585,
+    "total": 2586,
     "wins": 1257,
-    "losses": 1328,
+    "losses": 1329,
     "win_rate_pct": 48.6,
-    "total_pnl_sol": 0.02883,
-    "avg_pnl_pct": 29.03,
+    "total_pnl_sol": 0.01186,
+    "avg_pnl_pct": 29.0,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 208,
-    "today_realized_sol": 2.714145,
-    "today_target_pct": 678.5,
+    "today_trades": 209,
+    "today_realized_sol": 2.697175,
+    "today_target_pct": 674.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1257,
-      "loss_count": 1328,
+      "loss_count": 1329,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T07:04:35.563917+00:00",
+  "last_llm_brief_at": "2026-09-10T07:06:00.665455+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "25rmAaxCiNi4soYWdDbxrGnygTPKqNYMVzVpkUBEpump": {
-      "price_usd": 2.886519980228446e-06,
+    "9nyKeiEukJqKZLfFVNAgBgEoLjmeGqXbcyHzJ8mHpump": {
+      "price_usd": 1.9219260582933626e-09,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 23.77528799775,
-      "volume_h24": 74.83,
+      "liquidity_usd": 0.00915480881,
+      "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.233893635
+      "real_sol_reserves": 9.0133e-05
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

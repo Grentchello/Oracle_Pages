@@ -18391,3 +18391,6 @@
 ## [2026-09-10 07:04 UTC] buy | [LLM] $GTAVI at $2.91168e-09, spent 0.05 SOL
 - **Reasoning:** $GTAVI taps GTA VI — one of the most anticipated gaming releases ever, a proven viral attention magnet. $6k mcap at 0.7min is textbook early-entry territory; high upside if any Rockstar-related catalyst hits X.
 
+## [2026-09-10 07:05 UTC] sell | [rapid-drop] $GTAVI crashed >15% in one tick | P&L: -34.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
