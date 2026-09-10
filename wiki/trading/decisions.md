@@ -19486,3 +19486,9 @@
 ## [2026-09-10 14:58 UTC] buy | [LLM] $CHIP at $3.45712e-06, spent 0.05 SOL
 - **Reasoning:** $CHIP 'blue chip' — ironic meta-narrative (a memecoin literally called blue chip) has virality potential, has twitter presence passing viability gate, bond at 9% shows some early accumulation. Position sized 0.05 SOL per v7 tightened rules.
 
+## [2026-09-10 14:59 UTC] sell | [rapid-drop] $CHIP crashed >15% in one tick | P&L: -18.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 14:59 UTC] buy | [LLM] $CATESEM at $9.12455e-06, spent 0.05 SOL
+- **Reasoning:** $CATESEM has the strongest narrative on the board: a 10% supply airdrop to ANSEM (a top Solana KOL) is a textbook attention play that drives immediate buy pressure from his followers. Bond is already 31% at 0.4min, liquidity is forming fast, and KOL-bait tokens historically pump hard in the first hour. High risk of fast dump after the initial pop, but the asymmetry favors entry.
+
