@@ -19096,3 +19096,9 @@
 ## [2026-09-10 12:26 UTC] buy | [LLM] $popcat at $8.582e-06, spent 0.05 SOL
 - **Reasoning:** $popcat — name has strong prior viral history (Popcat meme hit $2B mcap in 2024), bonding already at 35% (real buys flowing), mcap only $12.7k, fresh X post. Highest attention signal in the batch.
 
+## [2026-09-10 12:27 UTC] sell | [rapid-drop] $popcat crashed >15% in one tick | P&L: -25.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 12:27 UTC] buy | [LLM] $iDuo at $5.53771e-06, spent 0.05 SOL
+- **Reasoning:** iPhone Duo narrative with active Twitter attention from @meggarwicky; 22% bond progress is the highest among new launches indicating real demand; mcap $5.5k is in viable territory. Small position to test the narrative momentum.
+
