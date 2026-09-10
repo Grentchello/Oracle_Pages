@@ -19333,3 +19333,9 @@
 ## [2026-09-10 13:50 UTC] buy | [LLM] $SOLANAAI at $3.66476e-06, spent 0.05 SOL
 - **Reasoning:** $SOLANAAI — AI-on-Solana is a hot narrative, fresh launch with twitter signal from @derivativist. Low mcap ($3.6k) = high upside if narrative catches, but also high risk of fade. Speculative scalp, will watch for +20% to take profit.
 
+## [2026-09-10 13:51 UTC] sell | [rapid-drop] $SOLANAAI crashed >15% in one tick | P&L: -23.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 13:52 UTC] buy | [LLM] $INFINITY at $3.19836e-06, spent 0.05 SOL
+- **Reasoning:** $INFINITY passes both viability (has twitter) and fragility gates. Generic 'Infinity' name has universal meme appeal, sub-$4k mcap at 0.4min age = maximum upside runway, fresh attention launch with X signal. Pure attention play — betting on the name's viral potential.
+
