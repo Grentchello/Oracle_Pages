@@ -20509,3 +20509,6 @@
 ## [2026-09-10 21:18 UTC] buy | [LLM] $PROTOC at $7.01e-06, spent 0.05 SOL
 - **Reasoning:** $PROTOC (Grokkybara Bot) hits the AI-animal meme meta perfectly — capybara + Grok is viral territory, has X presence, mcap $8k shows early traction. Fresh 0.6min launch with bond still progressing. Standard 0.1 SOL entry, tight scalp discipline applies.
 
+## [2026-09-10 21:19 UTC] sell | [rapid-drop] $PROTOC crashed >15% in one tick | P&L: -60.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
