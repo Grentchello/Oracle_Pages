@@ -17878,3 +17878,6 @@
 ## [2026-09-10 03:59 UTC] sell | [FULL][LLM] $JPM at $1.09101e-05 | P&L: +16.8%
 - **Reasoning:** Up +16.8% on a fresh launch with rising momentum. Just entered and showing strength - let it ride toward the +25% auto-TP. No reason to exit a winner early.
 
+## [2026-09-10 04:00 UTC] buy | [LLM] $BANK at $5.20795e-06, spent 0.05 SOL
+- **Reasoning:** $BANK 'Bank On This' — JPM on OTC desks is a viral narrative hook (banking/finance meme). mcap $5.2k, age 0.2min, clear story, twitter post present, viability gate passes. Fresh low-mcap with attention = highest asymmetry on the board.
+
