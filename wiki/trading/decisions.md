@@ -17614,3 +17614,6 @@
 ## [2026-09-10 02:20 UTC] buy | [LLM] $Lil Wayne at $3.03631e-06, spent 0.05 SOL
 - **Reasoning:** $F Is For Fortnite — attention is from @fortnite (40M+ follower official brand account), highest-quality signal in the batch. Real brand-driven viral moment, not just crypto-twitter echo. Passes viability (twitter present), passes fragility gate (token is riding a game event, not a direct celebrity pump). 0.3min age means we're early. Risk: brand tokens often rug after the initial spike — plan to take profit at +50%.
 
+## [2026-09-10 02:21 UTC] sell | [FULL][LLM] $Lil Wayne at $2.82861e-06 | P&L: -6.8%
+- **Reasoning:** $Lil Wayne is down only -6.8% but held 0.0h and no clear bounce. Description missing (viability concern), no twitter shown, narrative unclear, and pool=$0 means no organic depth yet. Cutting at a small loss to free the slot for fresher attention — staying in a bonding-curve ghost position ties up capital with no catalyst.
+
