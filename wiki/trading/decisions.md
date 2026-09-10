@@ -17554,3 +17554,9 @@
 ## [2026-09-10 01:56 UTC] buy | [LLM] $iPod at $7.49225e-06, spent 0.05 SOL
 - **Reasoning:** $iPod - nostalgia brand is meme-catnip, recognizable name, fresh launch with twitter signal. Attention play on a universally known cultural artifact.
 
+## [2026-09-10 01:57 UTC] sell | [rapid-drop] $iPod crashed >15% in one tick | P&L: -52.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 01:57 UTC] buy | [LLM] $Bella at $1.67714e-05, spent 0.05 SOL
+- **Reasoning:** $Bella is the fastest-launching token this tick: $16.7k mcap at 12 seconds old with 37% bond complete (vs 23% for the copycat mint). Clear narrative + viral X post + leading velocity = attention momentum. 0.05 SOL position size per v7 rules. Risk: brand-new mint, liquidity thin, could rug — but viability gate passes (twitter present) and ME2F fragility (no political/celeb keywords) is clean.
+
