@@ -20356,3 +20356,6 @@
 ## [2026-09-10 20:10 UTC] buy | [LLM] $PEACH at $4.168e-06, spent 0.05 SOL
 - **Reasoning:** $PEACH (Princess Peach) — iconic Nintendo name recognition, has twitter, fresh launch at $4.9k mcap with bonding curve at 20%. Highest attention ceiling of the batch; classic memetic IP play. Risk: thin liquidity, narrative could fade if no organic pickup in first 15min.
 
+## [2026-09-10 20:11 UTC] sell | [FULL][LLM] $PEACH at $4.7769e-06 | P&L: +14.6%
+- **Reasoning:** +14.6% on fresh entry, not at TP threshold, and all new launches fail the viability gate (description <50 chars or missing twitter/liquidity), so no rotation target available.
+

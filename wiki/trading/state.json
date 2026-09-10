@@ -1,32 +1,8 @@
 {
-  "balance_sol": 6.042273,
+  "balance_sol": 6.09948,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7eAKtFmi2YPKjBkr5yYHaLd5Nk3fNWmcVPWqHX2Fpump": {
-      "symbol": "PEACH",
-      "name": "Princess Peach",
-      "amount": 1196257.1976967372,
-      "entry_price_usd": 4.168e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T20:10:24.094381+00:00",
-      "entry_usd_value": 4.986000000000001,
-      "last_seen_price_usd": 4.168e-06,
-      "entry_signals": {
-        "liquidity_usd": 1113.23334228588,
-        "volume_24h_usd": 5601.79,
-        "market_cap_usd": 4898.596356046602,
-        "ath_market_cap_usd": 5826.227775096877,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 11.163591479,
-        "description": "",
-        "twitter": "https://x.com/justpeachy0102?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -49973,19 +49949,30 @@
       "pnl_pct": -12.21,
       "exit_reason": "LLM: sell_all — Down -12.2% in <1h with no bounce, pool only $1226, no narrative catalyst. Free the slot — capital rotation beats bag-holding a bonding-curve drift.",
       "partial": false
+    },
+    {
+      "mint": "7eAKtFmi2YPKjBkr5yYHaLd5Nk3fNWmcVPWqHX2Fpump",
+      "symbol": "PEACH",
+      "name": "Princess Peach",
+      "amount_sold": 1196257.1976967372,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T20:10:24.094381+00:00",
+      "exit_time": "2026-09-10T20:11:42.922112+00:00",
+      "entry_price_usd": 4.168e-06,
+      "exit_price_usd": 4.776900207351404e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.057207,
+      "pnl_sol": 0.007207,
+      "pnl_pct": 14.61,
+      "exit_reason": "LLM: sell_all — +14.6% on fresh entry, not at TP threshold, and all new launches fail the viability gate (description <50 chars or missing twitter/liquidity), so no r",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T20:10:24.094666+00:00",
+  "last_updated": "2026-09-10T20:11:42.922462+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.72,
-  "portfolio_value_usd": 607.52,
+  "last_sol_price_usd": 99.89,
+  "portfolio_value_usd": 609.28,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:51 UTC",
-      "action": "buy",
-      "details": "[LLM] $CNUT at $7.20397e-06, spent 0.05 SOL",
-      "reason": "$CNUT has duplicate mint detections indicating coordinated attention, has twitter signal, and is furthest along bond curve (27%) with highest mcap ($7.2k) of the duplicates — strongest attention signal among fresh launches. Risk: tiny mcap = high rug probability, but that's the memecoin game."
-    },
     {
       "time": "2026-09-10 19:52 UTC",
       "action": "sell",
@@ -50099,40 +50086,46 @@
       "action": "buy",
       "details": "[LLM] $PEACH at $4.168e-06, spent 0.05 SOL",
       "reason": "$PEACH (Princess Peach) — iconic Nintendo name recognition, has twitter, fresh launch at $4.9k mcap with bonding curve at 20%. Highest attention ceiling of the batch; classic memetic IP play. Risk: thin liquidity, narrative could fade if no organic pickup in first 15min."
+    },
+    {
+      "time": "2026-09-10 20:11 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PEACH at $4.7769e-06 | P&L: +14.6%",
+      "reason": "+14.6% on fresh entry, not at TP threshold, and all new launches fail the viability gate (description <50 chars or missing twitter/liquidity), so no rotation target available."
     }
   ],
   "trade_stats": {
-    "total": 2938,
-    "wins": 1380,
+    "total": 2939,
+    "wins": 1381,
     "losses": 1558,
     "win_rate_pct": 47.0,
-    "total_pnl_sol": 1.826085,
+    "total_pnl_sol": 1.833292,
     "avg_pnl_pct": 27.0,
     "best_pnl_pct": 2934.77,
     "worst_pnl_pct": -99.94,
-    "today_trades": 561,
-    "today_realized_sol": 4.5114,
-    "today_target_pct": 1127.8,
+    "today_trades": 562,
+    "today_realized_sol": 4.518607,
+    "today_target_pct": 1129.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1380,
+      "win_count": 1381,
       "loss_count": 1558,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T20:10:21.456576+00:00",
+  "last_llm_brief_at": "2026-09-10T20:11:42.921955+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "6iMHSSqDKyEW9cwaspeb56LwHKk3oUuKEV8BJJuNpump": {
-      "price_usd": 5.5424824295037944e-06,
+    "7eAKtFmi2YPKjBkr5yYHaLd5Nk3fNWmcVPWqHX2Fpump": {
+      "price_usd": 4.776900207351404e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1226.37291238476,
-      "volume_h24": 16344.35,
+      "liquidity_usd": 922.47431213357,
+      "volume_h24": 7960.97,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 12.298163983
+      "real_sol_reserves": 9.234901513
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
