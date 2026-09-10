@@ -17965,3 +17965,9 @@
 ## [2026-09-10 04:30 UTC] buy | [LLM] $Snorp at $9.30614e-06, spent 0.05 SOL
 - **Reasoning:** $Snorp — strongest fresh launch by mcap ($9.3k), has twitter presence (snorponchain), launched via Discord community (uxento = attention hub), bond already 31% complete showing organic buying pressure. Memetic name with potential viral appeal; -25% stop protects downside.
 
+## [2026-09-10 04:31 UTC] sell | [rapid-drop] $Snorp crashed >15% in one tick | P&L: -69.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 04:32 UTC] buy | [LLM] $UPS at $3.883e-06, spent 0.05 SOL
+- **Reasoning:** $UPS (UPSyndrome) — viral X post from @ZzzzzSol, memeable medical-syndrome naming convention that travels well on CT, $12.6k mcap with 34% bond progress shows organic buy-in, no fragility flags, clear attention signal. Best risk/reward of the slate.
+
