@@ -18715,3 +18715,6 @@
 ## [2026-09-10 09:29 UTC] sell | [PARTIAL][LLM] $BetOnBlak at $4.03915e-06 | P&L: +14.3%
 - **Reasoning:** Up +14.3% but our 580% share of a $1 pool is extreme concentration risk — any other seller dumps price through our position. Take the gain before liquidity evaporates or reverses.
 
+## [2026-09-10 09:31 UTC] sell | [PARTIAL][LLM] $BetOnBlak at $4.03869e-06 | P&L: +14.3%
+- **Reasoning:** Up +14.3% but pool is only $1 with us holding 33% — any sell would crater execution. Bonding curve is at 41% and still very early; if it graduates or pumps organically we capture the move. Not stale (0.0h held), no reason to force-exit into illiquid depth.
+

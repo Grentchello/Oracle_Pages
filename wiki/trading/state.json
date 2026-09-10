@@ -1,17 +1,17 @@
 {
-  "balance_sol": 5.13099,
+  "balance_sol": 5.13222,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "AF1z7dVHdQxyR8J3ZkhTE6J7hrwaXmd5eqh2RT9Lpump": {
       "symbol": "BetOnBlak",
       "name": "BetOnBlack",
-      "amount": 61721.4188101864,
+      "amount": 30860.7094050932,
       "entry_price_usd": 3.5340202776372497e-06,
-      "entry_sol_spent": 0.002154744103919193,
+      "entry_sol_spent": 0.0010773720519595964,
       "entry_time": "2026-09-10T09:28:06.783332+00:00",
       "entry_usd_value": 5.0615000000000006,
-      "last_seen_price_usd": 4.039147044426912e-06,
+      "last_seen_price_usd": 4.0386895296288885e-06,
       "entry_signals": {
         "liquidity_usd": 4.33026924543,
         "volume_24h_usd": null,
@@ -44992,19 +44992,30 @@
       "pnl_pct": 14.29,
       "exit_reason": "LLM: sell_all — Up +14.3% but our 580% share of a $1 pool is extreme concentration risk — any other seller dumps price through our position. Take the gain before liqu",
       "partial": true
+    },
+    {
+      "mint": "AF1z7dVHdQxyR8J3ZkhTE6J7hrwaXmd5eqh2RT9Lpump",
+      "symbol": "BetOnBlak",
+      "name": "BetOnBlack",
+      "amount_sold": 30860.7094050932,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T09:28:06.783332+00:00",
+      "exit_time": "2026-09-10T09:31:38.844269+00:00",
+      "entry_price_usd": 3.5340202776372497e-06,
+      "exit_price_usd": 4.0386895296288885e-06,
+      "entry_sol_for_chunk": 0.001077,
+      "exit_sol_received": 0.00123,
+      "pnl_sol": 0.000153,
+      "pnl_pct": 14.28,
+      "exit_reason": "LLM: sell_all — Up +14.3% but pool is only $1 with us holding 33% — any sell would crater execution. Bonding curve is at 41% and still very early; if it graduates or ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T09:29:50.052316+00:00",
+  "last_updated": "2026-09-10T09:31:38.844485+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.29,
-  "portfolio_value_usd": 519.94,
+  "portfolio_value_usd": 519.95,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 08:58 UTC",
-      "action": "buy",
-      "details": "[LLM] $Hand at $4.156e-06, spent 0.05 SOL",
-      "reason": "$Hand has explicit X engagement (twitter link to memedevfun status), fresh 0.9min age, $4.6k mcap = bottom of bonding curve, no celebrity/political fragility flags. Hand/cursor memes have viral potential on CT."
-    },
     {
       "time": "2026-09-10 08:59 UTC",
       "action": "sell",
@@ -45118,40 +45129,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $BetOnBlak at $4.03915e-06 | P&L: +14.3%",
       "reason": "Up +14.3% but our 580% share of a $1 pool is extreme concentration risk — any other seller dumps price through our position. Take the gain before liquidity evaporates or reverses."
+    },
+    {
+      "time": "2026-09-10 09:31 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BetOnBlak at $4.03869e-06 | P&L: +14.3%",
+      "reason": "Up +14.3% but pool is only $1 with us holding 33% — any sell would crater execution. Bonding curve is at 41% and still very early; if it graduates or pumps organically we capture the move. Not stale (0.0h held), no reason to force-exit into illiquid depth."
     }
   ],
   "trade_stats": {
-    "total": 2645,
-    "wins": 1289,
+    "total": 2646,
+    "wins": 1290,
     "losses": 1356,
-    "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.866855,
+    "win_rate_pct": 48.8,
+    "total_pnl_sol": 0.867008,
     "avg_pnl_pct": 29.1,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 268,
-    "today_realized_sol": 3.55217,
-    "today_target_pct": 888.0,
+    "today_trades": 269,
+    "today_realized_sol": 3.552323,
+    "today_target_pct": 888.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1289,
+      "win_count": 1290,
       "loss_count": 1356,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T09:29:50.051948+00:00",
+  "last_llm_brief_at": "2026-09-10T09:31:38.843791+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AF1z7dVHdQxyR8J3ZkhTE6J7hrwaXmd5eqh2RT9Lpump": {
-      "price_usd": 4.039147044426912e-06,
+      "price_usd": 4.0386895296288885e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.9972075454600001,
-      "volume_h24": 950.32,
+      "liquidity_usd": 0.7530351366300001,
+      "volume_h24": 953.65,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.009845074
+      "real_sol_reserves": 0.007434447
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
