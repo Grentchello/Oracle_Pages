@@ -20740,3 +20740,9 @@
 ## [2026-09-10 22:57 UTC] buy | [LLM] $10M at $9.10129e-06, spent 0.05 SOL
 - **Reasoning:** $10M 'Speedrun To 10 Million' is the meta-narrative token — race-to-10M-mcap is currently viral on CT. At $9,108 mcap it sits literally at the cusp of the target, with a real CT account (daddyriskbets) driving attention. Bond31% means early but real buy pressure. Asymmetric upside if narrative catches; tight -25% hard cap covers downside.
 
+## [2026-09-10 22:58 UTC] sell | [rapid-drop] $10M crashed >15% in one tick | P&L: -66.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 22:59 UTC] buy | [LLM] $METH at $3.39862e-06, spent 0.05 SOL
+- **Reasoning:** $METH (DEA) — Polymarket X account linkage is a real attention signal, Polymarket-attached tokens get speculative flow. Sub-$4k mcap, 0.3min old. High risk, high attention potential.
+
