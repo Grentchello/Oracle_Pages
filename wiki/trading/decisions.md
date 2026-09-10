@@ -20332,3 +20332,6 @@
 ## [2026-09-10 20:02 UTC] sell | [FULL][LLM] $CARRY at $2.09014e-05 | P&L: +37.0%
 - **Reasoning:** Up +37% and at the +25%/30% TP threshold. Liquidity is thin ($5,203 pool, 0% our share — no exit liquidity shown). Take profit — bank the gain before it reverses.
 
+## [2026-09-10 20:03 UTC] buy | [LLM] $[pump] at $8.068e-06, spent 0.05 SOL
+- **Reasoning:** $[pump] is a meta-meme on pump.fun itself - the name literally references the bonding curve mechanics. 33% bond progress in <1min means real buyers flooding in, and the $14k mcap is at the sweet spot for parabolic runs. This is the kind of self-aware meme that prints because the name itself is the narrative.
+
