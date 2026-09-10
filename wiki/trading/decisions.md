@@ -19945,3 +19945,9 @@
 ## [2026-09-10 18:08 UTC] buy | [LLM] $Veronica at $8.792e-06, spent 0.05 SOL
 - **Reasoning:** $Veronica — TikTok creator with 430K+ followers launching her own coin. Strong attention narrative, passes viability gate (130+ char desc + twitter), bond 25% already committed. Position size 0.05 SOL per bot enforcement. Hard stop at -25%, take profit at +50%.
 
+## [2026-09-10 18:10 UTC] sell | [rapid-drop] $Veronica crashed >15% in one tick | P&L: -23.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 18:10 UTC] buy | [LLM] $BITCAT at $5.51337e-08, spent 0.05 SOL
+- **Reasoning:** $BITCAT — bitcoin-cat hybrid meme narrative, has twitter presence (viability pass), sub-$4k mcap with viral meme potential. Classic attention-market play.
+
