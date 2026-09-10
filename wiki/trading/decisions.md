@@ -20590,3 +20590,6 @@
 ## [2026-09-10 22:00 UTC] sell | [FULL][LLM] $RISE at $7.16354e-06 | P&L: +12.3%
 - **Reasoning:** $RISE up +12.3% on bonding curve with0.0h held — well below TP thresholds, momentum is constructive. Selling now would lock a small gain and miss a potential bonding-curve breakout. Will re-evaluate at +25% TP or if momentum stalls.
 
+## [2026-09-10 22:02 UTC] buy | [LLM] $DEVIN at $1.2097e-07, spent 0.05 SOL
+- **Reasoning:** $DEVIN launched on @OpenAIDevs — riding the Devin (the AI coder) attention wave. Fresh, low mcap, narrative is hot. Passes viability gate via twitter link.
+

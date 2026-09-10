@@ -1,8 +1,32 @@
 {
-  "balance_sol": 9.118815,
+  "balance_sol": 9.068815,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "BTGzsMgtkvHMD8f2EXWDX3BiYZKZWACLhP6SAvfbpump": {
+      "symbol": "DEVIN",
+      "name": "Devin",
+      "amount": 41038973.58104732,
+      "entry_price_usd": 1.2097037442214964e-07,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T22:02:10.222878+00:00",
+      "entry_usd_value": 4.964500000000001,
+      "last_seen_price_usd": 1.2097037442214964e-07,
+      "entry_signals": {
+        "liquidity_usd": 4.9645e-07,
+        "volume_24h_usd": null,
+        "market_cap_usd": 6006.82167657442,
+        "ath_market_cap_usd": 6006.82167657442,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 5e-09,
+        "description": "",
+        "twitter": "https://x.com/OpenAIDevs/status/2098170028432773174",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50665,17 +50689,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T22:00:50.227898+00:00",
+  "last_updated": "2026-09-10T22:02:10.223061+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.22,
-  "portfolio_value_usd": 913.89,
+  "last_sol_price_usd": 99.29,
+  "portfolio_value_usd": 905.41,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 21:30 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CHILLGUY at $6.397e-05 | P&L: +7.4%",
-      "reason": "+7.4% with 0.0h held, not yet at TP, no clear exit signal; watch for either 30min staleness or +25% TP trigger."
-    },
     {
       "time": "2026-09-10 21:35 UTC",
       "action": "buy",
@@ -50789,6 +50807,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $RISE at $7.16354e-06 | P&L: +12.3%",
       "reason": "$RISE up +12.3% on bonding curve with0.0h held — well below TP thresholds, momentum is constructive. Selling now would lock a small gain and miss a potential bonding-curve breakout. Will re-evaluate at +25% TP or if momentum stalls."
+    },
+    {
+      "time": "2026-09-10 22:02 UTC",
+      "action": "buy",
+      "details": "[LLM] $DEVIN at $1.2097e-07, spent 0.05 SOL",
+      "reason": "$DEVIN launched on @OpenAIDevs — riding the Devin (the AI coder) attention wave. Fresh, low mcap, narrative is hot. Passes viability gate via twitter link."
     }
   ],
   "trade_stats": {
@@ -50810,21 +50834,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T22:00:50.226704+00:00",
+  "last_llm_brief_at": "2026-09-10T22:02:08.902283+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "73EoUThQ2qqaknuZC66iqzR4VoZLo71X9H6puamZpump": {
-      "price_usd": 7.163542252175732e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1800.7041613787,
-      "volume_h24": 1773.58,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 17.967513085
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
