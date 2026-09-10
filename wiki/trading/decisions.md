@@ -18763,3 +18763,9 @@
 ## [2026-09-10 09:57 UTC] buy | [LLM] $UFD at $5.90435e-06, spent 0.05 SOL
 - **Reasoning:** $UFD has the strongest attention signal: viral Derivativist tweet, multiple coordinated deploys (5 mints in the list — clear narrative hijack), fresh 0.6min age with highest bond completion (24%) suggesting real demand. Risk: extreme freshness, bonding not complete, could rug — but the attention is real and the window is now.
 
+## [2026-09-10 09:58 UTC] sell | [rapid-drop] $UFD crashed >15% in one tick | P&L: -51.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 09:59 UTC] buy | [LLM] $Gösta at $3.544e-06, spent 0.05 SOL
+- **Reasoning:** $Gösta (The Narcoleptic Dog) has the strongest fresh-attention hook of this batch: quirky real-world character narrative + real twitter poster @drco0in + 17% bond already progressing + $4.4k mcap with under 1min age = classic early-pump setup. Risk: 0.7min old, extremely early, could rug or flatline — but that's the alpha window. Will exit fast per scalp discipline if it doesn't move +20% within 15min.
+
