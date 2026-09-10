@@ -20257,3 +20257,9 @@
 ## [2026-09-10 19:39 UTC] buy | [LLM] $marcat at $8.62288e-06, spent 0.05 SOL
 - **Reasoning:** $marcat is leading the batch on attention signals: bond curve already 30% complete vs 1-22% for peers, $8.5k mcap is the highest of the fresh launches, and a fresh tweet is attached. Viability gate passes (twitter present). No celebrity/political fragility flags. Sizing 0.05 SOL per the new discipline.
 
+## [2026-09-10 19:41 UTC] sell | [rapid-drop] $marcat crashed >15% in one tick | P&L: -67.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:41 UTC] buy | [LLM] $helmert at $5.19675e-06, spent 0.05 SOL
+- **Reasoning:** $helmert references Helius CEO @mert, a real Solana ecosystem figure with verifiable attention. Age 0.3min and low $5k mcap give early-entry asymmetry on a named-personality narrative, and it passes viability + fragility gates (no blacklist keyword, has Twitter).
+
