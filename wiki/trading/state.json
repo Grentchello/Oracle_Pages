@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.540742,
+  "balance_sol": 4.608783,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GKCvJmW9vgsrvQMsYBySFVcvtVuGeHN6M5B54DPCpump": {
-      "symbol": "CARRY",
-      "name": "Carry Portal",
-      "amount": 325753.6041939712,
-      "entry_price_usd": 1.526e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T20:00:47.666211+00:00",
-      "entry_usd_value": 4.971,
-      "last_seen_price_usd": 1.526e-05,
-      "entry_signals": {
-        "liquidity_usd": 5857.51710010494,
-        "volume_24h_usd": 7576.62,
-        "market_cap_usd": 24884.690659493896,
-        "ath_market_cap_usd": 26346.15855674856,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 58.916888957,
-        "description": "hold the coin, collect the carry.",
-        "twitter": "https://x.com/usecarryportal",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -49888,19 +49864,30 @@
       "pnl_pct": -31.82,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "GKCvJmW9vgsrvQMsYBySFVcvtVuGeHN6M5B54DPCpump",
+      "symbol": "CARRY",
+      "name": "Carry Portal",
+      "amount_sold": 325753.6041939712,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T20:00:47.666211+00:00",
+      "exit_time": "2026-09-10T20:02:08.345112+00:00",
+      "entry_price_usd": 1.526e-05,
+      "exit_price_usd": 2.0901423153992944e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.068041,
+      "pnl_sol": 0.018041,
+      "pnl_pct": 36.97,
+      "exit_reason": "LLM: sell_all — Up +37% and at the +25%/30% TP threshold. Liquidity is thin ($5,203 pool, 0% our share — no exit liquidity shown). Take profit — bank the gain before ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T20:00:47.666540+00:00",
+  "last_updated": "2026-09-10T20:02:08.345509+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.42,
-  "portfolio_value_usd": 456.41,
+  "last_sol_price_usd": 100.068,
+  "portfolio_value_usd": 461.19,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:43 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $MOOMOO crashed >15% in one tick | P&L: -62.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 19:44 UTC",
       "action": "buy",
@@ -50014,40 +50001,46 @@
       "action": "buy",
       "details": "[LLM] $CARRY at $1.526e-05, spent 0.05 SOL",
       "reason": "$CARRY has the strongest narrative of the batch ('hold the coin, collect the carry' — a yield-meme meta that's been hot), a real X handle @usecarryportal, highest mcap ($25k) and furthest bond progress (40%) of the fresh launches. Risk: still unbonded, but 0.05 SOL caps the downside and the attention signal is genuine."
+    },
+    {
+      "time": "2026-09-10 20:02 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CARRY at $2.09014e-05 | P&L: +37.0%",
+      "reason": "Up +37% and at the +25%/30% TP threshold. Liquidity is thin ($5,203 pool, 0% our share — no exit liquidity shown). Take profit — bank the gain before it reverses."
     }
   ],
   "trade_stats": {
-    "total": 2933,
-    "wins": 1376,
+    "total": 2934,
+    "wins": 1377,
     "losses": 1557,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 0.324554,
-    "avg_pnl_pct": 26.0,
+    "total_pnl_sol": 0.342595,
+    "avg_pnl_pct": 26.01,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 556,
-    "today_realized_sol": 3.009869,
-    "today_target_pct": 752.5,
+    "today_trades": 557,
+    "today_realized_sol": 3.02791,
+    "today_target_pct": 757.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1376,
+      "win_count": 1377,
       "loss_count": 1557,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T20:00:46.316199+00:00",
+  "last_llm_brief_at": "2026-09-10T20:02:08.345065+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "CHELHg4Pqy9SdoCdZe2yoRyW7g45qLL7uhThrqQtpump": {
-      "price_usd": 2.939704961106962e-06,
+    "GKCvJmW9vgsrvQMsYBySFVcvtVuGeHN6M5B54DPCpump": {
+      "price_usd": 2.0901423153992944e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 84.65046514782,
-      "volume_h24": 11939.62,
+      "liquidity_usd": 5203.2895420224595,
+      "volume_h24": 18989.82,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.851443021
+      "real_sol_reserves": 51.997537095
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

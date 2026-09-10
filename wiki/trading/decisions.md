@@ -20329,3 +20329,6 @@
 ## [2026-09-10 20:00 UTC] buy | [LLM] $CARRY at $1.526e-05, spent 0.05 SOL
 - **Reasoning:** $CARRY has the strongest narrative of the batch ('hold the coin, collect the carry' — a yield-meme meta that's been hot), a real X handle @usecarryportal, highest mcap ($25k) and furthest bond progress (40%) of the fresh launches. Risk: still unbonded, but 0.05 SOL caps the downside and the attention signal is genuine.
 
+## [2026-09-10 20:02 UTC] sell | [FULL][LLM] $CARRY at $2.09014e-05 | P&L: +37.0%
+- **Reasoning:** Up +37% and at the +25%/30% TP threshold. Liquidity is thin ($5,203 pool, 0% our share — no exit liquidity shown). Take profit — bank the gain before it reverses.
+
