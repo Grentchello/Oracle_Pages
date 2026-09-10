@@ -18448,3 +18448,9 @@
 ## [2026-09-10 07:29 UTC] buy | [LLM] $CHAROC at $2.022e-06, spent 0.05 SOL
 - **Reasoning:** $CHAROC (Chaotic Rocket) — absurd meme name, sub-$2k mcap right after launch, bond just starting to curve. Pure attention play, cheap entry for a viral-name shot.
 
+## [2026-09-10 07:30 UTC] sell | [rapid-drop] $CHAROC crashed >15% in one tick | P&L: -19.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 07:30 UTC] buy | [LLM] $HONK at $2.826e-06, spent 0.05 SOL
+- **Reasoning:** $HONK has viral X post from CyborgDeployed, $4k mcap with bond still forming — animal meme + real tweet = classic attention setup, fits viability gate (twitter present).
+
