@@ -20626,3 +20626,6 @@
 ## [2026-09-10 22:16 UTC] sell | [rapid-drop] $bridgoor crashed >15% in one tick | P&L: -54.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 22:20 UTC] buy | [LLM] $SILYAN at $6.98714e-06, spent 0.05 SOL
+- **Reasoning:** $SILYAN (The Tale Of Silyan) — highest bond completion (27%) in the list, $7k mcap, has twitter presence. Bond near graduation = real liquidity forming. Fresh narrative, decent attention signal. Speculative small entry to test the launch.
+
