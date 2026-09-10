@@ -17848,3 +17848,6 @@
 ## [2026-09-10 03:46 UTC] buy | [LLM] $BUCKAZOIDS at $1.0707e-09, spent 0.05 SOL
 - **Reasoning:** $BUCKAZOIDS has a concrete viral premise—a Bitcoin logo reportedly spotted in a 1991 game—and a major X signal from Binance. It is the strongest attention-backed launch in the slate, though the 23% bonding progress and very low market cap make it extremely high risk.
 
+## [2026-09-10 03:47 UTC] sell | [PARTIAL][LLM] $BUCKAZOIDS at $1.28093e-09 | P&L: +19.6%
+- **Reasoning:** Up +19.6% near the +25% TP line, but 1914% pool share means any seller crushes us — extreme fragility. Lock half the gain now, let the rest ride to TP or 0; asymmetric risk from here favors taking profit.
+

@@ -1,17 +1,17 @@
 {
-  "balance_sol": 2.806463,
+  "balance_sol": 2.836372,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "EUDTDjoNNeKZGq6PptrWSz2DQsTEYXji3gqsSjEHpump": {
       "symbol": "BUCKAZOIDS",
       "name": "BUCKAZOIDS",
-      "amount": 4752480506.221155,
+      "amount": 2376240253.1105776,
       "entry_price_usd": 1.0707040235807352e-09,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T03:46:05.626985+00:00",
       "entry_usd_value": 5.0885,
-      "last_seen_price_usd": 1.0707040235807352e-09,
+      "last_seen_price_usd": 1.2809341922961298e-09,
       "entry_signals": {
         "liquidity_usd": 0.18408473087,
         "volume_24h_usd": null,
@@ -42272,19 +42272,30 @@
       "pnl_pct": -81.69,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "EUDTDjoNNeKZGq6PptrWSz2DQsTEYXji3gqsSjEHpump",
+      "symbol": "BUCKAZOIDS",
+      "name": "BUCKAZOIDS",
+      "amount_sold": 2376240253.1105776,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T03:46:05.626985+00:00",
+      "exit_time": "2026-09-10T03:47:24.928722+00:00",
+      "entry_price_usd": 1.0707040235807352e-09,
+      "exit_price_usd": 1.2809341922961298e-09,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.029909,
+      "pnl_sol": 0.004909,
+      "pnl_pct": 19.63,
+      "exit_reason": "LLM: sell_half — Up +19.6% near the +25% TP line, but 1914% pool share means any seller crushes us — extreme fragility. Lock half the gain now, let the rest ride to TP",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T03:46:05.627154+00:00",
+  "last_updated": "2026-09-10T03:47:24.929778+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.77,
-  "portfolio_value_usd": 290.7,
+  "portfolio_value_usd": 291.2,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 03:21 UTC",
-      "action": "buy",
-      "details": "[LLM] $Flyhard at $1.35962e-07, spent 0.05 SOL",
-      "reason": "$Flyhard has a clean name, low mcap ($4.4k), 1.1min old, and an attached X account (@0x_rezero) — fresh narrative with viral potential. Bond still at 6% means entry is early; 0.05 SOL position respects the size cap."
-    },
     {
       "time": "2026-09-10 03:22 UTC",
       "action": "sell",
@@ -42398,30 +42409,48 @@
       "action": "buy",
       "details": "[LLM] $BUCKAZOIDS at $1.0707e-09, spent 0.05 SOL",
       "reason": "$BUCKAZOIDS has a concrete viral premise—a Bitcoin logo reportedly spotted in a 1991 game—and a major X signal from Binance. It is the strongest attention-backed launch in the slate, though the 23% bonding progress and very low market cap make it extremely high risk."
+    },
+    {
+      "time": "2026-09-10 03:47 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BUCKAZOIDS at $1.28093e-09 | P&L: +19.6%",
+      "reason": "Up +19.6% near the +25% TP line, but 1914% pool share means any seller crushes us — extreme fragility. Lock half the gain now, let the rest ride to TP or 0; asymmetric risk from here favors taking profit."
     }
   ],
   "trade_stats": {
-    "total": 2485,
-    "wins": 1222,
+    "total": 2486,
+    "wins": 1223,
     "losses": 1263,
     "win_rate_pct": 49.2,
-    "total_pnl_sol": -1.409847,
-    "avg_pnl_pct": 28.94,
+    "total_pnl_sol": -1.404938,
+    "avg_pnl_pct": 28.93,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 108,
-    "today_realized_sol": 1.275468,
-    "today_target_pct": 318.9,
+    "today_trades": 109,
+    "today_realized_sol": 1.280377,
+    "today_target_pct": 320.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1222,
+      "win_count": 1223,
       "loss_count": 1263,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:46:04.103476+00:00",
+  "last_llm_brief_at": "2026-09-10T03:47:24.928684+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EUDTDjoNNeKZGq6PptrWSz2DQsTEYXji3gqsSjEHpump": {
+      "price_usd": 1.2809341922961298e-09,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.31810686510999997,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.003125743
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
