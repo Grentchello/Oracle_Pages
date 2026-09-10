@@ -20182,3 +20182,9 @@
 ## [2026-09-10 19:19 UTC] buy | [LLM] $TUCKERBUDZYN at $3.645e-06, spent 0.05 SOL
 - **Reasoning:** $TUCKERBUDZYN — Tucker Carlson dog meme has clear viral narrative, has Twitter source attached, fresh launch under $3k mcap. Dog coins with celebrity/character association historically pump on attention spikes.
 
+## [2026-09-10 19:20 UTC] sell | [rapid-drop] $TUCKERBUDZYN crashed >15% in one tick | P&L: -22.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:21 UTC] buy | [LLM] $Mangos at $7.16874e-06, spent 0.05 SOL
+- **Reasoning:** $Mangos pairs an immediately legible visual fruit name with a fresh generational-pair/OTC narrative and the highest market cap in the launch slate. The principal risks are a bond only 27% complete and very early price discovery.
+
