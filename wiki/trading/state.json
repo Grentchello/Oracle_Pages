@@ -1,32 +1,8 @@
 {
-  "balance_sol": 6.052686,
+  "balance_sol": 6.098455,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BR9nKEkxcmJt7GiUW4VuUH3ZXdP4NUSs4ETzUMnwpump": {
-      "symbol": "COTE",
-      "name": "COTE KOIN",
-      "amount": 264604.77076178644,
-      "entry_price_usd": 9.460335854086245e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-10T20:05:02.397812+00:00",
-      "entry_usd_value": 5.0065,
-      "last_seen_price_usd": 1.2213969621687257e-05,
-      "entry_signals": {
-        "liquidity_usd": 2812.7712232785298,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9416.87480851669,
-        "ath_market_cap_usd": 9551.597842594783,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 28.091193681,
-        "description": "",
-        "twitter": "https://x.com/cotekoin",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -49939,19 +49915,30 @@
       "pnl_pct": 29.11,
       "exit_reason": "LLM: sell_half — COTE KOIN is up +29.1% and just hit the +20% profit-taking threshold rule. Bonding-curve pool is only $3,270 — thin liquidity means a quick reversal i",
       "partial": true
+    },
+    {
+      "mint": "BR9nKEkxcmJt7GiUW4VuUH3ZXdP4NUSs4ETzUMnwpump",
+      "symbol": "COTE",
+      "name": "COTE KOIN",
+      "amount_sold": 264604.77076178644,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T20:05:02.397812+00:00",
+      "exit_time": "2026-09-10T20:07:31.558665+00:00",
+      "entry_price_usd": 9.460335854086245e-06,
+      "exit_price_usd": 1.7323040844758382e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.045769,
+      "pnl_sol": 0.020769,
+      "pnl_pct": 83.11,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T20:06:22.602023+00:00",
+  "last_updated": "2026-09-10T20:07:31.560882+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.67,
-  "portfolio_value_usd": 605.77,
+  "last_sol_price_usd": 100.15,
+  "portfolio_value_usd": 610.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:48 UTC",
-      "action": "buy",
-      "details": "[LLM] $VOID at $7.419e-06, spent 0.05 SOL",
-      "reason": "$VOID has the cleanest narrative hook on the list: explicit airdrop incentive (60% to top 15 holders) creates guaranteed buy pressure and a FOMO driver. Fresh launch (<1min), twitter presence, description >50 chars — passes viability gate. Small position, ride the airdrop-chase attention."
-    },
     {
       "time": "2026-09-10 19:49 UTC",
       "action": "sell",
@@ -50065,6 +50052,12 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $COTE at $1.2214e-05 | P&L: +29.1%",
       "reason": "COTE KOIN is up +29.1% and just hit the +20% profit-taking threshold rule. Bonding-curve pool is only $3,270 — thin liquidity means a quick reversal is likely. Take half off the table to lock in gains, let the rest ride if narrative continues."
+    },
+    {
+      "time": "2026-09-10 20:07 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $COTE at $1.7323e-05 | P&L: +83.1%",
+      "reason": "Auto take-profit at +83.1%"
     }
   ],
   "trade_stats": {
@@ -50090,15 +50083,15 @@
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BR9nKEkxcmJt7GiUW4VuUH3ZXdP4NUSs4ETzUMnwpump": {
-      "price_usd": 1.2213969621687257e-05,
+      "price_usd": 1.7323040844758382e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3269.85391387728,
-      "volume_h24": 14519.38,
+      "liquidity_usd": 4468.5524569011,
+      "volume_h24": 23125.78,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 32.806801584
+      "real_sol_reserves": 44.618596674
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

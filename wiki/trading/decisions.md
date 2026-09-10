@@ -20344,3 +20344,6 @@
 ## [2026-09-10 20:06 UTC] sell | [PARTIAL][LLM] $COTE at $1.2214e-05 | P&L: +29.1%
 - **Reasoning:** COTE KOIN is up +29.1% and just hit the +20% profit-taking threshold rule. Bonding-curve pool is only $3,270 — thin liquidity means a quick reversal is likely. Take half off the table to lock in gains, let the rest ride if narrative continues.
 
+## [2026-09-10 20:07 UTC] sell | [v8.7 TP +50% (full)] $COTE at $1.7323e-05 | P&L: +83.1%
+- **Reasoning:** Auto take-profit at +83.1%
+
