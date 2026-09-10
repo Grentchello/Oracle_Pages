@@ -19567,3 +19567,9 @@
 ## [2026-09-10 15:29 UTC] buy | [LLM] $POOP at $4.897e-05, spent 0.05 SOL
 - **Reasoning:** $POOP/NASPOOP has classic memecoin DNA: irreverent humor narrative (shitcoin meta is evergreen — $PEPE lineage), live X account @naspoopsol, $52k mcap is in the sweet spot (not micro-cap dust, not yet priced-in), and 43% bond completion shows genuine organic buying pressure. Crude humor tokens with social presence historically 5-10x in first hours. Risk: narrative could be one-joke and die fast — that's why we have the -25% hard cap.
 
+## [2026-09-10 15:30 UTC] sell | [FULL][LLM] $POOP at $5.825e-05 | P&L: +18.9%
+- **Reasoning:** +19% profit, held 0.0h, one tick from auto-TP at 25% but per discipline 'if up >20% and any doubt, take profit' — locking the gain and rotating capital into fresher launch with higher attention ceiling.
+
+## [2026-09-10 15:30 UTC] buy | [LLM] $face at $4.5372e-06, spent 0.05 SOL
+- **Reasoning:** $face — 0.1 min old, lowest bond completion in batch, dedicated @pumpfacey X handle + 'pump face' name = clear micro-meme narrative. Freshest token with both name-hook and social signal; classic 10x-in-first-hour setup if attention catches.
+
