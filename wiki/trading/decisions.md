@@ -19357,3 +19357,6 @@
 ## [2026-09-10 14:06 UTC] buy | [LLM] $NFTUP at $3.519e-06, spent 0.05 SOL
 - **Reasoning:** $NFTUP has the strongest narrative of the batch — clear product thesis (NFT curve bonding), real project handle (@nftupdotfun), and desc passes the 50-char viability gate. Highest mcap ($4.6k) + highest bond progress (18%) = market is already voting. 0.6min age is prime entry window before attention compounds.
 
+## [2026-09-10 14:08 UTC] sell | [rapid-drop] $NFTUP crashed >15% in one tick | P&L: -20.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

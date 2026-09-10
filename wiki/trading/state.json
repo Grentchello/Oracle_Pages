@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.513341,
+  "balance_sol": 4.553168,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BRzFnRvQysjz49KzZiGeaKYiySrutoWNkFYmbKL9Ayxi": {
-      "symbol": "NFTUP",
-      "name": "NFT Up dot Fun",
-      "amount": 1423984.0863881784,
-      "entry_price_usd": 3.519e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T14:06:58.873005+00:00",
-      "entry_usd_value": 5.011,
-      "last_seen_price_usd": 3.519e-06,
-      "entry_signals": {
-        "liquidity_usd": 1029.27166772976,
-        "volume_24h_usd": 1132.13,
-        "market_cap_usd": 4604.88393012245,
-        "ath_market_cap_usd": 4604.88393012245,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 10.270122408,
-        "description": "NFT collections on a curve. Every collection is 10,000 pieces priced by a curve: mint #1 costs about a dollar, mint #10,000 costs about a million.",
-        "twitter": "https://x.com/nftupdotfun",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -46981,19 +46957,30 @@
       "pnl_pct": -61.42,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "BRzFnRvQysjz49KzZiGeaKYiySrutoWNkFYmbKL9Ayxi",
+      "symbol": "NFTUP",
+      "name": "NFT Up dot Fun",
+      "amount_sold": 1423984.0863881784,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T14:06:58.873005+00:00",
+      "exit_time": "2026-09-10T14:08:02.934146+00:00",
+      "entry_price_usd": 3.519e-06,
+      "exit_price_usd": 2.7837496180144427e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.039827,
+      "pnl_sol": -0.010173,
+      "pnl_pct": -20.89,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T14:06:58.873224+00:00",
+  "last_updated": "2026-09-10T14:08:24.938705+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.22,
-  "portfolio_value_usd": 457.34,
+  "last_sol_price_usd": 99.53,
+  "portfolio_value_usd": 453.18,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 13:38 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $bit meme  crashed >15% in one tick | P&L: -90.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 13:39 UTC",
       "action": "buy",
@@ -47107,30 +47094,48 @@
       "action": "buy",
       "details": "[LLM] $NFTUP at $3.519e-06, spent 0.05 SOL",
       "reason": "$NFTUP has the strongest narrative of the batch — clear product thesis (NFT curve bonding), real project handle (@nftupdotfun), and desc passes the 50-char viability gate. Highest mcap ($4.6k) + highest bond progress (18%) = market is already voting. 0.6min age is prime entry window before attention compounds."
+    },
+    {
+      "time": "2026-09-10 14:08 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $NFTUP crashed >15% in one tick | P&L: -20.9%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2762,
+    "total": 2763,
     "wins": 1326,
-    "losses": 1436,
+    "losses": 1437,
     "win_rate_pct": 48.0,
-    "total_pnl_sol": 0.297099,
-    "avg_pnl_pct": 27.53,
+    "total_pnl_sol": 0.286926,
+    "avg_pnl_pct": 27.51,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 385,
-    "today_realized_sol": 2.982414,
-    "today_target_pct": 745.6,
+    "today_trades": 386,
+    "today_realized_sol": 2.972241,
+    "today_target_pct": 743.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1326,
-      "loss_count": 1436,
+      "loss_count": 1437,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T14:06:57.479360+00:00",
+  "last_llm_brief_at": "2026-09-10T14:08:23.861731+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BRzFnRvQysjz49KzZiGeaKYiySrutoWNkFYmbKL9Ayxi": {
+      "price_usd": 2.7837496180144427e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.53162446597,
+      "volume_h24": 3760.04,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.005341349
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
