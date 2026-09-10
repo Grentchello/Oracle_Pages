@@ -19921,3 +19921,9 @@
 ## [2026-09-10 18:01 UTC] buy | [LLM] $MACEY at $3.84099e-06, spent 0.05 SOL
 - **Reasoning:** $MACEY (Justice For Macey) — viral X post from PEOPLE magazine (massive mainstream reach, ~7M+ followers) about a pet/justice story. PEOPLE Pets is a proven viral-attention account. $3.8k mcap = extremely early entry, has twitter (passes viability gate), and the narrative has emotional pull + mainstream media legs. Best attention-signal-to-mcap ratio in this batch.
 
+## [2026-09-10 18:02 UTC] sell | [rapid-drop] $MACEY crashed >15% in one tick | P&L: -22.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 18:02 UTC] buy | [LLM] $LCG at $2.874e-06, spent 0.05 SOL
+- **Reasoning:** $LCG tied to NY Post legal drama — real mainstream news attention, controversy drives memecoin pumps. $2.8k mcap is early, narrative is concrete and shareable.
+
