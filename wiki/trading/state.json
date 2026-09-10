@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.560498,
+  "balance_sol": 4.588344,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "E5PNLGmHZQauVBHcochshKZEU7Dm7QAojBae7trEpump": {
-      "symbol": "Fly64",
-      "name": "Fly64",
-      "amount": 989677.2774761189,
-      "entry_price_usd": 5.049625886879667e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T13:44:40.429034+00:00",
-      "entry_usd_value": 4.9975000000000005,
-      "last_seen_price_usd": 5.049625886879667e-06,
-      "entry_signals": {
-        "liquidity_usd": 111.17548235105001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5027.021939093728,
-        "ath_market_cap_usd": 5667.600142522673,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.112310979,
-        "description": "",
-        "twitter": "https://x.com/Bymotionn/status/2098044789082009651",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -46879,19 +46855,30 @@
       "pnl_pct": -60.43,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "E5PNLGmHZQauVBHcochshKZEU7Dm7QAojBae7trEpump",
+      "symbol": "Fly64",
+      "name": "Fly64",
+      "amount_sold": 989677.2774761189,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T13:44:40.429034+00:00",
+      "exit_time": "2026-09-10T13:45:44.221573+00:00",
+      "entry_price_usd": 5.049625886879667e-06,
+      "exit_price_usd": 2.7984453723460435e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.027846,
+      "pnl_sol": -0.022154,
+      "pnl_pct": -44.58,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T13:44:40.429224+00:00",
+  "last_updated": "2026-09-10T13:45:56.246870+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.95,
-  "portfolio_value_usd": 460.82,
+  "last_sol_price_usd": 99.46,
+  "portfolio_value_usd": 456.36,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 13:27 UTC",
-      "action": "buy",
-      "details": "[LLM] $Neko at $6.18763e-06, spent 0.05 SOL",
-      "reason": "$Neko — OG neko 'Bitcoin mascot' IP tied to known @Ognekocoin X account, bond furthest along at 25%, fresh $6k mcap with clear mascot narrative = best attention-density/signal ratio in the new-launch set; if it doesn't move in 30m, the bot auto-exits."
-    },
     {
       "time": "2026-09-10 13:28 UTC",
       "action": "sell",
@@ -47005,30 +46992,48 @@
       "action": "buy",
       "details": "[LLM] $Fly64 at $5.04963e-06, spent 0.05 SOL",
       "reason": "$Fly64 has the strongest attention signal among fresh launches — viral tweet from @Bymotionn, 20% bond (highest in batch), and a duplicate $FLY64 mint suggesting coordinated launch effort. Tiny $5k mcap = high risk but also highest 10x potential if narrative catches."
+    },
+    {
+      "time": "2026-09-10 13:45 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Fly64 crashed >15% in one tick | P&L: -44.6%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2756,
+    "total": 2757,
     "wins": 1324,
-    "losses": 1432,
+    "losses": 1433,
     "win_rate_pct": 48.0,
-    "total_pnl_sol": 0.344256,
-    "avg_pnl_pct": 27.62,
+    "total_pnl_sol": 0.322102,
+    "avg_pnl_pct": 27.6,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 379,
-    "today_realized_sol": 3.029571,
-    "today_target_pct": 757.4,
+    "today_trades": 380,
+    "today_realized_sol": 3.007417,
+    "today_target_pct": 751.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1324,
-      "loss_count": 1432,
+      "loss_count": 1433,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T13:44:39.057843+00:00",
+  "last_llm_brief_at": "2026-09-10T13:45:55.986556+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "E5PNLGmHZQauVBHcochshKZEU7Dm7QAojBae7trEpump": {
+      "price_usd": 2.7984453723460435e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 9.45097554534,
+      "volume_h24": 4075.04,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.095022879
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
