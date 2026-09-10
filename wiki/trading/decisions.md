@@ -17251,3 +17251,6 @@
 ## [2026-09-10 00:05 UTC] buy | [LLM] $Duolingo at $1.33511e-07, spent 0.05 SOL
 - **Reasoning:** $Duolingo has the strongest narrative in this batch — recognizable brand + real news catalyst (suing Apple) + dividends utility claim is classic viral memecoin bait. Twitter link to actual @duolingo account is the attention signal. Risk: low mcap ($4k), bond only 2% so liquidity thin — volatility both ways. Entering with 0.1 SOL.
 
+## [2026-09-10 00:06 UTC] sell | [PARTIAL][LLM] $Duolingo at $1.33236e-07 | P&L: -0.2%
+- **Reasoning:** Down -0.2% after just opening, flat movement, no clear bounce signal. $Duolingo is a stale play on a tired narrative (the brand meme already peaked). Our 183% share of a $3 pool is dangerously illiquid. Cut the slot and rotate into fresher attention.
+
