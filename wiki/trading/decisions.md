@@ -18964,3 +18964,6 @@
 ## [2026-09-10 11:18 UTC] sell | [PARTIAL][LLM] $BetOnBlak at $8.81803e-06 | P&L: -0.5%
 - **Reasoning:** $BetOnBlak is down -0.5% after just entering, no momentum, and our share is 748% of pool — that's a massive red flag for thin liquidity. Slot is locked with no upside signal; rotate into fresh attention.
 
+## [2026-09-10 11:19 UTC] sell | [FULL][LLM] $BetOnBlak at $8.86351e-06 | P&L: +0.0%
+- **Reasoning:** Flat at +0.0%, pool only $1, we hold 25% of it — illiquid and zero momentum. Freeing the slot for a fresh launch with actual attention.
+

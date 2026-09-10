@@ -1,32 +1,8 @@
 {
-  "balance_sol": 5.023842,
+  "balance_sol": 5.025504,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "E8Lt9fCSmWyzddPchZNbYePqDNu9FLrfPc6qw7Ndpump": {
-      "symbol": "BetOnBlak",
-      "name": "BetOnBlack",
-      "amount": 19005.771718646043,
-      "entry_price_usd": 8.86e-06,
-      "entry_sol_spent": 0.001671376053868029,
-      "entry_time": "2026-09-10T11:17:02.125561+00:00",
-      "entry_usd_value": 5.0375000000000005,
-      "last_seen_price_usd": 8.818029209415327e-06,
-      "entry_signals": {
-        "liquidity_usd": 0.66984191625,
-        "volume_24h_usd": 3756.86,
-        "market_cap_usd": 8851.019679079482,
-        "ath_market_cap_usd": 10309.048585246252,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.006648555,
-        "description": "put the house on black ",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45774,19 +45750,30 @@
       "pnl_pct": -0.47,
       "exit_reason": "LLM: sell_all — $BetOnBlak is down -0.5% after just entering, no momentum, and our share is 748% of pool — that's a massive red flag for thin liquidity. Slot is locke",
       "partial": true
+    },
+    {
+      "mint": "E8Lt9fCSmWyzddPchZNbYePqDNu9FLrfPc6qw7Ndpump",
+      "symbol": "BetOnBlak",
+      "name": "BetOnBlack",
+      "amount_sold": 19005.771718646043,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T11:17:02.125561+00:00",
+      "exit_time": "2026-09-10T11:19:32.049433+00:00",
+      "entry_price_usd": 8.86e-06,
+      "exit_price_usd": 8.86350550802582e-06,
+      "entry_sol_for_chunk": 0.001671,
+      "exit_sol_received": 0.001662,
+      "pnl_sol": -9e-06,
+      "pnl_pct": 0.04,
+      "exit_reason": "LLM: sell_all — Flat at +0.0%, pool only $1, we hold 25% of it — illiquid and zero momentum. Freeing the slot for a fresh launch with actual attention.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T11:18:17.252693+00:00",
+  "last_updated": "2026-09-10T11:19:32.049840+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.83,
-  "portfolio_value_usd": 506.72,
+  "last_sol_price_usd": 101.35,
+  "portfolio_value_usd": 509.33,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 10:55 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Groyper at $2.82568e-06 | P&L: -4.7%",
-      "reason": "$Groyper is at -4.7% after just opened, well within tolerance. Groypers have a real internet meme community (Nick Fuentes fandom), and the position is fresh — no reason to bail yet."
-    },
     {
       "time": "2026-09-10 10:57 UTC",
       "action": "buy",
@@ -45900,35 +45887,41 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $BetOnBlak at $8.81803e-06 | P&L: -0.5%",
       "reason": "$BetOnBlak is down -0.5% after just entering, no momentum, and our share is 748% of pool — that's a massive red flag for thin liquidity. Slot is locked with no upside signal; rotate into fresh attention."
+    },
+    {
+      "time": "2026-09-10 11:19 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BetOnBlak at $8.86351e-06 | P&L: +0.0%",
+      "reason": "Flat at +0.0%, pool only $1, we hold 25% of it — illiquid and zero momentum. Freeing the slot for a fresh launch with actual attention."
     }
   ],
   "trade_stats": {
-    "total": 2691,
+    "total": 2692,
     "wins": 1308,
-    "losses": 1383,
+    "losses": 1384,
     "win_rate_pct": 48.6,
-    "total_pnl_sol": 0.759226,
-    "avg_pnl_pct": 28.57,
+    "total_pnl_sol": 0.759217,
+    "avg_pnl_pct": 28.56,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 314,
-    "today_realized_sol": 3.444541,
+    "today_trades": 315,
+    "today_realized_sol": 3.444532,
     "today_target_pct": 861.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1308,
-      "loss_count": 1383,
+      "loss_count": 1384,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T11:18:17.252354+00:00",
+  "last_llm_brief_at": "2026-09-10T11:19:32.049376+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "E8Lt9fCSmWyzddPchZNbYePqDNu9FLrfPc6qw7Ndpump": {
-      "price_usd": 8.818029209415327e-06,
+      "price_usd": 8.86350550802582e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.67037380065,
+      "liquidity_usd": 0.6738310492499999,
       "volume_h24": 3756.86,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
