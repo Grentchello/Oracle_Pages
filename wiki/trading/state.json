@@ -1,17 +1,17 @@
 {
-  "balance_sol": 5.025025,
+  "balance_sol": 5.066954,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7itnwDefBG4kkyxkMbbfJnSqkqXgvZjXhECGzb1wpump": {
       "symbol": "McRib",
       "name": "The McRib",
-      "amount": 31417876.243179448,
+      "amount": 5083612.267910054,
       "entry_price_usd": 1.6089566210247572e-07,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.008090318117879886,
       "entry_time": "2026-09-10T10:02:11.000783+00:00",
       "entry_usd_value": 5.055,
-      "last_seen_price_usd": 1.6089566210247572e-07,
+      "last_seen_price_usd": 1.6119115249851277e-07,
       "entry_signals": {
         "liquidity_usd": 3.2350060901999997,
         "volume_24h_usd": null,
@@ -45179,19 +45179,30 @@
       "pnl_pct": -16.21,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "7itnwDefBG4kkyxkMbbfJnSqkqXgvZjXhECGzb1wpump",
+      "symbol": "McRib",
+      "name": "The McRib",
+      "amount_sold": 26334263.975269392,
+      "fraction_sold": 0.8381936376424023,
+      "entry_time": "2026-09-10T10:02:11.000783+00:00",
+      "exit_time": "2026-09-10T10:04:08.842814+00:00",
+      "entry_price_usd": 1.6089566210247572e-07,
+      "exit_price_usd": 1.6119115249851277e-07,
+      "entry_sol_for_chunk": 0.04191,
+      "exit_sol_received": 0.041929,
+      "pnl_sol": 1.9e-05,
+      "pnl_pct": 0.18,
+      "exit_reason": "LLM: sell_all — $McRib is flat at +0.2% just seconds after entry with no directional signal; selling a 0-minute-old position to rotate would be churn. Let the -25% ha",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T10:02:11.001068+00:00",
+  "last_updated": "2026-09-10T10:04:08.843060+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.1,
-  "portfolio_value_usd": 513.09,
+  "last_sol_price_usd": 101.24,
+  "portfolio_value_usd": 513.8,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 09:31 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $BetOnBlak at $4.03869e-06 | P&L: +14.3%",
-      "reason": "Up +14.3% but pool is only $1 with us holding 33% — any sell would crater execution. Bonding curve is at 41% and still very early; if it graduates or pumps organically we capture the move. Not stale (0.0h held), no reason to force-exit into illiquid depth."
-    },
     {
       "time": "2026-09-10 09:34 UTC",
       "action": "sell",
@@ -45305,30 +45316,48 @@
       "action": "buy",
       "details": "[LLM] $McRib at $1.60896e-07, spent 0.05 SOL",
       "reason": "$McRib has the clearest cultural narrative of the batch — the McRib sandwich is a beloved limited-time nostalgia meme with viral TikTok/X potential. Mcap $4k is entry-level. Bond only 2% so risk of rug/pull is real, and -25% hard stop will protect. Sizing 0.05 SOL."
+    },
+    {
+      "time": "2026-09-10 10:04 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $McRib at $1.61191e-07 | P&L: +0.2%",
+      "reason": "$McRib is flat at +0.2% just seconds after entry with no directional signal; selling a 0-minute-old position to rotate would be churn. Let the -25% hard stop or TP levels do their job — next tick will give it a chance to develop."
     }
   ],
   "trade_stats": {
-    "total": 2656,
-    "wins": 1294,
+    "total": 2657,
+    "wins": 1295,
     "losses": 1362,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.808736,
-    "avg_pnl_pct": 28.96,
+    "total_pnl_sol": 0.808755,
+    "avg_pnl_pct": 28.95,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 279,
-    "today_realized_sol": 3.494051,
+    "today_trades": 280,
+    "today_realized_sol": 3.49407,
     "today_target_pct": 873.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1294,
+      "win_count": 1295,
       "loss_count": 1362,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:02:09.620953+00:00",
+  "last_llm_brief_at": "2026-09-10T10:04:08.842614+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "7itnwDefBG4kkyxkMbbfJnSqkqXgvZjXhECGzb1wpump": {
+      "price_usd": 1.6119115249851277e-07,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3.2777332812799997,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.032375872
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -18775,3 +18775,6 @@
 ## [2026-09-10 10:02 UTC] buy | [LLM] $McRib at $1.60896e-07, spent 0.05 SOL
 - **Reasoning:** $McRib has the clearest cultural narrative of the batch — the McRib sandwich is a beloved limited-time nostalgia meme with viral TikTok/X potential. Mcap $4k is entry-level. Bond only 2% so risk of rug/pull is real, and -25% hard stop will protect. Sizing 0.05 SOL.
 
+## [2026-09-10 10:04 UTC] sell | [PARTIAL][LLM] $McRib at $1.61191e-07 | P&L: +0.2%
+- **Reasoning:** $McRib is flat at +0.2% just seconds after entry with no directional signal; selling a 0-minute-old position to rotate would be churn. Let the -25% hard stop or TP levels do their job — next tick will give it a chance to develop.
+
