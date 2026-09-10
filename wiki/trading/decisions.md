@@ -17641,3 +17641,9 @@
 ## [2026-09-10 02:32 UTC] buy | [LLM] $BATON at $4.492e-06, spent 0.05 SOL
 - **Reasoning:** $BATON has the clearest narrative of the lot — 'hold to earn $PUMP via creator fees' is a copyable meme-mechanic that's been working on Solana. Bond at 22% (highest in batch) = real buyers, not just deployer. mcap $7.2k leaves room for 5-10x if attention catches. Risk: yield-bait narrative can rug if creator fees dry up.
 
+## [2026-09-10 02:33 UTC] sell | [v8.7 TP +50% (full)] $BATON at $9.61764e-05 | P&L: +2041.1%
+- **Reasoning:** Auto take-profit at +2041.1%
+
+## [2026-09-10 02:33 UTC] buy | [LLM] $BRACKET at $6.65874e-08, spent 0.05 SOL
+- **Reasoning:** Bracket LTD has the classic corporate-parody meme coin naming pattern (CZ/Doge/Shiba corp templates), mrmeme_sol twitter for distribution, $4.7k mcap with0.5min age = pure early attention. Risk: 0.5min old means no price action yet, will likely dump -30% but small size ($5) keeps it bounded.
+
