@@ -20839,3 +20839,6 @@
 ## [2026-09-10 23:35 UTC] buy | [LLM] $CPU at $9.56155e-09, spent 0.05 SOL
 - **Reasoning:** $CPU (Cat Processing Unit) — cat + tech meme formula is a proven viral combo. Highest mcap ($9.6k) of the fresh launches signals organic buy-in, twitter link present for attention spread, passes viability (twitter) and fragility gates. Age 1.2min is early enough to catch the wave before it pumps.
 
+## [2026-09-10 23:36 UTC] sell | [PARTIAL][LLM] $CPU at $9.78134e-09 | P&L: +2.3%
+- **Reasoning:** Only +2.3% and held 0.0h — too early to exit, still in profit zone on bonding curve. Will reassess on next tick if it goes stale or hits -20%.
+

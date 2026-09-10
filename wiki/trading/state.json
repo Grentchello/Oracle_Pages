@@ -1,17 +1,17 @@
 {
-  "balance_sol": 9.303347,
+  "balance_sol": 9.348063,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "9idCgETHHQ4zXQMYXiGbNkLW4G6eqKHhJj3WJz1ypump": {
       "symbol": "CPU",
       "name": "Cat Processing Unit",
-      "amount": 517711305.4923399,
+      "amount": 62936154.964640796,
       "entry_price_usd": 9.561554765145537e-09,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.006078306026636693,
       "entry_time": "2026-09-10T23:35:10.513061+00:00",
       "entry_usd_value": 4.950125,
-      "last_seen_price_usd": 9.561554765145537e-09,
+      "last_seen_price_usd": 9.781336720615678e-09,
       "entry_signals": {
         "liquidity_usd": 2.4524569621675,
         "volume_24h_usd": 0.0,
@@ -51401,19 +51401,30 @@
       "pnl_pct": -3.0,
       "exit_reason": "LLM: sell_all — Just entered, -3% is noise. $Banned has bonding curve dynamics, pool is small ($4) so any meaningful price action will come from bonding curve progres",
       "partial": false
+    },
+    {
+      "mint": "9idCgETHHQ4zXQMYXiGbNkLW4G6eqKHhJj3WJz1ypump",
+      "symbol": "CPU",
+      "name": "Cat Processing Unit",
+      "amount_sold": 454775150.5276991,
+      "fraction_sold": 0.8784338794672661,
+      "entry_time": "2026-09-10T23:35:10.513061+00:00",
+      "exit_time": "2026-09-10T23:36:29.960086+00:00",
+      "entry_price_usd": 9.561554765145537e-09,
+      "exit_price_usd": 9.781336720615678e-09,
+      "entry_sol_for_chunk": 0.043922,
+      "exit_sol_received": 0.044716,
+      "pnl_sol": 0.000794,
+      "pnl_pct": 2.3,
+      "exit_reason": "LLM: sell_all — Only +2.3% and held 0.0h — too early to exit, still in profit zone on bonding curve. Will reassess on next tick if it goes stale or hits -20%.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T23:35:10.513248+00:00",
+  "last_updated": "2026-09-10T23:36:29.960267+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.0025,
-  "portfolio_value_usd": 926.0,
+  "last_sol_price_usd": 99.48,
+  "portfolio_value_usd": 930.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 23:09 UTC",
-      "action": "buy",
-      "details": "[LLM] $ily at $1.236e-05, spent 0.05 SOL",
-      "reason": "$ily at $12.7k mcap with derivativist X callout — meta-narrative 'there's no thesis' is itself the joke that travels on CT. Fresh, attention-launched, has the right viral shape (irony + simplicity)."
-    },
     {
       "time": "2026-09-10 23:10 UTC",
       "action": "sell",
@@ -51527,30 +51538,48 @@
       "action": "buy",
       "details": "[LLM] $CPU at $9.56155e-09, spent 0.05 SOL",
       "reason": "$CPU (Cat Processing Unit) — cat + tech meme formula is a proven viral combo. Highest mcap ($9.6k) of the fresh launches signals organic buy-in, twitter link present for attention spread, passes viability (twitter) and fragility gates. Age 1.2min is early enough to catch the wave before it pumps."
+    },
+    {
+      "time": "2026-09-10 23:36 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $CPU at $9.78134e-09 | P&L: +2.3%",
+      "reason": "Only +2.3% and held 0.0h — too early to exit, still in profit zone on bonding curve. Will reassess on next tick if it goes stale or hits -20%."
     }
   ],
   "trade_stats": {
-    "total": 3022,
-    "wins": 1413,
+    "total": 3023,
+    "wins": 1414,
     "losses": 1609,
     "win_rate_pct": 46.8,
-    "total_pnl_sol": 5.087158,
-    "avg_pnl_pct": 28.41,
+    "total_pnl_sol": 5.087952,
+    "avg_pnl_pct": 28.4,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 645,
-    "today_realized_sol": 7.772473,
-    "today_target_pct": 1943.1,
+    "today_trades": 646,
+    "today_realized_sol": 7.773267,
+    "today_target_pct": 1943.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1413,
+      "win_count": 1414,
       "loss_count": 1609,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T23:35:08.914320+00:00",
+  "last_llm_brief_at": "2026-09-10T23:36:29.959976+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "9idCgETHHQ4zXQMYXiGbNkLW4G6eqKHhJj3WJz1ypump": {
+      "price_usd": 9.781336720615678e-09,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2.46239889444,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.024752703
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
