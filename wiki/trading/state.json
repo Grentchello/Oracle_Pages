@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.500159,
+  "balance_sol": 4.550152,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AiGAb5MfjfBk9nLugepLQkJJdBrjea4DqFfBPv83pump": {
-      "symbol": "DACHSTOP",
-      "name": "Dachshund Laptop",
-      "amount": 1315217.3913043481,
-      "entry_price_usd": 3.818e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T14:53:52.486570+00:00",
-      "entry_usd_value": 5.0215000000000005,
-      "last_seen_price_usd": 3.818e-06,
-      "entry_signals": {
-        "liquidity_usd": 506.17244124084,
-        "volume_24h_usd": 1374.31,
-        "market_cap_usd": 3815.770050200158,
-        "ath_market_cap_usd": 4817.108868946863,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.040052188,
-        "description": "",
-        "twitter": "https://x.com/leonabboud/status/2098060783921844606",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -47338,19 +47314,30 @@
       "pnl_pct": -0.24,
       "exit_reason": "LLM: sell_all — $203 pool with our 2% share means 0.1 SOL exit will crater price, but holding a thin-pool bonding-curve position with no narrative edge is worse — slo",
       "partial": false
+    },
+    {
+      "mint": "AiGAb5MfjfBk9nLugepLQkJJdBrjea4DqFfBPv83pump",
+      "symbol": "DACHSTOP",
+      "name": "Dachshund Laptop",
+      "amount_sold": 1315217.3913043481,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T14:53:52.486570+00:00",
+      "exit_time": "2026-09-10T14:55:26.582182+00:00",
+      "entry_price_usd": 3.818e-06,
+      "exit_price_usd": 3.815168216658273e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049993,
+      "pnl_sol": -7e-06,
+      "pnl_pct": -0.07,
+      "exit_reason": "LLM: sell_all — $DACHSTOP is 0.0h old, -0.1%, flat on bonding curve. No signal to act — give it a few minutes to establish direction before triggering any exit.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T14:53:52.486842+00:00",
+  "last_updated": "2026-09-10T14:55:26.582368+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.43,
-  "portfolio_value_usd": 456.97,
+  "last_sol_price_usd": 100.37,
+  "portfolio_value_usd": 456.7,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 14:34 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $STARTUP crashed >15% in one tick | P&L: -40.3%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 14:37 UTC",
       "action": "buy",
@@ -47464,40 +47451,46 @@
       "action": "buy",
       "details": "[LLM] $DACHSTOP at $3.818e-06, spent 0.05 SOL",
       "reason": "$DACHSTOP has a real twitter link (attention signal), dog-meme narrative is reliably viral, $3.8k mcap is early-entry zone. Passes viability gate (twitter present) and avoids political/celebrity fragility keywords."
+    },
+    {
+      "time": "2026-09-10 14:55 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DACHSTOP at $3.81517e-06 | P&L: -0.1%",
+      "reason": "$DACHSTOP is 0.0h old, -0.1%, flat on bonding curve. No signal to act — give it a few minutes to establish direction before triggering any exit."
     }
   ],
   "trade_stats": {
-    "total": 2783,
+    "total": 2784,
     "wins": 1332,
-    "losses": 1451,
-    "win_rate_pct": 47.9,
-    "total_pnl_sol": 0.283917,
-    "avg_pnl_pct": 27.31,
+    "losses": 1452,
+    "win_rate_pct": 47.8,
+    "total_pnl_sol": 0.28391,
+    "avg_pnl_pct": 27.3,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 406,
-    "today_realized_sol": 2.969232,
+    "today_trades": 407,
+    "today_realized_sol": 2.969225,
     "today_target_pct": 742.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1332,
-      "loss_count": 1451,
+      "loss_count": 1452,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T14:53:51.130837+00:00",
+  "last_llm_brief_at": "2026-09-10T14:55:26.582066+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "DnfjmDGBQtM8w5yeHvG1VSZF64dho1MLWdrgt9Mtpump": {
-      "price_usd": 3.1993283526988762e-06,
+    "AiGAb5MfjfBk9nLugepLQkJJdBrjea4DqFfBPv83pump": {
+      "price_usd": 3.815168216658273e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 203.14137270064,
-      "volume_h24": 251.11,
+      "liquidity_usd": 499.80676208854004,
+      "volume_h24": 1386.29,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.022716048
+      "real_sol_reserves": 4.979642942
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -19480,3 +19480,6 @@
 ## [2026-09-10 14:53 UTC] buy | [LLM] $DACHSTOP at $3.818e-06, spent 0.05 SOL
 - **Reasoning:** $DACHSTOP has a real twitter link (attention signal), dog-meme narrative is reliably viral, $3.8k mcap is early-entry zone. Passes viability gate (twitter present) and avoids political/celebrity fragility keywords.
 
+## [2026-09-10 14:55 UTC] sell | [FULL][LLM] $DACHSTOP at $3.81517e-06 | P&L: -0.1%
+- **Reasoning:** $DACHSTOP is 0.0h old, -0.1%, flat on bonding curve. No signal to act — give it a few minutes to establish direction before triggering any exit.
+
