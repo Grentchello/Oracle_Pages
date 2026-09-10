@@ -18568,3 +18568,6 @@
 ## [2026-09-10 08:15 UTC] buy | [LLM] $shit at $3.015e-06, spent 0.05 SOL
 - **Reasoning:** $shit leads the slate with $9,977 mcap and 32% bond progress — the strongest attention signal. Meta-shitpost name ('I saw that shit at 10K') is viral-ready, has twitter. Highest bond % means strongest buy pressure already validated by the market.
 
+## [2026-09-10 08:17 UTC] sell | [PARTIAL][LLM] $shit at $4.36542e-06 | P&L: +44.8%
+- **Reasoning:** +44.8% gain in 0h on bonding curve with 1% pool share — extremely illiquid, easy to give back gains if it dumps. Take half off to lock profit, let other half ride if migration pumps. Frees slot for new entries.
+

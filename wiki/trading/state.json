@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.55587,
+  "balance_sol": 4.592086,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "6QEddV7fCf7xjmSAWMyAQZryc8auC2F5u6fESihdpump": {
       "symbol": "shit",
       "name": "I saw that shit at 10K ",
-      "amount": 1676782.752902156,
+      "amount": 838391.376451078,
       "entry_price_usd": 3.015e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T08:15:35.505135+00:00",
       "entry_usd_value": 5.0555,
-      "last_seen_price_usd": 3.015e-06,
+      "last_seen_price_usd": 4.365419581023556e-06,
       "entry_signals": {
         "liquidity_usd": 2211.83566891865,
         "volume_24h_usd": 307.54,
@@ -44550,19 +44550,30 @@
       "pnl_pct": 685.71,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "6QEddV7fCf7xjmSAWMyAQZryc8auC2F5u6fESihdpump",
+      "symbol": "shit",
+      "name": "I saw that shit at 10K ",
+      "amount_sold": 838391.376451078,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T08:15:35.505135+00:00",
+      "exit_time": "2026-09-10T08:17:02.066375+00:00",
+      "entry_price_usd": 3.015e-06,
+      "exit_price_usd": 4.365419581023556e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.036216,
+      "pnl_sol": 0.011216,
+      "pnl_pct": 44.79,
+      "exit_reason": "LLM: sell_half — +44.8% gain in 0h on bonding curve with 1% pool share — extremely illiquid, easy to give back gains if it dumps. Take half off to lock profit, let oth",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T08:15:35.505325+00:00",
+  "last_updated": "2026-09-10T08:17:02.066627+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.11,
-  "portfolio_value_usd": 465.7,
+  "last_sol_price_usd": 101.059,
+  "portfolio_value_usd": 466.6,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 07:50 UTC",
-      "action": "buy",
-      "details": "[LLM] $OCTOPUS at $5.57506e-06, spent 0.05 SOL",
-      "reason": "$OCTOPUS — animal meme (octopus) is a classic attention narrative. Bonding curve already 22% complete in <30s = strong organic demand, mcap $5.5k means deep10x upside if it breaks out. Highest signal-to-noise among the fresh launches."
-    },
     {
       "time": "2026-09-10 07:51 UTC",
       "action": "sell",
@@ -44676,30 +44687,48 @@
       "action": "buy",
       "details": "[LLM] $shit at $3.015e-06, spent 0.05 SOL",
       "reason": "$shit leads the slate with $9,977 mcap and 32% bond progress — the strongest attention signal. Meta-shitpost name ('I saw that shit at 10K') is viral-ready, has twitter. Highest bond % means strongest buy pressure already validated by the market."
+    },
+    {
+      "time": "2026-09-10 08:17 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $shit at $4.36542e-06 | P&L: +44.8%",
+      "reason": "+44.8% gain in 0h on bonding curve with 1% pool share — extremely illiquid, easy to give back gains if it dumps. Take half off to lock profit, let other half ride if migration pumps. Frees slot for new entries."
     }
   ],
   "trade_stats": {
-    "total": 2619,
-    "wins": 1276,
+    "total": 2620,
+    "wins": 1277,
     "losses": 1343,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.339581,
+    "total_pnl_sol": 0.350797,
     "avg_pnl_pct": 28.94,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 242,
-    "today_realized_sol": 3.024896,
-    "today_target_pct": 756.2,
+    "today_trades": 243,
+    "today_realized_sol": 3.036112,
+    "today_target_pct": 759.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1276,
+      "win_count": 1277,
       "loss_count": 1343,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T08:15:34.297190+00:00",
+  "last_llm_brief_at": "2026-09-10T08:17:02.066339+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "6QEddV7fCf7xjmSAWMyAQZryc8auC2F5u6fESihdpump": {
+      "price_usd": 4.365419581023556e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 736.664609710967,
+      "volume_h24": 19178.8,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 7.289450813
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
