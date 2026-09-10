@@ -18061,3 +18061,9 @@
 ## [2026-09-10 05:00 UTC] sell | [PARTIAL][LLM] $MOSES at $3.67947e-06 | P&L: +10.4%
 - **Reasoning:** Up 10.4% on a tiny $417 pool with only 1% share — this is illiquid and any dump kills the price. Lock half the gain now and let the rest ride on the bonding curve; if it doesn't push through 20% in the next 10-15 min, exit the rest.
 
+## [2026-09-10 05:01 UTC] sell | [FULL][LLM] $MOSES at $3.23866e-06 | P&L: -2.8%
+- **Reasoning:** Down -2.8% on a $201 pool bonding-curve token after 0 minutes held. No bounce signal, liquidity is thin (only 1% share, $201 pool), and the symbol/name $MOSES lacks a viral narrative I can identify. Cutting early per discipline.
+
+## [2026-09-10 05:01 UTC] buy | [LLM] $bugdroid at $1.38156e-07, spent 0.05 SOL
+- **Reasoning:** $bugdroid — 'google mascot that pays you in google' is a clear attention narrative (google branding + 'pays you' = airdrop bait narrative). Highest mcap of fresh launches at $4.5k, 6% bonded, youngest token with any liquidity. Racing the narrative before it pumps.
+
