@@ -19738,3 +19738,6 @@
 ## [2026-09-10 16:45 UTC] sell | [PARTIAL][LLM] $1.50 at $1.22957e-09 | P&L: +44.1%
 - **Reasoning:** Up +44% on a bonding curve with $0 real pool liquidity. Any sell will crash price — but locking +44% is the right play per scalp rules: up >20% with ANY doubt = sell. Take the win, rotate capital.
 
+## [2026-09-10 16:46 UTC] sell | [PARTIAL][LLM] $1.50 at $1.22395e-09 | P&L: +43.5%
+- **Reasoning:** Up +43.5% — bot will auto-TP at +50% but lock half now per scalp discipline. Bonding curve at 25% share, taking50% off de-risks while letting runner ride free.
+
