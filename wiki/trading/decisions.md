@@ -19231,3 +19231,9 @@
 ## [2026-09-10 13:17 UTC] buy | [LLM] $[BRACKET] at $0.000117765, spent 0.05 SOL
 - **Reasoning:** $[BRACKET] from banesthemane — brand-new (0.1min), narrative play on bracket/meme culture with a viral X hook. Bonding only 10%, mcap $4.6k — extreme volatility but this is the freshest attention launch on the board and the bracket meme format has viral loop potential.
 
+## [2026-09-10 13:19 UTC] sell | [rapid-drop] $[BRACKET] crashed >15% in one tick | P&L: -21.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 13:19 UTC] buy | [LLM] $FRO at $1.65118e-06, spent 0.05 SOL
+- **Reasoning:** FRO COIN has the strongest narrative of the batch — emotional pet-memorial story ('in loving memory of KiiNG LOUIE, a pug') with a dedicated Twitter (@DABIGGESTFRO). Memorial/animal memes historically pump hard on memecoin Twitter because they're shareable and tug at heartstrings. Risk: bond only 1% complete, liquidity thin, fresh deploy (0.1min). Size 0.1 SOL — small enough to absorb a full rug while still capturing a 2-3x if the story catches.
+
