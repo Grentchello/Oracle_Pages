@@ -18343,3 +18343,6 @@
 ## [2026-09-10 06:44 UTC] buy | [LLM] $TikTok at $8.188e-06, spent 0.05 SOL
 - **Reasoning:** $TikTok has the strongest early attention signal: the freshest market cap, 23% bond progress, and an explicit X catalyst. It is extremely early and fragile, but this setup offers the clearest viral narrative.
 
+## [2026-09-10 06:46 UTC] sell | [PARTIAL][LLM] $TikTok at $1.06556e-05 | P&L: +30.1%
+- **Reasoning:** Up +30.1% at 0h held, but pool is only $2855 (thin) and our share is 0% — we're exposed to rug risk on any size. Lock half the gain now per profit-taking discipline, let half ride if TikTok narrative keeps pushing.
+

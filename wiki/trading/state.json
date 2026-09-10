@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.241877,
+  "balance_sol": 4.274398,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "Ayhh5rPLAmYPtX3rVjxuqZSGjVUFGE1T5rQrMyt9pump": {
       "symbol": "TikTok",
       "name": "Tiktok Coin",
-      "amount": 621152.9066927211,
+      "amount": 310576.45334636053,
       "entry_price_usd": 8.188e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T06:44:32.920898+00:00",
       "entry_usd_value": 5.086,
-      "last_seen_price_usd": 8.188e-06,
+      "last_seen_price_usd": 1.0655621450502294e-05,
       "entry_signals": {
         "liquidity_usd": 2045.66465701492,
         "volume_24h_usd": 8181.48,
@@ -43819,19 +43819,30 @@
       "pnl_pct": -22.22,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "Ayhh5rPLAmYPtX3rVjxuqZSGjVUFGE1T5rQrMyt9pump",
+      "symbol": "TikTok",
+      "name": "Tiktok Coin",
+      "amount_sold": 310576.45334636053,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T06:44:32.920898+00:00",
+      "exit_time": "2026-09-10T06:46:02.072909+00:00",
+      "entry_price_usd": 8.188e-06,
+      "exit_price_usd": 1.0655621450502294e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.032521,
+      "pnl_sol": 0.007521,
+      "pnl_pct": 30.14,
+      "exit_reason": "LLM: sell_half — Up +30.1% at 0h held, but pool is only $2855 (thin) and our share is 0% — we're exposed to rug risk on any size. Lock half the gain now per profit-tak",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T06:44:32.921067+00:00",
+  "last_updated": "2026-09-10T06:46:02.073201+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.72,
-  "portfolio_value_usd": 436.57,
+  "last_sol_price_usd": 101.76,
+  "portfolio_value_usd": 437.51,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 06:22 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GEPE at $2.83845e-06 | P&L: -9.4%",
-      "reason": "Down -9.4% in under 0h, no bounce signal, bonding-curve only with pool=$0. GEPE has weak narrative and no clear catalyst. Cut and free capital for fresh launches."
-    },
     {
       "time": "2026-09-10 06:22 UTC",
       "action": "buy",
@@ -43945,30 +43956,48 @@
       "action": "buy",
       "details": "[LLM] $TikTok at $8.188e-06, spent 0.05 SOL",
       "reason": "$TikTok has the strongest early attention signal: the freshest market cap, 23% bond progress, and an explicit X catalyst. It is extremely early and fragile, but this setup offers the clearest viral narrative."
+    },
+    {
+      "time": "2026-09-10 06:46 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $TikTok at $1.06556e-05 | P&L: +30.1%",
+      "reason": "Up +30.1% at 0h held, but pool is only $2855 (thin) and our share is 0% — we're exposed to rug risk on any size. Lock half the gain now per profit-taking discipline, let half ride if TikTok narrative keeps pushing."
     }
   ],
   "trade_stats": {
-    "total": 2576,
-    "wins": 1255,
+    "total": 2577,
+    "wins": 1256,
     "losses": 1321,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.025567,
+    "total_pnl_sol": 0.033088,
     "avg_pnl_pct": 29.11,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 199,
-    "today_realized_sol": 2.710882,
-    "today_target_pct": 677.7,
+    "today_trades": 200,
+    "today_realized_sol": 2.718403,
+    "today_target_pct": 679.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1255,
+      "win_count": 1256,
       "loss_count": 1321,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T06:44:31.605776+00:00",
+  "last_llm_brief_at": "2026-09-10T06:46:02.072868+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Ayhh5rPLAmYPtX3rVjxuqZSGjVUFGE1T5rQrMyt9pump": {
+      "price_usd": 1.0655621450502294e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2855.17202316096,
+      "volume_h24": 11813.73,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 28.057901171
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
