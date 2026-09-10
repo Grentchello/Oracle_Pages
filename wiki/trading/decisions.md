@@ -18829,3 +18829,9 @@
 ## [2026-09-10 10:22 UTC] buy | [LLM] $GOLDEN at $4.525e-06, spent 0.05 SOL
 - **Reasoning:** $GOLDEN (Golden Retriever): classic dog meta with universal appeal, real X account posting about it, $3.5k mcap = very early, passes viability (twitter) and fragility gates. Best attention/narrative ratio in this batch.
 
+## [2026-09-10 10:23 UTC] sell | [rapid-drop] $GOLDEN crashed >15% in one tick | P&L: -36.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 10:23 UTC] buy | [LLM] $plan at $9.76721e-06, spent 0.05 SOL
+- **Reasoning:** $plan has a derivativist twitter link (proven memecoin launcher), absurdist 'retirement plan' name fits current meme zeitgeist, $9.7k mcap with 32% bond shows early organic accumulation. Risk: very fresh, could rug, but attention signal is concrete.
+
