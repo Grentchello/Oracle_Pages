@@ -18259,3 +18259,6 @@
 ## [2026-09-10 06:11 UTC] sell | [FULL][LLM] $Fomo Lisa at $4.96916e-06 | P&L: +21.6%
 - **Reasoning:** +21.6% in0 min and approaching auto-TP zone. Bonding-curve pool is tiny ($982) and our1% share makes exit harder as price rises. Lock the gain now — this is peak attention for a micro-cap art derivative.
 
+## [2026-09-10 06:12 UTC] buy | [LLM] $MKO at $4.325e-06, spent 0.05 SOL
+- **Reasoning:** Monkey slap-comp brainrot meme with active X poster (Devilantesol) — exactly the kind of silly viral narrative that pumps. Bond 6% so room to run, mcap $3k = ground floor. Sizing 0.05 SOL.
+
