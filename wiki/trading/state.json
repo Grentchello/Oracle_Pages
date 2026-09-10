@@ -1,8 +1,32 @@
 {
-  "balance_sol": 1.690815,
+  "balance_sol": 1.640815,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "BC6aw8tgfF1gKJMFnqmWfVnhLPmP9erKpVQqSASrpump": {
+      "symbol": "ballz",
+      "name": "ballzcoin",
+      "amount": 850579.3263594852,
+      "entry_price_usd": 5.929488107342545e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T01:37:52.253542+00:00",
+      "entry_usd_value": 5.043500000000001,
+      "last_seen_price_usd": 5.929488107342545e-06,
+      "entry_signals": {
+        "liquidity_usd": 1280.03055958932,
+        "volume_24h_usd": null,
+        "market_cap_usd": 5925.961099446832,
+        "ath_market_cap_usd": 6032.290581068617,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 12.689903436,
+        "description": "",
+        "twitter": "https://x.com/Pumpfun/status/1889300686787019145",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -41196,17 +41220,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T01:36:28.189290+00:00",
+  "last_updated": "2026-09-10T01:37:52.253731+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.81,
-  "portfolio_value_usd": 170.45,
+  "last_sol_price_usd": 100.87,
+  "portfolio_value_usd": 170.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 01:17 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $$ROYAL at $4.42249e-06 | P&L: +382.0%",
-      "reason": "Auto take-profit at +382.0%"
-    },
     {
       "time": "2026-09-10 01:18 UTC",
       "action": "buy",
@@ -41320,6 +41338,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $Roast at $3.02913e-06 | P&L: -0.8%",
       "reason": "$Roast just entered, -0.8% is noise. Position is fresh (0.0h held). Give it time to develop before judging — no reason to churn into another <2min old launch when this one hasn't had a chance to move."
+    },
+    {
+      "time": "2026-09-10 01:37 UTC",
+      "action": "buy",
+      "details": "[LLM] $ballz at $5.92949e-06, spent 0.05 SOL",
+      "reason": "$ballz is the highest-mcap mint in a cluster spawned by one @avynri viral tweet — concentrated attention signal across 4 mints means this is THE pumpfun-listed one. Fresh 0.4min age, $5.9k mcap. Risk: cluster dilution and copycat mints may fragment momentum. Sizing at 0.05 SOL given low liquidity."
     }
   ],
   "trade_stats": {
@@ -41341,21 +41365,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T01:36:28.188931+00:00",
+  "last_llm_brief_at": "2026-09-10T01:37:50.900846+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "Bz9j1n6EXV7J32i7g64y7b49Diexrmg92Tk2LuqApump": {
-      "price_usd": 3.0291331995281794e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 110.94498062989,
-      "volume_h24": 148.42,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.100535469
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
