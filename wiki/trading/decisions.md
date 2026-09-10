@@ -17398,3 +17398,6 @@
 ## [2026-09-10 00:59 UTC] buy | [LLM] $APETOWN at $3.12155e-06, spent 0.05 SOL
 - **Reasoning:** $APETOWN has a clear meme narrative ('where the apes go'), a populated description, and is the freshest launch at 0.1min — only viable candidate passing fragility/viability gates.
 
+## [2026-09-10 01:01 UTC] sell | [FULL][LLM] $APETOWN at $3.41813e-06 | P&L: +9.5%
+- **Reasoning:** $APETOWN is +9.5% but only 0.0h held on bonding curve — too fresh to judge. No reason to bail at a small green when narrative could develop. Not stale, not in danger zone.
+
