@@ -19708,3 +19708,9 @@
 ## [2026-09-10 16:31 UTC] buy | [LLM] $RETROSTOCK at $4.324e-06, spent 0.05 SOL
 - **Reasoning:** $RETROSTOCK has the strongest attention narrative of the batch — real-world equities onchain, fresh at $4.3k mcap, twitter handle present, RWA narrative is hot. Passes viability gate (desc ≥50 chars + twitter). Risk: tiny liquidity, bond only 17%, may rug — but that's the trade and the position is size-capped at 0.1 SOL.
 
+## [2026-09-10 16:32 UTC] sell | [rapid-drop] $RETROSTOCK crashed >15% in one tick | P&L: -35.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 16:33 UTC] buy | [LLM] $Finney at $2.78473e-06, spent 0.05 SOL
+- **Reasoning:** $Finney — Hal Finney tribute (Bitcoin legend, 'ITWILLRUN' reference to his famous tweet), clean crypto-native narrative not on fragility blocklist, fresh launch at $2.8k mcap with named X account promoting. Small position to test the water on a classic crypto history meme.
+
