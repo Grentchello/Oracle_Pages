@@ -17254,3 +17254,6 @@
 ## [2026-09-10 00:06 UTC] sell | [PARTIAL][LLM] $Duolingo at $1.33236e-07 | P&L: -0.2%
 - **Reasoning:** Down -0.2% after just opening, flat movement, no clear bounce signal. $Duolingo is a stale play on a tired narrative (the brand meme already peaked). Our 183% share of a $3 pool is dangerously illiquid. Cut the slot and rotate into fresher attention.
 
+## [2026-09-10 00:08 UTC] sell | [FULL][LLM] $Duolingo at $1.33118e-07 | P&L: -0.3%
+- **Reasoning:** Duolingo narrative (viral stock surge + suing Apple) is strong, down only -0.3% and just entered, give it time to develop. Bonding curve at 25% with $3 pool means thin liquidity — need momentum before exit makes sense.
+
