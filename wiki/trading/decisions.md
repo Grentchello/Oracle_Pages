@@ -19315,3 +19315,6 @@
 ## [2026-09-10 13:41 UTC] buy | [LLM] $1000X at $9.245e-06, spent 0.05 SOL
 - **Reasoning:** $1000X — the ticker itself IS the meme (aspirational 1000x), leading bond completion at 23%, has twitter, $5.6k mcap is in the sweet spot for early-stage attention plays. Classic meta-narrative memecoin DNA; entering on the launch attention.
 
+## [2026-09-10 13:43 UTC] sell | [rapid-drop] $1000X crashed >15% in one tick | P&L: -60.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
