@@ -18802,3 +18802,6 @@
 ## [2026-09-10 10:11 UTC] buy | [LLM] $RD at $2.96045e-06, spent 0.05 SOL
 - **Reasoning:** $RD (RETARDITION) — 'return to prime memecoin era' is a strong meta-narrative tapping nostalgia for the early 2020 memecoin cycle. Has twitter link from @MuseParisienne, $2.9k mcap with room to run, and 'RETARDITION' has viral insult-token energy. Liquidity likely thin but narrative fits attention-market thesis.
 
+## [2026-09-10 10:13 UTC] sell | [PARTIAL][LLM] $RD at $2.84372e-06 | P&L: -3.9%
+- **Reasoning:** $RD is -3.9% on a $10 pool where I own 51% — I'm the entire exit liquidity. Tiny pool + dominant share = any other buyer can barely get in, and the bot will hard-stop me at -25% anyway. Cut now, free the slot for a fresh launch.
+
