@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.091892,
+  "balance_sol": 9.136152,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HDuecPerZaZPEUjnFrGV7Da83U7Yf24BUu1HS2m9HHht": {
-      "symbol": "Doogle",
-      "name": "Doogle",
-      "amount": 607571.1984249288,
-      "entry_price_usd": 8.24841600950118e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T21:52:11.914490+00:00",
-      "entry_usd_value": 5.011500000000001,
-      "last_seen_price_usd": 8.24841600950118e-06,
-      "entry_signals": {
-        "liquidity_usd": 2469.1159886230503,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8220.435749666494,
-        "ath_market_cap_usd": 10382.769720495595,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 24.634500535,
-        "description": "",
-        "twitter": "https://x.com/keemotrades/status/2098167438651105368",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50619,19 +50595,30 @@
       "pnl_pct": -0.9,
       "exit_reason": "LLM: sell_all — Just opened, -0.9% is noise on bonding curve. No reason to bail on a fresh position. Will reassess at the stale threshold.",
       "partial": false
+    },
+    {
+      "mint": "HDuecPerZaZPEUjnFrGV7Da83U7Yf24BUu1HS2m9HHht",
+      "symbol": "Doogle",
+      "name": "Doogle",
+      "amount_sold": 607571.1984249288,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T21:52:11.914490+00:00",
+      "exit_time": "2026-09-10T21:53:50.638274+00:00",
+      "entry_price_usd": 8.24841600950118e-06,
+      "exit_price_usd": 7.273050824930735e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.04426,
+      "pnl_sol": -0.00574,
+      "pnl_pct": -11.82,
+      "exit_reason": "LLM: sell_all — $Doogle at -11.8% is still well above the -25% hard stop and only 0.0h into the hold. No clear bounce or breakdown yet — give it one more tick to deve",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T21:52:11.914774+00:00",
+  "last_updated": "2026-09-10T21:53:50.638558+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.23,
-  "portfolio_value_usd": 916.29,
+  "last_sol_price_usd": 99.84,
+  "portfolio_value_usd": 912.15,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 21:19 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $PROTOC crashed >15% in one tick | P&L: -60.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 21:22 UTC",
       "action": "buy",
@@ -50745,30 +50732,48 @@
       "action": "buy",
       "details": "[LLM] $Doogle at $8.24842e-06, spent 0.05 SOL",
       "reason": "$Doogle — Google parody name with viral potential, sourced from keemotrades (known crypto KOL with audience). Bond 29% vs 1-5% on others shows it's actually getting traction, not just listed. Mcap $8.2k is tiny enough for 5-10x if narrative catches."
+    },
+    {
+      "time": "2026-09-10 21:53 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Doogle at $7.27305e-06 | P&L: -11.8%",
+      "reason": "$Doogle at -11.8% is still well above the -25% hard stop and only 0.0h into the hold. No clear bounce or breakdown yet — give it one more tick to develop direction before exiting into a loss."
     }
   ],
   "trade_stats": {
-    "total": 2976,
+    "total": 2977,
     "wins": 1397,
-    "losses": 1579,
+    "losses": 1580,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 4.875703,
-    "avg_pnl_pct": 28.71,
+    "total_pnl_sol": 4.869963,
+    "avg_pnl_pct": 28.69,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 599,
-    "today_realized_sol": 7.561018,
-    "today_target_pct": 1890.3,
+    "today_trades": 600,
+    "today_realized_sol": 7.555278,
+    "today_target_pct": 1888.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1397,
-      "loss_count": 1579,
+      "loss_count": 1580,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T21:52:10.568181+00:00",
+  "last_llm_brief_at": "2026-09-10T21:53:50.638126+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HDuecPerZaZPEUjnFrGV7Da83U7Yf24BUu1HS2m9HHht": {
+      "price_usd": 7.273050824930735e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1839.51732516864,
+      "volume_h24": 18778.52,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 18.424652696
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

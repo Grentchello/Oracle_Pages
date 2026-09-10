@@ -20569,3 +20569,6 @@
 ## [2026-09-10 21:52 UTC] buy | [LLM] $Doogle at $8.24842e-06, spent 0.05 SOL
 - **Reasoning:** $Doogle — Google parody name with viral potential, sourced from keemotrades (known crypto KOL with audience). Bond 29% vs 1-5% on others shows it's actually getting traction, not just listed. Mcap $8.2k is tiny enough for 5-10x if narrative catches.
 
+## [2026-09-10 21:53 UTC] sell | [FULL][LLM] $Doogle at $7.27305e-06 | P&L: -11.8%
+- **Reasoning:** $Doogle at -11.8% is still well above the -25% hard stop and only 0.0h into the hold. No clear bounce or breakdown yet — give it one more tick to develop direction before exiting into a loss.
+
