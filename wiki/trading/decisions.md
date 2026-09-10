@@ -18751,3 +18751,6 @@
 ## [2026-09-10 09:53 UTC] sell | [PARTIAL][LLM] $PONSM at $1.01731e-05 | P&L: +45.1%
 - **Reasoning:** +45.1% on a thin bonding-curve pool ($2721) — locking half protects against reversal while letting the runner ride toward the +100% auto-TP. Stale-risk is low (0h held) but pool depth makes full-exit slippage painful.
 
+## [2026-09-10 09:54 UTC] sell | [FULL][LLM] $PONSM at $1.02256e-05 | P&L: +45.8%
+- **Reasoning:** Up +45.8% on bonding curve with pool=$2736 (below 5x position size) and our share=0% — fragile. Take profit now, liquidity is thin and any reversal becomes a rug fast.
+
