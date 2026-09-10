@@ -1,8 +1,32 @@
 {
-  "balance_sol": 2.963749,
+  "balance_sol": 2.913749,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "29SNRbPsfDJwqkar1AYp9s1HP7PSPNdxpWdZZyU7pump": {
+      "symbol": "67coin",
+      "name": "67coin",
+      "amount": 427642.61744966445,
+      "entry_price_usd": 1.192e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T03:31:34.822940+00:00",
+      "entry_usd_value": 5.0975,
+      "last_seen_price_usd": 1.192e-05,
+      "entry_signals": {
+        "liquidity_usd": 3992.70543641625,
+        "volume_24h_usd": 9107.8,
+        "market_cap_usd": 20124.292477799838,
+        "ath_market_cap_usd": 22236.58385758166,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 39.163368675,
+        "description": "",
+        "twitter": "https://x.com/ch0senbygod5/status/2097890374618345659",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -42148,17 +42172,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T03:29:59.871520+00:00",
+  "last_updated": "2026-09-10T03:31:34.823218+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.92,
-  "portfolio_value_usd": 302.07,
+  "last_sol_price_usd": 101.95,
+  "portfolio_value_usd": 302.15,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 03:08 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $TickTock at $2.87527e-06 | P&L: -9.4%",
-      "reason": "$TickTock is down 9.4% with only $14 pool liquidity and our share is 33% — that's a dangerously concentrated position in a dead micro-cap. -30% hard stop is the floor but with this little liquidity and no momentum, exiting now avoids getting trapped. Better to redeploy into fresh attention."
-    },
     {
       "time": "2026-09-10 03:09 UTC",
       "action": "sell",
@@ -42272,6 +42290,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $gras at $2.91815e-06 | P&L: +0.6%",
       "reason": "The position is only +0.6% after essentially no hold time, so there is no stale-loss signal yet. Its $37 pool and 14% share are high-risk, but momentum is currently stable; hold briefly for the fresh-launch move."
+    },
+    {
+      "time": "2026-09-10 03:31 UTC",
+      "action": "buy",
+      "details": "[LLM] $67coin at $1.192e-05, spent 0.05 SOL",
+      "reason": "$67coin has the highest mcap ($20k) of fresh launches and an active twitter account (ch0senbygod5). Passes viability gate via twitter. Narrative is thin but attention is real; copying the '67' meme format. Position sized 0.05 SOL per v7 rules."
     }
   ],
   "trade_stats": {
@@ -42293,21 +42317,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:29:59.871244+00:00",
+  "last_llm_brief_at": "2026-09-10T03:31:32.994915+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "5JEk65uaYTdLpkf8nvvz5kMUyE2HZbBm6jd31Jpspump": {
-      "price_usd": 2.918146975392631e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 36.5671908784,
-      "volume_h24": 40.51,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.35878327
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
