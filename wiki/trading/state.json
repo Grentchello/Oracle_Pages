@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.214007,
+  "balance_sol": 4.166507,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "29ANvmBW5Zv3RLVXPudF6iN5j4oXGSqtCcKJC9B4pump": {
-      "symbol": "Vel",
-      "name": "Veldaren",
-      "amount": 89357.10321333165,
-      "entry_price_usd": 2.825642546375667e-06,
-      "entry_sol_spent": 0.0025148529149449372,
-      "entry_time": "2026-09-10T17:53:26.930878+00:00",
-      "entry_usd_value": 5.0200000000000005,
-      "last_seen_price_usd": 2.796644485927292e-06,
+    "AYy1y9QMGoBGSm6puSPrmqmWJVS6WXsZJkvKkmLPpump": {
+      "symbol": "JOB⁠",
+      "name": "Impossible Job",
+      "amount": 969635.6275303646,
+      "entry_price_usd": 5.187e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T17:56:13.743244+00:00",
+      "entry_usd_value": 5.0295000000000005,
+      "last_seen_price_usd": 5.187e-06,
       "entry_signals": {
-        "liquidity_usd": 9.940821767600001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2818.25674519327,
-        "ath_market_cap_usd": 2818.25674519327,
+        "liquidity_usd": 0.09835458843,
+        "volume_24h_usd": 223.04,
+        "market_cap_usd": 4825.950536457706,
+        "ath_market_cap_usd": 5190.409797086967,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.099012169,
+        "real_sol_reserves": 0.000977777,
         "description": "",
-        "twitter": "",
+        "twitter": "https://twitter.com/TheEconomist/status/2098108012216856661",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -48630,25 +48630,30 @@
       "pnl_pct": -1.03,
       "exit_reason": "LLM: sell_all — Down only 1% (well within -25% hard cap), held 0 minutes. However 497% pool share is a major red flag — I AM the liquidity. Selling now will crater th",
       "partial": true
+    },
+    {
+      "mint": "29ANvmBW5Zv3RLVXPudF6iN5j4oXGSqtCcKJC9B4pump",
+      "symbol": "Vel",
+      "name": "Veldaren",
+      "amount_sold": 89357.10321333165,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T17:53:26.930878+00:00",
+      "exit_time": "2026-09-10T17:56:11.102634+00:00",
+      "entry_price_usd": 2.825642546375667e-06,
+      "exit_price_usd": 2.8142703965528843e-06,
+      "entry_sol_for_chunk": 0.002515,
+      "exit_sol_received": 0.0025,
+      "pnl_sol": -1.5e-05,
+      "pnl_pct": -0.4,
+      "exit_reason": "LLM: sell_all — $Vel is flat (-0.4%) with bonding curve pool of only $1 and our share is 25% of LP — this is a micro-cap illiquid position with no momentum. Better to",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T17:54:55.142672+00:00",
+  "last_updated": "2026-09-10T17:56:13.743454+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.96,
-  "portfolio_value_usd": 421.48,
+  "last_sol_price_usd": 100.59,
+  "portfolio_value_usd": 424.14,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 17:27 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $NOISE at $2.03088e-05 | P&L: +1.8%",
-      "reason": "+1.7% with no hold time yet and no momentum signal — give it a few minutes to develop or hit stale threshold. Not up enough to justify a panic exit, not down enough to trigger stop."
-    },
-    {
-      "time": "2026-09-10 17:28 UTC",
-      "action": "buy",
-      "details": "[LLM] $TripleS at $9.34842e-06, spent 0.05 SOL",
-      "reason": "$TripleS (Sydney Sydney Sydney Sahur) — fresh sub-minute launch, $9.4k mcap with active Twitter attention from RealDesertDoge. The 'Sydney Sahur' brainrot meme is currently viral on X and TikTok, strong narrative for a 5-10x run in the first hour. Risk: meme is meme-y but attention is real and early."
-    },
     {
       "time": "2026-09-10 17:29 UTC",
       "action": "sell",
@@ -48756,36 +48761,48 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Vel at $2.79664e-06 | P&L: -1.0%",
       "reason": "Down only 1% (well within -25% hard cap), held 0 minutes. However 497% pool share is a major red flag — I AM the liquidity. Selling now will crater the price. Must wait for organic buyers to enter or for bonding curve to complete before exiting."
+    },
+    {
+      "time": "2026-09-10 17:56 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Vel at $2.81427e-06 | P&L: -0.4%",
+      "reason": "$Vel is flat (-0.4%) with bonding curve pool of only $1 and our share is 25% of LP — this is a micro-cap illiquid position with no momentum. Better to free the slot for fresher, higher-attention launches."
+    },
+    {
+      "time": "2026-09-10 17:56 UTC",
+      "action": "buy",
+      "details": "[LLM] $JOB⁠ at $5.187e-06, spent 0.05 SOL",
+      "reason": "$JOB from The Economist account gives institutional-tier attention signal at $4.8K mcap — extremely low entry with high-quality narrative source, classic asymmetric attention play."
     }
   ],
   "trade_stats": {
-    "total": 2859,
+    "total": 2860,
     "wins": 1361,
-    "losses": 1498,
+    "losses": 1499,
     "win_rate_pct": 47.6,
-    "total_pnl_sol": -0.049671,
-    "avg_pnl_pct": 26.44,
+    "total_pnl_sol": -0.049686,
+    "avg_pnl_pct": 26.43,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 482,
-    "today_realized_sol": 2.635644,
+    "today_trades": 483,
+    "today_realized_sol": 2.635629,
     "today_target_pct": 658.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1361,
-      "loss_count": 1498,
+      "loss_count": 1499,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T17:54:55.142347+00:00",
+  "last_llm_brief_at": "2026-09-10T17:56:11.102600+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "29ANvmBW5Zv3RLVXPudF6iN5j4oXGSqtCcKJC9B4pump": {
-      "price_usd": 2.796644485927292e-06,
+      "price_usd": 2.8142703965528843e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.9996001999199998,
-      "volume_h24": 9.91,
+      "liquidity_usd": 1.00590020118,
+      "volume_h24": 20.83,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,

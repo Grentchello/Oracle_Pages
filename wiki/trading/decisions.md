@@ -19903,3 +19903,9 @@
 ## [2026-09-10 17:54 UTC] sell | [PARTIAL][LLM] $Vel at $2.79664e-06 | P&L: -1.0%
 - **Reasoning:** Down only 1% (well within -25% hard cap), held 0 minutes. However 497% pool share is a major red flag — I AM the liquidity. Selling now will crater the price. Must wait for organic buyers to enter or for bonding curve to complete before exiting.
 
+## [2026-09-10 17:56 UTC] sell | [FULL][LLM] $Vel at $2.81427e-06 | P&L: -0.4%
+- **Reasoning:** $Vel is flat (-0.4%) with bonding curve pool of only $1 and our share is 25% of LP — this is a micro-cap illiquid position with no momentum. Better to free the slot for fresher, higher-attention launches.
+
+## [2026-09-10 17:56 UTC] buy | [LLM] $JOB⁠ at $5.187e-06, spent 0.05 SOL
+- **Reasoning:** $JOB from The Economist account gives institutional-tier attention signal at $4.8K mcap — extremely low entry with high-quality narrative source, classic asymmetric attention play.
+
