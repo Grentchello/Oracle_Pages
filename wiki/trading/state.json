@@ -1,27 +1,27 @@
 {
-  "balance_sol": 1.587355,
+  "balance_sol": 1.587379,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "3mGnYHdNS9rz1TrgzxUGsb53bjBFZjUxw2BQer76pump": {
-      "symbol": "$DrunkPeng",
-      "name": "Drunk Pengu",
-      "amount": 1766230.4059163602,
-      "entry_price_usd": 2.8606120600548995e-06,
+    "99ZdLJEZyLUSUscns6ETwKAKug2QQUe2ySakYpzr8UGK": {
+      "symbol": "Investor",
+      "name": "The Investor",
+      "amount": 885818.727236648,
+      "entry_price_usd": 5.71843859725348e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T01:24:03.658635+00:00",
-      "entry_usd_value": 5.0525,
-      "last_seen_price_usd": 2.8606120600548995e-06,
+      "entry_time": "2026-09-10T01:25:36.291627+00:00",
+      "entry_usd_value": 5.0655,
+      "last_seen_price_usd": 5.71843859725348e-06,
       "entry_signals": {
-        "liquidity_usd": 18.9149628037,
+        "liquidity_usd": 702.7492589073,
         "volume_24h_usd": null,
-        "market_cap_usd": 2862.6533591616994,
-        "ath_market_cap_usd": 2862.6533591616994,
+        "market_cap_usd": 5715.656774207486,
+        "ath_market_cap_usd": 5715.656774207486,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.187184194,
-        "description": "Solana Drunk Pengu",
-        "twitter": "HTTPS://X.COM/PENGUMEME",
+        "real_sol_reserves": 6.93662283,
+        "description": "",
+        "twitter": "https://x.com/DarthMaiul/status/2097858591382556680",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -41099,25 +41099,30 @@
       "pnl_pct": -4.7,
       "exit_reason": "LLM: sell_all — Just entered at -4.7%, well within -25% hard stop, no stale signal yet. Bonding curve position needs time to migrate to pool and develop. The huge sha",
       "partial": false
+    },
+    {
+      "mint": "3mGnYHdNS9rz1TrgzxUGsb53bjBFZjUxw2BQer76pump",
+      "symbol": "$DrunkPeng",
+      "name": "Drunk Pengu",
+      "amount_sold": 1766230.4059163602,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T01:24:03.658635+00:00",
+      "exit_time": "2026-09-10T01:25:34.904094+00:00",
+      "entry_price_usd": 2.8606120600548995e-06,
+      "exit_price_usd": 2.869333424437457e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050024,
+      "pnl_sol": 2.4e-05,
+      "pnl_pct": 0.3,
+      "exit_reason": "LLM: sell_all — Position is flat (+0.3%) with $20 pool liquidity and 26% of pool — extremely illiquid, will trap me at this slot. Dexscreener confirms only 4 buys/1 s",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T01:24:03.658898+00:00",
+  "last_updated": "2026-09-10T01:25:36.291777+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.05,
-  "portfolio_value_usd": 165.45,
+  "last_sol_price_usd": 101.31,
+  "portfolio_value_usd": 165.88,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 01:01 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $APETOWN at $3.41813e-06 | P&L: +9.5%",
-      "reason": "$APETOWN is +9.5% but only 0.0h held on bonding curve — too fresh to judge. No reason to bail at a small green when narrative could develop. Not stale, not in danger zone."
-    },
-    {
-      "time": "2026-09-10 01:02 UTC",
-      "action": "buy",
-      "details": "[LLM] $Cat at $3.79918e-06, spent 0.05 SOL",
-      "reason": "$Cat (The Miracle Cat) is 0.1min old with X link attached, $3.8k mcap = max asymmetry. Cat meta is the original crypto-native narrative; if the X post gets even modest engagement, this 50-300x's in the first hour. Sizing 0.05 SOL per experiment rules. Passes viability (has twitter) and not on fragility blocklist."
-    },
     {
       "time": "2026-09-10 01:04 UTC",
       "action": "sell",
@@ -41225,30 +41230,54 @@
       "action": "buy",
       "details": "[LLM] $$DrunkPeng at $2.86061e-06, spent 0.05 SOL",
       "reason": "$DrunkPeng passes viability gate (has twitter), passes fragility gate. Pengu is a hot meme vertical (Pudgy Penguins ecosystem attention), 'Drunk' angle adds comedy/virality, and twitter handle @PENGUMEME suggests existing meme community. Bond only 1% means very early — strong attention signal at $2.8k mcap. Risk: super fresh, could rug, but narrative + social presence justify a small 0.05 SOL entry."
+    },
+    {
+      "time": "2026-09-10 01:25 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $$DrunkPeng at $2.86933e-06 | P&L: +0.3%",
+      "reason": "Position is flat (+0.3%) with $20 pool liquidity and 26% of pool — extremely illiquid, will trap me at this slot. Dexscreener confirms only 4 buys/1 sell, FDV dropped to $2,868 (below initial $2.86k mcap). No narrative momentum, just stale bonding-curve. Cut loose to free the slot for fresh attention plays."
+    },
+    {
+      "time": "2026-09-10 01:25 UTC",
+      "action": "buy",
+      "details": "[LLM] $Investor at $5.71844e-06, spent 0.05 SOL",
+      "reason": "$Investor — 0.3min old, $5.7k mcap with X post attached, 'The Investor' is a self-aware meta-narrative memecoin riding attention. Fresh, low mcap = room to 5-10x if narrative catches. Higher mcap than peers ($5.7k) shows early bid strength."
     }
   ],
   "trade_stats": {
-    "total": 2416,
-    "wins": 1204,
+    "total": 2417,
+    "wins": 1205,
     "losses": 1212,
-    "win_rate_pct": 49.8,
-    "total_pnl_sol": -2.628956,
-    "avg_pnl_pct": 28.78,
+    "win_rate_pct": 49.9,
+    "total_pnl_sol": -2.628932,
+    "avg_pnl_pct": 28.76,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 39,
-    "today_realized_sol": 0.056359,
+    "today_trades": 40,
+    "today_realized_sol": 0.056383,
     "today_target_pct": 14.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1204,
+      "win_count": 1205,
       "loss_count": 1212,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T01:24:02.330144+00:00",
+  "last_llm_brief_at": "2026-09-10T01:25:34.903370+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3mGnYHdNS9rz1TrgzxUGsb53bjBFZjUxw2BQer76pump": {
+      "price_usd": 2.869333424437457e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 19.68364309296,
+      "volume_h24": 28.88,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.194291216
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
