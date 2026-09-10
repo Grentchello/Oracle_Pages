@@ -18805,3 +18805,6 @@
 ## [2026-09-10 10:13 UTC] sell | [PARTIAL][LLM] $RD at $2.84372e-06 | P&L: -3.9%
 - **Reasoning:** $RD is -3.9% on a $10 pool where I own 51% — I'm the entire exit liquidity. Tiny pool + dominant share = any other buyer can barely get in, and the bot will hard-stop me at -25% anyway. Cut now, free the slot for a fresh launch.
 
+## [2026-09-10 10:14 UTC] sell | [FULL][LLM] $RD at $2.84294e-06 | P&L: -4.0%
+- **Reasoning:** $RD is only -4% after 0h held, well above the -25% hard cap. Bonding-curve at 25% pool share with $10 liquidity — thin but not yet a forced exit. Give it a few more minutes to develop before cutting.
+

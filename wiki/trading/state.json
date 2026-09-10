@@ -1,32 +1,8 @@
 {
-  "balance_sol": 5.054761,
+  "balance_sol": 5.078413,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9NjjpztP9FsUcRNJySY8wgskZ5HXnBh3o54uon6rpump": {
-      "symbol": "RD",
-      "name": "RETARDITION",
-      "amount": 840646.0402762983,
-      "entry_price_usd": 2.960452051841585e-06,
-      "entry_sol_spent": 0.024611276649609083,
-      "entry_time": "2026-09-10T10:11:51.206774+00:00",
-      "entry_usd_value": 5.056000000000001,
-      "last_seen_price_usd": 2.843722898458291e-06,
-      "entry_signals": {
-        "liquidity_usd": 20.18752864512,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2958.6852418779713,
-        "ath_market_cap_usd": 2969.70086482254,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.199639326,
-        "description": "return to, prime memecoin era",
-        "twitter": "https://x.com/MuseParisienne/status/2097990607847272853",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45298,19 +45274,30 @@
       "pnl_pct": -3.94,
       "exit_reason": "LLM: sell_all — $RD is -3.9% on a $10 pool where I own 51% — I'm the entire exit liquidity. Tiny pool + dominant share = any other buyer can barely get in, and the bo",
       "partial": true
+    },
+    {
+      "mint": "9NjjpztP9FsUcRNJySY8wgskZ5HXnBh3o54uon6rpump",
+      "symbol": "RD",
+      "name": "RETARDITION",
+      "amount_sold": 840646.0402762983,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T10:11:51.206774+00:00",
+      "exit_time": "2026-09-10T10:14:46.486573+00:00",
+      "entry_price_usd": 2.960452051841585e-06,
+      "exit_price_usd": 2.8429351012329778e-06,
+      "entry_sol_for_chunk": 0.024611,
+      "exit_sol_received": 0.023652,
+      "pnl_sol": -0.000959,
+      "pnl_pct": -3.97,
+      "exit_reason": "LLM: sell_all — $RD is only -4% after 0h held, well above the -25% hard cap. Bonding-curve at 25% pool share with $10 liquidity — thin but not yet a forced exit. Give",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T10:13:12.435653+00:00",
+  "last_updated": "2026-09-10T10:14:46.486750+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.072,
-  "portfolio_value_usd": 513.38,
+  "last_sol_price_usd": 101.044,
+  "portfolio_value_usd": 513.14,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 09:51 UTC",
-      "action": "buy",
-      "details": "[LLM] $PONSM at $7.0132e-06, spent 0.05 SOL",
-      "reason": "$PONSM 'Meaty Pons' — bizarre, surreal narrative ('living letter escaped the white background'), has twitter, fresh launch at $7k mcap. Pure attention play with quirky story. Best narrative candidate."
-    },
     {
       "time": "2026-09-10 09:53 UTC",
       "action": "sell",
@@ -45424,36 +45411,42 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $RD at $2.84372e-06 | P&L: -3.9%",
       "reason": "$RD is -3.9% on a $10 pool where I own 51% — I'm the entire exit liquidity. Tiny pool + dominant share = any other buyer can barely get in, and the bot will hard-stop me at -25% anyway. Cut now, free the slot for a fresh launch."
+    },
+    {
+      "time": "2026-09-10 10:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RD at $2.84294e-06 | P&L: -4.0%",
+      "reason": "$RD is only -4% after 0h held, well above the -25% hard cap. Bonding-curve at 25% pool share with $10 liquidity — thin but not yet a forced exit. Give it a few more minutes to develop before cutting."
     }
   ],
   "trade_stats": {
-    "total": 2663,
+    "total": 2664,
     "wins": 1298,
-    "losses": 1365,
+    "losses": 1366,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.813085,
-    "avg_pnl_pct": 28.89,
+    "total_pnl_sol": 0.812126,
+    "avg_pnl_pct": 28.88,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 286,
-    "today_realized_sol": 3.4984,
-    "today_target_pct": 874.6,
+    "today_trades": 287,
+    "today_realized_sol": 3.497441,
+    "today_target_pct": 874.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1298,
-      "loss_count": 1365,
+      "loss_count": 1366,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:13:12.434560+00:00",
+  "last_llm_brief_at": "2026-09-10T10:14:46.486505+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "9NjjpztP9FsUcRNJySY8wgskZ5HXnBh3o54uon6rpump": {
-      "price_usd": 2.843722898458291e-06,
+      "price_usd": 2.8429351012329778e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 9.562257576928,
-      "volume_h24": 131.47,
+      "liquidity_usd": 9.559608542456,
+      "volume_h24": 142.09,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
