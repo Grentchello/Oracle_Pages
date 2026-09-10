@@ -19426,3 +19426,9 @@
 ## [2026-09-10 14:37 UTC] buy | [LLM] $trophywife at $5.92132e-06, spent 0.05 SOL
 - **Reasoning:** $trophywife passes viability gate (desc 56 chars, twitter handle), bond 24%, mcap $5.9k — 'trophy wife' is a recognizable viral cultural meme with strong attention narrative, twitter infrastructure in place. Fresh launch at 0.1min. Position 0.05 SOL ($5) limits downside if rug; upside is the attention pump.
 
+## [2026-09-10 14:38 UTC] sell | [rapid-drop] $trophywife crashed >15% in one tick | P&L: -50.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 14:39 UTC] buy | [LLM] $H-Fat at $4.97046e-06, spent 0.05 SOL
+- **Reasoning:** $H-Fat — nukidoya is a known viral attention account (his tweets regularly pump memes), bond already at 20% indicating organic traction, and 'H-Fat' is absurdist meme-bait that fits the current meta. Highest attention signal-to-mcap ratio in this batch.
+
