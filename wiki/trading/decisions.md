@@ -19243,3 +19243,6 @@
 ## [2026-09-10 13:20 UTC] buy | [LLM] $humanhuman at $4.57e-06, spent 0.05 SOL
 - **Reasoning:** $humanhuman — narrative 'human social network' taps AI/agent meta, $4.1k mcap is entry-grade, fresh launch. Buying 0.1 SOL to test attention momentum.
 
+## [2026-09-10 13:22 UTC] sell | [PARTIAL][LLM] $humanhuman at $6.65659e-06 | P&L: +45.7%
+- **Reasoning:** Up +45.7% in 0h, past 25% TP threshold — bot would auto-take-profit soon anyway. Pool is thin ($1637) so partial exit captures gains without tanking the chart. Let half ride to test if narrative has more.
+
