@@ -20416,3 +20416,6 @@
 ## [2026-09-10 20:34 UTC] buy | [LLM] $Pump Stonk at $1.005e-05, spent 0.05 SOL
 - **Reasoning:** $Pump Stonk has the strongest signals of the batch: $8.97k mcap (highest among viability-passing candidates), 27% bond curve (real buy pressure), self-referential $PUMP token narrative plays well as meta-irony, and active twitter status link suggests organic posting not just a hollow handle. Fresh launch at 0.8min — entering before momentum confirms.
 
+## [2026-09-10 20:35 UTC] sell | [v8.7 TP +50% (full)] $Pump Stonk at $0.000242087 | P&L: +2308.8%
+- **Reasoning:** Auto take-profit at +2308.8%
+
