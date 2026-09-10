@@ -19669,3 +19669,6 @@
 ## [2026-09-10 16:07 UTC] buy | [LLM] $BUCKAZOID at $1.00428e-06, spent 0.05 SOL
 - **Reasoning:** BUCKAZOID - absurdist robot creature name has meme legs, $10k mcap with 4% bond showing real buys, no political/celebrity angle
 
+## [2026-09-10 16:08 UTC] sell | [FULL][LLM] $BUCKAZOID at $9.02003e-07 | P&L: -10.2%
+- **Reasoning:** Down only -10.2% after 0.0h held, well inside -25% hard cap and 30-min auto-exit window. No bounce signal yet but too early to panic; let the bot's auto-rules handle it if it goes stale or deeper red.
+

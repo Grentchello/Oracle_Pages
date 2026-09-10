@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.26527,
+  "balance_sol": 4.310209,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3vdHjuAUmzfKJna9z1MWCLhdZUcvPdcVtr2AucxBpump": {
-      "symbol": "BUCKAZOID",
-      "name": "BUCKAZOID",
-      "amount": 4976709.406769688,
-      "entry_price_usd": 1.0042780462932697e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T16:07:16.700348+00:00",
-      "entry_usd_value": 4.998,
-      "last_seen_price_usd": 1.0042780462932697e-06,
-      "entry_signals": {
-        "liquidity_usd": 30.65989923276,
-        "volume_24h_usd": null,
-        "market_cap_usd": 10046.79918260574,
-        "ath_market_cap_usd": 20058.960021727595,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.306721681,
-        "description": "BUCKAZOID",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -47899,19 +47875,30 @@
       "pnl_pct": -71.4,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "3vdHjuAUmzfKJna9z1MWCLhdZUcvPdcVtr2AucxBpump",
+      "symbol": "BUCKAZOID",
+      "name": "BUCKAZOID",
+      "amount_sold": 4976709.406769688,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T16:07:16.700348+00:00",
+      "exit_time": "2026-09-10T16:08:35.407821+00:00",
+      "entry_price_usd": 1.0042780462932697e-06,
+      "exit_price_usd": 9.020025689698049e-07,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.044939,
+      "pnl_sol": -0.005061,
+      "pnl_pct": -10.18,
+      "exit_reason": "LLM: sell_all — Down only -10.2% after 0.0h held, well inside -25% hard cap and 30-min auto-exit window. No bounce signal yet but too early to panic; let the bot's au",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T16:07:16.700708+00:00",
+  "last_updated": "2026-09-10T16:08:35.408470+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.96,
-  "portfolio_value_usd": 431.35,
+  "last_sol_price_usd": 99.89,
+  "portfolio_value_usd": 430.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 15:45 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $RC  at $2.83614e-06 | P&L: -0.5%",
-      "reason": "$RC is essentially flat at -0.5% after just opening. Not at stop, no thesis to abandon yet. Give it a few minutes to see if it moves before cutting."
-    },
     {
       "time": "2026-09-10 15:46 UTC",
       "action": "buy",
@@ -48025,30 +48012,48 @@
       "action": "buy",
       "details": "[LLM] $BUCKAZOID at $1.00428e-06, spent 0.05 SOL",
       "reason": "BUCKAZOID - absurdist robot creature name has meme legs, $10k mcap with 4% bond showing real buys, no political/celebrity angle"
+    },
+    {
+      "time": "2026-09-10 16:08 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BUCKAZOID at $9.02003e-07 | P&L: -10.2%",
+      "reason": "Down only -10.2% after 0.0h held, well inside -25% hard cap and 30-min auto-exit window. No bounce signal yet but too early to panic; let the bot's auto-rules handle it if it goes stale or deeper red."
     }
   ],
   "trade_stats": {
-    "total": 2816,
+    "total": 2817,
     "wins": 1344,
-    "losses": 1472,
+    "losses": 1473,
     "win_rate_pct": 47.7,
-    "total_pnl_sol": 0.049028,
-    "avg_pnl_pct": 26.83,
+    "total_pnl_sol": 0.043967,
+    "avg_pnl_pct": 26.81,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 439,
-    "today_realized_sol": 2.734343,
-    "today_target_pct": 683.6,
+    "today_trades": 440,
+    "today_realized_sol": 2.729282,
+    "today_target_pct": 682.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1344,
-      "loss_count": 1472,
+      "loss_count": 1473,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T16:07:15.194116+00:00",
+  "last_llm_brief_at": "2026-09-10T16:08:35.407291+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3vdHjuAUmzfKJna9z1MWCLhdZUcvPdcVtr2AucxBpump": {
+      "price_usd": 9.020025689698049e-07,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 125.41944928113999,
+      "volume_h24": 4435.46,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.255575626
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
