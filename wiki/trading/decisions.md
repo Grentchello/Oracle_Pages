@@ -19258,3 +19258,9 @@
 ## [2026-09-10 13:25 UTC] buy | [LLM] $Cat at $3.48534e-06, spent 0.05 SOL
 - **Reasoning:** $Cat has a specific viral X post from nukidoya (known Solana meme launcher) at 0.5min age with $3.5k mcap. Fresh attention is the clearest edge here — name is generic but the timestamp and source account give timing alpha. Risk: generic name gets squished, but at 0.5min the entry is early enough.
 
+## [2026-09-10 13:27 UTC] sell | [rapid-drop] $Cat crashed >15% in one tick | P&L: -20.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 13:27 UTC] buy | [LLM] $Neko at $6.18763e-06, spent 0.05 SOL
+- **Reasoning:** $Neko — OG neko 'Bitcoin mascot' IP tied to known @Ognekocoin X account, bond furthest along at 25%, fresh $6k mcap with clear mascot narrative = best attention-density/signal ratio in the new-launch set; if it doesn't move in 30m, the bot auto-exits.
+
