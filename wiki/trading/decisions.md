@@ -17956,3 +17956,6 @@
 ## [2026-09-10 04:26 UTC] sell | [rapid-drop] $cap crashed >15% in one tick | P&L: -93.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 04:27 UTC] buy | [LLM] $ZAZU at $1.854e-05, spent 0.05 SOL
+- **Reasoning:** $ZAZU is the freshest with real traction — $25k mcap and 38% bond complete in 1.3 minutes means actual buyers are piling in, not just a launch. Twitter attached from FrenzyMalc gives attention signal. Taking the entry per default-bias-to-trade rule.
+
