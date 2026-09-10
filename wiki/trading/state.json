@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.614492,
+  "balance_sol": 4.664459,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7ikNhi7A2U9nZ17rHNXzTmwExukXJSt4AWZHywnFpump": {
-      "symbol": "BLURP",
-      "name": "BLURP",
-      "amount": 1787153.4370385509,
-      "entry_price_usd": 2.789072217693684e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T14:25:28.912034+00:00",
-      "entry_usd_value": 4.984500000000001,
-      "last_seen_price_usd": 2.789072217693684e-06,
-      "entry_signals": {
-        "liquidity_usd": 2.95626687462,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2791.8367994764253,
-        "ath_market_cap_usd": 2791.8367994764253,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.029654598,
-        "description": "Mattfurie character with No roadmap. No brain. Just vibes. He found Solana and decided to stay.",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -47100,19 +47076,30 @@
       "pnl_pct": 0.41,
       "exit_reason": "LLM: sell_all — Just entered (+0.4%), bonding curve only 17% filled means still early. No reason to exit, give it time to develop.",
       "partial": false
+    },
+    {
+      "mint": "7ikNhi7A2U9nZ17rHNXzTmwExukXJSt4AWZHywnFpump",
+      "symbol": "BLURP",
+      "name": "BLURP",
+      "amount_sold": 1787153.4102135508,
+      "fraction_sold": 0.9999999849900968,
+      "entry_time": "2026-09-10T14:25:28.912034+00:00",
+      "exit_time": "2026-09-10T14:26:45.696502+00:00",
+      "entry_price_usd": 2.789072217693684e-06,
+      "exit_price_usd": 2.7900279592724793e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049967,
+      "pnl_sol": -3.3e-05,
+      "pnl_pct": 0.03,
+      "exit_reason": "LLM: sell_all — Flat at +0.0% with no momentum and bonding curve showing no buying pressure. Free the slot for a fresh launch with a narrative.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T14:25:28.912326+00:00",
+  "last_updated": "2026-09-10T14:26:46.812286+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.69,
-  "portfolio_value_usd": 465.0,
+  "last_sol_price_usd": 99.79,
+  "portfolio_value_usd": 465.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 13:53 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $INFINITY at $3.00625e-06 | P&L: -6.0%",
-      "reason": "$INFINITY at -6.0% is nowhere near the -25% hard cap and only held 0.0h. Bonding-curve tokens often bounce in the first 15-30 min; no reason to panic-sell at a small loss this fresh. Give it room to either recover or hit the auto-stop."
-    },
     {
       "time": "2026-09-10 13:59 UTC",
       "action": "buy",
@@ -47226,30 +47213,48 @@
       "action": "buy",
       "details": "[LLM] $BLURP at $2.78907e-06, spent 0.05 SOL",
       "reason": "$BLURP is a Matt Furie (Pepe creator) character token — strongest narrative in the batch, survives the viability gate (desc ≥50 chars), bond at 0% means I'm entering at the absolute floor before any curve activity. Furie tokens have historical memecoin precedent."
+    },
+    {
+      "time": "2026-09-10 14:26 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BLURP at $2.79003e-06 | P&L: +0.0%",
+      "reason": "Flat at +0.0% with no momentum and bonding curve showing no buying pressure. Free the slot for a fresh launch with a narrative."
     }
   ],
   "trade_stats": {
-    "total": 2769,
+    "total": 2770,
     "wins": 1330,
-    "losses": 1439,
+    "losses": 1440,
     "win_rate_pct": 48.0,
-    "total_pnl_sol": 0.39825,
-    "avg_pnl_pct": 27.53,
+    "total_pnl_sol": 0.398217,
+    "avg_pnl_pct": 27.52,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 392,
-    "today_realized_sol": 3.083565,
+    "today_trades": 393,
+    "today_realized_sol": 3.083532,
     "today_target_pct": 770.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1330,
-      "loss_count": 1439,
+      "loss_count": 1440,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T14:25:27.500208+00:00",
+  "last_llm_brief_at": "2026-09-10T14:26:45.696371+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "7ikNhi7A2U9nZ17rHNXzTmwExukXJSt4AWZHywnFpump": {
+      "price_usd": 2.7900279592724793e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2.9937e-07,
+      "volume_h24": 5.93,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

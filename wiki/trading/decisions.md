@@ -19399,3 +19399,6 @@
 ## [2026-09-10 14:25 UTC] buy | [LLM] $BLURP at $2.78907e-06, spent 0.05 SOL
 - **Reasoning:** $BLURP is a Matt Furie (Pepe creator) character token — strongest narrative in the batch, survives the viability gate (desc ≥50 chars), bond at 0% means I'm entering at the absolute floor before any curve activity. Furie tokens have historical memecoin precedent.
 
+## [2026-09-10 14:26 UTC] sell | [FULL][LLM] $BLURP at $2.79003e-06 | P&L: +0.0%
+- **Reasoning:** Flat at +0.0% with no momentum and bonding curve showing no buying pressure. Free the slot for a fresh launch with a narrative.
+
