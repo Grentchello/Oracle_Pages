@@ -19204,3 +19204,9 @@
 ## [2026-09-10 13:08 UTC] buy | [LLM] $HODL at $4.67973e-06, spent 0.05 SOL
 - **Reasoning:** $HODL 'Gold Hands' is universal crypto meme-recognition, age 0.4min means fresh attention just landed, $4.6k mcap = huge upside room before any extraction. Viability and fragility gates pass.
 
+## [2026-09-10 13:10 UTC] sell | [FULL][LLM] $HODL at $5.46976e-06 | P&L: +16.9%
+- **Reasoning:** Up +16.9% but bonding curve only $1200 pool with0% share — extremely thin liquidity, can rug or reverse fast. Lock the gain per scalp discipline: up >15% with uncertainty = take profit. Don't hope on a micro-cap bonding curve position.
+
+## [2026-09-10 13:10 UTC] buy | [LLM] $TWIN at $2.9e-06, spent 0.05 SOL
+- **Reasoning:** TWIN — 'Scientists reverse cancer cells' is a MASSIVE viral narrative hook. Real X post linked, attention magnet. Two competing mints (same narrative) suggest copycats racing — the original at $2.9k bonding2% has most upside if it pumps on the news. High narrative, asymmetric upside,0.05 SOL risk acceptable.
+
