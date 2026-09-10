@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.995636,
+  "balance_sol": 2.043563,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HWk9AzieS8NSnU5NWKgLsmgKtemzqAuyaavZ9UEypump": {
-      "symbol": "Cooked",
-      "name": "Wallahi Im Cooked",
-      "amount": 1714184.1079218981,
-      "entry_price_usd": 2.9488664470982903e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T02:12:50.388362+00:00",
-      "entry_usd_value": 5.0549,
-      "last_seen_price_usd": 2.9488664470982903e-06,
-      "entry_signals": {
-        "liquidity_usd": 2.0219600000000002e-07,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2948.3414159794966,
-        "ath_market_cap_usd": 3391.6412395305906,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2e-09,
-        "description": "",
-        "twitter": "https://x.com/KTLA/status/2097870423962918937",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -41541,19 +41517,30 @@
       "pnl_pct": -13.88,
       "exit_reason": "LLM: sell_all — Down -13.9% on a $105 pool token where we hold 4% — liquidity is too thin to trust a bounce, and another 11% drop hits the -25% hard cap. Cut and rede",
       "partial": false
+    },
+    {
+      "mint": "HWk9AzieS8NSnU5NWKgLsmgKtemzqAuyaavZ9UEypump",
+      "symbol": "Cooked",
+      "name": "Wallahi Im Cooked",
+      "amount_sold": 1714184.090038565,
+      "fraction_sold": 0.9999999895674373,
+      "entry_time": "2026-09-10T02:12:50.388362+00:00",
+      "exit_time": "2026-09-10T02:15:18.416887+00:00",
+      "entry_price_usd": 2.9488664470982903e-06,
+      "exit_price_usd": 2.8244454801510177e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.047927,
+      "pnl_sol": -0.002073,
+      "pnl_pct": -4.22,
+      "exit_reason": "LLM: sell_all — $Cooked just opened and is only -4.2% with tiny position size (0.05 SOL). Far from -25% stop and not stale yet. The '⚠ HUGE' share % is data noise on ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T02:12:50.388551+00:00",
+  "last_updated": "2026-09-10T02:15:18.417655+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.098,
-  "portfolio_value_usd": 206.81,
+  "last_sol_price_usd": 101.021,
+  "portfolio_value_usd": 206.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 01:55 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Larry at $2.82039e-06 | P&L: -0.1%",
-      "reason": "Flat at -0.1%, we hold 25% of a $1 pool which is dangerously illiquid. Freeing the slot for a fresh launch with actual volume is the right call."
-    },
     {
       "time": "2026-09-10 01:56 UTC",
       "action": "buy",
@@ -41667,40 +41654,46 @@
       "action": "buy",
       "details": "[LLM] $Cooked at $2.94887e-06, spent 0.05 SOL",
       "reason": "$Cooked ('Wallahi Im Cooked') has a KTLA news station tweet — real media attention on a 0.7min-old token at $2.9k mcap. Fresh narrative + news pickup is the classic viral-launch setup. Risks: ultra-low mcap = high rug probability; news-driven coins fade fast so I'll watch for the +30% TP trigger."
+    },
+    {
+      "time": "2026-09-10 02:15 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Cooked at $2.82445e-06 | P&L: -4.2%",
+      "reason": "$Cooked just opened and is only -4.2% with tiny position size (0.05 SOL). Far from -25% stop and not stale yet. The '⚠ HUGE' share % is data noise on a tiny bonding curve where 0.05 SOL is a meaningful fraction of $2.8k mcap depth. Give it time to develop."
     }
   ],
   "trade_stats": {
-    "total": 2442,
+    "total": 2443,
     "wins": 1210,
-    "losses": 1232,
+    "losses": 1233,
     "win_rate_pct": 49.5,
-    "total_pnl_sol": -2.220675,
-    "avg_pnl_pct": 28.8,
+    "total_pnl_sol": -2.222748,
+    "avg_pnl_pct": 28.78,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 65,
-    "today_realized_sol": 0.46464,
-    "today_target_pct": 116.2,
+    "today_trades": 66,
+    "today_realized_sol": 0.462567,
+    "today_target_pct": 115.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1210,
-      "loss_count": 1232,
+      "loss_count": 1233,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T02:12:48.943685+00:00",
+  "last_llm_brief_at": "2026-09-10T02:15:18.416211+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "6vULsmJPCBnMPtEhCvScwu8bDYZZhMi7M1gwmPftpump": {
-      "price_usd": 3.0252722272182505e-06,
+    "HWk9AzieS8NSnU5NWKgLsmgKtemzqAuyaavZ9UEypump": {
+      "price_usd": 2.8244454801510177e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 104.778661844358,
-      "volume_h24": 1508.82,
+      "liquidity_usd": 2.02042e-07,
+      "volume_h24": 1443.82,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.036406871
+      "real_sol_reserves": 2e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

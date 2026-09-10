@@ -17608,3 +17608,6 @@
 ## [2026-09-10 02:12 UTC] buy | [LLM] $Cooked at $2.94887e-06, spent 0.05 SOL
 - **Reasoning:** $Cooked ('Wallahi Im Cooked') has a KTLA news station tweet — real media attention on a 0.7min-old token at $2.9k mcap. Fresh narrative + news pickup is the classic viral-launch setup. Risks: ultra-low mcap = high rug probability; news-driven coins fade fast so I'll watch for the +30% TP trigger.
 
+## [2026-09-10 02:15 UTC] sell | [FULL][LLM] $Cooked at $2.82445e-06 | P&L: -4.2%
+- **Reasoning:** $Cooked just opened and is only -4.2% with tiny position size (0.05 SOL). Far from -25% stop and not stale yet. The '⚠ HUGE' share % is data noise on a tiny bonding curve where 0.05 SOL is a meaningful fraction of $2.8k mcap depth. Give it time to develop.
+
