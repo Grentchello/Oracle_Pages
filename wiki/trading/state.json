@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.336399,
+  "balance_sol": 4.380502,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "ACeGfV2cEcsnLEGqnnF7M87g5r7DUy9nPEM6seAdVQ82": {
       "symbol": "GEPE",
       "name": "Gold Pepe",
-      "amount": 1619048.8308326744,
+      "amount": 42110.437768349664,
       "entry_price_usd": 3.1342476541551822e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.0013004684283269064,
       "entry_time": "2026-09-10T06:19:26.605098+00:00",
       "entry_usd_value": 5.0745000000000005,
-      "last_seen_price_usd": 3.1342476541551822e-06,
+      "last_seen_price_usd": 2.8367714214855566e-06,
       "entry_signals": {
         "liquidity_usd": 67.27544681207999,
         "volume_24h_usd": null,
@@ -43598,19 +43598,30 @@
       "pnl_pct": -74.87,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "ACeGfV2cEcsnLEGqnnF7M87g5r7DUy9nPEM6seAdVQ82",
+      "symbol": "GEPE",
+      "name": "Gold Pepe",
+      "amount_sold": 1576938.3930643247,
+      "fraction_sold": 0.9739906314334619,
+      "entry_time": "2026-09-10T06:19:26.605098+00:00",
+      "exit_time": "2026-09-10T06:21:02.953245+00:00",
+      "entry_price_usd": 3.1342476541551822e-06,
+      "exit_price_usd": 2.8367714214855566e-06,
+      "entry_sol_for_chunk": 0.0487,
+      "exit_sol_received": 0.044103,
+      "pnl_sol": -0.004596,
+      "pnl_pct": -9.49,
+      "exit_reason": "LLM: sell_all — $GEPE just entered at -9.5%, not at -20% loser-exit threshold and not stale yet. The 961% bonding-curve share is a yellow flag but the position needs ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T06:19:26.605275+00:00",
+  "last_updated": "2026-09-10T06:21:02.953489+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.49,
-  "portfolio_value_usd": 445.18,
+  "last_sol_price_usd": 101.43,
+  "portfolio_value_usd": 444.45,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 05:58 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $WOJAK crashed >15% in one tick | P&L: -47.6%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 05:58 UTC",
       "action": "buy",
@@ -43724,40 +43735,46 @@
       "action": "buy",
       "details": "[LLM] $GEPE at $3.13425e-06, spent 0.05 SOL",
       "reason": "Gold Pepe narrative — Pepe variants are the highest-hit-rate memecoin franchise on Solana. Passes viability (desc link + twitter), $3.1k mcap with 0.2min age = maximum upside window, bond still forming so I'm in early. Risk: fresh launch with thin liquidity could rug or stall — auto -25% stop is the backstop."
+    },
+    {
+      "time": "2026-09-10 06:21 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $GEPE at $2.83677e-06 | P&L: -9.5%",
+      "reason": "$GEPE just entered at -9.5%, not at -20% loser-exit threshold and not stale yet. The 961% bonding-curve share is a yellow flag but the position needs a few more minutes to develop before judging."
     }
   ],
   "trade_stats": {
-    "total": 2563,
+    "total": 2564,
     "wins": 1254,
-    "losses": 1309,
+    "losses": 1310,
     "win_rate_pct": 48.9,
-    "total_pnl_sol": 0.12009,
-    "avg_pnl_pct": 29.35,
+    "total_pnl_sol": 0.115494,
+    "avg_pnl_pct": 29.34,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 186,
-    "today_realized_sol": 2.805405,
-    "today_target_pct": 701.4,
+    "today_trades": 187,
+    "today_realized_sol": 2.800809,
+    "today_target_pct": 700.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1254,
-      "loss_count": 1309,
+      "loss_count": 1310,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T06:19:25.280129+00:00",
+  "last_llm_brief_at": "2026-09-10T06:21:02.953051+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "GNSY4C9RUFtQKfh47bsHMsUgiP9By45BCMUuArpLpump": {
-      "price_usd": 2.931079609059922e-06,
+    "ACeGfV2cEcsnLEGqnnF7M87g5r7DUy9nPEM6seAdVQ82": {
+      "price_usd": 2.8367714214855566e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 49.76747247462,
-      "volume_h24": 13514.94,
+      "liquidity_usd": 0.47783074563,
+      "volume_h24": 2286.9,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.490368238
+      "real_sol_reserves": 0.004710941
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
