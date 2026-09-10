@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.238307,
+  "balance_sol": 4.237597,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "Df59kB5nNhWuMsB1DqktGJNQq37AQhstAGy2mSb3pump": {
-      "symbol": "Solana Sum",
-      "name": "Solana Summit⁠",
-      "amount": 1762926.486106226,
-      "entry_price_usd": 2.843e-06,
+    "AErB2aUNn8vUdBtysMtDNcCgP5sCSQ5aqFfbST1jpump": {
+      "symbol": "iCat",
+      "name": "iCat",
+      "amount": 433969.32905274775,
+      "entry_price_usd": 1.1560724834980673e-05,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T17:23:09.344149+00:00",
-      "entry_usd_value": 5.0120000000000005,
-      "last_seen_price_usd": 2.843e-06,
+      "entry_time": "2026-09-10T17:24:38.437298+00:00",
+      "entry_usd_value": 5.017,
+      "last_seen_price_usd": 1.1560724834980673e-05,
       "entry_signals": {
-        "liquidity_usd": 43.1187562456,
-        "volume_24h_usd": 27.21,
-        "market_cap_usd": 2850.335299275792,
-        "ath_market_cap_usd": 2850.335299275792,
+        "liquidity_usd": 177.43648593674,
+        "volume_24h_usd": null,
+        "market_cap_usd": 11508.877852962123,
+        "ath_market_cap_usd": 13415.031648571376,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.43015519,
+        "real_sol_reserves": 1.768352461,
         "description": "",
-        "twitter": "https://x.com/toly/status/2098099328984535072",
+        "twitter": "https://x.com/icatsbot",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -48409,25 +48409,30 @@
       "pnl_pct": -0.03,
       "exit_reason": "LLM: sell_all — $Duffies is at break-even, just entered. No movement to act on yet. Give it a few minutes for the bonding curve to develop before judging.",
       "partial": false
+    },
+    {
+      "mint": "Df59kB5nNhWuMsB1DqktGJNQq37AQhstAGy2mSb3pump",
+      "symbol": "Solana Sum",
+      "name": "Solana Summit⁠",
+      "amount_sold": 1762926.4503395592,
+      "fraction_sold": 0.999999979711765,
+      "entry_time": "2026-09-10T17:23:09.344149+00:00",
+      "exit_time": "2026-09-10T17:24:37.080431+00:00",
+      "entry_price_usd": 2.843e-06,
+      "exit_price_usd": 2.80540540577946e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.04929,
+      "pnl_sol": -0.00071,
+      "pnl_pct": -1.32,
+      "exit_reason": "LLM: sell_all — Down 1.3% already with pool=$0 and our share=1232241253% (math is degenerate, but the position is illiquid). Bonding curve only, no real pool liquidit",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T17:23:09.344330+00:00",
+  "last_updated": "2026-09-10T17:24:38.437543+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.24,
-  "portfolio_value_usd": 429.86,
+  "last_sol_price_usd": 100.34,
+  "portfolio_value_usd": 430.22,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 17:02 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $grief at $2.79485e-06 | P&L: -1.8%",
-      "reason": "Just entered 0.0h ago, only -1.8%. Not stale, not at stop. 1446% pool share is a flag but bonding curve is still 0% — let it develop before judging."
-    },
-    {
-      "time": "2026-09-10 17:04 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $grief at $2.79457e-06 | P&L: -1.8%",
-      "reason": "Rotating out of $grief (-1.8%, no clear catalyst or viral narrative) to free the slot for a stronger narrative play. Small loss, better to redeploy capital into fresh attention."
-    },
     {
       "time": "2026-09-10 17:04 UTC",
       "action": "buy",
@@ -48535,30 +48540,54 @@
       "action": "buy",
       "details": "[LLM] $Solana Sum at $2.843e-06, spent 0.05 SOL",
       "reason": "Toly (Solana co-founder) posted about it — rare top-tier catalyst that historically drives 2-10x pumps in first hour. Mcap $2,850 + 1% bond = thin but the narrative is the strongest in this batch. $5 position (0.05 SOL) caps downside; if it doesn't move in 15 min, exit as stale."
+    },
+    {
+      "time": "2026-09-10 17:24 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Solana Sum at $2.80541e-06 | P&L: -1.3%",
+      "reason": "Down 1.3% already with pool=$0 and our share=1232241253% (math is degenerate, but the position is illiquid). Bonding curve only, no real pool liquidity to exit at any size, and age=0h with no momentum. Cut this immediately and free the slot."
+    },
+    {
+      "time": "2026-09-10 17:24 UTC",
+      "action": "buy",
+      "details": "[LLM] $iCat at $1.15607e-05, spent 0.05 SOL",
+      "reason": "$iCat — fresh 0.3min launch, $11.5k mcap, has a real X account (@icatsbot), bonding curve already 34% (showing real inflow). Cat mascot tokens historically get traction; cheapest of the fresh attention plays with a dedicated social. Risk: very new, but the entry is small."
     }
   ],
   "trade_stats": {
-    "total": 2846,
+    "total": 2847,
     "wins": 1360,
-    "losses": 1486,
+    "losses": 1487,
     "win_rate_pct": 47.8,
-    "total_pnl_sol": 0.022065,
-    "avg_pnl_pct": 26.61,
+    "total_pnl_sol": 0.021355,
+    "avg_pnl_pct": 26.6,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 469,
-    "today_realized_sol": 2.70738,
-    "today_target_pct": 676.8,
+    "today_trades": 470,
+    "today_realized_sol": 2.70667,
+    "today_target_pct": 676.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1360,
-      "loss_count": 1486,
+      "loss_count": 1487,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T17:23:07.957943+00:00",
+  "last_llm_brief_at": "2026-09-10T17:24:37.079608+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Df59kB5nNhWuMsB1DqktGJNQq37AQhstAGy2mSb3pump": {
+      "price_usd": 2.80540540577946e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4.0136000000000004e-07,
+      "volume_h24": 85.96,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
