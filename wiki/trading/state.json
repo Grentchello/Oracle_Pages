@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.241843,
+  "balance_sol": 4.294736,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7X97vGMLjxyYDwspjX6V6zrcCDo2P7GsefUjnVqppump": {
-      "symbol": "KREX",
-      "name": "Kirkosaurus Rex",
-      "amount": 1401737.668161435,
-      "entry_price_usd": 3.568e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T16:52:07.930040+00:00",
-      "entry_usd_value": 5.0014,
-      "last_seen_price_usd": 3.568e-06,
-      "entry_signals": {
-        "liquidity_usd": 458.011664568016,
-        "volume_24h_usd": 413.92,
-        "market_cap_usd": 3617.3406249229997,
-        "ath_market_cap_usd": 3617.3406249229997,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.578834572,
-        "description": "The ultimate Kirkosaurus has arrived. Big teeth. Bigger conviction. The Kirk era is prehistoric. 🦖",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -48171,19 +48147,30 @@
       "pnl_pct": -65.77,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "7X97vGMLjxyYDwspjX6V6zrcCDo2P7GsefUjnVqppump",
+      "symbol": "KREX",
+      "name": "Kirkosaurus Rex",
+      "amount_sold": 1401737.668161435,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T16:52:07.930040+00:00",
+      "exit_time": "2026-09-10T16:53:30.609786+00:00",
+      "entry_price_usd": 3.568e-06,
+      "exit_price_usd": 3.770715398326123e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.052893,
+      "pnl_sol": 0.002893,
+      "pnl_pct": 5.68,
+      "exit_reason": "LLM: sell_all — KREX is +5.7% on a fresh entry with 0.0h held, well below TP thresholds and no reason to bail on a green position. Bonding curve pool at $485 is tight",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T16:52:07.930361+00:00",
+  "last_updated": "2026-09-10T16:53:30.610619+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.028,
-  "portfolio_value_usd": 429.3,
+  "last_sol_price_usd": 99.93,
+  "portfolio_value_usd": 429.17,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 16:20 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $WIFWIF at $0.000442188 | P&L: -2.3%",
-      "reason": "Just entered 0.0h ago, -2.3% is noise on a bonding-curve sniper. Not stale, not at stop. Let the narrative develop for at least 15-30 min before reassessing."
-    },
     {
       "time": "2026-09-10 16:23 UTC",
       "action": "buy",
@@ -48297,30 +48284,48 @@
       "action": "buy",
       "details": "[LLM] $KREX at $3.568e-06, spent 0.05 SOL",
       "reason": "$KREX extends the active Kirk meme with a dinosaur twist ('Kirkosaurus') at<2min age — clear narrative, 50+ char desc, no political-figure keyword, attention is hot right now. Risk: mcap $3.6k means liquidity is razor-thin, position size must respect liquidity gate."
+    },
+    {
+      "time": "2026-09-10 16:53 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $KREX at $3.77072e-06 | P&L: +5.7%",
+      "reason": "KREX is +5.7% on a fresh entry with 0.0h held, well below TP thresholds and no reason to bail on a green position. Bonding curve pool at $485 is tight but meets 5x min for a 0.05 SOL position."
     }
   ],
   "trade_stats": {
-    "total": 2832,
-    "wins": 1353,
+    "total": 2833,
+    "wins": 1354,
     "losses": 1479,
     "win_rate_pct": 47.8,
-    "total_pnl_sol": 0.025601,
-    "avg_pnl_pct": 26.75,
+    "total_pnl_sol": 0.028494,
+    "avg_pnl_pct": 26.74,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 455,
-    "today_realized_sol": 2.710916,
-    "today_target_pct": 677.7,
+    "today_trades": 456,
+    "today_realized_sol": 2.713809,
+    "today_target_pct": 678.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1353,
+      "win_count": 1354,
       "loss_count": 1479,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T16:52:06.607024+00:00",
+  "last_llm_brief_at": "2026-09-10T16:53:30.609181+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "7X97vGMLjxyYDwspjX6V6zrcCDo2P7GsefUjnVqppump": {
+      "price_usd": 3.770715398326123e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 484.83402924444005,
+      "volume_h24": 496.48,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4.851736508
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

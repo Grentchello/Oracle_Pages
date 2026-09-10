@@ -19753,3 +19753,6 @@
 ## [2026-09-10 16:52 UTC] buy | [LLM] $KREX at $3.568e-06, spent 0.05 SOL
 - **Reasoning:** $KREX extends the active Kirk meme with a dinosaur twist ('Kirkosaurus') at<2min age — clear narrative, 50+ char desc, no political-figure keyword, attention is hot right now. Risk: mcap $3.6k means liquidity is razor-thin, position size must respect liquidity gate.
 
+## [2026-09-10 16:53 UTC] sell | [FULL][LLM] $KREX at $3.77072e-06 | P&L: +5.7%
+- **Reasoning:** KREX is +5.7% on a fresh entry with 0.0h held, well below TP thresholds and no reason to bail on a green position. Bonding curve pool at $485 is tight but meets 5x min for a 0.05 SOL position.
+
