@@ -19456,3 +19456,9 @@
 ## [2026-09-10 14:45 UTC] buy | [LLM] $ZYLSSG at $4.12961e-06, spent 0.05 SOL
 - **Reasoning:** $ZYLSSG (I Ching / 周易六十四卦) is the strongest narrative in the batch — merging 3000-year Chinese metaphysics with Web3 architecture is a fresh cultural meme that resonates with a massive Chinese-speaking crypto audience. 0.1 min old, mcap $4k, bond 15% (just crossing early liquidity). Risks: very early, bond not complete, illiquid — but at 0.05 SOL position size and a real story, the attention asymmetry favors entry.
 
+## [2026-09-10 14:46 UTC] sell | [rapid-drop] $ZYLSSG crashed >15% in one tick | P&L: -32.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 14:46 UTC] buy | [LLM] $WAVEKIRK at $2.84109e-06, spent 0.05 SOL
+- **Reasoning:** $WAVEKIRK — 'KIRKROWAVE' riding the Kirk memecoin meta that has been pumping hard recently. Story is simple and memeable (Kirk is gonna cook), fresh launch, $2.8k mcap = ground floor if it catches the wave.
+
