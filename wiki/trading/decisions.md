@@ -18841,3 +18841,6 @@
 ## [2026-09-10 10:29 UTC] buy | [LLM] $pemp at $5.35346e-06, spent 0.05 SOL
 - **Reasoning:** $pemp (pempfen) — freshest launch with a live X attention link from @chillmigratoor, mcap only $5.3k = max upside runway. Nonsense-name memecoins with any attached social signal pump hard in the first 5-15 min. Viability passes (twitter link present).
 
+## [2026-09-10 10:30 UTC] sell | [rapid-drop] $pemp crashed >15% in one tick | P&L: -47.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

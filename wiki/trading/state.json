@@ -1,32 +1,8 @@
 {
-  "balance_sol": 5.028216,
+  "balance_sol": 5.054633,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "G72P6pAjQUkvs3kF8SReKi6qCreQFLrjXnMvWszwpump": {
-      "symbol": "pemp",
-      "name": "pempfen",
-      "amount": 943856.8746221157,
-      "entry_price_usd": 5.353459974557042e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T10:29:25.424711+00:00",
-      "entry_usd_value": 5.052900000000001,
-      "last_seen_price_usd": 5.353459974557042e-06,
-      "entry_signals": {
-        "liquidity_usd": 131.43895002012601,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5355.684888160432,
-        "ath_market_cap_usd": 5810.175044958972,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.300628847,
-        "description": "",
-        "twitter": "https://x.com/chillmigratoor/status/2097995656820351319",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45400,19 +45376,30 @@
       "pnl_pct": 37.71,
       "exit_reason": "LLM: sell_all — Up +37.7% in <1 min on a $3.5k pool with our share showing 0% — classic bonding-curve pump that's likely to give back gains fast. Lock the 37% before ",
       "partial": false
+    },
+    {
+      "mint": "G72P6pAjQUkvs3kF8SReKi6qCreQFLrjXnMvWszwpump",
+      "symbol": "pemp",
+      "name": "pempfen",
+      "amount_sold": 943856.8746221157,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T10:29:25.424711+00:00",
+      "exit_time": "2026-09-10T10:30:29.352495+00:00",
+      "entry_price_usd": 5.353459974557042e-06,
+      "exit_price_usd": 2.830772287528703e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.026417,
+      "pnl_sol": -0.023583,
+      "pnl_pct": -47.12,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T10:29:25.424998+00:00",
+  "last_updated": "2026-09-10T10:31:01.204339+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.058,
-  "portfolio_value_usd": 513.19,
+  "last_sol_price_usd": 101.14,
+  "portfolio_value_usd": 511.23,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 10:05 UTC",
-      "action": "buy",
-      "details": "[LLM] $rice at $3.02122e-06, spent 0.05 SOL",
-      "reason": "$rice has a Cointelegraph X post attached — institutional crypto media attention on a 0.3min launch is rare and '1 grain of rice' has infinite-meme ceiling. Fresh, narrative-strong, viability passes (twitter present)."
-    },
     {
       "time": "2026-09-10 10:07 UTC",
       "action": "sell",
@@ -45526,30 +45513,48 @@
       "action": "buy",
       "details": "[LLM] $pemp at $5.35346e-06, spent 0.05 SOL",
       "reason": "$pemp (pempfen) — freshest launch with a live X attention link from @chillmigratoor, mcap only $5.3k = max upside runway. Nonsense-name memecoins with any attached social signal pump hard in the first 5-15 min. Viability passes (twitter link present)."
+    },
+    {
+      "time": "2026-09-10 10:30 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $pemp crashed >15% in one tick | P&L: -47.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2669,
+    "total": 2670,
     "wins": 1300,
-    "losses": 1369,
+    "losses": 1370,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.811929,
-    "avg_pnl_pct": 28.83,
+    "total_pnl_sol": 0.788346,
+    "avg_pnl_pct": 28.8,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 292,
-    "today_realized_sol": 3.497244,
-    "today_target_pct": 874.3,
+    "today_trades": 293,
+    "today_realized_sol": 3.473661,
+    "today_target_pct": 868.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1300,
-      "loss_count": 1369,
+      "loss_count": 1370,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:29:23.927072+00:00",
+  "last_llm_brief_at": "2026-09-10T10:31:01.204294+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "G72P6pAjQUkvs3kF8SReKi6qCreQFLrjXnMvWszwpump": {
+      "price_usd": 2.830772287528703e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.60890700308,
+      "volume_h24": 4385.84,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.015907722
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
