@@ -18460,3 +18460,9 @@
 ## [2026-09-10 07:33 UTC] buy | [LLM] $Normie at $3.972e-06, spent 0.05 SOL
 - **Reasoning:** $Normie has a relatable meta-narrative ('The Normie' — ironic self-aware meme for retail), viral X link from a crypto-native account, and sub-1min freshness with $4.5k mcap. Early attention signal is real; size is 0.05 SOL per scalp rules.
 
+## [2026-09-10 07:35 UTC] sell | [FULL][LLM] $Normie at $4.31572e-06 | P&L: +8.7%
+- **Reasoning:** $Normie is up +8.7% on thin $717 pool with1% share — early in the move but not yet at the +20% profit-taking threshold. Letting it breathe a few more minutes to see if narrative momentum builds before locking gains.
+
+## [2026-09-10 07:35 UTC] buy | [LLM] $NEVER at $6.00757e-06, spent 0.05 SOL
+- **Reasoning:** $NEVER (Never Kill Yourself) has the most viral-narrative name in this batch — dark-humor attention tokens historically2-5x quickly on X traction. $6k mcap with 24% bonding curve progress = very early, attention coin with real story potential. Risk: edgy name may get flagged/delisted fast, so this is a fast-flip scalp.
+
