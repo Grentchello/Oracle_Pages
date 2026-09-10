@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.138334,
+  "balance_sol": 4.188331,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FLonQbLLeTpTHMHAg91F3jXmKyvGhnVEr5x2tqzco3Kq": {
-      "symbol": "BOB",
-      "name": "Bitcoin Bob",
-      "amount": 9777590701.108334,
-      "entry_price_usd": 5.167275001015633e-10,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T07:44:35.425299+00:00",
-      "entry_usd_value": 5.052350000000001,
-      "last_seen_price_usd": 5.167275001015633e-10,
-      "entry_signals": {
-        "liquidity_usd": 0.001024515533,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3982.487041018815,
-        "ath_market_cap_usd": 3982.487041018815,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.0139e-05,
-        "description": "Created on https://rapidlaunch.io",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44278,19 +44254,30 @@
       "pnl_pct": -12.91,
       "exit_reason": "LLM: sell_all — $BOB is held for 0.0h (just entered), down -12.9% which is well above the -25% hard stop. Bonding curve pool is tiny ($2.7k) — this is the slot the bo",
       "partial": false
+    },
+    {
+      "mint": "FLonQbLLeTpTHMHAg91F3jXmKyvGhnVEr5x2tqzco3Kq",
+      "symbol": "BOB",
+      "name": "Bitcoin Bob",
+      "amount_sold": 9777095026.147741,
+      "fraction_sold": 0.999949305,
+      "entry_time": "2026-09-10T07:44:35.425299+00:00",
+      "exit_time": "2026-09-10T07:46:12.561644+00:00",
+      "entry_price_usd": 5.167275001015633e-10,
+      "exit_price_usd": 5.16436017251941e-10,
+      "entry_sol_for_chunk": 0.049997,
+      "exit_sol_received": 0.049997,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.06,
+      "exit_reason": "LLM: sell_all — Just opened 0.0h ago, basically flat (-0.1%). Not stale yet, no reason to exit at break-even. Give it a few minutes to develop.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T07:44:35.425521+00:00",
+  "last_updated": "2026-09-10T07:46:12.561831+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.047,
-  "portfolio_value_usd": 423.22,
+  "last_sol_price_usd": 100.99,
+  "portfolio_value_usd": 422.98,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 07:24 UTC",
-      "action": "buy",
-      "details": "[LLM] $STOCKPACKS at $9.25e-06, spent 0.05 SOL",
-      "reason": "$STOCKPACKS has the freshest attention: fastest bonding curve (32% in <1min), real Twitter handle (StockPacksPF), sub-$10k mcap with a clean collectible/trading-card meta narrative — 'StockPacks' reads as a brandable meme, not a derivative. Best risk/reward in the batch."
-    },
     {
       "time": "2026-09-10 07:26 UTC",
       "action": "sell",
@@ -44404,40 +44391,46 @@
       "action": "buy",
       "details": "[LLM] $BOB at $5.16728e-10, spent 0.05 SOL",
       "reason": "$BOB 'Bitcoin Bob' on rapidlaunch.io — Bitcoin-themed mascot is the cleanest attention narrative in this batch. Bitcoin Bob (the cartoon Bob character) already has organic meme recognition. At $4k mcap with 0.0min age, this is the highest-conviction fresh launch. Taking the position despite rapidlaunch origin because Bitcoin mascots have proven viral legs (BTC frog, BTC pepe, etc). Risk: rapidlaunch rug/bundler exposure per ME2F."
+    },
+    {
+      "time": "2026-09-10 07:46 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BOB at $5.16436e-10 | P&L: -0.1%",
+      "reason": "Just opened 0.0h ago, basically flat (-0.1%). Not stale yet, no reason to exit at break-even. Give it a few minutes to develop."
     }
   ],
   "trade_stats": {
-    "total": 2603,
+    "total": 2604,
     "wins": 1263,
-    "losses": 1340,
+    "losses": 1341,
     "win_rate_pct": 48.5,
     "total_pnl_sol": -0.077959,
-    "avg_pnl_pct": 28.74,
+    "avg_pnl_pct": 28.73,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 226,
+    "today_trades": 227,
     "today_realized_sol": 2.607356,
     "today_target_pct": 651.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1263,
-      "loss_count": 1340,
+      "loss_count": 1341,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T07:44:34.079547+00:00",
+  "last_llm_brief_at": "2026-09-10T07:46:12.560845+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5ryQY5HjyMM4MnRxb8FeoEsvhranUR52SKDAWy3zpump": {
-      "price_usd": 1.0207306970180834e-05,
+    "FLonQbLLeTpTHMHAg91F3jXmKyvGhnVEr5x2tqzco3Kq": {
+      "price_usd": 5.16436017251941e-10,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2730.6501780115377,
-      "volume_h24": 23842.93,
+      "liquidity_usd": 0.00102393761,
+      "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 27.023565054
+      "real_sol_reserves": 1.0139e-05
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

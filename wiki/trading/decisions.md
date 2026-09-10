@@ -18493,3 +18493,6 @@
 ## [2026-09-10 07:44 UTC] buy | [LLM] $BOB at $5.16728e-10, spent 0.05 SOL
 - **Reasoning:** $BOB 'Bitcoin Bob' on rapidlaunch.io — Bitcoin-themed mascot is the cleanest attention narrative in this batch. Bitcoin Bob (the cartoon Bob character) already has organic meme recognition. At $4k mcap with 0.0min age, this is the highest-conviction fresh launch. Taking the position despite rapidlaunch origin because Bitcoin mascots have proven viral legs (BTC frog, BTC pepe, etc). Risk: rapidlaunch rug/bundler exposure per ME2F.
 
+## [2026-09-10 07:46 UTC] sell | [FULL][LLM] $BOB at $5.16436e-10 | P&L: -0.1%
+- **Reasoning:** Just opened 0.0h ago, basically flat (-0.1%). Not stale yet, no reason to exit at break-even. Give it a few minutes to develop.
+
