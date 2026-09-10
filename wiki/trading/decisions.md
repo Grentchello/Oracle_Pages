@@ -18466,3 +18466,9 @@
 ## [2026-09-10 07:35 UTC] buy | [LLM] $NEVER at $6.00757e-06, spent 0.05 SOL
 - **Reasoning:** $NEVER (Never Kill Yourself) has the most viral-narrative name in this batch — dark-humor attention tokens historically2-5x quickly on X traction. $6k mcap with 24% bonding curve progress = very early, attention coin with real story potential. Risk: edgy name may get flagged/delisted fast, so this is a fast-flip scalp.
 
+## [2026-09-10 07:36 UTC] sell | [rapid-drop] $NEVER crashed >15% in one tick | P&L: -52.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 07:36 UTC] buy | [LLM] $puh at $6.281e-06, spent 0.05 SOL
+- **Reasoning:** $PUH at $5.8k mcap, brand new (0.8min), has an X post attached. Simple memorable name with attention hook. Viability gate passes (twitter present). Fragility gate passes (no flagged keywords). 0.1 SOL position.
+
