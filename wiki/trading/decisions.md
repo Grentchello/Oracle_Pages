@@ -18655,3 +18655,6 @@
 ## [2026-09-10 08:52 UTC] sell | [FULL][LLM] $DINOBOO at $4.86778e-06 | P&L: +14.8%
 - **Reasoning:** Locking +14.8% gain before it reverses. Pool is tiny ($946) and bonding-curve tokens stall fast; better to rotate capital into a stronger fresh launch than hope for more upside here. Frees the 1-position slot.
 
+## [2026-09-10 08:58 UTC] buy | [LLM] $Hand at $4.156e-06, spent 0.05 SOL
+- **Reasoning:** $Hand has explicit X engagement (twitter link to memedevfun status), fresh 0.9min age, $4.6k mcap = bottom of bonding curve, no celebrity/political fragility flags. Hand/cursor memes have viral potential on CT.
+
