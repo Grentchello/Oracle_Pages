@@ -19573,3 +19573,6 @@
 ## [2026-09-10 15:30 UTC] buy | [LLM] $face at $4.5372e-06, spent 0.05 SOL
 - **Reasoning:** $face — 0.1 min old, lowest bond completion in batch, dedicated @pumpfacey X handle + 'pump face' name = clear micro-meme narrative. Freshest token with both name-hook and social signal; classic 10x-in-first-hour setup if attention catches.
 
+## [2026-09-10 15:31 UTC] sell | [rapid-drop] $face crashed >15% in one tick | P&L: -38.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
