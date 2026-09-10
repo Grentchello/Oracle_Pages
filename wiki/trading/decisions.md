@@ -18709,3 +18709,6 @@
 ## [2026-09-10 09:25 UTC] sell | [rapid-drop] $STOMP crashed >15% in one tick | P&L: -86.2%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 09:28 UTC] buy | [LLM] $BetOnBlak at $3.53402e-06, spent 0.05 SOL
+- **Reasoning:** $BetOnBlack at $3.5k mcap with a clean gambling tagline 'put the house on black' has attention narrative potential and ultra-low entry. Gambling/casino meta works on memecoins. Small position for asymmetric upside.
+
