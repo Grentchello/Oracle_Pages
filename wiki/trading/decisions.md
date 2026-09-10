@@ -18778,3 +18778,9 @@
 ## [2026-09-10 10:04 UTC] sell | [PARTIAL][LLM] $McRib at $1.61191e-07 | P&L: +0.2%
 - **Reasoning:** $McRib is flat at +0.2% just seconds after entry with no directional signal; selling a 0-minute-old position to rotate would be churn. Let the -25% hard stop or TP levels do their job — next tick will give it a chance to develop.
 
+## [2026-09-10 10:05 UTC] sell | [FULL][LLM] $McRib at $1.62785e-07 | P&L: +1.2%
+- **Reasoning:** Flat at +1.2% after 6 minutes, bonding-curve with 20% share is illiquid and won't pump from here. Slot is better used on fresh attention launches (rice/MIAURA/DERP have real X signals). Lock tiny gain, rotate.
+
+## [2026-09-10 10:05 UTC] buy | [LLM] $rice at $3.02122e-06, spent 0.05 SOL
+- **Reasoning:** $rice has a Cointelegraph X post attached — institutional crypto media attention on a 0.3min launch is rare and '1 grain of rice' has infinite-meme ceiling. Fresh, narrative-strong, viability passes (twitter present).
+

@@ -1,27 +1,27 @@
 {
-  "balance_sol": 5.066954,
+  "balance_sol": 5.025131,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "7itnwDefBG4kkyxkMbbfJnSqkqXgvZjXhECGzb1wpump": {
-      "symbol": "McRib",
-      "name": "The McRib",
-      "amount": 5083612.267910054,
-      "entry_price_usd": 1.6089566210247572e-07,
-      "entry_sol_spent": 0.008090318117879886,
-      "entry_time": "2026-09-10T10:02:11.000783+00:00",
-      "entry_usd_value": 5.055,
-      "last_seen_price_usd": 1.6119115249851277e-07,
+    "G1HCzLregdFqCz2BnjwxGzouV5fbWSF5FxeQWe1upump": {
+      "symbol": "rice",
+      "name": "1 grain of rice",
+      "amount": 1674817.897968867,
+      "entry_price_usd": 3.0212239827007507e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T10:05:32.480712+00:00",
+      "entry_usd_value": 5.0600000000000005,
+      "last_seen_price_usd": 3.0212239827007507e-06,
       "entry_signals": {
-        "liquidity_usd": 3.2350060901999997,
+        "liquidity_usd": 1.012e-07,
         "volume_24h_usd": null,
-        "market_cap_usd": 4133.402476423652,
-        "ath_market_cap_usd": 4133.402476423652,
+        "market_cap_usd": 3022.1196024584683,
+        "ath_market_cap_usd": 3098.5515981233348,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.031998082,
-        "description": "the one and only $McRib",
-        "twitter": "",
+        "real_sol_reserves": 1e-09,
+        "description": "",
+        "twitter": "https://x.com/Cointelegraph/status/2097989072278913426",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -45196,25 +45196,30 @@
       "pnl_pct": 0.18,
       "exit_reason": "LLM: sell_all — $McRib is flat at +0.2% just seconds after entry with no directional signal; selling a 0-minute-old position to rotate would be churn. Let the -25% ha",
       "partial": true
+    },
+    {
+      "mint": "7itnwDefBG4kkyxkMbbfJnSqkqXgvZjXhECGzb1wpump",
+      "symbol": "McRib",
+      "name": "The McRib",
+      "amount_sold": 5083612.267910054,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T10:02:11.000783+00:00",
+      "exit_time": "2026-09-10T10:05:31.133445+00:00",
+      "entry_price_usd": 1.6089566210247572e-07,
+      "exit_price_usd": 1.6278469522781723e-07,
+      "entry_sol_for_chunk": 0.00809,
+      "exit_sol_received": 0.008177,
+      "pnl_sol": 8.7e-05,
+      "pnl_pct": 1.17,
+      "exit_reason": "LLM: sell_all — Flat at +1.2% after 6 minutes, bonding-curve with 20% share is illiquid and won't pump from here. Slot is better used on fresh attention launches (ric",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T10:04:08.843060+00:00",
+  "last_updated": "2026-09-10T10:05:32.480972+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.24,
-  "portfolio_value_usd": 513.8,
+  "last_sol_price_usd": 101.2,
+  "portfolio_value_usd": 513.6,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 09:34 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BetOnBlak at $4.03151e-06 | P&L: +14.1%",
-      "reason": "Pool is $1 with my 17% share — position is effectively illiquid and the +14% is unrealizable. Freeing the slot to rotate into a better-narrative candidate (Nasdaq6900 with verified twitter handle) is higher EV than waiting for the bot's auto-exit."
-    },
-    {
-      "time": "2026-09-10 09:38 UTC",
-      "action": "buy",
-      "details": "[LLM] $ZLION at $3.48132e-08, spent 0.05 SOL",
-      "reason": "$ZLION has its own dedicated @ZLIONonSOL twitter account (not just a one-off post) and is the highest-mcap fresh launch at $4.2k — both signs of pre-existing attention rather than pure pump-and-dump. ZCash-Lion mashup has a clear narrative hook. Risks: still tiny mcap, bond only 1%, viability gate may fail since description is short — if skipped by gates, no trade."
-    },
     {
       "time": "2026-09-10 09:40 UTC",
       "action": "sell",
@@ -45322,40 +45327,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $McRib at $1.61191e-07 | P&L: +0.2%",
       "reason": "$McRib is flat at +0.2% just seconds after entry with no directional signal; selling a 0-minute-old position to rotate would be churn. Let the -25% hard stop or TP levels do their job — next tick will give it a chance to develop."
+    },
+    {
+      "time": "2026-09-10 10:05 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $McRib at $1.62785e-07 | P&L: +1.2%",
+      "reason": "Flat at +1.2% after 6 minutes, bonding-curve with 20% share is illiquid and won't pump from here. Slot is better used on fresh attention launches (rice/MIAURA/DERP have real X signals). Lock tiny gain, rotate."
+    },
+    {
+      "time": "2026-09-10 10:05 UTC",
+      "action": "buy",
+      "details": "[LLM] $rice at $3.02122e-06, spent 0.05 SOL",
+      "reason": "$rice has a Cointelegraph X post attached — institutional crypto media attention on a 0.3min launch is rare and '1 grain of rice' has infinite-meme ceiling. Fresh, narrative-strong, viability passes (twitter present)."
     }
   ],
   "trade_stats": {
-    "total": 2657,
-    "wins": 1295,
+    "total": 2658,
+    "wins": 1296,
     "losses": 1362,
-    "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.808755,
-    "avg_pnl_pct": 28.95,
+    "win_rate_pct": 48.8,
+    "total_pnl_sol": 0.808842,
+    "avg_pnl_pct": 28.94,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 280,
-    "today_realized_sol": 3.49407,
+    "today_trades": 281,
+    "today_realized_sol": 3.494157,
     "today_target_pct": 873.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1295,
+      "win_count": 1296,
       "loss_count": 1362,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:04:08.842614+00:00",
+  "last_llm_brief_at": "2026-09-10T10:05:31.133397+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7itnwDefBG4kkyxkMbbfJnSqkqXgvZjXhECGzb1wpump": {
-      "price_usd": 1.6119115249851277e-07,
+      "price_usd": 1.6278469522781723e-07,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3.2777332812799997,
+      "liquidity_usd": 4.1461299968,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.032375872
+      "real_sol_reserves": 0.040969664
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
