@@ -19927,3 +19927,6 @@
 ## [2026-09-10 18:02 UTC] buy | [LLM] $LCG at $2.874e-06, spent 0.05 SOL
 - **Reasoning:** $LCG tied to NY Post legal drama — real mainstream news attention, controversy drives memecoin pumps. $2.8k mcap is early, narrative is concrete and shareable.
 
+## [2026-09-10 18:04 UTC] sell | [FULL][LLM] $LCG at $2.85369e-06 | P&L: -0.7%
+- **Reasoning:** $LCG is essentially flat at -0.7% just opened, on bonding curve with $35 pool. No reason to exit at break-even with zero hold time — let it develop a few minutes before judging.
+
