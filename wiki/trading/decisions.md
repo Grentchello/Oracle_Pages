@@ -19996,3 +19996,9 @@
 ## [2026-09-10 18:27 UTC] buy | [LLM] $$1 stock at $2.998e-06, spent 0.05 SOL
 - **Reasoning:** $$1 stock has the strongest attention narrative of the batch — 'Just Buy $1' is a self-aware viral meta that's been running on CT. Bond 22% (highest among non-blocked picks) shows real inflow, mcap $5.5k leaves huge room. 0.05 SOL position keeps risk tight.
 
+## [2026-09-10 18:28 UTC] sell | [FULL][LLM] $$1 stock at $2.94894e-06 | P&L: -1.6%
+- **Reasoning:** Marginal '$$1 stock' narrative with no Twitter, only $84 pool (our 6% share dominates), down 1.6% with no volume signal — frees the slot for a stronger fresh launch.
+
+## [2026-09-10 18:28 UTC] buy | [LLM] $KekiusBot at $3.21007e-06, spent 0.05 SOL
+- **Reasoning:** $KekiusBot rides the Kekius/Pepe-AI cult narrative which has a history of viral pumps, and it has a real Twitter link (dev_pscl) at 0.6min — fresher and more narrative-driven than the rest of the field.
+
