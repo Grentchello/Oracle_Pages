@@ -18931,3 +18931,9 @@
 ## [2026-09-10 11:05 UTC] buy | [LLM] $TripleS at $1.039e-05, spent 0.05 SOL
 - **Reasoning:** $TripleS 'Sydney Sydney Sydney Sah' is a viral repetitive meme-name format with twitter presence, $15.9k mcap (room to run), and bond 37% showing real buy pressure. Meme format names pump hard on attention; this is a small-cap narrative play at 0.05 SOL.
 
+## [2026-09-10 11:06 UTC] sell | [v8.7 TP +50% (full)] $TripleS at $2.77236e-05 | P&L: +166.8%
+- **Reasoning:** Auto take-profit at +166.8%
+
+## [2026-09-10 11:07 UTC] buy | [LLM] $소라나 at $3.04677e-06, spent 0.05 SOL
+- **Reasoning:** $소라나: Solana official Twitter account endorsing a Korean-language Sorana/Solana transliteration at $3k mcap is a top-tier attention signal — chain-level endorsement + Korean memecoin community wave. Highest narrative upside of the slate. Liquidity is the risk ($3k mcap can drain fast), but that's where 50-300% first-hour pumps originate. Position 0.1 SOL.
+
