@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.614316,
+  "balance_sol": 4.664492,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FVP2NZHpNwMdwkULZt68Peq16Aeiz3fdGj6G9xP2LC62": {
-      "symbol": "CABAL",
-      "name": "cabal",
-      "amount": 1759683.0985915496,
-      "entry_price_usd": 2.84e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T14:22:41.974297+00:00",
-      "entry_usd_value": 4.9975000000000005,
-      "last_seen_price_usd": 2.84e-06,
-      "entry_signals": {
-        "liquidity_usd": 29.614815185,
-        "volume_24h_usd": 143.83,
-        "market_cap_usd": 2837.9658755008627,
-        "ath_market_cap_usd": 2947.16998503809,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.2962963,
-        "description": "cabal is the word every trench already uses — and it still does not have a runner. everyone knows what it means. nobody owns it. https://x.com/kumar1_88/status/2098054195773636688",
-        "twitter": "https://x.com/kumar1_88/status/2098054195773636688",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -47083,19 +47059,30 @@
       "pnl_pct": 71.56,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "FVP2NZHpNwMdwkULZt68Peq16Aeiz3fdGj6G9xP2LC62",
+      "symbol": "CABAL",
+      "name": "cabal",
+      "amount_sold": 1759683.0985915496,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T14:22:41.974297+00:00",
+      "exit_time": "2026-09-10T14:23:58.764266+00:00",
+      "entry_price_usd": 2.84e-06,
+      "exit_price_usd": 2.851684858349942e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050176,
+      "pnl_sol": 0.000176,
+      "pnl_pct": 0.41,
+      "exit_reason": "LLM: sell_all — Just entered (+0.4%), bonding curve only 17% filled means still early. No reason to exit, give it time to develop.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T14:22:41.974526+00:00",
+  "last_updated": "2026-09-10T14:23:58.764947+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.95,
-  "portfolio_value_usd": 466.2,
+  "last_sol_price_usd": 100.01,
+  "portfolio_value_usd": 466.5,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 13:51 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $SOLANAAI crashed >15% in one tick | P&L: -23.8%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 13:52 UTC",
       "action": "buy",
@@ -47209,30 +47196,48 @@
       "action": "buy",
       "details": "[LLM] $CABAL at $2.84e-06, spent 0.05 SOL",
       "reason": "$CABAL has the cleanest narrative of the batch — 'cabal is the word every trench already uses, no runner yet' is a textbook attention-gap thesis. Active X account (kumar1_88), mcap $2.8k with1% bond, age<1min = still in price discovery. Risk: micro-cap, may not get organic traction beyond the poster. Position: 0.05 SOL."
+    },
+    {
+      "time": "2026-09-10 14:23 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CABAL at $2.85168e-06 | P&L: +0.4%",
+      "reason": "Just entered (+0.4%), bonding curve only 17% filled means still early. No reason to exit, give it time to develop."
     }
   ],
   "trade_stats": {
-    "total": 2768,
-    "wins": 1329,
+    "total": 2769,
+    "wins": 1330,
     "losses": 1439,
     "win_rate_pct": 48.0,
-    "total_pnl_sol": 0.398074,
-    "avg_pnl_pct": 27.54,
+    "total_pnl_sol": 0.39825,
+    "avg_pnl_pct": 27.53,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 391,
-    "today_realized_sol": 3.083389,
-    "today_target_pct": 770.8,
+    "today_trades": 392,
+    "today_realized_sol": 3.083565,
+    "today_target_pct": 770.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1329,
+      "win_count": 1330,
       "loss_count": 1439,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T14:22:40.607889+00:00",
+  "last_llm_brief_at": "2026-09-10T14:23:58.763680+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FVP2NZHpNwMdwkULZt68Peq16Aeiz3fdGj6G9xP2LC62": {
+      "price_usd": 2.851684858349942e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 29.632592963000004,
+      "volume_h24": 143.83,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.2962963
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -19393,3 +19393,6 @@
 ## [2026-09-10 14:22 UTC] buy | [LLM] $CABAL at $2.84e-06, spent 0.05 SOL
 - **Reasoning:** $CABAL has the cleanest narrative of the batch — 'cabal is the word every trench already uses, no runner yet' is a textbook attention-gap thesis. Active X account (kumar1_88), mcap $2.8k with1% bond, age<1min = still in price discovery. Risk: micro-cap, may not get organic traction beyond the poster. Position: 0.05 SOL.
 
+## [2026-09-10 14:23 UTC] sell | [FULL][LLM] $CABAL at $2.85168e-06 | P&L: +0.4%
+- **Reasoning:** Just entered (+0.4%), bonding curve only 17% filled means still early. No reason to exit, give it time to develop.
+
