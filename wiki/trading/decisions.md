@@ -20224,3 +20224,6 @@
 ## [2026-09-10 19:29 UTC] buy | [LLM] $SEASHELL at $3.22653e-06, spent 0.05 SOL
 - **Reasoning:** $SEASHELL (Clawd Currency) rides the hot Clawd/AI-agent meta narrative with a real twitter link, $3.2k mcap has 10x+ room, age <1min = fresh attention launch. Best narrative-to-mcap ratio in the slate.
 
+## [2026-09-10 19:31 UTC] sell | [PARTIAL][LLM] $SEASHELL at $2.78876e-06 | P&L: -13.6%
+- **Reasoning:** Down 13.6% with my position at 175% of pool liquidity. The oversized share means further drops will trigger worse slippage on exit, and we're approaching the -25% hard stop. Cut loss now while I still can exit at a reasonable price.
+
