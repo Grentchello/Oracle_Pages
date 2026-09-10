@@ -17272,3 +17272,9 @@
 ## [2026-09-10 00:15 UTC] buy | [LLM] $BOB at $7.1103e-10, spent 0.05 SOL
 - **Reasoning:** $BOB 'Bitcoin Bob' — clean character coin, simplest possible name, lowest mcap tier ($5.5k), bond already 13% meaning buy pressure is real. Bitcoin-themed character is a familiar meme archetype with viral potential. Taking the freshest, cleanest shot.
 
+## [2026-09-10 00:16 UTC] sell | [v8.7 TP +50% (full)] $BOB at $1.34046e-09 | P&L: +88.5%
+- **Reasoning:** Auto take-profit at +88.5%
+
+## [2026-09-10 00:17 UTC] buy | [LLM] $Copycat at $5.63211e-06, spent 0.05 SOL
+- **Reasoning:** $Copycat has the highest bond completion (23%) of all candidates — strongest confirmed buyer demand. The 'copycat' meta-narrative (calling out copycat tokens) is a viral Twitter-friendly angle, and age 0.5min means we catch the launch pump, not the dump. McDonald's Cat ($MDCAT) was close runner-up but bond at 8% suggests weaker traction.
+
