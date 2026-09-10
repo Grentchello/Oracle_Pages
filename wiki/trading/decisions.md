@@ -18100,3 +18100,6 @@
 ## [2026-09-10 05:11 UTC] buy | [LLM] $OpenAI Snake at $2.155e-05, spent 0.05 SOL
 - **Reasoning:** $OpenAI Snake has the strongest attention signal in this batch: tied to OpenAI (top AI narrative), easter-egg 'hidden snake game in ChatGPT' story is viral-friendly, has attached X post (strrives), 1.9min old at $18k mcap with 38% bond = about to graduate but still cheap. Only candidate with verified social + narrative + reasonable liquidity combo. 0.1 SOL risk.
 
+## [2026-09-10 05:12 UTC] sell | [rapid-drop] $OpenAI Snake crashed >15% in one tick | P&L: -84.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
