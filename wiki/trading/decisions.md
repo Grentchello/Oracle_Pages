@@ -20776,3 +20776,9 @@
 ## [2026-09-10 23:07 UTC] buy | [LLM] $10M at $4.37341e-06, spent 0.05 SOL
 - **Reasoning:** Speedrun To 10 Million - meta-narrative token (literally about reaching $10M), tied to a KOL (daddyriskbets) with X post. Recursive attention play, $4.4k mcap gives massive upside if narrative catches. 0.05 SOL position.
 
+## [2026-09-10 23:08 UTC] sell | [rapid-drop] $10M crashed >15% in one tick | P&L: -36.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 23:09 UTC] buy | [LLM] $ily at $1.236e-05, spent 0.05 SOL
+- **Reasoning:** $ily at $12.7k mcap with derivativist X callout — meta-narrative 'there's no thesis' is itself the joke that travels on CT. Fresh, attention-launched, has the right viral shape (irony + simplicity).
+
