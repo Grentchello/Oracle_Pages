@@ -17953,3 +17953,6 @@
 ## [2026-09-10 04:25 UTC] buy | [LLM] $cap at $2.59441e-06, spent 0.05 SOL
 - **Reasoning:** $cap 'dog wif cap' is a direct dogwifhat meta-narrative (WIF did 1000x), explicit 'redemption run-back' framing is viral fuel, 70+ char desc passes viability gate, 10% bond with ~0.1min age means very fresh attention window. Risk: sub-$3k mcap, thin liquidity, narrative could fail to catch. Sizing 0.1 SOL as instructed.
 
+## [2026-09-10 04:26 UTC] sell | [rapid-drop] $cap crashed >15% in one tick | P&L: -93.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
