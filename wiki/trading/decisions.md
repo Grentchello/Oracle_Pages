@@ -20677,3 +20677,9 @@
 ## [2026-09-10 22:36 UTC] buy | [LLM] $42 at $6.13655e-06, spent 0.05 SOL
 - **Reasoning:** $42 = Hitchhiker's Guide 'Answer to Everything' meme — culturally loaded narrative, highest bond progress (25%) signals strongest organic demand in the batch, CartiDevs tweet provides fresh attention. $6k mcap is ideal entry for early attention capture.
 
+## [2026-09-10 22:37 UTC] sell | [rapid-drop] $42 crashed >15% in one tick | P&L: -51.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 22:38 UTC] buy | [LLM] $OzemPIG at $8.58135e-06, spent 0.05 SOL
+- **Reasoning:** $OzemPIG — 'Make Ozempig Great Again' Ozempic/weight-loss parody with syringe emoji. Narrative is hot (GLP-1 cultural moment), $8.5k mcap with twitter attached (RedThunderBirdy), bond 30%. High attention risk-reward at 0.1 SOL.
+
