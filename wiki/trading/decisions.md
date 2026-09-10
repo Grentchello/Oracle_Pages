@@ -18421,3 +18421,6 @@
 ## [2026-09-10 07:18 UTC] sell | [FULL][LLM] $CHET at $3.09282e-06 | P&L: +0.0%
 - **Reasoning:** Just entered, flat at 0%, no signal to exit. Give it time to develop — auto-rules will protect downside.
 
+## [2026-09-10 07:20 UTC] buy | [LLM] $Solamander at $2.984e-06, spent 0.05 SOL
+- **Reasoning:** Saga ecosystem mascot token — Saga has a real community and narrative runway. $3k mcap, brand-new bonding curve at 2%, twitter link live. This is the kind of ecosystem play that can 5-10x if narrative catches.
+
