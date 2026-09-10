@@ -20077,3 +20077,9 @@
 ## [2026-09-10 18:50 UTC] buy | [LLM] $PFI6900 at $4.706e-06, spent 0.05 SOL
 - **Reasoning:** $PFI6900 'PumpFun Index Fund 6900' is meta-narrative gold — self-aware PumpFun parody with an attached X post and the highest bond completion (12%) of the batch. Mcap $4.7k leaves room for multi-x if the meme catches. Risk: brand-new, thin liquidity, could rug in minutes — bot's -25% hard stop is the safety net.
 
+## [2026-09-10 18:51 UTC] sell | [v8.7 TP +50% (full)] $PFI6900 at $9.2493e-05 | P&L: +1865.4%
+- **Reasoning:** Auto take-profit at +1865.4%
+
+## [2026-09-10 18:51 UTC] buy | [LLM] $ONEFIFTY at $9.45e-07, spent 0.05 SOL
+- **Reasoning:** $ONEFIFTY — viral Costco $1.50 hot dog narrative (cult classic American consumer story), has twitter, substantive desc passes viability gate. mcap $453 = extreme risk but that IS the attention-market play. Position 0.05 SOL.
+
