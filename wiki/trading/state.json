@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.166802,
+  "balance_sol": 4.214007,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "29ANvmBW5Zv3RLVXPudF6iN5j4oXGSqtCcKJC9B4pump": {
       "symbol": "Vel",
       "name": "Veldaren",
-      "amount": 1776587.0656353699,
+      "amount": 89357.10321333165,
       "entry_price_usd": 2.825642546375667e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.0025148529149449372,
       "entry_time": "2026-09-10T17:53:26.930878+00:00",
       "entry_usd_value": 5.0200000000000005,
-      "last_seen_price_usd": 2.825642546375667e-06,
+      "last_seen_price_usd": 2.796644485927292e-06,
       "entry_signals": {
         "liquidity_usd": 9.940821767600001,
         "volume_24h_usd": null,
@@ -48613,19 +48613,30 @@
       "pnl_pct": -0.41,
       "exit_reason": "LLM: sell_all — Position is essentially flat (-0.4%) at 0.0h held but already flagged STALE ⚠ HUGE share (4987662660% means our position dwarfs liquidity — exit immed",
       "partial": false
+    },
+    {
+      "mint": "29ANvmBW5Zv3RLVXPudF6iN5j4oXGSqtCcKJC9B4pump",
+      "symbol": "Vel",
+      "name": "Veldaren",
+      "amount_sold": 1687229.9624220382,
+      "fraction_sold": 0.9497029417011013,
+      "entry_time": "2026-09-10T17:53:26.930878+00:00",
+      "exit_time": "2026-09-10T17:54:55.142473+00:00",
+      "entry_price_usd": 2.825642546375667e-06,
+      "exit_price_usd": 2.796644485927292e-06,
+      "entry_sol_for_chunk": 0.047485,
+      "exit_sol_received": 0.047205,
+      "pnl_sol": -0.00028,
+      "pnl_pct": -1.03,
+      "exit_reason": "LLM: sell_all — Down only 1% (well within -25% hard cap), held 0 minutes. However 497% pool share is a major red flag — I AM the liquidity. Selling now will crater th",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T17:53:26.931035+00:00",
+  "last_updated": "2026-09-10T17:54:55.142672+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.4,
-  "portfolio_value_usd": 423.37,
+  "last_sol_price_usd": 99.96,
+  "portfolio_value_usd": 421.48,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 17:25 UTC",
-      "action": "buy",
-      "details": "[LLM] $NOISE at $1.996e-05, spent 0.05 SOL",
-      "reason": "$NOISE has the strongest setup: $20k mcap (already 5x the field), dedicated twitter @noiselabz suggesting real project backing, descriptive narrative (onchain music protocol), and clear narrative hook. Best risk/reward of the batch."
-    },
     {
       "time": "2026-09-10 17:27 UTC",
       "action": "sell",
@@ -48739,40 +48750,46 @@
       "action": "buy",
       "details": "[LLM] $Vel at $2.82564e-06, spent 0.05 SOL",
       "reason": "$Vel — fresh fantasy/gaming name, mcap $2.8k, brand new launch. Memecoin attention play, low mcap = room to run if it catches a bid."
+    },
+    {
+      "time": "2026-09-10 17:54 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Vel at $2.79664e-06 | P&L: -1.0%",
+      "reason": "Down only 1% (well within -25% hard cap), held 0 minutes. However 497% pool share is a major red flag — I AM the liquidity. Selling now will crater the price. Must wait for organic buyers to enter or for bonding curve to complete before exiting."
     }
   ],
   "trade_stats": {
-    "total": 2858,
+    "total": 2859,
     "wins": 1361,
-    "losses": 1497,
+    "losses": 1498,
     "win_rate_pct": 47.6,
-    "total_pnl_sol": -0.049391,
-    "avg_pnl_pct": 26.45,
+    "total_pnl_sol": -0.049671,
+    "avg_pnl_pct": 26.44,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 481,
-    "today_realized_sol": 2.635924,
-    "today_target_pct": 659.0,
+    "today_trades": 482,
+    "today_realized_sol": 2.635644,
+    "today_target_pct": 658.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1361,
-      "loss_count": 1497,
+      "loss_count": 1498,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T17:53:25.552579+00:00",
+  "last_llm_brief_at": "2026-09-10T17:54:55.142347+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "7EJiz1CYbrR7CcqJPvXQpVfv2WuDfaDi7Snkfb9Bpump": {
-      "price_usd": 9.339534883732899e-05,
+    "29ANvmBW5Zv3RLVXPudF6iN5j4oXGSqtCcKJC9B4pump": {
+      "price_usd": 2.796644485927292e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.0040000000000001e-07,
-      "volume_h24": 0.0,
+      "liquidity_usd": 0.9996001999199998,
+      "volume_h24": 9.91,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1e-09
+      "real_sol_reserves": 0.010000002
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -19900,3 +19900,6 @@
 ## [2026-09-10 17:53 UTC] buy | [LLM] $Vel at $2.82564e-06, spent 0.05 SOL
 - **Reasoning:** $Vel — fresh fantasy/gaming name, mcap $2.8k, brand new launch. Memecoin attention play, low mcap = room to run if it catches a bid.
 
+## [2026-09-10 17:54 UTC] sell | [PARTIAL][LLM] $Vel at $2.79664e-06 | P&L: -1.0%
+- **Reasoning:** Down only 1% (well within -25% hard cap), held 0 minutes. However 497% pool share is a major red flag — I AM the liquidity. Selling now will crater the price. Must wait for organic buyers to enter or for bonding curve to complete before exiting.
+
