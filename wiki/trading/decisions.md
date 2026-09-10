@@ -18136,3 +18136,9 @@
 ## [2026-09-10 05:21 UTC] buy | [LLM] $BurnTroll at $3.59955e-06, spent 0.05 SOL
 - **Reasoning:** $BurnTroll has a concrete attention mechanism (buyback + burn creator rewards) plus an X post — clear narrative beyond a meme image. Creator-reward-burn is a recognizable on-chain story that CT engages with.
 
+## [2026-09-10 05:22 UTC] sell | [FULL][LLM] $BurnTroll at $3.83138e-06 | P&L: +6.4%
+- **Reasoning:** Just entered, +6.4% on a niche burn narrative. Not enough gain to justify selling and it's been 0 minutes. Let it develop.
+
+## [2026-09-10 05:22 UTC] buy | [LLM] $CRAZYFROG at $5.78606e-06, spent 0.05 SOL
+- **Reasoning:** Crazy Frog is a globally-recognized meme IP (ring ring ring). Has Twitter presence. Brand-name memecoins with existing cultural recognition are the highest-attention plays in this batch. Risk: mcap only $5.8k, very early — but that's where 10x lives.
+
