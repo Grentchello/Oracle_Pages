@@ -18484,3 +18484,6 @@
 ## [2026-09-10 07:41 UTC] sell | [FULL][LLM] $WIF at $2.82473e-06 | P&L: -4.1%
 - **Reasoning:** $WIF is down -4.1% on a bonding-curve position just opened this tick, but the hard rules say position auto-closes at 30min or -25%. Given it's stale immediately and we have fresh attention tokens to rotate into, exit to free up the slot for higher-conviction plays.
 
+## [2026-09-10 07:42 UTC] buy | [LLM] $BOB at $1.172e-05, spent 0.05 SOL
+- **Reasoning:** $BOB 'Bitcoin Bob' — clearest attention signal of the slate: real derivative trader (@derivativist) posting about it, age 1.7min with highest mcap ($11.3k) and furthest along bonding curve (33%). Narrative has a memorable name + trader backing. Buying 0.05 SOL.
+

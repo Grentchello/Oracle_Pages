@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.194825,
+  "balance_sol": 4.144825,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "5ryQY5HjyMM4MnRxb8FeoEsvhranUR52SKDAWy3zpump": {
+      "symbol": "BOB",
+      "name": "Bitcoin Bob",
+      "amount": 430716.72354948806,
+      "entry_price_usd": 1.172e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T07:42:55.553303+00:00",
+      "entry_usd_value": 5.048,
+      "last_seen_price_usd": 1.172e-05,
+      "entry_signals": {
+        "liquidity_usd": 2413.99553383696,
+        "volume_24h_usd": 11579.28,
+        "market_cap_usd": 11296.726154080055,
+        "ath_market_cap_usd": 13255.352655378598,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 23.910415351,
+        "description": "",
+        "twitter": "https://x.com/derivativist/status/2097953384405893599?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44239,17 +44263,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T07:41:32.095253+00:00",
+  "last_updated": "2026-09-10T07:42:55.553504+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.92,
-  "portfolio_value_usd": 423.34,
+  "last_sol_price_usd": 100.96,
+  "portfolio_value_usd": 423.51,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 07:21 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Solamander at $2.98587e-06 | P&L: +0.1%",
-      "reason": "Solamander is essentially flat (+0.1%) after a tiny move, with $77 pool and 7% of supply being ME — that's me. Bonding curve 26%, no momentum, no viral signal. With slot locked at break-even and 5 fresh launches competing for attention, this is textbook stale capital. Free the slot."
-    },
     {
       "time": "2026-09-10 07:23 UTC",
       "action": "buy",
@@ -44363,6 +44381,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $WIF at $2.82473e-06 | P&L: -4.1%",
       "reason": "$WIF is down -4.1% on a bonding-curve position just opened this tick, but the hard rules say position auto-closes at 30min or -25%. Given it's stale immediately and we have fresh attention tokens to rotate into, exit to free up the slot for higher-conviction plays."
+    },
+    {
+      "time": "2026-09-10 07:42 UTC",
+      "action": "buy",
+      "details": "[LLM] $BOB at $1.172e-05, spent 0.05 SOL",
+      "reason": "$BOB 'Bitcoin Bob' — clearest attention signal of the slate: real derivative trader (@derivativist) posting about it, age 1.7min with highest mcap ($11.3k) and furthest along bonding curve (33%). Narrative has a memorable name + trader backing. Buying 0.05 SOL."
     }
   ],
   "trade_stats": {
@@ -44384,21 +44408,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T07:41:30.730176+00:00",
+  "last_llm_brief_at": "2026-09-10T07:42:54.126612+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "7zmw462qcHMgXuPJ1jWLjaY1ZjJk3yT3o7BuWiAipump": {
-      "price_usd": 2.8247317106891954e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1.6681039551599999,
-      "volume_h24": 769.07,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.016528973
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
