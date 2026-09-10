@@ -1,27 +1,27 @@
 {
-  "balance_sol": 2.780095,
+  "balance_sol": 2.759697,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "7BmUDj85vU1mLU7kVNN9oksx1fyJvJiBxtxDo7L2pump": {
-      "symbol": "FatCoin",
-      "name": "FatCoin",
-      "amount": 11873944.022715611,
-      "entry_price_usd": 2.1456644861437716e-07,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-10T04:10:56.346371+00:00",
-      "entry_usd_value": 5.0955,
-      "last_seen_price_usd": 2.448014802514067e-07,
+    "wM7UakvKbUzbZhFpQuv4B1ZxW2XEPNi6jDxNkGkpump": {
+      "symbol": "ZIF",
+      "name": "Zipper iPhone Flinch",
+      "amount": 1784588.4413309984,
+      "entry_price_usd": 2.855e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T04:13:40.350959+00:00",
+      "entry_usd_value": 5.095000000000001,
+      "last_seen_price_usd": 2.855e-06,
       "entry_signals": {
-        "liquidity_usd": 36.77585966505,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 5429.71418733109,
-        "ath_market_cap_usd": 5429.71418733109,
+        "liquidity_usd": 2.3689811862,
+        "volume_24h_usd": 22.51,
+        "market_cap_usd": 2854.5588617207377,
+        "ath_market_cap_usd": 2873.370647728105,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.360866055,
-        "description": "The first FatCoin paired with $MCD (McDonald’s) stock on @PumpFun Holders will receive $MCD stock.",
-        "twitter": "https://x.com/fatcoinmcd/status/2097899092907336054",
+        "real_sol_reserves": 0.023248098,
+        "description": "",
+        "twitter": "https://x.com/beeple/status/2097897516444303853?s=46",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -42493,25 +42493,30 @@
       "pnl_pct": 14.09,
       "exit_reason": "LLM: sell_half — FatCoin is up 14.1% but has very low liquidity at $42, so taking half profit reduces exposure while preserving some upside. The position is also close",
       "partial": true
+    },
+    {
+      "mint": "7BmUDj85vU1mLU7kVNN9oksx1fyJvJiBxtxDo7L2pump",
+      "symbol": "FatCoin",
+      "name": "FatCoin",
+      "amount_sold": 11873944.022715611,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T04:10:56.346371+00:00",
+      "exit_time": "2026-09-10T04:13:38.902962+00:00",
+      "entry_price_usd": 2.1456644861437716e-07,
+      "exit_price_usd": 2.540363172016279e-07,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.029602,
+      "pnl_sol": 0.004602,
+      "pnl_pct": 18.4,
+      "exit_reason": "LLM: sell_all — $FatCoin at +18.4% on 0.0h hold with thin $46 pool where my 6% share will move price on exit. Bonding-curve tokens dump when curve fills. Locking gain",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T04:12:16.147730+00:00",
+  "last_updated": "2026-09-10T04:13:40.351125+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.91,
-  "portfolio_value_usd": 285.87,
+  "last_sol_price_usd": 101.9,
+  "portfolio_value_usd": 286.31,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 03:50 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $BUCKAZOIDS at $1.48426e-09 | P&L: +38.6%",
-      "reason": "Up +38.6% with no real pool yet (bonding curve, 458% share means our 0.05 SOL is dominating a tiny pool). Bonding-curve tokens dump hard at curve completion. Lock half the gain now, let the other half ride if it graduates."
-    },
-    {
-      "time": "2026-09-10 03:51 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $BUCKAZOIDS at $1.96403e-09 | P&L: +83.4%",
-      "reason": "Auto take-profit at +83.4%"
-    },
     {
       "time": "2026-09-10 03:51 UTC",
       "action": "buy",
@@ -42619,40 +42624,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $FatCoin at $2.44801e-07 | P&L: +14.1%",
       "reason": "FatCoin is up 14.1% but has very low liquidity at $42, so taking half profit reduces exposure while preserving some upside. The position is also close to the 30-minute stale threshold, making lock-in prudent."
+    },
+    {
+      "time": "2026-09-10 04:13 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FatCoin at $2.54036e-07 | P&L: +18.4%",
+      "reason": "$FatCoin at +18.4% on 0.0h hold with thin $46 pool where my 6% share will move price on exit. Bonding-curve tokens dump when curve fills. Locking gain now and rotating slot to a higher-conviction fresh narrative (beeple tweet on $ZIF) where attention signal is stronger and upside multiple is larger."
+    },
+    {
+      "time": "2026-09-10 04:13 UTC",
+      "action": "buy",
+      "details": "[LLM] $ZIF at $2.855e-06, spent 0.05 SOL",
+      "reason": "$ZIF (Zipper iPhone Flinch) has a Beeple (Mike Winkelmann) tweet attached — Beeple is one of the most-followed digital artists (millions of followers), and his posts historically pump associated tokens/NFTs. $2.8k mcap with 0% bonding = massive upside if attention catches. Pure attention-market play."
     }
   ],
   "trade_stats": {
-    "total": 2498,
-    "wins": 1229,
+    "total": 2499,
+    "wins": 1230,
     "losses": 1269,
     "win_rate_pct": 49.2,
-    "total_pnl_sol": -1.461215,
-    "avg_pnl_pct": 28.81,
+    "total_pnl_sol": -1.456613,
+    "avg_pnl_pct": 28.8,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 121,
-    "today_realized_sol": 1.2241,
-    "today_target_pct": 306.0,
+    "today_trades": 122,
+    "today_realized_sol": 1.228702,
+    "today_target_pct": 307.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1229,
+      "win_count": 1230,
       "loss_count": 1269,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T04:12:16.147308+00:00",
+  "last_llm_brief_at": "2026-09-10T04:13:38.902922+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7BmUDj85vU1mLU7kVNN9oksx1fyJvJiBxtxDo7L2pump": {
-      "price_usd": 2.448014802514067e-07,
+      "price_usd": 2.540363172016279e-07,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 42.278801348189994,
+      "liquidity_usd": 46.203802782900006,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.414864109
+      "real_sol_reserves": 0.453422991
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
