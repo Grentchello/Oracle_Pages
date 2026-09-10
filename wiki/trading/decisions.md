@@ -19375,3 +19375,9 @@
 ## [2026-09-10 14:15 UTC] buy | [LLM] $PAIRS at $6.254e-06, spent 0.05 SOL
 - **Reasoning:** $PAIRS has the strongest attention signal — a real Raydium tweet (major protocol with massive reach), bond already at 28% showing real buyer commitment, and a clear 'pairs trading' meta narrative. Fresh narrative + legitimate X attention + bond momentum = entry trigger.
 
+## [2026-09-10 14:16 UTC] sell | [rapid-drop] $PAIRS crashed >15% in one tick | P&L: -55.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 14:17 UTC] buy | [LLM] $GRND at $8.94041e-06, spent 0.05 SOL
+- **Reasoning:** $GRND is the strongest fresh signal: highest mcap ($8.9k), bond 31% (most progressed of the new launches), and a live X post backing it. No blocklist keyword hit, viability gate passes via twitter. Riding the attention wave with 0.1 SOL.
+
