@@ -20374,3 +20374,6 @@
 ## [2026-09-10 20:20 UTC] buy | [LLM] $CryptoKittie at $6.891e-06, spent 0.05 SOL
 - **Reasoning:** $CryptoKittie riding the famous CryptoKitties IP resurrection narrative, has a Twitter post from @CrownerXBT pumping it at 0.7min age. Mcap $7k with bond 27% — classic early-launch setup with a viral name + external attention. Description is empty so it might fail viability gate — but the name recognition alone is a strong attention signal.
 
+## [2026-09-10 20:22 UTC] sell | [FULL][LLM] $CryptoKittie at $6.40535e-06 | P&L: -7.0%
+- **Reasoning:** Just opened 0h ago, -7% is normal bonding-curve dip with pool=$1538 still active. No clear exit signal yet — give it a few minutes to see if it bounces from 12% bonding progress.
+
