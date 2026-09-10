@@ -1,27 +1,27 @@
 {
-  "balance_sol": 2.75967,
+  "balance_sol": 3.00283,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "A24G9ijUyURM5wVxbscRsMcdJJj8wEBRzsTgCSvnpump": {
-      "symbol": "up",
-      "name": "only up",
-      "amount": 3589099.225897256,
-      "entry_price_usd": 1.421e-06,
+    "9zGuvShvaJs3za7sBF7RgSXfLoSSKQeRXjJ8h5whE7gt": {
+      "symbol": "PONKS",
+      "name": "PONKS",
+      "amount": 20304.842100439262,
+      "entry_price_usd": 0.0002513390635965397,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T04:19:49.631287+00:00",
-      "entry_usd_value": 5.100110000000001,
-      "last_seen_price_usd": 1.421e-06,
+      "entry_time": "2026-09-10T04:21:20.863059+00:00",
+      "entry_usd_value": 5.103400000000001,
+      "last_seen_price_usd": 0.0002513390635965397,
       "entry_signals": {
-        "liquidity_usd": 2.9965139372988,
-        "volume_24h_usd": 256.32,
-        "market_cap_usd": 7719.197912868132,
-        "ath_market_cap_usd": 18218.038586028793,
+        "liquidity_usd": 76113.86547041684,
+        "volume_24h_usd": null,
+        "market_cap_usd": 10129.842914614457,
+        "ath_market_cap_usd": 10129.842914614457,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.029376954,
-        "description": "only up USDC mayhem mode",
-        "twitter": "",
+        "real_sol_reserves": 745.717222542,
+        "description": "",
+        "twitter": "https://twitter.com/otc_labs/status/2097902881525338360",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -42544,25 +42544,30 @@
       "pnl_pct": 0.03,
       "exit_reason": "LLM: sell_all — Just opened, flat at +0.0%, bonding-curve with 25% pool share. No signal yet — let it develop for a few minutes before any decision.",
       "partial": false
+    },
+    {
+      "mint": "A24G9ijUyURM5wVxbscRsMcdJJj8wEBRzsTgCSvnpump",
+      "symbol": "up",
+      "name": "only up",
+      "amount_sold": 3589099.225897256,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T04:19:49.631287+00:00",
+      "exit_time": "2026-09-10T04:20:53.367964+00:00",
+      "entry_price_usd": 1.421e-06,
+      "exit_price_usd": 8.336985043079595e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.29316,
+      "pnl_sol": 0.24316,
+      "pnl_pct": 486.7,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T04:19:49.631569+00:00",
+  "last_updated": "2026-09-10T04:21:20.863331+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.0022,
-  "portfolio_value_usd": 286.59,
+  "last_sol_price_usd": 102.068,
+  "portfolio_value_usd": 311.6,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 03:56 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MACD at $2.84343e-06 | P&L: -3.9%",
-      "reason": "The position is already down 3.9%, has shown no positive momentum, and is on a bonding curve with pool=$0 and an implausible our share=240471911%. That concentration and liquidity data make the entry too fragile to hold."
-    },
-    {
-      "time": "2026-09-10 03:58 UTC",
-      "action": "buy",
-      "details": "[LLM] $JPM at $9.344e-06, spent 0.05 SOL",
-      "reason": "$JPM leads the slate with the highest market cap and a fresh dedicated X account, giving it the clearest immediate attention narrative. The tiny market cap and very early age create extreme dilution and rug risk, but the momentum warrants taking the available position."
-    },
     {
       "time": "2026-09-10 03:59 UTC",
       "action": "sell",
@@ -42670,30 +42675,54 @@
       "action": "buy",
       "details": "[LLM] $up at $1.421e-06, spent 0.05 SOL",
       "reason": "$up ('only up', USDC mayhem mode) is the cleanest narrative — pure attention-market name riding an active pump.fun meta. Highest mcap of fresh launches ($7.7k) with only 1% bond = early traction without being late. Risk: sub-2min age, could rug fast, hence 0.1 SOL size and tight mental stop."
+    },
+    {
+      "time": "2026-09-10 04:20 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $up at $8.33699e-06 | P&L: +486.7%",
+      "reason": "Auto take-profit at +486.7%"
+    },
+    {
+      "time": "2026-09-10 04:21 UTC",
+      "action": "buy",
+      "details": "[LLM] $PONKS at $0.000251339, spent 0.05 SOL",
+      "reason": "$PONKS — highest mcap ($10k, 28% bond nearly full) of the fresh batch with twitter from otc_labs attached. Strongest attention signal in the slate, narrative coin on a meme-friendly ticker. Risk: bond still incomplete so liquidity is thin — bot's ME2F/GMGN gates should catch fragility before fill."
     }
   ],
   "trade_stats": {
-    "total": 2501,
-    "wins": 1230,
+    "total": 2502,
+    "wins": 1231,
     "losses": 1271,
     "win_rate_pct": 49.2,
-    "total_pnl_sol": -1.45664,
-    "avg_pnl_pct": 28.78,
+    "total_pnl_sol": -1.21348,
+    "avg_pnl_pct": 28.96,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 124,
-    "today_realized_sol": 1.228675,
-    "today_target_pct": 307.2,
+    "today_trades": 125,
+    "today_realized_sol": 1.471835,
+    "today_target_pct": 368.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1230,
+      "win_count": 1231,
       "loss_count": 1271,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T04:19:48.311850+00:00",
+  "last_llm_brief_at": "2026-09-10T04:21:19.453258+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "A24G9ijUyURM5wVxbscRsMcdJJj8wEBRzsTgCSvnpump": {
+      "price_usd": 8.336985043079595e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.40838253964399995,
+      "volume_h24": 2392.52,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.004001083
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

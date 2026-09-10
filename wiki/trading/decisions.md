@@ -17929,3 +17929,9 @@
 ## [2026-09-10 04:19 UTC] buy | [LLM] $up at $1.421e-06, spent 0.05 SOL
 - **Reasoning:** $up ('only up', USDC mayhem mode) is the cleanest narrative — pure attention-market name riding an active pump.fun meta. Highest mcap of fresh launches ($7.7k) with only 1% bond = early traction without being late. Risk: sub-2min age, could rug fast, hence 0.1 SOL size and tight mental stop.
 
+## [2026-09-10 04:20 UTC] sell | [v8.7 TP +50% (full)] $up at $8.33699e-06 | P&L: +486.7%
+- **Reasoning:** Auto take-profit at +486.7%
+
+## [2026-09-10 04:21 UTC] buy | [LLM] $PONKS at $0.000251339, spent 0.05 SOL
+- **Reasoning:** $PONKS — highest mcap ($10k, 28% bond nearly full) of the fresh batch with twitter from otc_labs attached. Strongest attention signal in the slate, narrative coin on a meme-friendly ticker. Risk: bond still incomplete so liquidity is thin — bot's ME2F/GMGN gates should catch fragility before fill.
+
