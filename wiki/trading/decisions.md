@@ -18028,3 +18028,9 @@
 ## [2026-09-10 04:51 UTC] buy | [LLM] $EVIL at $3.558e-06, spent 0.05 SOL
 - **Reasoning:** $EVIL rides the TikTok Tung Tung Tung Sahur brainrot meme crossing into Solana degen. Active X account, very fresh (1.4min), mcap $3.2k gives huge upside if narrative catches. 0.05 SOL position, watching for bond completion.
 
+## [2026-09-10 04:53 UTC] sell | [rapid-drop] $EVIL crashed >15% in one tick | P&L: -19.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 04:53 UTC] buy | [LLM] $MOSES at $1.25858e-05, spent 0.05 SOL
+- **Reasoning:** $MOSES Anthropic Dog: Anthropic is a top-of-mind AI brand, Bymotionn X post gives viral catalyst, $12.5k mcap leaves5-50x room. Risk: duplicate mint suggests competition/possible copycat rug — sizing small at 0.1 SOL respects the uncertainty.
+
