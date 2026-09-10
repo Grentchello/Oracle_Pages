@@ -18937,3 +18937,6 @@
 ## [2026-09-10 11:07 UTC] buy | [LLM] $소라나 at $3.04677e-06, spent 0.05 SOL
 - **Reasoning:** $소라나: Solana official Twitter account endorsing a Korean-language Sorana/Solana transliteration at $3k mcap is a top-tier attention signal — chain-level endorsement + Korean memecoin community wave. Highest narrative upside of the slate. Liquidity is the risk ($3k mcap can drain fast), but that's where 50-300% first-hour pumps originate. Position 0.1 SOL.
 
+## [2026-09-10 11:08 UTC] sell | [FULL][LLM] $소라나 at $2.82777e-06 | P&L: -7.2%
+- **Reasoning:** Down -7.2% already after a few minutes, no narrative momentum showing. Held bonding-curve token with no pool yet - extremely thin liquidity. Better to rotate capital into fresh launches with clearer attention signals.
+
