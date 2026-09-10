@@ -18082,3 +18082,9 @@
 ## [2026-09-10 05:07 UTC] buy | [LLM] $LUKA at $3.097e-06, spent 0.05 SOL
 - **Reasoning:** $LUKA has the strongest narrative in this batch: 'The worst trade ever in the history of sports is on Solana' with twitter source from @acyn (notable media account = real attention), fresh $3k mcap at 1.9min old. Concrete viral story beats generic tickers. Sizing 0.05 SOL per v7 rules. If ME2F fragility gate flags it, bot auto-rejects.
 
+## [2026-09-10 05:09 UTC] sell | [FULL][LLM] $LUKA at $3.09286e-06 | P&L: -0.1%
+- **Reasoning:** Flat at -0.1% with only $131 pool — too thin to hold, no momentum signal, freeing the slot for a stronger fresh launch with actual attention.
+
+## [2026-09-10 05:09 UTC] buy | [LLM] $WOJAK at $6.14978e-09, spent 0.05 SOL
+- **Reasoning:** $WOJAK — battle-tested Pepe-family meme archetype with active Twitter community engagement, fresh launch at $9k mcap with 25% bond curve. Wojak narratives pump cyclically on attention waves.
+
