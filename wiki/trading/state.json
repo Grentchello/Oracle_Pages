@@ -1,32 +1,8 @@
 {
-  "balance_sol": 2.955622,
+  "balance_sol": 4.411392,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CGLLqWov91VovDb2Z91P9BHUHrSA6Th24EP7o73VzGcp": {
-      "symbol": "ZAZU",
-      "name": "Zazu",
-      "amount": 275129.4498381877,
-      "entry_price_usd": 1.854e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T04:27:58.373975+00:00",
-      "entry_usd_value": 5.1009,
-      "last_seen_price_usd": 1.854e-05,
-      "entry_signals": {
-        "liquidity_usd": 150755.50365762445,
-        "volume_24h_usd": 9200.6,
-        "market_cap_usd": 25282.342297510335,
-        "ath_market_cap_usd": 27315.720731084308,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1477.734357247,
-        "description": "",
-        "twitter": "https://x.com/FrenzyMalc/status/2097902182200967594",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -42629,19 +42605,30 @@
       "pnl_pct": -92.97,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "CGLLqWov91VovDb2Z91P9BHUHrSA6Th24EP7o73VzGcp",
+      "symbol": "ZAZU",
+      "name": "Zazu",
+      "amount_sold": 275129.4498381877,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T04:27:58.373975+00:00",
+      "exit_time": "2026-09-10T04:29:02.626099+00:00",
+      "entry_price_usd": 1.854e-05,
+      "exit_price_usd": 0.0005400905250195333,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 1.45577,
+      "pnl_sol": 1.40577,
+      "pnl_pct": 2813.11,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T04:27:58.374304+00:00",
+  "last_updated": "2026-09-10T04:29:13.989181+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.018,
-  "portfolio_value_usd": 306.63,
+  "last_sol_price_usd": 102.073,
+  "portfolio_value_usd": 450.28,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 04:07 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $MISSILE crashed >15% in one tick | P&L: -16.4%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 04:09 UTC",
       "action": "buy",
@@ -42755,30 +42742,48 @@
       "action": "buy",
       "details": "[LLM] $ZAZU at $1.854e-05, spent 0.05 SOL",
       "reason": "$ZAZU is the freshest with real traction — $25k mcap and 38% bond complete in 1.3 minutes means actual buyers are piling in, not just a launch. Twitter attached from FrenzyMalc gives attention signal. Taking the entry per default-bias-to-trade rule."
+    },
+    {
+      "time": "2026-09-10 04:29 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $ZAZU at $0.000540091 | P&L: +2813.1%",
+      "reason": "Auto take-profit at +2813.1%"
     }
   ],
   "trade_stats": {
-    "total": 2506,
-    "wins": 1232,
+    "total": 2507,
+    "wins": 1233,
     "losses": 1274,
     "win_rate_pct": 49.2,
-    "total_pnl_sol": -1.260688,
-    "avg_pnl_pct": 28.88,
+    "total_pnl_sol": 0.145082,
+    "avg_pnl_pct": 29.99,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 129,
-    "today_realized_sol": 1.424627,
-    "today_target_pct": 356.2,
+    "today_trades": 130,
+    "today_realized_sol": 2.830397,
+    "today_target_pct": 707.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1232,
+      "win_count": 1233,
       "loss_count": 1274,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T04:27:57.051340+00:00",
+  "last_llm_brief_at": "2026-09-10T04:29:13.720334+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CGLLqWov91VovDb2Z91P9BHUHrSA6Th24EP7o73VzGcp": {
+      "price_usd": 0.0005400905250195333,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 141104.55760347855,
+      "volume_h24": 17429.55,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1382.388659131
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
