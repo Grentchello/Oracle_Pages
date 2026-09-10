@@ -19015,3 +19015,9 @@
 ## [2026-09-10 11:40 UTC] buy | [LLM] $kitty at $8.39574e-06, spent 0.05 SOL
 - **Reasoning:** $kitty has a live X post from @chillmigratoor with viral potential, ultra-low $8k mcap = biggest10x runway. High rug risk at this stage but attention signal is the strongest of the batch.
 
+## [2026-09-10 11:41 UTC] sell | [rapid-drop] $kitty crashed >15% in one tick | P&L: -45.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 11:41 UTC] buy | [LLM] $USELESS at $0.000261195, spent 0.05 SOL
+- **Reasoning:** USELESS is the strongest meta-narrative play of the batch — post-ironic absurdist humor is the exact tone that trends on crypto twitter, $10.3k mcap with 29% bond shows early buyer conviction, and the name is memeable. Risk: ultra-low mcap and incomplete bond mean thin liquidity — exit fast if it doesn't pop within 10 min.
+
