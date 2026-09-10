@@ -17437,3 +17437,9 @@
 ## [2026-09-10 01:16 UTC] buy | [LLM] $$ROYAL at $9.17591e-07, spent 0.05 SOL
 - **Reasoning:** Pepe Royale narrative has the clearest meme story (turn internet chaos into royalty), highest mcap in the fresh batch ($9k), and a recognisable Pepe-franchise hook. Better attention signal than the random j7tracker/Beast bot launches.
 
+## [2026-09-10 01:17 UTC] sell | [v8.7 TP +50% (full)] $$ROYAL at $4.42249e-06 | P&L: +382.0%
+- **Reasoning:** Auto take-profit at +382.0%
+
+## [2026-09-10 01:18 UTC] buy | [LLM] $CATBUTT at $2.831e-06, spent 0.05 SOL
+- **Reasoning:** $CATBUTT has the strongest narrative hook of the batch - 'PRE-IPO ANTHROPIC STOCK' ties into current AI hype (Anthropic funding rounds in news). Edgy name = memeable. Meets viability gate (desc >50 chars, has twitter). Risk: <1min old, no liquidity yet, bond=0%.
+
