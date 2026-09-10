@@ -18226,3 +18226,9 @@
 ## [2026-09-10 05:58 UTC] buy | [LLM] $Unpriced at $7.729e-06, spent 0.05 SOL
 - **Reasoning:** $Unpriced — strongest mcap in the batch at $8.5k, only 0.9min old, has Twitter presence (Unpricedshop), bond still bonding. 'Unpriced' is a clever meta-narrative in a meme market obsessed with valuations. Fresh attention + low mcap + narrative = asymmetric upside.
 
+## [2026-09-10 05:59 UTC] sell | [rapid-drop] $Unpriced crashed >15% in one tick | P&L: -53.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 06:00 UTC] buy | [LLM] $CHONK at $3.119e-06, spent 0.05 SOL
+- **Reasoning:** $CHONK — Pesto the giant king penguin chick is an ongoing viral meme with institutional backing (SEA LIFE Melbourne's official twitter). Real organic attention, not just a generic animal coin. Bond only 4% so risk is high, but narrative strength is the strongest of the batch. GMGN fragility check will gate if it fails.
+
