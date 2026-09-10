@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.917011,
+  "balance_sol": 4.917597,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7YyEH7pq8XjpJrFR7WHr1eyPiSzrRBdrqcM9btSupump": {
-      "symbol": "BUDDY",
-      "name": "Bitdog",
-      "amount": 49973123.15256818,
-      "entry_price_usd": 8.339950300988827e-10,
-      "entry_sol_spent": 0.0004130149276361239,
-      "entry_time": "2026-09-10T12:03:02.185577+00:00",
-      "entry_usd_value": 5.0455000000000005,
-      "last_seen_price_usd": 9.087844190035666e-10,
-      "entry_signals": {
-        "liquidity_usd": 0.15951519797,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 6430.174903156484,
-        "ath_market_cap_usd": 7196.916497562837,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.001580767,
-        "description": "The first dog on chain. The first animal on chain (BUDDY) .  Carved into Bitcoin at block 299,825 — May 09, 2014.",
-        "twitter": "https://x.com/Chaindegensw6h/status/2098018638556987468",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -46080,19 +46056,30 @@
       "pnl_pct": 8.97,
       "exit_reason": "LLM: sell_all — $BUDDY is up 9% after just entering, bonding curve still active. No clear dump signal yet, giving it a bit more time to develop before deciding on par",
       "partial": true
+    },
+    {
+      "mint": "7YyEH7pq8XjpJrFR7WHr1eyPiSzrRBdrqcM9btSupump",
+      "symbol": "BUDDY",
+      "name": "Bitdog",
+      "amount_sold": 49973123.15256818,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T12:03:02.185577+00:00",
+      "exit_time": "2026-09-10T12:06:05.056022+00:00",
+      "entry_price_usd": 8.339950300988827e-10,
+      "exit_price_usd": 1.1847360523217098e-09,
+      "entry_sol_for_chunk": 0.000413,
+      "exit_sol_received": 0.000586,
+      "pnl_sol": 0.000173,
+      "pnl_pct": 42.06,
+      "exit_reason": "LLM: sell_all — Up 42.1% already past 25% TP. Bonding-curve token with $0 pool liquidity and 21% of supply — extreme concentration risk. Lock the gain, don't hope for",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T12:04:31.454681+00:00",
+  "last_updated": "2026-09-10T12:06:05.056274+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.98,
-  "portfolio_value_usd": 496.56,
+  "last_sol_price_usd": 100.95,
+  "portfolio_value_usd": 496.43,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 11:37 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $GS crashed >15% in one tick | P&L: -53.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 11:37 UTC",
       "action": "buy",
@@ -46206,40 +46193,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $BUDDY at $9.08784e-10 | P&L: +9.0%",
       "reason": "$BUDDY is up 9% after just entering, bonding curve still active. No clear dump signal yet, giving it a bit more time to develop before deciding on partial profit-take."
+    },
+    {
+      "time": "2026-09-10 12:06 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BUDDY at $1.18474e-09 | P&L: +42.1%",
+      "reason": "Up 42.1% already past 25% TP. Bonding-curve token with $0 pool liquidity and 21% of supply — extreme concentration risk. Lock the gain, don't hope for more on a thin curve."
     }
   ],
   "trade_stats": {
-    "total": 2709,
-    "wins": 1313,
+    "total": 2710,
+    "wins": 1314,
     "losses": 1396,
     "win_rate_pct": 48.5,
-    "total_pnl_sol": 0.651181,
+    "total_pnl_sol": 0.651354,
     "avg_pnl_pct": 28.3,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 332,
-    "today_realized_sol": 3.336496,
-    "today_target_pct": 834.1,
+    "today_trades": 333,
+    "today_realized_sol": 3.336669,
+    "today_target_pct": 834.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1313,
+      "win_count": 1314,
       "loss_count": 1396,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T12:04:31.453559+00:00",
+  "last_llm_brief_at": "2026-09-10T12:06:05.055979+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7YyEH7pq8XjpJrFR7WHr1eyPiSzrRBdrqcM9btSupump": {
-      "price_usd": 9.087844190035666e-10,
+      "price_usd": 1.1847360523217098e-09,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.18165918276,
+      "liquidity_usd": 0.2857177755,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.001798962
+      "real_sol_reserves": 0.00283029
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

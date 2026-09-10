@@ -19060,3 +19060,6 @@
 ## [2026-09-10 12:04 UTC] sell | [PARTIAL][LLM] $BUDDY at $9.08784e-10 | P&L: +9.0%
 - **Reasoning:** $BUDDY is up 9% after just entering, bonding curve still active. No clear dump signal yet, giving it a bit more time to develop before deciding on partial profit-take.
 
+## [2026-09-10 12:06 UTC] sell | [FULL][LLM] $BUDDY at $1.18474e-09 | P&L: +42.1%
+- **Reasoning:** Up 42.1% already past 25% TP. Bonding-curve token with $0 pool liquidity and 21% of supply — extreme concentration risk. Lock the gain, don't hope for more on a thin curve.
+
