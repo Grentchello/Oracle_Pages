@@ -18577,3 +18577,6 @@
 ## [2026-09-10 08:18 UTC] buy | [LLM] $Zchan at $5.019e-06, spent 0.05 SOL
 - **Reasoning:** $Zchan fuses Zcash brand with anime 'chan' meme template — this combo (NEIRO/GIGACHAD-style) has track record of pumping 10-50x in first hours. Sub-$5k mcap, 0.9min old = pure early attention play with real narrative hook.
 
+## [2026-09-10 08:19 UTC] sell | [rapid-drop] $Zchan crashed >15% in one tick | P&L: -39.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
