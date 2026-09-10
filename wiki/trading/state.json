@@ -1,32 +1,8 @@
 {
-  "balance_sol": 2.777372,
+  "balance_sol": 2.835769,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HSefAPtMvPHD24PDhVwvjWKG7UTA3sb7yb2QUGJZpump": {
-      "symbol": "JPM",
-      "name": "JP Moregain",
-      "amount": 544145.9760273972,
-      "entry_price_usd": 9.344e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T03:58:16.509158+00:00",
-      "entry_usd_value": 5.0845,
-      "last_seen_price_usd": 9.344e-06,
-      "entry_signals": {
-        "liquidity_usd": 2091.14232676092,
-        "volume_24h_usd": 5435.43,
-        "market_cap_usd": 8865.211575174146,
-        "ath_market_cap_usd": 9475.763609635858,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 20.563893468,
-        "description": "",
-        "twitter": "https://x.com/jpmoregain_x/status/2097897085035307190",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -42374,19 +42350,30 @@
       "pnl_pct": -3.91,
       "exit_reason": "LLM: sell_all — The position is already down 3.9%, has shown no positive momentum, and is on a bonding curve with pool=$0 and an implausible our share=240471911%. Tha",
       "partial": false
+    },
+    {
+      "mint": "HSefAPtMvPHD24PDhVwvjWKG7UTA3sb7yb2QUGJZpump",
+      "symbol": "JPM",
+      "name": "JP Moregain",
+      "amount_sold": 544145.9760273972,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T03:58:16.509158+00:00",
+      "exit_time": "2026-09-10T03:59:36.246443+00:00",
+      "entry_price_usd": 9.344e-06,
+      "exit_price_usd": 1.0910095811878151e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.058397,
+      "pnl_sol": 0.008397,
+      "pnl_pct": 16.76,
+      "exit_reason": "LLM: sell_all — Up +16.8% on a fresh launch with rising momentum. Just entered and showing strength - let it ride toward the +25% auto-TP. No reason to exit a winner ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T03:58:16.509332+00:00",
+  "last_updated": "2026-09-10T03:59:36.246623+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.69,
-  "portfolio_value_usd": 287.52,
+  "last_sol_price_usd": 101.66,
+  "portfolio_value_usd": 288.28,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 03:32 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $67coin crashed >15% in one tick | P&L: -74.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 03:33 UTC",
       "action": "buy",
@@ -42500,30 +42487,48 @@
       "action": "buy",
       "details": "[LLM] $JPM at $9.344e-06, spent 0.05 SOL",
       "reason": "$JPM leads the slate with the highest market cap and a fresh dedicated X account, giving it the clearest immediate attention narrative. The tiny market cap and very early age create extreme dilution and rug risk, but the momentum warrants taking the available position."
+    },
+    {
+      "time": "2026-09-10 03:59 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $JPM at $1.09101e-05 | P&L: +16.8%",
+      "reason": "Up +16.8% on a fresh launch with rising momentum. Just entered and showing strength - let it ride toward the +25% auto-TP. No reason to exit a winner early."
     }
   ],
   "trade_stats": {
-    "total": 2491,
-    "wins": 1226,
+    "total": 2492,
+    "wins": 1227,
     "losses": 1265,
     "win_rate_pct": 49.2,
-    "total_pnl_sol": -1.438938,
+    "total_pnl_sol": -1.430541,
     "avg_pnl_pct": 28.9,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 114,
-    "today_realized_sol": 1.246377,
-    "today_target_pct": 311.6,
+    "today_trades": 115,
+    "today_realized_sol": 1.254774,
+    "today_target_pct": 313.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1226,
+      "win_count": 1227,
       "loss_count": 1265,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:58:14.975301+00:00",
+  "last_llm_brief_at": "2026-09-10T03:59:36.246289+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HSefAPtMvPHD24PDhVwvjWKG7UTA3sb7yb2QUGJZpump": {
+      "price_usd": 1.0910095811878151e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2925.3639244377596,
+      "volume_h24": 20958.54,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 28.775958336
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

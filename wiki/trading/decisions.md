@@ -17875,3 +17875,6 @@
 ## [2026-09-10 03:58 UTC] buy | [LLM] $JPM at $9.344e-06, spent 0.05 SOL
 - **Reasoning:** $JPM leads the slate with the highest market cap and a fresh dedicated X account, giving it the clearest immediate attention narrative. The tiny market cap and very early age create extreme dilution and rug risk, but the momentum warrants taking the available position.
 
+## [2026-09-10 03:59 UTC] sell | [FULL][LLM] $JPM at $1.09101e-05 | P&L: +16.8%
+- **Reasoning:** Up +16.8% on a fresh launch with rising momentum. Just entered and showing strength - let it ride toward the +25% auto-TP. No reason to exit a winner early.
+
