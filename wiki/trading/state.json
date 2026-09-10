@@ -1,27 +1,27 @@
 {
-  "balance_sol": 5.069545,
+  "balance_sol": 5.021987,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "G1HCzLregdFqCz2BnjwxGzouV5fbWSF5FxeQWe1upump": {
-      "symbol": "rice",
-      "name": "1 grain of rice",
-      "amount": 87296.40590475049,
-      "entry_price_usd": 3.0212239827007507e-06,
-      "entry_sol_spent": 0.0026061461968677037,
-      "entry_time": "2026-09-10T10:05:32.480712+00:00",
-      "entry_usd_value": 5.0600000000000005,
-      "last_seen_price_usd": 2.8310134391403498e-06,
+    "2Uvsio43xC51uqU5QgME8zJ7Jem7M3FHavfBAg6cfBy7": {
+      "symbol": "WENDOG",
+      "name": "Wendog",
+      "amount": 1477181.4475547387,
+      "entry_price_usd": 3.427473319801754e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T10:08:50.588324+00:00",
+      "entry_usd_value": 5.063000000000001,
+      "last_seen_price_usd": 3.427473319801754e-06,
       "entry_signals": {
-        "liquidity_usd": 1.012e-07,
+        "liquidity_usd": 417.53417308804006,
         "volume_24h_usd": null,
-        "market_cap_usd": 3022.1196024584683,
-        "ath_market_cap_usd": 3098.5515981233348,
+        "market_cap_usd": 3424.005050040275,
+        "ath_market_cap_usd": 4421.227996918836,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1e-09,
-        "description": "",
-        "twitter": "https://x.com/Cointelegraph/status/2097989072278913426",
+        "real_sol_reserves": 4.123387054,
+        "description": "Paired with Wendy’s",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -45230,25 +45230,30 @@
       "pnl_pct": -6.3,
       "exit_reason": "LLM: sell_all — Position is illiquid-trapped: our share is 480% of a $1 pool, meaning any sell will crash price to ~0 and recover maybe $0.50. The marked -6.3% is fic",
       "partial": true
+    },
+    {
+      "mint": "G1HCzLregdFqCz2BnjwxGzouV5fbWSF5FxeQWe1upump",
+      "symbol": "rice",
+      "name": "1 grain of rice",
+      "amount_sold": 87296.40590475049,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T10:05:32.480712+00:00",
+      "exit_time": "2026-09-10T10:08:49.006969+00:00",
+      "entry_price_usd": 3.0212239827007507e-06,
+      "exit_price_usd": 2.8329718435354462e-06,
+      "entry_sol_for_chunk": 0.002606,
+      "exit_sol_received": 0.002442,
+      "pnl_sol": -0.000164,
+      "pnl_pct": -6.23,
+      "exit_reason": "LLM: sell_all — $rice is down 6.2% on bonding curve with only $1 pool liquidity and 25% share — extremely thin, high slippage risk on exit. Pool depth 5x rule is bord",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T10:07:08.029095+00:00",
+  "last_updated": "2026-09-10T10:08:50.588645+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.19,
-  "portfolio_value_usd": 513.25,
+  "last_sol_price_usd": 101.26,
+  "portfolio_value_usd": 513.59,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 09:40 UTC",
-      "action": "buy",
-      "details": "[LLM] $XRP at $6.58762e-07, spent 0.05 SOL",
-      "reason": "$XRP (HarryPotterObamaPacman8INU) — legendary 2021 rug name revived. Has Twitter promotion, $9k mcap on bonding curve (26%), classic irony/meta narrative that memecoin degens love. Strongest attention signal in this batch."
-    },
-    {
-      "time": "2026-09-10 09:41 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $XRP crashed >15% in one tick | P&L: -27.7%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 09:42 UTC",
       "action": "buy",
@@ -45356,36 +45361,48 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $rice at $2.83101e-06 | P&L: -6.3%",
       "reason": "Position is illiquid-trapped: our share is 480% of a $1 pool, meaning any sell will crash price to ~0 and recover maybe $0.50. The marked -6.3% is fictional — real exit value is near-total loss. Better to realize the small loss, free the slot, and rotate to fresh narrative alpha."
+    },
+    {
+      "time": "2026-09-10 10:08 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $rice at $2.83297e-06 | P&L: -6.2%",
+      "reason": "$rice is down 6.2% on bonding curve with only $1 pool liquidity and 25% share — extremely thin, high slippage risk on exit. Pool depth 5x rule is borderline at best. Cutting exposure to free a slot for stronger attention plays."
+    },
+    {
+      "time": "2026-09-10 10:08 UTC",
+      "action": "buy",
+      "details": "[LLM] $WENDOG at $3.42747e-06, spent 0.05 SOL",
+      "reason": "$WENDOG (Wendy's paired) has a clear brand-narrative hook at $3.4k mcap, 0.7min old — classic fast-food meme attention play with low mcap entry for asymmetric upside."
     }
   ],
   "trade_stats": {
-    "total": 2659,
+    "total": 2660,
     "wins": 1296,
-    "losses": 1363,
+    "losses": 1364,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.805863,
-    "avg_pnl_pct": 28.93,
+    "total_pnl_sol": 0.805699,
+    "avg_pnl_pct": 28.92,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 282,
-    "today_realized_sol": 3.491178,
+    "today_trades": 283,
+    "today_realized_sol": 3.491014,
     "today_target_pct": 872.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1296,
-      "loss_count": 1363,
+      "loss_count": 1364,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:07:08.028675+00:00",
+  "last_llm_brief_at": "2026-09-10T10:08:49.006931+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "G1HCzLregdFqCz2BnjwxGzouV5fbWSF5FxeQWe1upump": {
-      "price_usd": 2.8310134391403498e-06,
+      "price_usd": 2.8329718435354462e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.9885491932199999,
-      "volume_h24": 281.73,
+      "liquidity_usd": 0.98923303988,
+      "volume_h24": 282.72,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,

@@ -18787,3 +18787,9 @@
 ## [2026-09-10 10:07 UTC] sell | [PARTIAL][LLM] $rice at $2.83101e-06 | P&L: -6.3%
 - **Reasoning:** Position is illiquid-trapped: our share is 480% of a $1 pool, meaning any sell will crash price to ~0 and recover maybe $0.50. The marked -6.3% is fictional — real exit value is near-total loss. Better to realize the small loss, free the slot, and rotate to fresh narrative alpha.
 
+## [2026-09-10 10:08 UTC] sell | [FULL][LLM] $rice at $2.83297e-06 | P&L: -6.2%
+- **Reasoning:** $rice is down 6.2% on bonding curve with only $1 pool liquidity and 25% share — extremely thin, high slippage risk on exit. Pool depth 5x rule is borderline at best. Cutting exposure to free a slot for stronger attention plays.
+
+## [2026-09-10 10:08 UTC] buy | [LLM] $WENDOG at $3.42747e-06, spent 0.05 SOL
+- **Reasoning:** $WENDOG (Wendy's paired) has a clear brand-narrative hook at $3.4k mcap, 0.7min old — classic fast-food meme attention play with low mcap entry for asymmetric upside.
+
