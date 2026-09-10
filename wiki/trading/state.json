@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.537709,
+  "balance_sol": 4.583513,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5axozrp3BbsmY2piByeF5ysJdR7bk9YZERiAbVdApump": {
-      "symbol": "CSCUM",
-      "name": "CS: CUM",
-      "amount": 1372532.3961918342,
-      "entry_price_usd": 3.6228653063464816e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T19:53:45.486591+00:00",
-      "entry_usd_value": 4.9725,
-      "last_seen_price_usd": 3.6228653063464816e-06,
-      "entry_signals": {
-        "liquidity_usd": 404.86602244725003,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3630.879689231759,
-        "ath_market_cap_usd": 3703.443752060238,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.071051005,
-        "description": "Rush B. The only bomb we're planting is in your portfolio. No smokes, no flashes, just a full-send ape into the tactical degen shooter of memecoins.",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -49820,19 +49796,30 @@
       "pnl_pct": 80.03,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "5axozrp3BbsmY2piByeF5ysJdR7bk9YZERiAbVdApump",
+      "symbol": "CSCUM",
+      "name": "CS: CUM",
+      "amount_sold": 1372532.3961918342,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T19:53:45.486591+00:00",
+      "exit_time": "2026-09-10T19:55:01.457953+00:00",
+      "entry_price_usd": 3.6228653063464816e-06,
+      "exit_price_usd": 3.3148593054780517e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.045804,
+      "pnl_sol": -0.004196,
+      "pnl_pct": -8.5,
+      "exit_reason": "LLM: sell_all — $CSCUM down only 8.5% after 0.0h — well within normal bonding-curve noise. Hard stop is -25%, auto-exit kicks in at -30% or 30min stale. Rotating into",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T19:53:45.486873+00:00",
+  "last_updated": "2026-09-10T19:55:01.458280+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.45,
-  "portfolio_value_usd": 456.25,
+  "last_sol_price_usd": 99.33,
+  "portfolio_value_usd": 455.28,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:37 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $VIBE crashed >15% in one tick | P&L: -62.5%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 19:38 UTC",
       "action": "buy",
@@ -49946,30 +49933,48 @@
       "action": "buy",
       "details": "[LLM] $CSCUM at $3.62287e-06, spent 0.05 SOL",
       "reason": "$CSCUM (CS: CUM) — freshest 0.2min launch with a complete edgy CS:GO 'rush B' narrative that maps perfectly to crypto Twitter culture ('the only bomb we're planting is in your portfolio'). Description passes the 50-char viability gate (no Twitter but the narrative is the attention signal). $3.6k mcap sits in the launch zone where 10x moves start. Risk: bond only 11% so thin liquidity, but for a 0.05-0.1 SOL scalp that's acceptable. Other candidates either fail viability gate (no desc ≥50 chars: $MrBeast, $TWB, $FIN, $beer, $OTC, $$CAT, $DOGE, $CNUT, $Flylabs, $PushWs, $PULLIT) or get rejected by fragility gate ($MrBeast = celebrity, $GFLOYD = political) or have weaker meme energy ($Horsesol, $CASHA). Take the highest-attention play."
+    },
+    {
+      "time": "2026-09-10 19:55 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CSCUM at $3.31486e-06 | P&L: -8.5%",
+      "reason": "$CSCUM down only 8.5% after 0.0h — well within normal bonding-curve noise. Hard stop is -25%, auto-exit kicks in at -30% or 30min stale. Rotating into a 0.2min old launch to chase a tiny loss is exactly the over-trading pattern that destroys memecoin P&L."
     }
   ],
   "trade_stats": {
-    "total": 2929,
+    "total": 2930,
     "wins": 1375,
-    "losses": 1554,
+    "losses": 1555,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 0.321521,
-    "avg_pnl_pct": 26.04,
+    "total_pnl_sol": 0.317325,
+    "avg_pnl_pct": 26.02,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 552,
-    "today_realized_sol": 3.006836,
-    "today_target_pct": 751.7,
+    "today_trades": 553,
+    "today_realized_sol": 3.00264,
+    "today_target_pct": 750.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1375,
-      "loss_count": 1554,
+      "loss_count": 1555,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T19:53:44.104706+00:00",
+  "last_llm_brief_at": "2026-09-10T19:55:01.457778+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5axozrp3BbsmY2piByeF5ysJdR7bk9YZERiAbVdApump": {
+      "price_usd": 3.3148593054780517e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 275.71661477745,
+      "volume_h24": 634.62,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.775763765
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
