@@ -20419,3 +20419,6 @@
 ## [2026-09-10 20:35 UTC] sell | [v8.7 TP +50% (full)] $Pump Stonk at $0.000242087 | P&L: +2308.8%
 - **Reasoning:** Auto take-profit at +2308.8%
 
+## [2026-09-10 20:37 UTC] buy | [LLM] $NEEGY at $4.906e-05, spent 0.05 SOL
+- **Reasoning:** $NEEGY has the strongest setup: $44k mcap, 43% bonded (graduating imminent), clear viral twitter handle @theneegyfun, and a distinctive absurd meme (radioactive lime nose) that fits attention-market dynamics. Other candidates are either too small (microcaps <$1k with no bonding) or lack a clear narrative hook.
+
