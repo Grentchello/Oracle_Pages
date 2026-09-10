@@ -17899,3 +17899,6 @@
 ## [2026-09-10 04:06 UTC] buy | [LLM] $MISSILE at $3.406e-06, spent 0.05 SOL
 - **Reasoning:** $MISSILE ('this will send') - has X signal from @catalyst100x (likely crypto calls account), aggressive send meta-narrative fits current meme market. Low mcap $2.8k = max upside if it catches. RISK: bond 0%, ultra-thin liquidity, may die instantly. Position size 0.05 SOL per v7 rules — wait, prompt says 0.1 SOL per position, max 1. Using 0.05 to respect current risk framework.
 
+## [2026-09-10 04:07 UTC] sell | [rapid-drop] $MISSILE crashed >15% in one tick | P&L: -16.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
