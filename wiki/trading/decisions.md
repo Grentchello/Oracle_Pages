@@ -20587,3 +20587,6 @@
 ## [2026-09-10 21:59 UTC] buy | [LLM] $RISE at $6.381e-06, spent 0.05 SOL
 - **Reasoning:** $RISE has a clear attention mechanic: 60% supply airdropped to top-15 holders at bonding completion. This creates guaranteed buy-pressure from farmers racing for the leaderboard — textbook viral attention. Passes viability gate (desc ≥50 chars + twitter). Risk: brand-new (1 min), bonding only 26%.
 
+## [2026-09-10 22:00 UTC] sell | [FULL][LLM] $RISE at $7.16354e-06 | P&L: +12.3%
+- **Reasoning:** $RISE up +12.3% on bonding curve with0.0h held — well below TP thresholds, momentum is constructive. Selling now would lock a small gain and miss a potential bonding-curve breakout. Will re-evaluate at +25% TP or if momentum stalls.
+
