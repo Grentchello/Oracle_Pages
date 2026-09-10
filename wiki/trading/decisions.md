@@ -20269,3 +20269,9 @@
 ## [2026-09-10 19:42 UTC] buy | [LLM] $MOOMOO at $7.43711e-06, spent 0.05 SOL
 - **Reasoning:** $MOOMOO '4chan Bull Mascot' — classic 4chan meme narrative that historically pumps (PEPE lineage), bond 28% (buy pressure building), Twitter signal present, mcap $7.4k has room to run. 0.1 SOL position. Hard stop at -25% will protect if narrative dies.
 
+## [2026-09-10 19:43 UTC] sell | [rapid-drop] $MOOMOO crashed >15% in one tick | P&L: -62.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:44 UTC] buy | [LLM] $FLY at $3.333e-06, spent 0.05 SOL
+- **Reasoning:** $FLY rides a genuine viral narrative — Google's fly brain in Minecraft/Beat Saber (Dexerto gaming outlet). Fresh 1.1min age, $1.7k mcap = early entry on real attention. Low mcap = high upside if narrative catches. Viability passes (description present + twitter).
+
