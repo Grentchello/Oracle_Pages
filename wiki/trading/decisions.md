@@ -20761,3 +20761,6 @@
 ## [2026-09-10 23:03 UTC] sell | [FULL][LLM] $SPRINKLER at $2.77074e-06 | P&L: -6.8%
 - **Reasoning:** At -6.8% only, well above the -25% hard cap, and position is brand new (0.0h). No clear bounce signal yet but also no reason to crystallize a small loss when SPRINKLER narrative (chatbot/meta) could still resolve. Will exit if it drops further toward -20%.
 
+## [2026-09-10 23:04 UTC] buy | [LLM] $SHIHOU at $7.89767e-07, spent 0.05 SOL
+- **Reasoning:** $SHIHOU (Jobless Monkey / 失业猴) passes viability gate (desc ≥50 chars + twitter present), sticky bilingual narrative (jobless crypto apes is universally relatable + has Chinese meme crossover potential), and extreme microcap mcap=$791 leaves huge upside if the narrative catches. Risk: bond only 14%, super-illiquid, could rug. Will exit fast if not pumping within minutes.
+
