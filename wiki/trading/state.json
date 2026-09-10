@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.686491,
+  "balance_sol": 4.736133,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7gMYjxeF6wxWpZRBxZEExcSxFHfsVVoxY8oTSBALpump": {
-      "symbol": "DUOLINGO",
-      "name": "DUOLINGO",
-      "amount": 1655699.5679627785,
-      "entry_price_usd": 3.009e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T13:28:59.905760+00:00",
-      "entry_usd_value": 4.982,
-      "last_seen_price_usd": 3.009e-06,
-      "entry_signals": {
-        "liquidity_usd": 120.42711770188001,
-        "volume_24h_usd": 119.92,
-        "market_cap_usd": 3008.081600277201,
-        "ath_market_cap_usd": 3008.081600277201,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.208622217,
-        "description": "celebrating with Duolingo the new iPhone Duo (they stole the name) ",
-        "twitter": "https://x.com/duolingo?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -46743,19 +46719,30 @@
       "pnl_pct": -54.07,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "7gMYjxeF6wxWpZRBxZEExcSxFHfsVVoxY8oTSBALpump",
+      "symbol": "DUOLINGO",
+      "name": "DUOLINGO",
+      "amount_sold": 1655699.5679627785,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T13:28:59.905760+00:00",
+      "exit_time": "2026-09-10T13:30:15.190475+00:00",
+      "entry_price_usd": 3.009e-06,
+      "exit_price_usd": 2.9895450996446397e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049642,
+      "pnl_sol": -0.000358,
+      "pnl_pct": -0.65,
+      "exit_reason": "LLM: sell_all — Just entered (-0.6% is noise on a fresh buy), pool $106 means thin liquidity and any meaningful volume will move it. Need a few minutes to see if bond",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T13:28:59.906035+00:00",
+  "last_updated": "2026-09-10T13:30:15.191122+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.64,
-  "portfolio_value_usd": 471.94,
+  "last_sol_price_usd": 99.71,
+  "portfolio_value_usd": 472.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 13:11 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $TWIN at $2.7845e-06 | P&L: -4.0%",
-      "reason": "Owning 610% of the pool means I AM the exit liquidity — any other seller dumps price through me. -4% now will be -30% in seconds. Cut and free the slot for a better setup."
-    },
     {
       "time": "2026-09-10 13:12 UTC",
       "action": "sell",
@@ -46869,40 +46856,46 @@
       "action": "buy",
       "details": "[LLM] $DUOLINGO at $3.009e-06, spent 0.05 SOL",
       "reason": "Strongest narrative on the slate: real-world brand-name collision with Apple's iPhone 'Duo' launch + Duolingo has a verified X account that may organically amplify. $3k mcap with actual description (passes viability gate); meme attention markets live for this exact story. Risk: only 4% bonding curve filled, but that's the cheap-entry zone."
+    },
+    {
+      "time": "2026-09-10 13:30 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DUOLINGO at $2.98955e-06 | P&L: -0.7%",
+      "reason": "Just entered (-0.6% is noise on a fresh buy), pool $106 means thin liquidity and any meaningful volume will move it. Need a few minutes to see if bonding curve catches momentum. Far from the -25% hard cap."
     }
   ],
   "trade_stats": {
-    "total": 2748,
+    "total": 2749,
     "wins": 1323,
-    "losses": 1425,
+    "losses": 1426,
     "win_rate_pct": 48.1,
-    "total_pnl_sol": 0.470249,
-    "avg_pnl_pct": 27.8,
+    "total_pnl_sol": 0.469891,
+    "avg_pnl_pct": 27.79,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 371,
-    "today_realized_sol": 3.155564,
-    "today_target_pct": 788.9,
+    "today_trades": 372,
+    "today_realized_sol": 3.155206,
+    "today_target_pct": 788.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1323,
-      "loss_count": 1425,
+      "loss_count": 1426,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T13:28:58.450255+00:00",
+  "last_llm_brief_at": "2026-09-10T13:30:15.189922+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "FqMjfzjfFDRUWd8FzqNirvwXs3VrphXU6XMnvQXYpump": {
-      "price_usd": 2.8421208305756942e-06,
+    "7gMYjxeF6wxWpZRBxZEExcSxFHfsVVoxY8oTSBALpump": {
+      "price_usd": 2.9895450996446397e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 30.046815151799997,
-      "volume_h24": 6464.14,
+      "liquidity_usd": 106.35039614302998,
+      "volume_h24": 120.23,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.301553745
+      "real_sol_reserves": 1.066597093
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

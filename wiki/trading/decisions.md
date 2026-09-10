@@ -19270,3 +19270,6 @@
 ## [2026-09-10 13:28 UTC] buy | [LLM] $DUOLINGO at $3.009e-06, spent 0.05 SOL
 - **Reasoning:** Strongest narrative on the slate: real-world brand-name collision with Apple's iPhone 'Duo' launch + Duolingo has a verified X account that may organically amplify. $3k mcap with actual description (passes viability gate); meme attention markets live for this exact story. Risk: only 4% bonding curve filled, but that's the cheap-entry zone.
 
+## [2026-09-10 13:30 UTC] sell | [FULL][LLM] $DUOLINGO at $2.98955e-06 | P&L: -0.7%
+- **Reasoning:** Just entered (-0.6% is noise on a fresh buy), pool $106 means thin liquidity and any meaningful volume will move it. Need a few minutes to see if bonding curve catches momentum. Far from the -25% hard cap.
+
