@@ -1,27 +1,27 @@
 {
-  "balance_sol": 2.862739,
+  "balance_sol": 2.824176,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "EUDTDjoNNeKZGq6PptrWSz2DQsTEYXji3gqsSjEHpump": {
-      "symbol": "BUCKAZOIDS",
-      "name": "BUCKAZOIDS",
-      "amount": 594060063.2776444,
-      "entry_price_usd": 1.0707040235807352e-09,
-      "entry_sol_spent": 0.00625,
-      "entry_time": "2026-09-10T03:46:05.626985+00:00",
-      "entry_usd_value": 5.0885,
-      "last_seen_price_usd": 1.4842584828300488e-09,
+    "CSuBKvxVWYeygxymauC2d9qRBCaXachqxNcjFiY8pump": {
+      "symbol": "att",
+      "name": "attention",
+      "amount": 29311780.71386818,
+      "entry_price_usd": 1.7401194590633557e-07,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T03:51:37.504541+00:00",
+      "entry_usd_value": 5.1006,
+      "last_seen_price_usd": 1.7401194590633557e-07,
       "entry_signals": {
-        "liquidity_usd": 0.18408473087,
+        "liquidity_usd": 5.026010967852,
         "volume_24h_usd": null,
-        "market_cap_usd": 8250.82602880124,
-        "ath_market_cap_usd": 8250.82602880124,
+        "market_cap_usd": 173.95736034513686,
+        "ath_market_cap_usd": 2417.658988432903,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.001808831,
-        "description": "bitcoin logo was spotted in a 1991 game",
-        "twitter": "https://x.com/binance/status/2043252913531699380",
+        "real_sol_reserves": 0.049268821,
+        "description": "Attention everyone",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -42323,25 +42323,30 @@
       "pnl_pct": 38.62,
       "exit_reason": "LLM: sell_half — Up +38.6% with no real pool yet (bonding curve, 458% share means our 0.05 SOL is dominating a tiny pool). Bonding-curve tokens dump hard at curve comp",
       "partial": true
+    },
+    {
+      "mint": "EUDTDjoNNeKZGq6PptrWSz2DQsTEYXji3gqsSjEHpump",
+      "symbol": "BUCKAZOIDS",
+      "name": "BUCKAZOIDS",
+      "amount_sold": 594060063.2776444,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T03:46:05.626985+00:00",
+      "exit_time": "2026-09-10T03:51:15.667318+00:00",
+      "entry_price_usd": 1.0707040235807352e-09,
+      "exit_price_usd": 1.9640343085184098e-09,
+      "entry_sol_for_chunk": 0.00625,
+      "exit_sol_received": 0.011437,
+      "pnl_sol": 0.005187,
+      "pnl_pct": 83.43,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T03:50:11.895091+00:00",
+  "last_updated": "2026-09-10T03:51:37.504808+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.023,
-  "portfolio_value_usd": 292.7,
+  "last_sol_price_usd": 102.012,
+  "portfolio_value_usd": 293.2,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 03:27 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Flyhard at $1.28009e-07 | P&L: -5.8%",
-      "reason": "Bonding-curve with $4 pool and 25% share means I'm the entire exit liquidity — if anyone sells, I eat the loss. Down 5.8% with no bounce signal and a generic name. Cut and redeploy."
-    },
-    {
-      "time": "2026-09-10 03:27 UTC",
-      "action": "buy",
-      "details": "[LLM] $HaWG at $3.709e-06, spent 0.05 SOL",
-      "reason": "$HaWG — strongest narrative of the batch: $ORE dividend-paying memecoin with a community SoV angle. Has both description and twitter, passes viability. Dividend mechanic gives it a reason to hold beyond pure attention."
-    },
     {
       "time": "2026-09-10 03:28 UTC",
       "action": "sell",
@@ -42449,40 +42454,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $BUCKAZOIDS at $1.48426e-09 | P&L: +38.6%",
       "reason": "Up +38.6% with no real pool yet (bonding curve, 458% share means our 0.05 SOL is dominating a tiny pool). Bonding-curve tokens dump hard at curve completion. Lock half the gain now, let the other half ride if it graduates."
+    },
+    {
+      "time": "2026-09-10 03:51 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $BUCKAZOIDS at $1.96403e-09 | P&L: +83.4%",
+      "reason": "Auto take-profit at +83.4%"
+    },
+    {
+      "time": "2026-09-10 03:51 UTC",
+      "action": "buy",
+      "details": "[LLM] $att at $1.74012e-07, spent 0.05 SOL",
+      "reason": "$att (attention) is a meta-self-aware play on the attention-coin narrative itself — tokens named after the mechanic they're exploiting tend to viral-loop on CT. Ultra-low $174 mcap at 0.4min = max asymmetry. Worst case -25% = 0.025 SOL cost to learn if meta-naming works."
     }
   ],
   "trade_stats": {
-    "total": 2488,
-    "wins": 1225,
+    "total": 2489,
+    "wins": 1226,
     "losses": 1263,
-    "win_rate_pct": 49.2,
-    "total_pnl_sol": -1.397321,
-    "avg_pnl_pct": 28.94,
+    "win_rate_pct": 49.3,
+    "total_pnl_sol": -1.392134,
+    "avg_pnl_pct": 28.96,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 111,
-    "today_realized_sol": 1.287994,
-    "today_target_pct": 322.0,
+    "today_trades": 112,
+    "today_realized_sol": 1.293181,
+    "today_target_pct": 323.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1225,
+      "win_count": 1226,
       "loss_count": 1263,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:50:11.894035+00:00",
+  "last_llm_brief_at": "2026-09-10T03:51:36.136311+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EUDTDjoNNeKZGq6PptrWSz2DQsTEYXji3gqsSjEHpump": {
-      "price_usd": 1.4842584828300488e-09,
+      "price_usd": 1.9640343085184098e-09,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.38474138385199996,
+      "liquidity_usd": 0.5264189503560001,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.003771124
+      "real_sol_reserves": 0.005160363
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

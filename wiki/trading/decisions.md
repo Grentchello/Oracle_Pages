@@ -17857,3 +17857,9 @@
 ## [2026-09-10 03:50 UTC] sell | [PARTIAL][LLM] $BUCKAZOIDS at $1.48426e-09 | P&L: +38.6%
 - **Reasoning:** Up +38.6% with no real pool yet (bonding curve, 458% share means our 0.05 SOL is dominating a tiny pool). Bonding-curve tokens dump hard at curve completion. Lock half the gain now, let the other half ride if it graduates.
 
+## [2026-09-10 03:51 UTC] sell | [v8.7 TP +50% (full)] $BUCKAZOIDS at $1.96403e-09 | P&L: +83.4%
+- **Reasoning:** Auto take-profit at +83.4%
+
+## [2026-09-10 03:51 UTC] buy | [LLM] $att at $1.74012e-07, spent 0.05 SOL
+- **Reasoning:** $att (attention) is a meta-self-aware play on the attention-coin narrative itself — tokens named after the mechanic they're exploiting tend to viral-loop on CT. Ultra-low $174 mcap at 0.4min = max asymmetry. Worst case -25% = 0.025 SOL cost to learn if meta-naming works.
+
