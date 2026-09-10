@@ -19528,3 +19528,6 @@
 ## [2026-09-10 15:13 UTC] buy | [LLM] $CATESEM at $8.556e-06, spent 0.05 SOL
 - **Reasoning:** $CATESEM has the strongest narrative in the batch: explicit 10% supply airdrop to ANSEM, one of the largest memecoin KOLs on Solana. That's a built-in shill event. Mcap $11.6k and 34% bonded = very early, real attention catalyst, liquidity decent enough for a 0.05 SOL entry. Take the trade.
 
+## [2026-09-10 15:14 UTC] sell | [rapid-drop] $CATESEM crashed >15% in one tick | P&L: -63.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
