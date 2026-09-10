@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.515865,
+  "balance_sol": 4.499875,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "CveGP3dZowXnhAQwCUUNXHHt9qtDMoXPtLCAam1W7hfW": {
-      "symbol": "Hand",
-      "name": "The Hand",
-      "amount": 1216434.0712223293,
-      "entry_price_usd": 4.156e-06,
+    "DzTukdfzrNSqxFt5aJeC5yDd1FGkEP2oEJDAAZkEpump": {
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount": 686422.2674813307,
+      "entry_price_usd": 7.365e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T08:58:37.721670+00:00",
+      "entry_time": "2026-09-10T09:00:17.818666+00:00",
       "entry_usd_value": 5.0555,
-      "last_seen_price_usd": 4.156e-06,
+      "last_seen_price_usd": 7.365e-06,
       "entry_signals": {
-        "liquidity_usd": 14.30139434676,
-        "volume_24h_usd": 1021.68,
-        "market_cap_usd": 4592.338451718769,
-        "ath_market_cap_usd": 5014.100497760861,
+        "liquidity_usd": 2053.30076483182,
+        "volume_24h_usd": 1889.65,
+        "market_cap_usd": 7363.211862800139,
+        "ath_market_cap_usd": 7363.211862800139,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.141443916,
-        "description": "",
-        "twitter": "https://x.com/memedevfun/status/2097972566837109033",
+        "real_sol_reserves": 20.307593362,
+        "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. GL. ",
+        "twitter": "https://x.com/_rise",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -44822,25 +44822,30 @@
       "pnl_pct": 14.81,
       "exit_reason": "LLM: sell_all — Locking +14.8% gain before it reverses. Pool is tiny ($946) and bonding-curve tokens stall fast; better to rotate capital into a stronger fresh launch",
       "partial": false
+    },
+    {
+      "mint": "CveGP3dZowXnhAQwCUUNXHHt9qtDMoXPtLCAam1W7hfW",
+      "symbol": "Hand",
+      "name": "The Hand",
+      "amount_sold": 1216434.0712223293,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T08:58:37.721670+00:00",
+      "exit_time": "2026-09-10T08:59:41.705349+00:00",
+      "entry_price_usd": 4.156e-06,
+      "exit_price_usd": 2.8269338328321153e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.03401,
+      "pnl_sol": -0.01599,
+      "pnl_pct": -31.98,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T08:58:37.721938+00:00",
+  "last_updated": "2026-09-10T09:00:17.818945+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.11,
-  "portfolio_value_usd": 461.65,
+  "portfolio_value_usd": 460.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 08:32 UTC",
-      "action": "buy",
-      "details": "[LLM] $STOMP at $2.0636e-05, spent 0.05 SOL",
-      "reason": "$STOMP 'STONK AND PUMP' — meta-memecoin name literally about pumping, $20k mcap with bond 39% already filled, active X account, self-aware narrative tends to print in attention markets. Best narrative + liquidity of the batch."
-    },
-    {
-      "time": "2026-09-10 08:33 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $STOMP at $2.15361e-05 | P&L: +4.4%",
-      "reason": "Up only +4.4% after first hour on a tiny $5.3k pool — no momentum yet, but technically green. Take half off to recover cost basis and let the rest ride if it pops."
-    },
     {
       "time": "2026-09-10 08:35 UTC",
       "action": "sell",
@@ -44948,30 +44953,54 @@
       "action": "buy",
       "details": "[LLM] $Hand at $4.156e-06, spent 0.05 SOL",
       "reason": "$Hand has explicit X engagement (twitter link to memedevfun status), fresh 0.9min age, $4.6k mcap = bottom of bonding curve, no celebrity/political fragility flags. Hand/cursor memes have viral potential on CT."
+    },
+    {
+      "time": "2026-09-10 08:59 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Hand crashed >15% in one tick | P&L: -32.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 09:00 UTC",
+      "action": "buy",
+      "details": "[LLM] $RISE at $7.365e-06, spent 0.05 SOL",
+      "reason": "RISE has a clear attention mechanic (60% airdrop to top 15 holders = guaranteed viral CT engagement), live twitter @_rise, $7.3k mcap is early enough, bonding curve narrative creates natural FOMO. Best narrative in the batch."
     }
   ],
   "trade_stats": {
-    "total": 2635,
+    "total": 2636,
     "wins": 1284,
-    "losses": 1351,
+    "losses": 1352,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.299576,
-    "avg_pnl_pct": 28.78,
+    "total_pnl_sol": 0.283586,
+    "avg_pnl_pct": 28.76,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 258,
-    "today_realized_sol": 2.984891,
-    "today_target_pct": 746.2,
+    "today_trades": 259,
+    "today_realized_sol": 2.968901,
+    "today_target_pct": 742.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1284,
-      "loss_count": 1351,
+      "loss_count": 1352,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T08:58:36.140301+00:00",
+  "last_llm_brief_at": "2026-09-10T09:00:16.497236+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CveGP3dZowXnhAQwCUUNXHHt9qtDMoXPtLCAam1W7hfW": {
+      "price_usd": 2.8269338328321153e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2.62886e-06,
+      "volume_h24": 3436.27,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.6e-08
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -18658,3 +18658,9 @@
 ## [2026-09-10 08:58 UTC] buy | [LLM] $Hand at $4.156e-06, spent 0.05 SOL
 - **Reasoning:** $Hand has explicit X engagement (twitter link to memedevfun status), fresh 0.9min age, $4.6k mcap = bottom of bonding curve, no celebrity/political fragility flags. Hand/cursor memes have viral potential on CT.
 
+## [2026-09-10 08:59 UTC] sell | [rapid-drop] $Hand crashed >15% in one tick | P&L: -32.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 09:00 UTC] buy | [LLM] $RISE at $7.365e-06, spent 0.05 SOL
+- **Reasoning:** RISE has a clear attention mechanic (60% airdrop to top 15 holders = guaranteed viral CT engagement), live twitter @_rise, $7.3k mcap is early enough, bonding curve narrative creates natural FOMO. Best narrative in the batch.
+
