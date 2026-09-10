@@ -19507,3 +19507,9 @@
 ## [2026-09-10 15:07 UTC] sell | [PARTIAL][LLM] $BLOOK at $2.80697e-06 | P&L: -6.2%
 - **Reasoning:** Down6.2% already with 869% pool share (massively oversized for $1 pool). Bonding-curve pool, no real liquidity, fresh entry. Cut and free the slot before it bleeds to -25%.
 
+## [2026-09-10 15:09 UTC] sell | [FULL][LLM] $BLOOK at $2.81172e-06 | P&L: -6.0%
+- **Reasoning:** Pool is only $1 with 25% share — illiquid and near impossible to exit. Down 6% already with no volume signal. Better to free the slot for a fresh attention launch than hold dead weight.
+
+## [2026-09-10 15:09 UTC] buy | [LLM] $Josh at $1.206e-05, spent 0.05 SOL
+- **Reasoning:** $Josh from TheAuraBird has the highest mcap ($7.1k) and bond progress (27%) of the fresh batch — strongest early attention signal. Narrative name + active X poster = viral potential.
+
