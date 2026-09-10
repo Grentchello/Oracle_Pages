@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.614729,
+  "balance_sol": 1.615474,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6zc5hi5zm1uzfzKA7zVkNagUfWpEGCBZHZjsTp3wpump": {
-      "symbol": "FLIP",
-      "name": "WhatTheFlip",
-      "amount": 588403.3227505826,
-      "entry_price_usd": 1.2820853489975533e-07,
-      "entry_sol_spent": 0.0007451435000000007,
-      "entry_time": "2026-09-10T00:23:11.550551+00:00",
-      "entry_usd_value": 5.062,
-      "last_seen_price_usd": 1.2837316458700317e-07,
-      "entry_signals": {
-        "liquidity_usd": 0.30175331176,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 4035.826345004591,
-        "ath_market_cap_usd": 4054.2348438737977,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.002980574,
-        "description": "What does everyone think of the apple flip phone?. This coin pairs with apple stocks, i Doxxed myself @nadeemmako",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40606,19 +40582,30 @@
       "pnl_pct": 0.13,
       "exit_reason": "LLM: sell_all — Essentially flat (+0.1%) but our1678% share of a $0 pool is a liquidity trap — any other seller will crush price before we can exit. Better to take th",
       "partial": true
+    },
+    {
+      "mint": "6zc5hi5zm1uzfzKA7zVkNagUfWpEGCBZHZjsTp3wpump",
+      "symbol": "FLIP",
+      "name": "WhatTheFlip",
+      "amount_sold": 588403.3227505826,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T00:23:11.550551+00:00",
+      "exit_time": "2026-09-10T00:26:37.473820+00:00",
+      "entry_price_usd": 1.2820853489975533e-07,
+      "exit_price_usd": 1.2837316458700317e-07,
+      "entry_sol_for_chunk": 0.000745,
+      "exit_sol_received": 0.000745,
+      "pnl_sol": 0.0,
+      "pnl_pct": 0.13,
+      "exit_reason": "LLM: sell_all — $FLIP was just opened (0.0h held, +0.1%) on the bonding curve. No thesis-violating data yet — give it time to develop before rotating into an unproven",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T00:25:01.445696+00:00",
+  "last_updated": "2026-09-10T00:26:37.474002+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.37,
   "portfolio_value_usd": 163.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 23:35 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-10 00:01 UTC",
       "action": "buy",
@@ -40732,28 +40719,34 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $FLIP at $1.28373e-07 | P&L: +0.1%",
       "reason": "Essentially flat (+0.1%) but our1678% share of a $0 pool is a liquidity trap — any other seller will crush price before we can exit. Better to take the scratch now than risk becoming the exit liquidity for the next holder. Frees the slot for a real entry."
+    },
+    {
+      "time": "2026-09-10 00:26 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FLIP at $1.28373e-07 | P&L: +0.1%",
+      "reason": "$FLIP was just opened (0.0h held, +0.1%) on the bonding curve. No thesis-violating data yet — give it time to develop before rotating into an unproven sub-$5k mcap launch."
     }
   ],
   "trade_stats": {
-    "total": 2387,
+    "total": 2388,
     "wins": 1197,
-    "losses": 1190,
+    "losses": 1191,
     "win_rate_pct": 50.1,
     "total_pnl_sol": -2.650836,
-    "avg_pnl_pct": 29.1,
+    "avg_pnl_pct": 29.09,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 10,
+    "today_trades": 11,
     "today_realized_sol": 0.034479,
     "today_target_pct": 8.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1197,
-      "loss_count": 1190,
+      "loss_count": 1191,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T00:25:01.445236+00:00",
+  "last_llm_brief_at": "2026-09-10T00:26:37.473731+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "6zc5hi5zm1uzfzKA7zVkNagUfWpEGCBZHZjsTp3wpump": {
