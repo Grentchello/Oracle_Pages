@@ -20134,3 +20134,9 @@
 ## [2026-09-10 19:07 UTC] buy | [LLM] $KIRK at $4.649e-06, spent 0.05 SOL
 - **Reasoning:** $KIRK has highest mcap among fresh launches ($5k), named 'Kirk Protocol' suggests a real project narrative rather than random ticker, dedicated twitter handle. Attention signal is cleanest of the batch. Position size 0.05 SOL per bot rules.
 
+## [2026-09-10 19:08 UTC] sell | [rapid-drop] $KIRK crashed >15% in one tick | P&L: -38.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:08 UTC] buy | [LLM] $CAUSA at $3.64e-06, spent 0.05 SOL
+- **Reasoning:** $CAUSA — launchpad narrative (pair memecoins with stocks) is novel and has an active X account (@Causadotfun). Sub-$3k mcap with a real platform story = early attention. Fits viability (twitter present) and not a fragility-blocklist keyword. Speculative but has structural attention angle.
+
