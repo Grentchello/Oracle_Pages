@@ -19156,3 +19156,6 @@
 ## [2026-09-10 12:50 UTC] buy | [LLM] $VOID at $2.792e-06, spent 0.05 SOL
 - **Reasoning:** $VOID has the strongest narrative of the batch: 60% supply airdrop to top 15 holders at bonding curve completion creates a built-in competitive buying mechanic (people race to crack top 15). Has twitter presence from creator, $2.8k mcap with massive upside if mechanic catches on. Risk: creator could rug at bonding completion and dump on top-15 holders — but that asymmetry is the trade.
 
+## [2026-09-10 12:51 UTC] sell | [PARTIAL][LLM] $VOID at $2.79214e-06 | P&L: +0.0%
+- **Reasoning:** We are 200% of the pool (⚠ HUGE) — we ARE the liquidity. Any other seller will crash the price against us. Flat at +0.0% on a bonding curve with massive concentration = exit immediately before someone else dumps on us.
+
