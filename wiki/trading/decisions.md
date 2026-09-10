@@ -18181,3 +18181,6 @@
 ## [2026-09-10 05:36 UTC] sell | [FULL][LLM] $PAIR at $2.85126e-06 | P&L: -4.2%
 - **Reasoning:** PAIR just opened (-4.2%, 0.0h) and is on the curve. No reason to panic yet — give it a few minutes to see if bonding curve fills or it breaks out. Will re-evaluate at the next tick if still flat.
 
+## [2026-09-10 05:39 UTC] buy | [LLM] $OPTIMUS at $1.4056e-07, spent 0.05 SOL
+- **Reasoning:** $OPTIMUS 'infinite money glitch' — viral phrase, launched from discord (organic community), fresh at 0.3min, $5k mcap. Narrative hook is strong but only 1.6x size of NEKO — NEKO has stronger meme heritage.
+
