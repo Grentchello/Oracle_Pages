@@ -1,32 +1,8 @@
 {
-  "balance_sol": 8.880436,
+  "balance_sol": 8.934038,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5BVqKgYKuRCbRzzSstEFQ4gMUidfifNek4JRuarspump": {
-      "symbol": "BTC",
-      "name": "Break the ceiling",
-      "amount": 465949.755087253,
-      "entry_price_usd": 1.0766182287316835e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T20:56:20.674801+00:00",
-      "entry_usd_value": 5.016500000000001,
-      "last_seen_price_usd": 1.0766182287316835e-05,
-      "entry_signals": {
-        "liquidity_usd": 3060.81678091706,
-        "volume_24h_usd": null,
-        "market_cap_usd": 10741.501514605932,
-        "ath_market_cap_usd": 11267.040242794552,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 30.507493082,
-        "description": "Created on https://rapidlaunch.io",
-        "twitter": "https://x.com/pxblocito/status/2039307776615125407?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50296,19 +50272,30 @@
       "pnl_pct": -72.06,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "5BVqKgYKuRCbRzzSstEFQ4gMUidfifNek4JRuarspump",
+      "symbol": "BTC",
+      "name": "Break the ceiling",
+      "amount_sold": 465949.755087253,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T20:56:20.674801+00:00",
+      "exit_time": "2026-09-10T20:57:42.607045+00:00",
+      "entry_price_usd": 1.0766182287316835e-05,
+      "exit_price_usd": 1.1564729057606395e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.053602,
+      "pnl_sol": 0.003602,
+      "pnl_pct": 7.42,
+      "exit_reason": "LLM: sell_all — $BTC has weak narrative on Solana (parody of an already-saturated asset), $3k pool with 0% share means exit will be illiquid, and only +7.4% doesn't j",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T20:56:20.674977+00:00",
+  "last_updated": "2026-09-10T20:57:42.881493+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.33,
-  "portfolio_value_usd": 895.99,
+  "last_sol_price_usd": 100.53,
+  "portfolio_value_usd": 898.14,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 20:32 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $OPEC at $5.90966e-06 | P&L: +44.9%",
-      "reason": "+44.9% gain is deep into TP territory. The OPEC narrative appears to have peaked (pump-style token, attention exhausted). Lock the gain — 0.0449 SOL profit on 0.05 SOL position, don't hope for more."
-    },
     {
       "time": "2026-09-10 20:32 UTC",
       "action": "buy",
@@ -50422,30 +50409,48 @@
       "action": "buy",
       "details": "[LLM] $BTC at $1.07662e-05, spent 0.05 SOL",
       "reason": "$BTC 'Break the ceiling' has the strongest attention signal on this slate: highest mcap ($10.7k), highest bond completion (33% = organic buys not just snipes), and the BTC ceiling narrative is a topical meta-meme. Passes viability (twitter present) and fragility (no blocked keywords). Default bias = take the trade; this is the freshest organic launch in the batch."
+    },
+    {
+      "time": "2026-09-10 20:57 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BTC at $1.15647e-05 | P&L: +7.4%",
+      "reason": "$BTC has weak narrative on Solana (parody of an already-saturated asset), $3k pool with 0% share means exit will be illiquid, and only +7.4% doesn't justify holding through a bonding-curve squeeze. Rotating capital to a stronger narrative."
     }
   ],
   "trade_stats": {
-    "total": 2957,
-    "wins": 1386,
+    "total": 2958,
+    "wins": 1387,
     "losses": 1571,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 4.664248,
-    "avg_pnl_pct": 28.75,
+    "total_pnl_sol": 4.66785,
+    "avg_pnl_pct": 28.74,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 580,
-    "today_realized_sol": 7.349563,
-    "today_target_pct": 1837.4,
+    "today_trades": 581,
+    "today_realized_sol": 7.353165,
+    "today_target_pct": 1838.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1386,
+      "win_count": 1387,
       "loss_count": 1571,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T20:56:19.263556+00:00",
+  "last_llm_brief_at": "2026-09-10T20:57:42.607009+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5BVqKgYKuRCbRzzSstEFQ4gMUidfifNek4JRuarspump": {
+      "price_usd": 1.1564729057606395e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3101.62934699757,
+      "volume_h24": 12770.46,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 30.852773769
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

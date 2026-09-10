@@ -20464,3 +20464,6 @@
 ## [2026-09-10 20:56 UTC] buy | [LLM] $BTC at $1.07662e-05, spent 0.05 SOL
 - **Reasoning:** $BTC 'Break the ceiling' has the strongest attention signal on this slate: highest mcap ($10.7k), highest bond completion (33% = organic buys not just snipes), and the BTC ceiling narrative is a topical meta-meme. Passes viability (twitter present) and fragility (no blocked keywords). Default bias = take the trade; this is the freshest organic launch in the batch.
 
+## [2026-09-10 20:57 UTC] sell | [FULL][LLM] $BTC at $1.15647e-05 | P&L: +7.4%
+- **Reasoning:** $BTC has weak narrative on Solana (parody of an already-saturated asset), $3k pool with 0% share means exit will be illiquid, and only +7.4% doesn't justify holding through a bonding-curve squeeze. Rotating capital to a stronger narrative.
+
