@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.376337,
+  "balance_sol": 4.426294,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Hb3QoSoPNNXjftmKH154EXm1uUHp8x9tSMMskaBYpump": {
-      "symbol": "CHONK",
-      "name": "Featherweight Heavyweight",
-      "amount": 1635668.4834882976,
-      "entry_price_usd": 3.119e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T06:00:15.318287+00:00",
-      "entry_usd_value": 5.10165,
-      "last_seen_price_usd": 3.119e-06,
-      "entry_signals": {
-        "liquidity_usd": 139.306635131031,
-        "volume_24h_usd": 571.31,
-        "market_cap_usd": 3120.317083328913,
-        "ath_market_cap_usd": 3488.5714674886053,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.365309607,
-        "description": "Pesto, the unusually enormous king penguin chick at SEA LIFE Melbourne, became a waddling unit of measurement when his size dwarfed nearby penguins. His fluffy bulk and tiny juvenile confidence turned an aquarium update into instant chonk mythology.",
-        "twitter": "https://x.com/SEALIFEMelbourne",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -43445,19 +43421,30 @@
       "pnl_pct": -53.65,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "Hb3QoSoPNNXjftmKH154EXm1uUHp8x9tSMMskaBYpump",
+      "symbol": "CHONK",
+      "name": "Featherweight Heavyweight",
+      "amount_sold": 1635668.4834882976,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T06:00:15.318287+00:00",
+      "exit_time": "2026-09-10T06:01:38.514045+00:00",
+      "entry_price_usd": 3.119e-06,
+      "exit_price_usd": 3.116313912428998e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049957,
+      "pnl_sol": -4.3e-05,
+      "pnl_pct": -0.09,
+      "exit_reason": "LLM: sell_all — Just entered this tick at -0.1%, essentially flat. Pool is thin ($138) so my 4% share means selling now would crash price and lock in ~zero. Give it r",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T06:00:15.318649+00:00",
+  "last_updated": "2026-09-10T06:01:38.514299+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.033,
-  "portfolio_value_usd": 451.63,
+  "last_sol_price_usd": 102.032,
+  "portfolio_value_usd": 451.62,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 05:34 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $gudtek crashed >15% in one tick | P&L: -85.5%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 05:35 UTC",
       "action": "buy",
@@ -43571,40 +43558,46 @@
       "action": "buy",
       "details": "[LLM] $CHONK at $3.119e-06, spent 0.05 SOL",
       "reason": "$CHONK — Pesto the giant king penguin chick is an ongoing viral meme with institutional backing (SEA LIFE Melbourne's official twitter). Real organic attention, not just a generic animal coin. Bond only 4% so risk is high, but narrative strength is the strongest of the batch. GMGN fragility check will gate if it fails."
+    },
+    {
+      "time": "2026-09-10 06:01 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CHONK at $3.11631e-06 | P&L: -0.1%",
+      "reason": "Just entered this tick at -0.1%, essentially flat. Pool is thin ($138) so my 4% share means selling now would crash price and lock in ~zero. Give it room per the 30-min hold window and -25% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 2554,
+    "total": 2555,
     "wins": 1249,
-    "losses": 1305,
+    "losses": 1306,
     "win_rate_pct": 48.9,
-    "total_pnl_sol": 0.160028,
-    "avg_pnl_pct": 29.47,
+    "total_pnl_sol": 0.159985,
+    "avg_pnl_pct": 29.46,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 177,
-    "today_realized_sol": 2.845343,
+    "today_trades": 178,
+    "today_realized_sol": 2.8453,
     "today_target_pct": 711.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1249,
-      "loss_count": 1305,
+      "loss_count": 1306,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T06:00:13.938218+00:00",
+  "last_llm_brief_at": "2026-09-10T06:01:38.513901+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "DDhSdzNsohhNSKnznSaAEr54MdBNLzEnLfAiSJVpump": {
-      "price_usd": 3.582595464068756e-06,
+    "Hb3QoSoPNNXjftmKH154EXm1uUHp8x9tSMMskaBYpump": {
+      "price_usd": 3.116313912428998e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 369.29104248608104,
-      "volume_h24": 14249.0,
+      "liquidity_usd": 138.29816888328,
+      "volume_h24": 575.31,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.619329457
+      "real_sol_reserves": 1.355439165
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
