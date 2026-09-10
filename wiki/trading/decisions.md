@@ -18202,3 +18202,9 @@
 ## [2026-09-10 05:51 UTC] buy | [LLM] $BEANIE at $5.36386e-06, spent 0.05 SOL
 - **Reasoning:** $BEANIE Beanie Boy — has an active Twitter account (@BeanieBoyOTC) and Discord launch community (uxento). Beanie Baby/collectible nostalgia is a known viral narrative. Fresh launch, decent attention signal. Taking the position at 0.1 SOL per strategy.
 
+## [2026-09-10 05:52 UTC] sell | [rapid-drop] $BEANIE crashed >15% in one tick | P&L: -46.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 05:53 UTC] buy | [LLM] $Normie at $6.987e-06, spent 0.05 SOL
+- **Reasoning:** $Normie — strongest fresh launch: highest mcap ($12k) at 0.5min age, 34% bond, clear meta-narrative ('The Normie' is self-aware meme commentary), twitter link from @derivativist. Highest attention signal of the slate; riding early before normie-chasers pile in.
+
