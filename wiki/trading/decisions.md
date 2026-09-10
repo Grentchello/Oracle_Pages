@@ -18688,3 +18688,6 @@
 ## [2026-09-10 09:10 UTC] buy | [LLM] $DINOBOO at $3.991e-06, spent 0.05 SOL
 - **Reasoning:** $DINOBOO has the strongest narrative of the batch — cute prehistoric-explorer mascot with a thoughtful 'one small step' tagline, sub-$10k mcap leaving room for attention-driven 5-10x, bonding at 25%. Most others are junk, political-flagged, or already-extracted ($HOOD at $14M mcap).
 
+## [2026-09-10 09:12 UTC] sell | [FULL][LLM] $DINOBOO at $3.4614e-06 | P&L: -13.3%
+- **Reasoning:** $DINOBOO is already -13.3% on a thin $322 pool with 0.0h held — classic weak launch with no bounce signal. Cutting before the -25% hard cap. Capital rotation beats bag-holding.
+

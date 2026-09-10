@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.463827,
+  "balance_sol": 4.507188,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8Bm1hpQzCndB3FuSiLu1ZaEttt1QvDXPY6JveNqHpump": {
-      "symbol": "DINOBOO",
-      "name": "DINOBOO",
-      "amount": 1267727.3866198945,
-      "entry_price_usd": 3.991e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T09:10:25.766328+00:00",
-      "entry_usd_value": 5.0595,
-      "last_seen_price_usd": 3.991e-06,
-      "entry_signals": {
-        "liquidity_usd": 1552.2492096086999,
-        "volume_24h_usd": 596.08,
-        "market_cap_usd": 6363.479866765019,
-        "ath_market_cap_usd": 6386.551905023464,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 15.33994673,
-        "description": "Dinoboo is a little prehistoric explorer who believes adventure isn’t about rushing—it’s about taking one small step at a time. While others hurry across the ancient world, Dinoboo wanders at his own peaceful pace, finding joy in quiet riversides, lush meadows, and the simple beauty of every moment.",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44907,19 +44883,30 @@
       "pnl_pct": 23.13,
       "exit_reason": "LLM: sell_all — +23.1% profit triggers the 'up >20%, take the gain' rule. We hold 7% of the bonding curve — a significant share on a thin pool, so waiting for +30% au",
       "partial": false
+    },
+    {
+      "mint": "8Bm1hpQzCndB3FuSiLu1ZaEttt1QvDXPY6JveNqHpump",
+      "symbol": "DINOBOO",
+      "name": "DINOBOO",
+      "amount_sold": 1267727.3866198945,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T09:10:25.766328+00:00",
+      "exit_time": "2026-09-10T09:12:06.788827+00:00",
+      "entry_price_usd": 3.991e-06,
+      "exit_price_usd": 3.4613978804809575e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.043361,
+      "pnl_sol": -0.006639,
+      "pnl_pct": -13.27,
+      "exit_reason": "LLM: sell_all — $DINOBOO is already -13.3% on a thin $322 pool with 0.0h held — classic weak launch with no bounce signal. Cutting before the -25% hard cap. Capital r",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T09:10:25.766631+00:00",
+  "last_updated": "2026-09-10T09:12:08.142730+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.19,
-  "portfolio_value_usd": 456.75,
+  "last_sol_price_usd": 101.2,
+  "portfolio_value_usd": 456.13,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 08:40 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-10 08:41 UTC",
       "action": "buy",
@@ -45033,30 +45020,48 @@
       "action": "buy",
       "details": "[LLM] $DINOBOO at $3.991e-06, spent 0.05 SOL",
       "reason": "$DINOBOO has the strongest narrative of the batch — cute prehistoric-explorer mascot with a thoughtful 'one small step' tagline, sub-$10k mcap leaving room for attention-driven 5-10x, bonding at 25%. Most others are junk, political-flagged, or already-extracted ($HOOD at $14M mcap)."
+    },
+    {
+      "time": "2026-09-10 09:12 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DINOBOO at $3.4614e-06 | P&L: -13.3%",
+      "reason": "$DINOBOO is already -13.3% on a thin $322 pool with 0.0h held — classic weak launch with no bounce signal. Cutting before the -25% hard cap. Capital rotation beats bag-holding."
     }
   ],
   "trade_stats": {
-    "total": 2640,
+    "total": 2641,
     "wins": 1286,
-    "losses": 1354,
+    "losses": 1355,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.247538,
-    "avg_pnl_pct": 28.69,
+    "total_pnl_sol": 0.240899,
+    "avg_pnl_pct": 28.67,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 263,
-    "today_realized_sol": 2.932853,
-    "today_target_pct": 733.2,
+    "today_trades": 264,
+    "today_realized_sol": 2.926214,
+    "today_target_pct": 731.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1286,
-      "loss_count": 1354,
+      "loss_count": 1355,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T09:10:24.441755+00:00",
+  "last_llm_brief_at": "2026-09-10T09:12:06.788788+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8Bm1hpQzCndB3FuSiLu1ZaEttt1QvDXPY6JveNqHpump": {
+      "price_usd": 3.4613978804809575e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 321.9676392944,
+      "volume_h24": 3098.77,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.181498412
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
