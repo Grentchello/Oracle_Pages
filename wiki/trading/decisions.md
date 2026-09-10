@@ -17494,3 +17494,6 @@
 ## [2026-09-10 01:34 UTC] buy | [LLM] $Roast at $3.054e-06, spent 0.05 SOL
 - **Reasoning:** $Roast is riding a live news narrative — Samsung and Duolingo publicly roasting Apple over its foldable phone announcement, cross-posted from official brand accounts. Real cultural attention with $3k mcap means room to run if the story catches. Risk: bond only 4% complete, very thin liquidity, could rug if no further engagement.
 
+## [2026-09-10 01:36 UTC] sell | [FULL][LLM] $Roast at $3.02913e-06 | P&L: -0.8%
+- **Reasoning:** $Roast just entered, -0.8% is noise. Position is fresh (0.0h held). Give it time to develop before judging — no reason to churn into another <2min old launch when this one hasn't had a chance to move.
+
