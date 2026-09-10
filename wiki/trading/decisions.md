@@ -19102,3 +19102,6 @@
 ## [2026-09-10 12:27 UTC] buy | [LLM] $iDuo at $5.53771e-06, spent 0.05 SOL
 - **Reasoning:** iPhone Duo narrative with active Twitter attention from @meggarwicky; 22% bond progress is the highest among new launches indicating real demand; mcap $5.5k is in viable territory. Small position to test the narrative momentum.
 
+## [2026-09-10 12:28 UTC] sell | [rapid-drop] $iDuo crashed >15% in one tick | P&L: -48.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
