@@ -18505,3 +18505,9 @@
 ## [2026-09-10 07:48 UTC] buy | [LLM] $PP at $5.78611e-06, spent 0.05 SOL
 - **Reasoning:** $PP has a twitter link (attention signal) and $5.7k mcap on a fresh 0.4min launch. Pump-themed narrative has viral potential, low enough mcap for 5-10x move if attention catches.
 
+## [2026-09-10 07:50 UTC] sell | [FULL][LLM] $PP at $6.94062e-06 | P&L: +19.9%
+- **Reasoning:** PP is up exactly +20% on tiny liquidity ($1720 pool, 0% our share — no organic depth). At the TP-1 threshold with thin book and a bonding-curve graduation risk, locking the gain beats hoping for more. Free the slot for a fresher launch.
+
+## [2026-09-10 07:50 UTC] buy | [LLM] $OCTOPUS at $5.57506e-06, spent 0.05 SOL
+- **Reasoning:** $OCTOPUS — animal meme (octopus) is a classic attention narrative. Bonding curve already 22% complete in <30s = strong organic demand, mcap $5.5k means deep10x upside if it breaks out. Highest signal-to-noise among the fresh launches.
+

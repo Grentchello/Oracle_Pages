@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.153135,
+  "balance_sol": 4.163141,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "5Jo87dA42v21rv6ru9WD3K7vqgqRf13MnDEUBxLtpump": {
-      "symbol": "PP",
-      "name": "Pump Pair",
-      "amount": 874162.9551571547,
-      "entry_price_usd": 5.786106549311148e-06,
+    "Gpmz4bFnYi9ePzvPjAht17D3T2fgXjM44fRGWjwbpump": {
+      "symbol": "OCTOPUS",
+      "name": "Octopuscoin",
+      "amount": 906806.5497522323,
+      "entry_price_usd": 5.57505898185376e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T07:48:52.549018+00:00",
-      "entry_usd_value": 5.058,
-      "last_seen_price_usd": 5.786106549311148e-06,
+      "entry_time": "2026-09-10T07:50:10.340078+00:00",
+      "entry_usd_value": 5.0555,
+      "last_seen_price_usd": 5.57505898185376e-06,
       "entry_signals": {
-        "liquidity_usd": 1510.3031997117598,
+        "liquidity_usd": 1367.58963424622,
         "volume_24h_usd": null,
-        "market_cap_usd": 5784.164958512788,
-        "ath_market_cap_usd": 7148.960777645348,
+        "market_cap_usd": 5577.264523929461,
+        "ath_market_cap_usd": 6228.534673215726,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 14.929845786,
+        "real_sol_reserves": 13.525760402,
         "description": "",
-        "twitter": "https://x.com/igetsjiggy6767/status/2097955226791641092",
+        "twitter": "https://x.com/AxTrades32/status/2097955537790828725?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -44312,25 +44312,30 @@
       "pnl_pct": 29.62,
       "exit_reason": "LLM: sell_all — Up +29.6%, sitting right at the +30% TP threshold. Bot will auto-close anyway — selling now locks the gain and frees the slot for a fresh launch with ",
       "partial": false
+    },
+    {
+      "mint": "5Jo87dA42v21rv6ru9WD3K7vqgqRf13MnDEUBxLtpump",
+      "symbol": "PP",
+      "name": "Pump Pair",
+      "amount_sold": 874162.9551571547,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T07:48:52.549018+00:00",
+      "exit_time": "2026-09-10T07:50:08.974153+00:00",
+      "entry_price_usd": 5.786106549311148e-06,
+      "exit_price_usd": 6.940618759619563e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.060006,
+      "pnl_sol": 0.010006,
+      "pnl_pct": 19.95,
+      "exit_reason": "LLM: sell_all — PP is up exactly +20% on tiny liquidity ($1720 pool, 0% our share — no organic depth). At the TP-1 threshold with thin book and a bonding-curve gradua",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T07:48:52.549279+00:00",
+  "last_updated": "2026-09-10T07:50:10.340346+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.16,
-  "portfolio_value_usd": 425.19,
+  "last_sol_price_usd": 101.11,
+  "portfolio_value_usd": 425.99,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 07:29 UTC",
-      "action": "buy",
-      "details": "[LLM] $CHAROC at $2.022e-06, spent 0.05 SOL",
-      "reason": "$CHAROC (Chaotic Rocket) — absurd meme name, sub-$2k mcap right after launch, bond just starting to curve. Pure attention play, cheap entry for a viral-name shot."
-    },
-    {
-      "time": "2026-09-10 07:30 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $CHAROC crashed >15% in one tick | P&L: -19.8%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 07:30 UTC",
       "action": "buy",
@@ -44438,40 +44443,52 @@
       "action": "buy",
       "details": "[LLM] $PP at $5.78611e-06, spent 0.05 SOL",
       "reason": "$PP has a twitter link (attention signal) and $5.7k mcap on a fresh 0.4min launch. Pump-themed narrative has viral potential, low enough mcap for 5-10x move if attention catches."
+    },
+    {
+      "time": "2026-09-10 07:50 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PP at $6.94062e-06 | P&L: +19.9%",
+      "reason": "PP is up exactly +20% on tiny liquidity ($1720 pool, 0% our share — no organic depth). At the TP-1 threshold with thin book and a bonding-curve graduation risk, locking the gain beats hoping for more. Free the slot for a fresher launch."
+    },
+    {
+      "time": "2026-09-10 07:50 UTC",
+      "action": "buy",
+      "details": "[LLM] $OCTOPUS at $5.57506e-06, spent 0.05 SOL",
+      "reason": "$OCTOPUS — animal meme (octopus) is a classic attention narrative. Bonding curve already 22% complete in <30s = strong organic demand, mcap $5.5k means deep10x upside if it breaks out. Highest signal-to-noise among the fresh launches."
     }
   ],
   "trade_stats": {
-    "total": 2605,
-    "wins": 1264,
+    "total": 2606,
+    "wins": 1265,
     "losses": 1341,
     "win_rate_pct": 48.5,
-    "total_pnl_sol": -0.063155,
-    "avg_pnl_pct": 28.73,
+    "total_pnl_sol": -0.053149,
+    "avg_pnl_pct": 28.72,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 228,
-    "today_realized_sol": 2.62216,
-    "today_target_pct": 655.5,
+    "today_trades": 229,
+    "today_realized_sol": 2.632166,
+    "today_target_pct": 658.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1264,
+      "win_count": 1265,
       "loss_count": 1341,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T07:48:51.156338+00:00",
+  "last_llm_brief_at": "2026-09-10T07:50:08.973710+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "3c85xpHQPZC12YofjhtT5FPGRpDoc1jqtYeXohwepump": {
-      "price_usd": 2.878875044992945e-05,
+    "5Jo87dA42v21rv6ru9WD3K7vqgqRf13MnDEUBxLtpump": {
+      "price_usd": 6.940618759619563e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 6647.4503243441995,
-      "volume_h24": 12690.87,
+      "liquidity_usd": 1719.57769993077,
+      "volume_h24": 11851.89,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 65.712241245
+      "real_sol_reserves": 17.006999307
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
