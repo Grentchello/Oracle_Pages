@@ -18700,3 +18700,6 @@
 ## [2026-09-10 09:17 UTC] buy | [LLM] $FKH at $1.006e-05, spent 0.05 SOL
 - **Reasoning:** FKH = Flying Ketamine Horse — absurd animal-drug combo is pure memecoin energy and the Gambino tweet gives it real X attention. $8k mcap with bonding at 25% gives room to run; sizing at 0.1 SOL limits downside if it dies.
 
+## [2026-09-10 09:18 UTC] sell | [v8.7 TP +50% (full)] $FKH at $0.000142039 | P&L: +1311.9%
+- **Reasoning:** Auto take-profit at +1311.9%
+
