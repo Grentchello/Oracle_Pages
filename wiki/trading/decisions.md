@@ -17863,3 +17863,6 @@
 ## [2026-09-10 03:51 UTC] buy | [LLM] $att at $1.74012e-07, spent 0.05 SOL
 - **Reasoning:** $att (attention) is a meta-self-aware play on the attention-coin narrative itself — tokens named after the mechanic they're exploiting tend to viral-loop on CT. Ultra-low $174 mcap at 0.4min = max asymmetry. Worst case -25% = 0.025 SOL cost to learn if meta-naming works.
 
+## [2026-09-10 03:52 UTC] sell | [rapid-drop] $att crashed >15% in one tick | P&L: -89.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
