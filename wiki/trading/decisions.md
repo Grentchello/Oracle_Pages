@@ -19621,3 +19621,9 @@
 ## [2026-09-10 15:48 UTC] buy | [LLM] $STONKFLY at $3.65386e-06, spent 0.05 SOL
 - **Reasoning:** $STONKFLY has actual YouTube content link + Twitter post, 'Stonkfly' is a portmanteau meme with built-in virality (stonks meme family), fresh 0.1min launch - real attention signal vs pure slop
 
+## [2026-09-10 15:49 UTC] sell | [rapid-drop] $STONKFLY crashed >15% in one tick | P&L: -23.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 15:50 UTC] buy | [LLM] $Stimmy at $4.332e-06, spent 0.05 SOL
+- **Reasoning:** $Stimmy at 0.7min, $7.4k mcap, 28% bonded (highest of the fresh launches = real organic buys happening), universal 'stimulus check' narrative that everyone has an opinion on, X link clears the viability gate, no fragile keywords. Best risk/reward of the batch — established enough traction to not be a deploy-bundle trap, fresh enough to catch the pump.
+
