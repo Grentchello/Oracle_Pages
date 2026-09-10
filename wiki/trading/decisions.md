@@ -18868,3 +18868,6 @@
 ## [2026-09-10 10:40 UTC] sell | [FULL][LLM] $PUMP at $4.20977e-06 | P&L: +5.5%
 - **Reasoning:** $PUMP is fresh (0.0h held), bonding curve only 10% complete so room to run, +5.5% small gain, no reason to exit a just-opened position. Watch for acceleration or first stall.
 
+## [2026-09-10 10:42 UTC] buy | [LLM] $BITMAN at $5.47214e-06, spent 0.05 SOL
+- **Reasoning:** $BITMAN 'Bitcoin Mascot' has the cleanest attention signal in this batch — a recognizable mascot archetype, active twitter (https://x.com/Its_BitMan), $5.4k mcap still pre-viral at 0.5min age, bond 22% so still room for organic buyers. Risk: very fresh, bond incomplete, narrative is generic — sized at 0.05 SOL per the v7 halving.
+
