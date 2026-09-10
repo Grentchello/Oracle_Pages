@@ -18535,3 +18535,6 @@
 ## [2026-09-10 07:57 UTC] buy | [LLM] $PAC-3310 at $1.66671e-08, spent 0.05 SOL
 - **Reasoning:** Strongest narrative in batch: 'ChatGPT-designed drug synthesized in real lab' is the kind of science-meets-AI story that screenshots virally on crypto Twitter. mcap $4.5k at 0.8min = ultra-early, bond 6% means thin but no move yet. Creator account (douglasyaody) has reach. Position size 0.1 SOL.
 
+## [2026-09-10 07:59 UTC] sell | [PARTIAL][LLM] $PAC-3310 at $2.08423e-08 | P&L: +25.1%
+- **Reasoning:** +25% with no strong narrative beyond ticker, pool share 207% means liquidity is thin and any reversal will be violent. Lock the gain per scalp discipline — 'if up >20% and you have ANY doubt, sell'.
+
