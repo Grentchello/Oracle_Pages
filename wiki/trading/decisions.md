@@ -19162,3 +19162,6 @@
 ## [2026-09-10 12:53 UTC] sell | [FULL][LLM] $VOID at $2.79214e-06 | P&L: +0.0%
 - **Reasoning:** Just entered at 0.0% with 0.0h held. Pool is thin ($2, my share 25%) so exit slippage on a flat position would lock in a small loss for no reason. Bonding curve hasn't completed yet — give it a cycle to develop before rotating capital.
 
+## [2026-09-10 12:55 UTC] buy | [LLM] $TRILLY at $4.68703e-06, spent 0.05 SOL
+- **Reasoning:** $TRILLY attached to Polymarket (current meta: prediction-market crossover). Two mint entries = organic buzz signal. $4.7k mcap with twitter from @PolymarketMoney gives real attention asymmetry. Risk: bond only 19%, very early, thin liquidity — but that's where 5x lives.
+
