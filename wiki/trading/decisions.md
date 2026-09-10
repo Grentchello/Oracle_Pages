@@ -19276,3 +19276,9 @@
 ## [2026-09-10 13:32 UTC] buy | [LLM] $ASTRO at $5.22e-06, spent 0.05 SOL
 - **Reasoning:** $ASTRO (Astro Bot) has the strongest attention signal — same viral X post (status/2098041357696676008) is being chased by 3 coordinated mints, indicating real viral traction. This mint has highest bonding progress (33%) suggesting lead position. Narrative is bot/AI-themed which pumps hard in current cycle. Risk: 0.6min old, bonding incomplete, but that IS the alpha window.
 
+## [2026-09-10 13:33 UTC] sell | [rapid-drop] $ASTRO crashed >15% in one tick | P&L: -29.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 13:33 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
