@@ -19180,3 +19180,6 @@
 ## [2026-09-10 13:00 UTC] sell | [PARTIAL][LLM] $APU at $2.79043e-06 | P&L: -0.3%
 - **Reasoning:** Flat at -0.3% after 0h, but I'm 37% of the pool — I AM the exit liquidity and any other seller will crater the price through me. Cutting this now frees the slot for a stronger narrative play. No reason to hold a bag where I'm the dominant LP.
 
+## [2026-09-10 13:01 UTC] sell | [FULL][LLM] $APU at $2.76095e-06 | P&L: -1.3%
+- **Reasoning:** Pool=$0 means no exit liquidity exists; the only practical action is to wait for bonding curve migration to a real Raydium pool. Down only -1.3%, well within tolerance, and -25% hard stop will catch any real loss.
+
