@@ -18244,3 +18244,6 @@
 ## [2026-09-10 06:04 UTC] buy | [LLM] $blindape at $1.86035e-05, spent 0.05 SOL
 - **Reasoning:** $blindape has the strongest meme reflexivity in this batch — a token literally about blindly aping is meta-ironic and viral. 38% bond completion (vs0-4% for peers) shows real traction, and the rapid copy-cat launches confirm attention. Risk: 4 competing $blindape mints fragment liquidity; position size is small (0.05 SOL) so downside is contained.
 
+## [2026-09-10 06:07 UTC] sell | [PARTIAL][LLM] $blindape at $2.27424e-05 | P&L: +22.2%
+- **Reasoning:** At +22.2% with no real thesis ('no thesis', desc just 'blind ape!') — exactly the >20% doubt case. Take half profit to lock +22%, let the other half ride if momentum continues. Frees rotation room.
+

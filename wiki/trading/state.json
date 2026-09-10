@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.361319,
+  "balance_sol": 4.391914,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "9uDpEL8q7gu5XqJGTWCXLdXfEWzamScyPtoAGCiupump": {
       "symbol": "blindape",
       "name": "no thesis",
-      "amount": 274007.9762179957,
+      "amount": 137003.98810899784,
       "entry_price_usd": 1.8603473046144185e-05,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T06:04:30.185531+00:00",
       "entry_usd_value": 5.0975,
-      "last_seen_price_usd": 2.3747725339176554e-05,
+      "last_seen_price_usd": 2.2742388229245017e-05,
       "entry_signals": {
         "liquidity_usd": 5160.09098389165,
         "volume_24h_usd": null,
@@ -43479,19 +43479,30 @@
       "pnl_pct": -29.97,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "9uDpEL8q7gu5XqJGTWCXLdXfEWzamScyPtoAGCiupump",
+      "symbol": "blindape",
+      "name": "no thesis",
+      "amount_sold": 137003.98810899784,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T06:04:30.185531+00:00",
+      "exit_time": "2026-09-10T06:07:19.656644+00:00",
+      "entry_price_usd": 1.8603473046144185e-05,
+      "exit_price_usd": 2.2742388229245017e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.030595,
+      "pnl_sol": 0.005595,
+      "pnl_pct": 22.25,
+      "exit_reason": "LLM: sell_half — At +22.2% with no real thesis ('no thesis', desc just 'blind ape!') — exactly the >20% doubt case. Take half profit to lock +22%, let the other half r",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T06:05:47.505043+00:00",
+  "last_updated": "2026-09-10T06:07:19.656873+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.9,
-  "portfolio_value_usd": 449.52,
+  "last_sol_price_usd": 101.84,
+  "portfolio_value_usd": 449.82,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 05:40 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $OPTIMUS crashed >15% in one tick | P&L: -21.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 05:43 UTC",
       "action": "buy",
@@ -43605,40 +43616,46 @@
       "action": "buy",
       "details": "[LLM] $blindape at $1.86035e-05, spent 0.05 SOL",
       "reason": "$blindape has the strongest meme reflexivity in this batch — a token literally about blindly aping is meta-ironic and viral. 38% bond completion (vs0-4% for peers) shows real traction, and the rapid copy-cat launches confirm attention. Risk: 4 competing $blindape mints fragment liquidity; position size is small (0.05 SOL) so downside is contained."
+    },
+    {
+      "time": "2026-09-10 06:07 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $blindape at $2.27424e-05 | P&L: +22.2%",
+      "reason": "At +22.2% with no real thesis ('no thesis', desc just 'blind ape!') — exactly the >20% doubt case. Take half profit to lock +22%, let the other half ride if momentum continues. Frees rotation room."
     }
   ],
   "trade_stats": {
-    "total": 2556,
-    "wins": 1249,
+    "total": 2557,
+    "wins": 1250,
     "losses": 1307,
     "win_rate_pct": 48.9,
-    "total_pnl_sol": 0.14501,
+    "total_pnl_sol": 0.150605,
     "avg_pnl_pct": 29.43,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 179,
-    "today_realized_sol": 2.830325,
-    "today_target_pct": 707.6,
+    "today_trades": 180,
+    "today_realized_sol": 2.83592,
+    "today_target_pct": 709.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1249,
+      "win_count": 1250,
       "loss_count": 1307,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T06:05:47.504980+00:00",
+  "last_llm_brief_at": "2026-09-10T06:07:19.656601+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "9uDpEL8q7gu5XqJGTWCXLdXfEWzamScyPtoAGCiupump": {
-      "price_usd": 2.3747725339176554e-05,
+      "price_usd": 2.2742388229245017e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 5768.8916041475,
-      "volume_h24": 10319.49,
+      "liquidity_usd": 5579.3104335108,
+      "volume_h24": 16529.54,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 56.613264025
+      "real_sol_reserves": 54.785059245
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
