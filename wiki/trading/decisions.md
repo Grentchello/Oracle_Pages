@@ -18166,3 +18166,6 @@
 ## [2026-09-10 05:30 UTC] buy | [LLM] $GS at $6.257e-06, spent 0.05 SOL
 - **Reasoning:** $GS (Goldman Sacks) — strongest narrative of the batch. 'Wall Street had Goldman Sachs, trenches have Goldmans Sack' is a perfect Wall Street parody with high virality potential. Has Twitter presence already, decent $14.7k mcap gives room to run, and parody financial memes historically pump hard (see WIF, BODEN). The pun is clean and immediately understandable.
 
+## [2026-09-10 05:31 UTC] sell | [rapid-drop] $GS crashed >15% in one tick | P&L: -54.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
