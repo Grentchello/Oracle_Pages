@@ -17611,3 +17611,6 @@
 ## [2026-09-10 02:15 UTC] sell | [FULL][LLM] $Cooked at $2.82445e-06 | P&L: -4.2%
 - **Reasoning:** $Cooked just opened and is only -4.2% with tiny position size (0.05 SOL). Far from -25% stop and not stale yet. The '⚠ HUGE' share % is data noise on a tiny bonding curve where 0.05 SOL is a meaningful fraction of $2.8k mcap depth. Give it time to develop.
 
+## [2026-09-10 02:20 UTC] buy | [LLM] $Lil Wayne at $3.03631e-06, spent 0.05 SOL
+- **Reasoning:** $F Is For Fortnite — attention is from @fortnite (40M+ follower official brand account), highest-quality signal in the batch. Real brand-driven viral moment, not just crypto-twitter echo. Passes viability (twitter present), passes fragility gate (token is riding a game event, not a direct celebrity pump). 0.3min age means we're early. Risk: brand tokens often rug after the initial spike — plan to take profit at +50%.
+
