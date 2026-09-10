@@ -17785,3 +17785,6 @@
 ## [2026-09-10 03:16 UTC] buy | [LLM] $chip at $1.59084e-05, spent 0.05 SOL
 - **Reasoning:** $chip 'blue chip' is the dominant meta-narrative on CT right now. This mint leads the duplicate-pair race at $15.9k mcap / 37% bond vs the rival at $5.3k / 21% — attention is consolidating on the winner. Fresh launch, classic narrative, organic rivalry = attention fuel. Risk: duplicate mints split mindshare; $5 position sizing keeps risk bounded.
 
+## [2026-09-10 03:17 UTC] sell | [rapid-drop] $chip crashed >15% in one tick | P&L: -76.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
