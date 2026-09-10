@@ -18871,3 +18871,9 @@
 ## [2026-09-10 10:42 UTC] buy | [LLM] $BITMAN at $5.47214e-06, spent 0.05 SOL
 - **Reasoning:** $BITMAN 'Bitcoin Mascot' has the cleanest attention signal in this batch — a recognizable mascot archetype, active twitter (https://x.com/Its_BitMan), $5.4k mcap still pre-viral at 0.5min age, bond 22% so still room for organic buyers. Risk: very fresh, bond incomplete, narrative is generic — sized at 0.05 SOL per the v7 halving.
 
+## [2026-09-10 10:43 UTC] sell | [rapid-drop] $BITMAN crashed >15% in one tick | P&L: -45.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 10:44 UTC] buy | [LLM] $CIJ at $2.981e-06, spent 0.05 SOL
+- **Reasoning:** $CIJ (CAT IN JAIL) — viability gate passes via twitter link from @degendev100x; 'cat in jail' is a recognizable viral meme format (orange-cat-arrested visuals), 1.1min old at $3k mcap is exactly the fresh-attention window. Risk: ultra-low mcap and bond 3% means thin liquidity and easy rug — but that's the trade. Position 0.1 SOL, hard stop -25%.
+

@@ -1,27 +1,27 @@
 {
-  "balance_sol": 5.000428,
+  "balance_sol": 4.977516,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "2ZPiSm8ZJUvFd5xD1nbzsgRT2tyZPkv6SuydVTnrpump": {
-      "symbol": "BITMAN",
-      "name": "Bitcoin Mascot",
-      "amount": 924958.0192105459,
-      "entry_price_usd": 5.472140242991789e-06,
+    "7YNc1YvHmE4dFLaZPYLPZSnqh1dy2SfvdqN2noKjpump": {
+      "symbol": "CIJ",
+      "name": "CAT IN JAIL",
+      "amount": 1698423.3478698425,
+      "entry_price_usd": 2.981e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T10:42:34.244943+00:00",
-      "entry_usd_value": 5.0615000000000006,
-      "last_seen_price_usd": 5.472140242991789e-06,
+      "entry_time": "2026-09-10T10:44:20.548425+00:00",
+      "entry_usd_value": 5.063000000000001,
+      "last_seen_price_usd": 2.981e-06,
       "entry_signals": {
-        "liquidity_usd": 1140.02555309648,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5471.599677917899,
-        "ath_market_cap_usd": 5808.728175845937,
+        "liquidity_usd": 1.0126000000000001e-07,
+        "volume_24h_usd": 79.98,
+        "market_cap_usd": 2980.015620170778,
+        "ath_market_cap_usd": 2980.015620170778,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 11.261736176,
+        "real_sol_reserves": 1e-09,
         "description": "",
-        "twitter": "https://x.com/Its_BitMan",
+        "twitter": "https://x.com/degendev100x/status/2097999046627516535?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -45485,25 +45485,30 @@
       "pnl_pct": 5.52,
       "exit_reason": "LLM: sell_all — $PUMP is fresh (0.0h held), bonding curve only 10% complete so room to run, +5.5% small gain, no reason to exit a just-opened position. Watch for acce",
       "partial": false
+    },
+    {
+      "mint": "2ZPiSm8ZJUvFd5xD1nbzsgRT2tyZPkv6SuydVTnrpump",
+      "symbol": "BITMAN",
+      "name": "Bitcoin Mascot",
+      "amount_sold": 924958.0192105459,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T10:42:34.244943+00:00",
+      "exit_time": "2026-09-10T10:43:38.106660+00:00",
+      "entry_price_usd": 5.472140242991789e-06,
+      "exit_price_usd": 2.965415624818067e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.027088,
+      "pnl_sol": -0.022912,
+      "pnl_pct": -45.81,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T10:42:34.245117+00:00",
+  "last_updated": "2026-09-10T10:44:20.548705+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.23,
-  "portfolio_value_usd": 511.25,
+  "last_sol_price_usd": 101.26,
+  "portfolio_value_usd": 509.09,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 10:17 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $OILUP at $2.47988e-05 | P&L: +21.0%",
-      "reason": "Up 21% on a $5k pool bonding-curve position with 0% share — thin liquidity means any reversal will be brutal. Lock the gain now per the profit-taking discipline; this isn't a narrative play, just a fresh pump on an unproven curve."
-    },
-    {
-      "time": "2026-09-10 10:19 UTC",
-      "action": "buy",
-      "details": "[LLM] $TURTLE at $3.09363e-06, spent 0.05 SOL",
-      "reason": "$TURTLE — real SCOTUS news peg (sea turtle ruling) with verified twitter account @mrfinnland, sub-minute launch at ~$3k mcap. Classic news-driven attention narrative with a shareable visual concept; meets viability gate. Risk: news-momentum can fade fast, will watch for +30% to lock partial."
-    },
     {
       "time": "2026-09-10 10:20 UTC",
       "action": "sell",
@@ -45611,30 +45616,54 @@
       "action": "buy",
       "details": "[LLM] $BITMAN at $5.47214e-06, spent 0.05 SOL",
       "reason": "$BITMAN 'Bitcoin Mascot' has the cleanest attention signal in this batch — a recognizable mascot archetype, active twitter (https://x.com/Its_BitMan), $5.4k mcap still pre-viral at 0.5min age, bond 22% so still room for organic buyers. Risk: very fresh, bond incomplete, narrative is generic — sized at 0.05 SOL per the v7 halving."
+    },
+    {
+      "time": "2026-09-10 10:43 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $BITMAN crashed >15% in one tick | P&L: -45.8%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 10:44 UTC",
+      "action": "buy",
+      "details": "[LLM] $CIJ at $2.981e-06, spent 0.05 SOL",
+      "reason": "$CIJ (CAT IN JAIL) — viability gate passes via twitter link from @degendev100x; 'cat in jail' is a recognizable viral meme format (orange-cat-arrested visuals), 1.1min old at $3k mcap is exactly the fresh-attention window. Risk: ultra-low mcap and bond 3% means thin liquidity and easy rug — but that's the trade. Position 0.1 SOL, hard stop -25%."
     }
   ],
   "trade_stats": {
-    "total": 2674,
+    "total": 2675,
     "wins": 1302,
-    "losses": 1372,
+    "losses": 1373,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.784141,
-    "avg_pnl_pct": 28.75,
+    "total_pnl_sol": 0.761229,
+    "avg_pnl_pct": 28.73,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 297,
-    "today_realized_sol": 3.469456,
-    "today_target_pct": 867.4,
+    "today_trades": 298,
+    "today_realized_sol": 3.446544,
+    "today_target_pct": 861.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1302,
-      "loss_count": 1372,
+      "loss_count": 1373,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:42:32.914486+00:00",
+  "last_llm_brief_at": "2026-09-10T10:44:19.060626+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2ZPiSm8ZJUvFd5xD1nbzsgRT2tyZPkv6SuydVTnrpump": {
+      "price_usd": 2.965415624818067e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 71.21083759708,
+      "volume_h24": 7054.03,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.703247458
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
