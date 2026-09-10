@@ -18943,3 +18943,9 @@
 ## [2026-09-10 11:09 UTC] buy | [LLM] $GTSS at $5.08281e-06, spent 0.05 SOL
 - **Reasoning:** $GTSS 'Grandma Theft Senior Scooter' is a clear GTA-saturated attention play (parodies GTA6 launch), $5k mcap with twitter presence, brand is funny/memorable. Tiny mcap + narrative parody = classic 5-20x setup if GTA6 attention spills over.
 
+## [2026-09-10 11:10 UTC] sell | [rapid-drop] $GTSS crashed >15% in one tick | P&L: -44.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 11:11 UTC] buy | [LLM] $QuadrupleS at $1.07286e-05, spent 0.05 SOL
+- **Reasoning:** $QuadrupleS is the standout: bond curve33% complete (real capital already flowing in), has Twitter attached to a specific viral 'Sydney Sahur' meme reference, mcap $10,775 is the highest in this batch, and it's only 0.5min old. Strongest attention signal of the slate — narrative-driven launch with money behind it.
+
