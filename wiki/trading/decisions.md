@@ -20200,3 +20200,9 @@
 ## [2026-09-10 19:24 UTC] buy | [LLM] $VOID at $7.47043e-06, spent 0.05 SOL
 - **Reasoning:** Viability: passes (desc 50+ chars + twitter). Narrative: '60% supply airdropped to top 15 holders at bonding' is a strong attention-bait mechanic — creates FOMO and guaranteed buyer concentration. $7k mcap is fresh, twitter active. ME2F risk: top-15 concentration is by design = whale-heavy, fragility gate may reject. Proceeding as best small-scalp candidate.
 
+## [2026-09-10 19:25 UTC] sell | [rapid-drop] $VOID crashed >15% in one tick | P&L: -61.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:25 UTC] buy | [LLM] $goldfish at $1.2249e-07, spent 0.05 SOL
+- **Reasoning:** $goldfish with 'buy and forget' slogan has a clear meme narrative and an attached Twitter account — viability gate passes (twitter + desc). Fresh launch, $4.9k mcap, classic attention play with a memorable tagline that begs virality.
+
