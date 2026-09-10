@@ -19177,3 +19177,6 @@
 ## [2026-09-10 12:58 UTC] buy | [LLM] $APU at $2.798e-06, spent 0.05 SOL
 - **Reasoning:** $APU (Apu Apustaja) — established Pepe-frog internet culture mascot, fresh launch with twitter link from K1rajj. Bonding curve at 0% (very early), mcap $2,794 = cheap entry, classic viral cartoon character narrative. Fits the 5x-in-hours thesis on cheap meme culture tokens.
 
+## [2026-09-10 13:00 UTC] sell | [PARTIAL][LLM] $APU at $2.79043e-06 | P&L: -0.3%
+- **Reasoning:** Flat at -0.3% after 0h, but I'm 37% of the pool — I AM the exit liquidity and any other seller will crater the price through me. Cutting this now frees the slot for a stronger narrative play. No reason to hold a bag where I'm the dominant LP.
+

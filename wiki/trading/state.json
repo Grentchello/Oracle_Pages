@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.737631,
+  "balance_sol": 4.762556,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "Byzk1ChNwjyrdi832pHabxmrs445tM5BFB9bsg5tpump": {
       "symbol": "APU",
       "name": "Apu Apustaja",
-      "amount": 1767155.110793424,
+      "amount": 883577.555396712,
       "entry_price_usd": 2.798e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T12:58:20.655035+00:00",
       "entry_usd_value": 4.944500000000001,
-      "last_seen_price_usd": 2.798e-06,
+      "last_seen_price_usd": 2.7904325077721547e-06,
       "entry_signals": {
         "liquidity_usd": 13.23350212492,
         "volume_24h_usd": 4313.51,
@@ -46454,19 +46454,30 @@
       "pnl_pct": -8.69,
       "exit_reason": "LLM: sell_all — LUMIO down -8.7% on a $2396 bonding-curve pool, just entered, no momentum. Default bias is to cut ties with stagnant positions and rotate capital into",
       "partial": false
+    },
+    {
+      "mint": "Byzk1ChNwjyrdi832pHabxmrs445tM5BFB9bsg5tpump",
+      "symbol": "APU",
+      "name": "Apu Apustaja",
+      "amount_sold": 883577.555396712,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T12:58:20.655035+00:00",
+      "exit_time": "2026-09-10T13:00:04.193587+00:00",
+      "entry_price_usd": 2.798e-06,
+      "exit_price_usd": 2.7904325077721547e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.024925,
+      "pnl_sol": -7.5e-05,
+      "pnl_pct": -0.27,
+      "exit_reason": "LLM: sell_all — Flat at -0.3% after 0h, but I'm 37% of the pool — I AM the exit liquidity and any other seller will crater the price through me. Cutting this now free",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T12:58:20.655189+00:00",
+  "last_updated": "2026-09-10T13:00:04.193780+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.89,
-  "portfolio_value_usd": 473.45,
+  "last_sol_price_usd": 98.92,
+  "portfolio_value_usd": 473.58,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 12:34 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $CHEESEBURGER crashed >15% in one tick | P&L: -45.9%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 12:35 UTC",
       "action": "buy",
@@ -46580,40 +46591,46 @@
       "action": "buy",
       "details": "[LLM] $APU at $2.798e-06, spent 0.05 SOL",
       "reason": "$APU (Apu Apustaja) — established Pepe-frog internet culture mascot, fresh launch with twitter link from K1rajj. Bonding curve at 0% (very early), mcap $2,794 = cheap entry, classic viral cartoon character narrative. Fits the 5x-in-hours thesis on cheap meme culture tokens."
+    },
+    {
+      "time": "2026-09-10 13:00 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $APU at $2.79043e-06 | P&L: -0.3%",
+      "reason": "Flat at -0.3% after 0h, but I'm 37% of the pool — I AM the exit liquidity and any other seller will crater the price through me. Cutting this now frees the slot for a stronger narrative play. No reason to hold a bag where I'm the dominant LP."
     }
   ],
   "trade_stats": {
-    "total": 2731,
+    "total": 2732,
     "wins": 1318,
-    "losses": 1413,
-    "win_rate_pct": 48.3,
-    "total_pnl_sol": 0.521388,
-    "avg_pnl_pct": 27.98,
+    "losses": 1414,
+    "win_rate_pct": 48.2,
+    "total_pnl_sol": 0.521313,
+    "avg_pnl_pct": 27.97,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 354,
-    "today_realized_sol": 3.206703,
+    "today_trades": 355,
+    "today_realized_sol": 3.206628,
     "today_target_pct": 801.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1318,
-      "loss_count": 1413,
+      "loss_count": 1414,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T12:58:19.235222+00:00",
+  "last_llm_brief_at": "2026-09-10T13:00:04.193499+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5AnTVTFyBFtomCjewynwdGk9t9hFFsCgNNAbNhJjpump": {
-      "price_usd": 9.033418526573486e-06,
+    "Byzk1ChNwjyrdi832pHabxmrs445tM5BFB9bsg5tpump": {
+      "price_usd": 2.7904325077721547e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2395.7436793103,
-      "volume_h24": 25329.65,
+      "liquidity_usd": 13.23751673776,
+      "volume_h24": 4313.51,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 24.22634927
+      "real_sol_reserves": 0.133820428
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
