@@ -20494,3 +20494,6 @@
 ## [2026-09-10 21:10 UTC] sell | [FULL][LLM] $KERMIT at $2.99914e-06 | P&L: +4.7%
 - **Reasoning:** Just opened (0.0h), +4.7% green, give it room to develop. KERMIT has Kermit the Frog recognition — strong IP narrative. Will reassess at +20% or -20%.
 
+## [2026-09-10 21:12 UTC] buy | [LLM] $WENDY at $3.066e-06, spent 0.05 SOL
+- **Reasoning:** $WENDY 'Justice for Wendy' — viral narrative token tied to a real X post, $3k mcap with clear story arc, freshness and emotional hook typical of early pump candidates.
+
