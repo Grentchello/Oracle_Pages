@@ -20842,3 +20842,9 @@
 ## [2026-09-10 23:36 UTC] sell | [PARTIAL][LLM] $CPU at $9.78134e-09 | P&L: +2.3%
 - **Reasoning:** Only +2.3% and held 0.0h — too early to exit, still in profit zone on bonding curve. Will reassess on next tick if it goes stale or hits -20%.
 
+## [2026-09-10 23:37 UTC] sell | [FULL][LLM] $CPU at $1.01565e-08 | P&L: +6.2%
+- **Reasoning:** $CPU only 0.0h held, +6.2% in early move, still on bonding curve with 25% share — give it time to develop before exiting a fresh position.
+
+## [2026-09-10 23:37 UTC] buy | [LLM] $DELULU at $5.583e-06, spent 0.05 SOL
+- **Reasoning:** $DELULU 'Delusional Coin' — strong ironic Gen-Z narrative ('delulu is the solulu'), active twitter posting, sub-$6k mcap at 0.9min age is textbook early-launch attention play. Highest narrative virality in the batch.
+
