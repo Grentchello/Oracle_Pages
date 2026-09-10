@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.146867,
+  "balance_sol": 4.190693,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "7zmw462qcHMgXuPJ1jWLjaY1ZjJk3yT3o7BuWiAipump": {
       "symbol": "WIF",
       "name": "dogwifmeta",
-      "amount": 1713412.5636672326,
+      "amount": 147633.8397773893,
       "entry_price_usd": 2.945e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.004308181313361192,
       "entry_time": "2026-09-10T07:38:29.817813+00:00",
       "entry_usd_value": 5.046,
-      "last_seen_price_usd": 2.945e-06,
+      "last_seen_price_usd": 2.8261312012315504e-06,
       "entry_signals": {
         "liquidity_usd": 1.6681039551599999,
         "volume_24h_usd": 702.43,
@@ -44227,19 +44227,30 @@
       "pnl_pct": -55.04,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "7zmw462qcHMgXuPJ1jWLjaY1ZjJk3yT3o7BuWiAipump",
+      "symbol": "WIF",
+      "name": "dogwifmeta",
+      "amount_sold": 1565778.7238898433,
+      "fraction_sold": 0.9138363737327762,
+      "entry_time": "2026-09-10T07:38:29.817813+00:00",
+      "exit_time": "2026-09-10T07:39:57.269339+00:00",
+      "entry_price_usd": 2.945e-06,
+      "exit_price_usd": 2.8261312012315504e-06,
+      "entry_sol_for_chunk": 0.045692,
+      "exit_sol_received": 0.043826,
+      "pnl_sol": -0.001866,
+      "pnl_pct": -4.04,
+      "exit_reason": "LLM: sell_all — WIF down only 4% but our position share is 290% of pool — we ARE the liquidity. Any bounce will be limited because we're the exit. -25% hard cap is cl",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T07:38:29.818080+00:00",
+  "last_updated": "2026-09-10T07:39:57.269667+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.92,
-  "portfolio_value_usd": 423.55,
+  "last_sol_price_usd": 100.97,
+  "portfolio_value_usd": 423.57,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 07:18 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CHET at $3.09282e-06 | P&L: +0.0%",
-      "reason": "Just entered, flat at 0%, no signal to exit. Give it time to develop — auto-rules will protect downside."
-    },
     {
       "time": "2026-09-10 07:20 UTC",
       "action": "buy",
@@ -44353,40 +44364,46 @@
       "action": "buy",
       "details": "[LLM] $WIF at $2.945e-06, spent 0.05 SOL",
       "reason": "$WIF 'dogwifmeta' taps into the original dogwifhat meta (peak attention brand). Has X post from derivativist (larger account signal), mcap only $2.9k at 1min old = fresh launch with viral brand recognition and low entry. Classic attention play."
+    },
+    {
+      "time": "2026-09-10 07:39 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $WIF at $2.82613e-06 | P&L: -4.0%",
+      "reason": "WIF down only 4% but our position share is 290% of pool — we ARE the liquidity. Any bounce will be limited because we're the exit. -25% hard cap is close and held position is already marked ⚠ huge share. Cut exposure, rotate to fresh launches."
     }
   ],
   "trade_stats": {
-    "total": 2600,
+    "total": 2601,
     "wins": 1263,
-    "losses": 1337,
+    "losses": 1338,
     "win_rate_pct": 48.6,
-    "total_pnl_sol": -0.069426,
-    "avg_pnl_pct": 28.78,
+    "total_pnl_sol": -0.071292,
+    "avg_pnl_pct": 28.77,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 223,
-    "today_realized_sol": 2.615889,
-    "today_target_pct": 654.0,
+    "today_trades": 224,
+    "today_realized_sol": 2.614023,
+    "today_target_pct": 653.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1263,
-      "loss_count": 1337,
+      "loss_count": 1338,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T07:38:28.481153+00:00",
+  "last_llm_brief_at": "2026-09-10T07:39:57.268438+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "sUQutJBBDGf3FsuLDbupLHdFcFWcR17Yg8rfFLspump": {
-      "price_usd": 2.8236501159027543e-06,
+    "7zmw462qcHMgXuPJ1jWLjaY1ZjJk3yT3o7BuWiAipump": {
+      "price_usd": 2.8261312012315504e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.08809481552,
-      "volume_h24": 8039.4,
+      "liquidity_usd": 1.66893040381,
+      "volume_h24": 769.07,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.010781756
+      "real_sol_reserves": 0.016528973
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

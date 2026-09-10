@@ -18478,3 +18478,6 @@
 ## [2026-09-10 07:38 UTC] buy | [LLM] $WIF at $2.945e-06, spent 0.05 SOL
 - **Reasoning:** $WIF 'dogwifmeta' taps into the original dogwifhat meta (peak attention brand). Has X post from derivativist (larger account signal), mcap only $2.9k at 1min old = fresh launch with viral brand recognition and low entry. Classic attention play.
 
+## [2026-09-10 07:39 UTC] sell | [PARTIAL][LLM] $WIF at $2.82613e-06 | P&L: -4.0%
+- **Reasoning:** WIF down only 4% but our position share is 290% of pool — we ARE the liquidity. Any bounce will be limited because we're the exit. -25% hard cap is close and held position is already marked ⚠ huge share. Cut exposure, rotate to fresh launches.
+
