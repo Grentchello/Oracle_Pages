@@ -17755,3 +17755,9 @@
 ## [2026-09-10 03:08 UTC] sell | [PARTIAL][LLM] $TickTock at $2.87527e-06 | P&L: -9.4%
 - **Reasoning:** $TickTock is down 9.4% with only $14 pool liquidity and our share is 33% — that's a dangerously concentrated position in a dead micro-cap. -30% hard stop is the floor but with this little liquidity and no momentum, exiting now avoids getting trapped. Better to redeploy into fresh attention.
 
+## [2026-09-10 03:09 UTC] sell | [FULL][LLM] $TickTock at $2.87611e-06 | P&L: -9.4%
+- **Reasoning:** At -9.4% on a $14 pool with our 16% concentration, this is dead money and exit liquidity is fragile. Selling here minimizes further loss vs waiting for a bounce that may never come on a micro-cap bonding curve where we're a meaningful % of the pool.
+
+## [2026-09-10 03:09 UTC] buy | [LLM] $FLY at $2.99015e-07, spent 0.05 SOL
+- **Reasoning:** $FLY (FLYCOIN) has the highest mcap ($6.5k) and 18% bonding curve progress among fresh launches, with an X post attached. FLY narrative is clean attention play - 'fly' is viral memecoin shorthand. Skip the duplicates (CmYAfbmb...) - same ticker, lower mcap.
+
