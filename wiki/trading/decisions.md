@@ -19885,3 +19885,6 @@
 ## [2026-09-10 17:48 UTC] buy | [LLM] $Midas at $8.37642e-06, spent 0.05 SOL
 - **Reasoning:** $Midas — 'from zero to hero go to 100k' is a clean narrative arc with self-fulfilling prophecy energy. Fresh (0.2min), $8.3k mcap, just enough liquidity for 0.05 SOL. Classic attention play.
 
+## [2026-09-10 17:49 UTC] sell | [PARTIAL][LLM] $Midas at $8.38041e-06 | P&L: +0.1%
+- **Reasoning:** Just entered, 0h held, flat. 690% pool share means I'm the dominant holder — exiting now would crash the price back to me. Give it a few minutes to see if the bonding curve pumps. If still flat at 15min, exit as stale.
+
