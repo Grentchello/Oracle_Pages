@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.988792,
+  "balance_sol": 4.978322,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "ExYgS9Jp7P8SupfBUzPQMAvKfMUwzwuCirfedJX4pump": {
-      "symbol": "GOLD",
-      "name": "GOLD RUSH",
-      "amount": 1744576.4637059073,
-      "entry_price_usd": 1.4480735310584059e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-10T10:57:20.549021+00:00",
-      "entry_usd_value": 5.05255,
-      "last_seen_price_usd": 1.883493219147888e-06,
+    "C4raRV66UoFHVb6rkDSAswnYfAy6AjMduKJyBtY4pump": {
+      "symbol": "VOID",
+      "name": "VOID",
+      "amount": 620853.7005163511,
+      "entry_price_usd": 8.134e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T11:00:16.612764+00:00",
+      "entry_usd_value": 5.0500240000000005,
+      "last_seen_price_usd": 8.134e-06,
       "entry_signals": {
-        "liquidity_usd": 97.402457141295,
-        "volume_24h_usd": null,
-        "market_cap_usd": 1449.492213501675,
-        "ath_market_cap_usd": 2865.29763930675,
+        "liquidity_usd": 2209.7537531031053,
+        "volume_24h_usd": 2113.07,
+        "market_cap_usd": 8137.716282222705,
+        "ath_market_cap_usd": 8137.716282222705,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.963894045,
-        "description": "⛏️ DON’T MINE THE GOLD. SELL THE SHOVEL. 🪙 Welcome to GOLD RUSH — where the gold isn’t buried in the ground… it’s buried in the memes. The old gold rush taught us one thing: the people selling the shovels often had the best seat at the table. Now it’s our turn. 💰 GOLD RUSH is a community-driven meme",
-        "twitter": "",
+        "real_sol_reserves": 21.878646053,
+        "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. Good luck.",
+        "twitter": "https://x.com/CryptoGainsDev",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -45621,25 +45621,30 @@
       "pnl_pct": 30.07,
       "exit_reason": "LLM: sell_all — Up +30.1% but pool is only $14 and we own 48% of it — extremely illiquid, can't exit cleanly at scale. Locking gains now before the thin liquidity tur",
       "partial": true
+    },
+    {
+      "mint": "ExYgS9Jp7P8SupfBUzPQMAvKfMUwzwuCirfedJX4pump",
+      "symbol": "GOLD",
+      "name": "GOLD RUSH",
+      "amount_sold": 1744576.4637059073,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T10:57:20.549021+00:00",
+      "exit_time": "2026-09-10T10:59:53.723215+00:00",
+      "entry_price_usd": 1.4480735310584059e-06,
+      "exit_price_usd": 2.288546719618166e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.03953,
+      "pnl_sol": 0.01453,
+      "pnl_pct": 58.04,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T10:58:49.923701+00:00",
+  "last_updated": "2026-09-10T11:00:16.613051+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.08,
-  "portfolio_value_usd": 507.8,
+  "last_sol_price_usd": 101.00048,
+  "portfolio_value_usd": 507.86,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 10:35 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $LBC at $3.0466e-06 | P&L: -1.5%",
-      "reason": "At -1.5% with 0 min held, this is essentially flat — not yet a loser worth panic-exiting. Pool $119 is thin and our 4% share is concerning, so I'm leaning on the 30-min stale auto-exit as my safety net rather than manual churn. Holding briefly to see if any catalyst emerges before re-evaluating."
-    },
-    {
-      "time": "2026-09-10 10:36 UTC",
-      "action": "buy",
-      "details": "[LLM] $SBDOG at $7.892e-06, spent 0.05 SOL",
-      "reason": "$SBDOG (SOL BONKER DOG) has the strongest narrative hook of the batch — 'church' framing is meme-native, $8k mcap with 29% bond near completion signals real demand, and the Bonk-adjacent branding taps an existing attention reservoir. Low risk at 0.05 SOL."
-    },
     {
       "time": "2026-09-10 10:38 UTC",
       "action": "sell",
@@ -45747,40 +45752,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $GOLD at $1.88349e-06 | P&L: +30.1%",
       "reason": "Up +30.1% but pool is only $14 and we own 48% of it — extremely illiquid, can't exit cleanly at scale. Locking gains now before the thin liquidity turns this into a loss. Take-profit auto should fire at +30% anyway."
+    },
+    {
+      "time": "2026-09-10 10:59 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $GOLD at $2.28855e-06 | P&L: +58.0%",
+      "reason": "Auto take-profit at +58.0%"
+    },
+    {
+      "time": "2026-09-10 11:00 UTC",
+      "action": "buy",
+      "details": "[LLM] $VOID at $8.134e-06, spent 0.05 SOL",
+      "reason": "$VOID — explicit airdrop-to-top-15 mechanism (60% supply) creates forced buy pressure as holders accumulate to qualify. Real X account (CryptoGainsDev), $8.1k mcap, fresh 1 min old. Pure attention/airdrop meta play, the kind of structural demand that pumps."
     }
   ],
   "trade_stats": {
-    "total": 2682,
-    "wins": 1304,
+    "total": 2683,
+    "wins": 1305,
     "losses": 1378,
     "win_rate_pct": 48.6,
-    "total_pnl_sol": 0.747505,
-    "avg_pnl_pct": 28.64,
+    "total_pnl_sol": 0.762035,
+    "avg_pnl_pct": 28.65,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 305,
-    "today_realized_sol": 3.43282,
-    "today_target_pct": 858.2,
+    "today_trades": 306,
+    "today_realized_sol": 3.44735,
+    "today_target_pct": 861.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1304,
+      "win_count": 1305,
       "loss_count": 1378,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:58:49.923362+00:00",
+  "last_llm_brief_at": "2026-09-10T11:00:15.052955+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "ExYgS9Jp7P8SupfBUzPQMAvKfMUwzwuCirfedJX4pump": {
-      "price_usd": 1.883493219147888e-06,
+      "price_usd": 2.288546719618166e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 13.6971552102,
-      "volume_h24": 179.05,
+      "liquidity_usd": 16.64259831116064,
+      "volume_h24": 256.65,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.135508065
+      "real_sol_reserves": 0.164777418
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

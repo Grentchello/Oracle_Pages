@@ -18913,3 +18913,9 @@
 ## [2026-09-10 10:58 UTC] sell | [PARTIAL][LLM] $GOLD at $1.88349e-06 | P&L: +30.1%
 - **Reasoning:** Up +30.1% but pool is only $14 and we own 48% of it — extremely illiquid, can't exit cleanly at scale. Locking gains now before the thin liquidity turns this into a loss. Take-profit auto should fire at +30% anyway.
 
+## [2026-09-10 10:59 UTC] sell | [v8.7 TP +50% (full)] $GOLD at $2.28855e-06 | P&L: +58.0%
+- **Reasoning:** Auto take-profit at +58.0%
+
+## [2026-09-10 11:00 UTC] buy | [LLM] $VOID at $8.134e-06, spent 0.05 SOL
+- **Reasoning:** $VOID — explicit airdrop-to-top-15 mechanism (60% supply) creates forced buy pressure as holders accumulate to qualify. Real X account (CryptoGainsDev), $8.1k mcap, fresh 1 min old. Pure attention/airdrop meta play, the kind of structural demand that pumps.
+
