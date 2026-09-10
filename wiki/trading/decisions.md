@@ -20194,3 +20194,9 @@
 ## [2026-09-10 19:22 UTC] buy | [LLM] $VANGOGE at $7.99487e-06, spent 0.05 SOL
 - **Reasoning:** $VANGOGE has a clear narrative (art/crypto cosmic meme), dedicated X account @vangogesol, and decent description — best viral setup among ultra-fresh launches.
 
+## [2026-09-10 19:23 UTC] sell | [rapid-drop] $VANGOGE crashed >15% in one tick | P&L: -64.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:24 UTC] buy | [LLM] $VOID at $7.47043e-06, spent 0.05 SOL
+- **Reasoning:** Viability: passes (desc 50+ chars + twitter). Narrative: '60% supply airdropped to top 15 holders at bonding' is a strong attention-bait mechanic — creates FOMO and guaranteed buyer concentration. $7k mcap is fresh, twitter active. ME2F risk: top-15 concentration is by design = whale-heavy, fragility gate may reject. Proceeding as best small-scalp candidate.
+
