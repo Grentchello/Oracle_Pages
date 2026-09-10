@@ -20263,3 +20263,9 @@
 ## [2026-09-10 19:41 UTC] buy | [LLM] $helmert at $5.19675e-06, spent 0.05 SOL
 - **Reasoning:** $helmert references Helius CEO @mert, a real Solana ecosystem figure with verifiable attention. Age 0.3min and low $5k mcap give early-entry asymmetry on a named-personality narrative, and it passes viability + fragility gates (no blacklist keyword, has Twitter).
 
+## [2026-09-10 19:42 UTC] sell | [rapid-drop] $helmert crashed >15% in one tick | P&L: -41.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:42 UTC] buy | [LLM] $MOOMOO at $7.43711e-06, spent 0.05 SOL
+- **Reasoning:** $MOOMOO '4chan Bull Mascot' — classic 4chan meme narrative that historically pumps (PEPE lineage), bond 28% (buy pressure building), Twitter signal present, mcap $7.4k has room to run. 0.1 SOL position. Hard stop at -25% will protect if narrative dies.
+
