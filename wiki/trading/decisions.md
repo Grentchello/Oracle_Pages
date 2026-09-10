@@ -17794,3 +17794,6 @@
 ## [2026-09-10 03:22 UTC] sell | [PARTIAL][LLM] $Flyhard at $1.46469e-07 | P&L: +7.7%
 - **Reasoning:** +7.7% with 41% pool share means selling now would crater the price and burn my only position slot for ~0.004 SOL realized. The -25% hard stop protects downside; better to let it pump or get stopped cleanly than dump into a $13 pool I dominate.
 
+## [2026-09-10 03:25 UTC] sell | [PARTIAL][LLM] $Flyhard at $1.28047e-07 | P&L: -5.8%
+- **Reasoning:** Down -5.8% on bonding curve with 56% pool share means I'm the exit liquidity. No clear narrative momentum in the data; cutting the small loss now beats waiting for -25% auto-stop or watching it bleed further as a stale bonding-curve bag.
+

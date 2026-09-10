@@ -1,17 +1,17 @@
 {
-  "balance_sol": 2.845477,
+  "balance_sol": 2.858576,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "EW7R4LCjhrZUyqeTTTHuv46CFTC4NU58YPnudvStpump": {
       "symbol": "Flyhard",
       "name": "Flyhard",
-      "amount": 18733198.675447155,
+      "amount": 8327169.028572692,
       "entry_price_usd": 1.3596183140566645e-07,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.011112849936683232,
       "entry_time": "2026-09-10T03:21:25.463717+00:00",
       "entry_usd_value": 5.094,
-      "last_seen_price_usd": 1.2819804331544573e-07,
+      "last_seen_price_usd": 1.2804698513400567e-07,
       "entry_signals": {
         "liquidity_usd": 7.1316e-07,
         "volume_24h_usd": 0.0,
@@ -42102,19 +42102,30 @@
       "pnl_pct": 7.73,
       "exit_reason": "LLM: sell_all — +7.7% with 41% pool share means selling now would crater the price and burn my only position slot for ~0.004 SOL realized. The -25% hard stop protects",
       "partial": true
+    },
+    {
+      "mint": "EW7R4LCjhrZUyqeTTTHuv46CFTC4NU58YPnudvStpump",
+      "symbol": "Flyhard",
+      "name": "Flyhard",
+      "amount_sold": 10406029.646874463,
+      "fraction_sold": 0.5554860025326708,
+      "entry_time": "2026-09-10T03:21:25.463717+00:00",
+      "exit_time": "2026-09-10T03:25:39.844675+00:00",
+      "entry_price_usd": 1.3596183140566645e-07,
+      "exit_price_usd": 1.2804698513400567e-07,
+      "entry_sol_for_chunk": 0.013887,
+      "exit_sol_received": 0.013099,
+      "pnl_sol": -0.000788,
+      "pnl_pct": -5.82,
+      "exit_reason": "LLM: sell_all — Down -5.8% on bonding curve with 56% pool share means I'm the exit liquidity. No clear narrative momentum in the data; cutting the small loss now beat",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T03:24:17.830307+00:00",
+  "last_updated": "2026-09-10T03:25:39.844929+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.84,
-  "portfolio_value_usd": 292.33,
+  "last_sol_price_usd": 101.72,
+  "portfolio_value_usd": 291.91,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 03:02 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $1000X at $2.85799e-06 | P&L: -0.6%",
-      "reason": "$1000X is flat at -0.6% after a fresh entry with only $5 pool liquidity and 25% of supply share in our position — that's illiquid and we already have 25% of pool, so any exit is also exit. Take the tiny loss, free the slot for fresh attention."
-    },
     {
       "time": "2026-09-10 03:02 UTC",
       "action": "buy",
@@ -42228,35 +42239,41 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Flyhard at $1.46469e-07 | P&L: +7.7%",
       "reason": "+7.7% with 41% pool share means selling now would crater the price and burn my only position slot for ~0.004 SOL realized. The -25% hard stop protects downside; better to let it pump or get stopped cleanly than dump into a $13 pool I dominate."
+    },
+    {
+      "time": "2026-09-10 03:25 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Flyhard at $1.28047e-07 | P&L: -5.8%",
+      "reason": "Down -5.8% on bonding curve with 56% pool share means I'm the exit liquidity. No clear narrative momentum in the data; cutting the small loss now beats waiting for -25% auto-stop or watching it bleed further as a stale bonding-curve bag."
     }
   ],
   "trade_stats": {
-    "total": 2475,
+    "total": 2476,
     "wins": 1220,
-    "losses": 1255,
+    "losses": 1256,
     "win_rate_pct": 49.3,
-    "total_pnl_sol": -1.395834,
-    "avg_pnl_pct": 29.07,
+    "total_pnl_sol": -1.396622,
+    "avg_pnl_pct": 29.05,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 98,
-    "today_realized_sol": 1.289481,
-    "today_target_pct": 322.4,
+    "today_trades": 99,
+    "today_realized_sol": 1.288693,
+    "today_target_pct": 322.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1220,
-      "loss_count": 1255,
+      "loss_count": 1256,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:24:17.830256+00:00",
+  "last_llm_brief_at": "2026-09-10T03:25:39.844089+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EW7R4LCjhrZUyqeTTTHuv46CFTC4NU58YPnudvStpump": {
-      "price_usd": 1.2819804331544573e-07,
+      "price_usd": 1.2804698513400567e-07,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4.27010710328,
+      "liquidity_usd": 4.26507555524,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
