@@ -17707,3 +17707,9 @@
 ## [2026-09-10 02:53 UTC] buy | [LLM] $MANEKI at $7.56957e-06, spent 0.05 SOL
 - **Reasoning:** $MANEKI has the strongest narrative of the batch — Maneki-neko (lucky cat) is a globally recognized cultural symbol tied to wealth/luck, and it's already pulling $7.5k mcap with bond at 28% (highest bonding curve progress = most real demand). Memecoin attention play with a universal symbol beats the noise here.
 
+## [2026-09-10 02:54 UTC] sell | [rapid-drop] $MANEKI crashed >15% in one tick | P&L: -49.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 02:55 UTC] buy | [LLM] $BUY at $6.81075e-06, spent 0.05 SOL
+- **Reasoning:** $BUY has the strongest narrative hook of the batch — 'add to cart, get paid in $SHOP' is a clear shopify/payment meta play with twitter backing from KankiAlpha. $6.7k mcap with 26% bond is the most progressed and has a viral CTA-style pitch.
+
