@@ -18994,3 +18994,9 @@
 ## [2026-09-10 11:34 UTC] buy | [LLM] $UGUY at $2.96107e-06, spent 0.05 SOL
 - **Reasoning:** $UGUY is the only candidate passing the viability gate (description 87 chars + KOL twitter @theunipcs, a known crypto influencer). Self-deprecating 'useless guy' narrative has viral meme potential. Fresh launch (0.4min), mcap $2.9k is small enough for multi-x upside. Other fresh launches ($MM, $RWA, $LOL, $Bob, $GTA) all fail viability with descriptions <50 chars. $HALH blocked by celebrity fragility gate (Haaland).
 
+## [2026-09-10 11:36 UTC] sell | [FULL][LLM] $UGUY at $2.86838e-06 | P&L: -3.1%
+- **Reasoning:** $UGUY is -3.1% in a $20 pool where we're already 24% of liquidity — exit-illiquid-and-rotate. Slot is better used on a fresher narrative token where the alpha hasn't been extracted yet.
+
+## [2026-09-10 11:36 UTC] buy | [LLM] $GS at $6.325e-06, spent 0.05 SOL
+- **Reasoning:** $GS 'Goldman Sacks' pun is a clear Wall-Street-vs-trenches narrative, description is sharp (50+ chars), has attached twitter, $7k mcap at 1min — pure attention-market launch with the cheapest entry.
+
