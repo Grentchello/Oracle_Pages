@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.158789,
+  "balance_sol": 4.199851,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "go2JLZEpaXKZQ97uVA3ZbmmHzZyc7Th5i2MjR9opump": {
       "symbol": "Stocklana",
       "name": "Stocklana",
-      "amount": 1675477.748599689,
+      "amount": 209102.70755775683,
       "entry_price_usd": 2.963035471016653e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.006240092049342888,
       "entry_time": "2026-09-10T18:31:18.449664+00:00",
       "entry_usd_value": 4.964500000000001,
-      "last_seen_price_usd": 2.963035471016653e-06,
+      "last_seen_price_usd": 2.7952262254115327e-06,
       "entry_signals": {
         "liquidity_usd": 101.16609060669,
         "volume_24h_usd": null,
@@ -48953,19 +48953,30 @@
       "pnl_pct": -13.52,
       "exit_reason": "LLM: sell_all — Down -13.5% but just entered (0.0h), not yet at -25% hard stop. Bonding curve share display shows anomalous 167M% (likely UI quirk). Give it one more ",
       "partial": false
+    },
+    {
+      "mint": "go2JLZEpaXKZQ97uVA3ZbmmHzZyc7Th5i2MjR9opump",
+      "symbol": "Stocklana",
+      "name": "Stocklana",
+      "amount_sold": 1466375.041041932,
+      "fraction_sold": 0.8751981590131422,
+      "entry_time": "2026-09-10T18:31:18.449664+00:00",
+      "exit_time": "2026-09-10T18:32:37.328374+00:00",
+      "entry_price_usd": 2.963035471016653e-06,
+      "exit_price_usd": 2.7952262254115327e-06,
+      "entry_sol_for_chunk": 0.04376,
+      "exit_sol_received": 0.041062,
+      "pnl_sol": -0.002697,
+      "pnl_pct": -5.66,
+      "exit_reason": "LLM: sell_all — Down 5.7% after 0h hold, but pool only $2 (way below 5x position size rule), our share 200% means we're the dominant LP — illiquid and easy to get rug",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T18:31:18.449819+00:00",
+  "last_updated": "2026-09-10T18:32:37.328667+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.29,
-  "portfolio_value_usd": 417.89,
+  "last_sol_price_usd": 99.82,
+  "portfolio_value_usd": 419.85,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 18:11 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BITCAT at $5.53891e-08 | P&L: +0.5%",
-      "reason": "BITCAT is a generic cat name with no narrative edge — it's one of 12+ cat tokens flooding in from a single coordinated Pumpfun post, all with identical j7tracker.io deploy signatures (deploy-bot saturation, not organic attention). At +0.5% with slot locked, rotation beats bag-holding. Free the slot for SLOP."
-    },
     {
       "time": "2026-09-10 18:11 UTC",
       "action": "buy",
@@ -49079,40 +49090,46 @@
       "action": "buy",
       "details": "[LLM] $Stocklana at $2.96304e-06, spent 0.05 SOL",
       "reason": "$Stocklana passes viability (72-char desc + twitter), has a clear narrative (Stock Solana framing of SOL identity), fresh launch under 1min, mcap ~$3k. Strong attention angle — 'stocks meet memes on Solana' is a theme that could catch. Risk: bonding curve only, may dump fast."
+    },
+    {
+      "time": "2026-09-10 18:32 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Stocklana at $2.79523e-06 | P&L: -5.7%",
+      "reason": "Down 5.7% after 0h hold, but pool only $2 (way below 5x position size rule), our share 200% means we're the dominant LP — illiquid and easy to get rugged. Exit immediately to free slot."
     }
   ],
   "trade_stats": {
-    "total": 2878,
+    "total": 2879,
     "wins": 1364,
-    "losses": 1514,
+    "losses": 1515,
     "win_rate_pct": 47.4,
-    "total_pnl_sol": -0.057401,
-    "avg_pnl_pct": 26.25,
+    "total_pnl_sol": -0.060098,
+    "avg_pnl_pct": 26.24,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 501,
-    "today_realized_sol": 2.627914,
-    "today_target_pct": 657.0,
+    "today_trades": 502,
+    "today_realized_sol": 2.625217,
+    "today_target_pct": 656.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1364,
-      "loss_count": 1514,
+      "loss_count": 1515,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T18:31:17.053735+00:00",
+  "last_llm_brief_at": "2026-09-10T18:32:37.327428+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "EZuHE7zu9mUbk3T9WqkFQMdNGZDvW2cHsZ5ktsWEpump": {
-      "price_usd": 2.7760484634583133e-06,
+    "go2JLZEpaXKZQ97uVA3ZbmmHzZyc7Th5i2MjR9opump": {
+      "price_usd": 2.7952262254115327e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.2907700000000002e-06,
-      "volume_h24": 485.82,
+      "liquidity_usd": 2.33795748788,
+      "volume_h24": 200.12,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.3e-08
+      "real_sol_reserves": 0.023421734
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

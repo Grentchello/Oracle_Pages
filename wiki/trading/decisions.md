@@ -20011,3 +20011,6 @@
 ## [2026-09-10 18:31 UTC] buy | [LLM] $Stocklana at $2.96304e-06, spent 0.05 SOL
 - **Reasoning:** $Stocklana passes viability (72-char desc + twitter), has a clear narrative (Stock Solana framing of SOL identity), fresh launch under 1min, mcap ~$3k. Strong attention angle — 'stocks meet memes on Solana' is a theme that could catch. Risk: bonding curve only, may dump fast.
 
+## [2026-09-10 18:32 UTC] sell | [PARTIAL][LLM] $Stocklana at $2.79523e-06 | P&L: -5.7%
+- **Reasoning:** Down 5.7% after 0h hold, but pool only $2 (way below 5x position size rule), our share 200% means we're the dominant LP — illiquid and easy to get rugged. Exit immediately to free slot.
+
