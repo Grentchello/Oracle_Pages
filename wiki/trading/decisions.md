@@ -19252,3 +19252,6 @@
 ## [2026-09-10 13:23 UTC] buy | [LLM] $holyfrog at $1.291e-05, spent 0.05 SOL
 - **Reasoning:** $holyfrog has the strongest fundamentals of the batch: highest mcap ($26.8k = best liquidity for 0.05 SOL size, exceeds 5x rule), bond 40% complete (most traction), and a viral absurdist name ('Holy Frog Father') that fits memecoin attention patterns. Fresh launch with no extraction yet.
 
+## [2026-09-10 13:24 UTC] sell | [v8.7 TP +50% (full)] $holyfrog at $3.09459e-05 | P&L: +139.7%
+- **Reasoning:** Auto take-profit at +139.7%
+
