@@ -18355,3 +18355,6 @@
 ## [2026-09-10 06:49 UTC] sell | [PARTIAL][LLM] $MACROHARD at $1.01014e-07 | P&L: -0.4%
 - **Reasoning:** Just opened 0.0h ago, only -0.4%, not yet at stale threshold. But 52% pool share is a real problem — if it doesn't move in next tick I'll exit on illiquidity grounds.
 
+## [2026-09-10 06:50 UTC] sell | [rapid-drop] $MACROHARD crashed >15% in one tick | P&L: -15.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
