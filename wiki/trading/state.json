@@ -1,17 +1,17 @@
 {
-  "balance_sol": 8.917155,
+  "balance_sol": 8.962864,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "FtPyR5EiJSXZ3vLadzaF1ugVUwDVVYkhcD582kQdpump": {
       "symbol": "BSO",
       "name": "Bag Stays On",
-      "amount": 134139339.1238007,
+      "amount": 11511565.11004945,
       "entry_price_usd": 3.744240901145789e-08,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.004290898249999997,
       "entry_time": "2026-09-10T20:43:19.036284+00:00",
       "entry_usd_value": 5.022500000000001,
-      "last_seen_price_usd": 3.744240901145789e-08,
+      "last_seen_price_usd": 3.7464773815247714e-08,
       "entry_signals": {
         "liquidity_usd": 1.7240829168500003,
         "volume_24h_usd": 0.0,
@@ -50228,19 +50228,30 @@
       "pnl_pct": 0.84,
       "exit_reason": "LLM: sell_all — $CHPT8 is only 0.0h old, +0.8% (basically flat), and the pool is $1 with us owning 25% — selling now would crater the price. Give it a few more minute",
       "partial": false
+    },
+    {
+      "mint": "FtPyR5EiJSXZ3vLadzaF1ugVUwDVVYkhcD582kQdpump",
+      "symbol": "BSO",
+      "name": "Bag Stays On",
+      "amount_sold": 122627774.01375124,
+      "fraction_sold": 0.9141820350000001,
+      "entry_time": "2026-09-10T20:43:19.036284+00:00",
+      "exit_time": "2026-09-10T20:44:45.300077+00:00",
+      "entry_price_usd": 3.744240901145789e-08,
+      "exit_price_usd": 3.7464773815247714e-08,
+      "entry_sol_for_chunk": 0.045709,
+      "exit_sol_received": 0.045709,
+      "pnl_sol": 0.0,
+      "pnl_pct": 0.06,
+      "exit_reason": "LLM: sell_all — Bonding-curve position, effectively flat (+0.1%) after minutes, and we own 291% of pool — a single sell will tank the chart. Cut exposure now and free",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T20:43:19.036498+00:00",
+  "last_updated": "2026-09-10T20:44:45.300250+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.45,
-  "portfolio_value_usd": 900.75,
+  "last_sol_price_usd": 100.51,
+  "portfolio_value_usd": 901.29,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 20:27 UTC",
-      "action": "buy",
-      "details": "[LLM] $WENDY at $3.63998e-06, spent 0.05 SOL",
-      "reason": "$WENDY has the strongest attention signal: DailyMail (major news outlet, millions of followers) X post about a viral 'Justice for Wendy' story, plus a SECOND mint already launching on the same narrative ('they killed him viral') which confirms the story is trending and has real demand. Low mcap ($3.6k) means room for 5-10x if the story catches broader attention. Risk: bond only 11%, narrative may not break beyond DailyMail's audience."
-    },
     {
       "time": "2026-09-10 20:28 UTC",
       "action": "sell",
@@ -50354,40 +50365,46 @@
       "action": "buy",
       "details": "[LLM] $BSO at $3.74424e-08, spent 0.05 SOL",
       "reason": "$BSO (Bag Stays On) passes the viability gate (twitter link + desc), no fragility keywords, and rides the Zcash privacy narrative which is currently trending — mcap $4.2k at bond=4% is early enough for 5-10x potential if the X post gets traction."
+    },
+    {
+      "time": "2026-09-10 20:44 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BSO at $3.74648e-08 | P&L: +0.1%",
+      "reason": "Bonding-curve position, effectively flat (+0.1%) after minutes, and we own 291% of pool — a single sell will tank the chart. Cut exposure now and free capital for fresh launches with actual momentum."
     }
   ],
   "trade_stats": {
-    "total": 2953,
+    "total": 2954,
     "wins": 1386,
-    "losses": 1567,
+    "losses": 1568,
     "win_rate_pct": 46.9,
     "total_pnl_sol": 4.700967,
-    "avg_pnl_pct": 28.81,
+    "avg_pnl_pct": 28.8,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 576,
+    "today_trades": 577,
     "today_realized_sol": 7.386282,
     "today_target_pct": 1846.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1386,
-      "loss_count": 1567,
+      "loss_count": 1568,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T20:43:17.534853+00:00",
+  "last_llm_brief_at": "2026-09-10T20:44:45.299988+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "47pwPmFyEjdn6mHkvXbYNK4m3j6hQ9mywTRBrvHLpump": {
-      "price_usd": 2.8097802502317142e-06,
+    "FtPyR5EiJSXZ3vLadzaF1ugVUwDVVYkhcD582kQdpump": {
+      "price_usd": 3.7464773815247714e-08,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.6970236549500001,
-      "volume_h24": 0.69,
+      "liquidity_usd": 1.7251127324300002,
+      "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.006939011
+      "real_sol_reserves": 0.017163593
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

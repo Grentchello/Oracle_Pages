@@ -20443,3 +20443,6 @@
 ## [2026-09-10 20:43 UTC] buy | [LLM] $BSO at $3.74424e-08, spent 0.05 SOL
 - **Reasoning:** $BSO (Bag Stays On) passes the viability gate (twitter link + desc), no fragility keywords, and rides the Zcash privacy narrative which is currently trending — mcap $4.2k at bond=4% is early enough for 5-10x potential if the X post gets traction.
 
+## [2026-09-10 20:44 UTC] sell | [PARTIAL][LLM] $BSO at $3.74648e-08 | P&L: +0.1%
+- **Reasoning:** Bonding-curve position, effectively flat (+0.1%) after minutes, and we own 291% of pool — a single sell will tank the chart. Cut exposure now and free capital for fresh launches with actual momentum.
+
