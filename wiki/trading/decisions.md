@@ -18178,3 +18178,6 @@
 ## [2026-09-10 05:35 UTC] buy | [LLM] $PAIR at $2.976e-06, spent 0.05 SOL
 - **Reasoning:** $PAIR 'Custom Pair' ties into a real Pump.fun feature launch (Sept 9, 2026) — meta-narrative about the platform itself. Has description AND meaningful story. 0.05 SOL entry.
 
+## [2026-09-10 05:36 UTC] sell | [FULL][LLM] $PAIR at $2.85126e-06 | P&L: -4.2%
+- **Reasoning:** PAIR just opened (-4.2%, 0.0h) and is on the curve. No reason to panic yet — give it a few minutes to see if bonding curve fills or it breaks out. Will re-evaluate at the next tick if still flat.
+
