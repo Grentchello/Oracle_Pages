@@ -17512,3 +17512,9 @@
 ## [2026-09-10 01:41 UTC] buy | [LLM] $BP at $1.47777e-05, spent 0.05 SOL
 - **Reasoning:** BP has the strongest fresh-launch narrative at only $14.8K market cap, plus an active X account and 36% bonding progress. It is highly speculative, but the bold Bitcoin Porn angle provides a clear attention signal.
 
+## [2026-09-10 01:43 UTC] sell | [rapid-drop] $BP crashed >15% in one tick | P&L: -79.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 01:43 UTC] buy | [LLM] $fun at $1.427e-05, spent 0.05 SOL
+- **Reasoning:** $fun is a pump.fun meta-token (self-referencing the launchpad that drives all current attention). Highest mcap in batch ($13k) with active twitter handle (idrawsol) and 32% bond progress = real liquidity forming. Meta-launchpad narratives consistently do 5-10x in first hour on pump.fun. Risk: $13k mcap means some alpha already extracted, but still well within early-entry zone.
+

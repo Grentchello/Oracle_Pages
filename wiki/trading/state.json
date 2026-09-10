@@ -1,27 +1,27 @@
 {
-  "balance_sol": 1.597174,
+  "balance_sol": 1.55739,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "CVj2WLHucsiwLLGTWKhpFL9iyFZASWWKkjSCXNc5pump": {
-      "symbol": "BP",
-      "name": "Bitcoin Porn",
-      "amount": 340987.44705469045,
-      "entry_price_usd": 1.4777670097608618e-05,
+    "8EHwAArC28roSir2G2rBs64giFZFb39Tm2PJ9ejmpump": {
+      "symbol": "fun",
+      "name": "pump fun",
+      "amount": 354117.02873160475,
+      "entry_price_usd": 1.427e-05,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T01:41:59.906259+00:00",
-      "entry_usd_value": 5.039000000000001,
-      "last_seen_price_usd": 1.4777670097608618e-05,
+      "entry_time": "2026-09-10T01:43:35.643591+00:00",
+      "entry_usd_value": 5.05325,
+      "last_seen_price_usd": 1.427e-05,
       "entry_signals": {
-        "liquidity_usd": 4618.90969490264,
-        "volume_24h_usd": null,
-        "market_cap_usd": 14772.112708493412,
-        "ath_market_cap_usd": 16368.658222872116,
+        "liquidity_usd": 94983.2074278412,
+        "volume_24h_usd": 7542.64,
+        "market_cap_usd": 13402.870795679017,
+        "ath_market_cap_usd": 14916.974349825216,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 45.831610388,
-        "description": "Launched on discord.gg/uxento",
-        "twitter": "https://x.com/BitcoinPornSol",
+        "real_sol_reserves": 939.822959757,
+        "description": "",
+        "twitter": "https://x.com/idrawsol/status/2097863047289217221",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -41252,25 +41252,30 @@
       "pnl_pct": -34.67,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "CVj2WLHucsiwLLGTWKhpFL9iyFZASWWKkjSCXNc5pump",
+      "symbol": "BP",
+      "name": "Bitcoin Porn",
+      "amount_sold": 340987.44705469045,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T01:41:59.906259+00:00",
+      "exit_time": "2026-09-10T01:43:03.806931+00:00",
+      "entry_price_usd": 1.4777670097608618e-05,
+      "exit_price_usd": 3.0280188060102795e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.010216,
+      "pnl_sol": -0.039784,
+      "pnl_pct": -79.51,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T01:41:59.906479+00:00",
+  "last_updated": "2026-09-10T01:43:35.643762+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.78,
-  "portfolio_value_usd": 166.0,
+  "last_sol_price_usd": 101.065,
+  "portfolio_value_usd": 162.45,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 01:22 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $NPC at $2.82643e-06 | P&L: -4.7%",
-      "reason": "Just entered at -4.7%, well within -25% hard stop, no stale signal yet. Bonding curve position needs time to migrate to pool and develop. The huge share% is a display artifact on bonding curve (token not yet on AMM)."
-    },
-    {
-      "time": "2026-09-10 01:24 UTC",
-      "action": "buy",
-      "details": "[LLM] $$DrunkPeng at $2.86061e-06, spent 0.05 SOL",
-      "reason": "$DrunkPeng passes viability gate (has twitter), passes fragility gate. Pengu is a hot meme vertical (Pudgy Penguins ecosystem attention), 'Drunk' angle adds comedy/virality, and twitter handle @PENGUMEME suggests existing meme community. Bond only 1% means very early — strong attention signal at $2.8k mcap. Risk: super fresh, could rug, but narrative + social presence justify a small 0.05 SOL entry."
-    },
     {
       "time": "2026-09-10 01:25 UTC",
       "action": "sell",
@@ -41378,40 +41383,52 @@
       "action": "buy",
       "details": "[LLM] $BP at $1.47777e-05, spent 0.05 SOL",
       "reason": "BP has the strongest fresh-launch narrative at only $14.8K market cap, plus an active X account and 36% bonding progress. It is highly speculative, but the bold Bitcoin Porn angle provides a clear attention signal."
+    },
+    {
+      "time": "2026-09-10 01:43 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $BP crashed >15% in one tick | P&L: -79.5%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 01:43 UTC",
+      "action": "buy",
+      "details": "[LLM] $fun at $1.427e-05, spent 0.05 SOL",
+      "reason": "$fun is a pump.fun meta-token (self-referencing the launchpad that drives all current attention). Highest mcap in batch ($13k) with active twitter handle (idrawsol) and 32% bond progress = real liquidity forming. Meta-launchpad narratives consistently do 5-10x in first hour on pump.fun. Risk: $13k mcap means some alpha already extracted, but still well within early-entry zone."
     }
   ],
   "trade_stats": {
-    "total": 2425,
+    "total": 2426,
     "wins": 1207,
-    "losses": 1218,
+    "losses": 1219,
     "win_rate_pct": 49.8,
-    "total_pnl_sol": -2.619137,
-    "avg_pnl_pct": 28.68,
+    "total_pnl_sol": -2.658921,
+    "avg_pnl_pct": 28.63,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 48,
-    "today_realized_sol": 0.066178,
-    "today_target_pct": 16.5,
+    "today_trades": 49,
+    "today_realized_sol": 0.026394,
+    "today_target_pct": 6.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1207,
-      "loss_count": 1218,
+      "loss_count": 1219,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T01:41:58.566135+00:00",
+  "last_llm_brief_at": "2026-09-10T01:43:34.324788+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "7pfuEaps7oandb1UcSiTwhbeE9rEoq3uopp5cistpump": {
-      "price_usd": 2.822337814712548e-06,
+    "CVj2WLHucsiwLLGTWKhpFL9iyFZASWWKkjSCXNc5pump": {
+      "price_usd": 3.0280188060102795e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.4832196031200002,
-      "volume_h24": 5024.53,
+      "liquidity_usd": 106.680299651485,
+      "volume_h24": 16738.49,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.024640004
+      "real_sol_reserves": 1.055561269
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
