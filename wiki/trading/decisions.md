@@ -18274,3 +18274,9 @@
 ## [2026-09-10 06:17 UTC] buy | [LLM] $Fang at $1.16654e-05, spent 0.05 SOL
 - **Reasoning:** $Fang has a real attention signal — China Daily (verified major media account, 50M+ followers) just tweeted about it, and 'Übermensch Bench Boy' is the kind of absurd Nietzsche-flavored meme that catches fire. Mcap is only $11.6k so still early; if the tweet gains traction this5-10x's quickly. Risk: thin liquidity,0.3min old, narrative is opaque — but the attention is real and position is small (0.05 SOL).
 
+## [2026-09-10 06:18 UTC] sell | [rapid-drop] $Fang crashed >15% in one tick | P&L: -74.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 06:19 UTC] buy | [LLM] $GEPE at $3.13425e-06, spent 0.05 SOL
+- **Reasoning:** Gold Pepe narrative — Pepe variants are the highest-hit-rate memecoin franchise on Solana. Passes viability (desc link + twitter), $3.1k mcap with 0.2min age = maximum upside window, bond still forming so I'm in early. Risk: fresh launch with thin liquidity could rug or stall — auto -25% stop is the backstop.
+
