@@ -20836,3 +20836,6 @@
 ## [2026-09-10 23:31 UTC] sell | [FULL][LLM] $Banned at $2.78661e-06 | P&L: -3.0%
 - **Reasoning:** Just entered, -3% is noise. $Banned has bonding curve dynamics, pool is small ($4) so any meaningful price action will come from bonding curve progress. Give it time to develop narrative or bonding curve fill.
 
+## [2026-09-10 23:35 UTC] buy | [LLM] $CPU at $9.56155e-09, spent 0.05 SOL
+- **Reasoning:** $CPU (Cat Processing Unit) — cat + tech meme formula is a proven viral combo. Highest mcap ($9.6k) of the fresh launches signals organic buy-in, twitter link present for attention spread, passes viability (twitter) and fragility gates. Age 1.2min is early enough to catch the wave before it pumps.
+
