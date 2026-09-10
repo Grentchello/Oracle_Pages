@@ -20308,3 +20308,6 @@
 ## [2026-09-10 19:55 UTC] sell | [FULL][LLM] $CSCUM at $3.31486e-06 | P&L: -8.5%
 - **Reasoning:** $CSCUM down only 8.5% after 0.0h — well within normal bonding-curve noise. Hard stop is -25%, auto-exit kicks in at -30% or 30min stale. Rotating into a 0.2min old launch to chase a tiny loss is exactly the over-trading pattern that destroys memecoin P&L.
 
+## [2026-09-10 19:56 UTC] buy | [LLM] $TURBO at $4.97459e-06, spent 0.05 SOL
+- **Reasoning:** $TURBO 'Turtle Rush' has a clear arcade-game narrative (clawpump.tech), $5k mcap with bonding at 20% (strongest traction among new launches), and a memorable name that fits the meme/gaming meta. Best attention signal in the batch.
+
