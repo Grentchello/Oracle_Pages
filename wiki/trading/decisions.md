@@ -20386,3 +20386,9 @@
 ## [2026-09-10 20:27 UTC] buy | [LLM] $WENDY at $3.63998e-06, spent 0.05 SOL
 - **Reasoning:** $WENDY has the strongest attention signal: DailyMail (major news outlet, millions of followers) X post about a viral 'Justice for Wendy' story, plus a SECOND mint already launching on the same narrative ('they killed him viral') which confirms the story is trending and has real demand. Low mcap ($3.6k) means room for 5-10x if the story catches broader attention. Risk: bond only 11%, narrative may not break beyond DailyMail's audience.
 
+## [2026-09-10 20:28 UTC] sell | [rapid-drop] $WENDY crashed >15% in one tick | P&L: -23.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 20:28 UTC] buy | [LLM] $WENDY at $1.0723e-05, spent 0.05 SOL
+- **Reasoning:** $WENDY 'Justice For Wendy' tied to a DailyMail tweet at sub-$11k mcap — mainstream media hook on a viral injustice narrative is exactly the attention catalyst memecoins need for a 3-10x first-hour run. Position 0.05 SOL.
+
