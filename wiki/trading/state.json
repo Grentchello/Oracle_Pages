@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.042573,
+  "balance_sol": 4.065211,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "HePX4WJyQb9zyVEFnuyvnByiZfdDJ72iBCeNLaHpump": {
       "symbol": "GREENY",
       "name": "Greenyagentic",
-      "amount": 1520890.3973582508,
+      "amount": 715528.5945016254,
       "entry_price_usd": 3.27637021619398e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.023523345132051628,
       "entry_time": "2026-09-10T18:14:57.514801+00:00",
       "entry_usd_value": 4.9830000000000005,
-      "last_seen_price_usd": 3.27637021619398e-06,
+      "last_seen_price_usd": 2.8030445296836333e-06,
       "entry_signals": {
         "liquidity_usd": 157.24194616482,
         "volume_24h_usd": null,
@@ -48800,19 +48800,30 @@
       "pnl_pct": -48.5,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "HePX4WJyQb9zyVEFnuyvnByiZfdDJ72iBCeNLaHpump",
+      "symbol": "GREENY",
+      "name": "Greenyagentic",
+      "amount_sold": 805361.8028566254,
+      "fraction_sold": 0.5295330973589675,
+      "entry_time": "2026-09-10T18:14:57.514801+00:00",
+      "exit_time": "2026-09-10T18:16:12.702725+00:00",
+      "entry_price_usd": 3.27637021619398e-06,
+      "exit_price_usd": 2.8030445296836333e-06,
+      "entry_sol_for_chunk": 0.026477,
+      "exit_sol_received": 0.022638,
+      "pnl_sol": -0.003839,
+      "pnl_pct": -14.45,
+      "exit_reason": "LLM: sell_all — Down 14.4% with 53% pool share and held 0h — bonding-curve position with concentrated share is fragile, exit before -25% hard stop. Free the slot for ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T18:14:57.514992+00:00",
+  "last_updated": "2026-09-10T18:16:12.702943+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.66,
-  "portfolio_value_usd": 407.87,
+  "last_sol_price_usd": 99.72,
+  "portfolio_value_usd": 407.73,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 17:56 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Vel at $2.81427e-06 | P&L: -0.4%",
-      "reason": "$Vel is flat (-0.4%) with bonding curve pool of only $1 and our share is 25% of LP — this is a micro-cap illiquid position with no momentum. Better to free the slot for fresher, higher-attention launches."
-    },
     {
       "time": "2026-09-10 17:56 UTC",
       "action": "buy",
@@ -48926,30 +48937,48 @@
       "action": "buy",
       "details": "[LLM] $GREENY at $3.27637e-06, spent 0.05 SOL",
       "reason": "$GREENY has the strongest narrative of the batch: AI agent trust infrastructure on Virtuals ACP, real Twitter handle, substantive 50+ char description. At $3.2k mcap with 7% bond, this is a genuine narrative play, not a one-liner meme. Risks: extremely early, thin liquidity."
+    },
+    {
+      "time": "2026-09-10 18:16 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $GREENY at $2.80304e-06 | P&L: -14.4%",
+      "reason": "Down 14.4% with 53% pool share and held 0h — bonding-curve position with concentrated share is fragile, exit before -25% hard stop. Free the slot for fresh attention plays."
     }
   ],
   "trade_stats": {
-    "total": 2869,
+    "total": 2870,
     "wins": 1362,
-    "losses": 1507,
+    "losses": 1508,
     "win_rate_pct": 47.5,
-    "total_pnl_sol": -0.173617,
-    "avg_pnl_pct": 26.26,
+    "total_pnl_sol": -0.177456,
+    "avg_pnl_pct": 26.25,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 492,
-    "today_realized_sol": 2.511698,
-    "today_target_pct": 627.9,
+    "today_trades": 493,
+    "today_realized_sol": 2.507859,
+    "today_target_pct": 627.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1362,
-      "loss_count": 1507,
+      "loss_count": 1508,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T18:14:56.255947+00:00",
+  "last_llm_brief_at": "2026-09-10T18:16:12.702574+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HePX4WJyQb9zyVEFnuyvnByiZfdDJ72iBCeNLaHpump": {
+      "price_usd": 2.8030445296836333e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 8.022634050599999,
+      "volume_h24": 3999.22,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.080451605
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

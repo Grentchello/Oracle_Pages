@@ -19963,3 +19963,6 @@
 ## [2026-09-10 18:14 UTC] buy | [LLM] $GREENY at $3.27637e-06, spent 0.05 SOL
 - **Reasoning:** $GREENY has the strongest narrative of the batch: AI agent trust infrastructure on Virtuals ACP, real Twitter handle, substantive 50+ char description. At $3.2k mcap with 7% bond, this is a genuine narrative play, not a one-liner meme. Risks: extremely early, thin liquidity.
 
+## [2026-09-10 18:16 UTC] sell | [PARTIAL][LLM] $GREENY at $2.80304e-06 | P&L: -14.4%
+- **Reasoning:** Down 14.4% with 53% pool share and held 0h — bonding-curve position with concentrated share is fragile, exit before -25% hard stop. Free the slot for fresh attention plays.
+
