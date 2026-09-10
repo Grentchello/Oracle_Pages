@@ -1,17 +1,17 @@
 {
-  "balance_sol": 2.141341,
+  "balance_sol": 2.188892,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "32YRfiRvLe43xs73iqZ2vTfc87x4p6vFfxAJqxQ1pump": {
       "symbol": "Larry",
       "name": "Larry'$ first Tesla",
-      "amount": 1787166.1995829318,
+      "amount": 87520.74569273544,
       "entry_price_usd": 2.8229047758274213e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.0024485900000000005,
       "entry_time": "2026-09-10T01:53:01.728574+00:00",
       "entry_usd_value": 5.045000000000001,
-      "last_seen_price_usd": 2.8229047758274213e-06,
+      "last_seen_price_usd": 2.817309325330241e-06,
       "entry_signals": {
         "liquidity_usd": 0.988250924,
         "volume_24h_usd": null,
@@ -41337,19 +41337,30 @@
       "pnl_pct": 8.52,
       "exit_reason": "LLM: sell_all — $MALONE is up +8.5% but only just bought (0.0h held) — give it room to develop the bounce. Pool is thin at $416 so any exit now crystallizes a small g",
       "partial": false
+    },
+    {
+      "mint": "32YRfiRvLe43xs73iqZ2vTfc87x4p6vFfxAJqxQ1pump",
+      "symbol": "Larry",
+      "name": "Larry'$ first Tesla",
+      "amount_sold": 1699645.4538901963,
+      "fraction_sold": 0.9510282,
+      "entry_time": "2026-09-10T01:53:01.728574+00:00",
+      "exit_time": "2026-09-10T01:54:42.369876+00:00",
+      "entry_price_usd": 2.8229047758274213e-06,
+      "exit_price_usd": 2.817309325330241e-06,
+      "entry_sol_for_chunk": 0.047551,
+      "exit_sol_received": 0.047551,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.2,
+      "exit_reason": "LLM: sell_all — 510% pool share on $1 pool means I'm the entire liquidity — exit now to free slot, price impact unavoidable but slot is more valuable than this positi",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T01:53:01.728750+00:00",
+  "last_updated": "2026-09-10T01:54:42.370151+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.9,
-  "portfolio_value_usd": 221.11,
+  "last_sol_price_usd": 100.7,
+  "portfolio_value_usd": 220.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 01:32 UTC",
-      "action": "buy",
-      "details": "[LLM] $BALLERINA at $3.727e-06, spent 0.05 SOL",
-      "reason": "Ballerina Cappuccina is a viral character meme with verifiable X source and discord origin — strong attention-narrative fit at sub-$5k mcap, 0.7min age. Risk: sub-1min launch with bond only 20%, thin liquidity."
-    },
     {
       "time": "2026-09-10 01:33 UTC",
       "action": "sell",
@@ -41463,30 +41474,48 @@
       "action": "buy",
       "details": "[LLM] $Larry at $2.8229e-06, spent 0.05 SOL",
       "reason": "Direct tweet from @elonmusk (top attention signal in batch). '98yr old Larry buys first Tesla with FSD' is absurdist viral nonsense — exactly the kind of narrative that 10x's on Elon attention. Fresh launch ($2.8k mcap, 1min old) means early entry. Risk: Elon tweets reverse fast — must scalp, not bag-hold."
+    },
+    {
+      "time": "2026-09-10 01:54 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Larry at $2.81731e-06 | P&L: -0.2%",
+      "reason": "510% pool share on $1 pool means I'm the entire liquidity — exit now to free slot, price impact unavoidable but slot is more valuable than this position."
     }
   ],
   "trade_stats": {
-    "total": 2430,
+    "total": 2431,
     "wins": 1210,
-    "losses": 1220,
+    "losses": 1221,
     "win_rate_pct": 49.8,
     "total_pnl_sol": -2.07497,
-    "avg_pnl_pct": 29.07,
+    "avg_pnl_pct": 29.05,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 53,
+    "today_trades": 54,
     "today_realized_sol": 0.610345,
     "today_target_pct": 152.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1210,
-      "loss_count": 1220,
+      "loss_count": 1221,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T01:52:59.908961+00:00",
+  "last_llm_brief_at": "2026-09-10T01:54:42.369046+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "32YRfiRvLe43xs73iqZ2vTfc87x4p6vFfxAJqxQ1pump": {
+      "price_usd": 2.817309325330241e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.986292052,
+      "volume_h24": 0.98,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.00979436
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

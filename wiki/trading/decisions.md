@@ -17545,3 +17545,6 @@
 ## [2026-09-10 01:53 UTC] buy | [LLM] $Larry at $2.8229e-06, spent 0.05 SOL
 - **Reasoning:** Direct tweet from @elonmusk (top attention signal in batch). '98yr old Larry buys first Tesla with FSD' is absurdist viral nonsense — exactly the kind of narrative that 10x's on Elon attention. Fresh launch ($2.8k mcap, 1min old) means early entry. Risk: Elon tweets reverse fast — must scalp, not bag-hold.
 
+## [2026-09-10 01:54 UTC] sell | [PARTIAL][LLM] $Larry at $2.81731e-06 | P&L: -0.2%
+- **Reasoning:** 510% pool share on $1 pool means I'm the entire liquidity — exit now to free slot, price impact unavoidable but slot is more valuable than this position.
+
