@@ -18553,3 +18553,6 @@
 ## [2026-09-10 08:07 UTC] sell | [PARTIAL][LLM] $PAC-3310 at $2.0325e-08 | P&L: +21.9%
 - **Reasoning:** Up +21.9% in 0.1h — bonding-curve pump is fast but $3k pool is thin and our 2% share makes exit slippage real. Lock half the gain now, let the rest ride if the curve keeps filling.
 
+## [2026-09-10 08:08 UTC] sell | [PARTIAL][LLM] $PAC-3310 at $2.03017e-08 | P&L: +21.8%
+- **Reasoning:** $PAC-3310 is up 21.8% but has only $3 in the pool, indicating a fragile, illiquid exit. Take half profit now while preserving exposure to a possible attention-driven continuation.
+
