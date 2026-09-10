@@ -17620,3 +17620,6 @@
 ## [2026-09-10 02:23 UTC] buy | [LLM] $SOUP at $2.9e-06, spent 0.05 SOL
 - **Reasoning:** $SOUP rides real OpenAI news cycle ($7B chips, servers 'melting down', 'i am just a soup' reply = viral absurdist meme). Has twitter + substantive desc (passes viability), no fragility flags, mcap $2.9k at 0.8min = very early attention entry. Absurdist AI-fail memes print hard on X — this has the narrative + the post. Risk: tiny mcap + 0% bond = rug-prone, hence 0.05 SOL size and tight -25% hard stop.
 
+## [2026-09-10 02:24 UTC] sell | [FULL][LLM] $SOUP at $2.90055e-06 | P&L: +0.0%
+- **Reasoning:** SOUP just entered, +0.0%, 0min held — not stale, no signal either way. Give it room to develop before judging; position is tiny (~$0.65 share at 13% of $39 pool).
+
