@@ -20422,3 +20422,9 @@
 ## [2026-09-10 20:37 UTC] buy | [LLM] $NEEGY at $4.906e-05, spent 0.05 SOL
 - **Reasoning:** $NEEGY has the strongest setup: $44k mcap, 43% bonded (graduating imminent), clear viral twitter handle @theneegyfun, and a distinctive absurd meme (radioactive lime nose) that fits attention-market dynamics. Other candidates are either too small (microcaps <$1k with no bonding) or lack a clear narrative hook.
 
+## [2026-09-10 20:39 UTC] sell | [FULL][LLM] $NEEGY at $4.649e-05 | P&L: -5.2%
+- **Reasoning:** Down 5.2% on a $16k pool with no clear narrative (meme name only, no twitter, no real story). Thin liquidity means any recovery is fragile. Freeing the slot for a stronger narrative play.
+
+## [2026-09-10 20:39 UTC] buy | [LLM] $SHH at $5.88144e-08, spent 0.05 SOL
+- **Reasoning:** $SHH 'Private AI inference on Solana' - AI narrative is hot, has twitter @Magicianafk, fresh 0.7min launch at $6.6k mcap. Bond 19% shows early organic interest. Viability gate passes (desc + twitter).
+
