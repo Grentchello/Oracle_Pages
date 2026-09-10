@@ -20692,3 +20692,6 @@
 ## [2026-09-10 22:42 UTC] sell | [FULL][LLM] $fun at $1.14655e-05 | P&L: +25.8%
 - **Reasoning:** $fun is at +25.8% — close to the +30% auto-TP threshold, and a pullback risk is high on a sub-$3k pool with 0% share. Locking in the gain now rather than gambling another minute for the auto-trigger; this also frees my only position slot for fresh attention.
 
+## [2026-09-10 22:43 UTC] buy | [LLM] $CYBERCAB at $1.21547e-07, spent 0.05 SOL
+- **Reasoning:** $CYBERCAB rides real Tesla Cybercab narrative — Elon is the prototypical memecoin attention driver, tweet attached, fresh 0.8min launch at $4.4k mcap where 10x is possible in hours. Risk: ultra-low mcap and only 5% bond complete, so size matters — 0.1 SOL keeps exposure tiny.
+
