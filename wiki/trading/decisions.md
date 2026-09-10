@@ -17428,3 +17428,6 @@
 ## [2026-09-10 01:11 UTC] sell | [rapid-drop] $PISSCOIN crashed >15% in one tick | P&L: -45.9%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 01:15 UTC] buy | [LLM] $Erebus at $6.40419e-06, spent 0.05 SOL
+- **Reasoning:** Erebus has the strongest narrative of the slate: an AI jailbreak story paired with a fresh X post, and its $6,405 market cap offers substantial early-attention upside. The main risks are extremely low liquidity and a very young bond curve, so this is a small, momentum-based entry.
+
