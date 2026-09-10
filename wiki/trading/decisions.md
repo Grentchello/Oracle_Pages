@@ -19075,3 +19075,6 @@
 ## [2026-09-10 12:17 UTC] sell | [FULL][LLM] $MCFARLAND at $2.81743e-06 | P&L: -3.6%
 - **Reasoning:** Only -3.6% with 0.0h held, well within noise; our share of ~48 billion tiny tokens suggests deep bonding-curve micro-cap. No bounce signal yet but no panic signal either — give it a few minutes before judging.
 
+## [2026-09-10 12:18 UTC] buy | [LLM] $BetOnBlak at $1.239e-06, spent 0.05 SOL
+- **Reasoning:** $BetOnBlak (BetOnBlack) — gambling/risky-bet meme, sub-$1k mcap, 9% bonding curve progress showing real SOL flowing. Attention hook is clean (roulette energy), but second slot means we can only take one — skipping in favor of $PANIC.
+
