@@ -20404,3 +20404,9 @@
 ## [2026-09-10 20:31 UTC] buy | [LLM] $OPEC at $4.07849e-06, spent 0.05 SOL
 - **Reasoning:** $OPEC has a clear parody narrative ('Oil Paid Every Cycle - hold the coin, receive the crude') with active X account @OPECrobinhood. Brand-recognition ticker $OPEC rides Trump-era oil attention meme. 0.1min age = fresh launch on bonding curve, attention-launched via Twitter.
 
+## [2026-09-10 20:32 UTC] sell | [FULL][LLM] $OPEC at $5.90966e-06 | P&L: +44.9%
+- **Reasoning:** +44.9% gain is deep into TP territory. The OPEC narrative appears to have peaked (pump-style token, attention exhausted). Lock the gain — 0.0449 SOL profit on 0.05 SOL position, don't hope for more.
+
+## [2026-09-10 20:32 UTC] buy | [LLM] $Bracat at $6.249e-06, spent 0.05 SOL
+- **Reasoning:** $Bracat at $13k mcap is the strongest attention signal in the slate — multiple independent X posts (0XENTIAL and LeopoldDevelops) within 90 seconds. Bonding curve 32% (most progressed), giving early confirmation without being too late. 0.05 SOL position with -25% hard stop.
+

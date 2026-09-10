@@ -1,27 +1,27 @@
 {
-  "balance_sol": 5.990506,
+  "balance_sol": 6.012955,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "6XSGwjXjoT5NgcFLCBuGrZsDMspKNbh7Yra8v2KEpump": {
-      "symbol": "OPEC",
-      "name": "Oil Paid Every Cycle",
-      "amount": 1230848.405601783,
-      "entry_price_usd": 4.078487632719998e-06,
+    "H61Kyv6GwnUmJ3Bw63VLdguSApX7DqVmdLTTFbWtpump": {
+      "symbol": "Bracat",
+      "name": "Bracat",
+      "amount": 803328.5325652105,
+      "entry_price_usd": 6.249e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T20:31:26.083775+00:00",
+      "entry_time": "2026-09-10T20:32:51.153948+00:00",
       "entry_usd_value": 5.0200000000000005,
-      "last_seen_price_usd": 4.078487632719998e-06,
+      "last_seen_price_usd": 6.249e-06,
       "entry_signals": {
-        "liquidity_usd": 628.479604306,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4065.16233605848,
-        "ath_market_cap_usd": 4065.16233605848,
+        "liquidity_usd": 72237.962167084,
+        "volume_24h_usd": 1553.11,
+        "market_cap_usd": 13011.201737158242,
+        "ath_market_cap_usd": 13348.205031082993,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 6.259757015,
-        "description": "Oil Paid Every Cycle - hold the coin, receive the crude.",
-        "twitter": "https://x.com/OPECrobinhood",
+        "real_sol_reserves": 719.50161521,
+        "description": "",
+        "twitter": "https://x.com/0XENTIAL/status/2098147417376063557",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -50109,25 +50109,30 @@
       "pnl_pct": 47.37,
       "exit_reason": "LLM: sell_all — $AURA is up +47.4%, already past the +25% TP threshold where bot auto-triggers. Locking in the gain — memecoins at 0.0h hold time give back gains fast",
       "partial": false
+    },
+    {
+      "mint": "6XSGwjXjoT5NgcFLCBuGrZsDMspKNbh7Yra8v2KEpump",
+      "symbol": "OPEC",
+      "name": "Oil Paid Every Cycle",
+      "amount_sold": 1230848.405601783,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T20:31:26.083775+00:00",
+      "exit_time": "2026-09-10T20:32:49.813728+00:00",
+      "entry_price_usd": 4.078487632719998e-06,
+      "exit_price_usd": 5.909656966207031e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.072449,
+      "pnl_sol": 0.022449,
+      "pnl_pct": 44.9,
+      "exit_reason": "LLM: sell_all — +44.9% gain is deep into TP territory. The OPEC narrative appears to have peaked (pump-style token, attention exhausted). Lock the gain — 0.0449 SOL p",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T20:31:26.084033+00:00",
+  "last_updated": "2026-09-10T20:32:51.154123+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 100.4,
-  "portfolio_value_usd": 606.47,
+  "portfolio_value_usd": 608.72,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 20:07 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $COTE at $1.7323e-05 | P&L: +83.1%",
-      "reason": "Auto take-profit at +83.1%"
-    },
-    {
-      "time": "2026-09-10 20:08 UTC",
-      "action": "buy",
-      "details": "[LLM] $SPY at $6.313e-06, spent 0.05 SOL",
-      "reason": "$SPY has the strongest narrative of the batch (persistent AI entities / agent environments — on-meta), highest mcap ($8.6k), confirmed Twitter, and longest bond at 30%. Best risk/reward for the single slot."
-    },
     {
       "time": "2026-09-10 20:10 UTC",
       "action": "sell",
@@ -50235,40 +50240,52 @@
       "action": "buy",
       "details": "[LLM] $OPEC at $4.07849e-06, spent 0.05 SOL",
       "reason": "$OPEC has a clear parody narrative ('Oil Paid Every Cycle - hold the coin, receive the crude') with active X account @OPECrobinhood. Brand-recognition ticker $OPEC rides Trump-era oil attention meme. 0.1min age = fresh launch on bonding curve, attention-launched via Twitter."
+    },
+    {
+      "time": "2026-09-10 20:32 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $OPEC at $5.90966e-06 | P&L: +44.9%",
+      "reason": "+44.9% gain is deep into TP territory. The OPEC narrative appears to have peaked (pump-style token, attention exhausted). Lock the gain — 0.0449 SOL profit on 0.05 SOL position, don't hope for more."
+    },
+    {
+      "time": "2026-09-10 20:32 UTC",
+      "action": "buy",
+      "details": "[LLM] $Bracat at $6.249e-06, spent 0.05 SOL",
+      "reason": "$Bracat at $13k mcap is the strongest attention signal in the slate — multiple independent X posts (0XENTIAL and LeopoldDevelops) within 90 seconds. Bonding curve 32% (most progressed), giving early confirmation without being too late. 0.05 SOL position with -25% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 2946,
-    "wins": 1383,
+    "total": 2947,
+    "wins": 1384,
     "losses": 1563,
-    "win_rate_pct": 46.9,
-    "total_pnl_sol": 1.774318,
+    "win_rate_pct": 47.0,
+    "total_pnl_sol": 1.796767,
     "avg_pnl_pct": 26.9,
     "best_pnl_pct": 2934.77,
     "worst_pnl_pct": -99.94,
-    "today_trades": 569,
-    "today_realized_sol": 4.459633,
-    "today_target_pct": 1114.9,
+    "today_trades": 570,
+    "today_realized_sol": 4.482082,
+    "today_target_pct": 1120.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1383,
+      "win_count": 1384,
       "loss_count": 1563,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T20:31:24.771238+00:00",
+  "last_llm_brief_at": "2026-09-10T20:32:49.813685+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "HpxuG5wSnvHjkyNa5bKd2BpUDubvbYE37PiSWJswpump": {
-      "price_usd": 8.760179773452786e-06,
+    "6XSGwjXjoT5NgcFLCBuGrZsDMspKNbh7Yra8v2KEpump": {
+      "price_usd": 5.909656966207031e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.0040000000000001e-07,
-      "volume_h24": 1892.11,
+      "liquidity_usd": 1358.2721340652001,
+      "volume_h24": 668.83,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1e-09
+      "real_sol_reserves": 13.528606913
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
