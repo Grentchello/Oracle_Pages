@@ -20026,3 +20026,6 @@
 ## [2026-09-10 18:35 UTC] buy | [LLM] $casino at $1.46324e-08, spent 0.05 SOL
 - **Reasoning:** $casino has the strongest attention signal — tied to a viral X post (@river100x), $6.4k mcap with narrative 'no crying in the casino' (savvy trader meme), 15% bond showing early traction. Casino/gambling memes travel fast on crypto Twitter.
 
+## [2026-09-10 18:36 UTC] sell | [PARTIAL][LLM] $casino at $1.63219e-08 | P&L: +11.6%
+- **Reasoning:** Up +11.5% on a brand-new position with no clear viral narrative visible (just 'casino' name). Bonding-curve token with 181% share — taking the small profit and freeing the slot is correct. Up 11% is in the 'lock it in' zone, not the 'ride the wave' zone.
+
