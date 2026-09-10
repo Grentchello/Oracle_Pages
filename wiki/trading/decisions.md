@@ -17902,3 +17902,6 @@
 ## [2026-09-10 04:07 UTC] sell | [rapid-drop] $MISSILE crashed >15% in one tick | P&L: -16.4%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 04:09 UTC] buy | [LLM] $scarcity at $3.32122e-06, spent 0.05 SOL
+- **Reasoning:** $scarcity is backed by OKX's official account — that's a major CEX posting about a freshly launched token, which is rare attention. Narrative 'digital scarcity is real' ties into broader crypto culture, and at $3.3k mcap with 0.7min age, there's room for a quick 2-5x if the OKX post gains traction. High beta but the attention signal is real.
+
