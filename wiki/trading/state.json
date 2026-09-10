@@ -1,8 +1,32 @@
 {
-  "balance_sol": 5.075025,
+  "balance_sol": 5.025025,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "7itnwDefBG4kkyxkMbbfJnSqkqXgvZjXhECGzb1wpump": {
+      "symbol": "McRib",
+      "name": "The McRib",
+      "amount": 31417876.243179448,
+      "entry_price_usd": 1.6089566210247572e-07,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T10:02:11.000783+00:00",
+      "entry_usd_value": 5.055,
+      "last_seen_price_usd": 1.6089566210247572e-07,
+      "entry_signals": {
+        "liquidity_usd": 3.2350060901999997,
+        "volume_24h_usd": null,
+        "market_cap_usd": 4133.402476423652,
+        "ath_market_cap_usd": 4133.402476423652,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.031998082,
+        "description": "the one and only $McRib",
+        "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45157,17 +45181,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T10:00:43.795353+00:00",
+  "last_updated": "2026-09-10T10:02:11.001068+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.014,
-  "portfolio_value_usd": 512.65,
+  "last_sol_price_usd": 101.1,
+  "portfolio_value_usd": 513.09,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 09:29 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $BetOnBlak at $4.03915e-06 | P&L: +14.3%",
-      "reason": "Up +14.3% but our 580% share of a $1 pool is extreme concentration risk — any other seller dumps price through our position. Take the gain before liquidity evaporates or reverses."
-    },
     {
       "time": "2026-09-10 09:31 UTC",
       "action": "sell",
@@ -45281,6 +45299,12 @@
       "action": "sell",
       "details": "[rapid-drop] $Gösta crashed >15% in one tick | P&L: -16.2%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 10:02 UTC",
+      "action": "buy",
+      "details": "[LLM] $McRib at $1.60896e-07, spent 0.05 SOL",
+      "reason": "$McRib has the clearest cultural narrative of the batch — the McRib sandwich is a beloved limited-time nostalgia meme with viral TikTok/X potential. Mcap $4k is entry-level. Bond only 2% so risk of rug/pull is real, and -25% hard stop will protect. Sizing 0.05 SOL."
     }
   ],
   "trade_stats": {
@@ -45302,21 +45326,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:00:43.529051+00:00",
+  "last_llm_brief_at": "2026-09-10T10:02:09.620953+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "APjEXoLjsCep3GF5qnbGjF4ubefF2W5VmDxCcMMrpump": {
-      "price_usd": 2.9695788183468112e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 76.991017395128,
-      "volume_h24": 2641.57,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.762181652
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
