@@ -17653,3 +17653,9 @@
 ## [2026-09-10 02:35 UTC] buy | [LLM] $NEEDY at $4.16234e-06, spent 0.05 SOL
 - **Reasoning:** $NEEDY — strongest narrative of the batch: cute pet meta-game ('feed, dress, play'), has twitter presence (magiccookerdev), description >50 chars and original. Sub-$5k mcap with viral pet-coin angle has classic 5-10x potential in first hour. 0.05 SOL entry.
 
+## [2026-09-10 02:36 UTC] sell | [v8.7 TP +50% (full)] $NEEDY at $6.2575e-06 | P&L: +50.3%
+- **Reasoning:** Auto take-profit at +50.3%
+
+## [2026-09-10 02:36 UTC] buy | [LLM] $Unitslob  at $4.7066e-06, spent 0.05 SOL
+- **Reasoning:** $Unitslob has the strongest concrete attention signal in this batch: a 100 SOL dev buy at bond — that's real capital committed, not just narrative. Memeable name, $4.7k mcap early entry, 18% bond shows organic demand. Risk: 'slob' name is niche, could fail to spread. Sizing at 0.1 SOL as per slot.
+
