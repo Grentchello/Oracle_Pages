@@ -19141,3 +19141,6 @@
 ## [2026-09-10 12:43 UTC] sell | [FULL][LLM] $Nemotron at $2.78853e-06 | P&L: -0.5%
 - **Reasoning:** Only -0.5% after 6min, well within noise. Narrative is clearly hot — 14+ copycat launches in one tick prove real attention. Free slot now would mean betting on a fresh $2.8k mcap copycat (high rug risk) instead of letting the incumbent run.
 
+## [2026-09-10 12:44 UTC] buy | [LLM] $FlyCar at $8.573e-06, spent 0.05 SOL
+- **Reasoning:** $FlyCar — buying adspace on the viral X 'Fly car' is a real attention event with a concrete viral mechanic. $8k mcap is genuine early-entry territory, narrative is clear and shareable. Risk: ultra-low mcap means illiquid exit, but the attention signal is strong and distinct from generic noise.
+
