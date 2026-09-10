@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.412665,
+  "balance_sol": 1.426198,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BcVCR3dG5d39CQFFryrMNX4whqoQKNtmmXcazFsepump": {
-      "symbol": "PISSCOIN",
-      "name": "Pisscoin",
-      "amount": 313672.3427677541,
-      "entry_price_usd": 8.08965169708567e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-10T01:08:51.877698+00:00",
-      "entry_usd_value": 5.075,
-      "last_seen_price_usd": 1.004149087934047e-05,
-      "entry_signals": {
-        "liquidity_usd": 1987.918231138,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8095.230767221591,
-        "ath_market_cap_usd": 8380.95507840204,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 19.585401292,
-        "description": "",
-        "twitter": "https://x.com/therhenjoyer/status/2097854390921048565",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40997,19 +40973,30 @@
       "pnl_pct": 24.13,
       "exit_reason": "LLM: sell_half — Up 24.1% and just below the +25% auto-TP threshold. Bonding-curve token with $2.6k pool and 0% share — thin liquidity means any retracement will be fa",
       "partial": true
+    },
+    {
+      "mint": "BcVCR3dG5d39CQFFryrMNX4whqoQKNtmmXcazFsepump",
+      "symbol": "PISSCOIN",
+      "name": "Pisscoin",
+      "amount_sold": 313672.3427677541,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T01:08:51.877698+00:00",
+      "exit_time": "2026-09-10T01:11:31.899084+00:00",
+      "entry_price_usd": 8.08965169708567e-06,
+      "exit_price_usd": 4.379166706429077e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.013533,
+      "pnl_sol": -0.011467,
+      "pnl_pct": -45.87,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T01:10:27.792171+00:00",
+  "last_updated": "2026-09-10T01:12:10.653447+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.72,
-  "portfolio_value_usd": 146.23,
+  "last_sol_price_usd": 101.5,
+  "portfolio_value_usd": 144.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 00:50 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BALLS at $3.45644e-06 | P&L: -1.7%",
-      "reason": "$BALLS is flat (-1.7%) on a bonding curve with only $320 pool liquidity (well below 5x position size rule of $500). This is exactly the kind of thin-liquidity position that will gap down hard. Cut it loose to free up the slot for a higher-attention launch."
-    },
     {
       "time": "2026-09-10 00:50 UTC",
       "action": "buy",
@@ -41123,40 +41110,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $PISSCOIN at $1.00415e-05 | P&L: +24.1%",
       "reason": "Up 24.1% and just below the +25% auto-TP threshold. Bonding-curve token with $2.6k pool and 0% share — thin liquidity means any retracement will be fast. Lock half the gain to secure profit while letting the rest ride if momentum continues."
+    },
+    {
+      "time": "2026-09-10 01:11 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $PISSCOIN crashed >15% in one tick | P&L: -45.9%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2410,
+    "total": 2411,
     "wins": 1202,
-    "losses": 1208,
+    "losses": 1209,
     "win_rate_pct": 49.9,
-    "total_pnl_sol": -2.828646,
-    "avg_pnl_pct": 28.69,
+    "total_pnl_sol": -2.840113,
+    "avg_pnl_pct": 28.66,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 33,
-    "today_realized_sol": -0.143331,
-    "today_target_pct": -35.8,
+    "today_trades": 34,
+    "today_realized_sol": -0.154798,
+    "today_target_pct": -38.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1202,
-      "loss_count": 1208,
+      "loss_count": 1209,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T01:10:27.790916+00:00",
+  "last_llm_brief_at": "2026-09-10T01:12:10.386804+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BcVCR3dG5d39CQFFryrMNX4whqoQKNtmmXcazFsepump": {
-      "price_usd": 1.004149087934047e-05,
+      "price_usd": 4.379166706429077e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2682.46700910736,
-      "volume_h24": 14237.7,
+      "liquidity_usd": 737.5898229105,
+      "volume_h24": 22450.05,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 26.371087388
+      "real_sol_reserves": 7.266894807
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

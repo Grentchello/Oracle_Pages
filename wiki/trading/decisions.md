@@ -17425,3 +17425,6 @@
 ## [2026-09-10 01:10 UTC] sell | [PARTIAL][LLM] $PISSCOIN at $1.00415e-05 | P&L: +24.1%
 - **Reasoning:** Up 24.1% and just below the +25% auto-TP threshold. Bonding-curve token with $2.6k pool and 0% share — thin liquidity means any retracement will be fast. Lock half the gain to secure profit while letting the rest ride if momentum continues.
 
+## [2026-09-10 01:11 UTC] sell | [rapid-drop] $PISSCOIN crashed >15% in one tick | P&L: -45.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
