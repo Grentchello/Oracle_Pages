@@ -593,7 +593,35 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         candidates_filtered.append(c)
     if filtered_count > 0:
         log(f"v8.8: filtered {filtered_count}/{pre_filter_count} candidates (already pumped)")
-    candidates = candidates_filtered[:15]
+    
+    # v8.9 MOMENTUM FILTER: Skip tokens showing immediate sell pressure
+    # If change_1h is significantly negative, OR change_24h < -20%, skip
+    # This catches tokens in mid-rug (where price is already dumping)
+    momentum_filtered = 0
+    candidates_momentum = []
+    for c in candidates:
+        chg1h = c.get("change_1h", 0) or 0
+        chg24 = c.get("change_24h", 0) or 0
+        # Skip if 1h change is strongly negative (already dumping)
+        if chg1h < -30:
+            momentum_filtered += 1
+            log(f"v8.9 MOMENTUM FILTER: ${c.get('symbol')} rejected — 1h change {chg1h:.0f}% (already dumping)")
+            continue
+        # Skip if 24h change is significantly negative
+        if chg24 < -50:
+            momentum_filtered += 1
+            log(f"v8.9 MOMENTUM FILTER: ${c.get('symbol')} rejected — 24h change {chg24:.0f}%")
+            continue
+        # Skip if token has very low holder count (<10) - early rug risk
+        holders = c.get("holders", 0) or 0
+        if 0 < holders < 10:
+            momentum_filtered += 1
+            log(f"v8.9 HOLDER FILTER: ${c.get('symbol')} rejected — only {holders} holders (early rug risk)")
+            continue
+        candidates_momentum.append(c)
+    if momentum_filtered > 0:
+        log(f"v8.9: filtered {momentum_filtered} candidates (negative momentum / low holders)")
+    candidates = candidates_momentum[:15]
 
     new_launch_alert = ""
     if new_mints:
