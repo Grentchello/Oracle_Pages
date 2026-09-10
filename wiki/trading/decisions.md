@@ -19798,3 +19798,6 @@
 ## [2026-09-10 17:08 UTC] buy | [LLM] $FlyCar at $3.09005e-06, spent 0.05 SOL
 - **Reasoning:** $FlyCar is riding the 'viral Fly driving a car' attention hook — concrete narrative with a Twitter post. Mcap $3k = room to run if the video keeps circulating. Risk: very fresh, low liquidity, narrative could die in 30min.
 
+## [2026-09-10 17:09 UTC] sell | [FULL][LLM] $FlyCar at $3.22786e-06 | P&L: +4.5%
+- **Reasoning:** $FlyCar just opened, +4.5% green, pool only $232 — too thin to exit cleanly right now; give it a few minutes to see if attention builds before rotating capital.
+
