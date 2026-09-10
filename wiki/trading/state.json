@@ -1,17 +1,17 @@
 {
-  "balance_sol": 2.818545,
+  "balance_sol": 2.845477,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "EW7R4LCjhrZUyqeTTTHuv46CFTC4NU58YPnudvStpump": {
       "symbol": "Flyhard",
       "name": "Flyhard",
-      "amount": 37466397.35089431,
+      "amount": 18733198.675447155,
       "entry_price_usd": 1.3596183140566645e-07,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T03:21:25.463717+00:00",
       "entry_usd_value": 5.094,
-      "last_seen_price_usd": 1.3596183140566645e-07,
+      "last_seen_price_usd": 1.464685370501649e-07,
       "entry_signals": {
         "liquidity_usd": 7.1316e-07,
         "volume_24h_usd": 0.0,
@@ -42085,19 +42085,30 @@
       "pnl_pct": -76.83,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "EW7R4LCjhrZUyqeTTTHuv46CFTC4NU58YPnudvStpump",
+      "symbol": "Flyhard",
+      "name": "Flyhard",
+      "amount_sold": 18733198.675447155,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T03:21:25.463717+00:00",
+      "exit_time": "2026-09-10T03:22:57.233637+00:00",
+      "entry_price_usd": 1.3596183140566645e-07,
+      "exit_price_usd": 1.464685370501649e-07,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.026932,
+      "pnl_sol": 0.001932,
+      "pnl_pct": 7.73,
+      "exit_reason": "LLM: sell_all — +7.7% with 41% pool share means selling now would crater the price and burn my only position slot for ~0.004 SOL realized. The -25% hard stop protects",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T03:21:25.463985+00:00",
+  "last_updated": "2026-09-10T03:22:57.233860+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.88,
-  "portfolio_value_usd": 292.25,
+  "portfolio_value_usd": 292.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 03:01 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $1000X at $2.85602e-06 | P&L: -0.7%",
-      "reason": "Pool only $5 and our share is 102% — we ARE the liquidity. Cannot exit gracefully, position is unrecoverable. -0.7% now will become -25% when bot tries to sell into an empty pool. Cut and free the slot for a real launch."
-    },
     {
       "time": "2026-09-10 03:02 UTC",
       "action": "sell",
@@ -42211,30 +42222,48 @@
       "action": "buy",
       "details": "[LLM] $Flyhard at $1.35962e-07, spent 0.05 SOL",
       "reason": "$Flyhard has a clean name, low mcap ($4.4k), 1.1min old, and an attached X account (@0x_rezero) — fresh narrative with viral potential. Bond still at 6% means entry is early; 0.05 SOL position respects the size cap."
+    },
+    {
+      "time": "2026-09-10 03:22 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Flyhard at $1.46469e-07 | P&L: +7.7%",
+      "reason": "+7.7% with 41% pool share means selling now would crater the price and burn my only position slot for ~0.004 SOL realized. The -25% hard stop protects downside; better to let it pump or get stopped cleanly than dump into a $13 pool I dominate."
     }
   ],
   "trade_stats": {
-    "total": 2474,
-    "wins": 1219,
+    "total": 2475,
+    "wins": 1220,
     "losses": 1255,
     "win_rate_pct": 49.3,
-    "total_pnl_sol": -1.397766,
-    "avg_pnl_pct": 29.08,
+    "total_pnl_sol": -1.395834,
+    "avg_pnl_pct": 29.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 97,
-    "today_realized_sol": 1.287549,
-    "today_target_pct": 321.9,
+    "today_trades": 98,
+    "today_realized_sol": 1.289481,
+    "today_target_pct": 322.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1219,
+      "win_count": 1220,
       "loss_count": 1255,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:21:23.993248+00:00",
+  "last_llm_brief_at": "2026-09-10T03:22:57.233431+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EW7R4LCjhrZUyqeTTTHuv46CFTC4NU58YPnudvStpump": {
+      "price_usd": 1.464685370501649e-07,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 13.41928272528,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.131716556
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

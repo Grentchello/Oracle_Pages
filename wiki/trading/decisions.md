@@ -17791,3 +17791,6 @@
 ## [2026-09-10 03:21 UTC] buy | [LLM] $Flyhard at $1.35962e-07, spent 0.05 SOL
 - **Reasoning:** $Flyhard has a clean name, low mcap ($4.4k), 1.1min old, and an attached X account (@0x_rezero) — fresh narrative with viral potential. Bond still at 6% means entry is early; 0.05 SOL position respects the size cap.
 
+## [2026-09-10 03:22 UTC] sell | [PARTIAL][LLM] $Flyhard at $1.46469e-07 | P&L: +7.7%
+- **Reasoning:** +7.7% with 41% pool share means selling now would crater the price and burn my only position slot for ~0.004 SOL realized. The -25% hard stop protects downside; better to let it pump or get stopped cleanly than dump into a $13 pool I dominate.
+
