@@ -18784,3 +18784,6 @@
 ## [2026-09-10 10:05 UTC] buy | [LLM] $rice at $3.02122e-06, spent 0.05 SOL
 - **Reasoning:** $rice has a Cointelegraph X post attached — institutional crypto media attention on a 0.3min launch is rare and '1 grain of rice' has infinite-meme ceiling. Fresh, narrative-strong, viability passes (twitter present).
 
+## [2026-09-10 10:07 UTC] sell | [PARTIAL][LLM] $rice at $2.83101e-06 | P&L: -6.3%
+- **Reasoning:** Position is illiquid-trapped: our share is 480% of a $1 pool, meaning any sell will crash price to ~0 and recover maybe $0.50. The marked -6.3% is fictional — real exit value is near-total loss. Better to realize the small loss, free the slot, and rotate to fresh narrative alpha.
+
