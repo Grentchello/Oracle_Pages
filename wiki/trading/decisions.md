@@ -18034,3 +18034,9 @@
 ## [2026-09-10 04:53 UTC] buy | [LLM] $MOSES at $1.25858e-05, spent 0.05 SOL
 - **Reasoning:** $MOSES Anthropic Dog: Anthropic is a top-of-mind AI brand, Bymotionn X post gives viral catalyst, $12.5k mcap leaves5-50x room. Risk: duplicate mint suggests competition/possible copycat rug — sizing small at 0.1 SOL respects the uncertainty.
 
+## [2026-09-10 04:54 UTC] sell | [rapid-drop] $MOSES crashed >15% in one tick | P&L: -33.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 04:54 UTC] buy | [LLM] $MOSES at $9.473e-06, spent 0.05 SOL
+- **Reasoning:** $MOSES 'Anthropic Dog' fuses Anthropic AI brand with doge meme culture — exactly the AI-meets-meme narrative that pumps. 29% bond completion in 2 min shows real demand, not bot wash. Buying 0.05 SOL ($5) on the live mint at 29% bond, not the 2% duplicate.
+
