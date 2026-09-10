@@ -20470,3 +20470,9 @@
 ## [2026-09-10 20:59 UTC] buy | [LLM] $RISE at $6.411e-06, spent 0.05 SOL
 - **Reasoning:** $RISE has the strongest attention mechanic of the batch: 60% airdrop to top 15 holders creates immediate buy competition and self-reinforcing pressure. Fresh launch (0.8min), has twitter + long desc (passes viability gate), low mcap = high upside if narrative catches.
 
+## [2026-09-10 21:00 UTC] sell | [FULL][LLM] $RISE at $7.07164e-06 | P&L: +10.3%
+- **Reasoning:** Just entered at +10.3%, under the 30% TP threshold and held 0 min. Fresh position, let the narrative breathe. Stale exit rule is >30 min, not triggered.
+
+## [2026-09-10 21:00 UTC] buy | [LLM] $30Minutes at $2.988e-06, spent 0.05 SOL
+- **Reasoning:** $30Minutes has explicit viral mechanic narrative ('pump for 30 minutes, get to the moon'), live X post from @coreythex with link, self-aware meme format that often catches attention. Risk: meta-meme rug risk, but small size and clear narrative fit the thesis.
+
