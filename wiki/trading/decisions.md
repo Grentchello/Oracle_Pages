@@ -20542,3 +20542,6 @@
 ## [2026-09-10 21:39 UTC] buy | [LLM] $SPSN at $8.35972e-08, spent 0.05 SOL
 - **Reasoning:** $SPSN SOUTH PARK SUCKS NOW — contrarian hate-token tied to a viral X post, $5.9k mcap, very early bond. High attention narrative, low mcap = high upside if X post catches. Risk: hate-tokens can die fast, but viral X attention is the signal. 0.05 SOL position.
 
+## [2026-09-10 21:41 UTC] sell | [PARTIAL][LLM] $SPSN at $8.56053e-08 | P&L: +2.4%
+- **Reasoning:** South Park narrative is live (recent episode controversy), only held 0.0h at +2.4% — too early to bail. Pool is thin ($14) but that's because we're 36% of it, not because demand is dead. Give it 10-15 more min before re-evaluating.
+

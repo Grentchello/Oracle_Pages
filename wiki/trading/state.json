@@ -1,17 +1,17 @@
 {
-  "balance_sol": 9.063371,
+  "balance_sol": 9.088969,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "ES7R5R35ayXVRJ3xtFtRfvWnox6LNMnBAzNpgfhKpump": {
       "symbol": "SPSN",
       "name": "SOUTH PARK SUCKS NOW",
-      "amount": 59984080.23823554,
+      "amount": 29992040.11911777,
       "entry_price_usd": 8.35971807867051e-08,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T21:39:48.412532+00:00",
       "entry_usd_value": 5.014500000000001,
-      "last_seen_price_usd": 8.35971807867051e-08,
+      "last_seen_price_usd": 8.560532076875846e-08,
       "entry_signals": {
         "liquidity_usd": 5.29946460774,
         "volume_24h_usd": null,
@@ -50534,19 +50534,30 @@
       "pnl_pct": 0.18,
       "exit_reason": "LLM: sell_all — Just entered, +0.2% flat, no bounce or dump signal yet. 1% of thin $423 pool means small size — no urgency to rotate. Give it a few more ticks to deve",
       "partial": false
+    },
+    {
+      "mint": "ES7R5R35ayXVRJ3xtFtRfvWnox6LNMnBAzNpgfhKpump",
+      "symbol": "SPSN",
+      "name": "SOUTH PARK SUCKS NOW",
+      "amount_sold": 29992040.11911777,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T21:39:48.412532+00:00",
+      "exit_time": "2026-09-10T21:41:03.795264+00:00",
+      "entry_price_usd": 8.35971807867051e-08,
+      "exit_price_usd": 8.560532076875846e-08,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.025598,
+      "pnl_sol": 0.000598,
+      "pnl_pct": 2.4,
+      "exit_reason": "LLM: sell_all — South Park narrative is live (recent episode controversy), only held 0.0h at +2.4% — too early to bail. Pool is thin ($14) but that's because we're 36",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T21:39:48.412811+00:00",
+  "last_updated": "2026-09-10T21:41:03.795497+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.29,
-  "portfolio_value_usd": 913.98,
+  "last_sol_price_usd": 100.3,
+  "portfolio_value_usd": 914.13,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 21:07 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $pump at $3.05904e-05 | P&L: +487.1%",
-      "reason": "Auto take-profit at +487.1%"
-    },
     {
       "time": "2026-09-10 21:08 UTC",
       "action": "buy",
@@ -50660,30 +50671,48 @@
       "action": "buy",
       "details": "[LLM] $SPSN at $8.35972e-08, spent 0.05 SOL",
       "reason": "$SPSN SOUTH PARK SUCKS NOW — contrarian hate-token tied to a viral X post, $5.9k mcap, very early bond. High attention narrative, low mcap = high upside if X post catches. Risk: hate-tokens can die fast, but viral X attention is the signal. 0.05 SOL position."
+    },
+    {
+      "time": "2026-09-10 21:41 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $SPSN at $8.56053e-08 | P&L: +2.4%",
+      "reason": "South Park narrative is live (recent episode controversy), only held 0.0h at +2.4% — too early to bail. Pool is thin ($14) but that's because we're 36% of it, not because demand is dead. Give it 10-15 more min before re-evaluating."
     }
   ],
   "trade_stats": {
-    "total": 2971,
-    "wins": 1394,
+    "total": 2972,
+    "wins": 1395,
     "losses": 1577,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 4.847182,
-    "avg_pnl_pct": 28.74,
+    "total_pnl_sol": 4.84778,
+    "avg_pnl_pct": 28.73,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 594,
-    "today_realized_sol": 7.532497,
-    "today_target_pct": 1883.1,
+    "today_trades": 595,
+    "today_realized_sol": 7.533095,
+    "today_target_pct": 1883.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1394,
+      "win_count": 1395,
       "loss_count": 1577,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T21:39:47.109790+00:00",
+  "last_llm_brief_at": "2026-09-10T21:41:03.795157+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "ES7R5R35ayXVRJ3xtFtRfvWnox6LNMnBAzNpgfhKpump": {
+      "price_usd": 8.560532076875846e-08,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 14.3279447685,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.142850895
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
