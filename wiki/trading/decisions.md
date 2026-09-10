@@ -19681,3 +19681,9 @@
 ## [2026-09-10 16:13 UTC] buy | [LLM] $$TUSK at $2.86879e-06, spent 0.05 SOL
 - **Reasoning:** $TUSK has the strongest narrative of the slate: a character-driven memecoin (mustached walrus with gold chain), real description, twitter post, and ultra-early bond (2%, mcap $2.9k). Personality-driven tokens with stories pump more than generic name-mashups. High rug risk at bond 2% but the narrative edge justifies a 0.1 SOL entry.
 
+## [2026-09-10 16:15 UTC] sell | [FULL][LLM] $$TUSK at $2.87111e-06 | P&L: +0.1%
+- **Reasoning:** Flat at +0.1% with no clear narrative edge and only $52 pool liquidity where our 10% share makes us a price-mover. Capital rotation beats bag-holding on a fresh launch with no signal.
+
+## [2026-09-10 16:15 UTC] buy | [LLM] $KIRK at $2.817e-06, spent 0.05 SOL
+- **Reasoning:** $KIRK is a Freedom Statue token tweeted by @Polymarket — organic attention from a credible, high-follower account. Viability gate passes (twitter present), sub-3k mcap, fresh launch. Polymarket posting is a real attention signal, not bot activity.
+
