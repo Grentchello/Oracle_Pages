@@ -20002,3 +20002,6 @@
 ## [2026-09-10 18:28 UTC] buy | [LLM] $KekiusBot at $3.21007e-06, spent 0.05 SOL
 - **Reasoning:** $KekiusBot rides the Kekius/Pepe-AI cult narrative which has a history of viral pumps, and it has a real Twitter link (dev_pscl) at 0.6min — fresher and more narrative-driven than the rest of the field.
 
+## [2026-09-10 18:29 UTC] sell | [PARTIAL][LLM] $KekiusBot at $2.82417e-06 | P&L: -12.0%
+- **Reasoning:** Down 12% but only held 0min — too fresh to call. Selling half to reduce risk on a position that's already red and has zero momentum evidence; keeping half in case it bounces so we don't miss a recovery.
+

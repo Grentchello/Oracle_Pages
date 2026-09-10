@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.165081,
+  "balance_sol": 4.187056,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "EZuHE7zu9mUbk3T9WqkFQMdNGZDvW2cHsZ5ktsWEpump": {
       "symbol": "KekiusBot",
       "name": "KekiusBot ",
-      "amount": 1554640.2010455031,
+      "amount": 777320.1005227516,
       "entry_price_usd": 3.2100675105685968e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T18:28:28.007149+00:00",
       "entry_usd_value": 4.990500000000001,
-      "last_seen_price_usd": 3.2100675105685968e-06,
+      "last_seen_price_usd": 2.8241657804463952e-06,
       "entry_signals": {
         "liquidity_usd": 186.47525206395,
         "volume_24h_usd": null,
@@ -48919,19 +48919,30 @@
       "pnl_pct": -1.64,
       "exit_reason": "LLM: sell_all — Marginal '$$1 stock' narrative with no Twitter, only $84 pool (our 6% share dominates), down 1.6% with no volume signal — frees the slot for a stronge",
       "partial": false
+    },
+    {
+      "mint": "EZuHE7zu9mUbk3T9WqkFQMdNGZDvW2cHsZ5ktsWEpump",
+      "symbol": "KekiusBot",
+      "name": "KekiusBot ",
+      "amount_sold": 777320.1005227516,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T18:28:28.007149+00:00",
+      "exit_time": "2026-09-10T18:29:48.337746+00:00",
+      "entry_price_usd": 3.2100675105685968e-06,
+      "exit_price_usd": 2.8241657804463952e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.021975,
+      "pnl_sol": -0.003025,
+      "pnl_pct": -12.02,
+      "exit_reason": "LLM: sell_half — Down 12% but only held 0min — too fresh to call. Selling half to reduce risk on a position that's already red and has zero momentum evidence; keeping ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T18:28:28.007306+00:00",
+  "last_updated": "2026-09-10T18:29:48.338631+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.81,
-  "portfolio_value_usd": 420.71,
+  "last_sol_price_usd": 99.9,
+  "portfolio_value_usd": 420.78,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 18:08 UTC",
-      "action": "buy",
-      "details": "[LLM] $Veronica at $8.792e-06, spent 0.05 SOL",
-      "reason": "$Veronica — TikTok creator with 430K+ followers launching her own coin. Strong attention narrative, passes viability gate (130+ char desc + twitter), bond 25% already committed. Position size 0.05 SOL per bot enforcement. Hard stop at -25%, take profit at +50%."
-    },
     {
       "time": "2026-09-10 18:10 UTC",
       "action": "sell",
@@ -49045,40 +49056,46 @@
       "action": "buy",
       "details": "[LLM] $KekiusBot at $3.21007e-06, spent 0.05 SOL",
       "reason": "$KekiusBot rides the Kekius/Pepe-AI cult narrative which has a history of viral pumps, and it has a real Twitter link (dev_pscl) at 0.6min — fresher and more narrative-driven than the rest of the field."
+    },
+    {
+      "time": "2026-09-10 18:29 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $KekiusBot at $2.82417e-06 | P&L: -12.0%",
+      "reason": "Down 12% but only held 0min — too fresh to call. Selling half to reduce risk on a position that's already red and has zero momentum evidence; keeping half in case it bounces so we don't miss a recovery."
     }
   ],
   "trade_stats": {
-    "total": 2876,
+    "total": 2877,
     "wins": 1364,
-    "losses": 1512,
+    "losses": 1513,
     "win_rate_pct": 47.4,
-    "total_pnl_sol": -0.051109,
-    "avg_pnl_pct": 26.28,
+    "total_pnl_sol": -0.054134,
+    "avg_pnl_pct": 26.26,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 499,
-    "today_realized_sol": 2.634206,
-    "today_target_pct": 658.6,
+    "today_trades": 500,
+    "today_realized_sol": 2.631181,
+    "today_target_pct": 657.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1364,
-      "loss_count": 1512,
+      "loss_count": 1513,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T18:28:26.743305+00:00",
+  "last_llm_brief_at": "2026-09-10T18:29:48.337254+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "8BUGouuXzDYwPa9vvsgvXGq1iLqysbWtEgcs3Arwpump": {
-      "price_usd": 2.9489434994066683e-06,
+    "EZuHE7zu9mUbk3T9WqkFQMdNGZDvW2cHsZ5ktsWEpump": {
+      "price_usd": 2.8241657804463952e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 83.78594985222,
-      "volume_h24": 11271.74,
+      "liquidity_usd": 16.6188645999,
+      "volume_h24": 307.42,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.839454462
+      "real_sol_reserves": 0.166355001
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
