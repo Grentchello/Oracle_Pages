@@ -19825,3 +19825,6 @@
 ## [2026-09-10 17:18 UTC] buy | [LLM] $Duffies at $3.20368e-06, spent 0.05 SOL
 - **Reasoning:** $Duffies - Hilary Duff reference with Daily Mail tweet attached, classic celebrity-adjacent narrative that pumps fast. $3.2k mcap is fresh, but celebrity tie gives viral potential. Caveat: no description and very thin liquidity at this size - small position size caps risk.
 
+## [2026-09-10 17:19 UTC] sell | [FULL][LLM] $Duffies at $3.20272e-06 | P&L: -0.0%
+- **Reasoning:** $Duffies is at break-even, just entered. No movement to act on yet. Give it a few minutes for the bonding curve to develop before judging.
+
