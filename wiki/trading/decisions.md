@@ -20392,3 +20392,9 @@
 ## [2026-09-10 20:28 UTC] buy | [LLM] $WENDY at $1.0723e-05, spent 0.05 SOL
 - **Reasoning:** $WENDY 'Justice For Wendy' tied to a DailyMail tweet at sub-$11k mcap — mainstream media hook on a viral injustice narrative is exactly the attention catalyst memecoins need for a 3-10x first-hour run. Position 0.05 SOL.
 
+## [2026-09-10 20:29 UTC] sell | [rapid-drop] $WENDY crashed >15% in one tick | P&L: -74.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 20:30 UTC] buy | [LLM] $$AURA at $5.94419e-06, spent 0.05 SOL
+- **Reasoning:** $$AURA has a coherent meta-narrative (aura meme culture is trending on X/TikTok), real description >50 chars passing viability gate, and low mcap ($5.9k) with first-mover potential on the aura concept. Risk: bond only 6%, very early, may not pass GMGN fragility check.
+
