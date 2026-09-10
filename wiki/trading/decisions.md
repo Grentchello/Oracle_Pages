@@ -19351,3 +19351,6 @@
 ## [2026-09-10 14:03 UTC] buy | [LLM] $FYC at $7.31837e-06, spent 0.05 SOL
 - **Reasoning:** $FYC 'For You Coin' - TikTok/FYP-style attention name with twitter link, fresh launch at $7.3k mcap, 28% bond shows real buy pressure. Low mcap + viral name pattern = asymmetric upside.
 
+## [2026-09-10 14:05 UTC] sell | [rapid-drop] $FYC crashed >15% in one tick | P&L: -61.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
