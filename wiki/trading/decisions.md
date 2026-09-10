@@ -19381,3 +19381,6 @@
 ## [2026-09-10 14:17 UTC] buy | [LLM] $GRND at $8.94041e-06, spent 0.05 SOL
 - **Reasoning:** $GRND is the strongest fresh signal: highest mcap ($8.9k), bond 31% (most progressed of the new launches), and a live X post backing it. No blocklist keyword hit, viability gate passes via twitter. Riding the attention wave with 0.1 SOL.
 
+## [2026-09-10 14:18 UTC] sell | [FULL][LLM] $GRND at $9.05654e-06 | P&L: +1.3%
+- **Reasoning:** $GRND is only +1.3% but just entered (0.0h held). Bonding-curve phase at $2402 pool — too early to judge. Give it the 30-min window to develop; auto-stops will protect downside.
+
