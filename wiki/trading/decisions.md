@@ -18589,3 +18589,6 @@
 ## [2026-09-10 08:25 UTC] buy | [LLM] $CROWL at $9.11078e-06, spent 0.05 SOL
 - **Reasoning:** $CROWL/CROWLOCK - mysterious quote-style narrative ('He collects the seconds everyone else wastes'), has Twitter presence, ultra-fresh 0.1min, mcap $9k. Has story + social = attention signal. Buy 0.1 SOL.
 
+## [2026-09-10 08:27 UTC] sell | [FULL][LLM] $CROWL at $9.90586e-06 | P&L: +8.7%
+- **Reasoning:** $CROWL just opened this tick at +8.7% — not yet at the +20% profit-taking threshold and not stale (>30min flat). Bonding curve still active with $2,645 pool. No reason to bail on a fresh green position; if it stalls for 30min the bot auto-exits and frees the slot.
+

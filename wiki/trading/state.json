@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.5564,
+  "balance_sol": 4.610855,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6omQhygcS3SahFA9VweURvgdFgNBULJu6soC8UH2pump": {
-      "symbol": "CROWL",
-      "name": "CROWLOCK",
-      "amount": 556264.060453968,
-      "entry_price_usd": 9.110780940735228e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T08:25:34.240108+00:00",
-      "entry_usd_value": 5.0680000000000005,
-      "last_seen_price_usd": 9.110780940735228e-06,
-      "entry_signals": {
-        "liquidity_usd": 2683.08613677608,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9105.46400142481,
-        "ath_market_cap_usd": 9105.46400142481,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 26.470857703,
-        "description": "He never predicts the hour. He collects the seconds everyone else wastes.",
-        "twitter": "https://x.com/CROWLOCK_SOL",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44618,19 +44594,30 @@
       "pnl_pct": -10.18,
       "exit_reason": "LLM: sell_all — Pool is only $1.25k liquidity (barely above the 5x min), already -10% with no bounce signal at 0% bonding progress. Thin liquidity means a -20% drop c",
       "partial": false
+    },
+    {
+      "mint": "6omQhygcS3SahFA9VweURvgdFgNBULJu6soC8UH2pump",
+      "symbol": "CROWL",
+      "name": "CROWLOCK",
+      "amount_sold": 556264.060453968,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T08:25:34.240108+00:00",
+      "exit_time": "2026-09-10T08:27:49.567215+00:00",
+      "entry_price_usd": 9.110780940735228e-06,
+      "exit_price_usd": 9.905857048602554e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.054455,
+      "pnl_sol": 0.004455,
+      "pnl_pct": 8.73,
+      "exit_reason": "LLM: sell_all — $CROWL just opened this tick at +8.7% — not yet at the +20% profit-taking threshold and not stale (>30min flat). Bonding curve still active with $2,64",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T08:25:34.240276+00:00",
+  "last_updated": "2026-09-10T08:27:49.567502+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.36,
-  "portfolio_value_usd": 466.9,
+  "last_sol_price_usd": 101.19,
+  "portfolio_value_usd": 466.57,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 07:57 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Chill crashed >15% in one tick | P&L: -76.7%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 07:57 UTC",
       "action": "buy",
@@ -44744,30 +44731,48 @@
       "action": "buy",
       "details": "[LLM] $CROWL at $9.11078e-06, spent 0.05 SOL",
       "reason": "$CROWL/CROWLOCK - mysterious quote-style narrative ('He collects the seconds everyone else wastes'), has Twitter presence, ultra-fresh 0.1min, mcap $9k. Has story + social = attention signal. Buy 0.1 SOL."
+    },
+    {
+      "time": "2026-09-10 08:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CROWL at $9.90586e-06 | P&L: +8.7%",
+      "reason": "$CROWL just opened this tick at +8.7% — not yet at the +20% profit-taking threshold and not stale (>30min flat). Bonding curve still active with $2,645 pool. No reason to bail on a fresh green position; if it stalls for 30min the bot auto-exits and frees the slot."
     }
   ],
   "trade_stats": {
-    "total": 2623,
-    "wins": 1278,
+    "total": 2624,
+    "wins": 1279,
     "losses": 1345,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.340111,
-    "avg_pnl_pct": 28.91,
+    "total_pnl_sol": 0.344566,
+    "avg_pnl_pct": 28.9,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 246,
-    "today_realized_sol": 3.025426,
-    "today_target_pct": 756.4,
+    "today_trades": 247,
+    "today_realized_sol": 3.029881,
+    "today_target_pct": 757.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1278,
+      "win_count": 1279,
       "loss_count": 1345,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T08:25:31.464009+00:00",
+  "last_llm_brief_at": "2026-09-10T08:27:49.567074+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "6omQhygcS3SahFA9VweURvgdFgNBULJu6soC8UH2pump": {
+      "price_usd": 9.905857048602554e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2644.65285989121,
+      "volume_h24": 4402.04,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 26.135515959
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
