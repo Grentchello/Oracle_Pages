@@ -18562,3 +18562,6 @@
 ## [2026-09-10 08:11 UTC] buy | [LLM] $$Free at $2.346e-06, spent 0.05 SOL
 - **Reasoning:** $Free has a real-world cultural hook (PA/NJ $3.47 gas station meme from summer 2026), longest desc of the batch, and highest pre-bond mcap ($8.2k) — strongest narrative-to-launch ratio here.
 
+## [2026-09-10 08:12 UTC] sell | [v8.7 TP +50% (full)] $$Free at $1.84327e-05 | P&L: +685.7%
+- **Reasoning:** Auto take-profit at +685.7%
+
