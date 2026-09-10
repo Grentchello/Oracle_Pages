@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.905513,
+  "balance_sol": 4.897743,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "DVE31ex45ur2cX36LFRnFMjTudmKt1DGNDCpUbLipump": {
-      "symbol": "FAKER",
-      "name": "faker",
-      "amount": 303235.9562149182,
-      "entry_price_usd": 1.6455832158846437e-05,
+    "H2KRWuecqKcAVw7mABSMfhRjJkWthkJZuGGhp15dpump": {
+      "symbol": "KIRK",
+      "name": "Kirk Protocol",
+      "amount": 1078081.307808131,
+      "entry_price_usd": 4.649e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T19:05:47.540293+00:00",
-      "entry_usd_value": 4.99,
-      "last_seen_price_usd": 1.6455832158846437e-05,
+      "entry_time": "2026-09-10T19:07:05.189949+00:00",
+      "entry_usd_value": 5.0120000000000005,
+      "last_seen_price_usd": 4.649e-06,
       "entry_signals": {
-        "liquidity_usd": 3336.9256209068,
-        "volume_24h_usd": null,
-        "market_cap_usd": 16461.74391633515,
-        "ath_market_cap_usd": 19503.868443665913,
+        "liquidity_usd": 904.3142358874401,
+        "volume_24h_usd": 4844.24,
+        "market_cap_usd": 5044.8108355088925,
+        "ath_market_cap_usd": 8108.715152493641,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 33.436128466,
-        "description": "faker now paired with $BABA",
-        "twitter": "https://x.com/fakerotc",
+        "real_sol_reserves": 9.021490781,
+        "description": "",
+        "twitter": "https://x.com/kirkprotocol/status/2098125710955102273?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -49310,25 +49310,30 @@
       "pnl_pct": -0.11,
       "exit_reason": "LLM: sell_all — Just entered, -0.1% is noise on a $1.3k pool. Give it a few minutes to develop.",
       "partial": false
+    },
+    {
+      "mint": "DVE31ex45ur2cX36LFRnFMjTudmKt1DGNDCpUbLipump",
+      "symbol": "FAKER",
+      "name": "faker",
+      "amount_sold": 303235.9562149182,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T19:05:47.540293+00:00",
+      "exit_time": "2026-09-10T19:06:51.542731+00:00",
+      "entry_price_usd": 1.6455832158846437e-05,
+      "exit_price_usd": 1.396e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.04223,
+      "pnl_sol": -0.00777,
+      "pnl_pct": -15.17,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T19:05:47.540493+00:00",
+  "last_updated": "2026-09-10T19:07:05.190118+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.8,
-  "portfolio_value_usd": 494.56,
+  "last_sol_price_usd": 100.24,
+  "portfolio_value_usd": 495.96,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 18:47 UTC",
-      "action": "buy",
-      "details": "[LLM] $ACI at $2.96721e-06, spent 0.05 SOL",
-      "reason": "$ACI (Agentic Cat Infrastructure) — AI agent narrative is hot, 'agent swarm that prints how much of its own answer is missing' is a clever hook, has twitter handle, $3k mcap with narrative potential. 0.1 SOL scalp."
-    },
-    {
-      "time": "2026-09-10 18:48 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ACI at $2.7945e-06 | P&L: -5.8%",
-      "reason": "Held 0.0h, only -5.8% loss, well within hard stop. Bonding curve entry, no reason to panic yet — give it a few more minutes to develop."
-    },
     {
       "time": "2026-09-10 18:50 UTC",
       "action": "buy",
@@ -49436,40 +49441,50 @@
       "action": "buy",
       "details": "[LLM] $FAKER at $1.64558e-05, spent 0.05 SOL",
       "reason": "$FAKER has a twitter account and the 'paired with $BABA' framing is a clear cross-narrative play. Highest mcap of new launches at $16k suggests early attention. BABA pairing is a known meme vector."
+    },
+    {
+      "time": "2026-09-10 19:06 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $FAKER crashed >15% in one tick | P&L: -15.2%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 19:07 UTC",
+      "action": "buy",
+      "details": "[LLM] $KIRK at $4.649e-06, spent 0.05 SOL",
+      "reason": "$KIRK has highest mcap among fresh launches ($5k), named 'Kirk Protocol' suggests a real project narrative rather than random ticker, dedicated twitter handle. Attention signal is cleanest of the batch. Position size 0.05 SOL per bot rules."
     }
   ],
   "trade_stats": {
-    "total": 2899,
+    "total": 2900,
     "wins": 1370,
-    "losses": 1529,
-    "win_rate_pct": 47.3,
-    "total_pnl_sol": 0.689324,
-    "avg_pnl_pct": 26.56,
+    "losses": 1530,
+    "win_rate_pct": 47.2,
+    "total_pnl_sol": 0.681554,
+    "avg_pnl_pct": 26.55,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 522,
-    "today_realized_sol": 3.374639,
-    "today_target_pct": 843.7,
+    "today_trades": 523,
+    "today_realized_sol": 3.366869,
+    "today_target_pct": 841.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1370,
-      "loss_count": 1529,
+      "loss_count": 1530,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T19:05:46.205252+00:00",
+  "last_llm_brief_at": "2026-09-10T19:07:03.943270+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "BX7ArBJmLsorsHp4KCXWwM3KmVQ2rhvPQtkQS6wupump": {
-      "price_usd": 5.90866553242036e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1362.8284756104,
-      "volume_h24": 1371.64,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 13.655595948
+    "DVE31ex45ur2cX36LFRnFMjTudmKt1DGNDCpUbLipump": {
+      "price_usd": 1.396e-05,
+      "change_h24": 0.0,
+      "change_h1": 0.0,
+      "liquidity_usd": 3.95,
+      "volume_h24": 0.03,
+      "dex_id": "meteora",
+      "source": "dexscreener"
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -20128,3 +20128,9 @@
 ## [2026-09-10 19:05 UTC] buy | [LLM] $FAKER at $1.64558e-05, spent 0.05 SOL
 - **Reasoning:** $FAKER has a twitter account and the 'paired with $BABA' framing is a clear cross-narrative play. Highest mcap of new launches at $16k suggests early attention. BABA pairing is a known meme vector.
 
+## [2026-09-10 19:06 UTC] sell | [rapid-drop] $FAKER crashed >15% in one tick | P&L: -15.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:07 UTC] buy | [LLM] $KIRK at $4.649e-06, spent 0.05 SOL
+- **Reasoning:** $KIRK has highest mcap among fresh launches ($5k), named 'Kirk Protocol' suggests a real project narrative rather than random ticker, dedicated twitter handle. Attention signal is cleanest of the batch. Position size 0.05 SOL per bot rules.
+
