@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.610498,
+  "balance_sol": 4.560498,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "E5PNLGmHZQauVBHcochshKZEU7Dm7QAojBae7trEpump": {
+      "symbol": "Fly64",
+      "name": "Fly64",
+      "amount": 989677.2774761189,
+      "entry_price_usd": 5.049625886879667e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T13:44:40.429034+00:00",
+      "entry_usd_value": 4.9975000000000005,
+      "last_seen_price_usd": 5.049625886879667e-06,
+      "entry_signals": {
+        "liquidity_usd": 111.17548235105001,
+        "volume_24h_usd": null,
+        "market_cap_usd": 5027.021939093728,
+        "ath_market_cap_usd": 5667.600142522673,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.112310979,
+        "description": "",
+        "twitter": "https://x.com/Bymotionn/status/2098044789082009651",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -46857,17 +46881,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T13:43:14.425333+00:00",
+  "last_updated": "2026-09-10T13:44:40.429224+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.02,
-  "portfolio_value_usd": 461.14,
+  "last_sol_price_usd": 99.95,
+  "portfolio_value_usd": 460.82,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 13:27 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Cat crashed >15% in one tick | P&L: -20.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 13:27 UTC",
       "action": "buy",
@@ -46981,6 +46999,12 @@
       "action": "sell",
       "details": "[rapid-drop] $1000X crashed >15% in one tick | P&L: -60.4%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 13:44 UTC",
+      "action": "buy",
+      "details": "[LLM] $Fly64 at $5.04963e-06, spent 0.05 SOL",
+      "reason": "$Fly64 has the strongest attention signal among fresh launches — viral tweet from @Bymotionn, 20% bond (highest in batch), and a duplicate $FLY64 mint suggesting coordinated launch effort. Tiny $5k mcap = high risk but also highest 10x potential if narrative catches."
     }
   ],
   "trade_stats": {
@@ -47002,21 +47026,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T13:43:13.280841+00:00",
+  "last_llm_brief_at": "2026-09-10T13:44:39.057843+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "GrJp78ixS5yEqbTyBmEkCjSkXX74cPGEfFyrkEZrpump": {
-      "price_usd": 3.6585245508593993e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 431.47603675176,
-      "volume_h24": 12759.67,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 4.313897588
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

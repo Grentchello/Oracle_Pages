@@ -19318,3 +19318,6 @@
 ## [2026-09-10 13:43 UTC] sell | [rapid-drop] $1000X crashed >15% in one tick | P&L: -60.4%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 13:44 UTC] buy | [LLM] $Fly64 at $5.04963e-06, spent 0.05 SOL
+- **Reasoning:** $Fly64 has the strongest attention signal among fresh launches — viral tweet from @Bymotionn, 20% bond (highest in batch), and a duplicate $FLY64 mint suggesting coordinated launch effort. Tiny $5k mcap = high risk but also highest 10x potential if narrative catches.
+
