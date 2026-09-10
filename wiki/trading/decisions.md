@@ -17452,3 +17452,6 @@
 ## [2026-09-10 01:20 UTC] buy | [LLM] $NPC at $2.96597e-06, spent 0.05 SOL
 - **Reasoning:** $NPC — NPC wojak is a top-tier evergreen internet meme, simulation theory angle adds narrative depth. Has both twitter link AND 50+ char description (clears viability). Fresh launch ($2.9k mcap) with real attention signal.
 
+## [2026-09-10 01:22 UTC] sell | [FULL][LLM] $NPC at $2.82643e-06 | P&L: -4.7%
+- **Reasoning:** Just entered at -4.7%, well within -25% hard stop, no stale signal yet. Bonding curve position needs time to migrate to pool and develop. The huge share% is a display artifact on bonding curve (token not yet on AMM).
+
