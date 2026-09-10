@@ -19183,3 +19183,6 @@
 ## [2026-09-10 13:01 UTC] sell | [FULL][LLM] $APU at $2.76095e-06 | P&L: -1.3%
 - **Reasoning:** Pool=$0 means no exit liquidity exists; the only practical action is to wait for bonding curve migration to a real Raydium pool. Down only -1.3%, well within tolerance, and -25% hard stop will catch any real loss.
 
+## [2026-09-10 13:04 UTC] buy | [LLM] $Boldcoin at $8.32166e-06, spent 0.05 SOL
+- **Reasoning:** Boldcoin — clean viral-name meme, bond already at 30% (real buy pressure), $8.4k mcap with a live X post. Narrative is generic but liquidity signal is real. Size 0.1 SOL.
+
