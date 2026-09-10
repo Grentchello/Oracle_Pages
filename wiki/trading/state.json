@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.24551,
+  "balance_sol": 4.293687,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "8DwBSfyFiT9Chseoz67TwXw3JWRoB4DZk9XcjrwQpump": {
       "symbol": "grief",
       "name": "constant state of grief",
-      "amount": 1753073.4106076572,
+      "amount": 30315.17835937864,
       "entry_price_usd": 2.847e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.000864629460921168,
       "entry_time": "2026-09-10T17:01:20.553458+00:00",
       "entry_usd_value": 4.991,
-      "last_seen_price_usd": 2.847e-06,
+      "last_seen_price_usd": 2.7948535412059705e-06,
       "entry_signals": {
         "liquidity_usd": 11.11439930566,
         "volume_24h_usd": 32.48,
@@ -48222,19 +48222,30 @@
       "pnl_pct": 1.1,
       "exit_reason": "LLM: sell_all — Fresh entry at +1.1% with no directional signal yet. Not stale (<15min), not a loser. Give it a few minutes to develop before rotating capital.",
       "partial": false
+    },
+    {
+      "mint": "8DwBSfyFiT9Chseoz67TwXw3JWRoB4DZk9XcjrwQpump",
+      "symbol": "grief",
+      "name": "constant state of grief",
+      "amount_sold": 1722758.2322482786,
+      "fraction_sold": 0.9827074107815766,
+      "entry_time": "2026-09-10T17:01:20.553458+00:00",
+      "exit_time": "2026-09-10T17:02:47.652884+00:00",
+      "entry_price_usd": 2.847e-06,
+      "exit_price_usd": 2.7948535412059705e-06,
+      "entry_sol_for_chunk": 0.049135,
+      "exit_sol_received": 0.048177,
+      "pnl_sol": -0.000958,
+      "pnl_pct": -1.83,
+      "exit_reason": "LLM: sell_all — Just entered 0.0h ago, only -1.8%. Not stale, not at stop. 1446% pool share is a flag but bonding curve is still 0% — let it develop before judging.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T17:01:20.553931+00:00",
+  "last_updated": "2026-09-10T17:02:47.653110+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.82,
-  "portfolio_value_usd": 428.78,
+  "last_sol_price_usd": 99.94,
+  "portfolio_value_usd": 429.2,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 16:33 UTC",
-      "action": "buy",
-      "details": "[LLM] $Finney at $2.78473e-06, spent 0.05 SOL",
-      "reason": "$Finney — Hal Finney tribute (Bitcoin legend, 'ITWILLRUN' reference to his famous tweet), clean crypto-native narrative not on fragility blocklist, fresh launch at $2.8k mcap with named X account promoting. Small position to test the water on a classic crypto history meme."
-    },
     {
       "time": "2026-09-10 16:34 UTC",
       "action": "sell",
@@ -48348,30 +48359,48 @@
       "action": "buy",
       "details": "[LLM] $grief at $2.847e-06, spent 0.05 SOL",
       "reason": "$grief has NYPost twitter attention (real media reach, not just a random account), only 1.1min old at $2,845 mcap, narrative 'constant of grief' is relatable meme fodder. Risk: rapidlaunch.io origin is suspect, single tweet signal is thin. Sizing: 0.05 SOL to test the attention thesis."
+    },
+    {
+      "time": "2026-09-10 17:02 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $grief at $2.79485e-06 | P&L: -1.8%",
+      "reason": "Just entered 0.0h ago, only -1.8%. Not stale, not at stop. 1446% pool share is a flag but bonding curve is still 0% — let it develop before judging."
     }
   ],
   "trade_stats": {
-    "total": 2835,
+    "total": 2836,
     "wins": 1356,
-    "losses": 1479,
+    "losses": 1480,
     "win_rate_pct": 47.8,
-    "total_pnl_sol": 0.029268,
-    "avg_pnl_pct": 26.72,
+    "total_pnl_sol": 0.02831,
+    "avg_pnl_pct": 26.71,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 458,
-    "today_realized_sol": 2.714583,
-    "today_target_pct": 678.6,
+    "today_trades": 459,
+    "today_realized_sol": 2.713625,
+    "today_target_pct": 678.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1356,
-      "loss_count": 1479,
+      "loss_count": 1480,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T17:01:19.113123+00:00",
+  "last_llm_brief_at": "2026-09-10T17:02:47.652688+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8DwBSfyFiT9Chseoz67TwXw3JWRoB4DZk9XcjrwQpump": {
+      "price_usd": 2.7948535412059705e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.33890593436,
+      "volume_h24": 65.32,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.003391094
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

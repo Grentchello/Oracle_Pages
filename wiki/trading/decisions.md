@@ -19771,3 +19771,6 @@
 ## [2026-09-10 17:01 UTC] buy | [LLM] $grief at $2.847e-06, spent 0.05 SOL
 - **Reasoning:** $grief has NYPost twitter attention (real media reach, not just a random account), only 1.1min old at $2,845 mcap, narrative 'constant of grief' is relatable meme fodder. Risk: rapidlaunch.io origin is suspect, single tweet signal is thin. Sizing: 0.05 SOL to test the attention thesis.
 
+## [2026-09-10 17:02 UTC] sell | [PARTIAL][LLM] $grief at $2.79485e-06 | P&L: -1.8%
+- **Reasoning:** Just entered 0.0h ago, only -1.8%. Not stale, not at stop. 1446% pool share is a flag but bonding curve is still 0% — let it develop before judging.
+
