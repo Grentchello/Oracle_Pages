@@ -19762,3 +19762,6 @@
 ## [2026-09-10 16:56 UTC] sell | [FULL][LLM] $KIRKVERSARY at $5.36913e-06 | P&L: +0.9%
 - **Reasoning:** $KIRKVERSARY is a Charlie Kirk political-memorial token — fragility gate principles (ME2F) flag political tokens as high whale-concentration / sentiment-amplification risk. Only +0.9% but freeing the slot for $SPSN rotation is worth exiting at near-flat.
 
+## [2026-09-10 16:58 UTC] buy | [LLM] $pairs at $2.923e-06, spent 0.05 SOL
+- **Reasoning:** $pairs via kolscan (known memecoin alpha account) — strongest narrative attention signal in the batch, fresh launch at $2.95k mcap, passes viability (has twitter), not in fragility blacklist. Risky due to tiny liquidity but attention-driven entry per scalp rules.
+
