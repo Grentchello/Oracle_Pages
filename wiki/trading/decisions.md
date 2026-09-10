@@ -19006,3 +19006,6 @@
 ## [2026-09-10 11:37 UTC] buy | [LLM] $LEGS at $2.893e-06, spent 0.05 SOL
 - **Reasoning:** $LEGS (Leg Day Toad) passes viability (132-char desc + twitter) and fragility gates. Strong memecoin DNA: toad character, Mushroom Kingdom reference, gym/leg-day meme, 'generational quads' is shareable. $2.9k mcap entry with 0.05 SOL ($5) gives 5x position-size headroom on liquidity at current depth. Pure narrative play — if the visual lands, this is the kind of toad-frog-meta coin that runs.
 
+## [2026-09-10 11:39 UTC] sell | [PARTIAL][LLM] $LEGS at $2.83299e-06 | P&L: -2.1%
+- **Reasoning:** 5096% share of a pool with $0 liquidity is a death trap — effectively illiquid, can only exit via bonding curve at any price. Cut and rotate capital to a fresh launch.
+
