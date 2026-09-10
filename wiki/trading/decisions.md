@@ -19645,3 +19645,6 @@
 ## [2026-09-10 15:57 UTC] buy | [LLM] $AWE at $2.97718e-06, spent 0.05 SOL
 - **Reasoning:** $AWE is the only candidate passing viability gate with a real narrative ('Almost Weekend' relatable duck meme, built-in @Alm0stWeekend twitter brand, weekend timing on Thursday). Mcap $2.9k at 0.2min = maximum attention-freshness. Risk: bonding curve only 3% complete, could rug pre-graduation, but that's the trade.
 
+## [2026-09-10 15:58 UTC] sell | [FULL][LLM] $AWE at $2.99889e-06 | P&L: +0.7%
+- **Reasoning:** Just entered 0.0h ago at +0.7%, no signal to exit yet — need a few more minutes to see direction. Will reassess on next tick.
+
