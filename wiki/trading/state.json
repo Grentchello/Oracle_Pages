@@ -1,27 +1,27 @@
 {
-  "balance_sol": 2.989201,
+  "balance_sol": 2.982961,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "GVHZCTCKho2BBv9kdCw2YfQowVWtcpvJFNBCzMMRpump": {
-      "symbol": "MITTENS",
-      "name": "Mittens",
-      "amount": 1565157.1164510169,
-      "entry_price_usd": 3.246e-06,
+    "DXTVHRwLfqaa5E4RscUuWvuMUTwnDjAHx9PRutDqpump": {
+      "symbol": "att",
+      "name": "attention",
+      "amount": 1347910.7633039525,
+      "entry_price_usd": 3.770650207987027e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T02:46:27.581728+00:00",
-      "entry_usd_value": 5.080500000000001,
-      "last_seen_price_usd": 3.227659436355209e-06,
+      "entry_time": "2026-09-10T02:49:18.043973+00:00",
+      "entry_usd_value": 5.0825000000000005,
+      "last_seen_price_usd": 3.770650207987027e-06,
       "entry_signals": {
-        "liquidity_usd": 200.71111111361998,
-        "volume_24h_usd": 260.4,
-        "market_cap_usd": 3244.308702173557,
-        "ath_market_cap_usd": 3294.1543443324813,
+        "liquidity_usd": 16.2487108235,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3769.4107075353018,
+        "ath_market_cap_usd": 4741.232761233515,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1.975308642,
-        "description": "$MITTENS — a tribute to Mittens, the viral star behind @thecomedycat. With over 3.3 million TikTok followers, Mittens made millions smile daily. Following her recent passing, we’re celebrating the little cat so many people knew and loved.  Fan-made. ",
-        "twitter": "https://x.com/MittensOnSol_",
+        "real_sol_reserves": 0.15984959,
+        "description": "Attention everyone",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -41762,25 +41762,30 @@
       "pnl_pct": -13.29,
       "exit_reason": "LLM: sell_all — Down -13.3% with no bounce signal, held 0h but pool=$0 means zero liquidity to exit at clean price — and 'our share=866794802%' is a red flag indicati",
       "partial": false
+    },
+    {
+      "mint": "GVHZCTCKho2BBv9kdCw2YfQowVWtcpvJFNBCzMMRpump",
+      "symbol": "MITTENS",
+      "name": "Mittens",
+      "amount_sold": 1565157.0985676835,
+      "fraction_sold": 0.999999988574097,
+      "entry_time": "2026-09-10T02:46:27.581728+00:00",
+      "exit_time": "2026-09-10T02:49:15.973006+00:00",
+      "entry_price_usd": 3.246e-06,
+      "exit_price_usd": 2.842031687048742e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.04376,
+      "pnl_sol": -0.00624,
+      "pnl_pct": -12.45,
+      "exit_reason": "LLM: sell_all — Down -12.4% but held 0.0h — within the auto-stop window. Pool=$0 + our share=2188010881% is a display artifact of bonding-curve state, not real exposu",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T02:47:45.867337+00:00",
+  "last_updated": "2026-09-10T02:49:18.044138+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.62,
-  "portfolio_value_usd": 308.84,
+  "last_sol_price_usd": 101.65,
+  "portfolio_value_usd": 308.3,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 02:29 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Man at $6.157e-06 | P&L: +9.4%",
-      "reason": "The position is only minutes old and modestly up 9.4%, with no clear evidence yet of momentum exhaustion. Give the fresh launch more time, but exit if momentum stalls or the position reaches 30 minutes without a 20% gain."
-    },
-    {
-      "time": "2026-09-10 02:31 UTC",
-      "action": "buy",
-      "details": "[LLM] $$AURA at $5.56196e-06, spent 0.05 SOL",
-      "reason": "$$AURA rides the genuinely viral 'aura points' / main-character meme trend currently sweeping X and TikTok — concrete cultural narrative, clear tagline ('confidence, energy, main-character vibes'), 50+ char description passes viability gate, no celebrity/political keywords. Risk: mcap only $5.5k and <1min old, so thin liquidity — this is exactly the kind of fresh attention that 5-10x's in hours or rugs in minutes."
-    },
     {
       "time": "2026-09-10 02:32 UTC",
       "action": "sell",
@@ -41888,40 +41893,52 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-10 02:49 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MITTENS at $2.84203e-06 | P&L: -12.4%",
+      "reason": "Down -12.4% but held 0.0h — within the auto-stop window. Pool=$0 + our share=2188010881% is a display artifact of bonding-curve state, not real exposure. MITTENS narrative (cat meme) has attention potential; give it more time before triggering a manual exit."
+    },
+    {
+      "time": "2026-09-10 02:49 UTC",
+      "action": "buy",
+      "details": "[LLM] $att at $3.77065e-06, spent 0.05 SOL",
+      "reason": "$att (attention) is meta-self-referential meme narrative — 'attention everyone' on a fresh 0.4min launch with only 4% bonding. Lowest mcap ($3.7k) of candidates = most upside if narrative catches. Highest risk of all candidates but also highest attention-arbitrage potential."
     }
   ],
   "trade_stats": {
-    "total": 2455,
+    "total": 2456,
     "wins": 1215,
-    "losses": 1240,
+    "losses": 1241,
     "win_rate_pct": 49.5,
-    "total_pnl_sol": -1.227111,
-    "avg_pnl_pct": 29.46,
+    "total_pnl_sol": -1.233351,
+    "avg_pnl_pct": 29.44,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 78,
-    "today_realized_sol": 1.458204,
-    "today_target_pct": 364.6,
+    "today_trades": 79,
+    "today_realized_sol": 1.451964,
+    "today_target_pct": 363.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1215,
-      "loss_count": 1240,
+      "loss_count": 1241,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T02:47:45.857198+00:00",
+  "last_llm_brief_at": "2026-09-10T02:49:15.972901+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GVHZCTCKho2BBv9kdCw2YfQowVWtcpvJFNBCzMMRpump": {
-      "price_usd": 3.227659436355209e-06,
+      "price_usd": 2.842031687048742e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 200.73086420004,
+      "liquidity_usd": 2.0330000000000003e-07,
       "volume_h24": 270.28,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.975308642
+      "real_sol_reserves": 2e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
