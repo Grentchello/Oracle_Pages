@@ -19552,3 +19552,6 @@
 ## [2026-09-10 15:24 UTC] buy | [LLM] $Artcoin at $8.40493e-06, spent 0.05 SOL
 - **Reasoning:** $Artcoin — clear creator shoutout from @Bandit0x0 (crypto-native X account), 30% bond already filled, $8.4k mcap with 0.5min age = early but proven. Strongest attention signal in this batch. Risk: bond not complete yet, but momentum is real.
 
+## [2026-09-10 15:26 UTC] sell | [PARTIAL][LLM] $Artcoin at $1.04366e-05 | P&L: +24.2%
+- **Reasoning:** Up +24.2% with weak narrative ('Artcoin' generic name, thin pool $2796, 0% our share on bonding curve). Per scalp discipline: up >20% with doubt → lock half the gain. Keep remainder if it continues, but don't bag-hold a thin-liquidity generic name.
+

@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.345096,
+  "balance_sol": 4.376136,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "H6tbQVAbDh4zse9uPnqeumEWAvCx2LKzspkP24tbpump": {
       "symbol": "Artcoin",
       "name": "Artcoin",
-      "amount": 593104.3551566977,
+      "amount": 296552.17757834884,
       "entry_price_usd": 8.404929008964986e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T15:24:51.905494+00:00",
       "entry_usd_value": 4.985,
-      "last_seen_price_usd": 8.404929008964986e-06,
+      "last_seen_price_usd": 1.0436608637276176e-05,
       "entry_signals": {
         "liquidity_usd": 4609.9503976104,
         "volume_24h_usd": null,
@@ -47559,19 +47559,30 @@
       "pnl_pct": 6.08,
       "exit_reason": "LLM: sell_all — Just entered at +6.1%, bonding curve, no signal to rotate yet. Need more time to develop. New launches are too fresh/low-mcap to justify swapping out.",
       "partial": false
+    },
+    {
+      "mint": "H6tbQVAbDh4zse9uPnqeumEWAvCx2LKzspkP24tbpump",
+      "symbol": "Artcoin",
+      "name": "Artcoin",
+      "amount_sold": 296552.17757834884,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T15:24:51.905494+00:00",
+      "exit_time": "2026-09-10T15:26:09.601073+00:00",
+      "entry_price_usd": 8.404929008964986e-06,
+      "exit_price_usd": 1.0436608637276176e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.03104,
+      "pnl_sol": 0.00604,
+      "pnl_pct": 24.17,
+      "exit_reason": "LLM: sell_half — Up +24.2% with weak narrative ('Artcoin' generic name, thin pool $2796, 0% our share on bonding curve). Per scalp discipline: up >20% with doubt → loc",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T15:24:51.905776+00:00",
+  "last_updated": "2026-09-10T15:26:09.601301+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.7,
-  "portfolio_value_usd": 438.19,
+  "last_sol_price_usd": 99.71,
+  "portfolio_value_usd": 438.84,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 15:00 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $CATESEM crashed >15% in one tick | P&L: -68.8%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 15:02 UTC",
       "action": "buy",
@@ -47685,30 +47696,48 @@
       "action": "buy",
       "details": "[LLM] $Artcoin at $8.40493e-06, spent 0.05 SOL",
       "reason": "$Artcoin — clear creator shoutout from @Bandit0x0 (crypto-native X account), 30% bond already filled, $8.4k mcap with 0.5min age = early but proven. Strongest attention signal in this batch. Risk: bond not complete yet, but momentum is real."
+    },
+    {
+      "time": "2026-09-10 15:26 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Artcoin at $1.04366e-05 | P&L: +24.2%",
+      "reason": "Up +24.2% with weak narrative ('Artcoin' generic name, thin pool $2796, 0% our share on bonding curve). Per scalp discipline: up >20% with doubt → lock half the gain. Keep remainder if it continues, but don't bag-hold a thin-liquidity generic name."
     }
   ],
   "trade_stats": {
-    "total": 2796,
-    "wins": 1334,
+    "total": 2797,
+    "wins": 1335,
     "losses": 1462,
     "win_rate_pct": 47.7,
-    "total_pnl_sol": 0.128854,
+    "total_pnl_sol": 0.134894,
     "avg_pnl_pct": 27.07,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 419,
-    "today_realized_sol": 2.814169,
-    "today_target_pct": 703.5,
+    "today_trades": 420,
+    "today_realized_sol": 2.820209,
+    "today_target_pct": 705.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1334,
+      "win_count": 1335,
       "loss_count": 1462,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T15:24:50.623227+00:00",
+  "last_llm_brief_at": "2026-09-10T15:26:09.601035+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "H6tbQVAbDh4zse9uPnqeumEWAvCx2LKzspkP24tbpump": {
+      "price_usd": 1.0436608637276176e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2796.44711753797,
+      "volume_h24": 27598.62,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 28.045804007
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
