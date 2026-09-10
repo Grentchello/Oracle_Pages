@@ -17257,3 +17257,6 @@
 ## [2026-09-10 00:08 UTC] sell | [FULL][LLM] $Duolingo at $1.33118e-07 | P&L: -0.3%
 - **Reasoning:** Duolingo narrative (viral stock surge + suing Apple) is strong, down only -0.3% and just entered, give it time to develop. Bonding curve at 25% with $3 pool means thin liquidity — need momentum before exit makes sense.
 
+## [2026-09-10 00:09 UTC] buy | [LLM] $MonkeyC at $4.35929e-06, spent 0.05 SOL
+- **Reasoning:** $MonkeyC has the freshest meta-narrative ('MONKEY SEE MONKEY DO' about copy-cat memecoin dynamics) with a real KOL post from @Devilantesol, $4.3k mcap = max upside, 0.2min age = pure attention launch. Risk: bond only 16% and very low mcap means high rug probability, but narrative + KOL signal is the alpha here.
+
