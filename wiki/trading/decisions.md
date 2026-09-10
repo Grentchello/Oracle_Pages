@@ -20116,3 +20116,9 @@
 ## [2026-09-10 19:02 UTC] buy | [LLM] $Meowtooth at $3.08502e-06, spent 0.05 SOL
 - **Reasoning:** $Meowtooth — 'The Bluetooth Cat' pairs a memeable visual concept with a real X link (dev_pscl post). Fresh $3k mcap, $5 position = cheap attention bet with defined -25% stop.
 
+## [2026-09-10 19:04 UTC] sell | [FULL][LLM] $Meowtooth at $3.31644e-06 | P&L: +7.5%
+- **Reasoning:** Up 7.5% but pool is only $270 with our 2% share — extremely illiquid, any exit will move price hard. Bonding-curve tokens at sub-$300 pools are rug-prone; +7.5% is not worth the rug risk. Lock the gain.
+
+## [2026-09-10 19:04 UTC] buy | [LLM] $SUMMER at $5.915e-06, spent 0.05 SOL
+- **Reasoning:** $SUMMER narrative — seasonal/seasonality meme, $5.9k mcap with 24% bonded = highest bond % of the fresh batch, decent early traction. Seasonal memes pump hard on attention cycles.
+
