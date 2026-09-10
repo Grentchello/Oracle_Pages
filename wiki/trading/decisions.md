@@ -20275,3 +20275,9 @@
 ## [2026-09-10 19:44 UTC] buy | [LLM] $FLY at $3.333e-06, spent 0.05 SOL
 - **Reasoning:** $FLY rides a genuine viral narrative — Google's fly brain in Minecraft/Beat Saber (Dexerto gaming outlet). Fresh 1.1min age, $1.7k mcap = early entry on real attention. Low mcap = high upside if narrative catches. Viability passes (description present + twitter).
 
+## [2026-09-10 19:45 UTC] sell | [rapid-drop] $FLY crashed >15% in one tick | P&L: -96.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:45 UTC] buy | [LLM] $Milly at $5.41372e-06, spent 0.05 SOL
+- **Reasoning:** $Milly - cat day narrative with real description (~50+ chars) and attached Twitter. 22% bond completion provides some liquidity backing. Cat memes have proven virality, timing around 'cat day' is a clean attention hook. Position 0.05 SOL.
+
