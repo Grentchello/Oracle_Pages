@@ -20686,3 +20686,6 @@
 ## [2026-09-10 22:39 UTC] sell | [rapid-drop] $OzemPIG crashed >15% in one tick | P&L: -65.5%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 22:40 UTC] buy | [LLM] $fun at $9.11399e-06, spent 0.05 SOL
+- **Reasoning:** $fun has the cleanest attention signal in the batch: official @Pumpfun X account tweet, 31% bonding curve progress (real buy pressure, not just creation), and meta-narrative framing ('there is no pump, I love you') that mirrors pump.fun's whole identity. At $9k mcap on a sub-1-min launch with a platform-endorsed tweet, this is the textbook attention-launched memecoin — buy 0.05 SOL.
+
