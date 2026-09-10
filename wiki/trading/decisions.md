@@ -19324,3 +19324,6 @@
 ## [2026-09-10 13:45 UTC] sell | [rapid-drop] $Fly64 crashed >15% in one tick | P&L: -44.6%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 13:47 UTC] buy | [LLM] $cap at $2.768e-06, spent 0.05 SOL
+- **Reasoning:** $cap (dog wif cap) passes viability gate: 72-char description + twitter. Narrative is strong — explicit 'run it back' redemption arc on a known previous runner, plus dogwifhat lineage. Risk: sub-$6k mcap, bond only 2%, classic micro-cap volatility. Sized at 0.05 SOL per current rules.
+
