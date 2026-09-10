@@ -19225,3 +19225,9 @@
 ## [2026-09-10 13:16 UTC] buy | [LLM] $$BITDOG at $4.94755e-06, spent 0.05 SOL
 - **Reasoning:** $$BITDOG passes viability (long desc + twitter), no fragility keyword, clear narrative (Bitcoin x Shiba mascot mashup — familiar meme DNA). Sub-$5k mcap, ~12 sec old = max attention runway. 0.05 SOL position per scalping rules.
 
+## [2026-09-10 13:17 UTC] sell | [FULL][LLM] $$BITDOG at $4.95813e-06 | P&L: +0.2%
+- **Reasoning:** Position is +0.2% and held 0.0h — flat but very fresh, no reason to exit yet. Liquidity is thin ($1006) so I'll keep it tight; if it doesn't move within the next few minutes I'll cut.
+
+## [2026-09-10 13:17 UTC] buy | [LLM] $[BRACKET] at $0.000117765, spent 0.05 SOL
+- **Reasoning:** $[BRACKET] from banesthemane — brand-new (0.1min), narrative play on bracket/meme culture with a viral X hook. Bonding only 10%, mcap $4.6k — extreme volatility but this is the freshest attention launch on the board and the bracket meme format has viral loop potential.
+
