@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.39752,
+  "balance_sol": 1.445119,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9gPdfZnxiJok2gP71UBawJrdaVFYVRY99YkKPcTApump": {
-      "symbol": "Cat",
-      "name": "The Miracle Cat",
-      "amount": 1333576.0320926397,
-      "entry_price_usd": 3.7991834571664263e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T01:02:28.876328+00:00",
-      "entry_usd_value": 5.0665000000000004,
-      "last_seen_price_usd": 3.7991834571664263e-06,
-      "entry_signals": {
-        "liquidity_usd": 813.26480651884,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3793.9288117383717,
-        "ath_market_cap_usd": 4798.940197878271,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 8.025903548,
-        "description": "",
-        "twitter": "https://x.com/ABC/status/2097852829469983208",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40929,19 +40905,30 @@
       "pnl_pct": 9.5,
       "exit_reason": "LLM: sell_all — $APETOWN is +9.5% but only 0.0h held on bonding curve — too fresh to judge. No reason to bail at a small green when narrative could develop. Not stale",
       "partial": false
+    },
+    {
+      "mint": "9gPdfZnxiJok2gP71UBawJrdaVFYVRY99YkKPcTApump",
+      "symbol": "Cat",
+      "name": "The Miracle Cat",
+      "amount_sold": 1333576.0320926397,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T01:02:28.876328+00:00",
+      "exit_time": "2026-09-10T01:04:36.381080+00:00",
+      "entry_price_usd": 3.7991834571664263e-06,
+      "exit_price_usd": 3.6117739771072414e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.047599,
+      "pnl_sol": -0.002401,
+      "pnl_pct": -4.93,
+      "exit_reason": "LLM: sell_all — $Cat just entered 0.0h ago, down only -4.9% (well above -25% hard cap), thin $394 pool but passes 5x liquidity check. Bonding-curve tokens need a few ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T01:02:28.876716+00:00",
+  "last_updated": "2026-09-10T01:04:36.381759+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.33,
-  "portfolio_value_usd": 146.68,
+  "last_sol_price_usd": 101.19,
+  "portfolio_value_usd": 146.23,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 00:44 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MON at $3.59601e-07 | P&L: -0.1%",
-      "reason": "$MON is flat (-0.1%) after entry, no momentum, 25% of an $8 pool — my position itself is meaningful size relative to liquidity. No narrative signal, just dead. Cut and free the slot for a fresh launch with attention."
-    },
     {
       "time": "2026-09-10 00:44 UTC",
       "action": "buy",
@@ -41055,30 +41042,48 @@
       "action": "buy",
       "details": "[LLM] $Cat at $3.79918e-06, spent 0.05 SOL",
       "reason": "$Cat (The Miracle Cat) is 0.1min old with X link attached, $3.8k mcap = max asymmetry. Cat meta is the original crypto-native narrative; if the X post gets even modest engagement, this 50-300x's in the first hour. Sizing 0.05 SOL per experiment rules. Passes viability (has twitter) and not on fragility blocklist."
+    },
+    {
+      "time": "2026-09-10 01:04 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Cat at $3.61177e-06 | P&L: -4.9%",
+      "reason": "$Cat just entered 0.0h ago, down only -4.9% (well above -25% hard cap), thin $394 pool but passes 5x liquidity check. Bonding-curve tokens need a few minutes to find direction — give it room to develop before cutting."
     }
   ],
   "trade_stats": {
-    "total": 2406,
+    "total": 2407,
     "wins": 1200,
-    "losses": 1206,
+    "losses": 1207,
     "win_rate_pct": 49.9,
-    "total_pnl_sol": -2.818791,
-    "avg_pnl_pct": 28.74,
+    "total_pnl_sol": -2.821192,
+    "avg_pnl_pct": 28.73,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 29,
-    "today_realized_sol": -0.133476,
-    "today_target_pct": -33.4,
+    "today_trades": 30,
+    "today_realized_sol": -0.135877,
+    "today_target_pct": -34.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1200,
-      "loss_count": 1206,
+      "loss_count": 1207,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T01:02:27.444711+00:00",
+  "last_llm_brief_at": "2026-09-10T01:04:36.380993+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "9gPdfZnxiJok2gP71UBawJrdaVFYVRY99YkKPcTApump": {
+      "price_usd": 3.6117739771072414e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 394.26405652385995,
+      "volume_h24": 6418.03,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.896274894
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
