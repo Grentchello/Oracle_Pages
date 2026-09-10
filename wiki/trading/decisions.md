@@ -20083,3 +20083,9 @@
 ## [2026-09-10 18:51 UTC] buy | [LLM] $ONEFIFTY at $9.45e-07, spent 0.05 SOL
 - **Reasoning:** $ONEFIFTY — viral Costco $1.50 hot dog narrative (cult classic American consumer story), has twitter, substantive desc passes viability gate. mcap $453 = extreme risk but that IS the attention-market play. Position 0.05 SOL.
 
+## [2026-09-10 18:52 UTC] sell | [rapid-drop] $ONEFIFTY crashed >15% in one tick | P&L: -72.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 18:53 UTC] buy | [LLM] $KDAY at $1.514e-06, spent 0.05 SOL
+- **Reasoning:** $KDAY — KirkDay (10.09) is a date-tied memorial narrative around the Charlie Kirk assassination that generated massive cultural attention. Poetic description, dedicated twitter @KirkDay0910, <1min old, $1.7k mcap. Exactly the kind of viral-attention play that 5-10x's on narrative momentum. Risk: political fragility could trigger ME2F rejection — if so, fall back to $BLUECHIP. Sizing 0.05 SOL per v7.
+
