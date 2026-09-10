@@ -1,17 +1,17 @@
 {
-  "balance_sol": 8.917155,
+  "balance_sol": 8.96542,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "47pwPmFyEjdn6mHkvXbYNK4m3j6hQ9mywTRBrvHLpump": {
       "symbol": "CHPT8",
       "name": "CHAPTER 8",
-      "amount": 1787506.3359797653,
+      "amount": 62017.63063966629,
       "entry_price_usd": 2.7862838300207175e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.0017347527499999961,
       "entry_time": "2026-09-10T20:40:26.487011+00:00",
       "entry_usd_value": 4.9805,
-      "last_seen_price_usd": 2.7862838300207175e-06,
+      "last_seen_price_usd": 2.7955145665321805e-06,
       "entry_signals": {
         "liquidity_usd": 0.69119488571,
         "volume_24h_usd": null,
@@ -50194,19 +50194,30 @@
       "pnl_pct": -42.16,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "47pwPmFyEjdn6mHkvXbYNK4m3j6hQ9mywTRBrvHLpump",
+      "symbol": "CHPT8",
+      "name": "CHAPTER 8",
+      "amount_sold": 1725488.705340099,
+      "fraction_sold": 0.9653049450000001,
+      "entry_time": "2026-09-10T20:40:26.487011+00:00",
+      "exit_time": "2026-09-10T20:41:45.735066+00:00",
+      "entry_price_usd": 2.7862838300207175e-06,
+      "exit_price_usd": 2.7955145665321805e-06,
+      "entry_sol_for_chunk": 0.048265,
+      "exit_sol_received": 0.048265,
+      "pnl_sol": 0.0,
+      "pnl_pct": 0.33,
+      "exit_reason": "LLM: sell_all — $CHPT8 is flat (+0.3%) with pool only $1 and our share 721% — that share % on a $1 pool means illiquidity is about to make this un-sellable as more ho",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T20:40:26.487174+00:00",
+  "last_updated": "2026-09-10T20:41:45.735263+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.61,
-  "portfolio_value_usd": 893.22,
+  "last_sol_price_usd": 99.94,
+  "portfolio_value_usd": 896.18,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 20:22 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CryptoKittie at $6.40535e-06 | P&L: -7.0%",
-      "reason": "Just opened 0h ago, -7% is normal bonding-curve dip with pool=$1538 still active. No clear exit signal yet — give it a few minutes to see if it bounces from 12% bonding progress."
-    },
     {
       "time": "2026-09-10 20:24 UTC",
       "action": "buy",
@@ -50320,40 +50331,46 @@
       "action": "buy",
       "details": "[LLM] $CHPT8 at $2.78628e-06, spent 0.05 SOL",
       "reason": "$CHPT8 'Fortnite Chapter 8' — HYPEX twitter call (real verified crypto/Twitter account), concrete dated catalyst (Dec 5 release), viral gaming meme narrative. mcap $2.8k is entry-level, bond 0% means fresh launch. Best attention signal in the slate."
+    },
+    {
+      "time": "2026-09-10 20:41 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $CHPT8 at $2.79551e-06 | P&L: +0.3%",
+      "reason": "$CHPT8 is flat (+0.3%) with pool only $1 and our share 721% — that share % on a $1 pool means illiquidity is about to make this un-sellable as more holders pile in. Exit now while we can."
     }
   ],
   "trade_stats": {
-    "total": 2951,
+    "total": 2952,
     "wins": 1386,
-    "losses": 1565,
+    "losses": 1566,
     "win_rate_pct": 47.0,
     "total_pnl_sol": 4.700967,
-    "avg_pnl_pct": 28.83,
+    "avg_pnl_pct": 28.82,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 574,
+    "today_trades": 575,
     "today_realized_sol": 7.386282,
     "today_target_pct": 1846.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1386,
-      "loss_count": 1565,
+      "loss_count": 1566,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T20:40:25.173018+00:00",
+  "last_llm_brief_at": "2026-09-10T20:41:45.734924+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5f8UeJYWSQuxP259Ykp9pcgFDUuJzCHo2Mcy6xXii9Kj": {
-      "price_usd": 3.4020508223972484e-08,
+    "47pwPmFyEjdn6mHkvXbYNK4m3j6hQ9mywTRBrvHLpump": {
+      "price_usd": 2.7955145665321805e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.08192494177,
-      "volume_h24": 0.0,
+      "liquidity_usd": 0.69348475934,
+      "volume_h24": 0.69,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.000822457
+      "real_sol_reserves": 0.006939011
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -20434,3 +20434,6 @@
 ## [2026-09-10 20:40 UTC] buy | [LLM] $CHPT8 at $2.78628e-06, spent 0.05 SOL
 - **Reasoning:** $CHPT8 'Fortnite Chapter 8' — HYPEX twitter call (real verified crypto/Twitter account), concrete dated catalyst (Dec 5 release), viral gaming meme narrative. mcap $2.8k is entry-level, bond 0% means fresh launch. Best attention signal in the slate.
 
+## [2026-09-10 20:41 UTC] sell | [PARTIAL][LLM] $CHPT8 at $2.79551e-06 | P&L: +0.3%
+- **Reasoning:** $CHPT8 is flat (+0.3%) with pool only $1 and our share 721% — that share % on a $1 pool means illiquidity is about to make this un-sellable as more holders pile in. Exit now while we can.
+
