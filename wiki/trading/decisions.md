@@ -17836,3 +17836,6 @@
 ## [2026-09-10 03:38 UTC] buy | [LLM] $Drosophila at $7.345e-06, spent 0.05 SOL
 - **Reasoning:** $Drosophila — absurd brain-on-fly meme narrative with live X post backing it, sub-$10k mcap, sub-1min age. Pure attention play, viral-science angle, fits the 5x-in-hours thesis.
 
+## [2026-09-10 03:40 UTC] sell | [rapid-drop] $Drosophila crashed >15% in one tick | P&L: -59.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

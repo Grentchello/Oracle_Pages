@@ -1,32 +1,8 @@
 {
-  "balance_sol": 2.876764,
+  "balance_sol": 2.897307,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Fknf1RdMqxDaULsYwh2go5NaYsozgnSHyQkCbBtopump": {
-      "symbol": "Drosophila",
-      "name": "Drosophila Fly Brain",
-      "amount": 692648.0599046971,
-      "entry_price_usd": 7.345e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T03:38:56.760923+00:00",
-      "entry_usd_value": 5.0875,
-      "last_seen_price_usd": 7.345e-06,
-      "entry_signals": {
-        "liquidity_usd": 608.68240464625,
-        "volume_24h_usd": 15449.5,
-        "market_cap_usd": 8439.046267913825,
-        "ath_market_cap_usd": 11290.099650250699,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.982136655,
-        "description": "",
-        "twitter": "https://x.com/blackardinal/status/2097892172699672947",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -42238,19 +42214,30 @@
       "pnl_pct": -0.24,
       "exit_reason": "LLM: sell_all — The position is only slightly down at -0.2% and has been held for essentially no time, so there is no loss signal or stale-capital concern yet. With n",
       "partial": false
+    },
+    {
+      "mint": "Fknf1RdMqxDaULsYwh2go5NaYsozgnSHyQkCbBtopump",
+      "symbol": "Drosophila",
+      "name": "Drosophila Fly Brain",
+      "amount_sold": 692648.0599046971,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T03:38:56.760923+00:00",
+      "exit_time": "2026-09-10T03:40:00.411537+00:00",
+      "entry_price_usd": 7.345e-06,
+      "exit_price_usd": 3.0153517976463144e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.020543,
+      "pnl_sol": -0.029457,
+      "pnl_pct": -58.95,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T03:38:56.761100+00:00",
+  "last_updated": "2026-09-10T03:40:22.031578+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.75,
-  "portfolio_value_usd": 297.8,
+  "last_sol_price_usd": 101.67,
+  "portfolio_value_usd": 294.57,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 03:15 UTC",
-      "action": "buy",
-      "details": "[LLM] $polycat at $5.2069e-06, spent 0.05 SOL",
-      "reason": "$polycat has a clear narrative tie-in to Polymarket (prediction markets are hot right now), a real description, and an active X poster. $5k mcap with a story is exactly the asymmetric setup we're looking for."
-    },
     {
       "time": "2026-09-10 03:16 UTC",
       "action": "sell",
@@ -42364,30 +42351,48 @@
       "action": "buy",
       "details": "[LLM] $Drosophila at $7.345e-06, spent 0.05 SOL",
       "reason": "$Drosophila — absurd brain-on-fly meme narrative with live X post backing it, sub-$10k mcap, sub-1min age. Pure attention play, viral-science angle, fits the 5x-in-hours thesis."
+    },
+    {
+      "time": "2026-09-10 03:40 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Drosophila crashed >15% in one tick | P&L: -59.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2483,
+    "total": 2484,
     "wins": 1222,
-    "losses": 1261,
+    "losses": 1262,
     "win_rate_pct": 49.2,
-    "total_pnl_sol": -1.339546,
-    "avg_pnl_pct": 29.02,
+    "total_pnl_sol": -1.369003,
+    "avg_pnl_pct": 28.98,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 106,
-    "today_realized_sol": 1.345769,
-    "today_target_pct": 336.4,
+    "today_trades": 107,
+    "today_realized_sol": 1.316312,
+    "today_target_pct": 329.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1222,
-      "loss_count": 1261,
+      "loss_count": 1262,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:38:55.251770+00:00",
+  "last_llm_brief_at": "2026-09-10T03:40:20.551833+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Fknf1RdMqxDaULsYwh2go5NaYsozgnSHyQkCbBtopump": {
+      "price_usd": 3.0153517976463144e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 91.3192101243,
+      "volume_h24": 24896.65,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.89819229
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
