@@ -1,17 +1,17 @@
 {
-  "balance_sol": 5.021987,
+  "balance_sol": 5.054993,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "2Uvsio43xC51uqU5QgME8zJ7Jem7M3FHavfBAg6cfBy7": {
       "symbol": "WENDOG",
       "name": "Wendog",
-      "amount": 1477181.4475547387,
+      "amount": 738590.7237773694,
       "entry_price_usd": 3.427473319801754e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T10:08:50.588324+00:00",
       "entry_usd_value": 5.063000000000001,
-      "last_seen_price_usd": 3.427473319801754e-06,
+      "last_seen_price_usd": 4.515292523095353e-06,
       "entry_signals": {
         "liquidity_usd": 417.53417308804006,
         "volume_24h_usd": null,
@@ -45247,19 +45247,30 @@
       "pnl_pct": -6.23,
       "exit_reason": "LLM: sell_all — $rice is down 6.2% on bonding curve with only $1 pool liquidity and 25% share — extremely thin, high slippage risk on exit. Pool depth 5x rule is bord",
       "partial": false
+    },
+    {
+      "mint": "2Uvsio43xC51uqU5QgME8zJ7Jem7M3FHavfBAg6cfBy7",
+      "symbol": "WENDOG",
+      "name": "Wendog",
+      "amount_sold": 738590.7237773694,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T10:08:50.588324+00:00",
+      "exit_time": "2026-09-10T10:10:12.721729+00:00",
+      "entry_price_usd": 3.427473319801754e-06,
+      "exit_price_usd": 4.515292523095353e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.033006,
+      "pnl_sol": 0.008006,
+      "pnl_pct": 31.74,
+      "exit_reason": "LLM: sell_half — WENDOG +31.7% with bonding-curve only 28% — locking half at profit before it dumps back. Keep a runner on the remaining half for further upside since ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T10:08:50.588645+00:00",
+  "last_updated": "2026-09-10T10:10:12.722381+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.26,
-  "portfolio_value_usd": 513.59,
+  "last_sol_price_usd": 101.041,
+  "portfolio_value_usd": 513.29,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 09:42 UTC",
-      "action": "buy",
-      "details": "[LLM] $$GORB at $3.77e-06, spent 0.05 SOL",
-      "reason": "$GORB has the strongest narrative of the bunch: cute 'watering solana' lore with 🌱 mascot, dedicated X handle @Gorbsolanaplz, and only $3.4k mcap at <1min old. Pure early-stage attention play with a story that could go viral on CT. Position size 0.05 SOL ($5)."
-    },
     {
       "time": "2026-09-10 09:43 UTC",
       "action": "sell",
@@ -45373,40 +45384,46 @@
       "action": "buy",
       "details": "[LLM] $WENDOG at $3.42747e-06, spent 0.05 SOL",
       "reason": "$WENDOG (Wendy's paired) has a clear brand-narrative hook at $3.4k mcap, 0.7min old — classic fast-food meme attention play with low mcap entry for asymmetric upside."
+    },
+    {
+      "time": "2026-09-10 10:10 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $WENDOG at $4.51529e-06 | P&L: +31.7%",
+      "reason": "WENDOG +31.7% with bonding-curve only 28% — locking half at profit before it dumps back. Keep a runner on the remaining half for further upside since it's at the early TP zone."
     }
   ],
   "trade_stats": {
-    "total": 2660,
-    "wins": 1296,
+    "total": 2661,
+    "wins": 1297,
     "losses": 1364,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.805699,
+    "total_pnl_sol": 0.813705,
     "avg_pnl_pct": 28.92,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 283,
-    "today_realized_sol": 3.491014,
-    "today_target_pct": 872.8,
+    "today_trades": 284,
+    "today_realized_sol": 3.49902,
+    "today_target_pct": 874.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1296,
+      "win_count": 1297,
       "loss_count": 1364,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:08:49.006931+00:00",
+  "last_llm_brief_at": "2026-09-10T10:10:12.721685+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "G1HCzLregdFqCz2BnjwxGzouV5fbWSF5FxeQWe1upump": {
-      "price_usd": 2.8329718435354462e-06,
+    "2Uvsio43xC51uqU5QgME8zJ7Jem7M3FHavfBAg6cfBy7": {
+      "price_usd": 4.515292523095353e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.98923303988,
-      "volume_h24": 282.72,
+      "liquidity_usd": 801.006053325695,
+      "volume_h24": 3053.23,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.009769238
+      "real_sol_reserves": 7.927534895
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

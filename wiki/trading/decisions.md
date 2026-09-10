@@ -18793,3 +18793,6 @@
 ## [2026-09-10 10:08 UTC] buy | [LLM] $WENDOG at $3.42747e-06, spent 0.05 SOL
 - **Reasoning:** $WENDOG (Wendy's paired) has a clear brand-narrative hook at $3.4k mcap, 0.7min old — classic fast-food meme attention play with low mcap entry for asymmetric upside.
 
+## [2026-09-10 10:10 UTC] sell | [PARTIAL][LLM] $WENDOG at $4.51529e-06 | P&L: +31.7%
+- **Reasoning:** WENDOG +31.7% with bonding-curve only 28% — locking half at profit before it dumps back. Keep a runner on the remaining half for further upside since it's at the early TP zone.
+
