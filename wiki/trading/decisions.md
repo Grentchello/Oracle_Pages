@@ -19147,3 +19147,6 @@
 ## [2026-09-10 12:46 UTC] sell | [FULL][LLM] $FlyCar at $8.5312e-06 | P&L: -0.5%
 - **Reasoning:** Just entered 0.0h ago, -0.5% is noise not signal. Bot auto-stop at -25% and 30min stale protects downside. Need a few minutes to see if bonding curve catches bid.
 
+## [2026-09-10 12:47 UTC] buy | [LLM] $$AURA at $1.03344e-06, spent 0.05 SOL
+- **Reasoning:** $$AURA passes viability gate (real description + twitter-style metadata) and has 10% bond completion — meaningful early traction vs1-2% for peers. 'Aura' is a current Gen Z attention meta (main-character energy, golden halo). mcap $1k = pure early attention play. Risk: no GMGN fragility data; tight stop will govern.
+
