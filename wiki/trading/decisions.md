@@ -17977,3 +17977,9 @@
 ## [2026-09-10 04:33 UTC] buy | [LLM] $Ape at $7.335e-06, spent 0.05 SOL
 - **Reasoning:** $Ape (Blind Ape) — strongest narrative of the batch, $8.4k mcap with 29% bonding curve, creator doing a live stream on PumpFun, framing against $ZCat (existing competitor). Live stream = real-time attention catalyst. 1 min old, fresh enough for early entry.
 
+## [2026-09-10 04:34 UTC] sell | [FULL][LLM] $Ape at $9.95775e-06 | P&L: +35.8%
+- **Reasoning:** The position is already up 35.8%, exceeding the profit-taking threshold, while the token remains on its bonding curve with only $2,658 in pool liquidity. Lock the gain rather than risk a rapid reversal.
+
+## [2026-09-10 04:34 UTC] buy | [LLM] $Entropy at $4.06329e-06, spent 0.05 SOL
+- **Reasoning:** Entropy The Whale is a fresh, absurdly memorable launch with an immediate X-post signal, but its 14% bonding progress and very low market cap create extreme reversal and liquidity risk.
+
