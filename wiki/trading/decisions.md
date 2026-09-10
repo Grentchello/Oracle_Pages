@@ -18250,3 +18250,9 @@
 ## [2026-09-10 06:08 UTC] sell | [PARTIAL][LLM] $blindape at $2.19276e-05 | P&L: +17.9%
 - **Reasoning:** Up17.9% in 6 minutes on thin $5.4k pool with no clear viral catalyst beyond generic 'blind ape' name. Lock half the gain per profit-taking discipline, let the rest ride toward +25-30% TP.
 
+## [2026-09-10 06:10 UTC] sell | [FULL][LLM] $blindape at $2.36402e-05 | P&L: +27.1%
+- **Reasoning:** Up +27% in 6 minutes on a $5.7k bonding-curve pool — pre-TP but in the danger zone. Per scalp discipline, lock the gain before it reverses. Bonding-curve liquidity is thin; givebacks happen fast.
+
+## [2026-09-10 06:10 UTC] buy | [LLM] $Fomo Lisa at $4.085e-06, spent 0.05 SOL
+- **Reasoning:** Meta-narrative 'the chart was the painting' taps into memecoin/artist culture — strong viral potential. 1.1min old, $4.8k mcap, has dedicated twitter handle. Fresh attention with a clear story, exactly what we're hunting. 0.05 SOL position.
+
