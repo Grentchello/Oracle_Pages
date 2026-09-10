@@ -18859,3 +18859,6 @@
 ## [2026-09-10 10:36 UTC] buy | [LLM] $SBDOG at $7.892e-06, spent 0.05 SOL
 - **Reasoning:** $SBDOG (SOL BONKER DOG) has the strongest narrative hook of the batch — 'church' framing is meme-native, $8k mcap with 29% bond near completion signals real demand, and the Bonk-adjacent branding taps an existing attention reservoir. Low risk at 0.05 SOL.
 
+## [2026-09-10 10:38 UTC] sell | [FULL][LLM] $SBDOG at $8.05626e-06 | P&L: +2.1%
+- **Reasoning:** Just entered at +2.1%, holding to see if the SBDOG narrative pops. Pool is thin ($2088) so any move could be sharp. Will exit if it goes stale or hits -25%.
+
