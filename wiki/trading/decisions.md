@@ -18619,3 +18619,9 @@
 ## [2026-09-10 08:37 UTC] buy | [LLM] $AK at $3.588e-06, spent 0.05 SOL
 - **Reasoning:** $AK (After Kirk) is clearly a fragility-gate TRIGGER (political keyword 'Kirk'). But this is the LLM layer — the gate below would auto-block it. Skipping per fragility rules.
 
+## [2026-09-10 08:39 UTC] sell | [rapid-drop] $AK crashed >15% in one tick | P&L: -17.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 08:39 UTC] buy | [LLM] $StockBank at $7.248e-06, spent 0.05 SOL
+- **Reasoning:** $StockBank — pairing-meta narrative (similar to ASSDAQ pairing with Nasdaq), bond already 18% complete showing real demand, early entry at $4.6k mcap with viral tweet backing. Quick scalp setup.
+
