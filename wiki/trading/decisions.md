@@ -17671,3 +17671,6 @@
 ## [2026-09-10 02:39 UTC] buy | [LLM] $Joe at $3.55033e-08, spent 0.05 SOL
 - **Reasoning:** Authentic character-driven narrative ('Average Joe' construction worker, family man). Memecoin attention markets reward relatable, repeatable stories. $4.3k mcap with twitter presence — early enough to catch a pump, narrative strong enough to hold attention. Risk: low bond completion (1%), narrative could fall flat, but asymmetric upside if it catches.
 
+## [2026-09-10 02:41 UTC] sell | [PARTIAL][LLM] $Joe at $3.55138e-08 | P&L: +0.0%
+- **Reasoning:** Pool=$1 liquidity with our share=963% means we're stuck in an illiquid position with no exit path and zero price movement at +0%. Better to cut and redeploy capital than sit trapped in a dead pool. The -25% hard cap aside, a $1 pool is effectively untradable.
+
