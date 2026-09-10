@@ -18955,3 +18955,6 @@
 ## [2026-09-10 11:14 UTC] buy | [LLM] $Payward at $3.21704e-06, spent 0.05 SOL
 - **Reasoning:** $Payward has a real narrative hook — Nasdaq investing into Kraken's parent is breaking-tier crypto news, with a tweet from @watcherguru (large crypto account). Mcap $3.2k at 0.2min age with a credible story and a viral tweet attached is the exact attention-launched setup we want to catch. Risk: ultra-low mcap means liquidity may be thin, but at 0.05 SOL position size we're sized for the risk.
 
+## [2026-09-10 11:15 UTC] sell | [FULL][LLM] $Payward at $3.28219e-06 | P&L: +2.0%
+- **Reasoning:** Only +2% on a $236 pool with no twitter/clear narrative — capital rotation play. Need slot for stronger attention signal in PONSISLAND which has twitter + creative story + leading mcap.
+
