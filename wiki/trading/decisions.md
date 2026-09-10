@@ -19657,3 +19657,9 @@
 ## [2026-09-10 16:01 UTC] buy | [LLM] $Meow at $4.3608e-06, spent 0.05 SOL
 - **Reasoning:** $Meow 'SpaceX Cat' — SpaceX is a perma-viral meme factory (Musk tweets, Starship launches, Elon cat posts). Combining with cat is a known attention combo. Has Twitter link, age 0.1min = maximum discovery window. 0.05 SOL = $5 risk, acceptable speculation on narrative. Will watch for +20% to take half, -15% to exit.
 
+## [2026-09-10 16:02 UTC] sell | [v8.7 TP +50% (full)] $Meow at $6.81188e-06 | P&L: +56.2%
+- **Reasoning:** Auto take-profit at +56.2%
+
+## [2026-09-10 16:03 UTC] buy | [LLM] $ANIMEME at $6.31752e-07, spent 0.05 SOL
+- **Reasoning:** $ANIMEME — JoJo's Bizarre Adventure 'ZA WARUDO' reference hits a massive, passionate anime-twitter fanbase that is one of the most active memecoin communities. Ultra-low mcap ($630) means 10-50x is realistic if even a small wave of weebs piles in. Narrative is iconic and instantly recognizable to the target demo. Risk: tiny mcap = rug-prone, but the narrative strength justifies the gamble.
+
