@@ -19633,3 +19633,6 @@
 ## [2026-09-10 15:52 UTC] buy | [LLM] $IHOLD at $3.314e-06, spent 0.05 SOL
 - **Reasoning:** $IHOLD — narrative: 'stretched fingers' phone meme, posted by AutismCapital (known memecoin X account). Description ≥50 chars, twitter present = passes viability gate. Meme is absurdist relatable humor, classic attention play. Low mcap $3.3k with bond forming. Risk: very new, but that's where alpha lives.
 
+## [2026-09-10 15:54 UTC] sell | [FULL][LLM] $IHOLD at $3.26099e-06 | P&L: -1.6%
+- **Reasoning:** Down only 1.6% on a fresh entry (0.0h held). The $246 pool is thin and my 2% share would create exit slippage, so I let the -25% hard stop manage downside rather than realize a small loss into illiquidity.
+
