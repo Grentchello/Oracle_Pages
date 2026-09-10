@@ -17731,3 +17731,6 @@
 ## [2026-09-10 02:59 UTC] buy | [LLM] $1000X at $2.876e-06, spent 0.05 SOL
 - **Reasoning:** 1000x Coin narrative is pure attention bait - viral name with X tweet driving signal, low mcap gives room to run, viability gate passes (twitter present). High risk but high attention asymmetry.
 
+## [2026-09-10 03:01 UTC] sell | [PARTIAL][LLM] $1000X at $2.85602e-06 | P&L: -0.7%
+- **Reasoning:** Pool only $5 and our share is 102% — we ARE the liquidity. Cannot exit gracefully, position is unrecoverable. -0.7% now will become -25% when bot tries to sell into an empty pool. Cut and free the slot for a real launch.
+

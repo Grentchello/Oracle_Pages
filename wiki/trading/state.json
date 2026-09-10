@@ -1,17 +1,17 @@
 {
-  "balance_sol": 2.840314,
+  "balance_sol": 2.877836,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DHyMCSgho2MFWB5UqTs4FNkkHjwgX7drTd587z9Xpump": {
       "symbol": "1000X",
       "name": "1000x Coin",
-      "amount": 1771210.0139082058,
+      "amount": 433497.1681822957,
       "entry_price_usd": 2.876e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.012237316997372228,
       "entry_time": "2026-09-10T02:59:35.301780+00:00",
       "entry_usd_value": 5.094,
-      "last_seen_price_usd": 2.876e-06,
+      "last_seen_price_usd": 2.856022974651496e-06,
       "entry_signals": {
         "liquidity_usd": 4.9552297614,
         "volume_24h_usd": 15.17,
@@ -41881,19 +41881,30 @@
       "pnl_pct": -33.53,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "DHyMCSgho2MFWB5UqTs4FNkkHjwgX7drTd587z9Xpump",
+      "symbol": "1000X",
+      "name": "1000x Coin",
+      "amount_sold": 1337712.84572591,
+      "fraction_sold": 0.7552536600525555,
+      "entry_time": "2026-09-10T02:59:35.301780+00:00",
+      "exit_time": "2026-09-10T03:01:03.134150+00:00",
+      "entry_price_usd": 2.876e-06,
+      "exit_price_usd": 2.856022974651496e-06,
+      "entry_sol_for_chunk": 0.037763,
+      "exit_sol_received": 0.037522,
+      "pnl_sol": -0.00024,
+      "pnl_pct": -0.69,
+      "exit_reason": "LLM: sell_all — Pool only $5 and our share is 102% — we ARE the liquidity. Cannot exit gracefully, position is unrecoverable. -0.7% now will become -25% when bot trie",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T02:59:35.302158+00:00",
+  "last_updated": "2026-09-10T03:01:03.134347+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.88,
-  "portfolio_value_usd": 294.47,
+  "last_sol_price_usd": 101.82,
+  "portfolio_value_usd": 294.27,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 02:41 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Joe at $3.55138e-08 | P&L: +0.0%",
-      "reason": "Pool=$1 liquidity with our share=963% means we're stuck in an illiquid position with no exit path and zero price movement at +0%. Better to cut and redeploy capital than sit trapped in a dead pool. The -25% hard cap aside, a $1 pool is effectively untradable."
-    },
     {
       "time": "2026-09-10 02:43 UTC",
       "action": "sell",
@@ -42007,40 +42018,46 @@
       "action": "buy",
       "details": "[LLM] $1000X at $2.876e-06, spent 0.05 SOL",
       "reason": "1000x Coin narrative is pure attention bait - viral name with X tweet driving signal, low mcap gives room to run, viability gate passes (twitter present). High risk but high attention asymmetry."
+    },
+    {
+      "time": "2026-09-10 03:01 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $1000X at $2.85602e-06 | P&L: -0.7%",
+      "reason": "Pool only $5 and our share is 102% — we ARE the liquidity. Cannot exit gracefully, position is unrecoverable. -0.7% now will become -25% when bot tries to sell into an empty pool. Cut and free the slot for a real launch."
     }
   ],
   "trade_stats": {
-    "total": 2462,
+    "total": 2463,
     "wins": 1215,
-    "losses": 1247,
-    "win_rate_pct": 49.4,
-    "total_pnl_sol": -1.375998,
-    "avg_pnl_pct": 29.25,
+    "losses": 1248,
+    "win_rate_pct": 49.3,
+    "total_pnl_sol": -1.376238,
+    "avg_pnl_pct": 29.24,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 85,
-    "today_realized_sol": 1.309317,
+    "today_trades": 86,
+    "today_realized_sol": 1.309077,
     "today_target_pct": 327.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1215,
-      "loss_count": 1247,
+      "loss_count": 1248,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T02:59:33.971744+00:00",
+  "last_llm_brief_at": "2026-09-10T03:01:03.134049+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "7KRQmHgHa9BtPSrHBEaWhPESb5QL4qbQirv25uRFpump": {
-      "price_usd": 3.153989107764105e-06,
+    "DHyMCSgho2MFWB5UqTs4FNkkHjwgX7drTd587z9Xpump": {
+      "price_usd": 2.856022974651496e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 159.74078307804,
-      "volume_h24": 4088.43,
+      "liquidity_usd": 4.9523114871,
+      "volume_h24": 25.39,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.567930733
+      "real_sol_reserves": 0.048637905
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
