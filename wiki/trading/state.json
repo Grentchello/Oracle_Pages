@@ -1,27 +1,27 @@
 {
-  "balance_sol": 1.565474,
+  "balance_sol": 1.539426,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "7vWzWxiPBmjQWDRWbn4TqjqZyXVr4CS1siHozFQKpump": {
-      "symbol": "ONE",
-      "name": "ONE MORE THING",
-      "amount": 845812.7388987315,
-      "entry_price_usd": 5.990096586387083e-06,
+    "CPUEAp8J1GrKZNezXpYVKDpDbvXgu69j7Pmirescpump": {
+      "symbol": "ETF",
+      "name": "Escape Traditional Finance",
+      "amount": 1051302.514491875,
+      "entry_price_usd": 4.819259851622049e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T00:27:58.828643+00:00",
+      "entry_time": "2026-09-10T00:29:15.786679+00:00",
       "entry_usd_value": 5.0665000000000004,
-      "last_seen_price_usd": 5.990096586387083e-06,
+      "last_seen_price_usd": 4.819259851622049e-06,
       "entry_signals": {
-        "liquidity_usd": 24.45779289154,
+        "liquidity_usd": 6.534680300339999,
         "volume_24h_usd": null,
-        "market_cap_usd": 5988.323144192357,
-        "ath_market_cap_usd": 7254.809021693997,
+        "market_cap_usd": 4818.784251123516,
+        "ath_market_cap_usd": 5716.270086198998,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.241367738,
-        "description": "",
-        "twitter": "https://x.com/therhenjoyer/status/2097844143280025654",
+        "real_sol_reserves": 0.064489098,
+        "description": "Escape Traditional Finance",
+        "twitter": "https://x.com/MayuriSolss/status/2097844543911501931",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -40623,25 +40623,30 @@
       "pnl_pct": 0.13,
       "exit_reason": "LLM: sell_all — $FLIP was just opened (0.0h held, +0.1%) on the bonding curve. No thesis-violating data yet — give it time to develop before rotating into an unproven",
       "partial": false
+    },
+    {
+      "mint": "7vWzWxiPBmjQWDRWbn4TqjqZyXVr4CS1siHozFQKpump",
+      "symbol": "ONE",
+      "name": "ONE MORE THING",
+      "amount_sold": 845812.7388987315,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T00:27:58.828643+00:00",
+      "exit_time": "2026-09-10T00:29:02.565600+00:00",
+      "entry_price_usd": 5.990096586387083e-06,
+      "exit_price_usd": 2.8694789572578512e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.023952,
+      "pnl_sol": -0.026048,
+      "pnl_pct": -52.1,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T00:27:58.828836+00:00",
+  "last_updated": "2026-09-10T00:29:15.786829+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.33,
-  "portfolio_value_usd": 163.7,
+  "portfolio_value_usd": 161.06,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 00:02 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $COINBASS at $5.97545e-06 | P&L: +18.0%",
-      "reason": "Held 0.0h, up +18% but pool is only $1373 (below 5x position size of $5 — actually below position size entirely), bond only 12%, and our share is 0% (we own essentially nothing meaningful). The thin pool + bonding curve stage = any exit attempt will dump it back. Cut now while we have a gain rather than get rugged as liquidity evaporates."
-    },
-    {
-      "time": "2026-09-10 00:05 UTC",
-      "action": "buy",
-      "details": "[LLM] $Duolingo at $1.33511e-07, spent 0.05 SOL",
-      "reason": "$Duolingo has the strongest narrative in this batch — recognizable brand + real news catalyst (suing Apple) + dividends utility claim is classic viral memecoin bait. Twitter link to actual @duolingo account is the attention signal. Risk: low mcap ($4k), bond only 2% so liquidity thin — volatility both ways. Entering with 0.1 SOL."
-    },
     {
       "time": "2026-09-10 00:06 UTC",
       "action": "sell",
@@ -40749,30 +40754,54 @@
       "action": "buy",
       "details": "[LLM] $ONE at $5.9901e-06, spent 0.05 SOL",
       "reason": "$ONE ('ONE MORE THING') has the strongest narrative of the fresh batch — Apple keynote reference is universally recognizable meme material. Highest mcap ($5,988) among viable non-flagged candidates suggests early traction. Bond at 24% indicates buying pressure. Risk: only 0.4min old, liquidity thin, could rug — but 0.05 SOL size limits downside."
+    },
+    {
+      "time": "2026-09-10 00:29 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $ONE crashed >15% in one tick | P&L: -52.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 00:29 UTC",
+      "action": "buy",
+      "details": "[LLM] $ETF at $4.81926e-06, spent 0.05 SOL",
+      "reason": "$ETF = 'Escape Traditional Finance' lands directly on the active ETF/crypto narrative (still hot institutional attention flow). Age 0.5min, mcap $4.8k = earliest entry on fresh story. Risk: tiny bond (19%) means liquidity is thin — bot enforces -30% SL so I only lose 0.1 SOL if it dies."
     }
   ],
   "trade_stats": {
-    "total": 2388,
+    "total": 2389,
     "wins": 1197,
-    "losses": 1191,
+    "losses": 1192,
     "win_rate_pct": 50.1,
-    "total_pnl_sol": -2.650836,
-    "avg_pnl_pct": 29.09,
+    "total_pnl_sol": -2.676884,
+    "avg_pnl_pct": 29.05,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 11,
-    "today_realized_sol": 0.034479,
-    "today_target_pct": 8.6,
+    "today_trades": 12,
+    "today_realized_sol": 0.008431,
+    "today_target_pct": 2.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1197,
-      "loss_count": 1191,
+      "loss_count": 1192,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T00:27:57.529868+00:00",
+  "last_llm_brief_at": "2026-09-10T00:29:14.413875+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "7vWzWxiPBmjQWDRWbn4TqjqZyXVr4CS1siHozFQKpump": {
+      "price_usd": 2.8694789572578512e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 19.46315562089,
+      "volume_h24": 5710.66,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.192076933
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

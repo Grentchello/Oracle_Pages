@@ -17305,3 +17305,9 @@
 ## [2026-09-10 00:27 UTC] buy | [LLM] $ONE at $5.9901e-06, spent 0.05 SOL
 - **Reasoning:** $ONE ('ONE MORE THING') has the strongest narrative of the fresh batch — Apple keynote reference is universally recognizable meme material. Highest mcap ($5,988) among viable non-flagged candidates suggests early traction. Bond at 24% indicates buying pressure. Risk: only 0.4min old, liquidity thin, could rug — but 0.05 SOL size limits downside.
 
+## [2026-09-10 00:29 UTC] sell | [rapid-drop] $ONE crashed >15% in one tick | P&L: -52.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 00:29 UTC] buy | [LLM] $ETF at $4.81926e-06, spent 0.05 SOL
+- **Reasoning:** $ETF = 'Escape Traditional Finance' lands directly on the active ETF/crypto narrative (still hot institutional attention flow). Age 0.5min, mcap $4.8k = earliest entry on fresh story. Risk: tiny bond (19%) means liquidity is thin — bot enforces -30% SL so I only lose 0.1 SOL if it dies.
+
