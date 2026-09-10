@@ -20665,3 +20665,9 @@
 ## [2026-09-10 22:31 UTC] buy | [LLM] $AMD at $4.64203e-06, spent 0.05 SOL
 - **Reasoning:** $AMD ticker is an instant-attention brand grab (AMD chipmaker). 0.3min old, $4.6k mcap, bond 18% (real buyers, second-highest in batch). Narratives like this catch momentum quickly on ticker alone.
 
+## [2026-09-10 22:32 UTC] sell | [FULL][LLM] $AMD at $6.17858e-06 | P&L: +33.1%
+- **Reasoning:** $AMD is up +33.1% in under a minute on thin $1461 liquidity — well past my +20% profit-take threshold and the +30% TP-at-25% system rule. Lock the gain now; fresh memecoins on bonding curves reverse violently.
+
+## [2026-09-10 22:32 UTC] buy | [LLM] $GRUMPY at $1.25933e-05, spent 0.05 SOL
+- **Reasoning:** $GRUMPY (Grumpy Cat) — globally-recognized viral meme IP with proven staying power, posted by @devioussol (199+ engagement on the tweet), 35% bond but only $12.6k mcap leaving 5-10x room. Passes viability gate (description has twitter, mcap >$3k liquidity proxy) and fragility gate (no political/celebrity keywords). Skip rest: $N/A has no identity, $$BEAST/$$ERIKA/$VANCEUSA blocked by fragility gate (celebrity/political), 9/11 commemorative not a pump play.
+
