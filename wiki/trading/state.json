@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.55031,
+  "balance_sol": 4.50031,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "H4BdqkY7cjyLWjjPyrN5GAGEhiKQ63WYQNR6Zyhipump": {
+      "symbol": "SPACEDATA",
+      "name": "Space Data Centers",
+      "amount": 1765017.440046115,
+      "entry_price_usd": 2.849830197637356e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T14:49:27.720602+00:00",
+      "entry_usd_value": 5.03,
+      "last_seen_price_usd": 2.849830197637356e-06,
+      "entry_signals": {
+        "liquidity_usd": 19.8685011066,
+        "volume_24h_usd": null,
+        "market_cap_usd": 2836.4393951082984,
+        "ath_market_cap_usd": 4047.15494498813,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.197500011,
+        "description": "",
+        "twitter": "https://x.com/RealTomCarow/status/2098061037799096697",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -47282,17 +47306,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T14:47:53.427169+00:00",
+  "last_updated": "2026-09-10T14:49:27.720791+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.13,
-  "portfolio_value_usd": 455.62,
+  "last_sol_price_usd": 100.6,
+  "portfolio_value_usd": 457.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 14:29 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $shroom at $9.01545e-06 | P&L: +38.5%",
-      "reason": "At +38.5%, well past the +30% TP threshold. Per the prompt's profit-taking discipline: 'If up >20% and you have ANY doubt, sell_all. Don't hope. Lock the gain.' Also need to free the 1/1 position slot for fresh entry."
-    },
     {
       "time": "2026-09-10 14:29 UTC",
       "action": "buy",
@@ -47406,6 +47424,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $WAVEKIRK at $2.84592e-06 | P&L: +0.2%",
       "reason": "Just opened, +0.2%, no momentum signal yet. Will reassess next tick."
+    },
+    {
+      "time": "2026-09-10 14:49 UTC",
+      "action": "buy",
+      "details": "[LLM] $SPACEDATA at $2.84983e-06, spent 0.05 SOL",
+      "reason": "$SPACEDATA — 'Space Data Centers' ties into the current AI/infrastructure narrative cycle which is getting real X attention. Sub-$3k mcap at <1min old = massive upside if the story catches. First position of fresh slate, learning mode, taking the trade."
     }
   ],
   "trade_stats": {
@@ -47427,21 +47451,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T14:47:53.426012+00:00",
+  "last_llm_brief_at": "2026-09-10T14:49:26.146964+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "9uS7FmPNwNjPoi49KGqfAq2KW1JSC4gazDV86jdvpump": {
-      "price_usd": 2.84592026711308e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 24.78398194598,
-      "volume_h24": 24.81,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.247518046
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
