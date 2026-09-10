@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.292667,
+  "balance_sol": 4.341519,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HeiWAKxiJycUz4u3dHn8una5JGTCDWjrHy1anDnjpump": {
-      "symbol": "WIFWIF",
-      "name": "dog wif dog wif hat",
-      "amount": 10998.074231329449,
-      "entry_price_usd": 0.00045276108300990053,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T16:19:09.197374+00:00",
-      "entry_usd_value": 4.979500000000001,
-      "last_seen_price_usd": 0.00045276108300990053,
-      "entry_signals": {
-        "liquidity_usd": 1.9918000000000001e-07,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 3815.772233847446,
-        "ath_market_cap_usd": 4038.957528713097,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2e-09,
-        "description": "",
-        "twitter": "https://x.com/nostalgicgareth/status/2098083556400492867?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -47967,19 +47943,30 @@
       "pnl_pct": 0.38,
       "exit_reason": "LLM: sell_all — Position just opened, pool is tiny ($20) with our 25% share — selling into this would crater the price. Not stale yet (0 min held), barely breakeven. ",
       "partial": false
+    },
+    {
+      "mint": "HeiWAKxiJycUz4u3dHn8una5JGTCDWjrHy1anDnjpump",
+      "symbol": "WIFWIF",
+      "name": "dog wif dog wif hat",
+      "amount_sold": 10998.074118764123,
+      "fraction_sold": 0.9999999897649968,
+      "entry_time": "2026-09-10T16:19:09.197374+00:00",
+      "exit_time": "2026-09-10T16:20:44.933234+00:00",
+      "entry_price_usd": 0.00045276108300990053,
+      "exit_price_usd": 0.00044218768423879,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.048852,
+      "pnl_sol": -0.001148,
+      "pnl_pct": -2.34,
+      "exit_reason": "LLM: sell_all — Just entered 0.0h ago, -2.3% is noise on a bonding-curve sniper. Not stale, not at stop. Let the narrative develop for at least 15-30 min before reass",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T16:19:09.197596+00:00",
+  "last_updated": "2026-09-10T16:20:44.933927+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.59,
-  "portfolio_value_usd": 432.49,
+  "last_sol_price_usd": 99.55,
+  "portfolio_value_usd": 432.2,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 15:54 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $IHOLD at $3.26099e-06 | P&L: -1.6%",
-      "reason": "Down only 1.6% on a fresh entry (0.0h held). The $246 pool is thin and my 2% share would create exit slippage, so I let the -25% hard stop manage downside rather than realize a small loss into illiquidity."
-    },
     {
       "time": "2026-09-10 15:55 UTC",
       "action": "buy",
@@ -48093,30 +48080,48 @@
       "action": "buy",
       "details": "[LLM] $WIFWIF at $0.000452761, spent 0.05 SOL",
       "reason": "$WIFWIF is a recursive meta of the original $WIF (dog wif hat) — derivative dog meta launches have historically pumped on the WIF cult attention. Has twitter, viral name."
+    },
+    {
+      "time": "2026-09-10 16:20 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WIFWIF at $0.000442188 | P&L: -2.3%",
+      "reason": "Just entered 0.0h ago, -2.3% is noise on a bonding-curve sniper. Not stale, not at stop. Let the narrative develop for at least 15-30 min before reassessing."
     }
   ],
   "trade_stats": {
-    "total": 2820,
+    "total": 2821,
     "wins": 1345,
-    "losses": 1475,
+    "losses": 1476,
     "win_rate_pct": 47.7,
-    "total_pnl_sol": 0.076425,
-    "avg_pnl_pct": 26.81,
+    "total_pnl_sol": 0.075277,
+    "avg_pnl_pct": 26.8,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 443,
-    "today_realized_sol": 2.76174,
-    "today_target_pct": 690.4,
+    "today_trades": 444,
+    "today_realized_sol": 2.760592,
+    "today_target_pct": 690.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1345,
-      "loss_count": 1475,
+      "loss_count": 1476,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T16:19:07.843071+00:00",
+  "last_llm_brief_at": "2026-09-10T16:20:44.932698+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HeiWAKxiJycUz4u3dHn8una5JGTCDWjrHy1anDnjpump": {
+      "price_usd": 0.00044218768423879,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.991e-07,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

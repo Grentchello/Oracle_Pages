@@ -19693,3 +19693,6 @@
 ## [2026-09-10 16:19 UTC] buy | [LLM] $WIFWIF at $0.000452761, spent 0.05 SOL
 - **Reasoning:** $WIFWIF is a recursive meta of the original $WIF (dog wif hat) — derivative dog meta launches have historically pumped on the WIF cult attention. Has twitter, viral name.
 
+## [2026-09-10 16:20 UTC] sell | [FULL][LLM] $WIFWIF at $0.000442188 | P&L: -2.3%
+- **Reasoning:** Just entered 0.0h ago, -2.3% is noise on a bonding-curve sniper. Not stale, not at stop. Let the narrative develop for at least 15-30 min before reassessing.
+
