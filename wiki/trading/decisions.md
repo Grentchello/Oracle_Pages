@@ -17788,3 +17788,6 @@
 ## [2026-09-10 03:17 UTC] sell | [rapid-drop] $chip crashed >15% in one tick | P&L: -76.8%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 03:21 UTC] buy | [LLM] $Flyhard at $1.35962e-07, spent 0.05 SOL
+- **Reasoning:** $Flyhard has a clean name, low mcap ($4.4k), 1.1min old, and an attached X account (@0x_rezero) — fresh narrative with viral potential. Bond still at 6% means entry is early; 0.05 SOL position respects the size cap.
+
