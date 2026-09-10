@@ -18670,3 +18670,9 @@
 ## [2026-09-10 09:03 UTC] buy | [LLM] $$PXFUN at $2.327e-06, spent 0.05 SOL
 - **Reasoning:** $PXFUN (PUMPX) — clearest pump-narrative coin in batch, $8.2k mcap, '500-1B MC' moonshot framing is the meme itself, fresh attention and low float. Standard 0.05 SOL scalp, exit fast if no follow-through.
 
+## [2026-09-10 09:05 UTC] sell | [FULL][LLM] $$PXFUN at $7.0958e-09 | P&L: -99.7%
+- **Reasoning:** Position is -99.7%, already effectively worthless ($0.0000071 vs $0.0000023270 entry). Cut the dead weight and free the slot immediately — no bounce thesis holds at this drawdown on a bonding-curve microcap.
+
+## [2026-09-10 09:05 UTC] buy | [LLM] $SFSS at $1.32557e-07, spent 0.05 SOL
+- **Reasoning:** $SFSS 'So Far, So Same' has a real viral narrative hook (Samsung roasting Apple's foldable iPhone) with active X amplification at $4.2k mcap and 2% bond — classic attention-meme setup with a memorable slogan that can trend.
+
