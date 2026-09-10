@@ -19033,3 +19033,6 @@
 ## [2026-09-10 11:46 UTC] sell | [FULL][LLM] $JACKET at $1.80481e-07 | P&L: +0.1%
 - **Reasoning:** Just entered at +0.1%, no momentum yet. On bonding curve with 25% pool share, low liquidity risk. Bot will auto-close at 30min if flat. Give it a few minutes to develop.
 
+## [2026-09-10 11:51 UTC] buy | [LLM] $IBM at $2.46605e-09, spent 0.05 SOL
+- **Reasoning:** $IBM 'Infinite Buyback Machine' has the strongest narrative of the batch — buyback mechanics give holders a 'price floor' story that pumps memecoins. 0.4min old, $5.9k mcap, has twitter. Risk: super fresh, bond only 14%, no liquidity proven yet — but that's where attention-launch alpha lives.
+

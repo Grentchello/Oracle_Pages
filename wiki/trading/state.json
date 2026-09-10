@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.927445,
+  "balance_sol": 4.877445,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "HBERBmoHBKFnMUakrQwVhCW4gcXkzd5hz6kNeD8Epump": {
+      "symbol": "IBM",
+      "name": "Infinite Buyback Machine",
+      "amount": 2059572609.0414486,
+      "entry_price_usd": 2.466045614368426e-09,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T11:51:52.906527+00:00",
+      "entry_usd_value": 5.079000000000001,
+      "last_seen_price_usd": 2.466045614368426e-09,
+      "entry_signals": {
+        "liquidity_usd": 0.2818189809,
+        "volume_24h_usd": null,
+        "market_cap_usd": 5880.355630499778,
+        "ath_market_cap_usd": 6508.081451319881,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.002774355,
+        "description": "",
+        "twitter": "https://x.com/ibmxsol/status/2098016212894765099?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45973,17 +45997,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T11:50:30.006344+00:00",
+  "last_updated": "2026-09-10T11:51:52.906818+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.61,
-  "portfolio_value_usd": 500.68,
+  "last_sol_price_usd": 101.58,
+  "portfolio_value_usd": 500.53,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 11:26 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-10 11:27 UTC",
       "action": "buy",
@@ -46097,6 +46115,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $JACKET at $1.80481e-07 | P&L: +0.1%",
       "reason": "Just entered at +0.1%, no momentum yet. On bonding curve with 25% pool share, low liquidity risk. Bot will auto-close at 30min if flat. Give it a few minutes to develop."
+    },
+    {
+      "time": "2026-09-10 11:51 UTC",
+      "action": "buy",
+      "details": "[LLM] $IBM at $2.46605e-09, spent 0.05 SOL",
+      "reason": "$IBM 'Infinite Buyback Machine' has the strongest narrative of the batch — buyback mechanics give holders a 'price floor' story that pumps memecoins. 0.4min old, $5.9k mcap, has twitter. Risk: super fresh, bond only 14%, no liquidity proven yet — but that's where attention-launch alpha lives."
     }
   ],
   "trade_stats": {
@@ -46118,7 +46142,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T11:50:30.006303+00:00",
+  "last_llm_brief_at": "2026-09-10T11:51:51.412794+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
