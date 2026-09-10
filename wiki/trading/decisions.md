@@ -20833,3 +20833,6 @@
 ## [2026-09-10 23:30 UTC] sell | [PARTIAL][LLM] $Banned at $2.77147e-06 | P&L: -3.5%
 - **Reasoning:** Owning 119% of pool on a bonding-curve token is catastrophic concentration risk — any other seller dilutes my exit price. Down only 3.5% but the structural risk is worse than the loss. Cut and free the slot.
 
+## [2026-09-10 23:31 UTC] sell | [FULL][LLM] $Banned at $2.78661e-06 | P&L: -3.0%
+- **Reasoning:** Just entered, -3% is noise. $Banned has bonding curve dynamics, pool is small ($4) so any meaningful price action will come from bonding curve progress. Give it time to develop narrative or bonding curve fill.
+
