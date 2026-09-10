@@ -1,27 +1,27 @@
 {
-  "balance_sol": 2.839995,
+  "balance_sol": 2.820919,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "BCzZWz3BJA8KHBktESDYeqjGVLv2LEQFvm326vWCpump": {
-      "symbol": "Nole",
-      "name": "NoleCoin",
-      "amount": 1098997.9483596082,
-      "entry_price_usd": 4.635586451825663e-06,
+    "41NdAozcFZ61TokZzWoorkep5foGAavjJhezyTy4pump": {
+      "symbol": "FLYBRAIN",
+      "name": "FLYBRAIN",
+      "amount": 1121496.9453873755,
+      "entry_price_usd": 4.54526427465148e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T03:02:36.546486+00:00",
-      "entry_usd_value": 5.0945,
-      "last_seen_price_usd": 4.635586451825663e-06,
+      "entry_time": "2026-09-10T03:03:56.309304+00:00",
+      "entry_usd_value": 5.0975,
+      "last_seen_price_usd": 4.54526427465148e-06,
       "entry_signals": {
-        "liquidity_usd": 1241.61615797237,
+        "liquidity_usd": 803.6903400598001,
         "volume_24h_usd": null,
-        "market_cap_usd": 4634.221572116617,
-        "ath_market_cap_usd": 5040.949474172357,
+        "market_cap_usd": 4543.48094389144,
+        "ath_market_cap_usd": 4565.094704843401,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 12.185849033,
+        "real_sol_reserves": 7.883181364,
         "description": "",
-        "twitter": "https://x.com/wifcashback/status/2097882834358968371?s=20",
+        "twitter": "https://x.com/_lyraaaa_/status/2097527368919470162?s=46",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -41915,25 +41915,30 @@
       "pnl_pct": -0.63,
       "exit_reason": "LLM: sell_all — $1000X is flat at -0.6% after a fresh entry with only $5 pool liquidity and 25% of supply share in our position — that's illiquid and we already have ",
       "partial": false
+    },
+    {
+      "mint": "BCzZWz3BJA8KHBktESDYeqjGVLv2LEQFvm326vWCpump",
+      "symbol": "Nole",
+      "name": "NoleCoin",
+      "amount_sold": 1098997.9483596082,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T03:02:36.546486+00:00",
+      "exit_time": "2026-09-10T03:03:40.318374+00:00",
+      "entry_price_usd": 4.635586451825663e-06,
+      "exit_price_usd": 2.868749312941648e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.030924,
+      "pnl_sol": -0.019076,
+      "pnl_pct": -38.11,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T03:02:36.546758+00:00",
+  "last_updated": "2026-09-10T03:03:56.309545+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.89,
-  "portfolio_value_usd": 294.46,
+  "last_sol_price_usd": 101.95,
+  "portfolio_value_usd": 292.69,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 02:46 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GRND at $5.27613e-08 | P&L: -13.3%",
-      "reason": "Down -13.3% with no bounce signal, held 0h but pool=$0 means zero liquidity to exit at clean price — and 'our share=866794802%' is a red flag indicating either bad fill math or thin book. Cut and free the slot."
-    },
-    {
-      "time": "2026-09-10 02:46 UTC",
-      "action": "buy",
-      "details": "[LLM] $MITTENS at $3.246e-06, spent 0.05 SOL",
-      "reason": "$MITTENS has the strongest narrative of the batch — 3.3M TikTok followers, tribute to a viral cat, dedicated @MittensOnSol_ handle. Animal tribute coins with real social followings routinely 5-10x. Viability gate passes (desc + twitter)."
-    },
     {
       "time": "2026-09-10 02:47 UTC",
       "action": "observe",
@@ -42041,40 +42046,52 @@
       "action": "buy",
       "details": "[LLM] $Nole at $4.63559e-06, spent 0.05 SOL",
       "reason": "$Nole — NoleCoin, freshly launched, name plays on the Nick Saban retirement viral moment, attention signal from @wifcashback, narrative is recognizably memeable. Fresh launch, clear narrative, buy the attention wave."
+    },
+    {
+      "time": "2026-09-10 03:03 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Nole crashed >15% in one tick | P&L: -38.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 03:03 UTC",
+      "action": "buy",
+      "details": "[LLM] $FLYBRAIN at $4.54526e-06, spent 0.05 SOL",
+      "reason": "FLYBRAIN has a quirky AI/brain narrative, a concrete X post, and is among the larger early attention launches at under $5K mcap. Buy now for the viral-attention setup, accepting extreme fresh-launch and liquidity risk."
     }
   ],
   "trade_stats": {
-    "total": 2464,
+    "total": 2465,
     "wins": 1215,
-    "losses": 1249,
+    "losses": 1250,
     "win_rate_pct": 49.3,
-    "total_pnl_sol": -1.376316,
-    "avg_pnl_pct": 29.23,
+    "total_pnl_sol": -1.395392,
+    "avg_pnl_pct": 29.2,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 87,
-    "today_realized_sol": 1.308999,
-    "today_target_pct": 327.2,
+    "today_trades": 88,
+    "today_realized_sol": 1.289923,
+    "today_target_pct": 322.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1215,
-      "loss_count": 1249,
+      "loss_count": 1250,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:02:35.204814+00:00",
+  "last_llm_brief_at": "2026-09-10T03:03:54.483437+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "DHyMCSgho2MFWB5UqTs4FNkkHjwgX7drTd587z9Xpump": {
-      "price_usd": 2.8579864553844133e-06,
+    "BCzZWz3BJA8KHBktESDYeqjGVLv2LEQFvm326vWCpump": {
+      "price_usd": 2.868749312941648e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4.95571614045,
-      "volume_h24": 25.39,
+      "liquidity_usd": 9.8182496881,
+      "volume_h24": 4698.54,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.048637905
+      "real_sol_reserves": 0.096304558
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

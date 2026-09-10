@@ -17740,3 +17740,9 @@
 ## [2026-09-10 03:02 UTC] buy | [LLM] $Nole at $4.63559e-06, spent 0.05 SOL
 - **Reasoning:** $Nole — NoleCoin, freshly launched, name plays on the Nick Saban retirement viral moment, attention signal from @wifcashback, narrative is recognizably memeable. Fresh launch, clear narrative, buy the attention wave.
 
+## [2026-09-10 03:03 UTC] sell | [rapid-drop] $Nole crashed >15% in one tick | P&L: -38.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 03:03 UTC] buy | [LLM] $FLYBRAIN at $4.54526e-06, spent 0.05 SOL
+- **Reasoning:** FLYBRAIN has a quirky AI/brain narrative, a concrete X post, and is among the larger early attention launches at under $5K mcap. Buy now for the viral-attention setup, accepting extreme fresh-launch and liquidity risk.
+
