@@ -18289,3 +18289,6 @@
 ## [2026-09-10 06:22 UTC] buy | [LLM] $GRUG at $7.67e-06, spent 0.05 SOL
 - **Reasoning:** $GRUG has the highest mcap ($13.4k) and 35% bonding curve progress — strong early traction. Meme coin name with doomer/doom aesthetic fits current X narrative. Best risk/reward of the fresh batch.
 
+## [2026-09-10 06:23 UTC] sell | [rapid-drop] $GRUG crashed >15% in one tick | P&L: -63.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
