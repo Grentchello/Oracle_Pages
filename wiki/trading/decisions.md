@@ -18925,3 +18925,6 @@
 ## [2026-09-10 11:03 UTC] buy | [LLM] $mmrich at $3.711e-07, spent 0.05 SOL
 - **Reasoning:** $mmrich — 'i want to buy a home pls make it happen' is a perfect underdog empathy meme. These humble-plea narratives pump hard on pump.fun (similar to '$jeff' style). $69 mcap is dirt cheap, 0.9min age = fresh attention. Risk: very early, but position is tiny ($5) so asymmetry favors entry.
 
+## [2026-09-10 11:04 UTC] sell | [rapid-drop] $mmrich crashed >15% in one tick | P&L: -94.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

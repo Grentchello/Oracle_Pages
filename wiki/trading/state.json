@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.983957,
+  "balance_sol": 4.986938,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2k7JuUxkKMpMwqrNGoUoDGPF5g4guhbai6C9vR5Bpump": {
-      "symbol": "mmrich",
-      "name": "makemerich",
-      "amount": 13594718.40474266,
-      "entry_price_usd": 3.711e-07,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T11:03:02.759835+00:00",
-      "entry_usd_value": 5.045000000000001,
-      "last_seen_price_usd": 3.711e-07,
-      "entry_signals": {
-        "liquidity_usd": 2.0365105086,
-        "volume_24h_usd": 2083.57,
-        "market_cap_usd": 69.10798184240815,
-        "ath_market_cap_usd": 3234.902398628713,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.020183454,
-        "description": "i want to buy home pls make it happen",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45655,19 +45631,30 @@
       "pnl_pct": 11.2,
       "exit_reason": "LLM: sell_all — $VOID is +11.2% with bonding curve still partial and pool only $2393. Not at any TP threshold, and rotation requires me to lock a small green gain for",
       "partial": false
+    },
+    {
+      "mint": "2k7JuUxkKMpMwqrNGoUoDGPF5g4guhbai6C9vR5Bpump",
+      "symbol": "mmrich",
+      "name": "makemerich",
+      "amount_sold": 13594718.40474266,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T11:03:02.759835+00:00",
+      "exit_time": "2026-09-10T11:04:06.887974+00:00",
+      "entry_price_usd": 3.711e-07,
+      "exit_price_usd": 2.210182786395796e-08,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.002981,
+      "pnl_sol": -0.047019,
+      "pnl_pct": -94.04,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T11:03:02.760110+00:00",
+  "last_updated": "2026-09-10T11:04:18.865033+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.9,
-  "portfolio_value_usd": 507.93,
+  "last_sol_price_usd": 100.79,
+  "portfolio_value_usd": 502.63,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 10:40 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PUMP at $4.20977e-06 | P&L: +5.5%",
-      "reason": "$PUMP is fresh (0.0h held), bonding curve only 10% complete so room to run, +5.5% small gain, no reason to exit a just-opened position. Watch for acceleration or first stall."
-    },
     {
       "time": "2026-09-10 10:42 UTC",
       "action": "buy",
@@ -45781,30 +45768,48 @@
       "action": "buy",
       "details": "[LLM] $mmrich at $3.711e-07, spent 0.05 SOL",
       "reason": "$mmrich — 'i want to buy a home pls make it happen' is a perfect underdog empathy meme. These humble-plea narratives pump hard on pump.fun (similar to '$jeff' style). $69 mcap is dirt cheap, 0.9min age = fresh attention. Risk: very early, but position is tiny ($5) so asymmetry favors entry."
+    },
+    {
+      "time": "2026-09-10 11:04 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $mmrich crashed >15% in one tick | P&L: -94.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2684,
+    "total": 2685,
     "wins": 1306,
-    "losses": 1378,
-    "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.76767,
-    "avg_pnl_pct": 28.65,
+    "losses": 1379,
+    "win_rate_pct": 48.6,
+    "total_pnl_sol": 0.720651,
+    "avg_pnl_pct": 28.6,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 307,
-    "today_realized_sol": 3.452985,
-    "today_target_pct": 863.2,
+    "today_trades": 308,
+    "today_realized_sol": 3.405966,
+    "today_target_pct": 851.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1306,
-      "loss_count": 1378,
+      "loss_count": 1379,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T11:03:01.032098+00:00",
+  "last_llm_brief_at": "2026-09-10T11:04:18.557891+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2k7JuUxkKMpMwqrNGoUoDGPF5g4guhbai6C9vR5Bpump": {
+      "price_usd": 2.210182786395796e-08,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.798879762,
+      "volume_h24": 3133.76,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.0178478
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
