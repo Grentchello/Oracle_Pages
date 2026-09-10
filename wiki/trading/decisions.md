@@ -20794,3 +20794,6 @@
 ## [2026-09-10 23:13 UTC] buy | [LLM] $RUFUS at $3.80246e-07, spent 0.05 SOL
 - **Reasoning:** $RUFUS: sub-$10k mcap with an active twitter post (memorable 'Rufus' name, likely a fresh narrative pump). Fits viability gate (twitter present), freshest attention on the slate, narrative is early but the twitter post is the signal. Risk: ultra-early, bond only 27% — tight stop at -25%.
 
+## [2026-09-10 23:15 UTC] sell | [FULL][LLM] $RUFUS at $3.6853e-07 | P&L: -3.1%
+- **Reasoning:** RUFUS is down 3.1% on a $90 pool where my share is 5% — I AM the liquidity, so any other seller crushes me. Narrative ('Amazon Dog') is weak with no viral catalyst, and being 5% of a micro-pool is a forced-exit setup before the bot stops me out.
+
