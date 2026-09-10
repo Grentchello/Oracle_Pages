@@ -17260,3 +17260,6 @@
 ## [2026-09-10 00:09 UTC] buy | [LLM] $MonkeyC at $4.35929e-06, spent 0.05 SOL
 - **Reasoning:** $MonkeyC has the freshest meta-narrative ('MONKEY SEE MONKEY DO' about copy-cat memecoin dynamics) with a real KOL post from @Devilantesol, $4.3k mcap = max upside, 0.2min age = pure attention launch. Risk: bond only 16% and very low mcap means high rug probability, but narrative + KOL signal is the alpha here.
 
+## [2026-09-10 00:11 UTC] sell | [FULL][LLM] $MonkeyC at $5.42878e-06 | P&L: +24.5%
+- **Reasoning:** Locking +24.5% gain. Pool is only $1168 (fragile), bonding curve not graduated, and the token has no clear narrative catalyst to sustain further upside. Better to rotate capital than hold into a likely fade.
+
