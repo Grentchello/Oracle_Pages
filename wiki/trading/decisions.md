@@ -17596,3 +17596,9 @@
 ## [2026-09-10 02:09 UTC] buy | [LLM] $RETAIL at $5.6639e-07, spent 0.05 SOL
 - **Reasoning:** $RETAIL has the cleanest narrative of the batch — 'retail' is the meta-narrative itself (trader vs. insider), 7.1k mcap is at the sweet spot, and it's already at 15% bonding with a real tweet. Strongest attention signal.
 
+## [2026-09-10 02:11 UTC] sell | [FULL][LLM] $RETAIL at $5.04273e-07 | P&L: -11.0%
+- **Reasoning:** Down -11% on $RETAIL with only $63 pool liquidity and 7% of supply concentrated in our position — that's a rug-prone setup with no bounce signal yet. Exit now before it tests the -25% hard stop; capital rotation beats bag-holding a thin-liquidity name.
+
+## [2026-09-10 02:11 UTC] buy | [LLM] $Sam at $3.51269e-06, spent 0.05 SOL
+- **Reasoning:** $Sam ('Google Sam') has a recognizable narrative hook tied to Google's AI assistant — viral potential is real, and it's already climbing from $3.5k mcap in <1 min. Bonding curve at 9% means early entry. 0.05 SOL scalp for quick 30-100% pop if narrative catches.
+
