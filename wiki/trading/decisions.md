@@ -17815,3 +17815,9 @@
 ## [2026-09-10 03:31 UTC] buy | [LLM] $67coin at $1.192e-05, spent 0.05 SOL
 - **Reasoning:** $67coin has the highest mcap ($20k) of fresh launches and an active twitter account (ch0senbygod5). Passes viability gate via twitter. Narrative is thin but attention is real; copying the '67' meme format. Position sized 0.05 SOL per v7 rules.
 
+## [2026-09-10 03:32 UTC] sell | [rapid-drop] $67coin crashed >15% in one tick | P&L: -74.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 03:33 UTC] buy | [LLM] $$UZI at $5.73269e-07, spent 0.05 SOL
+- **Reasoning:** $$UZI has the strongest narrative of the batch — Lil Uzi Vert throwback meme coin with a clear story hook ('Before the fame. Before the hits'). Highest mcap ($5,631) suggests early traction. Cat-themed meta ($Cutecat, $KittenHood) is crowded and copy-pasted; $UZI has differentiated celebrity/music attention. Risky at <1min old but that's where the alpha is.
+
