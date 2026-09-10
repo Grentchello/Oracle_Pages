@@ -18571,3 +18571,9 @@
 ## [2026-09-10 08:17 UTC] sell | [PARTIAL][LLM] $shit at $4.36542e-06 | P&L: +44.8%
 - **Reasoning:** +44.8% gain in 0h on bonding curve with 1% pool share — extremely illiquid, easy to give back gains if it dumps. Take half off to lock profit, let other half ride if migration pumps. Frees slot for new entries.
 
+## [2026-09-10 08:18 UTC] sell | [v8.7 TP +50% (full)] $shit at $4.75448e-06 | P&L: +57.7%
+- **Reasoning:** Auto take-profit at +57.7%
+
+## [2026-09-10 08:18 UTC] buy | [LLM] $Zchan at $5.019e-06, spent 0.05 SOL
+- **Reasoning:** $Zchan fuses Zcash brand with anime 'chan' meme template — this combo (NEIRO/GIGACHAD-style) has track record of pumping 10-50x in first hours. Sub-$5k mcap, 0.9min old = pure early attention play with real narrative hook.
+
