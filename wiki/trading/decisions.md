@@ -19123,3 +19123,6 @@
 ## [2026-09-10 12:35 UTC] buy | [LLM] $$MCAT at $7.0993e-08, spent 0.05 SOL
 - **Reasoning:** $$MCAT — Cat x META stock narrative is timely (META has been a hot stock), desc is solid and on-narrative. Mcap $4.6k with the cleanest story in this batch. Viral cat-meta crossover has cross-platform appeal. Risk: very early, bond only 4%, but mcap low enough to 5-10x if narrative catches.
 
+## [2026-09-10 12:36 UTC] sell | [PARTIAL][LLM] $$MCAT at $7.15903e-08 | P&L: +0.8%
+- **Reasoning:** MCAT is +0.8% at 0h held, freshly entered. Our 152% share is concerning but it's been live for 0 minutes — give it a tick to develop. Stale exit threshold is 30min.
+
