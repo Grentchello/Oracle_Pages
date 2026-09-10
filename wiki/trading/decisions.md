@@ -18592,3 +18592,6 @@
 ## [2026-09-10 08:27 UTC] sell | [FULL][LLM] $CROWL at $9.90586e-06 | P&L: +8.7%
 - **Reasoning:** $CROWL just opened this tick at +8.7% — not yet at the +20% profit-taking threshold and not stale (>30min flat). Bonding curve still active with $2,645 pool. No reason to bail on a fresh green position; if it stalls for 30min the bot auto-exits and frees the slot.
 
+## [2026-09-10 08:29 UTC] buy | [LLM] $MEMEFATTY at $9.42693e-05, spent 0.05 SOL
+- **Reasoning:** $MEMEFATTY has the strongest narrative: explicit underdog story ('help him to 100M'), relatable image, low $3.6k mcap with viral potential. Pure attention-market bait.
+
