@@ -18295,3 +18295,6 @@
 ## [2026-09-10 06:25 UTC] buy | [LLM] $MARVIN at $2.067e-05, spent 0.05 SOL
 - **Reasoning:** $MARVIN — Looney Tunes brand is universally recognized (strongest narrative on the board), only 1.3min old, mcap $23k is pre-pump territory, and bond is 39% (real demand filling). The 'Exposure You Can Feel' / meme-coin-meta candidates are weaker: $TIGHTS at $287 mcap fails the 5x-liquidity gate, $WSM is a recycled dead brand, $TSIM explicitly disclaims itself, $mmrich is a textbook scam-pitch. Marvin has the attention + IP legs.
 
+## [2026-09-10 06:26 UTC] sell | [FULL][LLM] $MARVIN at $2.24245e-05 | P&L: +8.5%
+- **Reasoning:** +8.5% in 0.0h on bonding curve is early momentum. No reason to exit yet — let it develop. Will revisit next tick.
+

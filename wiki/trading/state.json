@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.30018,
+  "balance_sol": 4.354392,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "33NiYQH4Ao8t3e6ZREYMvPZbPUiaiijCknsi7tG9pump": {
-      "symbol": "MARVIN",
-      "name": "Marvin the Martian",
-      "amount": 245452.3463957426,
-      "entry_price_usd": 2.067e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T06:25:13.119114+00:00",
-      "entry_usd_value": 5.0735,
-      "last_seen_price_usd": 2.067e-05,
-      "entry_signals": {
-        "liquidity_usd": 5575.619742751391,
-        "volume_24h_usd": 6510.88,
-        "market_cap_usd": 23021.67915550271,
-        "ath_market_cap_usd": 23883.889272775206,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 54.948455137,
-        "description": "",
-        "twitter": "https://x.com/heishimmy/status/2097931266415091901?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -43649,19 +43625,30 @@
       "pnl_pct": -63.0,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "33NiYQH4Ao8t3e6ZREYMvPZbPUiaiijCknsi7tG9pump",
+      "symbol": "MARVIN",
+      "name": "Marvin the Martian",
+      "amount_sold": 245452.3463957426,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T06:25:13.119114+00:00",
+      "exit_time": "2026-09-10T06:26:31.730763+00:00",
+      "entry_price_usd": 2.067e-05,
+      "exit_price_usd": 2.2424482037880844e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.054212,
+      "pnl_sol": 0.004212,
+      "pnl_pct": 8.49,
+      "exit_reason": "LLM: sell_all — +8.5% in 0.0h on bonding curve is early momentum. No reason to exit yet — let it develop. Will revisit next tick.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T06:25:13.119422+00:00",
+  "last_updated": "2026-09-10T06:26:31.731451+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.47,
-  "portfolio_value_usd": 441.41,
+  "last_sol_price_usd": 101.53,
+  "portfolio_value_usd": 442.1,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 06:03 UTC",
-      "action": "buy",
-      "details": "[LLM] $ANSEM at $4.7759e-06, spent 0.05 SOL",
-      "reason": "$ANSEM - Name-dropping a known crypto influencer (@mystiquexbt posting) + Matt Furie creator angle = double attention hook. Sub-$5k mcap with Twitter signal. Fragility check: 'ANSEM' as a ticker is borderline celebrity-adjacent but not on the explicit blocklist. High risk, high attention. Size: 0.1 SOL."
-    },
     {
       "time": "2026-09-10 06:04 UTC",
       "action": "sell",
@@ -43775,30 +43762,48 @@
       "action": "buy",
       "details": "[LLM] $MARVIN at $2.067e-05, spent 0.05 SOL",
       "reason": "$MARVIN — Looney Tunes brand is universally recognized (strongest narrative on the board), only 1.3min old, mcap $23k is pre-pump territory, and bond is 39% (real demand filling). The 'Exposure You Can Feel' / meme-coin-meta candidates are weaker: $TIGHTS at $287 mcap fails the 5x-liquidity gate, $WSM is a recycled dead brand, $TSIM explicitly disclaims itself, $mmrich is a textbook scam-pitch. Marvin has the attention + IP legs."
+    },
+    {
+      "time": "2026-09-10 06:26 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MARVIN at $2.24245e-05 | P&L: +8.5%",
+      "reason": "+8.5% in 0.0h on bonding curve is early momentum. No reason to exit yet — let it develop. Will revisit next tick."
     }
   ],
   "trade_stats": {
-    "total": 2566,
-    "wins": 1254,
+    "total": 2567,
+    "wins": 1255,
     "losses": 1312,
     "win_rate_pct": 48.9,
-    "total_pnl_sol": 0.083871,
-    "avg_pnl_pct": 29.29,
+    "total_pnl_sol": 0.088083,
+    "avg_pnl_pct": 29.28,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 189,
-    "today_realized_sol": 2.769186,
-    "today_target_pct": 692.3,
+    "today_trades": 190,
+    "today_realized_sol": 2.773398,
+    "today_target_pct": 693.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1254,
+      "win_count": 1255,
       "loss_count": 1312,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T06:25:11.648503+00:00",
+  "last_llm_brief_at": "2026-09-10T06:26:31.730119+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "33NiYQH4Ao8t3e6ZREYMvPZbPUiaiijCknsi7tG9pump": {
+      "price_usd": 2.2424482037880844e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 5514.98951447873,
+      "volume_h24": 10928.02,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 54.318817241
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
