@@ -20212,3 +20212,9 @@
 ## [2026-09-10 19:27 UTC] buy | [LLM] $GIGAORC at $9.66385e-06, spent 0.05 SOL
 - **Reasoning:** $GIGAORC has the highest mcap ($9.7k) and most complete bond (32%) of the fresh launches, with a Twitter signal — early but showing real traction. Orc narrative has meme potential. Risky but attention-launched.
 
+## [2026-09-10 19:28 UTC] sell | [rapid-drop] $GIGAORC crashed >15% in one tick | P&L: -71.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:28 UTC] buy | [LLM] $TURTLE at $5.53973e-06, spent 0.05 SOL
+- **Reasoning:** $TURTLE — 'It's Always Sunny In Space' fuses two viral themes (cult sitcom + space meta-narrative), has twitter attached, $5.5k mcap at 0.1min age = maximum attention surface, minimum price. Prime viral-attention setup for a new launch.
+
