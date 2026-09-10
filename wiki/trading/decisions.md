@@ -17590,3 +17590,9 @@
 ## [2026-09-10 02:08 UTC] buy | [LLM] $CONSOOM at $2.96298e-06, spent 0.05 SOL
 - **Reasoning:** $CONSOOM has the only real meme narrative in this batch — wojak consoomer culture is established meme literacy with a clear audience. Wojak/funko-pop/soy-pointing is instantly recognizable, description is vivid, and it has twitter backing. Micro-cap entry with narrative alpha.
 
+## [2026-09-10 02:09 UTC] sell | [FULL][LLM] $CONSOOM at $2.82509e-06 | P&L: -4.7%
+- **Reasoning:** $CONSOOM down -4.7% in 0.0h on bonding curve with pool=$0 and our share flagged huge. No narrative momentum, illiquid, and the auto-rules will kill it at -25% or 30min anyway. Free the slot now for a fresh launch with attention.
+
+## [2026-09-10 02:09 UTC] buy | [LLM] $RETAIL at $5.6639e-07, spent 0.05 SOL
+- **Reasoning:** $RETAIL has the cleanest narrative of the batch — 'retail' is the meta-narrative itself (trader vs. insider), 7.1k mcap is at the sweet spot, and it's already at 15% bonding with a real tweet. Strongest attention signal.
+
