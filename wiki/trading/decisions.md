@@ -17317,3 +17317,6 @@
 ## [2026-09-10 00:32 UTC] buy | [LLM] $SPY at $6.84338e-08, spent 0.05 SOL
 - **Reasoning:** Spycat has immediate X attention, the strongest social signal among the fresh microcaps, and a 5.2k mcap entry before confirmation. The main risk is an extremely early, low-liquidity launch, so use the full 0.1 SOL test position.
 
+## [2026-09-10 00:33 UTC] sell | [PARTIAL][LLM] $SPY at $8.04889e-08 | P&L: +17.6%
+- **Reasoning:** +17.6% gain on a $13 pool where we hold 44% — we WILL crash the price on exit regardless of action. Lock the gain now before the bonding curve reverses. Capital rotation beats bag-holding a thin liquidity position.
+

@@ -1,17 +1,17 @@
 {
-  "balance_sol": 1.518922,
+  "balance_sol": 1.548346,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "BhEdveYykADnP9hCwVk1MKgFtZwf6iuUdVQZADuFpump": {
       "symbol": "SPY",
       "name": "Spycat",
-      "amount": 73932790.01883799,
+      "amount": 36966395.009418994,
       "entry_price_usd": 6.843377611897029e-08,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T00:32:06.544607+00:00",
       "entry_usd_value": 5.0595,
-      "last_seen_price_usd": 6.843377611897029e-08,
+      "last_seen_price_usd": 8.048887394320583e-08,
       "entry_signals": {
         "liquidity_usd": 5.76974158029,
         "volume_24h_usd": 0.0,
@@ -40657,19 +40657,30 @@
       "pnl_pct": -41.04,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "BhEdveYykADnP9hCwVk1MKgFtZwf6iuUdVQZADuFpump",
+      "symbol": "SPY",
+      "name": "Spycat",
+      "amount_sold": 36966395.009418994,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T00:32:06.544607+00:00",
+      "exit_time": "2026-09-10T00:33:48.699023+00:00",
+      "entry_price_usd": 6.843377611897029e-08,
+      "exit_price_usd": 8.048887394320583e-08,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.029424,
+      "pnl_sol": 0.004424,
+      "pnl_pct": 17.62,
+      "exit_reason": "LLM: sell_all — +17.6% gain on a $13 pool where we hold 44% — we WILL crash the price on exit regardless of action. Lock the gain now before the bonding curve reverse",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T00:32:06.544889+00:00",
+  "last_updated": "2026-09-10T00:33:48.699244+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.19,
-  "portfolio_value_usd": 158.76,
+  "last_sol_price_usd": 101.12,
+  "portfolio_value_usd": 159.1,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 00:09 UTC",
-      "action": "buy",
-      "details": "[LLM] $MonkeyC at $4.35929e-06, spent 0.05 SOL",
-      "reason": "$MonkeyC has the freshest meta-narrative ('MONKEY SEE MONKEY DO' about copy-cat memecoin dynamics) with a real KOL post from @Devilantesol, $4.3k mcap = max upside, 0.2min age = pure attention launch. Risk: bond only 16% and very low mcap means high rug probability, but narrative + KOL signal is the alpha here."
-    },
     {
       "time": "2026-09-10 00:11 UTC",
       "action": "sell",
@@ -40783,30 +40794,48 @@
       "action": "buy",
       "details": "[LLM] $SPY at $6.84338e-08, spent 0.05 SOL",
       "reason": "Spycat has immediate X attention, the strongest social signal among the fresh microcaps, and a 5.2k mcap entry before confirmation. The main risk is an extremely early, low-liquidity launch, so use the full 0.1 SOL test position."
+    },
+    {
+      "time": "2026-09-10 00:33 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $SPY at $8.04889e-08 | P&L: +17.6%",
+      "reason": "+17.6% gain on a $13 pool where we hold 44% — we WILL crash the price on exit regardless of action. Lock the gain now before the bonding curve reverses. Capital rotation beats bag-holding a thin liquidity position."
     }
   ],
   "trade_stats": {
-    "total": 2390,
-    "wins": 1197,
+    "total": 2391,
+    "wins": 1198,
     "losses": 1193,
     "win_rate_pct": 50.1,
-    "total_pnl_sol": -2.697388,
+    "total_pnl_sol": -2.692964,
     "avg_pnl_pct": 29.02,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 13,
-    "today_realized_sol": -0.012073,
-    "today_target_pct": -3.0,
+    "today_trades": 14,
+    "today_realized_sol": -0.007649,
+    "today_target_pct": -1.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1197,
+      "win_count": 1198,
       "loss_count": 1193,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T00:32:05.192225+00:00",
+  "last_llm_brief_at": "2026-09-10T00:33:48.698908+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BhEdveYykADnP9hCwVk1MKgFtZwf6iuUdVQZADuFpump": {
+      "price_usd": 8.048887394320583e-08,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 13.415195121920002,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.132666091
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
