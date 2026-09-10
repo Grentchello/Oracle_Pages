@@ -19810,3 +19810,6 @@
 ## [2026-09-10 17:14 UTC] buy | [LLM] $ily at $8.809e-06, spent 0.05 SOL
 - **Reasoning:** $ily (Infinitidigits tweet) has the strongest attention signal of the batch — already at 33% bonding curve in <1min, mcap $10.5k, real X post from a known memecoin account. Viability gate unclear (no description) but twitter signal is strong. Flagging for entry contingent on slot being free and GMGN fragility pass.
 
+## [2026-09-10 17:15 UTC] sell | [PARTIAL][LLM] $ily at $1.18396e-05 | P&L: +34.4%
+- **Reasoning:** $ily is +34.4% and the +30% TP at 25% has already been triggered — bot should have auto-exited; since it's still on the books and I'm given discretion, I lock half the gain now and trail the rest. Bonding-curve token at 0% pool share with only $3,173 pool is fragile; giving back gains is the bigger risk than missing further upside. Trail the remainder for one more push, but if it stalls, exit.
+
