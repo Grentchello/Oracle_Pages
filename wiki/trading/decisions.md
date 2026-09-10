@@ -18583,3 +18583,6 @@
 ## [2026-09-10 08:21 UTC] buy | [LLM] $Xena at $6.30736e-06, spent 0.05 SOL
 - **Reasoning:** $Xena 'Justice for Xena' has a clear victim/justice narrative that historically pumps on X (see $SHEEP, $HACHI patterns). Fresh (0.4min), X post already live, $6.3k mcap with room to run. Viability gate passes (twitter present). Risk: ultra-young, may rug — but GMGN fragility gate already cleared it.
 
+## [2026-09-10 08:22 UTC] sell | [FULL][LLM] $Xena at $5.66511e-06 | P&L: -10.2%
+- **Reasoning:** Pool is only $1.25k liquidity (barely above the 5x min), already -10% with no bounce signal at 0% bonding progress. Thin liquidity means a -20% drop can happen instantly on a small sell. Cutting now preserves capital rather than waiting for the -30% hard stop.
+

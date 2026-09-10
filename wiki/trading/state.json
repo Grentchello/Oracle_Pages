@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.561567,
+  "balance_sol": 4.6064,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "23R15DctwVzeRsu7k1ZnSJfQevcbnQpyFE5nDL6Npump": {
-      "symbol": "Xena",
-      "name": "Justice for Xena",
-      "amount": 801444.507493678,
-      "entry_price_usd": 6.307361211830221e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T08:21:04.502336+00:00",
-      "entry_usd_value": 5.055,
-      "last_seen_price_usd": 6.307361211830221e-06,
-      "entry_signals": {
-        "liquidity_usd": 2138.6651484417,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6309.498694505543,
-        "ath_market_cap_usd": 7452.412281705922,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 21.153957947,
-        "description": "",
-        "twitter": "https://x.com/Jamesbonderr67/status/2097963359966527837",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44601,19 +44577,30 @@
       "pnl_pct": -39.93,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "23R15DctwVzeRsu7k1ZnSJfQevcbnQpyFE5nDL6Npump",
+      "symbol": "Xena",
+      "name": "Justice for Xena",
+      "amount_sold": 801444.507493678,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T08:21:04.502336+00:00",
+      "exit_time": "2026-09-10T08:22:44.554104+00:00",
+      "entry_price_usd": 6.307361211830221e-06,
+      "exit_price_usd": 5.665105286063589e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.044833,
+      "pnl_sol": -0.005167,
+      "pnl_pct": -10.18,
+      "exit_reason": "LLM: sell_all — Pool is only $1.25k liquidity (barely above the 5x min), already -10% with no bounce signal at 0% bonding progress. Thin liquidity means a -20% drop c",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T08:21:04.502628+00:00",
+  "last_updated": "2026-09-10T08:22:44.555182+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.1,
-  "portfolio_value_usd": 466.23,
+  "last_sol_price_usd": 101.27,
+  "portfolio_value_usd": 466.49,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 07:54 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GD at $2.99351e-06 | P&L: -1.3%",
-      "reason": "$GD is -1.3% on a $85 bonding-curve pool with 6% of pool. Fragile, illiquid, no bounce signal. Free the slot for a fresh launch with stronger narrative."
-    },
     {
       "time": "2026-09-10 07:55 UTC",
       "action": "buy",
@@ -44727,30 +44714,48 @@
       "action": "buy",
       "details": "[LLM] $Xena at $6.30736e-06, spent 0.05 SOL",
       "reason": "$Xena 'Justice for Xena' has a clear victim/justice narrative that historically pumps on X (see $SHEEP, $HACHI patterns). Fresh (0.4min), X post already live, $6.3k mcap with room to run. Viability gate passes (twitter present). Risk: ultra-young, may rug — but GMGN fragility gate already cleared it."
+    },
+    {
+      "time": "2026-09-10 08:22 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Xena at $5.66511e-06 | P&L: -10.2%",
+      "reason": "Pool is only $1.25k liquidity (barely above the 5x min), already -10% with no bounce signal at 0% bonding progress. Thin liquidity means a -20% drop can happen instantly on a small sell. Cutting now preserves capital rather than waiting for the -30% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 2622,
+    "total": 2623,
     "wins": 1278,
-    "losses": 1344,
+    "losses": 1345,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.345278,
-    "avg_pnl_pct": 28.93,
+    "total_pnl_sol": 0.340111,
+    "avg_pnl_pct": 28.91,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 245,
-    "today_realized_sol": 3.030593,
-    "today_target_pct": 757.6,
+    "today_trades": 246,
+    "today_realized_sol": 3.025426,
+    "today_target_pct": 756.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1278,
-      "loss_count": 1344,
+      "loss_count": 1345,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T08:21:03.121365+00:00",
+  "last_llm_brief_at": "2026-09-10T08:22:44.554030+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "23R15DctwVzeRsu7k1ZnSJfQevcbnQpyFE5nDL6Npump": {
+      "price_usd": 5.665105286063589e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1259.29116863069,
+      "volume_h24": 10769.3,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 12.434987347
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
