@@ -19858,3 +19858,6 @@
 ## [2026-09-10 17:32 UTC] sell | [FULL][LLM] $gnome at $3.19018e-06 | P&L: +0.5%
 - **Reasoning:** Just opened at +0.5% on bonding curve, 0.0h held — no signal yet. Free option on attention; let the bot's +30%/-30% rails do the work.
 
+## [2026-09-10 17:34 UTC] buy | [LLM] $COK at $2.88265e-06, spent 0.05 SOL
+- **Reasoning:** $COK (Children of Khan) has a website (childrenofkhan.com) and active twitter @ChildOfKhan_ — actual project narrative with Chinese meme energy ('very Chinese time'), mcap only $2.8k. Best narrative-to-mcap ratio in the slate.
+
