@@ -20089,3 +20089,9 @@
 ## [2026-09-10 18:53 UTC] buy | [LLM] $KDAY at $1.514e-06, spent 0.05 SOL
 - **Reasoning:** $KDAY — KirkDay (10.09) is a date-tied memorial narrative around the Charlie Kirk assassination that generated massive cultural attention. Poetic description, dedicated twitter @KirkDay0910, <1min old, $1.7k mcap. Exactly the kind of viral-attention play that 5-10x's on narrative momentum. Risk: political fragility could trigger ME2F rejection — if so, fall back to $BLUECHIP. Sizing 0.05 SOL per v7.
 
+## [2026-09-10 18:54 UTC] sell | [rapid-drop] $KDAY crashed >15% in one tick | P&L: -59.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 18:54 UTC] buy | [LLM] $RESE at $2.83626e-06, spent 0.05 SOL
+- **Reasoning:** $RESE has the strongest narrative here — ties directly to a breaking crypto news event (quantum attack cost on Bitcoin). On-chain reactive memecoins with real X attention are the highest-conviction viral pattern. Fresh 0.1min age, $2.8k mcap with room to run.
+
