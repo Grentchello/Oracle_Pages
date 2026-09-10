@@ -20041,3 +20041,9 @@
 ## [2026-09-10 18:39 UTC] buy | [LLM] $ZENCAT at $7.10286e-06, spent 0.05 SOL
 - **Reasoning:** $ZENCAT — cat meme narrative (evergreen), tweet from @Pumpfun (official attention channel), 0.3min old at $7k mcap with description. Strongest attention signal of the batch; cat memes have viral history. Risk: sub-$10k mcap, bonding curve only.
 
+## [2026-09-10 18:40 UTC] sell | [rapid-drop] $ZENCAT crashed >15% in one tick | P&L: -26.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 18:40 UTC] buy | [LLM] $casino at $2.781e-06, spent 0.05 SOL
+- **Reasoning:** $casino has the strongest narrative of the batch — 'no crying in the casino' is a recognizable cultural meme with viral potential, backed by a live X post from @meechie. Highest mcap ($4.2k) and most bonded (16%) shows organic demand. Risky as a sub-1min launch but that's where the alpha is.
+
