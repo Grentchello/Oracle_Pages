@@ -19108,3 +19108,9 @@
 ## [2026-09-10 12:30 UTC] buy | [LLM] $VOID at $7.50256e-06, spent 0.05 SOL
 - **Reasoning:** $VOID has the clearest attention mechanic in this batch — '60% airdrop to top 15 holders at bonding' creates forced buying pressure as snipers compete for the airdrop allocation, which is exactly the kind of viral-loop narrative that pumps on Pump Fun. Has twitter (@CryptoGainsDev), valid description, sub-$10k mcap with real upside room. Risk: bond only 28% so liquidity is thin and the airdrop-claim mechanic could dump fast once claimed — but with 0.05 SOL size and -25% hard stop, the risk is bounded. Skipping $ELONLAPT/$MBAPPE/$Tiktok (fragility gate — celebrity/corporate IP), $RST $53M (likely honeypot), and the rest (viability gate failures: no desc, no narrative, or explicit-content rug-bait).
 
+## [2026-09-10 12:31 UTC] sell | [rapid-drop] $VOID crashed >15% in one tick | P&L: -61.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 12:32 UTC] buy | [LLM] $CHEESEBURGER at $5.29294e-06, spent 0.05 SOL
+- **Reasoning:** Food meme narrative (CHEESEBURGER), has twitter signal, bond at 21% (highest engagement of the batch). Simple universal name has viral potential. Risk: ultra-fresh (0.4min), need to monitor for immediate dump.
+
