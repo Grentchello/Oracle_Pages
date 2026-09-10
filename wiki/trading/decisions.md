@@ -18112,3 +18112,9 @@
 ## [2026-09-10 05:15 UTC] buy | [LLM] $Apollo at $4.973e-06, spent 0.05 SOL
 - **Reasoning:** $Apollo 'The SpaceX Dog' has the strongest meme narrative here — SpaceX + dog is an attention magnet. Fresh twitter link (LoreDevor), mcap $5.7k (room for 10x), age 0.7min means I'm early. Viability gate passes (twitter present). Risk: ultra-low mcap means illiquid exits; will watch for first +20% to take partial.
 
+## [2026-09-10 05:16 UTC] sell | [rapid-drop] $Apollo crashed >15% in one tick | P&L: -29.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 05:17 UTC] buy | [LLM] $COURSE at $3.94523e-09, spent 0.05 SOL
+- **Reasoning:** $COURSE has the highest mcap ($4.9k) and a real X handle (@course_sol) of the fresh launches — 'Course Seller' is a clear memeable narrative (degree-scam culture) with low float and sub-1min age, classic viral meme setup.
+
