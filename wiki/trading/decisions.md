@@ -20617,3 +20617,9 @@
 ## [2026-09-10 22:13 UTC] buy | [LLM] $Nvidia at $1.23978e-06, spent 0.05 SOL
 - **Reasoning:** $Nvidia — AI/Nvidia narrative is the strongest attention play in the batch. 27k mcap is still early, has twitter backing, and Nvidia is a globally recognized brand with viral meme potential. Passes viability gate (twitter + liquidity).
 
+## [2026-09-10 22:14 UTC] sell | [rapid-drop] $Nvidia crashed >15% in one tick | P&L: -20.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 22:14 UTC] buy | [LLM] $bridgoor at $7.03473e-06, spent 0.05 SOL
+- **Reasoning:** $bridgoor is the freshest launch (~0.6min) with an attention-grabbing 'bridgoor' meme name and active X chatter (devioussol). Low mcap $7k with viral narrative potential fits the attention-market thesis. Bonding only 27% — entering early before graduation momentum.
+

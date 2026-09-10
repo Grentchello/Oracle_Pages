@@ -1,27 +1,27 @@
 {
-  "balance_sol": 9.056404,
+  "balance_sol": 9.046537,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "8csyWk4JgpXACVKA3GzsQKksGahwme4MSmcNeFtCpump": {
-      "symbol": "Nvidia",
-      "name": "Nvidia",
-      "amount": 4044279.5578750703,
-      "entry_price_usd": 1.239775818720711e-06,
+    "662vcPcZh8q8y8q56GfGAoSQu2Vo4yP2zv1yPLVdpump": {
+      "symbol": "bridgoor",
+      "name": "the bridgoor",
+      "amount": 709763.8284720742,
+      "entry_price_usd": 7.034734371781882e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T22:13:41.436484+00:00",
-      "entry_usd_value": 5.014,
-      "last_seen_price_usd": 1.239775818720711e-06,
+      "entry_time": "2026-09-10T22:14:58.954022+00:00",
+      "entry_usd_value": 4.993,
+      "last_seen_price_usd": 7.034734371781882e-06,
       "entry_signals": {
-        "liquidity_usd": 234.50661552512,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 27107.790364299683,
-        "ath_market_cap_usd": 27697.321408341064,
+        "liquidity_usd": 2047.9683301923,
+        "volume_24h_usd": null,
+        "market_cap_usd": 7034.933602496843,
+        "ath_market_cap_usd": 7715.3546640456525,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 2.338518304,
+        "real_sol_reserves": 20.508395055,
         "description": "",
-        "twitter": "https://x.com/bagwalkbw/status/2098167397228138844",
+        "twitter": "https://x.com/devioussol/status/2098173161321668894",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -50755,25 +50755,30 @@
       "pnl_pct": 9.14,
       "exit_reason": "LLM: sell_all — +$9.1% on a brand-new bonding-curve position (0.0h held, $190 pool). Just under the +10% stale-warning line — one more tick to see if it pushes; if fl",
       "partial": false
+    },
+    {
+      "mint": "8csyWk4JgpXACVKA3GzsQKksGahwme4MSmcNeFtCpump",
+      "symbol": "Nvidia",
+      "name": "Nvidia",
+      "amount_sold": 4044279.5578750703,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T22:13:41.436484+00:00",
+      "exit_time": "2026-09-10T22:14:45.292285+00:00",
+      "entry_price_usd": 1.239775818720711e-06,
+      "exit_price_usd": 9.90943574555744e-07,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.040133,
+      "pnl_sol": -0.009867,
+      "pnl_pct": -20.07,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T22:13:41.436775+00:00",
+  "last_updated": "2026-09-10T22:14:58.954325+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.28,
-  "portfolio_value_usd": 913.19,
+  "last_sol_price_usd": 99.86,
+  "portfolio_value_usd": 908.38,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 21:45 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SOLANAFROG at $7.67535e-06 | P&L: +0.0%",
-      "reason": "Position is flat at 0.0% with no momentum — bonding curve liquidity is only $1972, our share is 0%, and the narrative (frog) is generic. Fresh slate means I should rotate into stronger attention signals rather than babysit a dead entry."
-    },
-    {
-      "time": "2026-09-10 21:49 UTC",
-      "action": "buy",
-      "details": "[LLM] $EXTINCT at $2.81674e-06, spent 0.05 SOL",
-      "reason": "$EXTINCT — Scott Melker (Wolf of All Streets, ~1M followers crypto KOL) posted about it within seconds of launch. Verified-influencer attention on a $2.8k mcap is exactly the pre-pump signal we want. Bond at 0% = ultra-fresh, asymmetric upside if it catches fire. Risk: Melker could be shilling for fee, but the timing is too clean to ignore."
-    },
     {
       "time": "2026-09-10 21:50 UTC",
       "action": "sell",
@@ -50881,30 +50886,54 @@
       "action": "buy",
       "details": "[LLM] $Nvidia at $1.23978e-06, spent 0.05 SOL",
       "reason": "$Nvidia — AI/Nvidia narrative is the strongest attention play in the batch. 27k mcap is still early, has twitter backing, and Nvidia is a globally recognized brand with viral meme potential. Passes viability gate (twitter + liquidity)."
+    },
+    {
+      "time": "2026-09-10 22:14 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Nvidia crashed >15% in one tick | P&L: -20.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 22:14 UTC",
+      "action": "buy",
+      "details": "[LLM] $bridgoor at $7.03473e-06, spent 0.05 SOL",
+      "reason": "$bridgoor is the freshest launch (~0.6min) with an attention-grabbing 'bridgoor' meme name and active X chatter (devioussol). Low mcap $7k with viral narrative potential fits the attention-market thesis. Bonding only 27% — entering early before graduation momentum."
     }
   ],
   "trade_stats": {
-    "total": 2984,
+    "total": 2985,
     "wins": 1400,
-    "losses": 1584,
+    "losses": 1585,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 4.840215,
-    "avg_pnl_pct": 28.61,
+    "total_pnl_sol": 4.830348,
+    "avg_pnl_pct": 28.59,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 607,
-    "today_realized_sol": 7.52553,
-    "today_target_pct": 1881.4,
+    "today_trades": 608,
+    "today_realized_sol": 7.515663,
+    "today_target_pct": 1878.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1400,
-      "loss_count": 1584,
+      "loss_count": 1585,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T22:13:40.071349+00:00",
+  "last_llm_brief_at": "2026-09-10T22:14:57.601160+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8csyWk4JgpXACVKA3GzsQKksGahwme4MSmcNeFtCpump": {
+      "price_usd": 9.90943574555744e-07,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 259.41515401784,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.597788444
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
