@@ -19804,3 +19804,9 @@
 ## [2026-09-10 17:12 UTC] buy | [LLM] $CFENT at $3.05528e-06, spent 0.05 SOL
 - **Reasoning:** Only candidate passing viability gate (desc 51 chars + twitter). Carfentanil drug-meme has viral shock-value attention from @creepydotorg; edge of attention market. 0.05 SOL = $5 risk if it rugs; -25% hard cap means max loss ~$1.25. Will exit fast if no pump in 15min.
 
+## [2026-09-10 17:14 UTC] sell | [FULL][LLM] $CFENT at $3.04427e-06 | P&L: -0.4%
+- **Reasoning:** Flat at -0.4% after just entering, pool only $138 with our 4% share dominating liquidity — high slippage risk on any move. Freeing the slot to rotate into fresher narrative-driven launches with active X attention ($ily pumping at 33% bond, $NANCY, $GARAGE).
+
+## [2026-09-10 17:14 UTC] buy | [LLM] $ily at $8.809e-06, spent 0.05 SOL
+- **Reasoning:** $ily (Infinitidigits tweet) has the strongest attention signal of the batch — already at 33% bonding curve in <1min, mcap $10.5k, real X post from a known memecoin account. Viability gate unclear (no description) but twitter signal is strong. Flagging for entry contingent on slot being free and GMGN fragility pass.
+
