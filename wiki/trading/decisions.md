@@ -20398,3 +20398,9 @@
 ## [2026-09-10 20:30 UTC] buy | [LLM] $$AURA at $5.94419e-06, spent 0.05 SOL
 - **Reasoning:** $$AURA has a coherent meta-narrative (aura meme culture is trending on X/TikTok), real description >50 chars passing viability gate, and low mcap ($5.9k) with first-mover potential on the aura concept. Risk: bond only 6%, very early, may not pass GMGN fragility check.
 
+## [2026-09-10 20:31 UTC] sell | [FULL][LLM] $$AURA at $8.76018e-06 | P&L: +47.4%
+- **Reasoning:** $AURA is up +47.4%, already past the +25% TP threshold where bot auto-triggers. Locking in the gain — memecoins at 0.0h hold time give back gains fast, and the 7331256993% share on bonding curve ($0 pool) means any meaningful exit will crash price. Take the profit now.
+
+## [2026-09-10 20:31 UTC] buy | [LLM] $OPEC at $4.07849e-06, spent 0.05 SOL
+- **Reasoning:** $OPEC has a clear parody narrative ('Oil Paid Every Cycle - hold the coin, receive the crude') with active X account @OPECrobinhood. Brand-recognition ticker $OPEC rides Trump-era oil attention meme. 0.1min age = fresh launch on bonding curve, attention-launched via Twitter.
+

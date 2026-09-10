@@ -1,27 +1,27 @@
 {
-  "balance_sol": 5.967193,
+  "balance_sol": 5.990506,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "HpxuG5wSnvHjkyNa5bKd2BpUDubvbYE37PiSWJswpump": {
-      "symbol": "$AURA",
-      "name": "AURACOIN",
-      "amount": 840231.8458386003,
-      "entry_price_usd": 5.944192694833173e-06,
+    "6XSGwjXjoT5NgcFLCBuGrZsDMspKNbh7Yra8v2KEpump": {
+      "symbol": "OPEC",
+      "name": "Oil Paid Every Cycle",
+      "amount": 1230848.405601783,
+      "entry_price_usd": 4.078487632719998e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T20:30:09.515978+00:00",
-      "entry_usd_value": 4.9945,
-      "last_seen_price_usd": 5.944192694833173e-06,
+      "entry_time": "2026-09-10T20:31:26.083775+00:00",
+      "entry_usd_value": 5.0200000000000005,
+      "last_seen_price_usd": 4.078487632719998e-06,
       "entry_signals": {
-        "liquidity_usd": 9.989e-08,
+        "liquidity_usd": 628.479604306,
         "volume_24h_usd": null,
-        "market_cap_usd": 5953.713876444679,
-        "ath_market_cap_usd": 6069.431688904098,
+        "market_cap_usd": 4065.16233605848,
+        "ath_market_cap_usd": 4065.16233605848,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1e-09,
-        "description": "A meme coin built around “aura” — confidence, energy, and main-character vibes. The golden halo represents high aura, while the simple hooded mascot keeps it relatable and meme-friendly.",
-        "twitter": "",
+        "real_sol_reserves": 6.259757015,
+        "description": "Oil Paid Every Cycle - hold the coin, receive the crude.",
+        "twitter": "https://x.com/OPECrobinhood",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -50092,25 +50092,30 @@
       "pnl_pct": -73.95,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "HpxuG5wSnvHjkyNa5bKd2BpUDubvbYE37PiSWJswpump",
+      "symbol": "$AURA",
+      "name": "AURACOIN",
+      "amount_sold": 840231.8429733623,
+      "fraction_sold": 0.9999999965899435,
+      "entry_time": "2026-09-10T20:30:09.515978+00:00",
+      "exit_time": "2026-09-10T20:31:24.771716+00:00",
+      "entry_price_usd": 5.944192694833173e-06,
+      "exit_price_usd": 8.760179773452786e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.073313,
+      "pnl_sol": 0.023313,
+      "pnl_pct": 47.37,
+      "exit_reason": "LLM: sell_all — $AURA is up +47.4%, already past the +25% TP threshold where bot auto-triggers. Locking in the gain — memecoins at 0.0h hold time give back gains fast",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T20:30:09.516238+00:00",
+  "last_updated": "2026-09-10T20:31:26.084033+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.89,
-  "portfolio_value_usd": 601.06,
+  "last_sol_price_usd": 100.4,
+  "portfolio_value_usd": 606.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 20:05 UTC",
-      "action": "buy",
-      "details": "[LLM] $COTE at $9.46034e-06, spent 0.05 SOL",
-      "reason": "$COTE 'COTE KOIN' has the strongest narrative of the batch — clean ticker, dedicated twitter @cotekoin, and highest mcap ($9.4k) among completable candidates. Name is memeable and has a real X handle backing it. Small position to test the launch."
-    },
-    {
-      "time": "2026-09-10 20:06 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $COTE at $1.2214e-05 | P&L: +29.1%",
-      "reason": "COTE KOIN is up +29.1% and just hit the +20% profit-taking threshold rule. Bonding-curve pool is only $3,270 — thin liquidity means a quick reversal is likely. Take half off the table to lock in gains, let the rest ride if narrative continues."
-    },
     {
       "time": "2026-09-10 20:07 UTC",
       "action": "sell",
@@ -50218,40 +50223,52 @@
       "action": "buy",
       "details": "[LLM] $$AURA at $5.94419e-06, spent 0.05 SOL",
       "reason": "$$AURA has a coherent meta-narrative (aura meme culture is trending on X/TikTok), real description >50 chars passing viability gate, and low mcap ($5.9k) with first-mover potential on the aura concept. Risk: bond only 6%, very early, may not pass GMGN fragility check."
+    },
+    {
+      "time": "2026-09-10 20:31 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $$AURA at $8.76018e-06 | P&L: +47.4%",
+      "reason": "$AURA is up +47.4%, already past the +25% TP threshold where bot auto-triggers. Locking in the gain — memecoins at 0.0h hold time give back gains fast, and the 7331256993% share on bonding curve ($0 pool) means any meaningful exit will crash price. Take the profit now."
+    },
+    {
+      "time": "2026-09-10 20:31 UTC",
+      "action": "buy",
+      "details": "[LLM] $OPEC at $4.07849e-06, spent 0.05 SOL",
+      "reason": "$OPEC has a clear parody narrative ('Oil Paid Every Cycle - hold the coin, receive the crude') with active X account @OPECrobinhood. Brand-recognition ticker $OPEC rides Trump-era oil attention meme. 0.1min age = fresh launch on bonding curve, attention-launched via Twitter."
     }
   ],
   "trade_stats": {
-    "total": 2945,
-    "wins": 1382,
+    "total": 2946,
+    "wins": 1383,
     "losses": 1563,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 1.751005,
-    "avg_pnl_pct": 26.89,
+    "total_pnl_sol": 1.774318,
+    "avg_pnl_pct": 26.9,
     "best_pnl_pct": 2934.77,
     "worst_pnl_pct": -99.94,
-    "today_trades": 568,
-    "today_realized_sol": 4.43632,
-    "today_target_pct": 1109.1,
+    "today_trades": 569,
+    "today_realized_sol": 4.459633,
+    "today_target_pct": 1114.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1382,
+      "win_count": 1383,
       "loss_count": 1563,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T20:30:08.100893+00:00",
+  "last_llm_brief_at": "2026-09-10T20:31:24.771238+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "6f3Ba2E4E4cv3vrhZ9VCBVjrmdGdXD6t6vsJjXsUpump": {
-      "price_usd": 2.792823860575359e-06,
+    "HpxuG5wSnvHjkyNa5bKd2BpUDubvbYE37PiSWJswpump": {
+      "price_usd": 8.760179773452786e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.39736e-06,
-      "volume_h24": 8890.43,
+      "liquidity_usd": 1.0040000000000001e-07,
+      "volume_h24": 1892.11,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.4e-08
+      "real_sol_reserves": 1e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
