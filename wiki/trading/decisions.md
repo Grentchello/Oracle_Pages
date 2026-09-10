@@ -20764,3 +20764,9 @@
 ## [2026-09-10 23:04 UTC] buy | [LLM] $SHIHOU at $7.89767e-07, spent 0.05 SOL
 - **Reasoning:** $SHIHOU (Jobless Monkey / 失业猴) passes viability gate (desc ≥50 chars + twitter present), sticky bilingual narrative (jobless crypto apes is universally relatable + has Chinese meme crossover potential), and extreme microcap mcap=$791 leaves huge upside if the narrative catches. Risk: bond only 14%, super-illiquid, could rug. Will exit fast if not pumping within minutes.
 
+## [2026-09-10 23:06 UTC] sell | [rapid-drop] $SHIHOU crashed >15% in one tick | P&L: -98.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 23:06 UTC] buy | [LLM] $TRACE at $3.39437e-06, spent 0.05 SOL
+- **Reasoning:** $TRACE on Robinhood Chain — actual narrative hook (RHC is a new L1 getting attention), has twitter @trace_rhc and a real description, mcap $3.4k with 9% bond = genuine early launch with chain-attention catalyst. First non-spam candidate with a story.
+
