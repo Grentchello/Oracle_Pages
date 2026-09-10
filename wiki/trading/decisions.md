@@ -19462,3 +19462,6 @@
 ## [2026-09-10 14:46 UTC] buy | [LLM] $WAVEKIRK at $2.84109e-06, spent 0.05 SOL
 - **Reasoning:** $WAVEKIRK — 'KIRKROWAVE' riding the Kirk memecoin meta that has been pumping hard recently. Story is simple and memeable (Kirk is gonna cook), fresh launch, $2.8k mcap = ground floor if it catches the wave.
 
+## [2026-09-10 14:47 UTC] sell | [FULL][LLM] $WAVEKIRK at $2.84592e-06 | P&L: +0.2%
+- **Reasoning:** Just opened, +0.2%, no momentum signal yet. Will reassess next tick.
+
