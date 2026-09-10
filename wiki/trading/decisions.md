@@ -18373,3 +18373,6 @@
 ## [2026-09-10 06:56 UTC] buy | [LLM] $SIS at $4.805e-06, spent 0.05 SOL
 - **Reasoning:** $SIS — AI superintelligence narrative is the strongest current meta on CT, twitter signal from @Gen0xRay provides attention anchor, clean name (passes fragility gate), mcap $4.4k still has room. Risk: micro-cap, bond only 16% (still pre-graduation), thin liquidity — size 0.1 SOL keeps loss bounded at -25% = -0.025 SOL.
 
+## [2026-09-10 06:58 UTC] sell | [FULL][LLM] $SIS at $4.73781e-06 | P&L: -1.4%
+- **Reasoning:** $SIS is only -1.4% after 0h held, not yet at stale threshold (30min flat). Pool is thin ($884) which is concerning but no catalyst to exit. Let it breathe one more tick before deciding.
+
