@@ -1,8 +1,32 @@
 {
-  "balance_sol": 9.337466,
+  "balance_sol": 9.287466,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "J1x4V6UgCPvqDpsT3PLy8beZ55w52RYKqGQaqt1Mpump": {
+      "symbol": "10M",
+      "name": "Speedrun To 10 Million",
+      "amount": 545362.1576341732,
+      "entry_price_usd": 9.101291555563883e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T22:57:44.816239+00:00",
+      "entry_usd_value": 4.9635,
+      "last_seen_price_usd": 9.101291555563883e-06,
+      "entry_signals": {
+        "liquidity_usd": 489.14047157849996,
+        "volume_24h_usd": null,
+        "market_cap_usd": 9107.70930925472,
+        "ath_market_cap_usd": 13906.627861241304,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 4.92737455,
+        "description": "",
+        "twitter": "https://x.com/daddyriskbets/status/2095545411226186063",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51090,17 +51114,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T22:56:27.329689+00:00",
+  "last_updated": "2026-09-10T22:57:44.816486+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.34,
-  "portfolio_value_usd": 927.58,
+  "last_sol_price_usd": 99.27,
+  "portfolio_value_usd": 926.93,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 22:37 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $42 crashed >15% in one tick | P&L: -51.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 22:38 UTC",
       "action": "buy",
@@ -51214,6 +51232,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $FuckA at $9.24093e-05 | P&L: -9.0%",
       "reason": "$FuckA is only -9% (well within -25% hard cap) and was just entered (0.0h held). Still on bonding curve with the position fresh — no bounce signal yet but also no reason to panic. Give it time to develop before rotating."
+    },
+    {
+      "time": "2026-09-10 22:57 UTC",
+      "action": "buy",
+      "details": "[LLM] $10M at $9.10129e-06, spent 0.05 SOL",
+      "reason": "$10M 'Speedrun To 10 Million' is the meta-narrative token — race-to-10M-mcap is currently viral on CT. At $9,108 mcap it sits literally at the cusp of the target, with a real CT account (daddyriskbets) driving attention. Bond31% means early but real buy pressure. Asymmetric upside if narrative catches; tight -25% hard cap covers downside."
     }
   ],
   "trade_stats": {
@@ -51235,21 +51259,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T22:56:27.329198+00:00",
+  "last_llm_brief_at": "2026-09-10T22:57:43.471240+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "6tu1bgTjhBxhg9jH3YfyAfPm44Z7Ep1KQ3sA3nvipump": {
-      "price_usd": 9.24093023272737e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1.78812e-06,
-      "volume_h24": 4798.92,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.8e-08
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
