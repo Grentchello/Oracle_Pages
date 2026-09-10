@@ -19843,3 +19843,6 @@
 ## [2026-09-10 17:25 UTC] buy | [LLM] $NOISE at $1.996e-05, spent 0.05 SOL
 - **Reasoning:** $NOISE has the strongest setup: $20k mcap (already 5x the field), dedicated twitter @noiselabz suggesting real project backing, descriptive narrative (onchain music protocol), and clear narrative hook. Best risk/reward of the batch.
 
+## [2026-09-10 17:27 UTC] sell | [FULL][LLM] $NOISE at $2.03088e-05 | P&L: +1.8%
+- **Reasoning:** +1.7% with no hold time yet and no momentum signal — give it a few minutes to develop or hit stale threshold. Not up enough to justify a panic exit, not down enough to trigger stop.
+
