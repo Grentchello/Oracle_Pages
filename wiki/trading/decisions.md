@@ -19327,3 +19327,6 @@
 ## [2026-09-10 13:47 UTC] buy | [LLM] $cap at $2.768e-06, spent 0.05 SOL
 - **Reasoning:** $cap (dog wif cap) passes viability gate: 72-char description + twitter. Narrative is strong — explicit 'run it back' redemption arc on a known previous runner, plus dogwifhat lineage. Risk: sub-$6k mcap, bond only 2%, classic micro-cap volatility. Sized at 0.05 SOL per current rules.
 
+## [2026-09-10 13:49 UTC] sell | [FULL][LLM] $cap at $3.045e-06 | P&L: +10.0%
+- **Reasoning:** +10% on bonding curve with massive share concentration flag — lock the gain before stale exit triggers or concentration causes a dump into my position.
+
