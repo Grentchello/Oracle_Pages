@@ -19303,3 +19303,9 @@
 ## [2026-09-10 13:39 UTC] buy | [LLM] $Meow at $5.41e-06, spent 0.05 SOL
 - **Reasoning:** $Meow (SpaceX Cat) has a viral SpaceX narrative hook with active twitter presence and $6k mcap — fresh attention with story. Risk: brand new (0.9min), but the narrative is the kind that trends.
 
+## [2026-09-10 13:40 UTC] sell | [rapid-drop] $Meow crashed >15% in one tick | P&L: -48.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 13:40 UTC] buy | [LLM] $XSTOCK at $6.381e-06, spent 0.05 SOL
+- **Reasoning:** $XSTOCK (PepsiCo xStock) is the strongest attention play in this batch — highest mcap ($6.4k), real brand affiliation, twitter link attached, and 'xStock' is a known legitimate tokenization launch pattern on Solana. Fits the 'viral narrative + real story' thesis. Sizing 0.05 SOL.
+
