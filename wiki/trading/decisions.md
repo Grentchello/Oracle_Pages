@@ -19129,3 +19129,6 @@
 ## [2026-09-10 12:38 UTC] sell | [FULL][LLM] $$MCAT at $7.16403e-08 | P&L: +0.9%
 - **Reasoning:** $MCAT just entered 0.0h ago at +0.9% — far too early to exit on a bonding-curve cat meta coin with no downside signal. Give it room to develop the narrative; will reassess if it goes stale or hits -25% cap.
 
+## [2026-09-10 12:39 UTC] buy | [LLM] $Nemotron at $2.803e-06, spent 0.05 SOL
+- **Reasoning:** Nemotron shilled coin at 20k mcap, viral X attention from jackdogwater, low mcap with story = asymmetric upside. Risk: likely fragiled by GMGN gate, but attention narrative is strong.
+
