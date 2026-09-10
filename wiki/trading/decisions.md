@@ -17824,3 +17824,9 @@
 ## [2026-09-10 03:34 UTC] sell | [PARTIAL][LLM] $$UZI at $5.74001e-07 | P&L: +0.1%
 - **Reasoning:** Position is essentially flat (+0.1%), no momentum, fresh entry with HUGE share (5798%) on bonding curve = structurally dangerous. No reason to hold a non-mover. Free the slot.
 
+## [2026-09-10 03:35 UTC] sell | [FULL][LLM] $$UZI at $5.74227e-07 | P&L: +0.2%
+- **Reasoning:** Flat at +0.2% on bonding curve with no momentum signal after fresh entry. Capital rotation: $Kermit has a clearer pump.fun-native narrative with twitter presence and is fresh at $4.4k mcap. Better to redeploy than sit on a dead bonding curve position.
+
+## [2026-09-10 03:35 UTC] buy | [LLM] $Kermit  at $0.000109499, spent 0.05 SOL
+- **Reasoning:** Kermit Paired with Pump — explicit pump.fun native narrative (meta-meme about the platform itself), twitter presence @richogfrog, recognizable IP, fresh at $4.4k mcap with only 6% bonded. Strong attention signal, clear story for virality.
+
