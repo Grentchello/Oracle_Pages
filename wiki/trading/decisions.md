@@ -18961,3 +18961,6 @@
 ## [2026-09-10 11:17 UTC] buy | [LLM] $BetOnBlak at $8.86e-06, spent 0.05 SOL
 - **Reasoning:** $BetOnBlak has highest mcap ($8.8k) of fresh launches, gambling 'put the house on black' meta is trending, and early capital is already concentrating — strongest attention signal in this batch. 0.05 SOL scalp targeting quick 30-50% pop.
 
+## [2026-09-10 11:18 UTC] sell | [PARTIAL][LLM] $BetOnBlak at $8.81803e-06 | P&L: -0.5%
+- **Reasoning:** $BetOnBlak is down -0.5% after just entering, no momentum, and our share is 748% of pool — that's a massive red flag for thin liquidity. Slot is locked with no upside signal; rotate into fresh attention.
+
