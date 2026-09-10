@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.262912,
+  "balance_sol": 4.263015,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "J3D8DcYfRbkaC5DJNDWfcsqfiEcfqDEPpVoexgSDpump": {
-      "symbol": "PAC-3310",
-      "name": "ChatGPT Drug",
-      "amount": 573509.0194774832,
-      "entry_price_usd": 1.666710491670498e-08,
-      "entry_sol_spent": 9.433272474398316e-05,
-      "entry_time": "2026-09-10T07:57:50.973492+00:00",
-      "entry_usd_value": 5.0665000000000004,
-      "last_seen_price_usd": 2.0301662615654443e-08,
-      "entry_signals": {
-        "liquidity_usd": 3.06093033219,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4581.940438093303,
-        "ath_market_cap_usd": 4581.940438093303,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.030207543,
-        "description": "This vial contains a new drug called PAC-3310. It was designed by ChatGPT, and I synthesized it in a chemistry lab in a garage.",
-        "twitter": "https://x.com/douglasyaody/status/2097377733466800489?s=46&t=Hg5JShLuI4olT0FoUxaYVA",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44516,19 +44492,30 @@
       "pnl_pct": 21.81,
       "exit_reason": "LLM: sell_half — $PAC-3310 is up 21.8% but has only $3 in the pool, indicating a fragile, illiquid exit. Take half profit now while preserving exposure to a possible a",
       "partial": true
+    },
+    {
+      "mint": "J3D8DcYfRbkaC5DJNDWfcsqfiEcfqDEPpVoexgSDpump",
+      "symbol": "PAC-3310",
+      "name": "ChatGPT Drug",
+      "amount_sold": 573509.0194774832,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T07:57:50.973492+00:00",
+      "exit_time": "2026-09-10T08:09:40.972743+00:00",
+      "entry_price_usd": 1.666710491670498e-08,
+      "exit_price_usd": 1.8238356655029317e-08,
+      "entry_sol_for_chunk": 9.4e-05,
+      "exit_sol_received": 0.000103,
+      "pnl_sol": 9e-06,
+      "pnl_pct": 9.43,
+      "exit_reason": "LLM: sell_all — The position is up 9.4% after only 0.2h and has already shown momentum. It is not near the +30% profit-taking threshold, so hold while monitoring for ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T08:08:24.318551+00:00",
+  "last_updated": "2026-09-10T08:09:40.973499+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.074,
-  "portfolio_value_usd": 430.88,
+  "last_sol_price_usd": 101.29,
+  "portfolio_value_usd": 431.8,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 07:47 UTC",
-      "action": "buy",
-      "details": "[LLM] $Normie at $2.221e-05, spent 0.05 SOL",
-      "reason": "$Normie has strongest attention signal among viable launches: X post from @derivativist, highest mcap at $24k (others sub-$5k), and a clear meme narrative. Risk: bond40% incomplete, could rug, but narrative + initial traction justify a small position."
-    },
     {
       "time": "2026-09-10 07:48 UTC",
       "action": "sell",
@@ -44642,40 +44629,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $PAC-3310 at $2.03017e-08 | P&L: +21.8%",
       "reason": "$PAC-3310 is up 21.8% but has only $3 in the pool, indicating a fragile, illiquid exit. Take half profit now while preserving exposure to a possible attention-driven continuation."
+    },
+    {
+      "time": "2026-09-10 08:09 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PAC-3310 at $1.82384e-08 | P&L: +9.4%",
+      "reason": "The position is up 9.4% after only 0.2h and has already shown momentum. It is not near the +30% profit-taking threshold, so hold while monitoring for a breakout."
     }
   ],
   "trade_stats": {
-    "total": 2617,
-    "wins": 1274,
+    "total": 2618,
+    "wins": 1275,
     "losses": 1343,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": -0.003283,
-    "avg_pnl_pct": 28.69,
+    "total_pnl_sol": -0.003274,
+    "avg_pnl_pct": 28.68,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 240,
-    "today_realized_sol": 2.682032,
+    "today_trades": 241,
+    "today_realized_sol": 2.682041,
     "today_target_pct": 670.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1274,
+      "win_count": 1275,
       "loss_count": 1343,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T08:08:24.317798+00:00",
+  "last_llm_brief_at": "2026-09-10T08:09:40.972173+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "J3D8DcYfRbkaC5DJNDWfcsqfiEcfqDEPpVoexgSDpump": {
-      "price_usd": 2.0301662615654443e-08,
+      "price_usd": 1.8238356655029317e-08,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.830150635572,
+      "liquidity_usd": 1.85328277071,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.028000778
+      "real_sol_reserves": 0.018296799
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

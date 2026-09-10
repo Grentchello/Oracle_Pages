@@ -18556,3 +18556,6 @@
 ## [2026-09-10 08:08 UTC] sell | [PARTIAL][LLM] $PAC-3310 at $2.03017e-08 | P&L: +21.8%
 - **Reasoning:** $PAC-3310 is up 21.8% but has only $3 in the pool, indicating a fragile, illiquid exit. Take half profit now while preserving exposure to a possible attention-driven continuation.
 
+## [2026-09-10 08:09 UTC] sell | [FULL][LLM] $PAC-3310 at $1.82384e-08 | P&L: +9.4%
+- **Reasoning:** The position is up 9.4% after only 0.2h and has already shown momentum. It is not near the +30% profit-taking threshold, so hold while monitoring for a breakout.
+
