@@ -18124,3 +18124,9 @@
 ## [2026-09-10 05:18 UTC] buy | [LLM] $Apollo at $1.101e-05, spent 0.05 SOL
 - **Reasoning:** SpaceX Dog narrative has evergreen Musk-adjacent attention potential, LoreDevor twitter post confirmed, $17k mcap is leading the fresh batch (social proof), passes viability gate via twitter. Risk: sub-$20k mcap = thin liquidity, but that's where memecoin alpha lives.
 
+## [2026-09-10 05:19 UTC] sell | [rapid-drop] $Apollo crashed >15% in one tick | P&L: -72.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 05:19 UTC] buy | [LLM] $LULU at $5.0507e-09, spent 0.05 SOL
+- **Reasoning:** $LULU — Capybara meta is genuinely trending on CT right now, has twitter (LuffyX100X), mcap $5k passes viability gate, age 0.8min is fresh. Risk: microcap with thin liquidity, could rug fast. Size 0.1 SOL.
+
