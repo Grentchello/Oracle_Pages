@@ -18094,3 +18094,9 @@
 ## [2026-09-10 05:10 UTC] buy | [LLM] $OpenAI Snake at $1.21022e-05, spent 0.05 SOL
 - **Reasoning:** Strongest attention signal of the tick: 'Hidden snake game in ChatGPT paired to OpenAI stock' is a genuine viral tech-discovery narrative with twitter amplification. $12k mcap with highest bond completion (34%) of the OpenAI cluster — established variant. AI/OpenAI memecoin adjacency historically pumps. Size: 0.1 SOL, hard exit at -25% or 30min.
 
+## [2026-09-10 05:11 UTC] sell | [v8.7 TP +50% (full)] $OpenAI Snake at $1.89998e-05 | P&L: +57.0%
+- **Reasoning:** Auto take-profit at +57.0%
+
+## [2026-09-10 05:11 UTC] buy | [LLM] $OpenAI Snake at $2.155e-05, spent 0.05 SOL
+- **Reasoning:** $OpenAI Snake has the strongest attention signal in this batch: tied to OpenAI (top AI narrative), easter-egg 'hidden snake game in ChatGPT' story is viral-friendly, has attached X post (strrives), 1.9min old at $18k mcap with 38% bond = about to graduate but still cheap. Only candidate with verified social + narrative + reasonable liquidity combo. 0.1 SOL risk.
+
