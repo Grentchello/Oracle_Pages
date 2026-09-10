@@ -17392,3 +17392,9 @@
 ## [2026-09-10 00:57 UTC] buy | [LLM] $123 at $2.86088e-06, spent 0.05 SOL
 - **Reasoning:** $123 tagged with a toly (Solana founder) tweet — this is the highest-attention signal in the batch. Even if the tweet is unrelated, the attention spike alone drives the first-minute pump. Mcap $2.8k, bond 1% = very early entry. Risk: could be a fake tagged tweet or rug; size is only 0.1 SOL.
 
+## [2026-09-10 00:59 UTC] sell | [FULL][LLM] $123 at $2.86246e-06 | P&L: +0.1%
+- **Reasoning:** Position is flat (+0.1%) on a $20 pool with no narrative signal — name '$123' has no viral attention. Pool is too thin to sustain and capital is better rotated to fresh launches with real narratives.
+
+## [2026-09-10 00:59 UTC] buy | [LLM] $APETOWN at $3.12155e-06, spent 0.05 SOL
+- **Reasoning:** $APETOWN has a clear meme narrative ('where the apes go'), a populated description, and is the freshest launch at 0.1min — only viable candidate passing fragility/viability gates.
+
