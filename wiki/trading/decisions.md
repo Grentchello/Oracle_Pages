@@ -20410,3 +20410,9 @@
 ## [2026-09-10 20:32 UTC] buy | [LLM] $Bracat at $6.249e-06, spent 0.05 SOL
 - **Reasoning:** $Bracat at $13k mcap is the strongest attention signal in the slate — multiple independent X posts (0XENTIAL and LeopoldDevelops) within 90 seconds. Bonding curve 32% (most progressed), giving early confirmation without being too late. 0.05 SOL position with -25% hard stop.
 
+## [2026-09-10 20:33 UTC] sell | [v8.7 TP +50% (full)] $Bracat at $0.000226871 | P&L: +3530.5%
+- **Reasoning:** Auto take-profit at +3530.5%
+
+## [2026-09-10 20:34 UTC] buy | [LLM] $Pump Stonk at $1.005e-05, spent 0.05 SOL
+- **Reasoning:** $Pump Stonk has the strongest signals of the batch: $8.97k mcap (highest among viability-passing candidates), 27% bond curve (real buy pressure), self-referential $PUMP token narrative plays well as meta-irony, and active twitter status link suggests organic posting not just a hollow handle. Fresh launch at 0.8min — entering before momentum confirms.
+
