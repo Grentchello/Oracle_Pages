@@ -17749,3 +17749,6 @@
 ## [2026-09-10 03:05 UTC] sell | [FULL][LLM] $FLYBRAIN at $4.79007e-06 | P&L: +5.4%
 - **Reasoning:** FLYBRAIN is up only +5.4% with pool=$907 (below 5x position liquidity threshold), held close to stale threshold, and shows no momentum or narrative catalyst. Lock the small gain and free the slot for a real attention launch.
 
+## [2026-09-10 03:06 UTC] buy | [LLM] $TickTock at $3.173e-06, spent 0.05 SOL
+- **Reasoning:** $TickTock — TikTok rabbit clock narrative promoted by @ReallyLightblue (actual TikTok creator = attention lever outside crypto-Twitter). 0.6min old, mcap $3.2k, bond still forming. High rug risk but the cross-platform attention profile is the strongest of the batch.
+
