@@ -17632,3 +17632,6 @@
 ## [2026-09-10 02:29 UTC] sell | [FULL][LLM] $Man at $6.157e-06 | P&L: +9.4%
 - **Reasoning:** The position is only minutes old and modestly up 9.4%, with no clear evidence yet of momentum exhaustion. Give the fresh launch more time, but exit if momentum stalls or the position reaches 30 minutes without a 20% gain.
 
+## [2026-09-10 02:31 UTC] buy | [LLM] $$AURA at $5.56196e-06, spent 0.05 SOL
+- **Reasoning:** $$AURA rides the genuinely viral 'aura points' / main-character meme trend currently sweeping X and TikTok — concrete cultural narrative, clear tagline ('confidence, energy, main-character vibes'), 50+ char description passes viability gate, no celebrity/political keywords. Risk: mcap only $5.5k and <1min old, so thin liquidity — this is exactly the kind of fresh attention that 5-10x's in hours or rugs in minutes.
+
