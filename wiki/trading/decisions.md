@@ -19132,3 +19132,6 @@
 ## [2026-09-10 12:39 UTC] buy | [LLM] $Nemotron at $2.803e-06, spent 0.05 SOL
 - **Reasoning:** Nemotron shilled coin at 20k mcap, viral X attention from jackdogwater, low mcap with story = asymmetric upside. Risk: likely fragiled by GMGN gate, but attention narrative is strong.
 
+## [2026-09-10 12:40 UTC] sell | [PARTIAL][LLM] $Nemotron at $2.77987e-06 | P&L: -0.8%
+- **Reasoning:** Bonding curve with 5057% share and only -0.8% loss — selling half locks the position size down, frees 0.05 SOL for fresh attention plays, and keeps upside exposure if it bounces.
+

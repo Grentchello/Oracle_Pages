@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.781742,
+  "balance_sol": 4.806713,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "He1RbfLkb2Ju3ci1sG8R5jQp6pwYnWqq6Xvb66sLpump": {
       "symbol": "Nemotron",
       "name": "shilled coin at 20k??",
-      "amount": 1786122.0121298607,
+      "amount": 893061.0060649303,
       "entry_price_usd": 2.803e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T12:39:26.603567+00:00",
       "entry_usd_value": 5.0065,
-      "last_seen_price_usd": 2.803e-06,
+      "last_seen_price_usd": 2.779866158671586e-06,
       "entry_signals": {
         "liquidity_usd": 0.09889369489,
         "volume_24h_usd": 0.09,
@@ -46301,19 +46301,30 @@
       "pnl_pct": 0.91,
       "exit_reason": "LLM: sell_all — $MCAT just entered 0.0h ago at +0.9% — far too early to exit on a bonding-curve cat meta coin with no downside signal. Give it room to develop the nar",
       "partial": false
+    },
+    {
+      "mint": "He1RbfLkb2Ju3ci1sG8R5jQp6pwYnWqq6Xvb66sLpump",
+      "symbol": "Nemotron",
+      "name": "shilled coin at 20k??",
+      "amount_sold": 893061.0060649303,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T12:39:26.603567+00:00",
+      "exit_time": "2026-09-10T12:40:45.059849+00:00",
+      "entry_price_usd": 2.803e-06,
+      "exit_price_usd": 2.779866158671586e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.024971,
+      "pnl_sol": -2.9e-05,
+      "pnl_pct": -0.83,
+      "exit_reason": "LLM: sell_half — Bonding curve with 5057% share and only -0.8% loss — selling half locks the position size down, frees 0.05 SOL for fresh attention plays, and keeps up",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T12:39:26.603736+00:00",
+  "last_updated": "2026-09-10T12:40:45.060595+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.13,
-  "portfolio_value_usd": 483.8,
+  "last_sol_price_usd": 99.42,
+  "portfolio_value_usd": 480.39,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 12:17 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MCFARLAND at $2.81743e-06 | P&L: -3.6%",
-      "reason": "Only -3.6% with 0.0h held, well within noise; our share of ~48 billion tiny tokens suggests deep bonding-curve micro-cap. No bounce signal yet but no panic signal either — give it a few minutes before judging."
-    },
     {
       "time": "2026-09-10 12:18 UTC",
       "action": "buy",
@@ -46427,30 +46438,48 @@
       "action": "buy",
       "details": "[LLM] $Nemotron at $2.803e-06, spent 0.05 SOL",
       "reason": "Nemotron shilled coin at 20k mcap, viral X attention from jackdogwater, low mcap with story = asymmetric upside. Risk: likely fragiled by GMGN gate, but attention narrative is strong."
+    },
+    {
+      "time": "2026-09-10 12:40 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Nemotron at $2.77987e-06 | P&L: -0.8%",
+      "reason": "Bonding curve with 5057% share and only -0.8% loss — selling half locks the position size down, frees 0.05 SOL for fresh attention plays, and keeps upside exposure if it bounces."
     }
   ],
   "trade_stats": {
-    "total": 2722,
+    "total": 2723,
     "wins": 1318,
-    "losses": 1404,
+    "losses": 1405,
     "win_rate_pct": 48.4,
-    "total_pnl_sol": 0.565499,
-    "avg_pnl_pct": 28.11,
+    "total_pnl_sol": 0.56547,
+    "avg_pnl_pct": 28.1,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 345,
-    "today_realized_sol": 3.250814,
+    "today_trades": 346,
+    "today_realized_sol": 3.250785,
     "today_target_pct": 812.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1318,
-      "loss_count": 1404,
+      "loss_count": 1405,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T12:39:24.885164+00:00",
+  "last_llm_brief_at": "2026-09-10T12:40:45.059805+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "He1RbfLkb2Ju3ci1sG8R5jQp6pwYnWqq6Xvb66sLpump": {
+      "price_usd": 2.779866158671586e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.09819246126,
+      "volume_h24": 0.09,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.000987653
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
