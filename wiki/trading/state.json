@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.975504,
+  "balance_sol": 5.005135,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ACK6i1vo6qKzaQ9ithfnWrHZ8KFLeLBAKaCfz2qXpump": {
-      "symbol": "MTF",
-      "name": "Meme-Traded Fund",
-      "amount": 1057805.4096005536,
-      "entry_price_usd": 4.794832730072045e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T11:24:47.774826+00:00",
-      "entry_usd_value": 5.072,
-      "last_seen_price_usd": 4.794832730072045e-06,
-      "entry_signals": {
-        "liquidity_usd": 399.82809251136,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4788.59144520048,
-        "ath_market_cap_usd": 6258.902509749048,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.941522994,
-        "description": "",
-        "twitter": "https://x.com/fearonchain/status/2098009661332971760",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45791,25 +45767,30 @@
       "pnl_pct": 0.04,
       "exit_reason": "LLM: sell_all — Flat at +0.0%, pool only $1, we hold 25% of it — illiquid and zero momentum. Freeing the slot for a fresh launch with actual attention.",
       "partial": false
+    },
+    {
+      "mint": "ACK6i1vo6qKzaQ9ithfnWrHZ8KFLeLBAKaCfz2qXpump",
+      "symbol": "MTF",
+      "name": "Meme-Traded Fund",
+      "amount_sold": 1057805.4096005536,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T11:24:47.774826+00:00",
+      "exit_time": "2026-09-10T11:25:52.076239+00:00",
+      "entry_price_usd": 4.794832730072045e-06,
+      "exit_price_usd": 2.842316001315534e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.029631,
+      "pnl_sol": -0.020369,
+      "pnl_pct": -40.72,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T11:24:47.775002+00:00",
+  "last_updated": "2026-09-10T11:26:07.151488+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.44,
-  "portfolio_value_usd": 509.79,
+  "last_sol_price_usd": 101.47,
+  "portfolio_value_usd": 507.87,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 10:58 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $GOLD at $1.88349e-06 | P&L: +30.1%",
-      "reason": "Up +30.1% but pool is only $14 and we own 48% of it — extremely illiquid, can't exit cleanly at scale. Locking gains now before the thin liquidity turns this into a loss. Take-profit auto should fire at +30% anyway."
-    },
-    {
-      "time": "2026-09-10 10:59 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $GOLD at $2.28855e-06 | P&L: +58.0%",
-      "reason": "Auto take-profit at +58.0%"
-    },
     {
       "time": "2026-09-10 11:00 UTC",
       "action": "buy",
@@ -45917,6 +45898,18 @@
       "action": "buy",
       "details": "[LLM] $MTF at $4.79483e-06, spent 0.05 SOL",
       "reason": "$MTF has a clear fund-themed meme narrative and was launched from a Fearless trading account, with a tiny $4,789 market cap offering high attention upside. Risk is extremely high because the bond is only 19% complete and liquidity is unverified."
+    },
+    {
+      "time": "2026-09-10 11:25 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $MTF crashed >15% in one tick | P&L: -40.7%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 11:26 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -45938,9 +45931,21 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T11:24:46.294482+00:00",
+  "last_llm_brief_at": "2026-09-10T11:26:07.151260+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "ACK6i1vo6qKzaQ9ithfnWrHZ8KFLeLBAKaCfz2qXpump": {
+      "price_usd": 2.842316001315534e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2.8512022829599997,
+      "volume_h24": 6715.1,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.028098968
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

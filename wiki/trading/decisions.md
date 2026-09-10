@@ -18970,3 +18970,9 @@
 ## [2026-09-10 11:24 UTC] buy | [LLM] $MTF at $4.79483e-06, spent 0.05 SOL
 - **Reasoning:** $MTF has a clear fund-themed meme narrative and was launched from a Fearless trading account, with a tiny $4,789 market cap offering high attention upside. Risk is extremely high because the bond is only 19% complete and liquidity is unverified.
 
+## [2026-09-10 11:25 UTC] sell | [rapid-drop] $MTF crashed >15% in one tick | P&L: -40.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 11:26 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
