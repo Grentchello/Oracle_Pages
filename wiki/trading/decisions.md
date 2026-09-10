@@ -20350,3 +20350,9 @@
 ## [2026-09-10 20:08 UTC] buy | [LLM] $SPY at $6.313e-06, spent 0.05 SOL
 - **Reasoning:** $SPY has the strongest narrative of the batch (persistent AI entities / agent environments — on-meta), highest mcap ($8.6k), confirmed Twitter, and longest bond at 30%. Best risk/reward for the single slot.
 
+## [2026-09-10 20:10 UTC] sell | [FULL][LLM] $SPY at $5.54248e-06 | P&L: -12.2%
+- **Reasoning:** Down -12.2% in <1h with no bounce, pool only $1226, no narrative catalyst. Free the slot — capital rotation beats bag-holding a bonding-curve drift.
+
+## [2026-09-10 20:10 UTC] buy | [LLM] $PEACH at $4.168e-06, spent 0.05 SOL
+- **Reasoning:** $PEACH (Princess Peach) — iconic Nintendo name recognition, has twitter, fresh launch at $4.9k mcap with bonding curve at 20%. Highest attention ceiling of the batch; classic memetic IP play. Risk: thin liquidity, narrative could fade if no organic pickup in first 15min.
+
