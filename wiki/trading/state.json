@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.524383,
+  "balance_sol": 4.570655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8F6EMaCut3heyGMRq41dyahgnzGmVPYmQHz8obBcpump": {
-      "symbol": "PSYOP",
-      "name": "psy op",
-      "amount": 1654986.007523237,
-      "entry_price_usd": 3.0812949335031763e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T05:43:33.924772+00:00",
-      "entry_usd_value": 5.0995,
-      "last_seen_price_usd": 3.0812949335031763e-06,
-      "entry_signals": {
-        "liquidity_usd": 120.87703773208,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3080.6906987873213,
-        "ath_market_cap_usd": 5393.832825863932,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.185185192,
-        "description": "",
-        "twitter": "https://twitter.com/beffjezos/status/2097923622421897686",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -43326,19 +43302,30 @@
       "pnl_pct": -21.12,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "8F6EMaCut3heyGMRq41dyahgnzGmVPYmQHz8obBcpump",
+      "symbol": "PSYOP",
+      "name": "psy op",
+      "amount_sold": 1654985.927048237,
+      "fraction_sold": 0.9999999513742113,
+      "entry_time": "2026-09-10T05:43:33.924772+00:00",
+      "exit_time": "2026-09-10T05:45:19.814813+00:00",
+      "entry_price_usd": 3.0812949335031763e-06,
+      "exit_price_usd": 2.851537745496654e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.046272,
+      "pnl_sol": -0.003728,
+      "pnl_pct": -7.46,
+      "exit_reason": "LLM: sell_all — PSYOP only -7.5% and just opened (0.0h held), well within the -25% hard cap. Bonding-curve position with huge share % is expected for a fresh buy. Giv",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T05:43:33.924946+00:00",
+  "last_updated": "2026-09-10T05:45:19.815048+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.99,
-  "portfolio_value_usd": 466.54,
+  "portfolio_value_usd": 466.16,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 05:21 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $LULU crashed >15% in one tick | P&L: -20.6%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 05:21 UTC",
       "action": "buy",
@@ -43452,30 +43439,48 @@
       "action": "buy",
       "details": "[LLM] $PSYOP at $3.08129e-06, spent 0.05 SOL",
       "reason": "$PSYOP at 0.2min, $3k mcap with real twitter link. Meta-narrative play ('psy op' meme about memecoin manipulation itself) is timely and viral-friendly. Passes viability gate assuming desc ≥50 chars. Risk: ultra-low mcap, bond only 4%, can rug fast."
+    },
+    {
+      "time": "2026-09-10 05:45 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PSYOP at $2.85154e-06 | P&L: -7.5%",
+      "reason": "PSYOP only -7.5% and just opened (0.0h held), well within the -25% hard cap. Bonding-curve position with huge share % is expected for a fresh buy. Give it room to develop before cutting."
     }
   ],
   "trade_stats": {
-    "total": 2547,
+    "total": 2548,
     "wins": 1249,
-    "losses": 1298,
+    "losses": 1299,
     "win_rate_pct": 49.0,
-    "total_pnl_sol": 0.308074,
-    "avg_pnl_pct": 29.67,
+    "total_pnl_sol": 0.304346,
+    "avg_pnl_pct": 29.65,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 170,
-    "today_realized_sol": 2.993389,
-    "today_target_pct": 748.3,
+    "today_trades": 171,
+    "today_realized_sol": 2.989661,
+    "today_target_pct": 747.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1249,
-      "loss_count": 1298,
+      "loss_count": 1299,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T05:43:32.481622+00:00",
+  "last_llm_brief_at": "2026-09-10T05:45:19.814612+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8F6EMaCut3heyGMRq41dyahgnzGmVPYmQHz8obBcpump": {
+      "price_usd": 2.851537745496654e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 9.179099999999999e-07,
+      "volume_h24": 3294.74,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 9e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
