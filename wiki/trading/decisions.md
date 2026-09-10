@@ -20005,3 +20005,9 @@
 ## [2026-09-10 18:29 UTC] sell | [PARTIAL][LLM] $KekiusBot at $2.82417e-06 | P&L: -12.0%
 - **Reasoning:** Down 12% but only held 0min — too fresh to call. Selling half to reduce risk on a position that's already red and has zero momentum evidence; keeping half in case it bounces so we don't miss a recovery.
 
+## [2026-09-10 18:31 UTC] sell | [FULL][LLM] $KekiusBot at $2.77605e-06 | P&L: -13.5%
+- **Reasoning:** Down -13.5% but just entered (0.0h), not yet at -25% hard stop. Bonding curve share display shows anomalous 167M% (likely UI quirk). Give it one more tick — bot will auto-close at -25% if it keeps dropping.
+
+## [2026-09-10 18:31 UTC] buy | [LLM] $Stocklana at $2.96304e-06, spent 0.05 SOL
+- **Reasoning:** $Stocklana passes viability (72-char desc + twitter), has a clear narrative (Stock Solana framing of SOL identity), fresh launch under 1min, mcap ~$3k. Strong attention angle — 'stocks meet memes on Solana' is a theme that could catch. Risk: bonding curve only, may dump fast.
+

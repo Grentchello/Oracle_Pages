@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.187056,
+  "balance_sol": 4.158789,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "EZuHE7zu9mUbk3T9WqkFQMdNGZDvW2cHsZ5ktsWEpump": {
-      "symbol": "KekiusBot",
-      "name": "KekiusBot ",
-      "amount": 777320.1005227516,
-      "entry_price_usd": 3.2100675105685968e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-10T18:28:28.007149+00:00",
-      "entry_usd_value": 4.990500000000001,
-      "last_seen_price_usd": 2.8241657804463952e-06,
+    "go2JLZEpaXKZQ97uVA3ZbmmHzZyc7Th5i2MjR9opump": {
+      "symbol": "Stocklana",
+      "name": "Stocklana",
+      "amount": 1675477.748599689,
+      "entry_price_usd": 2.963035471016653e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T18:31:18.449664+00:00",
+      "entry_usd_value": 4.964500000000001,
+      "last_seen_price_usd": 2.963035471016653e-06,
       "entry_signals": {
-        "liquidity_usd": 186.47525206395,
+        "liquidity_usd": 101.16609060669,
         "volume_24h_usd": null,
-        "market_cap_usd": 3194.189926611614,
-        "ath_market_cap_usd": 3194.189926611614,
+        "market_cap_usd": 2964.3389739678705,
+        "ath_market_cap_usd": 2964.3389739678705,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1.868302295,
-        "description": "",
-        "twitter": "https://x.com/dev_pscl/status/2098116019906556220?s=46&t=lK-K0iV34vILLZHjC176jA",
+        "real_sol_reserves": 1.018895061,
+        "description": "Solana is evolving into Stock Solana, where stocks, memes, and crypto unite.",
+        "twitter": "https://x.com/StocklanaSOL",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -48936,25 +48936,30 @@
       "pnl_pct": -12.02,
       "exit_reason": "LLM: sell_half — Down 12% but only held 0min — too fresh to call. Selling half to reduce risk on a position that's already red and has zero momentum evidence; keeping ",
       "partial": true
+    },
+    {
+      "mint": "EZuHE7zu9mUbk3T9WqkFQMdNGZDvW2cHsZ5ktsWEpump",
+      "symbol": "KekiusBot",
+      "name": "KekiusBot ",
+      "amount_sold": 777319.984281085,
+      "fraction_sold": 0.9999998504584321,
+      "entry_time": "2026-09-10T18:28:28.007149+00:00",
+      "exit_time": "2026-09-10T18:31:17.054448+00:00",
+      "entry_price_usd": 3.2100675105685968e-06,
+      "exit_price_usd": 2.7760484634583133e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.021733,
+      "pnl_sol": -0.003267,
+      "pnl_pct": -13.52,
+      "exit_reason": "LLM: sell_all — Down -13.5% but just entered (0.0h), not yet at -25% hard stop. Bonding curve share display shows anomalous 167M% (likely UI quirk). Give it one more ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T18:29:48.338631+00:00",
+  "last_updated": "2026-09-10T18:31:18.449819+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.9,
-  "portfolio_value_usd": 420.78,
+  "last_sol_price_usd": 99.29,
+  "portfolio_value_usd": 417.89,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 18:10 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Veronica crashed >15% in one tick | P&L: -23.4%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
-    {
-      "time": "2026-09-10 18:10 UTC",
-      "action": "buy",
-      "details": "[LLM] $BITCAT at $5.51337e-08, spent 0.05 SOL",
-      "reason": "$BITCAT — bitcoin-cat hybrid meme narrative, has twitter presence (viability pass), sub-$4k mcap with viral meme potential. Classic attention-market play."
-    },
     {
       "time": "2026-09-10 18:11 UTC",
       "action": "sell",
@@ -49062,40 +49067,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $KekiusBot at $2.82417e-06 | P&L: -12.0%",
       "reason": "Down 12% but only held 0min — too fresh to call. Selling half to reduce risk on a position that's already red and has zero momentum evidence; keeping half in case it bounces so we don't miss a recovery."
+    },
+    {
+      "time": "2026-09-10 18:31 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $KekiusBot at $2.77605e-06 | P&L: -13.5%",
+      "reason": "Down -13.5% but just entered (0.0h), not yet at -25% hard stop. Bonding curve share display shows anomalous 167M% (likely UI quirk). Give it one more tick — bot will auto-close at -25% if it keeps dropping."
+    },
+    {
+      "time": "2026-09-10 18:31 UTC",
+      "action": "buy",
+      "details": "[LLM] $Stocklana at $2.96304e-06, spent 0.05 SOL",
+      "reason": "$Stocklana passes viability (72-char desc + twitter), has a clear narrative (Stock Solana framing of SOL identity), fresh launch under 1min, mcap ~$3k. Strong attention angle — 'stocks meet memes on Solana' is a theme that could catch. Risk: bonding curve only, may dump fast."
     }
   ],
   "trade_stats": {
-    "total": 2877,
+    "total": 2878,
     "wins": 1364,
-    "losses": 1513,
+    "losses": 1514,
     "win_rate_pct": 47.4,
-    "total_pnl_sol": -0.054134,
-    "avg_pnl_pct": 26.26,
+    "total_pnl_sol": -0.057401,
+    "avg_pnl_pct": 26.25,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 500,
-    "today_realized_sol": 2.631181,
-    "today_target_pct": 657.8,
+    "today_trades": 501,
+    "today_realized_sol": 2.627914,
+    "today_target_pct": 657.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1364,
-      "loss_count": 1513,
+      "loss_count": 1514,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T18:29:48.337254+00:00",
+  "last_llm_brief_at": "2026-09-10T18:31:17.053735+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EZuHE7zu9mUbk3T9WqkFQMdNGZDvW2cHsZ5ktsWEpump": {
-      "price_usd": 2.8241657804463952e-06,
+      "price_usd": 2.7760484634583133e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 16.6188645999,
-      "volume_h24": 307.42,
+      "liquidity_usd": 1.2907700000000002e-06,
+      "volume_h24": 485.82,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.166355001
+      "real_sol_reserves": 1.3e-08
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
