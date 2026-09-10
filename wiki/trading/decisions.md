@@ -17617,3 +17617,6 @@
 ## [2026-09-10 02:21 UTC] sell | [FULL][LLM] $Lil Wayne at $2.82861e-06 | P&L: -6.8%
 - **Reasoning:** $Lil Wayne is down only -6.8% but held 0.0h and no clear bounce. Description missing (viability concern), no twitter shown, narrative unclear, and pool=$0 means no organic depth yet. Cutting at a small loss to free the slot for fresher attention — staying in a bonding-curve ghost position ties up capital with no catalyst.
 
+## [2026-09-10 02:23 UTC] buy | [LLM] $SOUP at $2.9e-06, spent 0.05 SOL
+- **Reasoning:** $SOUP rides real OpenAI news cycle ($7B chips, servers 'melting down', 'i am just a soup' reply = viral absurdist meme). Has twitter + substantive desc (passes viability), no fragility flags, mcap $2.9k at 0.8min = very early attention entry. Absurdist AI-fail memes print hard on X — this has the narrative + the post. Risk: tiny mcap + 0% bond = rug-prone, hence 0.05 SOL size and tight -25% hard stop.
+
