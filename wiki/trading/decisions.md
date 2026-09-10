@@ -19411,3 +19411,6 @@
 ## [2026-09-10 14:29 UTC] buy | [LLM] $WARDOGS at $3.46211e-07, spent 0.05 SOL
 - **Reasoning:** $WARDOGS — strongest narrative signal: dedicated X account (@WARDOGS), community dog meta, fresh 0.8min launch at $5.7k mcap, no fragility keywords, passes viability gate. Animal/community memecoins with KOL attention are the attention-market alpha.
 
+## [2026-09-10 14:30 UTC] sell | [rapid-drop] $WARDOGS crashed >15% in one tick | P&L: -31.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
