@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.867597,
+  "balance_sol": 4.912208,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5kPiwgKgvj6zW458DimZ2crV54shwaiPbPKLfVKTpump": {
-      "symbol": "Honk",
-      "name": "The Bonk Killer",
-      "amount": 1407925.9766626759,
-      "entry_price_usd": 3.5978454009401664e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T12:13:15.838863+00:00",
-      "entry_usd_value": 5.0655,
-      "last_seen_price_usd": 3.5978454009401664e-06,
-      "entry_signals": {
-        "liquidity_usd": 474.60192645194996,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3584.2489976012807,
-        "ath_market_cap_usd": 9239.6542067737,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.684650345,
-        "description": "",
-        "twitter": "https://x.com/0utdated_/status/2098021755470151878",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -46097,19 +46073,30 @@
       "pnl_pct": 42.06,
       "exit_reason": "LLM: sell_all — Up 42.1% already past 25% TP. Bonding-curve token with $0 pool liquidity and 21% of supply — extreme concentration risk. Lock the gain, don't hope for",
       "partial": false
+    },
+    {
+      "mint": "5kPiwgKgvj6zW458DimZ2crV54shwaiPbPKLfVKTpump",
+      "symbol": "Honk",
+      "name": "The Bonk Killer",
+      "amount_sold": 1407925.9766626759,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T12:13:15.838863+00:00",
+      "exit_time": "2026-09-10T12:14:34.066220+00:00",
+      "entry_price_usd": 3.5978454009401664e-06,
+      "exit_price_usd": 3.2084578154624544e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.044611,
+      "pnl_sol": -0.005389,
+      "pnl_pct": -10.82,
+      "exit_reason": "LLM: sell_all — Down only 10.8%, well within the -25% hard cap and only held 0 minutes. Pool is thin ($196) so selling would create poor execution and likely crystall",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T12:13:15.839144+00:00",
+  "last_updated": "2026-09-10T12:14:34.066517+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.31,
-  "portfolio_value_usd": 498.2,
+  "last_sol_price_usd": 101.26,
+  "portfolio_value_usd": 497.41,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 11:39 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $LEGS at $2.83299e-06 | P&L: -2.1%",
-      "reason": "5096% share of a pool with $0 liquidity is a death trap — effectively illiquid, can only exit via bonding curve at any price. Cut and rotate capital to a fresh launch."
-    },
     {
       "time": "2026-09-10 11:40 UTC",
       "action": "sell",
@@ -46223,30 +46210,48 @@
       "action": "buy",
       "details": "[LLM] $Honk at $3.59785e-06, spent 0.05 SOL",
       "reason": "$Honk 'The Bonk Killer' — direct competitor/parasite narrative against the established $BONK brand is one of the clearest attention hooks in memecoins. Bonds, KOL post, sub-1min age = textbook fresh-launch alpha setup."
+    },
+    {
+      "time": "2026-09-10 12:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Honk at $3.20846e-06 | P&L: -10.8%",
+      "reason": "Down only 10.8%, well within the -25% hard cap and only held 0 minutes. Pool is thin ($196) so selling would create poor execution and likely crystallize a bigger loss. Give it time to either bounce on the 'Bonk Killer' narrative or hit the stop cleanly."
     }
   ],
   "trade_stats": {
-    "total": 2710,
+    "total": 2711,
     "wins": 1314,
-    "losses": 1396,
+    "losses": 1397,
     "win_rate_pct": 48.5,
-    "total_pnl_sol": 0.651354,
-    "avg_pnl_pct": 28.3,
+    "total_pnl_sol": 0.645965,
+    "avg_pnl_pct": 28.29,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 333,
-    "today_realized_sol": 3.336669,
-    "today_target_pct": 834.2,
+    "today_trades": 334,
+    "today_realized_sol": 3.33128,
+    "today_target_pct": 832.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1314,
-      "loss_count": 1396,
+      "loss_count": 1397,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T12:13:14.572117+00:00",
+  "last_llm_brief_at": "2026-09-10T12:14:34.066115+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5kPiwgKgvj6zW458DimZ2crV54shwaiPbPKLfVKTpump": {
+      "price_usd": 3.2084578154624544e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 196.1076765779,
+      "volume_h24": 11424.8,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.936674665
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
