@@ -19330,3 +19330,6 @@
 ## [2026-09-10 13:49 UTC] sell | [FULL][LLM] $cap at $3.045e-06 | P&L: +10.0%
 - **Reasoning:** +10% on bonding curve with massive share concentration flag — lock the gain before stale exit triggers or concentration causes a dump into my position.
 
+## [2026-09-10 13:50 UTC] buy | [LLM] $SOLANAAI at $3.66476e-06, spent 0.05 SOL
+- **Reasoning:** $SOLANAAI — AI-on-Solana is a hot narrative, fresh launch with twitter signal from @derivativist. Low mcap ($3.6k) = high upside if narrative catches, but also high risk of fade. Speculative scalp, will watch for +20% to take profit.
+

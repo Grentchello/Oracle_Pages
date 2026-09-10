@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.593348,
+  "balance_sol": 4.543348,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "GsHUj9s8Emz9Z5WbrpLoNx3tXefbCgxKcSCKXqcSpump": {
+      "symbol": "SOLANAAI",
+      "name": "Solana AI",
+      "amount": 1363389.8705995544,
+      "entry_price_usd": 3.6647624481783604e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T13:50:41.568034+00:00",
+      "entry_usd_value": 4.996500000000001,
+      "last_seen_price_usd": 3.6647624481783604e-06,
+      "entry_signals": {
+        "liquidity_usd": 290.02168411095,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3654.860658315374,
+        "ath_market_cap_usd": 4159.230159046661,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 2.902248415,
+        "description": "",
+        "twitter": "https://x.com/derivativist/status/2098046268018671924?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -46891,17 +46915,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T13:49:22.145637+00:00",
+  "last_updated": "2026-09-10T13:50:41.568315+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.29,
-  "portfolio_value_usd": 456.07,
+  "last_sol_price_usd": 99.93,
+  "portfolio_value_usd": 459.01,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 13:30 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $DUOLINGO at $2.98955e-06 | P&L: -0.7%",
-      "reason": "Just entered (-0.6% is noise on a fresh buy), pool $106 means thin liquidity and any meaningful volume will move it. Need a few minutes to see if bonding curve catches momentum. Far from the -25% hard cap."
-    },
     {
       "time": "2026-09-10 13:32 UTC",
       "action": "buy",
@@ -47015,6 +47033,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $cap at $3.045e-06 | P&L: +10.0%",
       "reason": "+10% on bonding curve with massive share concentration flag — lock the gain before stale exit triggers or concentration causes a dump into my position."
+    },
+    {
+      "time": "2026-09-10 13:50 UTC",
+      "action": "buy",
+      "details": "[LLM] $SOLANAAI at $3.66476e-06, spent 0.05 SOL",
+      "reason": "$SOLANAAI — AI-on-Solana is a hot narrative, fresh launch with twitter signal from @derivativist. Low mcap ($3.6k) = high upside if narrative catches, but also high risk of fade. Speculative scalp, will watch for +20% to take profit."
     }
   ],
   "trade_stats": {
@@ -47036,21 +47060,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T13:49:22.145205+00:00",
+  "last_llm_brief_at": "2026-09-10T13:50:40.004261+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "G5QHEoNAqaLwhNqQJn5EqnsZ3Vh9uJknoGvuoSPZpump": {
-      "price_usd": 3.0449994131645065e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1.9858000000000002e-07,
-      "volume_h24": 283.31,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 2e-09
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
