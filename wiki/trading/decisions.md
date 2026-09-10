@@ -19849,3 +19849,6 @@
 ## [2026-09-10 17:28 UTC] buy | [LLM] $TripleS at $9.34842e-06, spent 0.05 SOL
 - **Reasoning:** $TripleS (Sydney Sydney Sydney Sahur) — fresh sub-minute launch, $9.4k mcap with active Twitter attention from RealDesertDoge. The 'Sydney Sahur' brainrot meme is currently viral on X and TikTok, strong narrative for a 5-10x run in the first hour. Risk: meme is meme-y but attention is real and early.
 
+## [2026-09-10 17:29 UTC] sell | [rapid-drop] $TripleS crashed >15% in one tick | P&L: -58.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
