@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.741747,
+  "balance_sol": 4.737631,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "5AnTVTFyBFtomCjewynwdGk9t9hFFsCgNNAbNhJjpump": {
-      "symbol": "LUMIO",
-      "name": "Lumio",
-      "amount": 502296.3694829646,
-      "entry_price_usd": 9.893561454794749e-06,
+    "Byzk1ChNwjyrdi832pHabxmrs445tM5BFB9bsg5tpump": {
+      "symbol": "APU",
+      "name": "Apu Apustaja",
+      "amount": 1767155.110793424,
+      "entry_price_usd": 2.798e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T12:57:02.534749+00:00",
-      "entry_usd_value": 4.9695,
-      "last_seen_price_usd": 9.893561454794749e-06,
+      "entry_time": "2026-09-10T12:58:20.655035+00:00",
+      "entry_usd_value": 4.944500000000001,
+      "last_seen_price_usd": 2.798e-06,
       "entry_signals": {
-        "liquidity_usd": 3460.1958773405695,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9855.735180996357,
-        "ath_market_cap_usd": 11041.648414900295,
+        "liquidity_usd": 13.23350212492,
+        "volume_24h_usd": 4313.51,
+        "market_cap_usd": 2794.288086297941,
+        "ath_market_cap_usd": 5507.724088805376,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 34.814326163,
+        "real_sol_reserves": 0.133820428,
         "description": "",
-        "twitter": "https://x.com/BoltricksDev/status/2098032717224960266",
+        "twitter": "https://x.com/K1rajj/status/2098032672039653788",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -46437,25 +46437,30 @@
       "pnl_pct": -40.63,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "5AnTVTFyBFtomCjewynwdGk9t9hFFsCgNNAbNhJjpump",
+      "symbol": "LUMIO",
+      "name": "Lumio",
+      "amount_sold": 502296.3694829646,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T12:57:02.534749+00:00",
+      "exit_time": "2026-09-10T12:58:19.235261+00:00",
+      "entry_price_usd": 9.893561454794749e-06,
+      "exit_price_usd": 9.033418526573486e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.045884,
+      "pnl_sol": -0.004116,
+      "pnl_pct": -8.69,
+      "exit_reason": "LLM: sell_all — LUMIO down -8.7% on a $2396 bonding-curve pool, just entered, no momentum. Default bias is to cut ties with stagnant positions and rotate capital into",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T12:57:02.535026+00:00",
+  "last_updated": "2026-09-10T12:58:20.655189+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.39,
-  "portfolio_value_usd": 476.25,
+  "last_sol_price_usd": 98.89,
+  "portfolio_value_usd": 473.45,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 12:32 UTC",
-      "action": "buy",
-      "details": "[LLM] $CHEESEBURGER at $5.29294e-06, spent 0.05 SOL",
-      "reason": "Food meme narrative (CHEESEBURGER), has twitter signal, bond at 21% (highest engagement of the batch). Simple universal name has viral potential. Risk: ultra-fresh (0.4min), need to monitor for immediate dump."
-    },
-    {
-      "time": "2026-09-10 12:33 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $CHEESEBURGER at $6.82152e-06 | P&L: +28.9%",
-      "reason": "+28.9% in 0.0h is right at the auto +30% TP threshold — locking in half before the bot auto-triggers or the $1681 thin pool reverses. Selling only half keeps upside exposure if narrative runs, but secures realized gain on the rest. Low pool = can't safely sell_all without eating my own exit."
-    },
     {
       "time": "2026-09-10 12:34 UTC",
       "action": "sell",
@@ -46563,40 +46568,52 @@
       "action": "buy",
       "details": "[LLM] $LUMIO at $9.89356e-06, spent 0.05 SOL",
       "reason": "$LUMIO has the highest mcap ($9.8k) and is furthest along bonding curve (32%) of the fresh batch — leading attention signal with a live tweet from @BoltricksDev. Earliest-stage lead with actual traction beats weaker peers."
+    },
+    {
+      "time": "2026-09-10 12:58 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LUMIO at $9.03342e-06 | P&L: -8.7%",
+      "reason": "LUMIO down -8.7% on a $2396 bonding-curve pool, just entered, no momentum. Default bias is to cut ties with stagnant positions and rotate capital into fresh attention."
+    },
+    {
+      "time": "2026-09-10 12:58 UTC",
+      "action": "buy",
+      "details": "[LLM] $APU at $2.798e-06, spent 0.05 SOL",
+      "reason": "$APU (Apu Apustaja) — established Pepe-frog internet culture mascot, fresh launch with twitter link from K1rajj. Bonding curve at 0% (very early), mcap $2,794 = cheap entry, classic viral cartoon character narrative. Fits the 5x-in-hours thesis on cheap meme culture tokens."
     }
   ],
   "trade_stats": {
-    "total": 2730,
+    "total": 2731,
     "wins": 1318,
-    "losses": 1412,
+    "losses": 1413,
     "win_rate_pct": 48.3,
-    "total_pnl_sol": 0.525504,
-    "avg_pnl_pct": 28.0,
+    "total_pnl_sol": 0.521388,
+    "avg_pnl_pct": 27.98,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 353,
-    "today_realized_sol": 3.210819,
-    "today_target_pct": 802.7,
+    "today_trades": 354,
+    "today_realized_sol": 3.206703,
+    "today_target_pct": 801.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1318,
-      "loss_count": 1412,
+      "loss_count": 1413,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T12:57:01.042870+00:00",
+  "last_llm_brief_at": "2026-09-10T12:58:19.235222+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "HW8wZ1DSqwwkENnGfvL7FWZd7npviXqWHtSHLAYnpump": {
-      "price_usd": 2.782734012746102e-06,
+    "5AnTVTFyBFtomCjewynwdGk9t9hFFsCgNNAbNhJjpump": {
+      "price_usd": 9.033418526573486e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.08607235945,
-      "volume_h24": 4065.83,
+      "liquidity_usd": 2395.7436793103,
+      "volume_h24": 25329.65,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.020988755
+      "real_sol_reserves": 24.22634927
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -19171,3 +19171,9 @@
 ## [2026-09-10 12:57 UTC] buy | [LLM] $LUMIO at $9.89356e-06, spent 0.05 SOL
 - **Reasoning:** $LUMIO has the highest mcap ($9.8k) and is furthest along bonding curve (32%) of the fresh batch — leading attention signal with a live tweet from @BoltricksDev. Earliest-stage lead with actual traction beats weaker peers.
 
+## [2026-09-10 12:58 UTC] sell | [FULL][LLM] $LUMIO at $9.03342e-06 | P&L: -8.7%
+- **Reasoning:** LUMIO down -8.7% on a $2396 bonding-curve pool, just entered, no momentum. Default bias is to cut ties with stagnant positions and rotate capital into fresh attention.
+
+## [2026-09-10 12:58 UTC] buy | [LLM] $APU at $2.798e-06, spent 0.05 SOL
+- **Reasoning:** $APU (Apu Apustaja) — established Pepe-frog internet culture mascot, fresh launch with twitter link from K1rajj. Bonding curve at 0% (very early), mcap $2,794 = cheap entry, classic viral cartoon character narrative. Fits the 5x-in-hours thesis on cheap meme culture tokens.
+
