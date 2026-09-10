@@ -19513,3 +19513,9 @@
 ## [2026-09-10 15:09 UTC] buy | [LLM] $Josh at $1.206e-05, spent 0.05 SOL
 - **Reasoning:** $Josh from TheAuraBird has the highest mcap ($7.1k) and bond progress (27%) of the fresh batch — strongest early attention signal. Narrative name + active X poster = viral potential.
 
+## [2026-09-10 15:10 UTC] sell | [rapid-drop] $Josh crashed >15% in one tick | P&L: -55.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 15:10 UTC] buy | [LLM] $RIZZ at $2.827e-06, spent 0.05 SOL
+- **Reasoning:** $RIZZ taps proven viral vocabulary (Oxford WOTY 2023) with $2.8k mcap giving maximum upside if it catches a wave. Pure attention play, no celebrity/political fragility flags.
+
