@@ -18988,3 +18988,6 @@
 ## [2026-09-10 11:31 UTC] sell | [PARTIAL][LLM] $BOTRIOT at $2.84742e-06 | P&L: +0.1%
 - **Reasoning:** Botriot is flat (+0.1%) with massive red flag: our share is 46% of a $11 pool — this means either we are the liquidity or extremely illiquid. At 46% concentration, any other seller crashes our position. Cut exposure now, free up the slot for fresh attention.
 
+## [2026-09-10 11:33 UTC] sell | [FULL][LLM] $BOTRIOT at $2.86319e-06 | P&L: +0.7%
+- **Reasoning:** +0.7% and just opened (0.0h). No reason to exit at break-even on a fresh bonding-curve position — let it develop. Not stale yet.
+
