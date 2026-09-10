@@ -19786,3 +19786,9 @@
 ## [2026-09-10 17:05 UTC] buy | [LLM] $juggerpepe at $5.305e-05, spent 0.05 SOL
 - **Reasoning:** $juggerpepe leads the batch at $47k mcap, 43% bonded, with a dedicated twitter handle. PePe narrative remix has attention potential, but $47k is already extractable alpha — entering half-size conviction.
 
+## [2026-09-10 17:06 UTC] sell | [FULL][LLM] $juggerpepe at $5.187e-05 | P&L: -2.2%
+- **Reasoning:** Only -2.2% but need rotation slot open. Pool is weak ($17k), our share is 0% — no liquidity to support a run. Free up the slot for $Hedgy which has a stronger narrative.
+
+## [2026-09-10 17:06 UTC] buy | [LLM] $Hedgy at $3.11e-06, spent 0.05 SOL
+- **Reasoning:** $Hedgy — claimed artist behind Pudgy Penguins. That's a real narrative with verifiable identity (twitter linked @PenTheArtist). Mcap $3k is tiny with a credible creator angle. Risk: bond only 5% so very early — size small and watch for rug.
+

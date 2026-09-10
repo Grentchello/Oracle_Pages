@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.24456,
+  "balance_sol": 4.243472,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "E1BXFmUCSPC96TJ2h9CtpMEbb9xLJxHufUggFJNapump": {
-      "symbol": "juggerpepe",
-      "name": "The Juggerpepe",
-      "amount": 94184.73138548541,
-      "entry_price_usd": 5.305e-05,
+    "DwRTowb8y74WEiLsLaoFUemtFY9hdHw6SS1tHzvzpump": {
+      "symbol": "Hedgy",
+      "name": "Hedgy",
+      "amount": 1605787.7813504823,
+      "entry_price_usd": 3.11e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T17:05:33.725928+00:00",
-      "entry_usd_value": 4.996500000000001,
-      "last_seen_price_usd": 5.305e-05,
+      "entry_time": "2026-09-10T17:06:53.295799+00:00",
+      "entry_usd_value": 4.994,
+      "last_seen_price_usd": 3.11e-06,
       "entry_signals": {
-        "liquidity_usd": 17530.57,
-        "volume_24h_usd": 4221.73,
-        "market_cap_usd": 47059.712739440896,
-        "ath_market_cap_usd": 59288.27328780743,
+        "liquidity_usd": 167.94637032228,
+        "volume_24h_usd": 167.74,
+        "market_cap_usd": 3108.745324612819,
+        "ath_market_cap_usd": 3108.745324612819,
         "volatility_score": null,
-        "boost_mode": "IN_PROGRESS",
-        "real_sol_reserves": 85.005359067,
-        "description": "",
-        "twitter": "https://x.com/juggerpepe",
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.681481481,
+        "description": "I was the artist behind Pudgy Penguins, and I helped turn a simple penguin into a worldwide cultural phenomenon. What started as artwork grew into memes, toys, plushies, games, and eventually a $5B memecoin. Watching Pudgy grow taught me that the best characters are simple, recognizable, and give pe",
+        "twitter": "https://x.com/PenTheArtist/status/2098095066598264845",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -48273,25 +48273,30 @@
       "pnl_pct": 0.05,
       "exit_reason": "LLM: sell_all — $GRIN is flat at 0.0% with only 0.0h held and pool=$110 is thin. Bonding-curve position, no urgency to exit yet — wait a few minutes to see if buyers ",
       "partial": false
+    },
+    {
+      "mint": "E1BXFmUCSPC96TJ2h9CtpMEbb9xLJxHufUggFJNapump",
+      "symbol": "juggerpepe",
+      "name": "The Juggerpepe",
+      "amount_sold": 94184.73138548541,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T17:05:33.725928+00:00",
+      "exit_time": "2026-09-10T17:06:51.888038+00:00",
+      "entry_price_usd": 5.305e-05,
+      "exit_price_usd": 5.187e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.048912,
+      "pnl_sol": -0.001088,
+      "pnl_pct": -2.22,
+      "exit_reason": "LLM: sell_all — Only -2.2% but need rotation slot open. Pool is weak ($17k), our share is 0% — no liquidity to support a run. Free up the slot for $Hedgy which has a ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T17:05:33.726112+00:00",
+  "last_updated": "2026-09-10T17:06:53.295958+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.93,
-  "portfolio_value_usd": 429.16,
+  "last_sol_price_usd": 99.88,
+  "portfolio_value_usd": 428.83,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 16:41 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $1.50 at $1.19542e-09 | P&L: +40.1%",
-      "reason": "Up +40.1% past +30% TP threshold and our 1134% pool share means we're a whale in an illiquid bonding curve — locking in gains on half de-risks the position while keeping upside exposure. Realizing ~+0.02 SOL here."
-    },
-    {
-      "time": "2026-09-10 16:42 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $1.50 at $1.15893e-09 | P&L: +35.8%",
-      "reason": "Up +35.8% on a $0-pool bonding-curve token with our share at 572% — that share % means exit liquidity is thin. Take partial profit now, let the runner ride free on the rest. If it pulls back hard, we already locked 50% of the gain."
-    },
     {
       "time": "2026-09-10 16:44 UTC",
       "action": "sell",
@@ -48399,40 +48404,50 @@
       "action": "buy",
       "details": "[LLM] $juggerpepe at $5.305e-05, spent 0.05 SOL",
       "reason": "$juggerpepe leads the batch at $47k mcap, 43% bonded, with a dedicated twitter handle. PePe narrative remix has attention potential, but $47k is already extractable alpha — entering half-size conviction."
+    },
+    {
+      "time": "2026-09-10 17:06 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $juggerpepe at $5.187e-05 | P&L: -2.2%",
+      "reason": "Only -2.2% but need rotation slot open. Pool is weak ($17k), our share is 0% — no liquidity to support a run. Free up the slot for $Hedgy which has a stronger narrative."
+    },
+    {
+      "time": "2026-09-10 17:06 UTC",
+      "action": "buy",
+      "details": "[LLM] $Hedgy at $3.11e-06, spent 0.05 SOL",
+      "reason": "$Hedgy — claimed artist behind Pudgy Penguins. That's a real narrative with verifiable identity (twitter linked @PenTheArtist). Mcap $3k is tiny with a credible creator angle. Risk: bond only 5% so very early — size small and watch for rug."
     }
   ],
   "trade_stats": {
-    "total": 2838,
+    "total": 2839,
     "wins": 1357,
-    "losses": 1481,
+    "losses": 1482,
     "win_rate_pct": 47.8,
-    "total_pnl_sol": 0.028318,
-    "avg_pnl_pct": 26.69,
+    "total_pnl_sol": 0.02723,
+    "avg_pnl_pct": 26.68,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 461,
-    "today_realized_sol": 2.713633,
-    "today_target_pct": 678.4,
+    "today_trades": 462,
+    "today_realized_sol": 2.712545,
+    "today_target_pct": 678.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1357,
-      "loss_count": 1481,
+      "loss_count": 1482,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T17:05:32.565115+00:00",
+  "last_llm_brief_at": "2026-09-10T17:06:51.888000+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "Fi5PBPnENVn6THFNm4Hyj61k8nseYTnZ3DExF4avpump": {
-      "price_usd": 3.0035397201751984e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 110.41569876927002,
-      "volume_h24": 109.32,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.104930439
+    "E1BXFmUCSPC96TJ2h9CtpMEbb9xLJxHufUggFJNapump": {
+      "price_usd": 5.187e-05,
+      "change_h24": 18.48,
+      "change_h1": 18.48,
+      "liquidity_usd": 17430.39,
+      "volume_h24": 64357.52,
+      "dex_id": "pumpswap",
+      "source": "dexscreener"
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
