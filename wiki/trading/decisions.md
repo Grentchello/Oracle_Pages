@@ -18604,3 +18604,6 @@
 ## [2026-09-10 08:33 UTC] sell | [PARTIAL][LLM] $STOMP at $2.15361e-05 | P&L: +4.4%
 - **Reasoning:** Up only +4.4% after first hour on a tiny $5.3k pool — no momentum yet, but technically green. Take half off to recover cost basis and let the rest ride if it pops.
 
+## [2026-09-10 08:35 UTC] sell | [PARTIAL][LLM] $STOMP at $2.59839e-05 | P&L: +25.9%
+- **Reasoning:** $STOMP is up +25.9% and approaching the +30% TP threshold (auto-sell at +25% per rules). Taking half off locks the gain while leaving runner for the +50%/+100% levels. Bonding-curve tokens often give back gains fast once early buyers rotate.
+
