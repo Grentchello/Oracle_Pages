@@ -20146,3 +20146,9 @@
 ## [2026-09-10 19:10 UTC] buy | [LLM] $GOR at $5.84265e-06, spent 0.05 SOL
 - **Reasoning:** $GOR (Gorbagana) — mcap $5.8k, age 0.4min. Backed by Anatoly Yakovenko (Solana co-founder) tweet. This is a Solana L2 / GOR chain narrative with a top-tier founder signal — exactly the kind of launch where early entry pays. Viability gate passes (twitter), fragility clean (chain narrative, not political/celebrity). Risk: founder tweets are often tongue-in-cheek; tight stop will enforce discipline.
 
+## [2026-09-10 19:11 UTC] sell | [rapid-drop] $GOR crashed >15% in one tick | P&L: -16.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:11 UTC] buy | [LLM] $Flenzo at $5.86452e-06, spent 0.05 SOL
+- **Reasoning:** Flenzo: absurdist meme phrase ('common sense filed a complaint and moved out') with attached X account @Flenquip, sub-minute age, $5.8k mcap still in early attention window. Narrative has shareable humor — exactly the kind of low-mcap launch that 5-10x on first hour attention. Viability passes (desc >50 chars + twitter). 0.05 SOL size per v7 sizing rule.
+
