@@ -17476,3 +17476,9 @@
 ## [2026-09-10 01:28 UTC] buy | [LLM] $FART at $5.06812e-06, spent 0.05 SOL
 - **Reasoning:** $FART (FacebookAppleRobloxTesla) is an absurdist acronym meme with a live X link from @selfawarepepe — exactly the ironic self-aware humor that pumps on memecoin CT. $5k mcap with0.5min age means room to run; risk is bond is only 20% complete so liquidity is thin — use0.05 SOL and watch for quick exit.
 
+## [2026-09-10 01:29 UTC] sell | [rapid-drop] $FART crashed >15% in one tick | P&L: -19.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 01:30 UTC] buy | [LLM] $LAMB at $3.96041e-06, spent 0.05 SOL
+- **Reasoning:** MALONE LAMB has WatcherGuru attention (388k+ followers crypto news account — viral potential). Bond 13% suggests organic buying. Sub-$4k mcap with mainstream X account = classic early launch setup. Risk: super-fresh, could rug in minutes.
+
