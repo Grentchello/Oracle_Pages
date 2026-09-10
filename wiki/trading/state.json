@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.736133,
+  "balance_sol": 4.686133,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "Gst6T9Mus9FdbNWq6Re9aNxJ26vPtfHh5BUqTcVsFmxH": {
+      "symbol": "ASTRO",
+      "name": "Astro Bot",
+      "amount": 950862.0689655172,
+      "entry_price_usd": 5.22e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T13:32:09.624447+00:00",
+      "entry_usd_value": 4.9635,
+      "last_seen_price_usd": 5.22e-06,
+      "entry_signals": {
+        "liquidity_usd": 840.7076893007401,
+        "volume_24h_usd": 7235.43,
+        "market_cap_usd": 11252.500485957804,
+        "ath_market_cap_usd": 11252.500485957804,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 8.468899862,
+        "description": "memecoin",
+        "twitter": "https://x.com/i/status/2098041357696676008",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -46738,17 +46762,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T13:30:15.191122+00:00",
+  "last_updated": "2026-09-10T13:32:09.624648+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.71,
-  "portfolio_value_usd": 472.24,
+  "last_sol_price_usd": 99.27,
+  "portfolio_value_usd": 470.16,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 13:12 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $TWIN at $2.77088e-06 | P&L: -4.5%",
-      "reason": "$TWIN is down -4.5% on a fresh entry with no clear bounce signal and no notable narrative. Cutting early to free the slot for a higher-conviction launch."
-    },
     {
       "time": "2026-09-10 13:12 UTC",
       "action": "buy",
@@ -46862,6 +46880,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $DUOLINGO at $2.98955e-06 | P&L: -0.7%",
       "reason": "Just entered (-0.6% is noise on a fresh buy), pool $106 means thin liquidity and any meaningful volume will move it. Need a few minutes to see if bonding curve catches momentum. Far from the -25% hard cap."
+    },
+    {
+      "time": "2026-09-10 13:32 UTC",
+      "action": "buy",
+      "details": "[LLM] $ASTRO at $5.22e-06, spent 0.05 SOL",
+      "reason": "$ASTRO (Astro Bot) has the strongest attention signal — same viral X post (status/2098041357696676008) is being chased by 3 coordinated mints, indicating real viral traction. This mint has highest bonding progress (33%) suggesting lead position. Narrative is bot/AI-themed which pumps hard in current cycle. Risk: 0.6min old, bonding incomplete, but that IS the alpha window."
     }
   ],
   "trade_stats": {
@@ -46883,21 +46907,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T13:30:15.189922+00:00",
+  "last_llm_brief_at": "2026-09-10T13:32:08.357860+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "7gMYjxeF6wxWpZRBxZEExcSxFHfsVVoxY8oTSBALpump": {
-      "price_usd": 2.9895450996446397e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 106.35039614302998,
-      "volume_h24": 120.23,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.066597093
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
