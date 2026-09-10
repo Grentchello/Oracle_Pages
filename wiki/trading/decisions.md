@@ -20527,3 +20527,6 @@
 ## [2026-09-10 21:27 UTC] buy | [LLM] $CHILLGUY at $5.958e-05, spent 0.05 SOL
 - **Reasoning:** $CHILLGUY — recognized viral 'Chill Guy' meme narrative, live X account, highest mcap ($54k) with bond 43% complete signaling real demand, classic low-cap meme launch with 10x potential. The 'same face while chart screams' tagline is built for X virality.
 
+## [2026-09-10 21:28 UTC] sell | [PARTIAL][LLM] $CHILLGUY at $7.369e-05 | P&L: +23.7%
+- **Reasoning:** $CHILLGUY is up +23.7% and approaching the +25% TP threshold. Pool liquidity $21k is thin relative to potential volatility. Take half profit now to lock gains and let the rest ride with a free entry.
+
