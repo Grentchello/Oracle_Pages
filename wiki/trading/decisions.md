@@ -18919,3 +18919,6 @@
 ## [2026-09-10 11:00 UTC] buy | [LLM] $VOID at $8.134e-06, spent 0.05 SOL
 - **Reasoning:** $VOID — explicit airdrop-to-top-15 mechanism (60% supply) creates forced buy pressure as holders accumulate to qualify. Real X account (CryptoGainsDev), $8.1k mcap, fresh 1 min old. Pure attention/airdrop meta play, the kind of structural demand that pumps.
 
+## [2026-09-10 11:01 UTC] sell | [FULL][LLM] $VOID at $9.04527e-06 | P&L: +11.2%
+- **Reasoning:** $VOID is +11.2% with bonding curve still partial and pool only $2393. Not at any TP threshold, and rotation requires me to lock a small green gain for an unproven fresh mint. Hold and reassess in next tick.
+
