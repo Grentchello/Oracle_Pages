@@ -19663,3 +19663,6 @@
 ## [2026-09-10 16:03 UTC] buy | [LLM] $ANIMEME at $6.31752e-07, spent 0.05 SOL
 - **Reasoning:** $ANIMEME — JoJo's Bizarre Adventure 'ZA WARUDO' reference hits a massive, passionate anime-twitter fanbase that is one of the most active memecoin communities. Ultra-low mcap ($630) means 10-50x is realistic if even a small wave of weebs piles in. Narrative is iconic and instantly recognizable to the target demo. Risk: tiny mcap = rug-prone, but the narrative strength justifies the gamble.
 
+## [2026-09-10 16:04 UTC] sell | [rapid-drop] $ANIMEME crashed >15% in one tick | P&L: -71.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
