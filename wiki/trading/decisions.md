@@ -18352,3 +18352,6 @@
 ## [2026-09-10 06:47 UTC] buy | [LLM] $MACROHARD at $1.01402e-07, spent 0.05 SOL
 - **Reasoning:** $MACROHARD is a clean Microsoft parody with instant name recognition — classic attention-market playbook. $4.9k mcap with 9% bond = early curve, narrative is universally understood, no fragility flags. Risk: parody coins can fade fast if no one builds on it.
 
+## [2026-09-10 06:49 UTC] sell | [PARTIAL][LLM] $MACROHARD at $1.01014e-07 | P&L: -0.4%
+- **Reasoning:** Just opened 0.0h ago, only -0.4%, not yet at stale threshold. But 52% pool share is a real problem — if it doesn't move in next tick I'll exit on illiquidity grounds.
+
