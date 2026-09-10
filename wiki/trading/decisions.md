@@ -20521,3 +20521,9 @@
 ## [2026-09-10 21:25 UTC] buy | [LLM] $fg at $5.53626e-07, spent 0.05 SOL
 - **Reasoning:** Falling Guy is a classic universally recognized meme reference with instant narrative clarity and ultra-low mcap ($552) — pure attention-market lottery ticket, fits 0.05 SOL position size.
 
+## [2026-09-10 21:26 UTC] sell | [rapid-drop] $fg crashed >15% in one tick | P&L: -49.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 21:27 UTC] buy | [LLM] $CHILLGUY at $5.958e-05, spent 0.05 SOL
+- **Reasoning:** $CHILLGUY — recognized viral 'Chill Guy' meme narrative, live X account, highest mcap ($54k) with bond 43% complete signaling real demand, classic low-cap meme launch with 10x potential. The 'same face while chart screams' tagline is built for X virality.
+
