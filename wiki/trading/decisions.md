@@ -18208,3 +18208,6 @@
 ## [2026-09-10 05:53 UTC] buy | [LLM] $Normie at $6.987e-06, spent 0.05 SOL
 - **Reasoning:** $Normie — strongest fresh launch: highest mcap ($12k) at 0.5min age, 34% bond, clear meta-narrative ('The Normie' is self-aware meme commentary), twitter link from @derivativist. Highest attention signal of the slate; riding early before normie-chasers pile in.
 
+## [2026-09-10 05:54 UTC] sell | [rapid-drop] $Normie crashed >15% in one tick | P&L: -57.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
