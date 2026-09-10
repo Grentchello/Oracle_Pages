@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.558524,
+  "balance_sol": 4.508524,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "7HnMf1oc7a68ELmKfmnMM3DQX7Tdz8m8jF38dGopump": {
+      "symbol": "DINOBOO",
+      "name": "DINOBOO",
+      "amount": 1192688.6792452831,
+      "entry_price_usd": 4.24e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T08:50:52.639201+00:00",
+      "entry_usd_value": 5.057,
+      "last_seen_price_usd": 4.24e-06,
+      "entry_signals": {
+        "liquidity_usd": 1083.45656704454,
+        "volume_24h_usd": 680.55,
+        "market_cap_usd": 4956.683348716405,
+        "ath_market_cap_usd": 4985.785424548283,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 10.712443811,
+        "description": "Dinoboo is a little prehistoric explorer who believes adventure isn’t about rushing—it’s about taking one small step at a time. While others hurry across the ancient world, Dinoboo wanders at his own peaceful pace, finding joy in quiet riversides, lush meadows, and the simple beauty of every moment.",
+        "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44783,17 +44807,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T08:49:21.055566+00:00",
+  "last_updated": "2026-09-10T08:50:52.639404+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.14,
   "portfolio_value_usd": 461.05,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 08:27 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CROWL at $9.90586e-06 | P&L: +8.7%",
-      "reason": "$CROWL just opened this tick at +8.7% — not yet at the +20% profit-taking threshold and not stale (>30min flat). Bonding curve still active with $2,645 pool. No reason to bail on a fresh green position; if it stalls for 30min the bot auto-exits and frees the slot."
-    },
     {
       "time": "2026-09-10 08:29 UTC",
       "action": "buy",
@@ -44907,6 +44925,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $INTERN at $2.37652e-07 | P&L: +3.4%",
       "reason": "Only +3.4% but I own 13% of a $40 pool — I AM the liquidity. Any meaningful size exit would crater price. Locking small green and freeing the slot is correct."
+    },
+    {
+      "time": "2026-09-10 08:50 UTC",
+      "action": "buy",
+      "details": "[LLM] $DINOBOO at $4.24e-06, spent 0.05 SOL",
+      "reason": "$DINOBOO: cute 'little prehistoric explorer' narrative has universal meme appeal, passes viability gate (desc >50 chars, mcap $5k), no fragility keywords, age 1.4min is prime entry before bond curve completes. Fresh launch with story = best risk/reward of the slate."
     }
   ],
   "trade_stats": {
@@ -44928,7 +44952,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T08:49:21.055037+00:00",
+  "last_llm_brief_at": "2026-09-10T08:50:51.048150+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
