@@ -18724,3 +18724,9 @@
 ## [2026-09-10 09:38 UTC] buy | [LLM] $ZLION at $3.48132e-08, spent 0.05 SOL
 - **Reasoning:** $ZLION has its own dedicated @ZLIONonSOL twitter account (not just a one-off post) and is the highest-mcap fresh launch at $4.2k — both signs of pre-existing attention rather than pure pump-and-dump. ZCash-Lion mashup has a clear narrative hook. Risks: still tiny mcap, bond only 1%, viability gate may fail since description is short — if skipped by gates, no trade.
 
+## [2026-09-10 09:40 UTC] sell | [FULL][LLM] $ZLION at $3.4296e-08 | P&L: -1.5%
+- **Reasoning:** We own 2466816561% of pool — we ARE the liquidity. At -1.5% on a bonding-curve token with no buy pressure, this is a trap. Rotating capital into fresher attention.
+
+## [2026-09-10 09:40 UTC] buy | [LLM] $XRP at $6.58762e-07, spent 0.05 SOL
+- **Reasoning:** $XRP (HarryPotterObamaPacman8INU) — legendary 2021 rug name revived. Has Twitter promotion, $9k mcap on bonding curve (26%), classic irony/meta narrative that memecoin degens love. Strongest attention signal in this batch.
+
