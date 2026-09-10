@@ -19438,3 +19438,9 @@
 ## [2026-09-10 14:40 UTC] buy | [LLM] $$BB at $7.60143e-06, spent 0.05 SOL
 - **Reasoning:** $BB (Bitcoin Bible) has the strongest narrative of the batch — Bitcoin is the eternal attention magnet in crypto, proper viability metadata (desc+twitter from @AdvRChain), and bond is at 0% meaning very early curve entry. Risk: 0.3min old, narrative could be stale. Position size 0.05 SOL.
 
+## [2026-09-10 14:41 UTC] sell | [rapid-drop] $$BB crashed >15% in one tick | P&L: -58.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 14:42 UTC] buy | [LLM] $HOMO at $6.0426e-06, spent 0.05 SOL
+- **Reasoning:** $HOMO — absurd acronym stack (Hyperliquid+OpenAI+McDonalds+OTC) is a proven viral-meme format. Highest mcap ($6k) among fresh launches suggests some early traction, non-serial Twitter source (@alphapr0phet), and bond still at 24% means genuine early attention. Risk: 0.5min old means extremely volatile; size is small ($5) so loss is bounded.
+
