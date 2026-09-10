@@ -20188,3 +20188,9 @@
 ## [2026-09-10 19:21 UTC] buy | [LLM] $Mangos at $7.16874e-06, spent 0.05 SOL
 - **Reasoning:** $Mangos pairs an immediately legible visual fruit name with a fresh generational-pair/OTC narrative and the highest market cap in the launch slate. The principal risks are a bond only 27% complete and very early price discovery.
 
+## [2026-09-10 19:22 UTC] sell | [rapid-drop] $Mangos crashed >15% in one tick | P&L: -30.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:22 UTC] buy | [LLM] $VANGOGE at $7.99487e-06, spent 0.05 SOL
+- **Reasoning:** $VANGOGE has a clear narrative (art/crypto cosmic meme), dedicated X account @vangogesol, and decent description — best viral setup among ultra-fresh launches.
+
