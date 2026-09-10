@@ -1,32 +1,8 @@
 {
-  "balance_sol": 8.986497,
+  "balance_sol": 9.049385,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EPAo7p1oCCfrhGpXYawmpvAGtDWroRzs74b3GkyPpump": {
-      "symbol": "GRUMPY",
-      "name": "Grumpy Cat",
-      "amount": 396204.1411657054,
-      "entry_price_usd": 1.2593255550837945e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T22:32:27.683002+00:00",
-      "entry_usd_value": 4.9895000000000005,
-      "last_seen_price_usd": 1.2593255550837945e-05,
-      "entry_signals": {
-        "liquidity_usd": 3064.00771638607,
-        "volume_24h_usd": null,
-        "market_cap_usd": 12600.827405062317,
-        "ath_market_cap_usd": 12600.827405062317,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 30.704556733,
-        "description": "",
-        "twitter": "https://x.com/devioussol/status/2098177460709810237",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50908,19 +50884,30 @@
       "pnl_pct": 33.1,
       "exit_reason": "LLM: sell_all — $AMD is up +33.1% in under a minute on thin $1461 liquidity — well past my +20% profit-take threshold and the +30% TP-at-25% system rule. Lock the gai",
       "partial": false
+    },
+    {
+      "mint": "EPAo7p1oCCfrhGpXYawmpvAGtDWroRzs74b3GkyPpump",
+      "symbol": "GRUMPY",
+      "name": "Grumpy Cat",
+      "amount_sold": 396204.1411657054,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T22:32:27.683002+00:00",
+      "exit_time": "2026-09-10T22:33:48.956768+00:00",
+      "entry_price_usd": 1.2593255550837945e-05,
+      "exit_price_usd": 1.5893308291852525e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.062888,
+      "pnl_sol": 0.012888,
+      "pnl_pct": 26.2,
+      "exit_reason": "LLM: sell_all — Up +26.2% on a $4,153 pool with 0% share — exit liquidity is precarious and the scalp rule says lock +20%+ gains unless narrative is strong. $GRUMPY h",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T22:32:27.683162+00:00",
+  "last_updated": "2026-09-10T22:33:50.290254+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.79,
-  "portfolio_value_usd": 901.75,
+  "last_sol_price_usd": 100.13,
+  "portfolio_value_usd": 906.11,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 22:10 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BUDDY at $3.1509e-06 | P&L: +9.1%",
-      "reason": "+$9.1% on a brand-new bonding-curve position (0.0h held, $190 pool). Just under the +10% stale-warning line — one more tick to see if it pushes; if flat or red next tick, sell_all and rotate into a fresher launch."
-    },
     {
       "time": "2026-09-10 22:13 UTC",
       "action": "buy",
@@ -51034,40 +51021,46 @@
       "action": "buy",
       "details": "[LLM] $GRUMPY at $1.25933e-05, spent 0.05 SOL",
       "reason": "$GRUMPY (Grumpy Cat) — globally-recognized viral meme IP with proven staying power, posted by @devioussol (199+ engagement on the tweet), 35% bond but only $12.6k mcap leaving 5-10x room. Passes viability gate (description has twitter, mcap >$3k liquidity proxy) and fragility gate (no political/celebrity keywords). Skip rest: $N/A has no identity, $$BEAST/$$ERIKA/$VANCEUSA blocked by fragility gate (celebrity/political), 9/11 commemorative not a pump play."
+    },
+    {
+      "time": "2026-09-10 22:33 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GRUMPY at $1.58933e-05 | P&L: +26.2%",
+      "reason": "Up +26.2% on a $4,153 pool with 0% share — exit liquidity is precarious and the scalp rule says lock +20%+ gains unless narrative is strong. $GRUMPY has no description and no twitter signal in the candidate list, so narrative is weak. Taking the profit."
     }
   ],
   "trade_stats": {
-    "total": 2993,
-    "wins": 1402,
+    "total": 2994,
+    "wins": 1403,
     "losses": 1591,
-    "win_rate_pct": 46.8,
-    "total_pnl_sol": 4.770308,
+    "win_rate_pct": 46.9,
+    "total_pnl_sol": 4.783196,
     "avg_pnl_pct": 28.47,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 616,
-    "today_realized_sol": 7.455623,
-    "today_target_pct": 1863.9,
+    "today_trades": 617,
+    "today_realized_sol": 7.468511,
+    "today_target_pct": 1867.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1402,
+      "win_count": 1403,
       "loss_count": 1591,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T22:32:26.376896+00:00",
+  "last_llm_brief_at": "2026-09-10T22:33:48.956123+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "8usASMHFvsi4QcBoyaTBKrDqw8x5aCLJtzcG5dXCpump": {
-      "price_usd": 6.1785819954677016e-06,
+    "EPAo7p1oCCfrhGpXYawmpvAGtDWroRzs74b3GkyPpump": {
+      "price_usd": 1.5893308291852525e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1461.3071703160701,
-      "volume_h24": 10010.8,
+      "liquidity_usd": 4153.40873610937,
+      "volume_h24": 9086.43,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 14.643823733
+      "real_sol_reserves": 41.480163149
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -20671,3 +20671,6 @@
 ## [2026-09-10 22:32 UTC] buy | [LLM] $GRUMPY at $1.25933e-05, spent 0.05 SOL
 - **Reasoning:** $GRUMPY (Grumpy Cat) — globally-recognized viral meme IP with proven staying power, posted by @devioussol (199+ engagement on the tweet), 35% bond but only $12.6k mcap leaving 5-10x room. Passes viability gate (description has twitter, mcap >$3k liquidity proxy) and fragility gate (no political/celebrity keywords). Skip rest: $N/A has no identity, $$BEAST/$$ERIKA/$VANCEUSA blocked by fragility gate (celebrity/political), 9/11 commemorative not a pump play.
 
+## [2026-09-10 22:33 UTC] sell | [FULL][LLM] $GRUMPY at $1.58933e-05 | P&L: +26.2%
+- **Reasoning:** Up +26.2% on a $4,153 pool with 0% share — exit liquidity is precarious and the scalp rule says lock +20%+ gains unless narrative is strong. $GRUMPY has no description and no twitter signal in the candidate list, so narrative is weak. Taking the profit.
+
