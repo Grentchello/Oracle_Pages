@@ -18400,3 +18400,9 @@
 ## [2026-09-10 07:12 UTC] sell | [PARTIAL][LLM] $RAM at $1.01718e-09 | P&L: -8.0%
 - **Reasoning:** The position is down only 7.9% and has been held for effectively no time, so there is no clear evidence yet to force a loss exit. However, its $0 pool and 1844% share signal substantial liquidity and exit-risk, so it should not be added to.
 
+## [2026-09-10 07:14 UTC] sell | [FULL][LLM] $RAM at $8.88436e-10 | P&L: -19.6%
+- **Reasoning:** Down -19.6% with declining price action, no bounce signal. Close to -25% hard cap. Free up slot for better entry.
+
+## [2026-09-10 07:14 UTC] buy | [LLM] $DHZ at $2.90744e-06, spent 0.05 SOL
+- **Reasoning:** $DHZ passes viability gate (real desc 50+ chars). 'Diamond Hands' is OG crypto culture nostalgia meme — viral pull from crypto Twitter. Low mcap $2.9k gives upside. Other candidates fail viability or hit fragility gate.
+
