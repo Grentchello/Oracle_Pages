@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.228153,
+  "balance_sol": 4.273543,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "8xTEC3H469cvjWpkWnuYmKvn6wrHK9QfRQgbbwoKpump": {
       "symbol": "RAM",
       "name": "RAMcoin",
-      "amount": 4600587821.084451,
+      "amount": 62368710.24666665,
       "entry_price_usd": 1.1049674949584417e-09,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.0006778341450285053,
       "entry_time": "2026-09-10T07:11:35.363547+00:00",
       "entry_usd_value": 5.083500000000001,
-      "last_seen_price_usd": 1.1049674949584417e-09,
+      "last_seen_price_usd": 1.0171771634221144e-09,
       "entry_signals": {
         "liquidity_usd": 0.24347006403000002,
         "volume_24h_usd": 0.0,
@@ -43989,19 +43989,30 @@
       "pnl_pct": -33.99,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "8xTEC3H469cvjWpkWnuYmKvn6wrHK9QfRQgbbwoKpump",
+      "symbol": "RAM",
+      "name": "RAMcoin",
+      "amount_sold": 4538219110.837784,
+      "fraction_sold": 0.9864433170994299,
+      "entry_time": "2026-09-10T07:11:35.363547+00:00",
+      "exit_time": "2026-09-10T07:12:54.377917+00:00",
+      "entry_price_usd": 1.1049674949584417e-09,
+      "exit_price_usd": 1.0171771634221144e-09,
+      "entry_sol_for_chunk": 0.049322,
+      "exit_sol_received": 0.04539,
+      "pnl_sol": -0.003932,
+      "pnl_pct": -7.95,
+      "exit_reason": "LLM: sell_all — The position is down only 7.9% and has been held for effectively no time, so there is no clear evidence yet to force a loss exit. However, its $0 pool",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T07:11:35.363730+00:00",
+  "last_updated": "2026-09-10T07:12:54.378614+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.67,
-  "portfolio_value_usd": 434.96,
+  "last_sol_price_usd": 101.7,
+  "portfolio_value_usd": 434.69,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 06:43 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $GARY crashed >15% in one tick | P&L: -22.2%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 06:44 UTC",
       "action": "buy",
@@ -44115,30 +44126,48 @@
       "action": "buy",
       "details": "[LLM] $RAM at $1.10497e-09, spent 0.05 SOL",
       "reason": "$RAM is the freshest high-mcap launch ($11k, 1.2min old, 28% bond) — RAM is a classic meme name with instant brand recall and the highest bond completion suggesting organic demand. Strong attention narrative, take the entry."
+    },
+    {
+      "time": "2026-09-10 07:12 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RAM at $1.01718e-09 | P&L: -8.0%",
+      "reason": "The position is down only 7.9% and has been held for effectively no time, so there is no clear evidence yet to force a loss exit. However, its $0 pool and 1844% share signal substantial liquidity and exit-risk, so it should not be added to."
     }
   ],
   "trade_stats": {
-    "total": 2586,
+    "total": 2587,
     "wins": 1257,
-    "losses": 1329,
+    "losses": 1330,
     "win_rate_pct": 48.6,
-    "total_pnl_sol": 0.01186,
-    "avg_pnl_pct": 29.0,
+    "total_pnl_sol": 0.007928,
+    "avg_pnl_pct": 28.99,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 209,
-    "today_realized_sol": 2.697175,
-    "today_target_pct": 674.3,
+    "today_trades": 210,
+    "today_realized_sol": 2.693243,
+    "today_target_pct": 673.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1257,
-      "loss_count": 1329,
+      "loss_count": 1330,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T07:11:34.004789+00:00",
+  "last_llm_brief_at": "2026-09-10T07:12:54.377354+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8xTEC3H469cvjWpkWnuYmKvn6wrHK9QfRQgbbwoKpump": {
+      "price_usd": 1.0171771634221144e-09,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.2537601111,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.002495183
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

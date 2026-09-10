@@ -18397,3 +18397,6 @@
 ## [2026-09-10 07:11 UTC] buy | [LLM] $RAM at $1.10497e-09, spent 0.05 SOL
 - **Reasoning:** $RAM is the freshest high-mcap launch ($11k, 1.2min old, 28% bond) — RAM is a classic meme name with instant brand recall and the highest bond completion suggesting organic demand. Strong attention narrative, take the entry.
 
+## [2026-09-10 07:12 UTC] sell | [PARTIAL][LLM] $RAM at $1.01718e-09 | P&L: -8.0%
+- **Reasoning:** The position is down only 7.9% and has been held for effectively no time, so there is no clear evidence yet to force a loss exit. However, its $0 pool and 1844% share signal substantial liquidity and exit-risk, so it should not be added to.
+
