@@ -19348,3 +19348,6 @@
 ## [2026-09-10 14:01 UTC] sell | [FULL][LLM] $JHI at $8.69537e-06 | P&L: +31.2%
 - **Reasoning:** +31.2% in <1min on a thin $2,292 bonding-curve pool — extremely fragile, one dump and gains evaporate. Lock the profit, redeploy capital into a fresh launch with stronger attention signal.
 
+## [2026-09-10 14:03 UTC] buy | [LLM] $FYC at $7.31837e-06, spent 0.05 SOL
+- **Reasoning:** $FYC 'For You Coin' - TikTok/FYP-style attention name with twitter link, fresh launch at $7.3k mcap, 28% bond shows real buy pressure. Low mcap + viral name pattern = asymmetric upside.
+
