@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.533513,
+  "balance_sol": 4.556642,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "9coCRLwbV2v2LLTk5eNaeRo3pt2zQXA1wWhwq5btDLRe": {
-      "symbol": "TURBO",
-      "name": "Turtle Rush",
-      "amount": 997670.8974354197,
-      "entry_price_usd": 4.974586321759737e-06,
+    "rcd9WsZRuDRvBp3xzSjhhgMeyVGz4sXzLWDjxnzpump": {
+      "symbol": "No Crying",
+      "name": "NoCryingAtWork",
+      "amount": 1682581.900017068,
+      "entry_price_usd": 2.9561711081936304e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T19:56:18.253789+00:00",
-      "entry_usd_value": 4.963000000000001,
-      "last_seen_price_usd": 4.974586321759737e-06,
+      "entry_time": "2026-09-10T19:57:50.307933+00:00",
+      "entry_usd_value": 4.974,
+      "last_seen_price_usd": 2.9561711081936304e-06,
       "entry_signals": {
-        "liquidity_usd": 993.3990888581201,
+        "liquidity_usd": 92.3567405688,
         "volume_24h_usd": null,
-        "market_cap_usd": 4997.1388489085575,
-        "ath_market_cap_usd": 9539.330454503563,
+        "market_cap_usd": 2963.3377583786096,
+        "ath_market_cap_usd": 2963.3377583786096,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 10.008050462,
-        "description": "Turtle Rush powered by clawpump.tech : turtle beach race, dodge crabs, collect shells, arcade",
-        "twitter": "",
+        "real_sol_reserves": 0.92839506,
+        "description": "NoCryingAtWork",
+        "twitter": "https://x.com/NoCryingAtWork",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -49837,25 +49837,30 @@
       "pnl_pct": -8.5,
       "exit_reason": "LLM: sell_all — $CSCUM down only 8.5% after 0.0h — well within normal bonding-curve noise. Hard stop is -25%, auto-exit kicks in at -30% or 30min stale. Rotating into",
       "partial": false
+    },
+    {
+      "mint": "9coCRLwbV2v2LLTk5eNaeRo3pt2zQXA1wWhwq5btDLRe",
+      "symbol": "TURBO",
+      "name": "Turtle Rush",
+      "amount_sold": 997670.8974354197,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T19:56:18.253789+00:00",
+      "exit_time": "2026-09-10T19:57:48.992626+00:00",
+      "entry_price_usd": 4.974586321759737e-06,
+      "exit_price_usd": 7.291832877367226e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.073129,
+      "pnl_sol": 0.023129,
+      "pnl_pct": 46.58,
+      "exit_reason": "LLM: sell_all — Up +46.6% in 0h — bot hasn't auto-TP'd yet but we're well past the +30% threshold. Bonding curve only 29%, liquidity thin at $1848, and tiny mcap — ea",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T19:56:18.254078+00:00",
+  "last_updated": "2026-09-10T19:57:50.308104+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.26,
-  "portfolio_value_usd": 454.96,
+  "last_sol_price_usd": 99.48,
+  "portfolio_value_usd": 458.27,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:39 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $bullton at $2.63149e-05 | P&L: +57.0%",
-      "reason": "Auto take-profit at +57.0%"
-    },
-    {
-      "time": "2026-09-10 19:39 UTC",
-      "action": "buy",
-      "details": "[LLM] $marcat at $8.62288e-06, spent 0.05 SOL",
-      "reason": "$marcat is leading the batch on attention signals: bond curve already 30% complete vs 1-22% for peers, $8.5k mcap is the highest of the fresh launches, and a fresh tweet is attached. Viability gate passes (twitter present). No celebrity/political fragility flags. Sizing 0.05 SOL per the new discipline."
-    },
     {
       "time": "2026-09-10 19:41 UTC",
       "action": "sell",
@@ -49963,30 +49968,54 @@
       "action": "buy",
       "details": "[LLM] $TURBO at $4.97459e-06, spent 0.05 SOL",
       "reason": "$TURBO 'Turtle Rush' has a clear arcade-game narrative (clawpump.tech), $5k mcap with bonding at 20% (strongest traction among new launches), and a memorable name that fits the meme/gaming meta. Best attention signal in the batch."
+    },
+    {
+      "time": "2026-09-10 19:57 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $TURBO at $7.29183e-06 | P&L: +46.6%",
+      "reason": "Up +46.6% in 0h — bot hasn't auto-TP'd yet but we're well past the +30% threshold. Bonding curve only 29%, liquidity thin at $1848, and tiny mcap — easy to give back gains. Lock the profit now."
+    },
+    {
+      "time": "2026-09-10 19:57 UTC",
+      "action": "buy",
+      "details": "[LLM] $No Crying at $2.95617e-06, spent 0.05 SOL",
+      "reason": "$NoCrying — workplace meme with clear viral hook (relatable humor), has X presence, mcap $2.9k, age 0min. First-mover in this niche could pump fast. Enter 0.05 SOL."
     }
   ],
   "trade_stats": {
-    "total": 2930,
-    "wins": 1375,
+    "total": 2931,
+    "wins": 1376,
     "losses": 1555,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 0.317325,
-    "avg_pnl_pct": 26.02,
+    "total_pnl_sol": 0.340454,
+    "avg_pnl_pct": 26.03,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 553,
-    "today_realized_sol": 3.00264,
-    "today_target_pct": 750.7,
+    "today_trades": 554,
+    "today_realized_sol": 3.025769,
+    "today_target_pct": 756.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1375,
+      "win_count": 1376,
       "loss_count": 1555,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T19:56:15.840711+00:00",
+  "last_llm_brief_at": "2026-09-10T19:57:48.992588+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "9coCRLwbV2v2LLTk5eNaeRo3pt2zQXA1wWhwq5btDLRe": {
+      "price_usd": 7.291832877367226e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1847.8203539208002,
+      "volume_h24": 7022.48,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 18.57479246
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

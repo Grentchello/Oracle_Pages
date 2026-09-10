@@ -20311,3 +20311,9 @@
 ## [2026-09-10 19:56 UTC] buy | [LLM] $TURBO at $4.97459e-06, spent 0.05 SOL
 - **Reasoning:** $TURBO 'Turtle Rush' has a clear arcade-game narrative (clawpump.tech), $5k mcap with bonding at 20% (strongest traction among new launches), and a memorable name that fits the meme/gaming meta. Best attention signal in the batch.
 
+## [2026-09-10 19:57 UTC] sell | [FULL][LLM] $TURBO at $7.29183e-06 | P&L: +46.6%
+- **Reasoning:** Up +46.6% in 0h — bot hasn't auto-TP'd yet but we're well past the +30% threshold. Bonding curve only 29%, liquidity thin at $1848, and tiny mcap — easy to give back gains. Lock the profit now.
+
+## [2026-09-10 19:57 UTC] buy | [LLM] $No Crying at $2.95617e-06, spent 0.05 SOL
+- **Reasoning:** $NoCrying — workplace meme with clear viral hook (relatable humor), has X presence, mcap $2.9k, age 0min. First-mover in this niche could pump fast. Enter 0.05 SOL.
+
