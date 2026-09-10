@@ -20695,3 +20695,6 @@
 ## [2026-09-10 22:43 UTC] buy | [LLM] $CYBERCAB at $1.21547e-07, spent 0.05 SOL
 - **Reasoning:** $CYBERCAB rides real Tesla Cybercab narrative — Elon is the prototypical memecoin attention driver, tweet attached, fresh 0.8min launch at $4.4k mcap where 10x is possible in hours. Risk: ultra-low mcap and only 5% bond complete, so size matters — 0.1 SOL keeps exposure tiny.
 
+## [2026-09-10 22:45 UTC] sell | [PARTIAL][LLM] $CYBERCAB at $1.21665e-07 | P&L: +0.1%
+- **Reasoning:** No narrative, no twitter, $7 pool with me holding 72% = exit liquidity nightmare. Position is essentially flat and I'm dominating the pool. Free the slot for a stronger launch with actual attention ($iPump has twitter + meta-narrative). Lock tiny loss now vs bigger loss trying to exit a thin pool.
+
