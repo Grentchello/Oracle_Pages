@@ -17713,3 +17713,9 @@
 ## [2026-09-10 02:55 UTC] buy | [LLM] $BUY at $6.81075e-06, spent 0.05 SOL
 - **Reasoning:** $BUY has the strongest narrative hook of the batch — 'add to cart, get paid in $SHOP' is a clear shopify/payment meta play with twitter backing from KankiAlpha. $6.7k mcap with 26% bond is the most progressed and has a viral CTA-style pitch.
 
+## [2026-09-10 02:56 UTC] sell | [rapid-drop] $BUY crashed >15% in one tick | P&L: -36.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 02:56 UTC] buy | [LLM] $Tiktok at $6.769e-06, spent 0.05 SOL
+- **Reasoning:** $Tiktok — TikTok is a globally viral brand name with massive attention potential. Highest mcap ($7k) and bond completion (27%) in the batch, plus a twitter link. At $7k mcap with a recognizable name, 5-10x is plausible if it catches a wave. Risk: brand-impersonation tokens often get flagged by platforms, but the upside on a fresh viral brand name is the attention alpha we want.
+
