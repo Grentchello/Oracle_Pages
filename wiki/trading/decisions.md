@@ -18547,3 +18547,6 @@
 ## [2026-09-10 08:03 UTC] sell | [PARTIAL][LLM] $PAC-3310 at $2.01011e-08 | P&L: +20.6%
 - **Reasoning:** $PAC-3310 up +20.6% in 0.1h on a bonding curve with only $3 pool and our 7% share — thin liquidity means any retrace hits hard. Take half profit now and let the other half ride if the bonding curve completes.
 
+## [2026-09-10 08:05 UTC] sell | [PARTIAL][LLM] $PAC-3310 at $2.16371e-08 | P&L: +29.8%
+- **Reasoning:** $PAC-3310 up +29.8% in 0.1h is at the +25% auto-TP threshold zone. Bonding-curve tokens (only 24% bonded, pool=$3) have no real liquidity depth — sell half to lock in roughly +2.5 SOL of paper profit and let the rest ride if narrative holds, but do not give back the gain.
+
