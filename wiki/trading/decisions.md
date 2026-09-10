@@ -18346,3 +18346,9 @@
 ## [2026-09-10 06:46 UTC] sell | [PARTIAL][LLM] $TikTok at $1.06556e-05 | P&L: +30.1%
 - **Reasoning:** Up +30.1% at 0h held, but pool is only $2855 (thin) and our share is 0% — we're exposed to rug risk on any size. Lock half the gain now per profit-taking discipline, let half ride if TikTok narrative keeps pushing.
 
+## [2026-09-10 06:47 UTC] sell | [v8.7 TP +50% (full)] $TikTok at $1.40713e-05 | P&L: +71.8%
+- **Reasoning:** Auto take-profit at +71.9%
+
+## [2026-09-10 06:47 UTC] buy | [LLM] $MACROHARD at $1.01402e-07, spent 0.05 SOL
+- **Reasoning:** $MACROHARD is a clean Microsoft parody with instant name recognition — classic attention-market playbook. $4.9k mcap with 9% bond = early curve, narrative is universally understood, no fragility flags. Risk: parody coins can fade fast if no one builds on it.
+
