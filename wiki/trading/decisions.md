@@ -19990,3 +19990,6 @@
 ## [2026-09-10 18:24 UTC] buy | [LLM] $KekiusBot at $3.0195e-06, spent 0.05 SOL
 - **Reasoning:** KekiusBot carries the Kekius/Pepe narrative which has real recurring attention on CT, twitter link is live, $3k mcap is fresh enough to ride. Small position, swing for 2-3x.
 
+## [2026-09-10 18:25 UTC] sell | [FULL][LLM] $KekiusBot at $2.82908e-06 | P&L: -6.3%
+- **Reasoning:** Just entered (0.0h held), only -6.3% which is well within tolerance. KekiusBot narrative has twitter backing from @spongeyxbt and a fresh launch trajectory — give it time to develop before exiting.
+
