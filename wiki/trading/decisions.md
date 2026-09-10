@@ -18817,3 +18817,9 @@
 ## [2026-09-10 10:19 UTC] buy | [LLM] $TURTLE at $3.09363e-06, spent 0.05 SOL
 - **Reasoning:** $TURTLE — real SCOTUS news peg (sea turtle ruling) with verified twitter account @mrfinnland, sub-minute launch at ~$3k mcap. Classic news-driven attention narrative with a shareable visual concept; meets viability gate. Risk: news-momentum can fade fast, will watch for +30% to lock partial.
 
+## [2026-09-10 10:20 UTC] sell | [FULL][LLM] $TURTLE at $3.01758e-06 | P&L: -2.5%
+- **Reasoning:** $TURTLE is barely 0.0h old, down only 2.5% on a tiny $100 pool with our 5% share creating artificial price pressure. Bonding-curve illiquidity is the noise, not the signal. Give it at least 15-30 min to develop.
+
+## [2026-09-10 10:20 UTC] buy | [LLM] $cap at $4.81085e-06, spent 0.05 SOL
+- **Reasoning:** $cap / 'dog wif cap' is a meta riff on $WIF (the original dogwifhat) — proven narrative with 'run it back' redemption arc explicitly stated. Description acknowledges prior dump and commits to a second attempt. This is the highest-narrative-density token in the batch: recognizable format, redemption story, active promoter voice. Risks: 0.1min old, 0% bond = pre-bonding-curve, but the meta hook is real.
+
