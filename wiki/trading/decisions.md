@@ -19165,3 +19165,9 @@
 ## [2026-09-10 12:55 UTC] buy | [LLM] $TRILLY at $4.68703e-06, spent 0.05 SOL
 - **Reasoning:** $TRILLY attached to Polymarket (current meta: prediction-market crossover). Two mint entries = organic buzz signal. $4.7k mcap with twitter from @PolymarketMoney gives real attention asymmetry. Risk: bond only 19%, very early, thin liquidity — but that's where 5x lives.
 
+## [2026-09-10 12:56 UTC] sell | [rapid-drop] $TRILLY crashed >15% in one tick | P&L: -40.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 12:57 UTC] buy | [LLM] $LUMIO at $9.89356e-06, spent 0.05 SOL
+- **Reasoning:** $LUMIO has the highest mcap ($9.8k) and is furthest along bonding curve (32%) of the fresh batch — leading attention signal with a live tweet from @BoltricksDev. Earliest-stage lead with actual traction beats weaker peers.
+
