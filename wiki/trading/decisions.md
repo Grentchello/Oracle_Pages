@@ -17584,3 +17584,9 @@
 ## [2026-09-10 02:06 UTC] sell | [PARTIAL][LLM] $ACAT at $2.82814e-06 | P&L: -8.6%
 - **Reasoning:** ACAT is down -8.6% and we're 213% of a $1 pool — we ARE the liquidity. Any meaningful exit will crash it further. Cut the loss now, free the slot for fresh alpha. -8.6% is acceptable, illiquidity entrapment is not.
 
+## [2026-09-10 02:08 UTC] sell | [FULL][LLM] $ACAT at $2.82853e-06 | P&L: -8.6%
+- **Reasoning:** $ACAT is on a $1 bonding-curve pool where I hold 25% — I'm the exit liquidity. Down only -8.6% but the illidity means any bounce is illusory. Better to free the slot for a launch with actual attention than bag-hold a micro-cap.
+
+## [2026-09-10 02:08 UTC] buy | [LLM] $CONSOOM at $2.96298e-06, spent 0.05 SOL
+- **Reasoning:** $CONSOOM has the only real meme narrative in this batch — wojak consoomer culture is established meme literacy with a clear audience. Wojak/funko-pop/soy-pointing is instantly recognizable, description is vivid, and it has twitter backing. Micro-cap entry with narrative alpha.
+
