@@ -18529,3 +18529,9 @@
 ## [2026-09-10 07:55 UTC] buy | [LLM] $Chill at $6.32243e-06, spent 0.05 SOL
 - **Reasoning:** $Chill — 'CHILL CAT' with explicit TikTok virality narrative (cat driving car pose is a real viral format). Highest mcap in fresh batch at $6.3k with strongest story. Risk: bond only 1%, very early, can rug fast — tight mental stop.
 
+## [2026-09-10 07:57 UTC] sell | [rapid-drop] $Chill crashed >15% in one tick | P&L: -76.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 07:57 UTC] buy | [LLM] $PAC-3310 at $1.66671e-08, spent 0.05 SOL
+- **Reasoning:** Strongest narrative in batch: 'ChatGPT-designed drug synthesized in real lab' is the kind of science-meets-AI story that screenshots virally on crypto Twitter. mcap $4.5k at 0.8min = ultra-early, bond 6% means thin but no move yet. Creator account (douglasyaody) has reach. Position size 0.1 SOL.
+
