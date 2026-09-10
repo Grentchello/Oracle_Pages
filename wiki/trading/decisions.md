@@ -17998,3 +17998,9 @@
 ## [2026-09-10 04:38 UTC] buy | [LLM] $BOF at $1.584e-05, spent 0.05 SOL
 - **Reasoning:** $BOF leads the fresh batch with $25.9k mcap (10x nearest competitor), bond at 38%, and Twitter presence — strong viral attention signal. 'Bat on Finance' is a brandable narrative with crossover potential (Batman meme × finance). Highest momentum of the cohort.
 
+## [2026-09-10 04:39 UTC] sell | [v8.7 TP +50% (full)] $BOF at $5.374e-05 | P&L: +239.3%
+- **Reasoning:** Auto take-profit at +239.3%
+
+## [2026-09-10 04:40 UTC] buy | [LLM] $UberChad at $8.532e-06, spent 0.05 SOL
+- **Reasoning:** $UberChad (Monero-Chad): fresh 1.4min launch, $9.7k mcap, has X attention signal from dayquants, niche crypto-culture narrative (Monero + Chad meme archetype) — exactly the kind of cultural coin that catches a 2-5x in first hour.
+
