@@ -18319,3 +18319,6 @@
 ## [2026-09-10 06:34 UTC] sell | [PARTIAL][LLM] $69 at $2.8477e-09 | P&L: -10.2%
 - **Reasoning:** $69 down only -10.2%, still well above -25% hard stop. Bonding-curve pool=$0 means exits would be illiquid; selling 51% share into a $69 mcap would crater price. Let the auto-stops handle it if it bleeds further.
 
+## [2026-09-10 06:35 UTC] sell | [PARTIAL][LLM] $69 at $2.68533e-09 | P&L: -15.3%
+- **Reasoning:** Down 15% in 6 min on bonding curve with 186% share concentration (illiquid). The Elon tweet (2022) is recycled, not fresh. Cut loss before -25% hard stop.
+
