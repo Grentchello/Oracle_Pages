@@ -20014,3 +20014,9 @@
 ## [2026-09-10 18:32 UTC] sell | [PARTIAL][LLM] $Stocklana at $2.79523e-06 | P&L: -5.7%
 - **Reasoning:** Down 5.7% after 0h hold, but pool only $2 (way below 5x position size rule), our share 200% means we're the dominant LP — illiquid and easy to get rugged. Exit immediately to free slot.
 
+## [2026-09-10 18:33 UTC] sell | [FULL][LLM] $Stocklana at $2.79271e-06 | P&L: -5.8%
+- **Reasoning:** $Stocklana is only -5.7% and just entered (0.0h held). Bonding curve at 25% suggests some organic buy pressure. Give it a few minutes to develop; -25% hard stop and 30min stale exit will handle downside.
+
+## [2026-09-10 18:33 UTC] buy | [LLM] $casino at $2.04657e-08, spent 0.05 SOL
+- **Reasoning:** $casino has the strongest signal: highest mcap ($9k), 24% bonded, and a real X post from @ArenaFiBNB. 'No crying in the casino' is a punchy, memeable narrative with viral potential. Skip — already at max 1 position with $Stocklana held.
+

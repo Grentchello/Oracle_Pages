@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.199851,
+  "balance_sol": 4.155706,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "go2JLZEpaXKZQ97uVA3ZbmmHzZyc7Th5i2MjR9opump": {
-      "symbol": "Stocklana",
-      "name": "Stocklana",
-      "amount": 209102.70755775683,
-      "entry_price_usd": 2.963035471016653e-06,
-      "entry_sol_spent": 0.006240092049342888,
-      "entry_time": "2026-09-10T18:31:18.449664+00:00",
-      "entry_usd_value": 4.964500000000001,
-      "last_seen_price_usd": 2.7952262254115327e-06,
+    "761mc7nCKCLQ2q1Yj1qUzR8YThbC9GewFthGxuaidV88": {
+      "symbol": "casino",
+      "name": "no crying in the casino",
+      "amount": 243651792.13298842,
+      "entry_price_usd": 2.0465681603845136e-08,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T18:33:53.705506+00:00",
+      "entry_usd_value": 4.9865,
+      "last_seen_price_usd": 2.0465681603845136e-08,
       "entry_signals": {
-        "liquidity_usd": 101.16609060669,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2964.3389739678705,
-        "ath_market_cap_usd": 2964.3389739678705,
+        "liquidity_usd": 5.45234900246,
+        "volume_24h_usd": 0.0,
+        "market_cap_usd": 9006.272791982052,
+        "ath_market_cap_usd": 9008.007203148914,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1.018895061,
-        "description": "Solana is evolving into Stock Solana, where stocks, memes, and crypto unite.",
-        "twitter": "https://x.com/StocklanaSOL",
+        "real_sol_reserves": 0.054671102,
+        "description": "",
+        "twitter": "https://x.com/ArenaFiBNB/status/2098117346808226261",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -48970,25 +48970,30 @@
       "pnl_pct": -5.66,
       "exit_reason": "LLM: sell_all — Down 5.7% after 0h hold, but pool only $2 (way below 5x position size rule), our share 200% means we're the dominant LP — illiquid and easy to get rug",
       "partial": true
+    },
+    {
+      "mint": "go2JLZEpaXKZQ97uVA3ZbmmHzZyc7Th5i2MjR9opump",
+      "symbol": "Stocklana",
+      "name": "Stocklana",
+      "amount_sold": 209102.70755775683,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T18:31:18.449664+00:00",
+      "exit_time": "2026-09-10T18:33:52.377896+00:00",
+      "entry_price_usd": 2.963035471016653e-06,
+      "exit_price_usd": 2.7927059853766e-06,
+      "entry_sol_for_chunk": 0.00624,
+      "exit_sol_received": 0.005855,
+      "pnl_sol": -0.000385,
+      "pnl_pct": -5.75,
+      "exit_reason": "LLM: sell_all — $Stocklana is only -5.7% and just entered (0.0h held). Bonding curve at 25% suggests some organic buy pressure. Give it a few minutes to develop; -25%",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T18:32:37.328667+00:00",
+  "last_updated": "2026-09-10T18:33:53.705667+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.82,
-  "portfolio_value_usd": 419.85,
+  "last_sol_price_usd": 99.73,
+  "portfolio_value_usd": 419.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 18:11 UTC",
-      "action": "buy",
-      "details": "[LLM] $SLOP at $5.45457e-06, spent 0.05 SOL",
-      "reason": "SLOP is the only token in this batch with a distinct, non-coordinated narrative — organic shill from @river100x (not the generic Pumpfun post), unique edgy name, and stands apart from the saturated cat wave. Attention markets reward distinctness; SLOP has it. Risks: mcap only $5.4k and 0.2min old, so fragility gate (top-10 holder rate, bundler activity) is the real test — high rug probability on any bonding-curve token this fresh, but asymmetric upside if the shill catches."
-    },
-    {
-      "time": "2026-09-10 18:13 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $SLOP crashed >15% in one tick | P&L: -48.5%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 18:14 UTC",
       "action": "buy",
@@ -49096,35 +49101,47 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Stocklana at $2.79523e-06 | P&L: -5.7%",
       "reason": "Down 5.7% after 0h hold, but pool only $2 (way below 5x position size rule), our share 200% means we're the dominant LP — illiquid and easy to get rugged. Exit immediately to free slot."
+    },
+    {
+      "time": "2026-09-10 18:33 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Stocklana at $2.79271e-06 | P&L: -5.8%",
+      "reason": "$Stocklana is only -5.7% and just entered (0.0h held). Bonding curve at 25% suggests some organic buy pressure. Give it a few minutes to develop; -25% hard stop and 30min stale exit will handle downside."
+    },
+    {
+      "time": "2026-09-10 18:33 UTC",
+      "action": "buy",
+      "details": "[LLM] $casino at $2.04657e-08, spent 0.05 SOL",
+      "reason": "$casino has the strongest signal: highest mcap ($9k), 24% bonded, and a real X post from @ArenaFiBNB. 'No crying in the casino' is a punchy, memeable narrative with viral potential. Skip — already at max 1 position with $Stocklana held."
     }
   ],
   "trade_stats": {
-    "total": 2879,
+    "total": 2880,
     "wins": 1364,
-    "losses": 1515,
+    "losses": 1516,
     "win_rate_pct": 47.4,
-    "total_pnl_sol": -0.060098,
-    "avg_pnl_pct": 26.24,
+    "total_pnl_sol": -0.060483,
+    "avg_pnl_pct": 26.23,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 502,
-    "today_realized_sol": 2.625217,
-    "today_target_pct": 656.3,
+    "today_trades": 503,
+    "today_realized_sol": 2.624832,
+    "today_target_pct": 656.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1364,
-      "loss_count": 1515,
+      "loss_count": 1516,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T18:32:37.327428+00:00",
+  "last_llm_brief_at": "2026-09-10T18:33:52.377809+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "go2JLZEpaXKZQ97uVA3ZbmmHzZyc7Th5i2MjR9opump": {
-      "price_usd": 2.7952262254115327e-06,
+      "price_usd": 2.7927059853766e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.33795748788,
+      "liquidity_usd": 2.33584953182,
       "volume_h24": 200.12,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
