@@ -18445,3 +18445,6 @@
 ## [2026-09-10 07:27 UTC] sell | [FULL][LLM] $RISE at $7.85007e-06 | P&L: +6.2%
 - **Reasoning:** Fresh 0.0h hold at +6.2% with thin $2k pool. No clear exit signal yet — too early to tell. Will re-evaluate at +15% or 15min mark; prepared to cut if it goes stale flat.
 
+## [2026-09-10 07:29 UTC] buy | [LLM] $CHAROC at $2.022e-06, spent 0.05 SOL
+- **Reasoning:** $CHAROC (Chaotic Rocket) — absurd meme name, sub-$2k mcap right after launch, bond just starting to curve. Pure attention play, cheap entry for a viral-name shot.
+
