@@ -17761,3 +17761,6 @@
 ## [2026-09-10 03:09 UTC] buy | [LLM] $FLY at $2.99015e-07, spent 0.05 SOL
 - **Reasoning:** $FLY (FLYCOIN) has the highest mcap ($6.5k) and 18% bonding curve progress among fresh launches, with an X post attached. FLY narrative is clean attention play - 'fly' is viral memecoin shorthand. Skip the duplicates (CmYAfbmb...) - same ticker, lower mcap.
 
+## [2026-09-10 03:11 UTC] sell | [PARTIAL][LLM] $FLY at $3.38373e-07 | P&L: +13.2%
+- **Reasoning:** FLY is up 13.2% with strong initial attention and an 8% position share, but its $72 pool is extremely thin and most of the move may already be captured. Take half profit while allowing the other half to ride the viral narrative.
+

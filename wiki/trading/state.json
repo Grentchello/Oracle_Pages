@@ -1,17 +1,17 @@
 {
-  "balance_sol": 2.81897,
+  "balance_sol": 2.847272,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GnNRfoaKiVGu5WKhUH9tRabqFRCWH2W3AgrE1azXpump": {
       "symbol": "FLY",
       "name": "FLYCOIN",
-      "amount": 17044283.239697192,
+      "amount": 8522141.619848596,
       "entry_price_usd": 2.9901521397684454e-07,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T03:09:52.513107+00:00",
       "entry_usd_value": 5.096500000000001,
-      "last_seen_price_usd": 2.9901521397684454e-07,
+      "last_seen_price_usd": 3.383728376152872e-07,
       "entry_signals": {
         "liquidity_usd": 57.88870258229,
         "volume_24h_usd": 0.0,
@@ -41983,19 +41983,30 @@
       "pnl_pct": -9.36,
       "exit_reason": "LLM: sell_all — At -9.4% on a $14 pool with our 16% concentration, this is dead money and exit liquidity is fragile. Selling here minimizes further loss vs waiting fo",
       "partial": false
+    },
+    {
+      "mint": "GnNRfoaKiVGu5WKhUH9tRabqFRCWH2W3AgrE1azXpump",
+      "symbol": "FLY",
+      "name": "FLYCOIN",
+      "amount_sold": 8522141.619848596,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T03:09:52.513107+00:00",
+      "exit_time": "2026-09-10T03:11:19.377635+00:00",
+      "entry_price_usd": 2.9901521397684454e-07,
+      "exit_price_usd": 3.383728376152872e-07,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.028302,
+      "pnl_sol": 0.003302,
+      "pnl_pct": 13.16,
+      "exit_reason": "LLM: sell_half — FLY is up 13.2% with strong initial attention and an 8% position share, but its $72 pool is extremely thin and most of the move may already be capture",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T03:09:52.513443+00:00",
+  "last_updated": "2026-09-10T03:11:19.378849+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.93,
-  "portfolio_value_usd": 292.43,
+  "last_sol_price_usd": 101.89,
+  "portfolio_value_usd": 292.66,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 02:53 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $wifeguy crashed >15% in one tick | P&L: -63.2%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 02:53 UTC",
       "action": "buy",
@@ -42109,40 +42120,46 @@
       "action": "buy",
       "details": "[LLM] $FLY at $2.99015e-07, spent 0.05 SOL",
       "reason": "$FLY (FLYCOIN) has the highest mcap ($6.5k) and 18% bonding curve progress among fresh launches, with an X post attached. FLY narrative is clean attention play - 'fly' is viral memecoin shorthand. Skip the duplicates (CmYAfbmb...) - same ticker, lower mcap."
+    },
+    {
+      "time": "2026-09-10 03:11 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $FLY at $3.38373e-07 | P&L: +13.2%",
+      "reason": "FLY is up 13.2% with strong initial attention and an 8% position share, but its $72 pool is extremely thin and most of the move may already be captured. Take half profit while allowing the other half to ride the viral narrative."
     }
   ],
   "trade_stats": {
-    "total": 2468,
-    "wins": 1216,
+    "total": 2469,
+    "wins": 1217,
     "losses": 1252,
     "win_rate_pct": 49.3,
-    "total_pnl_sol": -1.397341,
-    "avg_pnl_pct": 29.16,
+    "total_pnl_sol": -1.394039,
+    "avg_pnl_pct": 29.15,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 91,
-    "today_realized_sol": 1.287974,
-    "today_target_pct": 322.0,
+    "today_trades": 92,
+    "today_realized_sol": 1.291276,
+    "today_target_pct": 322.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1216,
+      "win_count": 1217,
       "loss_count": 1252,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:09:51.054970+00:00",
+  "last_llm_brief_at": "2026-09-10T03:11:19.377595+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2rYNSc59YzidasAZiVxXwcSFFzqGgd1iLAuYQKmWcvkd": {
-      "price_usd": 2.8761147568312506e-06,
+    "GnNRfoaKiVGu5WKhUH9tRabqFRCWH2W3AgrE1azXpump": {
+      "price_usd": 3.383728376152872e-07,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 14.053274714530001,
-      "volume_h24": 372.22,
+      "liquidity_usd": 71.5390699718,
+      "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.137871821
+      "real_sol_reserves": 0.70212062
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
