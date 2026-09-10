@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.513827,
+  "balance_sol": 4.463827,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "8Bm1hpQzCndB3FuSiLu1ZaEttt1QvDXPY6JveNqHpump": {
+      "symbol": "DINOBOO",
+      "name": "DINOBOO",
+      "amount": 1267727.3866198945,
+      "entry_price_usd": 3.991e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T09:10:25.766328+00:00",
+      "entry_usd_value": 5.0595,
+      "last_seen_price_usd": 3.991e-06,
+      "entry_signals": {
+        "liquidity_usd": 1552.2492096086999,
+        "volume_24h_usd": 596.08,
+        "market_cap_usd": 6363.479866765019,
+        "ath_market_cap_usd": 6386.551905023464,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 15.33994673,
+        "description": "Dinoboo is a little prehistoric explorer who believes adventure isn’t about rushing—it’s about taking one small step at a time. While others hurry across the ancient world, Dinoboo wanders at his own peaceful pace, finding joy in quiet riversides, lush meadows, and the simple beauty of every moment.",
+        "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44885,17 +44909,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T09:09:08.800371+00:00",
+  "last_updated": "2026-09-10T09:10:25.766631+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.25,
-  "portfolio_value_usd": 457.02,
+  "last_sol_price_usd": 101.19,
+  "portfolio_value_usd": 456.75,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 08:40 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $StockBank crashed >15% in one tick | P&L: -58.8%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 08:40 UTC",
       "action": "observe",
@@ -45009,6 +45027,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $RETAIL at $5.74246e-07 | P&L: +23.1%",
       "reason": "+23.1% profit triggers the 'up >20%, take the gain' rule. We hold 7% of the bonding curve — a significant share on a thin pool, so waiting for +30% auto-TP exposes us to dump risk. Lock it and free the slot."
+    },
+    {
+      "time": "2026-09-10 09:10 UTC",
+      "action": "buy",
+      "details": "[LLM] $DINOBOO at $3.991e-06, spent 0.05 SOL",
+      "reason": "$DINOBOO has the strongest narrative of the batch — cute prehistoric-explorer mascot with a thoughtful 'one small step' tagline, sub-$10k mcap leaving room for attention-driven 5-10x, bonding at 25%. Most others are junk, political-flagged, or already-extracted ($HOOD at $14M mcap)."
     }
   ],
   "trade_stats": {
@@ -45030,21 +45054,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T09:09:07.326049+00:00",
+  "last_llm_brief_at": "2026-09-10T09:10:24.441755+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "5MDafbq46UX7B6EzurKd4mmHUyc1B7U9fGNGXZBqpump": {
-      "price_usd": 5.742461259583899e-07,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 93.83652734625,
-      "volume_h24": 0.0,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.926780517
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

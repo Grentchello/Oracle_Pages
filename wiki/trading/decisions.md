@@ -18685,3 +18685,6 @@
 ## [2026-09-10 09:09 UTC] sell | [FULL][LLM] $RETAIL at $5.74246e-07 | P&L: +23.1%
 - **Reasoning:** +23.1% profit triggers the 'up >20%, take the gain' rule. We hold 7% of the bonding curve — a significant share on a thin pool, so waiting for +30% auto-TP exposes us to dump risk. Lock it and free the slot.
 
+## [2026-09-10 09:10 UTC] buy | [LLM] $DINOBOO at $3.991e-06, spent 0.05 SOL
+- **Reasoning:** $DINOBOO has the strongest narrative of the batch — cute prehistoric-explorer mascot with a thoughtful 'one small step' tagline, sub-$10k mcap leaving room for attention-driven 5-10x, bonding at 25%. Most others are junk, political-flagged, or already-extracted ($HOOD at $14M mcap).
+
