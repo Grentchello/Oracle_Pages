@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.172145,
+  "balance_sol": 4.222129,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "65tgK6TvXCpSMy6Hcsr5Wx4g3UybSkZP9rozQEBkpump": {
-      "symbol": "FUN",
-      "name": "OnlyOnFun",
-      "amount": 1899144456.9429498,
-      "entry_price_usd": 2.651983624303781e-09,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T17:37:10.589940+00:00",
-      "entry_usd_value": 5.0365,
-      "last_seen_price_usd": 2.651983624303781e-09,
-      "entry_signals": {
-        "liquidity_usd": 0.0064870119999999995,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 3980.902624684917,
-        "ath_market_cap_usd": 3980.902624684917,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 6.44e-05,
-        "description": "",
-        "twitter": "https://x.com/Pumpfun/status/2097785975434846285",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -48511,19 +48487,30 @@
       "pnl_pct": -0.15,
       "exit_reason": "LLM: sell_all — Just entered, -0.1% is noise on a fresh bonding-curve position. No clear negative signal yet; auto-rules will kill it at -25% or 30min if nothing deve",
       "partial": false
+    },
+    {
+      "mint": "65tgK6TvXCpSMy6Hcsr5Wx4g3UybSkZP9rozQEBkpump",
+      "symbol": "FUN",
+      "name": "OnlyOnFun",
+      "amount_sold": 1898532932.427814,
+      "fraction_sold": 0.999678,
+      "entry_time": "2026-09-10T17:37:10.589940+00:00",
+      "exit_time": "2026-09-10T17:38:48.206067+00:00",
+      "entry_price_usd": 2.651983624303781e-09,
+      "exit_price_usd": 2.637240143418145e-09,
+      "entry_sol_for_chunk": 0.049984,
+      "exit_sol_received": 0.049984,
+      "pnl_sol": -0.0,
+      "pnl_pct": -0.56,
+      "exit_reason": "LLM: sell_all — $FUN just opened (0.0h held), only -0.6%, well within noise. No reason to bail before the bonding curve develops. Auto-stops handle downside.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T17:37:10.590271+00:00",
+  "last_updated": "2026-09-10T17:38:48.206332+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.73,
-  "portfolio_value_usd": 425.3,
+  "last_sol_price_usd": 100.17,
+  "portfolio_value_usd": 422.93,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 17:14 UTC",
-      "action": "buy",
-      "details": "[LLM] $ily at $8.809e-06, spent 0.05 SOL",
-      "reason": "$ily (Infinitidigits tweet) has the strongest attention signal of the batch — already at 33% bonding curve in <1min, mcap $10.5k, real X post from a known memecoin account. Viability gate unclear (no description) but twitter signal is strong. Flagging for entry contingent on slot being free and GMGN fragility pass."
-    },
     {
       "time": "2026-09-10 17:15 UTC",
       "action": "sell",
@@ -48637,30 +48624,48 @@
       "action": "buy",
       "details": "[LLM] $FUN at $2.65198e-09, spent 0.05 SOL",
       "reason": "OnlyOnFun tagged by official Pump.fun twitter — real attention signal from the platform itself. Sub-$4k mcap with narrative angle on the launchpad meta. Small position, fast scalp."
+    },
+    {
+      "time": "2026-09-10 17:38 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FUN at $2.63724e-09 | P&L: -0.6%",
+      "reason": "$FUN just opened (0.0h held), only -0.6%, well within noise. No reason to bail before the bonding curve develops. Auto-stops handle downside."
     }
   ],
   "trade_stats": {
-    "total": 2852,
+    "total": 2853,
     "wins": 1361,
-    "losses": 1491,
+    "losses": 1492,
     "win_rate_pct": 47.7,
     "total_pnl_sol": -0.044097,
-    "avg_pnl_pct": 26.51,
+    "avg_pnl_pct": 26.5,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 475,
+    "today_trades": 476,
     "today_realized_sol": 2.641218,
     "today_target_pct": 660.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1361,
-      "loss_count": 1491,
+      "loss_count": 1492,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T17:37:09.203328+00:00",
+  "last_llm_brief_at": "2026-09-10T17:38:48.205147+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "65tgK6TvXCpSMy6Hcsr5Wx4g3UybSkZP9rozQEBkpump": {
+      "price_usd": 2.637240143418145e-09,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.006450948,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 6.44e-05
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

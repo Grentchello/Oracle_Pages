@@ -19867,3 +19867,6 @@
 ## [2026-09-10 17:37 UTC] buy | [LLM] $FUN at $2.65198e-09, spent 0.05 SOL
 - **Reasoning:** OnlyOnFun tagged by official Pump.fun twitter — real attention signal from the platform itself. Sub-$4k mcap with narrative angle on the launchpad meta. Small position, fast scalp.
 
+## [2026-09-10 17:38 UTC] sell | [FULL][LLM] $FUN at $2.63724e-09 | P&L: -0.6%
+- **Reasoning:** $FUN just opened (0.0h held), only -0.6%, well within noise. No reason to bail before the bonding curve develops. Auto-stops handle downside.
+
