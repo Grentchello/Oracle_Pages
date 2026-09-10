@@ -20503,3 +20503,9 @@
 ## [2026-09-10 21:17 UTC] buy | [LLM] $Rocket at $5.67491e-06, spent 0.05 SOL
 - **Reasoning:** $Rocket 'The Tesla Hero' — Tesla is a permanent attention magnet, 0.1min old with a viral X post from @LoreDevor, $5.6k mcap with 23% bonding gives early-entry room. Strong narrative + fresh attention = textbook attention-market play. Risk: brand-new launch, low liquidity, could rug instantly — but the bot's -25% hard cap and 0.05 SOL size limits the downside.
 
+## [2026-09-10 21:18 UTC] sell | [rapid-drop] $Rocket crashed >15% in one tick | P&L: -49.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 21:18 UTC] buy | [LLM] $PROTOC at $7.01e-06, spent 0.05 SOL
+- **Reasoning:** $PROTOC (Grokkybara Bot) hits the AI-animal meme meta perfectly — capybara + Grok is viral territory, has X presence, mcap $8k shows early traction. Fresh 0.6min launch with bond still progressing. Standard 0.1 SOL entry, tight scalp discipline applies.
+
