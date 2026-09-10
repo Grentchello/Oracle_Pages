@@ -18910,3 +18910,6 @@
 ## [2026-09-10 10:57 UTC] buy | [LLM] $GOLD at $1.44807e-06, spent 0.05 SOL
 - **Reasoning:** GOLD RUSH narrative has viral phrasing ('SELL THE SHOVEL'), description passes viability gate (>=50 chars), gold/crypto meta is evergreen meme fodder. $1.4k mcap = early attention window.
 
+## [2026-09-10 10:58 UTC] sell | [PARTIAL][LLM] $GOLD at $1.88349e-06 | P&L: +30.1%
+- **Reasoning:** Up +30.1% but pool is only $14 and we own 48% of it — extremely illiquid, can't exit cleanly at scale. Locking gains now before the thin liquidity turns this into a loss. Take-profit auto should fire at +30% anyway.
+

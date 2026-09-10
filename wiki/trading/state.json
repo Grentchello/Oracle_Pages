@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.956284,
+  "balance_sol": 4.988792,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "ExYgS9Jp7P8SupfBUzPQMAvKfMUwzwuCirfedJX4pump": {
       "symbol": "GOLD",
       "name": "GOLD RUSH",
-      "amount": 3489152.9274118147,
+      "amount": 1744576.4637059073,
       "entry_price_usd": 1.4480735310584059e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T10:57:20.549021+00:00",
       "entry_usd_value": 5.05255,
-      "last_seen_price_usd": 1.4480735310584059e-06,
+      "last_seen_price_usd": 1.883493219147888e-06,
       "entry_signals": {
         "liquidity_usd": 97.402457141295,
         "volume_24h_usd": null,
@@ -45604,19 +45604,30 @@
       "pnl_pct": -4.68,
       "exit_reason": "LLM: sell_all — $Groyper is at -4.7% after just opened, well within tolerance. Groypers have a real internet meme community (Nick Fuentes fandom), and the position is",
       "partial": false
+    },
+    {
+      "mint": "ExYgS9Jp7P8SupfBUzPQMAvKfMUwzwuCirfedJX4pump",
+      "symbol": "GOLD",
+      "name": "GOLD RUSH",
+      "amount_sold": 1744576.4637059073,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T10:57:20.549021+00:00",
+      "exit_time": "2026-09-10T10:58:49.923514+00:00",
+      "entry_price_usd": 1.4480735310584059e-06,
+      "exit_price_usd": 1.883493219147888e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.032508,
+      "pnl_sol": 0.007508,
+      "pnl_pct": 30.07,
+      "exit_reason": "LLM: sell_all — Up +30.1% but pool is only $14 and we own 48% of it — extremely illiquid, can't exit cleanly at scale. Locking gains now before the thin liquidity tur",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T10:57:20.549191+00:00",
+  "last_updated": "2026-09-10T10:58:49.923701+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.051,
-  "portfolio_value_usd": 505.89,
+  "last_sol_price_usd": 101.08,
+  "portfolio_value_usd": 507.8,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 10:33 UTC",
-      "action": "buy",
-      "details": "[LLM] $LBC at $3.092e-06, spent 0.05 SOL",
-      "reason": "$LBC 'Last Brain Cell' — pure brainrot narrative, ultra-fresh at 0.5min, $3k mcap, meme-friendly degenerate humor often catches a quick 2-3x pop in first hour."
-    },
     {
       "time": "2026-09-10 10:35 UTC",
       "action": "sell",
@@ -45730,30 +45741,48 @@
       "action": "buy",
       "details": "[LLM] $GOLD at $1.44807e-06, spent 0.05 SOL",
       "reason": "GOLD RUSH narrative has viral phrasing ('SELL THE SHOVEL'), description passes viability gate (>=50 chars), gold/crypto meta is evergreen meme fodder. $1.4k mcap = early attention window."
+    },
+    {
+      "time": "2026-09-10 10:58 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $GOLD at $1.88349e-06 | P&L: +30.1%",
+      "reason": "Up +30.1% but pool is only $14 and we own 48% of it — extremely illiquid, can't exit cleanly at scale. Locking gains now before the thin liquidity turns this into a loss. Take-profit auto should fire at +30% anyway."
     }
   ],
   "trade_stats": {
-    "total": 2681,
-    "wins": 1303,
+    "total": 2682,
+    "wins": 1304,
     "losses": 1378,
     "win_rate_pct": 48.6,
-    "total_pnl_sol": 0.739997,
+    "total_pnl_sol": 0.747505,
     "avg_pnl_pct": 28.64,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 304,
-    "today_realized_sol": 3.425312,
-    "today_target_pct": 856.3,
+    "today_trades": 305,
+    "today_realized_sol": 3.43282,
+    "today_target_pct": 858.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1303,
+      "win_count": 1304,
       "loss_count": 1378,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:57:19.036274+00:00",
+  "last_llm_brief_at": "2026-09-10T10:58:49.923362+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "ExYgS9Jp7P8SupfBUzPQMAvKfMUwzwuCirfedJX4pump": {
+      "price_usd": 1.883493219147888e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 13.6971552102,
+      "volume_h24": 179.05,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.135508065
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
