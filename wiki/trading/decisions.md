@@ -17350,3 +17350,9 @@
 ## [2026-09-10 00:44 UTC] buy | [LLM] $EGG at $6.1199e-06, spent 0.05 SOL
 - **Reasoning:** $EGG — freshest launch (0.3min), $5k mcap, 10% bonded, has Twitter link from a dev account. Eggs have proven memeability (multiple EGG pumps historically). Earliest bonding curve with social signal = best risk/reward in the batch.
 
+## [2026-09-10 00:45 UTC] sell | [rapid-drop] $EGG crashed >15% in one tick | P&L: -21.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 00:46 UTC] buy | [LLM] $CATTOP at $6.07629e-06, spent 0.05 SOL
+- **Reasoning:** $CATTOP — Cat Laptop meme is a clear visual/viral concept, mcap $6k at 0.4min, fresh launch with classic cat-coin narrative that historically pumps hard on meme attention.
+
