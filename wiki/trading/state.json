@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.25641,
+  "balance_sol": 4.289816,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "zn9D3BAQr7hu1yZ6kAct5JjSXFxLTAuQfaPtHqGpump": {
       "symbol": "1.50",
       "name": "Costco Hot Dog",
-      "amount": 5817616949.611067,
+      "amount": 2908808474.8055334,
       "entry_price_usd": 8.531843954304746e-10,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T16:37:03.337667+00:00",
       "entry_usd_value": 4.9635,
-      "last_seen_price_usd": 9.101605114148497e-10,
+      "last_seen_price_usd": 1.1358041585397277e-09,
       "entry_signals": {
         "liquidity_usd": 0.20589600627,
         "volume_24h_usd": null,
@@ -48035,19 +48035,30 @@
       "pnl_pct": 2.68,
       "exit_reason": "LLM: sell_all — $Finney is only +2.7% after just opening, with our10% share of a $50 pool giving meaningful control. Too early to act; let the position breathe for th",
       "partial": false
+    },
+    {
+      "mint": "zn9D3BAQr7hu1yZ6kAct5JjSXFxLTAuQfaPtHqGpump",
+      "symbol": "1.50",
+      "name": "Costco Hot Dog",
+      "amount_sold": 2908808474.8055334,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T16:37:03.337667+00:00",
+      "exit_time": "2026-09-10T16:40:06.551982+00:00",
+      "entry_price_usd": 8.531843954304746e-10,
+      "exit_price_usd": 1.1358041585397277e-09,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.033406,
+      "pnl_sol": 0.008406,
+      "pnl_pct": 33.13,
+      "exit_reason": "LLM: sell_half — At +33% past first TP threshold, 2:1 buy/sell ratio is strong but Costco parody has no narrative beyond the joke. Lock half the gain, keep half for co",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T16:38:43.335121+00:00",
+  "last_updated": "2026-09-10T16:40:06.553065+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.35,
-  "portfolio_value_usd": 427.84,
+  "last_sol_price_usd": 98.9,
+  "portfolio_value_usd": 426.74,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 16:04 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $ANIMEME crashed >15% in one tick | P&L: -71.4%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 16:07 UTC",
       "action": "buy",
@@ -48161,40 +48172,46 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-10 16:40 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $1.50 at $1.1358e-09 | P&L: +33.1%",
+      "reason": "At +33% past first TP threshold, 2:1 buy/sell ratio is strong but Costco parody has no narrative beyond the joke. Lock half the gain, keep half for continuation — and free the slot for $AI entry."
     }
   ],
   "trade_stats": {
-    "total": 2824,
-    "wins": 1346,
+    "total": 2825,
+    "wins": 1347,
     "losses": 1478,
     "win_rate_pct": 47.7,
-    "total_pnl_sol": 0.040168,
+    "total_pnl_sol": 0.048574,
     "avg_pnl_pct": 26.75,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 447,
-    "today_realized_sol": 2.725483,
-    "today_target_pct": 681.4,
+    "today_trades": 448,
+    "today_realized_sol": 2.733889,
+    "today_target_pct": 683.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1346,
+      "win_count": 1347,
       "loss_count": 1478,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T16:38:43.334125+00:00",
+  "last_llm_brief_at": "2026-09-10T16:40:06.551939+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "zn9D3BAQr7hu1yZ6kAct5JjSXFxLTAuQfaPtHqGpump": {
-      "price_usd": 9.101605114148497e-10,
+      "price_usd": 1.1358041585397277e-09,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.2079194813,
+      "liquidity_usd": 0.28753760730000005,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.002092798
+      "real_sol_reserves": 0.002907357
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

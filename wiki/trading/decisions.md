@@ -19723,3 +19723,6 @@
 ## [2026-09-10 16:38 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-10 16:40 UTC] sell | [PARTIAL][LLM] $1.50 at $1.1358e-09 | P&L: +33.1%
+- **Reasoning:** At +33% past first TP threshold, 2:1 buy/sell ratio is strong but Costco parody has no narrative beyond the joke. Lock half the gain, keep half for continuation — and free the slot for $AI entry.
+
