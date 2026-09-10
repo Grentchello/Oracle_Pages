@@ -19384,3 +19384,6 @@
 ## [2026-09-10 14:18 UTC] sell | [FULL][LLM] $GRND at $9.05654e-06 | P&L: +1.3%
 - **Reasoning:** $GRND is only +1.3% but just entered (0.0h held). Bonding-curve phase at $2402 pool — too early to judge. Give it the 30-min window to develop; auto-stops will protect downside.
 
+## [2026-09-10 14:20 UTC] buy | [LLM] $PLUSHY at $8.055e-06, spent 0.05 SOL
+- **Reasoning:** $PLUSHY at $8.9k mcap with CoinMarketCap Twitter attention — CMC posting about a microcap is rare, real attention signal. Plushy/toy meme name has viral potential, ultra-fresh, cheapest entry to genuine attention flow among non-blocklisted candidates.
+
