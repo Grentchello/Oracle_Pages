@@ -18220,3 +18220,9 @@
 ## [2026-09-10 05:57 UTC] buy | [LLM] $WOJAK at $5.64608e-06, spent 0.05 SOL
 - **Reasoning:** $WOJAK is a culturally-iconic meme with an active X post. Wojak is a known viral attention brand — sub-$6k mcap, sub-1min old, classic pump.fun curve setup with real narrative. Small size, but the meme has legs.
 
+## [2026-09-10 05:58 UTC] sell | [rapid-drop] $WOJAK crashed >15% in one tick | P&L: -47.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 05:58 UTC] buy | [LLM] $Unpriced at $7.729e-06, spent 0.05 SOL
+- **Reasoning:** $Unpriced — strongest mcap in the batch at $8.5k, only 0.9min old, has Twitter presence (Unpricedshop), bond still bonding. 'Unpriced' is a clever meta-narrative in a meme market obsessed with valuations. Fresh attention + low mcap + narrative = asymmetric upside.
+
