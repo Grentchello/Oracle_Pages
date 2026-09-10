@@ -18736,3 +18736,6 @@
 ## [2026-09-10 09:42 UTC] buy | [LLM] $$GORB at $3.77e-06, spent 0.05 SOL
 - **Reasoning:** $GORB has the strongest narrative of the bunch: cute 'watering solana' lore with 🌱 mascot, dedicated X handle @Gorbsolanaplz, and only $3.4k mcap at <1min old. Pure early-stage attention play with a story that could go viral on CT. Position size 0.05 SOL ($5).
 
+## [2026-09-10 09:43 UTC] sell | [rapid-drop] $$GORB crashed >15% in one tick | P&L: -25.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
