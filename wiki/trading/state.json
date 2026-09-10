@@ -1,8 +1,32 @@
 {
-  "balance_sol": 9.346955,
+  "balance_sol": 9.296955,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "2wz6Jws6FFSWYEN63q6iYvpi3Ept5YUeUNQeQ3eapump": {
+      "symbol": "DEPE",
+      "name": "Delulu Pepe",
+      "amount": 1290951.6380655225,
+      "entry_price_usd": 3.846e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T23:55:02.357492+00:00",
+      "entry_usd_value": 4.965,
+      "last_seen_price_usd": 3.846e-06,
+      "entry_signals": {
+        "liquidity_usd": 573.4081823570999,
+        "volume_24h_usd": 650.1,
+        "market_cap_usd": 3858.937327711094,
+        "ath_market_cap_usd": 4534.838549629372,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 5.774503347,
+        "description": "",
+        "twitter": "https://x.com/delulu_pepe?s=11",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51549,17 +51573,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T23:53:39.671648+00:00",
+  "last_updated": "2026-09-10T23:55:02.357663+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.45,
-  "portfolio_value_usd": 929.55,
+  "last_sol_price_usd": 99.3,
+  "portfolio_value_usd": 928.15,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 23:31 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Banned at $2.78661e-06 | P&L: -3.0%",
-      "reason": "Just entered, -3% is noise. $Banned has bonding curve dynamics, pool is small ($4) so any meaningful price action will come from bonding curve progress. Give it time to develop narrative or bonding curve fill."
-    },
     {
       "time": "2026-09-10 23:35 UTC",
       "action": "buy",
@@ -51673,42 +51691,36 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-10 23:55 UTC",
+      "action": "buy",
+      "details": "[LLM] $DEPE at $3.846e-06, spent 0.05 SOL",
+      "reason": "$DEPE (Delulu Pepe) — Pepe is a battle-tested $1B+ meme IP family, 'Delulu' is trending Gen-Z internet slang, and there's an active Twitter account. $3.9k mcap at ~0.7min age with 13% bonding curve = very early entry with massive room. Risk: sub-1min launch is extremely fresh, liquidity is thin, and pure narrative (no utility) — but that's exactly where memecoin alpha lives."
     }
   ],
   "trade_stats": {
-    "total": 3031,
+    "total": 3032,
     "wins": 1417,
-    "losses": 1614,
-    "win_rate_pct": 46.8,
-    "total_pnl_sol": 5.101773,
-    "avg_pnl_pct": 28.33,
+    "losses": 1615,
+    "win_rate_pct": 46.7,
+    "total_pnl_sol": 5.080766,
+    "avg_pnl_pct": 28.31,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 654,
-    "today_realized_sol": 7.787088,
-    "today_target_pct": 1946.8,
+    "today_trades": 655,
+    "today_realized_sol": 7.766081,
+    "today_target_pct": 1941.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1417,
-      "loss_count": 1614,
+      "loss_count": 1615,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T23:53:39.671017+00:00",
+  "last_llm_brief_at": "2026-09-10T23:55:00.432991+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "EBcRS8HT5N3aP6fxLkXVT3mR4eXPE3W6kbCE3uWpump": {
-      "price_usd": 2.956676856697948e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 93.0559213233,
-      "volume_h24": 8413.5,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.935705594
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
