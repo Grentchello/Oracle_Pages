@@ -1,27 +1,27 @@
 {
-  "balance_sol": 2.870493,
+  "balance_sol": 2.820898,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "35Km5M94kegCZM2Q1La33tbEVorkbQZ3axhqLKp4pump": {
-      "symbol": "LMI",
-      "name": "Lockheed Martin Inu",
-      "amount": 45484398.89844867,
-      "entry_price_usd": 1.1505563180767293e-09,
-      "entry_sol_spent": 0.0005132636575768179,
-      "entry_time": "2026-09-10T03:12:42.210737+00:00",
-      "entry_usd_value": 5.098,
-      "last_seen_price_usd": 1.238529657295769e-09,
+    "D2FbrtiLXMZ45CheKptLp54PKdJYYEsc3RrJPSpDCTGt": {
+      "symbol": "polycat",
+      "name": "bet on this cat",
+      "amount": 978892.8468551574,
+      "entry_price_usd": 5.206902896854227e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T03:15:13.505973+00:00",
+      "entry_usd_value": 5.097,
+      "last_seen_price_usd": 5.206902896854227e-06,
       "entry_signals": {
-        "liquidity_usd": 0.25458168088,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 5994.697450264989,
-        "ath_market_cap_usd": 6081.744499950691,
+        "liquidity_usd": 1701.03316417914,
+        "volume_24h_usd": null,
+        "market_cap_usd": 5204.598678310546,
+        "ath_market_cap_usd": 5610.727055510462,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.002496878,
-        "description": "Lockheed Martin Inu $LMI The defense dog of the markets. Paired with Lockheed Martin via OTC.",
-        "twitter": "https://x.com/LMIonPF",
+        "real_sol_reserves": 16.686611381,
+        "description": "Bet on this cat. Paired with Polymarket!",
+        "twitter": "https://x.com/KankiAlpha/status/2097885878983278682",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -42034,25 +42034,30 @@
       "pnl_pct": 7.65,
       "exit_reason": "LLM: sell_all — Up only +7.6%, held 0.0h, not at any TP threshold, not stale. Wait for the bonding curve to push it further or for the +30% auto TP to kick in.",
       "partial": true
+    },
+    {
+      "mint": "35Km5M94kegCZM2Q1La33tbEVorkbQZ3axhqLKp4pump",
+      "symbol": "LMI",
+      "name": "Lockheed Martin Inu",
+      "amount_sold": 45484398.89844867,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T03:12:42.210737+00:00",
+      "exit_time": "2026-09-10T03:15:03.605297+00:00",
+      "entry_price_usd": 1.1505563180767293e-09,
+      "exit_price_usd": 9.074564365898161e-10,
+      "entry_sol_for_chunk": 0.000513,
+      "exit_sol_received": 0.000405,
+      "pnl_sol": -0.000108,
+      "pnl_pct": -21.13,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T03:13:59.465582+00:00",
+  "last_updated": "2026-09-10T03:15:13.506266+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.94,
-  "portfolio_value_usd": 292.67,
+  "portfolio_value_usd": 292.66,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 02:56 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $BUY crashed >15% in one tick | P&L: -36.8%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
-    {
-      "time": "2026-09-10 02:56 UTC",
-      "action": "buy",
-      "details": "[LLM] $Tiktok at $6.769e-06, spent 0.05 SOL",
-      "reason": "$Tiktok — TikTok is a globally viral brand name with massive attention potential. Highest mcap ($7k) and bond completion (27%) in the batch, plus a twitter link. At $7k mcap with a recognizable name, 5-10x is plausible if it catches a wave. Risk: brand-impersonation tokens often get flagged by platforms, but the upside on a fresh viral brand name is the attention alpha we want."
-    },
     {
       "time": "2026-09-10 02:57 UTC",
       "action": "sell",
@@ -42160,40 +42165,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $LMI at $1.23853e-09 | P&L: +7.7%",
       "reason": "Up only +7.6%, held 0.0h, not at any TP threshold, not stale. Wait for the bonding curve to push it further or for the +30% auto TP to kick in."
+    },
+    {
+      "time": "2026-09-10 03:15 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $LMI crashed >15% in one tick | P&L: -21.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 03:15 UTC",
+      "action": "buy",
+      "details": "[LLM] $polycat at $5.2069e-06, spent 0.05 SOL",
+      "reason": "$polycat has a clear narrative tie-in to Polymarket (prediction markets are hot right now), a real description, and an active X poster. $5k mcap with a story is exactly the asymmetric setup we're looking for."
     }
   ],
   "trade_stats": {
-    "total": 2471,
+    "total": 2472,
     "wins": 1218,
-    "losses": 1253,
+    "losses": 1254,
     "win_rate_pct": 49.3,
-    "total_pnl_sol": -1.395305,
-    "avg_pnl_pct": 29.12,
+    "total_pnl_sol": -1.395413,
+    "avg_pnl_pct": 29.1,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 94,
-    "today_realized_sol": 1.29001,
+    "today_trades": 95,
+    "today_realized_sol": 1.289902,
     "today_target_pct": 322.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1218,
-      "loss_count": 1253,
+      "loss_count": 1254,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:13:59.465121+00:00",
+  "last_llm_brief_at": "2026-09-10T03:15:12.202435+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "35Km5M94kegCZM2Q1La33tbEVorkbQZ3axhqLKp4pump": {
-      "price_usd": 1.238529657295769e-09,
+      "price_usd": 9.074564365898161e-10,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.22533510792,
+      "liquidity_usd": 0.07534670832,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.002210468
+      "real_sol_reserves": 0.000739128
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

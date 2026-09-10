@@ -17773,3 +17773,9 @@
 ## [2026-09-10 03:13 UTC] sell | [PARTIAL][LLM] $LMI at $1.23853e-09 | P&L: +7.7%
 - **Reasoning:** Up only +7.6%, held 0.0h, not at any TP threshold, not stale. Wait for the bonding curve to push it further or for the +30% auto TP to kick in.
 
+## [2026-09-10 03:15 UTC] sell | [rapid-drop] $LMI crashed >15% in one tick | P&L: -21.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 03:15 UTC] buy | [LLM] $polycat at $5.2069e-06, spent 0.05 SOL
+- **Reasoning:** $polycat has a clear narrative tie-in to Polymarket (prediction markets are hot right now), a real description, and an active X poster. $5k mcap with a story is exactly the asymmetric setup we're looking for.
+
