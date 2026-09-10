@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.560855,
+  "balance_sol": 4.586953,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GWdUVR8VUCoY5FVRgqCgZGTj15JkEQxH8Dc498yCpump": {
       "symbol": "STOMP",
       "name": "STONK AND PUMP",
-      "amount": 245032.49160040417,
+      "amount": 122516.24580020209,
       "entry_price_usd": 2.0636038783975126e-05,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T08:32:15.047996+00:00",
       "entry_usd_value": 5.0565,
-      "last_seen_price_usd": 2.0636038783975126e-05,
+      "last_seen_price_usd": 2.1536099745338882e-05,
       "entry_signals": {
         "liquidity_usd": 5168.59899081606,
         "volume_24h_usd": null,
@@ -44652,19 +44652,30 @@
       "pnl_pct": -0.02,
       "exit_reason": "LLM: sell_all — Just entered at -0.0%, no signal to exit yet. Give it a few minutes to develop direction before deciding.",
       "partial": false
+    },
+    {
+      "mint": "GWdUVR8VUCoY5FVRgqCgZGTj15JkEQxH8Dc498yCpump",
+      "symbol": "STOMP",
+      "name": "STONK AND PUMP",
+      "amount_sold": 122516.24580020209,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T08:32:15.047996+00:00",
+      "exit_time": "2026-09-10T08:33:33.554873+00:00",
+      "entry_price_usd": 2.0636038783975126e-05,
+      "exit_price_usd": 2.1536099745338882e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.026098,
+      "pnl_sol": 0.001098,
+      "pnl_pct": 4.36,
+      "exit_reason": "LLM: sell_half — Up only +4.4% after first hour on a tiny $5.3k pool — no momentum yet, but technically green. Take half off to recover cost basis and let the rest rid",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T08:32:15.048183+00:00",
+  "last_updated": "2026-09-10T08:33:33.555097+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.13,
-  "portfolio_value_usd": 466.3,
+  "last_sol_price_usd": 101.1,
+  "portfolio_value_usd": 466.39,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 08:02 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $PAC-3310 at $2.00666e-08 | P&L: +20.4%",
-      "reason": "+20.4% and rising but the profit-taking rules say be aggressive when up >20% with any doubt — this is a thin bonding-curve pool ($3) and the 14% share I hold is huge relative to liquidity, meaning any further move will be hard to exit from cleanly. Lock half the gain, let the rest ride to TP or stop."
-    },
     {
       "time": "2026-09-10 08:03 UTC",
       "action": "sell",
@@ -44778,30 +44789,48 @@
       "action": "buy",
       "details": "[LLM] $STOMP at $2.0636e-05, spent 0.05 SOL",
       "reason": "$STOMP 'STONK AND PUMP' — meta-memecoin name literally about pumping, $20k mcap with bond 39% already filled, active X account, self-aware narrative tends to print in attention markets. Best narrative + liquidity of the batch."
+    },
+    {
+      "time": "2026-09-10 08:33 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $STOMP at $2.15361e-05 | P&L: +4.4%",
+      "reason": "Up only +4.4% after first hour on a tiny $5.3k pool — no momentum yet, but technically green. Take half off to recover cost basis and let the rest ride if it pops."
     }
   ],
   "trade_stats": {
-    "total": 2625,
-    "wins": 1279,
+    "total": 2626,
+    "wins": 1280,
     "losses": 1346,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.344566,
-    "avg_pnl_pct": 28.89,
+    "total_pnl_sol": 0.345664,
+    "avg_pnl_pct": 28.88,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 248,
-    "today_realized_sol": 3.029881,
-    "today_target_pct": 757.5,
+    "today_trades": 249,
+    "today_realized_sol": 3.030979,
+    "today_target_pct": 757.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1279,
+      "win_count": 1280,
       "loss_count": 1346,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T08:32:13.655153+00:00",
+  "last_llm_brief_at": "2026-09-10T08:33:33.554833+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GWdUVR8VUCoY5FVRgqCgZGTj15JkEQxH8Dc498yCpump": {
+      "price_usd": 2.1536099745338882e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 5338.814430233399,
+      "volume_h24": 5365.13,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 52.807264394
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

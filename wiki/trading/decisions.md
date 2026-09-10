@@ -18601,3 +18601,6 @@
 ## [2026-09-10 08:32 UTC] buy | [LLM] $STOMP at $2.0636e-05, spent 0.05 SOL
 - **Reasoning:** $STOMP 'STONK AND PUMP' — meta-memecoin name literally about pumping, $20k mcap with bond 39% already filled, active X account, self-aware narrative tends to print in attention markets. Best narrative + liquidity of the batch.
 
+## [2026-09-10 08:33 UTC] sell | [PARTIAL][LLM] $STOMP at $2.15361e-05 | P&L: +4.4%
+- **Reasoning:** Up only +4.4% after first hour on a tiny $5.3k pool — no momentum yet, but technically green. Take half off to recover cost basis and let the rest ride if it pops.
+
