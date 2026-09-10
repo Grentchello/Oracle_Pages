@@ -19744,3 +19744,6 @@
 ## [2026-09-10 16:48 UTC] sell | [FULL][LLM] $1.50 at $1.21704e-09 | P&L: +42.6%
 - **Reasoning:** +42.6% in 0.2h, well past the +30% auto-TP threshold. Bonding curve liquidity is $0 and we're holding 12% of supply — exit risk grows every second. Take the gain now per aggressive profit-taking discipline.
 
+## [2026-09-10 16:49 UTC] buy | [LLM] $BREZ at $8.5516e-06, spent 0.05 SOL
+- **Reasoning:** $BREZ leads the batch at $8.5k mcap with a clear narrative (Brezscales/The Course goat), confirmed twitter handle driving attention, and bond already 30% — strongest signal in the slate. Sizing is small ($5 risk) so I can afford to test the narrative thesis.
+
