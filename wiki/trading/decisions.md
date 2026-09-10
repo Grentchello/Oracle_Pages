@@ -18022,3 +18022,6 @@
 ## [2026-09-10 04:47 UTC] sell | [PARTIAL][LLM] $LOL at $1.6333e-09 | P&L: +3.1%
 - **Reasoning:** Up only +3.1% after fresh entry, no conviction to sell at break-even. Our share is huge (1220%) suggesting tiny pool — any recovery could pop hard. Give it room to develop, but if it doesn't move >10% in next 15 min, it's stale and I exit.
 
+## [2026-09-10 04:48 UTC] sell | [FULL][LLM] $LOL at $2.0264e-09 | P&L: +27.9%
+- **Reasoning:** At +27.9% past25% TP threshold but pool=$1 with our 25% share makes any sell order crash price to near-zero. Holding for higher TP is the only rational move; stuck position.
+

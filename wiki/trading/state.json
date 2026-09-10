@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.588689,
+  "balance_sol": 4.59,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BbTUGd9W2vZzkXNpXHG3TjdYPPEfhXVrv8gH2EyGpump": {
-      "symbol": "LOL",
-      "name": "lolcoin",
-      "amount": 65960743.568658285,
-      "entry_price_usd": 1.5837471235001432e-09,
-      "entry_sol_spent": 0.0010249719180807804,
-      "entry_time": "2026-09-10T04:46:09.291868+00:00",
-      "entry_usd_value": 5.096,
-      "last_seen_price_usd": 1.6332976289580576e-09,
-      "entry_signals": {
-        "liquidity_usd": 0.41513514224000003,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 12161.671458473045,
-        "ath_market_cap_usd": 12161.671458473045,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.004073147,
-        "description": "lolcoin predates dogecoin, this is the first time it's ever been paired to BTC.",
-        "twitter": "https://x.com/i/communities/2035801964756562231",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -42833,19 +42809,30 @@
       "pnl_pct": 3.13,
       "exit_reason": "LLM: sell_all — Up only +3.1% after fresh entry, no conviction to sell at break-even. Our share is huge (1220%) suggesting tiny pool — any recovery could pop hard. Gi",
       "partial": true
+    },
+    {
+      "mint": "BbTUGd9W2vZzkXNpXHG3TjdYPPEfhXVrv8gH2EyGpump",
+      "symbol": "LOL",
+      "name": "lolcoin",
+      "amount_sold": 65960743.568658285,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T04:46:09.291868+00:00",
+      "exit_time": "2026-09-10T04:48:56.931055+00:00",
+      "entry_price_usd": 1.5837471235001432e-09,
+      "exit_price_usd": 2.0264000588122396e-09,
+      "entry_sol_for_chunk": 0.001025,
+      "exit_sol_received": 0.001311,
+      "pnl_sol": 0.000286,
+      "pnl_pct": 27.95,
+      "exit_reason": "LLM: sell_all — At +27.9% past25% TP threshold but pool=$1 with our 25% share makes any sell order crash price to near-zero. Holding for higher TP is the only rationa",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T04:47:41.199237+00:00",
+  "last_updated": "2026-09-10T04:48:56.931239+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.01,
-  "portfolio_value_usd": 468.2,
+  "last_sol_price_usd": 101.96,
+  "portfolio_value_usd": 468.0,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 04:30 UTC",
-      "action": "buy",
-      "details": "[LLM] $Snorp at $9.30614e-06, spent 0.05 SOL",
-      "reason": "$Snorp — strongest fresh launch by mcap ($9.3k), has twitter presence (snorponchain), launched via Discord community (uxento = attention hub), bond already 31% complete showing organic buying pressure. Memetic name with potential viral appeal; -25% stop protects downside."
-    },
     {
       "time": "2026-09-10 04:31 UTC",
       "action": "sell",
@@ -42959,40 +42946,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $LOL at $1.6333e-09 | P&L: +3.1%",
       "reason": "Up only +3.1% after fresh entry, no conviction to sell at break-even. Our share is huge (1220%) suggesting tiny pool — any recovery could pop hard. Give it room to develop, but if it doesn't move >10% in next 15 min, it's stale and I exit."
+    },
+    {
+      "time": "2026-09-10 04:48 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LOL at $2.0264e-09 | P&L: +27.9%",
+      "reason": "At +27.9% past25% TP threshold but pool=$1 with our 25% share makes any sell order crash price to near-zero. Holding for higher TP is the only rational move; stuck position."
     }
   ],
   "trade_stats": {
-    "total": 2518,
-    "wins": 1238,
+    "total": 2519,
+    "wins": 1239,
     "losses": 1280,
     "win_rate_pct": 49.2,
-    "total_pnl_sol": 0.323404,
+    "total_pnl_sol": 0.32369,
     "avg_pnl_pct": 30.01,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 141,
-    "today_realized_sol": 3.008719,
-    "today_target_pct": 752.2,
+    "today_trades": 142,
+    "today_realized_sol": 3.009005,
+    "today_target_pct": 752.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1238,
+      "win_count": 1239,
       "loss_count": 1280,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T04:47:41.198936+00:00",
+  "last_llm_brief_at": "2026-09-10T04:48:56.930920+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "BbTUGd9W2vZzkXNpXHG3TjdYPPEfhXVrv8gH2EyGpump": {
-      "price_usd": 1.6332976289580576e-09,
+      "price_usd": 2.0264000588122396e-09,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.43093410430000006,
+      "liquidity_usd": 0.54349859568,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.00422443
+      "real_sol_reserves": 0.005330508
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
