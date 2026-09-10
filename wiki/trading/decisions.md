@@ -18517,3 +18517,9 @@
 ## [2026-09-10 07:51 UTC] buy | [LLM] $OCTOPUS at $1.072e-05, spent 0.05 SOL
 - **Reasoning:** $OCTOPUS has the strongest organic signal on the board: $10.3k mcap with 32% bond progress in 1.7min means real buyers are committing capital (not just sniper noise), plus twitter presence. At ~$10k mcap a 5x is still very achievable. Sizing 0.1 SOL per the rules.
 
+## [2026-09-10 07:52 UTC] sell | [v8.7 TP +50% (full)] $OCTOPUS at $1.80881e-05 | P&L: +68.7%
+- **Reasoning:** Auto take-profit at +68.7%
+
+## [2026-09-10 07:52 UTC] buy | [LLM] $GD at $3.0318e-06, spent 0.05 SOL
+- **Reasoning:** $GD (Green Degen) has the cleanest viability profile of the slate: real community-focus desc >50 chars, dedicated twitter (@GDthememe), and sub-1min age for early attention capture. Narrative is honest degen-framing rather than empty hype. Risk: bond only 3%, mc $3k — extremely thin liquidity, could rug fast. Tight mental stop.
+
