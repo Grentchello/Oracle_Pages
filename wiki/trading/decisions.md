@@ -19966,3 +19966,6 @@
 ## [2026-09-10 18:16 UTC] sell | [PARTIAL][LLM] $GREENY at $2.80304e-06 | P&L: -14.4%
 - **Reasoning:** Down 14.4% with 53% pool share and held 0h — bonding-curve position with concentrated share is fragile, exit before -25% hard stop. Free the slot for fresh attention plays.
 
+## [2026-09-10 18:17 UTC] sell | [FULL][LLM] $GREENY at $2.78758e-06 | P&L: -14.9%
+- **Reasoning:** The position is down 14.9% but has only just been opened, so there is no stale-exit condition or evidence yet of a -20% momentum failure. With no TP threshold reached, retain it for a near-term bounce while the hard stop remains authoritative.
+
