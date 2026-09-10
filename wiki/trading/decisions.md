@@ -20287,3 +20287,9 @@
 ## [2026-09-10 19:48 UTC] buy | [LLM] $VOID at $7.419e-06, spent 0.05 SOL
 - **Reasoning:** $VOID has the cleanest narrative hook on the list: explicit airdrop incentive (60% to top 15 holders) creates guaranteed buy pressure and a FOMO driver. Fresh launch (<1min), twitter presence, description >50 chars — passes viability gate. Small position, ride the airdrop-chase attention.
 
+## [2026-09-10 19:49 UTC] sell | [FULL][LLM] $VOID at $9.26182e-06 | P&L: +24.8%
+- **Reasoning:** $VOID is up +24.8% but pool is only $2,461 (liquidity barely meets 5x position size) and our share is 0% — extremely thin, any dump will slaughter this. Take the gain now, don't hope for +30% TP with a ghost pool.
+
+## [2026-09-10 19:49 UTC] buy | [LLM] $S&P500 at $6.919e-06, spent 0.05 SOL
+- **Reasoning:** $S&P500 has the strongest contrarian narrative of the batch: 'ruin S&P 500' is a viral meme angle tied to Pumpfun/Solana culture war, real X post, clear thesis in description. mcap $3.3k is fresh enough to catch a 5-10x if it trends.
+

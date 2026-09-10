@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.514841,
+  "balance_sol": 4.527279,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "E7qgpri4cm9XLGsvedMi7Y8ZWxKzygWTkotgDphEpump": {
-      "symbol": "VOID",
-      "name": "VOID",
-      "amount": 672529.9905647662,
-      "entry_price_usd": 7.419e-06,
+    "65jSR4mkEbPrCcXezpkC7EWb8WGcu67n6An5namnpump": {
+      "symbol": "S&P500",
+      "name": "Solana and Pumpfun 500",
+      "amount": 720913.4267957797,
+      "entry_price_usd": 6.919e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T19:48:08.495965+00:00",
-      "entry_usd_value": 4.9895000000000005,
-      "last_seen_price_usd": 7.419e-06,
+      "entry_time": "2026-09-10T19:49:35.098895+00:00",
+      "entry_usd_value": 4.988,
+      "last_seen_price_usd": 6.919e-06,
       "entry_signals": {
-        "liquidity_usd": 2086.80387199717,
-        "volume_24h_usd": 1887.86,
-        "market_cap_usd": 8037.545223553271,
-        "ath_market_cap_usd": 8037.545223553271,
+        "liquidity_usd": 26.09479053512,
+        "volume_24h_usd": 9975.86,
+        "market_cap_usd": 3321.845126612009,
+        "ath_market_cap_usd": 7294.680045393469,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 20.911953823,
-        "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. Good luck. ",
-        "twitter": "https://x.com/DevVOIDSol",
+        "real_sol_reserves": 0.261575687,
+        "description": "We can finally ruin S&P 500. Paying Dex on this. It should go. Launching on Pump, pairing to Solana. ",
+        "twitter": "https://x.com/bonderonchain/status/2098136458041197023",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -49769,25 +49769,30 @@
       "pnl_pct": -48.2,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "E7qgpri4cm9XLGsvedMi7Y8ZWxKzygWTkotgDphEpump",
+      "symbol": "VOID",
+      "name": "VOID",
+      "amount_sold": 672529.9905647662,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T19:48:08.495965+00:00",
+      "exit_time": "2026-09-10T19:49:32.700216+00:00",
+      "entry_price_usd": 7.419e-06,
+      "exit_price_usd": 9.2618235119588e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.062438,
+      "pnl_sol": 0.012438,
+      "pnl_pct": 24.84,
+      "exit_reason": "LLM: sell_all — $VOID is up +24.8% but pool is only $2,461 (liquidity barely meets 5x position size) and our share is 0% — extremely thin, any dump will slaughter thi",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T19:48:08.496203+00:00",
+  "last_updated": "2026-09-10T19:49:35.099173+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.79,
-  "portfolio_value_usd": 455.53,
+  "last_sol_price_usd": 99.76,
+  "portfolio_value_usd": 456.63,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:32 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SEASHELL at $2.80472e-06 | P&L: -13.1%",
-      "reason": "Position is fresh (0.0h held) and down only -13.1%, well above the -25% hard cap. No clear bounce signal yet but also no reason to panic exit a brand-new position. Giving it a few more minutes to find direction."
-    },
-    {
-      "time": "2026-09-10 19:34 UTC",
-      "action": "buy",
-      "details": "[LLM] $ASTRA at $2.839e-06, spent 0.05 SOL",
-      "reason": "Toly (Solana cofounder) posted about $ASTRA — that's the highest-quality attention signal in this batch. $2.8k mcap is the asymmetric entry point; this kind of insider tweet is what drives 50-300% first-hour pumps. Risk: thin liquidity (bond 1%), and $ASTRA appears twice (second mint 41PJi2VJyz13Lfhabm9pceXHcoRZ86WvDziMjapg9dPx) suggesting copycats — take the one with the original Toly timestamp."
-    },
     {
       "time": "2026-09-10 19:35 UTC",
       "action": "sell",
@@ -49895,30 +49900,54 @@
       "action": "buy",
       "details": "[LLM] $VOID at $7.419e-06, spent 0.05 SOL",
       "reason": "$VOID has the cleanest narrative hook on the list: explicit airdrop incentive (60% to top 15 holders) creates guaranteed buy pressure and a FOMO driver. Fresh launch (<1min), twitter presence, description >50 chars — passes viability gate. Small position, ride the airdrop-chase attention."
+    },
+    {
+      "time": "2026-09-10 19:49 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $VOID at $9.26182e-06 | P&L: +24.8%",
+      "reason": "$VOID is up +24.8% but pool is only $2,461 (liquidity barely meets 5x position size) and our share is 0% — extremely thin, any dump will slaughter this. Take the gain now, don't hope for +30% TP with a ghost pool."
+    },
+    {
+      "time": "2026-09-10 19:49 UTC",
+      "action": "buy",
+      "details": "[LLM] $S&P500 at $6.919e-06, spent 0.05 SOL",
+      "reason": "$S&P500 has the strongest contrarian narrative of the batch: 'ruin S&P 500' is a viral meme angle tied to Pumpfun/Solana culture war, real X post, clear thesis in description. mcap $3.3k is fresh enough to catch a 5-10x if it trends."
     }
   ],
   "trade_stats": {
-    "total": 2926,
-    "wins": 1373,
+    "total": 2927,
+    "wins": 1374,
     "losses": 1553,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 0.298653,
+    "total_pnl_sol": 0.311091,
     "avg_pnl_pct": 26.05,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 549,
-    "today_realized_sol": 2.983968,
-    "today_target_pct": 746.0,
+    "today_trades": 550,
+    "today_realized_sol": 2.996406,
+    "today_target_pct": 749.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1373,
+      "win_count": 1374,
       "loss_count": 1553,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T19:48:07.235082+00:00",
+  "last_llm_brief_at": "2026-09-10T19:49:32.699781+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "E7qgpri4cm9XLGsvedMi7Y8ZWxKzygWTkotgDphEpump": {
+      "price_usd": 9.2618235119588e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2460.84618827352,
+      "volume_h24": 2287.69,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 24.667664277
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
