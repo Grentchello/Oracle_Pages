@@ -19984,3 +19984,9 @@
 ## [2026-09-10 18:23 UTC] buy | [LLM] $⬆️ at $5.116e-06, spent 0.05 SOL
 - **Reasoning:** $⬆️ 'only up' is a self-referential memecoin thesis — the name IS the meme. $15.8k mcap is the strongest of the truly fresh launches, name has viral spread potential. Risk: bond at 0%, very early, could rug — but that's the asymmetric bet.
 
+## [2026-09-10 18:24 UTC] sell | [v8.7 TP +50% (full)] $⬆️ at $1.58681e-05 | P&L: +210.2%
+- **Reasoning:** Auto take-profit at +210.2%
+
+## [2026-09-10 18:24 UTC] buy | [LLM] $KekiusBot at $3.0195e-06, spent 0.05 SOL
+- **Reasoning:** KekiusBot carries the Kekius/Pepe narrative which has real recurring attention on CT, twitter link is live, $3k mcap is fresh enough to ride. Small position, swing for 2-3x.
+
