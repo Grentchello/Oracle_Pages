@@ -20689,3 +20689,6 @@
 ## [2026-09-10 22:40 UTC] buy | [LLM] $fun at $9.11399e-06, spent 0.05 SOL
 - **Reasoning:** $fun has the cleanest attention signal in the batch: official @Pumpfun X account tweet, 31% bonding curve progress (real buy pressure, not just creation), and meta-narrative framing ('there is no pump, I love you') that mirrors pump.fun's whole identity. At $9k mcap on a sub-1-min launch with a platform-endorsed tweet, this is the textbook attention-launched memecoin — buy 0.05 SOL.
 
+## [2026-09-10 22:42 UTC] sell | [FULL][LLM] $fun at $1.14655e-05 | P&L: +25.8%
+- **Reasoning:** $fun is at +25.8% — close to the +30% auto-TP threshold, and a pullback risk is high on a sub-$3k pool with 0% share. Locking in the gain now rather than gambling another minute for the auto-trigger; this also frees my only position slot for fresh attention.
+
