@@ -19192,3 +19192,9 @@
 ## [2026-09-10 13:05 UTC] buy | [LLM] $PEPEFLAP at $4.54945e-06, spent 0.05 SOL
 - **Reasoning:** $PEPEFLAP at 0.1min, $4.5k mcap — pepe derivatives are the highest-virality category on Solana, fresh launch with X status link. Asymmetric upside on micro-mcap attention play.
 
+## [2026-09-10 13:06 UTC] sell | [rapid-drop] $PEPEFLAP crashed >15% in one tick | P&L: -37.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 13:07 UTC] buy | [LLM] $NEURO at $2.869e-06, spent 0.05 SOL
+- **Reasoning:** $NEURO — AI narrative is the strongest meta-theme in crypto right now. Description passes viability gate (109 chars, mentions community-owned/on-chain). Sub-1min age with $2.87k mcap = classic early-launch entry. Risk: very low mcap means high rug probability; bot fragility gate will reject if ME2F score ≥0.5.
+
