@@ -19498,3 +19498,6 @@
 ## [2026-09-10 15:02 UTC] buy | [LLM] $CATESEM at $1.104e-05, spent 0.05 SOL
 - **Reasoning:** $CATESEM has the strongest attention signal — 10% supply to ANSEM (major Solana KOL), highest mcap ($20k), bond at 39% shows traction. Passes viability (desc + twitter) and fragility gates. KOL-rugged catalysts historically pump hard in first hour.
 
+## [2026-09-10 15:03 UTC] sell | [rapid-drop] $CATESEM crashed >15% in one tick | P&L: -73.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
