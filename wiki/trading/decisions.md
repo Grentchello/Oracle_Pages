@@ -19792,3 +19792,9 @@
 ## [2026-09-10 17:06 UTC] buy | [LLM] $Hedgy at $3.11e-06, spent 0.05 SOL
 - **Reasoning:** $Hedgy — claimed artist behind Pudgy Penguins. That's a real narrative with verifiable identity (twitter linked @PenTheArtist). Mcap $3k is tiny with a credible creator angle. Risk: bond only 5% so very early — size small and watch for rug.
 
+## [2026-09-10 17:08 UTC] sell | [FULL][LLM] $Hedgy at $3.28294e-06 | P&L: +5.6%
+- **Reasoning:** Just entered, +5.6% green, but pool only $253 so exit will be slippy. Giving it a few minutes to develop before deciding — if it stalls under +10% in 15min I'll exit.
+
+## [2026-09-10 17:08 UTC] buy | [LLM] $FlyCar at $3.09005e-06, spent 0.05 SOL
+- **Reasoning:** $FlyCar is riding the 'viral Fly driving a car' attention hook — concrete narrative with a Twitter post. Mcap $3k = room to run if the video keeps circulating. Risk: very fresh, low liquidity, narrative could die in 30min.
+
