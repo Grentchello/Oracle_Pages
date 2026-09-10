@@ -19714,3 +19714,6 @@
 ## [2026-09-10 16:33 UTC] buy | [LLM] $Finney at $2.78473e-06, spent 0.05 SOL
 - **Reasoning:** $Finney — Hal Finney tribute (Bitcoin legend, 'ITWILLRUN' reference to his famous tweet), clean crypto-native narrative not on fragility blocklist, fresh launch at $2.8k mcap with named X account promoting. Small position to test the water on a classic crypto history meme.
 
+## [2026-09-10 16:34 UTC] sell | [FULL][LLM] $Finney at $2.85939e-06 | P&L: +2.7%
+- **Reasoning:** $Finney is only +2.7% after just opening, with our10% share of a $50 pool giving meaningful control. Too early to act; let the position breathe for the30-min window.
+
