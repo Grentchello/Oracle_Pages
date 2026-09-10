@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.317962,
+  "balance_sol": 9.346955,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EBcRS8HT5N3aP6fxLkXVT3mR4eXPE3W6kbCE3uWpump": {
-      "symbol": "NUTS",
-      "name": "Mafia Nuts",
-      "amount": 975184.9364829852,
-      "entry_price_usd": 5.074422106894737e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T23:52:05.846479+00:00",
-      "entry_usd_value": 4.9485,
-      "last_seen_price_usd": 5.074422106894737e-06,
-      "entry_signals": {
-        "liquidity_usd": 203.50936820409,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5077.316887919741,
-        "ath_market_cap_usd": 5323.56327501149,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.056273297,
-        "description": "",
-        "twitter": "https://x.com/ZzzzzSol/status/2098196669879681324?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51554,25 +51530,30 @@
       "pnl_pct": -7.18,
       "exit_reason": "LLM: sell_all — Down only -7.2% in a $16 pool where I hold 15% — selling now crystallizes the loss AND crashes the pool for myself. Well within -25% hard cap and just",
       "partial": false
+    },
+    {
+      "mint": "EBcRS8HT5N3aP6fxLkXVT3mR4eXPE3W6kbCE3uWpump",
+      "symbol": "NUTS",
+      "name": "Mafia Nuts",
+      "amount_sold": 975184.9364829852,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T23:52:05.846479+00:00",
+      "exit_time": "2026-09-10T23:53:09.834351+00:00",
+      "entry_price_usd": 5.074422106894737e-06,
+      "exit_price_usd": 2.956676856697948e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.028993,
+      "pnl_sol": -0.021007,
+      "pnl_pct": -41.73,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T23:52:05.846745+00:00",
+  "last_updated": "2026-09-10T23:53:39.671648+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.97,
-  "portfolio_value_usd": 927.15,
+  "last_sol_price_usd": 99.45,
+  "portfolio_value_usd": 929.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 23:29 UTC",
-      "action": "buy",
-      "details": "[LLM] $Banned at $2.87269e-06, spent 0.05 SOL",
-      "reason": "$BANNED — Pump.fun delisting from Apple Store is a viral narrative with real-world news catalyst. Low mcap ($2.8k) means huge upside if attention catches. Bond low but narrative is strong enough to enter with 0.05 SOL."
-    },
-    {
-      "time": "2026-09-10 23:30 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Banned at $2.77147e-06 | P&L: -3.5%",
-      "reason": "Owning 119% of pool on a bonding-curve token is catastrophic concentration risk — any other seller dilutes my exit price. Down only 3.5% but the structural risk is worse than the loss. Cut and free the slot."
-    },
     {
       "time": "2026-09-10 23:31 UTC",
       "action": "sell",
@@ -51680,6 +51661,18 @@
       "action": "buy",
       "details": "[LLM] $NUTS at $5.07442e-06, spent 0.05 SOL",
       "reason": "Strongest narrative of the batch — 'Mafia Nuts' is a memorable, viral-style name with a real X post attached. $5k mcap is genuinely early (not top-runners extracted), bonding 21% shows organic buy pressure. Thin liquidity means I size small (0.05 SOL) and accept the rug risk."
+    },
+    {
+      "time": "2026-09-10 23:53 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $NUTS crashed >15% in one tick | P&L: -41.7%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 23:53 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -51701,19 +51694,19 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T23:52:04.479650+00:00",
+  "last_llm_brief_at": "2026-09-10T23:53:39.671017+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "FBJFuzTswSGomckJZcwyxtXyBKizQ1n7DQndc4qpump": {
-      "price_usd": 1.5539462770967657e-07,
+    "EBcRS8HT5N3aP6fxLkXVT3mR4eXPE3W6kbCE3uWpump": {
+      "price_usd": 2.956676856697948e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 15.523074154259998,
-      "volume_h24": 0.0,
+      "liquidity_usd": 93.0559213233,
+      "volume_h24": 8413.5,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.156846258
+      "real_sol_reserves": 0.935705594
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

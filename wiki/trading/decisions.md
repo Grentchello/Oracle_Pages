@@ -20887,3 +20887,9 @@
 ## [2026-09-10 23:52 UTC] buy | [LLM] $NUTS at $5.07442e-06, spent 0.05 SOL
 - **Reasoning:** Strongest narrative of the batch — 'Mafia Nuts' is a memorable, viral-style name with a real X post attached. $5k mcap is genuinely early (not top-runners extracted), bonding 21% shows organic buy pressure. Thin liquidity means I size small (0.05 SOL) and accept the rug risk.
 
+## [2026-09-10 23:53 UTC] sell | [rapid-drop] $NUTS crashed >15% in one tick | P&L: -41.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 23:53 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
