@@ -20653,3 +20653,6 @@
 ## [2026-09-10 22:26 UTC] buy | [LLM] $PUDDHA at $1.71e-05, spent 0.05 SOL
 - **Reasoning:** $PUDDHA at $19k mcap (highest of 5 simultaneous launches) with twitter signal from @lyftical. The 5 simultaneous PUDDHA mints in <1 min is a yellow flag for scam-farming, but this one has the most early traction and passes the viability gate. Taking 0.1 SOL to test if narrative holds or if it's a coordinated rug setup.
 
+## [2026-09-10 22:28 UTC] sell | [FULL][LLM] $PUDDHA at $1.6302e-05 | P&L: -4.7%
+- **Reasoning:** Down only 4.7% after 0h held, well within tolerance. Bonding curve at 6% — early stage, give it room to develop. Not stale, not near stop.
+

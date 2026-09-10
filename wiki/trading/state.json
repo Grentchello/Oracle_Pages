@@ -1,32 +1,8 @@
 {
-  "balance_sol": 8.986159,
+  "balance_sol": 9.033897,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CE8nFru2x1pz3HjiPpi8SKqtFcgmh5vWAaKNMHYCpump": {
-      "symbol": "PUDDHA",
-      "name": "PUDDHA",
-      "amount": 292017.5438596492,
-      "entry_price_usd": 1.71e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T22:26:59.270659+00:00",
-      "entry_usd_value": 4.993500000000001,
-      "last_seen_price_usd": 1.71e-05,
-      "entry_signals": {
-        "liquidity_usd": 4212.6622795700405,
-        "volume_24h_usd": 26393.85,
-        "market_cap_usd": 19413.817454107353,
-        "ath_market_cap_usd": 22350.37602792934,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 42.181458692,
-        "description": "",
-        "twitter": "https://x.com/lyftical/status/2098176069547233658",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50857,19 +50833,30 @@
       "pnl_pct": -19.09,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "CE8nFru2x1pz3HjiPpi8SKqtFcgmh5vWAaKNMHYCpump",
+      "symbol": "PUDDHA",
+      "name": "PUDDHA",
+      "amount_sold": 292017.5438596492,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T22:26:59.270659+00:00",
+      "exit_time": "2026-09-10T22:28:22.200102+00:00",
+      "entry_price_usd": 1.71e-05,
+      "exit_price_usd": 1.6301963321951795e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.047738,
+      "pnl_sol": -0.002262,
+      "pnl_pct": -4.67,
+      "exit_reason": "LLM: sell_all — Down only 4.7% after 0h held, well within tolerance. Bonding curve at 6% — early stage, give it room to develop. Not stale, not near stop.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T22:26:59.270816+00:00",
+  "last_updated": "2026-09-10T22:28:22.200836+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.87,
-  "portfolio_value_usd": 902.44,
+  "last_sol_price_usd": 99.72,
+  "portfolio_value_usd": 900.86,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 22:03 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $DEVIN crashed >15% in one tick | P&L: -33.9%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 22:06 UTC",
       "action": "buy",
@@ -50983,40 +50970,46 @@
       "action": "buy",
       "details": "[LLM] $PUDDHA at $1.71e-05, spent 0.05 SOL",
       "reason": "$PUDDHA at $19k mcap (highest of 5 simultaneous launches) with twitter signal from @lyftical. The 5 simultaneous PUDDHA mints in <1 min is a yellow flag for scam-farming, but this one has the most early traction and passes the viability gate. Taking 0.1 SOL to test if narrative holds or if it's a coordinated rug setup."
+    },
+    {
+      "time": "2026-09-10 22:28 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PUDDHA at $1.6302e-05 | P&L: -4.7%",
+      "reason": "Down only 4.7% after 0h held, well within tolerance. Bonding curve at 6% — early stage, give it room to develop. Not stale, not near stop."
     }
   ],
   "trade_stats": {
-    "total": 2990,
+    "total": 2991,
     "wins": 1401,
-    "losses": 1589,
-    "win_rate_pct": 46.9,
-    "total_pnl_sol": 4.76997,
-    "avg_pnl_pct": 28.5,
+    "losses": 1590,
+    "win_rate_pct": 46.8,
+    "total_pnl_sol": 4.767708,
+    "avg_pnl_pct": 28.49,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 613,
-    "today_realized_sol": 7.455285,
-    "today_target_pct": 1863.8,
+    "today_trades": 614,
+    "today_realized_sol": 7.453023,
+    "today_target_pct": 1863.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1401,
-      "loss_count": 1589,
+      "loss_count": 1590,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T22:26:57.917543+00:00",
+  "last_llm_brief_at": "2026-09-10T22:28:22.199964+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "CuPKuEKMzUgDKFjKcmorARb7weeG4GY1bfSMM3ZsKvjs": {
-      "price_usd": 2.792264678657726e-06,
+    "CE8nFru2x1pz3HjiPpi8SKqtFcgmh5vWAaKNMHYCpump": {
+      "price_usd": 1.6301963321951795e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.9974000000000001e-07,
-      "volume_h24": 333.37,
+      "liquidity_usd": 4242.28466972484,
+      "volume_h24": 43305.51,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2e-09
+      "real_sol_reserves": 42.541964197
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
