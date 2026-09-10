@@ -19939,3 +19939,9 @@
 ## [2026-09-10 18:07 UTC] buy | [LLM] $PUMPLIFE at $1.28105e-05, spent 0.05 SOL
 - **Reasoning:** $PUMPLIFE leads the Memecoin Supercycle narrative cluster with highest mcap ($12.7k), most bond progress (35%), and clearest unique branding. The viral Pumpfun tweet about 'death taxes memecoin supercycle' is fresh attention - this is exactly the 10x-from-$10k-mcap setup the rules target.
 
+## [2026-09-10 18:08 UTC] sell | [rapid-drop] $PUMPLIFE crashed >15% in one tick | P&L: -76.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 18:08 UTC] buy | [LLM] $Veronica at $8.792e-06, spent 0.05 SOL
+- **Reasoning:** $Veronica — TikTok creator with 430K+ followers launching her own coin. Strong attention narrative, passes viability gate (130+ char desc + twitter), bond 25% already committed. Position size 0.05 SOL per bot enforcement. Hard stop at -25%, take profit at +50%.
+
