@@ -1,27 +1,27 @@
 {
-  "balance_sol": 1.597186,
+  "balance_sol": 1.582948,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "ARxuFt7Ts1xWvMnV9VMSSdN4SQiXu3FVdVocBy7Bpump": {
-      "symbol": "Copycat",
-      "name": "Copycat",
-      "amount": 900373.0145532022,
-      "entry_price_usd": 5.632110156607054e-06,
+    "3Vk4M3R7ZU1sQbmv1mjmTCNG6uVUwNEgJgfsDwcPpump": {
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "amount": 637718.5259715759,
+      "entry_price_usd": 7.951e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T00:17:12.238767+00:00",
-      "entry_usd_value": 5.071000000000001,
-      "last_seen_price_usd": 5.632110156607054e-06,
+      "entry_time": "2026-09-10T00:18:45.093080+00:00",
+      "entry_usd_value": 5.0705,
+      "last_seen_price_usd": 7.951e-06,
       "entry_signals": {
-        "liquidity_usd": 1089.01177811074,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5632.665482002105,
-        "ath_market_cap_usd": 6147.543842951162,
+        "liquidity_usd": 2480.10807601188,
+        "volume_24h_usd": 10165.64,
+        "market_cap_usd": 9038.33241423832,
+        "ath_market_cap_usd": 10013.337000877078,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 10.737643247,
+        "real_sol_reserves": 24.456247668,
         "description": "",
-        "twitter": "https://x.com/RuneCrypto_/status/2097778228031115316?s=20",
+        "twitter": "https://x.com/richguyhoddie/status/2097841633853382663?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -40538,25 +40538,30 @@
       "pnl_pct": 88.52,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "ARxuFt7Ts1xWvMnV9VMSSdN4SQiXu3FVdVocBy7Bpump",
+      "symbol": "Copycat",
+      "name": "Copycat",
+      "amount_sold": 900373.0145532022,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T00:17:12.238767+00:00",
+      "exit_time": "2026-09-10T00:18:15.939684+00:00",
+      "entry_price_usd": 5.632110156607054e-06,
+      "exit_price_usd": 4.027882934782372e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.035762,
+      "pnl_sol": -0.014238,
+      "pnl_pct": -28.48,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T00:17:12.238917+00:00",
+  "last_updated": "2026-09-10T00:18:45.093257+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.42,
-  "portfolio_value_usd": 167.06,
+  "last_sol_price_usd": 101.41,
+  "portfolio_value_usd": 165.6,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 08:58 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-09 12:46 UTC",
-      "action": "observe",
-      "details": "LLM call failed: llm call failed",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-09 13:18 UTC",
       "action": "observe",
@@ -40664,40 +40669,52 @@
       "action": "buy",
       "details": "[LLM] $Copycat at $5.63211e-06, spent 0.05 SOL",
       "reason": "$Copycat has the highest bond completion (23%) of all candidates — strongest confirmed buyer demand. The 'copycat' meta-narrative (calling out copycat tokens) is a viral Twitter-friendly angle, and age 0.5min means we catch the launch pump, not the dump. McDonald's Cat ($MDCAT) was close runner-up but bond at 8% suggests weaker traction."
+    },
+    {
+      "time": "2026-09-10 00:18 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Copycat crashed >15% in one tick | P&L: -28.5%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 00:18 UTC",
+      "action": "buy",
+      "details": "[LLM] $PEPE at $7.951e-06, spent 0.05 SOL",
+      "reason": "$PEPE — Pepe is a legendary memecoin brand with massive organic recognition. Brand recognition = attention arbitrage. Two posts already driving chatter. Viral narrative, real liquidity at $9k mcap with 31% bonded."
     }
   ],
   "trade_stats": {
-    "total": 2383,
+    "total": 2384,
     "wins": 1196,
-    "losses": 1187,
+    "losses": 1188,
     "win_rate_pct": 50.2,
-    "total_pnl_sol": -2.619124,
-    "avg_pnl_pct": 29.17,
+    "total_pnl_sol": -2.633362,
+    "avg_pnl_pct": 29.15,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 6,
-    "today_realized_sol": 0.066191,
-    "today_target_pct": 16.5,
+    "today_trades": 7,
+    "today_realized_sol": 0.051953,
+    "today_target_pct": 13.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1196,
-      "loss_count": 1187,
+      "loss_count": 1188,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T00:17:10.827570+00:00",
+  "last_llm_brief_at": "2026-09-10T00:18:43.718043+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "74Wjdpe43ts1AwqkpR5UZ3tkBS4E8WpQQAMtPHPmpump": {
-      "price_usd": 1.3404608726148415e-09,
+    "ARxuFt7Ts1xWvMnV9VMSSdN4SQiXu3FVdVocBy7Bpump": {
+      "price_usd": 4.027882934782372e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.33856774908,
-      "volume_h24": 0.0,
+      "liquidity_usd": 583.79602005129,
+      "volume_h24": 6568.79,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.003338274
+      "real_sol_reserves": 5.756789469
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

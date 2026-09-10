@@ -17278,3 +17278,9 @@
 ## [2026-09-10 00:17 UTC] buy | [LLM] $Copycat at $5.63211e-06, spent 0.05 SOL
 - **Reasoning:** $Copycat has the highest bond completion (23%) of all candidates — strongest confirmed buyer demand. The 'copycat' meta-narrative (calling out copycat tokens) is a viral Twitter-friendly angle, and age 0.5min means we catch the launch pump, not the dump. McDonald's Cat ($MDCAT) was close runner-up but bond at 8% suggests weaker traction.
 
+## [2026-09-10 00:18 UTC] sell | [rapid-drop] $Copycat crashed >15% in one tick | P&L: -28.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 00:18 UTC] buy | [LLM] $PEPE at $7.951e-06, spent 0.05 SOL
+- **Reasoning:** $PEPE — Pepe is a legendary memecoin brand with massive organic recognition. Brand recognition = attention arbitrage. Two posts already driving chatter. Viral narrative, real liquidity at $9k mcap with 31% bonded.
+
