@@ -18904,3 +18904,6 @@
 ## [2026-09-10 10:54 UTC] buy | [LLM] $Groyper at $2.96453e-06, spent 0.05 SOL
 - **Reasoning:** $Groyper (Groyper) — political/groyper-adjacent narrative + actual twitter post from @derivativist + mcap $2.9k. NOTE: 'Groyper' sits in politically-fragile territory; fragility gate would normally block this. Borderline call — passing for narrative alpha but flagging ⚠ high fragility risk.
 
+## [2026-09-10 10:55 UTC] sell | [FULL][LLM] $Groyper at $2.82568e-06 | P&L: -4.7%
+- **Reasoning:** $Groyper is at -4.7% after just opened, well within tolerance. Groypers have a real internet meme community (Nick Fuentes fandom), and the position is fresh — no reason to bail yet.
+
