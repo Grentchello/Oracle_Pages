@@ -1,32 +1,8 @@
 {
-  "balance_sol": 2.820919,
+  "balance_sol": 2.873648,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "41NdAozcFZ61TokZzWoorkep5foGAavjJhezyTy4pump": {
-      "symbol": "FLYBRAIN",
-      "name": "FLYBRAIN",
-      "amount": 1121496.9453873755,
-      "entry_price_usd": 4.54526427465148e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T03:03:56.309304+00:00",
-      "entry_usd_value": 5.0975,
-      "last_seen_price_usd": 4.54526427465148e-06,
-      "entry_signals": {
-        "liquidity_usd": 803.6903400598001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4543.48094389144,
-        "ath_market_cap_usd": 4565.094704843401,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 7.883181364,
-        "description": "",
-        "twitter": "https://x.com/_lyraaaa_/status/2097527368919470162?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -41932,19 +41908,30 @@
       "pnl_pct": -38.11,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "41NdAozcFZ61TokZzWoorkep5foGAavjJhezyTy4pump",
+      "symbol": "FLYBRAIN",
+      "name": "FLYBRAIN",
+      "amount_sold": 1121496.9453873755,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T03:03:56.309304+00:00",
+      "exit_time": "2026-09-10T03:05:31.806382+00:00",
+      "entry_price_usd": 4.54526427465148e-06,
+      "exit_price_usd": 4.790068315328964e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.052729,
+      "pnl_sol": 0.002729,
+      "pnl_pct": 5.39,
+      "exit_reason": "LLM: sell_all — FLYBRAIN is up only +5.4% with pool=$907 (below 5x position liquidity threshold), held close to stale threshold, and shows no momentum or narrative ca",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T03:03:56.309545+00:00",
+  "last_updated": "2026-09-10T03:05:31.807077+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.95,
-  "portfolio_value_usd": 292.69,
+  "last_sol_price_usd": 101.88,
+  "portfolio_value_usd": 292.77,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 02:47 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-10 02:49 UTC",
       "action": "sell",
@@ -42058,40 +42045,46 @@
       "action": "buy",
       "details": "[LLM] $FLYBRAIN at $4.54526e-06, spent 0.05 SOL",
       "reason": "FLYBRAIN has a quirky AI/brain narrative, a concrete X post, and is among the larger early attention launches at under $5K mcap. Buy now for the viral-attention setup, accepting extreme fresh-launch and liquidity risk."
+    },
+    {
+      "time": "2026-09-10 03:05 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FLYBRAIN at $4.79007e-06 | P&L: +5.4%",
+      "reason": "FLYBRAIN is up only +5.4% with pool=$907 (below 5x position liquidity threshold), held close to stale threshold, and shows no momentum or narrative catalyst. Lock the small gain and free the slot for a real attention launch."
     }
   ],
   "trade_stats": {
-    "total": 2465,
-    "wins": 1215,
+    "total": 2466,
+    "wins": 1216,
     "losses": 1250,
     "win_rate_pct": 49.3,
-    "total_pnl_sol": -1.395392,
-    "avg_pnl_pct": 29.2,
+    "total_pnl_sol": -1.392663,
+    "avg_pnl_pct": 29.19,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 88,
-    "today_realized_sol": 1.289923,
-    "today_target_pct": 322.5,
+    "today_trades": 89,
+    "today_realized_sol": 1.292652,
+    "today_target_pct": 323.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1215,
+      "win_count": 1216,
       "loss_count": 1250,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:03:54.483437+00:00",
+  "last_llm_brief_at": "2026-09-10T03:05:31.805943+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "BCzZWz3BJA8KHBktESDYeqjGVLv2LEQFvm326vWCpump": {
-      "price_usd": 2.868749312941648e-06,
+    "41NdAozcFZ61TokZzWoorkep5foGAavjJhezyTy4pump": {
+      "price_usd": 4.790068315328964e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 9.8182496881,
-      "volume_h24": 4698.54,
+      "liquidity_usd": 907.0721448202798,
+      "volume_h24": 1818.79,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.096304558
+      "real_sol_reserves": 8.903338681
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

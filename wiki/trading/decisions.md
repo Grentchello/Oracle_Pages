@@ -17746,3 +17746,6 @@
 ## [2026-09-10 03:03 UTC] buy | [LLM] $FLYBRAIN at $4.54526e-06, spent 0.05 SOL
 - **Reasoning:** FLYBRAIN has a quirky AI/brain narrative, a concrete X post, and is among the larger early attention launches at under $5K mcap. Buy now for the viral-attention setup, accepting extreme fresh-launch and liquidity risk.
 
+## [2026-09-10 03:05 UTC] sell | [FULL][LLM] $FLYBRAIN at $4.79007e-06 | P&L: +5.4%
+- **Reasoning:** FLYBRAIN is up only +5.4% with pool=$907 (below 5x position liquidity threshold), held close to stale threshold, and shows no momentum or narrative catalyst. Lock the small gain and free the slot for a real attention launch.
+
