@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.245188,
+  "balance_sol": 4.29551,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CZoqywKFxKMoGP7S4EFaiCwAVkXnnnVe87vCumsApump": {
-      "symbol": "pairs",
-      "name": "pairs",
-      "amount": 1700307.9028395487,
-      "entry_price_usd": 2.923e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T16:58:34.274780+00:00",
-      "entry_usd_value": 4.970000000000001,
-      "last_seen_price_usd": 2.923e-06,
-      "entry_signals": {
-        "liquidity_usd": 85.8458656006,
-        "volume_24h_usd": 7396.09,
-        "market_cap_usd": 2951.607070323214,
-        "ath_market_cap_usd": 6867.010500253666,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.863640499,
-        "description": "",
-        "twitter": "https://x.com/pairscoinPF/status/2098093326721528114?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -48205,19 +48181,30 @@
       "pnl_pct": 0.9,
       "exit_reason": "LLM: sell_all — $KIRKVERSARY is a Charlie Kirk political-memorial token — fragility gate principles (ME2F) flag political tokens as high whale-concentration / sentime",
       "partial": false
+    },
+    {
+      "mint": "CZoqywKFxKMoGP7S4EFaiCwAVkXnnnVe87vCumsApump",
+      "symbol": "pairs",
+      "name": "pairs",
+      "amount_sold": 1700307.9028395487,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T16:58:34.274780+00:00",
+      "exit_time": "2026-09-10T16:59:50.127839+00:00",
+      "entry_price_usd": 2.923e-06,
+      "exit_price_usd": 2.9551255153041304e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050322,
+      "pnl_sol": 0.000322,
+      "pnl_pct": 1.1,
+      "exit_reason": "LLM: sell_all — Fresh entry at +1.1% with no directional signal yet. Not stale (<15min), not a loser. Give it a few minutes to develop before rotating capital.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T16:58:34.275063+00:00",
+  "last_updated": "2026-09-10T16:59:50.128015+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.4,
-  "portfolio_value_usd": 426.94,
+  "last_sol_price_usd": 99.85,
+  "portfolio_value_usd": 428.91,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 16:31 UTC",
-      "action": "buy",
-      "details": "[LLM] $RETROSTOCK at $4.324e-06, spent 0.05 SOL",
-      "reason": "$RETROSTOCK has the strongest attention narrative of the batch — real-world equities onchain, fresh at $4.3k mcap, twitter handle present, RWA narrative is hot. Passes viability gate (desc ≥50 chars + twitter). Risk: tiny liquidity, bond only 17%, may rug — but that's the trade and the position is size-capped at 0.1 SOL."
-    },
     {
       "time": "2026-09-10 16:32 UTC",
       "action": "sell",
@@ -48331,30 +48318,48 @@
       "action": "buy",
       "details": "[LLM] $pairs at $2.923e-06, spent 0.05 SOL",
       "reason": "$pairs via kolscan (known memecoin alpha account) — strongest narrative attention signal in the batch, fresh launch at $2.95k mcap, passes viability (has twitter), not in fragility blacklist. Risky due to tiny liquidity but attention-driven entry per scalp rules."
+    },
+    {
+      "time": "2026-09-10 16:59 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $pairs at $2.95513e-06 | P&L: +1.1%",
+      "reason": "Fresh entry at +1.1% with no directional signal yet. Not stale (<15min), not a loser. Give it a few minutes to develop before rotating capital."
     }
   ],
   "trade_stats": {
-    "total": 2834,
-    "wins": 1355,
+    "total": 2835,
+    "wins": 1356,
     "losses": 1479,
     "win_rate_pct": 47.8,
-    "total_pnl_sol": 0.028946,
-    "avg_pnl_pct": 26.73,
+    "total_pnl_sol": 0.029268,
+    "avg_pnl_pct": 26.72,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 457,
-    "today_realized_sol": 2.714261,
+    "today_trades": 458,
+    "today_realized_sol": 2.714583,
     "today_target_pct": 678.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1355,
+      "win_count": 1356,
       "loss_count": 1479,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T16:58:32.788960+00:00",
+  "last_llm_brief_at": "2026-09-10T16:59:50.127754+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CZoqywKFxKMoGP7S4EFaiCwAVkXnnnVe87vCumsApump": {
+      "price_usd": 2.9551255153041304e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 86.428005237,
+      "volume_h24": 7449.89,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.86557842
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
