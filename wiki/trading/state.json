@@ -1,32 +1,8 @@
 {
-  "balance_sol": 5.056472,
+  "balance_sol": 5.106487,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AznaosgbKbLY492EzMQJpEhTNkDM558ergdK6eNtpump": {
-      "symbol": "RECKLESS",
-      "name": "Reckless AI",
-      "amount": 1764507.6815642458,
-      "entry_price_usd": 2.864e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T09:48:25.313168+00:00",
-      "entry_usd_value": 5.05355,
-      "last_seen_price_usd": 2.864e-06,
-      "entry_signals": {
-        "liquidity_usd": 20.857070484393,
-        "volume_24h_usd": 20.85,
-        "market_cap_usd": 2861.7491238718576,
-        "ath_market_cap_usd": 2861.7491238718576,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.206360583,
-        "description": "An Anthropic researcher just quit and warned that AI companies are racing toward self-improving superintelligence. At the same time, Anthropic disclosed incidents where Claude models gained unauthorized access to real-world systems during testing. The AI race is getting reckless. $RECKLESS",
-        "twitter": "https://x.com/hilbertspaess/status/2097476196791709843",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45077,19 +45053,30 @@
       "pnl_pct": -24.97,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "AznaosgbKbLY492EzMQJpEhTNkDM558ergdK6eNtpump",
+      "symbol": "RECKLESS",
+      "name": "Reckless AI",
+      "amount_sold": 1764507.6815642458,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T09:48:25.313168+00:00",
+      "exit_time": "2026-09-10T09:50:03.330027+00:00",
+      "entry_price_usd": 2.864e-06,
+      "exit_price_usd": 2.8633127163835765e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050015,
+      "pnl_sol": 1.5e-05,
+      "pnl_pct": -0.02,
+      "exit_reason": "LLM: sell_all — Pool is only $21 and we own 24% — selling into this would crater the price worse than waiting. Position is essentially break-even at 0.0h held; let th",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T09:48:25.313527+00:00",
+  "last_updated": "2026-09-10T09:50:03.330322+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.071,
-  "portfolio_value_usd": 516.12,
+  "last_sol_price_usd": 101.016,
+  "portfolio_value_usd": 515.84,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 09:09 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $RETAIL at $5.74246e-07 | P&L: +23.1%",
-      "reason": "+23.1% profit triggers the 'up >20%, take the gain' rule. We hold 7% of the bonding curve — a significant share on a thin pool, so waiting for +30% auto-TP exposes us to dump risk. Lock it and free the slot."
-    },
     {
       "time": "2026-09-10 09:10 UTC",
       "action": "buy",
@@ -45203,30 +45190,48 @@
       "action": "buy",
       "details": "[LLM] $RECKLESS at $2.864e-06, spent 0.05 SOL",
       "reason": "$RECKLESS ties to breaking Anthropic/AI safety news — real X link, viral narrative, mcap only $2.8k with bond still bonding. Attention window is now; if the story trends this 5-10x's in hours. Risk: narrative may cool fast, take-profit aggressively at +30%."
+    },
+    {
+      "time": "2026-09-10 09:50 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RECKLESS at $2.86331e-06 | P&L: -0.0%",
+      "reason": "Pool is only $21 and we own 24% — selling into this would crater the price worse than waiting. Position is essentially break-even at 0.0h held; let the 30-min auto-close handle it or wait for organic volume to provide exit liquidity."
     }
   ],
   "trade_stats": {
-    "total": 2650,
-    "wins": 1291,
+    "total": 2651,
+    "wins": 1292,
     "losses": 1359,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.840183,
-    "avg_pnl_pct": 29.04,
+    "total_pnl_sol": 0.840198,
+    "avg_pnl_pct": 29.03,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 273,
-    "today_realized_sol": 3.525498,
+    "today_trades": 274,
+    "today_realized_sol": 3.525513,
     "today_target_pct": 881.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1291,
+      "win_count": 1292,
       "loss_count": 1359,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T09:48:23.881523+00:00",
+  "last_llm_brief_at": "2026-09-10T09:50:03.329920+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "AznaosgbKbLY492EzMQJpEhTNkDM558ergdK6eNtpump": {
+      "price_usd": 2.8633127163835765e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 20.855509405776,
+      "volume_h24": 20.85,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.206457486
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

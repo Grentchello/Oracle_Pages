@@ -18742,3 +18742,6 @@
 ## [2026-09-10 09:48 UTC] buy | [LLM] $RECKLESS at $2.864e-06, spent 0.05 SOL
 - **Reasoning:** $RECKLESS ties to breaking Anthropic/AI safety news — real X link, viral narrative, mcap only $2.8k with bond still bonding. Attention window is now; if the story trends this 5-10x's in hours. Risk: narrative may cool fast, take-profit aggressively at +30%.
 
+## [2026-09-10 09:50 UTC] sell | [FULL][LLM] $RECKLESS at $2.86331e-06 | P&L: -0.0%
+- **Reasoning:** Pool is only $21 and we own 24% — selling into this would crater the price worse than waiting. Position is essentially break-even at 0.0h held; let the 30-min auto-close handle it or wait for organic volume to provide exit liquidity.
+
