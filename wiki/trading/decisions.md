@@ -20533,3 +20533,6 @@
 ## [2026-09-10 21:30 UTC] sell | [FULL][LLM] $CHILLGUY at $6.397e-05 | P&L: +7.4%
 - **Reasoning:** +7.4% with 0.0h held, not yet at TP, no clear exit signal; watch for either 30min staleness or +25% TP trigger.
 
+## [2026-09-10 21:35 UTC] buy | [LLM] $$AMEMD at $3.644e-06, spent 0.05 SOL
+- **Reasoning:** $AMEMD has its own @amemdcorp twitter handle (project account, not a random status), a coherent absurdist tech-meme narrative ('MPU™ processes 69,420 memes/sec with zero useful output' is genuinely meme-fluent), and a real description. $3.6k mcap with bond still loading — early enough for 2-5x if the absurdist-engineer meme catches on. Tight mental stop; exit fast if it doesn't move in 15min.
+
