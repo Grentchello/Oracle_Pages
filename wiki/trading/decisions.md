@@ -20800,3 +20800,6 @@
 ## [2026-09-10 23:16 UTC] buy | [LLM] $pegged at $3.7453e-06, spent 0.05 SOL
 - **Reasoning:** $pegged has a clear derivatives/Twitter finance narrative from @derivativist (likely HaslBrunner or similar), $3.7k mcap fresh launch with bond12% forming — pegging-dollar is a viral hook and the source account has audience attention. Passes viability gate (twitter present).
 
+## [2026-09-10 23:17 UTC] sell | [FULL][LLM] $pegged at $3.18437e-06 | P&L: -15.0%
+- **Reasoning:** Cut at -15% on a $213-pool bonding-curve position with no bounce signal. Pool is too thin to trust recovery, and -25% hard stop is close. Better to lock the loss and free the slot for a clearer setup than hope on illiquid tape.
+

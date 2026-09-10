@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.244711,
+  "balance_sol": 9.286991,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FdD78oirp2yYHwuxd9VycWuPhL3RekWyuMJQE99ppump": {
-      "symbol": "pegged",
-      "name": "pegging the dollar",
-      "amount": 1316849.2908401347,
-      "entry_price_usd": 3.7453033041111643e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T23:16:20.103811+00:00",
-      "entry_usd_value": 4.932,
-      "last_seen_price_usd": 3.7453033041111643e-06,
-      "entry_signals": {
-        "liquidity_usd": 500.11891548264003,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3752.5174933627977,
-        "ath_market_cap_usd": 3752.5174933627977,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.070143101,
-        "description": "",
-        "twitter": "https://x.com/derivativist/status/2098188632800526773?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51282,19 +51258,30 @@
       "pnl_pct": -3.08,
       "exit_reason": "LLM: sell_all — RUFUS is down 3.1% on a $90 pool where my share is 5% — I AM the liquidity, so any other seller crushes me. Narrative ('Amazon Dog') is weak with no v",
       "partial": false
+    },
+    {
+      "mint": "FdD78oirp2yYHwuxd9VycWuPhL3RekWyuMJQE99ppump",
+      "symbol": "pegged",
+      "name": "pegging the dollar",
+      "amount_sold": 1316849.2908401347,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T23:16:20.103811+00:00",
+      "exit_time": "2026-09-10T23:17:57.047239+00:00",
+      "entry_price_usd": 3.7453033041111643e-06,
+      "exit_price_usd": 3.1843701520755876e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.04228,
+      "pnl_sol": -0.00772,
+      "pnl_pct": -14.98,
+      "exit_reason": "LLM: sell_all — Cut at -15% on a $213-pool bonding-curve position with no bounce signal. Pool is too thin to trust recovery, and -25% hard stop is close. Better to lo",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T23:16:20.103990+00:00",
+  "last_updated": "2026-09-10T23:17:57.047474+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.64,
-  "portfolio_value_usd": 916.83,
+  "last_sol_price_usd": 99.18,
+  "portfolio_value_usd": 921.08,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 22:58 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $10M crashed >15% in one tick | P&L: -66.3%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 22:59 UTC",
       "action": "buy",
@@ -51408,30 +51395,48 @@
       "action": "buy",
       "details": "[LLM] $pegged at $3.7453e-06, spent 0.05 SOL",
       "reason": "$pegged has a clear derivatives/Twitter finance narrative from @derivativist (likely HaslBrunner or similar), $3.7k mcap fresh launch with bond12% forming — pegging-dollar is a viral hook and the source account has audience attention. Passes viability gate (twitter present)."
+    },
+    {
+      "time": "2026-09-10 23:17 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $pegged at $3.18437e-06 | P&L: -15.0%",
+      "reason": "Cut at -15% on a $213-pool bonding-curve position with no bounce signal. Pool is too thin to trust recovery, and -25% hard stop is close. Better to lock the loss and free the slot for a clearer setup than hope on illiquid tape."
     }
   ],
   "trade_stats": {
-    "total": 3015,
+    "total": 3016,
     "wins": 1412,
-    "losses": 1603,
+    "losses": 1604,
     "win_rate_pct": 46.8,
-    "total_pnl_sol": 5.028522,
-    "avg_pnl_pct": 28.44,
+    "total_pnl_sol": 5.020802,
+    "avg_pnl_pct": 28.42,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 638,
-    "today_realized_sol": 7.713837,
-    "today_target_pct": 1928.5,
+    "today_trades": 639,
+    "today_realized_sol": 7.706117,
+    "today_target_pct": 1926.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1412,
-      "loss_count": 1603,
+      "loss_count": 1604,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T23:16:18.642613+00:00",
+  "last_llm_brief_at": "2026-09-10T23:17:57.047204+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FdD78oirp2yYHwuxd9VycWuPhL3RekWyuMJQE99ppump": {
+      "price_usd": 3.1843701520755876e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 213.08452156062003,
+      "volume_h24": 2938.39,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.148462609
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
