@@ -18430,3 +18430,9 @@
 ## [2026-09-10 07:23 UTC] buy | [LLM] $capy at $5.057e-06, spent 0.05 SOL
 - **Reasoning:** $capy — 'Nobody knows who he is. Nobody knows what he did. He is just a capybara.' is a strong absurdist meme narrative, mcap $4.9k, age 1.5min. Capybara memes have viral potential. Entering 0.05 SOL.
 
+## [2026-09-10 07:24 UTC] sell | [rapid-drop] $capy crashed >15% in one tick | P&L: -93.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 07:24 UTC] buy | [LLM] $STOCKPACKS at $9.25e-06, spent 0.05 SOL
+- **Reasoning:** $STOCKPACKS has the freshest attention: fastest bonding curve (32% in <1min), real Twitter handle (StockPacksPF), sub-$10k mcap with a clean collectible/trading-card meta narrative — 'StockPacks' reads as a brandable meme, not a derivative. Best risk/reward in the batch.
+
