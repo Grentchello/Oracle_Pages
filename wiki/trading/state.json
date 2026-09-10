@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.563046,
+  "balance_sol": 4.58365,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BwupJoEuY9f2KFGu1RWwedhW34DA77b8rH9ZWh1Rpump": {
-      "symbol": "StockBank",
-      "name": "StockBank",
-      "amount": 698123.6203090509,
-      "entry_price_usd": 7.248e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T08:39:23.226860+00:00",
-      "entry_usd_value": 5.0600000000000005,
-      "last_seen_price_usd": 7.248e-06,
-      "entry_signals": {
-        "liquidity_usd": 1019.8788113404,
-        "volume_24h_usd": 3455.82,
-        "market_cap_usd": 4617.924724844538,
-        "ath_market_cap_usd": 7703.379844067837,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 10.077853867,
-        "description": "",
-        "twitter": "https://x.com/CapyQuant_/status/2097967838682042434?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44737,25 +44713,30 @@
       "pnl_pct": -17.28,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "BwupJoEuY9f2KFGu1RWwedhW34DA77b8rH9ZWh1Rpump",
+      "symbol": "StockBank",
+      "name": "StockBank",
+      "amount_sold": 698123.6203090509,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T08:39:23.226860+00:00",
+      "exit_time": "2026-09-10T08:40:27.762302+00:00",
+      "entry_price_usd": 7.248e-06,
+      "exit_price_usd": 2.988175604476844e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.020604,
+      "pnl_sol": -0.029396,
+      "pnl_pct": -58.77,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T08:39:23.227028+00:00",
+  "last_updated": "2026-09-10T08:40:37.007696+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.2,
-  "portfolio_value_usd": 466.84,
+  "last_sol_price_usd": 101.25,
+  "portfolio_value_usd": 464.09,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 08:15 UTC",
-      "action": "buy",
-      "details": "[LLM] $shit at $3.015e-06, spent 0.05 SOL",
-      "reason": "$shit leads the slate with $9,977 mcap and 32% bond progress — the strongest attention signal. Meta-shitpost name ('I saw that shit at 10K') is viral-ready, has twitter. Highest bond % means strongest buy pressure already validated by the market."
-    },
-    {
-      "time": "2026-09-10 08:17 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $shit at $4.36542e-06 | P&L: +44.8%",
-      "reason": "+44.8% gain in 0h on bonding curve with 1% pool share — extremely illiquid, easy to give back gains if it dumps. Take half off to lock profit, let other half ride if migration pumps. Frees slot for new entries."
-    },
     {
       "time": "2026-09-10 08:18 UTC",
       "action": "sell",
@@ -44863,6 +44844,18 @@
       "action": "buy",
       "details": "[LLM] $StockBank at $7.248e-06, spent 0.05 SOL",
       "reason": "$StockBank — pairing-meta narrative (similar to ASSDAQ pairing with Nasdaq), bond already 18% complete showing real demand, early entry at $4.6k mcap with viral tweet backing. Quick scalp setup."
+    },
+    {
+      "time": "2026-09-10 08:40 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $StockBank crashed >15% in one tick | P&L: -58.8%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 08:40 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -44884,19 +44877,19 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T08:39:21.946712+00:00",
+  "last_llm_brief_at": "2026-09-10T08:40:37.007518+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "EN1GHrBTD9bsXACechU8hSbxd8zm8xAbfV7mD3v5pump": {
-      "price_usd": 2.9678940153412547e-06,
+    "BwupJoEuY9f2KFGu1RWwedhW34DA77b8rH9ZWh1Rpump": {
+      "price_usd": 2.988175604476844e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 73.3881467792,
-      "volume_h24": 1619.49,
+      "liquidity_usd": 83.26497110625,
+      "volume_h24": 7952.54,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.725179316
+      "real_sol_reserves": 0.822370085
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

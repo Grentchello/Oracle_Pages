@@ -18625,3 +18625,9 @@
 ## [2026-09-10 08:39 UTC] buy | [LLM] $StockBank at $7.248e-06, spent 0.05 SOL
 - **Reasoning:** $StockBank — pairing-meta narrative (similar to ASSDAQ pairing with Nasdaq), bond already 18% complete showing real demand, early entry at $4.6k mcap with viral tweet backing. Quick scalp setup.
 
+## [2026-09-10 08:40 UTC] sell | [rapid-drop] $StockBank crashed >15% in one tick | P&L: -58.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 08:40 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
