@@ -19342,3 +19342,6 @@
 ## [2026-09-10 13:53 UTC] sell | [FULL][LLM] $INFINITY at $3.00625e-06 | P&L: -6.0%
 - **Reasoning:** $INFINITY at -6.0% is nowhere near the -25% hard cap and only held 0.0h. Bonding-curve tokens often bounce in the first 15-30 min; no reason to panic-sell at a small loss this fresh. Give it room to either recover or hit the auto-stop.
 
+## [2026-09-10 13:59 UTC] buy | [LLM] $JHI at $6.629e-06, spent 0.05 SOL
+- **Reasoning:** $JHI (JUST HODL IT) has the strongest attention signal in the batch — Dan Held (@danheld) is a well-known crypto commentator with massive reach, and the 'How I like my coffee 👏' riff is a clear viral meme hook. Low mcap ($7.3k), super fresh (0.6 min), and a narrative that traders will recognize and repost. Risk: bond only 28% complete, classic pump.fun lottery ticket — but the Dan Held signal is exactly the kind of attention launch that 10xs in hours.
+
