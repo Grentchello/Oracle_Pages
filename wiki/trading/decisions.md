@@ -20854,3 +20854,9 @@
 ## [2026-09-10 23:39 UTC] buy | [LLM] $Desktop at $0.000101424, spent 0.05 SOL
 - **Reasoning:** $Desktop has a real X account attached (@initwithcarl), relatable 'sent from my desktop' meme narrative — meta-ironic tech humor often catches fire on CT. Fresh, low mcap $3.7k, classic attention-launch setup. Risk: ultra-low liquidity, 4% bonded. Sizing 0.05 SOL to respect min-liq 5x rule.
 
+## [2026-09-10 23:40 UTC] sell | [FULL][LLM] $Desktop at $0.00011212 | P&L: +10.6%
+- **Reasoning:** +10.5% gain, but only 0.0h held on bonding curve with weak momentum signal. Freeing the slot for a stronger narrative launch ($IFRUIT/GTA 6 hook) where attention is spiking right now.
+
+## [2026-09-10 23:40 UTC] buy | [LLM] $IFRUIT at $2.13159e-09, spent 0.05 SOL
+- **Reasoning:** GTA 6 is the hottest cultural moment in gaming — $IFRUIT rides that attention directly. Fresh 0.3min launch, mcap $4.7k, X post from web3theox. High narrative velocity, classic memecoin attention play.
+
