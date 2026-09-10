@@ -19198,3 +19198,9 @@
 ## [2026-09-10 13:07 UTC] buy | [LLM] $NEURO at $2.869e-06, spent 0.05 SOL
 - **Reasoning:** $NEURO — AI narrative is the strongest meta-theme in crypto right now. Description passes viability gate (109 chars, mentions community-owned/on-chain). Sub-1min age with $2.87k mcap = classic early-launch entry. Risk: very low mcap means high rug probability; bot fragility gate will reject if ME2F score ≥0.5.
 
+## [2026-09-10 13:08 UTC] sell | [FULL][LLM] $NEURO at $2.84611e-06 | P&L: -0.8%
+- **Reasoning:** Flat at -0.8% on a $34 pool with 14% share — that's illiquid and exposed to slippage. Rotating fresh capital into a stronger narrative ($HODL) at lower mcap.
+
+## [2026-09-10 13:08 UTC] buy | [LLM] $HODL at $4.67973e-06, spent 0.05 SOL
+- **Reasoning:** $HODL 'Gold Hands' is universal crypto meme-recognition, age 0.4min means fresh attention just landed, $4.6k mcap = huge upside room before any extraction. Viability and fragility gates pass.
+
