@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.563341,
+  "balance_sol": 4.513341,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "BRzFnRvQysjz49KzZiGeaKYiySrutoWNkFYmbKL9Ayxi": {
+      "symbol": "NFTUP",
+      "name": "NFT Up dot Fun",
+      "amount": 1423984.0863881784,
+      "entry_price_usd": 3.519e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T14:06:58.873005+00:00",
+      "entry_usd_value": 5.011,
+      "last_seen_price_usd": 3.519e-06,
+      "entry_signals": {
+        "liquidity_usd": 1029.27166772976,
+        "volume_24h_usd": 1132.13,
+        "market_cap_usd": 4604.88393012245,
+        "ath_market_cap_usd": 4604.88393012245,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 10.270122408,
+        "description": "NFT collections on a curve. Every collection is 10,000 pieces priced by a curve: mint #1 costs about a dollar, mint #10,000 costs about a million.",
+        "twitter": "https://x.com/nftupdotfun",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -46959,17 +46983,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T14:05:20.305379+00:00",
+  "last_updated": "2026-09-10T14:06:58.873224+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.073,
-  "portfolio_value_usd": 456.67,
+  "last_sol_price_usd": 100.22,
+  "portfolio_value_usd": 457.34,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 13:37 UTC",
-      "action": "buy",
-      "details": "[LLM] $bit meme  at $4.006e-06, spent 0.05 SOL",
-      "reason": "bit meme has a viral narrative hook (X post about bitcoin), extremely fresh launch ($4k mcap), and description mentions social media virality. Low mcap with attention signal = asymmetric upside. Risks: $4k mcap is tiny, no liquidity depth yet."
-    },
     {
       "time": "2026-09-10 13:38 UTC",
       "action": "sell",
@@ -47083,6 +47101,12 @@
       "action": "sell",
       "details": "[rapid-drop] $FYC crashed >15% in one tick | P&L: -61.4%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 14:06 UTC",
+      "action": "buy",
+      "details": "[LLM] $NFTUP at $3.519e-06, spent 0.05 SOL",
+      "reason": "$NFTUP has the strongest narrative of the batch — clear product thesis (NFT curve bonding), real project handle (@nftupdotfun), and desc passes the 50-char viability gate. Highest mcap ($4.6k) + highest bond progress (18%) = market is already voting. 0.6min age is prime entry window before attention compounds."
     }
   ],
   "trade_stats": {
@@ -47104,21 +47128,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T14:05:20.051184+00:00",
+  "last_llm_brief_at": "2026-09-10T14:06:57.479360+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "5UjbYGaSBynPVZ1Pv7iGbcbTkGuZe6Pabtv2nvrBpump": {
-      "price_usd": 2.823706374716828e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 13.79179466582,
-      "volume_h24": 11882.52,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.13781734
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
