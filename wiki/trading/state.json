@@ -1,32 +1,8 @@
 {
-  "balance_sol": 5.009328,
+  "balance_sol": 5.078216,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FzUkkBvoq2cA7kEzc5jNPQbx48FZqNz3C5E43oXopump": {
-      "symbol": "plan",
-      "name": "retirement plan ",
-      "amount": 518213.41742982855,
-      "entry_price_usd": 9.767211403177109e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T10:23:42.742804+00:00",
-      "entry_usd_value": 5.0615000000000006,
-      "last_seen_price_usd": 9.767211403177109e-06,
-      "entry_signals": {
-        "liquidity_usd": 3600.2307871131607,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9763.595639889285,
-        "ath_market_cap_usd": 10636.868544160574,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 35.564860092,
-        "description": "",
-        "twitter": "https://x.com/derivativist/status/2097994223093981286?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45383,19 +45359,30 @@
       "pnl_pct": -36.27,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "FzUkkBvoq2cA7kEzc5jNPQbx48FZqNz3C5E43oXopump",
+      "symbol": "plan",
+      "name": "retirement plan ",
+      "amount_sold": 518213.41742982855,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T10:23:42.742804+00:00",
+      "exit_time": "2026-09-10T10:25:09.713843+00:00",
+      "entry_price_usd": 9.767211403177109e-06,
+      "exit_price_usd": 1.3450292049391815e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.068888,
+      "pnl_sol": 0.018888,
+      "pnl_pct": 37.71,
+      "exit_reason": "LLM: sell_all — Up +37.7% in <1 min on a $3.5k pool with our share showing 0% — classic bonding-curve pump that's likely to give back gains fast. Lock the 37% before ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T10:23:42.743066+00:00",
+  "last_updated": "2026-09-10T10:25:09.714150+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.23,
-  "portfolio_value_usd": 512.16,
+  "last_sol_price_usd": 101.18,
+  "portfolio_value_usd": 513.81,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 10:04 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $McRib at $1.61191e-07 | P&L: +0.2%",
-      "reason": "$McRib is flat at +0.2% just seconds after entry with no directional signal; selling a 0-minute-old position to rotate would be churn. Let the -25% hard stop or TP levels do their job — next tick will give it a chance to develop."
-    },
     {
       "time": "2026-09-10 10:05 UTC",
       "action": "sell",
@@ -45509,40 +45496,46 @@
       "action": "buy",
       "details": "[LLM] $plan at $9.76721e-06, spent 0.05 SOL",
       "reason": "$plan has a derivativist twitter link (proven memecoin launcher), absurdist 'retirement plan' name fits current meme zeitgeist, $9.7k mcap with 32% bond shows early organic accumulation. Risk: very fresh, could rug, but attention signal is concrete."
+    },
+    {
+      "time": "2026-09-10 10:25 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $plan at $1.34503e-05 | P&L: +37.7%",
+      "reason": "Up +37.7% in <1 min on a $3.5k pool with our share showing 0% — classic bonding-curve pump that's likely to give back gains fast. Lock the 37% before it reverses. Narrative weak (no clear story), mcap tiny."
     }
   ],
   "trade_stats": {
-    "total": 2668,
-    "wins": 1299,
+    "total": 2669,
+    "wins": 1300,
     "losses": 1369,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.793041,
-    "avg_pnl_pct": 28.82,
+    "total_pnl_sol": 0.811929,
+    "avg_pnl_pct": 28.83,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 291,
-    "today_realized_sol": 3.478356,
-    "today_target_pct": 869.6,
+    "today_trades": 292,
+    "today_realized_sol": 3.497244,
+    "today_target_pct": 874.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1299,
+      "win_count": 1300,
       "loss_count": 1369,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:23:41.371637+00:00",
+  "last_llm_brief_at": "2026-09-10T10:25:09.713806+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "89epksi3D6pASwRxkDqiLpMiQJ3rUDHCifU35XxBpump": {
-      "price_usd": 2.8838675218882194e-06,
+    "FzUkkBvoq2cA7kEzc5jNPQbx48FZqNz3C5E43oXopump": {
+      "price_usd": 1.3450292049391815e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 28.610161143600003,
-      "volume_h24": 3957.51,
+      "liquidity_usd": 3583.31504478056,
+      "volume_h24": 16133.52,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.28262532
+      "real_sol_reserves": 35.415250492
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -18835,3 +18835,6 @@
 ## [2026-09-10 10:23 UTC] buy | [LLM] $plan at $9.76721e-06, spent 0.05 SOL
 - **Reasoning:** $plan has a derivativist twitter link (proven memecoin launcher), absurdist 'retirement plan' name fits current meme zeitgeist, $9.7k mcap with 32% bond shows early organic accumulation. Risk: very fresh, could rug, but attention signal is concrete.
 
+## [2026-09-10 10:25 UTC] sell | [FULL][LLM] $plan at $1.34503e-05 | P&L: +37.7%
+- **Reasoning:** Up +37.7% in <1 min on a $3.5k pool with our share showing 0% — classic bonding-curve pump that's likely to give back gains fast. Lock the 37% before it reverses. Narrative weak (no clear story), mcap tiny.
+
