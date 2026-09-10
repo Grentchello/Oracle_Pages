@@ -1,8 +1,32 @@
 {
-  "balance_sol": 8.930436,
+  "balance_sol": 8.880436,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "5BVqKgYKuRCbRzzSstEFQ4gMUidfifNek4JRuarspump": {
+      "symbol": "BTC",
+      "name": "Break the ceiling",
+      "amount": 465949.755087253,
+      "entry_price_usd": 1.0766182287316835e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T20:56:20.674801+00:00",
+      "entry_usd_value": 5.016500000000001,
+      "last_seen_price_usd": 1.0766182287316835e-05,
+      "entry_signals": {
+        "liquidity_usd": 3060.81678091706,
+        "volume_24h_usd": null,
+        "market_cap_usd": 10741.501514605932,
+        "ath_market_cap_usd": 11267.040242794552,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 30.507493082,
+        "description": "Created on https://rapidlaunch.io",
+        "twitter": "https://x.com/pxblocito/status/2039307776615125407?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50274,17 +50298,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T20:54:49.900172+00:00",
+  "last_updated": "2026-09-10T20:56:20.674977+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.95,
-  "portfolio_value_usd": 892.6,
+  "last_sol_price_usd": 100.33,
+  "portfolio_value_usd": 895.99,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 20:31 UTC",
-      "action": "buy",
-      "details": "[LLM] $OPEC at $4.07849e-06, spent 0.05 SOL",
-      "reason": "$OPEC has a clear parody narrative ('Oil Paid Every Cycle - hold the coin, receive the crude') with active X account @OPECrobinhood. Brand-recognition ticker $OPEC rides Trump-era oil attention meme. 0.1min age = fresh launch on bonding curve, attention-launched via Twitter."
-    },
     {
       "time": "2026-09-10 20:32 UTC",
       "action": "sell",
@@ -50398,6 +50416,12 @@
       "action": "sell",
       "details": "[rapid-drop] $HONOR crashed >15% in one tick | P&L: -72.1%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 20:56 UTC",
+      "action": "buy",
+      "details": "[LLM] $BTC at $1.07662e-05, spent 0.05 SOL",
+      "reason": "$BTC 'Break the ceiling' has the strongest attention signal on this slate: highest mcap ($10.7k), highest bond completion (33% = organic buys not just snipes), and the BTC ceiling narrative is a topical meta-meme. Passes viability (twitter present) and fragility (no blocked keywords). Default bias = take the trade; this is the freshest organic launch in the batch."
     }
   ],
   "trade_stats": {
@@ -50419,21 +50443,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T20:54:49.900123+00:00",
+  "last_llm_brief_at": "2026-09-10T20:56:19.263556+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "CzX3kHJLRnJTQthAFDdrwXFocAmJqnBg1dPdzhErpump": {
-      "price_usd": 2.798664828771472e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2.2328520155,
-      "volume_h24": 15075.41,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.02233969
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
