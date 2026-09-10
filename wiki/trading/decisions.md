@@ -18196,3 +18196,6 @@
 ## [2026-09-10 05:48 UTC] buy | [LLM] $ted at $2.872e-06, spent 0.05 SOL
 - **Reasoning:** $ted 'HES LIVE ON NO CASHBACK' ties to viral streamer culture moment (Edgeyy has crypto CT reach). 0.05 SOL risk acceptable for attention-driven narrative. Multiple mints is a yellow flag (possible bundler split) but one legit mint can still pump on the narrative.
 
+## [2026-09-10 05:49 UTC] sell | [FULL][LLM] $ted at $2.8526e-06 | P&L: -0.7%
+- **Reasoning:** $ted just entered (0.0h held), only -0.7% — essentially flat. No reason to panic exit on noise; give it time to develop. Not stale yet, no -25% breach.
+
