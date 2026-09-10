@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.578701,
+  "balance_sol": 4.664316,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9aspF9P8tkAQUH369VfKKr3UbC1YjawLZZUaGgVdpump": {
-      "symbol": "PLUSHY",
-      "name": "plushy",
-      "amount": 619677.21911856,
-      "entry_price_usd": 8.055e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T14:20:08.526025+00:00",
-      "entry_usd_value": 4.9915,
-      "last_seen_price_usd": 8.055e-06,
-      "entry_signals": {
-        "liquidity_usd": 2751.66492387583,
-        "volume_24h_usd": 3870.01,
-        "market_cap_usd": 8956.610752679722,
-        "ath_market_cap_usd": 10317.925106072033,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 27.563507201,
-        "description": "",
-        "twitter": "https://x.com/CoinMarketCap/status/2098053444279902360",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -47066,19 +47042,30 @@
       "pnl_pct": 1.3,
       "exit_reason": "LLM: sell_all — $GRND is only +1.3% but just entered (0.0h held). Bonding-curve phase at $2402 pool — too early to judge. Give it the 30-min window to develop; auto-s",
       "partial": false
+    },
+    {
+      "mint": "9aspF9P8tkAQUH369VfKKr3UbC1YjawLZZUaGgVdpump",
+      "symbol": "PLUSHY",
+      "name": "plushy",
+      "amount_sold": 619677.21911856,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T14:20:08.526025+00:00",
+      "exit_time": "2026-09-10T14:21:12.778146+00:00",
+      "entry_price_usd": 8.055e-06,
+      "exit_price_usd": 1.3819107914366046e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.085615,
+      "pnl_sol": 0.035615,
+      "pnl_pct": 71.56,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T14:20:08.526305+00:00",
+  "last_updated": "2026-09-10T14:21:21.893959+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.83,
-  "portfolio_value_usd": 462.08,
+  "last_sol_price_usd": 100.022,
+  "portfolio_value_usd": 466.53,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 13:49 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $cap at $3.045e-06 | P&L: +10.0%",
-      "reason": "+10% on bonding curve with massive share concentration flag — lock the gain before stale exit triggers or concentration causes a dump into my position."
-    },
     {
       "time": "2026-09-10 13:50 UTC",
       "action": "buy",
@@ -47192,30 +47179,48 @@
       "action": "buy",
       "details": "[LLM] $PLUSHY at $8.055e-06, spent 0.05 SOL",
       "reason": "$PLUSHY at $8.9k mcap with CoinMarketCap Twitter attention — CMC posting about a microcap is rare, real attention signal. Plushy/toy meme name has viral potential, ultra-fresh, cheapest entry to genuine attention flow among non-blocklisted candidates."
+    },
+    {
+      "time": "2026-09-10 14:21 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $PLUSHY at $1.38191e-05 | P&L: +71.6%",
+      "reason": "Auto take-profit at +71.6%"
     }
   ],
   "trade_stats": {
-    "total": 2767,
-    "wins": 1328,
+    "total": 2768,
+    "wins": 1329,
     "losses": 1439,
     "win_rate_pct": 48.0,
-    "total_pnl_sol": 0.362459,
-    "avg_pnl_pct": 27.53,
+    "total_pnl_sol": 0.398074,
+    "avg_pnl_pct": 27.54,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 390,
-    "today_realized_sol": 3.047774,
-    "today_target_pct": 761.9,
+    "today_trades": 391,
+    "today_realized_sol": 3.083389,
+    "today_target_pct": 770.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1328,
+      "win_count": 1329,
       "loss_count": 1439,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T14:20:07.096579+00:00",
+  "last_llm_brief_at": "2026-09-10T14:21:21.893923+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "9aspF9P8tkAQUH369VfKKr3UbC1YjawLZZUaGgVdpump": {
+      "price_usd": 1.3819107914366046e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3669.68444450413,
+      "volume_h24": 7352.28,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 36.688772915
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

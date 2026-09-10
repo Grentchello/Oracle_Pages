@@ -19387,3 +19387,6 @@
 ## [2026-09-10 14:20 UTC] buy | [LLM] $PLUSHY at $8.055e-06, spent 0.05 SOL
 - **Reasoning:** $PLUSHY at $8.9k mcap with CoinMarketCap Twitter attention — CMC posting about a microcap is rare, real attention signal. Plushy/toy meme name has viral potential, ultra-fresh, cheapest entry to genuine attention flow among non-blocklisted candidates.
 
+## [2026-09-10 14:21 UTC] sell | [v8.7 TP +50% (full)] $PLUSHY at $1.38191e-05 | P&L: +71.6%
+- **Reasoning:** Auto take-profit at +71.6%
+
