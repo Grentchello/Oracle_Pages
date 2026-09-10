@@ -19021,3 +19021,9 @@
 ## [2026-09-10 11:41 UTC] buy | [LLM] $USELESS at $0.000261195, spent 0.05 SOL
 - **Reasoning:** USELESS is the strongest meta-narrative play of the batch — post-ironic absurdist humor is the exact tone that trends on crypto twitter, $10.3k mcap with 29% bond shows early buyer conviction, and the name is memeable. Risk: ultra-low mcap and incomplete bond mean thin liquidity — exit fast if it doesn't pop within 10 min.
 
+## [2026-09-10 11:42 UTC] sell | [rapid-drop] $USELESS crashed >15% in one tick | P&L: -48.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 11:43 UTC] buy | [LLM] $JACKET at $1.80372e-07, spent 0.05 SOL
+- **Reasoning:** $JACKET ties directly to the Jensen Huang / NVIDIA AI narrative — a viral cultural moment (the leather jacket at GTC/Ai conference). Description is complete (>50 chars), passes viability gate. Freshest launch at 0.1 min with $3.9k mcap has the most upside if the X-side catches on. Risk: no twitter link shown, narrative is thin without social confirmation.
+
