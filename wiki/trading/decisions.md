@@ -20281,3 +20281,6 @@
 ## [2026-09-10 19:45 UTC] buy | [LLM] $Milly at $5.41372e-06, spent 0.05 SOL
 - **Reasoning:** $Milly - cat day narrative with real description (~50+ chars) and attached Twitter. 22% bond completion provides some liquidity backing. Cat memes have proven virality, timing around 'cat day' is a clean attention hook. Position 0.05 SOL.
 
+## [2026-09-10 19:46 UTC] sell | [rapid-drop] $Milly crashed >15% in one tick | P&L: -48.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
