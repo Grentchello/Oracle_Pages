@@ -20821,3 +20821,6 @@
 ## [2026-09-10 23:23 UTC] sell | [rapid-drop] $TikTok crashed >15% in one tick | P&L: -51.6%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 23:27 UTC] buy | [LLM] $$CAJUN at $2.8e-06, spent 0.05 SOL
+- **Reasoning:** $$CAJUN has the strongest narrative hook in the batch — 'cajun crypto' is a personality-driven meme angle with an active X account (@cajuncrypto41) and a self-deprecating desc that fits meme culture. At $6.8k mcap with active twitter, attention asymmetry is favorable for a quick pump. Buying 0.1 SOL.
+
