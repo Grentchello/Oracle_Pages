@@ -18706,3 +18706,6 @@
 ## [2026-09-10 09:23 UTC] buy | [LLM] $STOMP at $2.05794e-05, spent 0.05 SOL
 - **Reasoning:** $STOMP — memetic self-referential ticker ('STONK AND PUMP'), strongest narrative of the batch, decent mcap $20k with bond 39% filling. Pure attention play with clear meta-humor that could go viral on crypto twitter. Risky at 0.2min age but that's where the alpha is.
 
+## [2026-09-10 09:25 UTC] sell | [rapid-drop] $STOMP crashed >15% in one tick | P&L: -86.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

@@ -1,32 +1,8 @@
 {
-  "balance_sol": 5.119423,
+  "balance_sol": 5.126338,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FDH3vh51J8gpPFsBKnTTu777ysfRhFChTHytm5idpump": {
-      "symbol": "STOMP",
-      "name": "STONK AND PUMP",
-      "amount": 245852.09944972832,
-      "entry_price_usd": 2.0579445981239478e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T09:23:57.378912+00:00",
-      "entry_usd_value": 5.0595,
-      "last_seen_price_usd": 2.0579445981239478e-05,
-      "entry_signals": {
-        "liquidity_usd": 5353.93638822,
-        "volume_24h_usd": null,
-        "market_cap_usd": 20591.72923693166,
-        "ath_market_cap_usd": 20591.72923693166,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 52.909738,
-        "description": "The ticker says STOMP. The artwork does the rest.",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44958,19 +44934,30 @@
       "pnl_pct": 1311.92,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "FDH3vh51J8gpPFsBKnTTu777ysfRhFChTHytm5idpump",
+      "symbol": "STOMP",
+      "name": "STONK AND PUMP",
+      "amount_sold": 245852.09944972832,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T09:23:57.378912+00:00",
+      "exit_time": "2026-09-10T09:25:01.196942+00:00",
+      "entry_price_usd": 2.0579445981239478e-05,
+      "exit_price_usd": 2.849455063220877e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.006915,
+      "pnl_sol": -0.043085,
+      "pnl_pct": -86.15,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T09:23:57.379193+00:00",
+  "last_updated": "2026-09-10T09:25:18.819267+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.19,
-  "portfolio_value_usd": 523.09,
+  "last_sol_price_usd": 101.31,
+  "portfolio_value_usd": 519.35,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 08:47 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $INTERN at $2.37652e-07 | P&L: +3.4%",
-      "reason": "Only +3.4% but I own 13% of a $40 pool — I AM the liquidity. Any meaningful size exit would crater price. Locking small green and freeing the slot is correct."
-    },
     {
       "time": "2026-09-10 08:50 UTC",
       "action": "buy",
@@ -45084,30 +45071,48 @@
       "action": "buy",
       "details": "[LLM] $STOMP at $2.05794e-05, spent 0.05 SOL",
       "reason": "$STOMP — memetic self-referential ticker ('STONK AND PUMP'), strongest narrative of the batch, decent mcap $20k with bond 39% filling. Pure attention play with clear meta-humor that could go viral on crypto twitter. Risky at 0.2min age but that's where the alpha is."
+    },
+    {
+      "time": "2026-09-10 09:25 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $STOMP crashed >15% in one tick | P&L: -86.2%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2643,
+    "total": 2644,
     "wins": 1288,
-    "losses": 1355,
+    "losses": 1356,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.903134,
-    "avg_pnl_pct": 29.15,
+    "total_pnl_sol": 0.860049,
+    "avg_pnl_pct": 29.11,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 266,
-    "today_realized_sol": 3.588449,
-    "today_target_pct": 897.1,
+    "today_trades": 267,
+    "today_realized_sol": 3.545364,
+    "today_target_pct": 886.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1288,
-      "loss_count": 1355,
+      "loss_count": 1356,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T09:23:55.769954+00:00",
+  "last_llm_brief_at": "2026-09-10T09:25:18.819228+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FDH3vh51J8gpPFsBKnTTu777ysfRhFChTHytm5idpump": {
+      "price_usd": 2.849455063220877e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 9.0691111302,
+      "volume_h24": 5372.24,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.08951842
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
