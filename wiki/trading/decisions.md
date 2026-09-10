@@ -19210,3 +19210,6 @@
 ## [2026-09-10 13:10 UTC] buy | [LLM] $TWIN at $2.9e-06, spent 0.05 SOL
 - **Reasoning:** TWIN — 'Scientists reverse cancer cells' is a MASSIVE viral narrative hook. Real X post linked, attention magnet. Two competing mints (same narrative) suggest copycats racing — the original at $2.9k bonding2% has most upside if it pumps on the news. High narrative, asymmetric upside,0.05 SOL risk acceptable.
 
+## [2026-09-10 13:11 UTC] sell | [PARTIAL][LLM] $TWIN at $2.7845e-06 | P&L: -4.0%
+- **Reasoning:** Owning 610% of the pool means I AM the exit liquidity — any other seller dumps price through me. -4% now will be -30% in seconds. Cut and free the slot for a better setup.
+

@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.692737,
+  "balance_sol": 4.738782,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "D1qMyrVkuNQyncjgcc2DyQzEtvod5JVDq6PTG7dng1B9": {
       "symbol": "TWIN",
       "name": "Digital Twin",
-      "amount": 1716379.3103448276,
+      "amount": 70363.91522531756,
       "entry_price_usd": 2.9e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.0020497775404663076,
       "entry_time": "2026-09-10T13:10:12.425334+00:00",
       "entry_usd_value": 4.9775,
-      "last_seen_price_usd": 2.9e-06,
+      "last_seen_price_usd": 2.784499190424574e-06,
       "entry_signals": {
         "liquidity_usd": 64.69243360525,
         "volume_24h_usd": 828.79,
@@ -46556,19 +46556,30 @@
       "pnl_pct": 16.88,
       "exit_reason": "LLM: sell_all — Up +16.9% but bonding curve only $1200 pool with0% share — extremely thin liquidity, can rug or reverse fast. Lock the gain per scalp discipline: up >",
       "partial": false
+    },
+    {
+      "mint": "D1qMyrVkuNQyncjgcc2DyQzEtvod5JVDq6PTG7dng1B9",
+      "symbol": "TWIN",
+      "name": "Digital Twin",
+      "amount_sold": 1646015.3951195101,
+      "fraction_sold": 0.9590044491906738,
+      "entry_time": "2026-09-10T13:10:12.425334+00:00",
+      "exit_time": "2026-09-10T13:11:33.219830+00:00",
+      "entry_price_usd": 2.9e-06,
+      "exit_price_usd": 2.784499190424574e-06,
+      "entry_sol_for_chunk": 0.04795,
+      "exit_sol_received": 0.046045,
+      "pnl_sol": -0.001905,
+      "pnl_pct": -3.98,
+      "exit_reason": "LLM: sell_all — Owning 610% of the pool means I AM the exit liquidity — any other seller dumps price through me. -4% now will be -30% in seconds. Cut and free the slo",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T13:10:12.425753+00:00",
+  "last_updated": "2026-09-10T13:11:33.220062+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.55,
-  "portfolio_value_usd": 472.14,
+  "last_sol_price_usd": 99.54,
+  "portfolio_value_usd": 471.9,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 12:48 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $$AURA crashed >15% in one tick | P&L: -38.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 12:50 UTC",
       "action": "buy",
@@ -46682,40 +46693,46 @@
       "action": "buy",
       "details": "[LLM] $TWIN at $2.9e-06, spent 0.05 SOL",
       "reason": "TWIN — 'Scientists reverse cancer cells' is a MASSIVE viral narrative hook. Real X post linked, attention magnet. Two competing mints (same narrative) suggest copycats racing — the original at $2.9k bonding2% has most upside if it pumps on the news. High narrative, asymmetric upside,0.05 SOL risk acceptable."
+    },
+    {
+      "time": "2026-09-10 13:11 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $TWIN at $2.7845e-06 | P&L: -4.0%",
+      "reason": "Owning 610% of the pool means I AM the exit liquidity — any other seller dumps price through me. -4% now will be -30% in seconds. Cut and free the slot for a better setup."
     }
   ],
   "trade_stats": {
-    "total": 2737,
+    "total": 2738,
     "wins": 1319,
-    "losses": 1418,
+    "losses": 1419,
     "win_rate_pct": 48.2,
-    "total_pnl_sol": 0.476494,
-    "avg_pnl_pct": 27.89,
+    "total_pnl_sol": 0.474589,
+    "avg_pnl_pct": 27.88,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 360,
-    "today_realized_sol": 3.161809,
-    "today_target_pct": 790.5,
+    "today_trades": 361,
+    "today_realized_sol": 3.159904,
+    "today_target_pct": 790.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1319,
-      "loss_count": 1418,
+      "loss_count": 1419,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T13:10:11.049544+00:00",
+  "last_llm_brief_at": "2026-09-10T13:11:33.219675+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5shnYM873STaxBNcDLv27sZR2XxZazVh1zNnDYatpump": {
-      "price_usd": 5.469761885456003e-06,
+    "D1qMyrVkuNQyncjgcc2DyQzEtvod5JVDq6PTG7dng1B9": {
+      "price_usd": 2.784499190424574e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1200.13722973045,
-      "volume_h24": 1529.49,
+      "liquidity_usd": 0.7837130599200001,
+      "volume_h24": 892.62,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 12.055622599
+      "real_sol_reserves": 0.007873348
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
