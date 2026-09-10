@@ -18052,3 +18052,9 @@
 ## [2026-09-10 04:57 UTC] buy | [LLM] $Pets at $3.42273e-06, spent 0.05 SOL
 - **Reasoning:** ChatGPT Pets narrative piggybacks on the AI agent meta (Brian/Anthropic Cat also trending now). $3.4k mcap, 8% bonded — first mover among the AI-cat cohort. Small position but viral narrative fit.
 
+## [2026-09-10 04:59 UTC] sell | [FULL][LLM] $Pets at $2.98352e-06 | P&L: -12.8%
+- **Reasoning:** $Pets is down -12.8% with only $70 pool liquidity and 6% of supply in my hands — that's textbook illiquid bag. Pool is too thin to recover meaningfully, and with a max 1-position slot I'd rather rotate into a fresh viral launch than babysit a zombie. Cut it.
+
+## [2026-09-10 04:59 UTC] buy | [LLM] $MOSES at $3.333e-06, spent 0.05 SOL
+- **Reasoning:** $MOSES 'ANTHROPIC DOG' rides two narratives simultaneously — Anthropic stocks + AI dog meta. Description explicitly promises rewards/airdrops, twitter link to Anthropic stocks creates organic attention loop. $3.4k mcap with 8% bonding = early entry. Real narrative, real ticker, real launch energy.
+
