@@ -17602,3 +17602,9 @@
 ## [2026-09-10 02:11 UTC] buy | [LLM] $Sam at $3.51269e-06, spent 0.05 SOL
 - **Reasoning:** $Sam ('Google Sam') has a recognizable narrative hook tied to Google's AI assistant — viral potential is real, and it's already climbing from $3.5k mcap in <1 min. Bonding curve at 9% means early entry. 0.05 SOL scalp for quick 30-100% pop if narrative catches.
 
+## [2026-09-10 02:12 UTC] sell | [FULL][LLM] $Sam at $3.02527e-06 | P&L: -13.9%
+- **Reasoning:** Down -13.9% on a $105 pool token where we hold 4% — liquidity is too thin to trust a bounce, and another 11% drop hits the -25% hard cap. Cut and redeploy into a fresher attention signal.
+
+## [2026-09-10 02:12 UTC] buy | [LLM] $Cooked at $2.94887e-06, spent 0.05 SOL
+- **Reasoning:** $Cooked ('Wallahi Im Cooked') has a KTLA news station tweet — real media attention on a 0.7min-old token at $2.9k mcap. Fresh narrative + news pickup is the classic viral-launch setup. Risks: ultra-low mcap = high rug probability; news-driven coins fade fast so I'll watch for the +30% TP trigger.
+
