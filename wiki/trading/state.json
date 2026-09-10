@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.068815,
+  "balance_sol": 9.101853,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BTGzsMgtkvHMD8f2EXWDX3BiYZKZWACLhP6SAvfbpump": {
-      "symbol": "DEVIN",
-      "name": "Devin",
-      "amount": 41038973.58104732,
-      "entry_price_usd": 1.2097037442214964e-07,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T22:02:10.222878+00:00",
-      "entry_usd_value": 4.964500000000001,
-      "last_seen_price_usd": 1.2097037442214964e-07,
-      "entry_signals": {
-        "liquidity_usd": 4.9645e-07,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6006.82167657442,
-        "ath_market_cap_usd": 6006.82167657442,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5e-09,
-        "description": "",
-        "twitter": "https://x.com/OpenAIDevs/status/2098170028432773174",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50687,19 +50663,30 @@
       "pnl_pct": 12.26,
       "exit_reason": "LLM: sell_all — $RISE up +12.3% on bonding curve with0.0h held — well below TP thresholds, momentum is constructive. Selling now would lock a small gain and miss a po",
       "partial": false
+    },
+    {
+      "mint": "BTGzsMgtkvHMD8f2EXWDX3BiYZKZWACLhP6SAvfbpump",
+      "symbol": "DEVIN",
+      "name": "Devin",
+      "amount_sold": 41038973.58104732,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T22:02:10.222878+00:00",
+      "exit_time": "2026-09-10T22:03:14.174673+00:00",
+      "entry_price_usd": 1.2097037442214964e-07,
+      "exit_price_usd": 7.993305296595527e-08,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.033038,
+      "pnl_sol": -0.016962,
+      "pnl_pct": -33.92,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T22:02:10.223061+00:00",
+  "last_updated": "2026-09-10T22:03:25.036810+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 99.29,
-  "portfolio_value_usd": 905.41,
+  "portfolio_value_usd": 903.72,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 21:35 UTC",
-      "action": "buy",
-      "details": "[LLM] $$AMEMD at $3.644e-06, spent 0.05 SOL",
-      "reason": "$AMEMD has its own @amemdcorp twitter handle (project account, not a random status), a coherent absurdist tech-meme narrative ('MPU™ processes 69,420 memes/sec with zero useful output' is genuinely meme-fluent), and a real description. $3.6k mcap with bond still loading — early enough for 2-5x if the absurdist-engineer meme catches on. Tight mental stop; exit fast if it doesn't move in 15min."
-    },
     {
       "time": "2026-09-10 21:37 UTC",
       "action": "sell",
@@ -50813,30 +50800,48 @@
       "action": "buy",
       "details": "[LLM] $DEVIN at $1.2097e-07, spent 0.05 SOL",
       "reason": "$DEVIN launched on @OpenAIDevs — riding the Devin (the AI coder) attention wave. Fresh, low mcap, narrative is hot. Passes viability gate via twitter link."
+    },
+    {
+      "time": "2026-09-10 22:03 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $DEVIN crashed >15% in one tick | P&L: -33.9%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2980,
+    "total": 2981,
     "wins": 1398,
-    "losses": 1582,
+    "losses": 1583,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 4.852626,
-    "avg_pnl_pct": 28.65,
+    "total_pnl_sol": 4.835664,
+    "avg_pnl_pct": 28.63,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 603,
-    "today_realized_sol": 7.537941,
-    "today_target_pct": 1884.5,
+    "today_trades": 604,
+    "today_realized_sol": 7.520979,
+    "today_target_pct": 1880.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1398,
-      "loss_count": 1582,
+      "loss_count": 1583,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T22:02:08.902283+00:00",
+  "last_llm_brief_at": "2026-09-10T22:03:23.559160+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BTGzsMgtkvHMD8f2EXWDX3BiYZKZWACLhP6SAvfbpump": {
+      "price_usd": 7.993305296595527e-08,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4.9645e-07,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 5e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
