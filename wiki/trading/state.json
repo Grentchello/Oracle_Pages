@@ -1,17 +1,17 @@
 {
-  "balance_sol": 2.823648,
+  "balance_sol": 2.846309,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "2rYNSc59YzidasAZiVxXwcSFFzqGgd1iLAuYQKmWcvkd": {
       "symbol": "TickTock",
       "name": "Tick Tock",
-      "amount": 1606208.6353608575,
+      "amount": 803104.3176804287,
       "entry_price_usd": 3.173e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T03:06:54.738077+00:00",
       "entry_usd_value": 5.096500000000001,
-      "last_seen_price_usd": 3.173e-06,
+      "last_seen_price_usd": 2.875268259796963e-06,
       "entry_signals": {
         "liquidity_usd": 164.92152896967002,
         "volume_24h_usd": 218.35,
@@ -41949,19 +41949,30 @@
       "pnl_pct": 5.39,
       "exit_reason": "LLM: sell_all — FLYBRAIN is up only +5.4% with pool=$907 (below 5x position liquidity threshold), held close to stale threshold, and shows no momentum or narrative ca",
       "partial": false
+    },
+    {
+      "mint": "2rYNSc59YzidasAZiVxXwcSFFzqGgd1iLAuYQKmWcvkd",
+      "symbol": "TickTock",
+      "name": "Tick Tock",
+      "amount_sold": 803104.3176804287,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T03:06:54.738077+00:00",
+      "exit_time": "2026-09-10T03:08:28.922308+00:00",
+      "entry_price_usd": 3.173e-06,
+      "exit_price_usd": 2.875268259796963e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.022661,
+      "pnl_sol": -0.002339,
+      "pnl_pct": -9.38,
+      "exit_reason": "LLM: sell_all — $TickTock is down 9.4% with only $14 pool liquidity and our share is 33% — that's a dangerously concentrated position in a dead micro-cap. -30% hard s",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T03:06:54.738357+00:00",
+  "last_updated": "2026-09-10T03:08:28.922588+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.93,
-  "portfolio_value_usd": 292.91,
+  "last_sol_price_usd": 101.9,
+  "portfolio_value_usd": 292.59,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 02:49 UTC",
-      "action": "buy",
-      "details": "[LLM] $att at $3.77065e-06, spent 0.05 SOL",
-      "reason": "$att (attention) is meta-self-referential meme narrative — 'attention everyone' on a fresh 0.4min launch with only 4% bonding. Lowest mcap ($3.7k) of candidates = most upside if narrative catches. Highest risk of all candidates but also highest attention-arbitrage potential."
-    },
     {
       "time": "2026-09-10 02:50 UTC",
       "action": "sell",
@@ -42075,30 +42086,48 @@
       "action": "buy",
       "details": "[LLM] $TickTock at $3.173e-06, spent 0.05 SOL",
       "reason": "$TickTock — TikTok rabbit clock narrative promoted by @ReallyLightblue (actual TikTok creator = attention lever outside crypto-Twitter). 0.6min old, mcap $3.2k, bond still forming. High rug risk but the cross-platform attention profile is the strongest of the batch."
+    },
+    {
+      "time": "2026-09-10 03:08 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $TickTock at $2.87527e-06 | P&L: -9.4%",
+      "reason": "$TickTock is down 9.4% with only $14 pool liquidity and our share is 33% — that's a dangerously concentrated position in a dead micro-cap. -30% hard stop is the floor but with this little liquidity and no momentum, exiting now avoids getting trapped. Better to redeploy into fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 2466,
+    "total": 2467,
     "wins": 1216,
-    "losses": 1250,
+    "losses": 1251,
     "win_rate_pct": 49.3,
-    "total_pnl_sol": -1.392663,
-    "avg_pnl_pct": 29.19,
+    "total_pnl_sol": -1.395002,
+    "avg_pnl_pct": 29.17,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 89,
-    "today_realized_sol": 1.292652,
-    "today_target_pct": 323.2,
+    "today_trades": 90,
+    "today_realized_sol": 1.290313,
+    "today_target_pct": 322.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1216,
-      "loss_count": 1250,
+      "loss_count": 1251,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:06:53.436028+00:00",
+  "last_llm_brief_at": "2026-09-10T03:08:28.922148+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2rYNSc59YzidasAZiVxXwcSFFzqGgd1iLAuYQKmWcvkd": {
+      "price_usd": 2.875268259796963e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 14.049138559900001,
+      "volume_h24": 372.22,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.137871821
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

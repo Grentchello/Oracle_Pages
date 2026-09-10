@@ -17752,3 +17752,6 @@
 ## [2026-09-10 03:06 UTC] buy | [LLM] $TickTock at $3.173e-06, spent 0.05 SOL
 - **Reasoning:** $TickTock — TikTok rabbit clock narrative promoted by @ReallyLightblue (actual TikTok creator = attention lever outside crypto-Twitter). 0.6min old, mcap $3.2k, bond still forming. High rug risk but the cross-platform attention profile is the strongest of the batch.
 
+## [2026-09-10 03:08 UTC] sell | [PARTIAL][LLM] $TickTock at $2.87527e-06 | P&L: -9.4%
+- **Reasoning:** $TickTock is down 9.4% with only $14 pool liquidity and our share is 33% — that's a dangerously concentrated position in a dead micro-cap. -30% hard stop is the floor but with this little liquidity and no momentum, exiting now avoids getting trapped. Better to redeploy into fresh attention.
+
