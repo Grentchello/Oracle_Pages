@@ -20539,3 +20539,6 @@
 ## [2026-09-10 21:37 UTC] sell | [FULL][LLM] $$AMEMD at $3.65063e-06 | P&L: +0.2%
 - **Reasoning:** Just entered, +0.2% flat, no bounce or dump signal yet. 1% of thin $423 pool means small size — no urgency to rotate. Give it a few more ticks to develop.
 
+## [2026-09-10 21:39 UTC] buy | [LLM] $SPSN at $8.35972e-08, spent 0.05 SOL
+- **Reasoning:** $SPSN SOUTH PARK SUCKS NOW — contrarian hate-token tied to a viral X post, $5.9k mcap, very early bond. High attention narrative, low mcap = high upside if X post catches. Risk: hate-tokens can die fast, but viral X attention is the signal. 0.05 SOL position.
+
