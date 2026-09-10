@@ -20302,3 +20302,6 @@
 ## [2026-09-10 19:52 UTC] sell | [v8.7 TP +50% (full)] $CNUT at $1.2969e-05 | P&L: +80.0%
 - **Reasoning:** Auto take-profit at +80.0%
 
+## [2026-09-10 19:53 UTC] buy | [LLM] $CSCUM at $3.62287e-06, spent 0.05 SOL
+- **Reasoning:** $CSCUM (CS: CUM) — freshest 0.2min launch with a complete edgy CS:GO 'rush B' narrative that maps perfectly to crypto Twitter culture ('the only bomb we're planting is in your portfolio'). Description passes the 50-char viability gate (no Twitter but the narrative is the attention signal). $3.6k mcap sits in the launch zone where 10x moves start. Risk: bond only 11% so thin liquidity, but for a 0.05-0.1 SOL scalp that's acceptable. Other candidates either fail viability gate (no desc ≥50 chars: $MrBeast, $TWB, $FIN, $beer, $OTC, $$CAT, $DOGE, $CNUT, $Flylabs, $PushWs, $PULLIT) or get rejected by fragility gate ($MrBeast = celebrity, $GFLOYD = political) or have weaker meme energy ($Horsesol, $CASHA). Take the highest-attention play.
+
