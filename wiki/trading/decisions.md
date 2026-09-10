@@ -19084,3 +19084,6 @@
 ## [2026-09-10 12:19 UTC] buy | [LLM] $DSK at $1.80916e-05, spent 0.05 SOL
 - **Reasoning:** $DSK 'DeepSeek' — narrative play on viral AI brand ('broke the internet, now breaking charts'). Decent description (≥50 chars), mcap $18k, twitter presence likely. Has the attention-market signal: recognizable name + cultural moment. Take 0.05 SOL position with tight stop.
 
+## [2026-09-10 12:20 UTC] sell | [rapid-drop] $DSK crashed >15% in one tick | P&L: -66.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
