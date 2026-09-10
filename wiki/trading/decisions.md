@@ -18148,3 +18148,9 @@
 ## [2026-09-10 05:24 UTC] buy | [LLM] $CUCK at $6.875e-06, spent 0.05 SOL
 - **Reasoning:** $CUCK (Vlad The Cuck) — strongest attention signal in batch: real named X account with viral post, $10k mcap (sweet spot for 5-10x), meme narrative with edgy political undercurrent that drives engagement, ultra-fresh at 0.8min. Risk: edgy name may attract bots; tight stop honored.
 
+## [2026-09-10 05:25 UTC] sell | [FULL][LLM] $CUCK at $9.53126e-06 | P&L: +38.6%
+- **Reasoning:** Up +38.6% — past the +25% TP1 zone and into aggressive profit-take territory. Pool is thin ($2534), narrative is weak (no description), and our share is 0% so exit is frictionless. Lock the gain before it reverses.
+
+## [2026-09-10 05:25 UTC] buy | [LLM] $KIRKMAS at $3.13797e-06, spent 0.05 SOL
+- **Reasoning:** $KIRKMAS — 'MERRY KIRKMAS YA FILTHY ANIMALS' is a direct Home Alone reference, viral meme wave launching right now (3+ Kirk tokens in 1 min). Strongest narrative name, has desc, age 0.2min. First-mover into coordinated attention event. Risk: ultra-low mcap + bonding curve = volatile; tiny size mitigates.
+
