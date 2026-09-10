@@ -19285,3 +19285,9 @@
 ## [2026-09-10 13:34 UTC] buy | [LLM] $GIGA at $5.61469e-06, spent 0.05 SOL
 - **Reasoning:** GIGACHAD is a top-tier cultural meme brand with established viral recognition across crypto/X. Twitter link present, desc confirms dividend mechanic (attention hook). Fresh at $5.6k mcap = max upside room. Risk: bond only 23% (still bonding curve, illiquid), may rug quickly — will watch for -25% stop.
 
+## [2026-09-10 13:35 UTC] sell | [rapid-drop] $GIGA crashed >15% in one tick | P&L: -49.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 13:36 UTC] buy | [LLM] $inucrypted at $5.04687e-06, spent 0.05 SOL
+- **Reasoning:** $inucrypted is the freshest narrative token here — 'inucrypted' reads as a cursed/encrypted inu parody, a recognizable meta-joke format that travels well on CT. Twitter link present, mcap $5k, age 0.4min — early enough for the 10x window. Best attention-to-mcap ratio in the batch.
+
