@@ -20611,3 +20611,6 @@
 ## [2026-09-10 22:09 UTC] buy | [LLM] $BUDDY at $2.887e-06, spent 0.05 SOL
 - **Reasoning:** $BUDDY — 'Claude Code AI Pet' with WatcherGuru tweet (large crypto account, 1M+ followers). AI agent + pet narrative is HOT in current meta. $2.9k mcap, very early. Best attention signal of the batch. Buy 0.05 SOL.
 
+## [2026-09-10 22:10 UTC] sell | [FULL][LLM] $BUDDY at $3.1509e-06 | P&L: +9.1%
+- **Reasoning:** +$9.1% on a brand-new bonding-curve position (0.0h held, $190 pool). Just under the +10% stale-warning line — one more tick to see if it pushes; if flat or red next tick, sell_all and rotate into a fresher launch.
+
