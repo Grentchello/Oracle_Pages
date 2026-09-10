@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.490807,
+  "balance_sol": 4.506479,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7RYLKD4Y8CpJG45Kvmk3QWpfQLFxWNYoXiGUpNrupump": {
-      "symbol": "CATESEM",
-      "name": "Catesem",
-      "amount": 551095.3778135709,
-      "entry_price_usd": 9.124554845569913e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T14:59:35.419892+00:00",
-      "entry_usd_value": 5.0285,
-      "last_seen_price_usd": 9.124554845569913e-06,
-      "entry_signals": {
-        "liquidity_usd": 3151.53888779701,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9081.00521520426,
-        "ath_market_cap_usd": 9088.429725160036,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 31.336769293,
-        "description": "10% of supply will be sent to ANSEM",
-        "twitter": "https://x.com/catesemx",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -47372,19 +47348,30 @@
       "pnl_pct": -18.67,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "7RYLKD4Y8CpJG45Kvmk3QWpfQLFxWNYoXiGUpNrupump",
+      "symbol": "CATESEM",
+      "name": "Catesem",
+      "amount_sold": 551095.3778135709,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T14:59:35.419892+00:00",
+      "exit_time": "2026-09-10T15:00:39.247758+00:00",
+      "entry_price_usd": 9.124554845569913e-06,
+      "exit_price_usd": 2.8466612241645964e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.015672,
+      "pnl_sol": -0.034328,
+      "pnl_pct": -68.8,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T14:59:35.420059+00:00",
+  "last_updated": "2026-09-10T15:00:51.811024+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.57,
-  "portfolio_value_usd": 456.67,
+  "last_sol_price_usd": 100.1,
+  "portfolio_value_usd": 451.1,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 14:40 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $H-Fat at $4.96911e-06 | P&L: -0.0%",
-      "reason": "Position is flat (0.0h held), our share is 0% meaning we have no real presence in a $999 pool — completely illiquid. Freeing slot for a stronger candidate."
-    },
     {
       "time": "2026-09-10 14:40 UTC",
       "action": "buy",
@@ -47498,40 +47485,46 @@
       "action": "buy",
       "details": "[LLM] $CATESEM at $9.12455e-06, spent 0.05 SOL",
       "reason": "$CATESEM has the strongest narrative on the board: a 10% supply airdrop to ANSEM (a top Solana KOL) is a textbook attention play that drives immediate buy pressure from his followers. Bond is already 31% at 0.4min, liquidity is forming fast, and KOL-bait tokens historically pump hard in the first hour. High risk of fast dump after the initial pop, but the asymmetry favors entry."
+    },
+    {
+      "time": "2026-09-10 15:00 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $CATESEM crashed >15% in one tick | P&L: -68.8%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2785,
+    "total": 2786,
     "wins": 1332,
-    "losses": 1453,
+    "losses": 1454,
     "win_rate_pct": 47.8,
-    "total_pnl_sol": 0.274565,
-    "avg_pnl_pct": 27.28,
+    "total_pnl_sol": 0.240237,
+    "avg_pnl_pct": 27.24,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 408,
-    "today_realized_sol": 2.95988,
-    "today_target_pct": 740.0,
+    "today_trades": 409,
+    "today_realized_sol": 2.925552,
+    "today_target_pct": 731.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1332,
-      "loss_count": 1453,
+      "loss_count": 1454,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T14:59:34.125623+00:00",
+  "last_llm_brief_at": "2026-09-10T15:00:51.554592+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "12tauMXBox368CDnjSZbPgHFKur8F1u3hpM8YH2i5JMg": {
-      "price_usd": 2.811835974279851e-06,
+    "7RYLKD4Y8CpJG45Kvmk3QWpfQLFxWNYoXiGUpNrupump": {
+      "price_usd": 2.8466612241645964e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4.0227999999999997e-07,
-      "volume_h24": 1074.99,
+      "liquidity_usd": 25.624426127299998,
+      "volume_h24": 10599.81,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4e-09
+      "real_sol_reserves": 0.255988273
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
