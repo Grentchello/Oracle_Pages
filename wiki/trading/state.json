@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.564841,
+  "balance_sol": 4.514841,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "E7qgpri4cm9XLGsvedMi7Y8ZWxKzygWTkotgDphEpump": {
+      "symbol": "VOID",
+      "name": "VOID",
+      "amount": 672529.9905647662,
+      "entry_price_usd": 7.419e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T19:48:08.495965+00:00",
+      "entry_usd_value": 4.9895000000000005,
+      "last_seen_price_usd": 7.419e-06,
+      "entry_signals": {
+        "liquidity_usd": 2086.80387199717,
+        "volume_24h_usd": 1887.86,
+        "market_cap_usd": 8037.545223553271,
+        "ath_market_cap_usd": 8037.545223553271,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 20.911953823,
+        "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 15 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. Good luck. ",
+        "twitter": "https://x.com/DevVOIDSol",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -49747,17 +49771,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T19:46:49.383740+00:00",
+  "last_updated": "2026-09-10T19:48:08.496203+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.3,
-  "portfolio_value_usd": 457.85,
+  "last_sol_price_usd": 99.79,
+  "portfolio_value_usd": 455.53,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:31 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $SEASHELL at $2.78876e-06 | P&L: -13.6%",
-      "reason": "Down 13.6% with my position at 175% of pool liquidity. The oversized share means further drops will trigger worse slippage on exit, and we're approaching the -25% hard stop. Cut loss now while I still can exit at a reasonable price."
-    },
     {
       "time": "2026-09-10 19:32 UTC",
       "action": "sell",
@@ -49871,6 +49889,12 @@
       "action": "sell",
       "details": "[rapid-drop] $Milly crashed >15% in one tick | P&L: -48.2%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 19:48 UTC",
+      "action": "buy",
+      "details": "[LLM] $VOID at $7.419e-06, spent 0.05 SOL",
+      "reason": "$VOID has the cleanest narrative hook on the list: explicit airdrop incentive (60% to top 15 holders) creates guaranteed buy pressure and a FOMO driver. Fresh launch (<1min), twitter presence, description >50 chars — passes viability gate. Small position, ride the airdrop-chase attention."
     }
   ],
   "trade_stats": {
@@ -49892,21 +49916,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T19:46:49.383698+00:00",
+  "last_llm_brief_at": "2026-09-10T19:48:07.235082+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "24Je4wyrLhPScB1msmaUajrU8BLSkuT1ZnGfcazdpump": {
-      "price_usd": 2.804472839869643e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 0.099682152,
-      "volume_h24": 4353.87,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.00099384
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

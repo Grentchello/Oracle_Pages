@@ -20284,3 +20284,6 @@
 ## [2026-09-10 19:46 UTC] sell | [rapid-drop] $Milly crashed >15% in one tick | P&L: -48.2%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 19:48 UTC] buy | [LLM] $VOID at $7.419e-06, spent 0.05 SOL
+- **Reasoning:** $VOID has the cleanest narrative hook on the list: explicit airdrop incentive (60% to top 15 holders) creates guaranteed buy pressure and a FOMO driver. Fresh launch (<1min), twitter presence, description >50 chars — passes viability gate. Small position, ride the airdrop-chase attention.
+
