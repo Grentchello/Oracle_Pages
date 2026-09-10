@@ -20797,3 +20797,6 @@
 ## [2026-09-10 23:15 UTC] sell | [FULL][LLM] $RUFUS at $3.6853e-07 | P&L: -3.1%
 - **Reasoning:** RUFUS is down 3.1% on a $90 pool where my share is 5% — I AM the liquidity, so any other seller crushes me. Narrative ('Amazon Dog') is weak with no viral catalyst, and being 5% of a micro-pool is a forced-exit setup before the bot stops me out.
 
+## [2026-09-10 23:16 UTC] buy | [LLM] $pegged at $3.7453e-06, spent 0.05 SOL
+- **Reasoning:** $pegged has a clear derivatives/Twitter finance narrative from @derivativist (likely HaslBrunner or similar), $3.7k mcap fresh launch with bond12% forming — pegging-dollar is a viral hook and the source account has audience attention. Passes viability gate (twitter present).
+

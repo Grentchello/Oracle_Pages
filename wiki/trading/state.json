@@ -1,8 +1,32 @@
 {
-  "balance_sol": 9.294711,
+  "balance_sol": 9.244711,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "FdD78oirp2yYHwuxd9VycWuPhL3RekWyuMJQE99ppump": {
+      "symbol": "pegged",
+      "name": "pegging the dollar",
+      "amount": 1316849.2908401347,
+      "entry_price_usd": 3.7453033041111643e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T23:16:20.103811+00:00",
+      "entry_usd_value": 4.932,
+      "last_seen_price_usd": 3.7453033041111643e-06,
+      "entry_signals": {
+        "liquidity_usd": 500.11891548264003,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3752.5174933627977,
+        "ath_market_cap_usd": 3752.5174933627977,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 5.070143101,
+        "description": "",
+        "twitter": "https://x.com/derivativist/status/2098188632800526773?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51260,17 +51284,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T23:15:04.033177+00:00",
+  "last_updated": "2026-09-10T23:16:20.103990+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.83,
-  "portfolio_value_usd": 918.6,
+  "last_sol_price_usd": 98.64,
+  "portfolio_value_usd": 916.83,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 22:57 UTC",
-      "action": "buy",
-      "details": "[LLM] $10M at $9.10129e-06, spent 0.05 SOL",
-      "reason": "$10M 'Speedrun To 10 Million' is the meta-narrative token — race-to-10M-mcap is currently viral on CT. At $9,108 mcap it sits literally at the cusp of the target, with a real CT account (daddyriskbets) driving attention. Bond31% means early but real buy pressure. Asymmetric upside if narrative catches; tight -25% hard cap covers downside."
-    },
     {
       "time": "2026-09-10 22:58 UTC",
       "action": "sell",
@@ -51384,6 +51402,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $RUFUS at $3.6853e-07 | P&L: -3.1%",
       "reason": "RUFUS is down 3.1% on a $90 pool where my share is 5% — I AM the liquidity, so any other seller crushes me. Narrative ('Amazon Dog') is weak with no viral catalyst, and being 5% of a micro-pool is a forced-exit setup before the bot stops me out."
+    },
+    {
+      "time": "2026-09-10 23:16 UTC",
+      "action": "buy",
+      "details": "[LLM] $pegged at $3.7453e-06, spent 0.05 SOL",
+      "reason": "$pegged has a clear derivatives/Twitter finance narrative from @derivativist (likely HaslBrunner or similar), $3.7k mcap fresh launch with bond12% forming — pegging-dollar is a viral hook and the source account has audience attention. Passes viability gate (twitter present)."
     }
   ],
   "trade_stats": {
@@ -51405,21 +51429,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T23:15:04.032134+00:00",
+  "last_llm_brief_at": "2026-09-10T23:16:18.642613+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "4TYc8puybvkBeAEhvbT4BxrUnexNaSKjRrVfymcppump": {
-      "price_usd": 3.6852995248268164e-07,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 90.41808425351,
-      "volume_h24": 0.0,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.914884997
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
