@@ -20824,3 +20824,9 @@
 ## [2026-09-10 23:27 UTC] buy | [LLM] $$CAJUN at $2.8e-06, spent 0.05 SOL
 - **Reasoning:** $$CAJUN has the strongest narrative hook in the batch — 'cajun crypto' is a personality-driven meme angle with an active X account (@cajuncrypto41) and a self-deprecating desc that fits meme culture. At $6.8k mcap with active twitter, attention asymmetry is favorable for a quick pump. Buying 0.1 SOL.
 
+## [2026-09-10 23:28 UTC] sell | [v8.7 TP +50% (full)] $$CAJUN at $9.39731e-06 | P&L: +235.6%
+- **Reasoning:** Auto take-profit at +235.6%
+
+## [2026-09-10 23:29 UTC] buy | [LLM] $Banned at $2.87269e-06, spent 0.05 SOL
+- **Reasoning:** $BANNED — Pump.fun delisting from Apple Store is a viral narrative with real-world news catalyst. Low mcap ($2.8k) means huge upside if attention catches. Bond low but narrative is strong enough to enter with 0.05 SOL.
+
