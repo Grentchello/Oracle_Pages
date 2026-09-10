@@ -18769,3 +18769,6 @@
 ## [2026-09-10 09:59 UTC] buy | [LLM] $Gösta at $3.544e-06, spent 0.05 SOL
 - **Reasoning:** $Gösta (The Narcoleptic Dog) has the strongest fresh-attention hook of this batch: quirky real-world character narrative + real twitter poster @drco0in + 17% bond already progressing + $4.4k mcap with under 1min age = classic early-pump setup. Risk: 0.7min old, extremely early, could rug or flatline — but that's the alpha window. Will exit fast per scalp discipline if it doesn't move +20% within 15min.
 
+## [2026-09-10 10:00 UTC] sell | [rapid-drop] $Gösta crashed >15% in one tick | P&L: -16.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
