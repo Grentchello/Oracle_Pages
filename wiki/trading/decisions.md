@@ -19291,3 +19291,9 @@
 ## [2026-09-10 13:36 UTC] buy | [LLM] $inucrypted at $5.04687e-06, spent 0.05 SOL
 - **Reasoning:** $inucrypted is the freshest narrative token here — 'inucrypted' reads as a cursed/encrypted inu parody, a recognizable meta-joke format that travels well on CT. Twitter link present, mcap $5k, age 0.4min — early enough for the 10x window. Best attention-to-mcap ratio in the batch.
 
+## [2026-09-10 13:37 UTC] sell | [rapid-drop] $inucrypted crashed >15% in one tick | P&L: -25.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 13:37 UTC] buy | [LLM] $bit meme  at $4.006e-06, spent 0.05 SOL
+- **Reasoning:** bit meme has a viral narrative hook (X post about bitcoin), extremely fresh launch ($4k mcap), and description mentions social media virality. Low mcap with attention signal = asymmetric upside. Risks: $4k mcap is tiny, no liquidity depth yet.
+
