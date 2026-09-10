@@ -19030,3 +19030,6 @@
 ## [2026-09-10 11:44 UTC] sell | [PARTIAL][LLM] $JACKET at $1.80463e-07 | P&L: +0.1%
 - **Reasoning:** Position is flat at +0.1% after 0 minutes held. 872% pool share is a massive red flag — that's not a position, that's an exit liquidity trap. Take the scratch exit and free the slot.
 
+## [2026-09-10 11:46 UTC] sell | [FULL][LLM] $JACKET at $1.80481e-07 | P&L: +0.1%
+- **Reasoning:** Just entered at +0.1%, no momentum yet. On bonding curve with 25% pool share, low liquidity risk. Bot will auto-close at 30min if flat. Give it a few minutes to develop.
+
