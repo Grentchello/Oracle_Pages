@@ -20530,3 +20530,6 @@
 ## [2026-09-10 21:28 UTC] sell | [PARTIAL][LLM] $CHILLGUY at $7.369e-05 | P&L: +23.7%
 - **Reasoning:** $CHILLGUY is up +23.7% and approaching the +25% TP threshold. Pool liquidity $21k is thin relative to potential volatility. Take half profit now to lock gains and let the rest ride with a free entry.
 
+## [2026-09-10 21:30 UTC] sell | [FULL][LLM] $CHILLGUY at $6.397e-05 | P&L: +7.4%
+- **Reasoning:** +7.4% with 0.0h held, not yet at TP, no clear exit signal; watch for either 30min staleness or +25% TP trigger.
+
