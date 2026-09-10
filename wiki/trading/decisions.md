@@ -20218,3 +20218,9 @@
 ## [2026-09-10 19:28 UTC] buy | [LLM] $TURTLE at $5.53973e-06, spent 0.05 SOL
 - **Reasoning:** $TURTLE — 'It's Always Sunny In Space' fuses two viral themes (cult sitcom + space meta-narrative), has twitter attached, $5.5k mcap at 0.1min age = maximum attention surface, minimum price. Prime viral-attention setup for a new launch.
 
+## [2026-09-10 19:29 UTC] sell | [rapid-drop] $TURTLE crashed >15% in one tick | P&L: -49.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:29 UTC] buy | [LLM] $SEASHELL at $3.22653e-06, spent 0.05 SOL
+- **Reasoning:** $SEASHELL (Clawd Currency) rides the hot Clawd/AI-agent meta narrative with a real twitter link, $3.2k mcap has 10x+ room, age <1min = fresh attention launch. Best narrative-to-mcap ratio in the slate.
+
