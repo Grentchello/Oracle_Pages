@@ -18262,3 +18262,9 @@
 ## [2026-09-10 06:12 UTC] buy | [LLM] $MKO at $4.325e-06, spent 0.05 SOL
 - **Reasoning:** Monkey slap-comp brainrot meme with active X poster (Devilantesol) — exactly the kind of silly viral narrative that pumps. Bond 6% so room to run, mcap $3k = ground floor. Sizing 0.05 SOL.
 
+## [2026-09-10 06:13 UTC] sell | [rapid-drop] $MKO crashed >15% in one tick | P&L: -32.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 06:14 UTC] buy | [LLM] $MARVIN at $1.541e-05, spent 0.05 SOL
+- **Reasoning:** $MARVIN — Marvin the Martian is a well-known Looney Tunes IP with strong nostalgia/recognition. Real X post from @heishimmy, fastest-bonding token in the batch (38%), mcap $19k. Fragility gate clean (no celebrity/political keywords). 0.05 SOL position.
+
