@@ -20605,3 +20605,9 @@
 ## [2026-09-10 22:07 UTC] buy | [LLM] $Batman at $4.847e-05, spent 0.05 SOL
 - **Reasoning:** $Batman: strongest attention signal in the batch — evergreen IP with universal recognition, $63k mcap in <1min shows organic momentum, bond 43% indicates real buy pressure not just sniper volume, custom landing site (thebatman.site) shows dev effort. Risk: brand-IP tokens often dump after initial pump, but the narrative depth (dark/gothic framing in desc) gives it legs beyond a quick flip.
 
+## [2026-09-10 22:09 UTC] sell | [FULL][LLM] $Batman at $5.878e-05 | P&L: +21.3%
+- **Reasoning:** Batman already at +21.3% after minutes — that's strong pump exhaustion territory for a $1k mcap novelty. Fragility gate risk is HIGH (celebrity/IP name), and the pool is tiny ($18k). Lock the gain before it reverses.
+
+## [2026-09-10 22:09 UTC] buy | [LLM] $BUDDY at $2.887e-06, spent 0.05 SOL
+- **Reasoning:** $BUDDY — 'Claude Code AI Pet' with WatcherGuru tweet (large crypto account, 1M+ followers). AI agent + pet narrative is HOT in current meta. $2.9k mcap, very early. Best attention signal of the batch. Buy 0.05 SOL.
+
