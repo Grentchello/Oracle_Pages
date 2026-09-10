@@ -17581,3 +17581,6 @@
 ## [2026-09-10 02:04 UTC] sell | [PARTIAL][LLM] $ACAT at $2.85001e-06 | P&L: -7.9%
 - **Reasoning:** ACAT is down -7.9% on a tiny $12 pool where we own 38% — that's dangerously illiquid and we'll get crushed on exit. Flat in minutes with no bounce signal. Cut now and free the slot.
 
+## [2026-09-10 02:06 UTC] sell | [PARTIAL][LLM] $ACAT at $2.82814e-06 | P&L: -8.6%
+- **Reasoning:** ACAT is down -8.6% and we're 213% of a $1 pool — we ARE the liquidity. Any meaningful exit will crash it further. Cut the loss now, free the slot for fresh alpha. -8.6% is acceptable, illiquidity entrapment is not.
+

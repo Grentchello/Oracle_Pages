@@ -1,17 +1,17 @@
 {
-  "balance_sol": 2.037559,
+  "balance_sol": 2.057709,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "E7N5yJNRS1moJ1CVPzYXDEGFmVoNEzedQQ6V1R5KnhA6": {
       "symbol": "ACAT",
       "name": "alon cat",
-      "amount": 815743.9005545916,
+      "amount": 95558.64599429672,
       "entry_price_usd": 3.0950277388326457e-06,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.002928573720542999,
       "entry_time": "2026-09-10T02:03:24.884254+00:00",
       "entry_usd_value": 5.0495,
-      "last_seen_price_usd": 2.850006146754844e-06,
+      "last_seen_price_usd": 2.8281383109476002e-06,
       "entry_signals": {
         "liquidity_usd": 925.94668458052,
         "volume_24h_usd": null,
@@ -41456,19 +41456,30 @@
       "pnl_pct": -7.92,
       "exit_reason": "LLM: sell_all — ACAT is down -7.9% on a tiny $12 pool where we own 38% — that's dangerously illiquid and we'll get crushed on exit. Flat in minutes with no bounce sig",
       "partial": true
+    },
+    {
+      "mint": "E7N5yJNRS1moJ1CVPzYXDEGFmVoNEzedQQ6V1R5KnhA6",
+      "symbol": "ACAT",
+      "name": "alon cat",
+      "amount_sold": 720185.2545602948,
+      "fraction_sold": 0.8828570511782801,
+      "entry_time": "2026-09-10T02:03:24.884254+00:00",
+      "exit_time": "2026-09-10T02:06:39.116786+00:00",
+      "entry_price_usd": 3.0950277388326457e-06,
+      "exit_price_usd": 2.8281383109476002e-06,
+      "entry_sol_for_chunk": 0.022071,
+      "exit_sol_received": 0.02015,
+      "pnl_sol": -0.001921,
+      "pnl_pct": -8.62,
+      "exit_reason": "LLM: sell_all — ACAT is down -8.6% and we're 213% of a $1 pool — we ARE the liquidity. Any meaningful exit will crash it further. Cut the loss now, free the slot for ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T02:04:51.147298+00:00",
+  "last_updated": "2026-09-10T02:06:39.117496+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.12,
-  "portfolio_value_usd": 208.56,
+  "last_sol_price_usd": 101.081,
+  "portfolio_value_usd": 208.29,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 01:44 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-10 01:46 UTC",
       "action": "buy",
@@ -41582,40 +41593,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $ACAT at $2.85001e-06 | P&L: -7.9%",
       "reason": "ACAT is down -7.9% on a tiny $12 pool where we own 38% — that's dangerously illiquid and we'll get crushed on exit. Flat in minutes with no bounce signal. Cut now and free the slot."
+    },
+    {
+      "time": "2026-09-10 02:06 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $ACAT at $2.82814e-06 | P&L: -8.6%",
+      "reason": "ACAT is down -8.6% and we're 213% of a $1 pool — we ARE the liquidity. Any meaningful exit will crash it further. Cut the loss now, free the slot for fresh alpha. -8.6% is acceptable, illiquidity entrapment is not."
     }
   ],
   "trade_stats": {
-    "total": 2437,
+    "total": 2438,
     "wins": 1210,
-    "losses": 1227,
-    "win_rate_pct": 49.7,
-    "total_pnl_sol": -2.203752,
-    "avg_pnl_pct": 28.87,
+    "losses": 1228,
+    "win_rate_pct": 49.6,
+    "total_pnl_sol": -2.205673,
+    "avg_pnl_pct": 28.86,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 60,
-    "today_realized_sol": 0.481563,
-    "today_target_pct": 120.4,
+    "today_trades": 61,
+    "today_realized_sol": 0.479642,
+    "today_target_pct": 119.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1210,
-      "loss_count": 1227,
+      "loss_count": 1228,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T02:04:51.146113+00:00",
+  "last_llm_brief_at": "2026-09-10T02:06:39.116701+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "E7N5yJNRS1moJ1CVPzYXDEGFmVoNEzedQQ6V1R5KnhA6": {
-      "price_usd": 2.850006146754844e-06,
+      "price_usd": 2.8281383109476002e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 12.20375183744,
-      "volume_h24": 1210.03,
+      "liquidity_usd": 1.081012270715,
+      "volume_h24": 2161.22,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.120685837
+      "real_sol_reserves": 0.010694515
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
