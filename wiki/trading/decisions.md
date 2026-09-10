@@ -20770,3 +20770,9 @@
 ## [2026-09-10 23:06 UTC] buy | [LLM] $TRACE at $3.39437e-06, spent 0.05 SOL
 - **Reasoning:** $TRACE on Robinhood Chain — actual narrative hook (RHC is a new L1 getting attention), has twitter @trace_rhc and a real description, mcap $3.4k with 9% bond = genuine early launch with chain-attention catalyst. First non-spam candidate with a story.
 
+## [2026-09-10 23:07 UTC] sell | [FULL][LLM] $TRACE at $2.97182e-06 | P&L: -12.4%
+- **Reasoning:** Down -12.4%, bonding curve barely 36% complete with only $99 pool, age 0.0h. No viral signal or narrative strength to justify holding a fresh loss with the -25% hard cap lurking. Exit and free the slot for stronger launches.
+
+## [2026-09-10 23:07 UTC] buy | [LLM] $10M at $4.37341e-06, spent 0.05 SOL
+- **Reasoning:** Speedrun To 10 Million - meta-narrative token (literally about reaching $10M), tied to a KOL (daddyriskbets) with X post. Recursive attention play, $4.4k mcap gives massive upside if narrative catches. 0.05 SOL position.
+
