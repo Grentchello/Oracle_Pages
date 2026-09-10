@@ -19036,3 +19036,6 @@
 ## [2026-09-10 11:51 UTC] buy | [LLM] $IBM at $2.46605e-09, spent 0.05 SOL
 - **Reasoning:** $IBM 'Infinite Buyback Machine' has the strongest narrative of the batch — buyback mechanics give holders a 'price floor' story that pumps memecoins. 0.4min old, $5.9k mcap, has twitter. Risk: super fresh, bond only 14%, no liquidity proven yet — but that's where attention-launch alpha lives.
 
+## [2026-09-10 11:52 UTC] sell | [rapid-drop] $IBM crashed >15% in one tick | P&L: -29.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
