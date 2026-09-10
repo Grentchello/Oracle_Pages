@@ -20635,3 +20635,6 @@
 ## [2026-09-10 22:21 UTC] buy | [LLM] $Nvidia at $2.21163e-07, spent 0.05 SOL
 - **Reasoning:** $Nvidia — massive brand parody narrative, fresh launch at $4.8k mcap, the Nvidia AI hype is evergreen attention. Early entry before any curve migration. Risk: brand parody tokens can rug fast — tight stop enforced by bot.
 
+## [2026-09-10 22:22 UTC] sell | [rapid-drop] $Nvidia crashed >15% in one tick | P&L: -20.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
