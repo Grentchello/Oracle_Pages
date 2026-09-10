@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.092059,
+  "balance_sol": 9.141892,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Diu44eUyBRvRXxp6UbXDjVvK1VBoDaDZFRmPtiSkpump": {
-      "symbol": "EXTINCT",
-      "name": "EXTINCT",
-      "amount": 1782377.0211941816,
-      "entry_price_usd": 2.816744123325993e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T21:49:18.402001+00:00",
-      "entry_usd_value": 5.0205,
-      "last_seen_price_usd": 2.816744123325993e-06,
-      "entry_signals": {
-        "liquidity_usd": 24.66475748409,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2804.0864035524937,
-        "ath_market_cap_usd": 2804.0864035524937,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.245640449,
-        "description": "",
-        "twitter": "https://x.com/scottmelker/status/2098166583474508137",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50602,19 +50578,30 @@
       "pnl_pct": 0.01,
       "exit_reason": "LLM: sell_all — Position is flat at 0.0% with no momentum — bonding curve liquidity is only $1972, our share is 0%, and the narrative (frog) is generic. Fresh slate m",
       "partial": false
+    },
+    {
+      "mint": "Diu44eUyBRvRXxp6UbXDjVvK1VBoDaDZFRmPtiSkpump",
+      "symbol": "EXTINCT",
+      "name": "EXTINCT",
+      "amount_sold": 1782377.0033108483,
+      "fraction_sold": 0.9999999899665822,
+      "entry_time": "2026-09-10T21:49:18.402001+00:00",
+      "exit_time": "2026-09-10T21:50:49.016931+00:00",
+      "entry_price_usd": 2.816744123325993e-06,
+      "exit_price_usd": 2.791425908853383e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049833,
+      "pnl_sol": -0.000167,
+      "pnl_pct": -0.9,
+      "exit_reason": "LLM: sell_all — Just opened, -0.9% is noise on bonding curve. No reason to bail on a fresh position. Will reassess at the stale threshold.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T21:49:18.402237+00:00",
+  "last_updated": "2026-09-10T21:50:49.017121+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.41,
-  "portfolio_value_usd": 917.95,
+  "last_sol_price_usd": 99.84,
+  "portfolio_value_usd": 912.73,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 21:18 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Rocket crashed >15% in one tick | P&L: -49.4%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 21:18 UTC",
       "action": "buy",
@@ -50728,30 +50715,48 @@
       "action": "buy",
       "details": "[LLM] $EXTINCT at $2.81674e-06, spent 0.05 SOL",
       "reason": "$EXTINCT — Scott Melker (Wolf of All Streets, ~1M followers crypto KOL) posted about it within seconds of launch. Verified-influencer attention on a $2.8k mcap is exactly the pre-pump signal we want. Bond at 0% = ultra-fresh, asymmetric upside if it catches fire. Risk: Melker could be shilling for fee, but the timing is too clean to ignore."
+    },
+    {
+      "time": "2026-09-10 21:50 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $EXTINCT at $2.79143e-06 | P&L: -0.9%",
+      "reason": "Just opened, -0.9% is noise on bonding curve. No reason to bail on a fresh position. Will reassess at the stale threshold."
     }
   ],
   "trade_stats": {
-    "total": 2975,
+    "total": 2976,
     "wins": 1397,
-    "losses": 1578,
-    "win_rate_pct": 47.0,
-    "total_pnl_sol": 4.87587,
-    "avg_pnl_pct": 28.72,
+    "losses": 1579,
+    "win_rate_pct": 46.9,
+    "total_pnl_sol": 4.875703,
+    "avg_pnl_pct": 28.71,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 598,
-    "today_realized_sol": 7.561185,
+    "today_trades": 599,
+    "today_realized_sol": 7.561018,
     "today_target_pct": 1890.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1397,
-      "loss_count": 1578,
+      "loss_count": 1579,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T21:49:16.971984+00:00",
+  "last_llm_brief_at": "2026-09-10T21:50:49.015964+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Diu44eUyBRvRXxp6UbXDjVvK1VBoDaDZFRmPtiSkpump": {
+      "price_usd": 2.791425908853383e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.9968000000000003e-07,
+      "volume_h24": 49.13,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

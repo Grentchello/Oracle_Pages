@@ -20563,3 +20563,6 @@
 ## [2026-09-10 21:49 UTC] buy | [LLM] $EXTINCT at $2.81674e-06, spent 0.05 SOL
 - **Reasoning:** $EXTINCT — Scott Melker (Wolf of All Streets, ~1M followers crypto KOL) posted about it within seconds of launch. Verified-influencer attention on a $2.8k mcap is exactly the pre-pump signal we want. Bond at 0% = ultra-fresh, asymmetric upside if it catches fire. Risk: Melker could be shilling for fee, but the timing is too clean to ignore.
 
+## [2026-09-10 21:50 UTC] sell | [FULL][LLM] $EXTINCT at $2.79143e-06 | P&L: -0.9%
+- **Reasoning:** Just opened, -0.9% is noise on bonding curve. No reason to bail on a fresh position. Will reassess at the stale threshold.
+
