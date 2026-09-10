@@ -19879,3 +19879,9 @@
 ## [2026-09-10 17:46 UTC] buy | [LLM] $BCash at $3.1375e-06, spent 0.05 SOL
 - **Reasoning:** $BCash — Bitcoin-fork narrative riding BTC's strength; real X account posting it (Pr1ntrrr, timestamp matches launch); fresh 0.3min age with low mcap gives big upside if it catches the BTC narrative wave.
 
+## [2026-09-10 17:48 UTC] sell | [FULL][LLM] $BCash at $2.96422e-06 | P&L: -5.5%
+- **Reasoning:** Down 5.5% with weak derivative name, no clear viral narrative, and pool only $84. Capital rotation beats bag-holding a generic name.
+
+## [2026-09-10 17:48 UTC] buy | [LLM] $Midas at $8.37642e-06, spent 0.05 SOL
+- **Reasoning:** $Midas — 'from zero to hero go to 100k' is a clean narrative arc with self-fulfilling prophecy energy. Fresh (0.2min), $8.3k mcap, just enough liquidity for 0.05 SOL. Classic attention play.
+
