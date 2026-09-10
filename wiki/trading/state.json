@@ -1,8 +1,32 @@
 {
-  "balance_sol": 3.045861,
+  "balance_sol": 2.995861,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "8kVZGayqQKKcYwshTLD9AehB7F4kyY5i45FhMteLpump": {
+      "symbol": "GRND",
+      "name": "Grindr Inc",
+      "amount": 83465565.10179195,
+      "entry_price_usd": 6.084545158001893e-08,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T02:44:57.727011+00:00",
+      "entry_usd_value": 5.0785,
+      "last_seen_price_usd": 6.084545158001893e-08,
+      "entry_signals": {
+        "liquidity_usd": 5.078499999999999e-07,
+        "volume_24h_usd": null,
+        "market_cap_usd": 4597.138566671757,
+        "ath_market_cap_usd": 5033.896075420163,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 5e-09,
+        "description": "",
+        "twitter": "https://x.com/a1lon9/status/1939833226106921121",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -41723,17 +41747,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T02:43:28.068007+00:00",
+  "last_updated": "2026-09-10T02:44:57.727285+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.54,
-  "portfolio_value_usd": 309.28,
+  "last_sol_price_usd": 101.57,
+  "portfolio_value_usd": 309.37,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 02:23 UTC",
-      "action": "buy",
-      "details": "[LLM] $SOUP at $2.9e-06, spent 0.05 SOL",
-      "reason": "$SOUP rides real OpenAI news cycle ($7B chips, servers 'melting down', 'i am just a soup' reply = viral absurdist meme). Has twitter + substantive desc (passes viability), no fragility flags, mcap $2.9k at 0.8min = very early attention entry. Absurdist AI-fail memes print hard on X — this has the narrative + the post. Risk: tiny mcap + 0% bond = rug-prone, hence 0.05 SOL size and tight -25% hard stop."
-    },
     {
       "time": "2026-09-10 02:24 UTC",
       "action": "sell",
@@ -41847,6 +41865,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $Joe at $3.66133e-08 | P&L: +3.1%",
       "reason": "+3.1% fresh entry, just launched. Bonding curve only at 12% share, mcap tiny. Give it room to pump — no reason to exit at near-breakeven on a 0h-old position."
+    },
+    {
+      "time": "2026-09-10 02:44 UTC",
+      "action": "buy",
+      "details": "[LLM] $GRND at $6.08455e-08, spent 0.05 SOL",
+      "reason": "$GRND 'Grindr Inc' — brand-troll on a known mainstream name, 6% bond, brand-name recognition gives viral lift potential. Brand-trolls are the most replicated attention pattern. Risk: extremely fresh, low liquidity, will likely get flagged. Sizing in."
     }
   ],
   "trade_stats": {
@@ -41868,21 +41892,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T02:43:28.066716+00:00",
+  "last_llm_brief_at": "2026-09-10T02:44:56.207050+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "Cc8erso34cAWQFARwMPePScAcneAx1rySxzbeE8ppump": {
-      "price_usd": 3.661325863770296e-08,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1.10450561468,
-      "volume_h24": 0.0,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.010877542
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

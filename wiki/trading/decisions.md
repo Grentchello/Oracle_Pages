@@ -17677,3 +17677,6 @@
 ## [2026-09-10 02:43 UTC] sell | [FULL][LLM] $Joe at $3.66133e-08 | P&L: +3.1%
 - **Reasoning:** +3.1% fresh entry, just launched. Bonding curve only at 12% share, mcap tiny. Give it room to pump — no reason to exit at near-breakeven on a 0h-old position.
 
+## [2026-09-10 02:44 UTC] buy | [LLM] $GRND at $6.08455e-08, spent 0.05 SOL
+- **Reasoning:** $GRND 'Grindr Inc' — brand-troll on a known mainstream name, 6% bond, brand-name recognition gives viral lift potential. Brand-trolls are the most replicated attention pattern. Risk: extremely fresh, low liquidity, will likely get flagged. Sizing in.
+
