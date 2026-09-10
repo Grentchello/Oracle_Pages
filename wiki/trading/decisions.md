@@ -20233,3 +20233,9 @@
 ## [2026-09-10 19:34 UTC] buy | [LLM] $ASTRA at $2.839e-06, spent 0.05 SOL
 - **Reasoning:** Toly (Solana cofounder) posted about $ASTRA — that's the highest-quality attention signal in this batch. $2.8k mcap is the asymmetric entry point; this kind of insider tweet is what drives 50-300% first-hour pumps. Risk: thin liquidity (bond 1%), and $ASTRA appears twice (second mint 41PJi2VJyz13Lfhabm9pceXHcoRZ86WvDziMjapg9dPx) suggesting copycats — take the one with the original Toly timestamp.
 
+## [2026-09-10 19:35 UTC] sell | [FULL][LLM] $ASTRA at $2.84099e-06 | P&L: +0.1%
+- **Reasoning:** Flat at +0.1% with no narrative catalyst visible — rotating capital into $GDENG which has a stronger Moo Deng viral-extension story.
+
+## [2026-09-10 19:35 UTC] buy | [LLM] $GDENG at $3.457e-06, spent 0.05 SOL
+- **Reasoning:** $GDENG — Moo Deng was a real viral moment (baby pygmy hippo), 'legendary grandpa from 1963' is a recognizable narrative hook at $3.4k mcap <1min old. Passes viability gate (twitter + desc). High rug risk at this stage but asymmetric attention play.
+
