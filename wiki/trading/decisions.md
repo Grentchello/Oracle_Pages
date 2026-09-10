@@ -18991,3 +18991,6 @@
 ## [2026-09-10 11:33 UTC] sell | [FULL][LLM] $BOTRIOT at $2.86319e-06 | P&L: +0.7%
 - **Reasoning:** +0.7% and just opened (0.0h). No reason to exit at break-even on a fresh bonding-curve position — let it develop. Not stale yet.
 
+## [2026-09-10 11:34 UTC] buy | [LLM] $UGUY at $2.96107e-06, spent 0.05 SOL
+- **Reasoning:** $UGUY is the only candidate passing the viability gate (description 87 chars + KOL twitter @theunipcs, a known crypto influencer). Self-deprecating 'useless guy' narrative has viral meme potential. Fresh launch (0.4min), mcap $2.9k is small enough for multi-x upside. Other fresh launches ($MM, $RWA, $LOL, $Bob, $GTA) all fail viability with descriptions <50 chars. $HALH blocked by celebrity fragility gate (Haaland).
+
