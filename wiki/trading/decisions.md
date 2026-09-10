@@ -18361,3 +18361,6 @@
 ## [2026-09-10 06:52 UTC] buy | [LLM] $Harambe at $2.68855e-09, spent 0.05 SOL
 - **Reasoning:** $Harambe — viral gorilla meme with confirmed TMZ-tier X attention, narrative brand recognition pumps 5-10x routinely. Fresh launch at ~$3.9k mcap, classic attention play.
 
+## [2026-09-10 06:53 UTC] sell | [FULL][LLM] $Harambe at $2.68781e-09 | P&L: -0.0%
+- **Reasoning:** Pool=$0 means no exit liquidity exists — forced to hold. Position is flat at 0%, 0.0h held, so stale-exit gate not yet triggered. Will reassess next tick if liquidity appears or bot auto-closes at 30min.
+

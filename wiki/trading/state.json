@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.263445,
+  "balance_sol": 4.313428,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6b2tkZySj99hPMrzhLStNh1mRWJWkAvvSnKy1fo3EbVU": {
-      "symbol": "Harambe",
-      "name": "Harambe",
-      "amount": 1898796075.9264705,
-      "entry_price_usd": 2.6885456867763653e-09,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T06:52:12.575574+00:00",
-      "entry_usd_value": 5.105,
-      "last_seen_price_usd": 2.6885456867763653e-09,
-      "entry_signals": {
-        "liquidity_usd": 0.006839168499999999,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3876.5224252996823,
-        "ath_market_cap_usd": 3876.5224252996823,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 6.6985e-05,
-        "description": "",
-        "twitter": "https://x.com/TMZ/status/1112421056508092416",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -43887,19 +43863,30 @@
       "pnl_pct": -15.64,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "6b2tkZySj99hPMrzhLStNh1mRWJWkAvvSnKy1fo3EbVU",
+      "symbol": "Harambe",
+      "name": "Harambe",
+      "amount_sold": 1898160121.6507409,
+      "fraction_sold": 0.999665075,
+      "entry_time": "2026-09-10T06:52:12.575574+00:00",
+      "exit_time": "2026-09-10T06:53:49.117089+00:00",
+      "entry_price_usd": 2.6885456867763653e-09,
+      "exit_price_usd": 2.6878083774793063e-09,
+      "entry_sol_for_chunk": 0.049983,
+      "exit_sol_received": 0.049983,
+      "pnl_sol": -0.0,
+      "pnl_pct": -0.03,
+      "exit_reason": "LLM: sell_all — Pool=$0 means no exit liquidity exists — forced to hold. Position is flat at 0%, 0.0h held, so stale-exit gate not yet triggered. Will reassess next t",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T06:52:12.575867+00:00",
+  "last_updated": "2026-09-10T06:53:49.117294+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.1,
-  "portfolio_value_usd": 440.4,
+  "last_sol_price_usd": 102.072,
+  "portfolio_value_usd": 440.28,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 06:29 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PUMPSEEK at $7.71509e-09 | P&L: -99.1%",
-      "reason": "Position is -99.1%, effectively dead. The hard stop should have triggered but since it's still held, dump immediately to free the slot and stop the bleed. No bounce signal visible."
-    },
     {
       "time": "2026-09-10 06:29 UTC",
       "action": "buy",
@@ -44013,30 +44000,48 @@
       "action": "buy",
       "details": "[LLM] $Harambe at $2.68855e-09, spent 0.05 SOL",
       "reason": "$Harambe — viral gorilla meme with confirmed TMZ-tier X attention, narrative brand recognition pumps 5-10x routinely. Fresh launch at ~$3.9k mcap, classic attention play."
+    },
+    {
+      "time": "2026-09-10 06:53 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Harambe at $2.68781e-09 | P&L: -0.0%",
+      "reason": "Pool=$0 means no exit liquidity exists — forced to hold. Position is flat at 0%, 0.0h held, so stale-exit gate not yet triggered. Will reassess next tick if liquidity appears or bot auto-closes at 30min."
     }
   ],
   "trade_stats": {
-    "total": 2580,
+    "total": 2581,
     "wins": 1257,
-    "losses": 1323,
+    "losses": 1324,
     "win_rate_pct": 48.7,
     "total_pnl_sol": 0.047135,
-    "avg_pnl_pct": 29.1,
+    "avg_pnl_pct": 29.09,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 203,
+    "today_trades": 204,
     "today_realized_sol": 2.73245,
     "today_target_pct": 683.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1257,
-      "loss_count": 1323,
+      "loss_count": 1324,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T06:52:10.953005+00:00",
+  "last_llm_brief_at": "2026-09-10T06:53:49.116562+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "6b2tkZySj99hPMrzhLStNh1mRWJWkAvvSnKy1fo3EbVU": {
+      "price_usd": 2.6878083774793063e-09,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.00683729292,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 6.6985e-05
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
