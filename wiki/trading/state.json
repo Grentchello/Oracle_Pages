@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.538252,
+  "balance_sol": 4.587979,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "5WxNMGpo1EuozA4KCosPBymtQKSSAbefiJAes51Vxycm": {
       "symbol": "60P",
       "name": "69 000 Powerwall",
-      "amount": 1787289.915966387,
+      "amount": 8820.84791803458,
       "entry_price_usd": 2.856e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.0002467660069929156,
       "entry_time": "2026-09-10T04:41:42.872784+00:00",
       "entry_usd_value": 5.104500000000001,
-      "last_seen_price_usd": 2.856e-06,
+      "last_seen_price_usd": 2.8545213766830046e-06,
       "entry_signals": {
         "liquidity_usd": 1.8157233284400003,
         "volume_24h_usd": 1.71,
@@ -42782,19 +42782,30 @@
       "pnl_pct": -66.53,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "5WxNMGpo1EuozA4KCosPBymtQKSSAbefiJAes51Vxycm",
+      "symbol": "60P",
+      "name": "69 000 Powerwall",
+      "amount_sold": 1778469.0680483524,
+      "fraction_sold": 0.9950646798601417,
+      "entry_time": "2026-09-10T04:41:42.872784+00:00",
+      "exit_time": "2026-09-10T04:43:11.010480+00:00",
+      "entry_price_usd": 2.856e-06,
+      "exit_price_usd": 2.8545213766830046e-06,
+      "entry_sol_for_chunk": 0.049753,
+      "exit_sol_received": 0.049727,
+      "pnl_sol": -2.6e-05,
+      "pnl_pct": -0.05,
+      "exit_reason": "LLM: sell_all — 5066% share means we are the entire liquidity — any real exit will crash through us. Better to cut at -0.1% now than become exit liquidity for the nex",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T04:41:42.873126+00:00",
+  "last_updated": "2026-09-10T04:43:11.010720+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 102.09,
   "portfolio_value_usd": 468.41,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 04:25 UTC",
-      "action": "buy",
-      "details": "[LLM] $cap at $2.59441e-06, spent 0.05 SOL",
-      "reason": "$cap 'dog wif cap' is a direct dogwifhat meta-narrative (WIF did 1000x), explicit 'redemption run-back' framing is viral fuel, 70+ char desc passes viability gate, 10% bond with ~0.1min age means very fresh attention window. Risk: sub-$3k mcap, thin liquidity, narrative could fail to catch. Sizing 0.1 SOL as instructed."
-    },
     {
       "time": "2026-09-10 04:26 UTC",
       "action": "sell",
@@ -42908,40 +42919,46 @@
       "action": "buy",
       "details": "[LLM] $60P at $2.856e-06, spent 0.05 SOL",
       "reason": "$60P passes viability gate (real desc + Tesla twitter) and fragility gate (no blocked keywords). Narrative is strong: Tesla Energy tweet about 69,000 Powerwalls dispatching 500MW to the California grid — concrete numbers + Elon-aligned attention. Mcap $2.8k, age <1min = earliest entry. Risk: thin liquidity at this size; will auto-stop at -25%."
+    },
+    {
+      "time": "2026-09-10 04:43 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $60P at $2.85452e-06 | P&L: -0.1%",
+      "reason": "5066% share means we are the entire liquidity — any real exit will crash through us. Better to cut at -0.1% now than become exit liquidity for the next buyer. Free the slot to rotate."
     }
   ],
   "trade_stats": {
-    "total": 2515,
+    "total": 2516,
     "wins": 1237,
-    "losses": 1278,
+    "losses": 1279,
     "win_rate_pct": 49.2,
-    "total_pnl_sol": 0.321942,
-    "avg_pnl_pct": 30.04,
+    "total_pnl_sol": 0.321916,
+    "avg_pnl_pct": 30.03,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 138,
-    "today_realized_sol": 3.007257,
+    "today_trades": 139,
+    "today_realized_sol": 3.007231,
     "today_target_pct": 751.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1237,
-      "loss_count": 1278,
+      "loss_count": 1279,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T04:41:41.462711+00:00",
+  "last_llm_brief_at": "2026-09-10T04:43:11.010305+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "vxcVyQemY8T1NQbRLXo9HvW5TxoJ7zx4kwbCE4Dpump": {
-      "price_usd": 2.8555818994475213e-06,
+    "5WxNMGpo1EuozA4KCosPBymtQKSSAbefiJAes51Vxycm": {
+      "price_usd": 2.8545213766830046e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.66962086707,
-      "volume_h24": 15989.67,
+      "liquidity_usd": 0.10071719577,
+      "volume_h24": 1.81,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.006559123
+      "real_sol_reserves": 0.000986553
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

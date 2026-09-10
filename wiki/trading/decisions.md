@@ -18010,3 +18010,6 @@
 ## [2026-09-10 04:41 UTC] buy | [LLM] $60P at $2.856e-06, spent 0.05 SOL
 - **Reasoning:** $60P passes viability gate (real desc + Tesla twitter) and fragility gate (no blocked keywords). Narrative is strong: Tesla Energy tweet about 69,000 Powerwalls dispatching 500MW to the California grid — concrete numbers + Elon-aligned attention. Mcap $2.8k, age <1min = earliest entry. Risk: thin liquidity at this size; will auto-stop at -25%.
 
+## [2026-09-10 04:43 UTC] sell | [PARTIAL][LLM] $60P at $2.85452e-06 | P&L: -0.1%
+- **Reasoning:** 5066% share means we are the entire liquidity — any real exit will crash through us. Better to cut at -0.1% now than become exit liquidity for the next buyer. Free the slot to rotate.
+
