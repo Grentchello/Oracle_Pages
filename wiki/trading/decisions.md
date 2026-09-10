@@ -17770,3 +17770,6 @@
 ## [2026-09-10 03:12 UTC] buy | [LLM] $LMI at $1.15056e-09, spent 0.05 SOL
 - **Reasoning:** $LMI 'Lockheed Martin Inu' — defense/defense-stock parody is a timely narrative (LMT hot, gov contracts memeable). Real X account @LMIonPF, $6k mcap with 16% bond filled,<1min old. Low entry, clear story, viral potential if the account posts.
 
+## [2026-09-10 03:13 UTC] sell | [PARTIAL][LLM] $LMI at $1.23853e-09 | P&L: +7.7%
+- **Reasoning:** Up only +7.6%, held 0.0h, not at any TP threshold, not stale. Wait for the bonding curve to push it further or for the +30% auto TP to kick in.
+
