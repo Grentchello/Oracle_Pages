@@ -20497,3 +20497,6 @@
 ## [2026-09-10 21:12 UTC] buy | [LLM] $WENDY at $3.066e-06, spent 0.05 SOL
 - **Reasoning:** $WENDY 'Justice for Wendy' — viral narrative token tied to a real X post, $3k mcap with clear story arc, freshness and emotional hook typical of early pump candidates.
 
+## [2026-09-10 21:13 UTC] sell | [FULL][LLM] $WENDY at $2.84948e-06 | P&L: -7.1%
+- **Reasoning:** Down -7.1% with our position at 17% of a $28 pool = textbook liquidity trap. No bounce signal, no narrative revival. Exiting fast per loser rule before this drifts toward -25% hard stop.
+
