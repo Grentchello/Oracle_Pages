@@ -20560,3 +20560,6 @@
 ## [2026-09-10 21:45 UTC] sell | [FULL][LLM] $SOLANAFROG at $7.67535e-06 | P&L: +0.0%
 - **Reasoning:** Position is flat at 0.0% with no momentum — bonding curve liquidity is only $1972, our share is 0%, and the narrative (frog) is generic. Fresh slate means I should rotate into stronger attention signals rather than babysit a dead entry.
 
+## [2026-09-10 21:49 UTC] buy | [LLM] $EXTINCT at $2.81674e-06, spent 0.05 SOL
+- **Reasoning:** $EXTINCT — Scott Melker (Wolf of All Streets, ~1M followers crypto KOL) posted about it within seconds of launch. Verified-influencer attention on a $2.8k mcap is exactly the pre-pump signal we want. Bond at 0% = ultra-fresh, asymmetric upside if it catches fire. Risk: Melker could be shilling for fee, but the timing is too clean to ignore.
+
