@@ -19888,3 +19888,6 @@
 ## [2026-09-10 17:49 UTC] sell | [PARTIAL][LLM] $Midas at $8.38041e-06 | P&L: +0.1%
 - **Reasoning:** Just entered, 0h held, flat. 690% pool share means I'm the dominant holder — exiting now would crash the price back to me. Give it a few minutes to see if the bonding curve pumps. If still flat at 15min, exit as stale.
 
+## [2026-09-10 17:50 UTC] sell | [FULL][LLM] $Midas at $8.38875e-06 | P&L: +0.1%
+- **Reasoning:** $Midas just entered 0.0h ago at +0.1% — no signal yet. Stale exit doesn't trigger until >30min flat. Give it room to develop.
+

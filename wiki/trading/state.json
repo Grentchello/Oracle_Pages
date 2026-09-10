@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.215115,
+  "balance_sol": 4.216925,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HBAQ7vnarAdBUJApiZSRVHWkDRcouXXVoSHpW2nMpump": {
-      "symbol": "Midas",
-      "name": "hand of Midas",
-      "amount": 21699.425849734307,
-      "entry_price_usd": 8.376422489320947e-06,
-      "entry_sol_spent": 0.0018111155708755156,
-      "entry_time": "2026-09-10T17:48:03.320283+00:00",
-      "entry_usd_value": 5.018000000000001,
-      "last_seen_price_usd": 8.38041000989094e-06,
-      "entry_signals": {
-        "liquidity_usd": 0.9226585560399999,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8343.036987171401,
-        "ath_market_cap_usd": 9449.450186449712,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.009193489,
-        "description": "from zero to hero one time go to the 100k",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -48579,19 +48555,30 @@
       "pnl_pct": 0.05,
       "exit_reason": "LLM: sell_all — Just entered, 0h held, flat. 690% pool share means I'm the dominant holder — exiting now would crash the price back to me. Give it a few minutes to se",
       "partial": true
+    },
+    {
+      "mint": "HBAQ7vnarAdBUJApiZSRVHWkDRcouXXVoSHpW2nMpump",
+      "symbol": "Midas",
+      "name": "hand of Midas",
+      "amount_sold": 21699.425849734307,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T17:48:03.320283+00:00",
+      "exit_time": "2026-09-10T17:50:58.080546+00:00",
+      "entry_price_usd": 8.376422489320947e-06,
+      "exit_price_usd": 8.388750386095051e-06,
+      "entry_sol_for_chunk": 0.001811,
+      "exit_sol_received": 0.00181,
+      "pnl_sol": -1e-06,
+      "pnl_pct": 0.15,
+      "exit_reason": "LLM: sell_all — $Midas just entered 0.0h ago at +0.1% — no signal yet. Stale exit doesn't trigger until >30min flat. Give it room to develop.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T17:49:21.836106+00:00",
+  "last_updated": "2026-09-10T17:50:58.080746+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.48,
-  "portfolio_value_usd": 423.72,
+  "last_sol_price_usd": 100.58,
+  "portfolio_value_usd": 424.14,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 17:23 UTC",
-      "action": "buy",
-      "details": "[LLM] $Solana Sum at $2.843e-06, spent 0.05 SOL",
-      "reason": "Toly (Solana co-founder) posted about it — rare top-tier catalyst that historically drives 2-10x pumps in first hour. Mcap $2,850 + 1% bond = thin but the narrative is the strongest in this batch. $5 position (0.05 SOL) caps downside; if it doesn't move in 15 min, exit as stale."
-    },
     {
       "time": "2026-09-10 17:24 UTC",
       "action": "sell",
@@ -48705,36 +48692,42 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Midas at $8.38041e-06 | P&L: +0.1%",
       "reason": "Just entered, 0h held, flat. 690% pool share means I'm the dominant holder — exiting now would crash the price back to me. Give it a few minutes to see if the bonding curve pumps. If still flat at 15min, exit as stale."
+    },
+    {
+      "time": "2026-09-10 17:50 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Midas at $8.38875e-06 | P&L: +0.1%",
+      "reason": "$Midas just entered 0.0h ago at +0.1% — no signal yet. Stale exit doesn't trigger until >30min flat. Give it room to develop."
     }
   ],
   "trade_stats": {
-    "total": 2856,
+    "total": 2857,
     "wins": 1361,
-    "losses": 1495,
-    "win_rate_pct": 47.7,
-    "total_pnl_sol": -0.049267,
-    "avg_pnl_pct": 26.47,
+    "losses": 1496,
+    "win_rate_pct": 47.6,
+    "total_pnl_sol": -0.049268,
+    "avg_pnl_pct": 26.46,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 479,
-    "today_realized_sol": 2.636048,
+    "today_trades": 480,
+    "today_realized_sol": 2.636047,
     "today_target_pct": 659.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1361,
-      "loss_count": 1495,
+      "loss_count": 1496,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T17:49:21.835683+00:00",
+  "last_llm_brief_at": "2026-09-10T17:50:58.080464+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "HBAQ7vnarAdBUJApiZSRVHWkDRcouXXVoSHpW2nMpump": {
-      "price_usd": 8.38041000989094e-06,
+      "price_usd": 8.388750386095051e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.7274003424000001,
-      "volume_h24": 95.12,
+      "liquidity_usd": 0.7281242679,
+      "volume_h24": 95.32,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
