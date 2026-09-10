@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.253342,
+  "balance_sol": 4.278896,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "6C4M7PNVRiDg5Yu8uimteCRcts8SqZWiWA5WyxVLpump": {
       "symbol": "Catbot",
       "name": "Catbot",
-      "amount": 1764317.9451579314,
+      "amount": 856172.7485990603,
       "entry_price_usd": 2.881e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.02426356176189153,
       "entry_time": "2026-09-10T06:39:03.675039+00:00",
       "entry_usd_value": 5.083,
-      "last_seen_price_usd": 2.881e-06,
+      "last_seen_price_usd": 2.86200789254797e-06,
       "entry_signals": {
         "liquidity_usd": 10.800723461059999,
         "volume_24h_usd": 2068.41,
@@ -43768,19 +43768,30 @@
       "pnl_pct": -15.26,
       "exit_reason": "LLM: sell_all — Down 15.3% in 6 min on a bonding-curve token with pool=$0 — liquidity has already evaporated, this is effectively dead. Better to lock the loss now at",
       "partial": false
+    },
+    {
+      "mint": "6C4M7PNVRiDg5Yu8uimteCRcts8SqZWiWA5WyxVLpump",
+      "symbol": "Catbot",
+      "name": "Catbot",
+      "amount_sold": 908145.1965588711,
+      "fraction_sold": 0.5147287647621694,
+      "entry_time": "2026-09-10T06:39:03.675039+00:00",
+      "exit_time": "2026-09-10T06:40:42.310953+00:00",
+      "entry_price_usd": 2.881e-06,
+      "exit_price_usd": 2.86200789254797e-06,
+      "entry_sol_for_chunk": 0.025736,
+      "exit_sol_received": 0.025554,
+      "pnl_sol": -0.000182,
+      "pnl_pct": -0.66,
+      "exit_reason": "LLM: sell_all — We own 52% of a $10 pool — we ARE the market. Any delay risks being the last one out with a dead pool. Loss is only -0.7%, cut it and redeploy the slo",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T06:39:03.675205+00:00",
+  "last_updated": "2026-09-10T06:40:42.311148+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.66,
-  "portfolio_value_usd": 437.48,
+  "last_sol_price_usd": 101.71,
+  "portfolio_value_usd": 437.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 06:16 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MARVIN at $1.74061e-05 | P&L: +12.9%",
-      "reason": "MARVIN is +13% in <1min on bonding curve, trending in the right direction. Pool is thin ($4498) so size is small, but no reason to exit a winning position prematurely. Will reassess if it stalls or if a stronger narrative emerges that justifies rotation."
-    },
     {
       "time": "2026-09-10 06:17 UTC",
       "action": "buy",
@@ -43894,30 +43905,48 @@
       "action": "buy",
       "details": "[LLM] $Catbot at $2.881e-06, spent 0.05 SOL",
       "reason": "$Catbot: has twitter (@imcatbot), real description ('the first autonomous ai catbot. like a chatbot but a catbot'), mcap ~$2.9k. AI + cats is a known attention combo, narrative is concrete and memeable. Position 0.1 SOL."
+    },
+    {
+      "time": "2026-09-10 06:40 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Catbot at $2.86201e-06 | P&L: -0.7%",
+      "reason": "We own 52% of a $10 pool — we ARE the market. Any delay risks being the last one out with a dead pool. Loss is only -0.7%, cut it and redeploy the slot into fresher attention with real liquidity and a stronger narrative."
     }
   ],
   "trade_stats": {
-    "total": 2573,
+    "total": 2574,
     "wins": 1255,
-    "losses": 1318,
+    "losses": 1319,
     "win_rate_pct": 48.8,
-    "total_pnl_sol": 0.037032,
-    "avg_pnl_pct": 29.15,
+    "total_pnl_sol": 0.03685,
+    "avg_pnl_pct": 29.14,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 196,
-    "today_realized_sol": 2.722347,
-    "today_target_pct": 680.6,
+    "today_trades": 197,
+    "today_realized_sol": 2.722165,
+    "today_target_pct": 680.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1255,
-      "loss_count": 1318,
+      "loss_count": 1319,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T06:39:02.313129+00:00",
+  "last_llm_brief_at": "2026-09-10T06:40:42.310001+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "6C4M7PNVRiDg5Yu8uimteCRcts8SqZWiWA5WyxVLpump": {
+      "price_usd": 2.86200789254797e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 9.801492655499999,
+      "volume_h24": 2080.48,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.09636705
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
