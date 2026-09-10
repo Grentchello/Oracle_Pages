@@ -1,17 +1,17 @@
 {
-  "balance_sol": 1.542782,
+  "balance_sol": 1.566209,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "Be94qaeKAiZfm6adAozRV4iVKSjYSxafV2N6a8rDpump": {
       "symbol": "NORMIE",
       "name": "Normie",
-      "amount": 1664668.0647471705,
+      "amount": 832334.0323735853,
       "entry_price_usd": 3.0396450242280055e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T00:35:55.863093+00:00",
       "entry_usd_value": 5.0600000000000005,
-      "last_seen_price_usd": 3.0396450242280055e-06,
+      "last_seen_price_usd": 2.852848669312701e-06,
       "entry_signals": {
         "liquidity_usd": 110.7495518932,
         "volume_24h_usd": null,
@@ -40691,19 +40691,30 @@
       "pnl_pct": 77.76,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "Be94qaeKAiZfm6adAozRV4iVKSjYSxafV2N6a8rDpump",
+      "symbol": "NORMIE",
+      "name": "Normie",
+      "amount_sold": 832334.0323735853,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T00:35:55.863093+00:00",
+      "exit_time": "2026-09-10T00:37:25.686631+00:00",
+      "entry_price_usd": 3.0396450242280055e-06,
+      "exit_price_usd": 2.852848669312701e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.023427,
+      "pnl_sol": -0.001573,
+      "pnl_pct": -6.15,
+      "exit_reason": "LLM: sell_all — Owning 47% of a $10 pool at -6.1% means I AM the exit liquidity — any other seller will crash through me. Cut now, redeploy into fresher attention.",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T00:35:55.863255+00:00",
+  "last_updated": "2026-09-10T00:37:25.687282+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.2,
-  "portfolio_value_usd": 161.19,
+  "last_sol_price_usd": 101.36,
+  "portfolio_value_usd": 161.28,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 00:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $TESLA CAT at $3.06301e-06 | P&L: +1.2%",
-      "reason": "Just entered, +1.2%, no negative signal. Give it time to develop before rotating capital into something else."
-    },
     {
       "time": "2026-09-10 00:15 UTC",
       "action": "buy",
@@ -40817,40 +40828,46 @@
       "action": "buy",
       "details": "[LLM] $NORMIE at $3.03965e-06, spent 0.05 SOL",
       "reason": "$NORMIE passes viability gate (desc ~140 chars + dedicated @Normie_pumpfun twitter) and clears fragility filters. The 'stop aping into rugs, be a normie / paired with SPY' angle is CT-native self-aware humor — exactly the meme-voice that catches second-hand attention. 3% bond is low so plenty of room if it catches; risk is the contrarian-meta angle flops as a forced gimmick. Sizing at 0.05 SOL per current bot rule to preserve bankroll while still taking the first signal of this fresh slate."
+    },
+    {
+      "time": "2026-09-10 00:37 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $NORMIE at $2.85285e-06 | P&L: -6.2%",
+      "reason": "Owning 47% of a $10 pool at -6.1% means I AM the exit liquidity — any other seller will crash through me. Cut now, redeploy into fresher attention."
     }
   ],
   "trade_stats": {
-    "total": 2392,
+    "total": 2393,
     "wins": 1199,
-    "losses": 1193,
+    "losses": 1194,
     "win_rate_pct": 50.1,
-    "total_pnl_sol": -2.673528,
-    "avg_pnl_pct": 29.04,
+    "total_pnl_sol": -2.675101,
+    "avg_pnl_pct": 29.02,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 15,
-    "today_realized_sol": 0.011787,
-    "today_target_pct": 2.9,
+    "today_trades": 16,
+    "today_realized_sol": 0.010214,
+    "today_target_pct": 2.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1199,
-      "loss_count": 1193,
+      "loss_count": 1194,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T00:35:54.520568+00:00",
+  "last_llm_brief_at": "2026-09-10T00:37:25.686080+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "BhEdveYykADnP9hCwVk1MKgFtZwf6iuUdVQZADuFpump": {
-      "price_usd": 1.2164913905870312e-07,
+    "Be94qaeKAiZfm6adAozRV4iVKSjYSxafV2N6a8rDpump": {
+      "price_usd": 2.852848669312701e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 29.4050421896,
-      "volume_h24": 0.0,
+      "liquidity_usd": 10.13641648824,
+      "volume_h24": 211.49,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.290563658
+      "real_sol_reserves": 0.100004109
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

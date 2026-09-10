@@ -17326,3 +17326,6 @@
 ## [2026-09-10 00:35 UTC] buy | [LLM] $NORMIE at $3.03965e-06, spent 0.05 SOL
 - **Reasoning:** $NORMIE passes viability gate (desc ~140 chars + dedicated @Normie_pumpfun twitter) and clears fragility filters. The 'stop aping into rugs, be a normie / paired with SPY' angle is CT-native self-aware humor — exactly the meme-voice that catches second-hand attention. 3% bond is low so plenty of room if it catches; risk is the contrarian-meta angle flops as a forced gimmick. Sizing at 0.05 SOL per current bot rule to preserve bankroll while still taking the first signal of this fresh slate.
 
+## [2026-09-10 00:37 UTC] sell | [PARTIAL][LLM] $NORMIE at $2.85285e-06 | P&L: -6.2%
+- **Reasoning:** Owning 47% of a $10 pool at -6.1% means I AM the exit liquidity — any other seller will crash through me. Cut now, redeploy into fresher attention.
+
