@@ -19390,3 +19390,6 @@
 ## [2026-09-10 14:21 UTC] sell | [v8.7 TP +50% (full)] $PLUSHY at $1.38191e-05 | P&L: +71.6%
 - **Reasoning:** Auto take-profit at +71.6%
 
+## [2026-09-10 14:22 UTC] buy | [LLM] $CABAL at $2.84e-06, spent 0.05 SOL
+- **Reasoning:** $CABAL has the cleanest narrative of the batch — 'cabal is the word every trench already uses, no runner yet' is a textbook attention-gap thesis. Active X account (kumar1_88), mcap $2.8k with1% bond, age<1min = still in price discovery. Risk: micro-cap, may not get organic traction beyond the poster. Position: 0.05 SOL.
+
