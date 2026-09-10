@@ -20545,3 +20545,9 @@
 ## [2026-09-10 21:41 UTC] sell | [PARTIAL][LLM] $SPSN at $8.56053e-08 | P&L: +2.4%
 - **Reasoning:** South Park narrative is live (recent episode controversy), only held 0.0h at +2.4% — too early to bail. Pool is thin ($14) but that's because we're 36% of it, not because demand is dead. Give it 10-15 more min before re-evaluating.
 
+## [2026-09-10 21:42 UTC] sell | [rapid-drop] $SPSN crashed >15% in one tick | P&L: -15.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 21:42 UTC] buy | [LLM] $MARIO at $6.6925e-06, spent 0.05 SOL
+- **Reasoning:** MARIO - SuperMarioBrosCoin on pump.fun, fresh launch ~0.2min, mc $6.6k with active X callout (PUPinTrenches). Mario is a globally recognized IP with instant recognition and viral meme potential. Bond at 26% with growing mcap suggests early momentum - classic low-mc attention play.
+
