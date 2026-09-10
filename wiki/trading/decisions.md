@@ -20491,3 +20491,6 @@
 ## [2026-09-10 21:09 UTC] sell | [PARTIAL][LLM] $KERMIT at $2.79938e-06 | P&L: -2.3%
 - **Reasoning:** Only -2.3% and just opened (0.0h). The 283% pool share is alarming - pool is only $2 making this effectively illiquid - but exiting now locks in a small loss with no recovery chance. Letting the bot's -25% hard stop manage downside while giving it a few minutes to develop.
 
+## [2026-09-10 21:10 UTC] sell | [FULL][LLM] $KERMIT at $2.99914e-06 | P&L: +4.7%
+- **Reasoning:** Just opened (0.0h), +4.7% green, give it room to develop. KERMIT has Kermit the Frog recognition — strong IP narrative. Will reassess at +20% or -20%.
+
