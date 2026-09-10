@@ -17725,3 +17725,9 @@
 ## [2026-09-10 02:58 UTC] buy | [LLM] $Unitslob at $4.74482e-06, spent 0.05 SOL
 - **Reasoning:** 100 SOL dev buy at bond is the strongest attention signal in this batch — that's ~$10k committed capital at launch, which either signals real conviction or creates immediate liquidity depth for a pump. mcap is only $4.7k so upside is asymmetric if it catches. Risk: dev could dump their own position.
 
+## [2026-09-10 02:59 UTC] sell | [rapid-drop] $Unitslob crashed >15% in one tick | P&L: -33.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 02:59 UTC] buy | [LLM] $1000X at $2.876e-06, spent 0.05 SOL
+- **Reasoning:** 1000x Coin narrative is pure attention bait - viral name with X tweet driving signal, low mcap gives room to run, viability gate passes (twitter present). High risk but high attention asymmetry.
+
