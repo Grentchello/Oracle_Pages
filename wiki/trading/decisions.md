@@ -20476,3 +20476,6 @@
 ## [2026-09-10 21:00 UTC] buy | [LLM] $30Minutes at $2.988e-06, spent 0.05 SOL
 - **Reasoning:** $30Minutes has explicit viral mechanic narrative ('pump for 30 minutes, get to the moon'), live X post from @coreythex with link, self-aware meme format that often catches attention. Risk: meta-meme rug risk, but small size and clear narrative fit the thesis.
 
+## [2026-09-10 21:02 UTC] sell | [FULL][LLM] $30Minutes at $2.94569e-06 | P&L: -1.4%
+- **Reasoning:** Just entered (0.0h), only -1.4% loss. Pool is $79 and I'm 6% — selling now crystallizes 5-10% impact loss on top. Give it 10-15 min for bonding curve to fill or a buyer to appear. If still flat then, rotate.
+

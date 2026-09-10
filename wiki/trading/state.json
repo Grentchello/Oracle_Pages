@@ -1,32 +1,8 @@
 {
-  "balance_sol": 8.889483,
+  "balance_sol": 8.938756,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7gyCpKXeGEwS5vD4YXMXcqKmuUQV7JR8V3LLWinQpump": {
-      "symbol": "30Minutes",
-      "name": "30 Minute Pump ",
-      "amount": 1672858.0990629182,
-      "entry_price_usd": 2.988e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T21:00:31.692593+00:00",
-      "entry_usd_value": 4.9985,
-      "last_seen_price_usd": 2.988e-06,
-      "entry_signals": {
-        "liquidity_usd": 100.13850043469999,
-        "volume_24h_usd": 100.24,
-        "market_cap_usd": 2987.2235533854564,
-        "ath_market_cap_usd": 2987.2235533854564,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.00168551,
-        "description": "this will pump for 30 minutes, get to the moon, and then probably die.  should be fun ",
-        "twitter": "https://x.com/coreythex/status/2098154047752556911?s=46&t=YpAqrFd8vDNS5dI60dTuSg",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50330,19 +50306,30 @@
       "pnl_pct": 10.3,
       "exit_reason": "LLM: sell_all — Just entered at +10.3%, under the 30% TP threshold and held 0 min. Fresh position, let the narrative breathe. Stale exit rule is >30 min, not triggere",
       "partial": false
+    },
+    {
+      "mint": "7gyCpKXeGEwS5vD4YXMXcqKmuUQV7JR8V3LLWinQpump",
+      "symbol": "30Minutes",
+      "name": "30 Minute Pump ",
+      "amount_sold": 1672858.0990629182,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T21:00:31.692593+00:00",
+      "exit_time": "2026-09-10T21:02:28.602498+00:00",
+      "entry_price_usd": 2.988e-06,
+      "exit_price_usd": 2.945690370909086e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049273,
+      "pnl_sol": -0.000727,
+      "pnl_pct": -1.42,
+      "exit_reason": "LLM: sell_all — Just entered (0.0h), only -1.4% loss. Pool is $79 and I'm 6% — selling now crystallizes 5-10% impact loss on top. Give it 10-15 min for bonding curve ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T21:00:31.692756+00:00",
+  "last_updated": "2026-09-10T21:02:28.602738+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.97,
-  "portfolio_value_usd": 893.68,
+  "last_sol_price_usd": 100.008,
+  "portfolio_value_usd": 893.95,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 20:35 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $Pump Stonk at $0.000242087 | P&L: +2308.8%",
-      "reason": "Auto take-profit at +2308.8%"
-    },
     {
       "time": "2026-09-10 20:37 UTC",
       "action": "buy",
@@ -50456,40 +50443,46 @@
       "action": "buy",
       "details": "[LLM] $30Minutes at $2.988e-06, spent 0.05 SOL",
       "reason": "$30Minutes has explicit viral mechanic narrative ('pump for 30 minutes, get to the moon'), live X post from @coreythex with link, self-aware meme format that often catches attention. Risk: meta-meme rug risk, but small size and clear narrative fit the thesis."
+    },
+    {
+      "time": "2026-09-10 21:02 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $30Minutes at $2.94569e-06 | P&L: -1.4%",
+      "reason": "Just entered (0.0h), only -1.4% loss. Pool is $79 and I'm 6% — selling now crystallizes 5-10% impact loss on top. Give it 10-15 min for bonding curve to fill or a buyer to appear. If still flat then, rotate."
     }
   ],
   "trade_stats": {
-    "total": 2959,
+    "total": 2960,
     "wins": 1388,
-    "losses": 1571,
+    "losses": 1572,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 4.673295,
-    "avg_pnl_pct": 28.73,
+    "total_pnl_sol": 4.672568,
+    "avg_pnl_pct": 28.72,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 582,
-    "today_realized_sol": 7.35861,
-    "today_target_pct": 1839.7,
+    "today_trades": 583,
+    "today_realized_sol": 7.357883,
+    "today_target_pct": 1839.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1388,
-      "loss_count": 1571,
+      "loss_count": 1572,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T21:00:30.249341+00:00",
+  "last_llm_brief_at": "2026-09-10T21:02:28.602279+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "BxrT1bLsrBa51sWS7t6PtkBC9Vcb5WbG2bVmYqDepump": {
-      "price_usd": 7.07163566726097e-06,
+    "7gyCpKXeGEwS5vD4YXMXcqKmuUQV7JR8V3LLWinQpump": {
+      "price_usd": 2.945690370909086e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1771.30523916294,
-      "volume_h24": 1741.87,
+      "liquidity_usd": 79.19759130048,
+      "volume_h24": 121.25,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 17.718367902
+      "real_sol_reserves": 0.79191256
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
