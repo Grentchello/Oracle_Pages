@@ -1,32 +1,8 @@
 {
-  "balance_sol": 6.04948,
+  "balance_sol": 6.085822,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GqBnKmjpAevVRWr4LrHvRBB7eH7KTyo8QsTjf6NJpump": {
-      "symbol": "STONK",
-      "name": "StonkiesClub",
-      "amount": 1290397.9785727449,
-      "entry_price_usd": 3.86392421779427e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T20:16:49.381941+00:00",
-      "entry_usd_value": 4.986000000000001,
-      "last_seen_price_usd": 3.86392421779427e-06,
-      "entry_signals": {
-        "liquidity_usd": 532.7297655278401,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3876.0996788620073,
-        "ath_market_cap_usd": 3876.0996788620073,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.342255972,
-        "description": "Grind for resources, exchange them for stocks. PVP and play on the casino with friends. Stonkies is waiting for you!",
-        "twitter": "https://x.com/StonkiesRH",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -49990,19 +49966,30 @@
       "pnl_pct": 14.61,
       "exit_reason": "LLM: sell_all — +14.6% on fresh entry, not at TP threshold, and all new launches fail the viability gate (description <50 chars or missing twitter/liquidity), so no r",
       "partial": false
+    },
+    {
+      "mint": "GqBnKmjpAevVRWr4LrHvRBB7eH7KTyo8QsTjf6NJpump",
+      "symbol": "STONK",
+      "name": "StonkiesClub",
+      "amount_sold": 1290397.9785727449,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T20:16:49.381941+00:00",
+      "exit_time": "2026-09-10T20:17:57.818433+00:00",
+      "entry_price_usd": 3.86392421779427e-06,
+      "exit_price_usd": 2.8270589094532506e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.036342,
+      "pnl_sol": -0.013658,
+      "pnl_pct": -26.83,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T20:16:49.382132+00:00",
+  "last_updated": "2026-09-10T20:17:57.820351+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.72,
-  "portfolio_value_usd": 608.24,
+  "last_sol_price_usd": 100.38,
+  "portfolio_value_usd": 610.89,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:53 UTC",
-      "action": "buy",
-      "details": "[LLM] $CSCUM at $3.62287e-06, spent 0.05 SOL",
-      "reason": "$CSCUM (CS: CUM) — freshest 0.2min launch with a complete edgy CS:GO 'rush B' narrative that maps perfectly to crypto Twitter culture ('the only bomb we're planting is in your portfolio'). Description passes the 50-char viability gate (no Twitter but the narrative is the attention signal). $3.6k mcap sits in the launch zone where 10x moves start. Risk: bond only 11% so thin liquidity, but for a 0.05-0.1 SOL scalp that's acceptable. Other candidates either fail viability gate (no desc ≥50 chars: $MrBeast, $TWB, $FIN, $beer, $OTC, $$CAT, $DOGE, $CNUT, $Flylabs, $PushWs, $PULLIT) or get rejected by fragility gate ($MrBeast = celebrity, $GFLOYD = political) or have weaker meme energy ($Horsesol, $CASHA). Take the highest-attention play."
-    },
     {
       "time": "2026-09-10 19:55 UTC",
       "action": "sell",
@@ -50116,6 +50103,12 @@
       "action": "buy",
       "details": "[LLM] $STONK at $3.86392e-06, spent 0.05 SOL",
       "reason": "$STONK — strong viral narrative (gaming + memes + 'Stonks' cultural reference), active X presence (@StonkiesRH), decent description (>50 chars), mcap $3.9k is prime for early entry. The grind-resources-stock-PVP loop is concrete enough to attract attention, and 'Stonks' is an evergreen meme. Risk: bond only 13% complete, but that's where the alpha is."
+    },
+    {
+      "time": "2026-09-10 20:17 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $STONK crashed >15% in one tick | P&L: -26.8%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
@@ -50139,7 +50132,19 @@
   },
   "last_llm_brief_at": "2026-09-10T20:16:48.057238+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GqBnKmjpAevVRWr4LrHvRBB7eH7KTyo8QsTjf6NJpump": {
+      "price_usd": 2.8270589094532506e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 10.997025701759998,
+      "volume_h24": 577.23,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.109553952
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -20362,3 +20362,6 @@
 ## [2026-09-10 20:16 UTC] buy | [LLM] $STONK at $3.86392e-06, spent 0.05 SOL
 - **Reasoning:** $STONK — strong viral narrative (gaming + memes + 'Stonks' cultural reference), active X presence (@StonkiesRH), decent description (>50 chars), mcap $3.9k is prime for early entry. The grind-resources-stock-PVP loop is concrete enough to attract attention, and 'Stonks' is an evergreen meme. Risk: bond only 13% complete, but that's where the alpha is.
 
+## [2026-09-10 20:17 UTC] sell | [rapid-drop] $STONK crashed >15% in one tick | P&L: -26.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
