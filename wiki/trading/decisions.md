@@ -17872,3 +17872,6 @@
 ## [2026-09-10 03:56 UTC] sell | [FULL][LLM] $MACD at $2.84343e-06 | P&L: -3.9%
 - **Reasoning:** The position is already down 3.9%, has shown no positive momentum, and is on a bonding curve with pool=$0 and an implausible our share=240471911%. That concentration and liquidity data make the entry too fragile to hold.
 
+## [2026-09-10 03:58 UTC] buy | [LLM] $JPM at $9.344e-06, spent 0.05 SOL
+- **Reasoning:** $JPM leads the slate with the highest market cap and a fresh dedicated X account, giving it the clearest immediate attention narrative. The tiny market cap and very early age create extreme dilution and rug risk, but the momentum warrants taking the available position.
+
