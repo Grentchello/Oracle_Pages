@@ -17344,3 +17344,9 @@
 ## [2026-09-10 00:43 UTC] sell | [PARTIAL][LLM] $MON at $3.59757e-07 | P&L: -0.1%
 - **Reasoning:** $MON is flat at -0.1% with 62% pool share concentration (extreme fragility) and zero momentum after fresh entry. Locked slot with no signal — exit and free the position.
 
+## [2026-09-10 00:44 UTC] sell | [FULL][LLM] $MON at $3.59601e-07 | P&L: -0.1%
+- **Reasoning:** $MON is flat (-0.1%) after entry, no momentum, 25% of an $8 pool — my position itself is meaningful size relative to liquidity. No narrative signal, just dead. Cut and free the slot for a fresh launch with attention.
+
+## [2026-09-10 00:44 UTC] buy | [LLM] $EGG at $6.1199e-06, spent 0.05 SOL
+- **Reasoning:** $EGG — freshest launch (0.3min), $5k mcap, 10% bonded, has Twitter link from a dev account. Eggs have proven memeability (multiple EGG pumps historically). Earliest bonding curve with social signal = best risk/reward in the batch.
+
