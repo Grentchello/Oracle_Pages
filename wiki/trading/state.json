@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.100793,
+  "balance_sol": 9.147657,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Fv1wmifXMGeK9zkraY4SntmpSjJq8uLquzrr9S2Dpump": {
-      "symbol": "NOPUMP.FUN?",
-      "name": "No Pump.Fun?",
-      "amount": 1676152.6802771275,
-      "entry_price_usd": 2.95706951897754e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T22:49:11.895186+00:00",
-      "entry_usd_value": 4.9565,
-      "last_seen_price_usd": 2.95706951897754e-06,
-      "entry_signals": {
-        "liquidity_usd": 97.90617274159999,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2968.224194058756,
-        "ath_market_cap_usd": 2968.224194058756,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.98765432,
-        "description": "",
-        "twitter": "https://x.com/DevReputation/status/2098181544544256073",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51044,19 +51020,30 @@
       "pnl_pct": 291.0,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "Fv1wmifXMGeK9zkraY4SntmpSjJq8uLquzrr9S2Dpump",
+      "symbol": "NOPUMP.FUN?",
+      "name": "No Pump.Fun?",
+      "amount_sold": 1676152.6713354609,
+      "fraction_sold": 0.9999999946653626,
+      "entry_time": "2026-09-10T22:49:11.895186+00:00",
+      "exit_time": "2026-09-10T22:50:27.469707+00:00",
+      "entry_price_usd": 2.95706951897754e-06,
+      "exit_price_usd": 2.7712954334567755e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.046864,
+      "pnl_sol": -0.003136,
+      "pnl_pct": -6.28,
+      "exit_reason": "LLM: sell_all — Held $NOPUMP.FUN? is at -6.3% after 0.0h with no momentum, on bonding curve with $0 pool liquidity, and our share is 4.6B% of pool (illiquid trap). Cu",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T22:49:11.895511+00:00",
+  "last_updated": "2026-09-10T22:50:27.727550+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.13,
-  "portfolio_value_usd": 907.12,
+  "last_sol_price_usd": 99.12,
+  "portfolio_value_usd": 906.72,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 22:29 UTC",
-      "action": "buy",
-      "details": "[LLM] $GOON at $3.91986e-06, spent 0.05 SOL",
-      "reason": "$GOON (Gains Out Of Nowhere) — clean acronymic ticker, 0.1min old, $3.9k mcap with twitter signal. Highest attention/narrative ratio of the batch. 0.05 SOL position, tight stop managed by bot."
-    },
     {
       "time": "2026-09-10 22:30 UTC",
       "action": "sell",
@@ -51170,40 +51157,46 @@
       "action": "buy",
       "details": "[LLM] $NOPUMP.FUN? at $2.95707e-06, spent 0.05 SOL",
       "reason": "$NOPUMP.FUN? has the strongest meta-narrative here — anti-pump.fun contrarian joke with a dedicated X handle (@DevReputation), mcap $3k at 18s old. Asymmetric attention play: if the anti-pump.fun thesis catches on with CT, easy 3-5x from this base; if not, -25% hard stop caps the loss. Bonding only 3% complete so liquidity is thin — that's the risk, but the prompt explicitly says don't wait for confirmation."
+    },
+    {
+      "time": "2026-09-10 22:50 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $NOPUMP.FUN? at $2.7713e-06 | P&L: -6.3%",
+      "reason": "Held $NOPUMP.FUN? is at -6.3% after 0.0h with no momentum, on bonding curve with $0 pool liquidity, and our share is 4.6B% of pool (illiquid trap). Cut early before -25% hard stop kicks in."
     }
   ],
   "trade_stats": {
-    "total": 3001,
+    "total": 3002,
     "wins": 1408,
-    "losses": 1593,
+    "losses": 1594,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 4.884604,
-    "avg_pnl_pct": 28.47,
+    "total_pnl_sol": 4.881468,
+    "avg_pnl_pct": 28.46,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 624,
-    "today_realized_sol": 7.569919,
-    "today_target_pct": 1892.5,
+    "today_trades": 625,
+    "today_realized_sol": 7.566783,
+    "today_target_pct": 1891.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1408,
-      "loss_count": 1593,
+      "loss_count": 1594,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T22:49:10.496266+00:00",
+  "last_llm_brief_at": "2026-09-10T22:50:27.469104+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "CryYa3m31MA6D7kBW3d7NARiTzSquoAq1USQ4MNrpump": {
-      "price_usd": 1.1425061904199306e-05,
+    "Fv1wmifXMGeK9zkraY4SntmpSjJq8uLquzrr9S2Dpump": {
+      "price_usd": 2.7712954334567755e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3064.0890721504197,
-      "volume_h24": 6534.79,
+      "liquidity_usd": 9.912000000000002e-08,
+      "volume_h24": 98.36,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 30.909806034
+      "real_sol_reserves": 1e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

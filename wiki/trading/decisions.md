@@ -20716,3 +20716,6 @@
 ## [2026-09-10 22:49 UTC] buy | [LLM] $NOPUMP.FUN? at $2.95707e-06, spent 0.05 SOL
 - **Reasoning:** $NOPUMP.FUN? has the strongest meta-narrative here — anti-pump.fun contrarian joke with a dedicated X handle (@DevReputation), mcap $3k at 18s old. Asymmetric attention play: if the anti-pump.fun thesis catches on with CT, easy 3-5x from this base; if not, -25% hard stop caps the loss. Bonding only 3% complete so liquidity is thin — that's the risk, but the prompt explicitly says don't wait for confirmation.
 
+## [2026-09-10 22:50 UTC] sell | [FULL][LLM] $NOPUMP.FUN? at $2.7713e-06 | P&L: -6.3%
+- **Reasoning:** Held $NOPUMP.FUN? is at -6.3% after 0.0h with no momentum, on bonding curve with $0 pool liquidity, and our share is 4.6B% of pool (illiquid trap). Cut early before -25% hard stop kicks in.
+
