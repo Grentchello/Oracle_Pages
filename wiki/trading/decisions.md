@@ -17647,3 +17647,9 @@
 ## [2026-09-10 02:33 UTC] buy | [LLM] $BRACKET at $6.65874e-08, spent 0.05 SOL
 - **Reasoning:** Bracket LTD has the classic corporate-parody meme coin naming pattern (CZ/Doge/Shiba corp templates), mrmeme_sol twitter for distribution, $4.7k mcap with0.5min age = pure early attention. Risk: 0.5min old means no price action yet, will likely dump -30% but small size ($5) keeps it bounded.
 
+## [2026-09-10 02:34 UTC] sell | [rapid-drop] $BRACKET crashed >15% in one tick | P&L: -15.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 02:35 UTC] buy | [LLM] $NEEDY at $4.16234e-06, spent 0.05 SOL
+- **Reasoning:** $NEEDY — strongest narrative of the batch: cute pet meta-game ('feed, dress, play'), has twitter presence (magiccookerdev), description >50 chars and original. Sub-$5k mcap with viral pet-coin angle has classic 5-10x potential in first hour. 0.05 SOL entry.
+
