@@ -19519,3 +19519,6 @@
 ## [2026-09-10 15:10 UTC] buy | [LLM] $RIZZ at $2.827e-06, spent 0.05 SOL
 - **Reasoning:** $RIZZ taps proven viral vocabulary (Oxford WOTY 2023) with $2.8k mcap giving maximum upside if it catches a wave. Pure attention play, no celebrity/political fragility flags.
 
+## [2026-09-10 15:12 UTC] sell | [PARTIAL][LLM] $RIZZ at $2.83833e-06 | P&L: +0.4%
+- **Reasoning:** RIZZ is essentially flat (+0.4%) on tiny $15 pool with 34% our share — classic illiquid bonding curve trap. Take back half to free capital, ride the rest with tight mental stop.
+

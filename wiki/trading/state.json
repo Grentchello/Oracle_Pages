@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.389082,
+  "balance_sol": 4.414053,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "G7PgFZtTXiUPGon2ii8af41mWgRyiPvWqAcqUFmYpump": {
       "symbol": "RIZZ",
       "name": "$RIZZCOIN",
-      "amount": 1768715.9533073932,
+      "amount": 884357.9766536966,
       "entry_price_usd": 2.827e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T15:10:50.072279+00:00",
       "entry_usd_value": 5.000160000000001,
-      "last_seen_price_usd": 2.827e-06,
+      "last_seen_price_usd": 2.8383331944241788e-06,
       "entry_signals": {
         "liquidity_usd": 14.8520531504928,
         "volume_24h_usd": 14.87,
@@ -47457,19 +47457,30 @@
       "pnl_pct": -54.96,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "G7PgFZtTXiUPGon2ii8af41mWgRyiPvWqAcqUFmYpump",
+      "symbol": "RIZZ",
+      "name": "$RIZZCOIN",
+      "amount_sold": 884357.9766536966,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T15:10:50.072279+00:00",
+      "exit_time": "2026-09-10T15:12:08.967875+00:00",
+      "entry_price_usd": 2.827e-06,
+      "exit_price_usd": 2.8383331944241788e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.024971,
+      "pnl_sol": -2.9e-05,
+      "pnl_pct": 0.4,
+      "exit_reason": "LLM: sell_half — RIZZ is essentially flat (+0.4%) on tiny $15 pool with 34% our share — classic illiquid bonding curve trap. Take back half to free capital, ride the r",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T15:10:50.072495+00:00",
+  "last_updated": "2026-09-10T15:12:08.968646+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.0032,
-  "portfolio_value_usd": 443.92,
+  "last_sol_price_usd": 100.52,
+  "portfolio_value_usd": 446.2,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 14:46 UTC",
-      "action": "buy",
-      "details": "[LLM] $WAVEKIRK at $2.84109e-06, spent 0.05 SOL",
-      "reason": "$WAVEKIRK — 'KIRKROWAVE' riding the Kirk memecoin meta that has been pumping hard recently. Story is simple and memeable (Kirk is gonna cook), fresh launch, $2.8k mcap = ground floor if it catches the wave."
-    },
     {
       "time": "2026-09-10 14:47 UTC",
       "action": "sell",
@@ -47583,40 +47594,46 @@
       "action": "buy",
       "details": "[LLM] $RIZZ at $2.827e-06, spent 0.05 SOL",
       "reason": "$RIZZ taps proven viral vocabulary (Oxford WOTY 2023) with $2.8k mcap giving maximum upside if it catches a wave. Pure attention play, no celebrity/political fragility flags."
+    },
+    {
+      "time": "2026-09-10 15:12 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RIZZ at $2.83833e-06 | P&L: +0.4%",
+      "reason": "RIZZ is essentially flat (+0.4%) on tiny $15 pool with 34% our share — classic illiquid bonding curve trap. Take back half to free capital, ride the rest with tight mental stop."
     }
   ],
   "trade_stats": {
-    "total": 2790,
+    "total": 2791,
     "wins": 1332,
-    "losses": 1458,
+    "losses": 1459,
     "win_rate_pct": 47.7,
-    "total_pnl_sol": 0.17284,
-    "avg_pnl_pct": 27.16,
+    "total_pnl_sol": 0.172811,
+    "avg_pnl_pct": 27.15,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 413,
-    "today_realized_sol": 2.858155,
+    "today_trades": 414,
+    "today_realized_sol": 2.858126,
     "today_target_pct": 714.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1332,
-      "loss_count": 1458,
+      "loss_count": 1459,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T15:10:48.614814+00:00",
+  "last_llm_brief_at": "2026-09-10T15:12:08.967426+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "GCLtxvhK2rF18kn2kuE5RML2AGticqKiUy7uCWaCpump": {
-      "price_usd": 5.431295788412772e-06,
+    "G7PgFZtTXiUPGon2ii8af41mWgRyiPvWqAcqUFmYpump": {
+      "price_usd": 2.8383331944241788e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1181.2794559329984,
-      "volume_h24": 23639.41,
+      "liquidity_usd": 14.928806105079998,
+      "volume_h24": 14.87,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 11.812416562
+      "real_sol_reserves": 0.148515779
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
