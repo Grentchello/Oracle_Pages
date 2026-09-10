@@ -17869,3 +17869,6 @@
 ## [2026-09-10 03:55 UTC] buy | [LLM] $MACD at $2.959e-06, spent 0.05 SOL
 - **Reasoning:** $MACD — 'Big MACD' trading indicator meme targets crypto trader audience specifically. Has dedicated twitter account. Niche but could resonate hard with trading Twitter where memes about indicators spread. Risk: niche appeal, low mcap.
 
+## [2026-09-10 03:56 UTC] sell | [FULL][LLM] $MACD at $2.84343e-06 | P&L: -3.9%
+- **Reasoning:** The position is already down 3.9%, has shown no positive momentum, and is on a bonding curve with pool=$0 and an implausible our share=240471911%. That concentration and liquidity data make the entry too fragile to hold.
+
