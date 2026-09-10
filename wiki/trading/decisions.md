@@ -19585,3 +19585,9 @@
 ## [2026-09-10 15:34 UTC] buy | [LLM] $EVILPEPE at $2.76913e-06, spent 0.05 SOL
 - **Reasoning:** Pepe-derivative meme with clear viral DNA (dark/edgy angle, shareable brand). Fresh 0.3min launch at $2.7k mcap = ground floor, twitter present, viability gate passes, no fragility-blocklist keywords. Standard0.05 SOL scalp targeting50-100% on first-hour attention spike; -25% hard stop enforced by bot.
 
+## [2026-09-10 15:35 UTC] sell | [FULL][LLM] $EVILPEPE at $2.04695e-08 | P&L: -99.3%
+- **Reasoning:** Position is -99.3%, essentially zero. Free up slot for fresh attention.
+
+## [2026-09-10 15:35 UTC] buy | [LLM] $HAEDOG at $2.998e-06, spent 0.05 SOL
+- **Reasoning:** HAEDOG: K-pop fandom attention (Haerin/NewJeans), real twitter handle, full description, $3k mcap = early. Attention signal is real.
+
