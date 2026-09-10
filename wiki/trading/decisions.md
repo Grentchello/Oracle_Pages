@@ -18823,3 +18823,9 @@
 ## [2026-09-10 10:20 UTC] buy | [LLM] $cap at $4.81085e-06, spent 0.05 SOL
 - **Reasoning:** $cap / 'dog wif cap' is a meta riff on $WIF (the original dogwifhat) — proven narrative with 'run it back' redemption arc explicitly stated. Description acknowledges prior dump and commits to a second attempt. This is the highest-narrative-density token in the batch: recognizable format, redemption story, active promoter voice. Risks: 0.1min old, 0% bond = pre-bonding-curve, but the meta hook is real.
 
+## [2026-09-10 10:21 UTC] sell | [rapid-drop] $cap crashed >15% in one tick | P&L: -20.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 10:22 UTC] buy | [LLM] $GOLDEN at $4.525e-06, spent 0.05 SOL
+- **Reasoning:** $GOLDEN (Golden Retriever): classic dog meta with universal appeal, real X account posting about it, $3.5k mcap = very early, passes viability (twitter) and fragility gates. Best attention/narrative ratio in this batch.
+
