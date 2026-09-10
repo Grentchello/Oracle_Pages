@@ -18424,3 +18424,6 @@
 ## [2026-09-10 07:20 UTC] buy | [LLM] $Solamander at $2.984e-06, spent 0.05 SOL
 - **Reasoning:** Saga ecosystem mascot token — Saga has a real community and narrative runway. $3k mcap, brand-new bonding curve at 2%, twitter link live. This is the kind of ecosystem play that can 5-10x if narrative catches.
 
+## [2026-09-10 07:21 UTC] sell | [FULL][LLM] $Solamander at $2.98587e-06 | P&L: +0.1%
+- **Reasoning:** Solamander is essentially flat (+0.1%) after a tiny move, with $77 pool and 7% of supply being ME — that's me. Bonding curve 26%, no momentum, no viral signal. With slot locked at break-even and 5 fresh launches competing for attention, this is textbook stale capital. Free the slot.
+
