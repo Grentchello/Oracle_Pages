@@ -19540,3 +19540,9 @@
 ## [2026-09-10 15:20 UTC] buy | [LLM] $KIRKP at $1.13107e-05, spent 0.05 SOL
 - **Reasoning:** $KIRKP 'Kirk Paste' 'Happy Kirkaversary' — highest mcap in the batch ($11.2k) signals earliest organic traction; anniversary narrative + celebrity-adjacent keyword needs ME2F fragility check first.
 
+## [2026-09-10 15:21 UTC] sell | [rapid-drop] $KIRKP crashed >15% in one tick | P&L: -92.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 15:22 UTC] buy | [LLM] $STRAIGHT at $1.22356e-05, spent 0.05 SOL
+- **Reasoning:** $STRAIGHT has a real X post from Infinitidigits backing it, viral 'buy if you're straight' attention-bait framing, $12k mcap, passes viability (twitter) and fragility gates. Position size 0.05 SOL — high rug risk at 0.3min age and34% bond, but the attention signal is concrete. -25% hard stop limits downside to ~0.0125 SOL.
+
