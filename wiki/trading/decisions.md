@@ -20656,3 +20656,6 @@
 ## [2026-09-10 22:28 UTC] sell | [FULL][LLM] $PUDDHA at $1.6302e-05 | P&L: -4.7%
 - **Reasoning:** Down only 4.7% after 0h held, well within tolerance. Bonding curve at 6% — early stage, give it room to develop. Not stale, not near stop.
 
+## [2026-09-10 22:29 UTC] buy | [LLM] $GOON at $3.91986e-06, spent 0.05 SOL
+- **Reasoning:** $GOON (Gains Out Of Nowhere) — clean acronymic ticker, 0.1min old, $3.9k mcap with twitter signal. Highest attention/narrative ratio of the batch. 0.05 SOL position, tight stop managed by bot.
+
