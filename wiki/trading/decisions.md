@@ -18640,3 +18640,9 @@
 ## [2026-09-10 08:44 UTC] buy | [LLM] $LEGACY at $1.10839e-05, spent 0.05 SOL
 - **Reasoning:** $LEGACY has the strongest narrative of the batch: xStocks airdrop rewards mechanism is a real product hook with viral potential. $11k mcap at 0.4min is prime early-entry territory, bond 33% shows real buy pressure, twitter link present — meets viability gate.
 
+## [2026-09-10 08:46 UTC] sell | [FULL][LLM] $LEGACY at $9.58865e-06 | P&L: -13.5%
+- **Reasoning:** $LEGACY is -13.5% with thin $2.5k pool and no narrative bounce signal. Cut before hard cap, free capital for fresher attention.
+
+## [2026-09-10 08:46 UTC] buy | [LLM] $INTERN at $2.29786e-07, spent 0.05 SOL
+- **Reasoning:** $INTERN 'Pay the $INTERN' is a relatable viral office meme with twitter presence, fresh launch at $5.9k mcap — classic attention-launched narrative with room to 5-10x.
+
