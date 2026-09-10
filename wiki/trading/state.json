@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.289816,
+  "balance_sol": 4.307311,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "zn9D3BAQr7hu1yZ6kAct5JjSXFxLTAuQfaPtHqGpump": {
       "symbol": "1.50",
       "name": "Costco Hot Dog",
-      "amount": 2908808474.8055334,
+      "amount": 1454404237.4027667,
       "entry_price_usd": 8.531843954304746e-10,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0125,
       "entry_time": "2026-09-10T16:37:03.337667+00:00",
       "entry_usd_value": 4.9635,
-      "last_seen_price_usd": 1.1358041585397277e-09,
+      "last_seen_price_usd": 1.1954177469298117e-09,
       "entry_signals": {
         "liquidity_usd": 0.20589600627,
         "volume_24h_usd": null,
@@ -48052,19 +48052,30 @@
       "pnl_pct": 33.13,
       "exit_reason": "LLM: sell_half — At +33% past first TP threshold, 2:1 buy/sell ratio is strong but Costco parody has no narrative beyond the joke. Lock half the gain, keep half for co",
       "partial": true
+    },
+    {
+      "mint": "zn9D3BAQr7hu1yZ6kAct5JjSXFxLTAuQfaPtHqGpump",
+      "symbol": "1.50",
+      "name": "Costco Hot Dog",
+      "amount_sold": 1454404237.4027667,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T16:37:03.337667+00:00",
+      "exit_time": "2026-09-10T16:41:28.237357+00:00",
+      "entry_price_usd": 8.531843954304746e-10,
+      "exit_price_usd": 1.1954177469298117e-09,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.017495,
+      "pnl_sol": 0.004995,
+      "pnl_pct": 40.11,
+      "exit_reason": "LLM: sell_half — Up +40.1% past +30% TP threshold and our 1134% pool share means we're a whale in an illiquid bonding curve — locking in gains on half de-risks the pos",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T16:40:06.553065+00:00",
+  "last_updated": "2026-09-10T16:41:28.237642+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.9,
-  "portfolio_value_usd": 426.74,
+  "last_sol_price_usd": 99.38,
+  "portfolio_value_usd": 429.3,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 16:07 UTC",
-      "action": "buy",
-      "details": "[LLM] $BUCKAZOID at $1.00428e-06, spent 0.05 SOL",
-      "reason": "BUCKAZOID - absurdist robot creature name has meme legs, $10k mcap with 4% bond showing real buys, no political/celebrity angle"
-    },
     {
       "time": "2026-09-10 16:08 UTC",
       "action": "sell",
@@ -48178,40 +48189,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $1.50 at $1.1358e-09 | P&L: +33.1%",
       "reason": "At +33% past first TP threshold, 2:1 buy/sell ratio is strong but Costco parody has no narrative beyond the joke. Lock half the gain, keep half for continuation — and free the slot for $AI entry."
+    },
+    {
+      "time": "2026-09-10 16:41 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $1.50 at $1.19542e-09 | P&L: +40.1%",
+      "reason": "Up +40.1% past +30% TP threshold and our 1134% pool share means we're a whale in an illiquid bonding curve — locking in gains on half de-risks the position while keeping upside exposure. Realizing ~+0.02 SOL here."
     }
   ],
   "trade_stats": {
-    "total": 2825,
-    "wins": 1347,
+    "total": 2826,
+    "wins": 1348,
     "losses": 1478,
     "win_rate_pct": 47.7,
-    "total_pnl_sol": 0.048574,
+    "total_pnl_sol": 0.053569,
     "avg_pnl_pct": 26.75,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 448,
-    "today_realized_sol": 2.733889,
-    "today_target_pct": 683.5,
+    "today_trades": 449,
+    "today_realized_sol": 2.738884,
+    "today_target_pct": 684.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1347,
+      "win_count": 1348,
       "loss_count": 1478,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T16:40:06.551939+00:00",
+  "last_llm_brief_at": "2026-09-10T16:41:28.237322+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "zn9D3BAQr7hu1yZ6kAct5JjSXFxLTAuQfaPtHqGpump": {
-      "price_usd": 1.1358041585397277e-09,
+      "price_usd": 1.1954177469298117e-09,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.28753760730000005,
+      "liquidity_usd": 0.30668061782,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.002907357
+      "real_sol_reserves": 0.003085939
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

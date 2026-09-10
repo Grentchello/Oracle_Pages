@@ -19726,3 +19726,6 @@
 ## [2026-09-10 16:40 UTC] sell | [PARTIAL][LLM] $1.50 at $1.1358e-09 | P&L: +33.1%
 - **Reasoning:** At +33% past first TP threshold, 2:1 buy/sell ratio is strong but Costco parody has no narrative beyond the joke. Lock half the gain, keep half for continuation — and free the slot for $AI entry.
 
+## [2026-09-10 16:41 UTC] sell | [PARTIAL][LLM] $1.50 at $1.19542e-09 | P&L: +40.1%
+- **Reasoning:** Up +40.1% past +30% TP threshold and our 1134% pool share means we're a whale in an illiquid bonding curve — locking in gains on half de-risks the position while keeping upside exposure. Realizing ~+0.02 SOL here.
+
