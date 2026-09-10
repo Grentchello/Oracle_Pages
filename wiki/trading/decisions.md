@@ -17248,3 +17248,6 @@
 ## [2026-09-10 00:02 UTC] sell | [FULL][LLM] $COINBASS at $5.97545e-06 | P&L: +18.0%
 - **Reasoning:** Held 0.0h, up +18% but pool is only $1373 (below 5x position size of $5 — actually below position size entirely), bond only 12%, and our share is 0% (we own essentially nothing meaningful). The thin pool + bonding curve stage = any exit attempt will dump it back. Cut now while we have a gain rather than get rugged as liquidity evaporates.
 
+## [2026-09-10 00:05 UTC] buy | [LLM] $Duolingo at $1.33511e-07, spent 0.05 SOL
+- **Reasoning:** $Duolingo has the strongest narrative in this batch — recognizable brand + real news catalyst (suing Apple) + dividends utility claim is classic viral memecoin bait. Twitter link to actual @duolingo account is the attention signal. Risk: low mcap ($4k), bond only 2% so liquidity thin — volatility both ways. Entering with 0.1 SOL.
+
