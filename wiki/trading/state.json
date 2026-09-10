@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.817626,
+  "balance_sol": 4.781226,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "7aL2tALDpDUsaCk4L3ZogoCQDY3mBKLyH6rVoYzEpump": {
-      "symbol": "CHEESEBURGER",
-      "name": "The Cheeseburger",
-      "amount": 477494.94349889323,
-      "entry_price_usd": 5.2929356308583786e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-10T12:32:02.725639+00:00",
-      "entry_usd_value": 5.0547,
-      "last_seen_price_usd": 6.8215194613304115e-06,
+    "6e5reX6TeUqoFLyoKpRb8MhCgcW176DuP96akBuDpump": {
+      "symbol": "$MCAT",
+      "name": "MetaCAT",
+      "amount": 70760494.64630277,
+      "entry_price_usd": 7.099300287695879e-08,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T12:35:00.288813+00:00",
+      "entry_usd_value": 5.0235,
+      "last_seen_price_usd": 7.099300287695879e-08,
       "entry_signals": {
-        "liquidity_usd": 1099.624966661256,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5274.401403175985,
-        "ath_market_cap_usd": 5274.401403175985,
+        "liquidity_usd": 3.336980439,
+        "volume_24h_usd": 0.0,
+        "market_cap_usd": 4617.707299338003,
+        "ath_market_cap_usd": 4617.707299338003,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 10.877252524,
-        "description": "",
-        "twitter": "https://x.com/_taltal_atal/status/2098026491619729570",
+        "real_sol_reserves": 0.0332137,
+        "description": "Cat meme paired with META stock.   Get one of the hottest stocks in the game.  Can't go wrong.",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -46250,25 +46250,30 @@
       "pnl_pct": 28.88,
       "exit_reason": "LLM: sell_half — +28.9% in 0.0h is right at the auto +30% TP threshold — locking in half before the bot auto-triggers or the $1681 thin pool reverses. Selling only hal",
       "partial": true
+    },
+    {
+      "mint": "7aL2tALDpDUsaCk4L3ZogoCQDY3mBKLyH6rVoYzEpump",
+      "symbol": "CHEESEBURGER",
+      "name": "The Cheeseburger",
+      "amount_sold": 477494.94349889323,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T12:32:02.725639+00:00",
+      "exit_time": "2026-09-10T12:34:35.023539+00:00",
+      "entry_price_usd": 5.2929356308583786e-06,
+      "exit_price_usd": 2.8616094827919315e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.0136,
+      "pnl_sol": -0.0114,
+      "pnl_pct": -45.94,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T12:33:31.335567+00:00",
+  "last_updated": "2026-09-10T12:35:00.288985+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.7,
-  "portfolio_value_usd": 487.66,
+  "last_sol_price_usd": 100.47,
+  "portfolio_value_usd": 485.39,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 12:04 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $BUDDY at $9.08784e-10 | P&L: +9.0%",
-      "reason": "$BUDDY is up 9% after just entering, bonding curve still active. No clear dump signal yet, giving it a bit more time to develop before deciding on partial profit-take."
-    },
-    {
-      "time": "2026-09-10 12:06 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BUDDY at $1.18474e-09 | P&L: +42.1%",
-      "reason": "Up 42.1% already past 25% TP. Bonding-curve token with $0 pool liquidity and 21% of supply — extreme concentration risk. Lock the gain, don't hope for more on a thin curve."
-    },
     {
       "time": "2026-09-10 12:13 UTC",
       "action": "buy",
@@ -46376,40 +46381,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $CHEESEBURGER at $6.82152e-06 | P&L: +28.9%",
       "reason": "+28.9% in 0.0h is right at the auto +30% TP threshold — locking in half before the bot auto-triggers or the $1681 thin pool reverses. Selling only half keeps upside exposure if narrative runs, but secures realized gain on the rest. Low pool = can't safely sell_all without eating my own exit."
+    },
+    {
+      "time": "2026-09-10 12:34 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $CHEESEBURGER crashed >15% in one tick | P&L: -45.9%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 12:35 UTC",
+      "action": "buy",
+      "details": "[LLM] $$MCAT at $7.0993e-08, spent 0.05 SOL",
+      "reason": "$$MCAT — Cat x META stock narrative is timely (META has been a hot stock), desc is solid and on-narrative. Mcap $4.6k with the cleanest story in this batch. Viral cat-meta crossover has cross-platform appeal. Risk: very early, bond only 4%, but mcap low enough to 5-10x if narrative catches."
     }
   ],
   "trade_stats": {
-    "total": 2719,
+    "total": 2720,
     "wins": 1316,
-    "losses": 1403,
+    "losses": 1404,
     "win_rate_pct": 48.4,
-    "total_pnl_sol": 0.576383,
-    "avg_pnl_pct": 28.16,
+    "total_pnl_sol": 0.564983,
+    "avg_pnl_pct": 28.13,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 342,
-    "today_realized_sol": 3.261698,
-    "today_target_pct": 815.4,
+    "today_trades": 343,
+    "today_realized_sol": 3.250298,
+    "today_target_pct": 812.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1316,
-      "loss_count": 1403,
+      "loss_count": 1404,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T12:33:31.335288+00:00",
+  "last_llm_brief_at": "2026-09-10T12:34:58.875379+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7aL2tALDpDUsaCk4L3ZogoCQDY3mBKLyH6rVoYzEpump": {
-      "price_usd": 6.8215194613304115e-06,
+      "price_usd": 2.8616094827919315e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1681.3590355534002,
-      "volume_h24": 3128.1,
+      "liquidity_usd": 28.07276567223,
+      "volume_h24": 5666.87,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 16.696713362
+      "real_sol_reserves": 0.279414409
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

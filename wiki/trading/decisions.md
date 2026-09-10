@@ -19117,3 +19117,9 @@
 ## [2026-09-10 12:33 UTC] sell | [PARTIAL][LLM] $CHEESEBURGER at $6.82152e-06 | P&L: +28.9%
 - **Reasoning:** +28.9% in 0.0h is right at the auto +30% TP threshold — locking in half before the bot auto-triggers or the $1681 thin pool reverses. Selling only half keeps upside exposure if narrative runs, but secures realized gain on the rest. Low pool = can't safely sell_all without eating my own exit.
 
+## [2026-09-10 12:34 UTC] sell | [rapid-drop] $CHEESEBURGER crashed >15% in one tick | P&L: -45.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 12:35 UTC] buy | [LLM] $$MCAT at $7.0993e-08, spent 0.05 SOL
+- **Reasoning:** $$MCAT — Cat x META stock narrative is timely (META has been a hot stock), desc is solid and on-narrative. Mcap $4.6k with the cleanest story in this batch. Viral cat-meta crossover has cross-platform appeal. Risk: very early, bond only 4%, but mcap low enough to 5-10x if narrative catches.
+
