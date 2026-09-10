@@ -19747,3 +19747,6 @@
 ## [2026-09-10 16:49 UTC] buy | [LLM] $BREZ at $8.5516e-06, spent 0.05 SOL
 - **Reasoning:** $BREZ leads the batch at $8.5k mcap with a clear narrative (Brezscales/The Course goat), confirmed twitter handle driving attention, and bond already 30% — strongest signal in the slate. Sizing is small ($5 risk) so I can afford to test the narrative thesis.
 
+## [2026-09-10 16:50 UTC] sell | [rapid-drop] $BREZ crashed >15% in one tick | P&L: -65.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
