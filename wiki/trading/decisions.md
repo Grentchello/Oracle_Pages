@@ -18130,3 +18130,9 @@
 ## [2026-09-10 05:19 UTC] buy | [LLM] $LULU at $5.0507e-09, spent 0.05 SOL
 - **Reasoning:** $LULU — Capybara meta is genuinely trending on CT right now, has twitter (LuffyX100X), mcap $5k passes viability gate, age 0.8min is fresh. Risk: microcap with thin liquidity, could rug fast. Size 0.1 SOL.
 
+## [2026-09-10 05:21 UTC] sell | [rapid-drop] $LULU crashed >15% in one tick | P&L: -20.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 05:21 UTC] buy | [LLM] $BurnTroll at $3.59955e-06, spent 0.05 SOL
+- **Reasoning:** $BurnTroll has a concrete attention mechanism (buyback + burn creator rewards) plus an X post — clear narrative beyond a meme image. Creator-reward-burn is a recognizable on-chain story that CT engages with.
+
