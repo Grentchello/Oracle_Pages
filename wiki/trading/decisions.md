@@ -17695,3 +17695,6 @@
 ## [2026-09-10 02:49 UTC] buy | [LLM] $att at $3.77065e-06, spent 0.05 SOL
 - **Reasoning:** $att (attention) is meta-self-referential meme narrative — 'attention everyone' on a fresh 0.4min launch with only 4% bonding. Lowest mcap ($3.7k) of candidates = most upside if narrative catches. Highest risk of all candidates but also highest attention-arbitrage potential.
 
+## [2026-09-10 02:50 UTC] sell | [rapid-drop] $att crashed >15% in one tick | P&L: -54.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
