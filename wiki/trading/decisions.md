@@ -18652,3 +18652,6 @@
 ## [2026-09-10 08:50 UTC] buy | [LLM] $DINOBOO at $4.24e-06, spent 0.05 SOL
 - **Reasoning:** $DINOBOO: cute 'little prehistoric explorer' narrative has universal meme appeal, passes viability gate (desc >50 chars, mcap $5k), no fragility keywords, age 1.4min is prime entry before bond curve completes. Fresh launch with story = best risk/reward of the slate.
 
+## [2026-09-10 08:52 UTC] sell | [FULL][LLM] $DINOBOO at $4.86778e-06 | P&L: +14.8%
+- **Reasoning:** Locking +14.8% gain before it reverses. Pool is tiny ($946) and bonding-curve tokens stall fast; better to rotate capital into a stronger fresh launch than hope for more upside here. Frees the 1-position slot.
+

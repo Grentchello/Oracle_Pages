@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.508524,
+  "balance_sol": 4.565865,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7HnMf1oc7a68ELmKfmnMM3DQX7Tdz8m8jF38dGopump": {
-      "symbol": "DINOBOO",
-      "name": "DINOBOO",
-      "amount": 1192688.6792452831,
-      "entry_price_usd": 4.24e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T08:50:52.639201+00:00",
-      "entry_usd_value": 5.057,
-      "last_seen_price_usd": 4.24e-06,
-      "entry_signals": {
-        "liquidity_usd": 1083.45656704454,
-        "volume_24h_usd": 680.55,
-        "market_cap_usd": 4956.683348716405,
-        "ath_market_cap_usd": 4985.785424548283,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 10.712443811,
-        "description": "Dinoboo is a little prehistoric explorer who believes adventure isn’t about rushing—it’s about taking one small step at a time. While others hurry across the ancient world, Dinoboo wanders at his own peaceful pace, finding joy in quiet riversides, lush meadows, and the simple beauty of every moment.",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44805,19 +44781,30 @@
       "pnl_pct": 3.42,
       "exit_reason": "LLM: sell_all — Only +3.4% but I own 13% of a $40 pool — I AM the liquidity. Any meaningful size exit would crater price. Locking small green and freeing the slot is ",
       "partial": false
+    },
+    {
+      "mint": "7HnMf1oc7a68ELmKfmnMM3DQX7Tdz8m8jF38dGopump",
+      "symbol": "DINOBOO",
+      "name": "DINOBOO",
+      "amount_sold": 1192688.6792452831,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T08:50:52.639201+00:00",
+      "exit_time": "2026-09-10T08:52:24.061115+00:00",
+      "entry_price_usd": 4.24e-06,
+      "exit_price_usd": 4.867776776362215e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.057341,
+      "pnl_sol": 0.007341,
+      "pnl_pct": 14.81,
+      "exit_reason": "LLM: sell_all — Locking +14.8% gain before it reverses. Pool is tiny ($946) and bonding-curve tokens stall fast; better to rotate capital into a stronger fresh launch",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T08:50:52.639404+00:00",
+  "last_updated": "2026-09-10T08:52:25.081246+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.14,
-  "portfolio_value_usd": 461.05,
+  "last_sol_price_usd": 101.25,
+  "portfolio_value_usd": 462.29,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 08:29 UTC",
-      "action": "buy",
-      "details": "[LLM] $MEMEFATTY at $9.42693e-05, spent 0.05 SOL",
-      "reason": "$MEMEFATTY has the strongest narrative: explicit underdog story ('help him to 100M'), relatable image, low $3.6k mcap with viral potential. Pure attention-market bait."
-    },
     {
       "time": "2026-09-10 08:30 UTC",
       "action": "sell",
@@ -44931,30 +44918,48 @@
       "action": "buy",
       "details": "[LLM] $DINOBOO at $4.24e-06, spent 0.05 SOL",
       "reason": "$DINOBOO: cute 'little prehistoric explorer' narrative has universal meme appeal, passes viability gate (desc >50 chars, mcap $5k), no fragility keywords, age 1.4min is prime entry before bond curve completes. Fresh launch with story = best risk/reward of the slate."
+    },
+    {
+      "time": "2026-09-10 08:52 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DINOBOO at $4.86778e-06 | P&L: +14.8%",
+      "reason": "Locking +14.8% gain before it reverses. Pool is tiny ($946) and bonding-curve tokens stall fast; better to rotate capital into a stronger fresh launch than hope for more upside here. Frees the 1-position slot."
     }
   ],
   "trade_stats": {
-    "total": 2634,
-    "wins": 1283,
+    "total": 2635,
+    "wins": 1284,
     "losses": 1351,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.292235,
-    "avg_pnl_pct": 28.79,
+    "total_pnl_sol": 0.299576,
+    "avg_pnl_pct": 28.78,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 257,
-    "today_realized_sol": 2.97755,
-    "today_target_pct": 744.4,
+    "today_trades": 258,
+    "today_realized_sol": 2.984891,
+    "today_target_pct": 746.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1283,
+      "win_count": 1284,
       "loss_count": 1351,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T08:50:51.048150+00:00",
+  "last_llm_brief_at": "2026-09-10T08:52:24.061079+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "7HnMf1oc7a68ELmKfmnMM3DQX7Tdz8m8jF38dGopump": {
+      "price_usd": 4.867776776362215e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 945.61946073,
+      "volume_h24": 1461.46,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 9.339451464
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
