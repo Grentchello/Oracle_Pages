@@ -17329,3 +17329,6 @@
 ## [2026-09-10 00:37 UTC] sell | [PARTIAL][LLM] $NORMIE at $2.85285e-06 | P&L: -6.2%
 - **Reasoning:** Owning 47% of a $10 pool at -6.1% means I AM the exit liquidity — any other seller will crash through me. Cut now, redeploy into fresher attention.
 
+## [2026-09-10 00:38 UTC] sell | [FULL][LLM] $NORMIE at $2.8506e-06 | P&L: -6.2%
+- **Reasoning:** $NORMIE just opened 0.0h ago at -6.2%, bonding curve at 8% still has runway. Not at -25% hard stop, not stale (>15min). Give it a fair shot to bounce before rotating capital.
+
