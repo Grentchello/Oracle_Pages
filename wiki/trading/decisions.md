@@ -17842,3 +17842,6 @@
 ## [2026-09-10 03:43 UTC] buy | [LLM] $baton at $1.623e-05, spent 0.05 SOL
 - **Reasoning:** $baton has the freshest attention: real X account (ThomasReichel14), highest mcap ($17k) and bond (37%) in the batch, just launched — textbook pre-pump entry. Risk is thin liquidity and unknown narrative, but that's the trade.
 
+## [2026-09-10 03:44 UTC] sell | [rapid-drop] $baton crashed >15% in one tick | P&L: -81.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

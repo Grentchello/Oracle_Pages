@@ -1,32 +1,8 @@
 {
-  "balance_sol": 2.847307,
+  "balance_sol": 2.856463,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "D7reLcDYvonnc8zAwX3hBKse36UAW6JVEe9mhdgQpump": {
-      "symbol": "baton",
-      "name": "baton",
-      "amount": 313524.33764633397,
-      "entry_price_usd": 1.623e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T03:43:20.238837+00:00",
-      "entry_usd_value": 5.0885,
-      "last_seen_price_usd": 1.623e-05,
-      "entry_signals": {
-        "liquidity_usd": 4586.6050096319,
-        "volume_24h_usd": 9054.85,
-        "market_cap_usd": 17305.439034184103,
-        "ath_market_cap_usd": 18858.1305798537,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 45.06834047,
-        "description": "",
-        "twitter": "https://x.com/ThomasReichel14/status/2097893091151618110?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -42255,19 +42231,30 @@
       "pnl_pct": -58.95,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "D7reLcDYvonnc8zAwX3hBKse36UAW6JVEe9mhdgQpump",
+      "symbol": "baton",
+      "name": "baton",
+      "amount_sold": 313524.33764633397,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T03:43:20.238837+00:00",
+      "exit_time": "2026-09-10T03:44:24.271473+00:00",
+      "entry_price_usd": 1.623e-05,
+      "exit_price_usd": 2.9718514513341063e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.009156,
+      "pnl_sol": -0.040844,
+      "pnl_pct": -81.69,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T03:43:20.239115+00:00",
+  "last_updated": "2026-09-10T03:44:49.806808+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.77,
-  "portfolio_value_usd": 294.86,
+  "last_sol_price_usd": 101.76,
+  "portfolio_value_usd": 290.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 03:16 UTC",
-      "action": "buy",
-      "details": "[LLM] $chip at $1.59084e-05, spent 0.05 SOL",
-      "reason": "$chip 'blue chip' is the dominant meta-narrative on CT right now. This mint leads the duplicate-pair race at $15.9k mcap / 37% bond vs the rival at $5.3k / 21% — attention is consolidating on the winner. Fresh launch, classic narrative, organic rivalry = attention fuel. Risk: duplicate mints split mindshare; $5 position sizing keeps risk bounded."
-    },
     {
       "time": "2026-09-10 03:17 UTC",
       "action": "sell",
@@ -42381,30 +42368,48 @@
       "action": "buy",
       "details": "[LLM] $baton at $1.623e-05, spent 0.05 SOL",
       "reason": "$baton has the freshest attention: real X account (ThomasReichel14), highest mcap ($17k) and bond (37%) in the batch, just launched — textbook pre-pump entry. Risk is thin liquidity and unknown narrative, but that's the trade."
+    },
+    {
+      "time": "2026-09-10 03:44 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $baton crashed >15% in one tick | P&L: -81.7%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2484,
+    "total": 2485,
     "wins": 1222,
-    "losses": 1262,
+    "losses": 1263,
     "win_rate_pct": 49.2,
-    "total_pnl_sol": -1.369003,
-    "avg_pnl_pct": 28.98,
+    "total_pnl_sol": -1.409847,
+    "avg_pnl_pct": 28.94,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 107,
-    "today_realized_sol": 1.316312,
-    "today_target_pct": 329.1,
+    "today_trades": 108,
+    "today_realized_sol": 1.275468,
+    "today_target_pct": 318.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1222,
-      "loss_count": 1262,
+      "loss_count": 1263,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T03:43:18.820760+00:00",
+  "last_llm_brief_at": "2026-09-10T03:44:49.558733+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "D7reLcDYvonnc8zAwX3hBKse36UAW6JVEe9mhdgQpump": {
+      "price_usd": 2.9718514513341063e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 67.25742087936,
+      "volume_h24": 24270.32,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.660941636
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
