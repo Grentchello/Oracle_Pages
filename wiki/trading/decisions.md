@@ -17623,3 +17623,6 @@
 ## [2026-09-10 02:24 UTC] sell | [FULL][LLM] $SOUP at $2.90055e-06 | P&L: +0.0%
 - **Reasoning:** SOUP just entered, +0.0%, 0min held — not stale, no signal either way. Give it room to develop before judging; position is tiny (~$0.65 share at 13% of $39 pool).
 
+## [2026-09-10 02:26 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
