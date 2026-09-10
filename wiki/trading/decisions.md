@@ -17377,3 +17377,9 @@
 ## [2026-09-10 00:51 UTC] buy | [LLM] $QCAT at $8.60961e-06, spent 0.05 SOL
 - **Reasoning:** $QCAT has the strongest attention signal in this batch — twitter post from @dayquants plus dual listings (two $QCAT entries) suggesting coordinated viral interest. Quantum/cat narrative is highly memeable. 30% bond curve near completion = imminent graduation. Risk: dual mint could indicate scam fragmentation.
 
+## [2026-09-10 00:53 UTC] sell | [rapid-drop] $QCAT crashed >15% in one tick | P&L: -67.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 00:53 UTC] buy | [LLM] $Method at $3.067e-06, spent 0.05 SOL
+- **Reasoning:** $Method (The Scientific Method) — clever meta-narrative riding the 'pump science' attention wave, $3k mcap, bond still forming. Low entry, viral name potential.
+
