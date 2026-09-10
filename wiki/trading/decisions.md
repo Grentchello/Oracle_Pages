@@ -17335,3 +17335,9 @@
 ## [2026-09-10 00:40 UTC] buy | [LLM] $gpu at $4.003e-06, spent 0.05 SOL
 - **Reasoning:** $gpu rides the AI/Nvidia narrative — the strongest attention magnet in crypto right now. Description is substantive ('Real Nvidia exposure, tokenized and put to work onchain'), has a dedicated twitter (@gpusol_), and the AI/GPU meta is peak attention. Fresh launch at $4k mcap = early entry. Risk: very low mcap means illiquid and easy to dump.
 
+## [2026-09-10 00:41 UTC] sell | [rapid-drop] $gpu crashed >15% in one tick | P&L: -28.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 00:41 UTC] buy | [LLM] $MON at $3.6012e-07, spent 0.05 SOL
+- **Reasoning:** $MON just.monki has the strongest narrative — 300K+ followers, 'Millions of views,' and 'One AI monkey. Fone was the warm-up. This is the main event' is a clear sequel/graduation narrative riding an existing attention base. $4k mcap, 1.2min old, failing viability gate barely (no twitter on token, but high follower claim and clear story). ME2F risk: sequel coins often rug hard post-peak — must exit fast on +50%.
+
