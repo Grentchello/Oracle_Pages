@@ -17674,3 +17674,6 @@
 ## [2026-09-10 02:41 UTC] sell | [PARTIAL][LLM] $Joe at $3.55138e-08 | P&L: +0.0%
 - **Reasoning:** Pool=$1 liquidity with our share=963% means we're stuck in an illiquid position with no exit path and zero price movement at +0%. Better to cut and redeploy capital than sit trapped in a dead pool. The -25% hard cap aside, a $1 pool is effectively untradable.
 
+## [2026-09-10 02:43 UTC] sell | [FULL][LLM] $Joe at $3.66133e-08 | P&L: +3.1%
+- **Reasoning:** +3.1% fresh entry, just launched. Bonding curve only at 12% share, mcap tiny. Give it room to pump — no reason to exit at near-breakeven on a 0h-old position.
+
