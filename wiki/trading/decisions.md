@@ -19648,3 +19648,6 @@
 ## [2026-09-10 15:58 UTC] sell | [FULL][LLM] $AWE at $2.99889e-06 | P&L: +0.7%
 - **Reasoning:** Just entered 0.0h ago at +0.7%, no signal to exit yet — need a few more minutes to see direction. Will reassess on next tick.
 
+## [2026-09-10 16:00 UTC] buy | [LLM] $Jirkin at $4.00738e-06, spent 0.05 SOL
+- **Reasoning:** $Jirkin is the freshest launch with a real X attention signal from @coinvswall at 0.5min age. Mcap $3.9k with bond 14% = entry point still open. Memecoin name + viral tweet is the exact attention recipe; risk is rug on a 0.5min old mint but position is 0.05 SOL so loss capped.
+
