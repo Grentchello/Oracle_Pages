@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.539426,
+  "balance_sol": 1.568922,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CPUEAp8J1GrKZNezXpYVKDpDbvXgu69j7Pmirescpump": {
-      "symbol": "ETF",
-      "name": "Escape Traditional Finance",
-      "amount": 1051302.514491875,
-      "entry_price_usd": 4.819259851622049e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T00:29:15.786679+00:00",
-      "entry_usd_value": 5.0665000000000004,
-      "last_seen_price_usd": 4.819259851622049e-06,
-      "entry_signals": {
-        "liquidity_usd": 6.534680300339999,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4818.784251123516,
-        "ath_market_cap_usd": 5716.270086198998,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.064489098,
-        "description": "Escape Traditional Finance",
-        "twitter": "https://x.com/MayuriSolss/status/2097844543911501931",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40640,19 +40616,30 @@
       "pnl_pct": -52.1,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "CPUEAp8J1GrKZNezXpYVKDpDbvXgu69j7Pmirescpump",
+      "symbol": "ETF",
+      "name": "Escape Traditional Finance",
+      "amount_sold": 1051302.514491875,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T00:29:15.786679+00:00",
+      "exit_time": "2026-09-10T00:30:19.227602+00:00",
+      "entry_price_usd": 4.819259851622049e-06,
+      "exit_price_usd": 2.8415394072864616e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.029496,
+      "pnl_sol": -0.020504,
+      "pnl_pct": -41.04,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T00:29:15.786829+00:00",
+  "last_updated": "2026-09-10T00:30:48.184871+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.33,
-  "portfolio_value_usd": 161.06,
+  "last_sol_price_usd": 101.28,
+  "portfolio_value_usd": 158.9,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 00:06 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Duolingo at $1.33236e-07 | P&L: -0.2%",
-      "reason": "Down -0.2% after just opening, flat movement, no clear bounce signal. $Duolingo is a stale play on a tired narrative (the brand meme already peaked). Our 183% share of a $3 pool is dangerously illiquid. Cut the slot and rotate into fresher attention."
-    },
     {
       "time": "2026-09-10 00:08 UTC",
       "action": "sell",
@@ -40766,40 +40753,46 @@
       "action": "buy",
       "details": "[LLM] $ETF at $4.81926e-06, spent 0.05 SOL",
       "reason": "$ETF = 'Escape Traditional Finance' lands directly on the active ETF/crypto narrative (still hot institutional attention flow). Age 0.5min, mcap $4.8k = earliest entry on fresh story. Risk: tiny bond (19%) means liquidity is thin — bot enforces -30% SL so I only lose 0.1 SOL if it dies."
+    },
+    {
+      "time": "2026-09-10 00:30 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $ETF crashed >15% in one tick | P&L: -41.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2389,
+    "total": 2390,
     "wins": 1197,
-    "losses": 1192,
+    "losses": 1193,
     "win_rate_pct": 50.1,
-    "total_pnl_sol": -2.676884,
-    "avg_pnl_pct": 29.05,
+    "total_pnl_sol": -2.697388,
+    "avg_pnl_pct": 29.02,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 12,
-    "today_realized_sol": 0.008431,
-    "today_target_pct": 2.1,
+    "today_trades": 13,
+    "today_realized_sol": -0.012073,
+    "today_target_pct": -3.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1197,
-      "loss_count": 1192,
+      "loss_count": 1193,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T00:29:14.413875+00:00",
+  "last_llm_brief_at": "2026-09-10T00:30:48.184829+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "7vWzWxiPBmjQWDRWbn4TqjqZyXVr4CS1siHozFQKpump": {
-      "price_usd": 2.8694789572578512e-06,
+    "CPUEAp8J1GrKZNezXpYVKDpDbvXgu69j7Pmirescpump": {
+      "price_usd": 2.8415394072864616e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 19.46315562089,
-      "volume_h24": 5710.66,
+      "liquidity_usd": 5.28130413984,
+      "volume_h24": 5210.42,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.192076933
+      "real_sol_reserves": 0.052145578
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

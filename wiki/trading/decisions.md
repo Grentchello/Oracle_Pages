@@ -17311,3 +17311,6 @@
 ## [2026-09-10 00:29 UTC] buy | [LLM] $ETF at $4.81926e-06, spent 0.05 SOL
 - **Reasoning:** $ETF = 'Escape Traditional Finance' lands directly on the active ETF/crypto narrative (still hot institutional attention flow). Age 0.5min, mcap $4.8k = earliest entry on fresh story. Risk: tiny bond (19%) means liquidity is thin — bot enforces -30% SL so I only lose 0.1 SOL if it dies.
 
+## [2026-09-10 00:30 UTC] sell | [rapid-drop] $ETF crashed >15% in one tick | P&L: -41.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
