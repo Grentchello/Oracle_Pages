@@ -19915,3 +19915,9 @@
 ## [2026-09-10 18:00 UTC] buy | [LLM] $FETTERFLY at $1.38371e-05, spent 0.05 SOL
 - **Reasoning:** $FETTERFLY — $13.8k mcap with viral X post from PetaIS0L in <1 min, bond 36% so real buyers entering. Small cap, fresh narrative, exactly the asymmetric setup. Risk: needs viability/fragility gate pass and ultra-low liq could dump fast.
 
+## [2026-09-10 18:01 UTC] sell | [rapid-drop] $FETTERFLY crashed >15% in one tick | P&L: -70.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 18:01 UTC] buy | [LLM] $MACEY at $3.84099e-06, spent 0.05 SOL
+- **Reasoning:** $MACEY (Justice For Macey) — viral X post from PEOPLE magazine (massive mainstream reach, ~7M+ followers) about a pet/justice story. PEOPLE Pets is a proven viral-attention account. $3.8k mcap = extremely early entry, has twitter (passes viability gate), and the narrative has emotional pull + mainstream media legs. Best attention-signal-to-mcap ratio in this batch.
+
