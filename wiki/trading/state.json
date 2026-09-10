@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.391914,
+  "balance_sol": 4.406671,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "9uDpEL8q7gu5XqJGTWCXLdXfEWzamScyPtoAGCiupump": {
       "symbol": "blindape",
       "name": "no thesis",
-      "amount": 137003.98810899784,
+      "amount": 68501.99405449892,
       "entry_price_usd": 1.8603473046144185e-05,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0125,
       "entry_time": "2026-09-10T06:04:30.185531+00:00",
       "entry_usd_value": 5.0975,
-      "last_seen_price_usd": 2.2742388229245017e-05,
+      "last_seen_price_usd": 2.1927567681644238e-05,
       "entry_signals": {
         "liquidity_usd": 5160.09098389165,
         "volume_24h_usd": null,
@@ -43496,19 +43496,30 @@
       "pnl_pct": 22.25,
       "exit_reason": "LLM: sell_half — At +22.2% with no real thesis ('no thesis', desc just 'blind ape!') — exactly the >20% doubt case. Take half profit to lock +22%, let the other half r",
       "partial": true
+    },
+    {
+      "mint": "9uDpEL8q7gu5XqJGTWCXLdXfEWzamScyPtoAGCiupump",
+      "symbol": "blindape",
+      "name": "no thesis",
+      "amount_sold": 68501.99405449892,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T06:04:30.185531+00:00",
+      "exit_time": "2026-09-10T06:08:35.388367+00:00",
+      "entry_price_usd": 1.8603473046144185e-05,
+      "exit_price_usd": 2.1927567681644238e-05,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.014757,
+      "pnl_sol": 0.002257,
+      "pnl_pct": 17.87,
+      "exit_reason": "LLM: sell_half — Up17.9% in 6 minutes on thin $5.4k pool with no clear viral catalyst beyond generic 'blind ape' name. Lock half the gain per profit-taking discipline,",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T06:07:19.656873+00:00",
+  "last_updated": "2026-09-10T06:08:35.389574+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.84,
-  "portfolio_value_usd": 449.82,
+  "last_sol_price_usd": 101.79,
+  "portfolio_value_usd": 449.83,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 05:43 UTC",
-      "action": "buy",
-      "details": "[LLM] $PSYOP at $3.08129e-06, spent 0.05 SOL",
-      "reason": "$PSYOP at 0.2min, $3k mcap with real twitter link. Meta-narrative play ('psy op' meme about memecoin manipulation itself) is timely and viral-friendly. Passes viability gate assuming desc ≥50 chars. Risk: ultra-low mcap, bond only 4%, can rug fast."
-    },
     {
       "time": "2026-09-10 05:45 UTC",
       "action": "sell",
@@ -43622,40 +43633,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $blindape at $2.27424e-05 | P&L: +22.2%",
       "reason": "At +22.2% with no real thesis ('no thesis', desc just 'blind ape!') — exactly the >20% doubt case. Take half profit to lock +22%, let the other half ride if momentum continues. Frees rotation room."
+    },
+    {
+      "time": "2026-09-10 06:08 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $blindape at $2.19276e-05 | P&L: +17.9%",
+      "reason": "Up17.9% in 6 minutes on thin $5.4k pool with no clear viral catalyst beyond generic 'blind ape' name. Lock half the gain per profit-taking discipline, let the rest ride toward +25-30% TP."
     }
   ],
   "trade_stats": {
-    "total": 2557,
-    "wins": 1250,
+    "total": 2558,
+    "wins": 1251,
     "losses": 1307,
     "win_rate_pct": 48.9,
-    "total_pnl_sol": 0.150605,
+    "total_pnl_sol": 0.152862,
     "avg_pnl_pct": 29.43,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 180,
-    "today_realized_sol": 2.83592,
-    "today_target_pct": 709.0,
+    "today_trades": 181,
+    "today_realized_sol": 2.838177,
+    "today_target_pct": 709.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1250,
+      "win_count": 1251,
       "loss_count": 1307,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T06:07:19.656601+00:00",
+  "last_llm_brief_at": "2026-09-10T06:08:35.388329+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "9uDpEL8q7gu5XqJGTWCXLdXfEWzamScyPtoAGCiupump": {
-      "price_usd": 2.2742388229245017e-05,
+      "price_usd": 2.1927567681644238e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 5579.3104335108,
-      "volume_h24": 16529.54,
+      "liquidity_usd": 5422.6381964683505,
+      "volume_h24": 23405.03,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 54.785059245
+      "real_sol_reserves": 53.272798865
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

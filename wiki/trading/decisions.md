@@ -18247,3 +18247,6 @@
 ## [2026-09-10 06:07 UTC] sell | [PARTIAL][LLM] $blindape at $2.27424e-05 | P&L: +22.2%
 - **Reasoning:** At +22.2% with no real thesis ('no thesis', desc just 'blind ape!') — exactly the >20% doubt case. Take half profit to lock +22%, let the other half ride if momentum continues. Frees rotation room.
 
+## [2026-09-10 06:08 UTC] sell | [PARTIAL][LLM] $blindape at $2.19276e-05 | P&L: +17.9%
+- **Reasoning:** Up17.9% in 6 minutes on thin $5.4k pool with no clear viral catalyst beyond generic 'blind ape' name. Lock half the gain per profit-taking discipline, let the rest ride toward +25-30% TP.
+
