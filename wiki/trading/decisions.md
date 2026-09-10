@@ -17719,3 +17719,9 @@
 ## [2026-09-10 02:56 UTC] buy | [LLM] $Tiktok at $6.769e-06, spent 0.05 SOL
 - **Reasoning:** $Tiktok — TikTok is a globally viral brand name with massive attention potential. Highest mcap ($7k) and bond completion (27%) in the batch, plus a twitter link. At $7k mcap with a recognizable name, 5-10x is plausible if it catches a wave. Risk: brand-impersonation tokens often get flagged by platforms, but the upside on a fresh viral brand name is the attention alpha we want.
 
+## [2026-09-10 02:57 UTC] sell | [rapid-drop] $Tiktok crashed >15% in one tick | P&L: -47.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 02:58 UTC] buy | [LLM] $Unitslob at $4.74482e-06, spent 0.05 SOL
+- **Reasoning:** 100 SOL dev buy at bond is the strongest attention signal in this batch — that's ~$10k committed capital at launch, which either signals real conviction or creates immediate liquidity depth for a pump. mcap is only $4.7k so upside is asymmetric if it catches. Risk: dev could dump their own position.
+
