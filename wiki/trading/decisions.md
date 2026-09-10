@@ -19237,3 +19237,9 @@
 ## [2026-09-10 13:19 UTC] buy | [LLM] $FRO at $1.65118e-06, spent 0.05 SOL
 - **Reasoning:** FRO COIN has the strongest narrative of the batch — emotional pet-memorial story ('in loving memory of KiiNG LOUIE, a pug') with a dedicated Twitter (@DABIGGESTFRO). Memorial/animal memes historically pump hard on memecoin Twitter because they're shareable and tug at heartstrings. Risk: bond only 1% complete, liquidity thin, fresh deploy (0.1min). Size 0.1 SOL — small enough to absorb a full rug while still capturing a 2-3x if the story catches.
 
+## [2026-09-10 13:20 UTC] sell | [rapid-drop] $FRO crashed >15% in one tick | P&L: -96.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 13:20 UTC] buy | [LLM] $humanhuman at $4.57e-06, spent 0.05 SOL
+- **Reasoning:** $humanhuman — narrative 'human social network' taps AI/agent meta, $4.1k mcap is entry-grade, fresh launch. Buying 0.1 SOL to test attention momentum.
+
