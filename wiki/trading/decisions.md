@@ -17542,3 +17542,6 @@
 ## [2026-09-10 01:51 UTC] sell | [FULL][LLM] $MALONE at $3.65045e-06 | P&L: +8.5%
 - **Reasoning:** $MALONE is up +8.5% but only just bought (0.0h held) — give it room to develop the bounce. Pool is thin at $416 so any exit now crystallizes a small gain into fees; will reassess at +30% TP threshold or 30-min stale mark.
 
+## [2026-09-10 01:53 UTC] buy | [LLM] $Larry at $2.8229e-06, spent 0.05 SOL
+- **Reasoning:** Direct tweet from @elonmusk (top attention signal in batch). '98yr old Larry buys first Tesla with FSD' is absurdist viral nonsense — exactly the kind of narrative that 10x's on Elon attention. Fresh launch ($2.8k mcap, 1min old) means early entry. Risk: Elon tweets reverse fast — must scalp, not bag-hold.
+
