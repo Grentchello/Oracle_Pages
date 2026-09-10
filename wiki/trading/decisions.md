@@ -17365,3 +17365,9 @@
 ## [2026-09-10 00:49 UTC] buy | [LLM] $BALLS at $3.517e-06, spent 0.05 SOL
 - **Reasoning:** $BALLS has a clear viral meme hook ('BUY THIS IF YOU GOT BALLS'), X post attached, 13% bond early enough to ride a pump, and the irreverent tone fits attention-market playbook — risk is the no-roadmap joke could die fast.
 
+## [2026-09-10 00:50 UTC] sell | [FULL][LLM] $BALLS at $3.45644e-06 | P&L: -1.7%
+- **Reasoning:** $BALLS is flat (-1.7%) on a bonding curve with only $320 pool liquidity (well below 5x position size rule of $500). This is exactly the kind of thin-liquidity position that will gap down hard. Cut it loose to free up the slot for a higher-attention launch.
+
+## [2026-09-10 00:50 UTC] buy | [LLM] $EXTINCTION at $4.60397e-07, spent 0.05 SOL
+- **Reasoning:** $EXTINCTION has viral-attention signal: tweet from @mdudas (notable crypto commentator, 200k+ followers), apocalyptic narrative fits current macro fear mood, $4.5k mcap with momentum. Best risk/reward among candidates — clear attention catalyst, funny-but-real narrative.
+
