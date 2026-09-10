@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.975002,
+  "balance_sol": 5.024931,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AmsWUCZ2XWBEhxP9GjYyfi2gKXfbJFKSdVJauCvpump": {
-      "symbol": "Pons",
-      "name": "ponsdotfamily",
-      "amount": 771.8750000000001,
-      "entry_price_usd": 0.00656,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T10:45:44.473705+00:00",
-      "entry_usd_value": 5.0635,
-      "last_seen_price_usd": 0.00656,
-      "entry_signals": {
-        "liquidity_usd": 214601.95,
-        "volume_24h_usd": 99342.25,
-        "market_cap_usd": 6560820.610576037,
-        "ath_market_cap_usd": 6560820.610576037,
-        "volatility_score": null,
-        "boost_mode": "IN_PROGRESS",
-        "real_sol_reserves": 85.005359057,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45519,19 +45495,30 @@
       "pnl_pct": -5.02,
       "exit_reason": "LLM: sell_all — $CIJ is down 5.0% and has no demonstrated momentum; the huge reported pool/share anomaly and bonding-curve status add execution risk. Exit quickly to ",
       "partial": false
+    },
+    {
+      "mint": "AmsWUCZ2XWBEhxP9GjYyfi2gKXfbJFKSdVJauCvpump",
+      "symbol": "Pons",
+      "name": "ponsdotfamily",
+      "amount_sold": 771.8750000000001,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T10:45:44.473705+00:00",
+      "exit_time": "2026-09-10T10:47:11.496026+00:00",
+      "entry_price_usd": 0.00656,
+      "exit_price_usd": 0.00655,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049929,
+      "pnl_sol": -7.1e-05,
+      "pnl_pct": -0.15,
+      "exit_reason": "LLM: sell_all — Position is 0.0h old, only -0.2%, and pool liquidity of $214k is healthy. Not stale, not a loser, just opened. Give it time to develop before any exit",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T10:45:44.473869+00:00",
+  "last_updated": "2026-09-10T10:47:11.496251+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.27,
-  "portfolio_value_usd": 508.88,
+  "last_sol_price_usd": 101.26,
+  "portfolio_value_usd": 508.82,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 10:21 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $cap crashed >15% in one tick | P&L: -20.5%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 10:22 UTC",
       "action": "buy",
@@ -45645,40 +45632,44 @@
       "action": "buy",
       "details": "[LLM] $Pons at $0.00656, spent 0.05 SOL",
       "reason": "$Pons is the strongest fresh attention signal, already at a $6.56M market cap with 43% bonding-curve completion and a distinctive Pons narrative. Enter at the 0.1 SOL cap despite momentum risk, while keeping the reserve requirement in mind."
+    },
+    {
+      "time": "2026-09-10 10:47 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Pons at $0.00655 | P&L: -0.1%",
+      "reason": "Position is 0.0h old, only -0.2%, and pool liquidity of $214k is healthy. Not stale, not a loser, just opened. Give it time to develop before any exit decision."
     }
   ],
   "trade_stats": {
-    "total": 2676,
+    "total": 2677,
     "wins": 1302,
-    "losses": 1374,
-    "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.758715,
-    "avg_pnl_pct": 28.71,
+    "losses": 1375,
+    "win_rate_pct": 48.6,
+    "total_pnl_sol": 0.758644,
+    "avg_pnl_pct": 28.7,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 299,
-    "today_realized_sol": 3.44403,
+    "today_trades": 300,
+    "today_realized_sol": 3.443959,
     "today_target_pct": 861.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1302,
-      "loss_count": 1374,
+      "loss_count": 1375,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:45:43.315188+00:00",
+  "last_llm_brief_at": "2026-09-10T10:47:11.495884+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "7YNc1YvHmE4dFLaZPYLPZSnqh1dy2SfvdqN2noKjpump": {
-      "price_usd": 2.831407269432684e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1.0127e-07,
-      "volume_h24": 160.02,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1e-09
+    "AmsWUCZ2XWBEhxP9GjYyfi2gKXfbJFKSdVJauCvpump": {
+      "price_usd": 0.00655,
+      "change_h24": 15461.0,
+      "change_h1": 15461.0,
+      "liquidity_usd": 214439.3,
+      "volume_h24": 99401.35,
+      "dex_id": "pumpswap",
+      "source": "dexscreener"
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
