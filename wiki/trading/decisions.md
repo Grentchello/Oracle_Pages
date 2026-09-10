@@ -17527,3 +17527,9 @@
 ## [2026-09-10 01:46 UTC] buy | [LLM] $birds at $1.20647e-05, spent 0.05 SOL
 - **Reasoning:** $birds 'birds arent real' is a strong viral conspiracy meme with the highest mcap ($12k) and furthest bond progress (34%) in the batch — narrative has clear attention potential and twitter account looks dedicated. Risky at 0.4min age but the meme has cultural cache.
 
+## [2026-09-10 01:47 UTC] sell | [v8.7 TP +50% (full)] $birds at $2.61176e-05 | P&L: +116.5%
+- **Reasoning:** Auto take-profit at +116.5%
+
+## [2026-09-10 01:47 UTC] buy | [LLM] $Altcoin at $4.046e-06, spent 0.05 SOL
+- **Reasoning:** $Altcoin is a meta-meme about 'alternative coins' itself — self-referential crypto humor has viral legs (see $BTC parody cycles). Twitter handle active, narrative strong, 1min old. Risk: tiny mcap, but that's where attention compounds.
+
