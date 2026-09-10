@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.281736,
+  "balance_sol": 4.27121,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "Fi5sKBsfqfFzwYUbQEBdGYUENefFgdT3Xhaqm2sGpump": {
-      "symbol": "Stock",
-      "name": "Out Of Stock",
-      "amount": 1248818.4861351147,
-      "entry_price_usd": 4.007547978800917e-06,
+    "ADcZvrYVEDyvcD69KEK2VqF5k9GdY8xaNeFkr2D5pump": {
+      "symbol": "RC ",
+      "name": "Robot companions",
+      "amount": 1755024.5686497728,
+      "entry_price_usd": 2.8512706257154356e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T15:42:48.496333+00:00",
-      "entry_usd_value": 5.0047,
-      "last_seen_price_usd": 4.007547978800917e-06,
+      "entry_time": "2026-09-10T15:44:11.017894+00:00",
+      "entry_usd_value": 5.00405,
+      "last_seen_price_usd": 2.8512706257154356e-06,
       "entry_signals": {
-        "liquidity_usd": 690.625439049152,
+        "liquidity_usd": 28.357772104929,
         "volume_24h_usd": null,
-        "market_cap_usd": 3988.976051132887,
-        "ath_market_cap_usd": 4605.899017015013,
+        "market_cap_usd": 2838.9483447392563,
+        "ath_market_cap_usd": 2838.9483447392563,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 6.899768608,
-        "description": "",
-        "twitter": "https://x.com/HimothyJamesJr_/status/2098074517713072407",
+        "real_sol_reserves": 0.283348209,
+        "description": "Robot companions",
+        "twitter": "https://x.com/irvinxyz/status/2096225585718833184?s=46",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -47712,25 +47712,30 @@
       "pnl_pct": 0.77,
       "exit_reason": "LLM: sell_all — $BORING is flat (+0.8%) and just opened. Pool is thin at $108 and we're already 5% of it — adding more would dominate liquidity. Holding to see if bon",
       "partial": false
+    },
+    {
+      "mint": "Fi5sKBsfqfFzwYUbQEBdGYUENefFgdT3Xhaqm2sGpump",
+      "symbol": "Stock",
+      "name": "Out Of Stock",
+      "amount_sold": 1248818.4861351147,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T15:42:48.496333+00:00",
+      "exit_time": "2026-09-10T15:43:52.600169+00:00",
+      "entry_price_usd": 4.007547978800917e-06,
+      "exit_price_usd": 3.1634921679861593e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.039474,
+      "pnl_sol": -0.010526,
+      "pnl_pct": -21.06,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T15:42:48.496533+00:00",
+  "last_updated": "2026-09-10T15:44:11.018155+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.094,
-  "portfolio_value_usd": 433.58,
+  "last_sol_price_usd": 100.081,
+  "portfolio_value_usd": 432.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 15:22 UTC",
-      "action": "buy",
-      "details": "[LLM] $STRAIGHT at $1.22356e-05, spent 0.05 SOL",
-      "reason": "$STRAIGHT has a real X post from Infinitidigits backing it, viral 'buy if you're straight' attention-bait framing, $12k mcap, passes viability (twitter) and fragility gates. Position size 0.05 SOL — high rug risk at 0.3min age and34% bond, but the attention signal is concrete. -25% hard stop limits downside to ~0.0125 SOL."
-    },
-    {
-      "time": "2026-09-10 15:23 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $STRAIGHT at $1.29798e-05 | P&L: +6.1%",
-      "reason": "Just entered at +6.1%, bonding curve, no signal to rotate yet. Need more time to develop. New launches are too fresh/low-mcap to justify swapping out."
-    },
     {
       "time": "2026-09-10 15:24 UTC",
       "action": "buy",
@@ -47838,40 +47843,52 @@
       "action": "buy",
       "details": "[LLM] $Stock at $4.00755e-06, spent 0.05 SOL",
       "reason": "$Stock 'Out Of Stock' mcap $4k, has X tweet. Stock/meme-culture crossover has pump potential (TSLA short squeeze vibes, scarcity narrative). Low mcap, fresh, has attention signal via twitter link. Risk: thin liquidity, dev could dump."
+    },
+    {
+      "time": "2026-09-10 15:43 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Stock crashed >15% in one tick | P&L: -21.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 15:44 UTC",
+      "action": "buy",
+      "details": "[LLM] $RC  at $2.85127e-06, spent 0.05 SOL",
+      "reason": "$RC 'Robot companions' (Robot Companions): viability passes — desc present, twitter link to @irvinxyz present. Narrative is timely (AI/robotics attention cycle with Tesla bot/Optimus culture). $2.8k mcap, 0.3min old — fresh enough for early-mover entry. AI-robotics is a proven attention narrative on Solana."
     }
   ],
   "trade_stats": {
-    "total": 2805,
+    "total": 2806,
     "wins": 1340,
-    "losses": 1465,
+    "losses": 1466,
     "win_rate_pct": 47.8,
-    "total_pnl_sol": 0.065494,
-    "avg_pnl_pct": 26.94,
+    "total_pnl_sol": 0.054968,
+    "avg_pnl_pct": 26.93,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 428,
-    "today_realized_sol": 2.750809,
-    "today_target_pct": 687.7,
+    "today_trades": 429,
+    "today_realized_sol": 2.740283,
+    "today_target_pct": 685.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1340,
-      "loss_count": 1465,
+      "loss_count": 1466,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T15:42:47.162889+00:00",
+  "last_llm_brief_at": "2026-09-10T15:44:09.484020+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5z5xY3FpU1soN6DNc1vcEAvbZu5mMbZftUdypybULuBj": {
-      "price_usd": 3.0040621790799623e-06,
+    "Fi5sKBsfqfFzwYUbQEBdGYUENefFgdT3Xhaqm2sGpump": {
+      "price_usd": 3.1634921679861593e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 108.31580964309599,
-      "volume_h24": 108.0,
+      "liquidity_usd": 189.987540858155,
+      "volume_h24": 4100.38,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.082140884
+      "real_sol_reserves": 1.898337755
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
