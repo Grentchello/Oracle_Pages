@@ -17488,3 +17488,9 @@
 ## [2026-09-10 01:32 UTC] buy | [LLM] $BALLERINA at $3.727e-06, spent 0.05 SOL
 - **Reasoning:** Ballerina Cappuccina is a viral character meme with verifiable X source and discord origin — strong attention-narrative fit at sub-$5k mcap, 0.7min age. Risk: sub-1min launch with bond only 20%, thin liquidity.
 
+## [2026-09-10 01:33 UTC] sell | [rapid-drop] $BALLERINA crashed >15% in one tick | P&L: -15.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 01:34 UTC] buy | [LLM] $Roast at $3.054e-06, spent 0.05 SOL
+- **Reasoning:** $Roast is riding a live news narrative — Samsung and Duolingo publicly roasting Apple over its foldable phone announcement, cross-posted from official brand accounts. Real cultural attention with $3k mcap means room to run if the story catches. Risk: bond only 4% complete, very thin liquidity, could rug if no further engagement.
+
