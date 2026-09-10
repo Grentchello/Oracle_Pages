@@ -17446,3 +17446,9 @@
 ## [2026-09-10 01:19 UTC] sell | [PARTIAL][LLM] $CATBUTT at $2.82665e-06 | P&L: -0.1%
 - **Reasoning:** Held 0.0h at -0.2% essentially flat. 751% pool share is dangerous whale concentration even at entry — if anyone else sells first, I get crushed. Cut the risk and free the slot for a fresh launch with clearer narrative.
 
+## [2026-09-10 01:20 UTC] sell | [FULL][LLM] $CATBUTT at $2.83406e-06 | P&L: +0.1%
+- **Reasoning:** Just entered 0.0h ago, flat. Will reassess on next tick. Note: 25% pool share is concentrated but it's bonding curve mechanics, not a rug pattern yet.
+
+## [2026-09-10 01:20 UTC] buy | [LLM] $NPC at $2.96597e-06, spent 0.05 SOL
+- **Reasoning:** $NPC — NPC wojak is a top-tier evergreen internet meme, simulation theory angle adds narrative depth. Has both twitter link AND 50+ char description (clears viability). Fresh launch ($2.9k mcap) with real attention signal.
+
