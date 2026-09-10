@@ -17431,3 +17431,9 @@
 ## [2026-09-10 01:15 UTC] buy | [LLM] $Erebus at $6.40419e-06, spent 0.05 SOL
 - **Reasoning:** Erebus has the strongest narrative of the slate: an AI jailbreak story paired with a fresh X post, and its $6,405 market cap offers substantial early-attention upside. The main risks are extremely low liquidity and a very young bond curve, so this is a small, momentum-based entry.
 
+## [2026-09-10 01:16 UTC] sell | [FULL][LLM] $Erebus at $9.26993e-06 | P&L: +44.8%
+- **Reasoning:** Up +44.7% on a $2.4k pool — extremely thin liquidity, gains can evaporate in one trade. Lock the profit now and free the position slot for a fresh entry. Hard TP ladder will hit at +50% but waiting on this size pool is reckless.
+
+## [2026-09-10 01:16 UTC] buy | [LLM] $$ROYAL at $9.17591e-07, spent 0.05 SOL
+- **Reasoning:** Pepe Royale narrative has the clearest meme story (turn internet chaos into royalty), highest mcap in the fresh batch ($9k), and a recognisable Pepe-franchise hook. Better attention signal than the random j7tracker/Beast bot launches.
+
