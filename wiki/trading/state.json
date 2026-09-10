@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.172145,
+  "balance_sol": 4.222145,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HMcuNbntXkoeQoVQvzkmDbpJpxqQF5VYw9gJqPhEpump": {
-      "symbol": "COK",
-      "name": "Children Of Khan",
-      "amount": 1742147.4983468223,
-      "entry_price_usd": 2.882649146966908e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T17:34:16.521791+00:00",
-      "entry_usd_value": 5.022,
-      "last_seen_price_usd": 2.882649146966908e-06,
-      "entry_signals": {
-        "liquidity_usd": 39.67999985988,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2877.073581058041,
-        "ath_market_cap_usd": 2877.073581058041,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.395061727,
-        "description": "you met me at a very Chinese time in my life. https://www.childrenofkhan.com",
-        "twitter": "https://x.com/ChildOfKhan_",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -48494,19 +48470,30 @@
       "pnl_pct": 0.5,
       "exit_reason": "LLM: sell_all — Just opened at +0.5% on bonding curve, 0.0h held — no signal yet. Free option on attention; let the bot's +30%/-30% rails do the work.",
       "partial": false
+    },
+    {
+      "mint": "HMcuNbntXkoeQoVQvzkmDbpJpxqQF5VYw9gJqPhEpump",
+      "symbol": "COK",
+      "name": "Children Of Khan",
+      "amount_sold": 1742147.4983468223,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T17:34:16.521791+00:00",
+      "exit_time": "2026-09-10T17:35:53.114442+00:00",
+      "entry_price_usd": 2.882649146966908e-06,
+      "exit_price_usd": 2.878344115385416e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05,
+      "pnl_sol": -0.0,
+      "pnl_pct": -0.15,
+      "exit_reason": "LLM: sell_all — Just entered, -0.1% is noise on a fresh bonding-curve position. No clear negative signal yet; auto-rules will kill it at -25% or 30min if nothing deve",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T17:34:16.522080+00:00",
+  "last_updated": "2026-09-10T17:35:53.114699+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.44,
-  "portfolio_value_usd": 424.07,
+  "last_sol_price_usd": 100.29,
+  "portfolio_value_usd": 423.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 17:12 UTC",
-      "action": "buy",
-      "details": "[LLM] $CFENT at $3.05528e-06, spent 0.05 SOL",
-      "reason": "Only candidate passing viability gate (desc 51 chars + twitter). Carfentanil drug-meme has viral shock-value attention from @creepydotorg; edge of attention market. 0.05 SOL = $5 risk if it rugs; -25% hard cap means max loss ~$1.25. Will exit fast if no pump in 15min."
-    },
     {
       "time": "2026-09-10 17:14 UTC",
       "action": "sell",
@@ -48620,30 +48607,48 @@
       "action": "buy",
       "details": "[LLM] $COK at $2.88265e-06, spent 0.05 SOL",
       "reason": "$COK (Children of Khan) has a website (childrenofkhan.com) and active twitter @ChildOfKhan_ — actual project narrative with Chinese meme energy ('very Chinese time'), mcap only $2.8k. Best narrative-to-mcap ratio in the slate."
+    },
+    {
+      "time": "2026-09-10 17:35 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $COK at $2.87834e-06 | P&L: -0.1%",
+      "reason": "Just entered, -0.1% is noise on a fresh bonding-curve position. No clear negative signal yet; auto-rules will kill it at -25% or 30min if nothing develops. Give it one more tick to see if the curve fills — no reason to bail on a position that's barely been held."
     }
   ],
   "trade_stats": {
-    "total": 2851,
+    "total": 2852,
     "wins": 1361,
-    "losses": 1490,
+    "losses": 1491,
     "win_rate_pct": 47.7,
     "total_pnl_sol": -0.044097,
-    "avg_pnl_pct": 26.52,
+    "avg_pnl_pct": 26.51,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 474,
+    "today_trades": 475,
     "today_realized_sol": 2.641218,
     "today_target_pct": 660.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1361,
-      "loss_count": 1490,
+      "loss_count": 1491,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T17:34:15.168471+00:00",
+  "last_llm_brief_at": "2026-09-10T17:35:53.114259+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HMcuNbntXkoeQoVQvzkmDbpJpxqQF5VYw9gJqPhEpump": {
+      "price_usd": 2.878344115385416e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 39.62074060083,
+      "volume_h24": 39.6,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.395061727
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

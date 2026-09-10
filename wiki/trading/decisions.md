@@ -19861,3 +19861,6 @@
 ## [2026-09-10 17:34 UTC] buy | [LLM] $COK at $2.88265e-06, spent 0.05 SOL
 - **Reasoning:** $COK (Children of Khan) has a website (childrenofkhan.com) and active twitter @ChildOfKhan_ — actual project narrative with Chinese meme energy ('very Chinese time'), mcap only $2.8k. Best narrative-to-mcap ratio in the slate.
 
+## [2026-09-10 17:35 UTC] sell | [FULL][LLM] $COK at $2.87834e-06 | P&L: -0.1%
+- **Reasoning:** Just entered, -0.1% is noise on a fresh bonding-curve position. No clear negative signal yet; auto-rules will kill it at -25% or 30min if nothing develops. Give it one more tick to see if the curve fills — no reason to bail on a position that's barely been held.
+
