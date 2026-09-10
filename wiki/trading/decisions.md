@@ -20629,3 +20629,9 @@
 ## [2026-09-10 22:20 UTC] buy | [LLM] $SILYAN at $6.98714e-06, spent 0.05 SOL
 - **Reasoning:** $SILYAN (The Tale Of Silyan) — highest bond completion (27%) in the list, $7k mcap, has twitter presence. Bond near graduation = real liquidity forming. Fresh narrative, decent attention signal. Speculative small entry to test the launch.
 
+## [2026-09-10 22:21 UTC] sell | [rapid-drop] $SILYAN crashed >15% in one tick | P&L: -59.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 22:21 UTC] buy | [LLM] $Nvidia at $2.21163e-07, spent 0.05 SOL
+- **Reasoning:** $Nvidia — massive brand parody narrative, fresh launch at $4.8k mcap, the Nvidia AI hype is evergreen attention. Early entry before any curve migration. Risk: brand parody tokens can rug fast — tight stop enforced by bot.
+
