@@ -18385,3 +18385,9 @@
 ## [2026-09-10 07:02 UTC] buy | [LLM] $TikTok at $2.93895e-06, spent 0.05 SOL
 - **Reasoning:** 'TikTok — Not Working, Not PAYING' has viral anti-meta narrative targeting TikTok creators who got rugged. This is a relatable, attention-rich story for the creator economy crowd. Mcap $2.9k, bond only 2% = very early entry. Twitter link present. Risk: narrative may not gain traction, but the meta-rug counter-narrative is hot right now.
 
+## [2026-09-10 07:04 UTC] sell | [FULL][LLM] $TikTok at $2.88652e-06 | P&L: -1.8%
+- **Reasoning:** Holding 21% of a $24 pool is extreme concentration risk — any other seller will crater our position. We're only down 1.8%, so we can exit clean and free the slot for a stronger narrative play.
+
+## [2026-09-10 07:04 UTC] buy | [LLM] $GTAVI at $2.91168e-09, spent 0.05 SOL
+- **Reasoning:** $GTAVI taps GTA VI — one of the most anticipated gaming releases ever, a proven viral attention magnet. $6k mcap at 0.7min is textbook early-entry territory; high upside if any Rockstar-related catalyst hits X.
+
