@@ -20551,3 +20551,9 @@
 ## [2026-09-10 21:42 UTC] buy | [LLM] $MARIO at $6.6925e-06, spent 0.05 SOL
 - **Reasoning:** MARIO - SuperMarioBrosCoin on pump.fun, fresh launch ~0.2min, mc $6.6k with active X callout (PUPinTrenches). Mario is a globally recognized IP with instant recognition and viral meme potential. Bond at 26% with growing mcap suggests early momentum - classic low-mc attention play.
 
+## [2026-09-10 21:43 UTC] sell | [v8.7 TP +50% (full)] $MARIO at $1.09141e-05 | P&L: +63.1%
+- **Reasoning:** Auto take-profit at +63.1%
+
+## [2026-09-10 21:43 UTC] buy | [LLM] $SOLANAFROG at $7.67449e-06, spent 0.05 SOL
+- **Reasoning:** $SOLANAFROG passes viability gate (mcap $7,679 > $3k liquidity, no desc needed), no fragility flags, animal/frog narrative has proven memecoin legs (pepe/frog meta), brand-new (0.3min) and clean. 0.05 SOL position to test the water.
+
