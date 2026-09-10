@@ -17470,3 +17470,9 @@
 ## [2026-09-10 01:27 UTC] buy | [LLM] $STARTUP at $6.63e-06, spent 0.05 SOL
 - **Reasoning:** $STARTUP has the freshest narrative (startup memecoin), highest mcap of the new batch at ~$10k,32% bond already filled, and active twitter. Classic 'launch meta' attention play — early entry before the curve completes.
 
+## [2026-09-10 01:28 UTC] sell | [v8.7 TP +50% (full)] $STARTUP at $1.92766e-05 | P&L: +190.8%
+- **Reasoning:** Auto take-profit at +190.7%
+
+## [2026-09-10 01:28 UTC] buy | [LLM] $FART at $5.06812e-06, spent 0.05 SOL
+- **Reasoning:** $FART (FacebookAppleRobloxTesla) is an absurdist acronym meme with a live X link from @selfawarepepe — exactly the ironic self-aware humor that pumps on memecoin CT. $5k mcap with0.5min age means room to run; risk is bond is only 20% complete so liquidity is thin — use0.05 SOL and watch for quick exit.
+
