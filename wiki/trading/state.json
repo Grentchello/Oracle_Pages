@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.303311,
+  "balance_sol": 4.303342,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3YHMxjS8GChkKoVy5qRDmq9hbAVcVooJxgUabQtcNz9r": {
-      "symbol": "69",
-      "name": "69coin",
-      "amount": 1154976.655708525,
-      "entry_price_usd": 3.1718863886131355e-09,
-      "entry_sol_spent": 3.6043435000076636e-05,
-      "entry_time": "2026-09-10T06:30:52.340804+00:00",
-      "entry_usd_value": 5.082000000000001,
-      "last_seen_price_usd": 2.6853281706350818e-09,
-      "entry_signals": {
-        "liquidity_usd": 0.3299402106,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 4591.818630536556,
-        "ath_market_cap_usd": 5293.415872115781,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.003246165,
-        "description": "",
-        "twitter": "https://x.com/elonmusk/status/1557943469984956417?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -43751,19 +43727,30 @@
       "pnl_pct": -15.34,
       "exit_reason": "LLM: sell_all — Down 15% in 6 min on bonding curve with 186% share concentration (illiquid). The Elon tweet (2022) is recycled, not fresh. Cut loss before -25% hard s",
       "partial": true
+    },
+    {
+      "mint": "3YHMxjS8GChkKoVy5qRDmq9hbAVcVooJxgUabQtcNz9r",
+      "symbol": "69",
+      "name": "69coin",
+      "amount_sold": 1154976.655708525,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T06:30:52.340804+00:00",
+      "exit_time": "2026-09-10T06:37:19.809814+00:00",
+      "entry_price_usd": 3.1718863886131355e-09,
+      "exit_price_usd": 2.6877073745665363e-09,
+      "entry_sol_for_chunk": 3.6e-05,
+      "exit_sol_received": 3.1e-05,
+      "pnl_sol": -6e-06,
+      "pnl_pct": -15.26,
+      "exit_reason": "LLM: sell_all — Down 15.3% in 6 min on a bonding-curve token with pool=$0 — liquidity has already evaporated, this is effectively dead. Better to lock the loss now at",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T06:35:34.729566+00:00",
+  "last_updated": "2026-09-10T06:37:19.811079+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.58,
-  "portfolio_value_usd": 437.13,
+  "last_sol_price_usd": 101.67,
+  "portfolio_value_usd": 437.52,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 06:13 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $MKO crashed >15% in one tick | P&L: -32.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 06:14 UTC",
       "action": "buy",
@@ -43877,35 +43864,41 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $69 at $2.68533e-09 | P&L: -15.3%",
       "reason": "Down 15% in 6 min on bonding curve with 186% share concentration (illiquid). The Elon tweet (2022) is recycled, not fresh. Cut loss before -25% hard stop."
+    },
+    {
+      "time": "2026-09-10 06:37 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $69 at $2.68771e-09 | P&L: -15.3%",
+      "reason": "Down 15.3% in 6 min on a bonding-curve token with pool=$0 — liquidity has already evaporated, this is effectively dead. Better to lock the loss now at ~-15% than wait for the -25% hard cap to trigger or watch it bleed further."
     }
   ],
   "trade_stats": {
-    "total": 2572,
+    "total": 2573,
     "wins": 1255,
-    "losses": 1317,
+    "losses": 1318,
     "win_rate_pct": 48.8,
-    "total_pnl_sol": 0.037038,
-    "avg_pnl_pct": 29.17,
+    "total_pnl_sol": 0.037032,
+    "avg_pnl_pct": 29.15,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 195,
-    "today_realized_sol": 2.722353,
+    "today_trades": 196,
+    "today_realized_sol": 2.722347,
     "today_target_pct": 680.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1255,
-      "loss_count": 1317,
+      "loss_count": 1318,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T06:35:34.728831+00:00",
+  "last_llm_brief_at": "2026-09-10T06:37:19.809779+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "3YHMxjS8GChkKoVy5qRDmq9hbAVcVooJxgUabQtcNz9r": {
-      "price_usd": 2.6853281706350818e-09,
+      "price_usd": 2.6877073745665363e-09,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.0124059654,
+      "liquidity_usd": 0.0124169571,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",

@@ -18322,3 +18322,6 @@
 ## [2026-09-10 06:35 UTC] sell | [PARTIAL][LLM] $69 at $2.68533e-09 | P&L: -15.3%
 - **Reasoning:** Down 15% in 6 min on bonding curve with 186% share concentration (illiquid). The Elon tweet (2022) is recycled, not fresh. Cut loss before -25% hard stop.
 
+## [2026-09-10 06:37 UTC] sell | [FULL][LLM] $69 at $2.68771e-09 | P&L: -15.3%
+- **Reasoning:** Down 15.3% in 6 min on a bonding-curve token with pool=$0 — liquidity has already evaporated, this is effectively dead. Better to lock the loss now at ~-15% than wait for the -25% hard cap to trigger or watch it bleed further.
+
