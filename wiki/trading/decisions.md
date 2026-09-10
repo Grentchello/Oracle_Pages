@@ -20053,3 +20053,9 @@
 ## [2026-09-10 18:43 UTC] buy | [LLM] $MyGPT at $3.533e-06, spent 0.05 SOL
 - **Reasoning:** $MyGPT — AI/GPT narrative is a proven attention evergreen (ChatGPT, GPT launches drive X trends). Has BOTH twitter (@letsgetdevvy) and discord launch (multi-channel shilling = organized attention). $3.3k mcap at 1.3min old with bond only 8% — extremely early, massive 10-50x room. Viability gate passes (twitter present). Risk: tiny mcap = rug potential, but hard -25% stop protects downside. Default bias: take the trade.
 
+## [2026-09-10 18:44 UTC] sell | [rapid-drop] $MyGPT crashed >15% in one tick | P&L: -21.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 18:45 UTC] buy | [LLM] $Real at $6.61144e-06, spent 0.05 SOL
+- **Reasoning:** $Real taps the rug-victim sympathy narrative which is peak memecoin attention right now — 'down to my last $150, rugged so many times' is exactly the kind of self-deprecating crypto-bro story that goes viral. Mcap $6.6k, 26% bond, clear story. Risk: sympathy plays can flop if community reads it as lazy begging, not authentic lore.
+
