@@ -18949,3 +18949,6 @@
 ## [2026-09-10 11:11 UTC] buy | [LLM] $QuadrupleS at $1.07286e-05, spent 0.05 SOL
 - **Reasoning:** $QuadrupleS is the standout: bond curve33% complete (real capital already flowing in), has Twitter attached to a specific viral 'Sydney Sahur' meme reference, mcap $10,775 is the highest in this batch, and it's only 0.5min old. Strongest attention signal of the slate — narrative-driven launch with money behind it.
 
+## [2026-09-10 11:12 UTC] sell | [rapid-drop] $QuadrupleS crashed >15% in one tick | P&L: -38.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
