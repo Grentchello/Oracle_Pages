@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.997265,
+  "balance_sol": 5.046597,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6WifQmAcjcD7E293PvCjqdBRLv2KJuy4QqfqgFWVpump": {
-      "symbol": "LBC",
-      "name": "Last Brain Cell",
-      "amount": 1633813.065976714,
-      "entry_price_usd": 3.092e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T10:33:47.167962+00:00",
-      "entry_usd_value": 5.05175,
-      "last_seen_price_usd": 3.092e-06,
-      "entry_signals": {
-        "liquidity_usd": 140.462538412295,
-        "volume_24h_usd": 140.44,
-        "market_cap_usd": 3091.1181523343134,
-        "ath_market_cap_usd": 3091.1181523343134,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.390236437,
-        "description": "One Brain Cell. Zero Bad Decisions.",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45434,19 +45410,30 @@
       "pnl_pct": -14.7,
       "exit_reason": "LLM: sell_all — Down 14.7% in 0 minutes with 0% pool share — entered at bonding curve top, immediate dump with no bounce signal. Cut loss and free slot for a fresh la",
       "partial": false
+    },
+    {
+      "mint": "6WifQmAcjcD7E293PvCjqdBRLv2KJuy4QqfqgFWVpump",
+      "symbol": "LBC",
+      "name": "Last Brain Cell",
+      "amount_sold": 1633813.065976714,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T10:33:47.167962+00:00",
+      "exit_time": "2026-09-10T10:35:34.450991+00:00",
+      "entry_price_usd": 3.092e-06,
+      "exit_price_usd": 3.04660029958978e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049332,
+      "pnl_sol": -0.000668,
+      "pnl_pct": -1.47,
+      "exit_reason": "LLM: sell_all — At -1.5% with 0 min held, this is essentially flat — not yet a loser worth panic-exiting. Pool $119 is thin and our 4% share is concerning, so I'm lea",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T10:33:47.168124+00:00",
+  "last_updated": "2026-09-10T10:35:34.451229+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.035,
-  "portfolio_value_usd": 509.95,
+  "last_sol_price_usd": 100.9,
+  "portfolio_value_usd": 509.2,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 10:10 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $WENDOG at $4.51529e-06 | P&L: +31.7%",
-      "reason": "WENDOG +31.7% with bonding-curve only 28% — locking half at profit before it dumps back. Keep a runner on the remaining half for further upside since it's at the early TP zone."
-    },
     {
       "time": "2026-09-10 10:11 UTC",
       "action": "sell",
@@ -45560,40 +45547,46 @@
       "action": "buy",
       "details": "[LLM] $LBC at $3.092e-06, spent 0.05 SOL",
       "reason": "$LBC 'Last Brain Cell' — pure brainrot narrative, ultra-fresh at 0.5min, $3k mcap, meme-friendly degenerate humor often catches a quick 2-3x pop in first hour."
+    },
+    {
+      "time": "2026-09-10 10:35 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LBC at $3.0466e-06 | P&L: -1.5%",
+      "reason": "At -1.5% with 0 min held, this is essentially flat — not yet a loser worth panic-exiting. Pool $119 is thin and our 4% share is concerning, so I'm leaning on the 30-min stale auto-exit as my safety net rather than manual churn. Holding briefly to see if any catalyst emerges before re-evaluating."
     }
   ],
   "trade_stats": {
-    "total": 2671,
+    "total": 2672,
     "wins": 1300,
-    "losses": 1371,
+    "losses": 1372,
     "win_rate_pct": 48.7,
-    "total_pnl_sol": 0.780978,
-    "avg_pnl_pct": 28.78,
+    "total_pnl_sol": 0.78031,
+    "avg_pnl_pct": 28.77,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 294,
-    "today_realized_sol": 3.466293,
-    "today_target_pct": 866.6,
+    "today_trades": 295,
+    "today_realized_sol": 3.465625,
+    "today_target_pct": 866.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1300,
-      "loss_count": 1371,
+      "loss_count": 1372,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:33:45.366877+00:00",
+  "last_llm_brief_at": "2026-09-10T10:35:34.450846+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "AACtZouGas5Se5mwN8kLguK7ap3jcQnxLuTS1ZFXpump": {
-      "price_usd": 8.825933182408523e-06,
+    "6WifQmAcjcD7E293PvCjqdBRLv2KJuy4QqfqgFWVpump": {
+      "price_usd": 3.04660029958978e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2326.629491318055,
-      "volume_h24": 13594.1,
+      "liquidity_usd": 118.67471663990001,
+      "volume_h24": 140.44,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 23.027955573
+      "real_sol_reserves": 1.176161711
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
