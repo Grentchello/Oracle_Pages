@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.506479,
+  "balance_sol": 4.456479,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "DuSHJhC8z38VxHMW8PQDDeWibDuzaTVnYBtiLsG3pump": {
+      "symbol": "CATESEM",
+      "name": "Catesem",
+      "amount": 452309.78260869574,
+      "entry_price_usd": 1.104e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T15:02:19.993622+00:00",
+      "entry_usd_value": 4.993500000000001,
+      "last_seen_price_usd": 1.104e-05,
+      "entry_signals": {
+        "liquidity_usd": 5837.35156519974,
+        "volume_24h_usd": 6777.5,
+        "market_cap_usd": 20706.362187000133,
+        "ath_market_cap_usd": 20706.362187000133,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 58.449500002,
+        "description": "10% of supply will be sent to ANSEM",
+        "twitter": "https://x.com/catesemx",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -47367,17 +47391,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T15:00:51.811024+00:00",
+  "last_updated": "2026-09-10T15:02:19.993900+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.1,
-  "portfolio_value_usd": 451.1,
+  "last_sol_price_usd": 99.87,
+  "portfolio_value_usd": 450.06,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 14:40 UTC",
-      "action": "buy",
-      "details": "[LLM] $$BB at $7.60143e-06, spent 0.05 SOL",
-      "reason": "$BB (Bitcoin Bible) has the strongest narrative of the batch — Bitcoin is the eternal attention magnet in crypto, proper viability metadata (desc+twitter from @AdvRChain), and bond is at 0% meaning very early curve entry. Risk: 0.3min old, narrative could be stale. Position size 0.05 SOL."
-    },
     {
       "time": "2026-09-10 14:41 UTC",
       "action": "sell",
@@ -47491,6 +47509,12 @@
       "action": "sell",
       "details": "[rapid-drop] $CATESEM crashed >15% in one tick | P&L: -68.8%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 15:02 UTC",
+      "action": "buy",
+      "details": "[LLM] $CATESEM at $1.104e-05, spent 0.05 SOL",
+      "reason": "$CATESEM has the strongest attention signal — 10% supply to ANSEM (major Solana KOL), highest mcap ($20k), bond at 39% shows traction. Passes viability (desc + twitter) and fragility gates. KOL-rugged catalysts historically pump hard in first hour."
     }
   ],
   "trade_stats": {
@@ -47512,21 +47536,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T15:00:51.554592+00:00",
+  "last_llm_brief_at": "2026-09-10T15:02:18.658657+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "7RYLKD4Y8CpJG45Kvmk3QWpfQLFxWNYoXiGUpNrupump": {
-      "price_usd": 2.8466612241645964e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 25.624426127299998,
-      "volume_h24": 10599.81,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.255988273
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
