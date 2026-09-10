@@ -20806,3 +20806,9 @@
 ## [2026-09-10 23:19 UTC] buy | [LLM] $Gronk at $3.04056e-06, spent 0.05 SOL
 - **Reasoning:** $Gronk rides Grok/xAI attention via its @grok twitter handle plus reverse-text gimmick (ʞnoɿӘ) — clear meme-ability lever. Low mcap ($3k), 0.6min old, bond only 4% so thin liquidity but 0.05 SOL position easily clears the 5x gate. Narrative > confirmation at this stage.
 
+## [2026-09-10 23:20 UTC] sell | [FULL][LLM] $Gronk at $2.95392e-06 | P&L: -2.9%
+- **Reasoning:** Just entered0.0h ago at -2.8%, well within noise. Bonding-curve at $100 pool means any buying pressure will reflect quickly. Give it a few minutes before judging.
+
+## [2026-09-10 23:20 UTC] buy | [LLM] $pumponfone at $5.632e-06, spent 0.05 SOL
+- **Reasoning:** $pumponfone — pump.fon culture meta-token, 29% bonded (strongest curve fill = most organic buys so far), $7.7k mcap, twitter link to ramentrade. Pump.fon is a real attention narrative in current meta.
+
