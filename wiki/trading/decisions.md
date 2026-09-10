@@ -17926,3 +17926,6 @@
 ## [2026-09-10 04:16 UTC] sell | [FULL][LLM] $ZIF at $2.85596e-06 | P&L: +0.0%
 - **Reasoning:** Just opened, flat at +0.0%, bonding-curve with 25% pool share. No signal yet — let it develop for a few minutes before any decision.
 
+## [2026-09-10 04:19 UTC] buy | [LLM] $up at $1.421e-06, spent 0.05 SOL
+- **Reasoning:** $up ('only up', USDC mayhem mode) is the cleanest narrative — pure attention-market name riding an active pump.fun meta. Highest mcap of fresh launches ($7.7k) with only 1% bond = early traction without being late. Risk: sub-2min age, could rug fast, hence 0.1 SOL size and tight mental stop.
+
