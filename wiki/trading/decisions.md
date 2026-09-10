@@ -19639,3 +19639,9 @@
 ## [2026-09-10 15:55 UTC] buy | [LLM] $Grower at $3.70288e-06, spent 0.05 SOL
 - **Reasoning:** $Grower — viral 'grower not a shower' meme with X post from what looks like an active trader (Bondoooor). Classic internet-humor attention play, ultra-fresh (0.4min), mcap $3.7k has room to run. Risk: pure shitpost with no broader narrative beyond the joke.
 
+## [2026-09-10 15:56 UTC] sell | [rapid-drop] $Grower crashed >15% in one tick | P&L: -20.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 15:57 UTC] buy | [LLM] $AWE at $2.97718e-06, spent 0.05 SOL
+- **Reasoning:** $AWE is the only candidate passing viability gate with a real narrative ('Almost Weekend' relatable duck meme, built-in @Alm0stWeekend twitter brand, weekend timing on Thursday). Mcap $2.9k at 0.2min = maximum attention-freshness. Risk: bonding curve only 3% complete, could rug pre-graduation, but that's the trade.
+
