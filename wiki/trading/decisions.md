@@ -19702,3 +19702,6 @@
 ## [2026-09-10 16:24 UTC] sell | [rapid-drop] $Nom crashed >15% in one tick | P&L: -37.6%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 16:25 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
