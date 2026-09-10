@@ -20647,3 +20647,9 @@
 ## [2026-09-10 22:25 UTC] buy | [LLM] $NAUT at $3.451e-06, spent 0.05 SOL
 - **Reasoning:** $NAUT (Nautilus) has a clear creature-narrative + tied Twitter @Robinheartxyz (also behind $HEART listing). $3.4k mcap with 9% bonding curve progress = early attention window, low float, primed for a pump if narrative catches.
 
+## [2026-09-10 22:26 UTC] sell | [rapid-drop] $NAUT crashed >15% in one tick | P&L: -19.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 22:26 UTC] buy | [LLM] $PUDDHA at $1.71e-05, spent 0.05 SOL
+- **Reasoning:** $PUDDHA at $19k mcap (highest of 5 simultaneous launches) with twitter signal from @lyftical. The 5 simultaneous PUDDHA mints in <1 min is a yellow flag for scam-farming, but this one has the most early traction and passes the viability gate. Taking 0.1 SOL to test if narrative holds or if it's a coordinated rug setup.
+

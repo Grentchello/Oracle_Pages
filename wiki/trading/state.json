@@ -1,27 +1,27 @@
 {
-  "balance_sol": 8.995719,
+  "balance_sol": 8.986159,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "CuPKuEKMzUgDKFjKcmorARb7weeG4GY1bfSMM3ZsKvjs": {
-      "symbol": "NAUT",
-      "name": "Nautilus",
-      "amount": 1446392.3500434656,
-      "entry_price_usd": 3.451e-06,
+    "CE8nFru2x1pz3HjiPpi8SKqtFcgmh5vWAaKNMHYCpump": {
+      "symbol": "PUDDHA",
+      "name": "PUDDHA",
+      "amount": 292017.5438596492,
+      "entry_price_usd": 1.71e-05,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T22:25:33.316507+00:00",
-      "entry_usd_value": 4.9915,
-      "last_seen_price_usd": 3.451e-06,
+      "entry_time": "2026-09-10T22:26:59.270659+00:00",
+      "entry_usd_value": 4.993500000000001,
+      "last_seen_price_usd": 1.71e-05,
       "entry_signals": {
-        "liquidity_usd": 332.81100363214,
-        "volume_24h_usd": 333.37,
-        "market_cap_usd": 3450.8838239122874,
-        "ath_market_cap_usd": 3450.8838239122874,
+        "liquidity_usd": 4212.6622795700405,
+        "volume_24h_usd": 26393.85,
+        "market_cap_usd": 19413.817454107353,
+        "ath_market_cap_usd": 22350.37602792934,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 3.333777458,
+        "real_sol_reserves": 42.181458692,
         "description": "",
-        "twitter": "https://x.com/Robinheartxyz",
+        "twitter": "https://x.com/lyftical/status/2098176069547233658",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -50840,25 +50840,30 @@
       "pnl_pct": 31.21,
       "exit_reason": "LLM: sell_all — +31.2% gain already triggered TP at +25% per bot rules. Bonding-curve pool is thin at $4,262 and our share is 0% — exit into strength and lock the pro",
       "partial": false
+    },
+    {
+      "mint": "CuPKuEKMzUgDKFjKcmorARb7weeG4GY1bfSMM3ZsKvjs",
+      "symbol": "NAUT",
+      "name": "Nautilus",
+      "amount_sold": 1446392.3500434656,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T22:25:33.316507+00:00",
+      "exit_time": "2026-09-10T22:26:37.528996+00:00",
+      "entry_price_usd": 3.451e-06,
+      "exit_price_usd": 2.792264678657726e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.04044,
+      "pnl_sol": -0.00956,
+      "pnl_pct": -19.09,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T22:25:33.316672+00:00",
+  "last_updated": "2026-09-10T22:26:59.270816+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.83,
-  "portfolio_value_usd": 903.03,
+  "last_sol_price_usd": 99.87,
+  "portfolio_value_usd": 902.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 22:00 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $RISE at $7.16354e-06 | P&L: +12.3%",
-      "reason": "$RISE up +12.3% on bonding curve with0.0h held — well below TP thresholds, momentum is constructive. Selling now would lock a small gain and miss a potential bonding-curve breakout. Will re-evaluate at +25% TP or if momentum stalls."
-    },
-    {
-      "time": "2026-09-10 22:02 UTC",
-      "action": "buy",
-      "details": "[LLM] $DEVIN at $1.2097e-07, spent 0.05 SOL",
-      "reason": "$DEVIN launched on @OpenAIDevs — riding the Devin (the AI coder) attention wave. Fresh, low mcap, narrative is hot. Passes viability gate via twitter link."
-    },
     {
       "time": "2026-09-10 22:03 UTC",
       "action": "sell",
@@ -50966,40 +50971,52 @@
       "action": "buy",
       "details": "[LLM] $NAUT at $3.451e-06, spent 0.05 SOL",
       "reason": "$NAUT (Nautilus) has a clear creature-narrative + tied Twitter @Robinheartxyz (also behind $HEART listing). $3.4k mcap with 9% bonding curve progress = early attention window, low float, primed for a pump if narrative catches."
+    },
+    {
+      "time": "2026-09-10 22:26 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $NAUT crashed >15% in one tick | P&L: -19.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 22:26 UTC",
+      "action": "buy",
+      "details": "[LLM] $PUDDHA at $1.71e-05, spent 0.05 SOL",
+      "reason": "$PUDDHA at $19k mcap (highest of 5 simultaneous launches) with twitter signal from @lyftical. The 5 simultaneous PUDDHA mints in <1 min is a yellow flag for scam-farming, but this one has the most early traction and passes the viability gate. Taking 0.1 SOL to test if narrative holds or if it's a coordinated rug setup."
     }
   ],
   "trade_stats": {
-    "total": 2989,
+    "total": 2990,
     "wins": 1401,
-    "losses": 1588,
+    "losses": 1589,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 4.77953,
-    "avg_pnl_pct": 28.52,
+    "total_pnl_sol": 4.76997,
+    "avg_pnl_pct": 28.5,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 612,
-    "today_realized_sol": 7.464845,
-    "today_target_pct": 1866.2,
+    "today_trades": 613,
+    "today_realized_sol": 7.455285,
+    "today_target_pct": 1863.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1401,
-      "loss_count": 1588,
+      "loss_count": 1589,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T22:25:31.888599+00:00",
+  "last_llm_brief_at": "2026-09-10T22:26:57.917543+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5V7sZF7iTgni3M5DmJo6u5teTYBXm3B9Yrp7Fazdpump": {
-      "price_usd": 1.6388085475573345e-05,
+    "CuPKuEKMzUgDKFjKcmorARb7weeG4GY1bfSMM3ZsKvjs": {
+      "price_usd": 2.792264678657726e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4262.066778528319,
-      "volume_h24": 7896.66,
+      "liquidity_usd": 1.9974000000000001e-07,
+      "volume_h24": 333.37,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 42.693246304
+      "real_sol_reserves": 2e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
