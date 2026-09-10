@@ -17680,3 +17680,9 @@
 ## [2026-09-10 02:44 UTC] buy | [LLM] $GRND at $6.08455e-08, spent 0.05 SOL
 - **Reasoning:** $GRND 'Grindr Inc' — brand-troll on a known mainstream name, 6% bond, brand-name recognition gives viral lift potential. Brand-trolls are the most replicated attention pattern. Risk: extremely fresh, low liquidity, will likely get flagged. Sizing in.
 
+## [2026-09-10 02:46 UTC] sell | [FULL][LLM] $GRND at $5.27613e-08 | P&L: -13.3%
+- **Reasoning:** Down -13.3% with no bounce signal, held 0h but pool=$0 means zero liquidity to exit at clean price — and 'our share=866794802%' is a red flag indicating either bad fill math or thin book. Cut and free the slot.
+
+## [2026-09-10 02:46 UTC] buy | [LLM] $MITTENS at $3.246e-06, spent 0.05 SOL
+- **Reasoning:** $MITTENS has the strongest narrative of the batch — 3.3M TikTok followers, tribute to a viral cat, dedicated @MittensOnSol_ handle. Animal tribute coins with real social followings routinely 5-10x. Viability gate passes (desc + twitter).
+
