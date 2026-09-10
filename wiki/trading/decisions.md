@@ -20782,3 +20782,9 @@
 ## [2026-09-10 23:09 UTC] buy | [LLM] $ily at $1.236e-05, spent 0.05 SOL
 - **Reasoning:** $ily at $12.7k mcap with derivativist X callout — meta-narrative 'there's no thesis' is itself the joke that travels on CT. Fresh, attention-launched, has the right viral shape (irony + simplicity).
 
+## [2026-09-10 23:10 UTC] sell | [v8.7 TP +50% (full)] $ily at $3.13836e-05 | P&L: +153.9%
+- **Reasoning:** Auto take-profit at +153.9%
+
+## [2026-09-10 23:10 UTC] buy | [LLM] $STONK at $3.30836e-06, spent 0.05 SOL
+- **Reasoning:** $STONK has the most original narrative in this batch — 'AI traders with real neurons competing in a live bracket.' Novel meta-narrative, has dedicated X account (StonkWarsAI), description present. Memecoins are attention markets and this concept is built for virality. Risk: 0.4min old, mcap only $3.3k, very early — sizing accordingly at 0.05 SOL.
+
