@@ -19813,3 +19813,9 @@
 ## [2026-09-10 17:15 UTC] sell | [PARTIAL][LLM] $ily at $1.18396e-05 | P&L: +34.4%
 - **Reasoning:** $ily is +34.4% and the +30% TP at 25% has already been triggered — bot should have auto-exited; since it's still on the books and I'm given discretion, I lock half the gain now and trail the rest. Bonding-curve token at 0% pool share with only $3,173 pool is fragile; giving back gains is the bigger risk than missing further upside. Trail the remainder for one more push, but if it stalls, exit.
 
+## [2026-09-10 17:16 UTC] sell | [rapid-drop] $ily crashed >15% in one tick | P&L: -36.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 17:17 UTC] buy | [LLM] $SUPERSTONK at $3.46204e-06, spent 0.05 SOL
+- **Reasoning:** SUPERSTONK taps WSB/GameStop nostalgia — one of the most proven viral memecoin narratives (GME 2021, original SUPERSTONK saga). Has X link, two simultaneous mints suggest organic + coordinated retail attention. Higher bond (9%) of the two SUPERSTONK launches = stronger demand. 0.05 SOL position sized for fresh-slate discipline.
+

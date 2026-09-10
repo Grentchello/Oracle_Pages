@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.282191,
+  "balance_sol": 4.248105,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "E1p7SuTBGFdn2AZM2Tfh3tnr29wsUqhwcMUcs3Sxpump": {
-      "symbol": "ily",
-      "name": "there is no pair, i love you",
-      "amount": 282381.6551254399,
-      "entry_price_usd": 8.809e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-10T17:14:14.787616+00:00",
-      "entry_usd_value": 4.9750000000000005,
-      "last_seen_price_usd": 1.1839616199353544e-05,
+    "D1c9dS4vPQRTS93S8ZbPRfq4niN8VpjjtuWTMMBfpump": {
+      "symbol": "SUPERSTONK",
+      "name": "Superstonk Coin",
+      "amount": 1437879.3182602702,
+      "entry_price_usd": 3.462042980090304e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T17:17:03.811946+00:00",
+      "entry_usd_value": 4.978000000000001,
+      "last_seen_price_usd": 3.462042980090304e-06,
       "entry_signals": {
-        "liquidity_usd": 3058.5897487675,
-        "volume_24h_usd": 16754.92,
-        "market_cap_usd": 10542.865159143556,
-        "ath_market_cap_usd": 12734.41388811669,
+        "liquidity_usd": 9.956000000000001e-08,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3470.388603987669,
+        "ath_market_cap_usd": 3470.388603987669,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 30.739595465,
-        "description": "",
-        "twitter": "https://x.com/Infinitidigits/status/2098097402594963804?s=20",
+        "real_sol_reserves": 1e-09,
+        "description": "Created on https://rapidlaunch.io",
+        "twitter": "https://x.com/ddddddd8a/status/2098096839186690114",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -48358,25 +48358,30 @@
       "pnl_pct": 34.4,
       "exit_reason": "LLM: sell_half — $ily is +34.4% and the +30% TP at 25% has already been triggered — bot should have auto-exited; since it's still on the books and I'm given discretion",
       "partial": true
+    },
+    {
+      "mint": "E1p7SuTBGFdn2AZM2Tfh3tnr29wsUqhwcMUcs3Sxpump",
+      "symbol": "ily",
+      "name": "there is no pair, i love you",
+      "amount_sold": 282381.6551254399,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T17:14:14.787616+00:00",
+      "exit_time": "2026-09-10T17:16:48.721462+00:00",
+      "entry_price_usd": 8.809e-06,
+      "exit_price_usd": 5.6107914121409e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.015914,
+      "pnl_sol": -0.009086,
+      "pnl_pct": -36.31,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T17:15:45.179313+00:00",
+  "last_updated": "2026-09-10T17:17:03.812123+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.98,
-  "portfolio_value_usd": 430.62,
+  "last_sol_price_usd": 99.56,
+  "portfolio_value_usd": 427.92,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 16:53 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $KREX at $3.77072e-06 | P&L: +5.7%",
-      "reason": "KREX is +5.7% on a fresh entry with 0.0h held, well below TP thresholds and no reason to bail on a green position. Bonding curve pool at $485 is tight but meets 5x min for a 0.05 SOL position."
-    },
-    {
-      "time": "2026-09-10 16:54 UTC",
-      "action": "buy",
-      "details": "[LLM] $KIRKVERSARY at $5.321e-06, spent 0.05 SOL",
-      "reason": "Kirkversary narrative tied to a live X post from @TobiasJochike (likely the Kirk vs. meme cycle) — low mcap ($5.3k), only 1.3min old, attention-driven. Fits the attention-market thesis; small size (0.05 SOL) keeps risk capped."
-    },
     {
       "time": "2026-09-10 16:56 UTC",
       "action": "sell",
@@ -48484,40 +48489,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $ily at $1.18396e-05 | P&L: +34.4%",
       "reason": "$ily is +34.4% and the +30% TP at 25% has already been triggered — bot should have auto-exited; since it's still on the books and I'm given discretion, I lock half the gain now and trail the rest. Bonding-curve token at 0% pool share with only $3,173 pool is fragile; giving back gains is the bigger risk than missing further upside. Trail the remainder for one more push, but if it stalls, exit."
+    },
+    {
+      "time": "2026-09-10 17:16 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $ily crashed >15% in one tick | P&L: -36.3%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 17:17 UTC",
+      "action": "buy",
+      "details": "[LLM] $SUPERSTONK at $3.46204e-06, spent 0.05 SOL",
+      "reason": "SUPERSTONK taps WSB/GameStop nostalgia — one of the most proven viral memecoin narratives (GME 2021, original SUPERSTONK saga). Has X link, two simultaneous mints suggest organic + coordinated retail attention. Higher bond (9%) of the two SUPERSTONK launches = stronger demand. 0.05 SOL position sized for fresh-slate discipline."
     }
   ],
   "trade_stats": {
-    "total": 2843,
+    "total": 2844,
     "wins": 1360,
-    "losses": 1483,
+    "losses": 1484,
     "win_rate_pct": 47.8,
-    "total_pnl_sol": 0.040949,
-    "avg_pnl_pct": 26.66,
+    "total_pnl_sol": 0.031863,
+    "avg_pnl_pct": 26.64,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 466,
-    "today_realized_sol": 2.726264,
-    "today_target_pct": 681.6,
+    "today_trades": 467,
+    "today_realized_sol": 2.717178,
+    "today_target_pct": 679.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1360,
-      "loss_count": 1483,
+      "loss_count": 1484,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T17:15:45.178078+00:00",
+  "last_llm_brief_at": "2026-09-10T17:17:02.538081+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "E1p7SuTBGFdn2AZM2Tfh3tnr29wsUqhwcMUcs3Sxpump": {
-      "price_usd": 1.1839616199353544e-05,
+      "price_usd": 5.6107914121409e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3173.45205152622,
-      "volume_h24": 27564.96,
+      "liquidity_usd": 1253.67977617892,
+      "volume_h24": 35338.57,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 31.740868689
+      "real_sol_reserves": 12.592203457
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
