@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.302863,
+  "balance_sol": 4.303115,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "3YHMxjS8GChkKoVy5qRDmq9hbAVcVooJxgUabQtcNz9r": {
       "symbol": "69",
       "name": "69coin",
-      "amount": 17572363.69748392,
+      "amount": 8568194.289130112,
       "entry_price_usd": 3.1718863886131355e-09,
-      "entry_sol_spent": 0.0005483819483255492,
+      "entry_sol_spent": 0.00026738822157304796,
       "entry_time": "2026-09-10T06:30:52.340804+00:00",
       "entry_usd_value": 5.082000000000001,
-      "last_seen_price_usd": 3.0853772010058565e-09,
+      "last_seen_price_usd": 2.8477029087627263e-09,
       "entry_signals": {
         "liquidity_usd": 0.3299402106,
         "volume_24h_usd": 0.0,
@@ -43717,19 +43717,30 @@
       "pnl_pct": -2.73,
       "exit_reason": "LLM: sell_all — Down only -2.7% but our 2279% share of a $0 pool is a fragility bomb — any other holder moving will dump price, and the bot enforces a -25% hard stop.",
       "partial": true
+    },
+    {
+      "mint": "3YHMxjS8GChkKoVy5qRDmq9hbAVcVooJxgUabQtcNz9r",
+      "symbol": "69",
+      "name": "69coin",
+      "amount_sold": 9004169.408353807,
+      "fraction_sold": 0.5124051358920519,
+      "entry_time": "2026-09-10T06:30:52.340804+00:00",
+      "exit_time": "2026-09-10T06:34:08.051546+00:00",
+      "entry_price_usd": 3.1718863886131355e-09,
+      "exit_price_usd": 2.8477029087627263e-09,
+      "entry_sol_for_chunk": 0.000281,
+      "exit_sol_received": 0.000252,
+      "pnl_sol": -2.9e-05,
+      "pnl_pct": -10.22,
+      "exit_reason": "LLM: sell_all — $69 down only -10.2%, still well above -25% hard stop. Bonding-curve pool=$0 means exits would be illiquid; selling 51% share into a $69 mcap would cr",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T06:32:44.579096+00:00",
+  "last_updated": "2026-09-10T06:34:08.051746+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.72,
-  "portfolio_value_usd": 437.74,
+  "last_sol_price_usd": 101.6,
+  "portfolio_value_usd": 437.22,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 06:11 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Fomo Lisa at $4.96916e-06 | P&L: +21.6%",
-      "reason": "+21.6% in0 min and approaching auto-TP zone. Bonding-curve pool is tiny ($982) and our1% share makes exit harder as price rises. Lock the gain now — this is peak attention for a micro-cap art derivative."
-    },
     {
       "time": "2026-09-10 06:12 UTC",
       "action": "buy",
@@ -43843,40 +43854,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $69 at $3.08538e-09 | P&L: -2.7%",
       "reason": "Down only -2.7% but our 2279% share of a $0 pool is a fragility bomb — any other holder moving will dump price, and the bot enforces a -25% hard stop. Concentration risk >> small unrealized loss. Cut now and free the slot."
+    },
+    {
+      "time": "2026-09-10 06:34 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $69 at $2.8477e-09 | P&L: -10.2%",
+      "reason": "$69 down only -10.2%, still well above -25% hard stop. Bonding-curve pool=$0 means exits would be illiquid; selling 51% share into a $69 mcap would crater price. Let the auto-stops handle it if it bleeds further."
     }
   ],
   "trade_stats": {
-    "total": 2570,
+    "total": 2571,
     "wins": 1255,
-    "losses": 1315,
+    "losses": 1316,
     "win_rate_pct": 48.8,
-    "total_pnl_sol": 0.037102,
-    "avg_pnl_pct": 29.2,
+    "total_pnl_sol": 0.037073,
+    "avg_pnl_pct": 29.19,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 193,
-    "today_realized_sol": 2.722417,
+    "today_trades": 194,
+    "today_realized_sol": 2.722388,
     "today_target_pct": 680.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1255,
-      "loss_count": 1315,
+      "loss_count": 1316,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T06:32:44.578685+00:00",
+  "last_llm_brief_at": "2026-09-10T06:34:08.050997+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "3YHMxjS8GChkKoVy5qRDmq9hbAVcVooJxgUabQtcNz9r": {
-      "price_usd": 3.0853772010058565e-09,
+      "price_usd": 2.8477029087627263e-09,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.21686948128000003,
+      "liquidity_usd": 0.09759868719999999,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.002132024
+      "real_sol_reserves": 0.000960617
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

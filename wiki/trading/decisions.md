@@ -18316,3 +18316,6 @@
 ## [2026-09-10 06:32 UTC] sell | [PARTIAL][LLM] $69 at $3.08538e-09 | P&L: -2.7%
 - **Reasoning:** Down only -2.7% but our 2279% share of a $0 pool is a fragility bomb — any other holder moving will dump price, and the bot enforces a -25% hard stop. Concentration risk >> small unrealized loss. Cut now and free the slot.
 
+## [2026-09-10 06:34 UTC] sell | [PARTIAL][LLM] $69 at $2.8477e-09 | P&L: -10.2%
+- **Reasoning:** $69 down only -10.2%, still well above -25% hard stop. Bonding-curve pool=$0 means exits would be illiquid; selling 51% share into a $69 mcap would crater price. Let the auto-stops handle it if it bleeds further.
+
