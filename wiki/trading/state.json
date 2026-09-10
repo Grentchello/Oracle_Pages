@@ -1,8 +1,32 @@
 {
-  "balance_sol": 2.143584,
+  "balance_sol": 2.093584,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "7UTfMBzXgixAyVeqpityJbEtRDTgy4UDfmfJaMyopump": {
+      "symbol": "birds",
+      "name": "birds arent real",
+      "amount": 418328.1581712357,
+      "entry_price_usd": 1.2064691083821556e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T01:46:21.664898+00:00",
+      "entry_usd_value": 5.047000000000001,
+      "last_seen_price_usd": 1.2064691083821556e-05,
+      "entry_signals": {
+        "liquidity_usd": 2872.37891230976,
+        "volume_24h_usd": null,
+        "market_cap_usd": 12072.269488629063,
+        "ath_market_cap_usd": 12350.473709874093,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 28.456299904,
+        "description": "birds arent real",
+        "twitter": "https://x.com/birdsbypltrsol/status/2097863772941525467",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -41264,17 +41288,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T01:44:59.167151+00:00",
+  "last_updated": "2026-09-10T01:46:21.665066+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.91,
-  "portfolio_value_usd": 216.31,
+  "last_sol_price_usd": 100.94,
+  "portfolio_value_usd": 216.37,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 01:26 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Investor crashed >15% in one tick | P&L: -49.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 01:27 UTC",
       "action": "buy",
@@ -41388,42 +41406,36 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-10 01:46 UTC",
+      "action": "buy",
+      "details": "[LLM] $birds at $1.20647e-05, spent 0.05 SOL",
+      "reason": "$birds 'birds arent real' is a strong viral conspiracy meme with the highest mcap ($12k) and furthest bond progress (34%) in the batch — narrative has clear attention potential and twitter account looks dedicated. Risky at 0.4min age but the meme has cultural cache."
     }
   ],
   "trade_stats": {
-    "total": 2426,
-    "wins": 1207,
+    "total": 2427,
+    "wins": 1208,
     "losses": 1219,
     "win_rate_pct": 49.8,
-    "total_pnl_sol": -2.658921,
-    "avg_pnl_pct": 28.63,
+    "total_pnl_sol": -2.122727,
+    "avg_pnl_pct": 29.06,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 49,
-    "today_realized_sol": 0.026394,
-    "today_target_pct": 6.6,
+    "today_trades": 50,
+    "today_realized_sol": 0.562588,
+    "today_target_pct": 140.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1207,
+      "win_count": 1208,
       "loss_count": 1219,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T01:44:59.166954+00:00",
+  "last_llm_brief_at": "2026-09-10T01:46:20.386141+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "8EHwAArC28roSir2G2rBs64giFZFb39Tm2PJ9ejmpump": {
-      "price_usd": 0.00016704307962327859,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 33639.85624393952,
-      "volume_h24": 12629.45,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 333.364941472
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
