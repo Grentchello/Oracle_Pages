@@ -20848,3 +20848,9 @@
 ## [2026-09-10 23:37 UTC] buy | [LLM] $DELULU at $5.583e-06, spent 0.05 SOL
 - **Reasoning:** $DELULU 'Delusional Coin' — strong ironic Gen-Z narrative ('delulu is the solulu'), active twitter posting, sub-$6k mcap at 0.9min age is textbook early-launch attention play. Highest narrative virality in the batch.
 
+## [2026-09-10 23:39 UTC] sell | [FULL][LLM] $DELULU at $8.27982e-06 | P&L: +48.3%
+- **Reasoning:** +48% is well into take-profit territory (TP2 at +50%). Bonding-curve liquidity is only $2165, my share is 0% — exit now before the curve dumps. Locking 48% gain.
+
+## [2026-09-10 23:39 UTC] buy | [LLM] $Desktop at $0.000101424, spent 0.05 SOL
+- **Reasoning:** $Desktop has a real X account attached (@initwithcarl), relatable 'sent from my desktop' meme narrative — meta-ironic tech humor often catches fire on CT. Fresh, low mcap $3.7k, classic attention-launch setup. Risk: ultra-low liquidity, 4% bonded. Sizing 0.05 SOL to respect min-liq 5x rule.
+
