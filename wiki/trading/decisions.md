@@ -17635,3 +17635,9 @@
 ## [2026-09-10 02:31 UTC] buy | [LLM] $$AURA at $5.56196e-06, spent 0.05 SOL
 - **Reasoning:** $$AURA rides the genuinely viral 'aura points' / main-character meme trend currently sweeping X and TikTok — concrete cultural narrative, clear tagline ('confidence, energy, main-character vibes'), 50+ char description passes viability gate, no celebrity/political keywords. Risk: mcap only $5.5k and <1min old, so thin liquidity — this is exactly the kind of fresh attention that 5-10x's in hours or rugs in minutes.
 
+## [2026-09-10 02:32 UTC] sell | [rapid-drop] $$AURA crashed >15% in one tick | P&L: -92.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 02:32 UTC] buy | [LLM] $BATON at $4.492e-06, spent 0.05 SOL
+- **Reasoning:** $BATON has the clearest narrative of the lot — 'hold to earn $PUMP via creator fees' is a copyable meme-mechanic that's been working on Solana. Bond at 22% (highest in batch) = real buyers, not just deployer. mcap $7.2k leaves room for 5-10x if attention catches. Risk: yield-bait narrative can rug if creator fees dry up.
+
