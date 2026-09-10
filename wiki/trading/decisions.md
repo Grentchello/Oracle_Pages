@@ -18637,3 +18637,6 @@
 ## [2026-09-10 08:43 UTC] sell | [rapid-drop] $RTC crashed >15% in one tick | P&L: -40.2%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 08:44 UTC] buy | [LLM] $LEGACY at $1.10839e-05, spent 0.05 SOL
+- **Reasoning:** $LEGACY has the strongest narrative of the batch: xStocks airdrop rewards mechanism is a real product hook with viral potential. $11k mcap at 0.4min is prime early-entry territory, bond 33% shows real buy pressure, twitter link present — meets viability gate.
+
