@@ -19069,3 +19069,6 @@
 ## [2026-09-10 12:14 UTC] sell | [FULL][LLM] $Honk at $3.20846e-06 | P&L: -10.8%
 - **Reasoning:** Down only 10.8%, well within the -25% hard cap and only held 0 minutes. Pool is thin ($196) so selling would create poor execution and likely crystallize a bigger loss. Give it time to either bounce on the 'Bonk Killer' narrative or hit the stop cleanly.
 
+## [2026-09-10 12:15 UTC] buy | [LLM] $MCFARLAND at $2.92366e-06, spent 0.05 SOL
+- **Reasoning:** $MCFARLAND tribute to Master Roshi VA Mike McFarland — concrete grief-attention event with built-in anime community audience. Bond only 2% (very early), mcap $2.9k, narrative is unambiguous. Risks: tiny liquidity, tribute coins fade fast if no KOL picks it up, bot will hard-stop at -25%.
+
