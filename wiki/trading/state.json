@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.974931,
+  "balance_sol": 5.01282,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ByG9S28EJhitSdgfvky3euNwcbt1xtuNfj5cF3nQpump": {
-      "symbol": "Beast",
-      "name": "The Beast",
-      "amount": 597087.9509549636,
-      "entry_price_usd": 8.482e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T10:48:39.046833+00:00",
-      "entry_usd_value": 5.064500000000001,
-      "last_seen_price_usd": 8.482e-06,
-      "entry_signals": {
-        "liquidity_usd": 977.1072881247301,
-        "volume_24h_usd": 5692.84,
-        "market_cap_usd": 11984.013948301841,
-        "ath_market_cap_usd": 12460.472107468187,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 9.646631337,
-        "description": "",
-        "twitter": "https://x.com/dugdimmaSOL/status/2098000236681777210",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45536,19 +45512,30 @@
       "pnl_pct": -0.15,
       "exit_reason": "LLM: sell_all — Position is 0.0h old, only -0.2%, and pool liquidity of $214k is healthy. Not stale, not a loser, just opened. Give it time to develop before any exit",
       "partial": false
+    },
+    {
+      "mint": "ByG9S28EJhitSdgfvky3euNwcbt1xtuNfj5cF3nQpump",
+      "symbol": "Beast",
+      "name": "The Beast",
+      "amount_sold": 597087.9509549636,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T10:48:39.046833+00:00",
+      "exit_time": "2026-09-10T10:49:43.288163+00:00",
+      "entry_price_usd": 8.482e-06,
+      "exit_price_usd": 6.42239320420711e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.037889,
+      "pnl_sol": -0.012111,
+      "pnl_pct": -24.28,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T10:48:39.047008+00:00",
+  "last_updated": "2026-09-10T10:49:54.113174+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.29,
-  "portfolio_value_usd": 508.98,
+  "last_sol_price_usd": 101.21,
+  "portfolio_value_usd": 507.35,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 10:23 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $GOLDEN crashed >15% in one tick | P&L: -36.3%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 10:23 UTC",
       "action": "buy",
@@ -45662,30 +45649,48 @@
       "action": "buy",
       "details": "[LLM] $Beast at $8.482e-06, spent 0.05 SOL",
       "reason": "$Beast has the highest mcap ($12k), most complete bond (34%), and a Solana-native creator (dugdimmaSOL) — leading this batch on attention signals. Size 0.1 SOL, tight stop will auto-trigger at -25%."
+    },
+    {
+      "time": "2026-09-10 10:49 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Beast crashed >15% in one tick | P&L: -24.3%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2677,
+    "total": 2678,
     "wins": 1302,
-    "losses": 1375,
+    "losses": 1376,
     "win_rate_pct": 48.6,
-    "total_pnl_sol": 0.758644,
-    "avg_pnl_pct": 28.7,
+    "total_pnl_sol": 0.746533,
+    "avg_pnl_pct": 28.68,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 300,
-    "today_realized_sol": 3.443959,
-    "today_target_pct": 861.0,
+    "today_trades": 301,
+    "today_realized_sol": 3.431848,
+    "today_target_pct": 858.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1302,
-      "loss_count": 1375,
+      "loss_count": 1376,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T10:48:37.653690+00:00",
+  "last_llm_brief_at": "2026-09-10T10:49:54.112702+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "ByG9S28EJhitSdgfvky3euNwcbt1xtuNfj5cF3nQpump": {
+      "price_usd": 6.42239320420711e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1537.95790190957,
+      "volume_h24": 12420.16,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 15.195710917
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

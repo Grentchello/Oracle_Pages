@@ -18889,3 +18889,6 @@
 ## [2026-09-10 10:48 UTC] buy | [LLM] $Beast at $8.482e-06, spent 0.05 SOL
 - **Reasoning:** $Beast has the highest mcap ($12k), most complete bond (34%), and a Solana-native creator (dugdimmaSOL) — leading this batch on attention signals. Size 0.1 SOL, tight stop will auto-trigger at -25%.
 
+## [2026-09-10 10:49 UTC] sell | [rapid-drop] $Beast crashed >15% in one tick | P&L: -24.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
