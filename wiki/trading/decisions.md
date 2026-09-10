@@ -19864,3 +19864,6 @@
 ## [2026-09-10 17:35 UTC] sell | [FULL][LLM] $COK at $2.87834e-06 | P&L: -0.1%
 - **Reasoning:** Just entered, -0.1% is noise on a fresh bonding-curve position. No clear negative signal yet; auto-rules will kill it at -25% or 30min if nothing develops. Give it one more tick to see if the curve fills — no reason to bail on a position that's barely been held.
 
+## [2026-09-10 17:37 UTC] buy | [LLM] $FUN at $2.65198e-09, spent 0.05 SOL
+- **Reasoning:** OnlyOnFun tagged by official Pump.fun twitter — real attention signal from the platform itself. Sub-$4k mcap with narrative angle on the launchpad meta. Small position, fast scalp.
+

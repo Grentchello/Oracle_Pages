@@ -1,8 +1,32 @@
 {
-  "balance_sol": 4.222145,
+  "balance_sol": 4.172145,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "65tgK6TvXCpSMy6Hcsr5Wx4g3UybSkZP9rozQEBkpump": {
+      "symbol": "FUN",
+      "name": "OnlyOnFun",
+      "amount": 1899144456.9429498,
+      "entry_price_usd": 2.651983624303781e-09,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T17:37:10.589940+00:00",
+      "entry_usd_value": 5.0365,
+      "last_seen_price_usd": 2.651983624303781e-09,
+      "entry_signals": {
+        "liquidity_usd": 0.0064870119999999995,
+        "volume_24h_usd": 0.0,
+        "market_cap_usd": 3980.902624684917,
+        "ath_market_cap_usd": 3980.902624684917,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 6.44e-05,
+        "description": "",
+        "twitter": "https://x.com/Pumpfun/status/2097785975434846285",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -48489,17 +48513,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T17:35:53.114699+00:00",
+  "last_updated": "2026-09-10T17:37:10.590271+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.29,
-  "portfolio_value_usd": 423.44,
+  "last_sol_price_usd": 100.73,
+  "portfolio_value_usd": 425.3,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 17:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CFENT at $3.04427e-06 | P&L: -0.4%",
-      "reason": "Flat at -0.4% after just entering, pool only $138 with our 4% share dominating liquidity — high slippage risk on any move. Freeing the slot to rotate into fresher narrative-driven launches with active X attention ($ily pumping at 33% bond, $NANCY, $GARAGE)."
-    },
     {
       "time": "2026-09-10 17:14 UTC",
       "action": "buy",
@@ -48613,6 +48631,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $COK at $2.87834e-06 | P&L: -0.1%",
       "reason": "Just entered, -0.1% is noise on a fresh bonding-curve position. No clear negative signal yet; auto-rules will kill it at -25% or 30min if nothing develops. Give it one more tick to see if the curve fills — no reason to bail on a position that's barely been held."
+    },
+    {
+      "time": "2026-09-10 17:37 UTC",
+      "action": "buy",
+      "details": "[LLM] $FUN at $2.65198e-09, spent 0.05 SOL",
+      "reason": "OnlyOnFun tagged by official Pump.fun twitter — real attention signal from the platform itself. Sub-$4k mcap with narrative angle on the launchpad meta. Small position, fast scalp."
     }
   ],
   "trade_stats": {
@@ -48634,21 +48658,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T17:35:53.114259+00:00",
+  "last_llm_brief_at": "2026-09-10T17:37:09.203328+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "HMcuNbntXkoeQoVQvzkmDbpJpxqQF5VYw9gJqPhEpump": {
-      "price_usd": 2.878344115385416e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 39.62074060083,
-      "volume_h24": 39.6,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.395061727
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
