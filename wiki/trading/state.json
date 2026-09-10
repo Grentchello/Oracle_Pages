@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.32434,
+  "balance_sol": 4.324736,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "zn9D3BAQr7hu1yZ6kAct5JjSXFxLTAuQfaPtHqGpump": {
-      "symbol": "1.50",
-      "name": "Costco Hot Dog",
-      "amount": 32273206.630600035,
-      "entry_price_usd": 8.531843954304746e-10,
-      "entry_sol_spent": 0.00027737479890935105,
-      "entry_time": "2026-09-10T16:37:03.337667+00:00",
-      "entry_usd_value": 4.9635,
-      "last_seen_price_usd": 1.223953096615446e-09,
-      "entry_signals": {
-        "liquidity_usd": 0.20589600627,
-        "volume_24h_usd": null,
-        "market_cap_usd": 7761.184544277805,
-        "ath_market_cap_usd": 7761.184544277805,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.002074101,
-        "description": "Costco’s greatest marketing weapon has never changed: 🌭 $1.50 HOT DOG + DRINK.  So we made it the whole point of the coin.   Every buy, every push comes back to one thing: keeping the $1.50 Costco hot dog alive.   And every holder gets $1.50 toward a Costco hot dog + drink.   The most iconic deal in",
-        "twitter": "https://x.com/CostcoHotDog15/status/2098087981361819976",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -48137,19 +48113,30 @@
       "pnl_pct": 43.46,
       "exit_reason": "LLM: sell_half — Up +43.5% — bot will auto-TP at +50% but lock half now per scalp discipline. Bonding curve at 25% share, taking50% off de-risks while letting runner r",
       "partial": true
+    },
+    {
+      "mint": "zn9D3BAQr7hu1yZ6kAct5JjSXFxLTAuQfaPtHqGpump",
+      "symbol": "1.50",
+      "name": "Costco Hot Dog",
+      "amount_sold": 32273206.630600035,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T16:37:03.337667+00:00",
+      "exit_time": "2026-09-10T16:48:04.440217+00:00",
+      "entry_price_usd": 8.531843954304746e-10,
+      "exit_price_usd": 1.2170410706773085e-09,
+      "entry_sol_for_chunk": 0.000277,
+      "exit_sol_received": 0.000396,
+      "pnl_sol": 0.000118,
+      "pnl_pct": 42.65,
+      "exit_reason": "LLM: sell_all — +42.6% in 0.2h, well past the +30% auto-TP threshold. Bonding curve liquidity is $0 and we're holding 12% of supply — exit risk grows every second. Ta",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T16:46:35.928886+00:00",
+  "last_updated": "2026-09-10T16:48:04.440935+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.15,
-  "portfolio_value_usd": 428.79,
+  "last_sol_price_usd": 99.27,
+  "portfolio_value_usd": 429.32,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 16:15 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $$TUSK at $2.87111e-06 | P&L: +0.1%",
-      "reason": "Flat at +0.1% with no clear narrative edge and only $52 pool liquidity where our 10% share makes us a price-mover. Capital rotation beats bag-holding on a fresh launch with no signal."
-    },
     {
       "time": "2026-09-10 16:15 UTC",
       "action": "buy",
@@ -48263,40 +48250,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $1.50 at $1.22395e-09 | P&L: +43.5%",
       "reason": "Up +43.5% — bot will auto-TP at +50% but lock half now per scalp discipline. Bonding curve at 25% share, taking50% off de-risks while letting runner ride free."
+    },
+    {
+      "time": "2026-09-10 16:48 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $1.50 at $1.21704e-09 | P&L: +42.6%",
+      "reason": "+42.6% in 0.2h, well past the +30% auto-TP threshold. Bonding curve liquidity is $0 and we're holding 12% of supply — exit risk grows every second. Take the gain now per aggressive profit-taking discipline."
     }
   ],
   "trade_stats": {
-    "total": 2830,
-    "wins": 1352,
+    "total": 2831,
+    "wins": 1353,
     "losses": 1478,
     "win_rate_pct": 47.8,
-    "total_pnl_sol": 0.058376,
-    "avg_pnl_pct": 26.77,
+    "total_pnl_sol": 0.058494,
+    "avg_pnl_pct": 26.78,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 453,
-    "today_realized_sol": 2.743691,
-    "today_target_pct": 685.9,
+    "today_trades": 454,
+    "today_realized_sol": 2.743809,
+    "today_target_pct": 686.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1352,
+      "win_count": 1353,
       "loss_count": 1478,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T16:46:35.927975+00:00",
+  "last_llm_brief_at": "2026-09-10T16:48:04.439790+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "zn9D3BAQr7hu1yZ6kAct5JjSXFxLTAuQfaPtHqGpump": {
-      "price_usd": 1.223953096615446e-09,
+      "price_usd": 1.2170410706773085e-09,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.31605698475000005,
+      "liquidity_usd": 0.31374819558,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.003187665
+      "real_sol_reserves": 0.003160554
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

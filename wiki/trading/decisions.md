@@ -19741,3 +19741,6 @@
 ## [2026-09-10 16:46 UTC] sell | [PARTIAL][LLM] $1.50 at $1.22395e-09 | P&L: +43.5%
 - **Reasoning:** Up +43.5% — bot will auto-TP at +50% but lock half now per scalp discipline. Bonding curve at 25% share, taking50% off de-risks while letting runner ride free.
 
+## [2026-09-10 16:48 UTC] sell | [FULL][LLM] $1.50 at $1.21704e-09 | P&L: +42.6%
+- **Reasoning:** +42.6% in 0.2h, well past the +30% auto-TP threshold. Bonding curve liquidity is $0 and we're holding 12% of supply — exit risk grows every second. Take the gain now per aggressive profit-taking discipline.
+
