@@ -17539,3 +17539,6 @@
 ## [2026-09-10 01:50 UTC] buy | [LLM] $MALONE at $3.364e-06, spent 0.05 SOL
 - **Reasoning:** $MALONE 'FREE MALONE' has a strong viral narrative tied to the Billie Eilish/Finneas cultural meme wave, sub-1min age with $3.3k mcap. Passes viability gate (descriptive 44-char desc with emotional hook, no political celebrity blocklist match). Risk: ultra-low mcap, no twitter link, likely thin liquidity — bond only 8% complete.
 
+## [2026-09-10 01:51 UTC] sell | [FULL][LLM] $MALONE at $3.65045e-06 | P&L: +8.5%
+- **Reasoning:** $MALONE is up +8.5% but only just bought (0.0h held) — give it room to develop the bounce. Pool is thin at $416 so any exit now crystallizes a small gain into fees; will reassess at +30% TP threshold or 30-min stale mark.
+
