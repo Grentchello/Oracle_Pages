@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.527279,
+  "balance_sol": 4.497497,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "65jSR4mkEbPrCcXezpkC7EWb8WGcu67n6An5namnpump": {
-      "symbol": "S&P500",
-      "name": "Solana and Pumpfun 500",
-      "amount": 720913.4267957797,
-      "entry_price_usd": 6.919e-06,
+    "ipC23YE2VjAqUzvWww6x6bXX87ToDX6r3niJaAspump": {
+      "symbol": "CNUT",
+      "name": "Cashnut",
+      "amount": 692395.9107635885,
+      "entry_price_usd": 7.203970910947656e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T19:49:35.098895+00:00",
+      "entry_time": "2026-09-10T19:51:00.241148+00:00",
       "entry_usd_value": 4.988,
-      "last_seen_price_usd": 6.919e-06,
+      "last_seen_price_usd": 7.203970910947656e-06,
       "entry_signals": {
-        "liquidity_usd": 26.09479053512,
-        "volume_24h_usd": 9975.86,
-        "market_cap_usd": 3321.845126612009,
-        "ath_market_cap_usd": 7294.680045393469,
+        "liquidity_usd": 2445.57870678136,
+        "volume_24h_usd": null,
+        "market_cap_usd": 7201.397533574536,
+        "ath_market_cap_usd": 7355.089095505829,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 0.261575687,
-        "description": "We can finally ruin S&P 500. Paying Dex on this. It should go. Launching on Pump, pairing to Solana. ",
-        "twitter": "https://x.com/bonderonchain/status/2098136458041197023",
+        "real_sol_reserves": 24.514622161,
+        "description": "",
+        "twitter": "https://x.com/luminaries/status/2098136754792374589",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -49786,25 +49786,30 @@
       "pnl_pct": 24.84,
       "exit_reason": "LLM: sell_all — $VOID is up +24.8% but pool is only $2,461 (liquidity barely meets 5x position size) and our share is 0% — extremely thin, any dump will slaughter thi",
       "partial": false
+    },
+    {
+      "mint": "65jSR4mkEbPrCcXezpkC7EWb8WGcu67n6An5namnpump",
+      "symbol": "S&P500",
+      "name": "Solana and Pumpfun 500",
+      "amount_sold": 720913.4267957797,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T19:49:35.098895+00:00",
+      "exit_time": "2026-09-10T19:50:40.454620+00:00",
+      "entry_price_usd": 6.919e-06,
+      "exit_price_usd": 2.7977780970548617e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.020218,
+      "pnl_sol": -0.029782,
+      "pnl_pct": -59.56,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T19:49:35.099173+00:00",
+  "last_updated": "2026-09-10T19:51:00.241547+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 99.76,
-  "portfolio_value_usd": 456.63,
+  "portfolio_value_usd": 453.66,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 19:35 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ASTRA at $2.84099e-06 | P&L: +0.1%",
-      "reason": "Flat at +0.1% with no narrative catalyst visible — rotating capital into $GDENG which has a stronger Moo Deng viral-extension story."
-    },
-    {
-      "time": "2026-09-10 19:35 UTC",
-      "action": "buy",
-      "details": "[LLM] $GDENG at $3.457e-06, spent 0.05 SOL",
-      "reason": "$GDENG — Moo Deng was a real viral moment (baby pygmy hippo), 'legendary grandpa from 1963' is a recognizable narrative hook at $3.4k mcap <1min old. Passes viability gate (twitter + desc). High rug risk at this stage but asymmetric attention play."
-    },
     {
       "time": "2026-09-10 19:36 UTC",
       "action": "sell",
@@ -49912,40 +49917,52 @@
       "action": "buy",
       "details": "[LLM] $S&P500 at $6.919e-06, spent 0.05 SOL",
       "reason": "$S&P500 has the strongest contrarian narrative of the batch: 'ruin S&P 500' is a viral meme angle tied to Pumpfun/Solana culture war, real X post, clear thesis in description. mcap $3.3k is fresh enough to catch a 5-10x if it trends."
+    },
+    {
+      "time": "2026-09-10 19:50 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $S&P500 crashed >15% in one tick | P&L: -59.6%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 19:51 UTC",
+      "action": "buy",
+      "details": "[LLM] $CNUT at $7.20397e-06, spent 0.05 SOL",
+      "reason": "$CNUT has duplicate mint detections indicating coordinated attention, has twitter signal, and is furthest along bond curve (27%) with highest mcap ($7.2k) of the duplicates — strongest attention signal among fresh launches. Risk: tiny mcap = high rug probability, but that's the memecoin game."
     }
   ],
   "trade_stats": {
-    "total": 2927,
+    "total": 2928,
     "wins": 1374,
-    "losses": 1553,
+    "losses": 1554,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 0.311091,
-    "avg_pnl_pct": 26.05,
+    "total_pnl_sol": 0.281309,
+    "avg_pnl_pct": 26.02,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 550,
-    "today_realized_sol": 2.996406,
-    "today_target_pct": 749.1,
+    "today_trades": 551,
+    "today_realized_sol": 2.966624,
+    "today_target_pct": 741.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1374,
-      "loss_count": 1553,
+      "loss_count": 1554,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T19:49:32.699781+00:00",
+  "last_llm_brief_at": "2026-09-10T19:50:58.629807+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "E7qgpri4cm9XLGsvedMi7Y8ZWxKzygWTkotgDphEpump": {
-      "price_usd": 9.2618235119588e-06,
+    "65jSR4mkEbPrCcXezpkC7EWb8WGcu67n6An5namnpump": {
+      "price_usd": 2.7977780970548617e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2460.84618827352,
-      "volume_h24": 2287.69,
+      "liquidity_usd": 4.604411128080001,
+      "volume_h24": 12029.91,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 24.667664277
+      "real_sol_reserves": 0.046154883
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

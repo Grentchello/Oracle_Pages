@@ -20293,3 +20293,9 @@
 ## [2026-09-10 19:49 UTC] buy | [LLM] $S&P500 at $6.919e-06, spent 0.05 SOL
 - **Reasoning:** $S&P500 has the strongest contrarian narrative of the batch: 'ruin S&P 500' is a viral meme angle tied to Pumpfun/Solana culture war, real X post, clear thesis in description. mcap $3.3k is fresh enough to catch a 5-10x if it trends.
 
+## [2026-09-10 19:50 UTC] sell | [rapid-drop] $S&P500 crashed >15% in one tick | P&L: -59.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 19:51 UTC] buy | [LLM] $CNUT at $7.20397e-06, spent 0.05 SOL
+- **Reasoning:** $CNUT has duplicate mint detections indicating coordinated attention, has twitter signal, and is furthest along bond curve (27%) with highest mcap ($7.2k) of the duplicates — strongest attention signal among fresh launches. Risk: tiny mcap = high rug probability, but that's the memecoin game.
+
