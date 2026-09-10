@@ -18268,3 +18268,6 @@
 ## [2026-09-10 06:14 UTC] buy | [LLM] $MARVIN at $1.541e-05, spent 0.05 SOL
 - **Reasoning:** $MARVIN — Marvin the Martian is a well-known Looney Tunes IP with strong nostalgia/recognition. Real X post from @heishimmy, fastest-bonding token in the batch (38%), mcap $19k. Fragility gate clean (no celebrity/political keywords). 0.05 SOL position.
 
+## [2026-09-10 06:16 UTC] sell | [FULL][LLM] $MARVIN at $1.74061e-05 | P&L: +12.9%
+- **Reasoning:** MARVIN is +13% in <1min on bonding curve, trending in the right direction. Pool is thin ($4498) so size is small, but no reason to exit a winning position prematurely. Will reassess if it stalls or if a stronger narrative emerges that justifies rotation.
+
