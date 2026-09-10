@@ -1,17 +1,17 @@
 {
-  "balance_sol": 9.131742,
+  "balance_sol": 9.176257,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "5nCnrXin8DGNb7Y33JWL9CXGRwTW91U79PXc156gpump": {
       "symbol": "KERMIT",
       "name": "KERMIT",
-      "amount": 1744328.0977312392,
+      "amount": 154014.2715322809,
       "entry_price_usd": 2.865e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.004414716237518607,
       "entry_time": "2026-09-10T21:08:00.037540+00:00",
       "entry_usd_value": 4.9975000000000005,
-      "last_seen_price_usd": 2.865e-06,
+      "last_seen_price_usd": 2.799377580055521e-06,
       "entry_signals": {
         "liquidity_usd": 118.60300283299999,
         "volume_24h_usd": 406.09,
@@ -50364,19 +50364,30 @@
       "pnl_pct": 487.15,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "5nCnrXin8DGNb7Y33JWL9CXGRwTW91U79PXc156gpump",
+      "symbol": "KERMIT",
+      "name": "KERMIT",
+      "amount_sold": 1590313.8261989583,
+      "fraction_sold": 0.9117056752496279,
+      "entry_time": "2026-09-10T21:08:00.037540+00:00",
+      "exit_time": "2026-09-10T21:09:19.608665+00:00",
+      "entry_price_usd": 2.865e-06,
+      "exit_price_usd": 2.799377580055521e-06,
+      "entry_sol_for_chunk": 0.045585,
+      "exit_sol_received": 0.044515,
+      "pnl_sol": -0.001071,
+      "pnl_pct": -2.29,
+      "exit_reason": "LLM: sell_all — Only -2.3% and just opened (0.0h). The 283% pool share is alarming - pool is only $2 making this effectively illiquid - but exiting now locks in a sma",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T21:08:00.037867+00:00",
+  "last_updated": "2026-09-10T21:09:19.608924+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.95,
-  "portfolio_value_usd": 917.72,
+  "last_sol_price_usd": 100.0094,
+  "portfolio_value_usd": 918.15,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 20:40 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $SHH crashed >15% in one tick | P&L: -42.2%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 20:40 UTC",
       "action": "buy",
@@ -50490,40 +50501,46 @@
       "action": "buy",
       "details": "[LLM] $KERMIT at $2.865e-06, spent 0.05 SOL",
       "reason": "$KERMIT has the only real Twitter attachment in this batch (concrete attention signal vs empty URL fields for peers). Kermit is a culturally memeable character, $3.2k mcap is prime for a narrative pump, and 0.6min age means I'm early. Risk: meme IP could draw snipers/rug-pullers."
+    },
+    {
+      "time": "2026-09-10 21:09 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $KERMIT at $2.79938e-06 | P&L: -2.3%",
+      "reason": "Only -2.3% and just opened (0.0h). The 283% pool share is alarming - pool is only $2 making this effectively illiquid - but exiting now locks in a small loss with no recovery chance. Letting the bot's -25% hard stop manage downside while giving it a few minutes to develop."
     }
   ],
   "trade_stats": {
-    "total": 2961,
+    "total": 2962,
     "wins": 1389,
-    "losses": 1572,
+    "losses": 1573,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 4.915554,
-    "avg_pnl_pct": 28.88,
+    "total_pnl_sol": 4.914483,
+    "avg_pnl_pct": 28.87,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 584,
-    "today_realized_sol": 7.600869,
-    "today_target_pct": 1900.2,
+    "today_trades": 585,
+    "today_realized_sol": 7.599798,
+    "today_target_pct": 1899.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1389,
-      "loss_count": 1572,
+      "loss_count": 1573,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T21:07:58.633767+00:00",
+  "last_llm_brief_at": "2026-09-10T21:09:19.608450+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "AT2xkBWbnkcqr3ue6TftoRc1JV7eNRp35n1dsycHpump": {
-      "price_usd": 3.05903722006046e-05,
+    "5nCnrXin8DGNb7Y33JWL9CXGRwTW91U79PXc156gpump": {
+      "price_usd": 2.799377580055521e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 6922.2446098682,
-      "volume_h24": 24869.26,
+      "liquidity_usd": 1.7245763949442,
+      "volume_h24": 835.98,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 69.257074636
+      "real_sol_reserves": 0.017244143
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

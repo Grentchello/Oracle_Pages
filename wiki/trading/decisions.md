@@ -20488,3 +20488,6 @@
 ## [2026-09-10 21:08 UTC] buy | [LLM] $KERMIT at $2.865e-06, spent 0.05 SOL
 - **Reasoning:** $KERMIT has the only real Twitter attachment in this batch (concrete attention signal vs empty URL fields for peers). Kermit is a culturally memeable character, $3.2k mcap is prime for a narrative pump, and 0.6min age means I'm early. Risk: meme IP could draw snipers/rug-pullers.
 
+## [2026-09-10 21:09 UTC] sell | [PARTIAL][LLM] $KERMIT at $2.79938e-06 | P&L: -2.3%
+- **Reasoning:** Only -2.3% and just opened (0.0h). The 283% pool share is alarming - pool is only $2 making this effectively illiquid - but exiting now locks in a small loss with no recovery chance. Letting the bot's -25% hard stop manage downside while giving it a few minutes to develop.
+
