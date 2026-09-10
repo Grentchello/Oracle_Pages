@@ -18895,3 +18895,6 @@
 ## [2026-09-10 10:51 UTC] buy | [LLM] $MANATEE at $4.38562e-06, spent 0.05 SOL
 - **Reasoning:** $MANATEE 'Rays Of Hope' rides a fresh manatee/hope attention cluster (3 $HOPE tokens + $MANATEE launching same minute = trending narrative), has twitter link, mcap $4,395 passes viability gate ($3k+), no fragility keywords, descriptive name. Best narrative+attention combo in this batch.
 
+## [2026-09-10 10:53 UTC] sell | [PARTIAL][LLM] $MANATEE at $5.19589e-06 | P&L: +18.5%
+- **Reasoning:** +18.5% on a $1075 pool with only 1% share is thin — selling half locks ~$0.45 profit while letting the rest ride free toward the +25% auto-TP. Approaching the 20% doubt threshold with weak liquidity confirms the partial exit.
+
