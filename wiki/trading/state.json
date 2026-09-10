@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.530995,
+  "balance_sol": 1.589942,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AGdtRQ6LkdBuUtoAMc46xsLTi67R2G1As3CLxXz11YRg": {
-      "symbol": "COINBASS",
-      "name": "Coinbass",
-      "amount": 1002370.1362828363,
-      "entry_price_usd": 5.063e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T00:01:09.955571+00:00",
-      "entry_usd_value": 5.075,
-      "last_seen_price_usd": 5.063e-06,
-      "entry_signals": {
-        "liquidity_usd": 808.3070943394999,
-        "volume_24h_usd": 3118.77,
-        "market_cap_usd": 4900.00270722601,
-        "ath_market_cap_usd": 5447.8301251800085,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 7.963616693,
-        "description": "Coinbass paired with Coinbase stock",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40436,19 +40412,30 @@
       "pnl_pct": -53.63,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "AGdtRQ6LkdBuUtoAMc46xsLTi67R2G1As3CLxXz11YRg",
+      "symbol": "COINBASS",
+      "name": "Coinbass",
+      "amount_sold": 1002370.1362828363,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T00:01:09.955571+00:00",
+      "exit_time": "2026-09-10T00:02:43.613795+00:00",
+      "entry_price_usd": 5.063e-06,
+      "exit_price_usd": 5.9754544489091126e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.058947,
+      "pnl_sol": 0.008947,
+      "pnl_pct": 18.02,
+      "exit_reason": "LLM: sell_all — Held 0.0h, up +18% but pool is only $1373 (below 5x position size of $5 — actually below position size entirely), bond only 12%, and our share is 0% (",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T00:01:09.955746+00:00",
+  "last_updated": "2026-09-10T00:02:43.877922+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.5,
-  "portfolio_value_usd": 160.47,
+  "last_sol_price_usd": 101.61,
+  "portfolio_value_usd": 161.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 08:40 UTC",
-      "action": "buy",
-      "details": "[LLM] $Mud at $8.50894e-06, spent 0.05 SOL",
-      "reason": "$Mud (Mud to Moon) has the strongest attention signal of the cohort: highest mcap ($8.5k vs $1.5-3.6k for others), bond at 29% indicating organic early accumulation (not zero), dedicated twitter handle, and a clear migration/journey narrative. Buying 0.05 SOL to test the wave."
-    },
     {
       "time": "2026-09-09 08:41 UTC",
       "action": "sell",
@@ -40562,30 +40549,48 @@
       "action": "buy",
       "details": "[LLM] $COINBASS at $5.063e-06, spent 0.05 SOL",
       "reason": "$COINBASS — Coinbase stock pairing narrative is a strong attention hook right now, description present (passes viability gate), 1.1min fresh, bond already at 19% showing buy pressure. 0.05 SOL position with -25% hard stop. Risk: ultra-low mcap ($4.9k) and only 19% bonded — set tight mental exit if it stalls."
+    },
+    {
+      "time": "2026-09-10 00:02 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $COINBASS at $5.97545e-06 | P&L: +18.0%",
+      "reason": "Held 0.0h, up +18% but pool is only $1373 (below 5x position size of $5 — actually below position size entirely), bond only 12%, and our share is 0% (we own essentially nothing meaningful). The thin pool + bonding curve stage = any exit attempt will dump it back. Cut now while we have a gain rather than get rugged as liquidity evaporates."
     }
   ],
   "trade_stats": {
-    "total": 2377,
-    "wins": 1192,
+    "total": 2378,
+    "wins": 1193,
     "losses": 1185,
-    "win_rate_pct": 50.1,
-    "total_pnl_sol": -2.685315,
+    "win_rate_pct": 50.2,
+    "total_pnl_sol": -2.676368,
     "avg_pnl_pct": 29.19,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 0,
-    "today_realized_sol": 0,
-    "today_target_pct": 0.0,
+    "today_trades": 1,
+    "today_realized_sol": 0.008947,
+    "today_target_pct": 2.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1192,
+      "win_count": 1193,
       "loss_count": 1185,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T00:01:08.533713+00:00",
+  "last_llm_brief_at": "2026-09-10T00:02:43.613758+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "AGdtRQ6LkdBuUtoAMc46xsLTi67R2G1As3CLxXz11YRg": {
+      "price_usd": 5.9754544489091126e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1372.63556109798,
+      "volume_h24": 4914.13,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 13.508862918
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

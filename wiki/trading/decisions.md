@@ -17245,3 +17245,6 @@
 ## [2026-09-10 00:01 UTC] buy | [LLM] $COINBASS at $5.063e-06, spent 0.05 SOL
 - **Reasoning:** $COINBASS — Coinbase stock pairing narrative is a strong attention hook right now, description present (passes viability gate), 1.1min fresh, bond already at 19% showing buy pressure. 0.05 SOL position with -25% hard stop. Risk: ultra-low mcap ($4.9k) and only 19% bonded — set tight mental exit if it stalls.
 
+## [2026-09-10 00:02 UTC] sell | [FULL][LLM] $COINBASS at $5.97545e-06 | P&L: +18.0%
+- **Reasoning:** Held 0.0h, up +18% but pool is only $1373 (below 5x position size of $5 — actually below position size entirely), bond only 12%, and our share is 0% (we own essentially nothing meaningful). The thin pool + bonding curve stage = any exit attempt will dump it back. Cut now while we have a gain rather than get rugged as liquidity evaporates.
+
