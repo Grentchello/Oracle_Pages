@@ -19345,3 +19345,6 @@
 ## [2026-09-10 13:59 UTC] buy | [LLM] $JHI at $6.629e-06, spent 0.05 SOL
 - **Reasoning:** $JHI (JUST HODL IT) has the strongest attention signal in the batch — Dan Held (@danheld) is a well-known crypto commentator with massive reach, and the 'How I like my coffee 👏' riff is a clear viral meme hook. Low mcap ($7.3k), super fresh (0.6 min), and a narrative that traders will recognize and repost. Risk: bond only 28% complete, classic pump.fun lottery ticket — but the Dan Held signal is exactly the kind of attention launch that 10xs in hours.
 
+## [2026-09-10 14:01 UTC] sell | [FULL][LLM] $JHI at $8.69537e-06 | P&L: +31.2%
+- **Reasoning:** +31.2% in <1min on a thin $2,292 bonding-curve pool — extremely fragile, one dump and gains evaporate. Lock the profit, redeploy capital into a fresh launch with stronger attention signal.
+
