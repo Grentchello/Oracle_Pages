@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.560855,
+  "balance_sol": 4.610855,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DZGc6rnFt8qXfMJgk7eJFLazs8dnM7cCbKCBXh8cpump": {
-      "symbol": "MEMEFATTY",
-      "name": "MemeFatty",
-      "amount": 53697.20375554438,
-      "entry_price_usd": 9.426934078438553e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T08:29:25.991341+00:00",
-      "entry_usd_value": 5.062,
-      "last_seen_price_usd": 9.426934078438553e-05,
-      "entry_signals": {
-        "liquidity_usd": 49.66586989688,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3675.12653631659,
-        "ath_market_cap_usd": 3675.12653631659,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.490575562,
-        "description": "The guy showed in the image is the poor guy who wants to pump his memecoin to 100M$ Market Cap. Help Him out.",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44635,19 +44611,30 @@
       "pnl_pct": 8.73,
       "exit_reason": "LLM: sell_all — $CROWL just opened this tick at +8.7% — not yet at the +20% profit-taking threshold and not stale (>30min flat). Bonding curve still active with $2,64",
       "partial": false
+    },
+    {
+      "mint": "DZGc6rnFt8qXfMJgk7eJFLazs8dnM7cCbKCBXh8cpump",
+      "symbol": "MEMEFATTY",
+      "name": "MemeFatty",
+      "amount_sold": 53697.20375554438,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T08:29:25.991341+00:00",
+      "exit_time": "2026-09-10T08:30:58.414045+00:00",
+      "entry_price_usd": 9.426934078438553e-05,
+      "exit_price_usd": 9.425071784072999e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.02,
+      "exit_reason": "LLM: sell_all — Just entered at -0.0%, no signal to exit yet. Give it a few minutes to develop direction before deciding.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T08:29:25.992888+00:00",
+  "last_updated": "2026-09-10T08:30:58.414264+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.24,
-  "portfolio_value_usd": 466.8,
+  "last_sol_price_usd": 101.22,
+  "portfolio_value_usd": 466.71,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 07:59 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $PAC-3310 at $2.08423e-08 | P&L: +25.1%",
-      "reason": "+25% with no strong narrative beyond ticker, pool share 207% means liquidity is thin and any reversal will be violent. Lock the gain per scalp discipline — 'if up >20% and you have ANY doubt, sell'."
-    },
     {
       "time": "2026-09-10 08:00 UTC",
       "action": "sell",
@@ -44761,30 +44748,48 @@
       "action": "buy",
       "details": "[LLM] $MEMEFATTY at $9.42693e-05, spent 0.05 SOL",
       "reason": "$MEMEFATTY has the strongest narrative: explicit underdog story ('help him to 100M'), relatable image, low $3.6k mcap with viral potential. Pure attention-market bait."
+    },
+    {
+      "time": "2026-09-10 08:30 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MEMEFATTY at $9.42507e-05 | P&L: -0.0%",
+      "reason": "Just entered at -0.0%, no signal to exit yet. Give it a few minutes to develop direction before deciding."
     }
   ],
   "trade_stats": {
-    "total": 2624,
+    "total": 2625,
     "wins": 1279,
-    "losses": 1345,
+    "losses": 1346,
     "win_rate_pct": 48.7,
     "total_pnl_sol": 0.344566,
-    "avg_pnl_pct": 28.9,
+    "avg_pnl_pct": 28.89,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 247,
+    "today_trades": 248,
     "today_realized_sol": 3.029881,
     "today_target_pct": 757.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1279,
-      "loss_count": 1345,
+      "loss_count": 1346,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T08:29:24.476810+00:00",
+  "last_llm_brief_at": "2026-09-10T08:30:58.413135+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "DZGc6rnFt8qXfMJgk7eJFLazs8dnM7cCbKCBXh8cpump": {
+      "price_usd": 9.425071784072999e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 49.65605838564,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.490575562
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
