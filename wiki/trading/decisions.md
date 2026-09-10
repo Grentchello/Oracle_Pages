@@ -20239,3 +20239,9 @@
 ## [2026-09-10 19:35 UTC] buy | [LLM] $GDENG at $3.457e-06, spent 0.05 SOL
 - **Reasoning:** $GDENG — Moo Deng was a real viral moment (baby pygmy hippo), 'legendary grandpa from 1963' is a recognizable narrative hook at $3.4k mcap <1min old. Passes viability gate (twitter + desc). High rug risk at this stage but asymmetric attention play.
 
+## [2026-09-10 19:36 UTC] sell | [FULL][LLM] $GDENG at $3.32214e-06 | P&L: -3.9%
+- **Reasoning:** GDENG flat at -3.9% with only $269 pool on bonding curve — illiquid and stale, capital better rotated to a fresh narrative play.
+
+## [2026-09-10 19:36 UTC] buy | [LLM] $VIBE at $7.452e-06, spent 0.05 SOL
+- **Reasoning:** $VIBE linked to toly (Solana co-founder) tweet at only $8.7k mcap — if genuine, this is mega attention at microcap, asymmetric 5-10x setup. Risk: could be impersonator, size is small enough to absorb a rug.
+
