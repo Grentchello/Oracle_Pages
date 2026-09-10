@@ -18694,3 +18694,9 @@
 ## [2026-09-10 09:15 UTC] buy | [LLM] $SUSPID at $3.079e-06, spent 0.05 SOL
 - **Reasoning:** $SUSPID Suspicious Pigeon - 'Trust No One. Guard the Bread.' is a genuinely funny absurdist meme with mascot-style virality potential. Bond 5% is thin though - watch for rug risk on such low mcap ($3k).
 
+## [2026-09-10 09:16 UTC] sell | [FULL][LLM] $SUSPID at $3.48478e-06 | P&L: +13.2%
+- **Reasoning:** +13.2% with a tiny $334 pool and 2% ownership — exit now before the bot marks it stale. Pool too thin to safely hold, and the position is already at the 'lock the gain' zone per discipline rules.
+
+## [2026-09-10 09:17 UTC] buy | [LLM] $FKH at $1.006e-05, spent 0.05 SOL
+- **Reasoning:** FKH = Flying Ketamine Horse — absurd animal-drug combo is pure memecoin energy and the Gambino tweet gives it real X attention. $8k mcap with bonding at 25% gives room to run; sizing at 0.1 SOL limits downside if it dies.
+
