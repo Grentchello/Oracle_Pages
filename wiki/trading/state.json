@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.292784,
+  "balance_sol": 4.342667,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EG8A7FzyoLRp6d4XtUVWvdiTxjoAi8pE2i58p3xgpump": {
-      "symbol": "KIRK",
-      "name": "Freedom Statue",
-      "amount": 1760383.3865814698,
-      "entry_price_usd": 2.817e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T16:15:50.993982+00:00",
-      "entry_usd_value": 4.9590000000000005,
-      "last_seen_price_usd": 2.817e-06,
-      "entry_signals": {
-        "liquidity_usd": 20.01239391114,
-        "volume_24h_usd": 3971.84,
-        "market_cap_usd": 2816.1598411760824,
-        "ath_market_cap_usd": 6571.832934629864,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.201778523,
-        "description": "",
-        "twitter": "https://x.com/Polymarket/status/2098080810108846230",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -47950,19 +47926,30 @@
       "pnl_pct": 0.08,
       "exit_reason": "LLM: sell_all — Flat at +0.1% with no clear narrative edge and only $52 pool liquidity where our 10% share makes us a price-mover. Capital rotation beats bag-holding ",
       "partial": false
+    },
+    {
+      "mint": "EG8A7FzyoLRp6d4XtUVWvdiTxjoAi8pE2i58p3xgpump",
+      "symbol": "KIRK",
+      "name": "Freedom Statue",
+      "amount_sold": 1760383.3865814698,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T16:15:50.993982+00:00",
+      "exit_time": "2026-09-10T16:17:36.010490+00:00",
+      "entry_price_usd": 2.817e-06,
+      "exit_price_usd": 2.8276853516210327e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049883,
+      "pnl_sol": -0.000117,
+      "pnl_pct": 0.38,
+      "exit_reason": "LLM: sell_all — Position just opened, pool is tiny ($20) with our 25% share — selling into this would crater the price. Not stale yet (0 min held), barely breakeven. ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T16:15:50.994260+00:00",
+  "last_updated": "2026-09-10T16:17:36.011139+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.18,
-  "portfolio_value_usd": 430.72,
+  "last_sol_price_usd": 99.79,
+  "portfolio_value_usd": 433.35,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 15:51 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Stimmy at $5.39012e-06 | P&L: +24.4%",
-      "reason": "$Stimmy is up +24.4% which is above the +20% profit-taking threshold. Position just opened (0.0h) so no stale risk yet, but rule says to lock gains when in doubt — bonding-curve pools this thin ($1.17k) can reverse fast. Take the 24% win and free up the slot."
-    },
     {
       "time": "2026-09-10 15:52 UTC",
       "action": "buy",
@@ -48076,40 +48063,46 @@
       "action": "buy",
       "details": "[LLM] $KIRK at $2.817e-06, spent 0.05 SOL",
       "reason": "$KIRK is a Freedom Statue token tweeted by @Polymarket — organic attention from a credible, high-follower account. Viability gate passes (twitter present), sub-3k mcap, fresh launch. Polymarket posting is a real attention signal, not bot activity."
+    },
+    {
+      "time": "2026-09-10 16:17 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $KIRK at $2.82769e-06 | P&L: +0.4%",
+      "reason": "Position just opened, pool is tiny ($20) with our 25% share — selling into this would crater the price. Not stale yet (0 min held), barely breakeven. Wait for any bump to exit cleanly."
     }
   ],
   "trade_stats": {
-    "total": 2819,
+    "total": 2820,
     "wins": 1345,
-    "losses": 1474,
+    "losses": 1475,
     "win_rate_pct": 47.7,
-    "total_pnl_sol": 0.076542,
-    "avg_pnl_pct": 26.82,
+    "total_pnl_sol": 0.076425,
+    "avg_pnl_pct": 26.81,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 442,
-    "today_realized_sol": 2.761857,
-    "today_target_pct": 690.5,
+    "today_trades": 443,
+    "today_realized_sol": 2.76174,
+    "today_target_pct": 690.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1345,
-      "loss_count": 1474,
+      "loss_count": 1475,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T16:15:49.611148+00:00",
+  "last_llm_brief_at": "2026-09-10T16:17:36.009954+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "HinPqfC83xUbqB5QdEpr8trSb2id6TSBhqMkDPyspump": {
-      "price_usd": 2.8711106766674926e-06,
+    "EG8A7FzyoLRp6d4XtUVWvdiTxjoAi8pE2i58p3xgpump": {
+      "price_usd": 2.8276853516210327e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 52.19310436434,
-      "volume_h24": 52.3,
+      "liquidity_usd": 20.13547881017,
+      "volume_h24": 3971.84,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.526246263
+      "real_sol_reserves": 0.201778523
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

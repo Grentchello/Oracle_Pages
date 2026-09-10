@@ -19687,3 +19687,6 @@
 ## [2026-09-10 16:15 UTC] buy | [LLM] $KIRK at $2.817e-06, spent 0.05 SOL
 - **Reasoning:** $KIRK is a Freedom Statue token tweeted by @Polymarket — organic attention from a credible, high-follower account. Viability gate passes (twitter present), sub-3k mcap, fresh launch. Polymarket posting is a real attention signal, not bot activity.
 
+## [2026-09-10 16:17 UTC] sell | [FULL][LLM] $KIRK at $2.82769e-06 | P&L: +0.4%
+- **Reasoning:** Position just opened, pool is tiny ($20) with our 25% share — selling into this would crater the price. Not stale yet (0 min held), barely breakeven. Wait for any bump to exit cleanly.
+
