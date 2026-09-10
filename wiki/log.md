@@ -451,3 +451,26 @@ Bot still bleeding because memecoin market is brutal right now. Consider pausing
 - At 50 trades/day that's potentially +27 SOL/day (reality lower)
 
 **Status:** Bot trading now. First trades visible — buys happening, LLM hold overridden to sell.
+
+## [2026-09-10 02:57 UTC] BREAKTHROUGH | Bot profitable
+
+After v8.7 + v8.8 (pumped filter) + v8.9 (age filter):
+
+**Today (83 trades):**
+- TP wins: 9 (+2018 mSOL)
+- Other wins: 14 (+71 mSOL)
+- Losses: 60 (-740 mSOL)
+- **Net: +1349 mSOL**
+
+**Since v8.7 reset (147 trades):**
+- Net: **+930 mSOL**
+- Win rate: 25.9% (low but big winners compensate)
+
+**Top winners:**
+- $BATON +2040% (+1020 mSOL) — caught +50% TP
+- $fun +1070% (+536 mSOL) — caught +50% TP
+- $ROYAL +382% (+191 mSOL) — caught +50% TP
+
+**Balance recovered to 2.88 SOL** (started reset at 2.0)
+
+**Key insight:** 9 mechanical +50% TPs captured = +2 SOL, vs -0.74 SOL in losses. The asymmetric payoff works.
