@@ -19264,3 +19264,9 @@
 ## [2026-09-10 13:27 UTC] buy | [LLM] $Neko at $6.18763e-06, spent 0.05 SOL
 - **Reasoning:** $Neko — OG neko 'Bitcoin mascot' IP tied to known @Ognekocoin X account, bond furthest along at 25%, fresh $6k mcap with clear mascot narrative = best attention-density/signal ratio in the new-launch set; if it doesn't move in 30m, the bot auto-exits.
 
+## [2026-09-10 13:28 UTC] sell | [rapid-drop] $Neko crashed >15% in one tick | P&L: -54.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 13:28 UTC] buy | [LLM] $DUOLINGO at $3.009e-06, spent 0.05 SOL
+- **Reasoning:** Strongest narrative on the slate: real-world brand-name collision with Apple's iPhone 'Duo' launch + Duolingo has a verified X account that may organically amplify. $3k mcap with actual description (passes viability gate); meme attention markets live for this exact story. Risk: only 4% bonding curve filled, but that's the cheap-entry zone.
+
