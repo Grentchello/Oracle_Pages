@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.582948,
+  "balance_sol": 1.635082,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3Vk4M3R7ZU1sQbmv1mjmTCNG6uVUwNEgJgfsDwcPpump": {
-      "symbol": "PEPE",
-      "name": "Pepe",
-      "amount": 637718.5259715759,
-      "entry_price_usd": 7.951e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T00:18:45.093080+00:00",
-      "entry_usd_value": 5.0705,
-      "last_seen_price_usd": 7.951e-06,
-      "entry_signals": {
-        "liquidity_usd": 2480.10807601188,
-        "volume_24h_usd": 10165.64,
-        "market_cap_usd": 9038.33241423832,
-        "ath_market_cap_usd": 10013.337000877078,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 24.456247668,
-        "description": "",
-        "twitter": "https://x.com/richguyhoddie/status/2097841633853382663?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -40555,19 +40531,30 @@
       "pnl_pct": -28.48,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "3Vk4M3R7ZU1sQbmv1mjmTCNG6uVUwNEgJgfsDwcPpump",
+      "symbol": "PEPE",
+      "name": "Pepe",
+      "amount_sold": 637718.5259715759,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T00:18:45.093080+00:00",
+      "exit_time": "2026-09-10T00:20:03.846911+00:00",
+      "entry_price_usd": 7.951e-06,
+      "exit_price_usd": 8.282978531765846e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.052134,
+      "pnl_sol": 0.002134,
+      "pnl_pct": 4.18,
+      "exit_reason": "LLM: sell_all — PEPE is just entered (0.0h held), only +4.2% — too early to take profit or panic. Bonding curve pool is small ($2158) so volatility is high; give it a",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T00:18:45.093257+00:00",
+  "last_updated": "2026-09-10T00:20:04.105086+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.41,
-  "portfolio_value_usd": 165.6,
+  "last_sol_price_usd": 101.32,
+  "portfolio_value_usd": 165.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-09 13:18 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-09 18:33 UTC",
       "action": "observe",
@@ -40681,40 +40668,46 @@
       "action": "buy",
       "details": "[LLM] $PEPE at $7.951e-06, spent 0.05 SOL",
       "reason": "$PEPE — Pepe is a legendary memecoin brand with massive organic recognition. Brand recognition = attention arbitrage. Two posts already driving chatter. Viral narrative, real liquidity at $9k mcap with 31% bonded."
+    },
+    {
+      "time": "2026-09-10 00:20 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PEPE at $8.28298e-06 | P&L: +4.2%",
+      "reason": "PEPE is just entered (0.0h held), only +4.2% — too early to take profit or panic. Bonding curve pool is small ($2158) so volatility is high; give it a few minutes to see if the buy pressure builds. Not stale yet, not a loser — hold and watch."
     }
   ],
   "trade_stats": {
-    "total": 2384,
-    "wins": 1196,
+    "total": 2385,
+    "wins": 1197,
     "losses": 1188,
     "win_rate_pct": 50.2,
-    "total_pnl_sol": -2.633362,
-    "avg_pnl_pct": 29.15,
+    "total_pnl_sol": -2.631228,
+    "avg_pnl_pct": 29.14,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.89,
-    "today_trades": 7,
-    "today_realized_sol": 0.051953,
-    "today_target_pct": 13.0,
+    "today_trades": 8,
+    "today_realized_sol": 0.054087,
+    "today_target_pct": 13.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1196,
+      "win_count": 1197,
       "loss_count": 1188,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T00:18:43.718043+00:00",
+  "last_llm_brief_at": "2026-09-10T00:20:03.846756+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "ARxuFt7Ts1xWvMnV9VMSSdN4SQiXu3FVdVocBy7Bpump": {
-      "price_usd": 4.027882934782372e-06,
+    "3Vk4M3R7ZU1sQbmv1mjmTCNG6uVUwNEgJgfsDwcPpump": {
+      "price_usd": 8.282978531765846e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 583.79602005129,
-      "volume_h24": 6568.79,
+      "liquidity_usd": 2157.9819727894796,
+      "volume_h24": 15501.35,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 5.756789469
+      "real_sol_reserves": 21.298677189
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
