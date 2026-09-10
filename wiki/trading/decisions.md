@@ -19579,3 +19579,9 @@
 ## [2026-09-10 15:33 UTC] buy | [LLM] $face at $3.16476e-06, spent 0.05 SOL
 - **Reasoning:** $face with 'pump face' narrative and active X account @pumpfacey. Ultra-fresh (0.1min), tiny mcap $3.1k = max upside if attention catches. Bond just 6% so it's high-risk, but the meme is simple and sticky. Risky scalp, but this is exactly the asymmetric setup the strategy wants.
 
+## [2026-09-10 15:34 UTC] sell | [v8.7 TP +50% (full)] $face at $4.87599e-06 | P&L: +54.1%
+- **Reasoning:** Auto take-profit at +54.1%
+
+## [2026-09-10 15:34 UTC] buy | [LLM] $EVILPEPE at $2.76913e-06, spent 0.05 SOL
+- **Reasoning:** Pepe-derivative meme with clear viral DNA (dark/edgy angle, shareable brand). Fresh 0.3min launch at $2.7k mcap = ground floor, twitter present, viability gate passes, no fragility-blocklist keywords. Standard0.05 SOL scalp targeting50-100% on first-hour attention spike; -25% hard stop enforced by bot.
+
