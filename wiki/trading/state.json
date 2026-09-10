@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.092058,
+  "balance_sol": 9.142059,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "97w2vY8BCMh7739Jz6vnPiTJV3zf1wprUwNZmG8Upump": {
-      "symbol": "SOLANAFROG",
-      "name": "Solana Frog",
-      "amount": 650205.9307516325,
-      "entry_price_usd": 7.674491671018138e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T21:43:53.218491+00:00",
-      "entry_usd_value": 4.99,
-      "last_seen_price_usd": 7.674491671018138e-06,
-      "entry_signals": {
-        "liquidity_usd": 1971.3580245163998,
-        "volume_24h_usd": null,
-        "market_cap_usd": 7678.560703765872,
-        "ath_market_cap_usd": 7678.560703765872,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 19.753086418,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -50585,19 +50561,30 @@
       "pnl_pct": 63.08,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "97w2vY8BCMh7739Jz6vnPiTJV3zf1wprUwNZmG8Upump",
+      "symbol": "SOLANAFROG",
+      "name": "Solana Frog",
+      "amount_sold": 650205.9307516325,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T21:43:53.218491+00:00",
+      "exit_time": "2026-09-10T21:45:09.018768+00:00",
+      "entry_price_usd": 7.674491671018138e-06,
+      "exit_price_usd": 7.675352313409617e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050001,
+      "pnl_sol": 1e-06,
+      "pnl_pct": 0.01,
+      "exit_reason": "LLM: sell_all — Position is flat at 0.0% with no momentum — bonding curve liquidity is only $1972, our share is 0%, and the narrative (frog) is generic. Fresh slate m",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T21:43:53.218774+00:00",
+  "last_updated": "2026-09-10T21:45:10.108466+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.8,
-  "portfolio_value_usd": 912.38,
+  "last_sol_price_usd": 99.81,
+  "portfolio_value_usd": 912.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 21:13 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $WENDY at $2.84948e-06 | P&L: -7.1%",
-      "reason": "Down -7.1% with our position at 17% of a $28 pool = textbook liquidity trap. No bounce signal, no narrative revival. Exiting fast per loser rule before this drifts toward -25% hard stop."
-    },
     {
       "time": "2026-09-10 21:17 UTC",
       "action": "buy",
@@ -50711,40 +50698,46 @@
       "action": "buy",
       "details": "[LLM] $SOLANAFROG at $7.67449e-06, spent 0.05 SOL",
       "reason": "$SOLANAFROG passes viability gate (mcap $7,679 > $3k liquidity, no desc needed), no fragility flags, animal/frog narrative has proven memecoin legs (pepe/frog meta), brand-new (0.3min) and clean. 0.05 SOL position to test the water."
+    },
+    {
+      "time": "2026-09-10 21:45 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SOLANAFROG at $7.67535e-06 | P&L: +0.0%",
+      "reason": "Position is flat at 0.0% with no momentum — bonding curve liquidity is only $1972, our share is 0%, and the narrative (frog) is generic. Fresh slate means I should rotate into stronger attention signals rather than babysit a dead entry."
     }
   ],
   "trade_stats": {
-    "total": 2974,
-    "wins": 1396,
+    "total": 2975,
+    "wins": 1397,
     "losses": 1578,
-    "win_rate_pct": 46.9,
-    "total_pnl_sol": 4.875869,
-    "avg_pnl_pct": 28.73,
+    "win_rate_pct": 47.0,
+    "total_pnl_sol": 4.87587,
+    "avg_pnl_pct": 28.72,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 597,
-    "today_realized_sol": 7.561184,
+    "today_trades": 598,
+    "today_realized_sol": 7.561185,
     "today_target_pct": 1890.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1396,
+      "win_count": 1397,
       "loss_count": 1578,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T21:43:51.811906+00:00",
+  "last_llm_brief_at": "2026-09-10T21:45:09.018728+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "F5Gr1jJjrxRMXeWcJtzCoJDHVx4gMTaLpZM1EkS6pump": {
-      "price_usd": 1.0914105311557795e-05,
+    "97w2vY8BCMh7739Jz6vnPiTJV3zf1wprUwNZmG8Upump": {
+      "price_usd": 7.675352313409617e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2927.3376961912,
-      "volume_h24": 12259.14,
+      "liquidity_usd": 1971.58520553804,
+      "volume_h24": 1973.56,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 29.332041044
+      "real_sol_reserves": 19.753383484
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

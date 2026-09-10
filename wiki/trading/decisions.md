@@ -20557,3 +20557,6 @@
 ## [2026-09-10 21:43 UTC] buy | [LLM] $SOLANAFROG at $7.67449e-06, spent 0.05 SOL
 - **Reasoning:** $SOLANAFROG passes viability gate (mcap $7,679 > $3k liquidity, no desc needed), no fragility flags, animal/frog narrative has proven memecoin legs (pepe/frog meta), brand-new (0.3min) and clean. 0.05 SOL position to test the water.
 
+## [2026-09-10 21:45 UTC] sell | [FULL][LLM] $SOLANAFROG at $7.67535e-06 | P&L: +0.0%
+- **Reasoning:** Position is flat at 0.0% with no momentum — bonding curve liquidity is only $1972, our share is 0%, and the narrative (frog) is generic. Fresh slate means I should rotate into stronger attention signals rather than babysit a dead entry.
+
