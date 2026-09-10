@@ -20059,3 +20059,9 @@
 ## [2026-09-10 18:45 UTC] buy | [LLM] $Real at $6.61144e-06, spent 0.05 SOL
 - **Reasoning:** $Real taps the rug-victim sympathy narrative which is peak memecoin attention right now — 'down to my last $150, rugged so many times' is exactly the kind of self-deprecating crypto-bro story that goes viral. Mcap $6.6k, 26% bond, clear story. Risk: sympathy plays can flop if community reads it as lazy begging, not authentic lore.
 
+## [2026-09-10 18:46 UTC] sell | [rapid-drop] $Real crashed >15% in one tick | P&L: -48.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 18:46 UTC] buy | [LLM] $Dawg at $1.027e-06, spent 0.05 SOL
+- **Reasoning:** $Dawg — 'Can I Pet That Dawg' has the best narrative on the board: a community-driven origin story ('legend took root during summer market lull'), relatable dog coin framing, and just launched ~1min ago at $2k mcap where 10-50x is realistic on a bonding token with real story. Bond only 21% so early entry still available; sizing the bet at the stated 0.05 SOL position size (per the v7 paper rules) to respect the fresh 2 SOL balance.
+
