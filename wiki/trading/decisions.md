@@ -18967,3 +18967,6 @@
 ## [2026-09-10 11:19 UTC] sell | [FULL][LLM] $BetOnBlak at $8.86351e-06 | P&L: +0.0%
 - **Reasoning:** Flat at +0.0%, pool only $1, we hold 25% of it — illiquid and zero momentum. Freeing the slot for a fresh launch with actual attention.
 
+## [2026-09-10 11:24 UTC] buy | [LLM] $MTF at $4.79483e-06, spent 0.05 SOL
+- **Reasoning:** $MTF has a clear fund-themed meme narrative and was launched from a Fearless trading account, with a tiny $4,789 market cap offering high attention upside. Risk is extremely high because the bond is only 19% complete and liquidity is unverified.
+
