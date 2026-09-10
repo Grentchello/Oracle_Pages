@@ -20566,3 +20566,6 @@
 ## [2026-09-10 21:50 UTC] sell | [FULL][LLM] $EXTINCT at $2.79143e-06 | P&L: -0.9%
 - **Reasoning:** Just opened, -0.9% is noise on bonding curve. No reason to bail on a fresh position. Will reassess at the stale threshold.
 
+## [2026-09-10 21:52 UTC] buy | [LLM] $Doogle at $8.24842e-06, spent 0.05 SOL
+- **Reasoning:** $Doogle — Google parody name with viral potential, sourced from keemotrades (known crypto KOL with audience). Bond 29% vs 1-5% on others shows it's actually getting traction, not just listed. Mcap $8.2k is tiny enough for 5-10x if narrative catches.
+
