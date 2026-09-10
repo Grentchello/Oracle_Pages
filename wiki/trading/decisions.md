@@ -20791,3 +20791,6 @@
 ## [2026-09-10 23:12 UTC] sell | [FULL][LLM] $STONK at $3.21736e-06 | P&L: -2.8%
 - **Reasoning:** $STONK is at -2.8% after 0h, just entered, noise not loss. Pool is thin ($234) but auto-stop handles -25%. Will reassess on next tick if it doesn't bounce.
 
+## [2026-09-10 23:13 UTC] buy | [LLM] $RUFUS at $3.80246e-07, spent 0.05 SOL
+- **Reasoning:** $RUFUS: sub-$10k mcap with an active twitter post (memorable 'Rufus' name, likely a fresh narrative pump). Fits viability gate (twitter present), freshest attention on the slate, narrative is early but the twitter post is the signal. Risk: ultra-early, bond only 27% — tight stop at -25%.
+
