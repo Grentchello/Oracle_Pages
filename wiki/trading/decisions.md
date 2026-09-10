@@ -17866,3 +17866,6 @@
 ## [2026-09-10 03:52 UTC] sell | [rapid-drop] $att crashed >15% in one tick | P&L: -89.8%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 03:55 UTC] buy | [LLM] $MACD at $2.959e-06, spent 0.05 SOL
+- **Reasoning:** $MACD — 'Big MACD' trading indicator meme targets crypto trader audience specifically. Has dedicated twitter account. Niche but could resonate hard with trading Twitter where memes about indicators spread. Risk: niche appeal, low mcap.
+
