@@ -18718,3 +18718,6 @@
 ## [2026-09-10 09:31 UTC] sell | [PARTIAL][LLM] $BetOnBlak at $4.03869e-06 | P&L: +14.3%
 - **Reasoning:** Up +14.3% but pool is only $1 with us holding 33% — any sell would crater execution. Bonding curve is at 41% and still very early; if it graduates or pumps organically we capture the move. Not stale (0.0h held), no reason to force-exit into illiquid depth.
 
+## [2026-09-10 09:34 UTC] sell | [FULL][LLM] $BetOnBlak at $4.03151e-06 | P&L: +14.1%
+- **Reasoning:** Pool is $1 with my 17% share — position is effectively illiquid and the +14% is unrealizable. Freeing the slot to rotate into a better-narrative candidate (Nasdaq6900 with verified twitter handle) is higher EV than waiting for the bot's auto-exit.
+

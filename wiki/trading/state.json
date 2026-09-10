@@ -1,32 +1,8 @@
 {
-  "balance_sol": 5.13222,
+  "balance_sol": 5.13345,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AF1z7dVHdQxyR8J3ZkhTE6J7hrwaXmd5eqh2RT9Lpump": {
-      "symbol": "BetOnBlak",
-      "name": "BetOnBlack",
-      "amount": 30860.7094050932,
-      "entry_price_usd": 3.5340202776372497e-06,
-      "entry_sol_spent": 0.0010773720519595964,
-      "entry_time": "2026-09-10T09:28:06.783332+00:00",
-      "entry_usd_value": 5.0615000000000006,
-      "last_seen_price_usd": 4.0386895296288885e-06,
-      "entry_signals": {
-        "liquidity_usd": 4.33026924543,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3542.192294913115,
-        "ath_market_cap_usd": 3542.192294913115,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.042776541,
-        "description": "put the house on black ",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45009,19 +44985,30 @@
       "pnl_pct": 14.28,
       "exit_reason": "LLM: sell_all — Up +14.3% but pool is only $1 with us holding 33% — any sell would crater execution. Bonding curve is at 41% and still very early; if it graduates or ",
       "partial": true
+    },
+    {
+      "mint": "AF1z7dVHdQxyR8J3ZkhTE6J7hrwaXmd5eqh2RT9Lpump",
+      "symbol": "BetOnBlak",
+      "name": "BetOnBlack",
+      "amount_sold": 30860.7094050932,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T09:28:06.783332+00:00",
+      "exit_time": "2026-09-10T09:34:03.850962+00:00",
+      "entry_price_usd": 3.5340202776372497e-06,
+      "exit_price_usd": 4.031512472512359e-06,
+      "entry_sol_for_chunk": 0.001077,
+      "exit_sol_received": 0.00123,
+      "pnl_sol": 0.000153,
+      "pnl_pct": 14.08,
+      "exit_reason": "LLM: sell_all — Pool is $1 with my 17% share — position is effectively illiquid and the +14% is unrealizable. Freeing the slot to rotate into a better-narrative candi",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T09:31:38.844485+00:00",
+  "last_updated": "2026-09-10T09:34:05.423865+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.29,
-  "portfolio_value_usd": 519.95,
+  "last_sol_price_usd": 101.11,
+  "portfolio_value_usd": 519.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 08:59 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Hand crashed >15% in one tick | P&L: -32.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 09:00 UTC",
       "action": "buy",
@@ -45135,36 +45122,42 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $BetOnBlak at $4.03869e-06 | P&L: +14.3%",
       "reason": "Up +14.3% but pool is only $1 with us holding 33% — any sell would crater execution. Bonding curve is at 41% and still very early; if it graduates or pumps organically we capture the move. Not stale (0.0h held), no reason to force-exit into illiquid depth."
+    },
+    {
+      "time": "2026-09-10 09:34 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BetOnBlak at $4.03151e-06 | P&L: +14.1%",
+      "reason": "Pool is $1 with my 17% share — position is effectively illiquid and the +14% is unrealizable. Freeing the slot to rotate into a better-narrative candidate (Nasdaq6900 with verified twitter handle) is higher EV than waiting for the bot's auto-exit."
     }
   ],
   "trade_stats": {
-    "total": 2646,
-    "wins": 1290,
+    "total": 2647,
+    "wins": 1291,
     "losses": 1356,
     "win_rate_pct": 48.8,
-    "total_pnl_sol": 0.867008,
-    "avg_pnl_pct": 29.1,
+    "total_pnl_sol": 0.867161,
+    "avg_pnl_pct": 29.09,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 269,
-    "today_realized_sol": 3.552323,
+    "today_trades": 270,
+    "today_realized_sol": 3.552476,
     "today_target_pct": 888.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1290,
+      "win_count": 1291,
       "loss_count": 1356,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T09:31:38.843791+00:00",
+  "last_llm_brief_at": "2026-09-10T09:34:03.850614+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AF1z7dVHdQxyR8J3ZkhTE6J7hrwaXmd5eqh2RT9Lpump": {
-      "price_usd": 4.0386895296288885e-06,
+      "price_usd": 4.031512472512359e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.7530351366300001,
-      "volume_h24": 953.65,
+      "liquidity_usd": 0.75169693617,
+      "volume_h24": 953.9,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
