@@ -17500,3 +17500,6 @@
 ## [2026-09-10 01:37 UTC] buy | [LLM] $ballz at $5.92949e-06, spent 0.05 SOL
 - **Reasoning:** $ballz is the highest-mcap mint in a cluster spawned by one @avynri viral tweet — concentrated attention signal across 4 mints means this is THE pumpfun-listed one. Fresh 0.4min age, $5.9k mcap. Risk: cluster dilution and copycat mints may fragment momentum. Sizing at 0.05 SOL given low liquidity.
 
+## [2026-09-10 01:38 UTC] sell | [rapid-drop] $ballz crashed >15% in one tick | P&L: -52.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

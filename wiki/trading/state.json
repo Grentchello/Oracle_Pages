@@ -1,32 +1,8 @@
 {
-  "balance_sol": 1.640815,
+  "balance_sol": 1.664597,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BC6aw8tgfF1gKJMFnqmWfVnhLPmP9erKpVQqSASrpump": {
-      "symbol": "ballz",
-      "name": "ballzcoin",
-      "amount": 850579.3263594852,
-      "entry_price_usd": 5.929488107342545e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T01:37:52.253542+00:00",
-      "entry_usd_value": 5.043500000000001,
-      "last_seen_price_usd": 5.929488107342545e-06,
-      "entry_signals": {
-        "liquidity_usd": 1280.03055958932,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5925.961099446832,
-        "ath_market_cap_usd": 6032.290581068617,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 12.689903436,
-        "description": "",
-        "twitter": "https://x.com/Pumpfun/status/1889300686787019145",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -41218,19 +41194,30 @@
       "pnl_pct": -0.81,
       "exit_reason": "LLM: sell_all — $Roast just entered, -0.8% is noise. Position is fresh (0.0h held). Give it time to develop before judging — no reason to churn into another <2min old",
       "partial": false
+    },
+    {
+      "mint": "BC6aw8tgfF1gKJMFnqmWfVnhLPmP9erKpVQqSASrpump",
+      "symbol": "ballz",
+      "name": "ballzcoin",
+      "amount_sold": 850579.3263594852,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T01:37:52.253542+00:00",
+      "exit_time": "2026-09-10T01:38:56.012869+00:00",
+      "entry_price_usd": 5.929488107342545e-06,
+      "exit_price_usd": 2.8177283348673425e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.023782,
+      "pnl_sol": -0.026218,
+      "pnl_pct": -52.48,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T01:37:52.253731+00:00",
+  "last_updated": "2026-09-10T01:39:26.590131+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.87,
-  "portfolio_value_usd": 170.55,
+  "last_sol_price_usd": 100.78,
+  "portfolio_value_usd": 167.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 01:18 UTC",
-      "action": "buy",
-      "details": "[LLM] $CATBUTT at $2.831e-06, spent 0.05 SOL",
-      "reason": "$CATBUTT has the strongest narrative hook of the batch - 'PRE-IPO ANTHROPIC STOCK' ties into current AI hype (Anthropic funding rounds in news). Edgy name = memeable. Meets viability gate (desc >50 chars, has twitter). Risk: <1min old, no liquidity yet, bond=0%."
-    },
     {
       "time": "2026-09-10 01:19 UTC",
       "action": "sell",
@@ -41344,30 +41331,48 @@
       "action": "buy",
       "details": "[LLM] $ballz at $5.92949e-06, spent 0.05 SOL",
       "reason": "$ballz is the highest-mcap mint in a cluster spawned by one @avynri viral tweet — concentrated attention signal across 4 mints means this is THE pumpfun-listed one. Fresh 0.4min age, $5.9k mcap. Risk: cluster dilution and copycat mints may fragment momentum. Sizing at 0.05 SOL given low liquidity."
+    },
+    {
+      "time": "2026-09-10 01:38 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $ballz crashed >15% in one tick | P&L: -52.5%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2423,
+    "total": 2424,
     "wins": 1207,
-    "losses": 1216,
+    "losses": 1217,
     "win_rate_pct": 49.8,
-    "total_pnl_sol": -2.575496,
-    "avg_pnl_pct": 28.74,
+    "total_pnl_sol": -2.601714,
+    "avg_pnl_pct": 28.7,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 46,
-    "today_realized_sol": 0.109819,
-    "today_target_pct": 27.5,
+    "today_trades": 47,
+    "today_realized_sol": 0.083601,
+    "today_target_pct": 20.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1207,
-      "loss_count": 1216,
+      "loss_count": 1217,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T01:37:50.900846+00:00",
+  "last_llm_brief_at": "2026-09-10T01:39:26.590087+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BC6aw8tgfF1gKJMFnqmWfVnhLPmP9erKpVQqSASrpump": {
+      "price_usd": 2.8177283348673425e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.011252893239999999,
+      "volume_h24": 3280.45,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.000111658
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
