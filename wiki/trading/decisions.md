@@ -18739,3 +18739,6 @@
 ## [2026-09-10 09:43 UTC] sell | [rapid-drop] $$GORB crashed >15% in one tick | P&L: -25.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-10 09:48 UTC] buy | [LLM] $RECKLESS at $2.864e-06, spent 0.05 SOL
+- **Reasoning:** $RECKLESS ties to breaking Anthropic/AI safety news — real X link, viral narrative, mcap only $2.8k with bond still bonding. Attention window is now; if the story trends this 5-10x's in hours. Risk: narrative may cool fast, take-profit aggressively at +30%.
+
