@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.144825,
+  "balance_sol": 4.138334,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "5ryQY5HjyMM4MnRxb8FeoEsvhranUR52SKDAWy3zpump": {
+    "FLonQbLLeTpTHMHAg91F3jXmKyvGhnVEr5x2tqzco3Kq": {
       "symbol": "BOB",
       "name": "Bitcoin Bob",
-      "amount": 430716.72354948806,
-      "entry_price_usd": 1.172e-05,
+      "amount": 9777590701.108334,
+      "entry_price_usd": 5.167275001015633e-10,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T07:42:55.553303+00:00",
-      "entry_usd_value": 5.048,
-      "last_seen_price_usd": 1.172e-05,
+      "entry_time": "2026-09-10T07:44:35.425299+00:00",
+      "entry_usd_value": 5.052350000000001,
+      "last_seen_price_usd": 5.167275001015633e-10,
       "entry_signals": {
-        "liquidity_usd": 2413.99553383696,
-        "volume_24h_usd": 11579.28,
-        "market_cap_usd": 11296.726154080055,
-        "ath_market_cap_usd": 13255.352655378598,
+        "liquidity_usd": 0.001024515533,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3982.487041018815,
+        "ath_market_cap_usd": 3982.487041018815,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 23.910415351,
-        "description": "",
-        "twitter": "https://x.com/derivativist/status/2097953384405893599?s=20",
+        "real_sol_reserves": 1.0139e-05,
+        "description": "Created on https://rapidlaunch.io",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -44261,25 +44261,30 @@
       "pnl_pct": -4.08,
       "exit_reason": "LLM: sell_all — $WIF is down -4.1% on a bonding-curve position just opened this tick, but the hard rules say position auto-closes at 30min or -25%. Given it's stale i",
       "partial": false
+    },
+    {
+      "mint": "5ryQY5HjyMM4MnRxb8FeoEsvhranUR52SKDAWy3zpump",
+      "symbol": "BOB",
+      "name": "Bitcoin Bob",
+      "amount_sold": 430716.72354948806,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T07:42:55.553303+00:00",
+      "exit_time": "2026-09-10T07:44:34.079627+00:00",
+      "entry_price_usd": 1.172e-05,
+      "exit_price_usd": 1.0207306970180834e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.043509,
+      "pnl_sol": -0.006491,
+      "pnl_pct": -12.91,
+      "exit_reason": "LLM: sell_all — $BOB is held for 0.0h (just entered), down -12.9% which is well above the -25% hard stop. Bonding curve pool is tiny ($2.7k) — this is the slot the bo",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T07:42:55.553504+00:00",
+  "last_updated": "2026-09-10T07:44:35.425521+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 100.96,
-  "portfolio_value_usd": 423.51,
+  "last_sol_price_usd": 101.047,
+  "portfolio_value_usd": 423.22,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 07:23 UTC",
-      "action": "buy",
-      "details": "[LLM] $capy at $5.057e-06, spent 0.05 SOL",
-      "reason": "$capy — 'Nobody knows who he is. Nobody knows what he did. He is just a capybara.' is a strong absurdist meme narrative, mcap $4.9k, age 1.5min. Capybara memes have viral potential. Entering 0.05 SOL."
-    },
-    {
-      "time": "2026-09-10 07:24 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $capy crashed >15% in one tick | P&L: -93.2%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 07:24 UTC",
       "action": "buy",
@@ -44387,30 +44392,54 @@
       "action": "buy",
       "details": "[LLM] $BOB at $1.172e-05, spent 0.05 SOL",
       "reason": "$BOB 'Bitcoin Bob' — clearest attention signal of the slate: real derivative trader (@derivativist) posting about it, age 1.7min with highest mcap ($11.3k) and furthest along bonding curve (33%). Narrative has a memorable name + trader backing. Buying 0.05 SOL."
+    },
+    {
+      "time": "2026-09-10 07:44 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BOB at $1.02073e-05 | P&L: -12.9%",
+      "reason": "$BOB is held for 0.0h (just entered), down -12.9% which is well above the -25% hard stop. Bonding curve pool is tiny ($2.7k) — this is the slot the bot just opened on the other $BOB mint (ikYDL92aKo8BJJAPGTK9ZsM3roeBpajifueU9Whpump) which is the 'Bitcoin Bob' narrative with rapidlaunch.io attribution. Give it a few minutes to breathe before panic-exiting."
+    },
+    {
+      "time": "2026-09-10 07:44 UTC",
+      "action": "buy",
+      "details": "[LLM] $BOB at $5.16728e-10, spent 0.05 SOL",
+      "reason": "$BOB 'Bitcoin Bob' on rapidlaunch.io — Bitcoin-themed mascot is the cleanest attention narrative in this batch. Bitcoin Bob (the cartoon Bob character) already has organic meme recognition. At $4k mcap with 0.0min age, this is the highest-conviction fresh launch. Taking the position despite rapidlaunch origin because Bitcoin mascots have proven viral legs (BTC frog, BTC pepe, etc). Risk: rapidlaunch rug/bundler exposure per ME2F."
     }
   ],
   "trade_stats": {
-    "total": 2602,
+    "total": 2603,
     "wins": 1263,
-    "losses": 1339,
+    "losses": 1340,
     "win_rate_pct": 48.5,
-    "total_pnl_sol": -0.071468,
-    "avg_pnl_pct": 28.75,
+    "total_pnl_sol": -0.077959,
+    "avg_pnl_pct": 28.74,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 225,
-    "today_realized_sol": 2.613847,
-    "today_target_pct": 653.5,
+    "today_trades": 226,
+    "today_realized_sol": 2.607356,
+    "today_target_pct": 651.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1263,
-      "loss_count": 1339,
+      "loss_count": 1340,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T07:42:54.126612+00:00",
+  "last_llm_brief_at": "2026-09-10T07:44:34.079547+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5ryQY5HjyMM4MnRxb8FeoEsvhranUR52SKDAWy3zpump": {
+      "price_usd": 1.0207306970180834e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2730.6501780115377,
+      "volume_h24": 23842.93,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 27.023565054
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

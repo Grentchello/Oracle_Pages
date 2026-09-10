@@ -18487,3 +18487,9 @@
 ## [2026-09-10 07:42 UTC] buy | [LLM] $BOB at $1.172e-05, spent 0.05 SOL
 - **Reasoning:** $BOB 'Bitcoin Bob' — clearest attention signal of the slate: real derivative trader (@derivativist) posting about it, age 1.7min with highest mcap ($11.3k) and furthest along bonding curve (33%). Narrative has a memorable name + trader backing. Buying 0.05 SOL.
 
+## [2026-09-10 07:44 UTC] sell | [FULL][LLM] $BOB at $1.02073e-05 | P&L: -12.9%
+- **Reasoning:** $BOB is held for 0.0h (just entered), down -12.9% which is well above the -25% hard stop. Bonding curve pool is tiny ($2.7k) — this is the slot the bot just opened on the other $BOB mint (ikYDL92aKo8BJJAPGTK9ZsM3roeBpajifueU9Whpump) which is the 'Bitcoin Bob' narrative with rapidlaunch.io attribution. Give it a few minutes to breathe before panic-exiting.
+
+## [2026-09-10 07:44 UTC] buy | [LLM] $BOB at $5.16728e-10, spent 0.05 SOL
+- **Reasoning:** $BOB 'Bitcoin Bob' on rapidlaunch.io — Bitcoin-themed mascot is the cleanest attention narrative in this batch. Bitcoin Bob (the cartoon Bob character) already has organic meme recognition. At $4k mcap with 0.0min age, this is the highest-conviction fresh launch. Taking the position despite rapidlaunch origin because Bitcoin mascots have proven viral legs (BTC frog, BTC pepe, etc). Risk: rapidlaunch rug/bundler exposure per ME2F.
+
