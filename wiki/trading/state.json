@@ -1,8 +1,32 @@
 {
-  "balance_sol": 1.637355,
+  "balance_sol": 1.587355,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "3mGnYHdNS9rz1TrgzxUGsb53bjBFZjUxw2BQer76pump": {
+      "symbol": "$DrunkPeng",
+      "name": "Drunk Pengu",
+      "amount": 1766230.4059163602,
+      "entry_price_usd": 2.8606120600548995e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T01:24:03.658635+00:00",
+      "entry_usd_value": 5.0525,
+      "last_seen_price_usd": 2.8606120600548995e-06,
+      "entry_signals": {
+        "liquidity_usd": 18.9149628037,
+        "volume_24h_usd": null,
+        "market_cap_usd": 2862.6533591616994,
+        "ath_market_cap_usd": 2862.6533591616994,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 0.187184194,
+        "description": "Solana Drunk Pengu",
+        "twitter": "HTTPS://X.COM/PENGUMEME",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -41077,17 +41101,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T01:22:27.343125+00:00",
+  "last_updated": "2026-09-10T01:24:03.658898+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.092,
-  "portfolio_value_usd": 165.52,
+  "last_sol_price_usd": 101.05,
+  "portfolio_value_usd": 165.45,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 00:59 UTC",
-      "action": "buy",
-      "details": "[LLM] $APETOWN at $3.12155e-06, spent 0.05 SOL",
-      "reason": "$APETOWN has a clear meme narrative ('where the apes go'), a populated description, and is the freshest launch at 0.1min — only viable candidate passing fragility/viability gates."
-    },
     {
       "time": "2026-09-10 01:01 UTC",
       "action": "sell",
@@ -41201,6 +41219,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $NPC at $2.82643e-06 | P&L: -4.7%",
       "reason": "Just entered at -4.7%, well within -25% hard stop, no stale signal yet. Bonding curve position needs time to migrate to pool and develop. The huge share% is a display artifact on bonding curve (token not yet on AMM)."
+    },
+    {
+      "time": "2026-09-10 01:24 UTC",
+      "action": "buy",
+      "details": "[LLM] $$DrunkPeng at $2.86061e-06, spent 0.05 SOL",
+      "reason": "$DrunkPeng passes viability gate (has twitter), passes fragility gate. Pengu is a hot meme vertical (Pudgy Penguins ecosystem attention), 'Drunk' angle adds comedy/virality, and twitter handle @PENGUMEME suggests existing meme community. Bond only 1% means very early — strong attention signal at $2.8k mcap. Risk: super fresh, could rug, but narrative + social presence justify a small 0.05 SOL entry."
     }
   ],
   "trade_stats": {
@@ -41222,21 +41246,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T01:22:27.342856+00:00",
+  "last_llm_brief_at": "2026-09-10T01:24:02.330144+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "Cnafcqr53iNDhQEQoi3cXUfDovcdrsHhnbJkRMy5H5RQ": {
-      "price_usd": 2.826430568970606e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 5.0546e-07,
-      "volume_h24": 141.09,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 5e-09
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

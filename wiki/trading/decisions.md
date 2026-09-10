@@ -17455,3 +17455,6 @@
 ## [2026-09-10 01:22 UTC] sell | [FULL][LLM] $NPC at $2.82643e-06 | P&L: -4.7%
 - **Reasoning:** Just entered at -4.7%, well within -25% hard stop, no stale signal yet. Bonding curve position needs time to migrate to pool and develop. The huge share% is a display artifact on bonding curve (token not yet on AMM).
 
+## [2026-09-10 01:24 UTC] buy | [LLM] $$DrunkPeng at $2.86061e-06, spent 0.05 SOL
+- **Reasoning:** $DrunkPeng passes viability gate (has twitter), passes fragility gate. Pengu is a hot meme vertical (Pudgy Penguins ecosystem attention), 'Drunk' angle adds comedy/virality, and twitter handle @PENGUMEME suggests existing meme community. Bond only 1% means very early — strong attention signal at $2.8k mcap. Risk: super fresh, could rug, but narrative + social presence justify a small 0.05 SOL entry.
+
