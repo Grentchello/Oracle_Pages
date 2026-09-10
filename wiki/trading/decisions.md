@@ -19699,3 +19699,6 @@
 ## [2026-09-10 16:23 UTC] buy | [LLM] $Nom at $4.689e-06, spent 0.05 SOL
 - **Reasoning:** Om Nom — viral IP (Cut the Rope game character),3% bond, $2.9k mcap. Cute character meme with clear attention story. Small $5 bet for narrative play.
 
+## [2026-09-10 16:24 UTC] sell | [rapid-drop] $Nom crashed >15% in one tick | P&L: -37.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

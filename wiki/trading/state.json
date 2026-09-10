@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.291519,
+  "balance_sol": 4.322749,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GkGQpkWpFNqJMnwAr6FhWZb4GZPfJh3YyR2wNk9wpump": {
-      "symbol": "Nom",
-      "name": "Om Nom",
-      "amount": 1063872.894007251,
-      "entry_price_usd": 4.689e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T16:23:19.121038+00:00",
-      "entry_usd_value": 4.9885,
-      "last_seen_price_usd": 4.689e-06,
-      "entry_signals": {
-        "liquidity_usd": 85.56440199626,
-        "volume_24h_usd": 2848.43,
-        "market_cap_usd": 2937.524557481817,
-        "ath_market_cap_usd": 5705.076821110024,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.857616538,
-        "description": "",
-        "twitter": "https://x.com/Cut_The_Rope/status/2098060315476856902?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -47984,19 +47960,30 @@
       "pnl_pct": -2.34,
       "exit_reason": "LLM: sell_all — Just entered 0.0h ago, -2.3% is noise on a bonding-curve sniper. Not stale, not at stop. Let the narrative develop for at least 15-30 min before reass",
       "partial": false
+    },
+    {
+      "mint": "GkGQpkWpFNqJMnwAr6FhWZb4GZPfJh3YyR2wNk9wpump",
+      "symbol": "Nom",
+      "name": "Om Nom",
+      "amount_sold": 1063872.894007251,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T16:23:19.121038+00:00",
+      "exit_time": "2026-09-10T16:24:23.212332+00:00",
+      "entry_price_usd": 4.689e-06,
+      "exit_price_usd": 2.926133950464718e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.03123,
+      "pnl_sol": -0.01877,
+      "pnl_pct": -37.6,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T16:23:19.121216+00:00",
+  "last_updated": "2026-09-10T16:24:43.059157+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.77,
-  "portfolio_value_usd": 433.15,
+  "last_sol_price_usd": 99.68,
+  "portfolio_value_usd": 430.89,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 15:56 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Grower crashed >15% in one tick | P&L: -20.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 15:57 UTC",
       "action": "buy",
@@ -48110,30 +48097,48 @@
       "action": "buy",
       "details": "[LLM] $Nom at $4.689e-06, spent 0.05 SOL",
       "reason": "Om Nom — viral IP (Cut the Rope game character),3% bond, $2.9k mcap. Cute character meme with clear attention story. Small $5 bet for narrative play."
+    },
+    {
+      "time": "2026-09-10 16:24 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Nom crashed >15% in one tick | P&L: -37.6%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 2821,
+    "total": 2822,
     "wins": 1345,
-    "losses": 1476,
+    "losses": 1477,
     "win_rate_pct": 47.7,
-    "total_pnl_sol": 0.075277,
-    "avg_pnl_pct": 26.8,
+    "total_pnl_sol": 0.056507,
+    "avg_pnl_pct": 26.78,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 444,
-    "today_realized_sol": 2.760592,
-    "today_target_pct": 690.1,
+    "today_trades": 445,
+    "today_realized_sol": 2.741822,
+    "today_target_pct": 685.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1345,
-      "loss_count": 1476,
+      "loss_count": 1477,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T16:23:17.712974+00:00",
+  "last_llm_brief_at": "2026-09-10T16:24:41.732594+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GkGQpkWpFNqJMnwAr6FhWZb4GZPfJh3YyR2wNk9wpump": {
+      "price_usd": 2.926133950464718e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 73.76116941872,
+      "volume_h24": 3825.8,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.739979629
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
