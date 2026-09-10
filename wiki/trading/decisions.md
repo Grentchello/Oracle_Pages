@@ -20449,3 +20449,6 @@
 ## [2026-09-10 20:46 UTC] sell | [FULL][LLM] $BSO at $3.74461e-08 | P&L: +0.0%
 - **Reasoning:** Flat at entry after 0h, pool only $2 (illiquid, well below 5x position rule), no momentum signal. Rotating slot to a higher-attention fresh narrative.
 
+## [2026-09-10 20:48 UTC] buy | [LLM] $Wolfsol at $2.91772e-06, spent 0.05 SOL
+- **Reasoning:** $Wolfsol (Wolfpack) — passes viability (long desc + twitter @Wolfpackonsol), no fragility keywords, 'wild side of crypto' pack narrative has community-coin meme potential, $2.9k mcap is fresh enough for attention upside. Risk: bond at 2% means very early / illiquid, could rug fast.
+
