@@ -17854,3 +17854,6 @@
 ## [2026-09-10 03:48 UTC] sell | [PARTIAL][LLM] $BUCKAZOIDS at $1.52074e-09 | P&L: +42.0%
 - **Reasoning:** Up +42% already past 25% TP threshold — bot should have auto-TP'd but in case it hasn't, lock half. Bonding curve not yet complete (pool=$0), remaining half gets free ride on continued attention momentum.
 
+## [2026-09-10 03:50 UTC] sell | [PARTIAL][LLM] $BUCKAZOIDS at $1.48426e-09 | P&L: +38.6%
+- **Reasoning:** Up +38.6% with no real pool yet (bonding curve, 458% share means our 0.05 SOL is dominating a tiny pool). Bonding-curve tokens dump hard at curve completion. Lock half the gain now, let the other half ride if it graduates.
+
