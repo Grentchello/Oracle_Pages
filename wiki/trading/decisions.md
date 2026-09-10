@@ -19405,3 +19405,9 @@
 ## [2026-09-10 14:28 UTC] buy | [LLM] $shroom at $6.511e-06, spent 0.05 SOL
 - **Reasoning:** $shroom has the strongest narrative signal of the batch — NewsyJohnson is a known memecoin launcher with a real audience, and shroom/mushroom tokens have historically ridden AI + mycelium hype. $7.7k mcap at 1 min is pre-bond territory with a real X catalyst; thin liquidity is the risk but attention is clearly live.
 
+## [2026-09-10 14:29 UTC] sell | [FULL][LLM] $shroom at $9.01545e-06 | P&L: +38.5%
+- **Reasoning:** At +38.5%, well past the +30% TP threshold. Per the prompt's profit-taking discipline: 'If up >20% and you have ANY doubt, sell_all. Don't hope. Lock the gain.' Also need to free the 1/1 position slot for fresh entry.
+
+## [2026-09-10 14:29 UTC] buy | [LLM] $WARDOGS at $3.46211e-07, spent 0.05 SOL
+- **Reasoning:** $WARDOGS — strongest narrative signal: dedicated X account (@WARDOGS), community dog meta, fresh 0.8min launch at $5.7k mcap, no fragility keywords, passes viability gate. Animal/community memecoins with KOL attention are the attention-market alpha.
+
