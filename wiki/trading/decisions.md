@@ -17779,3 +17779,9 @@
 ## [2026-09-10 03:15 UTC] buy | [LLM] $polycat at $5.2069e-06, spent 0.05 SOL
 - **Reasoning:** $polycat has a clear narrative tie-in to Polymarket (prediction markets are hot right now), a real description, and an active X poster. $5k mcap with a story is exactly the asymmetric setup we're looking for.
 
+## [2026-09-10 03:16 UTC] sell | [v8.7 TP +50% (full)] $polycat at $8.96123e-06 | P&L: +72.1%
+- **Reasoning:** Auto take-profit at +72.1%
+
+## [2026-09-10 03:16 UTC] buy | [LLM] $chip at $1.59084e-05, spent 0.05 SOL
+- **Reasoning:** $chip 'blue chip' is the dominant meta-narrative on CT right now. This mint leads the duplicate-pair race at $15.9k mcap / 37% bond vs the rival at $5.3k / 21% — attention is consolidating on the winner. Fresh launch, classic narrative, organic rivalry = attention fuel. Risk: duplicate mints split mindshare; $5 position sizing keeps risk bounded.
+
