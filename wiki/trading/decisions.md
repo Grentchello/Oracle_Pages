@@ -19504,3 +19504,6 @@
 ## [2026-09-10 15:06 UTC] buy | [LLM] $BLOOK at $2.99263e-06, spent 0.05 SOL
 - **Reasoning:** $BLOOK — passes viability (80+ char desc on blockchain-data product narrative + twitter @blooknowcom). Real product angle (on-chain analytics), mcap $3k is low but narrative is concrete. Bond still at 3% so very early — high risk of rug, but legitimate-seeming narrative. Small position 0.05 SOL.
 
+## [2026-09-10 15:07 UTC] sell | [PARTIAL][LLM] $BLOOK at $2.80697e-06 | P&L: -6.2%
+- **Reasoning:** Down6.2% already with 869% pool share (massively oversized for $1 pool). Bonding-curve pool, no real liquidity, fresh entry. Cut and free the slot before it bleeds to -25%.
+

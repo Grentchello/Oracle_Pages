@@ -1,17 +1,17 @@
 {
-  "balance_sol": 4.419749,
+  "balance_sol": 4.465103,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "8HchCDTqviy15n6r129RjwxMHUUQgPpQJqyRBxRRpump": {
       "symbol": "BLOOK",
       "name": "Blook",
-      "amount": 1669601.8694763153,
+      "amount": 48018.96308763269,
       "entry_price_usd": 2.9926296150873354e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.001438036335653309,
       "entry_time": "2026-09-10T15:06:38.560374+00:00",
       "entry_usd_value": 4.996500000000001,
-      "last_seen_price_usd": 2.9926296150873354e-06,
+      "last_seen_price_usd": 2.8069696162330182e-06,
       "entry_signals": {
         "liquidity_usd": 99.26906997510001,
         "volume_24h_usd": null,
@@ -47406,19 +47406,30 @@
       "pnl_pct": -73.5,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "8HchCDTqviy15n6r129RjwxMHUUQgPpQJqyRBxRRpump",
+      "symbol": "BLOOK",
+      "name": "Blook",
+      "amount_sold": 1621582.9063886825,
+      "fraction_sold": 0.9712392732869338,
+      "entry_time": "2026-09-10T15:06:38.560374+00:00",
+      "exit_time": "2026-09-10T15:07:53.338069+00:00",
+      "entry_price_usd": 2.9926296150873354e-06,
+      "exit_price_usd": 2.8069696162330182e-06,
+      "entry_sol_for_chunk": 0.048562,
+      "exit_sol_received": 0.045354,
+      "pnl_sol": -0.003208,
+      "pnl_pct": -6.2,
+      "exit_reason": "LLM: sell_all — Down6.2% already with 869% pool share (massively oversized for $1 pool). Bonding-curve pool, no real liquidity, fresh entry. Cut and free the slot bef",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T15:06:38.560689+00:00",
+  "last_updated": "2026-09-10T15:07:53.338879+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.93,
-  "portfolio_value_usd": 446.66,
+  "last_sol_price_usd": 100.36,
+  "portfolio_value_usd": 448.26,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 14:43 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $HOMO crashed >15% in one tick | P&L: -53.6%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-10 14:43 UTC",
       "action": "buy",
@@ -47532,30 +47543,48 @@
       "action": "buy",
       "details": "[LLM] $BLOOK at $2.99263e-06, spent 0.05 SOL",
       "reason": "$BLOOK — passes viability (80+ char desc on blockchain-data product narrative + twitter @blooknowcom). Real product angle (on-chain analytics), mcap $3k is low but narrative is concrete. Bond still at 3% so very early — high risk of rug, but legitimate-seeming narrative. Small position 0.05 SOL."
+    },
+    {
+      "time": "2026-09-10 15:07 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BLOOK at $2.80697e-06 | P&L: -6.2%",
+      "reason": "Down6.2% already with 869% pool share (massively oversized for $1 pool). Bonding-curve pool, no real liquidity, fresh entry. Cut and free the slot before it bleeds to -25%."
     }
   ],
   "trade_stats": {
-    "total": 2787,
+    "total": 2788,
     "wins": 1332,
-    "losses": 1455,
+    "losses": 1456,
     "win_rate_pct": 47.8,
-    "total_pnl_sol": 0.203507,
-    "avg_pnl_pct": 27.21,
+    "total_pnl_sol": 0.200299,
+    "avg_pnl_pct": 27.2,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 410,
-    "today_realized_sol": 2.888822,
-    "today_target_pct": 722.2,
+    "today_trades": 411,
+    "today_realized_sol": 2.885614,
+    "today_target_pct": 721.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1332,
-      "loss_count": 1455,
+      "loss_count": 1456,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T15:06:37.209437+00:00",
+  "last_llm_brief_at": "2026-09-10T15:07:53.337417+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8HchCDTqviy15n6r129RjwxMHUUQgPpQJqyRBxRRpump": {
+      "price_usd": 2.8069696162330182e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.53915108156,
+      "volume_h24": 218.65,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.005372171
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
