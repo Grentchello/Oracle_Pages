@@ -1,32 +1,8 @@
 {
-  "balance_sol": 4.194442,
+  "balance_sol": 4.246137,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "79xvn2eVR9W2VpZMzZfNKT3DYxy3nzwSLyB1uXHVpump": {
-      "symbol": "HONK",
-      "name": "Honk The Duck",
-      "amount": 1789278.1316348193,
-      "entry_price_usd": 2.826e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T07:30:50.185662+00:00",
-      "entry_usd_value": 5.0565,
-      "last_seen_price_usd": 2.826e-06,
-      "entry_signals": {
-        "liquidity_usd": 859.74691663917,
-        "volume_24h_usd": 1439.12,
-        "market_cap_usd": 4036.777244277228,
-        "ath_market_cap_usd": 4036.777244277228,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 8.501403309,
-        "description": "",
-        "twitter": "https://x.com/CyborgDeployed/status/2097950510120845329",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -44159,19 +44135,30 @@
       "pnl_pct": -19.76,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "79xvn2eVR9W2VpZMzZfNKT3DYxy3nzwSLyB1uXHVpump",
+      "symbol": "HONK",
+      "name": "Honk The Duck",
+      "amount_sold": 1789278.1316348193,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T07:30:50.185662+00:00",
+      "exit_time": "2026-09-10T07:32:33.961866+00:00",
+      "entry_price_usd": 2.826e-06,
+      "exit_price_usd": 2.9185337483160057e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.051695,
+      "pnl_sol": 0.001695,
+      "pnl_pct": 3.27,
+      "exit_reason": "LLM: sell_all — Fresh entry at +3.3%, bonding curve, but pool is only $50 and I'm 10% of it. Selling now would crater the price. Need to give it a few minutes to see ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T07:30:50.185837+00:00",
+  "last_updated": "2026-09-10T07:32:33.962043+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.13,
-  "portfolio_value_usd": 429.24,
+  "last_sol_price_usd": 101.016,
+  "portfolio_value_usd": 428.93,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 07:11 UTC",
-      "action": "buy",
-      "details": "[LLM] $RAM at $1.10497e-09, spent 0.05 SOL",
-      "reason": "$RAM is the freshest high-mcap launch ($11k, 1.2min old, 28% bond) — RAM is a classic meme name with instant brand recall and the highest bond completion suggesting organic demand. Strong attention narrative, take the entry."
-    },
     {
       "time": "2026-09-10 07:12 UTC",
       "action": "sell",
@@ -44285,40 +44272,46 @@
       "action": "buy",
       "details": "[LLM] $HONK at $2.826e-06, spent 0.05 SOL",
       "reason": "$HONK has viral X post from CyborgDeployed, $4k mcap with bond still forming — animal meme + real tweet = classic attention setup, fits viability gate (twitter present)."
+    },
+    {
+      "time": "2026-09-10 07:32 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HONK at $2.91853e-06 | P&L: +3.3%",
+      "reason": "Fresh entry at +3.3%, bonding curve, but pool is only $50 and I'm 10% of it. Selling now would crater the price. Need to give it a few minutes to see if bonding curve progresses or someone else enters. If it hits +20% I take profit immediately."
     }
   ],
   "trade_stats": {
-    "total": 2596,
-    "wins": 1261,
+    "total": 2597,
+    "wins": 1262,
     "losses": 1335,
     "win_rate_pct": 48.6,
-    "total_pnl_sol": -0.021851,
-    "avg_pnl_pct": 28.86,
+    "total_pnl_sol": -0.020156,
+    "avg_pnl_pct": 28.85,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 219,
-    "today_realized_sol": 2.663464,
-    "today_target_pct": 665.9,
+    "today_trades": 220,
+    "today_realized_sol": 2.665159,
+    "today_target_pct": 666.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1261,
+      "win_count": 1262,
       "loss_count": 1335,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T07:30:48.809093+00:00",
+  "last_llm_brief_at": "2026-09-10T07:32:33.961778+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "EDTZhgGWEZpeDz3iG9an1pmnYdhRxt6Fa7rJP5UGpump": {
-      "price_usd": 1.6223953132648134e-06,
+    "79xvn2eVR9W2VpZMzZfNKT3DYxy3nzwSLyB1uXHVpump": {
+      "price_usd": 2.9185337483160057e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.0113e-07,
-      "volume_h24": 639.85,
+      "liquidity_usd": 50.138592266232,
+      "volume_h24": 2400.43,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1e-09
+      "real_sol_reserves": 0.496343077
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

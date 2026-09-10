@@ -18454,3 +18454,6 @@
 ## [2026-09-10 07:30 UTC] buy | [LLM] $HONK at $2.826e-06, spent 0.05 SOL
 - **Reasoning:** $HONK has viral X post from CyborgDeployed, $4k mcap with bond still forming — animal meme + real tweet = classic attention setup, fits viability gate (twitter present).
 
+## [2026-09-10 07:32 UTC] sell | [FULL][LLM] $HONK at $2.91853e-06 | P&L: +3.3%
+- **Reasoning:** Fresh entry at +3.3%, bonding curve, but pool is only $50 and I'm 10% of it. Selling now would crater the price. Need to give it a few minutes to see if bonding curve progresses or someone else enters. If it hits +20% I take profit immediately.
+
