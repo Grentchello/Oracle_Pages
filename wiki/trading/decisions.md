@@ -18976,3 +18976,6 @@
 ## [2026-09-10 11:26 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-10 11:27 UTC] buy | [LLM] $BetOnBlak at $6.16083e-06, spent 0.05 SOL
+- **Reasoning:** $BetOnBlack has a clean gambling-meta narrative, real description ('put the house on black'), and $6.2k mcap — the strongest signal among this batch. Skipping $BOF variants (5+ mints flooding in = narrative dilution, each contract fighting for liquidity), $TESLASS (hits v8.2 celebrity/political keyword fragility blocklist via 'Elon'), $NOVA/$a/$one (no narrative, generic tickers).
+

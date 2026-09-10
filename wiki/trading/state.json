@@ -1,8 +1,32 @@
 {
-  "balance_sol": 5.005135,
+  "balance_sol": 4.955135,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "AYdEfDZ6wYSE8wGdUmaUTcg6za9eYDC2h2zHeW6apump": {
+      "symbol": "BetOnBlak",
+      "name": "BetOnBlack",
+      "amount": 819761.0070608321,
+      "entry_price_usd": 6.160826090164623e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-10T11:27:32.740798+00:00",
+      "entry_usd_value": 5.0504050000000005,
+      "last_seen_price_usd": 6.160826090164623e-06,
+      "entry_signals": {
+        "liquidity_usd": 1.010081e-07,
+        "volume_24h_usd": null,
+        "market_cap_usd": 6175.0936952949705,
+        "ath_market_cap_usd": 6175.0936952949705,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1e-09,
+        "description": "put the house on black ",
+        "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -45786,17 +45810,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-10T11:26:07.151488+00:00",
+  "last_updated": "2026-09-10T11:27:32.740969+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.47,
-  "portfolio_value_usd": 507.87,
+  "last_sol_price_usd": 101.0081,
+  "portfolio_value_usd": 505.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 11:00 UTC",
-      "action": "buy",
-      "details": "[LLM] $VOID at $8.134e-06, spent 0.05 SOL",
-      "reason": "$VOID — explicit airdrop-to-top-15 mechanism (60% supply) creates forced buy pressure as holders accumulate to qualify. Real X account (CryptoGainsDev), $8.1k mcap, fresh 1 min old. Pure attention/airdrop meta play, the kind of structural demand that pumps."
-    },
     {
       "time": "2026-09-10 11:01 UTC",
       "action": "sell",
@@ -45910,42 +45928,36 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-10 11:27 UTC",
+      "action": "buy",
+      "details": "[LLM] $BetOnBlak at $6.16083e-06, spent 0.05 SOL",
+      "reason": "$BetOnBlack has a clean gambling-meta narrative, real description ('put the house on black'), and $6.2k mcap — the strongest signal among this batch. Skipping $BOF variants (5+ mints flooding in = narrative dilution, each contract fighting for liquidity), $TESLASS (hits v8.2 celebrity/political keyword fragility blocklist via 'Elon'), $NOVA/$a/$one (no narrative, generic tickers)."
     }
   ],
   "trade_stats": {
-    "total": 2692,
+    "total": 2693,
     "wins": 1308,
-    "losses": 1384,
+    "losses": 1385,
     "win_rate_pct": 48.6,
-    "total_pnl_sol": 0.759217,
-    "avg_pnl_pct": 28.56,
+    "total_pnl_sol": 0.738848,
+    "avg_pnl_pct": 28.53,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 315,
-    "today_realized_sol": 3.444532,
-    "today_target_pct": 861.1,
+    "today_trades": 316,
+    "today_realized_sol": 3.424163,
+    "today_target_pct": 856.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1308,
-      "loss_count": 1384,
+      "loss_count": 1385,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T11:26:07.151260+00:00",
+  "last_llm_brief_at": "2026-09-10T11:27:31.314056+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "ACK6i1vo6qKzaQ9ithfnWrHZ8KFLeLBAKaCfz2qXpump": {
-      "price_usd": 2.842316001315534e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2.8512022829599997,
-      "volume_h24": 6715.1,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.028098968
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
