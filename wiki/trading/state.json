@@ -1,27 +1,27 @@
 {
-  "balance_sol": 4.73726,
+  "balance_sol": 4.70388,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "HL8piGY7hy3C5jZ9WbjioPcY9MbcAXZYcijHtdQkn31V": {
-      "symbol": "Boldcoin",
-      "name": "Boldcoin",
-      "amount": 594051.9523286736,
-      "entry_price_usd": 8.32166274451513e-06,
+    "EH2sRkLhj67zthbmSrL9iYjtTGmWwtaPWCHjfVVrpump": {
+      "symbol": "PEPEFLAP",
+      "name": "PEPEFLAP",
+      "amount": 1088297.474031649,
+      "entry_price_usd": 4.5494454578289455e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-10T13:04:26.124597+00:00",
-      "entry_usd_value": 4.9435,
-      "last_seen_price_usd": 8.32166274451513e-06,
+      "entry_time": "2026-09-10T13:05:54.843632+00:00",
+      "entry_usd_value": 4.95115,
+      "last_seen_price_usd": 4.5494454578289455e-06,
       "entry_signals": {
-        "liquidity_usd": 994.5258682811001,
+        "liquidity_usd": 1189.6385268721228,
         "volume_24h_usd": null,
-        "market_cap_usd": 8364.276689365855,
-        "ath_market_cap_usd": 11224.611561637199,
+        "market_cap_usd": 4560.334024863932,
+        "ath_market_cap_usd": 4941.7904874589,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 10.05892453,
-        "description": "memecoin",
-        "twitter": "https://x.com/boldleonidas/status/2098034506280353825",
+        "real_sol_reserves": 12.013759701,
+        "description": "",
+        "twitter": "https://x.com/Darkfarms1/status/2098035005792391616",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -46488,25 +46488,30 @@
       "pnl_pct": -1.32,
       "exit_reason": "LLM: sell_all — Pool=$0 means no exit liquidity exists; the only practical action is to wait for bonding curve migration to a real Raydium pool. Down only -1.3%, well",
       "partial": false
+    },
+    {
+      "mint": "HL8piGY7hy3C5jZ9WbjioPcY9MbcAXZYcijHtdQkn31V",
+      "symbol": "Boldcoin",
+      "name": "Boldcoin",
+      "amount_sold": 594051.9523286736,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-10T13:04:26.124597+00:00",
+      "exit_time": "2026-09-10T13:05:30.187025+00:00",
+      "entry_price_usd": 8.32166274451513e-06,
+      "exit_price_usd": 2.7704026746441346e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.01662,
+      "pnl_sol": -0.03338,
+      "pnl_pct": -66.71,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-10T13:04:26.124774+00:00",
+  "last_updated": "2026-09-10T13:05:54.843903+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.87,
-  "portfolio_value_usd": 473.32,
+  "last_sol_price_usd": 99.023,
+  "portfolio_value_usd": 470.74,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 12:38 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $$MCAT at $7.16403e-08 | P&L: +0.9%",
-      "reason": "$MCAT just entered 0.0h ago at +0.9% — far too early to exit on a bonding-curve cat meta coin with no downside signal. Give it room to develop the narrative; will reassess if it goes stale or hits -25% cap."
-    },
-    {
-      "time": "2026-09-10 12:39 UTC",
-      "action": "buy",
-      "details": "[LLM] $Nemotron at $2.803e-06, spent 0.05 SOL",
-      "reason": "Nemotron shilled coin at 20k mcap, viral X attention from jackdogwater, low mcap with story = asymmetric upside. Risk: likely fragiled by GMGN gate, but attention narrative is strong."
-    },
     {
       "time": "2026-09-10 12:40 UTC",
       "action": "sell",
@@ -46614,30 +46619,54 @@
       "action": "buy",
       "details": "[LLM] $Boldcoin at $8.32166e-06, spent 0.05 SOL",
       "reason": "Boldcoin — clean viral-name meme, bond already at 30% (real buy pressure), $8.4k mcap with a live X post. Narrative is generic but liquidity signal is real. Size 0.1 SOL."
+    },
+    {
+      "time": "2026-09-10 13:05 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Boldcoin crashed >15% in one tick | P&L: -66.7%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-10 13:05 UTC",
+      "action": "buy",
+      "details": "[LLM] $PEPEFLAP at $4.54945e-06, spent 0.05 SOL",
+      "reason": "$PEPEFLAP at 0.1min, $4.5k mcap — pepe derivatives are the highest-virality category on Solana, fresh launch with X status link. Asymmetric upside on micro-mcap attention play."
     }
   ],
   "trade_stats": {
-    "total": 2733,
+    "total": 2734,
     "wins": 1318,
-    "losses": 1415,
+    "losses": 1416,
     "win_rate_pct": 48.2,
-    "total_pnl_sol": 0.521017,
-    "avg_pnl_pct": 27.96,
+    "total_pnl_sol": 0.487637,
+    "avg_pnl_pct": 27.93,
     "best_pnl_pct": 2884.19,
     "worst_pnl_pct": -99.94,
-    "today_trades": 356,
-    "today_realized_sol": 3.206332,
-    "today_target_pct": 801.6,
+    "today_trades": 357,
+    "today_realized_sol": 3.172952,
+    "today_target_pct": 793.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1318,
-      "loss_count": 1415,
+      "loss_count": 1416,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T13:04:24.775322+00:00",
+  "last_llm_brief_at": "2026-09-10T13:05:53.521277+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HL8piGY7hy3C5jZ9WbjioPcY9MbcAXZYcijHtdQkn31V": {
+      "price_usd": 2.7704026746441346e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.975876913219,
+      "volume_h24": 10686.12,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.009855053
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

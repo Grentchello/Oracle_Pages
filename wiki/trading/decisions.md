@@ -19186,3 +19186,9 @@
 ## [2026-09-10 13:04 UTC] buy | [LLM] $Boldcoin at $8.32166e-06, spent 0.05 SOL
 - **Reasoning:** Boldcoin — clean viral-name meme, bond already at 30% (real buy pressure), $8.4k mcap with a live X post. Narrative is generic but liquidity signal is real. Size 0.1 SOL.
 
+## [2026-09-10 13:05 UTC] sell | [rapid-drop] $Boldcoin crashed >15% in one tick | P&L: -66.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-10 13:05 UTC] buy | [LLM] $PEPEFLAP at $4.54945e-06, spent 0.05 SOL
+- **Reasoning:** $PEPEFLAP at 0.1min, $4.5k mcap — pepe derivatives are the highest-virality category on Solana, fresh launch with X status link. Asymmetric upside on micro-mcap attention play.
+
