@@ -18427,3 +18427,6 @@
 ## [2026-09-10 07:21 UTC] sell | [FULL][LLM] $Solamander at $2.98587e-06 | P&L: +0.1%
 - **Reasoning:** Solamander is essentially flat (+0.1%) after a tiny move, with $77 pool and 7% of supply being ME — that's me. Bonding curve 26%, no momentum, no viral signal. With slot locked at break-even and 5 fresh launches competing for attention, this is textbook stale capital. Free the slot.
 
+## [2026-09-10 07:23 UTC] buy | [LLM] $capy at $5.057e-06, spent 0.05 SOL
+- **Reasoning:** $capy — 'Nobody knows who he is. Nobody knows what he did. He is just a capybara.' is a strong absurdist meme narrative, mcap $4.9k, age 1.5min. Capybara memes have viral potential. Entering 0.05 SOL.
+
