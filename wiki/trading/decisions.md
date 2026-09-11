@@ -20977,3 +20977,9 @@
 ## [2026-09-11 00:32 UTC] buy | [LLM] $KIRK at $3.149e-06, spent 0.05 SOL
 - **Reasoning:** $KIRK 'Kirkversary' — narrative tribute token for Charlie Kirk. Strong attention hook with martyr-style framing, mcap only $3k, bond still open for entry. Fresh launch with a clear story is exactly the attention-market play. Sizing 0.1 SOL.
 
+## [2026-09-11 00:34 UTC] sell | [FULL][LLM] $KIRK at $3.24437e-06 | P&L: +3.0%
+- **Reasoning:** KIRK is at +3% on an extremely thin $245 pool where we hold 2% of liquidity — that's a fragility risk. Lock the small gain and rotate the slot into a token with stronger attention narrative.
+
+## [2026-09-11 00:34 UTC] buy | [LLM] $Death Coin at $2.8876e-06, spent 0.05 SOL
+- **Reasoning:** $Death Coin has the strongest attention signal in the slate — @pumpfun's official X account posted it, which is free amplification most tokens never get. Description is long, viability gate passes, no fragility keywords. Narrative ('only three things certain: death, taxes, memecoin supercycle') is memeable. Risk: 0.3min old, $2.9k mcap, very early — classic 10x-or-zero.
+
