@@ -20965,3 +20965,9 @@
 ## [2026-09-11 00:27 UTC] buy | [LLM] $TEDDY at $2.47237e-06, spent 0.05 SOL
 - **Reasoning:** $TEDDY has a real twitter link to a specific tweet (attention signal), a concrete narrative (Teddy Holding LLC), and bond=8% suggesting organic early buy-in. ~0.3min old — fresh attention, ride the wave. Risk: very early, could be a slow burn or rug.
 
+## [2026-09-11 00:29 UTC] sell | [v8.7 TP +50% (full)] $TEDDY at $4.65622e-06 | P&L: +88.3%
+- **Reasoning:** Auto take-profit at +88.3%
+
+## [2026-09-11 00:29 UTC] buy | [LLM] $MASTERDOG at $1.29873e-07, spent 0.05 SOL
+- **Reasoning:** $MASTERDOG — narrative is solid (classic Mastercard parody 'There are some things money can't buy'), mcap $4.3k, bond 2% but X account linked. Viral parody meme potential. First mover on this joke today.
+
