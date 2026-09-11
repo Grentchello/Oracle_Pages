@@ -1,8 +1,32 @@
 {
-  "balance_sol": 9.241224,
+  "balance_sol": 9.191224,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "HfeepbdAHyfU7nQPzSFPv4YLNSf4yjb9FCdFZGZrpump": {
+      "symbol": "Eugene",
+      "name": "Eugene the Frog Cat",
+      "amount": 652542.3201669698,
+      "entry_price_usd": 7.620195420777702e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-11T01:30:25.189122+00:00",
+      "entry_usd_value": 4.9725,
+      "last_seen_price_usd": 7.620195420777702e-06,
+      "entry_signals": {
+        "liquidity_usd": 1281.6907821314999,
+        "volume_24h_usd": null,
+        "market_cap_usd": 7583.416197027343,
+        "ath_market_cap_usd": 9847.251235362797,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 12.88779067,
+        "description": "",
+        "twitter": "https://x.com/Vibez__Crypto/status/2098222343780765921?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52178,17 +52202,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-11T01:28:57.584881+00:00",
+  "last_updated": "2026-09-11T01:30:25.189475+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.51,
-  "portfolio_value_usd": 919.59,
+  "last_sol_price_usd": 99.45,
+  "portfolio_value_usd": 919.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-11 01:03 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $HOTLINE at $4.6597e-06 | P&L: +38.0%",
-      "reason": "+38% gain on bonding-curve token with pool only $879 and 0% of supply — thin liquidity, take profit now before it dumps back. Discipline says lock gains when uncertain; 0% share means any buy we made is trivial liquidity that could vanish."
-    },
     {
       "time": "2026-09-11 01:04 UTC",
       "action": "buy",
@@ -52302,6 +52320,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $RP at $2.7822e-06 | P&L: -12.1%",
       "reason": "Just entered (0.0h held), down only -12.1%, still well above -25% hard stop. Bonding-curve token with huge share % is normal for early entries. Give it a few minutes to develop before rotating capital."
+    },
+    {
+      "time": "2026-09-11 01:30 UTC",
+      "action": "buy",
+      "details": "[LLM] $Eugene at $7.6202e-06, spent 0.05 SOL",
+      "reason": "Eugene the Frog Cat — fresh 0.3min, $7.5k mcap, bond already 28% (7x the rest of batch), hybrid frog-cat narrative + Twitter from @Vibez__Crypto. Fastest signal in slate; risk is ultra-low mcap but that's where the multiple lives."
     }
   ],
   "trade_stats": {
@@ -52323,21 +52347,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T01:28:57.584463+00:00",
+  "last_llm_brief_at": "2026-09-11T01:30:23.823417+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "GFMoPiZnTwAHS2gma3TfYnFp5cfPH4fWghgfthMb5fT6": {
-      "price_usd": 2.782199441191091e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 3.9804000000000004e-07,
-      "volume_h24": 514.64,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 4e-09
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

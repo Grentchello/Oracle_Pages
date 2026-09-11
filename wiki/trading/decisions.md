@@ -21094,3 +21094,6 @@
 ## [2026-09-11 01:28 UTC] sell | [FULL][LLM] $RP at $2.7822e-06 | P&L: -12.1%
 - **Reasoning:** Just entered (0.0h held), down only -12.1%, still well above -25% hard stop. Bonding-curve token with huge share % is normal for early entries. Give it a few minutes to develop before rotating capital.
 
+## [2026-09-11 01:30 UTC] buy | [LLM] $Eugene at $7.6202e-06, spent 0.05 SOL
+- **Reasoning:** Eugene the Frog Cat — fresh 0.3min, $7.5k mcap, bond already 28% (7x the rest of batch), hybrid frog-cat narrative + Twitter from @Vibez__Crypto. Fastest signal in slate; risk is ultra-low mcap but that's where the multiple lives.
+
