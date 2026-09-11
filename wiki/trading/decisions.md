@@ -21064,3 +21064,6 @@
 ## [2026-09-11 01:17 UTC] buy | [LLM] $harold at $1.16124e-05, spent 0.05 SOL
 - **Reasoning:** $harold — fresh launch (0.1min) with viral X presence (haroldtheduck_ status), $11.5k mcap is ultra-early for an attention token, and 'Lets do this!' framing reads like a coordinated shill campaign. Viral duck mascot narrative has meme legs; size the risk small.
 
+## [2026-09-11 01:18 UTC] sell | [rapid-drop] $harold crashed >15% in one tick | P&L: -72.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
