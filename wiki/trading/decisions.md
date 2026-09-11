@@ -21115,3 +21115,9 @@
 ## [2026-09-11 01:39 UTC] buy | [LLM] $PENNANT at $2.9663e-06, spent 0.05 SOL
 - **Reasoning:** Pennant AI narrative targeting corporate governance onchain has a clear story + twitter presence at $3k mcap — classic low-mcap attention play with multiple-x upside if narrative catches.
 
+## [2026-09-11 01:40 UTC] sell | [FULL][LLM] $PENNANT at $2.75284e-06 | P&L: -7.2%
+- **Reasoning:** $PENNANT is -7.2%, no narrative, no twitter, no liquidity depth, and our share=1557254494% means we ARE the market — any bounce requires another bag-holder to appear, which is unlikely. Cut the -7% loss now before it becomes -25%. Free the slot for a token with real attention.
+
+## [2026-09-11 01:40 UTC] buy | [LLM] $meme at $2.767e-06, spent 0.05 SOL
+- **Reasoning:** $meme 'FUCK STOCKS SEND THIS' is a classic anti-stock-reddit viral hook, posted by @keemotrades (a trader with audience). 1.2min old, $2.7k mcap = early bonding curve, room to 5-10x if the hook catches. Passes viability (desc + twitter). Risk: brand-new curve, thin liquidity — must scalp fast.
+
