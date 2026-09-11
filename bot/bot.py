@@ -594,6 +594,36 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
     if filtered_count > 0:
         log(f"v8.8: filtered {filtered_count}/{pre_filter_count} candidates (already pumped)")
     
+    # v9.0 LIQUIDITY FLOOR: Skip tokens with no real liquidity (bonding curve only or tiny pools)
+    # Without this, bot is buying tokens with $0-$100 pool liquidity and "selling" to itself.
+    # Paper profits on tiny pools evaporate in real markets.
+    liq_filtered = 0
+    candidates_liq = []
+    for c in candidates:
+        # Skip if bonding curve token (no DEX liquidity yet)
+        is_bonding = c.get("complete", True) is False or c.get("bonding_progress", 100) < 100
+        if is_bonding:
+            liq_filtered += 1
+            log(f"v9.0 BONDING-CURVE FILTER: ${c.get('symbol')} rejected — bonding curve only, no DEX liquidity (bond={c.get('bonding_progress', 0):.0f}%)")
+            continue
+        # Skip if pool liquidity < $5k (can't exit without massive slippage)
+        liq = c.get("liquidity_usd", 0) or 0
+        if liq < 5000:
+            liq_filtered += 1
+            log(f"v9.0 LIQUIDITY FILTER: ${c.get('symbol')} rejected — pool ${liq:.0f} < $5k floor")
+            continue
+        # Position size check: bot position must be <1% of pool (avoid owning the pool)
+        # Position = POSITION_SIZE_SOL * sol_price = 0.05 * ~$105 = ~$5.25
+        # Need pool > $525 for our position to be <1%
+        pos_usd = 0.05 * 105  # approximate SOL price
+        if liq < pos_usd * 100:  # need 100x position size as pool
+            liq_filtered += 1
+            log(f"v9.0 POSITION-SIZE FILTER: ${c.get('symbol')} rejected — our $5.25 would be {pos_usd/liq*100:.1f}% of ${liq:.0f} pool")
+            continue
+        candidates_liq.append(c)
+    if liq_filtered > 0:
+        log(f"v9.0: filtered {liq_filtered}/{pre_filter_count} candidates (illiquid/bonding-curve)")
+    
     # v8.9 AGE FILTER: Skip tokens less than 1 min old (still in initial pump/dump phase)
     # Data shows most rapid-drop losses are tokens that just launched
     age_filtered = 0
@@ -843,9 +873,28 @@ def execute_sell(state, mint, price_usd, fraction, reason):
     sell_amount = pos["amount"] * fraction
     entry_sol_chunk = pos["entry_sol_spent"] * fraction
     usd_at_exit = sell_amount * price_usd
-    sol_proceeds = usd_at_exit / sol_price_usd if sol_price_usd > 0 else 0
+    
+    # v9.0 SLIPPAGE SIMULATION: Real markets have slippage when selling illiquid tokens.
+    # Without this, bot's reported "proceeds" are paper gains that don't exist in real markets.
+    # Slippage model: if our sell > 1% of pool, apply quadratic price impact
+    held_price = state.get("held_prices", {}).get(mint, {})
+    pool_usd = _to_float(held_price.get("liquidity_usd", 0))
+    slippage_factor = 1.0
+    if pool_usd > 0:
+        our_sell_usd = usd_at_exit
+        pct_of_pool = our_sell_usd / pool_usd * 100
+        if pct_of_pool > 1:
+            # Price impact = sqrt(pct_of_pool) / 10 = e.g. 10% of pool = 31% price impact
+            impact = (pct_of_pool ** 0.5) / 10
+            slippage_factor = max(0.1, 1 - impact)  # at least 10% of price retained
+            log(f"v9.0 SLIPPAGE: {pct_of_pool:.1f}% of ${pool_usd:.0f} pool → {impact*100:.0f}% price impact → receive {slippage_factor*100:.0f}% of paper value")
+    
+    effective_price = price_usd * slippage_factor
+    effective_usd_at_exit = sell_amount * effective_price
+    sol_proceeds = effective_usd_at_exit / sol_price_usd if sol_price_usd > 0 else 0
+    
     pnl_sol = sol_proceeds - entry_sol_chunk
-    pnl_pct = (price_usd / pos["entry_price_usd"] - 1) * 100 if pos["entry_price_usd"] > 0 else 0
+    pnl_pct = (effective_price / pos["entry_price_usd"] - 1) * 100 if pos["entry_price_usd"] > 0 else 0
 
     trade = {
         "mint": mint,
@@ -1118,8 +1167,24 @@ def main():
         # v8.7 MECHANICAL: Take profit at +50% ALWAYS, sell 100% of position
         # No tiers, no holds, no discretion. 48% of trades hit +100% historically.
         if pnl_pct >= TAKE_PROFIT_PCT * 100:
+            # v9.0: Check liquidity before firing TP. If position is too big % of pool,
+            # cap the sell to avoid massive slippage. Without this, profits are illusory.
+            pos_value = pos.get("amount", 0) * cur_price
+            liq = _to_float(hp.get("liquidity_usd"))
+            if liq > 0 and pos_value > 0:
+                current_pct = pos_value / liq * 100
+                if current_pct > 30:
+                    # Cap sell to fit pool - keep 25% of pool as our position
+                    target_value = liq * 0.25
+                    keep_value = min(target_value, pos_value * 0.5)
+                    safe_fraction = max(0.1, (pos_value - keep_value) / pos_value)
+                    log(f"v9.0 TP LIQUIDITY CAP: ${pos.get('symbol')} +50% TP but pos={current_pct:.0f}% of ${liq:.0f} pool — capping at {safe_fraction*100:.0f}% to avoid slippage")
+                    tp_fraction = min(TAKE_PROFIT_FRACTION, safe_fraction)
+                else:
+                    tp_fraction = TAKE_PROFIT_FRACTION
+            else:
+                tp_fraction = TAKE_PROFIT_FRACTION
             tp_action = f"v8.7 TP +{int(TAKE_PROFIT_PCT*100)}% (full)"
-            tp_fraction = TAKE_PROFIT_FRACTION
         else:
             continue
         if pos.get("amount", 0) <= 0:
