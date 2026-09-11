@@ -21016,3 +21016,6 @@
 ## [2026-09-11 00:51 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-11 00:58 UTC] buy | [LLM] $슈바오 at $1.94445e-05, spent 0.05 SOL
+- **Reasoning:** ShuBao (슈바오 = 'treasure' in CJK) is the strongest attention signal in the batch: 38% bond completion shows real organic buying, has Twitter link, and $19k mcap is already moving. This is the only candidate with both a narrative hook and visible demand pressure. Risk: duplicate mints for same name could split liquidity — taking the higher-bond one (38% vs 5%) which is clearly the active trade.
+

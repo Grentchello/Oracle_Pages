@@ -1,8 +1,32 @@
 {
-  "balance_sol": 9.357451,
+  "balance_sol": 9.307451,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "22NWRYtFS5AosxAnGzZkg5M8VayjfpUDSz3T5USK1qMF": {
+      "symbol": "슈바오",
+      "name": "ShuBao",
+      "amount": 255034.17138689113,
+      "entry_price_usd": 1.944445316105156e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-11T00:58:05.166688+00:00",
+      "entry_usd_value": 4.9590000000000005,
+      "last_seen_price_usd": 1.944445316105156e-05,
+      "entry_signals": {
+        "liquidity_usd": 3358.56142165878,
+        "volume_24h_usd": null,
+        "market_cap_usd": 19431.58607317406,
+        "ath_market_cap_usd": 19725.80711557151,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 33.863293221,
+        "description": "",
+        "twitter": "https://x.com/i/status/2098214257619832880",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51940,17 +51964,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-11T00:56:33.487556+00:00",
+  "last_updated": "2026-09-11T00:58:05.166889+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.63,
-  "portfolio_value_usd": 922.93,
+  "last_sol_price_usd": 99.18,
+  "portfolio_value_usd": 928.07,
   "recent_decisions": [
-    {
-      "time": "2026-09-11 00:23 UTC",
-      "action": "buy",
-      "details": "[LLM] $HOTLINE at $5.475e-06, spent 0.05 SOL",
-      "reason": "$HOTLINE has a clear meta-narrative (Pump Fun Mental Health Hotline for trading victims), PFMentalHealth twitter, and 50+ char description — passes viability gate. Meta-ironic memecoins about trading pain have attention tailwind right now."
-    },
     {
       "time": "2026-09-11 00:25 UTC",
       "action": "sell",
@@ -52064,6 +52082,12 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-11 00:58 UTC",
+      "action": "buy",
+      "details": "[LLM] $슈바오 at $1.94445e-05, spent 0.05 SOL",
+      "reason": "ShuBao (슈바오 = 'treasure' in CJK) is the strongest attention signal in the batch: 38% bond completion shows real organic buying, has Twitter link, and $19k mcap is already moving. This is the only candidate with both a narrative hook and visible demand pressure. Risk: duplicate mints for same name could split liquidity — taking the higher-bond one (38% vs 5%) which is clearly the active trade."
     }
   ],
   "trade_stats": {
@@ -52085,7 +52109,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T00:56:33.487514+00:00",
+  "last_llm_brief_at": "2026-09-11T00:58:03.697276+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
