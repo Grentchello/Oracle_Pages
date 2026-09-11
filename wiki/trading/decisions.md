@@ -21076,3 +21076,6 @@
 ## [2026-09-11 01:21 UTC] buy | [LLM] $NF at $2.80341e-06, spent 0.05 SOL
 - **Reasoning:** $NF 'Never Forget' — 9/11 anniversary tribute with explicit date stamp and patriotic framing; today is 9/11/2026 (25th anniversary cycle), so the emotional catalyst is real and timely. Strong narrative hook, decent attention vector vs other launches this tick.
 
+## [2026-09-11 01:23 UTC] sell | [PARTIAL][LLM] $NF at $2.78866e-06 | P&L: -0.5%
+- **Reasoning:** $NF is at -0.5% breakeven after <1min, no narrative, pool only $10 (fails 5x liquidity rule), 50% share in that tiny pool makes exit ugly. Free up the slot for a stronger narrative pick.
+

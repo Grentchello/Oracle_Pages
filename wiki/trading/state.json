@@ -1,17 +1,17 @@
 {
-  "balance_sol": 9.207277,
+  "balance_sol": 9.232524,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "2CRLop19D14NnJ7KZEhcLRuNK3MdkAUxLNswSBacpump": {
       "symbol": "NF",
       "name": "Never Forget",
-      "amount": 1776587.0656353696,
+      "amount": 879518.6939295164,
       "entry_price_usd": 2.8034089048255e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.024753042249999996,
       "entry_time": "2026-09-11T01:21:47.031440+00:00",
       "entry_usd_value": 4.9805,
-      "last_seen_price_usd": 2.8034089048255e-06,
+      "last_seen_price_usd": 2.7886615273922245e-06,
       "entry_signals": {
         "liquidity_usd": 9.86260215409,
         "volume_24h_usd": null,
@@ -52132,19 +52132,30 @@
       "pnl_pct": -36.47,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "2CRLop19D14NnJ7KZEhcLRuNK3MdkAUxLNswSBacpump",
+      "symbol": "NF",
+      "name": "Never Forget",
+      "amount_sold": 897068.3717058533,
+      "fraction_sold": 0.5049391550000001,
+      "entry_time": "2026-09-11T01:21:47.031440+00:00",
+      "exit_time": "2026-09-11T01:23:06.919245+00:00",
+      "entry_price_usd": 2.8034089048255e-06,
+      "exit_price_usd": 2.7886615273922245e-06,
+      "entry_sol_for_chunk": 0.025247,
+      "exit_sol_received": 0.025247,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.53,
+      "exit_reason": "LLM: sell_all — $NF is at -0.5% breakeven after <1min, no narrative, pool only $10 (fails 5x liquidity rule), 50% share in that tiny pool makes exit ugly. Free up the",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-11T01:21:47.031711+00:00",
+  "last_updated": "2026-09-11T01:23:06.919641+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.61,
-  "portfolio_value_usd": 922.12,
+  "last_sol_price_usd": 99.086,
+  "portfolio_value_usd": 917.28,
   "recent_decisions": [
-    {
-      "time": "2026-09-11 00:58 UTC",
-      "action": "buy",
-      "details": "[LLM] $슈바오 at $1.94445e-05, spent 0.05 SOL",
-      "reason": "ShuBao (슈바오 = 'treasure' in CJK) is the strongest attention signal in the batch: 38% bond completion shows real organic buying, has Twitter link, and $19k mcap is already moving. This is the only candidate with both a narrative hook and visible demand pressure. Risk: duplicate mints for same name could split liquidity — taking the higher-bond one (38% vs 5%) which is clearly the active trade."
-    },
     {
       "time": "2026-09-11 00:59 UTC",
       "action": "sell",
@@ -52258,40 +52269,46 @@
       "action": "buy",
       "details": "[LLM] $NF at $2.80341e-06, spent 0.05 SOL",
       "reason": "$NF 'Never Forget' — 9/11 anniversary tribute with explicit date stamp and patriotic framing; today is 9/11/2026 (25th anniversary cycle), so the emotional catalyst is real and timely. Strong narrative hook, decent attention vector vs other launches this tick."
+    },
+    {
+      "time": "2026-09-11 01:23 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $NF at $2.78866e-06 | P&L: -0.5%",
+      "reason": "$NF is at -0.5% breakeven after <1min, no narrative, pool only $10 (fails 5x liquidity rule), 50% share in that tiny pool makes exit ugly. Free up the slot for a stronger narrative pick."
     }
   ],
   "trade_stats": {
-    "total": 3065,
+    "total": 3066,
     "wins": 1433,
-    "losses": 1632,
-    "win_rate_pct": 46.8,
+    "losses": 1633,
+    "win_rate_pct": 46.7,
     "total_pnl_sol": 4.991089,
     "avg_pnl_pct": 27.99,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 32,
+    "today_trades": 33,
     "today_realized_sol": -0.096154,
     "today_target_pct": -24.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1433,
-      "loss_count": 1632,
+      "loss_count": 1633,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T01:21:45.709346+00:00",
+  "last_llm_brief_at": "2026-09-11T01:23:06.913707+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "BGYtoPjXKs4SDinpsgufKhLZtFTH9JmyXQASaBNEpump": {
-      "price_usd": 2.839442210667836e-06,
+    "2CRLop19D14NnJ7KZEhcLRuNK3MdkAUxLNswSBacpump": {
+      "price_usd": 2.7886615273922245e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 29.0693586253,
-      "volume_h24": 3944.55,
+      "liquidity_usd": 9.810719777533999,
+      "volume_h24": 9.84,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.29183173
+      "real_sol_reserves": 0.099012169
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
