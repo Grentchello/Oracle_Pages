@@ -20908,3 +20908,6 @@
 ## [2026-09-11 00:02 UTC] sell | [PARTIAL][LLM] $RISE at $8.02628e-06 | P&L: +27.9%
 - **Reasoning:** Up +27.9% on a fresh entry but liquidity is only $2,087 and bonding-curve with 0% share. Take half profit to lock gains and free capital for the fresh-launch flow; let the other half ride if narrative develops.
 
+## [2026-09-11 00:03 UTC] sell | [PARTIAL][LLM] $RISE at $8.38627e-06 | P&L: +33.6%
+- **Reasoning:** +33.6% gain, but only 0.1h old and pool is tiny ($2198) with our share at 0% — locking half locks the gain while letting the rest ride if it keeps pumping. Bonding-curve tokens can rug or reverse fast.
+
