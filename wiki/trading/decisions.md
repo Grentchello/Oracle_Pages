@@ -20959,3 +20959,6 @@
 ## [2026-09-11 00:23 UTC] buy | [LLM] $HOTLINE at $5.475e-06, spent 0.05 SOL
 - **Reasoning:** $HOTLINE has a clear meta-narrative (Pump Fun Mental Health Hotline for trading victims), PFMentalHealth twitter, and 50+ char description — passes viability gate. Meta-ironic memecoins about trading pain have attention tailwind right now.
 
+## [2026-09-11 00:25 UTC] sell | [rapid-drop] $HOTLINE crashed >15% in one tick | P&L: -18.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
