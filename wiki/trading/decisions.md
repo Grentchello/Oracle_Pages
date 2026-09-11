@@ -21025,3 +21025,9 @@
 ## [2026-09-11 00:59 UTC] buy | [LLM] $BULLCATE at $8.89599e-06, spent 0.05 SOL
 - **Reasoning:** BULLCATE has the strongest attention signal of the batch — 10% supply allocated to ANSEM, one of Solana's top memecoin KOLs. KOL-targeted launches historically pump 2-10x as on-chain watchers front-run the wallet. $8.8k mcap is fresh enough to ride. Risk: ANSEM may ignore or reject, and KOL-farming tokens dump hard post-airdrop.
 
+## [2026-09-11 01:00 UTC] sell | [rapid-drop] $BULLCATE crashed >15% in one tick | P&L: -67.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-11 01:00 UTC] buy | [LLM] $HOTLINE at $3.377e-06, spent 0.05 SOL
+- **Reasoning:** $HOTLINE has a unique meta-narrative (mental health hotline for trading addicts), active X account (@PFMentalHealth), and ~$3.7k mcap with real descriptive content. Memecoins trade on novelty and cultural commentary — this nails both. Risk: brand-new (0.9min), low liquidity, may rug.
+
