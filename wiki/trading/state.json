@@ -1,27 +1,27 @@
 {
-  "balance_sol": 9.263418,
+  "balance_sol": 9.26186,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "8JKEuWRVnemhipjFnNb5DDqX1UV2txsJVAXiHLgMpump": {
-      "symbol": "H2E",
-      "name": "H2E",
-      "amount": 1510592.3201902492,
-      "entry_price_usd": 3.300361012938361e-06,
+    "D1ouA2wX9zEjTPYNzNzKsYyqcEfj5oSHUMGATH8Qpump": {
+      "symbol": "harold",
+      "name": "harold",
+      "amount": 428979.6303081135,
+      "entry_price_usd": 1.1612439491409069e-05,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-11T01:15:37.137595+00:00",
-      "entry_usd_value": 4.9855,
-      "last_seen_price_usd": 3.300361012938361e-06,
+      "entry_time": "2026-09-11T01:17:13.045571+00:00",
+      "entry_usd_value": 4.9815000000000005,
+      "last_seen_price_usd": 1.1612439491409069e-05,
       "entry_signals": {
-        "liquidity_usd": 244.53825680712998,
+        "liquidity_usd": 2970.64501299081,
         "volume_24h_usd": null,
-        "market_cap_usd": 3287.7831654318575,
-        "ath_market_cap_usd": 3680.1783323425716,
+        "market_cap_usd": 11570.610560016425,
+        "ath_market_cap_usd": 11901.452788812228,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 2.452494803,
-        "description": "$H2E holders earns from every coin launched on H2E platform. h2e is a Solana launchpad where a coin's trading fees are paid to its holders every 24 hours, in an asset each holder chooses. Creators take no cut. Of every fee: 60% to that coin's holders, 30% to $H2E holders, 10% to the platform. So $H2",
-        "twitter": "https://x.com/h2e_pf",
+        "real_sol_reserves": 29.816772187,
+        "description": "Lets do this!",
+        "twitter": "https://x.com/haroldtheduck_/status/2098219080129958110",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -52081,25 +52081,30 @@
       "pnl_pct": -0.89,
       "exit_reason": "LLM: sell_all — Position data is contradictory (prompt -0.9% vs dex +112% m5) and pool is only $1037 — too thin to trust. Better to rotate the 0.05 SOL into a fresher",
       "partial": false
+    },
+    {
+      "mint": "8JKEuWRVnemhipjFnNb5DDqX1UV2txsJVAXiHLgMpump",
+      "symbol": "H2E",
+      "name": "H2E",
+      "amount_sold": 1510592.3201902492,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-11T01:15:37.137595+00:00",
+      "exit_time": "2026-09-11T01:17:11.668309+00:00",
+      "entry_price_usd": 3.300361012938361e-06,
+      "exit_price_usd": 3.194978868435609e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.048442,
+      "pnl_sol": -0.001558,
+      "pnl_pct": -3.19,
+      "exit_reason": "LLM: sell_all — Held 0.0h but already down -3.2% with only $212 pool liquidity — microcap exposure with thin liquidity means any bounce is unlikely and slippage will ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-11T01:15:37.137748+00:00",
+  "last_updated": "2026-09-11T01:17:13.045743+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.71,
-  "portfolio_value_usd": 928.64,
+  "last_sol_price_usd": 99.63,
+  "portfolio_value_usd": 927.74,
   "recent_decisions": [
-    {
-      "time": "2026-09-11 00:43 UTC",
-      "action": "buy",
-      "details": "[LLM] $RETAIL at $2.85723e-06, spent 0.05 SOL",
-      "reason": "$RETAIL — meta-narrative token naming the audience itself, fresh twitter presence, $2.8k mcap with 2% bond means low entry, viability gate passes (twitter+desc), no fragility flags. Small 0.05 SOL scalp; exit if no momentum in 15 min."
-    },
-    {
-      "time": "2026-09-11 00:45 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $RETAIL at $2.79634e-06 | P&L: -2.1%",
-      "reason": "$RETAIL is down2.1% after just entering, pool is only $13 (extremely thin, below5x position size requirement), and we hold 38% of the pool meaning any further move will be self-inflicted. Liquidity is too thin to trust; cut and free the slot."
-    },
     {
       "time": "2026-09-11 00:46 UTC",
       "action": "sell",
@@ -52207,40 +52212,52 @@
       "action": "buy",
       "details": "[LLM] $H2E at $3.30036e-06, spent 0.05 SOL",
       "reason": "$H2E passes viability gate (real 50+ char description + twitter), clear narrative as a Solana launchpad with holder fee-share utility, $3.3k mcap = very early asymmetric entry. Not on fragility blocklist. Best risk/reward of the batch."
+    },
+    {
+      "time": "2026-09-11 01:17 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $H2E at $3.19498e-06 | P&L: -3.2%",
+      "reason": "Held 0.0h but already down -3.2% with only $212 pool liquidity — microcap exposure with thin liquidity means any bounce is unlikely and slippage will eat any recovery. Cut the loss early before it widens toward the -25% hard stop."
+    },
+    {
+      "time": "2026-09-11 01:17 UTC",
+      "action": "buy",
+      "details": "[LLM] $harold at $1.16124e-05, spent 0.05 SOL",
+      "reason": "$harold — fresh launch (0.1min) with viral X presence (haroldtheduck_ status), $11.5k mcap is ultra-early for an attention token, and 'Lets do this!' framing reads like a coordinated shill campaign. Viral duck mascot narrative has meme legs; size the risk small."
     }
   ],
   "trade_stats": {
-    "total": 3062,
+    "total": 3063,
     "wins": 1433,
-    "losses": 1629,
+    "losses": 1630,
     "win_rate_pct": 46.8,
-    "total_pnl_sol": 5.04723,
-    "avg_pnl_pct": 28.06,
+    "total_pnl_sol": 5.045672,
+    "avg_pnl_pct": 28.05,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 29,
-    "today_realized_sol": -0.040013,
-    "today_target_pct": -10.0,
+    "today_trades": 30,
+    "today_realized_sol": -0.041571,
+    "today_target_pct": -10.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1433,
-      "loss_count": 1629,
+      "loss_count": 1630,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T01:15:35.844731+00:00",
+  "last_llm_brief_at": "2026-09-11T01:17:11.668275+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "EPYqph9cXjSUfLkEcMRYjbQHCPqUxinGr3RQTATypump": {
-      "price_usd": 5.0546814510328655e-06,
+    "8JKEuWRVnemhipjFnNb5DDqX1UV2txsJVAXiHLgMpump": {
+      "price_usd": 3.194978868435609e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1036.58203429092,
-      "volume_h24": 9324.46,
+      "liquidity_usd": 212.12855811018,
+      "volume_h24": 718.89,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 10.395968652
+      "real_sol_reserves": 2.129163486
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

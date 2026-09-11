@@ -21058,3 +21058,9 @@
 ## [2026-09-11 01:15 UTC] buy | [LLM] $H2E at $3.30036e-06, spent 0.05 SOL
 - **Reasoning:** $H2E passes viability gate (real 50+ char description + twitter), clear narrative as a Solana launchpad with holder fee-share utility, $3.3k mcap = very early asymmetric entry. Not on fragility blocklist. Best risk/reward of the batch.
 
+## [2026-09-11 01:17 UTC] sell | [FULL][LLM] $H2E at $3.19498e-06 | P&L: -3.2%
+- **Reasoning:** Held 0.0h but already down -3.2% with only $212 pool liquidity — microcap exposure with thin liquidity means any bounce is unlikely and slippage will eat any recovery. Cut the loss early before it widens toward the -25% hard stop.
+
+## [2026-09-11 01:17 UTC] buy | [LLM] $harold at $1.16124e-05, spent 0.05 SOL
+- **Reasoning:** $harold — fresh launch (0.1min) with viral X presence (haroldtheduck_ status), $11.5k mcap is ultra-early for an attention token, and 'Lets do this!' framing reads like a coordinated shill campaign. Viral duck mascot narrative has meme legs; size the risk small.
+
