@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.343738,
+  "balance_sol": 9.368023,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Fe1DWXArGzsSkwNrAZCaJjqCeb6J6fur6rHUezwepump": {
-      "symbol": "RETAIL",
-      "name": "retail",
-      "amount": 861147.818293828,
-      "entry_price_usd": 2.857233041448019e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-11T00:43:57.207839+00:00",
-      "entry_usd_value": 4.921,
-      "last_seen_price_usd": 2.796338444272548e-06,
-      "entry_signals": {
-        "liquidity_usd": 9.4894521785,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2864.8524331083263,
-        "ath_market_cap_usd": 3975.2585406339595,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.096417925,
-        "description": "Launched on discord.gg/uxento",
-        "twitter": "https://x.com/retailonx/status/2098207184664600903",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51928,19 +51904,30 @@
       "pnl_pct": -2.13,
       "exit_reason": "LLM: sell_all — $RETAIL is down2.1% after just entering, pool is only $13 (extremely thin, below5x position size requirement), and we hold 38% of the pool meaning any",
       "partial": true
+    },
+    {
+      "mint": "Fe1DWXArGzsSkwNrAZCaJjqCeb6J6fur6rHUezwepump",
+      "symbol": "RETAIL",
+      "name": "retail",
+      "amount_sold": 861147.818293828,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-11T00:43:57.207839+00:00",
+      "exit_time": "2026-09-11T00:46:45.939705+00:00",
+      "entry_price_usd": 2.857233041448019e-06,
+      "exit_price_usd": 2.7969024496062055e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.024285,
+      "pnl_sol": -0.000715,
+      "pnl_pct": -2.11,
+      "exit_reason": "LLM: sell_all — Fresh entry at 0.0h held, -2.1% is well above -25% hard stop. 19% pool share is heavy but it's a tiny $13 pool on bonding curve; need a few minutes to",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-11T00:45:12.386158+00:00",
+  "last_updated": "2026-09-11T00:46:45.940295+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.16,
-  "portfolio_value_usd": 928.99,
+  "last_sol_price_usd": 99.18,
+  "portfolio_value_usd": 929.12,
   "recent_decisions": [
-    {
-      "time": "2026-09-11 00:19 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $WCAT at $2.81386e-06 | P&L: +0.4%",
-      "reason": "Just entered at +0.4% with 25% pool share on a $20 bonding curve — exiting now would crater price and crystallize a loss. Need to give it a few minutes for more buyers to enter the pool, or let the 30-min stale bot rule handle the exit if no momentum develops."
-    },
     {
       "time": "2026-09-11 00:21 UTC",
       "action": "buy",
@@ -52054,35 +52041,41 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $RETAIL at $2.79634e-06 | P&L: -2.1%",
       "reason": "$RETAIL is down2.1% after just entering, pool is only $13 (extremely thin, below5x position size requirement), and we hold 38% of the pool meaning any further move will be self-inflicted. Liquidity is too thin to trust; cut and free the slot."
+    },
+    {
+      "time": "2026-09-11 00:46 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RETAIL at $2.7969e-06 | P&L: -2.1%",
+      "reason": "Fresh entry at 0.0h held, -2.1% is well above -25% hard stop. 19% pool share is heavy but it's a tiny $13 pool on bonding curve; need a few minutes to see if the narrative (retail-trader revenge meme) catches attention before judging."
     }
   ],
   "trade_stats": {
-    "total": 3053,
+    "total": 3054,
     "wins": 1430,
-    "losses": 1623,
+    "losses": 1624,
     "win_rate_pct": 46.8,
-    "total_pnl_sol": 5.10255,
-    "avg_pnl_pct": 28.17,
+    "total_pnl_sol": 5.101835,
+    "avg_pnl_pct": 28.16,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 20,
-    "today_realized_sol": 0.015307,
-    "today_target_pct": 3.8,
+    "today_trades": 21,
+    "today_realized_sol": 0.014592,
+    "today_target_pct": 3.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1430,
-      "loss_count": 1623,
+      "loss_count": 1624,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T00:45:12.384875+00:00",
+  "last_llm_brief_at": "2026-09-11T00:46:45.938681+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "Fe1DWXArGzsSkwNrAZCaJjqCeb6J6fur6rHUezwepump": {
-      "price_usd": 2.796338444272548e-06,
+      "price_usd": 2.7969024496062055e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 12.808003482359998,
+      "liquidity_usd": 12.81058678278,
       "volume_h24": 1221.42,
       "dex_id": "pumpfun",
       "source": "bonding-curve",

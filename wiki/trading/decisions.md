@@ -21004,3 +21004,6 @@
 ## [2026-09-11 00:45 UTC] sell | [PARTIAL][LLM] $RETAIL at $2.79634e-06 | P&L: -2.1%
 - **Reasoning:** $RETAIL is down2.1% after just entering, pool is only $13 (extremely thin, below5x position size requirement), and we hold 38% of the pool meaning any further move will be self-inflicted. Liquidity is too thin to trust; cut and free the slot.
 
+## [2026-09-11 00:46 UTC] sell | [FULL][LLM] $RETAIL at $2.7969e-06 | P&L: -2.1%
+- **Reasoning:** Fresh entry at 0.0h held, -2.1% is well above -25% hard stop. 19% pool share is heavy but it's a tiny $13 pool on bonding curve; need a few minutes to see if the narrative (retail-trader revenge meme) catches attention before judging.
+
