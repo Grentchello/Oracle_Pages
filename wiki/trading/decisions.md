@@ -21037,3 +21037,6 @@
 ## [2026-09-11 01:03 UTC] sell | [FULL][LLM] $HOTLINE at $4.6597e-06 | P&L: +38.0%
 - **Reasoning:** +38% gain on bonding-curve token with pool only $879 and 0% of supply — thin liquidity, take profit now before it dumps back. Discipline says lock gains when uncertain; 0% share means any buy we made is trivial liquidity that could vanish.
 
+## [2026-09-11 01:04 UTC] buy | [LLM] $GOAT at $0.000460821, spent 0.05 SOL
+- **Reasoning:** $GOAT has the strongest narrative on the board — tied to the co-creator of dogecoin (ummjackson), original2014 github story. Real OG narrative is the kind of attention that 5-10x's a fresh launch. Risks: ultra-low mcap ($3.9k), bond only 2%, fragile if narrative doesn't catch. Sized at 0.1 SOL per house rules.
+
