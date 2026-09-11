@@ -20911,3 +20911,9 @@
 ## [2026-09-11 00:03 UTC] sell | [PARTIAL][LLM] $RISE at $8.38627e-06 | P&L: +33.6%
 - **Reasoning:** +33.6% gain, but only 0.1h old and pool is tiny ($2198) with our share at 0% — locking half locks the gain while letting the rest ride if it keeps pumping. Bonding-curve tokens can rug or reverse fast.
 
+## [2026-09-11 00:04 UTC] sell | [FULL][LLM] $RISE at $8.70296e-06 | P&L: +38.7%
+- **Reasoning:** Up +38.7% in 6min on thin pool ($2296). Lock the gain — bonding curve pump is largely captured, and freeing the slot lets me rotate into fresh attention (Robinhood Chain narrative on $SB).
+
+## [2026-09-11 00:04 UTC] buy | [LLM] $SB at $3.35287e-06, spent 0.05 SOL
+- **Reasoning:** $SB (Stock Back on Robinhood Chain) has verified Twitter @StockBackfam, real narrative riding the Robinhood chain attention wave, $3.3k mcap with room to run.
+
