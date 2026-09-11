@@ -1,17 +1,17 @@
 {
-  "balance_sol": 9.319453,
+  "balance_sol": 9.343738,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "Fe1DWXArGzsSkwNrAZCaJjqCeb6J6fur6rHUezwepump": {
       "symbol": "RETAIL",
       "name": "retail",
-      "amount": 1722295.636587656,
+      "amount": 861147.818293828,
       "entry_price_usd": 2.857233041448019e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-11T00:43:57.207839+00:00",
       "entry_usd_value": 4.921,
-      "last_seen_price_usd": 2.857233041448019e-06,
+      "last_seen_price_usd": 2.796338444272548e-06,
       "entry_signals": {
         "liquidity_usd": 9.4894521785,
         "volume_24h_usd": null,
@@ -51911,19 +51911,30 @@
       "pnl_pct": -11.16,
       "exit_reason": "LLM: sell_all — Down 11.2% but our 15% pool share means selling now would crater price and lock in loss. Fresh0.0h hold, not stale yet. Letting auto-stop at -25% hand",
       "partial": false
+    },
+    {
+      "mint": "Fe1DWXArGzsSkwNrAZCaJjqCeb6J6fur6rHUezwepump",
+      "symbol": "RETAIL",
+      "name": "retail",
+      "amount_sold": 861147.818293828,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-11T00:43:57.207839+00:00",
+      "exit_time": "2026-09-11T00:45:12.385900+00:00",
+      "entry_price_usd": 2.857233041448019e-06,
+      "exit_price_usd": 2.796338444272548e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.024285,
+      "pnl_sol": -0.000715,
+      "pnl_pct": -2.13,
+      "exit_reason": "LLM: sell_all — $RETAIL is down2.1% after just entering, pool is only $13 (extremely thin, below5x position size requirement), and we hold 38% of the pool meaning any",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-11T00:43:57.208021+00:00",
+  "last_updated": "2026-09-11T00:45:12.386158+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.42,
-  "portfolio_value_usd": 922.14,
+  "last_sol_price_usd": 99.16,
+  "portfolio_value_usd": 928.99,
   "recent_decisions": [
-    {
-      "time": "2026-09-11 00:18 UTC",
-      "action": "buy",
-      "details": "[LLM] $WCAT at $2.803e-06, spent 0.05 SOL",
-      "reason": "$WCAT (World CAT) — clean cat-narrative memecoin, fresh launch, twitter handle CryptoIqr posting. Cat meta is perennial attention. $2.8k mcap with 1% bond means very early entry — asymmetric upside if narrative catches. Passes viability (twitter present). Risk: brand-new, thin liquidity — sizing at 0.05 SOL keeps loss bounded."
-    },
     {
       "time": "2026-09-11 00:19 UTC",
       "action": "sell",
@@ -52037,30 +52048,48 @@
       "action": "buy",
       "details": "[LLM] $RETAIL at $2.85723e-06, spent 0.05 SOL",
       "reason": "$RETAIL — meta-narrative token naming the audience itself, fresh twitter presence, $2.8k mcap with 2% bond means low entry, viability gate passes (twitter+desc), no fragility flags. Small 0.05 SOL scalp; exit if no momentum in 15 min."
+    },
+    {
+      "time": "2026-09-11 00:45 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RETAIL at $2.79634e-06 | P&L: -2.1%",
+      "reason": "$RETAIL is down2.1% after just entering, pool is only $13 (extremely thin, below5x position size requirement), and we hold 38% of the pool meaning any further move will be self-inflicted. Liquidity is too thin to trust; cut and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 3052,
+    "total": 3053,
     "wins": 1430,
-    "losses": 1622,
-    "win_rate_pct": 46.9,
-    "total_pnl_sol": 5.103265,
-    "avg_pnl_pct": 28.18,
+    "losses": 1623,
+    "win_rate_pct": 46.8,
+    "total_pnl_sol": 5.10255,
+    "avg_pnl_pct": 28.17,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 19,
-    "today_realized_sol": 0.016022,
-    "today_target_pct": 4.0,
+    "today_trades": 20,
+    "today_realized_sol": 0.015307,
+    "today_target_pct": 3.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1430,
-      "loss_count": 1622,
+      "loss_count": 1623,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T00:43:55.872268+00:00",
+  "last_llm_brief_at": "2026-09-11T00:45:12.384875+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Fe1DWXArGzsSkwNrAZCaJjqCeb6J6fur6rHUezwepump": {
+      "price_usd": 2.796338444272548e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 12.808003482359998,
+      "volume_h24": 1221.42,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.129165021
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

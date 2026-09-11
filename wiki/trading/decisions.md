@@ -21001,3 +21001,6 @@
 ## [2026-09-11 00:43 UTC] buy | [LLM] $RETAIL at $2.85723e-06, spent 0.05 SOL
 - **Reasoning:** $RETAIL — meta-narrative token naming the audience itself, fresh twitter presence, $2.8k mcap with 2% bond means low entry, viability gate passes (twitter+desc), no fragility flags. Small 0.05 SOL scalp; exit if no momentum in 15 min.
 
+## [2026-09-11 00:45 UTC] sell | [PARTIAL][LLM] $RETAIL at $2.79634e-06 | P&L: -2.1%
+- **Reasoning:** $RETAIL is down2.1% after just entering, pool is only $13 (extremely thin, below5x position size requirement), and we hold 38% of the pool meaning any further move will be self-inflicted. Liquidity is too thin to trust; cut and free the slot.
+
