@@ -21013,3 +21013,6 @@
 ## [2026-09-11 00:49 UTC] sell | [rapid-drop] $r/Memes crashed >15% in one tick | P&L: -21.1%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-11 00:51 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
