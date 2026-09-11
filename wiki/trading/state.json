@@ -1,17 +1,17 @@
 {
-  "balance_sol": 9.243351,
+  "balance_sol": 9.278204,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "EhhGRVTrCRecXoq25UoonE7dBUESzMd5uibohm28pump": {
       "symbol": "HOTLINE",
       "name": "Pump.fun Mental Health Hotline",
-      "amount": 1470239.8578620076,
+      "amount": 735119.9289310038,
       "entry_price_usd": 3.377e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-11T01:00:56.771843+00:00",
       "entry_usd_value": 4.965,
-      "last_seen_price_usd": 3.377e-06,
+      "last_seen_price_usd": 4.6837142606397456e-06,
       "entry_signals": {
         "liquidity_usd": 483.7013333223,
         "volume_24h_usd": 356.95,
@@ -51996,19 +51996,30 @@
       "pnl_pct": -67.17,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "EhhGRVTrCRecXoq25UoonE7dBUESzMd5uibohm28pump",
+      "symbol": "HOTLINE",
+      "name": "Pump.fun Mental Health Hotline",
+      "amount_sold": 735119.9289310038,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-11T01:00:56.771843+00:00",
+      "exit_time": "2026-09-11T01:02:11.118588+00:00",
+      "entry_price_usd": 3.377e-06,
+      "exit_price_usd": 4.6837142606397456e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.034853,
+      "pnl_sol": 0.009853,
+      "pnl_pct": 38.69,
+      "exit_reason": "LLM: sell_half — Up +38.7% — bot hasn't auto-TP'd yet (TP at +25% only fires if price sustains), but we're well past the 25% mark and momentum on a brand-new bonding-c",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-11T01:00:56.772010+00:00",
+  "last_updated": "2026-09-11T01:02:11.119247+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.3,
-  "portfolio_value_usd": 922.83,
+  "last_sol_price_usd": 98.79,
+  "portfolio_value_usd": 919.08,
   "recent_decisions": [
-    {
-      "time": "2026-09-11 00:30 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MASTERDOG at $1.25099e-07 | P&L: -3.7%",
-      "reason": "Just opened (0.0h held) at -3.7% — this is noise on a bonding-curve micro-cap, not a real loss. Closing immediately to chase another nano-launch would be whipsaw. Give it a few minutes to develop."
-    },
     {
       "time": "2026-09-11 00:32 UTC",
       "action": "buy",
@@ -52122,40 +52133,46 @@
       "action": "buy",
       "details": "[LLM] $HOTLINE at $3.377e-06, spent 0.05 SOL",
       "reason": "$HOTLINE has a unique meta-narrative (mental health hotline for trading addicts), active X account (@PFMentalHealth), and ~$3.7k mcap with real descriptive content. Memecoins trade on novelty and cultural commentary — this nails both. Risk: brand-new (0.9min), low liquidity, may rug."
+    },
+    {
+      "time": "2026-09-11 01:02 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $HOTLINE at $4.68371e-06 | P&L: +38.7%",
+      "reason": "Up +38.7% — bot hasn't auto-TP'd yet (TP at +25% only fires if price sustains), but we're well past the 25% mark and momentum on a brand-new bonding-curve position is uncertain. Lock half the gain now, let the other half ride for the50%+ target. Discipline > hope."
     }
   ],
   "trade_stats": {
-    "total": 3057,
-    "wins": 1430,
+    "total": 3058,
+    "wins": 1431,
     "losses": 1627,
     "win_rate_pct": 46.8,
-    "total_pnl_sol": 5.027163,
+    "total_pnl_sol": 5.037016,
     "avg_pnl_pct": 28.08,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 24,
-    "today_realized_sol": -0.06008,
-    "today_target_pct": -15.0,
+    "today_trades": 25,
+    "today_realized_sol": -0.050227,
+    "today_target_pct": -12.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1430,
+      "win_count": 1431,
       "loss_count": 1627,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T01:00:55.478760+00:00",
+  "last_llm_brief_at": "2026-09-11T01:02:11.118544+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "HmXDeKx8mvzdnh77spuf4of4u8RSDXvcswMZ4kANpump": {
-      "price_usd": 2.920697782878435e-06,
+    "EhhGRVTrCRecXoq25UoonE7dBUESzMd5uibohm28pump": {
+      "price_usd": 4.6837142606397456e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 76.4728136217,
-      "volume_h24": 11234.6,
+      "liquidity_usd": 895.6323263214902,
+      "volume_h24": 743.38,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.770118969
+      "real_sol_reserves": 9.066022131
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

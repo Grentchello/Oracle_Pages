@@ -21031,3 +21031,6 @@
 ## [2026-09-11 01:00 UTC] buy | [LLM] $HOTLINE at $3.377e-06, spent 0.05 SOL
 - **Reasoning:** $HOTLINE has a unique meta-narrative (mental health hotline for trading addicts), active X account (@PFMentalHealth), and ~$3.7k mcap with real descriptive content. Memecoins trade on novelty and cultural commentary — this nails both. Risk: brand-new (0.9min), low liquidity, may rug.
 
+## [2026-09-11 01:02 UTC] sell | [PARTIAL][LLM] $HOTLINE at $4.68371e-06 | P&L: +38.7%
+- **Reasoning:** Up +38.7% — bot hasn't auto-TP'd yet (TP at +25% only fires if price sustains), but we're well past the 25% mark and momentum on a brand-new bonding-curve position is uncertain. Lock half the gain now, let the other half ride for the50%+ target. Discipline > hope.
+
