@@ -1,17 +1,17 @@
 {
-  "balance_sol": 9.301756,
+  "balance_sol": 9.332075,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "3twdUULGxL78rfshdr3iWQL94bgyzPF4HwABcKZypump": {
       "symbol": "Riley",
       "name": "Riley the Rescue Dog",
-      "amount": 873291.2723449002,
+      "amount": 436645.6361724501,
       "entry_price_usd": 5.706e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-11T00:11:58.534936+00:00",
       "entry_usd_value": 4.9830000000000005,
-      "last_seen_price_usd": 5.706e-06,
+      "last_seen_price_usd": 6.922750639397324e-06,
       "entry_signals": {
         "liquidity_usd": 1337.09503054512,
         "volume_24h_usd": 12957.33,
@@ -51690,19 +51690,30 @@
       "pnl_pct": -14.08,
       "exit_reason": "LLM: sell_all — Down -14.1% on a bonding-curve token with no description, no twitter, and pool=$0. The ⚠ HUGE share flag confirms the position sizing is broken. No na",
       "partial": false
+    },
+    {
+      "mint": "3twdUULGxL78rfshdr3iWQL94bgyzPF4HwABcKZypump",
+      "symbol": "Riley",
+      "name": "Riley the Rescue Dog",
+      "amount_sold": 436645.6361724501,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-11T00:11:58.534936+00:00",
+      "exit_time": "2026-09-11T00:13:27.850984+00:00",
+      "entry_price_usd": 5.706e-06,
+      "exit_price_usd": 6.922750639397324e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.030319,
+      "pnl_sol": 0.005319,
+      "pnl_pct": 21.32,
+      "exit_reason": "LLM: sell_half — Up +21.3% on a 0.0h hold with $1723 pool liquidity — just crossed the +20% 'take profit on any doubt' threshold. Lock half the gain, let half ride if ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-11T00:11:58.535227+00:00",
+  "last_updated": "2026-09-11T00:13:27.851233+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.66,
-  "portfolio_value_usd": 932.0,
+  "last_sol_price_usd": 99.7,
+  "portfolio_value_usd": 932.9,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 23:46 UTC",
-      "action": "buy",
-      "details": "[LLM] $BATCAT at $3.11946e-06, spent 0.05 SOL",
-      "reason": "$BATCAT has the clearest narrative — pun-based identity ('Not Batman. Not Catwoman.'), proper description (passes viability gate), Twitter presence, and viral meme potential. Comic/pet mashups have historically pumped hard (POPCAT, $MOG-style). At $3k mcap it's high risk but the attention signal is concrete."
-    },
     {
       "time": "2026-09-10 23:47 UTC",
       "action": "sell",
@@ -51816,30 +51827,48 @@
       "action": "buy",
       "details": "[LLM] $Riley at $5.706e-06, spent 0.05 SOL",
       "reason": "$Riley (Riley the Rescue Dog) tied to COD Slayer — a streamer with a built-in audience. Wholesome rescue dog narrative is viral-friendly. Highest mcap ($6.7k) and bond (26%) of the fresh batch signals strongest organic traction. Risks: still pre-bonding, streamer-driven coins can dump when streamer goes offline, but the attention signal is the clearest in this batch."
+    },
+    {
+      "time": "2026-09-11 00:13 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Riley at $6.92275e-06 | P&L: +21.3%",
+      "reason": "Up +21.3% on a 0.0h hold with $1723 pool liquidity — just crossed the +20% 'take profit on any doubt' threshold. Lock half the gain, let half ride if narrative continues. Aggressive profit-taking per scalp discipline."
     }
   ],
   "trade_stats": {
-    "total": 3039,
-    "wins": 1422,
+    "total": 3040,
+    "wins": 1423,
     "losses": 1617,
     "win_rate_pct": 46.8,
-    "total_pnl_sol": 5.085567,
+    "total_pnl_sol": 5.090886,
     "avg_pnl_pct": 28.28,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 6,
-    "today_realized_sol": -0.001676,
-    "today_target_pct": -0.4,
+    "today_trades": 7,
+    "today_realized_sol": 0.003643,
+    "today_target_pct": 0.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1422,
+      "win_count": 1423,
       "loss_count": 1617,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T00:11:57.157451+00:00",
+  "last_llm_brief_at": "2026-09-11T00:13:27.850944+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3twdUULGxL78rfshdr3iWQL94bgyzPF4HwABcKZypump": {
+      "price_usd": 6.922750639397324e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1722.5423412466,
+      "volume_h24": 20323.02,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 17.277255178
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

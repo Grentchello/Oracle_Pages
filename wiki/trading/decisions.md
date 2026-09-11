@@ -20929,3 +20929,6 @@
 ## [2026-09-11 00:11 UTC] buy | [LLM] $Riley at $5.706e-06, spent 0.05 SOL
 - **Reasoning:** $Riley (Riley the Rescue Dog) tied to COD Slayer — a streamer with a built-in audience. Wholesome rescue dog narrative is viral-friendly. Highest mcap ($6.7k) and bond (26%) of the fresh batch signals strongest organic traction. Risks: still pre-bonding, streamer-driven coins can dump when streamer goes offline, but the attention signal is the clearest in this batch.
 
+## [2026-09-11 00:13 UTC] sell | [PARTIAL][LLM] $Riley at $6.92275e-06 | P&L: +21.3%
+- **Reasoning:** Up +21.3% on a 0.0h hold with $1723 pool liquidity — just crossed the +20% 'take profit on any doubt' threshold. Lock half the gain, let half ride if narrative continues. Aggressive profit-taking per scalp discipline.
+
