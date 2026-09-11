@@ -21034,3 +21034,6 @@
 ## [2026-09-11 01:02 UTC] sell | [PARTIAL][LLM] $HOTLINE at $4.68371e-06 | P&L: +38.7%
 - **Reasoning:** Up +38.7% — bot hasn't auto-TP'd yet (TP at +25% only fires if price sustains), but we're well past the 25% mark and momentum on a brand-new bonding-curve position is uncertain. Lock half the gain now, let the other half ride for the50%+ target. Discipline > hope.
 
+## [2026-09-11 01:03 UTC] sell | [FULL][LLM] $HOTLINE at $4.6597e-06 | P&L: +38.0%
+- **Reasoning:** +38% gain on bonding-curve token with pool only $879 and 0% of supply — thin liquidity, take profit now before it dumps back. Discipline says lock gains when uncertain; 0% share means any buy we made is trivial liquidity that could vanish.
+
