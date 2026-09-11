@@ -21109,3 +21109,9 @@
 ## [2026-09-11 01:38 UTC] buy | [LLM] $TIKTOK at $7.638e-06, spent 0.05 SOL
 - **Reasoning:** $TIKTOK has the strongest attention signal: confirmed X post linking to it, evergreen TikTok cultural narrative that captures non-crypto attention. Mcap $11k is still early enough for a 3-10x if the tweet gains traction. Risk: bond only 33%, so price discovery is incomplete and volatility will be extreme.
 
+## [2026-09-11 01:38 UTC] sell | [v8.7 TP +50% (full)] $TIKTOK at $1.70962e-05 | P&L: +123.8%
+- **Reasoning:** Auto take-profit at +123.8%
+
+## [2026-09-11 01:39 UTC] buy | [LLM] $PENNANT at $2.9663e-06, spent 0.05 SOL
+- **Reasoning:** Pennant AI narrative targeting corporate governance onchain has a clear story + twitter presence at $3k mcap — classic low-mcap attention play with multiple-x upside if narrative catches.
+
