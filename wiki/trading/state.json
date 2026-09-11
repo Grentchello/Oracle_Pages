@@ -1,17 +1,17 @@
 {
-  "balance_sol": 9.303432,
+  "balance_sol": 9.334237,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "9PNASJ9MNtNdtqaoMrpMmHXbJcC2pYoHeQFqRantpump": {
       "symbol": "RISE",
       "name": "RISE",
-      "amount": 788492.8148309593,
+      "amount": 394246.40741547965,
       "entry_price_usd": 6.276531512923158e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-10T23:59:16.536651+00:00",
       "entry_usd_value": 4.949000000000001,
-      "last_seen_price_usd": 6.276531512923158e-06,
+      "last_seen_price_usd": 7.72932947625941e-06,
       "entry_signals": {
         "liquidity_usd": 1502.52045600244,
         "volume_24h_usd": null,
@@ -51588,19 +51588,30 @@
       "pnl_pct": 12.77,
       "exit_reason": "LLM: sell_all — $DEPE is up +12.8% on a fresh entry, not stale yet. Pool is thin ($746) so I want to give it a few more minutes to push toward the +25% auto-TP before",
       "partial": false
+    },
+    {
+      "mint": "9PNASJ9MNtNdtqaoMrpMmHXbJcC2pYoHeQFqRantpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 394246.40741547965,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T23:59:16.536651+00:00",
+      "exit_time": "2026-09-11T00:00:49.906378+00:00",
+      "entry_price_usd": 6.276531512923158e-06,
+      "exit_price_usd": 7.72932947625941e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.030805,
+      "pnl_sol": 0.005805,
+      "pnl_pct": 23.15,
+      "exit_reason": "LLM: sell_half — Up +23.1% on thin $1993 pool, bonding curve only 9% complete, narrative unclear. Lock half the gain before bot auto-TP at 25% fires or a pullback hits",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-10T23:59:16.536915+00:00",
+  "last_updated": "2026-09-11T00:00:49.906778+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.98,
-  "portfolio_value_usd": 925.8,
+  "last_sol_price_usd": 98.92,
+  "portfolio_value_usd": 925.82,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 23:37 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CPU at $1.01565e-08 | P&L: +6.2%",
-      "reason": "$CPU only 0.0h held, +6.2% in early move, still on bonding curve with 25% share — give it time to develop before exiting a fresh position."
-    },
     {
       "time": "2026-09-10 23:37 UTC",
       "action": "buy",
@@ -51714,30 +51725,48 @@
       "action": "buy",
       "details": "[LLM] $RISE at $6.27653e-06, spent 0.05 SOL",
       "reason": "$RISE has the classic '60% airdrop to top 15 holders' pump.fun hook that drives immediate chase-buying volume; twitter present, real description, sub-$7k mcap means I get in near curve bottom with the attention wave. Risk: bonding curve dump before graduation, but 0.1 SOL max loss is an acceptable lottery ticket for the attention velocity."
+    },
+    {
+      "time": "2026-09-11 00:00 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RISE at $7.72933e-06 | P&L: +23.1%",
+      "reason": "Up +23.1% on thin $1993 pool, bonding curve only 9% complete, narrative unclear. Lock half the gain before bot auto-TP at 25% fires or a pullback hits; let the rest ride for a potential breakout."
     }
   ],
   "trade_stats": {
-    "total": 3033,
-    "wins": 1418,
+    "total": 3034,
+    "wins": 1419,
     "losses": 1615,
     "win_rate_pct": 46.8,
-    "total_pnl_sol": 5.087243,
+    "total_pnl_sol": 5.093048,
     "avg_pnl_pct": 28.3,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 656,
-    "today_realized_sol": 7.772558,
-    "today_target_pct": 1943.1,
+    "today_trades": 1,
+    "today_realized_sol": 0.005805,
+    "today_target_pct": 1.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1418,
+      "win_count": 1419,
       "loss_count": 1615,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-10T23:59:15.215033+00:00",
+  "last_llm_brief_at": "2026-09-11T00:00:49.905979+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "9PNASJ9MNtNdtqaoMrpMmHXbJcC2pYoHeQFqRantpump": {
+      "price_usd": 7.72932947625941e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1993.44826692392,
+      "volume_h24": 1742.82,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 20.152125626
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

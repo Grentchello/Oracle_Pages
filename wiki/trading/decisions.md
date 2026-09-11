@@ -20902,3 +20902,6 @@
 ## [2026-09-10 23:59 UTC] buy | [LLM] $RISE at $6.27653e-06, spent 0.05 SOL
 - **Reasoning:** $RISE has the classic '60% airdrop to top 15 holders' pump.fun hook that drives immediate chase-buying volume; twitter present, real description, sub-$7k mcap means I get in near curve bottom with the attention wave. Risk: bonding curve dump before graduation, but 0.1 SOL max loss is an acceptable lottery ticket for the attention velocity.
 
+## [2026-09-11 00:00 UTC] sell | [PARTIAL][LLM] $RISE at $7.72933e-06 | P&L: +23.1%
+- **Reasoning:** Up +23.1% on thin $1993 pool, bonding curve only 9% complete, narrative unclear. Lock half the gain before bot auto-TP at 25% fires or a pullback hits; let the rest ride for a potential breakout.
+
