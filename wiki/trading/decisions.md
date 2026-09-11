@@ -21019,3 +21019,9 @@
 ## [2026-09-11 00:58 UTC] buy | [LLM] $슈바오 at $1.94445e-05, spent 0.05 SOL
 - **Reasoning:** ShuBao (슈바오 = 'treasure' in CJK) is the strongest attention signal in the batch: 38% bond completion shows real organic buying, has Twitter link, and $19k mcap is already moving. This is the only candidate with both a narrative hook and visible demand pressure. Risk: duplicate mints for same name could split liquidity — taking the higher-bond one (38% vs 5%) which is clearly the active trade.
 
+## [2026-09-11 00:59 UTC] sell | [rapid-drop] $슈바오 crashed >15% in one tick | P&L: -61.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-11 00:59 UTC] buy | [LLM] $BULLCATE at $8.89599e-06, spent 0.05 SOL
+- **Reasoning:** BULLCATE has the strongest attention signal of the batch — 10% supply allocated to ANSEM, one of Solana's top memecoin KOLs. KOL-targeted launches historically pump 2-10x as on-chain watchers front-run the wallet. $8.8k mcap is fresh enough to ride. Risk: ANSEM may ignore or reject, and KOL-farming tokens dump hard post-airdrop.
+
