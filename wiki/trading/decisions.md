@@ -21082,3 +21082,6 @@
 ## [2026-09-11 01:24 UTC] sell | [FULL][LLM] $NF at $2.78832e-06 | P&L: -0.5%
 - **Reasoning:** $NF is flat (-0.5%) on a tiny $10 pool with 25% of supply — this is illiquid and likely a rug-in-progress. Even small sell pressure will crater it. Exit now, free the slot.
 
+## [2026-09-11 01:25 UTC] buy | [LLM] $Gösta at $3.62041e-06, spent 0.05 SOL
+- **Reasoning:** $Gösta — narcoleptic dog video is a genuine viral TikTok/X moment, organic narrative (not bot-deployed), description viable, dog memes are universal attention magnets. $3.6k mcap is fresh enough for5-10x if narrative catches. Risk: 0.8min old, bond only 11% — very early.
+
