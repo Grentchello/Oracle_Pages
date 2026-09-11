@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.325218,
+  "balance_sol": 9.369453,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8L8Udbt8Py8sjFNGCcKfmsby5eZazTBX2d8TSZRMpump": {
-      "symbol": "HAMSTER",
-      "name": "Degen Hamster",
-      "amount": 1551354.757403907,
-      "entry_price_usd": 3.174e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-11T00:40:02.845041+00:00",
-      "entry_usd_value": 4.924,
-      "last_seen_price_usd": 3.174e-06,
-      "entry_signals": {
-        "liquidity_usd": 38.37857068224,
-        "volume_24h_usd": 214.46,
-        "market_cap_usd": 2833.683376939496,
-        "ath_market_cap_usd": 3171.410798449434,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.389709288,
-        "description": "🐹 SMALL BRAIN. BIG DEGEN.",
-        "twitter": "https://x.com/DegenHamsterSOL",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51894,19 +51870,30 @@
       "pnl_pct": 21.37,
       "exit_reason": "LLM: sell_all — Up +21% in 0 min on bonding curve with our share=0% — classic thin-liquidity pump with no real exit depth. Locking the gain before it fades back to cu",
       "partial": false
+    },
+    {
+      "mint": "8L8Udbt8Py8sjFNGCcKfmsby5eZazTBX2d8TSZRMpump",
+      "symbol": "HAMSTER",
+      "name": "Degen Hamster",
+      "amount_sold": 1551354.757403907,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-11T00:40:02.845041+00:00",
+      "exit_time": "2026-09-11T00:41:18.369280+00:00",
+      "entry_price_usd": 3.174e-06,
+      "exit_price_usd": 2.8197491817833245e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.044235,
+      "pnl_sol": -0.005765,
+      "pnl_pct": -11.16,
+      "exit_reason": "LLM: sell_all — Down 11.2% but our 15% pool share means selling now would crater price and lock in loss. Fresh0.0h hold, not stale yet. Letting auto-stop at -25% hand",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-11T00:40:02.845206+00:00",
+  "last_updated": "2026-09-11T00:41:18.369499+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.48,
-  "portfolio_value_usd": 923.27,
+  "last_sol_price_usd": 98.89,
+  "portfolio_value_usd": 926.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-11 00:15 UTC",
-      "action": "buy",
-      "details": "[LLM] $MOLLY at $6.60046e-06, spent 0.05 SOL",
-      "reason": "$MOLLY 'QUEEN MOLLY' is the top-bonding (26%) Stephen King tweet variant with $6.6k mcap. Stephen King X posts rarely trend on-chain — when they do it's real attention. Best risk/reward of the MOLLY cluster. Narrative: horror IP x memecoin. Risk: thin liquidity, early death possible."
-    },
     {
       "time": "2026-09-11 00:16 UTC",
       "action": "sell",
@@ -52020,40 +52007,46 @@
       "action": "buy",
       "details": "[LLM] $HAMSTER at $3.174e-06, spent 0.05 SOL",
       "reason": "$HAMSTER has the strongest attention signal of the batch — 'SMALL BRAIN. BIG DEGEN.' tagline hits the degen identity, twitter @DegenHamsterSOL gives viral surface area, and animal mascots with personality historically pump on Solana. 0.05 SOL size (~$5) keeps loss bounded if it rugs."
+    },
+    {
+      "time": "2026-09-11 00:41 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HAMSTER at $2.81975e-06 | P&L: -11.2%",
+      "reason": "Down 11.2% but our 15% pool share means selling now would crater price and lock in loss. Fresh0.0h hold, not stale yet. Letting auto-stop at -25% handle the downside or waiting for bounce — selling at this share size is the wrong move."
     }
   ],
   "trade_stats": {
-    "total": 3051,
+    "total": 3052,
     "wins": 1430,
-    "losses": 1621,
+    "losses": 1622,
     "win_rate_pct": 46.9,
-    "total_pnl_sol": 5.10903,
-    "avg_pnl_pct": 28.19,
+    "total_pnl_sol": 5.103265,
+    "avg_pnl_pct": 28.18,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 18,
-    "today_realized_sol": 0.021787,
-    "today_target_pct": 5.4,
+    "today_trades": 19,
+    "today_realized_sol": 0.016022,
+    "today_target_pct": 4.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1430,
-      "loss_count": 1621,
+      "loss_count": 1622,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T00:40:01.375522+00:00",
+  "last_llm_brief_at": "2026-09-11T00:41:18.369154+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "APdKShiwiveRZG2Pkd49taadz3k9bdmhHDg56FNHpump": {
-      "price_usd": 6.999303737032441e-06,
+    "8L8Udbt8Py8sjFNGCcKfmsby5eZazTBX2d8TSZRMpump": {
+      "price_usd": 2.8197491817833245e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1756.0449126352,
-      "volume_h24": 12469.81,
+      "liquidity_usd": 29.30074140367,
+      "volume_h24": 409.89,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 17.83148774
+      "real_sol_reserves": 0.296296303
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

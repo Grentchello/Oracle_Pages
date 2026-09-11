@@ -20995,3 +20995,6 @@
 ## [2026-09-11 00:40 UTC] buy | [LLM] $HAMSTER at $3.174e-06, spent 0.05 SOL
 - **Reasoning:** $HAMSTER has the strongest attention signal of the batch — 'SMALL BRAIN. BIG DEGEN.' tagline hits the degen identity, twitter @DegenHamsterSOL gives viral surface area, and animal mascots with personality historically pump on Solana. 0.05 SOL size (~$5) keeps loss bounded if it rugs.
 
+## [2026-09-11 00:41 UTC] sell | [FULL][LLM] $HAMSTER at $2.81975e-06 | P&L: -11.2%
+- **Reasoning:** Down 11.2% but our 15% pool share means selling now would crater price and lock in loss. Fresh0.0h hold, not stale yet. Letting auto-stop at -25% handle the downside or waiting for bounce — selling at this share size is the wrong move.
+
