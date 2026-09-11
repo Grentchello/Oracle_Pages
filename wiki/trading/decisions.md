@@ -21070,3 +21070,9 @@
 ## [2026-09-11 01:20 UTC] buy | [LLM] $PRISM  at $4.4698e-06, spent 0.05 SOL
 - **Reasoning:** $PRISM just launched (~0.1min) with $4.5k mcap and twitter attached (prismonhood). 'Prism' is a clean, viral-friendly name that splits light — strong meme narrative. Bond still at 18% suggests early curve entry. Meets viability (twitter present, desc implied), no fragility keywords.
 
+## [2026-09-11 01:21 UTC] sell | [rapid-drop] $PRISM  crashed >15% in one tick | P&L: -36.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-11 01:21 UTC] buy | [LLM] $NF at $2.80341e-06, spent 0.05 SOL
+- **Reasoning:** $NF 'Never Forget' — 9/11 anniversary tribute with explicit date stamp and patriotic framing; today is 9/11/2026 (25th anniversary cycle), so the emotional catalyst is real and timely. Strong narrative hook, decent attention vector vs other launches this tick.
+
