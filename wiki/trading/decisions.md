@@ -21010,3 +21010,6 @@
 ## [2026-09-11 00:48 UTC] buy | [LLM] $r/Memes at $3.49329e-06, spent 0.05 SOL
 - **Reasoning:** $r/Memes rides the Reddit meta-narrative — universally resonant on crypto twitter, has a real post from 0utdated_ account, mcap only $3.5k with 10–50x headroom. 10% bond completion shows early momentum without exhaustion. No political/celebrity fragility flags, unlike the Kirk-memorial tokens. Best risk/reward in this batch vs. $BACKWARDS (Chinese-language limited audience) and $++++ (influencer-launch dump risk).
 
+## [2026-09-11 00:49 UTC] sell | [rapid-drop] $r/Memes crashed >15% in one tick | P&L: -21.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

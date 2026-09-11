@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.318023,
+  "balance_sol": 9.357451,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BUxBTjTjARN4zJpsYEoSPpGXg5Y2S2g1sUkvRkQKpump": {
-      "symbol": "r/Memes",
-      "name": "r/Memes",
-      "amount": 1408415.122871891,
-      "entry_price_usd": 3.4932882501060185e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-11T00:48:34.663001+00:00",
-      "entry_usd_value": 4.920000000000001,
-      "last_seen_price_usd": 3.4932882501060185e-06,
-      "entry_signals": {
-        "liquidity_usd": 582.4262358024,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3503.397284934448,
-        "ath_market_cap_usd": 3826.9906249839787,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.918965811,
-        "description": "",
-        "twitter": "https://x.com/0utdated_/status/2098211699668959654",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51945,19 +51921,30 @@
       "pnl_pct": -2.11,
       "exit_reason": "LLM: sell_all — Fresh entry at 0.0h held, -2.1% is well above -25% hard stop. 19% pool share is heavy but it's a tiny $13 pool on bonding curve; need a few minutes to",
       "partial": false
+    },
+    {
+      "mint": "BUxBTjTjARN4zJpsYEoSPpGXg5Y2S2g1sUkvRkQKpump",
+      "symbol": "r/Memes",
+      "name": "r/Memes",
+      "amount_sold": 1408415.122871891,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-11T00:48:34.663001+00:00",
+      "exit_time": "2026-09-11T00:49:38.526447+00:00",
+      "entry_price_usd": 3.4932882501060185e-06,
+      "exit_price_usd": 2.758056542393523e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.039428,
+      "pnl_sol": -0.010572,
+      "pnl_pct": -21.05,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-11T00:48:34.663300+00:00",
+  "last_updated": "2026-09-11T00:50:09.030729+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.4,
-  "portfolio_value_usd": 921.81,
+  "last_sol_price_usd": 98.52,
+  "portfolio_value_usd": 921.9,
   "recent_decisions": [
-    {
-      "time": "2026-09-11 00:22 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $kirk at $2.77794e-06 | P&L: -0.5%",
-      "reason": "kirk is flat (-0.5%) after 0h, bonding curve only $10, our share is 50% meaning thin liquidity makes any further move costly. With multiple fresh attention-rich candidates live, rotating capital to a stronger narrative is the right play."
-    },
     {
       "time": "2026-09-11 00:23 UTC",
       "action": "sell",
@@ -52071,30 +52058,48 @@
       "action": "buy",
       "details": "[LLM] $r/Memes at $3.49329e-06, spent 0.05 SOL",
       "reason": "$r/Memes rides the Reddit meta-narrative — universally resonant on crypto twitter, has a real post from 0utdated_ account, mcap only $3.5k with 10–50x headroom. 10% bond completion shows early momentum without exhaustion. No political/celebrity fragility flags, unlike the Kirk-memorial tokens. Best risk/reward in this batch vs. $BACKWARDS (Chinese-language limited audience) and $++++ (influencer-launch dump risk)."
+    },
+    {
+      "time": "2026-09-11 00:49 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $r/Memes crashed >15% in one tick | P&L: -21.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3054,
+    "total": 3055,
     "wins": 1430,
-    "losses": 1624,
+    "losses": 1625,
     "win_rate_pct": 46.8,
-    "total_pnl_sol": 5.101835,
-    "avg_pnl_pct": 28.16,
+    "total_pnl_sol": 5.091263,
+    "avg_pnl_pct": 28.14,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 21,
-    "today_realized_sol": 0.014592,
-    "today_target_pct": 3.6,
+    "today_trades": 22,
+    "today_realized_sol": 0.00402,
+    "today_target_pct": 1.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1430,
-      "loss_count": 1624,
+      "loss_count": 1625,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T00:48:33.236027+00:00",
+  "last_llm_brief_at": "2026-09-11T00:50:08.772777+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BUxBTjTjARN4zJpsYEoSPpGXg5Y2S2g1sUkvRkQKpump": {
+      "price_usd": 2.758056542393523e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.8967271380799997,
+      "volume_h24": 1683.02,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.019252204
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
