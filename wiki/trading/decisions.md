@@ -20950,3 +20950,6 @@
 ## [2026-09-11 00:21 UTC] buy | [LLM] $kirk at $2.79211e-06, spent 0.05 SOL
 - **Reasoning:** $kirk has 10M X views cited in desc — that's verified viral attention, not just a name. Mcap $2.8k with real attention signal = strongest narrative in slate. Risk: fresh launch (0.1min), bond 0%, thin liquidity — tight stop will protect.
 
+## [2026-09-11 00:22 UTC] sell | [PARTIAL][LLM] $kirk at $2.77794e-06 | P&L: -0.5%
+- **Reasoning:** kirk is flat (-0.5%) after 0h, bonding curve only $10, our share is 50% meaning thin liquidity makes any further move costly. With multiple fresh attention-rich candidates live, rotating capital to a stronger narrative is the right play.
+

@@ -1,17 +1,17 @@
 {
-  "balance_sol": 9.282352,
+  "balance_sol": 9.307414,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GRhTsA3deEF9SGBroDVVrjg2D87iJPc2bjaa1okKpump": {
       "symbol": "kirk",
       "name": "waterkirk",
-      "amount": 1776616.1932868683,
+      "amount": 886166.010523319,
       "entry_price_usd": 2.792105587432881e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.02493971443781135,
       "entry_time": "2026-09-11T00:21:16.002339+00:00",
       "entry_usd_value": 4.9605,
-      "last_seen_price_usd": 2.792105587432881e-06,
+      "last_seen_price_usd": 2.7779370484670843e-06,
       "entry_signals": {
         "liquidity_usd": 9.798518409509999,
         "volume_24h_usd": null,
@@ -51758,19 +51758,30 @@
       "pnl_pct": 0.39,
       "exit_reason": "LLM: sell_all — Just entered at +0.4% with 25% pool share on a $20 bonding curve — exiting now would crater price and crystallize a loss. Need to give it a few minute",
       "partial": false
+    },
+    {
+      "mint": "GRhTsA3deEF9SGBroDVVrjg2D87iJPc2bjaa1okKpump",
+      "symbol": "kirk",
+      "name": "waterkirk",
+      "amount_sold": 890450.1827635493,
+      "fraction_sold": 0.501205711243773,
+      "entry_time": "2026-09-11T00:21:16.002339+00:00",
+      "exit_time": "2026-09-11T00:22:30.757557+00:00",
+      "entry_price_usd": 2.792105587432881e-06,
+      "exit_price_usd": 2.7779370484670843e-06,
+      "entry_sol_for_chunk": 0.02506,
+      "exit_sol_received": 0.025062,
+      "pnl_sol": 2e-06,
+      "pnl_pct": -0.51,
+      "exit_reason": "LLM: sell_all — kirk is flat (-0.5%) after 0h, bonding curve only $10, our share is 50% meaning thin liquidity makes any further move costly. With multiple fresh atte",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-11T00:21:16.002674+00:00",
+  "last_updated": "2026-09-11T00:22:30.757726+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.21,
-  "portfolio_value_usd": 925.86,
+  "last_sol_price_usd": 98.7,
+  "portfolio_value_usd": 921.12,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 23:53 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-10 23:55 UTC",
       "action": "buy",
@@ -51884,30 +51895,48 @@
       "action": "buy",
       "details": "[LLM] $kirk at $2.79211e-06, spent 0.05 SOL",
       "reason": "$kirk has 10M X views cited in desc — that's verified viral attention, not just a name. Mcap $2.8k with real attention signal = strongest narrative in slate. Risk: fresh launch (0.1min), bond 0%, thin liquidity — tight stop will protect."
+    },
+    {
+      "time": "2026-09-11 00:22 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $kirk at $2.77794e-06 | P&L: -0.5%",
+      "reason": "kirk is flat (-0.5%) after 0h, bonding curve only $10, our share is 50% meaning thin liquidity makes any further move costly. With multiple fresh attention-rich candidates live, rotating capital to a stronger narrative is the right play."
     }
   ],
   "trade_stats": {
-    "total": 3043,
-    "wins": 1425,
+    "total": 3044,
+    "wins": 1426,
     "losses": 1618,
     "win_rate_pct": 46.8,
-    "total_pnl_sol": 5.066163,
-    "avg_pnl_pct": 28.23,
+    "total_pnl_sol": 5.066165,
+    "avg_pnl_pct": 28.22,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 10,
-    "today_realized_sol": -0.02108,
+    "today_trades": 11,
+    "today_realized_sol": -0.021078,
     "today_target_pct": -5.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1425,
+      "win_count": 1426,
       "loss_count": 1618,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T00:21:14.591271+00:00",
+  "last_llm_brief_at": "2026-09-11T00:22:30.757478+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GRhTsA3deEF9SGBroDVVrjg2D87iJPc2bjaa1okKpump": {
+      "price_usd": 2.7779370484670843e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 9.8468535669,
+      "volume_h24": 9.86,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.099765487
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
