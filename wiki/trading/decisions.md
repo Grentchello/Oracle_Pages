@@ -20923,3 +20923,6 @@
 ## [2026-09-11 00:06 UTC] buy | [LLM] $MOONDENG at $0.000106929, spent 0.05 SOL
 - **Reasoning:** $MOONDENG — 0.3min old (freshest), mc $3.9k, bond only 7% (very early in curve = max upside), twitter attached. Fresh-launch momentum play. Position 0.05 SOL.
 
+## [2026-09-11 00:07 UTC] sell | [FULL][LLM] $MOONDENG at $9.18698e-05 | P&L: -14.1%
+- **Reasoning:** Down -14.1% on a bonding-curve token with no description, no twitter, and pool=$0. The ⚠ HUGE share flag confirms the position sizing is broken. No narrative to hold for — cut and rotate capital.
+
