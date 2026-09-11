@@ -20917,3 +20917,9 @@
 ## [2026-09-11 00:04 UTC] buy | [LLM] $SB at $3.35287e-06, spent 0.05 SOL
 - **Reasoning:** $SB (Stock Back on Robinhood Chain) has verified Twitter @StockBackfam, real narrative riding the Robinhood chain attention wave, $3.3k mcap with room to run.
 
+## [2026-09-11 00:05 UTC] sell | [rapid-drop] $SB crashed >15% in one tick | P&L: -17.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-11 00:06 UTC] buy | [LLM] $MOONDENG at $0.000106929, spent 0.05 SOL
+- **Reasoning:** $MOONDENG — 0.3min old (freshest), mc $3.9k, bond only 7% (very early in curve = max upside), twitter attached. Fresh-launch momentum play. Position 0.05 SOL.
+
