@@ -20953,3 +20953,9 @@
 ## [2026-09-11 00:22 UTC] sell | [PARTIAL][LLM] $kirk at $2.77794e-06 | P&L: -0.5%
 - **Reasoning:** kirk is flat (-0.5%) after 0h, bonding curve only $10, our share is 50% meaning thin liquidity makes any further move costly. With multiple fresh attention-rich candidates live, rotating capital to a stronger narrative is the right play.
 
+## [2026-09-11 00:23 UTC] sell | [FULL][LLM] $kirk at $2.77934e-06 | P&L: -0.5%
+- **Reasoning:** Held $kirk is flat at -0.5% after opening, $10 pool liquidity is razor-thin and 25% share means I'd be the exit liquidity. No momentum, no viral story I can identify, just bond-curve noise — freeing the slot for a better candidate with attention signals.
+
+## [2026-09-11 00:23 UTC] buy | [LLM] $HOTLINE at $5.475e-06, spent 0.05 SOL
+- **Reasoning:** $HOTLINE has a clear meta-narrative (Pump Fun Mental Health Hotline for trading victims), PFMentalHealth twitter, and 50+ char description — passes viability gate. Meta-ironic memecoins about trading pain have attention tailwind right now.
+
