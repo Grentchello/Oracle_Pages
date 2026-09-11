@@ -20989,3 +20989,9 @@
 ## [2026-09-11 00:38 UTC] buy | [LLM] $LTC at $5.767e-06, spent 0.05 SOL
 - **Reasoning:** $LTC (Lil Titty Coin) has the strongest attention signal in the batch: explicit shock-jock name, continuity narrative off the $BTC (Big Titty Coin) meme, bond curve already at 30% (highest in slate, fastest traction), and a live X driver. Viability gate passes (desc >50 chars + twitter). Name alone is the buy signal in attention markets — this is exactly that. Risk: extreme name could draw fragility flag from GMGN's real-time ME2F check; if rejected by bot, fall back to $Insider which has twitter + a vague-but-clickable name.
 
+## [2026-09-11 00:40 UTC] sell | [FULL][LLM] $LTC at $6.9993e-06 | P&L: +21.4%
+- **Reasoning:** Up +21% in 0 min on bonding curve with our share=0% — classic thin-liquidity pump with no real exit depth. Locking the gain before it fades back to curve baseline. Liquidity is only $1.7k and our 0% share signals we have no priority in the queue.
+
+## [2026-09-11 00:40 UTC] buy | [LLM] $HAMSTER at $3.174e-06, spent 0.05 SOL
+- **Reasoning:** $HAMSTER has the strongest attention signal of the batch — 'SMALL BRAIN. BIG DEGEN.' tagline hits the degen identity, twitter @DegenHamsterSOL gives viral surface area, and animal mascots with personality historically pump on Solana. 0.05 SOL size (~$5) keeps loss bounded if it rugs.
+
