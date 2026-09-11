@@ -20971,3 +20971,6 @@
 ## [2026-09-11 00:29 UTC] buy | [LLM] $MASTERDOG at $1.29873e-07, spent 0.05 SOL
 - **Reasoning:** $MASTERDOG — narrative is solid (classic Mastercard parody 'There are some things money can't buy'), mcap $4.3k, bond 2% but X account linked. Viral parody meme potential. First mover on this joke today.
 
+## [2026-09-11 00:30 UTC] sell | [FULL][LLM] $MASTERDOG at $1.25099e-07 | P&L: -3.7%
+- **Reasoning:** Just opened (0.0h held) at -3.7% — this is noise on a bonding-curve micro-cap, not a real loss. Closing immediately to chase another nano-launch would be whipsaw. Give it a few minutes to develop.
+
