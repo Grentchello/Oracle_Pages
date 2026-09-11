@@ -21091,3 +21091,6 @@
 ## [2026-09-11 01:27 UTC] buy | [LLM] $RP at $3.166e-06, spent 0.05 SOL
 - **Reasoning:** $RP (RobinPet) has a clear cross-chain narrative piggybacking on Robinhood's brand and a real twitter handle. Bonding only 6% means early entry. Mcap $3.1k is prime for attention-driven 5-10x if the tweet gains traction.
 
+## [2026-09-11 01:28 UTC] sell | [FULL][LLM] $RP at $2.7822e-06 | P&L: -12.1%
+- **Reasoning:** Just entered (0.0h held), down only -12.1%, still well above -25% hard stop. Bonding-curve token with huge share % is normal for early entries. Give it a few minutes to develop before rotating capital.
+
