@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.282088,
+  "balance_sol": 9.332352,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8zES3Z5Tia2zzdidZZmPj4FyNiDrRt2UZgsWWmcupump": {
-      "symbol": "WCAT",
-      "name": "World CAT",
-      "amount": 1774348.9118801286,
-      "entry_price_usd": 2.803e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-11T00:18:23.567641+00:00",
-      "entry_usd_value": 4.9735000000000005,
-      "last_seen_price_usd": 2.803e-06,
-      "entry_signals": {
-        "liquidity_usd": 19.64937969561,
-        "volume_24h_usd": 19.55,
-        "market_cap_usd": 2804.2291528577275,
-        "ath_market_cap_usd": 2804.2291528577275,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.197540763,
-        "description": "",
-        "twitter": "https://x.com/CryptoIqr/status/2098203956790878505",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51741,19 +51717,30 @@
       "pnl_pct": -56.25,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "8zES3Z5Tia2zzdidZZmPj4FyNiDrRt2UZgsWWmcupump",
+      "symbol": "WCAT",
+      "name": "World CAT",
+      "amount_sold": 1774348.9118801286,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-11T00:18:23.567641+00:00",
+      "exit_time": "2026-09-11T00:19:38.445012+00:00",
+      "entry_price_usd": 2.803e-06,
+      "exit_price_usd": 2.8138589668261768e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050264,
+      "pnl_sol": 0.000264,
+      "pnl_pct": 0.39,
+      "exit_reason": "LLM: sell_all — Just entered at +0.4% with 25% pool share on a $20 bonding curve — exiting now would crater price and crystallize a loss. Need to give it a few minute",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-11T00:18:23.567823+00:00",
+  "last_updated": "2026-09-11T00:19:38.445235+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.47,
-  "portfolio_value_usd": 928.26,
+  "last_sol_price_usd": 99.33,
+  "portfolio_value_usd": 926.98,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 23:52 UTC",
-      "action": "buy",
-      "details": "[LLM] $NUTS at $5.07442e-06, spent 0.05 SOL",
-      "reason": "Strongest narrative of the batch — 'Mafia Nuts' is a memorable, viral-style name with a real X post attached. $5k mcap is genuinely early (not top-runners extracted), bonding 21% shows organic buy pressure. Thin liquidity means I size small (0.05 SOL) and accept the rug risk."
-    },
     {
       "time": "2026-09-10 23:53 UTC",
       "action": "sell",
@@ -51867,30 +51854,48 @@
       "action": "buy",
       "details": "[LLM] $WCAT at $2.803e-06, spent 0.05 SOL",
       "reason": "$WCAT (World CAT) — clean cat-narrative memecoin, fresh launch, twitter handle CryptoIqr posting. Cat meta is perennial attention. $2.8k mcap with 1% bond means very early entry — asymmetric upside if narrative catches. Passes viability (twitter present). Risk: brand-new, thin liquidity — sizing at 0.05 SOL keeps loss bounded."
+    },
+    {
+      "time": "2026-09-11 00:19 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WCAT at $2.81386e-06 | P&L: +0.4%",
+      "reason": "Just entered at +0.4% with 25% pool share on a $20 bonding curve — exiting now would crater price and crystallize a loss. Need to give it a few minutes for more buyers to enter the pool, or let the 30-min stale bot rule handle the exit if no momentum develops."
     }
   ],
   "trade_stats": {
-    "total": 3042,
-    "wins": 1424,
+    "total": 3043,
+    "wins": 1425,
     "losses": 1618,
     "win_rate_pct": 46.8,
-    "total_pnl_sol": 5.065899,
-    "avg_pnl_pct": 28.24,
+    "total_pnl_sol": 5.066163,
+    "avg_pnl_pct": 28.23,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 9,
-    "today_realized_sol": -0.021344,
+    "today_trades": 10,
+    "today_realized_sol": -0.02108,
     "today_target_pct": -5.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1424,
+      "win_count": 1425,
       "loss_count": 1618,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T00:18:21.943238+00:00",
+  "last_llm_brief_at": "2026-09-11T00:19:38.444866+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8zES3Z5Tia2zzdidZZmPj4FyNiDrRt2UZgsWWmcupump": {
+      "price_usd": 2.8138589668261768e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 19.62074072112,
+      "volume_h24": 19.55,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.197530864
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
