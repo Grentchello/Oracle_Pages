@@ -20974,3 +20974,6 @@
 ## [2026-09-11 00:30 UTC] sell | [FULL][LLM] $MASTERDOG at $1.25099e-07 | P&L: -3.7%
 - **Reasoning:** Just opened (0.0h held) at -3.7% — this is noise on a bonding-curve micro-cap, not a real loss. Closing immediately to chase another nano-launch would be whipsaw. Give it a few minutes to develop.
 
+## [2026-09-11 00:32 UTC] buy | [LLM] $KIRK at $3.149e-06, spent 0.05 SOL
+- **Reasoning:** $KIRK 'Kirkversary' — narrative tribute token for Charlie Kirk. Strong attention hook with martyr-style framing, mcap only $3k, bond still open for entry. Fresh launch with a clear story is exactly the attention-market play. Sizing 0.1 SOL.
+
