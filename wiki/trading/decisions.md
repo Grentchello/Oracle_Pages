@@ -21079,3 +21079,6 @@
 ## [2026-09-11 01:23 UTC] sell | [PARTIAL][LLM] $NF at $2.78866e-06 | P&L: -0.5%
 - **Reasoning:** $NF is at -0.5% breakeven after <1min, no narrative, pool only $10 (fails 5x liquidity rule), 50% share in that tiny pool makes exit ugly. Free up the slot for a stronger narrative pick.
 
+## [2026-09-11 01:24 UTC] sell | [FULL][LLM] $NF at $2.78832e-06 | P&L: -0.5%
+- **Reasoning:** $NF is flat (-0.5%) on a tiny $10 pool with 25% of supply — this is illiquid and likely a rug-in-progress. Even small sell pressure will crater it. Exit now, free the slot.
+

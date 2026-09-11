@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.232524,
+  "balance_sol": 9.257277,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2CRLop19D14NnJ7KZEhcLRuNK3MdkAUxLNswSBacpump": {
-      "symbol": "NF",
-      "name": "Never Forget",
-      "amount": 879518.6939295164,
-      "entry_price_usd": 2.8034089048255e-06,
-      "entry_sol_spent": 0.024753042249999996,
-      "entry_time": "2026-09-11T01:21:47.031440+00:00",
-      "entry_usd_value": 4.9805,
-      "last_seen_price_usd": 2.7886615273922245e-06,
-      "entry_signals": {
-        "liquidity_usd": 9.86260215409,
-        "volume_24h_usd": null,
-        "market_cap_usd": 2796.5360200673113,
-        "ath_market_cap_usd": 2796.5360200673113,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.099012169,
-        "description": "09.11.01 🇺🇸 Not a trend. Not a joke. A date that changed history. We remember. We honor. We never forget.",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52149,19 +52125,30 @@
       "pnl_pct": -0.53,
       "exit_reason": "LLM: sell_all — $NF is at -0.5% breakeven after <1min, no narrative, pool only $10 (fails 5x liquidity rule), 50% share in that tiny pool makes exit ugly. Free up the",
       "partial": true
+    },
+    {
+      "mint": "2CRLop19D14NnJ7KZEhcLRuNK3MdkAUxLNswSBacpump",
+      "symbol": "NF",
+      "name": "Never Forget",
+      "amount_sold": 879518.6939295164,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-11T01:21:47.031440+00:00",
+      "exit_time": "2026-09-11T01:24:23.849224+00:00",
+      "entry_price_usd": 2.8034089048255e-06,
+      "exit_price_usd": 2.7883238011914624e-06,
+      "entry_sol_for_chunk": 0.024753,
+      "exit_sol_received": 0.024753,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.54,
+      "exit_reason": "LLM: sell_all — $NF is flat (-0.5%) on a tiny $10 pool with 25% of supply — this is illiquid and likely a rug-in-progress. Even small sell pressure will crater it. Ex",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-11T01:23:06.919641+00:00",
+  "last_updated": "2026-09-11T01:24:24.869564+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.086,
-  "portfolio_value_usd": 917.28,
+  "last_sol_price_usd": 99.074,
+  "portfolio_value_usd": 917.16,
   "recent_decisions": [
-    {
-      "time": "2026-09-11 00:59 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $슈바오 crashed >15% in one tick | P&L: -61.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-11 00:59 UTC",
       "action": "buy",
@@ -52275,35 +52262,41 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $NF at $2.78866e-06 | P&L: -0.5%",
       "reason": "$NF is at -0.5% breakeven after <1min, no narrative, pool only $10 (fails 5x liquidity rule), 50% share in that tiny pool makes exit ugly. Free up the slot for a stronger narrative pick."
+    },
+    {
+      "time": "2026-09-11 01:24 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $NF at $2.78832e-06 | P&L: -0.5%",
+      "reason": "$NF is flat (-0.5%) on a tiny $10 pool with 25% of supply — this is illiquid and likely a rug-in-progress. Even small sell pressure will crater it. Exit now, free the slot."
     }
   ],
   "trade_stats": {
-    "total": 3066,
+    "total": 3067,
     "wins": 1433,
-    "losses": 1633,
+    "losses": 1634,
     "win_rate_pct": 46.7,
     "total_pnl_sol": 4.991089,
-    "avg_pnl_pct": 27.99,
+    "avg_pnl_pct": 27.98,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 33,
+    "today_trades": 34,
     "today_realized_sol": -0.096154,
     "today_target_pct": -24.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1433,
-      "loss_count": 1633,
+      "loss_count": 1634,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T01:23:06.913707+00:00",
+  "last_llm_brief_at": "2026-09-11T01:24:23.848894+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "2CRLop19D14NnJ7KZEhcLRuNK3MdkAUxLNswSBacpump": {
-      "price_usd": 2.7886615273922245e-06,
+      "price_usd": 2.7883238011914624e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 9.810719777533999,
+      "liquidity_usd": 9.809531631506,
       "volume_h24": 9.84,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
