@@ -20962,3 +20962,6 @@
 ## [2026-09-11 00:25 UTC] sell | [rapid-drop] $HOTLINE crashed >15% in one tick | P&L: -18.9%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-11 00:27 UTC] buy | [LLM] $TEDDY at $2.47237e-06, spent 0.05 SOL
+- **Reasoning:** $TEDDY has a real twitter link to a specific tweet (attention signal), a concrete narrative (Teddy Holding LLC), and bond=8% suggesting organic early buy-in. ~0.3min old — fresh attention, ride the wave. Risk: very early, could be a slow burn or rug.
+

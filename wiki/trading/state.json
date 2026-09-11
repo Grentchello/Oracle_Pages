@@ -1,8 +1,32 @@
 {
-  "balance_sol": 9.32269,
+  "balance_sol": 9.27269,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "CGqxvnQXt4oBqZ32bvLZLSSDpCeGCsYQvzebCLwGpump": {
+      "symbol": "TEDDY",
+      "name": "Teddy Holding LLC",
+      "amount": 1998484.6260886174,
+      "entry_price_usd": 2.472373284987635e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-11T00:27:58.067153+00:00",
+      "entry_usd_value": 4.941,
+      "last_seen_price_usd": 2.472373284987635e-06,
+      "entry_signals": {
+        "liquidity_usd": 948.91541302872,
+        "volume_24h_usd": null,
+        "market_cap_usd": 5349.244085016026,
+        "ath_market_cap_usd": 7770.208955849184,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 9.602463196,
+        "description": "",
+        "twitter": "https://x.com/_CO_RY_/status/2098205371622125690",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51787,17 +51811,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-11T00:26:39.093945+00:00",
+  "last_updated": "2026-09-11T00:27:58.067322+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.35,
-  "portfolio_value_usd": 926.21,
+  "last_sol_price_usd": 98.82,
+  "portfolio_value_usd": 921.27,
   "recent_decisions": [
-    {
-      "time": "2026-09-11 00:00 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $RISE at $7.72933e-06 | P&L: +23.1%",
-      "reason": "Up +23.1% on thin $1993 pool, bonding curve only 9% complete, narrative unclear. Lock half the gain before bot auto-TP at 25% fires or a pullback hits; let the rest ride for a potential breakout."
-    },
     {
       "time": "2026-09-11 00:02 UTC",
       "action": "sell",
@@ -51911,6 +51929,12 @@
       "action": "sell",
       "details": "[rapid-drop] $HOTLINE crashed >15% in one tick | P&L: -18.9%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-11 00:27 UTC",
+      "action": "buy",
+      "details": "[LLM] $TEDDY at $2.47237e-06, spent 0.05 SOL",
+      "reason": "$TEDDY has a real twitter link to a specific tweet (attention signal), a concrete narrative (Teddy Holding LLC), and bond=8% suggesting organic early buy-in. ~0.3min old — fresh attention, ride the wave. Risk: very early, could be a slow burn or rug."
     }
   ],
   "trade_stats": {
@@ -51932,7 +51956,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T00:26:39.093897+00:00",
+  "last_llm_brief_at": "2026-09-11T00:27:56.772050+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
