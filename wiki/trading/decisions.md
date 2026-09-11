@@ -21052,3 +21052,9 @@
 ## [2026-09-11 01:14 UTC] buy | [LLM] $quANT at $5.1e-06, spent 0.05 SOL
 - **Reasoning:** $quANT has the highest mcap ($5.1k) and bond completion (21%) in this batch — quantum/quant finance meme has narrative legs in current AI/crypto crossover meta, and 1.2min age means we're early.
 
+## [2026-09-11 01:15 UTC] sell | [FULL][LLM] $quANT at $5.05468e-06 | P&L: -0.9%
+- **Reasoning:** Position data is contradictory (prompt -0.9% vs dex +112% m5) and pool is only $1037 — too thin to trust. Better to rotate the 0.05 SOL into a fresher, stronger-narrative launch than babysit a micro-cap bonding-curve bag.
+
+## [2026-09-11 01:15 UTC] buy | [LLM] $H2E at $3.30036e-06, spent 0.05 SOL
+- **Reasoning:** $H2E passes viability gate (real 50+ char description + twitter), clear narrative as a Solana launchpad with holder fee-share utility, $3.3k mcap = very early asymmetric entry. Not on fragility blocklist. Best risk/reward of the batch.
+
