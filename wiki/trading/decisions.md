@@ -20932,3 +20932,9 @@
 ## [2026-09-11 00:13 UTC] sell | [PARTIAL][LLM] $Riley at $6.92275e-06 | P&L: +21.3%
 - **Reasoning:** Up +21.3% on a 0.0h hold with $1723 pool liquidity — just crossed the +20% 'take profit on any doubt' threshold. Lock half the gain, let half ride if narrative continues. Aggressive profit-taking per scalp discipline.
 
+## [2026-09-11 00:15 UTC] sell | [FULL][LLM] $Riley at $6.38266e-06 | P&L: +11.9%
+- **Reasoning:** Riley is +11.9% but pool is razor-thin ($539) and 0.0h held. The 'profit-taking be aggressive' rule says lock gains above +15% when uncertain. Thin liquidity on a bonding-curve microcap can wipe a +11% gain in seconds. Take the green.
+
+## [2026-09-11 00:15 UTC] buy | [LLM] $MOLLY at $6.60046e-06, spent 0.05 SOL
+- **Reasoning:** $MOLLY 'QUEEN MOLLY' is the top-bonding (26%) Stephen King tweet variant with $6.6k mcap. Stephen King X posts rarely trend on-chain — when they do it's real attention. Best risk/reward of the MOLLY cluster. Narrative: horror IP x memecoin. Risk: thin liquidity, early death possible.
+
