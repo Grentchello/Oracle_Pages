@@ -593,6 +593,7 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         candidates_filtered.append(c)
     if filtered_count > 0:
         log(f"v8.8: filtered {filtered_count}/{pre_filter_count} candidates (already pumped)")
+    candidates = candidates_filtered  # FIX: persist v8.8 filter
     
     # v9.0 LIQUIDITY FLOOR: Skip tokens with no real liquidity (bonding curve only or tiny pools)
     # Without this, bot is buying tokens with $0-$100 pool liquidity and "selling" to itself.
@@ -623,6 +624,7 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         candidates_liq.append(c)
     if liq_filtered > 0:
         log(f"v9.0: filtered {liq_filtered}/{pre_filter_count} candidates (illiquid/bonding-curve)")
+    candidates = candidates_liq  # FIX: persist v9.0 filter
     
     # v8.9 AGE FILTER: Skip tokens less than 1 min old (still in initial pump/dump phase)
     # Data shows most rapid-drop losses are tokens that just launched
@@ -637,6 +639,7 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         candidates_age.append(c)
     if age_filtered > 0:
         log(f"v8.9: filtered {age_filtered} candidates (too young <1min)")
+    candidates = candidates_age  # FIX: persist v8.9 age filter
     
     # v8.9 MOMENTUM FILTER: Skip tokens showing immediate sell pressure
     # If change_1h is significantly negative, OR change_24h < -20%, skip
