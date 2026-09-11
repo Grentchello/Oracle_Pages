@@ -20926,3 +20926,6 @@
 ## [2026-09-11 00:07 UTC] sell | [FULL][LLM] $MOONDENG at $9.18698e-05 | P&L: -14.1%
 - **Reasoning:** Down -14.1% on a bonding-curve token with no description, no twitter, and pool=$0. The ⚠ HUGE share flag confirms the position sizing is broken. No narrative to hold for — cut and rotate capital.
 
+## [2026-09-11 00:11 UTC] buy | [LLM] $Riley at $5.706e-06, spent 0.05 SOL
+- **Reasoning:** $Riley (Riley the Rescue Dog) tied to COD Slayer — a streamer with a built-in audience. Wholesome rescue dog narrative is viral-friendly. Highest mcap ($6.7k) and bond (26%) of the fresh batch signals strongest organic traction. Risks: still pre-bonding, streamer-driven coins can dump when streamer goes offline, but the attention signal is the clearest in this batch.
+
