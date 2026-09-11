@@ -20986,3 +20986,6 @@
 ## [2026-09-11 00:35 UTC] sell | [FULL][LLM] $Death Coin at $2.76895e-06 | P&L: -4.1%
 - **Reasoning:** Position is only -4.1% and just opened (0.0h held). Pool=$0 is concerning but bonding-curve tokens need time to migrate. No clear exit signal yet - give it a few more minutes before considering stale exit.
 
+## [2026-09-11 00:38 UTC] buy | [LLM] $LTC at $5.767e-06, spent 0.05 SOL
+- **Reasoning:** $LTC (Lil Titty Coin) has the strongest attention signal in the batch: explicit shock-jock name, continuity narrative off the $BTC (Big Titty Coin) meme, bond curve already at 30% (highest in slate, fastest traction), and a live X driver. Viability gate passes (desc >50 chars + twitter). Name alone is the buy signal in attention markets — this is exactly that. Risk: extreme name could draw fragility flag from GMGN's real-time ME2F check; if rejected by bot, fall back to $Insider which has twitter + a vague-but-clickable name.
+
