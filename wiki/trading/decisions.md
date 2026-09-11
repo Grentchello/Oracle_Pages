@@ -21097,3 +21097,9 @@
 ## [2026-09-11 01:30 UTC] buy | [LLM] $Eugene at $7.6202e-06, spent 0.05 SOL
 - **Reasoning:** Eugene the Frog Cat — fresh 0.3min, $7.5k mcap, bond already 28% (7x the rest of batch), hybrid frog-cat narrative + Twitter from @Vibez__Crypto. Fastest signal in slate; risk is ultra-low mcap but that's where the multiple lives.
 
+## [2026-09-11 01:31 UTC] sell | [FULL][LLM] $Eugene at $8.22855e-06 | P&L: +8.0%
+- **Reasoning:** $Eugene at +8% with $2150 pool (slippage risk), no clear narrative beyond a generic name. Locking the small gain to free the slot for a stronger narrative play from the new launches.
+
+## [2026-09-11 01:31 UTC] buy | [LLM] $Kirkscan at $3.11e-06, spent 0.05 SOL
+- **Reasoning:** $Kirkscan riding the Kirk meta (recurring attention theme), has dedicated twitter @kirkscansol, 1min old with $3k mcap. Risk: competing $KirkScan token may split attention, and memecoin meta-narratives fade fast — scalp target +30-50%.
+
