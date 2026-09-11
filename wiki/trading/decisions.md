@@ -20938,3 +20938,6 @@
 ## [2026-09-11 00:15 UTC] buy | [LLM] $MOLLY at $6.60046e-06, spent 0.05 SOL
 - **Reasoning:** $MOLLY 'QUEEN MOLLY' is the top-bonding (26%) Stephen King tweet variant with $6.6k mcap. Stephen King X posts rarely trend on-chain — when they do it's real attention. Best risk/reward of the MOLLY cluster. Narrative: horror IP x memecoin. Risk: thin liquidity, early death possible.
 
+## [2026-09-11 00:16 UTC] sell | [rapid-drop] $MOLLY crashed >15% in one tick | P&L: -56.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

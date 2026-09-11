@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.310169,
+  "balance_sol": 9.332088,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3mmRBPtEurB7NUGpXK3EkrtbZdBML1t7ykiNdmREpump": {
-      "symbol": "MOLLY",
-      "name": "QUEEN MOLLY",
-      "amount": 751462.8524942799,
-      "entry_price_usd": 6.600459335463634e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-11T00:15:08.895212+00:00",
-      "entry_usd_value": 4.960000000000001,
-      "last_seen_price_usd": 6.600459335463634e-06,
-      "entry_signals": {
-        "liquidity_usd": 144.0086367264,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6598.191253469504,
-        "ath_market_cap_usd": 7726.279666898643,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.451699967,
-        "description": "",
-        "twitter": "https://x.com/StephenKing/status/2098203246070300704",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -51724,19 +51700,30 @@
       "pnl_pct": 11.86,
       "exit_reason": "LLM: sell_all — Riley is +11.9% but pool is razor-thin ($539) and 0.0h held. The 'profit-taking be aggressive' rule says lock gains above +15% when uncertain. Thin li",
       "partial": false
+    },
+    {
+      "mint": "3mmRBPtEurB7NUGpXK3EkrtbZdBML1t7ykiNdmREpump",
+      "symbol": "MOLLY",
+      "name": "QUEEN MOLLY",
+      "amount_sold": 751462.8524942799,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-11T00:15:08.895212+00:00",
+      "exit_time": "2026-09-11T00:16:12.836307+00:00",
+      "entry_price_usd": 6.600459335463634e-06,
+      "exit_price_usd": 2.8879220048848743e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.021919,
+      "pnl_sol": -0.028081,
+      "pnl_pct": -56.25,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-11T00:15:08.895630+00:00",
+  "last_updated": "2026-09-11T00:16:50.539744+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.2,
-  "portfolio_value_usd": 928.53,
+  "last_sol_price_usd": 99.0086,
+  "portfolio_value_usd": 923.96,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 23:50 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $APPLESS at $1.4267e-07 | P&L: -14.8%",
-      "reason": "Our 45% pool share means we are the market — any other seller will crush price, and -14.8% is 10% from the -25% hard cap. Cutting now while there's still a bid is the rational exit; hope is not a strategy on a thin bonding curve where we own nearly half the float."
-    },
     {
       "time": "2026-09-10 23:52 UTC",
       "action": "sell",
@@ -51850,40 +51837,46 @@
       "action": "buy",
       "details": "[LLM] $MOLLY at $6.60046e-06, spent 0.05 SOL",
       "reason": "$MOLLY 'QUEEN MOLLY' is the top-bonding (26%) Stephen King tweet variant with $6.6k mcap. Stephen King X posts rarely trend on-chain — when they do it's real attention. Best risk/reward of the MOLLY cluster. Narrative: horror IP x memecoin. Risk: thin liquidity, early death possible."
+    },
+    {
+      "time": "2026-09-11 00:16 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $MOLLY crashed >15% in one tick | P&L: -56.2%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3041,
+    "total": 3042,
     "wins": 1424,
-    "losses": 1617,
+    "losses": 1618,
     "win_rate_pct": 46.8,
-    "total_pnl_sol": 5.09398,
-    "avg_pnl_pct": 28.27,
+    "total_pnl_sol": 5.065899,
+    "avg_pnl_pct": 28.24,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 8,
-    "today_realized_sol": 0.006737,
-    "today_target_pct": 1.7,
+    "today_trades": 9,
+    "today_realized_sol": -0.021344,
+    "today_target_pct": -5.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1424,
-      "loss_count": 1617,
+      "loss_count": 1618,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T00:15:07.551172+00:00",
+  "last_llm_brief_at": "2026-09-11T00:16:49.275621+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "3twdUULGxL78rfshdr3iWQL94bgyzPF4HwABcKZypump": {
-      "price_usd": 6.38266160255738e-06,
+    "3mmRBPtEurB7NUGpXK3EkrtbZdBML1t7ykiNdmREpump": {
+      "price_usd": 2.8879220048848743e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1538.5787725728,
-      "volume_h24": 21119.59,
+      "liquidity_usd": 63.561080142967,
+      "volume_h24": 8267.83,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 15.509866659
+      "real_sol_reserves": 0.641975345
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
