@@ -1,17 +1,17 @@
 {
-  "balance_sol": 9.334237,
+  "balance_sol": 9.350194,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "9PNASJ9MNtNdtqaoMrpMmHXbJcC2pYoHeQFqRantpump": {
       "symbol": "RISE",
       "name": "RISE",
-      "amount": 394246.40741547965,
+      "amount": 197123.20370773983,
       "entry_price_usd": 6.276531512923158e-06,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0125,
       "entry_time": "2026-09-10T23:59:16.536651+00:00",
       "entry_usd_value": 4.949000000000001,
-      "last_seen_price_usd": 7.72932947625941e-06,
+      "last_seen_price_usd": 8.026279914300805e-06,
       "entry_signals": {
         "liquidity_usd": 1502.52045600244,
         "volume_24h_usd": null,
@@ -51605,19 +51605,30 @@
       "pnl_pct": 23.15,
       "exit_reason": "LLM: sell_half — Up +23.1% on thin $1993 pool, bonding curve only 9% complete, narrative unclear. Lock half the gain before bot auto-TP at 25% fires or a pullback hits",
       "partial": true
+    },
+    {
+      "mint": "9PNASJ9MNtNdtqaoMrpMmHXbJcC2pYoHeQFqRantpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 197123.20370773983,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-10T23:59:16.536651+00:00",
+      "exit_time": "2026-09-11T00:02:05.840146+00:00",
+      "entry_price_usd": 6.276531512923158e-06,
+      "exit_price_usd": 8.026279914300805e-06,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.015957,
+      "pnl_sol": 0.003457,
+      "pnl_pct": 27.88,
+      "exit_reason": "LLM: sell_half — Up +27.9% on a fresh entry but liquidity is only $2,087 and bonding-curve with 0% share. Take half profit to lock gains and free capital for the fresh",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-11T00:00:49.906778+00:00",
+  "last_updated": "2026-09-11T00:02:05.840376+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.92,
-  "portfolio_value_usd": 925.82,
+  "last_sol_price_usd": 99.15,
+  "portfolio_value_usd": 928.31,
   "recent_decisions": [
-    {
-      "time": "2026-09-10 23:37 UTC",
-      "action": "buy",
-      "details": "[LLM] $DELULU at $5.583e-06, spent 0.05 SOL",
-      "reason": "$DELULU 'Delusional Coin' — strong ironic Gen-Z narrative ('delulu is the solulu'), active twitter posting, sub-$6k mcap at 0.9min age is textbook early-launch attention play. Highest narrative virality in the batch."
-    },
     {
       "time": "2026-09-10 23:39 UTC",
       "action": "sell",
@@ -51731,40 +51742,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $RISE at $7.72933e-06 | P&L: +23.1%",
       "reason": "Up +23.1% on thin $1993 pool, bonding curve only 9% complete, narrative unclear. Lock half the gain before bot auto-TP at 25% fires or a pullback hits; let the rest ride for a potential breakout."
+    },
+    {
+      "time": "2026-09-11 00:02 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RISE at $8.02628e-06 | P&L: +27.9%",
+      "reason": "Up +27.9% on a fresh entry but liquidity is only $2,087 and bonding-curve with 0% share. Take half profit to lock gains and free capital for the fresh-launch flow; let the other half ride if narrative develops."
     }
   ],
   "trade_stats": {
-    "total": 3034,
-    "wins": 1419,
+    "total": 3035,
+    "wins": 1420,
     "losses": 1615,
     "win_rate_pct": 46.8,
-    "total_pnl_sol": 5.093048,
+    "total_pnl_sol": 5.096505,
     "avg_pnl_pct": 28.3,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 1,
-    "today_realized_sol": 0.005805,
-    "today_target_pct": 1.5,
+    "today_trades": 2,
+    "today_realized_sol": 0.009262,
+    "today_target_pct": 2.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1419,
+      "win_count": 1420,
       "loss_count": 1615,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-11T00:00:49.905979+00:00",
+  "last_llm_brief_at": "2026-09-11T00:02:05.840111+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "9PNASJ9MNtNdtqaoMrpMmHXbJcC2pYoHeQFqRantpump": {
-      "price_usd": 7.72932947625941e-06,
+      "price_usd": 8.026279914300805e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1993.44826692392,
-      "volume_h24": 1742.82,
+      "liquidity_usd": 2086.8223565971502,
+      "volume_h24": 2136.11,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 20.152125626
+      "real_sol_reserves": 21.047124121
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

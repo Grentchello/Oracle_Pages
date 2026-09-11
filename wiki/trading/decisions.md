@@ -20905,3 +20905,6 @@
 ## [2026-09-11 00:00 UTC] sell | [PARTIAL][LLM] $RISE at $7.72933e-06 | P&L: +23.1%
 - **Reasoning:** Up +23.1% on thin $1993 pool, bonding curve only 9% complete, narrative unclear. Lock half the gain before bot auto-TP at 25% fires or a pullback hits; let the rest ride for a potential breakout.
 
+## [2026-09-11 00:02 UTC] sell | [PARTIAL][LLM] $RISE at $8.02628e-06 | P&L: +27.9%
+- **Reasoning:** Up +27.9% on a fresh entry but liquidity is only $2,087 and bonding-curve with 0% share. Take half profit to lock gains and free capital for the fresh-launch flow; let the other half ride if narrative develops.
+
