@@ -22546,3 +22546,6 @@
 ## [2026-09-12 05:44 UTC] sell | [PARTIAL][LLM] $CATPR at $2.83665e-06 | P&L: -10.9%
 - **Reasoning:** Down -10.9% after just opening, 1730% share of bonding curve means we're the dominant position and any further dump is amplified. Cut the loss now before the -25% hard cap.
 
+## [2026-09-12 05:46 UTC] sell | [FULL][LLM] $CATPR at $2.85252e-06 | P&L: -55.3%
+- **Reasoning:** Down only -10.4%, not at -20% sell threshold or 30min stale trigger. Holding for a bounce but watching closely — if it drops past -15% with no recovery, exit immediately. Bonding curve + massive share means thin liquidity to exit into.
+

@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.349711,
+  "balance_sol": 13.350032,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EGyhFAeaKWUaSZW1vKZzqTaew7zCLLZTUBzxuWo7pump": {
-      "symbol": "CATPR",
-      "name": "CATerpillar",
-      "amount": 23008.57585276405,
-      "entry_price_usd": 3.185e-06,
-      "entry_sol_spent": 0.0007225627498624876,
-      "entry_time": "2026-09-12T05:43:27.108248+00:00",
-      "entry_usd_value": 5.071000000000001,
-      "last_seen_price_usd": 2.8366469310250194e-06,
-      "entry_signals": {
-        "liquidity_usd": 51.52838211796001,
-        "volume_24h_usd": 793.45,
-        "market_cap_usd": 3037.1065509002,
-        "ath_market_cap_usd": 3407.5973756525277,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.508069238,
-        "description": "CATerpillar crawled onto Solana with nine lives, one hundred legs, and one powerful meow. 🐱🐛 Join the community and follow the crawl. Created for fun, memes, and entertainment. No connection to Caterpillar Inc",
-        "twitter": "https://x.com/CATerpillarC0in",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53237,19 +53213,30 @@
       "pnl_pct": -10.94,
       "exit_reason": "LLM: sell_all — Down -10.9% after just opening, 1730% share of bonding curve means we're the dominant position and any further dump is amplified. Cut the loss now bef",
       "partial": true
+    },
+    {
+      "mint": "EGyhFAeaKWUaSZW1vKZzqTaew7zCLLZTUBzxuWo7pump",
+      "symbol": "CATPR",
+      "name": "CATerpillar",
+      "amount_sold": 23008.280777764372,
+      "fraction_sold": 0.9999871754339962,
+      "entry_time": "2026-09-12T05:43:27.108248+00:00",
+      "exit_time": "2026-09-12T05:46:07.375109+00:00",
+      "entry_price_usd": 3.185e-06,
+      "exit_price_usd": 2.852516312550629e-06,
+      "entry_sol_for_chunk": 0.000723,
+      "exit_sol_received": 0.000321,
+      "pnl_sol": -0.000402,
+      "pnl_pct": -55.34,
+      "exit_reason": "LLM: sell_all — Down only -10.4%, not at -20% sell threshold or 30min stale trigger. Holding for a bounce but watching closely — if it drops past -15% with no recover",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T05:44:46.931402+00:00",
+  "last_updated": "2026-09-12T05:46:07.375279+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.44,
-  "portfolio_value_usd": 1354.27,
+  "last_sol_price_usd": 102.025,
+  "portfolio_value_usd": 1362.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 05:09 UTC",
-      "action": "buy",
-      "details": "[LLM] $Beluga  at $3.417e-06, spent 0.05 SOL",
-      "reason": "$Beluga is a true micro-launch at $3.4k mcap with bond only 8% complete — this is ground-floor curve territory where 10-50x moves originate. Clean animal meme narrative (no political/celebrity fragility flags), 1.1 min old so attention is fresh. Risk is thin liquidity but at $10 position size the downside is contained to learn whether micro-cap animal memes deliver the viral pump pattern."
-    },
     {
       "time": "2026-09-12 05:10 UTC",
       "action": "sell",
@@ -53363,40 +53350,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $CATPR at $2.83665e-06 | P&L: -10.9%",
       "reason": "Down -10.9% after just opening, 1730% share of bonding curve means we're the dominant position and any further dump is amplified. Cut the loss now before the -25% hard cap."
+    },
+    {
+      "time": "2026-09-12 05:46 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CATPR at $2.85252e-06 | P&L: -55.3%",
+      "reason": "Down only -10.4%, not at -20% sell threshold or 30min stale trigger. Holding for a bounce but watching closely — if it drops past -15% with no recovery, exit immediately. Bonding curve + massive share means thin liquidity to exit into."
     }
   ],
   "trade_stats": {
-    "total": 3130,
+    "total": 3131,
     "wins": 1463,
-    "losses": 1667,
+    "losses": 1668,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 9.134247,
-    "avg_pnl_pct": 30.04,
+    "total_pnl_sol": 9.133845,
+    "avg_pnl_pct": 30.01,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 57,
-    "today_realized_sol": 4.101151,
-    "today_target_pct": 1025.3,
+    "today_trades": 58,
+    "today_realized_sol": 4.100749,
+    "today_target_pct": 1025.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1463,
-      "loss_count": 1667,
+      "loss_count": 1668,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:44:46.930990+00:00",
+  "last_llm_brief_at": "2026-09-12T05:46:07.374990+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "EGyhFAeaKWUaSZW1vKZzqTaew7zCLLZTUBzxuWo7pump": {
-      "price_usd": 2.8366469310250194e-06,
+      "price_usd": 2.852516312550629e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.26106882432,
-      "volume_h24": 973.17,
+      "liquidity_usd": 3.366825e-06,
+      "volume_h24": 973.43,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.002573628
+      "real_sol_reserves": 3.3e-08
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
