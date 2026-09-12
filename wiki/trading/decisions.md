@@ -22828,3 +22828,6 @@
 ## [2026-09-12 08:21 UTC] sell | [rapid-drop] $foge crashed >15% in one tick | P&L: -61.8%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 08:22 UTC] buy | [LLM] $Xoge at $0.000528578, spent 0.05 SOL
+- **Reasoning:** $Xoge passes viability (has twitter) and fragility gates. Sub-1min launch at $4.4k mcap with an active X post — earliest attention signal of the three. 'Xoge' is a quirky, memeable name with no narrative clutter. High rug risk at this stage but that's the asymmetric bet: small position, fast exit if it doesn't pop in 5-10 min.
+

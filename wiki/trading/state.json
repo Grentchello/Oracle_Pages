@@ -1,8 +1,37 @@
 {
-  "balance_sol": 13.175641,
+  "balance_sol": 13.125641,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "DnED1GrFJh8UBHoMD3Ju9tVuSsFcDFy7FX7g8qt3pump": {
+      "symbol": "Xoge",
+      "name": "Xoge",
+      "mint": "DnED1GrFJh8UBHoMD3Ju9tVuSsFcDFy7FX7g8qt3pump",
+      "amount": 9605.0210243274,
+      "entry_price_usd": 0.0005285777081737854,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T08:22:37.907861+00:00",
+      "entry_time_iso": "2026-09-12T08:22:37.907869+00:00",
+      "entry_usd_value": 5.077000000000001,
+      "last_seen_price_usd": 0.0005285777081737854,
+      "entry_liquidity_usd": 36338.678948794906,
+      "entry_pool_sol": 357.875506685,
+      "entry_market_cap_usd": 4421.129159831658,
+      "entry_signals": {
+        "liquidity_usd": 36338.678948794906,
+        "volume_24h_usd": 0.0,
+        "market_cap_usd": 4421.129159831658,
+        "ath_market_cap_usd": 6848.730152069066,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 357.875506685,
+        "description": "",
+        "twitter": "https://x.com/Pr1ntrrr/status/2098688206564642883?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54258,17 +54287,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T08:21:16.879214+00:00",
+  "last_updated": "2026-09-12T08:22:37.908038+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.6,
-  "portfolio_value_usd": 1338.65,
+  "last_sol_price_usd": 101.54,
+  "portfolio_value_usd": 1337.85,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 07:34 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $Polarbear at $7.67268e-06 | P&L: +80.2%",
-      "reason": "Auto take-profit at +80.2%"
-    },
     {
       "time": "2026-09-12 07:43 UTC",
       "action": "observe",
@@ -54382,6 +54405,12 @@
       "action": "sell",
       "details": "[rapid-drop] $foge crashed >15% in one tick | P&L: -61.8%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-12 08:22 UTC",
+      "action": "buy",
+      "details": "[LLM] $Xoge at $0.000528578, spent 0.05 SOL",
+      "reason": "$Xoge passes viability (has twitter) and fragility gates. Sub-1min launch at $4.4k mcap with an active X post — earliest attention signal of the three. 'Xoge' is a quirky, memeable name with no narrative clutter. High rug risk at this stage but that's the asymmetric bet: small position, fast exit if it doesn't pop in 5-10 min."
     }
   ],
   "trade_stats": {
@@ -54403,21 +54432,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T08:21:16.879178+00:00",
+  "last_llm_brief_at": "2026-09-12T08:22:36.526172+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "2BQn5Sk6wmvQwn9L6qKPgtpK3gtVN5nr8RbVx2Cepump": {
-      "price_usd": 2.8765946215590807e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 19.2323461936,
-      "volume_h24": 16278.6,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.189294746
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
