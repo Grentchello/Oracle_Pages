@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.231875,
+  "balance_sol": 13.241724,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CpTF6Y6x7jWhss8rGtypZ8CfE4uv2EN4QtBnGXJheGgH": {
-      "symbol": "REVFART",
-      "name": "Revolve Fart",
-      "mint": "CpTF6Y6x7jWhss8rGtypZ8CfE4uv2EN4QtBnGXJheGgH",
-      "amount": 321338.0638621389,
-      "entry_price_usd": 3.946e-06,
-      "entry_sol_spent": 0.0125,
-      "entry_time": "2026-09-12T07:55:07.654917+00:00",
-      "entry_time_iso": "2026-09-12T07:55:07.654924+00:00",
-      "entry_usd_value": 5.072,
-      "last_seen_price_usd": 5.1474164020095326e-06,
-      "entry_liquidity_usd": 827.93532146816,
-      "entry_pool_sol": 8.161822964,
-      "entry_market_cap_usd": 4560.866637601491,
-      "entry_signals": {
-        "liquidity_usd": 827.93532146816,
-        "volume_24h_usd": 785.65,
-        "market_cap_usd": 4560.866637601491,
-        "ath_market_cap_usd": 4560.866637601491,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 8.161822964,
-        "description": "The first Ever Fart on Revolve $Revfart",
-        "twitter": "https://x.com/IO_Gambles/status/2098680607245234185",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54165,19 +54136,37 @@
       "exit_pool_sol": 12.7606,
       "hold_duration_seconds": 159.753272,
       "partial": true
+    },
+    {
+      "mint": "CpTF6Y6x7jWhss8rGtypZ8CfE4uv2EN4QtBnGXJheGgH",
+      "symbol": "REVFART",
+      "name": "Revolve Fart",
+      "amount_sold": 321338.0638621389,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T07:55:07.654917+00:00",
+      "entry_time_iso": "2026-09-12T07:55:07.654924+00:00",
+      "exit_time": "2026-09-12T07:58:51.065013+00:00",
+      "exit_time_iso": "2026-09-12T07:58:51.065023+00:00",
+      "entry_price_usd": 3.946e-06,
+      "exit_price_usd": 3.1122296939789224e-06,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.009849,
+      "pnl_sol": -0.002651,
+      "pnl_pct": -21.13,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 827.94,
+      "exit_liquidity_usd": 1051.05,
+      "entry_pool_sol": 8.1618,
+      "exit_pool_sol": 10.3041,
+      "hold_duration_seconds": 223.410117,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T07:57:47.408448+00:00",
+  "last_updated": "2026-09-12T07:58:59.863288+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.0028,
-  "portfolio_value_usd": 1350.96,
+  "last_sol_price_usd": 101.54,
+  "portfolio_value_usd": 1344.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 07:23 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $TOPCAT at $2.84483e-06 | P&L: -54.9%",
-      "reason": "Down 9.8% in <30min with 8M% pool share means the liquidity is microscopic relative to my position — I'm essentially trapped in a tiny pool. No narrative momentum, no bounce signal, generic name. Exit before the -25% hard stop forces an even worse fill."
-    },
     {
       "time": "2026-09-12 07:24 UTC",
       "action": "buy",
@@ -54291,40 +54280,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $REVFART at $5.14742e-06 | P&L: +30.4%",
       "reason": "Up +30.4% right at the first TP threshold — lock in gains. Bonding-curve token with thin $1051 pool, reversal risk is real. Take half, let the rest ride if narrative holds."
+    },
+    {
+      "time": "2026-09-12 07:58 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $REVFART crashed >15% in one tick | P&L: -21.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3174,
+    "total": 3175,
     "wins": 1482,
-    "losses": 1692,
+    "losses": 1693,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 9.028187,
-    "avg_pnl_pct": 29.53,
+    "total_pnl_sol": 9.025536,
+    "avg_pnl_pct": 29.52,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 101,
-    "today_realized_sol": 3.995091,
-    "today_target_pct": 998.8,
+    "today_trades": 102,
+    "today_realized_sol": 3.99244,
+    "today_target_pct": 998.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1482,
-      "loss_count": 1692,
+      "loss_count": 1693,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T07:57:47.408133+00:00",
+  "last_llm_brief_at": "2026-09-12T07:58:59.863254+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "CpTF6Y6x7jWhss8rGtypZ8CfE4uv2EN4QtBnGXJheGgH": {
-      "price_usd": 5.1474164020095326e-06,
+      "price_usd": 3.1122296939789224e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1051.0457772610223,
-      "volume_h24": 3590.79,
+      "liquidity_usd": 143.24332545284003,
+      "volume_h24": 4259.69,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 10.304087508
+      "real_sol_reserves": 1.410708346
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

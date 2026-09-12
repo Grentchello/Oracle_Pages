@@ -22801,3 +22801,6 @@
 ## [2026-09-12 07:57 UTC] sell | [PARTIAL][LLM] $REVFART at $5.14742e-06 | P&L: +30.4%
 - **Reasoning:** Up +30.4% right at the first TP threshold — lock in gains. Bonding-curve token with thin $1051 pool, reversal risk is real. Take half, let the rest ride if narrative holds.
 
+## [2026-09-12 07:58 UTC] sell | [rapid-drop] $REVFART crashed >15% in one tick | P&L: -21.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
