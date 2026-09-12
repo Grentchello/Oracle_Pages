@@ -1,32 +1,8 @@
 {
-  "balance_sol": 11.300774,
+  "balance_sol": 11.350758,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2pMX9Ev45f7qGd89BCXxKTiB9Ws6MNy57H7k9DZLpump": {
-      "symbol": "AQUAI",
-      "name": "EQUITRUST AI",
-      "amount": 1374458.8744588746,
-      "entry_price_usd": 3.696e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T03:23:45.814703+00:00",
-      "entry_usd_value": 5.08,
-      "last_seen_price_usd": 3.696e-06,
-      "entry_signals": {
-        "liquidity_usd": 428.17754933279997,
-        "volume_24h_usd": 428.43,
-        "market_cap_usd": 3697.6385651723217,
-        "ath_market_cap_usd": 3697.6385651723217,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.214345958,
-        "description": "EQUAi is an AI-powered ecosystem built to bring smarter technology, transparency, and community-driven innovation together. We’re building a future where AI creates real utility, meaningful opportunities, and value for everyone.",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52540,19 +52516,30 @@
       "pnl_pct": -52.28,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "2pMX9Ev45f7qGd89BCXxKTiB9Ws6MNy57H7k9DZLpump",
+      "symbol": "AQUAI",
+      "name": "EQUITRUST AI",
+      "amount_sold": 1374458.8744588746,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T03:23:45.814703+00:00",
+      "exit_time": "2026-09-12T03:25:03.906991+00:00",
+      "entry_price_usd": 3.696e-06,
+      "exit_price_usd": 3.6955126968373204e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049984,
+      "pnl_sol": -1.6e-05,
+      "pnl_pct": -0.01,
+      "exit_reason": "LLM: sell_all — AQUAI is flat at -0.0% after 0.0h on a bonding curve with only $428 pool liquidity. Our $5 position is ~1% of the pool — illiquid and no momentum. No ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:23:45.814877+00:00",
+  "last_updated": "2026-09-12T03:25:03.908150+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.6,
-  "portfolio_value_usd": 1153.24,
+  "last_sol_price_usd": 101.62,
+  "portfolio_value_usd": 1153.46,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 02:58 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $PUMPHOUSE at $0.000149551 | P&L: +4388.3%",
-      "reason": "Auto take-profit at +4388.3%"
-    },
     {
       "time": "2026-09-12 02:58 UTC",
       "action": "buy",
@@ -52666,30 +52653,48 @@
       "action": "buy",
       "details": "[LLM] $AQUAI at $3.696e-06, spent 0.05 SOL",
       "reason": "$AQUAI (EQUITRUST AI) has solid description (~140 chars, passes viability gate), AI ecosystem narrative is hot, bond 11% just starting. AI + transparency + community is the exact narrative that pumps in this cycle. 0.8min old = first-mover edge. Taking the shot at 0.05 SOL."
+    },
+    {
+      "time": "2026-09-12 03:25 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $AQUAI at $3.69551e-06 | P&L: -0.0%",
+      "reason": "AQUAI is flat at -0.0% after 0.0h on a bonding curve with only $428 pool liquidity. Our $5 position is ~1% of the pool — illiquid and no momentum. No clear narrative signal, no attention spike, and microcap bonding-curve tokens at this size die fast. Cut and free the slot for something with actual viral attention."
     }
   ],
   "trade_stats": {
-    "total": 3089,
+    "total": 3090,
     "wins": 1440,
-    "losses": 1649,
+    "losses": 1650,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 7.134586,
-    "avg_pnl_pct": 29.17,
+    "total_pnl_sol": 7.13457,
+    "avg_pnl_pct": 29.16,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 16,
-    "today_realized_sol": 2.10149,
+    "today_trades": 17,
+    "today_realized_sol": 2.101474,
     "today_target_pct": 525.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1440,
-      "loss_count": 1649,
+      "loss_count": 1650,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:23:44.458151+00:00",
+  "last_llm_brief_at": "2026-09-12T03:25:03.906944+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2pMX9Ev45f7qGd89BCXxKTiB9Ws6MNy57H7k9DZLpump": {
+      "price_usd": 3.6955126968373204e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 428.26183625196,
+      "volume_h24": 428.43,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4.214345958
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

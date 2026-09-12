@@ -22306,3 +22306,6 @@
 ## [2026-09-12 03:23 UTC] buy | [LLM] $AQUAI at $3.696e-06, spent 0.05 SOL
 - **Reasoning:** $AQUAI (EQUITRUST AI) has solid description (~140 chars, passes viability gate), AI ecosystem narrative is hot, bond 11% just starting. AI + transparency + community is the exact narrative that pumps in this cycle. 0.8min old = first-mover edge. Taking the shot at 0.05 SOL.
 
+## [2026-09-12 03:25 UTC] sell | [FULL][LLM] $AQUAI at $3.69551e-06 | P&L: -0.0%
+- **Reasoning:** AQUAI is flat at -0.0% after 0.0h on a bonding curve with only $428 pool liquidity. Our $5 position is ~1% of the pool — illiquid and no momentum. No clear narrative signal, no attention spike, and microcap bonding-curve tokens at this size die fast. Cut and free the slot for something with actual viral attention.
+
