@@ -22969,3 +22969,6 @@
 ## [2026-09-12 10:08 UTC] sell | [FULL][LLM] $Dickbutt at $2.27171e-05 | P&L: +17.7%
 - **Reasoning:** Dickbutt is up +17.7% just minutes after entry — close to the 25% auto-TP threshold. Name has viral absurdist meme energy, pool is thin ($5.5k) so small buys move price. Rotating out of a working position to chase something 0.6min old is bad discipline. Let it run toward auto-TP or stall out.
 
+## [2026-09-12 10:09 UTC] buy | [LLM] $Eagle at $3.301e-06, spent 0.05 SOL
+- **Reasoning:** $Eagle: harpy eagle narrative, fresh 1.3min launch at $3.3k mcap with viral wildlife X post attached — exactly the kind of attention-launched memecoin the experiment exists to catch. 0.1 SOL entry, high variance but asymmetric upside.
+
