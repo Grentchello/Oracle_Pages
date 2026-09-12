@@ -1,8 +1,37 @@
 {
-  "balance_sol": 16.141153,
+  "balance_sol": 16.091153,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "3vmt6yTDdhStFkoTpKYSoScNumLB9ciKXhETJmSYEXHh": {
+      "symbol": "JOHN",
+      "name": "JOHN",
+      "mint": "3vmt6yTDdhStFkoTpKYSoScNumLB9ciKXhETJmSYEXHh",
+      "amount": 738157.3229030857,
+      "entry_price_usd": 6.903e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T16:17:08.797088+00:00",
+      "entry_time_iso": "2026-09-12T16:17:08.797097+00:00",
+      "entry_usd_value": 5.0955,
+      "last_seen_price_usd": 6.903e-06,
+      "entry_liquidity_usd": 34320.46570823067,
+      "entry_pool_sol": 336.772306037,
+      "entry_market_cap_usd": 7726.085236406433,
+      "entry_signals": {
+        "liquidity_usd": 34320.46570823067,
+        "volume_24h_usd": 6705.82,
+        "market_cap_usd": 7726.085236406433,
+        "ath_market_cap_usd": 7726.085236406433,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 336.772306037,
+        "description": "",
+        "twitter": "https://x.com/__1801/status/2098807663282827517",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57330,17 +57359,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T16:15:52.071839+00:00",
+  "last_updated": "2026-09-12T16:17:08.797370+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.78,
-  "portfolio_value_usd": 1642.85,
+  "last_sol_price_usd": 101.91,
+  "portfolio_value_usd": 1644.94,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 15:43 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $Apu at $9.50884e-05 | P&L: +2147.9%",
-      "reason": "Auto take-profit at +2148.0%"
-    },
     {
       "time": "2026-09-12 15:45 UTC",
       "action": "buy",
@@ -57454,6 +57477,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $LaunchPad at $5.25187e-06 | P&L: +1.7%",
       "reason": "Just entered 0.0h ago at +1.7%. Too early to judge direction on bonding curve. Watching for first 15-30 min to see if $LaunchPad narrative gains traction. Will exit if it goes stale or hits -20%."
+    },
+    {
+      "time": "2026-09-12 16:17 UTC",
+      "action": "buy",
+      "details": "[LLM] $JOHN at $6.903e-06, spent 0.05 SOL",
+      "reason": "$JOHN has a Twitter promoter attached (x.com/__1801) at $7.7k mcap — ultra-fresh 0.6min launch with attention signal. Tiny mcap = high upside if narrative catches. Risky sub-minute entry but that's where the alpha is."
     }
   ],
   "trade_stats": {
@@ -57475,21 +57504,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T16:15:52.070809+00:00",
+  "last_llm_brief_at": "2026-09-12T16:17:07.514188+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "swv5YF5ZsE3Dsdaw5qcTpPC8VF62E6Kif69Z9RTpump": {
-      "price_usd": 5.2518698180213165e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1094.69494134686,
-      "volume_h24": 1123.28,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 10.755501487
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

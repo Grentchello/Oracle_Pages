@@ -23584,3 +23584,6 @@
 ## [2026-09-12 16:15 UTC] sell | [FULL][LLM] $LaunchPad at $5.25187e-06 | P&L: +1.7%
 - **Reasoning:** Just entered 0.0h ago at +1.7%. Too early to judge direction on bonding curve. Watching for first 15-30 min to see if $LaunchPad narrative gains traction. Will exit if it goes stale or hits -20%.
 
+## [2026-09-12 16:17 UTC] buy | [LLM] $JOHN at $6.903e-06, spent 0.05 SOL
+- **Reasoning:** $JOHN has a Twitter promoter attached (x.com/__1801) at $7.7k mcap — ultra-fresh 0.6min launch with attention signal. Tiny mcap = high upside if narrative catches. Risky sub-minute entry but that's where the alpha is.
+
