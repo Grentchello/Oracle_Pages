@@ -22861,3 +22861,6 @@
 ## [2026-09-12 08:37 UTC] buy | [LLM] $DORIME at $7.63e-06, spent 0.05 SOL
 - **Reasoning:** $DORIME 'Doge Religion' has a clear viral attention narrative — religion + doge = meme-internet crossover, linked to @mementum_sol (likely a known memecoin account). Sub-$10k mcap with a bonded story. Risk: duplicate of the other DORIME below (likely same deployer spam), so I'll size small and watch for rug signals.
 
+## [2026-09-12 08:38 UTC] sell | [rapid-drop] $DORIME crashed >15% in one tick | P&L: -51.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
