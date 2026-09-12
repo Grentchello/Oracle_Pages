@@ -23005,3 +23005,6 @@
 ## [2026-09-12 10:20 UTC] buy | [LLM] $HORACE at $5.636e-06, spent 0.05 SOL
 - **Reasoning:** Brand new 0.7min launch with a real X post from ForestManSol555 — actual attention signal vs the animal/no-context $Eagle and $CAT. $5k mcap means room to run, name has character-meme energy. 0.05 SOL risk only.
 
+## [2026-09-12 10:21 UTC] sell | [FULL][LLM] $HORACE at $5.49345e-06 | P&L: -2.5%
+- **Reasoning:** Just entered seconds ago, only -2.5%, well above the -25% hard stop and not stale (>30min flat). Bonding curve at 39% means migration pressure is building. Give it time to develop before any exit decision.
+

@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.009797,
+  "balance_sol": 13.058528,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "H4t34wAqoCREn6Psz7uCYfSRRCDdogDeHXgSotGqpump": {
-      "symbol": "HORACE",
-      "name": "Horace",
-      "mint": "H4t34wAqoCREn6Psz7uCYfSRRCDdogDeHXgSotGqpump",
-      "amount": 908623.1369765792,
-      "entry_price_usd": 5.636e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T10:20:31.523769+00:00",
-      "entry_time_iso": "2026-09-12T10:20:31.523776+00:00",
-      "entry_usd_value": 5.121,
-      "last_seen_price_usd": 5.636e-06,
-      "entry_liquidity_usd": 894.7327210479,
-      "entry_pool_sol": 8.735917995,
-      "entry_market_cap_usd": 4960.239820330087,
-      "entry_signals": {
-        "liquidity_usd": 894.7327210479,
-        "volume_24h_usd": 9417.27,
-        "market_cap_usd": 4960.239820330087,
-        "ath_market_cap_usd": 9377.111458050313,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 8.735917995,
-        "description": "",
-        "twitter": "https://x.com/ForestManSol555/status/2098718121313869969",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54981,19 +54952,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 78.12871,
       "partial": false
+    },
+    {
+      "mint": "H4t34wAqoCREn6Psz7uCYfSRRCDdogDeHXgSotGqpump",
+      "symbol": "HORACE",
+      "name": "Horace",
+      "amount_sold": 908623.1369765792,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T10:20:31.523769+00:00",
+      "entry_time_iso": "2026-09-12T10:20:31.523776+00:00",
+      "exit_time": "2026-09-12T10:21:53.263077+00:00",
+      "exit_time_iso": "2026-09-12T10:21:53.263082+00:00",
+      "entry_price_usd": 5.636e-06,
+      "exit_price_usd": 5.4934465477876815e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.048731,
+      "pnl_sol": -0.001269,
+      "pnl_pct": -2.53,
+      "exit_reason": "LLM: sell_all — Just entered seconds ago, only -2.5%, well above the -25% hard stop and not stale (>30min flat). Bonding curve at 39% means migration pressure is buil",
+      "entry_liquidity_usd": 894.73,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 8.7359,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 81.739327,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T10:20:31.523928+00:00",
+  "last_updated": "2026-09-12T10:21:53.263330+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.42,
-  "portfolio_value_usd": 1337.58,
+  "last_sol_price_usd": 102.43,
+  "portfolio_value_usd": 1337.59,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 09:57 UTC",
-      "action": "buy",
-      "details": "[LLM] $WOWCOIN at $2.305e-05, spent 0.05 SOL",
-      "reason": "Self-referential 'virality' meta-narrative is peak attention-market content; already has twitter traction and $24k mcap shows early attention. Dogenames historically pump on meta-humor. Risk: 0.7min old, bond incomplete, could rug — but 0.05 SOL position keeps risk bounded."
-    },
     {
       "time": "2026-09-12 09:58 UTC",
       "action": "sell",
@@ -55107,40 +55096,46 @@
       "action": "buy",
       "details": "[LLM] $HORACE at $5.636e-06, spent 0.05 SOL",
       "reason": "Brand new 0.7min launch with a real X post from ForestManSol555 — actual attention signal vs the animal/no-context $Eagle and $CAT. $5k mcap means room to run, name has character-meme energy. 0.05 SOL risk only."
+    },
+    {
+      "time": "2026-09-12 10:21 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HORACE at $5.49345e-06 | P&L: -2.5%",
+      "reason": "Just entered seconds ago, only -2.5%, well above the -25% hard stop and not stale (>30min flat). Bonding curve at 39% means migration pressure is building. Give it time to develop before any exit decision."
     }
   ],
   "trade_stats": {
-    "total": 3208,
+    "total": 3209,
     "wins": 1494,
-    "losses": 1714,
+    "losses": 1715,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.843609,
-    "avg_pnl_pct": 29.12,
+    "total_pnl_sol": 8.84234,
+    "avg_pnl_pct": 29.11,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 135,
-    "today_realized_sol": 3.810513,
-    "today_target_pct": 952.6,
+    "today_trades": 136,
+    "today_realized_sol": 3.809244,
+    "today_target_pct": 952.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1494,
-      "loss_count": 1714,
+      "loss_count": 1715,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T10:20:30.207802+00:00",
+  "last_llm_brief_at": "2026-09-12T10:21:53.262916+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2WrrZWBShPZXTbL848sViye3TiPPQ1SG7D9aYwoRpump": {
-      "price_usd": 0.0004587037421833562,
+    "H4t34wAqoCREn6Psz7uCYfSRRCDdogDeHXgSotGqpump": {
+      "price_usd": 5.4934465477876815e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2017.3125089172602,
-      "volume_h24": 0.0,
+      "liquidity_usd": 1183.05009798653,
+      "volume_h24": 13279.51,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 19.696470503
+      "real_sol_reserves": 11.549839871
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
