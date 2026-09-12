@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.151381,
+  "balance_sol": 13.195259,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CESys7qjuiM4wJccnxkdRmscFMBe9WiCHQafd1C4pump": {
-      "symbol": "belief",
-      "name": "collective belief",
-      "amount": 1569360.3153988267,
-      "entry_price_usd": 3.2251994333842353e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T06:17:14.699589+00:00",
-      "entry_usd_value": 5.0615000000000006,
-      "last_seen_price_usd": 3.2251994333842353e-06,
-      "entry_signals": {
-        "liquidity_usd": 5.0615e-07,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3234.5871586975045,
-        "ath_market_cap_usd": 4797.077784416865,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5e-09,
-        "description": "",
-        "twitter": "https://twitter.com/blknoiz06/status/2098656941589319730",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53424,19 +53400,30 @@
       "pnl_pct": -42.96,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "CESys7qjuiM4wJccnxkdRmscFMBe9WiCHQafd1C4pump",
+      "symbol": "belief",
+      "name": "collective belief",
+      "amount_sold": 1569360.2706904933,
+      "fraction_sold": 0.9999999715117472,
+      "entry_time": "2026-09-12T06:17:14.699589+00:00",
+      "exit_time": "2026-09-12T06:18:30.788434+00:00",
+      "entry_price_usd": 3.2251994333842353e-06,
+      "exit_price_usd": 2.831686859745014e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.043878,
+      "pnl_sol": -0.006122,
+      "pnl_pct": -12.2,
+      "exit_reason": "LLM: sell_all — $belief is -12.2% on a bonding curve with $0 pool liquidity and our share reported at 877M% — this position is illiquid and heading toward -25% hard c",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T06:17:14.699770+00:00",
+  "last_updated": "2026-09-12T06:18:30.788625+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.23,
-  "portfolio_value_usd": 1336.38,
+  "last_sol_price_usd": 101.28,
+  "portfolio_value_usd": 1336.42,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 05:48 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $TSM at $3.20797e-06 | P&L: +1.7%",
-      "reason": "TSM is essentially breakeven (+1.7%) after fresh entry with tiny liquidity ($184 pool). No momentum signal, stale before it starts. Lock the slot for fresher attention."
-    },
     {
       "time": "2026-09-12 05:50 UTC",
       "action": "buy",
@@ -53550,30 +53537,48 @@
       "action": "buy",
       "details": "[LLM] $belief at $3.2252e-06, spent 0.05 SOL",
       "reason": "$belief: meta-narrative (collective belief = memecoin meme about belief-pumping), live twitter post from @blknoiz06 is a real attention signal at 0.5min/$3.2k. Early enough for asymmetric upside. Risk: brand new, no desc, tweet could be bait — but attention is the trade."
+    },
+    {
+      "time": "2026-09-12 06:18 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $belief at $2.83169e-06 | P&L: -12.2%",
+      "reason": "$belief is -12.2% on a bonding curve with $0 pool liquidity and our share reported at 877M% — this position is illiquid and heading toward -25% hard cap. Cut the loss now rather than wait for forced exit."
     }
   ],
   "trade_stats": {
-    "total": 3141,
+    "total": 3142,
     "wins": 1466,
-    "losses": 1675,
+    "losses": 1676,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 8.985194,
-    "avg_pnl_pct": 29.82,
+    "total_pnl_sol": 8.979072,
+    "avg_pnl_pct": 29.81,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 68,
-    "today_realized_sol": 3.952098,
-    "today_target_pct": 988.0,
+    "today_trades": 69,
+    "today_realized_sol": 3.945976,
+    "today_target_pct": 986.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1466,
-      "loss_count": 1675,
+      "loss_count": 1676,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T06:17:13.350979+00:00",
+  "last_llm_brief_at": "2026-09-12T06:18:30.788315+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CESys7qjuiM4wJccnxkdRmscFMBe9WiCHQafd1C4pump": {
+      "price_usd": 2.831686859745014e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 5.064e-07,
+      "volume_h24": 2378.53,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 5e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
