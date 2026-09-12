@@ -23701,3 +23701,6 @@
 ## [2026-09-12 17:08 UTC] sell | [rapid-drop] $HODL crashed >15% in one tick | P&L: -19.6%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 17:11 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
