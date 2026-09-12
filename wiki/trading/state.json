@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.026225,
+  "balance_sol": 13.076225,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "65gvPMCMR3fAbHnBuXgprxfzsv58xJkzerLAEBp2pump": {
-      "symbol": "LETDOGEOUT",
-      "name": "Who let the doge out",
-      "mint": "65gvPMCMR3fAbHnBuXgprxfzsv58xJkzerLAEBp2pump",
-      "amount": 11229.099777452459,
-      "entry_price_usd": 0.0004542706094964697,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T09:44:48.706845+00:00",
-      "entry_time_iso": "2026-09-12T09:44:48.706853+00:00",
-      "entry_usd_value": 5.101050000000001,
-      "last_seen_price_usd": 0.0004542706094964697,
-      "entry_liquidity_usd": 593.584103882583,
-      "entry_pool_sol": 5.818254123,
-      "entry_market_cap_usd": 3841.6484613414627,
-      "entry_signals": {
-        "liquidity_usd": 593.584103882583,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 3841.6484613414627,
-        "ath_market_cap_usd": 3854.4538887082463,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.818254123,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54669,19 +54640,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.979828,
       "partial": false
+    },
+    {
+      "mint": "65gvPMCMR3fAbHnBuXgprxfzsv58xJkzerLAEBp2pump",
+      "symbol": "LETDOGEOUT",
+      "name": "Who let the doge out",
+      "amount_sold": 11229.099777452459,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T09:44:48.706845+00:00",
+      "entry_time_iso": "2026-09-12T09:44:48.706853+00:00",
+      "exit_time": "2026-09-12T09:46:06.422690+00:00",
+      "exit_time_iso": "2026-09-12T09:46:06.422698+00:00",
+      "entry_price_usd": 0.0004542706094964697,
+      "exit_price_usd": 0.00045644798795819595,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05,
+      "pnl_sol": 0.0,
+      "pnl_pct": 0.48,
+      "exit_reason": "LLM: sell_all — Flat at +0.5% after 0.0h, pool only $596 (below 5x position requirement), on bonding curve with no momentum — stale illiquid capital blocking the slot",
+      "entry_liquidity_usd": 593.58,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 5.8183,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 77.715866,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T09:44:48.707022+00:00",
+  "last_updated": "2026-09-12T09:46:06.423295+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.021,
-  "portfolio_value_usd": 1334.05,
+  "last_sol_price_usd": 102.51,
+  "portfolio_value_usd": 1340.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 08:52 UTC",
-      "action": "buy",
-      "details": "[LLM] $ogcallers at $3.095e-06, spent 0.05 SOL",
-      "reason": "$ogcallers (Jamal Thinks / JT) — 'bid OGCALLERS' framing taps into the call-group / signal-service meta-narrative that's been hot (legacy callers, alpha groups, etc.). Has a named character, a pose ('thinks'), and a meta-comment on the call-game itself. Risks: mcap $3k, bond 4%, very early, viability gate borderline (description short, no twitter in listing), and 'callers' meta can rug hard. BUT the narrative has a real hook and 0.05 SOL risk is sized to learn. Take the trade."
-    },
     {
       "time": "2026-09-12 08:54 UTC",
       "action": "sell",
@@ -54795,30 +54784,48 @@
       "action": "buy",
       "details": "[LLM] $LETDOGEOUT at $0.000454271, spent 0.05 SOL",
       "reason": "DOGE reference is a classic viral memecoin narrative with broad retail appeal. Fresh launch, low mcap, classic 'who let the dogs out' framing has meme-ability. High risk but asymmetric upside if it catches attention."
+    },
+    {
+      "time": "2026-09-12 09:46 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LETDOGEOUT at $0.000456448 | P&L: +0.5%",
+      "reason": "Flat at +0.5% after 0.0h, pool only $596 (below 5x position requirement), on bonding curve with no momentum — stale illiquid capital blocking the slot for better setups."
     }
   ],
   "trade_stats": {
-    "total": 3195,
+    "total": 3196,
     "wins": 1486,
-    "losses": 1709,
+    "losses": 1710,
     "win_rate_pct": 46.5,
     "total_pnl_sol": 8.860037,
-    "avg_pnl_pct": 29.23,
+    "avg_pnl_pct": 29.22,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 122,
+    "today_trades": 123,
     "today_realized_sol": 3.826941,
     "today_target_pct": 956.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1486,
-      "loss_count": 1709,
+      "loss_count": 1710,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T09:44:47.455677+00:00",
+  "last_llm_brief_at": "2026-09-12T09:46:06.422257+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "65gvPMCMR3fAbHnBuXgprxfzsv58xJkzerLAEBp2pump": {
+      "price_usd": 0.00045644798795819595,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 596.4292301487301,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 5.818254123
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
