@@ -23398,3 +23398,6 @@
 ## [2026-09-12 14:15 UTC] buy | [LLM] $POPSPER at $4.029e-06, spent 0.05 SOL
 - **Reasoning:** Wait — mint appears truncated. Cannot validate address format. Skipping malformed entry.
 
+## [2026-09-12 14:17 UTC] sell | [FULL][LLM] $POPSPER at $4.2204e-06 | P&L: +4.8%
+- **Reasoning:** $POPSPER is +4.8% after 0.0h held — too early to judge, not stale, not at any TP threshold, well above the -25% hard cap. Give it a few ticks to develop.
+
