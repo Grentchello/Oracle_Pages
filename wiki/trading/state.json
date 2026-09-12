@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.120998,
+  "balance_sol": 13.147601,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DhxxK3U8LUz3y9oHz9cM3whf4BtVQgxoZEnpXQCapump": {
-      "symbol": "KURONEKO",
-      "name": "Kuronekocoin",
-      "amount": 950711.3312174747,
-      "entry_price_usd": 5.342315625391639e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T06:43:14.721866+00:00",
-      "entry_usd_value": 5.079000000000001,
-      "last_seen_price_usd": 5.342315625391639e-06,
-      "entry_signals": {
-        "liquidity_usd": 1203.5281667157599,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5351.322911850542,
-        "ath_market_cap_usd": 5974.228236163009,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 11.848081972,
-        "description": "",
-        "twitter": "https://x.com/MayuriSolss/status/2098663482254074215",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53526,25 +53502,30 @@
       "pnl_pct": -40.29,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "DhxxK3U8LUz3y9oHz9cM3whf4BtVQgxoZEnpXQCapump",
+      "symbol": "KURONEKO",
+      "name": "Kuronekocoin",
+      "amount_sold": 950711.3312174747,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T06:43:14.721866+00:00",
+      "exit_time": "2026-09-12T06:44:18.483966+00:00",
+      "entry_price_usd": 5.342315625391639e-06,
+      "exit_price_usd": 2.8429918624403424e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.026603,
+      "pnl_sol": -0.023397,
+      "pnl_pct": -46.78,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T06:43:14.722038+00:00",
+  "last_updated": "2026-09-12T06:44:34.149123+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.58,
-  "portfolio_value_usd": 1337.91,
+  "last_sol_price_usd": 101.6,
+  "portfolio_value_usd": 1335.8,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 06:01 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $drill crashed >15% in one tick | P&L: -49.8%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
-    {
-      "time": "2026-09-12 06:07 UTC",
-      "action": "buy",
-      "details": "[LLM] $IT at $4.08744e-06, spent 0.05 SOL",
-      "reason": "$IT 'tiktok made me buy it' is pure attention-meta — self-referential memecoin narrative, has twitter anchor, mcap $4k means room for 10x if the narrative catches. Position size 0.05 SOL, tight 25% stop will protect if it dies."
-    },
     {
       "time": "2026-09-12 06:09 UTC",
       "action": "sell",
@@ -53652,6 +53633,18 @@
       "action": "buy",
       "details": "[LLM] $KURONEKO at $5.34232e-06, spent 0.05 SOL",
       "reason": "$KURONEKO: anime catgirl narrative (Mayuri Sol) with active twitter post and 21% bond in 30 seconds — strongest narrative-to-traction ratio of the batch. Low mcap $5.3k leaves room for attention-driven pump. Risk: brand-new token, illiquid, may rug — but viability gate passes and no fragility flags."
+    },
+    {
+      "time": "2026-09-12 06:44 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $KURONEKO crashed >15% in one tick | P&L: -46.8%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-12 06:44 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -53673,9 +53666,21 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T06:43:13.359202+00:00",
+  "last_llm_brief_at": "2026-09-12T06:44:34.148937+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "DhxxK3U8LUz3y9oHz9cM3whf4BtVQgxoZEnpXQCapump": {
+      "price_usd": 2.8429918624403424e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.2648746864,
+      "volume_h24": 8271.03,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.012449554
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

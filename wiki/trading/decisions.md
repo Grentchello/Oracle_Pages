@@ -22648,3 +22648,9 @@
 ## [2026-09-12 06:43 UTC] buy | [LLM] $KURONEKO at $5.34232e-06, spent 0.05 SOL
 - **Reasoning:** $KURONEKO: anime catgirl narrative (Mayuri Sol) with active twitter post and 21% bond in 30 seconds — strongest narrative-to-traction ratio of the batch. Low mcap $5.3k leaves room for attention-driven pump. Risk: brand-new token, illiquid, may rug — but viability gate passes and no fragility flags.
 
+## [2026-09-12 06:44 UTC] sell | [rapid-drop] $KURONEKO crashed >15% in one tick | P&L: -46.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 06:44 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
