@@ -22240,3 +22240,6 @@
 ## [2026-09-12 02:50 UTC] buy | [LLM] $SolPVP at $3.321e-06, spent 0.05 SOL
 - **Reasoning:** $SolPVP passes viability gate — solid description, real twitter handle, and the '60-minute battle' framing is built-in viral urgency (competition = attention). $3.3k mcap is early enough for asymmetric upside. Taking 0.05 SOL.
 
+## [2026-09-12 02:52 UTC] sell | [FULL][LLM] $SolPVP at $3.1691e-06 | P&L: -4.6%
+- **Reasoning:** Only -4.6% and 0.0h held — well within the -25% hard cap and not stale yet. Just entered; give it a few minutes to see if the bonding curve fills. $170 pool is thin but our share is 3% so exit liquidity exists.
+

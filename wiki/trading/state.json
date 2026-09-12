@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.174453,
+  "balance_sol": 9.222161,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7dULN3cLsyZ4Xg6hs49WDULpbmXTHdZH3F94QkHNpump": {
-      "symbol": "SolPVP",
-      "name": "SolPvP",
-      "amount": 1530864.1975308643,
-      "entry_price_usd": 3.321e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T02:50:44.097601+00:00",
-      "entry_usd_value": 5.0840000000000005,
-      "last_seen_price_usd": 3.321e-06,
-      "entry_signals": {
-        "liquidity_usd": 207.57668729232003,
-        "volume_24h_usd": 279.49,
-        "market_cap_usd": 3294.9741366985336,
-        "ath_market_cap_usd": 3389.1717552117952,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.041470174,
-        "description": "A new generation of Solana token launches. Two tokens. One 60-minute battle. On-chain competition. Transparent rewards.",
-        "twitter": "https://x.com/SolvPvP",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52353,19 +52329,30 @@
       "pnl_pct": -18.05,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "7dULN3cLsyZ4Xg6hs49WDULpbmXTHdZH3F94QkHNpump",
+      "symbol": "SolPVP",
+      "name": "SolPvP",
+      "amount_sold": 1530864.1975308643,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T02:50:44.097601+00:00",
+      "exit_time": "2026-09-12T02:52:01.584427+00:00",
+      "entry_price_usd": 3.321e-06,
+      "exit_price_usd": 3.1691009556407974e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.047708,
+      "pnl_sol": -0.002292,
+      "pnl_pct": -4.57,
+      "exit_reason": "LLM: sell_all — Only -4.6% and 0.0h held — well within the -25% hard cap and not stale yet. Just entered; give it a few minutes to see if the bonding curve fills. $17",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T02:50:44.097766+00:00",
+  "last_updated": "2026-09-12T02:52:01.586648+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.68,
-  "portfolio_value_usd": 937.94,
+  "last_sol_price_usd": 101.69,
+  "portfolio_value_usd": 937.8,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 01:48 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 01:51 UTC",
       "action": "observe",
@@ -52479,40 +52466,46 @@
       "action": "buy",
       "details": "[LLM] $SolPVP at $3.321e-06, spent 0.05 SOL",
       "reason": "$SolPVP passes viability gate — solid description, real twitter handle, and the '60-minute battle' framing is built-in viral urgency (competition = attention). $3.3k mcap is early enough for asymmetric upside. Taking 0.05 SOL."
+    },
+    {
+      "time": "2026-09-12 02:52 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SolPVP at $3.1691e-06 | P&L: -4.6%",
+      "reason": "Only -4.6% and 0.0h held — well within the -25% hard cap and not stale yet. Just entered; give it a few minutes to see if the bonding curve fills. $170 pool is thin but our share is 3% so exit liquidity exists."
     }
   ],
   "trade_stats": {
-    "total": 3078,
+    "total": 3079,
     "wins": 1436,
-    "losses": 1642,
-    "win_rate_pct": 46.7,
-    "total_pnl_sol": 5.008265,
-    "avg_pnl_pct": 27.89,
+    "losses": 1643,
+    "win_rate_pct": 46.6,
+    "total_pnl_sol": 5.005973,
+    "avg_pnl_pct": 27.88,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 5,
-    "today_realized_sol": -0.024831,
-    "today_target_pct": -6.2,
+    "today_trades": 6,
+    "today_realized_sol": -0.027123,
+    "today_target_pct": -6.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1436,
-      "loss_count": 1642,
+      "loss_count": 1643,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T02:50:42.728861+00:00",
+  "last_llm_brief_at": "2026-09-12T02:52:01.583708+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "HXVr65x34DFeWqDAmRowqezeggRZEhwJJmWRGrqtk1it": {
-      "price_usd": 2.8428704567583227e-06,
+    "7dULN3cLsyZ4Xg6hs49WDULpbmXTHdZH3F94QkHNpump": {
+      "price_usd": 3.1691009556407974e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.0168000000000001e-07,
-      "volume_h24": 311.74,
+      "liquidity_usd": 170.12886372441,
+      "volume_h24": 467.33,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1e-09
+      "real_sol_reserves": 1.673014689
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
