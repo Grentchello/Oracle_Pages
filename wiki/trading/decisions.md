@@ -22768,3 +22768,6 @@
 ## [2026-09-12 07:33 UTC] buy | [LLM] $Polarbear at $4.257e-06, spent 0.05 SOL
 - **Reasoning:** $Polarbear ('The Nihilist Polar Bear') has a mildly distinctive absurdist narrative and a linked twitter account, passes viability gate with bond at 21%. $3k liquidity needs to be verified but it's fresh attention. Small 0.05 SOL test position to learn how nihilist-bear narratives perform.
 
+## [2026-09-12 07:34 UTC] sell | [v8.7 TP +50% (full)] $Polarbear at $7.67268e-06 | P&L: +80.2%
+- **Reasoning:** Auto take-profit at +80.2%
+
