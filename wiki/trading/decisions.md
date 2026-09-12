@@ -22435,3 +22435,6 @@
 ## [2026-09-12 04:30 UTC] buy | [LLM] $AI at $8.482e-06, spent 0.05 SOL
 - **Reasoning:** $AI 'Anal Intelligence' has crude-joke viral potential on crypto Twitter, 30% bond (highest of the batch = real buy pressure), $8.5k mcap leaves10x+ room, and a Twitter link exists. Thin liquidity is the main risk.
 
+## [2026-09-12 04:31 UTC] sell | [FULL][LLM] $AI at $9.58316e-06 | P&L: +13.0%
+- **Reasoning:** Up +13% at 0 min held, narrative intact, no reason to bail yet. AI narrative has attention legs but only 0% pool share is a yellow flag — will reassess at +20% or if it stalls.
+
