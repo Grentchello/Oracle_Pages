@@ -23731,3 +23731,9 @@
 ## [2026-09-12 17:27 UTC] buy | [LLM] $MIM at $0.000713212, spent 0.05 SOL
 - **Reasoning:** MIM (Memes Into Money) — strong meta-narrative name, $26k mcap, 39% bonded, fresh 0.5min launch with Twitter attention. Meta-memes about money work in this cycle.
 
+## [2026-09-12 17:28 UTC] sell | [rapid-drop] $MIM crashed >15% in one tick | P&L: -95.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 17:29 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+

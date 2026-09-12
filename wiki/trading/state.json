@@ -1,37 +1,8 @@
 {
-  "balance_sol": 17.426411,
+  "balance_sol": 17.428636,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6bJtwhtvzkthAYszQ3ZWkFJzSvbGSkbAz9yPcSiXaGK6": {
-      "symbol": "MIM",
-      "name": "Memes Into Money",
-      "mint": "6bJtwhtvzkthAYszQ3ZWkFJzSvbGSkbAz9yPcSiXaGK6",
-      "amount": 7186.500008917129,
-      "entry_price_usd": 0.0007132122721269317,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T17:27:52.379161+00:00",
-      "entry_time_iso": "2026-09-12T17:27:52.379170+00:00",
-      "entry_usd_value": 5.125500000000001,
-      "last_seen_price_usd": 0.0007132122721269317,
-      "entry_liquidity_usd": 208500.0731374799,
-      "entry_pool_sol": 2033.948620988,
-      "entry_market_cap_usd": 26608.85184188763,
-      "entry_signals": {
-        "liquidity_usd": 208500.0731374799,
-        "volume_24h_usd": null,
-        "market_cap_usd": 26608.85184188763,
-        "ath_market_cap_usd": 26608.85184188763,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2033.948620988,
-        "description": "",
-        "twitter": "https://x.com/jncquant/status/2098825700790714545",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57861,25 +57832,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 77.407785,
       "partial": false
+    },
+    {
+      "mint": "6bJtwhtvzkthAYszQ3ZWkFJzSvbGSkbAz9yPcSiXaGK6",
+      "symbol": "MIM",
+      "name": "Memes Into Money",
+      "amount_sold": 7186.500008917129,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T17:27:52.379161+00:00",
+      "entry_time_iso": "2026-09-12T17:27:52.379170+00:00",
+      "exit_time": "2026-09-12T17:28:56.185140+00:00",
+      "exit_time_iso": "2026-09-12T17:28:56.185149+00:00",
+      "entry_price_usd": 0.0007132122721269317,
+      "exit_price_usd": 3.174e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.002225,
+      "pnl_sol": -0.047775,
+      "pnl_pct": -95.55,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 208500.07,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 2033.9486,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.805999,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T17:27:52.379535+00:00",
+  "last_updated": "2026-09-12T17:29:10.293551+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.51,
-  "portfolio_value_usd": 1791.51,
+  "last_sol_price_usd": 102.5,
+  "portfolio_value_usd": 1786.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 16:56 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $PDT crashed >15% in one tick | P&L: -18.4%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
-    {
-      "time": "2026-09-12 16:56 UTC",
-      "action": "buy",
-      "details": "[LLM] $PDT at $7.262e-06, spent 0.05 SOL",
-      "reason": "$PDT (PromptDuel) — cleanest narrative of the batch: 'Permissionless AI Evaluation Markets' rides the AI-agent meta with a live site (promptduel.io). Passes viability gate (desc ≥50 chars, site link), fresh launch (1.8min), mcap $5.4k. 0.05 SOL position, tight -25% stop. Risk: narrative is idea-stage, no community yet, early bonding curve."
-    },
     {
       "time": "2026-09-12 16:57 UTC",
       "action": "sell",
@@ -57987,6 +57970,18 @@
       "action": "buy",
       "details": "[LLM] $MIM at $0.000713212, spent 0.05 SOL",
       "reason": "MIM (Memes Into Money) — strong meta-narrative name, $26k mcap, 39% bonded, fresh 0.5min launch with Twitter attention. Meta-memes about money work in this cycle."
+    },
+    {
+      "time": "2026-09-12 17:28 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $MIM crashed >15% in one tick | P&L: -95.5%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-12 17:29 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -58008,19 +58003,17 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T17:27:50.980573+00:00",
+  "last_llm_brief_at": "2026-09-12T17:29:10.292845+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "8Q1EX7Ke4Pv5284ai6x4A8RcVJPehYQMdtGDAJ1bBF7M": {
-      "price_usd": 0.00011283221932090614,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 8980.718200325371,
-      "volume_h24": 5896.7,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 87.608215787
+    "6bJtwhtvzkthAYszQ3ZWkFJzSvbGSkbAz9yPcSiXaGK6": {
+      "price_usd": 3.174e-05,
+      "change_h24": -36.51,
+      "change_h1": -36.51,
+      "liquidity_usd": 14608.61,
+      "volume_h24": 8927.35,
+      "dex_id": "pumpswap",
+      "source": "dexscreener"
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
