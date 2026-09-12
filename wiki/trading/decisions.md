@@ -22720,3 +22720,6 @@
 ## [2026-09-12 07:12 UTC] buy | [LLM] $Douge at $3.192e-06, spent 0.05 SOL
 - **Reasoning:** Doge-narrative token with X link just posted, $3.2k mcap fresh launch — classic attention play, classic Doge adjacency goes viral on CT. High risk but pre-bonding-curve territory is exactly where memecoin alpha lives.
 
+## [2026-09-12 07:13 UTC] sell | [FULL][LLM] $Douge at $3.221e-06 | P&L: +0.9%
+- **Reasoning:** Just opened 0.0h ago, up +0.9%, bonding-curve phase with only $191 pool. Need a few more minutes to see if buyers show up before judging.
+
