@@ -23326,3 +23326,6 @@
 ## [2026-09-12 13:26 UTC] buy | [LLM] $ANONBATON at $7.693e-06, spent 0.05 SOL
 - **Reasoning:** $ANONBATON has the strongest narrative of the new launches — Anonymous collective is iconic meme lore, 'save the trenches' tagline targets the degen meta, fresh $12.5k mcap with 0.8min age gives real upside. Bond not complete yet (34%) so there's still entry runway. Position sized at 0.05 SOL per v7 rules.
 
+## [2026-09-12 13:27 UTC] sell | [rapid-drop] $ANONBATON crashed >15% in one tick | P&L: -61.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
