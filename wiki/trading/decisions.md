@@ -22972,3 +22972,6 @@
 ## [2026-09-12 10:09 UTC] buy | [LLM] $Eagle at $3.301e-06, spent 0.05 SOL
 - **Reasoning:** $Eagle: harpy eagle narrative, fresh 1.3min launch at $3.3k mcap with viral wildlife X post attached — exactly the kind of attention-launched memecoin the experiment exists to catch. 0.1 SOL entry, high variance but asymmetric upside.
 
+## [2026-09-12 10:11 UTC] sell | [PARTIAL][LLM] $Eagle at $3.8135e-06 | P&L: +15.5%
+- **Reasoning:** Up +15.5% on a thin $479 bonding-curve pool with a generic 'Eagle' narrative — no clear viral catalyst to hold for the +25% auto-take. Half-exit locks a realized gain and keeps a runner if attention arrives.
+
