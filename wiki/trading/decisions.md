@@ -22228,3 +22228,6 @@
 ## [2026-09-12 02:45 UTC] buy | [LLM] $PONS at $3.45275e-06, spent 0.05 SOL
 - **Reasoning:** $PONS is sub-1-minute old, $3.4k mcap (true ground floor), bond only 8% complete — earliest possible entry. Edgy/shitpost name with an X post attached fits the viral memecoin playbook. At 0.05 SOL risk with the -25% hard cap, downside is contained and the asymmetric upside on a sub-5k mcap with a story is the kind of 10-50x setup the rules say to take.
 
+## [2026-09-12 02:46 UTC] sell | [rapid-drop] $PONS crashed >15% in one tick | P&L: -17.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
