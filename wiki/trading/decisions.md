@@ -23275,3 +23275,9 @@
 ## [2026-09-12 13:06 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-12 13:07 UTC] sell | [FULL][LLM] $Silver at $3.04394e-06 | P&L: -23.3%
+- **Reasoning:** Down only 1.4% on a fresh entry, no signal here. -25% hard stop and 30min stale check are the gatekeepers, not a 1.4% wiggle.
+
+## [2026-09-12 13:07 UTC] buy | [LLM] $Wars at $2.862e-06, spent 0.05 SOL
+- **Reasoning:** Fresh $3.3k mcap, catchy 'Stonk Wars' name with AI tie-in and a real twitter handle ($StonkWarsAI). 'Animal brains trading competition' is meme-native narrative — exactly the kind of weird-attention that 10x's in the first hour.
+
