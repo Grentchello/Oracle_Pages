@@ -24076,3 +24076,9 @@
 ## [2026-09-12 21:09 UTC] buy | [LLM] $TA at $3.03637e-06, spent 0.05 SOL
 - **Reasoning:** $TA Trenches Alpha — strong meta-narrative (trenches/alpha is recognized degen culture), has twitter presence, fresh launch at $3k mcap with viral potential. Narrative is clear and attention-aligned.
 
+## [2026-09-12 21:10 UTC] sell | [FULL][LLM] $TA at $2.94815e-06 | P&L: -2.9%
+- **Reasoning:** Flat at -2.9% on $59 pool after 0h, no momentum, just sitting on a bonding curve. Rotating capital into a fresher narrative launch ($BabyLime) — better to redeploy than babysit a dead microcap.
+
+## [2026-09-12 21:10 UTC] buy | [LLM] $BabyLime  at $0.000459401, spent 0.05 SOL
+- **Reasoning:** Babydoge-acquires-Limewire narrative = legacy IP + crypto nostalgia, proven meme format (acquisition-announcement parody coins have pumped). Has twitter signal, fresh 0.6min launch, $3.8k mcap = pure early attention. Risk: bond only 1% complete, very thin liquidity, but at 0.05 SOL position size the downside is contained.
+
