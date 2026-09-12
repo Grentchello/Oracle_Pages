@@ -24109,3 +24109,6 @@
 ## [2026-09-12 21:23 UTC] buy | [LLM] $KEMO at $6.014e-06, spent 0.05 SOL
 - **Reasoning:** KEMO has a named mascot ('Kemo Family'), a real twitter handle (kemocalls), 0.6min age = first-mover, $5.9k mcap with 23% bonded. Narrative + attention + fresh = classic memecoin launch setup.
 
+## [2026-09-12 21:24 UTC] sell | [PARTIAL][LLM] $KEMO at $7.35294e-06 | P&L: +22.3%
+- **Reasoning:** Up +22.3% on a thin $1858 bonding-curve pool with 0% share showing — liquidity is weak and any bounce can evaporate fast. Locking half locks ~+$0.56 realized profit while keeping runner exposure if the cat narrative keeps grinding up the curve.
+
