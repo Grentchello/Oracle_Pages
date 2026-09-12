@@ -22642,3 +22642,6 @@
 ## [2026-09-12 06:40 UTC] buy | [LLM] $WIF at $4.891e-06, spent 0.05 SOL
 - **Reasoning:** $WIF 'Cat Wif Crab' has the animal-meme narrative that historically pumps hardest (WIF, DOGE, PEPE lineage). X post from Mrdevsol provides attention signal, 1.2min age means maximum upside before alpha extracts. Risk: very fresh, low mcap $4k — but that's where the 10x lives.
 
+## [2026-09-12 06:41 UTC] sell | [rapid-drop] $WIF crashed >15% in one tick | P&L: -40.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
