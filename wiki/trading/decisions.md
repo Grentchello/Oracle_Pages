@@ -24268,3 +24268,6 @@
 ## [2026-09-12 22:28 UTC] sell | [rapid-drop] $MALONE crashed >15% in one tick | P&L: -49.6%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 22:31 UTC] observe | LLM call failed: llm call failed
+- **Reasoning:** bot cannot decide, holding positions
+
