@@ -24382,3 +24382,9 @@
 ## [2026-09-12 23:20 UTC] buy | [LLM] $DUVAL at $7.894e-06, spent 0.05 SOL
 - **Reasoning:** $DUVAL has the strongest attention signal of the batch — an actual X post linking the token (Niorquant), fresh launch under 1.5min, and mcap still under $10k. PEPE-style brand-extension plays and political tokens ($JUGS hits fragility gate) carry more risk. Riding the viral X attention at 0.05 SOL position size.
 
+## [2026-09-12 23:21 UTC] sell | [rapid-drop] $DUVAL crashed >15% in one tick | P&L: -60.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 23:21 UTC] buy | [LLM] $MineCAT at $3.384e-06, spent 0.05 SOL
+- **Reasoning:** Minecraft + CAT is a viral narrative crossover with mass meme appeal; brand-name IP borrowing historically pumps (PEPE-style). Fresh 0.8min launch at $3.4k mcap with a story = early attention window. Risk: ultra-low mcap, will likely dump hard — tight stop is the plan.
+
