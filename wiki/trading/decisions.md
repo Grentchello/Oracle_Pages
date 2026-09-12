@@ -22726,3 +22726,9 @@
 ## [2026-09-12 07:15 UTC] buy | [LLM] $Insider at $4.612e-06, spent 0.05 SOL
 - **Reasoning:** Fresh launch (0.8min) with active twitter signal pointing at it. 'Insider/The Insiders' is a strong meta-narrative — memeable insider-trading culture play. Bond 21% means early entry on curve. Risk: brand new, could rug, but viability gate passes (twitter present) and no fragility keywords. Sizing 0.1 SOL.
 
+## [2026-09-12 07:16 UTC] sell | [rapid-drop] $Insider crashed >15% in one tick | P&L: -34.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 07:16 UTC] buy | [LLM] $PLOT at $3.05282e-06, spent 0.05 SOL
+- **Reasoning:** $PLOT 'Plot Twist' has RT_com (major X account with massive reach) amplifying it, plus a quotable meta-narrative ('comment section already solved it'). $3k mcap at 0.6min = pure attention play with room to run. Founder-name plays are common; RT_com amplification on a creative concept is rarer attention signal.
+
