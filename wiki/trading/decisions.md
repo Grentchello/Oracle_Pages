@@ -23557,3 +23557,6 @@
 ## [2026-09-12 15:58 UTC] buy | [LLM] $Alon at $4.388e-06, spent 0.05 SOL
 - **Reasoning:** $Alon — 'Alon giving us Pump' narrative directly references pump culture. 1-min age, $5k mcap, 15% bond, X account backing it. Pump-themed memecoin meta is attention-strong. Passes viability (desc + twitter). Position 0.05 SOL.
 
+## [2026-09-12 15:59 UTC] sell | [v8.7 TP +50% (full)] $Alon at $9.49144e-05 | P&L: +2063.1%
+- **Reasoning:** Auto take-profit at +2063.0%
+
