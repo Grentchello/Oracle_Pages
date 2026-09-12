@@ -23347,3 +23347,6 @@
 ## [2026-09-12 13:40 UTC] sell | [rapid-drop] $SpaceToad crashed >15% in one tick | P&L: -55.2%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 13:43 UTC] buy | [LLM] $Henry at $8.36417e-06, spent 0.05 SOL
+- **Reasoning:** BONK2 is a direct narrative play on the established BONK community — one of the largest and most engaged memecoin tribes on Solana. $8.3K mcap at0.5min with bond still incomplete (29%) = genuine ground-floor entry during curve phase. Twitter attached (goddevsol) gives a viral-attention hook. Risk: incomplete bond means thin liquidity could dump, and narrative-copy tokens can fade fast if BONK itself doesn't pump.
+
