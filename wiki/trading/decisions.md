@@ -22687,3 +22687,9 @@
 ## [2026-09-12 06:57 UTC] buy | [LLM] $DOGUE at $0.00150742, spent 0.05 SOL
 - **Reasoning:** $DOGUE has the strongest attention signal in this batch — cobie tweet (legit CT influencer, 600k+ followers), dog-themed derivative narrative riding $DOGE meta, fresh 0.9min launch at $12.5k mcap. Risk: bonding curve only 31%, thin liquidity, but name + attention combo is the exact pattern we want for early-momentum catching.
 
+## [2026-09-12 06:58 UTC] sell | [rapid-drop] $DOGUE crashed >15% in one tick | P&L: -42.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 06:59 UTC] buy | [LLM] $crashcat at $4.313e-05, spent 0.05 SOL
+- **Reasoning:** Fresh 1.2min launch, $48.9k mcap, 43% bonded (imminent graduation = liquidity unlock), viral name with X account live. Crashcat narrative has attention-market appeal. Position0.05 SOL, tight stop at -25%.
+
