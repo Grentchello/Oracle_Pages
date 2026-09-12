@@ -1,32 +1,8 @@
 {
-  "balance_sol": 11.300758,
+  "balance_sol": 11.35531,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CqyM9VEcHGvTCD6uG3x6fgyZ9xibEVSsztvYRvdkpump": {
-      "symbol": "DOGE",
-      "name": "DogePC",
-      "amount": 1047751.6501650165,
-      "entry_price_usd": 4.848e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T03:26:20.389573+00:00",
-      "entry_usd_value": 5.0795,
-      "last_seen_price_usd": 4.848e-06,
-      "entry_signals": {
-        "liquidity_usd": 929.88234434687,
-        "volume_24h_usd": 1058.02,
-        "market_cap_usd": 4838.751493230179,
-        "ath_market_cap_usd": 5000.206263058628,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 9.153286193,
-        "description": "🐕💻 THE DOGE HAS A PC NOW. Charts loaded. PC powered on. Pack assembling. 🚀 DOGEPC is just getting started — don't watch the story from the sidelines.",
-        "twitter": "https://x.com/DogePcETH",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52557,19 +52533,30 @@
       "pnl_pct": -0.01,
       "exit_reason": "LLM: sell_all — AQUAI is flat at -0.0% after 0.0h on a bonding curve with only $428 pool liquidity. Our $5 position is ~1% of the pool — illiquid and no momentum. No ",
       "partial": false
+    },
+    {
+      "mint": "CqyM9VEcHGvTCD6uG3x6fgyZ9xibEVSsztvYRvdkpump",
+      "symbol": "DOGE",
+      "name": "DogePC",
+      "amount_sold": 1047751.6501650165,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T03:26:20.389573+00:00",
+      "exit_time": "2026-09-12T03:27:44.806881+00:00",
+      "entry_price_usd": 4.848e-06,
+      "exit_price_usd": 5.316937935485506e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.054552,
+      "pnl_sol": 0.004552,
+      "pnl_pct": 9.67,
+      "exit_reason": "LLM: sell_all — $DOGE up +9.7%, held 0.0h, not stale, not at TP. Pool $1117 is thin but above min liquidity threshold; selling now into this depth would crash my own ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:26:20.389764+00:00",
+  "last_updated": "2026-09-12T03:27:44.807143+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.59,
-  "portfolio_value_usd": 1153.12,
+  "last_sol_price_usd": 102.12,
+  "portfolio_value_usd": 1159.6,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:00 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $EGOD at $0.000455191 | P&L: +0.3%",
-      "reason": "$EGOD is flat (+0.3%) on a $1037 pool with 0% effective share — no momentum, no volume, no narrative signal. Per scalp discipline, break-even + nothing moving = exit and free the slot for a fresh launch with real attention."
-    },
     {
       "time": "2026-09-12 03:00 UTC",
       "action": "buy",
@@ -52683,30 +52670,48 @@
       "action": "buy",
       "details": "[LLM] $DOGE at $4.848e-06, spent 0.05 SOL",
       "reason": "DogePC leverages the eternal DOGE memecoin brand with a fun 'doge has a PC now' narrative and has an X account (DogePcETH). Ultra-fresh at $4.8k mcap, 1.7min old — pure attention play. Small 0.1 SOL entry to test virality; will exit fast if it doesn't grab attention in first 15min."
+    },
+    {
+      "time": "2026-09-12 03:27 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DOGE at $5.31694e-06 | P&L: +9.7%",
+      "reason": "$DOGE up +9.7%, held 0.0h, not stale, not at TP. Pool $1117 is thin but above min liquidity threshold; selling now into this depth would crash my own exit. Let it breathe toward +20% TP before locking profit."
     }
   ],
   "trade_stats": {
-    "total": 3090,
-    "wins": 1440,
+    "total": 3091,
+    "wins": 1441,
     "losses": 1650,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 7.13457,
-    "avg_pnl_pct": 29.16,
+    "total_pnl_sol": 7.139122,
+    "avg_pnl_pct": 29.15,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 17,
-    "today_realized_sol": 2.101474,
-    "today_target_pct": 525.4,
+    "today_trades": 18,
+    "today_realized_sol": 2.106026,
+    "today_target_pct": 526.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1440,
+      "win_count": 1441,
       "loss_count": 1650,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:26:19.049089+00:00",
+  "last_llm_brief_at": "2026-09-12T03:27:44.806712+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CqyM9VEcHGvTCD6uG3x6fgyZ9xibEVSsztvYRvdkpump": {
+      "price_usd": 5.316937935485506e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1117.07769115296,
+      "volume_h24": 1074.97,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 10.938872808
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

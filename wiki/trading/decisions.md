@@ -22312,3 +22312,6 @@
 ## [2026-09-12 03:26 UTC] buy | [LLM] $DOGE at $4.848e-06, spent 0.05 SOL
 - **Reasoning:** DogePC leverages the eternal DOGE memecoin brand with a fun 'doge has a PC now' narrative and has an X account (DogePcETH). Ultra-fresh at $4.8k mcap, 1.7min old — pure attention play. Small 0.1 SOL entry to test virality; will exit fast if it doesn't grab attention in first 15min.
 
+## [2026-09-12 03:27 UTC] sell | [FULL][LLM] $DOGE at $5.31694e-06 | P&L: +9.7%
+- **Reasoning:** $DOGE up +9.7%, held 0.0h, not stale, not at TP. Pool $1117 is thin but above min liquidity threshold; selling now into this depth would crash my own exit. Let it breathe toward +20% TP before locking profit.
+
