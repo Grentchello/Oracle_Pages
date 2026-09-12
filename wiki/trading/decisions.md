@@ -23116,3 +23116,9 @@
 ## [2026-09-12 11:23 UTC] buy | [LLM] $VPN at $8.767e-06, spent 0.05 SOL
 - **Reasoning:** $VPN has a twitter link (viability gate passes via twitter), narrative is edgy/crypto-native ('Very Private Niggas' plays on crypto privacy culture + attention-grabbing name), and $10k mcap is small enough for a 5-10x. Bond at 32% means curve still has room. Risk: ultra-fresh, no liquidity depth confirmed.
 
+## [2026-09-12 11:24 UTC] sell | [FULL][LLM] $VPN at $1.23062e-05 | P&L: +40.4%
+- **Reasoning:** Position is +40.4% already, well past the +25% auto-TP threshold and the >20% 'lock the gain' rule. Pool is only $3,296 (micro-cap, reversal risk high) and narrative is weak/generic ('VPN'). Take the profit now and rotate capital into a stronger narrative launch.
+
+## [2026-09-12 11:24 UTC] buy | [LLM] $ROMAN at $3.562e-06, spent 0.05 SOL
+- **Reasoning:** $ROMAN (Free Roman Storm) — 0.8min old, real crypto-native narrative (Roman Storm / Tornado Cash trial is an active community cause), explicit X attention signal from @sheluvsblnkr. Fresh attention on a legal/crypto cause is the kind of story that pumps. Risk: brand new, $3.5k mcap, will likely hit the +25%/-25% auto-thresholds fast — tight scalp.
+
