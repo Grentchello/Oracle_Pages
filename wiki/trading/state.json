@@ -1,8 +1,37 @@
 {
-  "balance_sol": 13.037946,
+  "balance_sol": 12.987946,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "9owyL5QCjRd1Mt2oomLrGuH48a8yjKXmq1wDCitq7xCp": {
+      "symbol": "FAPPY",
+      "name": "Anti-Masturbation Dolphin",
+      "mint": "9owyL5QCjRd1Mt2oomLrGuH48a8yjKXmq1wDCitq7xCp",
+      "amount": 10242.18279610916,
+      "entry_price_usd": 0.0005002351649051152,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T10:04:10.372271+00:00",
+      "entry_time_iso": "2026-09-12T10:04:10.372280+00:00",
+      "entry_usd_value": 5.1235,
+      "last_seen_price_usd": 0.0005002351649051152,
+      "entry_liquidity_usd": 1.0247e-07,
+      "entry_pool_sol": 1e-09,
+      "entry_market_cap_usd": 4174.0740174731745,
+      "entry_signals": {
+        "liquidity_usd": 1.0247e-07,
+        "volume_24h_usd": 0.0,
+        "market_cap_usd": 4174.0740174731745,
+        "ath_market_cap_usd": 4174.0740174731745,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1e-09,
+        "description": "",
+        "twitter": "https://x.com/Deku_Yagami/status/2098713676941521190",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54738,17 +54767,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T10:02:52.215498+00:00",
+  "last_updated": "2026-09-12T10:04:10.372784+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.95,
-  "portfolio_value_usd": 1329.22,
+  "last_sol_price_usd": 102.47,
+  "portfolio_value_usd": 1336.0,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 09:17 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $air crashed >15% in one tick | P&L: -45.7%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 09:17 UTC",
       "action": "buy",
@@ -54862,6 +54885,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $🐂🀄️ at $3.43238e-06 | P&L: -1.2%",
       "reason": "Held 0.0h with -1.2% already, pool only $298 (well below 5x position), bonding-curve stage with no real liquidity. No attention catalyst visible, narrative unclear. Cut this stale micro-position free up the slot for fresh launches."
+    },
+    {
+      "time": "2026-09-12 10:04 UTC",
+      "action": "buy",
+      "details": "[LLM] $FAPPY at $0.000500235, spent 0.05 SOL",
+      "reason": "$FAPPY is the only candidate passing the viability gate (has twitter signal), age 0.8min, mcap $4k = ultra-early bonding phase. Crude-humor narrative ('Anti-Masturbation Dolphin') has viral mechanics on CT/X. High rug risk at this stage but that's the edge — catching the first wave before mcap rerates. Position 0.05 SOL, will exit fast if no traction by +15min."
     }
   ],
   "trade_stats": {
@@ -54883,21 +54912,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T10:02:52.215189+00:00",
+  "last_llm_brief_at": "2026-09-12T10:04:09.008131+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "2VfUaVTbmg7ZjFM5chGjpThM3BvqcHfsktqKXqtapump": {
-      "price_usd": 3.4323831757436047e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 297.73209208825,
-      "volume_h24": 575.02,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 2.920373635
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

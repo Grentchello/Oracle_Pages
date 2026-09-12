@@ -22957,3 +22957,6 @@
 ## [2026-09-12 10:02 UTC] sell | [FULL][LLM] $🐂🀄️ at $3.43238e-06 | P&L: -1.2%
 - **Reasoning:** Held 0.0h with -1.2% already, pool only $298 (well below 5x position), bonding-curve stage with no real liquidity. No attention catalyst visible, narrative unclear. Cut this stale micro-position free up the slot for fresh launches.
 
+## [2026-09-12 10:04 UTC] buy | [LLM] $FAPPY at $0.000500235, spent 0.05 SOL
+- **Reasoning:** $FAPPY is the only candidate passing the viability gate (has twitter signal), age 0.8min, mcap $4k = ultra-early bonding phase. Crude-humor narrative ('Anti-Masturbation Dolphin') has viral mechanics on CT/X. High rug risk at this stage but that's the edge — catching the first wave before mcap rerates. Position 0.05 SOL, will exit fast if no traction by +15min.
+
