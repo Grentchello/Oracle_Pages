@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.431792,
+  "balance_sol": 27.482515,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Frw7hX326sUSqYovTWpDnHy84WZZbK2VjLHMQEKQpump": {
-      "symbol": "Bonero",
-      "name": "Bonero",
-      "mint": "Frw7hX326sUSqYovTWpDnHy84WZZbK2VjLHMQEKQpump",
-      "amount": 2668.519966904756,
-      "entry_price_usd": 0.00191207113429184,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T21:43:15.363887+00:00",
-      "entry_time_iso": "2026-09-12T21:43:15.363896+00:00",
-      "entry_usd_value": 5.1024,
-      "last_seen_price_usd": 0.00191207113429184,
-      "entry_liquidity_usd": 528697.5599448296,
-      "entry_pool_sol": 5180.871354116,
-      "entry_market_cap_usd": 10623.838571304892,
-      "entry_signals": {
-        "liquidity_usd": 528697.5599448296,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 10623.838571304892,
-        "ath_market_cap_usd": 11840.598107674887,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5180.871354116,
-        "description": "",
-        "twitter": "https://x.com/0xNarmo/status/2098889649070436446",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59613,19 +59584,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.418364,
       "partial": false
+    },
+    {
+      "mint": "Frw7hX326sUSqYovTWpDnHy84WZZbK2VjLHMQEKQpump",
+      "symbol": "Bonero",
+      "name": "Bonero",
+      "amount_sold": 2668.519966904756,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T21:43:15.363887+00:00",
+      "entry_time_iso": "2026-09-12T21:43:15.363896+00:00",
+      "exit_time": "2026-09-12T21:44:28.941666+00:00",
+      "exit_time_iso": "2026-09-12T21:44:28.941672+00:00",
+      "entry_price_usd": 0.00191207113429184,
+      "exit_price_usd": 0.0019393466081074886,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050723,
+      "pnl_sol": 0.000723,
+      "pnl_pct": 1.43,
+      "exit_reason": "LLM: sell_all — $Bonero is barely +1.4% after 0.0h — too early to call stale, no exit signal yet. Will reassess if it stays flat past 15 min.",
+      "entry_liquidity_usd": 528697.56,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 5180.8714,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 73.577797,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T21:43:15.364146+00:00",
+  "last_updated": "2026-09-12T21:44:29.977531+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.048,
-  "portfolio_value_usd": 2804.46,
+  "last_sol_price_usd": 102.028,
+  "portfolio_value_usd": 2803.99,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 21:27 UTC",
-      "action": "buy",
-      "details": "[LLM] $MDOG at $0.00430928, spent 0.05 SOL",
-      "reason": "$MDOG passes viability gate (has twitter). Fresh launch at $24.5k mcap with bond 36% — some early curve traction. Narrative is weak ('Privacy Dog' is generic) and account __1801 is anonymous, so this is a high-risk speculative entry. Position sized at 0.05 SOL per bot rules."
-    },
     {
       "time": "2026-09-12 21:28 UTC",
       "action": "sell",
@@ -59739,40 +59728,46 @@
       "action": "buy",
       "details": "[LLM] $Bonero at $0.00191207, spent 0.05 SOL",
       "reason": "Bonero = Monero parody, privacy-coin narrative has durable meme appeal, live X post from @0xNarmo, highest mcap of the four ($10.6k) signals real early bids. Risk: sub-90sec old, bond26% means still illiquid — hard stop will protect if it fails to pump."
+    },
+    {
+      "time": "2026-09-12 21:44 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Bonero at $0.00193935 | P&L: +1.4%",
+      "reason": "$Bonero is barely +1.4% after 0.0h — too early to call stale, no exit signal yet. Will reassess if it stays flat past 15 min."
     }
   ],
   "trade_stats": {
-    "total": 3401,
-    "wins": 1577,
+    "total": 3402,
+    "wins": 1578,
     "losses": 1824,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 23.265631,
-    "avg_pnl_pct": 36.73,
+    "total_pnl_sol": 23.266354,
+    "avg_pnl_pct": 36.72,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 328,
-    "today_realized_sol": 18.232535,
-    "today_target_pct": 4558.1,
+    "today_trades": 329,
+    "today_realized_sol": 18.233258,
+    "today_target_pct": 4558.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1577,
+      "win_count": 1578,
       "loss_count": 1824,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T21:43:13.816605+00:00",
+  "last_llm_brief_at": "2026-09-12T21:44:28.941516+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "CTwBGtuYLvxgTXa8PAhty3ccT5BkFQYhhTURS6aApump": {
-      "price_usd": 0.0009318930026588413,
+    "Frw7hX326sUSqYovTWpDnHy84WZZbK2VjLHMQEKQpump": {
+      "price_usd": 0.0019393466081074886,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 61328.82154122489,
+      "liquidity_usd": 474877.98392913083,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 600.980142102
+      "real_sol_reserves": 4654.388833743
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
