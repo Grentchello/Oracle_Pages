@@ -1,5 +1,5 @@
 {
-  "balance_sol": 12.938154,
+  "balance_sol": 12.966973,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -7,13 +7,13 @@
       "symbol": "VOID",
       "name": "VOID",
       "mint": "CyXapDBKh7HEg5xph6NDSkTPPzJ4UvtFEnJpd7Expump",
-      "amount": 716045.0387051373,
+      "amount": 358022.51935256866,
       "entry_price_usd": 7.105e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-12T11:11:38.228202+00:00",
       "entry_time_iso": "2026-09-12T11:11:38.228211+00:00",
       "entry_usd_value": 5.0875,
-      "last_seen_price_usd": 7.105e-06,
+      "last_seen_price_usd": 8.231308053505301e-06,
       "entry_liquidity_usd": 1838.4142920274999,
       "entry_pool_sol": 18.06795373,
       "entry_market_cap_usd": 7325.134532855164,
@@ -55317,19 +55317,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 75.159425,
       "partial": false
+    },
+    {
+      "mint": "CyXapDBKh7HEg5xph6NDSkTPPzJ4UvtFEnJpd7Expump",
+      "symbol": "VOID",
+      "name": "VOID",
+      "amount_sold": 358022.51935256866,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-12T11:11:38.228202+00:00",
+      "entry_time_iso": "2026-09-12T11:11:38.228211+00:00",
+      "exit_time": "2026-09-12T11:12:56.434899+00:00",
+      "exit_time_iso": "2026-09-12T11:12:56.434903+00:00",
+      "entry_price_usd": 7.105e-06,
+      "exit_price_usd": 8.231308053505301e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.028819,
+      "pnl_sol": 0.003819,
+      "pnl_pct": 15.85,
+      "exit_reason": "LLM: sell_half — +15.9% with only 0.0h held and bonding-curve pool at $2,138 (very thin). Lock half the gain now per scalp discipline — fresh 1-min token hasn't shown ",
+      "entry_liquidity_usd": 1838.41,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 18.068,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 78.206713,
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-12T11:11:38.228415+00:00",
+  "last_updated": "2026-09-12T11:12:56.435120+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.75,
-  "portfolio_value_usd": 1321.54,
+  "last_sol_price_usd": 102.26,
+  "portfolio_value_usd": 1328.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 10:29 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Gamestonk crashed >15% in one tick | P&L: -38.6%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 10:29 UTC",
       "action": "buy",
@@ -55443,30 +55461,48 @@
       "action": "buy",
       "details": "[LLM] $VOID at $7.105e-06, spent 0.05 SOL",
       "reason": "$VOID has a clear airdrop-to-top-30 narrative that incentivizes sustained buying (holders don't want to drop out before distribution), freshest launch at 0.7min, 27% bonded showing real SOL inflow, twitter handle present. Viability passes (desc ≥50 chars + twitter). Risk: 60% supply airdrop means heavy sell pressure when distribution hits — but that's a sell-the-news event minutes/hours away, plenty of pump runway first."
+    },
+    {
+      "time": "2026-09-12 11:12 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $VOID at $8.23131e-06 | P&L: +15.8%",
+      "reason": "+15.9% with only 0.0h held and bonding-curve pool at $2,138 (very thin). Lock half the gain now per scalp discipline — fresh 1-min token hasn't shown sustained attention yet, thin liquidity means a reversal wipes it fast. Free up SOL for new entries."
     }
   ],
   "trade_stats": {
-    "total": 3222,
-    "wins": 1498,
+    "total": 3223,
+    "wins": 1499,
     "losses": 1724,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.771966,
+    "total_pnl_sol": 8.775785,
     "avg_pnl_pct": 28.95,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 149,
-    "today_realized_sol": 3.73887,
-    "today_target_pct": 934.7,
+    "today_trades": 150,
+    "today_realized_sol": 3.742689,
+    "today_target_pct": 935.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1498,
+      "win_count": 1499,
       "loss_count": 1724,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T11:11:36.960797+00:00",
+  "last_llm_brief_at": "2026-09-12T11:12:56.434859+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CyXapDBKh7HEg5xph6NDSkTPPzJ4UvtFEnJpd7Expump": {
+      "price_usd": 8.231308053505301e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2137.5245197396603,
+      "volume_h24": 1948.04,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 20.902840991
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

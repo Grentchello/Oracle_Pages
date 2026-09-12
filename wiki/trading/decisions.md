@@ -23089,3 +23089,6 @@
 ## [2026-09-12 11:11 UTC] buy | [LLM] $VOID at $7.105e-06, spent 0.05 SOL
 - **Reasoning:** $VOID has a clear airdrop-to-top-30 narrative that incentivizes sustained buying (holders don't want to drop out before distribution), freshest launch at 0.7min, 27% bonded showing real SOL inflow, twitter handle present. Viability passes (desc ≥50 chars + twitter). Risk: 60% supply airdrop means heavy sell pressure when distribution hits — but that's a sell-the-news event minutes/hours away, plenty of pump runway first.
 
+## [2026-09-12 11:12 UTC] sell | [PARTIAL][LLM] $VOID at $8.23131e-06 | P&L: +15.8%
+- **Reasoning:** +15.9% with only 0.0h held and bonding-curve pool at $2,138 (very thin). Lock half the gain now per scalp discipline — fresh 1-min token hasn't shown sustained attention yet, thin liquidity means a reversal wipes it fast. Free up SOL for new entries.
+
