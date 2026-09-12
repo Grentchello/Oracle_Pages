@@ -24460,3 +24460,6 @@
 ## [2026-09-12 23:52 UTC] buy | [LLM] $CLITCOIN at $3.492e-06, spent 0.05 SOL
 - **Reasoning:** Provocative viral name with active Twitter account — attention signal present. Low mcap (~$3.5k) = maximum upside if it catches. Risk: ultra-fresh launch, high rug probability on shock-value name.
 
+## [2026-09-12 23:54 UTC] sell | [FULL][LLM] $CLITCOIN at $3.51099e-06 | P&L: +0.5%
+- **Reasoning:** Pool is only $330 — far below the 5x-position-size liquidity minimum and the $3k viability threshold. Tiny pool + no momentum (+0.5%) + no clear narrative edge = capital is better redeployed on the next attention-launched candidate.
+

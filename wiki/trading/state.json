@@ -1,37 +1,8 @@
 {
-  "balance_sol": 29.547627,
+  "balance_sol": 29.597879,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "dc63YYhYrRz3jXS8aH6SPoFtcJcNEjESvQV7k92pump": {
-      "symbol": "CLITCOIN",
-      "name": "CLITCOIN",
-      "mint": "dc63YYhYrRz3jXS8aH6SPoFtcJcNEjESvQV7k92pump",
-      "amount": 1465206.1855670102,
-      "entry_price_usd": 3.492e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T23:52:51.285852+00:00",
-      "entry_time_iso": "2026-09-12T23:52:51.285861+00:00",
-      "entry_usd_value": 5.1165,
-      "last_seen_price_usd": 3.492e-06,
-      "entry_liquidity_usd": 330.2029414035,
-      "entry_pool_sol": 3.22684395,
-      "entry_market_cap_usd": 3491.443229680157,
-      "entry_signals": {
-        "liquidity_usd": 330.2029414035,
-        "volume_24h_usd": 332.66,
-        "market_cap_usd": 3491.443229680157,
-        "ath_market_cap_usd": 3495.64765430141,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.22684395,
-        "description": "CLITCOIN",
-        "twitter": "https://x.com/clitcoinonchain/status/2098920730549276779?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -60813,19 +60784,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.045671,
       "partial": false
+    },
+    {
+      "mint": "dc63YYhYrRz3jXS8aH6SPoFtcJcNEjESvQV7k92pump",
+      "symbol": "CLITCOIN",
+      "name": "CLITCOIN",
+      "amount_sold": 1465206.1855670102,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T23:52:51.285852+00:00",
+      "entry_time_iso": "2026-09-12T23:52:51.285861+00:00",
+      "exit_time": "2026-09-12T23:54:04.259179+00:00",
+      "exit_time_iso": "2026-09-12T23:54:04.259187+00:00",
+      "entry_price_usd": 3.492e-06,
+      "exit_price_usd": 3.5109925679995846e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050252,
+      "pnl_sol": 0.000252,
+      "pnl_pct": 0.54,
+      "exit_reason": "LLM: sell_all — Pool is only $330 — far below the 5x-position-size liquidity minimum and the $3k viability threshold. Tiny pool + no momentum (+0.5%) + no clear narra",
+      "entry_liquidity_usd": 330.2,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.2268,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 72.973348,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T23:52:51.286179+00:00",
+  "last_updated": "2026-09-12T23:54:04.259738+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.33,
-  "portfolio_value_usd": 3028.73,
+  "last_sol_price_usd": 102.37,
+  "portfolio_value_usd": 3029.93,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 23:29 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $ANONRUNNER at $1.62364e-05 | P&L: +109.2%",
-      "reason": "Auto take-profit at +109.2%"
-    },
     {
       "time": "2026-09-12 23:30 UTC",
       "action": "buy",
@@ -60939,30 +60928,48 @@
       "action": "buy",
       "details": "[LLM] $CLITCOIN at $3.492e-06, spent 0.05 SOL",
       "reason": "Provocative viral name with active Twitter account — attention signal present. Low mcap (~$3.5k) = maximum upside if it catches. Risk: ultra-fresh launch, high rug probability on shock-value name."
+    },
+    {
+      "time": "2026-09-12 23:54 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CLITCOIN at $3.51099e-06 | P&L: +0.5%",
+      "reason": "Pool is only $330 — far below the 5x-position-size liquidity minimum and the $3k viability threshold. Tiny pool + no momentum (+0.5%) + no clear narrative edge = capital is better redeployed on the next attention-launched candidate."
     }
   ],
   "trade_stats": {
-    "total": 3451,
-    "wins": 1596,
+    "total": 3452,
+    "wins": 1597,
     "losses": 1855,
-    "win_rate_pct": 46.2,
-    "total_pnl_sol": 25.381467,
-    "avg_pnl_pct": 38.15,
+    "win_rate_pct": 46.3,
+    "total_pnl_sol": 25.381719,
+    "avg_pnl_pct": 38.14,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 378,
-    "today_realized_sol": 20.348371,
-    "today_target_pct": 5087.1,
+    "today_trades": 379,
+    "today_realized_sol": 20.348623,
+    "today_target_pct": 5087.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1596,
+      "win_count": 1597,
       "loss_count": 1855,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T23:52:49.861148+00:00",
+  "last_llm_brief_at": "2026-09-12T23:54:04.258801+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "dc63YYhYrRz3jXS8aH6SPoFtcJcNEjESvQV7k92pump": {
+      "price_usd": 3.5109925679995846e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 330.3320151615,
+      "volume_h24": 332.66,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.22684395
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
