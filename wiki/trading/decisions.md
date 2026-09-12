@@ -22405,3 +22405,6 @@
 ## [2026-09-12 04:05 UTC] buy | [LLM] $SCARY DOGE at $3.528e-06, spent 0.05 SOL
 - **Reasoning:** $SCARY DOGE has the strongest viral narrative of the batch — animatronic horror meme hook with an X link, distinctive story (peeling into creepypasta/cursed content lane), lowest bond (11%) means room to run, and passes viability gate (desc + twitter). At $3.7k mcap this has 10x potential if it catches a wave.
 
+## [2026-09-12 04:06 UTC] sell | [FULL][LLM] $SCARY DOGE at $3.82604e-06 | P&L: +8.4%
+- **Reasoning:** Just entered, +8.4% already, very young position. No reason to exit a green trade this fresh — give it room to run toward +30% TP. Will reassess if it stalls or reverses.
+
