@@ -24349,3 +24349,9 @@
 ## [2026-09-12 23:07 UTC] buy | [LLM] $MINEANSEM at $3.3539e-06, spent 0.05 SOL
 - **Reasoning:** $MINEANSEM rides the Ansem KOL meta — Ansem is a real high-following crypto influencer, 'first ever $ansem miner' is a viral meta-narrative. 1.3min old, only 10% bonded, $5k mcap = maximum early-stage upside. Thin liquidity is the risk; size is already capped at 0.1 SOL.
 
+## [2026-09-12 23:08 UTC] sell | [FULL][LLM] $MINEANSEM at $3.08794e-06 | P&L: -7.9%
+- **Reasoning:** $MINEANSEM at -7.9% on a $240 pool with 0 momentum and no narrative traction — capital rotation principle: free the slot for fresher attention. Stale micro-caps on bonding curves rarely recover; better to redeploy into new launches.
+
+## [2026-09-12 23:08 UTC] buy | [LLM] $Pumpkin at $3.4669e-06, spent 0.05 SOL
+- **Reasoning:** $Pumpkin has a timely seasonal narrative (autumn/pumpkin season just starting = meme-worthy), 0.7min old, $3.5k mcap — extreme early but that's where the alpha is. Risky but attention-market play.
+
