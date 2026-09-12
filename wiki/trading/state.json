@@ -1,37 +1,8 @@
 {
-  "balance_sol": 29.473342,
+  "balance_sol": 29.577801,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "H5KaXEF2n5HQ1U8SEAhLCKEwzjfiLYMW8Rrqy5xypump": {
-      "symbol": "ANONRUNNER",
-      "name": "anonymous runner",
-      "mint": "H5KaXEF2n5HQ1U8SEAhLCKEwzjfiLYMW8Rrqy5xypump",
-      "amount": 654619.250096637,
-      "entry_price_usd": 7.761e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T23:28:06.182194+00:00",
-      "entry_time_iso": "2026-09-12T23:28:06.182202+00:00",
-      "entry_usd_value": 5.080500000000001,
-      "last_seen_price_usd": 7.761e-06,
-      "entry_liquidity_usd": 2568.85055749206,
-      "entry_pool_sol": 25.281473846,
-      "entry_market_cap_usd": 8381.541080930836,
-      "entry_signals": {
-        "liquidity_usd": 2568.85055749206,
-        "volume_24h_usd": 3204.62,
-        "market_cap_usd": 8381.541080930836,
-        "ath_market_cap_usd": 8772.303424917638,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 25.281473846,
-        "description": "",
-        "twitter": "https://x.com/anonrunnerx",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -60525,19 +60496,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.017439,
       "partial": false
+    },
+    {
+      "mint": "H5KaXEF2n5HQ1U8SEAhLCKEwzjfiLYMW8Rrqy5xypump",
+      "symbol": "ANONRUNNER",
+      "name": "anonymous runner",
+      "amount_sold": 654619.250096637,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T23:28:06.182194+00:00",
+      "entry_time_iso": "2026-09-12T23:28:06.182202+00:00",
+      "exit_time": "2026-09-12T23:29:10.174714+00:00",
+      "exit_time_iso": "2026-09-12T23:29:10.174721+00:00",
+      "entry_price_usd": 7.761e-06,
+      "exit_price_usd": 1.623639113248801e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.104459,
+      "pnl_sol": 0.054459,
+      "pnl_pct": 109.2,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "entry_liquidity_usd": 2568.85,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 25.2815,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.992537,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T23:28:06.182376+00:00",
+  "last_updated": "2026-09-12T23:29:27.544895+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.61,
-  "portfolio_value_usd": 2999.87,
+  "last_sol_price_usd": 101.75,
+  "portfolio_value_usd": 3009.54,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 23:03 UTC",
-      "action": "buy",
-      "details": "[LLM] $HODL at $5.389e-06, spent 0.05 SOL",
-      "reason": "$HODL: strongest bond completion (24%), classic hold-culture meme meta, X attention confirmed, mcap $7.4k — narrative + early enough for 5-10x attention pump"
-    },
     {
       "time": "2026-09-12 23:04 UTC",
       "action": "sell",
@@ -60651,30 +60640,48 @@
       "action": "buy",
       "details": "[LLM] $ANONRUNNER at $7.761e-06, spent 0.05 SOL",
       "reason": "Anon meta is the strongest current narrative in memecoins (based on ANON, GOAT, and recent anon runners 5-10xing in hours). Real X account linked, $8.4k mcap = early enough to catch a 3-5x but not so low it's a ghost town. Bond at 29% is normal for 30s old; will abort if it stalls. Risking 0.1 SOL on a thin liquidity play — exits via -25% hard stop or 30min timer if no pump."
+    },
+    {
+      "time": "2026-09-12 23:29 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $ANONRUNNER at $1.62364e-05 | P&L: +109.2%",
+      "reason": "Auto take-profit at +109.2%"
     }
   ],
   "trade_stats": {
-    "total": 3439,
-    "wins": 1588,
+    "total": 3440,
+    "wins": 1589,
     "losses": 1851,
     "win_rate_pct": 46.2,
-    "total_pnl_sol": 25.307182,
-    "avg_pnl_pct": 38.2,
+    "total_pnl_sol": 25.361641,
+    "avg_pnl_pct": 38.22,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 366,
-    "today_realized_sol": 20.274086,
-    "today_target_pct": 5068.5,
+    "today_trades": 367,
+    "today_realized_sol": 20.328545,
+    "today_target_pct": 5082.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1588,
+      "win_count": 1589,
       "loss_count": 1851,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T23:28:04.822024+00:00",
+  "last_llm_brief_at": "2026-09-12T23:29:27.544856+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "H5KaXEF2n5HQ1U8SEAhLCKEwzjfiLYMW8Rrqy5xypump": {
+      "price_usd": 1.623639113248801e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4239.9330439455,
+      "volume_h24": 10876.15,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 41.670103626
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
