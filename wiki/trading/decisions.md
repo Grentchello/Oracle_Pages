@@ -23908,3 +23908,6 @@
 ## [2026-09-12 19:30 UTC] buy | [LLM] $KOTH at $0.000101589, spent 0.05 SOL
 - **Reasoning:** $KOTH 'King Of The Hill' — classic memecoin battle narrative with Twitter backing at 0.5min old, $3.8k mcap. Strong attention signal on a freshly-launched narrative token.
 
+## [2026-09-12 19:32 UTC] sell | [FULL][LLM] $KOTH at $9.56766e-05 | P&L: -5.8%
+- **Reasoning:** KOTH is down 5.8% after 0.0h on a thin $365 pool with weak narrative. Not at hard stop yet but no bounce signal and capital is locked. Rotating into fresher attention with a stronger narrative.
+
