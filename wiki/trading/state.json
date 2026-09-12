@@ -1,8 +1,37 @@
 {
-  "balance_sol": 13.00966,
+  "balance_sol": 12.95966,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "83u8Cf1Yzrasgm9dh7G1UYDTDnyJrPugsejKDkzZrMFL": {
+      "symbol": "NEMOCLAW",
+      "name": "NVIDIA NemoClaw",
+      "mint": "83u8Cf1Yzrasgm9dh7G1UYDTDnyJrPugsejKDkzZrMFL",
+      "amount": 1630337.7947737412,
+      "entry_price_usd": 3.138e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T11:38:45.190883+00:00",
+      "entry_time_iso": "2026-09-12T11:38:45.190893+00:00",
+      "entry_usd_value": 5.116,
+      "last_seen_price_usd": 3.138e-06,
+      "entry_liquidity_usd": 150.5746169492,
+      "entry_pool_sol": 1.471604935,
+      "entry_market_cap_usd": 3137.10819680113,
+      "entry_signals": {
+        "liquidity_usd": 150.5746169492,
+        "volume_24h_usd": 149.19,
+        "market_cap_usd": 3137.10819680113,
+        "ath_market_cap_usd": 3137.10819680113,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.471604935,
+        "description": "NVIDIA NemoClaw powered by clawpump.tech : NVIDIA NemoClaw Agent type: Trading agent",
+        "twitter": "https://x.com/QuantsDev1223/status/2098737176636690457",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55506,17 +55535,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T11:37:22.908645+00:00",
+  "last_updated": "2026-09-12T11:38:45.191176+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.3,
-  "portfolio_value_usd": 1330.89,
+  "last_sol_price_usd": 102.32,
+  "portfolio_value_usd": 1331.15,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 11:03 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $🐶 at $0.000460716 | P&L: -0.5%",
-      "reason": "$🐶 just opened (0.0h held) and is only -0.5% — essentially flat. Bonding curve at $4.5k pool means we need a few more minutes to see if attention builds. No reason to panic-exit at the opening tick; will reassess next cycle if it goes stale or down >20%."
-    },
     {
       "time": "2026-09-12 11:06 UTC",
       "action": "buy",
@@ -55630,6 +55653,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $TCAT at $3.66628e-06 | P&L: +0.3%",
       "reason": "$TCAT is essentially flat (+0.3%) after launch, low liquidity ($405 pool, our share is 1%), no momentum signal. Lock the slot and rotate to fresh attention."
+    },
+    {
+      "time": "2026-09-12 11:38 UTC",
+      "action": "buy",
+      "details": "[LLM] $NEMOCLAW at $3.138e-06, spent 0.05 SOL",
+      "reason": "$NEMOCLAW rides the NVIDIA+AI-agent attention meta that is hot on CT right now, has twitter link, passes viability gate, and is a fresh 1.7min launch where early 0.1 SOL ($10) gets me in before any confirmation move; small size keeps loss bounded if it rugs."
     }
   ],
   "trade_stats": {
@@ -55651,7 +55680,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T11:37:22.908215+00:00",
+  "last_llm_brief_at": "2026-09-12T11:38:43.863685+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",

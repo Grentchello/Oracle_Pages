@@ -23137,3 +23137,6 @@
 ## [2026-09-12 11:32 UTC] sell | [FULL][LLM] $TCAT at $3.66628e-06 | P&L: +0.3%
 - **Reasoning:** $TCAT is essentially flat (+0.3%) after launch, low liquidity ($405 pool, our share is 1%), no momentum signal. Lock the slot and rotate to fresh attention.
 
+## [2026-09-12 11:38 UTC] buy | [LLM] $NEMOCLAW at $3.138e-06, spent 0.05 SOL
+- **Reasoning:** $NEMOCLAW rides the NVIDIA+AI-agent attention meta that is hot on CT right now, has twitter link, passes viability gate, and is a fresh 1.7min launch where early 0.1 SOL ($10) gets me in before any confirmation move; small size keeps loss bounded if it rugs.
+
