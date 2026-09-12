@@ -1,8 +1,32 @@
 {
-  "balance_sol": 13.259436,
+  "balance_sol": 13.209436,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "4y9sguMG2KFppiCUzmvTCXJ4KNsHafXioMMBX1hbpump": {
+      "symbol": "peach",
+      "name": "peach",
+      "amount": 1141749.1007194247,
+      "entry_price_usd": 4.448e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T05:01:35.245305+00:00",
+      "entry_usd_value": 5.0785,
+      "last_seen_price_usd": 4.448e-06,
+      "entry_signals": {
+        "liquidity_usd": 1032.7833969343799,
+        "volume_24h_usd": 5577.64,
+        "market_cap_usd": 5469.004059348217,
+        "ath_market_cap_usd": 5736.535569025426,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 10.168193334,
+        "description": "Launched on discord.gg/uxento",
+        "twitter": "https://x.com/herrdevs/status/2098637857254420944?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52977,17 +53001,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T05:00:21.507064+00:00",
+  "last_updated": "2026-09-12T05:01:35.245563+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.073,
-  "portfolio_value_usd": 1353.43,
+  "last_sol_price_usd": 101.57,
+  "portfolio_value_usd": 1346.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 04:06 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SCARY DOGE at $3.82604e-06 | P&L: +8.4%",
-      "reason": "Just entered, +8.4% already, very young position. No reason to exit a green trade this fresh — give it room to run toward +30% TP. Will reassess if it stalls or reverses."
-    },
     {
       "time": "2026-09-12 04:15 UTC",
       "action": "buy",
@@ -53101,6 +53119,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $ButtPlug at $3.64589e-06 | P&L: +6.3%",
       "reason": "Tiny pool ($399) with our 1% share means even modest selling will move the price against us. Up only 6.3% with no momentum signal, still on bonding curve, and we'd rather rotate capital into a fresh launch with more attention flow than babysit a thin microcap. Take the small green and redeploy."
+    },
+    {
+      "time": "2026-09-12 05:01 UTC",
+      "action": "buy",
+      "details": "[LLM] $peach at $4.448e-06, spent 0.05 SOL",
+      "reason": "Freshest launch with attached twitter link from a real-looking account (herrdevs), $5.5k mcap, bond22% means curve still filling. Attention signal exists.0.1 SOL test entry to observe viability gate behavior and early price action. Risk: no liquidity depth, possible rug, may be a throwaway."
     }
   ],
   "trade_stats": {
@@ -53122,21 +53146,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:00:21.506739+00:00",
+  "last_llm_brief_at": "2026-09-12T05:01:33.925358+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "EerBKjgSrQLpwMpxrZYViDMqCBK6NLSRocc1K8NNpump": {
-      "price_usd": 3.6458880752372312e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 398.93746847020793,
-      "volume_h24": 344.57,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 3.908354496
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
