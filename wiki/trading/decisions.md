@@ -22792,3 +22792,6 @@
 ## [2026-09-12 07:51 UTC] sell | [FULL][LLM] $BREVOLE at $3.52663e-06 | P&L: +7.1%
 - **Reasoning:** Just entered, +7% is small profit. Bonding-curve token with $350 pool is fragile though - if it stalls I'll exit fast on the staleness rule.
 
+## [2026-09-12 07:55 UTC] buy | [LLM] $REVFART at $3.946e-06, spent 0.05 SOL
+- **Reasoning:** $REVFART — absurdist 'first fart on Revolve' narrative is exactly the kind of stupid-attention meme that pumps 10x in hour one. Lowest mcap ($4.5k) = most upside, IO_Gambles tweet is the viral seed. Risk: ultra-low liquidity, may dump as fast as it pumps — use tight mental exit at +30-50%.
+
