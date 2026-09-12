@@ -22798,3 +22798,6 @@
 ## [2026-09-12 07:56 UTC] sell | [PARTIAL][LLM] $REVFART at $5.76317e-06 | P&L: +46.0%
 - **Reasoning:** Up +46% past the +30% TP threshold; bot should have auto-triggered but bonding-curve + thin $1295 pool may have stalled execution. Lock half the gain now ($5 of paper profit banked) and let the rest ride — narrative is crude attention-bait with no clear continuation catalyst beyond the initial pump.
 
+## [2026-09-12 07:57 UTC] sell | [PARTIAL][LLM] $REVFART at $5.14742e-06 | P&L: +30.4%
+- **Reasoning:** Up +30.4% right at the first TP threshold — lock in gains. Bonding-curve token with thin $1051 pool, reversal risk is real. Take half, let the rest ride if narrative holds.
+
