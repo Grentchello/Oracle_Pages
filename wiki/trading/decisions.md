@@ -24331,3 +24331,9 @@
 ## [2026-09-12 22:57 UTC] sell | [PARTIAL][LLM] $Penny at $2.85564e-06 | P&L: -48.5%
 - **Reasoning:** Fresh entry at 0.0h held, only -10.2% which is well above the -25% hard cap and 30min stale timer. No reason to panic-exit a brand new position; give the bonding-curve trade room to develop. The 2293% share figure is bonding-curve math on a microcap, not a rug signal.
 
+## [2026-09-12 22:59 UTC] sell | [FULL][LLM] $Penny at $2.85536e-06 | P&L: -55.1%
+- **Reasoning:** $Penny is -10.2% after only 6 minutes, sitting on bonding curve with zero pool liquidity and our 25% share makes us effectively a whale exit. No clear narrative or bounce signal — flat-to-down on a brand-new token with thin depth is a trap. Cut it before the -25% hard stop, free the slot for a fresh launch.
+
+## [2026-09-12 22:59 UTC] buy | [LLM] $RISE at $7.128e-06, spent 0.05 SOL
+- **Reasoning:** $RISE has a clear narrative hook — 60% airdrop to top 15 holders creates forced buying pressure and an attention magnet (people will shill it to qualify). $8.5k mcap at <1 min old with 30% bonded is the sweet spot: tiny enough for 5-10x, far enough along bonding curve that it's not pure lottery. Best of the four launches.
+
