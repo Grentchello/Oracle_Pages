@@ -1,37 +1,8 @@
 {
-  "balance_sol": 16.826037,
+  "balance_sol": 16.869998,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8DZExkLjnykZrR2VK2BxSb4ntqbFW1dBdAJdt6Y8pump": {
-      "symbol": "$CAT",
-      "name": "CHILL CAT",
-      "mint": "8DZExkLjnykZrR2VK2BxSb4ntqbFW1dBdAJdt6Y8pump",
-      "amount": 1572331.8938926589,
-      "entry_price_usd": 3.242e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T16:51:12.112039+00:00",
-      "entry_time_iso": "2026-09-12T16:51:12.112048+00:00",
-      "entry_usd_value": 5.0975,
-      "last_seen_price_usd": 3.242e-06,
-      "entry_liquidity_usd": 365.1473567086,
-      "entry_pool_sol": 3.581631748,
-      "entry_market_cap_usd": 3381.423690258113,
-      "entry_signals": {
-        "liquidity_usd": 365.1473567086,
-        "volume_24h_usd": 205.99,
-        "market_cap_usd": 3381.423690258113,
-        "ath_market_cap_usd": 3381.423690258113,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.581631748,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57645,19 +57616,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.056287,
       "partial": false
+    },
+    {
+      "mint": "8DZExkLjnykZrR2VK2BxSb4ntqbFW1dBdAJdt6Y8pump",
+      "symbol": "$CAT",
+      "name": "CHILL CAT",
+      "amount_sold": 1572331.786592659,
+      "fraction_sold": 0.9999999317574106,
+      "entry_time": "2026-09-12T16:51:12.112039+00:00",
+      "entry_time_iso": "2026-09-12T16:51:12.112048+00:00",
+      "exit_time": "2026-09-12T16:52:37.025959+00:00",
+      "exit_time_iso": "2026-09-12T16:52:37.025965+00:00",
+      "entry_price_usd": 3.242e-06,
+      "exit_price_usd": 2.8663560123301394e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.043961,
+      "pnl_sol": -0.006039,
+      "pnl_pct": -11.59,
+      "exit_reason": "LLM: sell_all — Down 11.6% on bonding curve with $0 pool and 366M% share concentration — selling would dump to zero. Holding to see if bonding curve completes and rea",
+      "entry_liquidity_usd": 365.15,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.5816,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 84.913938,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T16:51:12.112209+00:00",
+  "last_updated": "2026-09-12T16:52:37.026554+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.95,
-  "portfolio_value_usd": 1720.51,
+  "last_sol_price_usd": 102.52,
+  "portfolio_value_usd": 1729.51,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 16:24 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $PUMPLIFE crashed >15% in one tick | P&L: -39.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 16:27 UTC",
       "action": "buy",
@@ -57771,40 +57760,46 @@
       "action": "buy",
       "details": "[LLM] $$CAT at $3.242e-06, spent 0.05 SOL",
       "reason": "$$CAT / CHILL CAT — cat narrative is the most proven viral template in memecoins (POPCAT, MEW lineage). Fresh<1.5min launch with clean ticker. If passes viability gate, this is the strongest attention play of the batch; the other candidates are either too vague ($chillfly), meta-niche ($Pstr), or pure trolling ($ )."
+    },
+    {
+      "time": "2026-09-12 16:52 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $$CAT at $2.86636e-06 | P&L: -11.6%",
+      "reason": "Down 11.6% on bonding curve with $0 pool and 366M% share concentration — selling would dump to zero. Holding to see if bonding curve completes and real liquidity emerges. Will exit on stale (>30min flat) or -25% hard cap."
     }
   ],
   "trade_stats": {
-    "total": 3319,
+    "total": 3320,
     "wins": 1536,
-    "losses": 1783,
+    "losses": 1784,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 12.659851,
-    "avg_pnl_pct": 31.19,
+    "total_pnl_sol": 12.653812,
+    "avg_pnl_pct": 31.17,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 246,
-    "today_realized_sol": 7.626755,
-    "today_target_pct": 1906.7,
+    "today_trades": 247,
+    "today_realized_sol": 7.620716,
+    "today_target_pct": 1905.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1536,
-      "loss_count": 1783,
+      "loss_count": 1784,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T16:51:10.797259+00:00",
+  "last_llm_brief_at": "2026-09-12T16:52:37.025439+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "VnjVQt1pdsHqx2PWLnhqLtFB3DwxTXZSPnLgdEtpump": {
-      "price_usd": 1.2007321879866784e-05,
+    "8DZExkLjnykZrR2VK2BxSb4ntqbFW1dBdAJdt6Y8pump": {
+      "price_usd": 2.8663560123301394e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3218.862087341,
-      "volume_h24": 8409.67,
+      "liquidity_usd": 1.23024e-06,
+      "volume_h24": 411.77,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 31.57294838
+      "real_sol_reserves": 1.2e-08
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
