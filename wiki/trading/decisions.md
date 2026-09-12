@@ -22984,3 +22984,6 @@
 ## [2026-09-12 10:13 UTC] sell | [PARTIAL][LLM] $$NOVAL at $3.73667e-06 | P&L: +30.8%
 - **Reasoning:** Up +30.8% on a $441 bonding-curve pool with 2% of supply already in our hands — liquidity is razor-thin and any further upside is unreliable. TP threshold at 25% is already hit per the rules. Selling half locks the gain and lets the rest ride for free; full exit would be defensible but sell_half preserves narrative optionality if it keeps pushing.
 
+## [2026-09-12 10:15 UTC] sell | [PARTIAL][LLM] $$NOVAL at $3.67921e-06 | P&L: +28.8%
+- **Reasoning:** Up +28.8% in minutes, pool only $406 — lock in the gain on this explosive move, ride the rest with reduced risk. Profits at this magnitude on a bonding-curve microcap evaporate fast.
+
