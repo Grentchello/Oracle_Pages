@@ -1,37 +1,8 @@
 {
-  "balance_sol": 19.429826,
+  "balance_sol": 19.476073,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DN45eASpge3xe56EgWTVkN5J8QAqxGCy2rb9hopjpump": {
-      "symbol": "PEC",
-      "name": "peecash",
-      "mint": "DN45eASpge3xe56EgWTVkN5J8QAqxGCy2rb9hopjpump",
-      "amount": 5356.368943691777,
-      "entry_price_usd": 0.0009495238385305421,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T18:18:08.778564+00:00",
-      "entry_time_iso": "2026-09-12T18:18:08.778572+00:00",
-      "entry_usd_value": 5.086,
-      "last_seen_price_usd": 0.0009495238385305421,
-      "entry_liquidity_usd": 71414.44048452984,
-      "entry_pool_sol": 702.068821122,
-      "entry_market_cap_usd": 5037.901702109264,
-      "entry_signals": {
-        "liquidity_usd": 71414.44048452984,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5037.901702109264,
-        "ath_market_cap_usd": 6666.37519047419,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 702.068821122,
-        "description": "",
-        "twitter": "https://x.com/canerturanx/status/2098838363444752400",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -58125,19 +58096,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 80.335396,
       "partial": false
+    },
+    {
+      "mint": "DN45eASpge3xe56EgWTVkN5J8QAqxGCy2rb9hopjpump",
+      "symbol": "PEC",
+      "name": "peecash",
+      "amount_sold": 5356.368943691777,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T18:18:08.778564+00:00",
+      "entry_time_iso": "2026-09-12T18:18:08.778572+00:00",
+      "exit_time": "2026-09-12T18:19:22.899637+00:00",
+      "exit_time_iso": "2026-09-12T18:19:22.899918+00:00",
+      "entry_price_usd": 0.0009495238385305421,
+      "exit_price_usd": 0.0008821317437863362,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.046247,
+      "pnl_sol": -0.003753,
+      "pnl_pct": -7.1,
+      "exit_reason": "LLM: sell_all — Only 0.0h held, -7.1% is well within tolerance and the bot's -25% hard stop is far away. No signal to exit a fresh position yet — give it time to deve",
+      "entry_liquidity_usd": 71414.44,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 702.0688,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 74.12137,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T18:18:08.778758+00:00",
+  "last_updated": "2026-09-12T18:19:22.900170+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.72,
-  "portfolio_value_usd": 1981.49,
+  "last_sol_price_usd": 102.17,
+  "portfolio_value_usd": 1989.87,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 17:46 UTC",
-      "action": "buy",
-      "details": "[LLM] $ASTGPT at $3.24761e-06, spent 0.05 SOL",
-      "reason": "GPT-6 / 3D-game-from-text narrative ties into the AI agent meta that's been pumping all cycle; has twitter link, low mcap $3.2k = room to run. Risk: bond only 6% incomplete, brand-new."
-    },
     {
       "time": "2026-09-12 17:48 UTC",
       "action": "sell",
@@ -58251,30 +58240,48 @@
       "action": "buy",
       "details": "[LLM] $PEC at $0.000949524, spent 0.05 SOL",
       "reason": "$PEC just launched (~0.5min, mcap $5k) with an active twitter post — fresh attention moment. Viability gate likely passes (has twitter). Fragility: 'peecash' has no political/celebrity keyword hits. Bond only 7% means dev hasn't even finished the curve yet, but that's typical for sub-1-min launches. Small 0.1 SOL test position to learn how ultra-fresh memecoin launches behave."
+    },
+    {
+      "time": "2026-09-12 18:19 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PEC at $0.000882132 | P&L: -7.1%",
+      "reason": "Only 0.0h held, -7.1% is well within tolerance and the bot's -25% hard stop is far away. No signal to exit a fresh position yet — give it time to develop."
     }
   ],
   "trade_stats": {
-    "total": 3339,
+    "total": 3340,
     "wins": 1546,
-    "losses": 1793,
+    "losses": 1794,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 15.26364,
-    "avg_pnl_pct": 32.57,
+    "total_pnl_sol": 15.259887,
+    "avg_pnl_pct": 32.56,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 266,
-    "today_realized_sol": 10.230544,
-    "today_target_pct": 2557.6,
+    "today_trades": 267,
+    "today_realized_sol": 10.226791,
+    "today_target_pct": 2556.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1546,
-      "loss_count": 1793,
+      "loss_count": 1794,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T18:18:07.327235+00:00",
+  "last_llm_brief_at": "2026-09-12T18:19:22.899128+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "DN45eASpge3xe56EgWTVkN5J8QAqxGCy2rb9hopjpump": {
+      "price_usd": 0.0008821317437863362,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 35541.73248082598,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 347.868576694
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

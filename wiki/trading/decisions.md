@@ -23806,3 +23806,6 @@
 ## [2026-09-12 18:18 UTC] buy | [LLM] $PEC at $0.000949524, spent 0.05 SOL
 - **Reasoning:** $PEC just launched (~0.5min, mcap $5k) with an active twitter post — fresh attention moment. Viability gate likely passes (has twitter). Fragility: 'peecash' has no political/celebrity keyword hits. Bond only 7% means dev hasn't even finished the curve yet, but that's typical for sub-1-min launches. Small 0.1 SOL test position to learn how ultra-fresh memecoin launches behave.
 
+## [2026-09-12 18:19 UTC] sell | [FULL][LLM] $PEC at $0.000882132 | P&L: -7.1%
+- **Reasoning:** Only 0.0h held, -7.1% is well within tolerance and the bot's -25% hard stop is far away. No signal to exit a fresh position yet — give it time to develop.
+
