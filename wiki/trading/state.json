@@ -1,8 +1,37 @@
 {
-  "balance_sol": 13.145229,
+  "balance_sol": 13.095229,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "2hr2qxU8Jc563fcsMmDk7W6iPJWFcq1yBRK43hRVpump": {
+      "symbol": "TCAT",
+      "name": "Tesla Cat",
+      "mint": "2hr2qxU8Jc563fcsMmDk7W6iPJWFcq1yBRK43hRVpump",
+      "amount": 807301.5873015873,
+      "entry_price_usd": 6.3e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T07:24:52.196604+00:00",
+      "entry_time_iso": "2026-09-12T07:24:52.196615+00:00",
+      "entry_usd_value": 5.086,
+      "last_seen_price_usd": 6.3e-06,
+      "entry_liquidity_usd": 2720.23835584364,
+      "entry_pool_sol": 26.742414037,
+      "entry_market_cap_usd": 10334.203399365495,
+      "entry_signals": {
+        "liquidity_usd": 2720.23835584364,
+        "volume_24h_usd": 4610.72,
+        "market_cap_usd": 10334.203399365495,
+        "ath_market_cap_usd": 10339.612791479507,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 26.742414037,
+        "description": "",
+        "twitter": "https://x.com/TCATotc/status/2098673617777135793",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53898,17 +53927,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T07:23:35.333799+00:00",
+  "last_updated": "2026-09-12T07:24:52.196918+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.75,
-  "portfolio_value_usd": 1337.53,
+  "last_sol_price_usd": 101.72,
+  "portfolio_value_usd": 1337.13,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 06:57 UTC",
-      "action": "buy",
-      "details": "[LLM] $DOGUE at $0.00150742, spent 0.05 SOL",
-      "reason": "$DOGUE has the strongest attention signal in this batch — cobie tweet (legit CT influencer, 600k+ followers), dog-themed derivative narrative riding $DOGE meta, fresh 0.9min launch at $12.5k mcap. Risk: bonding curve only 31%, thin liquidity, but name + attention combo is the exact pattern we want for early-momentum catching."
-    },
     {
       "time": "2026-09-12 06:58 UTC",
       "action": "sell",
@@ -54022,6 +54045,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $TOPCAT at $2.84483e-06 | P&L: -54.9%",
       "reason": "Down 9.8% in <30min with 8M% pool share means the liquidity is microscopic relative to my position — I'm essentially trapped in a tiny pool. No narrative momentum, no bounce signal, generic name. Exit before the -25% hard stop forces an even worse fill."
+    },
+    {
+      "time": "2026-09-12 07:24 UTC",
+      "action": "buy",
+      "details": "[LLM] $TCAT at $6.3e-06, spent 0.05 SOL",
+      "reason": "Tesla Cat has the strongest attention signal: Elon-adjacent cat meme (historically viral), has a dedicated Twitter account, and the dropping mcap from $10k to $6k within seconds suggests an early dip entry.0.05 SOL position to test the wave."
     }
   ],
   "trade_stats": {
@@ -54043,21 +54072,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T07:23:35.333024+00:00",
+  "last_llm_brief_at": "2026-09-12T07:24:50.765207+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "8fN9xY5dg84qXWmb9hXnRdZ7i86VyPL15m7Vd5D3pump": {
-      "price_usd": 2.844827587534483e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1.4244999999999999e-06,
-      "volume_h24": 475.8,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.4e-08
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
