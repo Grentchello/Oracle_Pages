@@ -22282,3 +22282,9 @@
 ## [2026-09-12 03:16 UTC] buy | [LLM] $NETFLIIX at $6.00246e-06, spent 0.05 SOL
 - **Reasoning:** $NETFLIIX — 'Netflix And Chill' is a viral meme phrase with twitter presence (viability gate passes). $5.9k mcap at 0.5min age = ultra-fresh with massive room. Risk: ultra-low mcap = high rug probability, but 0.05 SOL ($5) keeps loss bounded at -$1.25.
 
+## [2026-09-12 03:17 UTC] sell | [rapid-drop] $NETFLIIX crashed >15% in one tick | P&L: -52.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 03:18 UTC] buy | [LLM] $Watching at $6.046e-06, spent 0.05 SOL
+- **Reasoning:** $Watching has the clearest viral attention signal of the batch: a specific KOL tweet (KankiAlpha status 2098611627927191937) attached to a 1.3min-old token at $7,989 mcap. Passes viability (twitter present) and fragility (no blocked keywords) gates. Risk: extremely thin liquidity at this mcap — size small (0.05 SOL) and plan to exit fast on any pump.
+
