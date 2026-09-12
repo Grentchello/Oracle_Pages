@@ -1,32 +1,32 @@
 {
-  "balance_sol": 27.211875,
+  "balance_sol": 27.192095,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "B7479FRvoQT4QxRstexbpwEp4ue19z6NcGj6ayqepump": {
-      "symbol": "duck",
-      "name": "holduck",
-      "mint": "B7479FRvoQT4QxRstexbpwEp4ue19z6NcGj6ayqepump",
-      "amount": 774610.2109446652,
-      "entry_price_usd": 3.271e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-12T21:20:53.222535+00:00",
-      "entry_time_iso": "2026-09-12T21:20:53.222543+00:00",
-      "entry_usd_value": 5.0675,
-      "last_seen_price_usd": 3.832772435893137e-06,
-      "entry_liquidity_usd": 257.81491130715,
-      "entry_pool_sol": 2.543807709,
-      "entry_market_cap_usd": 3329.7133186255633,
+    "AH8VLAupTZZpeKt5q8iUscd7ejogz4gGSPXV6n9rpump": {
+      "symbol": "KEMO",
+      "name": "Kemo Family",
+      "mint": "AH8VLAupTZZpeKt5q8iUscd7ejogz4gGSPXV6n9rpump",
+      "amount": 841453.2756900565,
+      "entry_price_usd": 6.014e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T21:23:27.681931+00:00",
+      "entry_time_iso": "2026-09-12T21:23:27.681939+00:00",
+      "entry_usd_value": 5.0605,
+      "last_seen_price_usd": 6.014e-06,
+      "entry_liquidity_usd": 1683.9643412902399,
+      "entry_pool_sol": 16.638319744,
+      "entry_market_cap_usd": 5895.952727542839,
       "entry_signals": {
-        "liquidity_usd": 257.81491130715,
-        "volume_24h_usd": 225.32,
-        "market_cap_usd": 3329.7133186255633,
-        "ath_market_cap_usd": 3329.7133186255633,
+        "liquidity_usd": 1683.9643412902399,
+        "volume_24h_usd": 1568.36,
+        "market_cap_usd": 5895.952727542839,
+        "ath_market_cap_usd": 6982.315774834468,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 2.543807709,
+        "real_sol_reserves": 16.638319744,
         "description": "",
-        "twitter": "",
+        "twitter": "https://x.com/kemocalls",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -59301,25 +59301,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 79.692183,
       "partial": true
+    },
+    {
+      "mint": "B7479FRvoQT4QxRstexbpwEp4ue19z6NcGj6ayqepump",
+      "symbol": "duck",
+      "name": "holduck",
+      "amount_sold": 774610.2109446652,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T21:20:53.222535+00:00",
+      "entry_time_iso": "2026-09-12T21:20:53.222543+00:00",
+      "exit_time": "2026-09-12T21:23:26.339159+00:00",
+      "exit_time_iso": "2026-09-12T21:23:26.339166+00:00",
+      "entry_price_usd": 3.271e-06,
+      "exit_price_usd": 3.948534682379413e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.03022,
+      "pnl_sol": 0.00522,
+      "pnl_pct": 20.71,
+      "exit_reason": "LLM: sell_all — Already +20.7% and the prompt explicitly says 'be aggressive taking profit' when up >20%. Bonding-curve token on thin $550 pool — easy to dump on me. ",
+      "entry_liquidity_usd": 257.81,
+      "exit_liquidity_usd": 496.26,
+      "entry_pool_sol": 2.5438,
+      "exit_pool_sol": 4.8989,
+      "hold_duration_seconds": 153.116643,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T21:22:12.914969+00:00",
+  "last_updated": "2026-09-12T21:23:27.682197+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.3,
-  "portfolio_value_usd": 2759.1,
+  "last_sol_price_usd": 101.21,
+  "portfolio_value_usd": 2757.17,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 20:37 UTC",
-      "action": "buy",
-      "details": "[LLM] $icat at $3.225e-06, spent 0.05 SOL",
-      "reason": "Fresh 0.5min launch on cat meta — recognizable narrative with broader audience appeal than $HARDDRUG. Sub-$4k mcap is risky but the 0.05 SOL position size keeps downside contained. Testing whether cat-narrative micro-caps pump in first hour."
-    },
-    {
-      "time": "2026-09-12 20:38 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $icat at $2.84792e-06 | P&L: -11.7%",
-      "reason": "Down 11.7% on a bonding-curve token with pool=$0 and our share=50228% — exit liquidity is dangerously thin and there's no bounce signal or viral catalyst to justify holding. Per scalp discipline, losers get cut fast before they bleed to -25% hard stop. Freeing the slot for a stronger setup."
-    },
     {
       "time": "2026-09-12 20:38 UTC",
       "action": "buy",
@@ -59427,40 +59439,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $duck at $3.83277e-06 | P&L: +17.2%",
       "reason": "+17.2% with very thin liquidity (pool=$496, only 1% of pool). At this size a single seller dumps the bag. Lock half the gain — ride the rest with house money."
+    },
+    {
+      "time": "2026-09-12 21:23 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $duck at $3.94853e-06 | P&L: +20.7%",
+      "reason": "Already +20.7% and the prompt explicitly says 'be aggressive taking profit' when up >20%. Bonding-curve token on thin $550 pool — easy to dump on me. Lock the gain rather than watch it retrace into a stop."
+    },
+    {
+      "time": "2026-09-12 21:23 UTC",
+      "action": "buy",
+      "details": "[LLM] $KEMO at $6.014e-06, spent 0.05 SOL",
+      "reason": "KEMO has a named mascot ('Kemo Family'), a real twitter handle (kemocalls), 0.6min age = first-mover, $5.9k mcap with 23% bonded. Narrative + attention + fresh = classic memecoin launch setup."
     }
   ],
   "trade_stats": {
-    "total": 3388,
-    "wins": 1570,
+    "total": 3389,
+    "wins": 1571,
     "losses": 1818,
-    "win_rate_pct": 46.3,
-    "total_pnl_sol": 23.020714,
-    "avg_pnl_pct": 36.71,
+    "win_rate_pct": 46.4,
+    "total_pnl_sol": 23.025934,
+    "avg_pnl_pct": 36.7,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 315,
-    "today_realized_sol": 17.987618,
-    "today_target_pct": 4496.9,
+    "today_trades": 316,
+    "today_realized_sol": 17.992838,
+    "today_target_pct": 4498.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1570,
+      "win_count": 1571,
       "loss_count": 1818,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T21:22:12.914649+00:00",
+  "last_llm_brief_at": "2026-09-12T21:23:26.338729+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "B7479FRvoQT4QxRstexbpwEp4ue19z6NcGj6ayqepump": {
-      "price_usd": 3.832772435893137e-06,
+      "price_usd": 3.948534682379413e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 496.26300379969996,
-      "volume_h24": 499.1,
+      "liquidity_usd": 550.3597531815,
+      "volume_h24": 685.26,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.898943769
+      "real_sol_reserves": 5.43780015
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

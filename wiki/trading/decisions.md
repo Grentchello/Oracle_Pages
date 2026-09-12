@@ -24103,3 +24103,9 @@
 ## [2026-09-12 21:22 UTC] sell | [PARTIAL][LLM] $duck at $3.83277e-06 | P&L: +17.2%
 - **Reasoning:** +17.2% with very thin liquidity (pool=$496, only 1% of pool). At this size a single seller dumps the bag. Lock half the gain — ride the rest with house money.
 
+## [2026-09-12 21:23 UTC] sell | [FULL][LLM] $duck at $3.94853e-06 | P&L: +20.7%
+- **Reasoning:** Already +20.7% and the prompt explicitly says 'be aggressive taking profit' when up >20%. Bonding-curve token on thin $550 pool — easy to dump on me. Lock the gain rather than watch it retrace into a stop.
+
+## [2026-09-12 21:23 UTC] buy | [LLM] $KEMO at $6.014e-06, spent 0.05 SOL
+- **Reasoning:** KEMO has a named mascot ('Kemo Family'), a real twitter handle (kemocalls), 0.6min age = first-mover, $5.9k mcap with 23% bonded. Narrative + attention + fresh = classic memecoin launch setup.
+
