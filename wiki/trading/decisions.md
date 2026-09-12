@@ -23599,3 +23599,9 @@
 ## [2026-09-12 16:22 UTC] buy | [LLM] $CRT at $3.213e-06, spent 0.05 SOL
 - **Reasoning:** $CRT has a clear retro/nostalgia narrative (1986 CRT vibe for degen traders), an X presence (crt86vibe), and is at $4k mcap with bond 15% — pure fresh launch with attention hook. Position sized 0.05 SOL per bot rules.
 
+## [2026-09-12 16:23 UTC] sell | [v8.7 TP +50% (full)] $CRT at $5.94088e-06 | P&L: +84.9%
+- **Reasoning:** Auto take-profit at +84.9%
+
+## [2026-09-12 16:23 UTC] buy | [LLM] $PUMPLIFE at $0.000212914, spent 0.05 SOL
+- **Reasoning:** $PUMPLIFE is 30s old at $7.6k mcap with a twitter signal attached (rare for sub-$10k launches) and bond 25% formed. Generic 'pump life' name is exactly the attention-bait that memecoins reward. $POP skipped: bond only 8%, liquidity too thin to safely size 0.1 SOL — viability gate concern.
+
