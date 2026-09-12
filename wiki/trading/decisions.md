@@ -22948,3 +22948,6 @@
 ## [2026-09-12 09:57 UTC] buy | [LLM] $WOWCOIN at $2.305e-05, spent 0.05 SOL
 - **Reasoning:** Self-referential 'virality' meta-narrative is peak attention-market content; already has twitter traction and $24k mcap shows early attention. Dogenames historically pump on meta-humor. Risk: 0.7min old, bond incomplete, could rug — but 0.05 SOL position keeps risk bounded.
 
+## [2026-09-12 09:58 UTC] sell | [rapid-drop] $WOWCOIN crashed >15% in one tick | P&L: -87.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
