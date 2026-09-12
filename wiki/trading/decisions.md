@@ -23755,3 +23755,9 @@
 ## [2026-09-12 17:49 UTC] buy | [LLM] $SAME at $6.39e-06, spent 0.05 SOL
 - **Reasoning:** $SAME is 0.5min old, $11.6k mcap with 31% bond showing organic buy flow, has live X attention (twitter link live). 'Same Coin' is a viral-friendly meta name in a fresh attention window. Sizing 0.05 SOL — small enough to take the early risk. Will watch closely for +20% to lock gains or -20% to exit.
 
+## [2026-09-12 17:50 UTC] sell | [v8.7 TP +50% (full)] $SAME at $0.000196491 | P&L: +2975.0%
+- **Reasoning:** Auto take-profit at +2975.0%
+
+## [2026-09-12 17:50 UTC] buy | [LLM] $Toly  at $3.096e-06, spent 0.05 SOL
+- **Reasoning:** Narrative is the strongest of the three: tied to Anatoly Yakovenko (Solana co-founder) with an active @toly X post and a clear holder-incentive story ('hold the pot, get goodies'). $3.3k mcap with real social proof beats the generic $PILLS/$watch launches that have no twitter and no hook. Risk: brand-rug risk if creator dumps, and Toly-named coins have rugged before — size stays at minimum 0.1 SOL with -25% hard cap.
+
