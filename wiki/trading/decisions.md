@@ -23902,3 +23902,9 @@
 ## [2026-09-12 19:29 UTC] buy | [LLM] $DOGA at $0.000132512, spent 0.05 SOL
 - **Reasoning:** Fresh 0.8min Pumpfun launch with meta-narrative ('The Pumpfun Hero' = pumpfun itself is the meme), active X link, $5k mcap means I'm getting in at the floor if it graduates. Risk: ultra-early bonding curve, thin liquidity, my 0.1 SOL is ~0.2% of mcap so size matters. Auto -25% stop handles rug case; +50% TP locks profit if narrative catches.
 
+## [2026-09-12 19:30 UTC] sell | [FULL][LLM] $DOGA at $0.000114833 | P&L: -13.3%
+- **Reasoning:** $DOGA down -13.3% on bonding curve with $10k pool and 0% share — no bounce signal, fresh entry showing weakness. Free the slot for better attention.
+
+## [2026-09-12 19:30 UTC] buy | [LLM] $KOTH at $0.000101589, spent 0.05 SOL
+- **Reasoning:** $KOTH 'King Of The Hill' — classic memecoin battle narrative with Twitter backing at 0.5min old, $3.8k mcap. Strong attention signal on a freshly-launched narrative token.
+
