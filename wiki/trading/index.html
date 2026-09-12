@@ -349,7 +349,8 @@ async function renderHoldings(state, watchlist) {
       '<div>' +
         '<div class="token-name">$' + sym + (spark ? ' <span class="sparkline-cell">' + spark + '</span>' : '') + '</div>' +
         '<div class="token-meta">' + amount.toFixed(2) + ' @ ' + fmtUSD(entryPrice) + '</div>' +
-        '<div class="position-mint" title="Full mint address">' + mintFull + '</div>' +
+        '<div class="position-mint-full-mono" title="Full mint address">' + mintFull + '</div>' +
+        '<button class="position-mint-copy" onclick="navigator.clipboard.writeText(\''+mintFull+'\').then(()=>this.textContent=\'✓ copied\')" title="Copy full mint">COPY</button>' +
         '<div class="position-time">↗ bought: ' + entryTimeShort + '</div>' +
         '<div class="position-liq">💧 entry liq: ' + (entryLiq > 0 ? '$' + entryLiq.toFixed(0) : (entryPool > 0 ? entryPool.toFixed(2) + ' SOL' : '?')) + '</div>' +
         (liquidityBadge ? liquidityBadge : '') +
@@ -450,8 +451,8 @@ async function renderTrades(state) {
         <span class="token-change ${cls}">${sign}${sol.toFixed(4)} SOL</span>
       </div>
       <div class="trade-row-2">
-        <span class="trade-mint" title="${mintFull}">${mintShort}</span>
-        <span class="trade-mint-full" onclick="this.classList.toggle('expanded')" title="Click to expand">${mintFull}</span>
+        <span class="trade-mint-full-mono" title="Full mint address (click to copy)">${mintFull}</span>
+        <button class="trade-mint-copy" onclick="navigator.clipboard.writeText('${mintFull}').then(()=>this.textContent='✓ copied')" title="Copy full mint">COPY</button>
       </div>
       <div class="trade-row-3">
         <span class="trade-time" title="Entry: ${entryTime}">↗ ${entryDate} ${entryShort}</span>
