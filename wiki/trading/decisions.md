@@ -23212,3 +23212,6 @@
 ## [2026-09-12 12:15 UTC] buy | [LLM] $Hoodtard at $8.975e-06, spent 0.05 SOL
 - **Reasoning:** $Hoodtard has two live X accounts linked (Hoodtardpump status + SolHoodtard), 1.6min age at $7.6k mcap — fits the 'tard' archetype meme that's been pumping. Small position to test if the social accounts drive attention. Risk: no description substance, bond only 28%, could be abandoned quickly.
 
+## [2026-09-12 12:16 UTC] sell | [PARTIAL][LLM] $Hoodtard at $1.06609e-05 | P&L: +18.8%
+- **Reasoning:** Up 18.8% in under an hour on a fresh entry — lock in gains on half. Pool is thin ($2.8k) so any reversal will be brutal. Take profit on half, let the rest ride with the stop at -25%.
+

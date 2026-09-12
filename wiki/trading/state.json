@@ -1,5 +1,5 @@
 {
-  "balance_sol": 12.820324,
+  "balance_sol": 12.85002,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -7,13 +7,13 @@
       "symbol": "Hoodtard",
       "name": "Hoodtard",
       "mint": "5bUL5ouUVoUxKeF8Hd7WBk3QH2LLXcnnaFkReCUepump",
-      "amount": 571810.5849582173,
+      "amount": 285905.29247910867,
       "entry_price_usd": 8.975e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-12T12:15:34.266804+00:00",
       "entry_time_iso": "2026-09-12T12:15:34.266813+00:00",
       "entry_usd_value": 5.132000000000001,
-      "last_seen_price_usd": 8.975e-06,
+      "last_seen_price_usd": 1.0660864030262158e-05,
       "entry_liquidity_usd": 2480.24616057008,
       "entry_pool_sol": 24.164518322,
       "entry_market_cap_usd": 7633.832972653562,
@@ -55821,19 +55821,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 76.441178,
       "partial": false
+    },
+    {
+      "mint": "5bUL5ouUVoUxKeF8Hd7WBk3QH2LLXcnnaFkReCUepump",
+      "symbol": "Hoodtard",
+      "name": "Hoodtard",
+      "amount_sold": 285905.29247910867,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-12T12:15:34.266804+00:00",
+      "entry_time_iso": "2026-09-12T12:15:34.266813+00:00",
+      "exit_time": "2026-09-12T12:16:48.826005+00:00",
+      "exit_time_iso": "2026-09-12T12:16:48.826009+00:00",
+      "entry_price_usd": 8.975e-06,
+      "exit_price_usd": 1.0660864030262158e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.029696,
+      "pnl_sol": 0.004696,
+      "pnl_pct": 18.78,
+      "exit_reason": "LLM: sell_half — Up 18.8% in under an hour on a fresh entry — lock in gains on half. Pool is thin ($2.8k) so any reversal will be brutal. Take profit on half, let the ",
+      "entry_liquidity_usd": 2480.25,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 24.1645,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 74.559217,
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-12T12:15:34.266982+00:00",
+  "last_updated": "2026-09-12T12:16:48.826323+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 102.64,
-  "portfolio_value_usd": 1321.01,
+  "portfolio_value_usd": 1322.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 11:46 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $NIKE at $0.005892 | P&L: +0.9%",
-      "reason": "Just entered, +0.9% with a deep $204k pool. No movement to react to yet — give it time to develop or hit stop."
-    },
     {
       "time": "2026-09-12 11:48 UTC",
       "action": "buy",
@@ -55947,30 +55965,48 @@
       "action": "buy",
       "details": "[LLM] $Hoodtard at $8.975e-06, spent 0.05 SOL",
       "reason": "$Hoodtard has two live X accounts linked (Hoodtardpump status + SolHoodtard), 1.6min age at $7.6k mcap — fits the 'tard' archetype meme that's been pumping. Small position to test if the social accounts drive attention. Risk: no description substance, bond only 28%, could be abandoned quickly."
+    },
+    {
+      "time": "2026-09-12 12:16 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Hoodtard at $1.06609e-05 | P&L: +18.8%",
+      "reason": "Up 18.8% in under an hour on a fresh entry — lock in gains on half. Pool is thin ($2.8k) so any reversal will be brutal. Take profit on half, let the rest ride with the stop at -25%."
     }
   ],
   "trade_stats": {
-    "total": 3243,
-    "wins": 1505,
+    "total": 3244,
+    "wins": 1506,
     "losses": 1738,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 8.654136,
-    "avg_pnl_pct": 28.7,
+    "total_pnl_sol": 8.658832,
+    "avg_pnl_pct": 28.69,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 170,
-    "today_realized_sol": 3.62104,
-    "today_target_pct": 905.3,
+    "today_trades": 171,
+    "today_realized_sol": 3.625736,
+    "today_target_pct": 906.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1505,
+      "win_count": 1506,
       "loss_count": 1738,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T12:15:32.650823+00:00",
+  "last_llm_brief_at": "2026-09-12T12:16:48.825960+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5bUL5ouUVoUxKeF8Hd7WBk3QH2LLXcnnaFkReCUepump": {
+      "price_usd": 1.0660864030262158e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2855.7219711088,
+      "volume_h24": 18106.16,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 27.82270042
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
