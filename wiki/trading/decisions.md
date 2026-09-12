@@ -22360,3 +22360,6 @@
 ## [2026-09-12 03:45 UTC] sell | [FULL][LLM] $DOGGPT at $4.77944e-06 | P&L: +40.5%
 - **Reasoning:** +40.5% in <1h hit the +30% TP zone. Per scalp discipline, lock the gain before reversal. Thin $906 pool means exit urgency is high - the only exit liquidity is other early buyers. Don't hope for more.
 
+## [2026-09-12 03:46 UTC] buy | [LLM] $VAMPGPT at $3.07e-06, spent 0.05 SOL
+- **Reasoning:** VampGPT — narrative collision play (CATGPT on Robinhood chain vs. existing CATGPT, community beef is built-in drama). Has twitter link with engagement, GPT-naming meta is hot, 0.8min fresh. Attention market fits the 'story + meta' pattern.
+
