@@ -1,8 +1,37 @@
 {
-  "balance_sol": 12.824931,
+  "balance_sol": 12.774931,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "8SqbErBMkDFfcYevB8XngdRWs2Ck6Uf7ZsHCPZbMYo6V": {
+      "symbol": "Comrades",
+      "name": "Comrades",
+      "mint": "8SqbErBMkDFfcYevB8XngdRWs2Ck6Uf7ZsHCPZbMYo6V",
+      "amount": 1570956.7936467913,
+      "entry_price_usd": 3.261706509512103e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T15:06:30.341210+00:00",
+      "entry_time_iso": "2026-09-12T15:06:30.341219+00:00",
+      "entry_usd_value": 5.1240000000000006,
+      "last_seen_price_usd": 3.261706509512103e-06,
+      "entry_liquidity_usd": 205.81633435776,
+      "entry_pool_sol": 2.008356112,
+      "entry_market_cap_usd": 3245.474363533851,
+      "entry_signals": {
+        "liquidity_usd": 205.81633435776,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3245.474363533851,
+        "ath_market_cap_usd": 5067.32756829137,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 2.008356112,
+        "description": "",
+        "twitter": "https://x.com/toly/status/2098790143062921303",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56874,17 +56903,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T15:05:08.001234+00:00",
+  "last_updated": "2026-09-12T15:06:30.341526+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 102.48,
   "portfolio_value_usd": 1314.3,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 14:23 UTC",
-      "action": "buy",
-      "details": "[LLM] $GS at $5.19e-06, spent 0.05 SOL",
-      "reason": "$GS 'Genuine Stupidity' has the only real attention signal in the batch — a live X post (ddddddd8a) at sub-$7k mcap, 0.9min old. Bond 26% means thin liquidity but we're catching the curve pre-migration. Narrative is weak/absurdist (which is fine for memecoins — PEPE/Zeus/etc. all ran on absurdist energy). 0.1 SOL position."
-    },
     {
       "time": "2026-09-12 14:25 UTC",
       "action": "sell",
@@ -56998,6 +57021,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $FRONTIER at $2.86524e-06 | P&L: -11.8%",
       "reason": "Just entered 0.0h ago, down only -11.8% (well within -25% hard stop). Bonding curve token needs a few minutes to develop — let narrative breathe. Auto-exit will fire at -25% or 30min if it doesn't recover."
+    },
+    {
+      "time": "2026-09-12 15:06 UTC",
+      "action": "buy",
+      "details": "[LLM] $Comrades at $3.26171e-06, spent 0.05 SOL",
+      "reason": "$Comrades — Twitter post is from TOLY (Anatoly Yakovenko, Solana co-founder). This is the highest-attention signal possible on a Solana memecoin. 0.5min old, mcap $3.2k — catching it at the floor before any organic pump from toly's reach (millions of followers). Bond only 6% = thin liquidity risk, but at 0.05 SOL position ($5), this is a calculated scalp on rare attention. Hard stop at -25% will auto-protect."
     }
   ],
   "trade_stats": {
@@ -57019,21 +57048,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T15:05:08.000767+00:00",
+  "last_llm_brief_at": "2026-09-12T15:06:28.949058+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "2To49C9JbbzpDAqPjwk5Bv2K1fREaGKUU6f2S3Pag2WL": {
-      "price_usd": 2.865237652590643e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1.22976e-06,
-      "volume_h24": 1963.46,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.2e-08
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
