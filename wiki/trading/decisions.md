@@ -22918,3 +22918,6 @@
 ## [2026-09-12 09:22 UTC] sell | [rapid-drop] $HORACE crashed >15% in one tick | P&L: -63.5%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 09:28 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
