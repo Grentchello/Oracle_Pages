@@ -23860,3 +23860,9 @@
 ## [2026-09-12 18:56 UTC] buy | [LLM] $ZZZ at $4.955e-06, spent 0.05 SOL
 - **Reasoning:** $ZZZ 'Sleep To Earn' has a viral-ready parody narrative (Sleep-to-Earn trend riffs), an active X post driving attention, $5.5k mcap with 84% of curve still to fill, and 1.2min age — textbook early-attention entry. Risky because no holders yet, but that's the point of catching attention at the source.
 
+## [2026-09-12 18:57 UTC] sell | [v8.7 TP +50% (full)] $ZZZ at $0.000194753 | P&L: +3830.4%
+- **Reasoning:** Auto take-profit at +3830.4%
+
+## [2026-09-12 18:57 UTC] buy | [LLM] $PVP at $0.00164011, spent 0.05 SOL
+- **Reasoning:** $PVP (pvpcat) — ultra-fresh launch at ~$4.2k mcap with a Twitter link pointing to a real X post (toly/status/...). PvP/gaming/cat narrative has meme-coin legs; entering at sub-$5k mcap gives maximum attention-multiple exposure. Risk: brand new mint, bond only 6%, but that's where the alpha is.
+
