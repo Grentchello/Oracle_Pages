@@ -24181,3 +24181,6 @@
 ## [2026-09-12 21:45 UTC] buy | [LLM] $SHADOW at $0.000847228, spent 0.05 SOL
 - **Reasoning:** $SHADOW — recognizable Sonic IP, freshest launch (0.5min), mcap $4.6k is in the sweet spot for early attention. Viral character meme with X presence. Risk: brand IP but that's what drives attention.
 
+## [2026-09-12 21:47 UTC] sell | [FULL][LLM] $SHADOW at $0.000809355 | P&L: -4.5%
+- **Reasoning:** Only -4.5% and 0.0h old on bonding curve — not a loser yet, just freshly minted. No catalyst to bail. If it doesn't bounce within the next check, it's a stale exit.
+

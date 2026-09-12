@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.432515,
+  "balance_sol": 27.480526,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3PUecmCRJQu634srJUhqJCNUQVMnssDJqHMNrdYUpump": {
-      "symbol": "SHADOW",
-      "name": "Shadow The Hedgehog",
-      "mint": "3PUecmCRJQu634srJUhqJCNUQVMnssDJqHMNrdYUpump",
-      "amount": 6022.167680422375,
-      "entry_price_usd": 0.00084722815284382,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T21:45:45.001944+00:00",
-      "entry_time_iso": "2026-09-12T21:45:45.001954+00:00",
-      "entry_usd_value": 5.102150000000001,
-      "last_seen_price_usd": 0.00084722815284382,
-      "entry_liquidity_usd": 1.0204300000000001e-07,
-      "entry_pool_sol": 1e-09,
-      "entry_market_cap_usd": 4645.256328322291,
-      "entry_signals": {
-        "liquidity_usd": 1.0204300000000001e-07,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4645.256328322291,
-        "ath_market_cap_usd": 4645.256328322291,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1e-09,
-        "description": "",
-        "twitter": "https://x.com/i/web/status/2098890660967580076",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59637,19 +59608,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 73.577797,
       "partial": false
+    },
+    {
+      "mint": "3PUecmCRJQu634srJUhqJCNUQVMnssDJqHMNrdYUpump",
+      "symbol": "SHADOW",
+      "name": "Shadow The Hedgehog",
+      "amount_sold": 6022.167649064083,
+      "fraction_sold": 0.9999999947928563,
+      "entry_time": "2026-09-12T21:45:45.001944+00:00",
+      "entry_time_iso": "2026-09-12T21:45:45.001954+00:00",
+      "exit_time": "2026-09-12T21:47:02.976350+00:00",
+      "exit_time_iso": "2026-09-12T21:47:02.976354+00:00",
+      "entry_price_usd": 0.00084722815284382,
+      "exit_price_usd": 0.0008093552995877367,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.048011,
+      "pnl_sol": -0.001989,
+      "pnl_pct": -4.47,
+      "exit_reason": "LLM: sell_all — Only -4.5% and 0.0h old on bonding curve — not a loser yet, just freshly minted. No catalyst to bail. If it doesn't bounce within the next check, it's",
+      "entry_liquidity_usd": 0.0,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 0.0,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 77.974505,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T21:45:45.002287+00:00",
+  "last_updated": "2026-09-12T21:47:02.977159+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.043,
-  "portfolio_value_usd": 2804.4,
+  "last_sol_price_usd": 101.52,
+  "portfolio_value_usd": 2789.82,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 21:28 UTC",
-      "action": "buy",
-      "details": "[LLM] $OCC at $6.502e-06, spent 0.05 SOL",
-      "reason": "$OCC has a real narrative (physical cards on-chain), 50+ char description, bonding 18% in <1min showing traction. Sub-$5k mcap gives big upside if the story lands. Risk: low liquidity so stop matters."
-    },
     {
       "time": "2026-09-12 21:29 UTC",
       "action": "sell",
@@ -59763,30 +59752,48 @@
       "action": "buy",
       "details": "[LLM] $SHADOW at $0.000847228, spent 0.05 SOL",
       "reason": "$SHADOW — recognizable Sonic IP, freshest launch (0.5min), mcap $4.6k is in the sweet spot for early attention. Viral character meme with X presence. Risk: brand IP but that's what drives attention."
+    },
+    {
+      "time": "2026-09-12 21:47 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SHADOW at $0.000809355 | P&L: -4.5%",
+      "reason": "Only -4.5% and 0.0h old on bonding curve — not a loser yet, just freshly minted. No catalyst to bail. If it doesn't bounce within the next check, it's a stale exit."
     }
   ],
   "trade_stats": {
-    "total": 3402,
+    "total": 3403,
     "wins": 1578,
-    "losses": 1824,
+    "losses": 1825,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 23.266354,
-    "avg_pnl_pct": 36.72,
+    "total_pnl_sol": 23.264365,
+    "avg_pnl_pct": 36.71,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 329,
-    "today_realized_sol": 18.233258,
-    "today_target_pct": 4558.3,
+    "today_trades": 330,
+    "today_realized_sol": 18.231269,
+    "today_target_pct": 4557.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1578,
-      "loss_count": 1824,
+      "loss_count": 1825,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T21:45:43.451111+00:00",
+  "last_llm_brief_at": "2026-09-12T21:47:02.976194+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3PUecmCRJQu634srJUhqJCNUQVMnssDJqHMNrdYUpump": {
+      "price_usd": 0.0008093552995877367,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.0152e-07,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
