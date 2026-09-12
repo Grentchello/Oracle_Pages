@@ -23110,3 +23110,6 @@
 ## [2026-09-12 11:19 UTC] buy | [LLM] $PUI at $5.64e-06, spent 0.05 SOL
 - **Reasoning:** Firefighter charity narrative with active X handle @PUI_fireman, 1.2min old, bond30%. Narrative-driven attention play at sub-$10k mcap.
 
+## [2026-09-12 11:20 UTC] sell | [v8.7 TP +50% (full)] $PUI at $8.74769e-06 | P&L: +55.1%
+- **Reasoning:** Auto take-profit at +55.1%
+
