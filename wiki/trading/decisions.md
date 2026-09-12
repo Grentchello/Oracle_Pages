@@ -24313,3 +24313,6 @@
 ## [2026-09-12 22:51 UTC] buy | [LLM] $BAPE at $2.91e-06, spent 0.05 SOL
 - **Reasoning:** BAPE has recognizable NFT brand recognition, $3.2k mcap = ground floor, only 5% bond means early entry. BAPE NFT narrative is the kind of viral attention that pumps fast. Position size 0.05 SOL.
 
+## [2026-09-12 22:52 UTC] sell | [FULL][LLM] $BAPE at $3.16377e-06 | P&L: +8.7%
+- **Reasoning:** $BAPE is +8.7% after just minutes, bonding curve, $169 pool. APE narrative is evergreen attention. Holding to see if it pushes toward +20-30% before taking profit. Will exit if it stalls or reverses.
+
