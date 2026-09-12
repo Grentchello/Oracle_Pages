@@ -1,8 +1,37 @@
 {
-  "balance_sol": 13.166044,
+  "balance_sol": 13.116044,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "6AAsP2dJWT9VvA5V8UjKWQmQDey2KhE2yfKgsZDZpump": {
+      "symbol": "air",
+      "name": "air",
+      "mint": "6AAsP2dJWT9VvA5V8UjKWQmQDey2KhE2yfKgsZDZpump",
+      "amount": 918862.8158844765,
+      "entry_price_usd": 5.54e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T09:16:10.354815+00:00",
+      "entry_time_iso": "2026-09-12T09:16:10.354823+00:00",
+      "entry_usd_value": 5.0905000000000005,
+      "last_seen_price_usd": 5.54e-06,
+      "entry_liquidity_usd": 104.0420610599,
+      "entry_pool_sol": 1.02192379,
+      "entry_market_cap_usd": 5491.220468730263,
+      "entry_signals": {
+        "liquidity_usd": 104.0420610599,
+        "volume_24h_usd": 3957.51,
+        "market_cap_usd": 5491.220468730263,
+        "ath_market_cap_usd": 6819.960672218032,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.02192379,
+        "description": "",
+        "twitter": "https://x.com/nftCryonix/status/2098701440264900854",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54498,17 +54527,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T09:14:48.397636+00:00",
+  "last_updated": "2026-09-12T09:16:10.355099+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.79,
-  "portfolio_value_usd": 1340.17,
+  "last_sol_price_usd": 101.81,
+  "portfolio_value_usd": 1340.43,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 08:25 UTC",
-      "action": "buy",
-      "details": "[LLM] $Dojo at $0.000873062, spent 0.05 SOL",
-      "reason": "$Dojo is 1.2min old at $7.3k mcap with a Twitter link signaling real attention; narrative is clean dog-coin play, bond 22% shows buyers already stepping in. Position size 0.05 SOL (bot-enforced), tight stop at -25%."
-    },
     {
       "time": "2026-09-12 08:26 UTC",
       "action": "sell",
@@ -54622,6 +54645,12 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-12 09:16 UTC",
+      "action": "buy",
+      "details": "[LLM] $air at $5.54e-06, spent 0.05 SOL",
+      "reason": "$air is the cleanest new launch — passes viability gate (twitter present, desc present), mcap $5.5k gives maximum attention-leverage, simple memorable name, fresh (1min old). Narrative is weak but memecoins are attention not logic. 0.1 SOL position, -25% hard stop, +50% partial TP target."
     }
   ],
   "trade_stats": {
@@ -54643,7 +54672,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T09:14:48.397203+00:00",
+  "last_llm_brief_at": "2026-09-12T09:16:09.099646+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
