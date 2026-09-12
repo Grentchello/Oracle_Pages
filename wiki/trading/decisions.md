@@ -24040,3 +24040,6 @@
 ## [2026-09-12 20:33 UTC] buy | [LLM] $TEDSUCKS at $4.17e-06, spent 0.05 SOL
 - **Reasoning:** Genuine viral mainstream moment: 10 minutes of 'TED YOU SUCK' chants on ESPN College GameDay with X post amplifying it. Time-stamped, real-world attention signal that memecoins love. Risk: bond only 15%, $4k mcap, very early — could fail to graduate. But asymmetric:0.1 SOL position, hard -25% cap, and a concrete story beats vague launches.
 
+## [2026-09-12 20:34 UTC] sell | [FULL][LLM] $TEDSUCKS at $4.16961e-06 | P&L: -0.0%
+- **Reasoning:** Just opened at $0.00000417, flat at -0.0% with no time held. Need a tick or two to see if it pumps or dies. Position size is tiny (0.05 SOL), not worth churning.
+
