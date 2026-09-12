@@ -23416,3 +23416,6 @@
 ## [2026-09-12 14:23 UTC] buy | [LLM] $GS at $5.19e-06, spent 0.05 SOL
 - **Reasoning:** $GS 'Genuine Stupidity' has the only real attention signal in the batch — a live X post (ddddddd8a) at sub-$7k mcap, 0.9min old. Bond 26% means thin liquidity but we're catching the curve pre-migration. Narrative is weak/absurdist (which is fine for memecoins — PEPE/Zeus/etc. all ran on absurdist energy). 0.1 SOL position.
 
+## [2026-09-12 14:25 UTC] sell | [FULL][LLM] $GS at $7.22809e-06 | P&L: +39.3%
+- **Reasoning:** $GS up +39.3% on bonding curve with pool only $1809 and our share 0% — liquidity is razor thin, any reversal dumps fast. Take the guaranteed 39% gain now. Bonding-curve tokens often reverse violently once early buyers rotate out.
+
