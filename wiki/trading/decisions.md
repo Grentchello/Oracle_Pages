@@ -24001,3 +24001,6 @@
 ## [2026-09-12 20:17 UTC] sell | [FULL][LLM] $Mindshare at $3.58449e-06 | P&L: -0.6%
 - **Reasoning:** Just entered (0.0h held) at -0.6% — well within noise band and far from the -25% hard cap or the 30min stale exit. Pool is thin ($379) but name 'Mindshare' is narratively on-theme (attention markets). Give it at least one tick to develop a signal before exiting.
 
+## [2026-09-12 20:19 UTC] buy | [LLM] $GLASS at $3.602e-06, spent 0.05 SOL
+- **Reasoning:** GLASS has a clear viral narrative (collaborative stained-glass canvas, hold-to-paint mechanic), active X presence (@GLASSonchain), and tiny $3.2k mcap with real upside. Classic attention-token setup. Risk: 6% bond means illiquid and could rug fast — small position sized accordingly.
+
