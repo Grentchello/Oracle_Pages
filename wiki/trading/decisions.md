@@ -24022,3 +24022,9 @@
 ## [2026-09-12 20:25 UTC] buy | [LLM] $cAIt at $6.627e-06, spent 0.05 SOL
 - **Reasoning:** AI meme narrative with attached X post (shawmakesmagic), highest bond progress (29%) of the fresh batch, $8k mcap = max upside runway. Riding the AI attention wave.
 
+## [2026-09-12 20:26 UTC] sell | [FULL][LLM] $cAIt at $7.80592e-06 | P&L: +17.8%
+- **Reasoning:** Up +17.8% but only 0.0h held — within the profit-taking window where the prompt says to be aggressive. Pool is thin ($2k), bonding-curve phase means low float and high rug risk. Lock the gain rather than hope for +50%+.
+
+## [2026-09-12 20:26 UTC] buy | [LLM] $STONKZZ at $3.623e-06, spent 0.05 SOL
+- **Reasoning:** STONKZZ / Stonkzz — pure irony-meme narrative ('join the bagholders, embrace the delusion') which is exactly the attention-launched formula. 0.5min old, $5k mcap, bonding curve not complete — earliest entry. 0.05 SOL ($5) per position rules. High rug risk but that's the memecoin game.
+
