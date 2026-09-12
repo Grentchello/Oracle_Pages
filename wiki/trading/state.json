@@ -1,8 +1,37 @@
 {
-  "balance_sol": 22.836286,
+  "balance_sol": 22.786286,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "9u2Me5P1YNMLAJXPWYE255h67178Nj8cAaS3hXkgpump": {
+      "symbol": "MANLET",
+      "name": "MANLET",
+      "mint": "9u2Me5P1YNMLAJXPWYE255h67178Nj8cAaS3hXkgpump",
+      "amount": 1587313.3544819679,
+      "entry_price_usd": 3.1947063166081414e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T19:39:40.436133+00:00",
+      "entry_time_iso": "2026-09-12T19:39:40.436141+00:00",
+      "entry_usd_value": 5.071000000000001,
+      "last_seen_price_usd": 3.1947063166081414e-06,
+      "entry_liquidity_usd": 1.1156199999999999e-06,
+      "entry_pool_sol": 1.1e-08,
+      "entry_market_cap_usd": 5034.085775494416,
+      "entry_signals": {
+        "liquidity_usd": 1.1156199999999999e-06,
+        "volume_24h_usd": null,
+        "market_cap_usd": 5034.085775494416,
+        "ath_market_cap_usd": 6755.563884087204,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.1e-08,
+        "description": "",
+        "twitter": "https://x.com/Devonte43513/status/2098858778758152568",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -58578,17 +58607,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T19:38:21.387801+00:00",
+  "last_updated": "2026-09-12T19:39:40.436454+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.91,
-  "portfolio_value_usd": 2327.25,
+  "last_sol_price_usd": 101.42,
+  "portfolio_value_usd": 2316.06,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 18:59 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 19:06 UTC",
       "action": "buy",
@@ -58702,6 +58725,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $APE at $2.8493e-06 | P&L: -10.3%",
       "reason": "Down -10.3% within minutes of entry on a bonding-curve token with $0 pool liquidity and a 22-billion-percent 'share' figure that signals the curve is effectively empty of other buyers. This is the exact profile where -10% snowballs to -50%: no real liquidity to exit into, price only drops further. Cutting now beats waiting for the -25% hard stop to fire at a worse price."
+    },
+    {
+      "time": "2026-09-12 19:39 UTC",
+      "action": "buy",
+      "details": "[LLM] $MANLET at $3.19471e-06, spent 0.05 SOL",
+      "reason": "$MANLET — 'manlet' is a recognizable viral meme format with active crypto-twitter circulation, has a twitter link (rare at this stage), $5k mcap is early but not microscopic, and 9% bond shows organic demand. The other two launches ($fone, $DOG) are derivative/generic with no narrative hook or social signal. Risk: brand-new mint, fragility gate may still flag it — but if it passes, this has the most attention potential of the three."
     }
   ],
   "trade_stats": {
@@ -58723,21 +58752,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T19:38:21.386778+00:00",
+  "last_llm_brief_at": "2026-09-12T19:39:39.033247+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "8awAsSXYTS6QbknNoSotaaNNYY2WVQ1CnWUveGiPpump": {
-      "price_usd": 2.8493010253530473e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2.0382e-07,
-      "volume_h24": 634.45,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 2e-09
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
