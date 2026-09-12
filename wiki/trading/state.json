@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.792852,
+  "balance_sol": 12.825038,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GsByCzanwQv9smshQ3GmcH4kAAS3GWfm7RvYwAWBpump": {
-      "symbol": "CRAB",
-      "name": "Cheerful Crab",
-      "mint": "GsByCzanwQv9smshQ3GmcH4kAAS3GWfm7RvYwAWBpump",
-      "amount": 1079521.3892418467,
-      "entry_price_usd": 4.722e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T14:35:11.947169+00:00",
-      "entry_time_iso": "2026-09-12T14:35:11.947178+00:00",
-      "entry_usd_value": 5.0975,
-      "last_seen_price_usd": 4.722e-06,
-      "entry_liquidity_usd": 12.199781502,
-      "entry_pool_sol": 0.11966436,
-      "entry_market_cap_usd": 3526.6424274869073,
-      "entry_signals": {
-        "liquidity_usd": 12.199781502,
-        "volume_24h_usd": 1296.12,
-        "market_cap_usd": 3526.6424274869073,
-        "ath_market_cap_usd": 5189.620335829932,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.11966436,
-        "description": "",
-        "twitter": "https://twitter.com/jackclarkSF/status/2098782151730929781",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56709,19 +56680,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 76.429501,
       "partial": false
+    },
+    {
+      "mint": "GsByCzanwQv9smshQ3GmcH4kAAS3GWfm7RvYwAWBpump",
+      "symbol": "CRAB",
+      "name": "Cheerful Crab",
+      "amount_sold": 1079521.3892418467,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T14:35:11.947169+00:00",
+      "entry_time_iso": "2026-09-12T14:35:11.947178+00:00",
+      "exit_time": "2026-09-12T14:36:15.961813+00:00",
+      "exit_time_iso": "2026-09-12T14:36:15.961821+00:00",
+      "entry_price_usd": 4.722e-06,
+      "exit_price_usd": 3.0387465734580564e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.032186,
+      "pnl_sol": -0.017814,
+      "pnl_pct": -35.65,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 12.2,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 0.1197,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 64.014664,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T14:35:11.947330+00:00",
+  "last_updated": "2026-09-12T14:36:26.064925+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.95,
-  "portfolio_value_usd": 1309.33,
+  "last_sol_price_usd": 101.92,
+  "portfolio_value_usd": 1307.13,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 13:58 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $panda at $3.25829e-06 | P&L: +0.5%",
-      "reason": "$panda is +0.5% after 0min, fresh entry on bonding curve. Not yet stale (15min threshold), no profit to lock, no loss signal. Give it a few minutes to develop — bonding curve tokens often take a few minutes before the first push."
-    },
     {
       "time": "2026-09-12 13:58 UTC",
       "action": "buy",
@@ -56835,40 +56824,46 @@
       "action": "buy",
       "details": "[LLM] $CRAB at $4.722e-06, spent 0.05 SOL",
       "reason": "$CRAB is 1 min old with twitter signal attached, pure early-attention play at $3.5k mcap — classic memecoin launch window. 0.05 SOL size per new rule, narrative is cute/brandable, risk is fresh launch but reward is asymmetric if it catches a wave."
+    },
+    {
+      "time": "2026-09-12 14:36 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $CRAB crashed >15% in one tick | P&L: -35.6%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3280,
+    "total": 3281,
     "wins": 1520,
-    "losses": 1760,
+    "losses": 1761,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.626666,
-    "avg_pnl_pct": 28.32,
+    "total_pnl_sol": 8.608852,
+    "avg_pnl_pct": 28.3,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 207,
-    "today_realized_sol": 3.59357,
-    "today_target_pct": 898.4,
+    "today_trades": 208,
+    "today_realized_sol": 3.575756,
+    "today_target_pct": 893.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1520,
-      "loss_count": 1760,
+      "loss_count": 1761,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T14:35:10.540929+00:00",
+  "last_llm_brief_at": "2026-09-12T14:36:24.778165+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "AkX71KcruaQr86TgHqLkNFfMWc7JcxDXosoAoUdUpump": {
-      "price_usd": 3.3082188269221942e-06,
+    "GsByCzanwQv9smshQ3GmcH4kAAS3GWfm7RvYwAWBpump": {
+      "price_usd": 3.0387465734580564e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 236.46812701615002,
-      "volume_h24": 284.45,
+      "liquidity_usd": 99.856943004,
+      "volume_h24": 2515.84,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.319451957
+      "real_sol_reserves": 0.979758075
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

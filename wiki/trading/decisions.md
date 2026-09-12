@@ -23428,3 +23428,6 @@
 ## [2026-09-12 14:35 UTC] buy | [LLM] $CRAB at $4.722e-06, spent 0.05 SOL
 - **Reasoning:** $CRAB is 1 min old with twitter signal attached, pure early-attention play at $3.5k mcap — classic memecoin launch window. 0.05 SOL size per new rule, narrative is cute/brandable, risk is fresh launch but reward is asymmetric if it catches a wave.
 
+## [2026-09-12 14:36 UTC] sell | [rapid-drop] $CRAB crashed >15% in one tick | P&L: -35.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
