@@ -22660,3 +22660,6 @@
 ## [2026-09-12 06:48 UTC] sell | [rapid-drop] $OUROBOROS crashed >15% in one tick | P&L: -20.6%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 06:49 UTC] buy | [LLM] $RELOAD at $3.453e-06, spent 0.05 SOL
+- **Reasoning:** $RELOAD has the strongest narrative of the batch: explicit fee-rev→buyback→burn mechanism + 'reload the clip' gun-culture meme appeal. Description ≥50 chars passes viability, no fragility keywords, fresh launch (1.1min) at $3.4k mcap with classic microcap attention setup.
+

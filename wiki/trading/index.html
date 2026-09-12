@@ -340,10 +340,19 @@ async function renderHoldings(state, watchlist) {
     }
 
     const spark = renderSparkline(mint, 60, 18);
-html += '<li class="position-item" data-mint="' + mint + '">' +
-      '<div><div class="token-name">$' + sym + (spark ? ' <span class="sparkline-cell">' + spark + '</span>' : '') + '</div>' +
-      '<div class="token-meta">' + amount.toFixed(2) + ' @ ' + fmtUSD(entryPrice) + '</div>' +
-      (liquidityBadge ? liquidityBadge : '') +
+    const mintFull = String(mint || '').replace(/[<>&\\"]/g, '');
+    const entryTime = pos.entry_time_iso || pos.entry_time || '';
+    const entryTimeShort = entryTime ? entryTime.substring(0, 19).replace('T', ' ') : '?';
+    const entryLiq = Number(pos.entry_liquidity_usd) || 0;
+    const entryPool = Number(pos.entry_pool_sol) || 0;
+    html += '<li class="position-item position-item-detailed" data-mint="' + mint + '">' +
+      '<div>' +
+        '<div class="token-name">$' + sym + (spark ? ' <span class="sparkline-cell">' + spark + '</span>' : '') + '</div>' +
+        '<div class="token-meta">' + amount.toFixed(2) + ' @ ' + fmtUSD(entryPrice) + '</div>' +
+        '<div class="position-mint" title="Full mint address">' + mintFull + '</div>' +
+        '<div class="position-time">↗ bought: ' + entryTimeShort + '</div>' +
+        '<div class="position-liq">💧 entry liq: ' + (entryLiq > 0 ? '$' + entryLiq.toFixed(0) : (entryPool > 0 ? entryPool.toFixed(2) + ' SOL' : '?')) + '</div>' +
+        (liquidityBadge ? liquidityBadge : '') +
       '</div>' +
       '<div class="token-price">' + valueStr + '</div>' +
       '<div class="token-change ' + cls + '">' + pnlStr + '</div></li>';
@@ -406,19 +415,55 @@ async function renderTrades(state) {
     return;
   }
 
-  ul.innerHTML = trades.slice().reverse().slice(0, 20).map(t => {
+  ul.innerHTML = trades.slice().reverse().slice(0, 30).map(t => {
     const pnl = Number(t.pnl_pct) || 0;
     const cls = pnl >= 0 ? 'pos' : 'neg';
     const sign = pnl >= 0 ? '+' : '';
     const sol = Number(t.pnl_sol) || 0;
-    const sym = String(t.symbol || '?').replace(/[<>&\"]/g, '');
-    return `<li class="trade-item">
-      <div>
-        <div class="token-name">$${sym}</div>
-        <div class="token-meta">${String(t.exit_reason || '').replace(/[<>&\"]/g, '')}</div>
+    const sym = String(t.symbol || '?').replace(/[<>&\\"]/g, '');
+    const mint = String(t.mint || '').replace(/[<>&\\"]/g, '');
+    const mintShort = mint.length > 12 ? mint.slice(0,6) + '…' + mint.slice(-4) : mint;
+    const mintFull = mint;
+    
+    // Format timestamps
+    const entryTime = t.entry_time_iso || t.entry_time || '';
+    const exitTime = t.exit_time_iso || t.exit_time || '';
+    const entryShort = entryTime ? entryTime.substring(11, 19) : '?';
+    const exitShort = exitTime ? exitTime.substring(11, 19) : '?';
+    const entryDate = entryTime ? entryTime.substring(0, 10) : '';
+    const exitDate = exitTime ? exitTime.substring(0, 10) : '';
+    const holdSec = Math.round(Number(t.hold_duration_seconds) || 0);
+    const holdStr = holdSec < 60 ? `${holdSec}s` : holdSec < 3600 ? `${Math.floor(holdSec/60)}m${holdSec%60}s` : `${Math.floor(holdSec/3600)}h${Math.floor((holdSec%3600)/60)}m`;
+    
+    // Format liquidity
+    const entryLiq = Number(t.entry_liquidity_usd) || 0;
+    const exitLiq = Number(t.exit_liquidity_usd) || 0;
+    const entryPool = Number(t.entry_pool_sol) || 0;
+    const exitPool = Number(t.exit_pool_sol) || 0;
+    const liqChange = entryLiq > 0 ? ((exitLiq / entryLiq - 1) * 100).toFixed(0) : '?';
+    const liqCls = exitLiq < entryLiq ? 'neg' : 'neu';
+    
+    return `<li class="trade-item trade-item-detailed" data-mint="${mint}">
+      <div class="trade-row-1">
+        <span class="token-name">$${sym}</span>
+        <span class="token-price ${cls}">${sign}${pnl.toFixed(1)}%</span>
+        <span class="token-change ${cls}">${sign}${sol.toFixed(4)} SOL</span>
       </div>
-      <div class="token-price ${cls}">${sign}${pnl.toFixed(1)}%</div>
-      <div class="token-change ${cls}">${sign}${sol.toFixed(4)} SOL</div>
+      <div class="trade-row-2">
+        <span class="trade-mint" title="${mintFull}">${mintShort}</span>
+        <span class="trade-mint-full" onclick="this.classList.toggle('expanded')" title="Click to expand">${mintFull}</span>
+      </div>
+      <div class="trade-row-3">
+        <span class="trade-time" title="Entry: ${entryTime}">↗ ${entryDate} ${entryShort}</span>
+        <span class="trade-time" title="Exit: ${exitTime}">↘ ${exitDate} ${exitShort}</span>
+        <span class="trade-hold">⏱ ${holdStr}</span>
+      </div>
+      <div class="trade-row-4">
+        <span class="trade-liq" title="Pool liquidity at entry">💧 in: ${entryLiq > 0 ? '$' + entryLiq.toFixed(0) : (entryPool > 0 ? entryPool.toFixed(2) + ' SOL' : '?')}</span>
+        <span class="trade-liq" title="Pool liquidity at exit">💧 out: ${exitLiq > 0 ? '$' + exitLiq.toFixed(0) : (exitPool > 0 ? exitPool.toFixed(2) + ' SOL' : '?')}</span>
+        <span class="trade-liq ${liqCls}">${liqChange !== '?' ? liqChange + '%' : ''}</span>
+      </div>
+      <div class="trade-row-5">${String(t.exit_reason || '').replace(/[<>&\\"]/g, '')}</div>
     </li>`;
   }).join('');
   } catch (e) {

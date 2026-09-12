@@ -130,9 +130,104 @@ section h2 {
   align-items: center;
 }
 
+/* Detailed trade view with full mint, timestamps, liquidity */
+.trade-item-detailed {
+  grid-template-columns: 1fr;
+  gap: 0.15rem;
+  padding: 0.5rem 0.4rem;
+  margin: 0.2rem 0;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: rgba(0,0,0,0.15);
+}
+.trade-item-detailed .trade-row-1 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 600;
+}
+.trade-item-detailed .trade-row-2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+.trade-item-detailed .trade-mint {
+  font-weight: 600;
+  color: var(--accent);
+  cursor: pointer;
+}
+.trade-item-detailed .trade-mint-full {
+  display: none;
+  word-break: break-all;
+  cursor: pointer;
+  color: var(--text);
+  background: rgba(255,255,255,0.05);
+  padding: 0.15rem 0.3rem;
+  border-radius: 3px;
+  width: 100%;
+}
+.trade-item-detailed .trade-mint-full.expanded {
+  display: block;
+}
+.trade-item-detailed .trade-row-3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+}
+.trade-item-detailed .trade-row-4 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+.trade-item-detailed .trade-row-5 {
+  font-size: 0.7rem;
+  color: var(--yellow);
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 0.2rem;
+}
+.trade-item-detailed .trade-hold {
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
 .trade-item:last-child,
 .token-item:last-child,
 .position-item:last-child { border-bottom: 0; }
+
+.position-item-detailed {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 0.5rem;
+  padding: 0.5rem 0.4rem;
+  border-bottom: 1px solid var(--border);
+  align-items: center;
+  background: rgba(0,0,0,0.15);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin: 0.2rem 0;
+}
+.position-item-detailed .position-mint {
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+  font-size: 0.7rem;
+  color: var(--accent);
+  word-break: break-all;
+  cursor: pointer;
+}
+.position-item-detailed .position-time,
+.position-item-detailed .position-liq {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  font-family: 'JetBrains Mono', 'Courier New', monospace;
+}
 
 .exit-reason {
   color: var(--yellow);

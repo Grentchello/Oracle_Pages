@@ -843,12 +843,17 @@ def execute_buy(state, mint, token, price_usd, sol_price):
     position = {
         "symbol": token.get("symbol", "?"),
         "name": token.get("name", "?"),
+        "mint": mint,  # full mint address for verification
         "amount": token_amount,
         "entry_price_usd": price_usd,
         "entry_sol_spent": POSITION_SIZE_SOL,
         "entry_time": iso_now(),
+        "entry_time_iso": datetime.now(timezone.utc).isoformat(),  # precise timestamp
         "entry_usd_value": usd_value,
-        "last_seen_price_usd": _to_float(token.get("price_usd", 0)),  # for rapid-drop detector
+        "last_seen_price_usd": _to_float(token.get("price_usd", 0)),
+        "entry_liquidity_usd": _to_float(token.get("liquidity_usd", 0)),  # liquidity at entry
+        "entry_pool_sol": _to_float(token.get("real_sol_reserves", 0)),  # pool SOL at entry
+        "entry_market_cap_usd": _to_float(token.get("market_cap_usd", 0)),
         "entry_signals": {
             "liquidity_usd": token.get("liquidity_usd"),
             "volume_24h_usd": token.get("volume_h24"),
@@ -899,6 +904,12 @@ def execute_sell(state, mint, price_usd, fraction, reason):
     pnl_sol = sol_proceeds - entry_sol_chunk
     pnl_pct = (effective_price / pos["entry_price_usd"] - 1) * 100 if pos["entry_price_usd"] > 0 else 0
 
+    # Capture liquidity at exit time
+    exit_liquidity_usd = _to_float(state.get("held_prices", {}).get(mint, {}).get("liquidity_usd", 0))
+    exit_pool_sol = _to_float(state.get("held_prices", {}).get(mint, {}).get("real_sol_reserves", 0))
+    entry_liquidity_usd = _to_float(pos.get("entry_liquidity_usd", 0))
+    entry_pool_sol = _to_float(pos.get("entry_pool_sol", 0))
+    
     trade = {
         "mint": mint,
         "symbol": pos.get("symbol"),
@@ -906,7 +917,9 @@ def execute_sell(state, mint, price_usd, fraction, reason):
         "amount_sold": sell_amount,
         "fraction_sold": fraction,
         "entry_time": pos.get("entry_time"),
+        "entry_time_iso": pos.get("entry_time_iso") or pos.get("entry_time"),  # ISO timestamp
         "exit_time": iso_now(),
+        "exit_time_iso": datetime.now(timezone.utc).isoformat(),  # ISO precise timestamp
         "entry_price_usd": pos["entry_price_usd"],
         "exit_price_usd": price_usd,
         "entry_sol_for_chunk": round(entry_sol_chunk, 6),
@@ -914,6 +927,11 @@ def execute_sell(state, mint, price_usd, fraction, reason):
         "pnl_sol": round(pnl_sol, 6),
         "pnl_pct": round(pnl_pct, 2),
         "exit_reason": reason[:200],
+        "entry_liquidity_usd": round(entry_liquidity_usd, 2),  # liquidity when bought
+        "exit_liquidity_usd": round(exit_liquidity_usd, 2),    # liquidity when sold
+        "entry_pool_sol": round(entry_pool_sol, 4),            # pool SOL at entry
+        "exit_pool_sol": round(exit_pool_sol, 4),              # pool SOL at exit
+        "hold_duration_seconds": (datetime.now(timezone.utc) - parse_iso(pos.get("entry_time"))).total_seconds() if pos.get("entry_time") else 0,
         "partial": fraction < 0.999,
     }
     state["trades"].append(trade)

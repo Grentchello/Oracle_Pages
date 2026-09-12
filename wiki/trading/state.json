@@ -1,8 +1,37 @@
 {
-  "balance_sol": 13.137313,
+  "balance_sol": 13.087313,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "2JScsCqTr9V85aqDsqSbX6tinfziz94CN4rDhjrk3pNm": {
+      "symbol": "RELOAD",
+      "name": "RELOAD",
+      "mint": "2JScsCqTr9V85aqDsqSbX6tinfziz94CN4rDhjrk3pNm",
+      "amount": 1471908.4853750365,
+      "entry_price_usd": 3.453e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T06:49:56.327966+00:00",
+      "entry_time_iso": "2026-09-12T06:49:56.327974+00:00",
+      "entry_usd_value": 5.0825000000000005,
+      "last_seen_price_usd": 3.453e-06,
+      "entry_liquidity_usd": 301.55187983855,
+      "entry_pool_sol": 2.966570387,
+      "entry_market_cap_usd": 3435.9092094812117,
+      "entry_signals": {
+        "liquidity_usd": 301.55187983855,
+        "volume_24h_usd": 1524.03,
+        "market_cap_usd": 3435.9092094812117,
+        "ath_market_cap_usd": 4124.570018238355,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 2.966570387,
+        "description": "Reload the clip on every dip. Revolve fees → buyback → burn. $RELOAD.",
+        "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53538,17 +53567,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T06:48:28.397952+00:00",
+  "last_updated": "2026-09-12T06:49:56.328146+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.16,
-  "portfolio_value_usd": 1342.11,
+  "last_sol_price_usd": 101.65,
+  "portfolio_value_usd": 1335.41,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 06:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $NOFLOCK at $3.66016e-06 | P&L: +7.2%",
-      "reason": "$NOFLOCK is +7.2% on a $409 pool bonding curve with only 1% of supply — extremely illiquid, my share alone can crater the price. Small gain, fragile structure, no clear narrative reason to hold. Take the +7% and redeploy."
-    },
     {
       "time": "2026-09-12 06:14 UTC",
       "action": "buy",
@@ -53662,6 +53685,12 @@
       "action": "sell",
       "details": "[rapid-drop] $OUROBOROS crashed >15% in one tick | P&L: -20.6%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-12 06:49 UTC",
+      "action": "buy",
+      "details": "[LLM] $RELOAD at $3.453e-06, spent 0.05 SOL",
+      "reason": "$RELOAD has the strongest narrative of the batch: explicit fee-rev→buyback→burn mechanism + 'reload the clip' gun-culture meme appeal. Description ≥50 chars passes viability, no fragility keywords, fresh launch (1.1min) at $3.4k mcap with classic microcap attention setup."
     }
   ],
   "trade_stats": {
@@ -53683,21 +53712,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T06:48:28.397918+00:00",
+  "last_llm_brief_at": "2026-09-12T06:49:54.915883+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "aX6KLgm9AZtGuccjhchJNJhcEmEbwfhYZtGST3FkGjH": {
-      "price_usd": 9.572371729457333e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2545.81810602328,
-      "volume_h24": 17174.88,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 24.919910983
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
