@@ -24220,3 +24220,6 @@
 ## [2026-09-12 22:01 UTC] buy | [LLM] $bbull40k at $3.471e-06, spent 0.05 SOL
 - **Reasoning:** bbull40k has the strongest narrative of the three (grimdark gacha with rare Warmaster mechanic), 9% bonded = imminent graduation attention, twitter active, $3.4k mcap with room to run. Risks: very fresh (0.7min), bonding-curve dump risk.
 
+## [2026-09-12 22:02 UTC] sell | [FULL][LLM] $bbull40k at $3.46676e-06 | P&L: -0.1%
+- **Reasoning:** $bbull40k is flat (-0.1%) after just opening with tiny pool ($323) and 2% share — no momentum, no narrative edge here, freeing the slot for fresh launches with viral potential.
+
