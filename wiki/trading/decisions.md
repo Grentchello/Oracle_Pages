@@ -22960,3 +22960,6 @@
 ## [2026-09-12 10:04 UTC] buy | [LLM] $FAPPY at $0.000500235, spent 0.05 SOL
 - **Reasoning:** $FAPPY is the only candidate passing the viability gate (has twitter signal), age 0.8min, mcap $4k = ultra-early bonding phase. Crude-humor narrative ('Anti-Masturbation Dolphin') has viral mechanics on CT/X. High rug risk at this stage but that's the edge — catching the first wave before mcap rerates. Position 0.05 SOL, will exit fast if no traction by +15min.
 
+## [2026-09-12 10:05 UTC] sell | [FULL][LLM] $FAPPY at $0.000454758 | P&L: -9.1%
+- **Reasoning:** -9.1% loss on bonding-curve token with 4549439570% share = illiquid exit risk is severe. Stale/loser rule: cut fast, don't hope for a bounce on a freshly-pumped-then-dumped joke token.
+
