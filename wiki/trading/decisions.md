@@ -24373,3 +24373,6 @@
 ## [2026-09-12 23:16 UTC] sell | [FULL][LLM] $Roger at $9.43657e-05 | P&L: +12.0%
 - **Reasoning:** +12% gain on a fresh position, no reason to exit yet. Want to see if it pushes toward +20% TP zone before taking profit. Stale exit triggers at 30min if not up >20%.
 
+## [2026-09-12 23:17 UTC] buy | [LLM] $BADGES at $3.868e-06, spent 0.05 SOL
+- **Reasoning:** $BADGES (Pumpfun Profile Badges) has the strongest attention signal — meta-narrative trading the platform itself, backing from a dev Twitter account (@dev_pscl), and an ultra-fresh $3.7k mcap with viral potential. Passes viability (twitter present) and fragility (no political/celebrity keywords) gates.
+
