@@ -24370,3 +24370,6 @@
 ## [2026-09-12 23:15 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-12 23:16 UTC] sell | [FULL][LLM] $Roger at $9.43657e-05 | P&L: +12.0%
+- **Reasoning:** +12% gain on a fresh position, no reason to exit yet. Want to see if it pushes toward +20% TP zone before taking profit. Stale exit triggers at 30min if not up >20%.
+

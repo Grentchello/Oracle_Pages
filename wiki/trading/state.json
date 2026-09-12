@@ -1,37 +1,8 @@
 {
-  "balance_sol": 29.513404,
+  "balance_sol": 29.56949,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GnrtsKoGSctw3jAne5SLkf2yXojzQnPDRQiNQk7apump": {
-      "symbol": "Roger",
-      "name": "Buttcoin Mascot",
-      "mint": "GnrtsKoGSctw3jAne5SLkf2yXojzQnPDRQiNQk7apump",
-      "amount": 60266.774572418006,
-      "entry_price_usd": 8.426699514004275e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T23:13:45.932835+00:00",
-      "entry_time_iso": "2026-09-12T23:13:45.932843+00:00",
-      "entry_usd_value": 5.0785,
-      "last_seen_price_usd": 7.44926676679906e-05,
-      "entry_liquidity_usd": 18680.25120993003,
-      "entry_pool_sol": 183.915045879,
-      "entry_market_cap_usd": 10122.728796974729,
-      "entry_signals": {
-        "liquidity_usd": 18680.25120993003,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 10122.728796974729,
-        "ath_market_cap_usd": 11258.461068120736,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 183.915045879,
-        "description": "",
-        "twitter": "https://x.com/buttcoin/status/960714789407416320?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -60405,19 +60376,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 72.978023,
       "partial": false
+    },
+    {
+      "mint": "GnrtsKoGSctw3jAne5SLkf2yXojzQnPDRQiNQk7apump",
+      "symbol": "Roger",
+      "name": "Buttcoin Mascot",
+      "amount_sold": 60266.774572418006,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T23:13:45.932835+00:00",
+      "entry_time_iso": "2026-09-12T23:13:45.932843+00:00",
+      "exit_time": "2026-09-12T23:16:20.289100+00:00",
+      "exit_time_iso": "2026-09-12T23:16:20.289106+00:00",
+      "entry_price_usd": 8.426699514004275e-05,
+      "exit_price_usd": 9.436573843780295e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.056086,
+      "pnl_sol": 0.006086,
+      "pnl_pct": 11.98,
+      "exit_reason": "LLM: sell_all — +12% gain on a fresh position, no reason to exit yet. Want to see if it pushes toward +20% TP zone before taking profit. Stale exit triggers at 30min ",
+      "entry_liquidity_usd": 18680.25,
+      "exit_liquidity_usd": 18126.22,
+      "entry_pool_sol": 183.915,
+      "exit_pool_sol": 177.661,
+      "hold_duration_seconds": 154.356283,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T23:15:03.731763+00:00",
+  "last_updated": "2026-09-12T23:16:20.289629+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.027,
-  "portfolio_value_usd": 3016.24,
+  "last_sol_price_usd": 101.4,
+  "portfolio_value_usd": 2998.35,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 22:51 UTC",
-      "action": "buy",
-      "details": "[LLM] $BAPE at $2.91e-06, spent 0.05 SOL",
-      "reason": "BAPE has recognizable NFT brand recognition, $3.2k mcap = ground floor, only 5% bond means early entry. BAPE NFT narrative is the kind of viral attention that pumps fast. Position size 0.05 SOL."
-    },
     {
       "time": "2026-09-12 22:52 UTC",
       "action": "sell",
@@ -60531,40 +60520,46 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-12 23:16 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Roger at $9.43657e-05 | P&L: +12.0%",
+      "reason": "+12% gain on a fresh position, no reason to exit yet. Want to see if it pushes toward +20% TP zone before taking profit. Stale exit triggers at 30min if not up >20%."
     }
   ],
   "trade_stats": {
-    "total": 3434,
-    "wins": 1586,
+    "total": 3435,
+    "wins": 1587,
     "losses": 1848,
     "win_rate_pct": 46.2,
-    "total_pnl_sol": 25.347244,
-    "avg_pnl_pct": 38.28,
+    "total_pnl_sol": 25.35333,
+    "avg_pnl_pct": 38.27,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 361,
-    "today_realized_sol": 20.314148,
-    "today_target_pct": 5078.5,
+    "today_trades": 362,
+    "today_realized_sol": 20.320234,
+    "today_target_pct": 5080.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1586,
+      "win_count": 1587,
       "loss_count": 1848,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T23:15:03.731465+00:00",
+  "last_llm_brief_at": "2026-09-12T23:16:20.288631+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "GnrtsKoGSctw3jAne5SLkf2yXojzQnPDRQiNQk7apump": {
-      "price_usd": 7.44926676679906e-05,
+      "price_usd": 9.436573843780295e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 18126.218369309587,
+      "liquidity_usd": 24699.7435684506,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 177.660995318
+      "real_sol_reserves": 243.587214679
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
