@@ -1,37 +1,8 @@
 {
-  "balance_sol": 18.89313,
+  "balance_sol": 18.945189,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "xWewsVbcZoScppfHTVFjyxdTKFydKHKpvfkd8Rhpump": {
-      "symbol": "SPIDERHODL",
-      "name": "SPIDERMAN HODL",
-      "mint": "xWewsVbcZoScppfHTVFjyxdTKFydKHKpvfkd8Rhpump",
-      "amount": 37570.24240218985,
-      "entry_price_usd": 0.00013581227252615734,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T17:52:09.334512+00:00",
-      "entry_time_iso": "2026-09-12T17:52:09.334523+00:00",
-      "entry_usd_value": 5.1025,
-      "last_seen_price_usd": 0.00013581227252615734,
-      "entry_liquidity_usd": 19974.7019238416,
-      "entry_pool_sol": 195.734462752,
-      "entry_market_cap_usd": 5160.626164517347,
-      "entry_signals": {
-        "liquidity_usd": 19974.7019238416,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5160.626164517347,
-        "ath_market_cap_usd": 5160.626164517347,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 195.734462752,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57957,19 +57928,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.716074,
       "partial": false
+    },
+    {
+      "mint": "xWewsVbcZoScppfHTVFjyxdTKFydKHKpvfkd8Rhpump",
+      "symbol": "SPIDERHODL",
+      "name": "SPIDERMAN HODL",
+      "amount_sold": 37570.24240218985,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T17:52:09.334512+00:00",
+      "entry_time_iso": "2026-09-12T17:52:09.334523+00:00",
+      "exit_time": "2026-09-12T17:53:25.664374+00:00",
+      "exit_time_iso": "2026-09-12T17:53:25.664379+00:00",
+      "entry_price_usd": 0.00013581227252615734,
+      "exit_price_usd": 0.00014135152332070771,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.052059,
+      "pnl_sol": 0.002059,
+      "pnl_pct": 4.08,
+      "exit_reason": "LLM: sell_all — Just opened at +4.1%, still very fresh (0.0h held), bonding-curve phase with $22k pool. SPIDERHODL narrative has clear viral meme DNA (spider + HODL).",
+      "entry_liquidity_usd": 19974.7,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 195.7345,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 76.329911,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T17:52:09.334799+00:00",
+  "last_updated": "2026-09-12T17:53:25.664665+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.05,
-  "portfolio_value_usd": 1933.15,
+  "last_sol_price_usd": 102.011,
+  "portfolio_value_usd": 1932.62,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 17:14 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 17:17 UTC",
       "action": "buy",
@@ -58083,40 +58072,46 @@
       "action": "buy",
       "details": "[LLM] $SPIDERHODL at $0.000135812, spent 0.05 SOL",
       "reason": "$SPIDERHODL — Spider-Man is a top-tier brand-name IP that prints attention in memecoin markets. 0.6min old, $5.1k mcap, 14% bonded. Fresh enough to catch the initial attention wave. Risk: brand-IP tokens often dump after first pump; I'll take profit aggressively at +30-50%."
+    },
+    {
+      "time": "2026-09-12 17:53 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SPIDERHODL at $0.000141352 | P&L: +4.1%",
+      "reason": "Just opened at +4.1%, still very fresh (0.0h held), bonding-curve phase with $22k pool. SPIDERHODL narrative has clear viral meme DNA (spider + HODL). Give it room to develop — stale rules don't trigger for 30+ min."
     }
   ],
   "trade_stats": {
-    "total": 3332,
-    "wins": 1541,
+    "total": 3333,
+    "wins": 1542,
     "losses": 1791,
-    "win_rate_pct": 46.2,
-    "total_pnl_sol": 14.726944,
-    "avg_pnl_pct": 32.31,
+    "win_rate_pct": 46.3,
+    "total_pnl_sol": 14.729003,
+    "avg_pnl_pct": 32.3,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 259,
-    "today_realized_sol": 9.693848,
-    "today_target_pct": 2423.5,
+    "today_trades": 260,
+    "today_realized_sol": 9.695907,
+    "today_target_pct": 2424.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1541,
+      "win_count": 1542,
       "loss_count": 1791,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T17:52:07.993544+00:00",
+  "last_llm_brief_at": "2026-09-12T17:53:25.664215+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "GZeeYTmvvfSqGXESC6zjU4g3LnE9niJx71xNdgfapump": {
-      "price_usd": 5.1127181676304065e-06,
+    "xWewsVbcZoScppfHTVFjyxdTKFydKHKpvfkd8Rhpump": {
+      "price_usd": 0.00014135152332070771,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1036.6978369598498,
-      "volume_h24": 731.98,
+      "liquidity_usd": 22449.629324248304,
+      "volume_h24": 284.97,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 10.158724517
+      "real_sol_reserves": 220.070672028
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -23767,3 +23767,6 @@
 ## [2026-09-12 17:52 UTC] buy | [LLM] $SPIDERHODL at $0.000135812, spent 0.05 SOL
 - **Reasoning:** $SPIDERHODL — Spider-Man is a top-tier brand-name IP that prints attention in memecoin markets. 0.6min old, $5.1k mcap, 14% bonded. Fresh enough to catch the initial attention wave. Risk: brand-IP tokens often dump after first pump; I'll take profit aggressively at +30-50%.
 
+## [2026-09-12 17:53 UTC] sell | [FULL][LLM] $SPIDERHODL at $0.000141352 | P&L: +4.1%
+- **Reasoning:** Just opened at +4.1%, still very fresh (0.0h held), bonding-curve phase with $22k pool. SPIDERHODL narrative has clear viral meme DNA (spider + HODL). Give it room to develop — stale rules don't trigger for 30+ min.
+
