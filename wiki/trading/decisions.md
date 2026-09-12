@@ -23374,3 +23374,6 @@
 ## [2026-09-12 13:58 UTC] buy | [LLM] $RISE at $7.11007e-06, spent 0.05 SOL
 - **Reasoning:** $RISE — '60% airdrop to top 15 holders' is a classic attention magnet. Holders will shill to climb the leaderboard, generating free viral marketing. Twitter handle exists (_rise). Low mcap $7k = room to run. Small position 0.05 SOL given fresh-launch risk. Narrative is the strongest of the three.
 
+## [2026-09-12 13:59 UTC] sell | [FULL][LLM] $RISE at $8.43616e-06 | P&L: +18.6%
+- **Reasoning:** Up +18.7% with tiny $2.2k pool — fragile liquidity, easy to give back gains. Lock the profit before it evaporates.
+
