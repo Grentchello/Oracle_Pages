@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.636781,
+  "balance_sol": 12.687056,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5ndU2kzB58assZwEEJU5CipFsPccnhAKcAbwexAUpump": {
-      "symbol": "PAD",
-      "name": "DIAPER CEO",
-      "mint": "5ndU2kzB58assZwEEJU5CipFsPccnhAKcAbwexAUpump",
-      "amount": 1193037.9746835444,
-      "entry_price_usd": 4.266e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T13:34:11.804051+00:00",
-      "entry_time_iso": "2026-09-12T13:34:11.804061+00:00",
-      "entry_usd_value": 5.089500000000001,
-      "last_seen_price_usd": 4.266e-06,
-      "entry_liquidity_usd": 682.59168165123,
-      "entry_pool_sol": 6.705881537,
-      "entry_market_cap_usd": 4261.720623858975,
-      "entry_signals": {
-        "liquidity_usd": 682.59168165123,
-        "volume_24h_usd": 1533.35,
-        "market_cap_usd": 4261.720623858975,
-        "ath_market_cap_usd": 5274.015199955701,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 6.705881537,
-        "description": "Born to absorb the dump. CEO of surviving every shitcoin.",
-        "twitter": "https://x.com/LaunchOnPad",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56325,19 +56296,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 81.783429,
       "partial": false
+    },
+    {
+      "mint": "5ndU2kzB58assZwEEJU5CipFsPccnhAKcAbwexAUpump",
+      "symbol": "PAD",
+      "name": "DIAPER CEO",
+      "amount_sold": 1193037.9746835444,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T13:34:11.804051+00:00",
+      "entry_time_iso": "2026-09-12T13:34:11.804061+00:00",
+      "exit_time": "2026-09-12T13:35:26.970229+00:00",
+      "exit_time_iso": "2026-09-12T13:35:26.970232+00:00",
+      "entry_price_usd": 4.266e-06,
+      "exit_price_usd": 4.288227222147463e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050275,
+      "pnl_sol": 0.000275,
+      "pnl_pct": 0.52,
+      "exit_reason": "LLM: sell_all — Entry at +0.5% with bond curve only $695 — no momentum, no viral signal, and held0.0h. Free up the slot for fresher attention.",
+      "entry_liquidity_usd": 682.59,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 6.7059,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 75.166193,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T13:34:11.804326+00:00",
+  "last_updated": "2026-09-12T13:35:26.970585+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.79,
-  "portfolio_value_usd": 1291.39,
+  "last_sol_price_usd": 101.76,
+  "portfolio_value_usd": 1291.03,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 13:07 UTC",
-      "action": "buy",
-      "details": "[LLM] $Wars at $2.862e-06, spent 0.05 SOL",
-      "reason": "Fresh $3.3k mcap, catchy 'Stonk Wars' name with AI tie-in and a real twitter handle ($StonkWarsAI). 'Animal brains trading competition' is meme-native narrative — exactly the kind of weird-attention that 10x's in the first hour."
-    },
     {
       "time": "2026-09-12 13:08 UTC",
       "action": "sell",
@@ -56451,30 +56440,48 @@
       "action": "buy",
       "details": "[LLM] $PAD at $4.266e-06, spent 0.05 SOL",
       "reason": "$PAD has a novel meta-narrative ('CEO of surviving every shitcoin' / 'born to absorb the dump') that's exactly the kind of self-aware degen humor that catches fire on CT. Has both twitter + desc passing viability gate. Bond 15% = very early entry. Risk: ultra-low mcap $4.2k, could rug, but narrative strength justifies a 0.1 SOL test position."
+    },
+    {
+      "time": "2026-09-12 13:35 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PAD at $4.28823e-06 | P&L: +0.5%",
+      "reason": "Entry at +0.5% with bond curve only $695 — no momentum, no viral signal, and held0.0h. Free up the slot for fresher attention."
     }
   ],
   "trade_stats": {
-    "total": 3264,
-    "wins": 1511,
+    "total": 3265,
+    "wins": 1512,
     "losses": 1753,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.470593,
+    "total_pnl_sol": 8.470868,
     "avg_pnl_pct": 28.39,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 191,
-    "today_realized_sol": 3.437497,
+    "today_trades": 192,
+    "today_realized_sol": 3.437772,
     "today_target_pct": 859.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1511,
+      "win_count": 1512,
       "loss_count": 1753,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T13:34:10.416122+00:00",
+  "last_llm_brief_at": "2026-09-12T13:35:26.970179+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5ndU2kzB58assZwEEJU5CipFsPccnhAKcAbwexAUpump": {
+      "price_usd": 4.288227222147463e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 695.0994614976,
+      "volume_h24": 1549.8,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 6.83077301
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
