@@ -23542,3 +23542,9 @@
 ## [2026-09-12 15:47 UTC] buy | [LLM] $CASHLESS at $3.602e-06, spent 0.05 SOL
 - **Reasoning:** $CASHLESS — 'cashless society' is a strong current narrative (cashless/anti-cash trend, CBDC pushback angle). Has twitter signal from @canerturanx. Yes mcap is tiny ($3.5k) and bond is only 1% — but that's exactly the fresh-launch asymmetric setup the rules say to take. Risk: 0.05 SOL, stops at -25%.
 
+## [2026-09-12 15:48 UTC] sell | [v8.7 TP +50% (full)] $CASHLESS at $9.53987e-05 | P&L: +2548.5%
+- **Reasoning:** Auto take-profit at +2548.5%
+
+## [2026-09-12 15:49 UTC] sell | [FULL][LLM] $CASHLESS at $9.53987e-05 | P&L: +2548.5%
+- **Reasoning:** Already +2548.5% with bot having auto-TP'd 75% along the way. Remaining 25% moon-bag is a free option — but bonding-curve tokens rug without warning and this gain is historic. Lock it. Take the W, rotate capital.
+
