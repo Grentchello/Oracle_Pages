@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.702074,
+  "balance_sol": 12.717563,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6Wn8RYy9XwYD5m2RzHf9r1CGBGEi9t5AzkntDX6hpump": {
-      "symbol": "ANONBATON",
-      "name": "Anonymous Baton",
-      "mint": "6Wn8RYy9XwYD5m2RzHf9r1CGBGEi9t5AzkntDX6hpump",
-      "amount": 548232.3776676009,
-      "entry_price_usd": 9.278e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T13:22:09.516267+00:00",
-      "entry_time_iso": "2026-09-12T13:22:09.516279+00:00",
-      "entry_usd_value": 5.086500000000001,
-      "last_seen_price_usd": 9.278e-06,
-      "entry_liquidity_usd": 35.94597311763,
-      "entry_pool_sol": 0.353346831,
-      "entry_market_cap_usd": 12999.851249970374,
-      "entry_signals": {
-        "liquidity_usd": 35.94597311763,
-        "volume_24h_usd": 5380.46,
-        "market_cap_usd": 12999.851249970374,
-        "ath_market_cap_usd": 12999.851249970374,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.353346831,
-        "description": "Anonymous Baton is here to save the trenches. Don't let it bonk you!",
-        "twitter": "https://x.com/anonymousbatonx",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56253,19 +56224,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.829875,
       "partial": false
+    },
+    {
+      "mint": "6Wn8RYy9XwYD5m2RzHf9r1CGBGEi9t5AzkntDX6hpump",
+      "symbol": "ANONBATON",
+      "name": "Anonymous Baton",
+      "amount_sold": 548232.3776676009,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T13:22:09.516267+00:00",
+      "entry_time_iso": "2026-09-12T13:22:09.516279+00:00",
+      "exit_time": "2026-09-12T13:23:13.405213+00:00",
+      "exit_time_iso": "2026-09-12T13:23:13.405222+00:00",
+      "entry_price_usd": 9.278e-06,
+      "exit_price_usd": 2.8884904124979303e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.015489,
+      "pnl_sol": -0.034511,
+      "pnl_pct": -68.87,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 35.95,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 0.3533,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.888966,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T13:22:09.516737+00:00",
+  "last_updated": "2026-09-12T13:23:30.173272+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.73,
-  "portfolio_value_usd": 1297.27,
+  "last_sol_price_usd": 102.24,
+  "portfolio_value_usd": 1300.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 12:53 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $ANONBATON crashed >15% in one tick | P&L: -66.9%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 12:58 UTC",
       "action": "buy",
@@ -56379,30 +56368,48 @@
       "action": "buy",
       "details": "[LLM] $ANONBATON at $9.278e-06, spent 0.05 SOL",
       "reason": "1-minute-old launch with Anonymous collective narrative tied to trench-culture meme ('save the trenches, don't let it bonk you'). $13k mcap gives massive upside if it catches. Twitter presence exists. Small 0.05 SOL position ($5) limits downside on a fresh-launch rug risk. Passes viability and keyword fragility gates."
+    },
+    {
+      "time": "2026-09-12 13:23 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $ANONBATON crashed >15% in one tick | P&L: -68.9%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3261,
+    "total": 3262,
     "wins": 1511,
-    "losses": 1750,
+    "losses": 1751,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.535886,
-    "avg_pnl_pct": 28.46,
+    "total_pnl_sol": 8.501375,
+    "avg_pnl_pct": 28.43,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 188,
-    "today_realized_sol": 3.50279,
-    "today_target_pct": 875.7,
+    "today_trades": 189,
+    "today_realized_sol": 3.468279,
+    "today_target_pct": 867.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1511,
-      "loss_count": 1750,
+      "loss_count": 1751,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T13:22:08.072581+00:00",
+  "last_llm_brief_at": "2026-09-12T13:23:28.431690+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "6Wn8RYy9XwYD5m2RzHf9r1CGBGEi9t5AzkntDX6hpump": {
+      "price_usd": 2.8884904124979303e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 16.03320594768,
+      "volume_h24": 16243.65,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.156819307
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

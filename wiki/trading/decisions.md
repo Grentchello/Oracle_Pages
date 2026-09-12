@@ -23320,3 +23320,6 @@
 ## [2026-09-12 13:22 UTC] buy | [LLM] $ANONBATON at $9.278e-06, spent 0.05 SOL
 - **Reasoning:** 1-minute-old launch with Anonymous collective narrative tied to trench-culture meme ('save the trenches, don't let it bonk you'). $13k mcap gives massive upside if it catches. Twitter presence exists. Small 0.05 SOL position ($5) limits downside on a fresh-launch rug risk. Passes viability and keyword fragility gates.
 
+## [2026-09-12 13:23 UTC] sell | [rapid-drop] $ANONBATON crashed >15% in one tick | P&L: -68.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
