@@ -22339,3 +22339,6 @@
 ## [2026-09-12 03:37 UTC] sell | [PARTIAL][LLM] $Normify at $2.84138e-06 | P&L: -11.7%
 - **Reasoning:** Down 11.7% and held 0.0h on bonding-curve with pool=$0 and our share=4521% — we're the entire liquidity. -25% hard stop is minutes away and there's no exit liquidity to sell into. Cut it now.
 
+## [2026-09-12 03:38 UTC] sell | [FULL][LLM] $Normify at $2.84007e-06 | P&L: -55.8%
+- **Reasoning:** Down 11.7% with pool=$0 — effectively a dead position, no exit liquidity. Better to realize the small loss and free the slot than hope for a bounce that requires liquidity that doesn't exist.
+
