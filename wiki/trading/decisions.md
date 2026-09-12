@@ -23035,3 +23035,6 @@
 ## [2026-09-12 10:29 UTC] buy | [LLM] $TAMPONS at $4.094e-06, spent 0.05 SOL
 - **Reasoning:** $TAMPONS — absurdist genital hygiene meme, exactly the kind of crude/viral humor that pumps on CT. Fresh launch (0.5min), low mcap $4k = max upside, narrative is crude enough to get screenshots/engagement. Viability gate passes (desc 'Launched by launchonpad.com' is thin but liquidity will build as bonding). Risk: no twitter, thin story — but meme-craft is the story.
 
+## [2026-09-12 10:31 UTC] sell | [FULL][LLM] $TAMPONS at $5.02056e-06 | P&L: +22.6%
+- **Reasoning:** Up +22.6% on a memecoin called $TAMPONS held 0 minutes — bonding curve only $1k pool, 1% of supply in my hands, this is exactly the kind of pump-and-dump that reverses. Take the free money now, scalp discipline says lock gains when up >20% with any doubt.
+
