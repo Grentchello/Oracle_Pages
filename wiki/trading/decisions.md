@@ -22273,3 +22273,6 @@
 ## [2026-09-12 03:13 UTC] sell | [rapid-drop] $OS crashed >15% in one tick | P&L: -21.6%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 03:15 UTC] buy | [LLM] $HG at $3.64163e-06, spent 0.05 SOL
+- **Reasoning:** $HG (Hungry Game) — 0.6min old, $3.6k mcap with 10% bond (very early), Twitter attached (blondehotcoffee), narrative wordplay on Hunger Games. Lowest mcap + freshest launch = best risk/reward for a viral pump. Risky but asymmetric.
+
