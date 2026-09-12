@@ -22222,3 +22222,6 @@
 ## [2026-09-12 02:42 UTC] buy | [LLM] $PONS at $3.45276e-06, spent 0.05 SOL
 - **Reasoning:** $PONS has the sharpest narrative for a shock-name memecoin (Piece of Nasty Shit), smallest mcap ($3.4k = most upside runway), and creator already posted an X link driving attention. Risk: 30 seconds old, bond only 8% complete, liquidity thin — could rug fast, hence -25% hard stop.
 
+## [2026-09-12 02:44 UTC] sell | [rapid-drop] $PONS crashed >15% in one tick | P&L: -17.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

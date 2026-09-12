@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.200885,
+  "balance_sol": 9.242117,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4496YrHAB51Nptu5LJYPQf3Xov957pqmNQYkr7APscEn": {
-      "symbol": "PONS",
-      "name": "Piece of Nasty Shit",
-      "amount": 1472446.8094444263,
-      "entry_price_usd": 3.4527563015456302e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T02:42:59.394890+00:00",
-      "entry_usd_value": 5.0840000000000005,
-      "last_seen_price_usd": 3.4527563015456302e-06,
-      "entry_signals": {
-        "liquidity_usd": 314.18118696032,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3453.775014065755,
-        "ath_market_cap_usd": 3454.4521025123377,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.089901524,
-        "description": "",
-        "twitter": "https://x.com/boltricksdeving/status/2098342320127013094",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52302,19 +52278,30 @@
       "pnl_pct": 4.64,
       "exit_reason": "LLM: sell_all — Only +4.6% and 0h held, bonding curve still active, no reason to exit early - give the narrative room to develop before taking profit or cutting.",
       "partial": false
+    },
+    {
+      "mint": "4496YrHAB51Nptu5LJYPQf3Xov957pqmNQYkr7APscEn",
+      "symbol": "PONS",
+      "name": "Piece of Nasty Shit",
+      "amount_sold": 1472446.8094444263,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T02:42:59.394890+00:00",
+      "exit_time": "2026-09-12T02:44:02.973613+00:00",
+      "entry_price_usd": 3.4527563015456302e-06,
+      "exit_price_usd": 2.8615493040727806e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.041232,
+      "pnl_sol": -0.008768,
+      "pnl_pct": -17.12,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T02:42:59.395061+00:00",
+  "last_updated": "2026-09-12T02:44:14.259184+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.68,
-  "portfolio_value_usd": 940.63,
+  "last_sol_price_usd": 102.19,
+  "portfolio_value_usd": 944.45,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 01:23 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 01:26 UTC",
       "action": "observe",
@@ -52428,30 +52415,48 @@
       "action": "buy",
       "details": "[LLM] $PONS at $3.45276e-06, spent 0.05 SOL",
       "reason": "$PONS has the sharpest narrative for a shock-name memecoin (Piece of Nasty Shit), smallest mcap ($3.4k = most upside runway), and creator already posted an X link driving attention. Risk: 30 seconds old, bond only 8% complete, liquidity thin — could rug fast, hence -25% hard stop."
+    },
+    {
+      "time": "2026-09-12 02:44 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $PONS crashed >15% in one tick | P&L: -17.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3075,
+    "total": 3076,
     "wins": 1436,
-    "losses": 1639,
+    "losses": 1640,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 5.034697,
-    "avg_pnl_pct": 27.93,
+    "total_pnl_sol": 5.025929,
+    "avg_pnl_pct": 27.92,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 2,
-    "today_realized_sol": 0.001601,
-    "today_target_pct": 0.4,
+    "today_trades": 3,
+    "today_realized_sol": -0.007167,
+    "today_target_pct": -1.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1436,
-      "loss_count": 1639,
+      "loss_count": 1640,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T02:42:57.982143+00:00",
+  "last_llm_brief_at": "2026-09-12T02:44:14.259150+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "4496YrHAB51Nptu5LJYPQf3Xov957pqmNQYkr7APscEn": {
+      "price_usd": 2.8615493040727806e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2.3702854003400002,
+      "volume_h24": 314.3,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.023194886
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
