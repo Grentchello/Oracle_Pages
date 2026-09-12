@@ -22375,3 +22375,9 @@
 ## [2026-09-12 03:51 UTC] buy | [LLM] $SUPER DOGE at $3.77e-06, spent 0.05 SOL
 - **Reasoning:** SUPER DOGE has a clear superhero narrative, active Twitter (LaunchX2_), description meets viability gate. Fresh1.5min launch at $3.7k mcap is prime attention-market entry. Risk: narrative is generic doge variant, but attention signal is present.
 
+## [2026-09-12 03:53 UTC] sell | [FULL][LLM] $SUPER DOGE at $3.45441e-06 | P&L: -8.4%
+- **Reasoning:** Down only -8.4% on a 0.0h hold, well inside the -25% hard cap and not yet stale. No clear exit signal yet — give it a few more minutes to develop before cutting.
+
+## [2026-09-12 03:53 UTC] buy | [LLM] $candle at $5.128e-06, spent 0.05 SOL
+- **Reasoning:** Fresh $candle launch (~0.6min) with viral X tweet from CyborgDeployed — clean candle/pop narrative has obvious meme energy. Tiny $4k mcap on a bonding curve with 14% filled, high attention-to-mcap ratio. Skip $CANDLE (same tweet, duplicate attention split).
+
