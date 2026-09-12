@@ -23086,3 +23086,6 @@
 ## [2026-09-12 11:07 UTC] sell | [FULL][LLM] $RUNNET at $3.14853e-06 | P&L: -3.5%
 - **Reasoning:** $RUNNET just entered, down only -3.5%, age 0h. Stale rules don't apply yet (need30min held). Give the position room to develop before cutting.
 
+## [2026-09-12 11:11 UTC] buy | [LLM] $VOID at $7.105e-06, spent 0.05 SOL
+- **Reasoning:** $VOID has a clear airdrop-to-top-30 narrative that incentivizes sustained buying (holders don't want to drop out before distribution), freshest launch at 0.7min, 27% bonded showing real SOL inflow, twitter handle present. Viability passes (desc ≥50 chars + twitter). Risk: 60% supply airdrop means heavy sell pressure when distribution hits — but that's a sell-the-news event minutes/hours away, plenty of pump runway first.
+
