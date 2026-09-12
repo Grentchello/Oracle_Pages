@@ -23506,3 +23506,6 @@
 ## [2026-09-12 15:36 UTC] buy | [LLM] $anorchia at $6.86591e-06, spent 0.05 SOL
 - **Reasoning:** $anorchia — absurd/funny name ('anorchia' = medical term for absence of testicles), posted by X account with active engagement, sub-1min age means pure attention-launch alpha. Bond at 26% with a $6.8k mcap = early entry before curve fills. Risk is the joke lands flat; narrative edge is the shock-humor attention grab.
 
+## [2026-09-12 15:37 UTC] sell | [rapid-drop] $anorchia crashed >15% in one tick | P&L: -58.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
