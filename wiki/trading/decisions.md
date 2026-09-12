@@ -24448,3 +24448,9 @@
 ## [2026-09-12 23:49 UTC] sell | [PARTIAL][LLM] $Gamblecoin at $4.48232e-06 | P&L: +40.5%
 - **Reasoning:** Up +40.5% in 6 min on a meta-narrative coin, but pool is only $773 — extreme thin liquidity means gains can evaporate in one dump. Selling half locks in ~+40% on half the bag and lets the other half ride the bot's +50% TP or higher. Best risk/reward given the pool fragility.
 
+## [2026-09-12 23:50 UTC] sell | [v8.7 TP +50% (full)] $Gamblecoin at $5.22407e-06 | P&L: +63.8%
+- **Reasoning:** Auto take-profit at +63.8%
+
+## [2026-09-12 23:50 UTC] buy | [LLM] $FATPIG at $3.87149e-06, spent 0.05 SOL
+- **Reasoning:** $FATPIG with 'DUVE HAS %40' narrative — memecoins are attention markets and a fat pig theme with a percentage angle is classic viral bait. 0.5min old, $3.8k mcap, has twitter presence (X link). Liquidity thin but bond at 12% means pump.fun migration in progress. 0.05 SOL position (within rules) — small bet on attention narrative.
+
