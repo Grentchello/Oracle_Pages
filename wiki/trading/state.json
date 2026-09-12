@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.787772,
+  "balance_sol": 12.837739,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Da1W47G7BJ3s6VY724AYtZ9GC59qayg7LUdGqQJTpump": {
-      "symbol": "Python",
-      "name": "Python ",
-      "mint": "Da1W47G7BJ3s6VY724AYtZ9GC59qayg7LUdGqQJTpump",
-      "amount": 1618121.8274111676,
-      "entry_price_usd": 3.152e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T12:45:48.548806+00:00",
-      "entry_time_iso": "2026-09-12T12:45:48.548814+00:00",
-      "entry_usd_value": 5.10032,
-      "last_seen_price_usd": 3.152e-06,
-      "entry_liquidity_usd": 254.4462470270368,
-      "entry_pool_sol": 2.494414537,
-      "entry_market_cap_usd": 3338.4956163693287,
-      "entry_signals": {
-        "liquidity_usd": 254.4462470270368,
-        "volume_24h_usd": 173.55,
-        "market_cap_usd": 3338.4956163693287,
-        "ath_market_cap_usd": 3338.4956163693287,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.494414537,
-        "description": "Python is a coding language. ",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55965,19 +55936,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 81.190287,
       "partial": false
+    },
+    {
+      "mint": "Da1W47G7BJ3s6VY724AYtZ9GC59qayg7LUdGqQJTpump",
+      "symbol": "Python",
+      "name": "Python ",
+      "amount_sold": 1618121.8274111676,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T12:45:48.548806+00:00",
+      "entry_time_iso": "2026-09-12T12:45:48.548814+00:00",
+      "exit_time": "2026-09-12T12:47:01.658201+00:00",
+      "exit_time_iso": "2026-09-12T12:47:01.658209+00:00",
+      "entry_price_usd": 3.152e-06,
+      "exit_price_usd": 3.166063642960827e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049967,
+      "pnl_sol": -3.3e-05,
+      "pnl_pct": 0.45,
+      "exit_reason": "LLM: sell_all — Just entered this tick, only +0.4% but bonding-curve phase with pool=$157 means the entry just happened. Need a few minutes to see if it pumps. Not st",
+      "entry_liquidity_usd": 254.45,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 2.4944,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 73.109424,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T12:45:48.548992+00:00",
+  "last_updated": "2026-09-12T12:47:01.658795+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.0064,
-  "portfolio_value_usd": 1309.53,
+  "last_sol_price_usd": 102.53,
+  "portfolio_value_usd": 1316.25,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 12:02 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $ZAN crashed >15% in one tick | P&L: -60.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 12:07 UTC",
       "action": "buy",
@@ -56091,30 +56080,48 @@
       "action": "buy",
       "details": "[LLM] $Python at $3.152e-06, spent 0.05 SOL",
       "reason": "$Python taps the coder-meta narrative (devs trade memecoins, and 'Python' is the most recognized language name). 1.4min old at $3.3k mcap with description passes viability gate. High attention potential in crypto/AI crowd — early entry before narrative spreads."
+    },
+    {
+      "time": "2026-09-12 12:47 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Python at $3.16606e-06 | P&L: +0.5%",
+      "reason": "Just entered this tick, only +0.4% but bonding-curve phase with pool=$157 means the entry just happened. Need a few minutes to see if it pumps. Not stale yet."
     }
   ],
   "trade_stats": {
-    "total": 3249,
+    "total": 3250,
     "wins": 1507,
-    "losses": 1742,
+    "losses": 1743,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 8.621584,
-    "avg_pnl_pct": 28.63,
+    "total_pnl_sol": 8.621551,
+    "avg_pnl_pct": 28.62,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 176,
-    "today_realized_sol": 3.588488,
+    "today_trades": 177,
+    "today_realized_sol": 3.588455,
     "today_target_pct": 897.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1507,
-      "loss_count": 1742,
+      "loss_count": 1743,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T12:45:47.246247+00:00",
+  "last_llm_brief_at": "2026-09-12T12:47:01.657718+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Da1W47G7BJ3s6VY724AYtZ9GC59qayg7LUdGqQJTpump": {
+      "price_usd": 3.166063642960827e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 156.65399153067,
+      "volume_h24": 377.68,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.527884439
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
