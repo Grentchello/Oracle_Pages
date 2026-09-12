@@ -24379,3 +24379,6 @@
 ## [2026-09-12 23:19 UTC] sell | [FULL][LLM] $BADGES at $3.53735e-06 | P&L: -8.6%
 - **Reasoning:** Just opened, -8.5% well within -25% hard cap, bonding-curve token (PFP/badge meta is a real narrative). No reason to dump a fresh position into another fresh position — that's a coin flip, not rotation.
 
+## [2026-09-12 23:20 UTC] buy | [LLM] $DUVAL at $7.894e-06, spent 0.05 SOL
+- **Reasoning:** $DUVAL has the strongest attention signal of the batch — an actual X post linking the token (Niorquant), fresh launch under 1.5min, and mcap still under $10k. PEPE-style brand-extension plays and political tokens ($JUGS hits fragility gate) carry more risk. Riding the viral X attention at 0.05 SOL position size.
+
