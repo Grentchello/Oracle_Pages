@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.19883,
+  "balance_sol": 9.250885,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9vqA7b5ngShAWKg92u4a3F6EumnaRrwHYEh7fa3Lpump": {
-      "symbol": "PINCH",
-      "name": "Agent PINCH",
-      "amount": 1567684.2429848907,
-      "entry_price_usd": 3.243e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T02:38:54.636293+00:00",
-      "entry_usd_value": 5.0840000000000005,
-      "last_seen_price_usd": 3.243e-06,
-      "entry_signals": {
-        "liquidity_usd": 375.61495752176,
-        "volume_24h_usd": 442.97,
-        "market_cap_usd": 3606.291960309978,
-        "ath_market_cap_usd": 3606.291960309978,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.694088882,
-        "description": "",
-        "twitter": "https://x.com/dev_pscl/status/2098601716732117100?s=46&t=lK-K0iV34vILLZHjC176jA",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52285,19 +52261,30 @@
       "pnl_pct": -0.98,
       "exit_reason": "LLM: sell_all — Only held 0.0h (just entered), -1.0% is noise well within tolerance. DOGE-1 is a recognizable narrative ticker with bonding curve still active — give ",
       "partial": false
+    },
+    {
+      "mint": "9vqA7b5ngShAWKg92u4a3F6EumnaRrwHYEh7fa3Lpump",
+      "symbol": "PINCH",
+      "name": "Agent PINCH",
+      "amount_sold": 1567684.2429848907,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T02:38:54.636293+00:00",
+      "exit_time": "2026-09-12T02:40:18.124880+00:00",
+      "entry_price_usd": 3.243e-06,
+      "exit_price_usd": 3.3935251352060683e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.052055,
+      "pnl_sol": 0.002055,
+      "pnl_pct": 4.64,
+      "exit_reason": "LLM: sell_all — Only +4.6% and 0h held, bonding curve still active, no reason to exit early - give the narrative room to develop before taking profit or cutting.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T02:38:54.636543+00:00",
+  "last_updated": "2026-09-12T02:40:19.523283+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.68,
-  "portfolio_value_usd": 940.42,
+  "last_sol_price_usd": 102.2,
+  "portfolio_value_usd": 945.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 01:14 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 01:19 UTC",
       "action": "observe",
@@ -52411,30 +52398,48 @@
       "action": "buy",
       "details": "[LLM] $PINCH at $3.243e-06, spent 0.05 SOL",
       "reason": "Fresh 1-min launch with twitter presence — clears viability gate. 'Agent PINCH' has an agent-narrative angle which is hot meta. $3.6k mcap = asymmetric upside if attention catches. 0.05 SOL risk = $5 max loss acceptable for first real test of attention-launched memecoin strategy on fresh slate."
+    },
+    {
+      "time": "2026-09-12 02:40 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PINCH at $3.39353e-06 | P&L: +4.6%",
+      "reason": "Only +4.6% and 0h held, bonding curve still active, no reason to exit early - give the narrative room to develop before taking profit or cutting."
     }
   ],
   "trade_stats": {
-    "total": 3074,
-    "wins": 1435,
+    "total": 3075,
+    "wins": 1436,
     "losses": 1639,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 5.032642,
-    "avg_pnl_pct": 27.94,
+    "total_pnl_sol": 5.034697,
+    "avg_pnl_pct": 27.93,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 1,
-    "today_realized_sol": -0.000454,
-    "today_target_pct": -0.1,
+    "today_trades": 2,
+    "today_realized_sol": 0.001601,
+    "today_target_pct": 0.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1435,
+      "win_count": 1436,
       "loss_count": 1639,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T02:38:53.318944+00:00",
+  "last_llm_brief_at": "2026-09-12T02:40:18.124139+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "9vqA7b5ngShAWKg92u4a3F6EumnaRrwHYEh7fa3Lpump": {
+      "price_usd": 3.3935251352060683e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 275.2692329884,
+      "volume_h24": 780.78,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.693436722
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
