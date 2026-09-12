@@ -22507,3 +22507,9 @@
 ## [2026-09-12 05:18 UTC] buy | [LLM] $TP at $5.438e-06, spent 0.05 SOL
 - **Reasoning:** $TP (Toilet Paper) — universal meme material, direct tweet from @honestdevvor (not just a community link), $5.7k mcap with 23% bond. Risky but the experiment requires taking trades to learn. Sizing at 0.05 SOL. Skipping KEYCAT (bond only 10% = rug-prone) and MEME1921 (weak twitter signal — community link, no viral tweet).
 
+## [2026-09-12 05:19 UTC] sell | [rapid-drop] $TP crashed >15% in one tick | P&L: -47.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 05:19 UTC] buy | [LLM] $McTittys at $7.707e-06, spent 0.05 SOL
+- **Reasoning:** $McTittys — 'gooner meta' narrative with explicit viral hook (upside-down logo = pair). McTittys is the kind of absurdist adult-humor name that pumps on CT/X because it's shareable. Sub-$15k mcap = extreme upside if it catches a single viral post.
+
