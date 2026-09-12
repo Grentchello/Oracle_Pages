@@ -1,8 +1,32 @@
 {
-  "balance_sol": 11.333162,
+  "balance_sol": 11.283162,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "75kA3fySKtumw4tcSQwjGdfk5NoZ6SpJghDyYFMipump": {
+      "symbol": "Stockx",
+      "name": "Stockx",
+      "amount": 1550853.8286134496,
+      "entry_price_usd": 3.2914771887714264e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T03:40:09.737829+00:00",
+      "entry_usd_value": 5.1046000000000005,
+      "last_seen_price_usd": 3.2914771887714264e-06,
+      "entry_signals": {
+        "liquidity_usd": 4.08368e-07,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3277.192350483471,
+        "ath_market_cap_usd": 3687.139088467028,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 4e-09,
+        "description": "I’ve just launched the first \"Bloomberg\" on Solana. Open your own stock accounts and trade on the platform. The first fully operational stock market on Solana.",
+        "twitter": "https://x.com/Tarab_dev/status/2098617116702212603?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52637,17 +52661,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:38:53.638579+00:00",
+  "last_updated": "2026-09-12T03:40:09.737996+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.58,
-  "portfolio_value_usd": 1151.22,
+  "last_sol_price_usd": 102.092,
+  "portfolio_value_usd": 1157.03,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:17 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $NETFLIIX crashed >15% in one tick | P&L: -52.3%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 03:18 UTC",
       "action": "buy",
@@ -52761,6 +52779,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $Normify at $2.84007e-06 | P&L: -55.8%",
       "reason": "Down 11.7% with pool=$0 — effectively a dead position, no exit liquidity. Better to realize the small loss and free the slot than hope for a bounce that requires liquidity that doesn't exist."
+    },
+    {
+      "time": "2026-09-12 03:40 UTC",
+      "action": "buy",
+      "details": "[LLM] $Stockx at $3.29148e-06, spent 0.05 SOL",
+      "reason": "$Stockx has a concrete narrative ('Bloomberg on Solana' for stock trading), fresh launch (<2min), and very low mcap ($3.3k) — classic asymmetric attention setup. Bond only 6% complete means early entry; risk is thin liquidity if no one piles in, but the story angle is real and tradable."
     }
   ],
   "trade_stats": {
@@ -52782,21 +52806,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:38:53.638134+00:00",
+  "last_llm_brief_at": "2026-09-12T03:40:08.398126+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "GRfzk34sMfbPctY2dgjtf7hZr86d2cgKKzd91EyLpump": {
-      "price_usd": 2.8400745598720033e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2.74266e-06,
-      "volume_h24": 1226.57,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 2.7e-08
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
