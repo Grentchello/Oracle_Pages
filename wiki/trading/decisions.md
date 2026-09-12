@@ -22519,3 +22519,6 @@
 ## [2026-09-12 05:26 UTC] buy | [LLM] $HYPED at $5.32204e-06, spent 0.05 SOL
 - **Reasoning:** Fresh 1.1min launch, $4k mcap, crude-humor narrative ('trade with balls') — bizarre enough to farm CT engagement which is the real alpha at this stage. Tiny 0.05 SOL size caps downside to ~$1.25 if it rugs. Worth a learning trade on the fresh slate.
 
+## [2026-09-12 05:27 UTC] sell | [FULL][LLM] $HYPED at $5.55879e-06 | P&L: +4.5%
+- **Reasoning:** $HYPED is +4.4% and just opened (0.0h). No stale/exit signal yet, and the cost of rotating out is a ~$0.20 swap with no meaningful gain locked. Give it a few minutes to either build momentum or hit a stop.
+
