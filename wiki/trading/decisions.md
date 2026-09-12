@@ -24028,3 +24028,9 @@
 ## [2026-09-12 20:26 UTC] buy | [LLM] $STONKZZ at $3.623e-06, spent 0.05 SOL
 - **Reasoning:** STONKZZ / Stonkzz — pure irony-meme narrative ('join the bagholders, embrace the delusion') which is exactly the attention-launched formula. 0.5min old, $5k mcap, bonding curve not complete — earliest entry. 0.05 SOL ($5) per position rules. High rug risk but that's the memecoin game.
 
+## [2026-09-12 20:27 UTC] sell | [rapid-drop] $STONKZZ crashed >15% in one tick | P&L: -26.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 20:27 UTC] buy | [LLM] $GPRO at $3.234e-06, spent 0.05 SOL
+- **Reasoning:** $GPRO (gpro) just launched 1.1min ago at $3.2k mcap — ticker echoes a stock-market attention narrative (GPRO = GoPro brand recognition), ultra-low mcap gives 5-10x room if any attention catches. Fresh launch, no time to have already extracted alpha.
+
