@@ -22597,3 +22597,6 @@
 ## [2026-09-12 06:09 UTC] sell | [FULL][LLM] $IT at $3.69535e-06 | P&L: -9.6%
 - **Reasoning:** $IT is down 9.6% on a $423 bonding-curve pool with our share already at 1% — thin liquidity means a slide to -25% is fast and likely. No bounce signal visible. Cutting now at -9.6% saves ~0.015 SOL vs letting it hit the hard stop, and frees my only position slot.
 
+## [2026-09-12 06:13 UTC] buy | [LLM] $NOFLOCK at $3.414e-06, spent 0.05 SOL
+- **Reasoning:** Privacy/surveillance-resistance narrative is politically resonant without tripping the fragility blocklist (no trump/musk/biden keywords). Passes viability gate with both description AND twitter. $3.4k mcap with real movement story has 5-10x potential if attention catches. Taking 0.1 SOL position to learn whether substantive narratives beat crude-humor launches in this market.
+
