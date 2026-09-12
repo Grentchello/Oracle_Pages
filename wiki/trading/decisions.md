@@ -23380,3 +23380,9 @@
 ## [2026-09-12 14:01 UTC] buy | [LLM] $PCAT at $3.40124e-06, spent 0.05 SOL
 - **Reasoning:** $PCAT is freshest CAT-narrative play (POPCAT category beta still strong on attention markets),<1min old, has twitter signal. Gibberish desc is weakness but viability gate passes via twitter leg. 0.05 SOL scalp on category attention.
 
+## [2026-09-12 14:02 UTC] sell | [FULL][LLM] $PCAT at $3.40255e-06 | P&L: +0.0%
+- **Reasoning:** Flat at +0.0%, no movement, $276 pool is dead weight. Rotating capital to fresh $VOID launch which has actual narrative (airdrop to top 20 holders).
+
+## [2026-09-12 14:02 UTC] buy | [LLM] $VOID at $6.141e-06, spent 0.05 SOL
+- **Reasoning:** Fresh 1.1min launch, $6.4k mcap with runway to 10x, twitter attached, airdrop-to-top-20 narrative creates holder competition and attention. Passes viability gate. Risk: very early, bonding curve incomplete, can rug.
+
