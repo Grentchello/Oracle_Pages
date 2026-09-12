@@ -22591,3 +22591,6 @@
 ## [2026-09-12 06:01 UTC] sell | [rapid-drop] $drill crashed >15% in one tick | P&L: -49.8%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 06:07 UTC] buy | [LLM] $IT at $4.08744e-06, spent 0.05 SOL
+- **Reasoning:** $IT 'tiktok made me buy it' is pure attention-meta — self-referential memecoin narrative, has twitter anchor, mcap $4k means room for 10x if the narrative catches. Position size 0.05 SOL, tight 25% stop will protect if it dies.
+
