@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.734052,
+  "balance_sol": 12.77812,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2Tbr1ym25Gc1RrUsu9cTkVfu1XmiHgVLy4JxhFx2pump": {
-      "symbol": "Trauma",
-      "name": "Psychological Trauma",
-      "mint": "2Tbr1ym25Gc1RrUsu9cTkVfu1XmiHgVLy4JxhFx2pump",
-      "amount": 1451723.1557960697,
-      "entry_price_usd": 3.511e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T14:11:49.465637+00:00",
-      "entry_time_iso": "2026-09-12T14:11:49.465646+00:00",
-      "entry_usd_value": 5.097,
-      "last_seen_price_usd": 3.511e-06,
-      "entry_liquidity_usd": 243.57370179671997,
-      "entry_pool_sol": 2.389382988,
-      "entry_market_cap_usd": 3679.428414805946,
-      "entry_signals": {
-        "liquidity_usd": 243.57370179671997,
-        "volume_24h_usd": 557.3,
-        "market_cap_usd": 3679.428414805946,
-        "ath_market_cap_usd": 3716.2004365063704,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.389382988,
-        "description": "",
-        "twitter": "https://x.com/dev_pscl/status/2098776088063164858?s=46&t=lK-K0iV34vILLZHjC176jA",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56565,19 +56536,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 78.146018,
       "partial": false
+    },
+    {
+      "mint": "2Tbr1ym25Gc1RrUsu9cTkVfu1XmiHgVLy4JxhFx2pump",
+      "symbol": "Trauma",
+      "name": "Psychological Trauma",
+      "amount_sold": 1451723.1557960697,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T14:11:49.465637+00:00",
+      "entry_time_iso": "2026-09-12T14:11:49.465646+00:00",
+      "exit_time": "2026-09-12T14:13:09.344178+00:00",
+      "exit_time_iso": "2026-09-12T14:13:09.344183+00:00",
+      "entry_price_usd": 3.511e-06,
+      "exit_price_usd": 3.0941698896961504e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.044068,
+      "pnl_sol": -0.005932,
+      "pnl_pct": -11.87,
+      "exit_reason": "LLM: sell_all — $Trauma at -11.9% is below the -20% panic line and only just entered (0.0h). Bonding curve pool still has $128 liquidity and4% share isn't yet diluted",
+      "entry_liquidity_usd": 243.57,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 2.3894,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 79.878558,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T14:11:49.465915+00:00",
+  "last_updated": "2026-09-12T14:13:09.344488+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.94,
-  "portfolio_value_usd": 1303.21,
+  "last_sol_price_usd": 101.93,
+  "portfolio_value_usd": 1302.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 13:30 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SENDO at $3.05254e-06 | P&L: -0.4%",
-      "reason": "Just opened (0.0h), essentially flat at -0.4% on a bonding curve with5% share. No signal to exit — give it time to develop, but watch closely; if it goes stale without momentum, exit fast."
-    },
     {
       "time": "2026-09-12 13:34 UTC",
       "action": "buy",
@@ -56691,30 +56680,48 @@
       "action": "buy",
       "details": "[LLM] $Trauma at $3.511e-06, spent 0.05 SOL",
       "reason": "$Trauma is1.3min old with attached twitter (@dev_pscl) — clear attention signal. Dark/edgy psychological meme narrative fits viral attention market thesis. Bond 11% shows organic buy pressure. Risk: sub-$4k mcap means thin liquidity and high rug probability, but 0.1 SOL position with -25% hard cap limits downside to 0.025 SOL."
+    },
+    {
+      "time": "2026-09-12 14:13 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Trauma at $3.09417e-06 | P&L: -11.9%",
+      "reason": "$Trauma at -11.9% is below the -20% panic line and only just entered (0.0h). Bonding curve pool still has $128 liquidity and4% share isn't yet diluted. Give it a few ticks to bounce or confirm weakness before cutting."
     }
   ],
   "trade_stats": {
-    "total": 3274,
+    "total": 3275,
     "wins": 1516,
-    "losses": 1758,
+    "losses": 1759,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.567866,
-    "avg_pnl_pct": 28.33,
+    "total_pnl_sol": 8.561934,
+    "avg_pnl_pct": 28.32,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 201,
-    "today_realized_sol": 3.53477,
-    "today_target_pct": 883.7,
+    "today_trades": 202,
+    "today_realized_sol": 3.528838,
+    "today_target_pct": 882.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1516,
-      "loss_count": 1758,
+      "loss_count": 1759,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T14:11:48.076844+00:00",
+  "last_llm_brief_at": "2026-09-12T14:13:09.344023+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2Tbr1ym25Gc1RrUsu9cTkVfu1XmiHgVLy4JxhFx2pump": {
+      "price_usd": 3.0941698896961504e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 128.37736571052002,
+      "volume_h24": 971.85,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.259465964
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
