@@ -22357,3 +22357,6 @@
 ## [2026-09-12 03:44 UTC] buy | [LLM] $DOGGPT at $3.401e-06, spent 0.05 SOL
 - **Reasoning:** DOGGPT combines AI narrative + dog meme — both top attention magnets right now. Age 0.8min, bonding 14%, very early but the narrative crossover is the kind of thing that pumps on CT. Small position (0.1 SOL), tight mental stop; if no traction in 15min, exit. Risk: ultra-low liquidity, may immediately rug — accept that.
 
+## [2026-09-12 03:45 UTC] sell | [FULL][LLM] $DOGGPT at $4.77944e-06 | P&L: +40.5%
+- **Reasoning:** +40.5% in <1h hit the +30% TP zone. Per scalp discipline, lock the gain before reversal. Thin $906 pool means exit urgency is high - the only exit liquidity is other early buyers. Don't hope for more.
+

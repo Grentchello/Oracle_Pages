@@ -1,32 +1,8 @@
 {
-  "balance_sol": 11.32481,
+  "balance_sol": 11.395462,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "E4soKDBAP2Rvpzkntqea9iuqd5u2MhaMS3V6ipFCDXpy": {
-      "symbol": "DOGGPT",
-      "name": "DOGGPT",
-      "amount": 1500720.3763598942,
-      "entry_price_usd": 3.401e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T03:44:10.860882+00:00",
-      "entry_usd_value": 5.10395,
-      "last_seen_price_usd": 3.401e-06,
-      "entry_signals": {
-        "liquidity_usd": 617.971364099264,
-        "volume_24h_usd": 654.8,
-        "market_cap_usd": 4069.581881236375,
-        "ath_market_cap_usd": 4072.5262982960007,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 6.053854016,
-        "description": "",
-        "twitter": "https://x.com/ramentrade/status/2098618299139674240",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52693,19 +52669,30 @@
       "pnl_pct": 95.56,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "E4soKDBAP2Rvpzkntqea9iuqd5u2MhaMS3V6ipFCDXpy",
+      "symbol": "DOGGPT",
+      "name": "DOGGPT",
+      "amount_sold": 1500720.3763598942,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T03:44:10.860882+00:00",
+      "exit_time": "2026-09-12T03:45:24.607124+00:00",
+      "entry_price_usd": 3.401e-06,
+      "exit_price_usd": 4.7794372839257e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.070652,
+      "pnl_sol": 0.020652,
+      "pnl_pct": 40.53,
+      "exit_reason": "LLM: sell_all — +40.5% in <1h hit the +30% TP zone. Per scalp discipline, lock the gain before reversal. Thin $906 pool means exit urgency is high - the only exit liq",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:44:10.861164+00:00",
+  "last_updated": "2026-09-12T03:45:24.608797+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.079,
-  "portfolio_value_usd": 1161.13,
+  "last_sol_price_usd": 101.52,
+  "portfolio_value_usd": 1156.87,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:21 UTC",
-      "action": "buy",
-      "details": "[LLM] $Brian at $5.977e-06, spent 0.05 SOL",
-      "reason": "Better Call Brian riffs on Better Call Saul — recognizable meme narrative with an X link attached (attention signal). Sub-1-min launch at $5k mcap = pure early attention. Acceptable risk: -25% max = -$1.25 SOL."
-    },
     {
       "time": "2026-09-12 03:22 UTC",
       "action": "sell",
@@ -52819,30 +52806,48 @@
       "action": "buy",
       "details": "[LLM] $DOGGPT at $3.401e-06, spent 0.05 SOL",
       "reason": "DOGGPT combines AI narrative + dog meme — both top attention magnets right now. Age 0.8min, bonding 14%, very early but the narrative crossover is the kind of thing that pumps on CT. Small position (0.1 SOL), tight mental stop; if no traction in 15min, exit. Risk: ultra-low liquidity, may immediately rug — accept that."
+    },
+    {
+      "time": "2026-09-12 03:45 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DOGGPT at $4.77944e-06 | P&L: +40.5%",
+      "reason": "+40.5% in <1h hit the +30% TP zone. Per scalp discipline, lock the gain before reversal. Thin $906 pool means exit urgency is high - the only exit liquidity is other early buyers. Don't hope for more."
     }
   ],
   "trade_stats": {
-    "total": 3098,
-    "wins": 1442,
+    "total": 3099,
+    "wins": 1443,
     "losses": 1656,
-    "win_rate_pct": 46.5,
-    "total_pnl_sol": 7.158623,
-    "avg_pnl_pct": 29.08,
+    "win_rate_pct": 46.6,
+    "total_pnl_sol": 7.179275,
+    "avg_pnl_pct": 29.09,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 25,
-    "today_realized_sol": 2.125527,
-    "today_target_pct": 531.4,
+    "today_trades": 26,
+    "today_realized_sol": 2.146179,
+    "today_target_pct": 536.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1442,
+      "win_count": 1443,
       "loss_count": 1656,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:44:09.532468+00:00",
+  "last_llm_brief_at": "2026-09-12T03:45:24.607078+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "E4soKDBAP2Rvpzkntqea9iuqd5u2MhaMS3V6ipFCDXpy": {
+      "price_usd": 4.7794372839257e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 906.47044055352,
+      "volume_h24": 1664.48,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 8.928983851
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
