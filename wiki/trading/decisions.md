@@ -22819,3 +22819,6 @@
 ## [2026-09-12 08:14 UTC] buy | [LLM] $Mattress at $4.551e-06, spent 0.05 SOL
 - **Reasoning:** $Mattress (Nietzschean Air Mattress) — absurdist intellectual meme angle is the kind of weird narrative that catches X attention. Sub-$5k mcap, <1min old, has twitter presence, narrative is novel and memeable (philosophy + mundane object). Viability gate passes (twitter linked, description likely >50 chars). Early enough to ride first wave; risk is microcap illiquidity so sizing discipline matters.
 
+## [2026-09-12 08:15 UTC] sell | [rapid-drop] $Mattress crashed >15% in one tick | P&L: -36.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
