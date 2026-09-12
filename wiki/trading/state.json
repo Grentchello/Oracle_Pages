@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.099847,
+  "balance_sol": 13.148722,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Es7rxe17biav7chaaWrA2Normyu6a4XQPtD7kvGLrdQ9": {
-      "symbol": "WOGE",
-      "name": "Wogecoin",
-      "mint": "Es7rxe17biav7chaaWrA2Normyu6a4XQPtD7kvGLrdQ9",
-      "amount": 9118.392994098467,
-      "entry_price_usd": 0.0005590897434777692,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T08:31:48.335730+00:00",
-      "entry_time_iso": "2026-09-12T08:31:48.335739+00:00",
-      "entry_usd_value": 5.098,
-      "last_seen_price_usd": 0.0005590897434777692,
-      "entry_liquidity_usd": 72908.63991531968,
-      "entry_pool_sol": 715.071007408,
-      "entry_market_cap_usd": 4655.9669322574,
-      "entry_signals": {
-        "liquidity_usd": 72908.63991531968,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 4655.9669322574,
-        "ath_market_cap_usd": 6402.969326220772,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 715.071007408,
-        "description": "",
-        "twitter": "https://x.com/WogecoinOTC/status/2098690601520955765",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54333,19 +54304,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.118747,
       "partial": false
+    },
+    {
+      "mint": "Es7rxe17biav7chaaWrA2Normyu6a4XQPtD7kvGLrdQ9",
+      "symbol": "WOGE",
+      "name": "Wogecoin",
+      "amount_sold": 9118.392994098467,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T08:31:48.335730+00:00",
+      "entry_time_iso": "2026-09-12T08:31:48.335739+00:00",
+      "exit_time": "2026-09-12T08:33:03.931024+00:00",
+      "exit_time_iso": "2026-09-12T08:33:03.931028+00:00",
+      "entry_price_usd": 0.0005590897434777692,
+      "exit_price_usd": 0.0005464539320547874,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.048875,
+      "pnl_sol": -0.001125,
+      "pnl_pct": -2.26,
+      "exit_reason": "LLM: sell_all — Just entered, -2.3% is well within tolerance and position is only 0.0h old. No reason to panic on a fresh entry — give it time to develop.",
+      "entry_liquidity_usd": 72908.64,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 715.071,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 75.59531,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T08:31:48.336001+00:00",
+  "last_updated": "2026-09-12T08:33:03.931233+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.96,
-  "portfolio_value_usd": 1340.76,
+  "last_sol_price_usd": 101.95,
+  "portfolio_value_usd": 1340.51,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 07:48 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $MEGACAT at $1.16429e-05 | P&L: +11.3%",
-      "reason": "Up11.3% on a fresh 0h entry, still on bonding curve with bonding completing. No reason to exit a green position this early — let it run toward the +30% TP or show signs of stalling."
-    },
     {
       "time": "2026-09-12 07:50 UTC",
       "action": "buy",
@@ -54459,30 +54448,48 @@
       "action": "buy",
       "details": "[LLM] $WOGE at $0.00055909, spent 0.05 SOL",
       "reason": "Wogecoin has a clear narrative (dog-wif-style mascot coin), live X account @WogecoinOTC posting at launch, $4.6k mcap = early attention window. $5 risk fits the learning mandate; bot will auto-stop at -25%."
+    },
+    {
+      "time": "2026-09-12 08:33 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WOGE at $0.000546454 | P&L: -2.3%",
+      "reason": "Just entered, -2.3% is well within tolerance and position is only 0.0h old. No reason to panic on a fresh entry — give it time to develop."
     }
   ],
   "trade_stats": {
-    "total": 3181,
+    "total": 3182,
     "wins": 1482,
-    "losses": 1699,
+    "losses": 1700,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.933659,
-    "avg_pnl_pct": 29.4,
+    "total_pnl_sol": 8.932534,
+    "avg_pnl_pct": 29.39,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 108,
-    "today_realized_sol": 3.900563,
-    "today_target_pct": 975.1,
+    "today_trades": 109,
+    "today_realized_sol": 3.899438,
+    "today_target_pct": 974.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1482,
-      "loss_count": 1699,
+      "loss_count": 1700,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T08:31:46.978295+00:00",
+  "last_llm_brief_at": "2026-09-12T08:33:03.930935+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Es7rxe17biav7chaaWrA2Normyu6a4XQPtD7kvGLrdQ9": {
+      "price_usd": 0.0005464539320547874,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 47862.255249506954,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 469.467927901
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

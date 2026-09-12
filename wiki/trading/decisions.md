@@ -22843,3 +22843,6 @@
 ## [2026-09-12 08:31 UTC] buy | [LLM] $WOGE at $0.00055909, spent 0.05 SOL
 - **Reasoning:** Wogecoin has a clear narrative (dog-wif-style mascot coin), live X account @WogecoinOTC posting at launch, $4.6k mcap = early attention window. $5 risk fits the learning mandate; bot will auto-stop at -25%.
 
+## [2026-09-12 08:33 UTC] sell | [FULL][LLM] $WOGE at $0.000546454 | P&L: -2.3%
+- **Reasoning:** Just entered, -2.3% is well within tolerance and position is only 0.0h old. No reason to panic on a fresh entry — give it time to develop.
+
