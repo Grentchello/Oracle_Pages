@@ -22864,3 +22864,6 @@
 ## [2026-09-12 08:38 UTC] sell | [rapid-drop] $DORIME crashed >15% in one tick | P&L: -51.8%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 08:40 UTC] buy | [LLM] $DOGE-1 at $0.000711627, spent 0.05 SOL
+- **Reasoning:** DOGE-1 references the literal SpaceX DOGE-1 mission — a real cultural anchor that gives the name a hook beyond pure noise. $6k mcap at 0.9min is the volatility zone where attention-launched memecoins 5-10x. Taking a 0.05 SOL probe per the learning-experiment bias; -25% hard stop will handle the rug risk.
+
