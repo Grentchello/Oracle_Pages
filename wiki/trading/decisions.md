@@ -22966,3 +22966,6 @@
 ## [2026-09-12 10:06 UTC] buy | [LLM] $Dickbutt at $1.93e-05, spent 0.05 SOL
 - **Reasoning:** $Dickbutt at $22.5k mcap is the most asymmetric attention play — classic meme IP (Dickbutt is OG internet culture), has an X post driving attention, age <1min = viral launch window. Risk: rapidlaunch.io origin flags potential bundler/snipe activity, ME2F fragility concerns, and tiny liquidity could mean immediate rug. Small 0.1 SOL size keeps risk bounded; if it 5x's the 2-3 losers are covered.
 
+## [2026-09-12 10:08 UTC] sell | [FULL][LLM] $Dickbutt at $2.27171e-05 | P&L: +17.7%
+- **Reasoning:** Dickbutt is up +17.7% just minutes after entry — close to the 25% auto-TP threshold. Name has viral absurdist meme energy, pool is thin ($5.5k) so small buys move price. Rotating out of a working position to chase something 0.6min old is bad discipline. Let it run toward auto-TP or stall out.
+
