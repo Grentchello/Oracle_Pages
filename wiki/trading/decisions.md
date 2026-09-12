@@ -24202,3 +24202,6 @@
 ## [2026-09-12 21:54 UTC] sell | [rapid-drop] $Tit crashed >15% in one tick | P&L: -28.7%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 21:56 UTC] buy | [LLM] $CASHCOW at $0.000299912, spent 0.05 SOL
+- **Reasoning:** Cashcow narrative is clear and memeable (money printer), 30% bond shows real buying pressure at 0.5min, $11k mcap has5-10x room if narrative catches. Risk: sub-minute token could rug instantly.
+
