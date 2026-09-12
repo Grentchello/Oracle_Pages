@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.775161,
+  "balance_sol": 12.842009,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "54qLwUZuy3T8s656kNcgbT5dp1Uf9R982NRUfa2spump": {
-      "symbol": "Pengu",
-      "name": "Flying Pengu",
-      "mint": "54qLwUZuy3T8s656kNcgbT5dp1Uf9R982NRUfa2spump",
-      "amount": 1462233.3715596332,
-      "entry_price_usd": 3.488e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T14:46:47.289715+00:00",
-      "entry_time_iso": "2026-09-12T14:46:47.289723+00:00",
-      "entry_usd_value": 5.10027,
-      "last_seen_price_usd": 3.488e-06,
-      "entry_liquidity_usd": 325.7507474408502,
-      "entry_pool_sol": 3.193465713,
-      "entry_market_cap_usd": 3488.5837582441,
-      "entry_signals": {
-        "liquidity_usd": 325.7507474408502,
-        "volume_24h_usd": 324.17,
-        "market_cap_usd": 3488.5837582441,
-        "ath_market_cap_usd": 3488.5837582441,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.193465713,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56805,19 +56776,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 73.110793,
       "partial": false
+    },
+    {
+      "mint": "54qLwUZuy3T8s656kNcgbT5dp1Uf9R982NRUfa2spump",
+      "symbol": "Pengu",
+      "name": "Flying Pengu",
+      "amount_sold": 1462233.3715596332,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T14:46:47.289715+00:00",
+      "entry_time_iso": "2026-09-12T14:46:47.289723+00:00",
+      "exit_time": "2026-09-12T14:48:03.276679+00:00",
+      "exit_time_iso": "2026-09-12T14:48:03.276682+00:00",
+      "entry_price_usd": 3.488e-06,
+      "exit_price_usd": 4.685490299462448e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.066848,
+      "pnl_sol": 0.016848,
+      "pnl_pct": 34.33,
+      "exit_reason": "LLM: sell_all — Up +34.3% on a $857 pool — liquidity is razor thin and a single sell could crater price. Locking the gain now. Stale or reversal risk is high given th",
+      "entry_liquidity_usd": 325.75,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.1935,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 75.98698,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T14:46:47.289893+00:00",
+  "last_updated": "2026-09-12T14:48:03.277014+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.0054,
-  "portfolio_value_usd": 1308.24,
+  "last_sol_price_usd": 102.49,
+  "portfolio_value_usd": 1316.18,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 14:13 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Trauma at $3.09417e-06 | P&L: -11.9%",
-      "reason": "$Trauma at -11.9% is below the -20% panic line and only just entered (0.0h). Bonding curve pool still has $128 liquidity and4% share isn't yet diluted. Give it a few ticks to bounce or confirm weakness before cutting."
-    },
     {
       "time": "2026-09-12 14:15 UTC",
       "action": "buy",
@@ -56931,30 +56920,48 @@
       "action": "buy",
       "details": "[LLM] $Pengu at $3.488e-06, spent 0.05 SOL",
       "reason": "Pengu rides the Pudgy Penguins brand recognition (established multi-hundred million dollar NFT IP with existing $PENGU token that 10x'd). Just 1 min old at $3.5k mcap = very early attention window with massive room to run. Brand-name attention is exactly what memecoin markets reward. Risk contained at 0.05 SOL with -25% hard stop."
+    },
+    {
+      "time": "2026-09-12 14:48 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Pengu at $4.68549e-06 | P&L: +34.3%",
+      "reason": "Up +34.3% on a $857 pool — liquidity is razor thin and a single sell could crater price. Locking the gain now. Stale or reversal risk is high given the microcap bonding-curve setup."
     }
   ],
   "trade_stats": {
-    "total": 3284,
-    "wins": 1521,
+    "total": 3285,
+    "wins": 1522,
     "losses": 1763,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.608975,
+    "total_pnl_sol": 8.625823,
     "avg_pnl_pct": 28.27,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 211,
-    "today_realized_sol": 3.575879,
-    "today_target_pct": 894.0,
+    "today_trades": 212,
+    "today_realized_sol": 3.592727,
+    "today_target_pct": 898.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1521,
+      "win_count": 1522,
       "loss_count": 1763,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T14:46:45.977072+00:00",
+  "last_llm_brief_at": "2026-09-12T14:48:03.276628+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "54qLwUZuy3T8s656kNcgbT5dp1Uf9R982NRUfa2spump": {
+      "price_usd": 4.685490299462448e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 856.98537167585,
+      "volume_h24": 478.48,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 8.361648665
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
