@@ -24088,3 +24088,6 @@
 ## [2026-09-12 21:11 UTC] buy | [LLM] $ALL at $0.001111, spent 0.05 SOL
 - **Reasoning:** $ALL meta-narrative ('hold one coin, collect every launch' — every new token drops a piece into $AL holders) is genuinely viral-worthy and rare. $1.1M mcap already with 43% bonded curve complete suggests real demand. Clear attention signal via dedicated @allonsolana twitter. Best narrative-to-mcap ratio on the board.
 
+## [2026-09-12 21:13 UTC] sell | [FULL][LLM] $ALL at $0.001144 | P&L: +3.0%
+- **Reasoning:** $ALL only +3% after 0min held, well within fresh entry. No reason to exit a barely-breakeven position yet — give the narrative time to develop before judging.
+

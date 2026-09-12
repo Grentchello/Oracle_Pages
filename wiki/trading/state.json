@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.207586,
+  "balance_sol": 27.258829,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GaFke31numPkPqZZBueVtxpMMwbZF9pWhCxvVXFBpump": {
-      "symbol": "ALL",
-      "name": "all",
-      "mint": "GaFke31numPkPqZZBueVtxpMMwbZF9pWhCxvVXFBpump",
-      "amount": 4565.256525652565,
-      "entry_price_usd": 0.001111,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T21:11:57.943459+00:00",
-      "entry_time_iso": "2026-09-12T21:11:57.943467+00:00",
-      "entry_usd_value": 5.072,
-      "last_seen_price_usd": 0.001111,
-      "entry_liquidity_usd": 87412.07,
-      "entry_pool_sol": 85.005359057,
-      "entry_market_cap_usd": 1124161.2757991822,
-      "entry_signals": {
-        "liquidity_usd": 87412.07,
-        "volume_24h_usd": 35823.3,
-        "market_cap_usd": 1124161.2757991822,
-        "ath_market_cap_usd": 1124161.2757991822,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 85.005359057,
-        "description": "hold one coin. collect every launch. every coin launched here drops a piece of itself into every $ALL wallet, paid by its own trades.",
-        "twitter": "https://x.com/allonsolana",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59229,19 +59200,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 73.694778,
       "partial": false
+    },
+    {
+      "mint": "GaFke31numPkPqZZBueVtxpMMwbZF9pWhCxvVXFBpump",
+      "symbol": "ALL",
+      "name": "all",
+      "amount_sold": 4565.256525652565,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T21:11:57.943459+00:00",
+      "entry_time_iso": "2026-09-12T21:11:57.943467+00:00",
+      "exit_time": "2026-09-12T21:13:11.623809+00:00",
+      "exit_time_iso": "2026-09-12T21:13:11.623818+00:00",
+      "entry_price_usd": 0.001111,
+      "exit_price_usd": 0.001144,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.051243,
+      "pnl_sol": 0.001243,
+      "pnl_pct": 2.97,
+      "exit_reason": "LLM: sell_all — $ALL only +3% after 0min held, well within fresh entry. No reason to exit a barely-breakeven position yet — give the narrative time to develop before ",
+      "entry_liquidity_usd": 87412.07,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 85.0054,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 73.680371,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T21:11:57.943636+00:00",
+  "last_updated": "2026-09-12T21:13:11.624064+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.44,
-  "portfolio_value_usd": 2765.01,
+  "last_sol_price_usd": 101.92,
+  "portfolio_value_usd": 2778.22,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 20:27 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $STONKZZ crashed >15% in one tick | P&L: -26.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 20:27 UTC",
       "action": "buy",
@@ -59355,40 +59344,44 @@
       "action": "buy",
       "details": "[LLM] $ALL at $0.001111, spent 0.05 SOL",
       "reason": "$ALL meta-narrative ('hold one coin, collect every launch' — every new token drops a piece into $AL holders) is genuinely viral-worthy and rare. $1.1M mcap already with 43% bonded curve complete suggests real demand. Clear attention signal via dedicated @allonsolana twitter. Best narrative-to-mcap ratio on the board."
+    },
+    {
+      "time": "2026-09-12 21:13 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ALL at $0.001144 | P&L: +3.0%",
+      "reason": "$ALL only +3% after 0min held, well within fresh entry. No reason to exit a barely-breakeven position yet — give the narrative time to develop before judging."
     }
   ],
   "trade_stats": {
-    "total": 3385,
-    "wins": 1568,
+    "total": 3386,
+    "wins": 1569,
     "losses": 1817,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 23.041425,
-    "avg_pnl_pct": 36.75,
+    "total_pnl_sol": 23.042668,
+    "avg_pnl_pct": 36.74,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 312,
-    "today_realized_sol": 18.008329,
-    "today_target_pct": 4502.1,
+    "today_trades": 313,
+    "today_realized_sol": 18.009572,
+    "today_target_pct": 4502.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1568,
+      "win_count": 1569,
       "loss_count": 1817,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T21:11:56.848242+00:00",
+  "last_llm_brief_at": "2026-09-12T21:13:11.622944+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5v7fUyRCNpcrASvZpCh81Wpi9BkKPQNb6Vexjjczpump": {
-      "price_usd": 0.0004605119927499415,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 5297.97886253408,
-      "volume_h24": 0.0,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 52.227709607
+    "GaFke31numPkPqZZBueVtxpMMwbZF9pWhCxvVXFBpump": {
+      "price_usd": 0.001144,
+      "change_h24": 2615.0,
+      "change_h1": 2615.0,
+      "liquidity_usd": 88716.98,
+      "volume_h24": 36179.0,
+      "dex_id": "pumpswap",
+      "source": "dexscreener"
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
