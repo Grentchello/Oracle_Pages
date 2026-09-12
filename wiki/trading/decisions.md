@@ -24037,3 +24037,6 @@
 ## [2026-09-12 20:29 UTC] sell | [FULL][LLM] $GPRO at $3.27204e-06 | P&L: +1.2%
 - **Reasoning:** Just opened, +1.2%, well within hold window. No signal to exit and no slot to rotate into — the three fresh launches are too thin (sub-$5k mcap, <2min, two have no narrative) to justify dumping a live position.
 
+## [2026-09-12 20:33 UTC] buy | [LLM] $TEDSUCKS at $4.17e-06, spent 0.05 SOL
+- **Reasoning:** Genuine viral mainstream moment: 10 minutes of 'TED YOU SUCK' chants on ESPN College GameDay with X post amplifying it. Time-stamped, real-world attention signal that memecoins love. Risk: bond only 15%, $4k mcap, very early — could fail to graduate. But asymmetric:0.1 SOL position, hard -25% cap, and a concrete story beats vague launches.
+
