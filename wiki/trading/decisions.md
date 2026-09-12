@@ -23071,3 +23071,6 @@
 ## [2026-09-12 10:59 UTC] buy | [LLM] $RISE at $8.16e-06, spent 0.05 SOL
 - **Reasoning:** $RISE has a real attention mechanic (60% airdrop to top 15 holders incentivizes shilling + holding), $8.5k mcap with room to run, and a Twitter handle. Highest narrative-density launch in the slate. Risk: airdrop-farming tokens often dump post-distribution — watch for exit signal if it doesn't pump in first 15 min.
 
+## [2026-09-12 11:01 UTC] sell | [FULL][LLM] $RISE at $8.89923e-06 | P&L: +9.1%
+- **Reasoning:** Just entered at +9.1% but pool is critically thin at $2346 and our share shows 0% — position may not have filled properly. Give it a few minutes to see if order executed; if down or share remains 0%, exit immediately.
+
