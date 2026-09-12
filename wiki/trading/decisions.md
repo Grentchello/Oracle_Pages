@@ -22609,3 +22609,6 @@
 ## [2026-09-12 06:15 UTC] sell | [rapid-drop] $MEME crashed >15% in one tick | P&L: -43.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 06:17 UTC] buy | [LLM] $belief at $3.2252e-06, spent 0.05 SOL
+- **Reasoning:** $belief: meta-narrative (collective belief = memecoin meme about belief-pumping), live twitter post from @blknoiz06 is a real attention signal at 0.5min/$3.2k. Early enough for asymmetric upside. Risk: brand new, no desc, tweet could be bait — but attention is the trade.
+

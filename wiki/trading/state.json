@@ -1,8 +1,32 @@
 {
-  "balance_sol": 13.201381,
+  "balance_sol": 13.151381,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "CESys7qjuiM4wJccnxkdRmscFMBe9WiCHQafd1C4pump": {
+      "symbol": "belief",
+      "name": "collective belief",
+      "amount": 1569360.3153988267,
+      "entry_price_usd": 3.2251994333842353e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T06:17:14.699589+00:00",
+      "entry_usd_value": 5.0615000000000006,
+      "last_seen_price_usd": 3.2251994333842353e-06,
+      "entry_signals": {
+        "liquidity_usd": 5.0615e-07,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3234.5871586975045,
+        "ath_market_cap_usd": 4797.077784416865,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 5e-09,
+        "description": "",
+        "twitter": "https://twitter.com/blknoiz06/status/2098656941589319730",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53402,17 +53426,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T06:15:47.405610+00:00",
+  "last_updated": "2026-09-12T06:17:14.699770+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.27,
-  "portfolio_value_usd": 1336.9,
+  "last_sol_price_usd": 101.23,
+  "portfolio_value_usd": 1336.38,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 05:47 UTC",
-      "action": "buy",
-      "details": "[LLM] $TSM at $3.155e-06, spent 0.05 SOL",
-      "reason": "$TSM backed by Brian Roemmele (~750k followers), visually distinctive 'ancient carved stone figures' narrative is highly shareable, has description, sub-1min age has viral first-hour potential. Risks: mcap only $3.2k, bond only 6% complete, thin liquidity could mean wicks both ways."
-    },
     {
       "time": "2026-09-12 05:48 UTC",
       "action": "sell",
@@ -53526,6 +53544,12 @@
       "action": "sell",
       "details": "[rapid-drop] $MEME crashed >15% in one tick | P&L: -43.0%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-12 06:17 UTC",
+      "action": "buy",
+      "details": "[LLM] $belief at $3.2252e-06, spent 0.05 SOL",
+      "reason": "$belief: meta-narrative (collective belief = memecoin meme about belief-pumping), live twitter post from @blknoiz06 is a real attention signal at 0.5min/$3.2k. Early enough for asymmetric upside. Risk: brand new, no desc, tweet could be bait — but attention is the trade."
     }
   ],
   "trade_stats": {
@@ -53547,21 +53571,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T06:15:47.405565+00:00",
+  "last_llm_brief_at": "2026-09-12T06:17:13.350979+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "6ggYPuPAr8LAd5ampLwnTa9zX1WKT2umZYoqSHf8pump": {
-      "price_usd": 3.008384267960257e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 93.50911268672999,
-      "volume_h24": 7415.2,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.923364399
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
