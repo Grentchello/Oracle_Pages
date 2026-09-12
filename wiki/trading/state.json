@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.248002,
+  "balance_sol": 13.29801,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FZqEBccRXLY3fSWEznv9nYLw8yfnPB9kjrF6E4Q6pump": {
-      "symbol": "Beluga ",
-      "name": "Beluga",
-      "amount": 1485806.262803629,
-      "entry_price_usd": 3.417e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T05:09:27.420742+00:00",
-      "entry_usd_value": 5.077000000000001,
-      "last_seen_price_usd": 3.417e-06,
-      "entry_signals": {
-        "liquidity_usd": 296.04505077388,
-        "volume_24h_usd": 661.52,
-        "market_cap_usd": 3418.83505046954,
-        "ath_market_cap_usd": 3418.83505046954,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.915551022,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53067,19 +53043,30 @@
       "pnl_pct": 66.99,
       "exit_reason": "auto-v8.7 TP +50% (full)",
       "partial": false
+    },
+    {
+      "mint": "FZqEBccRXLY3fSWEznv9nYLw8yfnPB9kjrF6E4Q6pump",
+      "symbol": "Beluga ",
+      "name": "Beluga",
+      "amount_sold": 1485806.262803629,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T05:09:27.420742+00:00",
+      "exit_time": "2026-09-12T05:10:39.944176+00:00",
+      "entry_price_usd": 3.417e-06,
+      "exit_price_usd": 3.4175780517654614e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050008,
+      "pnl_sol": 8e-06,
+      "pnl_pct": 0.02,
+      "exit_reason": "LLM: sell_all — Just entered at +0.0%, 0min held. Bonding curve at $296 with2% share. No movement yet — give the trade a chance to develop. Will reassess at the 15min",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T05:09:27.420915+00:00",
+  "last_updated": "2026-09-12T05:10:39.944364+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.54,
   "portfolio_value_usd": 1350.28,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 04:30 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $OMEGA crashed >15% in one tick | P&L: -25.3%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 04:30 UTC",
       "action": "buy",
@@ -53193,30 +53180,48 @@
       "action": "buy",
       "details": "[LLM] $Beluga  at $3.417e-06, spent 0.05 SOL",
       "reason": "$Beluga is a true micro-launch at $3.4k mcap with bond only 8% complete — this is ground-floor curve territory where 10-50x moves originate. Clean animal meme narrative (no political/celebrity fragility flags), 1.1 min old so attention is fresh. Risk is thin liquidity but at $10 position size the downside is contained to learn whether micro-cap animal memes deliver the viral pump pattern."
+    },
+    {
+      "time": "2026-09-12 05:10 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Beluga  at $3.41758e-06 | P&L: +0.0%",
+      "reason": "Just entered at +0.0%, 0min held. Bonding curve at $296 with2% share. No movement yet — give the trade a chance to develop. Will reassess at the 15min stale check."
     }
   ],
   "trade_stats": {
-    "total": 3120,
-    "wins": 1456,
+    "total": 3121,
+    "wins": 1457,
     "losses": 1664,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 9.081815,
+    "total_pnl_sol": 9.081823,
     "avg_pnl_pct": 30.1,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 47,
-    "today_realized_sol": 4.048719,
+    "today_trades": 48,
+    "today_realized_sol": 4.048727,
     "today_target_pct": 1012.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1456,
+      "win_count": 1457,
       "loss_count": 1664,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:09:25.412280+00:00",
+  "last_llm_brief_at": "2026-09-12T05:10:39.944076+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FZqEBccRXLY3fSWEznv9nYLw8yfnPB9kjrF6E4Q6pump": {
+      "price_usd": 3.4175780517654614e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 296.04505077388,
+      "volume_h24": 661.52,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.915551022
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
