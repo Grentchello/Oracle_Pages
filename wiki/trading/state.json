@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.07727,
+  "balance_sol": 13.173029,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "sQXNLJWTvFZuZeVp3277FzooR2yXP6HDS4zn6Ldpump": {
-      "symbol": "crashcat",
-      "name": "crashcat",
-      "mint": "sQXNLJWTvFZuZeVp3277FzooR2yXP6HDS4zn6Ldpump",
-      "amount": 117679.10966844425,
-      "entry_price_usd": 4.313e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T06:59:01.813771+00:00",
-      "entry_time_iso": "2026-09-12T06:59:01.813781+00:00",
-      "entry_usd_value": 5.075500000000001,
-      "last_seen_price_usd": 4.313e-05,
-      "entry_liquidity_usd": 15831.02,
-      "entry_pool_sol": 85.005359062,
-      "entry_market_cap_usd": 48977.37437543103,
-      "entry_signals": {
-        "liquidity_usd": 15831.02,
-        "volume_24h_usd": 27191.03,
-        "market_cap_usd": 48977.37437543103,
-        "ath_market_cap_usd": 56280.72849082345,
-        "volatility_score": null,
-        "boost_mode": "IN_PROGRESS",
-        "real_sol_reserves": 85.005359062,
-        "description": " ",
-        "twitter": "https://x.com/crashcat_solana",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53685,19 +53656,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.667333,
       "partial": false
+    },
+    {
+      "mint": "sQXNLJWTvFZuZeVp3277FzooR2yXP6HDS4zn6Ldpump",
+      "symbol": "crashcat",
+      "name": "crashcat",
+      "amount_sold": 117679.10966844425,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T06:59:01.813771+00:00",
+      "entry_time_iso": "2026-09-12T06:59:01.813781+00:00",
+      "exit_time": "2026-09-12T07:00:05.406233+00:00",
+      "exit_time_iso": "2026-09-12T07:00:05.406240+00:00",
+      "entry_price_usd": 4.313e-05,
+      "exit_price_usd": 8.261e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.095759,
+      "pnl_sol": 0.045759,
+      "pnl_pct": 91.54,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "entry_liquidity_usd": 15831.02,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 85.0054,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.592479,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T06:59:01.816535+00:00",
+  "last_updated": "2026-09-12T07:00:16.757322+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.51,
-  "portfolio_value_usd": 1332.55,
+  "last_sol_price_usd": 101.52,
+  "portfolio_value_usd": 1337.33,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 06:37 UTC",
-      "action": "buy",
-      "details": "[LLM] $XCC at $9.302e-06, spent 0.05 SOL",
-      "reason": "$XCC is the only candidate that passes the viability gate (description ≥50 chars + twitter present). Tied to the CLARITY Act/XRP regulatory narrative — a real piece of crypto legislative news with genuine X attention from @Steph_iscrypto. $9.3k mcap at 1.2min is fresh launch territory; deep liquidity risk but the narrative hook is the strongest of the batch. Sizing 0.05 SOL keeps the loss bounded if fragility gate flags it on GMGN check."
-    },
     {
       "time": "2026-09-12 06:39 UTC",
       "action": "sell",
@@ -53811,40 +53800,44 @@
       "action": "buy",
       "details": "[LLM] $crashcat at $4.313e-05, spent 0.05 SOL",
       "reason": "Fresh 1.2min launch, $48.9k mcap, 43% bonded (imminent graduation = liquidity unlock), viral name with X account live. Crashcat narrative has attention-market appeal. Position0.05 SOL, tight stop at -25%."
+    },
+    {
+      "time": "2026-09-12 07:00 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $crashcat at $8.261e-05 | P&L: +91.5%",
+      "reason": "Auto take-profit at +91.5%"
     }
   ],
   "trade_stats": {
-    "total": 3154,
-    "wins": 1470,
+    "total": 3155,
+    "wins": 1471,
     "losses": 1684,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.911083,
-    "avg_pnl_pct": 29.65,
+    "total_pnl_sol": 8.956842,
+    "avg_pnl_pct": 29.67,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 81,
-    "today_realized_sol": 3.877987,
-    "today_target_pct": 969.5,
+    "today_trades": 82,
+    "today_realized_sol": 3.923746,
+    "today_target_pct": 980.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1470,
+      "win_count": 1471,
       "loss_count": 1684,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T06:59:00.660887+00:00",
+  "last_llm_brief_at": "2026-09-12T07:00:16.757284+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2mnc3MJz7Jj7WCYMUinQofgb2H14aV3eEsZ81hktpump": {
-      "price_usd": 0.0008666943804187712,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 186955.1239532667,
-      "volume_h24": 0.0,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1841.74095117
+    "sQXNLJWTvFZuZeVp3277FzooR2yXP6HDS4zn6Ldpump": {
+      "price_usd": 8.261e-05,
+      "change_h24": 96.55,
+      "change_h1": 96.55,
+      "liquidity_usd": 22670.04,
+      "volume_h24": 65302.5,
+      "dex_id": "pumpswap",
+      "source": "dexscreener"
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

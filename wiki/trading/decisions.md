@@ -22693,3 +22693,6 @@
 ## [2026-09-12 06:59 UTC] buy | [LLM] $crashcat at $4.313e-05, spent 0.05 SOL
 - **Reasoning:** Fresh 1.2min launch, $48.9k mcap, 43% bonded (imminent graduation = liquidity unlock), viral name with X account live. Crashcat narrative has attention-market appeal. Position0.05 SOL, tight stop at -25%.
 
+## [2026-09-12 07:00 UTC] sell | [v8.7 TP +50% (full)] $crashcat at $8.261e-05 | P&L: +91.5%
+- **Reasoning:** Auto take-profit at +91.5%
+
