@@ -22849,3 +22849,9 @@
 ## [2026-09-12 08:34 UTC] buy | [LLM] $GS at $5.74e-06, spent 0.05 SOL
 - **Reasoning:** $GS 'Goldman Sacks' is a clean Wall-Street-vs-trenches parody with an active X account posting on launch. Sub-$6k mcap at <1min old = genuine fresh-attention territory. Name is sticky, narrative is memeable, passes viability gate (desc + twitter). Sizing 0.05 SOL per scalp rules; -25% hard stop auto-protects. Main risk: parody-name hype fades in 5-15 min, so I'll be ready to bail at first sign of distribution.
 
+## [2026-09-12 08:35 UTC] sell | [v8.7 TP +50% (full)] $GS at $1.02965e-05 | P&L: +79.4%
+- **Reasoning:** Auto take-profit at +79.4%
+
+## [2026-09-12 08:35 UTC] buy | [LLM] $DOGUETTE at $3.561e-06, spent 0.05 SOL
+- **Reasoning:** Strong narrative piggyback on $DOGUE (200k mc) — 'twin sister' framing is a classic beta-coin play that pumps on the original's momentum. Fresh launch, viral X post, clear story. Sizing 0.1 SOL.
+
