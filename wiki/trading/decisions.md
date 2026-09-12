@@ -23104,3 +23104,9 @@
 ## [2026-09-12 11:18 UTC] buy | [LLM] $coke at $1.28603e-06, spent 0.05 SOL
 - **Reasoning:** Coca-Cola is the ultimate brand attention signal — universal name recognition can drive viral pumps in minutes. $11k mcap at 0.8min is exactly the fresh-launch sweet spot. Risk: brand impersonation tokens have rug history, but GMGN v8.3 gate will catch whale concentration/rug mechanics if present. If it passes, the name alone carries attention.
 
+## [2026-09-12 11:19 UTC] sell | [rapid-drop] $coke crashed >15% in one tick | P&L: -32.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 11:19 UTC] buy | [LLM] $PUI at $5.64e-06, spent 0.05 SOL
+- **Reasoning:** Firefighter charity narrative with active X handle @PUI_fireman, 1.2min old, bond30%. Narrative-driven attention play at sub-$10k mcap.
+
