@@ -22837,3 +22837,6 @@
 ## [2026-09-12 08:25 UTC] buy | [LLM] $Dojo at $0.000873062, spent 0.05 SOL
 - **Reasoning:** $Dojo is 1.2min old at $7.3k mcap with a Twitter link signaling real attention; narrative is clean dog-coin play, bond 22% shows buyers already stepping in. Position size 0.05 SOL (bot-enforced), tight stop at -25%.
 
+## [2026-09-12 08:26 UTC] sell | [rapid-drop] $Dojo crashed >15% in one tick | P&L: -37.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
