@@ -22513,3 +22513,6 @@
 ## [2026-09-12 05:19 UTC] buy | [LLM] $McTittys at $7.707e-06, spent 0.05 SOL
 - **Reasoning:** $McTittys — 'gooner meta' narrative with explicit viral hook (upside-down logo = pair). McTittys is the kind of absurdist adult-humor name that pumps on CT/X because it's shareable. Sub-$15k mcap = extreme upside if it catches a single viral post.
 
+## [2026-09-12 05:20 UTC] sell | [v8.7 TP +50% (full)] $McTittys at $1.74649e-05 | P&L: +126.6%
+- **Reasoning:** Auto take-profit at +126.6%
+
