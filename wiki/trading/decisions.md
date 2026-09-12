@@ -22840,3 +22840,6 @@
 ## [2026-09-12 08:26 UTC] sell | [rapid-drop] $Dojo crashed >15% in one tick | P&L: -37.2%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 08:31 UTC] buy | [LLM] $WOGE at $0.00055909, spent 0.05 SOL
+- **Reasoning:** Wogecoin has a clear narrative (dog-wif-style mascot coin), live X account @WogecoinOTC posting at launch, $4.6k mcap = early attention window. $5 risk fits the learning mandate; bot will auto-stop at -25%.
+
