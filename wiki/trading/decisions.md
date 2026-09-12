@@ -23143,3 +23143,6 @@
 ## [2026-09-12 11:40 UTC] sell | [FULL][LLM] $NEMOCLAW at $2.84818e-06 | P&L: -9.2%
 - **Reasoning:** Just entered this tick (held 0.0h, down only -9.2%). Far from -25% hard cap. Bonding-curve exit can be thin so I want one more tick to see if there's a bounce before cutting. If next tick shows no recovery I'll exit.
 
+## [2026-09-12 11:41 UTC] buy | [LLM] $CLOUD at $5.279e-06, spent 0.05 SOL
+- **Reasoning:** $CLOUD rides the hot TikTok narrative, has twitter attention signal, passes viability gate, no blocklist fragility flags. Thin bond (13%) is a risk but normal for 0.6min age — entering early is the whole edge.
+

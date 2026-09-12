@@ -1,8 +1,37 @@
 {
-  "balance_sol": 13.005243,
+  "balance_sol": 12.955243,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "4TXJgfpqNwifeuFf4thSMcurBPCAEsohR2ntgc9Gpump": {
+      "symbol": "CLOUD",
+      "name": "The Tiktok Cloud",
+      "mint": "4TXJgfpqNwifeuFf4thSMcurBPCAEsohR2ntgc9Gpump",
+      "amount": 969596.5144913811,
+      "entry_price_usd": 5.279e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T11:41:35.090893+00:00",
+      "entry_time_iso": "2026-09-12T11:41:35.090902+00:00",
+      "entry_usd_value": 5.118500000000001,
+      "last_seen_price_usd": 5.279e-06,
+      "entry_liquidity_usd": 144.52096972978,
+      "entry_pool_sol": 1.411751194,
+      "entry_market_cap_usd": 3943.3856193783176,
+      "entry_signals": {
+        "liquidity_usd": 144.52096972978,
+        "volume_24h_usd": 5298.22,
+        "market_cap_usd": 3943.3856193783176,
+        "ath_market_cap_usd": 6469.217254978867,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.411751194,
+        "description": "",
+        "twitter": "https://x.com/bestdevicook/status/2098738548648059147",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55530,17 +55559,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T11:40:14.901180+00:00",
+  "last_updated": "2026-09-12T11:41:35.091184+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.87,
-  "portfolio_value_usd": 1324.84,
+  "last_sol_price_usd": 102.37,
+  "portfolio_value_usd": 1331.35,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 11:07 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $RUNNET at $3.14853e-06 | P&L: -3.5%",
-      "reason": "$RUNNET just entered, down only -3.5%, age 0h. Stale rules don't apply yet (need30min held). Give the position room to develop before cutting."
-    },
     {
       "time": "2026-09-12 11:11 UTC",
       "action": "buy",
@@ -55654,6 +55677,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $NEMOCLAW at $2.84818e-06 | P&L: -9.2%",
       "reason": "Just entered this tick (held 0.0h, down only -9.2%). Far from -25% hard cap. Bonding-curve exit can be thin so I want one more tick to see if there's a bounce before cutting. If next tick shows no recovery I'll exit."
+    },
+    {
+      "time": "2026-09-12 11:41 UTC",
+      "action": "buy",
+      "details": "[LLM] $CLOUD at $5.279e-06, spent 0.05 SOL",
+      "reason": "$CLOUD rides the hot TikTok narrative, has twitter attention signal, passes viability gate, no blocklist fragility flags. Thin bond (13%) is a risk but normal for 0.6min age — entering early is the whole edge."
     }
   ],
   "trade_stats": {
@@ -55675,21 +55704,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T11:40:14.900070+00:00",
+  "last_llm_brief_at": "2026-09-12T11:41:33.822893+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "83u8Cf1Yzrasgm9dh7G1UYDTDnyJrPugsejKDkzZrMFL": {
-      "price_usd": 2.848182665898742e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 5.0935e-07,
-      "volume_h24": 299.43,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 5e-09
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
