@@ -24280,3 +24280,9 @@
 ## [2026-09-12 22:42 UTC] buy | [LLM] $ByteCoin at $0.00205728, spent 0.05 SOL
 - **Reasoning:** $ByteCoin has a real narrative hook — 'ByteCoin' as a tech/crypto homage name at $11k mcap with an active X post from PragueBase. Bond still filling (27%) but the name is memorable and the attention is fresh. Small position size (0.05 SOL per rules) limits downside if it dies.
 
+## [2026-09-12 22:43 UTC] sell | [rapid-drop] $ByteCoin crashed >15% in one tick | P&L: -60.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 22:43 UTC] buy | [LLM] $VPN at $6.96422e-06, spent 0.05 SOL
+- **Reasoning:** $VPN acronym play ('Very Profitable Now') is meta-memorable and the kind of self-aware name that trends on CT. Fresh 0.5min launch, $7k mcap, bond 27% (healthier than peers). Narrative is clear and viral-friendly.
+
