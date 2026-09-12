@@ -23263,3 +23263,6 @@
 ## [2026-09-12 12:53 UTC] sell | [rapid-drop] $ANONBATON crashed >15% in one tick | P&L: -66.9%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 12:58 UTC] buy | [LLM] $STONKWIG at $3.301e-06, spent 0.05 SOL
+- **Reasoning:** $STONKWIG is the strongest launch — STONK x WIF is a proven meme combo (riding dogwifhat's brand equity + STONK template virality). Bond 7% shows real buying pressure vs 4% for peers. 1.2min old, $3.3k mcap = classic early attention launch. Position 0.1 SOL, watch for +50% TP and -25% stop.
+
