@@ -1,37 +1,8 @@
 {
-  "balance_sol": 19.485859,
+  "balance_sol": 19.516027,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "E18F1McMHRK4XiAUUGfPVaSK217mRuU819s7wyzNpump": {
-      "symbol": "FLAP",
-      "name": "Flap coin",
-      "mint": "E18F1McMHRK4XiAUUGfPVaSK217mRuU819s7wyzNpump",
-      "amount": 811883.4502964432,
-      "entry_price_usd": 3.1494668342683454e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-12T18:28:14.163282+00:00",
-      "entry_time_iso": "2026-09-12T18:28:14.163292+00:00",
-      "entry_usd_value": 5.114000000000001,
-      "last_seen_price_usd": 3.807372714873322e-06,
-      "entry_liquidity_usd": 153.21838372067998,
-      "entry_pool_sol": 1.498028781,
-      "entry_market_cap_usd": 3134.926864343241,
-      "entry_signals": {
-        "liquidity_usd": 153.21838372067998,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3134.926864343241,
-        "ath_market_cap_usd": 3357.1220979145746,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.498028781,
-        "description": "Flap Coin turns the Flappy Bird grind into a crypto meme. Dodge the rugs, survive the dips, clear every pipe, and keep flapping toward the moon. The chart is the course, the market is the game, and the community is the flock.",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -58245,19 +58216,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 74.509183,
       "partial": true
+    },
+    {
+      "mint": "E18F1McMHRK4XiAUUGfPVaSK217mRuU819s7wyzNpump",
+      "symbol": "FLAP",
+      "name": "Flap coin",
+      "amount_sold": 811883.4502964432,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T18:28:14.163282+00:00",
+      "entry_time_iso": "2026-09-12T18:28:14.163292+00:00",
+      "exit_time": "2026-09-12T18:30:43.279491+00:00",
+      "exit_time_iso": "2026-09-12T18:30:43.279495+00:00",
+      "entry_price_usd": 3.1494668342683454e-06,
+      "exit_price_usd": 3.7994448249395602e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.030168,
+      "pnl_sol": 0.005168,
+      "pnl_pct": 20.64,
+      "exit_reason": "LLM: sell_all — Up +20.6% already at our 25% TP threshold — bot auto-TP will fire, but manually locking now since the +20% rule says take profit on any uncertainty. M",
+      "entry_liquidity_usd": 153.22,
+      "exit_liquidity_usd": 478.47,
+      "entry_pool_sol": 1.498,
+      "exit_pool_sol": 4.701,
+      "hold_duration_seconds": 149.116224,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T18:29:28.673533+00:00",
+  "last_updated": "2026-09-12T18:30:43.279781+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.78,
-  "portfolio_value_usd": 1985.83,
+  "last_sol_price_usd": 102.25,
+  "portfolio_value_usd": 1995.51,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 17:58 UTC",
-      "action": "buy",
-      "details": "[LLM] $WIF at $1.048e-05, spent 0.05 SOL",
-      "reason": "$WIF (Cat Wif Hat) — 'wif hat' is a proven meta (legacy $WIF hit billions in mcap). Cat variant rides that narrative with fresh attention at $9.7k mcap, 0.8min old — extremely early, asymmetric upside if narrative catches."
-    },
     {
       "time": "2026-09-12 17:59 UTC",
       "action": "sell",
@@ -58371,40 +58360,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $FLAP at $3.80737e-06 | P&L: +20.9%",
       "reason": "$FLAP up +20.9% in <1h, but pool only $478 with 1% share means tiny float and high rug risk. Take half profit to lock the gain, hold half for further upside if volume sustains."
+    },
+    {
+      "time": "2026-09-12 18:30 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FLAP at $3.79944e-06 | P&L: +20.6%",
+      "reason": "Up +20.6% already at our 25% TP threshold — bot auto-TP will fire, but manually locking now since the +20% rule says take profit on any uncertainty. Memecoin at $469 pool with thin liquidity, no reason to hold for a -30% reversal."
     }
   ],
   "trade_stats": {
-    "total": 3344,
-    "wins": 1550,
+    "total": 3345,
+    "wins": 1551,
     "losses": 1794,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 15.294673,
+    "total_pnl_sol": 15.299841,
     "avg_pnl_pct": 32.55,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 271,
-    "today_realized_sol": 10.261577,
-    "today_target_pct": 2565.4,
+    "today_trades": 272,
+    "today_realized_sol": 10.266745,
+    "today_target_pct": 2566.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1550,
+      "win_count": 1551,
       "loss_count": 1794,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T18:29:28.672395+00:00",
+  "last_llm_brief_at": "2026-09-12T18:30:43.279449+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "E18F1McMHRK4XiAUUGfPVaSK217mRuU819s7wyzNpump": {
-      "price_usd": 3.807372714873322e-06,
+      "price_usd": 3.7994448249395602e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 478.4675493665201,
-      "volume_h24": 526.51,
+      "liquidity_usd": 468.825380925,
+      "volume_h24": 734.08,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4.700997734
+      "real_sol_reserves": 4.5850893
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

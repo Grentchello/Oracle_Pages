@@ -23830,3 +23830,6 @@
 ## [2026-09-12 18:29 UTC] sell | [PARTIAL][LLM] $FLAP at $3.80737e-06 | P&L: +20.9%
 - **Reasoning:** $FLAP up +20.9% in <1h, but pool only $478 with 1% share means tiny float and high rug risk. Take half profit to lock the gain, hold half for further upside if volume sustains.
 
+## [2026-09-12 18:30 UTC] sell | [FULL][LLM] $FLAP at $3.79944e-06 | P&L: +20.6%
+- **Reasoning:** Up +20.6% already at our 25% TP threshold — bot auto-TP will fire, but manually locking now since the +20% rule says take profit on any uncertainty. Memecoin at $469 pool with thin liquidity, no reason to hold for a -30% reversal.
+
