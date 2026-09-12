@@ -23518,3 +23518,6 @@
 ## [2026-09-12 15:40 UTC] buy | [LLM] $SKINWALKER at $3.047e-06, spent 0.05 SOL
 - **Reasoning:** Viral internet meme (bear walking too human clip) with real twitter source pointing to the original viral video. 3% bonded = earliest entry. Strong attention narrative, low mcap, fresh launch. High fragility risk but classic attention-market play.
 
+## [2026-09-12 15:41 UTC] sell | [FULL][LLM] $SKINWALKER at $3.04058e-06 | P&L: -0.2%
+- **Reasoning:** $SKINWALKER is flat at -0.2% after 0.0h with pool only $104 and our5% share — microcap, no attention signal, no reason to babysit. Cut and free the slot.
+
