@@ -22324,3 +22324,6 @@
 ## [2026-09-12 03:30 UTC] buy | [LLM] $openRSM at $4.55e-06, spent 0.05 SOL
 - **Reasoning:** $openRSM has the strongest viability signal of the batch — real product description (browser-based memecoin terminal on Solana + Robinhood Chain), lowest mcap ($4.3k = most upside), meta-narrative that appeals directly to memecoin traders. Fits the 'attention market' thesis: degens will ape a tool for aping.
 
+## [2026-09-12 03:31 UTC] sell | [FULL][LLM] $openRSM at $4.38144e-06 | P&L: -3.7%
+- **Reasoning:** Flat-negative at -3.7% after a fresh entry, no momentum signal, and the cap is 1 position. Burning the slot on a non-mover blocks me from the two fresh launches with actual attention. Cut and rotate.
+
