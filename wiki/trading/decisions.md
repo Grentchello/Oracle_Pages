@@ -22570,3 +22570,9 @@
 ## [2026-09-12 05:56 UTC] buy | [LLM] $TCAT at $0.00022082, spent 0.05 SOL
 - **Reasoning:** $TCAT is a fresh cat-meme launch (<1 min) with an active twitter account (blnk_officia) — cat memes are a proven attention category and the twitter presence passes the v8.1 viability gate. 0.05 SOL position ($5) sized for the -25% hard cap and the 30min auto-exit. Risk: ultra-low mcap ($3.6k) means thin liquidity and high rug probability — but the GMGN fragility gate would have blocked if score >=0.5.
 
+## [2026-09-12 05:58 UTC] sell | [FULL][LLM] $TCAT at $0.000223447 | P&L: +1.2%
+- **Reasoning:** $TCAT is flat at +1.2% with only $3861 pool liquidity and no narrative catalyst. Capital rotation into a fresh launch with stronger attention signal beats bag-holding a dead microcap.
+
+## [2026-09-12 05:58 UTC] buy | [LLM] $AMD at $7.836e-06, spent 0.05 SOL
+- **Reasoning:** $AMD has the strongest attention stack of the three: viral acronym (matches AMD chip brand), live twitter post, 1.3min age, bonding 32% already (momentum), and $10k mcap leaves room to 10x. Narrative: 'Always Making Dough' is crypto-native slang that prints on CT.
+
