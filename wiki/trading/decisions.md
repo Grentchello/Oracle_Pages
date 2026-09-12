@@ -22252,3 +22252,9 @@
 ## [2026-09-12 02:58 UTC] buy | [LLM] $EGOD at $0.000453621, spent 0.05 SOL
 - **Reasoning:** $EGOD has a clear $DOGE king narrative reviving the dog meta. Description is substantive (>50 chars), mcap only $3.7k with 0% bond = ultra-fresh. Dog meta has proven viral legs. Risk: brand new, may dump, but the narrative angle is real attention bait.
 
+## [2026-09-12 03:00 UTC] sell | [FULL][LLM] $EGOD at $0.000455191 | P&L: +0.3%
+- **Reasoning:** $EGOD is flat (+0.3%) on a $1037 pool with 0% effective share — no momentum, no volume, no narrative signal. Per scalp discipline, break-even + nothing moving = exit and free the slot for a fresh launch with real attention.
+
+## [2026-09-12 03:00 UTC] buy | [LLM] $marcat at $4.738e-06, spent 0.05 SOL
+- **Reasoning:** $marcat is 1.2min old, $4k mcap, 14% bonded with a live Twitter signal. Smallest mcap + freshest narrative hook of the three = highest asymmetric upside. Risk: liquidity may be razor-thin, so position size discipline matters.
+
