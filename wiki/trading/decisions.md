@@ -22915,3 +22915,6 @@
 ## [2026-09-12 09:21 UTC] buy | [LLM] $HORACE at $8.007e-06, spent 0.05 SOL
 - **Reasoning:** $HORACE has a clear narrative hook (Pepe was inspired by Horace), sub-$10k mcap, twitter attached — classic meme-IP attention play at ground-floor mcap with viral story potential
 
+## [2026-09-12 09:22 UTC] sell | [rapid-drop] $HORACE crashed >15% in one tick | P&L: -63.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

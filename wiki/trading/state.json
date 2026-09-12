@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.110165,
+  "balance_sol": 13.128434,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "56HY6pTzNroMXx1MEt9evVr9fJtfTSyqzUA1jqzjpump": {
-      "symbol": "HORACE",
-      "name": "Horace",
-      "mint": "56HY6pTzNroMXx1MEt9evVr9fJtfTSyqzUA1jqzjpump",
-      "amount": 636318.2215561385,
-      "entry_price_usd": 8.007e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T09:21:20.277839+00:00",
-      "entry_time_iso": "2026-09-12T09:21:20.277848+00:00",
-      "entry_usd_value": 5.095000000000001,
-      "last_seen_price_usd": 8.007e-06,
-      "entry_liquidity_usd": 314.1027724354,
-      "entry_pool_sol": 3.082460966,
-      "entry_market_cap_usd": 7942.496307557104,
-      "entry_signals": {
-        "liquidity_usd": 314.1027724354,
-        "volume_24h_usd": 11773.88,
-        "market_cap_usd": 7942.496307557104,
-        "ath_market_cap_usd": 10889.3399641109,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.082460966,
-        "description": "Pepe was inspired by Horace",
-        "twitter": "https://x.com/sheluvsblnkr/status/2098703155576152082",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54597,19 +54568,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.703568,
       "partial": false
+    },
+    {
+      "mint": "56HY6pTzNroMXx1MEt9evVr9fJtfTSyqzUA1jqzjpump",
+      "symbol": "HORACE",
+      "name": "Horace",
+      "amount_sold": 636318.2215561385,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T09:21:20.277839+00:00",
+      "entry_time_iso": "2026-09-12T09:21:20.277848+00:00",
+      "exit_time": "2026-09-12T09:22:24.411034+00:00",
+      "exit_time_iso": "2026-09-12T09:22:24.411043+00:00",
+      "entry_price_usd": 8.007e-06,
+      "exit_price_usd": 2.9230822504653766e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.018269,
+      "pnl_sol": -0.031731,
+      "pnl_pct": -63.49,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 314.1,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.0825,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 64.133215,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T09:21:20.278029+00:00",
+  "last_updated": "2026-09-12T09:22:46.027999+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.9,
-  "portfolio_value_usd": 1341.02,
+  "last_sol_price_usd": 101.81,
+  "portfolio_value_usd": 1336.61,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 08:37 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $DOGUETTE at $4.59809e-06 | P&L: +29.1%",
-      "reason": "$DOGUETTE at +29.1% is just shy of the 30% TP but per the rules I should be aggressive taking profit when up >20%. Bonding curve pool is only $831 (tiny), and -30% can hit faster than +30% in illiquid pools. Lock the ~$1.50 gain now rather than hope for the next TP tier."
-    },
     {
       "time": "2026-09-12 08:37 UTC",
       "action": "buy",
@@ -54723,40 +54712,46 @@
       "action": "buy",
       "details": "[LLM] $HORACE at $8.007e-06, spent 0.05 SOL",
       "reason": "$HORACE has a clear narrative hook (Pepe was inspired by Horace), sub-$10k mcap, twitter attached — classic meme-IP attention play at ground-floor mcap with viral story potential"
+    },
+    {
+      "time": "2026-09-12 09:22 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $HORACE crashed >15% in one tick | P&L: -63.5%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3192,
+    "total": 3193,
     "wins": 1486,
-    "losses": 1706,
-    "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.943977,
-    "avg_pnl_pct": 29.31,
+    "losses": 1707,
+    "win_rate_pct": 46.5,
+    "total_pnl_sol": 8.912246,
+    "avg_pnl_pct": 29.28,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 119,
-    "today_realized_sol": 3.910881,
-    "today_target_pct": 977.7,
+    "today_trades": 120,
+    "today_realized_sol": 3.87915,
+    "today_target_pct": 969.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1486,
-      "loss_count": 1706,
+      "loss_count": 1707,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T09:21:18.826825+00:00",
+  "last_llm_brief_at": "2026-09-12T09:22:44.548553+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2DTs9iE75RmNF2pNrVY2QkXLSmzh9yeZX1RKNwYVpump": {
-      "price_usd": 3.0825713131962283e-06,
+    "56HY6pTzNroMXx1MEt9evVr9fJtfTSyqzUA1jqzjpump": {
+      "price_usd": 2.9230822504653766e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 122.83179165890002,
-      "volume_h24": 4781.14,
+      "liquidity_usd": 40.81098402056,
+      "volume_h24": 14274.33,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.205415031
+      "real_sol_reserves": 0.400854376
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
