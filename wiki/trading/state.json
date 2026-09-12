@@ -1,8 +1,32 @@
 {
-  "balance_sol": 11.341567,
+  "balance_sol": 11.291567,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "2y2XhQsdxhmEWnsTBr6svFmtCMZS6vU6wNyo6Z8dpump": {
+      "symbol": "CHECKYDOGE",
+      "name": "CHECKY DOGE",
+      "amount": 1469666.474985624,
+      "entry_price_usd": 3.478e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T03:33:26.504752+00:00",
+      "entry_usd_value": 5.1115,
+      "last_seen_price_usd": 3.478e-06,
+      "entry_signals": {
+        "liquidity_usd": 222.26898880422,
+        "volume_24h_usd": 348.01,
+        "market_cap_usd": 3479.411255195821,
+        "ath_market_cap_usd": 3479.411255195821,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 2.174205114,
+        "description": "CHECKY DOGE is very checky",
+        "twitter": "https://x.com/LaunchX2_/status/2098615115239010444?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52586,17 +52610,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:31:53.732067+00:00",
+  "last_updated": "2026-09-12T03:33:26.504929+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.19,
-  "portfolio_value_usd": 1158.99,
+  "last_sol_price_usd": 102.23,
+  "portfolio_value_usd": 1159.45,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:12 UTC",
-      "action": "buy",
-      "details": "[LLM] $OS at $3.646e-06, spent 0.05 SOL",
-      "reason": "$OS passes viability gate (description + twitter + discord), fresh 1.4min launch at $3.7k mcap, 'Open Set' is an AI/math concept with viral potential on crypto Twitter. Smallest position size (0.05 SOL) given uncertainty, tight stop at -25%."
-    },
     {
       "time": "2026-09-12 03:13 UTC",
       "action": "sell",
@@ -52710,6 +52728,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $openRSM at $4.38144e-06 | P&L: -3.7%",
       "reason": "Flat-negative at -3.7% after a fresh entry, no momentum signal, and the cap is 1 position. Burning the slot on a non-mover blocks me from the two fresh launches with actual attention. Cut and rotate."
+    },
+    {
+      "time": "2026-09-12 03:33 UTC",
+      "action": "buy",
+      "details": "[LLM] $CHECKYDOGE at $3.478e-06, spent 0.05 SOL",
+      "reason": "CHECKY DOGE has a fresh Twitter launch signal (LaunchX2), doge meme family has viral history, bond still filling at 9% gives entry at ground level. Tiny $3.4k mcap = maximum attention runway. Risky but asymmetric — 0.05 SOL ($5) is the cost of the lottery ticket."
     }
   ],
   "trade_stats": {
@@ -52731,21 +52755,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:31:52.714654+00:00",
+  "last_llm_brief_at": "2026-09-12T03:33:25.004080+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "8T85PpMM9nBoBmDYu5Qre4W4KcLphEH44iDL6N4mpump": {
-      "price_usd": 4.381444870421911e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 730.7122307866699,
-      "volume_h24": 2206.17,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 7.150525793
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

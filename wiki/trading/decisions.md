@@ -22327,3 +22327,6 @@
 ## [2026-09-12 03:31 UTC] sell | [FULL][LLM] $openRSM at $4.38144e-06 | P&L: -3.7%
 - **Reasoning:** Flat-negative at -3.7% after a fresh entry, no momentum signal, and the cap is 1 position. Burning the slot on a non-mover blocks me from the two fresh launches with actual attention. Cut and rotate.
 
+## [2026-09-12 03:33 UTC] buy | [LLM] $CHECKYDOGE at $3.478e-06, spent 0.05 SOL
+- **Reasoning:** CHECKY DOGE has a fresh Twitter launch signal (LaunchX2), doge meme family has viral history, bond still filling at 9% gives entry at ground level. Tiny $3.4k mcap = maximum attention runway. Risky but asymmetric — 0.05 SOL ($5) is the cost of the lottery ticket.
+
