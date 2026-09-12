@@ -22909,3 +22909,9 @@
 ## [2026-09-12 09:20 UTC] buy | [LLM] $DICKBUTT at $5.959e-06, spent 0.05 SOL
 - **Reasoning:** $DICKBUTT is a known internet/crypto meme IP with fresh Twitter signal from derivativist, ultra-low $5.4k mcap = max upside on viral pump. Bond at 22% means risk of rug is real but manageable at 0.05 SOL size with -25% hard stop. Skipping $Google (already pumped, $1.5M mcap, no alpha left), $flybrain (no narrative, fails viability), $DOGE (generic name, no clear attention catalyst).
 
+## [2026-09-12 09:21 UTC] sell | [rapid-drop] $DICKBUTT crashed >15% in one tick | P&L: -48.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 09:21 UTC] buy | [LLM] $HORACE at $8.007e-06, spent 0.05 SOL
+- **Reasoning:** $HORACE has a clear narrative hook (Pepe was inspired by Horace), sub-$10k mcap, twitter attached — classic meme-IP attention play at ground-floor mcap with viral story potential
+
