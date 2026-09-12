@@ -24244,3 +24244,6 @@
 ## [2026-09-12 22:19 UTC] sell | [rapid-drop] $DIVVY crashed >15% in one tick | P&L: -40.6%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 22:20 UTC] buy | [LLM] $Humanscan at $4.82918e-06, spent 0.05 SOL
+- **Reasoning:** Science/AI curiosity narrative tied to real 2024 Nature publication on brain mapping (0.00008% mapped, 1.4 PB) — clean viral hook with no political/celebrity fragility. Brand new at $4.8k mcap with 19% bond = no extracted alpha, massive upside if narrative catches. Viability gate satisfied via twitter link. Worst case -25% capped.
+
