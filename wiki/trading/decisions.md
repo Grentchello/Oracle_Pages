@@ -23818,3 +23818,6 @@
 ## [2026-09-12 18:24 UTC] buy | [LLM] $STUNKA at $4.24657e-06, spent 0.05 SOL
 - **Reasoning:** Stunka has a dedicated X account @Stunkacoin and a meta-narrative ('buying every dip, chasing green candles') that resonates with crypto trader twitter — exactly the kind of self-aware meta-meme that pumps. Bond 15% at 0.5min shows real early flow. Taking 0.05 SOL to test if meta-narrative memes with dedicated accounts move in first30 min.
 
+## [2026-09-12 18:25 UTC] sell | [PARTIAL][LLM] $STUNKA at $5.11321e-06 | P&L: +20.4%
+- **Reasoning:** Up +20.4% on a $1039 pool, bonding-curve launch with no strong narrative signal yet — lock half the gain before it fades, let the rest ride if attention builds.
+
