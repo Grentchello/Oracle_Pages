@@ -24163,3 +24163,9 @@
 ## [2026-09-12 21:40 UTC] buy | [LLM] $MLC at $0.00161427, spent 0.05 SOL
 - **Reasoning:** $MLC 'Money Laundering Coin' has the strongest viral hook of the batch — edgy/controversial name is meme-native attention bait, bond already 23% (advancing), mcap $9.3k still early. Risk: edgy names can draw regulatory attention or rug faster, and no desc/twitter is a yellow flag on viability, so position is 0.05 SOL (min size). Skipping $DOGECHAN (no desc/twitter = viability fail), $Baton (bond 6%, no metadata), $SAGR (bond 4%, too thin). Letting $MEME1921 and $4S pass — solid narratives but only 1 slot, $MLC's controversy edge wins.
 
+## [2026-09-12 21:41 UTC] sell | [rapid-drop] $MLC crashed >15% in one tick | P&L: -45.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 21:41 UTC] buy | [LLM] $Private at $0.00127591, spent 0.05 SOL
+- **Reasoning:** $Private has viral narrative (private coin / privacy meta is hot), low mcap $7k, posted from pump.fun official X — strong attention signal, asymmetric upside at this size.
+
