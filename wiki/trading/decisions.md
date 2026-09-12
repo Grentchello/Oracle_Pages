@@ -24415,3 +24415,9 @@
 ## [2026-09-12 23:37 UTC] buy | [LLM] $SPREZZATURA at $2.873e-06, spent 0.05 SOL
 - **Reasoning:** $SPREZZATURA taps the AI/meta-narrative ('Claude Sprezzatura') which has proven viral potential on crypto Twitter, with a real X anchor from @Shoalst0ne. Fresh launch at $3.8k mcap with only 12% bond = genuine early entry, fits the 'new launches are the alpha' rule. Risk: bond incomplete and thin liquidity, but position size is small (0.1 SOL) per scalp discipline.
 
+## [2026-09-12 23:38 UTC] sell | [FULL][LLM] $SPREZZATURA at $3.86279e-06 | P&L: +34.5%
+- **Reasoning:** Up +34.5% instantly — this is exactly the pump zone where scalp discipline says lock the gain. Bonding-curve token at $500 pool means thin liquidity, easy reversal. Take the win.
+
+## [2026-09-12 23:38 UTC] buy | [LLM] $TEEN at $1.6194e-05, spent 0.05 SOL
+- **Reasoning:** $TEEN has the strongest attention play of the batch — 'TradingEverythingEarningNothing' is self-aware irony bait, perfect for X screenshots and trader-culture virality. Highest mcap of fresh launches ($4.9k) and the meta-narrative resonates with the degen audience. Roll the freed $SPREZZATURA capital here.
+
