@@ -22369,3 +22369,6 @@
 ## [2026-09-12 03:49 UTC] buy | [LLM] $bundloor at $1.119e-05, spent 0.05 SOL
 - **Reasoning:** $bundloor — crypto-native pun (bundler/door) targets the degen/MEV audience on X, brand new with $15.9k mcap room to run, and an X link already pointing at it. Best narrative-to-mcap ratio of the three; explicit/RACIST names carry higher fragility risk so skipping those.
 
+## [2026-09-12 03:50 UTC] sell | [rapid-drop] $bundloor crashed >15% in one tick | P&L: -22.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

@@ -1,32 +1,8 @@
 {
-  "balance_sol": 11.344288,
+  "balance_sol": 11.383381,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HSxQxzbUKBjcVrDEcrNd5NkuGJG14w7yRem1ts2Epump": {
-      "symbol": "bundloor",
-      "name": "the bundloor",
-      "amount": 455674.7095621091,
-      "entry_price_usd": 1.119e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T03:49:10.643964+00:00",
-      "entry_usd_value": 5.099,
-      "last_seen_price_usd": 1.119e-05,
-      "entry_signals": {
-        "liquidity_usd": 4269.02540699636,
-        "volume_24h_usd": 16008.88,
-        "market_cap_usd": 15905.726191481956,
-        "ath_market_cap_usd": 17731.373696252675,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 41.861398382,
-        "description": "",
-        "twitter": "https://x.com/derivativist/status/2098619484265210246?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52727,19 +52703,30 @@
       "pnl_pct": -2.91,
       "exit_reason": "LLM: sell_all — Just entered, -2.9% is noise, no signal yet. Giving it a few minutes to see if the VAMP/GPT narrative develops before deciding.",
       "partial": false
+    },
+    {
+      "mint": "HSxQxzbUKBjcVrDEcrNd5NkuGJG14w7yRem1ts2Epump",
+      "symbol": "bundloor",
+      "name": "the bundloor",
+      "amount_sold": 455674.7095621091,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T03:49:10.643964+00:00",
+      "exit_time": "2026-09-12T03:50:14.796132+00:00",
+      "entry_price_usd": 1.119e-05,
+      "exit_price_usd": 8.705253643256869e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.039093,
+      "pnl_sol": -0.010907,
+      "pnl_pct": -22.21,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:49:10.644147+00:00",
+  "last_updated": "2026-09-12T03:50:32.385005+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.98,
-  "portfolio_value_usd": 1161.99,
+  "last_sol_price_usd": 101.47,
+  "portfolio_value_usd": 1155.07,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:26 UTC",
-      "action": "buy",
-      "details": "[LLM] $DOGE at $4.848e-06, spent 0.05 SOL",
-      "reason": "DogePC leverages the eternal DOGE memecoin brand with a fun 'doge has a PC now' narrative and has an X account (DogePcETH). Ultra-fresh at $4.8k mcap, 1.7min old — pure attention play. Small 0.1 SOL entry to test virality; will exit fast if it doesn't grab attention in first 15min."
-    },
     {
       "time": "2026-09-12 03:27 UTC",
       "action": "sell",
@@ -52853,30 +52840,48 @@
       "action": "buy",
       "details": "[LLM] $bundloor at $1.119e-05, spent 0.05 SOL",
       "reason": "$bundloor — crypto-native pun (bundler/door) targets the degen/MEV audience on X, brand new with $15.9k mcap room to run, and an X link already pointing at it. Best narrative-to-mcap ratio of the three; explicit/RACIST names carry higher fragility risk so skipping those."
+    },
+    {
+      "time": "2026-09-12 03:50 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $bundloor crashed >15% in one tick | P&L: -22.2%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3100,
+    "total": 3101,
     "wins": 1443,
-    "losses": 1657,
+    "losses": 1658,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 7.178101,
-    "avg_pnl_pct": 29.07,
+    "total_pnl_sol": 7.167194,
+    "avg_pnl_pct": 29.06,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 27,
-    "today_realized_sol": 2.145005,
-    "today_target_pct": 536.3,
+    "today_trades": 28,
+    "today_realized_sol": 2.134098,
+    "today_target_pct": 533.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1443,
-      "loss_count": 1657,
+      "loss_count": 1658,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:49:09.273208+00:00",
+  "last_llm_brief_at": "2026-09-12T03:50:31.253337+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HSxQxzbUKBjcVrDEcrNd5NkuGJG14w7yRem1ts2Epump": {
+      "price_usd": 8.705253643256869e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2288.26703086139,
+      "volume_h24": 30487.22,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 22.551168137
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
