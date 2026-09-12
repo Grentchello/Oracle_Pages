@@ -24304,3 +24304,9 @@
 ## [2026-09-12 22:48 UTC] buy | [LLM] $fry at $4.90519e-07, spent 0.05 SOL
 - **Reasoning:** $fry has the strongest attention signal of the three: a real X post from RealDesertDoge, highest mcap ($12.4k), freshest age (0.6min), and food-meme names have proven pump pedigree. Other two candidates fail viability (no social, sub-$3k liquidity proxies) and $VaginaPump has Ponzi-scent 'earn 3% rate' copy. Sizing at bot-mandated 0.05 SOL given thin liquidity.
 
+## [2026-09-12 22:49 UTC] sell | [v8.7 TP +50% (full)] $fry at $1.243e-05 | P&L: +2434.1%
+- **Reasoning:** Auto take-profit at +2434.1%
+
+## [2026-09-12 22:50 UTC] sell | [FULL][LLM] $fry at $1.243e-05 | P&L: +2434.1%
+- **Reasoning:** +2434% unrealized gain — every TP threshold (+30/+100/+200/+500) has been blown through. Lock the gain immediately per profit-taking discipline; do not hope for more upside on a 0.0h-held print that could reverse at any second.
+
