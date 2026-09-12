@@ -23812,3 +23812,6 @@
 ## [2026-09-12 18:21 UTC] buy | [LLM] $ALOT at $0.000118886, spent 0.05 SOL
 - **Reasoning:** $ALOT — catchy meta-narrative name ('worth ALOT'), brand-new at 0.6min / $4.6k mcap. Viability gate passes (description present, twitter link). Fragility gate: no political/celebrity keyword. Highest mcap of the three, freshest launch. The narrative is self-referential memecoin humor which historically pumps on attention. Risk: ultra-low mcap + bond only 10% complete means thin liquidity and rug risk.
 
+## [2026-09-12 18:23 UTC] sell | [FULL][LLM] $ALOT at $0.000141258 | P&L: +18.8%
+- **Reasoning:** Up +18.8% and approaching my +20% lock-in threshold. No clear viral catalyst beyond the generic name, and the hard rules say take profit at >20% when in doubt. Lock the gain now rather than wait for a -25% stop to undo it.
+
