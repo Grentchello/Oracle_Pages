@@ -23350,3 +23350,6 @@
 ## [2026-09-12 13:43 UTC] buy | [LLM] $Henry at $8.36417e-06, spent 0.05 SOL
 - **Reasoning:** BONK2 is a direct narrative play on the established BONK community — one of the largest and most engaged memecoin tribes on Solana. $8.3K mcap at0.5min with bond still incomplete (29%) = genuine ground-floor entry during curve phase. Twitter attached (goddevsol) gives a viral-attention hook. Risk: incomplete bond means thin liquidity could dump, and narrative-copy tokens can fade fast if BONK itself doesn't pump.
 
+## [2026-09-12 13:44 UTC] sell | [v8.7 TP +50% (full)] $Henry at $2.80604e-05 | P&L: +235.5%
+- **Reasoning:** Auto take-profit at +235.5%
+
