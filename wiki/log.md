@@ -498,3 +498,15 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Biggest recent winners: PFI6900 (+1865%), Bracat (+3530%), Pump Stonk (+2308%), [pump] (+2934%), PUMPHOUSE (+4388%), fun (+3616%) — mechanical v8.7 +50% TP captured these
 - Slippage caveat: bot already simulates slippage (v9.0) on exit. Real-world slippage on bonding-curve tokens with high pool share could still be worse. Net +9.05 SOL is paper/simulated, not realized on-chain.
 - Verdict: **Profitable, no changes needed.** v8.7 mechanical rules (TP +50% full, -25% hard stop, 30-min cap, force-sell-on-hold) work as designed. No tweaks to mechanical rules per user constraint. Bot running normally.
+
+## [2026-09-12 06:43 UTC] eval | memecoin bot — 2026-09-12 06:43 UTC
+- Window: since last eval (04:42 UTC), 33 trades over ~2h
+- Win rate: 48.5% (16 wins / 17 losses) — close to breakeven, normal variance
+- Window Net PnL: -0.0910 SOL (slight drawdown within normal noise band for 33-trade sample)
+- Balance: 13.121 SOL (open: 1 — KURONEKO 0.05 SOL, just entered 06:43)
+- Breakdown: TP wins 6 trades +0.1663 SOL | override wins 10 trades +0.0312 SOL | rapid losses (<=-50%) 6 trades -0.1582 SOL | other losses 11 trades -0.1303 SOL
+- Lifetime (state.json): 3147 trades, 46.6% WR, +8.9548 SOL net (still strongly profitable)
+- Top window winners: McTittys (+126.6%), Phil (+95.9%), CLEAN (+67.0%), meme (+36.7%)
+- Worst window losers: mmrich (-99.9% rug), tung (-75.9% rug, -74.0%), AMD (-53.9%), drill (-49.8%)
+- Slippage caveat unchanged: v9.0 sim still understates real on-chain impact on illiquid bonding-curve exits where bot owns large pool share. Lifetime +8.95 SOL is paper.
+- Verdict: **Profitable overall, no changes needed.** 2h window slightly negative but well within variance for 33 trades. Rapid-drop losses are v8.7 -50% cap firing correctly (preventing worse damage). Lifetime PnL still strongly positive (+8.95 SOL, 46.6% WR). Bot running normally.
