@@ -1,37 +1,8 @@
 {
-  "balance_sol": 29.485404,
+  "balance_sol": 29.523342,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "kmUePZXgD6pxzjQ9GspZG2T2U7hdm6amPBo7mDvpump": {
-      "symbol": "Desk",
-      "name": "Grok Desk",
-      "mint": "kmUePZXgD6pxzjQ9GspZG2T2U7hdm6amPBo7mDvpump",
-      "amount": 1273940.1496259354,
-      "entry_price_usd": 4.01e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T23:24:16.101127+00:00",
-      "entry_time_iso": "2026-09-12T23:24:16.101135+00:00",
-      "entry_usd_value": 5.1085,
-      "last_seen_price_usd": 4.01e-06,
-      "entry_liquidity_usd": 571.00691419516,
-      "entry_pool_sol": 5.588792348,
-      "entry_market_cap_usd": 4010.9714415964377,
-      "entry_signals": {
-        "liquidity_usd": 571.00691419516,
-        "volume_24h_usd": 1523.29,
-        "market_cap_usd": 4010.9714415964377,
-        "ath_market_cap_usd": 5130.798989163928,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.588792348,
-        "description": "",
-        "twitter": "https://x.com/nukidoya/status/2098914995819991533",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -60501,19 +60472,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 80.344505,
       "partial": false
+    },
+    {
+      "mint": "kmUePZXgD6pxzjQ9GspZG2T2U7hdm6amPBo7mDvpump",
+      "symbol": "Desk",
+      "name": "Grok Desk",
+      "amount_sold": 1273940.1496259354,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T23:24:16.101127+00:00",
+      "entry_time_iso": "2026-09-12T23:24:16.101135+00:00",
+      "exit_time": "2026-09-12T23:25:20.118545+00:00",
+      "exit_time_iso": "2026-09-12T23:25:20.118555+00:00",
+      "entry_price_usd": 4.01e-06,
+      "exit_price_usd": 3.0262444957931414e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.037938,
+      "pnl_sol": -0.012062,
+      "pnl_pct": -24.53,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 571.01,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 5.5888,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 64.017439,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T23:24:16.101305+00:00",
+  "last_updated": "2026-09-12T23:25:34.907452+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.17,
-  "portfolio_value_usd": 3017.63,
+  "last_sol_price_usd": 101.62,
+  "portfolio_value_usd": 3000.16,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 22:59 UTC",
-      "action": "buy",
-      "details": "[LLM] $RISE at $7.128e-06, spent 0.05 SOL",
-      "reason": "$RISE has a clear narrative hook — 60% airdrop to top 15 holders creates forced buying pressure and an attention magnet (people will shill it to qualify). $8.5k mcap at <1 min old with 30% bonded is the sweet spot: tiny enough for 5-10x, far enough along bonding curve that it's not pure lottery. Best of the four launches."
-    },
     {
       "time": "2026-09-12 23:00 UTC",
       "action": "sell",
@@ -60627,30 +60616,48 @@
       "action": "buy",
       "details": "[LLM] $Desk at $4.01e-06, spent 0.05 SOL",
       "reason": "$Desk (Grok Desk) is a 30-second-old launch tied to Grok/xAI narrative, which has proven viral attention repeatedly on Solana. $4k mcap with active X link from @nukidoya gives early-mover entry on a story-driven name. Tight 0.05 SOL size respects max-1 position and 0.02 SOL reserve."
+    },
+    {
+      "time": "2026-09-12 23:25 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Desk crashed >15% in one tick | P&L: -24.5%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3438,
+    "total": 3439,
     "wins": 1588,
-    "losses": 1850,
+    "losses": 1851,
     "win_rate_pct": 46.2,
-    "total_pnl_sol": 25.319244,
-    "avg_pnl_pct": 38.22,
+    "total_pnl_sol": 25.307182,
+    "avg_pnl_pct": 38.2,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 365,
-    "today_realized_sol": 20.286148,
-    "today_target_pct": 5071.5,
+    "today_trades": 366,
+    "today_realized_sol": 20.274086,
+    "today_target_pct": 5068.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1588,
-      "loss_count": 1850,
+      "loss_count": 1851,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T23:24:14.672604+00:00",
+  "last_llm_brief_at": "2026-09-12T23:25:33.485953+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "kmUePZXgD6pxzjQ9GspZG2T2U7hdm6amPBo7mDvpump": {
+      "price_usd": 3.0262444957931414e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 97.71419759898,
+      "volume_h24": 3288.51,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.961564629
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
