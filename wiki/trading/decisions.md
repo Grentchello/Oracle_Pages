@@ -24433,3 +24433,9 @@
 ## [2026-09-12 23:42 UTC] buy | [LLM] $DEAD at $2.918e-06, spent 0.05 SOL
 - **Reasoning:** $DEAD has the strongest narrative of the batch — 'first memecoin with zero marketing' is a self-aware meta-meme that's been pumping on CT. Passes viability gate (long desc, twitter link). Bond at 13%, mcap $3.9k — ultra early but that's where alpha is. 0.05 SOL size keeps risk tiny on the first learning trade.
 
+## [2026-09-12 23:43 UTC] sell | [FULL][LLM] $DEAD at $3.93729e-06 | P&L: +34.9%
+- **Reasoning:** +34.9% on a $539-pool bonding-curve token with 1% share. Micro-cap illiquidity means any larger holder exiting nukes price. Lock the gain — bot will likely auto-TP soon anyway.
+
+## [2026-09-12 23:43 UTC] buy | [LLM] $Gamblecoin at $3.18949e-06, spent 0.05 SOL
+- **Reasoning:** Gambling meta is a perennial attention driver, TheDegenZane is an active CT account posting the launch, and $3.2k mcap at 0.5min age means massive attention-multiple upside if it catches. Narrative clear, risk is micro-cap rug standard.
+
