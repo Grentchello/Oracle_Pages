@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.174377,
+  "balance_sol": 13.219369,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BYrGBSsnDXM1y1CWfQA5v4fUwfVXLznSYMAurZbXpump": {
-      "symbol": "IT",
-      "name": "tiktok made me buy it",
-      "amount": 1242464.6853006962,
-      "entry_price_usd": 4.087440118083455e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T06:07:51.743957+00:00",
-      "entry_usd_value": 5.0785,
-      "last_seen_price_usd": 4.087440118083455e-06,
-      "entry_signals": {
-        "liquidity_usd": 354.01658059809995,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4088.834621058468,
-        "ath_market_cap_usd": 5318.486024764228,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.48544433,
-        "description": "",
-        "twitter": "https://x.com/catalyst100x/status/2098654491675693410",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53373,19 +53349,30 @@
       "pnl_pct": -49.82,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "BYrGBSsnDXM1y1CWfQA5v4fUwfVXLznSYMAurZbXpump",
+      "symbol": "IT",
+      "name": "tiktok made me buy it",
+      "amount_sold": 1242464.6853006962,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T06:07:51.743957+00:00",
+      "exit_time": "2026-09-12T06:09:25.977320+00:00",
+      "entry_price_usd": 4.087440118083455e-06,
+      "exit_price_usd": 3.6953524823034652e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.044992,
+      "pnl_sol": -0.005008,
+      "pnl_pct": -9.59,
+      "exit_reason": "LLM: sell_all — $IT is down 9.6% on a $423 bonding-curve pool with our share already at 1% — thin liquidity means a slide to -25% is fast and likely. No bounce signal",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T06:07:51.744252+00:00",
+  "last_updated": "2026-09-12T06:09:25.977894+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.57,
-  "portfolio_value_usd": 1343.2,
+  "last_sol_price_usd": 102.049,
+  "portfolio_value_usd": 1349.02,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 05:42 UTC",
-      "action": "buy",
-      "details": "[LLM] $BUZZ at $3.064e-06, spent 0.05 SOL",
-      "reason": "$BUZZ (BuzzFly) — clearest narrative of the three: a fly mascot meme coin with an explicit pitch ('pure internet energy'). Bond only 4% means ultra-early entry with maximum room to run. Volume $117 with 2 buys/0 sells is thin but positive. MCap $3k is micro-floor — viral fly mascot is memeable, exactly the kind of low-effort imagery that pumps on CT. Viability gate: pass (desc >50 chars, has twitter linkage). Taking the entry."
-    },
     {
       "time": "2026-09-12 05:43 UTC",
       "action": "sell",
@@ -53499,30 +53486,48 @@
       "action": "buy",
       "details": "[LLM] $IT at $4.08744e-06, spent 0.05 SOL",
       "reason": "$IT 'tiktok made me buy it' is pure attention-meta — self-referential memecoin narrative, has twitter anchor, mcap $4k means room for 10x if the narrative catches. Position size 0.05 SOL, tight 25% stop will protect if it dies."
+    },
+    {
+      "time": "2026-09-12 06:09 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $IT at $3.69535e-06 | P&L: -9.6%",
+      "reason": "$IT is down 9.6% on a $423 bonding-curve pool with our share already at 1% — thin liquidity means a slide to -25% is fast and likely. No bounce signal visible. Cutting now at -9.6% saves ~0.015 SOL vs letting it hit the hard stop, and frees my only position slot."
     }
   ],
   "trade_stats": {
-    "total": 3138,
+    "total": 3139,
     "wins": 1465,
-    "losses": 1673,
+    "losses": 1674,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 9.00819,
-    "avg_pnl_pct": 29.87,
+    "total_pnl_sol": 9.003182,
+    "avg_pnl_pct": 29.86,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 65,
-    "today_realized_sol": 3.975094,
-    "today_target_pct": 993.8,
+    "today_trades": 66,
+    "today_realized_sol": 3.970086,
+    "today_target_pct": 992.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1465,
-      "loss_count": 1673,
+      "loss_count": 1674,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T06:07:50.253872+00:00",
+  "last_llm_brief_at": "2026-09-12T06:09:25.977281+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BYrGBSsnDXM1y1CWfQA5v4fUwfVXLznSYMAurZbXpump": {
+      "price_usd": 3.6953524823034652e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 422.647558820031,
+      "volume_h24": 3766.59,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4.141613919
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

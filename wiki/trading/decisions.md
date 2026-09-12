@@ -22594,3 +22594,6 @@
 ## [2026-09-12 06:07 UTC] buy | [LLM] $IT at $4.08744e-06, spent 0.05 SOL
 - **Reasoning:** $IT 'tiktok made me buy it' is pure attention-meta — self-referential memecoin narrative, has twitter anchor, mcap $4k means room for 10x if the narrative catches. Position size 0.05 SOL, tight 25% stop will protect if it dies.
 
+## [2026-09-12 06:09 UTC] sell | [FULL][LLM] $IT at $3.69535e-06 | P&L: -9.6%
+- **Reasoning:** $IT is down 9.6% on a $423 bonding-curve pool with our share already at 1% — thin liquidity means a slide to -25% is fast and likely. No bounce signal visible. Cutting now at -9.6% saves ~0.015 SOL vs letting it hit the hard stop, and frees my only position slot.
+
