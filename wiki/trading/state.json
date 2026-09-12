@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.865294,
+  "balance_sol": 12.913169,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "C3mwpNL4v9NtyWxUEKEQUreKahPTCtEKdPNEAquHpump": {
-      "symbol": "Moodeng ",
-      "name": "Moodeng from Toronto Zoo",
-      "mint": "C3mwpNL4v9NtyWxUEKEQUreKahPTCtEKdPNEAquHpump",
-      "amount": 1593335.4464924026,
-      "entry_price_usd": 3.192359782867766e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T11:58:23.507029+00:00",
-      "entry_time_iso": "2026-09-12T11:58:23.507037+00:00",
-      "entry_usd_value": 5.086500000000001,
-      "last_seen_price_usd": 3.192359782867766e-06,
-      "entry_liquidity_usd": 378.28134659754,
-      "entry_pool_sol": 3.718483698,
-      "entry_market_cap_usd": 3202.5900233271013,
-      "entry_signals": {
-        "liquidity_usd": 378.28134659754,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3202.5900233271013,
-        "ath_market_cap_usd": 3448.8572868704923,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.718483698,
-        "description": "",
-        "twitter": "https://x.com/dev_pscl/status/2098741947145867560?s=46&t=lK-K0iV34vILLZHjC176jA",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55701,19 +55672,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 81.368757,
       "partial": false
+    },
+    {
+      "mint": "C3mwpNL4v9NtyWxUEKEQUreKahPTCtEKdPNEAquHpump",
+      "symbol": "Moodeng ",
+      "name": "Moodeng from Toronto Zoo",
+      "amount_sold": 1593335.4464924026,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T11:58:23.507029+00:00",
+      "entry_time_iso": "2026-09-12T11:58:23.507037+00:00",
+      "exit_time": "2026-09-12T11:59:38.370834+00:00",
+      "exit_time_iso": "2026-09-12T11:59:38.370841+00:00",
+      "entry_price_usd": 3.192359782867766e-06,
+      "exit_price_usd": 3.0575979479131075e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.047875,
+      "pnl_sol": -0.002125,
+      "pnl_pct": -4.22,
+      "exit_reason": "LLM: sell_all — Only -4.2% after fresh entry, no clear signal to dump. Has pool liquidity ($112) and 4% share of bonding curve. Will reassess on next tick — if still ",
+      "entry_liquidity_usd": 378.28,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.7185,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 74.863824,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T11:58:23.507209+00:00",
+  "last_updated": "2026-09-12T11:59:38.371483+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.73,
-  "portfolio_value_usd": 1313.87,
+  "last_sol_price_usd": 101.76,
+  "portfolio_value_usd": 1314.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 11:26 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ROMAN at $3.46729e-06 | P&L: -2.7%",
-      "reason": "Just entered 0.0h ago at -2.7% which is noise, not a loss signal. Bonding-curve pool $309 is thin but no reason to bail on a minutes-old position before it has time to develop."
-    },
     {
       "time": "2026-09-12 11:27 UTC",
       "action": "buy",
@@ -55827,30 +55816,48 @@
       "action": "buy",
       "details": "[LLM] $Moodeng  at $3.19236e-06, spent 0.05 SOL",
       "reason": "Moodeng (pygmy hippo from Toronto Zoo) is a real viral meme with organic X engagement — strongest narrative of the three fresh launches. 0.7min age, $3.2k mcap, bond 5%. Buying 0.05 SOL to test the wave early; can add if it sticks."
+    },
+    {
+      "time": "2026-09-12 11:59 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Moodeng  at $3.0576e-06 | P&L: -4.2%",
+      "reason": "Only -4.2% after fresh entry, no clear signal to dump. Has pool liquidity ($112) and 4% share of bonding curve. Will reassess on next tick — if still flat/red, exit."
     }
   ],
   "trade_stats": {
-    "total": 3238,
+    "total": 3239,
     "wins": 1504,
-    "losses": 1734,
+    "losses": 1735,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 8.699106,
-    "avg_pnl_pct": 28.77,
+    "total_pnl_sol": 8.696981,
+    "avg_pnl_pct": 28.76,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 165,
-    "today_realized_sol": 3.66601,
-    "today_target_pct": 916.5,
+    "today_trades": 166,
+    "today_realized_sol": 3.663885,
+    "today_target_pct": 916.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1504,
-      "loss_count": 1734,
+      "loss_count": 1735,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T11:58:22.151901+00:00",
+  "last_llm_brief_at": "2026-09-12T11:59:38.370266+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "C3mwpNL4v9NtyWxUEKEQUreKahPTCtEKdPNEAquHpump": {
+      "price_usd": 3.0575979479131075e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 111.94867532736,
+      "volume_h24": 797.45,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.100124561
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

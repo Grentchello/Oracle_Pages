@@ -23182,3 +23182,6 @@
 ## [2026-09-12 11:58 UTC] buy | [LLM] $Moodeng  at $3.19236e-06, spent 0.05 SOL
 - **Reasoning:** Moodeng (pygmy hippo from Toronto Zoo) is a real viral meme with organic X engagement — strongest narrative of the three fresh launches. 0.7min age, $3.2k mcap, bond 5%. Buying 0.05 SOL to test the wave early; can add if it sticks.
 
+## [2026-09-12 11:59 UTC] sell | [FULL][LLM] $Moodeng  at $3.0576e-06 | P&L: -4.2%
+- **Reasoning:** Only -4.2% after fresh entry, no clear signal to dump. Has pool liquidity ($112) and 4% share of bonding curve. Will reassess on next tick — if still flat/red, exit.
+
