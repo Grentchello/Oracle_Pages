@@ -23689,3 +23689,6 @@
 ## [2026-09-12 17:03 UTC] buy | [LLM] $HODL at $6.721e-06, spent 0.05 SOL
 - **Reasoning:** $HODL is meta-narrative gold — literally the most iconic crypto meme word, posted by Quant0xfc within first 30s. 20% bonded (not abandoned), $6k mcap gives10x+ room. Risk: brand new, thin liquidity, narrative could fade fast — that's why we're in at 0.05 SOL not 0.5.
 
+## [2026-09-12 17:04 UTC] sell | [v8.7 TP +50% (full)] $HODL at $9.6606e-05 | P&L: +1337.4%
+- **Reasoning:** Auto take-profit at +1337.4%
+
