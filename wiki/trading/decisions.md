@@ -23512,3 +23512,9 @@
 ## [2026-09-12 15:38 UTC] buy | [LLM] $FAUCET at $0.000195497, spent 0.05 SOL
 - **Reasoning:** $FAUCET 'Pump Faucet' — clean attention signal: live twitter post from @jncquant, clear drip-money narrative, bond 23% (some market validation already). $7k mcap is exactly the early-launch zone where 5-10x lives. Risk: ultra-low mcap can rug or go nowhere fast — hard -25% stop is the safety net.
 
+## [2026-09-12 15:40 UTC] sell | [FULL][LLM] $FAUCET at $0.000172403 | P&L: -11.8%
+- **Reasoning:** $FAUCET is -11.8% with weak meta-narrative and no clear attention catalyst. Rotating capital into $SKINWALKER which has a real viral video clip (bear walking human) backing it, with twitter link to the source. Better attention signal, only 3% bonded = very early.
+
+## [2026-09-12 15:40 UTC] buy | [LLM] $SKINWALKER at $3.047e-06, spent 0.05 SOL
+- **Reasoning:** Viral internet meme (bear walking too human clip) with real twitter source pointing to the original viral video. 3% bonded = earliest entry. Strong attention narrative, low mcap, fresh launch. High fragility risk but classic attention-market play.
+
