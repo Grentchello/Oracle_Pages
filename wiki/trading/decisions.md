@@ -22732,3 +22732,6 @@
 ## [2026-09-12 07:16 UTC] buy | [LLM] $PLOT at $3.05282e-06, spent 0.05 SOL
 - **Reasoning:** $PLOT 'Plot Twist' has RT_com (major X account with massive reach) amplifying it, plus a quotable meta-narrative ('comment section already solved it'). $3k mcap at 0.6min = pure attention play with room to run. Founder-name plays are common; RT_com amplification on a creative concept is rarer attention signal.
 
+## [2026-09-12 07:18 UTC] sell | [FULL][LLM] $PLOT at $3.05757e-06 | P&L: +0.2%
+- **Reasoning:** $PLOT is +0.2% after 0.0h — just opened, not stale, hasn't had time to move. Selling at essentially flat on a fresh entry is pure churn. Give it a real window before judging.
+

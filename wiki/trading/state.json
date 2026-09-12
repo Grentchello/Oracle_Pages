@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.10071,
+  "balance_sol": 13.150774,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Csa4uRgRRRCBD42oBWGinQGHkkkjqCrMj96ppDHD3P2g": {
-      "symbol": "PLOT",
-      "name": "Plot Twist",
-      "mint": "Csa4uRgRRRCBD42oBWGinQGHkkkjqCrMj96ppDHD3P2g",
-      "amount": 1670916.6065161747,
-      "entry_price_usd": 3.0528154308283975e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T07:16:38.799051+00:00",
-      "entry_time_iso": "2026-09-12T07:16:38.799059+00:00",
-      "entry_usd_value": 5.101,
-      "last_seen_price_usd": 3.0528154308283975e-06,
-      "entry_liquidity_usd": 105.70992353058,
-      "entry_pool_sol": 1.036168629,
-      "entry_market_cap_usd": 3046.232217784071,
-      "entry_signals": {
-        "liquidity_usd": 105.70992353058,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3046.232217784071,
-        "ath_market_cap_usd": 3046.232217784071,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.036168629,
-        "description": "Every unanswered question gets promoted to chief detective. The comment section has already solved it seven different ways.",
-        "twitter": "https://x.com/RT_com/status/2098671360402952702",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53853,19 +53824,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.694677,
       "partial": false
+    },
+    {
+      "mint": "Csa4uRgRRRCBD42oBWGinQGHkkkjqCrMj96ppDHD3P2g",
+      "symbol": "PLOT",
+      "name": "Plot Twist",
+      "amount_sold": 1670916.6065161747,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T07:16:38.799051+00:00",
+      "entry_time_iso": "2026-09-12T07:16:38.799059+00:00",
+      "exit_time": "2026-09-12T07:18:04.152283+00:00",
+      "exit_time_iso": "2026-09-12T07:18:04.152288+00:00",
+      "entry_price_usd": 3.0528154308283975e-06,
+      "exit_price_usd": 3.057571510961334e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050064,
+      "pnl_sol": 6.4e-05,
+      "pnl_pct": 0.16,
+      "exit_reason": "LLM: sell_all — $PLOT is +0.2% after 0.0h — just opened, not stale, hasn't had time to move. Selling at essentially flat on a fresh entry is pure churn. Give it a rea",
+      "entry_liquidity_usd": 105.71,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.0362,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 85.35325,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T07:16:38.799217+00:00",
+  "last_updated": "2026-09-12T07:18:04.152962+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.02,
-  "portfolio_value_usd": 1341.64,
+  "last_sol_price_usd": 102.049,
+  "portfolio_value_usd": 1342.02,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 06:53 UTC",
-      "action": "buy",
-      "details": "[LLM] $RETAIL at $3.311e-06, spent 0.05 SOL",
-      "reason": "$RETAIL — cleanest narrative of the three (retail-vs-Wall-Street is a viral evergreen meta), lowest mcap at $3.1k = most room to run, tweet from a derivatives-trading account fits the theme. Sizing 0.05 SOL per header rules; will TP at +50% if it pops, exit if flat30 min."
-    },
     {
       "time": "2026-09-12 06:55 UTC",
       "action": "sell",
@@ -53979,40 +53968,46 @@
       "action": "buy",
       "details": "[LLM] $PLOT at $3.05282e-06, spent 0.05 SOL",
       "reason": "$PLOT 'Plot Twist' has RT_com (major X account with massive reach) amplifying it, plus a quotable meta-narrative ('comment section already solved it'). $3k mcap at 0.6min = pure attention play with room to run. Founder-name plays are common; RT_com amplification on a creative concept is rarer attention signal."
+    },
+    {
+      "time": "2026-09-12 07:18 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PLOT at $3.05757e-06 | P&L: +0.2%",
+      "reason": "$PLOT is +0.2% after 0.0h — just opened, not stale, hasn't had time to move. Selling at essentially flat on a fresh entry is pure churn. Give it a real window before judging."
     }
   ],
   "trade_stats": {
-    "total": 3161,
-    "wins": 1474,
+    "total": 3162,
+    "wins": 1475,
     "losses": 1687,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.934523,
-    "avg_pnl_pct": 29.6,
+    "total_pnl_sol": 8.934587,
+    "avg_pnl_pct": 29.59,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 88,
-    "today_realized_sol": 3.901427,
+    "today_trades": 89,
+    "today_realized_sol": 3.901491,
     "today_target_pct": 975.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1474,
+      "win_count": 1475,
       "loss_count": 1687,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T07:16:37.368473+00:00",
+  "last_llm_brief_at": "2026-09-12T07:18:04.152151+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "8wpTnNSm5a9CgsGCtMCcvXvPtRT9YSFpFfvcJ4Jvpump": {
-      "price_usd": 3.039425220694173e-06,
+    "Csa4uRgRRRCBD42oBWGinQGHkkkjqCrMj96ppDHD3P2g": {
+      "price_usd": 3.057571510961334e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 98.75829378914,
-      "volume_h24": 14430.28,
+      "liquidity_usd": 107.75575509403501,
+      "volume_h24": 105.47,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.968028757
+      "real_sol_reserves": 1.055921715
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
