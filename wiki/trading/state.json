@@ -1,37 +1,8 @@
 {
-  "balance_sol": 19.466884,
+  "balance_sol": 19.51582,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "35QmeF43k1uYZPZFXpV7kBPiQinVwhNJSNymThCTpump": {
-      "symbol": "401k",
-      "name": "Buy and never work again",
-      "mint": "35QmeF43k1uYZPZFXpV7kBPiQinVwhNJSNymThCTpump",
-      "amount": 319091.8622123428,
-      "entry_price_usd": 1.6011063286221217e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T18:42:10.595709+00:00",
-      "entry_time_iso": "2026-09-12T18:42:10.595718+00:00",
-      "entry_usd_value": 5.109000000000001,
-      "last_seen_price_usd": 1.6011063286221217e-05,
-      "entry_liquidity_usd": 12.731722618680001,
-      "entry_pool_sol": 0.124600926,
-      "entry_market_cap_usd": 5222.389512713625,
-      "entry_signals": {
-        "liquidity_usd": 12.731722618680001,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5222.389512713625,
-        "ath_market_cap_usd": 6193.118149793746,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.124600926,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -58293,19 +58264,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 74.569682,
       "partial": false
+    },
+    {
+      "mint": "35QmeF43k1uYZPZFXpV7kBPiQinVwhNJSNymThCTpump",
+      "symbol": "401k",
+      "name": "Buy and never work again",
+      "amount_sold": 319091.8393901789,
+      "fraction_sold": 0.9999999284777628,
+      "entry_time": "2026-09-12T18:42:10.595709+00:00",
+      "entry_time_iso": "2026-09-12T18:42:10.595718+00:00",
+      "exit_time": "2026-09-12T18:43:27.040137+00:00",
+      "exit_time_iso": "2026-09-12T18:43:27.040144+00:00",
+      "entry_price_usd": 1.6011063286221217e-05,
+      "exit_price_usd": 1.558747900148108e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.048936,
+      "pnl_sol": -0.001064,
+      "pnl_pct": -2.65,
+      "exit_reason": "LLM: sell_all — Position is<1 minute old at -2.6%, well within the -25% hard stop and 30min stale exit. No reason to override — let it breathe for at least one volati",
+      "entry_liquidity_usd": 12.73,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 0.1246,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 76.444448,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T18:42:10.596010+00:00",
+  "last_updated": "2026-09-12T18:43:27.040476+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.18,
-  "portfolio_value_usd": 1994.24,
+  "last_sol_price_usd": 101.64,
+  "portfolio_value_usd": 1983.59,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 18:06 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $SOLID crashed >15% in one tick | P&L: -15.7%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 18:10 UTC",
       "action": "buy",
@@ -58419,30 +58408,48 @@
       "action": "buy",
       "details": "[LLM] $401k at $1.60111e-05, spent 0.05 SOL",
       "reason": "$401k 'Buy and never work again' — pure aspirational/hope meme, classic viral memecoin narrative. 0.5min old, $5.2k mcap, very early. Story is universal attention bait (escape-the-grind). Taking the fresh-launch scalp per new-strategy mandate to actually trade and learn."
+    },
+    {
+      "time": "2026-09-12 18:43 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $401k at $1.55875e-05 | P&L: -2.6%",
+      "reason": "Position is<1 minute old at -2.6%, well within the -25% hard stop and 30min stale exit. No reason to override — let it breathe for at least one volatility cycle before judging."
     }
   ],
   "trade_stats": {
-    "total": 3346,
+    "total": 3347,
     "wins": 1552,
-    "losses": 1794,
+    "losses": 1795,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 15.300698,
-    "avg_pnl_pct": 32.54,
+    "total_pnl_sol": 15.299634,
+    "avg_pnl_pct": 32.53,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 273,
-    "today_realized_sol": 10.267602,
-    "today_target_pct": 2566.9,
+    "today_trades": 274,
+    "today_realized_sol": 10.266538,
+    "today_target_pct": 2566.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1552,
-      "loss_count": 1794,
+      "loss_count": 1795,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T18:42:08.613661+00:00",
+  "last_llm_brief_at": "2026-09-12T18:43:27.039265+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "35QmeF43k1uYZPZFXpV7kBPiQinVwhNJSNymThCTpump": {
+      "price_usd": 1.558747900148108e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.42296e-06,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.4e-08
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
