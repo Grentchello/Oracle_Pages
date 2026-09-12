@@ -23821,3 +23821,6 @@
 ## [2026-09-12 18:25 UTC] sell | [PARTIAL][LLM] $STUNKA at $5.11321e-06 | P&L: +20.4%
 - **Reasoning:** Up +20.4% on a $1039 pool, bonding-curve launch with no strong narrative signal yet — lock half the gain before it fades, let the rest ride if attention builds.
 
+## [2026-09-12 18:26 UTC] sell | [v8.7 TP +50% (full)] $STUNKA at $6.74498e-06 | P&L: +58.8%
+- **Reasoning:** Auto take-profit at +58.8%
+
