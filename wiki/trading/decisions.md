@@ -22231,3 +22231,6 @@
 ## [2026-09-12 02:46 UTC] sell | [rapid-drop] $PONS crashed >15% in one tick | P&L: -17.3%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 02:49 UTC] buy | [LLM] $PONS at $3.46905e-06, spent 0.05 SOL
+- **Reasoning:** $PONS has the twitter link (passes viability gate), crude/edgy name is attention-bait, and bond at 8% means earliest possible entry for maximum upside if it catches. Risk: sub-$4k mcap, no holders distributed yet, fragility score unknown. -25% hard cap limits damage.
+
