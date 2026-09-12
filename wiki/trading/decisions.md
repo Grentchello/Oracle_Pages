@@ -23011,3 +23011,9 @@
 ## [2026-09-12 10:23 UTC] buy | [LLM] $Launchpad at $5.249e-06, spent 0.05 SOL
 - **Reasoning:** $Launchpad is a meta-narrative play — a token literally named 'Launchpad' launching on a launchpad, backed by @Tuffdevonchain (known memecoin attention account). Bonding curve already at 26% in <1min shows traction. $6.8k mcap with viral name = classic 10x attention setup. 0.05 SOL position ($5), tight -25% stop, will take profit at +50%.
 
+## [2026-09-12 10:24 UTC] sell | [rapid-drop] $Launchpad crashed >15% in one tick | P&L: -39.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 10:24 UTC] buy | [LLM] $WENLIVE at $3.712e-06, spent 0.05 SOL
+- **Reasoning:** $WENLIVE has a real product narrative (live streaming for memecoin traders on Robinhood Chain), attached X account, and meta-appeal — tools-for-traders is a proven meta-narrative that pumps. Fresh 0.9min launch, tiny $3k mcap, bond only 4% complete so early entry. Passes viability gate (desc>50 chars + twitter). Risk: extremely early, mcap could rug, but attention signal is concrete.
+
