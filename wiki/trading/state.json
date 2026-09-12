@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.774801,
+  "balance_sol": 12.834007,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FC6BBYA8qKDrWrTK21tVUXnuUCzUrqWQ4c83YuVhuKsa": {
-      "symbol": "Paperhands",
-      "name": "Edward Paperhands",
-      "mint": "FC6BBYA8qKDrWrTK21tVUXnuUCzUrqWQ4c83YuVhuKsa",
-      "amount": 732732.7327327328,
-      "entry_price_usd": 6.993e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T15:09:06.449344+00:00",
-      "entry_time_iso": "2026-09-12T15:09:06.449351+00:00",
-      "entry_usd_value": 5.1240000000000006,
-      "last_seen_price_usd": 6.993e-06,
-      "entry_liquidity_usd": 1869.397141458,
-      "entry_pool_sol": 18.241580225,
-      "entry_market_cap_usd": 8735.43502609187,
-      "entry_signals": {
-        "liquidity_usd": 1869.397141458,
-        "volume_24h_usd": 18041.17,
-        "market_cap_usd": 8735.43502609187,
-        "ath_market_cap_usd": 9854.278470536987,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 18.241580225,
-        "description": "",
-        "twitter": "https://x.com/moonpay/status/2098790479357690331",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56925,19 +56896,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 80.199553,
       "partial": false
+    },
+    {
+      "mint": "FC6BBYA8qKDrWrTK21tVUXnuUCzUrqWQ4c83YuVhuKsa",
+      "symbol": "Paperhands",
+      "name": "Edward Paperhands",
+      "amount_sold": 732732.7327327328,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T15:09:06.449344+00:00",
+      "entry_time_iso": "2026-09-12T15:09:06.449351+00:00",
+      "exit_time": "2026-09-12T15:10:31.474709+00:00",
+      "exit_time_iso": "2026-09-12T15:10:31.474713+00:00",
+      "entry_price_usd": 6.993e-06,
+      "exit_price_usd": 8.238529196149078e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.059206,
+      "pnl_sol": 0.009206,
+      "pnl_pct": 17.81,
+      "exit_reason": "LLM: sell_all — +17.8% on a $2141 pool bonding-curve token with no narrative confirmation. Thin liquidity means any reversal will be violent. Lock the gain, rotate ca",
+      "entry_liquidity_usd": 1869.4,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 18.2416,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 85.025381,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T15:09:06.450059+00:00",
+  "last_updated": "2026-09-12T15:10:31.475052+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.48,
-  "portfolio_value_usd": 1314.29,
+  "last_sol_price_usd": 101.96,
+  "portfolio_value_usd": 1308.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 14:35 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $$BDOG at $3.30822e-06 | P&L: -1.7%",
-      "reason": "BDOG flat at -1.7% after 0h, no momentum, weak pool ($236), no clear narrative — freeing slot for fresh $CRAB attention launch."
-    },
     {
       "time": "2026-09-12 14:35 UTC",
       "action": "buy",
@@ -57051,30 +57040,48 @@
       "action": "buy",
       "details": "[LLM] $Paperhands at $6.993e-06, spent 0.05 SOL",
       "reason": "Paperhands is the only candidate passing both viability (has moonpay X link) and fragility gates. Classic crypto culture meme with early attention signal at 30% bond curve progress and $8.7k mcap — fresh enough for10x potential. Default bias: take the trade."
+    },
+    {
+      "time": "2026-09-12 15:10 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Paperhands at $8.23853e-06 | P&L: +17.8%",
+      "reason": "+17.8% on a $2141 pool bonding-curve token with no narrative confirmation. Thin liquidity means any reversal will be violent. Lock the gain, rotate capital to a stronger setup."
     }
   ],
   "trade_stats": {
-    "total": 3289,
-    "wins": 1522,
+    "total": 3290,
+    "wins": 1523,
     "losses": 1767,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.608615,
+    "total_pnl_sol": 8.617821,
     "avg_pnl_pct": 28.23,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 216,
-    "today_realized_sol": 3.575519,
-    "today_target_pct": 893.9,
+    "today_trades": 217,
+    "today_realized_sol": 3.584725,
+    "today_target_pct": 896.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1522,
+      "win_count": 1523,
       "loss_count": 1767,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T15:09:05.101285+00:00",
+  "last_llm_brief_at": "2026-09-12T15:10:31.474657+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FC6BBYA8qKDrWrTK21tVUXnuUCzUrqWQ4c83YuVhuKsa": {
+      "price_usd": 8.238529196149078e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2141.16290677764,
+      "volume_h24": 24109.96,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 21.000028509
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

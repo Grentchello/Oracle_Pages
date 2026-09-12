@@ -23482,3 +23482,6 @@
 ## [2026-09-12 15:09 UTC] buy | [LLM] $Paperhands at $6.993e-06, spent 0.05 SOL
 - **Reasoning:** Paperhands is the only candidate passing both viability (has moonpay X link) and fragility gates. Classic crypto culture meme with early attention signal at 30% bond curve progress and $8.7k mcap — fresh enough for10x potential. Default bias: take the trade.
 
+## [2026-09-12 15:10 UTC] sell | [FULL][LLM] $Paperhands at $8.23853e-06 | P&L: +17.8%
+- **Reasoning:** +17.8% on a $2141 pool bonding-curve token with no narrative confirmation. Thin liquidity means any reversal will be violent. Lock the gain, rotate capital to a stronger setup.
+
