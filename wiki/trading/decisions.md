@@ -24235,3 +24235,6 @@
 ## [2026-09-12 22:10 UTC] buy | [LLM] $MEPE at $0.00152713, spent 0.05 SOL
 - **Reasoning:** Monero Pepe fuses two iconic meme brands, has Twitter presence, mcap $8k = ultra-fresh with massive upside. Classic attention-launched combo narrative. 0.05 SOL position.
 
+## [2026-09-12 22:11 UTC] sell | [FULL][LLM] $MEPE at $0.00178867 | P&L: +17.1%
+- **Reasoning:** MEPE is +17.1% and only just entered (0.0h). Bot hasn't triggered TP at +25% yet. Giving it one more tick to either break 25% (auto-TP) or stall (then I'll exit). MEPE narrative is derivative and crowded so I'll cut fast if it stalls under 25%.
+
