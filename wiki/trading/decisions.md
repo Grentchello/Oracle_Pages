@@ -22816,3 +22816,6 @@
 ## [2026-09-12 08:12 UTC] sell | [FULL][LLM] $RevPanda at $3.18289e-06 | P&L: -0.4%
 - **Reasoning:** Just opened at -0.4%, no signal to force-exit. Tiny $182 bonding-curve pool means -25% hard stop is the risk manager. Give it time to develop or get stopped cleanly.
 
+## [2026-09-12 08:14 UTC] buy | [LLM] $Mattress at $4.551e-06, spent 0.05 SOL
+- **Reasoning:** $Mattress (Nietzschean Air Mattress) — absurdist intellectual meme angle is the kind of weird narrative that catches X attention. Sub-$5k mcap, <1min old, has twitter presence, narrative is novel and memeable (philosophy + mundane object). Viability gate passes (twitter linked, description likely >50 chars). Early enough to ride first wave; risk is microcap illiquidity so sizing discipline matters.
+
