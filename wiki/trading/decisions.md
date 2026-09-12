@@ -22582,3 +22582,9 @@
 ## [2026-09-12 05:59 UTC] buy | [LLM] $tung at $7.21e-06, spent 0.05 SOL
 - **Reasoning:** Tung tung tung sahur is peak current CT brainrot meta — viral meme format with micro $5.8k mcap gives max upside. Risk: bond only 3%, very early, may die fast — set tight mental stop.
 
+## [2026-09-12 06:00 UTC] sell | [rapid-drop] $tung crashed >15% in one tick | P&L: -74.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 06:00 UTC] buy | [LLM] $drill at $1.995e-05, spent 0.05 SOL
+- **Reasoning:** $drill cat has the cleanest setup: brand memecoin with real X account (@drillcatpf), $18k mcap gives some gravity vs the micro-caps, and 'drill cat' is a memeable name. Risk: 1.6min old, 38% bonded, very early — small position, tight stop.
+

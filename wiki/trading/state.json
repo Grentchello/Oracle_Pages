@@ -1,27 +1,27 @@
 {
-  "balance_sol": 13.236159,
+  "balance_sol": 13.199158,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "9ea8MJ5Ezt9hzbvcuUMN5WFXJ16iGv2NWTNGBa8jpump": {
-      "symbol": "tung",
-      "name": "tung tung tung sahur",
-      "amount": 707718.4466019418,
-      "entry_price_usd": 7.21e-06,
+    "4AWMHS7CZ5csfiy2B2vjmCwwaVTcARyQj9ryMTNnpump": {
+      "symbol": "drill",
+      "name": "drill cat",
+      "amount": 255914.78696741853,
+      "entry_price_usd": 1.995e-05,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T05:59:39.556758+00:00",
-      "entry_usd_value": 5.102650000000001,
-      "last_seen_price_usd": 7.21e-06,
+      "entry_time": "2026-09-12T06:00:55.864944+00:00",
+      "entry_usd_value": 5.1055,
+      "last_seen_price_usd": 1.995e-05,
       "entry_signals": {
-        "liquidity_usd": 172.75552475116598,
-        "volume_24h_usd": 303.9,
-        "market_cap_usd": 5822.419141909512,
-        "ath_market_cap_usd": 9555.153443890182,
+        "liquidity_usd": 4280.47196396639,
+        "volume_24h_usd": 22103.09,
+        "market_cap_usd": 18289.278088382995,
+        "ath_market_cap_usd": 21597.897835950935,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 1.692802022,
-        "description": "",
-        "twitter": "",
+        "real_sol_reserves": 41.920203349,
+        "description": "Launched on discord.gg/uxento",
+        "twitter": "https://x.com/drillcatpf",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -53339,25 +53339,30 @@
       "pnl_pct": -53.91,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "9ea8MJ5Ezt9hzbvcuUMN5WFXJ16iGv2NWTNGBa8jpump",
+      "symbol": "tung",
+      "name": "tung tung tung sahur",
+      "amount_sold": 707718.4466019418,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T05:59:39.556758+00:00",
+      "exit_time": "2026-09-12T06:00:43.364873+00:00",
+      "entry_price_usd": 7.21e-06,
+      "exit_price_usd": 1.8754947072296281e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.012999,
+      "pnl_sol": -0.037001,
+      "pnl_pct": -73.99,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T05:59:39.556914+00:00",
+  "last_updated": "2026-09-12T06:00:55.865211+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.053,
-  "portfolio_value_usd": 1355.89,
+  "last_sol_price_usd": 102.11,
+  "portfolio_value_usd": 1352.87,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 05:30 UTC",
-      "action": "buy",
-      "details": "[LLM] $mmrich at $4.39399e-05, spent 0.05 SOL",
-      "reason": "$mmrich has the strongest narrative of the new batch — 'makemerich / i want to buy home' is the kind of relatable poverty-to-riches story that travels on X. $43.9k mcap with only 1% bond means we're catching it extremely early; small mcap + story = classic 5-10x attention setup. Risks: 1% bond means liquidity is paper-thin and rug risk is real, and no twitter link shown. Sizing 0.1 SOL."
-    },
-    {
-      "time": "2026-09-12 05:31 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $mmrich at $5.23502e-08 | P&L: -99.9%",
-      "reason": "Position showing -99.9% on bonding curve — token has effectively zero value. On-chain data confirms account exists but with no meaningful state. Exit immediately to free slot; the -25% hard stop should have triggered but if not, force-close now."
-    },
     {
       "time": "2026-09-12 05:39 UTC",
       "action": "buy",
@@ -53465,40 +53470,52 @@
       "action": "buy",
       "details": "[LLM] $tung at $7.21e-06, spent 0.05 SOL",
       "reason": "Tung tung tung sahur is peak current CT brainrot meta — viral meme format with micro $5.8k mcap gives max upside. Risk: bond only 3%, very early, may die fast — set tight mental stop."
+    },
+    {
+      "time": "2026-09-12 06:00 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $tung crashed >15% in one tick | P&L: -74.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-12 06:00 UTC",
+      "action": "buy",
+      "details": "[LLM] $drill at $1.995e-05, spent 0.05 SOL",
+      "reason": "$drill cat has the cleanest setup: brand memecoin with real X account (@drillcatpf), $18k mcap gives some gravity vs the micro-caps, and 'drill cat' is a memeable name. Risk: 1.6min old, 38% bonded, very early — small position, tight stop."
     }
   ],
   "trade_stats": {
-    "total": 3136,
+    "total": 3137,
     "wins": 1465,
-    "losses": 1671,
+    "losses": 1672,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 9.069972,
-    "avg_pnl_pct": 29.93,
+    "total_pnl_sol": 9.032971,
+    "avg_pnl_pct": 29.89,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 63,
-    "today_realized_sol": 4.036876,
-    "today_target_pct": 1009.2,
+    "today_trades": 64,
+    "today_realized_sol": 3.999875,
+    "today_target_pct": 1000.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1465,
-      "loss_count": 1671,
+      "loss_count": 1672,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:59:38.313412+00:00",
+  "last_llm_brief_at": "2026-09-12T06:00:54.553829+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "9aqSDDzvjhGiCXLjuVkCXbWHHjm6Thsqxi6CHQfnpump": {
-      "price_usd": 3.6116664271930968e-06,
+    "9ea8MJ5Ezt9hzbvcuUMN5WFXJ16iGv2NWTNGBa8jpump": {
+      "price_usd": 1.8754947072296281e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 382.917970559565,
-      "volume_h24": 21653.61,
+      "liquidity_usd": 1.0211e-07,
+      "volume_h24": 1649.57,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 3.752148105
+      "real_sol_reserves": 1e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
