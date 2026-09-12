@@ -24361,3 +24361,6 @@
 ## [2026-09-12 23:11 UTC] buy | [LLM] $Drone at $1.371e-05, spent 0.05 SOL
 - **Reasoning:** $Drone — fresh $14k mcap with active X link (PogNyx status post = real-time attention signal). Tiny mcap = room to run if narrative catches. Passes viability and fragility gates.
 
+## [2026-09-12 23:12 UTC] sell | [FULL][LLM] $Drone at $1.24821e-05 | P&L: -9.0%
+- **Reasoning:** Only -9% held 0 min, well inside the -25% hard cap and -20% soft exit threshold. Bonding-curve still active with $3.3k pool liquidity. Give it a few more candles before any exit consideration.
+

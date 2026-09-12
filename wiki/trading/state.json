@@ -1,37 +1,8 @@
 {
-  "balance_sol": 29.517672,
+  "balance_sol": 29.563404,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EkSzKCGekX92n89ozCMUNVpiy3h9HgkKH69tkvkjpump": {
-      "symbol": "Drone",
-      "name": "Drone",
-      "mint": "EkSzKCGekX92n89ozCMUNVpiy3h9HgkKH69tkvkjpump",
-      "amount": 372392.41429613426,
-      "entry_price_usd": 1.371e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T23:11:13.998770+00:00",
-      "entry_time_iso": "2026-09-12T23:11:13.998778+00:00",
-      "entry_usd_value": 5.1055,
-      "last_seen_price_usd": 1.371e-05,
-      "entry_liquidity_usd": 4456.92188554881,
-      "entry_pool_sol": 43.648240971,
-      "entry_market_cap_usd": 14956.178319307603,
-      "entry_signals": {
-        "liquidity_usd": 4456.92188554881,
-        "volume_24h_usd": 16683.69,
-        "market_cap_usd": 14956.178319307603,
-        "ath_market_cap_usd": 14956.178319307603,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 43.648240971,
-        "description": "",
-        "twitter": "https://x.com/PogNyx/status/2098911923555172700",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -60381,19 +60352,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 76.394201,
       "partial": false
+    },
+    {
+      "mint": "EkSzKCGekX92n89ozCMUNVpiy3h9HgkKH69tkvkjpump",
+      "symbol": "Drone",
+      "name": "Drone",
+      "amount_sold": 372392.41429613426,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T23:11:13.998770+00:00",
+      "entry_time_iso": "2026-09-12T23:11:13.998778+00:00",
+      "exit_time": "2026-09-12T23:12:26.976776+00:00",
+      "exit_time_iso": "2026-09-12T23:12:26.976780+00:00",
+      "entry_price_usd": 1.371e-05,
+      "exit_price_usd": 1.248213194634577e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.045732,
+      "pnl_sol": -0.004268,
+      "pnl_pct": -8.96,
+      "exit_reason": "LLM: sell_all — Only -9% held 0 min, well inside the -25% hard cap and -20% soft exit threshold. Bonding-curve still active with $3.3k pool liquidity. Give it a few m",
+      "entry_liquidity_usd": 4456.92,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 43.6482,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 72.978023,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T23:11:13.998957+00:00",
+  "last_updated": "2026-09-12T23:12:26.976970+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.11,
-  "portfolio_value_usd": 3019.15,
+  "last_sol_price_usd": 101.64,
+  "portfolio_value_usd": 3004.82,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 22:48 UTC",
-      "action": "buy",
-      "details": "[LLM] $fry at $4.90519e-07, spent 0.05 SOL",
-      "reason": "$fry has the strongest attention signal of the three: a real X post from RealDesertDoge, highest mcap ($12.4k), freshest age (0.6min), and food-meme names have proven pump pedigree. Other two candidates fail viability (no social, sub-$3k liquidity proxies) and $VaginaPump has Ponzi-scent 'earn 3% rate' copy. Sizing at bot-mandated 0.05 SOL given thin liquidity."
-    },
     {
       "time": "2026-09-12 22:49 UTC",
       "action": "sell",
@@ -60507,30 +60496,48 @@
       "action": "buy",
       "details": "[LLM] $Drone at $1.371e-05, spent 0.05 SOL",
       "reason": "$Drone — fresh $14k mcap with active X link (PogNyx status post = real-time attention signal). Tiny mcap = room to run if narrative catches. Passes viability and fragility gates."
+    },
+    {
+      "time": "2026-09-12 23:12 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Drone at $1.24821e-05 | P&L: -9.0%",
+      "reason": "Only -9% held 0 min, well inside the -25% hard cap and -20% soft exit threshold. Bonding-curve still active with $3.3k pool liquidity. Give it a few more candles before any exit consideration."
     }
   ],
   "trade_stats": {
-    "total": 3433,
+    "total": 3434,
     "wins": 1586,
-    "losses": 1847,
+    "losses": 1848,
     "win_rate_pct": 46.2,
-    "total_pnl_sol": 25.351512,
-    "avg_pnl_pct": 38.29,
+    "total_pnl_sol": 25.347244,
+    "avg_pnl_pct": 38.28,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 360,
-    "today_realized_sol": 20.318416,
-    "today_target_pct": 5079.6,
+    "today_trades": 361,
+    "today_realized_sol": 20.314148,
+    "today_target_pct": 5078.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1586,
-      "loss_count": 1847,
+      "loss_count": 1848,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T23:11:12.545099+00:00",
+  "last_llm_brief_at": "2026-09-12T23:12:26.976694+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EkSzKCGekX92n89ozCMUNVpiy3h9HgkKH69tkvkjpump": {
+      "price_usd": 1.248213194634577e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3341.3347669086,
+      "volume_h24": 22532.51,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 32.874210615
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
