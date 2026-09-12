@@ -23530,3 +23530,9 @@
 ## [2026-09-12 15:45 UTC] buy | [LLM] $Pleb at $5.957e-06, spent 0.05 SOL
 - **Reasoning:** $Pleb — sub-1min old with X attention signal already attached (Humanevoldv tweet). 'Pleb' has irreverent crypto-native meme energy, the kind of name that spreads. Low mcap = early attention entry. Viability gate: real twitter link provided = passes. Risk: bond only 21% and brand-new — but that's the alpha window.
 
+## [2026-09-12 15:46 UTC] sell | [rapid-drop] $Pleb crashed >15% in one tick | P&L: -51.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 15:46 UTC] buy | [LLM] $CAPY at $3.0681e-06, spent 0.05 SOL
+- **Reasoning:** $CAPY — capybara is a hot mascot meta with proven pump history, clean ticker, chill-vibes narrative fits current attention appetite, sub-$4k mcap is entry-grade. Risk: bonding curve only 3% complete, dex liquidity thin — but that's the entry price for early attention.
+
