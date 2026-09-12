@@ -23992,3 +23992,9 @@
 ## [2026-09-12 20:14 UTC] buy | [LLM] $RUNCPU at $3.23006e-06, spent 0.05 SOL
 - **Reasoning:** $RUNCPU has a differentiated builder narrative (NAND-gate 8-bit CPU on Solana) — tech/retro-computing meta is viral-worthy on crypto Twitter, description shows real substance vs pure-joke tokens. Fresh $3.2k mcap at0.6min gives entry before extraction. Risk: bond only 6% complete means price is extremely volatile and could rug; sized at 0.05 SOL to respect min-liquidity 5x and keep22.7 SOL reserve.
 
+## [2026-09-12 20:16 UTC] sell | [FULL][LLM] $RUNCPU at $3.23935e-06 | P&L: +0.3%
+- **Reasoning:** Flat at +0.3% after fresh entry on a $211 bonding-curve pool with no narrative momentum. Capital is better deployed on a fresh launch with stronger attention signal — locking the slot at breakeven with no catalyst is a -EV hold.
+
+## [2026-09-12 20:16 UTC] buy | [LLM] $Mindshare at $3.607e-06, spent 0.05 SOL
+- **Reasoning:** $Mindshare has the clearest attention signal — named-account X post from himgajria, AI/crypto-narrative adjacent concept, $3.7k mcap with massive upside runway. 2% position size keeps risk bounded if it fails the viability gate or dumps.
+
