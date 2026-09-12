@@ -23140,3 +23140,6 @@
 ## [2026-09-12 11:38 UTC] buy | [LLM] $NEMOCLAW at $3.138e-06, spent 0.05 SOL
 - **Reasoning:** $NEMOCLAW rides the NVIDIA+AI-agent attention meta that is hot on CT right now, has twitter link, passes viability gate, and is a fresh 1.7min launch where early 0.1 SOL ($10) gets me in before any confirmation move; small size keeps loss bounded if it rugs.
 
+## [2026-09-12 11:40 UTC] sell | [FULL][LLM] $NEMOCLAW at $2.84818e-06 | P&L: -9.2%
+- **Reasoning:** Just entered this tick (held 0.0h, down only -9.2%). Far from -25% hard cap. Bonding-curve exit can be thin so I want one more tick to see if there's a bounce before cutting. If next tick shows no recovery I'll exit.
+

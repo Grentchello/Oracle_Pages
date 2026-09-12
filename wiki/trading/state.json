@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.95966,
+  "balance_sol": 13.005243,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "83u8Cf1Yzrasgm9dh7G1UYDTDnyJrPugsejKDkzZrMFL": {
-      "symbol": "NEMOCLAW",
-      "name": "NVIDIA NemoClaw",
-      "mint": "83u8Cf1Yzrasgm9dh7G1UYDTDnyJrPugsejKDkzZrMFL",
-      "amount": 1630337.7947737412,
-      "entry_price_usd": 3.138e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T11:38:45.190883+00:00",
-      "entry_time_iso": "2026-09-12T11:38:45.190893+00:00",
-      "entry_usd_value": 5.116,
-      "last_seen_price_usd": 3.138e-06,
-      "entry_liquidity_usd": 150.5746169492,
-      "entry_pool_sol": 1.471604935,
-      "entry_market_cap_usd": 3137.10819680113,
-      "entry_signals": {
-        "liquidity_usd": 150.5746169492,
-        "volume_24h_usd": 149.19,
-        "market_cap_usd": 3137.10819680113,
-        "ath_market_cap_usd": 3137.10819680113,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.471604935,
-        "description": "NVIDIA NemoClaw powered by clawpump.tech : NVIDIA NemoClaw Agent type: Trading agent",
-        "twitter": "https://x.com/QuantsDev1223/status/2098737176636690457",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55533,19 +55504,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 74.45936,
       "partial": false
+    },
+    {
+      "mint": "83u8Cf1Yzrasgm9dh7G1UYDTDnyJrPugsejKDkzZrMFL",
+      "symbol": "NEMOCLAW",
+      "name": "NVIDIA NemoClaw",
+      "amount_sold": 1630337.750065408,
+      "fraction_sold": 0.9999999725772577,
+      "entry_time": "2026-09-12T11:38:45.190883+00:00",
+      "entry_time_iso": "2026-09-12T11:38:45.190893+00:00",
+      "exit_time": "2026-09-12T11:40:14.900641+00:00",
+      "exit_time_iso": "2026-09-12T11:40:14.900647+00:00",
+      "entry_price_usd": 3.138e-06,
+      "exit_price_usd": 2.848182665898742e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.045583,
+      "pnl_sol": -0.004417,
+      "pnl_pct": -9.24,
+      "exit_reason": "LLM: sell_all — Just entered this tick (held 0.0h, down only -9.2%). Far from -25% hard cap. Bonding-curve exit can be thin so I want one more tick to see if there's ",
+      "entry_liquidity_usd": 150.57,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.4716,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 89.709776,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T11:38:45.191176+00:00",
+  "last_updated": "2026-09-12T11:40:14.901180+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.32,
-  "portfolio_value_usd": 1331.15,
+  "last_sol_price_usd": 101.87,
+  "portfolio_value_usd": 1324.84,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 11:06 UTC",
-      "action": "buy",
-      "details": "[LLM] $RUNNET at $3.263e-06, spent 0.05 SOL",
-      "reason": "Passes viability gate. '8-bit processor from NAND gates' is a strong nerd/tech narrative — these tokens have cultural hooks (CPU/GPU memes). Bond only 9% so early, but real technical story + twitter presence gives it an attention edge over the other two vague launches."
-    },
     {
       "time": "2026-09-12 11:07 UTC",
       "action": "sell",
@@ -55659,30 +55648,48 @@
       "action": "buy",
       "details": "[LLM] $NEMOCLAW at $3.138e-06, spent 0.05 SOL",
       "reason": "$NEMOCLAW rides the NVIDIA+AI-agent attention meta that is hot on CT right now, has twitter link, passes viability gate, and is a fresh 1.7min launch where early 0.1 SOL ($10) gets me in before any confirmation move; small size keeps loss bounded if it rugs."
+    },
+    {
+      "time": "2026-09-12 11:40 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $NEMOCLAW at $2.84818e-06 | P&L: -9.2%",
+      "reason": "Just entered this tick (held 0.0h, down only -9.2%). Far from -25% hard cap. Bonding-curve exit can be thin so I want one more tick to see if there's a bounce before cutting. If next tick shows no recovery I'll exit."
     }
   ],
   "trade_stats": {
-    "total": 3231,
+    "total": 3232,
     "wins": 1503,
-    "losses": 1728,
+    "losses": 1729,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.793472,
-    "avg_pnl_pct": 28.89,
+    "total_pnl_sol": 8.789055,
+    "avg_pnl_pct": 28.88,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 158,
-    "today_realized_sol": 3.760376,
-    "today_target_pct": 940.1,
+    "today_trades": 159,
+    "today_realized_sol": 3.755959,
+    "today_target_pct": 939.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1503,
-      "loss_count": 1728,
+      "loss_count": 1729,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T11:38:43.863685+00:00",
+  "last_llm_brief_at": "2026-09-12T11:40:14.900070+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "83u8Cf1Yzrasgm9dh7G1UYDTDnyJrPugsejKDkzZrMFL": {
+      "price_usd": 2.848182665898742e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 5.0935e-07,
+      "volume_h24": 299.43,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 5e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
