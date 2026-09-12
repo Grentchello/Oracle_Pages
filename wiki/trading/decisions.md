@@ -23098,3 +23098,9 @@
 ## [2026-09-12 11:16 UTC] buy | [LLM] $WATCHING at $4.75298e-06, spent 0.05 SOL
 - **Reasoning:** $WATCHING ('Are You Still Watching') has the strongest meta-narrative — references the viral livestream/attention-decay meme format that's currently trending. Sub-1min old, twitter presence confirmed via @thedevorrr, 18% bond shows organic curve. Risk: very early, could rug, but viability gate passes (twitter link present) and narrative is meme-ready for screenshot spread.
 
+## [2026-09-12 11:17 UTC] sell | [rapid-drop] $WATCHING crashed >15% in one tick | P&L: -39.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 11:18 UTC] buy | [LLM] $coke at $1.28603e-06, spent 0.05 SOL
+- **Reasoning:** Coca-Cola is the ultimate brand attention signal — universal name recognition can drive viral pumps in minutes. $11k mcap at 0.8min is exactly the fresh-launch sweet spot. Risk: brand impersonation tokens have rug history, but GMGN v8.3 gate will catch whale concentration/rug mechanics if present. If it passes, the name alone carries attention.
+
