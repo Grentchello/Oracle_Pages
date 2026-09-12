@@ -22873,3 +22873,6 @@
 ## [2026-09-12 08:48 UTC] buy | [LLM] $MEOW  at $1.176e-05, spent 0.05 SOL
 - **Reasoning:** $MEOW KittehCoin — cats are evergreen meme fuel, mementum_sol (known memecoin X account) is already posting it (attention confirmed), bond at 34% shows real buying pressure, $11.9k mcap is prime entry zone for a 5-10x if narrative catches. Risk: 0.7min-old, ultra-low mcap = rug risk, but viability gate passes and fragility gate would have rejected if score>=0.5.
 
+## [2026-09-12 08:50 UTC] sell | [FULL][LLM] $MEOW  at $1.08786e-05 | P&L: -7.5%
+- **Reasoning:** Just entered at 0.0h, down only -7.5%, well within noise. Bonding curve is at 4% with $2.9k pool — too early to bail. The X post is live (fresh attention). Give it a few minutes to develop before judging.
+

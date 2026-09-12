@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.121834,
+  "balance_sol": 13.168432,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CzGMhTQN6rWu5a9X8KpW5krvtVd2YfALav7xpfPvpump": {
-      "symbol": "MEOW ",
-      "name": "KittehCoin",
-      "mint": "CzGMhTQN6rWu5a9X8KpW5krvtVd2YfALav7xpfPvpump",
-      "amount": 435374.1496598641,
-      "entry_price_usd": 1.176e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T08:48:50.913422+00:00",
-      "entry_time_iso": "2026-09-12T08:48:50.913430+00:00",
-      "entry_usd_value": 5.120000000000001,
-      "last_seen_price_usd": 1.176e-05,
-      "entry_liquidity_usd": 3871.8240227328006,
-      "entry_pool_sol": 37.810781472,
-      "entry_market_cap_usd": 11946.176065232801,
-      "entry_signals": {
-        "liquidity_usd": 3871.8240227328006,
-        "volume_24h_usd": 9439.79,
-        "market_cap_usd": 11946.176065232801,
-        "ath_market_cap_usd": 12090.100159237296,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 37.810781472,
-        "description": "",
-        "twitter": "https://x.com/mementum_sol/status/2098694805492486159",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54453,19 +54424,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 75.294311,
       "partial": false
+    },
+    {
+      "mint": "CzGMhTQN6rWu5a9X8KpW5krvtVd2YfALav7xpfPvpump",
+      "symbol": "MEOW ",
+      "name": "KittehCoin",
+      "amount_sold": 435374.1496598641,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T08:48:50.913422+00:00",
+      "entry_time_iso": "2026-09-12T08:48:50.913430+00:00",
+      "exit_time": "2026-09-12T08:50:09.222995+00:00",
+      "exit_time_iso": "2026-09-12T08:50:09.223004+00:00",
+      "entry_price_usd": 1.176e-05,
+      "exit_price_usd": 1.0878607337268559e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.046598,
+      "pnl_sol": -0.003402,
+      "pnl_pct": -7.49,
+      "exit_reason": "LLM: sell_all — Just entered at 0.0h, down only -7.5%, well within noise. Bonding curve is at 4% with $2.9k pool — too early to bail. The X post is live (fresh attent",
+      "entry_liquidity_usd": 3871.82,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 37.8108,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 78.309596,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T08:48:50.913634+00:00",
+  "last_updated": "2026-09-12T08:50:09.223276+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.4,
-  "portfolio_value_usd": 1348.8,
+  "last_sol_price_usd": 101.64,
+  "portfolio_value_usd": 1338.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 08:12 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $RevPanda at $3.18289e-06 | P&L: -0.4%",
-      "reason": "Just opened at -0.4%, no signal to force-exit. Tiny $182 bonding-curve pool means -25% hard stop is the risk manager. Give it time to develop or get stopped cleanly."
-    },
     {
       "time": "2026-09-12 08:14 UTC",
       "action": "buy",
@@ -54579,30 +54568,48 @@
       "action": "buy",
       "details": "[LLM] $MEOW  at $1.176e-05, spent 0.05 SOL",
       "reason": "$MEOW KittehCoin — cats are evergreen meme fuel, mementum_sol (known memecoin X account) is already posting it (attention confirmed), bond at 34% shows real buying pressure, $11.9k mcap is prime entry zone for a 5-10x if narrative catches. Risk: 0.7min-old, ultra-low mcap = rug risk, but viability gate passes and fragility gate would have rejected if score>=0.5."
+    },
+    {
+      "time": "2026-09-12 08:50 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MEOW  at $1.08786e-05 | P&L: -7.5%",
+      "reason": "Just entered at 0.0h, down only -7.5%, well within noise. Bonding curve is at 4% with $2.9k pool — too early to bail. The X post is live (fresh attention). Give it a few minutes to develop before judging."
     }
   ],
   "trade_stats": {
-    "total": 3186,
+    "total": 3187,
     "wins": 1484,
-    "losses": 1702,
+    "losses": 1703,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.955646,
-    "avg_pnl_pct": 29.37,
+    "total_pnl_sol": 8.952244,
+    "avg_pnl_pct": 29.36,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 113,
-    "today_realized_sol": 3.92255,
-    "today_target_pct": 980.6,
+    "today_trades": 114,
+    "today_realized_sol": 3.919148,
+    "today_target_pct": 979.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1484,
-      "loss_count": 1702,
+      "loss_count": 1703,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T08:48:49.650406+00:00",
+  "last_llm_brief_at": "2026-09-12T08:50:09.222103+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CzGMhTQN6rWu5a9X8KpW5krvtVd2YfALav7xpfPvpump": {
+      "price_usd": 1.0878607337268559e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2916.74806126704,
+      "volume_h24": 16797.36,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 28.696852236
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
