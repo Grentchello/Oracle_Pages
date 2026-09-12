@@ -1,8 +1,32 @@
 {
-  "balance_sol": 13.264466,
+  "balance_sol": 13.214466,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "GQQ38QVDXTyq1m8gBkxdaB8p5NLZ6sKH19afhyHWpump": {
+      "symbol": "CLEAN",
+      "name": "CLEAN",
+      "amount": 1008737.0929308976,
+      "entry_price_usd": 5.036e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T05:06:49.434841+00:00",
+      "entry_usd_value": 5.08,
+      "last_seen_price_usd": 5.036e-06,
+      "entry_signals": {
+        "liquidity_usd": 1377.0235156959998,
+        "volume_24h_usd": 1702.4,
+        "market_cap_usd": 3457.7512762897277,
+        "ath_market_cap_usd": 5686.709193234617,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 13.55338106,
+        "description": "",
+        "twitter": "https://x.com/cleanonpg",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53028,17 +53052,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T05:05:28.060793+00:00",
+  "last_updated": "2026-09-12T05:06:49.435011+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.58,
-  "portfolio_value_usd": 1347.4,
+  "last_sol_price_usd": 101.6,
+  "portfolio_value_usd": 1347.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 04:22 UTC",
-      "action": "buy",
-      "details": "[LLM] $POW at $3.44285e-06, spent 0.05 SOL",
-      "reason": "$POW 'Pepe of Wallstreet' is a strong narrative crossover (WSB + Pepe meta), passes viability gate (has twitter), bond only 8% complete means extreme risk but also extreme upside if it grabs attention. Position size 0.1 SOL respects the -25% hard cap. Will watch for 2x before considering exit."
-    },
     {
       "time": "2026-09-12 04:23 UTC",
       "action": "sell",
@@ -53152,6 +53170,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $HIGHER at $3.3514e-06 | P&L: +7.0%",
       "reason": "+7% with 0.0h held, not yet stale and not at any TP. Bonding-curve pool is tiny ($263) so any move will be sharp either direction. Give it 10-15 more minutes to develop, but ready to bail if it stalls or dips below entry."
+    },
+    {
+      "time": "2026-09-12 05:06 UTC",
+      "action": "buy",
+      "details": "[LLM] $CLEAN at $5.036e-06, spent 0.05 SOL",
+      "reason": "$CLEAN at $3,458 mcap with 0.7min age is a genuine micro-cap discovery — bond 9% means still on curve, twitter presence (cleanonpg) is a real attention signal. Simple memorable name, clean narrative fits the meta. Risk: ultra-low mcap = high rug/volatility, but that cuts both ways for upside. Entering 0.05 SOL position."
     }
   ],
   "trade_stats": {
@@ -53173,21 +53197,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:05:28.060379+00:00",
+  "last_llm_brief_at": "2026-09-12T05:06:48.073727+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "DfybybtwuD4TcLfMftwgDcA5LK6QX6MoMZanLyV7pump": {
-      "price_usd": 3.3513967283200567e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 262.97743745549997,
-      "volume_h24": 145.55,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 2.588870225
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

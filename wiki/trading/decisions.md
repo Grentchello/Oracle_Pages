@@ -22480,3 +22480,6 @@
 ## [2026-09-12 05:05 UTC] sell | [FULL][LLM] $HIGHER at $3.3514e-06 | P&L: +7.0%
 - **Reasoning:** +7% with 0.0h held, not yet stale and not at any TP. Bonding-curve pool is tiny ($263) so any move will be sharp either direction. Give it 10-15 more minutes to develop, but ready to bail if it stalls or dips below entry.
 
+## [2026-09-12 05:06 UTC] buy | [LLM] $CLEAN at $5.036e-06, spent 0.05 SOL
+- **Reasoning:** $CLEAN at $3,458 mcap with 0.7min age is a genuine micro-cap discovery — bond 9% means still on curve, twitter presence (cleanonpg) is a real attention signal. Simple memorable name, clean narrative fits the meta. Risk: ultra-low mcap = high rug/volatility, but that cuts both ways for upside. Entering 0.05 SOL position.
+
