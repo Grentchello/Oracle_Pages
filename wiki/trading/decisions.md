@@ -23569,3 +23569,6 @@
 ## [2026-09-12 16:05 UTC] buy | [LLM] $CHAD at $9.77882e-06, spent 0.05 SOL
 - **Reasoning:** $CHAD Stock — classic chad meme, ticker is recognizable, mcap $4.8k (cheap entry), age under 1min has the most attention upside. Bond only 9% so early in curve. Position0.1 SOL.
 
+## [2026-09-12 16:06 UTC] sell | [rapid-drop] $CHAD crashed >15% in one tick | P&L: -17.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

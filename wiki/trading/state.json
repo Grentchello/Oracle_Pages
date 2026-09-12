@@ -1,37 +1,8 @@
 {
-  "balance_sol": 16.101053,
+  "balance_sol": 16.141946,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "92VM32R5YRGtcEjc5UtigDRPua3gam7nqaNp3BnXg6Yx": {
-      "symbol": "CHAD",
-      "name": "CHAD Stock",
-      "mint": "92VM32R5YRGtcEjc5UtigDRPua3gam7nqaNp3BnXg6Yx",
-      "amount": 521949.469400124,
-      "entry_price_usd": 9.778820171742066e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T16:05:18.880012+00:00",
-      "entry_time_iso": "2026-09-12T16:05:18.880020+00:00",
-      "entry_usd_value": 5.104050000000001,
-      "last_seen_price_usd": 9.778820171742066e-06,
-      "entry_liquidity_usd": 785.105790914592,
-      "entry_pool_sol": 7.691008032,
-      "entry_market_cap_usd": 4854.391128938273,
-      "entry_signals": {
-        "liquidity_usd": 785.105790914592,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4854.391128938273,
-        "ath_market_cap_usd": 4947.275539215806,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 7.691008032,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57285,19 +57256,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 85.187964,
       "partial": false
+    },
+    {
+      "mint": "92VM32R5YRGtcEjc5UtigDRPua3gam7nqaNp3BnXg6Yx",
+      "symbol": "CHAD",
+      "name": "CHAD Stock",
+      "amount_sold": 521949.469400124,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T16:05:18.880012+00:00",
+      "entry_time_iso": "2026-09-12T16:05:18.880020+00:00",
+      "exit_time": "2026-09-12T16:06:22.463899+00:00",
+      "exit_time_iso": "2026-09-12T16:06:22.463908+00:00",
+      "entry_price_usd": 9.778820171742066e-06,
+      "exit_price_usd": 8.025885077028832e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.040893,
+      "pnl_sol": -0.009107,
+      "pnl_pct": -17.93,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 785.11,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 7.691,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.583909,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T16:05:18.880201+00:00",
+  "last_updated": "2026-09-12T16:06:41.698004+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.081,
-  "portfolio_value_usd": 1648.72,
+  "last_sol_price_usd": 102.44,
+  "portfolio_value_usd": 1653.58,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 15:38 UTC",
-      "action": "buy",
-      "details": "[LLM] $FAUCET at $0.000195497, spent 0.05 SOL",
-      "reason": "$FAUCET 'Pump Faucet' — clean attention signal: live twitter post from @jncquant, clear drip-money narrative, bond 23% (some market validation already). $7k mcap is exactly the early-launch zone where 5-10x lives. Risk: ultra-low mcap can rug or go nowhere fast — hard -25% stop is the safety net."
-    },
     {
       "time": "2026-09-12 15:40 UTC",
       "action": "sell",
@@ -57411,30 +57400,48 @@
       "action": "buy",
       "details": "[LLM] $CHAD at $9.77882e-06, spent 0.05 SOL",
       "reason": "$CHAD Stock — classic chad meme, ticker is recognizable, mcap $4.8k (cheap entry), age under 1min has the most attention upside. Bond only 9% so early in curve. Position0.1 SOL."
+    },
+    {
+      "time": "2026-09-12 16:06 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $CHAD crashed >15% in one tick | P&L: -17.9%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3304,
+    "total": 3305,
     "wins": 1530,
-    "losses": 1774,
+    "losses": 1775,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 11.934867,
-    "avg_pnl_pct": 30.89,
+    "total_pnl_sol": 11.92576,
+    "avg_pnl_pct": 30.87,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 231,
-    "today_realized_sol": 6.901771,
-    "today_target_pct": 1725.4,
+    "today_trades": 232,
+    "today_realized_sol": 6.892664,
+    "today_target_pct": 1723.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1530,
-      "loss_count": 1774,
+      "loss_count": 1775,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T16:05:17.274246+00:00",
+  "last_llm_brief_at": "2026-09-12T16:06:41.697971+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "92VM32R5YRGtcEjc5UtigDRPua3gam7nqaNp3BnXg6Yx": {
+      "price_usd": 8.025885077028832e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 8.2193456202,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.080235705
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
