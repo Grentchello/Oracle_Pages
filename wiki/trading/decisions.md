@@ -22771,3 +22771,6 @@
 ## [2026-09-12 07:34 UTC] sell | [v8.7 TP +50% (full)] $Polarbear at $7.67268e-06 | P&L: +80.2%
 - **Reasoning:** Auto take-profit at +80.2%
 
+## [2026-09-12 07:43 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
