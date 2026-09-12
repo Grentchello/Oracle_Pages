@@ -23476,3 +23476,6 @@
 ## [2026-09-12 15:06 UTC] buy | [LLM] $Comrades at $3.26171e-06, spent 0.05 SOL
 - **Reasoning:** $Comrades — Twitter post is from TOLY (Anatoly Yakovenko, Solana co-founder). This is the highest-attention signal possible on a Solana memecoin. 0.5min old, mcap $3.2k — catching it at the floor before any organic pump from toly's reach (millions of followers). Bond only 6% = thin liquidity risk, but at 0.05 SOL position ($5), this is a calculated scalp on rare attention. Hard stop at -25% will auto-protect.
 
+## [2026-09-12 15:07 UTC] sell | [FULL][LLM] $Comrades at $3.25225e-06 | P&L: -0.3%
+- **Reasoning:** $Comrades is flat (-0.3%), pool liquidity is only $201 with me holding 2% of pool — exit will be illiquid but slot-freedom matters more with 4 fresh viral launches available. No clear narrative momentum detected.
+
