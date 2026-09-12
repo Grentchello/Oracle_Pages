@@ -23080,3 +23080,6 @@
 ## [2026-09-12 11:03 UTC] sell | [FULL][LLM] $🐶 at $0.000460716 | P&L: -0.5%
 - **Reasoning:** $🐶 just opened (0.0h held) and is only -0.5% — essentially flat. Bonding curve at $4.5k pool means we need a few more minutes to see if attention builds. No reason to panic-exit at the opening tick; will reassess next cycle if it goes stale or down >20%.
 
+## [2026-09-12 11:06 UTC] buy | [LLM] $RUNNET at $3.263e-06, spent 0.05 SOL
+- **Reasoning:** Passes viability gate. '8-bit processor from NAND gates' is a strong nerd/tech narrative — these tokens have cultural hooks (CPU/GPU memes). Bond only 9% so early, but real technical story + twitter presence gives it an attention edge over the other two vague launches.
+
