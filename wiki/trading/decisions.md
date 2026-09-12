@@ -23065,3 +23065,9 @@
 ## [2026-09-12 10:58 UTC] buy | [LLM] $unicorn at $7.102e-06, spent 0.05 SOL
 - **Reasoning:** $unicorn has a viral X post (zukiweb3) tied to it at 0.6min old with $9.3k mcap — classic early attention launch, narrative is clean and broad-appeal.
 
+## [2026-09-12 10:59 UTC] sell | [FULL][LLM] $unicorn at $6.58228e-06 | P&L: -7.3%
+- **Reasoning:** Down 7.3% on a $1590 pool with 0% share — liquidity is razor-thin and the bonding curve is bleeding immediately. Freeing the slot for a stronger narrative ($RISE).
+
+## [2026-09-12 10:59 UTC] buy | [LLM] $RISE at $8.16e-06, spent 0.05 SOL
+- **Reasoning:** $RISE has a real attention mechanic (60% airdrop to top 15 holders incentivizes shilling + holding), $8.5k mcap with room to run, and a Twitter handle. Highest narrative-density launch in the slate. Risk: airdrop-farming tokens often dump post-distribution — watch for exit signal if it doesn't pump in first 15 min.
+
