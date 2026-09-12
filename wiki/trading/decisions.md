@@ -23170,3 +23170,6 @@
 ## [2026-09-12 11:50 UTC] buy | [LLM] $FlyGPT at $4.386e-05, spent 0.05 SOL
 - **Reasoning:** $FlyGPT is the freshest token with real attention signals: complete bond, dedicated Twitter (@FlyGPTDev), absurdist 'green beanie' meme narrative that tends to catch on CT, and $46k mcap with 1.2min age — early enough to catch the wave. Other candidates ($67, $BITBUTT, $MEMECOIN, $CHBU, $BLUESCREEN) have incomplete bonds <20% and no Twitter; $HOOD at $24.7M mcap is a brand-impersonation rug-risk too late to enter. FlyGPT is the only viable narrative play.
 
+## [2026-09-12 11:51 UTC] sell | [rapid-drop] $FlyGPT crashed >15% in one tick | P&L: -71.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.901099,
+  "balance_sol": 12.915361,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "78jUcGHjHrUGbZGdPQzAVBPvgdBNWQqchAX5VNowpump": {
-      "symbol": "FlyGPT",
-      "name": "FlyGPT",
-      "mint": "78jUcGHjHrUGbZGdPQzAVBPvgdBNWQqchAX5VNowpump",
-      "amount": 115788.87368901049,
-      "entry_price_usd": 4.386e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T11:50:37.303483+00:00",
-      "entry_time_iso": "2026-09-12T11:50:37.303492+00:00",
-      "entry_usd_value": 5.0785,
-      "last_seen_price_usd": 4.386e-05,
-      "entry_liquidity_usd": 15975.6,
-      "entry_pool_sol": 85.005359063,
-      "entry_market_cap_usd": 46004.59952440386,
-      "entry_signals": {
-        "liquidity_usd": 15975.6,
-        "volume_24h_usd": 13393.03,
-        "market_cap_usd": 46004.59952440386,
-        "ath_market_cap_usd": 57555.36392175471,
-        "volatility_score": null,
-        "boost_mode": "IN_PROGRESS",
-        "real_sol_reserves": 85.005359063,
-        "description": "Six legs. One green beanie. Absolutely no idea what you just asked.",
-        "twitter": "https://x.com/FlyGPTDev",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55653,19 +55624,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.611403,
       "partial": false
+    },
+    {
+      "mint": "78jUcGHjHrUGbZGdPQzAVBPvgdBNWQqchAX5VNowpump",
+      "symbol": "FlyGPT",
+      "name": "FlyGPT",
+      "amount_sold": 115788.87368901049,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T11:50:37.303483+00:00",
+      "entry_time_iso": "2026-09-12T11:50:37.303492+00:00",
+      "exit_time": "2026-09-12T11:51:41.053502+00:00",
+      "exit_time_iso": "2026-09-12T11:51:41.053512+00:00",
+      "entry_price_usd": 4.386e-05,
+      "exit_price_usd": 1.257e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.014262,
+      "pnl_sol": -0.035738,
+      "pnl_pct": -71.34,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 15975.6,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 85.0054,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.750042,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T11:50:37.303678+00:00",
+  "last_updated": "2026-09-12T11:51:49.534042+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.57,
-  "portfolio_value_usd": 1315.44,
+  "last_sol_price_usd": 102.053,
+  "portfolio_value_usd": 1318.05,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 11:20 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $PUI at $8.74769e-06 | P&L: +55.1%",
-      "reason": "Auto take-profit at +55.1%"
-    },
     {
       "time": "2026-09-12 11:23 UTC",
       "action": "buy",
@@ -55779,40 +55768,44 @@
       "action": "buy",
       "details": "[LLM] $FlyGPT at $4.386e-05, spent 0.05 SOL",
       "reason": "$FlyGPT is the freshest token with real attention signals: complete bond, dedicated Twitter (@FlyGPTDev), absurdist 'green beanie' meme narrative that tends to catch on CT, and $46k mcap with 1.2min age — early enough to catch the wave. Other candidates ($67, $BITBUTT, $MEMECOIN, $CHBU, $BLUESCREEN) have incomplete bonds <20% and no Twitter; $HOOD at $24.7M mcap is a brand-impersonation rug-risk too late to enter. FlyGPT is the only viable narrative play."
+    },
+    {
+      "time": "2026-09-12 11:51 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $FlyGPT crashed >15% in one tick | P&L: -71.3%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3236,
+    "total": 3237,
     "wins": 1504,
-    "losses": 1732,
+    "losses": 1733,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.734911,
-    "avg_pnl_pct": 28.81,
+    "total_pnl_sol": 8.699173,
+    "avg_pnl_pct": 28.78,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 163,
-    "today_realized_sol": 3.701815,
-    "today_target_pct": 925.5,
+    "today_trades": 164,
+    "today_realized_sol": 3.666077,
+    "today_target_pct": 916.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1504,
-      "loss_count": 1732,
+      "loss_count": 1733,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T11:50:36.069198+00:00",
+  "last_llm_brief_at": "2026-09-12T11:51:49.534008+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "8Q7CGo9exEkVvA623c51JxKs7nuJzikYxuDCiQLgpump": {
-      "price_usd": 2.8865671383999656e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 24.990789939009996,
-      "volume_h24": 2541.53,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.246044993
+    "78jUcGHjHrUGbZGdPQzAVBPvgdBNWQqchAX5VNowpump": {
+      "price_usd": 1.257e-05,
+      "change_h24": -70.86,
+      "change_h1": -70.86,
+      "liquidity_usd": 7739.99,
+      "volume_h24": 40190.62,
+      "dex_id": "pumpswap",
+      "source": "dexscreener"
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
