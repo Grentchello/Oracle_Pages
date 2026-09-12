@@ -24115,3 +24115,6 @@
 ## [2026-09-12 21:25 UTC] sell | [rapid-drop] $KEMO crashed >15% in one tick | P&L: -42.7%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 21:27 UTC] buy | [LLM] $MDOG at $0.00430928, spent 0.05 SOL
+- **Reasoning:** $MDOG passes viability gate (has twitter). Fresh launch at $24.5k mcap with bond 36% — some early curve traction. Narrative is weak ('Privacy Dog' is generic) and account __1801 is anonymous, so this is a high-risk speculative entry. Position sized at 0.05 SOL per bot rules.
+
