@@ -23536,3 +23536,9 @@
 ## [2026-09-12 15:46 UTC] buy | [LLM] $CAPY at $3.0681e-06, spent 0.05 SOL
 - **Reasoning:** $CAPY — capybara is a hot mascot meta with proven pump history, clean ticker, chill-vibes narrative fits current attention appetite, sub-$4k mcap is entry-grade. Risk: bonding curve only 3% complete, dex liquidity thin — but that's the entry price for early attention.
 
+## [2026-09-12 15:47 UTC] sell | [FULL][LLM] $CAPY at $3.05537e-06 | P&L: -0.4%
+- **Reasoning:** Just opened, held 0.0h, only -0.4% — no reason to panic exit. Give it a few minutes to see if the bonding curve fills.
+
+## [2026-09-12 15:47 UTC] buy | [LLM] $CASHLESS at $3.602e-06, spent 0.05 SOL
+- **Reasoning:** $CASHLESS — 'cashless society' is a strong current narrative (cashless/anti-cash trend, CBDC pushback angle). Has twitter signal from @canerturanx. Yes mcap is tiny ($3.5k) and bond is only 1% — but that's exactly the fresh-launch asymmetric setup the rules say to take. Risk: 0.05 SOL, stops at -25%.
+
