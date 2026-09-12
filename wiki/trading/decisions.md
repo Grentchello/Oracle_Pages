@@ -23935,3 +23935,6 @@
 ## [2026-09-12 19:40 UTC] sell | [rapid-drop] $MANLET crashed >15% in one tick | P&L: -18.2%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 19:42 UTC] buy | [LLM] $HOLDER at $8.52225e-05, spent 0.05 SOL
+- **Reasoning:** $HOLDER CULT is a meta-narrative on holder culture — self-referential meme that resonates with CT degen audience. Twitter link from lmrankhan provides traceable attention signal. Mcap $4.1k with0.5min age is fresh-launch territory where5-10x moves happen in first hour. Risk: microcap means single-wallet dump possible, but viability gate passes (twitter present).
+
