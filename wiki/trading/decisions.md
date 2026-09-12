@@ -23824,3 +23824,6 @@
 ## [2026-09-12 18:26 UTC] sell | [v8.7 TP +50% (full)] $STUNKA at $6.74498e-06 | P&L: +58.8%
 - **Reasoning:** Auto take-profit at +58.8%
 
+## [2026-09-12 18:28 UTC] buy | [LLM] $FLAP at $3.14947e-06, spent 0.05 SOL
+- **Reasoning:** Flappy Bird nostalgia is a proven viral hook; self-aware crypto copy ('dodge the rugs, survive the dips') is shareable. Fresh 0.9min launch with $3k mcap — early attention window.0.05 SOL position.
+
