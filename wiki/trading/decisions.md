@@ -24316,3 +24316,6 @@
 ## [2026-09-12 22:52 UTC] sell | [FULL][LLM] $BAPE at $3.16377e-06 | P&L: +8.7%
 - **Reasoning:** $BAPE is +8.7% after just minutes, bonding curve, $169 pool. APE narrative is evergreen attention. Holding to see if it pushes toward +20-30% before taking profit. Will exit if it stalls or reverses.
 
+## [2026-09-12 22:53 UTC] buy | [LLM] $Underdog at $5.593e-06, spent 0.05 SOL
+- **Reasoning:** Underdog narrative is classic attention-market material — sympathetic underdog story pumps reliably, only 1.2min old with $4.9k mcap means plenty of upside, fresh bond at 19% still has runway.
+
