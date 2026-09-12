@@ -23260,3 +23260,6 @@
 ## [2026-09-12 12:52 UTC] buy | [LLM] $ANONBATON at $9.2216e-06, spent 0.05 SOL
 - **Reasoning:** $ANONBATON — narrative play on the 'Anonymous' / trench-saver meme (anti-bonk), tiny mcap ($9k), has Twitter, bond31% in progress. Pure attention-coin DNA: cheap mcap + story + social. Fits viability gate (desc >50 chars, has twitter).
 
+## [2026-09-12 12:53 UTC] sell | [rapid-drop] $ANONBATON crashed >15% in one tick | P&L: -66.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
