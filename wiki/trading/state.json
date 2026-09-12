@@ -1,5 +1,5 @@
 {
-  "balance_sol": 19.34693,
+  "balance_sol": 19.38022,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -7,13 +7,13 @@
       "symbol": "SOLID",
       "name": "SOLIDARITY",
       "mint": "4XtrfuXv1BRXf6HjcvCv1Gx5PZDtn9SLpc7kyM9Vpump",
-      "amount": 1494752.2391879319,
+      "amount": 747376.1195939659,
       "entry_price_usd": 3.4052466131546267e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-12T18:03:52.293827+00:00",
       "entry_time_iso": "2026-09-12T18:03:52.293835+00:00",
       "entry_usd_value": 5.09,
-      "last_seen_price_usd": 3.4052466131546267e-06,
+      "last_seen_price_usd": 4.53804713374318e-06,
       "entry_liquidity_usd": 388.3608213508,
       "entry_pool_sol": 3.814939306,
       "entry_market_cap_usd": 3407.253634734089,
@@ -58005,19 +58005,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.810001,
       "partial": false
+    },
+    {
+      "mint": "4XtrfuXv1BRXf6HjcvCv1Gx5PZDtn9SLpc7kyM9Vpump",
+      "symbol": "SOLID",
+      "name": "SOLIDARITY",
+      "amount_sold": 747376.1195939659,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-12T18:03:52.293827+00:00",
+      "entry_time_iso": "2026-09-12T18:03:52.293835+00:00",
+      "exit_time": "2026-09-12T18:05:07.074562+00:00",
+      "exit_time_iso": "2026-09-12T18:05:07.074566+00:00",
+      "entry_price_usd": 3.4052466131546267e-06,
+      "exit_price_usd": 4.53804713374318e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.03329,
+      "pnl_sol": 0.00829,
+      "pnl_pct": 33.27,
+      "exit_reason": "LLM: sell_half — +33.3% in0.0h means bonding-curve momentum is real but thin (pool $801). Take half profit to lock the +33% gain and let the rest ride if narrative hol",
+      "entry_liquidity_usd": 388.36,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.8149,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 74.780752,
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-12T18:03:52.294003+00:00",
+  "last_updated": "2026-09-12T18:05:07.075223+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.8,
-  "portfolio_value_usd": 1974.61,
+  "last_sol_price_usd": 101.88,
+  "portfolio_value_usd": 1977.0,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 17:22 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Sir Quandale at $2.85369e-06 | P&L: -9.3%",
-      "reason": "$Sir Quandale at -9.3% on bonding curve with 0.0h held time. Still well above the -25% hard stop and well below the 30min stale threshold. No reason to manually exit a position that hasn't triggered any auto-rule yet."
-    },
     {
       "time": "2026-09-12 17:26 UTC",
       "action": "buy",
@@ -58131,30 +58149,48 @@
       "action": "buy",
       "details": "[LLM] $SOLID at $3.40525e-06, spent 0.05 SOL",
       "reason": "Strong viral narrative: 'three memes (PEPE/DOGE/BONK) united by Solana' is a coalition story with built-in cross-meme audiences and easy meme-ability. Dedicated @SOLIDARITYMEME account, fresh at $3.4k mcap with only 8% bond, extreme early entry. Fragility keywords not on blocklist. Sizing 0.1 SOL — if it doesn't move in 15min, exit."
+    },
+    {
+      "time": "2026-09-12 18:05 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $SOLID at $4.53805e-06 | P&L: +33.3%",
+      "reason": "+33.3% in0.0h means bonding-curve momentum is real but thin (pool $801). Take half profit to lock the +33% gain and let the rest ride if narrative holds; rule says sell_half is the move when up >20% and liquidity is shaky."
     }
   ],
   "trade_stats": {
-    "total": 3334,
-    "wins": 1543,
+    "total": 3335,
+    "wins": 1544,
     "losses": 1791,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 15.180744,
+    "total_pnl_sol": 15.189034,
     "avg_pnl_pct": 32.57,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 261,
-    "today_realized_sol": 10.147648,
-    "today_target_pct": 2536.9,
+    "today_trades": 262,
+    "today_realized_sol": 10.155938,
+    "today_target_pct": 2539.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1543,
+      "win_count": 1544,
       "loss_count": 1791,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T18:03:50.879740+00:00",
+  "last_llm_brief_at": "2026-09-12T18:05:07.074517+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "4XtrfuXv1BRXf6HjcvCv1Gx5PZDtn9SLpc7kyM9Vpump": {
+      "price_usd": 4.53804713374318e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 801.397771335,
+      "volume_h24": 1556.13,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 7.866095125
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

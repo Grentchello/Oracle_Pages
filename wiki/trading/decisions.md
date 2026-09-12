@@ -23779,3 +23779,6 @@
 ## [2026-09-12 18:03 UTC] buy | [LLM] $SOLID at $3.40525e-06, spent 0.05 SOL
 - **Reasoning:** Strong viral narrative: 'three memes (PEPE/DOGE/BONK) united by Solana' is a coalition story with built-in cross-meme audiences and easy meme-ability. Dedicated @SOLIDARITYMEME account, fresh at $3.4k mcap with only 8% bond, extreme early entry. Fragility keywords not on blocklist. Sizing 0.1 SOL — if it doesn't move in 15min, exit.
 
+## [2026-09-12 18:05 UTC] sell | [PARTIAL][LLM] $SOLID at $4.53805e-06 | P&L: +33.3%
+- **Reasoning:** +33.3% in0.0h means bonding-curve momentum is real but thin (pool $801). Take half profit to lock the +33% gain and let the rest ride if narrative holds; rule says sell_half is the move when up >20% and liquidity is shaky.
+
