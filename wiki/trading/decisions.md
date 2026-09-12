@@ -23062,3 +23062,6 @@
 ## [2026-09-12 10:55 UTC] sell | [rapid-drop] $Pillheads crashed >15% in one tick | P&L: -23.2%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 10:58 UTC] buy | [LLM] $unicorn at $7.102e-06, spent 0.05 SOL
+- **Reasoning:** $unicorn has a viral X post (zukiweb3) tied to it at 0.6min old with $9.3k mcap — classic early attention launch, narrative is clean and broad-appeal.
+
