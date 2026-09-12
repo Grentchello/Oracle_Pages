@@ -24439,3 +24439,6 @@
 ## [2026-09-12 23:43 UTC] buy | [LLM] $Gamblecoin at $3.18949e-06, spent 0.05 SOL
 - **Reasoning:** Gambling meta is a perennial attention driver, TheDegenZane is an active CT account posting the launch, and $3.2k mcap at 0.5min age means massive attention-multiple upside if it catches. Narrative clear, risk is micro-cap rug standard.
 
+## [2026-09-12 23:46 UTC] sell | [PARTIAL][LLM] $Gamblecoin at $3.79134e-06 | P&L: +18.9%
+- **Reasoning:** Up +18.9% on a fresh entry with only $472 pool liquidity (fragile). Lock half the gain now to protect against the inevitable pullback from these tiny-bonding-curve tokens, keep half for the runner if narrative catches fire.
+
