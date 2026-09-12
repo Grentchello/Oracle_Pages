@@ -22663,3 +22663,9 @@
 ## [2026-09-12 06:49 UTC] buy | [LLM] $RELOAD at $3.453e-06, spent 0.05 SOL
 - **Reasoning:** $RELOAD has the strongest narrative of the batch: explicit fee-rev→buyback→burn mechanism + 'reload the clip' gun-culture meme appeal. Description ≥50 chars passes viability, no fragility keywords, fresh launch (1.1min) at $3.4k mcap with classic microcap attention setup.
 
+## [2026-09-12 06:50 UTC] sell | [FULL][LLM] $RELOAD at $4.07742e-06 | P&L: +18.1%
+- **Reasoning:** Up 18.1% past the +15% profit-take threshold. Thin $597 pool with my 1% share means exit liquidity is fine but upside requires holding through volatility. Lock the gain and free the slot.
+
+## [2026-09-12 06:50 UTC] buy | [LLM] $Mart at $1.067e-05, spent 0.05 SOL
+- **Reasoning:** 1.9min old, $11.7k mcap, 34% bonded, has twitter handle martWMT — early enough for the 10x window, brand-able 'Mart' ticker, bonding-curve still has runway. Risk: very thin liquidity, narrative is generic. Size is capped at 0.1 SOL so the loss is bounded.
+
