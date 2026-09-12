@@ -1,37 +1,8 @@
 {
-  "balance_sol": 29.485084,
+  "balance_sol": 29.535404,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HCfrywxvmDx84gUfTz1bv32DVKgkUZXNMFefBuwNpump": {
-      "symbol": "MineCAT",
-      "name": "Minecraft CAT",
-      "mint": "HCfrywxvmDx84gUfTz1bv32DVKgkUZXNMFefBuwNpump",
-      "amount": 1509751.7730496456,
-      "entry_price_usd": 3.384e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T23:21:37.102622+00:00",
-      "entry_time_iso": "2026-09-12T23:21:37.102631+00:00",
-      "entry_usd_value": 5.109000000000001,
-      "last_seen_price_usd": 3.384e-06,
-      "entry_liquidity_usd": 278.49124085094,
-      "entry_pool_sol": 2.725496583,
-      "entry_market_cap_usd": 3384.5966690000023,
-      "entry_signals": {
-        "liquidity_usd": 278.49124085094,
-        "volume_24h_usd": 279.62,
-        "market_cap_usd": 3384.5966690000023,
-        "ath_market_cap_usd": 3387.4267479659297,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.725496583,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -60477,19 +60448,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.994542,
       "partial": false
+    },
+    {
+      "mint": "HCfrywxvmDx84gUfTz1bv32DVKgkUZXNMFefBuwNpump",
+      "symbol": "MineCAT",
+      "name": "Minecraft CAT",
+      "amount_sold": 1509751.7730496456,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T23:21:37.102622+00:00",
+      "entry_time_iso": "2026-09-12T23:21:37.102631+00:00",
+      "exit_time": "2026-09-12T23:22:57.447110+00:00",
+      "exit_time_iso": "2026-09-12T23:22:57.447114+00:00",
+      "entry_price_usd": 3.384e-06,
+      "exit_price_usd": 3.388678764956055e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05032,
+      "pnl_sol": 0.00032,
+      "pnl_pct": 0.14,
+      "exit_reason": "LLM: sell_all — Flat at +0.1% with dangerously thin $280 pool (less than 5x position size), no momentum signal, just entered — rotating capital into stronger narrativ",
+      "entry_liquidity_usd": 278.49,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 2.7255,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 80.344505,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T23:21:37.102895+00:00",
+  "last_updated": "2026-09-12T23:22:58.191076+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.18,
-  "portfolio_value_usd": 3017.89,
+  "last_sol_price_usd": 101.67,
+  "portfolio_value_usd": 3002.86,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 22:57 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Penny at $2.85564e-06 | P&L: -48.5%",
-      "reason": "Fresh entry at 0.0h held, only -10.2% which is well above the -25% hard cap and 30min stale timer. No reason to panic-exit a brand new position; give the bonding-curve trade room to develop. The 2293% share figure is bonding-curve math on a microcap, not a rug signal."
-    },
     {
       "time": "2026-09-12 22:59 UTC",
       "action": "sell",
@@ -60603,40 +60592,46 @@
       "action": "buy",
       "details": "[LLM] $MineCAT at $3.384e-06, spent 0.05 SOL",
       "reason": "Minecraft + CAT is a viral narrative crossover with mass meme appeal; brand-name IP borrowing historically pumps (PEPE-style). Fresh 0.8min launch at $3.4k mcap with a story = early attention window. Risk: ultra-low mcap, will likely dump hard — tight stop is the plan."
+    },
+    {
+      "time": "2026-09-12 23:22 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MineCAT at $3.38868e-06 | P&L: +0.1%",
+      "reason": "Flat at +0.1% with dangerously thin $280 pool (less than 5x position size), no momentum signal, just entered — rotating capital into stronger narrative play ($MEMPOOLS at 35% bonding shows real traction)."
     }
   ],
   "trade_stats": {
-    "total": 3437,
-    "wins": 1587,
+    "total": 3438,
+    "wins": 1588,
     "losses": 1850,
     "win_rate_pct": 46.2,
-    "total_pnl_sol": 25.318924,
-    "avg_pnl_pct": 38.23,
+    "total_pnl_sol": 25.319244,
+    "avg_pnl_pct": 38.22,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 364,
-    "today_realized_sol": 20.285828,
+    "today_trades": 365,
+    "today_realized_sol": 20.286148,
     "today_target_pct": 5071.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1587,
+      "win_count": 1588,
       "loss_count": 1850,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T23:21:35.744097+00:00",
+  "last_llm_brief_at": "2026-09-12T23:22:57.447069+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "CbQXS6HEvY3YkmA63NuxNpGeXQGdhMaACUWDm4WUpump": {
-      "price_usd": 3.1430742792623265e-06,
+    "HCfrywxvmDx84gUfTz1bv32DVKgkUZXNMFefBuwNpump": {
+      "price_usd": 3.388678764956055e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 149.89452365238,
-      "volume_h24": 17032.41,
+      "liquidity_usd": 280.11368187236997,
+      "volume_h24": 283.63,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.466965391
+      "real_sol_reserves": 2.755126211
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
