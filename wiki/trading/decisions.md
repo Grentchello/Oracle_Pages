@@ -23230,3 +23230,6 @@
 ## [2026-09-12 12:35 UTC] buy | [LLM] $Stonkwars at $3.287e-06, spent 0.05 SOL
 - **Reasoning:** Animal-trading-competition + airdrop mechanic fits a known meme meta, has both Twitter and description (viability passes), and at $3k mcap there's room for early attention to compound. Risk: bond only 3% — liquidity is razor-thin and slippage will be high; treat as a fast scalp, exit if not up >10% within 15 min.
 
+## [2026-09-12 12:36 UTC] sell | [FULL][LLM] $Stonkwars at $3.03466e-06 | P&L: -7.7%
+- **Reasoning:** Down only 7.7%, held 0.0h, not yet at -25% hard cap or stale threshold. Selling into $89 pool as 5% holder would guarantee terrible execution; better to give it a few more minutes to bounce or hit the auto-stop.
+

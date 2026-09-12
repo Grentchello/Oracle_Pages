@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.7953,
+  "balance_sol": 12.841457,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7C7ah1SVFKTryosKRqnrLK6Sx3iiH7LGn7jEQhTxpump": {
-      "symbol": "Stonkwars",
-      "name": "Stonk Wars",
-      "mint": "7C7ah1SVFKTryosKRqnrLK6Sx3iiH7LGn7jEQhTxpump",
-      "amount": 1559628.840888348,
-      "entry_price_usd": 3.287e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T12:35:06.465999+00:00",
-      "entry_time_iso": "2026-09-12T12:35:06.466008+00:00",
-      "entry_usd_value": 5.1265,
-      "last_seen_price_usd": 3.287e-06,
-      "entry_liquidity_usd": 109.29792706961001,
-      "entry_pool_sol": 1.066009237,
-      "entry_market_cap_usd": 3068.6297793473195,
-      "entry_signals": {
-        "liquidity_usd": 109.29792706961001,
-        "volume_24h_usd": 469.67,
-        "market_cap_usd": 3068.6297793473195,
-        "ath_market_cap_usd": 3488.130423233085,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.066009237,
-        "description": "Animal Trading Competition and it airdrops $Stonk",
-        "twitter": "https://x.com/StonkWarsAI",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55893,19 +55864,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.390792,
       "partial": false
+    },
+    {
+      "mint": "7C7ah1SVFKTryosKRqnrLK6Sx3iiH7LGn7jEQhTxpump",
+      "symbol": "Stonkwars",
+      "name": "Stonk Wars",
+      "amount_sold": 1559628.840888348,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T12:35:06.465999+00:00",
+      "entry_time_iso": "2026-09-12T12:35:06.466008+00:00",
+      "exit_time": "2026-09-12T12:36:26.203078+00:00",
+      "exit_time_iso": "2026-09-12T12:36:26.203084+00:00",
+      "entry_price_usd": 3.287e-06,
+      "exit_price_usd": 3.0346593417444934e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.046157,
+      "pnl_sol": -0.003843,
+      "pnl_pct": -7.68,
+      "exit_reason": "LLM: sell_all — Down only 7.7%, held 0.0h, not yet at -25% hard cap or stale threshold. Selling into $89 pool as 5% holder would guarantee terrible execution; better ",
+      "entry_liquidity_usd": 109.3,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.066,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 79.737098,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T12:35:06.466362+00:00",
+  "last_updated": "2026-09-12T12:36:26.203324+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.53,
-  "portfolio_value_usd": 1317.03,
+  "last_sol_price_usd": 102.54,
+  "portfolio_value_usd": 1316.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 11:51 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $FlyGPT crashed >15% in one tick | P&L: -71.3%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 11:54 UTC",
       "action": "buy",
@@ -56019,30 +56008,48 @@
       "action": "buy",
       "details": "[LLM] $Stonkwars at $3.287e-06, spent 0.05 SOL",
       "reason": "Animal-trading-competition + airdrop mechanic fits a known meme meta, has both Twitter and description (viability passes), and at $3k mcap there's room for early attention to compound. Risk: bond only 3% — liquidity is razor-thin and slippage will be high; treat as a fast scalp, exit if not up >10% within 15 min."
+    },
+    {
+      "time": "2026-09-12 12:36 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Stonkwars at $3.03466e-06 | P&L: -7.7%",
+      "reason": "Down only 7.7%, held 0.0h, not yet at -25% hard cap or stale threshold. Selling into $89 pool as 5% holder would guarantee terrible execution; better to give it a few more minutes to bounce or hit the auto-stop."
     }
   ],
   "trade_stats": {
-    "total": 3246,
+    "total": 3247,
     "wins": 1507,
-    "losses": 1739,
+    "losses": 1740,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 8.629112,
-    "avg_pnl_pct": 28.66,
+    "total_pnl_sol": 8.625269,
+    "avg_pnl_pct": 28.65,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 173,
-    "today_realized_sol": 3.596016,
-    "today_target_pct": 899.0,
+    "today_trades": 174,
+    "today_realized_sol": 3.592173,
+    "today_target_pct": 898.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1507,
-      "loss_count": 1739,
+      "loss_count": 1740,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T12:35:05.006905+00:00",
+  "last_llm_brief_at": "2026-09-12T12:36:26.202923+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "7C7ah1SVFKTryosKRqnrLK6Sx3iiH7LGn7jEQhTxpump": {
+      "price_usd": 3.0346593417444934e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 88.71549116424,
+      "volume_h24": 696.71,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.865179356
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
