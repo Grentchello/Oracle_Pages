@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.127401,
+  "balance_sol": 13.171834,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5dv8Pbo6R7byMhw2qjhyWdXkFF9MQP7GYpe6E9k1pump": {
-      "symbol": "DOGE-1",
-      "name": "DOGE-1",
-      "mint": "5dv8Pbo6R7byMhw2qjhyWdXkFF9MQP7GYpe6E9k1pump",
-      "amount": 7128.032003714091,
-      "entry_price_usd": 0.0007116269956920722,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T08:40:56.544600+00:00",
-      "entry_time_iso": "2026-09-12T08:40:56.544608+00:00",
-      "entry_usd_value": 5.072500000000001,
-      "last_seen_price_usd": 0.0007116269956920722,
-      "entry_liquidity_usd": 124100.59905618546,
-      "entry_pool_sol": 1223.268595921,
-      "entry_market_cap_usd": 5965.58815695458,
-      "entry_signals": {
-        "liquidity_usd": 124100.59905618546,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 5965.58815695458,
-        "ath_market_cap_usd": 6500.560838198826,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1223.268595921,
-        "description": "",
-        "twitter": "https://x.com/LeloucHx312/status/2098692714816532646",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54429,19 +54400,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.233968,
       "partial": false
+    },
+    {
+      "mint": "5dv8Pbo6R7byMhw2qjhyWdXkFF9MQP7GYpe6E9k1pump",
+      "symbol": "DOGE-1",
+      "name": "DOGE-1",
+      "amount_sold": 7128.032003714091,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T08:40:56.544600+00:00",
+      "entry_time_iso": "2026-09-12T08:40:56.544608+00:00",
+      "exit_time": "2026-09-12T08:42:11.838894+00:00",
+      "exit_time_iso": "2026-09-12T08:42:11.838897+00:00",
+      "entry_price_usd": 0.0007116269956920722,
+      "exit_price_usd": 0.0006327687989360722,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.044433,
+      "pnl_sol": -0.005567,
+      "pnl_pct": -11.08,
+      "exit_reason": "LLM: sell_all — $DOGE-1 down -11.1% on a $4k mcap bonding-curve micro-launch with no narrative strength (generic 'Doge Dividend' name, no description,0% pool share). ",
+      "entry_liquidity_usd": 124100.6,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1223.2686,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 75.294311,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T08:40:56.544888+00:00",
+  "last_updated": "2026-09-12T08:42:12.924139+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.45,
-  "portfolio_value_usd": 1336.85,
+  "last_sol_price_usd": 101.51,
+  "portfolio_value_usd": 1337.07,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 08:06 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $unicorn crashed >15% in one tick | P&L: -33.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 08:10 UTC",
       "action": "buy",
@@ -54555,30 +54544,48 @@
       "action": "buy",
       "details": "[LLM] $DOGE-1 at $0.000711627, spent 0.05 SOL",
       "reason": "DOGE-1 references the literal SpaceX DOGE-1 mission — a real cultural anchor that gives the name a hook beyond pure noise. $6k mcap at 0.9min is the volatility zone where attention-launched memecoins 5-10x. Taking a 0.05 SOL probe per the learning-experiment bias; -25% hard stop will handle the rug risk."
+    },
+    {
+      "time": "2026-09-12 08:42 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DOGE-1 at $0.000632769 | P&L: -11.1%",
+      "reason": "$DOGE-1 down -11.1% on a $4k mcap bonding-curve micro-launch with no narrative strength (generic 'Doge Dividend' name, no description,0% pool share). Cutting now frees the slot for better attention; -11% can become -25% fast on these thin tokens."
     }
   ],
   "trade_stats": {
-    "total": 3185,
+    "total": 3186,
     "wins": 1484,
-    "losses": 1701,
+    "losses": 1702,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.961213,
-    "avg_pnl_pct": 29.38,
+    "total_pnl_sol": 8.955646,
+    "avg_pnl_pct": 29.37,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 112,
-    "today_realized_sol": 3.928117,
-    "today_target_pct": 982.0,
+    "today_trades": 113,
+    "today_realized_sol": 3.92255,
+    "today_target_pct": 980.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1484,
-      "loss_count": 1701,
+      "loss_count": 1702,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T08:40:55.157681+00:00",
+  "last_llm_brief_at": "2026-09-12T08:42:11.838846+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5dv8Pbo6R7byMhw2qjhyWdXkFF9MQP7GYpe6E9k1pump": {
+      "price_usd": 0.0006327687989360722,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 89329.21390458876,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 880.004077476
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

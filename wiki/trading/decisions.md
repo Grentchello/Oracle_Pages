@@ -22867,3 +22867,6 @@
 ## [2026-09-12 08:40 UTC] buy | [LLM] $DOGE-1 at $0.000711627, spent 0.05 SOL
 - **Reasoning:** DOGE-1 references the literal SpaceX DOGE-1 mission — a real cultural anchor that gives the name a hook beyond pure noise. $6k mcap at 0.9min is the volatility zone where attention-launched memecoins 5-10x. Taking a 0.05 SOL probe per the learning-experiment bias; -25% hard stop will handle the rug risk.
 
+## [2026-09-12 08:42 UTC] sell | [FULL][LLM] $DOGE-1 at $0.000632769 | P&L: -11.1%
+- **Reasoning:** $DOGE-1 down -11.1% on a $4k mcap bonding-curve micro-launch with no narrative strength (generic 'Doge Dividend' name, no description,0% pool share). Cutting now frees the slot for better attention; -11% can become -25% fast on these thin tokens.
+
