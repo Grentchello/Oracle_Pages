@@ -22993,3 +22993,6 @@
 ## [2026-09-12 10:16 UTC] buy | [LLM] $淘淘 at $4.77463e-06, spent 0.05 SOL
 - **Reasoning:** Chinese memecoin '淘淘' at $4.7k mcap with an X status link — fresh sub-1min launch, narrative identity (Tao Tao), and early-stage attention. Low mcap + clear name = attention market upside. Risk: thin liquidity at this stage, but position size (0.05 SOL) is sized to that risk.
 
+## [2026-09-12 10:17 UTC] sell | [FULL][LLM] $淘淘 at $4.2585e-06 | P&L: -10.8%
+- **Reasoning:** Down 10.8% but only held 0.0h — well within the -20% danger zone. Pool is thin ($679) so selling now just adds slippage. Give it a few minutes to see if it bounces; if it hits -20%, exit.
+
