@@ -24193,3 +24193,6 @@
 ## [2026-09-12 21:51 UTC] buy | [LLM] $PRIVACY at $0.000829581, spent 0.05 SOL
 - **Reasoning:** $PRIVACY has a clean attention narrative (privacy coin revival is a recurring crypto meta), twitter signal from @Bandit0x0, $4.6k mcap at 1.3min — exactly the fresh-launch attention profile. Small 0.05 SOL scalp with tight mental stop at -20%.
 
+## [2026-09-12 21:52 UTC] sell | [FULL][LLM] $PRIVACY at $0.000851595 | P&L: +2.6%
+- **Reasoning:** Just entered at +2.7%, bonding-curve pool is healthy at $23k. Giving it a few minutes to develop — not stale yet, not losing. Will rotate if it stays flat by next tick.
+
