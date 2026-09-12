@@ -23389,3 +23389,6 @@
 ## [2026-09-12 14:03 UTC] sell | [FULL][LLM] $VOID at $6.63997e-06 | P&L: +8.1%
 - **Reasoning:** Up +8.1% with 0h held — fresh entry, not stale yet, and only 0% bonding curve progress so still early. Give it a chance to run toward the +30% TP threshold before rotating capital.
 
+## [2026-09-12 14:11 UTC] buy | [LLM] $Trauma at $3.511e-06, spent 0.05 SOL
+- **Reasoning:** $Trauma is1.3min old with attached twitter (@dev_pscl) — clear attention signal. Dark/edgy psychological meme narrative fits viral attention market thesis. Bond 11% shows organic buy pressure. Risk: sub-$4k mcap means thin liquidity and high rug probability, but 0.1 SOL position with -25% hard cap limits downside to 0.025 SOL.
+
