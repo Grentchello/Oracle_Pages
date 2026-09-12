@@ -632,7 +632,7 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
     candidates_age = []
     for c in candidates:
         age_min = c.get("age_min", 0) or 0
-        if age_min < 1:
+        if age_min < 0.5:  # Allow >=30 sec old
             age_filtered += 1
             log(f"v8.9 AGE FILTER: ${c.get('symbol')} rejected — only {age_min}min old (too volatile)")
             continue
