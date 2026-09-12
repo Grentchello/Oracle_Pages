@@ -24337,3 +24337,6 @@
 ## [2026-09-12 22:59 UTC] buy | [LLM] $RISE at $7.128e-06, spent 0.05 SOL
 - **Reasoning:** $RISE has a clear narrative hook — 60% airdrop to top 15 holders creates forced buying pressure and an attention magnet (people will shill it to qualify). $8.5k mcap at <1 min old with 30% bonded is the sweet spot: tiny enough for 5-10x, far enough along bonding curve that it's not pure lottery. Best of the four launches.
 
+## [2026-09-12 23:00 UTC] sell | [rapid-drop] $RISE crashed >15% in one tick | P&L: -54.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
