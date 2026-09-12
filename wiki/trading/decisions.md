@@ -24319,3 +24319,9 @@
 ## [2026-09-12 22:53 UTC] buy | [LLM] $Underdog at $5.593e-06, spent 0.05 SOL
 - **Reasoning:** Underdog narrative is classic attention-market material — sympathetic underdog story pumps reliably, only 1.2min old with $4.9k mcap means plenty of upside, fresh bond at 19% still has runway.
 
+## [2026-09-12 22:55 UTC] sell | [rapid-drop] $Underdog crashed >15% in one tick | P&L: -15.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 22:55 UTC] buy | [LLM] $Penny at $3.179e-06, spent 0.05 SOL
+- **Reasoning:** $Penny — clean narrative (dog/character coin with 'going to the moon' lore), $3.2k mcap at 0.6min is fresh, no political/celebrity flags. Tiny size 0.05 SOL but this is the cleanest of three with a story that can catch on. Speculative entry.
+
