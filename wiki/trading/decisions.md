@@ -22264,3 +22264,6 @@
 ## [2026-09-12 03:03 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-12 03:04 UTC] sell | [FULL][LLM] $marcat at $5.16093e-06 | P&L: +8.9%
+- **Reasoning:** Up 8.9% after 0.1h with bonding curve pool only $1055 — thin liquidity makes exit slippage risky. Still under 15min stale threshold and green, so hold for one more checkpoint. Will exit fast if it stalls or reverses.
+
