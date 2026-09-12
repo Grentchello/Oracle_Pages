@@ -22531,3 +22531,6 @@
 ## [2026-09-12 05:39 UTC] buy | [LLM] $Butthole at $7.727e-06, spent 0.05 SOL
 - **Reasoning:** $Butthole at 1.6min/$9.8k mcap — crude humor narrative is classic memecoin attention play, has twitter link (ZzzzzSol) signaling early community seeding. Bonding curve 32% means still early enough for 10x if narrative catches. Size small (0.05 SOL) per hard cap.
 
+## [2026-09-12 05:40 UTC] sell | [FULL][LLM] $Butthole at $9.04969e-06 | P&L: +17.1%
+- **Reasoning:** Position is +17.1% after fresh entry, not yet at the +30% TP threshold. Momentum is positive and the name has attention — let it run toward the auto-TP trigger at +25-30%.
+
