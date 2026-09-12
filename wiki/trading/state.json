@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.955306,
+  "balance_sol": 13.000244,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "pbFdmpFjJ1TDbfEK3ZdXV6rcPt9fNQYCA7uDqKdpump": {
-      "symbol": "DIE",
-      "name": "10M MC IN 2 HOURS",
-      "mint": "pbFdmpFjJ1TDbfEK3ZdXV6rcPt9fNQYCA7uDqKdpump",
-      "amount": 1344537.8151260507,
-      "entry_price_usd": 3.808e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T10:46:23.333809+00:00",
-      "entry_time_iso": "2026-09-12T10:46:23.333817+00:00",
-      "entry_usd_value": 5.120000000000001,
-      "last_seen_price_usd": 3.808e-06,
-      "entry_liquidity_usd": 286.7656425472,
-      "entry_pool_sol": 2.800445728,
-      "entry_market_cap_usd": 3410.4286177134395,
-      "entry_signals": {
-        "liquidity_usd": 286.7656425472,
-        "volume_24h_usd": 629.25,
-        "market_cap_usd": 3410.4286177134395,
-        "ath_market_cap_usd": 3952.5657683448167,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.800445728,
-        "description": "",
-        "twitter": "https://x.com/TheDegenZane/status/2098724525760258465?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55149,19 +55120,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 75.719754,
       "partial": false
+    },
+    {
+      "mint": "pbFdmpFjJ1TDbfEK3ZdXV6rcPt9fNQYCA7uDqKdpump",
+      "symbol": "DIE",
+      "name": "10M MC IN 2 HOURS",
+      "amount_sold": 1344537.8151260507,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T10:46:23.333809+00:00",
+      "entry_time_iso": "2026-09-12T10:46:23.333817+00:00",
+      "exit_time": "2026-09-12T10:47:38.157156+00:00",
+      "exit_time_iso": "2026-09-12T10:47:38.157164+00:00",
+      "entry_price_usd": 3.808e-06,
+      "exit_price_usd": 3.4064179215734394e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.044938,
+      "pnl_sol": -0.005062,
+      "pnl_pct": -10.55,
+      "exit_reason": "LLM: sell_all — Down -10.5% but just entered this tick (0.0h). Not yet at -20% exit threshold. Pool thin at $285, our 2% share means small buys can move it. Giving on",
+      "entry_liquidity_usd": 286.77,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 2.8004,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 74.823368,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T10:46:23.334054+00:00",
+  "last_updated": "2026-09-12T10:47:38.157755+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.4,
-  "portfolio_value_usd": 1331.74,
+  "last_sol_price_usd": 101.92,
+  "portfolio_value_usd": 1324.98,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 10:16 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $$NOVAL at $3.65351e-06 | P&L: +27.9%",
-      "reason": "+27.9% in 6 minutes with no clear narrative catalyst and bonding curve only 43% complete. Per scalp discipline, lock gains >20% when there's any doubt — gains evaporate fast on bonding-curve tokens and the next leg requires fresh attention I don't see here."
-    },
     {
       "time": "2026-09-12 10:16 UTC",
       "action": "buy",
@@ -55275,30 +55264,48 @@
       "action": "buy",
       "details": "[LLM] $DIE at $3.808e-06, spent 0.05 SOL",
       "reason": "$DIE (10M MC IN 2 HOURS) — has a concrete viral promise/narrative baked into the name, backed by @TheDegenZane X post (real attention signal), sub-1.5min age so I'm not buying top, $3.4k mcap = max upside if it hits the promised10M. Risk: bold promise could just be hype bait, but the attention is genuine and fresh."
+    },
+    {
+      "time": "2026-09-12 10:47 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DIE at $3.40642e-06 | P&L: -10.6%",
+      "reason": "Down -10.5% but just entered this tick (0.0h). Not yet at -20% exit threshold. Pool thin at $285, our 2% share means small buys can move it. Giving one tick to observe before triggering cut-loss."
     }
   ],
   "trade_stats": {
-    "total": 3215,
+    "total": 3216,
     "wins": 1496,
-    "losses": 1719,
+    "losses": 1720,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.789118,
-    "avg_pnl_pct": 29.02,
+    "total_pnl_sol": 8.784056,
+    "avg_pnl_pct": 29.01,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 142,
-    "today_realized_sol": 3.756022,
-    "today_target_pct": 939.0,
+    "today_trades": 143,
+    "today_realized_sol": 3.75096,
+    "today_target_pct": 937.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1496,
-      "loss_count": 1719,
+      "loss_count": 1720,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T10:46:21.714677+00:00",
+  "last_llm_brief_at": "2026-09-12T10:47:38.156604+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "pbFdmpFjJ1TDbfEK3ZdXV6rcPt9fNQYCA7uDqKdpump": {
+      "price_usd": 3.4064179215734394e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 285.42142859776004,
+      "volume_h24": 835.25,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.800445728
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

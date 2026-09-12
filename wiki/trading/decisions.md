@@ -23047,3 +23047,6 @@
 ## [2026-09-12 10:46 UTC] buy | [LLM] $DIE at $3.808e-06, spent 0.05 SOL
 - **Reasoning:** $DIE (10M MC IN 2 HOURS) — has a concrete viral promise/narrative baked into the name, backed by @TheDegenZane X post (real attention signal), sub-1.5min age so I'm not buying top, $3.4k mcap = max upside if it hits the promised10M. Risk: bold promise could just be hype bait, but the attention is genuine and fresh.
 
+## [2026-09-12 10:47 UTC] sell | [FULL][LLM] $DIE at $3.40642e-06 | P&L: -10.6%
+- **Reasoning:** Down -10.5% but just entered this tick (0.0h). Not yet at -20% exit threshold. Pool thin at $285, our 2% share means small buys can move it. Giving one tick to observe before triggering cut-loss.
+
