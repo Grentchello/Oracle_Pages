@@ -24100,3 +24100,6 @@
 ## [2026-09-12 21:20 UTC] buy | [LLM] $duck at $3.271e-06, spent 0.05 SOL
 - **Reasoning:** $duck (holduck) — animal-themed memecoin, classic viral category. Sub-$4k mcap at <1min is ultra-fresh entry. Duck narrative has meme pedigree (duck memes, rubber duck, 'honk'). 0.1 SOL risks ~$10 to capture early attention wave. Passes viability gate assumption (needs verification), no political/celebrity keywords in fragility blocklist. High risk/high reward — exactly the asymmetric bet this strategy wants.
 
+## [2026-09-12 21:22 UTC] sell | [PARTIAL][LLM] $duck at $3.83277e-06 | P&L: +17.2%
+- **Reasoning:** +17.2% with very thin liquidity (pool=$496, only 1% of pool). At this size a single seller dumps the bag. Lock half the gain — ride the rest with house money.
+
