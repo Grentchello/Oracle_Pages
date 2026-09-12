@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.946249,
+  "balance_sol": 13.005306,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BEWqKLZsjqoWMSMm7ttGxUfNrRqcUN4qtAuH4m2wdrF9": {
-      "symbol": "LAUNCHPAD",
-      "name": "LaunchPAD",
-      "mint": "BEWqKLZsjqoWMSMm7ttGxUfNrRqcUN4qtAuH4m2wdrF9",
-      "amount": 1264518.1567404233,
-      "entry_price_usd": 4.033267512067003e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T10:33:34.534163+00:00",
-      "entry_time_iso": "2026-09-12T10:33:34.534171+00:00",
-      "entry_usd_value": 5.10014,
-      "last_seen_price_usd": 4.033267512067003e-06,
-      "entry_liquidity_usd": 579.0248760522031,
-      "entry_pool_sol": 5.676558644,
-      "entry_market_cap_usd": 4033.1172572059027,
-      "entry_signals": {
-        "liquidity_usd": 579.0248760522031,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4033.1172572059027,
-        "ath_market_cap_usd": 4033.1172572059027,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.676558644,
-        "description": "LaunchPAD for the new launchpad and the coins name is also LaunchPAD Launched by launchonpad.com",
-        "twitter": "https://x.com/CarviollaSol/status/2098720805580349871",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55125,19 +55096,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 78.381232,
       "partial": false
+    },
+    {
+      "mint": "BEWqKLZsjqoWMSMm7ttGxUfNrRqcUN4qtAuH4m2wdrF9",
+      "symbol": "LAUNCHPAD",
+      "name": "LaunchPAD",
+      "amount_sold": 1264518.1567404233,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T10:33:34.534163+00:00",
+      "entry_time_iso": "2026-09-12T10:33:34.534171+00:00",
+      "exit_time": "2026-09-12T10:34:50.253895+00:00",
+      "exit_time_iso": "2026-09-12T10:34:50.253903+00:00",
+      "entry_price_usd": 4.033267512067003e-06,
+      "exit_price_usd": 4.786106543508208e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.059057,
+      "pnl_sol": 0.009057,
+      "pnl_pct": 18.67,
+      "exit_reason": "LLM: sell_all — Up18.7% in under an hour on bonding curve with only $899 pool — fragile liquidity means a fast pump can reverse instantly. Lock the gain now; bonding-",
+      "entry_liquidity_usd": 579.02,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 5.6766,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 75.719754,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T10:33:34.534358+00:00",
+  "last_updated": "2026-09-12T10:34:50.254356+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.0028,
-  "portfolio_value_usd": 1325.65,
+  "last_sol_price_usd": 102.48,
+  "portfolio_value_usd": 1332.78,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 10:13 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $$NOVAL at $3.73667e-06 | P&L: +30.8%",
-      "reason": "Up +30.8% on a $441 bonding-curve pool with 2% of supply already in our hands — liquidity is razor-thin and any further upside is unreliable. TP threshold at 25% is already hit per the rules. Selling half locks the gain and lets the rest ride for free; full exit would be defensible but sell_half preserves narrative optionality if it keeps pushing."
-    },
     {
       "time": "2026-09-12 10:15 UTC",
       "action": "sell",
@@ -55251,30 +55240,48 @@
       "action": "buy",
       "details": "[LLM] $LAUNCHPAD at $4.03327e-06, spent 0.05 SOL",
       "reason": "$LAUNCHPAD has the strongest narrative — meta-launchpad token with full description (passes viability gate), active X presence, and meme-able 'launchpad about launchpads' self-reference. Bond only 14% so plenty of room to run, low mcap $4k means high upside if narrative catches."
+    },
+    {
+      "time": "2026-09-12 10:34 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LAUNCHPAD at $4.78611e-06 | P&L: +18.7%",
+      "reason": "Up18.7% in under an hour on bonding curve with only $899 pool — fragile liquidity means a fast pump can reverse instantly. Lock the gain now; bonding-curve gains evaporate fast on these thin pools."
     }
   ],
   "trade_stats": {
-    "total": 3214,
-    "wins": 1495,
+    "total": 3215,
+    "wins": 1496,
     "losses": 1719,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.780061,
-    "avg_pnl_pct": 29.03,
+    "total_pnl_sol": 8.789118,
+    "avg_pnl_pct": 29.02,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 141,
-    "today_realized_sol": 3.746965,
-    "today_target_pct": 936.7,
+    "today_trades": 142,
+    "today_realized_sol": 3.756022,
+    "today_target_pct": 939.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1495,
+      "win_count": 1496,
       "loss_count": 1719,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T10:33:33.194318+00:00",
+  "last_llm_brief_at": "2026-09-12T10:34:50.253452+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BEWqKLZsjqoWMSMm7ttGxUfNrRqcUN4qtAuH4m2wdrF9": {
+      "price_usd": 4.786106543508208e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 899.0817976308,
+      "volume_h24": 1086.85,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 8.773241585
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
