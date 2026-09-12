@@ -1,37 +1,8 @@
 {
-  "balance_sol": 16.101053,
+  "balance_sol": 16.151053,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "21jZSpCK1ZocY21j3mj7SzEBbRWbZ2kQ14wmQphopump": {
-      "symbol": "HODLOOR",
-      "name": "THE HODLOOR",
-      "mint": "21jZSpCK1ZocY21j3mj7SzEBbRWbZ2kQ14wmQphopump",
-      "amount": 52620.506898812964,
-      "entry_price_usd": 9.696029743330153e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T16:01:16.405831+00:00",
-      "entry_time_iso": "2026-09-12T16:01:16.405840+00:00",
-      "entry_usd_value": 5.1021,
-      "last_seen_price_usd": 9.696029743330153e-05,
-      "entry_liquidity_usd": 1087.318551218274,
-      "entry_pool_sol": 10.655598197,
-      "entry_market_cap_usd": 3481.30188475308,
-      "entry_signals": {
-        "liquidity_usd": 1087.318551218274,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3481.30188475308,
-        "ath_market_cap_usd": 4147.157742809565,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 10.655598197,
-        "description": "",
-        "twitter": "https://x.com/derivativist/status/2098802286541631869?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57261,19 +57232,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.135426,
       "partial": false
+    },
+    {
+      "mint": "21jZSpCK1ZocY21j3mj7SzEBbRWbZ2kQ14wmQphopump",
+      "symbol": "HODLOOR",
+      "name": "THE HODLOOR",
+      "amount_sold": 52620.506898812964,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T16:01:16.405831+00:00",
+      "entry_time_iso": "2026-09-12T16:01:16.405840+00:00",
+      "exit_time": "2026-09-12T16:02:41.593773+00:00",
+      "exit_time_iso": "2026-09-12T16:02:41.593782+00:00",
+      "entry_price_usd": 9.696029743330153e-05,
+      "exit_price_usd": 9.747150497548138e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05,
+      "pnl_sol": 0.0,
+      "pnl_pct": 0.53,
+      "exit_reason": "LLM: sell_all — Just entered 0.0h ago at +0.5%, no momentum signal yet to exit. However, position is deeply concerning: pool liquidity only $1093 (FAR below 5x positi",
+      "entry_liquidity_usd": 1087.32,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 10.6556,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 85.187964,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T16:01:16.406012+00:00",
+  "last_updated": "2026-09-12T16:02:41.594065+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.042,
-  "portfolio_value_usd": 1648.09,
+  "last_sol_price_usd": 102.58,
+  "portfolio_value_usd": 1656.78,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 15:36 UTC",
-      "action": "buy",
-      "details": "[LLM] $anorchia at $6.86591e-06, spent 0.05 SOL",
-      "reason": "$anorchia — absurd/funny name ('anorchia' = medical term for absence of testicles), posted by X account with active engagement, sub-1min age means pure attention-launch alpha. Bond at 26% with a $6.8k mcap = early entry before curve fills. Risk is the joke lands flat; narrative edge is the shock-humor attention grab."
-    },
     {
       "time": "2026-09-12 15:37 UTC",
       "action": "sell",
@@ -57387,30 +57376,48 @@
       "action": "buy",
       "details": "[LLM] $HODLOOR at $9.69603e-05, spent 0.05 SOL",
       "reason": "$HODLOOR is a fresh 0.5min launch with crypto-native meme name (HODL + lore) that resonates with CT attention. Sub-$4k mcap = early attention window, X link present. Sizing at 0.05 SOL per v7 discipline — small, viral narrative, easy exit if it doesn't move within 15 min."
+    },
+    {
+      "time": "2026-09-12 16:02 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HODLOOR at $9.74715e-05 | P&L: +0.5%",
+      "reason": "Just entered 0.0h ago at +0.5%, no momentum signal yet to exit. However, position is deeply concerning: pool liquidity only $1093 (FAR below 5x position size minimum of ~$50 = $250 needed, but $1093 is thin), our share = 0% suggests execution failed or size is negligible. Watch closely — if it doesn't move +10% within 15 min, this becomes a stale exit candidate."
     }
   ],
   "trade_stats": {
-    "total": 3303,
+    "total": 3304,
     "wins": 1530,
-    "losses": 1773,
+    "losses": 1774,
     "win_rate_pct": 46.3,
     "total_pnl_sol": 11.934867,
-    "avg_pnl_pct": 30.9,
+    "avg_pnl_pct": 30.89,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 230,
+    "today_trades": 231,
     "today_realized_sol": 6.901771,
     "today_target_pct": 1725.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1530,
-      "loss_count": 1773,
+      "loss_count": 1774,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T16:01:14.958780+00:00",
+  "last_llm_brief_at": "2026-09-12T16:02:41.592829+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "21jZSpCK1ZocY21j3mj7SzEBbRWbZ2kQ14wmQphopump": {
+      "price_usd": 9.747150497548138e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1093.05126304826,
+      "volume_h24": 818.86,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 10.655598197
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
