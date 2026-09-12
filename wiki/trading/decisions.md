@@ -23551,3 +23551,6 @@
 ## [2026-09-12 15:51 UTC] buy | [LLM] $RISE at $4.876e-06, spent 0.05 SOL
 - **Reasoning:** $RISE has the strongest narrative of the three: explicit 60% airdrop to top 15 holders creates built-in buying pressure and community incentive at bonding completion. Twitter presence gives it an attention hook. Bonding 19% — early entry window. Liquidity is thin (mcap $4.8k) so this is high risk but the airdrop mechanic is a real attention catalyst.
 
+## [2026-09-12 15:53 UTC] sell | [FULL][LLM] $RISE at $5.14289e-06 | P&L: +5.5%
+- **Reasoning:** Just entered at +5.5%, on bonding curve with $1046 pool. Too early and too green to rotate — let it develop or hit the -25% hard stop. No reason to exit a position that's moving in our direction.
+
