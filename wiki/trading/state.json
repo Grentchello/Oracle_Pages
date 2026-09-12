@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.950244,
+  "balance_sol": 13.000457,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "51vpoFss49FZViVdXZsHwYuNLoYt1B8HHpMDRZnzpump": {
-      "symbol": "RIPCC",
-      "name": "RIP CC",
-      "mint": "51vpoFss49FZViVdXZsHwYuNLoYt1B8HHpMDRZnzpump",
-      "amount": 1651564.0116091587,
-      "entry_price_usd": 3.101e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T10:48:58.777322+00:00",
-      "entry_time_iso": "2026-09-12T10:48:58.777331+00:00",
-      "entry_usd_value": 5.121500000000001,
-      "last_seen_price_usd": 3.101e-06,
-      "entry_liquidity_usd": 131.52286778718002,
-      "entry_pool_sol": 1.284026826,
-      "entry_market_cap_usd": 3104.2026450078665,
-      "entry_signals": {
-        "liquidity_usd": 131.52286778718002,
-        "volume_24h_usd": 130.97,
-        "market_cap_usd": 3104.2026450078665,
-        "ath_market_cap_usd": 3104.2026450078665,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.284026826,
-        "description": "CC has died, rip baby CC  we will miss you 🕊️ 2021 - 2026 🪦",
-        "twitter": "https://x.com/ripbabycc?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55173,19 +55144,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 74.823368,
       "partial": false
+    },
+    {
+      "mint": "51vpoFss49FZViVdXZsHwYuNLoYt1B8HHpMDRZnzpump",
+      "symbol": "RIPCC",
+      "name": "RIP CC",
+      "amount_sold": 1651564.0116091587,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T10:48:58.777322+00:00",
+      "entry_time_iso": "2026-09-12T10:48:58.777331+00:00",
+      "exit_time": "2026-09-12T10:50:19.730537+00:00",
+      "exit_time_iso": "2026-09-12T10:50:19.730547+00:00",
+      "entry_price_usd": 3.101e-06,
+      "exit_price_usd": 3.0972098280798378e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050213,
+      "pnl_sol": 0.000213,
+      "pnl_pct": -0.12,
+      "exit_reason": "LLM: sell_all — Just entered0.0h ago, basically flat (-0.1%). No signal to exit. Let it develop — bonding curve at 4% means early, plenty of room. Will reassess on ne",
+      "entry_liquidity_usd": 131.52,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.284,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 80.953237,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T10:48:58.777638+00:00",
+  "last_updated": "2026-09-12T10:50:19.732014+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.43,
-  "portfolio_value_usd": 1331.61,
+  "last_sol_price_usd": 101.87,
+  "portfolio_value_usd": 1324.36,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 10:17 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $淘淘 at $4.2585e-06 | P&L: -10.8%",
-      "reason": "Down 10.8% but only held 0.0h — well within the -20% danger zone. Pool is thin ($679) so selling now just adds slippage. Give it a few minutes to see if it bounces; if it hits -20%, exit."
-    },
     {
       "time": "2026-09-12 10:19 UTC",
       "action": "buy",
@@ -55299,30 +55288,48 @@
       "action": "buy",
       "details": "[LLM] $RIPCC at $3.101e-06, spent 0.05 SOL",
       "reason": "$RIPCC is a fresh 0.5min-old narrative play riding real attention: the 'CC has died' viral moment has a dedicated X account (@ripbabycc) and a clean obituary story (2021-2026). Mcap $3.1k with 4% bond = prime attention-launch window. Risk: narrative could fade fast or be a slow rug, but at 0.05 SOL the asymmetry favors the entry."
+    },
+    {
+      "time": "2026-09-12 10:50 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RIPCC at $3.09721e-06 | P&L: -0.1%",
+      "reason": "Just entered0.0h ago, basically flat (-0.1%). No signal to exit. Let it develop — bonding curve at 4% means early, plenty of room. Will reassess on next tick."
     }
   ],
   "trade_stats": {
-    "total": 3216,
-    "wins": 1496,
+    "total": 3217,
+    "wins": 1497,
     "losses": 1720,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.784056,
-    "avg_pnl_pct": 29.01,
+    "total_pnl_sol": 8.784269,
+    "avg_pnl_pct": 29.0,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 143,
-    "today_realized_sol": 3.75096,
-    "today_target_pct": 937.7,
+    "today_trades": 144,
+    "today_realized_sol": 3.751173,
+    "today_target_pct": 937.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1496,
+      "win_count": 1497,
       "loss_count": 1720,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T10:48:57.338083+00:00",
+  "last_llm_brief_at": "2026-09-12T10:50:19.730017+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "51vpoFss49FZViVdXZsHwYuNLoYt1B8HHpMDRZnzpump": {
+      "price_usd": 3.0972098280798378e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 130.80381276462,
+      "volume_h24": 130.97,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.284026826
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
