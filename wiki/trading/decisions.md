@@ -24253,3 +24253,9 @@
 ## [2026-09-12 22:23 UTC] buy | [LLM] $CODEBARA at $0.000849504, spent 0.05 SOL
 - **Reasoning:** $CODEBARA passes viability (has twitter) and static fragility (no political/celebrity keywords). 30s old, $4.5k mcap, has X post attached — exactly the fresh-launch attention the prompt says to ride. 0.1 SOL scalp with -25% hard cap; GMGN live fragility unavailable due to Cloudflare block but no metadata red flags.
 
+## [2026-09-12 22:24 UTC] sell | [FULL][LLM] $CODEBARA at $0.000811029 | P&L: -4.5%
+- **Reasoning:** Down -4.5% with no bounce, flat volume, and absurd share percentage indicates this was a dust/micro-cap position. No narrative strength to hold through weakness — cut and free the slot for a fresh attention launch.
+
+## [2026-09-12 22:24 UTC] buy | [LLM] $Brkwnd at $3.054e-06, spent 0.05 SOL
+- **Reasoning:** $Brkwnd (BreakingWind) — crude humor names like this historically pump hard on X (shock-value attention). 0.5min old, no fragility flags visible, micro-cap with room to run. Speculative but the attention thesis is real.
+
