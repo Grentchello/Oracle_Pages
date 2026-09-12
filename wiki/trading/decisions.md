@@ -23800,3 +23800,6 @@
 ## [2026-09-12 18:13 UTC] buy | [LLM] $DEVSOL at $4.09437e-06, spent 0.05 SOL
 - **Reasoning:** $DEVSOL has the clearest narrative: 'SELLURSOL — the little devil of Solana with horns and bags.' Mascot meme + sell-the-dip irony = native degen humor. Bond only 14% means very early, room to pump. Highest attention-to-mcap ratio of the bunch.
 
+## [2026-09-12 18:14 UTC] sell | [FULL][LLM] $DEVSOL at $4.64257e-06 | P&L: +13.4%
+- **Reasoning:** Just opened at +13.4%, too early to judge. Thin $846 pool means I need to wait for either a pump (take profit) or staleness (exit and rotate). Will reassess next tick.
+

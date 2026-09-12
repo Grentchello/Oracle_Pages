@@ -1,37 +1,8 @@
 {
-  "balance_sol": 19.423187,
+  "balance_sol": 19.479826,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8k96xLY6reodbfP8JU28h7Mg98UXQ3ahnPiuGW6Epump": {
-      "symbol": "DEVSOL",
-      "name": "SELLURSOL",
-      "mint": "8k96xLY6reodbfP8JU28h7Mg98UXQ3ahnPiuGW6Epump",
-      "amount": 1242193.381124408,
-      "entry_price_usd": 4.094370552350116e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T18:13:04.713175+00:00",
-      "entry_time_iso": "2026-09-12T18:13:04.713184+00:00",
-      "entry_usd_value": 5.086,
-      "last_seen_price_usd": 4.094370552350116e-06,
-      "entry_liquidity_usd": 689.12051561628,
-      "entry_pool_sol": 6.774680649,
-      "entry_market_cap_usd": 4098.479575854476,
-      "entry_signals": {
-        "liquidity_usd": 689.12051561628,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4098.479575854476,
-        "ath_market_cap_usd": 4098.479575854476,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 6.774680649,
-        "description": "SELLURSOL - the little devil of Solana. He came to the market with one mission: SELL? Nah. GET THE BAGS. Tiny horns. Big bags. Purple energy. Cyan speed. Solana attitude. He doesn’t chase money - money comes to him.  SELLURSOL - tempting you into the next pump",
-        "twitter": "https://x.com/XSELLURSOL",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -58101,19 +58072,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.646725,
       "partial": false
+    },
+    {
+      "mint": "8k96xLY6reodbfP8JU28h7Mg98UXQ3ahnPiuGW6Epump",
+      "symbol": "DEVSOL",
+      "name": "SELLURSOL",
+      "amount_sold": 1242193.381124408,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T18:13:04.713175+00:00",
+      "entry_time_iso": "2026-09-12T18:13:04.713184+00:00",
+      "exit_time": "2026-09-12T18:14:25.048553+00:00",
+      "exit_time_iso": "2026-09-12T18:14:25.048559+00:00",
+      "entry_price_usd": 4.094370552350116e-06,
+      "exit_price_usd": 4.6425729164435884e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.056639,
+      "pnl_sol": 0.006639,
+      "pnl_pct": 13.39,
+      "exit_reason": "LLM: sell_all — Just opened at +13.4%, too early to judge. Thin $846 pool means I need to wait for either a pump (take profit) or staleness (exit and rotate). Will re",
+      "entry_liquidity_usd": 689.12,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 6.7747,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 80.335396,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T18:13:04.713524+00:00",
+  "last_updated": "2026-09-12T18:14:25.048784+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.72,
-  "portfolio_value_usd": 1980.81,
+  "last_sol_price_usd": 101.82,
+  "portfolio_value_usd": 1983.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 17:40 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 17:41 UTC",
       "action": "observe",
@@ -58227,40 +58216,46 @@
       "action": "buy",
       "details": "[LLM] $DEVSOL at $4.09437e-06, spent 0.05 SOL",
       "reason": "$DEVSOL has the clearest narrative: 'SELLURSOL — the little devil of Solana with horns and bags.' Mascot meme + sell-the-dip irony = native degen humor. Bond only 14% means very early, room to pump. Highest attention-to-mcap ratio of the bunch."
+    },
+    {
+      "time": "2026-09-12 18:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DEVSOL at $4.64257e-06 | P&L: +13.4%",
+      "reason": "Just opened at +13.4%, too early to judge. Thin $846 pool means I need to wait for either a pump (take profit) or staleness (exit and rotate). Will reassess next tick."
     }
   ],
   "trade_stats": {
-    "total": 3338,
-    "wins": 1545,
+    "total": 3339,
+    "wins": 1546,
     "losses": 1793,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 15.257001,
-    "avg_pnl_pct": 32.58,
+    "total_pnl_sol": 15.26364,
+    "avg_pnl_pct": 32.57,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 265,
-    "today_realized_sol": 10.223905,
-    "today_target_pct": 2556.0,
+    "today_trades": 266,
+    "today_realized_sol": 10.230544,
+    "today_target_pct": 2557.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1545,
+      "win_count": 1546,
       "loss_count": 1793,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T18:13:03.327300+00:00",
+  "last_llm_brief_at": "2026-09-12T18:14:25.048367+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "HoK7vodcoVYQepStM1dDVyX5iMp2q5narY9bammuGPpe": {
-      "price_usd": 1.1724449882735505e-06,
+    "8k96xLY6reodbfP8JU28h7Mg98UXQ3ahnPiuGW6Epump": {
+      "price_usd": 4.6425729164435884e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 252.35406547712,
-      "volume_h24": 0.0,
+      "liquidity_usd": 846.2244109385399,
+      "volume_h24": 2050.24,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.480869696
+      "real_sol_reserves": 8.310984197
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
