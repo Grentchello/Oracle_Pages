@@ -24232,3 +24232,6 @@
 ## [2026-09-12 22:06 UTC] sell | [FULL][LLM] $LUPIN at $0.000820976 | P&L: -4.5%
 - **Reasoning:** Down -4.5% in <1 min on $5.4k pool with 0% share — fragile liquidity, no momentum, easy to slip to -25% hard cap. Cut now and free the slot.
 
+## [2026-09-12 22:10 UTC] buy | [LLM] $MEPE at $0.00152713, spent 0.05 SOL
+- **Reasoning:** Monero Pepe fuses two iconic meme brands, has Twitter presence, mcap $8k = ultra-fresh with massive upside. Classic attention-launched combo narrative. 0.05 SOL position.
+
