@@ -23623,3 +23623,6 @@
 ## [2026-09-12 16:32 UTC] sell | [FULL][LLM] $PFSR at $0.000192299 | P&L: +0.6%
 - **Reasoning:** Just entered 0.0h ago, flat at +0.6%. No signal to exit — bonding-curve phase means price discovery is still happening. Give it a few minutes to develop before judging.
 
+## [2026-09-12 16:34 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
