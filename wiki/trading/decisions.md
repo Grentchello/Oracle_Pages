@@ -22408,3 +22408,6 @@
 ## [2026-09-12 04:06 UTC] sell | [FULL][LLM] $SCARY DOGE at $3.82604e-06 | P&L: +8.4%
 - **Reasoning:** Just entered, +8.4% already, very young position. No reason to exit a green trade this fresh — give it room to run toward +30% TP. Will reassess if it stalls or reverses.
 
+## [2026-09-12 04:15 UTC] buy | [LLM] $HTML at $9.851e-06, spent 0.05 SOL
+- **Reasoning:** $HTML pump +184% in 5min on 'Hope This Moons Later' narrative, 170 buys vs 102 sells (1.67 buy/sell ratio = real demand), mcap $9.8k with viral ticker story. Fits viability (twitter link present). High risk but right kind of attention play.
+
