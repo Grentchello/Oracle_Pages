@@ -23761,3 +23761,9 @@
 ## [2026-09-12 17:50 UTC] buy | [LLM] $Toly  at $3.096e-06, spent 0.05 SOL
 - **Reasoning:** Narrative is the strongest of the three: tied to Anatoly Yakovenko (Solana co-founder) with an active @toly X post and a clear holder-incentive story ('hold the pot, get goodies'). $3.3k mcap with real social proof beats the generic $PILLS/$watch launches that have no twitter and no hook. Risk: brand-rug risk if creator dumps, and Toly-named coins have rugged before — size stays at minimum 0.1 SOL with -25% hard cap.
 
+## [2026-09-12 17:51 UTC] sell | [v8.7 TP +50% (full)] $Toly  at $5.11272e-06 | P&L: +65.1%
+- **Reasoning:** Auto take-profit at +65.1%
+
+## [2026-09-12 17:52 UTC] buy | [LLM] $SPIDERHODL at $0.000135812, spent 0.05 SOL
+- **Reasoning:** $SPIDERHODL — Spider-Man is a top-tier brand-name IP that prints attention in memecoin markets. 0.6min old, $5.1k mcap, 14% bonded. Fresh enough to catch the initial attention wave. Risk: brand-IP tokens often dump after first pump; I'll take profit aggressively at +30-50%.
+
