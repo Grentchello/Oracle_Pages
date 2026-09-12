@@ -23845,3 +23845,6 @@
 ## [2026-09-12 18:43 UTC] sell | [FULL][LLM] $401k at $1.55875e-05 | P&L: -2.6%
 - **Reasoning:** Position is<1 minute old at -2.6%, well within the -25% hard stop and 30min stale exit. No reason to override — let it breathe for at least one volatility cycle before judging.
 
+## [2026-09-12 18:44 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
