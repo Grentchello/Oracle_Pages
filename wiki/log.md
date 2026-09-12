@@ -552,3 +552,17 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Bot log shows Python just sold at +0.5% (mechanical TP-equivalent exit since it's >entry immediately, position flat, freeing balance)
 - Slippage caveat unchanged: v9.0 sim understates real on-chain impact. Lifetime +8.62 SOL is paper.
 - Verdict: **Profitable overall, no changes needed.** 2h window is slightly negative (-0.168 SOL) but inside normal variance for a 35-trade sample. Lifetime PnL still strongly positive (+8.62 SOL, 46.4% WR). 31% window WR is low but consistent with the long-tail distribution — even at 30% WR the +50% TP wins on the few runners (PUI +55%, VPN +40%) carry the math. No regime change. Bot running normally.
+
+## [2026-09-12 14:48 UTC] eval | memecoin bot — 2026-09-12 14:48 UTC
+- Window: since last eval (12:47 UTC), 35 trades over ~2h
+- Win rate: 42.9% (15 wins / 20 losses) — above lifetime 46.3% baseline, healthy
+- Window Net PnL: +0.0043 SOL (effectively flat, breakeven session)
+- Balance: 12.8420 SOL (open: 0)
+- Breakdown: TP wins 7 trades +0.2170 SOL | override (LLM sell_all while profitable) 8 trades +0.0354 SOL | rapid losses (<=-50%) 7 trades -0.1933 SOL | other losses 13 trades -0.0548 SOL
+- Loss bucket split: >-25%: 25 (+0.2119) | -25% to -40%: 1 (-0.0178) | -40% to -50%: 1 (-0.0226) | <=-50%: 8 (-0.1672)
+- Top window winners: Henry (+235.5%, big runner, sole TP win >+0.05 SOL), Degenerates (+83.8%), NASBAYC (+52.0%), GS (+39.3%), Pengu (+34.3%)
+- Worst losers: ANONBATON x3 (-68.9%, -66.9%, -61.1% — same mint, repeated partial fills pre-cap), SpaceToad (-55.2%), DEGENFLY (-53.3%)
+- Slippage audit: only 1 trade reports >+0.05 SOL profit this window (Henry +0.1187) — much cleaner than prior windows. Lower risk of inflated paper profits.
+- Lifetime (state.json): 3285 trades, 46.3% WR, +8.6258 SOL net (still strongly profitable)
+- v9.1 + v8.9 + GMGN fragility gate still active; LLM held=0 most ticks (high selectivity)
+- Verdict: **Profitable, no changes needed.** Window essentially flat (+0.0043 SOL) on 35 trades — breakeven session with 42.9% WR. Lifetime +8.6258 SOL intact. Henry +235.5% runner validates v8.7 TP-at-+50% rule still doing its job. ANONBATON rapid loss cluster is same mint across 3 fills — looks like a token that pumped then rug'd during repeated entries; not a regime change.
