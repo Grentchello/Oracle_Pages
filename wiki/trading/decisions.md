@@ -22741,3 +22741,6 @@
 ## [2026-09-12 07:22 UTC] sell | [PARTIAL][LLM] $TOPCAT at $2.84484e-06 | P&L: -9.8%
 - **Reasoning:** TOPCAT is at -9.8%, still well within the -25% hard cap and only just entered (0.0h held). Not stale yet. Cutting here would crystallize a loss to chase a weaker setup — let it breathe and re-evaluate next tick.
 
+## [2026-09-12 07:23 UTC] sell | [FULL][LLM] $TOPCAT at $2.84483e-06 | P&L: -54.9%
+- **Reasoning:** Down 9.8% in <30min with 8M% pool share means the liquidity is microscopic relative to my position — I'm essentially trapped in a tiny pool. No narrative momentum, no bounce signal, generic name. Exit before the -25% hard stop forces an even worse fill.
+

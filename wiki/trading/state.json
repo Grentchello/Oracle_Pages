@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.144665,
+  "balance_sol": 13.145229,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8fN9xY5dg84qXWmb9hXnRdZ7i86VyPL15m7Vd5D3pump": {
-      "symbol": "TOPCAT",
-      "name": "TOPCAT",
-      "mint": "8fN9xY5dg84qXWmb9hXnRdZ7i86VyPL15m7Vd5D3pump",
-      "amount": 40319.709418930186,
-      "entry_price_usd": 3.155e-06,
-      "entry_sol_spent": 0.0012524237788394676,
-      "entry_time": "2026-09-12T07:20:51.735669+00:00",
-      "entry_time_iso": "2026-09-12T07:20:51.735679+00:00",
-      "entry_usd_value": 5.0785,
-      "last_seen_price_usd": 2.844844076335202e-06,
-      "entry_liquidity_usd": 106.37418065812999,
-      "entry_pool_sol": 1.047299209,
-      "entry_market_cap_usd": 3047.219758143337,
-      "entry_signals": {
-        "liquidity_usd": 106.37418065812999,
-        "volume_24h_usd": 250.75,
-        "market_cap_usd": 3047.219758143337,
-        "ath_market_cap_usd": 3246.3666554025135,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.047299209,
-        "description": "topcat meme from 2014 , 4chan",
-        "twitter": "https://x.com/adamshieo/status/2098672383666119034?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53901,19 +53872,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 81.718365,
       "partial": true
+    },
+    {
+      "mint": "8fN9xY5dg84qXWmb9hXnRdZ7i86VyPL15m7Vd5D3pump",
+      "symbol": "TOPCAT",
+      "name": "TOPCAT",
+      "amount_sold": 40319.584235596914,
+      "fraction_sold": 0.9999968952322554,
+      "entry_time": "2026-09-12T07:20:51.735669+00:00",
+      "entry_time_iso": "2026-09-12T07:20:51.735679+00:00",
+      "exit_time": "2026-09-12T07:23:35.333565+00:00",
+      "exit_time_iso": "2026-09-12T07:23:35.333572+00:00",
+      "entry_price_usd": 3.155e-06,
+      "exit_price_usd": 2.844827587534483e-06,
+      "entry_sol_for_chunk": 0.001252,
+      "exit_sol_received": 0.000564,
+      "pnl_sol": -0.000689,
+      "pnl_pct": -54.92,
+      "exit_reason": "LLM: sell_all — Down 9.8% in <30min with 8M% pool share means the liquidity is microscopic relative to my position — I'm essentially trapped in a tiny pool. No narrat",
+      "entry_liquidity_usd": 106.37,
+      "exit_liquidity_usd": 0.46,
+      "entry_pool_sol": 1.0473,
+      "exit_pool_sol": 0.0045,
+      "hold_duration_seconds": 163.597915,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T07:22:13.454300+00:00",
+  "last_updated": "2026-09-12T07:23:35.333799+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.72,
-  "portfolio_value_usd": 1337.2,
+  "last_sol_price_usd": 101.75,
+  "portfolio_value_usd": 1337.53,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 06:57 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $$1M at $3.08186e-06 | P&L: -0.7%",
-      "reason": "Flat at -0.6% after just opening, $120 pool with4% share means illiquid exit. Slot needs to rotate to a higher-attention fresh launch (DOGUE has cobie tweet + dog meta). Capital rotation beats bag-holding a dead tick."
-    },
     {
       "time": "2026-09-12 06:57 UTC",
       "action": "buy",
@@ -54027,40 +54016,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $TOPCAT at $2.84484e-06 | P&L: -9.8%",
       "reason": "TOPCAT is at -9.8%, still well within the -25% hard cap and only just entered (0.0h held). Not stale yet. Cutting here would crystallize a loss to chase a weaker setup — let it breathe and re-evaluate next tick."
+    },
+    {
+      "time": "2026-09-12 07:23 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $TOPCAT at $2.84483e-06 | P&L: -54.9%",
+      "reason": "Down 9.8% in <30min with 8M% pool share means the liquidity is microscopic relative to my position — I'm essentially trapped in a tiny pool. No narrative momentum, no bounce signal, generic name. Exit before the -25% hard stop forces an even worse fill."
     }
   ],
   "trade_stats": {
-    "total": 3163,
+    "total": 3164,
     "wins": 1475,
-    "losses": 1688,
+    "losses": 1689,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.92973,
-    "avg_pnl_pct": 29.58,
+    "total_pnl_sol": 8.929041,
+    "avg_pnl_pct": 29.55,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 90,
-    "today_realized_sol": 3.896634,
-    "today_target_pct": 974.2,
+    "today_trades": 91,
+    "today_realized_sol": 3.895945,
+    "today_target_pct": 974.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1475,
-      "loss_count": 1688,
+      "loss_count": 1689,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T07:22:13.453198+00:00",
+  "last_llm_brief_at": "2026-09-12T07:23:35.333024+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "8fN9xY5dg84qXWmb9hXnRdZ7i86VyPL15m7Vd5D3pump": {
-      "price_usd": 2.844844076335202e-06,
+      "price_usd": 2.844827587534483e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.458813146,
-      "volume_h24": 342.91,
+      "liquidity_usd": 1.4244999999999999e-06,
+      "volume_h24": 475.8,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.00451055
+      "real_sol_reserves": 1.4e-08
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
