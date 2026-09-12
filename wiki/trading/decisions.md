@@ -23122,3 +23122,6 @@
 ## [2026-09-12 11:24 UTC] buy | [LLM] $ROMAN at $3.562e-06, spent 0.05 SOL
 - **Reasoning:** $ROMAN (Free Roman Storm) — 0.8min old, real crypto-native narrative (Roman Storm / Tornado Cash trial is an active community cause), explicit X attention signal from @sheluvsblnkr. Fresh attention on a legal/crypto cause is the kind of story that pumps. Risk: brand new, $3.5k mcap, will likely hit the +25%/-25% auto-thresholds fast — tight scalp.
 
+## [2026-09-12 11:26 UTC] sell | [FULL][LLM] $ROMAN at $3.46729e-06 | P&L: -2.7%
+- **Reasoning:** Just entered 0.0h ago at -2.7% which is noise, not a loss signal. Bonding-curve pool $309 is thin but no reason to bail on a minutes-old position before it has time to develop.
+

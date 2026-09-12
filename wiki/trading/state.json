@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.959335,
+  "balance_sol": 13.007749,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5yqoYbmNHyprtzsexJ363xw2rEELgaM7FT3Dx9mfpump": {
-      "symbol": "ROMAN",
-      "name": "Free Roman Storm",
-      "mint": "5yqoYbmNHyprtzsexJ363xw2rEELgaM7FT3Dx9mfpump",
-      "amount": 1429814.7108366087,
-      "entry_price_usd": 3.562e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T11:24:38.200711+00:00",
-      "entry_time_iso": "2026-09-12T11:24:38.200721+00:00",
-      "entry_usd_value": 5.093,
-      "last_seen_price_usd": 3.562e-06,
-      "entry_liquidity_usd": 341.65286653366,
-      "entry_pool_sol": 3.354141631,
-      "entry_market_cap_usd": 3547.980592397322,
-      "entry_signals": {
-        "liquidity_usd": 341.65286653366,
-        "volume_24h_usd": 5929.02,
-        "market_cap_usd": 3547.980592397322,
-        "ath_market_cap_usd": 6713.147665484173,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.354141631,
-        "description": "",
-        "twitter": "https://x.com/sheluvsblnkr/status/2098734182398841279",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55461,19 +55432,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 88.862799,
       "partial": false
+    },
+    {
+      "mint": "5yqoYbmNHyprtzsexJ363xw2rEELgaM7FT3Dx9mfpump",
+      "symbol": "ROMAN",
+      "name": "Free Roman Storm",
+      "amount_sold": 1429814.7108366087,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T11:24:38.200711+00:00",
+      "entry_time_iso": "2026-09-12T11:24:38.200721+00:00",
+      "exit_time": "2026-09-12T11:26:02.631928+00:00",
+      "exit_time_iso": "2026-09-12T11:26:02.631934+00:00",
+      "entry_price_usd": 3.562e-06,
+      "exit_price_usd": 3.467285286854142e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.048414,
+      "pnl_sol": -0.001586,
+      "pnl_pct": -2.66,
+      "exit_reason": "LLM: sell_all — Just entered 0.0h ago at -2.7% which is noise, not a loss signal. Bonding-curve pool $309 is thin but no reason to bail on a minutes-old position befo",
+      "entry_liquidity_usd": 341.65,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.3541,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 84.431235,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T11:24:38.200983+00:00",
+  "last_updated": "2026-09-12T11:26:02.632173+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.86,
-  "portfolio_value_usd": 1325.13,
+  "last_sol_price_usd": 102.4,
+  "portfolio_value_usd": 1331.99,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 10:58 UTC",
-      "action": "buy",
-      "details": "[LLM] $unicorn at $7.102e-06, spent 0.05 SOL",
-      "reason": "$unicorn has a viral X post (zukiweb3) tied to it at 0.6min old with $9.3k mcap — classic early attention launch, narrative is clean and broad-appeal."
-    },
     {
       "time": "2026-09-12 10:59 UTC",
       "action": "sell",
@@ -55587,40 +55576,46 @@
       "action": "buy",
       "details": "[LLM] $ROMAN at $3.562e-06, spent 0.05 SOL",
       "reason": "$ROMAN (Free Roman Storm) — 0.8min old, real crypto-native narrative (Roman Storm / Tornado Cash trial is an active community cause), explicit X attention signal from @sheluvsblnkr. Fresh attention on a legal/crypto cause is the kind of story that pumps. Risk: brand new, $3.5k mcap, will likely hit the +25%/-25% auto-thresholds fast — tight scalp."
+    },
+    {
+      "time": "2026-09-12 11:26 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ROMAN at $3.46729e-06 | P&L: -2.7%",
+      "reason": "Just entered 0.0h ago at -2.7% which is noise, not a loss signal. Bonding-curve pool $309 is thin but no reason to bail on a minutes-old position before it has time to develop."
     }
   ],
   "trade_stats": {
-    "total": 3228,
+    "total": 3229,
     "wins": 1502,
-    "losses": 1726,
+    "losses": 1727,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.793147,
-    "avg_pnl_pct": 28.92,
+    "total_pnl_sol": 8.791561,
+    "avg_pnl_pct": 28.91,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 155,
-    "today_realized_sol": 3.760051,
-    "today_target_pct": 940.0,
+    "today_trades": 156,
+    "today_realized_sol": 3.758465,
+    "today_target_pct": 939.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1502,
-      "loss_count": 1726,
+      "loss_count": 1727,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T11:24:36.793539+00:00",
+  "last_llm_brief_at": "2026-09-12T11:26:02.631771+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "GrpeCJ6b7TnKHiMQ5mcYGJL1dKdLnjLY1ejWCtypump": {
-      "price_usd": 1.2306162839694491e-05,
+    "5yqoYbmNHyprtzsexJ363xw2rEELgaM7FT3Dx9mfpump": {
+      "price_usd": 3.467285286854142e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3296.39254474354,
-      "volume_h24": 10277.91,
+      "liquidity_usd": 308.68927078400003,
+      "volume_h24": 6068.88,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 32.361992389
+      "real_sol_reserves": 3.01454366
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
