@@ -22606,3 +22606,6 @@
 ## [2026-09-12 06:14 UTC] buy | [LLM] $MEME at $5.274e-06, spent 0.05 SOL
 - **Reasoning:** $MEME ('In a world full of stocks') is the ultimate meta-narrative token — pure self-aware memecoin humor, posted by @Tuffdevonchain (1k+ follower CT account). Bond only 8%, mcap $3.3k, ultra-early. Memecoin meta-tokens historically pump on attention. High risk but high narrative clarity.
 
+## [2026-09-12 06:15 UTC] sell | [rapid-drop] $MEME crashed >15% in one tick | P&L: -43.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
