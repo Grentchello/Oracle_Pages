@@ -22462,3 +22462,6 @@
 ## [2026-09-12 04:59 UTC] buy | [LLM] $ButtPlug at $3.43e-06, spent 0.05 SOL
 - **Reasoning:** $ButtPlug has a classic edgy/viral memecoin name — crude humor spreads fast on X and crypto CT. Ultra-fresh at 0.7min with $3.4k mcap means genuine 10x room if attention catches. Risk: bond only 8% complete, low liquidity, high rug probability — but 0.05 SOL position size keeps risk bounded. Name clears political/celebrity fragility blocklist. Default bias is to take the trade on fresh attention launches.
 
+## [2026-09-12 05:00 UTC] sell | [FULL][LLM] $ButtPlug at $3.64589e-06 | P&L: +6.3%
+- **Reasoning:** Tiny pool ($399) with our 1% share means even modest selling will move the price against us. Up only 6.3% with no momentum signal, still on bonding curve, and we'd rather rotate capital into a fresh launch with more attention flow than babysit a thin microcap. Take the small green and redeploy.
+
