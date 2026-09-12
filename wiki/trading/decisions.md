@@ -22420,3 +22420,6 @@
 ## [2026-09-12 04:18 UTC] sell | [FULL][LLM] $Casino at $4.02407e-06 | P&L: +2.7%
 - **Reasoning:** Just entered at +2.7%, bonding curve, 0.0h held. No reason to bail yet — need15+ min to see if attention materializes. Will re-evaluate on staleness.
 
+## [2026-09-12 04:22 UTC] buy | [LLM] $POW at $3.44285e-06, spent 0.05 SOL
+- **Reasoning:** $POW 'Pepe of Wallstreet' is a strong narrative crossover (WSB + Pepe meta), passes viability gate (has twitter), bond only 8% complete means extreme risk but also extreme upside if it grabs attention. Position size 0.1 SOL respects the -25% hard cap. Will watch for 2x before considering exit.
+
