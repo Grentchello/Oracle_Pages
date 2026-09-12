@@ -22288,3 +22288,9 @@
 ## [2026-09-12 03:18 UTC] buy | [LLM] $Watching at $6.046e-06, spent 0.05 SOL
 - **Reasoning:** $Watching has the clearest viral attention signal of the batch: a specific KOL tweet (KankiAlpha status 2098611627927191937) attached to a 1.3min-old token at $7,989 mcap. Passes viability (twitter present) and fragility (no blocked keywords) gates. Risk: extremely thin liquidity at this mcap — size small (0.05 SOL) and plan to exit fast on any pump.
 
+## [2026-09-12 03:19 UTC] sell | [v8.7 TP +50% (full)] $Watching at $1.07541e-05 | P&L: +77.9%
+- **Reasoning:** Auto take-profit at +77.9%
+
+## [2026-09-12 03:19 UTC] buy | [LLM] $Bulljak at $9.3587e-06, spent 0.05 SOL
+- **Reasoning:** $Bulljak has the strongest attention signal of the slate — twitter presence, crude-name meme virality (this category pumps hard on X), and 31% bond completion showing real buyer flow. Mcap $9.3k is launch-phase where 5-10x happens in minutes if the meme catches. Narrative: absurdist humor token, exactly the kind of thing that trends.
+
