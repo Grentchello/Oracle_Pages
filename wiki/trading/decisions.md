@@ -22879,3 +22879,6 @@
 ## [2026-09-12 08:52 UTC] buy | [LLM] $ogcallers at $3.095e-06, spent 0.05 SOL
 - **Reasoning:** $ogcallers (Jamal Thinks / JT) — 'bid OGCALLERS' framing taps into the call-group / signal-service meta-narrative that's been hot (legacy callers, alpha groups, etc.). Has a named character, a pose ('thinks'), and a meta-comment on the call-game itself. Risks: mcap $3k, bond 4%, very early, viability gate borderline (description short, no twitter in listing), and 'callers' meta can rug hard. BUT the narrative has a real hook and 0.05 SOL risk is sized to learn. Take the trade.
 
+## [2026-09-12 08:54 UTC] sell | [FULL][LLM] $ogcallers at $3.12108e-06 | P&L: +0.8%
+- **Reasoning:** ogcallers is flat +0.8% after entry, bonding curve only $146 pool — our 4% share is meaningful but volume is dead. Tiny gain, no momentum, and I want capital free for the fresh $FLYCOIN launch which has actual narrative attention.
+
