@@ -22345,3 +22345,9 @@
 ## [2026-09-12 03:40 UTC] buy | [LLM] $Stockx at $3.29148e-06, spent 0.05 SOL
 - **Reasoning:** $Stockx has a concrete narrative ('Bloomberg on Solana' for stock trading), fresh launch (<2min), and very low mcap ($3.3k) — classic asymmetric attention setup. Bond only 6% complete means early entry; risk is thin liquidity if no one piles in, but the story angle is real and tradable.
 
+## [2026-09-12 03:41 UTC] sell | [FULL][LLM] $Stockx at $2.85517e-06 | P&L: -13.3%
+- **Reasoning:** $Stockx is -13.3% with pool=$0 (bonding curve only, no real liquidity depth) and held 0.0h. The 'our share=1084007802%' flag confirms I'm providing essentially all the exit-side liquidity — exiting now at a small loss beats getting trapped when someone else dumps and I can't exit at any price. Lock the -13%, free the slot.
+
+## [2026-09-12 03:41 UTC] buy | [LLM] $primed at $7.359e-06, spent 0.05 SOL
+- **Reasoning:** $primed has the strongest attention signal of the new launches — explicit twitter link from @honestdevvor (named account, not a search URL), narrative 'primed to send' reads as a viral-ready slogan, $9.4k mcap with 31% bonding curve progress. Memecoins are attention markets; a token literally called 'primed to send' with a real X post is exactly the entry thesis. Risk: thin liquidity, 1.3min old — size is already capped at 0.1 SOL.
+

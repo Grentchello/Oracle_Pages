@@ -1,27 +1,27 @@
 {
-  "balance_sol": 11.283162,
+  "balance_sol": 11.276522,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "75kA3fySKtumw4tcSQwjGdfk5NoZ6SpJghDyYFMipump": {
-      "symbol": "Stockx",
-      "name": "Stockx",
-      "amount": 1550853.8286134496,
-      "entry_price_usd": 3.2914771887714264e-06,
+    "8HtMR6A1G2dj7KGWU6gcpzXJvG4UBsw6uP9WfyHspump": {
+      "symbol": "primed",
+      "name": "primed to send",
+      "amount": 693844.2723196087,
+      "entry_price_usd": 7.359e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T03:40:09.737829+00:00",
-      "entry_usd_value": 5.1046000000000005,
-      "last_seen_price_usd": 3.2914771887714264e-06,
+      "entry_time": "2026-09-12T03:41:31.040426+00:00",
+      "entry_usd_value": 5.106000000000001,
+      "last_seen_price_usd": 7.359e-06,
       "entry_signals": {
-        "liquidity_usd": 4.08368e-07,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3277.192350483471,
-        "ath_market_cap_usd": 3687.139088467028,
+        "liquidity_usd": 2656.349481399,
+        "volume_24h_usd": 11477.51,
+        "market_cap_usd": 9379.218369477569,
+        "ath_market_cap_usd": 9389.787841753498,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 4e-09,
-        "description": "I’ve just launched the first \"Bloomberg\" on Solana. Open your own stock accounts and trade on the platform. The first fully operational stock market on Solana.",
-        "twitter": "https://x.com/Tarab_dev/status/2098617116702212603?s=20",
+        "real_sol_reserves": 26.012039575,
+        "description": "primed to send",
+        "twitter": "https://x.com/honestdevvor/status/2098617554365522382?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -52659,25 +52659,30 @@
       "pnl_pct": -55.84,
       "exit_reason": "LLM: sell_all — Down 11.7% with pool=$0 — effectively a dead position, no exit liquidity. Better to realize the small loss and free the slot than hope for a bounce th",
       "partial": false
+    },
+    {
+      "mint": "75kA3fySKtumw4tcSQwjGdfk5NoZ6SpJghDyYFMipump",
+      "symbol": "Stockx",
+      "name": "Stockx",
+      "amount_sold": 1550853.792846783,
+      "fraction_sold": 0.9999999769374355,
+      "entry_time": "2026-09-12T03:40:09.737829+00:00",
+      "exit_time": "2026-09-12T03:41:29.742862+00:00",
+      "entry_price_usd": 3.2914771887714264e-06,
+      "exit_price_usd": 2.8551724141737933e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.04336,
+      "pnl_sol": -0.00664,
+      "pnl_pct": -13.26,
+      "exit_reason": "LLM: sell_all — $Stockx is -13.3% with pool=$0 (bonding curve only, no real liquidity depth) and held 0.0h. The 'our share=1084007802%' flag confirms I'm providing es",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:40:09.737996+00:00",
+  "last_updated": "2026-09-12T03:41:31.040723+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.092,
-  "portfolio_value_usd": 1157.03,
+  "last_sol_price_usd": 102.12,
+  "portfolio_value_usd": 1156.66,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:18 UTC",
-      "action": "buy",
-      "details": "[LLM] $Watching at $6.046e-06, spent 0.05 SOL",
-      "reason": "$Watching has the clearest viral attention signal of the batch: a specific KOL tweet (KankiAlpha status 2098611627927191937) attached to a 1.3min-old token at $7,989 mcap. Passes viability (twitter present) and fragility (no blocked keywords) gates. Risk: extremely thin liquidity at this mcap — size small (0.05 SOL) and plan to exit fast on any pump."
-    },
-    {
-      "time": "2026-09-12 03:19 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $Watching at $1.07541e-05 | P&L: +77.9%",
-      "reason": "Auto take-profit at +77.9%"
-    },
     {
       "time": "2026-09-12 03:19 UTC",
       "action": "buy",
@@ -52785,30 +52790,54 @@
       "action": "buy",
       "details": "[LLM] $Stockx at $3.29148e-06, spent 0.05 SOL",
       "reason": "$Stockx has a concrete narrative ('Bloomberg on Solana' for stock trading), fresh launch (<2min), and very low mcap ($3.3k) — classic asymmetric attention setup. Bond only 6% complete means early entry; risk is thin liquidity if no one piles in, but the story angle is real and tradable."
+    },
+    {
+      "time": "2026-09-12 03:41 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Stockx at $2.85517e-06 | P&L: -13.3%",
+      "reason": "$Stockx is -13.3% with pool=$0 (bonding curve only, no real liquidity depth) and held 0.0h. The 'our share=1084007802%' flag confirms I'm providing essentially all the exit-side liquidity — exiting now at a small loss beats getting trapped when someone else dumps and I can't exit at any price. Lock the -13%, free the slot."
+    },
+    {
+      "time": "2026-09-12 03:41 UTC",
+      "action": "buy",
+      "details": "[LLM] $primed at $7.359e-06, spent 0.05 SOL",
+      "reason": "$primed has the strongest attention signal of the new launches — explicit twitter link from @honestdevvor (named account, not a search URL), narrative 'primed to send' reads as a viral-ready slogan, $9.4k mcap with 31% bonding curve progress. Memecoins are attention markets; a token literally called 'primed to send' with a real X post is exactly the entry thesis. Risk: thin liquidity, 1.3min old — size is already capped at 0.1 SOL."
     }
   ],
   "trade_stats": {
-    "total": 3096,
+    "total": 3097,
     "wins": 1441,
-    "losses": 1655,
+    "losses": 1656,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 7.116975,
-    "avg_pnl_pct": 29.07,
+    "total_pnl_sol": 7.110335,
+    "avg_pnl_pct": 29.06,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 23,
-    "today_realized_sol": 2.083879,
-    "today_target_pct": 521.0,
+    "today_trades": 24,
+    "today_realized_sol": 2.077239,
+    "today_target_pct": 519.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1441,
-      "loss_count": 1655,
+      "loss_count": 1656,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:40:08.398126+00:00",
+  "last_llm_brief_at": "2026-09-12T03:41:29.742708+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "75kA3fySKtumw4tcSQwjGdfk5NoZ6SpJghDyYFMipump": {
+      "price_usd": 2.8551724141737933e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4.0848000000000007e-07,
+      "volume_h24": 1079.74,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
