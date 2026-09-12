@@ -23356,3 +23356,6 @@
 ## [2026-09-12 13:49 UTC] buy | [LLM] $Tecchan at $3.26724e-06, spent 0.05 SOL
 - **Reasoning:** $Tecchan is the freshest launch (0.5min) with a clear Japanese mascot narrative (てっちゃん = casual nickname 'Tetsu-chan'). Discord-launched = community-driven not sniper-botted. Cultural mascot plays have strong attention-market precedent. Position size 0.05 SOL, tight TP at +25-50%.
 
+## [2026-09-12 13:51 UTC] sell | [PARTIAL][LLM] $Tecchan at $2.86068e-06 | P&L: -12.4%
+- **Reasoning:** Fresh entry (0.0h), -12.4% is normal noise, no stale/auto-exit trigger yet. 307% pool share is alarming but I just entered — give it 5-10 min to breathe. If it dumps to -25% the bot stops me; if it doesn't bounce by then I'll cut.
+

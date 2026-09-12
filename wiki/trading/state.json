@@ -1,5 +1,5 @@
 {
-  "balance_sol": 12.728124,
+  "balance_sol": 12.76834,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -7,13 +7,13 @@
       "symbol": "Tecchan",
       "name": "てっちゃん",
       "mint": "41G3okB78jdKYJkMQmwqt7xYzYuMH7CotrvEoYiVpump",
-      "amount": 1564317.034210073,
+      "amount": 127281.88470828795,
       "entry_price_usd": 3.2672405198099002e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.00406828928934348,
       "entry_time": "2026-09-12T13:49:39.581948+00:00",
       "entry_time_iso": "2026-09-12T13:49:39.581956+00:00",
       "entry_usd_value": 5.111000000000001,
-      "last_seen_price_usd": 3.2672405198099002e-06,
+      "last_seen_price_usd": 2.860683685070317e-06,
       "entry_liquidity_usd": 66.50154640278,
       "entry_pool_sol": 0.650572749,
       "entry_market_cap_usd": 3254.3473349565666,
@@ -56397,19 +56397,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.717578,
       "partial": false
+    },
+    {
+      "mint": "41G3okB78jdKYJkMQmwqt7xYzYuMH7CotrvEoYiVpump",
+      "symbol": "Tecchan",
+      "name": "てっちゃん",
+      "amount_sold": 1437035.1495017852,
+      "fraction_sold": 0.9186342142131304,
+      "entry_time": "2026-09-12T13:49:39.581948+00:00",
+      "entry_time_iso": "2026-09-12T13:49:39.581956+00:00",
+      "exit_time": "2026-09-12T13:51:01.187490+00:00",
+      "exit_time_iso": "2026-09-12T13:51:01.187494+00:00",
+      "entry_price_usd": 3.2672405198099002e-06,
+      "exit_price_usd": 2.860683685070317e-06,
+      "entry_sol_for_chunk": 0.045932,
+      "exit_sol_received": 0.040216,
+      "pnl_sol": -0.005715,
+      "pnl_pct": -12.44,
+      "exit_reason": "LLM: sell_all — Fresh entry (0.0h), -12.4% is normal noise, no stale/auto-exit trigger yet. 307% pool share is alarming but I just entered — give it 5-10 min to breat",
+      "entry_liquidity_usd": 66.5,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 0.6506,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 81.605558,
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-12T13:49:39.582129+00:00",
+  "last_updated": "2026-09-12T13:51:01.187705+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 102.22,
-  "portfolio_value_usd": 1306.18,
+  "portfolio_value_usd": 1305.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 13:12 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PokeFi at $1.48307e-05 | P&L: +2.9%",
-      "reason": "Only +2.9% after fresh entry, give it a few minutes to develop. Held 0.0h, well under stale thresholds. Not breaching any exit rules yet."
-    },
     {
       "time": "2026-09-12 13:14 UTC",
       "action": "buy",
@@ -56523,30 +56541,48 @@
       "action": "buy",
       "details": "[LLM] $Tecchan at $3.26724e-06, spent 0.05 SOL",
       "reason": "$Tecchan is the freshest launch (0.5min) with a clear Japanese mascot narrative (てっちゃん = casual nickname 'Tetsu-chan'). Discord-launched = community-driven not sniper-botted. Cultural mascot plays have strong attention-market precedent. Position size 0.05 SOL, tight TP at +25-50%."
+    },
+    {
+      "time": "2026-09-12 13:51 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Tecchan at $2.86068e-06 | P&L: -12.4%",
+      "reason": "Fresh entry (0.0h), -12.4% is normal noise, no stale/auto-exit trigger yet. 307% pool share is alarming but I just entered — give it 5-10 min to breathe. If it dumps to -25% the bot stops me; if it doesn't bounce by then I'll cut."
     }
   ],
   "trade_stats": {
-    "total": 3267,
+    "total": 3268,
     "wins": 1513,
-    "losses": 1754,
+    "losses": 1755,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.561936,
-    "avg_pnl_pct": 28.42,
+    "total_pnl_sol": 8.556221,
+    "avg_pnl_pct": 28.41,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 194,
-    "today_realized_sol": 3.52884,
-    "today_target_pct": 882.2,
+    "today_trades": 195,
+    "today_realized_sol": 3.523125,
+    "today_target_pct": 880.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1513,
-      "loss_count": 1754,
+      "loss_count": 1755,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T13:49:38.249058+00:00",
+  "last_llm_brief_at": "2026-09-12T13:51:01.187330+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "41G3okB78jdKYJkMQmwqt7xYzYuMH7CotrvEoYiVpump": {
+      "price_usd": 2.860683685070317e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.45645284396,
+      "volume_h24": 4341.83,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.014248218
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
