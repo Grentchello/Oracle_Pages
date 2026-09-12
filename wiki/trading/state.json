@@ -13,7 +13,7 @@
       "entry_time": "2026-09-12T13:04:51.281631+00:00",
       "entry_time_iso": "2026-09-12T13:04:51.281640+00:00",
       "entry_usd_value": 5.0995,
-      "last_seen_price_usd": 3.087e-06,
+      "last_seen_price_usd": 3.0595174018005643e-06,
       "entry_liquidity_usd": 132.41998882525,
       "entry_pool_sol": 1.298362475,
       "entry_market_cap_usd": 3106.0085188557728,
@@ -56063,17 +56063,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T13:04:51.281817+00:00",
+  "last_updated": "2026-09-12T13:06:09.294065+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.99,
-  "portfolio_value_usd": 1302.49,
+  "last_sol_price_usd": 102.55,
+  "portfolio_value_usd": 1309.61,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 12:16 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Hoodtard at $1.06609e-05 | P&L: +18.8%",
-      "reason": "Up 18.8% in under an hour on a fresh entry — lock in gains on half. Pool is thin ($2.8k) so any reversal will be brutal. Take profit on half, let the rest ride with the stop at -25%."
-    },
     {
       "time": "2026-09-12 12:18 UTC",
       "action": "sell",
@@ -56187,6 +56181,12 @@
       "action": "buy",
       "details": "[LLM] $Silver at $3.087e-06, spent 0.05 SOL",
       "reason": "Silver Ansem rides the celebrity-influencer meta — Ansem is a top CT memecoin voice and 'Silver' implies the next-tier version. Real X post from blknoiz06 gives a concrete attention signal. Sub-$5k mcap with early bond is the kind of asymmetric entry that pays off if it catches even a small wave. Risk: celebrity tokens are fragile (ME2F fragility); sized small (0.1 SOL) and will exit fast at +20% or -20%."
+    },
+    {
+      "time": "2026-09-12 13:06 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -56208,9 +56208,21 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T13:04:49.865838+00:00",
+  "last_llm_brief_at": "2026-09-12T13:06:09.293874+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8JubZCjyS2xWVTb3kbtERigqV6kvYxoWi6xjNk8Hpump": {
+      "price_usd": 3.0595174018005643e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 101.50652513854999,
+      "volume_h24": 164.08,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.989824721
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
