@@ -23998,3 +23998,6 @@
 ## [2026-09-12 20:16 UTC] buy | [LLM] $Mindshare at $3.607e-06, spent 0.05 SOL
 - **Reasoning:** $Mindshare has the clearest attention signal — named-account X post from himgajria, AI/crypto-narrative adjacent concept, $3.7k mcap with massive upside runway. 2% position size keeps risk bounded if it fails the viability gate or dumps.
 
+## [2026-09-12 20:17 UTC] sell | [FULL][LLM] $Mindshare at $3.58449e-06 | P&L: -0.6%
+- **Reasoning:** Just entered (0.0h held) at -0.6% — well within noise band and far from the -25% hard cap or the 30min stale exit. Pool is thin ($379) but name 'Mindshare' is narratively on-theme (attention markets). Give it at least one tick to develop a signal before exiting.
+
