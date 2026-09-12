@@ -23209,3 +23209,6 @@
 ## [2026-09-12 12:14 UTC] sell | [FULL][LLM] $LAUNCH at $3.09979e-06 | P&L: +0.5%
 - **Reasoning:** Just opened (+0.5%, 0.0h held), not stale yet, tiny pool so price hasn't moved meaningfully. Give it time to develop attention or hit the 30min staleness check. No reason to panic on a fresh entry.
 
+## [2026-09-12 12:15 UTC] buy | [LLM] $Hoodtard at $8.975e-06, spent 0.05 SOL
+- **Reasoning:** $Hoodtard has two live X accounts linked (Hoodtardpump status + SolHoodtard), 1.6min age at $7.6k mcap — fits the 'tard' archetype meme that's been pumping. Small position to test if the social accounts drive attention. Risk: no description substance, bond only 28%, could be abandoned quickly.
+
