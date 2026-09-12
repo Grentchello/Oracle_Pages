@@ -24067,3 +24067,6 @@
 ## [2026-09-12 20:49 UTC] sell | [FULL][LLM] $MRNA at $1.55893e-05 | P&L: -0.3%
 - **Reasoning:** Just opened (0.0h) and essentially flat at -0.3%. Bonding-curve token with $4092 pool is thin but typical for early stage. Not yet stale (under 15min), no clear exit signal. Give it time to develop.
 
+## [2026-09-12 21:03 UTC] buy | [LLM] $Doga at $2.84e-06, spent 0.05 SOL
+- **Reasoning:** Doga Cola is an absurdist dog+cola parody with irreverent framing ('send this shit') — exactly the humor style that goes viral on memecoin CT. Has a real twitter post backing it. Bond only 7% so very early entry. Risk: ultra-low mcap ($3.3k) means extreme volatility — but that's where the attention alpha is.
+
