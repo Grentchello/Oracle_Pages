@@ -1,37 +1,8 @@
 {
-  "balance_sol": 22.644002,
+  "balance_sol": 22.689764,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BMrMRSGxDJbRHJPiUVWUrF7GEEzKhpkVB3vKwtz4pump": {
-      "symbol": "PVP",
-      "name": "pvpcat",
-      "mint": "BMrMRSGxDJbRHJPiUVWUrF7GEEzKhpkVB3vKwtz4pump",
-      "amount": 3112.1026782694976,
-      "entry_price_usd": 0.001640112980731799,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T18:57:27.169302+00:00",
-      "entry_time_iso": "2026-09-12T18:57:27.169311+00:00",
-      "entry_usd_value": 5.1042000000000005,
-      "last_seen_price_usd": 0.001640112980731799,
-      "entry_liquidity_usd": 108318.99990146747,
-      "entry_pool_sol": 1061.077151184,
-      "entry_market_cap_usd": 4261.5782364625165,
-      "entry_signals": {
-        "liquidity_usd": 108318.99990146747,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 4261.5782364625165,
-        "ath_market_cap_usd": 6161.018891740946,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1061.077151184,
-        "description": "",
-        "twitter": "https://x.com/toly/status/2098848122915181013",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -58365,19 +58336,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.714377,
       "partial": false
+    },
+    {
+      "mint": "BMrMRSGxDJbRHJPiUVWUrF7GEEzKhpkVB3vKwtz4pump",
+      "symbol": "PVP",
+      "name": "pvpcat",
+      "amount_sold": 3112.1026782694976,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T18:57:27.169302+00:00",
+      "entry_time_iso": "2026-09-12T18:57:27.169311+00:00",
+      "exit_time": "2026-09-12T18:58:39.434344+00:00",
+      "exit_time_iso": "2026-09-12T18:58:39.434349+00:00",
+      "entry_price_usd": 0.001640112980731799,
+      "exit_price_usd": 0.001493534473705484,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.045762,
+      "pnl_sol": -0.004238,
+      "pnl_pct": -8.94,
+      "exit_reason": "LLM: sell_all — PVP only0.0h held and -8.9% (well above -25% hard cap, above -20% worry zone). New launch dip is normal noise on bonding curve. Give it a few minutes ",
+      "entry_liquidity_usd": 108319.0,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1061.0772,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 72.265061,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T18:57:27.169648+00:00",
+  "last_updated": "2026-09-12T18:58:39.434603+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.084,
-  "portfolio_value_usd": 2316.69,
+  "last_sol_price_usd": 101.57,
+  "portfolio_value_usd": 2304.6,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 18:19 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PEC at $0.000882132 | P&L: -7.1%",
-      "reason": "Only 0.0h held, -7.1% is well within tolerance and the bot's -25% hard stop is far away. No signal to exit a fresh position yet — give it time to develop."
-    },
     {
       "time": "2026-09-12 18:21 UTC",
       "action": "buy",
@@ -58491,40 +58480,46 @@
       "action": "buy",
       "details": "[LLM] $PVP at $0.00164011, spent 0.05 SOL",
       "reason": "$PVP (pvpcat) — ultra-fresh launch at ~$4.2k mcap with a Twitter link pointing to a real X post (toly/status/...). PvP/gaming/cat narrative has meme-coin legs; entering at sub-$5k mcap gives maximum attention-multiple exposure. Risk: brand new mint, bond only 6%, but that's where the alpha is."
+    },
+    {
+      "time": "2026-09-12 18:58 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PVP at $0.00149353 | P&L: -8.9%",
+      "reason": "PVP only0.0h held and -8.9% (well above -25% hard cap, above -20% worry zone). New launch dip is normal noise on bonding curve. Give it a few minutes to develop before cutting."
     }
   ],
   "trade_stats": {
-    "total": 3349,
+    "total": 3350,
     "wins": 1554,
-    "losses": 1795,
+    "losses": 1796,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 18.477816,
-    "avg_pnl_pct": 34.42,
+    "total_pnl_sol": 18.473578,
+    "avg_pnl_pct": 34.41,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 276,
-    "today_realized_sol": 13.44472,
-    "today_target_pct": 3361.2,
+    "today_trades": 277,
+    "today_realized_sol": 13.440482,
+    "today_target_pct": 3360.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1554,
-      "loss_count": 1795,
+      "loss_count": 1796,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T18:57:25.877530+00:00",
+  "last_llm_brief_at": "2026-09-12T18:58:39.434247+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "8tXK5Zk3pFwNxj5nDH384k5MkY8kUkwYrWSjfLPqpump": {
-      "price_usd": 0.00019475307293940575,
+    "BMrMRSGxDJbRHJPiUVWUrF7GEEzKhpkVB3vKwtz4pump": {
+      "price_usd": 0.001493534473705484,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 44026.48408347672,
-      "volume_h24": 1753.43,
+      "liquidity_usd": 36919.80765207917,
+      "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 431.27702758
+      "real_sol_reserves": 363.491263681
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

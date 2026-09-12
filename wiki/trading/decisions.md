@@ -23866,3 +23866,6 @@
 ## [2026-09-12 18:57 UTC] buy | [LLM] $PVP at $0.00164011, spent 0.05 SOL
 - **Reasoning:** $PVP (pvpcat) — ultra-fresh launch at ~$4.2k mcap with a Twitter link pointing to a real X post (toly/status/...). PvP/gaming/cat narrative has meme-coin legs; entering at sub-$5k mcap gives maximum attention-multiple exposure. Risk: brand new mint, bond only 6%, but that's where the alpha is.
 
+## [2026-09-12 18:58 UTC] sell | [FULL][LLM] $PVP at $0.00149353 | P&L: -8.9%
+- **Reasoning:** PVP only0.0h held and -8.9% (well above -25% hard cap, above -20% worry zone). New launch dip is normal noise on bonding curve. Give it a few minutes to develop before cutting.
+
