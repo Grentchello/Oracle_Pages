@@ -24469,3 +24469,6 @@
 ## [2026-09-12 23:56 UTC] sell | [FULL][LLM] $SCATGETTI at $0.000821643 | P&L: +0.1%
 - **Reasoning:** Just entered, flat at +0.1%, bonding curve at $5378 pool. No signal to exit yet — needs a few minutes to either develop momentum or go stale.
 
+## [2026-09-12 23:59 UTC] buy | [LLM] $WOWNEROCHAN at $4.32e-06, spent 0.05 SOL
+- **Reasoning:** Wownero-Chan — anthropomorphized cult meme (Wownero has a real OG community). Sub-1min launch, bond 23% (closest to graduation of the batch), Twitter signal present. Small position (0.05 SOL) to test the wave. Will exit fast if it doesn't pump within 15min.
+
