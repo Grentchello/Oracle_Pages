@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.39133,
+  "balance_sol": 27.416655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5Go72ACqQHoCY3RG6BjMqLun2ySunFD1cYKR3R5rpump": {
-      "symbol": "MALONE",
-      "name": "Malone",
-      "mint": "5Go72ACqQHoCY3RG6BjMqLun2ySunFD1cYKR3R5rpump",
-      "amount": 3157.0033306766154,
-      "entry_price_usd": 0.0016164221147357183,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T22:27:35.309610+00:00",
-      "entry_time_iso": "2026-09-12T22:27:35.309619+00:00",
-      "entry_usd_value": 5.1030500000000005,
-      "last_seen_price_usd": 0.0016164221147357183,
-      "entry_liquidity_usd": 78052.06258327782,
-      "entry_pool_sol": 764.758943997,
-      "entry_market_cap_usd": 8700.169258647356,
-      "entry_signals": {
-        "liquidity_usd": 78052.06258327782,
-        "volume_24h_usd": null,
-        "market_cap_usd": 8700.169258647356,
-        "ath_market_cap_usd": 10470.42923601744,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 764.758943997,
-        "description": "",
-        "twitter": "https://x.com/PragueBase/status/2098900787363451357",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59973,19 +59944,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 76.940554,
       "partial": false
+    },
+    {
+      "mint": "5Go72ACqQHoCY3RG6BjMqLun2ySunFD1cYKR3R5rpump",
+      "symbol": "MALONE",
+      "name": "Malone",
+      "amount_sold": 3157.0033306766154,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T22:27:35.309610+00:00",
+      "entry_time_iso": "2026-09-12T22:27:35.309619+00:00",
+      "exit_time": "2026-09-12T22:28:38.777424+00:00",
+      "exit_time_iso": "2026-09-12T22:28:38.777433+00:00",
+      "entry_price_usd": 0.0016164221147357183,
+      "exit_price_usd": 0.0008146998665960814,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.025325,
+      "pnl_sol": -0.024675,
+      "pnl_pct": -49.6,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 78052.06,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 764.7589,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.467835,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T22:27:35.309923+00:00",
+  "last_updated": "2026-09-12T22:28:55.361031+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.061,
-  "portfolio_value_usd": 2800.69,
+  "last_sol_price_usd": 101.56,
+  "portfolio_value_usd": 2784.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 21:57 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $CASHCOW at $0.00029335 | P&L: -2.2%",
-      "reason": "Just entered at -2.2%, normal micro-dip on a $77k pool bonding curve. No signal to exit yet — give it a few minutes to develop. Not stale, not deep loss."
-    },
     {
       "time": "2026-09-12 21:58 UTC",
       "action": "buy",
@@ -60099,30 +60088,48 @@
       "action": "buy",
       "details": "[LLM] $MALONE at $0.00161642, spent 0.05 SOL",
       "reason": "$MALONE has strong narrative potential — name evokes John Malone (media mogul), fresh launch with twitter signal from PragueBase. Sub-$10k mcap with attention catalyst fits the attention-market thesis."
+    },
+    {
+      "time": "2026-09-12 22:28 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $MALONE crashed >15% in one tick | P&L: -49.6%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3416,
+    "total": 3417,
     "wins": 1582,
-    "losses": 1834,
+    "losses": 1835,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 23.225169,
-    "avg_pnl_pct": 36.56,
+    "total_pnl_sol": 23.200494,
+    "avg_pnl_pct": 36.53,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 343,
-    "today_realized_sol": 18.192073,
-    "today_target_pct": 4548.0,
+    "today_trades": 344,
+    "today_realized_sol": 18.167398,
+    "today_target_pct": 4541.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1582,
-      "loss_count": 1834,
+      "loss_count": 1835,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T22:27:33.960663+00:00",
+  "last_llm_brief_at": "2026-09-12T22:28:54.248765+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5Go72ACqQHoCY3RG6BjMqLun2ySunFD1cYKR3R5rpump": {
+      "price_usd": 0.0008146998665960814,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2692.10205210852,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 26.507503467
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

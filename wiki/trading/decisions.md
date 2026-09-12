@@ -24265,3 +24265,6 @@
 ## [2026-09-12 22:27 UTC] buy | [LLM] $MALONE at $0.00161642, spent 0.05 SOL
 - **Reasoning:** $MALONE has strong narrative potential — name evokes John Malone (media mogul), fresh launch with twitter signal from PragueBase. Sub-$10k mcap with attention catalyst fits the attention-market thesis.
 
+## [2026-09-12 22:28 UTC] sell | [rapid-drop] $MALONE crashed >15% in one tick | P&L: -49.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
