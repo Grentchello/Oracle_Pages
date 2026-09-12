@@ -1,17 +1,17 @@
 {
-  "balance_sol": 11.289096,
+  "balance_sol": 11.33304,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "GRfzk34sMfbPctY2dgjtf7hZr86d2cgKKzd91EyLpump": {
       "symbol": "Normify",
       "name": "Normify",
-      "amount": 1580375.554168143,
+      "amount": 8739.185431155263,
       "entry_price_usd": 3.2166404919340743e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.0002764907811977413,
       "entry_time": "2026-09-12T03:36:04.340722+00:00",
       "entry_usd_value": 5.083500000000001,
-      "last_seen_price_usd": 3.2166404919340743e-06,
+      "last_seen_price_usd": 2.8413780541234337e-06,
       "entry_signals": {
         "liquidity_usd": 0.23187348216,
         "volume_24h_usd": null,
@@ -52625,19 +52625,30 @@
       "pnl_pct": -4.97,
       "exit_reason": "LLM: sell_all — Just entered at -5% with 0.0h held — too early to bail. No viral narrative visible but the loss is tiny and the auto-stop won't trigger until -25% or ",
       "partial": false
+    },
+    {
+      "mint": "GRfzk34sMfbPctY2dgjtf7hZr86d2cgKKzd91EyLpump",
+      "symbol": "Normify",
+      "name": "Normify",
+      "amount_sold": 1571636.3687369877,
+      "fraction_sold": 0.9944701843760452,
+      "entry_time": "2026-09-12T03:36:04.340722+00:00",
+      "exit_time": "2026-09-12T03:37:27.382007+00:00",
+      "entry_price_usd": 3.2166404919340743e-06,
+      "exit_price_usd": 2.8413780541234337e-06,
+      "entry_sol_for_chunk": 0.049724,
+      "exit_sol_received": 0.043944,
+      "pnl_sol": -0.005779,
+      "pnl_pct": -11.67,
+      "exit_reason": "LLM: sell_all — Down 11.7% and held 0.0h on bonding-curve with pool=$0 and our share=4521% — we're the entire liquidity. -25% hard stop is minutes away and there's no",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-12T03:36:04.341005+00:00",
+  "last_updated": "2026-09-12T03:37:27.382630+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.67,
-  "portfolio_value_usd": 1152.85,
+  "last_sol_price_usd": 101.62,
+  "portfolio_value_usd": 1151.69,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:16 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $HG crashed >15% in one tick | P&L: -21.6%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 03:16 UTC",
       "action": "buy",
@@ -52751,30 +52762,48 @@
       "action": "buy",
       "details": "[LLM] $Normify at $3.21664e-06, spent 0.05 SOL",
       "reason": "$Normify — clean name, dedicated X account (@normifyxyz), sub-$4k mcap, super fresh. The 'normie' / 'normalize' narrative has meme legs; even a 5x from here is +0.5 SOL. Viability: has twitter. Risk: only 6% bonded, will likely dump hard, but with -25% hard cap and 0.05 SOL size, R is contained."
+    },
+    {
+      "time": "2026-09-12 03:37 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $Normify at $2.84138e-06 | P&L: -11.7%",
+      "reason": "Down 11.7% and held 0.0h on bonding-curve with pool=$0 and our share=4521% — we're the entire liquidity. -25% hard stop is minutes away and there's no exit liquidity to sell into. Cut it now."
     }
   ],
   "trade_stats": {
-    "total": 3094,
+    "total": 3095,
     "wins": 1441,
-    "losses": 1653,
+    "losses": 1654,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 7.122908,
-    "avg_pnl_pct": 29.11,
+    "total_pnl_sol": 7.117129,
+    "avg_pnl_pct": 29.1,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 21,
-    "today_realized_sol": 2.089812,
-    "today_target_pct": 522.5,
+    "today_trades": 22,
+    "today_realized_sol": 2.084033,
+    "today_target_pct": 521.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1441,
-      "loss_count": 1653,
+      "loss_count": 1654,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:36:02.759114+00:00",
+  "last_llm_brief_at": "2026-09-12T03:37:27.381381+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GRfzk34sMfbPctY2dgjtf7hZr86d2cgKKzd91EyLpump": {
+      "price_usd": 2.8413780541234337e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.09932531878,
+      "volume_h24": 1226.44,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.000977419
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

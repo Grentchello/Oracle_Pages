@@ -22336,3 +22336,6 @@
 ## [2026-09-12 03:36 UTC] buy | [LLM] $Normify at $3.21664e-06, spent 0.05 SOL
 - **Reasoning:** $Normify — clean name, dedicated X account (@normifyxyz), sub-$4k mcap, super fresh. The 'normie' / 'normalize' narrative has meme legs; even a 5x from here is +0.5 SOL. Viability: has twitter. Risk: only 6% bonded, will likely dump hard, but with -25% hard cap and 0.05 SOL size, R is contained.
 
+## [2026-09-12 03:37 UTC] sell | [PARTIAL][LLM] $Normify at $2.84138e-06 | P&L: -11.7%
+- **Reasoning:** Down 11.7% and held 0.0h on bonding-curve with pool=$0 and our share=4521% — we're the entire liquidity. -25% hard stop is minutes away and there's no exit liquidity to sell into. Cut it now.
+
