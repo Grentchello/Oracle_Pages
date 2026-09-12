@@ -22411,3 +22411,9 @@
 ## [2026-09-12 04:15 UTC] buy | [LLM] $HTML at $9.851e-06, spent 0.05 SOL
 - **Reasoning:** $HTML pump +184% in 5min on 'Hope This Moons Later' narrative, 170 buys vs 102 sells (1.67 buy/sell ratio = real demand), mcap $9.8k with viral ticker story. Fits viability (twitter link present). High risk but right kind of attention play.
 
+## [2026-09-12 04:17 UTC] sell | [v8.7 TP +50% (full)] $HTML at $1.94505e-05 | P&L: +97.5%
+- **Reasoning:** Auto take-profit at +97.4%
+
+## [2026-09-12 04:17 UTC] buy | [LLM] $Casino at $3.919e-06, spent 0.05 SOL
+- **Reasoning:** Casino meta ties directly to the $DD blackjack launch minutes earlier — narrative reinforcement across two launches in the same meta is a real attention signal. Sub-$4k mcap with twitter present and viability gates passing. Risk: 12% bond is thin liquidity, and meta-correlation trades can collapse fast if either token rugs — sizing small and watching for early momentum.
+
