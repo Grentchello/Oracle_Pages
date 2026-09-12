@@ -24055,3 +24055,6 @@
 ## [2026-09-12 20:40 UTC] sell | [FULL][LLM] $poor at $0.000420231 | P&L: +16.3%
 - **Reasoning:** $poor is at +16.3% on a 0h-old position, below the +30% auto-TP trigger. Give it room to run toward the +30%/+100% tiers before exiting; selling now on a fresh memecoin entry locks in small gains before momentum plays out.
 
+## [2026-09-12 20:41 UTC] buy | [LLM] $midx at $3.19255e-06, spent 0.05 SOL
+- **Reasoning:** $midx (Mine Index) — has twitter (https://x.com/midxnet), mc $3.2k at 0.5min is essentially pre-launch, bond only 5%. 'Mine Index' reads like a real project name, not a one-off joke. Fresh attention, narrative of indexing mining, viability passes (twitter present). 0.1 SOL position — high risk but freshest launch with a real handle.
+
