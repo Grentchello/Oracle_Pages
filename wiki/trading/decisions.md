@@ -22258,3 +22258,6 @@
 ## [2026-09-12 03:00 UTC] buy | [LLM] $marcat at $4.738e-06, spent 0.05 SOL
 - **Reasoning:** $marcat is 1.2min old, $4k mcap, 14% bonded with a live Twitter signal. Smallest mcap + freshest narrative hook of the three = highest asymmetric upside. Risk: liquidity may be razor-thin, so position size discipline matters.
 
+## [2026-09-12 03:01 UTC] sell | [PARTIAL][LLM] $marcat at $5.33561e-06 | P&L: +12.6%
+- **Reasoning:** +12.6% gain on a $1124 pool bonding-curve cat coin — liquidity is razor-thin (only ~5x our position), so a reversal could wipe the gain fast. Locking half profit per the >15% 'take the trade' rule, letting the other half ride if the cat narrative catches more attention.
+

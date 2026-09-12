@@ -1,17 +1,17 @@
 {
-  "balance_sol": 11.365218,
+  "balance_sol": 11.393344,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "DTXuqDVREKU6NgdxZ911mK5VmcNofaVCu2CST5aTpump": {
       "symbol": "marcat",
       "name": "the marcat",
-      "amount": 1076846.7707893625,
+      "amount": 538423.3853946812,
       "entry_price_usd": 4.738e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-12T03:00:33.075850+00:00",
       "entry_usd_value": 5.1021,
-      "last_seen_price_usd": 4.738e-06,
+      "last_seen_price_usd": 5.335608780546606e-06,
       "entry_signals": {
         "liquidity_usd": 1021.8173383517941,
         "volume_24h_usd": 8058.95,
@@ -52404,19 +52404,30 @@
       "pnl_pct": 0.35,
       "exit_reason": "LLM: sell_all — $EGOD is flat (+0.3%) on a $1037 pool with 0% effective share — no momentum, no volume, no narrative signal. Per scalp discipline, break-even + nothin",
       "partial": false
+    },
+    {
+      "mint": "DTXuqDVREKU6NgdxZ911mK5VmcNofaVCu2CST5aTpump",
+      "symbol": "marcat",
+      "name": "the marcat",
+      "amount_sold": 538423.3853946812,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-12T03:00:33.075850+00:00",
+      "exit_time": "2026-09-12T03:01:51.927442+00:00",
+      "entry_price_usd": 4.738e-06,
+      "exit_price_usd": 5.335608780546606e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.028126,
+      "pnl_sol": 0.003126,
+      "pnl_pct": 12.61,
+      "exit_reason": "LLM: sell_half — +12.6% gain on a $1124 pool bonding-curve cat coin — liquidity is razor-thin (only ~5x our position), so a reversal could wipe the gain fast. Locking ",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-12T03:00:33.076110+00:00",
+  "last_updated": "2026-09-12T03:01:51.927741+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.042,
-  "portfolio_value_usd": 1164.83,
+  "last_sol_price_usd": 102.14,
+  "portfolio_value_usd": 1166.27,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 02:13 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 02:18 UTC",
       "action": "observe",
@@ -52530,40 +52541,46 @@
       "action": "buy",
       "details": "[LLM] $marcat at $4.738e-06, spent 0.05 SOL",
       "reason": "$marcat is 1.2min old, $4k mcap, 14% bonded with a live Twitter signal. Smallest mcap + freshest narrative hook of the three = highest asymmetric upside. Risk: liquidity may be razor-thin, so position size discipline matters."
+    },
+    {
+      "time": "2026-09-12 03:01 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $marcat at $5.33561e-06 | P&L: +12.6%",
+      "reason": "+12.6% gain on a $1124 pool bonding-curve cat coin — liquidity is razor-thin (only ~5x our position), so a reversal could wipe the gain fast. Locking half profit per the >15% 'take the trade' rule, letting the other half ride if the cat narrative catches more attention."
     }
   ],
   "trade_stats": {
-    "total": 3081,
-    "wins": 1437,
+    "total": 3082,
+    "wins": 1438,
     "losses": 1644,
-    "win_rate_pct": 46.6,
-    "total_pnl_sol": 7.19903,
+    "win_rate_pct": 46.7,
+    "total_pnl_sol": 7.202156,
     "avg_pnl_pct": 29.28,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 8,
-    "today_realized_sol": 2.165934,
-    "today_target_pct": 541.5,
+    "today_trades": 9,
+    "today_realized_sol": 2.16906,
+    "today_target_pct": 542.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1437,
+      "win_count": 1438,
       "loss_count": 1644,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:00:31.742274+00:00",
+  "last_llm_brief_at": "2026-09-12T03:01:51.927367+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "BZZxYUM9k1sfMpRRkNthCPFGPQHNCs63JKqiLSQ7pump": {
-      "price_usd": 0.00045519126917881376,
+    "DTXuqDVREKU6NgdxZ911mK5VmcNofaVCu2CST5aTpump": {
+      "price_usd": 5.335608780546606e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1036.731068900082,
-      "volume_h24": 0.0,
+      "liquidity_usd": 1124.22173761774,
+      "volume_h24": 9781.64,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 10.159846621
+      "real_sol_reserves": 11.006674541
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
