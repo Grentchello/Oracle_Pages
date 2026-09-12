@@ -23227,3 +23227,6 @@
 ## [2026-09-12 12:27 UTC] sell | [rapid-drop] $CATON crashed >15% in one tick | P&L: -64.2%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 12:35 UTC] buy | [LLM] $Stonkwars at $3.287e-06, spent 0.05 SOL
+- **Reasoning:** Animal-trading-competition + airdrop mechanic fits a known meme meta, has both Twitter and description (viability passes), and at $3k mcap there's room for early attention to compound. Risk: bond only 3% — liquidity is razor-thin and slippage will be high; treat as a fast scalp, exit if not up >10% within 15 min.
+
