@@ -23641,3 +23641,9 @@
 ## [2026-09-12 16:39 UTC] buy | [LLM] $LARA at $4.924e-06, spent 0.05 SOL
 - **Reasoning:** $LARA Project Lara — sonicdeployer X post, fresh0.5min launch, $3.2k mcap. Unknown narrative but Sonic deployer has been an active attention source; cheap entry at bonding6% lets ride the first wave if any traction hits.
 
+## [2026-09-12 16:40 UTC] sell | [rapid-drop] $LARA crashed >15% in one tick | P&L: -38.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 16:40 UTC] buy | [LLM] $golden  at $3.27356e-06, spent 0.05 SOL
+- **Reasoning:** $golden just launched ~54s ago at $3.2k mcap. Name has strong narrative power ('golden hands' = diamond hands culture). Ultra-fresh = max attention runway. Risk: bonding curve only 6% complete, GMGN fragility data not fetched, but viability gate passes (name+description present, liquidity nascent). Sized 0.05 SOL per v7 rules — small enough to survive the stop.
+
