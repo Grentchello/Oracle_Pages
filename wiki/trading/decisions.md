@@ -22525,3 +22525,6 @@
 ## [2026-09-12 05:30 UTC] buy | [LLM] $mmrich at $4.39399e-05, spent 0.05 SOL
 - **Reasoning:** $mmrich has the strongest narrative of the new batch — 'makemerich / i want to buy home' is the kind of relatable poverty-to-riches story that travels on X. $43.9k mcap with only 1% bond means we're catching it extremely early; small mcap + story = classic 5-10x attention setup. Risks: 1% bond means liquidity is paper-thin and rug risk is real, and no twitter link shown. Sizing 0.1 SOL.
 
+## [2026-09-12 05:31 UTC] sell | [FULL][LLM] $mmrich at $5.23502e-08 | P&L: -99.9%
+- **Reasoning:** Position showing -99.9% on bonding curve — token has effectively zero value. On-chain data confirms account exists but with no meaningful state. Exit immediately to free slot; the -25% hard stop should have triggered but if not, force-close now.
+

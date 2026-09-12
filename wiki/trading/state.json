@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.346707,
+  "balance_sol": 13.346767,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AauSuPC1qPdSBCZsb2V1Tz5Si7wkyQwGpbm2Hx7hpump": {
-      "symbol": "mmrich",
-      "name": "makemerich",
-      "amount": 115407.70707869306,
-      "entry_price_usd": 4.393987306707548e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T05:30:04.056829+00:00",
-      "entry_usd_value": 5.071000000000001,
-      "last_seen_price_usd": 4.393987306707548e-05,
-      "entry_signals": {
-        "liquidity_usd": 278.2341528461,
-        "volume_24h_usd": null,
-        "market_cap_usd": 43948.53799964639,
-        "ath_market_cap_usd": 64359.16740062554,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.743385455,
-        "description": "i want to buy home pls make it happen",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53169,19 +53145,30 @@
       "pnl_pct": 4.45,
       "exit_reason": "LLM: sell_all — $HYPED is +4.4% and just opened (0.0h). No stale/exit signal yet, and the cost of rotating out is a ~$0.20 swap with no meaningful gain locked. Give i",
       "partial": false
+    },
+    {
+      "mint": "AauSuPC1qPdSBCZsb2V1Tz5Si7wkyQwGpbm2Hx7hpump",
+      "symbol": "mmrich",
+      "name": "makemerich",
+      "amount_sold": 115407.70707869306,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T05:30:04.056829+00:00",
+      "exit_time": "2026-09-12T05:31:23.455518+00:00",
+      "entry_price_usd": 4.393987306707548e-05,
+      "exit_price_usd": 5.235019072962104e-08,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 6e-05,
+      "pnl_sol": -0.04994,
+      "pnl_pct": -99.88,
+      "exit_reason": "LLM: sell_all — Position showing -99.9% on bonding curve — token has effectively zero value. On-chain data confirms account exists but with no meaningful state. Exit ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T05:30:04.058587+00:00",
+  "last_updated": "2026-09-12T05:31:25.707305+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.42,
-  "portfolio_value_usd": 1358.69,
+  "portfolio_value_usd": 1353.63,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 05:01 UTC",
-      "action": "buy",
-      "details": "[LLM] $peach at $4.448e-06, spent 0.05 SOL",
-      "reason": "Freshest launch with attached twitter link from a real-looking account (herrdevs), $5.5k mcap, bond22% means curve still filling. Attention signal exists.0.1 SOL test entry to observe viability gate behavior and early price action. Risk: no liquidity depth, possible rug, may be a throwaway."
-    },
     {
       "time": "2026-09-12 05:02 UTC",
       "action": "sell",
@@ -53295,30 +53282,48 @@
       "action": "buy",
       "details": "[LLM] $mmrich at $4.39399e-05, spent 0.05 SOL",
       "reason": "$mmrich has the strongest narrative of the new batch — 'makemerich / i want to buy home' is the kind of relatable poverty-to-riches story that travels on X. $43.9k mcap with only 1% bond means we're catching it extremely early; small mcap + story = classic 5-10x attention setup. Risks: 1% bond means liquidity is paper-thin and rug risk is real, and no twitter link shown. Sizing 0.1 SOL."
+    },
+    {
+      "time": "2026-09-12 05:31 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $mmrich at $5.23502e-08 | P&L: -99.9%",
+      "reason": "Position showing -99.9% on bonding curve — token has effectively zero value. On-chain data confirms account exists but with no meaningful state. Exit immediately to free slot; the -25% hard stop should have triggered but if not, force-close now."
     }
   ],
   "trade_stats": {
-    "total": 3126,
+    "total": 3127,
     "wins": 1461,
-    "losses": 1665,
+    "losses": 1666,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 9.18052,
-    "avg_pnl_pct": 30.11,
+    "total_pnl_sol": 9.13058,
+    "avg_pnl_pct": 30.07,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 53,
-    "today_realized_sol": 4.147424,
-    "today_target_pct": 1036.9,
+    "today_trades": 54,
+    "today_realized_sol": 4.097484,
+    "today_target_pct": 1024.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1461,
-      "loss_count": 1665,
+      "loss_count": 1666,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:30:02.639516+00:00",
+  "last_llm_brief_at": "2026-09-12T05:31:23.454879+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "AauSuPC1qPdSBCZsb2V1Tz5Si7wkyQwGpbm2Hx7hpump": {
+      "price_usd": 5.235019072962104e-08,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 11.633508990620001,
+      "volume_h24": 4999.18,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.114706261
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
