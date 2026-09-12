@@ -23422,3 +23422,9 @@
 ## [2026-09-12 14:33 UTC] buy | [LLM] $$BDOG at $3.36495e-06, spent 0.05 SOL
 - **Reasoning:** $$BDOG (BUSINESS DOG) just launched 0.5 min ago at $3.3k mcap with 7% bond curve — extreme early-stage attention play. Dog-themed narrative is proven viral on Solana. Risk: ultra-low mcap means easy rug or instant dump, but -25% hard cap protects downside. Sized small (0.05 SOL) to test the new-launch attention strategy on a clean slate.
 
+## [2026-09-12 14:35 UTC] sell | [FULL][LLM] $$BDOG at $3.30822e-06 | P&L: -1.7%
+- **Reasoning:** BDOG flat at -1.7% after 0h, no momentum, weak pool ($236), no clear narrative — freeing slot for fresh $CRAB attention launch.
+
+## [2026-09-12 14:35 UTC] buy | [LLM] $CRAB at $4.722e-06, spent 0.05 SOL
+- **Reasoning:** $CRAB is 1 min old with twitter signal attached, pure early-attention play at $3.5k mcap — classic memecoin launch window. 0.05 SOL size per new rule, narrative is cute/brandable, risk is fresh launch but reward is asymmetric if it catches a wave.
+
