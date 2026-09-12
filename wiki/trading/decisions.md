@@ -22783,3 +22783,6 @@
 ## [2026-09-12 07:47 UTC] buy | [LLM] $MEGACAT at $1.046e-05, spent 0.05 SOL
 - **Reasoning:** $MEGACAT at $6.4k mcap, <2min old, with an active creator posting on X right now — classic fresh-attention asymmetric setup. Sub-$10k mcap + real human narrative = the kind of token that can 10x in the first hour if attention catches.
 
+## [2026-09-12 07:48 UTC] sell | [FULL][LLM] $MEGACAT at $1.16429e-05 | P&L: +11.3%
+- **Reasoning:** Up11.3% on a fresh 0h entry, still on bonding curve with bonding completing. No reason to exit a green position this early — let it run toward the +30% TP or show signs of stalling.
+
