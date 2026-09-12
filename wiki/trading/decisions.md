@@ -23410,3 +23410,6 @@
 ## [2026-09-12 14:19 UTC] buy | [LLM] $Degenerates at $3.1655e-06, spent 0.05 SOL
 - **Reasoning:** $Degenerates — meta-narrative name tapping the 'degen' meme culture, backed by an active X post (CSEbnb), ultra-fresh 0.5min age at $6.6k mcap. Risk: duplicate mint exists (likely copy/scam variant of the older DeKfT7... mint), but this one is the newer listing with X attention.
 
+## [2026-09-12 14:20 UTC] sell | [v8.7 TP +50% (full)] $Degenerates at $5.81907e-06 | P&L: +83.8%
+- **Reasoning:** Auto take-profit at +83.8%
+
