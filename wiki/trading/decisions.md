@@ -23683,3 +23683,9 @@
 ## [2026-09-12 17:02 UTC] buy | [LLM] $PUMPING at $0.000121458, spent 0.05 SOL
 - **Reasoning:** Passes v8.2 fragility gate (no political/celebrity keywords). Viability gate: short desc but real twitter attached — leans PASS. Self-aware meta-narrative ('PUMP + DUPING = PUMPING') with a launch X post at 0.6min is an attention signal. $4.4k mcap is ultra-thin and GMGN fragility data is unavailable due to Cloudflare block, so whale/rug risk is unverified — accept that risk, size 0.05 SOL, hard stop at -25%.
 
+## [2026-09-12 17:03 UTC] sell | [FULL][LLM] $PUMPING at $0.000121276 | P&L: -0.1%
+- **Reasoning:** Just entered, flat at -0.1%, pool $13k,0% share, no momentum signal after the buy. Bonding-curve entry with no volume follow-through = stale capital. Rotating into fresher attention.
+
+## [2026-09-12 17:03 UTC] buy | [LLM] $HODL at $6.721e-06, spent 0.05 SOL
+- **Reasoning:** $HODL is meta-narrative gold — literally the most iconic crypto meme word, posted by Quant0xfc within first 30s. 20% bonded (not abandoned), $6k mcap gives10x+ room. Risk: brand new, thin liquidity, narrative could fade fast — that's why we're in at 0.05 SOL not 0.5.
+

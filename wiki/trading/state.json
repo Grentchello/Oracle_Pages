@@ -3,30 +3,30 @@
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "3De2fqk819rESptvG9H5xuEP9BZy4FprQUR8KrXLpump": {
-      "symbol": "PUMPING",
-      "name": "pumping",
-      "mint": "3De2fqk819rESptvG9H5xuEP9BZy4FprQUR8KrXLpump",
-      "amount": 42019.70871569001,
-      "entry_price_usd": 0.00012145848117443792,
+    "3Z4vZ9XJhKStowP2r14q4a6M7wmRKrTnWAKaWHuZpump": {
+      "symbol": "HODL",
+      "name": "HODL",
+      "mint": "3Z4vZ9XJhKStowP2r14q4a6M7wmRKrTnWAKaWHuZpump",
+      "amount": 758220.502901354,
+      "entry_price_usd": 6.721e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T17:02:01.159971+00:00",
-      "entry_time_iso": "2026-09-12T17:02:01.159981+00:00",
-      "entry_usd_value": 5.10365,
-      "last_seen_price_usd": 0.00012145848117443792,
-      "entry_liquidity_usd": 13346.715021745216,
-      "entry_pool_sol": 130.756566592,
-      "entry_market_cap_usd": 4384.428170231658,
+      "entry_time": "2026-09-12T17:03:21.943899+00:00",
+      "entry_time_iso": "2026-09-12T17:03:21.943906+00:00",
+      "entry_usd_value": 5.096,
+      "last_seen_price_usd": 6.721e-06,
+      "entry_liquidity_usd": 33256.092322908,
+      "entry_pool_sol": 326.296039275,
+      "entry_market_cap_usd": 6039.330727415663,
       "entry_signals": {
-        "liquidity_usd": 13346.715021745216,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 4384.428170231658,
-        "ath_market_cap_usd": 4384.428170231658,
+        "liquidity_usd": 33256.092322908,
+        "volume_24h_usd": 2210.44,
+        "market_cap_usd": 6039.330727415663,
+        "ath_market_cap_usd": 7340.88000975773,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 130.756566592,
-        "description": "PUMP + DUPING = PUMPING",
-        "twitter": "https://x.com/qchampweb3/status/2098819042307932273",
+        "real_sol_reserves": 326.296039275,
+        "description": "",
+        "twitter": "https://x.com/Quant0xfc/status/2098818680209715440?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -57717,25 +57717,37 @@
       "exit_pool_sol": 11.222,
       "hold_duration_seconds": 63.965018,
       "partial": false
+    },
+    {
+      "mint": "3De2fqk819rESptvG9H5xuEP9BZy4FprQUR8KrXLpump",
+      "symbol": "PUMPING",
+      "name": "pumping",
+      "amount_sold": 42019.70871569001,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T17:02:01.159971+00:00",
+      "entry_time_iso": "2026-09-12T17:02:01.159981+00:00",
+      "exit_time": "2026-09-12T17:03:20.532560+00:00",
+      "exit_time_iso": "2026-09-12T17:03:20.532564+00:00",
+      "entry_price_usd": 0.00012145848117443792,
+      "exit_price_usd": 0.00012127642374867707,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.15,
+      "exit_reason": "LLM: sell_all — Just entered, flat at -0.1%, pool $13k,0% share, no momentum signal after the buy. Bonding-curve entry with no volume follow-through = stale capital. ",
+      "entry_liquidity_usd": 13346.72,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 130.7566,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 79.372606,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T17:02:01.160262+00:00",
+  "last_updated": "2026-09-12T17:03:21.944068+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.073,
-  "portfolio_value_usd": 1717.95,
+  "last_sol_price_usd": 101.92,
+  "portfolio_value_usd": 1715.38,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 16:34 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-12 16:35 UTC",
-      "action": "buy",
-      "details": "[LLM] $PUMPCAT at $4.878e-06, spent 0.05 SOL",
-      "reason": "$PUMPCAT — meta-narrative on pump.fun itself ('the cat that refuses to dump', 'every time you pet it, chart goes up') is perfect attention bait for the platform. Has X presence, 1.2min old, $4.8k mcap = max upside window. Bond 19% shows real buys. Viability gate passes (desc ≥50 chars, twitter present). Risk: pure meta-joke, no utility, but for memecoins that's the point."
-    },
     {
       "time": "2026-09-12 16:36 UTC",
       "action": "sell",
@@ -57843,30 +57855,54 @@
       "action": "buy",
       "details": "[LLM] $PUMPING at $0.000121458, spent 0.05 SOL",
       "reason": "Passes v8.2 fragility gate (no political/celebrity keywords). Viability gate: short desc but real twitter attached — leans PASS. Self-aware meta-narrative ('PUMP + DUPING = PUMPING') with a launch X post at 0.6min is an attention signal. $4.4k mcap is ultra-thin and GMGN fragility data is unavailable due to Cloudflare block, so whale/rug risk is unverified — accept that risk, size 0.05 SOL, hard stop at -25%."
+    },
+    {
+      "time": "2026-09-12 17:03 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PUMPING at $0.000121276 | P&L: -0.1%",
+      "reason": "Just entered, flat at -0.1%, pool $13k,0% share, no momentum signal after the buy. Bonding-curve entry with no volume follow-through = stale capital. Rotating into fresher attention."
+    },
+    {
+      "time": "2026-09-12 17:03 UTC",
+      "action": "buy",
+      "details": "[LLM] $HODL at $6.721e-06, spent 0.05 SOL",
+      "reason": "$HODL is meta-narrative gold — literally the most iconic crypto meme word, posted by Quant0xfc within first 30s. 20% bonded (not abandoned), $6k mcap gives10x+ room. Risk: brand new, thin liquidity, narrative could fade fast — that's why we're in at 0.05 SOL not 0.5."
     }
   ],
   "trade_stats": {
-    "total": 3322,
+    "total": 3323,
     "wins": 1536,
-    "losses": 1786,
+    "losses": 1787,
     "win_rate_pct": 46.2,
     "total_pnl_sol": 12.614436,
-    "avg_pnl_pct": 31.13,
+    "avg_pnl_pct": 31.12,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 249,
+    "today_trades": 250,
     "today_realized_sol": 7.58134,
     "today_target_pct": 1895.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1536,
-      "loss_count": 1786,
+      "loss_count": 1787,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T17:01:59.467474+00:00",
+  "last_llm_brief_at": "2026-09-12T17:03:20.532514+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3De2fqk819rESptvG9H5xuEP9BZy4FprQUR8KrXLpump": {
+      "price_usd": 0.00012127642374867707,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 13326.709267056642,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 130.756566592
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
