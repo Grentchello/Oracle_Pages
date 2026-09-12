@@ -23950,3 +23950,6 @@
 ## [2026-09-12 19:44 UTC] buy | [LLM] $stockdog at $1.04671e-05, spent 0.05 SOL
 - **Reasoning:** $stockdog: $10.5k mcap, 0.6min old, 32% bonded = real SOL flowing in. Has a live twitter link (kuantkid status post) — attention signal present. Passes viability (twitter check). Not on fragility blocklist. Name is vague but new-strategy mandate is to take the trade and learn, not skip everything.
 
+## [2026-09-12 19:46 UTC] sell | [rapid-drop] $stockdog crashed >15% in one tick | P&L: -53.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

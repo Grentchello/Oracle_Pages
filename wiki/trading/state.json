@@ -1,37 +1,8 @@
 {
-  "balance_sol": 22.783965,
+  "balance_sol": 22.806894,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7NCaKRCkFk4xdzZiyFLbze7aWa1ozU5MDF1z1ysbpump": {
-      "symbol": "stockdog",
-      "name": "stockdog",
-      "mint": "7NCaKRCkFk4xdzZiyFLbze7aWa1ozU5MDF1z1ysbpump",
-      "amount": 483851.4407952506,
-      "entry_price_usd": 1.0467055738588002e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T19:44:57.567333+00:00",
-      "entry_time_iso": "2026-09-12T19:44:57.567341+00:00",
-      "entry_usd_value": 5.064500000000001,
-      "last_seen_price_usd": 1.0467055738588002e-05,
-      "entry_liquidity_usd": 3209.9156532964503,
-      "entry_pool_sol": 31.690351005,
-      "entry_market_cap_usd": 10474.559678317999,
-      "entry_signals": {
-        "liquidity_usd": 3209.9156532964503,
-        "volume_24h_usd": null,
-        "market_cap_usd": 10474.559678317999,
-        "ath_market_cap_usd": 13161.345681305884,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 31.690351005,
-        "description": "",
-        "twitter": "https://x.com/kuantkid/status/2098860173012210080?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -58677,19 +58648,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 81.988164,
       "partial": false
+    },
+    {
+      "mint": "7NCaKRCkFk4xdzZiyFLbze7aWa1ozU5MDF1z1ysbpump",
+      "symbol": "stockdog",
+      "name": "stockdog",
+      "amount_sold": 483851.4407952506,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T19:44:57.567333+00:00",
+      "entry_time_iso": "2026-09-12T19:44:57.567341+00:00",
+      "exit_time": "2026-09-12T19:46:01.159099+00:00",
+      "exit_time_iso": "2026-09-12T19:46:01.159109+00:00",
+      "entry_price_usd": 1.0467055738588002e-05,
+      "exit_price_usd": 4.82503325845348e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.022929,
+      "pnl_sol": -0.027071,
+      "pnl_pct": -53.9,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 3209.92,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 31.6904,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.591789,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T19:44:57.567567+00:00",
+  "last_updated": "2026-09-12T19:46:11.482728+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.29,
-  "portfolio_value_usd": 2312.85,
+  "last_sol_price_usd": 101.82,
+  "portfolio_value_usd": 2322.2,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 19:15 UTC",
-      "action": "buy",
-      "details": "[LLM] $BINGUS at $9.02782e-05, spent 0.05 SOL",
-      "reason": "Bingus is a recognizable meme cat (green chair viral image) with a Twitter link attached — real narrative, not random letters. Sub-$5k mcap at<1min old is the fresh-attention window where memecoins pump50-300%. 0.05 SOL risk is small; let it ride."
-    },
     {
       "time": "2026-09-12 19:16 UTC",
       "action": "sell",
@@ -58803,40 +58792,46 @@
       "action": "buy",
       "details": "[LLM] $stockdog at $1.04671e-05, spent 0.05 SOL",
       "reason": "$stockdog: $10.5k mcap, 0.6min old, 32% bonded = real SOL flowing in. Has a live twitter link (kuantkid status post) — attention signal present. Passes viability (twitter check). Not on fragility blocklist. Name is vague but new-strategy mandate is to take the trade and learn, not skip everything."
+    },
+    {
+      "time": "2026-09-12 19:46 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $stockdog crashed >15% in one tick | P&L: -53.9%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3362,
+    "total": 3363,
     "wins": 1557,
-    "losses": 1805,
+    "losses": 1806,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 18.617779,
-    "avg_pnl_pct": 34.37,
+    "total_pnl_sol": 18.590708,
+    "avg_pnl_pct": 34.35,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 289,
-    "today_realized_sol": 13.584683,
-    "today_target_pct": 3396.2,
+    "today_trades": 290,
+    "today_realized_sol": 13.557612,
+    "today_target_pct": 3389.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1557,
-      "loss_count": 1805,
+      "loss_count": 1806,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T19:44:56.237983+00:00",
+  "last_llm_brief_at": "2026-09-12T19:46:11.482695+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "Gexob8xY2xRjy7yPvCUmWMJ1Q2RNavBiJ93Ln6dpump": {
-      "price_usd": 6.046589006488033e-06,
+    "7NCaKRCkFk4xdzZiyFLbze7aWa1ozU5MDF1z1ysbpump": {
+      "price_usd": 4.82503325845348e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 616.2684741682,
-      "volume_h24": 0.0,
+      "liquidity_usd": 922.13994395976,
+      "volume_h24": 22967.33,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 6.08419858
+      "real_sol_reserves": 9.056569868
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
