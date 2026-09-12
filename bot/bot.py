@@ -595,36 +595,35 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         log(f"v8.8: filtered {filtered_count}/{pre_filter_count} candidates (already pumped)")
     candidates = candidates_filtered  # FIX: persist v8.8 filter
     
-    # v9.0 LIQUIDITY FLOOR: Skip tokens with no real liquidity (bonding curve only or tiny pools)
-    # Without this, bot is buying tokens with $0-$100 pool liquidity and "selling" to itself.
-    # Paper profits on tiny pools evaporate in real markets.
+    # v9.1 LIQUIDITY FLOOR: Allow bonding curve, but require real_sol_reserves >= 5 SOL (~$525)
+    # This means token has at least 5 SOL of real buys on the curve.
+    # If we buy 0.05 SOL, our share is <1% of curve - low slippage on exit.
+    # Without this, bot is buying tokens with $0 liquidity and "selling" to itself.
     liq_filtered = 0
     candidates_liq = []
     for c in candidates:
-        # Skip if bonding curve token (no DEX liquidity yet)
+        # Check real_sol_reserves from pump.fun data (most reliable liquidity indicator)
+        real_sol = _to_float(c.get("real_sol_reserves", 0)) or 0
         is_bonding = c.get("complete", True) is False or c.get("bonding_progress", 100) < 100
+        
+        # If bonding curve: require >=5 SOL of real reserves (~$525)
         if is_bonding:
-            liq_filtered += 1
-            log(f"v9.0 BONDING-CURVE FILTER: ${c.get('symbol')} rejected — bonding curve only, no DEX liquidity (bond={c.get('bonding_progress', 0):.0f}%)")
-            continue
-        # Skip if pool liquidity < $5k (can't exit without massive slippage)
-        liq = c.get("liquidity_usd", 0) or 0
-        if liq < 5000:
-            liq_filtered += 1
-            log(f"v9.0 LIQUIDITY FILTER: ${c.get('symbol')} rejected — pool ${liq:.0f} < $5k floor")
-            continue
-        # Position size check: bot position must be <1% of pool (avoid owning the pool)
-        # Position = POSITION_SIZE_SOL * sol_price = 0.05 * ~$105 = ~$5.25
-        # Need pool > $525 for our position to be <1%
-        pos_usd = 0.05 * 105  # approximate SOL price
-        if liq < pos_usd * 100:  # need 100x position size as pool
-            liq_filtered += 1
-            log(f"v9.0 POSITION-SIZE FILTER: ${c.get('symbol')} rejected — our $5.25 would be {pos_usd/liq*100:.1f}% of ${liq:.0f} pool")
-            continue
+            if real_sol < 5.0:
+                liq_filtered += 1
+                log(f"v9.1 FILTER: ${c.get('symbol')} rejected — bonding curve only {real_sol:.2f} SOL reserves")
+                continue
+            # OK: bonding curve with enough real SOL
+        else:
+            # DEX pool: require $1k liquidity (lower than v9.0 since DEX is real liquidity)
+            liq = _to_float(c.get("liquidity_usd", 0)) or 0
+            if liq < 1000:
+                liq_filtered += 1
+                log(f"v9.1 FILTER: ${c.get('symbol')} rejected — DEX pool ${liq:.0f} < $1k floor")
+                continue
         candidates_liq.append(c)
     if liq_filtered > 0:
-        log(f"v9.0: filtered {liq_filtered}/{pre_filter_count} candidates (illiquid/bonding-curve)")
-    candidates = candidates_liq  # FIX: persist v9.0 filter
+        log(f"v9.1: filtered {liq_filtered}/{pre_filter_count} candidates (insufficient liquidity)")
+    candidates = candidates_liq  # FIX: persist v9.1 filter
     
     # v8.9 AGE FILTER: Skip tokens less than 1 min old (still in initial pump/dump phase)
     # Data shows most rapid-drop losses are tokens that just launched
