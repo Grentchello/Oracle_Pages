@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.939699,
+  "balance_sol": 12.988154,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3jdq9zCzeZ2htsDc28zQU1qMFV4DaxvSt32kkKT6pump": {
-      "symbol": "RUNNET",
-      "name": "Runnet CPU",
-      "mint": "3jdq9zCzeZ2htsDc28zQU1qMFV4DaxvSt32kkKT6pump",
-      "amount": 1566503.2178976403,
-      "entry_price_usd": 3.263e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T11:06:29.302550+00:00",
-      "entry_time_iso": "2026-09-12T11:06:29.302560+00:00",
-      "entry_usd_value": 5.1115,
-      "last_seen_price_usd": 3.263e-06,
-      "entry_liquidity_usd": 322.81685774128005,
-      "entry_pool_sol": 3.157750736,
-      "entry_market_cap_usd": 3487.3439271495827,
-      "entry_signals": {
-        "liquidity_usd": 322.81685774128005,
-        "volume_24h_usd": 211.64,
-        "market_cap_usd": 3487.3439271495827,
-        "ath_market_cap_usd": 3489.093537609097,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.157750736,
-        "description": "Runnet CPU is an 8-bit processor built from NAND gates.",
-        "twitter": "https://x.com/RunnetCPU",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55293,19 +55264,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 83.206655,
       "partial": false
+    },
+    {
+      "mint": "3jdq9zCzeZ2htsDc28zQU1qMFV4DaxvSt32kkKT6pump",
+      "symbol": "RUNNET",
+      "name": "Runnet CPU",
+      "amount_sold": 1566503.2178976403,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T11:06:29.302550+00:00",
+      "entry_time_iso": "2026-09-12T11:06:29.302560+00:00",
+      "exit_time": "2026-09-12T11:07:44.461958+00:00",
+      "exit_time_iso": "2026-09-12T11:07:44.461963+00:00",
+      "entry_price_usd": 3.263e-06,
+      "exit_price_usd": 3.1485339299754213e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.048455,
+      "pnl_sol": -0.001545,
+      "pnl_pct": -3.51,
+      "exit_reason": "LLM: sell_all — $RUNNET just entered, down only -3.5%, age 0h. Stale rules don't apply yet (need30min held). Give the position room to develop before cutting.",
+      "entry_liquidity_usd": 322.82,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.1578,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 75.159425,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T11:06:29.302832+00:00",
+  "last_updated": "2026-09-12T11:07:45.483819+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.23,
-  "portfolio_value_usd": 1327.94,
+  "last_sol_price_usd": 101.79,
+  "portfolio_value_usd": 1322.06,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 10:26 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $MICRODOG crashed >15% in one tick | P&L: -45.4%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 10:28 UTC",
       "action": "buy",
@@ -55419,30 +55408,48 @@
       "action": "buy",
       "details": "[LLM] $RUNNET at $3.263e-06, spent 0.05 SOL",
       "reason": "Passes viability gate. '8-bit processor from NAND gates' is a strong nerd/tech narrative — these tokens have cultural hooks (CPU/GPU memes). Bond only 9% so early, but real technical story + twitter presence gives it an attention edge over the other two vague launches."
+    },
+    {
+      "time": "2026-09-12 11:07 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $RUNNET at $3.14853e-06 | P&L: -3.5%",
+      "reason": "$RUNNET just entered, down only -3.5%, age 0h. Stale rules don't apply yet (need30min held). Give the position room to develop before cutting."
     }
   ],
   "trade_stats": {
-    "total": 3221,
+    "total": 3222,
     "wins": 1498,
-    "losses": 1723,
+    "losses": 1724,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.773511,
-    "avg_pnl_pct": 28.96,
+    "total_pnl_sol": 8.771966,
+    "avg_pnl_pct": 28.95,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 148,
-    "today_realized_sol": 3.740415,
-    "today_target_pct": 935.1,
+    "today_trades": 149,
+    "today_realized_sol": 3.73887,
+    "today_target_pct": 934.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1498,
-      "loss_count": 1723,
+      "loss_count": 1724,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T11:06:27.956957+00:00",
+  "last_llm_brief_at": "2026-09-12T11:07:44.461856+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3jdq9zCzeZ2htsDc28zQU1qMFV4DaxvSt32kkKT6pump": {
+      "price_usd": 3.1485339299754213e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 158.2385992902,
+      "volume_h24": 418.01,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.55455938
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

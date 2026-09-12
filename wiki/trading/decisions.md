@@ -23083,3 +23083,6 @@
 ## [2026-09-12 11:06 UTC] buy | [LLM] $RUNNET at $3.263e-06, spent 0.05 SOL
 - **Reasoning:** Passes viability gate. '8-bit processor from NAND gates' is a strong nerd/tech narrative — these tokens have cultural hooks (CPU/GPU memes). Bond only 9% so early, but real technical story + twitter presence gives it an attention edge over the other two vague launches.
 
+## [2026-09-12 11:07 UTC] sell | [FULL][LLM] $RUNNET at $3.14853e-06 | P&L: -3.5%
+- **Reasoning:** $RUNNET just entered, down only -3.5%, age 0h. Stale rules don't apply yet (need30min held). Give the position room to develop before cutting.
+
