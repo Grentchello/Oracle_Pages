@@ -22708,3 +22708,9 @@
 ## [2026-09-12 07:08 UTC] sell | [PARTIAL][LLM] $Fries at $8.02146e-06 | P&L: +24.7%
 - **Reasoning:** +$24.7% within minutes of entry on a brand new position — classic early pump. Take half off the table to lock gains and let the rest ride. Pool only $2k so remaining half is small risk.
 
+## [2026-09-12 07:09 UTC] sell | [rapid-drop] $Fries crashed >15% in one tick | P&L: -45.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 07:09 UTC] buy | [LLM] $MIRO at $0.00167556, spent 0.05 SOL
+- **Reasoning:** $MIRO has the strongest attention signal of the batch — Twitter link present, bond 32% complete (highest in set, indicating real traction), only 2min old. Thin standalone narrative but the X presence + early bonding curve momentum is the entry trigger. Position 0.1 SOL, tight stop.
+
