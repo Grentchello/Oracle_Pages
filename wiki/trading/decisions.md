@@ -24052,3 +24052,6 @@
 ## [2026-09-12 20:38 UTC] buy | [LLM] $poor at $0.000361411, spent 0.05 SOL
 - **Reasoning:** $poor (stop being poor) is the clearest attention play in this batch: Clowntrenches is a known memecoin X account driving the launch, the 'stop being poor' narrative is broadly relatable and viral-friendly, and at $13.6k mcap with bonding 33% there's real early traction but room to run 5-10x. Viability check passes (has twitter).
 
+## [2026-09-12 20:40 UTC] sell | [FULL][LLM] $poor at $0.000420231 | P&L: +16.3%
+- **Reasoning:** $poor is at +16.3% on a 0h-old position, below the +30% auto-TP trigger. Give it room to run toward the +30%/+100% tiers before exiting; selling now on a fresh memecoin entry locks in small gains before momentum plays out.
+

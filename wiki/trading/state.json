@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.198229,
+  "balance_sol": 27.256625,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4wLwZuuEeTLnFF9XzqhikEpgd4qUp8FUhG8g7pjCpump": {
-      "symbol": "poor",
-      "name": "stop being poor",
-      "mint": "4wLwZuuEeTLnFF9XzqhikEpgd4qUp8FUhG8g7pjCpump",
-      "amount": 14091.983788296531,
-      "entry_price_usd": 0.00036141114526613095,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T20:38:36.124541+00:00",
-      "entry_time_iso": "2026-09-12T20:38:36.124551+00:00",
-      "entry_usd_value": 5.093,
-      "last_seen_price_usd": 0.00036141114526613095,
-      "entry_liquidity_usd": 101428.99021011395,
-      "entry_pool_sol": 995.768606029,
-      "entry_market_cap_usd": 13638.119789501414,
-      "entry_signals": {
-        "liquidity_usd": 101428.99021011395,
-        "volume_24h_usd": null,
-        "market_cap_usd": 13638.119789501414,
-        "ath_market_cap_usd": 13956.99789104355,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 995.768606029,
-        "description": "",
-        "twitter": "https://x.com/Clowntrenches/status/2098873704444784670",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59085,19 +59056,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 78.361752,
       "partial": false
+    },
+    {
+      "mint": "4wLwZuuEeTLnFF9XzqhikEpgd4qUp8FUhG8g7pjCpump",
+      "symbol": "poor",
+      "name": "stop being poor",
+      "amount_sold": 14091.983788296531,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T20:38:36.124541+00:00",
+      "entry_time_iso": "2026-09-12T20:38:36.124551+00:00",
+      "exit_time": "2026-09-12T20:40:01.660957+00:00",
+      "exit_time_iso": "2026-09-12T20:40:01.660991+00:00",
+      "entry_price_usd": 0.00036141114526613095,
+      "exit_price_usd": 0.0004202310218550522,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.058396,
+      "pnl_sol": 0.008396,
+      "pnl_pct": 16.28,
+      "exit_reason": "LLM: sell_all — $poor is at +16.3% on a 0h-old position, below the +30% auto-TP trigger. Give it room to run toward the +30%/+100% tiers before exiting; selling now o",
+      "entry_liquidity_usd": 101428.99,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 995.7686,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 85.536464,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T20:38:36.124808+00:00",
+  "last_updated": "2026-09-12T20:40:01.661297+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.86,
-  "portfolio_value_usd": 2775.5,
+  "last_sol_price_usd": 101.41,
+  "portfolio_value_usd": 2764.09,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 20:16 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $RUNCPU at $3.23935e-06 | P&L: +0.3%",
-      "reason": "Flat at +0.3% after fresh entry on a $211 bonding-curve pool with no narrative momentum. Capital is better deployed on a fresh launch with stronger attention signal — locking the slot at breakeven with no catalyst is a -EV hold."
-    },
     {
       "time": "2026-09-12 20:16 UTC",
       "action": "buy",
@@ -59211,40 +59200,46 @@
       "action": "buy",
       "details": "[LLM] $poor at $0.000361411, spent 0.05 SOL",
       "reason": "$poor (stop being poor) is the clearest attention play in this batch: Clowntrenches is a known memecoin X account driving the launch, the 'stop being poor' narrative is broadly relatable and viral-friendly, and at $13.6k mcap with bonding 33% there's real early traction but room to run 5-10x. Viability check passes (has twitter)."
+    },
+    {
+      "time": "2026-09-12 20:40 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $poor at $0.000420231 | P&L: +16.3%",
+      "reason": "$poor is at +16.3% on a 0h-old position, below the +30% auto-TP trigger. Give it room to run toward the +30%/+100% tiers before exiting; selling now on a fresh memecoin entry locks in small gains before momentum plays out."
     }
   ],
   "trade_stats": {
-    "total": 3379,
-    "wins": 1565,
+    "total": 3380,
+    "wins": 1566,
     "losses": 1814,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 23.032068,
+    "total_pnl_sol": 23.040464,
     "avg_pnl_pct": 36.81,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 306,
-    "today_realized_sol": 17.998972,
-    "today_target_pct": 4499.7,
+    "today_trades": 307,
+    "today_realized_sol": 18.007368,
+    "today_target_pct": 4501.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1565,
+      "win_count": 1566,
       "loss_count": 1814,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T20:38:34.774072+00:00",
+  "last_llm_brief_at": "2026-09-12T20:40:01.660861+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2rYX83wgBxaWHZob7WgV1mJBfCrYxkzj16qDKoU8pump": {
-      "price_usd": 2.8479197747438836e-06,
+    "4wLwZuuEeTLnFF9XzqhikEpgd4qUp8FUhG8g7pjCpump": {
+      "price_usd": 0.0004202310218550522,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.00895950374,
-      "volume_h24": 211.63,
+      "liquidity_usd": 112417.3743258863,
+      "volume_h24": 13939.79,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 8.7959e-05
+      "real_sol_reserves": 1108.543282969
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
