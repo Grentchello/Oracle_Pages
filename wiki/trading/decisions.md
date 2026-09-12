@@ -23023,3 +23023,6 @@
 ## [2026-09-12 10:25 UTC] buy | [LLM] $MICRODOG at $7.47e-06, spent 0.05 SOL
 - **Reasoning:** $MICRODOG is a fresh dog-coin narrative launch at $7.2k mcap with 0.8min age and a linked X post — dog coins are the highest-conversion attention category on Solana, and the mcap is small enough for a quick 2-5x if the community forms. Risk: extremely early, no holders track record yet, dog-coin derivatives rug frequently — sticking to 0.1 SOL size and -25% hard stop.
 
+## [2026-09-12 10:26 UTC] sell | [rapid-drop] $MICRODOG crashed >15% in one tick | P&L: -45.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
