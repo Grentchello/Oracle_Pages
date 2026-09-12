@@ -22396,3 +22396,6 @@
 ## [2026-09-12 03:59 UTC] sell | [FULL][LLM] $PUSSY at $4.26364e-06 | P&L: +6.1%
 - **Reasoning:** Up +6.1% in 0.0h on a fresh bonding-curve position. Thin pool ($681) means low-conviction move would be required to exit; ride the initial attention wave and reassess on next tick.
 
+## [2026-09-12 04:03 UTC] buy | [LLM] $RAM at $4.199e-06, spent 0.05 SOL
+- **Reasoning:** $RAM (Rich Ass Motherfuckers) has a viral acronym meme, an active twitter presence (ramentrade), passes viability (desc ≥50 chars + twitter) and fragility (no political/celebrity keywords) gates. At $3.4k mcap with 0.8min age there's massive attention runway. Risk: bond only 8%, very early liquidity — but that asymmetry is exactly the play.
+
