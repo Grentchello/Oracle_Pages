@@ -23461,3 +23461,6 @@
 ## [2026-09-12 14:55 UTC] sell | [FULL][LLM] $DI3 at $3.06197e-06 | P&L: +0.0%
 - **Reasoning:** $DI3 is flat at +0.0% with0.0h held — too early to judge, no loss to cut. Bonding curve at 26%, still has runway. Give it 15-30 min to develop.
 
+## [2026-09-12 14:59 UTC] buy | [LLM] $STONKBATON at $3.65e-06, spent 0.05 SOL
+- **Reasoning:** Fresh 1-min launch with a nostalgia/rebrand narrative (Stonk fun's original name). Twitter presence exists, mcap $3.7k is micro but that's where the 10x potential lives. Taking0.05 SOL to test the narrative — high risk but the attention signal (name recognition callback) is real.
+
