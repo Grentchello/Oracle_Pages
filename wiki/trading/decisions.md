@@ -23953,3 +23953,6 @@
 ## [2026-09-12 19:46 UTC] sell | [rapid-drop] $stockdog crashed >15% in one tick | P&L: -53.9%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 19:48 UTC] buy | [LLM] $CRAP at $0.000242774, spent 0.05 SOL
+- **Reasoning:** $CRAP — 'Crapcoin' is a self-aware irony meme, the kind of narrative that pumps on CT. DarwinXbt twitter link is real social proof at launch. Highest mcap ($13.9k) and 35% bonded = real inflow already, not just snipers. Risk: tiny liquidity means thin book; will exit fast if no follow-through.
+
