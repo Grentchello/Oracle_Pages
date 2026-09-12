@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.827406,
+  "balance_sol": 12.8453,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2ESs8L5gBYN1Uh4FfMqLQtEbxEdXUP3iD8vzVM6Upump": {
-      "symbol": "CATON",
-      "name": "Caton",
-      "mint": "2ESs8L5gBYN1Uh4FfMqLQtEbxEdXUP3iD8vzVM6Upump",
-      "amount": 91551.93992490612,
-      "entry_price_usd": 5.593e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T12:26:04.036923+00:00",
-      "entry_time_iso": "2026-09-12T12:26:04.036932+00:00",
-      "entry_usd_value": 5.1205,
-      "last_seen_price_usd": 5.593e-05,
-      "entry_liquidity_usd": 18300.29,
-      "entry_pool_sol": 85.005359066,
-      "entry_market_cap_usd": 48751.091320970336,
-      "entry_signals": {
-        "liquidity_usd": 18300.29,
-        "volume_24h_usd": 23292.72,
-        "market_cap_usd": 48751.091320970336,
-        "ath_market_cap_usd": 60794.172102062825,
-        "volatility_score": null,
-        "boost_mode": "IN_PROGRESS",
-        "real_sol_reserves": 85.005359066,
-        "description": "A quiet cat from the loud internet. One green baton, one ticker, zero need for a real name.",
-        "twitter": "https://x.com/catontonsol",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55869,19 +55840,37 @@
       "exit_pool_sol": 27.8227,
       "hold_duration_seconds": 150.596135,
       "partial": false
+    },
+    {
+      "mint": "2ESs8L5gBYN1Uh4FfMqLQtEbxEdXUP3iD8vzVM6Upump",
+      "symbol": "CATON",
+      "name": "Caton",
+      "amount_sold": 91551.93992490612,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T12:26:04.036923+00:00",
+      "entry_time_iso": "2026-09-12T12:26:04.036932+00:00",
+      "exit_time": "2026-09-12T12:27:07.427693+00:00",
+      "exit_time_iso": "2026-09-12T12:27:07.427704+00:00",
+      "entry_price_usd": 5.593e-05,
+      "exit_price_usd": 2.003e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.017894,
+      "pnl_sol": -0.032106,
+      "pnl_pct": -64.19,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 18300.29,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 85.0054,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.390792,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T12:26:04.037232+00:00",
+  "last_updated": "2026-09-12T12:27:21.200707+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.41,
-  "portfolio_value_usd": 1318.78,
+  "last_sol_price_usd": 102.48,
+  "portfolio_value_usd": 1316.39,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 11:50 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $BETTER HANFL crashed >15% in one tick | P&L: -17.1%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 11:50 UTC",
       "action": "buy",
@@ -55995,30 +55984,46 @@
       "action": "buy",
       "details": "[LLM] $CATON at $5.593e-05, spent 0.05 SOL",
       "reason": "Cat narrative with confirmed X account (catontonsol), decent $48k mcap, bonding curve 43% — story is coherent (quiet cat, internet culture) and has actual social presence. Age is fresh at 1.4min. Bonding at 43% means it's already attracting real SOL. Position size 0.1 SOL respects liquidity rules."
+    },
+    {
+      "time": "2026-09-12 12:27 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $CATON crashed >15% in one tick | P&L: -64.2%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3245,
+    "total": 3246,
     "wins": 1507,
-    "losses": 1738,
+    "losses": 1739,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 8.661218,
-    "avg_pnl_pct": 28.69,
+    "total_pnl_sol": 8.629112,
+    "avg_pnl_pct": 28.66,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 172,
-    "today_realized_sol": 3.628122,
-    "today_target_pct": 907.0,
+    "today_trades": 173,
+    "today_realized_sol": 3.596016,
+    "today_target_pct": 899.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1507,
-      "loss_count": 1738,
+      "loss_count": 1739,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T12:26:02.728976+00:00",
+  "last_llm_brief_at": "2026-09-12T12:27:20.095766+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2ESs8L5gBYN1Uh4FfMqLQtEbxEdXUP3iD8vzVM6Upump": {
+      "price_usd": 2.003e-05,
+      "change_h24": -54.37,
+      "change_h1": -54.37,
+      "liquidity_usd": 10262.77,
+      "volume_h24": 43634.65,
+      "dex_id": "pumpswap",
+      "source": "dexscreener"
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
