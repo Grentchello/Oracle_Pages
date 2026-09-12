@@ -23029,3 +23029,9 @@
 ## [2026-09-12 10:28 UTC] buy | [LLM] $Gamestonk at $3.76481e-06, spent 0.05 SOL
 - **Reasoning:** $Gamestonk has the strongest attention signal of the three: clear WSB/stonks revival narrative with a live X post, passes viability gate via twitter link, bond 20% shows active trading, and sub-$8k mcap gives asymmetric upside. Narrative-driven memecoin with viral potential — exactly the kind of fresh-launch play the strategy targets.
 
+## [2026-09-12 10:29 UTC] sell | [rapid-drop] $Gamestonk crashed >15% in one tick | P&L: -38.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 10:29 UTC] buy | [LLM] $TAMPONS at $4.094e-06, spent 0.05 SOL
+- **Reasoning:** $TAMPONS — absurdist genital hygiene meme, exactly the kind of crude/viral humor that pumps on CT. Fresh launch (0.5min), low mcap $4k = max upside, narrative is crude enough to get screenshots/engagement. Viability gate passes (desc 'Launched by launchonpad.com' is thin but liquidity will build as bonding). Risk: no twitter, thin story — but meme-craft is the story.
+
