@@ -1,37 +1,8 @@
 {
-  "balance_sol": 22.734312,
+  "balance_sol": 22.784145,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Fq7F75iTWGnuF3aXmncQ6vwEki7cvP7w8ni5KZB4pump": {
-      "symbol": "SOLANA",
-      "name": "Team Solana",
-      "mint": "Fq7F75iTWGnuF3aXmncQ6vwEki7cvP7w8ni5KZB4pump",
-      "amount": 53569.94162571412,
-      "entry_price_usd": 9.489463392582583e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T20:01:31.328759+00:00",
-      "entry_time_iso": "2026-09-12T20:01:31.328769+00:00",
-      "entry_usd_value": 5.083500000000001,
-      "last_seen_price_usd": 9.489463392582583e-05,
-      "entry_liquidity_usd": 2.0334000000000002e-07,
-      "entry_pool_sol": 2e-09,
-      "entry_market_cap_usd": 3630.83154869701,
-      "entry_signals": {
-        "liquidity_usd": 2.0334000000000002e-07,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3630.83154869701,
-        "ath_market_cap_usd": 3667.690788582647,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2e-09,
-        "description": "",
-        "twitter": "https://x.com/ticaonsol/status/2098863576937287862",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -58773,19 +58744,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 75.672485,
       "partial": false
+    },
+    {
+      "mint": "Fq7F75iTWGnuF3aXmncQ6vwEki7cvP7w8ni5KZB4pump",
+      "symbol": "SOLANA",
+      "name": "Team Solana",
+      "amount_sold": 53569.941088214124,
+      "fraction_sold": 0.9999999899663882,
+      "entry_time": "2026-09-12T20:01:31.328759+00:00",
+      "entry_time_iso": "2026-09-12T20:01:31.328769+00:00",
+      "exit_time": "2026-09-12T20:02:51.500178+00:00",
+      "exit_time_iso": "2026-09-12T20:02:51.500182+00:00",
+      "entry_price_usd": 9.489463392582583e-05,
+      "exit_price_usd": 9.421395348858721e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049833,
+      "pnl_sol": -0.000167,
+      "pnl_pct": -0.72,
+      "exit_reason": "LLM: sell_all — $SOLANA down only 0.7%, held 0.0h, no exit signal yet. Will reassess at 15min stale mark or -20% threshold.",
+      "entry_liquidity_usd": 0.0,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 0.0,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 80.171435,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T20:01:31.329027+00:00",
+  "last_updated": "2026-09-12T20:02:51.500357+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.67,
-  "portfolio_value_usd": 2316.48,
+  "last_sol_price_usd": 101.28,
+  "portfolio_value_usd": 2307.58,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 19:35 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $TWINE at $3.69233e-05 | P&L: +438.5%",
-      "reason": "Auto take-profit at +438.5%"
-    },
     {
       "time": "2026-09-12 19:35 UTC",
       "action": "buy",
@@ -58899,40 +58888,46 @@
       "action": "buy",
       "details": "[LLM] $SOLANA at $9.48946e-05, spent 0.05 SOL",
       "reason": "$SOLANA is the meta-narrative play — the token literally IS the chain's name, with a twitter link to @ticaonsol pushing it. $3.6k mcap at 0.6min age has the asymmetry the rules call for: cheap attention, strong name, small position size keeps risk bounded."
+    },
+    {
+      "time": "2026-09-12 20:02 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SOLANA at $9.4214e-05 | P&L: -0.7%",
+      "reason": "$SOLANA down only 0.7%, held 0.0h, no exit signal yet. Will reassess at 15min stale mark or -20% threshold."
     }
   ],
   "trade_stats": {
-    "total": 3366,
+    "total": 3367,
     "wins": 1558,
-    "losses": 1808,
+    "losses": 1809,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 18.568126,
-    "avg_pnl_pct": 34.3,
+    "total_pnl_sol": 18.567959,
+    "avg_pnl_pct": 34.29,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 293,
-    "today_realized_sol": 13.53503,
-    "today_target_pct": 3383.8,
+    "today_trades": 294,
+    "today_realized_sol": 13.534863,
+    "today_target_pct": 3383.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1558,
-      "loss_count": 1808,
+      "loss_count": 1809,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T20:01:29.959110+00:00",
+  "last_llm_brief_at": "2026-09-12T20:02:51.500075+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "9q3BXSjy8zHiR2rwZj7M94b89eUbCfhwJKCeGU3ppump": {
-      "price_usd": 3.2901678480679487e-06,
+    "Fq7F75iTWGnuF3aXmncQ6vwEki7cvP7w8ni5KZB4pump": {
+      "price_usd": 9.421395348858721e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 231.35102717588998,
-      "volume_h24": 230.46,
+      "liquidity_usd": 2.0256e-07,
+      "volume_h24": 22.68,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.275509267
+      "real_sol_reserves": 2e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
