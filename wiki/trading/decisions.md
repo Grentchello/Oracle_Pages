@@ -24250,3 +24250,6 @@
 ## [2026-09-12 22:21 UTC] sell | [rapid-drop] $Humanscan crashed >15% in one tick | P&L: -31.9%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 22:23 UTC] buy | [LLM] $CODEBARA at $0.000849504, spent 0.05 SOL
+- **Reasoning:** $CODEBARA passes viability (has twitter) and static fragility (no political/celebrity keywords). 30s old, $4.5k mcap, has X post attached — exactly the fresh-launch attention the prompt says to ride. 0.1 SOL scalp with -25% hard cap; GMGN live fragility unavailable due to Cloudflare block but no metadata red flags.
+
