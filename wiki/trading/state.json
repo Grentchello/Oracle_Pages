@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.139326,
+  "balance_sol": 13.20762,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "KKTyPQ1G18VBpHWw3a2RE3ubQRmcqsmFGf2ZYDqpump": {
-      "symbol": "meme",
-      "name": "i like the meme",
-      "amount": 874871.0010319919,
-      "entry_price_usd": 5.814e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T06:23:37.600868+00:00",
-      "entry_usd_value": 5.086500000000001,
-      "last_seen_price_usd": 5.814e-06,
-      "entry_signals": {
-        "liquidity_usd": 1795.3762558313701,
-        "volume_24h_usd": 8303.83,
-        "market_cap_usd": 6506.5086543304515,
-        "ath_market_cap_usd": 6833.795613281607,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 17.648444469,
-        "description": "",
-        "twitter": "https://x.com/icookyoueat100x/status/2098658390176096737",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53458,19 +53434,30 @@
       "pnl_pct": -11.51,
       "exit_reason": "LLM: sell_all — Just entered (0.0h held), down -11.5% but nowhere near the -25% hard cap or the 30min stale exit. Bonding curve still active, pool small ($114) — give",
       "partial": false
+    },
+    {
+      "mint": "KKTyPQ1G18VBpHWw3a2RE3ubQRmcqsmFGf2ZYDqpump",
+      "symbol": "meme",
+      "name": "i like the meme",
+      "amount_sold": 874871.0010319919,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T06:23:37.600868+00:00",
+      "exit_time": "2026-09-12T06:24:54.225247+00:00",
+      "entry_price_usd": 5.814e-06,
+      "exit_price_usd": 7.945177054917778e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.068294,
+      "pnl_sol": 0.018294,
+      "pnl_pct": 36.66,
+      "exit_reason": "LLM: sell_all — Up +36.7% but pool is only $2049 and our share is 0% — this is illiquid and the gain is small in absolute terms. Thin liquidity + profit = lock it in ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T06:23:37.601151+00:00",
+  "last_updated": "2026-09-12T06:24:54.226703+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.73,
-  "portfolio_value_usd": 1341.75,
+  "last_sol_price_usd": 101.78,
+  "portfolio_value_usd": 1344.27,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 05:55 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $tung crashed >15% in one tick | P&L: -75.9%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 05:56 UTC",
       "action": "buy",
@@ -53584,30 +53571,48 @@
       "action": "buy",
       "details": "[LLM] $meme at $5.814e-06, spent 0.05 SOL",
       "reason": "$meme is meta-attention itself — a token literally named 'meme' during a memecoin pump is peak narrative. 0.9min old, $6.5k mcap with X account attached = textbook early attention launch. Bond at 25% so there's still organic buy pressure. Risk: ultra-fresh, could rug if bond fails, but the asymmetry (cheap entry into viral meta-name) favors a small 0.1 SOL position."
+    },
+    {
+      "time": "2026-09-12 06:24 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $meme at $7.94518e-06 | P&L: +36.7%",
+      "reason": "Up +36.7% but pool is only $2049 and our share is 0% — this is illiquid and the gain is small in absolute terms. Thin liquidity + profit = lock it in before it reverses. Stale exit imminent anyway."
     }
   ],
   "trade_stats": {
-    "total": 3143,
-    "wins": 1466,
+    "total": 3144,
+    "wins": 1467,
     "losses": 1677,
-    "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.973139,
+    "win_rate_pct": 46.7,
+    "total_pnl_sol": 8.991433,
     "avg_pnl_pct": 29.8,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 70,
-    "today_realized_sol": 3.940043,
-    "today_target_pct": 985.0,
+    "today_trades": 71,
+    "today_realized_sol": 3.958337,
+    "today_target_pct": 989.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1466,
+      "win_count": 1467,
       "loss_count": 1677,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T06:23:36.235477+00:00",
+  "last_llm_brief_at": "2026-09-12T06:24:54.225202+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "KKTyPQ1G18VBpHWw3a2RE3ubQRmcqsmFGf2ZYDqpump": {
+      "price_usd": 7.945177054917778e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2048.63580662594,
+      "volume_h24": 13280.95,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 20.128078273
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

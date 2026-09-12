@@ -22624,3 +22624,6 @@
 ## [2026-09-12 06:23 UTC] buy | [LLM] $meme at $5.814e-06, spent 0.05 SOL
 - **Reasoning:** $meme is meta-attention itself — a token literally named 'meme' during a memecoin pump is peak narrative. 0.9min old, $6.5k mcap with X account attached = textbook early attention launch. Bond at 25% so there's still organic buy pressure. Risk: ultra-fresh, could rug if bond fails, but the asymmetry (cheap entry into viral meta-name) favors a small 0.1 SOL position.
 
+## [2026-09-12 06:24 UTC] sell | [FULL][LLM] $meme at $7.94518e-06 | P&L: +36.7%
+- **Reasoning:** Up +36.7% but pool is only $2049 and our share is 0% — this is illiquid and the gain is small in absolute terms. Thin liquidity + profit = lock it in before it reverses. Stale exit imminent anyway.
+
