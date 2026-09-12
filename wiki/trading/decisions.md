@@ -23503,3 +23503,6 @@
 ## [2026-09-12 15:29 UTC] sell | [FULL][LLM] $KEYCAT at $2.90106e-05 | P&L: +39.6%
 - **Reasoning:** +39.6% in 0h — already past the +30% threshold (auto-TP at 25%) but the bot flags our share=0% on bonding curve and pool is only $6.7k (shallow). Lock the 39.6% gain now; the rules say aggressive profit-taking when up >20% with any doubt. Don't hold for the next leg on a thin bonding-curve token where we can't even measure our share.
 
+## [2026-09-12 15:36 UTC] buy | [LLM] $anorchia at $6.86591e-06, spent 0.05 SOL
+- **Reasoning:** $anorchia — absurd/funny name ('anorchia' = medical term for absence of testicles), posted by X account with active engagement, sub-1min age means pure attention-launch alpha. Bond at 26% with a $6.8k mcap = early entry before curve fills. Risk is the joke lands flat; narrative edge is the shock-humor attention grab.
+
