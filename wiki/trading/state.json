@@ -1,37 +1,8 @@
 {
-  "balance_sol": 16.773115,
+  "balance_sol": 16.823435,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3DiJhRH8hj8oQBNZ3XjQnBYZmgRdd2KFQTMPvPTapump": {
-      "symbol": "PFSR",
-      "name": "PumpFun Strategy",
-      "mint": "3DiJhRH8hj8oQBNZ3XjQnBYZmgRdd2KFQTMPvPTapump",
-      "amount": 26669.842180391664,
-      "entry_price_usd": 0.00019113348948678107,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T16:31:35.285014+00:00",
-      "entry_time_iso": "2026-09-12T16:31:35.285023+00:00",
-      "entry_usd_value": 5.0975,
-      "last_seen_price_usd": 0.00019113348948678107,
-      "entry_liquidity_usd": 43359.14393295625,
-      "entry_pool_sol": 425.298125875,
-      "entry_market_cap_usd": 6883.4725905492405,
-      "entry_signals": {
-        "liquidity_usd": 43359.14393295625,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6883.4725905492405,
-        "ath_market_cap_usd": 6883.4725905492405,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 425.298125875,
-        "description": "",
-        "twitter": "https://x.com/stockiusquant/status/2098811458859507969",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57477,19 +57448,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.38629,
       "partial": false
+    },
+    {
+      "mint": "3DiJhRH8hj8oQBNZ3XjQnBYZmgRdd2KFQTMPvPTapump",
+      "symbol": "PFSR",
+      "name": "PumpFun Strategy",
+      "amount_sold": 26669.842180391664,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T16:31:35.285014+00:00",
+      "entry_time_iso": "2026-09-12T16:31:35.285023+00:00",
+      "exit_time": "2026-09-12T16:32:48.461251+00:00",
+      "exit_time_iso": "2026-09-12T16:32:48.461255+00:00",
+      "entry_price_usd": 0.00019113348948678107,
+      "exit_price_usd": 0.00019229925321137263,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05032,
+      "pnl_sol": 0.00032,
+      "pnl_pct": 0.61,
+      "exit_reason": "LLM: sell_all — Just entered 0.0h ago, flat at +0.6%. No signal to exit — bonding-curve phase means price discovery is still happening. Give it a few minutes to devel",
+      "entry_liquidity_usd": 43359.14,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 425.2981,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 73.176254,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T16:31:35.285281+00:00",
+  "last_updated": "2026-09-12T16:32:48.461455+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.95,
-  "portfolio_value_usd": 1715.12,
+  "last_sol_price_usd": 101.92,
+  "portfolio_value_usd": 1714.64,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 16:01 UTC",
-      "action": "buy",
-      "details": "[LLM] $HODLOOR at $9.69603e-05, spent 0.05 SOL",
-      "reason": "$HODLOOR is a fresh 0.5min launch with crypto-native meme name (HODL + lore) that resonates with CT attention. Sub-$4k mcap = early attention window, X link present. Sizing at 0.05 SOL per v7 discipline — small, viral narrative, easy exit if it doesn't move within 15 min."
-    },
     {
       "time": "2026-09-12 16:02 UTC",
       "action": "sell",
@@ -57603,30 +57592,48 @@
       "action": "buy",
       "details": "[LLM] $PFSR at $0.000191133, spent 0.05 SOL",
       "reason": "$PFSR 'PumpFun Strategy' is a meta-narrative play — a token about the strategy itself. Bonding 23%, mcap $6.9k, age <1min, posted by stockiusquant (a quant account, attention signal). 0.05 SOL ($5) position, 2 SOL balance so we have runway. Highest narrative density of the three."
+    },
+    {
+      "time": "2026-09-12 16:32 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PFSR at $0.000192299 | P&L: +0.6%",
+      "reason": "Just entered 0.0h ago, flat at +0.6%. No signal to exit — bonding-curve phase means price discovery is still happening. Give it a few minutes to develop before judging."
     }
   ],
   "trade_stats": {
-    "total": 3312,
-    "wins": 1533,
+    "total": 3313,
+    "wins": 1534,
     "losses": 1779,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 12.606929,
-    "avg_pnl_pct": 31.22,
+    "total_pnl_sol": 12.607249,
+    "avg_pnl_pct": 31.21,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 239,
-    "today_realized_sol": 7.573833,
+    "today_trades": 240,
+    "today_realized_sol": 7.574153,
     "today_target_pct": 1893.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1533,
+      "win_count": 1534,
       "loss_count": 1779,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T16:31:33.934773+00:00",
+  "last_llm_brief_at": "2026-09-12T16:32:48.461171+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3DiJhRH8hj8oQBNZ3XjQnBYZmgRdd2KFQTMPvPTapump": {
+      "price_usd": 0.00019229925321137263,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 43151.47304623792,
+      "volume_h24": 1981.84,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 423.385724551
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
