@@ -22774,3 +22774,6 @@
 ## [2026-09-12 07:43 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-12 07:44 UTC] buy | [LLM] $UP at $8.059e-06, spent 0.05 SOL
+- **Reasoning:** $UP has a live PumpFun broadcast + 'everyone on CT posting $UP' — real-time attention catalyst, not just a generic launch. Bond29% means momentum is forming on curve. Risk: $8k mcap is ultra-fragile and CT-hype can fade in minutes — I'll watch for the +30%/-20% exits hard.
+
