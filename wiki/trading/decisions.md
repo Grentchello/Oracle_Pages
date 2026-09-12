@@ -23332,3 +23332,6 @@
 ## [2026-09-12 13:29 UTC] buy | [LLM] $SENDO at $3.06342e-06, spent 0.05 SOL
 - **Reasoning:** $SENDO (Send.do) has a real product narrative — social trading via OTC Labs, dedicated @sendomedia twitter handle (not impersonator), and lowest mcap ($3k) means biggest upside if attention lands. Passes viability + fragility gates. 0.05 SOL entry.
 
+## [2026-09-12 13:30 UTC] sell | [FULL][LLM] $SENDO at $3.05254e-06 | P&L: -0.4%
+- **Reasoning:** Just opened (0.0h), essentially flat at -0.4% on a bonding curve with5% share. No signal to exit — give it time to develop, but watch closely; if it goes stale without momentum, exit fast.
+

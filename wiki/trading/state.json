@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.636993,
+  "balance_sol": 12.686781,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EeDAXRzMdAXmEy3hfALM2v6t8fsWep1zeqNMjGVerNqV": {
-      "symbol": "SENDO",
-      "name": "Send.do",
-      "mint": "EeDAXRzMdAXmEy3hfALM2v6t8fsWep1zeqNMjGVerNqV",
-      "amount": 1661050.8724392292,
-      "entry_price_usd": 3.0634221289848943e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T13:29:02.406614+00:00",
-      "entry_time_iso": "2026-09-12T13:29:02.406622+00:00",
-      "entry_usd_value": 5.0885,
-      "last_seen_price_usd": 3.0634221289848943e-06,
-      "entry_liquidity_usd": 110.71669890805,
-      "entry_pool_sol": 1.087910965,
-      "entry_market_cap_usd": 3065.583822079054,
-      "entry_signals": {
-        "liquidity_usd": 110.71669890805,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3065.583822079054,
-        "ath_market_cap_usd": 4384.385362821809,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.087910965,
-        "description": "Trade Together. Grow Together.  - powered by OTC Labs",
-        "twitter": "https://x.com/sendomedia/status/2098765404931809495",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56301,19 +56272,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.716942,
       "partial": false
+    },
+    {
+      "mint": "EeDAXRzMdAXmEy3hfALM2v6t8fsWep1zeqNMjGVerNqV",
+      "symbol": "SENDO",
+      "name": "Send.do",
+      "amount_sold": 1661050.8724392292,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T13:29:02.406614+00:00",
+      "entry_time_iso": "2026-09-12T13:29:02.406622+00:00",
+      "exit_time": "2026-09-12T13:30:24.190025+00:00",
+      "exit_time_iso": "2026-09-12T13:30:24.190030+00:00",
+      "entry_price_usd": 3.0634221289848943e-06,
+      "exit_price_usd": 3.052540502682331e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049788,
+      "pnl_sol": -0.000212,
+      "pnl_pct": -0.36,
+      "exit_reason": "LLM: sell_all — Just opened (0.0h), essentially flat at -0.4% on a bonding curve with5% share. No signal to exit — give it time to develop, but watch closely; if it g",
+      "entry_liquidity_usd": 110.72,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.0879,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 81.783429,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T13:29:02.406797+00:00",
+  "last_updated": "2026-09-12T13:30:24.190306+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.77,
-  "portfolio_value_usd": 1291.16,
+  "last_sol_price_usd": 101.84,
+  "portfolio_value_usd": 1292.02,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 13:06 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 13:07 UTC",
       "action": "sell",
@@ -56427,30 +56416,48 @@
       "action": "buy",
       "details": "[LLM] $SENDO at $3.06342e-06, spent 0.05 SOL",
       "reason": "$SENDO (Send.do) has a real product narrative — social trading via OTC Labs, dedicated @sendomedia twitter handle (not impersonator), and lowest mcap ($3k) means biggest upside if attention lands. Passes viability + fragility gates. 0.05 SOL entry."
+    },
+    {
+      "time": "2026-09-12 13:30 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SENDO at $3.05254e-06 | P&L: -0.4%",
+      "reason": "Just opened (0.0h), essentially flat at -0.4% on a bonding curve with5% share. No signal to exit — give it time to develop, but watch closely; if it goes stale without momentum, exit fast."
     }
   ],
   "trade_stats": {
-    "total": 3263,
+    "total": 3264,
     "wins": 1511,
-    "losses": 1752,
+    "losses": 1753,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.470805,
-    "avg_pnl_pct": 28.4,
+    "total_pnl_sol": 8.470593,
+    "avg_pnl_pct": 28.39,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 190,
-    "today_realized_sol": 3.437709,
+    "today_trades": 191,
+    "today_realized_sol": 3.437497,
     "today_target_pct": 859.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1511,
-      "loss_count": 1752,
+      "loss_count": 1753,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T13:29:00.818993+00:00",
+  "last_llm_brief_at": "2026-09-12T13:30:24.189818+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EeDAXRzMdAXmEy3hfALM2v6t8fsWep1zeqNMjGVerNqV": {
+      "price_usd": 3.052540502682331e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 108.17298425368001,
+      "volume_h24": 1601.1,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.062185627
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
