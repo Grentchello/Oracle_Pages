@@ -22399,3 +22399,9 @@
 ## [2026-09-12 04:03 UTC] buy | [LLM] $RAM at $4.199e-06, spent 0.05 SOL
 - **Reasoning:** $RAM (Rich Ass Motherfuckers) has a viral acronym meme, an active twitter presence (ramentrade), passes viability (desc ≥50 chars + twitter) and fragility (no political/celebrity keywords) gates. At $3.4k mcap with 0.8min age there's massive attention runway. Risk: bond only 8%, very early liquidity — but that asymmetry is exactly the play.
 
+## [2026-09-12 04:04 UTC] sell | [rapid-drop] $RAM crashed >15% in one tick | P&L: -26.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 04:05 UTC] buy | [LLM] $SCARY DOGE at $3.528e-06, spent 0.05 SOL
+- **Reasoning:** $SCARY DOGE has the strongest viral narrative of the batch — animatronic horror meme hook with an X link, distinctive story (peeling into creepypasta/cursed content lane), lowest bond (11%) means room to run, and passes viability gate (desc + twitter). At $3.7k mcap this has 10x potential if it catches a wave.
+
