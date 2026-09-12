@@ -23485,3 +23485,6 @@
 ## [2026-09-12 15:10 UTC] sell | [FULL][LLM] $Paperhands at $8.23853e-06 | P&L: +17.8%
 - **Reasoning:** +17.8% on a $2141 pool bonding-curve token with no narrative confirmation. Thin liquidity means any reversal will be violent. Lock the gain, rotate capital to a stronger setup.
 
+## [2026-09-12 15:14 UTC] buy | [LLM] $Charizard at $1.88453e-06, spent 0.05 SOL
+- **Reasoning:** $Charizard — Pokemon is the most consistently viral memecoin archetype.0.8min old, $6.9k mcap, bond 25% (strongest of batch), twitter link present. Early entry on a legendary meme name with real initial buy pressure. Position size 0.05 SOL.
+
