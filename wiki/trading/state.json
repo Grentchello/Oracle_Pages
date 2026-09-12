@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.957749,
+  "balance_sol": 13.009775,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "G1aTKrHZ8LA1YnzPqLEabQSS7qAyPB3FwKPzhkJWpump": {
-      "symbol": "BEAVER",
-      "name": "Beaver the Maple",
-      "mint": "G1aTKrHZ8LA1YnzPqLEabQSS7qAyPB3FwKPzhkJWpump",
-      "amount": 1486933.7979094079,
-      "entry_price_usd": 3.444e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T11:27:18.237912+00:00",
-      "entry_time_iso": "2026-09-12T11:27:18.237922+00:00",
-      "entry_usd_value": 5.121,
-      "last_seen_price_usd": 3.444e-06,
-      "entry_liquidity_usd": 399.86046887814,
-      "entry_pool_sol": 3.904124867,
-      "entry_market_cap_usd": 3568.826185041343,
-      "entry_signals": {
-        "liquidity_usd": 399.86046887814,
-        "volume_24h_usd": 373.17,
-        "market_cap_usd": 3568.826185041343,
-        "ath_market_cap_usd": 3568.826185041343,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.904124867,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55485,19 +55456,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 84.431235,
       "partial": false
+    },
+    {
+      "mint": "G1aTKrHZ8LA1YnzPqLEabQSS7qAyPB3FwKPzhkJWpump",
+      "symbol": "BEAVER",
+      "name": "Beaver the Maple",
+      "amount_sold": 1486933.7979094079,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T11:27:18.237912+00:00",
+      "entry_time_iso": "2026-09-12T11:27:18.237922+00:00",
+      "exit_time": "2026-09-12T11:28:31.769453+00:00",
+      "exit_time_iso": "2026-09-12T11:28:31.769462+00:00",
+      "entry_price_usd": 3.444e-06,
+      "exit_price_usd": 3.564627566106334e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.052026,
+      "pnl_sol": 0.002026,
+      "pnl_pct": 3.5,
+      "exit_reason": "LLM: sell_all — Just entered at +3.5%, only 0.0h held, not stale. Bonding-curve at 21%, pool $363 - let the narrative develop before rotating. If it stays flat past 1",
+      "entry_liquidity_usd": 399.86,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.9041,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 73.531563,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T11:27:18.238295+00:00",
+  "last_updated": "2026-09-12T11:28:31.769666+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.42,
-  "portfolio_value_usd": 1332.25,
+  "last_sol_price_usd": 101.88,
+  "portfolio_value_usd": 1325.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 10:59 UTC",
-      "action": "buy",
-      "details": "[LLM] $RISE at $8.16e-06, spent 0.05 SOL",
-      "reason": "$RISE has a real attention mechanic (60% airdrop to top 15 holders incentivizes shilling + holding), $8.5k mcap with room to run, and a Twitter handle. Highest narrative-density launch in the slate. Risk: airdrop-farming tokens often dump post-distribution — watch for exit signal if it doesn't pump in first 15 min."
-    },
     {
       "time": "2026-09-12 11:01 UTC",
       "action": "sell",
@@ -55611,30 +55600,48 @@
       "action": "buy",
       "details": "[LLM] $BEAVER at $3.444e-06, spent 0.05 SOL",
       "reason": "Fresh $3.5k mcap animal-mascot memecoin with cute narrative ('Beaver the Maple'). Animal mascots are proven attention plays (PNUT/GOAT/MOODENG playbook). Bond still 10% means early entry on a story-driven launch — exactly the kind of viral attention the strategy targets. 0.05 SOL position per hard rules."
+    },
+    {
+      "time": "2026-09-12 11:28 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BEAVER at $3.56463e-06 | P&L: +3.5%",
+      "reason": "Just entered at +3.5%, only 0.0h held, not stale. Bonding-curve at 21%, pool $363 - let the narrative develop before rotating. If it stays flat past 15min I exit for a fresher launch."
     }
   ],
   "trade_stats": {
-    "total": 3229,
-    "wins": 1502,
+    "total": 3230,
+    "wins": 1503,
     "losses": 1727,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.791561,
-    "avg_pnl_pct": 28.91,
+    "total_pnl_sol": 8.793587,
+    "avg_pnl_pct": 28.9,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 156,
-    "today_realized_sol": 3.758465,
-    "today_target_pct": 939.6,
+    "today_trades": 157,
+    "today_realized_sol": 3.760491,
+    "today_target_pct": 940.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1502,
+      "win_count": 1503,
       "loss_count": 1727,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T11:27:16.711837+00:00",
+  "last_llm_brief_at": "2026-09-12T11:28:31.768733+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "G1aTKrHZ8LA1YnzPqLEabQSS7qAyPB3FwKPzhkJWpump": {
+      "price_usd": 3.564627566106334e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 362.70184348007996,
+      "volume_h24": 468.73,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.560088766
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

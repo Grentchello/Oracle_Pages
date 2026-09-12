@@ -23128,3 +23128,6 @@
 ## [2026-09-12 11:27 UTC] buy | [LLM] $BEAVER at $3.444e-06, spent 0.05 SOL
 - **Reasoning:** Fresh $3.5k mcap animal-mascot memecoin with cute narrative ('Beaver the Maple'). Animal mascots are proven attention plays (PNUT/GOAT/MOODENG playbook). Bond still 10% means early entry on a story-driven launch — exactly the kind of viral attention the strategy targets. 0.05 SOL position per hard rules.
 
+## [2026-09-12 11:28 UTC] sell | [FULL][LLM] $BEAVER at $3.56463e-06 | P&L: +3.5%
+- **Reasoning:** Just entered at +3.5%, only 0.0h held, not stale. Bonding-curve at 21%, pool $363 - let the narrative develop before rotating. If it stays flat past 15min I exit for a fresher launch.
+
