@@ -24211,3 +24211,6 @@
 ## [2026-09-12 21:58 UTC] buy | [LLM] $RISE at $7.069e-06, spent 0.05 SOL
 - **Reasoning:** Freshest launch (~30s), mcap $8k, clear viral mechanic: 60% airdrop to top 15 holders creates holding incentive + FOMO competition. Twitter link present (passes viability gate). Attention-market play: novel mechanic + tiny mcap = asymmetric upside if it catches. Risky because unproven name, but the air-drop-top-holders gimmick is exactly the kind of viral hook that pumps in memecoin markets.
 
+## [2026-09-12 22:00 UTC] sell | [PARTIAL][LLM] $RISE at $8.49265e-06 | P&L: +20.1%
+- **Reasoning:** Up +20.1% and bonding curve just at $2.2k pool — thin liquidity means any retrace will be violent. Lock half the gain at this round-number resistance level, let the rest ride if attention keeps coming.
+

@@ -1,5 +1,5 @@
 {
-  "balance_sol": 27.409671,
+  "balance_sol": 27.439854,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -7,13 +7,13 @@
       "symbol": "RISE",
       "name": "RISE",
       "mint": "DWdSUsEpRx2n3FBcvnbJLEuBJj5awm73KGrWUpZtpump",
-      "amount": 721176.9698684396,
+      "amount": 360588.4849342198,
       "entry_price_usd": 7.069e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-12T21:58:53.461124+00:00",
       "entry_time_iso": "2026-09-12T21:58:53.461132+00:00",
       "entry_usd_value": 5.098,
-      "last_seen_price_usd": 7.069e-06,
+      "last_seen_price_usd": 8.492653396127845e-06,
       "entry_liquidity_usd": 2105.49593598028,
       "entry_pool_sol": 20.650215143,
       "entry_market_cap_usd": 8113.230769215107,
@@ -59757,19 +59757,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 81.908265,
       "partial": false
+    },
+    {
+      "mint": "DWdSUsEpRx2n3FBcvnbJLEuBJj5awm73KGrWUpZtpump",
+      "symbol": "RISE",
+      "name": "RISE",
+      "amount_sold": 360588.4849342198,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-12T21:58:53.461124+00:00",
+      "entry_time_iso": "2026-09-12T21:58:53.461132+00:00",
+      "exit_time": "2026-09-12T22:00:12.260090+00:00",
+      "exit_time_iso": "2026-09-12T22:00:12.260093+00:00",
+      "entry_price_usd": 7.069e-06,
+      "exit_price_usd": 8.492653396127845e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.030183,
+      "pnl_sol": 0.005183,
+      "pnl_pct": 20.14,
+      "exit_reason": "LLM: sell_half — Up +20.1% and bonding curve just at $2.2k pool — thin liquidity means any retrace will be violent. Lock half the gain at this round-number resistance ",
+      "entry_liquidity_usd": 2105.5,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 20.6502,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 78.798981,
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-12T21:58:53.461296+00:00",
+  "last_updated": "2026-09-12T22:00:12.260318+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.96,
-  "portfolio_value_usd": 2799.79,
+  "last_sol_price_usd": 101.46,
+  "portfolio_value_usd": 2786.6,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 21:37 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $CRIMEDOG at $0.0118941 | P&L: +311.6%",
-      "reason": "Auto take-profit at +311.6%"
-    },
     {
       "time": "2026-09-12 21:37 UTC",
       "action": "buy",
@@ -59883,30 +59901,48 @@
       "action": "buy",
       "details": "[LLM] $RISE at $7.069e-06, spent 0.05 SOL",
       "reason": "Freshest launch (~30s), mcap $8k, clear viral mechanic: 60% airdrop to top 15 holders creates holding incentive + FOMO competition. Twitter link present (passes viability gate). Attention-market play: novel mechanic + tiny mcap = asymmetric upside if it catches. Risky because unproven name, but the air-drop-top-holders gimmick is exactly the kind of viral hook that pumps in memecoin markets."
+    },
+    {
+      "time": "2026-09-12 22:00 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $RISE at $8.49265e-06 | P&L: +20.1%",
+      "reason": "Up +20.1% and bonding curve just at $2.2k pool — thin liquidity means any retrace will be violent. Lock half the gain at this round-number resistance level, let the rest ride if attention keeps coming."
     }
   ],
   "trade_stats": {
-    "total": 3407,
-    "wins": 1579,
+    "total": 3408,
+    "wins": 1580,
     "losses": 1828,
-    "win_rate_pct": 46.3,
-    "total_pnl_sol": 23.24351,
+    "win_rate_pct": 46.4,
+    "total_pnl_sol": 23.248693,
     "avg_pnl_pct": 36.65,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 334,
-    "today_realized_sol": 18.210414,
-    "today_target_pct": 4552.6,
+    "today_trades": 335,
+    "today_realized_sol": 18.215597,
+    "today_target_pct": 4553.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1579,
+      "win_count": 1580,
       "loss_count": 1828,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T21:58:52.102114+00:00",
+  "last_llm_brief_at": "2026-09-12T22:00:12.260046+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "DWdSUsEpRx2n3FBcvnbJLEuBJj5awm73KGrWUpZtpump": {
+      "price_usd": 8.492653396127845e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2222.7913006810795,
+      "volume_h24": 2154.83,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 21.908055398
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
