@@ -1,8 +1,37 @@
 {
-  "balance_sol": 16.151053,
+  "balance_sol": 16.101053,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "21jZSpCK1ZocY21j3mj7SzEBbRWbZ2kQ14wmQphopump": {
+      "symbol": "HODLOOR",
+      "name": "THE HODLOOR",
+      "mint": "21jZSpCK1ZocY21j3mj7SzEBbRWbZ2kQ14wmQphopump",
+      "amount": 52620.506898812964,
+      "entry_price_usd": 9.696029743330153e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T16:01:16.405831+00:00",
+      "entry_time_iso": "2026-09-12T16:01:16.405840+00:00",
+      "entry_usd_value": 5.1021,
+      "last_seen_price_usd": 9.696029743330153e-05,
+      "entry_liquidity_usd": 1087.318551218274,
+      "entry_pool_sol": 10.655598197,
+      "entry_market_cap_usd": 3481.30188475308,
+      "entry_signals": {
+        "liquidity_usd": 1087.318551218274,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3481.30188475308,
+        "ath_market_cap_usd": 4147.157742809565,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 10.655598197,
+        "description": "",
+        "twitter": "https://x.com/derivativist/status/2098802286541631869?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57234,17 +57263,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T15:59:59.095634+00:00",
+  "last_updated": "2026-09-12T16:01:16.406012+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.033,
-  "portfolio_value_usd": 1647.94,
+  "last_sol_price_usd": 102.042,
+  "portfolio_value_usd": 1648.09,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 15:29 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $KEYCAT at $2.90106e-05 | P&L: +39.6%",
-      "reason": "+39.6% in 0h — already past the +30% threshold (auto-TP at 25%) but the bot flags our share=0% on bonding curve and pool is only $6.7k (shallow). Lock the 39.6% gain now; the rules say aggressive profit-taking when up >20% with any doubt. Don't hold for the next leg on a thin bonding-curve token where we can't even measure our share."
-    },
     {
       "time": "2026-09-12 15:36 UTC",
       "action": "buy",
@@ -57358,6 +57381,12 @@
       "action": "sell",
       "details": "[v8.7 TP +50% (full)] $Alon at $9.49144e-05 | P&L: +2063.1%",
       "reason": "Auto take-profit at +2063.0%"
+    },
+    {
+      "time": "2026-09-12 16:01 UTC",
+      "action": "buy",
+      "details": "[LLM] $HODLOOR at $9.69603e-05, spent 0.05 SOL",
+      "reason": "$HODLOOR is a fresh 0.5min launch with crypto-native meme name (HODL + lore) that resonates with CT attention. Sub-$4k mcap = early attention window, X link present. Sizing at 0.05 SOL per v7 discipline — small, viral narrative, easy exit if it doesn't move within 15 min."
     }
   ],
   "trade_stats": {
@@ -57379,21 +57408,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T15:59:59.095602+00:00",
+  "last_llm_brief_at": "2026-09-12T16:01:14.958780+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "CoruBHHrniC8VKat41fx7ogen993PpYJz97Zhk4Bpump": {
-      "price_usd": 9.49144186058188e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 1.224396e-06,
-      "volume_h24": 2993.73,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.2e-08
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
