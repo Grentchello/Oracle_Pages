@@ -22951,3 +22951,6 @@
 ## [2026-09-12 09:58 UTC] sell | [rapid-drop] $WOWCOIN crashed >15% in one tick | P&L: -87.2%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 10:01 UTC] buy | [LLM] $🐂🀄️ at $3.473e-06, spent 0.05 SOL
+- **Reasoning:** Freshest launch (0.7min), Bondoooor is a recognized CT launch driver, 'The Herd' taps into the current community-meta narrative that's pumping on CT. 0.1 SOL entry to test the fresh-attention edge.
+
