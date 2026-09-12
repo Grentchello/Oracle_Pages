@@ -23491,3 +23491,6 @@
 ## [2026-09-12 15:15 UTC] sell | [FULL][LLM] $Charizard at $1.74825e-06 | P&L: -7.2%
 - **Reasoning:** $Charizard is only -7.2% and held 0.0h. Pokemon narrative has viral attention potential (Charizard is iconic). Not near -25% hard cap or stale exit. Giving it more time to find a bounce before cutting.
 
+## [2026-09-12 15:21 UTC] buy | [LLM] $Human at $4.61e-06, spent 0.05 SOL
+- **Reasoning:** $Human has the strongest narrative (humanity/AI discourse is trending), twitter signal present, $4.2k mcap at 1.1min — earliest cheap entry with real story. 0.1 SOL position.
+
