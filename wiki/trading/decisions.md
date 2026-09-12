@@ -23596,3 +23596,6 @@
 ## [2026-09-12 16:19 UTC] sell | [rapid-drop] $POOH crashed >15% in one tick | P&L: -21.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 16:22 UTC] buy | [LLM] $CRT at $3.213e-06, spent 0.05 SOL
+- **Reasoning:** $CRT has a clear retro/nostalgia narrative (1986 CRT vibe for degen traders), an X presence (crt86vibe), and is at $4k mcap with bond 15% — pure fresh launch with attention hook. Position sized 0.05 SOL per bot rules.
+
