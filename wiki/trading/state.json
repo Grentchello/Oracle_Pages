@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.123029,
+  "balance_sol": 13.173643,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HFgBy2zMFWgP8hz5X7ZA763RegKxxTAg43L6MmXCpump": {
-      "symbol": "CAT",
-      "name": "Meowcrosoft",
-      "mint": "HFgBy2zMFWgP8hz5X7ZA763RegKxxTAg43L6MmXCpump",
-      "amount": 1448466.780238501,
-      "entry_price_usd": 3.522e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T07:01:36.583958+00:00",
-      "entry_time_iso": "2026-09-12T07:01:36.583968+00:00",
-      "entry_usd_value": 5.101500000000001,
-      "last_seen_price_usd": 3.522e-06,
-      "entry_liquidity_usd": 427.07389138881,
-      "entry_pool_sol": 4.185767827,
-      "entry_market_cap_usd": 4053.4017894176627,
-      "entry_signals": {
-        "liquidity_usd": 427.07389138881,
-        "volume_24h_usd": 710.98,
-        "market_cap_usd": 4053.4017894176627,
-        "ath_market_cap_usd": 4053.4017894176627,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.185767827,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53709,19 +53680,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.592479,
       "partial": false
+    },
+    {
+      "mint": "HFgBy2zMFWgP8hz5X7ZA763RegKxxTAg43L6MmXCpump",
+      "symbol": "CAT",
+      "name": "Meowcrosoft",
+      "amount_sold": 1448466.780238501,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T07:01:36.583958+00:00",
+      "entry_time_iso": "2026-09-12T07:01:36.583968+00:00",
+      "exit_time": "2026-09-12T07:03:08.960483+00:00",
+      "exit_time_iso": "2026-09-12T07:03:08.960492+00:00",
+      "entry_price_usd": 3.522e-06,
+      "exit_price_usd": 3.5488223593478774e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050614,
+      "pnl_sol": 0.000614,
+      "pnl_pct": 0.76,
+      "exit_reason": "LLM: sell_all — $CAT is +0.8% after just entering on bonding curve with $359 pool. Too early to judge - let it breathe for a few minutes. Will reassess on next tick; ",
+      "entry_liquidity_usd": 427.07,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 4.1858,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 92.376545,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T07:01:36.584144+00:00",
+  "last_updated": "2026-09-12T07:03:08.961070+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.03,
-  "portfolio_value_usd": 1344.04,
+  "last_sol_price_usd": 101.56,
+  "portfolio_value_usd": 1337.92,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 06:40 UTC",
-      "action": "buy",
-      "details": "[LLM] $WIF at $4.891e-06, spent 0.05 SOL",
-      "reason": "$WIF 'Cat Wif Crab' has the animal-meme narrative that historically pumps hardest (WIF, DOGE, PEPE lineage). X post from Mrdevsol provides attention signal, 1.2min age means maximum upside before alpha extracts. Risk: very fresh, low mcap $4k — but that's where the 10x lives."
-    },
     {
       "time": "2026-09-12 06:41 UTC",
       "action": "sell",
@@ -53835,30 +53824,48 @@
       "action": "buy",
       "details": "[LLM] $CAT at $3.522e-06, spent 0.05 SOL",
       "reason": "$CAT (Meowcrosoft) — classic cat+tech-company parody format with universal recognition, $4k mcap gives massive 10x+ runway, meme format that spreads naturally on X/Reddit. Strongest narrative among candidates."
+    },
+    {
+      "time": "2026-09-12 07:03 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CAT at $3.54882e-06 | P&L: +0.8%",
+      "reason": "$CAT is +0.8% after just entering on bonding curve with $359 pool. Too early to judge - let it breathe for a few minutes. Will reassess on next tick; auto-stops handle downside."
     }
   ],
   "trade_stats": {
-    "total": 3155,
-    "wins": 1471,
+    "total": 3156,
+    "wins": 1472,
     "losses": 1684,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.956842,
-    "avg_pnl_pct": 29.67,
+    "total_pnl_sol": 8.957456,
+    "avg_pnl_pct": 29.66,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 82,
-    "today_realized_sol": 3.923746,
-    "today_target_pct": 980.9,
+    "today_trades": 83,
+    "today_realized_sol": 3.92436,
+    "today_target_pct": 981.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1471,
+      "win_count": 1472,
       "loss_count": 1684,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T07:01:34.998983+00:00",
+  "last_llm_brief_at": "2026-09-12T07:03:08.959845+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HFgBy2zMFWgP8hz5X7ZA763RegKxxTAg43L6MmXCpump": {
+      "price_usd": 3.5488223593478774e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 359.35153393260003,
+      "volume_h24": 1619.16,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.538317585
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
