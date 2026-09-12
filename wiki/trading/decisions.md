@@ -22552,3 +22552,6 @@
 ## [2026-09-12 05:47 UTC] buy | [LLM] $TSM at $3.155e-06, spent 0.05 SOL
 - **Reasoning:** $TSM backed by Brian Roemmele (~750k followers), visually distinctive 'ancient carved stone figures' narrative is highly shareable, has description, sub-1min age has viral first-hour potential. Risks: mcap only $3.2k, bond only 6% complete, thin liquidity could mean wicks both ways.
 
+## [2026-09-12 05:48 UTC] sell | [FULL][LLM] $TSM at $3.20797e-06 | P&L: +1.7%
+- **Reasoning:** TSM is essentially breakeven (+1.7%) after fresh entry with tiny liquidity ($184 pool). No momentum signal, stale before it starts. Lock the slot for fresher attention.
+
