@@ -1,17 +1,17 @@
 {
-  "balance_sol": 13.209436,
+  "balance_sol": 13.23738,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
     "4y9sguMG2KFppiCUzmvTCXJ4KNsHafXioMMBX1hbpump": {
       "symbol": "peach",
       "name": "peach",
-      "amount": 1141749.1007194247,
+      "amount": 570874.5503597123,
       "entry_price_usd": 4.448e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-12T05:01:35.245305+00:00",
       "entry_usd_value": 5.0785,
-      "last_seen_price_usd": 4.448e-06,
+      "last_seen_price_usd": 4.971385903778747e-06,
       "entry_signals": {
         "liquidity_usd": 1032.7833969343799,
         "volume_24h_usd": 5577.64,
@@ -52999,19 +52999,30 @@
       "pnl_pct": 6.29,
       "exit_reason": "LLM: sell_all — Tiny pool ($399) with our 1% share means even modest selling will move the price against us. Up only 6.3% with no momentum signal, still on bonding cu",
       "partial": false
+    },
+    {
+      "mint": "4y9sguMG2KFppiCUzmvTCXJ4KNsHafXioMMBX1hbpump",
+      "symbol": "peach",
+      "name": "peach",
+      "amount_sold": 570874.5503597123,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-12T05:01:35.245305+00:00",
+      "exit_time": "2026-09-12T05:02:49.940264+00:00",
+      "entry_price_usd": 4.448e-06,
+      "exit_price_usd": 4.971385903778747e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.027944,
+      "pnl_sol": 0.002944,
+      "pnl_pct": 11.77,
+      "exit_reason": "LLM: sell_half — $peach is +11.8% but only 0.0h held on a $985 bonding curve pool — thin liquidity, easy to fade. Take half off to lock the gain and free the slot; let",
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-12T05:01:35.245563+00:00",
+  "last_updated": "2026-09-12T05:02:49.940531+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.57,
-  "portfolio_value_usd": 1346.76,
+  "last_sol_price_usd": 101.56,
+  "portfolio_value_usd": 1346.93,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 04:15 UTC",
-      "action": "buy",
-      "details": "[LLM] $HTML at $9.851e-06, spent 0.05 SOL",
-      "reason": "$HTML pump +184% in 5min on 'Hope This Moons Later' narrative, 170 buys vs 102 sells (1.67 buy/sell ratio = real demand), mcap $9.8k with viral ticker story. Fits viability (twitter link present). High risk but right kind of attention play."
-    },
     {
       "time": "2026-09-12 04:17 UTC",
       "action": "sell",
@@ -53125,30 +53136,48 @@
       "action": "buy",
       "details": "[LLM] $peach at $4.448e-06, spent 0.05 SOL",
       "reason": "Freshest launch with attached twitter link from a real-looking account (herrdevs), $5.5k mcap, bond22% means curve still filling. Attention signal exists.0.1 SOL test entry to observe viability gate behavior and early price action. Risk: no liquidity depth, possible rug, may be a throwaway."
+    },
+    {
+      "time": "2026-09-12 05:02 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $peach at $4.97139e-06 | P&L: +11.8%",
+      "reason": "$peach is +11.8% but only 0.0h held on a $985 bonding curve pool — thin liquidity, easy to fade. Take half off to lock the gain and free the slot; let the rest ride if it keeps pumping."
     }
   ],
   "trade_stats": {
-    "total": 3116,
-    "wins": 1453,
+    "total": 3117,
+    "wins": 1454,
     "losses": 1663,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 9.043249,
-    "avg_pnl_pct": 30.12,
+    "total_pnl_sol": 9.046193,
+    "avg_pnl_pct": 30.11,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 43,
-    "today_realized_sol": 4.010153,
-    "today_target_pct": 1002.5,
+    "today_trades": 44,
+    "today_realized_sol": 4.013097,
+    "today_target_pct": 1003.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1453,
+      "win_count": 1454,
       "loss_count": 1663,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:01:33.925358+00:00",
+  "last_llm_brief_at": "2026-09-12T05:02:49.940227+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "4y9sguMG2KFppiCUzmvTCXJ4KNsHafXioMMBX1hbpump": {
+      "price_usd": 4.971385903778747e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 984.64345912748,
+      "volume_h24": 6493.39,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 9.695189633
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

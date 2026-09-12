@@ -22468,3 +22468,6 @@
 ## [2026-09-12 05:01 UTC] buy | [LLM] $peach at $4.448e-06, spent 0.05 SOL
 - **Reasoning:** Freshest launch with attached twitter link from a real-looking account (herrdevs), $5.5k mcap, bond22% means curve still filling. Attention signal exists.0.1 SOL test entry to observe viability gate behavior and early price action. Risk: no liquidity depth, possible rug, may be a throwaway.
 
+## [2026-09-12 05:02 UTC] sell | [PARTIAL][LLM] $peach at $4.97139e-06 | P&L: +11.8%
+- **Reasoning:** $peach is +11.8% but only 0.0h held on a $985 bonding curve pool — thin liquidity, easy to fade. Take half off to lock the gain and free the slot; let the rest ride if it keeps pumping.
+
