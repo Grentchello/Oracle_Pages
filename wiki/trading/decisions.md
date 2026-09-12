@@ -22417,3 +22417,6 @@
 ## [2026-09-12 04:17 UTC] buy | [LLM] $Casino at $3.919e-06, spent 0.05 SOL
 - **Reasoning:** Casino meta ties directly to the $DD blackjack launch minutes earlier — narrative reinforcement across two launches in the same meta is a real attention signal. Sub-$4k mcap with twitter present and viability gates passing. Risk: 12% bond is thin liquidity, and meta-correlation trades can collapse fast if either token rugs — sizing small and watching for early momentum.
 
+## [2026-09-12 04:18 UTC] sell | [FULL][LLM] $Casino at $4.02407e-06 | P&L: +2.7%
+- **Reasoning:** Just entered at +2.7%, bonding curve, 0.0h held. No reason to bail yet — need15+ min to see if attention materializes. Will re-evaluate on staleness.
+
