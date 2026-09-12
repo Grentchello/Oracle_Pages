@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.14108,
+  "balance_sol": 13.191141,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5McijBwy3wCrQQ49QpP3fXtocfmTPVBPNLaDhKY2pump": {
-      "symbol": "XCC",
-      "name": "XRP CLARITY COIN",
-      "amount": 548607.8262739197,
-      "entry_price_usd": 9.302e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T06:37:58.878810+00:00",
-      "entry_usd_value": 5.10315,
-      "last_seen_price_usd": 9.302e-06,
-      "entry_signals": {
-        "liquidity_usd": 2475.313985581437,
-        "volume_24h_usd": 2467.48,
-        "market_cap_usd": 9299.173754049232,
-        "ath_market_cap_usd": 9299.173754049232,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 24.252804499,
-        "description": "XRP CLARITY COIN ($XCC) 🇺🇸 Built around the CLARITY Act and its potential impact on $XRP and crypto in America. $30,000,000,000,000+ could be unlocked for crypto. September 15 could change everything. $XCC.",
-        "twitter": "https://x.com/Steph_iscrypto",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53492,19 +53468,30 @@
       "pnl_pct": -33.41,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "5McijBwy3wCrQQ49QpP3fXtocfmTPVBPNLaDhKY2pump",
+      "symbol": "XCC",
+      "name": "XRP CLARITY COIN",
+      "amount_sold": 548607.8262739197,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T06:37:58.878810+00:00",
+      "exit_time": "2026-09-12T06:39:13.460605+00:00",
+      "entry_price_usd": 9.302e-06,
+      "exit_price_usd": 9.267459957880082e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050061,
+      "pnl_sol": 6.1e-05,
+      "pnl_pct": -0.37,
+      "exit_reason": "LLM: sell_all — Just entered at -0.4%, only 0.0h held. Tiny deviation, no signal yet. Give it a few minutes to develop — bonding curve is still forming at $2458 pool.",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T06:37:58.878985+00:00",
+  "last_updated": "2026-09-12T06:39:13.460852+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.063,
-  "portfolio_value_usd": 1346.32,
+  "last_sol_price_usd": 101.56,
+  "portfolio_value_usd": 1339.69,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 05:59 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $AMD crashed >15% in one tick | P&L: -53.9%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 05:59 UTC",
       "action": "buy",
@@ -53618,30 +53605,48 @@
       "action": "buy",
       "details": "[LLM] $XCC at $9.302e-06, spent 0.05 SOL",
       "reason": "$XCC is the only candidate that passes the viability gate (description ≥50 chars + twitter present). Tied to the CLARITY Act/XRP regulatory narrative — a real piece of crypto legislative news with genuine X attention from @Steph_iscrypto. $9.3k mcap at 1.2min is fresh launch territory; deep liquidity risk but the narrative hook is the strongest of the batch. Sizing 0.05 SOL keeps the loss bounded if fragility gate flags it on GMGN check."
+    },
+    {
+      "time": "2026-09-12 06:39 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $XCC at $9.26746e-06 | P&L: -0.4%",
+      "reason": "Just entered at -0.4%, only 0.0h held. Tiny deviation, no signal yet. Give it a few minutes to develop — bonding curve is still forming at $2458 pool."
     }
   ],
   "trade_stats": {
-    "total": 3145,
-    "wins": 1467,
+    "total": 3146,
+    "wins": 1468,
     "losses": 1678,
-    "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.974893,
-    "avg_pnl_pct": 29.78,
+    "win_rate_pct": 46.7,
+    "total_pnl_sol": 8.974954,
+    "avg_pnl_pct": 29.77,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 72,
-    "today_realized_sol": 3.941797,
-    "today_target_pct": 985.4,
+    "today_trades": 73,
+    "today_realized_sol": 3.941858,
+    "today_target_pct": 985.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1467,
+      "win_count": 1468,
       "loss_count": 1678,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T06:37:57.576011+00:00",
+  "last_llm_brief_at": "2026-09-12T06:39:13.460527+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5McijBwy3wCrQQ49QpP3fXtocfmTPVBPNLaDhKY2pump": {
+      "price_usd": 9.267459957880082e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2457.5012346494,
+      "volume_h24": 2467.48,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 24.197530865
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
