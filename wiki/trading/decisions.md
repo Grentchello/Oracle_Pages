@@ -24094,3 +24094,6 @@
 ## [2026-09-12 21:18 UTC] buy | [LLM] $KEMO at $6.02024e-06, spent 0.05 SOL
 - **Reasoning:** $KEMO at 0.5min, $6k mcap, 24% bonding — classic early launch window. Narrative 'Kemo Family' is weak (no obvious cult/controversy hook, low-key twitter account), but viability/fragility gates appear passed (twitter link present, no political keywords). Position is tiny (0.1 SOL / $10) on a 27+ SOL balance, so risk is bounded at -$2.50. Default bias is to take the trade and learn — skipping teaches nothing, and a10x from $6k mcap pays for many weak-narrative losers.
 
+## [2026-09-12 21:19 UTC] sell | [rapid-drop] $KEMO crashed >15% in one tick | P&L: -52.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
