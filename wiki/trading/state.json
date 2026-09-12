@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.185219,
+  "balance_sol": 13.239338,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4FhbCb4AzRHaNpCpCaDB1EJwHjwakZJ8FE4FuPxJpump": {
-      "symbol": "POW",
-      "name": "Pepe of Wallstreet ",
-      "amount": 1482346.9221395585,
-      "entry_price_usd": 3.442851281152066e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T04:22:26.274506+00:00",
-      "entry_usd_value": 5.1035,
-      "last_seen_price_usd": 3.442851281152066e-06,
-      "entry_signals": {
-        "liquidity_usd": 380.70024240378,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3428.612770257777,
-        "ath_market_cap_usd": 4087.051750365277,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.729795654,
-        "description": "Pepe of wallstreet ",
-        "twitter": "https://x.com/richogfrog?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52880,19 +52856,30 @@
       "pnl_pct": 2.68,
       "exit_reason": "LLM: sell_all — Just entered at +2.7%, bonding curve, 0.0h held. No reason to bail yet — need15+ min to see if attention materializes. Will re-evaluate on staleness.",
       "partial": false
+    },
+    {
+      "mint": "4FhbCb4AzRHaNpCpCaDB1EJwHjwakZJ8FE4FuPxJpump",
+      "symbol": "POW",
+      "name": "Pepe of Wallstreet ",
+      "amount_sold": 1482346.9221395585,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T04:22:26.274506+00:00",
+      "exit_time": "2026-09-12T04:23:50.942726+00:00",
+      "entry_price_usd": 3.442851281152066e-06,
+      "exit_price_usd": 3.7283164700211256e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.054119,
+      "pnl_sol": 0.004119,
+      "pnl_pct": 8.29,
+      "exit_reason": "LLM: sell_all — Up +8.3% and just opened — give it a few minutes. Thin liquidity ($437 pool, 1% our share) means any other seller will crater price; will exit immedia",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T04:22:26.274685+00:00",
+  "last_updated": "2026-09-12T04:23:50.942941+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.07,
-  "portfolio_value_usd": 1350.92,
+  "last_sol_price_usd": 102.12,
+  "portfolio_value_usd": 1352.0,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:47 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $VAMPGPT at $2.9807e-06 | P&L: -2.9%",
-      "reason": "Just entered, -2.9% is noise, no signal yet. Giving it a few minutes to see if the VAMP/GPT narrative develops before deciding."
-    },
     {
       "time": "2026-09-12 03:49 UTC",
       "action": "buy",
@@ -53006,30 +52993,48 @@
       "action": "buy",
       "details": "[LLM] $POW at $3.44285e-06, spent 0.05 SOL",
       "reason": "$POW 'Pepe of Wallstreet' is a strong narrative crossover (WSB + Pepe meta), passes viability gate (has twitter), bond only 8% complete means extreme risk but also extreme upside if it grabs attention. Position size 0.1 SOL respects the -25% hard cap. Will watch for 2x before considering exit."
+    },
+    {
+      "time": "2026-09-12 04:23 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $POW at $3.72832e-06 | P&L: +8.3%",
+      "reason": "Up +8.3% and just opened — give it a few minutes. Thin liquidity ($437 pool, 1% our share) means any other seller will crater price; will exit immediately on first sign of weakness or if it stalls flat for 10+ min."
     }
   ],
   "trade_stats": {
-    "total": 3109,
-    "wins": 1448,
+    "total": 3110,
+    "wins": 1449,
     "losses": 1661,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 9.019032,
-    "avg_pnl_pct": 30.17,
+    "total_pnl_sol": 9.023151,
+    "avg_pnl_pct": 30.16,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 36,
-    "today_realized_sol": 3.985936,
-    "today_target_pct": 996.5,
+    "today_trades": 37,
+    "today_realized_sol": 3.990055,
+    "today_target_pct": 997.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1448,
+      "win_count": 1449,
       "loss_count": 1661,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T04:22:24.921805+00:00",
+  "last_llm_brief_at": "2026-09-12T04:23:50.942588+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "4FhbCb4AzRHaNpCpCaDB1EJwHjwakZJ8FE4FuPxJpump": {
+      "price_usd": 3.7283164700211256e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 437.24011115328005,
+      "volume_h24": 2193.1,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4.281630544
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

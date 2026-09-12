@@ -22423,3 +22423,6 @@
 ## [2026-09-12 04:22 UTC] buy | [LLM] $POW at $3.44285e-06, spent 0.05 SOL
 - **Reasoning:** $POW 'Pepe of Wallstreet' is a strong narrative crossover (WSB + Pepe meta), passes viability gate (has twitter), bond only 8% complete means extreme risk but also extreme upside if it grabs attention. Position size 0.1 SOL respects the -25% hard cap. Will watch for 2x before considering exit.
 
+## [2026-09-12 04:23 UTC] sell | [FULL][LLM] $POW at $3.72832e-06 | P&L: +8.3%
+- **Reasoning:** Up +8.3% and just opened — give it a few minutes. Thin liquidity ($437 pool, 1% our share) means any other seller will crater price; will exit immediately on first sign of weakness or if it stalls flat for 10+ min.
+
