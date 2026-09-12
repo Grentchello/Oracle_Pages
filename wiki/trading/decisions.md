@@ -23395,3 +23395,6 @@
 ## [2026-09-12 14:13 UTC] sell | [FULL][LLM] $Trauma at $3.09417e-06 | P&L: -11.9%
 - **Reasoning:** $Trauma at -11.9% is below the -20% panic line and only just entered (0.0h). Bonding curve pool still has $128 liquidity and4% share isn't yet diluted. Give it a few ticks to bounce or confirm weakness before cutting.
 
+## [2026-09-12 14:15 UTC] buy | [LLM] $POPSPER at $4.029e-06, spent 0.05 SOL
+- **Reasoning:** Wait — mint appears truncated. Cannot validate address format. Skipping malformed entry.
+
