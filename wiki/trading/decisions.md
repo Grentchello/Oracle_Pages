@@ -22756,3 +22756,9 @@
 ## [2026-09-12 07:27 UTC] sell | [PARTIAL][LLM] $GPU at $6.65812e-06 | P&L: +20.2%
 - **Reasoning:** $GPU is up +20.2% — right at my 'take profit if you have any doubt' threshold. Bonding-curve phase with $1614 pool is thin and reversal risk is real. Lock half the gain and let the other half ride if it keeps pumping.
 
+## [2026-09-12 07:28 UTC] sell | [rapid-drop] $GPU crashed >15% in one tick | P&L: -48.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 07:28 UTC] buy | [LLM] $TCAT at $9.74e-06, spent 0.05 SOL
+- **Reasoning:** Tesla Cat blends two viral meme archetypes (Tesla/crypto-cult + catcoins like POPCAT). Has Twitter presence (TCATotc), 2.4min old at $8.9k mcap = extreme early. Bond 30% shows real buy pressure. Risk: ultra-low mcap = whale-raggable, but max loss is capped at 0.025 SOL (-25%). Asymmetric upside if narrative catches.
+
