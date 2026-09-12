@@ -22372,3 +22372,6 @@
 ## [2026-09-12 03:50 UTC] sell | [rapid-drop] $bundloor crashed >15% in one tick | P&L: -22.2%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 03:51 UTC] buy | [LLM] $SUPER DOGE at $3.77e-06, spent 0.05 SOL
+- **Reasoning:** SUPER DOGE has a clear superhero narrative, active Twitter (LaunchX2_), description meets viability gate. Fresh1.5min launch at $3.7k mcap is prime attention-market entry. Risk: narrative is generic doge variant, but attention signal is present.
+
