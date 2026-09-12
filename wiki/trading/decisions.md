@@ -24427,3 +24427,9 @@
 ## [2026-09-12 23:41 UTC] buy | [LLM] $ORALCLE at $4.60847e-06, spent 0.05 SOL
 - **Reasoning:** Oralcle = Oracle pun, classic pump.fun-native humor. catalyst100x twitter call is a real attention signal at 0.5min age. $4.6k mcap is ulta-early but the wordplay + catalyst post is the kind of narrative that catches on. Position size 0.1 SOL, hard stop at -25% caps risk at 0.025 SOL — worth the discovery bet on a fresh slate.
 
+## [2026-09-12 23:42 UTC] sell | [rapid-drop] $ORALCLE crashed >15% in one tick | P&L: -35.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 23:42 UTC] buy | [LLM] $DEAD at $2.918e-06, spent 0.05 SOL
+- **Reasoning:** $DEAD has the strongest narrative of the batch — 'first memecoin with zero marketing' is a self-aware meta-meme that's been pumping on CT. Passes viability gate (long desc, twitter link). Bond at 13%, mcap $3.9k — ultra early but that's where alpha is. 0.05 SOL size keeps risk tiny on the first learning trade.
+
