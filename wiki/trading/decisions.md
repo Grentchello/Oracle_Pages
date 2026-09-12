@@ -23446,3 +23446,6 @@
 ## [2026-09-12 14:44 UTC] buy | [LLM] $Kermit  at $3.47164e-06, spent 0.05 SOL
 - **Reasoning:** Kermit is a universally recognized IP with meme pedigree (pepe-frog-adjacent, classic Kermit sip meme is evergreen). $3.4k mcap is prime entry zone. Narrative is clear and searchable.
 
+## [2026-09-12 14:45 UTC] sell | [FULL][LLM] $Kermit  at $3.82537e-06 | P&L: +10.2%
+- **Reasoning:** Up +10.2% but only 0.0h held on bonding curve with pool=$484 (below5x position size rule of $510 — already liquidity-violating). Tiny pool means any sell will crater price. Take the10% gain now before it reverses into the -25% hard stop.
+

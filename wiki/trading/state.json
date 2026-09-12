@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.770059,
+  "balance_sol": 12.825161,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3ShYRQgdR7ErbSkX7xikSZuLoNmXCje7PyDasM66pump": {
-      "symbol": "Kermit ",
-      "name": "Kermit ",
-      "mint": "3ShYRQgdR7ErbSkX7xikSZuLoNmXCje7PyDasM66pump",
-      "amount": 1469678.6170524347,
-      "entry_price_usd": 3.4716433516824893e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T14:44:16.035553+00:00",
-      "entry_time_iso": "2026-09-12T14:44:16.035560+00:00",
-      "entry_usd_value": 5.1022,
-      "last_seen_price_usd": 3.4716433516824893e-06,
-      "entry_liquidity_usd": 408.34020257194,
-      "entry_pool_sol": 4.001609135,
-      "entry_market_cap_usd": 3471.847477942829,
-      "entry_signals": {
-        "liquidity_usd": 408.34020257194,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3471.847477942829,
-        "ath_market_cap_usd": 3471.847477942829,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.001609135,
-        "description": "KERMIT ON SOLANA",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56781,19 +56752,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 75.463415,
       "partial": false
+    },
+    {
+      "mint": "3ShYRQgdR7ErbSkX7xikSZuLoNmXCje7PyDasM66pump",
+      "symbol": "Kermit ",
+      "name": "Kermit ",
+      "amount_sold": 1469678.6170524347,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T14:44:16.035553+00:00",
+      "entry_time_iso": "2026-09-12T14:44:16.035560+00:00",
+      "exit_time": "2026-09-12T14:45:29.146330+00:00",
+      "exit_time_iso": "2026-09-12T14:45:29.146333+00:00",
+      "entry_price_usd": 3.4716433516824893e-06,
+      "exit_price_usd": 3.825373436181155e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.055102,
+      "pnl_sol": 0.005102,
+      "pnl_pct": 10.19,
+      "exit_reason": "LLM: sell_all — Up +10.2% but only 0.0h held on bonding curve with pool=$484 (below5x position size rule of $510 — already liquidity-violating). Tiny pool means any s",
+      "entry_liquidity_usd": 408.34,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 4.0016,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 73.110793,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T14:44:16.035725+00:00",
+  "last_updated": "2026-09-12T14:45:29.146634+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.044,
-  "portfolio_value_usd": 1308.21,
+  "last_sol_price_usd": 102.03,
+  "portfolio_value_usd": 1308.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 14:03 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $VOID at $6.63997e-06 | P&L: +8.1%",
-      "reason": "Up +8.1% with 0h held — fresh entry, not stale yet, and only 0% bonding curve progress so still early. Give it a chance to run toward the +30% TP threshold before rotating capital."
-    },
     {
       "time": "2026-09-12 14:11 UTC",
       "action": "buy",
@@ -56907,40 +56896,46 @@
       "action": "buy",
       "details": "[LLM] $Kermit  at $3.47164e-06, spent 0.05 SOL",
       "reason": "Kermit is a universally recognized IP with meme pedigree (pepe-frog-adjacent, classic Kermit sip meme is evergreen). $3.4k mcap is prime entry zone. Narrative is clear and searchable."
+    },
+    {
+      "time": "2026-09-12 14:45 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Kermit  at $3.82537e-06 | P&L: +10.2%",
+      "reason": "Up +10.2% but only 0.0h held on bonding curve with pool=$484 (below5x position size rule of $510 — already liquidity-violating). Tiny pool means any sell will crater price. Take the10% gain now before it reverses into the -25% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 3283,
-    "wins": 1520,
+    "total": 3284,
+    "wins": 1521,
     "losses": 1763,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.603873,
-    "avg_pnl_pct": 28.28,
+    "total_pnl_sol": 8.608975,
+    "avg_pnl_pct": 28.27,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 210,
-    "today_realized_sol": 3.570777,
-    "today_target_pct": 892.7,
+    "today_trades": 211,
+    "today_realized_sol": 3.575879,
+    "today_target_pct": 894.0,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1520,
+      "win_count": 1521,
       "loss_count": 1763,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T14:44:14.294598+00:00",
+  "last_llm_brief_at": "2026-09-12T14:45:29.146280+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "AQCt3Wm96qovETKckWW1MgS6zmYw4rZLTAcNinmFpump": {
-      "price_usd": 3.449205678980748e-06,
+    "3ShYRQgdR7ErbSkX7xikSZuLoNmXCje7PyDasM66pump": {
+      "price_usd": 3.825373436181155e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 304.677366045408,
-      "volume_h24": 784.3,
+      "liquidity_usd": 483.65198980113007,
+      "volume_h24": 1143.86,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.985745032
+      "real_sol_reserves": 4.740291971
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
