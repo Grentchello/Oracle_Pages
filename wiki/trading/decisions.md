@@ -22315,3 +22315,6 @@
 ## [2026-09-12 03:27 UTC] sell | [FULL][LLM] $DOGE at $5.31694e-06 | P&L: +9.7%
 - **Reasoning:** $DOGE up +9.7%, held 0.0h, not stale, not at TP. Pool $1117 is thin but above min liquidity threshold; selling now into this depth would crash my own exit. Let it breathe toward +20% TP before locking profit.
 
+## [2026-09-12 03:29 UTC] buy | [LLM] $BN/BM at $3.747e-06, spent 0.05 SOL
+- **Reasoning:** $BN/BM has a DailyMail tweet (6M+ followers, mainstream viral potential), fresh 0.9min age, $3.7k mcap = low entry. Big Nose / Bad Mother is absurdist humor that fits meme culture. Risk: DailyMail tweet could be low-engagement or token could be unrelated pump-and-dump.
+
