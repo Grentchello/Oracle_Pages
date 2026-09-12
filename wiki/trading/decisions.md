@@ -23218,3 +23218,6 @@
 ## [2026-09-12 12:18 UTC] sell | [FULL][LLM] $Hoodtard at $9.83345e-06 | P&L: +9.6%
 - **Reasoning:** Held0.0h, only +9.6%, but narrative 'Hoodtard' is weak/no clear viral catalyst and I need to free the slot for stronger fresh launches like $$1 and $NEKO. Capital rotation beats holding a marginal name.
 
+## [2026-09-12 12:19 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
