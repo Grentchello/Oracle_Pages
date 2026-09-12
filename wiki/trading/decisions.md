@@ -24082,3 +24082,9 @@
 ## [2026-09-12 21:10 UTC] buy | [LLM] $BabyLime  at $0.000459401, spent 0.05 SOL
 - **Reasoning:** Babydoge-acquires-Limewire narrative = legacy IP + crypto nostalgia, proven meme format (acquisition-announcement parody coins have pumped). Has twitter signal, fresh 0.6min launch, $3.8k mcap = pure early attention. Risk: bond only 1% complete, very thin liquidity, but at 0.05 SOL position size the downside is contained.
 
+## [2026-09-12 21:11 UTC] sell | [FULL][LLM] $BabyLime  at $0.000460512 | P&L: +0.2%
+- **Reasoning:** Just entered at +0.2% with a 1-position slot locked, and there are multiple fresh-launch candidates with stronger narratives ($ALL meta-collectible, $TNT). Freeing the slot costs me nothing at break-even and gives me access to higher-alpha fresh launches.
+
+## [2026-09-12 21:11 UTC] buy | [LLM] $ALL at $0.001111, spent 0.05 SOL
+- **Reasoning:** $ALL meta-narrative ('hold one coin, collect every launch' — every new token drops a piece into $AL holders) is genuinely viral-worthy and rare. $1.1M mcap already with 43% bonded curve complete suggests real demand. Clear attention signal via dedicated @allonsolana twitter. Best narrative-to-mcap ratio on the board.
+
