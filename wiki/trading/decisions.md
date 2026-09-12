@@ -23359,3 +23359,6 @@
 ## [2026-09-12 13:51 UTC] sell | [PARTIAL][LLM] $Tecchan at $2.86068e-06 | P&L: -12.4%
 - **Reasoning:** Fresh entry (0.0h), -12.4% is normal noise, no stale/auto-exit trigger yet. 307% pool share is alarming but I just entered — give it 5-10 min to breathe. If it dumps to -25% the bot stops me; if it doesn't bounce by then I'll cut.
 
+## [2026-09-12 13:52 UTC] sell | [PARTIAL][LLM] $Tecchan at $2.84533e-06 | P&L: -54.5%
+- **Reasoning:** Down -12.9% with 306% share of a $0 pool — this is illiquid and dumping. -20% loss threshold is approaching fast; exit now to preserve capital for fresh launches.
+
