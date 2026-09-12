@@ -23983,3 +23983,6 @@
 ## [2026-09-12 20:09 UTC] sell | [FULL][LLM] $UMG at $1.09735e-05 | P&L: +7.5%
 - **Reasoning:** Just entered, +7.5% is noise. No reason to exit a fresh position that's barely green — let the narrative play out.
 
+## [2026-09-12 20:10 UTC] buy | [LLM] $ROCKAPEPE at $3.567e-06, spent 0.05 SOL
+- **Reasoning:** Pepe derivatives historically capture attention; rockabilly twist is a creative niche angle. Twitter presence meets viability gate. 0.7min age = pure early attention play. Low mcap = room to run if narrative catches. Risk: 13% bond = thin liquidity, may dump.
+
