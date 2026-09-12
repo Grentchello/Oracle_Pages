@@ -22381,3 +22381,6 @@
 ## [2026-09-12 03:53 UTC] buy | [LLM] $candle at $5.128e-06, spent 0.05 SOL
 - **Reasoning:** Fresh $candle launch (~0.6min) with viral X tweet from CyborgDeployed — clean candle/pop narrative has obvious meme energy. Tiny $4k mcap on a bonding curve with 14% filled, high attention-to-mcap ratio. Skip $CANDLE (same tweet, duplicate attention split).
 
+## [2026-09-12 03:54 UTC] sell | [FULL][LLM] $candle at $4.69082e-06 | P&L: -8.5%
+- **Reasoning:** $candle is only at -8.5%, well below the -20% hard-exit threshold, and just opened this tick (0.0h held). Bonding-curve pool is thin at $870 so any bounce will be sharp if buyers step in — giving it one more tick before I downgrade to sell_all on continued drift.
+
