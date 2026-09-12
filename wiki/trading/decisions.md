@@ -23647,3 +23647,9 @@
 ## [2026-09-12 16:40 UTC] buy | [LLM] $golden  at $3.27356e-06, spent 0.05 SOL
 - **Reasoning:** $golden just launched ~54s ago at $3.2k mcap. Name has strong narrative power ('golden hands' = diamond hands culture). Ultra-fresh = max attention runway. Risk: bonding curve only 6% complete, GMGN fragility data not fetched, but viability gate passes (name+description present, liquidity nascent). Sized 0.05 SOL per v7 rules — small enough to survive the stop.
 
+## [2026-09-12 16:41 UTC] sell | [FULL][LLM] $golden  at $3.36868e-06 | P&L: +2.9%
+- **Reasoning:** $golden is flat (+2.9%) on a $267 bonding-curve pool with no momentum signal — locking the small gain to free the slot for a fresher attention launch with more upside.
+
+## [2026-09-12 16:41 UTC] buy | [LLM] $delusional at $7.781e-06, spent 0.05 SOL
+- **Reasoning:** $delusional at $10k mcap with a YouTube video attached = real multimedia attention signal at the floor; memetic name + 1.1min age = classic fresh-launch setup with massive runway before any extraction.
+
