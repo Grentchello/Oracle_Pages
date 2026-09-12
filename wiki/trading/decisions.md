@@ -23782,3 +23782,6 @@
 ## [2026-09-12 18:05 UTC] sell | [PARTIAL][LLM] $SOLID at $4.53805e-06 | P&L: +33.3%
 - **Reasoning:** +33.3% in0.0h means bonding-curve momentum is real but thin (pool $801). Take half profit to lock the +33% gain and let the rest ride if narrative holds; rule says sell_half is the move when up >20% and liquidity is shaky.
 
+## [2026-09-12 18:06 UTC] sell | [rapid-drop] $SOLID crashed >15% in one tick | P&L: -15.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
