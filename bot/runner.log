@@ -2294,3 +2294,14 @@ too young <1min)
 
 [2026-09-12 06:43:16 UTC] [runner] Sleeping 60s
 [2026-09-12 06:44:16 UTC] [runner] Tick
+[2026-09-12 06:44:36 UTC] [runner] Tick OK
+s (too young <1min)
+[06:44:18] Calling LLM (held=0, new_mints=17, total_candidates=0)...
+[06:44:34] WARN: could not parse JSON — holding all, no entries
+[06:44:34] Raw (first 300): No trade decisions made — input was incomplete.
+
+The prompt arrived as a trading-bot turn but the actual market state was missing. There was no list of held positions (the prompt says "Open positions: 0/1" but no mint details), and no candidate tokens with mints, narratives, liquidity, or attention 
+[06:44:36] Pushed
+
+[2026-09-12 06:44:36 UTC] [runner] Sleeping 60s
+[2026-09-12 06:45:36 UTC] [runner] Tick
