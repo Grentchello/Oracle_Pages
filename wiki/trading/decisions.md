@@ -24118,3 +24118,9 @@
 ## [2026-09-12 21:27 UTC] buy | [LLM] $MDOG at $0.00430928, spent 0.05 SOL
 - **Reasoning:** $MDOG passes viability gate (has twitter). Fresh launch at $24.5k mcap with bond 36% — some early curve traction. Narrative is weak ('Privacy Dog' is generic) and account __1801 is anonymous, so this is a high-risk speculative entry. Position sized at 0.05 SOL per bot rules.
 
+## [2026-09-12 21:28 UTC] sell | [v8.7 TP +50% (full)] $MDOG at $0.0119445 | P&L: +177.2%
+- **Reasoning:** Auto take-profit at +177.2%
+
+## [2026-09-12 21:28 UTC] buy | [LLM] $OCC at $6.502e-06, spent 0.05 SOL
+- **Reasoning:** $OCC has a real narrative (physical cards on-chain), 50+ char description, bonding 18% in <1min showing traction. Sub-$5k mcap gives big upside if the story lands. Risk: low liquidity so stop matters.
+
