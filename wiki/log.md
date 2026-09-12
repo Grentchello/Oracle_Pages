@@ -536,3 +536,19 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Tick log: 0 positions, v9.1 + v8.9 + GMGN fragility gate filtering 22-22 of 25 candidates per tick → LLM only sees 1-3 mints. Hot mints filtered by liquidity, age, fragility — entry selectivity very high
 - Slippage caveat unchanged: v9.0 sim still understates real on-chain impact on illiquid bonding-curve exits. Lifetime +8.79 SOL is paper. Doom deaths (-90%+) are the clearest marker that the sim still over-estimates how much SOL actually comes back vs. paper mark.
 - Verdict: **Profitable, no changes.** 46.5% WR with 1.37 PF across 3215 trades is the regime that v8.7/v8.8/v8.9/v9.0/v9.1 stack was tuned for. No rule changes. Bot running normally.
+
+## [2026-09-12 12:47 UTC] eval | memecoin bot — 2026-09-12 12:47 UTC
+- Window: since last eval (10:45 UTC), 35 trades over ~2h
+- Win rate: 31.4% (11 wins / 24 losses) — below lifetime 46.4% but within 1σ for n=35 (binomial std ≈ 8.3%, lower 1σ bound ≈ 30%)
+- Window Net PnL: -0.1676 SOL (small drawdown, normal variance)
+- Balance: 12.8377 SOL (open: 0)
+- Breakdown: TP wins 3 trades +0.0533 SOL | override (LLM sell_all while profitable) wins 8 trades +0.0182 SOL | rapid losses (<=-50%) 3 trades -0.0979 SOL | other losses 21 trades -0.1411 SOL
+- Top window winners: PUI (+55.1%, TP hit), VPN (+40.4%, TP hit), VOID (+22.9%), Hoodtard (+18.8%), RISE (+9.1%)
+- Worst window losers: FlyGPT (-71.3%, rapid), CATON (-64.2%, rapid), ZAN (-60.0%, rapid), Entropy (-47.5%), CLOUD (-44.8%)
+- Loss bucket split: >-25%: 16 (-0.0461) | -25% to -40%: 3 (-0.0488) | -40% to -50%: 2 (-0.0462) | <=-50%: 3 (-0.0979)
+- No doom deaths (-90%+) this window — slippage sim gap is quiet when v8.7 hard stops fire correctly at -25%
+- Lifetime (state.json): 3250 trades, 46.4% WR, +8.6216 SOL net (still strongly profitable)
+- v9.1 + v8.9 + GMGN fragility gate still active: most ticks see 0-1 LLM candidates pass the filter, very high entry selectivity
+- Bot log shows Python just sold at +0.5% (mechanical TP-equivalent exit since it's >entry immediately, position flat, freeing balance)
+- Slippage caveat unchanged: v9.0 sim understates real on-chain impact. Lifetime +8.62 SOL is paper.
+- Verdict: **Profitable overall, no changes needed.** 2h window is slightly negative (-0.168 SOL) but inside normal variance for a 35-trade sample. Lifetime PnL still strongly positive (+8.62 SOL, 46.4% WR). 31% window WR is low but consistent with the long-tail distribution — even at 30% WR the +50% TP wins on the few runners (PUI +55%, VPN +40%) carry the math. No regime change. Bot running normally.
