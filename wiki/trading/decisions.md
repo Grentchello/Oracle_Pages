@@ -24343,3 +24343,6 @@
 ## [2026-09-12 23:03 UTC] buy | [LLM] $HODL at $5.389e-06, spent 0.05 SOL
 - **Reasoning:** $HODL: strongest bond completion (24%), classic hold-culture meme meta, X attention confirmed, mcap $7.4k — narrative + early enough for 5-10x attention pump
 
+## [2026-09-12 23:04 UTC] sell | [v8.7 TP +50% (full)] $HODL at $0.0001178 | P&L: +2085.9%
+- **Reasoning:** Auto take-profit at +2085.9%
+
