@@ -24151,3 +24151,9 @@
 ## [2026-09-12 21:36 UTC] buy | [LLM] $CRIMEDOG at $0.00288979, spent 0.05 SOL
 - **Reasoning:** $CRIMEDOG - 'Crime Dog' is a clear Xeris/Aaron meme derivative with viral political-cop vibes; $17k mcap at 0.5min with 32% bond = earliest entry point, attention signal is the twitter post. Fragility check needed but narrative is hot.
 
+## [2026-09-12 21:37 UTC] sell | [v8.7 TP +50% (full)] $CRIMEDOG at $0.0118941 | P&L: +311.6%
+- **Reasoning:** Auto take-profit at +311.6%
+
+## [2026-09-12 21:37 UTC] buy | [LLM] $HOODCAT at $5.918e-06, spent 0.05 SOL
+- **Reasoning:** $HOODCAT has a clear cross-chain narrative (pump.fun + Robinhood Chain mirrored) — Robinhood branding gives built-in retail attention. $7k mcap is early, bond only 27% so still bonding curve phase. Freshest viral story in the batch.
+
