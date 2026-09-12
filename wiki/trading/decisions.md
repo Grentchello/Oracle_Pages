@@ -24241,3 +24241,6 @@
 ## [2026-09-12 22:18 UTC] buy | [LLM] $DIVVY at $7.92303e-06, spent 0.05 SOL
 - **Reasoning:** DIVVY passes viability gate (has Twitter @divvyxSOL). Strongest bond curve at 29%, highest mcap ($7.9k) suggesting early organic traction. Clean name with no fragility-flagged keywords. Best risk-adjusted attention play of the batch — 0.05 SOL size.
 
+## [2026-09-12 22:19 UTC] sell | [rapid-drop] $DIVVY crashed >15% in one tick | P&L: -40.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

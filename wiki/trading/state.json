@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.429641,
+  "balance_sol": 27.459305,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "83233Gx6cdmBsLceBUdd2BA4WSc9ypeS3CpFcttqpump": {
-      "symbol": "DIVVY",
-      "name": "Divvy",
-      "mint": "83233Gx6cdmBsLceBUdd2BA4WSc9ypeS3CpFcttqpump",
-      "amount": 640790.5419919782,
-      "entry_price_usd": 7.923025805308403e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T22:18:17.779275+00:00",
-      "entry_time_iso": "2026-09-12T22:18:17.779284+00:00",
-      "entry_usd_value": 5.077000000000001,
-      "last_seen_price_usd": 7.923025805308403e-06,
-      "entry_liquidity_usd": 1458.6433423710803,
-      "entry_pool_sol": 14.365209202,
-      "entry_market_cap_usd": 7930.828667042998,
-      "entry_signals": {
-        "liquidity_usd": 1458.6433423710803,
-        "volume_24h_usd": null,
-        "market_cap_usd": 7930.828667042998,
-        "ath_market_cap_usd": 8894.423397737419,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 14.365209202,
-        "description": "",
-        "twitter": "https://x.com/divvyxSOL",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59877,19 +59848,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 84.113737,
       "partial": false
+    },
+    {
+      "mint": "83233Gx6cdmBsLceBUdd2BA4WSc9ypeS3CpFcttqpump",
+      "symbol": "DIVVY",
+      "name": "Divvy",
+      "amount_sold": 640790.5419919782,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T22:18:17.779275+00:00",
+      "entry_time_iso": "2026-09-12T22:18:17.779284+00:00",
+      "exit_time": "2026-09-12T22:19:21.547216+00:00",
+      "exit_time_iso": "2026-09-12T22:19:21.547226+00:00",
+      "entry_price_usd": 7.923025805308403e-06,
+      "exit_price_usd": 4.704749900694935e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.029664,
+      "pnl_sol": -0.020336,
+      "pnl_pct": -40.62,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 1458.64,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 14.3652,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.767962,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T22:18:17.779662+00:00",
+  "last_updated": "2026-09-12T22:19:32.955621+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.54,
-  "portfolio_value_usd": 2790.28,
+  "last_sol_price_usd": 101.63,
+  "portfolio_value_usd": 2790.69,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 21:47 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SHADOW at $0.000809355 | P&L: -4.5%",
-      "reason": "Only -4.5% and 0.0h old on bonding curve — not a loser yet, just freshly minted. No catalyst to bail. If it doesn't bounce within the next check, it's a stale exit."
-    },
     {
       "time": "2026-09-12 21:49 UTC",
       "action": "buy",
@@ -60003,30 +59992,48 @@
       "action": "buy",
       "details": "[LLM] $DIVVY at $7.92303e-06, spent 0.05 SOL",
       "reason": "DIVVY passes viability gate (has Twitter @divvyxSOL). Strongest bond curve at 29%, highest mcap ($7.9k) suggesting early organic traction. Clean name with no fragility-flagged keywords. Best risk-adjusted attention play of the batch — 0.05 SOL size."
+    },
+    {
+      "time": "2026-09-12 22:19 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $DIVVY crashed >15% in one tick | P&L: -40.6%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3412,
+    "total": 3413,
     "wins": 1582,
-    "losses": 1830,
+    "losses": 1831,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 23.26348,
-    "avg_pnl_pct": 36.62,
+    "total_pnl_sol": 23.243144,
+    "avg_pnl_pct": 36.6,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 339,
-    "today_realized_sol": 18.230384,
-    "today_target_pct": 4557.6,
+    "today_trades": 340,
+    "today_realized_sol": 18.210048,
+    "today_target_pct": 4552.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1582,
-      "loss_count": 1830,
+      "loss_count": 1831,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T22:18:16.404465+00:00",
+  "last_llm_brief_at": "2026-09-12T22:19:32.955589+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "83233Gx6cdmBsLceBUdd2BA4WSc9ypeS3CpFcttqpump": {
+      "price_usd": 4.704749900694935e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 874.2934411830499,
+      "volume_h24": 14785.39,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 8.602710235
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
