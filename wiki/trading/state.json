@@ -1,5 +1,5 @@
 {
-  "balance_sol": 13.179153,
+  "balance_sol": 13.215659,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -7,13 +7,13 @@
       "symbol": "REVFART",
       "name": "Revolve Fart",
       "mint": "CpTF6Y6x7jWhss8rGtypZ8CfE4uv2EN4QtBnGXJheGgH",
-      "amount": 1285352.2554485556,
+      "amount": 642676.1277242778,
       "entry_price_usd": 3.946e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.025,
       "entry_time": "2026-09-12T07:55:07.654917+00:00",
       "entry_time_iso": "2026-09-12T07:55:07.654924+00:00",
       "entry_usd_value": 5.072,
-      "last_seen_price_usd": 3.946e-06,
+      "last_seen_price_usd": 5.76316534335045e-06,
       "entry_liquidity_usd": 827.93532146816,
       "entry_pool_sol": 8.161822964,
       "entry_market_cap_usd": 4560.866637601491,
@@ -54117,19 +54117,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 72.809495,
       "partial": false
+    },
+    {
+      "mint": "CpTF6Y6x7jWhss8rGtypZ8CfE4uv2EN4QtBnGXJheGgH",
+      "symbol": "REVFART",
+      "name": "Revolve Fart",
+      "amount_sold": 642676.1277242778,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-12T07:55:07.654917+00:00",
+      "entry_time_iso": "2026-09-12T07:55:07.654924+00:00",
+      "exit_time": "2026-09-12T07:56:31.338187+00:00",
+      "exit_time_iso": "2026-09-12T07:56:31.338191+00:00",
+      "entry_price_usd": 3.946e-06,
+      "exit_price_usd": 5.76316534335045e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.036506,
+      "pnl_sol": 0.011506,
+      "pnl_pct": 46.05,
+      "exit_reason": "LLM: sell_half — Up +46% past the +30% TP threshold; bot should have auto-triggered but bonding-curve + thin $1295 pool may have stalled execution. Lock half the gain ",
+      "entry_liquidity_usd": 827.94,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 8.1618,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 83.683285,
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-12T07:55:07.655106+00:00",
+  "last_updated": "2026-09-12T07:56:31.338967+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.44,
-  "portfolio_value_usd": 1341.97,
+  "last_sol_price_usd": 101.46,
+  "portfolio_value_usd": 1343.4,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 07:20 UTC",
-      "action": "buy",
-      "details": "[LLM] $TOPCAT at $3.155e-06, spent 0.05 SOL",
-      "reason": "$TOPCAT has a clear nostalgia narrative (2014 4chan meme) with twitter signal and tiny $3k mcap giving significant multiple headroom. Best risk-adjusted attention play on this slate; $$Snoop at $1.4M already has most alpha extracted, others lack narrative clarity. Sticking to one position, sized per bot rules."
-    },
     {
       "time": "2026-09-12 07:22 UTC",
       "action": "sell",
@@ -54243,30 +54261,48 @@
       "action": "buy",
       "details": "[LLM] $REVFART at $3.946e-06, spent 0.05 SOL",
       "reason": "$REVFART — absurdist 'first fart on Revolve' narrative is exactly the kind of stupid-attention meme that pumps 10x in hour one. Lowest mcap ($4.5k) = most upside, IO_Gambles tweet is the viral seed. Risk: ultra-low liquidity, may dump as fast as it pumps — use tight mental exit at +30-50%."
+    },
+    {
+      "time": "2026-09-12 07:56 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $REVFART at $5.76317e-06 | P&L: +46.0%",
+      "reason": "Up +46% past the +30% TP threshold; bot should have auto-triggered but bonding-curve + thin $1295 pool may have stalled execution. Lock half the gain now ($5 of paper profit banked) and let the rest ride — narrative is crude attention-bait with no clear continuation catalyst beyond the initial pump."
     }
   ],
   "trade_stats": {
-    "total": 3172,
-    "wins": 1480,
+    "total": 3173,
+    "wins": 1481,
     "losses": 1692,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 9.012965,
+    "total_pnl_sol": 9.024471,
     "avg_pnl_pct": 29.53,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 99,
-    "today_realized_sol": 3.979869,
-    "today_target_pct": 995.0,
+    "today_trades": 100,
+    "today_realized_sol": 3.991375,
+    "today_target_pct": 997.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1480,
+      "win_count": 1481,
       "loss_count": 1692,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T07:55:06.221599+00:00",
+  "last_llm_brief_at": "2026-09-12T07:56:31.338148+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CpTF6Y6x7jWhss8rGtypZ8CfE4uv2EN4QtBnGXJheGgH": {
+      "price_usd": 5.76316534335045e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1294.6885675373999,
+      "volume_h24": 1406.21,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 12.76058119
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

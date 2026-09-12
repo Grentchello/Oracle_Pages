@@ -22795,3 +22795,6 @@
 ## [2026-09-12 07:55 UTC] buy | [LLM] $REVFART at $3.946e-06, spent 0.05 SOL
 - **Reasoning:** $REVFART — absurdist 'first fart on Revolve' narrative is exactly the kind of stupid-attention meme that pumps 10x in hour one. Lowest mcap ($4.5k) = most upside, IO_Gambles tweet is the viral seed. Risk: ultra-low liquidity, may dump as fast as it pumps — use tight mental exit at +30-50%.
 
+## [2026-09-12 07:56 UTC] sell | [PARTIAL][LLM] $REVFART at $5.76317e-06 | P&L: +46.0%
+- **Reasoning:** Up +46% past the +30% TP threshold; bot should have auto-triggered but bonding-curve + thin $1295 pool may have stalled execution. Lock half the gain now ($5 of paper profit banked) and let the rest ride — narrative is crude attention-bait with no clear continuation catalyst beyond the initial pump.
+
