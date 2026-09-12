@@ -23857,3 +23857,6 @@
 ## [2026-09-12 18:49 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-12 18:56 UTC] buy | [LLM] $ZZZ at $4.955e-06, spent 0.05 SOL
+- **Reasoning:** $ZZZ 'Sleep To Earn' has a viral-ready parody narrative (Sleep-to-Earn trend riffs), an active X post driving attention, $5.5k mcap with 84% of curve still to fill, and 1.2min age — textbook early-attention entry. Risky because no holders yet, but that's the point of catching attention at the source.
+
