@@ -24223,3 +24223,6 @@
 ## [2026-09-12 22:02 UTC] sell | [FULL][LLM] $bbull40k at $3.46676e-06 | P&L: -0.1%
 - **Reasoning:** $bbull40k is flat (-0.1%) after just opening with tiny pool ($323) and 2% share — no momentum, no narrative edge here, freeing the slot for fresh launches with viral potential.
 
+## [2026-09-12 22:04 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
