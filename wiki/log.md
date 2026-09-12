@@ -605,3 +605,16 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Lifetime (state.json): 3382 trades, 46.3% WR, +23.0387 SOL net (from 2.0 SOL starting → 13.6x return)
 - Slippage caveat unchanged: lifetime +23.04 SOL is paper via v9.0 sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
 - Verdict: **Profitable, no changes needed.** Window +6.46 SOL on 34 trades is a strong 2h run driven by 3 organic runners (PENIS +8865%, ZZZ +3830%, TWINE +438%). v9.2 gate working correctly. 38.2% WR below lifetime baseline but expected with small sample + lucky long-tail hits. Bot running normally.
+
+## [2026-09-12 22:54 UTC] eval | memecoin bot — 2026-09-12 22:54 UTC
+- Window: since last eval (20:52 UTC), 43 trades over ~2h
+- Win rate: 44.2% (19 wins / 23 losses) — within 1σ of 46.3% lifetime baseline
+- Window Net PnL: +1.3216 SOL (positive, modest — no big runner this window)
+- Balance: 28.576435 SOL (up from 27.254851 — +1.32 SOL in 2h)
+- Breakdown: TP/partial wins 5 trades +1.1320 SOL | override wins 14 trades +0.4277 SOL | rapid losses (<2min) 22 trades -0.2274 SOL | other losses 1 trade -0.0107 SOL
+- Top winners: $fry +2434.1% (+1.1051 SOL, organic post-v9.2 pump — held through gate), $CRIMEDOG +311.6% (+0.1567 SOL), $fry 2nd-leg +0.1119 SOL, $MDOG +177.2% (+0.0878 SOL), $MONEROCHAN +85.5% (+0.0211 SOL)
+- Worst losers (all small — rapid exits): $ByteCoin -60.4% (-0.0302), $KEMO -52.8% (-0.0263), $MALONE -49.6% (-0.0247), $MLC -45.0% (-0.0225), $DIVVY -40.6% (-0.0203)
+- **v9.2 60s anti-self-pump gate confirmed organic-only**: $fry's +2434% gain came through the 60s gate (held past entry-tick), validating the v9.2 design. No more sub-$200 bonding-curve paper-PnL self-pumps appearing in top winners.
+- Lifetime (state.json): 3425 trades, 46.3% WR, **+24.3603 SOL net** (from 2.0 SOL starting → 14.3x return)
+- Slippage caveat unchanged: lifetime +24.36 SOL is paper via v9.0 sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
+- Verdict: **Profitable, no changes needed.** Window +1.32 SOL on 43 trades is a normal-positive run. $fry +2434% organic runner anchors the window. 22/23 losses are rapid exits (<2min) caught by v8.7 hard stops — exactly the discipline the user wants. v9.2 gate continues to filter out entry-tick self-pumps. Bot running normally.
