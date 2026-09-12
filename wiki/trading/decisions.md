@@ -24070,3 +24070,6 @@
 ## [2026-09-12 21:03 UTC] buy | [LLM] $Doga at $2.84e-06, spent 0.05 SOL
 - **Reasoning:** Doga Cola is an absurdist dog+cola parody with irreverent framing ('send this shit') — exactly the humor style that goes viral on memecoin CT. Has a real twitter post backing it. Bond only 7% so very early entry. Risk: ultra-low mcap ($3.3k) means extreme volatility — but that's where the attention alpha is.
 
+## [2026-09-12 21:04 UTC] sell | [FULL][LLM] $Doga at $3.07429e-06 | P&L: +8.2%
+- **Reasoning:** Fresh entry at +8.2%, still on bonding curve, no reason to exit a small green position. Will reassess next tick — if it stalls flat for >15min I'll cut.
+

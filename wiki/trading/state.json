@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.204851,
+  "balance_sol": 27.258923,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4quNBe5gXoxYRBnUfXxkzWxup95B9agWJ6tkHsHQpump": {
-      "symbol": "Doga",
-      "name": "Doga Cola",
-      "mint": "4quNBe5gXoxYRBnUfXxkzWxup95B9agWJ6tkHsHQpump",
-      "amount": 1784154.929577465,
-      "entry_price_usd": 2.84e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T21:03:02.826170+00:00",
-      "entry_time_iso": "2026-09-12T21:03:02.826180+00:00",
-      "entry_usd_value": 5.067,
-      "last_seen_price_usd": 2.84e-06,
-      "entry_liquidity_usd": 251.48111102820002,
-      "entry_pool_sol": 2.48155823,
-      "entry_market_cap_usd": 3325.720131699689,
-      "entry_signals": {
-        "liquidity_usd": 251.48111102820002,
-        "volume_24h_usd": 2052.13,
-        "market_cap_usd": 3325.720131699689,
-        "ath_market_cap_usd": 4502.7962624272395,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.48155823,
-        "description": "send this shit",
-        "twitter": "https://x.com/thejordanaura/status/2098879615150219517",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59157,19 +59128,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 79.323071,
       "partial": false
+    },
+    {
+      "mint": "4quNBe5gXoxYRBnUfXxkzWxup95B9agWJ6tkHsHQpump",
+      "symbol": "Doga",
+      "name": "Doga Cola",
+      "amount_sold": 1784154.929577465,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T21:03:02.826170+00:00",
+      "entry_time_iso": "2026-09-12T21:03:02.826180+00:00",
+      "exit_time": "2026-09-12T21:04:21.182330+00:00",
+      "exit_time_iso": "2026-09-12T21:04:21.182336+00:00",
+      "entry_price_usd": 2.84e-06,
+      "exit_price_usd": 3.074292437496525e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.054072,
+      "pnl_sol": 0.004072,
+      "pnl_pct": 8.25,
+      "exit_reason": "LLM: sell_all — Fresh entry at +8.2%, still on bonding curve, no reason to exit a small green position. Will reassess next tick — if it stalls flat for >15min I'll cu",
+      "entry_liquidity_usd": 251.48,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 2.4816,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 78.356178,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T21:03:02.826558+00:00",
+  "last_updated": "2026-09-12T21:04:21.182631+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.34,
-  "portfolio_value_usd": 2762.01,
+  "last_sol_price_usd": 101.44,
+  "portfolio_value_usd": 2765.15,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 20:23 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $PENIS at $0.000517733 | P&L: +8865.1%",
-      "reason": "Auto take-profit at +8865.1%"
-    },
     {
       "time": "2026-09-12 20:23 UTC",
       "action": "buy",
@@ -59283,30 +59272,48 @@
       "action": "buy",
       "details": "[LLM] $Doga at $2.84e-06, spent 0.05 SOL",
       "reason": "Doga Cola is an absurdist dog+cola parody with irreverent framing ('send this shit') — exactly the humor style that goes viral on memecoin CT. Has a real twitter post backing it. Bond only 7% so very early entry. Risk: ultra-low mcap ($3.3k) means extreme volatility — but that's where the attention alpha is."
+    },
+    {
+      "time": "2026-09-12 21:04 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Doga at $3.07429e-06 | P&L: +8.2%",
+      "reason": "Fresh entry at +8.2%, still on bonding curve, no reason to exit a small green position. Will reassess next tick — if it stalls flat for >15min I'll cut."
     }
   ],
   "trade_stats": {
-    "total": 3382,
-    "wins": 1566,
+    "total": 3383,
+    "wins": 1567,
     "losses": 1816,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 23.03869,
-    "avg_pnl_pct": 36.78,
+    "total_pnl_sol": 23.042762,
+    "avg_pnl_pct": 36.77,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 309,
-    "today_realized_sol": 18.005594,
-    "today_target_pct": 4501.4,
+    "today_trades": 310,
+    "today_realized_sol": 18.009666,
+    "today_target_pct": 4502.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1566,
+      "win_count": 1567,
       "loss_count": 1816,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T21:03:00.906776+00:00",
+  "last_llm_brief_at": "2026-09-12T21:04:21.182170+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "4quNBe5gXoxYRBnUfXxkzWxup95B9agWJ6tkHsHQpump": {
+      "price_usd": 3.074292437496525e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 125.18316559199998,
+      "volume_h24": 2903.74,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.234061175
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
