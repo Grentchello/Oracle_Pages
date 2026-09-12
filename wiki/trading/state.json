@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.73961,
+  "balance_sol": 12.7911,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "TuJMLunipQnD1CvpsjsvX9n2V3yQC4VeW5hNxsvpump": {
-      "symbol": "PokeFi",
-      "name": "PokeFi",
-      "mint": "TuJMLunipQnD1CvpsjsvX9n2V3yQC4VeW5hNxsvpump",
-      "amount": 355794.5870922971,
-      "entry_price_usd": 1.441e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T13:11:36.992837+00:00",
-      "entry_time_iso": "2026-09-12T13:11:36.992847+00:00",
-      "entry_usd_value": 5.127000000000001,
-      "last_seen_price_usd": 1.441e-05,
-      "entry_liquidity_usd": 3511.5945140337603,
-      "entry_pool_sol": 34.246094344,
-      "entry_market_cap_usd": 14793.243043831098,
-      "entry_signals": {
-        "liquidity_usd": 3511.5945140337603,
-        "volume_24h_usd": 5040.5,
-        "market_cap_usd": 14793.243043831098,
-        "ath_market_cap_usd": 16130.775307515163,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 34.246094344,
-        "description": "$PokeFi turns POKE into a degen reserve-currency loop, bonding assets into PokeBank and staking sPOKE every eight hours 🎒 Discount catches, treasury backing, runway metrics, and rebasing rewards make the flywheel feel like Pokémon-coded DeFi 🟡📈",
-        "twitter": "https://x.com/pokeficlub/status/2098760531871973845",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56157,19 +56128,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.782733,
       "partial": false
+    },
+    {
+      "mint": "TuJMLunipQnD1CvpsjsvX9n2V3yQC4VeW5hNxsvpump",
+      "symbol": "PokeFi",
+      "name": "PokeFi",
+      "amount_sold": 355794.5870922971,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T13:11:36.992837+00:00",
+      "entry_time_iso": "2026-09-12T13:11:36.992847+00:00",
+      "exit_time": "2026-09-12T13:12:59.576997+00:00",
+      "exit_time_iso": "2026-09-12T13:12:59.577003+00:00",
+      "entry_price_usd": 1.441e-05,
+      "exit_price_usd": 1.4830691710744017e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05149,
+      "pnl_sol": 0.00149,
+      "pnl_pct": 2.92,
+      "exit_reason": "LLM: sell_all — Only +2.9% after fresh entry, give it a few minutes to develop. Held 0.0h, well under stale thresholds. Not breaching any exit rules yet.",
+      "entry_liquidity_usd": 3511.59,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 34.2461,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 82.584178,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T13:11:36.993110+00:00",
+  "last_updated": "2026-09-12T13:12:59.577242+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.54,
-  "portfolio_value_usd": 1311.45,
+  "last_sol_price_usd": 102.48,
+  "portfolio_value_usd": 1310.83,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 12:39 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GTA6 at $0.001405 | P&L: -0.5%",
-      "reason": "Just entered 0.0h ago, essentially flat at -0.5%. No momentum signal yet either direction — too early to call. Pool $98k is healthy, no rug signal. Give it a few minutes to develop."
-    },
     {
       "time": "2026-09-12 12:41 UTC",
       "action": "buy",
@@ -56283,38 +56272,46 @@
       "action": "buy",
       "details": "[LLM] $PokeFi at $1.441e-05, spent 0.05 SOL",
       "reason": "$PokeFi has the strongest narrative of the three — a degen reserve-currency loop with bonding/staking mechanics, and a twitter link to back it. Mcap $14.7k is the sweet spot for attention-launched runners. Risks: 0.9min age is extremely fresh, bond only 36%, and we have no held position yet so we can absorb a quick loss."
+    },
+    {
+      "time": "2026-09-12 13:12 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PokeFi at $1.48307e-05 | P&L: +2.9%",
+      "reason": "Only +2.9% after fresh entry, give it a few minutes to develop. Held 0.0h, well under stale thresholds. Not breaching any exit rules yet."
     }
   ],
   "trade_stats": {
-    "total": 3257,
-    "wins": 1510,
+    "total": 3258,
+    "wins": 1511,
     "losses": 1747,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 8.573422,
-    "avg_pnl_pct": 28.53,
+    "total_pnl_sol": 8.574912,
+    "avg_pnl_pct": 28.52,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 184,
-    "today_realized_sol": 3.540326,
-    "today_target_pct": 885.1,
+    "today_trades": 185,
+    "today_realized_sol": 3.541816,
+    "today_target_pct": 885.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1510,
+      "win_count": 1511,
       "loss_count": 1747,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T13:11:35.674720+00:00",
+  "last_llm_brief_at": "2026-09-12T13:12:59.576849+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "HUE4gQpLdKshjCKjhZrmy5ytJTHiaB5wTpAGW5wqpump": {
-      "price_usd": 7.745e-05,
-      "change_h24": 83.62,
-      "change_h1": 83.62,
-      "liquidity_usd": 21862.54,
-      "volume_h24": 35241.45,
-      "dex_id": "pumpswap",
-      "source": "dexscreener"
+    "TuJMLunipQnD1CvpsjsvX9n2V3yQC4VeW5hNxsvpump": {
+      "price_usd": 1.4830691710744017e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3920.16564588264,
+      "volume_h24": 8786.12,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 38.252982493
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

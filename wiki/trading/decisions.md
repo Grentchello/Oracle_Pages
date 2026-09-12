@@ -23296,3 +23296,6 @@
 ## [2026-09-12 13:11 UTC] buy | [LLM] $PokeFi at $1.441e-05, spent 0.05 SOL
 - **Reasoning:** $PokeFi has the strongest narrative of the three — a degen reserve-currency loop with bonding/staking mechanics, and a twitter link to back it. Mcap $14.7k is the sweet spot for attention-launched runners. Risks: 0.9min age is extremely fresh, bond only 36%, and we have no held position yet so we can absorb a quick loss.
 
+## [2026-09-12 13:12 UTC] sell | [FULL][LLM] $PokeFi at $1.48307e-05 | P&L: +2.9%
+- **Reasoning:** Only +2.9% after fresh entry, give it a few minutes to develop. Held 0.0h, well under stale thresholds. Not breaching any exit rules yet.
+
