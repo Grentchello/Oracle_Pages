@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.787739,
+  "balance_sol": 12.810948,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DTpyxgvN8CnHRLi5EMo9edjE5UsC9DXnX3GDD2evpump": {
-      "symbol": "DEGENFLY",
-      "name": "Degenfly",
-      "mint": "DTpyxgvN8CnHRLi5EMo9edjE5UsC9DXnX3GDD2evpump",
-      "amount": 410409.9678456592,
-      "entry_price_usd": 1.244e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T12:48:20.550748+00:00",
-      "entry_time_iso": "2026-09-12T12:48:20.550756+00:00",
-      "entry_usd_value": 5.1055,
-      "last_seen_price_usd": 1.244e-05,
-      "entry_liquidity_usd": 3251.85748556116,
-      "entry_pool_sol": 31.846611356,
-      "entry_market_cap_usd": 13400.856827954003,
-      "entry_signals": {
-        "liquidity_usd": 3251.85748556116,
-        "volume_24h_usd": 25006.22,
-        "market_cap_usd": 13400.856827954003,
-        "ath_market_cap_usd": 14296.637162405525,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 31.846611356,
-        "description": "",
-        "twitter": "https://x.com/kevincodex/status/2098754839442554880",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55989,19 +55960,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 73.109424,
       "partial": false
+    },
+    {
+      "mint": "DTpyxgvN8CnHRLi5EMo9edjE5UsC9DXnX3GDD2evpump",
+      "symbol": "DEGENFLY",
+      "name": "Degenfly",
+      "amount_sold": 410409.9678456592,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T12:48:20.550748+00:00",
+      "entry_time_iso": "2026-09-12T12:48:20.550756+00:00",
+      "exit_time": "2026-09-12T12:49:24.253113+00:00",
+      "exit_time_iso": "2026-09-12T12:49:24.253122+00:00",
+      "entry_price_usd": 1.244e-05,
+      "exit_price_usd": 5.804968011079576e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.023209,
+      "pnl_sol": -0.026791,
+      "pnl_pct": -53.34,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 3251.86,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 31.8466,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.702385,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T12:48:20.550929+00:00",
+  "last_updated": "2026-09-12T12:49:37.780059+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.11,
-  "portfolio_value_usd": 1310.86,
+  "last_sol_price_usd": 102.65,
+  "portfolio_value_usd": 1315.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 12:08 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $AOC at $3.09646e-06 | P&L: -0.3%",
-      "reason": "Just entered, -0.3% is noise. Need to see direction develop in next 15 min before deciding. Bot will auto-stop at -25%."
-    },
     {
       "time": "2026-09-12 12:10 UTC",
       "action": "buy",
@@ -56115,30 +56104,48 @@
       "action": "buy",
       "details": "[LLM] $DEGENFLY at $1.244e-05, spent 0.05 SOL",
       "reason": "$DEGENFLY at 1.7min, $13.4k mcap, 35% bond curve progress with Twitter link — classic degen-archetype name with early bonding traction, fits the fresh-launch-attention playbook. Buying0.05 SOL position."
+    },
+    {
+      "time": "2026-09-12 12:49 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $DEGENFLY crashed >15% in one tick | P&L: -53.3%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3250,
+    "total": 3251,
     "wins": 1507,
-    "losses": 1743,
+    "losses": 1744,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 8.621551,
-    "avg_pnl_pct": 28.62,
+    "total_pnl_sol": 8.59476,
+    "avg_pnl_pct": 28.59,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 177,
-    "today_realized_sol": 3.588455,
-    "today_target_pct": 897.1,
+    "today_trades": 178,
+    "today_realized_sol": 3.561664,
+    "today_target_pct": 890.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1507,
-      "loss_count": 1743,
+      "loss_count": 1744,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T12:48:19.031702+00:00",
+  "last_llm_brief_at": "2026-09-12T12:49:37.780024+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "DTpyxgvN8CnHRLi5EMo9edjE5UsC9DXnX3GDD2evpump": {
+      "price_usd": 5.804968011079576e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1300.1548108394502,
+      "volume_h24": 30056.06,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 12.665901713
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

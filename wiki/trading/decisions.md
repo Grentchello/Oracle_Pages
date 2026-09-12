@@ -23254,3 +23254,6 @@
 ## [2026-09-12 12:48 UTC] buy | [LLM] $DEGENFLY at $1.244e-05, spent 0.05 SOL
 - **Reasoning:** $DEGENFLY at 1.7min, $13.4k mcap, 35% bond curve progress with Twitter link — classic degen-archetype name with early bonding traction, fits the fresh-launch-attention playbook. Buying0.05 SOL position.
 
+## [2026-09-12 12:49 UTC] sell | [rapid-drop] $DEGENFLY crashed >15% in one tick | P&L: -53.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
