@@ -22954,3 +22954,6 @@
 ## [2026-09-12 10:01 UTC] buy | [LLM] $🐂🀄️ at $3.473e-06, spent 0.05 SOL
 - **Reasoning:** Freshest launch (0.7min), Bondoooor is a recognized CT launch driver, 'The Herd' taps into the current community-meta narrative that's pumping on CT. 0.1 SOL entry to test the fresh-attention edge.
 
+## [2026-09-12 10:02 UTC] sell | [FULL][LLM] $🐂🀄️ at $3.43238e-06 | P&L: -1.2%
+- **Reasoning:** Held 0.0h with -1.2% already, pool only $298 (well below 5x position), bonding-curve stage with no real liquidity. No attention catalyst visible, narrative unclear. Cut this stale micro-position free up the slot for fresh launches.
+

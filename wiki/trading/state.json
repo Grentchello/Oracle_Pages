@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.988293,
+  "balance_sol": 13.037946,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2VfUaVTbmg7ZjFM5chGjpThM3BvqcHfsktqKXqtapump": {
-      "symbol": "🐂🀄️",
-      "name": "The Herd",
-      "mint": "2VfUaVTbmg7ZjFM5chGjpThM3BvqcHfsktqKXqtapump",
-      "amount": 1474805.643535848,
-      "entry_price_usd": 3.473e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T10:01:39.421098+00:00",
-      "entry_time_iso": "2026-09-12T10:01:39.421107+00:00",
-      "entry_usd_value": 5.122,
-      "last_seen_price_usd": 3.473e-06,
-      "entry_liquidity_usd": 284.28618550071997,
-      "entry_pool_sol": 2.775148238,
-      "entry_market_cap_usd": 3393.7865415517617,
-      "entry_signals": {
-        "liquidity_usd": 284.28618550071997,
-        "volume_24h_usd": 496.4,
-        "market_cap_usd": 3393.7865415517617,
-        "ath_market_cap_usd": 3656.260903781923,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.775148238,
-        "description": "Launched on discord.gg/uxento",
-        "twitter": "https://x.com/Bondoooor/status/2098713373349445780",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54741,19 +54712,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.251087,
       "partial": false
+    },
+    {
+      "mint": "2VfUaVTbmg7ZjFM5chGjpThM3BvqcHfsktqKXqtapump",
+      "symbol": "🐂🀄️",
+      "name": "The Herd",
+      "amount_sold": 1474805.643535848,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T10:01:39.421098+00:00",
+      "entry_time_iso": "2026-09-12T10:01:39.421107+00:00",
+      "exit_time": "2026-09-12T10:02:52.215231+00:00",
+      "exit_time_iso": "2026-09-12T10:02:52.215234+00:00",
+      "entry_price_usd": 3.473e-06,
+      "exit_price_usd": 3.4323831757436047e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049653,
+      "pnl_sol": -0.000347,
+      "pnl_pct": -1.17,
+      "exit_reason": "LLM: sell_all — Held 0.0h with -1.2% already, pool only $298 (well below 5x position), bonding-curve stage with no real liquidity. No attention catalyst visible, narr",
+      "entry_liquidity_usd": 284.29,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 2.7751,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 72.794148,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T10:01:39.421286+00:00",
+  "last_updated": "2026-09-12T10:02:52.215498+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.44,
-  "portfolio_value_usd": 1335.64,
+  "last_sol_price_usd": 101.95,
+  "portfolio_value_usd": 1329.22,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 09:16 UTC",
-      "action": "buy",
-      "details": "[LLM] $air at $5.54e-06, spent 0.05 SOL",
-      "reason": "$air is the cleanest new launch — passes viability gate (twitter present, desc present), mcap $5.5k gives maximum attention-leverage, simple memorable name, fresh (1min old). Narrative is weak but memecoins are attention not logic. 0.1 SOL position, -25% hard stop, +50% partial TP target."
-    },
     {
       "time": "2026-09-12 09:17 UTC",
       "action": "sell",
@@ -54867,30 +54856,48 @@
       "action": "buy",
       "details": "[LLM] $🐂🀄️ at $3.473e-06, spent 0.05 SOL",
       "reason": "Freshest launch (0.7min), Bondoooor is a recognized CT launch driver, 'The Herd' taps into the current community-meta narrative that's pumping on CT. 0.1 SOL entry to test the fresh-attention edge."
+    },
+    {
+      "time": "2026-09-12 10:02 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $🐂🀄️ at $3.43238e-06 | P&L: -1.2%",
+      "reason": "Held 0.0h with -1.2% already, pool only $298 (well below 5x position), bonding-curve stage with no real liquidity. No attention catalyst visible, narrative unclear. Cut this stale micro-position free up the slot for fresh launches."
     }
   ],
   "trade_stats": {
-    "total": 3198,
+    "total": 3199,
     "wins": 1487,
-    "losses": 1711,
+    "losses": 1712,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.822105,
-    "avg_pnl_pct": 29.18,
+    "total_pnl_sol": 8.821758,
+    "avg_pnl_pct": 29.17,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 125,
-    "today_realized_sol": 3.789009,
-    "today_target_pct": 947.3,
+    "today_trades": 126,
+    "today_realized_sol": 3.788662,
+    "today_target_pct": 947.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1487,
-      "loss_count": 1711,
+      "loss_count": 1712,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T10:01:38.134328+00:00",
+  "last_llm_brief_at": "2026-09-12T10:02:52.215189+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2VfUaVTbmg7ZjFM5chGjpThM3BvqcHfsktqKXqtapump": {
+      "price_usd": 3.4323831757436047e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 297.73209208825,
+      "volume_h24": 575.02,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.920373635
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
