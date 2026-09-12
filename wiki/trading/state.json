@@ -1,37 +1,8 @@
 {
-  "balance_sol": 16.783266,
+  "balance_sol": 16.823115,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2nX3Bsi8kdSh7hvXSgzJypK6SNeq2gUfnuYCiqpfpump": {
-      "symbol": "Caviar",
-      "name": "Caviar Dealer",
-      "mint": "2nX3Bsi8kdSh7hvXSgzJypK6SNeq2gUfnuYCiqpfpump",
-      "amount": 42837.869486261945,
-      "entry_price_usd": 0.00011897183639430159,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T16:27:27.259977+00:00",
-      "entry_time_iso": "2026-09-12T16:27:27.259985+00:00",
-      "entry_usd_value": 5.096500000000001,
-      "last_seen_price_usd": 0.00011897183639430159,
-      "entry_liquidity_usd": 12223.873510804051,
-      "entry_pool_sol": 119.924198085,
-      "entry_market_cap_usd": 4278.130028753489,
-      "entry_signals": {
-        "liquidity_usd": 12223.873510804051,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 4278.130028753489,
-        "ath_market_cap_usd": 4278.130028753489,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 119.924198085,
-        "description": "This is the CashCat of Pumpfun",
-        "twitter": "https://x.com/fearonchain/status/2078080129830633866",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57453,19 +57424,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.702709,
       "partial": false
+    },
+    {
+      "mint": "2nX3Bsi8kdSh7hvXSgzJypK6SNeq2gUfnuYCiqpfpump",
+      "symbol": "Caviar",
+      "name": "Caviar Dealer",
+      "amount_sold": 42837.869486261945,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T16:27:27.259977+00:00",
+      "entry_time_iso": "2026-09-12T16:27:27.259985+00:00",
+      "exit_time": "2026-09-12T16:28:31.646248+00:00",
+      "exit_time_iso": "2026-09-12T16:28:31.646256+00:00",
+      "entry_price_usd": 0.00011897183639430159,
+      "exit_price_usd": 9.529302325593607e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.039849,
+      "pnl_sol": -0.010151,
+      "pnl_pct": -19.9,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 12223.87,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 119.9242,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 64.38629,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T16:27:27.260151+00:00",
+  "last_updated": "2026-09-12T16:28:53.166044+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.93,
-  "portfolio_value_usd": 1715.81,
+  "last_sol_price_usd": 102.44,
+  "portfolio_value_usd": 1723.36,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 15:53 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $RISE at $5.14289e-06 | P&L: +5.5%",
-      "reason": "Just entered at +5.5%, on bonding curve with $1046 pool. Too early and too green to rotate — let it develop or hit the -25% hard stop. No reason to exit a position that's moving in our direction."
-    },
     {
       "time": "2026-09-12 15:58 UTC",
       "action": "buy",
@@ -57579,30 +57568,48 @@
       "action": "buy",
       "details": "[LLM] $Caviar at $0.000118972, spent 0.05 SOL",
       "reason": "Caviar narrative + FearOnChain tweet shoutout (influential on-chain account) is real attention. $4.3k mcap = fresh launch with10x+ room. Bond only 10% means price still moving up, ride the early attention. Risk: bond incomplete, could rug — but 0.1 SOL is the bet size."
+    },
+    {
+      "time": "2026-09-12 16:28 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Caviar crashed >15% in one tick | P&L: -19.9%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3311,
+    "total": 3312,
     "wins": 1533,
-    "losses": 1778,
+    "losses": 1779,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 12.61708,
-    "avg_pnl_pct": 31.23,
+    "total_pnl_sol": 12.606929,
+    "avg_pnl_pct": 31.22,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 238,
-    "today_realized_sol": 7.583984,
-    "today_target_pct": 1896.0,
+    "today_trades": 239,
+    "today_realized_sol": 7.573833,
+    "today_target_pct": 1893.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1533,
-      "loss_count": 1778,
+      "loss_count": 1779,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T16:27:25.626948+00:00",
+  "last_llm_brief_at": "2026-09-12T16:28:53.166007+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2nX3Bsi8kdSh7hvXSgzJypK6SNeq2gUfnuYCiqpfpump": {
+      "price_usd": 9.529302325593607e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.0244000000000001e-07,
+      "volume_h24": 439.64,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

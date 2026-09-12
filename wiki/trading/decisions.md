@@ -23611,3 +23611,6 @@
 ## [2026-09-12 16:27 UTC] buy | [LLM] $Caviar at $0.000118972, spent 0.05 SOL
 - **Reasoning:** Caviar narrative + FearOnChain tweet shoutout (influential on-chain account) is real attention. $4.3k mcap = fresh launch with10x+ room. Bond only 10% means price still moving up, ride the early attention. Risk: bond incomplete, could rug — but 0.1 SOL is the bet size.
 
+## [2026-09-12 16:28 UTC] sell | [rapid-drop] $Caviar crashed >15% in one tick | P&L: -19.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
