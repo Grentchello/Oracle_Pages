@@ -23188,3 +23188,6 @@
 ## [2026-09-12 12:01 UTC] buy | [LLM] $ZAN at $7.943e-06, spent 0.05 SOL
 - **Reasoning:** $ZAN is the freshest launch (1.2min), lowest meaningful mcap ($10k) with an actual Twitter handle (zandyor). Classic attention-launched setup — viral X account + low float = pump potential. Risk: bond only 32% complete (not graduated) and no description provided, so I'll size to 0.05 SOL and watch the first 10 min for either TP or stale exit.
 
+## [2026-09-12 12:02 UTC] sell | [rapid-drop] $ZAN crashed >15% in one tick | P&L: -60.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
