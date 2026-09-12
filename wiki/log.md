@@ -488,3 +488,13 @@ Bot is now running with v9.1 filters. Created a cronjob that fires every 2 hours
 **First run**: 04:41 UTC today
 
 Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN fragility gate catching celebrity rug tokens, slippage simulation in place. Let it run.
+
+## [2026-09-12 04:42 UTC] eval | memecoin bot — 2026-09-12 04:42 UTC
+- Window: since state.json began tracking (no prior `## [] eval` headers in log.md)
+- Trades: 3114 | Win rate: 46.6% (1452 wins / 1662 losses)
+- Net PnL: +9.0458 SOL all-time in state.json (includes v9.0 slippage simulation)
+- Balance: 13.262 SOL (open positions: 0)
+- Breakdown: TP/partial wins 1452 trades, sum +32.1828 SOL | rapid losses (rugs<-50%) 374 trades, sum -12.8336 SOL | other losses 1288 trades, sum -10.3034 SOL
+- Biggest recent winners: PFI6900 (+1865%), Bracat (+3530%), Pump Stonk (+2308%), [pump] (+2934%), PUMPHOUSE (+4388%), fun (+3616%) — mechanical v8.7 +50% TP captured these
+- Slippage caveat: bot already simulates slippage (v9.0) on exit. Real-world slippage on bonding-curve tokens with high pool share could still be worse. Net +9.05 SOL is paper/simulated, not realized on-chain.
+- Verdict: **Profitable, no changes needed.** v8.7 mechanical rules (TP +50% full, -25% hard stop, 30-min cap, force-sell-on-hold) work as designed. No tweaks to mechanical rules per user constraint. Bot running normally.
