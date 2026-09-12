@@ -1,8 +1,37 @@
 {
-  "balance_sol": 27.517978,
+  "balance_sol": 27.467978,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "3VPNhSG1CCY16itKsinFr18HdR1bgCUuca1TJByVpump": {
+      "symbol": "MLC",
+      "name": "Money Laundering Coin",
+      "mint": "3VPNhSG1CCY16itKsinFr18HdR1bgCUuca1TJByVpump",
+      "amount": 3144.150287850244,
+      "entry_price_usd": 0.0016142676193351695,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T21:40:37.729902+00:00",
+      "entry_time_iso": "2026-09-12T21:40:37.729910+00:00",
+      "entry_usd_value": 5.075500000000001,
+      "last_seen_price_usd": 0.0016142676193351695,
+      "entry_liquidity_usd": 351037.45665591746,
+      "entry_pool_sol": 3458.156404846,
+      "entry_market_cap_usd": 9276.036939217438,
+      "entry_signals": {
+        "liquidity_usd": 351037.45665591746,
+        "volume_24h_usd": 0.0,
+        "market_cap_usd": 9276.036939217438,
+        "ath_market_cap_usd": 9276.036939217438,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 3458.156404846,
+        "description": "",
+        "twitter": "https://x.com/Rondosol/status/2098889063876939889",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59538,17 +59567,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T21:39:17.723876+00:00",
+  "last_updated": "2026-09-12T21:40:37.730221+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.84,
-  "portfolio_value_usd": 2802.43,
+  "last_sol_price_usd": 101.51,
+  "portfolio_value_usd": 2793.35,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 21:22 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $duck at $3.83277e-06 | P&L: +17.2%",
-      "reason": "+17.2% with very thin liquidity (pool=$496, only 1% of pool). At this size a single seller dumps the bag. Lock half the gain — ride the rest with house money."
-    },
     {
       "time": "2026-09-12 21:23 UTC",
       "action": "sell",
@@ -59662,6 +59685,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $HOODCAT at $7.79556e-06 | P&L: +31.7%",
       "reason": "+31.7% fresh pump, just hit +30% auto-TP zone. Bot will sell_half at this threshold. Letting remainder ride toward +100% TP at 50%. Not stale, only 0.0h held, bonding-curve momentum intact."
+    },
+    {
+      "time": "2026-09-12 21:40 UTC",
+      "action": "buy",
+      "details": "[LLM] $MLC at $0.00161427, spent 0.05 SOL",
+      "reason": "$MLC 'Money Laundering Coin' has the strongest viral hook of the batch — edgy/controversial name is meme-native attention bait, bond already 23% (advancing), mcap $9.3k still early. Risk: edgy names can draw regulatory attention or rug faster, and no desc/twitter is a yellow flag on viability, so position is 0.05 SOL (min size). Skipping $DOGECHAN (no desc/twitter = viability fail), $Baton (bond 6%, no metadata), $SAGR (bond 4%, too thin). Letting $MEME1921 and $4S pass — solid narratives but only 1 slot, $MLC's controversy edge wins."
     }
   ],
   "trade_stats": {
@@ -59683,21 +59712,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T21:39:17.723149+00:00",
+  "last_llm_brief_at": "2026-09-12T21:40:36.475601+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "AFrCCmdbcXV3QGEaVbxVqANFzBycE4SYSnYAafzRmB3x": {
-      "price_usd": 7.795556768044355e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2000.0571626944002,
-      "volume_h24": 6146.56,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 19.63921016
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
