@@ -23680,3 +23680,6 @@
 ## [2026-09-12 16:57 UTC] sell | [rapid-drop] $PDT crashed >15% in one tick | P&L: -60.7%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 17:02 UTC] buy | [LLM] $PUMPING at $0.000121458, spent 0.05 SOL
+- **Reasoning:** Passes v8.2 fragility gate (no political/celebrity keywords). Viability gate: short desc but real twitter attached — leans PASS. Self-aware meta-narrative ('PUMP + DUPING = PUMPING') with a launch X post at 0.6min is an attention signal. $4.4k mcap is ultra-thin and GMGN fragility data is unavailable due to Cloudflare block, so whale/rug risk is unverified — accept that risk, size 0.05 SOL, hard stop at -25%.
+
