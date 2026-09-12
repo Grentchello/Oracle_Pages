@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.637056,
+  "balance_sol": 12.659459,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "C3Lg43UaoUadEj5FMzYJAPDxS2YjEHWqhni7S14upump": {
-      "symbol": "SpaceToad",
-      "name": "SPACE TOAD",
-      "mint": "C3Lg43UaoUadEj5FMzYJAPDxS2YjEHWqhni7S14upump",
-      "amount": 798603.4834457871,
-      "entry_price_usd": 6.373e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T13:39:13.922496+00:00",
-      "entry_time_iso": "2026-09-12T13:39:13.922504+00:00",
-      "entry_usd_value": 5.089500000000001,
-      "last_seen_price_usd": 6.373e-06,
-      "entry_liquidity_usd": 1599.1343767924202,
-      "entry_pool_sol": 15.710132398,
-      "entry_market_cap_usd": 6539.315289395521,
-      "entry_signals": {
-        "liquidity_usd": 1599.1343767924202,
-        "volume_24h_usd": 1515.35,
-        "market_cap_usd": 6539.315289395521,
-        "ath_market_cap_usd": 6539.315289395521,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 15.710132398,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56349,19 +56320,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 75.166193,
       "partial": false
+    },
+    {
+      "mint": "C3Lg43UaoUadEj5FMzYJAPDxS2YjEHWqhni7S14upump",
+      "symbol": "SpaceToad",
+      "name": "SPACE TOAD",
+      "amount_sold": 798603.4834457871,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T13:39:13.922496+00:00",
+      "entry_time_iso": "2026-09-12T13:39:13.922504+00:00",
+      "exit_time": "2026-09-12T13:40:18.039420+00:00",
+      "exit_time_iso": "2026-09-12T13:40:18.039430+00:00",
+      "entry_price_usd": 6.373e-06,
+      "exit_price_usd": 2.8568992234334966e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.022403,
+      "pnl_sol": -0.027597,
+      "pnl_pct": -55.17,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 1599.13,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 15.7101,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 64.116945,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T13:39:13.922682+00:00",
+  "last_updated": "2026-09-12T13:40:37.946506+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.79,
-  "portfolio_value_usd": 1291.42,
+  "last_sol_price_usd": 101.84,
+  "portfolio_value_usd": 1289.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 13:10 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Wars at $3.32825e-06 | P&L: +3.5%",
-      "reason": "+16.3% in 0h, approaching the +20% caution zone but not there yet. Fresh bonding curve position, pool thin ($246) so any sell moves price hard — hold and see if it pushes through to +30% TP territory. No reason to exit at break-even zone."
-    },
     {
       "time": "2026-09-12 13:10 UTC",
       "action": "buy",
@@ -56475,30 +56464,48 @@
       "action": "buy",
       "details": "[LLM] $SpaceToad at $6.373e-06, spent 0.05 SOL",
       "reason": "$SpaceToad — absurd/frog-adjacent memecoin naming is peak attention-market DNA, age 0.5min with $6.5k mcap is textbook fresh-launch entry. Low bond completion (25%) means early curve; 0.05 SOL risks ~$5 to test narrative traction. Risk: ultra-low mcap = high rug/fragility risk, but viability gate passed and age is fresh."
+    },
+    {
+      "time": "2026-09-12 13:40 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $SpaceToad crashed >15% in one tick | P&L: -55.2%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3265,
+    "total": 3266,
     "wins": 1512,
-    "losses": 1753,
+    "losses": 1754,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.470868,
-    "avg_pnl_pct": 28.39,
+    "total_pnl_sol": 8.443271,
+    "avg_pnl_pct": 28.36,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 192,
-    "today_realized_sol": 3.437772,
-    "today_target_pct": 859.4,
+    "today_trades": 193,
+    "today_realized_sol": 3.410175,
+    "today_target_pct": 852.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1512,
-      "loss_count": 1753,
+      "loss_count": 1754,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T13:39:12.449741+00:00",
+  "last_llm_brief_at": "2026-09-12T13:40:37.946462+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "C3Lg43UaoUadEj5FMzYJAPDxS2YjEHWqhni7S14upump": {
+      "price_usd": 2.8568992234334966e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 5.122140159040001,
+      "volume_h24": 1601.21,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.050295956
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

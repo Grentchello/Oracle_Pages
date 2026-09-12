@@ -23344,3 +23344,6 @@
 ## [2026-09-12 13:39 UTC] buy | [LLM] $SpaceToad at $6.373e-06, spent 0.05 SOL
 - **Reasoning:** $SpaceToad — absurd/frog-adjacent memecoin naming is peak attention-market DNA, age 0.5min with $6.5k mcap is textbook fresh-launch entry. Low bond completion (25%) means early curve; 0.05 SOL risks ~$5 to test narrative traction. Risk: ultra-low mcap = high rug/fragility risk, but viability gate passed and age is fresh.
 
+## [2026-09-12 13:40 UTC] sell | [rapid-drop] $SpaceToad crashed >15% in one tick | P&L: -55.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
