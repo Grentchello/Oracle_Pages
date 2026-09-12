@@ -23290,3 +23290,9 @@
 ## [2026-09-12 13:10 UTC] buy | [LLM] $NASBAYC at $5.096e-05, spent 0.05 SOL
 - **Reasoning:** NASBAYC narrative: bayc parody with summer pool vibe, has twitter handle linked, bonding curve already 43% complete with $56k mcap — fastest bonding of the three, strongest attention signal. Description passes viability gate (>50 chars + twitter). $5 position sized to fail-safe.
 
+## [2026-09-12 13:11 UTC] sell | [v8.7 TP +50% (full)] $NASBAYC at $7.745e-05 | P&L: +52.0%
+- **Reasoning:** Auto take-profit at +52.0%
+
+## [2026-09-12 13:11 UTC] buy | [LLM] $PokeFi at $1.441e-05, spent 0.05 SOL
+- **Reasoning:** $PokeFi has the strongest narrative of the three — a degen reserve-currency loop with bonding/staking mechanics, and a twitter link to back it. Mcap $14.7k is the sweet spot for attention-launched runners. Risks: 0.9min age is extremely fresh, bond only 36%, and we have no held position yet so we can absorb a quick loss.
+
