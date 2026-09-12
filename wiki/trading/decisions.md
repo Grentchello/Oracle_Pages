@@ -22549,3 +22549,6 @@
 ## [2026-09-12 05:46 UTC] sell | [FULL][LLM] $CATPR at $2.85252e-06 | P&L: -55.3%
 - **Reasoning:** Down only -10.4%, not at -20% sell threshold or 30min stale trigger. Holding for a bounce but watching closely — if it drops past -15% with no recovery, exit immediately. Bonding curve + massive share means thin liquidity to exit into.
 
+## [2026-09-12 05:47 UTC] buy | [LLM] $TSM at $3.155e-06, spent 0.05 SOL
+- **Reasoning:** $TSM backed by Brian Roemmele (~750k followers), visually distinctive 'ancient carved stone figures' narrative is highly shareable, has description, sub-1min age has viral first-hour potential. Risks: mcap only $3.2k, bond only 6% complete, thin liquidity could mean wicks both ways.
+
