@@ -23794,3 +23794,9 @@
 ## [2026-09-12 18:11 UTC] buy | [LLM] $TULIP at $4.22653e-07, spent 0.05 SOL
 - **Reasoning:** $TULIP has the strongest attention signal in the batch: trending X URL, tulipmania narrative is instantly recognizable meme-fodder, and 35% bond completion means it's already passed the most fragile early phase. Buying 0.05 SOL to test attention-driven entry; will exit fast if no momentum by +5 min.
 
+## [2026-09-12 18:12 UTC] sell | [v8.7 TP +50% (full)] $TULIP at $1.17244e-06 | P&L: +177.4%
+- **Reasoning:** Auto take-profit at +177.4%
+
+## [2026-09-12 18:13 UTC] buy | [LLM] $DEVSOL at $4.09437e-06, spent 0.05 SOL
+- **Reasoning:** $DEVSOL has the clearest narrative: 'SELLURSOL — the little devil of Solana with horns and bags.' Mascot meme + sell-the-dip irony = native degen humor. Bond only 14% means very early, room to pump. Highest attention-to-mcap ratio of the bunch.
+
