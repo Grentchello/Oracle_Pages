@@ -1,37 +1,8 @@
 {
-  "balance_sol": 17.444964,
+  "balance_sol": 17.485368,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HrRy3ft6r4uhY7sEGAQT6Bb8zrthpJSL23UAsYSTpump": {
-      "symbol": "HODL",
-      "name": "HODL",
-      "mint": "HrRy3ft6r4uhY7sEGAQT6Bb8zrthpJSL23UAsYSTpump",
-      "amount": 40536.92242260765,
-      "entry_price_usd": 0.00012658829761427908,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T17:07:16.166326+00:00",
-      "entry_time_iso": "2026-09-12T17:07:16.166334+00:00",
-      "entry_usd_value": 5.1315,
-      "last_seen_price_usd": 0.00012658829761427908,
-      "entry_liquidity_usd": 2710.54551230562,
-      "entry_pool_sol": 26.410849774,
-      "entry_market_cap_usd": 4608.239906436966,
-      "entry_signals": {
-        "liquidity_usd": 2710.54551230562,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4608.239906436966,
-        "ath_market_cap_usd": 5363.188621587848,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 26.410849774,
-        "description": "",
-        "twitter": "https://x.com/exitliquid1ty/status/2098820373844201528",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57765,19 +57736,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.309265,
       "partial": false
+    },
+    {
+      "mint": "HrRy3ft6r4uhY7sEGAQT6Bb8zrthpJSL23UAsYSTpump",
+      "symbol": "HODL",
+      "name": "HODL",
+      "amount_sold": 40536.92242260765,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T17:07:16.166326+00:00",
+      "entry_time_iso": "2026-09-12T17:07:16.166334+00:00",
+      "exit_time": "2026-09-12T17:08:20.340199+00:00",
+      "exit_time_iso": "2026-09-12T17:08:20.340209+00:00",
+      "entry_price_usd": 0.00012658829761427908,
+      "exit_price_usd": 0.00010174370195623513,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.040404,
+      "pnl_sol": -0.009596,
+      "pnl_pct": -19.63,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 2710.55,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 26.4108,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 64.173895,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T17:07:16.166614+00:00",
+  "last_updated": "2026-09-12T17:08:34.476646+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.63,
-  "portfolio_value_usd": 1795.51,
+  "last_sol_price_usd": 102.079,
+  "portfolio_value_usd": 1784.89,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 16:39 UTC",
-      "action": "buy",
-      "details": "[LLM] $LARA at $4.924e-06, spent 0.05 SOL",
-      "reason": "$LARA Project Lara — sonicdeployer X post, fresh0.5min launch, $3.2k mcap. Unknown narrative but Sonic deployer has been an active attention source; cheap entry at bonding6% lets ride the first wave if any traction hits."
-    },
     {
       "time": "2026-09-12 16:40 UTC",
       "action": "sell",
@@ -57891,30 +57880,48 @@
       "action": "buy",
       "details": "[LLM] $HODL at $0.000126588, spent 0.05 SOL",
       "reason": "$HODL — 'HODL' is the most iconic crypto meme-word, has a live tweet attached (the only candidate with visible attention), 0.7min old so I'm early. Risks: bond only 12%, the tweet is from a single low-follower account which could be engagement-farming, very low mcap means easy to dump. Sizing 0.05 SOL as a probe since this is tick #1 with no edge yet."
+    },
+    {
+      "time": "2026-09-12 17:08 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $HODL crashed >15% in one tick | P&L: -19.6%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3324,
+    "total": 3325,
     "wins": 1537,
-    "losses": 1787,
+    "losses": 1788,
     "win_rate_pct": 46.2,
-    "total_pnl_sol": 13.278778,
-    "avg_pnl_pct": 31.51,
+    "total_pnl_sol": 13.269182,
+    "avg_pnl_pct": 31.5,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 251,
-    "today_realized_sol": 8.245682,
-    "today_target_pct": 2061.4,
+    "today_trades": 252,
+    "today_realized_sol": 8.236086,
+    "today_target_pct": 2059.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1537,
-      "loss_count": 1787,
+      "loss_count": 1788,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T17:07:14.714105+00:00",
+  "last_llm_brief_at": "2026-09-12T17:08:34.475986+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HrRy3ft6r4uhY7sEGAQT6Bb8zrthpJSL23UAsYSTpump": {
+      "price_usd": 0.00010174370195623513,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3578.1252822101637,
+      "volume_h24": 2527.58,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 35.052511116
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
