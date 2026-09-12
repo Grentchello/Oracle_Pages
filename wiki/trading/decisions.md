@@ -23749,3 +23749,6 @@
 ## [2026-09-12 17:46 UTC] buy | [LLM] $ASTGPT at $3.24761e-06, spent 0.05 SOL
 - **Reasoning:** GPT-6 / 3D-game-from-text narrative ties into the AI agent meta that's been pumping all cycle; has twitter link, low mcap $3.2k = room to run. Risk: bond only 6% incomplete, brand-new.
 
+## [2026-09-12 17:48 UTC] sell | [FULL][LLM] $ASTGPT at $3.36773e-06 | P&L: +3.7%
+- **Reasoning:** $ASTGPT just entered at +3.7%, bonding curve stage, too early to judge. No profit-take threshold hit, no stale signal. Give it time to develop.
+
