@@ -23932,3 +23932,6 @@
 ## [2026-09-12 19:39 UTC] buy | [LLM] $MANLET at $3.19471e-06, spent 0.05 SOL
 - **Reasoning:** $MANLET — 'manlet' is a recognizable viral meme format with active crypto-twitter circulation, has a twitter link (rare at this stage), $5k mcap is early but not microscopic, and 9% bond shows organic demand. The other two launches ($fone, $DOG) are derivative/generic with no narrative hook or social signal. Risk: brand-new mint, fragility gate may still flag it — but if it passes, this has the most attention potential of the three.
 
+## [2026-09-12 19:40 UTC] sell | [rapid-drop] $MANLET crashed >15% in one tick | P&L: -18.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
