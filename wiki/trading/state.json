@@ -1,27 +1,27 @@
 {
-  "balance_sol": 13.257456,
+  "balance_sol": 13.304904,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "3i8WuDWmhoDwcyESn7Wh9ecYdzGrLGUWfRkTgCJSpump": {
-      "symbol": "Phil",
-      "name": "Phil",
-      "amount": 787410.7420055884,
-      "entry_price_usd": 6.442e-06,
+    "5fPXNLNPP7Uw8wAMKRL18B4S4iEDjksJX8xNHsspump": {
+      "symbol": "TP",
+      "name": "Toilet Paper",
+      "amount": 937385.0680397204,
+      "entry_price_usd": 5.438e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T05:17:03.576927+00:00",
-      "entry_usd_value": 5.072500000000001,
-      "last_seen_price_usd": 6.442e-06,
+      "entry_time": "2026-09-12T05:18:23.555692+00:00",
+      "entry_usd_value": 5.0975,
+      "last_seen_price_usd": 5.438e-06,
       "entry_signals": {
-        "liquidity_usd": 1748.33326581715,
-        "volume_24h_usd": 8231.77,
-        "market_cap_usd": 6048.060868161605,
-        "ath_market_cap_usd": 7736.62470937793,
+        "liquidity_usd": 1351.58920253165,
+        "volume_24h_usd": 7212.96,
+        "market_cap_usd": 5711.041739547191,
+        "ath_market_cap_usd": 6011.264876943632,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 17.233447667,
-        "description": "",
-        "twitter": "https://x.com/kuantkid/status/2098641768250212512?s=20",
+        "real_sol_reserves": 13.257373247,
+        "description": "Toilet Paper",
+        "twitter": "https://x.com/honestdevvor/status/2098641982142996673?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -53101,25 +53101,30 @@
       "pnl_pct": 18.29,
       "exit_reason": "LLM: sell_all — Up +18.3% with confirmed buy pressure (139 vs 64 sells, +60% on DexScreener). Approaching +25% TP zone — let the bot auto-take-profit. Pool $1.4k is t",
       "partial": false
+    },
+    {
+      "mint": "3i8WuDWmhoDwcyESn7Wh9ecYdzGrLGUWfRkTgCJSpump",
+      "symbol": "Phil",
+      "name": "Phil",
+      "amount_sold": 787410.7420055884,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T05:17:03.576927+00:00",
+      "exit_time": "2026-09-12T05:18:07.424058+00:00",
+      "entry_price_usd": 6.442e-06,
+      "exit_price_usd": 1.2617045280444875e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.097448,
+      "pnl_sol": 0.047448,
+      "pnl_pct": 95.86,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T05:17:03.577184+00:00",
+  "last_updated": "2026-09-12T05:18:23.555952+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.45,
-  "portfolio_value_usd": 1350.04,
+  "last_sol_price_usd": 101.95,
+  "portfolio_value_usd": 1361.53,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 04:38 UTC",
-      "action": "buy",
-      "details": "[LLM] $BUTTHOLE at $1.03427e-05, spent 0.05 SOL",
-      "reason": "$BUTTHOLE has the strongest attention signal of the batch — it's already at $10k mcap with bond32% complete (leading the launches), has an actual X/Twitter link attached, and the name is the kind of crude humor that goes viral on memecoin Twitter. Low mcap + viral name + dev with social presence = classic attention-market setup. Size0.05 SOL as a probe; if it pumps I'll add or take profit per the rules."
-    },
-    {
-      "time": "2026-09-12 04:39 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BUTTHOLE at $1.43022e-05 | P&L: +38.3%",
-      "reason": "+38.3% gain on a sub-$4k-liquidity bonding-curve token. Default bias: lock profits on memecoins at this level rather than hope for more — a -30% reversal would wipe out the gain. Take the win, free the slot for a fresh launch."
-    },
     {
       "time": "2026-09-12 04:39 UTC",
       "action": "buy",
@@ -53227,40 +53232,52 @@
       "action": "buy",
       "details": "[LLM] $Phil at $6.442e-06, spent 0.05 SOL",
       "reason": "Freshest attention signal in the slate — @kuantkid X post, 0.5min age, $6k mcap. Asymmetric setup: cheap entry with named X-account catalyst. Viability gate passes (has twitter). Size 0.05 SOL to balance against held $ASSDAQ risk."
+    },
+    {
+      "time": "2026-09-12 05:18 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $Phil at $1.2617e-05 | P&L: +95.9%",
+      "reason": "Auto take-profit at +95.9%"
+    },
+    {
+      "time": "2026-09-12 05:18 UTC",
+      "action": "buy",
+      "details": "[LLM] $TP at $5.438e-06, spent 0.05 SOL",
+      "reason": "$TP (Toilet Paper) — universal meme material, direct tweet from @honestdevvor (not just a community link), $5.7k mcap with 23% bond. Risky but the experiment requires taking trades to learn. Sizing at 0.05 SOL. Skipping KEYCAT (bond only 10% = rug-prone) and MEME1921 (weak twitter signal — community link, no viral tweet)."
     }
   ],
   "trade_stats": {
-    "total": 3122,
-    "wins": 1458,
+    "total": 3123,
+    "wins": 1459,
     "losses": 1664,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 9.091269,
-    "avg_pnl_pct": 30.09,
+    "total_pnl_sol": 9.138717,
+    "avg_pnl_pct": 30.11,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 49,
-    "today_realized_sol": 4.058173,
-    "today_target_pct": 1014.5,
+    "today_trades": 50,
+    "today_realized_sol": 4.105621,
+    "today_target_pct": 1026.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1458,
+      "win_count": 1459,
       "loss_count": 1664,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:17:02.167111+00:00",
+  "last_llm_brief_at": "2026-09-12T05:18:22.041362+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "Et8daGEsgRa7eDaAwyqPwZ2w4btEjjitSdxPj6d8r67M": {
-      "price_usd": 6.021776406605494e-06,
+    "3i8WuDWmhoDwcyESn7Wh9ecYdzGrLGUWfRkTgCJSpump": {
+      "price_usd": 1.2617045280444875e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1391.04256109225,
-      "volume_h24": 7391.85,
+      "liquidity_usd": 3376.26861492235,
+      "volume_h24": 10535.1,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 13.711607305
+      "real_sol_reserves": 33.116906473
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

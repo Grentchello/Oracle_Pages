@@ -22501,3 +22501,9 @@
 ## [2026-09-12 05:17 UTC] buy | [LLM] $Phil at $6.442e-06, spent 0.05 SOL
 - **Reasoning:** Freshest attention signal in the slate — @kuantkid X post, 0.5min age, $6k mcap. Asymmetric setup: cheap entry with named X-account catalyst. Viability gate passes (has twitter). Size 0.05 SOL to balance against held $ASSDAQ risk.
 
+## [2026-09-12 05:18 UTC] sell | [v8.7 TP +50% (full)] $Phil at $1.2617e-05 | P&L: +95.9%
+- **Reasoning:** Auto take-profit at +95.9%
+
+## [2026-09-12 05:18 UTC] buy | [LLM] $TP at $5.438e-06, spent 0.05 SOL
+- **Reasoning:** $TP (Toilet Paper) — universal meme material, direct tweet from @honestdevvor (not just a community link), $5.7k mcap with 23% bond. Risky but the experiment requires taking trades to learn. Sizing at 0.05 SOL. Skipping KEYCAT (bond only 10% = rug-prone) and MEME1921 (weak twitter signal — community link, no viral tweet).
+
