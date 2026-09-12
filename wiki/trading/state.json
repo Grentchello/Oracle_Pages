@@ -1,37 +1,8 @@
 {
-  "balance_sol": 17.435368,
+  "balance_sol": 17.48011,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "A2LH9Nhy3pHuDZ3YGTVE2geBYFuumRp8swGvaXqUpump": {
-      "symbol": "HODL",
-      "name": "Diamond Balls Only",
-      "mint": "A2LH9Nhy3pHuDZ3YGTVE2geBYFuumRp8swGvaXqUpump",
-      "amount": 1553501.0609275538,
-      "entry_price_usd": 3.299e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T17:17:15.780195+00:00",
-      "entry_time_iso": "2026-09-12T17:17:15.780204+00:00",
-      "entry_usd_value": 5.125,
-      "last_seen_price_usd": 3.299e-06,
-      "entry_liquidity_usd": 74.05826515,
-      "entry_pool_sol": 0.72251966,
-      "entry_market_cap_usd": 3298.710284720364,
-      "entry_signals": {
-        "liquidity_usd": 74.05826515,
-        "volume_24h_usd": 1436.51,
-        "market_cap_usd": 3298.710284720364,
-        "ath_market_cap_usd": 4047.86291442522,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.72251966,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57789,19 +57760,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.173895,
       "partial": false
+    },
+    {
+      "mint": "A2LH9Nhy3pHuDZ3YGTVE2geBYFuumRp8swGvaXqUpump",
+      "symbol": "HODL",
+      "name": "Diamond Balls Only",
+      "amount_sold": 1553501.0609275538,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T17:17:15.780195+00:00",
+      "entry_time_iso": "2026-09-12T17:17:15.780204+00:00",
+      "exit_time": "2026-09-12T17:18:38.454984+00:00",
+      "exit_time_iso": "2026-09-12T17:18:38.454990+00:00",
+      "entry_price_usd": 3.299e-06,
+      "exit_price_usd": 2.9365065407811996e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.044742,
+      "pnl_sol": -0.005258,
+      "pnl_pct": -10.99,
+      "exit_reason": "LLM: sell_all — Position is 0.0h held — just entered this tick. -11% on a $46 pool likely reflects my own entry impact, not organic selling. Give it one more tick to ",
+      "entry_liquidity_usd": 74.06,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 0.7225,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 82.674806,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T17:17:15.780497+00:00",
+  "last_updated": "2026-09-12T17:18:38.455224+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.5,
-  "portfolio_value_usd": 1792.25,
+  "last_sol_price_usd": 101.96,
+  "portfolio_value_usd": 1782.27,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 16:43 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $delusional at $6.68213e-06 | P&L: -14.1%",
-      "reason": "Down -14% in minutes, no bounce signal, sub-$2k liquidity, and age<1min — classic new-launch dump. Cut before the -25% hard stop."
-    },
     {
       "time": "2026-09-12 16:49 UTC",
       "action": "buy",
@@ -57915,30 +57904,48 @@
       "action": "buy",
       "details": "[LLM] $HODL at $3.299e-06, spent 0.05 SOL",
       "reason": "$HODL — 'Diamond Balls Only' is pure degen mantra, age <1min, mcap $3.3k, narrative is the name itself. Bond not complete yet so I'm early to the curve. Risky but attention is the whole game here."
+    },
+    {
+      "time": "2026-09-12 17:18 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HODL at $2.93651e-06 | P&L: -11.0%",
+      "reason": "Position is 0.0h held — just entered this tick. -11% on a $46 pool likely reflects my own entry impact, not organic selling. Give it one more tick to see if any organic buyer appears to provide exit liquidity before cutting."
     }
   ],
   "trade_stats": {
-    "total": 3325,
+    "total": 3326,
     "wins": 1537,
-    "losses": 1788,
+    "losses": 1789,
     "win_rate_pct": 46.2,
-    "total_pnl_sol": 13.269182,
-    "avg_pnl_pct": 31.5,
+    "total_pnl_sol": 13.263924,
+    "avg_pnl_pct": 31.49,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 252,
-    "today_realized_sol": 8.236086,
-    "today_target_pct": 2059.0,
+    "today_trades": 253,
+    "today_realized_sol": 8.230828,
+    "today_target_pct": 2057.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1537,
-      "loss_count": 1788,
+      "loss_count": 1789,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T17:17:14.337135+00:00",
+  "last_llm_brief_at": "2026-09-12T17:18:38.454843+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "A2LH9Nhy3pHuDZ3YGTVE2geBYFuumRp8swGvaXqUpump": {
+      "price_usd": 2.9365065407811996e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 45.69445283876,
+      "volume_h24": 1592.85,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.448160581
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

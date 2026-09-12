@@ -23713,3 +23713,6 @@
 ## [2026-09-12 17:17 UTC] buy | [LLM] $HODL at $3.299e-06, spent 0.05 SOL
 - **Reasoning:** $HODL — 'Diamond Balls Only' is pure degen mantra, age <1min, mcap $3.3k, narrative is the name itself. Bond not complete yet so I'm early to the curve. Risky but attention is the whole game here.
 
+## [2026-09-12 17:18 UTC] sell | [FULL][LLM] $HODL at $2.93651e-06 | P&L: -11.0%
+- **Reasoning:** Position is 0.0h held — just entered this tick. -11% on a $46 pool likely reflects my own entry impact, not organic selling. Give it one more tick to see if any organic buyer appears to provide exit liquidity before cutting.
+
