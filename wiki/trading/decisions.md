@@ -23431,3 +23431,6 @@
 ## [2026-09-12 14:36 UTC] sell | [rapid-drop] $CRAB crashed >15% in one tick | P&L: -35.6%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 14:40 UTC] buy | [LLM] $SWARM at $4.029e-06, spent 0.05 SOL
+- **Reasoning:** $SWARM — AI agents collaborating with shared treasury is a strong2025 narrative (virtuals/ai16z adjacent). Has twitter (@matthewabides), 99-char description, fresh 1min launch. Riding the AI-agent meta attention wave.
+
