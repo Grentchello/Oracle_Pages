@@ -23488,3 +23488,6 @@
 ## [2026-09-12 15:14 UTC] buy | [LLM] $Charizard at $1.88453e-06, spent 0.05 SOL
 - **Reasoning:** $Charizard — Pokemon is the most consistently viral memecoin archetype.0.8min old, $6.9k mcap, bond 25% (strongest of batch), twitter link present. Early entry on a legendary meme name with real initial buy pressure. Position size 0.05 SOL.
 
+## [2026-09-12 15:15 UTC] sell | [FULL][LLM] $Charizard at $1.74825e-06 | P&L: -7.2%
+- **Reasoning:** $Charizard is only -7.2% and held 0.0h. Pokemon narrative has viral attention potential (Charizard is iconic). Not near -25% hard cap or stale exit. Giving it more time to find a bounce before cutting.
+
