@@ -22831,3 +22831,6 @@
 ## [2026-09-12 08:22 UTC] buy | [LLM] $Xoge at $0.000528578, spent 0.05 SOL
 - **Reasoning:** $Xoge passes viability (has twitter) and fragility gates. Sub-1min launch at $4.4k mcap with an active X post — earliest attention signal of the three. 'Xoge' is a quirky, memeable name with no narrative clutter. High rug risk at this stage but that's the asymmetric bet: small position, fast exit if it doesn't pop in 5-10 min.
 
+## [2026-09-12 08:23 UTC] sell | [FULL][LLM] $Xoge at $0.000454096 | P&L: -14.1%
+- **Reasoning:** $Xoge is down -14.1% on essentially zero hold time (0.0h), thin $1.6k pool, and our share is 0% (no real position to defend). Bonding-curve micro-cap with no narrative edge — best to free the slot before it slides further toward the -25% hard cap.
+
