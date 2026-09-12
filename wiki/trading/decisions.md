@@ -22333,3 +22333,6 @@
 ## [2026-09-12 03:34 UTC] sell | [FULL][LLM] $CHECKYDOGE at $3.30518e-06 | P&L: -5.0%
 - **Reasoning:** Just entered at -5% with 0.0h held — too early to bail. No viral narrative visible but the loss is tiny and the auto-stop won't trigger until -25% or 30min. Give it a few minutes to either bounce or die on its own.
 
+## [2026-09-12 03:36 UTC] buy | [LLM] $Normify at $3.21664e-06, spent 0.05 SOL
+- **Reasoning:** $Normify — clean name, dedicated X account (@normifyxyz), sub-$4k mcap, super fresh. The 'normie' / 'normalize' narrative has meme legs; even a 5x from here is +0.5 SOL. Viability: has twitter. Risk: only 6% bonded, will likely dump hard, but with -25% hard cap and 0.05 SOL size, R is contained.
+
