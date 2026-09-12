@@ -1,32 +1,8 @@
 {
-  "balance_sol": 9.199284,
+  "balance_sol": 9.24883,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DpNLFjHZvsiZmvbDais5Zps1yTQhBM45JwnmaQHDpump": {
-      "symbol": "DOGE-1",
-      "name": "MOONDOGE",
-      "amount": 11151.29378443584,
-      "entry_price_usd": 0.0004563147647587005,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T02:24:04.842749+00:00",
-      "entry_usd_value": 5.0885,
-      "last_seen_price_usd": 0.0004563147647587005,
-      "entry_signals": {
-        "liquidity_usd": 1087.0755080521399,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 3781.6163802228652,
-        "ath_market_cap_usd": 5703.931941548525,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 10.681689182,
-        "description": "",
-        "twitter": "https://x.com/derivativist/status/2098598058745283059?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52268,19 +52244,30 @@
       "pnl_pct": -7.2,
       "exit_reason": "LLM: sell_all — $PENNANT is -7.2%, no narrative, no twitter, no liquidity depth, and our share=1557254494% means we ARE the market — any bounce requires another bag-h",
       "partial": false
+    },
+    {
+      "mint": "DpNLFjHZvsiZmvbDais5Zps1yTQhBM45JwnmaQHDpump",
+      "symbol": "DOGE-1",
+      "name": "MOONDOGE",
+      "amount_sold": 11151.29378443584,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T02:24:04.842749+00:00",
+      "exit_time": "2026-09-12T02:25:18.855230+00:00",
+      "entry_price_usd": 0.0004563147647587005,
+      "exit_price_usd": 0.00045185896653274964,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049546,
+      "pnl_sol": -0.000454,
+      "pnl_pct": -0.98,
+      "exit_reason": "LLM: sell_all — Only held 0.0h (just entered), -1.0% is noise well within tolerance. DOGE-1 is a recognizable narrative ticker with bonding curve still active — give ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T02:24:04.843022+00:00",
+  "last_updated": "2026-09-12T02:25:18.855837+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.77,
-  "portfolio_value_usd": 941.3,
+  "last_sol_price_usd": 101.7,
+  "portfolio_value_usd": 940.61,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 01:07 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 01:09 UTC",
       "action": "observe",
@@ -52394,30 +52381,48 @@
       "action": "buy",
       "details": "[LLM] $DOGE-1 at $0.000456315, spent 0.05 SOL",
       "reason": "1.5min-old $3.7k mcap launch with DOGE-meta name (durable attention narrative) and active X account. Microcap = asymmetric upside if it catches fire; downside capped at -25% hard stop. Viability/fragility gates passed."
+    },
+    {
+      "time": "2026-09-12 02:25 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DOGE-1 at $0.000451859 | P&L: -1.0%",
+      "reason": "Only held 0.0h (just entered), -1.0% is noise well within tolerance. DOGE-1 is a recognizable narrative ticker with bonding curve still active — give it a chance to develop before judging."
     }
   ],
   "trade_stats": {
-    "total": 3073,
+    "total": 3074,
     "wins": 1435,
-    "losses": 1638,
+    "losses": 1639,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 5.033096,
-    "avg_pnl_pct": 27.95,
+    "total_pnl_sol": 5.032642,
+    "avg_pnl_pct": 27.94,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 0,
-    "today_realized_sol": 0,
-    "today_target_pct": 0.0,
+    "today_trades": 1,
+    "today_realized_sol": -0.000454,
+    "today_target_pct": -0.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1435,
-      "loss_count": 1638,
+      "loss_count": 1639,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T02:24:04.589157+00:00",
+  "last_llm_brief_at": "2026-09-12T02:25:18.854742+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "DpNLFjHZvsiZmvbDais5Zps1yTQhBM45JwnmaQHDpump": {
+      "price_usd": 0.00045185896653274964,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 65.0580835212,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.639705836
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

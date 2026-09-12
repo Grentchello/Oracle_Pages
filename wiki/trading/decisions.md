@@ -22210,3 +22210,6 @@
 ## [2026-09-12 02:24 UTC] buy | [LLM] $DOGE-1 at $0.000456315, spent 0.05 SOL
 - **Reasoning:** 1.5min-old $3.7k mcap launch with DOGE-meta name (durable attention narrative) and active X account. Microcap = asymmetric upside if it catches fire; downside capped at -25% hard stop. Viability/fragility gates passed.
 
+## [2026-09-12 02:25 UTC] sell | [FULL][LLM] $DOGE-1 at $0.000451859 | P&L: -1.0%
+- **Reasoning:** Only held 0.0h (just entered), -1.0% is noise well within tolerance. DOGE-1 is a recognizable narrative ticker with bonding curve still active — give it a chance to develop before judging.
+
