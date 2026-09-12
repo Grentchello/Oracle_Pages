@@ -1,32 +1,8 @@
 {
-  "balance_sol": 11.370549,
+  "balance_sol": 11.409516,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "fKNoAoNDssdSgqE8Adnj7rUsXwSqSaU8jJ98rQtpump": {
-      "symbol": "OS",
-      "name": "Open Set",
-      "amount": 1393719.1442676906,
-      "entry_price_usd": 3.646e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T03:12:26.330859+00:00",
-      "entry_usd_value": 5.0815,
-      "last_seen_price_usd": 3.646e-06,
-      "entry_signals": {
-        "liquidity_usd": 431.31270120571,
-        "volume_24h_usd": 422.48,
-        "market_cap_usd": 3709.4189177482094,
-        "ath_market_cap_usd": 3709.4189177482094,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.243950617,
-        "description": "Launched on discord.gg/uxento",
-        "twitter": "https://x.com/opensetfun/status/2098550056282386780",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52438,19 +52414,30 @@
       "pnl_pct": 8.93,
       "exit_reason": "LLM: sell_all — Up 8.9% after 0.1h with bonding curve pool only $1055 — thin liquidity makes exit slippage risky. Still under 15min stale threshold and green, so hold",
       "partial": false
+    },
+    {
+      "mint": "fKNoAoNDssdSgqE8Adnj7rUsXwSqSaU8jJ98rQtpump",
+      "symbol": "OS",
+      "name": "Open Set",
+      "amount_sold": 1393719.1442676906,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T03:12:26.330859+00:00",
+      "exit_time": "2026-09-12T03:13:30.247742+00:00",
+      "entry_price_usd": 3.646e-06,
+      "exit_price_usd": 2.857409133556943e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.038967,
+      "pnl_sol": -0.011033,
+      "pnl_pct": -21.63,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:12:26.331021+00:00",
+  "last_updated": "2026-09-12T03:13:47.308070+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.63,
-  "portfolio_value_usd": 1160.67,
+  "last_sol_price_usd": 102.2,
+  "portfolio_value_usd": 1166.05,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 02:25 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $DOGE-1 at $0.000451859 | P&L: -1.0%",
-      "reason": "Only held 0.0h (just entered), -1.0% is noise well within tolerance. DOGE-1 is a recognizable narrative ticker with bonding curve still active — give it a chance to develop before judging."
-    },
     {
       "time": "2026-09-12 02:38 UTC",
       "action": "buy",
@@ -52564,30 +52551,48 @@
       "action": "buy",
       "details": "[LLM] $OS at $3.646e-06, spent 0.05 SOL",
       "reason": "$OS passes viability gate (description + twitter + discord), fresh 1.4min launch at $3.7k mcap, 'Open Set' is an AI/math concept with viral potential on crypto Twitter. Smallest position size (0.05 SOL) given uncertainty, tight stop at -25%."
+    },
+    {
+      "time": "2026-09-12 03:13 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $OS crashed >15% in one tick | P&L: -21.6%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3083,
+    "total": 3084,
     "wins": 1439,
-    "losses": 1644,
+    "losses": 1645,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 7.204361,
-    "avg_pnl_pct": 29.27,
+    "total_pnl_sol": 7.193328,
+    "avg_pnl_pct": 29.25,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 10,
-    "today_realized_sol": 2.171265,
-    "today_target_pct": 542.8,
+    "today_trades": 11,
+    "today_realized_sol": 2.160232,
+    "today_target_pct": 540.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1439,
-      "loss_count": 1644,
+      "loss_count": 1645,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:12:24.994335+00:00",
+  "last_llm_brief_at": "2026-09-12T03:13:47.307935+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "fKNoAoNDssdSgqE8Adnj7rUsXwSqSaU8jJ98rQtpump": {
+      "price_usd": 2.857409133556943e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 3.066e-07,
+      "volume_h24": 884.61,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

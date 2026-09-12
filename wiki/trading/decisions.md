@@ -22270,3 +22270,6 @@
 ## [2026-09-12 03:12 UTC] buy | [LLM] $OS at $3.646e-06, spent 0.05 SOL
 - **Reasoning:** $OS passes viability gate (description + twitter + discord), fresh 1.4min launch at $3.7k mcap, 'Open Set' is an AI/math concept with viral potential on crypto Twitter. Smallest position size (0.05 SOL) given uncertainty, tight stop at -25%.
 
+## [2026-09-12 03:13 UTC] sell | [rapid-drop] $OS crashed >15% in one tick | P&L: -21.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
