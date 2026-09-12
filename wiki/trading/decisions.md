@@ -22903,3 +22903,6 @@
 ## [2026-09-12 09:17 UTC] buy | [LLM] $Egod at $0.000644938, spent 0.05 SOL
 - **Reasoning:** $Egod shows 2:1 buy/sell ratio (55 vs 27) in first 5min — real demand signal not just snipers. Name is a clear DOGE/Egod meme play, narrative is recognizable and quotable. Risk: mcap still tiny ($5.4k), bond only 14% — could rug. Sizing at 0.1 SOL respects the -25% hard cap.
 
+## [2026-09-12 09:18 UTC] sell | [v8.7 TP +50% (full)] $Egod at $0.00117619 | P&L: +82.4%
+- **Reasoning:** Auto take-profit at +82.4%
+
