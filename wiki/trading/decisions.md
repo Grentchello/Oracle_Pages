@@ -22294,3 +22294,9 @@
 ## [2026-09-12 03:19 UTC] buy | [LLM] $Bulljak at $9.3587e-06, spent 0.05 SOL
 - **Reasoning:** $Bulljak has the strongest attention signal of the slate — twitter presence, crude-name meme virality (this category pumps hard on X), and 31% bond completion showing real buyer flow. Mcap $9.3k is launch-phase where 5-10x happens in minutes if the meme catches. Narrative: absurdist humor token, exactly the kind of thing that trends.
 
+## [2026-09-12 03:20 UTC] sell | [rapid-drop] $Bulljak crashed >15% in one tick | P&L: -69.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 03:21 UTC] buy | [LLM] $Brian at $5.977e-06, spent 0.05 SOL
+- **Reasoning:** Better Call Brian riffs on Better Call Saul — recognizable meme narrative with an X link attached (attention signal). Sub-1-min launch at $5k mcap = pure early attention. Acceptable risk: -25% max = -$1.25 SOL.
+
