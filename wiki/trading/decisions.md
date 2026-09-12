@@ -23773,3 +23773,6 @@
 ## [2026-09-12 17:58 UTC] buy | [LLM] $WIF at $1.048e-05, spent 0.05 SOL
 - **Reasoning:** $WIF (Cat Wif Hat) — 'wif hat' is a proven meta (legacy $WIF hit billions in mcap). Cat variant rides that narrative with fresh attention at $9.7k mcap, 0.8min old — extremely early, asymmetric upside if narrative catches.
 
+## [2026-09-12 17:59 UTC] sell | [v8.7 TP +50% (full)] $WIF at $0.000105701 | P&L: +908.6%
+- **Reasoning:** Auto take-profit at +908.6%
+
