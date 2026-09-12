@@ -23479,3 +23479,6 @@
 ## [2026-09-12 15:07 UTC] sell | [FULL][LLM] $Comrades at $3.25225e-06 | P&L: -0.3%
 - **Reasoning:** $Comrades is flat (-0.3%), pool liquidity is only $201 with me holding 2% of pool — exit will be illiquid but slot-freedom matters more with 4 fresh viral launches available. No clear narrative momentum detected.
 
+## [2026-09-12 15:09 UTC] buy | [LLM] $Paperhands at $6.993e-06, spent 0.05 SOL
+- **Reasoning:** Paperhands is the only candidate passing both viability (has moonpay X link) and fragility gates. Classic crypto culture meme with early attention signal at 30% bond curve progress and $8.7k mcap — fresh enough for10x potential. Default bias: take the trade.
+
