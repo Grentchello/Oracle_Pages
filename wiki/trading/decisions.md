@@ -23056,3 +23056,6 @@
 ## [2026-09-12 10:50 UTC] sell | [FULL][LLM] $RIPCC at $3.09721e-06 | P&L: -0.1%
 - **Reasoning:** Just entered0.0h ago, basically flat (-0.1%). No signal to exit. Let it develop — bonding curve at 4% means early, plenty of room. Will reassess on next tick.
 
+## [2026-09-12 10:54 UTC] buy | [LLM] $Pillheads at $3.747e-06, spent 0.05 SOL
+- **Reasoning:** Pillheads is a live meme format with cultural recognition; twitter link passes viability gate despite thin description. At $3k mcap / 1.4min age, 10x is plausible if narrative catches. Risk: bond only 4% = shallow liquidity, easy to rug. Sizing 0.05 SOL to respect the tightened v7 position cap.
+
