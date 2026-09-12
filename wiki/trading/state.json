@@ -1,32 +1,8 @@
 {
-  "balance_sol": 11.326904,
+  "balance_sol": 11.350774,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8RMPQfkjkZToNxSrS1G1iiFECJXaaZXcFqjomYMHpump": {
-      "symbol": "Brian",
-      "name": "Better Call Brian",
-      "amount": 850928.5594779991,
-      "entry_price_usd": 5.977e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T03:21:12.425039+00:00",
-      "entry_usd_value": 5.086,
-      "last_seen_price_usd": 5.977e-06,
-      "entry_signals": {
-        "liquidity_usd": 560.2028973723201,
-        "volume_24h_usd": 3226.22,
-        "market_cap_usd": 4972.0901771315785,
-        "ath_market_cap_usd": 6068.572843593796,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.507303356,
-        "description": "",
-        "twitter": "https://x.com/DEVOR56342/status/2098612537130450975",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52523,19 +52499,30 @@
       "pnl_pct": -69.61,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "8RMPQfkjkZToNxSrS1G1iiFECJXaaZXcFqjomYMHpump",
+      "symbol": "Brian",
+      "name": "Better Call Brian",
+      "amount_sold": 850928.5594779991,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T03:21:12.425039+00:00",
+      "exit_time": "2026-09-12T03:22:16.115263+00:00",
+      "entry_price_usd": 5.977e-06,
+      "exit_price_usd": 2.8520514787827297e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.02387,
+      "pnl_sol": -0.02613,
+      "pnl_pct": -52.28,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:21:12.425205+00:00",
+  "last_updated": "2026-09-12T03:22:26.166148+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.72,
-  "portfolio_value_usd": 1157.26,
+  "last_sol_price_usd": 101.67,
+  "portfolio_value_usd": 1154.03,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 02:52 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SolPVP at $3.1691e-06 | P&L: -4.6%",
-      "reason": "Only -4.6% and 0.0h held — well within the -25% hard cap and not stale yet. Just entered; give it a few minutes to see if the bonding curve fills. $170 pool is thin but our share is 3% so exit liquidity exists."
-    },
     {
       "time": "2026-09-12 02:57 UTC",
       "action": "buy",
@@ -52649,40 +52636,46 @@
       "action": "buy",
       "details": "[LLM] $Brian at $5.977e-06, spent 0.05 SOL",
       "reason": "Better Call Brian riffs on Better Call Saul — recognizable meme narrative with an X link attached (attention signal). Sub-1-min launch at $5k mcap = pure early attention. Acceptable risk: -25% max = -$1.25 SOL."
+    },
+    {
+      "time": "2026-09-12 03:22 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Brian crashed >15% in one tick | P&L: -52.3%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3088,
+    "total": 3089,
     "wins": 1440,
-    "losses": 1648,
+    "losses": 1649,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 7.160716,
-    "avg_pnl_pct": 29.2,
+    "total_pnl_sol": 7.134586,
+    "avg_pnl_pct": 29.17,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 15,
-    "today_realized_sol": 2.12762,
-    "today_target_pct": 531.9,
+    "today_trades": 16,
+    "today_realized_sol": 2.10149,
+    "today_target_pct": 525.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1440,
-      "loss_count": 1648,
+      "loss_count": 1649,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:21:11.007712+00:00",
+  "last_llm_brief_at": "2026-09-12T03:22:26.166084+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "G5DjRbGUFGHMie65j94CAwwk199Yhqp9YTRhHV2ppump": {
-      "price_usd": 2.843988817824604e-06,
+    "8RMPQfkjkZToNxSrS1G1iiFECJXaaZXcFqjomYMHpump": {
+      "price_usd": 2.8520514787827297e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.42408e-06,
-      "volume_h24": 5167.33,
+      "liquidity_usd": 5.07140371008,
+      "volume_h24": 5274.14,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1.4e-08
+      "real_sol_reserves": 0.049881024
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

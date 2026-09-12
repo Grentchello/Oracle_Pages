@@ -22300,3 +22300,6 @@
 ## [2026-09-12 03:21 UTC] buy | [LLM] $Brian at $5.977e-06, spent 0.05 SOL
 - **Reasoning:** Better Call Brian riffs on Better Call Saul — recognizable meme narrative with an X link attached (attention signal). Sub-1-min launch at $5k mcap = pure early attention. Acceptable risk: -25% max = -$1.25 SOL.
 
+## [2026-09-12 03:22 UTC] sell | [rapid-drop] $Brian crashed >15% in one tick | P&L: -52.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
