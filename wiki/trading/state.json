@@ -1,5 +1,5 @@
 {
-  "balance_sol": 13.100774,
+  "balance_sol": 13.144665,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -7,13 +7,13 @@
       "symbol": "TOPCAT",
       "name": "TOPCAT",
       "mint": "8fN9xY5dg84qXWmb9hXnRdZ7i86VyPL15m7Vd5D3pump",
-      "amount": 1609667.1949286847,
+      "amount": 40319.709418930186,
       "entry_price_usd": 3.155e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.0012524237788394676,
       "entry_time": "2026-09-12T07:20:51.735669+00:00",
       "entry_time_iso": "2026-09-12T07:20:51.735679+00:00",
       "entry_usd_value": 5.0785,
-      "last_seen_price_usd": 3.155e-06,
+      "last_seen_price_usd": 2.844844076335202e-06,
       "entry_liquidity_usd": 106.37418065812999,
       "entry_pool_sol": 1.047299209,
       "entry_market_cap_usd": 3047.219758143337,
@@ -53877,19 +53877,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 85.35325,
       "partial": false
+    },
+    {
+      "mint": "8fN9xY5dg84qXWmb9hXnRdZ7i86VyPL15m7Vd5D3pump",
+      "symbol": "TOPCAT",
+      "name": "TOPCAT",
+      "amount_sold": 1569347.4855097546,
+      "fraction_sold": 0.9749515244232106,
+      "entry_time": "2026-09-12T07:20:51.735669+00:00",
+      "entry_time_iso": "2026-09-12T07:20:51.735679+00:00",
+      "exit_time": "2026-09-12T07:22:13.454014+00:00",
+      "exit_time_iso": "2026-09-12T07:22:13.454021+00:00",
+      "entry_price_usd": 3.155e-06,
+      "exit_price_usd": 2.844844076335202e-06,
+      "entry_sol_for_chunk": 0.048748,
+      "exit_sol_received": 0.043891,
+      "pnl_sol": -0.004857,
+      "pnl_pct": -9.83,
+      "exit_reason": "LLM: sell_all — TOPCAT is at -9.8%, still well within the -25% hard cap and only just entered (0.0h held). Not stale yet. Cutting here would crystallize a loss to cha",
+      "entry_liquidity_usd": 106.37,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.0473,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 81.718365,
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-12T07:20:51.735950+00:00",
+  "last_updated": "2026-09-12T07:22:13.454300+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.57,
-  "portfolio_value_usd": 1335.72,
+  "last_sol_price_usd": 101.72,
+  "portfolio_value_usd": 1337.2,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 06:56 UTC",
-      "action": "buy",
-      "details": "[LLM] $$1M at $3.102e-06, spent 0.05 SOL",
-      "reason": "$$1M is a pure meta-attention play — the entire narrative IS that the token pumps to $1M market cap via repetition/community. $3k mcap with 4% bond means earliest stage. This is exactly the 'meme about hitting mcap' archetype that has produced multiple runners. Risk: ultra-early, ultra-low liquidity, will likely die if creator stops posting. Sizing at 0.1 SOL means max loss -0.025 SOL (within -25% hard cap)."
-    },
     {
       "time": "2026-09-12 06:57 UTC",
       "action": "sell",
@@ -54003,30 +54021,48 @@
       "action": "buy",
       "details": "[LLM] $TOPCAT at $3.155e-06, spent 0.05 SOL",
       "reason": "$TOPCAT has a clear nostalgia narrative (2014 4chan meme) with twitter signal and tiny $3k mcap giving significant multiple headroom. Best risk-adjusted attention play on this slate; $$Snoop at $1.4M already has most alpha extracted, others lack narrative clarity. Sticking to one position, sized per bot rules."
+    },
+    {
+      "time": "2026-09-12 07:22 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $TOPCAT at $2.84484e-06 | P&L: -9.8%",
+      "reason": "TOPCAT is at -9.8%, still well within the -25% hard cap and only just entered (0.0h held). Not stale yet. Cutting here would crystallize a loss to chase a weaker setup — let it breathe and re-evaluate next tick."
     }
   ],
   "trade_stats": {
-    "total": 3162,
+    "total": 3163,
     "wins": 1475,
-    "losses": 1687,
+    "losses": 1688,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.934587,
-    "avg_pnl_pct": 29.59,
+    "total_pnl_sol": 8.92973,
+    "avg_pnl_pct": 29.58,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 89,
-    "today_realized_sol": 3.901491,
-    "today_target_pct": 975.4,
+    "today_trades": 90,
+    "today_realized_sol": 3.896634,
+    "today_target_pct": 974.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1475,
-      "loss_count": 1687,
+      "loss_count": 1688,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T07:20:50.370435+00:00",
+  "last_llm_brief_at": "2026-09-12T07:22:13.453198+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8fN9xY5dg84qXWmb9hXnRdZ7i86VyPL15m7Vd5D3pump": {
+      "price_usd": 2.844844076335202e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.458813146,
+      "volume_h24": 342.91,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.00451055
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

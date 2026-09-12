@@ -22738,3 +22738,6 @@
 ## [2026-09-12 07:20 UTC] buy | [LLM] $TOPCAT at $3.155e-06, spent 0.05 SOL
 - **Reasoning:** $TOPCAT has a clear nostalgia narrative (2014 4chan meme) with twitter signal and tiny $3k mcap giving significant multiple headroom. Best risk-adjusted attention play on this slate; $$Snoop at $1.4M already has most alpha extracted, others lack narrative clarity. Sticking to one position, sized per bot rules.
 
+## [2026-09-12 07:22 UTC] sell | [PARTIAL][LLM] $TOPCAT at $2.84484e-06 | P&L: -9.8%
+- **Reasoning:** TOPCAT is at -9.8%, still well within the -25% hard cap and only just entered (0.0h held). Not stale yet. Cutting here would crystallize a loss to chase a weaker setup — let it breathe and re-evaluate next tick.
+
