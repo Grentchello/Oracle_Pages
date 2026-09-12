@@ -22471,3 +22471,9 @@
 ## [2026-09-12 05:02 UTC] sell | [PARTIAL][LLM] $peach at $4.97139e-06 | P&L: +11.8%
 - **Reasoning:** $peach is +11.8% but only 0.0h held on a $985 bonding curve pool — thin liquidity, easy to fade. Take half off to lock the gain and free the slot; let the rest ride if it keeps pumping.
 
+## [2026-09-12 05:03 UTC] sell | [rapid-drop] $peach crashed >15% in one tick | P&L: -6.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 05:04 UTC] buy | [LLM] $HIGHER at $3.13143e-06, spent 0.05 SOL
+- **Reasoning:** $HIGHER has a viral rage-bait narrative ('FUCK YOU HIGHER' addresses holders who sold/shorted/waited for dip) — classic anti-rugger meme energy that spreads on CT. Sub-$4k mcap at 0.5min is fresh enough for early attention capture, and the name itself is the meme.
+
