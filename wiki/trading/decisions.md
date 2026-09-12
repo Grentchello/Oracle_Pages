@@ -22516,3 +22516,6 @@
 ## [2026-09-12 05:20 UTC] sell | [v8.7 TP +50% (full)] $McTittys at $1.74649e-05 | P&L: +126.6%
 - **Reasoning:** Auto take-profit at +126.6%
 
+## [2026-09-12 05:26 UTC] buy | [LLM] $HYPED at $5.32204e-06, spent 0.05 SOL
+- **Reasoning:** Fresh 1.1min launch, $4k mcap, crude-humor narrative ('trade with balls') — bizarre enough to farm CT engagement which is the real alpha at this stage. Tiny 0.05 SOL size caps downside to ~$1.25 if it rugs. Worth a learning trade on the fresh slate.
+

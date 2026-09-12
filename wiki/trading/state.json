@@ -1,8 +1,32 @@
 {
-  "balance_sol": 13.394729,
+  "balance_sol": 13.344729,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "A5uDKvM33481o1jXQK67WUDxLBYMYzivoCTxNNQPpump": {
+      "symbol": "HYPED",
+      "name": "HYPEDTESTICLE",
+      "amount": 953300.4660129099,
+      "entry_price_usd": 5.322036630506895e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T05:26:13.853870+00:00",
+      "entry_usd_value": 5.0735,
+      "last_seen_price_usd": 5.322036630506895e-06,
+      "entry_signals": {
+        "liquidity_usd": 328.28087097469,
+        "volume_24h_usd": 0.0,
+        "market_cap_usd": 4128.892311389782,
+        "ath_market_cap_usd": 4128.892311389782,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 3.235250527,
+        "description": "The most hyped testicle on Hyperliquid. 🥚⚡ HYPEDTESTICLE — trade with balls.",
+        "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53130,17 +53154,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T05:24:51.983038+00:00",
+  "last_updated": "2026-09-12T05:26:13.854195+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.95,
-  "portfolio_value_usd": 1365.59,
+  "last_sol_price_usd": 101.47,
+  "portfolio_value_usd": 1359.16,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 04:48 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $DOC at $3.02464e-06 | P&L: -11.5%",
-      "reason": "$DOC is down -11.5% after just entering, no bounce signal, and the position is stale (0.0h but already bleeding). Exit fast before -20% hard-stop territory. Free up capital for the fresh launches."
-    },
     {
       "time": "2026-09-12 04:59 UTC",
       "action": "buy",
@@ -53254,6 +53272,12 @@
       "action": "sell",
       "details": "[v8.7 TP +50% (full)] $McTittys at $1.74649e-05 | P&L: +126.6%",
       "reason": "Auto take-profit at +126.6%"
+    },
+    {
+      "time": "2026-09-12 05:26 UTC",
+      "action": "buy",
+      "details": "[LLM] $HYPED at $5.32204e-06, spent 0.05 SOL",
+      "reason": "Fresh 1.1min launch, $4k mcap, crude-humor narrative ('trade with balls') — bizarre enough to farm CT engagement which is the real alpha at this stage. Tiny 0.05 SOL size caps downside to ~$1.25 if it rugs. Worth a learning trade on the fresh slate."
     }
   ],
   "trade_stats": {
@@ -53275,7 +53299,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:24:51.982999+00:00",
+  "last_llm_brief_at": "2026-09-12T05:26:12.379173+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
