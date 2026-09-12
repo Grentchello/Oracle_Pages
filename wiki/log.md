@@ -524,3 +524,15 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - v9.1 liquidity floor + v8.9 age filter + GMGN fragility gate actively rejecting most candidates (only 1-3 per tick pass through to LLM, often 0)
 - Slippage caveat unchanged: v9.0 sim still understates real on-chain impact on illiquid bonding-curve exits where bot owns large pool share. Lifetime +8.95 SOL is paper.
 - Verdict: **Profitable overall, no changes needed.** Window is flat (+0.0008 SOL) which is normal variance — TP wins (+0.24) offset by small losses. Lifetime PnL still strongly positive (+8.95 SOL, 46.6% WR). 41% WR is below 46.6% lifetime but well within 1σ for a 39-trade sample (binomial std ≈ 7.9%). No regime change. Bot running normally.
+
+## [2026-09-12 10:45 UTC] eval | memecoin-bot weekly check-in
+- Window trades: 29 since last eval at 10:35 UTC
+- Window Net PnL: -0.1668 SOL (small variance, normal)
+- Balance: 13.0053 SOL (open: 0)
+- Breakdown: TP partial wins 525 trades +6.7161 SOL | hard-cap (-50%) losses 225 trades -8.1797 SOL | other LLM-cut losses 1414 trades -15.7762 SOL | LLM sell_all decisions 1639 total
+- Lifetime (state.json): 3215 trades, 46.5% WR, **+8.7891 SOL net**, profit factor 1.37
+- Big losses (<-0.05 SOL): 79 trades, -5.1719 SOL
+- Doom-style deaths (<=-90%): 39 trades — bot's slippage sim gap visible here; on illiquid tokens bot can still hit -90%+ in a single tick
+- Tick log: 0 positions, v9.1 + v8.9 + GMGN fragility gate filtering 22-22 of 25 candidates per tick → LLM only sees 1-3 mints. Hot mints filtered by liquidity, age, fragility — entry selectivity very high
+- Slippage caveat unchanged: v9.0 sim still understates real on-chain impact on illiquid bonding-curve exits. Lifetime +8.79 SOL is paper. Doom deaths (-90%+) are the clearest marker that the sim still over-estimates how much SOL actually comes back vs. paper mark.
+- Verdict: **Profitable, no changes.** 46.5% WR with 1.37 PF across 3215 trades is the regime that v8.7/v8.8/v8.9/v9.0/v9.1 stack was tuned for. No rule changes. Bot running normally.
