@@ -23470,3 +23470,6 @@
 ## [2026-09-12 15:03 UTC] buy | [LLM] $FRONTIER at $3.25e-06, spent 0.05 SOL
 - **Reasoning:** $FRONTIER has a real narrative ('We Must Pace the Frontier'), fresh 0.6min age, and an X status link suggesting attention. Bond only 6% so risky but $5 size caps the damage and the story angle could catch a wave.
 
+## [2026-09-12 15:05 UTC] sell | [FULL][LLM] $FRONTIER at $2.86524e-06 | P&L: -11.8%
+- **Reasoning:** Just entered 0.0h ago, down only -11.8% (well within -25% hard stop). Bonding curve token needs a few minutes to develop — let narrative breathe. Auto-exit will fire at -25% or 30min if it doesn't recover.
+

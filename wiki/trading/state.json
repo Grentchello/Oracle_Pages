@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.781083,
+  "balance_sol": 12.824931,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2To49C9JbbzpDAqPjwk5Bv2K1fREaGKUU6f2S3Pag2WL": {
-      "symbol": "FRONTIER",
-      "name": "We Must Pace the Frontier",
-      "mint": "2To49C9JbbzpDAqPjwk5Bv2K1fREaGKUU6f2S3Pag2WL",
-      "amount": 1568307.6923076925,
-      "entry_price_usd": 3.25e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T15:03:36.683341+00:00",
-      "entry_time_iso": "2026-09-12T15:03:36.683350+00:00",
-      "entry_usd_value": 5.097,
-      "last_seen_price_usd": 3.25e-06,
-      "entry_liquidity_usd": 206.593051548,
-      "entry_pool_sol": 2.0266142,
-      "entry_market_cap_usd": 3250.543038425415,
-      "entry_signals": {
-        "liquidity_usd": 206.593051548,
-        "volume_24h_usd": 1963.46,
-        "market_cap_usd": 3250.543038425415,
-        "ath_market_cap_usd": 4036.1417366535356,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.0266142,
-        "description": "",
-        "twitter": "https://x.com/i/status/2098789383998464295",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56877,19 +56848,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.734671,
       "partial": false
+    },
+    {
+      "mint": "2To49C9JbbzpDAqPjwk5Bv2K1fREaGKUU6f2S3Pag2WL",
+      "symbol": "FRONTIER",
+      "name": "We Must Pace the Frontier",
+      "amount_sold": 1568307.5850076927,
+      "fraction_sold": 0.9999999315823034,
+      "entry_time": "2026-09-12T15:03:36.683341+00:00",
+      "entry_time_iso": "2026-09-12T15:03:36.683350+00:00",
+      "exit_time": "2026-09-12T15:05:08.000977+00:00",
+      "exit_time_iso": "2026-09-12T15:05:08.000983+00:00",
+      "entry_price_usd": 3.25e-06,
+      "exit_price_usd": 2.865237652590643e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.043848,
+      "pnl_sol": -0.006152,
+      "pnl_pct": -11.84,
+      "exit_reason": "LLM: sell_all — Just entered 0.0h ago, down only -11.8% (well within -25% hard stop). Bonding curve token needs a few minutes to develop — let narrative breathe. Auto",
+      "entry_liquidity_usd": 206.59,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 2.0266,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 91.317655,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T15:03:36.683676+00:00",
+  "last_updated": "2026-09-12T15:05:08.001234+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.94,
-  "portfolio_value_usd": 1308.0,
+  "last_sol_price_usd": 102.48,
+  "portfolio_value_usd": 1314.3,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 14:20 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $Degenerates at $5.81907e-06 | P&L: +83.8%",
-      "reason": "Auto take-profit at +83.8%"
-    },
     {
       "time": "2026-09-12 14:23 UTC",
       "action": "buy",
@@ -57003,30 +56992,48 @@
       "action": "buy",
       "details": "[LLM] $FRONTIER at $3.25e-06, spent 0.05 SOL",
       "reason": "$FRONTIER has a real narrative ('We Must Pace the Frontier'), fresh 0.6min age, and an X status link suggesting attention. Bond only 6% so risky but $5 size caps the damage and the story angle could catch a wave."
+    },
+    {
+      "time": "2026-09-12 15:05 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $FRONTIER at $2.86524e-06 | P&L: -11.8%",
+      "reason": "Just entered 0.0h ago, down only -11.8% (well within -25% hard stop). Bonding curve token needs a few minutes to develop — let narrative breathe. Auto-exit will fire at -25% or 30min if it doesn't recover."
     }
   ],
   "trade_stats": {
-    "total": 3287,
+    "total": 3288,
     "wins": 1522,
-    "losses": 1765,
+    "losses": 1766,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.614897,
-    "avg_pnl_pct": 28.25,
+    "total_pnl_sol": 8.608745,
+    "avg_pnl_pct": 28.24,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 214,
-    "today_realized_sol": 3.581801,
-    "today_target_pct": 895.5,
+    "today_trades": 215,
+    "today_realized_sol": 3.575649,
+    "today_target_pct": 893.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1522,
-      "loss_count": 1765,
+      "loss_count": 1766,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T15:03:35.366983+00:00",
+  "last_llm_brief_at": "2026-09-12T15:05:08.000767+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2To49C9JbbzpDAqPjwk5Bv2K1fREaGKUU6f2S3Pag2WL": {
+      "price_usd": 2.865237652590643e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.22976e-06,
+      "volume_h24": 1963.46,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.2e-08
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
