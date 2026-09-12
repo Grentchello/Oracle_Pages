@@ -23419,3 +23419,6 @@
 ## [2026-09-12 14:25 UTC] sell | [FULL][LLM] $GS at $7.22809e-06 | P&L: +39.3%
 - **Reasoning:** $GS up +39.3% on bonding curve with pool only $1809 and our share 0% — liquidity is razor thin, any reversal dumps fast. Take the guaranteed 39% gain now. Bonding-curve tokens often reverse violently once early buyers rotate out.
 
+## [2026-09-12 14:33 UTC] buy | [LLM] $$BDOG at $3.36495e-06, spent 0.05 SOL
+- **Reasoning:** $$BDOG (BUSINESS DOG) just launched 0.5 min ago at $3.3k mcap with 7% bond curve — extreme early-stage attention play. Dog-themed narrative is proven viral on Solana. Risk: ultra-low mcap means easy rug or instant dump, but -25% hard cap protects downside. Sized small (0.05 SOL) to test the new-launch attention strategy on a clean slate.
+
