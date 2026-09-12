@@ -23449,3 +23449,6 @@
 ## [2026-09-12 14:45 UTC] sell | [FULL][LLM] $Kermit  at $3.82537e-06 | P&L: +10.2%
 - **Reasoning:** Up +10.2% but only 0.0h held on bonding curve with pool=$484 (below5x position size rule of $510 — already liquidity-violating). Tiny pool means any sell will crater price. Take the10% gain now before it reverses into the -25% hard stop.
 
+## [2026-09-12 14:46 UTC] buy | [LLM] $Pengu at $3.488e-06, spent 0.05 SOL
+- **Reasoning:** Pengu rides the Pudgy Penguins brand recognition (established multi-hundred million dollar NFT IP with existing $PENGU token that 10x'd). Just 1 min old at $3.5k mcap = very early attention window with massive room to run. Brand-name attention is exactly what memecoin markets reward. Risk contained at 0.05 SOL with -25% hard stop.
+

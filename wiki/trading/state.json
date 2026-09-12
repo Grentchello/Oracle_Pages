@@ -1,8 +1,37 @@
 {
-  "balance_sol": 12.825161,
+  "balance_sol": 12.775161,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "54qLwUZuy3T8s656kNcgbT5dp1Uf9R982NRUfa2spump": {
+      "symbol": "Pengu",
+      "name": "Flying Pengu",
+      "mint": "54qLwUZuy3T8s656kNcgbT5dp1Uf9R982NRUfa2spump",
+      "amount": 1462233.3715596332,
+      "entry_price_usd": 3.488e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T14:46:47.289715+00:00",
+      "entry_time_iso": "2026-09-12T14:46:47.289723+00:00",
+      "entry_usd_value": 5.10027,
+      "last_seen_price_usd": 3.488e-06,
+      "entry_liquidity_usd": 325.7507474408502,
+      "entry_pool_sol": 3.193465713,
+      "entry_market_cap_usd": 3488.5837582441,
+      "entry_signals": {
+        "liquidity_usd": 325.7507474408502,
+        "volume_24h_usd": 324.17,
+        "market_cap_usd": 3488.5837582441,
+        "ath_market_cap_usd": 3488.5837582441,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 3.193465713,
+        "description": "",
+        "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56778,17 +56807,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T14:45:29.146634+00:00",
+  "last_updated": "2026-09-12T14:46:47.289893+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.03,
-  "portfolio_value_usd": 1308.55,
+  "last_sol_price_usd": 102.0054,
+  "portfolio_value_usd": 1308.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 14:11 UTC",
-      "action": "buy",
-      "details": "[LLM] $Trauma at $3.511e-06, spent 0.05 SOL",
-      "reason": "$Trauma is1.3min old with attached twitter (@dev_pscl) — clear attention signal. Dark/edgy psychological meme narrative fits viral attention market thesis. Bond 11% shows organic buy pressure. Risk: sub-$4k mcap means thin liquidity and high rug probability, but 0.1 SOL position with -25% hard cap limits downside to 0.025 SOL."
-    },
     {
       "time": "2026-09-12 14:13 UTC",
       "action": "sell",
@@ -56902,6 +56925,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $Kermit  at $3.82537e-06 | P&L: +10.2%",
       "reason": "Up +10.2% but only 0.0h held on bonding curve with pool=$484 (below5x position size rule of $510 — already liquidity-violating). Tiny pool means any sell will crater price. Take the10% gain now before it reverses into the -25% hard stop."
+    },
+    {
+      "time": "2026-09-12 14:46 UTC",
+      "action": "buy",
+      "details": "[LLM] $Pengu at $3.488e-06, spent 0.05 SOL",
+      "reason": "Pengu rides the Pudgy Penguins brand recognition (established multi-hundred million dollar NFT IP with existing $PENGU token that 10x'd). Just 1 min old at $3.5k mcap = very early attention window with massive room to run. Brand-name attention is exactly what memecoin markets reward. Risk contained at 0.05 SOL with -25% hard stop."
     }
   ],
   "trade_stats": {
@@ -56923,21 +56952,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T14:45:29.146280+00:00",
+  "last_llm_brief_at": "2026-09-12T14:46:45.977072+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "3ShYRQgdR7ErbSkX7xikSZuLoNmXCje7PyDasM66pump": {
-      "price_usd": 3.825373436181155e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 483.65198980113007,
-      "volume_h24": 1143.86,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 4.740291971
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
