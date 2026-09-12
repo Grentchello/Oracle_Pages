@@ -23362,3 +23362,6 @@
 ## [2026-09-12 13:52 UTC] sell | [PARTIAL][LLM] $Tecchan at $2.84533e-06 | P&L: -54.5%
 - **Reasoning:** Down -12.9% with 306% share of a $0 pool — this is illiquid and dumping. -20% loss threshold is approaching fast; exit now to preserve capital for fresh launches.
 
+## [2026-09-12 13:53 UTC] sell | [FULL][LLM] $Tecchan at $2.84673e-06 | P&L: -56.5%
+- **Reasoning:** Down -12.9% on zero-liquidity bonding curve with no bounce signal and weak narrative. Freeing the slot to rotate into a fresh attention launch ($PEPEGROK) — capital rotation beats bag-holding a dead curve.
+

@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.770046,
+  "balance_sol": 12.770191,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "41G3okB78jdKYJkMQmwqt7xYzYuMH7CotrvEoYiVpump": {
-      "symbol": "Tecchan",
-      "name": "てっちゃん",
-      "mint": "41G3okB78jdKYJkMQmwqt7xYzYuMH7CotrvEoYiVpump",
-      "amount": 10400.470956637451,
-      "entry_price_usd": 3.2672405198099002e-06,
-      "entry_sol_spent": 0.0003324284888928969,
-      "entry_time": "2026-09-12T13:49:39.581948+00:00",
-      "entry_time_iso": "2026-09-12T13:49:39.581956+00:00",
-      "entry_usd_value": 5.111000000000001,
-      "last_seen_price_usd": 2.8453278128827703e-06,
-      "entry_liquidity_usd": 66.50154640278,
-      "entry_pool_sol": 0.650572749,
-      "entry_market_cap_usd": 3254.3473349565666,
-      "entry_signals": {
-        "liquidity_usd": 66.50154640278,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3254.3473349565666,
-        "ath_market_cap_usd": 5132.904060614724,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.650572749,
-        "description": "Launched on discord.gg/uxento",
-        "twitter": "https://x.com/Zeeko__Dev/status/2098770816850629077",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56445,19 +56416,37 @@
       "exit_pool_sol": 0.0142,
       "hold_duration_seconds": 157.537245,
       "partial": true
+    },
+    {
+      "mint": "41G3okB78jdKYJkMQmwqt7xYzYuMH7CotrvEoYiVpump",
+      "symbol": "Tecchan",
+      "name": "てっちゃん",
+      "amount_sold": 10400.470956637451,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T13:49:39.581948+00:00",
+      "entry_time_iso": "2026-09-12T13:49:39.581956+00:00",
+      "exit_time": "2026-09-12T13:53:33.915466+00:00",
+      "exit_time_iso": "2026-09-12T13:53:33.915474+00:00",
+      "entry_price_usd": 3.2672405198099002e-06,
+      "exit_price_usd": 2.8467258709669303e-06,
+      "entry_sol_for_chunk": 0.000332,
+      "exit_sol_received": 0.000145,
+      "pnl_sol": -0.000187,
+      "pnl_pct": -56.45,
+      "exit_reason": "LLM: sell_all — Down -12.9% on zero-liquidity bonding curve with no bounce signal and weak narrative. Freeing the slot to rotate into a fresh attention launch ($PEPEG",
+      "entry_liquidity_usd": 66.5,
+      "exit_liquidity_usd": 0.12,
+      "entry_pool_sol": 0.6506,
+      "exit_pool_sol": 0.0012,
+      "hold_duration_seconds": 234.333538,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T13:52:17.119414+00:00",
+  "last_updated": "2026-09-12T13:53:35.119446+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.76,
-  "portfolio_value_usd": 1299.51,
+  "last_sol_price_usd": 101.81,
+  "portfolio_value_usd": 1300.13,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 13:15 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $BRO at $2.87621e-06 | P&L: -13.9%",
-      "reason": "Held 0.0h already down -13.9% with 62% of pool — that's catastrophic concentration risk, classic rug shape. Liquidity is only $7, we are the exit liquidity. Cut it now, no bounce signal visible on a freshly-launched bonding-curve token where we own majority of the pool."
-    },
     {
       "time": "2026-09-12 13:16 UTC",
       "action": "observe",
@@ -56571,35 +56560,41 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Tecchan at $2.84533e-06 | P&L: -54.5%",
       "reason": "Down -12.9% with 306% share of a $0 pool — this is illiquid and dumping. -20% loss threshold is approaching fast; exit now to preserve capital for fresh launches."
+    },
+    {
+      "time": "2026-09-12 13:53 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Tecchan at $2.84673e-06 | P&L: -56.5%",
+      "reason": "Down -12.9% on zero-liquidity bonding curve with no bounce signal and weak narrative. Freeing the slot to rotate into a fresh attention launch ($PEPEGROK) — capital rotation beats bag-holding a dead curve."
     }
   ],
   "trade_stats": {
-    "total": 3269,
+    "total": 3270,
     "wins": 1513,
-    "losses": 1756,
+    "losses": 1757,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.554192,
-    "avg_pnl_pct": 28.39,
+    "total_pnl_sol": 8.554005,
+    "avg_pnl_pct": 28.36,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 196,
-    "today_realized_sol": 3.521096,
-    "today_target_pct": 880.3,
+    "today_trades": 197,
+    "today_realized_sol": 3.520909,
+    "today_target_pct": 880.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1513,
-      "loss_count": 1756,
+      "loss_count": 1757,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T13:52:17.119053+00:00",
+  "last_llm_brief_at": "2026-09-12T13:53:33.915096+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "41G3okB78jdKYJkMQmwqt7xYzYuMH7CotrvEoYiVpump": {
-      "price_usd": 2.8453278128827703e-06,
+      "price_usd": 2.8467258709669303e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.11837099712,
+      "liquidity_usd": 0.11842915896999999,
       "volume_h24": 4407.95,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
