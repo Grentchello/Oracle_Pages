@@ -22834,3 +22834,6 @@
 ## [2026-09-12 08:23 UTC] sell | [FULL][LLM] $Xoge at $0.000454096 | P&L: -14.1%
 - **Reasoning:** $Xoge is down -14.1% on essentially zero hold time (0.0h), thin $1.6k pool, and our share is 0% (no real position to defend). Bonding-curve micro-cap with no narrative edge — best to free the slot before it slides further toward the -25% hard cap.
 
+## [2026-09-12 08:25 UTC] buy | [LLM] $Dojo at $0.000873062, spent 0.05 SOL
+- **Reasoning:** $Dojo is 1.2min old at $7.3k mcap with a Twitter link signaling real attention; narrative is clean dog-coin play, bond 22% shows buyers already stepping in. Position size 0.05 SOL (bot-enforced), tight stop at -25%.
+
