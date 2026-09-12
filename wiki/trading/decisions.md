@@ -22276,3 +22276,9 @@
 ## [2026-09-12 03:15 UTC] buy | [LLM] $HG at $3.64163e-06, spent 0.05 SOL
 - **Reasoning:** $HG (Hungry Game) — 0.6min old, $3.6k mcap with 10% bond (very early), Twitter attached (blondehotcoffee), narrative wordplay on Hunger Games. Lowest mcap + freshest launch = best risk/reward for a viral pump. Risky but asymmetric.
 
+## [2026-09-12 03:16 UTC] sell | [rapid-drop] $HG crashed >15% in one tick | P&L: -21.6%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 03:16 UTC] buy | [LLM] $NETFLIIX at $6.00246e-06, spent 0.05 SOL
+- **Reasoning:** $NETFLIIX — 'Netflix And Chill' is a viral meme phrase with twitter presence (viability gate passes). $5.9k mcap at 0.5min age = ultra-fresh with massive room. Risk: ultra-low mcap = high rug probability, but 0.05 SOL ($5) keeps loss bounded at -$1.25.
+
