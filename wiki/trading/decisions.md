@@ -22318,3 +22318,9 @@
 ## [2026-09-12 03:29 UTC] buy | [LLM] $BN/BM at $3.747e-06, spent 0.05 SOL
 - **Reasoning:** $BN/BM has a DailyMail tweet (6M+ followers, mainstream viral potential), fresh 0.9min age, $3.7k mcap = low entry. Big Nose / Bad Mother is absurdist humor that fits meme culture. Risk: DailyMail tweet could be low-engagement or token could be unrelated pump-and-dump.
 
+## [2026-09-12 03:30 UTC] sell | [rapid-drop] $BN/BM crashed >15% in one tick | P&L: -23.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 03:30 UTC] buy | [LLM] $openRSM at $4.55e-06, spent 0.05 SOL
+- **Reasoning:** $openRSM has the strongest viability signal of the batch — real product description (browser-based memecoin terminal on Solana + Robinhood Chain), lowest mcap ($4.3k = most upside), meta-narrative that appeals directly to memecoin traders. Fits the 'attention market' thesis: degens will ape a tool for aping.
+

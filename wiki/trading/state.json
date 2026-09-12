@@ -1,27 +1,27 @@
 {
-  "balance_sol": 11.30531,
+  "balance_sol": 11.293424,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "DAifSSpNU93FyYfHWcHRjh4h2gnYtFBKFhBjwDfHpump": {
-      "symbol": "BN/BM",
-      "name": "BIG NOSE / BAD MOTHER",
-      "amount": 1363223.9124633041,
-      "entry_price_usd": 3.747e-06,
+    "8T85PpMM9nBoBmDYu5Qre4W4KcLphEH44iDL6N4mpump": {
+      "symbol": "openRSM",
+      "name": "openRSM Terminal",
+      "amount": 1122857.1428571432,
+      "entry_price_usd": 4.55e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T03:29:09.198470+00:00",
-      "entry_usd_value": 5.1080000000000005,
-      "last_seen_price_usd": 3.747e-06,
+      "entry_time": "2026-09-12T03:30:37.337324+00:00",
+      "entry_usd_value": 5.109000000000001,
+      "last_seen_price_usd": 4.55e-06,
       "entry_signals": {
-        "liquidity_usd": 454.04444429688,
-        "volume_24h_usd": 451.91,
-        "market_cap_usd": 3746.8602698088853,
-        "ath_market_cap_usd": 3746.8602698088853,
+        "liquidity_usd": 718.5602241495601,
+        "volume_24h_usd": 1117.66,
+        "market_cap_usd": 4334.260434603189,
+        "ath_market_cap_usd": 5798.732200605741,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 4.444444443,
-        "description": "Launched on discord.gg/uxento",
-        "twitter": "https://x.com/DailyMail/status/2098614235722825784",
+        "real_sol_reserves": 7.032298142,
+        "description": "openRSM is a browser-based memecoin terminal for Solana and Robinhood Chain. It scans any contract for risk — authorities, transfer hooks, frozen defaults, thin pools — and tracks your wallets, pinned coins and open exposure in one place. The Stonks board ranks launches paired against tokenised stoc",
+        "twitter": "",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -52574,25 +52574,30 @@
       "pnl_pct": 9.67,
       "exit_reason": "LLM: sell_all — $DOGE up +9.7%, held 0.0h, not stale, not at TP. Pool $1117 is thin but above min liquidity threshold; selling now into this depth would crash my own ",
       "partial": false
+    },
+    {
+      "mint": "DAifSSpNU93FyYfHWcHRjh4h2gnYtFBKFhBjwDfHpump",
+      "symbol": "BN/BM",
+      "name": "BIG NOSE / BAD MOTHER",
+      "amount_sold": 1363223.9124633041,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T03:29:09.198470+00:00",
+      "exit_time": "2026-09-12T03:30:13.331029+00:00",
+      "entry_price_usd": 3.747e-06,
+      "exit_price_usd": 2.856849953496906e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.038114,
+      "pnl_sol": -0.011886,
+      "pnl_pct": -23.76,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:29:09.198664+00:00",
+  "last_updated": "2026-09-12T03:30:37.337665+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.16,
-  "portfolio_value_usd": 1160.06,
+  "last_sol_price_usd": 102.18,
+  "portfolio_value_usd": 1159.07,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:01 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $marcat at $5.33561e-06 | P&L: +12.6%",
-      "reason": "+12.6% gain on a $1124 pool bonding-curve cat coin — liquidity is razor-thin (only ~5x our position), so a reversal could wipe the gain fast. Locking half profit per the >15% 'take the trade' rule, letting the other half ride if the cat narrative catches more attention."
-    },
-    {
-      "time": "2026-09-12 03:03 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 03:04 UTC",
       "action": "sell",
@@ -52700,30 +52705,54 @@
       "action": "buy",
       "details": "[LLM] $BN/BM at $3.747e-06, spent 0.05 SOL",
       "reason": "$BN/BM has a DailyMail tweet (6M+ followers, mainstream viral potential), fresh 0.9min age, $3.7k mcap = low entry. Big Nose / Bad Mother is absurdist humor that fits meme culture. Risk: DailyMail tweet could be low-engagement or token could be unrelated pump-and-dump."
+    },
+    {
+      "time": "2026-09-12 03:30 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $BN/BM crashed >15% in one tick | P&L: -23.8%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-12 03:30 UTC",
+      "action": "buy",
+      "details": "[LLM] $openRSM at $4.55e-06, spent 0.05 SOL",
+      "reason": "$openRSM has the strongest viability signal of the batch — real product description (browser-based memecoin terminal on Solana + Robinhood Chain), lowest mcap ($4.3k = most upside), meta-narrative that appeals directly to memecoin traders. Fits the 'attention market' thesis: degens will ape a tool for aping."
     }
   ],
   "trade_stats": {
-    "total": 3091,
+    "total": 3092,
     "wins": 1441,
-    "losses": 1650,
+    "losses": 1651,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 7.139122,
-    "avg_pnl_pct": 29.15,
+    "total_pnl_sol": 7.127236,
+    "avg_pnl_pct": 29.14,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 18,
-    "today_realized_sol": 2.106026,
-    "today_target_pct": 526.5,
+    "today_trades": 19,
+    "today_realized_sol": 2.09414,
+    "today_target_pct": 523.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1441,
-      "loss_count": 1650,
+      "loss_count": 1651,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:29:07.675104+00:00",
+  "last_llm_brief_at": "2026-09-12T03:30:35.971348+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "DAifSSpNU93FyYfHWcHRjh4h2gnYtFBKFhBjwDfHpump": {
+      "price_usd": 2.856849953496906e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.0218000000000002e-07,
+      "volume_h24": 451.91,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
