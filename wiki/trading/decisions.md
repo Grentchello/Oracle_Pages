@@ -22714,3 +22714,6 @@
 ## [2026-09-12 07:09 UTC] buy | [LLM] $MIRO at $0.00167556, spent 0.05 SOL
 - **Reasoning:** $MIRO has the strongest attention signal of the batch — Twitter link present, bond 32% complete (highest in set, indicating real traction), only 2min old. Thin standalone narrative but the X presence + early bonding curve momentum is the entry trigger. Position 0.1 SOL, tight stop.
 
+## [2026-09-12 07:11 UTC] sell | [FULL][LLM] $MIRO at $0.00164346 | P&L: -1.9%
+- **Reasoning:** MIRO is only -1.9% after fresh entry, still on bonding curve. No reason to dump a sub-2% loss before the curve migration — that's typically where attention/liquidity arrives. Give it the auto 30-min window to develop.
+
