@@ -23827,3 +23827,6 @@
 ## [2026-09-12 18:28 UTC] buy | [LLM] $FLAP at $3.14947e-06, spent 0.05 SOL
 - **Reasoning:** Flappy Bird nostalgia is a proven viral hook; self-aware crypto copy ('dodge the rugs, survive the dips') is shareable. Fresh 0.9min launch with $3k mcap — early attention window.0.05 SOL position.
 
+## [2026-09-12 18:29 UTC] sell | [PARTIAL][LLM] $FLAP at $3.80737e-06 | P&L: +20.9%
+- **Reasoning:** $FLAP up +20.9% in <1h, but pool only $478 with 1% share means tiny float and high rug risk. Take half profit to lock the gain, hold half for further upside if volume sustains.
+
