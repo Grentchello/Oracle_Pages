@@ -1,37 +1,8 @@
 {
-  "balance_sol": 22.737615,
+  "balance_sol": 22.792844,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3UccgvfynakKAbgHegdSpVUzRtHiGxQAkw1zpDfupump": {
-      "symbol": "ROCKAPEPE",
-      "name": "Rockabilly Pepe",
-      "mint": "3UccgvfynakKAbgHegdSpVUzRtHiGxQAkw1zpDfupump",
-      "amount": 1420100.9251471825,
-      "entry_price_usd": 3.567e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T20:10:48.035541+00:00",
-      "entry_time_iso": "2026-09-12T20:10:48.035549+00:00",
-      "entry_usd_value": 5.0655,
-      "last_seen_price_usd": 3.567e-06,
-      "entry_liquidity_usd": 545.43852146652,
-      "entry_pool_sol": 5.383856692,
-      "entry_market_cap_usd": 3942.3969111519123,
-      "entry_signals": {
-        "liquidity_usd": 545.43852146652,
-        "volume_24h_usd": 370.51,
-        "market_cap_usd": 3942.3969111519123,
-        "ath_market_cap_usd": 3971.432526318505,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.383856692,
-        "description": "",
-        "twitter": "https://x.com/rockapepexd",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -58821,19 +58792,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 98.411998,
       "partial": false
+    },
+    {
+      "mint": "3UccgvfynakKAbgHegdSpVUzRtHiGxQAkw1zpDfupump",
+      "symbol": "ROCKAPEPE",
+      "name": "Rockabilly Pepe",
+      "amount_sold": 1420100.9251471825,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T20:10:48.035541+00:00",
+      "entry_time_iso": "2026-09-12T20:10:48.035549+00:00",
+      "exit_time": "2026-09-12T20:12:02.146025+00:00",
+      "exit_time_iso": "2026-09-12T20:12:02.146034+00:00",
+      "entry_price_usd": 3.567e-06,
+      "exit_price_usd": 3.941984525374092e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.055229,
+      "pnl_sol": 0.005229,
+      "pnl_pct": 10.51,
+      "exit_reason": "LLM: sell_all — ROCKAPEPE is up +10.5% with strong momentum on a fresh launch; holding toward the +25% TP trigger. Pool is thin ($546) so any sharp move could auto-st",
+      "entry_liquidity_usd": 545.44,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 5.3839,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 74.110506,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T20:10:48.035738+00:00",
+  "last_updated": "2026-09-12T20:12:02.146610+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.31,
-  "portfolio_value_usd": 2308.61,
+  "last_sol_price_usd": 101.36,
+  "portfolio_value_usd": 2310.28,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 19:38 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $APE at $2.8493e-06 | P&L: -10.3%",
-      "reason": "Down -10.3% within minutes of entry on a bonding-curve token with $0 pool liquidity and a 22-billion-percent 'share' figure that signals the curve is effectively empty of other buyers. This is the exact profile where -10% snowballs to -50%: no real liquidity to exit into, price only drops further. Cutting now beats waiting for the -25% hard stop to fire at a worse price."
-    },
     {
       "time": "2026-09-12 19:39 UTC",
       "action": "buy",
@@ -58947,30 +58936,48 @@
       "action": "buy",
       "details": "[LLM] $ROCKAPEPE at $3.567e-06, spent 0.05 SOL",
       "reason": "Pepe derivatives historically capture attention; rockabilly twist is a creative niche angle. Twitter presence meets viability gate. 0.7min age = pure early attention play. Low mcap = room to run if narrative catches. Risk: 13% bond = thin liquidity, may dump."
+    },
+    {
+      "time": "2026-09-12 20:12 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ROCKAPEPE at $3.94198e-06 | P&L: +10.5%",
+      "reason": "ROCKAPEPE is up +10.5% with strong momentum on a fresh launch; holding toward the +25% TP trigger. Pool is thin ($546) so any sharp move could auto-stop, but for now ride the wave."
     }
   ],
   "trade_stats": {
-    "total": 3368,
-    "wins": 1559,
+    "total": 3369,
+    "wins": 1560,
     "losses": 1809,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 18.571429,
+    "total_pnl_sol": 18.576658,
     "avg_pnl_pct": 34.28,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 295,
-    "today_realized_sol": 13.538333,
-    "today_target_pct": 3384.6,
+    "today_trades": 296,
+    "today_realized_sol": 13.543562,
+    "today_target_pct": 3385.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1559,
+      "win_count": 1560,
       "loss_count": 1809,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T20:10:46.716214+00:00",
+  "last_llm_brief_at": "2026-09-12T20:12:02.145535+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3UccgvfynakKAbgHegdSpVUzRtHiGxQAkw1zpDfupump": {
+      "price_usd": 3.941984525374092e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 545.53824007704,
+      "volume_h24": 571.95,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 5.382184689
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

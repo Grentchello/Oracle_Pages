@@ -23986,3 +23986,6 @@
 ## [2026-09-12 20:10 UTC] buy | [LLM] $ROCKAPEPE at $3.567e-06, spent 0.05 SOL
 - **Reasoning:** Pepe derivatives historically capture attention; rockabilly twist is a creative niche angle. Twitter presence meets viability gate. 0.7min age = pure early attention play. Low mcap = room to run if narrative catches. Risk: 13% bond = thin liquidity, may dump.
 
+## [2026-09-12 20:12 UTC] sell | [FULL][LLM] $ROCKAPEPE at $3.94198e-06 | P&L: +10.5%
+- **Reasoning:** ROCKAPEPE is up +10.5% with strong momentum on a fresh launch; holding toward the +25% TP trigger. Pool is thin ($546) so any sharp move could auto-stop, but for now ride the wave.
+
