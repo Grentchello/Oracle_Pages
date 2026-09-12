@@ -22891,3 +22891,6 @@
 ## [2026-09-12 09:10 UTC] sell | [FULL][LLM] $DOGE at $2.96441e-06 | P&L: -6.1%
 - **Reasoning:** $DOGE is down -6.1% on a tiny $62 pool (we own 8% of it — massive fragility). Bonding-curve tokens with this little liquidity and immediate red action are rug-prone. Illiquid exit now beats getting stopped at -25% later.
 
+## [2026-09-12 09:12 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
