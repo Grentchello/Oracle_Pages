@@ -22453,3 +22453,6 @@
 ## [2026-09-12 04:40 UTC] sell | [FULL][LLM] $CatGPT at $4.35514e-06 | P&L: +19.8%
 - **Reasoning:** $CatGPT is up +19.7% but not yet at the +25% TP trigger. Pool is only $718 (well below 5x position = very thin liquidity), our share is 1% which means exiting will move the price. Take the profit now before it evaporates — thin liquidity means reversals are brutal.
 
+## [2026-09-12 04:47 UTC] buy | [LLM] $DOC at $3.416e-06, spent 0.05 SOL
+- **Reasoning:** $DOC has the strongest attention package of the four: a named X account (@DustNukes) posting at launch, an ecosystem tie-in to Solcrows, and an edgy 'Bottom Bitch' meme that begs to be screenshotted. At 0.5min and $3k mcap it has 10x room if the post picks up traction. Risk: bond only 4% — could fail to graduate, so I'm sizing at the 0.05 SOL minimum and ready to bail if no traction in 10-15 min.
+
