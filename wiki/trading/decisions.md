@@ -22558,3 +22558,6 @@
 ## [2026-09-12 05:50 UTC] buy | [LLM] $GOAT at $7.259e-06, spent 0.05 SOL
 - **Reasoning:** $GOAT — strongest narrative of the batch ('Greatest Of All Tokens' is a classic viral meme name, self-referential, easy to spread). Freshest launch at 0.6min, already at $7.7k mcap showing early attention, bond 28% nearly full, has twitter signal. 0.05 SOL position, tight stop at -25%.
 
+## [2026-09-12 05:51 UTC] sell | [FULL][LLM] $GOAT at $7.24457e-06 | P&L: -0.2%
+- **Reasoning:** GOAT just opened, -0.2% is noise band on a bonding-curve microcap. No bearish signal, no reason to panic-sell a fresh entry. Give it time to develop or hit the -25% hard cap.
+
