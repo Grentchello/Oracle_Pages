@@ -24142,3 +24142,6 @@
 ## [2026-09-12 21:34 UTC] buy | [LLM] $MONEROCHAN at $0.00181434, spent 0.05 SOL
 - **Reasoning:** $MONEROCHAN rides the Monero/XMR privacy narrative which has strong crypto-native attention. Highest bond completion (25%) of the Monero-themed cluster, mcap still under $11k leaving room for early multiples. Buy 0.05 SOL ($5).
 
+## [2026-09-12 21:35 UTC] sell | [PARTIAL][LLM] $MONEROCHAN at $0.00267283 | P&L: +47.3%
+- **Reasoning:** Up +47.3% on a fresh memecoin, well past the +25% TP threshold. Lock half the gain now per profit-taking discipline — narrative is unclear (Monero-chan theme) and memecoins give back gains fast. Let the rest ride with a mental stop at break-even.
+
