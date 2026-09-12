@@ -22354,3 +22354,6 @@
 ## [2026-09-12 03:42 UTC] sell | [v8.7 TP +50% (full)] $primed at $1.4391e-05 | P&L: +95.6%
 - **Reasoning:** Auto take-profit at +95.6%
 
+## [2026-09-12 03:44 UTC] buy | [LLM] $DOGGPT at $3.401e-06, spent 0.05 SOL
+- **Reasoning:** DOGGPT combines AI narrative + dog meme — both top attention magnets right now. Age 0.8min, bonding 14%, very early but the narrative crossover is the kind of thing that pumps on CT. Small position (0.1 SOL), tight mental stop; if no traction in 15min, exit. Risk: ultra-low liquidity, may immediately rug — accept that.
+

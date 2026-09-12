@@ -1,8 +1,32 @@
 {
-  "balance_sol": 11.37481,
+  "balance_sol": 11.32481,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "E4soKDBAP2Rvpzkntqea9iuqd5u2MhaMS3V6ipFCDXpy": {
+      "symbol": "DOGGPT",
+      "name": "DOGGPT",
+      "amount": 1500720.3763598942,
+      "entry_price_usd": 3.401e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T03:44:10.860882+00:00",
+      "entry_usd_value": 5.10395,
+      "last_seen_price_usd": 3.401e-06,
+      "entry_signals": {
+        "liquidity_usd": 617.971364099264,
+        "volume_24h_usd": 654.8,
+        "market_cap_usd": 4069.581881236375,
+        "ath_market_cap_usd": 4072.5262982960007,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 6.053854016,
+        "description": "",
+        "twitter": "https://x.com/ramentrade/status/2098618299139674240",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52671,17 +52695,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:42:52.079216+00:00",
+  "last_updated": "2026-09-12T03:44:10.861164+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.59,
-  "portfolio_value_usd": 1155.57,
+  "last_sol_price_usd": 102.079,
+  "portfolio_value_usd": 1161.13,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:20 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Bulljak crashed >15% in one tick | P&L: -69.6%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 03:21 UTC",
       "action": "buy",
@@ -52795,6 +52813,12 @@
       "action": "sell",
       "details": "[v8.7 TP +50% (full)] $primed at $1.4391e-05 | P&L: +95.6%",
       "reason": "Auto take-profit at +95.6%"
+    },
+    {
+      "time": "2026-09-12 03:44 UTC",
+      "action": "buy",
+      "details": "[LLM] $DOGGPT at $3.401e-06, spent 0.05 SOL",
+      "reason": "DOGGPT combines AI narrative + dog meme — both top attention magnets right now. Age 0.8min, bonding 14%, very early but the narrative crossover is the kind of thing that pumps on CT. Small position (0.1 SOL), tight mental stop; if no traction in 15min, exit. Risk: ultra-low liquidity, may immediately rug — accept that."
     }
   ],
   "trade_stats": {
@@ -52816,21 +52840,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:42:52.079181+00:00",
+  "last_llm_brief_at": "2026-09-12T03:44:09.532468+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "8HtMR6A1G2dj7KGWU6gcpzXJvG4UBsw6uP9WfyHspump": {
-      "price_usd": 1.439096109039205e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 3812.4066726671704,
-      "volume_h24": 19647.62,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 37.527381363
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
