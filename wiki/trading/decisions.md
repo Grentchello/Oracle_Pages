@@ -24346,3 +24346,6 @@
 ## [2026-09-12 23:04 UTC] sell | [v8.7 TP +50% (full)] $HODL at $0.0001178 | P&L: +2085.9%
 - **Reasoning:** Auto take-profit at +2085.9%
 
+## [2026-09-12 23:07 UTC] buy | [LLM] $MINEANSEM at $3.3539e-06, spent 0.05 SOL
+- **Reasoning:** $MINEANSEM rides the Ansem KOL meta — Ansem is a real high-following crypto influencer, 'first ever $ansem miner' is a viral meta-narrative. 1.3min old, only 10% bonded, $5k mcap = maximum early-stage upside. Thin liquidity is the risk; size is already capped at 0.1 SOL.
+
