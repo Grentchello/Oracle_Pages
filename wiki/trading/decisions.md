@@ -23815,3 +23815,6 @@
 ## [2026-09-12 18:23 UTC] sell | [FULL][LLM] $ALOT at $0.000141258 | P&L: +18.8%
 - **Reasoning:** Up +18.8% and approaching my +20% lock-in threshold. No clear viral catalyst beyond the generic name, and the hard rules say take profit at >20% when in doubt. Lock the gain now rather than wait for a -25% stop to undo it.
 
+## [2026-09-12 18:24 UTC] buy | [LLM] $STUNKA at $4.24657e-06, spent 0.05 SOL
+- **Reasoning:** Stunka has a dedicated X account @Stunkacoin and a meta-narrative ('buying every dip, chasing green candles') that resonates with crypto trader twitter — exactly the kind of self-aware meta-meme that pumps. Bond 15% at 0.5min shows real early flow. Taking 0.05 SOL to test if meta-narrative memes with dedicated accounts move in first30 min.
+
