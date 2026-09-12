@@ -22351,3 +22351,6 @@
 ## [2026-09-12 03:41 UTC] buy | [LLM] $primed at $7.359e-06, spent 0.05 SOL
 - **Reasoning:** $primed has the strongest attention signal of the new launches — explicit twitter link from @honestdevvor (named account, not a search URL), narrative 'primed to send' reads as a viral-ready slogan, $9.4k mcap with 31% bonding curve progress. Memecoins are attention markets; a token literally called 'primed to send' with a real X post is exactly the entry thesis. Risk: thin liquidity, 1.3min old — size is already capped at 0.1 SOL.
 
+## [2026-09-12 03:42 UTC] sell | [v8.7 TP +50% (full)] $primed at $1.4391e-05 | P&L: +95.6%
+- **Reasoning:** Auto take-profit at +95.6%
+

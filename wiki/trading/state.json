@@ -1,32 +1,8 @@
 {
-  "balance_sol": 11.276522,
+  "balance_sol": 11.37481,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8HtMR6A1G2dj7KGWU6gcpzXJvG4UBsw6uP9WfyHspump": {
-      "symbol": "primed",
-      "name": "primed to send",
-      "amount": 693844.2723196087,
-      "entry_price_usd": 7.359e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T03:41:31.040426+00:00",
-      "entry_usd_value": 5.106000000000001,
-      "last_seen_price_usd": 7.359e-06,
-      "entry_signals": {
-        "liquidity_usd": 2656.349481399,
-        "volume_24h_usd": 11477.51,
-        "market_cap_usd": 9379.218369477569,
-        "ath_market_cap_usd": 9389.787841753498,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 26.012039575,
-        "description": "primed to send",
-        "twitter": "https://x.com/honestdevvor/status/2098617554365522382?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52676,19 +52652,30 @@
       "pnl_pct": -13.26,
       "exit_reason": "LLM: sell_all — $Stockx is -13.3% with pool=$0 (bonding curve only, no real liquidity depth) and held 0.0h. The 'our share=1084007802%' flag confirms I'm providing es",
       "partial": false
+    },
+    {
+      "mint": "8HtMR6A1G2dj7KGWU6gcpzXJvG4UBsw6uP9WfyHspump",
+      "symbol": "primed",
+      "name": "primed to send",
+      "amount_sold": 693844.2723196087,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T03:41:31.040426+00:00",
+      "exit_time": "2026-09-12T03:42:34.427027+00:00",
+      "entry_price_usd": 7.359e-06,
+      "exit_price_usd": 1.439096109039205e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.098288,
+      "pnl_sol": 0.048288,
+      "pnl_pct": 95.56,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:41:31.040723+00:00",
+  "last_updated": "2026-09-12T03:42:52.079216+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.12,
-  "portfolio_value_usd": 1156.66,
+  "last_sol_price_usd": 101.59,
+  "portfolio_value_usd": 1155.57,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:19 UTC",
-      "action": "buy",
-      "details": "[LLM] $Bulljak at $9.3587e-06, spent 0.05 SOL",
-      "reason": "$Bulljak has the strongest attention signal of the slate — twitter presence, crude-name meme virality (this category pumps hard on X), and 31% bond completion showing real buyer flow. Mcap $9.3k is launch-phase where 5-10x happens in minutes if the meme catches. Narrative: absurdist humor token, exactly the kind of thing that trends."
-    },
     {
       "time": "2026-09-12 03:20 UTC",
       "action": "sell",
@@ -52802,40 +52789,46 @@
       "action": "buy",
       "details": "[LLM] $primed at $7.359e-06, spent 0.05 SOL",
       "reason": "$primed has the strongest attention signal of the new launches — explicit twitter link from @honestdevvor (named account, not a search URL), narrative 'primed to send' reads as a viral-ready slogan, $9.4k mcap with 31% bonding curve progress. Memecoins are attention markets; a token literally called 'primed to send' with a real X post is exactly the entry thesis. Risk: thin liquidity, 1.3min old — size is already capped at 0.1 SOL."
+    },
+    {
+      "time": "2026-09-12 03:42 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $primed at $1.4391e-05 | P&L: +95.6%",
+      "reason": "Auto take-profit at +95.6%"
     }
   ],
   "trade_stats": {
-    "total": 3097,
-    "wins": 1441,
+    "total": 3098,
+    "wins": 1442,
     "losses": 1656,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 7.110335,
-    "avg_pnl_pct": 29.06,
+    "total_pnl_sol": 7.158623,
+    "avg_pnl_pct": 29.08,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 24,
-    "today_realized_sol": 2.077239,
-    "today_target_pct": 519.3,
+    "today_trades": 25,
+    "today_realized_sol": 2.125527,
+    "today_target_pct": 531.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1441,
+      "win_count": 1442,
       "loss_count": 1656,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:41:29.742708+00:00",
+  "last_llm_brief_at": "2026-09-12T03:42:52.079181+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "75kA3fySKtumw4tcSQwjGdfk5NoZ6SpJghDyYFMipump": {
-      "price_usd": 2.8551724141737933e-06,
+    "8HtMR6A1G2dj7KGWU6gcpzXJvG4UBsw6uP9WfyHspump": {
+      "price_usd": 1.439096109039205e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4.0848000000000007e-07,
-      "volume_h24": 1079.74,
+      "liquidity_usd": 3812.4066726671704,
+      "volume_h24": 19647.62,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 4e-09
+      "real_sol_reserves": 37.527381363
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
