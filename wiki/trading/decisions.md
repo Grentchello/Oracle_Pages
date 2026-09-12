@@ -23881,3 +23881,9 @@
 ## [2026-09-12 19:12 UTC] buy | [LLM] $WIN at $3.33299e-06, spent 0.05 SOL
 - **Reasoning:** Fresh 0.5min launch at $3.3k mcap, meme-able self-help narrative ('I Will Win Because I Am Insane') in the attention-market sweet spot. Bonding curve only 7% complete = early entry with full TP ladder (+100/+200/+500) ahead. No fragility/blocklist hits. Risk is bounded: 0.1 SOL ($10.21) is <0.5% of portfolio, well under -25% hard cap and -0.4 SOL daily loss cap. Stale-exit (>30min flat) auto-protects against bag-holding.
 
+## [2026-09-12 19:14 UTC] sell | [FULL][LLM] $WIN at $3.31546e-06 | P&L: -0.5%
+- **Reasoning:** $WIN held 0.0h at -0.5% — essentially flat with no momentum. Pool only $246 and we're 2% of it; exiting frees the slot for fresh launches where the alpha actually is. No reason to babysit a position that hasn't moved.
+
+## [2026-09-12 19:14 UTC] buy | [LLM] $Doggo at $3.64936e-05, spent 0.05 SOL
+- **Reasoning:** $Doggo (Dancing Dog) — has a real twitter handle (@DancingDog_PF), a launch community (discord.gg/uxento), and an age of <1min at $4.5k mcap = ground floor entry. Meme category with viral mascot potential. 6% bonded means earliest stage. The ME2F fragility gate will screen the actual on-chain data, but the attention signal is real.
+
