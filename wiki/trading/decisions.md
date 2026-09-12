@@ -22897,3 +22897,9 @@
 ## [2026-09-12 09:16 UTC] buy | [LLM] $air at $5.54e-06, spent 0.05 SOL
 - **Reasoning:** $air is the cleanest new launch — passes viability gate (twitter present, desc present), mcap $5.5k gives maximum attention-leverage, simple memorable name, fresh (1min old). Narrative is weak but memecoins are attention not logic. 0.1 SOL position, -25% hard stop, +50% partial TP target.
 
+## [2026-09-12 09:17 UTC] sell | [rapid-drop] $air crashed >15% in one tick | P&L: -45.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 09:17 UTC] buy | [LLM] $Egod at $0.000644938, spent 0.05 SOL
+- **Reasoning:** $Egod shows 2:1 buy/sell ratio (55 vs 27) in first 5min — real demand signal not just snipers. Name is a clear DOGE/Egod meme play, narrative is recognizable and quotable. Risk: mcap still tiny ($5.4k), bond only 14% — could rug. Sizing at 0.1 SOL respects the -25% hard cap.
+
