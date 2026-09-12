@@ -22366,3 +22366,6 @@
 ## [2026-09-12 03:47 UTC] sell | [FULL][LLM] $VAMPGPT at $2.9807e-06 | P&L: -2.9%
 - **Reasoning:** Just entered, -2.9% is noise, no signal yet. Giving it a few minutes to see if the VAMP/GPT narrative develops before deciding.
 
+## [2026-09-12 03:49 UTC] buy | [LLM] $bundloor at $1.119e-05, spent 0.05 SOL
+- **Reasoning:** $bundloor — crypto-native pun (bundler/door) targets the degen/MEV audience on X, brand new with $15.9k mcap room to run, and an X link already pointing at it. Best narrative-to-mcap ratio of the three; explicit/RACIST names carry higher fragility risk so skipping those.
+
