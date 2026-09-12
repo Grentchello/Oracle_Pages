@@ -23989,3 +23989,6 @@
 ## [2026-09-12 20:12 UTC] sell | [FULL][LLM] $ROCKAPEPE at $3.94198e-06 | P&L: +10.5%
 - **Reasoning:** ROCKAPEPE is up +10.5% with strong momentum on a fresh launch; holding toward the +25% TP trigger. Pool is thin ($546) so any sharp move could auto-stop, but for now ride the wave.
 
+## [2026-09-12 20:14 UTC] buy | [LLM] $RUNCPU at $3.23006e-06, spent 0.05 SOL
+- **Reasoning:** $RUNCPU has a differentiated builder narrative (NAND-gate 8-bit CPU on Solana) — tech/retro-computing meta is viral-worthy on crypto Twitter, description shows real substance vs pure-joke tokens. Fresh $3.2k mcap at0.6min gives entry before extraction. Risk: bond only 6% complete means price is extremely volatile and could rug; sized at 0.05 SOL to respect min-liquidity 5x and keep22.7 SOL reserve.
+
