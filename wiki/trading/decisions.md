@@ -22717,3 +22717,6 @@
 ## [2026-09-12 07:11 UTC] sell | [FULL][LLM] $MIRO at $0.00164346 | P&L: -1.9%
 - **Reasoning:** MIRO is only -1.9% after fresh entry, still on bonding curve. No reason to dump a sub-2% loss before the curve migration — that's typically where attention/liquidity arrives. Give it the auto 30-min window to develop.
 
+## [2026-09-12 07:12 UTC] buy | [LLM] $Douge at $3.192e-06, spent 0.05 SOL
+- **Reasoning:** Doge-narrative token with X link just posted, $3.2k mcap fresh launch — classic attention play, classic Doge adjacency goes viral on CT. High risk but pre-bonding-curve territory is exactly where memecoin alpha lives.
+
