@@ -24412,3 +24412,6 @@
 ## [2026-09-12 23:33 UTC] sell | [rapid-drop] $Gamblecoin crashed >15% in one tick | P&L: -13.9%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 23:37 UTC] buy | [LLM] $SPREZZATURA at $2.873e-06, spent 0.05 SOL
+- **Reasoning:** $SPREZZATURA taps the AI/meta-narrative ('Claude Sprezzatura') which has proven viral potential on crypto Twitter, with a real X anchor from @Shoalst0ne. Fresh launch at $3.8k mcap with only 12% bond = genuine early entry, fits the 'new launches are the alpha' rule. Risk: bond incomplete and thin liquidity, but position size is small (0.1 SOL) per scalp discipline.
+
