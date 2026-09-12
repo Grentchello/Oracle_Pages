@@ -23308,3 +23308,9 @@
 ## [2026-09-12 13:16 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-12 13:18 UTC] sell | [FULL][LLM] $BRO at $2.87313e-06 | P&L: -60.0%
+- **Reasoning:** BRO is down -14%, held 6 min, no bounce signal visible. Bonding-curve tokens this young that don't pop immediately tend to bleed. Lock the loss at ~14% before it hits -25% hard stop. Free up slot for fresh attention.
+
+## [2026-09-12 13:18 UTC] buy | [LLM] $AMEMD at $5.345e-06, spent 0.05 SOL
+- **Reasoning:** AMEMD just launched1.2min ago, has an active X account (amemdcorp), clever tech-pretend narrative (MPU processing memes/sec), and $5.7k mcap — exactly the fresh-launch zone where 10x happens. Risks: ultra-low mcap, no liquidity track record, but attention signal is real and early.
+
