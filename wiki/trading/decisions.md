@@ -23869,3 +23869,6 @@
 ## [2026-09-12 18:58 UTC] sell | [FULL][LLM] $PVP at $0.00149353 | P&L: -8.9%
 - **Reasoning:** PVP only0.0h held and -8.9% (well above -25% hard cap, above -20% worry zone). New launch dip is normal noise on bonding curve. Give it a few minutes to develop before cutting.
 
+## [2026-09-12 18:59 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
