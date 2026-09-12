@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.191724,
+  "balance_sol": 13.224993,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FFAxmdWJ8M7xUwTzB4Us24o1susA1eMAvoHSmAHypump": {
-      "symbol": "unicorn",
-      "name": "unicorn",
-      "mint": "FFAxmdWJ8M7xUwTzB4Us24o1susA1eMAvoHSmAHypump",
-      "amount": 1050372.362432768,
-      "entry_price_usd": 4.834e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T08:05:48.311653+00:00",
-      "entry_time_iso": "2026-09-12T08:05:48.311661+00:00",
-      "entry_usd_value": 5.077500000000001,
-      "last_seen_price_usd": 4.834e-06,
-      "entry_liquidity_usd": 881.42847510285,
-      "entry_pool_sol": 8.679748647,
-      "entry_market_cap_usd": 4438.210979870856,
-      "entry_signals": {
-        "liquidity_usd": 881.42847510285,
-        "volume_24h_usd": 2017.8,
-        "market_cap_usd": 4438.210979870856,
-        "ath_market_cap_usd": 4984.441952618161,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 8.679748647,
-        "description": "",
-        "twitter": "https://x.com/Tuffdevonchain/status/2098684221359341629",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54189,19 +54160,37 @@
       "exit_pool_sol": 10.3041,
       "hold_duration_seconds": 223.410117,
       "partial": false
+    },
+    {
+      "mint": "FFAxmdWJ8M7xUwTzB4Us24o1susA1eMAvoHSmAHypump",
+      "symbol": "unicorn",
+      "name": "unicorn",
+      "amount_sold": 1050372.362432768,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T08:05:48.311653+00:00",
+      "entry_time_iso": "2026-09-12T08:05:48.311661+00:00",
+      "exit_time": "2026-09-12T08:06:52.160476+00:00",
+      "exit_time_iso": "2026-09-12T08:06:52.160486+00:00",
+      "entry_price_usd": 4.834e-06,
+      "exit_price_usd": 3.233861342171887e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.033269,
+      "pnl_sol": -0.016731,
+      "pnl_pct": -33.1,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 881.43,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 8.6797,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.848843,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T08:05:48.311827+00:00",
+  "last_updated": "2026-09-12T08:07:01.199868+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.55,
-  "portfolio_value_usd": 1344.7,
+  "last_sol_price_usd": 102.1,
+  "portfolio_value_usd": 1350.27,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 07:25 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $TCAT at $1.52222e-05 | P&L: +141.6%",
-      "reason": "Auto take-profit at +141.6%"
-    },
     {
       "time": "2026-09-12 07:26 UTC",
       "action": "buy",
@@ -54315,30 +54304,48 @@
       "action": "buy",
       "details": "[LLM] $unicorn at $4.834e-06, spent 0.05 SOL",
       "reason": "Fresh 0.5min launch, $4.4k mcap, 17% bond, has Twitter attention from crypto dev. 'Unicorn' is memeable narrative name. Early enough to ride first-wave attention. Risk: no description, generic name, ultra-low mcap = thin liquidity and high rug probability."
+    },
+    {
+      "time": "2026-09-12 08:06 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $unicorn crashed >15% in one tick | P&L: -33.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3175,
+    "total": 3176,
     "wins": 1482,
-    "losses": 1693,
+    "losses": 1694,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 9.025536,
-    "avg_pnl_pct": 29.52,
+    "total_pnl_sol": 9.008805,
+    "avg_pnl_pct": 29.5,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 102,
-    "today_realized_sol": 3.99244,
-    "today_target_pct": 998.1,
+    "today_trades": 103,
+    "today_realized_sol": 3.975709,
+    "today_target_pct": 993.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1482,
-      "loss_count": 1693,
+      "loss_count": 1694,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T08:05:46.682452+00:00",
+  "last_llm_brief_at": "2026-09-12T08:07:01.199207+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FFAxmdWJ8M7xUwTzB4Us24o1susA1eMAvoHSmAHypump": {
+      "price_usd": 3.233861342171887e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 197.1235360913,
+      "volume_h24": 4208.7,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.930690853
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

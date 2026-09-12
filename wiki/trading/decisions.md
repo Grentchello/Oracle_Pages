@@ -22807,3 +22807,6 @@
 ## [2026-09-12 08:05 UTC] buy | [LLM] $unicorn at $4.834e-06, spent 0.05 SOL
 - **Reasoning:** Fresh 0.5min launch, $4.4k mcap, 17% bond, has Twitter attention from crypto dev. 'Unicorn' is memeable narrative name. Early enough to ride first-wave attention. Risk: no description, generic name, ultra-low mcap = thin liquidity and high rug probability.
 
+## [2026-09-12 08:06 UTC] sell | [rapid-drop] $unicorn crashed >15% in one tick | P&L: -33.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
