@@ -24058,3 +24058,6 @@
 ## [2026-09-12 20:41 UTC] buy | [LLM] $midx at $3.19255e-06, spent 0.05 SOL
 - **Reasoning:** $midx (Mine Index) — has twitter (https://x.com/midxnet), mc $3.2k at 0.5min is essentially pre-launch, bond only 5%. 'Mine Index' reads like a real project name, not a one-off joke. Fresh attention, narrative of indexing mining, viability passes (twitter present). 0.1 SOL position — high risk but freshest launch with a real handle.
 
+## [2026-09-12 20:42 UTC] sell | [FULL][LLM] $midx at $3.09127e-06 | P&L: -3.2%
+- **Reasoning:** Flat at -3.2% only 0.0h held, bonding-curve pool tiny at $135, no reason to panic. Letting it breathe a few more minutes to see if the curve fills.
+

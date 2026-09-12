@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.206625,
+  "balance_sol": 27.255044,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "99LGp5htFnRX8Z1vnAmmmrFFAw3wsZMyZaLKqKskpump": {
-      "symbol": "midx",
-      "name": "Mine Index",
-      "mint": "99LGp5htFnRX8Z1vnAmmmrFFAw3wsZMyZaLKqKskpump",
-      "amount": 1587604.1968081174,
-      "entry_price_usd": 3.192546360226455e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T20:41:18.953712+00:00",
-      "entry_time_iso": "2026-09-12T20:41:18.953720+00:00",
-      "entry_usd_value": 5.0685,
-      "last_seen_price_usd": 3.192546360226455e-06,
-      "entry_liquidity_usd": 136.99553716994998,
-      "entry_pool_sol": 1.351440635,
-      "entry_market_cap_usd": 3193.8580272050303,
-      "entry_signals": {
-        "liquidity_usd": 136.99553716994998,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3193.8580272050303,
-        "ath_market_cap_usd": 4298.850561637614,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.351440635,
-        "description": "",
-        "twitter": "https://x.com/midxnet",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59109,19 +59080,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 85.536464,
       "partial": false
+    },
+    {
+      "mint": "99LGp5htFnRX8Z1vnAmmmrFFAw3wsZMyZaLKqKskpump",
+      "symbol": "midx",
+      "name": "Mine Index",
+      "amount_sold": 1587604.1968081174,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T20:41:18.953712+00:00",
+      "entry_time_iso": "2026-09-12T20:41:18.953720+00:00",
+      "exit_time": "2026-09-12T20:42:32.762977+00:00",
+      "exit_time_iso": "2026-09-12T20:42:32.762982+00:00",
+      "entry_price_usd": 3.192546360226455e-06,
+      "exit_price_usd": 3.09127149755599e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.048419,
+      "pnl_sol": -0.001581,
+      "pnl_pct": -3.17,
+      "exit_reason": "LLM: sell_all — Flat at -3.2% only 0.0h held, bonding-curve pool tiny at $135, no reason to panic. Letting it breathe a few more minutes to see if the curve fills.",
+      "entry_liquidity_usd": 137.0,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.3514,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 73.809283,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T20:41:18.953887+00:00",
+  "last_updated": "2026-09-12T20:42:32.763222+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.37,
-  "portfolio_value_usd": 2763.0,
+  "last_sol_price_usd": 101.36,
+  "portfolio_value_usd": 2762.57,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 20:17 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Mindshare at $3.58449e-06 | P&L: -0.6%",
-      "reason": "Just entered (0.0h held) at -0.6% — well within noise band and far from the -25% hard cap or the 30min stale exit. Pool is thin ($379) but name 'Mindshare' is narratively on-theme (attention markets). Give it at least one tick to develop a signal before exiting."
-    },
     {
       "time": "2026-09-12 20:19 UTC",
       "action": "buy",
@@ -59235,30 +59224,48 @@
       "action": "buy",
       "details": "[LLM] $midx at $3.19255e-06, spent 0.05 SOL",
       "reason": "$midx (Mine Index) — has twitter (https://x.com/midxnet), mc $3.2k at 0.5min is essentially pre-launch, bond only 5%. 'Mine Index' reads like a real project name, not a one-off joke. Fresh attention, narrative of indexing mining, viability passes (twitter present). 0.1 SOL position — high risk but freshest launch with a real handle."
+    },
+    {
+      "time": "2026-09-12 20:42 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $midx at $3.09127e-06 | P&L: -3.2%",
+      "reason": "Flat at -3.2% only 0.0h held, bonding-curve pool tiny at $135, no reason to panic. Letting it breathe a few more minutes to see if the curve fills."
     }
   ],
   "trade_stats": {
-    "total": 3380,
+    "total": 3381,
     "wins": 1566,
-    "losses": 1814,
+    "losses": 1815,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 23.040464,
-    "avg_pnl_pct": 36.81,
+    "total_pnl_sol": 23.038883,
+    "avg_pnl_pct": 36.79,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 307,
-    "today_realized_sol": 18.007368,
-    "today_target_pct": 4501.8,
+    "today_trades": 308,
+    "today_realized_sol": 18.005787,
+    "today_target_pct": 4501.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1566,
-      "loss_count": 1814,
+      "loss_count": 1815,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T20:41:17.628458+00:00",
+  "last_llm_brief_at": "2026-09-12T20:42:32.762819+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "99LGp5htFnRX8Z1vnAmmmrFFAw3wsZMyZaLKqKskpump": {
+      "price_usd": 3.09127149755599e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 135.06742074952,
+      "volume_h24": 1617.61,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.332551507
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
