@@ -22786,3 +22786,6 @@
 ## [2026-09-12 07:48 UTC] sell | [FULL][LLM] $MEGACAT at $1.16429e-05 | P&L: +11.3%
 - **Reasoning:** Up11.3% on a fresh 0h entry, still on bonding curve with bonding completing. No reason to exit a green position this early — let it run toward the +30% TP or show signs of stalling.
 
+## [2026-09-12 07:50 UTC] buy | [LLM] $BREVOLE at $3.29342e-06, spent 0.05 SOL
+- **Reasoning:** $BREVOLE (baby revolve) rides the recognizable Revolve fashion brand parody — baby/pregnant animal versions of known brands consistently pump on attention. Brand-recognition parody = real narrative signal. Risk: bond only 7%, very early, thin liquidity.
+
