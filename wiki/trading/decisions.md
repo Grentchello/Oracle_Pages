@@ -24214,3 +24214,9 @@
 ## [2026-09-12 22:00 UTC] sell | [PARTIAL][LLM] $RISE at $8.49265e-06 | P&L: +20.1%
 - **Reasoning:** Up +20.1% and bonding curve just at $2.2k pool — thin liquidity means any retrace will be violent. Lock half the gain at this round-number resistance level, let the rest ride if attention keeps coming.
 
+## [2026-09-12 22:01 UTC] sell | [FULL][LLM] $RISE at $9.4456e-06 | P&L: +33.6%
+- **Reasoning:** Up +33.6% past the 25% TP threshold. Lock the gain — memecoins give back fast, no reason to hold into uncertainty on a bonding-curve token with our share at 0%.
+
+## [2026-09-12 22:01 UTC] buy | [LLM] $bbull40k at $3.471e-06, spent 0.05 SOL
+- **Reasoning:** bbull40k has the strongest narrative of the three (grimdark gacha with rare Warmaster mechanic), 9% bonded = imminent graduation attention, twitter active, $3.4k mcap with room to run. Risks: very fresh (0.7min), bonding-curve dump risk.
+
