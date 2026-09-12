@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.959775,
+  "balance_sol": 13.00966,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CS5TDuyGinqE22dEyzjCvPGi8RsrFnBTiMkrpMxWpump": {
-      "symbol": "TCAT",
-      "name": "Terminal Cat",
-      "mint": "CS5TDuyGinqE22dEyzjCvPGi8RsrFnBTiMkrpMxWpump",
-      "amount": 1392749.658002736,
-      "entry_price_usd": 3.655e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T11:31:09.312471+00:00",
-      "entry_time_iso": "2026-09-12T11:31:09.312480+00:00",
-      "entry_usd_value": 5.0905000000000005,
-      "last_seen_price_usd": 3.655e-06,
-      "entry_liquidity_usd": 402.69359595449004,
-      "entry_pool_sol": 3.955344229,
-      "entry_market_cap_usd": 3653.3852430241855,
-      "entry_signals": {
-        "liquidity_usd": 402.69359595449004,
-        "volume_24h_usd": 403.64,
-        "market_cap_usd": 3653.3852430241855,
-        "ath_market_cap_usd": 3653.3852430241855,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.955344229,
-        "description": "It’s a king of every other Cat",
-        "twitter": "https://x.com/cats_terminal?s=11",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55509,19 +55480,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 73.531563,
       "partial": false
+    },
+    {
+      "mint": "CS5TDuyGinqE22dEyzjCvPGi8RsrFnBTiMkrpMxWpump",
+      "symbol": "TCAT",
+      "name": "Terminal Cat",
+      "amount_sold": 1392749.658002736,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T11:31:09.312471+00:00",
+      "entry_time_iso": "2026-09-12T11:31:09.312480+00:00",
+      "exit_time": "2026-09-12T11:32:23.771327+00:00",
+      "exit_time_iso": "2026-09-12T11:32:23.771331+00:00",
+      "entry_price_usd": 3.655e-06,
+      "exit_price_usd": 3.6662795439898922e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049885,
+      "pnl_sol": -0.000115,
+      "pnl_pct": 0.31,
+      "exit_reason": "LLM: sell_all — $TCAT is essentially flat (+0.3%) after launch, low liquidity ($405 pool, our share is 1%), no momentum signal. Lock the slot and rotate to fresh atte",
+      "entry_liquidity_usd": 402.69,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.9553,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 74.45936,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T11:31:09.312649+00:00",
+  "last_updated": "2026-09-12T11:32:25.054053+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.81,
-  "portfolio_value_usd": 1324.53,
+  "last_sol_price_usd": 102.36,
+  "portfolio_value_usd": 1331.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 11:02 UTC",
-      "action": "buy",
-      "details": "[LLM] $🐶 at $0.000463205, spent 0.05 SOL",
-      "reason": "$🐶 Tippy taps from @buitengebieden — one of the highest-engagement wholesome/animal accounts on X with massive viral reach. $3.8k mcap on1% bond = extreme early stage. High risk but the attention signal is real and upside could be 5-10x in hours if it catches. Entering at 0.1 SOL."
-    },
     {
       "time": "2026-09-12 11:03 UTC",
       "action": "sell",
@@ -55635,30 +55624,48 @@
       "action": "buy",
       "details": "[LLM] $TCAT at $3.655e-06, spent 0.05 SOL",
       "reason": "$TCAT has a clear narrative ('king of every other Cat'), an active X account (cats_terminal), and is fresh at $3.6k mcap. Cat memecoins have proven attention traction and the X presence gives a virality vector. Risking 0.1 SOL on a sub-$5k mcap with a story."
+    },
+    {
+      "time": "2026-09-12 11:32 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $TCAT at $3.66628e-06 | P&L: +0.3%",
+      "reason": "$TCAT is essentially flat (+0.3%) after launch, low liquidity ($405 pool, our share is 1%), no momentum signal. Lock the slot and rotate to fresh attention."
     }
   ],
   "trade_stats": {
-    "total": 3230,
+    "total": 3231,
     "wins": 1503,
-    "losses": 1727,
+    "losses": 1728,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.793587,
-    "avg_pnl_pct": 28.9,
+    "total_pnl_sol": 8.793472,
+    "avg_pnl_pct": 28.89,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 157,
-    "today_realized_sol": 3.760491,
+    "today_trades": 158,
+    "today_realized_sol": 3.760376,
     "today_target_pct": 940.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1503,
-      "loss_count": 1727,
+      "loss_count": 1728,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T11:31:07.872413+00:00",
+  "last_llm_brief_at": "2026-09-12T11:32:23.771284+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CS5TDuyGinqE22dEyzjCvPGi8RsrFnBTiMkrpMxWpump": {
+      "price_usd": 3.6662795439898922e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 404.8690353828,
+      "volume_h24": 403.64,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.95534423
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
