@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.932876,
+  "balance_sol": 12.983321,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "jy7sGFtdTcLSwmtiUCpKU7PtVFf9BYyDxmqxBBkpump": {
-      "symbol": "NIKE",
-      "name": "Just Do It",
-      "mint": "jy7sGFtdTcLSwmtiUCpKU7PtVFf9BYyDxmqxBBkpump",
-      "amount": 871.232876712329,
-      "entry_price_usd": 0.00584,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T11:45:24.014848+00:00",
-      "entry_time_iso": "2026-09-12T11:45:24.014857+00:00",
-      "entry_usd_value": 5.088000000000001,
-      "last_seen_price_usd": 0.00584,
-      "entry_liquidity_usd": 203080.75,
-      "entry_pool_sol": 85.005359057,
-      "entry_market_cap_usd": 5860462.856680344,
-      "entry_signals": {
-        "liquidity_usd": 203080.75,
-        "volume_24h_usd": 93093.36,
-        "market_cap_usd": 5860462.856680344,
-        "ath_market_cap_usd": 5860462.856680344,
-        "volatility_score": null,
-        "boost_mode": "IN_PROGRESS",
-        "real_sol_reserves": 85.005359057,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55581,19 +55552,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.27879,
       "partial": false
+    },
+    {
+      "mint": "jy7sGFtdTcLSwmtiUCpKU7PtVFf9BYyDxmqxBBkpump",
+      "symbol": "NIKE",
+      "name": "Just Do It",
+      "amount_sold": 871.232876712329,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T11:45:24.014848+00:00",
+      "entry_time_iso": "2026-09-12T11:45:24.014857+00:00",
+      "exit_time": "2026-09-12T11:46:40.710334+00:00",
+      "exit_time_iso": "2026-09-12T11:46:40.710339+00:00",
+      "entry_price_usd": 0.00584,
+      "exit_price_usd": 0.005892,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.050445,
+      "pnl_sol": 0.000445,
+      "pnl_pct": 0.89,
+      "exit_reason": "LLM: sell_all — Just entered, +0.9% with a deep $204k pool. No movement to react to yet — give it time to develop or hit stop.",
+      "entry_liquidity_usd": 203080.75,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 85.0054,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 76.695503,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T11:45:24.015123+00:00",
+  "last_updated": "2026-09-12T11:46:40.710637+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 101.76,
-  "portfolio_value_usd": 1321.14,
+  "portfolio_value_usd": 1321.18,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 11:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $VOID at $8.72918e-06 | P&L: +22.9%",
-      "reason": "+22.9% gain on a bonding-curve token with only $2,293 pool liquidity. Per scalp rules, up >20% with thin liquidity = take profit. Locking the gain before it reverses."
-    },
     {
       "time": "2026-09-12 11:16 UTC",
       "action": "buy",
@@ -55707,30 +55696,46 @@
       "action": "buy",
       "details": "[LLM] $NIKE at $0.00584, spent 0.05 SOL",
       "reason": "Brand-name play (Nike 'Just Do It') with massive built-in recognition. Bond 43% complete = still on curve, pre-graduation entry. 2.6 min old with $5.8k mcap = early. Brand tokens historically pump hard at graduation. Risk: thin liquidity at this stage, name-clone could be rugged."
+    },
+    {
+      "time": "2026-09-12 11:46 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $NIKE at $0.005892 | P&L: +0.9%",
+      "reason": "Just entered, +0.9% with a deep $204k pool. No movement to react to yet — give it time to develop or hit stop."
     }
   ],
   "trade_stats": {
-    "total": 3233,
-    "wins": 1503,
+    "total": 3234,
+    "wins": 1504,
     "losses": 1730,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.766688,
+    "total_pnl_sol": 8.767133,
     "avg_pnl_pct": 28.85,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 160,
-    "today_realized_sol": 3.733592,
-    "today_target_pct": 933.4,
+    "today_trades": 161,
+    "today_realized_sol": 3.734037,
+    "today_target_pct": 933.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1503,
+      "win_count": 1504,
       "loss_count": 1730,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T11:45:22.747078+00:00",
+  "last_llm_brief_at": "2026-09-12T11:46:40.710157+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "jy7sGFtdTcLSwmtiUCpKU7PtVFf9BYyDxmqxBBkpump": {
+      "price_usd": 0.005892,
+      "change_h24": 13802.0,
+      "change_h1": 13802.0,
+      "liquidity_usd": 203984.39,
+      "volume_h24": 93181.44,
+      "dex_id": "pumpswap",
+      "source": "dexscreener"
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
