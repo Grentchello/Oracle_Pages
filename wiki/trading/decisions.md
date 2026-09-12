@@ -22945,3 +22945,6 @@
 ## [2026-09-12 09:51 UTC] sell | [FULL][LLM] $Snailcat at $8.46292e-06 | P&L: +12.0%
 - **Reasoning:** Just entered ($Snailcat at $0.0000075540, now +12% at $0.0000084629) with held time essentially 0h. Bonding curve still early, pool only $2210 so tight but the position is green. Give it room to run before deciding.
 
+## [2026-09-12 09:57 UTC] buy | [LLM] $WOWCOIN at $2.305e-05, spent 0.05 SOL
+- **Reasoning:** Self-referential 'virality' meta-narrative is peak attention-market content; already has twitter traction and $24k mcap shows early attention. Dogenames historically pump on meta-humor. Risk: 0.7min old, bond incomplete, could rug — but 0.05 SOL position keeps risk bounded.
+
