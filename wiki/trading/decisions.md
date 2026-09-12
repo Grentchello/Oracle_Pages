@@ -22876,3 +22876,6 @@
 ## [2026-09-12 08:50 UTC] sell | [FULL][LLM] $MEOW  at $1.08786e-05 | P&L: -7.5%
 - **Reasoning:** Just entered at 0.0h, down only -7.5%, well within noise. Bonding curve is at 4% with $2.9k pool — too early to bail. The X post is live (fresh attention). Give it a few minutes to develop before judging.
 
+## [2026-09-12 08:52 UTC] buy | [LLM] $ogcallers at $3.095e-06, spent 0.05 SOL
+- **Reasoning:** $ogcallers (Jamal Thinks / JT) — 'bid OGCALLERS' framing taps into the call-group / signal-service meta-narrative that's been hot (legacy callers, alpha groups, etc.). Has a named character, a pose ('thinks'), and a meta-comment on the call-game itself. Risks: mcap $3k, bond 4%, very early, viability gate borderline (description short, no twitter in listing), and 'callers' meta can rug hard. BUT the narrative has a real hook and 0.05 SOL risk is sized to learn. Take the trade.
+
