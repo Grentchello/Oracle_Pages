@@ -23233,3 +23233,6 @@
 ## [2026-09-12 12:36 UTC] sell | [FULL][LLM] $Stonkwars at $3.03466e-06 | P&L: -7.7%
 - **Reasoning:** Down only 7.7%, held 0.0h, not yet at -25% hard cap or stale threshold. Selling into $89 pool as 5% holder would guarantee terrible execution; better to give it a few more minutes to bounce or hit the auto-stop.
 
+## [2026-09-12 12:37 UTC] buy | [LLM] $GTA6 at $0.001412, spent 0.05 SOL
+- **Reasoning:** $GTA6 — GTA 6 is the highest-attention entertainment launch in years, dedicated countdown X account signals active narrative pumping. Age 2.6min is fresh, bond 43% nearing graduation. Risk: thin liquidity ($1.4M mcap), celebrity/IP fragility. Size 0.05 SOL respects the 5x liquidity floor and tight v7 sizing.
+
