@@ -23851,3 +23851,9 @@
 ## [2026-09-12 18:48 UTC] buy | [LLM] $STONKTARD at $3.604e-06, spent 0.05 SOL
 - **Reasoning:** $STONKTARD has the strongest meme identity of the four — 'stonks' parody is instantly recognizable, has a twitter link passing viability gate, no fragility keywords, and 0.9min age means I get in near the launch. Risking 0.1 SOL on the freshest attention with clearest narrative.
 
+## [2026-09-12 18:49 UTC] sell | [v8.7 TP +50% (full)] $STONKTARD at $9.6243e-05 | P&L: +2570.4%
+- **Reasoning:** Auto take-profit at +2570.4%
+
+## [2026-09-12 18:49 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
