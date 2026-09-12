@@ -1,8 +1,32 @@
 {
-  "balance_sol": 9.222161,
+  "balance_sol": 9.172161,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "AJZcTKNDrRPCmdwS774B3idGid1icd3N85tQdoHipump": {
+      "symbol": "PUMPHOUSE",
+      "name": "Chill Pumpfun House",
+      "amount": 1525210.0840336136,
+      "entry_price_usd": 3.332e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T02:57:03.531971+00:00",
+      "entry_usd_value": 5.082000000000001,
+      "last_seen_price_usd": 3.332e-06,
+      "entry_signals": {
+        "liquidity_usd": 19459.21443334176,
+        "volume_24h_usd": 691.69,
+        "market_cap_usd": 4009.742746844566,
+        "ath_market_cap_usd": 4746.674033385442,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 191.452326184,
+        "description": "",
+        "twitter": "https://x.com/MrNovaaaa/status/2098606455620301298?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52348,17 +52372,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T02:55:44.333347+00:00",
+  "last_updated": "2026-09-12T02:57:03.532253+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.23,
-  "portfolio_value_usd": 942.78,
+  "last_sol_price_usd": 101.64,
+  "portfolio_value_usd": 937.34,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 01:51 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 01:56 UTC",
       "action": "observe",
@@ -52472,6 +52490,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $SolPVP at $3.1691e-06 | P&L: -4.6%",
       "reason": "Only -4.6% and 0.0h held — well within the -25% hard cap and not stale yet. Just entered; give it a few minutes to see if the bonding curve fills. $170 pool is thin but our share is 3% so exit liquidity exists."
+    },
+    {
+      "time": "2026-09-12 02:57 UTC",
+      "action": "buy",
+      "details": "[LLM] $PUMPHOUSE at $3.332e-06, spent 0.05 SOL",
+      "reason": "PUMPHOUSE narrative directly rides Pump.fun meta-attention, MrNovaaaa is an active CT poster pumping it, 0.7min old is prime entry. $4k mcap has room to run 5-10x on meta-narrative. Risk: low bond (8%) means still in pre-graduation zone, but that's where the alpha is."
     }
   ],
   "trade_stats": {
@@ -52493,7 +52517,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T02:55:44.333313+00:00",
+  "last_llm_brief_at": "2026-09-12T02:57:02.101790+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",

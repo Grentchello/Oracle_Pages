@@ -22243,3 +22243,6 @@
 ## [2026-09-12 02:52 UTC] sell | [FULL][LLM] $SolPVP at $3.1691e-06 | P&L: -4.6%
 - **Reasoning:** Only -4.6% and 0.0h held — well within the -25% hard cap and not stale yet. Just entered; give it a few minutes to see if the bonding curve fills. $170 pool is thin but our share is 3% so exit liquidity exists.
 
+## [2026-09-12 02:57 UTC] buy | [LLM] $PUMPHOUSE at $3.332e-06, spent 0.05 SOL
+- **Reasoning:** PUMPHOUSE narrative directly rides Pump.fun meta-attention, MrNovaaaa is an active CT poster pumping it, 0.7min old is prime entry. $4k mcap has room to run 5-10x on meta-narrative. Risk: low bond (8%) means still in pre-graduation zone, but that's where the alpha is.
+
