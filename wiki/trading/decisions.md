@@ -22705,3 +22705,6 @@
 ## [2026-09-12 07:07 UTC] buy | [LLM] $Fries at $6.431e-06, spent 0.05 SOL
 - **Reasoning:** $Fries has a concrete attention signal (Discord launch on uxento, mindsharez X post), name is memeable, and 2.2min age with $7.6k mcap — still in the launchpad sweet spot. Small 0.1 SOL position; will bail fast if no traction by 15min.
 
+## [2026-09-12 07:08 UTC] sell | [PARTIAL][LLM] $Fries at $8.02146e-06 | P&L: +24.7%
+- **Reasoning:** +$24.7% within minutes of entry on a brand new position — classic early pump. Take half off the table to lock gains and let the rest ride. Pool only $2k so remaining half is small risk.
+
