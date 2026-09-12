@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.31762,
+  "balance_sol": 27.355022,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AubkW8nauikDKsZmLuZtSNcAuPoTW48xquAKdoDGpump": {
-      "symbol": "artcoin",
-      "name": "artcoin",
-      "mint": "AubkW8nauikDKsZmLuZtSNcAuPoTW48xquAKdoDGpump",
-      "amount": 1295947.9874492313,
-      "entry_price_usd": 3.918367132923945e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T22:46:09.261086+00:00",
-      "entry_time_iso": "2026-09-12T22:46:09.261096+00:00",
-      "entry_usd_value": 5.078,
-      "last_seen_price_usd": 3.918367132923945e-06,
-      "entry_liquidity_usd": 548.88335445816,
-      "entry_pool_sol": 5.404522986,
-      "entry_market_cap_usd": 5529.835840406938,
-      "entry_signals": {
-        "liquidity_usd": 548.88335445816,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5529.835840406938,
-        "ath_market_cap_usd": 5546.303416993289,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.404522986,
-        "description": "",
-        "twitter": "https://x.com/ilostallmysoul/status/2098905637753348602",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -60093,19 +60064,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 78.809596,
       "partial": false
+    },
+    {
+      "mint": "AubkW8nauikDKsZmLuZtSNcAuPoTW48xquAKdoDGpump",
+      "symbol": "artcoin",
+      "name": "artcoin",
+      "amount_sold": 1295947.9874492313,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T22:46:09.261086+00:00",
+      "entry_time_iso": "2026-09-12T22:46:09.261096+00:00",
+      "exit_time": "2026-09-12T22:47:13.750925+00:00",
+      "exit_time_iso": "2026-09-12T22:47:13.750935+00:00",
+      "entry_price_usd": 3.918367132923945e-06,
+      "exit_price_usd": 2.9296789367117083e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.037402,
+      "pnl_sol": -0.012598,
+      "pnl_pct": -25.23,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 548.88,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 5.4045,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 64.489861,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T22:46:09.261345+00:00",
+  "last_updated": "2026-09-12T22:47:22.983597+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.56,
-  "portfolio_value_usd": 2779.46,
+  "last_sol_price_usd": 101.51,
+  "portfolio_value_usd": 2776.81,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 22:18 UTC",
-      "action": "buy",
-      "details": "[LLM] $DIVVY at $7.92303e-06, spent 0.05 SOL",
-      "reason": "DIVVY passes viability gate (has Twitter @divvyxSOL). Strongest bond curve at 29%, highest mcap ($7.9k) suggesting early organic traction. Clean name with no fragility-flagged keywords. Best risk-adjusted attention play of the batch — 0.05 SOL size."
-    },
     {
       "time": "2026-09-12 22:19 UTC",
       "action": "sell",
@@ -60219,40 +60208,46 @@
       "action": "buy",
       "details": "[LLM] $artcoin at $3.91837e-06, spent 0.05 SOL",
       "reason": "Brand new launch (0.6min), narrative is the legendary 'I lost all my soul' art meme — exactly the kind of viral cultural artifact that pumps memecoins. $5.5k mcap is early but real risk, so size to 0.05 SOL not 0.1."
+    },
+    {
+      "time": "2026-09-12 22:47 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $artcoin crashed >15% in one tick | P&L: -25.2%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3421,
+    "total": 3422,
     "wins": 1582,
-    "losses": 1839,
+    "losses": 1840,
     "win_rate_pct": 46.2,
-    "total_pnl_sol": 23.151459,
-    "avg_pnl_pct": 36.46,
+    "total_pnl_sol": 23.138861,
+    "avg_pnl_pct": 36.44,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 348,
-    "today_realized_sol": 18.118363,
-    "today_target_pct": 4529.6,
+    "today_trades": 349,
+    "today_realized_sol": 18.105765,
+    "today_target_pct": 4526.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1582,
-      "loss_count": 1839,
+      "loss_count": 1840,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T22:46:07.584700+00:00",
+  "last_llm_brief_at": "2026-09-12T22:47:22.983336+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "Hkg3bch1YCJDDN48BJ9oyVPoSWMyLQBJzAdLwakqpump": {
-      "price_usd": 0.000853116553480182,
+    "AubkW8nauikDKsZmLuZtSNcAuPoTW48xquAKdoDGpump": {
+      "price_usd": 2.9296789367117083e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 23002.314538524002,
+      "liquidity_usd": 68.51582221032001,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 226.4899029
+      "real_sol_reserves": 0.674966232
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

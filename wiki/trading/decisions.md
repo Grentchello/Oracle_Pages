@@ -24298,3 +24298,6 @@
 ## [2026-09-12 22:46 UTC] buy | [LLM] $artcoin at $3.91837e-06, spent 0.05 SOL
 - **Reasoning:** Brand new launch (0.6min), narrative is the legendary 'I lost all my soul' art meme — exactly the kind of viral cultural artifact that pumps memecoins. $5.5k mcap is early but real risk, so size to 0.05 SOL not 0.1.
 
+## [2026-09-12 22:47 UTC] sell | [rapid-drop] $artcoin crashed >15% in one tick | P&L: -25.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
