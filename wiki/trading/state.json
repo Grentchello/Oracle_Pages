@@ -1,5 +1,5 @@
 {
-  "balance_sol": 12.7411,
+  "balance_sol": 12.766658,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -7,13 +7,13 @@
       "symbol": "BRO",
       "name": "Brotherhood",
       "mint": "2AVKoLHCrH52bN6k5gk1tK6cUZWDgAXtJfFB4jjppump",
-      "amount": 1525299.4011976046,
+      "amount": 615374.5406738782,
       "entry_price_usd": 3.34e-06,
-      "entry_sol_spent": 0.05,
+      "entry_sol_spent": 0.020172254056833386,
       "entry_time": "2026-09-12T13:14:20.971994+00:00",
       "entry_time_iso": "2026-09-12T13:14:20.972001+00:00",
       "entry_usd_value": 5.0945,
-      "last_seen_price_usd": 3.34e-06,
+      "last_seen_price_usd": 2.876212390037754e-06,
       "entry_liquidity_usd": 336.68421884848,
       "entry_pool_sol": 3.304389232,
       "entry_market_cap_usd": 3450.8399343752653,
@@ -56181,19 +56181,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 82.584178,
       "partial": false
+    },
+    {
+      "mint": "2AVKoLHCrH52bN6k5gk1tK6cUZWDgAXtJfFB4jjppump",
+      "symbol": "BRO",
+      "name": "Brotherhood",
+      "amount_sold": 909924.8605237264,
+      "fraction_sold": 0.5965549188633323,
+      "entry_time": "2026-09-12T13:14:20.971994+00:00",
+      "entry_time_iso": "2026-09-12T13:14:20.972001+00:00",
+      "exit_time": "2026-09-12T13:15:42.278988+00:00",
+      "exit_time_iso": "2026-09-12T13:15:42.278992+00:00",
+      "entry_price_usd": 3.34e-06,
+      "exit_price_usd": 2.876212390037754e-06,
+      "entry_sol_for_chunk": 0.029828,
+      "exit_sol_received": 0.025558,
+      "pnl_sol": -0.00427,
+      "pnl_pct": -13.89,
+      "exit_reason": "LLM: sell_all — Held 0.0h already down -13.9% with 62% of pool — that's catastrophic concentration risk, classic rug shape. Liquidity is only $7, we are the exit liqu",
+      "entry_liquidity_usd": 336.68,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.3044,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 81.30701,
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-12T13:14:20.972169+00:00",
+  "last_updated": "2026-09-12T13:15:42.279268+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.89,
-  "portfolio_value_usd": 1303.29,
+  "last_sol_price_usd": 102.4,
+  "portfolio_value_usd": 1309.36,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 12:43 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Memestonks at $3.04365e-06 | P&L: -6.4%",
-      "reason": "Position is only 0.0h old and down6.4% — well within -25% hard cap, nowhere near the 30-min stale trigger. Cutting now locks a loss to free a slot for a 1-min-old bonding curve; better to give it 15 min to find volume before judging."
-    },
     {
       "time": "2026-09-12 12:45 UTC",
       "action": "buy",
@@ -56307,30 +56325,48 @@
       "action": "buy",
       "details": "[LLM] $BRO at $3.34e-06, spent 0.05 SOL",
       "reason": "$BRO has a viral Twitter post (AbGamble1), 'Brotherhood' is a tribal/communal narrative that resonates in memecoin culture, and at $3.4k mcap with 8% bond it's still early — this is exactly the asymmetric setup we need. Buying 0.1 SOL."
+    },
+    {
+      "time": "2026-09-12 13:15 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $BRO at $2.87621e-06 | P&L: -13.9%",
+      "reason": "Held 0.0h already down -13.9% with 62% of pool — that's catastrophic concentration risk, classic rug shape. Liquidity is only $7, we are the exit liquidity. Cut it now, no bounce signal visible on a freshly-launched bonding-curve token where we own majority of the pool."
     }
   ],
   "trade_stats": {
-    "total": 3258,
+    "total": 3259,
     "wins": 1511,
-    "losses": 1747,
+    "losses": 1748,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 8.574912,
-    "avg_pnl_pct": 28.52,
+    "total_pnl_sol": 8.570642,
+    "avg_pnl_pct": 28.51,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 185,
-    "today_realized_sol": 3.541816,
-    "today_target_pct": 885.5,
+    "today_trades": 186,
+    "today_realized_sol": 3.537546,
+    "today_target_pct": 884.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1511,
-      "loss_count": 1747,
+      "loss_count": 1748,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T13:14:19.550803+00:00",
+  "last_llm_brief_at": "2026-09-12T13:15:42.278857+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2AVKoLHCrH52bN6k5gk1tK6cUZWDgAXtJfFB4jjppump": {
+      "price_usd": 2.876212390037754e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 7.0797915136,
+      "volume_h24": 689.74,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.069138589
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

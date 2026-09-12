@@ -23302,3 +23302,6 @@
 ## [2026-09-12 13:14 UTC] buy | [LLM] $BRO at $3.34e-06, spent 0.05 SOL
 - **Reasoning:** $BRO has a viral Twitter post (AbGamble1), 'Brotherhood' is a tribal/communal narrative that resonates in memecoin culture, and at $3.4k mcap with 8% bond it's still early — this is exactly the asymmetric setup we need. Buying 0.1 SOL.
 
+## [2026-09-12 13:15 UTC] sell | [PARTIAL][LLM] $BRO at $2.87621e-06 | P&L: -13.9%
+- **Reasoning:** Held 0.0h already down -13.9% with 62% of pool — that's catastrophic concentration risk, classic rug shape. Liquidity is only $7, we are the exit liquidity. Cut it now, no bounce signal visible on a freshly-launched bonding-curve token where we own majority of the pool.
+
