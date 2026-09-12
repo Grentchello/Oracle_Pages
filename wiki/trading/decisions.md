@@ -23494,3 +23494,6 @@
 ## [2026-09-12 15:21 UTC] buy | [LLM] $Human at $4.61e-06, spent 0.05 SOL
 - **Reasoning:** $Human has the strongest narrative (humanity/AI discourse is trending), twitter signal present, $4.2k mcap at 1.1min — earliest cheap entry with real story. 0.1 SOL position.
 
+## [2026-09-12 15:22 UTC] sell | [rapid-drop] $Human crashed >15% in one tick | P&L: -35.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
