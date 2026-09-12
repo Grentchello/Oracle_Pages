@@ -24328,3 +24328,6 @@
 ## [2026-09-12 22:56 UTC] sell | [PARTIAL][LLM] $Penny at $2.87686e-06 | P&L: -9.5%
 - **Reasoning:** Pool share of 37% in a $12 pool is lethally illiquid — any other seller (or the -25% hard cap) will crush this. Cutting now frees the slot for fresh attention and prevents the hard stop from triggering at worse prices.
 
+## [2026-09-12 22:57 UTC] sell | [PARTIAL][LLM] $Penny at $2.85564e-06 | P&L: -48.5%
+- **Reasoning:** Fresh entry at 0.0h held, only -10.2% which is well above the -25% hard cap and 30min stale timer. No reason to panic-exit a brand new position; give the bonding-curve trade room to develop. The 2293% share figure is bonding-curve math on a microcap, not a rug signal.
+
