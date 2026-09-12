@@ -22855,3 +22855,9 @@
 ## [2026-09-12 08:35 UTC] buy | [LLM] $DOGUETTE at $3.561e-06, spent 0.05 SOL
 - **Reasoning:** Strong narrative piggyback on $DOGUE (200k mc) — 'twin sister' framing is a classic beta-coin play that pumps on the original's momentum. Fresh launch, viral X post, clear story. Sizing 0.1 SOL.
 
+## [2026-09-12 08:37 UTC] sell | [FULL][LLM] $DOGUETTE at $4.59809e-06 | P&L: +29.1%
+- **Reasoning:** $DOGUETTE at +29.1% is just shy of the 30% TP but per the rules I should be aggressive taking profit when up >20%. Bonding curve pool is only $831 (tiny), and -30% can hit faster than +30% in illiquid pools. Lock the ~$1.50 gain now rather than hope for the next TP tier.
+
+## [2026-09-12 08:37 UTC] buy | [LLM] $DORIME at $7.63e-06, spent 0.05 SOL
+- **Reasoning:** $DORIME 'Doge Religion' has a clear viral attention narrative — religion + doge = meme-internet crossover, linked to @mementum_sol (likely a known memecoin account). Sub-$10k mcap with a bonded story. Risk: duplicate of the other DORIME below (likely same deployer spam), so I'll size small and watch for rug signals.
+
