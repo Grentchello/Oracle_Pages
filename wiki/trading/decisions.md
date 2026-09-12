@@ -23725,3 +23725,9 @@
 ## [2026-09-12 17:26 UTC] buy | [LLM] $AIRDROP at $0.000110153, spent 0.05 SOL
 - **Reasoning:** AIRDROP narrative is meta-attention itself — a token literally named after the most viral concept in crypto. Brand-new launch (0.5min, $4.1k mcap) with X presence passing viability gate; ultra-low mcap + meta-narrative = classic 10x attention recipe. High risk of rug given brand-new mint and tiny mcap, but 0.05 SOL position respects the 5x liquidity gate and the asymmetric upside on a meta-airdrop narrative justifies a small speculative entry on the fresh slate.
 
+## [2026-09-12 17:27 UTC] sell | [FULL][LLM] $AIRDROP at $0.000112832 | P&L: +2.4%
+- **Reasoning:** Just entered, +2.4% with no time to develop. Bonding curve still active, low mcap, no reason to panic at 0 minutes held. Give it room to work.
+
+## [2026-09-12 17:27 UTC] buy | [LLM] $MIM at $0.000713212, spent 0.05 SOL
+- **Reasoning:** MIM (Memes Into Money) — strong meta-narrative name, $26k mcap, 39% bonded, fresh 0.5min launch with Twitter attention. Meta-memes about money work in this cycle.
+
