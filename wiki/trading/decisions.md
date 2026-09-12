@@ -23653,3 +23653,6 @@
 ## [2026-09-12 16:41 UTC] buy | [LLM] $delusional at $7.781e-06, spent 0.05 SOL
 - **Reasoning:** $delusional at $10k mcap with a YouTube video attached = real multimedia attention signal at the floor; memetic name + 1.1min age = classic fresh-launch setup with massive runway before any extraction.
 
+## [2026-09-12 16:43 UTC] sell | [FULL][LLM] $delusional at $6.68213e-06 | P&L: -14.1%
+- **Reasoning:** Down -14% in minutes, no bounce signal, sub-$2k liquidity, and age<1min — classic new-launch dump. Cut before the -25% hard stop.
+

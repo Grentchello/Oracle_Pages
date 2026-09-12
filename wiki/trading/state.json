@@ -1,37 +1,8 @@
 {
-  "balance_sol": 16.844974,
+  "balance_sol": 16.887904,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Eu3izWsWdJzRAbMXfBKU9qXh62sTLbZDV3LHX3jzpump": {
-      "symbol": "delusional",
-      "name": "be delusional",
-      "mint": "Eu3izWsWdJzRAbMXfBKU9qXh62sTLbZDV3LHX3jzpump",
-      "amount": 654928.6724071456,
-      "entry_price_usd": 7.781e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T16:41:49.174872+00:00",
-      "entry_time_iso": "2026-09-12T16:41:49.174879+00:00",
-      "entry_usd_value": 5.096,
-      "last_seen_price_usd": 7.781e-06,
-      "entry_liquidity_usd": 2453.0542897952,
-      "entry_pool_sol": 24.06842906,
-      "entry_market_cap_usd": 10489.990735489084,
-      "entry_signals": {
-        "liquidity_usd": 2453.0542897952,
-        "volume_24h_usd": 6393.9,
-        "market_cap_usd": 10489.990735489084,
-        "ath_market_cap_usd": 10878.468784460307,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 24.06842906,
-        "description": "https://www.youtube.com/watch?v=o-CRlTN55K4",
-        "twitter": "https://x.com/thedankoe/status/2098813973714149757",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57597,19 +57568,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 75.654533,
       "partial": false
+    },
+    {
+      "mint": "Eu3izWsWdJzRAbMXfBKU9qXh62sTLbZDV3LHX3jzpump",
+      "symbol": "delusional",
+      "name": "be delusional",
+      "amount_sold": 654928.6724071456,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T16:41:49.174872+00:00",
+      "entry_time_iso": "2026-09-12T16:41:49.174879+00:00",
+      "exit_time": "2026-09-12T16:43:03.835788+00:00",
+      "exit_time_iso": "2026-09-12T16:43:03.835792+00:00",
+      "entry_price_usd": 7.781e-06,
+      "exit_price_usd": 6.682130193937094e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.04293,
+      "pnl_sol": -0.00707,
+      "pnl_pct": -14.12,
+      "exit_reason": "LLM: sell_all — Down -14% in minutes, no bounce signal, sub-$2k liquidity, and age<1min — classic new-launch dump. Cut before the -25% hard stop.",
+      "entry_liquidity_usd": 2453.05,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 24.0684,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 74.660933,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T16:41:49.175024+00:00",
+  "last_updated": "2026-09-12T16:43:03.836015+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.92,
-  "portfolio_value_usd": 1721.94,
+  "last_sol_price_usd": 101.94,
+  "portfolio_value_usd": 1721.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 16:19 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $POOH crashed >15% in one tick | P&L: -21.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 16:22 UTC",
       "action": "buy",
@@ -57723,40 +57712,46 @@
       "action": "buy",
       "details": "[LLM] $delusional at $7.781e-06, spent 0.05 SOL",
       "reason": "$delusional at $10k mcap with a YouTube video attached = real multimedia attention signal at the floor; memetic name + 1.1min age = classic fresh-launch setup with massive runway before any extraction."
+    },
+    {
+      "time": "2026-09-12 16:43 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $delusional at $6.68213e-06 | P&L: -14.1%",
+      "reason": "Down -14% in minutes, no bounce signal, sub-$2k liquidity, and age<1min — classic new-launch dump. Cut before the -25% hard stop."
     }
   ],
   "trade_stats": {
-    "total": 3317,
+    "total": 3318,
     "wins": 1536,
-    "losses": 1781,
+    "losses": 1782,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 12.678788,
-    "avg_pnl_pct": 31.22,
+    "total_pnl_sol": 12.671718,
+    "avg_pnl_pct": 31.2,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 244,
-    "today_realized_sol": 7.645692,
-    "today_target_pct": 1911.4,
+    "today_trades": 245,
+    "today_realized_sol": 7.638622,
+    "today_target_pct": 1909.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1536,
-      "loss_count": 1781,
+      "loss_count": 1782,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T16:41:47.821443+00:00",
+  "last_llm_brief_at": "2026-09-12T16:43:03.835745+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "7aM9dkX7pTtoLYiDzf6FTY9W4P79m5TnHKxsb5Dfpump": {
-      "price_usd": 3.3686750885057035e-06,
+    "Eu3izWsWdJzRAbMXfBKU9qXh62sTLbZDV3LHX3jzpump": {
+      "price_usd": 6.682130193937094e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 266.84963968208,
-      "volume_h24": 230.56,
+      "liquidity_usd": 1624.43460360624,
+      "volume_h24": 10313.01,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.618226449
+      "real_sol_reserves": 15.935203096
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
