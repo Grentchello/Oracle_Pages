@@ -22723,3 +22723,6 @@
 ## [2026-09-12 07:13 UTC] sell | [FULL][LLM] $Douge at $3.221e-06 | P&L: +0.9%
 - **Reasoning:** Just opened 0.0h ago, up +0.9%, bonding-curve phase with only $191 pool. Need a few more minutes to see if buyers show up before judging.
 
+## [2026-09-12 07:15 UTC] buy | [LLM] $Insider at $4.612e-06, spent 0.05 SOL
+- **Reasoning:** Fresh launch (0.8min) with active twitter signal pointing at it. 'Insider/The Insiders' is a strong meta-narrative — memeable insider-trading culture play. Bond 21% means early entry on curve. Risk: brand new, could rug, but viability gate passes (twitter present) and no fragility keywords. Sizing 0.1 SOL.
+
