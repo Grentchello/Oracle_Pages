@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.820324,
+  "balance_sol": 12.870324,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "78FuJfDeDRqBtwgWy72qncin2ePK3qB5RqeXWARYWpAD": {
-      "symbol": "LAUNCH",
-      "name": "Launch",
-      "mint": "78FuJfDeDRqBtwgWy72qncin2ePK3qB5RqeXWARYWpAD",
-      "amount": 1655436.7958411642,
-      "entry_price_usd": 3.083778258901172e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T12:12:53.563002+00:00",
-      "entry_time_iso": "2026-09-12T12:12:53.563010+00:00",
-      "entry_usd_value": 5.105,
-      "last_seen_price_usd": 3.083778258901172e-06,
-      "entry_liquidity_usd": 120.57386322149999,
-      "entry_pool_sol": 1.180938915,
-      "entry_market_cap_usd": 3084.5179642786757,
-      "entry_signals": {
-        "liquidity_usd": 120.57386322149999,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 3084.5179642786757,
-        "ath_market_cap_usd": 3084.5179642786757,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.180938915,
-        "description": "LAUNCH on PAD Launched by launchonpad.com",
-        "twitter": "https://x.com/LaunchOnPad",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55797,19 +55768,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.903221,
       "partial": false
+    },
+    {
+      "mint": "78FuJfDeDRqBtwgWy72qncin2ePK3qB5RqeXWARYWpAD",
+      "symbol": "LAUNCH",
+      "name": "Launch",
+      "amount_sold": 1655436.7958411642,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T12:12:53.563002+00:00",
+      "entry_time_iso": "2026-09-12T12:12:53.563010+00:00",
+      "exit_time": "2026-09-12T12:14:10.004163+00:00",
+      "exit_time_iso": "2026-09-12T12:14:10.004168+00:00",
+      "entry_price_usd": 3.083778258901172e-06,
+      "exit_price_usd": 3.0997861186192685e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05,
+      "pnl_sol": 0.0,
+      "pnl_pct": 0.52,
+      "exit_reason": "LLM: sell_all — Just opened (+0.5%, 0.0h held), not stale yet, tiny pool so price hasn't moved meaningfully. Give it time to develop attention or hit the 30min stalen",
+      "entry_liquidity_usd": 120.57,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.1809,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 76.441178,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T12:12:53.563185+00:00",
+  "last_updated": "2026-09-12T12:14:10.004501+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.1,
-  "portfolio_value_usd": 1314.06,
+  "last_sol_price_usd": 102.63,
+  "portfolio_value_usd": 1320.88,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 11:42 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $CLOUD crashed >15% in one tick | P&L: -44.8%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 11:45 UTC",
       "action": "buy",
@@ -55923,30 +55912,48 @@
       "action": "buy",
       "details": "[LLM] $LAUNCH at $3.08378e-06, spent 0.05 SOL",
       "reason": "$LAUNCH is a meta-narrative play on launchpad culture itself — self-referential name plus active X account (LaunchOnPad) screams attention farming. 1.1min old, $3k mcap, sub-$5 entry = extreme asymmetry if it catches even a 50% narrative wave. Viability gate passes (description present, twitter linked). Fragility gate: 'launch' isn't a blacklisted celebrity/political keyword. Sizing 0.05 SOL respects the v8 discipline."
+    },
+    {
+      "time": "2026-09-12 12:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LAUNCH at $3.09979e-06 | P&L: +0.5%",
+      "reason": "Just opened (+0.5%, 0.0h held), not stale yet, tiny pool so price hasn't moved meaningfully. Give it time to develop attention or hit the 30min staleness check. No reason to panic on a fresh entry."
     }
   ],
   "trade_stats": {
-    "total": 3242,
+    "total": 3243,
     "wins": 1505,
-    "losses": 1737,
+    "losses": 1738,
     "win_rate_pct": 46.4,
     "total_pnl_sol": 8.654136,
-    "avg_pnl_pct": 28.71,
+    "avg_pnl_pct": 28.7,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 169,
+    "today_trades": 170,
     "today_realized_sol": 3.62104,
     "today_target_pct": 905.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1505,
-      "loss_count": 1737,
+      "loss_count": 1738,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T12:12:52.272748+00:00",
+  "last_llm_brief_at": "2026-09-12T12:14:10.004004+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "78FuJfDeDRqBtwgWy72qncin2ePK3qB5RqeXWARYWpAD": {
+      "price_usd": 3.0997861186192685e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 121.19976084645,
+      "volume_h24": 120.69,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.180938915
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
