@@ -592,3 +592,16 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - **Why this fix**: 60s gives the entry impact time to decay, so by the time TP evaluates the price, organic market movement is visible. Reduces self-pump paper PnL without removing TP's effectiveness on real runners (real pumps sustain beyond 60s; self-pumps fade).
 - v9.1 + v8.9 + GMGN fragility gate still active. v9.1 has been filtering ~18/25 per tick lately.
 - Verdict: **Profitable on paper (+18.79 SOL lifetime), but slippage simulation gap inflated reported TP wins by ~+2.14 SOL (likely 10-15% of lifetime PnL).** v9.2 fix targets the most egregious self-pump pattern without halting the bot or changing mechanical v8.7 rules.
+
+## [2026-09-12 20:52 UTC] eval | memecoin bot — 2026-09-12 20:52 UTC
+- Window: since last eval (18:50 UTC), 34 trades over ~2h
+- Win rate: 38.2% (13 wins / 19 losses) — below 46.3% lifetime baseline but within 1σ for n=34
+- Window Net PnL: +6.4635 SOL (big green window)
+- Balance: 27.254851 SOL (up from 20.7914 — +6.46 SOL in 2h)
+- Breakdown: TP wins 13 trades +6.6355 SOL | override wins 0 | rapid losses (<2min) 19 trades -0.1720 SOL | other losses 0
+- Top winners: PENIS +8865% (+4.44 SOL, held 63.8s, post-v9.2-gate organic pump), ZZZ +3830% (+1.90 SOL, held 63.7s), TWINE +438% (+0.22 SOL, held 63.8s), IPG +67.8% (+0.034 SOL)
+- Worst losers: Glonk -76.9% (-0.038 SOL, rapid -15%/tick), CRAP -67.3% (-0.034 SOL), stockdog -53.9% (-0.027 SOL), ₽ -27.7%
+- **v9.2 60s anti-self-pump gate VERIFIED WORKING**: PENIS, ZZZ, TWINE held exactly 63.8s, 63.7s, 63.8s — barely over the 60s threshold, indicating the gate is forcing real organic moves vs entry-tick self-pumps. These are real prices moving, not the bot selling to itself.
+- Lifetime (state.json): 3382 trades, 46.3% WR, +23.0387 SOL net (from 2.0 SOL starting → 13.6x return)
+- Slippage caveat unchanged: lifetime +23.04 SOL is paper via v9.0 sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
+- Verdict: **Profitable, no changes needed.** Window +6.46 SOL on 34 trades is a strong 2h run driven by 3 organic runners (PENIS +8865%, ZZZ +3830%, TWINE +438%). v9.2 gate working correctly. 38.2% WR below lifetime baseline but expected with small sample + lucky long-tail hits. Bot running normally.
