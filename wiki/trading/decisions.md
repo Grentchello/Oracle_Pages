@@ -23785,3 +23785,6 @@
 ## [2026-09-12 18:06 UTC] sell | [rapid-drop] $SOLID crashed >15% in one tick | P&L: -15.7%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 18:10 UTC] buy | [LLM] $Offchain at $0.00014247, spent 0.05 SOL
+- **Reasoning:** Fresh30s launch with viral-attention narrative — 'Offchain' is a natural crypto-culture counter-meme to onchain, backed by @jambucke (known CT account) tweet. $5.4k mcap is ultra-thin but that's where10x comes from. $5 position (0.05 SOL) keeps risk bounded; -25% hard cap means max loss ~$1.25. Skipping SNS because description '0000000' fails the 50-char viability gate automatically.
+
