@@ -24259,3 +24259,6 @@
 ## [2026-09-12 22:24 UTC] buy | [LLM] $Brkwnd at $3.054e-06, spent 0.05 SOL
 - **Reasoning:** $Brkwnd (BreakingWind) — crude humor names like this historically pump hard on X (shock-value attention). 0.5min old, no fragility flags visible, micro-cap with room to run. Speculative but the attention thesis is real.
 
+## [2026-09-12 22:26 UTC] sell | [FULL][LLM] $Brkwnd at $3.06871e-06 | P&L: +0.5%
+- **Reasoning:** Just opened at +0.5%, bonding curve only $111 pool. Too early to exit — needs15-30 min to either pop or show signs of life. Will reassess on next tick if still flat.
+

@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.39133,
+  "balance_sol": 27.44133,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7v3wsCBUnwtkme1am54AajRLNWntkYtVByhh2bHwpump": {
-      "symbol": "Brkwnd",
-      "name": "BreakingWind",
-      "mint": "7v3wsCBUnwtkme1am54AajRLNWntkYtVByhh2bHwpump",
-      "amount": 1665518.9072984932,
-      "entry_price_usd": 3.0540031564399416e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T22:24:48.202377+00:00",
-      "entry_time_iso": "2026-09-12T22:24:48.202401+00:00",
-      "entry_usd_value": 5.086500000000001,
-      "last_seen_price_usd": 3.0540031564399416e-06,
-      "entry_liquidity_usd": 110.52148147269,
-      "entry_pool_sol": 1.086419753,
-      "entry_market_cap_usd": 3054.9037766571164,
-      "entry_signals": {
-        "liquidity_usd": 110.52148147269,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3054.9037766571164,
-        "ath_market_cap_usd": 3103.038609773911,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.086419753,
-        "description": "Never hold it in, Always hold the coin.",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59949,19 +59920,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 74.017552,
       "partial": false
+    },
+    {
+      "mint": "7v3wsCBUnwtkme1am54AajRLNWntkYtVByhh2bHwpump",
+      "symbol": "Brkwnd",
+      "name": "BreakingWind",
+      "amount_sold": 1665518.9072984932,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T22:24:48.202377+00:00",
+      "entry_time_iso": "2026-09-12T22:24:48.202401+00:00",
+      "exit_time": "2026-09-12T22:26:05.142914+00:00",
+      "exit_time_iso": "2026-09-12T22:26:05.142918+00:00",
+      "entry_price_usd": 3.0540031564399416e-06,
+      "exit_price_usd": 3.0687132866537977e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05,
+      "pnl_sol": 0.0,
+      "pnl_pct": 0.48,
+      "exit_reason": "LLM: sell_all — Just opened at +0.5%, bonding curve only $111 pool. Too early to exit — needs15-30 min to either pop or show signs of life. Will reassess on next tick",
+      "entry_liquidity_usd": 110.52,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.0864,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 76.940554,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T22:24:48.202680+00:00",
+  "last_updated": "2026-09-12T22:26:05.143473+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.73,
-  "portfolio_value_usd": 2791.61,
+  "last_sol_price_usd": 102.22,
+  "portfolio_value_usd": 2805.05,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 21:54 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Tit crashed >15% in one tick | P&L: -28.7%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 21:56 UTC",
       "action": "buy",
@@ -60075,40 +60064,46 @@
       "action": "buy",
       "details": "[LLM] $Brkwnd at $3.054e-06, spent 0.05 SOL",
       "reason": "$Brkwnd (BreakingWind) — crude humor names like this historically pump hard on X (shock-value attention). 0.5min old, no fragility flags visible, micro-cap with room to run. Speculative but the attention thesis is real."
+    },
+    {
+      "time": "2026-09-12 22:26 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Brkwnd at $3.06871e-06 | P&L: +0.5%",
+      "reason": "Just opened at +0.5%, bonding curve only $111 pool. Too early to exit — needs15-30 min to either pop or show signs of life. Will reassess on next tick if still flat."
     }
   ],
   "trade_stats": {
-    "total": 3415,
+    "total": 3416,
     "wins": 1582,
-    "losses": 1833,
+    "losses": 1834,
     "win_rate_pct": 46.3,
     "total_pnl_sol": 23.225169,
-    "avg_pnl_pct": 36.57,
+    "avg_pnl_pct": 36.56,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 342,
+    "today_trades": 343,
     "today_realized_sol": 18.192073,
     "today_target_pct": 4548.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1582,
-      "loss_count": 1833,
+      "loss_count": 1834,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T22:24:46.852112+00:00",
+  "last_llm_brief_at": "2026-09-12T22:26:05.142828+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "wuJhZRG3PSkgyyd5z82hX7P3VDXp9fFiwr6iFsapump": {
-      "price_usd": 0.0008110294979024868,
+    "7v3wsCBUnwtkme1am54AajRLNWntkYtVByhh2bHwpump": {
+      "price_usd": 3.0687132866537977e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1.0173000000000001e-07,
-      "volume_h24": 0.0,
+      "liquidity_usd": 111.05382715165999,
+      "volume_h24": 160.23,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1e-09
+      "real_sol_reserves": 1.086419753
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
