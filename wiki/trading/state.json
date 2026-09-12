@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.21072,
+  "balance_sol": 13.264466,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DfybybtwuD4TcLfMftwgDcA5LK6QX6MoMZanLyV7pump": {
-      "symbol": "HIGHER",
-      "name": "FUCK YOU HIGHER",
-      "amount": 1629017.8069378978,
-      "entry_price_usd": 3.131426788752389e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T05:04:08.489707+00:00",
-      "entry_usd_value": 5.1011500000000005,
-      "last_seen_price_usd": 3.131426788752389e-06,
-      "entry_signals": {
-        "liquidity_usd": 146.174902792784,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3118.6953908746796,
-        "ath_market_cap_usd": 3118.6953908746796,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.432764208,
-        "description": "You sold? FUCK YOU HIGHER You shorted? FUCK YOU HIGHER Waiting for the dip? FUCK YOU HIGHER",
-        "twitter": "https://x.com/LaunchX2_/status/2098638083386122513?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53033,19 +53009,30 @@
       "pnl_pct": -6.22,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "DfybybtwuD4TcLfMftwgDcA5LK6QX6MoMZanLyV7pump",
+      "symbol": "HIGHER",
+      "name": "FUCK YOU HIGHER",
+      "amount_sold": 1629017.8069378978,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T05:04:08.489707+00:00",
+      "exit_time": "2026-09-12T05:05:28.060558+00:00",
+      "entry_price_usd": 3.131426788752389e-06,
+      "exit_price_usd": 3.3513967283200567e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.053746,
+      "pnl_sol": 0.003746,
+      "pnl_pct": 7.02,
+      "exit_reason": "LLM: sell_all — +7% with 0.0h held, not yet stale and not at any TP. Bonding-curve pool is tiny ($263) so any move will be sharp either direction. Give it 10-15 more ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T05:04:08.489875+00:00",
+  "last_updated": "2026-09-12T05:05:28.060793+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.023,
-  "portfolio_value_usd": 1352.9,
+  "last_sol_price_usd": 101.58,
+  "portfolio_value_usd": 1347.4,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 04:18 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Casino at $4.02407e-06 | P&L: +2.7%",
-      "reason": "Just entered at +2.7%, bonding curve, 0.0h held. No reason to bail yet — need15+ min to see if attention materializes. Will re-evaluate on staleness."
-    },
     {
       "time": "2026-09-12 04:22 UTC",
       "action": "buy",
@@ -53159,40 +53146,46 @@
       "action": "buy",
       "details": "[LLM] $HIGHER at $3.13143e-06, spent 0.05 SOL",
       "reason": "$HIGHER has a viral rage-bait narrative ('FUCK YOU HIGHER' addresses holders who sold/shorted/waited for dip) — classic anti-rugger meme energy that spreads on CT. Sub-$4k mcap at 0.5min is fresh enough for early attention capture, and the name itself is the meme."
+    },
+    {
+      "time": "2026-09-12 05:05 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HIGHER at $3.3514e-06 | P&L: +7.0%",
+      "reason": "+7% with 0.0h held, not yet stale and not at any TP. Bonding-curve pool is tiny ($263) so any move will be sharp either direction. Give it 10-15 more minutes to develop, but ready to bail if it stalls or dips below entry."
     }
   ],
   "trade_stats": {
-    "total": 3118,
-    "wins": 1454,
+    "total": 3119,
+    "wins": 1455,
     "losses": 1664,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 9.044533,
-    "avg_pnl_pct": 30.1,
+    "total_pnl_sol": 9.048279,
+    "avg_pnl_pct": 30.09,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 45,
-    "today_realized_sol": 4.011437,
-    "today_target_pct": 1002.9,
+    "today_trades": 46,
+    "today_realized_sol": 4.015183,
+    "today_target_pct": 1003.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1454,
+      "win_count": 1455,
       "loss_count": 1664,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:04:07.181055+00:00",
+  "last_llm_brief_at": "2026-09-12T05:05:28.060379+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "4y9sguMG2KFppiCUzmvTCXJ4KNsHafXioMMBX1hbpump": {
-      "price_usd": 4.171126432183068e-06,
+    "DfybybtwuD4TcLfMftwgDcA5LK6QX6MoMZanLyV7pump": {
+      "price_usd": 3.3513967283200567e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 640.455946557797,
-      "volume_h24": 9366.86,
+      "liquidity_usd": 262.97743745549997,
+      "volume_h24": 145.55,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 6.277564339
+      "real_sol_reserves": 2.588870225
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

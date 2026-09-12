@@ -22477,3 +22477,6 @@
 ## [2026-09-12 05:04 UTC] buy | [LLM] $HIGHER at $3.13143e-06, spent 0.05 SOL
 - **Reasoning:** $HIGHER has a viral rage-bait narrative ('FUCK YOU HIGHER' addresses holders who sold/shorted/waited for dip) — classic anti-rugger meme energy that spreads on CT. Sub-$4k mcap at 0.5min is fresh enough for early attention capture, and the name itself is the meme.
 
+## [2026-09-12 05:05 UTC] sell | [FULL][LLM] $HIGHER at $3.3514e-06 | P&L: +7.0%
+- **Reasoning:** +7% with 0.0h held, not yet stale and not at any TP. Bonding-curve pool is tiny ($263) so any move will be sharp either direction. Give it 10-15 more minutes to develop, but ready to bail if it stalls or dips below entry.
+
