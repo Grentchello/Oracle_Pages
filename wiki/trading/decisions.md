@@ -23215,3 +23215,6 @@
 ## [2026-09-12 12:16 UTC] sell | [PARTIAL][LLM] $Hoodtard at $1.06609e-05 | P&L: +18.8%
 - **Reasoning:** Up 18.8% in under an hour on a fresh entry — lock in gains on half. Pool is thin ($2.8k) so any reversal will be brutal. Take profit on half, let the rest ride with the stop at -25%.
 
+## [2026-09-12 12:18 UTC] sell | [FULL][LLM] $Hoodtard at $9.83345e-06 | P&L: +9.6%
+- **Reasoning:** Held0.0h, only +9.6%, but narrative 'Hoodtard' is weak/no clear viral catalyst and I need to free the slot for stronger fresh launches like $$1 and $NEKO. Capital rotation beats holding a marginal name.
+
