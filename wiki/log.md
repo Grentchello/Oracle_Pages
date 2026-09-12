@@ -474,3 +474,17 @@ After v8.7 + v8.8 (pumped filter) + v8.9 (age filter):
 **Balance recovered to 2.88 SOL** (started reset at 2.0)
 
 **Key insight:** 9 mechanical +50% TPs captured = +2 SOL, vs -0.74 SOL in losses. The asymmetric payoff works.
+
+## [2026-09-12 02:42 UTC] update | 2-hour auto-re-evaluation cronjob set
+
+Bot is now running with v9.1 filters. Created a cronjob that fires every 2 hours:
+- Re-evaluates bot performance
+- Checks PnL, win rate, balance
+- Logs findings to wiki/log.md
+- Only tweaks params if bot is unprofitable
+
+**Schedule**: every 2h
+**Job ID**: c6089dbab409
+**First run**: 04:41 UTC today
+
+Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN fragility gate catching celebrity rug tokens, slippage simulation in place. Let it run.
