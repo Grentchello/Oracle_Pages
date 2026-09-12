@@ -1,37 +1,8 @@
 {
-  "balance_sol": 16.810908,
+  "balance_sol": 16.830622,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "B4Q7bb1YiouoH6MtghbdreMWbQxGLh4zJXsbPGxJW3zR": {
-      "symbol": "PDT",
-      "name": "PromptDuel",
-      "mint": "B4Q7bb1YiouoH6MtghbdreMWbQxGLh4zJXsbPGxJW3zR",
-      "amount": 704213.7152299643,
-      "entry_price_usd": 7.262e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T16:56:41.010467+00:00",
-      "entry_time_iso": "2026-09-12T16:56:41.010475+00:00",
-      "entry_usd_value": 5.114000000000001,
-      "last_seen_price_usd": 7.262e-06,
-      "entry_liquidity_usd": 404.72731067591997,
-      "entry_pool_sol": 3.957052314,
-      "entry_market_cap_usd": 5387.572452441595,
-      "entry_signals": {
-        "liquidity_usd": 404.72731067591997,
-        "volume_24h_usd": 4935.23,
-        "market_cap_usd": 5387.572452441595,
-        "ath_market_cap_usd": 8260.486401535722,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.957052314,
-        "description": "Permissionless AI Evaluation Markets.",
-        "twitter": "https://promptduel.io",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57693,19 +57664,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.916731,
       "partial": false
+    },
+    {
+      "mint": "B4Q7bb1YiouoH6MtghbdreMWbQxGLh4zJXsbPGxJW3zR",
+      "symbol": "PDT",
+      "name": "PromptDuel",
+      "amount_sold": 704213.7152299643,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T16:56:41.010467+00:00",
+      "entry_time_iso": "2026-09-12T16:56:41.010475+00:00",
+      "exit_time": "2026-09-12T16:57:44.975465+00:00",
+      "exit_time_iso": "2026-09-12T16:57:44.975474+00:00",
+      "entry_price_usd": 7.262e-06,
+      "exit_price_usd": 2.852557945674721e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.019714,
+      "pnl_sol": -0.030286,
+      "pnl_pct": -60.72,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 404.73,
+      "exit_liquidity_usd": 1147.79,
+      "entry_pool_sol": 3.9571,
+      "exit_pool_sol": 11.222,
+      "hold_duration_seconds": 63.965018,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T16:56:41.010639+00:00",
+  "last_updated": "2026-09-12T16:57:57.092184+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.28,
-  "portfolio_value_usd": 1724.53,
+  "last_sol_price_usd": 101.9,
+  "portfolio_value_usd": 1715.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 16:31 UTC",
-      "action": "buy",
-      "details": "[LLM] $PFSR at $0.000191133, spent 0.05 SOL",
-      "reason": "$PFSR 'PumpFun Strategy' is a meta-narrative play — a token about the strategy itself. Bonding 23%, mcap $6.9k, age <1min, posted by stockiusquant (a quant account, attention signal). 0.05 SOL ($5) position, 2 SOL balance so we have runway. Highest narrative density of the three."
-    },
     {
       "time": "2026-09-12 16:32 UTC",
       "action": "sell",
@@ -57819,40 +57808,46 @@
       "action": "buy",
       "details": "[LLM] $PDT at $7.262e-06, spent 0.05 SOL",
       "reason": "$PDT (PromptDuel) — cleanest narrative of the batch: 'Permissionless AI Evaluation Markets' rides the AI-agent meta with a live site (promptduel.io). Passes viability gate (desc ≥50 chars, site link), fresh launch (1.8min), mcap $5.4k. 0.05 SOL position, tight -25% stop. Risk: narrative is idea-stage, no community yet, early bonding curve."
+    },
+    {
+      "time": "2026-09-12 16:57 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $PDT crashed >15% in one tick | P&L: -60.7%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3321,
+    "total": 3322,
     "wins": 1536,
-    "losses": 1785,
-    "win_rate_pct": 46.3,
-    "total_pnl_sol": 12.644722,
-    "avg_pnl_pct": 31.16,
+    "losses": 1786,
+    "win_rate_pct": 46.2,
+    "total_pnl_sol": 12.614436,
+    "avg_pnl_pct": 31.13,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 248,
-    "today_realized_sol": 7.611626,
-    "today_target_pct": 1902.9,
+    "today_trades": 249,
+    "today_realized_sol": 7.58134,
+    "today_target_pct": 1895.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1536,
-      "loss_count": 1785,
+      "loss_count": 1786,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T16:56:40.753867+00:00",
+  "last_llm_brief_at": "2026-09-12T16:57:57.092147+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "B4Q7bb1YiouoH6MtghbdreMWbQxGLh4zJXsbPGxJW3zR": {
-      "price_usd": 5.399185875325557e-06,
+      "price_usd": 2.852557945674721e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1147.78819322412,
-      "volume_h24": 3586.2,
+      "liquidity_usd": 1.8967518245,
+      "volume_h24": 7221.47,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 11.222019879
+      "real_sol_reserves": 0.018613855
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

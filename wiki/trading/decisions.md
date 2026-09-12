@@ -23677,3 +23677,6 @@
 ## [2026-09-12 16:56 UTC] buy | [LLM] $PDT at $7.262e-06, spent 0.05 SOL
 - **Reasoning:** $PDT (PromptDuel) — cleanest narrative of the batch: 'Permissionless AI Evaluation Markets' rides the AI-agent meta with a live site (promptduel.io). Passes viability gate (desc ≥50 chars, site link), fresh launch (1.8min), mcap $5.4k. 0.05 SOL position, tight -25% stop. Risk: narrative is idea-stage, no community yet, early bonding curve.
 
+## [2026-09-12 16:57 UTC] sell | [rapid-drop] $PDT crashed >15% in one tick | P&L: -60.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
