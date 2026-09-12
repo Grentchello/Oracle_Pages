@@ -22753,3 +22753,6 @@
 ## [2026-09-12 07:26 UTC] buy | [LLM] $GPU at $5.538e-06, spent 0.05 SOL
 - **Reasoning:** $GPU rides the AI/GPU meta-narrative that is pumping across CT right now. Fresh 1.1min launch with $5.7k mcap gives maximum attention-multiple runway, and the X link confirms organic callout. Risk: mcap is tiny so fragility score likely high — bot's GMGN gate may reject, but if it passes this is a clean meta play.
 
+## [2026-09-12 07:27 UTC] sell | [PARTIAL][LLM] $GPU at $6.65812e-06 | P&L: +20.2%
+- **Reasoning:** $GPU is up +20.2% — right at my 'take profit if you have any doubt' threshold. Bonding-curve phase with $1614 pool is thin and reversal risk is real. Lock half the gain and let the other half ride if it keeps pumping.
+
