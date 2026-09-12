@@ -566,3 +566,15 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Lifetime (state.json): 3285 trades, 46.3% WR, +8.6258 SOL net (still strongly profitable)
 - v9.1 + v8.9 + GMGN fragility gate still active; LLM held=0 most ticks (high selectivity)
 - Verdict: **Profitable, no changes needed.** Window essentially flat (+0.0043 SOL) on 35 trades — breakeven session with 42.9% WR. Lifetime +8.6258 SOL intact. Henry +235.5% runner validates v8.7 TP-at-+50% rule still doing its job. ANONBATON rapid loss cluster is same mint across 3 fills — looks like a token that pumped then rug'd during repeated entries; not a regime change.
+
+## [2026-09-12 16:49 UTC] eval | memecoin bot — 2026-09-12 16:49 UTC
+- Window: since last eval (14:48 UTC), ~2h
+- Win rate: ~40-46% (recent windows within lifetime baseline)
+- Window Net PnL (last 6h): +3.8877 SOL | last 24h: +7.6386 SOL
+- Balance: 16.8879 SOL (up from 12.84 at last eval — +4.05 SOL in 2h)
+- Breakdown (all-time, 3318 trades): TP wins 628 (+26.55) | override wins 908 (+10.75) | rapid losses 229 (-8.20) | other losses 1468 (-16.42) | breakeven 85
+- Lifetime (state.json): 3318 trades, 46.3% WR, +12.6717 SOL net (strongly profitable)
+- v9.1 (SOL liquidity floor) + v8.9 (age filter) + GMGN fragility gate still filtering hard — most ticks see 0-3 candidates pass; v9.1 filtered 18/25 today
+- Recent activity: $LARA, $golden, $delusional traded; $delusional exited at -14% per mechanical rules (sub-$2k liq, age<1min)
+- Slippage caveat unchanged: v9.0 sim understates real on-chain impact. Lifetime +12.67 SOL is paper PnL.
+- Verdict: **Profitable, no changes needed.** Bot up +12.67 SOL lifetime. Last 2h added +4.05 SOL cleanly. WR 46.3% with avg win 0.0243 vs avg loss 0.0138 — positive expectancy intact. No regime change, mechanical v8.7+ rules doing the work.

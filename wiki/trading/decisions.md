@@ -23656,3 +23656,6 @@
 ## [2026-09-12 16:43 UTC] sell | [FULL][LLM] $delusional at $6.68213e-06 | P&L: -14.1%
 - **Reasoning:** Down -14% in minutes, no bounce signal, sub-$2k liquidity, and age<1min — classic new-launch dump. Cut before the -25% hard stop.
 
+## [2026-09-12 16:49 UTC] buy | [LLM] $BRAIN at $1.5826e-05, spent 0.05 SOL
+- **Reasoning:** BRAIN has the strongest narrative of the three (anti-noise, 'signal-in-head' thesis ties to memecoin attention meta), a real twitter handle, and 36% bond vs 3% for the others — that buying-pressure delta is the clearest attention signal in this batch. 0.05 SOL risk is the cost of learning whether attention-launched tokens with narrative + X presence pump in the first hour.
+
