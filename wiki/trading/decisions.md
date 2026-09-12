@@ -23386,3 +23386,6 @@
 ## [2026-09-12 14:02 UTC] buy | [LLM] $VOID at $6.141e-06, spent 0.05 SOL
 - **Reasoning:** Fresh 1.1min launch, $6.4k mcap with runway to 10x, twitter attached, airdrop-to-top-20 narrative creates holder competition and attention. Passes viability gate. Risk: very early, bonding curve incomplete, can rug.
 
+## [2026-09-12 14:03 UTC] sell | [FULL][LLM] $VOID at $6.63997e-06 | P&L: +8.1%
+- **Reasoning:** Up +8.1% with 0h held — fresh entry, not stale yet, and only 0% bonding curve progress so still early. Give it a chance to run toward the +30% TP threshold before rotating capital.
+
