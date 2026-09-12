@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.966973,
+  "balance_sol": 12.997535,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CyXapDBKh7HEg5xph6NDSkTPPzJ4UvtFEnJpd7Expump": {
-      "symbol": "VOID",
-      "name": "VOID",
-      "mint": "CyXapDBKh7HEg5xph6NDSkTPPzJ4UvtFEnJpd7Expump",
-      "amount": 358022.51935256866,
-      "entry_price_usd": 7.105e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-12T11:11:38.228202+00:00",
-      "entry_time_iso": "2026-09-12T11:11:38.228211+00:00",
-      "entry_usd_value": 5.0875,
-      "last_seen_price_usd": 8.231308053505301e-06,
-      "entry_liquidity_usd": 1838.4142920274999,
-      "entry_pool_sol": 18.06795373,
-      "entry_market_cap_usd": 7325.134532855164,
-      "entry_signals": {
-        "liquidity_usd": 1838.4142920274999,
-        "volume_24h_usd": 1770.23,
-        "market_cap_usd": 7325.134532855164,
-        "ath_market_cap_usd": 7325.134532855164,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 18.06795373,
-        "description": "My version of a memecoin is now live on Pump Fun. 60% of the supply will be airdropped to the top 30 holders at bonding. I’ll also be adding a $7,000 buy in 15 minutes. Good luck. ",
-        "twitter": "https://x.com/VOIDXTOKEN",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55341,19 +55312,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 78.206713,
       "partial": true
+    },
+    {
+      "mint": "CyXapDBKh7HEg5xph6NDSkTPPzJ4UvtFEnJpd7Expump",
+      "symbol": "VOID",
+      "name": "VOID",
+      "amount_sold": 358022.51935256866,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T11:11:38.228202+00:00",
+      "entry_time_iso": "2026-09-12T11:11:38.228211+00:00",
+      "exit_time": "2026-09-12T11:14:11.827734+00:00",
+      "exit_time_iso": "2026-09-12T11:14:11.827740+00:00",
+      "entry_price_usd": 7.105e-06,
+      "exit_price_usd": 8.729178549096083e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.030562,
+      "pnl_sol": 0.005562,
+      "pnl_pct": 22.86,
+      "exit_reason": "LLM: sell_all — +22.9% gain on a bonding-curve token with only $2,293 pool liquidity. Per scalp rules, up >20% with thin liquidity = take profit. Locking the gain bef",
+      "entry_liquidity_usd": 1838.41,
+      "exit_liquidity_usd": 2137.52,
+      "entry_pool_sol": 18.068,
+      "exit_pool_sol": 20.9028,
+      "hold_duration_seconds": 153.59955,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T11:12:56.435120+00:00",
+  "last_updated": "2026-09-12T11:14:11.827973+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 102.26,
-  "portfolio_value_usd": 1328.55,
+  "portfolio_value_usd": 1329.13,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 10:29 UTC",
-      "action": "buy",
-      "details": "[LLM] $TAMPONS at $4.094e-06, spent 0.05 SOL",
-      "reason": "$TAMPONS — absurdist genital hygiene meme, exactly the kind of crude/viral humor that pumps on CT. Fresh launch (0.5min), low mcap $4k = max upside, narrative is crude enough to get screenshots/engagement. Viability gate passes (desc 'Launched by launchonpad.com' is thin but liquidity will build as bonding). Risk: no twitter, thin story — but meme-craft is the story."
-    },
     {
       "time": "2026-09-12 10:31 UTC",
       "action": "sell",
@@ -55467,40 +55456,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $VOID at $8.23131e-06 | P&L: +15.8%",
       "reason": "+15.9% with only 0.0h held and bonding-curve pool at $2,138 (very thin). Lock half the gain now per scalp discipline — fresh 1-min token hasn't shown sustained attention yet, thin liquidity means a reversal wipes it fast. Free up SOL for new entries."
+    },
+    {
+      "time": "2026-09-12 11:14 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $VOID at $8.72918e-06 | P&L: +22.9%",
+      "reason": "+22.9% gain on a bonding-curve token with only $2,293 pool liquidity. Per scalp rules, up >20% with thin liquidity = take profit. Locking the gain before it reverses."
     }
   ],
   "trade_stats": {
-    "total": 3223,
-    "wins": 1499,
+    "total": 3224,
+    "wins": 1500,
     "losses": 1724,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.775785,
-    "avg_pnl_pct": 28.95,
+    "total_pnl_sol": 8.781347,
+    "avg_pnl_pct": 28.94,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 150,
-    "today_realized_sol": 3.742689,
-    "today_target_pct": 935.7,
+    "today_trades": 151,
+    "today_realized_sol": 3.748251,
+    "today_target_pct": 937.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1499,
+      "win_count": 1500,
       "loss_count": 1724,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T11:12:56.434859+00:00",
+  "last_llm_brief_at": "2026-09-12T11:14:11.827023+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "CyXapDBKh7HEg5xph6NDSkTPPzJ4UvtFEnJpd7Expump": {
-      "price_usd": 8.231308053505301e-06,
+      "price_usd": 8.729178549096083e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2137.5245197396603,
-      "volume_h24": 1948.04,
+      "liquidity_usd": 2292.6354547113,
+      "volume_h24": 2309.5,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 20.902840991
+      "real_sol_reserves": 22.419670005
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -23092,3 +23092,6 @@
 ## [2026-09-12 11:12 UTC] sell | [PARTIAL][LLM] $VOID at $8.23131e-06 | P&L: +15.8%
 - **Reasoning:** +15.9% with only 0.0h held and bonding-curve pool at $2,138 (very thin). Lock half the gain now per scalp discipline — fresh 1-min token hasn't shown sustained attention yet, thin liquidity means a reversal wipes it fast. Free up SOL for new entries.
 
+## [2026-09-12 11:14 UTC] sell | [FULL][LLM] $VOID at $8.72918e-06 | P&L: +22.9%
+- **Reasoning:** +22.9% gain on a bonding-curve token with only $2,293 pool liquidity. Per scalp rules, up >20% with thin liquidity = take profit. Locking the gain before it reverses.
+
