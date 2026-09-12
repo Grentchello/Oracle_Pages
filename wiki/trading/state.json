@@ -1,8 +1,37 @@
 {
-  "balance_sol": 29.567672,
+  "balance_sol": 29.517672,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "EkSzKCGekX92n89ozCMUNVpiy3h9HgkKH69tkvkjpump": {
+      "symbol": "Drone",
+      "name": "Drone",
+      "mint": "EkSzKCGekX92n89ozCMUNVpiy3h9HgkKH69tkvkjpump",
+      "amount": 372392.41429613426,
+      "entry_price_usd": 1.371e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T23:11:13.998770+00:00",
+      "entry_time_iso": "2026-09-12T23:11:13.998778+00:00",
+      "entry_usd_value": 5.1055,
+      "last_seen_price_usd": 1.371e-05,
+      "entry_liquidity_usd": 4456.92188554881,
+      "entry_pool_sol": 43.648240971,
+      "entry_market_cap_usd": 14956.178319307603,
+      "entry_signals": {
+        "liquidity_usd": 4456.92188554881,
+        "volume_24h_usd": 16683.69,
+        "market_cap_usd": 14956.178319307603,
+        "ath_market_cap_usd": 14956.178319307603,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 43.648240971,
+        "description": "",
+        "twitter": "https://x.com/PogNyx/status/2098911923555172700",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -60354,17 +60383,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T23:09:49.000365+00:00",
+  "last_updated": "2026-09-12T23:11:13.998957+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.5,
-  "portfolio_value_usd": 3001.12,
+  "last_sol_price_usd": 102.11,
+  "portfolio_value_usd": 3019.15,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 22:47 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $artcoin crashed >15% in one tick | P&L: -25.2%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 22:48 UTC",
       "action": "buy",
@@ -60478,6 +60501,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $Pumpkin at $3.14092e-06 | P&L: -9.4%",
       "reason": "Down only -9.4% on a fresh position with bonding curve still active at 3% share. Not at stale or stop threshold yet — give it a few more minutes to find a bid before cutting."
+    },
+    {
+      "time": "2026-09-12 23:11 UTC",
+      "action": "buy",
+      "details": "[LLM] $Drone at $1.371e-05, spent 0.05 SOL",
+      "reason": "$Drone — fresh $14k mcap with active X link (PogNyx status post = real-time attention signal). Tiny mcap = room to run if narrative catches. Passes viability and fragility gates."
     }
   ],
   "trade_stats": {
@@ -60499,21 +60528,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T23:09:48.999308+00:00",
+  "last_llm_brief_at": "2026-09-12T23:11:12.545099+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "BYvFcnGT3yk7iLWkewpK7SxExK9T4HPzX2MzJ5hXpump": {
-      "price_usd": 3.1409230280999422e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 158.4810298855,
-      "volume_h24": 1743.16,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.561389457
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
