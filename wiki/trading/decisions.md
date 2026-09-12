@@ -24112,3 +24112,6 @@
 ## [2026-09-12 21:24 UTC] sell | [PARTIAL][LLM] $KEMO at $7.35294e-06 | P&L: +22.3%
 - **Reasoning:** Up +22.3% on a thin $1858 bonding-curve pool with 0% share showing — liquidity is weak and any bounce can evaporate fast. Locking half locks ~+$0.56 realized profit while keeping runner exposure if the cat narrative keeps grinding up the curve.
 
+## [2026-09-12 21:25 UTC] sell | [rapid-drop] $KEMO crashed >15% in one tick | P&L: -42.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

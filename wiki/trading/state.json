@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.222649,
+  "balance_sol": 27.236952,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AH8VLAupTZZpeKt5q8iUscd7ejogz4gGSPXV6n9rpump": {
-      "symbol": "KEMO",
-      "name": "Kemo Family",
-      "mint": "AH8VLAupTZZpeKt5q8iUscd7ejogz4gGSPXV6n9rpump",
-      "amount": 420726.63784502825,
-      "entry_price_usd": 6.014e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-12T21:23:27.681931+00:00",
-      "entry_time_iso": "2026-09-12T21:23:27.681939+00:00",
-      "entry_usd_value": 5.0605,
-      "last_seen_price_usd": 7.352942316472684e-06,
-      "entry_liquidity_usd": 1683.9643412902399,
-      "entry_pool_sol": 16.638319744,
-      "entry_market_cap_usd": 5895.952727542839,
-      "entry_signals": {
-        "liquidity_usd": 1683.9643412902399,
-        "volume_24h_usd": 1568.36,
-        "market_cap_usd": 5895.952727542839,
-        "ath_market_cap_usd": 6982.315774834468,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 16.638319744,
-        "description": "",
-        "twitter": "https://x.com/kemocalls",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59349,19 +59320,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 78.557812,
       "partial": true
+    },
+    {
+      "mint": "AH8VLAupTZZpeKt5q8iUscd7ejogz4gGSPXV6n9rpump",
+      "symbol": "KEMO",
+      "name": "Kemo Family",
+      "amount_sold": 420726.63784502825,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T21:23:27.681931+00:00",
+      "entry_time_iso": "2026-09-12T21:23:27.681939+00:00",
+      "exit_time": "2026-09-12T21:25:50.351507+00:00",
+      "exit_time_iso": "2026-09-12T21:25:50.351517+00:00",
+      "entry_price_usd": 6.014e-06,
+      "exit_price_usd": 3.4486345146209484e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.014303,
+      "pnl_sol": -0.010697,
+      "pnl_pct": -42.66,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 1683.96,
+      "exit_liquidity_usd": 1857.9,
+      "entry_pool_sol": 16.6383,
+      "exit_pool_sol": 18.3497,
+      "hold_duration_seconds": 142.669598,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T21:24:46.239957+00:00",
+  "last_updated": "2026-09-12T21:26:07.278686+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.25,
-  "portfolio_value_usd": 2758.82,
+  "last_sol_price_usd": 101.44,
+  "portfolio_value_usd": 2762.92,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 20:40 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $poor at $0.000420231 | P&L: +16.3%",
-      "reason": "$poor is at +16.3% on a 0h-old position, below the +30% auto-TP trigger. Give it room to run toward the +30%/+100% tiers before exiting; selling now on a fresh memecoin entry locks in small gains before momentum plays out."
-    },
     {
       "time": "2026-09-12 20:41 UTC",
       "action": "buy",
@@ -59475,40 +59464,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $KEMO at $7.35294e-06 | P&L: +22.3%",
       "reason": "Up +22.3% on a thin $1858 bonding-curve pool with 0% share showing — liquidity is weak and any bounce can evaporate fast. Locking half locks ~+$0.56 realized profit while keeping runner exposure if the cat narrative keeps grinding up the curve."
+    },
+    {
+      "time": "2026-09-12 21:25 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $KEMO crashed >15% in one tick | P&L: -42.7%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3390,
+    "total": 3391,
     "wins": 1572,
-    "losses": 1818,
+    "losses": 1819,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 23.031488,
-    "avg_pnl_pct": 36.7,
+    "total_pnl_sol": 23.020791,
+    "avg_pnl_pct": 36.68,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 317,
-    "today_realized_sol": 17.998392,
-    "today_target_pct": 4499.6,
+    "today_trades": 318,
+    "today_realized_sol": 17.987695,
+    "today_target_pct": 4496.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1572,
-      "loss_count": 1818,
+      "loss_count": 1819,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T21:24:46.239686+00:00",
+  "last_llm_brief_at": "2026-09-12T21:26:07.278222+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AH8VLAupTZZpeKt5q8iUscd7ejogz4gGSPXV6n9rpump": {
-      "price_usd": 7.352942316472684e-06,
+      "price_usd": 3.4486345146209484e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1857.90451852125,
-      "volume_h24": 4988.22,
+      "liquidity_usd": 312.54301337376,
+      "volume_h24": 9467.85,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 18.349674257
+      "real_sol_reserves": 3.081062829
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
