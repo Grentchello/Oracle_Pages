@@ -23164,3 +23164,9 @@
 ## [2026-09-12 11:49 UTC] buy | [LLM] $BETTER HANFL at $3.482e-06, spent 0.05 SOL
 - **Reasoning:** $BETTER HANFL has a concrete attention mechanic — a notable X account 'replied hello' to the project, which is exactly the kind of reply-screenshot that goes viral on CT. Mcap $3.2k at 1.2min old = maximum upside leverage if the reply-screenshot narrative catches. Risk: bond only 6%, very thin liquidity, could rug — sizing 0.1 SOL keeps loss to -0.025 SOL hard cap.
 
+## [2026-09-12 11:50 UTC] sell | [rapid-drop] $BETTER HANFL crashed >15% in one tick | P&L: -17.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 11:50 UTC] buy | [LLM] $FlyGPT at $4.386e-05, spent 0.05 SOL
+- **Reasoning:** $FlyGPT is the freshest token with real attention signals: complete bond, dedicated Twitter (@FlyGPTDev), absurdist 'green beanie' meme narrative that tends to catch on CT, and $46k mcap with 1.2min age — early enough to catch the wave. Other candidates ($67, $BITBUTT, $MEMECOIN, $CHBU, $BLUESCREEN) have incomplete bonds <20% and no Twitter; $HOOD at $24.7M mcap is a brand-impersonation rug-risk too late to enter. FlyGPT is the only viable narrative play.
+
