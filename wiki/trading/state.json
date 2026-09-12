@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.423406,
+  "balance_sol": 27.47113,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2jPr3Z1YmB19N3LzmtJKk2oDWkUk8YF5f5C3TRTSpump": {
-      "symbol": "LUPIN",
-      "name": "The Monero Pepe",
-      "mint": "2jPr3Z1YmB19N3LzmtJKk2oDWkUk8YF5f5C3TRTSpump",
-      "amount": 5911.885579786935,
-      "entry_price_usd": 0.0008597087902677532,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T22:05:29.197250+00:00",
-      "entry_time_iso": "2026-09-12T22:05:29.197259+00:00",
-      "entry_usd_value": 5.0825000000000005,
-      "last_seen_price_usd": 0.0008597087902677532,
-      "entry_liquidity_usd": 30544.51548604795,
-      "entry_pool_sol": 300.487117423,
-      "entry_market_cap_usd": 4603.842791969414,
-      "entry_signals": {
-        "liquidity_usd": 30544.51548604795,
-        "volume_24h_usd": null,
-        "market_cap_usd": 4603.842791969414,
-        "ath_market_cap_usd": 5966.67828324716,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 300.487117423,
-        "description": "The Monero Pepe",
-        "twitter": "https://x.com/rorymoon_2/status/2098895476338855994?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59829,19 +59800,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 74.621691,
       "partial": false
+    },
+    {
+      "mint": "2jPr3Z1YmB19N3LzmtJKk2oDWkUk8YF5f5C3TRTSpump",
+      "symbol": "LUPIN",
+      "name": "The Monero Pepe",
+      "amount_sold": 5911.885579786935,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T22:05:29.197250+00:00",
+      "entry_time_iso": "2026-09-12T22:05:29.197259+00:00",
+      "exit_time": "2026-09-12T22:06:44.405366+00:00",
+      "exit_time_iso": "2026-09-12T22:06:44.405370+00:00",
+      "entry_price_usd": 0.0008597087902677532,
+      "exit_price_usd": 0.0008209763374254639,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.047724,
+      "pnl_sol": -0.002276,
+      "pnl_pct": -4.51,
+      "exit_reason": "LLM: sell_all — Down -4.5% in <1 min on $5.4k pool with 0% share — fragile liquidity, no momentum, easy to slip to -25% hard cap. Cut now and free the slot.",
+      "entry_liquidity_usd": 30544.52,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 300.4871,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 75.208131,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T22:05:29.197493+00:00",
+  "last_updated": "2026-09-12T22:06:44.405604+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.65,
-  "portfolio_value_usd": 2792.67,
+  "last_sol_price_usd": 101.7,
+  "portfolio_value_usd": 2793.81,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 21:43 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Private crashed >15% in one tick | P&L: -27.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 21:43 UTC",
       "action": "buy",
@@ -59955,30 +59944,48 @@
       "action": "buy",
       "details": "[LLM] $LUPIN at $0.000859709, spent 0.05 SOL",
       "reason": "Monero x Pepe meta is a coherent, crypto-native narrative with a real cult following on both sides — Monero community is famously tribal and Pepe meta is evergreen. Sub-$5k mcap with a real X post means we're early, and bond is only 3% so plenty of upside before graduation. Risk: pepe coins can be bot-heavy, but at $4.6k mcap smart money hasn't loaded yet."
+    },
+    {
+      "time": "2026-09-12 22:06 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LUPIN at $0.000820976 | P&L: -4.5%",
+      "reason": "Down -4.5% in <1 min on $5.4k pool with 0% share — fragile liquidity, no momentum, easy to slip to -25% hard cap. Cut now and free the slot."
     }
   ],
   "trade_stats": {
-    "total": 3410,
+    "total": 3411,
     "wins": 1581,
-    "losses": 1829,
+    "losses": 1830,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 23.257245,
-    "avg_pnl_pct": 36.64,
+    "total_pnl_sol": 23.254969,
+    "avg_pnl_pct": 36.63,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 337,
-    "today_realized_sol": 18.224149,
-    "today_target_pct": 4556.0,
+    "today_trades": 338,
+    "today_realized_sol": 18.221873,
+    "today_target_pct": 4555.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1581,
-      "loss_count": 1829,
+      "loss_count": 1830,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T22:05:27.763583+00:00",
+  "last_llm_brief_at": "2026-09-12T22:06:44.405328+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2jPr3Z1YmB19N3LzmtJKk2oDWkUk8YF5f5C3TRTSpump": {
+      "price_usd": 0.0008209763374254639,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 5447.7380800989,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 53.566746117
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
