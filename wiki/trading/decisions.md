@@ -23887,3 +23887,9 @@
 ## [2026-09-12 19:14 UTC] buy | [LLM] $Doggo at $3.64936e-05, spent 0.05 SOL
 - **Reasoning:** $Doggo (Dancing Dog) — has a real twitter handle (@DancingDog_PF), a launch community (discord.gg/uxento), and an age of <1min at $4.5k mcap = ground floor entry. Meme category with viral mascot potential. 6% bonded means earliest stage. The ME2F fragility gate will screen the actual on-chain data, but the attention signal is real.
 
+## [2026-09-12 19:15 UTC] sell | [FULL][LLM] $Doggo at $3.6623e-05 | P&L: +0.3%
+- **Reasoning:** Just opened, only +0.4% — too early to judge. Will reassess at the 15-min stale check or if it moves meaningfully.
+
+## [2026-09-12 19:15 UTC] buy | [LLM] $BINGUS at $9.02782e-05, spent 0.05 SOL
+- **Reasoning:** Bingus is a recognizable meme cat (green chair viral image) with a Twitter link attached — real narrative, not random letters. Sub-$5k mcap at<1min old is the fresh-attention window where memecoins pump50-300%. 0.05 SOL risk is small; let it ride.
+
