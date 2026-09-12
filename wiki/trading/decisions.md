@@ -23632,3 +23632,6 @@
 ## [2026-09-12 16:36 UTC] sell | [FULL][LLM] $PUMPCAT at $4.80141e-06 | P&L: -1.6%
 - **Reasoning:** Just opened at -1.6%, only held 0.0h, well within tolerance. Need a few minutes to see if the cat narrative catches attention. Hard stop at -25% will auto-trigger.
 
+## [2026-09-12 16:37 UTC] buy | [LLM] $PSTR at $0.000385508, spent 0.05 SOL
+- **Reasoning:** $PSTR (PumpFun Strategy) ties the narrative directly to PumpFun itself — meta-narrative plays catch attention fast on a 0.5min launch. Has twitter link from a real account (TobiasJochike), mcap $14k is still very early, bond 34% showing real buys. Risky but the meta-narrative is the kind of attention signal that pumps.
+

@@ -1,8 +1,37 @@
 {
-  "balance_sol": 16.822597,
+  "balance_sol": 16.772597,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "6z8FFVBcu6phB1EmoxsMmc8WtgJt4mRFZFNwwbDJpump": {
+      "symbol": "PSTR",
+      "name": "PumpFun Strategy",
+      "mint": "6z8FFVBcu6phB1EmoxsMmc8WtgJt4mRFZFNwwbDJpump",
+      "amount": 13217.614421805209,
+      "entry_price_usd": 0.00038550829502137024,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T16:37:54.731497+00:00",
+      "entry_time_iso": "2026-09-12T16:37:54.731506+00:00",
+      "entry_usd_value": 5.0955,
+      "last_seen_price_usd": 0.00038550829502137024,
+      "entry_liquidity_usd": 120563.34941599883,
+      "entry_pool_sol": 1183.037478324,
+      "entry_market_cap_usd": 13956.799742975487,
+      "entry_signals": {
+        "liquidity_usd": 120563.34941599883,
+        "volume_24h_usd": null,
+        "market_cap_usd": 13956.799742975487,
+        "ath_market_cap_usd": 19083.2947606761,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1183.037478324,
+        "description": "",
+        "twitter": "https://x.com/TobiasJochike/status/2098813127588712481",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57498,17 +57527,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T16:36:38.047299+00:00",
+  "last_updated": "2026-09-12T16:37:54.731781+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.98,
-  "portfolio_value_usd": 1715.57,
+  "last_sol_price_usd": 101.91,
+  "portfolio_value_usd": 1714.39,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 16:08 UTC",
-      "action": "buy",
-      "details": "[LLM] $PopCat at $9.92468e-05, spent 0.05 SOL",
-      "reason": "PopCat — the original Popcat ($POPCAT) is a known viral memecoin that ran to ~$1.5B mcap at peak. A fresh launch with a solana contract at $3.5k mcap with an attached X post (goddevsol) has classic copycat-pump setup: recognizable brand + tiny mcap = potential 10-50x in hours if narrative catches. Bond only 2% means very early, risk is high but reward is asymmetric. Sizing 0.1 SOL per rules."
-    },
     {
       "time": "2026-09-12 16:09 UTC",
       "action": "sell",
@@ -57622,6 +57645,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $PUMPCAT at $4.80141e-06 | P&L: -1.6%",
       "reason": "Just opened at -1.6%, only held 0.0h, well within tolerance. Need a few minutes to see if the cat narrative catches attention. Hard stop at -25% will auto-trigger."
+    },
+    {
+      "time": "2026-09-12 16:37 UTC",
+      "action": "buy",
+      "details": "[LLM] $PSTR at $0.000385508, spent 0.05 SOL",
+      "reason": "$PSTR (PumpFun Strategy) ties the narrative directly to PumpFun itself — meta-narrative plays catch attention fast on a 0.5min launch. Has twitter link from a real account (TobiasJochike), mcap $14k is still very early, bond 34% showing real buys. Risky but the meta-narrative is the kind of attention signal that pumps."
     }
   ],
   "trade_stats": {
@@ -57643,21 +57672,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T16:36:38.046223+00:00",
+  "last_llm_brief_at": "2026-09-12T16:37:53.376315+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "dnKm4vm9aoHH31AV5JXRAaDdFCUcKMUiCC6V3fMpump": {
-      "price_usd": 4.801405745349835e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 910.7068575733401,
-      "volume_h24": 3145.74,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 8.930249633
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
