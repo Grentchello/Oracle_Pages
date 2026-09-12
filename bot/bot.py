@@ -606,9 +606,10 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         real_sol = _to_float(c.get("real_sol_reserves", 0)) or 0
         is_bonding = c.get("complete", True) is False or c.get("bonding_progress", 100) < 100
         
-        # If bonding curve: require >=5 SOL of real reserves (~$525)
+        # If bonding curve: require >=2 SOL of real reserves (~$210)
+        # Lower threshold = more trades = more opportunities
         if is_bonding:
-            if real_sol < 5.0:
+            if real_sol < 2.0:
                 liq_filtered += 1
                 log(f"v9.1 FILTER: ${c.get('symbol')} rejected — bonding curve only {real_sol:.2f} SOL reserves")
                 continue
