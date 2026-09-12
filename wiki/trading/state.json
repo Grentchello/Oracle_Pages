@@ -1,37 +1,8 @@
 {
-  "balance_sol": 29.51949,
+  "balance_sol": 29.56517,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EumRofkFJWzeFUZsv6rmhYdvW6bzz3fENjWjYMgXpump": {
-      "symbol": "BADGES",
-      "name": "Pumpfun Profile Badges",
-      "mint": "EumRofkFJWzeFUZsv6rmhYdvW6bzz3fENjWjYMgXpump",
-      "amount": 1319764.7362978284,
-      "entry_price_usd": 3.868e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T23:17:49.770785+00:00",
-      "entry_time_iso": "2026-09-12T23:17:49.770794+00:00",
-      "entry_usd_value": 5.10485,
-      "last_seen_price_usd": 3.868e-06,
-      "entry_liquidity_usd": 547.640943641293,
-      "entry_pool_sol": 5.363927869,
-      "entry_market_cap_usd": 3709.6760145519856,
-      "entry_signals": {
-        "liquidity_usd": 547.640943641293,
-        "volume_24h_usd": 772.65,
-        "market_cap_usd": 3709.6760145519856,
-        "ath_market_cap_usd": 3867.7450289925873,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.363927869,
-        "description": "",
-        "twitter": "https://x.com/dev_pscl/status/2098913455713460619?s=46&t=lK-K0iV34vILLZHjC176jA",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -60429,19 +60400,37 @@
       "exit_pool_sol": 177.661,
       "hold_duration_seconds": 154.356283,
       "partial": false
+    },
+    {
+      "mint": "EumRofkFJWzeFUZsv6rmhYdvW6bzz3fENjWjYMgXpump",
+      "symbol": "BADGES",
+      "name": "Pumpfun Profile Badges",
+      "amount_sold": 1319764.7362978284,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T23:17:49.770785+00:00",
+      "entry_time_iso": "2026-09-12T23:17:49.770794+00:00",
+      "exit_time": "2026-09-12T23:19:04.597115+00:00",
+      "exit_time_iso": "2026-09-12T23:19:04.597122+00:00",
+      "entry_price_usd": 3.868e-06,
+      "exit_price_usd": 3.537349840550185e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.04568,
+      "pnl_sol": -0.00432,
+      "pnl_pct": -8.55,
+      "exit_reason": "LLM: sell_all — Just opened, -8.5% well within -25% hard cap, bonding-curve token (PFP/badge meta is a real narrative). No reason to dump a fresh position into anothe",
+      "entry_liquidity_usd": 547.64,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 5.3639,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 74.826349,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T23:17:49.771072+00:00",
+  "last_updated": "2026-09-12T23:19:04.597357+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.097,
-  "portfolio_value_usd": 3018.96,
+  "last_sol_price_usd": 102.2,
+  "portfolio_value_usd": 3021.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 22:53 UTC",
-      "action": "buy",
-      "details": "[LLM] $Underdog at $5.593e-06, spent 0.05 SOL",
-      "reason": "Underdog narrative is classic attention-market material — sympathetic underdog story pumps reliably, only 1.2min old with $4.9k mcap means plenty of upside, fresh bond at 19% still has runway."
-    },
     {
       "time": "2026-09-12 22:55 UTC",
       "action": "sell",
@@ -60555,30 +60544,48 @@
       "action": "buy",
       "details": "[LLM] $BADGES at $3.868e-06, spent 0.05 SOL",
       "reason": "$BADGES (Pumpfun Profile Badges) has the strongest attention signal — meta-narrative trading the platform itself, backing from a dev Twitter account (@dev_pscl), and an ultra-fresh $3.7k mcap with viral potential. Passes viability (twitter present) and fragility (no political/celebrity keywords) gates."
+    },
+    {
+      "time": "2026-09-12 23:19 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BADGES at $3.53735e-06 | P&L: -8.6%",
+      "reason": "Just opened, -8.5% well within -25% hard cap, bonding-curve token (PFP/badge meta is a real narrative). No reason to dump a fresh position into another fresh position — that's a coin flip, not rotation."
     }
   ],
   "trade_stats": {
-    "total": 3435,
+    "total": 3436,
     "wins": 1587,
-    "losses": 1848,
+    "losses": 1849,
     "win_rate_pct": 46.2,
-    "total_pnl_sol": 25.35333,
-    "avg_pnl_pct": 38.27,
+    "total_pnl_sol": 25.34901,
+    "avg_pnl_pct": 38.26,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 362,
-    "today_realized_sol": 20.320234,
-    "today_target_pct": 5080.1,
+    "today_trades": 363,
+    "today_realized_sol": 20.315914,
+    "today_target_pct": 5079.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1587,
-      "loss_count": 1848,
+      "loss_count": 1849,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T23:17:48.371746+00:00",
+  "last_llm_brief_at": "2026-09-12T23:19:04.596968+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EumRofkFJWzeFUZsv6rmhYdvW6bzz3fENjWjYMgXpump": {
+      "price_usd": 3.537349840550185e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 345.3395015336,
+      "volume_h24": 1858.6,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.379055788
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

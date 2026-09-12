@@ -24376,3 +24376,6 @@
 ## [2026-09-12 23:17 UTC] buy | [LLM] $BADGES at $3.868e-06, spent 0.05 SOL
 - **Reasoning:** $BADGES (Pumpfun Profile Badges) has the strongest attention signal — meta-narrative trading the platform itself, backing from a dev Twitter account (@dev_pscl), and an ultra-fresh $3.7k mcap with viral potential. Passes viability (twitter present) and fragility (no political/celebrity keywords) gates.
 
+## [2026-09-12 23:19 UTC] sell | [FULL][LLM] $BADGES at $3.53735e-06 | P&L: -8.6%
+- **Reasoning:** Just opened, -8.5% well within -25% hard cap, bonding-curve token (PFP/badge meta is a real narrative). No reason to dump a fresh position into another fresh position — that's a coin flip, not rotation.
+
