@@ -22678,3 +22678,6 @@
 ## [2026-09-12 06:55 UTC] sell | [FULL][LLM] $RETAIL at $2.88e-06 | P&L: -13.0%
 - **Reasoning:** Down13% but not yet at the -25% hard cap. Bonding-curve token with $21 pool — tiny, illiquid, but a bounce on low-mcap is plausible. Will exit if it hits -25% or goes stale.
 
+## [2026-09-12 06:56 UTC] buy | [LLM] $$1M at $3.102e-06, spent 0.05 SOL
+- **Reasoning:** $$1M is a pure meta-attention play — the entire narrative IS that the token pumps to $1M market cap via repetition/community. $3k mcap with 4% bond means earliest stage. This is exactly the 'meme about hitting mcap' archetype that has produced multiple runners. Risk: ultra-early, ultra-low liquidity, will likely die if creator stops posting. Sizing at 0.1 SOL means max loss -0.025 SOL (within -25% hard cap).
+
