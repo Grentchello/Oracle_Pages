@@ -23521,3 +23521,6 @@
 ## [2026-09-12 15:41 UTC] sell | [FULL][LLM] $SKINWALKER at $3.04058e-06 | P&L: -0.2%
 - **Reasoning:** $SKINWALKER is flat at -0.2% after 0.0h with pool only $104 and our5% share — microcap, no attention signal, no reason to babysit. Cut and free the slot.
 
+## [2026-09-12 15:42 UTC] buy | [LLM] $Apu at $4.23e-06, spent 0.05 SOL
+- **Reasoning:** Apu Apustaja is a recognized internet meme character with genuine viral history (Finnish imageboard frog,2010s). Has twitter signal. Buying the established-narrative play at $3.5k mcap with 0.1 SOL.
+
