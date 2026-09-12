@@ -23017,3 +23017,9 @@
 ## [2026-09-12 10:24 UTC] buy | [LLM] $WENLIVE at $3.712e-06, spent 0.05 SOL
 - **Reasoning:** $WENLIVE has a real product narrative (live streaming for memecoin traders on Robinhood Chain), attached X account, and meta-appeal — tools-for-traders is a proven meta-narrative that pumps. Fresh 0.9min launch, tiny $3k mcap, bond only 4% complete so early entry. Passes viability gate (desc>50 chars + twitter). Risk: extremely early, mcap could rug, but attention signal is concrete.
 
+## [2026-09-12 10:25 UTC] sell | [rapid-drop] $WENLIVE crashed >15% in one tick | P&L: -22.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 10:25 UTC] buy | [LLM] $MICRODOG at $7.47e-06, spent 0.05 SOL
+- **Reasoning:** $MICRODOG is a fresh dog-coin narrative launch at $7.2k mcap with 0.8min age and a linked X post — dog coins are the highest-conversion attention category on Solana, and the mcap is small enough for a quick 2-5x if the community forms. Risk: extremely early, no holders track record yet, dog-coin derivatives rug frequently — sticking to 0.1 SOL size and -25% hard stop.
+
