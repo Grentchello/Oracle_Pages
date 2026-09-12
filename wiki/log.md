@@ -510,3 +510,17 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Worst window losers: mmrich (-99.9% rug), tung (-75.9% rug, -74.0%), AMD (-53.9%), drill (-49.8%)
 - Slippage caveat unchanged: v9.0 sim still understates real on-chain impact on illiquid bonding-curve exits where bot owns large pool share. Lifetime +8.95 SOL is paper.
 - Verdict: **Profitable overall, no changes needed.** 2h window slightly negative but well within variance for 33 trades. Rapid-drop losses are v8.7 -50% cap firing correctly (preventing worse damage). Lifetime PnL still strongly positive (+8.95 SOL, 46.6% WR). Bot running normally.
+
+## [2026-09-12 08:44 UTC] eval | memecoin bot — 2026-09-12 08:44 UTC
+- Window: since last eval (06:43 UTC), 39 trades over ~2h
+- Win rate: 41.0% (16 wins / 23 losses) — slightly below lifetime 46.6% but within variance for 39-trade sample
+- Window Net PnL: +0.0008 SOL (essentially breakeven — flat within noise band)
+- Balance: 13.172 SOL (open: 0)
+- Breakdown: TP/full-take wins 12 trades +0.2392 SOL | override (partial/half) wins 4 trades +0.0262 SOL | rapid losses (<=-50%) 3 trades -0.0575 SOL | other losses 20 trades -0.2071 SOL
+- Loss bucket split: >-25%: 10 (-0.0392) | -25% to -40%: 6 (-0.0998) | -40% to -50%: 4 (-0.0680) | <=-50%: 3 (-0.0575)
+- Top window winners: TCAT (+141.6%), crashcat (+91.5%), Polarbear (+80.2%), GS (+79.4%), DOGUETTE (+29.1%)
+- Worst window losers: foge (-61.8% rug), DORIME (-51.8%), KURONEKO (-46.8%), DOGUE (-42.5%), Dojo (-37.2%)
+- Lifetime (state.json): 3186 trades, 46.6% WR, +8.9556 SOL net (still strongly profitable)
+- v9.1 liquidity floor + v8.9 age filter + GMGN fragility gate actively rejecting most candidates (only 1-3 per tick pass through to LLM, often 0)
+- Slippage caveat unchanged: v9.0 sim still understates real on-chain impact on illiquid bonding-curve exits where bot owns large pool share. Lifetime +8.95 SOL is paper.
+- Verdict: **Profitable overall, no changes needed.** Window is flat (+0.0008 SOL) which is normal variance — TP wins (+0.24) offset by small losses. Lifetime PnL still strongly positive (+8.95 SOL, 46.6% WR). 41% WR is below 46.6% lifetime but well within 1σ for a 39-trade sample (binomial std ≈ 7.9%). No regime change. Bot running normally.
