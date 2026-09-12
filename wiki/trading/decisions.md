@@ -22483,3 +22483,6 @@
 ## [2026-09-12 05:06 UTC] buy | [LLM] $CLEAN at $5.036e-06, spent 0.05 SOL
 - **Reasoning:** $CLEAN at $3,458 mcap with 0.7min age is a genuine micro-cap discovery — bond 9% means still on curve, twitter presence (cleanonpg) is a real attention signal. Simple memorable name, clean narrative fits the meta. Risk: ultra-low mcap = high rug/volatility, but that cuts both ways for upside. Entering 0.05 SOL position.
 
+## [2026-09-12 05:07 UTC] sell | [v8.7 TP +50% (full)] $CLEAN at $8.40964e-06 | P&L: +67.0%
+- **Reasoning:** Auto take-profit at +67.0%
+

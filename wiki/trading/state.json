@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.214466,
+  "balance_sol": 13.298002,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GQQ38QVDXTyq1m8gBkxdaB8p5NLZ6sKH19afhyHWpump": {
-      "symbol": "CLEAN",
-      "name": "CLEAN",
-      "amount": 1008737.0929308976,
-      "entry_price_usd": 5.036e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T05:06:49.434841+00:00",
-      "entry_usd_value": 5.08,
-      "last_seen_price_usd": 5.036e-06,
-      "entry_signals": {
-        "liquidity_usd": 1377.0235156959998,
-        "volume_24h_usd": 1702.4,
-        "market_cap_usd": 3457.7512762897277,
-        "ath_market_cap_usd": 5686.709193234617,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 13.55338106,
-        "description": "",
-        "twitter": "https://x.com/cleanonpg",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53050,19 +53026,30 @@
       "pnl_pct": 7.02,
       "exit_reason": "LLM: sell_all — +7% with 0.0h held, not yet stale and not at any TP. Bonding-curve pool is tiny ($263) so any move will be sharp either direction. Give it 10-15 more ",
       "partial": false
+    },
+    {
+      "mint": "GQQ38QVDXTyq1m8gBkxdaB8p5NLZ6sKH19afhyHWpump",
+      "symbol": "CLEAN",
+      "name": "CLEAN",
+      "amount_sold": 1008737.0929308976,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T05:06:49.434841+00:00",
+      "exit_time": "2026-09-12T05:07:53.319808+00:00",
+      "entry_price_usd": 5.036e-06,
+      "exit_price_usd": 8.40963676426335e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.083536,
+      "pnl_sol": 0.033536,
+      "pnl_pct": 66.99,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T05:06:49.435011+00:00",
+  "last_updated": "2026-09-12T05:08:10.310832+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.6,
-  "portfolio_value_usd": 1347.67,
+  "last_sol_price_usd": 101.55,
+  "portfolio_value_usd": 1350.41,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 04:23 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $POW at $3.72832e-06 | P&L: +8.3%",
-      "reason": "Up +8.3% and just opened — give it a few minutes. Thin liquidity ($437 pool, 1% our share) means any other seller will crater price; will exit immediately on first sign of weakness or if it stalls flat for 10+ min."
-    },
     {
       "time": "2026-09-12 04:28 UTC",
       "action": "buy",
@@ -53176,30 +53163,48 @@
       "action": "buy",
       "details": "[LLM] $CLEAN at $5.036e-06, spent 0.05 SOL",
       "reason": "$CLEAN at $3,458 mcap with 0.7min age is a genuine micro-cap discovery — bond 9% means still on curve, twitter presence (cleanonpg) is a real attention signal. Simple memorable name, clean narrative fits the meta. Risk: ultra-low mcap = high rug/volatility, but that cuts both ways for upside. Entering 0.05 SOL position."
+    },
+    {
+      "time": "2026-09-12 05:07 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $CLEAN at $8.40964e-06 | P&L: +67.0%",
+      "reason": "Auto take-profit at +67.0%"
     }
   ],
   "trade_stats": {
-    "total": 3119,
-    "wins": 1455,
+    "total": 3120,
+    "wins": 1456,
     "losses": 1664,
-    "win_rate_pct": 46.6,
-    "total_pnl_sol": 9.048279,
-    "avg_pnl_pct": 30.09,
+    "win_rate_pct": 46.7,
+    "total_pnl_sol": 9.081815,
+    "avg_pnl_pct": 30.1,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 46,
-    "today_realized_sol": 4.015183,
-    "today_target_pct": 1003.8,
+    "today_trades": 47,
+    "today_realized_sol": 4.048719,
+    "today_target_pct": 1012.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1455,
+      "win_count": 1456,
       "loss_count": 1664,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:06:48.073727+00:00",
+  "last_llm_brief_at": "2026-09-12T05:08:09.272125+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GQQ38QVDXTyq1m8gBkxdaB8p5NLZ6sKH19afhyHWpump": {
+      "price_usd": 8.40963676426335e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2196.6112384990497,
+      "volume_h24": 11204.76,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 21.630834451
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
