@@ -24445,3 +24445,6 @@
 ## [2026-09-12 23:47 UTC] sell | [PARTIAL][LLM] $Gamblecoin at $4.48144e-06 | P&L: +40.5%
 - **Reasoning:** Up +40.5% in 6 minutes — solid pump on the gambling narrative. Take half off the table to lock gains; let the other half ride if attention keeps building. Pool is thin ($773) so exit size matters.
 
+## [2026-09-12 23:49 UTC] sell | [PARTIAL][LLM] $Gamblecoin at $4.48232e-06 | P&L: +40.5%
+- **Reasoning:** Up +40.5% in 6 min on a meta-narrative coin, but pool is only $773 — extreme thin liquidity means gains can evaporate in one dump. Selling half locks in ~+40% on half the bag and lets the other half ride the bot's +50% TP or higher. Best risk/reward given the pool fragility.
+
