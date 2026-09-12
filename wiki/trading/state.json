@@ -1,27 +1,27 @@
 {
-  "balance_sol": 13.24801,
+  "balance_sol": 13.257456,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "Et8daGEsgRa7eDaAwyqPwZ2w4btEjjitSdxPj6d8r67M": {
-      "symbol": "ASSDAQ",
-      "name": "ASSDAQ",
-      "amount": 1001494.1388608011,
-      "entry_price_usd": 5.090893498188158e-06,
+    "3i8WuDWmhoDwcyESn7Wh9ecYdzGrLGUWfRkTgCJSpump": {
+      "symbol": "Phil",
+      "name": "Phil",
+      "amount": 787410.7420055884,
+      "entry_price_usd": 6.442e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T05:15:41.786091+00:00",
-      "entry_usd_value": 5.0985000000000005,
-      "last_seen_price_usd": 5.090893498188158e-06,
+      "entry_time": "2026-09-12T05:17:03.576927+00:00",
+      "entry_usd_value": 5.072500000000001,
+      "last_seen_price_usd": 6.442e-06,
       "entry_signals": {
-        "liquidity_usd": 1386.15597629883,
-        "volume_24h_usd": null,
-        "market_cap_usd": 5067.428558067059,
-        "ath_market_cap_usd": 5940.686354987271,
+        "liquidity_usd": 1748.33326581715,
+        "volume_24h_usd": 8231.77,
+        "market_cap_usd": 6048.060868161605,
+        "ath_market_cap_usd": 7736.62470937793,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 13.593762639,
+        "real_sol_reserves": 17.233447667,
         "description": "",
-        "twitter": "https://x.com/ramentrade/status/2098641419183468993",
+        "twitter": "https://x.com/kuantkid/status/2098641768250212512?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -53084,25 +53084,30 @@
       "pnl_pct": 0.02,
       "exit_reason": "LLM: sell_all — Just entered at +0.0%, 0min held. Bonding curve at $296 with2% share. No movement yet — give the trade a chance to develop. Will reassess at the 15min",
       "partial": false
+    },
+    {
+      "mint": "Et8daGEsgRa7eDaAwyqPwZ2w4btEjjitSdxPj6d8r67M",
+      "symbol": "ASSDAQ",
+      "name": "ASSDAQ",
+      "amount_sold": 1001494.1388608011,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T05:15:41.786091+00:00",
+      "exit_time": "2026-09-12T05:17:02.167215+00:00",
+      "entry_price_usd": 5.090893498188158e-06,
+      "exit_price_usd": 6.021776406605494e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.059446,
+      "pnl_sol": 0.009446,
+      "pnl_pct": 18.29,
+      "exit_reason": "LLM: sell_all — Up +18.3% with confirmed buy pressure (139 vs 64 sells, +60% on DexScreener). Approaching +25% TP zone — let the bot auto-take-profit. Pool $1.4k is t",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T05:15:41.786297+00:00",
+  "last_updated": "2026-09-12T05:17:03.577184+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.97,
-  "portfolio_value_usd": 1356.0,
+  "last_sol_price_usd": 101.45,
+  "portfolio_value_usd": 1350.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 04:31 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $AI at $9.58316e-06 | P&L: +13.0%",
-      "reason": "Up +13% at 0 min held, narrative intact, no reason to bail yet. AI narrative has attention legs but only 0% pool share is a yellow flag — will reassess at +20% or if it stalls."
-    },
-    {
-      "time": "2026-09-12 04:36 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 04:38 UTC",
       "action": "buy",
@@ -53210,30 +53215,54 @@
       "action": "buy",
       "details": "[LLM] $ASSDAQ at $5.09089e-06, spent 0.05 SOL",
       "reason": "$ASSDAQ — NASDAQ parody is universally legible financial humor with strong viral potential. Freshest launch (0.5min), lowest mcap ($5k) = maximum upside if it catches. Risk: ultra-thin liquidity, 20% bond means could dump hard if it doesn't migrate."
+    },
+    {
+      "time": "2026-09-12 05:17 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ASSDAQ at $6.02178e-06 | P&L: +18.3%",
+      "reason": "Up +18.3% with confirmed buy pressure (139 vs 64 sells, +60% on DexScreener). Approaching +25% TP zone — let the bot auto-take-profit. Pool $1.4k is thin so any reversal exits fast via -30% hard stop."
+    },
+    {
+      "time": "2026-09-12 05:17 UTC",
+      "action": "buy",
+      "details": "[LLM] $Phil at $6.442e-06, spent 0.05 SOL",
+      "reason": "Freshest attention signal in the slate — @kuantkid X post, 0.5min age, $6k mcap. Asymmetric setup: cheap entry with named X-account catalyst. Viability gate passes (has twitter). Size 0.05 SOL to balance against held $ASSDAQ risk."
     }
   ],
   "trade_stats": {
-    "total": 3121,
-    "wins": 1457,
+    "total": 3122,
+    "wins": 1458,
     "losses": 1664,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 9.081823,
-    "avg_pnl_pct": 30.1,
+    "total_pnl_sol": 9.091269,
+    "avg_pnl_pct": 30.09,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 48,
-    "today_realized_sol": 4.048727,
-    "today_target_pct": 1012.2,
+    "today_trades": 49,
+    "today_realized_sol": 4.058173,
+    "today_target_pct": 1014.5,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1457,
+      "win_count": 1458,
       "loss_count": 1664,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:15:40.380563+00:00",
+  "last_llm_brief_at": "2026-09-12T05:17:02.167111+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Et8daGEsgRa7eDaAwyqPwZ2w4btEjjitSdxPj6d8r67M": {
+      "price_usd": 6.021776406605494e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1391.04256109225,
+      "volume_h24": 7391.85,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 13.711607305
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -22495,3 +22495,9 @@
 ## [2026-09-12 05:15 UTC] buy | [LLM] $ASSDAQ at $5.09089e-06, spent 0.05 SOL
 - **Reasoning:** $ASSDAQ — NASDAQ parody is universally legible financial humor with strong viral potential. Freshest launch (0.5min), lowest mcap ($5k) = maximum upside if it catches. Risk: ultra-thin liquidity, 20% bond means could dump hard if it doesn't migrate.
 
+## [2026-09-12 05:17 UTC] sell | [FULL][LLM] $ASSDAQ at $6.02178e-06 | P&L: +18.3%
+- **Reasoning:** Up +18.3% with confirmed buy pressure (139 vs 64 sells, +60% on DexScreener). Approaching +25% TP zone — let the bot auto-take-profit. Pool $1.4k is thin so any reversal exits fast via -30% hard stop.
+
+## [2026-09-12 05:17 UTC] buy | [LLM] $Phil at $6.442e-06, spent 0.05 SOL
+- **Reasoning:** Freshest attention signal in the slate — @kuantkid X post, 0.5min age, $6k mcap. Asymmetric setup: cheap entry with named X-account catalyst. Viability gate passes (has twitter). Size 0.05 SOL to balance against held $ASSDAQ risk.
+
