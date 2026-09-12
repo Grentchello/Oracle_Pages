@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.205044,
+  "balance_sol": 27.254851,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Vs3pDKNzSKAEtTf8GhvwoobnzP14hNoa7BibGjDpump": {
-      "symbol": "MRNA",
-      "name": "MRNA",
-      "mint": "Vs3pDKNzSKAEtTf8GhvwoobnzP14hNoa7BibGjDpump",
-      "amount": 324222.0539923397,
-      "entry_price_usd": 1.563588885326035e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T20:47:43.210471+00:00",
-      "entry_time_iso": "2026-09-12T20:47:43.210480+00:00",
-      "entry_usd_value": 5.069500000000001,
-      "last_seen_price_usd": 1.563588885326035e-05,
-      "entry_liquidity_usd": 4303.20741419145,
-      "entry_pool_sol": 42.442128555,
-      "entry_market_cap_usd": 15648.189239526158,
-      "entry_signals": {
-        "liquidity_usd": 4303.20741419145,
-        "volume_24h_usd": null,
-        "market_cap_usd": 15648.189239526158,
-        "ath_market_cap_usd": 15702.250576117665,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 42.442128555,
-        "description": "$MRNA turns intismeran’s Phase 3 moment into an on-chain meme dose, from lab protocol to shipment lore 🧬 Cold-chain vials, final steps, and Moderna-style rainbow energy make the masses feel closer to the ticker 💉🌈",
-        "twitter": "https://x.com/mrna_sol/status/2098875699100549122",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59133,19 +59104,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 73.809283,
       "partial": false
+    },
+    {
+      "mint": "Vs3pDKNzSKAEtTf8GhvwoobnzP14hNoa7BibGjDpump",
+      "symbol": "MRNA",
+      "name": "MRNA",
+      "amount_sold": 324222.0539923397,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T20:47:43.210471+00:00",
+      "entry_time_iso": "2026-09-12T20:47:43.210480+00:00",
+      "exit_time": "2026-09-12T20:49:02.533523+00:00",
+      "exit_time_iso": "2026-09-12T20:49:02.533529+00:00",
+      "entry_price_usd": 1.563588885326035e-05,
+      "exit_price_usd": 1.558926066903662e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049807,
+      "pnl_sol": -0.000193,
+      "pnl_pct": -0.3,
+      "exit_reason": "LLM: sell_all — Just opened (0.0h) and essentially flat at -0.3%. Bonding-curve token with $4092 pool is thin but typical for early stage. Not yet stale (under 15min)",
+      "entry_liquidity_usd": 4303.21,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 42.4421,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 79.323071,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T20:47:43.210752+00:00",
+  "last_updated": "2026-09-12T20:49:02.533758+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.39,
-  "portfolio_value_usd": 2763.39,
+  "last_sol_price_usd": 101.48,
+  "portfolio_value_usd": 2765.82,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 20:21 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GLASS at $3.24659e-06 | P&L: -9.9%",
-      "reason": "Position is 0.0h old at -9.9% — just opening volatility on a $206 bonding-curve pool. Not stale yet, no reason to panic-exit a brand-new position before letting the narrative develop."
-    },
     {
       "time": "2026-09-12 20:22 UTC",
       "action": "buy",
@@ -59259,30 +59248,48 @@
       "action": "buy",
       "details": "[LLM] $MRNA at $1.56359e-05, spent 0.05 SOL",
       "reason": "$MRNA is a 0.5min-old biotech/mRNA narrative microcap at $15.6k mcap with a real Twitter handle (@mrna_sol) and clear meme DNA — 'lab protocol to shipment lore' is a recognizable, viral-ready hook. Description passes viability gate (≥50 chars), no political/celebrity keywords (passes fragility keyword block), ungraduated bonding curve at 36% means entry is still early. Risk is high (microcap, brand new) but the narrative-readiness + extreme early mcap fits the 'buy before confirmation' rule. Sizing auto-capped at 0.05 SOL."
+    },
+    {
+      "time": "2026-09-12 20:49 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $MRNA at $1.55893e-05 | P&L: -0.3%",
+      "reason": "Just opened (0.0h) and essentially flat at -0.3%. Bonding-curve token with $4092 pool is thin but typical for early stage. Not yet stale (under 15min), no clear exit signal. Give it time to develop."
     }
   ],
   "trade_stats": {
-    "total": 3381,
+    "total": 3382,
     "wins": 1566,
-    "losses": 1815,
+    "losses": 1816,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 23.038883,
-    "avg_pnl_pct": 36.79,
+    "total_pnl_sol": 23.03869,
+    "avg_pnl_pct": 36.78,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 308,
-    "today_realized_sol": 18.005787,
+    "today_trades": 309,
+    "today_realized_sol": 18.005594,
     "today_target_pct": 4501.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1566,
-      "loss_count": 1815,
+      "loss_count": 1816,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T20:47:41.896764+00:00",
+  "last_llm_brief_at": "2026-09-12T20:49:02.533354+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Vs3pDKNzSKAEtTf8GhvwoobnzP14hNoa7BibGjDpump": {
+      "price_usd": 1.558926066903662e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4091.7419005051206,
+      "volume_h24": 7420.16,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 40.320673044
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

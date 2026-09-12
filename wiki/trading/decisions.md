@@ -24064,3 +24064,6 @@
 ## [2026-09-12 20:47 UTC] buy | [LLM] $MRNA at $1.56359e-05, spent 0.05 SOL
 - **Reasoning:** $MRNA is a 0.5min-old biotech/mRNA narrative microcap at $15.6k mcap with a real Twitter handle (@mrna_sol) and clear meme DNA — 'lab protocol to shipment lore' is a recognizable, viral-ready hook. Description passes viability gate (≥50 chars), no political/celebrity keywords (passes fragility keyword block), ungraduated bonding curve at 36% means entry is still early. Risk is high (microcap, brand new) but the narrative-readiness + extreme early mcap fits the 'buy before confirmation' rule. Sizing auto-capped at 0.05 SOL.
 
+## [2026-09-12 20:49 UTC] sell | [FULL][LLM] $MRNA at $1.55893e-05 | P&L: -0.3%
+- **Reasoning:** Just opened (0.0h) and essentially flat at -0.3%. Bonding-curve token with $4092 pool is thin but typical for early stage. Not yet stale (under 15min), no clear exit signal. Give it time to develop.
+
