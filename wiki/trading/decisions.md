@@ -22330,3 +22330,6 @@
 ## [2026-09-12 03:33 UTC] buy | [LLM] $CHECKYDOGE at $3.478e-06, spent 0.05 SOL
 - **Reasoning:** CHECKY DOGE has a fresh Twitter launch signal (LaunchX2), doge meme family has viral history, bond still filling at 9% gives entry at ground level. Tiny $3.4k mcap = maximum attention runway. Risky but asymmetric — 0.05 SOL ($5) is the cost of the lottery ticket.
 
+## [2026-09-12 03:34 UTC] sell | [FULL][LLM] $CHECKYDOGE at $3.30518e-06 | P&L: -5.0%
+- **Reasoning:** Just entered at -5% with 0.0h held — too early to bail. No viral narrative visible but the loss is tiny and the auto-stop won't trigger until -25% or 30min. Give it a few minutes to either bounce or die on its own.
+

@@ -1,32 +1,8 @@
 {
-  "balance_sol": 11.291567,
+  "balance_sol": 11.339096,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2y2XhQsdxhmEWnsTBr6svFmtCMZS6vU6wNyo6Z8dpump": {
-      "symbol": "CHECKYDOGE",
-      "name": "CHECKY DOGE",
-      "amount": 1469666.474985624,
-      "entry_price_usd": 3.478e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T03:33:26.504752+00:00",
-      "entry_usd_value": 5.1115,
-      "last_seen_price_usd": 3.478e-06,
-      "entry_signals": {
-        "liquidity_usd": 222.26898880422,
-        "volume_24h_usd": 348.01,
-        "market_cap_usd": 3479.411255195821,
-        "ath_market_cap_usd": 3479.411255195821,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.174205114,
-        "description": "CHECKY DOGE is very checky",
-        "twitter": "https://x.com/LaunchX2_/status/2098615115239010444?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52608,19 +52584,30 @@
       "pnl_pct": -3.7,
       "exit_reason": "LLM: sell_all — Flat-negative at -3.7% after a fresh entry, no momentum signal, and the cap is 1 position. Burning the slot on a non-mover blocks me from the two fres",
       "partial": false
+    },
+    {
+      "mint": "2y2XhQsdxhmEWnsTBr6svFmtCMZS6vU6wNyo6Z8dpump",
+      "symbol": "CHECKYDOGE",
+      "name": "CHECKY DOGE",
+      "amount_sold": 1469666.474985624,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T03:33:26.504752+00:00",
+      "exit_time": "2026-09-12T03:34:49.297930+00:00",
+      "entry_price_usd": 3.478e-06,
+      "exit_price_usd": 3.305181449221822e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.047529,
+      "pnl_sol": -0.002471,
+      "pnl_pct": -4.97,
+      "exit_reason": "LLM: sell_all — Just entered at -5% with 0.0h held — too early to bail. No viral narrative visible but the loss is tiny and the auto-stop won't trigger until -25% or ",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:33:26.504929+00:00",
+  "last_updated": "2026-09-12T03:34:49.298516+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.23,
-  "portfolio_value_usd": 1159.45,
+  "last_sol_price_usd": 102.2,
+  "portfolio_value_usd": 1158.86,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:13 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $OS crashed >15% in one tick | P&L: -21.6%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 03:15 UTC",
       "action": "buy",
@@ -52734,30 +52721,48 @@
       "action": "buy",
       "details": "[LLM] $CHECKYDOGE at $3.478e-06, spent 0.05 SOL",
       "reason": "CHECKY DOGE has a fresh Twitter launch signal (LaunchX2), doge meme family has viral history, bond still filling at 9% gives entry at ground level. Tiny $3.4k mcap = maximum attention runway. Risky but asymmetric — 0.05 SOL ($5) is the cost of the lottery ticket."
+    },
+    {
+      "time": "2026-09-12 03:34 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CHECKYDOGE at $3.30518e-06 | P&L: -5.0%",
+      "reason": "Just entered at -5% with 0.0h held — too early to bail. No viral narrative visible but the loss is tiny and the auto-stop won't trigger until -25% or 30min. Give it a few minutes to either bounce or die on its own."
     }
   ],
   "trade_stats": {
-    "total": 3093,
+    "total": 3094,
     "wins": 1441,
-    "losses": 1652,
+    "losses": 1653,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 7.125379,
-    "avg_pnl_pct": 29.13,
+    "total_pnl_sol": 7.122908,
+    "avg_pnl_pct": 29.11,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 20,
-    "today_realized_sol": 2.092283,
-    "today_target_pct": 523.1,
+    "today_trades": 21,
+    "today_realized_sol": 2.089812,
+    "today_target_pct": 522.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1441,
-      "loss_count": 1652,
+      "loss_count": 1653,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:33:25.004080+00:00",
+  "last_llm_brief_at": "2026-09-12T03:34:49.297458+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2y2XhQsdxhmEWnsTBr6svFmtCMZS6vU6wNyo6Z8dpump": {
+      "price_usd": 3.305181449221822e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 231.4907776244,
+      "volume_h24": 734.79,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.265076102
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
