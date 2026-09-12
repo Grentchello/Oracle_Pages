@@ -24325,3 +24325,6 @@
 ## [2026-09-12 22:55 UTC] buy | [LLM] $Penny at $3.179e-06, spent 0.05 SOL
 - **Reasoning:** $Penny — clean narrative (dog/character coin with 'going to the moon' lore), $3.2k mcap at 0.6min is fresh, no political/celebrity flags. Tiny size 0.05 SOL but this is the cleanest of three with a story that can catch on. Speculative entry.
 
+## [2026-09-12 22:56 UTC] sell | [PARTIAL][LLM] $Penny at $2.87686e-06 | P&L: -9.5%
+- **Reasoning:** Pool share of 37% in a $12 pool is lethally illiquid — any other seller (or the -25% hard cap) will crush this. Cutting now frees the slot for fresh attention and prevents the hard stop from triggering at worse prices.
+
