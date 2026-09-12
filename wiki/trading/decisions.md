@@ -22522,3 +22522,6 @@
 ## [2026-09-12 05:27 UTC] sell | [FULL][LLM] $HYPED at $5.55879e-06 | P&L: +4.5%
 - **Reasoning:** $HYPED is +4.4% and just opened (0.0h). No stale/exit signal yet, and the cost of rotating out is a ~$0.20 swap with no meaningful gain locked. Give it a few minutes to either build momentum or hit a stop.
 
+## [2026-09-12 05:30 UTC] buy | [LLM] $mmrich at $4.39399e-05, spent 0.05 SOL
+- **Reasoning:** $mmrich has the strongest narrative of the new batch — 'makemerich / i want to buy home' is the kind of relatable poverty-to-riches story that travels on X. $43.9k mcap with only 1% bond means we're catching it extremely early; small mcap + story = classic 5-10x attention setup. Risks: 1% bond means liquidity is paper-thin and rug risk is real, and no twitter link shown. Sizing 0.1 SOL.
+
