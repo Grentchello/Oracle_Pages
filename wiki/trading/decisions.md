@@ -22543,3 +22543,6 @@
 ## [2026-09-12 05:43 UTC] buy | [LLM] $CATPR at $3.185e-06, spent 0.05 SOL
 - **Reasoning:** $CATPR - cat/caterpillar meme narrative, has twitter (@CATerpillarC0in), long desc passing viability gate, fresh 1.2min launch. Animal memes pump on attention.
 
+## [2026-09-12 05:44 UTC] sell | [PARTIAL][LLM] $CATPR at $2.83665e-06 | P&L: -10.9%
+- **Reasoning:** Down -10.9% after just opening, 1730% share of bonding curve means we're the dominant position and any further dump is amplified. Cut the loss now before the -25% hard cap.
+
