@@ -1,8 +1,32 @@
 {
-  "balance_sol": 13.350598,
+  "balance_sol": 13.300598,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "DfQEtLwvMu5P4vDCyVG3ZhNRieopJp7wXYPmfjSqpump": {
+      "symbol": "GOAT",
+      "name": "Greatest Of All Tokens",
+      "amount": 703333.7925334068,
+      "entry_price_usd": 7.259e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T05:50:10.274354+00:00",
+      "entry_usd_value": 5.1055,
+      "last_seen_price_usd": 7.259e-06,
+      "entry_signals": {
+        "liquidity_usd": 2455.47684889633,
+        "volume_24h_usd": 10702.98,
+        "market_cap_usd": 7755.519582305286,
+        "ath_market_cap_usd": 8148.615302782656,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 24.047369003,
+        "description": "The Greatest Of All Tokens.",
+        "twitter": "https://x.com/KankiAlpha/status/2098650068752670775",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53249,17 +53273,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T05:48:48.493801+00:00",
+  "last_updated": "2026-09-12T05:50:10.274556+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.099,
-  "portfolio_value_usd": 1363.08,
+  "last_sol_price_usd": 102.11,
+  "portfolio_value_usd": 1363.23,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 05:17 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ASSDAQ at $6.02178e-06 | P&L: +18.3%",
-      "reason": "Up +18.3% with confirmed buy pressure (139 vs 64 sells, +60% on DexScreener). Approaching +25% TP zone — let the bot auto-take-profit. Pool $1.4k is thin so any reversal exits fast via -30% hard stop."
-    },
     {
       "time": "2026-09-12 05:17 UTC",
       "action": "buy",
@@ -53373,6 +53391,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $TSM at $3.20797e-06 | P&L: +1.7%",
       "reason": "TSM is essentially breakeven (+1.7%) after fresh entry with tiny liquidity ($184 pool). No momentum signal, stale before it starts. Lock the slot for fresher attention."
+    },
+    {
+      "time": "2026-09-12 05:50 UTC",
+      "action": "buy",
+      "details": "[LLM] $GOAT at $7.259e-06, spent 0.05 SOL",
+      "reason": "$GOAT — strongest narrative of the batch ('Greatest Of All Tokens' is a classic viral meme name, self-referential, easy to spread). Freshest launch at 0.6min, already at $7.7k mcap showing early attention, bond 28% nearly full, has twitter signal. 0.05 SOL position, tight stop at -25%."
     }
   ],
   "trade_stats": {
@@ -53394,21 +53418,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:48:47.104211+00:00",
+  "last_llm_brief_at": "2026-09-12T05:50:08.887701+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "CJgogKfUuDaB3K3jsrMJ4z1g1nVPgjkspfNSHTWbpRNS": {
-      "price_usd": 3.20797364127428e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 184.062446576871,
-      "volume_h24": 3825.84,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 1.802784029
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
