@@ -22669,3 +22669,6 @@
 ## [2026-09-12 06:50 UTC] buy | [LLM] $Mart at $1.067e-05, spent 0.05 SOL
 - **Reasoning:** 1.9min old, $11.7k mcap, 34% bonded, has twitter handle martWMT — early enough for the 10x window, brand-able 'Mart' ticker, bonding-curve still has runway. Risk: very thin liquidity, narrative is generic. Size is capped at 0.1 SOL so the loss is bounded.
 
+## [2026-09-12 06:52 UTC] sell | [FULL][LLM] $Mart at $1.25015e-05 | P&L: +17.2%
+- **Reasoning:** $Mart is +17.2% and just opened (0.0h held). Bonding-curve tokens often need 5-15 min to develop momentum; selling now locks tiny gains and burns the slot. Give it room to either hit the +25% TP trigger or show weakness.
+

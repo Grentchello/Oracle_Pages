@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.096043,
+  "balance_sol": 13.154925,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7iC3ngrAMcWooCSG3LeDNMhthdjzNJkuPJim4pYRpump": {
-      "symbol": "Mart",
-      "name": "Mart",
-      "mint": "7iC3ngrAMcWooCSG3LeDNMhthdjzNJkuPJim4pYRpump",
-      "amount": 478865.97938144335,
-      "entry_price_usd": 1.067e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T06:50:59.759325+00:00",
-      "entry_time_iso": "2026-09-12T06:50:59.759334+00:00",
-      "entry_usd_value": 5.109500000000001,
-      "last_seen_price_usd": 1.067e-05,
-      "entry_liquidity_usd": 3496.10263135507,
-      "entry_pool_sol": 34.211788153,
-      "entry_market_cap_usd": 11765.79383742883,
-      "entry_signals": {
-        "liquidity_usd": 3496.10263135507,
-        "volume_24h_usd": 15715.17,
-        "market_cap_usd": 11765.79383742883,
-        "ath_market_cap_usd": 13480.318673310137,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 34.211788153,
-        "description": "Launched on discord.gg/uxento",
-        "twitter": "https://x.com/martWMT",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53589,19 +53560,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 61.953743,
       "partial": false
+    },
+    {
+      "mint": "7iC3ngrAMcWooCSG3LeDNMhthdjzNJkuPJim4pYRpump",
+      "symbol": "Mart",
+      "name": "Mart",
+      "amount_sold": 478865.97938144335,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T06:50:59.759325+00:00",
+      "entry_time_iso": "2026-09-12T06:50:59.759334+00:00",
+      "exit_time": "2026-09-12T06:52:25.461585+00:00",
+      "exit_time_iso": "2026-09-12T06:52:25.461611+00:00",
+      "entry_price_usd": 1.067e-05,
+      "exit_price_usd": 1.2501497760014629e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.058882,
+      "pnl_sol": 0.008882,
+      "pnl_pct": 17.16,
+      "exit_reason": "LLM: sell_all — $Mart is +17.2% and just opened (0.0h held). Bonding-curve tokens often need 5-15 min to develop momentum; selling now locks tiny gains and burns the ",
+      "entry_liquidity_usd": 3496.1,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 34.2118,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 85.7023,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T06:50:59.759704+00:00",
+  "last_updated": "2026-09-12T06:52:25.461917+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.19,
-  "portfolio_value_usd": 1343.39,
+  "last_sol_price_usd": 101.67,
+  "portfolio_value_usd": 1337.46,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 06:17 UTC",
-      "action": "buy",
-      "details": "[LLM] $belief at $3.2252e-06, spent 0.05 SOL",
-      "reason": "$belief: meta-narrative (collective belief = memecoin meme about belief-pumping), live twitter post from @blknoiz06 is a real attention signal at 0.5min/$3.2k. Early enough for asymmetric upside. Risk: brand new, no desc, tweet could be bait — but attention is the trade."
-    },
     {
       "time": "2026-09-12 06:18 UTC",
       "action": "sell",
@@ -53715,40 +53704,46 @@
       "action": "buy",
       "details": "[LLM] $Mart at $1.067e-05, spent 0.05 SOL",
       "reason": "1.9min old, $11.7k mcap, 34% bonded, has twitter handle martWMT — early enough for the 10x window, brand-able 'Mart' ticker, bonding-curve still has runway. Risk: very thin liquidity, narrative is generic. Size is capped at 0.1 SOL so the loss is bounded."
+    },
+    {
+      "time": "2026-09-12 06:52 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Mart at $1.25015e-05 | P&L: +17.2%",
+      "reason": "$Mart is +17.2% and just opened (0.0h held). Bonding-curve tokens often need 5-15 min to develop momentum; selling now locks tiny gains and burns the slot. Give it room to either hit the +25% TP trigger or show weakness."
     }
   ],
   "trade_stats": {
-    "total": 3150,
-    "wins": 1469,
+    "total": 3151,
+    "wins": 1470,
     "losses": 1681,
-    "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.929856,
+    "win_rate_pct": 46.7,
+    "total_pnl_sol": 8.938738,
     "avg_pnl_pct": 29.7,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 77,
-    "today_realized_sol": 3.89676,
-    "today_target_pct": 974.2,
+    "today_trades": 78,
+    "today_realized_sol": 3.905642,
+    "today_target_pct": 976.4,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1469,
+      "win_count": 1470,
       "loss_count": 1681,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T06:50:58.281648+00:00",
+  "last_llm_brief_at": "2026-09-12T06:52:25.461475+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2JScsCqTr9V85aqDsqSbX6tinfziz94CN4rDhjrk3pNm": {
-      "price_usd": 4.077421912350562e-06,
+    "7iC3ngrAMcWooCSG3LeDNMhthdjzNJkuPJim4pYRpump": {
+      "price_usd": 1.2501497760014629e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 596.63033576091,
-      "volume_h24": 1630.73,
+      "liquidity_usd": 3346.33402108242,
+      "volume_h24": 20110.23,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 5.838441489
+      "real_sol_reserves": 32.913681726
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
