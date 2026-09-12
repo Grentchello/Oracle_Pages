@@ -23464,3 +23464,6 @@
 ## [2026-09-12 14:59 UTC] buy | [LLM] $STONKBATON at $3.65e-06, spent 0.05 SOL
 - **Reasoning:** Fresh 1-min launch with a nostalgia/rebrand narrative (Stonk fun's original name). Twitter presence exists, mcap $3.7k is micro but that's where the 10x potential lives. Taking0.05 SOL to test the narrative — high risk but the attention signal (name recognition callback) is real.
 
+## [2026-09-12 15:00 UTC] sell | [rapid-drop] $STONKBATON crashed >15% in one tick | P&L: -21.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

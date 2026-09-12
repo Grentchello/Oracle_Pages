@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.792009,
+  "balance_sol": 12.831083,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GHaboioQY15zJKfvL6FeNVvsUHYW5VBGxDRLyU5npump": {
-      "symbol": "STONKBATON",
-      "name": "STONK BATON",
-      "mint": "GHaboioQY15zJKfvL6FeNVvsUHYW5VBGxDRLyU5npump",
-      "amount": 1396712.3287671232,
-      "entry_price_usd": 3.65e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T14:59:28.478272+00:00",
-      "entry_time_iso": "2026-09-12T14:59:28.478280+00:00",
-      "entry_usd_value": 5.098,
-      "last_seen_price_usd": 3.65e-06,
-      "entry_liquidity_usd": 0.9165413809999999,
-      "entry_pool_sol": 0.008989225,
-      "entry_market_cap_usd": 3738.1395725187963,
-      "entry_signals": {
-        "liquidity_usd": 0.9165413809999999,
-        "volume_24h_usd": 451.72,
-        "market_cap_usd": 3738.1395725187963,
-        "ath_market_cap_usd": 3738.1395725187963,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.008989225,
-        "description": "stonk fun was originally named stonkbaton.",
-        "twitter": "https://x.com/stonkbaton",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56853,19 +56824,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 80.274303,
       "partial": false
+    },
+    {
+      "mint": "GHaboioQY15zJKfvL6FeNVvsUHYW5VBGxDRLyU5npump",
+      "symbol": "STONKBATON",
+      "name": "STONK BATON",
+      "amount_sold": 1396712.3287671232,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T14:59:28.478272+00:00",
+      "entry_time_iso": "2026-09-12T14:59:28.478280+00:00",
+      "exit_time": "2026-09-12T15:00:32.212921+00:00",
+      "exit_time_iso": "2026-09-12T15:00:32.212931+00:00",
+      "entry_price_usd": 3.65e-06,
+      "exit_price_usd": 2.863877659501909e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.039074,
+      "pnl_sol": -0.010926,
+      "pnl_pct": -21.54,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 0.92,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 0.009,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.734671,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T14:59:28.478590+00:00",
+  "last_updated": "2026-09-12T15:00:42.023859+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.96,
-  "portfolio_value_usd": 1309.37,
+  "last_sol_price_usd": 102.37,
+  "portfolio_value_usd": 1313.52,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 14:19 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $$PEPE at $3.34287e-06 | P&L: +2.7%",
-      "reason": "PEPE is flat (+2.7%) after just entering on a bonding curve with no narrative edge — generic name, no X attention cited. Slot is more valuable rotated into fresh launches with active X posts (Degenerates, K-Train). Locking the small gain to redeploy."
-    },
     {
       "time": "2026-09-12 14:19 UTC",
       "action": "buy",
@@ -56979,30 +56968,48 @@
       "action": "buy",
       "details": "[LLM] $STONKBATON at $3.65e-06, spent 0.05 SOL",
       "reason": "Fresh 1-min launch with a nostalgia/rebrand narrative (Stonk fun's original name). Twitter presence exists, mcap $3.7k is micro but that's where the 10x potential lives. Taking0.05 SOL to test the narrative — high risk but the attention signal (name recognition callback) is real."
+    },
+    {
+      "time": "2026-09-12 15:00 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $STONKBATON crashed >15% in one tick | P&L: -21.5%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3286,
+    "total": 3287,
     "wins": 1522,
-    "losses": 1764,
+    "losses": 1765,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.625823,
-    "avg_pnl_pct": 28.27,
+    "total_pnl_sol": 8.614897,
+    "avg_pnl_pct": 28.25,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 213,
-    "today_realized_sol": 3.592727,
-    "today_target_pct": 898.2,
+    "today_trades": 214,
+    "today_realized_sol": 3.581801,
+    "today_target_pct": 895.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1522,
-      "loss_count": 1764,
+      "loss_count": 1765,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T14:59:27.077136+00:00",
+  "last_llm_brief_at": "2026-09-12T15:00:42.023817+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GHaboioQY15zJKfvL6FeNVvsUHYW5VBGxDRLyU5npump": {
+      "price_usd": 2.863877659501909e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 0.9202269632500001,
+      "volume_h24": 954.25,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.008989225
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
