@@ -23200,3 +23200,6 @@
 ## [2026-09-12 12:10 UTC] buy | [LLM] $SCAT at $3.8443e-06, spent 0.05 SOL
 - **Reasoning:** $SCAT (speed cat) — extremely fresh launch (~1.3min), tiny $3.8k mcap, and has real X attention from @Infinitidigits. Bond only 12% complete and description meets viability gate (twitter link counts). High risk but that's where10x lives at this mcap.0.1 SOL position.
 
+## [2026-09-12 12:11 UTC] sell | [rapid-drop] $SCAT crashed >15% in one tick | P&L: -25.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

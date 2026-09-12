@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.833226,
+  "balance_sol": 12.870324,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HuJERJTJmJJpmh7rLoPT23HCZ2kADiMjNi4YaJrRNvUq": {
-      "symbol": "SCAT",
-      "name": "speed cat",
-      "mint": "HuJERJTJmJJpmh7rLoPT23HCZ2kADiMjNi4YaJrRNvUq",
-      "amount": 1326888.219356685,
-      "entry_price_usd": 3.8442951904969766e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T12:10:14.778695+00:00",
-      "entry_time_iso": "2026-09-12T12:10:14.778705+00:00",
-      "entry_usd_value": 5.100950000000001,
-      "last_seen_price_usd": 3.8442951904969766e-06,
-      "entry_liquidity_usd": 0.7405160315710001,
-      "entry_pool_sol": 0.007258609,
-      "entry_market_cap_usd": 3850.7388380290536,
-      "entry_signals": {
-        "liquidity_usd": 0.7405160315710001,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 3850.7388380290536,
-        "ath_market_cap_usd": 3907.780210460523,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.007258609,
-        "description": "",
-        "twitter": "https://x.com/Infinitidigits/status/2098560994003828948?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55773,19 +55744,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 76.435331,
       "partial": false
+    },
+    {
+      "mint": "HuJERJTJmJJpmh7rLoPT23HCZ2kADiMjNi4YaJrRNvUq",
+      "symbol": "SCAT",
+      "name": "speed cat",
+      "amount_sold": 1326888.219356685,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T12:10:14.778695+00:00",
+      "entry_time_iso": "2026-09-12T12:10:14.778705+00:00",
+      "exit_time": "2026-09-12T12:11:18.681872+00:00",
+      "exit_time_iso": "2026-09-12T12:11:18.681882+00:00",
+      "entry_price_usd": 3.8442951904969766e-06,
+      "exit_price_usd": 2.85355079283731e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.037098,
+      "pnl_sol": -0.012902,
+      "pnl_pct": -25.77,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 0.74,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 0.0073,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.903221,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T12:10:14.778923+00:00",
+  "last_updated": "2026-09-12T12:11:39.466942+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.019,
-  "portfolio_value_usd": 1314.33,
+  "last_sol_price_usd": 102.062,
+  "portfolio_value_usd": 1313.57,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 11:40 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $NEMOCLAW at $2.84818e-06 | P&L: -9.2%",
-      "reason": "Just entered this tick (held 0.0h, down only -9.2%). Far from -25% hard cap. Bonding-curve exit can be thin so I want one more tick to see if there's a bounce before cutting. If next tick shows no recovery I'll exit."
-    },
     {
       "time": "2026-09-12 11:41 UTC",
       "action": "buy",
@@ -55899,30 +55888,48 @@
       "action": "buy",
       "details": "[LLM] $SCAT at $3.8443e-06, spent 0.05 SOL",
       "reason": "$SCAT (speed cat) — extremely fresh launch (~1.3min), tiny $3.8k mcap, and has real X attention from @Infinitidigits. Bond only 12% complete and description meets viability gate (twitter link counts). High risk but that's where10x lives at this mcap.0.1 SOL position."
+    },
+    {
+      "time": "2026-09-12 12:11 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $SCAT crashed >15% in one tick | P&L: -25.8%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3241,
+    "total": 3242,
     "wins": 1505,
-    "losses": 1736,
+    "losses": 1737,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 8.667038,
-    "avg_pnl_pct": 28.72,
+    "total_pnl_sol": 8.654136,
+    "avg_pnl_pct": 28.71,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 168,
-    "today_realized_sol": 3.633942,
-    "today_target_pct": 908.5,
+    "today_trades": 169,
+    "today_realized_sol": 3.62104,
+    "today_target_pct": 905.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1505,
-      "loss_count": 1736,
+      "loss_count": 1737,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T12:10:13.217640+00:00",
+  "last_llm_brief_at": "2026-09-12T12:11:38.422045+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HuJERJTJmJJpmh7rLoPT23HCZ2kADiMjNi4YaJrRNvUq": {
+      "price_usd": 2.85355079283731e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 7.14434e-07,
+      "volume_h24": 1266.7,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 7e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
