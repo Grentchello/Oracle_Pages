@@ -22246,3 +22246,9 @@
 ## [2026-09-12 02:57 UTC] buy | [LLM] $PUMPHOUSE at $3.332e-06, spent 0.05 SOL
 - **Reasoning:** PUMPHOUSE narrative directly rides Pump.fun meta-attention, MrNovaaaa is an active CT poster pumping it, 0.7min old is prime entry. $4k mcap has room to run 5-10x on meta-narrative. Risk: low bond (8%) means still in pre-graduation zone, but that's where the alpha is.
 
+## [2026-09-12 02:58 UTC] sell | [v8.7 TP +50% (full)] $PUMPHOUSE at $0.000149551 | P&L: +4388.3%
+- **Reasoning:** Auto take-profit at +4388.3%
+
+## [2026-09-12 02:58 UTC] buy | [LLM] $EGOD at $0.000453621, spent 0.05 SOL
+- **Reasoning:** $EGOD has a clear $DOGE king narrative reviving the dog meta. Description is substantive (>50 chars), mcap only $3.7k with 0% bond = ultra-fresh. Dog meta has proven viral legs. Risk: brand new, may dump, but the narrative angle is real attention bait.
+
