@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.212007,
+  "balance_sol": 13.256287,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6ZAevvDnW4ms9oTCLfrXe1q9i7P9ZGxURjk1u4tepump": {
-      "symbol": "DOC",
-      "name": "Solcrows Bottom Bitch",
-      "amount": 1487997.6580796253,
-      "entry_price_usd": 3.416e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T04:47:20.098214+00:00",
-      "entry_usd_value": 5.083,
-      "last_seen_price_usd": 3.416e-06,
-      "entry_signals": {
-        "liquidity_usd": 76.19215276062,
-        "volume_24h_usd": 1030.6,
-        "market_cap_usd": 3096.3271409399063,
-        "ath_market_cap_usd": 4496.379591748951,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.749480157,
-        "description": "",
-        "twitter": "https://x.com/DustNukes/status/2098633597175660761",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52965,19 +52941,30 @@
       "pnl_pct": 19.75,
       "exit_reason": "LLM: sell_all — $CatGPT is up +19.7% but not yet at the +25% TP trigger. Pool is only $718 (well below 5x position = very thin liquidity), our share is 1% which means",
       "partial": false
+    },
+    {
+      "mint": "6ZAevvDnW4ms9oTCLfrXe1q9i7P9ZGxURjk1u4tepump",
+      "symbol": "DOC",
+      "name": "Solcrows Bottom Bitch",
+      "amount_sold": 1487997.6580796253,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T04:47:20.098214+00:00",
+      "exit_time": "2026-09-12T04:48:32.496234+00:00",
+      "entry_price_usd": 3.416e-06,
+      "exit_price_usd": 3.0246393698617677e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.04428,
+      "pnl_sol": -0.00572,
+      "pnl_pct": -11.46,
+      "exit_reason": "LLM: sell_all — $DOC is down -11.5% after just entering, no bounce signal, and the position is stale (0.0h but already bleeding). Exit fast before -20% hard-stop terr",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T04:47:20.098470+00:00",
+  "last_updated": "2026-09-12T04:48:32.496493+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.66,
-  "portfolio_value_usd": 1348.22,
+  "last_sol_price_usd": 101.64,
+  "portfolio_value_usd": 1347.37,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 04:03 UTC",
-      "action": "buy",
-      "details": "[LLM] $RAM at $4.199e-06, spent 0.05 SOL",
-      "reason": "$RAM (Rich Ass Motherfuckers) has a viral acronym meme, an active twitter presence (ramentrade), passes viability (desc ≥50 chars + twitter) and fragility (no political/celebrity keywords) gates. At $3.4k mcap with 0.8min age there's massive attention runway. Risk: bond only 8%, very early liquidity — but that asymmetry is exactly the play."
-    },
     {
       "time": "2026-09-12 04:04 UTC",
       "action": "sell",
@@ -53091,30 +53078,48 @@
       "action": "buy",
       "details": "[LLM] $DOC at $3.416e-06, spent 0.05 SOL",
       "reason": "$DOC has the strongest attention package of the four: a named X account (@DustNukes) posting at launch, an ecosystem tie-in to Solcrows, and an edgy 'Bottom Bitch' meme that begs to be screenshotted. At 0.5min and $3k mcap it has 10x room if the post picks up traction. Risk: bond only 4% — could fail to graduate, so I'm sizing at the 0.05 SOL minimum and ready to bail if no traction in 10-15 min."
+    },
+    {
+      "time": "2026-09-12 04:48 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DOC at $3.02464e-06 | P&L: -11.5%",
+      "reason": "$DOC is down -11.5% after just entering, no bounce signal, and the position is stale (0.0h but already bleeding). Exit fast before -20% hard-stop territory. Free up capital for the fresh launches."
     }
   ],
   "trade_stats": {
-    "total": 3114,
+    "total": 3115,
     "wins": 1452,
-    "losses": 1662,
+    "losses": 1663,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 9.04582,
-    "avg_pnl_pct": 30.14,
+    "total_pnl_sol": 9.0401,
+    "avg_pnl_pct": 30.13,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 41,
-    "today_realized_sol": 4.012724,
-    "today_target_pct": 1003.2,
+    "today_trades": 42,
+    "today_realized_sol": 4.007004,
+    "today_target_pct": 1001.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1452,
-      "loss_count": 1662,
+      "loss_count": 1663,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T04:47:18.688493+00:00",
+  "last_llm_brief_at": "2026-09-12T04:48:32.496192+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "6ZAevvDnW4ms9oTCLfrXe1q9i7P9ZGxURjk1u4tepump": {
+      "price_usd": 3.0246393698617677e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 96.58920012588,
+      "volume_h24": 2891.22,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.950306967
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

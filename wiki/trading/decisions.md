@@ -22456,3 +22456,6 @@
 ## [2026-09-12 04:47 UTC] buy | [LLM] $DOC at $3.416e-06, spent 0.05 SOL
 - **Reasoning:** $DOC has the strongest attention package of the four: a named X account (@DustNukes) posting at launch, an ecosystem tie-in to Solcrows, and an edgy 'Bottom Bitch' meme that begs to be screenshotted. At 0.5min and $3k mcap it has 10x room if the post picks up traction. Risk: bond only 4% — could fail to graduate, so I'm sizing at the 0.05 SOL minimum and ready to bail if no traction in 10-15 min.
 
+## [2026-09-12 04:48 UTC] sell | [FULL][LLM] $DOC at $3.02464e-06 | P&L: -11.5%
+- **Reasoning:** $DOC is down -11.5% after just entering, no bounce signal, and the position is stale (0.0h but already bleeding). Exit fast before -20% hard-stop territory. Free up capital for the fresh launches.
+
