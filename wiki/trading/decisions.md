@@ -23920,3 +23920,9 @@
 ## [2026-09-12 19:35 UTC] buy | [LLM] $Glonk at $0.0070146, spent 0.05 SOL
 - **Reasoning:** $Glonk is 0.5min old with $17k mcap — perfect absurdist meme name (nonsense = viral potential), extremely fresh entry at bonding curve (35%). High rug risk but asymmetric payoff: 0.1 SOL could 5-10x if the meme catches. No political/celebrity keywords (passes fragility gate). Strategy says default bias is take the trade, and this is textbook early-attention setup.
 
+## [2026-09-12 19:36 UTC] sell | [rapid-drop] $Glonk crashed >15% in one tick | P&L: -76.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 19:37 UTC] buy | [LLM] $APE at $3.178e-06, spent 0.05 SOL
+- **Reasoning:** $APE has the strongest attention signal — fresh Twitter post from YorumiSol, classic 'APE' meme format with 'Absolutely Purchased Everything' descriptor, sub-$5k mcap with viral potential. Bond incomplete but that's normal at 0.8min. Position sized at 0.1 SOL per strategy rules. Skipping $STONK — no attention signal beyond generic name.
+
