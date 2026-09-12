@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.727586,
+  "balance_sol": 12.77074,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4JypAFQcqwQk9RcZ3KPDGddqyPpu9PWnYjJ1tszMpump": {
-      "symbol": "STONKWIG",
-      "name": "STONK WIF HAT",
-      "mint": "4JypAFQcqwQk9RcZ3KPDGddqyPpu9PWnYjJ1tszMpump",
-      "amount": 1543471.6752499247,
-      "entry_price_usd": 3.301e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T12:58:37.312136+00:00",
-      "entry_time_iso": "2026-09-12T12:58:37.312143+00:00",
-      "entry_usd_value": 5.095000000000001,
-      "last_seen_price_usd": 3.301e-06,
-      "entry_liquidity_usd": 26.545142794800004,
-      "entry_pool_sol": 0.260501892,
-      "entry_market_cap_usd": 3321.529922411569,
-      "entry_signals": {
-        "liquidity_usd": 26.545142794800004,
-        "volume_24h_usd": 252.82,
-        "market_cap_usd": 3321.529922411569,
-        "ath_market_cap_usd": 3321.529922411569,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 0.260501892,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56037,19 +56008,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.050131,
       "partial": false
+    },
+    {
+      "mint": "4JypAFQcqwQk9RcZ3KPDGddqyPpu9PWnYjJ1tszMpump",
+      "symbol": "STONKWIG",
+      "name": "STONK WIF HAT",
+      "amount_sold": 1543471.639483258,
+      "fraction_sold": 0.999999976827131,
+      "entry_time": "2026-09-12T12:58:37.312136+00:00",
+      "entry_time_iso": "2026-09-12T12:58:37.312143+00:00",
+      "exit_time": "2026-09-12T12:59:49.645205+00:00",
+      "exit_time_iso": "2026-09-12T12:59:49.645209+00:00",
+      "entry_price_usd": 3.301e-06,
+      "exit_price_usd": 2.850698975216999e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.043154,
+      "pnl_sol": -0.006846,
+      "pnl_pct": -13.64,
+      "exit_reason": "LLM: sell_all — Down -13.6% on a fresh entry with no bounce signal and zero liquidity (pool=$0). Better to free the slot for the new RISE launch than bag-hold a token",
+      "entry_liquidity_usd": 26.55,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 0.2605,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 72.333084,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T12:58:37.312318+00:00",
+  "last_updated": "2026-09-12T12:59:49.646126+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.9,
-  "portfolio_value_usd": 1302.04,
+  "last_sol_price_usd": 101.96,
+  "portfolio_value_usd": 1302.1,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 12:14 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $LAUNCH at $3.09979e-06 | P&L: +0.5%",
-      "reason": "Just opened (+0.5%, 0.0h held), not stale yet, tiny pool so price hasn't moved meaningfully. Give it time to develop attention or hit the 30min staleness check. No reason to panic on a fresh entry."
-    },
     {
       "time": "2026-09-12 12:15 UTC",
       "action": "buy",
@@ -56163,30 +56152,48 @@
       "action": "buy",
       "details": "[LLM] $STONKWIG at $3.301e-06, spent 0.05 SOL",
       "reason": "$STONKWIG is the strongest launch — STONK x WIF is a proven meme combo (riding dogwifhat's brand equity + STONK template virality). Bond 7% shows real buying pressure vs 4% for peers. 1.2min old, $3.3k mcap = classic early attention launch. Position 0.1 SOL, watch for +50% TP and -25% stop."
+    },
+    {
+      "time": "2026-09-12 12:59 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $STONKWIG at $2.8507e-06 | P&L: -13.6%",
+      "reason": "Down -13.6% on a fresh entry with no bounce signal and zero liquidity (pool=$0). Better to free the slot for the new RISE launch than bag-hold a token that hasn't printed a single tick in my favor. -20% discipline applies — don't wait for the -25% hard cap."
     }
   ],
   "trade_stats": {
-    "total": 3252,
+    "total": 3253,
     "wins": 1507,
-    "losses": 1745,
+    "losses": 1746,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.561398,
-    "avg_pnl_pct": 28.56,
+    "total_pnl_sol": 8.554552,
+    "avg_pnl_pct": 28.55,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 179,
-    "today_realized_sol": 3.528302,
-    "today_target_pct": 882.1,
+    "today_trades": 180,
+    "today_realized_sol": 3.521456,
+    "today_target_pct": 880.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1507,
-      "loss_count": 1745,
+      "loss_count": 1746,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T12:58:35.935098+00:00",
+  "last_llm_brief_at": "2026-09-12T12:59:49.645107+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "4JypAFQcqwQk9RcZ3KPDGddqyPpu9PWnYjJ1tszMpump": {
+      "price_usd": 2.850698975216999e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4.0784e-07,
+      "volume_h24": 478.99,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

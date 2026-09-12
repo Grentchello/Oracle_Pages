@@ -23266,3 +23266,6 @@
 ## [2026-09-12 12:58 UTC] buy | [LLM] $STONKWIG at $3.301e-06, spent 0.05 SOL
 - **Reasoning:** $STONKWIG is the strongest launch — STONK x WIF is a proven meme combo (riding dogwifhat's brand equity + STONK template virality). Bond 7% shows real buying pressure vs 4% for peers. 1.2min old, $3.3k mcap = classic early attention launch. Position 0.1 SOL, watch for +50% TP and -25% stop.
 
+## [2026-09-12 12:59 UTC] sell | [FULL][LLM] $STONKWIG at $2.8507e-06 | P&L: -13.6%
+- **Reasoning:** Down -13.6% on a fresh entry with no bounce signal and zero liquidity (pool=$0). Better to free the slot for the new RISE launch than bag-hold a token that hasn't printed a single tick in my favor. -20% discipline applies — don't wait for the -25% hard cap.
+
