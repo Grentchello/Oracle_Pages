@@ -23587,3 +23587,9 @@
 ## [2026-09-12 16:17 UTC] buy | [LLM] $JOHN at $6.903e-06, spent 0.05 SOL
 - **Reasoning:** $JOHN has a Twitter promoter attached (x.com/__1801) at $7.7k mcap — ultra-fresh 0.6min launch with attention signal. Tiny mcap = high upside if narrative catches. Risky sub-minute entry but that's where the alpha is.
 
+## [2026-09-12 16:18 UTC] sell | [v8.7 TP +50% (full)] $JOHN at $0.00010072 | P&L: +1359.1%
+- **Reasoning:** Auto take-profit at +1359.1%
+
+## [2026-09-12 16:18 UTC] buy | [LLM] $POOH at $5.09843e-06, spent 0.05 SOL
+- **Reasoning:** $POOH — Mert is a recognized crypto figure (Helius); naming a token after him is insider meta-narrative. Has twitter attention link, $6k mcap at 0.7min = early. Risk: brand new, no price action yet, but narrative + CT footprint justifies a 0.1 SOL entry.
+
