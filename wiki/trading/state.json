@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.202439,
+  "balance_sol": 13.262007,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HvxpsVLXPrczke7S5azWNT7kLbs8tU6jDGcoJDnkpump": {
-      "symbol": "CatGPT",
-      "name": "CatGPT",
-      "amount": 1398955.1828430027,
-      "entry_price_usd": 3.637e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T04:39:22.698057+00:00",
-      "entry_usd_value": 5.088000000000001,
-      "last_seen_price_usd": 3.637e-06,
-      "entry_signals": {
-        "liquidity_usd": 396.05282341632,
-        "volume_24h_usd": 512.46,
-        "market_cap_usd": 3674.5482668375316,
-        "ath_market_cap_usd": 3729.4225871571466,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.892028532,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52948,19 +52924,30 @@
       "pnl_pct": 38.28,
       "exit_reason": "LLM: sell_all — +38.3% gain on a sub-$4k-liquidity bonding-curve token. Default bias: lock profits on memecoins at this level rather than hope for more — a -30% rever",
       "partial": false
+    },
+    {
+      "mint": "HvxpsVLXPrczke7S5azWNT7kLbs8tU6jDGcoJDnkpump",
+      "symbol": "CatGPT",
+      "name": "CatGPT",
+      "amount_sold": 1398955.1828430027,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T04:39:22.698057+00:00",
+      "exit_time": "2026-09-12T04:40:36.465357+00:00",
+      "entry_price_usd": 3.637e-06,
+      "exit_price_usd": 4.355139937123166e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.059568,
+      "pnl_sol": 0.009568,
+      "pnl_pct": 19.75,
+      "exit_reason": "LLM: sell_all — $CatGPT is up +19.7% but not yet at the +25% TP trigger. Pool is only $718 (well below 5x position = very thin liquidity), our share is 1% which means",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T04:39:22.698213+00:00",
+  "last_updated": "2026-09-12T04:40:36.465665+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.76,
-  "portfolio_value_usd": 1348.57,
+  "last_sol_price_usd": 102.28,
+  "portfolio_value_usd": 1356.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:58 UTC",
-      "action": "buy",
-      "details": "[LLM] $PUSSY at $4.019e-06, spent 0.05 SOL",
-      "reason": "$PUSSY (Wet Pussy) is the freshest launch at 1.0min old with mcap $4.4k — classic early attention-market play. Provocative/edgy name generates organic virality in memecoin circles, not on ME2F political/celebrity blocklist. Lowest mcap on the board = most room to run before any 'confirmation'."
-    },
     {
       "time": "2026-09-12 03:59 UTC",
       "action": "sell",
@@ -53074,40 +53061,46 @@
       "action": "buy",
       "details": "[LLM] $CatGPT at $3.637e-06, spent 0.05 SOL",
       "reason": "$CatGPT — cats + AI is a proven viral combo (think $GOAT, $AI16Z-era cat meta). 0.7min old, mcap $3.6k, real attention narrative. Fragility check unconfirmed but early + low mcap + clear meme thesis warrants a small entry."
+    },
+    {
+      "time": "2026-09-12 04:40 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $CatGPT at $4.35514e-06 | P&L: +19.8%",
+      "reason": "$CatGPT is up +19.7% but not yet at the +25% TP trigger. Pool is only $718 (well below 5x position = very thin liquidity), our share is 1% which means exiting will move the price. Take the profit now before it evaporates — thin liquidity means reversals are brutal."
     }
   ],
   "trade_stats": {
-    "total": 3113,
-    "wins": 1451,
+    "total": 3114,
+    "wins": 1452,
     "losses": 1662,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 9.036252,
+    "total_pnl_sol": 9.04582,
     "avg_pnl_pct": 30.14,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 40,
-    "today_realized_sol": 4.003156,
-    "today_target_pct": 1000.8,
+    "today_trades": 41,
+    "today_realized_sol": 4.012724,
+    "today_target_pct": 1003.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1451,
+      "win_count": 1452,
       "loss_count": 1662,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T04:39:21.264612+00:00",
+  "last_llm_brief_at": "2026-09-12T04:40:36.465309+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "AiHBG2uFj4jRqwA6nYNyjqjxT7KhwKDTJt17M5Xvpump": {
-      "price_usd": 1.4302194563998252e-05,
+    "HvxpsVLXPrczke7S5azWNT7kLbs8tU6jDGcoJDnkpump": {
+      "price_usd": 4.355139937123166e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3791.8363478995207,
-      "volume_h24": 18766.43,
+      "liquidity_usd": 718.26517303676,
+      "volume_h24": 733.95,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 37.262542727
+      "real_sol_reserves": 7.022537867
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

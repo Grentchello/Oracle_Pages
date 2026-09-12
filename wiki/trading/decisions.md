@@ -22450,3 +22450,6 @@
 ## [2026-09-12 04:39 UTC] buy | [LLM] $CatGPT at $3.637e-06, spent 0.05 SOL
 - **Reasoning:** $CatGPT — cats + AI is a proven viral combo (think $GOAT, $AI16Z-era cat meta). 0.7min old, mcap $3.6k, real attention narrative. Fragility check unconfirmed but early + low mcap + clear meme thesis warrants a small entry.
 
+## [2026-09-12 04:40 UTC] sell | [FULL][LLM] $CatGPT at $4.35514e-06 | P&L: +19.8%
+- **Reasoning:** $CatGPT is up +19.7% but not yet at the +25% TP trigger. Pool is only $718 (well below 5x position = very thin liquidity), our share is 1% which means exiting will move the price. Take the profit now before it evaporates — thin liquidity means reversals are brutal.
+
