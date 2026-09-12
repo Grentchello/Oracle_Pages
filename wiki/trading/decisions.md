@@ -23434,3 +23434,6 @@
 ## [2026-09-12 14:40 UTC] buy | [LLM] $SWARM at $4.029e-06, spent 0.05 SOL
 - **Reasoning:** $SWARM — AI agents collaborating with shared treasury is a strong2025 narrative (virtuals/ai16z adjacent). Has twitter (@matthewabides), 99-char description, fresh 1min launch. Riding the AI-agent meta attention wave.
 
+## [2026-09-12 14:41 UTC] sell | [FULL][LLM] $SWARM at $4.04767e-06 | P&L: +0.5%
+- **Reasoning:** Just opened (0.0h), +0.5% with $580 pool. Need to give it a few minutes to develop - fresh entry, no reason to bail at break-even. Will reassess at 15min mark.
+

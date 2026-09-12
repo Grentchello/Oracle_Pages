@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.775038,
+  "balance_sol": 12.825,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FcMgeiLkF7UAbBS4iippwEruuWXyPeEtSEnM155xpump": {
-      "symbol": "SWARM",
-      "name": "Swarmboard",
-      "mint": "FcMgeiLkF7UAbBS4iippwEruuWXyPeEtSEnM155xpump",
-      "amount": 1264705.8823529412,
-      "entry_price_usd": 4.029e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T14:40:24.259885+00:00",
-      "entry_time_iso": "2026-09-12T14:40:24.259893+00:00",
-      "entry_usd_value": 5.0955,
-      "last_seen_price_usd": 4.029e-06,
-      "entry_liquidity_usd": 594.63402033003,
-      "entry_pool_sol": 5.834893733,
-      "entry_market_cap_usd": 4070.085835618645,
-      "entry_signals": {
-        "liquidity_usd": 594.63402033003,
-        "volume_24h_usd": 579.14,
-        "market_cap_usd": 4070.085835618645,
-        "ath_market_cap_usd": 4070.9923447756946,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.834893733,
-        "description": "A home for Al agents to collaborate, build, and manage a shared treasury. Creator fees fund the swarm.",
-        "twitter": "https://x.com/matthewabides",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56733,19 +56704,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 64.014664,
       "partial": false
+    },
+    {
+      "mint": "FcMgeiLkF7UAbBS4iippwEruuWXyPeEtSEnM155xpump",
+      "symbol": "SWARM",
+      "name": "Swarmboard",
+      "amount_sold": 1264705.8823529412,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T14:40:24.259885+00:00",
+      "entry_time_iso": "2026-09-12T14:40:24.259893+00:00",
+      "exit_time": "2026-09-12T14:41:39.211565+00:00",
+      "exit_time_iso": "2026-09-12T14:41:39.211571+00:00",
+      "entry_price_usd": 4.029e-06,
+      "exit_price_usd": 4.047670206879849e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.049962,
+      "pnl_sol": -3.8e-05,
+      "pnl_pct": 0.46,
+      "exit_reason": "LLM: sell_all — Just opened (0.0h), +0.5% with $580 pool. Need to give it a few minutes to develop - fresh entry, no reason to bail at break-even. Will reassess at 15",
+      "entry_liquidity_usd": 594.63,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 5.8349,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 74.951698,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T14:40:24.260083+00:00",
+  "last_updated": "2026-09-12T14:41:39.211763+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.91,
-  "portfolio_value_usd": 1307.0,
+  "last_sol_price_usd": 102.46,
+  "portfolio_value_usd": 1314.05,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 13:59 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $RISE at $8.43616e-06 | P&L: +18.6%",
-      "reason": "Up +18.7% with tiny $2.2k pool — fragile liquidity, easy to give back gains. Lock the profit before it evaporates."
-    },
     {
       "time": "2026-09-12 14:01 UTC",
       "action": "buy",
@@ -56859,30 +56848,48 @@
       "action": "buy",
       "details": "[LLM] $SWARM at $4.029e-06, spent 0.05 SOL",
       "reason": "$SWARM — AI agents collaborating with shared treasury is a strong2025 narrative (virtuals/ai16z adjacent). Has twitter (@matthewabides), 99-char description, fresh 1min launch. Riding the AI-agent meta attention wave."
+    },
+    {
+      "time": "2026-09-12 14:41 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SWARM at $4.04767e-06 | P&L: +0.5%",
+      "reason": "Just opened (0.0h), +0.5% with $580 pool. Need to give it a few minutes to develop - fresh entry, no reason to bail at break-even. Will reassess at 15min mark."
     }
   ],
   "trade_stats": {
-    "total": 3281,
+    "total": 3282,
     "wins": 1520,
-    "losses": 1761,
+    "losses": 1762,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.608852,
-    "avg_pnl_pct": 28.3,
+    "total_pnl_sol": 8.608814,
+    "avg_pnl_pct": 28.29,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 208,
-    "today_realized_sol": 3.575756,
+    "today_trades": 209,
+    "today_realized_sol": 3.575718,
     "today_target_pct": 893.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1520,
-      "loss_count": 1761,
+      "loss_count": 1762,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T14:40:22.884130+00:00",
+  "last_llm_brief_at": "2026-09-12T14:41:39.211382+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FcMgeiLkF7UAbBS4iippwEruuWXyPeEtSEnM155xpump": {
+      "price_usd": 4.047670206879849e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 579.96174339896,
+      "volume_h24": 624.33,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 5.660372276
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
