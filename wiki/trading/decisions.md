@@ -22528,3 +22528,6 @@
 ## [2026-09-12 05:31 UTC] sell | [FULL][LLM] $mmrich at $5.23502e-08 | P&L: -99.9%
 - **Reasoning:** Position showing -99.9% on bonding curve — token has effectively zero value. On-chain data confirms account exists but with no meaningful state. Exit immediately to free slot; the -25% hard stop should have triggered but if not, force-close now.
 
+## [2026-09-12 05:39 UTC] buy | [LLM] $Butthole at $7.727e-06, spent 0.05 SOL
+- **Reasoning:** $Butthole at 1.6min/$9.8k mcap — crude humor narrative is classic memecoin attention play, has twitter link (ZzzzzSol) signaling early community seeding. Bonding curve 32% means still early enough for 10x if narrative catches. Size small (0.05 SOL) per hard cap.
+
