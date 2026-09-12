@@ -23284,3 +23284,9 @@
 ## [2026-09-12 13:08 UTC] sell | [PARTIAL][LLM] $Wars at $3.32858e-06 | P&L: +16.3%
 - **Reasoning:** Up +16.3% but pool is only $246 (micro-cap, easy dump). Selling half locks ~+15% gain while keeping a runner in case VRChat-narrative pumps continue. Half-exit de-risks the thin-liquidity bonding-curve scenario.
 
+## [2026-09-12 13:10 UTC] sell | [FULL][LLM] $Wars at $3.32825e-06 | P&L: +3.5%
+- **Reasoning:** +16.3% in 0h, approaching the +20% caution zone but not there yet. Fresh bonding curve position, pool thin ($246) so any sell moves price hard — hold and see if it pushes through to +30% TP territory. No reason to exit at break-even zone.
+
+## [2026-09-12 13:10 UTC] buy | [LLM] $NASBAYC at $5.096e-05, spent 0.05 SOL
+- **Reasoning:** NASBAYC narrative: bayc parody with summer pool vibe, has twitter handle linked, bonding curve already 43% complete with $56k mcap — fastest bonding of the three, strongest attention signal. Description passes viability gate (>50 chars + twitter). $5 position sized to fail-safe.
+
