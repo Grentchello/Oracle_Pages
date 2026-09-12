@@ -24409,3 +24409,6 @@
 ## [2026-09-12 23:32 UTC] sell | [PARTIAL][LLM] $Gamblecoin at $3.84372e-06 | P&L: +12.9%
 - **Reasoning:** $Gamblecoin is +12.9% and rising on a fresh bonding curve with only $489 pool — thin liquidity means a sharp reversal can wipe gains fast. Banking half locks in profit on a low-quality narrative play (no clear cultural/story catalyst visible), while leaving a runner in case it pumps through bonding-curve graduation.
 
+## [2026-09-12 23:33 UTC] sell | [rapid-drop] $Gamblecoin crashed >15% in one tick | P&L: -13.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
