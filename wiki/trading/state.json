@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.156563,
+  "balance_sol": 13.175641,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2BQn5Sk6wmvQwn9L6qKPgtpK3gtVN5nr8RbVx2Cepump": {
-      "symbol": "foge",
-      "name": "fat doge",
-      "mint": "2BQn5Sk6wmvQwn9L6qKPgtpK3gtVN5nr8RbVx2Cepump",
-      "amount": 673809.2079076555,
-      "entry_price_usd": 7.537e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T08:19:56.404530+00:00",
-      "entry_time_iso": "2026-09-12T08:19:56.404538+00:00",
-      "entry_usd_value": 5.0785,
-      "last_seen_price_usd": 7.537e-06,
-      "entry_liquidity_usd": 2267.65530405414,
-      "entry_pool_sol": 22.326034302,
-      "entry_market_cap_usd": 6962.946760374205,
-      "entry_signals": {
-        "liquidity_usd": 2267.65530405414,
-        "volume_24h_usd": 5649.28,
-        "market_cap_usd": 6962.946760374205,
-        "ath_market_cap_usd": 8574.48424371624,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 22.326034302,
-        "description": "The fat doge of Solana",
-        "twitter": "https://x.com/fogesol/status/2098687583329063194?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54261,19 +54232,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.759993,
       "partial": false
+    },
+    {
+      "mint": "2BQn5Sk6wmvQwn9L6qKPgtpK3gtVN5nr8RbVx2Cepump",
+      "symbol": "foge",
+      "name": "fat doge",
+      "amount_sold": 673809.2079076555,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T08:19:56.404530+00:00",
+      "entry_time_iso": "2026-09-12T08:19:56.404538+00:00",
+      "exit_time": "2026-09-12T08:21:00.321074+00:00",
+      "exit_time_iso": "2026-09-12T08:21:00.321083+00:00",
+      "entry_price_usd": 7.537e-06,
+      "exit_price_usd": 2.8765946215590807e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.019078,
+      "pnl_sol": -0.030922,
+      "pnl_pct": -61.83,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 2267.66,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 22.326,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.916565,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T08:19:56.404711+00:00",
+  "last_updated": "2026-09-12T08:21:16.879214+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.57,
-  "portfolio_value_usd": 1341.39,
+  "last_sol_price_usd": 101.6,
+  "portfolio_value_usd": 1338.65,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 07:33 UTC",
-      "action": "buy",
-      "details": "[LLM] $Polarbear at $4.257e-06, spent 0.05 SOL",
-      "reason": "$Polarbear ('The Nihilist Polar Bear') has a mildly distinctive absurdist narrative and a linked twitter account, passes viability gate with bond at 21%. $3k liquidity needs to be verified but it's fresh attention. Small 0.05 SOL test position to learn how nihilist-bear narratives perform."
-    },
     {
       "time": "2026-09-12 07:34 UTC",
       "action": "sell",
@@ -54387,30 +54376,48 @@
       "action": "buy",
       "details": "[LLM] $foge at $7.537e-06, spent 0.05 SOL",
       "reason": "Sub-$7k mcap, 0.8min old, bond only 27% complete — catching this at ground floor. 'Fat doge of Solana' rides the proven doge meta with a visual twist. Twitter already active with a post up. Classic attention-launch profile. Risk: liquidity is thin, bond incomplete so sells may be limited, and doge-riffs fail often — but at $6.9k mcap with story + social, asymmetry favors entry."
+    },
+    {
+      "time": "2026-09-12 08:21 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $foge crashed >15% in one tick | P&L: -61.8%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3178,
+    "total": 3179,
     "wins": 1482,
-    "losses": 1696,
+    "losses": 1697,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.990375,
-    "avg_pnl_pct": 29.47,
+    "total_pnl_sol": 8.959453,
+    "avg_pnl_pct": 29.44,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 105,
-    "today_realized_sol": 3.957279,
-    "today_target_pct": 989.3,
+    "today_trades": 106,
+    "today_realized_sol": 3.926357,
+    "today_target_pct": 981.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1482,
-      "loss_count": 1696,
+      "loss_count": 1697,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T08:19:55.089350+00:00",
+  "last_llm_brief_at": "2026-09-12T08:21:16.879178+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2BQn5Sk6wmvQwn9L6qKPgtpK3gtVN5nr8RbVx2Cepump": {
+      "price_usd": 2.8765946215590807e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 19.2323461936,
+      "volume_h24": 16278.6,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.189294746
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

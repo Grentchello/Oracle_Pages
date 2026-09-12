@@ -22825,3 +22825,6 @@
 ## [2026-09-12 08:19 UTC] buy | [LLM] $foge at $7.537e-06, spent 0.05 SOL
 - **Reasoning:** Sub-$7k mcap, 0.8min old, bond only 27% complete — catching this at ground floor. 'Fat doge of Solana' rides the proven doge meta with a visual twist. Twitter already active with a post up. Classic attention-launch profile. Risk: liquidity is thin, bond incomplete so sells may be limited, and doge-riffs fail often — but at $6.9k mcap with story + social, asymmetry favors entry.
 
+## [2026-09-12 08:21 UTC] sell | [rapid-drop] $foge crashed >15% in one tick | P&L: -61.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
