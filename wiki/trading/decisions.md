@@ -22804,3 +22804,6 @@
 ## [2026-09-12 07:58 UTC] sell | [rapid-drop] $REVFART crashed >15% in one tick | P&L: -21.1%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 08:05 UTC] buy | [LLM] $unicorn at $4.834e-06, spent 0.05 SOL
+- **Reasoning:** Fresh 0.5min launch, $4.4k mcap, 17% bond, has Twitter attention from crypto dev. 'Unicorn' is memeable narrative name. Early enough to ride first-wave attention. Risk: no description, generic name, ultra-low mcap = thin liquidity and high rug probability.
+
