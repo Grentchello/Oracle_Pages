@@ -22981,3 +22981,6 @@
 ## [2026-09-12 10:12 UTC] buy | [LLM] $$NOVAL at $2.856e-06, spent 0.05 SOL
 - **Reasoning:** $$NOVAL — pure attention-market thesis ('value is what we say it is'), $3.4k mcap, 0.6min old, bonding 8%. Memecoin philosophy token with maximum narrative leverage at minimum mcap. Risk: ultra-low liquidity, but that's the asymmetric payoff.
 
+## [2026-09-12 10:13 UTC] sell | [PARTIAL][LLM] $$NOVAL at $3.73667e-06 | P&L: +30.8%
+- **Reasoning:** Up +30.8% on a $441 bonding-curve pool with 2% of supply already in our hands — liquidity is razor-thin and any further upside is unreliable. TP threshold at 25% is already hit per the rules. Selling half locks the gain and lets the rest ride for free; full exit would be defensible but sell_half preserves narrative optionality if it keeps pushing.
+
