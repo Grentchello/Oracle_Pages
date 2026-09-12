@@ -1,37 +1,8 @@
 {
-  "balance_sol": 22.791519,
+  "balance_sol": 22.836286,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8awAsSXYTS6QbknNoSotaaNNYY2WVQ1CnWUveGiPpump": {
-      "symbol": "APE",
-      "name": "Absolutely Purchased Everything",
-      "mint": "8awAsSXYTS6QbknNoSotaaNNYY2WVQ1CnWUveGiPpump",
-      "amount": 1601164.2542479546,
-      "entry_price_usd": 3.178e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T19:37:05.114863+00:00",
-      "entry_time_iso": "2026-09-12T19:37:05.114871+00:00",
-      "entry_usd_value": 5.0885,
-      "last_seen_price_usd": 3.178e-06,
-      "entry_liquidity_usd": 2.0354e-07,
-      "entry_pool_sol": 2e-09,
-      "entry_market_cap_usd": 3177.5175078594825,
-      "entry_signals": {
-        "liquidity_usd": 2.0354e-07,
-        "volume_24h_usd": 634.45,
-        "market_cap_usd": 3177.5175078594825,
-        "ath_market_cap_usd": 3177.5175078594825,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2e-09,
-        "description": "",
-        "twitter": "https://x.com/YorumiSol/status/2098858213558939761",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -58581,19 +58552,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.748112,
       "partial": false
+    },
+    {
+      "mint": "8awAsSXYTS6QbknNoSotaaNNYY2WVQ1CnWUveGiPpump",
+      "symbol": "APE",
+      "name": "Absolutely Purchased Everything",
+      "amount_sold": 1601164.2363646212,
+      "fraction_sold": 0.9999999888310438,
+      "entry_time": "2026-09-12T19:37:05.114863+00:00",
+      "entry_time_iso": "2026-09-12T19:37:05.114871+00:00",
+      "exit_time": "2026-09-12T19:38:21.387577+00:00",
+      "exit_time_iso": "2026-09-12T19:38:21.387583+00:00",
+      "entry_price_usd": 3.178e-06,
+      "exit_price_usd": 2.8493010253530473e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.044767,
+      "pnl_sol": -0.005233,
+      "pnl_pct": -10.34,
+      "exit_reason": "LLM: sell_all — Down -10.3% within minutes of entry on a bonding-curve token with $0 pool liquidity and a 22-billion-percent 'share' figure that signals the curve is ",
+      "entry_liquidity_usd": 0.0,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 0.0,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 76.272734,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T19:37:05.115044+00:00",
+  "last_updated": "2026-09-12T19:38:21.387801+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.77,
-  "portfolio_value_usd": 2324.58,
+  "last_sol_price_usd": 101.91,
+  "portfolio_value_usd": 2327.25,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 18:58 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PVP at $0.00149353 | P&L: -8.9%",
-      "reason": "PVP only0.0h held and -8.9% (well above -25% hard cap, above -20% worry zone). New launch dip is normal noise on bonding curve. Give it a few minutes to develop before cutting."
-    },
     {
       "time": "2026-09-12 18:59 UTC",
       "action": "observe",
@@ -58707,40 +58696,46 @@
       "action": "buy",
       "details": "[LLM] $APE at $3.178e-06, spent 0.05 SOL",
       "reason": "$APE has the strongest attention signal — fresh Twitter post from YorumiSol, classic 'APE' meme format with 'Absolutely Purchased Everything' descriptor, sub-$5k mcap with viral potential. Bond incomplete but that's normal at 0.8min. Position sized at 0.1 SOL per strategy rules. Skipping $STONK — no attention signal beyond generic name."
+    },
+    {
+      "time": "2026-09-12 19:38 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $APE at $2.8493e-06 | P&L: -10.3%",
+      "reason": "Down -10.3% within minutes of entry on a bonding-curve token with $0 pool liquidity and a 22-billion-percent 'share' figure that signals the curve is effectively empty of other buyers. This is the exact profile where -10% snowballs to -50%: no real liquidity to exit into, price only drops further. Cutting now beats waiting for the -25% hard stop to fire at a worse price."
     }
   ],
   "trade_stats": {
-    "total": 3358,
+    "total": 3359,
     "wins": 1555,
-    "losses": 1803,
+    "losses": 1804,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 18.625333,
-    "avg_pnl_pct": 34.42,
+    "total_pnl_sol": 18.6201,
+    "avg_pnl_pct": 34.41,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 285,
-    "today_realized_sol": 13.592237,
-    "today_target_pct": 3398.1,
+    "today_trades": 286,
+    "today_realized_sol": 13.587004,
+    "today_target_pct": 3396.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1555,
-      "loss_count": 1803,
+      "loss_count": 1804,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T19:37:03.775525+00:00",
+  "last_llm_brief_at": "2026-09-12T19:38:21.386778+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "FKGGV9HnJMdGkcK8YZQnTwk4VACvMaQogorVDUsnpump": {
-      "price_usd": 0.00161984760687578,
+    "8awAsSXYTS6QbknNoSotaaNNYY2WVQ1CnWUveGiPpump": {
+      "price_usd": 2.8493010253530473e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 100340.22492648831,
-      "volume_h24": 0.0,
+      "liquidity_usd": 2.0382e-07,
+      "volume_h24": 634.45,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 985.950918016
+      "real_sol_reserves": 2e-09
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

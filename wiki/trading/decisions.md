@@ -23926,3 +23926,6 @@
 ## [2026-09-12 19:37 UTC] buy | [LLM] $APE at $3.178e-06, spent 0.05 SOL
 - **Reasoning:** $APE has the strongest attention signal — fresh Twitter post from YorumiSol, classic 'APE' meme format with 'Absolutely Purchased Everything' descriptor, sub-$5k mcap with viral potential. Bond incomplete but that's normal at 0.8min. Position sized at 0.1 SOL per strategy rules. Skipping $STONK — no attention signal beyond generic name.
 
+## [2026-09-12 19:38 UTC] sell | [FULL][LLM] $APE at $2.8493e-06 | P&L: -10.3%
+- **Reasoning:** Down -10.3% within minutes of entry on a bonding-curve token with $0 pool liquidity and a 22-billion-percent 'share' figure that signals the curve is effectively empty of other buyers. This is the exact profile where -10% snowballs to -50%: no real liquidity to exit into, price only drops further. Cutting now beats waiting for the -25% hard stop to fire at a worse price.
+
