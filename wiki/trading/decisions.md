@@ -22882,3 +22882,6 @@
 ## [2026-09-12 08:54 UTC] sell | [FULL][LLM] $ogcallers at $3.12108e-06 | P&L: +0.8%
 - **Reasoning:** ogcallers is flat +0.8% after entry, bonding curve only $146 pool — our 4% share is meaningful but volume is dead. Tiny gain, no momentum, and I want capital free for the fresh $FLYCOIN launch which has actual narrative attention.
 
+## [2026-09-12 09:01 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
