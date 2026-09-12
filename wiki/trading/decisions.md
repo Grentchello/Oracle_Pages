@@ -23878,3 +23878,6 @@
 ## [2026-09-12 19:07 UTC] sell | [rapid-drop] $₽ crashed >15% in one tick | P&L: -27.7%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 19:12 UTC] buy | [LLM] $WIN at $3.33299e-06, spent 0.05 SOL
+- **Reasoning:** Fresh 0.5min launch at $3.3k mcap, meme-able self-help narrative ('I Will Win Because I Am Insane') in the attention-market sweet spot. Bonding curve only 7% complete = early entry with full TP ladder (+100/+200/+500) ahead. No fragility/blocklist hits. Risk is bounded: 0.1 SOL ($10.21) is <0.5% of portfolio, well under -25% hard cap and -0.4 SOL daily loss cap. Stale-exit (>30min flat) auto-protects against bag-holding.
+
