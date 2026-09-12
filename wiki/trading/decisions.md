@@ -22564,3 +22564,6 @@
 ## [2026-09-12 05:54 UTC] buy | [LLM] $tung at $2.159e-06, spent 0.05 SOL
 - **Reasoning:** $tung — 'tung tung tung sahur' is a recognizable viral TikTok brainrot meme with ongoing memetic value. 0.8min old, $5.7k mcap, bond only 6% = still near curve bottom with massive upside if meme catches. Tiny mcap + real narrative = asymmetric bet. Risk: micro-launch could die fast, but the -25% hard stop caps damage at 0.025 SOL.
 
+## [2026-09-12 05:55 UTC] sell | [rapid-drop] $tung crashed >15% in one tick | P&L: -75.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

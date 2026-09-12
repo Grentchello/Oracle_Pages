@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.300504,
+  "balance_sol": 13.312618,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AxEvz7iAyhAGr8ZFdmNdDjHToM1CzsRHEiccuxcipump": {
-      "symbol": "tung",
-      "name": "tung tung tung sahur",
-      "amount": 2364103.751736915,
-      "entry_price_usd": 2.159e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T05:54:14.460440+00:00",
-      "entry_usd_value": 5.1041,
-      "last_seen_price_usd": 2.159e-06,
-      "entry_signals": {
-        "liquidity_usd": 111.487073029542,
-        "volume_24h_usd": 326.47,
-        "market_cap_usd": 5730.2079194028875,
-        "ath_market_cap_usd": 5730.2079194028875,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.092132531,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53288,19 +53264,30 @@
       "pnl_pct": -0.2,
       "exit_reason": "LLM: sell_all — GOAT just opened, -0.2% is noise band on a bonding-curve microcap. No bearish signal, no reason to panic-sell a fresh entry. Give it time to develop o",
       "partial": false
+    },
+    {
+      "mint": "AxEvz7iAyhAGr8ZFdmNdDjHToM1CzsRHEiccuxcipump",
+      "symbol": "tung",
+      "name": "tung tung tung sahur",
+      "amount_sold": 2364103.751736915,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T05:54:14.460440+00:00",
+      "exit_time": "2026-09-12T05:55:18.102028+00:00",
+      "entry_price_usd": 2.159e-06,
+      "exit_price_usd": 5.206736496404531e-07,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.012114,
+      "pnl_sol": -0.037886,
+      "pnl_pct": -75.88,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T05:54:14.460720+00:00",
+  "last_updated": "2026-09-12T05:55:29.505659+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.082,
-  "portfolio_value_usd": 1362.85,
+  "last_sol_price_usd": 101.61,
+  "portfolio_value_usd": 1352.7,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 05:18 UTC",
-      "action": "buy",
-      "details": "[LLM] $TP at $5.438e-06, spent 0.05 SOL",
-      "reason": "$TP (Toilet Paper) — universal meme material, direct tweet from @honestdevvor (not just a community link), $5.7k mcap with 23% bond. Risky but the experiment requires taking trades to learn. Sizing at 0.05 SOL. Skipping KEYCAT (bond only 10% = rug-prone) and MEME1921 (weak twitter signal — community link, no viral tweet)."
-    },
     {
       "time": "2026-09-12 05:19 UTC",
       "action": "sell",
@@ -53414,30 +53401,48 @@
       "action": "buy",
       "details": "[LLM] $tung at $2.159e-06, spent 0.05 SOL",
       "reason": "$tung — 'tung tung tung sahur' is a recognizable viral TikTok brainrot meme with ongoing memetic value. 0.8min old, $5.7k mcap, bond only 6% = still near curve bottom with massive upside if meme catches. Tiny mcap + real narrative = asymmetric bet. Risk: micro-launch could die fast, but the -25% hard stop caps damage at 0.025 SOL."
+    },
+    {
+      "time": "2026-09-12 05:55 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $tung crashed >15% in one tick | P&L: -75.9%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3133,
+    "total": 3134,
     "wins": 1464,
-    "losses": 1669,
+    "losses": 1670,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 9.134317,
-    "avg_pnl_pct": 30.0,
+    "total_pnl_sol": 9.096431,
+    "avg_pnl_pct": 29.96,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 60,
-    "today_realized_sol": 4.101221,
-    "today_target_pct": 1025.3,
+    "today_trades": 61,
+    "today_realized_sol": 4.063335,
+    "today_target_pct": 1015.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1464,
-      "loss_count": 1669,
+      "loss_count": 1670,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T05:54:13.047555+00:00",
+  "last_llm_brief_at": "2026-09-12T05:55:28.290170+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "AxEvz7iAyhAGr8ZFdmNdDjHToM1CzsRHEiccuxcipump": {
+      "price_usd": 5.206736496404531e-07,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2.0322000000000002e-07,
+      "volume_h24": 1555.82,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
