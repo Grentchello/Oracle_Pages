@@ -22576,3 +22576,9 @@
 ## [2026-09-12 05:58 UTC] buy | [LLM] $AMD at $7.836e-06, spent 0.05 SOL
 - **Reasoning:** $AMD has the strongest attention stack of the three: viral acronym (matches AMD chip brand), live twitter post, 1.3min age, bonding 32% already (momentum), and $10k mcap leaves room to 10x. Narrative: 'Always Making Dough' is crypto-native slang that prints on CT.
 
+## [2026-09-12 05:59 UTC] sell | [rapid-drop] $AMD crashed >15% in one tick | P&L: -53.9%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 05:59 UTC] buy | [LLM] $tung at $7.21e-06, spent 0.05 SOL
+- **Reasoning:** Tung tung tung sahur is peak current CT brainrot meta — viral meme format with micro $5.8k mcap gives max upside. Risk: bond only 3%, very early, may die fast — set tight mental stop.
+
