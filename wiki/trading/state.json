@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.452322,
+  "balance_sol": 27.517978,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AFrCCmdbcXV3QGEaVbxVqANFzBycE4SYSnYAafzRmB3x": {
-      "symbol": "HOODCAT",
-      "name": "Hoodcat",
-      "mint": "AFrCCmdbcXV3QGEaVbxVqANFzBycE4SYSnYAafzRmB3x",
-      "amount": 857722.2034471106,
-      "entry_price_usd": 5.918e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T21:37:52.439042+00:00",
-      "entry_time_iso": "2026-09-12T21:37:52.439053+00:00",
-      "entry_usd_value": 5.0760000000000005,
-      "last_seen_price_usd": 5.918e-06,
-      "entry_liquidity_usd": 1573.4276849231999,
-      "entry_pool_sol": 15.49869666,
-      "entry_market_cap_usd": 7038.408453373091,
-      "entry_signals": {
-        "liquidity_usd": 1573.4276849231999,
-        "volume_24h_usd": 1352.15,
-        "market_cap_usd": 7038.408453373091,
-        "ath_market_cap_usd": 8286.1045867147,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 15.49869666,
-        "description": "Hoodcat: one coin on pump.fun and Robinhood Chain, mirrored. twine.auction",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59541,19 +59512,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.933876,
       "partial": false
+    },
+    {
+      "mint": "AFrCCmdbcXV3QGEaVbxVqANFzBycE4SYSnYAafzRmB3x",
+      "symbol": "HOODCAT",
+      "name": "Hoodcat",
+      "amount_sold": 857722.2034471106,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T21:37:52.439042+00:00",
+      "entry_time_iso": "2026-09-12T21:37:52.439053+00:00",
+      "exit_time": "2026-09-12T21:39:17.723586+00:00",
+      "exit_time_iso": "2026-09-12T21:39:17.723595+00:00",
+      "entry_price_usd": 5.918e-06,
+      "exit_price_usd": 7.795556768044355e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.065656,
+      "pnl_sol": 0.015656,
+      "pnl_pct": 31.73,
+      "exit_reason": "LLM: sell_all — +31.7% fresh pump, just hit +30% auto-TP zone. Bot will sell_half at this threshold. Letting remainder ride toward +100% TP at 50%. Not stale, only 0.",
+      "entry_liquidity_usd": 1573.43,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 15.4987,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 85.284566,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T21:37:52.439269+00:00",
+  "last_updated": "2026-09-12T21:39:17.723876+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.52,
-  "portfolio_value_usd": 2792.04,
+  "last_sol_price_usd": 101.84,
+  "portfolio_value_usd": 2802.43,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 21:20 UTC",
-      "action": "buy",
-      "details": "[LLM] $duck at $3.271e-06, spent 0.05 SOL",
-      "reason": "$duck (holduck) — animal-themed memecoin, classic viral category. Sub-$4k mcap at <1min is ultra-fresh entry. Duck narrative has meme pedigree (duck memes, rubber duck, 'honk'). 0.1 SOL risks ~$10 to capture early attention wave. Passes viability gate assumption (needs verification), no political/celebrity keywords in fragility blocklist. High risk/high reward — exactly the asymmetric bet this strategy wants."
-    },
     {
       "time": "2026-09-12 21:22 UTC",
       "action": "sell",
@@ -59667,40 +59656,46 @@
       "action": "buy",
       "details": "[LLM] $HOODCAT at $5.918e-06, spent 0.05 SOL",
       "reason": "$HOODCAT has a clear cross-chain narrative (pump.fun + Robinhood Chain mirrored) — Robinhood branding gives built-in retail attention. $7k mcap is early, bond only 27% so still bonding curve phase. Freshest viral story in the batch."
+    },
+    {
+      "time": "2026-09-12 21:39 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $HOODCAT at $7.79556e-06 | P&L: +31.7%",
+      "reason": "+31.7% fresh pump, just hit +30% auto-TP zone. Bot will sell_half at this threshold. Letting remainder ride toward +100% TP at 50%. Not stale, only 0.0h held, bonding-curve momentum intact."
     }
   ],
   "trade_stats": {
-    "total": 3398,
-    "wins": 1576,
+    "total": 3399,
+    "wins": 1577,
     "losses": 1822,
     "win_rate_pct": 46.4,
-    "total_pnl_sol": 23.286161,
+    "total_pnl_sol": 23.301817,
     "avg_pnl_pct": 36.78,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 325,
-    "today_realized_sol": 18.253065,
-    "today_target_pct": 4563.3,
+    "today_trades": 326,
+    "today_realized_sol": 18.268721,
+    "today_target_pct": 4567.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1576,
+      "win_count": 1577,
       "loss_count": 1822,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T21:37:51.049219+00:00",
+  "last_llm_brief_at": "2026-09-12T21:39:17.723149+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "GTH4mmsG3Z37zRPXPGg6uuFawYvn7uns54ofoUmspump": {
-      "price_usd": 0.011894134953394057,
+    "AFrCCmdbcXV3QGEaVbxVqANFzBycE4SYSnYAafzRmB3x": {
+      "price_usd": 7.795556768044355e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.0,
-      "volume_h24": 0.0,
+      "liquidity_usd": 2000.0571626944002,
+      "volume_h24": 6146.56,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
-      "complete": true,
-      "real_sol_reserves": 0.0
+      "complete": false,
+      "real_sol_reserves": 19.63921016
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

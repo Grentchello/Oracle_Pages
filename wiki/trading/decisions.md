@@ -24157,3 +24157,6 @@
 ## [2026-09-12 21:37 UTC] buy | [LLM] $HOODCAT at $5.918e-06, spent 0.05 SOL
 - **Reasoning:** $HOODCAT has a clear cross-chain narrative (pump.fun + Robinhood Chain mirrored) — Robinhood branding gives built-in retail attention. $7k mcap is early, bond only 27% so still bonding curve phase. Freshest viral story in the batch.
 
+## [2026-09-12 21:39 UTC] sell | [FULL][LLM] $HOODCAT at $7.79556e-06 | P&L: +31.7%
+- **Reasoning:** +31.7% fresh pump, just hit +30% auto-TP zone. Bot will sell_half at this threshold. Letting remainder ride toward +100% TP at 50%. Not stale, only 0.0h held, bonding-curve momentum intact.
+
