@@ -23977,3 +23977,6 @@
 ## [2026-09-12 20:02 UTC] sell | [FULL][LLM] $SOLANA at $9.4214e-05 | P&L: -0.7%
 - **Reasoning:** $SOLANA down only 0.7%, held 0.0h, no exit signal yet. Will reassess at 15min stale mark or -20% threshold.
 
+## [2026-09-12 20:07 UTC] buy | [LLM] $UMG at $1.021e-05, spent 0.05 SOL
+- **Reasoning:** $UMG (Unlimited Money Glitch) is a fresh 0.5min launch with real attention: 23 buys vs 9 sells on pump.fun, +56% in 5min, $3.2k vol already. 'Money glitch' is a viral meta-narrative (people love 'I found the cheat code' framing), twitter link is live. $9k mcap with bond 31% complete means graduation imminent — early entry into the curve. Passes viability (has twitter), and 'Money Glitch' doesn't trigger fragility blacklist. Risk: only $3.2k vol — thin — but that's the trade.
+
