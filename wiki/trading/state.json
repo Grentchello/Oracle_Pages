@@ -1,37 +1,8 @@
 {
-  "balance_sol": 22.742647,
+  "balance_sol": 22.787709,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6NWY3BwMaJxC6UicowjwWJM2FFV3Se3AY1QyXJ3npump": {
-      "symbol": "GLASS",
-      "name": "GLASS",
-      "mint": "6NWY3BwMaJxC6UicowjwWJM2FFV3Se3AY1QyXJ3npump",
-      "amount": 1414214.3253747919,
-      "entry_price_usd": 3.602e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T20:19:57.519766+00:00",
-      "entry_time_iso": "2026-09-12T20:19:57.519775+00:00",
-      "entry_usd_value": 5.094,
-      "last_seen_price_usd": 3.602e-06,
-      "entry_liquidity_usd": 197.56395527832,
-      "entry_pool_sol": 1.939182914,
-      "entry_market_cap_usd": 3203.015310774485,
-      "entry_signals": {
-        "liquidity_usd": 197.56395527832,
-        "volume_24h_usd": 1784.47,
-        "market_cap_usd": 3203.015310774485,
-        "ath_market_cap_usd": 5088.134395379001,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.939182914,
-        "description": "GLASS is one million cells of stained glass. A shared 1000×1000 canvas. $GLASS is the ink. Hold the coin to paint. Fifteen cells an hour at the floor, one hundred at the ceiling. No presale, no whitelist, no reserved team allocation. The only website is glassonchain.art The only X is @GLASSonchain",
-        "twitter": "https://x.com/GLASSonchain",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -58893,19 +58864,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 82.532002,
       "partial": false
+    },
+    {
+      "mint": "6NWY3BwMaJxC6UicowjwWJM2FFV3Se3AY1QyXJ3npump",
+      "symbol": "GLASS",
+      "name": "GLASS",
+      "amount_sold": 1414214.3253747919,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T20:19:57.519766+00:00",
+      "entry_time_iso": "2026-09-12T20:19:57.519775+00:00",
+      "exit_time": "2026-09-12T20:21:12.307516+00:00",
+      "exit_time_iso": "2026-09-12T20:21:12.307792+00:00",
+      "entry_price_usd": 3.602e-06,
+      "exit_price_usd": 3.246590455916903e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.045062,
+      "pnl_sol": -0.004938,
+      "pnl_pct": -9.87,
+      "exit_reason": "LLM: sell_all — Position is 0.0h old at -9.9% — just opening volatility on a $206 bonding-curve pool. Not stale yet, no reason to panic-exit a brand-new position befo",
+      "entry_liquidity_usd": 197.56,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.9392,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 74.788041,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T20:19:57.520042+00:00",
+  "last_updated": "2026-09-12T20:21:12.308014+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.88,
-  "portfolio_value_usd": 2322.11,
+  "last_sol_price_usd": 101.89,
+  "portfolio_value_usd": 2321.84,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 19:44 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PURR at $6.04659e-06 | P&L: +8.9%",
-      "reason": "$PURR +8.9% on bonding-curve, only 0.0h held. Not at any TP threshold, no reason to bail early. Tiny pool ($616) means high risk both ways — let it develop for a few minutes to see if buyers step in."
-    },
     {
       "time": "2026-09-12 19:44 UTC",
       "action": "buy",
@@ -59019,30 +59008,48 @@
       "action": "buy",
       "details": "[LLM] $GLASS at $3.602e-06, spent 0.05 SOL",
       "reason": "GLASS has a clear viral narrative (collaborative stained-glass canvas, hold-to-paint mechanic), active X presence (@GLASSonchain), and tiny $3.2k mcap with real upside. Classic attention-token setup. Risk: 6% bond means illiquid and could rug fast — small position sized accordingly."
+    },
+    {
+      "time": "2026-09-12 20:21 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GLASS at $3.24659e-06 | P&L: -9.9%",
+      "reason": "Position is 0.0h old at -9.9% — just opening volatility on a $206 bonding-curve pool. Not stale yet, no reason to panic-exit a brand-new position before letting the narrative develop."
     }
   ],
   "trade_stats": {
-    "total": 3371,
+    "total": 3372,
     "wins": 1561,
-    "losses": 1810,
+    "losses": 1811,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 18.576461,
-    "avg_pnl_pct": 34.26,
+    "total_pnl_sol": 18.571523,
+    "avg_pnl_pct": 34.24,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 298,
-    "today_realized_sol": 13.543365,
-    "today_target_pct": 3385.8,
+    "today_trades": 299,
+    "today_realized_sol": 13.538427,
+    "today_target_pct": 3384.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1561,
-      "loss_count": 1810,
+      "loss_count": 1811,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T20:19:56.183045+00:00",
+  "last_llm_brief_at": "2026-09-12T20:21:12.306837+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "6NWY3BwMaJxC6UicowjwWJM2FFV3Se3AY1QyXJ3npump": {
+      "price_usd": 3.246590455916903e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 206.47243428368,
+      "volume_h24": 2045.45,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.026424912
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
