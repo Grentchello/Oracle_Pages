@@ -24355,3 +24355,6 @@
 ## [2026-09-12 23:08 UTC] buy | [LLM] $Pumpkin at $3.4669e-06, spent 0.05 SOL
 - **Reasoning:** $Pumpkin has a timely seasonal narrative (autumn/pumpkin season just starting = meme-worthy), 0.7min old, $3.5k mcap — extreme early but that's where the alpha is. Risky but attention-market play.
 
+## [2026-09-12 23:09 UTC] sell | [FULL][LLM] $Pumpkin at $3.14092e-06 | P&L: -9.4%
+- **Reasoning:** Down only -9.4% on a fresh position with bonding curve still active at 3% share. Not at stale or stop threshold yet — give it a few more minutes to find a bid before cutting.
+

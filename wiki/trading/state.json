@@ -1,37 +1,8 @@
 {
-  "balance_sol": 29.522342,
+  "balance_sol": 29.567672,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BYvFcnGT3yk7iLWkewpK7SxExK9T4HPzX2MzJ5hXpump": {
-      "symbol": "Pumpkin",
-      "name": "Pumpkin",
-      "mint": "BYvFcnGT3yk7iLWkewpK7SxExK9T4HPzX2MzJ5hXpump",
-      "amount": 1464851.4759160192,
-      "entry_price_usd": 3.4669043814317415e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T23:08:32.605940+00:00",
-      "entry_time_iso": "2026-09-12T23:08:32.605949+00:00",
-      "entry_usd_value": 5.0785,
-      "last_seen_price_usd": 3.4669043814317415e-06,
-      "entry_liquidity_usd": 575.6112070662799,
-      "entry_pool_sol": 5.667138004,
-      "entry_market_cap_usd": 3471.2465049197376,
-      "entry_signals": {
-        "liquidity_usd": 575.6112070662799,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3471.2465049197376,
-        "ath_market_cap_usd": 3599.085723785072,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.667138004,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -60357,19 +60328,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 78.317329,
       "partial": false
+    },
+    {
+      "mint": "BYvFcnGT3yk7iLWkewpK7SxExK9T4HPzX2MzJ5hXpump",
+      "symbol": "Pumpkin",
+      "name": "Pumpkin",
+      "amount_sold": 1464851.4759160192,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T23:08:32.605940+00:00",
+      "entry_time_iso": "2026-09-12T23:08:32.605949+00:00",
+      "exit_time": "2026-09-12T23:09:49.000119+00:00",
+      "exit_time_iso": "2026-09-12T23:09:49.000128+00:00",
+      "entry_price_usd": 3.4669043814317415e-06,
+      "exit_price_usd": 3.1409230280999422e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.04533,
+      "pnl_sol": -0.00467,
+      "pnl_pct": -9.4,
+      "exit_reason": "LLM: sell_all — Down only -9.4% on a fresh position with bonding curve still active at 3% share. Not at stale or stop threshold yet — give it a few more minutes to fi",
+      "entry_liquidity_usd": 575.61,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 5.6671,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 76.394201,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T23:08:32.606235+00:00",
+  "last_updated": "2026-09-12T23:09:49.000365+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.57,
-  "portfolio_value_usd": 3003.66,
+  "last_sol_price_usd": 101.5,
+  "portfolio_value_usd": 3001.12,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 22:46 UTC",
-      "action": "buy",
-      "details": "[LLM] $artcoin at $3.91837e-06, spent 0.05 SOL",
-      "reason": "Brand new launch (0.6min), narrative is the legendary 'I lost all my soul' art meme — exactly the kind of viral cultural artifact that pumps memecoins. $5.5k mcap is early but real risk, so size to 0.05 SOL not 0.1."
-    },
     {
       "time": "2026-09-12 22:47 UTC",
       "action": "sell",
@@ -60483,40 +60472,46 @@
       "action": "buy",
       "details": "[LLM] $Pumpkin at $3.4669e-06, spent 0.05 SOL",
       "reason": "$Pumpkin has a timely seasonal narrative (autumn/pumpkin season just starting = meme-worthy), 0.7min old, $3.5k mcap — extreme early but that's where the alpha is. Risky but attention-market play."
+    },
+    {
+      "time": "2026-09-12 23:09 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Pumpkin at $3.14092e-06 | P&L: -9.4%",
+      "reason": "Down only -9.4% on a fresh position with bonding curve still active at 3% share. Not at stale or stop threshold yet — give it a few more minutes to find a bid before cutting."
     }
   ],
   "trade_stats": {
-    "total": 3432,
+    "total": 3433,
     "wins": 1586,
-    "losses": 1846,
+    "losses": 1847,
     "win_rate_pct": 46.2,
-    "total_pnl_sol": 25.356182,
-    "avg_pnl_pct": 38.31,
+    "total_pnl_sol": 25.351512,
+    "avg_pnl_pct": 38.29,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 359,
-    "today_realized_sol": 20.323086,
-    "today_target_pct": 5080.8,
+    "today_trades": 360,
+    "today_realized_sol": 20.318416,
+    "today_target_pct": 5079.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1586,
-      "loss_count": 1846,
+      "loss_count": 1847,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T23:08:31.277160+00:00",
+  "last_llm_brief_at": "2026-09-12T23:09:48.999308+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "3a5JZszocUqxJuhDw6LqVbPMnozCjTbVRvJL5rwtpump": {
-      "price_usd": 3.0879430074592167e-06,
+    "BYvFcnGT3yk7iLWkewpK7SxExK9T4HPzX2MzJ5hXpump": {
+      "price_usd": 3.1409230280999422e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 240.25186142055,
-      "volume_h24": 0.0,
+      "liquidity_usd": 158.4810298855,
+      "volume_h24": 1743.16,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.365382115
+      "real_sol_reserves": 1.561389457
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
