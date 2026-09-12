@@ -22438,3 +22438,6 @@
 ## [2026-09-12 04:31 UTC] sell | [FULL][LLM] $AI at $9.58316e-06 | P&L: +13.0%
 - **Reasoning:** Up +13% at 0 min held, narrative intact, no reason to bail yet. AI narrative has attention legs but only 0% pool share is a yellow flag — will reassess at +20% or if it stalls.
 
+## [2026-09-12 04:36 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
