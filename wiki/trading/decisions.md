@@ -24286,3 +24286,9 @@
 ## [2026-09-12 22:43 UTC] buy | [LLM] $VPN at $6.96422e-06, spent 0.05 SOL
 - **Reasoning:** $VPN acronym play ('Very Profitable Now') is meta-memorable and the kind of self-aware name that trends on CT. Fresh 0.5min launch, $7k mcap, bond 27% (healthier than peers). Narrative is clear and viral-friendly.
 
+## [2026-09-12 22:44 UTC] sell | [rapid-drop] $VPN crashed >15% in one tick | P&L: -27.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 22:44 UTC] buy | [LLM] $Saberhagen at $0.000931767, spent 0.05 SOL
+- **Reasoning:** Nicolas van Saberhagen is the real-world mystery person credited (by some) as Bitcoin's creator — a strong crypto-lore narrative that travels well on CT. Has Twitter attached, $5k mcap means pure early attention play, and the Satoshi/van Saberhagen mystery is the kind of evergreen story that can pump hard on a fresh launch.
+
