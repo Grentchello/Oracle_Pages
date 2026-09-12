@@ -22588,3 +22588,6 @@
 ## [2026-09-12 06:00 UTC] buy | [LLM] $drill at $1.995e-05, spent 0.05 SOL
 - **Reasoning:** $drill cat has the cleanest setup: brand memecoin with real X account (@drillcatpf), $18k mcap gives some gravity vs the micro-caps, and 'drill cat' is a memeable name. Risk: 1.6min old, 38% bonded, very early — small position, tight stop.
 
+## [2026-09-12 06:01 UTC] sell | [rapid-drop] $drill crashed >15% in one tick | P&L: -49.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
