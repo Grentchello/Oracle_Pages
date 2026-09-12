@@ -23524,3 +23524,6 @@
 ## [2026-09-12 15:42 UTC] buy | [LLM] $Apu at $4.23e-06, spent 0.05 SOL
 - **Reasoning:** Apu Apustaja is a recognized internet meme character with genuine viral history (Finnish imageboard frog,2010s). Has twitter signal. Buying the established-narrative play at $3.5k mcap with 0.1 SOL.
 
+## [2026-09-12 15:43 UTC] sell | [v8.7 TP +50% (full)] $Apu at $9.50884e-05 | P&L: +2147.9%
+- **Reasoning:** Auto take-profit at +2148.0%
+
