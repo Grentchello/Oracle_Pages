@@ -22426,3 +22426,6 @@
 ## [2026-09-12 04:23 UTC] sell | [FULL][LLM] $POW at $3.72832e-06 | P&L: +8.3%
 - **Reasoning:** Up +8.3% and just opened — give it a few minutes. Thin liquidity ($437 pool, 1% our share) means any other seller will crater price; will exit immediately on first sign of weakness or if it stalls flat for 10+ min.
 
+## [2026-09-12 04:28 UTC] buy | [LLM] $OMEGA at $3.899e-06, spent 0.05 SOL
+- **Reasoning:** $OMEGA 'The Omega' at 1.2min/$3.4k mcap with active Twitter post from CyborgDeployed — fresh launch with attention signal is the textbook attention-market entry. Sizing 0.1 SOL per bot rules.
+
