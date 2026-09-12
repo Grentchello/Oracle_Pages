@@ -23962,3 +23962,9 @@
 ## [2026-09-12 19:58 UTC] buy | [LLM] $RISE at $7.038e-06, spent 0.05 SOL
 - **Reasoning:** $RISE has the strongest attention mechanic of the batch: 60% airdrop to top 15 holders creates built-in buy competition and FOMO. Bond already at 29% with $8.2k mcap shows early traction. Risky at <1 min old and sub-$10k mcap, but the airdrop structure is a self-reinforcing viral loop.
 
+## [2026-09-12 20:00 UTC] sell | [FULL][LLM] $RISE at $8.54276e-06 | P&L: +21.4%
+- **Reasoning:** Up +21.4% with zero pool share (0%) means we're not getting fills — capital is stuck on a bonding curve with no presence. Lock the gain before it reverses; 0% share at this mcap is a liquidity trap, not a position.
+
+## [2026-09-12 20:00 UTC] buy | [LLM] $ZHOE at $3.277e-06, spent 0.05 SOL
+- **Reasoning:** ZHOE is a fresh 0.5min launch with explicit MC milestones (50k → 200k), viral X post, and a degenerate-but-shareable narrative (zaza culture). $3.2k mcap with stated price ladder is classic pump.fun attention bait — high risk but the asymmetric setup fits scalp rules. Size 0.05 SOL per v7.
+
