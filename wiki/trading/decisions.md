@@ -23614,3 +23614,6 @@
 ## [2026-09-12 16:28 UTC] sell | [rapid-drop] $Caviar crashed >15% in one tick | P&L: -19.9%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 16:30 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
