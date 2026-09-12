@@ -23185,3 +23185,6 @@
 ## [2026-09-12 11:59 UTC] sell | [FULL][LLM] $Moodeng  at $3.0576e-06 | P&L: -4.2%
 - **Reasoning:** Only -4.2% after fresh entry, no clear signal to dump. Has pool liquidity ($112) and 4% share of bonding curve. Will reassess on next tick — if still flat/red, exit.
 
+## [2026-09-12 12:01 UTC] buy | [LLM] $ZAN at $7.943e-06, spent 0.05 SOL
+- **Reasoning:** $ZAN is the freshest launch (1.2min), lowest meaningful mcap ($10k) with an actual Twitter handle (zandyor). Classic attention-launched setup — viral X account + low float = pump potential. Risk: bond only 32% complete (not graduated) and no description provided, so I'll size to 0.05 SOL and watch the first 10 min for either TP or stale exit.
+
