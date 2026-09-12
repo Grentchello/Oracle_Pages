@@ -1,37 +1,8 @@
 {
-  "balance_sol": 16.770835,
+  "balance_sol": 16.810333,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5Fu1yPK2qo4szXEfKmS9aw5NughA2nWgRDo5Xc9pump": {
-      "symbol": "POOH",
-      "name": "Mert The Pooh",
-      "mint": "5Fu1yPK2qo4szXEfKmS9aw5NughA2nWgRDo5Xc9pump",
-      "amount": 999228.3153474524,
-      "entry_price_usd": 5.098434383565819e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T16:18:30.933066+00:00",
-      "entry_time_iso": "2026-09-12T16:18:30.933075+00:00",
-      "entry_usd_value": 5.0945,
-      "last_seen_price_usd": 5.098434383565819e-06,
-      "entry_liquidity_usd": 339.6735673169,
-      "entry_pool_sol": 3.33372821,
-      "entry_market_cap_usd": 6055.214658970209,
-      "entry_signals": {
-        "liquidity_usd": 339.6735673169,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 6055.214658970209,
-        "ath_market_cap_usd": 6055.214658970209,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.33372821,
-        "description": "",
-        "twitter": "https://x.com/UnabomberDev/status/2098808026996093189?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -57381,19 +57352,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.979477,
       "partial": false
+    },
+    {
+      "mint": "5Fu1yPK2qo4szXEfKmS9aw5NughA2nWgRDo5Xc9pump",
+      "symbol": "POOH",
+      "name": "Mert The Pooh",
+      "amount_sold": 999228.3153474524,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T16:18:30.933066+00:00",
+      "entry_time_iso": "2026-09-12T16:18:30.933075+00:00",
+      "exit_time": "2026-09-12T16:19:34.735892+00:00",
+      "exit_time_iso": "2026-09-12T16:19:34.735901+00:00",
+      "entry_price_usd": 5.098434383565819e-06,
+      "exit_price_usd": 4.0279184779931775e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.039498,
+      "pnl_sol": -0.010502,
+      "pnl_pct": -21.0,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 339.67,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.3337,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.802847,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T16:18:30.933333+00:00",
+  "last_updated": "2026-09-12T16:19:44.583929+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.89,
-  "portfolio_value_usd": 1713.87,
+  "last_sol_price_usd": 101.9,
+  "portfolio_value_usd": 1712.97,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 15:46 UTC",
-      "action": "buy",
-      "details": "[LLM] $CAPY at $3.0681e-06, spent 0.05 SOL",
-      "reason": "$CAPY — capybara is a hot mascot meta with proven pump history, clean ticker, chill-vibes narrative fits current attention appetite, sub-$4k mcap is entry-grade. Risk: bonding curve only 3% complete, dex liquidity thin — but that's the entry price for early attention."
-    },
     {
       "time": "2026-09-12 15:47 UTC",
       "action": "sell",
@@ -57507,40 +57496,46 @@
       "action": "buy",
       "details": "[LLM] $POOH at $5.09843e-06, spent 0.05 SOL",
       "reason": "$POOH — Mert is a recognized crypto figure (Helius); naming a token after him is insider meta-narrative. Has twitter attention link, $6k mcap at 0.7min = early. Risk: brand new, no price action yet, but narrative + CT footprint justifies a 0.1 SOL entry."
+    },
+    {
+      "time": "2026-09-12 16:19 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $POOH crashed >15% in one tick | P&L: -21.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3308,
+    "total": 3309,
     "wins": 1532,
-    "losses": 1776,
+    "losses": 1777,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 12.604649,
-    "avg_pnl_pct": 31.26,
+    "total_pnl_sol": 12.594147,
+    "avg_pnl_pct": 31.24,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 235,
-    "today_realized_sol": 7.571553,
-    "today_target_pct": 1892.9,
+    "today_trades": 236,
+    "today_realized_sol": 7.561051,
+    "today_target_pct": 1890.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1532,
-      "loss_count": 1776,
+      "loss_count": 1777,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T16:18:29.511792+00:00",
+  "last_llm_brief_at": "2026-09-12T16:19:44.583893+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "3vmt6yTDdhStFkoTpKYSoScNumLB9ciKXhETJmSYEXHh": {
-      "price_usd": 0.00010072012691085948,
+    "5Fu1yPK2qo4szXEfKmS9aw5NughA2nWgRDo5Xc9pump": {
+      "price_usd": 4.0279184779931775e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3137.72594129486,
-      "volume_h24": 11102.36,
+      "liquidity_usd": 339.706904599,
+      "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 30.795229574
+      "real_sol_reserves": 3.33372821
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

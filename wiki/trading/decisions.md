@@ -23593,3 +23593,6 @@
 ## [2026-09-12 16:18 UTC] buy | [LLM] $POOH at $5.09843e-06, spent 0.05 SOL
 - **Reasoning:** $POOH — Mert is a recognized crypto figure (Helius); naming a token after him is insider meta-narrative. Has twitter attention link, $6k mcap at 0.7min = early. Risk: brand new, no price action yet, but narrative + CT footprint justifies a 0.1 SOL entry.
 
+## [2026-09-12 16:19 UTC] sell | [rapid-drop] $POOH crashed >15% in one tick | P&L: -21.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
