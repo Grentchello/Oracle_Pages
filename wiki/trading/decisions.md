@@ -22630,3 +22630,6 @@
 ## [2026-09-12 06:26 UTC] buy | [LLM] $Dihvidends at $4.46234e-06, spent 0.05 SOL
 - **Reasoning:** $Dihvidends is a fresh 0.5min launch with a 'dividends' meme narrative and active X attention (GPRO_PF tweet). Passes viability (has twitter) and fragility (no celebrity/political keywords) gates. Bond at 17% means it's early but progressing. Risk: mcap only $4.5k, very thin — could rug or die fast. Taking the 0.1 SOL shot to learn how dividend-narrative launches perform.
 
+## [2026-09-12 06:27 UTC] sell | [rapid-drop] $Dihvidends crashed >15% in one tick | P&L: -33.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
