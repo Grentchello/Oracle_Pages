@@ -23305,3 +23305,6 @@
 ## [2026-09-12 13:15 UTC] sell | [PARTIAL][LLM] $BRO at $2.87621e-06 | P&L: -13.9%
 - **Reasoning:** Held 0.0h already down -13.9% with 62% of pool — that's catastrophic concentration risk, classic rug shape. Liquidity is only $7, we are the exit liquidity. Cut it now, no bounce signal visible on a freshly-launched bonding-curve token where we own majority of the pool.
 
+## [2026-09-12 13:16 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
