@@ -13,7 +13,7 @@
       "entry_time": "2026-09-12T23:13:45.932835+00:00",
       "entry_time_iso": "2026-09-12T23:13:45.932843+00:00",
       "entry_usd_value": 5.0785,
-      "last_seen_price_usd": 8.426699514004275e-05,
+      "last_seen_price_usd": 7.44926676679906e-05,
       "entry_liquidity_usd": 18680.25120993003,
       "entry_pool_sol": 183.915045879,
       "entry_market_cap_usd": 10122.728796974729,
@@ -60407,17 +60407,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T23:13:45.933093+00:00",
+  "last_updated": "2026-09-12T23:15:03.731763+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.57,
-  "portfolio_value_usd": 3002.75,
+  "last_sol_price_usd": 102.027,
+  "portfolio_value_usd": 3016.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 22:50 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $fry at $1.243e-05 | P&L: +2434.1%",
-      "reason": "+2434% unrealized gain — every TP threshold (+30/+100/+200/+500) has been blown through. Lock the gain immediately per profit-taking discipline; do not hope for more upside on a 0.0h-held print that could reverse at any second."
-    },
     {
       "time": "2026-09-12 22:51 UTC",
       "action": "buy",
@@ -60531,6 +60525,12 @@
       "action": "buy",
       "details": "[LLM] $Roger at $8.4267e-05, spent 0.05 SOL",
       "reason": "$Roger has a real attached X account (buttcoin mascot narrative), $10k mcap with viral mascot story, freshest attention of the three. Risk: 0.8min old = bond not complete yet, but 28% bond progress and a story-driven name fits the attention-market thesis."
+    },
+    {
+      "time": "2026-09-12 23:15 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -60552,9 +60552,21 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T23:13:44.676205+00:00",
+  "last_llm_brief_at": "2026-09-12T23:15:03.731465+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GnrtsKoGSctw3jAne5SLkf2yXojzQnPDRQiNQk7apump": {
+      "price_usd": 7.44926676679906e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 18126.218369309587,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 177.660995318
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

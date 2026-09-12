@@ -24367,3 +24367,6 @@
 ## [2026-09-12 23:13 UTC] buy | [LLM] $Roger at $8.4267e-05, spent 0.05 SOL
 - **Reasoning:** $Roger has a real attached X account (buttcoin mascot narrative), $10k mcap with viral mascot story, freshest attention of the three. Risk: 0.8min old = bond not complete yet, but 28% bond progress and a story-driven name fits the attention-market thesis.
 
+## [2026-09-12 23:15 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
