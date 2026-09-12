@@ -22987,3 +22987,9 @@
 ## [2026-09-12 10:15 UTC] sell | [PARTIAL][LLM] $$NOVAL at $3.67921e-06 | P&L: +28.8%
 - **Reasoning:** Up +28.8% in minutes, pool only $406 — lock in the gain on this explosive move, ride the rest with reduced risk. Profits at this magnitude on a bonding-curve microcap evaporate fast.
 
+## [2026-09-12 10:16 UTC] sell | [FULL][LLM] $$NOVAL at $3.65351e-06 | P&L: +27.9%
+- **Reasoning:** +27.9% in 6 minutes with no clear narrative catalyst and bonding curve only 43% complete. Per scalp discipline, lock gains >20% when there's any doubt — gains evaporate fast on bonding-curve tokens and the next leg requires fresh attention I don't see here.
+
+## [2026-09-12 10:16 UTC] buy | [LLM] $淘淘 at $4.77463e-06, spent 0.05 SOL
+- **Reasoning:** Chinese memecoin '淘淘' at $4.7k mcap with an X status link — fresh sub-1min launch, narrative identity (Tao Tao), and early-stage attention. Low mcap + clear name = attention market upside. Risk: thin liquidity at this stage, but position size (0.05 SOL) is sized to that risk.
+
