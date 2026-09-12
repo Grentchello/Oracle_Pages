@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.026225,
+  "balance_sol": 13.081946,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CXgm6jgRXAeD2ve78TfmgHjNZvuZYjApXZnwfm2qpump": {
-      "symbol": "Snailcat",
-      "name": "Snailcat",
-      "mint": "CXgm6jgRXAeD2ve78TfmgHjNZvuZYjApXZnwfm2qpump",
-      "amount": 674212.33783426,
-      "entry_price_usd": 7.554e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T09:49:56.992335+00:00",
-      "entry_time_iso": "2026-09-12T09:49:56.992345+00:00",
-      "entry_usd_value": 5.093,
-      "last_seen_price_usd": 7.554e-06,
-      "entry_liquidity_usd": 2186.05799396468,
-      "entry_pool_sol": 21.461397938,
-      "entry_market_cap_usd": 8721.942861481337,
-      "entry_signals": {
-        "liquidity_usd": 2186.05799396468,
-        "volume_24h_usd": 5036.82,
-        "market_cap_usd": 8721.942861481337,
-        "ath_market_cap_usd": 9328.304247313084,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 21.461397938,
-        "description": "",
-        "twitter": "https://x.com/devioussol/status/2098710123006894431",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -54693,19 +54664,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 77.715866,
       "partial": false
+    },
+    {
+      "mint": "CXgm6jgRXAeD2ve78TfmgHjNZvuZYjApXZnwfm2qpump",
+      "symbol": "Snailcat",
+      "name": "Snailcat",
+      "amount_sold": 674212.33783426,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T09:49:56.992335+00:00",
+      "entry_time_iso": "2026-09-12T09:49:56.992345+00:00",
+      "exit_time": "2026-09-12T09:51:16.956009+00:00",
+      "exit_time_iso": "2026-09-12T09:51:16.956014+00:00",
+      "entry_price_usd": 7.554e-06,
+      "exit_price_usd": 8.46292217406845e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.055721,
+      "pnl_sol": 0.005721,
+      "pnl_pct": 12.03,
+      "exit_reason": "LLM: sell_all — Just entered ($Snailcat at $0.0000075540, now +12% at $0.0000084629) with held time essentially 0h. Bonding curve still early, pool only $2210 so tigh",
+      "entry_liquidity_usd": 2186.06,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 21.4614,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 79.963691,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T09:49:56.992645+00:00",
+  "last_updated": "2026-09-12T09:51:16.956682+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.86,
-  "portfolio_value_usd": 1331.94,
+  "last_sol_price_usd": 102.4,
+  "portfolio_value_usd": 1339.59,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 09:01 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 09:09 UTC",
       "action": "buy",
@@ -54819,30 +54808,48 @@
       "action": "buy",
       "details": "[LLM] $Snailcat at $7.554e-06, spent 0.05 SOL",
       "reason": "$Snailcat: strongest launch in the slate — highest mcap $8.7k, 30% bond already filled, meme-animal narrative (snailcat) is recognizable and viral-ready. 0.05 SOL position sized for fresh-launch volatility."
+    },
+    {
+      "time": "2026-09-12 09:51 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Snailcat at $8.46292e-06 | P&L: +12.0%",
+      "reason": "Just entered ($Snailcat at $0.0000075540, now +12% at $0.0000084629) with held time essentially 0h. Bonding curve still early, pool only $2210 so tight but the position is green. Give it room to run before deciding."
     }
   ],
   "trade_stats": {
-    "total": 3196,
-    "wins": 1486,
+    "total": 3197,
+    "wins": 1487,
     "losses": 1710,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.860037,
-    "avg_pnl_pct": 29.22,
+    "total_pnl_sol": 8.865758,
+    "avg_pnl_pct": 29.21,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 123,
-    "today_realized_sol": 3.826941,
-    "today_target_pct": 956.7,
+    "today_trades": 124,
+    "today_realized_sol": 3.832662,
+    "today_target_pct": 958.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1486,
+      "win_count": 1487,
       "loss_count": 1710,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T09:49:55.637592+00:00",
+  "last_llm_brief_at": "2026-09-12T09:51:16.955906+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CXgm6jgRXAeD2ve78TfmgHjNZvuZYjApXZnwfm2qpump": {
+      "price_usd": 8.46292217406845e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2209.6624379904,
+      "volume_h24": 7854.69,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 21.578734746
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

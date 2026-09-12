@@ -22942,3 +22942,6 @@
 ## [2026-09-12 09:49 UTC] buy | [LLM] $Snailcat at $7.554e-06, spent 0.05 SOL
 - **Reasoning:** $Snailcat: strongest launch in the slate — highest mcap $8.7k, 30% bond already filled, meme-animal narrative (snailcat) is recognizable and viral-ready. 0.05 SOL position sized for fresh-launch volatility.
 
+## [2026-09-12 09:51 UTC] sell | [FULL][LLM] $Snailcat at $8.46292e-06 | P&L: +12.0%
+- **Reasoning:** Just entered ($Snailcat at $0.0000075540, now +12% at $0.0000084629) with held time essentially 0h. Bonding curve still early, pool only $2210 so tight but the position is green. Give it room to run before deciding.
+
