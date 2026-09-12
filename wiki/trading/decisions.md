@@ -24274,3 +24274,6 @@
 ## [2026-09-12 22:38 UTC] buy | [LLM] $Breadcoin at $9.64035e-06, spent 0.05 SOL
 - **Reasoning:** Breadcoin has viral X attention from esotericpigeon, narrative of a tokenized bread coin (food meme category historically strong), $9.6k mcap with 31% bonding = early entry window. Bread/food memes have cultural stickiness and the twitter signal is fresh.
 
+## [2026-09-12 22:39 UTC] sell | [FULL][LLM] $Breadcoin at $9.42243e-06 | P&L: -2.3%
+- **Reasoning:** Just opened (0.0h), -2.3% is normal bonding-curve noise, well above the -25% hard stop. No signal to exit yet.
+
