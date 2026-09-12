@@ -22789,3 +22789,6 @@
 ## [2026-09-12 07:50 UTC] buy | [LLM] $BREVOLE at $3.29342e-06, spent 0.05 SOL
 - **Reasoning:** $BREVOLE (baby revolve) rides the recognizable Revolve fashion brand parody — baby/pregnant animal versions of known brands consistently pump on attention. Brand-recognition parody = real narrative signal. Risk: bond only 7%, very early, thin liquidity.
 
+## [2026-09-12 07:51 UTC] sell | [FULL][LLM] $BREVOLE at $3.52663e-06 | P&L: +7.1%
+- **Reasoning:** Just entered, +7% is small profit. Bonding-curve token with $350 pool is fragile though - if it stalls I'll exit fast on the staleness rule.
+
