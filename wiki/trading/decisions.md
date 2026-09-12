@@ -24454,3 +24454,6 @@
 ## [2026-09-12 23:50 UTC] buy | [LLM] $FATPIG at $3.87149e-06, spent 0.05 SOL
 - **Reasoning:** $FATPIG with 'DUVE HAS %40' narrative — memecoins are attention markets and a fat pig theme with a percentage angle is classic viral bait. 0.5min old, $3.8k mcap, has twitter presence (X link). Liquidity thin but bond at 12% means pump.fun migration in progress. 0.05 SOL position (within rules) — small bet on attention narrative.
 
+## [2026-09-12 23:51 UTC] sell | [rapid-drop] $FATPIG crashed >15% in one tick | P&L: -25.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
