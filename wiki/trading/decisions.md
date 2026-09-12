@@ -22618,3 +22618,6 @@
 ## [2026-09-12 06:20 UTC] buy | [LLM] $PLANTHER at $3.458e-06, spent 0.05 SOL
 - **Reasoning:** $PLANTHER launched ~2.5min ago at $3.3k mcap with a live X attention signal (racosends tweet). Plant/animal hybrid memecoins on Solana have a track record of viral runs (see earlier tree/animal meta), tiny mcap = massive upside if narrative catches.0.05 SOL risk is negligible vs potential 10-50x; viability gate passes via twitter link.
 
+## [2026-09-12 06:22 UTC] sell | [FULL][LLM] $PLANTHER at $3.05998e-06 | P&L: -11.5%
+- **Reasoning:** Just entered (0.0h held), down -11.5% but nowhere near the -25% hard cap or the 30min stale exit. Bonding curve still active, pool small ($114) — give it a chance to bounce before cutting. If it hits -25% or stalls flat for 15+ min, exit.
+

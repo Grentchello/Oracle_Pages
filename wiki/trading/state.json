@@ -1,32 +1,8 @@
 {
-  "balance_sol": 13.145259,
+  "balance_sol": 13.189326,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6evogrrXuEay6isRifDYYsNvArQ1c87Zxd62rhycpump": {
-      "symbol": "PLANTHER",
-      "name": "Planther",
-      "amount": 1464141.122035859,
-      "entry_price_usd": 3.458e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T06:20:58.787850+00:00",
-      "entry_usd_value": 5.063000000000001,
-      "last_seen_price_usd": 3.458e-06,
-      "entry_signals": {
-        "liquidity_usd": 268.02605870402004,
-        "volume_24h_usd": 9064.93,
-        "market_cap_usd": 3275.5289056026395,
-        "ath_market_cap_usd": 6413.005352770446,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.646909527,
-        "description": "",
-        "twitter": "https://x.com/racosends/status/2098657341902315960",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53441,19 +53417,30 @@
       "pnl_pct": -12.2,
       "exit_reason": "LLM: sell_all — $belief is -12.2% on a bonding curve with $0 pool liquidity and our share reported at 877M% — this position is illiquid and heading toward -25% hard c",
       "partial": false
+    },
+    {
+      "mint": "6evogrrXuEay6isRifDYYsNvArQ1c87Zxd62rhycpump",
+      "symbol": "PLANTHER",
+      "name": "Planther",
+      "amount_sold": 1464141.122035859,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T06:20:58.787850+00:00",
+      "exit_time": "2026-09-12T06:22:15.840551+00:00",
+      "entry_price_usd": 3.458e-06,
+      "exit_price_usd": 3.0599802309697134e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.044067,
+      "pnl_sol": -0.005933,
+      "pnl_pct": -11.51,
+      "exit_reason": "LLM: sell_all — Just entered (0.0h held), down -11.5% but nowhere near the -25% hard cap or the 30min stale exit. Bonding curve still active, pool small ($114) — give",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T06:20:58.788018+00:00",
+  "last_updated": "2026-09-12T06:22:15.840730+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.26,
-  "portfolio_value_usd": 1336.15,
+  "last_sol_price_usd": 101.67,
+  "portfolio_value_usd": 1340.96,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 05:51 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $GOAT at $7.24457e-06 | P&L: -0.2%",
-      "reason": "GOAT just opened, -0.2% is noise band on a bonding-curve microcap. No bearish signal, no reason to panic-sell a fresh entry. Give it time to develop or hit the -25% hard cap."
-    },
     {
       "time": "2026-09-12 05:54 UTC",
       "action": "buy",
@@ -53567,30 +53554,48 @@
       "action": "buy",
       "details": "[LLM] $PLANTHER at $3.458e-06, spent 0.05 SOL",
       "reason": "$PLANTHER launched ~2.5min ago at $3.3k mcap with a live X attention signal (racosends tweet). Plant/animal hybrid memecoins on Solana have a track record of viral runs (see earlier tree/animal meta), tiny mcap = massive upside if narrative catches.0.05 SOL risk is negligible vs potential 10-50x; viability gate passes via twitter link."
+    },
+    {
+      "time": "2026-09-12 06:22 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PLANTHER at $3.05998e-06 | P&L: -11.5%",
+      "reason": "Just entered (0.0h held), down -11.5% but nowhere near the -25% hard cap or the 30min stale exit. Bonding curve still active, pool small ($114) — give it a chance to bounce before cutting. If it hits -25% or stalls flat for 15+ min, exit."
     }
   ],
   "trade_stats": {
-    "total": 3142,
+    "total": 3143,
     "wins": 1466,
-    "losses": 1676,
-    "win_rate_pct": 46.7,
-    "total_pnl_sol": 8.979072,
-    "avg_pnl_pct": 29.81,
+    "losses": 1677,
+    "win_rate_pct": 46.6,
+    "total_pnl_sol": 8.973139,
+    "avg_pnl_pct": 29.8,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 69,
-    "today_realized_sol": 3.945976,
-    "today_target_pct": 986.5,
+    "today_trades": 70,
+    "today_realized_sol": 3.940043,
+    "today_target_pct": 985.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1466,
-      "loss_count": 1676,
+      "loss_count": 1677,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T06:20:57.427185+00:00",
+  "last_llm_brief_at": "2026-09-12T06:22:15.840473+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "6evogrrXuEay6isRifDYYsNvArQ1c87Zxd62rhycpump": {
+      "price_usd": 3.0599802309697134e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 114.48096210444001,
+      "volume_h24": 9264.76,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.126005332
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
