@@ -1,37 +1,8 @@
 {
-  "balance_sol": 13.158862,
+  "balance_sol": 13.194029,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "91bBCCdw26wVJhiB7VD1Rbbh74ai5QQtTi6ytdrXpump": {
-      "symbol": "TCAT",
-      "name": "Tesla Cat",
-      "mint": "91bBCCdw26wVJhiB7VD1Rbbh74ai5QQtTi6ytdrXpump",
-      "amount": 522022.58726899384,
-      "entry_price_usd": 9.74e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T07:28:46.584909+00:00",
-      "entry_time_iso": "2026-09-12T07:28:46.584918+00:00",
-      "entry_usd_value": 5.0845,
-      "last_seen_price_usd": 9.74e-06,
-      "entry_liquidity_usd": 2342.2024392632998,
-      "entry_pool_sol": 23.03277057,
-      "entry_market_cap_usd": 8941.692163838063,
-      "entry_signals": {
-        "liquidity_usd": 2342.2024392632998,
-        "volume_24h_usd": 17145.58,
-        "market_cap_usd": 8941.692163838063,
-        "ath_market_cap_usd": 11539.981382544385,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 23.03277057,
-        "description": "Launched on discord.gg/uxento",
-        "twitter": "https://x.com/TCATotc",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -53997,19 +53968,37 @@
       "exit_pool_sol": 15.792,
       "hold_duration_seconds": 137.775322,
       "partial": false
+    },
+    {
+      "mint": "91bBCCdw26wVJhiB7VD1Rbbh74ai5QQtTi6ytdrXpump",
+      "symbol": "TCAT",
+      "name": "Tesla Cat",
+      "amount_sold": 522022.58726899384,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T07:28:46.584909+00:00",
+      "entry_time_iso": "2026-09-12T07:28:46.584918+00:00",
+      "exit_time": "2026-09-12T07:29:50.398358+00:00",
+      "exit_time_iso": "2026-09-12T07:29:50.398367+00:00",
+      "entry_price_usd": 9.74e-06,
+      "exit_price_usd": 6.851302070869743e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.035167,
+      "pnl_sol": -0.014833,
+      "pnl_pct": -29.66,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 2342.2,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 23.0328,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.81347,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T07:28:46.585125+00:00",
+  "last_updated": "2026-09-12T07:30:00.889495+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.69,
-  "portfolio_value_usd": 1343.21,
+  "last_sol_price_usd": 101.7,
+  "portfolio_value_usd": 1341.83,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 07:07 UTC",
-      "action": "buy",
-      "details": "[LLM] $Fries at $6.431e-06, spent 0.05 SOL",
-      "reason": "$Fries has a concrete attention signal (Discord launch on uxento, mindsharez X post), name is memeable, and 2.2min age with $7.6k mcap — still in the launchpad sweet spot. Small 0.1 SOL position; will bail fast if no traction by 15min."
-    },
     {
       "time": "2026-09-12 07:08 UTC",
       "action": "sell",
@@ -54123,40 +54112,46 @@
       "action": "buy",
       "details": "[LLM] $TCAT at $9.74e-06, spent 0.05 SOL",
       "reason": "Tesla Cat blends two viral meme archetypes (Tesla/crypto-cult + catcoins like POPCAT). Has Twitter presence (TCATotc), 2.4min old at $8.9k mcap = extreme early. Bond 30% shows real buy pressure. Risk: ultra-low mcap = whale-raggable, but max loss is capped at 0.025 SOL (-25%). Asymmetric upside if narrative catches."
+    },
+    {
+      "time": "2026-09-12 07:29 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $TCAT crashed >15% in one tick | P&L: -29.7%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3167,
+    "total": 3168,
     "wins": 1477,
-    "losses": 1690,
+    "losses": 1691,
     "win_rate_pct": 46.6,
-    "total_pnl_sol": 8.992674,
-    "avg_pnl_pct": 29.56,
+    "total_pnl_sol": 8.977841,
+    "avg_pnl_pct": 29.54,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 94,
-    "today_realized_sol": 3.959578,
-    "today_target_pct": 989.9,
+    "today_trades": 95,
+    "today_realized_sol": 3.944745,
+    "today_target_pct": 986.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1477,
-      "loss_count": 1690,
+      "loss_count": 1691,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T07:28:45.337979+00:00",
+  "last_llm_brief_at": "2026-09-12T07:30:00.889460+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "62Y52iLvvr5BGJKiB48SkTfkSv9SSCJ4r7xehBrhpump": {
-      "price_usd": 2.853653694780345e-06,
+    "91bBCCdw26wVJhiB7VD1Rbbh74ai5QQtTi6ytdrXpump": {
+      "price_usd": 6.851302070869743e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 5.63001753035,
-      "volume_h24": 12096.58,
+      "liquidity_usd": 1684.9545282261001,
+      "volume_h24": 22390.69,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.055364515
+      "real_sol_reserves": 16.567891133
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

@@ -22762,3 +22762,6 @@
 ## [2026-09-12 07:28 UTC] buy | [LLM] $TCAT at $9.74e-06, spent 0.05 SOL
 - **Reasoning:** Tesla Cat blends two viral meme archetypes (Tesla/crypto-cult + catcoins like POPCAT). Has Twitter presence (TCATotc), 2.4min old at $8.9k mcap = extreme early. Bond 30% shows real buy pressure. Risk: ultra-low mcap = whale-raggable, but max loss is capped at 0.025 SOL (-25%). Asymmetric upside if narrative catches.
 
+## [2026-09-12 07:29 UTC] sell | [rapid-drop] $TCAT crashed >15% in one tick | P&L: -29.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
