@@ -23968,3 +23968,9 @@
 ## [2026-09-12 20:00 UTC] buy | [LLM] $ZHOE at $3.277e-06, spent 0.05 SOL
 - **Reasoning:** ZHOE is a fresh 0.5min launch with explicit MC milestones (50k → 200k), viral X post, and a degenerate-but-shareable narrative (zaza culture). $3.2k mcap with stated price ladder is classic pump.fun attention bait — high risk but the asymmetric setup fits scalp rules. Size 0.05 SOL per v7.
 
+## [2026-09-12 20:01 UTC] sell | [FULL][LLM] $ZHOE at $3.29017e-06 | P&L: +0.4%
+- **Reasoning:** $ZHOE is flat at +0.4% after entry on a $231 bonding-curve pool where I hold 2% — that's dangerous concentration with zero momentum. Capital is locked in a stale position; freeing the slot is the priority.
+
+## [2026-09-12 20:01 UTC] buy | [LLM] $SOLANA at $9.48946e-05, spent 0.05 SOL
+- **Reasoning:** $SOLANA is the meta-narrative play — the token literally IS the chain's name, with a twitter link to @ticaonsol pushing it. $3.6k mcap at 0.6min age has the asymmetry the rules call for: cheap attention, strong name, small position size keeps risk bounded.
+
