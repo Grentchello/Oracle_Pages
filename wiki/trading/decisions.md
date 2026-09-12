@@ -24178,3 +24178,6 @@
 ## [2026-09-12 21:44 UTC] sell | [FULL][LLM] $Bonero at $0.00193935 | P&L: +1.4%
 - **Reasoning:** $Bonero is barely +1.4% after 0.0h — too early to call stale, no exit signal yet. Will reassess if it stays flat past 15 min.
 
+## [2026-09-12 21:45 UTC] buy | [LLM] $SHADOW at $0.000847228, spent 0.05 SOL
+- **Reasoning:** $SHADOW — recognizable Sonic IP, freshest launch (0.5min), mcap $4.6k is in the sweet spot for early attention. Viral character meme with X presence. Risk: brand IP but that's what drives attention.
+
