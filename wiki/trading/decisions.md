@@ -22675,3 +22675,6 @@
 ## [2026-09-12 06:53 UTC] buy | [LLM] $RETAIL at $3.311e-06, spent 0.05 SOL
 - **Reasoning:** $RETAIL — cleanest narrative of the three (retail-vs-Wall-Street is a viral evergreen meta), lowest mcap at $3.1k = most room to run, tweet from a derivatives-trading account fits the theme. Sizing 0.05 SOL per header rules; will TP at +50% if it pops, exit if flat30 min.
 
+## [2026-09-12 06:55 UTC] sell | [FULL][LLM] $RETAIL at $2.88e-06 | P&L: -13.0%
+- **Reasoning:** Down13% but not yet at the -25% hard cap. Bonding-curve token with $21 pool — tiny, illiquid, but a bounce on low-mcap is plausible. Will exit if it hits -25% or goes stale.
+
