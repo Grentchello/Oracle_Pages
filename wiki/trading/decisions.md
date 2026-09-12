@@ -24169,3 +24169,9 @@
 ## [2026-09-12 21:41 UTC] buy | [LLM] $Private at $0.00127591, spent 0.05 SOL
 - **Reasoning:** $Private has viral narrative (private coin / privacy meta is hot), low mcap $7k, posted from pump.fun official X — strong attention signal, asymmetric upside at this size.
 
+## [2026-09-12 21:43 UTC] sell | [rapid-drop] $Private crashed >15% in one tick | P&L: -27.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 21:43 UTC] buy | [LLM] $Bonero at $0.00191207, spent 0.05 SOL
+- **Reasoning:** Bonero = Monero parody, privacy-coin narrative has durable meme appeal, live X post from @0xNarmo, highest mcap of the four ($10.6k) signals real early bids. Risk: sub-90sec old, bond26% means still illiquid — hard stop will protect if it fails to pump.
+
