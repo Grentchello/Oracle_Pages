@@ -1,27 +1,27 @@
 {
-  "balance_sol": 9.183285,
+  "balance_sol": 9.174453,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "HXVr65x34DFeWqDAmRowqezeggRZEhwJJmWRGrqtk1it": {
-      "symbol": "PONS",
-      "name": "Piece of Nasty Shit",
-      "amount": 1472447.6846272424,
-      "entry_price_usd": 3.4690536399553757e-06,
+    "7dULN3cLsyZ4Xg6hs49WDULpbmXTHdZH3F94QkHNpump": {
+      "symbol": "SolPVP",
+      "name": "SolPvP",
+      "amount": 1530864.1975308643,
+      "entry_price_usd": 3.321e-06,
       "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T02:49:26.657209+00:00",
-      "entry_usd_value": 5.1080000000000005,
-      "last_seen_price_usd": 3.4690536399553757e-06,
+      "entry_time": "2026-09-12T02:50:44.097601+00:00",
+      "entry_usd_value": 5.0840000000000005,
+      "last_seen_price_usd": 3.321e-06,
       "entry_signals": {
-        "liquidity_usd": 312.78617273104,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3456.7125630602736,
-        "ath_market_cap_usd": 3456.7125630602736,
+        "liquidity_usd": 207.57668729232003,
+        "volume_24h_usd": 279.49,
+        "market_cap_usd": 3294.9741366985336,
+        "ath_market_cap_usd": 3389.1717552117952,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 3.061728394,
-        "description": "",
-        "twitter": "https://x.com/boltricksdeving/status/2098342320127013094",
+        "real_sol_reserves": 2.041470174,
+        "description": "A new generation of Solana token launches. Two tokens. One 60-minute battle. On-chain competition. Transparent rewards.",
+        "twitter": "https://x.com/SolvPvP",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -52336,25 +52336,30 @@
       "pnl_pct": -17.3,
       "exit_reason": "rapid-drop -15%/tick",
       "partial": false
+    },
+    {
+      "mint": "HXVr65x34DFeWqDAmRowqezeggRZEhwJJmWRGrqtk1it",
+      "symbol": "PONS",
+      "name": "Piece of Nasty Shit",
+      "amount_sold": 1472447.6846272424,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T02:49:26.657209+00:00",
+      "exit_time": "2026-09-12T02:50:30.469668+00:00",
+      "entry_price_usd": 3.4690536399553757e-06,
+      "exit_price_usd": 2.8428704567583227e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.041168,
+      "pnl_sol": -0.008832,
+      "pnl_pct": -18.05,
+      "exit_reason": "rapid-drop -15%/tick",
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T02:49:26.657419+00:00",
+  "last_updated": "2026-09-12T02:50:44.097766+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.16,
-  "portfolio_value_usd": 943.27,
+  "last_sol_price_usd": 101.68,
+  "portfolio_value_usd": 937.94,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 01:42 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-12 01:43 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-12 01:48 UTC",
       "action": "observe",
@@ -52462,30 +52467,54 @@
       "action": "buy",
       "details": "[LLM] $PONS at $3.46905e-06, spent 0.05 SOL",
       "reason": "$PONS has the twitter link (passes viability gate), crude/edgy name is attention-bait, and bond at 8% means earliest possible entry for maximum upside if it catches. Risk: sub-$4k mcap, no holders distributed yet, fragility score unknown. -25% hard cap limits damage."
+    },
+    {
+      "time": "2026-09-12 02:50 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $PONS crashed >15% in one tick | P&L: -18.1%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-12 02:50 UTC",
+      "action": "buy",
+      "details": "[LLM] $SolPVP at $3.321e-06, spent 0.05 SOL",
+      "reason": "$SolPVP passes viability gate — solid description, real twitter handle, and the '60-minute battle' framing is built-in viral urgency (competition = attention). $3.3k mcap is early enough for asymmetric upside. Taking 0.05 SOL."
     }
   ],
   "trade_stats": {
-    "total": 3077,
+    "total": 3078,
     "wins": 1436,
-    "losses": 1641,
+    "losses": 1642,
     "win_rate_pct": 46.7,
-    "total_pnl_sol": 5.017097,
-    "avg_pnl_pct": 27.9,
+    "total_pnl_sol": 5.008265,
+    "avg_pnl_pct": 27.89,
     "best_pnl_pct": 3530.52,
     "worst_pnl_pct": -99.94,
-    "today_trades": 4,
-    "today_realized_sol": -0.015999,
-    "today_target_pct": -4.0,
+    "today_trades": 5,
+    "today_realized_sol": -0.024831,
+    "today_target_pct": -6.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1436,
-      "loss_count": 1641,
+      "loss_count": 1642,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T02:49:25.417036+00:00",
+  "last_llm_brief_at": "2026-09-12T02:50:42.728861+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HXVr65x34DFeWqDAmRowqezeggRZEhwJJmWRGrqtk1it": {
+      "price_usd": 2.8428704567583227e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.0168000000000001e-07,
+      "volume_h24": 311.74,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

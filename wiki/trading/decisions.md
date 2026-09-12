@@ -22234,3 +22234,9 @@
 ## [2026-09-12 02:49 UTC] buy | [LLM] $PONS at $3.46905e-06, spent 0.05 SOL
 - **Reasoning:** $PONS has the twitter link (passes viability gate), crude/edgy name is attention-bait, and bond at 8% means earliest possible entry for maximum upside if it catches. Risk: sub-$4k mcap, no holders distributed yet, fragility score unknown. -25% hard cap limits damage.
 
+## [2026-09-12 02:50 UTC] sell | [rapid-drop] $PONS crashed >15% in one tick | P&L: -18.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 02:50 UTC] buy | [LLM] $SolPVP at $3.321e-06, spent 0.05 SOL
+- **Reasoning:** $SolPVP passes viability gate — solid description, real twitter handle, and the '60-minute battle' framing is built-in viral urgency (competition = attention). $3.3k mcap is early enough for asymmetric upside. Taking 0.05 SOL.
+
