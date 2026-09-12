@@ -23893,3 +23893,6 @@
 ## [2026-09-12 19:15 UTC] buy | [LLM] $BINGUS at $9.02782e-05, spent 0.05 SOL
 - **Reasoning:** Bingus is a recognizable meme cat (green chair viral image) with a Twitter link attached — real narrative, not random letters. Sub-$5k mcap at<1min old is the fresh-attention window where memecoins pump50-300%. 0.05 SOL risk is small; let it ride.
 
+## [2026-09-12 19:16 UTC] sell | [FULL][LLM] $BINGUS at $8.21227e-05 | P&L: -9.0%
+- **Reasoning:** Position share of 907791500% means we are essentially the entire bonding curve — no exit liquidity without crashing price further. -9% and flat. Cut the illiquid bag before it gets worse, free the slot for a real trade.
+
