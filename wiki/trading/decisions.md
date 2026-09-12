@@ -23077,3 +23077,6 @@
 ## [2026-09-12 11:02 UTC] buy | [LLM] $🐶 at $0.000463205, spent 0.05 SOL
 - **Reasoning:** $🐶 Tippy taps from @buitengebieden — one of the highest-engagement wholesome/animal accounts on X with massive viral reach. $3.8k mcap on1% bond = extreme early stage. High risk but the attention signal is real and upside could be 5-10x in hours if it catches. Entering at 0.1 SOL.
 
+## [2026-09-12 11:03 UTC] sell | [FULL][LLM] $🐶 at $0.000460716 | P&L: -0.5%
+- **Reasoning:** $🐶 just opened (0.0h held) and is only -0.5% — essentially flat. Bonding curve at $4.5k pool means we need a few more minutes to see if attention builds. No reason to panic-exit at the opening tick; will reassess next cycle if it goes stale or down >20%.
+
