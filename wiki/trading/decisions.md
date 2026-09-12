@@ -23158,3 +23158,9 @@
 ## [2026-09-12 11:48 UTC] buy | [LLM] $Entropy at $5.88437e-06, spent 0.05 SOL
 - **Reasoning:** $Entropy 'Entropy The Whale' — fresh 0.5min launch, $5.9k mcap, 23% bond filling, X post already live pointing at the mint. Whale mascot + entropy is a clean attention hook at micro-cap. Risk: micro-mcap + only 23% bond = thin liquidity and rug-prone, but size is 0.05 SOL so capped. Skipping $werld (discord 'taking over' pattern, classic rug), $PLATFORM (generic), $STAMPY/$Athoil (no narrative).
 
+## [2026-09-12 11:49 UTC] sell | [rapid-drop] $Entropy crashed >15% in one tick | P&L: -47.5%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 11:49 UTC] buy | [LLM] $BETTER HANFL at $3.482e-06, spent 0.05 SOL
+- **Reasoning:** $BETTER HANFL has a concrete attention mechanic — a notable X account 'replied hello' to the project, which is exactly the kind of reply-screenshot that goes viral on CT. Mcap $3.2k at 1.2min old = maximum upside leverage if the reply-screenshot narrative catches. Risk: bond only 6%, very thin liquidity, could rug — sizing 0.1 SOL keeps loss to -0.025 SOL hard cap.
+
