@@ -23635,3 +23635,9 @@
 ## [2026-09-12 16:37 UTC] buy | [LLM] $PSTR at $0.000385508, spent 0.05 SOL
 - **Reasoning:** $PSTR (PumpFun Strategy) ties the narrative directly to PumpFun itself — meta-narrative plays catch attention fast on a 0.5min launch. Has twitter link from a real account (TobiasJochike), mcap $14k is still very early, bond 34% showing real buys. Risky but the meta-narrative is the kind of attention signal that pumps.
 
+## [2026-09-12 16:38 UTC] sell | [v8.7 TP +50% (full)] $PSTR at $0.00108381 | P&L: +181.1%
+- **Reasoning:** Auto take-profit at +181.1%
+
+## [2026-09-12 16:39 UTC] buy | [LLM] $LARA at $4.924e-06, spent 0.05 SOL
+- **Reasoning:** $LARA Project Lara — sonicdeployer X post, fresh0.5min launch, $3.2k mcap. Unknown narrative but Sonic deployer has been an active attention source; cheap entry at bonding6% lets ride the first wave if any traction hits.
+
