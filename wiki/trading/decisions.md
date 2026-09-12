@@ -24010,3 +24010,9 @@
 ## [2026-09-12 20:22 UTC] buy | [LLM] $PENIS at $5.775e-06, spent 0.05 SOL
 - **Reasoning:** $PENIS is the highest attention name in the batch — crude humor names print consistently on memecoin launches. Mcap $6k sub-1min is the ideal early-entry zone for a viral-attention play.
 
+## [2026-09-12 20:23 UTC] sell | [v8.7 TP +50% (full)] $PENIS at $0.000517733 | P&L: +8865.1%
+- **Reasoning:** Auto take-profit at +8865.1%
+
+## [2026-09-12 20:23 UTC] buy | [LLM] $IPG at $0.000326817, spent 0.05 SOL
+- **Reasoning:** $IPG 'infinite pump glitch' is a sequel play to 'infinite money glitch' which hit $40m — strong narrative continuity, has Twitter, fresh launch at $12k mcap. 0.05 SOL position (halved per v7 rules); will take profit at +25-50% unless momentum keeps building.
+
