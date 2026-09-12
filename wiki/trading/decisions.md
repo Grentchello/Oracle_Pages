@@ -23281,3 +23281,6 @@
 ## [2026-09-12 13:07 UTC] buy | [LLM] $Wars at $2.862e-06, spent 0.05 SOL
 - **Reasoning:** Fresh $3.3k mcap, catchy 'Stonk Wars' name with AI tie-in and a real twitter handle ($StonkWarsAI). 'Animal brains trading competition' is meme-native narrative — exactly the kind of weird-attention that 10x's in the first hour.
 
+## [2026-09-12 13:08 UTC] sell | [PARTIAL][LLM] $Wars at $3.32858e-06 | P&L: +16.3%
+- **Reasoning:** Up +16.3% but pool is only $246 (micro-cap, easy dump). Selling half locks ~+15% gain while keeping a runner in case VRChat-narrative pumps continue. Half-exit de-risks the thin-liquidity bonding-curve scenario.
+
