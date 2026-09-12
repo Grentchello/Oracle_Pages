@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.762577,
+  "balance_sol": 12.832772,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ELcVyvXaXKSasuxXQwYDFiNnVxArw9TUMw83UjKqpump": {
-      "symbol": "KEYCAT",
-      "name": "Keyboard Cat",
-      "mint": "ELcVyvXaXKSasuxXQwYDFiNnVxArw9TUMw83UjKqpump",
-      "amount": 246342.6371511068,
-      "entry_price_usd": 2.078e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T15:27:58.290922+00:00",
-      "entry_time_iso": "2026-09-12T15:27:58.290932+00:00",
-      "entry_usd_value": 5.119,
-      "last_seen_price_usd": 2.078e-05,
-      "entry_liquidity_usd": 6523.01715196574,
-      "entry_pool_sol": 63.713783473,
-      "entry_market_cap_usd": 23717.77633541236,
-      "entry_signals": {
-        "liquidity_usd": 6523.01715196574,
-        "volume_24h_usd": 5775.76,
-        "market_cap_usd": 23717.77633541236,
-        "ath_market_cap_usd": 24731.90962419167,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 63.713783473,
-        "description": "",
-        "twitter": "https://x.com/banesthemane/status/2098793793155744045",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -56997,19 +56968,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.724741,
       "partial": false
+    },
+    {
+      "mint": "ELcVyvXaXKSasuxXQwYDFiNnVxArw9TUMw83UjKqpump",
+      "symbol": "KEYCAT",
+      "name": "Keyboard Cat",
+      "amount_sold": 246342.6371511068,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T15:27:58.290922+00:00",
+      "entry_time_iso": "2026-09-12T15:27:58.290932+00:00",
+      "exit_time": "2026-09-12T15:29:26.352691+00:00",
+      "exit_time_iso": "2026-09-12T15:29:26.352695+00:00",
+      "entry_price_usd": 2.078e-05,
+      "exit_price_usd": 2.901058392687119e-05,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.070195,
+      "pnl_sol": 0.020195,
+      "pnl_pct": 39.61,
+      "exit_reason": "LLM: sell_all — +39.6% in 0h — already past the +30% threshold (auto-TP at 25%) but the bot flags our share=0% on bonding curve and pool is only $6.7k (shallow). Lock",
+      "entry_liquidity_usd": 6523.02,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 63.7138,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 88.061785,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T15:27:58.291209+00:00",
+  "last_updated": "2026-09-12T15:29:26.353366+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.38,
-  "portfolio_value_usd": 1311.75,
+  "last_sol_price_usd": 101.81,
+  "portfolio_value_usd": 1306.5,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 14:44 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $BAG at $3.44921e-06 | P&L: -9.9%",
-      "reason": "Down -9.9% with0% age — no attention catalyst visible, just bought this tick. Cut it before it bleeds to -25% hard stop. Free up slot for fresh launches."
-    },
     {
       "time": "2026-09-12 14:44 UTC",
       "action": "buy",
@@ -57123,30 +57112,48 @@
       "action": "buy",
       "details": "[LLM] $KEYCAT at $2.078e-05, spent 0.05 SOL",
       "reason": "$KEYCAT (Keyboard Cat) is a classic viral-attention memecoin — Keyboard Cat is one of the original internet meme legends (2007/2011 viral videos), giving it instant brand recognition and a built-in narrative. Only 1.3min old at $23.7k mcap with a fresh X post driving attention. The viability gate (description/twitter/liquidity) looks likely to pass given the twitter link is present, and Keyboard Cat has no political/celebrity fragility. Size 0.1 SOL per the buy rules."
+    },
+    {
+      "time": "2026-09-12 15:29 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $KEYCAT at $2.90106e-05 | P&L: +39.6%",
+      "reason": "+39.6% in 0h — already past the +30% threshold (auto-TP at 25%) but the bot flags our share=0% on bonding curve and pool is only $6.7k (shallow). Lock the 39.6% gain now; the rules say aggressive profit-taking when up >20% with any doubt. Don't hold for the next leg on a thin bonding-curve token where we can't even measure our share."
     }
   ],
   "trade_stats": {
-    "total": 3292,
-    "wins": 1523,
+    "total": 3293,
+    "wins": 1524,
     "losses": 1769,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 8.596391,
+    "total_pnl_sol": 8.616586,
     "avg_pnl_pct": 28.2,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 219,
-    "today_realized_sol": 3.563295,
-    "today_target_pct": 890.8,
+    "today_trades": 220,
+    "today_realized_sol": 3.58349,
+    "today_target_pct": 895.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1523,
+      "win_count": 1524,
       "loss_count": 1769,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T15:27:56.961779+00:00",
+  "last_llm_brief_at": "2026-09-12T15:29:26.352641+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "ELcVyvXaXKSasuxXQwYDFiNnVxArw9TUMw83UjKqpump": {
+      "price_usd": 2.901058392687119e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 6696.35842515119,
+      "volume_h24": 20727.92,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 65.773091299
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

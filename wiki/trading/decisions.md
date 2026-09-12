@@ -23500,3 +23500,6 @@
 ## [2026-09-12 15:27 UTC] buy | [LLM] $KEYCAT at $2.078e-05, spent 0.05 SOL
 - **Reasoning:** $KEYCAT (Keyboard Cat) is a classic viral-attention memecoin — Keyboard Cat is one of the original internet meme legends (2007/2011 viral videos), giving it instant brand recognition and a built-in narrative. Only 1.3min old at $23.7k mcap with a fresh X post driving attention. The viability gate (description/twitter/liquidity) looks likely to pass given the twitter link is present, and Keyboard Cat has no political/celebrity fragility. Size 0.1 SOL per the buy rules.
 
+## [2026-09-12 15:29 UTC] sell | [FULL][LLM] $KEYCAT at $2.90106e-05 | P&L: +39.6%
+- **Reasoning:** +39.6% in 0h — already past the +30% threshold (auto-TP at 25%) but the bot flags our share=0% on bonding curve and pool is only $6.7k (shallow). Lock the 39.6% gain now; the rules say aggressive profit-taking when up >20% with any doubt. Don't hold for the next leg on a thin bonding-curve token where we can't even measure our share.
+
