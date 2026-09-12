@@ -23314,3 +23314,6 @@
 ## [2026-09-12 13:18 UTC] buy | [LLM] $AMEMD at $5.345e-06, spent 0.05 SOL
 - **Reasoning:** AMEMD just launched1.2min ago, has an active X account (amemdcorp), clever tech-pretend narrative (MPU processing memes/sec), and $5.7k mcap — exactly the fresh-launch zone where 10x happens. Risks: ultra-low mcap, no liquidity track record, but attention signal is real and early.
 
+## [2026-09-12 13:19 UTC] sell | [rapid-drop] $AMEMD crashed >15% in one tick | P&L: -45.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
