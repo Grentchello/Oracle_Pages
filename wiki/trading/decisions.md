@@ -24199,3 +24199,6 @@
 ## [2026-09-12 21:53 UTC] buy | [LLM] $Tit at $0.00117036, spent 0.05 SOL
 - **Reasoning:** $Tit (Red-Headed Tit) — viral X post by @abrawlerj, mcap $6.2k at 0.6min, bond 14% (some traction). Bird/Red-Headed Tit has the kind of absurd, specific, memeable name that pumps on CT. Bond 14% > others suggests early conviction. Low mcap + X narrative = classic 10x candidate.
 
+## [2026-09-12 21:54 UTC] sell | [rapid-drop] $Tit crashed >15% in one tick | P&L: -28.7%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
