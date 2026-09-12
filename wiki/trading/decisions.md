@@ -23605,3 +23605,6 @@
 ## [2026-09-12 16:23 UTC] buy | [LLM] $PUMPLIFE at $0.000212914, spent 0.05 SOL
 - **Reasoning:** $PUMPLIFE is 30s old at $7.6k mcap with a twitter signal attached (rare for sub-$10k launches) and bond 25% formed. Generic 'pump life' name is exactly the attention-bait that memecoins reward. $POP skipped: bond only 8%, liquidity too thin to safely size 0.1 SOL — viability gate concern.
 
+## [2026-09-12 16:24 UTC] sell | [rapid-drop] $PUMPLIFE crashed >15% in one tick | P&L: -39.1%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
