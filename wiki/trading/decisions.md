@@ -23194,3 +23194,6 @@
 ## [2026-09-12 12:07 UTC] buy | [LLM] $AOC at $3.106e-06, spent 0.05 SOL
 - **Reasoning:** $AOC (ALL ON CAT) is a clear narrative evolution of the ALL ON SOL meta riding the hot cat meta today (Loud Cat also launching). Passes viability (long desc + twitter @allonsolana), passes fragility (no political/celebrity keywords), 1.3min old at $3.1k mcap — prime fresh-launch territory for a 10x move.
 
+## [2026-09-12 12:08 UTC] sell | [FULL][LLM] $AOC at $3.09646e-06 | P&L: -0.3%
+- **Reasoning:** Just entered, -0.3% is noise. Need to see direction develop in next 15 min before deciding. Bot will auto-stop at -25%.
+
