@@ -22681,3 +22681,9 @@
 ## [2026-09-12 06:56 UTC] buy | [LLM] $$1M at $3.102e-06, spent 0.05 SOL
 - **Reasoning:** $$1M is a pure meta-attention play — the entire narrative IS that the token pumps to $1M market cap via repetition/community. $3k mcap with 4% bond means earliest stage. This is exactly the 'meme about hitting mcap' archetype that has produced multiple runners. Risk: ultra-early, ultra-low liquidity, will likely die if creator stops posting. Sizing at 0.1 SOL means max loss -0.025 SOL (within -25% hard cap).
 
+## [2026-09-12 06:57 UTC] sell | [FULL][LLM] $$1M at $3.08186e-06 | P&L: -0.7%
+- **Reasoning:** Flat at -0.6% after just opening, $120 pool with4% share means illiquid exit. Slot needs to rotate to a higher-attention fresh launch (DOGUE has cobie tweet + dog meta). Capital rotation beats bag-holding a dead tick.
+
+## [2026-09-12 06:57 UTC] buy | [LLM] $DOGUE at $0.00150742, spent 0.05 SOL
+- **Reasoning:** $DOGUE has the strongest attention signal in this batch — cobie tweet (legit CT influencer, 600k+ followers), dog-themed derivative narrative riding $DOGE meta, fresh 0.9min launch at $12.5k mcap. Risk: bonding curve only 31%, thin liquidity, but name + attention combo is the exact pattern we want for early-momentum catching.
+
