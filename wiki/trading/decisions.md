@@ -23959,3 +23959,6 @@
 ## [2026-09-12 19:49 UTC] sell | [rapid-drop] $CRAP crashed >15% in one tick | P&L: -67.3%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-12 19:58 UTC] buy | [LLM] $RISE at $7.038e-06, spent 0.05 SOL
+- **Reasoning:** $RISE has the strongest attention mechanic of the batch: 60% airdrop to top 15 holders creates built-in buy competition and FOMO. Bond already at 29% with $8.2k mcap shows early traction. Risky at <1 min old and sub-$10k mcap, but the airdrop structure is a self-reinforcing viral loop.
+
