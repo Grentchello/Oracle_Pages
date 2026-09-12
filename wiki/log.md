@@ -578,3 +578,17 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Recent activity: $LARA, $golden, $delusional traded; $delusional exited at -14% per mechanical rules (sub-$2k liq, age<1min)
 - Slippage caveat unchanged: v9.0 sim understates real on-chain impact. Lifetime +12.67 SOL is paper PnL.
 - Verdict: **Profitable, no changes needed.** Bot up +12.67 SOL lifetime. Last 2h added +4.05 SOL cleanly. WR 46.3% with avg win 0.0243 vs avg loss 0.0138 — positive expectancy intact. No regime change, mechanical v8.7+ rules doing the work.
+
+## [2026-09-12 18:50 UTC] eval | memecoin bot — 2026-09-12 18:50 UTC
+- Window: since last eval (16:49 UTC), ~2h
+- Balance: 20.7914 SOL (up from 16.8879 — +3.90 SOL in 2h) | Starting 2.0 SOL → 10.4x in current run
+- Lifetime (state.json): 3348 trades, 46.4% WR, +18.7914 SOL net
+- Recent 200 trades: 85W / 115L (42.5% WR), net +7.6438 SOL
+- Breakdown (recent 200): TP wins 22 (+8.3966) | LLM override exits 121 (-0.6023) | rapid-drop 56 (-1.1504) | breakeven 1
+- Top 12 TP wins: SAME +2975% / STONKTARD +2570% / Apu +2148% / Alon +2063% / CASHLESS +2548% / JOHN +1359% / HODL +1337% / WIF +909% / Henry +235% / PSTR +181% / TULIP +177% / TCAT +142%
+- **Slippage audit — RED FLAG IDENTIFIED**: of 12 TP wins, 3 had entry_liquidity_usd < $200 (CASHLESS $106, Alon $0, TULIP $126), contributing +2.1421 SOL of "winners" — ~27% of TP profit. On sub-$200 bonding curves, a 0.05 SOL buy is a meaningful fraction of pool. The +50% TP can fire on the entry tick itself, where the price rise is dominated by our own buy impact, not organic demand. These are selling-to-self paper gains.
+- **Pattern**: top winners concentrate in the same liquidity range ($100-$5k bonding-curve launches) where v9.1's `real_sol_reserves >= 1 SOL` filter passes but pool is still tiny enough for entry to dominate.
+- **Fix applied (v9.2)**: TP cannot fire on the entry tick — require >=60s of hold before the +50% check runs. Surgical one-line change in bot.py:1177-1193. Preserves v8.7 TP-at-+50% rule. Next bot tick (~60s) will pick it up automatically (runner.py spawns fresh bot.py each tick, no restart needed).
+- **Why this fix**: 60s gives the entry impact time to decay, so by the time TP evaluates the price, organic market movement is visible. Reduces self-pump paper PnL without removing TP's effectiveness on real runners (real pumps sustain beyond 60s; self-pumps fade).
+- v9.1 + v8.9 + GMGN fragility gate still active. v9.1 has been filtering ~18/25 per tick lately.
+- Verdict: **Profitable on paper (+18.79 SOL lifetime), but slippage simulation gap inflated reported TP wins by ~+2.14 SOL (likely 10-15% of lifetime PnL).** v9.2 fix targets the most egregious self-pump pattern without halting the bot or changing mechanical v8.7 rules.

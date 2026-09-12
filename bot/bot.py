@@ -1185,6 +1185,16 @@ def main():
             continue
         pnl_pct = (cur_price / entry_price - 1) * 100
         log(f"TP-check: ${pos.get('symbol')} pnl={pnl_pct:+.1f}% cur={cur_price:.10f} entry={entry_price:.10f}")
+        # v9.2 ANTI-SELF-PUMP: TP cannot fire on the entry tick.
+        # Without this, on thin bonding curves our 0.05 SOL buy pushes price up several
+        # hundred percent, the +50% TP fires immediately, and the bot sells to itself —
+        # reporting "profits" that don't exist. Require at least 60s of hold before TP.
+        if pos.get("entry_time"):
+            held_seconds = (now_utc() - parse_iso(pos["entry_time"])).total_seconds()
+        else:
+            held_seconds = 0
+        if held_seconds < 60:
+            continue  # skip TP check this tick; let the position age one tick
         # v8.7 MECHANICAL: Take profit at +50% ALWAYS, sell 100% of position
         # No tiers, no holds, no discretion. 48% of trades hit +100% historically.
         if pnl_pct >= TAKE_PROFIT_PCT * 100:
