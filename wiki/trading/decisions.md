@@ -24442,3 +24442,6 @@
 ## [2026-09-12 23:46 UTC] sell | [PARTIAL][LLM] $Gamblecoin at $3.79134e-06 | P&L: +18.9%
 - **Reasoning:** Up +18.9% on a fresh entry with only $472 pool liquidity (fragile). Lock half the gain now to protect against the inevitable pullback from these tiny-bonding-curve tokens, keep half for the runner if narrative catches fire.
 
+## [2026-09-12 23:47 UTC] sell | [PARTIAL][LLM] $Gamblecoin at $4.48144e-06 | P&L: +40.5%
+- **Reasoning:** Up +40.5% in 6 minutes — solid pump on the gambling narrative. Take half off the table to lock gains; let the other half ride if attention keeps building. Pool is thin ($773) so exit size matters.
+
