@@ -23059,3 +23059,6 @@
 ## [2026-09-12 10:54 UTC] buy | [LLM] $Pillheads at $3.747e-06, spent 0.05 SOL
 - **Reasoning:** Pillheads is a live meme format with cultural recognition; twitter link passes viability gate despite thin description. At $3k mcap / 1.4min age, 10x is plausible if narrative catches. Risk: bond only 4% = shallow liquidity, easy to rug. Sizing 0.05 SOL to respect the tightened v7 position cap.
 
+## [2026-09-12 10:55 UTC] sell | [rapid-drop] $Pillheads crashed >15% in one tick | P&L: -23.2%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

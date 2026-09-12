@@ -1,37 +1,8 @@
 {
-  "balance_sol": 12.950457,
+  "balance_sol": 12.988852,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HAdpcW4hkY3ARB9g5ESRdt5H3pSv6YWn1jDFnsQxpump": {
-      "symbol": "Pillheads",
-      "name": "Pillheads",
-      "mint": "HAdpcW4hkY3ARB9g5ESRdt5H3pSv6YWn1jDFnsQxpump",
-      "amount": 1365759.2740859354,
-      "entry_price_usd": 3.747e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T10:54:20.979711+00:00",
-      "entry_time_iso": "2026-09-12T10:54:20.979719+00:00",
-      "entry_usd_value": 5.1175,
-      "last_seen_price_usd": 3.747e-06,
-      "entry_liquidity_usd": 127.31343878624999,
-      "entry_pool_sol": 1.243902675,
-      "entry_market_cap_usd": 3095.3438249494416,
-      "entry_signals": {
-        "liquidity_usd": 127.31343878624999,
-        "volume_24h_usd": 3089.86,
-        "market_cap_usd": 3095.3438249494416,
-        "ath_market_cap_usd": 4630.987714465389,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.243902675,
-        "description": "Created on https://rapidlaunch.io",
-        "twitter": "https://x.com/StepCoinsol8/status/2098726440418087116",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -55197,19 +55168,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 80.953237,
       "partial": false
+    },
+    {
+      "mint": "HAdpcW4hkY3ARB9g5ESRdt5H3pSv6YWn1jDFnsQxpump",
+      "symbol": "Pillheads",
+      "name": "Pillheads",
+      "amount_sold": 1365759.2740859354,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T10:54:20.979711+00:00",
+      "entry_time_iso": "2026-09-12T10:54:20.979719+00:00",
+      "exit_time": "2026-09-12T10:55:24.571592+00:00",
+      "exit_time_iso": "2026-09-12T10:55:24.571603+00:00",
+      "entry_price_usd": 3.747e-06,
+      "exit_price_usd": 2.8775681324585097e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.038395,
+      "pnl_sol": -0.011605,
+      "pnl_pct": -23.2,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 127.31,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.2439,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.591903,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T10:54:20.979901+00:00",
+  "last_updated": "2026-09-12T10:55:36.239742+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.35,
-  "portfolio_value_usd": 1330.6,
+  "last_sol_price_usd": 102.36,
+  "portfolio_value_usd": 1329.54,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 10:20 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $WIFDOGE at $0.000458704 | P&L: -0.1%",
-      "reason": "WIFDOGE is 0.0h old, flat at -0.1%, $2k pool is thin, and I need to free the 1-slot for the fresh $HORACE launch. No reason to babysit a position with no momentum and a tiny pool."
-    },
     {
       "time": "2026-09-12 10:20 UTC",
       "action": "buy",
@@ -55323,30 +55312,48 @@
       "action": "buy",
       "details": "[LLM] $Pillheads at $3.747e-06, spent 0.05 SOL",
       "reason": "Pillheads is a live meme format with cultural recognition; twitter link passes viability gate despite thin description. At $3k mcap / 1.4min age, 10x is plausible if narrative catches. Risk: bond only 4% = shallow liquidity, easy to rug. Sizing 0.05 SOL to respect the tightened v7 position cap."
+    },
+    {
+      "time": "2026-09-12 10:55 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Pillheads crashed >15% in one tick | P&L: -23.2%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3217,
+    "total": 3218,
     "wins": 1497,
-    "losses": 1720,
+    "losses": 1721,
     "win_rate_pct": 46.5,
-    "total_pnl_sol": 8.784269,
-    "avg_pnl_pct": 29.0,
+    "total_pnl_sol": 8.772664,
+    "avg_pnl_pct": 28.99,
     "best_pnl_pct": 4388.32,
     "worst_pnl_pct": -99.94,
-    "today_trades": 144,
-    "today_realized_sol": 3.751173,
-    "today_target_pct": 937.8,
+    "today_trades": 145,
+    "today_realized_sol": 3.739568,
+    "today_target_pct": 934.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1497,
-      "loss_count": 1720,
+      "loss_count": 1721,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T10:54:19.594940+00:00",
+  "last_llm_brief_at": "2026-09-12T10:55:35.138172+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HAdpcW4hkY3ARB9g5ESRdt5H3pSv6YWn1jDFnsQxpump": {
+      "price_usd": 2.8775681324585097e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 8.40380554224,
+      "volume_h24": 3671.91,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.082100484
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
