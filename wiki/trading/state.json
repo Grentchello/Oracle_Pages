@@ -1,37 +1,8 @@
 {
-  "balance_sol": 27.203746,
+  "balance_sol": 27.254086,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Bj5NhJs5iMn8BdfzC5bhqHRySFCQN4ysqtHJGswbpump": {
-      "symbol": "GPRO",
-      "name": "gpro ",
-      "mint": "Bj5NhJs5iMn8BdfzC5bhqHRySFCQN4ysqtHJGswbpump",
-      "amount": 1567563.3889919606,
-      "entry_price_usd": 3.234e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T20:27:41.015008+00:00",
-      "entry_time_iso": "2026-09-12T20:27:41.015016+00:00",
-      "entry_usd_value": 5.069500000000001,
-      "last_seen_price_usd": 3.234e-06,
-      "entry_liquidity_usd": 213.19753262599,
-      "entry_pool_sol": 2.102747141,
-      "entry_market_cap_usd": 3238.3097779812483,
-      "entry_signals": {
-        "liquidity_usd": 213.19753262599,
-        "volume_24h_usd": 207.65,
-        "market_cap_usd": 3238.3097779812483,
-        "ath_market_cap_usd": 3238.3097779812483,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.102747141,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -59013,19 +58984,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.927464,
       "partial": false
+    },
+    {
+      "mint": "Bj5NhJs5iMn8BdfzC5bhqHRySFCQN4ysqtHJGswbpump",
+      "symbol": "GPRO",
+      "name": "gpro ",
+      "amount_sold": 1567563.3889919606,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T20:27:41.015008+00:00",
+      "entry_time_iso": "2026-09-12T20:27:41.015016+00:00",
+      "exit_time": "2026-09-12T20:29:01.643434+00:00",
+      "exit_time_iso": "2026-09-12T20:29:01.643439+00:00",
+      "entry_price_usd": 3.234e-06,
+      "exit_price_usd": 3.2720426081199866e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05034,
+      "pnl_sol": 0.00034,
+      "pnl_pct": 1.18,
+      "exit_reason": "LLM: sell_all — Just opened, +1.2%, well within hold window. No signal to exit and no slot to rotate into — the three fresh launches are too thin (sub-$5k mcap, <2min",
+      "entry_liquidity_usd": 213.2,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 2.1027,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 80.628443,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T20:27:41.015275+00:00",
+  "last_updated": "2026-09-12T20:29:01.643642+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.39,
-  "portfolio_value_usd": 2763.26,
+  "last_sol_price_usd": 101.89,
+  "portfolio_value_usd": 2776.92,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 20:02 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $SOLANA at $9.4214e-05 | P&L: -0.7%",
-      "reason": "$SOLANA down only 0.7%, held 0.0h, no exit signal yet. Will reassess at 15min stale mark or -20% threshold."
-    },
     {
       "time": "2026-09-12 20:07 UTC",
       "action": "buy",
@@ -59139,40 +59128,46 @@
       "action": "buy",
       "details": "[LLM] $GPRO at $3.234e-06, spent 0.05 SOL",
       "reason": "$GPRO (gpro) just launched 1.1min ago at $3.2k mcap — ticker echoes a stock-market attention narrative (GPRO = GoPro brand recognition), ultra-low mcap gives 5-10x room if any attention catches. Fresh launch, no time to have already extracted alpha."
+    },
+    {
+      "time": "2026-09-12 20:29 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GPRO at $3.27204e-06 | P&L: +1.2%",
+      "reason": "Just opened, +1.2%, well within hold window. No signal to exit and no slot to rotate into — the three fresh launches are too thin (sub-$5k mcap, <2min, two have no narrative) to justify dumping a live position."
     }
   ],
   "trade_stats": {
-    "total": 3376,
-    "wins": 1564,
+    "total": 3377,
+    "wins": 1565,
     "losses": 1812,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 23.03756,
-    "avg_pnl_pct": 36.85,
+    "total_pnl_sol": 23.0379,
+    "avg_pnl_pct": 36.84,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 303,
-    "today_realized_sol": 18.004464,
-    "today_target_pct": 4501.1,
+    "today_trades": 304,
+    "today_realized_sol": 18.004804,
+    "today_target_pct": 4501.2,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1564,
+      "win_count": 1565,
       "loss_count": 1812,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T20:27:39.685529+00:00",
+  "last_llm_brief_at": "2026-09-12T20:29:01.643331+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "5wTw6fYXjCSjdn1ZdB5UuQ2oRVKoPLHpL5LaiTAhpump": {
-      "price_usd": 2.678078208423767e-06,
+    "Bj5NhJs5iMn8BdfzC5bhqHRySFCQN4ysqtHJGswbpump": {
+      "price_usd": 3.2720426081199866e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 93.65077202775,
-      "volume_h24": 690.5,
+      "liquidity_usd": 219.23853520076,
+      "volume_h24": 214.28,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.923668725
+      "real_sol_reserves": 2.151717884
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

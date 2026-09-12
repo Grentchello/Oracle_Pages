@@ -24034,3 +24034,6 @@
 ## [2026-09-12 20:27 UTC] buy | [LLM] $GPRO at $3.234e-06, spent 0.05 SOL
 - **Reasoning:** $GPRO (gpro) just launched 1.1min ago at $3.2k mcap — ticker echoes a stock-market attention narrative (GPRO = GoPro brand recognition), ultra-low mcap gives 5-10x room if any attention catches. Fresh launch, no time to have already extracted alpha.
 
+## [2026-09-12 20:29 UTC] sell | [FULL][LLM] $GPRO at $3.27204e-06 | P&L: +1.2%
+- **Reasoning:** Just opened, +1.2%, well within hold window. No signal to exit and no slot to rotate into — the three fresh launches are too thin (sub-$5k mcap, <2min, two have no narrative) to justify dumping a live position.
+
