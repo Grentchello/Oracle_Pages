@@ -23692,3 +23692,6 @@
 ## [2026-09-12 17:04 UTC] sell | [v8.7 TP +50% (full)] $HODL at $9.6606e-05 | P&L: +1337.4%
 - **Reasoning:** Auto take-profit at +1337.4%
 
+## [2026-09-12 17:05 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
