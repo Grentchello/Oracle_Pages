@@ -1,8 +1,32 @@
 {
-  "balance_sol": 11.374938,
+  "balance_sol": 11.324938,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "51dvecJtMh5kUjcpY7LxUFNSUvtrWTEKCBdhSQSNpump": {
+      "symbol": "fun",
+      "name": "pump fun",
+      "amount": 754476.838833802,
+      "entry_price_usd": 6.757e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-12T03:57:02.606702+00:00",
+      "entry_usd_value": 5.098,
+      "last_seen_price_usd": 6.757e-06,
+      "entry_signals": {
+        "liquidity_usd": 66939.88407618324,
+        "volume_24h_usd": 2835.35,
+        "market_cap_usd": 8120.599387163448,
+        "ath_market_cap_usd": 8120.599387163448,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 656.530836369,
+        "description": "",
+        "twitter": "https://x.com/zukiweb3/status/2098621508989923764",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -52756,17 +52780,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-12T03:55:41.966714+00:00",
+  "last_updated": "2026-09-12T03:57:02.606875+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.49,
-  "portfolio_value_usd": 1154.44,
+  "last_sol_price_usd": 101.96,
+  "portfolio_value_usd": 1159.79,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 03:31 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $openRSM at $4.38144e-06 | P&L: -3.7%",
-      "reason": "Flat-negative at -3.7% after a fresh entry, no momentum signal, and the cap is 1 position. Burning the slot on a non-mover blocks me from the two fresh launches with actual attention. Cut and rotate."
-    },
     {
       "time": "2026-09-12 03:33 UTC",
       "action": "buy",
@@ -52880,6 +52898,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $candle at $4.69082e-06 | P&L: -8.5%",
       "reason": "$candle is only at -8.5%, well below the -20% hard-exit threshold, and just opened this tick (0.0h held). Bonding-curve pool is thin at $870 so any bounce will be sharp if buyers step in — giving it one more tick before I downgrade to sell_all on continued drift."
+    },
+    {
+      "time": "2026-09-12 03:57 UTC",
+      "action": "buy",
+      "details": "[LLM] $fun at $6.757e-06, spent 0.05 SOL",
+      "reason": "Meta-narrative 'pump fun' on pump.fun itself, $8k mcap = real 10x room, has twitter signal from zukiweb3. Risk: bond only 27% complete, very early — set tight mental stop if it doesn't pump in first 15min."
     }
   ],
   "trade_stats": {
@@ -52901,7 +52925,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T03:55:40.877470+00:00",
+  "last_llm_brief_at": "2026-09-12T03:57:01.062979+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",

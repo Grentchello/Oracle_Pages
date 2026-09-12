@@ -22384,3 +22384,6 @@
 ## [2026-09-12 03:54 UTC] sell | [FULL][LLM] $candle at $4.69082e-06 | P&L: -8.5%
 - **Reasoning:** $candle is only at -8.5%, well below the -20% hard-exit threshold, and just opened this tick (0.0h held). Bonding-curve pool is thin at $870 so any bounce will be sharp if buyers step in — giving it one more tick before I downgrade to sell_all on continued drift.
 
+## [2026-09-12 03:57 UTC] buy | [LLM] $fun at $6.757e-06, spent 0.05 SOL
+- **Reasoning:** Meta-narrative 'pump fun' on pump.fun itself, $8k mcap = real 10x room, has twitter signal from zukiweb3. Risk: bond only 27% complete, very early — set tight mental stop if it doesn't pump in first 15min.
+
