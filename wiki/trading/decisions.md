@@ -22363,3 +22363,6 @@
 ## [2026-09-12 03:46 UTC] buy | [LLM] $VAMPGPT at $3.07e-06, spent 0.05 SOL
 - **Reasoning:** VampGPT — narrative collision play (CATGPT on Robinhood chain vs. existing CATGPT, community beef is built-in drama). Has twitter link with engagement, GPT-naming meta is hot, 0.8min fresh. Attention market fits the 'story + meta' pattern.
 
+## [2026-09-12 03:47 UTC] sell | [FULL][LLM] $VAMPGPT at $2.9807e-06 | P&L: -2.9%
+- **Reasoning:** Just entered, -2.9% is noise, no signal yet. Giving it a few minutes to see if the VAMP/GPT narrative develops before deciding.
+
