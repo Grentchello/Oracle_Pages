@@ -22963,3 +22963,6 @@
 ## [2026-09-12 10:05 UTC] sell | [FULL][LLM] $FAPPY at $0.000454758 | P&L: -9.1%
 - **Reasoning:** -9.1% loss on bonding-curve token with 4549439570% share = illiquid exit risk is severe. Stale/loser rule: cut fast, don't hope for a bounce on a freshly-pumped-then-dumped joke token.
 
+## [2026-09-12 10:06 UTC] buy | [LLM] $Dickbutt at $1.93e-05, spent 0.05 SOL
+- **Reasoning:** $Dickbutt at $22.5k mcap is the most asymmetric attention play — classic meme IP (Dickbutt is OG internet culture), has an X post driving attention, age <1min = viral launch window. Risk: rapidlaunch.io origin flags potential bundler/snipe activity, ME2F fragility concerns, and tiny liquidity could mean immediate rug. Small 0.1 SOL size keeps risk bounded; if it 5x's the 2-3 losers are covered.
+
