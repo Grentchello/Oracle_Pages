@@ -24145,3 +24145,9 @@
 ## [2026-09-12 21:35 UTC] sell | [PARTIAL][LLM] $MONEROCHAN at $0.00267283 | P&L: +47.3%
 - **Reasoning:** Up +47.3% on a fresh memecoin, well past the +25% TP threshold. Lock half the gain now per profit-taking discipline — narrative is unclear (Monero-chan theme) and memecoins give back gains fast. Let the rest ride with a mental stop at break-even.
 
+## [2026-09-12 21:36 UTC] sell | [v8.7 TP +50% (full)] $MONEROCHAN at $0.00336642 | P&L: +85.5%
+- **Reasoning:** Auto take-profit at +85.5%
+
+## [2026-09-12 21:36 UTC] buy | [LLM] $CRIMEDOG at $0.00288979, spent 0.05 SOL
+- **Reasoning:** $CRIMEDOG - 'Crime Dog' is a clear Xeris/Aaron meme derivative with viral political-cop vibes; $17k mcap at 0.5min with 32% bond = earliest entry point, attention signal is the twitter post. Fragility check needed but narrative is hot.
+
