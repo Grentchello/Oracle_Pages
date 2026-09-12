@@ -24016,3 +24016,9 @@
 ## [2026-09-12 20:23 UTC] buy | [LLM] $IPG at $0.000326817, spent 0.05 SOL
 - **Reasoning:** $IPG 'infinite pump glitch' is a sequel play to 'infinite money glitch' which hit $40m — strong narrative continuity, has Twitter, fresh launch at $12k mcap. 0.05 SOL position (halved per v7 rules); will take profit at +25-50% unless momentum keeps building.
 
+## [2026-09-12 20:24 UTC] sell | [v8.7 TP +50% (full)] $IPG at $0.000548342 | P&L: +67.8%
+- **Reasoning:** Auto take-profit at +67.8%
+
+## [2026-09-12 20:25 UTC] buy | [LLM] $cAIt at $6.627e-06, spent 0.05 SOL
+- **Reasoning:** AI meme narrative with attached X post (shawmakesmagic), highest bond progress (29%) of the fresh batch, $8k mcap = max upside runway. Riding the AI attention wave.
+
