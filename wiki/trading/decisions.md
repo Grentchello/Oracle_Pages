@@ -22429,3 +22429,9 @@
 ## [2026-09-12 04:28 UTC] buy | [LLM] $OMEGA at $3.899e-06, spent 0.05 SOL
 - **Reasoning:** $OMEGA 'The Omega' at 1.2min/$3.4k mcap with active Twitter post from CyborgDeployed — fresh launch with attention signal is the textbook attention-market entry. Sizing 0.1 SOL per bot rules.
 
+## [2026-09-12 04:30 UTC] sell | [rapid-drop] $OMEGA crashed >15% in one tick | P&L: -25.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-12 04:30 UTC] buy | [LLM] $AI at $8.482e-06, spent 0.05 SOL
+- **Reasoning:** $AI 'Anal Intelligence' has crude-joke viral potential on crypto Twitter, 30% bond (highest of the batch = real buy pressure), $8.5k mcap leaves10x+ room, and a Twitter link exists. Thin liquidity is the main risk.
+
