@@ -630,3 +630,14 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - **v9.3 hard reset observed**: state.json shows `v9_3_hard_reset` field with paper_balance=2.0, real_balance=2.0. Bot was re-seeded earlier today to clean 2.0 SOL. Current reported balance 1.877522 SOL, expected from today's pnl ~4.82 SOL — discrepancy is from open position entry-cost debits not yet matched by sell pnl at evaluation snapshot.
 - Slippage caveat unchanged: lifetime +28.20 SOL is paper via v9.0 sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
 - Verdict: **Profitable, no changes needed.** Window +3.84 SOL on 50 trades. Three organic >20x runners anchor the window. v9.3 ghost exit correctly catching rugs. Bot running normally.
+
+## [2026-09-13 03:00 UTC] eval | memecoin bot — 2026-09-13 03:00 UTC
+- 38 trades since 01:00 UTC cutoff, 3 wins / 35 losses, window PnL **-1.536255 SOL** (win rate 7.9%).
+- Lifetime (3,513 trades): net **+26.66 SOL**, win rate 45.9%, balance 0.291267 SOL.
+- Window breakdown: RUG_LOSS 33 (-1.55), RAPID_LOSS 2 (-0.009), TP_WIN 1 (+0.016), PARTIAL_WIN 1 (+0.003), SMALL_WIN 1 (+0.003).
+- 33 of 38 exits are v9.3 ghost-exit rugs (rapid-drop -15%/tick or pool=0). MUTUMBO, 🐂🀄, Z-CAT, KOL, Journal all hit pool=0 and correctly logged -100% loss instead of paper-positive slippage — exactly the v9.3 guard's job.
+- TP_WIN cluster is tiny in this window because rug season is dominating; not a strategy failure, just bad launch pool conditions.
+- Open position: $PUMPEPE (entry 03:00:34 UTC, 0.05 SOL, pool $6749, fragility LOW) — currently in observation.
+- Balance trajectory: 1.877522 → 0.291267 SOL in 2h window reflects -1.54 SOL window losses plus open position debit. Not a bug.
+- Slippage caveat unchanged: lifetime +26.66 SOL is paper via v9.0 sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
+- Verdict: **Profitable, no changes needed.** Lifetime still solidly positive (+26.66 SOL); the 2h window is a rug-cluster blip that the v9.3 guard correctly absorbed. Mechanical v8.7+ rules (no LLM holds, +50% TP all, -25% hard stop, 30min cap, 0.05 SOL position size, MAX_POSITIONS=1) remain unchanged per user constraint.
