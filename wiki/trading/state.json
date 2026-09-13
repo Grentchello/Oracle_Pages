@@ -2,36 +2,7 @@
   "balance_sol": 0.341267,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5srq7oky6u9wTF3o19rUsV1AVWfT8XCXEDgt7Pkrpump": {
-      "symbol": "GORG",
-      "name": "Gorgonzola",
-      "mint": "5srq7oky6u9wTF3o19rUsV1AVWfT8XCXEDgt7Pkrpump",
-      "amount": 1742969.8216735255,
-      "entry_price_usd": 2.916e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T02:52:22.500726+00:00",
-      "entry_time_iso": "2026-09-13T02:52:22.500735+00:00",
-      "entry_usd_value": 5.0825000000000005,
-      "last_seen_price_usd": 2.916e-06,
-      "entry_liquidity_usd": 458.42981868695006,
-      "entry_pool_sol": 4.509885083,
-      "entry_market_cap_usd": 3775.3573884166776,
-      "entry_signals": {
-        "liquidity_usd": 458.42981868695006,
-        "volume_24h_usd": 33.22,
-        "market_cap_usd": 3775.3573884166776,
-        "ath_market_cap_usd": 3775.3573884166776,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.509885083,
-        "description": "Gorgonzola was a broke rat with a candle melted onto his skull. Now he's building a candle empire. That flame has never gone out, and neither should your bags. $GORG runs on one rule: always lit, never sell. Same cheese, different breed. Light it up.",
-        "twitter": "https://x.com/GorgCoinSol",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62313,19 +62284,38 @@
       "exit_pool_sol": 6.8504,
       "hold_duration_seconds": 249.319564,
       "partial": false
+    },
+    {
+      "mint": "5srq7oky6u9wTF3o19rUsV1AVWfT8XCXEDgt7Pkrpump",
+      "symbol": "GORG",
+      "name": "Gorgonzola",
+      "amount_sold": 1742969.8216735255,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T02:52:22.500726+00:00",
+      "entry_time_iso": "2026-09-13T02:52:22.500735+00:00",
+      "exit_time": "2026-09-13T02:53:57.965320+00:00",
+      "exit_time_iso": "2026-09-13T02:53:57.965325+00:00",
+      "entry_price_usd": 2.916e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — GORG at +28.5% is sitting right at the auto-TP threshold (bot takes +25%/+30% soon). Lock the gain now and free the slot — bag-holding — no real exit liquidity",
+      "entry_liquidity_usd": 458.42981868695006,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 4.509885083,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 95.46461,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T02:52:22.500979+00:00",
+  "last_updated": "2026-09-13T02:53:57.965546+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.65,
-  "portfolio_value_usd": 39.77,
+  "last_sol_price_usd": 101.59,
+  "portfolio_value_usd": 34.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 02:17 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $ADAM at $5.00476e-05 | P&L: +64.3%",
-      "reason": "Auto take-profit at +64.3%"
-    },
     {
       "time": "2026-09-13 02:19 UTC",
       "action": "buy",
@@ -62439,40 +62429,46 @@
       "action": "buy",
       "details": "[LLM] $GORG at $2.916e-06, spent 0.05 SOL",
       "reason": "$GORG has the strongest narrative: original IP (a rat with a melted candle on his skull building a 'candle empire'), a dedicated X handle @GorgCoinSol, and a vivid story arc. 0.7min old, $3.8k mcap, prime attention-launch territory."
+    },
+    {
+      "time": "2026-09-13 02:53 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $GORG at $3.74786e-06 | P&L: -100.0%",
+      "reason": "GORG at +28.5% is sitting right at the auto-TP threshold (bot takes +25%/+30% soon). Lock the gain now and free the slot — bag-holding one more tick hoping for +50% is exactly how +28% gains turn into breakeven. Realized profit > unrealized hope."
     }
   ],
   "trade_stats": {
-    "total": 3512,
+    "total": 3513,
     "wins": 1612,
-    "losses": 1900,
+    "losses": 1901,
     "win_rate_pct": 45.9,
-    "total_pnl_sol": 26.714384,
-    "avg_pnl_pct": 38.19,
+    "total_pnl_sol": 26.664384,
+    "avg_pnl_pct": 38.15,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 59,
-    "today_realized_sol": 1.33259,
-    "today_target_pct": 333.1,
+    "today_trades": 60,
+    "today_realized_sol": 1.28259,
+    "today_target_pct": 320.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1612,
-      "loss_count": 1900,
+      "loss_count": 1901,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:52:21.182141+00:00",
+  "last_llm_brief_at": "2026-09-13T02:53:57.965167+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "23zqvqqnAFM1ACYtAUr3ni7UrDiA4eBbtLzDoLenpump": {
-      "price_usd": 4.41164728018748e-06,
+    "5srq7oky6u9wTF3o19rUsV1AVWfT8XCXEDgt7Pkrpump": {
+      "price_usd": 3.7478619758639655e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 749.8960879887001,
-      "volume_h24": 757.51,
+      "liquidity_usd": 453.18433808764996,
+      "volume_h24": 462.5,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 7.377236478
+      "real_sol_reserves": 4.460914835
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

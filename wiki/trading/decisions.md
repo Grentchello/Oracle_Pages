@@ -24808,3 +24808,6 @@
 ## [2026-09-13 02:52 UTC] buy | [LLM] $GORG at $2.916e-06, spent 0.05 SOL
 - **Reasoning:** $GORG has the strongest narrative: original IP (a rat with a melted candle on his skull building a 'candle empire'), a dedicated X handle @GorgCoinSol, and a vivid story arc. 0.7min old, $3.8k mcap, prime attention-launch territory.
 
+## [2026-09-13 02:53 UTC] sell | [FULL][LLM] $GORG at $3.74786e-06 | P&L: -100.0%
+- **Reasoning:** GORG at +28.5% is sitting right at the auto-TP threshold (bot takes +25%/+30% soon). Lock the gain now and free the slot — bag-holding one more tick hoping for +50% is exactly how +28% gains turn into breakeven. Realized profit > unrealized hope.
+
