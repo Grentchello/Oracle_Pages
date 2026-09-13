@@ -2,36 +2,7 @@
   "balance_sol": 1.727522,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Gu3WiF5owpnfZu4mEyFqtUDmibnJqLuKoUUwXCEdpump": {
-      "symbol": "Z-CAT",
-      "name": "ANONYMOUS ZEBRACAT",
-      "mint": "Gu3WiF5owpnfZu4mEyFqtUDmibnJqLuKoUUwXCEdpump",
-      "amount": 1475324.6753246754,
-      "entry_price_usd": 3.465e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T01:05:59.582040+00:00",
-      "entry_time_iso": "2026-09-13T01:05:59.582048+00:00",
-      "entry_usd_value": 5.112,
-      "last_seen_price_usd": 3.465e-06,
-      "entry_liquidity_usd": 184.61351893391998,
-      "entry_pool_sol": 1.805687783,
-      "entry_market_cap_usd": 3494.545587155627,
-      "entry_signals": {
-        "liquidity_usd": 184.61351893391998,
-        "volume_24h_usd": 1887.68,
-        "market_cap_usd": 3494.545587155627,
-        "ath_market_cap_usd": 4478.458029876425,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.805687783,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61443,19 +61414,38 @@
       "hold_duration_seconds": 63.802994,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "Gu3WiF5owpnfZu4mEyFqtUDmibnJqLuKoUUwXCEdpump",
+      "symbol": "Z-CAT",
+      "name": "ANONYMOUS ZEBRACAT",
+      "amount_sold": 1475324.6753246754,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T01:05:59.582040+00:00",
+      "entry_time_iso": "2026-09-13T01:05:59.582048+00:00",
+      "exit_time": "2026-09-13T01:07:03.553459+00:00",
+      "exit_time_iso": "2026-09-13T01:07:03.553466+00:00",
+      "entry_price_usd": 3.465e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 184.61351893391998,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.805687783,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.971437,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T01:05:59.582498+00:00",
+  "last_updated": "2026-09-13T01:07:11.391450+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.24,
-  "portfolio_value_usd": 181.73,
+  "last_sol_price_usd": 102.25,
+  "portfolio_value_usd": 176.64,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:37 UTC",
-      "action": "buy",
-      "details": "[LLM] $GUPS at $3.355e-06, spent 0.05 SOL",
-      "reason": "$GUPS (MoreGups) has a real narrative — AI/GPU decentralization, story-driven description with vision, very fresh ($3.3k mcap, 0.5min old, bond only 7%). Highest attention-to-mcap asymmetry in the slate."
-    },
     {
       "time": "2026-09-13 00:38 UTC",
       "action": "sell",
@@ -61569,30 +61559,48 @@
       "action": "buy",
       "details": "[LLM] $Z-CAT at $3.465e-06, spent 0.05 SOL",
       "reason": "Z-CAT is a 1-minute-old launch with zebra meme narrative. Anonymous animal meme names have historical viral attention (dog, cat, pepe derivatives). $3.5k mcap = pure early-stage attention play. Risk: extremely young, bond only 9%, classic rug candidate. Sizing at 0.05 SOL respects the fragility gate uncertainty on a brand-new mint."
+    },
+    {
+      "time": "2026-09-13 01:07 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Z-CAT crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3477,
+    "total": 3478,
     "wins": 1609,
-    "losses": 1868,
+    "losses": 1869,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 28.100639,
-    "avg_pnl_pct": 39.41,
+    "total_pnl_sol": 28.050639,
+    "avg_pnl_pct": 39.37,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 24,
-    "today_realized_sol": 2.718845,
-    "today_target_pct": 679.7,
+    "today_trades": 25,
+    "today_realized_sol": 2.668845,
+    "today_target_pct": 667.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1868,
+      "loss_count": 1869,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T01:05:58.101294+00:00",
+  "last_llm_brief_at": "2026-09-13T01:07:11.391377+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Gu3WiF5owpnfZu4mEyFqtUDmibnJqLuKoUUwXCEdpump": {
+      "price_usd": 2.8903272936945025e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 16.86423718375,
+      "volume_h24": 2234.27,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.164931415
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

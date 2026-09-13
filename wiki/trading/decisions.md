@@ -24610,3 +24610,6 @@
 ## [2026-09-13 01:05 UTC] buy | [LLM] $Z-CAT at $3.465e-06, spent 0.05 SOL
 - **Reasoning:** Z-CAT is a 1-minute-old launch with zebra meme narrative. Anonymous animal meme names have historical viral attention (dog, cat, pepe derivatives). $3.5k mcap = pure early-stage attention play. Risk: extremely young, bond only 9%, classic rug candidate. Sizing at 0.05 SOL respects the fragility gate uncertainty on a brand-new mint.
 
+## [2026-09-13 01:07 UTC] sell | [rapid-drop] $Z-CAT crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
