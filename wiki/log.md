@@ -653,3 +653,13 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Current state: bot is buy-blocked on most ticks ("would breach reserve 0.02 SOL"). Will idle until balance > 0.07 SOL via next profitable run or external topup. No new trades until then.
 - Slippage caveat unchanged: lifetime +24.36-26.66 SOL is paper via v9.0 sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
 - Verdict: **Profitable, no changes needed.** Window -0.30 SOL is 6 rugs in a row caught by v9.3 guard, not strategy failure. Real-exit baseline (52.6% WR, +5.20 SOL) is the signal; ghosted bookkeeping is the noise. v8.7+ mechanical rules unchanged per user constraint. Balance floor reached — bot will trade again once topup or next organic run lifts balance >0.07 SOL.
+
+## [2026-09-13 07:04 UTC] eval | memecoin bot — 2026-09-13 07:04 UTC
+- Window: since last eval (2026-09-13 05:02 UTC), **0 new trades** (2h of idle ticks)
+- Bot is **buy-blocked** — balance 0.041267 SOL < operational floor (POSITION_SIZE_SOL 0.05 + RESERVE_SOL 0.02 = 0.07 SOL). Confirmed in runner.log: repeated "Buy blocked: would breach reserve (0.02 SOL)" across ticks 06:51–07:03.
+- Lifetime stats unchanged: 3,519 trades, **net +26.36 SOL paper** (v9.0 quadratic slippage sim), 45.8% WR, balance 0.041267 SOL.
+- Lifetime category breakdown unchanged: TP-partial +44.25 SOL (709 trades, 97% WR) is the profit engine; rapid-cut -8.90 SOL (440, 2% WR) + hard-stop -5.93 SOL (188, 3% WR) are the bleed; v9.3 ghost-exit rugs correctly logged at -100% (-0.80 SOL across 20 trades).
+- Filter chain still active and filtering aggressively: v9.1 real_sol_reserves floor (rejects 14-19/25 candidates per tick) + v8.9 age filter (rejects 1-2 candidates <1min old). Only 1-5 of 25 candidates reach the LLM per tick.
+- No positions open. Bot idles cleanly until external topup or organic run lifts balance >0.07 SOL.
+- Slippage caveat unchanged: lifetime +26.36 SOL is paper via v9.0 sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
+- Verdict: **Profitable, no changes needed.** Bot is healthy and idling correctly per reserve guard. Lifetime +26.36 SOL / 45.8% WR confirms v8.7+ mechanical rules working. v8.7+ mechanical rules unchanged per user constraint. The bot needs a SOL topup to resume trading, not a strategy change.
