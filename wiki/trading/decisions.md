@@ -24592,3 +24592,6 @@
 ## [2026-09-13 00:57 UTC] buy | [LLM] $WORM at $3.49389e-06, spent 0.05 SOL
 - **Reasoning:** $WORM — classic 'would u love me if I was a worm' viral question format, the purest attention-meme pattern. No celebrity fragility (passes ME2F blocklist), 0.5min old, $3.5k mcap with room to run. Taking 0.05 SOL to test the viral-question meme thesis on a fresh slate.
 
+## [2026-09-13 00:59 UTC] sell | [FULL][LLM] $WORM at $3.48112e-06 | P&L: -100.0%
+- **Reasoning:** $WORM is brand new (0.0h held) and flat at -0.4%. No loss trigger, no momentum signal yet, and no upside to book. Give it a few minutes to either bounce or hit the auto-stops rather than rotating for the sake of rotating.
+

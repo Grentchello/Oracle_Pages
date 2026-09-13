@@ -2,36 +2,7 @@
   "balance_sol": 1.877522,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DtPNC5oZFAoZ85M9kTAKd4WXesa17s9uvzDMEzrrpump": {
-      "symbol": "WORM",
-      "name": "would u love me if I was a worm",
-      "mint": "DtPNC5oZFAoZ85M9kTAKd4WXesa17s9uvzDMEzrrpump",
-      "amount": 1454968.8578202196,
-      "entry_price_usd": 3.4938892146570834e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T00:57:44.885262+00:00",
-      "entry_time_iso": "2026-09-13T00:57:44.885271+00:00",
-      "entry_usd_value": 5.083500000000001,
-      "last_seen_price_usd": 3.4938892146570834e-06,
-      "entry_liquidity_usd": 325.64402898336,
-      "entry_pool_sol": 3.202951008,
-      "entry_market_cap_usd": 3495.318293938625,
-      "entry_signals": {
-        "liquidity_usd": 325.64402898336,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3495.318293938625,
-        "ath_market_cap_usd": 3601.1581285014427,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.202951008,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61368,19 +61339,38 @@
       "hold_duration_seconds": 64.92384,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "DtPNC5oZFAoZ85M9kTAKd4WXesa17s9uvzDMEzrrpump",
+      "symbol": "WORM",
+      "name": "would u love me if I was a worm",
+      "amount_sold": 1454968.8578202196,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T00:57:44.885262+00:00",
+      "entry_time_iso": "2026-09-13T00:57:44.885271+00:00",
+      "exit_time": "2026-09-13T00:59:11.859731+00:00",
+      "exit_time_iso": "2026-09-13T00:59:11.859736+00:00",
+      "entry_price_usd": 3.4938892146570834e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — $WORM is brand new (0.0h held) and flat at -0.4%. No loss trigger, no momentum signal yet, and no upside to book. Give it a few minute — no real exit liquidity",
+      "entry_liquidity_usd": 325.64402898336,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.202951008,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 86.974487,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T00:57:44.885602+00:00",
+  "last_updated": "2026-09-13T00:59:11.859997+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.67,
-  "portfolio_value_usd": 195.97,
+  "last_sol_price_usd": 101.65,
+  "portfolio_value_usd": 190.85,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:28 UTC",
-      "action": "buy",
-      "details": "[LLM] $Unstable at $0.000352903, spent 0.05 SOL",
-      "reason": "$Unstable at $15k mcap, 1 min old, meta-narrative name plays well in current choppy market where traders are calling out ruggy / unstable tokens — self-referential humor is a classic memecoin attention driver. Small position to test attention."
-    },
     {
       "time": "2026-09-13 00:29 UTC",
       "action": "sell",
@@ -61494,40 +61484,46 @@
       "action": "buy",
       "details": "[LLM] $WORM at $3.49389e-06, spent 0.05 SOL",
       "reason": "$WORM — classic 'would u love me if I was a worm' viral question format, the purest attention-meme pattern. No celebrity fragility (passes ME2F blocklist), 0.5min old, $3.5k mcap with room to run. Taking 0.05 SOL to test the viral-question meme thesis on a fresh slate."
+    },
+    {
+      "time": "2026-09-13 00:59 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WORM at $3.48112e-06 | P&L: -100.0%",
+      "reason": "$WORM is brand new (0.0h held) and flat at -0.4%. No loss trigger, no momentum signal yet, and no upside to book. Give it a few minutes to either bounce or hit the auto-stops rather than rotating for the sake of rotating."
     }
   ],
   "trade_stats": {
-    "total": 3474,
+    "total": 3475,
     "wins": 1609,
-    "losses": 1865,
+    "losses": 1866,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 28.250639,
-    "avg_pnl_pct": 39.53,
+    "total_pnl_sol": 28.200639,
+    "avg_pnl_pct": 39.49,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 21,
-    "today_realized_sol": 2.868845,
-    "today_target_pct": 717.2,
+    "today_trades": 22,
+    "today_realized_sol": 2.818845,
+    "today_target_pct": 704.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1865,
+      "loss_count": 1866,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:57:43.307490+00:00",
+  "last_llm_brief_at": "2026-09-13T00:59:11.859533+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "Bm8286CKPdv8EUUanXqQNRGGEYso1ceQjK6VvrenKSz": {
-      "price_usd": 3.075627674226374e-06,
+    "DtPNC5oZFAoZ85M9kTAKd4WXesa17s9uvzDMEzrrpump": {
+      "price_usd": 3.4811219982373267e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 232.88910374630998,
-      "volume_h24": 0.0,
+      "liquidity_usd": 325.5001919937,
+      "volume_h24": 727.34,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.290637393
+      "real_sol_reserves": 3.202166178
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
