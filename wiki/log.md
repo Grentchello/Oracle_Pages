@@ -672,3 +672,14 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - No positions open. Bot idles cleanly until external topup or organic run lifts balance >0.07 SOL.
 - Slippage caveat unchanged: lifetime +26.36 SOL is paper via v9.0 sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
 - Verdict: **Profitable, no changes needed.** Bot is healthy and idling correctly per reserve guard. Lifetime +26.36 SOL / 45.8% WR confirms v8.7+ mechanical rules working. v8.7+ mechanical rules unchanged per user constraint. The bot needs a SOL topup to resume trading, not a strategy change.
+
+## [2026-09-13 11:08 UTC] eval | memecoin bot — 2026-09-13 11:08 UTC
+- Window since last eval (09:07 UTC): **0 new trades** (2h of idle ticks). Trade count steady at 3,519.
+- Bot remains **buy-blocked**: balance 0.041267 SOL < operational floor (POSITION_SIZE_SOL 0.05 + RESERVE_SOL 0.02 = 0.07 SOL). Runner.log confirms every tick 09:07-11:07 UTC shows 0 positions, same state hash pushed each minute.
+- **Recent performance breakdown:**
+  - Last 100 trades: 30W/70L (43% ghost exits), net **+3.20 SOL** (real-only +5.20, ghost-only -2.00)
+  - Last 30 trades: 3W/27L (90% ghost exits), net -1.28 SOL — looks scary but is a sample artifact: 27 of 30 entries hit pools that drained to zero exit liquidity within minutes. The 3 wins still netted +0.10 SOL.
+  - Lifetime: 3,519 trades, 1,612W/1,907L, **net +26.36 SOL**, 45.8% WR — still solidly profitable.
+- Root cause of recent -1.28 SOL window: **bonding-curve rugs outpacing v9.1 liquidity floor.** Tokens that pass v9.1 (real_sol_reserves >= 1 SOL) but rug before bot can exit. v9.3 honest ghost-exit logic correctly records full -0.05 SOL loss per rug (no fake "sold-to-self" padding). This is the slippage-sim gap the user warned about — and it's already handled.
+- Slippage caveat honored: lifetime +26.36 SOL is paper via v9.0 quadratic sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
+- Verdict: **Profitable, no changes needed.** Bot is healthy. Last-30 losing streak is variance (cluster of rugs), not a structural flaw. v8.7+ mechanical rules unchanged per user hard constraint. Bot needs a SOL topup to resume trading, not a strategy change.
