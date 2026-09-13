@@ -24475,3 +24475,6 @@
 ## [2026-09-13 00:00 UTC] sell | [FULL][LLM] $WOWNEROCHAN at $6.01128e-06 | P&L: +39.1%
 - **Reasoning:** Up +39.2% already, but pool is only $1381 and our share is 0% — liquidity is razor-thin and the +30% TP ladder should already be firing. With no clear viral narrative and a tiny pool, any dip wipes the gain instantly. Lock the profit now.
 
+## [2026-09-13 00:02 UTC] buy | [LLM] $RISE at $5.133e-06, spent 0.05 SOL
+- **Reasoning:** $RISE has the strongest attention stack: 60% airdrop to top 15 holders creates immediate holder incentive to shill and hold (viral mechanic), active twitter, leading bond curve at 21%, and a clean meta-name tied to bull narrative. Risk: airdrop tokens often dump at distribution — but attention comes first, exit before that.
+
