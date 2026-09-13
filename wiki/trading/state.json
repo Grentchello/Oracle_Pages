@@ -1,8 +1,37 @@
 {
-  "balance_sol": 0.609722,
+  "balance_sol": 0.559722,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "FUUxDnzBNyDGpgiCxeNn2XqMe514o47aCy9goLPBpump": {
+      "symbol": "SPHERE",
+      "name": "Black Sphere",
+      "mint": "FUUxDnzBNyDGpgiCxeNn2XqMe514o47aCy9goLPBpump",
+      "amount": 1626865.6716417912,
+      "entry_price_usd": 3.149e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-13T02:36:16.171054+00:00",
+      "entry_time_iso": "2026-09-13T02:36:16.171063+00:00",
+      "entry_usd_value": 5.123,
+      "last_seen_price_usd": 3.149e-06,
+      "entry_liquidity_usd": 157.97152501617998,
+      "entry_pool_sol": 1.541787283,
+      "entry_market_cap_usd": 3151.298419520988,
+      "entry_signals": {
+        "liquidity_usd": 157.97152501617998,
+        "volume_24h_usd": 1244.5,
+        "market_cap_usd": 3151.298419520988,
+        "ath_market_cap_usd": 3766.533624587346,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.541787283,
+        "description": "WIF never made it to the Las Vegas Sphere.  The Black Bull did though",
+        "twitter": "",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62113,17 +62142,11 @@
       "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T02:35:02.083461+00:00",
+  "last_updated": "2026-09-13T02:36:16.171235+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.82,
-  "portfolio_value_usd": 62.08,
+  "last_sol_price_usd": 102.46,
+  "portfolio_value_usd": 62.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:57 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $SOLCHAN crashed >15% in one tick | P&L: -100.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-13 01:58 UTC",
       "action": "buy",
@@ -62237,6 +62260,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $ADAMITY at $2.88565e-06 | P&L: -100.0%",
       "reason": "Just opened at -6.6%, well above the -25% hard stop. Bonding-curve early positions need time to develop; bailing now would lock a small loss for no signal reason."
+    },
+    {
+      "time": "2026-09-13 02:36 UTC",
+      "action": "buy",
+      "details": "[LLM] $SPHERE at $3.149e-06, spent 0.05 SOL",
+      "reason": "SPHERE has the strongest narrative — WIF/Sphere cultural callback, recognizable story, fresh launch. 0.05 SOL position size per bot rules."
     }
   ],
   "trade_stats": {
@@ -62258,7 +62287,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:35:00.252785+00:00",
+  "last_llm_brief_at": "2026-09-13T02:36:14.746464+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
