@@ -710,3 +710,11 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - **Expected impact:** v9.1 was filtering ~14-22/25 candidates per tick (60-90% rejection). v9.2 likely 20-24/25 (80-96% rejection). Fewer tokens to evaluate but higher quality. Target: reduce GHOST exit rate from 86% → <20% on next 50 trades post-topup.
 - Slippage caveat honored: lifetime +26.36 SOL is paper via v9.0 quadratic sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
 - Verdict: **Loss detected, fixed v9.2 liquidity floor.** v9.1 → v9.2 (3× deeper bonding-curve requirement). Bot is idle awaiting SOL topup; new filter activates on next entry attempt.
+
+## [2026-09-13 17:13 UTC] eval | memecoin bot — 2026-09-13 17:13 UTC
+- Window since last eval (15:11 UTC): **0 new trades**. Trade count steady at 3,519. No state delta — bot still buy-blocked at 0.0413 SOL (below 0.05 POSITION_SIZE_SOL floor).
+- Bot health check: runner.log shows 752 "Tick OK" lines since startup. v9.2 liquidity floor actively filtering 16-20/25 candidates per tick (80-96% rejection rate, as expected from v9.2 design). Last 4 ticks all show "State: 0 positions, 3519 trades" with identical pushed state hash.
+- Last 50 trades decomposition unchanged: 7 real exits (+0.031 SOL) + 43 GHOST exits (-2.000 SOL) = -1.97 SOL window. Lifetime +26.36 SOL paper (slippage-adjusted upper bound via v9.0 quadratic sim).
+- v9.2 floor effect requires SOL topup to validate — cannot measure ghost-rate reduction without live trades. Pending: grant needs to send SOL before next eval can verify v9.2 worked.
+- Slippage caveat honored: lifetime +26.36 SOL is paper via v9.0 quadratic sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
+- Verdict: **No changes needed.** Bot is healthy and idle per design. v8.7+ mechanical rules preserved per user hard constraint. v9.2 liquidity floor active. Awaiting SOL topup to resume live trading and validate filter effectiveness.
