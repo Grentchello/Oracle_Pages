@@ -24490,3 +24490,6 @@
 ## [2026-09-13 00:04 UTC] buy | [LLM] $GOAT at $4.183e-06, spent 0.05 SOL
 - **Reasoning:** $GOAT — 'Greatest Of All Time' goat narrative has strong meme pedigree, fresh sub-1min launch with Twitter link attached (real attention, not just bots), and $4.6k mcap gives multi-x runway if it sticks. Best risk/reward of the batch.
 
+## [2026-09-13 00:05 UTC] sell | [v8.7 TP +50% (full)] $GOAT at $0.000126538 | P&L: +2925.1%
+- **Reasoning:** Auto take-profit at +2925.1%
+

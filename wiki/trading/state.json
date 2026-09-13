@@ -1,37 +1,8 @@
 {
-  "balance_sol": 29.534057,
+  "balance_sol": 31.038451,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9Vdpm9ypt5dM3Gexrxmx5NGcL9CkQoM5FCssVSiYgVb2": {
-      "symbol": "GOAT",
-      "name": "Goat Coin",
-      "mint": "9Vdpm9ypt5dM3Gexrxmx5NGcL9CkQoM5FCssVSiYgVb2",
-      "amount": 1215395.649055702,
-      "entry_price_usd": 4.183e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T00:04:50.880687+00:00",
-      "entry_time_iso": "2026-09-13T00:04:50.880696+00:00",
-      "entry_usd_value": 5.0840000000000005,
-      "last_seen_price_usd": 4.183e-06,
-      "entry_liquidity_usd": 15581.159383768081,
-      "entry_pool_sol": 153.237208731,
-      "entry_market_cap_usd": 4680.938010876512,
-      "entry_signals": {
-        "liquidity_usd": 15581.159383768081,
-        "volume_24h_usd": 1004.14,
-        "market_cap_usd": 4680.938010876512,
-        "ath_market_cap_usd": 4864.952746300037,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 153.237208731,
-        "description": "",
-        "twitter": "https://x.com/Nate_Esparza/status/2098924152090730969",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -60933,19 +60904,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.614014,
       "partial": false
+    },
+    {
+      "mint": "9Vdpm9ypt5dM3Gexrxmx5NGcL9CkQoM5FCssVSiYgVb2",
+      "symbol": "GOAT",
+      "name": "Goat Coin",
+      "amount_sold": 1215395.649055702,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T00:04:50.880687+00:00",
+      "entry_time_iso": "2026-09-13T00:04:50.880696+00:00",
+      "exit_time": "2026-09-13T00:05:54.779949+00:00",
+      "exit_time_iso": "2026-09-13T00:05:54.779957+00:00",
+      "entry_price_usd": 4.183e-06,
+      "exit_price_usd": 0.00012653838494665427,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 1.504394,
+      "pnl_sol": 1.454394,
+      "pnl_pct": 2925.06,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "entry_liquidity_usd": 15581.16,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 153.2372,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.89928,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-13T00:04:50.880852+00:00",
+  "last_updated": "2026-09-13T00:06:11.675708+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.68,
-  "portfolio_value_usd": 3008.11,
+  "last_sol_price_usd": 102.23,
+  "portfolio_value_usd": 3173.06,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 23:42 UTC",
-      "action": "buy",
-      "details": "[LLM] $DEAD at $2.918e-06, spent 0.05 SOL",
-      "reason": "$DEAD has the strongest narrative of the batch — 'first memecoin with zero marketing' is a self-aware meta-meme that's been pumping on CT. Passes viability gate (long desc, twitter link). Bond at 13%, mcap $3.9k — ultra early but that's where alpha is. 0.05 SOL size keeps risk tiny on the first learning trade."
-    },
     {
       "time": "2026-09-12 23:43 UTC",
       "action": "sell",
@@ -61059,40 +61048,46 @@
       "action": "buy",
       "details": "[LLM] $GOAT at $4.183e-06, spent 0.05 SOL",
       "reason": "$GOAT — 'Greatest Of All Time' goat narrative has strong meme pedigree, fresh sub-1min launch with Twitter link attached (real attention, not just bots), and $4.6k mcap gives multi-x runway if it sticks. Best risk/reward of the batch."
+    },
+    {
+      "time": "2026-09-13 00:05 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $GOAT at $0.000126538 | P&L: +2925.1%",
+      "reason": "Auto take-profit at +2925.1%"
     }
   ],
   "trade_stats": {
-    "total": 3456,
-    "wins": 1600,
+    "total": 3457,
+    "wins": 1601,
     "losses": 1856,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 25.367897,
-    "avg_pnl_pct": 38.09,
+    "total_pnl_sol": 26.822291,
+    "avg_pnl_pct": 38.92,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 3,
-    "today_realized_sol": -0.013897,
-    "today_target_pct": -3.5,
+    "today_trades": 4,
+    "today_realized_sol": 1.440497,
+    "today_target_pct": 360.1,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1600,
+      "win_count": 1601,
       "loss_count": 1856,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:04:49.569085+00:00",
+  "last_llm_brief_at": "2026-09-13T00:06:11.675567+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2JYFfQki1Wc1DZ6a8nbBZVvPLWv54UR7cEaBdniapump": {
-      "price_usd": 2.857478864809281e-06,
+    "9Vdpm9ypt5dM3Gexrxmx5NGcL9CkQoM5FCssVSiYgVb2": {
+      "price_usd": 0.00012653838494665427,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 7.8273691056,
-      "volume_h24": 2789.11,
+      "liquidity_usd": 15665.439848570131,
+      "volume_h24": 1245.71,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.07698042
+      "real_sol_reserves": 153.237208731
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
