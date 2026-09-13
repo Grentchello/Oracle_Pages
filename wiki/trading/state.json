@@ -2,36 +2,7 @@
   "balance_sol": 1.018655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "79EZbBP7m36TG5gpmBMDNNEfVyeC6mKeAUjq1TeRpump": {
-      "symbol": "SOLCHAN",
-      "name": "Solana-Chan",
-      "mint": "79EZbBP7m36TG5gpmBMDNNEfVyeC6mKeAUjq1TeRpump",
-      "amount": 431470.58823529416,
-      "entry_price_usd": 1.19e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T01:56:03.644360+00:00",
-      "entry_time_iso": "2026-09-13T01:56:03.644369+00:00",
-      "entry_usd_value": 5.1345,
-      "last_seen_price_usd": 1.19e-05,
-      "entry_liquidity_usd": 2884.61562161724,
-      "entry_pool_sol": 28.090521196,
-      "entry_market_cap_usd": 14223.276576623235,
-      "entry_signals": {
-        "liquidity_usd": 2884.61562161724,
-        "volume_24h_usd": 14370.29,
-        "market_cap_usd": 14223.276576623235,
-        "ath_market_cap_usd": 16658.221539794635,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 28.090521196,
-        "description": "",
-        "twitter": "https://x.com/ZzzzzSol/status/2098953247511777749?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61866,19 +61837,38 @@
       "hold_duration_seconds": 64.267645,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "79EZbBP7m36TG5gpmBMDNNEfVyeC6mKeAUjq1TeRpump",
+      "symbol": "SOLCHAN",
+      "name": "Solana-Chan",
+      "amount_sold": 431470.58823529416,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T01:56:03.644360+00:00",
+      "entry_time_iso": "2026-09-13T01:56:03.644369+00:00",
+      "exit_time": "2026-09-13T01:57:07.369954+00:00",
+      "exit_time_iso": "2026-09-13T01:57:07.369962+00:00",
+      "entry_price_usd": 1.19e-05,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 2884.61562161724,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 28.090521196,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.725614,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T01:56:03.644642+00:00",
+  "last_updated": "2026-09-13T01:57:24.694182+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.69,
-  "portfolio_value_usd": 109.74,
+  "last_sol_price_usd": 102.53,
+  "portfolio_value_usd": 104.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:24 UTC",
-      "action": "buy",
-      "details": "[LLM] $Pep  at $3.34631e-06, spent 0.05 SOL",
-      "reason": "$Pep rides the Pepe brand — historically the single most viral memecoin family. $3.3k mcap at 0.6min old is prime attention-launch territory. No twitter signal but the name itself is the narrative. Tight risk: 0.05 SOL position with -25% hard stop."
-    },
     {
       "time": "2026-09-13 01:25 UTC",
       "action": "sell",
@@ -61992,30 +61982,48 @@
       "action": "buy",
       "details": "[LLM] $SOLCHAN at $1.19e-05, spent 0.05 SOL",
       "reason": "SOLCHAN is a fresh (1.8min) anime-mascot narrative token at $14K mcap with twitter presence — classic viral memecoin archetype with low mcap and real attention signal. Viability gate passes (twitter + decent mcap). Risk: bond not yet complete (36%), so early-stage. Sizing 0.05 SOL per v7 rules."
+    },
+    {
+      "time": "2026-09-13 01:57 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $SOLCHAN crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3494,
+    "total": 3495,
     "wins": 1609,
-    "losses": 1885,
-    "win_rate_pct": 46.1,
-    "total_pnl_sol": 27.391772,
-    "avg_pnl_pct": 38.78,
+    "losses": 1886,
+    "win_rate_pct": 46.0,
+    "total_pnl_sol": 27.341772,
+    "avg_pnl_pct": 38.74,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 41,
-    "today_realized_sol": 2.009978,
-    "today_target_pct": 502.5,
+    "today_trades": 42,
+    "today_realized_sol": 1.959978,
+    "today_target_pct": 490.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1885,
+      "loss_count": 1886,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T01:56:02.035751+00:00",
+  "last_llm_brief_at": "2026-09-13T01:57:24.694146+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "79EZbBP7m36TG5gpmBMDNNEfVyeC6mKeAUjq1TeRpump": {
+      "price_usd": 9.172705155457183e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2426.27862643748,
+      "volume_h24": 26076.96,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 23.664084916
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
