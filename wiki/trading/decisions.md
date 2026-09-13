@@ -24493,3 +24493,6 @@
 ## [2026-09-13 00:05 UTC] sell | [v8.7 TP +50% (full)] $GOAT at $0.000126538 | P&L: +2925.1%
 - **Reasoning:** Auto take-profit at +2925.1%
 
+## [2026-09-13 00:07 UTC] buy | [LLM] $PK at $0.000814977, spent 0.05 SOL
+- **Reasoning:** $PK 'The Private Key' is the only candidate passing the viability gate (has twitter, narrative is crypto-native 'private key' meme which has obvious viral appeal to CT). $4.2k mcap with bond at 0% means pure early attention play. Skipping $MERCHANT (Happy Merchant is a known polarizing rug-prone narrative), the two $ALON mints (split attention / twin-mint arb risk), $baby and $🧃 (fail viability — no twitter, bare description). One small entry to test the thesis.
+
