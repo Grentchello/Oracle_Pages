@@ -24745,3 +24745,6 @@
 ## [2026-09-13 02:15 UTC] buy | [LLM] $ADAM at $3.04552e-05, spent 0.05 SOL
 - **Reasoning:** $ADAM 'True Adam' is a personality/identity meme with an attached Twitter handle (@KryptonicMan) — exactly the kind of real-narrative attention play that pumps in the first hour. 1 min old, $6.5k mcap, 17% bonded = early enough for a 5-10x if the story catches. Risk: ultra-low mcap means high rug probability, but the Twitter link gives a trackable narrative. Sizing 0.05 SOL per v7 rules (I have 0.77 SOL free so within budget and min-liquidity gate will be checked by bot).
 
+## [2026-09-13 02:16 UTC] sell | [PARTIAL][LLM] $ADAM at $4.14625e-05 | P&L: -100.0%
+- **Reasoning:** $ADAM is up +36.1% which crosses the +30% TP threshold — bot should have auto-TP'd at 25% but since it's still held, take half off the table now to lock in gains and let the rest ride the bonding curve (43% means migration imminent = volatility spike both ways). Lock the win on a fresh position with no conviction beyond the pump.
+
