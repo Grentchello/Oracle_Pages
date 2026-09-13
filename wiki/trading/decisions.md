@@ -24844,3 +24844,6 @@
 ## [2026-09-13 03:15 UTC] buy | [LLM] $TRENDS at $7.114e-06, spent 0.05 SOL
 - **Reasoning:** $TRENDS has the strongest narrative-attention alignment: it's literally a token about going viral and launching tokens on-chain. Has Twitter, description >50 chars, liquidity likely adequate at $5k+ mcap. Meta-trade on attention markets. Risk: very fresh (1.1min), could be rugged, size is only 0.05 SOL.
 
+## [2026-09-13 03:16 UTC] sell | [rapid-drop] $TRENDS crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
