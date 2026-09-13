@@ -24742,3 +24742,6 @@
 ## [2026-09-13 02:14 UTC] sell | [rapid-drop] $SOLCHAN crashed >15% in one tick | P&L: -100.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-13 02:15 UTC] buy | [LLM] $ADAM at $3.04552e-05, spent 0.05 SOL
+- **Reasoning:** $ADAM 'True Adam' is a personality/identity meme with an attached Twitter handle (@KryptonicMan) — exactly the kind of real-narrative attention play that pumps in the first hour. 1 min old, $6.5k mcap, 17% bonded = early enough for a 5-10x if the story catches. Risk: ultra-low mcap means high rug probability, but the Twitter link gives a trackable narrative. Sizing 0.05 SOL per v7 rules (I have 0.77 SOL free so within budget and min-liquidity gate will be checked by bot).
+
