@@ -24631,3 +24631,9 @@
 ## [2026-09-13 01:15 UTC] sell | [PARTIAL][LLM] $SHS at $4.02292e-06 | P&L: -100.0%
 - **Reasoning:** Up +16.7% on a $570 pool where I'm 1% of liquidity — half-exit locks ~$0.40 profit, frees capital for fresher attention ($HODLERS just dropped with twitter backing), and reduces my impact on this thin pool. Below +25% TP so I have discretion; not letting a +16% gain round-trip to zero while capital sits idle.
 
+## [2026-09-13 01:16 UTC] sell | [rapid-drop] $SHS crashed >15% in one tick | P&L: -17.4%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-13 01:16 UTC] buy | [LLM] $LioraLLM at $1.343e-05, spent 0.05 SOL
+- **Reasoning:** $LioraLLM is the cleanest narrative play of the batch — AI-trading-agent meta is hot, twitter account is live and posting, 36% bond (deepest conviction among candidates), and $15.6k mcap has 10x room before it hits any meaningful ceiling. Position sized at 0.05 SOL per v7 rules; plan to take profit at +50% and exit if it goes stale past 30 min flat.
+
