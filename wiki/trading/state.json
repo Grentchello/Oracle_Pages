@@ -2,36 +2,7 @@
   "balance_sol": 1.777522,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "35AMjgr9YGKG9cfBayKR9x978StB8zAVKzyunmXRpump": {
-      "symbol": "🐂🀄",
-      "name": "Ansem Army",
-      "mint": "35AMjgr9YGKG9cfBayKR9x978StB8zAVKzyunmXRpump",
-      "amount": 924598.9144413124,
-      "entry_price_usd": 5.5261799686271626e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T01:02:08.888055+00:00",
-      "entry_time_iso": "2026-09-13T01:02:08.888063+00:00",
-      "entry_usd_value": 5.109500000000001,
-      "last_seen_price_usd": 5.5261799686271626e-06,
-      "entry_liquidity_usd": 570.63712058683,
-      "entry_pool_sol": 5.584079857,
-      "entry_market_cap_usd": 9110.62618301904,
-      "entry_signals": {
-        "liquidity_usd": 570.63712058683,
-        "volume_24h_usd": null,
-        "market_cap_usd": 9110.62618301904,
-        "ath_market_cap_usd": 10463.571884250954,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.584079857,
-        "description": "",
-        "twitter": "https://x.com/blknoiz06/status/2098938437336199268",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61418,19 +61389,38 @@
       "hold_duration_seconds": 63.919375,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "35AMjgr9YGKG9cfBayKR9x978StB8zAVKzyunmXRpump",
+      "symbol": "🐂🀄",
+      "name": "Ansem Army",
+      "amount_sold": 924598.9144413124,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T01:02:08.888055+00:00",
+      "entry_time_iso": "2026-09-13T01:02:08.888063+00:00",
+      "exit_time": "2026-09-13T01:03:12.691029+00:00",
+      "exit_time_iso": "2026-09-13T01:03:12.691037+00:00",
+      "entry_price_usd": 5.5261799686271626e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 570.63712058683,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 5.584079857,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.802994,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T01:02:08.888226+00:00",
+  "last_updated": "2026-09-13T01:03:29.334009+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.19,
-  "portfolio_value_usd": 186.75,
+  "last_sol_price_usd": 102.26,
+  "portfolio_value_usd": 181.77,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:34 UTC",
-      "action": "buy",
-      "details": "[LLM] $dollar at $1.92972e-06, spent 0.05 SOL",
-      "reason": "$dollar passes viability gate (twitter present from @keemotrades, desc short but liquidity ≥$3k clears it) and fragility gate (no banned keywords). At 0.6min old with ~$19k mcap and bonding curve only 35% complete, this is textbook fresh-launch territory: cute animal narrative (dog in collar) + KOL tweet already attached = real attention signal. Room for the curve to run. Autoplay: many peer tokens (Unstable, BING BONG, BLAZE, LESBIAN, APEONFONE) fail the auto-gates, leaving a cleaner shortlist."
-    },
     {
       "time": "2026-09-13 00:36 UTC",
       "action": "sell",
@@ -61544,40 +61534,46 @@
       "action": "buy",
       "details": "[LLM] $🐂🀄 at $5.52618e-06, spent 0.05 SOL",
       "reason": "Ansem Army directly references Ansem, one of the largest memecoin CT influencers with 200k+ followers. Naming a token after his 'army' is a built-in viral narrative with a ready-made audience. Bond24% is highest of the batch, indicating early traction."
+    },
+    {
+      "time": "2026-09-13 01:03 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $🐂🀄 crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3476,
+    "total": 3477,
     "wins": 1609,
-    "losses": 1867,
+    "losses": 1868,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 28.150639,
-    "avg_pnl_pct": 39.45,
+    "total_pnl_sol": 28.100639,
+    "avg_pnl_pct": 39.41,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 23,
-    "today_realized_sol": 2.768845,
-    "today_target_pct": 692.2,
+    "today_trades": 24,
+    "today_realized_sol": 2.718845,
+    "today_target_pct": 679.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1867,
+      "loss_count": 1868,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T01:02:07.477769+00:00",
+  "last_llm_brief_at": "2026-09-13T01:03:29.333970+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "7rGGoSM69nGgB7sWpaoicz14fLEQ3Lv6TwwYg25tpump": {
-      "price_usd": 3.924758162886668e-06,
+    "35AMjgr9YGKG9cfBayKR9x978StB8zAVKzyunmXRpump": {
+      "price_usd": 2.952973108887613e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 622.4227649572899,
+      "liquidity_usd": 163.81142785888002,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 6.090838291
+      "real_sol_reserves": 1.601911088
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

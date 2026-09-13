@@ -24604,3 +24604,6 @@
 ## [2026-09-13 01:02 UTC] buy | [LLM] $🐂🀄 at $5.52618e-06, spent 0.05 SOL
 - **Reasoning:** Ansem Army directly references Ansem, one of the largest memecoin CT influencers with 200k+ followers. Naming a token after his 'army' is a built-in viral narrative with a ready-made audience. Bond24% is highest of the batch, indicating early traction.
 
+## [2026-09-13 01:03 UTC] sell | [rapid-drop] $🐂🀄 crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
