@@ -24649,3 +24649,6 @@
 ## [2026-09-13 01:22 UTC] sell | [rapid-drop] $Penis crashed >15% in one tick | P&L: -18.8%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-13 01:24 UTC] buy | [LLM] $Pep  at $3.34631e-06, spent 0.05 SOL
+- **Reasoning:** $Pep rides the Pepe brand — historically the single most viral memecoin family. $3.3k mcap at 0.6min old is prime attention-launch territory. No twitter signal but the name itself is the narrative. Tight risk: 0.05 SOL position with -25% hard stop.
+
