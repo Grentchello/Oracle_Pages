@@ -2,36 +2,7 @@
   "balance_sol": 0.409722,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4NxzG6FG6Sz5fvrA6aHtatqDxE3AKF6LDQmCrujZpump": {
-      "symbol": "KEYCAT",
-      "name": "KeyboardCat",
-      "mint": "4NxzG6FG6Sz5fvrA6aHtatqDxE3AKF6LDQmCrujZpump",
-      "amount": 8711768.39610983,
-      "entry_price_usd": 5.836932031240255e-07,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T02:44:22.098525+00:00",
-      "entry_time_iso": "2026-09-13T02:44:22.098535+00:00",
-      "entry_usd_value": 5.085000000000001,
-      "last_seen_price_usd": 5.836932031240255e-07,
-      "entry_liquidity_usd": 149.90415713820002,
-      "entry_pool_sol": 1.473983846,
-      "entry_market_cap_usd": 10068.858493835716,
-      "entry_signals": {
-        "liquidity_usd": 149.90415713820002,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 10068.858493835716,
-        "ath_market_cap_usd": 10958.649254217513,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.473983846,
-        "description": "",
-        "twitter": "https://x.com/deployingmonkey/status/2098964217999057012?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62215,19 +62186,38 @@
       "hold_duration_seconds": 63.766651,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "4NxzG6FG6Sz5fvrA6aHtatqDxE3AKF6LDQmCrujZpump",
+      "symbol": "KEYCAT",
+      "name": "KeyboardCat",
+      "amount_sold": 8711768.39610983,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T02:44:22.098525+00:00",
+      "entry_time_iso": "2026-09-13T02:44:22.098535+00:00",
+      "exit_time": "2026-09-13T02:45:37.873752+00:00",
+      "exit_time_iso": "2026-09-13T02:45:37.873756+00:00",
+      "entry_price_usd": 5.836932031240255e-07,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — Just entered (0.0h), only -1.7%, bonding curve still active. KEYCAT has a cute cat narrative. Give it a few minutes to find attention  — no real exit liquidity",
+      "entry_liquidity_usd": 149.90415713820002,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.473983846,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 75.775242,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T02:44:22.098795+00:00",
+  "last_updated": "2026-09-13T02:45:37.873935+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.7,
-  "portfolio_value_usd": 46.75,
+  "last_sol_price_usd": 102.1,
+  "portfolio_value_usd": 41.83,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 02:09 UTC",
-      "action": "buy",
-      "details": "[LLM] $imposter at $0.0158089, spent 0.05 SOL",
-      "reason": "$imposter has a live X post from derivativist (visible narrative driver), fresh0.7min age, $4.3k mcap — classic attention-launched play. Viability passes (twitter link + cheap mcap) and not on fragility blocklist. Riskiest of the bunch but highest attention signal."
-    },
     {
       "time": "2026-09-13 02:10 UTC",
       "action": "sell",
@@ -62341,40 +62331,46 @@
       "action": "buy",
       "details": "[LLM] $KEYCAT at $5.83693e-07, spent 0.05 SOL",
       "reason": "$KEYCAT — Keyboard Cat is a proven viral-meme IP and there's a fresh X post from @deployingmonkey attached as the attention spark. Passes viability (twitter present) and fragility blocklist (no political/celebrity keywords). Risk: $10k mcap + bond 27% incomplete = thin liquidity and rug-prone, so size matters — the bot's 0.05 SOL cap and -25% hard stop keep the downside bounded."
+    },
+    {
+      "time": "2026-09-13 02:45 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $KEYCAT at $5.73686e-07 | P&L: -100.0%",
+      "reason": "Just entered (0.0h), only -1.7%, bonding curve still active. KEYCAT has a cute cat narrative. Give it a few minutes to find attention before bailing."
     }
   ],
   "trade_stats": {
-    "total": 3508,
+    "total": 3509,
     "wins": 1610,
-    "losses": 1898,
+    "losses": 1899,
     "win_rate_pct": 45.9,
-    "total_pnl_sol": 26.782839,
-    "avg_pnl_pct": 38.27,
+    "total_pnl_sol": 26.732839,
+    "avg_pnl_pct": 38.23,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 55,
-    "today_realized_sol": 1.401045,
-    "today_target_pct": 350.3,
+    "today_trades": 56,
+    "today_realized_sol": 1.351045,
+    "today_target_pct": 337.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1610,
-      "loss_count": 1898,
+      "loss_count": 1899,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:44:19.990526+00:00",
+  "last_llm_brief_at": "2026-09-13T02:45:37.873652+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2Rrp2tgKZnLMgAzpGnH3THVQsKMDDUN1v7KovAFGpump": {
-      "price_usd": 8.145233104232664e-06,
+    "4NxzG6FG6Sz5fvrA6aHtatqDxE3AKF6LDQmCrujZpump": {
+      "price_usd": 5.73685911450398e-07,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2112.8393769921004,
-      "volume_h24": 19849.48,
+      "liquidity_usd": 143.3690361457,
+      "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 20.775215113
+      "real_sol_reserves": 1.404202117
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
