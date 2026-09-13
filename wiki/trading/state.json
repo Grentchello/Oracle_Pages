@@ -1,37 +1,8 @@
 {
-  "balance_sol": 31.001858,
+  "balance_sol": 32.549593,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GMvAy71ygwfHumfmdA7LgG4Fi7XV5HkoEQzE3uxfpump": {
-      "symbol": "PUMP",
-      "name": "Pump Coin",
-      "mint": "GMvAy71ygwfHumfmdA7LgG4Fi7XV5HkoEQzE3uxfpump",
-      "amount": 1171540.4098549392,
-      "entry_price_usd": 4.343e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T00:40:05.634026+00:00",
-      "entry_time_iso": "2026-09-13T00:40:05.634034+00:00",
-      "entry_usd_value": 5.088000000000001,
-      "last_seen_price_usd": 4.343e-06,
-      "entry_liquidity_usd": 14353.379952700801,
-      "entry_pool_sol": 141.051296705,
-      "entry_market_cap_usd": 4406.090943005178,
-      "entry_signals": {
-        "liquidity_usd": 14353.379952700801,
-        "volume_24h_usd": 160.53,
-        "market_cap_usd": 4406.090943005178,
-        "ath_market_cap_usd": 4679.197916430589,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 141.051296705,
-        "description": "",
-        "twitter": "https://x.com/ramentrade/status/2098934216688021792",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61221,25 +61192,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 84.023878,
       "partial": false
+    },
+    {
+      "mint": "GMvAy71ygwfHumfmdA7LgG4Fi7XV5HkoEQzE3uxfpump",
+      "symbol": "PUMP",
+      "name": "Pump Coin",
+      "amount_sold": 1171540.4098549392,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T00:40:05.634026+00:00",
+      "entry_time_iso": "2026-09-13T00:40:05.634034+00:00",
+      "exit_time": "2026-09-13T00:41:09.841086+00:00",
+      "exit_time_iso": "2026-09-13T00:41:09.841092+00:00",
+      "entry_price_usd": 4.343e-06,
+      "exit_price_usd": 0.00013380211395539536,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 1.547735,
+      "pnl_sol": 1.497735,
+      "pnl_pct": 2980.87,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "entry_liquidity_usd": 14353.38,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 141.0513,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 64.207076,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-13T00:40:05.634281+00:00",
+  "last_updated": "2026-09-13T00:41:25.074868+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.76,
-  "portfolio_value_usd": 3159.84,
+  "last_sol_price_usd": 101.28,
+  "portfolio_value_usd": 3296.62,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:10 UTC",
-      "action": "buy",
-      "details": "[LLM] $PUMPITOS at $3.076e-06, spent 0.05 SOL",
-      "reason": "Take $PUMPITOS — GTA/San Andreas 'Los Pumpitos' meme coin taps into a strong evergreen gaming nostalgia narrative (GTA VI hype, meme legends on streets of Los Santos). Fresh 0.7min age, $3.2k mcap = early entry, narrative is sticky and screenshot-able. Acceptable risk at 0.1 SOL."
-    },
-    {
-      "time": "2026-09-13 00:11 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $PUMPITOS at $3.38294e-06 | P&L: +10.0%",
-      "reason": "+10% on a generic-narrative bonding-curve token with thin pool ($278). Lock half the gain, let the other half ride the curve fill. If it stalls, the half I kept is a free option; if it pops, I still capture."
-    },
     {
       "time": "2026-09-13 00:12 UTC",
       "action": "sell",
@@ -61347,6 +61330,18 @@
       "action": "buy",
       "details": "[LLM] $PUMP at $4.343e-06, spent 0.05 SOL",
       "reason": "$PUMP: meta-memecoin name ('Pump Coin') that thematically aligns with pump.fun culture. Tweet from @ramentrade (known Solana trader with real audience) is a concrete attention signal, not just speculation. Ultra-fresh (1.3min, bond 10%), mcap $4.4k — pure early-discovery play. Risk: bond barely started, any rug/pull = total loss. Size 0.05 SOL."
+    },
+    {
+      "time": "2026-09-13 00:41 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $PUMP at $0.000133802 | P&L: +2980.9%",
+      "reason": "Auto take-profit at +2980.9%"
+    },
+    {
+      "time": "2026-09-13 00:41 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -61368,9 +61363,21 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:40:04.217002+00:00",
+  "last_llm_brief_at": "2026-09-13T00:41:25.074032+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GMvAy71ygwfHumfmdA7LgG4Fi7XV5HkoEQzE3uxfpump": {
+      "price_usd": 0.00013380211395539536,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 19381.1778169752,
+      "volume_h24": 505.91,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 191.362340215
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
