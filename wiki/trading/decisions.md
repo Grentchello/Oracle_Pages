@@ -24511,3 +24511,6 @@
 ## [2026-09-13 00:15 UTC] buy | [LLM] $Shalhome at $0.000103473, spent 0.05 SOL
 - **Reasoning:** Fresh 0.5min launch, mcap $3.8k, description ≥50 chars ✓, twitter link present ✓ passes viability gate. 'Shalhome' is an obscure/memeable name with a real X post — pure narrative play at early bonding curve. Risk: low liquidity, but at this stage 0.05 SOL gets meaningful size.
 
+## [2026-09-13 00:16 UTC] sell | [FULL][LLM] $Shalhome at $9.93768e-05 | P&L: -4.0%
+- **Reasoning:** Only -4% after 0.0h held, well within the -25% hard cap and nowhere near the 30-min stale exit. Bonding curve pool at $2660 means thin liquidity, but no bounce signal yet and no reason to panic. Give it a few more minutes to see if the narrative develops or thesis breaks.
+
