@@ -24508,3 +24508,6 @@
 ## [2026-09-13 00:12 UTC] sell | [FULL][LLM] $PUMPITOS at $3.43276e-06 | P&L: +0.3%
 - **Reasoning:** PUMPITOS just entered at +11.6% with bonding curve barely started (pool $295, 1% share). Fresh entry, let it develop for another few minutes before deciding — not stale yet.
 
+## [2026-09-13 00:15 UTC] buy | [LLM] $Shalhome at $0.000103473, spent 0.05 SOL
+- **Reasoning:** Fresh 0.5min launch, mcap $3.8k, description ≥50 chars ✓, twitter link present ✓ passes viability gate. 'Shalhome' is an obscure/memeable name with a real X post — pure narrative play at early bonding curve. Risk: low liquidity, but at this stage 0.05 SOL gets meaningful size.
+
