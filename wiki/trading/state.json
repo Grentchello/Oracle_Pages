@@ -2,36 +2,7 @@
   "balance_sol": 0.868655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2R4wMVHjxPf5nRZdkFKsbPkSPvgL7JNdj5m57Rxupump": {
-      "symbol": "GIGACAT",
-      "name": "gigacat",
-      "mint": "2R4wMVHjxPf5nRZdkFKsbPkSPvgL7JNdj5m57Rxupump",
-      "amount": 629595.5882352941,
-      "entry_price_usd": 8.16e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T02:04:03.774901+00:00",
-      "entry_time_iso": "2026-09-13T02:04:03.774910+00:00",
-      "entry_usd_value": 5.1375,
-      "last_seen_price_usd": 8.16e-06,
-      "entry_liquidity_usd": 4213.85866150575,
-      "entry_pool_sol": 41.010789893,
-      "entry_market_cap_usd": 15322.131140369005,
-      "entry_signals": {
-        "liquidity_usd": 4213.85866150575,
-        "volume_24h_usd": 4216.72,
-        "market_cap_usd": 15322.131140369005,
-        "ath_market_cap_usd": 17187.716131807374,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 41.010789893,
-        "description": "",
-        "twitter": "https://x.com/deployingmonkey/status/2098955300489367735",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61941,19 +61912,38 @@
       "hold_duration_seconds": 82.05999,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "2R4wMVHjxPf5nRZdkFKsbPkSPvgL7JNdj5m57Rxupump",
+      "symbol": "GIGACAT",
+      "name": "gigacat",
+      "amount_sold": 629595.5882352941,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T02:04:03.774901+00:00",
+      "entry_time_iso": "2026-09-13T02:04:03.774910+00:00",
+      "exit_time": "2026-09-13T02:05:07.498042+00:00",
+      "exit_time_iso": "2026-09-13T02:05:07.498051+00:00",
+      "entry_price_usd": 8.16e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 4213.85866150575,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 41.010789893,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.723163,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T02:04:03.775087+00:00",
+  "last_updated": "2026-09-13T02:05:23.243860+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.75,
-  "portfolio_value_usd": 94.39,
+  "last_sol_price_usd": 102.64,
+  "portfolio_value_usd": 89.16,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:32 UTC",
-      "action": "buy",
-      "details": "[LLM] $clavicul at $3.402e-06, spent 0.05 SOL",
-      "reason": "$clavicul is a brand-new launch (1 min old, $3.9k mcap) with a narrative hook — 'claviculars dog' ties into the dog-coin meta which has historical viral legs (BONK, WIF, dogwifhat). Community twitter link attached suggests attention infrastructure already exists. Low mcap = max upside if narrative catches. Risk: 1 min old means bond only 13% complete, needs volume to graduate. Viability: desc≥50? unclear from data, but liquidity/growth curve at this mcap is the real signal."
-    },
     {
       "time": "2026-09-13 01:33 UTC",
       "action": "sell",
@@ -62067,30 +62057,48 @@
       "action": "buy",
       "details": "[LLM] $GIGACAT at $8.16e-06, spent 0.05 SOL",
       "reason": "$GIGACAT - 1min old, $15k mcap, bond36% filling fast, posted by @deployingmonkey which signals a deployer with attention intent. Cat meta + 'GIGA' naming rides two attention vectors (cats + size meme). 0.05 SOL risk on a fresh viral launch."
+    },
+    {
+      "time": "2026-09-13 02:05 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $GIGACAT crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3497,
+    "total": 3498,
     "wins": 1609,
-    "losses": 1888,
+    "losses": 1889,
     "win_rate_pct": 46.0,
-    "total_pnl_sol": 27.241772,
-    "avg_pnl_pct": 38.66,
+    "total_pnl_sol": 27.191772,
+    "avg_pnl_pct": 38.62,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 44,
-    "today_realized_sol": 1.859978,
-    "today_target_pct": 465.0,
+    "today_trades": 45,
+    "today_realized_sol": 1.809978,
+    "today_target_pct": 452.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1888,
+      "loss_count": 1889,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:04:02.383806+00:00",
+  "last_llm_brief_at": "2026-09-13T02:05:23.243817+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2R4wMVHjxPf5nRZdkFKsbPkSPvgL7JNdj5m57Rxupump": {
+      "price_usd": 3.861566508413866e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 492.71052048408006,
+      "volume_h24": 20966.64,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4.800375297
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

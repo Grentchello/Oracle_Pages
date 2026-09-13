@@ -24727,3 +24727,6 @@
 ## [2026-09-13 02:04 UTC] buy | [LLM] $GIGACAT at $8.16e-06, spent 0.05 SOL
 - **Reasoning:** $GIGACAT - 1min old, $15k mcap, bond36% filling fast, posted by @deployingmonkey which signals a deployer with attention intent. Cat meta + 'GIGA' naming rides two attention vectors (cats + size meme). 0.05 SOL risk on a fresh viral launch.
 
+## [2026-09-13 02:05 UTC] sell | [rapid-drop] $GIGACAT crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
