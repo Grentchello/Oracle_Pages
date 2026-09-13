@@ -1,37 +1,8 @@
 {
-  "balance_sol": 31.01784,
+  "balance_sol": 31.042791,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ETSPCKn5vuKgDNRppgi5KvrVZSSjg9v99gspQifTpump": {
-      "symbol": "PUMPITOS",
-      "name": "Los Pumpitos",
-      "mint": "ETSPCKn5vuKgDNRppgi5KvrVZSSjg9v99gspQifTpump",
-      "amount": 825910.2730819246,
-      "entry_price_usd": 3.076e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-13T00:10:06.968955+00:00",
-      "entry_time_iso": "2026-09-13T00:10:06.968963+00:00",
-      "entry_usd_value": 5.081,
-      "last_seen_price_usd": 3.3829389134010284e-06,
-      "entry_liquidity_usd": 172.72623426578,
-      "entry_pool_sol": 1.699726769,
-      "entry_market_cap_usd": 3258.3149727771074,
-      "entry_signals": {
-        "liquidity_usd": 172.72623426578,
-        "volume_24h_usd": 144.31,
-        "market_cap_usd": 3258.3149727771074,
-        "ath_market_cap_usd": 3258.3149727771074,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.699726769,
-        "description": "Los Pumpitos brings meme legends to the streets of Los Santos. Heists, wild chases, and rival crews — welcome to our Grand Pump Auto universe. 🎮",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61005,19 +60976,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 81.78979,
       "partial": true
+    },
+    {
+      "mint": "ETSPCKn5vuKgDNRppgi5KvrVZSSjg9v99gspQifTpump",
+      "symbol": "PUMPITOS",
+      "name": "Los Pumpitos",
+      "amount_sold": 825910.2730819246,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T00:10:06.968955+00:00",
+      "entry_time_iso": "2026-09-13T00:10:06.968963+00:00",
+      "exit_time": "2026-09-13T00:12:42.847327+00:00",
+      "exit_time_iso": "2026-09-13T00:12:42.847332+00:00",
+      "entry_price_usd": 3.076e-06,
+      "exit_price_usd": 3.4327626524233403e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.024951,
+      "pnl_sol": -4.9e-05,
+      "pnl_pct": 0.32,
+      "exit_reason": "LLM: sell_all — PUMPITOS just entered at +11.6% with bonding curve barely started (pool $295, 1% share). Fresh entry, let it develop for another few minutes before de",
+      "entry_liquidity_usd": 172.73,
+      "exit_liquidity_usd": 277.84,
+      "entry_pool_sol": 1.6997,
+      "exit_pool_sol": 2.7338,
+      "hold_duration_seconds": 155.878387,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-13T00:11:28.759329+00:00",
+  "last_updated": "2026-09-13T00:12:42.847534+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.63,
-  "portfolio_value_usd": 3154.88,
+  "last_sol_price_usd": 102.15,
+  "portfolio_value_usd": 3171.02,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 23:49 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Gamblecoin at $4.48232e-06 | P&L: +40.5%",
-      "reason": "Up +40.5% in 6 min on a meta-narrative coin, but pool is only $773 — extreme thin liquidity means gains can evaporate in one dump. Selling half locks in ~+40% on half the bag and lets the other half ride the bot's +50% TP or higher. Best risk/reward given the pool fragility."
-    },
     {
       "time": "2026-09-12 23:50 UTC",
       "action": "sell",
@@ -61131,40 +61120,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $PUMPITOS at $3.38294e-06 | P&L: +10.0%",
       "reason": "+10% on a generic-narrative bonding-curve token with thin pool ($278). Lock half the gain, let the other half ride the curve fill. If it stalls, the half I kept is a free option; if it pops, I still capture."
+    },
+    {
+      "time": "2026-09-13 00:12 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PUMPITOS at $3.43276e-06 | P&L: +0.3%",
+      "reason": "PUMPITOS just entered at +11.6% with bonding curve barely started (pool $295, 1% share). Fresh entry, let it develop for another few minutes before deciding — not stale yet."
     }
   ],
   "trade_stats": {
-    "total": 3459,
+    "total": 3460,
     "wins": 1603,
-    "losses": 1856,
+    "losses": 1857,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 26.82668,
-    "avg_pnl_pct": 38.9,
+    "total_pnl_sol": 26.826631,
+    "avg_pnl_pct": 38.89,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 6,
-    "today_realized_sol": 1.444886,
+    "today_trades": 7,
+    "today_realized_sol": 1.444837,
     "today_target_pct": 361.2,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1603,
-      "loss_count": 1856,
+      "loss_count": 1857,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:11:28.758251+00:00",
+  "last_llm_brief_at": "2026-09-13T00:12:42.847220+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "ETSPCKn5vuKgDNRppgi5KvrVZSSjg9v99gspQifTpump": {
-      "price_usd": 3.3829389134010284e-06,
+      "price_usd": 3.4327626524233403e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 277.83746478544,
-      "volume_h24": 278.3,
+      "liquidity_usd": 295.20822262455,
+      "volume_h24": 517.7,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.733813488
+      "real_sol_reserves": 2.889948337
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

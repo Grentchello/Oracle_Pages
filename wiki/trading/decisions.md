@@ -24505,3 +24505,6 @@
 ## [2026-09-13 00:11 UTC] sell | [PARTIAL][LLM] $PUMPITOS at $3.38294e-06 | P&L: +10.0%
 - **Reasoning:** +10% on a generic-narrative bonding-curve token with thin pool ($278). Lock half the gain, let the other half ride the curve fill. If it stalls, the half I kept is a free option; if it pops, I still capture.
 
+## [2026-09-13 00:12 UTC] sell | [FULL][LLM] $PUMPITOS at $3.43276e-06 | P&L: +0.3%
+- **Reasoning:** PUMPITOS just entered at +11.6% with bonding curve barely started (pool $295, 1% share). Fresh entry, let it develop for another few minutes before deciding — not stale yet.
+
