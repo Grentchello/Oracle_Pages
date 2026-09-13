@@ -24679,3 +24679,6 @@
 ## [2026-09-13 01:34 UTC] sell | [FULL][LLM] $YSIWA at $3.45919e-06 | P&L: -100.0%
 - **Reasoning:** Just entered0.0h ago at +0.5%, essentially flat. No reason to bail yet — give it a few minutes to develop. Bonding curve pool is thin at $305 though, so this is fragile; any pop I should take fast.
 
+## [2026-09-13 01:37 UTC] buy | [LLM] $OG at $0.000469914, spent 0.05 SOL
+- **Reasoning:** $OG — 'you know where all this started' is a classic OG meta-narrative that memecoin traders love. Fresh 1.6min, $3.9k mcap = pre-pump. Low bond (2%) but on-curve entry. Small 0.05 SOL scout.
+
