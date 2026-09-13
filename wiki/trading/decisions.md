@@ -24535,3 +24535,9 @@
 ## [2026-09-13 00:28 UTC] buy | [LLM] $Unstable at $0.000352903, spent 0.05 SOL
 - **Reasoning:** $Unstable at $15k mcap, 1 min old, meta-narrative name plays well in current choppy market where traders are calling out ruggy / unstable tokens — self-referential humor is a classic memecoin attention driver. Small position to test attention.
 
+## [2026-09-13 00:29 UTC] sell | [FULL][LLM] $Unstable at $0.000493286 | P&L: +39.8%
+- **Reasoning:** Up +39.8% — well past the 25% auto-TP threshold. Bonding-curve tokens retrace violently; with 0% pool share showing, the bot likely already TP'd or this position is essentially flat. Lock the gain and free the slot for a fresh entry.
+
+## [2026-09-13 00:29 UTC] buy | [LLM] $LEXAPRO at $3.702e-06, spent 0.05 SOL
+- **Reasoning:** Passes viability (twitter link present, desc >50 chars) and fragility v8.2 gates. Absurdist disability+SSRI narrative is the kind of dark humor that goes viral on memecoin CT. 1.9min old = still pre-pump. 0.05 SOL position.
+
