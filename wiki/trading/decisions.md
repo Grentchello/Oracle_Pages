@@ -24748,3 +24748,6 @@
 ## [2026-09-13 02:16 UTC] sell | [PARTIAL][LLM] $ADAM at $4.14625e-05 | P&L: -100.0%
 - **Reasoning:** $ADAM is up +36.1% which crosses the +30% TP threshold — bot should have auto-TP'd at 25% but since it's still held, take half off the table now to lock in gains and let the rest ride the bonding curve (43% means migration imminent = volatility spike both ways). Lock the win on a fresh position with no conviction beyond the pump.
 
+## [2026-09-13 02:17 UTC] sell | [v8.7 TP +50% (full)] $ADAM at $5.00476e-05 | P&L: +64.3%
+- **Reasoning:** Auto take-profit at +64.3%
+

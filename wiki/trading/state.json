@@ -1,37 +1,8 @@
 {
-  "balance_sol": 0.718655,
+  "balance_sol": 0.759722,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "AW1JK3BfFofom7ixSwvUreCG8u8U4QqRD2BxqAsLpump": {
-      "symbol": "ADAM",
-      "name": "True Adam",
-      "mint": "AW1JK3BfFofom7ixSwvUreCG8u8U4QqRD2BxqAsLpump",
-      "amount": 84148.30687907473,
-      "entry_price_usd": 3.045515822062586e-05,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-13T02:15:37.586926+00:00",
-      "entry_time_iso": "2026-09-13T02:15:37.586934+00:00",
-      "entry_usd_value": 5.125500000000001,
-      "last_seen_price_usd": 4.146248082500061e-05,
-      "entry_liquidity_usd": 6101.475837748831,
-      "entry_pool_sol": 59.520786633,
-      "entry_market_cap_usd": 6545.902859623254,
-      "entry_signals": {
-        "liquidity_usd": 6101.475837748831,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 6545.902859623254,
-        "ath_market_cap_usd": 6545.902859623254,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 59.520786633,
-        "description": "",
-        "twitter": "https://x.com/KryptonicMan/status/2098958429410689127",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62041,19 +62012,37 @@
       "hold_duration_seconds": 77.538328,
       "partial": true,
       "ghost_exit": true
+    },
+    {
+      "mint": "AW1JK3BfFofom7ixSwvUreCG8u8U4QqRD2BxqAsLpump",
+      "symbol": "ADAM",
+      "name": "True Adam",
+      "amount_sold": 84148.30687907473,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T02:15:37.586926+00:00",
+      "entry_time_iso": "2026-09-13T02:15:37.586934+00:00",
+      "exit_time": "2026-09-13T02:17:59.052144+00:00",
+      "exit_time_iso": "2026-09-13T02:17:59.052151+00:00",
+      "entry_price_usd": 3.045515822062586e-05,
+      "exit_price_usd": 5.004758684180664e-05,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.041067,
+      "pnl_sol": 0.016067,
+      "pnl_pct": 64.33,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "entry_liquidity_usd": 6101.48,
+      "exit_liquidity_usd": 9739.83,
+      "entry_pool_sol": 59.5208,
+      "exit_pool_sol": 94.9579,
+      "hold_duration_seconds": 141.465235,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-13T02:16:55.125468+00:00",
+  "last_updated": "2026-09-13T02:18:11.816478+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.57,
-  "portfolio_value_usd": 76.28,
+  "last_sol_price_usd": 102.55,
+  "portfolio_value_usd": 77.91,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:39 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $EPIC crashed >15% in one tick | P&L: -100.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-13 01:41 UTC",
       "action": "buy",
@@ -62167,40 +62156,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $ADAM at $4.14625e-05 | P&L: -100.0%",
       "reason": "$ADAM is up +36.1% which crosses the +30% TP threshold — bot should have auto-TP'd at 25% but since it's still held, take half off the table now to lock in gains and let the rest ride the bonding curve (43% means migration imminent = volatility spike both ways). Lock the win on a fresh position with no conviction beyond the pump."
+    },
+    {
+      "time": "2026-09-13 02:17 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $ADAM at $5.00476e-05 | P&L: +64.3%",
+      "reason": "Auto take-profit at +64.3%"
     }
   ],
   "trade_stats": {
-    "total": 3501,
-    "wins": 1609,
+    "total": 3502,
+    "wins": 1610,
     "losses": 1892,
     "win_rate_pct": 46.0,
-    "total_pnl_sol": 27.066772,
-    "avg_pnl_pct": 38.5,
+    "total_pnl_sol": 27.082839,
+    "avg_pnl_pct": 38.51,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 48,
-    "today_realized_sol": 1.684978,
-    "today_target_pct": 421.2,
+    "today_trades": 49,
+    "today_realized_sol": 1.701045,
+    "today_target_pct": 425.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1609,
+      "win_count": 1610,
       "loss_count": 1892,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:16:55.125138+00:00",
+  "last_llm_brief_at": "2026-09-13T02:18:11.816436+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "AW1JK3BfFofom7ixSwvUreCG8u8U4QqRD2BxqAsLpump": {
-      "price_usd": 4.146248082500061e-05,
+      "price_usd": 5.004758684180664e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 9739.83227348859,
+      "liquidity_usd": 12709.022909857398,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 94.957904587
+      "real_sol_reserves": 123.930013748
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
