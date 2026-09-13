@@ -24664,3 +24664,9 @@
 ## [2026-09-13 01:30 UTC] buy | [LLM] $LUFFY at $4.96e-06, spent 0.05 SOL
 - **Reasoning:** LUFFY = One Piece anime IP, massive global brand recognition, classic viral memecoin name. Fresh launch at $3.8k mcap with active twitter post. Attention narrative is strong and the entry is early enough for multi-x upside.
 
+## [2026-09-13 01:31 UTC] sell | [rapid-drop] $LUFFY crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-13 01:32 UTC] buy | [LLM] $clavicul at $3.402e-06, spent 0.05 SOL
+- **Reasoning:** $clavicul is a brand-new launch (1 min old, $3.9k mcap) with a narrative hook — 'claviculars dog' ties into the dog-coin meta which has historical viral legs (BONK, WIF, dogwifhat). Community twitter link attached suggests attention infrastructure already exists. Low mcap = max upside if narrative catches. Risk: 1 min old means bond only 13% complete, needs volume to graduate. Viability: desc≥50? unclear from data, but liquidity/growth curve at this mcap is the real signal.
+
