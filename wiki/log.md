@@ -730,3 +730,11 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - 51 losses today, 100% <5 min hold time (median 1.3 min). 0 of 51 hit -50% hard cap — the LLM is closing before mechanical stop thanks to v8.7 aggressive exit logic. This is correct behavior; tokens passing v9.2 (>=3 SOL reserves) still rug between entry and exit, but LLM catches the bleed early.
 - Slippage caveat unchanged: lifetime +26.36 SOL is paper via v9.0 quadratic sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
 - **Verdict: Profitable, no changes needed.** Bot working as designed on v9.2. The 2h idle window is funding-limited (balance<position size), not strategy-limited. Waiting for SOL topup to validate v9.2 ghost-rate reduction.
+
+## [2026-09-13 23:16 UTC] eval | memecoin bot — 2026-09-13 23:16 UTC
+- Window since last eval (21:15 UTC, 2h): **0 new trades**. Trade count steady at 3,519. Bot continues idle due to balance floor.
+- **Balance: 0.041267 SOL** unchanged. Still buy-blocked (POSITION_SIZE_SOL 0.05 + RESERVE_SOL 0.02 = 0.07 SOL required). Bot is alive (PID 3795456), ticking every 60s, but cannot open positions.
+- v9.2 filter effectiveness during idle: rejecting 19-21/25 candidates/tick on bonding-curve reserves<3 SOL — pump.fun launches at the snapshot moment are mostly under-funded. This is expected/designed behavior.
+- Lifetime stats unchanged since 21:15 eval: +26.36 SOL paper (slippage-adjusted upper bound via v9.0 quadratic), 45.8% win rate (1612W/1816L/91BE), profit factor 1.96, 0 open positions.
+- Slippage caveat honored: lifetime +26.36 SOL is paper via v9.0 quadratic sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
+- **Verdict: Profitable, no changes needed.** Bot working as designed on v9.2. The 2h idle window is funding-limited (balance < position size floor), not strategy-limited. v8.7+ mechanical rules preserved per user hard constraint. Awaiting SOL topup to resume live trading and validate v9.2 ghost-rate reduction.
