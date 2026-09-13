@@ -24754,3 +24754,6 @@
 ## [2026-09-13 02:19 UTC] buy | [LLM] $SNAKE at $1.37e-05, spent 0.05 SOL
 - **Reasoning:** Nokia Snake is a globally recognized IP — instant nostalgia attention. Play-to-earn hook + Solana meme = strong narrative. Bond 37% nearly graduated (momentum signal), has active twitter from snakeworld_fun, mcap $16k is ideal entry zone. Risk: sub-$20k mcap means thin liquidity for size, but 0.05 SOL position is well within 5x liquidity floor.
 
+## [2026-09-13 02:20 UTC] sell | [rapid-drop] $SNAKE crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

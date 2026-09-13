@@ -2,36 +2,7 @@
   "balance_sol": 0.709722,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ZvU7ficD4yeScnymLSrCpPMJjJzMJrAqCUCp45Jpump": {
-      "symbol": "SNAKE",
-      "name": "SNAKE",
-      "mint": "ZvU7ficD4yeScnymLSrCpPMJjJzMJrAqCUCp45Jpump",
-      "amount": 374452.5547445256,
-      "entry_price_usd": 1.37e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T02:19:30.240021+00:00",
-      "entry_time_iso": "2026-09-13T02:19:30.240029+00:00",
-      "entry_usd_value": 5.13,
-      "last_seen_price_usd": 1.37e-05,
-      "entry_liquidity_usd": 3710.9524749335997,
-      "entry_pool_sol": 36.169127436,
-      "entry_market_cap_usd": 16199.790182201314,
-      "entry_signals": {
-        "liquidity_usd": 3710.9524749335997,
-        "volume_24h_usd": 4621.85,
-        "market_cap_usd": 16199.790182201314,
-        "ath_market_cap_usd": 16270.57497285165,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 36.169127436,
-        "description": "Taneli Armanto’s Nokia legend respawns on Solana as $SNAKE, turning classic mobile muscle memory into play-to-earn tournaments 🐍",
-        "twitter": "https://x.com/snakeworld_fun/status/2098958499606614113",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62065,19 +62036,38 @@
       "exit_pool_sol": 94.9579,
       "hold_duration_seconds": 141.465235,
       "partial": false
+    },
+    {
+      "mint": "ZvU7ficD4yeScnymLSrCpPMJjJzMJrAqCUCp45Jpump",
+      "symbol": "SNAKE",
+      "name": "SNAKE",
+      "amount_sold": 374452.5547445256,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T02:19:30.240021+00:00",
+      "entry_time_iso": "2026-09-13T02:19:30.240029+00:00",
+      "exit_time": "2026-09-13T02:20:34.078754+00:00",
+      "exit_time_iso": "2026-09-13T02:20:34.078762+00:00",
+      "entry_price_usd": 1.37e-05,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 3710.9524749335997,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 36.169127436,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.838752,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T02:19:30.240195+00:00",
+  "last_updated": "2026-09-13T02:20:46.931354+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.6,
-  "portfolio_value_usd": 77.95,
+  "last_sol_price_usd": 102.55,
+  "portfolio_value_usd": 72.78,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:43 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ANSEM at $3.46796e-06 | P&L: -100.0%",
-      "reason": "Up 12.2% with only 0.0h held on a $317 pool. Selling on this thin pool would crater price via my own slippage; holding lets the bot's +30% auto-TP at 25% capture more if it runs, while -25% hard stop protects downside."
-    },
     {
       "time": "2026-09-13 01:46 UTC",
       "action": "observe",
@@ -62191,30 +62181,48 @@
       "action": "buy",
       "details": "[LLM] $SNAKE at $1.37e-05, spent 0.05 SOL",
       "reason": "Nokia Snake is a globally recognized IP — instant nostalgia attention. Play-to-earn hook + Solana meme = strong narrative. Bond 37% nearly graduated (momentum signal), has active twitter from snakeworld_fun, mcap $16k is ideal entry zone. Risk: sub-$20k mcap means thin liquidity for size, but 0.05 SOL position is well within 5x liquidity floor."
+    },
+    {
+      "time": "2026-09-13 02:20 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $SNAKE crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3502,
+    "total": 3503,
     "wins": 1610,
-    "losses": 1892,
+    "losses": 1893,
     "win_rate_pct": 46.0,
-    "total_pnl_sol": 27.082839,
-    "avg_pnl_pct": 38.51,
+    "total_pnl_sol": 27.032839,
+    "avg_pnl_pct": 38.47,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 49,
-    "today_realized_sol": 1.701045,
-    "today_target_pct": 425.3,
+    "today_trades": 50,
+    "today_realized_sol": 1.651045,
+    "today_target_pct": 412.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1610,
-      "loss_count": 1892,
+      "loss_count": 1893,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:19:28.838533+00:00",
+  "last_llm_brief_at": "2026-09-13T02:20:46.650667+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "ZvU7ficD4yeScnymLSrCpPMJjJzMJrAqCUCp45Jpump": {
+      "price_usd": 3.110847580059201e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 128.05468698225,
+      "volume_h24": 12425.07,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.248704895
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
