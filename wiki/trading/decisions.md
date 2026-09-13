@@ -24820,3 +24820,6 @@
 ## [2026-09-13 03:02 UTC] buy | [LLM] $Cuck at $5.223e-06, spent 0.05 SOL
 - **Reasoning:** $Cuck has the highest bonding progress (28%) of all fresh launches, meaning real liquidity to actually exit — plus an active twitter handle, viral edgy name, and mcap still only $7.7k. Cleanest attention signal in the cohort, not in the fragility blocklist, and Twitter satisfies the viability gate even if liquidity is under $3k.
 
+## [2026-09-13 03:03 UTC] sell | [v8.7 TP +50% (full)] $Cuck at $1.146e-05 | P&L: -100.0%
+- **Reasoning:** Auto take-profit at +119.4%
+
