@@ -24757,3 +24757,6 @@
 ## [2026-09-13 02:20 UTC] sell | [rapid-drop] $SNAKE crashed >15% in one tick | P&L: -100.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-13 02:29 UTC] buy | [LLM] $SPOONMAN at $3.87554e-06, spent 0.05 SOL
+- **Reasoning:** $SPOONMAN is the freshest launch (0.5min, $3.9k mcap) with a real meme narrative ('superhero-themed, every bowl deserves a hero') — absurd, shareable, exactly the kind of attention hook that pumps. Viability passes (desc present, mcap >$3k). Sizing 0.05 SOL.
+
