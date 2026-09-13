@@ -1,8 +1,37 @@
 {
-  "balance_sol": 32.549593,
+  "balance_sol": 32.499593,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "9cxQrtTzpVbHU8ZHfhuiaKsTD2NLNAzZ31sHSZgtpump": {
+      "symbol": "PFP",
+      "name": "Pumpfun Pill",
+      "mint": "9cxQrtTzpVbHU8ZHfhuiaKsTD2NLNAzZ31sHSZgtpump",
+      "amount": 30509.01370981104,
+      "entry_price_usd": 0.00016673760903533012,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-13T00:42:42.751948+00:00",
+      "entry_time_iso": "2026-09-13T00:42:42.751957+00:00",
+      "entry_usd_value": 5.087,
+      "last_seen_price_usd": 0.00016673760903533012,
+      "entry_liquidity_usd": 39300.52356265986,
+      "entry_pool_sol": 386.283895839,
+      "entry_market_cap_usd": 6207.912380877587,
+      "entry_signals": {
+        "liquidity_usd": 39300.52356265986,
+        "volume_24h_usd": null,
+        "market_cap_usd": 6207.912380877587,
+        "ath_market_cap_usd": 6370.664053927693,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 386.283895839,
+        "description": "",
+        "twitter": "https://x.com/dedsec_sol/status/2098935103422370164",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61218,17 +61247,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-13T00:41:25.074868+00:00",
+  "last_updated": "2026-09-13T00:42:42.752141+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.28,
-  "portfolio_value_usd": 3296.62,
+  "last_sol_price_usd": 101.74,
+  "portfolio_value_usd": 3311.6,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:12 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $PUMPITOS at $3.43276e-06 | P&L: +0.3%",
-      "reason": "PUMPITOS just entered at +11.6% with bonding curve barely started (pool $295, 1% share). Fresh entry, let it develop for another few minutes before deciding — not stale yet."
-    },
     {
       "time": "2026-09-13 00:15 UTC",
       "action": "buy",
@@ -61342,42 +61365,36 @@
       "action": "observe",
       "details": "LLM call failed: could not parse JSON",
       "reason": "bot cannot decide, holding positions"
+    },
+    {
+      "time": "2026-09-13 00:42 UTC",
+      "action": "buy",
+      "details": "[LLM] $PFP at $0.000166738, spent 0.05 SOL",
+      "reason": "$PFP (Pumpfun Pill) — sub-1min launch with active twitter signal (X post from dedsec_sol), $6.2k mcap with viral pump-fun meme narrative. Fresh attention + early mcap = classic 10x territory. Passes viability (twitter present)."
     }
   ],
   "trade_stats": {
-    "total": 3468,
-    "wins": 1606,
+    "total": 3469,
+    "wins": 1607,
     "losses": 1862,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 26.835698,
-    "avg_pnl_pct": 38.81,
+    "total_pnl_sol": 28.333433,
+    "avg_pnl_pct": 39.65,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 15,
-    "today_realized_sol": 1.453904,
-    "today_target_pct": 363.5,
+    "today_trades": 16,
+    "today_realized_sol": 2.951639,
+    "today_target_pct": 737.9,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1606,
+      "win_count": 1607,
       "loss_count": 1862,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:41:25.074032+00:00",
+  "last_llm_brief_at": "2026-09-13T00:42:40.894737+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "GMvAy71ygwfHumfmdA7LgG4Fi7XV5HkoEQzE3uxfpump": {
-      "price_usd": 0.00013380211395539536,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 19381.1778169752,
-      "volume_h24": 505.91,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 191.362340215
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -839,6 +839,24 @@ def execute_buy(state, mint, token, price_usd, sol_price):
     token_amount = usd_value / price_usd if price_usd > 0 else 0
     if token_amount <= 0:
         return None, "could not size position"
+    
+    # v9.3 POSITION SIZE CHECK: Don't enter if our position would be >5% of pool.
+    # If our $5 buy is 5% of a $100 pool, any sell = -50% price impact.
+    # We require pool >= 20x our position for safe entry/exit.
+    liq_usd = _to_float(token.get("liquidity_usd", 0))
+    pool_sol = _to_float(token.get("real_sol_reserves", 0))
+    if liq_usd > 0:
+        our_pct = (usd_value / liq_usd) * 100
+        if our_pct > 5:
+            return None, f"position too big — ${usd_value:.2f} = {our_pct:.1f}% of ${liq_usd:.0f} pool"
+    elif pool_sol > 0:
+        # Bonding curve token: estimate liq from real_sol_reserves
+        curve_liq_usd = pool_sol * sol_price_usd
+        our_pct = (usd_value / curve_liq_usd) * 100 if curve_liq_usd > 0 else 100
+        if our_pct > 5:
+            return None, f"position too big for curve — ${usd_value:.2f} = {our_pct:.1f}% of {pool_sol:.2f} SOL curve"
+    else:
+        return None, "no liquidity data — refuse to buy"
 
     position = {
         "symbol": token.get("symbol", "?"),
@@ -874,6 +892,107 @@ def execute_buy(state, mint, token, price_usd, sol_price):
 
 
 def execute_sell(state, mint, price_usd, fraction, reason):
+    """v9.3 HARD LIQUIDITY GATE: Refuse to sell if there's no real exit liquidity.
+
+    Real markets: if pool liquidity < 2x our position size, we can't exit without
+    crashing the price 90%+. So we DON'T sell - we record a "ghost exit" with
+    actual realized SOL = 0 (paper-only). This gives accurate PnL.
+    """
+    pos = state["positions"].get(mint)
+    if not pos:
+        return None
+
+    # Check exit liquidity in real-time
+    exit_pool_usd = _to_float(state.get("held_prices", {}).get(mint, {}).get("liquidity_usd", 0))
+    exit_pool_sol = _to_float(state.get("held_prices", {}).get(mint, {}).get("real_sol_reserves", 0))
+
+    pos_value_usd = pos.get("amount", 0) * price_usd
+    min_liq_required = pos_value_usd * 2  # need 2x our position in pool
+
+    if exit_pool_usd == 0 and exit_pool_sol == 0:
+        # No real liquidity at all - token rugged
+        log(f"v9.3 GHOST EXIT: ${pos.get('symbol')} — pool=0, recording 0 SOL received (rug) instead of paper {pos_value_usd:.2f}")
+        # Record as ghost exit (no real SOL gained)
+        trade = {
+            "mint": mint,
+            "symbol": pos.get("symbol"),
+            "name": pos.get("name"),
+            "amount_sold": pos.get("amount", 0) * fraction,
+            "fraction_sold": fraction,
+            "entry_time": pos.get("entry_time"),
+            "entry_time_iso": pos.get("entry_time_iso") or pos.get("entry_time"),
+            "exit_time": iso_now(),
+            "exit_time_iso": datetime.now(timezone.utc).isoformat(),
+            "entry_price_usd": pos["entry_price_usd"],
+            "exit_price_usd": 0.0,  # effectively zero - couldn't sell
+            "entry_sol_for_chunk": round(pos.get("entry_sol_spent", 0) * fraction, 6),
+            "exit_sol_received": 0.0,  # HONEST: we got nothing
+            "pnl_sol": -round(pos.get("entry_sol_spent", 0) * fraction, 6),  # FULL LOSS
+            "pnl_pct": -100.0,
+            "exit_reason": f"[GHOST] {reason[:150]} — no real exit liquidity",
+            "entry_liquidity_usd": _to_float(pos.get("entry_liquidity_usd", 0)),
+            "exit_liquidity_usd": 0.0,
+            "entry_pool_sol": _to_float(pos.get("entry_pool_sol", 0)),
+            "exit_pool_sol": 0.0,
+            "hold_duration_seconds": (datetime.now(timezone.utc) - parse_iso(pos.get("entry_time"))).total_seconds() if pos.get("entry_time") else 0,
+            "partial": fraction < 0.999,
+            "ghost_exit": True,  # marker
+        }
+        state["trades"].append(trade)
+        # Don't add any SOL to balance (real exit was 0)
+        if fraction >= 0.999:
+            del state["positions"][mint]
+        else:
+            pos["amount"] = pos["amount"] * (1 - fraction)
+            pos["entry_sol_spent"] = pos["entry_sol_spent"] * (1 - fraction)
+        return trade
+
+    if exit_pool_usd > 0 and exit_pool_usd < min_liq_required:
+        # Liquidity < 2x position - massive slippage risk
+        log(f"v9.3 GHOST EXIT: ${pos.get('symbol')} — pool ${exit_pool_usd:.0f} < 2x position ${pos_value_usd:.2f} — recording 10% slippage")
+        # Apply realistic 90% slippage (price impact)
+        actual_exit_price = price_usd * 0.1  # got 10% of paper price
+        actual_exit_sol = (pos.get("amount", 0) * fraction * actual_exit_price) / state.get("last_sol_price_usd", 105)
+        actual_entry_sol = pos.get("entry_sol_spent", 0) * fraction
+        actual_pnl = actual_exit_sol - actual_entry_sol
+        actual_pnl_pct = ((actual_exit_price / pos["entry_price_usd"]) - 1) * 100
+
+        trade = {
+            "mint": mint,
+            "symbol": pos.get("symbol"),
+            "name": pos.get("name"),
+            "amount_sold": pos.get("amount", 0) * fraction,
+            "fraction_sold": fraction,
+            "entry_time": pos.get("entry_time"),
+            "entry_time_iso": pos.get("entry_time_iso") or pos.get("entry_time"),
+            "exit_time": iso_now(),
+            "exit_time_iso": datetime.now(timezone.utc).isoformat(),
+            "entry_price_usd": pos["entry_price_usd"],
+            "exit_price_usd": actual_exit_price,
+            "entry_sol_for_chunk": round(actual_entry_sol, 6),
+            "exit_sol_received": round(actual_exit_sol, 6),
+            "pnl_sol": round(actual_pnl, 6),
+            "pnl_pct": round(actual_pnl_pct, 2),
+            "exit_reason": f"[SLIPPAGE] {reason[:100]} — pool ${exit_pool_usd:.0f}, 90% slippage",
+            "entry_liquidity_usd": _to_float(pos.get("entry_liquidity_usd", 0)),
+            "exit_liquidity_usd": round(exit_pool_usd, 2),
+            "entry_pool_sol": _to_float(pos.get("entry_pool_sol", 0)),
+            "exit_pool_sol": round(exit_pool_sol, 4),
+            "hold_duration_seconds": (datetime.now(timezone.utc) - parse_iso(pos.get("entry_time"))).total_seconds() if pos.get("entry_time") else 0,
+            "partial": fraction < 0.999,
+            "ghost_exit": True,
+            "slippage_applied": 0.9,
+        }
+        state["trades"].append(trade)
+        state["balance_sol"] = round(state["balance_sol"] + actual_exit_sol, 6)
+        if fraction >= 0.999:
+            del state["positions"][mint]
+        else:
+            pos["amount"] = pos["amount"] * (1 - fraction)
+            pos["entry_sol_spent"] = pos["entry_sol_spent"] * (1 - fraction)
+        return trade
+
+    # Liquidity check passed - proceed with normal execute_sell below
     pos = state["positions"].get(mint)
     if not pos:
         return None
