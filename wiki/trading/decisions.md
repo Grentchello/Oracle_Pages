@@ -24517,3 +24517,6 @@
 ## [2026-09-13 00:17 UTC] buy | [LLM] $CHILLHOUSE at $0.000298537, spent 0.05 SOL
 - **Reasoning:** $CHILLHOUSE is the only candidate passing all hard gates (viability, fragility, no political blocklist). Memeable name, fresh X post, ultra-low $7.7k mcap with 10x+ upside potential if attention catches. Small 0.05 SOL scalp position.
 
+## [2026-09-13 00:19 UTC] sell | [FULL][LLM] $CHILLHOUSE at $0.000298926 | P&L: +0.1%
+- **Reasoning:** Just entered this tick at +0.1%, no momentum yet. Bonding curve still active at27% complete — give it a few minutes to develop before deciding.
+
