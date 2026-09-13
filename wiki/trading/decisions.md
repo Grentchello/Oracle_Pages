@@ -24799,3 +24799,6 @@
 ## [2026-09-13 02:49 UTC] sell | [PARTIAL][LLM] $S&P 500 at $4.07952e-06 | P&L: -100.0%
 - **Reasoning:** Up +18.4% on a $598 pool with 1% share — liquidity is razor-thin and any further gain could reverse fast on the bonding curve. Lock half the profit, let the rest ride the narrative; if it stalls, exit on the next stale flag.
 
+## [2026-09-13 02:51 UTC] sell | [PARTIAL][LLM] $S&P 500 at $4.3101e-06 | P&L: +25.1%
+- **Reasoning:** Up +25.1% on a brand-new position, sitting right at the bot's auto-TP trigger. Pool is only $700 so any further upside is fragile. Selling half locks in roughly half the gain at the TP line and lets the other half ride toward +50%/+100% TPs; this is the 'secure profit, leave runner' play the prompt explicitly encourages when up >20% and momentum could reverse on a thin pool.
+

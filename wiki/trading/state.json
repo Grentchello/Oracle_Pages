@@ -1,5 +1,5 @@
 {
-  "balance_sol": 0.359722,
+  "balance_sol": 0.375271,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
@@ -7,13 +7,13 @@
       "symbol": "S&P 500",
       "name": "Sock & Pussy 500",
       "mint": "23zqvqqnAFM1ACYtAUr3ni7UrDiA4eBbtLzDoLenpump",
-      "amount": 737155.2975326561,
+      "amount": 368577.64876632806,
       "entry_price_usd": 3.445e-06,
-      "entry_sol_spent": 0.025,
+      "entry_sol_spent": 0.0125,
       "entry_time": "2026-09-13T02:48:11.862636+00:00",
       "entry_time_iso": "2026-09-13T02:48:11.862645+00:00",
       "entry_usd_value": 5.079000000000001,
-      "last_seen_price_usd": 4.079517404483877e-06,
+      "last_seen_price_usd": 4.310102704256448e-06,
       "entry_liquidity_usd": 555.7751298007199,
       "entry_pool_sol": 5.471304684,
       "entry_market_cap_usd": 3980.946998707092,
@@ -62265,19 +62265,37 @@
       "hold_duration_seconds": 78.136212,
       "partial": true,
       "ghost_exit": true
+    },
+    {
+      "mint": "23zqvqqnAFM1ACYtAUr3ni7UrDiA4eBbtLzDoLenpump",
+      "symbol": "S&P 500",
+      "name": "Sock & Pussy 500",
+      "amount_sold": 368577.64876632806,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-13T02:48:11.862636+00:00",
+      "entry_time_iso": "2026-09-13T02:48:11.862645+00:00",
+      "exit_time": "2026-09-13T02:51:06.004536+00:00",
+      "exit_time_iso": "2026-09-13T02:51:06.004540+00:00",
+      "entry_price_usd": 3.445e-06,
+      "exit_price_usd": 4.310102704256448e-06,
+      "entry_sol_for_chunk": 0.0125,
+      "exit_sol_received": 0.015549,
+      "pnl_sol": 0.003049,
+      "pnl_pct": 25.11,
+      "exit_reason": "LLM: sell_half — Up +25.1% on a brand-new position, sitting right at the bot's auto-TP trigger. Pool is only $700 so any further upside is fragile. Selling half locks ",
+      "entry_liquidity_usd": 555.78,
+      "exit_liquidity_usd": 597.93,
+      "entry_pool_sol": 5.4713,
+      "exit_pool_sol": 5.8529,
+      "hold_duration_seconds": 174.141915,
+      "partial": true
     }
   ],
-  "last_updated": "2026-09-13T02:49:29.999090+00:00",
+  "last_updated": "2026-09-13T02:51:06.004855+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.16,
-  "portfolio_value_usd": 39.29,
+  "last_sol_price_usd": 102.17,
+  "portfolio_value_usd": 39.61,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 02:14 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $SOLCHAN crashed >15% in one tick | P&L: -100.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-13 02:15 UTC",
       "action": "buy",
@@ -62391,40 +62409,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $S&P 500 at $4.07952e-06 | P&L: -100.0%",
       "reason": "Up +18.4% on a $598 pool with 1% share — liquidity is razor-thin and any further gain could reverse fast on the bonding curve. Lock half the profit, let the rest ride the narrative; if it stalls, exit on the next stale flag."
+    },
+    {
+      "time": "2026-09-13 02:51 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $S&P 500 at $4.3101e-06 | P&L: +25.1%",
+      "reason": "Up +25.1% on a brand-new position, sitting right at the bot's auto-TP trigger. Pool is only $700 so any further upside is fragile. Selling half locks in roughly half the gain at the TP line and lets the other half ride toward +50%/+100% TPs; this is the 'secure profit, leave runner' play the prompt explicitly encourages when up >20% and momentum could reverse on a thin pool."
     }
   ],
   "trade_stats": {
-    "total": 3510,
-    "wins": 1610,
+    "total": 3511,
+    "wins": 1611,
     "losses": 1900,
     "win_rate_pct": 45.9,
-    "total_pnl_sol": 26.707839,
+    "total_pnl_sol": 26.710888,
     "avg_pnl_pct": 38.19,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 57,
-    "today_realized_sol": 1.326045,
-    "today_target_pct": 331.5,
+    "today_trades": 58,
+    "today_realized_sol": 1.329094,
+    "today_target_pct": 332.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1610,
+      "win_count": 1611,
       "loss_count": 1900,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:49:29.998614+00:00",
+  "last_llm_brief_at": "2026-09-13T02:51:06.004488+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "23zqvqqnAFM1ACYtAUr3ni7UrDiA4eBbtLzDoLenpump": {
-      "price_usd": 4.079517404483877e-06,
+      "price_usd": 4.310102704256448e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 597.9335433496799,
-      "volume_h24": 562.46,
+      "liquidity_usd": 699.9087916145301,
+      "volume_h24": 598.38,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 5.852912523
+      "real_sol_reserves": 6.850433509
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
