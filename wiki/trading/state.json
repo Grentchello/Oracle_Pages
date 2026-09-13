@@ -2,36 +2,7 @@
   "balance_sol": 0.191267,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "DcFpXZAW1tAwwH6pUoLGtfgCfBKiDd9K9sS6p6L3pump": {
-      "symbol": "SpongeBob",
-      "name": "Real life SpongeBob and Patrick",
-      "mint": "DcFpXZAW1tAwwH6pUoLGtfgCfBKiDd9K9sS6p6L3pump",
-      "amount": 1004254.0561931145,
-      "entry_price_usd": 5.054e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T03:04:47.544837+00:00",
-      "entry_time_iso": "2026-09-13T03:04:47.544846+00:00",
-      "entry_usd_value": 5.075500000000001,
-      "last_seen_price_usd": 5.054e-06,
-      "entry_liquidity_usd": 1011.6558796957302,
-      "entry_pool_sol": 9.966071123,
-      "entry_market_cap_usd": 5055.610960881269,
-      "entry_signals": {
-        "liquidity_usd": 1011.6558796957302,
-        "volume_24h_usd": 1035.37,
-        "market_cap_usd": 5055.610960881269,
-        "ath_market_cap_usd": 5055.610960881269,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 9.966071123,
-        "description": "real life SpongeBob and Patrick this went extremely viral 14 million views on twitter alone and NO token",
-        "twitter": "https://x.com/complex/status/2098581776876892587?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62388,19 +62359,38 @@
       "hold_duration_seconds": 63.636781,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "DcFpXZAW1tAwwH6pUoLGtfgCfBKiDd9K9sS6p6L3pump",
+      "symbol": "SpongeBob",
+      "name": "Real life SpongeBob and Patrick",
+      "amount_sold": 1004254.0561931145,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T03:04:47.544837+00:00",
+      "entry_time_iso": "2026-09-13T03:04:47.544846+00:00",
+      "exit_time": "2026-09-13T03:05:51.634575+00:00",
+      "exit_time_iso": "2026-09-13T03:05:51.634585+00:00",
+      "entry_price_usd": 5.054e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 1011.6558796957302,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 9.966071123,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 64.08976,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T03:04:47.545629+00:00",
+  "last_updated": "2026-09-13T03:06:09.479058+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.51,
-  "portfolio_value_usd": 24.49,
+  "last_sol_price_usd": 101.55,
+  "portfolio_value_usd": 19.42,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 02:33 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $ADAMITY at $2.88565e-06 | P&L: -100.0%",
-      "reason": "Just opened at -6.6%, well above the -25% hard stop. Bonding-curve early positions need time to develop; bailing now would lock a small loss for no signal reason."
-    },
     {
       "time": "2026-09-13 02:36 UTC",
       "action": "buy",
@@ -62514,30 +62504,48 @@
       "action": "buy",
       "details": "[LLM] $SpongeBob at $5.054e-06, spent 0.05 SOL",
       "reason": "Classic attention-arbitrage setup: real viral moment (14M views on X, mainstream Complex coverage of real-life SpongeBob/Patrick) with NO token until now. Sub-$10k mcap, fresh launch, strong narrative. This is the kind of cultural-moment play that 10x's when retail floods in. Risk: bond only 20% complete, may dump after initial pump."
+    },
+    {
+      "time": "2026-09-13 03:05 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $SpongeBob crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3515,
+    "total": 3516,
     "wins": 1612,
-    "losses": 1903,
-    "win_rate_pct": 45.9,
-    "total_pnl_sol": 26.564384,
-    "avg_pnl_pct": 38.07,
+    "losses": 1904,
+    "win_rate_pct": 45.8,
+    "total_pnl_sol": 26.514384,
+    "avg_pnl_pct": 38.03,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 62,
-    "today_realized_sol": 1.18259,
-    "today_target_pct": 295.6,
+    "today_trades": 63,
+    "today_realized_sol": 1.13259,
+    "today_target_pct": 283.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1612,
-      "loss_count": 1903,
+      "loss_count": 1904,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T03:04:45.994706+00:00",
+  "last_llm_brief_at": "2026-09-13T03:06:09.478628+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "DcFpXZAW1tAwwH6pUoLGtfgCfBKiDd9K9sS6p6L3pump": {
+      "price_usd": 2.8392357878902144e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4.062e-07,
+      "volume_h24": 1035.37,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4e-09
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
