@@ -24523,3 +24523,9 @@
 ## [2026-09-13 00:21 UTC] buy | [LLM] $SlinkyZ at $3.354e-06, spent 0.05 SOL
 - **Reasoning:** $SlinkyZ: $3.3k mcap, <1min old, has twitter, explicit 'no bundles' trust signal, meme-ready 'angriest slinky' image. Slinky memes travel well on attention markets. $5 risk, standard scalp.
 
+## [2026-09-13 00:23 UTC] sell | [FULL][LLM] $SlinkyZ at $3.42124e-06 | P&L: +2.0%
+- **Reasoning:** Rotating slot to a fresher launch with stronger attention signal. $291 pool is razor-thin, +2% gain is not worth holding through volatility when BONITA has a real twitter catalyst (66k-follower @UseCorgi posting about it).
+
+## [2026-09-13 00:23 UTC] buy | [LLM] $BONITA at $0.000475163, spent 0.05 SOL
+- **Reasoning:** Fresh launch (1min) with a real attention catalyst — @UseCorgi (66.6k followers) posted about it on X. 'Bonita' is a clean, memorable narrative name. Bond is early (2%) so position is small but the twitter presence is the key signal — real account posting = attention inflow.
+
