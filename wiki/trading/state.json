@@ -1,8 +1,37 @@
 {
-  "balance_sol": 0.818655,
+  "balance_sol": 0.768655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "MbJaSh2NAtfd6eu4qLff1gpep3m3cainMAGB1Mrpump": {
+      "symbol": "SOLCHAN",
+      "name": "SOL-CHAN",
+      "mint": "MbJaSh2NAtfd6eu4qLff1gpep3m3cainMAGB1Mrpump",
+      "amount": 1337039.6442727265,
+      "entry_price_usd": 3.8140230335307956e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-13T02:13:08.904715+00:00",
+      "entry_time_iso": "2026-09-13T02:13:08.904724+00:00",
+      "entry_usd_value": 5.0995,
+      "last_seen_price_usd": 3.8140230335307956e-06,
+      "entry_liquidity_usd": 132.71106063599998,
+      "entry_pool_sol": 1.3012164,
+      "entry_market_cap_usd": 3818.5105594061138,
+      "entry_signals": {
+        "liquidity_usd": 132.71106063599998,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3818.5105594061138,
+        "ath_market_cap_usd": 4081.9734625047327,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.3012164,
+        "description": "",
+        "twitter": "https://x.com/ramentrade/status/2098957813070610654",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61964,17 +61993,11 @@
       "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T02:11:42.828573+00:00",
+  "last_updated": "2026-09-13T02:13:08.904994+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.9,
-  "portfolio_value_usd": 83.42,
+  "last_sol_price_usd": 101.99,
+  "portfolio_value_usd": 83.49,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:34 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $YSIWA at $3.45919e-06 | P&L: -100.0%",
-      "reason": "Just entered0.0h ago at +0.5%, essentially flat. No reason to bail yet — give it a few minutes to develop. Bonding curve pool is thin at $305 though, so this is fragile; any pop I should take fast."
-    },
     {
       "time": "2026-09-13 01:37 UTC",
       "action": "buy",
@@ -62088,6 +62111,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $imposter at $0.0154495 | P&L: -100.0%",
       "reason": "Just entered at -2.3%, bonding-curve token with $570k pool. No reason to panic on minute-old position; give it room to develop."
+    },
+    {
+      "time": "2026-09-13 02:13 UTC",
+      "action": "buy",
+      "details": "[LLM] $SOLCHAN at $3.81402e-06, spent 0.05 SOL",
+      "reason": "SOLCHAN is 0.5min old, $3.8k mcap, already has an X post from ramentrade driving attention. Anime-mascot narratives on Solana have a strong track record (gigachad, nanaism, etc.). Tiny mcap + early social signal = asymmetric upside. Risk: bond only 12%, liquidity thin, may rug — but 0.05 SOL size with -25% hard cap limits damage."
     }
   ],
   "trade_stats": {
@@ -62109,7 +62138,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:11:42.828547+00:00",
+  "last_llm_brief_at": "2026-09-13T02:13:07.539788+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
