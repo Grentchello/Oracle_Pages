@@ -2,36 +2,7 @@
   "balance_sol": 0.918655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Hzo7m9vqZjNV7WoDCjHBHmNiS1SuWFW8hJmzffp6pump": {
-      "symbol": "DoubleT",
-      "name": "Tralalero Tralala",
-      "mint": "Hzo7m9vqZjNV7WoDCjHBHmNiS1SuWFW8hJmzffp6pump",
-      "amount": 24689.841720488756,
-      "entry_price_usd": 0.0002069474587097051,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T02:01:27.284494+00:00",
-      "entry_time_iso": "2026-09-13T02:01:27.284503+00:00",
-      "entry_usd_value": 5.109500000000001,
-      "last_seen_price_usd": 0.0002069474587097051,
-      "entry_liquidity_usd": 63163.47971368788,
-      "entry_pool_sol": 618.098441273,
-      "entry_market_cap_usd": 21689.002373215673,
-      "entry_signals": {
-        "liquidity_usd": 63163.47971368788,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 21689.002373215673,
-        "ath_market_cap_usd": 23316.51608986303,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 618.098441273,
-        "description": "",
-        "twitter": "https://x.com/witloofsol/status/2098836558816133138",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61916,19 +61887,38 @@
       "hold_duration_seconds": 84.881737,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "Hzo7m9vqZjNV7WoDCjHBHmNiS1SuWFW8hJmzffp6pump",
+      "symbol": "DoubleT",
+      "name": "Tralalero Tralala",
+      "amount_sold": 24689.841720488756,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T02:01:27.284494+00:00",
+      "entry_time_iso": "2026-09-13T02:01:27.284503+00:00",
+      "exit_time": "2026-09-13T02:02:49.344467+00:00",
+      "exit_time_iso": "2026-09-13T02:02:49.344471+00:00",
+      "entry_price_usd": 0.0002069474587097051,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — Only -5.9% and just entered (0.0h). Not yet at -20% exit-fast threshold. No narrative catalyst to abandon it for, and rotating into a  — no real exit liquidity",
+      "entry_liquidity_usd": 63163.47971368788,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 618.098441273,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 82.05999,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T02:01:27.284686+00:00",
+  "last_updated": "2026-09-13T02:02:49.344696+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.19,
-  "portfolio_value_usd": 98.99,
+  "last_sol_price_usd": 102.16,
+  "portfolio_value_usd": 93.85,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:30 UTC",
-      "action": "buy",
-      "details": "[LLM] $LUFFY at $4.96e-06, spent 0.05 SOL",
-      "reason": "LUFFY = One Piece anime IP, massive global brand recognition, classic viral memecoin name. Fresh launch at $3.8k mcap with active twitter post. Attention narrative is strong and the entry is early enough for multi-x upside."
-    },
     {
       "time": "2026-09-13 01:31 UTC",
       "action": "sell",
@@ -62042,30 +62032,48 @@
       "action": "buy",
       "details": "[LLM] $DoubleT at $0.000206947, spent 0.05 SOL",
       "reason": "Tralalero Tralala is a top-tier Italian brainrot character with massive viral recognition — strongest narrative in the batch. $21k mcap with 30% bond filled and a linked X account with engagement signals real attention. Other 4 candidates fail the viability gate (no twitter, short/no desc), so this is the only qualified entry. Standard memecoin risk: brand-new, will likely dump hard — but the attention is real."
+    },
+    {
+      "time": "2026-09-13 02:02 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DoubleT at $0.000194818 | P&L: -100.0%",
+      "reason": "Only -5.9% and just entered (0.0h). Not yet at -20% exit-fast threshold. No narrative catalyst to abandon it for, and rotating into a $3.7k mcap microcap would be gambling, not improving. Give it one more tick to develop volume; if still bleeding without traction, cut next tick."
     }
   ],
   "trade_stats": {
-    "total": 3496,
+    "total": 3497,
     "wins": 1609,
-    "losses": 1887,
+    "losses": 1888,
     "win_rate_pct": 46.0,
-    "total_pnl_sol": 27.291772,
-    "avg_pnl_pct": 38.7,
+    "total_pnl_sol": 27.241772,
+    "avg_pnl_pct": 38.66,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 43,
-    "today_realized_sol": 1.909978,
-    "today_target_pct": 477.5,
+    "today_trades": 44,
+    "today_realized_sol": 1.859978,
+    "today_target_pct": 465.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1887,
+      "loss_count": 1888,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:01:25.849663+00:00",
+  "last_llm_brief_at": "2026-09-13T02:02:49.343496+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Hzo7m9vqZjNV7WoDCjHBHmNiS1SuWFW8hJmzffp6pump": {
+      "price_usd": 0.00019481849298216535,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 50915.93548845504,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 498.394043544
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

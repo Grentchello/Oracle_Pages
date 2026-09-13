@@ -24721,3 +24721,6 @@
 ## [2026-09-13 02:01 UTC] buy | [LLM] $DoubleT at $0.000206947, spent 0.05 SOL
 - **Reasoning:** Tralalero Tralala is a top-tier Italian brainrot character with massive viral recognition — strongest narrative in the batch. $21k mcap with 30% bond filled and a linked X account with engagement signals real attention. Other 4 candidates fail the viability gate (no twitter, short/no desc), so this is the only qualified entry. Standard memecoin risk: brand-new, will likely dump hard — but the attention is real.
 
+## [2026-09-13 02:02 UTC] sell | [FULL][LLM] $DoubleT at $0.000194818 | P&L: -100.0%
+- **Reasoning:** Only -5.9% and just entered (0.0h). Not yet at -20% exit-fast threshold. No narrative catalyst to abandon it for, and rotating into a $3.7k mcap microcap would be gambling, not improving. Give it one more tick to develop volume; if still bleeding without traction, cut next tick.
+
