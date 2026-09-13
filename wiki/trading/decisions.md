@@ -24478,3 +24478,9 @@
 ## [2026-09-13 00:02 UTC] buy | [LLM] $RISE at $5.133e-06, spent 0.05 SOL
 - **Reasoning:** $RISE has the strongest attention stack: 60% airdrop to top 15 holders creates immediate holder incentive to shill and hold (viral mechanic), active twitter, leading bond curve at 21%, and a clean meta-name tied to bull narrative. Risk: airdrop tokens often dump at distribution — but attention comes first, exit before that.
 
+## [2026-09-13 00:03 UTC] sell | [FULL][LLM] $RISE at $5.34675e-06 | P&L: +4.2%
+- **Reasoning:** +4.2% is essentially flat with no momentum signal; thin $1132 bonding-curve pool means no real bid. Freeing slot to rotate into fresher, higher-attention launch ($SLINGOOR at 32% bond vs $RISE's already-extracted early move).
+
+## [2026-09-13 00:03 UTC] buy | [LLM] $SLINGOOR at $9.862e-06, spent 0.05 SOL
+- **Reasoning:** Freshest launch with the strongest attention signal — highest mcap ($9.8k), 32% bonding curve progress (real buyers already in), catchy viral name. Catchy nonsense names pump hardest in first 30 min. Risk: still<2min old, could rug — but pool is forming and narrative is live.
+
