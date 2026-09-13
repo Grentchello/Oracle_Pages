@@ -24712,3 +24712,6 @@
 ## [2026-09-13 01:57 UTC] sell | [rapid-drop] $SOLCHAN crashed >15% in one tick | P&L: -100.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-13 01:58 UTC] buy | [LLM] $LUCYWOO at $3.25579e-06, spent 0.05 SOL
+- **Reasoning:** Animal meme archetype (CowDog) with explicit 'going viral' narrative in description. Bond at only 6% means very early entry; animal memes have the strongest track record on Solana. Risk: extremely thin mcap ($3.2k) and bond nearly empty — high rug risk, so sizing small and tight stop.
+
