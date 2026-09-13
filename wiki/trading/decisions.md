@@ -24502,3 +24502,6 @@
 ## [2026-09-13 00:10 UTC] buy | [LLM] $PUMPITOS at $3.076e-06, spent 0.05 SOL
 - **Reasoning:** Take $PUMPITOS — GTA/San Andreas 'Los Pumpitos' meme coin taps into a strong evergreen gaming nostalgia narrative (GTA VI hype, meme legends on streets of Los Santos). Fresh 0.7min age, $3.2k mcap = early entry, narrative is sticky and screenshot-able. Acceptable risk at 0.1 SOL.
 
+## [2026-09-13 00:11 UTC] sell | [PARTIAL][LLM] $PUMPITOS at $3.38294e-06 | P&L: +10.0%
+- **Reasoning:** +10% on a generic-narrative bonding-curve token with thin pool ($278). Lock half the gain, let the other half ride the curve fill. If it stalls, the half I kept is a free option; if it pops, I still capture.
+
