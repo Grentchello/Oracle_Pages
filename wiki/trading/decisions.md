@@ -24484,3 +24484,9 @@
 ## [2026-09-13 00:03 UTC] buy | [LLM] $SLINGOOR at $9.862e-06, spent 0.05 SOL
 - **Reasoning:** Freshest launch with the strongest attention signal — highest mcap ($9.8k), 32% bonding curve progress (real buyers already in), catchy viral name. Catchy nonsense names pump hardest in first 30 min. Risk: still<2min old, could rug — but pool is forming and narrative is live.
 
+## [2026-09-13 00:04 UTC] sell | [rapid-drop] $SLINGOOR crashed >15% in one tick | P&L: -71.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-13 00:04 UTC] buy | [LLM] $GOAT at $4.183e-06, spent 0.05 SOL
+- **Reasoning:** $GOAT — 'Greatest Of All Time' goat narrative has strong meme pedigree, fresh sub-1min launch with Twitter link attached (real attention, not just bots), and $4.6k mcap gives multi-x runway if it sticks. Best risk/reward of the batch.
+
