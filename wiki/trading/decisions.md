@@ -24499,3 +24499,6 @@
 ## [2026-09-13 00:08 UTC] sell | [FULL][LLM] $PK at $0.00084532 | P&L: +3.7%
 - **Reasoning:** $PK is +3.7% but only just entered (0.0h held), bonding curve not even at 100%, mcap still micro. Let the narrative breathe another few minutes before deciding — too early to take profit on a 3% move and the slot is fresh.
 
+## [2026-09-13 00:10 UTC] buy | [LLM] $PUMPITOS at $3.076e-06, spent 0.05 SOL
+- **Reasoning:** Take $PUMPITOS — GTA/San Andreas 'Los Pumpitos' meme coin taps into a strong evergreen gaming nostalgia narrative (GTA VI hype, meme legends on streets of Los Santos). Fresh 0.7min age, $3.2k mcap = early entry, narrative is sticky and screenshot-able. Acceptable risk at 0.1 SOL.
+
