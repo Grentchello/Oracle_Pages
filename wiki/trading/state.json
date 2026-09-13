@@ -2,36 +2,7 @@
   "balance_sol": 0.968655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "98hSKSdBKEGTHAECwnHUJihErzQunXUpq7o6Wwempump": {
-      "symbol": "LUCYWOO",
-      "name": "CowDog",
-      "mint": "98hSKSdBKEGTHAECwnHUJihErzQunXUpq7o6Wwempump",
-      "amount": 1576266.7039400062,
-      "entry_price_usd": 3.2557942048589566e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T01:58:46.380279+00:00",
-      "entry_time_iso": "2026-09-13T01:58:46.380288+00:00",
-      "entry_usd_value": 5.132000000000001,
-      "last_seen_price_usd": 3.2557942048589566e-06,
-      "entry_liquidity_usd": 200.5994066144,
-      "entry_pool_sol": 1.95439796,
-      "entry_market_cap_usd": 3243.1869291673956,
-      "entry_signals": {
-        "liquidity_usd": 200.5994066144,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3243.1869291673956,
-        "ath_market_cap_usd": 3244.1887407018153,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.95439796,
-        "description": "This dog is going viral for building the traits of a cow seeming she lives on a cow farm! super viral at the moment with each video hitting millions of views",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61891,19 +61862,38 @@
       "hold_duration_seconds": 63.725614,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "98hSKSdBKEGTHAECwnHUJihErzQunXUpq7o6Wwempump",
+      "symbol": "LUCYWOO",
+      "name": "CowDog",
+      "amount_sold": 1576266.7039400062,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T01:58:46.380279+00:00",
+      "entry_time_iso": "2026-09-13T01:58:46.380288+00:00",
+      "exit_time": "2026-09-13T02:00:11.261993+00:00",
+      "exit_time_iso": "2026-09-13T02:00:11.262001+00:00",
+      "entry_price_usd": 3.2557942048589566e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — Just entered0min ago at -3.3%; no signal to cut yet. Bonding curve still has runway and the 30min auto-exit gives time. Will reassess  — no real exit liquidity",
+      "entry_liquidity_usd": 200.5994066144,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.95439796,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 84.881737,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T01:58:46.380629+00:00",
+  "last_updated": "2026-09-13T02:00:11.262311+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.64,
-  "portfolio_value_usd": 104.55,
+  "last_sol_price_usd": 102.19,
+  "portfolio_value_usd": 98.99,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:28 UTC",
-      "action": "buy",
-      "details": "[LLM] $$Confess at $3.862e-06, spent 0.05 SOL",
-      "reason": "$Confess — strongest narrative of the batch (mental-health confessional, fees to holders, story-time meta). Bond 12% (ahead of $Slow/$Tulip), mcap $3.9k, has desc. Catching this at <2min is exactly the asymmetric setup the strategy targets. 0.05 SOL position."
-    },
     {
       "time": "2026-09-13 01:29 UTC",
       "action": "sell",
@@ -62017,30 +62007,48 @@
       "action": "buy",
       "details": "[LLM] $LUCYWOO at $3.25579e-06, spent 0.05 SOL",
       "reason": "Animal meme archetype (CowDog) with explicit 'going viral' narrative in description. Bond at only 6% means very early entry; animal memes have the strongest track record on Solana. Risk: extremely thin mcap ($3.2k) and bond nearly empty — high rug risk, so sizing small and tight stop."
+    },
+    {
+      "time": "2026-09-13 02:00 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LUCYWOO at $3.14708e-06 | P&L: -100.0%",
+      "reason": "Just entered0min ago at -3.3%; no signal to cut yet. Bonding curve still has runway and the 30min auto-exit gives time. Will reassess next tick."
     }
   ],
   "trade_stats": {
-    "total": 3495,
+    "total": 3496,
     "wins": 1609,
-    "losses": 1886,
+    "losses": 1887,
     "win_rate_pct": 46.0,
-    "total_pnl_sol": 27.341772,
-    "avg_pnl_pct": 38.74,
+    "total_pnl_sol": 27.291772,
+    "avg_pnl_pct": 38.7,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 42,
-    "today_realized_sol": 1.959978,
-    "today_target_pct": 490.0,
+    "today_trades": 43,
+    "today_realized_sol": 1.909978,
+    "today_target_pct": 477.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1886,
+      "loss_count": 1887,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T01:58:44.969941+00:00",
+  "last_llm_brief_at": "2026-09-13T02:00:11.261380+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "98hSKSdBKEGTHAECwnHUJihErzQunXUpq7o6Wwempump": {
+      "price_usd": 3.147075665031468e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 151.79796085729,
+      "volume_h24": 200.86,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.485448291
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
