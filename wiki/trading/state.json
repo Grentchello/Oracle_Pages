@@ -1,37 +1,8 @@
 {
-  "balance_sol": 32.499593,
+  "balance_sol": 32.539277,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9cxQrtTzpVbHU8ZHfhuiaKsTD2NLNAzZ31sHSZgtpump": {
-      "symbol": "PFP",
-      "name": "Pumpfun Pill",
-      "mint": "9cxQrtTzpVbHU8ZHfhuiaKsTD2NLNAzZ31sHSZgtpump",
-      "amount": 15254.50685490552,
-      "entry_price_usd": 0.00016673760903533012,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-13T00:42:42.751948+00:00",
-      "entry_time_iso": "2026-09-13T00:42:42.751957+00:00",
-      "entry_usd_value": 5.087,
-      "last_seen_price_usd": 0.0001926438172929699,
-      "entry_liquidity_usd": 39300.52356265986,
-      "entry_pool_sol": 386.283895839,
-      "entry_market_cap_usd": 6207.912380877587,
-      "entry_signals": {
-        "liquidity_usd": 39300.52356265986,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6207.912380877587,
-        "ath_market_cap_usd": 6370.664053927693,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 386.283895839,
-        "description": "",
-        "twitter": "https://x.com/dedsec_sol/status/2098935103422370164",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61270,19 +61241,37 @@
       "hold_duration_seconds": 18.386737,
       "partial": true,
       "ghost_exit": true
+    },
+    {
+      "mint": "9cxQrtTzpVbHU8ZHfhuiaKsTD2NLNAzZ31sHSZgtpump",
+      "symbol": "PFP",
+      "name": "Pumpfun Pill",
+      "amount_sold": 15254.50685490552,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T00:42:42.751948+00:00",
+      "entry_time_iso": "2026-09-13T00:42:42.751957+00:00",
+      "exit_time": "2026-09-13T00:44:05.060747+00:00",
+      "exit_time_iso": "2026-09-13T00:44:05.060755+00:00",
+      "entry_price_usd": 0.00016673760903533012,
+      "exit_price_usd": 0.0002637912789727836,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.039684,
+      "pnl_sol": 0.014684,
+      "pnl_pct": 58.21,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "entry_liquidity_usd": 39300.52,
+      "exit_liquidity_usd": 43332.77,
+      "entry_pool_sol": 386.2839,
+      "exit_pool_sol": 425.9168,
+      "hold_duration_seconds": 82.308816,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-13T00:43:01.138981+00:00",
+  "last_updated": "2026-09-13T00:44:14.926672+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.74,
-  "portfolio_value_usd": 3306.6,
+  "last_sol_price_usd": 101.4,
+  "portfolio_value_usd": 3299.48,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:16 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Shalhome at $9.93768e-05 | P&L: -4.0%",
-      "reason": "Only -4% after 0.0h held, well within the -25% hard cap and nowhere near the 30-min stale exit. Bonding curve pool at $2660 means thin liquidity, but no bounce signal yet and no reason to panic. Give it a few more minutes to see if the narrative develops or thesis breaks."
-    },
     {
       "time": "2026-09-13 00:17 UTC",
       "action": "buy",
@@ -61396,40 +61385,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $PFP at $0.000192644 | P&L: -100.0%",
       "reason": "Up 15.5% almost immediately — this is the classic scalp window. Lock half the gain as required profit; let the rest ride for a bigger move. Bonding-curve token with thin liquidity ($43k pool) means the bag can give back gains fast."
+    },
+    {
+      "time": "2026-09-13 00:44 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $PFP at $0.000263791 | P&L: +58.2%",
+      "reason": "Auto take-profit at +58.2%"
     }
   ],
   "trade_stats": {
-    "total": 3470,
-    "wins": 1607,
+    "total": 3471,
+    "wins": 1608,
     "losses": 1863,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 28.308433,
-    "avg_pnl_pct": 39.61,
+    "total_pnl_sol": 28.323117,
+    "avg_pnl_pct": 39.62,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 17,
-    "today_realized_sol": 2.926639,
-    "today_target_pct": 731.7,
+    "today_trades": 18,
+    "today_realized_sol": 2.941323,
+    "today_target_pct": 735.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1607,
+      "win_count": 1608,
       "loss_count": 1863,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:43:01.138502+00:00",
+  "last_llm_brief_at": "2026-09-13T00:44:14.926636+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "9cxQrtTzpVbHU8ZHfhuiaKsTD2NLNAzZ31sHSZgtpump": {
-      "price_usd": 0.0001926438172929699,
+      "price_usd": 0.0002637912789727836,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 43332.77215304237,
-      "volume_h24": 0,
+      "liquidity_usd": 68044.8893083674,
+      "volume_h24": 3673.78,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 425.916769737
+      "real_sol_reserves": 671.054135191
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

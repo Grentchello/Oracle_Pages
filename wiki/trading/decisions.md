@@ -24571,3 +24571,6 @@
 ## [2026-09-13 00:43 UTC] sell | [PARTIAL][LLM] $PFP at $0.000192644 | P&L: -100.0%
 - **Reasoning:** Up 15.5% almost immediately — this is the classic scalp window. Lock half the gain as required profit; let the rest ride for a bigger move. Bonding-curve token with thin liquidity ($43k pool) means the bag can give back gains fast.
 
+## [2026-09-13 00:44 UTC] sell | [v8.7 TP +50% (full)] $PFP at $0.000263791 | P&L: +58.2%
+- **Reasoning:** Auto take-profit at +58.2%
+
