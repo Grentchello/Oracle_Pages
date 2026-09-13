@@ -24613,3 +24613,6 @@
 ## [2026-09-13 01:07 UTC] sell | [rapid-drop] $Z-CAT crashed >15% in one tick | P&L: -100.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-13 01:08 UTC] buy | [LLM] $KOL at $4.572e-06, spent 0.05 SOL
+- **Reasoning:** $KOL has a clear platform narrative (Kol Market — KOL = key opinion leader meta), live twitter link, ultra-fresh at 0.8min/$4.8k mcap. Sub-$5k mcap with active X attention is the exact asymmetric setup the prompt is asking for. 0.05 SOL position.
+
