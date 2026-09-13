@@ -24586,3 +24586,9 @@
 ## [2026-09-13 00:56 UTC] buy | [LLM] $HOBBES at $2.57238e-05, spent 0.05 SOL
 - **Reasoning:** $HOBBES has strongest signals of the batch: highest mcap ($40.9k), bond 41% (real buyers accumulating), Twitter link present, and Hobbes is a culturally-recognizable name (philosophy/calvin&hobbes/narnia references all possible). Fresh 0.6min launch is prime attention window. Risk: small Twitter account, thin liquidity below 5x position check needs GMGN confirmation.
 
+## [2026-09-13 00:57 UTC] sell | [rapid-drop] $HOBBES crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-13 00:57 UTC] buy | [LLM] $WORM at $3.49389e-06, spent 0.05 SOL
+- **Reasoning:** $WORM — classic 'would u love me if I was a worm' viral question format, the purest attention-meme pattern. No celebrity fragility (passes ME2F blocklist), 0.5min old, $3.5k mcap with room to run. Taking 0.05 SOL to test the viral-question meme thesis on a fresh slate.
+
