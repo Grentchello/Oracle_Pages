@@ -24496,3 +24496,6 @@
 ## [2026-09-13 00:07 UTC] buy | [LLM] $PK at $0.000814977, spent 0.05 SOL
 - **Reasoning:** $PK 'The Private Key' is the only candidate passing the viability gate (has twitter, narrative is crypto-native 'private key' meme which has obvious viral appeal to CT). $4.2k mcap with bond at 0% means pure early attention play. Skipping $MERCHANT (Happy Merchant is a known polarizing rug-prone narrative), the two $ALON mints (split attention / twin-mint arb risk), $baby and $🧃 (fail viability — no twitter, bare description). One small entry to test the thesis.
 
+## [2026-09-13 00:08 UTC] sell | [FULL][LLM] $PK at $0.00084532 | P&L: +3.7%
+- **Reasoning:** $PK is +3.7% but only just entered (0.0h held), bonding curve not even at 100%, mcap still micro. Let the narrative breathe another few minutes before deciding — too early to take profit on a 3% move and the slot is fresh.
+

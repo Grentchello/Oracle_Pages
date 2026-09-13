@@ -1,37 +1,8 @@
 {
-  "balance_sol": 30.988451,
+  "balance_sol": 31.040348,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "G2i6TeSyt7PQk9QL5fEf96pn7MGPLHTKXTuGGL4qpump": {
-      "symbol": "PK",
-      "name": "The Private Key",
-      "mint": "G2i6TeSyt7PQk9QL5fEf96pn7MGPLHTKXTuGGL4qpump",
-      "amount": 6241.28030046052,
-      "entry_price_usd": 0.0008149770167548296,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T00:07:36.919053+00:00",
-      "entry_time_iso": "2026-09-13T00:07:36.919062+00:00",
-      "entry_usd_value": 5.086500000000001,
-      "last_seen_price_usd": 0.0008149770167548296,
-      "entry_liquidity_usd": 2115.27307596834,
-      "entry_pool_sol": 20.793011658,
-      "entry_market_cap_usd": 4215.291959729605,
-      "entry_signals": {
-        "liquidity_usd": 2115.27307596834,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 4215.291959729605,
-        "ath_market_cap_usd": 6141.640415209942,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 20.793011658,
-        "description": "",
-        "twitter": "https://x.com/pumping_fun/status/2098925656188829792?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -60957,19 +60928,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 63.89928,
       "partial": false
+    },
+    {
+      "mint": "G2i6TeSyt7PQk9QL5fEf96pn7MGPLHTKXTuGGL4qpump",
+      "symbol": "PK",
+      "name": "The Private Key",
+      "amount_sold": 6241.28030046052,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T00:07:36.919053+00:00",
+      "entry_time_iso": "2026-09-13T00:07:36.919062+00:00",
+      "exit_time": "2026-09-13T00:08:50.331139+00:00",
+      "exit_time_iso": "2026-09-13T00:08:50.331144+00:00",
+      "entry_price_usd": 0.0008149770167548296,
+      "exit_price_usd": 0.0008453204084422745,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.051897,
+      "pnl_sol": 0.001897,
+      "pnl_pct": 3.72,
+      "exit_reason": "LLM: sell_all — $PK is +3.7% but only just entered (0.0h held), bonding curve not even at 100%, mcap still micro. Let the narrative breathe another few minutes before",
+      "entry_liquidity_usd": 2115.27,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 20.793,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 73.412103,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-13T00:07:36.919233+00:00",
+  "last_updated": "2026-09-13T00:08:50.331371+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.73,
-  "portfolio_value_usd": 3157.54,
+  "last_sol_price_usd": 101.66,
+  "portfolio_value_usd": 3155.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 23:43 UTC",
-      "action": "buy",
-      "details": "[LLM] $Gamblecoin at $3.18949e-06, spent 0.05 SOL",
-      "reason": "Gambling meta is a perennial attention driver, TheDegenZane is an active CT account posting the launch, and $3.2k mcap at 0.5min age means massive attention-multiple upside if it catches. Narrative clear, risk is micro-cap rug standard."
-    },
     {
       "time": "2026-09-12 23:46 UTC",
       "action": "sell",
@@ -61083,30 +61072,48 @@
       "action": "buy",
       "details": "[LLM] $PK at $0.000814977, spent 0.05 SOL",
       "reason": "$PK 'The Private Key' is the only candidate passing the viability gate (has twitter, narrative is crypto-native 'private key' meme which has obvious viral appeal to CT). $4.2k mcap with bond at 0% means pure early attention play. Skipping $MERCHANT (Happy Merchant is a known polarizing rug-prone narrative), the two $ALON mints (split attention / twin-mint arb risk), $baby and $🧃 (fail viability — no twitter, bare description). One small entry to test the thesis."
+    },
+    {
+      "time": "2026-09-13 00:08 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $PK at $0.00084532 | P&L: +3.7%",
+      "reason": "$PK is +3.7% but only just entered (0.0h held), bonding curve not even at 100%, mcap still micro. Let the narrative breathe another few minutes before deciding — too early to take profit on a 3% move and the slot is fresh."
     }
   ],
   "trade_stats": {
-    "total": 3457,
-    "wins": 1601,
+    "total": 3458,
+    "wins": 1602,
     "losses": 1856,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 26.822291,
-    "avg_pnl_pct": 38.92,
+    "total_pnl_sol": 26.824188,
+    "avg_pnl_pct": 38.91,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 4,
-    "today_realized_sol": 1.440497,
-    "today_target_pct": 360.1,
+    "today_trades": 5,
+    "today_realized_sol": 1.442394,
+    "today_target_pct": 360.6,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1601,
+      "win_count": 1602,
       "loss_count": 1856,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:07:35.581225+00:00",
+  "last_llm_brief_at": "2026-09-13T00:08:50.331023+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "G2i6TeSyt7PQk9QL5fEf96pn7MGPLHTKXTuGGL4qpump": {
+      "price_usd": 0.0008453204084422745,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 18499.70449049112,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 181.976239332
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
