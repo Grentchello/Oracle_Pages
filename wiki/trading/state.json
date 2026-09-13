@@ -1,8 +1,37 @@
 {
-  "balance_sol": 1.068655,
+  "balance_sol": 1.018655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "79EZbBP7m36TG5gpmBMDNNEfVyeC6mKeAUjq1TeRpump": {
+      "symbol": "SOLCHAN",
+      "name": "Solana-Chan",
+      "mint": "79EZbBP7m36TG5gpmBMDNNEfVyeC6mKeAUjq1TeRpump",
+      "amount": 431470.58823529416,
+      "entry_price_usd": 1.19e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-13T01:56:03.644360+00:00",
+      "entry_time_iso": "2026-09-13T01:56:03.644369+00:00",
+      "entry_usd_value": 5.1345,
+      "last_seen_price_usd": 1.19e-05,
+      "entry_liquidity_usd": 2884.61562161724,
+      "entry_pool_sol": 28.090521196,
+      "entry_market_cap_usd": 14223.276576623235,
+      "entry_signals": {
+        "liquidity_usd": 2884.61562161724,
+        "volume_24h_usd": 14370.29,
+        "market_cap_usd": 14223.276576623235,
+        "ath_market_cap_usd": 16658.221539794635,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 28.090521196,
+        "description": "",
+        "twitter": "https://x.com/ZzzzzSol/status/2098953247511777749?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61839,17 +61868,11 @@
       "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T01:54:36.032815+00:00",
+  "last_updated": "2026-09-13T01:56:03.644642+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.25,
-  "portfolio_value_usd": 109.27,
+  "last_sol_price_usd": 102.69,
+  "portfolio_value_usd": 109.74,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:22 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $Penis crashed >15% in one tick | P&L: -18.8%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-13 01:24 UTC",
       "action": "buy",
@@ -61963,6 +61986,12 @@
       "action": "sell",
       "details": "[rapid-drop] $OpenPerps crashed >15% in one tick | P&L: -100.0%",
       "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-13 01:56 UTC",
+      "action": "buy",
+      "details": "[LLM] $SOLCHAN at $1.19e-05, spent 0.05 SOL",
+      "reason": "SOLCHAN is a fresh (1.8min) anime-mascot narrative token at $14K mcap with twitter presence — classic viral memecoin archetype with low mcap and real attention signal. Viability gate passes (twitter + decent mcap). Risk: bond not yet complete (36%), so early-stage. Sizing 0.05 SOL per v7 rules."
     }
   ],
   "trade_stats": {
@@ -61984,21 +62013,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T01:54:34.786442+00:00",
+  "last_llm_brief_at": "2026-09-13T01:56:02.035751+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "VdNCY4dwfKG148AcvR1bJ8D5okBNGPc5HUofdVppump": {
-      "price_usd": 2.8886403616479683e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 15.964016425,
-      "volume_h24": 7177.02,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 0.1561273
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
