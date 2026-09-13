@@ -24802,3 +24802,9 @@
 ## [2026-09-13 02:51 UTC] sell | [PARTIAL][LLM] $S&P 500 at $4.3101e-06 | P&L: +25.1%
 - **Reasoning:** Up +25.1% on a brand-new position, sitting right at the bot's auto-TP trigger. Pool is only $700 so any further upside is fragile. Selling half locks in roughly half the gain at the TP line and lets the other half ride toward +50%/+100% TPs; this is the 'secure profit, leave runner' play the prompt explicitly encourages when up >20% and momentum could reverse on a thin pool.
 
+## [2026-09-13 02:52 UTC] sell | [FULL][LLM] $S&P 500 at $4.41165e-06 | P&L: +28.1%
+- **Reasoning:** +28.1% and approaching the +30% auto-TP threshold. Bonding-curve token at 0% pool share means I have no exit edge — better to lock the gain now than wait for the auto-trigger or give it back. Fresh market, rotating capital.
+
+## [2026-09-13 02:52 UTC] buy | [LLM] $GORG at $2.916e-06, spent 0.05 SOL
+- **Reasoning:** $GORG has the strongest narrative: original IP (a rat with a melted candle on his skull building a 'candle empire'), a dedicated X handle @GorgCoinSol, and a vivid story arc. 0.7min old, $3.8k mcap, prime attention-launch territory.
+
