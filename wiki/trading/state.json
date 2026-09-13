@@ -2,36 +2,7 @@
   "balance_sol": 1.168655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "4b3BUavjjTRjR6EVqXeo2RnTzMSRsvXxMMBAiMkVpump": {
-      "symbol": "EPIC",
-      "name": "Epic Private Internet Cash",
-      "mint": "4b3BUavjjTRjR6EVqXeo2RnTzMSRsvXxMMBAiMkVpump",
-      "amount": 4379.220518658454,
-      "entry_price_usd": 0.0011625356563591356,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T01:38:39.808637+00:00",
-      "entry_time_iso": "2026-09-13T01:38:39.808644+00:00",
-      "entry_usd_value": 5.091,
-      "last_seen_price_usd": 0.0011625356563591356,
-      "entry_liquidity_usd": 210800.1354383109,
-      "entry_pool_sol": 2070.321503028,
-      "entry_market_cap_usd": 6101.607601798867,
-      "entry_signals": {
-        "liquidity_usd": 210800.1354383109,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 6101.607601798867,
-        "ath_market_cap_usd": 6250.11398343734,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2070.321503028,
-        "description": "",
-        "twitter": "https://x.com/folkonchain/status/2098949019150303722",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61791,19 +61762,38 @@
       "hold_duration_seconds": 77.802906,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "4b3BUavjjTRjR6EVqXeo2RnTzMSRsvXxMMBAiMkVpump",
+      "symbol": "EPIC",
+      "name": "Epic Private Internet Cash",
+      "amount_sold": 4379.220518658454,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T01:38:39.808637+00:00",
+      "entry_time_iso": "2026-09-13T01:38:39.808644+00:00",
+      "exit_time": "2026-09-13T01:39:44.159516+00:00",
+      "exit_time_iso": "2026-09-13T01:39:44.159525+00:00",
+      "entry_price_usd": 0.0011625356563591356,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 210800.1354383109,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 2070.321503028,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 64.350899,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T01:38:39.808791+00:00",
+  "last_updated": "2026-09-13T01:40:02.965548+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.82,
-  "portfolio_value_usd": 124.08,
+  "last_sol_price_usd": 102.34,
+  "portfolio_value_usd": 119.6,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:15 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $SHS at $4.02292e-06 | P&L: -100.0%",
-      "reason": "Up +16.7% on a $570 pool where I'm 1% of liquidity — half-exit locks ~$0.40 profit, frees capital for fresher attention ($HODLERS just dropped with twitter backing), and reduces my impact on this thin pool. Below +25% TP so I have discretion; not letting a +16% gain round-trip to zero while capital sits idle."
-    },
     {
       "time": "2026-09-13 01:16 UTC",
       "action": "sell",
@@ -61917,40 +61907,46 @@
       "action": "buy",
       "details": "[LLM] $EPIC at $0.00116254, spent 0.05 SOL",
       "reason": "$EPIC narrative (private internet cash) is on-trend with privacy meta, 1.1min old, bonding 14% with growing attention from @folkonchain; small mcap $6k with early story momentum fits the 5x-in-hours thesis."
+    },
+    {
+      "time": "2026-09-13 01:39 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $EPIC crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3491,
+    "total": 3492,
     "wins": 1609,
-    "losses": 1882,
+    "losses": 1883,
     "win_rate_pct": 46.1,
-    "total_pnl_sol": 27.541772,
-    "avg_pnl_pct": 38.9,
+    "total_pnl_sol": 27.491772,
+    "avg_pnl_pct": 38.86,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 38,
-    "today_realized_sol": 2.159978,
-    "today_target_pct": 540.0,
+    "today_trades": 39,
+    "today_realized_sol": 2.109978,
+    "today_target_pct": 527.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1882,
+      "loss_count": 1883,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T01:38:38.489068+00:00",
+  "last_llm_brief_at": "2026-09-13T01:40:02.676319+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2LKPFKdJJWABPQA9vCu3q3QTaaSht7nikp4hBdTDpump": {
-      "price_usd": 0.00045227071832439574,
+    "4b3BUavjjTRjR6EVqXeo2RnTzMSRsvXxMMBAiMkVpump": {
+      "price_usd": 0.0008976671658086537,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2.0364e-07,
+      "liquidity_usd": 42824.60275984156,
       "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2e-09
+      "real_sol_reserves": 418.454199334
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

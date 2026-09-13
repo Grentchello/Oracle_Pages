@@ -24688,3 +24688,6 @@
 ## [2026-09-13 01:38 UTC] buy | [LLM] $EPIC at $0.00116254, spent 0.05 SOL
 - **Reasoning:** $EPIC narrative (private internet cash) is on-trend with privacy meta, 1.1min old, bonding 14% with growing attention from @folkonchain; small mcap $6k with early story momentum fits the 5x-in-hours thesis.
 
+## [2026-09-13 01:39 UTC] sell | [rapid-drop] $EPIC crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
