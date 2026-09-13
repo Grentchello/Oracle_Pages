@@ -2,36 +2,7 @@
   "balance_sol": 0.609722,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "BMM3Qe1mNtruqyU9uHJYDVnbbRziiHDtdarBzkFgpump": {
-      "symbol": "ADAMITY",
-      "name": "Adamity",
-      "mint": "BMM3Qe1mNtruqyU9uHJYDVnbbRziiHDtdarBzkFgpump",
-      "amount": 1656523.1466494014,
-      "entry_price_usd": 3.089e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T02:32:21.128089+00:00",
-      "entry_time_iso": "2026-09-13T02:32:21.128098+00:00",
-      "entry_usd_value": 5.117000000000001,
-      "last_seen_price_usd": 3.089e-06,
-      "entry_liquidity_usd": 126.3243015951,
-      "entry_pool_sol": 1.234359015,
-      "entry_market_cap_usd": 3086.0782386636197,
-      "entry_signals": {
-        "liquidity_usd": 126.3243015951,
-        "volume_24h_usd": 240.27,
-        "market_cap_usd": 3086.0782386636197,
-        "ath_market_cap_usd": 3167.304086532555,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.234359015,
-        "description": "",
-        "twitter": "https://x.com/adamityproject/status/2098912651376017677",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62115,19 +62086,38 @@
       "hold_duration_seconds": 72.754984,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "BMM3Qe1mNtruqyU9uHJYDVnbbRziiHDtdarBzkFgpump",
+      "symbol": "ADAMITY",
+      "name": "Adamity",
+      "amount_sold": 1656523.1466494014,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T02:32:21.128089+00:00",
+      "entry_time_iso": "2026-09-13T02:32:21.128098+00:00",
+      "exit_time": "2026-09-13T02:33:41.356940+00:00",
+      "exit_time_iso": "2026-09-13T02:33:41.356946+00:00",
+      "entry_price_usd": 3.089e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — Just opened at -6.6%, well above the -25% hard stop. Bonding-curve early positions need time to develop; bailing now would lock a smal — no real exit liquidity",
+      "entry_liquidity_usd": 126.3243015951,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.234359015,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 80.228869,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T02:32:21.128268+00:00",
+  "last_updated": "2026-09-13T02:33:41.357180+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.34,
-  "portfolio_value_usd": 67.52,
+  "last_sol_price_usd": 101.76,
+  "portfolio_value_usd": 62.05,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:56 UTC",
-      "action": "buy",
-      "details": "[LLM] $SOLCHAN at $1.19e-05, spent 0.05 SOL",
-      "reason": "SOLCHAN is a fresh (1.8min) anime-mascot narrative token at $14K mcap with twitter presence — classic viral memecoin archetype with low mcap and real attention signal. Viability gate passes (twitter + decent mcap). Risk: bond not yet complete (36%), so early-stage. Sizing 0.05 SOL per v7 rules."
-    },
     {
       "time": "2026-09-13 01:57 UTC",
       "action": "sell",
@@ -62241,30 +62231,48 @@
       "action": "buy",
       "details": "[LLM] $ADAMITY at $3.089e-06, spent 0.05 SOL",
       "reason": "$ADAMITY is the only candidate with a real attention signal (project-style twitter @adamityproject) — others have no description or twitter. Sub-$3k mcap with bond 4% means ultra-early and high-risk, but this is exactly the 'fresh attention' slot. 0.1 SOL ($10.23) position, hard stop at -25%."
+    },
+    {
+      "time": "2026-09-13 02:33 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ADAMITY at $2.88565e-06 | P&L: -100.0%",
+      "reason": "Just opened at -6.6%, well above the -25% hard stop. Bonding-curve early positions need time to develop; bailing now would lock a small loss for no signal reason."
     }
   ],
   "trade_stats": {
-    "total": 3504,
+    "total": 3505,
     "wins": 1610,
-    "losses": 1894,
+    "losses": 1895,
     "win_rate_pct": 45.9,
-    "total_pnl_sol": 26.982839,
-    "avg_pnl_pct": 38.43,
+    "total_pnl_sol": 26.932839,
+    "avg_pnl_pct": 38.39,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 51,
-    "today_realized_sol": 1.601045,
-    "today_target_pct": 400.3,
+    "today_trades": 52,
+    "today_realized_sol": 1.551045,
+    "today_target_pct": 387.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1610,
-      "loss_count": 1894,
+      "loss_count": 1895,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:32:19.819410+00:00",
+  "last_llm_brief_at": "2026-09-13T02:33:41.356738+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "BMM3Qe1mNtruqyU9uHJYDVnbbRziiHDtdarBzkFgpump": {
+      "price_usd": 2.8856517843573193e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 21.6752341248,
+      "volume_h24": 344.36,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.21300348
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

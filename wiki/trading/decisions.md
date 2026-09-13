@@ -24766,3 +24766,6 @@
 ## [2026-09-13 02:32 UTC] buy | [LLM] $ADAMITY at $3.089e-06, spent 0.05 SOL
 - **Reasoning:** $ADAMITY is the only candidate with a real attention signal (project-style twitter @adamityproject) — others have no description or twitter. Sub-$3k mcap with bond 4% means ultra-early and high-risk, but this is exactly the 'fresh attention' slot. 0.1 SOL ($10.23) position, hard stop at -25%.
 
+## [2026-09-13 02:33 UTC] sell | [FULL][LLM] $ADAMITY at $2.88565e-06 | P&L: -100.0%
+- **Reasoning:** Just opened at -6.6%, well above the -25% hard stop. Bonding-curve early positions need time to develop; bailing now would lock a small loss for no signal reason.
+
