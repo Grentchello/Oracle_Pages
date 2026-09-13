@@ -663,3 +663,12 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - No positions open. Bot idles cleanly until external topup or organic run lifts balance >0.07 SOL.
 - Slippage caveat unchanged: lifetime +26.36 SOL is paper via v9.0 sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
 - Verdict: **Profitable, no changes needed.** Bot is healthy and idling correctly per reserve guard. Lifetime +26.36 SOL / 45.8% WR confirms v8.7+ mechanical rules working. v8.7+ mechanical rules unchanged per user constraint. The bot needs a SOL topup to resume trading, not a strategy change.
+
+## [2026-09-13 09:07 UTC] eval | memecoin bot — 2026-09-13 09:07 UTC
+- Window: since last eval (2026-09-13 07:04 UTC), **0 new trades** (2h of idle ticks)
+- Bot remains **buy-blocked** — balance 0.041267 SOL < operational floor (POSITION_SIZE_SOL 0.05 + RESERVE_SOL 0.02 = 0.07 SOL). Confirmed in runner.log: every tick 07:04-09:05 UTC shows 0 positions, 3519 trades unchanged.
+- Lifetime stats unchanged: 3,519 trades, **net +26.36 SOL paper** (v9.0 quadratic slippage sim), 45.8% WR, balance 0.041267 SOL.
+- Filter chain still active: v9.1 real_sol_reserves floor (rejects 13-22/25 candidates per tick) + v8.9 age filter (rejects 1-2 candidates <1min old). Only 1-7 of 25 candidates reach the LLM per tick. GMGN fragility gate still rejecting EXTREME/HIGH-fragility names (e.g. $DOOMERGPT top10=75.5%).
+- No positions open. Bot idles cleanly until external topup or organic run lifts balance >0.07 SOL.
+- Slippage caveat unchanged: lifetime +26.36 SOL is paper via v9.0 sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
+- Verdict: **Profitable, no changes needed.** Bot is healthy and idling correctly per reserve guard. Lifetime +26.36 SOL / 45.8% WR confirms v8.7+ mechanical rules working. v8.7+ mechanical rules unchanged per user constraint. The bot needs a SOL topup to resume trading, not a strategy change.
