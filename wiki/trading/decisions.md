@@ -24574,3 +24574,6 @@
 ## [2026-09-13 00:44 UTC] sell | [v8.7 TP +50% (full)] $PFP at $0.000263791 | P&L: +58.2%
 - **Reasoning:** Auto take-profit at +58.2%
 
+## [2026-09-13 00:49 UTC] buy | [LLM] $Yummy at $4.822e-06, spent 0.05 SOL
+- **Reasoning:** $Yummy is the only candidate passing viability gate (twitter attached via @dotmoxbt). Food/crypto crossover narrative has meme precedent (BOME-style). 0.6min age + $3.6k mcap = pure early attention play. Risk: generic name, only 10% bond complete, micro-cap illiquidity.
+
