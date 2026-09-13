@@ -1,37 +1,8 @@
 {
-  "balance_sol": 1.95,
+  "balance_sol": 1.977522,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8X95p6DDQPzRxMMZUJnuiX9v1nKP4EhYVt8wiy9Epump": {
-      "symbol": "Yummy",
-      "name": "Cook a yummy meal",
-      "mint": "8X95p6DDQPzRxMMZUJnuiX9v1nKP4EhYVt8wiy9Epump",
-      "amount": 529500.2073828288,
-      "entry_price_usd": 4.822e-06,
-      "entry_sol_spent": 0.025,
-      "entry_time": "2026-09-13T00:49:29.982056+00:00",
-      "entry_time_iso": "2026-09-13T00:49:29.982065+00:00",
-      "entry_usd_value": 5.1065000000000005,
-      "last_seen_price_usd": 5.791714545953896e-06,
-      "entry_liquidity_usd": 852.35190974038,
-      "entry_pool_sol": 8.345754526,
-      "entry_market_cap_usd": 3643.7994007841544,
-      "entry_signals": {
-        "liquidity_usd": 852.35190974038,
-        "volume_24h_usd": 3032.0,
-        "market_cap_usd": 3643.7994007841544,
-        "ath_market_cap_usd": 5582.22862861042,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 8.345754526,
-        "description": "",
-        "twitter": "https://x.com/dotmoxbt/status/2098936720485994721",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61319,19 +61290,37 @@
       "hold_duration_seconds": 79.881117,
       "partial": true,
       "ghost_exit": true
+    },
+    {
+      "mint": "8X95p6DDQPzRxMMZUJnuiX9v1nKP4EhYVt8wiy9Epump",
+      "symbol": "Yummy",
+      "name": "Cook a yummy meal",
+      "amount_sold": 529500.2073828288,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T00:49:29.982056+00:00",
+      "entry_time_iso": "2026-09-13T00:49:29.982065+00:00",
+      "exit_time": "2026-09-13T00:52:04.686830+00:00",
+      "exit_time_iso": "2026-09-13T00:52:04.686835+00:00",
+      "entry_price_usd": 4.822e-06,
+      "exit_price_usd": 5.2788612613657975e-06,
+      "entry_sol_for_chunk": 0.025,
+      "exit_sol_received": 0.027522,
+      "pnl_sol": 0.002522,
+      "pnl_pct": 9.47,
+      "exit_reason": "LLM: sell_all — Up +9.5% after 0min, just entered. Bonding curve only $1107 pool though — extremely illiquid. Hold for one more tick to see if it actually moves; if f",
+      "entry_liquidity_usd": 852.35,
+      "exit_liquidity_usd": 1299.83,
+      "entry_pool_sol": 8.3458,
+      "exit_pool_sol": 12.7297,
+      "hold_duration_seconds": 154.704791,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-13T00:50:49.863496+00:00",
+  "last_updated": "2026-09-13T00:52:04.687083+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.11,
-  "portfolio_value_usd": 201.67,
+  "last_sol_price_usd": 101.56,
+  "portfolio_value_usd": 200.84,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:21 UTC",
-      "action": "buy",
-      "details": "[LLM] $SlinkyZ at $3.354e-06, spent 0.05 SOL",
-      "reason": "$SlinkyZ: $3.3k mcap, <1min old, has twitter, explicit 'no bundles' trust signal, meme-ready 'angriest slinky' image. Slinky memes travel well on attention markets. $5 risk, standard scalp."
-    },
     {
       "time": "2026-09-13 00:23 UTC",
       "action": "sell",
@@ -61445,40 +61434,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $Yummy at $5.79171e-06 | P&L: -100.0%",
       "reason": "Up +20.1% right at the take-profit threshold, but pool is only $1300 (bonding curve, no depth). Selling half locks the gain and keeps the slot warm for a potential runner. If it doubles from here I'll still have skin in; if it dumps I keep half the profit."
+    },
+    {
+      "time": "2026-09-13 00:52 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Yummy at $5.27886e-06 | P&L: +9.5%",
+      "reason": "Up +9.5% after 0min, just entered. Bonding curve only $1107 pool though — extremely illiquid. Hold for one more tick to see if it actually moves; if flat at next check, exit."
     }
   ],
   "trade_stats": {
-    "total": 3472,
-    "wins": 1608,
+    "total": 3473,
+    "wins": 1609,
     "losses": 1864,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 28.298117,
-    "avg_pnl_pct": 39.58,
+    "total_pnl_sol": 28.300639,
+    "avg_pnl_pct": 39.57,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 19,
-    "today_realized_sol": 2.916323,
-    "today_target_pct": 729.1,
+    "today_trades": 20,
+    "today_realized_sol": 2.918845,
+    "today_target_pct": 729.7,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1608,
+      "win_count": 1609,
       "loss_count": 1864,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:50:49.862983+00:00",
+  "last_llm_brief_at": "2026-09-13T00:52:04.686667+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "8X95p6DDQPzRxMMZUJnuiX9v1nKP4EhYVt8wiy9Epump": {
-      "price_usd": 5.791714545953896e-06,
+      "price_usd": 5.2788612613657975e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 1299.83048408422,
-      "volume_h24": 4419.69,
+      "liquidity_usd": 1107.4435943352,
+      "volume_h24": 5849.3,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 12.729708002
+      "real_sol_reserves": 10.90432842
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

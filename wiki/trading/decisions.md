@@ -24580,3 +24580,6 @@
 ## [2026-09-13 00:50 UTC] sell | [PARTIAL][LLM] $Yummy at $5.79171e-06 | P&L: -100.0%
 - **Reasoning:** Up +20.1% right at the take-profit threshold, but pool is only $1300 (bonding curve, no depth). Selling half locks the gain and keeps the slot warm for a potential runner. If it doubles from here I'll still have skin in; if it dumps I keep half the profit.
 
+## [2026-09-13 00:52 UTC] sell | [FULL][LLM] $Yummy at $5.27886e-06 | P&L: +9.5%
+- **Reasoning:** Up +9.5% after 0min, just entered. Bonding curve only $1107 pool though — extremely illiquid. Hold for one more tick to see if it actually moves; if flat at next check, exit.
+
