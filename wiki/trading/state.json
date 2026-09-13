@@ -1,37 +1,8 @@
 {
-  "balance_sol": 31.011926,
+  "balance_sol": 31.058151,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "ChyQ1YrsRx7d6zdACMLXgkubci6yMNJbZNJW1Q7Mpump": {
-      "symbol": "LEXAPRO",
-      "name": "lexapro as a paraplegic",
-      "mint": "ChyQ1YrsRx7d6zdACMLXgkubci6yMNJbZNJW1Q7Mpump",
-      "amount": 1370070.2323068613,
-      "entry_price_usd": 3.702e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T00:29:38.470718+00:00",
-      "entry_time_iso": "2026-09-13T00:29:38.470726+00:00",
-      "entry_usd_value": 5.072,
-      "last_seen_price_usd": 3.702e-06,
-      "entry_liquidity_usd": 403.48645905952,
-      "entry_pool_sol": 3.977587333,
-      "entry_market_cap_usd": 3654.924448348071,
-      "entry_signals": {
-        "liquidity_usd": 403.48645905952,
-        "volume_24h_usd": 1765.05,
-        "market_cap_usd": 3654.924448348071,
-        "ath_market_cap_usd": 4288.298385844803,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.977587333,
-        "description": "",
-        "twitter": "https://x.com/slingoorio/status/2098929553238307094?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61149,19 +61120,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 79.764344,
       "partial": false
+    },
+    {
+      "mint": "ChyQ1YrsRx7d6zdACMLXgkubci6yMNJbZNJW1Q7Mpump",
+      "symbol": "LEXAPRO",
+      "name": "lexapro as a paraplegic",
+      "amount_sold": 1370070.2323068613,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T00:29:38.470718+00:00",
+      "entry_time_iso": "2026-09-13T00:29:38.470726+00:00",
+      "exit_time": "2026-09-13T00:30:55.714028+00:00",
+      "exit_time_iso": "2026-09-13T00:30:55.714037+00:00",
+      "entry_price_usd": 3.702e-06,
+      "exit_price_usd": 3.4248458679908776e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.046225,
+      "pnl_sol": -0.003775,
+      "pnl_pct": -7.49,
+      "exit_reason": "LLM: sell_all — $LEXAPRO is only down 7.5% after 0h, well within tolerance. Pool is thin ($300) but the position is fresh and no clear exit signal yet — give it a few",
+      "entry_liquidity_usd": 403.49,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.9776,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 77.243331,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-13T00:29:38.470885+00:00",
+  "last_updated": "2026-09-13T00:30:55.714674+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.44,
-  "portfolio_value_usd": 3150.92,
+  "last_sol_price_usd": 101.51,
+  "portfolio_value_usd": 3152.71,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:03 UTC",
-      "action": "buy",
-      "details": "[LLM] $SLINGOOR at $9.862e-06, spent 0.05 SOL",
-      "reason": "Freshest launch with the strongest attention signal — highest mcap ($9.8k), 32% bonding curve progress (real buyers already in), catchy viral name. Catchy nonsense names pump hardest in first 30 min. Risk: still<2min old, could rug — but pool is forming and narrative is live."
-    },
     {
       "time": "2026-09-13 00:04 UTC",
       "action": "sell",
@@ -61275,40 +61264,46 @@
       "action": "buy",
       "details": "[LLM] $LEXAPRO at $3.702e-06, spent 0.05 SOL",
       "reason": "Passes viability (twitter link present, desc >50 chars) and fragility v8.2 gates. Absurdist disability+SSRI narrative is the kind of dark humor that goes viral on memecoin CT. 1.9min old = still pre-pump. 0.05 SOL position."
+    },
+    {
+      "time": "2026-09-13 00:30 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LEXAPRO at $3.42485e-06 | P&L: -7.5%",
+      "reason": "$LEXAPRO is only down 7.5% after 0h, well within tolerance. Pool is thin ($300) but the position is fresh and no clear exit signal yet — give it a few minutes to develop."
     }
   ],
   "trade_stats": {
-    "total": 3465,
+    "total": 3466,
     "wins": 1606,
-    "losses": 1859,
+    "losses": 1860,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 26.845766,
-    "avg_pnl_pct": 38.85,
+    "total_pnl_sol": 26.841991,
+    "avg_pnl_pct": 38.83,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 12,
-    "today_realized_sol": 1.463972,
-    "today_target_pct": 366.0,
+    "today_trades": 13,
+    "today_realized_sol": 1.460197,
+    "today_target_pct": 365.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1606,
-      "loss_count": 1859,
+      "loss_count": 1860,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:29:37.077272+00:00",
+  "last_llm_brief_at": "2026-09-13T00:30:55.713450+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2U4v2KJ6KKkk6Wh3PRRdLN25KYQpHDwepjxRXKjwpump": {
-      "price_usd": 0.0004932856079299884,
+    "ChyQ1YrsRx7d6zdACMLXgkubci6yMNJbZNJW1Q7Mpump": {
+      "price_usd": 3.4248458679908776e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 130147.01695153344,
-      "volume_h24": 0.0,
+      "liquidity_usd": 300.00267755032,
+      "volume_h24": 1891.23,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 1282.995040926
+      "real_sol_reserves": 2.955400232
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

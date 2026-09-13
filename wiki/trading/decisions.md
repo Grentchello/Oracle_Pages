@@ -24541,3 +24541,6 @@
 ## [2026-09-13 00:29 UTC] buy | [LLM] $LEXAPRO at $3.702e-06, spent 0.05 SOL
 - **Reasoning:** Passes viability (twitter link present, desc >50 chars) and fragility v8.2 gates. Absurdist disability+SSRI narrative is the kind of dark humor that goes viral on memecoin CT. 1.9min old = still pre-pump. 0.05 SOL position.
 
+## [2026-09-13 00:30 UTC] sell | [FULL][LLM] $LEXAPRO at $3.42485e-06 | P&L: -7.5%
+- **Reasoning:** $LEXAPRO is only down 7.5% after 0h, well within tolerance. Pool is thin ($300) but the position is fresh and no clear exit signal yet — give it a few minutes to develop.
+
