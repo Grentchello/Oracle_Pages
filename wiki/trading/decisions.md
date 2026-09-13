@@ -24577,3 +24577,6 @@
 ## [2026-09-13 00:49 UTC] buy | [LLM] $Yummy at $4.822e-06, spent 0.05 SOL
 - **Reasoning:** $Yummy is the only candidate passing viability gate (twitter attached via @dotmoxbt). Food/crypto crossover narrative has meme precedent (BOME-style). 0.6min age + $3.6k mcap = pure early attention play. Risk: generic name, only 10% bond complete, micro-cap illiquidity.
 
+## [2026-09-13 00:50 UTC] sell | [PARTIAL][LLM] $Yummy at $5.79171e-06 | P&L: -100.0%
+- **Reasoning:** Up +20.1% right at the take-profit threshold, but pool is only $1300 (bonding curve, no depth). Selling half locks the gain and keeps the slot warm for a potential runner. If it doubles from here I'll still have skin in; if it dumps I keep half the profit.
+
