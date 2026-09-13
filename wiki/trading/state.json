@@ -1,8 +1,37 @@
 {
-  "balance_sol": 1.877522,
+  "balance_sol": 1.827522,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "7rGGoSM69nGgB7sWpaoicz14fLEQ3Lv6TwwYg25tpump": {
+      "symbol": "MUTUMBO",
+      "name": "MUTUMBO",
+      "mint": "7rGGoSM69nGgB7sWpaoicz14fLEQ3Lv6TwwYg25tpump",
+      "amount": 450655.4409348111,
+      "entry_price_usd": 1.1342368327778377e-05,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-13T01:00:33.496277+00:00",
+      "entry_time_iso": "2026-09-13T01:00:33.496286+00:00",
+      "entry_usd_value": 5.1115,
+      "last_seen_price_usd": 1.1342368327778377e-05,
+      "entry_liquidity_usd": 2451.12516574488,
+      "entry_pool_sol": 23.976574056,
+      "entry_market_cap_usd": 18737.472498465795,
+      "entry_signals": {
+        "liquidity_usd": 2451.12516574488,
+        "volume_24h_usd": null,
+        "market_cap_usd": 18737.472498465795,
+        "ath_market_cap_usd": 18737.472498465795,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 23.976574056,
+        "description": "",
+        "twitter": "https://x.com/blknoiz06/status/2098939418136441105",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61366,17 +61395,11 @@
       "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T00:59:11.859997+00:00",
+  "last_updated": "2026-09-13T01:00:33.496519+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.65,
-  "portfolio_value_usd": 190.85,
+  "last_sol_price_usd": 102.23,
+  "portfolio_value_usd": 191.94,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:29 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Unstable at $0.000493286 | P&L: +39.8%",
-      "reason": "Up +39.8% — well past the 25% auto-TP threshold. Bonding-curve tokens retrace violently; with 0% pool share showing, the bot likely already TP'd or this position is essentially flat. Lock the gain and free the slot for a fresh entry."
-    },
     {
       "time": "2026-09-13 00:29 UTC",
       "action": "buy",
@@ -61490,6 +61513,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $WORM at $3.48112e-06 | P&L: -100.0%",
       "reason": "$WORM is brand new (0.0h held) and flat at -0.4%. No loss trigger, no momentum signal yet, and no upside to book. Give it a few minutes to either bounce or hit the auto-stops rather than rotating for the sake of rotating."
+    },
+    {
+      "time": "2026-09-13 01:00 UTC",
+      "action": "buy",
+      "details": "[LLM] $MUTUMBO at $1.13424e-05, spent 0.05 SOL",
+      "reason": "$MUTUMBO — Dikembe Mutombo narrative is recognizable, the X account blknoiz06 is associated with notable launches, mcap $18.7k is entry-zone, bond only 34% means plenty of room to ride the curve. Viability passes (twitter link + narrative), name carries viral potential. Risk: 34% bond with low mcap = thin liquidity and rug-prone, but that's the memecoin game at this stage."
     }
   ],
   "trade_stats": {
@@ -61511,21 +61540,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:59:11.859533+00:00",
+  "last_llm_brief_at": "2026-09-13T01:00:32.140808+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "DtPNC5oZFAoZ85M9kTAKd4WXesa17s9uvzDMEzrrpump": {
-      "price_usd": 3.4811219982373267e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 325.5001919937,
-      "volume_h24": 727.34,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 3.202166178
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
