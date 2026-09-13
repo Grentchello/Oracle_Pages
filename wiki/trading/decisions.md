@@ -24514,3 +24514,6 @@
 ## [2026-09-13 00:16 UTC] sell | [FULL][LLM] $Shalhome at $9.93768e-05 | P&L: -4.0%
 - **Reasoning:** Only -4% after 0.0h held, well within the -25% hard cap and nowhere near the 30-min stale exit. Bonding curve pool at $2660 means thin liquidity, but no bounce signal yet and no reason to panic. Give it a few more minutes to see if the narrative develops or thesis breaks.
 
+## [2026-09-13 00:17 UTC] buy | [LLM] $CHILLHOUSE at $0.000298537, spent 0.05 SOL
+- **Reasoning:** $CHILLHOUSE is the only candidate passing all hard gates (viability, fragility, no political blocklist). Memeable name, fresh X post, ultra-low $7.7k mcap with 10x+ upside potential if attention catches. Small 0.05 SOL scalp position.
+

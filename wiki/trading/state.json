@@ -1,8 +1,37 @@
 {
-  "balance_sol": 31.04085,
+  "balance_sol": 30.99085,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "7shMXJL5NkYvNZdvzU4ArGk4aP7UfVAXMh9CBNrTpump": {
+      "symbol": "CHILLHOUSE",
+      "name": "Chill House",
+      "mint": "7shMXJL5NkYvNZdvzU4ArGk4aP7UfVAXMh9CBNrTpump",
+      "amount": 17085.178137625066,
+      "entry_price_usd": 0.00029853654196133563,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-13T00:17:58.359105+00:00",
+      "entry_time_iso": "2026-09-13T00:17:58.359114+00:00",
+      "entry_usd_value": 5.10055,
+      "last_seen_price_usd": 0.00029853654196133563,
+      "entry_liquidity_usd": 62223.32052508181,
+      "entry_pool_sol": 609.966773437,
+      "entry_market_cap_usd": 7774.255427837367,
+      "entry_signals": {
+        "liquidity_usd": 62223.32052508181,
+        "volume_24h_usd": 0.0,
+        "market_cap_usd": 7774.255427837367,
+        "ath_market_cap_usd": 12776.669753503687,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 609.966773437,
+        "description": "Just a chillhouse",
+        "twitter": "https://x.com/CHILLHOUSEv2/status/2098928772624109603?s=20",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61026,17 +61055,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-13T00:16:35.269296+00:00",
+  "last_updated": "2026-09-13T00:17:58.359283+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.43,
-  "portfolio_value_usd": 3148.47,
+  "last_sol_price_usd": 102.011,
+  "portfolio_value_usd": 3166.51,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 23:51 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $FATPIG crashed >15% in one tick | P&L: -25.8%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-12 23:52 UTC",
       "action": "buy",
@@ -61150,6 +61173,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $Shalhome at $9.93768e-05 | P&L: -4.0%",
       "reason": "Only -4% after 0.0h held, well within the -25% hard cap and nowhere near the 30-min stale exit. Bonding curve pool at $2660 means thin liquidity, but no bounce signal yet and no reason to panic. Give it a few more minutes to see if the narrative develops or thesis breaks."
+    },
+    {
+      "time": "2026-09-13 00:17 UTC",
+      "action": "buy",
+      "details": "[LLM] $CHILLHOUSE at $0.000298537, spent 0.05 SOL",
+      "reason": "$CHILLHOUSE is the only candidate passing all hard gates (viability, fragility, no political blocklist). Memeable name, fresh X post, ultra-low $7.7k mcap with 10x+ upside potential if attention catches. Small 0.05 SOL scalp position."
     }
   ],
   "trade_stats": {
@@ -61171,21 +61200,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:16:35.268203+00:00",
+  "last_llm_brief_at": "2026-09-13T00:17:56.951505+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "92G1Kg8BfyBL39VhYDpwnTVLREiCrwgTDbQz7zaYpump": {
-      "price_usd": 9.937675451448281e-05,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 2660.03707208463,
-      "volume_h24": 1200.84,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 26.225348241
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
