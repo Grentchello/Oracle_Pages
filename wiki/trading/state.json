@@ -1,8 +1,37 @@
 {
-  "balance_sol": 0.659722,
+  "balance_sol": 0.609722,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "BMM3Qe1mNtruqyU9uHJYDVnbbRziiHDtdarBzkFgpump": {
+      "symbol": "ADAMITY",
+      "name": "Adamity",
+      "mint": "BMM3Qe1mNtruqyU9uHJYDVnbbRziiHDtdarBzkFgpump",
+      "amount": 1656523.1466494014,
+      "entry_price_usd": 3.089e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-13T02:32:21.128089+00:00",
+      "entry_time_iso": "2026-09-13T02:32:21.128098+00:00",
+      "entry_usd_value": 5.117000000000001,
+      "last_seen_price_usd": 3.089e-06,
+      "entry_liquidity_usd": 126.3243015951,
+      "entry_pool_sol": 1.234359015,
+      "entry_market_cap_usd": 3086.0782386636197,
+      "entry_signals": {
+        "liquidity_usd": 126.3243015951,
+        "volume_24h_usd": 240.27,
+        "market_cap_usd": 3086.0782386636197,
+        "ath_market_cap_usd": 3167.304086532555,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 1.234359015,
+        "description": "",
+        "twitter": "https://x.com/adamityproject/status/2098912651376017677",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62088,17 +62117,11 @@
       "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T02:31:00.439893+00:00",
+  "last_updated": "2026-09-13T02:32:21.128268+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.28,
-  "portfolio_value_usd": 67.48,
+  "last_sol_price_usd": 102.34,
+  "portfolio_value_usd": 67.52,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:54 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $OpenPerps crashed >15% in one tick | P&L: -100.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-13 01:56 UTC",
       "action": "buy",
@@ -62212,6 +62235,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $SPOONMAN at $4.33784e-06 | P&L: -100.0%",
       "reason": "SPOONMAN up +11.9% on a tiny $711 pool (1% share = illiquid exit). Just opened this tick (held 0.0h) — locking the +12% gain while it's there, freeing slot for $mayhem which has fresher attention and bigger narrative. Better to rotate than sit on a thin pool."
+    },
+    {
+      "time": "2026-09-13 02:32 UTC",
+      "action": "buy",
+      "details": "[LLM] $ADAMITY at $3.089e-06, spent 0.05 SOL",
+      "reason": "$ADAMITY is the only candidate with a real attention signal (project-style twitter @adamityproject) — others have no description or twitter. Sub-$3k mcap with bond 4% means ultra-early and high-risk, but this is exactly the 'fresh attention' slot. 0.1 SOL ($10.23) position, hard stop at -25%."
     }
   ],
   "trade_stats": {
@@ -62233,21 +62262,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:31:00.439560+00:00",
+  "last_llm_brief_at": "2026-09-13T02:32:19.819410+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "J6gjSNNsUCQ1HqUMNcVdgBNKYtHZhFmDXhdF5t34pump": {
-      "price_usd": 4.3378393093169085e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 710.73649463396,
-      "volume_h24": 707.69,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 6.948929357
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

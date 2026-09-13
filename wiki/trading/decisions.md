@@ -24763,3 +24763,6 @@
 ## [2026-09-13 02:31 UTC] sell | [FULL][LLM] $SPOONMAN at $4.33784e-06 | P&L: -100.0%
 - **Reasoning:** SPOONMAN up +11.9% on a tiny $711 pool (1% share = illiquid exit). Just opened this tick (held 0.0h) — locking the +12% gain while it's there, freeing slot for $mayhem which has fresher attention and bigger narrative. Better to rotate than sit on a thin pool.
 
+## [2026-09-13 02:32 UTC] buy | [LLM] $ADAMITY at $3.089e-06, spent 0.05 SOL
+- **Reasoning:** $ADAMITY is the only candidate with a real attention signal (project-style twitter @adamityproject) — others have no description or twitter. Sub-$3k mcap with bond 4% means ultra-early and high-risk, but this is exactly the 'fresh attention' slot. 0.1 SOL ($10.23) position, hard stop at -25%.
+
