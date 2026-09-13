@@ -24547,3 +24547,6 @@
 ## [2026-09-13 00:34 UTC] buy | [LLM] $dollar at $1.92972e-06, spent 0.05 SOL
 - **Reasoning:** $dollar passes viability gate (twitter present from @keemotrades, desc short but liquidity ≥$3k clears it) and fragility gate (no banned keywords). At 0.6min old with ~$19k mcap and bonding curve only 35% complete, this is textbook fresh-launch territory: cute animal narrative (dog in collar) + KOL tweet already attached = real attention signal. Room for the curve to run. Autoplay: many peer tokens (Unstable, BING BONG, BLAZE, LESBIAN, APEONFONE) fail the auto-gates, leaving a cleaner shortlist.
 
+## [2026-09-13 00:36 UTC] sell | [FULL][LLM] $dollar at $1.75039e-06 | P&L: -9.3%
+- **Reasoning:** $dollar is down -9.3% just minutes after entry with no bounce signal and tiny $469 pool — weak liquidity + negative momentum = exit before it bleeds further. Cut the loss, free the slot.
+

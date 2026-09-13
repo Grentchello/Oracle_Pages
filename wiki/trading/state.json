@@ -1,37 +1,8 @@
 {
-  "balance_sol": 31.008151,
+  "balance_sol": 31.053558,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CAnxPCqDXT7of3oYbnDkuDvfLkDnkCwPBEAzFEPCpump": {
-      "symbol": "dollar",
-      "name": "dog in collar",
-      "mint": "CAnxPCqDXT7of3oYbnDkuDvfLkDnkCwPBEAzFEPCpump",
-      "amount": 2631214.7364898203,
-      "entry_price_usd": 1.9297170731012453e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T00:34:53.016625+00:00",
-      "entry_time_iso": "2026-09-13T00:34:53.016634+00:00",
-      "entry_usd_value": 5.077500000000001,
-      "last_seen_price_usd": 1.9297170731012453e-06,
-      "entry_liquidity_usd": 458.97657446579996,
-      "entry_pool_sol": 4.519710236,
-      "entry_market_cap_usd": 19002.629966531218,
-      "entry_signals": {
-        "liquidity_usd": 458.97657446579996,
-        "volume_24h_usd": null,
-        "market_cap_usd": 19002.629966531218,
-        "ath_market_cap_usd": 22686.387576625886,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.519710236,
-        "description": "",
-        "twitter": "https://x.com/keemotrades/status/2098933100130484517",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61173,19 +61144,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 77.243331,
       "partial": false
+    },
+    {
+      "mint": "CAnxPCqDXT7of3oYbnDkuDvfLkDnkCwPBEAzFEPCpump",
+      "symbol": "dollar",
+      "name": "dog in collar",
+      "amount_sold": 2631214.7364898203,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T00:34:53.016625+00:00",
+      "entry_time_iso": "2026-09-13T00:34:53.016634+00:00",
+      "exit_time": "2026-09-13T00:36:09.930655+00:00",
+      "exit_time_iso": "2026-09-13T00:36:09.930658+00:00",
+      "entry_price_usd": 1.9297170731012453e-06,
+      "exit_price_usd": 1.7503895421903014e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.045407,
+      "pnl_sol": -0.004593,
+      "pnl_pct": -9.29,
+      "exit_reason": "LLM: sell_all — $dollar is down -9.3% just minutes after entry with no bounce signal and tiny $469 pool — weak liquidity + negative momentum = exit before it bleeds f",
+      "entry_liquidity_usd": 458.98,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 4.5197,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 76.914045,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-13T00:34:53.016908+00:00",
+  "last_updated": "2026-09-13T00:36:09.930975+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.55,
-  "portfolio_value_usd": 3153.96,
+  "last_sol_price_usd": 101.43,
+  "portfolio_value_usd": 3149.76,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:04 UTC",
-      "action": "buy",
-      "details": "[LLM] $GOAT at $4.183e-06, spent 0.05 SOL",
-      "reason": "$GOAT — 'Greatest Of All Time' goat narrative has strong meme pedigree, fresh sub-1min launch with Twitter link attached (real attention, not just bots), and $4.6k mcap gives multi-x runway if it sticks. Best risk/reward of the batch."
-    },
     {
       "time": "2026-09-13 00:05 UTC",
       "action": "sell",
@@ -61299,30 +61288,48 @@
       "action": "buy",
       "details": "[LLM] $dollar at $1.92972e-06, spent 0.05 SOL",
       "reason": "$dollar passes viability gate (twitter present from @keemotrades, desc short but liquidity ≥$3k clears it) and fragility gate (no banned keywords). At 0.6min old with ~$19k mcap and bonding curve only 35% complete, this is textbook fresh-launch territory: cute animal narrative (dog in collar) + KOL tweet already attached = real attention signal. Room for the curve to run. Autoplay: many peer tokens (Unstable, BING BONG, BLAZE, LESBIAN, APEONFONE) fail the auto-gates, leaving a cleaner shortlist."
+    },
+    {
+      "time": "2026-09-13 00:36 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $dollar at $1.75039e-06 | P&L: -9.3%",
+      "reason": "$dollar is down -9.3% just minutes after entry with no bounce signal and tiny $469 pool — weak liquidity + negative momentum = exit before it bleeds further. Cut the loss, free the slot."
     }
   ],
   "trade_stats": {
-    "total": 3466,
+    "total": 3467,
     "wins": 1606,
-    "losses": 1860,
+    "losses": 1861,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 26.841991,
-    "avg_pnl_pct": 38.83,
+    "total_pnl_sol": 26.837398,
+    "avg_pnl_pct": 38.82,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 13,
-    "today_realized_sol": 1.460197,
-    "today_target_pct": 365.0,
+    "today_trades": 14,
+    "today_realized_sol": 1.455604,
+    "today_target_pct": 363.9,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1606,
-      "loss_count": 1860,
+      "loss_count": 1861,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:34:51.718034+00:00",
+  "last_llm_brief_at": "2026-09-13T00:36:09.930607+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CAnxPCqDXT7of3oYbnDkuDvfLkDnkCwPBEAzFEPCpump": {
+      "price_usd": 1.7503895421903014e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 468.89531339490003,
+      "volume_h24": 30865.5,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4.62284643
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
