@@ -24796,3 +24796,6 @@
 ## [2026-09-13 02:48 UTC] buy | [LLM] $S&P 500 at $3.445e-06, spent 0.05 SOL
 - **Reasoning:** $S&P 500 (Sock & Pussy 500) has a viral, attention-grabbing name riffing on a top financial index — pure meme energy. Posted by Andrew Chen (notable crypto/tech figure), so there is a real attention signal beyond just the ticker. At $4k mcap with bonding curve barely started, this has the shape of a pumpfun runner if the X post catches. Position size 0.1 SOL as allowed.
 
+## [2026-09-13 02:49 UTC] sell | [PARTIAL][LLM] $S&P 500 at $4.07952e-06 | P&L: -100.0%
+- **Reasoning:** Up +18.4% on a $598 pool with 1% share — liquidity is razor-thin and any further gain could reverse fast on the bonding curve. Lock half the profit, let the rest ride the narrative; if it stalls, exit on the next stale flag.
+
