@@ -24811,3 +24811,6 @@
 ## [2026-09-13 02:53 UTC] sell | [FULL][LLM] $GORG at $3.74786e-06 | P&L: -100.0%
 - **Reasoning:** GORG at +28.5% is sitting right at the auto-TP threshold (bot takes +25%/+30% soon). Lock the gain now and free the slot — bag-holding one more tick hoping for +50% is exactly how +28% gains turn into breakeven. Realized profit > unrealized hope.
 
+## [2026-09-13 03:00 UTC] buy | [LLM] $PUMPEPE at $3.4803e-06, spent 0.05 SOL
+- **Reasoning:** $PUMPEPE = PEPE+PUMP compound meme name, classic attention bait. 0.5min old, bond 9% (most progressed of the batch), mcap $3.5k. PEPE family has proven meme IP and viral recognition. Not on celebrity/political blocklist so passes fragility gate. Entering 0.05 SOL ($5) — small size lets me test the thesis without risking the 0.34 SOL bankroll. Other three tokens ($DTC, $Ansem, $LOOP) have weaker narratives ($Ansem risks fragility flag on celebrity name; $DTC and $LOOP are generic tickers with no story).
+
