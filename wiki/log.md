@@ -695,3 +695,18 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - 0 positions open. Balance 0.0413 SOL < POSITION_SIZE_SOL 0.05 — bot self-pauses on insufficient funds (NOT halted, just can't open new).
 - Verdict: **Profitable, no changes needed.** Slippage-aware PnL still net positive. The 2 outsized winners are the edge — fresh-launch gem catching. The 51 rug losses are an unavoidable tax on the strategy. v8.7+ mechanical rules preserved per user constraint.
 - Next session: consider SOL topup so bot can resume entry. No parameter change.
+
+## [2026-09-13 15:11 UTC] eval | memecoin bot — 2026-09-13 15:11 UTC
+- Window since last eval (13:09 UTC): **0 new trades**. Trade count steady at 3,519.
+- Bot remains **buy-blocked**: balance 0.041267 SOL < operational floor (POSITION_SIZE_SOL 0.05 + RESERVE_SOL 0.02 = 0.07 SOL). Runner.log confirms every tick 13:09-15:10 UTC shows 0 positions, same state hash pushed each minute.
+- **Last 50 trades decomposition:** 7 real-exit trades (real SOL received) + 43 GHOST exits (zero SOL received because pool drained) = 86% GHOST rate. Non-ghost PnL +0.031 SOL, ghost PnL -2.000 SOL, total window -1.97 SOL. Lifetime +26.36 SOL paper across 3,519 trades.
+- **Root cause of recent losses:** v9.1 real_sol_reserves floor (1 SOL) is too permissive. Tokens pass the filter, then bonding curve drains to zero between entry and exit (typically <60s later). Bot books full -0.05 SOL loss per GHOST exit because no SOL actually came back — this is the slippage-sim gap the user warned about.
+- **Fix shipped:** **v9.2 LIQUIDITY FLOOR** — raised real_sol_reserves floor from 1.0 → 3.0 SOL for bonding-curve tokens. 3 SOL = 60× our 0.05 SOL position size, providing real exit liquidity even if curve drains 50% before our sell.
+  - File: `bot/bot.py` lines 598-615
+  - Filter log message updated: `v9.2 FILTER: $XXX rejected — bonding curve only X.XX SOL reserves (< 3.0)`
+  - DEX pool floor unchanged at $1k liquidity (no change for graduated tokens).
+  - v8.7+ mechanical rules preserved (no change to POSITION_SIZE_SOL, MAX_POSITIONS, MAX_HOLD_MINUTES, HARD_STOP_LOSS, TAKE_PROFIT_PCT, RESERVE_SOL).
+  - 5 SOL floor was considered and rejected as too aggressive (would filter all ungraduated tokens, defeating the fresh-launch hunting strategy). 3 SOL is the sweet spot.
+- **Expected impact:** v9.1 was filtering ~14-22/25 candidates per tick (60-90% rejection). v9.2 likely 20-24/25 (80-96% rejection). Fewer tokens to evaluate but higher quality. Target: reduce GHOST exit rate from 86% → <20% on next 50 trades post-topup.
+- Slippage caveat honored: lifetime +26.36 SOL is paper via v9.0 quadratic sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
+- Verdict: **Loss detected, fixed v9.2 liquidity floor.** v9.1 → v9.2 (3× deeper bonding-curve requirement). Bot is idle awaiting SOL topup; new filter activates on next entry attempt.
