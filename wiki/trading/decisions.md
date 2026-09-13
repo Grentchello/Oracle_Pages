@@ -24550,3 +24550,6 @@
 ## [2026-09-13 00:36 UTC] sell | [FULL][LLM] $dollar at $1.75039e-06 | P&L: -9.3%
 - **Reasoning:** $dollar is down -9.3% just minutes after entry with no bounce signal and tiny $469 pool — weak liquidity + negative momentum = exit before it bleeds further. Cut the loss, free the slot.
 
+## [2026-09-13 00:37 UTC] buy | [LLM] $GUPS at $3.355e-06, spent 0.05 SOL
+- **Reasoning:** $GUPS (MoreGups) has a real narrative — AI/GPU decentralization, story-driven description with vision, very fresh ($3.3k mcap, 0.5min old, bond only 7%). Highest attention-to-mcap asymmetry in the slate.
+
