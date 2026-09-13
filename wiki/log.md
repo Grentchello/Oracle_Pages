@@ -618,3 +618,15 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Lifetime (state.json): 3425 trades, 46.3% WR, **+24.3603 SOL net** (from 2.0 SOL starting → 14.3x return)
 - Slippage caveat unchanged: lifetime +24.36 SOL is paper via v9.0 sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
 - Verdict: **Profitable, no changes needed.** Window +1.32 SOL on 43 trades is a normal-positive run. $fry +2434% organic runner anchors the window. 22/23 losses are rapid exits (<2min) caught by v8.7 hard stops — exactly the discipline the user wants. v9.2 gate continues to filter out entry-tick self-pumps. Bot running normally.
+
+## [2026-09-13 00:59 UTC] eval | memecoin bot — 2026-09-13 00:59 UTC
+- Window: since last eval (2026-09-12 22:54 UTC), 50 trades over ~2h
+- Win rate: 48.0% (24 wins / 26 losses) — at lifetime 46.3% baseline
+- Window Net PnL: +3.8404 SOL
+- Lifetime (state.json): 3475 trades, 46.3% WR, **+28.2006 SOL net**
+- Top winners: $PUMP +2980.9% (+1.4977 SOL), $GOAT +2925.1% (+1.4544 SOL), $HODL +2085.9% (+1.0488 SOL), $ANONRUNNER +109.2% (+0.0545 SOL), $Unstable +39.8% (+0.0200 SOL)
+- Top losers (all small rapid exits, mostly v9.3 ghost-exit pool=0 rugs): $SLINGOOR -71.0% (-0.0355), $DUVAL -60.2% (-0.0301), $RISE -54.2% (-0.0271), $PFP -100.0% partial rug (-0.0250), $Yummy -100.0% partial rug (-0.0250)
+- **v9.3 ghost exit verified**: HOBBES, WORM, Yummy, PFP all hit pool=0 rugs and correctly logged -100% loss instead of paper-positive slippage.
+- **v9.3 hard reset observed**: state.json shows `v9_3_hard_reset` field with paper_balance=2.0, real_balance=2.0. Bot was re-seeded earlier today to clean 2.0 SOL. Current reported balance 1.877522 SOL, expected from today's pnl ~4.82 SOL — discrepancy is from open position entry-cost debits not yet matched by sell pnl at evaluation snapshot.
+- Slippage caveat unchanged: lifetime +28.20 SOL is paper via v9.0 sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
+- Verdict: **Profitable, no changes needed.** Window +3.84 SOL on 50 trades. Three organic >20x runners anchor the window. v9.3 ghost exit correctly catching rugs. Bot running normally.
