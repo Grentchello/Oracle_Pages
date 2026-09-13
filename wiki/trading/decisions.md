@@ -24694,3 +24694,6 @@
 ## [2026-09-13 01:41 UTC] buy | [LLM] $ANSEM at $3.092e-06, spent 0.05 SOL
 - **Reasoning:** BABYBULL named after Ansem — a well-known CT memecoin influencer with massive following. $3.1k mcap with classic named-trader attention setup. Pre-bonding means asymmetric upside (potential 10x) vs $5 risk. Low liquidity but a small position keeps me within the 5x liquidity rule.
 
+## [2026-09-13 01:43 UTC] sell | [FULL][LLM] $ANSEM at $3.46796e-06 | P&L: -100.0%
+- **Reasoning:** Up 12.2% with only 0.0h held on a $317 pool. Selling on this thin pool would crater price via my own slippage; holding lets the bot's +30% auto-TP at 25% capture more if it runs, while -25% hard stop protects downside.
+

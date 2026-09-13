@@ -2,36 +2,7 @@
   "balance_sol": 1.118655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "6jzeZ4CmRdmtc9xSDwHnBM7NexqrtmQgNQjSrRgBpump": {
-      "symbol": "ANSEM",
-      "name": "BABYBULL",
-      "mint": "6jzeZ4CmRdmtc9xSDwHnBM7NexqrtmQgNQjSrRgBpump",
-      "amount": 1647153.9456662354,
-      "entry_price_usd": 3.092e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T01:41:18.329815+00:00",
-      "entry_time_iso": "2026-09-13T01:41:18.329824+00:00",
-      "entry_usd_value": 5.093,
-      "last_seen_price_usd": 3.092e-06,
-      "entry_liquidity_usd": 137.88287364566,
-      "entry_pool_sol": 1.353650831,
-      "entry_market_cap_usd": 3089.7473593210657,
-      "entry_signals": {
-        "liquidity_usd": 137.88287364566,
-        "volume_24h_usd": 168.91,
-        "market_cap_usd": 3089.7473593210657,
-        "ath_market_cap_usd": 3104.731074283516,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.353650831,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61816,19 +61787,38 @@
       "hold_duration_seconds": 64.350899,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "6jzeZ4CmRdmtc9xSDwHnBM7NexqrtmQgNQjSrRgBpump",
+      "symbol": "ANSEM",
+      "name": "BABYBULL",
+      "amount_sold": 1647153.9456662354,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T01:41:18.329815+00:00",
+      "entry_time_iso": "2026-09-13T01:41:18.329824+00:00",
+      "exit_time": "2026-09-13T01:43:00.408298+00:00",
+      "exit_time_iso": "2026-09-13T01:43:00.408304+00:00",
+      "entry_price_usd": 3.092e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — Up 12.2% with only 0.0h held on a $317 pool. Selling on this thin pool would crater price via my own slippage; holding lets the bot's  — no real exit liquidity",
+      "entry_liquidity_usd": 137.88287364566,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.353650831,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 102.078503,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T01:41:18.330002+00:00",
+  "last_updated": "2026-09-13T01:43:00.409752+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.86,
-  "portfolio_value_usd": 119.04,
+  "last_sol_price_usd": 101.82,
+  "portfolio_value_usd": 113.9,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:16 UTC",
-      "action": "buy",
-      "details": "[LLM] $LioraLLM at $1.343e-05, spent 0.05 SOL",
-      "reason": "$LioraLLM is the cleanest narrative play of the batch — AI-trading-agent meta is hot, twitter account is live and posting, 36% bond (deepest conviction among candidates), and $15.6k mcap has 10x room before it hits any meaningful ceiling. Position sized at 0.05 SOL per v7 rules; plan to take profit at +50% and exit if it goes stale past 30 min flat."
-    },
     {
       "time": "2026-09-13 01:17 UTC",
       "action": "sell",
@@ -61942,30 +61932,48 @@
       "action": "buy",
       "details": "[LLM] $ANSEM at $3.092e-06, spent 0.05 SOL",
       "reason": "BABYBULL named after Ansem — a well-known CT memecoin influencer with massive following. $3.1k mcap with classic named-trader attention setup. Pre-bonding means asymmetric upside (potential 10x) vs $5 risk. Low liquidity but a small position keeps me within the 5x liquidity rule."
+    },
+    {
+      "time": "2026-09-13 01:43 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $ANSEM at $3.46796e-06 | P&L: -100.0%",
+      "reason": "Up 12.2% with only 0.0h held on a $317 pool. Selling on this thin pool would crater price via my own slippage; holding lets the bot's +30% auto-TP at 25% capture more if it runs, while -25% hard stop protects downside."
     }
   ],
   "trade_stats": {
-    "total": 3492,
+    "total": 3493,
     "wins": 1609,
-    "losses": 1883,
+    "losses": 1884,
     "win_rate_pct": 46.1,
-    "total_pnl_sol": 27.491772,
-    "avg_pnl_pct": 38.86,
+    "total_pnl_sol": 27.441772,
+    "avg_pnl_pct": 38.82,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 39,
-    "today_realized_sol": 2.109978,
-    "today_target_pct": 527.5,
+    "today_trades": 40,
+    "today_realized_sol": 2.059978,
+    "today_target_pct": 515.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1883,
+      "loss_count": 1884,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T01:41:16.956702+00:00",
+  "last_llm_brief_at": "2026-09-13T01:43:00.408078+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "6jzeZ4CmRdmtc9xSDwHnBM7NexqrtmQgNQjSrRgBpump": {
+      "price_usd": 3.467962805318853e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 316.83080154822,
+      "volume_h24": 169.67,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.111675521
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
