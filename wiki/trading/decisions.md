@@ -24598,3 +24598,9 @@
 ## [2026-09-13 01:00 UTC] buy | [LLM] $MUTUMBO at $1.13424e-05, spent 0.05 SOL
 - **Reasoning:** $MUTUMBO — Dikembe Mutombo narrative is recognizable, the X account blknoiz06 is associated with notable launches, mcap $18.7k is entry-zone, bond only 34% means plenty of room to ride the curve. Viability passes (twitter link + narrative), name carries viral potential. Risk: 34% bond with low mcap = thin liquidity and rug-prone, but that's the memecoin game at this stage.
 
+## [2026-09-13 01:01 UTC] sell | [rapid-drop] $MUTUMBO crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-13 01:02 UTC] buy | [LLM] $🐂🀄 at $5.52618e-06, spent 0.05 SOL
+- **Reasoning:** Ansem Army directly references Ansem, one of the largest memecoin CT influencers with 200k+ followers. Naming a token after his 'army' is a built-in viral narrative with a ready-made audience. Bond24% is highest of the batch, indicating early traction.
+
