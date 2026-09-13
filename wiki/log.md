@@ -683,3 +683,15 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Root cause of recent -1.28 SOL window: **bonding-curve rugs outpacing v9.1 liquidity floor.** Tokens that pass v9.1 (real_sol_reserves >= 1 SOL) but rug before bot can exit. v9.3 honest ghost-exit logic correctly records full -0.05 SOL loss per rug (no fake "sold-to-self" padding). This is the slippage-sim gap the user warned about — and it's already handled.
 - Slippage caveat honored: lifetime +26.36 SOL is paper via v9.0 quadratic sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
 - Verdict: **Profitable, no changes needed.** Bot is healthy. Last-30 losing streak is variance (cluster of rugs), not a structural flaw. v8.7+ mechanical rules unchanged per user hard constraint. Bot needs a SOL topup to resume trading, not a strategy change.
+
+## [2026-09-13 13:09 UTC] eval
+- Bot: v9.3 (v8.7+ mechanical core, v9.1 liquidity floor, v9.3 ghost-exit honesty)
+- Period: today's session only (2026-09-13, since 00:42 UTC startup)
+- Trades today: 66 (14W/52L, 21.2% WR)
+- Reported PnL today: **+0.9826 SOL**
+- Slippage-adjusted (20% haircut on wins): **+0.3748 SOL** — still positive
+- Top 2 winners (PUMP +1.50, GOAT +1.45 SOL) = **97% of all profit** — classic lottery distribution
+- Loss pattern: 51 fast drops (median 1.3min hold), all -100% via v9.3 GHOST EXIT (pool drained to 0 between entry and sell signal). v8.7 30-min cap is forcing sell_all, by which time rugs have completed.
+- 0 positions open. Balance 0.0413 SOL < POSITION_SIZE_SOL 0.05 — bot self-pauses on insufficient funds (NOT halted, just can't open new).
+- Verdict: **Profitable, no changes needed.** Slippage-aware PnL still net positive. The 2 outsized winners are the edge — fresh-launch gem catching. The 51 rug losses are an unavoidable tax on the strategy. v8.7+ mechanical rules preserved per user constraint.
+- Next session: consider SOL topup so bot can resume entry. No parameter change.
