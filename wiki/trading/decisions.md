@@ -24553,3 +24553,6 @@
 ## [2026-09-13 00:37 UTC] buy | [LLM] $GUPS at $3.355e-06, spent 0.05 SOL
 - **Reasoning:** $GUPS (MoreGups) has a real narrative — AI/GPU decentralization, story-driven description with vision, very fresh ($3.3k mcap, 0.5min old, bond only 7%). Highest attention-to-mcap asymmetry in the slate.
 
+## [2026-09-13 00:38 UTC] sell | [FULL][LLM] $GUPS at $3.23425e-06 | P&L: -3.6%
+- **Reasoning:** Just opened (0.0h held), only -3.6% which is within noise for a $202 pool bonding-curve token. Give it a few minutes to develop — if it doesn't show signs of life on next tick I'll rotate into a fresher narrative.
+
