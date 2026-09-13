@@ -24643,3 +24643,6 @@
 ## [2026-09-13 01:20 UTC] buy | [LLM] $Penis at $6.25114e-07, spent 0.05 SOL
 - **Reasoning:** $Penis is a 0.7min-old launch with a Clowntrenches tweet attached — that CT account consistently surfaces viral attention plays, and the provocative name guarantees engagement. Passes viability (twitter present), not on fragility blocklist. 0.1 SOL risk with -25% hard stop.
 
+## [2026-09-13 01:21 UTC] sell | [PARTIAL][LLM] $Penis at $8.62356e-07 | P&L: -100.0%
+- **Reasoning:** Up +38% already past the +30% threshold zone and well above the 20% profit-taking trigger. Lock half the gain now — bonding-curve microcap with 3% of pool, give back risk is real. Let the runner ride free.
+
