@@ -24628,3 +24628,6 @@
 ## [2026-09-13 01:13 UTC] buy | [LLM] $SHS at $3.446e-06, spent 0.05 SOL
 - **Reasoning:** $SHS 'Should have sold' is peak trader meta-humor — exactly the kind of self-deprecating copium that goes viral on Crypto Twitter. 1.2min old, $3.5k mcap, bond 9% means very early with room to run. Name is the entire narrative and it travels. Risk: ultra-low mcap means rug risk is real, but viability gate clears it and ME2F will catch fragility at execution.
 
+## [2026-09-13 01:15 UTC] sell | [PARTIAL][LLM] $SHS at $4.02292e-06 | P&L: -100.0%
+- **Reasoning:** Up +16.7% on a $570 pool where I'm 1% of liquidity — half-exit locks ~$0.40 profit, frees capital for fresher attention ($HODLERS just dropped with twitter backing), and reduces my impact on this thin pool. Below +25% TP so I have discretion; not letting a +16% gain round-trip to zero while capital sits idle.
+
