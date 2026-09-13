@@ -24676,3 +24676,6 @@
 ## [2026-09-13 01:33 UTC] buy | [LLM] $YSIWA at $3.44266e-06, spent 0.05 SOL
 - **Reasoning:** 'You Said It Was Alpha' is pure memecoin meta-narrative — it's a name that calls out alpha hunters themselves, which is the exact audience that pumps these. $3.4k mcap, just launched, viral potential if the right CT account picks it up. Classic attention-market play. Size 0.1 SOL.
 
+## [2026-09-13 01:34 UTC] sell | [FULL][LLM] $YSIWA at $3.45919e-06 | P&L: -100.0%
+- **Reasoning:** Just entered0.0h ago at +0.5%, essentially flat. No reason to bail yet — give it a few minutes to develop. Bonding curve pool is thin at $305 though, so this is fragile; any pop I should take fast.
+
