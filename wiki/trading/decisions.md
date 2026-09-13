@@ -24703,3 +24703,6 @@
 ## [2026-09-13 01:53 UTC] buy | [LLM] $OpenPerps at $1.19402e-05, spent 0.05 SOL
 - **Reasoning:** Only candidate passing viability gate. Meta-narrative (permissionless perps for any Solana token) riding the perp meta, live twitter, $12k mcap at <1min = fresh attention window. Risk: bond 34% incomplete, expect dump pressure — but that's why entries are small.
 
+## [2026-09-13 01:54 UTC] sell | [rapid-drop] $OpenPerps crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
