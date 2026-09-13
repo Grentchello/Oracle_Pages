@@ -24847,3 +24847,6 @@
 ## [2026-09-13 03:16 UTC] sell | [rapid-drop] $TRENDS crashed >15% in one tick | P&L: -100.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-13 04:45 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
