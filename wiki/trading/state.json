@@ -2,36 +2,7 @@
   "balance_sol": 1.677522,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8rE46UpMzBLBiJhi6jYUUEmUvoLo5k16mNphwcDipump": {
-      "symbol": "KOL",
-      "name": "Kol Market",
-      "mint": "8rE46UpMzBLBiJhi6jYUUEmUvoLo5k16mNphwcDipump",
-      "amount": 1112423.4470691166,
-      "entry_price_usd": 4.572e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T01:08:29.533412+00:00",
-      "entry_time_iso": "2026-09-13T01:08:29.533422+00:00",
-      "entry_usd_value": 5.086,
-      "last_seen_price_usd": 4.572e-06,
-      "entry_liquidity_usd": 1311.40474033512,
-      "entry_pool_sol": 12.892299846,
-      "entry_market_cap_usd": 4849.8744020485765,
-      "entry_signals": {
-        "liquidity_usd": 1311.40474033512,
-        "volume_24h_usd": 1278.24,
-        "market_cap_usd": 4849.8744020485765,
-        "ath_market_cap_usd": 5188.291370506391,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 12.892299846,
-        "description": "Start creating for your favorite coins today.",
-        "twitter": "https://x.com/kolmarketxyz_/status/2098941382777815539",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61468,19 +61439,38 @@
       "hold_duration_seconds": 63.971437,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "8rE46UpMzBLBiJhi6jYUUEmUvoLo5k16mNphwcDipump",
+      "symbol": "KOL",
+      "name": "Kol Market",
+      "amount_sold": 1112423.4470691166,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T01:08:29.533412+00:00",
+      "entry_time_iso": "2026-09-13T01:08:29.533422+00:00",
+      "exit_time": "2026-09-13T01:09:47.214104+00:00",
+      "exit_time_iso": "2026-09-13T01:09:47.214111+00:00",
+      "entry_price_usd": 4.572e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — Up +5.1% in first minutes, still on bonding curve with pool only $914. Wait for either TP trigger or clearer momentum. Not stale yet ( — no real exit liquidity",
+      "entry_liquidity_usd": 1311.40474033512,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 12.892299846,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 77.680712,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T01:08:29.533684+00:00",
+  "last_updated": "2026-09-13T01:09:47.214430+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.72,
-  "portfolio_value_usd": 175.72,
+  "last_sol_price_usd": 101.8,
+  "portfolio_value_usd": 170.77,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:40 UTC",
-      "action": "buy",
-      "details": "[LLM] $PUMP at $4.343e-06, spent 0.05 SOL",
-      "reason": "$PUMP: meta-memecoin name ('Pump Coin') that thematically aligns with pump.fun culture. Tweet from @ramentrade (known Solana trader with real audience) is a concrete attention signal, not just speculation. Ultra-fresh (1.3min, bond 10%), mcap $4.4k — pure early-discovery play. Risk: bond barely started, any rug/pull = total loss. Size 0.05 SOL."
-    },
     {
       "time": "2026-09-13 00:41 UTC",
       "action": "sell",
@@ -61594,30 +61584,48 @@
       "action": "buy",
       "details": "[LLM] $KOL at $4.572e-06, spent 0.05 SOL",
       "reason": "$KOL has a clear platform narrative (Kol Market — KOL = key opinion leader meta), live twitter link, ultra-fresh at 0.8min/$4.8k mcap. Sub-$5k mcap with active X attention is the exact asymmetric setup the prompt is asking for. 0.05 SOL position."
+    },
+    {
+      "time": "2026-09-13 01:09 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $KOL at $4.80512e-06 | P&L: -100.0%",
+      "reason": "Up +5.1% in first minutes, still on bonding curve with pool only $914. Wait for either TP trigger or clearer momentum. Not stale yet (held 0.0h), not at -20% stop."
     }
   ],
   "trade_stats": {
-    "total": 3478,
+    "total": 3479,
     "wins": 1609,
-    "losses": 1869,
-    "win_rate_pct": 46.3,
-    "total_pnl_sol": 28.050639,
-    "avg_pnl_pct": 39.37,
+    "losses": 1870,
+    "win_rate_pct": 46.2,
+    "total_pnl_sol": 28.000639,
+    "avg_pnl_pct": 39.33,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 25,
-    "today_realized_sol": 2.668845,
-    "today_target_pct": 667.2,
+    "today_trades": 26,
+    "today_realized_sol": 2.618845,
+    "today_target_pct": 654.7,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1869,
+      "loss_count": 1870,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T01:08:28.050628+00:00",
+  "last_llm_brief_at": "2026-09-13T01:09:47.213207+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "8rE46UpMzBLBiJhi6jYUUEmUvoLo5k16mNphwcDipump": {
+      "price_usd": 4.805122008615272e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 914.1363588568,
+      "volume_h24": 2143.48,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 8.979728476
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
