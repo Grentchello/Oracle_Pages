@@ -24682,3 +24682,9 @@
 ## [2026-09-13 01:37 UTC] buy | [LLM] $OG at $0.000469914, spent 0.05 SOL
 - **Reasoning:** $OG — 'you know where all this started' is a classic OG meta-narrative that memecoin traders love. Fresh 1.6min, $3.9k mcap = pre-pump. Low bond (2%) but on-curve entry. Small 0.05 SOL scout.
 
+## [2026-09-13 01:38 UTC] sell | [FULL][LLM] $OG at $0.000452271 | P&L: -100.0%
+- **Reasoning:** Held 0.0h at -3.8% with no momentum signal; our share of 2.4B% means we're sitting on a bonding-curve allocation that hasn't moved, free up the slot for fresh launches with active attention.
+
+## [2026-09-13 01:38 UTC] buy | [LLM] $EPIC at $0.00116254, spent 0.05 SOL
+- **Reasoning:** $EPIC narrative (private internet cash) is on-trend with privacy meta, 1.1min old, bonding 14% with growing attention from @folkonchain; small mcap $6k with early story momentum fits the 5x-in-hours thesis.
+
