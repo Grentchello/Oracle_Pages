@@ -24670,3 +24670,9 @@
 ## [2026-09-13 01:32 UTC] buy | [LLM] $clavicul at $3.402e-06, spent 0.05 SOL
 - **Reasoning:** $clavicul is a brand-new launch (1 min old, $3.9k mcap) with a narrative hook — 'claviculars dog' ties into the dog-coin meta which has historical viral legs (BONK, WIF, dogwifhat). Community twitter link attached suggests attention infrastructure already exists. Low mcap = max upside if narrative catches. Risk: 1 min old means bond only 13% complete, needs volume to graduate. Viability: desc≥50? unclear from data, but liquidity/growth curve at this mcap is the real signal.
 
+## [2026-09-13 01:33 UTC] sell | [rapid-drop] $clavicul crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-13 01:33 UTC] buy | [LLM] $YSIWA at $3.44266e-06, spent 0.05 SOL
+- **Reasoning:** 'You Said It Was Alpha' is pure memecoin meta-narrative — it's a name that calls out alpha hunters themselves, which is the exact audience that pumps these. $3.4k mcap, just launched, viral potential if the right CT account picks it up. Classic attention-market play. Size 0.1 SOL.
+
