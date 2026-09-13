@@ -1,8 +1,37 @@
 {
-  "balance_sol": 31.058151,
+  "balance_sol": 31.008151,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "CAnxPCqDXT7of3oYbnDkuDvfLkDnkCwPBEAzFEPCpump": {
+      "symbol": "dollar",
+      "name": "dog in collar",
+      "mint": "CAnxPCqDXT7of3oYbnDkuDvfLkDnkCwPBEAzFEPCpump",
+      "amount": 2631214.7364898203,
+      "entry_price_usd": 1.9297170731012453e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-13T00:34:53.016625+00:00",
+      "entry_time_iso": "2026-09-13T00:34:53.016634+00:00",
+      "entry_usd_value": 5.077500000000001,
+      "last_seen_price_usd": 1.9297170731012453e-06,
+      "entry_liquidity_usd": 458.97657446579996,
+      "entry_pool_sol": 4.519710236,
+      "entry_market_cap_usd": 19002.629966531218,
+      "entry_signals": {
+        "liquidity_usd": 458.97657446579996,
+        "volume_24h_usd": null,
+        "market_cap_usd": 19002.629966531218,
+        "ath_market_cap_usd": 22686.387576625886,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 4.519710236,
+        "description": "",
+        "twitter": "https://x.com/keemotrades/status/2098933100130484517",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61146,17 +61175,11 @@
       "partial": false
     }
   ],
-  "last_updated": "2026-09-13T00:33:27.008526+00:00",
+  "last_updated": "2026-09-13T00:34:53.016908+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.1,
-  "portfolio_value_usd": 3171.04,
+  "last_sol_price_usd": 101.55,
+  "portfolio_value_usd": 3153.96,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:04 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $SLINGOOR crashed >15% in one tick | P&L: -71.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-13 00:04 UTC",
       "action": "buy",
@@ -61270,6 +61293,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $LEXAPRO at $3.42485e-06 | P&L: -7.5%",
       "reason": "$LEXAPRO is only down 7.5% after 0h, well within tolerance. Pool is thin ($300) but the position is fresh and no clear exit signal yet — give it a few minutes to develop."
+    },
+    {
+      "time": "2026-09-13 00:34 UTC",
+      "action": "buy",
+      "details": "[LLM] $dollar at $1.92972e-06, spent 0.05 SOL",
+      "reason": "$dollar passes viability gate (twitter present from @keemotrades, desc short but liquidity ≥$3k clears it) and fragility gate (no banned keywords). At 0.6min old with ~$19k mcap and bonding curve only 35% complete, this is textbook fresh-launch territory: cute animal narrative (dog in collar) + KOL tweet already attached = real attention signal. Room for the curve to run. Autoplay: many peer tokens (Unstable, BING BONG, BLAZE, LESBIAN, APEONFONE) fail the auto-gates, leaving a cleaner shortlist."
     }
   ],
   "trade_stats": {
@@ -61291,7 +61320,7 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:33:27.008472+00:00",
+  "last_llm_brief_at": "2026-09-13T00:34:51.718034+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
