@@ -24520,3 +24520,6 @@
 ## [2026-09-13 00:19 UTC] sell | [FULL][LLM] $CHILLHOUSE at $0.000298926 | P&L: +0.1%
 - **Reasoning:** Just entered this tick at +0.1%, no momentum yet. Bonding curve still active at27% complete — give it a few minutes to develop before deciding.
 
+## [2026-09-13 00:21 UTC] buy | [LLM] $SlinkyZ at $3.354e-06, spent 0.05 SOL
+- **Reasoning:** $SlinkyZ: $3.3k mcap, <1min old, has twitter, explicit 'no bundles' trust signal, meme-ready 'angriest slinky' image. Slinky memes travel well on attention markets. $5 risk, standard scalp.
+
