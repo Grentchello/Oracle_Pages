@@ -24568,3 +24568,6 @@
 ## [2026-09-13 00:42 UTC] buy | [LLM] $PFP at $0.000166738, spent 0.05 SOL
 - **Reasoning:** $PFP (Pumpfun Pill) — sub-1min launch with active twitter signal (X post from dedsec_sol), $6.2k mcap with viral pump-fun meme narrative. Fresh attention + early mcap = classic 10x territory. Passes viability (twitter present).
 
+## [2026-09-13 00:43 UTC] sell | [PARTIAL][LLM] $PFP at $0.000192644 | P&L: -100.0%
+- **Reasoning:** Up 15.5% almost immediately — this is the classic scalp window. Lock half the gain as required profit; let the rest ride for a bigger move. Bonding-curve token with thin liquidity ($43k pool) means the bag can give back gains fast.
+
