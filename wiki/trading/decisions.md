@@ -24838,3 +24838,9 @@
 ## [2026-09-13 03:13 UTC] buy | [LLM] $PUMPCHAN at $4.061e-06, spent 0.05 SOL
 - **Reasoning:** $PUMPCHAN is a meta-narrative play — 'Pump-chan' directly references the Pump.fun culture itself, which is exactly the kind of self-referential meme that trends on Crypto Twitter. Bonding curve only 18% with $5.8k mcap = extremely early, perfect for attention-momentum entry.
 
+## [2026-09-13 03:15 UTC] sell | [v8.7 TP +50% (full)] $PUMPCHAN at $0.000139199 | P&L: -100.0%
+- **Reasoning:** Auto take-profit at +3327.7%
+
+## [2026-09-13 03:15 UTC] buy | [LLM] $TRENDS at $7.114e-06, spent 0.05 SOL
+- **Reasoning:** $TRENDS has the strongest narrative-attention alignment: it's literally a token about going viral and launching tokens on-chain. Has Twitter, description >50 chars, liquidity likely adequate at $5k+ mcap. Meta-trade on attention markets. Risk: very fresh (1.1min), could be rugged, size is only 0.05 SOL.
+
