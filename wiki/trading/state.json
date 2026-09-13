@@ -2,36 +2,7 @@
   "balance_sol": 0.768655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "MbJaSh2NAtfd6eu4qLff1gpep3m3cainMAGB1Mrpump": {
-      "symbol": "SOLCHAN",
-      "name": "SOL-CHAN",
-      "mint": "MbJaSh2NAtfd6eu4qLff1gpep3m3cainMAGB1Mrpump",
-      "amount": 1337039.6442727265,
-      "entry_price_usd": 3.8140230335307956e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T02:13:08.904715+00:00",
-      "entry_time_iso": "2026-09-13T02:13:08.904724+00:00",
-      "entry_usd_value": 5.0995,
-      "last_seen_price_usd": 3.8140230335307956e-06,
-      "entry_liquidity_usd": 132.71106063599998,
-      "entry_pool_sol": 1.3012164,
-      "entry_market_cap_usd": 3818.5105594061138,
-      "entry_signals": {
-        "liquidity_usd": 132.71106063599998,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3818.5105594061138,
-        "ath_market_cap_usd": 4081.9734625047327,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.3012164,
-        "description": "",
-        "twitter": "https://x.com/ramentrade/status/2098957813070610654",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61991,19 +61962,38 @@
       "hold_duration_seconds": 77.612601,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "MbJaSh2NAtfd6eu4qLff1gpep3m3cainMAGB1Mrpump",
+      "symbol": "SOLCHAN",
+      "name": "SOL-CHAN",
+      "amount_sold": 1337039.6442727265,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T02:13:08.904715+00:00",
+      "entry_time_iso": "2026-09-13T02:13:08.904724+00:00",
+      "exit_time": "2026-09-13T02:14:12.639167+00:00",
+      "exit_time_iso": "2026-09-13T02:14:12.639175+00:00",
+      "entry_price_usd": 3.8140230335307956e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 132.71106063599998,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.3012164,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 63.734471,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T02:13:08.904994+00:00",
+  "last_updated": "2026-09-13T02:14:22.742859+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.99,
-  "portfolio_value_usd": 83.49,
+  "last_sol_price_usd": 102.61,
+  "portfolio_value_usd": 78.87,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:37 UTC",
-      "action": "buy",
-      "details": "[LLM] $OG at $0.000469914, spent 0.05 SOL",
-      "reason": "$OG — 'you know where all this started' is a classic OG meta-narrative that memecoin traders love. Fresh 1.6min, $3.9k mcap = pre-pump. Low bond (2%) but on-curve entry. Small 0.05 SOL scout."
-    },
     {
       "time": "2026-09-13 01:38 UTC",
       "action": "sell",
@@ -62117,30 +62107,48 @@
       "action": "buy",
       "details": "[LLM] $SOLCHAN at $3.81402e-06, spent 0.05 SOL",
       "reason": "SOLCHAN is 0.5min old, $3.8k mcap, already has an X post from ramentrade driving attention. Anime-mascot narratives on Solana have a strong track record (gigachad, nanaism, etc.). Tiny mcap + early social signal = asymmetric upside. Risk: bond only 12%, liquidity thin, may rug — but 0.05 SOL size with -25% hard cap limits damage."
+    },
+    {
+      "time": "2026-09-13 02:14 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $SOLCHAN crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3499,
+    "total": 3500,
     "wins": 1609,
-    "losses": 1890,
+    "losses": 1891,
     "win_rate_pct": 46.0,
-    "total_pnl_sol": 27.141772,
-    "avg_pnl_pct": 38.58,
+    "total_pnl_sol": 27.091772,
+    "avg_pnl_pct": 38.54,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 46,
-    "today_realized_sol": 1.759978,
-    "today_target_pct": 440.0,
+    "today_trades": 47,
+    "today_realized_sol": 1.709978,
+    "today_target_pct": 427.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1890,
+      "loss_count": 1891,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:13:07.539788+00:00",
+  "last_llm_brief_at": "2026-09-13T02:14:21.679601+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "MbJaSh2NAtfd6eu4qLff1gpep3m3cainMAGB1Mrpump": {
+      "price_usd": 2.868872321935266e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1.43654e-06,
+      "volume_h24": 1224.03,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 1.4e-08
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -24739,3 +24739,6 @@
 ## [2026-09-13 02:13 UTC] buy | [LLM] $SOLCHAN at $3.81402e-06, spent 0.05 SOL
 - **Reasoning:** SOLCHAN is 0.5min old, $3.8k mcap, already has an X post from ramentrade driving attention. Anime-mascot narratives on Solana have a strong track record (gigachad, nanaism, etc.). Tiny mcap + early social signal = asymmetric upside. Risk: bond only 12%, liquidity thin, may rug — but 0.05 SOL size with -25% hard cap limits damage.
 
+## [2026-09-13 02:14 UTC] sell | [rapid-drop] $SOLCHAN crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
