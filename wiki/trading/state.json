@@ -2,36 +2,7 @@
   "balance_sol": 0.818655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GiPj1mMWtc5oxZDpeduZsiqAJK3PQZEVh8gDGNMPbonk": {
-      "symbol": "imposter",
-      "name": "imposter",
-      "mint": "GiPj1mMWtc5oxZDpeduZsiqAJK3PQZEVh8gDGNMPbonk",
-      "amount": 323.99390846529815,
-      "entry_price_usd": 0.01580893919969671,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T02:09:09.239690+00:00",
-      "entry_time_iso": "2026-09-13T02:09:09.239699+00:00",
-      "entry_usd_value": 5.122,
-      "last_seen_price_usd": 0.01580893919969671,
-      "entry_liquidity_usd": 357696.889065151,
-      "entry_pool_sol": 3491.769709734,
-      "entry_market_cap_usd": 4295.815462805445,
-      "entry_signals": {
-        "liquidity_usd": 357696.889065151,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 4295.815462805445,
-        "ath_market_cap_usd": 5004.249599237129,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3491.769709734,
-        "description": "",
-        "twitter": "https://x.com/derivativist/status/2098956606046097701?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61966,19 +61937,38 @@
       "hold_duration_seconds": 63.723163,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "GiPj1mMWtc5oxZDpeduZsiqAJK3PQZEVh8gDGNMPbonk",
+      "symbol": "imposter",
+      "name": "imposter",
+      "amount_sold": 323.99390846529815,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T02:09:09.239690+00:00",
+      "entry_time_iso": "2026-09-13T02:09:09.239699+00:00",
+      "exit_time": "2026-09-13T02:10:26.852275+00:00",
+      "exit_time_iso": "2026-09-13T02:10:26.852280+00:00",
+      "entry_price_usd": 0.01580893919969671,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — Just entered at -2.3%, bonding-curve token with $570k pool. No reason to panic on minute-old position; give it room to develop. — no real exit liquidity",
+      "entry_liquidity_usd": 357696.889065151,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3491.769709734,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 77.612601,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T02:09:09.239966+00:00",
+  "last_updated": "2026-09-13T02:10:26.852491+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.44,
-  "portfolio_value_usd": 88.99,
+  "last_sol_price_usd": 101.88,
+  "portfolio_value_usd": 83.4,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:33 UTC",
-      "action": "buy",
-      "details": "[LLM] $YSIWA at $3.44266e-06, spent 0.05 SOL",
-      "reason": "'You Said It Was Alpha' is pure memecoin meta-narrative — it's a name that calls out alpha hunters themselves, which is the exact audience that pumps these. $3.4k mcap, just launched, viral potential if the right CT account picks it up. Classic attention-market play. Size 0.1 SOL."
-    },
     {
       "time": "2026-09-13 01:34 UTC",
       "action": "sell",
@@ -62092,30 +62082,48 @@
       "action": "buy",
       "details": "[LLM] $imposter at $0.0158089, spent 0.05 SOL",
       "reason": "$imposter has a live X post from derivativist (visible narrative driver), fresh0.7min age, $4.3k mcap — classic attention-launched play. Viability passes (twitter link + cheap mcap) and not on fragility blocklist. Riskiest of the bunch but highest attention signal."
+    },
+    {
+      "time": "2026-09-13 02:10 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $imposter at $0.0154495 | P&L: -100.0%",
+      "reason": "Just entered at -2.3%, bonding-curve token with $570k pool. No reason to panic on minute-old position; give it room to develop."
     }
   ],
   "trade_stats": {
-    "total": 3498,
+    "total": 3499,
     "wins": 1609,
-    "losses": 1889,
+    "losses": 1890,
     "win_rate_pct": 46.0,
-    "total_pnl_sol": 27.191772,
-    "avg_pnl_pct": 38.62,
+    "total_pnl_sol": 27.141772,
+    "avg_pnl_pct": 38.58,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 45,
-    "today_realized_sol": 1.809978,
-    "today_target_pct": 452.5,
+    "today_trades": 46,
+    "today_realized_sol": 1.759978,
+    "today_target_pct": 440.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1889,
+      "loss_count": 1890,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:09:07.771977+00:00",
+  "last_llm_brief_at": "2026-09-13T02:10:26.852177+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GiPj1mMWtc5oxZDpeduZsiqAJK3PQZEVh8gDGNMPbonk": {
+      "price_usd": 0.01544951020046099,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 570437.165501852,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 5599.108416783
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
