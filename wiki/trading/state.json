@@ -1,37 +1,8 @@
 {
-  "balance_sol": 30.991954,
+  "balance_sol": 31.041954,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FX8VAYjPE9mXuzwsV6qnxrgXwjHyU3vWoPsCMr94pJNp": {
-      "symbol": "BONITA",
-      "name": "Bonita",
-      "mint": "FX8VAYjPE9mXuzwsV6qnxrgXwjHyU3vWoPsCMr94pJNp",
-      "amount": 10737.251506524955,
-      "entry_price_usd": 0.00047516349942064597,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T00:23:10.536838+00:00",
-      "entry_time_iso": "2026-09-13T00:23:10.536845+00:00",
-      "entry_usd_value": 5.10195,
-      "last_seen_price_usd": 0.00047516349942064597,
-      "entry_liquidity_usd": 11621.237537983563,
-      "entry_pool_sol": 113.890155117,
-      "entry_market_cap_usd": 3943.6750639833385,
-      "entry_signals": {
-        "liquidity_usd": 11621.237537983563,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 3943.6750639833385,
-        "ath_market_cap_usd": 4920.31823434419,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 113.890155117,
-        "description": "",
-        "twitter": "https://x.com/UseCorgi/status/2098930071771988122",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61101,19 +61072,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 80.804679,
       "partial": false
+    },
+    {
+      "mint": "FX8VAYjPE9mXuzwsV6qnxrgXwjHyU3vWoPsCMr94pJNp",
+      "symbol": "BONITA",
+      "name": "Bonita",
+      "amount_sold": 10737.251506524955,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T00:23:10.536838+00:00",
+      "entry_time_iso": "2026-09-13T00:23:10.536845+00:00",
+      "exit_time": "2026-09-13T00:24:35.320137+00:00",
+      "exit_time_iso": "2026-09-13T00:24:35.320142+00:00",
+      "entry_price_usd": 0.00047516349942064597,
+      "exit_price_usd": 0.000474842188142997,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.05,
+      "pnl_sol": 0.0,
+      "pnl_pct": -0.07,
+      "exit_reason": "LLM: sell_all — $BONITA is flat at -0.1% just minutes after entry on bonding curve with $11.6k pool. No thesis-breaking signal yet — give it the stale-exit window (>3",
+      "entry_liquidity_usd": 11621.24,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 113.8902,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 84.783627,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-13T00:23:10.536989+00:00",
+  "last_updated": "2026-09-13T00:24:35.320684+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.039,
-  "portfolio_value_usd": 3167.49,
+  "last_sol_price_usd": 101.97,
+  "portfolio_value_usd": 3165.35,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 23:59 UTC",
-      "action": "buy",
-      "details": "[LLM] $WOWNEROCHAN at $4.32e-06, spent 0.05 SOL",
-      "reason": "Wownero-Chan — anthropomorphized cult meme (Wownero has a real OG community). Sub-1min launch, bond 23% (closest to graduation of the batch), Twitter signal present. Small position (0.05 SOL) to test the wave. Will exit fast if it doesn't pump within 15min."
-    },
     {
       "time": "2026-09-13 00:00 UTC",
       "action": "sell",
@@ -61227,40 +61216,46 @@
       "action": "buy",
       "details": "[LLM] $BONITA at $0.000475163, spent 0.05 SOL",
       "reason": "Fresh launch (1min) with a real attention catalyst — @UseCorgi (66.6k followers) posted about it on X. 'Bonita' is a clean, memorable narrative name. Bond is early (2%) so position is small but the twitter presence is the key signal — real account posting = attention inflow."
+    },
+    {
+      "time": "2026-09-13 00:24 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $BONITA at $0.000474842 | P&L: -0.1%",
+      "reason": "$BONITA is flat at -0.1% just minutes after entry on bonding curve with $11.6k pool. No thesis-breaking signal yet — give it the stale-exit window (>30min flat) to develop or trigger auto-exit naturally."
     }
   ],
   "trade_stats": {
-    "total": 3463,
+    "total": 3464,
     "wins": 1605,
-    "losses": 1858,
+    "losses": 1859,
     "win_rate_pct": 46.3,
     "total_pnl_sol": 26.825794,
-    "avg_pnl_pct": 38.86,
+    "avg_pnl_pct": 38.85,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 10,
+    "today_trades": 11,
     "today_realized_sol": 1.444,
     "today_target_pct": 361.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1605,
-      "loss_count": 1858,
+      "loss_count": 1859,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T00:23:09.169517+00:00",
+  "last_llm_brief_at": "2026-09-13T00:24:35.319682+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "G5e9s8Fy2hGKJS2WjcdaduGUNvPPySrs9RaFJK6opump": {
-      "price_usd": 3.4212439798721855e-06,
+    "FX8VAYjPE9mXuzwsV6qnxrgXwjHyU3vWoPsCMr94pJNp": {
+      "price_usd": 0.000474842188142997,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 291.073895016933,
-      "volume_h24": 457.0,
+      "liquidity_usd": 11613.37911728049,
+      "volume_h24": 0.0,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.852574947
+      "real_sol_reserves": 113.890155117
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

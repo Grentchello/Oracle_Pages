@@ -24529,3 +24529,6 @@
 ## [2026-09-13 00:23 UTC] buy | [LLM] $BONITA at $0.000475163, spent 0.05 SOL
 - **Reasoning:** Fresh launch (1min) with a real attention catalyst — @UseCorgi (66.6k followers) posted about it on X. 'Bonita' is a clean, memorable narrative name. Bond is early (2%) so position is small but the twitter presence is the key signal — real account posting = attention inflow.
 
+## [2026-09-13 00:24 UTC] sell | [FULL][LLM] $BONITA at $0.000474842 | P&L: -0.1%
+- **Reasoning:** $BONITA is flat at -0.1% just minutes after entry on bonding curve with $11.6k pool. No thesis-breaking signal yet — give it the stale-exit window (>30min flat) to develop or trigger auto-exit naturally.
+
