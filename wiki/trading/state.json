@@ -1,37 +1,8 @@
 {
-  "balance_sol": 29.547954,
+  "balance_sol": 29.617223,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5Sn48uha3dXYjgCzL3Kge2zoW6nkn6QUrQZrUtsVpump": {
-      "symbol": "WOWNEROCHAN",
-      "name": "Wownero-Chan",
-      "mint": "5Sn48uha3dXYjgCzL3Kge2zoW6nkn6QUrQZrUtsVpump",
-      "amount": 1177662.037037037,
-      "entry_price_usd": 4.32e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-12T23:59:22.048257+00:00",
-      "entry_time_iso": "2026-09-12T23:59:22.048266+00:00",
-      "entry_usd_value": 5.0875,
-      "last_seen_price_usd": 4.32e-06,
-      "entry_liquidity_usd": 1795.5240260045,
-      "entry_pool_sol": 17.646427774,
-      "entry_market_cap_usd": 5688.006232087742,
-      "entry_signals": {
-        "liquidity_usd": 1795.5240260045,
-        "volume_24h_usd": 8398.11,
-        "market_cap_usd": 5688.006232087742,
-        "ath_market_cap_usd": 6572.333834513048,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 17.646427774,
-        "description": "",
-        "twitter": "https://x.com/sheluvsblnkr/status/2098924138853499151",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -60861,19 +60832,37 @@
       "exit_pool_sol": 0.0,
       "hold_duration_seconds": 79.741196,
       "partial": false
+    },
+    {
+      "mint": "5Sn48uha3dXYjgCzL3Kge2zoW6nkn6QUrQZrUtsVpump",
+      "symbol": "WOWNEROCHAN",
+      "name": "Wownero-Chan",
+      "amount_sold": 1177662.037037037,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-12T23:59:22.048257+00:00",
+      "entry_time_iso": "2026-09-12T23:59:22.048266+00:00",
+      "exit_time": "2026-09-13T00:00:49.428551+00:00",
+      "exit_time_iso": "2026-09-13T00:00:49.428554+00:00",
+      "entry_price_usd": 4.32e-06,
+      "exit_price_usd": 6.011284648214701e-06,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.069269,
+      "pnl_sol": 0.019269,
+      "pnl_pct": 39.15,
+      "exit_reason": "LLM: sell_all — Up +39.2% already, but pool is only $1381 and our share is 0% — liquidity is razor-thin and the +30% TP ladder should already be firing. With no clear",
+      "entry_liquidity_usd": 1795.52,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 17.6464,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 87.38031,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-12T23:59:22.048581+00:00",
+  "last_updated": "2026-09-13T00:00:49.428787+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.75,
-  "portfolio_value_usd": 3011.59,
+  "last_sol_price_usd": 102.2,
+  "portfolio_value_usd": 3026.88,
   "recent_decisions": [
-    {
-      "time": "2026-09-12 23:37 UTC",
-      "action": "buy",
-      "details": "[LLM] $SPREZZATURA at $2.873e-06, spent 0.05 SOL",
-      "reason": "$SPREZZATURA taps the AI/meta-narrative ('Claude Sprezzatura') which has proven viral potential on crypto Twitter, with a real X anchor from @Shoalst0ne. Fresh launch at $3.8k mcap with only 12% bond = genuine early entry, fits the 'new launches are the alpha' rule. Risk: bond incomplete and thin liquidity, but position size is small (0.1 SOL) per scalp discipline."
-    },
     {
       "time": "2026-09-12 23:38 UTC",
       "action": "sell",
@@ -60987,30 +60976,48 @@
       "action": "buy",
       "details": "[LLM] $WOWNEROCHAN at $4.32e-06, spent 0.05 SOL",
       "reason": "Wownero-Chan — anthropomorphized cult meme (Wownero has a real OG community). Sub-1min launch, bond 23% (closest to graduation of the batch), Twitter signal present. Small position (0.05 SOL) to test the wave. Will exit fast if it doesn't pump within 15min."
+    },
+    {
+      "time": "2026-09-13 00:00 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $WOWNEROCHAN at $6.01128e-06 | P&L: +39.1%",
+      "reason": "Up +39.2% already, but pool is only $1381 and our share is 0% — liquidity is razor-thin and the +30% TP ladder should already be firing. With no clear viral narrative and a tiny pool, any dip wipes the gain instantly. Lock the profit now."
     }
   ],
   "trade_stats": {
-    "total": 3453,
-    "wins": 1598,
+    "total": 3454,
+    "wins": 1599,
     "losses": 1855,
     "win_rate_pct": 46.3,
-    "total_pnl_sol": 25.381794,
+    "total_pnl_sol": 25.401063,
     "avg_pnl_pct": 38.13,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -99.94,
-    "today_trades": 380,
-    "today_realized_sol": 20.348698,
-    "today_target_pct": 5087.2,
+    "today_trades": 1,
+    "today_realized_sol": 0.019269,
+    "today_target_pct": 4.8,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1598,
+      "win_count": 1599,
       "loss_count": 1855,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-12T23:59:20.647645+00:00",
+  "last_llm_brief_at": "2026-09-13T00:00:49.428509+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5Sn48uha3dXYjgCzL3Kge2zoW6nkn6QUrQZrUtsVpump": {
+      "price_usd": 6.011284648214701e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1381.0251290836,
+      "volume_h24": 10359.47,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 13.512966038
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

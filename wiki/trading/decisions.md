@@ -24472,3 +24472,6 @@
 ## [2026-09-12 23:59 UTC] buy | [LLM] $WOWNEROCHAN at $4.32e-06, spent 0.05 SOL
 - **Reasoning:** Wownero-Chan — anthropomorphized cult meme (Wownero has a real OG community). Sub-1min launch, bond 23% (closest to graduation of the batch), Twitter signal present. Small position (0.05 SOL) to test the wave. Will exit fast if it doesn't pump within 15min.
 
+## [2026-09-13 00:00 UTC] sell | [FULL][LLM] $WOWNEROCHAN at $6.01128e-06 | P&L: +39.1%
+- **Reasoning:** Up +39.2% already, but pool is only $1381 and our share is 0% — liquidity is razor-thin and the +30% TP ladder should already be firing. With no clear viral narrative and a tiny pool, any dip wipes the gain instantly. Lock the profit now.
+
