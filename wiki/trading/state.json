@@ -1,8 +1,37 @@
 {
-  "balance_sol": 1.677522,
+  "balance_sol": 1.627522,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "6bT8odZmavcQMXMu4BZsZgRFFeoQjZ4ySkPFb2VNpump": {
+      "symbol": "Journal",
+      "name": "Vivet Journal",
+      "mint": "6bT8odZmavcQMXMu4BZsZgRFFeoQjZ4ySkPFb2VNpump",
+      "amount": 519760.23570049775,
+      "entry_price_usd": 9.843e-06,
+      "entry_sol_spent": 0.05,
+      "entry_time": "2026-09-13T01:11:07.040701+00:00",
+      "entry_time_iso": "2026-09-13T01:11:07.040709+00:00",
+      "entry_usd_value": 5.116,
+      "last_seen_price_usd": 9.843e-06,
+      "entry_liquidity_usd": 2450.51528319696,
+      "entry_pool_sol": 23.949523878,
+      "entry_market_cap_usd": 9643.12572768767,
+      "entry_signals": {
+        "liquidity_usd": 2450.51528319696,
+        "volume_24h_usd": 6050.06,
+        "market_cap_usd": 9643.12572768767,
+        "ath_market_cap_usd": 10493.556192845503,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 23.949523878,
+        "description": "",
+        "twitter": "https://x.com/TrenchingView/status/2098942093762703778",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61466,17 +61495,11 @@
       "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T01:09:47.214430+00:00",
+  "last_updated": "2026-09-13T01:11:07.040874+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.8,
-  "portfolio_value_usd": 170.77,
+  "last_sol_price_usd": 102.32,
+  "portfolio_value_usd": 171.64,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:41 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $PUMP at $0.000133802 | P&L: +2980.9%",
-      "reason": "Auto take-profit at +2980.9%"
-    },
     {
       "time": "2026-09-13 00:41 UTC",
       "action": "observe",
@@ -61590,6 +61613,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $KOL at $4.80512e-06 | P&L: -100.0%",
       "reason": "Up +5.1% in first minutes, still on bonding curve with pool only $914. Wait for either TP trigger or clearer momentum. Not stale yet (held 0.0h), not at -20% stop."
+    },
+    {
+      "time": "2026-09-13 01:11 UTC",
+      "action": "buy",
+      "details": "[LLM] $Journal at $9.843e-06, spent 0.05 SOL",
+      "reason": "$Journal flagged by TrenchingView (known CT alpha account) — concrete attention signal, $9.6k mcap fresh launch with real social catalyst. Bond at 31% means liquidity is still forming so sizing at 0.05 SOL keeps risk bounded. Narrative (journaling/trenching meta) is live on CT right now."
     }
   ],
   "trade_stats": {
@@ -61611,21 +61640,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T01:09:47.213207+00:00",
+  "last_llm_brief_at": "2026-09-13T01:11:05.633030+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "8rE46UpMzBLBiJhi6jYUUEmUvoLo5k16mNphwcDipump": {
-      "price_usd": 4.805122008615272e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 914.1363588568,
-      "volume_h24": 2143.48,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 8.979728476
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

@@ -24619,3 +24619,6 @@
 ## [2026-09-13 01:09 UTC] sell | [FULL][LLM] $KOL at $4.80512e-06 | P&L: -100.0%
 - **Reasoning:** Up +5.1% in first minutes, still on bonding curve with pool only $914. Wait for either TP trigger or clearer momentum. Not stale yet (held 0.0h), not at -20% stop.
 
+## [2026-09-13 01:11 UTC] buy | [LLM] $Journal at $9.843e-06, spent 0.05 SOL
+- **Reasoning:** $Journal flagged by TrenchingView (known CT alpha account) — concrete attention signal, $9.6k mcap fresh launch with real social catalyst. Bond at 31% means liquidity is still forming so sizing at 0.05 SOL keeps risk bounded. Narrative (journaling/trenching meta) is live on CT right now.
+
