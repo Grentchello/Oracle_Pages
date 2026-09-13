@@ -2,36 +2,7 @@
   "balance_sol": 1.468655,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "5RMLsrFRxKytze6XhnUNwncQTWwUK3gT76djxvm6pump": {
-      "symbol": "Pep ",
-      "name": "Pep",
-      "mint": "5RMLsrFRxKytze6XhnUNwncQTWwUK3gT76djxvm6pump",
-      "amount": 1526907.2188207873,
-      "entry_price_usd": 3.3463067939033048e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T01:24:16.859742+00:00",
-      "entry_time_iso": "2026-09-13T01:24:16.859751+00:00",
-      "entry_usd_value": 5.109500000000001,
-      "last_seen_price_usd": 3.3463067939033048e-06,
-      "entry_liquidity_usd": 257.02521432918,
-      "entry_pool_sol": 2.515169922,
-      "entry_market_cap_usd": 3341.508995510775,
-      "entry_signals": {
-        "liquidity_usd": 257.02521432918,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3341.508995510775,
-        "ath_market_cap_usd": 3342.754719637066,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2.515169922,
-        "description": "",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61641,19 +61612,38 @@
       "exit_pool_sol": 2.0838,
       "hold_duration_seconds": 139.576056,
       "partial": false
+    },
+    {
+      "mint": "5RMLsrFRxKytze6XhnUNwncQTWwUK3gT76djxvm6pump",
+      "symbol": "Pep ",
+      "name": "Pep",
+      "amount_sold": 1526907.2188207873,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T01:24:16.859742+00:00",
+      "entry_time_iso": "2026-09-13T01:24:16.859751+00:00",
+      "exit_time": "2026-09-13T01:25:32.178119+00:00",
+      "exit_time_iso": "2026-09-13T01:25:32.178124+00:00",
+      "entry_price_usd": 3.3463067939033048e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — +9.1% in <1min on bonding curve, still early momentum and not yet at stale threshold. Give it room to hit +20% before considering part — no real exit liquidity",
+      "entry_liquidity_usd": 257.02521432918,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 2.515169922,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 75.318394,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T01:24:16.859932+00:00",
+  "last_updated": "2026-09-13T01:25:32.178345+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.19,
-  "portfolio_value_usd": 155.19,
+  "last_sol_price_usd": 102.16,
+  "portfolio_value_usd": 150.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:59 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $WORM at $3.48112e-06 | P&L: -100.0%",
-      "reason": "$WORM is brand new (0.0h held) and flat at -0.4%. No loss trigger, no momentum signal yet, and no upside to book. Give it a few minutes to either bounce or hit the auto-stops rather than rotating for the sake of rotating."
-    },
     {
       "time": "2026-09-13 01:00 UTC",
       "action": "buy",
@@ -61767,30 +61757,48 @@
       "action": "buy",
       "details": "[LLM] $Pep  at $3.34631e-06, spent 0.05 SOL",
       "reason": "$Pep rides the Pepe brand — historically the single most viral memecoin family. $3.3k mcap at 0.6min old is prime attention-launch territory. No twitter signal but the name itself is the narrative. Tight risk: 0.05 SOL position with -25% hard stop."
+    },
+    {
+      "time": "2026-09-13 01:25 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Pep  at $3.64958e-06 | P&L: -100.0%",
+      "reason": "+9.1% in <1min on bonding curve, still early momentum and not yet at stale threshold. Give it room to hit +20% before considering partial profit-take."
     }
   ],
   "trade_stats": {
-    "total": 3485,
+    "total": 3486,
     "wins": 1609,
-    "losses": 1876,
+    "losses": 1877,
     "win_rate_pct": 46.2,
-    "total_pnl_sol": 27.841772,
-    "avg_pnl_pct": 39.14,
+    "total_pnl_sol": 27.791772,
+    "avg_pnl_pct": 39.1,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 32,
-    "today_realized_sol": 2.459978,
-    "today_target_pct": 615.0,
+    "today_trades": 33,
+    "today_realized_sol": 2.409978,
+    "today_target_pct": 602.5,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1876,
+      "loss_count": 1877,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T01:24:15.405211+00:00",
+  "last_llm_brief_at": "2026-09-13T01:25:32.177757+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "5RMLsrFRxKytze6XhnUNwncQTWwUK3gT76djxvm6pump": {
+      "price_usd": 3.649581002814823e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 399.5553627472,
+      "volume_h24": 311.26,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.91107442
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
