@@ -24532,3 +24532,6 @@
 ## [2026-09-13 00:24 UTC] sell | [FULL][LLM] $BONITA at $0.000474842 | P&L: -0.1%
 - **Reasoning:** $BONITA is flat at -0.1% just minutes after entry on bonding curve with $11.6k pool. No thesis-breaking signal yet — give it the stale-exit window (>30min flat) to develop or trigger auto-exit naturally.
 
+## [2026-09-13 00:28 UTC] buy | [LLM] $Unstable at $0.000352903, spent 0.05 SOL
+- **Reasoning:** $Unstable at $15k mcap, 1 min old, meta-narrative name plays well in current choppy market where traders are calling out ruggy / unstable tokens — self-referential humor is a classic memecoin attention driver. Small position to test attention.
+
