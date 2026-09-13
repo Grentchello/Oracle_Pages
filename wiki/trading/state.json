@@ -2,36 +2,7 @@
   "balance_sol": 0.659722,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "J6gjSNNsUCQ1HqUMNcVdgBNKYtHZhFmDXhdF5t34pump": {
-      "symbol": "SPOONMAN",
-      "name": "Spoon Man",
-      "mint": "J6gjSNNsUCQ1HqUMNcVdgBNKYtHZhFmDXhdF5t34pump",
-      "amount": 1318524.32933008,
-      "entry_price_usd": 3.875544717931982e-06,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T02:29:47.684695+00:00",
-      "entry_time_iso": "2026-09-13T02:29:47.684705+00:00",
-      "entry_usd_value": 5.11,
-      "last_seen_price_usd": 3.875544717931982e-06,
-      "entry_liquidity_usd": 504.6913578266,
-      "entry_pool_sol": 4.938271603,
-      "entry_market_cap_usd": 3860.8873314734255,
-      "entry_signals": {
-        "liquidity_usd": 504.6913578266,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3860.8873314734255,
-        "ath_market_cap_usd": 3860.8873314734255,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.938271603,
-        "description": "Spoon Man is a superhero-themed community token forged from one simple truth: every bowl deserves a hero. Armed with an oversized silver spoon and an appetite for justice, Spoon Man protects the blockchain from villains, forks, and empty promises. No complicated lore—just a ridiculous hero, a strong",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62090,19 +62061,38 @@
       "hold_duration_seconds": 63.838752,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "J6gjSNNsUCQ1HqUMNcVdgBNKYtHZhFmDXhdF5t34pump",
+      "symbol": "SPOONMAN",
+      "name": "Spoon Man",
+      "amount_sold": 1318524.32933008,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T02:29:47.684695+00:00",
+      "entry_time_iso": "2026-09-13T02:29:47.684705+00:00",
+      "exit_time": "2026-09-13T02:31:00.439664+00:00",
+      "exit_time_iso": "2026-09-13T02:31:00.439668+00:00",
+      "entry_price_usd": 3.875544717931982e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — SPOONMAN up +11.9% on a tiny $711 pool (1% share = illiquid exit). Just opened this tick (held 0.0h) — locking the +12% gain while it' — no real exit liquidity",
+      "entry_liquidity_usd": 504.6913578266,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 4.938271603,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 72.754984,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T02:29:47.684982+00:00",
+  "last_updated": "2026-09-13T02:31:00.439893+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 102.2,
-  "portfolio_value_usd": 72.53,
+  "last_sol_price_usd": 102.28,
+  "portfolio_value_usd": 67.48,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 01:53 UTC",
-      "action": "buy",
-      "details": "[LLM] $OpenPerps at $1.19402e-05, spent 0.05 SOL",
-      "reason": "Only candidate passing viability gate. Meta-narrative (permissionless perps for any Solana token) riding the perp meta, live twitter, $12k mcap at <1min = fresh attention window. Risk: bond 34% incomplete, expect dump pressure — but that's why entries are small."
-    },
     {
       "time": "2026-09-13 01:54 UTC",
       "action": "sell",
@@ -62216,30 +62206,48 @@
       "action": "buy",
       "details": "[LLM] $SPOONMAN at $3.87554e-06, spent 0.05 SOL",
       "reason": "$SPOONMAN is the freshest launch (0.5min, $3.9k mcap) with a real meme narrative ('superhero-themed, every bowl deserves a hero') — absurd, shareable, exactly the kind of attention hook that pumps. Viability passes (desc present, mcap >$3k). Sizing 0.05 SOL."
+    },
+    {
+      "time": "2026-09-13 02:31 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $SPOONMAN at $4.33784e-06 | P&L: -100.0%",
+      "reason": "SPOONMAN up +11.9% on a tiny $711 pool (1% share = illiquid exit). Just opened this tick (held 0.0h) — locking the +12% gain while it's there, freeing slot for $mayhem which has fresher attention and bigger narrative. Better to rotate than sit on a thin pool."
     }
   ],
   "trade_stats": {
-    "total": 3503,
+    "total": 3504,
     "wins": 1610,
-    "losses": 1893,
-    "win_rate_pct": 46.0,
-    "total_pnl_sol": 27.032839,
-    "avg_pnl_pct": 38.47,
+    "losses": 1894,
+    "win_rate_pct": 45.9,
+    "total_pnl_sol": 26.982839,
+    "avg_pnl_pct": 38.43,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 50,
-    "today_realized_sol": 1.651045,
-    "today_target_pct": 412.8,
+    "today_trades": 51,
+    "today_realized_sol": 1.601045,
+    "today_target_pct": 400.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1610,
-      "loss_count": 1893,
+      "loss_count": 1894,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T02:29:46.130613+00:00",
+  "last_llm_brief_at": "2026-09-13T02:31:00.439560+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "J6gjSNNsUCQ1HqUMNcVdgBNKYtHZhFmDXhdF5t34pump": {
+      "price_usd": 4.3378393093169085e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 710.73649463396,
+      "volume_h24": 707.69,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 6.948929357
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
