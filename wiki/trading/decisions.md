@@ -24814,3 +24814,9 @@
 ## [2026-09-13 03:00 UTC] buy | [LLM] $PUMPEPE at $3.4803e-06, spent 0.05 SOL
 - **Reasoning:** $PUMPEPE = PEPE+PUMP compound meme name, classic attention bait. 0.5min old, bond 9% (most progressed of the batch), mcap $3.5k. PEPE family has proven meme IP and viral recognition. Not on celebrity/political blocklist so passes fragility gate. Entering 0.05 SOL ($5) — small size lets me test the thesis without risking the 0.34 SOL bankroll. Other three tokens ($DTC, $Ansem, $LOOP) have weaker narratives ($Ansem risks fragility flag on celebrity name; $DTC and $LOOP are generic tickers with no story).
 
+## [2026-09-13 03:02 UTC] sell | [FULL][LLM] $PUMPEPE at $3.11321e-06 | P&L: -100.0%
+- **Reasoning:** Down -10.5% in 0h on a $146 pool where I'm 3% of liquidity — exit now beats waiting for the -25% hard cap to fire at a worse price. No catalyst to bounce, Pepe meta is saturated, and I need the slot free for a fresh launch with stronger attention signals.
+
+## [2026-09-13 03:02 UTC] buy | [LLM] $Cuck at $5.223e-06, spent 0.05 SOL
+- **Reasoning:** $Cuck has the highest bonding progress (28%) of all fresh launches, meaning real liquidity to actually exit — plus an active twitter handle, viral edgy name, and mcap still only $7.7k. Cleanest attention signal in the cohort, not in the fragility blocklist, and Twitter satisfies the viability gate even if liquidity is under $3k.
+
