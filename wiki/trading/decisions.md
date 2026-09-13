@@ -24832,3 +24832,6 @@
 ## [2026-09-13 03:10 UTC] buy | [LLM] $PEPEGO at $5.788e-05, spent 0.05 SOL
 - **Reasoning:** $PEPEGO (Dancing Pepe) — strongest attention signal of the slate. Pepe is the OG memecoin narrative, 'Dancing Pepe with 3D shades' is a specific visual hook, twitter is a real handle (pepegofun) not a throwaway status URL, $57k mcap with 43% bond shows real traction. Viability gate passes (desc >50 chars, twitter present); no fragility blocklist hit. Risk: still <2min old, could rug at bond completion — but the narrative is strong enough to ride.
 
+## [2026-09-13 03:11 UTC] sell | [FULL][LLM] $PEPEGO at $5.579e-05 | P&L: -100.0%
+- **Reasoning:** -3.6% on a freshly opened position is noise, not a stop signal. Not stale, no reason to churn into an even newer launch.
+
