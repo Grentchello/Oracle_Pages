@@ -24697,3 +24697,6 @@
 ## [2026-09-13 01:43 UTC] sell | [FULL][LLM] $ANSEM at $3.46796e-06 | P&L: -100.0%
 - **Reasoning:** Up 12.2% with only 0.0h held on a $317 pool. Selling on this thin pool would crater price via my own slippage; holding lets the bot's +30% auto-TP at 25% capture more if it runs, while -25% hard stop protects downside.
 
+## [2026-09-13 01:46 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
