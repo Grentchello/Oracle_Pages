@@ -24784,3 +24784,9 @@
 ## [2026-09-13 02:42 UTC] buy | [LLM] $KEYCAT at $1.023e-05, spent 0.05 SOL
 - **Reasoning:** KeyboardCat is a recognizable viral meme reference with backing from a deployingmonkey tweet (known deployer). At $9k mcap with bond 31% formed, this is classic early-launch territory. Viability gate passes (twitter link present), fragility gate passes (no celebrity keywords). Taking the position to test the attention thesis.
 
+## [2026-09-13 02:44 UTC] sell | [rapid-drop] $KEYCAT crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-13 02:44 UTC] buy | [LLM] $KEYCAT at $5.83693e-07, spent 0.05 SOL
+- **Reasoning:** $KEYCAT — Keyboard Cat is a proven viral-meme IP and there's a fresh X post from @deployingmonkey attached as the attention spark. Passes viability (twitter present) and fragility blocklist (no political/celebrity keywords). Risk: $10k mcap + bond 27% incomplete = thin liquidity and rug-prone, so size matters — the bot's 0.05 SOL cap and -25% hard stop keep the downside bounded.
+
