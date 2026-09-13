@@ -2,36 +2,7 @@
   "balance_sol": 1.548323,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "VzYMP472rUsc2hfZm6HYBzQz7DXXUY6RA8CHNt9pump": {
-      "symbol": "LioraLLM",
-      "name": "LioraLLM",
-      "mint": "VzYMP472rUsc2hfZm6HYBzQz7DXXUY6RA8CHNt9pump",
-      "amount": 378965.00372300827,
-      "entry_price_usd": 1.343e-05,
-      "entry_sol_spent": 0.05,
-      "entry_time": "2026-09-13T01:16:27.583498+00:00",
-      "entry_time_iso": "2026-09-13T01:16:27.583507+00:00",
-      "entry_usd_value": 5.089500000000001,
-      "last_seen_price_usd": 1.343e-05,
-      "entry_liquidity_usd": 3556.25492853267,
-      "entry_pool_sol": 34.937173873,
-      "entry_market_cap_usd": 15673.302528765844,
-      "entry_signals": {
-        "liquidity_usd": 3556.25492853267,
-        "volume_24h_usd": 4585.82,
-        "market_cap_usd": 15673.302528765844,
-        "ath_market_cap_usd": 15811.499157436421,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 34.937173873,
-        "description": "$LioraLLM turns AI trading into something you can actually follow — she suggests the move, your guardrails approve it, and Solana keeps the proof 🤖 Vesting commitments and work receipts make each accepted cycle transparent, traceable, and tied to earned rewards 🖋️🔐",
-        "twitter": "https://x.com/liorallmlabs/status/2098943424418222243",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -61567,19 +61538,38 @@
       "exit_pool_sol": 5.5737,
       "hold_duration_seconds": 145.326466,
       "partial": false
+    },
+    {
+      "mint": "VzYMP472rUsc2hfZm6HYBzQz7DXXUY6RA8CHNt9pump",
+      "symbol": "LioraLLM",
+      "name": "LioraLLM",
+      "amount_sold": 378965.00372300827,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-13T01:16:27.583498+00:00",
+      "entry_time_iso": "2026-09-13T01:16:27.583507+00:00",
+      "exit_time": "2026-09-13T01:17:47.872855+00:00",
+      "exit_time_iso": "2026-09-13T01:17:47.872864+00:00",
+      "entry_price_usd": 1.343e-05,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.05,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.05,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — Just entered at -2.8%, well within noise band. Bonding-curve token with $3,487 pool — too early to call. Give it a few minutes to deve — no real exit liquidity",
+      "entry_liquidity_usd": 3556.25492853267,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 34.937173873,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 80.289378,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-13T01:16:27.583687+00:00",
+  "last_updated": "2026-09-13T01:17:47.874343+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 101.79,
-  "portfolio_value_usd": 162.69,
+  "last_sol_price_usd": 102.39,
+  "portfolio_value_usd": 158.53,
   "recent_decisions": [
-    {
-      "time": "2026-09-13 00:50 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $Yummy at $5.79171e-06 | P&L: -100.0%",
-      "reason": "Up +20.1% right at the take-profit threshold, but pool is only $1300 (bonding curve, no depth). Selling half locks the gain and keeps the slot warm for a potential runner. If it doubles from here I'll still have skin in; if it dumps I keep half the profit."
-    },
     {
       "time": "2026-09-13 00:52 UTC",
       "action": "sell",
@@ -61693,40 +61683,46 @@
       "action": "buy",
       "details": "[LLM] $LioraLLM at $1.343e-05, spent 0.05 SOL",
       "reason": "$LioraLLM is the cleanest narrative play of the batch — AI-trading-agent meta is hot, twitter account is live and posting, 36% bond (deepest conviction among candidates), and $15.6k mcap has 10x room before it hits any meaningful ceiling. Position sized at 0.05 SOL per v7 rules; plan to take profit at +50% and exit if it goes stale past 30 min flat."
+    },
+    {
+      "time": "2026-09-13 01:17 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $LioraLLM at $1.3053e-05 | P&L: -100.0%",
+      "reason": "Just entered at -2.8%, well within noise band. Bonding-curve token with $3,487 pool — too early to call. Give it a few minutes to develop narrative or show traction before deciding."
     }
   ],
   "trade_stats": {
-    "total": 3482,
+    "total": 3483,
     "wins": 1609,
-    "losses": 1873,
+    "losses": 1874,
     "win_rate_pct": 46.2,
-    "total_pnl_sol": 27.92144,
-    "avg_pnl_pct": 39.23,
+    "total_pnl_sol": 27.87144,
+    "avg_pnl_pct": 39.19,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 29,
-    "today_realized_sol": 2.539646,
-    "today_target_pct": 634.9,
+    "today_trades": 30,
+    "today_realized_sol": 2.489646,
+    "today_target_pct": 622.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1609,
-      "loss_count": 1873,
+      "loss_count": 1874,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-13T01:16:26.252872+00:00",
+  "last_llm_brief_at": "2026-09-13T01:17:47.871050+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "2Ug2UA8nygAsVutidCHvpaYB2zCKyjFdvzAmQNA9pump": {
-      "price_usd": 2.847281858416694e-06,
+    "VzYMP472rUsc2hfZm6HYBzQz7DXXUY6RA8CHNt9pump": {
+      "price_usd": 1.3052954359900783e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 0.7166333584800001,
-      "volume_h24": 1136.34,
+      "liquidity_usd": 3487.3912051462203,
+      "volume_h24": 7961.7,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 0.007040312
+      "real_sol_reserves": 34.059880898
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

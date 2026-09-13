@@ -24637,3 +24637,6 @@
 ## [2026-09-13 01:16 UTC] buy | [LLM] $LioraLLM at $1.343e-05, spent 0.05 SOL
 - **Reasoning:** $LioraLLM is the cleanest narrative play of the batch — AI-trading-agent meta is hot, twitter account is live and posting, 36% bond (deepest conviction among candidates), and $15.6k mcap has 10x room before it hits any meaningful ceiling. Position sized at 0.05 SOL per v7 rules; plan to take profit at +50% and exit if it goes stale past 30 min flat.
 
+## [2026-09-13 01:17 UTC] sell | [FULL][LLM] $LioraLLM at $1.3053e-05 | P&L: -100.0%
+- **Reasoning:** Just entered at -2.8%, well within noise band. Bonding-curve token with $3,487 pool — too early to call. Give it a few minutes to develop narrative or show traction before deciding.
+
