@@ -24658,3 +24658,6 @@
 ## [2026-09-13 01:28 UTC] buy | [LLM] $$Confess at $3.862e-06, spent 0.05 SOL
 - **Reasoning:** $Confess — strongest narrative of the batch (mental-health confessional, fees to holders, story-time meta). Bond 12% (ahead of $Slow/$Tulip), mcap $3.9k, has desc. Catching this at <2min is exactly the asymmetric setup the strategy targets. 0.05 SOL position.
 
+## [2026-09-13 01:29 UTC] sell | [FULL][LLM] $$Confess at $3.84959e-06 | P&L: -100.0%
+- **Reasoning:** Just entered seconds ago at -0.3%, bonding curve only 12% full — needs time to develop. Hard stop at -25% protects downside. No reason to exit a fresh position before giving it room to move.
+
