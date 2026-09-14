@@ -359,7 +359,9 @@ def execute_buy(state, decision):
         "symbol": decision["symbol"],
         "name": decision["name"],
         "address": decision["address"],
-        "amount_eth": pos_value_eth,
+        "position_size_eth": pos_value_eth,  # v1.3 fix: ETH spent on entry
+        "entry_sol_spent": pos_value_eth,    # alias for compatibility
+        "amount_tokens": 0,  # placeholder; not needed for v1.3 math
         "entry_price_usd": decision["price_eth"],
         "entry_time": datetime.now(timezone.utc).isoformat(),
         "entry_liquidity_usd": decision["liquidity_usd"],
@@ -439,7 +441,8 @@ def execute_sell(state, key, fraction, reason):
     pnl_pct = ((cur_price / entry_price) - 1) * 100
     
     # Realistic slippage simulation
-    pos_value_usd = pos["amount_eth"] * 3000  # rough ETH price
+    position_size_eth = pos.get("position_size_eth", pos.get("entry_sol_spent", 0.01)) * fraction
+    pos_value_usd = position_size_eth * 3000  # rough ETH price
     if cur_liq < pos_value_usd * 2:
         # Ghost exit - pool too small
         actual_exit_price = cur_price * 0.1  # 90% slippage
@@ -449,8 +452,8 @@ def execute_sell(state, key, fraction, reason):
     else:
         actual_exit_price = cur_price
     
-    # v1.3 FIX: use position_size_eth (entry amount), NOT amount (token count)
-    position_size_eth = pos.get("entry_sol_spent", pos.get("amount_eth", 0)) * fraction
+    # v1.3 FIX: use position_size_eth (ETH spent on entry), not amount (token count)
+    position_size_eth = pos.get("position_size_eth", pos.get("entry_sol_spent", 0)) * fraction
     sol_received_eth = position_size_eth * (actual_exit_price / entry_price)
     
     trade = {

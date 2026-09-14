@@ -1525,18 +1525,21 @@ NameError: name 'chg24' is not defined
 [2026-09-14 10:31:00 UTC] [runner] Tick OK
 [2026-09-14 10:31:00 UTC] [runner] Last: [2026-09-14 10:31:00 UTC] Final: balance=60492915.607981 ETH, positions=0, today PnL=+60492915.50798 ETH
 [2026-09-14 10:31:00 UTC] [runner] Sleeping 60s
-29.56316 ETH
-[2026-09-14 10:21:49 UTC] [runner] Sleeping 60s
-[2026-09-14 10:22:49 UTC] [runner] Tick
-[2026-09-14 10:22:50 UTC] [runner] Tick OK
-[2026-09-14 10:22:50 UTC] [runner] Last: [2026-09-14 10:22:50 UTC] Final: balance=53877229.663162 ETH, positions=0, today PnL=+53877229.56316 ETH
-[2026-09-14 10:22:50 UTC] [runner] Sleeping 60s
-[2026-09-14 10:23:50 UTC] [runner] Tick
-[2026-09-14 10:23:51 UTC] [runner] Tick OK
-[2026-09-14 10:23:51 UTC] [runner] Last: [2026-09-14 10:23:51 UTC] Final: balance=53877229.663162 ETH, positions=0, today PnL=+53877229.56316 ETH
-[2026-09-14 10:23:51 UTC] [runner] Sleeping 60s
-[2026-09-14 10:24:51 UTC] [runner] Tick
-[2026-09-14 10:24:53 UTC] [runner] Tick OK
+[2026-09-14 10:32:00 UTC] [runner] Tick
+[2026-09-14 10:32:02 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 10:32:02 UTC] [runner] STDERR: Traceback (most recent call last):
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 557, in <module>
+    main()
+    ~~~~^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 537, in main
+    execute_sell(state, key, fraction, reason)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 463, in execute_sell
+    "amount_eth_sold": pos["amount_eth"] * fraction,
+                       ~~~^^^^^^^^^^^^^^
+Key
+[2026-09-14 10:32:02 UTC] [runner] Sleeping 60s
+er] Tick OK
 [2026-09-14 10:24:53 UTC] [runner] Last: [2026-09-14 10:24:53 UTC] Final: balance=53877229.663162 ETH, positions=0, today PnL=+53877229.56316 ETH
 [2026-09-14 10:24:53 UTC] [runner] Sleeping 60s
 [2026-09-14 10:25:53 UTC] [runner] Tick
@@ -1563,18 +1566,21 @@ NameError: name 'chg24' is not defined
 [2026-09-14 10:31:00 UTC] [runner] Tick OK
 [2026-09-14 10:31:00 UTC] [runner] Last: [2026-09-14 10:31:00 UTC] Final: balance=60492915.607981 ETH, positions=0, today PnL=+60492915.50798 ETH
 [2026-09-14 10:31:00 UTC] [runner] Sleeping 60s
-0.1 ETH, positions=0, today PnL=+0.00000 ETH
-[2026-09-14 07:52:41 UTC] [runner] Sleeping 60s
-[2026-09-14 07:53:41 UTC] [runner] Tick
-[2026-09-14 07:53:41 UTC] [runner] Tick
-[2026-09-14 07:53:42 UTC] [runner] Tick OK
-[2026-09-14 07:53:42 UTC] [runner] Last: [2026-09-14 07:53:42 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
-[2026-09-14 07:53:42 UTC] [runner] Sleeping 60s
-[2026-09-14 07:53:42 UTC] [runner] Tick OK
-[2026-09-14 07:53:42 UTC] [runner] Last: [2026-09-14 07:53:42 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
-[2026-09-14 07:53:42 UTC] [runner] Sleeping 60s
-[2026-09-14 07:54:42 UTC] [runner] Tick
-[2026-09-14 07:54:42 UTC] [runner] Tick
+[2026-09-14 10:32:00 UTC] [runner] Tick
+[2026-09-14 10:32:02 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 10:32:02 UTC] [runner] STDERR: Traceback (most recent call last):
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 557, in <module>
+    main()
+    ~~~~^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 537, in main
+    execute_sell(state, key, fraction, reason)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 463, in execute_sell
+    "amount_eth_sold": pos["amount_eth"] * fraction,
+                       ~~~^^^^^^^^^^^^^^
+Key
+[2026-09-14 10:32:02 UTC] [runner] Sleeping 60s
+ck
 [2026-09-14 07:54:43 UTC] [runner] Tick OK
 [2026-09-14 07:54:43 UTC] [runner] Last: [2026-09-14 07:54:43 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
 [2026-09-14 07:54:43 UTC] [runner] Sleeping 60s
@@ -4031,3 +4037,74 @@ NameError: name 'chg24' is not defined
 [2026-09-14 10:31:00 UTC] [runner] Tick OK
 [2026-09-14 10:31:00 UTC] [runner] Last: [2026-09-14 10:31:00 UTC] Final: balance=60492915.607981 ETH, positions=0, today PnL=+60492915.50798 ETH
 [2026-09-14 10:31:00 UTC] [runner] Sleeping 60s
+[2026-09-14 10:32:00 UTC] [runner] Tick
+[2026-09-14 10:32:00 UTC] [runner] Tick
+[2026-09-14 10:32:00 UTC] [runner] Tick
+[2026-09-14 10:32:00 UTC] [runner] Tick
+[2026-09-14 10:32:02 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 10:32:02 UTC] [runner] STDERR: Traceback (most recent call last):
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 557, in <module>
+    main()
+    ~~~~^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 537, in main
+    execute_sell(state, key, fraction, reason)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 463, in execute_sell
+    "amount_eth_sold": pos["amount_eth"] * fraction,
+                       ~~~^^^^^^^^^^^^^^
+Key
+[2026-09-14 10:32:02 UTC] [runner] Sleeping 60s
+[2026-09-14 10:32:02 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 10:32:02 UTC] [runner] STDERR: Traceback (most recent call last):
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 557, in <module>
+    main()
+    ~~~~^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 537, in main
+    execute_sell(state, key, fraction, reason)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 463, in execute_sell
+    "amount_eth_sold": pos["amount_eth"] * fraction,
+                       ~~~^^^^^^^^^^^^^^
+Key
+[2026-09-14 10:32:02 UTC] [runner] Sleeping 60s
+[2026-09-14 10:32:02 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 10:32:02 UTC] [runner] STDERR: Traceback (most recent call last):
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 557, in <module>
+    main()
+    ~~~~^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 537, in main
+    execute_sell(state, key, fraction, reason)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 463, in execute_sell
+    "amount_eth_sold": pos["amount_eth"] * fraction,
+                       ~~~^^^^^^^^^^^^^^
+Key
+[2026-09-14 10:32:02 UTC] [runner] Sleeping 60s
+[2026-09-14 10:32:03 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 10:32:03 UTC] [runner] STDERR: Traceback (most recent call last):
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 557, in <module>
+    main()
+    ~~~~^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 537, in main
+    execute_sell(state, key, fraction, reason)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 463, in execute_sell
+    "amount_eth_sold": pos["amount_eth"] * fraction,
+                       ~~~^^^^^^^^^^^^^^
+Key
+[2026-09-14 10:32:03 UTC] [runner] Sleeping 60s
+[2026-09-14 10:32:32 UTC] [runner] Starting base bot runner (interval=60s)
+[2026-09-14 10:32:32 UTC] [runner] Tick
+[2026-09-14 10:32:33 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 10:32:33 UTC] [runner] STDERR: Traceback (most recent call last):
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 557, in <module>
+    main()
+    ~~~~^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 537, in main
+    execute_sell(state, key, fraction, reason)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 463, in execute_sell
+    "amount_eth_sold": pos["amount_eth"] * fraction,
+                       ~~~^^^^^^^^^^^^^^
+Key
+[2026-09-14 10:32:33 UTC] [runner] Sleeping 60s
