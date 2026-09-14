@@ -821,4 +821,8 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 
 ## [2026-09-14 21:38 UTC] eval | memecoin bot -- 2026-09-14 21:38 UTC
 - Window since last eval (19:36 UTC, ~2h): **0 new trades**. Trade count steady at 3,519. Bot continues idle due to balance floor (0.0413 SOL < 0.07 SOL min chunk).
-- No state delta since 19:36 eval -- identical situation. Same lifetime stats apply: +26.3644 SOL paper (upper bound via v9.0 quadratic slippage sim), 1612W/1907L = 45.8
+- No state delta since 19:36 eval -- identical situation. Same lifetime stats apply: +26.3644 SOL paper (upper bound via v9.0 quadratic slippage sim), 1612W/1907L = 45.8% WR, 855 ghost exits (24.3%) across lifetime.
+- Runner log tail (21:27-21:37 UTC): v9.2 rejecting 16-22/25 candidates/tick on bonding-curve<3 SOL; v9.1 dropping 16-22/25; v8.9 age filter dropping 1-5/tick on age<1min. Net pass-through: 0-3 candidates/tick to LLM. Filters operating as designed.
+- Last 50 trades window (since 2026-09-13 03:16 UTC): **-1.9690 SOL paper, 5W/45L (10% WR), 7 real exits + 43 ghost exits**. Unchanged from prior evals.
+- **Honest slippage accounting (per user reminder):** lifetime +26.36 SOL is paper via v9.0 quadratic slippage sim. Treat as upper bound only. Real on-chain bonding-curve impact on thin pools will exceed the sim. Last-50 = -1.97 SOL is the more honest recent signal.
+- **Verdict: No changes needed.** v8.7+ mechanical rules preserved per user hard constraint. v9.2/v9.1/v8.9/v9.3 filters operating as designed. Bot remains idle on balance floor -- topup will resume trading immediately.
