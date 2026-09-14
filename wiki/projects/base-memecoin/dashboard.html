@@ -337,7 +337,7 @@ async function refresh() {
           <div style="display: flex; justify-content: space-between; align-items: start;">
             <div>
               <div style="font-size: 1.5rem; font-weight: 700;">$${pos.symbol || '?'} <span class="chain-tag">BASE</span><span class="dex-tag">${pos.entry_dex || '?'}</span></div>
-              <div class="trade-mint">${pos.address || 'no address'}</div>
+              <div class="trade-mint">${pos.address || 'no address'} <a href="https://coinmarketcap.com/view/base-ecosystem/" target="_blank" rel="noopener" class="mint-external-link" title="View Base ecosystem tokens on CoinMarketCap">🔗 CMC</a></div>
               <div class="trade-meta">
                 Entry: ${(pos.entry_price_usd || 0).toExponential(2)} · 
                 Liquidity at entry: $${(pos.entry_liquidity_usd || 0).toFixed(0)} · 
@@ -371,7 +371,7 @@ async function refresh() {
           <li class="trade-item">
             <div>
               <div class="trade-symbol">$${t.symbol || '?'} ${ghost}<span class="chain-tag">BASE</span></div>
-              <div class="trade-mint">${t.address || 'no address'}</div>
+              <div class="trade-mint">${t.address || 'no address'} <a href="https://coinmarketcap.com/view/base-ecosystem/" target="_blank" rel="noopener" class="mint-external-link" title="View Base ecosystem tokens on CoinMarketCap">🔗 CMC</a></div>
               <div class="trade-meta">
                 ${new Date(t.entry_time).toLocaleString()} → ${new Date(t.exit_time).toLocaleString()}
               </div>
