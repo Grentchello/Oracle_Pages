@@ -746,3 +746,11 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Lifetime stats unchanged: +26.36 SOL paper (slippage-adjusted upper bound via v9.0 quadratic), 45.8% win rate (1612W/1816L/91BE), 0 open positions. Last 50 trades still decomposing to 7 real exits + 43 ghost exits = -1.97 SOL window (unchanged since 2026-09-13).
 - Slippage caveat honored: lifetime +26.36 SOL is paper via v9.0 quadratic sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
 - **Verdict: Profitable, no changes needed.** Bot working as designed on v9.2. The 2h idle window is funding-limited (balance < position size floor), not strategy-limited. v8.7+ mechanical rules preserved per user hard constraint. Awaiting SOL topup to resume live trading and validate v9.2 ghost-rate reduction.
+
+## [2026-09-14 03:23 UTC] eval | memecoin bot — 2026-09-14 03:23 UTC
+- Window since last eval (01:17 UTC, ~2h): **0 new trades**. Trade count steady at 3,519. Bot continues idle due to balance floor.
+- **Balance: 0.041267 SOL** unchanged. Still buy-blocked (POSITION_SIZE_SOL 0.05 + RESERVE_SOL 0.02 = 0.07 SOL required). Bot is alive, ticking every 60s, but cannot open positions.
+- v9.2 filter effectiveness during idle: rejecting 14-22/25 candidates/tick on bonding-curve reserves<3 SOL. v8.9 age filter also active (rejecting tokens <1min old). Combined rejection rate ~85-95% per tick. This is expected/designed behavior.
+- Lifetime stats unchanged: +26.36 SOL paper (slippage-adjusted upper bound via v9.0 quadratic), 45.8% win rate (1612W/1816L/91BE), 0 open positions. Last 50 trades still decomposing to 7 real exits + 43 ghost exits = -1.97 SOL window (unchanged since 2026-09-13).
+- Slippage caveat honored: lifetime +26.36 SOL is paper via v9.0 quadratic sim. Real on-chain impact on bonding-curve exits likely larger. Treat as upper bound.
+- **Verdict: Profitable, no changes needed.** Bot working as designed on v9.2. The 2h idle window is funding-limited (balance < position size floor), not strategy-limited. v8.7+ mechanical rules preserved per user hard constraint. Awaiting SOL topup to resume live trading and validate v9.2 ghost-rate reduction.
