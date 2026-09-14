@@ -103,18 +103,51 @@ def save_state(state):
 
 # === DexScreener API ===
 def fetch_base_pairs():
-    """Fetch Base chain pairs from DexScreener (search-based, returns top 30 by vol)"""
-    url = "https://api.dexscreener.com/latest/dex/search?q=base"
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "base-bot/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode())
-            pairs = data.get("pairs", [])
-            # Filter to Base chain only
-            return [p for p in pairs if p.get("chainId") == "base"]
-    except Exception as e:
-        log(f"DexScreener error: {e}")
-        return []
+    """Fetch Base chain pairs from DexScreener token profiles endpoint.
+    
+    DexScreener doesn\'t have a "new pairs" endpoint. The website shows it but
+    the API requires using token-profiles or token-boosts, then filtering
+    locally on pairCreatedAt.
+    """
+    pairs = []
+    
+    # 1. Get latest token profiles
+    for endpoint in [
+        "https://api.dexscreener.com/token-profiles/latest/v1",
+        "https://api.dexscreener.com/token-boosts/latest/v1",
+    ]:
+        try:
+            req = urllib.request.Request(endpoint, headers={"User-Agent": "base-bot/1.0"})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode())
+                # Get token addresses from profiles
+                for profile in data if isinstance(data, list) else []:
+                    addr = profile.get("tokenAddress")
+                    chain = profile.get("chainId")
+                    if chain == "base" and addr:
+                        pairs.append({"address": addr, "profile": profile})
+        except Exception as e:
+            log(f"Profile endpoint error: {e}")
+    
+    # 2. For each Base token address, fetch full pair data
+    base_pairs = []
+    seen = set()
+    for p in pairs[:10]:  # limit to 10 tokens per tick to respect rate limit
+        try:
+            url = f"https://api.dexscreener.com/token-pairs/v1/base/{p['address']}"
+            req = urllib.request.Request(url, headers={"User-Agent": "base-bot/1.0"})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                token_pairs = json.loads(resp.read().decode())
+                for tp in token_pairs:
+                    if tp.get("chainId") == "base":
+                        key = f"{tp.get('chainId')}:{tp.get('pairAddress')}"
+                        if key not in seen:
+                            seen.add(key)
+                            base_pairs.append(tp)
+        except Exception as e:
+            log(f"Token pairs error for {p['address']}: {e}")
+    
+    return base_pairs
 
 
 def fetch_token_pairs(address):
