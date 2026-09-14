@@ -999,10 +999,9 @@ NameError: name 'chg24' is not defined
 NameError: name 'chg24' is not defined
 
 [2026-09-14 08:24:17 UTC] [runner] Sleeping 60s
-TC] [runner] Sleeping 60s
-[2026-09-14 08:21:13 UTC] [runner] Tick
-[2026-09-14 08:21:14 UTC] [runner] Tick FAILED (rc=1)
-[2026-09-14 08:21:14 UTC] [runner] STDERR: Traceback (most recent call last):
+[2026-09-14 08:25:17 UTC] [runner] Tick
+[2026-09-14 08:25:19 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 08:25:19 UTC] [runner] STDERR: Traceback (most recent call last):
   File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 550, in <module>
     main()
     ~~~~^^
@@ -1013,7 +1012,8 @@ TC] [runner] Sleeping 60s
        ^^^^^
 NameError: name 'chg24' is not defined
 
-[2026-09-14 08:21:14 UTC] [runner] Sleeping 60s
+[2026-09-14 08:25:19 UTC] [runner] Sleeping 60s
+TC] [runner] Sleeping 60s
 [2026-09-14 08:22:14 UTC] [runner] Tick
 [2026-09-14 08:22:15 UTC] [runner] Tick FAILED (rc=1)
 [2026-09-14 08:22:15 UTC] [runner] STDERR: Traceback (most recent call last):
@@ -1056,8 +1056,9 @@ NameError: name 'chg24' is not defined
 NameError: name 'chg24' is not defined
 
 [2026-09-14 08:24:17 UTC] [runner] Sleeping 60s
-1)
-[2026-09-14 06:53:32 UTC] [runner] STDERR: Traceback (most recent call last):
+[2026-09-14 08:25:17 UTC] [runner] Tick
+[2026-09-14 08:25:19 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 08:25:19 UTC] [runner] STDERR: Traceback (most recent call last):
   File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 550, in <module>
     main()
     ~~~~^^
@@ -1068,9 +1069,8 @@ NameError: name 'chg24' is not defined
        ^^^^^
 NameError: name 'chg24' is not defined
 
-[2026-09-14 06:53:32 UTC] [runner] Sleeping 60s
-[2026-09-14 06:53:33 UTC] [runner] Tick FAILED (rc=1)
-[2026-09-14 06:53:33 UTC] [runner] STDERR: Traceback (most recent call last):
+[2026-09-14 08:25:19 UTC] [runner] Sleeping 60s
+DERR: Traceback (most recent call last):
   File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 550, in <module>
     main()
     ~~~~^^
@@ -2054,3 +2054,31 @@ NameError: name 'chg24' is not defined
 NameError: name 'chg24' is not defined
 
 [2026-09-14 08:24:17 UTC] [runner] Sleeping 60s
+[2026-09-14 08:25:17 UTC] [runner] Tick
+[2026-09-14 08:25:17 UTC] [runner] Tick
+[2026-09-14 08:25:19 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 08:25:19 UTC] [runner] STDERR: Traceback (most recent call last):
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 550, in <module>
+    main()
+    ~~~~^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 504, in main
+    decision = decide(p, state)
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 321, in decide
+    if chg24 < -50: score -= 2; reasons.append("dropping")
+       ^^^^^
+NameError: name 'chg24' is not defined
+
+[2026-09-14 08:25:19 UTC] [runner] Sleeping 60s
+[2026-09-14 08:25:19 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 08:25:19 UTC] [runner] STDERR: Traceback (most recent call last):
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 550, in <module>
+    main()
+    ~~~~^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 504, in main
+    decision = decide(p, state)
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 321, in decide
+    if chg24 < -50: score -= 2; reasons.append("dropping")
+       ^^^^^
+NameError: name 'chg24' is not defined
+
+[2026-09-14 08:25:19 UTC] [runner] Sleeping 60s
