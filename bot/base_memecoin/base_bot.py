@@ -291,8 +291,11 @@ def filter_pair(pair):
 
 def decide(pair, state):
     """Make a trade decision. Returns dict or None."""
+    # v1.4: Symbol may be missing in DexPaprika data. Use short address as fallback.
     sym = pair.get("baseToken", {}).get("symbol", "?")
     addr = pair.get("baseToken", {}).get("address", "?")
+    if sym == "?" and addr != "?":
+        sym = "0x" + addr[-6:]
     name = pair.get("baseToken", {}).get("name", "?")
     price = to_float(pair.get("priceUsd", 0))
     liq = to_float(pair.get("liquidity", {}).get("usd", 0))
