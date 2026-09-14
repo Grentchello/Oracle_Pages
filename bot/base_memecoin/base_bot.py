@@ -438,7 +438,31 @@ def execute_sell(state, key, fraction, reason):
             break
     
     if cur_price <= 0:
-        log(f"  Can\'t get current price for {pos['symbol']}, skipping sell")
+        log(f"  Can\'t get current price for {pos['symbol']} — forcing ghost exit")
+        # Force close position with -100% loss since we can\'t verify exit price
+        position_size_eth = pos.get("position_size_eth", pos.get("entry_sol_spent", 0.01))
+        trade = {
+            "symbol": pos["symbol"],
+            "name": pos["name"],
+            "address": pos["address"],
+            "amount_eth_sold": position_size_eth,
+            "fraction_sold": 1.0,
+            "entry_time": pos["entry_time"],
+            "exit_time": datetime.now(timezone.utc).isoformat(),
+            "entry_price_usd": entry_price,
+            "exit_price_usd": 0.0,
+            "entry_amount_eth": position_size_eth,
+            "exit_amount_eth": 0.0,
+            "pnl_eth": -position_size_eth,
+            "pnl_pct": -100.0,
+            "exit_reason": f"[GHOST] {reason} — no price data",
+            "entry_liquidity_usd": pos.get("entry_liquidity_usd", 0),
+            "exit_liquidity_usd": 0,
+            "ghost_exit": True,
+        }
+        state["trades"].append(trade)
+        if key in state["positions"]:
+            del state["positions"][key]
         return
     
     entry_price = pos["entry_price_usd"]
