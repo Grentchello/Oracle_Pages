@@ -19,8 +19,26 @@ def log(msg):
         f.write(line + "\n")
 
 
+import os, sys
+LOCK_FILE = "/tmp/base_bot_runner.lock"
+
+def is_already_running():
+    if os.path.exists(LOCK_FILE):
+        try:
+            pid = int(open(LOCK_FILE).read().strip())
+            os.kill(pid, 0)
+            return True
+        except (OSError, ValueError):
+            pass
+    with open(LOCK_FILE, "w") as f:
+        f.write(str(os.getpid()))
+    return False
+
 def main():
-    log(f"Starting base bot runner (interval={INTERVAL_SECONDS}s)")
+    if is_already_running():
+        log("ERROR: Another base bot runner is already running. Exiting.")
+        sys.exit(1)
+    log(f"Starting base bot runner (interval={INTERVAL_SECONDS}s) PID={os.getpid()}")
     while True:
         try:
             log("Tick")
