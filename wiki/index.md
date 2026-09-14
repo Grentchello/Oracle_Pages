@@ -15,14 +15,25 @@ title: oracle_Vault — Master Dashboard
 
 <div class="grid cards" markdown>
 
--   :material-rocket-launch: **[Memecoin Trading Bot](projects/memecoin-trading/index.md)**
+-   :material-rocket-launch: **[Memecoin Trading Bot (Solana)](projects/memecoin-trading/index.md)**
 
     ---
 
-    **Status:** planning — research & design phase
+    **Status:** v9.3 live. Solana chain, 60s ticks, GMGN fragility gate.
 
-    Autonomous memecoin trading bot. Ground zero: deciding on chain, strategy,
-    and infrastructure before any code.
+    Paper trading memecoins on Solana with ME2F fragility scoring,
+    slippage simulation, and ghost exits for rugs.
+
+-   :material-rocket-launch: **[Base Memecoin Trading](projects/base-memecoin/dashboard.html)**
+
+    ---
+
+    **Status:** v1.0 live. Base chain (Coinbase L2), 60s ticks, 0.1 ETH.
+
+    Autonomous paper trading of Base chain memecoins via DexPaprika
+    and DexScreener. Different dashboard, different strategy.
+
+    [🔵 Open Base Dashboard →](projects/base-memecoin/dashboard.html){ .md-button }
 
 -   :material-rocket-launch: **[Trading Pairs Bot](projects/trading-pairs/index.md)**
 
