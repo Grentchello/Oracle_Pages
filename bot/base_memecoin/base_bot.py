@@ -302,7 +302,6 @@ def decide(pair, state):
     if sym == "?" and addr != "?":
         sym = "0x" + addr[-6:]
     name = pair.get("baseToken", {}).get("name", "?")
-    price = to_float(pair.get("priceUsd", 0))
     liq = to_float(pair.get("liquidity", {}).get("usd", 0))
     vol = to_float(pair.get("volume", {}).get("h24", 0))
     age = pair_age_minutes(pair)
