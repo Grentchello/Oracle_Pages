@@ -102,53 +102,102 @@ def save_state(state):
 
 
 # === DexScreener API ===
-def fetch_base_pairs():
-    """Fetch Base chain pairs from DexScreener token profiles endpoint.
+
+
+def fetch_new_base_pools():
+    """Fetch newest Base pools via DexPaprika (50k free/month, no key)"""
+    url = "https://api.dexpaprika.com/networks/base/pools/search?sort=desc&order_by=created_at&limit=20"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "base-bot/1.0"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode())
+            return data.get("results", [])
+    except Exception as e:
+        log(f"DexPaprika error: {e}")
+        return []
+
+
+def pool_to_pair_format(pool):
+    """Convert DexPaprika pool to DexScreener-like pair format for consistency"""
+    tokens = pool.get("tokens", [])
+    base = tokens[0] if len(tokens) > 0 else {}
+    quote = tokens[1] if len(tokens) > 1 else {}
     
-    DexScreener doesn\'t have a "new pairs" endpoint. The website shows it but
-    the API requires using token-profiles or token-boosts, then filtering
-    locally on pairCreatedAt.
+    # Parse created_at to ms timestamp
+    pair_created_ms = None
+    try:
+        from datetime import datetime
+        dt = datetime.fromisoformat(pool.get("created_at", "").replace("Z", "+00:00"))
+        pair_created_ms = int(dt.timestamp() * 1000)
+    except:
+        pass
+    
+    return {
+        "chainId": pool.get("chain", "base"),
+        "dexId": pool.get("dex_id", "?"),
+        "pairAddress": pool.get("id", "?"),
+        "baseToken": {
+            "address": base.get("id", base.get("address", "?")),
+            "name": base.get("name", "?"),
+            "symbol": base.get("symbol", "?"),
+        },
+        "quoteToken": {
+            "symbol": quote.get("symbol", "?"),
+        },
+        "priceUsd": str(pool.get("price_usd", 0)),
+        "liquidity": {"usd": pool.get("liquidity_usd", 0)},
+        "volume": {"h24": pool.get("volume_usd_24h", 0)},
+        "priceChange": {
+            "h24": pool.get("price_change_percentage_24h", 0),
+            "h1": pool.get("price_change_percentage_1h", 0),
+        },
+        "fdv": pool.get("fdv_usd", 0),
+        "marketCap": pool.get("market_cap_usd", 0),
+        "pairCreatedAt": pair_created_ms,
+        "txns": {"h24": {"buys": 0, "sells": pool.get("transactions_24h", 0)}},
+        "dexpaprika_raw": pool,
+    }
+
+
+def fetch_base_pairs():
+    """Fetch Base chain pairs from DexPaprika (sorted by creation time) + DexScreener boosts.
+    
+    Primary source: DexPaprika (50k free/month, no key, sorted by creation time).
+    Fallback: DexScreener token profiles/boosts (60 req/min, profile-based).
     """
     pairs = []
     
-    # 1. Get latest token profiles
-    for endpoint in [
-        "https://api.dexscreener.com/token-profiles/latest/v1",
-        "https://api.dexscreener.com/token-boosts/latest/v1",
-    ]:
-        try:
-            req = urllib.request.Request(endpoint, headers={"User-Agent": "base-bot/1.0"})
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                data = json.loads(resp.read().decode())
-                # Get token addresses from profiles
-                for profile in data if isinstance(data, list) else []:
-                    addr = profile.get("tokenAddress")
-                    chain = profile.get("chainId")
-                    if chain == "base" and addr:
-                        pairs.append({"address": addr, "profile": profile})
-        except Exception as e:
-            log(f"Profile endpoint error: {e}")
+    # Primary: DexPaprika new pools
+    pools = fetch_new_base_pools()
+    for p in pools:
+        pairs.append(pool_to_pair_format(p))
     
-    # 2. For each Base token address, fetch full pair data
-    base_pairs = []
-    seen = set()
-    for p in pairs[:10]:  # limit to 10 tokens per tick to respect rate limit
-        try:
-            url = f"https://api.dexscreener.com/token-pairs/v1/base/{p['address']}"
-            req = urllib.request.Request(url, headers={"User-Agent": "base-bot/1.0"})
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                token_pairs = json.loads(resp.read().decode())
-                for tp in token_pairs:
-                    if tp.get("chainId") == "base":
-                        key = f"{tp.get('chainId')}:{tp.get('pairAddress')}"
-                        if key not in seen:
-                            seen.add(key)
-                            base_pairs.append(tp)
-        except Exception as e:
-            log(f"Token pairs error for {p['address']}: {e}")
+    # If no DexPaprika results, try DexScreener profiles
+    if not pairs:
+        log("DexPaprika empty, falling back to DexScreener profiles")
+        for endpoint in [
+            "https://api.dexscreener.com/token-profiles/latest/v1",
+            "https://api.dexscreener.com/token-boosts/latest/v1",
+        ]:
+            try:
+                req = urllib.request.Request(endpoint, headers={"User-Agent": "base-bot/1.0"})
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    data = json.loads(resp.read().decode())
+                    for profile in data if isinstance(data, list) else []:
+                        if profile.get("chainId") == "base" and profile.get("tokenAddress"):
+                            addr = profile["tokenAddress"]
+                            url = f"https://api.dexscreener.com/token-pairs/v1/base/{addr}"
+                            req2 = urllib.request.Request(url, headers={"User-Agent": "base-bot/1.0"})
+                            with urllib.request.urlopen(req2, timeout=10) as resp2:
+                                token_pairs = json.loads(resp2.read().decode())
+                                for tp in token_pairs:
+                                    if tp.get("chainId") == "base":
+                                        pairs.append(tp)
+                                        break
+            except Exception as e:
+                log(f"DexScreener fallback error: {e}")
     
-    return base_pairs
-
+    return pairs
 
 def fetch_token_pairs(address):
     """Fetch all pairs for a specific token"""
