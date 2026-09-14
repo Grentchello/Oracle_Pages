@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Base Chain Trading Dashboard</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    background: linear-gradient(135deg, #1e3a8a 0%, #312e81 50%, #1e1b4b 100%);
+    color: #e2e8f0;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  .header {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header h1 {
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .badge-base {
+    background: linear-gradient(90deg, #0052ff, #00d4ff);
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .kpi-card {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 1.25rem;
+  }
+  .kpi-label {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+  }
+  .kpi-value {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #f8fafc;
+  }
+  .kpi-value.pos { color: #4ade80; }
+  .kpi-value.neg { color: #f87171; }
+  .kpi-sub {
+    font-size: 0.875rem;
+    color: #94a3b8;
+    margin-top: 0.25rem;
+  }
+  .section {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .section h2 {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    color: #cbd5e1;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 0.5rem;
+  }
+  .trade-list { list-style: none; }
+  .trade-item {
+    background: rgba(0,0,0,0.2);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.5rem;
+  }
+  .trade-item:hover { background: rgba(0,0,0,0.3); }
+  .trade-symbol { font-weight: 700; font-size: 1.125rem; color: #f8fafc; }
+  .trade-meta { font-size: 0.75rem; color: #94a3b8; margin-top: 0.25rem; }
+  .trade-mint {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 0.7rem;
+    color: #60a5fa;
+    word-break: break-all;
+    margin-top: 0.3rem;
+    padding: 0.3rem;
+    background: rgba(96, 165, 250, 0.08);
+    border-radius: 4px;
+  }
+  .trade-pnl { font-weight: 700; font-size: 1.125rem; text-align: right; }
+  .trade-pnl.pos { color: #4ade80; }
+  .trade-pnl.neg { color: #f87171; }
+  .empty-state {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #64748b;
+    font-style: italic;
+  }
+  .live-indicator {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #4ade80;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+  .position-card {
+    background: linear-gradient(135deg, rgba(96, 165, 250, 0.15), rgba(167, 139, 250, 0.15));
+    border: 1px solid rgba(96, 165, 250, 0.3);
+    border-radius: 12px;
+    padding: 1.25rem;
+  }
+  .position-card.empty {
+    background: rgba(255,255,255,0.03);
+    border-style: dashed;
+    border-color: rgba(255,255,255,0.15);
+    text-align: center;
+    color: #64748b;
+    font-style: italic;
+  }
+  .footer {
+    text-align: center;
+    color: #64748b;
+    font-size: 0.75rem;
+    padding: 1rem;
+  }
+  .refresh-btn {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    color: #cbd5e1;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.875rem;
+  }
+  .refresh-btn:hover { background: rgba(255,255,255,0.15); }
+  .chain-tag {
+    display: inline-block;
+    background: rgba(0, 82, 255, 0.2);
+    color: #60a5fa;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+  }
+  .dex-tag {
+    display: inline-block;
+    background: rgba(167, 139, 250, 0.2);
+    color: #c4b5fd;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-left: 0.3rem;
+  }
+  .error-banner {
+    background: rgba(248, 113, 113, 0.1);
+    border: 1px solid rgba(248, 113, 113, 0.3);
+    border-radius: 8px;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    color: #fca5a5;
+    font-size: 0.875rem;
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    <div>
+      <h1>🔵 Base Chain Memecoin Trading</h1>
+      <p style="color: #94a3b8; font-size: 0.875rem; margin-top: 0.25rem;">
+        <span class="live-indicator"></span>Live · Paper Trading · 60s ticks
+      </p>
+    </div>
+    <div style="text-align: right;">
+      <div class="badge-base">BASE</div>
+      <button class="refresh-btn" onclick="refresh()" style="margin-top: 0.5rem;">↻ Refresh</button>
+    </div>
+  </div>
+
+  <div id="error-banner"></div>
+
+  <!-- KPIs -->
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="kpi-label">Balance</div>
+      <div class="kpi-value" id="kpi-balance">0.100 ETH</div>
+      <div class="kpi-sub">Starting: 0.100 ETH</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Today PnL</div>
+      <div class="kpi-value" id="kpi-today-pnl">+0.0000 ETH</div>
+      <div class="kpi-sub" id="kpi-today-trades">0 trades today</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Total PnL</div>
+      <div class="kpi-value" id="kpi-total-pnl">+0.0000 ETH</div>
+      <div class="kpi-sub" id="kpi-total-trades">0 trades total</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Win Rate</div>
+      <div class="kpi-value" id="kpi-winrate">0%</div>
+      <div class="kpi-sub" id="kpi-wlt">0W / 0L</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Positions</div>
+      <div class="kpi-value" id="kpi-positions">0</div>
+      <div class="kpi-sub" id="kpi-status">Watching for opportunities</div>
+    </div>
+  </div>
+
+  <!-- Open Position -->
+  <div class="section">
+    <h2>📍 Current Position</h2>
+    <div id="position-container">
+      <div class="position-card empty">No open position. Bot scanning for new pairs...</div>
+    </div>
+  </div>
+
+  <!-- Recent Trades -->
+  <div class="section">
+    <h2>📊 Recent Trades (last 20)</h2>
+    <ul class="trade-list" id="trades">
+      <li class="empty-state">Waiting for first trade...</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    Data: DexPaprika + DexScreener · Bot: v1.0 · Started: 2026-09-14
+  </div>
+
+<script>
+const STATE_URL = '/projects/base-memecoin/state.json';
+const REFRESH_MS = 30000;
+
+async function fetchJSON(url) {
+  const resp = await fetch(url + '?t=' + Date.now());
+  if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+  return resp.json();
+}
+
+function fmtETH(v) {
+  const sign = v >= 0 ? '+' : '';
+  return sign + v.toFixed(5) + ' ETH';
+}
+
+function fmtPct(v) {
+  const sign = v >= 0 ? '+' : '';
+  return sign + v.toFixed(1) + '%';
+}
+
+function shortAddr(addr) {
+  if (!addr || addr.length < 10) return addr || '';
+  return addr.slice(0, 6) + '...' + addr.slice(-4);
+}
+
+async function refresh() {
+  try {
+    const state = await fetchJSON(STATE_URL);
+    document.getElementById('error-banner').innerHTML = '';
+    
+    // Balance
+    const bal = state.balance_eth || 0;
+    const startBal = state.starting_balance_eth || 0.1;
+    document.getElementById('kpi-balance').textContent = bal.toFixed(4) + ' ETH';
+    document.querySelector('#kpi-balance').nextElementSibling.textContent = 'Starting: ' + startBal.toFixed(3) + ' ETH';
+    
+    // Today PnL
+    const todayPnl = state.today_pnl_eth || 0;
+    const todayEl = document.getElementById('kpi-today-pnl');
+    todayEl.textContent = fmtETH(todayPnl);
+    todayEl.className = 'kpi-value ' + (todayPnl >= 0 ? 'pos' : 'neg');
+    
+    const todayTrades = (state.trades || []).filter(t => t.exit_time && t.exit_time.startsWith(new Date().toISOString().slice(0,10)));
+    document.getElementById('kpi-today-trades').textContent = todayTrades.length + ' trades today';
+    
+    // Total PnL
+    const totalPnl = state.total_pnl_eth || 0;
+    const totalEl = document.getElementById('kpi-total-pnl');
+    totalEl.textContent = fmtETH(totalPnl);
+    totalEl.className = 'kpi-value ' + (totalPnl >= 0 ? 'pos' : 'neg');
+    
+    const allTrades = state.trades || [];
+    document.getElementById('kpi-total-trades').textContent = allTrades.length + ' trades total';
+    
+    // Win rate
+    const wins = allTrades.filter(t => t.pnl_eth > 0).length;
+    const losses = allTrades.filter(t => t.pnl_eth <= 0).length;
+    const wr = allTrades.length ? Math.round(wins / allTrades.length * 100) : 0;
+    document.getElementById('kpi-winrate').textContent = wr + '%';
+    document.getElementById('kpi-wlt').textContent = wins + 'W / ' + losses + 'L';
+    
+    // Positions
+    const positions = state.positions || {};
+    const posCount = Object.keys(positions).length;
+    document.getElementById('kpi-positions').textContent = posCount;
+    document.getElementById('kpi-status').textContent = posCount > 0 ? 'Holding position' : 'Watching for opportunities';
+    
+    // Open Position
+    const posContainer = document.getElementById('position-container');
+    if (posCount > 0) {
+      const pos = Object.values(positions)[0];
+      const entryPnlPct = pos.entry_price_usd > 0 ? ((1 - 1) * 100).toFixed(1) : 0;
+      posContainer.innerHTML = `
+        <div class="position-card">
+          <div style="display: flex; justify-content: space-between; align-items: start;">
+            <div>
+              <div style="font-size: 1.5rem; font-weight: 700;">$${pos.symbol || '?'} <span class="chain-tag">BASE</span><span class="dex-tag">${pos.entry_dex || '?'}</span></div>
+              <div class="trade-mint">${pos.address || 'no address'}</div>
+              <div class="trade-meta">
+                Entry: ${(pos.entry_price_usd || 0).toExponential(2)} · 
+                Liquidity at entry: $${(pos.entry_liquidity_usd || 0).toFixed(0)} · 
+                ${new Date(pos.entry_time).toLocaleString()}
+              </div>
+            </div>
+            <div style="text-align: right;">
+              <div style="font-size: 0.75rem; color: #94a3b8;">Position</div>
+              <div style="font-size: 1.5rem; font-weight: 700;">${(pos.amount_eth || 0).toFixed(4)} ETH</div>
+              <div class="trade-meta">${(pos.entry_score || 0)} score: ${(pos.entry_reasons || []).join(', ')}</div>
+            </div>
+          </div>
+        </div>
+      `;
+    } else {
+      posContainer.innerHTML = '<div class="position-card empty">No open position. Bot scanning for new pairs...</div>';
+    }
+    
+    // Recent Trades
+    const tradesEl = document.getElementById('trades');
+    if (allTrades.length === 0) {
+      tradesEl.innerHTML = '<li class="empty-state">Waiting for first trade...</li>';
+    } else {
+      const recent = allTrades.slice(-20).reverse();
+      tradesEl.innerHTML = recent.map(t => {
+        const pnl = t.pnl_eth || 0;
+        const pnlPct = t.pnl_pct || 0;
+        const cls = pnl >= 0 ? 'pos' : 'neg';
+        const ghost = t.ghost_exit ? '<span class="chain-tag" style="background: rgba(248,113,113,0.2); color: #fca5a5;">GHOST</span>' : '';
+        return `
+          <li class="trade-item">
+            <div>
+              <div class="trade-symbol">$${t.symbol || '?'} ${ghost}<span class="chain-tag">BASE</span></div>
+              <div class="trade-mint">${t.address || 'no address'}</div>
+              <div class="trade-meta">
+                ${new Date(t.entry_time).toLocaleString()} → ${new Date(t.exit_time).toLocaleString()}
+              </div>
+              <div class="trade-meta">
+                Entry $${(t.entry_price_usd || 0).toExponential(2)} · Exit $${(t.exit_price_usd || 0).toExponential(2)} · ${t.exit_reason || ''}
+              </div>
+              <div class="trade-meta">
+                Entry liquidity: $${(t.entry_liquidity_usd || 0).toFixed(0)} · 
+                Exit liquidity: $${(t.exit_liquidity_usd || 0).toFixed(0)}
+              </div>
+            </div>
+            <div class="trade-pnl ${cls}">
+              <div>${fmtETH(pnl)}</div>
+              <div style="font-size: 0.875rem; font-weight: 400;">${fmtPct(pnlPct)}</div>
+              <div style="font-size: 0.7rem; color: #94a3b8; margin-top: 0.25rem;">
+                ${t.fraction_sold ? Math.round(t.fraction_sold * 100) + '% sold' : 'full'}
+              </div>
+            </div>
+          </li>
+        `;
+      }).join('');
+    }
+  } catch (e) {
+    document.getElementById('error-banner').innerHTML = `<div class="error-banner">⚠ Failed to load state: ${e.message}</div>`;
+  }
+}
+
+refresh();
+setInterval(refresh, REFRESH_MS);
+</script>
+</body>
+</html>
