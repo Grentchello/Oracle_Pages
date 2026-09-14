@@ -294,6 +294,11 @@ def decide(pair, state):
     # v1.4: Symbol may be missing in DexPaprika data. Use short address as fallback.
     sym = pair.get("baseToken", {}).get("symbol", "?")
     addr = pair.get("baseToken", {}).get("address", "?")
+    
+    # v1.5: Skip stablecoins / wrapped assets (price > $1)
+    price = to_float(pair.get("priceUsd", 0))
+    if price > 1.0:
+        return None  # Skip - probably stablecoin
     if sym == "?" and addr != "?":
         sym = "0x" + addr[-6:]
     name = pair.get("baseToken", {}).get("name", "?")
