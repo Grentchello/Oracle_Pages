@@ -449,7 +449,9 @@ def execute_sell(state, key, fraction, reason):
     else:
         actual_exit_price = cur_price
     
-    sol_received_eth = (pos["amount_eth"] * fraction) * (actual_exit_price / entry_price)
+    # v1.3 FIX: use position_size_eth (entry amount), NOT amount (token count)
+    position_size_eth = pos.get("entry_sol_spent", pos.get("amount_eth", 0)) * fraction
+    sol_received_eth = position_size_eth * (actual_exit_price / entry_price)
     
     trade = {
         "symbol": pos["symbol"],
