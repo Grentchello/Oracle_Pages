@@ -99,6 +99,13 @@ def save_state(state):
     state["last_updated"] = datetime.now(timezone.utc).isoformat()
     STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
     STATE_PATH.write_text(json.dumps(state, indent=2))
+    # Also write to wiki for dashboard
+    try:
+        wiki_state = Path("/opt/data/hermes_work/wiki/projects/base-memecoin/state.json")
+        wiki_state.parent.mkdir(parents=True, exist_ok=True)
+        wiki_state.write_text(json.dumps(state, indent=2))
+    except:
+        pass
 
 
 # === DexScreener API ===
