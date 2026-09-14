@@ -123,21 +123,25 @@
 [2026-09-14 05:52:24 UTC] [runner] Tick OK
 [2026-09-14 05:52:24 UTC] [runner] Last: [2026-09-14 05:52:24 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
 [2026-09-14 05:52:24 UTC] [runner] Sleeping 60s
-[runner] Tick
-[2026-09-14 05:43:12 UTC] [runner] Tick OK
-[2026-09-14 05:43:12 UTC] [runner] Last: [2026-09-14 05:43:12 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
-[2026-09-14 05:43:12 UTC] [runner] Sleeping 60s
-[2026-09-14 05:44:12 UTC] [runner] Tick
-[2026-09-14 05:44:14 UTC] [runner] Tick OK
-[2026-09-14 05:44:14 UTC] [runner] Last: [2026-09-14 05:44:14 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
-[2026-09-14 05:44:14 UTC] [runner] Sleeping 60s
-[2026-09-14 05:45:14 UTC] [runner] Tick
-[2026-09-14 05:45:15 UTC] [runner] Tick OK
-[2026-09-14 05:45:15 UTC] [runner] Last: [2026-09-14 05:45:15 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
-[2026-09-14 05:45:15 UTC] [runner] Sleeping 60s
-[2026-09-14 05:46:15 UTC] [runner] Tick
-[2026-09-14 05:46:16 UTC] [runner] Tick OK
-[2026-09-14 05:46:16 UTC] [runner] Last: [2026-09-14 05:46:16 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
+[2026-09-14 05:53:24 UTC] [runner] Tick
+[2026-09-14 05:53:25 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 05:53:25 UTC] [runner] STDERR: Traceback (most recent call last):
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 550, in <module>
+    main()
+    ~~~~^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 504, in main
+    decision = decide(p, state)
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 321, in decide
+    if chg24 < -50: score -= 2; reasons.append("dropping")
+       ^^^^^
+NameError: name 'chg24' is not defined
+
+[2026-09-14 05:53:25 UTC] [runner] Sleeping 60s
+[2026-09-14 05:54:25 UTC] [runner] Tick
+[2026-09-14 05:54:26 UTC] [runner] Tick OK
+[2026-09-14 05:54:26 UTC] [runner] Last: [2026-09-14 05:54:26 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
+[2026-09-14 05:54:26 UTC] [runner] Sleeping 60s
+16 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
 [2026-09-14 05:46:16 UTC] [runner] Sleeping 60s
 [2026-09-14 05:47:16 UTC] [runner] Tick
 [2026-09-14 05:47:18 UTC] [runner] Tick OK
@@ -163,20 +167,25 @@
 [2026-09-14 05:52:24 UTC] [runner] Tick OK
 [2026-09-14 05:52:24 UTC] [runner] Last: [2026-09-14 05:52:24 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
 [2026-09-14 05:52:24 UTC] [runner] Sleeping 60s
-9-14 05:37:10 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
-[2026-09-14 05:37:10 UTC] [runner] Sleeping 60s
-[2026-09-14 05:38:06 UTC] [runner] Tick
-[2026-09-14 05:38:07 UTC] [runner] Tick OK
-[2026-09-14 05:38:07 UTC] [runner] Last: [2026-09-14 05:38:07 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
-[2026-09-14 05:38:07 UTC] [runner] Sleeping 60s
-[2026-09-14 05:38:10 UTC] [runner] Tick
-[2026-09-14 05:38:10 UTC] [runner] Tick OK
-[2026-09-14 05:38:10 UTC] [runner] Last: [2026-09-14 05:38:10 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
-[2026-09-14 05:38:10 UTC] [runner] Sleeping 60s
-[2026-09-14 05:39:07 UTC] [runner] Tick
-[2026-09-14 05:39:08 UTC] [runner] Tick OK
-[2026-09-14 05:39:08 UTC] [runner] Last: [2026-09-14 05:39:08 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
-[2026-09-14 05:39:08 UTC] [runner] Sleeping 60s
+[2026-09-14 05:53:24 UTC] [runner] Tick
+[2026-09-14 05:53:25 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 05:53:25 UTC] [runner] STDERR: Traceback (most recent call last):
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 550, in <module>
+    main()
+    ~~~~^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 504, in main
+    decision = decide(p, state)
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 321, in decide
+    if chg24 < -50: score -= 2; reasons.append("dropping")
+       ^^^^^
+NameError: name 'chg24' is not defined
+
+[2026-09-14 05:53:25 UTC] [runner] Sleeping 60s
+[2026-09-14 05:54:25 UTC] [runner] Tick
+[2026-09-14 05:54:26 UTC] [runner] Tick OK
+[2026-09-14 05:54:26 UTC] [runner] Last: [2026-09-14 05:54:26 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
+[2026-09-14 05:54:26 UTC] [runner] Sleeping 60s
+eeping 60s
 [2026-09-14 05:39:10 UTC] [runner] Tick
 [2026-09-14 05:39:11 UTC] [runner] Tick OK
 [2026-09-14 05:39:11 UTC] [runner] Last: [2026-09-14 05:39:11 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
@@ -285,3 +294,39 @@
 [2026-09-14 05:52:24 UTC] [runner] Tick OK
 [2026-09-14 05:52:24 UTC] [runner] Last: [2026-09-14 05:52:24 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
 [2026-09-14 05:52:24 UTC] [runner] Sleeping 60s
+[2026-09-14 05:53:24 UTC] [runner] Tick
+[2026-09-14 05:53:24 UTC] [runner] Tick
+[2026-09-14 05:53:25 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 05:53:25 UTC] [runner] STDERR: Traceback (most recent call last):
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 550, in <module>
+    main()
+    ~~~~^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 504, in main
+    decision = decide(p, state)
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 321, in decide
+    if chg24 < -50: score -= 2; reasons.append("dropping")
+       ^^^^^
+NameError: name 'chg24' is not defined
+
+[2026-09-14 05:53:25 UTC] [runner] Sleeping 60s
+[2026-09-14 05:53:25 UTC] [runner] Tick FAILED (rc=1)
+[2026-09-14 05:53:25 UTC] [runner] STDERR: Traceback (most recent call last):
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 550, in <module>
+    main()
+    ~~~~^^
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 504, in main
+    decision = decide(p, state)
+  File "/opt/data/hermes_work/bot/base_memecoin/base_bot.py", line 321, in decide
+    if chg24 < -50: score -= 2; reasons.append("dropping")
+       ^^^^^
+NameError: name 'chg24' is not defined
+
+[2026-09-14 05:53:25 UTC] [runner] Sleeping 60s
+[2026-09-14 05:54:25 UTC] [runner] Tick
+[2026-09-14 05:54:25 UTC] [runner] Tick
+[2026-09-14 05:54:26 UTC] [runner] Tick OK
+[2026-09-14 05:54:26 UTC] [runner] Last: [2026-09-14 05:54:26 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
+[2026-09-14 05:54:26 UTC] [runner] Sleeping 60s
+[2026-09-14 05:54:26 UTC] [runner] Tick OK
+[2026-09-14 05:54:26 UTC] [runner] Last: [2026-09-14 05:54:26 UTC] Final: balance=0.1 ETH, positions=0, today PnL=+0.00000 ETH
+[2026-09-14 05:54:26 UTC] [runner] Sleeping 60s
