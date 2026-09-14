@@ -51,8 +51,8 @@ MAX_HOLD_MINUTES = 30          # 30 min max hold
 DAILY_MAX_LOSS_ETH = 0.05      # -0.05 ETH/day cap
 
 # === Entry gates ===
-MIN_LIQUIDITY_USD = 10000      # require $10k+ liquidity
-MIN_VOLUME_24H_USD = 5000      # require $5k+ 24h volume
+MIN_LIQUIDITY_USD = 500       # v8.2: lowered from $10k - was blocking all trades
+MIN_VOLUME_24H_USD = 1000     # v8.2: lowered from $5k
 MIN_PAIR_AGE_MINUTES = 2       # wait 2 min before considering
 MAX_PAIR_AGE_MINUTES = 1440    # only tokens <24h old
 
