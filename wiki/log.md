@@ -791,3 +791,12 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - v9.2/v9.1/v8.9 filters per log tail: rejecting 16-18/25 candidates/tick (bonding-curve<3 SOL, age<1min). Designed behavior, no drift.
 - **Honest slippage accounting (per user reminder):** lifetime +26.36 SOL is paper via v9.0 quadratic sim. Last 7d +28.53 SOL concentrated in 2-3 mega-runners (CROCODILE/HOTPUMP-style) likely paper-overstates real fillable on thin bonding curves. Treat as upper bound. The −1.97 SOL last-50 is the more honest recent signal.
 - **Verdict: Profitable (lifetime), no changes needed.** Bot correctly idle while awaiting SOL topup to clear the 0.07 SOL minimum (position 0.05 + reserve 0.02). v8.7+ mechanical rules preserved per user hard constraint. v9.2/v9.1/v8.9/v9.3 filters operating as designed. No settings change. Funding is the only blocker.
+
+## [2026-09-14 15:32 UTC] eval | memecoin bot — 2026-09-14 15:32 UTC
+- Window since last eval (13:30 UTC, ~2h): **0 new trades**. Trade count steady at 3,519. Bot continues idle due to balance floor.
+- **Balance: 0.041267 SOL** unchanged. Still buy-blocked at 0.07 SOL required floor (POSITION_SIZE_SOL 0.05 + RESERVE_SOL 0.02). Bot pid 3795456 alive, ticking every 60s. Last tick at 15:32:05 UTC.
+- Runner log tail (15:22–15:32 UTC): v9.2 rejecting 1-3 candidates/tick on bonding-curve<3 SOL; v9.1 dropping 16-20/25; v8.9 age filter dropping 1-3/tick on age<1min. Net pass-through: 0-4 candidates/tick to LLM, but balance floor blocks all buys. Filters operating as designed.
+- No state delta since 13:30 eval — identical situation. Same lifetime stats apply: +26.3644 SOL paper (upper bound), 1295W/1541L/683BE = 36.80% WR, 855 ghost exits (24.3%).
+- Last 50 trades window (since 2026-09-13 03:16 UTC): **−1.9690 SOL paper, 5W/45L (10% WR), 7 real exits + 43 ghost exits**. Unchanged.
+- **Honest slippage accounting:** lifetime +26.36 SOL is paper via v9.0 quadratic slippage sim. Treat as upper bound only. Last-50 = −1.97 SOL is the more honest recent signal.
+- **Verdict: Profitable (lifetime), no changes needed.** v8.7+ mechanical rules preserved per user hard constraint. v9.2/v9.1/v8.9/v9.3 filters operating as designed. No settings change. The only blocker is the 0.07 SOL minimum — topup will resume trading immediately.
