@@ -2,24 +2,26 @@
   "balance_eth": 0.09000000000000001,
   "starting_balance_eth": 0.1,
   "positions": {
-    "0x4200000000000000000000000000000000000006": {
-      "symbol": "0x000006",
+    "0x0000000000000000000000000000000000000000": {
+      "symbol": "0x000000",
       "name": "?",
-      "address": "0x4200000000000000000000000000000000000006",
+      "address": "0x0000000000000000000000000000000000000000",
       "position_size_eth": 0.01,
       "entry_sol_spent": 0.01,
       "amount_tokens": 0,
-      "entry_price_usd": 1.985333798583431e-06,
-      "entry_time": "2026-09-14T12:08:49.992214+00:00",
-      "entry_liquidity_usd": 16649.73766186458,
-      "entry_volume_24h": 2540.8702608494505,
+      "entry_price_usd": 2510.048046556808,
+      "entry_time": "2026-09-14T12:15:26.695962+00:00",
+      "entry_liquidity_usd": 17959.493131000636,
+      "entry_volume_24h": 12329.802008293942,
       "entry_market_cap": 0.0,
-      "entry_score": -1,
+      "entry_score": 1,
       "entry_reasons": [
-        "fresh",
+        "good vol",
+        "decent liquidity",
+        "established",
         "sell pressure"
       ],
-      "entry_dex": "uniswap_v2",
+      "entry_dex": "uniswap_v4",
       "fraction_sold": 0.0
     }
   },
@@ -27,12 +29,13 @@
   "today_pnl_eth": 0,
   "last_pnl_reset": "2026-09-14",
   "total_pnl_eth": 0,
-  "last_updated": "2026-09-14T12:14:26.010701+00:00",
+  "last_updated": "2026-09-14T12:16:00.660553+00:00",
   "bot_version": "v1.3-base",
   "created": "2026-09-14",
   "v1_3_reset": {
     "reason": "v1.3 fix: amount_eth was token count, not ETH spent. Reset state.",
     "old_balance": "53M ETH (inflated)",
     "new_balance": "0.1 ETH"
-  }
+  },
+  "v1_5_reset": "Tightened scoring + score threshold >= 1"
 }

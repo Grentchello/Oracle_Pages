@@ -314,13 +314,12 @@ def decide(pair, state):
     score = 0
     reasons = []
     
-    # Positive signals
-    if vol > 50000: score += 1; reasons.append("high vol")
-    if liq > 50000: score += 1; reasons.append("deep liquidity")
-    if buys > sells: score += 1; reasons.append("buy pressure")
-    if age < 60: score += 1; reasons.append("fresh")
-    if mcap > 0 and mcap < 500000: score += 1; reasons.append("micro-cap")
-    if fdv > 0 and fdv < 2000000: score += 1; reasons.append("low FDV = upside")
+    # Positive signals (v1.5: higher bars to reduce low-quality trades)
+    if vol > 10000: score += 1; reasons.append("good vol")
+    if liq > 10000: score += 1; reasons.append("decent liquidity")
+    if buys > sells and sells > 0: score += 1; reasons.append("buy pressure")
+    if 1 < age < 1440: score += 1; reasons.append("established")  # 1min-24h, not just fresh
+    if buys > 10 and sells > 5: score += 1; reasons.append("active trading")
     
     # Negative signals
     if sells > buys * 2: score -= 2; reasons.append("sell pressure")
