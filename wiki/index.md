@@ -110,6 +110,4 @@ Admin UI for configuring free LLM providers (OpenAI, Claude, Hermes, Gemini, etc
 [View All Generated Images →](https://incoming-cowboy-crop-and.trycloudflare.com/gallery){ .md-button }
 
 
-## New Projects
 
-- 🔵 **[Base Memecoin Trading](projects/base-memecoin/dashboard.html)** — v1.0 starting today (2026-09-14)
