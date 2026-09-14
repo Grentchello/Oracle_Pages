@@ -65,6 +65,10 @@ date: 2026-09-14
 - `bot/base_memecoin/data/state.json` — balance, positions, trades
 - `bot/base_memecoin/logs/` — runner + bot logs
 
+## 🔵 [Open Live Dashboard →](dashboard.html)
+
+View real-time bot state, balance, positions, and trade history.
+
 ## Current Status
 
 - Balance: 0.1 ETH

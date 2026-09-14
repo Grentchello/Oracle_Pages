@@ -13,14 +13,25 @@ title: Projects
 
 <div class="grid cards" markdown>
 
--   :material-rocket-launch: **[Memecoin Trading Bot](memecoin-trading/index.md)**
+-   :material-rocket-launch: **[Memecoin Trading Bot (Solana)](memecoin-trading/index.md)**
 
     ---
 
-    **Planning** — ground zero.
+    **v9.3 live.** Solana chain, 60s ticks, GMGN fragility gate.
 
-    Autonomous trading bot for memecoins. Currently deciding on chain,
-    strategy, and infrastructure.
+    Autonomous paper trading memecoins on Solana with ME2F fragility scoring,
+    slippage simulation, and ghost exits for rugs.
+
+-   :material-rocket-launch: **[Base Memecoin Trading](base-memecoin/index.md)**
+
+    ---
+
+    **v1.0 live.** Base chain (Coinbase L2), 60s ticks, 0.1 ETH.
+
+    Autonomous paper trading of Base chain memecoins via DexPaprika and
+    DexScreener. Different chain, different dashboard.
+
+    [🔵 Open Live Dashboard →](base-memecoin/dashboard.html){ .md-button }
 
 </div>
 
