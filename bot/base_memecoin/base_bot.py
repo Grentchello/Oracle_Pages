@@ -303,6 +303,8 @@ def decide(pair, state):
     txns = pair.get("txns", {}).get("h24", {})
     buys = txns.get("buys", 0) if isinstance(txns, dict) else 0
     sells = txns.get("sells", 0) if isinstance(txns, dict) else 0
+    chg24 = to_float(pair.get("priceChange", {}).get("h24", 0))
+    chg1h = to_float(pair.get("priceChange", {}).get("h1", 0))
     
     # Buy decision: simple scoring
     score = 0
@@ -321,7 +323,7 @@ def decide(pair, state):
     if chg24 < -50: score -= 2; reasons.append("dropping")
     if "pump" in sym.lower() and len(sym) < 6: score -= 1; reasons.append("generic pump name")
     
-    if score < 2:
+    if score < 0:  # v1.2: lowered from 2 — most pairs score 0-1
         return None
     
     return {
