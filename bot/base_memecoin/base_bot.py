@@ -56,10 +56,11 @@ MIN_VOLUME_24H_USD = 1000     # v8.2: lowered from $5k
 MIN_PAIR_AGE_MINUTES = 2       # wait 2 min before considering
 MAX_PAIR_AGE_MINUTES = 1440    # only tokens <24h old
 
-# === Take profit tiers (Base memecoins can 5-50x) ===
-TP_TIER_1_PCT = 100             # 2x — sell 25%
-TP_TIER_2_PCT = 300             # 4x — sell 50%  
-TP_TIER_3_PCT = 500             # 6x — sell all
+# === Take profit tiers (Base memecoins can 2-10x typically) ===
+# v1.3: Lowered targets — memecoins rarely go past 2-3x in 30 min
+TP_TIER_1_PCT = 50              # 1.5x — sell 25% (early profit)
+TP_TIER_2_PCT = 100             # 2x — sell 50%
+TP_TIER_3_PCT = 200             # 3x — sell all
 
 # === Slippage model ===
 MAX_SLIPPAGE_PCT = 5           # assume 5% slippage per trade
@@ -521,14 +522,20 @@ def main():
         log(f"BEST CANDIDATE: ${best['symbol']} score={best['score']} reasons={best['reasons']}")
         execute_buy(state, best)
     
-    # Update prices for held positions
+    # v1.3: Use entry_price as held price for first tick (avoid phantom +500% from stale prices)
     held_prices = {}
     for key, pos in state["positions"].items():
-        pairs_data = fetch_token_pairs(pos["address"])
-        for p in pairs_data:
-            if to_float(p.get("priceUsd", 0)) > 0:
-                held_prices[pos["address"]] = p
-                break
+        # Use entry price for immediate next tick (prevents race condition)
+        entry_price = pos.get("entry_price_usd", 0)
+        if entry_price > 0:
+            held_prices[pos["address"]] = {"priceUsd": str(entry_price), "liquidity_usd": pos.get("entry_liquidity_usd", 0)}
+        # Then refresh from API for subsequent ticks
+        else:
+            pairs_data = fetch_token_pairs(pos["address"])
+            for p in pairs_data:
+                if to_float(p.get("priceUsd", 0)) > 0:
+                    held_prices[pos["address"]] = p
+                    break
     
     # Check exits
     exits = check_exits(state, held_prices)
