@@ -775,3 +775,9 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - **Last 50 trades window:** unchanged from 05:24 eval: −1.97 SOL paper, 7 real exits + 43 ghost exits. v9.3 honesty gate working correctly.
 - **Honest slippage accounting:** lifetime +26.36 SOL is paper via v9.0 quadratic sim. Last 7d +28.53 SOL concentrated in 2-3 mega-runners — likely largest contribution is from paper exit_price mark-to-mid vs real fillable on thin bonding curves. Treat as upper bound.
 - **Verdict: Profitable (lifetime), no changes needed.** Bot correctly idle while awaiting SOL topup to clear the 0.07 SOL minimum (position + reserve). v9.2/v9.1/v8.9/v9.3 filters operating as designed. v8.7+ mechanical rules preserved per user hard constraint. No settings change. Awaiting funding.
+
+## [2026-09-14 11:28 UTC] eval | memecoin bot — 2026-09-14 11:28 UTC
+- Window since last eval (07:26 UTC, ~4h): **0 new trades** (4h of idle ticks). Trade count steady at 3,519. Bot continues idle due to balance floor.
+- Lifetime stats unchanged since 07:26 eval: +26.36 SOL paper (slippage-adjusted upper bound via v9.0 quadratic), 45.8% win rate (1612W/1816L+91BE), profit factor 1.96, 0 open positions.
+- v9.2/v9.1/v8.9 filters still active and rejecting 17-24/25 candidates/tick — bonding curve reserves still showing 0.00 SOL at eval time on most candidates (pump.fun graduation filter doing the work).
+- **Verdict: Profitable (lifetime), no changes needed.** Bot correctly idle while awaiting SOL topup to clear the 0.07 SOL minimum (position 0.05 + reserve 0.02). No settings change.
