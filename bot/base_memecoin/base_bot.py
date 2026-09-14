@@ -366,9 +366,10 @@ def execute_buy(state, decision):
         "symbol": decision["symbol"],
         "name": decision["name"],
         "address": decision["address"],
-        "position_size_eth": pos_value_eth,  # v1.3 fix: ETH spent on entry
+        "position_size_eth": pos_value_eth,  # ETH spent on entry
         "entry_sol_spent": pos_value_eth,    # alias for compatibility
-        "amount_tokens": 0,  # placeholder; not needed for v1.3 math
+        # amount_tokens: how many tokens we got (used to calc % sold)
+        "amount_tokens": pos_value_eth / decision["price_eth"] if decision["price_eth"] > 0 else 0,
         "entry_price_usd": decision["price_eth"],
         "entry_time": datetime.now(timezone.utc).isoformat(),
         "entry_liquidity_usd": decision["liquidity_usd"],
@@ -469,7 +470,8 @@ def execute_sell(state, key, fraction, reason):
         return
     
     entry_price = pos["entry_price_usd"]
-    pnl_pct = ((cur_price / entry_price) - 1) * 100
+    # v1.7: pnl_pct uses actual_exit_price (slippage-adjusted), not cur_price
+    pnl_pct = ((actual_exit_price / entry_price) - 1) * 100
     
     # Realistic slippage simulation
     position_size_eth = pos.get("position_size_eth", pos.get("entry_sol_spent", 0.01)) * fraction
@@ -491,15 +493,15 @@ def execute_sell(state, key, fraction, reason):
         "symbol": pos["symbol"],
         "name": pos["name"],
         "address": pos["address"],
-        "amount_eth_sold": pos["amount_eth"] * fraction,
+        "amount_eth_sold": pos.get("position_size_eth", pos.get("entry_sol_spent", 0.01)) * fraction,
         "fraction_sold": fraction,
         "entry_time": pos["entry_time"],
         "exit_time": datetime.now(timezone.utc).isoformat(),
         "entry_price_usd": entry_price,
         "exit_price_usd": actual_exit_price,
-        "entry_amount_eth": pos["amount_eth"] * fraction,
+        "entry_amount_eth": pos.get("position_size_eth", pos.get("entry_sol_spent", 0.01)) * fraction,
         "exit_amount_eth": sol_received_eth,
-        "pnl_eth": sol_received_eth - (pos["amount_eth"] * fraction),
+        "pnl_eth": sol_received_eth - (pos.get("position_size_eth", pos.get("entry_sol_spent", 0.01)) * fraction),
         "pnl_pct": pnl_pct,
         "exit_reason": reason,
         "entry_liquidity_usd": pos.get("entry_liquidity_usd", 0),
