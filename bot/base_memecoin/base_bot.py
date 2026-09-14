@@ -470,8 +470,6 @@ def execute_sell(state, key, fraction, reason):
         return
     
     entry_price = pos["entry_price_usd"]
-    # v1.7: pnl_pct uses actual_exit_price (slippage-adjusted), not cur_price
-    pnl_pct = ((actual_exit_price / entry_price) - 1) * 100
     
     # Realistic slippage simulation
     position_size_eth = pos.get("position_size_eth", pos.get("entry_sol_spent", 0.01)) * fraction
@@ -484,6 +482,9 @@ def execute_sell(state, key, fraction, reason):
         actual_exit_price = cur_price * 0.5  # 50% slippage
     else:
         actual_exit_price = cur_price
+    
+    # v1.7: pnl_pct uses slippage-adjusted actual_exit_price
+    pnl_pct = ((actual_exit_price / entry_price) - 1) * 100 if entry_price > 0 else 0
     
     # v1.3 FIX: use position_size_eth (ETH spent on entry), not amount (token count)
     position_size_eth = pos.get("position_size_eth", pos.get("entry_sol_spent", 0)) * fraction
