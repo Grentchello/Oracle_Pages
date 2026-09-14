@@ -327,7 +327,7 @@ def decide(pair, state):
     if chg24 < -50: score -= 2; reasons.append("dropping")
     if "pump" in sym.lower() and len(sym) < 6: score -= 1; reasons.append("generic pump name")
     
-    if score < -1:  # v1.3: only skip very bearish (multiple negative signals)
+    if score < 1:  # v1.5: require positive score (at least one bullish signal)
         return None
     
     return {
