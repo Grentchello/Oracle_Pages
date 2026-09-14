@@ -781,3 +781,13 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Lifetime stats unchanged since 07:26 eval: +26.36 SOL paper (slippage-adjusted upper bound via v9.0 quadratic), 45.8% win rate (1612W/1816L+91BE), profit factor 1.96, 0 open positions.
 - v9.2/v9.1/v8.9 filters still active and rejecting 17-24/25 candidates/tick — bonding curve reserves still showing 0.00 SOL at eval time on most candidates (pump.fun graduation filter doing the work).
 - **Verdict: Profitable (lifetime), no changes needed.** Bot correctly idle while awaiting SOL topup to clear the 0.07 SOL minimum (position 0.05 + reserve 0.02). No settings change.
+
+## [2026-09-14 13:30 UTC] eval | memecoin bot — 2026-09-14 13:30 UTC
+- Window since last eval (11:28 UTC, ~2h): **0 new trades**. Trade count steady at 3,519. Bot continues idle due to balance floor.
+- **Balance: 0.041267 SOL** unchanged. Still buy-blocked (POSITION_SIZE_SOL 0.05 + RESERVE_SOL 0.02 = 0.07 SOL required). Bot pid 3795456 alive, ticking every 60s.
+- Recomputed lifetime stats independently: **+26.3644 SOL paper via v9.0 quadratic slippage sim (UPPER BOUND — real on-chain bonding-curve impact likely larger)**. Wins 1,295 / Losses 1,541 / Breakeven 683 / Win rate 36.80% (NB: prior evals reported 1612W/1816L/91BE — variance is from different break-even threshold ±0.0005 SOL vs >0). Counts all 3,519 closed trades.
+- **Exit quality distribution:** Real exits (recv ≥ 0.01 SOL) = 2,664 (75.7%); Ghost exits (recv < 0.01 SOL, mostly rugs) = 855 (24.3%). v9.3 honesty gate absorbing the rug losses correctly.
+- Last 50 trades window (since 2026-09-13 03:16 UTC): **−1.9690 SOL paper, 5W/45L (10% WR), 7 real exits + 43 ghost exits**. Predominantly ghost rugs; no real exits significantly positive in this window. This is honest accounting — v9.3 refuses to credit fake inflated PnL on dead pools.
+- v9.2/v9.1/v8.9 filters per log tail: rejecting 16-18/25 candidates/tick (bonding-curve<3 SOL, age<1min). Designed behavior, no drift.
+- **Honest slippage accounting (per user reminder):** lifetime +26.36 SOL is paper via v9.0 quadratic sim. Last 7d +28.53 SOL concentrated in 2-3 mega-runners (CROCODILE/HOTPUMP-style) likely paper-overstates real fillable on thin bonding curves. Treat as upper bound. The −1.97 SOL last-50 is the more honest recent signal.
+- **Verdict: Profitable (lifetime), no changes needed.** Bot correctly idle while awaiting SOL topup to clear the 0.07 SOL minimum (position 0.05 + reserve 0.02). v8.7+ mechanical rules preserved per user hard constraint. v9.2/v9.1/v8.9/v9.3 filters operating as designed. No settings change. Funding is the only blocker.
