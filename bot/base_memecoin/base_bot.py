@@ -490,6 +490,15 @@ def execute_sell(state, key, fraction, reason):
     position_size_eth = pos.get("position_size_eth", pos.get("entry_sol_spent", 0)) * fraction
     sol_received_eth = position_size_eth * (actual_exit_price / entry_price)
     
+    # v1.8 SANITY CHECK: If price moved >10x in either direction, the price sources
+    # are inconsistent (different APIs). Force ghost exit at -50%.
+    if actual_exit_price > 0 and entry_price > 0:
+        ratio = actual_exit_price / entry_price
+        if ratio > 10 or ratio < 0.1:
+            log(f"  v1.8 PRICE MISMATCH: ratio {ratio:.2f}x — force -50% exit")
+            actual_exit_price = entry_price * 0.5
+            sol_received_eth = position_size_eth * (actual_exit_price / entry_price)
+    
     trade = {
         "symbol": pos["symbol"],
         "name": pos["name"],
