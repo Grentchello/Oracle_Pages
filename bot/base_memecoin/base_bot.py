@@ -113,58 +113,29 @@ def save_state(state):
 
 
 def fetch_new_base_pools():
-    """Fetch newest Base pools via DexPaprika (50k free/month, no key)"""
-    url = "https://api.dexpaprika.com/networks/base/pools/search?sort=desc&order_by=created_at&limit=20"
+    """Fetch Base pairs via DexScreener search (returns 18+ real Base pairs per call).
+    
+    DexPaprika returns garbage (zero addresses, WETH, missing symbols).
+    DexScreener search?q=BASE%20USDC gives us the actual Base ecosystem.
+    """
+    url = "https://api.dexscreener.com/latest/dex/search?q=BASE%20USDC"
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "base-bot/1.0"})
         with urllib.request.urlopen(req, timeout=15) as resp:
             data = json.loads(resp.read().decode())
-            return data.get("results", [])
+            all_pairs = data.get("pairs", [])
+            return [p for p in all_pairs if p.get("chainId") == "base"]
     except Exception as e:
-        log(f"DexPaprika error: {e}")
+        log(f"DexScreener error: {e}")
         return []
 
 
-def pool_to_pair_format(pool):
-    """Convert DexPaprika pool to DexScreener-like pair format for consistency"""
-    tokens = pool.get("tokens", [])
-    base = tokens[0] if len(tokens) > 0 else {}
-    quote = tokens[1] if len(tokens) > 1 else {}
+def pool_to_pair_format(pair):
+    """Pass-through — DexScreener already returns the right format.
     
-    # Parse created_at to ms timestamp
-    pair_created_ms = None
-    try:
-        from datetime import datetime
-        dt = datetime.fromisoformat(pool.get("created_at", "").replace("Z", "+00:00"))
-        pair_created_ms = int(dt.timestamp() * 1000)
-    except:
-        pass
-    
-    return {
-        "chainId": pool.get("chain", "base"),
-        "dexId": pool.get("dex_id", "?"),
-        "pairAddress": pool.get("id", "?"),
-        "baseToken": {
-            "address": base.get("id", base.get("address", "?")),
-            "name": base.get("name", "?"),
-            "symbol": base.get("symbol", "?"),
-        },
-        "quoteToken": {
-            "symbol": quote.get("symbol", "?"),
-        },
-        "priceUsd": str(pool.get("price_usd", 0)),
-        "liquidity": {"usd": pool.get("liquidity_usd", 0)},
-        "volume": {"h24": pool.get("volume_usd_24h", 0)},
-        "priceChange": {
-            "h24": pool.get("price_change_percentage_24h", 0),
-            "h1": pool.get("price_change_percentage_1h", 0),
-        },
-        "fdv": pool.get("fdv_usd", 0),
-        "marketCap": pool.get("market_cap_usd", 0),
-        "pairCreatedAt": pair_created_ms,
-        "txns": {"h24": {"buys": 0, "sells": pool.get("transactions_24h", 0)}},
-        "dexpaprika_raw": pool,
-    }
+    Old code was treating DexScreener pairs as DexPaprika pools, mangling fields.
+    """
+    return pair
 
 
 def fetch_base_pairs():
