@@ -842,3 +842,12 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - **Honest slippage accounting (per user reminder):** lifetime +26.36 SOL is paper via v9.0 quadratic slippage sim. Treat as upper bound only. Real on-chain bonding-curve impact on thin pools will exceed the sim. Last-50 = -1.97 SOL is the more honest recent signal.
 - **Bot fix applied:** stale prompt text `"Each buy is 0.1 SOL"` in bot.py:798 -> f-string with `{POSITION_SIZE_SOL}` so the LLM no longer asks the runner for impossible 0.1 SOL chunks. Mechanical rules (v8.7+) preserved per user hard constraint. Filters operating as designed. Bot remains idle on balance floor -- topup will resume trading immediately.
 - **Verdict: No mechanical changes needed.** v8.7+ mechanical rules preserved per user hard constraint. v9.2/v9.1/v8.9/v9.3 filters operating as designed. Bot remains idle on balance floor -- topup will resume trading immediately once wallet has >=0.1 SOL.
+
+## [2026-09-15 03:44 UTC] eval | memecoin bot -- 2026-09-15 03:44 UTC
+- Window since last eval (01:43 UTC, ~2h): **0 new trades**. Trade count steady at 3,519. Bot remains idle on balance floor (0.0413 SOL < 0.07 SOL min chunk = POSITION_SIZE_SOL 0.05 + RESERVE_SOL 0.02).
+- **Bot process check:** pids 48633 + 56872 still alive, ticking every 60s. Last tick at 03:44:20 UTC.
+- Runner log tail (03:33–03:44 UTC): v9.2 rejecting 16–21/25 candidates/tick on bonding-curve<3 SOL; v9.1 dropping 16–21/25; v8.9 age filter dropping 1–2/tick on age<1min. Net pass-through: 0–2 candidates/tick to LLM. Fragility gates occasionally catching ME2F keywords (`LAMBOXIT`/`xi`). Filters operating as designed.
+- No state delta since 01:43 eval — identical situation. Lifetime stats unchanged: **+26.3644 SOL paper, 1612W/1816L = 45.8% WR, 43 ghost exits (1.2%) across lifetime**.
+- Last 50 trades window (since 2026-09-13 02:49 UTC): **−1.9690 SOL paper, 5W/45L (10% WR), 1 TP half-sell win + 4 override small wins, 1 rapid −50% cap hit + 44 other losses**. Unchanged from prior evals.
+- **Honest slippage accounting (per user reminder):** lifetime +26.36 SOL is paper via v9.0 quadratic slippage sim. Treat as upper bound only. Real on-chain bonding-curve impact on thin pools will exceed the sim. Last-50 = −1.97 SOL is the more honest recent signal.
+- **Verdict: No changes needed.** v8.7+ mechanical rules preserved per user hard constraint. v9.2/v9.1/v8.9/v9.3 filters operating as designed. Bot remains idle on balance floor — topup will resume trading immediately.
