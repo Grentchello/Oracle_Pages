@@ -1,34 +1,55 @@
 {
-  "balance_eth": 0.09000000000000001,
+  "balance_eth": 0.085,
   "starting_balance_eth": 0.1,
   "positions": {
-    "0x4200000000000000000000000000000000000006": {
-      "symbol": "0x000006",
-      "name": "?",
-      "address": "0x4200000000000000000000000000000000000006",
+    "0x0F61Edbfe6Cd86024C0f210c0695B08df55fdfc9": {
+      "symbol": "BSTONK",
+      "name": "BaseStonk",
+      "address": "0x0F61Edbfe6Cd86024C0f210c0695B08df55fdfc9",
       "position_size_eth": 0.01,
       "entry_sol_spent": 0.01,
-      "amount_tokens": 4840.819648777784,
-      "entry_price_usd": 2.0657658672586184e-06,
-      "entry_time": "2026-09-15T01:27:07.239585+00:00",
-      "entry_liquidity_usd": 17179.3553352478,
-      "entry_volume_24h": 2801.9239879206198,
-      "entry_market_cap": 0.0,
-      "entry_score": 0,
+      "amount_tokens": 1.5540015540015542,
+      "entry_price_usd": 0.006435,
+      "entry_time": "2026-09-15T01:57:31.396369+00:00",
+      "entry_liquidity_usd": 272676.77,
+      "entry_volume_24h": 213494.84,
+      "entry_market_cap": 5703941.0,
+      "entry_score": 4,
       "entry_reasons": [
+        "good vol",
         "decent liquidity",
-        "established",
-        "sell pressure"
+        "buy pressure",
+        "active trading"
       ],
-      "entry_dex": "uniswap_v2",
+      "entry_dex": "uniswap",
       "fraction_sold": 0.0
     }
   },
-  "trades": [],
-  "today_pnl_eth": 0,
+  "trades": [
+    {
+      "symbol": "0x000006",
+      "name": "?",
+      "address": "0x4200000000000000000000000000000000000006",
+      "amount_eth_sold": 0.01,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-15T01:27:07.239585+00:00",
+      "exit_time": "2026-09-15T01:57:15.595039+00:00",
+      "entry_price_usd": 2.0657658672586184e-06,
+      "exit_price_usd": 1.0328829336293092e-06,
+      "entry_amount_eth": 0.01,
+      "exit_amount_eth": 0.005,
+      "pnl_eth": -0.005,
+      "pnl_pct": 121842946377.77194,
+      "exit_reason": "max-hold 30min",
+      "entry_liquidity_usd": 17179.3553352478,
+      "exit_liquidity_usd": 4494222.15,
+      "ghost_exit": false
+    }
+  ],
+  "today_pnl_eth": -0.005,
   "last_pnl_reset": "2026-09-15",
-  "total_pnl_eth": 0,
-  "last_updated": "2026-09-15T01:56:15.184785+00:00",
+  "total_pnl_eth": -0.005,
+  "last_updated": "2026-09-15T01:57:31.396682+00:00",
   "bot_version": "v1.8-base",
   "created": "2026-09-14",
   "v1_8_reset": "Hard reset due to inflated profits bug"
