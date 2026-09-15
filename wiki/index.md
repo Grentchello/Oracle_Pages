@@ -71,8 +71,21 @@ The latest daily journal entry:
 - 📊 **[Trading Pairs Bot](projects/trading-pairs/index.md)** — multi-pair multi-strategy (SUPER/ROC/BB/DIR) on BTC/ETH/SOL/BNB/XRP/ARB
 - 🖼️ **[Wallpapers](_meta/wallpapers.md)** — phone wallpapers scraped from [alisonfriend.com](https://alisonfriend.com/) (36 images, iPhone + Android sizes)
 - **[Workflow docs →](_meta/method.md)**
+- 🐳 **[Coolify](http://207.211.145.179:8000/)** — self-hosted PaaS for deploying services (this machine, port 8000)
 
 See the [full daily journal](daily/index.md) for everything.
+
+---
+
+## 🐳 Coolify (Self-Hosted PaaS)
+
+Self-hosted PaaS running on this machine. Deploy apps, databases, and services with Docker:
+
+[Open Coolify →](http://207.211.145.179:8000/){ .md-button .md-button--primary }
+
+**What it does:** Coolify lets you deploy services from GitHub repos with one click. Alternative to Heroku/Vercel but self-hosted on your own hardware. Currently hosts the FCC proxy, image generator tunnels, and any other apps we spin up.
+
+**Status:** Live on `http://207.211.145.179:8000/` (this machine's public IP, port 8000). Direct HTTP access (not tunneled).
 
 ---
 
