@@ -244,8 +244,7 @@ def filter_pair(pair):
         return "no age data"
     if age_min < MIN_PAIR_AGE_MINUTES:
         return f"too young ({age_min:.1f}min)"
-    if age_min > MAX_PAIR_AGE_MINUTES:
-        return f"too old ({age_min:.1f}min)"
+    # v2.0: removed max-age filter (DexScreener search doesn't return brand-new anyway)
     
     # Price change sanity: not already pumped >500% in 24h
     chg24 = to_float(pair.get("priceChange", {}).get("h24", 0))
