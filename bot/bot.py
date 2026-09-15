@@ -55,7 +55,7 @@ SOL_MINT = "So11111111111111111111111111111111111111112"
 PAUSE_NEW_ENTRIES = False        # v8.7: mechanical trading, no LLM discretion
 
 # Conservative restart params (v8.3) — much tighter than v7
-POSITION_SIZE_SOL = 0.05         # v8.7: $5 per position (mechanical)
+POSITION_SIZE_SOL = 0.02         # v8.7: $2 per position (mechanical) — v8.9 lowered for low-balance regime (was 0.05)
 MAX_POSITIONS = 1                # v8.7: max 1 concurrent (keep simple)
 MAX_HOLD_MINUTES = 30            # v8.7: 30-min hard cap (was 24h)
 HARD_STOP_LOSS = 0.25             # v8.7: -25% (wider since we TP faster)
