@@ -795,7 +795,7 @@ No prior trades — fresh slate.
 
 Memecoin trading rules (LLM can override all but the hard cap):
 - A position is automatically closed at -{int(HARD_STOP_LOSS*100)}% loss OR after {MAX_HOLD_MINUTES}min. Other than that, you decide.
-- Each buy is 0.1 SOL. Max {MAX_POSITIONS} positions. Keep at least {RESERVE_SOL} SOL in reserve.
+- Each buy is {POSITION_SIZE_SOL} SOL. Max {MAX_POSITIONS} positions. Keep at least {RESERVE_SOL} SOL in reserve.
 - **Memecoins are attention markets.** A good name, a viral X account, an interesting story — these are buy signals, not reasons to skip.
 - **New launches are where the alpha is.** A $20k mcap token with a story can do 10x in hours. Top-runners has already-extracted alpha.
 - **Don't wait for confirmation.** If you wait for $200k mcap to 'confirm' a $30k token, you'll buy the top.
