@@ -25288,3 +25288,6 @@
 ## [2026-09-15 13:51 UTC] buy | [LLM] $PUMPROT at $3.64e-06, spent 0.02 SOL
 - **Reasoning:** $PUMPROT rides the brainrot→web3 narrative paired with $pump — exactly the kind of meta-meme that catches fire in attention markets. Bond only 3% means I'm early on curve; tiny mcap ($3.6k) gives10x room if narrative lands. Risk: bond not complete yet, but at 0.02 SOL the size is right for a learning entry.
 
+## [2026-09-15 13:53 UTC] sell | [v8.7 TP +50% (full)] $PUMPROT at $9.93352e-05 | P&L: -100.0%
+- **Reasoning:** Auto take-profit at +2629.0%
+
