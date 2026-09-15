@@ -25291,3 +25291,6 @@
 ## [2026-09-15 13:53 UTC] sell | [v8.7 TP +50% (full)] $PUMPROT at $9.93352e-05 | P&L: -100.0%
 - **Reasoning:** Auto take-profit at +2629.0%
 
+## [2026-09-15 14:10 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
