@@ -867,3 +867,10 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Last 50 trades window (since 2026-09-13 02:49 UTC): **−1.9690 SOL paper, 5W/45L (10% WR), 1 TP half-sell win + 4 override small wins, 1 rapid −50% cap hit + 44 other losses**. Unchanged from prior evals.
 - **Honest slippage accounting (per user reminder):** lifetime +26.36 SOL is paper via v9.0 quadratic slippage sim. Treat as upper bound only. Real on-chain bonding-curve impact on thin pools will exceed the sim. Last-50 = −1.97 SOL is the more honest recent signal.
 - **Verdict: No changes needed.** v8.7+ mechanical rules preserved per user hard constraint. v9.2/v9.1/v8.9/v9.3 filters operating as designed. Bot remains idle on balance floor — topup will resume trading immediately.
+
+## [2026-09-15 09:49 UTC] eval | memecoin bot -- 2026-09-15 09:49 UTC
+- Window since last eval (07:47 UTC, ~2h): **0 new trades**. Trade count steady at 3,519. Bot remains idle on balance floor (0.0413 SOL < 0.07 SOL min chunk).
+- No state delta since 07:47 eval — identical situation. Lifetime stats unchanged: **+26.3644 SOL paper (upper bound via v9.0 quadratic slippage sim), 1612W/1907L = 45.8% WR, 922 TP half-sell wins / 690 override wins / 1861 rapid losses (<10min) / 46 other losses / 239 hard-cap forced closes across lifetime**, current balance 0.0413 SOL, starting balance 2.0 SOL.
+- Last 50 trades window (since 2026-09-13 02:49 UTC): **−1.9690 SOL paper, 5W/45L (10% WR), 1 TP half-sell win + 4 override small wins, 1 rapid −50% cap hit + 44 other losses**. Unchanged from prior evals.
+- **Honest slippage accounting (per user reminder):** lifetime +26.36 SOL is paper via v9.0 quadratic slippage sim. Treat as upper bound only. Real on-chain bonding-curve impact on thin pools will exceed the sim. Last-50 = −1.97 SOL is the more honest recent signal.
+- **Verdict: No changes needed.** v8.7+ mechanical rules preserved per user hard constraint. v9.2/v9.1/v8.9/v9.3 filters operating as designed. Bot remains idle on balance floor — topup will resume trading immediately.
