@@ -25618,3 +25618,6 @@
 ## [2026-09-16 15:13 UTC] buy | [LLM] $CCAT at $5.215e-06, spent 0.02 SOL
 - **Reasoning:** $CCAT has a clear narrative (regulatory satire targeting EU AI Act + US H.R. 36), an active X account (@AskClarityCat), $6.5k mcap with bond26% filled, and age under 1 minute — prime viral-launch conditions. Small position sized for the high rug risk at this mcap.
 
+## [2026-09-16 15:15 UTC] sell | [PARTIAL][LLM] $CCAT at $7.63407e-06 | P&L: -100.0%
+- **Reasoning:** $CCAT is up +46.4% — well past the +20% doubt threshold and even past the +30% TP zone. Lock half to bank the gain; let the runner ride on house money. Pool is still tiny ($1972), so this could easily 5x more or rug back to zero — locking profit is correct.
+
