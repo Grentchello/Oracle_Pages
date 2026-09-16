@@ -559,8 +559,11 @@ def main():
             if already_held:
                 continue
             log(f"BUY #{bought_count+1}: ${cand['symbol']} score={cand['score']} reasons={cand['reasons']}")
-            if execute_buy(state, cand):
+            result = execute_buy(state, cand)
+            log(f"  execute_buy returned: {result}")
+            if result:
                 bought_count += 1
+                log(f"  Total positions now: {len(state['positions'])}")
     
     # v1.3: Use entry_price as held price for first tick (avoid phantom +500% from stale prices)
     held_prices = {}
