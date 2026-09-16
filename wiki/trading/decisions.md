@@ -25627,3 +25627,6 @@
 ## [2026-09-16 15:16 UTC] buy | [LLM] $JAKEPOLE at $6.05e-06, spent 0.02 SOL
 - **Reasoning:** $JAKEPOLE is a fresh 1.1min launch with $6.7k mcap and27% bonding curve. Named after a character (Jakepole) with X link — attention narrative. Low mcap = high upside if narrative catches. Risk: unverified narrative, very low liquidity.
 
+## [2026-09-16 15:17 UTC] sell | [FULL][LLM] $JAKEPOLE at $7.86044e-06 | P&L: -100.0%
+- **Reasoning:** Up +29.9% on a bonding-curve with only $2k pool — take the gain before the curve reverses or liquidity thins. Lock profit over hope.
+
