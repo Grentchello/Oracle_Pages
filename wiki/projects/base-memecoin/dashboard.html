@@ -193,6 +193,17 @@
     color: #fca5a5;
     font-size: 0.875rem;
   }
+  .sparkline { width: 100%; height: 50px; margin-top: 0.5rem; background: rgba(15,23,42,0.4); border-radius: 4px; padding: 4px; }
+  .sparkline svg { width: 100%; height: 100%; display: block; }
+  .sparkline-line { stroke: #60a5fa; stroke-width: 1.5; fill: none; }
+  .sparkline-area { fill: rgba(96,165,250,0.1); }
+  .sparkline-dot { fill: #60a5fa; }
+  .sparkline-pos .sparkline-line { stroke: #4ade80; }
+  .sparkline-pos .sparkline-area { fill: rgba(74,222,128,0.15); }
+  .sparkline-pos .sparkline-dot { fill: #4ade80; }
+  .sparkline-neg .sparkline-line { stroke: #f87171; }
+  .sparkline-neg .sparkline-area { fill: rgba(248,113,113,0.15); }
+  .sparkline-neg .sparkline-dot { fill: #f87171; }
 </style>
 </head>
 <body>
