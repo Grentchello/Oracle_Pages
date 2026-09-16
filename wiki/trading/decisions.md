@@ -25546,3 +25546,6 @@
 ## [2026-09-16 14:28 UTC] buy | [LLM] $fun at $6.978e-06, spent 0.02 SOL
 - **Reasoning:** $fun has the highest mcap ($15.5k) of the launches with an active X post, bond 35% — strongest attention signal of the batch. Position 0.02 SOL, tight mental stop.
 
+## [2026-09-16 14:29 UTC] sell | [v8.7 TP +50% (full)] $fun at $0.000815903 | P&L: -100.0%
+- **Reasoning:** Auto take-profit at +11592.5%
+
