@@ -2,36 +2,7 @@
   "balance_sol": 1.910779,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "2ba3CZaoba9VWhBphZvpWihWJJpF3v3RKLa9sHhTpump": {
-      "symbol": "KAIRA",
-      "name": "The Sisyphean Penguin",
-      "mint": "2ba3CZaoba9VWhBphZvpWihWJJpF3v3RKLa9sHhTpump",
-      "amount": 215249.33214603737,
-      "entry_price_usd": 8.984e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-16T14:32:11.230727+00:00",
-      "entry_time_iso": "2026-09-16T14:32:11.230736+00:00",
-      "entry_usd_value": 1.9338,
-      "last_seen_price_usd": 8.984e-06,
-      "entry_liquidity_usd": 2321.04657608439,
-      "entry_pool_sol": 24.005032331,
-      "entry_market_cap_usd": 10600.213101533187,
-      "entry_signals": {
-        "liquidity_usd": 2321.04657608439,
-        "volume_24h_usd": 7949.61,
-        "market_cap_usd": 10600.213101533187,
-        "ath_market_cap_usd": 12462.139643444973,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 24.005032331,
-        "description": "",
-        "twitter": "https://x.com/MarioPrezidante/status/2100230974818648574",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62661,19 +62632,38 @@
       "hold_duration_seconds": 66.334571,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "2ba3CZaoba9VWhBphZvpWihWJJpF3v3RKLa9sHhTpump",
+      "symbol": "KAIRA",
+      "name": "The Sisyphean Penguin",
+      "amount_sold": 215249.33214603737,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-16T14:32:11.230727+00:00",
+      "entry_time_iso": "2026-09-16T14:32:11.230736+00:00",
+      "exit_time": "2026-09-16T14:33:27.726018+00:00",
+      "exit_time_iso": "2026-09-16T14:33:27.726024+00:00",
+      "entry_price_usd": 8.984e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — Just entered (0.0h held), +11.6% off bonding curve with $2.6k pool — not yet stale, momentum positive. Give it room to run toward +30% — no real exit liquidity",
+      "entry_liquidity_usd": 2321.04657608439,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 24.005032331,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 76.495311,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-16T14:32:11.230904+00:00",
+  "last_updated": "2026-09-16T14:33:27.726305+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.69,
-  "portfolio_value_usd": 186.69,
+  "last_sol_price_usd": 96.73,
+  "portfolio_value_usd": 184.83,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 09:49 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-16 10:18 UTC",
       "action": "observe",
@@ -62787,30 +62777,48 @@
       "action": "buy",
       "details": "[LLM] $KAIRA at $8.984e-06, spent 0.02 SOL",
       "reason": "$KAIRA 'The Sisyphean Penguin' — absurdist mythos narrative (Sisyphus + penguin) is meme-poetry gold for X virality. 0.6min old with $10.6k mcap, 33% bond progress shows real buys flowing. Tiny size (0.02 SOL) matches the experimental early-launch edge play; high risk but attention signal is fresh and creative."
+    },
+    {
+      "time": "2026-09-16 14:33 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $KAIRA at $1.00241e-05 | P&L: -100.0%",
+      "reason": "Just entered (0.0h held), +11.6% off bonding curve with $2.6k pool — not yet stale, momentum positive. Give it room to run toward +30% TP before considering partial take-profit."
     }
   ],
   "trade_stats": {
-    "total": 3526,
+    "total": 3527,
     "wins": 1613,
-    "losses": 1913,
+    "losses": 1914,
     "win_rate_pct": 45.7,
-    "total_pnl_sol": 26.275163,
-    "avg_pnl_pct": 37.7,
+    "total_pnl_sol": 26.255163,
+    "avg_pnl_pct": 37.66,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 6,
-    "today_realized_sol": -0.069221,
-    "today_target_pct": -17.3,
+    "today_trades": 7,
+    "today_realized_sol": -0.089221,
+    "today_target_pct": -22.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1613,
-      "loss_count": 1913,
+      "loss_count": 1914,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-16T14:32:09.293583+00:00",
+  "last_llm_brief_at": "2026-09-16T14:33:27.725812+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "2ba3CZaoba9VWhBphZvpWihWJJpF3v3RKLa9sHhTpump": {
+      "price_usd": 1.0024094759264064e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 2684.90695460281,
+      "volume_h24": 24186.89,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 27.756714097
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
