@@ -25555,3 +25555,6 @@
 ## [2026-09-16 14:33 UTC] sell | [FULL][LLM] $KAIRA at $1.00241e-05 | P&L: -100.0%
 - **Reasoning:** Just entered (0.0h held), +11.6% off bonding curve with $2.6k pool — not yet stale, momentum positive. Give it room to run toward +30% TP before considering partial take-profit.
 
+## [2026-09-16 14:37 UTC] buy | [LLM] $FUD at $5.632e-06, spent 0.02 SOL
+- **Reasoning:** $FUD (Farting Unicorn Dust) is a 0.8min-old launch with a memorable meme name and an X link — classic attention-market setup. Mcap $6.8k is deep in fresh-launch territory where 10x is possible; bond 27% suggests some early buys. Risks: sub-1min age means no price action yet and very thin liquidity, but the position size (0.02 SOL) limits downside to the -25% hard cap.
+
