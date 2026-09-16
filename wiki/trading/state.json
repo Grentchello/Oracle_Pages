@@ -2,36 +2,7 @@
   "balance_sol": 1.728973,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "EGAtjG9V8Dj3V9UFALkDBmAejiVTxNCbyEpQCEAupump": {
-      "symbol": "Bread",
-      "name": "Bread Pitt",
-      "mint": "EGAtjG9V8Dj3V9UFALkDBmAejiVTxNCbyEpQCEAupump",
-      "amount": 555574.5651554035,
-      "entry_price_usd": 3.507e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-16T15:20:21.079953+00:00",
-      "entry_time_iso": "2026-09-16T15:20:21.079963+00:00",
-      "entry_usd_value": 1.9484000000000001,
-      "last_seen_price_usd": 3.507e-06,
-      "entry_liquidity_usd": 382.06035432104,
-      "entry_pool_sol": 3.921785612,
-      "entry_market_cap_usd": 3468.815584753056,
-      "entry_signals": {
-        "liquidity_usd": 382.06035432104,
-        "volume_24h_usd": 2074.32,
-        "market_cap_usd": 3468.815584753056,
-        "ath_market_cap_usd": 3761.547755119902,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.921785612,
-        "description": "Bread Pitt ",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62984,19 +62955,38 @@
       "hold_duration_seconds": 79.694087,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "EGAtjG9V8Dj3V9UFALkDBmAejiVTxNCbyEpQCEAupump",
+      "symbol": "Bread",
+      "name": "Bread Pitt",
+      "amount_sold": 555574.5651554035,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-16T15:20:21.079953+00:00",
+      "entry_time_iso": "2026-09-16T15:20:21.079963+00:00",
+      "exit_time": "2026-09-16T15:21:37.800554+00:00",
+      "exit_time_iso": "2026-09-16T15:21:37.800560+00:00",
+      "entry_price_usd": 3.507e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — Just entered 0.0h ago, only -0.7%, no clear data to exit yet. Will re-evaluate on next tick. — no real exit liquidity",
+      "entry_liquidity_usd": 382.06035432104,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.921785612,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 76.720618,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-16T15:20:21.080251+00:00",
+  "last_updated": "2026-09-16T15:21:37.800736+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.42,
-  "portfolio_value_usd": 170.38,
+  "last_sol_price_usd": 97.44,
+  "portfolio_value_usd": 168.47,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 14:57 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Louinu at $7.84239e-06 | P&L: -100.0%",
-      "reason": "Up +16.1% but flat on a bonding curve with $2k pool — liquidity is thin and any reversal nukes gains fast. Lock the +16% now, capital rotation beats hoping for more on a microcap dog token."
-    },
     {
       "time": "2026-09-16 14:57 UTC",
       "action": "buy",
@@ -63110,30 +63100,48 @@
       "action": "buy",
       "details": "[LLM] $Bread at $3.507e-06, spent 0.02 SOL",
       "reason": "$Bread (Bread Pitt) — absurdist celebrity-parody name with instant meme recognition (Pitt/Brad pun), $3.5k mcap is genuinely fresh, and the bond is only 10% complete so early entry is possible. Memecoin names like this ride on pure attention — low entry, asymmetric upside if it catches a tweet. Risk: no twitter listed, ultra-low liquidity, could rug. But narrative is strong and price is cheap. Buy 0.02 SOL."
+    },
+    {
+      "time": "2026-09-16 15:21 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Bread at $3.48112e-06 | P&L: -100.0%",
+      "reason": "Just entered 0.0h ago, only -0.7%, no clear data to exit yet. Will re-evaluate on next tick."
     }
   ],
   "trade_stats": {
-    "total": 3539,
+    "total": 3540,
     "wins": 1615,
-    "losses": 1924,
+    "losses": 1925,
     "win_rate_pct": 45.6,
-    "total_pnl_sol": 26.093357,
-    "avg_pnl_pct": 37.3,
+    "total_pnl_sol": 26.073357,
+    "avg_pnl_pct": 37.26,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 19,
-    "today_realized_sol": -0.251027,
-    "today_target_pct": -62.8,
+    "today_trades": 20,
+    "today_realized_sol": -0.271027,
+    "today_target_pct": -67.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1615,
-      "loss_count": 1924,
+      "loss_count": 1925,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-16T15:20:19.716283+00:00",
+  "last_llm_brief_at": "2026-09-16T15:21:37.799692+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "EGAtjG9V8Dj3V9UFALkDBmAejiVTxNCbyEpQCEAupump": {
+      "price_usd": 3.481121242800384e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 381.17023156128,
+      "volume_h24": 2103.91,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 3.911845562
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

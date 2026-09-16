@@ -25636,3 +25636,6 @@
 ## [2026-09-16 15:20 UTC] buy | [LLM] $Bread at $3.507e-06, spent 0.02 SOL
 - **Reasoning:** $Bread (Bread Pitt) — absurdist celebrity-parody name with instant meme recognition (Pitt/Brad pun), $3.5k mcap is genuinely fresh, and the bond is only 10% complete so early entry is possible. Memecoin names like this ride on pure attention — low entry, asymmetric upside if it catches a tweet. Risk: no twitter listed, ultra-low liquidity, could rug. But narrative is strong and price is cheap. Buy 0.02 SOL.
 
+## [2026-09-16 15:21 UTC] sell | [FULL][LLM] $Bread at $3.48112e-06 | P&L: -100.0%
+- **Reasoning:** Just entered 0.0h ago, only -0.7%, no clear data to exit yet. Will re-evaluate on next tick.
+
