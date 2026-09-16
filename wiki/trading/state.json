@@ -1,32 +1,32 @@
 {
-  "balance_sol": 1.810779,
+  "balance_sol": 1.814739,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "8vVsTC1uyQoUwGzEdA7Ty2oAFpWqhr1y4WN9zJk9pump": {
-      "symbol": "ATOM",
-      "name": "atom",
-      "mint": "8vVsTC1uyQoUwGzEdA7Ty2oAFpWqhr1y4WN9zJk9pump",
-      "amount": 115805.87177950868,
-      "entry_price_usd": 8.345e-06,
-      "entry_sol_spent": 0.01,
-      "entry_time": "2026-09-16T15:04:27.574891+00:00",
-      "entry_time_iso": "2026-09-16T15:04:27.574900+00:00",
-      "entry_usd_value": 1.9328,
-      "last_seen_price_usd": 1.2482229404892884e-05,
-      "entry_liquidity_usd": 1758.02374420032,
-      "entry_pool_sol": 18.191470863,
-      "entry_market_cap_usd": 7180.465221029091,
+    "9PSRhsJYRPrGfsqbiMVA2q9pXMd6o4Xkqr7y9Vaypump": {
+      "symbol": "INVSTORINU",
+      "name": "investor inu",
+      "mint": "9PSRhsJYRPrGfsqbiMVA2q9pXMd6o4Xkqr7y9Vaypump",
+      "amount": 335332.64391589107,
+      "entry_price_usd": 5.802e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-16T15:07:25.405670+00:00",
+      "entry_time_iso": "2026-09-16T15:07:25.405678+00:00",
+      "entry_usd_value": 1.9456,
+      "last_seen_price_usd": 5.802e-06,
+      "entry_liquidity_usd": 91.55902828032,
+      "entry_pool_sol": 0.941190669,
+      "entry_market_cap_usd": 5053.520574248989,
       "entry_signals": {
-        "liquidity_usd": 1758.02374420032,
-        "volume_24h_usd": 2911.71,
-        "market_cap_usd": 7180.465221029091,
-        "ath_market_cap_usd": 8884.720270206779,
+        "liquidity_usd": 91.55902828032,
+        "volume_24h_usd": 1700.28,
+        "market_cap_usd": 5053.520574248989,
+        "ath_market_cap_usd": 6192.788723072449,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 18.191470863,
-        "description": "",
-        "twitter": "https://x.com/nikitabier/status/2100239067489153223",
+        "real_sol_reserves": 0.941190669,
+        "description": "He doesn’t chase pumps. He invests before everyone pretends they knew! $INVESTORINU",
+        "twitter": "https://x.com/iinvestorinu",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -62811,25 +62811,37 @@
       "hold_duration_seconds": 77.846948,
       "partial": true,
       "ghost_exit": true
+    },
+    {
+      "mint": "8vVsTC1uyQoUwGzEdA7Ty2oAFpWqhr1y4WN9zJk9pump",
+      "symbol": "ATOM",
+      "name": "atom",
+      "amount_sold": 115805.87177950868,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-16T15:04:27.574891+00:00",
+      "entry_time_iso": "2026-09-16T15:04:27.574900+00:00",
+      "exit_time": "2026-09-16T15:06:52.283890+00:00",
+      "exit_time_iso": "2026-09-16T15:06:52.283898+00:00",
+      "entry_price_usd": 8.345e-06,
+      "exit_price_usd": 2.012664021859235e-05,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.02396,
+      "pnl_sol": 0.01396,
+      "pnl_pct": 141.18,
+      "exit_reason": "auto-v8.7 TP +50% (full)",
+      "entry_liquidity_usd": 1758.02,
+      "exit_liquidity_usd": 3333.46,
+      "entry_pool_sol": 18.1915,
+      "exit_pool_sol": 34.2878,
+      "hold_duration_seconds": 144.709017,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-16T15:05:45.422477+00:00",
+  "last_updated": "2026-09-16T15:07:25.405840+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.22,
-  "portfolio_value_usd": 177.01,
+  "last_sol_price_usd": 97.28,
+  "portfolio_value_usd": 178.48,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 14:19 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $nazinu at $8.13206e-06 | P&L: +20.8%",
-      "reason": "+20.8% but only 0.0h held and on bonding curve with tiny $2130 pool — lock half the gain now, let the other half ride if attention builds."
-    },
-    {
-      "time": "2026-09-16 14:20 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $nazinu crashed >15% in one tick | P&L: -6.3%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-16 14:26 UTC",
       "action": "buy",
@@ -62937,40 +62949,52 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $ATOM at $1.24822e-05 | P&L: -100.0%",
       "reason": "+49.6% in 0.0h is already past my +30% TP threshold; the bot should auto-take-profit. Locking half now to realize the gain while keeping a runner in case the bond pushes to ATH. Don't hope — bank the profit."
+    },
+    {
+      "time": "2026-09-16 15:06 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $ATOM at $2.01266e-05 | P&L: +141.2%",
+      "reason": "Auto take-profit at +141.2%"
+    },
+    {
+      "time": "2026-09-16 15:07 UTC",
+      "action": "buy",
+      "details": "[LLM] $INVSTORINU at $5.802e-06, spent 0.02 SOL",
+      "reason": "Fresh 0.9min launch with a clear investor-meta narrative ('invests before everyone pretends they knew') and an active X handle — exactly the kind of story-driven attention play that can 5-10x from $5k mcap. Bond still 21% means curve is early but price discovery is live; position size is small (0.02 SOL) so the risk is bounded. I'll watch the first 5-10 min for traction and exit fast if it doesn't grab volume."
     }
   ],
   "trade_stats": {
-    "total": 3532,
-    "wins": 1613,
+    "total": 3533,
+    "wins": 1614,
     "losses": 1919,
     "win_rate_pct": 45.7,
-    "total_pnl_sol": 26.165163,
-    "avg_pnl_pct": 37.47,
+    "total_pnl_sol": 26.179123,
+    "avg_pnl_pct": 37.49,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 12,
-    "today_realized_sol": -0.179221,
-    "today_target_pct": -44.8,
+    "today_trades": 13,
+    "today_realized_sol": -0.165261,
+    "today_target_pct": -41.3,
     "daily_target_pct": 20.0,
     "learning": {
-      "win_count": 1613,
+      "win_count": 1614,
       "loss_count": 1919,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-16T15:05:45.421261+00:00",
+  "last_llm_brief_at": "2026-09-16T15:07:24.025176+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "8vVsTC1uyQoUwGzEdA7Ty2oAFpWqhr1y4WN9zJk9pump": {
-      "price_usd": 1.2482229404892884e-05,
+      "price_usd": 2.012664021859235e-05,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 3333.4627553101,
-      "volume_h24": 8027.26,
+      "liquidity_usd": 5020.4557793638405,
+      "volume_h24": 10349.36,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 34.287829205
+      "real_sol_reserves": 51.608303653
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

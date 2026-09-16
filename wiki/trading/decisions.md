@@ -25591,3 +25591,9 @@
 ## [2026-09-16 15:05 UTC] sell | [PARTIAL][LLM] $ATOM at $1.24822e-05 | P&L: -100.0%
 - **Reasoning:** +49.6% in 0.0h is already past my +30% TP threshold; the bot should auto-take-profit. Locking half now to realize the gain while keeping a runner in case the bond pushes to ATH. Don't hope — bank the profit.
 
+## [2026-09-16 15:06 UTC] sell | [v8.7 TP +50% (full)] $ATOM at $2.01266e-05 | P&L: +141.2%
+- **Reasoning:** Auto take-profit at +141.2%
+
+## [2026-09-16 15:07 UTC] buy | [LLM] $INVSTORINU at $5.802e-06, spent 0.02 SOL
+- **Reasoning:** Fresh 0.9min launch with a clear investor-meta narrative ('invests before everyone pretends they knew') and an active X handle — exactly the kind of story-driven attention play that can 5-10x from $5k mcap. Bond still 21% means curve is early but price discovery is live; position size is small (0.02 SOL) so the risk is bounded. I'll watch the first 5-10 min for traction and exit fast if it doesn't grab volume.
+
