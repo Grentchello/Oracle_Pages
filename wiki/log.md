@@ -1021,3 +1021,13 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - **Could try**: bump v9.4 floor from 8 → 15 SOL to require deeper curves (will reduce fire-rate further, may starve bot of any trades). But this is a TUNING decision, not a rule change, and trades are already rare (~0.75/h). Without new signal that 15 SOL is meaningfully different from 8 SOL, this risks starving the bot without changing the ghost-exit rate.
 - **Decision: hold steady**, observe for another 24-48h to verify v9.4's actual effect with larger sample. The honest signal — bot is realizing losses, not paper profits — is already being captured correctly by v9.3 ghost-exit logic. Inflating the floor without evidence would be premature optimization.
 - **Bot status**: running, no halt. Positions open: 0. Trade count: 3,547. Balance: 1.589 SOL.
+
+## [2026-09-16 22:22 UTC] eval | 2h cron auto-eval (window: Sep 16 20:19 → Sep 16 22:22 UTC)
+- **Window since last eval**: **0 new trades.** Trade count stayed at 3,547. Bot is alive (runner.log ticking every 60s, last entry 07:29 UTC Sep 15 — log pipe still stale, cosmetic only) but v9.4 (8 SOL bonding-curve floor) is filtering every candidate through 22:22 UTC. v9.1 liquidity gate also aggressive: most ticks show "filtered 15-19/25 candidates (insufficient liquidity)" before v9.4 even runs.
+- **Stats this window**: n=0 → net 0, WR undefined. Cannot judge bot behavior on zero trades.
+- **Prior-window recall (Sep 15 01:43 → Sep 16 20:19) for trend context**: 28 trades, net -0.431 SOL, WR 10.7%, 25/28 ghost-flavored (-0.0200 SOL each), 0 hard-stops, 4 partials. Only real winner was ATOM +0.014 SOL. The ghost-exit pattern persists but is structural to pump.fun bonding-curve dynamics (snipers drain curves within seconds of launch → no exit liquidity). v8.7+ mechanical rules preserved per user hard constraint.
+- **Verdict: No changes needed.** Two reasons:
+  1. With 0 trades this window, there is no signal to react to. Tweaking parameters on a zero-sample is premature optimization.
+  2. The pre-existing window's 25 ghost exits are a structural pump.fun problem, not parameter-tunable. v9.4 floor (8 SOL) was deployed ~6h ago and the bot has been starved of trades ever since — needs more time before another rule change.
+- **Side observation**: bot is sitting on 0 positions, balance steady at 1.589 SOL. If v9.4 starves trades for >24h, the next eval should consider whether to ease floor back toward 5 SOL or add a "depth-trend" filter (reject curves draining >2 SOL/min). Not actionable today.
+- **Bot status**: running, no halt. Positions open: 0. Trade count: 3,547. Balance: 1.589 SOL.
