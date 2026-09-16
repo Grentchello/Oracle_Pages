@@ -44,8 +44,8 @@ HELD_PRICES_PATH = DATA_DIR / "data" / "held_prices.json"
 WATCHLIST_PATH = DATA_DIR / "data" / "watchlist.json"
 
 # === Strategy (v1.0 — conservative, learn first) ===
-POSITION_SIZE_ETH = 0.01       # ~$25-30 per position
-MAX_POSITIONS = 1              # 1 position to start
+POSITION_SIZE_ETH = 0.005      # ~$12-15 per position (smaller for diversification)
+MAX_POSITIONS = 5              # 5 positions for diversification
 HARD_STOP_LOSS = 0.20          # -20% hard cap
 MAX_HOLD_MINUTES = 30          # 30 min max hold
 DAILY_MAX_LOSS_ETH = 0.05      # -0.05 ETH/day cap
