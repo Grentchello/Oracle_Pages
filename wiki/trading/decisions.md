@@ -25660,3 +25660,9 @@
 ## [2026-09-16 15:44 UTC] buy | [LLM] $GS at $1.25404e-05, spent 0.02 SOL
 - **Reasoning:** $GS has an ironic self-deprecating name ('genuine stupidity') plus a real X account — classic attention-market setup at $12.5k mcap sub-1min. 35% bond still bonding, so I want to confirm I can actually fill; sizing at 0.02 SOL keeps risk minimal on a fragile microcap. $b skipped — 'a' with desc 'c' has no narrative.
 
+## [2026-09-16 15:45 UTC] sell | [rapid-drop] $GS crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-16 15:45 UTC] buy | [LLM] $pillcate at $1.033e-05, spent 0.02 SOL
+- **Reasoning:** Cat + trenches rescue narrative resonates with degen twitter; 35% bonded suggests early momentum, twitter handle exists. $12k mcap gives 5-10x room if narrative catches.
+
