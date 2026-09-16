@@ -25597,3 +25597,9 @@
 ## [2026-09-16 15:07 UTC] buy | [LLM] $INVSTORINU at $5.802e-06, spent 0.02 SOL
 - **Reasoning:** Fresh 0.9min launch with a clear investor-meta narrative ('invests before everyone pretends they knew') and an active X handle — exactly the kind of story-driven attention play that can 5-10x from $5k mcap. Bond still 21% means curve is early but price discovery is live; position size is small (0.02 SOL) so the risk is bounded. I'll watch the first 5-10 min for traction and exit fast if it doesn't grab volume.
 
+## [2026-09-16 15:08 UTC] sell | [rapid-drop] $INVSTORINU crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-16 15:08 UTC] buy | [LLM] $PUMP at $9.8289e-05, spent 0.02 SOL
+- **Reasoning:** PUMPKIN narrative has obvious viral attention around the PUMP brand/seasonality, sub-1min age means bonding curve is still early (4%), mcap $3.6k leaves room for multi-x but liquidity is thin so a $5 position respects the 5x liquidity gate. Classic sub-$5k launch, no political/celebrity fragility, worth a small scalp.
+
