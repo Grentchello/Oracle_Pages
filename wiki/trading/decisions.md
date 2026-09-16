@@ -25525,3 +25525,6 @@
 ## [2026-09-16 14:15 UTC] sell | [FULL][LLM] $DEGENCITY at $3.50063e-06 | P&L: -100.0%
 - **Reasoning:** Just entered, +0.2% means essentially flat. Pool is only $395 — tiny, illiquid, no momentum signal. Free the slot for $frog which is fresher with attention.
 
+## [2026-09-16 14:16 UTC] buy | [LLM] $nazinu at $6.72993e-06, spent 0.02 SOL
+- **Reasoning:** $nazinu is a fresh 0.5min launch tied to a specific viral tweet (biyoudemo status 2099752989414302114) — that's exactly the attention-launched narrative this strategy targets. $6.7k mcap with bonding curve at 27% means early entry and clear exit liquidity on curve completion. Risk: tweet-driven tokens can rug, but at 0.05 SOL position size the downside is bounded and the upside on a viral X narrative is the asymmetry we're hunting.
+

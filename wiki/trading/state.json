@@ -1,8 +1,37 @@
 {
-  "balance_sol": 1.98,
+  "balance_sol": 1.96,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "7o4tq7mgqNgk4W8J2URVqx9NjJkU56h1FjFqwttkpump": {
+      "symbol": "nazinu",
+      "name": "nazinu",
+      "mint": "7o4tq7mgqNgk4W8J2URVqx9NjJkU56h1FjFqwttkpump",
+      "amount": 288828.96789895167,
+      "entry_price_usd": 6.72993437652711e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-16T14:16:33.412555+00:00",
+      "entry_time_iso": "2026-09-16T14:16:33.412564+00:00",
+      "entry_usd_value": 1.9438,
+      "last_seen_price_usd": 6.72993437652711e-06,
+      "entry_liquidity_usd": 1524.8989891540998,
+      "entry_pool_sol": 15.68987539,
+      "entry_market_cap_usd": 6711.388405563858,
+      "entry_signals": {
+        "liquidity_usd": 1524.8989891540998,
+        "volume_24h_usd": null,
+        "market_cap_usd": 6711.388405563858,
+        "ath_market_cap_usd": 7335.587581256518,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 15.68987539,
+        "description": "",
+        "twitter": "https://x.com/biyoudemo/status/2099752989414302114",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62511,17 +62540,11 @@
       "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-16T14:15:13.478129+00:00",
+  "last_updated": "2026-09-16T14:16:33.412835+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.099,
-  "portfolio_value_usd": 192.26,
+  "last_sol_price_usd": 97.19,
+  "portfolio_value_usd": 192.44,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 05:31 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-16 05:56 UTC",
       "action": "observe",
@@ -62635,6 +62658,12 @@
       "action": "sell",
       "details": "[FULL][LLM] $DEGENCITY at $3.50063e-06 | P&L: -100.0%",
       "reason": "Just entered, +0.2% means essentially flat. Pool is only $395 — tiny, illiquid, no momentum signal. Free the slot for $frog which is fresher with attention."
+    },
+    {
+      "time": "2026-09-16 14:16 UTC",
+      "action": "buy",
+      "details": "[LLM] $nazinu at $6.72993e-06, spent 0.02 SOL",
+      "reason": "$nazinu is a fresh 0.5min launch tied to a specific viral tweet (biyoudemo status 2099752989414302114) — that's exactly the attention-launched narrative this strategy targets. $6.7k mcap with bonding curve at 27% means early entry and clear exit liquidity on curve completion. Risk: tweet-driven tokens can rug, but at 0.05 SOL position size the downside is bounded and the upside on a viral X narrative is the asymmetry we're hunting."
     }
   ],
   "trade_stats": {
@@ -62656,21 +62685,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-16T14:15:13.477799+00:00",
+  "last_llm_brief_at": "2026-09-16T14:16:32.119196+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "B8D2GvenDp5y1whty9Kpjw8vWM2WvqqNDuAnCpvEpump": {
-      "price_usd": 3.5006324870099647e-06,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 394.844346920376,
-      "volume_h24": 925.8,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 4.066410024
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
