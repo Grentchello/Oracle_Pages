@@ -25528,3 +25528,6 @@
 ## [2026-09-16 14:16 UTC] buy | [LLM] $nazinu at $6.72993e-06, spent 0.02 SOL
 - **Reasoning:** $nazinu is a fresh 0.5min launch tied to a specific viral tweet (biyoudemo status 2099752989414302114) — that's exactly the attention-launched narrative this strategy targets. $6.7k mcap with bonding curve at 27% means early entry and clear exit liquidity on curve completion. Risk: tweet-driven tokens can rug, but at 0.05 SOL position size the downside is bounded and the upside on a viral X narrative is the asymmetry we're hunting.
 
+## [2026-09-16 14:17 UTC] sell | [PARTIAL][LLM] $nazinu at $8.51883e-06 | P&L: -100.0%
+- **Reasoning:** Up +26.6% on a tiny $2248 pool bonding-curve token with0% of our share visible — thin liquidity means any retrace will be violent. Lock half the gain now, let the rest ride on the narrative if it keeps pumping.
+
