@@ -25588,3 +25588,6 @@
 ## [2026-09-16 15:04 UTC] buy | [LLM] $ATOM at $8.345e-06, spent 0.02 SOL
 - **Reasoning:** $ATOM name is universally recognized + brandable ticker, linked to nikitabier (notable CT account), bonding at 28% already — taking a starter position on attention.
 
+## [2026-09-16 15:05 UTC] sell | [PARTIAL][LLM] $ATOM at $1.24822e-05 | P&L: -100.0%
+- **Reasoning:** +49.6% in 0.0h is already past my +30% TP threshold; the bot should auto-take-profit. Locking half now to realize the gain while keeping a runner in case the bond pushes to ATH. Don't hope — bank the profit.
+
