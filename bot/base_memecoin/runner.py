@@ -27,9 +27,20 @@ def is_already_running():
         try:
             pid = int(open(LOCK_FILE).read().strip())
             os.kill(pid, 0)
-            return True
+            # PID exists - check if it's actually a runner
+            cmdline_path = f"/proc/{pid}/cmdline"
+            if os.path.exists(cmdline_path):
+                cmdline = open(cmdline_path).read()
+                if "base_memecoin/runner" in cmdline:
+                    return True
+                else:
+                    # PID reused by another process - take over lock
+                    pass
+            else:
+                return True
         except (OSError, ValueError):
             pass
+    # Write our PID to lock
     with open(LOCK_FILE, "w") as f:
         f.write(str(os.getpid()))
     return False
