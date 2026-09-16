@@ -546,12 +546,21 @@ def main():
     
     log(f"After filters: {len(candidates)} candidates pass all gates")
     
-    # Try to buy top candidate (if room for new position)
-    if len(state["positions"]) < MAX_POSITIONS and candidates:
+    # Buy multiple candidates per tick (diversification!)
+    if candidates:
         candidates.sort(key=lambda c: c["score"], reverse=True)
-        best = candidates[0]
-        log(f"BEST CANDIDATE: ${best['symbol']} score={best['score']} reasons={best['reasons']}")
-        execute_buy(state, best)
+        bought_count = 0
+        for cand in candidates:
+            if len(state["positions"]) >= MAX_POSITIONS:
+                break
+            # Skip if we already hold this exact token address
+            cand_addr = cand.get("address", "")
+            already_held = any(p.get("address", "") == cand_addr for p in state["positions"].values())
+            if already_held:
+                continue
+            log(f"BUY #{bought_count+1}: ${cand['symbol']} score={cand['score']} reasons={cand['reasons']}")
+            if execute_buy(state, cand):
+                bought_count += 1
     
     # v1.3: Use entry_price as held price for first tick (avoid phantom +500% from stale prices)
     held_prices = {}
