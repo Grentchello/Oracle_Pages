@@ -25666,3 +25666,6 @@
 ## [2026-09-16 15:45 UTC] buy | [LLM] $pillcate at $1.033e-05, spent 0.02 SOL
 - **Reasoning:** Cat + trenches rescue narrative resonates with degen twitter; 35% bonded suggests early momentum, twitter handle exists. $12k mcap gives 5-10x room if narrative catches.
 
+## [2026-09-16 15:46 UTC] sell | [rapid-drop] $pillcate crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

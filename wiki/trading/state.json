@@ -2,36 +2,7 @@
   "balance_sol": 1.628973,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GsY7g9VzMgv1BQbyiT7oa7pDfg8v5drQCsNGVjeVpump": {
-      "symbol": "pillcate",
-      "name": "pillcate",
-      "mint": "GsY7g9VzMgv1BQbyiT7oa7pDfg8v5drQCsNGVjeVpump",
-      "amount": 187570.18393030012,
-      "entry_price_usd": 1.033e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-16T15:45:35.688774+00:00",
-      "entry_time_iso": "2026-09-16T15:45:35.688782+00:00",
-      "entry_usd_value": 1.9376,
-      "last_seen_price_usd": 1.033e-05,
-      "entry_liquidity_usd": 3466.84717368472,
-      "entry_pool_sol": 35.784962569,
-      "entry_market_cap_usd": 12625.879995812898,
-      "entry_signals": {
-        "liquidity_usd": 3466.84717368472,
-        "volume_24h_usd": 7985.12,
-        "market_cap_usd": 12625.879995812898,
-        "ath_market_cap_usd": 12690.667290773006,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 35.784962569,
-        "description": "Your cate pill to save the trenches!",
-        "twitter": "https://x.com/pillcate",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63109,19 +63080,38 @@
       "hold_duration_seconds": 66.809454,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "GsY7g9VzMgv1BQbyiT7oa7pDfg8v5drQCsNGVjeVpump",
+      "symbol": "pillcate",
+      "name": "pillcate",
+      "amount_sold": 187570.18393030012,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-16T15:45:35.688774+00:00",
+      "entry_time_iso": "2026-09-16T15:45:35.688782+00:00",
+      "exit_time": "2026-09-16T15:46:42.535096+00:00",
+      "exit_time_iso": "2026-09-16T15:46:42.535103+00:00",
+      "entry_price_usd": 1.033e-05,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 3466.84717368472,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 35.784962569,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 66.846341,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-16T15:45:35.688948+00:00",
+  "last_updated": "2026-09-16T15:46:52.440111+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.88,
-  "portfolio_value_usd": 159.75,
+  "last_sol_price_usd": 97.39,
+  "portfolio_value_usd": 158.65,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 15:10 UTC",
-      "action": "buy",
-      "details": "[LLM] $PBJ at $3.607e-06, spent 0.02 SOL",
-      "reason": "$PBJ has viral attention signal (UsePaid tweet from lilbruhfish),0.8min old with only14% bonding — early entry window still open. Ultra-low mcap ($3.8k) means asymmetric upside if it catches. Small size, tight stop."
-    },
     {
       "time": "2026-09-16 15:11 UTC",
       "action": "sell",
@@ -63235,40 +63225,46 @@
       "action": "buy",
       "details": "[LLM] $pillcate at $1.033e-05, spent 0.02 SOL",
       "reason": "Cat + trenches rescue narrative resonates with degen twitter; 35% bonded suggests early momentum, twitter handle exists. $12k mcap gives 5-10x room if narrative catches."
+    },
+    {
+      "time": "2026-09-16 15:46 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $pillcate crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3544,
+    "total": 3545,
     "wins": 1615,
-    "losses": 1929,
+    "losses": 1930,
     "win_rate_pct": 45.6,
-    "total_pnl_sol": 25.993357,
-    "avg_pnl_pct": 37.11,
+    "total_pnl_sol": 25.973357,
+    "avg_pnl_pct": 37.07,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 24,
-    "today_realized_sol": -0.351027,
-    "today_target_pct": -87.8,
+    "today_trades": 25,
+    "today_realized_sol": -0.371027,
+    "today_target_pct": -92.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1615,
-      "loss_count": 1929,
+      "loss_count": 1930,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-16T15:45:34.392602+00:00",
+  "last_llm_brief_at": "2026-09-16T15:46:51.325071+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "c6Aa5ga6TfdDVEVxuX4jckLCf7pjyVdEJetxLuH3zdN": {
-      "price_usd": 4.3876809607731445e-06,
+    "GsY7g9VzMgv1BQbyiT7oa7pDfg8v5drQCsNGVjeVpump": {
+      "price_usd": 2.7969821309765437e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 792.6915104236799,
-      "volume_h24": 15781.21,
+      "liquidity_usd": 39.46439079806,
+      "volume_h24": 15920.07,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 8.182199736
+      "real_sol_reserves": 0.405220154
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
