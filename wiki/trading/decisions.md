@@ -25522,3 +25522,6 @@
 ## [2026-09-16 14:13 UTC] buy | [LLM] $DEGENCITY at $3.493e-06, spent 0.02 SOL
 - **Reasoning:** $DEGENCITY has the strongest narrative of the three — 'Degens accidentally built a civilization' is self-aware degen culture bait, the BUY→build/SELL→fire mechanic creates engagement, and it's a fresh sub-1-min launch where attention narrative is everything. Low $3.5k mcap with bonding curve still at 11% means early entry risk but max upside if the 'degen city builder' angle catches.
 
+## [2026-09-16 14:15 UTC] sell | [FULL][LLM] $DEGENCITY at $3.50063e-06 | P&L: -100.0%
+- **Reasoning:** Just entered, +0.2% means essentially flat. Pool is only $395 — tiny, illiquid, no momentum signal. Free the slot for $frog which is fresher with attention.
+

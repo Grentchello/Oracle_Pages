@@ -2,36 +2,7 @@
   "balance_sol": 1.98,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "B8D2GvenDp5y1whty9Kpjw8vWM2WvqqNDuAnCpvEpump": {
-      "symbol": "DEGENCITY",
-      "name": "Degenopolis",
-      "mint": "B8D2GvenDp5y1whty9Kpjw8vWM2WvqqNDuAnCpvEpump",
-      "amount": 553163.4697967364,
-      "entry_price_usd": 3.493e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-16T14:13:57.981459+00:00",
-      "entry_time_iso": "2026-09-16T14:13:57.981467+00:00",
-      "entry_usd_value": 1.9322000000000001,
-      "last_seen_price_usd": 3.493e-06,
-      "entry_liquidity_usd": 392.85587241863993,
-      "entry_pool_sol": 4.066410024,
-      "entry_market_cap_usd": 3488.288214014854,
-      "entry_signals": {
-        "liquidity_usd": 392.85587241863993,
-        "volume_24h_usd": 924.65,
-        "market_cap_usd": 3488.288214014854,
-        "ath_market_cap_usd": 4075.574311573767,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 4.066410024,
-        "description": "DEGENOPOLIS 🏙️ Degens accidentally built a civilization. BUY → we build. SELL → something catches fire. Huts become factories. Factories become skyscrapers. Skyscrapers become flying-car cyberpunk nonsense. Market cap goes up, civilization evolves. Market cap gets nuked, so does the city. Every buy ",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62513,19 +62484,38 @@
       "hold_duration_seconds": 66.929105,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "B8D2GvenDp5y1whty9Kpjw8vWM2WvqqNDuAnCpvEpump",
+      "symbol": "DEGENCITY",
+      "name": "Degenopolis",
+      "amount_sold": 553163.4697967364,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-16T14:13:57.981459+00:00",
+      "entry_time_iso": "2026-09-16T14:13:57.981467+00:00",
+      "exit_time": "2026-09-16T14:15:13.477939+00:00",
+      "exit_time_iso": "2026-09-16T14:15:13.477944+00:00",
+      "entry_price_usd": 3.493e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — Just entered, +0.2% means essentially flat. Pool is only $395 — tiny, illiquid, no momentum signal. Free the slot for $frog which is f — no real exit liquidity",
+      "entry_liquidity_usd": 392.85587241863993,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 4.066410024,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 75.496498,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-16T14:13:57.981672+00:00",
+  "last_updated": "2026-09-16T14:15:13.478129+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.61,
-  "portfolio_value_usd": 193.22,
+  "last_sol_price_usd": 97.099,
+  "portfolio_value_usd": 192.26,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 05:15 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-16 05:31 UTC",
       "action": "observe",
@@ -62639,30 +62629,48 @@
       "action": "buy",
       "details": "[LLM] $DEGENCITY at $3.493e-06, spent 0.02 SOL",
       "reason": "$DEGENCITY has the strongest narrative of the three — 'Degens accidentally built a civilization' is self-aware degen culture bait, the BUY→build/SELL→fire mechanic creates engagement, and it's a fresh sub-1-min launch where attention narrative is everything. Low $3.5k mcap with bonding curve still at 11% means early entry risk but max upside if the 'degen city builder' angle catches."
+    },
+    {
+      "time": "2026-09-16 14:15 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $DEGENCITY at $3.50063e-06 | P&L: -100.0%",
+      "reason": "Just entered, +0.2% means essentially flat. Pool is only $395 — tiny, illiquid, no momentum signal. Free the slot for $frog which is fresher with attention."
     }
   ],
   "trade_stats": {
-    "total": 3520,
+    "total": 3521,
     "wins": 1612,
-    "losses": 1908,
+    "losses": 1909,
     "win_rate_pct": 45.8,
-    "total_pnl_sol": 26.344384,
-    "avg_pnl_pct": 37.87,
+    "total_pnl_sol": 26.324384,
+    "avg_pnl_pct": 37.83,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 0,
-    "today_realized_sol": 0,
-    "today_target_pct": 0.0,
+    "today_trades": 1,
+    "today_realized_sol": -0.02,
+    "today_target_pct": -5.0,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1612,
-      "loss_count": 1908,
+      "loss_count": 1909,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-16T14:13:56.377459+00:00",
+  "last_llm_brief_at": "2026-09-16T14:15:13.477799+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "B8D2GvenDp5y1whty9Kpjw8vWM2WvqqNDuAnCpvEpump": {
+      "price_usd": 3.5006324870099647e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 394.844346920376,
+      "volume_h24": 925.8,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 4.066410024
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
