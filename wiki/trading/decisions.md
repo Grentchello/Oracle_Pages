@@ -25531,3 +25531,6 @@
 ## [2026-09-16 14:17 UTC] sell | [PARTIAL][LLM] $nazinu at $8.51883e-06 | P&L: -100.0%
 - **Reasoning:** Up +26.6% on a tiny $2248 pool bonding-curve token with0% of our share visible — thin liquidity means any retrace will be violent. Lock half the gain now, let the rest ride on the narrative if it keeps pumping.
 
+## [2026-09-16 14:19 UTC] sell | [PARTIAL][LLM] $nazinu at $8.13206e-06 | P&L: +20.8%
+- **Reasoning:** +20.8% but only 0.0h held and on bonding curve with tiny $2130 pool — lock half the gain now, let the other half ride if attention builds.
+
