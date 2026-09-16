@@ -25570,3 +25570,6 @@
 ## [2026-09-16 14:46 UTC] sell | [v8.7 TP +50% (full)] $TRUTHPAY at $1.29099e-05 | P&L: -100.0%
 - **Reasoning:** Auto take-profit at +80.0%
 
+## [2026-09-16 14:47 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
