@@ -25648,3 +25648,6 @@
 ## [2026-09-16 15:36 UTC] buy | [LLM] $Nika at $6.73382e-06, spent 0.02 SOL
 - **Reasoning:** $Nika — viral X narrative (panda going viral at Beijing Zoo, real tweet from ZeddsDegens), brand-new $6.7k mcap launch fits 'buy the story, not the chart.' Standard memecoin fragility: thin liquidity and brand-new, but the attention signal is concrete (specific viral moment, not vague hype).
 
+## [2026-09-16 15:37 UTC] sell | [rapid-drop] $Nika crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
