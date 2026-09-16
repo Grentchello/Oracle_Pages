@@ -1,29 +1,7 @@
 {
-  "balance_eth": 0.07458699999999999,
+  "balance_eth": 0.079715,
   "starting_balance_eth": 0.1,
   "positions": {
-    "0x0F61Edbfe6Cd86024C0f210c0695B08df55fdfc9": {
-      "symbol": "BSTONK",
-      "name": "BaseStonk",
-      "address": "0x0F61Edbfe6Cd86024C0f210c0695B08df55fdfc9",
-      "position_size_eth": 0.005,
-      "entry_sol_spent": 0.005,
-      "amount_tokens": 0.8441668073611346,
-      "entry_price_usd": 0.005923,
-      "entry_time": "2026-09-16T07:00:54.135956+00:00",
-      "entry_liquidity_usd": 263557.17,
-      "entry_volume_24h": 215765.1,
-      "entry_market_cap": 5248371.0,
-      "entry_score": 4,
-      "entry_reasons": [
-        "good vol",
-        "decent liquidity",
-        "buy pressure",
-        "active trading"
-      ],
-      "entry_dex": "uniswap",
-      "fraction_sold": 0.0
-    },
     "0xB2000000000000000000004c27f6523082f41D01": {
       "symbol": "Basecat",
       "name": "Basecat",
@@ -44,7 +22,13 @@
         "active trading"
       ],
       "entry_dex": "uniswap",
-      "fraction_sold": 0.0
+      "fraction_sold": 0.0,
+      "price_history": [
+        {
+          "t": "2026-09-16T07:08:11.838366+00:00",
+          "p": 0.01866
+        }
+      ]
     },
     "0xf5F11BC9Be9D6690f795D04d2fc9bdd097008a2B": {
       "symbol": "BPAD",
@@ -66,7 +50,13 @@
         "active trading"
       ],
       "entry_dex": "uniswap",
-      "fraction_sold": 0.0
+      "fraction_sold": 0.0,
+      "price_history": [
+        {
+          "t": "2026-09-16T07:08:11.838595+00:00",
+          "p": 0.0001737
+        }
+      ]
     },
     "0xecaF81Eb42cd30014EB44130b89Bcd6d4Ad98B92": {
       "symbol": "CHAD",
@@ -88,7 +78,13 @@
         "active trading"
       ],
       "entry_dex": "uniswap",
-      "fraction_sold": 0.0
+      "fraction_sold": 0.0,
+      "price_history": [
+        {
+          "t": "2026-09-16T07:08:11.838758+00:00",
+          "p": 3.884e-06
+        }
+      ]
     },
     "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b": {
       "symbol": "VIRTUAL",
@@ -110,7 +106,13 @@
         "active trading"
       ],
       "entry_dex": "pancakeswap",
-      "fraction_sold": 0.0
+      "fraction_sold": 0.0,
+      "price_history": [
+        {
+          "t": "2026-09-16T07:08:11.838900+00:00",
+          "p": 0.5921
+        }
+      ]
     }
   },
   "trades": [
@@ -683,12 +685,31 @@
       "entry_liquidity_usd": 213112.53,
       "exit_liquidity_usd": 330648.45,
       "ghost_exit": false
+    },
+    {
+      "symbol": "BSTONK",
+      "name": "BaseStonk",
+      "address": "0x0F61Edbfe6Cd86024C0f210c0695B08df55fdfc9",
+      "amount_eth_sold": 0.005,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-16T07:00:54.135956+00:00",
+      "exit_time": "2026-09-16T07:16:32.702934+00:00",
+      "entry_price_usd": 0.005923,
+      "exit_price_usd": 0.006075,
+      "entry_amount_eth": 0.005,
+      "exit_amount_eth": 0.005128313354718892,
+      "pnl_eth": 0.00012831335471889197,
+      "pnl_pct": 2.5662670943778387,
+      "exit_reason": "max-hold 15min",
+      "entry_liquidity_usd": 263557.17,
+      "exit_liquidity_usd": 266311.66,
+      "ghost_exit": false
     }
   ],
-  "today_pnl_eth": -0.00041373729755205414,
+  "today_pnl_eth": -0.00028542394283316216,
   "last_pnl_reset": "2026-09-16",
-  "total_pnl_eth": -0.00041373729755205414,
-  "last_updated": "2026-09-16T07:15:29.959713+00:00",
+  "total_pnl_eth": -0.00028542394283316216,
+  "last_updated": "2026-09-16T07:16:32.703196+00:00",
   "bot_version": "v3.0-base",
   "created": "2026-09-14",
   "v3_reset": "Forced clear to test multi-buy"

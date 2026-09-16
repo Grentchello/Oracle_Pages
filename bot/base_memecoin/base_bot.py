@@ -46,21 +46,25 @@ WATCHLIST_PATH = DATA_DIR / "data" / "watchlist.json"
 # === Strategy (v1.0 — conservative, learn first) ===
 POSITION_SIZE_ETH = 0.005      # ~$12-15 per position (smaller for diversification)
 MAX_POSITIONS = 5              # 5 positions for diversification
-HARD_STOP_LOSS = 0.20          # -20% hard cap
-MAX_HOLD_MINUTES = 30          # 30 min max hold
+HARD_STOP_LOSS = 0.15             # v3.0: -15% hard stop (was -25%)          # -20% hard cap
+MAX_HOLD_MINUTES = 15             # v3.0: 15 min max hold (was 30)          # 30 min max hold
 DAILY_MAX_LOSS_ETH = 0.05      # -0.05 ETH/day cap
 
-# === Entry gates ===
-MIN_LIQUIDITY_USD = 500       # v8.2: lowered from $10k - was blocking all trades
-MIN_VOLUME_24H_USD = 1000     # v8.2: lowered from $5k
-MIN_PAIR_AGE_MINUTES = 2       # wait 2 min before considering
+# === Entry gates (v3.0: MICRO-CAP MEMECOINS) ===
+# Big-cap tokens like VIRTUAL ($0.59), Basecat ($213k liq) barely move in 30 min.
+# We need VOLATILITY. Filter for micro-cap + recent launch.
+MIN_LIQUIDITY_USD = 2000       # require $2k+ liquidity (some liquidity for exit)
+MIN_VOLUME_24H_USD = 500       # require $500+ 24h volume
+MIN_PAIR_AGE_MINUTES = 5       # wait 5 min for initial volatility to settle
 MAX_PAIR_AGE_MINUTES = 1440    # only tokens <24h old
+MAX_MARKET_CAP_USD = 500000    # v3.0: ONLY micro-caps (<$500k) - these have 5-50x potential
+MAX_PRICE_USD = 0.10           # v3.0: skip tokens >$0.10 (avoid "stable" large caps)
 
-# === Take profit tiers (Base memecoins can 2-10x typically) ===
-# v1.3: Lowered targets — memecoins rarely go past 2-3x in 30 min
-TP_TIER_1_PCT = 50              # 1.5x — sell 25% (early profit)
-TP_TIER_2_PCT = 100             # 2x — sell 50%
-TP_TIER_3_PCT = 200             # 3x — sell all
+# === Take profit tiers (v3.0: TIGHT, lock in gains fast) ===
+# Micro-cap memecoins can 2-10x in MINUTES, not 30 min. Hit TP quick.
+TP_TIER_1_PCT = 20              # +20% — sell 25% (lock quick gain)
+TP_TIER_2_PCT = 50              # +50% — sell 50%
+TP_TIER_3_PCT = 100             # +100% (2x) — sell all
 
 # === Slippage model ===
 MAX_SLIPPAGE_PCT = 5           # assume 5% slippage per trade
@@ -247,15 +251,25 @@ def filter_pair(pair):
     if pair.get("chainId") != "base":
         return "not base chain"
     
-    # Liquidity floor: $10k
+    # Liquidity floor: $2k
     liq = to_float(pair.get("liquidity", {}).get("usd", 0))
     if liq < MIN_LIQUIDITY_USD:
         return f"liq ${liq:.0f} < ${MIN_LIQUIDITY_USD}"
     
-    # 24h volume floor: $5k
+    # 24h volume floor: $500
     vol = to_float(pair.get("volume", {}).get("h24", 0))
     if vol < MIN_VOLUME_24H_USD:
         return f"vol ${vol:.0f} < ${MIN_VOLUME_24H_USD}"
+    
+    # v3.0: Market cap filter (micro-caps only)
+    mcap = to_float(pair.get("marketCap", 0))
+    if mcap > MAX_MARKET_CAP_USD:
+        return f"mcap ${mcap:.0f} > ${MAX_MARKET_CAP_USD} (not micro-cap)"
+    
+    # v3.0: Price filter (skip "stable" tokens like VIRTUAL)
+    price = to_float(pair.get("priceUsd", 0))
+    if price > MAX_PRICE_USD:
+        return f"price ${price:.4f} > ${MAX_PRICE_USD} (too stable)"
     
     # Age window: 2 min - 24h
     age_min = pair_age_minutes(pair)
@@ -357,7 +371,6 @@ def execute_buy(state, decision):
         "address": decision["address"],
         "position_size_eth": pos_value_eth,  # ETH spent on entry
         "entry_sol_spent": pos_value_eth,    # alias for compatibility
-        # amount_tokens: how many tokens we got (used to calc % sold)
         "amount_tokens": pos_value_eth / decision["price_eth"] if decision["price_eth"] > 0 else 0,
         "entry_price_usd": decision["price_eth"],
         "entry_time": datetime.now(timezone.utc).isoformat(),
@@ -368,6 +381,8 @@ def execute_buy(state, decision):
         "entry_reasons": decision["reasons"],
         "entry_dex": decision["dex"],
         "fraction_sold": 0.0,
+        # v3.0: Track price history for sparkline graphs
+        "price_history": [{"t": datetime.now(timezone.utc).isoformat(), "p": decision["price_eth"]}],
     }
     
     # Use address as key, or symbol if address missing
@@ -506,6 +521,9 @@ def execute_sell(state, key, fraction, reason):
         "entry_liquidity_usd": pos.get("entry_liquidity_usd", 0),
         "exit_liquidity_usd": cur_liq,
         "ghost_exit": cur_liq < pos_value_usd * 2,
+        # v3.0: include price history for sparkline graphs on dashboard
+        "price_history": pos.get("price_history", []),
+        "hold_seconds": (datetime.now(timezone.utc) - datetime.fromisoformat(pos["entry_time"])).total_seconds(),
     }
     
     state["trades"].append(trade)
@@ -569,17 +587,31 @@ def main():
     
     # v1.3: Use entry_price as held price for first tick (avoid phantom +500% from stale prices)
     held_prices = {}
+    now_iso = datetime.now(timezone.utc).isoformat()
     for key, pos in state["positions"].items():
         # Use entry price for immediate next tick (prevents race condition)
         entry_price = pos.get("entry_price_usd", 0)
         if entry_price > 0:
             held_prices[pos["address"]] = {"priceUsd": str(entry_price), "liquidity_usd": pos.get("entry_liquidity_usd", 0)}
+            # v3.0: record price in history (will refresh if we get API price)
+            if "price_history" not in pos:
+                pos["price_history"] = [{"t": pos.get("entry_time"), "p": entry_price}]
+            # Add entry price point if last is different
+            if not pos["price_history"] or pos["price_history"][-1].get("p") != entry_price:
+                pos["price_history"].append({"t": now_iso, "p": entry_price})
         # Then refresh from API for subsequent ticks
         else:
             pairs_data = fetch_token_pairs(pos["address"])
             for p in pairs_data:
                 if to_float(p.get("priceUsd", 0)) > 0:
                     held_prices[pos["address"]] = p
+                    cur_price = to_float(p.get("priceUsd", 0))
+                    if "price_history" not in pos:
+                        pos["price_history"] = []
+                    pos["price_history"].append({"t": now_iso, "p": cur_price})
+                    # Trim history to last 50 points to keep state.json small
+                    if len(pos["price_history"]) > 50:
+                        pos["price_history"] = pos["price_history"][-50:]
                     break
     
     # Check exits
