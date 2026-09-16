@@ -296,6 +296,28 @@ function shortAddr(addr) {
   return addr.slice(0, 6) + '...' + addr.slice(-4);
 }
 
+// Sparkline function - draws price chart from history
+function renderSparkline(history, pnlDirection = "neutral") {
+    if (!history || history.length < 2) return '<div class="sparkline"><svg></svg></div>';
+    const prices = history.map(h => h.p);
+    const min = Math.min(...prices);
+    const max = Math.max(...prices);
+    const range = max - min || 1;
+    const w = 200, h = 40;
+    const points = history.map((pt, i) => {
+        const x = (i / (history.length - 1)) * w;
+        const y = h - ((pt.p - min) / range) * h;
+        return `${x.toFixed(1)},${y.toFixed(1)}`;
+    }).join(' ');
+    const areaPath = `M0,${h} L${points} L${w},${h} Z`;
+    const linePath = `M${points.split(' ').join(' L')}`;
+    const cls = pnlDirection === 'pos' ? 'sparkline-pos' : pnlDirection === 'neg' ? 'sparkline-neg' : '';
+    return `<div class="sparkline ${cls}"><svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none">
+        <path class="sparkline-area" d="${areaPath}"/>
+        <path class="sparkline-line" d="${linePath}"/>
+    </svg></div>`;
+}
+
 async function refresh() {
   try {
     const state = await fetchJSON(STATE_URL);
@@ -354,6 +376,7 @@ async function refresh() {
                 Liquidity at entry: $${(pos.entry_liquidity_usd || 0).toFixed(0)} · 
                 ${new Date(pos.entry_time).toLocaleString()}
               </div>
+              ${renderSparkline(pos.price_history || [])}
             </div>
             <div style="text-align: right;">
               <div style="font-size: 0.75rem; color: #94a3b8;">Position</div>
@@ -392,7 +415,9 @@ async function refresh() {
               <div class="trade-meta">
                 Entry liquidity: $${(t.entry_liquidity_usd || 0).toFixed(0)} · 
                 Exit liquidity: $${(t.exit_liquidity_usd || 0).toFixed(0)}
+                ${t.hold_seconds ? ' · held ' + Math.round(t.hold_seconds) + 's' : ''}
               </div>
+              ${renderSparkline(t.price_history || [], cls)}
             </div>
             <div class="trade-pnl ${cls}">
               <div>${fmtETH(pnl)}</div>
