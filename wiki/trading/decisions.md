@@ -25642,3 +25642,6 @@
 ## [2026-09-16 15:24 UTC] buy | [LLM] $FAZE at $6.555e-06, spent 0.02 SOL
 - **Reasoning:** $FAZE has strong brand-narrative recall (FaZe Clan gaming/esports), fresh 1.3min launch, sub-$7k mcap with room to run. 0.02 SOL entry to test the thesis — no twitter link so attention is name-driven only.
 
+## [2026-09-16 15:25 UTC] sell | [FULL][LLM] $FAZE at $6.36666e-06 | P&L: -100.0%
+- **Reasoning:** Fresh entry only 0.0h old, down -2.9%, pool is tiny ($1546) and we have 0% share — no edge, no narrative momentum visible yet. Cut early per losers-exit-fast rule; better to redeploy the slot than babysit a microcap.
+
