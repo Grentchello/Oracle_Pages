@@ -25567,3 +25567,6 @@
 ## [2026-09-16 14:45 UTC] buy | [LLM] $TRUTHPAY at $7.17267e-06, spent 0.02 SOL
 - **Reasoning:** TRUTHPAY has a viral X handle (TruthpayX) and a narrative tied to 'truth' which is a recurring attention magnet in crypto. Mcap $7k with0.6min age is fresh enough for a 5-10x run if the X account posts. Bond only 28% — risk is real but size is tiny (0.02 SOL). Will watch closely for TP or -25%.
 
+## [2026-09-16 14:46 UTC] sell | [v8.7 TP +50% (full)] $TRUTHPAY at $1.29099e-05 | P&L: -100.0%
+- **Reasoning:** Auto take-profit at +80.0%
+
