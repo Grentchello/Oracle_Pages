@@ -25561,3 +25561,6 @@
 ## [2026-09-16 14:38 UTC] sell | [rapid-drop] $FUD crashed >15% in one tick | P&L: -100.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-16 14:42 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
