@@ -982,3 +982,13 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - Rationale: per memory — "Reported balance is usually inflated by slippage, phantom TP, or balance math bugs. Reset to realistic starting balance, document the reset, commit." 13 prior evals diagnosed same starvation but took no action; this one acts.
 - Next eval should show actual new positions. If still blocked, deeper issue (e.g., reserve check or position accounting bug).
 
+
+## [2026-09-16 16:15 UTC] eval | memecoin bot cron eval (16:15 UTC)
+- Cron eval (2h after 14:11 UTC balance-reset eval). Bot is now trading: **27 new trades since last eval**.
+- Since-last-eval (14:11 → 16:15 UTC): **27 trades, -0.4110 SOL realized**. WR 11.1% (3W/24L). 23/27 trades were **GHOST exits** (v9.3 correctly detected pool=0 at exit, recorded full position loss). All-time ghost rate is 67/3547 (1.9%) but the last 2h alone contributed 23 ghosts — a 1.7% rate normally just spiked to 85% in this window.
+- Trade mix since reset: 23 ghost exits (-0.02 SOL each, -0.46 SOL total), 2 small wins (ATOM +0.014 SOL, CCAT +0.004 SOL, nazinu +0.001 SOL), 1 breakeven loss (nazinu -0.0003), 1 LLM sell_all realized loss. **No TP-half winners made it past exit-liquidity gate**.
+- Root cause: v9.2 entry filter required ≥3 SOL real_sol_reserves on bonding curves. At 3 SOL with 0.02 SOL position (150x), the curve drains to 0 in <60s on rug-style launches — bot enters, LLM detects momentum, attempts sell, pool is gone. Position size is correct; **entry liquidity floor is too low for current pump.fun curve dynamics**.
+- Lifetime stats unchanged: +25.93 SOL paper (v9.0 quadratic sim upper bound — treat as inflated), 1615W/1832L (45.5% WR), current balance 1.588973 SOL vs 2.0 SOL starting = -20.6% since reset.
+- **Honest slippage accounting:** the 23 ghost exits are *more* honest than paper TP wins. v9.3 is working correctly by recording 0 SOL received instead of fabricating a paper gain. The TP+50% winners (ATOM +141%, CCAT +42%, nazinu +20%) are paper via the v9.0 sim — real exit liquidity on a draining curve is much worse than the sim assumes.
+- **Fix applied: v9.2 → v9.4 entry liquidity floor raised 3 → 8 SOL on bonding curves** (in bot/bot.py around line 598-616). Reasoning: 8 SOL = 400x position size, leaves headroom for 95% curve drain before exit. v8.7+ mechanical rules preserved (POSITION_SIZE=0.02, RESERVE=0.02, HARD_STOP_LOSS=0.25, MAX_HOLD=30min, TP=0.50). Only the v9.x entry filter parameter changed.
+- Expected outcome next eval: drastically fewer trades (most current candidates have <8 SOL reserves per runner.log), but the trades that DO fire should have real exit liquidity → higher realized WR, lower ghost rate.

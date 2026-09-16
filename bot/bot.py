@@ -595,10 +595,10 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         log(f"v8.8: filtered {filtered_count}/{pre_filter_count} candidates (already pumped)")
     candidates = candidates_filtered  # FIX: persist v8.8 filter
     
-    # v9.2 LIQUIDITY FLOOR: Allow bonding curve, but require real_sol_reserves >= 3 SOL (~$315)
-    # v9.1 used >=1 SOL but 43/50 last trades were GHOST exits — bonding curves drained
-    # between entry and exit <60s later. 3 SOL real depth = 60x our position size,
-    # which should provide real exit liquidity even if curve drains 50% before our sell.
+    # v9.4 LIQUIDITY FLOOR: Allow bonding curve, but require real_sol_reserves >= 8 SOL (~$840)
+    # v9.2 used >=3 SOL but 23/27 last trades were GHOST exits — bonding curves drained
+    # between entry and exit <60s later. 8 SOL real depth = 400x our 0.02 SOL position,
+    # which should provide real exit liquidity even if curve drains 95% before our sell.
     liq_filtered = 0
     candidates_liq = []
     for c in candidates:
@@ -606,12 +606,13 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         real_sol = _to_float(c.get("real_sol_reserves", 0)) or 0
         is_bonding = c.get("complete", True) is False or c.get("bonding_progress", 100) < 100
 
-        # If bonding curve: require >=3 SOL of real reserves
-        # 3 SOL = 60x our 0.05 SOL position. Should give meaningful exit liquidity.
+        # If bonding curve: require >=8 SOL of real reserves
+        # 8 SOL = 400x our 0.02 SOL position. Should give meaningful exit liquidity
+        # even on rug-style drain curves where 90%+ liquidity leaves in <60s.
         if is_bonding:
-            if real_sol < 3.0:
+            if real_sol < 8.0:
                 liq_filtered += 1
-                log(f"v9.2 FILTER: ${c.get('symbol')} rejected — bonding curve only {real_sol:.2f} SOL reserves (< 3.0)")
+                log(f"v9.4 FILTER: ${c.get('symbol')} rejected — bonding curve only {real_sol:.2f} SOL reserves (< 8.0)")
                 continue
             # OK: bonding curve with enough real SOL
         else:
