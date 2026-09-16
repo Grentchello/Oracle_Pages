@@ -112,22 +112,41 @@ def save_state(state):
 # === DexScreener API ===
 
 
+# Multiple DexScreener queries to get broader Base token coverage
+BASE_SEARCH_QUERIES = [
+    "BASE%20USDC",
+    "BASE%20WETH", 
+    "AERO",
+    "VIRTUAL",
+    "CLANKER",
+    "BASED",
+    "MEME",
+    "DEGEN",
+]
+
 def fetch_new_base_pools():
-    """Fetch Base pairs via DexScreener search (returns 18+ real Base pairs per call).
+    """Fetch Base pairs via multiple DexScreener searches (returns 80+ unique Base pairs).
     
-    DexPaprika returns garbage (zero addresses, WETH, missing symbols).
-    DexScreener search?q=BASE%20USDC gives us the actual Base ecosystem.
+    Single query returns ~20 Base pairs. Multiple queries with different terms
+    cover different parts of the Base ecosystem (memecoins, DeFi, AI agents, etc.)
     """
-    url = "https://api.dexscreener.com/latest/dex/search?q=BASE%20USDC"
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "base-bot/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode())
-            all_pairs = data.get("pairs", [])
-            return [p for p in all_pairs if p.get("chainId") == "base"]
-    except Exception as e:
-        log(f"DexScreener error: {e}")
-        return []
+    seen = set()
+    all_base = []
+    for q in BASE_SEARCH_QUERIES:
+        try:
+            url = f"https://api.dexscreener.com/latest/dex/search?q={q}"
+            req = urllib.request.Request(url, headers={"User-Agent": "base-bot/1.0"})
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                data = json.loads(resp.read().decode())
+                pairs = [p for p in data.get("pairs", []) if p.get("chainId") == "base"]
+                for p in pairs:
+                    addr = p.get("pairAddress", "")
+                    if addr and addr not in seen:
+                        seen.add(addr)
+                        all_base.append(p)
+        except Exception as e:
+            log(f"DexScreener q={q} error: {e}")
+    return all_base
 
 
 def pool_to_pair_format(pair):
