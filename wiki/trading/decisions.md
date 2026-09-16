@@ -25654,3 +25654,9 @@
 ## [2026-09-16 15:42 UTC] buy | [LLM] $pillcate at $6.413e-06, spent 0.02 SOL
 - **Reasoning:** $pillcate has the clearest memecoin DNA of the four: animal mascot + native degen phrase ('save the trenches') + highest bond (31%) + active X handle. Fresh $8.9k mcap with viral-attention potential. Standard 0.02 SOL test size; -25% auto-stop will contain downside if the narrative doesn't catch.
 
+## [2026-09-16 15:44 UTC] sell | [rapid-drop] $pillcate crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-16 15:44 UTC] buy | [LLM] $GS at $1.25404e-05, spent 0.02 SOL
+- **Reasoning:** $GS has an ironic self-deprecating name ('genuine stupidity') plus a real X account — classic attention-market setup at $12.5k mcap sub-1min. 35% bond still bonding, so I want to confirm I can actually fill; sizing at 0.02 SOL keeps risk minimal on a fragile microcap. $b skipped — 'a' with desc 'c' has no narrative.
+
