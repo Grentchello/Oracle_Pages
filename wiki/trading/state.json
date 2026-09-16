@@ -2,36 +2,7 @@
   "balance_sol": 1.588973,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GjBZQLrA29HwPdtKxnX6cJyVtuK2G6pzqScHEuCepump": {
-      "symbol": "Samba",
-      "name": "Hero Dog Samba",
-      "mint": "GjBZQLrA29HwPdtKxnX6cJyVtuK2G6pzqScHEuCepump",
-      "amount": 525957.906098219,
-      "entry_price_usd": 3.706e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-16T15:59:48.439713+00:00",
-      "entry_time_iso": "2026-09-16T15:59:48.439722+00:00",
-      "entry_usd_value": 1.9491999999999998,
-      "last_seen_price_usd": 3.706e-06,
-      "entry_liquidity_usd": 358.83505283142,
-      "entry_pool_sol": 3.681870027,
-      "entry_market_cap_usd": 3443.876759779584,
-      "entry_signals": {
-        "liquidity_usd": 358.83505283142,
-        "volume_24h_usd": 1089.87,
-        "market_cap_usd": 3443.876759779584,
-        "ath_market_cap_usd": 4147.820556058515,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 3.681870027,
-        "description": "This is insane This Hero Dog Named Samba is going viral for leading the Rescue for people still stuck in the rubble from the Neplal Floods We finally have a hero animal that can send Donating Fees to Nepal https://kathmandupost.com/national/2026/09/13/the-search-dog-helping-find-bodies-buried-by-nep",
-        "twitter": "https://x.com/dahullsmu/status/2100252935892660561",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63159,19 +63130,38 @@
       "hold_duration_seconds": 66.465664,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "GjBZQLrA29HwPdtKxnX6cJyVtuK2G6pzqScHEuCepump",
+      "symbol": "Samba",
+      "name": "Hero Dog Samba",
+      "amount_sold": 525957.906098219,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-16T15:59:48.439713+00:00",
+      "entry_time_iso": "2026-09-16T15:59:48.439722+00:00",
+      "exit_time": "2026-09-16T16:00:56.062260+00:00",
+      "exit_time_iso": "2026-09-16T16:00:56.062268+00:00",
+      "entry_price_usd": 3.706e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 358.83505283142,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 3.681870027,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 67.622566,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-16T15:59:48.439988+00:00",
+  "last_updated": "2026-09-16T16:01:09.081813+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.46,
-  "portfolio_value_usd": 156.81,
+  "last_sol_price_usd": 97.0099,
+  "portfolio_value_usd": 154.15,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 15:15 UTC",
-      "action": "sell",
-      "details": "[PARTIAL][LLM] $CCAT at $7.63407e-06 | P&L: -100.0%",
-      "reason": "$CCAT is up +46.4% — well past the +20% doubt threshold and even past the +30% TP zone. Lock half to bank the gain; let the runner ride on house money. Pool is still tiny ($1972), so this could easily 5x more or rug back to zero — locking profit is correct."
-    },
     {
       "time": "2026-09-16 15:16 UTC",
       "action": "sell",
@@ -63285,30 +63275,48 @@
       "action": "buy",
       "details": "[LLM] $Samba at $3.706e-06, spent 0.02 SOL",
       "reason": "$Samba — viral rescue-dog narrative (Hero Dog leading rubble rescue), real emotional story, $3.4k mcap at 0.6min, 10% bond, tied to viral X post. Description >50 chars, twitter present → passes viability gate. Cheap mcap + strong narrative = asymmetric attention play. Sizing 0.02 SOL."
+    },
+    {
+      "time": "2026-09-16 16:00 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Samba crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3546,
+    "total": 3547,
     "wins": 1615,
-    "losses": 1931,
+    "losses": 1932,
     "win_rate_pct": 45.5,
-    "total_pnl_sol": 25.953357,
-    "avg_pnl_pct": 37.03,
+    "total_pnl_sol": 25.933357,
+    "avg_pnl_pct": 36.99,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 26,
-    "today_realized_sol": -0.391027,
-    "today_target_pct": -97.8,
+    "today_trades": 27,
+    "today_realized_sol": -0.411027,
+    "today_target_pct": -102.8,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1615,
-      "loss_count": 1931,
+      "loss_count": 1932,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-16T15:59:47.191061+00:00",
+  "last_llm_brief_at": "2026-09-16T16:01:09.081675+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GjBZQLrA29HwPdtKxnX6cJyVtuK2G6pzqScHEuCepump": {
+      "price_usd": 2.7213460935067365e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4.8496446112166005,
+      "volume_h24": 2039.41,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.049991234
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
