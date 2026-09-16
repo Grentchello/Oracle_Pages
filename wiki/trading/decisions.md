@@ -25534,3 +25534,6 @@
 ## [2026-09-16 14:19 UTC] sell | [PARTIAL][LLM] $nazinu at $8.13206e-06 | P&L: +20.8%
 - **Reasoning:** +20.8% but only 0.0h held and on bonding curve with tiny $2130 pool — lock half the gain now, let the other half ride if attention builds.
 
+## [2026-09-16 14:20 UTC] sell | [rapid-drop] $nazinu crashed >15% in one tick | P&L: -6.3%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

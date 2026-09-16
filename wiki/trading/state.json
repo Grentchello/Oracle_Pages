@@ -1,37 +1,8 @@
 {
-  "balance_sol": 1.966072,
+  "balance_sol": 1.970779,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "7o4tq7mgqNgk4W8J2URVqx9NjJkU56h1FjFqwttkpump": {
-      "symbol": "nazinu",
-      "name": "nazinu",
-      "mint": "7o4tq7mgqNgk4W8J2URVqx9NjJkU56h1FjFqwttkpump",
-      "amount": 72207.24197473792,
-      "entry_price_usd": 6.72993437652711e-06,
-      "entry_sol_spent": 0.005,
-      "entry_time": "2026-09-16T14:16:33.412555+00:00",
-      "entry_time_iso": "2026-09-16T14:16:33.412564+00:00",
-      "entry_usd_value": 1.9438,
-      "last_seen_price_usd": 8.132056647344651e-06,
-      "entry_liquidity_usd": 1524.8989891540998,
-      "entry_pool_sol": 15.68987539,
-      "entry_market_cap_usd": 6711.388405563858,
-      "entry_signals": {
-        "liquidity_usd": 1524.8989891540998,
-        "volume_24h_usd": null,
-        "market_cap_usd": 6711.388405563858,
-        "ath_market_cap_usd": 7335.587581256518,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 15.68987539,
-        "description": "",
-        "twitter": "https://x.com/biyoudemo/status/2099752989414302114",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62587,19 +62558,37 @@
       "exit_pool_sol": 23.2494,
       "hold_duration_seconds": 157.246946,
       "partial": true
+    },
+    {
+      "mint": "7o4tq7mgqNgk4W8J2URVqx9NjJkU56h1FjFqwttkpump",
+      "symbol": "nazinu",
+      "name": "nazinu",
+      "amount_sold": 72207.24197473792,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-16T14:16:33.412555+00:00",
+      "entry_time_iso": "2026-09-16T14:16:33.412564+00:00",
+      "exit_time": "2026-09-16T14:20:17.163351+00:00",
+      "exit_time_iso": "2026-09-16T14:20:17.163360+00:00",
+      "entry_price_usd": 6.72993437652711e-06,
+      "exit_price_usd": 6.3070745545825104e-06,
+      "entry_sol_for_chunk": 0.005,
+      "exit_sol_received": 0.004707,
+      "pnl_sol": -0.000293,
+      "pnl_pct": -6.28,
+      "exit_reason": "rapid-drop -15%/tick",
+      "entry_liquidity_usd": 1524.9,
+      "exit_liquidity_usd": 2130.19,
+      "entry_pool_sol": 15.6899,
+      "exit_pool_sol": 22.0265,
+      "hold_duration_seconds": 223.750816,
+      "partial": false
     }
   ],
-  "last_updated": "2026-09-16T14:19:10.659802+00:00",
+  "last_updated": "2026-09-16T14:20:26.699641+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.71,
-  "portfolio_value_usd": 190.62,
+  "last_sol_price_usd": 96.75,
+  "portfolio_value_usd": 190.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 06:57 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-16 07:44 UTC",
       "action": "observe",
@@ -62713,40 +62702,46 @@
       "action": "sell",
       "details": "[PARTIAL][LLM] $nazinu at $8.13206e-06 | P&L: +20.8%",
       "reason": "+20.8% but only 0.0h held and on bonding curve with tiny $2130 pool — lock half the gain now, let the other half ride if attention builds."
+    },
+    {
+      "time": "2026-09-16 14:20 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $nazinu crashed >15% in one tick | P&L: -6.3%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3523,
+    "total": 3524,
     "wins": 1613,
-    "losses": 1910,
+    "losses": 1911,
     "win_rate_pct": 45.8,
-    "total_pnl_sol": 26.315456,
-    "avg_pnl_pct": 37.79,
+    "total_pnl_sol": 26.315163,
+    "avg_pnl_pct": 37.78,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 3,
-    "today_realized_sol": -0.028928,
-    "today_target_pct": -7.2,
+    "today_trades": 4,
+    "today_realized_sol": -0.029221,
+    "today_target_pct": -7.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1613,
-      "loss_count": 1910,
+      "loss_count": 1911,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-16T14:19:10.659438+00:00",
+  "last_llm_brief_at": "2026-09-16T14:20:26.699608+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
     "7o4tq7mgqNgk4W8J2URVqx9NjJkU56h1FjFqwttkpump": {
-      "price_usd": 8.132056647344651e-06,
+      "price_usd": 6.3070745545825104e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2130.18727468494,
-      "volume_h24": 15889.31,
+      "liquidity_usd": 1529.502113241,
+      "volume_h24": 18216.15,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 22.026546114
+      "real_sol_reserves": 15.808807372
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
