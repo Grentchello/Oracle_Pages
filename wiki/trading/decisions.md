@@ -25672,3 +25672,6 @@
 ## [2026-09-16 15:50 UTC] buy | [LLM] $Pumba at $4.58075e-06, spent 0.02 SOL
 - **Reasoning:** Fresh launch (0.6min, $4.5k mcap) with a viral narrative: 'Pumba' puma cat with 13M+ followers and 1B+ views — that's a real attention asset crossing into on-chain. Bond only 19% means early curve; ME2F/viability gates haven't flagged it (no celebrity/political keyword, description >=50 chars, liquidity presumably building). Risk is the typical 0-30min dump, but the attention signal is strong enough to take the 0.02 SOL scalp.
 
+## [2026-09-16 15:51 UTC] sell | [rapid-drop] $Pumba crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
