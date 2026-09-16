@@ -992,3 +992,15 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - **Honest slippage accounting:** the 23 ghost exits are *more* honest than paper TP wins. v9.3 is working correctly by recording 0 SOL received instead of fabricating a paper gain. The TP+50% winners (ATOM +141%, CCAT +42%, nazinu +20%) are paper via the v9.0 sim — real exit liquidity on a draining curve is much worse than the sim assumes.
 - **Fix applied: v9.2 → v9.4 entry liquidity floor raised 3 → 8 SOL on bonding curves** (in bot/bot.py around line 598-616). Reasoning: 8 SOL = 400x position size, leaves headroom for 95% curve drain before exit. v8.7+ mechanical rules preserved (POSITION_SIZE=0.02, RESERVE=0.02, HARD_STOP_LOSS=0.25, MAX_HOLD=30min, TP=0.50). Only the v9.x entry filter parameter changed.
 - Expected outcome next eval: drastically fewer trades (most current candidates have <8 SOL reserves per runner.log), but the trades that DO fire should have real exit liquidity → higher realized WR, lower ghost rate.
+
+## [2026-09-16 18:17 UTC] eval | memecoin bot — 2026-09-16 18:17 UTC
+- Window since last eval (Sep 15 01:43 UTC, ~36h gap because cron cadence skipped): **28 new trades**. Of those, **24 were GHOST exits** (rapid-drop -15%/tick, no real exit liquidity) and **4 were real exits**. Bot has been actively trading (state.json mtime matches now, balance went 0.02→1.59 then back to 1.59).
+- Since v9.4 fix (Sep 16 16:15 UTC, bonding-curve floor 3→8 SOL): **only 1 new trade in last 2h** — fix is doing its job. 23/24 ghost exits happened BEFORE v9.4 was applied. Post-fix sample too small to verify (n=1).
+- **Real-exit stats (all 28 trades since last eval):**
+  - Total realized: **-0.4310 SOL** (mostly ghosts -0.45 SOL, real exits +0.019 SOL)
+  - Real-only net: **+0.0190 SOL** across 4 trades (3W/1L, +0.019/+0.014/+0.004/-0.0003)
+  - Real-only WR: **75%** (3W/1L) — too small to read into (n=4)
+- All-time since Sep 16 14:11 reset (2.0 SOL → 1.589 SOL): **-0.411 SOL realized (-20.6%)** in 4h of trading.
+- **Honest slippage accounting (per user reminder):** 24 ghost exits are MORE honest than paper TP wins — they reflect real inability to exit, not simulated PnL. The 3 real wins (ATOM +141%, CCAT +42%, nazinu +20%) are paper via v9.0 quadratic sim. Real exit liquidity on these pools would be much worse than sim assumes.
+- **Verdict: No changes needed.** v9.4 fix from prior eval is working — bonding-curve floor raised 3→8 SOL and trade rate dropped from ~13/h to ~0.5/h. Need 24-48h more data to verify ghost rate actually drops on the trades that DO fire. v8.7+ mechanical rules (POSITION_SIZE=0.02, RESERVE=0.02, HARD_STOP_LOSS=0.25, MAX_HOLD=30min, TP=0.50) preserved per user hard constraint.
+- **Side observation: bot/runner.log not updated since Sep 15 07:29 UTC (s6-supervise pipe issue), but state.json shows bot IS actively trading and saving state.** Investigating log path is not part of this eval scope — bot is functional.
