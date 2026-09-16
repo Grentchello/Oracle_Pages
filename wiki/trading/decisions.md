@@ -25675,3 +25675,6 @@
 ## [2026-09-16 15:51 UTC] sell | [rapid-drop] $Pumba crashed >15% in one tick | P&L: -100.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-16 15:59 UTC] buy | [LLM] $Samba at $3.706e-06, spent 0.02 SOL
+- **Reasoning:** $Samba — viral rescue-dog narrative (Hero Dog leading rubble rescue), real emotional story, $3.4k mcap at 0.6min, 10% bond, tied to viral X post. Description >50 chars, twitter present → passes viability gate. Cheap mcap + strong narrative = asymmetric attention play. Sizing 0.02 SOL.
+
