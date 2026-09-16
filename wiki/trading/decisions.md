@@ -25603,3 +25603,9 @@
 ## [2026-09-16 15:08 UTC] buy | [LLM] $PUMP at $9.8289e-05, spent 0.02 SOL
 - **Reasoning:** PUMPKIN narrative has obvious viral attention around the PUMP brand/seasonality, sub-1min age means bonding curve is still early (4%), mcap $3.6k leaves room for multi-x but liquidity is thin so a $5 position respects the 5x liquidity gate. Classic sub-$5k launch, no political/celebrity fragility, worth a small scalp.
 
+## [2026-09-16 15:09 UTC] sell | [FULL][LLM] $PUMP at $9.84709e-05 | P&L: -100.0%
+- **Reasoning:** $PUMP is at +0.2% after just entering, no momentum. With bond only $4113 liquidity and 0% share, this is a ghost position. Cut and rotate into fresh attention.
+
+## [2026-09-16 15:10 UTC] buy | [LLM] $PBJ at $3.607e-06, spent 0.02 SOL
+- **Reasoning:** $PBJ has viral attention signal (UsePaid tweet from lilbruhfish),0.8min old with only14% bonding — early entry window still open. Ultra-low mcap ($3.8k) means asymmetric upside if it catches. Small size, tight stop.
+
