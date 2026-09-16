@@ -25540,3 +25540,9 @@
 ## [2026-09-16 14:26 UTC] buy | [LLM] $Chartard at $3.6455e-06, spent 0.02 SOL
 - **Reasoning:** $Chartard at 0.7min, $3.6k mcap with self-deprecating 'KEEPS DUMPING? BIGGER DISCOUNT' narrative — that's the kind of ironic humor that catches attention on memecoin X. Very early bond (12%) means high attention runway. Risk: ultra-low mcap could rug, but the prompt says default bias is take the trade and this is exactly the fresh-attention alpha the strategy targets.
 
+## [2026-09-16 14:28 UTC] sell | [rapid-drop] $Chartard crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-16 14:28 UTC] buy | [LLM] $fun at $6.978e-06, spent 0.02 SOL
+- **Reasoning:** $fun has the highest mcap ($15.5k) of the launches with an active X post, bond 35% — strongest attention signal of the batch. Position 0.02 SOL, tight mental stop.
+
