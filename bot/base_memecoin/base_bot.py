@@ -547,8 +547,10 @@ def main():
     log(f"After filters: {len(candidates)} candidates pass all gates")
     
     # Buy multiple candidates per tick (diversification!)
+    log(f"  candidates list size: {len(candidates)}")
     if candidates:
         candidates.sort(key=lambda c: c["score"], reverse=True)
+        log(f"  top 5 candidates: {[c['symbol'] for c in candidates[:5]]}")
         bought_count = 0
         for cand in candidates:
             if len(state["positions"]) >= MAX_POSITIONS:
