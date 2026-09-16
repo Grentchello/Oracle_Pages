@@ -25609,3 +25609,9 @@
 ## [2026-09-16 15:10 UTC] buy | [LLM] $PBJ at $3.607e-06, spent 0.02 SOL
 - **Reasoning:** $PBJ has viral attention signal (UsePaid tweet from lilbruhfish),0.8min old with only14% bonding — early entry window still open. Ultra-low mcap ($3.8k) means asymmetric upside if it catches. Small size, tight stop.
 
+## [2026-09-16 15:11 UTC] sell | [rapid-drop] $PBJ crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-16 15:11 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+

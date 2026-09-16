@@ -2,36 +2,7 @@
   "balance_sol": 1.774739,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "HmSz59X299GR2FhjK24T7Qn7MT3ee7LAHK6HU3NVpump": {
-      "symbol": "PBJ",
-      "name": "Pickle Bier Jr",
-      "mint": "HmSz59X299GR2FhjK24T7Qn7MT3ee7LAHK6HU3NVpump",
-      "amount": 540282.7834765734,
-      "entry_price_usd": 3.607e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-16T15:10:00.765655+00:00",
-      "entry_time_iso": "2026-09-16T15:10:00.765663+00:00",
-      "entry_usd_value": 1.9488,
-      "last_seen_price_usd": 3.607e-06,
-      "entry_liquidity_usd": 522.4574688984,
-      "entry_pool_sol": 5.361837735,
-      "entry_market_cap_usd": 3863.14484687462,
-      "entry_signals": {
-        "liquidity_usd": 522.4574688984,
-        "volume_24h_usd": 3474.64,
-        "market_cap_usd": 3863.14484687462,
-        "ath_market_cap_usd": 5515.9087351324815,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 5.361837735,
-        "description": "Fees to @lilbruhfish via UsePaid",
-        "twitter": "https://x.com/lilbruhfish/status/2100240435859857720",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62885,25 +62856,38 @@
       "hold_duration_seconds": 75.652365,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "HmSz59X299GR2FhjK24T7Qn7MT3ee7LAHK6HU3NVpump",
+      "symbol": "PBJ",
+      "name": "Pickle Bier Jr",
+      "amount_sold": 540282.7834765734,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-16T15:10:00.765655+00:00",
+      "entry_time_iso": "2026-09-16T15:10:00.765663+00:00",
+      "exit_time": "2026-09-16T15:11:08.738341+00:00",
+      "exit_time_iso": "2026-09-16T15:11:08.738348+00:00",
+      "entry_price_usd": 3.607e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 522.4574688984,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 5.361837735,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 67.972703,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-16T15:10:00.765815+00:00",
+  "last_updated": "2026-09-16T15:11:16.632783+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.44,
-  "portfolio_value_usd": 174.88,
+  "last_sol_price_usd": 96.94,
+  "portfolio_value_usd": 172.04,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 14:32 UTC",
-      "action": "buy",
-      "details": "[LLM] $KAIRA at $8.984e-06, spent 0.02 SOL",
-      "reason": "$KAIRA 'The Sisyphean Penguin' — absurdist mythos narrative (Sisyphus + penguin) is meme-poetry gold for X virality. 0.6min old with $10.6k mcap, 33% bond progress shows real buys flowing. Tiny size (0.02 SOL) matches the experimental early-launch edge play; high risk but attention signal is fresh and creative."
-    },
-    {
-      "time": "2026-09-16 14:33 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $KAIRA at $1.00241e-05 | P&L: -100.0%",
-      "reason": "Just entered (0.0h held), +11.6% off bonding curve with $2.6k pool — not yet stale, momentum positive. Give it room to run toward +30% TP before considering partial take-profit."
-    },
     {
       "time": "2026-09-16 14:37 UTC",
       "action": "buy",
@@ -63011,6 +62995,18 @@
       "action": "buy",
       "details": "[LLM] $PBJ at $3.607e-06, spent 0.02 SOL",
       "reason": "$PBJ has viral attention signal (UsePaid tweet from lilbruhfish),0.8min old with only14% bonding — early entry window still open. Ultra-low mcap ($3.8k) means asymmetric upside if it catches. Small size, tight stop."
+    },
+    {
+      "time": "2026-09-16 15:11 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $PBJ crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-16 15:11 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -63032,19 +63028,19 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-16T15:09:59.150801+00:00",
+  "last_llm_brief_at": "2026-09-16T15:11:16.632085+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "EFGGeLBWi3kbeQQ5mQdybr8sqKbQSBiGENm4bGDqpump": {
-      "price_usd": 9.847085875950606e-05,
+    "HmSz59X299GR2FhjK24T7Qn7MT3ee7LAHK6HU3NVpump": {
+      "price_usd": 2.9401653609961446e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 4113.27794896368,
-      "volume_h24": 0.0,
+      "liquidity_usd": 120.79024911453999,
+      "volume_h24": 5663.6,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 42.213443647
+      "real_sol_reserves": 1.246031041
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
