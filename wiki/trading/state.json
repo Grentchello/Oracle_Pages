@@ -2,36 +2,7 @@
   "balance_sol": 1.890779,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "3H54faGhgrq5B4nWcDiU8qu2QntBzWXDxNFbk9gRpump": {
-      "symbol": "FUD",
-      "name": "Farting Unicorn Dust",
-      "mint": "3H54faGhgrq5B4nWcDiU8qu2QntBzWXDxNFbk9gRpump",
-      "amount": 343394.8863636364,
-      "entry_price_usd": 5.632e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-16T14:37:26.916862+00:00",
-      "entry_time_iso": "2026-09-16T14:37:26.916872+00:00",
-      "entry_usd_value": 1.9340000000000002,
-      "last_seen_price_usd": 5.632e-06,
-      "entry_liquidity_usd": 1851.0469092295,
-      "entry_pool_sol": 19.142160385,
-      "entry_market_cap_usd": 6860.410692319542,
-      "entry_signals": {
-        "liquidity_usd": 1851.0469092295,
-        "volume_24h_usd": 1688.93,
-        "market_cap_usd": 6860.410692319542,
-        "ath_market_cap_usd": 7362.153350570512,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 19.142160385,
-        "description": "",
-        "twitter": "https://x.com/rightyochen/status/2100232289234079903",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62686,19 +62657,38 @@
       "hold_duration_seconds": 76.495311,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "3H54faGhgrq5B4nWcDiU8qu2QntBzWXDxNFbk9gRpump",
+      "symbol": "FUD",
+      "name": "Farting Unicorn Dust",
+      "amount_sold": 343394.8863636364,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-16T14:37:26.916862+00:00",
+      "entry_time_iso": "2026-09-16T14:37:26.916872+00:00",
+      "exit_time": "2026-09-16T14:38:33.653521+00:00",
+      "exit_time_iso": "2026-09-16T14:38:33.653529+00:00",
+      "entry_price_usd": 5.632e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 1851.0469092295,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 19.142160385,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 66.736678,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-16T14:37:26.917144+00:00",
+  "last_updated": "2026-09-16T14:38:46.203598+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 96.7,
-  "portfolio_value_usd": 184.77,
+  "last_sol_price_usd": 96.82,
+  "portfolio_value_usd": 183.07,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 10:51 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-16 11:40 UTC",
       "action": "observe",
@@ -62812,30 +62802,48 @@
       "action": "buy",
       "details": "[LLM] $FUD at $5.632e-06, spent 0.02 SOL",
       "reason": "$FUD (Farting Unicorn Dust) is a 0.8min-old launch with a memorable meme name and an X link — classic attention-market setup. Mcap $6.8k is deep in fresh-launch territory where 10x is possible; bond 27% suggests some early buys. Risks: sub-1min age means no price action yet and very thin liquidity, but the position size (0.02 SOL) limits downside to the -25% hard cap."
+    },
+    {
+      "time": "2026-09-16 14:38 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $FUD crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3527,
+    "total": 3528,
     "wins": 1613,
-    "losses": 1914,
+    "losses": 1915,
     "win_rate_pct": 45.7,
-    "total_pnl_sol": 26.255163,
-    "avg_pnl_pct": 37.66,
+    "total_pnl_sol": 26.235163,
+    "avg_pnl_pct": 37.62,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 7,
-    "today_realized_sol": -0.089221,
-    "today_target_pct": -22.3,
+    "today_trades": 8,
+    "today_realized_sol": -0.109221,
+    "today_target_pct": -27.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1613,
-      "loss_count": 1914,
+      "loss_count": 1915,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-16T14:37:25.465573+00:00",
+  "last_llm_brief_at": "2026-09-16T14:38:46.203572+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "3H54faGhgrq5B4nWcDiU8qu2QntBzWXDxNFbk9gRpump": {
+      "price_usd": 2.71994318093921e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 6.941231348859999,
+      "volume_h24": 4906.83,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.071692123
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

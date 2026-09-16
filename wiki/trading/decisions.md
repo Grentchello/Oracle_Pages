@@ -25558,3 +25558,6 @@
 ## [2026-09-16 14:37 UTC] buy | [LLM] $FUD at $5.632e-06, spent 0.02 SOL
 - **Reasoning:** $FUD (Farting Unicorn Dust) is a 0.8min-old launch with a memorable meme name and an X link — classic attention-market setup. Mcap $6.8k is deep in fresh-launch territory where 10x is possible; bond 27% suggests some early buys. Risks: sub-1min age means no price action yet and very thin liquidity, but the position size (0.02 SOL) limits downside to the -25% hard cap.
 
+## [2026-09-16 14:38 UTC] sell | [rapid-drop] $FUD crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
