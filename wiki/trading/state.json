@@ -2,36 +2,7 @@
   "balance_sol": 1.830779,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "8BS2AeRM19PjXLkhtSBgAjdvmT6XKLcGNs86TzMEpump": {
-      "symbol": "SWEEP",
-      "name": "The Sweep",
-      "mint": "8BS2AeRM19PjXLkhtSBgAjdvmT6XKLcGNs86TzMEpump",
-      "amount": 530404.2452040347,
-      "entry_price_usd": 3.6599254578990935e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-16T14:57:52.228707+00:00",
-      "entry_time_iso": "2026-09-16T14:57:52.228716+00:00",
-      "entry_usd_value": 1.94124,
-      "last_seen_price_usd": 3.6599254578990935e-06,
-      "entry_liquidity_usd": 158.932095549696,
-      "entry_pool_sol": 1.637428608,
-      "entry_market_cap_usd": 3652.6020306619953,
-      "entry_signals": {
-        "liquidity_usd": 158.932095549696,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3652.6020306619953,
-        "ath_market_cap_usd": 3652.6020306619953,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 1.637428608,
-        "description": "Kid was onto something",
-        "twitter": "",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -62761,19 +62732,38 @@
       "hold_duration_seconds": 77.114876,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "8BS2AeRM19PjXLkhtSBgAjdvmT6XKLcGNs86TzMEpump",
+      "symbol": "SWEEP",
+      "name": "The Sweep",
+      "amount_sold": 530404.2452040347,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-16T14:57:52.228707+00:00",
+      "entry_time_iso": "2026-09-16T14:57:52.228716+00:00",
+      "exit_time": "2026-09-16T14:58:58.536616+00:00",
+      "exit_time_iso": "2026-09-16T14:58:58.536624+00:00",
+      "entry_price_usd": 3.6599254578990935e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 158.932095549696,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 1.637428608,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 66.307928,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-16T14:57:52.228976+00:00",
+  "last_updated": "2026-09-16T14:59:12.590631+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 97.062,
-  "portfolio_value_usd": 179.64,
+  "last_sol_price_usd": 96.84,
+  "portfolio_value_usd": 177.29,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 14:15 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $DEGENCITY at $3.50063e-06 | P&L: -100.0%",
-      "reason": "Just entered, +0.2% means essentially flat. Pool is only $395 — tiny, illiquid, no momentum signal. Free the slot for $frog which is fresher with attention."
-    },
     {
       "time": "2026-09-16 14:16 UTC",
       "action": "buy",
@@ -62887,40 +62877,46 @@
       "action": "buy",
       "details": "[LLM] $SWEEP at $3.65993e-06, spent 0.02 SOL",
       "reason": "$SWEEP — 'Kid was onto something' has a mysterious narrative hook (who's the kid? what were they onto?). Sub-$4k mcap, brand new (0.5min), has a real description. Classic low-mcap attention-launch profile."
+    },
+    {
+      "time": "2026-09-16 14:58 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $SWEEP crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3530,
+    "total": 3531,
     "wins": 1613,
-    "losses": 1917,
+    "losses": 1918,
     "win_rate_pct": 45.7,
-    "total_pnl_sol": 26.195163,
-    "avg_pnl_pct": 37.54,
+    "total_pnl_sol": 26.175163,
+    "avg_pnl_pct": 37.5,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 10,
-    "today_realized_sol": -0.149221,
-    "today_target_pct": -37.3,
+    "today_trades": 11,
+    "today_realized_sol": -0.169221,
+    "today_target_pct": -42.3,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1613,
-      "loss_count": 1917,
+      "loss_count": 1918,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-16T14:57:50.857569+00:00",
+  "last_llm_brief_at": "2026-09-16T14:59:12.590155+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "CWS4HYQjRs9HmdzmbermD4LqbwFR78ZVFBqmd4Rfpump": {
-      "price_usd": 7.842389150768107e-06,
+    "8BS2AeRM19PjXLkhtSBgAjdvmT6XKLcGNs86TzMEpump": {
+      "price_usd": 2.8887583199186224e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 2038.186757025594,
-      "volume_h24": 10241.74,
+      "liquidity_usd": 95.64444473616,
+      "volume_h24": 778.34,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 20.998812687
+      "real_sol_reserves": 0.987654324
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",

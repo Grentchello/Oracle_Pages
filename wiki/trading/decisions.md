@@ -25582,3 +25582,6 @@
 ## [2026-09-16 14:57 UTC] buy | [LLM] $SWEEP at $3.65993e-06, spent 0.02 SOL
 - **Reasoning:** $SWEEP — 'Kid was onto something' has a mysterious narrative hook (who's the kid? what were they onto?). Sub-$4k mcap, brand new (0.5min), has a real description. Classic low-mcap attention-launch profile.
 
+## [2026-09-16 14:58 UTC] sell | [rapid-drop] $SWEEP crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
