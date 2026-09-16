@@ -25576,3 +25576,9 @@
 ## [2026-09-16 14:56 UTC] buy | [LLM] $Louinu at $6.754e-06, spent 0.02 SOL
 - **Reasoning:** Louinu is the most viral of the batch — ties into the Lou/Bojin/Silentrencher attention loop that's been minting micro-mcaps all week, mcap $8.3k with bond still only 30% complete so early entry is intact. Narrative is recognizable nonsense, exactly what pumps in attention markets. Risk: ultra-low mcap, may rug instantly, but size is capped and viability gate passed (twitter link present).
 
+## [2026-09-16 14:57 UTC] sell | [FULL][LLM] $Louinu at $7.84239e-06 | P&L: -100.0%
+- **Reasoning:** Up +16.1% but flat on a bonding curve with $2k pool — liquidity is thin and any reversal nukes gains fast. Lock the +16% now, capital rotation beats hoping for more on a microcap dog token.
+
+## [2026-09-16 14:57 UTC] buy | [LLM] $SWEEP at $3.65993e-06, spent 0.02 SOL
+- **Reasoning:** $SWEEP — 'Kid was onto something' has a mysterious narrative hook (who's the kid? what were they onto?). Sub-$4k mcap, brand new (0.5min), has a real description. Classic low-mcap attention-launch profile.
+
