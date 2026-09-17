@@ -628,19 +628,21 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         log(f"v9.1: filtered {liq_filtered}/{pre_filter_count} candidates (insufficient liquidity)")
     candidates = candidates_liq  # FIX: persist v9.1 filter
     
-    # v8.9 AGE FILTER: Skip tokens less than 1 min old (still in initial pump/dump phase)
-    # Data shows most rapid-drop losses are tokens that just launched
+    # v8.9 AGE FILTER: Skip tokens less than 3 min old (still in sniper drain zone).
+    # Data Sep 17: 89/200 recent trades are -100% ghost exits because pump.fun snipers
+    # drain bonding curves within 30-90s. Tightened 0.5→3 min at 16:52 UTC cron eval.
+    # Mechanical rules (v8.7) preserved per user hard constraint.
     age_filtered = 0
     candidates_age = []
     for c in candidates:
         age_min = c.get("age_min", 0) or 0
-        if age_min < 0.5:  # Allow >=30 sec old
+        if age_min < 3.0:  # tightened from 0.5 min at cron eval 2026-09-17 16:52 UTC
             age_filtered += 1
             log(f"v8.9 AGE FILTER: ${c.get('symbol')} rejected — only {age_min}min old (too volatile)")
             continue
         candidates_age.append(c)
     if age_filtered > 0:
-        log(f"v8.9: filtered {age_filtered} candidates (too young <1min)")
+        log(f"v8.9: filtered {age_filtered} candidates (too young <3min)")
     candidates = candidates_age  # FIX: persist v8.9 age filter
     
     # v8.9 MOMENTUM FILTER: Skip tokens showing immediate sell pressure

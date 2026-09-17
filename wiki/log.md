@@ -1160,3 +1160,20 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
   4. The actual problem is upstream LLM provider returning unparseable JSON 20+ ticks running. That's a connectivity/provider problem, not a bot parameter.
 - **Out-of-scope observation (no action taken this run)**: when the LLM provider recovers, expect the next burst of trades to be on pump.fun bonding-curve mints filtered by v9.4 (8 SOL real_sol_reserves). If post-recovery sample shows ≥10 trades with all-ghost exits, escalate per the 12:43 eval's documented thresholds (v9.6 = 25 SOL floor or pause entries until DEX graduation).
 - **Next eval**: standard +2h cadence. If LLM JSON-parse failures continue, surface to Grant with concrete remediation steps (provider swap, API key check).
+
+## [2026-09-17 16:52 UTC] eval | 2h cron auto-eval (window: Sep 17 14:47 → Sep 17 16:52 UTC)
+- **Window since last eval (~2h)**: **0 new trades** (3,572 → 3,572). State.json mtime fresh (16:51 UTC) confirming runner is alive and ticking. No LLM JSON parse failures observed in this window — upstream provider recovered since prior eval.
+- **Honest performance read** (per Grant's pattern: "reported balance inflated by slippage, phantom TP, or balance math bugs"):
+  - Lifetime paper PnL: **+25.525 SOL** across 3,572 trades (45.3% WR, 1,617W / 1,955L)
+  - Lifetime entries vs exits: 122.10 SOL deployed → 147.62 SOL returned = net +25.52 SOL on paper
+  - **BUT**: balance file = 1.180566 SOL, starting = 2.0 SOL, so wallet has actually drawn down **-0.82 SOL (-41%) since Sep 16 14:11 reset**
+  - **Last 50 trades**: **-0.789 SOL net** (losing)
+  - **Recent 200 trades**: 89 of 200 are -100% ghost exits (44.5% ghost rate)
+  - Bot has been idle for ~14h since last trade (02:57 UTC). All recent entries show `entry_sol_for_chunk=0.02, exit_sol_received=0.0, pnl=-0.02` — pure bonding-curve rug drain
+- **Root cause**: pump.fun bonding-curve snipers drain curves within 30-90s of launch. v9.4 (8 SOL floor) blocks thin curves but does not block fresh curves that get drained post-entry. v9.5 (15 SOL) tested worse (100% ghost at n=3). The 0.5min age gate at v8.9 is too loose — snipers operate in the first 0.5-2min window.
+- **Decision: ONE minimal parameter tweak — tighten v8.9 AGE FILTER from `<0.5min` to `<3min`**.
+  - v8.7 mechanical rules (HARD_STOP_LOSS=-25%, MAX_HOLD=30min, TP+50%, POSITION_SIZE=0.02 SOL, RESERVE=0.02 SOL, MAX_POSITIONS=1) preserved per user hard constraint.
+  - v9.4 (8 SOL bonding-curve floor) preserved (no data to change it yet at v9.4).
+  - v8.9 age filter is a parameter, not a mechanical rule. Tightening 0.5→3min is the smallest change that directly targets the bonding-curve rug-trap window.
+  - Rationale: tokens <3min old are still in sniper drain zone. Older tokens have stabilized depth and surviving positions get genuine exit liquidity. Should reduce ghost rate without starving the bot of candidates (most pump.fun mints at 3+ min have either rugged already or have real depth).
+- **No halt**: bot is alive, parameter change takes effect on next tick. runner.py process (PID 507) untouched.
