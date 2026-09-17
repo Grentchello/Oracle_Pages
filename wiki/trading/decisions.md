@@ -25891,3 +25891,6 @@
 ## [2026-09-17 00:22 UTC] sell | [FULL][LLM] $QAUNTITY at $5.10198e-06 | P&L: -100.0%
 - **Reasoning:** Only 0.0h held, -5.1% is within the -25% hard cap and not yet at the stale-exit threshold. Bonding-curve phase means price discovery is still active; give it a few more minutes before judging.
 
+## [2026-09-17 00:23 UTC] buy | [LLM] $pumpball at $8.265e-06, spent 0.02 SOL
+- **Reasoning:** pumpball has a meta-narrative (buyback+burn snowball effect), twitter presence, and sub-$10k mcap with attention-mechanic story. 0.6min old = fresh attention. Position 0.02 SOL respects reserve rule. Name/desc check viability gate (twitter present, desc >50 chars).
+
