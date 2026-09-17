@@ -25945,3 +25945,6 @@
 ## [2026-09-17 01:13 UTC] sell | [FULL][LLM] $$LOTTERY at $0.00140647 | P&L: -100.0%
 - **Reasoning:** $LOTTERY is essentially flat at -0.5% after very little hold time, and the name is a generic attention play with a tiny $13.9k pool on a bonding curve (just 0% share). No narrative edge, no viral signal, and capital is better deployed on a fresh launch with clearer attention. Free up the slot immediately.
 
+## [2026-09-17 01:16 UTC] buy | [LLM] $soyjak at $9.574e-06, spent 0.02 SOL
+- **Reasoning:** $soyjak — pure attention play. 'Soyjak' is a deeply viral meme format with massive cultural recognition; a token launched with that exact name and an active X account at $9.7k mcap is peak early-stage asymmetric upside. Bond 29% not complete means bonding curve still feeding — ideal entry. Risk: brand-name raids, thin liquidity at this mcap. Sizing 0.02 SOL fits the experimental learn-by-doing mandate.
+
