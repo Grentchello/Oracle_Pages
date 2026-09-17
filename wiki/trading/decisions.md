@@ -25921,3 +25921,6 @@
 ## [2026-09-17 00:40 UTC] sell | [PARTIAL][LLM] $UP at $6.96017e-06 | P&L: -100.0%
 - **Reasoning:** +17.3% in 0.0h on a $1741 bonding curve with 0% pool share is a thin, low-attention launch. Taking half locks a gain and leaves a runner in case it pumps further.
 
+## [2026-09-17 00:41 UTC] sell | [FULL][LLM] $UP at $6.54514e-06 | P&L: +10.3%
+- **Reasoning:** Up +10.3% on a fresh entry, no reason to exit. Bonding-curve token, low pool means price will move fast — give it time to develop. Will reassess at 15min stale mark.
+
