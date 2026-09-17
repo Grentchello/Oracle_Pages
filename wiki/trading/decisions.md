@@ -26008,3 +26008,6 @@
 ## [2026-09-17 02:05 UTC] buy | [LLM] $Moth at $3.381e-06, spent 0.02 SOL
 - **Reasoning:** Skip — only 1 position slot and $PAID already consumes it.
 
+## [2026-09-17 02:06 UTC] sell | [rapid-drop] $Moth crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+

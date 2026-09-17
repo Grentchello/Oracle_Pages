@@ -2,36 +2,7 @@
   "balance_sol": 1.260566,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "68QUyVTLC69XYe4M2rcHUXYyPmsCrTjNyCVe8CHKYPAr": {
-      "symbol": "Moth",
-      "name": "Mempool Moth",
-      "mint": "68QUyVTLC69XYe4M2rcHUXYyPmsCrTjNyCVe8CHKYPAr",
-      "amount": 588110.0266193434,
-      "entry_price_usd": 3.381e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-17T02:05:26.977777+00:00",
-      "entry_time_iso": "2026-09-17T02:05:26.977785+00:00",
-      "entry_usd_value": 1.9884000000000002,
-      "last_seen_price_usd": 3.381e-06,
-      "entry_liquidity_usd": 2555.9444796410403,
-      "entry_pool_sol": 25.708554412,
-      "entry_market_cap_usd": 10028.12934844119,
-      "entry_signals": {
-        "liquidity_usd": 2555.9444796410403,
-        "volume_24h_usd": 2898.69,
-        "market_cap_usd": 10028.12934844119,
-        "ath_market_cap_usd": 10627.764371791583,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 25.708554412,
-        "description": "Fees to @mikeinspace via UsePaid",
-        "twitter": "https://x.com/mikeinspace/status/2100404981790584961",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63681,19 +63652,38 @@
       "exit_pool_sol": 22.6147,
       "hold_duration_seconds": 142.394926,
       "partial": false
+    },
+    {
+      "mint": "68QUyVTLC69XYe4M2rcHUXYyPmsCrTjNyCVe8CHKYPAr",
+      "symbol": "Moth",
+      "name": "Mempool Moth",
+      "amount_sold": 588110.0266193434,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-17T02:05:26.977777+00:00",
+      "entry_time_iso": "2026-09-17T02:05:26.977785+00:00",
+      "exit_time": "2026-09-17T02:06:34.260241+00:00",
+      "exit_time_iso": "2026-09-17T02:06:34.260249+00:00",
+      "entry_price_usd": 3.381e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 2555.9444796410403,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 25.708554412,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 67.282482,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T02:05:26.977942+00:00",
+  "last_updated": "2026-09-17T02:06:46.596252+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.42,
-  "portfolio_value_usd": 127.31,
+  "last_sol_price_usd": 99.47,
+  "portfolio_value_usd": 125.39,
   "recent_decisions": [
-    {
-      "time": "2026-09-17 01:17 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $soyjak at $0.000113098 | P&L: -100.0%",
-      "reason": "Auto take-profit at +1081.3%"
-    },
     {
       "time": "2026-09-17 01:21 UTC",
       "action": "buy",
@@ -63807,30 +63797,48 @@
       "action": "buy",
       "details": "[LLM] $Moth at $3.381e-06, spent 0.02 SOL",
       "reason": "Skip — only 1 position slot and $PAID already consumes it."
+    },
+    {
+      "time": "2026-09-17 02:06 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $Moth crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3567,
+    "total": 3568,
     "wins": 1617,
-    "losses": 1950,
+    "losses": 1951,
     "win_rate_pct": 45.3,
-    "total_pnl_sol": 25.62495,
-    "avg_pnl_pct": 36.31,
+    "total_pnl_sol": 25.60495,
+    "avg_pnl_pct": 36.27,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 20,
-    "today_realized_sol": -0.308407,
-    "today_target_pct": -77.1,
+    "today_trades": 21,
+    "today_realized_sol": -0.328407,
+    "today_target_pct": -82.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1617,
-      "loss_count": 1950,
+      "loss_count": 1951,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T02:05:24.143886+00:00",
+  "last_llm_brief_at": "2026-09-17T02:06:46.596217+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "68QUyVTLC69XYe4M2rcHUXYyPmsCrTjNyCVe8CHKYPAr": {
+      "price_usd": 2.8325727937166056e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 27.498606832199997,
+      "volume_h24": 8676.68,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 0.27645126
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
