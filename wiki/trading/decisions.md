@@ -25966,3 +25966,6 @@
 ## [2026-09-17 01:30 UTC] buy | [LLM] $Anthropic at $4.763e-06, spent 0.02 SOL
 - **Reasoning:** $Anthropic has the strongest narrative of the two - AI safety is a culturally hot topic and the real Anthropic branding (@AnthropicAI handle matches, verbatim corporate description) creates instant name recognition and curiosity. $5k mcap with 20% bond = extremely early, asymmetric upside if it catches fire. Risk: could be impersonation that gets rugged/X-deleted within minutes - hence small 0.02 SOL size. Skipping $Flycoin: generic name, weak attention signal from @RobinhoodiesH account.
 
+## [2026-09-17 01:31 UTC] sell | [FULL][LLM] $Anthropic at $4.86872e-06 | P&L: -100.0%
+- **Reasoning:** Brand-new position (+2.2%, held 0.0h) on a strong narrative ($Anthropic — direct AI lab brand association). Pool is thin ($969) so I want to give it a few minutes to develop before judging. Not yet at any TP threshold and no reason to exit at near-breakeven on a fresh entry.
+

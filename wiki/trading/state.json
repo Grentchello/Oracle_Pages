@@ -2,36 +2,7 @@
   "balance_sol": 1.35552,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "XK1Pf1fFpSCLDDZQBvY4YcagMrgjRwnx35yGz8qpump": {
-      "symbol": "Anthropic",
-      "name": "AnthropicAI",
-      "mint": "XK1Pf1fFpSCLDDZQBvY4YcagMrgjRwnx35yGz8qpump",
-      "amount": 417342.0113373924,
-      "entry_price_usd": 4.763e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-17T01:30:20.007944+00:00",
-      "entry_time_iso": "2026-09-17T01:30:20.007953+00:00",
-      "entry_usd_value": 1.9878,
-      "last_seen_price_usd": 4.763e-06,
-      "entry_liquidity_usd": 915.9074365518,
-      "entry_pool_sol": 9.21528762,
-      "entry_market_cap_usd": 4991.6268663032615,
-      "entry_signals": {
-        "liquidity_usd": 915.9074365518,
-        "volume_24h_usd": 925.78,
-        "market_cap_usd": 4991.6268663032615,
-        "ath_market_cap_usd": 5317.084922293961,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 9.21528762,
-        "description": "We're an AI safety and research company that builds reliable, interpretable, and steerable AI systems. Talk to our AI assistant  @claudeai  on https://claude.ai.",
-        "twitter": "https://x.com/AnthropicAI",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63532,19 +63503,38 @@
       "hold_duration_seconds": 76.238743,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "XK1Pf1fFpSCLDDZQBvY4YcagMrgjRwnx35yGz8qpump",
+      "symbol": "Anthropic",
+      "name": "AnthropicAI",
+      "amount_sold": 417342.0113373924,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-17T01:30:20.007944+00:00",
+      "entry_time_iso": "2026-09-17T01:30:20.007953+00:00",
+      "exit_time": "2026-09-17T01:31:37.978884+00:00",
+      "exit_time_iso": "2026-09-17T01:31:37.978890+00:00",
+      "entry_price_usd": 4.763e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — Brand-new position (+2.2%, held 0.0h) on a strong narrative ($Anthropic — direct AI lab brand association). Pool is thin ($969) so I w — no real exit liquidity",
+      "entry_liquidity_usd": 915.9074365518,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 9.21528762,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 77.970959,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T01:30:20.008211+00:00",
+  "last_updated": "2026-09-17T01:31:37.979122+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.39,
-  "portfolio_value_usd": 136.71,
+  "last_sol_price_usd": 99.034,
+  "portfolio_value_usd": 134.24,
   "recent_decisions": [
-    {
-      "time": "2026-09-17 00:36 UTC",
-      "action": "sell",
-      "details": "[v8.7 TP +50% (full)] $QUANTITY at $0.000146602 | P&L: -100.0%",
-      "reason": "Auto take-profit at +2296.6%"
-    },
     {
       "time": "2026-09-17 00:38 UTC",
       "action": "buy",
@@ -63658,30 +63648,48 @@
       "action": "buy",
       "details": "[LLM] $Anthropic at $4.763e-06, spent 0.02 SOL",
       "reason": "$Anthropic has the strongest narrative of the two - AI safety is a culturally hot topic and the real Anthropic branding (@AnthropicAI handle matches, verbatim corporate description) creates instant name recognition and curiosity. $5k mcap with 20% bond = extremely early, asymmetric upside if it catches fire. Risk: could be impersonation that gets rugged/X-deleted within minutes - hence small 0.02 SOL size. Skipping $Flycoin: generic name, weak attention signal from @RobinhoodiesH account."
+    },
+    {
+      "time": "2026-09-17 01:31 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $Anthropic at $4.86872e-06 | P&L: -100.0%",
+      "reason": "Brand-new position (+2.2%, held 0.0h) on a strong narrative ($Anthropic — direct AI lab brand association). Pool is thin ($969) so I want to give it a few minutes to develop before judging. Not yet at any TP threshold and no reason to exit at near-breakeven on a fresh entry."
     }
   ],
   "trade_stats": {
-    "total": 3561,
+    "total": 3562,
     "wins": 1617,
-    "losses": 1944,
+    "losses": 1945,
     "win_rate_pct": 45.4,
-    "total_pnl_sol": 25.719904,
-    "avg_pnl_pct": 36.53,
+    "total_pnl_sol": 25.699904,
+    "avg_pnl_pct": 36.49,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 14,
-    "today_realized_sol": -0.213453,
-    "today_target_pct": -53.4,
+    "today_trades": 15,
+    "today_realized_sol": -0.233453,
+    "today_target_pct": -58.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1617,
-      "loss_count": 1944,
+      "loss_count": 1945,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T01:30:18.645005+00:00",
+  "last_llm_brief_at": "2026-09-17T01:31:37.978679+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "XK1Pf1fFpSCLDDZQBvY4YcagMrgjRwnx35yGz8qpump": {
+      "price_usd": 4.868720015981671e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 968.651846546436,
+      "volume_h24": 2236.3,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 9.781002954
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
