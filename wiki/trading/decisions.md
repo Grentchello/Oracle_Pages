@@ -25933,3 +25933,6 @@
 ## [2026-09-17 00:58 UTC] sell | [rapid-drop] $rCAT crashed >15% in one tick | P&L: -100.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-17 00:59 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
