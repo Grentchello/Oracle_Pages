@@ -1,8 +1,37 @@
 {
-  "balance_sol": 1.54444,
+  "balance_sol": 1.52444,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "3v2So79tZp9UoeBNgranKgDyWgqj4GGKokvr9pbppump": {
+      "symbol": "QualINU",
+      "name": "QualINU",
+      "mint": "3v2So79tZp9UoeBNgranKgDyWgqj4GGKokvr9pbppump",
+      "amount": 19208.833262049742,
+      "entry_price_usd": 0.00010308059698305233,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-17T00:26:13.757766+00:00",
+      "entry_time_iso": "2026-09-17T00:26:13.757774+00:00",
+      "entry_usd_value": 1.9800579999999999,
+      "last_seen_price_usd": 0.00010308059698305233,
+      "entry_liquidity_usd": 5727.409249619774,
+      "entry_pool_sol": 57.85092406,
+      "entry_market_cap_usd": 3809.2344787208617,
+      "entry_signals": {
+        "liquidity_usd": 5727.409249619774,
+        "volume_24h_usd": null,
+        "market_cap_usd": 3809.2344787208617,
+        "ath_market_cap_usd": 3963.0734821247165,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 57.85092406,
+        "description": "",
+        "twitter": "https://x.com/godlytradezz/status/2100380282457092266?s=46",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63256,17 +63285,11 @@
       "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T00:24:53.823124+00:00",
+  "last_updated": "2026-09-17T00:26:13.758102+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.071,
-  "portfolio_value_usd": 153.01,
+  "last_sol_price_usd": 99.0029,
+  "portfolio_value_usd": 152.9,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 22:51 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-16 22:53 UTC",
       "action": "observe",
@@ -63380,6 +63403,12 @@
       "action": "sell",
       "details": "[v8.7 TP +50% (full)] $pumpball at $0.000305864 | P&L: -100.0%",
       "reason": "Auto take-profit at +3600.7%"
+    },
+    {
+      "time": "2026-09-17 00:26 UTC",
+      "action": "buy",
+      "details": "[LLM] $QualINU at $0.000103081, spent 0.02 SOL",
+      "reason": "$QualINU is 0.6min old, $3.8k mcap, INU meta is proven viral, and there's a linked X account (godlytradezz) — that's an attention signal worth riding. Buying 0.02 SOL to test the fresh-launch attention thesis."
     }
   ],
   "trade_stats": {
@@ -63401,21 +63430,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T00:24:53.823097+00:00",
+  "last_llm_brief_at": "2026-09-17T00:26:12.404474+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "9QAiNWyJTZQBfgCXw63xMwZmPYerQpiC9myE2iZi2wgc": {
-      "price_usd": 0.00030586421570628507,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 81262.83354579036,
-      "volume_h24": 3987.46,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 820.248443498
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

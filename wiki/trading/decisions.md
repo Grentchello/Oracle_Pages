@@ -25897,3 +25897,6 @@
 ## [2026-09-17 00:24 UTC] sell | [v8.7 TP +50% (full)] $pumpball at $0.000305864 | P&L: -100.0%
 - **Reasoning:** Auto take-profit at +3600.7%
 
+## [2026-09-17 00:26 UTC] buy | [LLM] $QualINU at $0.000103081, spent 0.02 SOL
+- **Reasoning:** $QualINU is 0.6min old, $3.8k mcap, INU meta is proven viral, and there's a linked X account (godlytradezz) — that's an attention signal worth riding. Buying 0.02 SOL to test the fresh-launch attention thesis.
+
