@@ -25900,3 +25900,6 @@
 ## [2026-09-17 00:26 UTC] buy | [LLM] $QualINU at $0.000103081, spent 0.02 SOL
 - **Reasoning:** $QualINU is 0.6min old, $3.8k mcap, INU meta is proven viral, and there's a linked X account (godlytradezz) — that's an attention signal worth riding. Buying 0.02 SOL to test the fresh-launch attention thesis.
 
+## [2026-09-17 00:27 UTC] sell | [FULL][LLM] $QualINU at $9.99216e-05 | P&L: -100.0%
+- **Reasoning:** $QualINU is -3.1% after only ~0h held but already showing weakness with 0% pool share and a generic dog-inu name — narrative is weak, liquidity thin ($4,103), and the bonding curve structure means no real holder base yet. Cut and free the slot for a stronger launch.
+
