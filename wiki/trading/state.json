@@ -2,36 +2,7 @@
   "balance_sol": 1.56444,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "GFakEBdgdKDJhsCKauSkKVjHYPqHDBEY7SgJZEJDpump": {
-      "symbol": "QAUNTITY",
-      "name": "quanTITY Coin",
-      "mint": "GFakEBdgdKDJhsCKauSkKVjHYPqHDBEY7SgJZEJDpump",
-      "amount": 368449.23763480847,
-      "entry_price_usd": 5.378e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-17T00:20:54.488323+00:00",
-      "entry_time_iso": "2026-09-17T00:20:54.488331+00:00",
-      "entry_usd_value": 1.98152,
-      "last_seen_price_usd": 5.378e-06,
-      "entry_liquidity_usd": 1528.97799639836,
-      "entry_pool_sol": 15.43237511,
-      "entry_market_cap_usd": 7995.0944680098,
-      "entry_signals": {
-        "liquidity_usd": 1528.97799639836,
-        "volume_24h_usd": 6922.42,
-        "market_cap_usd": 7995.0944680098,
-        "ath_market_cap_usd": 7995.0944680098,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 15.43237511,
-        "description": "",
-        "twitter": "https://x.com/a1lon9/status/2100373042782195957",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63233,19 +63204,38 @@
       "exit_pool_sol": 27.748,
       "hold_duration_seconds": 149.864328,
       "partial": false
+    },
+    {
+      "mint": "GFakEBdgdKDJhsCKauSkKVjHYPqHDBEY7SgJZEJDpump",
+      "symbol": "QAUNTITY",
+      "name": "quanTITY Coin",
+      "amount_sold": 368449.23763480847,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-17T00:20:54.488323+00:00",
+      "entry_time_iso": "2026-09-17T00:20:54.488331+00:00",
+      "exit_time": "2026-09-17T00:22:12.223469+00:00",
+      "exit_time_iso": "2026-09-17T00:22:12.223476+00:00",
+      "entry_price_usd": 5.378e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — Only 0.0h held, -5.1% is within the -25% hard cap and not yet at the stale-exit threshold. Bonding-curve phase means price discovery i — no real exit liquidity",
+      "entry_liquidity_usd": 1528.97799639836,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 15.43237511,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 77.735165,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T00:20:54.488655+00:00",
+  "last_updated": "2026-09-17T00:22:12.223708+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.076,
-  "portfolio_value_usd": 156.98,
+  "last_sol_price_usd": 99.049,
+  "portfolio_value_usd": 154.96,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 22:32 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-16 22:34 UTC",
       "action": "observe",
@@ -63359,30 +63349,48 @@
       "action": "buy",
       "details": "[LLM] $QAUNTITY at $5.378e-06, spent 0.02 SOL",
       "reason": "$QAUNTITY is a fresh launch (~0.8min) tied to a1lon9 — a well-known on-chain researcher whose X posts have historically moved attention-driven memecoins. Bonding curve only 29% complete means early-stage pricing, and a $8k mcap with a credible X signal is exactly the viral-attention setup this strategy targets. Risk: thin liquidity and very early — bot's hard stop at -25% is the safety net."
+    },
+    {
+      "time": "2026-09-17 00:22 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $QAUNTITY at $5.10198e-06 | P&L: -100.0%",
+      "reason": "Only 0.0h held, -5.1% is within the -25% hard cap and not yet at the stale-exit threshold. Bonding-curve phase means price discovery is still active; give it a few more minutes before judging."
     }
   ],
   "trade_stats": {
-    "total": 3549,
+    "total": 3550,
     "wins": 1616,
-    "losses": 1933,
+    "losses": 1934,
     "win_rate_pct": 45.5,
-    "total_pnl_sol": 25.928824,
-    "avg_pnl_pct": 36.96,
+    "total_pnl_sol": 25.908824,
+    "avg_pnl_pct": 36.92,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 2,
-    "today_realized_sol": -0.004533,
-    "today_target_pct": -1.1,
+    "today_trades": 3,
+    "today_realized_sol": -0.024533,
+    "today_target_pct": -6.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1616,
-      "loss_count": 1933,
+      "loss_count": 1934,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T00:20:53.074074+00:00",
+  "last_llm_brief_at": "2026-09-17T00:22:12.222795+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "GFakEBdgdKDJhsCKauSkKVjHYPqHDBEY7SgJZEJDpump": {
+      "price_usd": 5.101977136502094e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 1061.7767332858082,
+      "volume_h24": 12579.94,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 10.719711792
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
