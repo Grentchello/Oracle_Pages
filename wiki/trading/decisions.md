@@ -25954,3 +25954,6 @@
 ## [2026-09-17 01:21 UTC] buy | [LLM] $soyjak at $6.782e-06, spent 0.02 SOL
 - **Reasoning:** Soyjak is a top-tier recognized internet meme with viral name recognition and an active X account (satisfies viability gate). $11k mcap at 1min old is extremely early — maximum asymmetry. Risk: ultra-low mcap + early curve = high rug/failure rate, but 0.02 SOL size limits downside to -0.005 SOL worst case (-25% hard cap). No fragility keywords triggered.
 
+## [2026-09-17 01:22 UTC] sell | [v8.7 TP +50% (full)] $soyjak at $0.000414077 | P&L: -100.0%
+- **Reasoning:** Auto take-profit at +6005.5%
+
