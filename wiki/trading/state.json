@@ -1,8 +1,37 @@
 {
-  "balance_sol": 1.50444,
+  "balance_sol": 1.48444,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {},
+  "positions": {
+    "HVJ5jfUqa5eNrMS4oYey6j9siLCnSwrnR6JPBr8Spump": {
+      "symbol": "keycat",
+      "name": "keyboard cat",
+      "mint": "HVJ5jfUqa5eNrMS4oYey6j9siLCnSwrnR6JPBr8Spump",
+      "amount": 325553.91432791733,
+      "entry_price_usd": 6.093e-06,
+      "entry_sol_spent": 0.02,
+      "entry_time": "2026-09-17T00:38:03.765081+00:00",
+      "entry_time_iso": "2026-09-17T00:38:03.765089+00:00",
+      "entry_usd_value": 1.9836000000000003,
+      "last_seen_price_usd": 6.093e-06,
+      "entry_liquidity_usd": 2183.83990056576,
+      "entry_pool_sol": 22.018954432,
+      "entry_market_cap_usd": 9193.06250809748,
+      "entry_signals": {
+        "liquidity_usd": 2183.83990056576,
+        "volume_24h_usd": 4634.64,
+        "market_cap_usd": 9193.06250809748,
+        "ath_market_cap_usd": 9193.06250809748,
+        "volatility_score": null,
+        "boost_mode": "NONE",
+        "real_sol_reserves": 22.018954432,
+        "description": "",
+        "twitter": "https://x.com/degenesis0x/status/2100383480836186454",
+        "source_endpoint": "new-launches"
+      },
+      "llm_entry": true
+    }
+  },
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63306,17 +63335,11 @@
       "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T00:36:46.002974+00:00",
+  "last_updated": "2026-09-17T00:38:03.765259+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.16,
-  "portfolio_value_usd": 149.18,
+  "last_sol_price_usd": 99.18,
+  "portfolio_value_usd": 149.21,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 23:08 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-16 23:24 UTC",
       "action": "observe",
@@ -63430,6 +63453,12 @@
       "action": "sell",
       "details": "[v8.7 TP +50% (full)] $QUANTITY at $0.000146602 | P&L: -100.0%",
       "reason": "Auto take-profit at +2296.6%"
+    },
+    {
+      "time": "2026-09-17 00:38 UTC",
+      "action": "buy",
+      "details": "[LLM] $keycat at $6.093e-06, spent 0.02 SOL",
+      "reason": "Keyboard Cat is a classic viral meme (2007 era, broad recognition) — attention-launched tokens with iconic names pump hardest. Mcap $9k = very early on the curve, plenty of room. Bond 31% means organic buys already happening. Risk: ultra-low mcap = rug risk, but viability + fragility gates pass."
     }
   ],
   "trade_stats": {
@@ -63451,21 +63480,9 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T00:36:46.002939+00:00",
+  "last_llm_brief_at": "2026-09-17T00:38:02.455127+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {
-    "Fbv69i7a2pBFuZUSkSfzvdWUAWiX7tmu1HgKduTdpump": {
-      "price_usd": 0.0001466023155508848,
-      "change_h24": 0,
-      "change_h1": 0,
-      "liquidity_usd": 25801.375733839515,
-      "volume_h24": 8548.68,
-      "dex_id": "pumpfun",
-      "source": "bonding-curve",
-      "complete": false,
-      "real_sol_reserves": 260.199432572
-    }
-  },
+  "held_prices": {},
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
