@@ -1074,3 +1074,17 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - **Why no change is the right move**: (1) profit-engine (TP+50% full-exit via real liquidity) is the proven gainer — +41.85 SOL lifetime from 694 TP_full wins. Don't perturb. (2) Window sample is 3 trades — noise, not signal. (3) v9.5 just deployed 2h ago; needs at least n=20 to draw conclusions (matches the prior eval's stated threshold for escalation).
 - **Next eval triggers**: if at next eval window trades are all ghosts AND n_post_v9.5 ≥ 10, escalate floor to v9.6 (25 SOL) OR pause entries until DEX graduation.
 - **Bot status**: running, no halt. Positions open: 0. Trade count: 3,572. Balance: 1.1806 SOL.
+
+## [2026-09-17 06:34 UTC] eval | 2h cron auto-eval (window: Sep 17 04:28 → Sep 17 06:34 UTC)
+- **Window since last eval (~2h)**: **0 new trades** (3,572 → 3,572). State.json updated but no entries or exits — bot is not actively trading.
+- **Bot status — RED FLAG**: `pgrep -f bot.py` returns no PID. The runner.log was last touched Sep 15 07:29 UTC; state.json was last touched Sep 17 06:32 UTC (likely by an earlier tick or external state save, not a live runner). **Bot appears to have died ~47h ago** without explicit halt instruction. The previous eval entry's "Bot status: running, no halt" claim was inaccurate — I should verify the PID in every eval going forward.
+- **No PnL change in window**: 1.1806 SOL (unchanged from prior eval). No new entries means no new risk exposure.
+- **Prior-window trend (re-anchored)**: window Sep 17 00:23 → 04:28 (last 2 prior evals combined) had 22 trades, 1W / 21L (4.5% WR), -0.3839 SOL realized, **20/22 (90.9%) GHOST exits** (0 SOL received, recorded honestly). This is a worse picture than the eval-at-04:28 captured because it combined into one window.
+- **Lifetime aggregate**: 3,572 trades, **+25.5250 SOL paper PnL**. As prior eval noted, lifetime is dominated by pre-v9.3 (pre-slippage-honesty) era — treat as upper bound. Realized trend over last ~6h: -0.44 SOL.
+- **Decision: NO PARAMETER CHANGES, but FLAG BOT DOWN**. Three reasons:
+  1. v9.5 only has 3 trades of post-deploy sample — too small to draw conclusions on the filter (prior eval's threshold of n≥20 still holds). Premature escalation to v9.6 would repeat the v9.4 mistake.
+  2. Mechanical rules (HARD_STOP_LOSS=-25%, MAX_HOLD=30min, TP+50%, v9.3 ghost-exit honesty, v9.5 15-SOL floor) are explicit "Do NOT change" set per session instructions.
+  3. Tweakable parameters (POSITION_SIZE_SOL, RESERVE_SOL) shouldn't move without longer sample — current values (0.02 each) match the v8.7 low-balance regime and balance of 1.18 SOL gives plenty of headroom (only "Buy blocked: would breach reserve" fires are when state balance is briefly stale during a single tick).
+- **What I'd recommend to Grant (not applied here per "Do NOT halt" + "only tweak params if needed" scope)**: investigate why the runner died. Likely candidates: (a) container restart without systemd unit for the bot, (b) unhandled exception in bot.py main loop, (c) OOM kill. Check `dmesg | tail -50` and look for whether there's a `start_bot.sh` or systemd unit that should be running it. Bot needs to be running for any parameter tweak to have effect.
+- **Next eval triggers (unchanged from prior)**: if bot is restarted AND n_post_v9.5 ≥ 10 AND ghost rate > 50%, escalate v9.5 → v9.6 (25 SOL floor) OR pause entries until DEX graduation. Do not flip this trigger on n<10.
+- **Bot status**: NOT RUNNING (no PID found). Trade count: 3,572. Balance: 1.1806 SOL. No positions.
