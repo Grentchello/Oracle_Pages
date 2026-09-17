@@ -1031,3 +1031,19 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
   2. The pre-existing window's 25 ghost exits are a structural pump.fun problem, not parameter-tunable. v9.4 floor (8 SOL) was deployed ~6h ago and the bot has been starved of trades ever since — needs more time before another rule change.
 - **Side observation**: bot is sitting on 0 positions, balance steady at 1.589 SOL. If v9.4 starves trades for >24h, the next eval should consider whether to ease floor back toward 5 SOL or add a "depth-trend" filter (reject curves draining >2 SOL/min). Not actionable today.
 - **Bot status**: running, no halt. Positions open: 0. Trade count: 3,547. Balance: 1.589 SOL.
+
+## [2026-09-17 00:23 UTC] eval | 2h cron auto-eval (window: Sep 16 22:22 → Sep 17 00:23 UTC)
+- **Trigger**: scheduled 2h cron re-eval per user task spec
+- **Window since last eval (Sep 16 22:22 → Sep 17 00:23 UTC, ~2h)**: **3 new trades** (3,547 → 3,550). Trade count low because v9.4 (8 SOL bonding-curve floor) is filtering aggressively.
+- **Realized PnL in window**: **-0.0245 SOL** across 3 trades. Mix:
+  - ARCH +47.5% LLM sell_half → ghost exit (-0.0100 SOL, sold tokens, got 0 SOL)
+  - ARCH +50% auto-v8.7 TP full exit → REAL win (+0.0055 SOL, sold tokens, got 0.015467 SOL)
+  - QAUNTITY -5.1% LLM sell_all → ghost exit (-0.0200 SOL, sold tokens, got 0 SOL)
+- **Verdict: Loss detected but root cause is structural, no parameter fix justified.** Reasons:
+  1. Sample size n=3 in this window is too small to draw conclusions about v9.4's effectiveness.
+  2. v9.4 (deployed 16:15 UTC, ~10h ago) post-deploy sample is now n=3 with 1 real win + 2 ghost losses. Ghost rate 67% (2/3), down from pre-v9.4 85% (23/27) — directionally better but n too small.
+  3. The ghost-exit pattern is structural to pump.fun bonding-curve dynamics (snipers drain curves within seconds), not a parameter-tunable problem. v8.7+ mechanical rules (POSITION_SIZE=0.02, RESERVE=0.02, HARD_STOP_LOSS=0.25, MAX_HOLD=30min, TP=0.50) preserved per user hard constraint.
+  4. ARCH was the first real-on-chain realized gain since the 14:11 UTC reset — that's a positive signal: v9.4 IS catching one real winner, just not enough yet.
+- **No changes applied.** Holding steady per the prior eval's "observe 24-48h" plan. If post-v9.4 sample at n=30 still shows >50% ghost rate, consider raising floor 8 → 12-15 SOL. Not actionable today.
+- **Honest slippage accounting (per user reminder):** the 2 ghost exits ARE the honest signal — the bot couldn't exit, so recorded 0 SOL received. The ARCH +0.0055 SOL win is a real on-chain fill (not paper via v9.0 sim). Lifetime +25.9 SOL paper aggregate remains upper bound, not real PnL.
+- **Bot status**: running, no halt. Positions open: 1 (pumpball, 0.02 SOL entry at 00:23:37 UTC, 730 SOL reserves). Trade count: 3,550. Balance: 1.54444 SOL.
