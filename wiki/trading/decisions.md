@@ -25876,3 +25876,6 @@
 ## [2026-09-17 00:09 UTC] buy | [LLM] $ARCH at $6.914e-06, spent 0.02 SOL
 - **Reasoning:** $ARCH is 1.1min old, $6.9k mcap, has a real narrative (cross-chain token factory on Arc chain, locked Uniswap v3 liquidity) plus a live X post from arch__app. Bonding curve at 27% — early enough to ride the first wave, small position (0.02 SOL) matches the 5x-liquidity floor. Risk: ultra-fresh launch, thin liquidity, and 'factory/infrastructure' narrative pumps slower than pure memes — will watch for +20% take-profit quickly.
 
+## [2026-09-17 00:10 UTC] sell | [PARTIAL][LLM] $ARCH at $1.01993e-05 | P&L: -100.0%
+- **Reasoning:** Up +47.5% on a brand-new bonding curve position held <1h — narrative is clearly working. Lock half the gain at this TP tier (auto already likely took 25% profit slice per rules, but per scalp discipline I want more off the table). Trail the rest; if it rolls over, the other half becomes free-option.
+
