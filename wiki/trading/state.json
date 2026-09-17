@@ -2,36 +2,7 @@
   "balance_sol": 1.240566,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "729tkMZLmYKB3FyghtEsAwXMy6q26Ar2K7NixPrBpump": {
-      "symbol": "BENCH",
-      "name": "Benchmark",
-      "mint": "729tkMZLmYKB3FyghtEsAwXMy6q26Ar2K7NixPrBpump",
-      "amount": 140408.1396614661,
-      "entry_price_usd": 1.4076107017479468e-05,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-17T02:18:27.447052+00:00",
-      "entry_time_iso": "2026-09-17T02:18:27.447061+00:00",
-      "entry_usd_value": 1.9764,
-      "last_seen_price_usd": 1.4076107017479468e-05,
-      "entry_liquidity_usd": 4581.51650254782,
-      "entry_pool_sol": 46.362239451,
-      "entry_market_cap_usd": 14093.20004360877,
-      "entry_signals": {
-        "liquidity_usd": 4581.51650254782,
-        "volume_24h_usd": null,
-        "market_cap_usd": 14093.20004360877,
-        "ath_market_cap_usd": 26260.371137221402,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 46.362239451,
-        "description": "",
-        "twitter": "https://x.com/KaichaoYou",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63706,25 +63677,38 @@
       "hold_duration_seconds": 67.282482,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "729tkMZLmYKB3FyghtEsAwXMy6q26Ar2K7NixPrBpump",
+      "symbol": "BENCH",
+      "name": "Benchmark",
+      "amount_sold": 140408.1396614661,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-17T02:18:27.447052+00:00",
+      "entry_time_iso": "2026-09-17T02:18:27.447061+00:00",
+      "exit_time": "2026-09-17T02:19:34.136636+00:00",
+      "exit_time_iso": "2026-09-17T02:19:34.136644+00:00",
+      "entry_price_usd": 1.4076107017479468e-05,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] auto-v8.7 TP +50% (full) — no real exit liquidity",
+      "entry_liquidity_usd": 4581.51650254782,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 46.362239451,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 66.689603,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T02:18:27.447326+00:00",
+  "last_updated": "2026-09-17T02:19:43.531773+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 98.82,
-  "portfolio_value_usd": 124.57,
+  "portfolio_value_usd": 122.59,
   "recent_decisions": [
-    {
-      "time": "2026-09-17 01:31 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $Anthropic at $4.86872e-06 | P&L: -100.0%",
-      "reason": "Brand-new position (+2.2%, held 0.0h) on a strong narrative ($Anthropic — direct AI lab brand association). Pool is thin ($969) so I want to give it a few minutes to develop before judging. Not yet at any TP threshold and no reason to exit at near-breakeven on a fresh entry."
-    },
-    {
-      "time": "2026-09-17 01:38 UTC",
-      "action": "buy",
-      "details": "[LLM] $METR at $9.007e-06, spent 0.02 SOL",
-      "reason": "$METR — Model Evaluation Threat Research is a sharp AI/cyber narrative ('threat research' hits both AI agent zeitgeist and security FUD). Brand-name creator (kevinnbass via UsePaid = monetized launchpad, suggests real builder not anon rugger). $23k mcap is prime 10x territory, bond at 40% still forming liquidity. Small position to test the narrative."
-    },
     {
       "time": "2026-09-17 01:39 UTC",
       "action": "sell",
@@ -63832,6 +63816,18 @@
       "action": "buy",
       "details": "[LLM] $BENCH at $1.40761e-05, spent 0.02 SOL",
       "reason": "Brand-new launch ($14k mcap, 0.7min old) with an attached X handle — exactly the early-attention window where memecoins 5-10x. Name 'Benchmark' is generic but the extreme freshness is the signal. Sizing small (0.02 SOL) per rules; viability gate passed (has twitter)."
+    },
+    {
+      "time": "2026-09-17 02:19 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $BENCH at $2.37107e-05 | P&L: -100.0%",
+      "reason": "Auto take-profit at +68.4%"
+    },
+    {
+      "time": "2026-09-17 02:19 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -63853,9 +63849,21 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T02:18:25.899116+00:00",
+  "last_llm_brief_at": "2026-09-17T02:19:43.531011+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "729tkMZLmYKB3FyghtEsAwXMy6q26Ar2K7NixPrBpump": {
+      "price_usd": 2.3710731466374458e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 5720.111378376299,
+      "volume_h24": 24985.4,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 57.884146715
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
