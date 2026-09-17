@@ -25906,3 +25906,6 @@
 ## [2026-09-17 00:35 UTC] buy | [LLM] $QUANTITY at $6.117e-06, spent 0.02 SOL
 - **Reasoning:** $QUANTITY is a 1-minute-old launch with an a16z (a1lon9) tweet backing it — strong attention signal from a known crypto figure. $8k mcap is deep in fresh-launch territory where5-10x is possible if narrative sticks. Viability: name+narrative clear; fragility: a16z tweet reduces rug concern vs anonymous launches. Risk: ultra-low mcap means thin liquidity — small position size (0.02 SOL) keeps risk bounded.
 
+## [2026-09-17 00:36 UTC] sell | [v8.7 TP +50% (full)] $QUANTITY at $0.000146602 | P&L: -100.0%
+- **Reasoning:** Auto take-profit at +2296.6%
+

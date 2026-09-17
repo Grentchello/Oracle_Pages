@@ -2,36 +2,7 @@
   "balance_sol": 1.50444,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Fbv69i7a2pBFuZUSkSfzvdWUAWiX7tmu1HgKduTdpump": {
-      "symbol": "QUANTITY",
-      "name": "Quantity Over Quality",
-      "mint": "Fbv69i7a2pBFuZUSkSfzvdWUAWiX7tmu1HgKduTdpump",
-      "amount": 324243.91041360144,
-      "entry_price_usd": 6.117e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-17T00:35:28.752853+00:00",
-      "entry_time_iso": "2026-09-17T00:35:28.752862+00:00",
-      "entry_usd_value": 1.9834,
-      "last_seen_price_usd": 6.117e-06,
-      "entry_liquidity_usd": 43693.09199747568,
-      "entry_pool_sol": 440.587798704,
-      "entry_market_cap_usd": 8120.662403831079,
-      "entry_signals": {
-        "liquidity_usd": 43693.09199747568,
-        "volume_24h_usd": 5003.84,
-        "market_cap_usd": 8120.662403831079,
-        "ath_market_cap_usd": 8993.900720779104,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 440.587798704,
-        "description": "",
-        "twitter": "https://x.com/a1lon9/status/2100373042782195957?s=46",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63308,19 +63279,38 @@
       "hold_duration_seconds": 81.16326,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "Fbv69i7a2pBFuZUSkSfzvdWUAWiX7tmu1HgKduTdpump",
+      "symbol": "QUANTITY",
+      "name": "Quantity Over Quality",
+      "amount_sold": 324243.91041360144,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-17T00:35:28.752853+00:00",
+      "entry_time_iso": "2026-09-17T00:35:28.752862+00:00",
+      "exit_time": "2026-09-17T00:36:35.282062+00:00",
+      "exit_time_iso": "2026-09-17T00:36:35.282068+00:00",
+      "entry_price_usd": 6.117e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] auto-v8.7 TP +50% (full) — no real exit liquidity",
+      "entry_liquidity_usd": 43693.09199747568,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 440.587798704,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 66.529225,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T00:35:28.753137+00:00",
+  "last_updated": "2026-09-17T00:36:46.002974+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.17,
-  "portfolio_value_usd": 151.18,
+  "last_sol_price_usd": 99.16,
+  "portfolio_value_usd": 149.18,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 23:07 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-16 23:08 UTC",
       "action": "observe",
@@ -63434,30 +63424,48 @@
       "action": "buy",
       "details": "[LLM] $QUANTITY at $6.117e-06, spent 0.02 SOL",
       "reason": "$QUANTITY is a 1-minute-old launch with an a16z (a1lon9) tweet backing it — strong attention signal from a known crypto figure. $8k mcap is deep in fresh-launch territory where5-10x is possible if narrative sticks. Viability: name+narrative clear; fragility: a16z tweet reduces rug concern vs anonymous launches. Risk: ultra-low mcap means thin liquidity — small position size (0.02 SOL) keeps risk bounded."
+    },
+    {
+      "time": "2026-09-17 00:36 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $QUANTITY at $0.000146602 | P&L: -100.0%",
+      "reason": "Auto take-profit at +2296.6%"
     }
   ],
   "trade_stats": {
-    "total": 3552,
+    "total": 3553,
     "wins": 1616,
-    "losses": 1936,
+    "losses": 1937,
     "win_rate_pct": 45.5,
-    "total_pnl_sol": 25.868824,
-    "avg_pnl_pct": 36.84,
+    "total_pnl_sol": 25.848824,
+    "avg_pnl_pct": 36.8,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 5,
-    "today_realized_sol": -0.064533,
-    "today_target_pct": -16.1,
+    "today_trades": 6,
+    "today_realized_sol": -0.084533,
+    "today_target_pct": -21.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1616,
-      "loss_count": 1936,
+      "loss_count": 1937,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T00:35:27.438162+00:00",
+  "last_llm_brief_at": "2026-09-17T00:36:46.002939+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Fbv69i7a2pBFuZUSkSfzvdWUAWiX7tmu1HgKduTdpump": {
+      "price_usd": 0.0001466023155508848,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 25801.375733839515,
+      "volume_h24": 8548.68,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 260.199432572
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
