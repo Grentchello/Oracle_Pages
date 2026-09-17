@@ -2,36 +2,7 @@
   "balance_sol": 1.54444,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9QAiNWyJTZQBfgCXw63xMwZmPYerQpiC9myE2iZi2wgc": {
-      "symbol": "pumpball",
-      "name": "pumpball",
-      "mint": "9QAiNWyJTZQBfgCXw63xMwZmPYerQpiC9myE2iZi2wgc",
-      "amount": 238644.88808227467,
-      "entry_price_usd": 8.265e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-17T00:23:37.890751+00:00",
-      "entry_time_iso": "2026-09-17T00:23:37.890760+00:00",
-      "entry_usd_value": 1.9724000000000002,
-      "last_seen_price_usd": 8.265e-06,
-      "entry_liquidity_usd": 72035.10917150616,
-      "entry_pool_sol": 730.431040068,
-      "entry_market_cap_usd": 9774.391334784348,
-      "entry_signals": {
-        "liquidity_usd": 72035.10917150616,
-        "volume_24h_usd": 3362.82,
-        "market_cap_usd": 9774.391334784348,
-        "ath_market_cap_usd": 9774.391334784348,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 730.431040068,
-        "description": "Drop a callout on Pump.fun and start the snowball effect. Each callout automatically triggers a buyback + burn of the underlying coin, channeling every new launch back into the token it’s built around.",
-        "twitter": "https://x.com/pump_ball_tech",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63258,19 +63229,38 @@
       "hold_duration_seconds": 77.735165,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "9QAiNWyJTZQBfgCXw63xMwZmPYerQpiC9myE2iZi2wgc",
+      "symbol": "pumpball",
+      "name": "pumpball",
+      "amount_sold": 238644.88808227467,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-17T00:23:37.890751+00:00",
+      "entry_time_iso": "2026-09-17T00:23:37.890760+00:00",
+      "exit_time": "2026-09-17T00:24:44.603029+00:00",
+      "exit_time_iso": "2026-09-17T00:24:44.603036+00:00",
+      "entry_price_usd": 8.265e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] auto-v8.7 TP +50% (full) — no real exit liquidity",
+      "entry_liquidity_usd": 72035.10917150616,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 730.431040068,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 66.712297,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T00:23:37.891028+00:00",
+  "last_updated": "2026-09-17T00:24:53.823124+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.62,
-  "portfolio_value_usd": 154.29,
+  "last_sol_price_usd": 99.071,
+  "portfolio_value_usd": 153.01,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 22:50 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-16 22:51 UTC",
       "action": "observe",
@@ -63384,30 +63374,48 @@
       "action": "buy",
       "details": "[LLM] $pumpball at $8.265e-06, spent 0.02 SOL",
       "reason": "pumpball has a meta-narrative (buyback+burn snowball effect), twitter presence, and sub-$10k mcap with attention-mechanic story. 0.6min old = fresh attention. Position 0.02 SOL respects reserve rule. Name/desc check viability gate (twitter present, desc >50 chars)."
+    },
+    {
+      "time": "2026-09-17 00:24 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $pumpball at $0.000305864 | P&L: -100.0%",
+      "reason": "Auto take-profit at +3600.7%"
     }
   ],
   "trade_stats": {
-    "total": 3550,
+    "total": 3551,
     "wins": 1616,
-    "losses": 1934,
+    "losses": 1935,
     "win_rate_pct": 45.5,
-    "total_pnl_sol": 25.908824,
-    "avg_pnl_pct": 36.92,
+    "total_pnl_sol": 25.888824,
+    "avg_pnl_pct": 36.88,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 3,
-    "today_realized_sol": -0.024533,
-    "today_target_pct": -6.1,
+    "today_trades": 4,
+    "today_realized_sol": -0.044533,
+    "today_target_pct": -11.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1616,
-      "loss_count": 1934,
+      "loss_count": 1935,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T00:23:36.345888+00:00",
+  "last_llm_brief_at": "2026-09-17T00:24:53.823097+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "9QAiNWyJTZQBfgCXw63xMwZmPYerQpiC9myE2iZi2wgc": {
+      "price_usd": 0.00030586421570628507,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 81262.83354579036,
+      "volume_h24": 3987.46,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 820.248443498
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

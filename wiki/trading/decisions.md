@@ -25894,3 +25894,6 @@
 ## [2026-09-17 00:23 UTC] buy | [LLM] $pumpball at $8.265e-06, spent 0.02 SOL
 - **Reasoning:** pumpball has a meta-narrative (buyback+burn snowball effect), twitter presence, and sub-$10k mcap with attention-mechanic story. 0.6min old = fresh attention. Position 0.02 SOL respects reserve rule. Name/desc check viability gate (twitter present, desc >50 chars).
 
+## [2026-09-17 00:24 UTC] sell | [v8.7 TP +50% (full)] $pumpball at $0.000305864 | P&L: -100.0%
+- **Reasoning:** Auto take-profit at +3600.7%
+
