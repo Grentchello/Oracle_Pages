@@ -25912,3 +25912,9 @@
 ## [2026-09-17 00:38 UTC] buy | [LLM] $keycat at $6.093e-06, spent 0.02 SOL
 - **Reasoning:** Keyboard Cat is a classic viral meme (2007 era, broad recognition) — attention-launched tokens with iconic names pump hardest. Mcap $9k = very early on the curve, plenty of room. Bond 31% means organic buys already happening. Risk: ultra-low mcap = rug risk, but viability + fragility gates pass.
 
+## [2026-09-17 00:39 UTC] sell | [rapid-drop] $keycat crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-17 00:39 UTC] buy | [LLM] $UP at $5.93188e-06, spent 0.02 SOL
+- **Reasoning:** $UP 'LinkedUp' — sub-1min launch, twitter account present (LinkedUpSol), 'LinkedUp' has a clear narrative hook (Solana social/professional parody) that fits attention-market logic. Small position to test the thesis.
+

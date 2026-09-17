@@ -1,32 +1,32 @@
 {
-  "balance_sol": 1.48444,
+  "balance_sol": 1.46444,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
   "positions": {
-    "HVJ5jfUqa5eNrMS4oYey6j9siLCnSwrnR6JPBr8Spump": {
-      "symbol": "keycat",
-      "name": "keyboard cat",
-      "mint": "HVJ5jfUqa5eNrMS4oYey6j9siLCnSwrnR6JPBr8Spump",
-      "amount": 325553.91432791733,
-      "entry_price_usd": 6.093e-06,
+    "8yHCAxYVs5f29JWQQe52CeSHTQvuFKAaS6frv5FzzLuv": {
+      "symbol": "UP",
+      "name": "LinkedUp",
+      "mint": "8yHCAxYVs5f29JWQQe52CeSHTQvuFKAaS6frv5FzzLuv",
+      "amount": 334396.287257908,
+      "entry_price_usd": 5.9318840417331535e-06,
       "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-17T00:38:03.765081+00:00",
-      "entry_time_iso": "2026-09-17T00:38:03.765089+00:00",
+      "entry_time": "2026-09-17T00:39:21.022668+00:00",
+      "entry_time_iso": "2026-09-17T00:39:21.022676+00:00",
       "entry_usd_value": 1.9836000000000003,
-      "last_seen_price_usd": 6.093e-06,
-      "entry_liquidity_usd": 2183.83990056576,
-      "entry_pool_sol": 22.018954432,
-      "entry_market_cap_usd": 9193.06250809748,
+      "last_seen_price_usd": 5.9318840417331535e-06,
+      "entry_liquidity_usd": 1359.4810957344,
+      "entry_pool_sol": 13.70721008,
+      "entry_market_cap_usd": 5916.333629847182,
       "entry_signals": {
-        "liquidity_usd": 2183.83990056576,
-        "volume_24h_usd": 4634.64,
-        "market_cap_usd": 9193.06250809748,
-        "ath_market_cap_usd": 9193.06250809748,
+        "liquidity_usd": 1359.4810957344,
+        "volume_24h_usd": null,
+        "market_cap_usd": 5916.333629847182,
+        "ath_market_cap_usd": 6034.5248488752595,
         "volatility_score": null,
         "boost_mode": "NONE",
-        "real_sol_reserves": 22.018954432,
+        "real_sol_reserves": 13.70721008,
         "description": "",
-        "twitter": "https://x.com/degenesis0x/status/2100383480836186454",
+        "twitter": "https://x.com/LinkedUpSol/status/2100383761196065212?s=20",
         "source_endpoint": "new-launches"
       },
       "llm_entry": true
@@ -63333,25 +63333,38 @@
       "hold_duration_seconds": 66.529225,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "HVJ5jfUqa5eNrMS4oYey6j9siLCnSwrnR6JPBr8Spump",
+      "symbol": "keycat",
+      "name": "keyboard cat",
+      "amount_sold": 325553.91432791733,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-17T00:38:03.765081+00:00",
+      "entry_time_iso": "2026-09-17T00:38:03.765089+00:00",
+      "exit_time": "2026-09-17T00:39:10.387802+00:00",
+      "exit_time_iso": "2026-09-17T00:39:10.387810+00:00",
+      "entry_price_usd": 6.093e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 2183.83990056576,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 22.018954432,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 66.62274,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T00:38:03.765259+00:00",
+  "last_updated": "2026-09-17T00:39:21.022832+00:00",
   "bot_version": "0.1.0-foundation",
   "last_sol_price_usd": 99.18,
-  "portfolio_value_usd": 149.21,
+  "portfolio_value_usd": 147.23,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 23:24 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-16 23:28 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-16 23:47 UTC",
       "action": "observe",
@@ -63459,30 +63472,54 @@
       "action": "buy",
       "details": "[LLM] $keycat at $6.093e-06, spent 0.02 SOL",
       "reason": "Keyboard Cat is a classic viral meme (2007 era, broad recognition) — attention-launched tokens with iconic names pump hardest. Mcap $9k = very early on the curve, plenty of room. Bond 31% means organic buys already happening. Risk: ultra-low mcap = rug risk, but viability + fragility gates pass."
+    },
+    {
+      "time": "2026-09-17 00:39 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $keycat crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
+    },
+    {
+      "time": "2026-09-17 00:39 UTC",
+      "action": "buy",
+      "details": "[LLM] $UP at $5.93188e-06, spent 0.02 SOL",
+      "reason": "$UP 'LinkedUp' — sub-1min launch, twitter account present (LinkedUpSol), 'LinkedUp' has a clear narrative hook (Solana social/professional parody) that fits attention-market logic. Small position to test the thesis."
     }
   ],
   "trade_stats": {
-    "total": 3553,
+    "total": 3554,
     "wins": 1616,
-    "losses": 1937,
+    "losses": 1938,
     "win_rate_pct": 45.5,
-    "total_pnl_sol": 25.848824,
-    "avg_pnl_pct": 36.8,
+    "total_pnl_sol": 25.828824,
+    "avg_pnl_pct": 36.77,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 6,
-    "today_realized_sol": -0.084533,
-    "today_target_pct": -21.1,
+    "today_trades": 7,
+    "today_realized_sol": -0.104533,
+    "today_target_pct": -26.1,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1616,
-      "loss_count": 1937,
+      "loss_count": 1938,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T00:38:02.455127+00:00",
+  "last_llm_brief_at": "2026-09-17T00:39:19.608318+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "HVJ5jfUqa5eNrMS4oYey6j9siLCnSwrnR6JPBr8Spump": {
+      "price_usd": 3.220022529769629e-06,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 230.88406298454,
+      "volume_h24": 12490.78,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 2.327929653
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
