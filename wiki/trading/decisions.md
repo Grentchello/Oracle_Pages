@@ -25990,3 +25990,6 @@
 ## [2026-09-17 01:46 UTC] buy | [LLM] $SEND at $6.19115e-06, spent 0.02 SOL
 - **Reasoning:** $SEND at 0.5min/$6.2k mcap with a novel stock-gifting narrative, Twitter attached, and viable description. Catching a fresh narrative launch at micro-cap is the core attention-market play. 0.02 SOL position sized within the -25% hard cap discipline.
 
+## [2026-09-17 01:47 UTC] sell | [PARTIAL][LLM] $SEND at $8.50875e-06 | P&L: -100.0%
+- **Reasoning:** +37% in 0.0h held on a $2.2k pool with 0% share — narrative unclear, liquidity thin. Lock half the gain, let the rest run in case it keeps pumping, but this is fragile.
+
