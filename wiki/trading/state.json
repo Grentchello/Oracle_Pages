@@ -2,36 +2,7 @@
   "balance_sol": 1.41552,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "FgsbhnDs6BC4JcPT1WHfxcWWoWDB7j4wJ888zcr8pump": {
-      "symbol": "soyjak",
-      "name": "soyjak",
-      "mint": "FgsbhnDs6BC4JcPT1WHfxcWWoWDB7j4wJ888zcr8pump",
-      "amount": 206866.51347399206,
-      "entry_price_usd": 9.574e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-17T01:16:01.499218+00:00",
-      "entry_time_iso": "2026-09-17T01:16:01.499226+00:00",
-      "entry_usd_value": 1.98054,
-      "last_seen_price_usd": 9.574e-06,
-      "entry_liquidity_usd": 80311.09839309141,
-      "entry_pool_sol": 811.002033719,
-      "entry_market_cap_usd": 9693.676960538054,
-      "entry_signals": {
-        "liquidity_usd": 80311.09839309141,
-        "volume_24h_usd": 5497.89,
-        "market_cap_usd": 9693.676960538054,
-        "ath_market_cap_usd": 10127.23415985116,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 811.002033719,
-        "description": "",
-        "twitter": "https://x.com/soyjak_pump/status/2100392567976411188?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63457,19 +63428,38 @@
       "hold_duration_seconds": 78.931318,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "FgsbhnDs6BC4JcPT1WHfxcWWoWDB7j4wJ888zcr8pump",
+      "symbol": "soyjak",
+      "name": "soyjak",
+      "amount_sold": 206866.51347399206,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-17T01:16:01.499218+00:00",
+      "entry_time_iso": "2026-09-17T01:16:01.499226+00:00",
+      "exit_time": "2026-09-17T01:17:08.534404+00:00",
+      "exit_time_iso": "2026-09-17T01:17:08.534412+00:00",
+      "entry_price_usd": 9.574e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] auto-v8.7 TP +50% (full) — no real exit liquidity",
+      "entry_liquidity_usd": 80311.09839309141,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 811.002033719,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 67.035206,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T01:16:01.499466+00:00",
+  "last_updated": "2026-09-17T01:17:19.414842+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.027,
-  "portfolio_value_usd": 142.16,
+  "last_sol_price_usd": 98.44,
+  "portfolio_value_usd": 139.34,
   "recent_decisions": [
-    {
-      "time": "2026-09-17 00:22 UTC",
-      "action": "sell",
-      "details": "[FULL][LLM] $QAUNTITY at $5.10198e-06 | P&L: -100.0%",
-      "reason": "Only 0.0h held, -5.1% is within the -25% hard cap and not yet at the stale-exit threshold. Bonding-curve phase means price discovery is still active; give it a few more minutes before judging."
-    },
     {
       "time": "2026-09-17 00:23 UTC",
       "action": "buy",
@@ -63583,30 +63573,48 @@
       "action": "buy",
       "details": "[LLM] $soyjak at $9.574e-06, spent 0.02 SOL",
       "reason": "$soyjak — pure attention play. 'Soyjak' is a deeply viral meme format with massive cultural recognition; a token launched with that exact name and an active X account at $9.7k mcap is peak early-stage asymmetric upside. Bond 29% not complete means bonding curve still feeding — ideal entry. Risk: brand-name raids, thin liquidity at this mcap. Sizing 0.02 SOL fits the experimental learn-by-doing mandate."
+    },
+    {
+      "time": "2026-09-17 01:17 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $soyjak at $0.000113098 | P&L: -100.0%",
+      "reason": "Auto take-profit at +1081.3%"
     }
   ],
   "trade_stats": {
-    "total": 3558,
+    "total": 3559,
     "wins": 1617,
-    "losses": 1941,
+    "losses": 1942,
     "win_rate_pct": 45.4,
-    "total_pnl_sol": 25.779904,
-    "avg_pnl_pct": 36.64,
+    "total_pnl_sol": 25.759904,
+    "avg_pnl_pct": 36.6,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 11,
-    "today_realized_sol": -0.153453,
-    "today_target_pct": -38.4,
+    "today_trades": 12,
+    "today_realized_sol": -0.173453,
+    "today_target_pct": -43.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1617,
-      "loss_count": 1941,
+      "loss_count": 1942,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T01:15:59.493016+00:00",
+  "last_llm_brief_at": "2026-09-17T01:17:19.414814+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "FgsbhnDs6BC4JcPT1WHfxcWWoWDB7j4wJ888zcr8pump": {
+      "price_usd": 0.000113098204023886,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 10939.75183761292,
+      "volume_h24": 8040.06,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 111.131164543
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

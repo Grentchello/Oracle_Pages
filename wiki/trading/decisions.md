@@ -25948,3 +25948,6 @@
 ## [2026-09-17 01:16 UTC] buy | [LLM] $soyjak at $9.574e-06, spent 0.02 SOL
 - **Reasoning:** $soyjak — pure attention play. 'Soyjak' is a deeply viral meme format with massive cultural recognition; a token launched with that exact name and an active X account at $9.7k mcap is peak early-stage asymmetric upside. Bond 29% not complete means bonding curve still feeding — ideal entry. Risk: brand-name raids, thin liquidity at this mcap. Sizing 0.02 SOL fits the experimental learn-by-doing mandate.
 
+## [2026-09-17 01:17 UTC] sell | [v8.7 TP +50% (full)] $soyjak at $0.000113098 | P&L: -100.0%
+- **Reasoning:** Auto take-profit at +1081.3%
+
