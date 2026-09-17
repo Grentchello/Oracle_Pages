@@ -611,9 +611,9 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         # If bonding curve: require >=8 SOL of real reserves (v9.4 floor)
         # 8 SOL = 400x our 0.02 SOL position.
         if is_bonding:
-            if real_sol < 8.0:
+            if real_sol < 5.0:
                 liq_filtered += 1
-                log(f"v9.4 FILTER: ${c.get('symbol')} rejected — bonding curve only {real_sol:.2f} SOL reserves (< 8.0)")
+                log(f"v9.4 FILTER: ${c.get('symbol')} rejected — bonding curve only {real_sol:.2f} SOL reserves (< 5.0)")
                 continue
             # OK: bonding curve with enough real SOL
         else:
