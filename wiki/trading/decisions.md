@@ -25972,3 +25972,6 @@
 ## [2026-09-17 01:38 UTC] buy | [LLM] $METR at $9.007e-06, spent 0.02 SOL
 - **Reasoning:** $METR — Model Evaluation Threat Research is a sharp AI/cyber narrative ('threat research' hits both AI agent zeitgeist and security FUD). Brand-name creator (kevinnbass via UsePaid = monetized launchpad, suggests real builder not anon rugger). $23k mcap is prime 10x territory, bond at 40% still forming liquidity. Small position to test the narrative.
 
+## [2026-09-17 01:39 UTC] sell | [v8.7 TP +50% (full)] $METR at $1.66509e-05 | P&L: -100.0%
+- **Reasoning:** Auto take-profit at +84.9%
+

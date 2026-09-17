@@ -2,36 +2,7 @@
   "balance_sol": 1.33552,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "oQ8nFMb6yGSNwuHVywGKHJ4FymDs8o72ByWqdZkn4wB": {
-      "symbol": "METR",
-      "name": "Model Evaluation Threat Research",
-      "mint": "oQ8nFMb6yGSNwuHVywGKHJ4FymDs8o72ByWqdZkn4wB",
-      "amount": 220361.94071277892,
-      "entry_price_usd": 9.007e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-17T01:38:15.913343+00:00",
-      "entry_time_iso": "2026-09-17T01:38:15.913352+00:00",
-      "entry_usd_value": 1.9848,
-      "last_seen_price_usd": 9.007e-06,
-      "entry_liquidity_usd": 2962.8607748872796,
-      "entry_pool_sol": 29.855509622,
-      "entry_market_cap_usd": 23129.284115494815,
-      "entry_signals": {
-        "liquidity_usd": 2962.8607748872796,
-        "volume_24h_usd": 7835.08,
-        "market_cap_usd": 23129.284115494815,
-        "ath_market_cap_usd": 24923.661862909576,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 29.855509622,
-        "description": "Fees to @kevinnbass via UsePaid",
-        "twitter": "https://x.com/sonicdeployer/status/2100398395680592282",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63557,19 +63528,38 @@
       "hold_duration_seconds": 77.970959,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "oQ8nFMb6yGSNwuHVywGKHJ4FymDs8o72ByWqdZkn4wB",
+      "symbol": "METR",
+      "name": "Model Evaluation Threat Research",
+      "amount_sold": 220361.94071277892,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-17T01:38:15.913343+00:00",
+      "entry_time_iso": "2026-09-17T01:38:15.913352+00:00",
+      "exit_time": "2026-09-17T01:39:22.500524+00:00",
+      "exit_time_iso": "2026-09-17T01:39:22.500532+00:00",
+      "entry_price_usd": 9.007e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] auto-v8.7 TP +50% (full) — no real exit liquidity",
+      "entry_liquidity_usd": 2962.8607748872796,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 29.855509622,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 66.5872,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T01:38:15.913615+00:00",
+  "last_updated": "2026-09-17T01:39:30.156077+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.24,
-  "portfolio_value_usd": 134.52,
+  "last_sol_price_usd": 99.31,
+  "portfolio_value_usd": 132.63,
   "recent_decisions": [
-    {
-      "time": "2026-09-17 00:39 UTC",
-      "action": "sell",
-      "details": "[rapid-drop] $keycat crashed >15% in one tick | P&L: -100.0%",
-      "reason": "Rapid drop detector (rug/snipe)"
-    },
     {
       "time": "2026-09-17 00:39 UTC",
       "action": "buy",
@@ -63683,30 +63673,48 @@
       "action": "buy",
       "details": "[LLM] $METR at $9.007e-06, spent 0.02 SOL",
       "reason": "$METR — Model Evaluation Threat Research is a sharp AI/cyber narrative ('threat research' hits both AI agent zeitgeist and security FUD). Brand-name creator (kevinnbass via UsePaid = monetized launchpad, suggests real builder not anon rugger). $23k mcap is prime 10x territory, bond at 40% still forming liquidity. Small position to test the narrative."
+    },
+    {
+      "time": "2026-09-17 01:39 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $METR at $1.66509e-05 | P&L: -100.0%",
+      "reason": "Auto take-profit at +84.9%"
     }
   ],
   "trade_stats": {
-    "total": 3562,
+    "total": 3563,
     "wins": 1617,
-    "losses": 1945,
+    "losses": 1946,
     "win_rate_pct": 45.4,
-    "total_pnl_sol": 25.699904,
-    "avg_pnl_pct": 36.49,
+    "total_pnl_sol": 25.679904,
+    "avg_pnl_pct": 36.45,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 15,
-    "today_realized_sol": -0.233453,
-    "today_target_pct": -58.4,
+    "today_trades": 16,
+    "today_realized_sol": -0.253453,
+    "today_target_pct": -63.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1617,
-      "loss_count": 1945,
+      "loss_count": 1946,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T01:38:14.024093+00:00",
+  "last_llm_brief_at": "2026-09-17T01:39:30.156049+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "oQ8nFMb6yGSNwuHVywGKHJ4FymDs8o72ByWqdZkn4wB": {
+      "price_usd": 1.6650873928192896e-05,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 4316.5432838401,
+      "volume_h24": 44982.65,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 43.46534371
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,
