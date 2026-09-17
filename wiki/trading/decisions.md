@@ -25882,3 +25882,6 @@
 ## [2026-09-17 00:11 UTC] sell | [v8.7 TP +50% (full)] $ARCH at $1.0695e-05 | P&L: +54.7%
 - **Reasoning:** Auto take-profit at +54.7%
 
+## [2026-09-17 00:16 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
