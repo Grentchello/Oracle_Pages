@@ -25957,3 +25957,6 @@
 ## [2026-09-17 01:22 UTC] sell | [v8.7 TP +50% (full)] $soyjak at $0.000414077 | P&L: -100.0%
 - **Reasoning:** Auto take-profit at +6005.5%
 
+## [2026-09-17 01:27 UTC] buy | [LLM] $PUMPCARDS at $9.47321e-05, spent 0.02 SOL
+- **Reasoning:** $PUMPCARDS — meta-narrative on Pumpfun itself (cards mechanic), $3.5k mcap, fresh launch with X attention from @TobiasJochike. Meta-narratives tend to ride attention cycles, and the lowest mcap here offers best asymmetry.
+
