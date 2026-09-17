@@ -1142,3 +1142,21 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
   - If v9.4 shows ghost rate 50-90% (status quo), hold steady.
   - If v9.4 shows ghost rate < 50%, we've found the working floor.
 - **Bot status**: Solana runner process alive and ticking (PID 507, `python runner.py`). No intervention needed on the runner itself.
+
+## [2026-09-17 14:47 UTC] eval | 2h cron auto-eval (window: Sep 17 12:43 → Sep 17 14:47 UTC)
+- **Window since last eval (~2h)**: **0 new trades** (3,572 → 3,572). Bot is alive and ticking (Solana runner PID 507 since Sep 15; Base runner PID 294355 since Sep 16) but every LLM call in this window failed JSON parse.
+- **Bot health**: `recent_decisions` last 5 entries (14:07, 14:08, 14:13, 14:20, 14:22 UTC) all `"details": "LLM call failed: could not parse JSON"`. Upstream provider returning malformed JSON — connectivity/provider issue, NOT a parameter issue.
+- **Process check**: `ps -ef` confirms:
+  - PID 503 = parent bash `python runner.py`
+  - PID 507 = Solana runner (alive, started Sep 15)
+  - PID 294355 = Base runner (alive, started Sep 16)
+  No PID churn. runner.log mtime stale at Sep 15 07:29 (stdout/tee-pipe issue, cosmetic).
+- **Lifetime snapshot**: 3,572 trades, balance 1.180566 SOL, lifetime paper PnL +25.525 SOL. Honest slippage-aware read: wallet balance 1.18 SOL is reality, +25.5 SOL paper is upper bound.
+- **Last 5 trades** (all from 02:06–02:57 UTC window before the LLM outage): Moth, BENCH, T3TRIS, ASH, PEPE — every one -100% / -0.020000 SOL. Classic pump.fun bonding-curve ghost exits (depth drained before fill).
+- **Decision: NO PARAMETER CHANGES**. Reasoning:
+  1. 0 trades in this window — nothing to evaluate param performance on.
+  2. Mechanical rules (v8.7: HARD_STOP_LOSS=-25%, MAX_HOLD=30min, TP+50%, POSITION_SIZE=0.02 SOL, RESERVE=0.02 SOL, MAX_POSITIONS=1) are explicit "Do NOT change" per cron instructions.
+  3. v9.4 bonding-curve floor (8 SOL, reverted from v9.5 at 12:43 UTC) is the only recent param change. Sample size post-revert = 0. Cannot judge yet.
+  4. The actual problem is upstream LLM provider returning unparseable JSON 20+ ticks running. That's a connectivity/provider problem, not a bot parameter.
+- **Out-of-scope observation (no action taken this run)**: when the LLM provider recovers, expect the next burst of trades to be on pump.fun bonding-curve mints filtered by v9.4 (8 SOL real_sol_reserves). If post-recovery sample shows ≥10 trades with all-ghost exits, escalate per the 12:43 eval's documented thresholds (v9.6 = 25 SOL floor or pause entries until DEX graduation).
+- **Next eval**: standard +2h cadence. If LLM JSON-parse failures continue, surface to Grant with concrete remediation steps (provider swap, API key check).
