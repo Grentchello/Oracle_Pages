@@ -25879,3 +25879,6 @@
 ## [2026-09-17 00:10 UTC] sell | [PARTIAL][LLM] $ARCH at $1.01993e-05 | P&L: -100.0%
 - **Reasoning:** Up +47.5% on a brand-new bonding curve position held <1h — narrative is clearly working. Lock half the gain at this TP tier (auto already likely took 25% profit slice per rules, but per scalp discipline I want more off the table). Trail the rest; if it rolls over, the other half becomes free-option.
 
+## [2026-09-17 00:11 UTC] sell | [v8.7 TP +50% (full)] $ARCH at $1.0695e-05 | P&L: +54.7%
+- **Reasoning:** Auto take-profit at +54.7%
+
