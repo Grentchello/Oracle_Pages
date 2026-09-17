@@ -2,36 +2,7 @@
   "balance_sol": 1.43552,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "9EXthSKb2YVQc35FX6ZqTH6rsTi34h1CiEMkBR59pump": {
-      "symbol": "$LOTTERY",
-      "name": "LOTTERY",
-      "mint": "9EXthSKb2YVQc35FX6ZqTH6rsTi34h1CiEMkBR59pump",
-      "amount": 1401.1119016881644,
-      "entry_price_usd": 0.0014130206142811213,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-17T01:12:01.817468+00:00",
-      "entry_time_iso": "2026-09-17T01:12:01.817479+00:00",
-      "entry_usd_value": 1.9798,
-      "last_seen_price_usd": 0.0014130206142811213,
-      "entry_liquidity_usd": 13513.25249840697,
-      "entry_pool_sol": 136.511289003,
-      "entry_market_cap_usd": 3021.146989358814,
-      "entry_signals": {
-        "liquidity_usd": 13513.25249840697,
-        "volume_24h_usd": null,
-        "market_cap_usd": 3021.146989358814,
-        "ath_market_cap_usd": 3021.146989358814,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 136.511289003,
-        "description": "$LOTTERY — PAIRED WITH STONK! The jackpot starts here. 🎰💰 A meme coin built around the dream of hitting the big one. Pick your numbers, chase the jackpot, and let luck decide your fate. No promises, just memes, vibes, and lottery energy. 🎱🍀🚀",
-        "twitter": "https://x.com/ductman84",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63432,19 +63403,38 @@
       "hold_duration_seconds": 66.366907,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "9EXthSKb2YVQc35FX6ZqTH6rsTi34h1CiEMkBR59pump",
+      "symbol": "$LOTTERY",
+      "name": "LOTTERY",
+      "amount_sold": 1401.1119016881644,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-17T01:12:01.817468+00:00",
+      "entry_time_iso": "2026-09-17T01:12:01.817479+00:00",
+      "exit_time": "2026-09-17T01:13:20.748769+00:00",
+      "exit_time_iso": "2026-09-17T01:13:20.748775+00:00",
+      "entry_price_usd": 0.0014130206142811213,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_all — $LOTTERY is essentially flat at -0.5% after very little hold time, and the name is a generic attention play with a tiny $13.9k pool on — no real exit liquidity",
+      "entry_liquidity_usd": 13513.25249840697,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 136.511289003,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 78.931318,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T01:12:01.817758+00:00",
+  "last_updated": "2026-09-17T01:13:20.749541+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 98.99,
-  "portfolio_value_usd": 144.08,
+  "last_sol_price_usd": 98.47,
+  "portfolio_value_usd": 141.36,
   "recent_decisions": [
-    {
-      "time": "2026-09-17 00:16 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-17 00:20 UTC",
       "action": "buy",
@@ -63558,30 +63548,48 @@
       "action": "buy",
       "details": "[LLM] $$LOTTERY at $0.00141302, spent 0.02 SOL",
       "reason": "$LOTTERY — paired with $STONK (existing runner) is a classic attention-chained narrative with lottery/gambling meme appeal and an active X handle (ductman84). $3k mcap is true ground-floor, bond still filling (1%), so size is 0.02 SOL. Passes viability (desc + twitter) and is not on the ME2F blocklist; downside is the typical sub-1m rug rate, but the asymmetry at $3k mcap with a viral casino narrative is the exact setup this strategy is built for."
+    },
+    {
+      "time": "2026-09-17 01:13 UTC",
+      "action": "sell",
+      "details": "[FULL][LLM] $$LOTTERY at $0.00140647 | P&L: -100.0%",
+      "reason": "$LOTTERY is essentially flat at -0.5% after very little hold time, and the name is a generic attention play with a tiny $13.9k pool on a bonding curve (just 0% share). No narrative edge, no viral signal, and capital is better deployed on a fresh launch with clearer attention. Free up the slot immediately."
     }
   ],
   "trade_stats": {
-    "total": 3557,
+    "total": 3558,
     "wins": 1617,
-    "losses": 1940,
-    "win_rate_pct": 45.5,
-    "total_pnl_sol": 25.799904,
-    "avg_pnl_pct": 36.68,
+    "losses": 1941,
+    "win_rate_pct": 45.4,
+    "total_pnl_sol": 25.779904,
+    "avg_pnl_pct": 36.64,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 10,
-    "today_realized_sol": -0.133453,
-    "today_target_pct": -33.4,
+    "today_trades": 11,
+    "today_realized_sol": -0.153453,
+    "today_target_pct": -38.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1617,
-      "loss_count": 1940,
+      "loss_count": 1941,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T01:11:59.572682+00:00",
+  "last_llm_brief_at": "2026-09-17T01:13:20.748629+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "9EXthSKb2YVQc35FX6ZqTH6rsTi34h1CiEMkBR59pump": {
+      "price_usd": 0.0014064664684616908,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 13903.97114577096,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 141.200072568
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

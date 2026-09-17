@@ -25942,3 +25942,6 @@
 ## [2026-09-17 01:12 UTC] buy | [LLM] $$LOTTERY at $0.00141302, spent 0.02 SOL
 - **Reasoning:** $LOTTERY — paired with $STONK (existing runner) is a classic attention-chained narrative with lottery/gambling meme appeal and an active X handle (ductman84). $3k mcap is true ground-floor, bond still filling (1%), so size is 0.02 SOL. Passes viability (desc + twitter) and is not on the ME2F blocklist; downside is the typical sub-1m rug rate, but the asymmetry at $3k mcap with a viral casino narrative is the exact setup this strategy is built for.
 
+## [2026-09-17 01:13 UTC] sell | [FULL][LLM] $$LOTTERY at $0.00140647 | P&L: -100.0%
+- **Reasoning:** $LOTTERY is essentially flat at -0.5% after very little hold time, and the name is a generic attention play with a tiny $13.9k pool on a bonding curve (just 0% share). No narrative edge, no viral signal, and capital is better deployed on a fresh launch with clearer attention. Free up the slot immediately.
+
