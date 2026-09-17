@@ -25993,3 +25993,6 @@
 ## [2026-09-17 01:47 UTC] sell | [PARTIAL][LLM] $SEND at $8.50875e-06 | P&L: -100.0%
 - **Reasoning:** +37% in 0.0h held on a $2.2k pool with 0% share — narrative unclear, liquidity thin. Lock half the gain, let the rest run in case it keeps pumping, but this is fragile.
 
+## [2026-09-17 01:48 UTC] sell | [rapid-drop] $SEND crashed >15% in one tick | P&L: -49.8%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
