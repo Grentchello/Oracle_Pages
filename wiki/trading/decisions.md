@@ -25960,3 +25960,6 @@
 ## [2026-09-17 01:27 UTC] buy | [LLM] $PUMPCARDS at $9.47321e-05, spent 0.02 SOL
 - **Reasoning:** $PUMPCARDS — meta-narrative on Pumpfun itself (cards mechanic), $3.5k mcap, fresh launch with X attention from @TobiasJochike. Meta-narratives tend to ride attention cycles, and the lowest mcap here offers best asymmetry.
 
+## [2026-09-17 01:28 UTC] sell | [FULL][LLM] $PUMPCARDS at $9.43407e-05 | P&L: -100.0%
+- **Reasoning:** Just entered, -0.4% is noise, give it time to develop.
+
