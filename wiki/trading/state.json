@@ -2,36 +2,7 @@
   "balance_sol": 1.45552,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "Fxxv17Up4UuVYxCVnXGTjJfyreBvxaio6vZpMC461NwM": {
-      "symbol": "rCAT",
-      "name": "Ransom Cat",
-      "mint": "Fxxv17Up4UuVYxCVnXGTjJfyreBvxaio6vZpMC461NwM",
-      "amount": 1385.7976577783718,
-      "entry_price_usd": 0.0014315221193116389,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-17T00:57:12.256126+00:00",
-      "entry_time_iso": "2026-09-17T00:57:12.256134+00:00",
-      "entry_usd_value": 1.9838,
-      "last_seen_price_usd": 0.0014315221193116389,
-      "entry_liquidity_usd": 215852.76803671764,
-      "entry_pool_sol": 2176.154532077,
-      "entry_market_cap_usd": 7488.2592500380815,
-      "entry_signals": {
-        "liquidity_usd": 215852.76803671764,
-        "volume_24h_usd": 0.0,
-        "market_cap_usd": 7488.2592500380815,
-        "ath_market_cap_usd": 7839.845126138168,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 2176.154532077,
-        "description": "",
-        "twitter": "https://x.com/istackpennies/status/2100388121343033450?s=20",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63407,19 +63378,38 @@
       "exit_pool_sol": 17.642,
       "hold_duration_seconds": 157.76394,
       "partial": false
+    },
+    {
+      "mint": "Fxxv17Up4UuVYxCVnXGTjJfyreBvxaio6vZpMC461NwM",
+      "symbol": "rCAT",
+      "name": "Ransom Cat",
+      "amount_sold": 1385.7976577783718,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-17T00:57:12.256126+00:00",
+      "entry_time_iso": "2026-09-17T00:57:12.256134+00:00",
+      "exit_time": "2026-09-17T00:58:18.623014+00:00",
+      "exit_time_iso": "2026-09-17T00:58:18.623022+00:00",
+      "entry_price_usd": 0.0014315221193116389,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] rapid-drop -15%/tick — no real exit liquidity",
+      "entry_liquidity_usd": 215852.76803671764,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 2176.154532077,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 66.366907,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T00:57:12.256300+00:00",
+  "last_updated": "2026-09-17T00:58:30.768938+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.19,
-  "portfolio_value_usd": 146.36,
+  "last_sol_price_usd": 98.63,
+  "portfolio_value_usd": 143.56,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 23:58 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-17 00:09 UTC",
       "action": "buy",
@@ -63533,30 +63523,48 @@
       "action": "buy",
       "details": "[LLM] $rCAT at $0.00143152, spent 0.02 SOL",
       "reason": "Fresh sub-$10k mcap with viral X attention from a notable memecoin account; 'ransom cat' is a memeable cat-narrative that fits the attention-market thesis. Risk: ultra-low liquidity, bond only 20%, could rug or die — but that's the bet profile, size is 0.02 SOL."
+    },
+    {
+      "time": "2026-09-17 00:58 UTC",
+      "action": "sell",
+      "details": "[rapid-drop] $rCAT crashed >15% in one tick | P&L: -100.0%",
+      "reason": "Rapid drop detector (rug/snipe)"
     }
   ],
   "trade_stats": {
-    "total": 3556,
+    "total": 3557,
     "wins": 1617,
-    "losses": 1939,
+    "losses": 1940,
     "win_rate_pct": 45.5,
-    "total_pnl_sol": 25.819904,
-    "avg_pnl_pct": 36.72,
+    "total_pnl_sol": 25.799904,
+    "avg_pnl_pct": 36.68,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 9,
-    "today_realized_sol": -0.113453,
-    "today_target_pct": -28.4,
+    "today_trades": 10,
+    "today_realized_sol": -0.133453,
+    "today_target_pct": -33.4,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1617,
-      "loss_count": 1939,
+      "loss_count": 1940,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T00:57:10.853803+00:00",
+  "last_llm_brief_at": "2026-09-17T00:58:30.768912+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "Fxxv17Up4UuVYxCVnXGTjJfyreBvxaio6vZpMC461NwM": {
+      "price_usd": 0.0008622798128576636,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 39815.58275906708,
+      "volume_h24": 0.0,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 403.686330316
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

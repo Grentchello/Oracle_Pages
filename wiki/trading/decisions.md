@@ -25930,3 +25930,6 @@
 ## [2026-09-17 00:57 UTC] buy | [LLM] $rCAT at $0.00143152, spent 0.02 SOL
 - **Reasoning:** Fresh sub-$10k mcap with viral X attention from a notable memecoin account; 'ransom cat' is a memeable cat-narrative that fits the attention-market thesis. Risk: ultra-low liquidity, bond only 20%, could rug or die — but that's the bet profile, size is 0.02 SOL.
 
+## [2026-09-17 00:58 UTC] sell | [rapid-drop] $rCAT crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
