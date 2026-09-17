@@ -1100,3 +1100,23 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - last trade: 2026-09-17 02:57 UTC (5.7h idle, no open positions)
 - bot currently idle: every buy blocked by RESERVE_SOL=0.02 floor at 0.02 SOL position size
 - finding: nominal profit is a lie; wallet balance is the truth. slippage on small-cap memecoins means paper pnl diverges from realized. decision: no parameter tweaks this run — mechanical rules intact (v8.7+), bot blocked by reserve floor not strategy. next eval at +2h.
+
+## [2026-09-17 10:40 UTC] eval | bot re-evaluation (window: Sep 17 08:38 → Sep 17 10:40 UTC)
+- trades since last eval: 0 (3,572 → 3,572). bot has been completely idle this 2h window.
+- lifetime aggregate unchanged: 3,572 trades, 45.3% WR (1617W / 1955L), +25.525 SOL paper PnL.
+- honest balance: 1.180566 SOL (down from 2.0 SOL v9.3 reset = -0.819 SOL realized, ~41% drawdown over 20.5h).
+- TP wins: 928 trades nominal +20.45 SOL (sell_half +50% rules). Override wins: 689 trades +5.07 SOL.
+- Rapid -50% losses: 242 trades -6.83 SOL. Other losses: 1713 trades -18.74 SOL.
+- **bot process status**: `pgrep -af bot.py` returns ONLY PID 629030 = `bot/base_memecoin/base_bot.py` (Base chain). The **Solana runner is still DOWN** since 2026-09-15 07:29 UTC (last runner.log write, 51+ hours). This is the same finding the 06:34 UTC eval already flagged — and the 08:38 UTC eval didn't re-verify. PID check now confirmed: Solana runner dead, Base runner alive. No PID churn suggests the Solana runner didn't crash and restart — it just stopped.
+- **state.json recent_decisions**: last 20 entries 08:55 → 10:35 UTC all read `"details": "LLM call failed: could not parse JSON"`. The LLM endpoint is returning unparseable responses every tick — not a strategy or param issue, a parser/provider issue.
+- **Today's realized PnL (from state.json)**: -0.408 SOL over 25 trades (all GHOST exits, 24h earlier). Today target was +20% per `daily_target_pct: 20.0` — missed by ~120 percentage points.
+- **decision: NO PARAMETER CHANGES**. Reasoning:
+  1. 0 trades in this window — there's nothing to evaluate parameter performance on.
+  2. Mechanical rules (v8.7 HARD_STOP_LOSS=-25%, MAX_HOLD=30min, TP+50%, v9.3 ghost-exit honesty, v9.5 15-SOL bonding-curve floor) are explicit "Do NOT change" per session instructions.
+  3. The actual problem is the Solana runner process being down for 51+h. Tweaking POSITION_SIZE_SOL or RESERVE_SOL on a dead process achieves nothing.
+  4. The LLM JSON-parse failures (20 consecutive in recent_decisions) suggest the upstream provider is returning malformed JSON — that's a connectivity/provider issue, not a parameter.
+- **out-of-scope observations to surface to Grant (NOT applied here, would require halting + debugging the runner)**:
+  - Solana runner dead 51+h → likely needs `start_bot.sh` or systemd unit restart. Bot needs to be running for any parameter change to take effect.
+  - All LLM calls today failing JSON parse → if the provider is `opencode_zen/mimo-v2.5-free` per memory, may need to swap provider or check API key validity.
+  - The 8.7h idle period matches roughly when the JSON-parse failures started (~02:57 UTC last trade ≈ when LLM broke).
+- **next eval**: standard +2h cadence. If Solana runner is still down at next eval, escalate with concrete remediation steps rather than just flagging. No state.json edits warranted this run.
