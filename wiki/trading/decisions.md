@@ -25984,3 +25984,6 @@
 ## [2026-09-17 01:42 UTC] buy | [LLM] $THEJEET at $3.375e-06, spent 0.02 SOL
 - **Reasoning:** $THEJEET — meta-narrative token ('jeet' is degen culture slang for weak-handed sellers),1min old with growing bond. Fragility concern: meta-tokens often have thin narratives past the joke, but at $4.7k mcap the asymmetry favors a small entry.
 
+## [2026-09-17 01:43 UTC] sell | [v8.7 TP +50% (full)] $THEJEET at $5.87405e-06 | P&L: -100.0%
+- **Reasoning:** Auto take-profit at +74.0%
+
