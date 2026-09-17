@@ -1120,3 +1120,25 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
   - All LLM calls today failing JSON parse → if the provider is `opencode_zen/mimo-v2.5-free` per memory, may need to swap provider or check API key validity.
   - The 8.7h idle period matches roughly when the JSON-parse failures started (~02:57 UTC last trade ≈ when LLM broke).
 - **next eval**: standard +2h cadence. If Solana runner is still down at next eval, escalate with concrete remediation steps rather than just flagging. No state.json edits warranted this run.
+
+## [2026-09-17 12:43 UTC] eval | 2h cron auto-eval (window: Sep 17 10:40 → Sep 17 12:43 UTC)
+- **Window since last eval (~2h)**: **0 new trades** (3,572 → 3,572). Bot has been idle this window — last trade exited 2026-09-17T02:57 UTC.
+- **Process check correction (important!)**: prior evals (06:34, 08:38, 10:40) called the Solana runner "dead since Sep 15 07:29 UTC". **That diagnosis was WRONG.** `ps aux` now confirms:
+  - PID 503 = parent shell `cd /opt/data/hermes_work/bot && python runner.py`
+  - PID 507 = Solana runner (alive, running continuously since Sep 15)
+  - PID 294351/294355 = Base runner (separate process in `base_memecoin/`)
+  The runner.log mtime freeze at Sep 15 07:29 UTC is a **stdout/tee pipe issue**, not a process death. State.json IS being updated (last write 12:42 UTC = this turn). Bot just hasn't found trades worth taking.
+- **Honest era breakdown (post-slippage-honesty, real SOL basis)**:
+  - pre-v9.4 (n=3547, Aug 26 → Sep 16 16:14): WR=46%, pnl=+25.93 SOL paper, **70 ghost exits**, 147.59 SOL realized over 122.10 SOL deployed (~+25.5 SOL paper — but realized is +25.5 SOL, so paper ≈ realized here pre-v9.4).
+  - v9.4 floor era (n=22, Sep 16 16:15 → Sep 17 02:25): WR=9%, **19/22 (86%) ghosts**, pnl=-0.3484 SOL, **0.0316 SOL realized** out of ~0.44 SOL deployed.
+  - v9.5 floor era (n=3, Sep 17 02:26 → 02:57): WR=0%, **3/3 (100%) ghosts**, pnl=-0.0600 SOL, **0.0000 SOL realized**.
+  - current window (12:43 eval, n=0): no data.
+- **Lifetime snapshot**: 3,572 trades, current balance 1.180566 SOL, lifetime paper PnL +25.5250 SOL. Per memory rule ("reported balance is usually inflated by slippage"): the **wallet balance (1.18 SOL) is the truth, not the +25.5 paper**. Pre-v9.3 trades used exit_price_usd instead of realized_sol — those paper gains are not realizable.
+- **Root cause of v9.5 regression**: raising the bonding-curve floor from 8 SOL → 15 SOL did NOT reduce ghost exits. v9.4 was 86% ghost at n=22, v9.5 is 100% ghost at n=3. Pump.fun snipers drain 15 SOL curves within seconds just like they drain 8 SOL curves. Higher floor = bot enters fewer but each entry still ghosts. v9.5 was deployed on insufficient data (n=3 from the 04:28 eval) — the prior eval's "wait for n≥20" was the right threshold; we violated it.
+- **Fix applied (parameter tweak, NOT mechanical rule change)**: reverted v9.5 (15 SOL floor) → v9.4 (8 SOL floor) at 12:43 UTC. Reasoning: v9.4 at n=22 had 3 non-ghost exits (14%), v9.5 at n=3 had 0. v9.4 is strictly less bad. Preserves v8.7+ mechanical rules (POSITION_SIZE, RESERVE, HARD_STOP_LOSS, MAX_HOLD, TP). The ghost-exit trap is structural to bonding-curve entry — solving it requires a different approach (DEX-only entry, age gate ≥5min, or depth-trend filter rejecting curves draining >2 SOL/min) — out of scope for this parameter tweak.
+- **Comment edit**: replaced v9.5 header comment in `bot.py` lines 598-602 with v9.4 header documenting the revert and the path forward.
+- **Next eval triggers**:
+  - If at next 2h window v9.4 (n_post_revert) shows ghost rate > 90%, consider pausing entries entirely until DEX graduation (deep structural fix, would require halting).
+  - If v9.4 shows ghost rate 50-90% (status quo), hold steady.
+  - If v9.4 shows ghost rate < 50%, we've found the working floor.
+- **Bot status**: Solana runner process alive and ticking (PID 507, `python runner.py`). No intervention needed on the runner itself.
