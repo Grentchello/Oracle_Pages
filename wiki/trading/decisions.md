@@ -25996,3 +25996,6 @@
 ## [2026-09-17 01:48 UTC] sell | [rapid-drop] $SEND crashed >15% in one tick | P&L: -49.8%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-17 01:52 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
