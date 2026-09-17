@@ -25924,3 +25924,6 @@
 ## [2026-09-17 00:41 UTC] sell | [FULL][LLM] $UP at $6.54514e-06 | P&L: +10.3%
 - **Reasoning:** Up +10.3% on a fresh entry, no reason to exit. Bonding-curve token, low pool means price will move fast — give it time to develop. Will reassess at 15min stale mark.
 
+## [2026-09-17 00:54 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
