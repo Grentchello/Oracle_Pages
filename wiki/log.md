@@ -24,3 +24,14 @@
   - If still 0 trades at next eval, the combined filter stack (v8.9 3min + v9.1 + v9.4 8SOL) is too tight. Easing v9.4 back toward 6 SOL is a single-param option; loosening v8.9 age from 3 → 2 min is another. Do not relax both at once.
 - **Bot status**: running, no halt. Runner.py spawns fresh bot.py each tick so edits to bot.py take effect immediately on the next tick. Solana runner PID 507 alive since Sep 15. Base runner PID 294355 alive. Trade count: 3,572. Balance: 1.1806 SOL. Open positions: 0.
 
+
+## [2026-09-17 20:57 UTC] eval | 2h cron auto-eval (window: Sep 17 18:56 → 20:57 UTC)
+- **Window since last eval (~2h)**: **0 new trades** (3,572 → 3,572). Bot alive, runner PID 507 ticking every 60s. State.json mtime fresh.
+- **Window since v8.9 age-tighten at 16:52 UTC (~4h)**: **0 trades**. Filter stack (v8.9 3min + v9.1 $1k DEX + v9.4 8 SOL bonding) is now over-blocking — combined gates are tight enough that no candidate passes.
+- **Window's 22 trades (3,550→3,572) all happened 01:39–02:57 UTC, BEFORE the 16:52 tighten** — they reflect pre-fix performance, not current state. Net -0.3839 SOL realized in window, 90.9% ghost rate (20/22), 1 real win (+0.0011), 1 real loss (-0.0050).
+- **Balance**: 1.1806 SOL, down -0.3639 SOL since last eval (1.5444). Down -0.8194 SOL (-41.0%) since Sep 16 14:11 reset.
+- **Lifetime**: 3,572 trades, 45.3% WR, +25.525 SOL paper PnL (pre-v9.3 era dominates via v9.0 mid-price sim — treat as upper bound).
+- **DECISION — single-param fix per prior eval's pre-committed trigger**: eased v8.9 age filter **3.0 → 2.0 min** (line 639 of bot.py). This is the conservative option vs easing v9.4 SOL floor (8→6 SOL). v8.7+ mechanical rules preserved unchanged (POSITION_SIZE_SOL=0.02, RESERVE_SOL=0.02, HARD_STOP_LOSS=-25%, MAX_HOLD=30min, TP+50% auto-full).
+- **Rationale for choosing age-ease over SOL-floor-ease**: pump.fun sniper-drain data shows the 30-90s window is the bleeding window. A 2-min floor still excludes that window while allowing tokens with 2-3 min of organic volume through. The 8 SOL bonding-curve floor has separate validation needs (snipers can drain 8 SOL too).
+- **Next eval trigger**: if v8.9 2-min window produces ≥10 trades AND ghost rate > 50%, escalate to v8.9 5 min. If ≥10 trades AND ghost rate < 50%, we've found the working combination — hold. If still 0 trades at next eval, the combined stack is still over-blocking — escalate to easing v9.4 (8 → 6 SOL) as the next single-param change.
+- **Bot status**: running, no halt. Solana runner PID 507 alive. bot.py v8.9 age filter updated from 3.0 → 2.0 min. Edits take effect on next tick (runner.py spawns fresh subprocess per tick).
