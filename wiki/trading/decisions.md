@@ -25918,3 +25918,6 @@
 ## [2026-09-17 00:39 UTC] buy | [LLM] $UP at $5.93188e-06, spent 0.02 SOL
 - **Reasoning:** $UP 'LinkedUp' — sub-1min launch, twitter account present (LinkedUpSol), 'LinkedUp' has a clear narrative hook (Solana social/professional parody) that fits attention-market logic. Small position to test the thesis.
 
+## [2026-09-17 00:40 UTC] sell | [PARTIAL][LLM] $UP at $6.96017e-06 | P&L: -100.0%
+- **Reasoning:** +17.3% in 0.0h on a $1741 bonding curve with 0% pool share is a thin, low-attention launch. Taking half locks a gain and leaves a runner in case it pumps further.
+

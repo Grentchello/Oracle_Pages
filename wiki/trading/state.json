@@ -7,13 +7,13 @@
       "symbol": "UP",
       "name": "LinkedUp",
       "mint": "8yHCAxYVs5f29JWQQe52CeSHTQvuFKAaS6frv5FzzLuv",
-      "amount": 334396.287257908,
+      "amount": 167198.143628954,
       "entry_price_usd": 5.9318840417331535e-06,
-      "entry_sol_spent": 0.02,
+      "entry_sol_spent": 0.01,
       "entry_time": "2026-09-17T00:39:21.022668+00:00",
       "entry_time_iso": "2026-09-17T00:39:21.022676+00:00",
       "entry_usd_value": 1.9836000000000003,
-      "last_seen_price_usd": 5.9318840417331535e-06,
+      "last_seen_price_usd": 6.960169682507753e-06,
       "entry_liquidity_usd": 1359.4810957344,
       "entry_pool_sol": 13.70721008,
       "entry_market_cap_usd": 5916.333629847182,
@@ -63358,19 +63358,38 @@
       "hold_duration_seconds": 66.62274,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "8yHCAxYVs5f29JWQQe52CeSHTQvuFKAaS6frv5FzzLuv",
+      "symbol": "UP",
+      "name": "LinkedUp",
+      "amount_sold": 167198.143628954,
+      "fraction_sold": 0.5,
+      "entry_time": "2026-09-17T00:39:21.022668+00:00",
+      "entry_time_iso": "2026-09-17T00:39:21.022676+00:00",
+      "exit_time": "2026-09-17T00:40:37.761793+00:00",
+      "exit_time_iso": "2026-09-17T00:40:37.761799+00:00",
+      "entry_price_usd": 5.9318840417331535e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.01,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.01,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] LLM: sell_half — +17.3% in 0.0h on a $1741 bonding curve with 0% pool share is a thin, low-attention launch. Taking half locks a gain and leaves a run — no real exit liquidity",
+      "entry_liquidity_usd": 1359.4810957344,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 13.70721008,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 76.739143,
+      "partial": true,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-17T00:39:21.022832+00:00",
+  "last_updated": "2026-09-17T00:40:37.762046+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 99.18,
-  "portfolio_value_usd": 147.23,
+  "last_sol_price_usd": 98.71,
+  "portfolio_value_usd": 145.55,
   "recent_decisions": [
-    {
-      "time": "2026-09-16 23:47 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-16 23:48 UTC",
       "action": "observe",
@@ -63484,40 +63503,46 @@
       "action": "buy",
       "details": "[LLM] $UP at $5.93188e-06, spent 0.02 SOL",
       "reason": "$UP 'LinkedUp' — sub-1min launch, twitter account present (LinkedUpSol), 'LinkedUp' has a clear narrative hook (Solana social/professional parody) that fits attention-market logic. Small position to test the thesis."
+    },
+    {
+      "time": "2026-09-17 00:40 UTC",
+      "action": "sell",
+      "details": "[PARTIAL][LLM] $UP at $6.96017e-06 | P&L: -100.0%",
+      "reason": "+17.3% in 0.0h on a $1741 bonding curve with 0% pool share is a thin, low-attention launch. Taking half locks a gain and leaves a runner in case it pumps further."
     }
   ],
   "trade_stats": {
-    "total": 3554,
+    "total": 3555,
     "wins": 1616,
-    "losses": 1938,
+    "losses": 1939,
     "win_rate_pct": 45.5,
-    "total_pnl_sol": 25.828824,
-    "avg_pnl_pct": 36.77,
+    "total_pnl_sol": 25.818824,
+    "avg_pnl_pct": 36.73,
     "best_pnl_pct": 8865.08,
     "worst_pnl_pct": -100.0,
-    "today_trades": 7,
-    "today_realized_sol": -0.104533,
-    "today_target_pct": -26.1,
+    "today_trades": 8,
+    "today_realized_sol": -0.114533,
+    "today_target_pct": -28.6,
     "daily_target_pct": 20.0,
     "learning": {
       "win_count": 1616,
-      "loss_count": 1938,
+      "loss_count": 1939,
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-17T00:39:19.608318+00:00",
+  "last_llm_brief_at": "2026-09-17T00:40:37.761622+00:00",
   "starting_balance_sol": 2.0,
   "held_prices": {
-    "HVJ5jfUqa5eNrMS4oYey6j9siLCnSwrnR6JPBr8Spump": {
-      "price_usd": 3.220022529769629e-06,
+    "8yHCAxYVs5f29JWQQe52CeSHTQvuFKAaS6frv5FzzLuv": {
+      "price_usd": 6.960169682507753e-06,
       "change_h24": 0,
       "change_h1": 0,
-      "liquidity_usd": 230.88406298454,
-      "volume_h24": 12490.78,
+      "liquidity_usd": 1741.44010293955,
+      "volume_h24": 3413.77,
       "dex_id": "pumpfun",
       "source": "bonding-curve",
       "complete": false,
-      "real_sol_reserves": 2.327929653
+      "real_sol_reserves": 17.641982605
     }
   },
   "_daily_pnl_reset": "manually reset to test bot",
