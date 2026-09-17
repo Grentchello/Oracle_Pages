@@ -26011,3 +26011,6 @@
 ## [2026-09-17 02:06 UTC] sell | [rapid-drop] $Moth crashed >15% in one tick | P&L: -100.0%
 - **Reasoning:** Rapid drop detector (rug/snipe)
 
+## [2026-09-17 02:09 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
