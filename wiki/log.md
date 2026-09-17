@@ -1062,3 +1062,15 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
   - v9.5 comment in code includes the next-step escalation (raise to 25 SOL, or pause entry until DEX graduation, if v9.5 also ghosts).
 - **Honest PnL (slippage-aware)**: Lifetime realized across 3,569 trades = +25.58 SOL paper. But **most of those paper gains are from the pre-v9.3 era when ghost exits were not recorded honestly**. Real PnL trend (last 4h, post-reset): -0.62 SOL. Bot is honestly losing money right now — v9.5 is the next attempt to slow the bleed.
 - **Bot status**: running, no halt. Positions open: 0. Trade count: 3,569. Balance: 1.2406 SOL.
+
+## [2026-09-17 04:28 UTC] eval | 2h cron auto-eval (window: Sep 17 02:26 → Sep 17 04:28 UTC)
+- **Window since last eval (~2h)**: **3 new trades** (3,569 → 3,572). Bot mostly idle — v9.5 (15 SOL floor) has starved entries to a trickle, which is the expected effect of a higher bonding-curve gate.
+- **Realized PnL in window**: **-0.0600 SOL** across 3 trades. 0W / 3L / 0F. All 3 exits were ghosts (0 SOL received, -100% recorded).
+- **Ghost exits: 3/3 = 100%** in this window, but lifetime ghost rate remains low (89/3572 = 2.49%) — these 3 are noise, not a structural shift.
+- **Last 3 trades**: T3TRIS, ASH, PEPE — all v9.5-allowed entries that drained to zero on the first exit tick. v9.5 gate is letting through tokens that have 15+ SOL at entry but not enough sustained depth for 0.02 SOL exits.
+- **Balance movement**: 1.2406 → 1.1806 SOL = **-0.0600 SOL (-4.8%) in 2h**.
+- **Lifetime aggregate**: 3,572 trades, **+25.5250 SOL paper PnL** (pre-v9.3 era dominates this number via mid-price sim, treat as upper bound). Slippage-honest real PnL is materially lower — the running window trend (-0.06 SOL / 3 trades) is more representative of current reality.
+- **Decision: NO PARAMETER CHANGES**. v9.5 only has 3 trades of post-deploy sample — too small to call the floor broken or working. Will reassess at next 2h eval. Do NOT escalate to v9.6 prematurely; v9.4 was escalated at n=19 and that decision is now visible as a mistake (could have waited). Same trap to avoid here.
+- **Why no change is the right move**: (1) profit-engine (TP+50% full-exit via real liquidity) is the proven gainer — +41.85 SOL lifetime from 694 TP_full wins. Don't perturb. (2) Window sample is 3 trades — noise, not signal. (3) v9.5 just deployed 2h ago; needs at least n=20 to draw conclusions (matches the prior eval's stated threshold for escalation).
+- **Next eval triggers**: if at next eval window trades are all ghosts AND n_post_v9.5 ≥ 10, escalate floor to v9.6 (25 SOL) OR pause entries until DEX graduation.
+- **Bot status**: running, no halt. Positions open: 0. Trade count: 3,572. Balance: 1.1806 SOL.
