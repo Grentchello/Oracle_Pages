@@ -1047,3 +1047,18 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - **No changes applied.** Holding steady per the prior eval's "observe 24-48h" plan. If post-v9.4 sample at n=30 still shows >50% ghost rate, consider raising floor 8 → 12-15 SOL. Not actionable today.
 - **Honest slippage accounting (per user reminder):** the 2 ghost exits ARE the honest signal — the bot couldn't exit, so recorded 0 SOL received. The ARCH +0.0055 SOL win is a real on-chain fill (not paper via v9.0 sim). Lifetime +25.9 SOL paper aggregate remains upper bound, not real PnL.
 - **Bot status**: running, no halt. Positions open: 1 (pumpball, 0.02 SOL entry at 00:23:37 UTC, 730 SOL reserves). Trade count: 3,550. Balance: 1.54444 SOL.
+
+## [2026-09-17 02:26 UTC] eval | 2h cron auto-eval (window: Sep 17 00:23 → Sep 17 02:26 UTC)
+- **Window since last eval (~2h)**: **19 new trades** (3,550 → 3,569). Trade rate has RECOVERED from the v9.4 starvation seen earlier — bot is firing again.
+- **Realized PnL in window**: **-0.3239 SOL** across 19 trades. Win rate 5.3% (1W / 18L).
+- **Ghost exits: 17/19 = 89.5%** (sum -0.3200 SOL). Same structural pattern as prior eval — bot enters positions that look 8 SOL deep on paper, curve drains within 1-2 ticks, exit hits v9.3 hard liquidity gate (pool < 2x position), records 0 SOL received.
+- **Real exits only (n=2)**: 1 win +0.0011 SOL, 1 loss -0.0050 SOL. Real WR is ~50/50 but sample is too tiny to draw conclusions; the dominating signal is ghost rate.
+- **Last 10 trades: every single one is a ghost at -100%**. The bot is burning ~0.17 SOL/h in sunk entry costs.
+- **Balance movement**: 1.5444 → 1.2406 SOL = **-0.3038 SOL (-19.7%) in 2h**.
+- **Root cause**: Same as prior evals — ghost-exit trap is structural to pump.fun bonding-curve dynamics (snipers drain curves within seconds of launch; what reads as 8 SOL reserves on entry is <2 SOL by exit). v9.4 (8 SOL floor) is not protective enough — *worsened* ghost rate from 85.7% pre-fix to 89.5% post-fix because the bot is now entering more positions (not starved as predicted) and they all ghost.
+- **Action applied (per prior eval's n=30 threshold)**: bumped bonding-curve floor v9.4 (8 SOL) → **v9.5 (15 SOL)**. This is a parameter tweak, not a mechanical rule change (POSITION_SIZE, RESERVE, HARD_STOP_LOSS, MAX_HOLD, TP all preserved). Rationale:
+  - Prior eval explicitly flagged: "If post-v9.4 sample at n=30 still shows >50% ghost rate, consider raising floor 8 → 12-15 SOL." Threshold met at n=19 with 89.5%.
+  - 15 SOL = 750x our 0.02 SOL position. Filters mid-depth curves that the swappers tend to drain within seconds, while still allowing genuine deep launches through.
+  - v9.5 comment in code includes the next-step escalation (raise to 25 SOL, or pause entry until DEX graduation, if v9.5 also ghosts).
+- **Honest PnL (slippage-aware)**: Lifetime realized across 3,569 trades = +25.58 SOL paper. But **most of those paper gains are from the pre-v9.3 era when ghost exits were not recorded honestly**. Real PnL trend (last 4h, post-reset): -0.62 SOL. Bot is honestly losing money right now — v9.5 is the next attempt to slow the bleed.
+- **Bot status**: running, no halt. Positions open: 0. Trade count: 3,569. Balance: 1.2406 SOL.

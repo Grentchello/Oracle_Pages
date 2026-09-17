@@ -595,10 +595,11 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         log(f"v8.8: filtered {filtered_count}/{pre_filter_count} candidates (already pumped)")
     candidates = candidates_filtered  # FIX: persist v8.8 filter
     
-    # v9.4 LIQUIDITY FLOOR: Allow bonding curve, but require real_sol_reserves >= 8 SOL (~$840)
-    # v9.2 used >=3 SOL but 23/27 last trades were GHOST exits — bonding curves drained
-    # between entry and exit <60s later. 8 SOL real depth = 400x our 0.02 SOL position,
-    # which should provide real exit liquidity even if curve drains 95% before our sell.
+    # v9.5 LIQUIDITY FLOOR: Allow bonding curve, but require real_sol_reserves >= 15 SOL (~$1575)
+    # v9.4 used >=8 SOL but 17/19 trades in the 2h window (89.5%) were GHOST exits —
+    # even 8 SOL deep curves drain to <2 SOL within seconds on pump.fun launches.
+    # 15 SOL real depth = 750x our 0.02 SOL position; if this still ghosts >50% of trades,
+    # consider raising to 25 SOL or pausing entry entirely until graduation (DEX pool).
     liq_filtered = 0
     candidates_liq = []
     for c in candidates:
@@ -606,13 +607,12 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         real_sol = _to_float(c.get("real_sol_reserves", 0)) or 0
         is_bonding = c.get("complete", True) is False or c.get("bonding_progress", 100) < 100
 
-        # If bonding curve: require >=8 SOL of real reserves
-        # 8 SOL = 400x our 0.02 SOL position. Should give meaningful exit liquidity
-        # even on rug-style drain curves where 90%+ liquidity leaves in <60s.
+        # If bonding curve: require >=15 SOL of real reserves
+        # 15 SOL = 750x our 0.02 SOL position. Filters out the rug-prone mid-depth curves.
         if is_bonding:
-            if real_sol < 8.0:
+            if real_sol < 15.0:
                 liq_filtered += 1
-                log(f"v9.4 FILTER: ${c.get('symbol')} rejected — bonding curve only {real_sol:.2f} SOL reserves (< 8.0)")
+                log(f"v9.5 FILTER: ${c.get('symbol')} rejected — bonding curve only {real_sol:.2f} SOL reserves (< 15.0)")
                 continue
             # OK: bonding curve with enough real SOL
         else:
