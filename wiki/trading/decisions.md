@@ -26035,3 +26035,102 @@
 ## [2026-09-17 02:22 UTC] observe | LLM call failed: could not parse JSON
 - **Reasoning:** bot cannot decide, holding positions
 
+## [2026-09-17 02:36 UTC] buy | [LLM] $T3TRIS at $4.057e-06, spent 0.02 SOL
+- **Reasoning:** T3TRIS is a Tetris-themed memecoin launching in the attention window with an active X account (0xt3tris) and 'Finance, Block by Block.' narrative — gaming+finance crossover has meme potential. Sub-$6k mcap with bond not yet complete = early attention stage. Risk: brand-new mint, thin liquidity, but that's where memecoin alpha lives.
+
+## [2026-09-17 02:37 UTC] sell | [v8.7 TP +50% (full)] $T3TRIS at $0.000149791 | P&L: -100.0%
+- **Reasoning:** Auto take-profit at +3592.2%
+
+## [2026-09-17 02:38 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 02:43 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 02:44 UTC] buy | [LLM] $ASH at $7.47899e-06, spent 0.02 SOL
+- **Reasoning:** $ASH is a brand-new launch (~30s old, $7.5k mcap, 28% bonded) — exactly the fresh-attention setup. At 0.5min old there is no narrative confirmation yet and no social signal beyond the name, but the prompt explicitly says: don't wait for confirmation, attention markets reward early entries on story-able names. Position0.02 SOL = ~0.5% of mcap, well within liquidity tolerance. Tight -30% hard stop +30min stale exit is the safety net. If the name catches on in the first few minutes I'll rotate into the next runner; if it dies I take the small loss. Will skip further buys today if this prints -20%.
+
+## [2026-09-17 02:45 UTC] sell | [rapid-drop] $ASH crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-17 02:45 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 02:46 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 02:47 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 02:50 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 02:56 UTC] buy | [LLM] $PEPE at $9.52835e-06, spent 0.02 SOL
+- **Reasoning:** $PEPE with Matt Furie twitter handle is the strongest narrative on the board — creator of Pepe the Frog getting his own coin has clear viral/justice angle, sub-$10k mcap with $32% bond filling fast, this is the kind of story that 10x's on attention.
+
+## [2026-09-17 02:57 UTC] sell | [rapid-drop] $PEPE crashed >15% in one tick | P&L: -100.0%
+- **Reasoning:** Rapid drop detector (rug/snipe)
+
+## [2026-09-17 03:03 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 03:04 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 03:18 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 03:20 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 03:21 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 03:24 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 03:27 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 03:39 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 03:41 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 03:44 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 03:48 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 03:52 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 03:54 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 04:00 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 04:03 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 04:04 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 04:07 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 04:08 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 04:19 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 04:20 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
+## [2026-09-17 04:25 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
