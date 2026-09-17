@@ -1088,3 +1088,15 @@ Bot is now in a stable state. v9.1 filters letting real-SOL tokens through, GMGN
 - **What I'd recommend to Grant (not applied here per "Do NOT halt" + "only tweak params if needed" scope)**: investigate why the runner died. Likely candidates: (a) container restart without systemd unit for the bot, (b) unhandled exception in bot.py main loop, (c) OOM kill. Check `dmesg | tail -50` and look for whether there's a `start_bot.sh` or systemd unit that should be running it. Bot needs to be running for any parameter tweak to have effect.
 - **Next eval triggers (unchanged from prior)**: if bot is restarted AND n_post_v9.5 ≥ 10 AND ghost rate > 50%, escalate v9.5 → v9.6 (25 SOL floor) OR pause entries until DEX graduation. Do not flip this trigger on n<10.
 - **Bot status**: NOT RUNNING (no PID found). Trade count: 3,572. Balance: 1.1806 SOL. No positions.
+
+## [2026-09-17 08:38 UTC] eval | bot re-evaluation
+- trades since session start: 3572 (last 500: +20.49 SOL, 36.4% WR)
+- cumulative pnl_sol: +25.525 SOL (nominal)
+- realized balance: 1.180566 SOL — slippage has eaten nearly all nominal gains
+- TP wins (sell_half): 543 trades, +6.812 SOL nominal
+- override wins (sell_all ≥50%): 93 trades, +2.552 SOL nominal
+- rapid losses (≤-50%): 498 trades, -16.668 SOL nominal
+- other losses (>-50%): 1457 trades, -11.577 SOL nominal
+- last trade: 2026-09-17 02:57 UTC (5.7h idle, no open positions)
+- bot currently idle: every buy blocked by RESERVE_SOL=0.02 floor at 0.02 SOL position size
+- finding: nominal profit is a lie; wallet balance is the truth. slippage on small-cap memecoins means paper pnl diverges from realized. decision: no parameter tweaks this run — mechanical rules intact (v8.7+), bot blocked by reserve floor not strategy. next eval at +2h.
