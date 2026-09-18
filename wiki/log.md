@@ -184,3 +184,11 @@
 - **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains in effect. bot.py unchanged. Same diagnosis as the 9 prior evals in this window — pump.fun bonding-curve sniper drain cannot be fixed by parameter tweaks within the v8.7+ mechanical-rule constraint. Lifting the pause would resume the -0.88 SOL/day bleed.
 - **Carrying forward to next eval (~23:17 UTC)**: structural fix (DEX-only entry / depth-trend filter / graduated Raydium pool) still pending Grant — out of cron scope. The honest single-param answer remains "stay paused".
 - **Bot status**: running, no halt. Solana runner PID 507 alive. Base runner PID 294355 alive. bot.py unchanged. Trade count: 3,574. Balance: 1.140566 SOL. Open positions: 0.
+
+## [2026-09-18 23:18 UTC] eval | 2h cron auto-eval (window: Sep 18 21:17 → 23:18 UTC)
+- **Window since last eval (~2h)**: **0 new trades** (3,574 → 3,574). 12th consecutive 2h zero-trade window. EXPECTED — PAUSE_NEW_ENTRIES=True (set Sep 18 09:08 UTC) still in effect. bot.py PID 1088434 active since 23:18 UTC (re-launch of bot.py main loop). state.json unchanged.
+- **Cumulative since 2026-09-15 reset window**: 55 trades, sum(pnl_sol)=-0.8794 SOL, 87.3% ghost rate. UNCHANGED from prior evals.
+- **Lifetime (state.json)**: 3,574 trades, 1,617 wins / 1,866 losses (45.2% WR), reported sum(pnl_sol) **+25.485 SOL** (paper-only; inflated by slippage simulation gap). Real on-balance-sheet: **1.140566 SOL** (started 2.0 = -43.0% realized).
+- **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains in effect. bot.py unchanged (last edit Sep 18 09:09, before pause was set). Same diagnosis as 10 prior evals — pump.fun bonding-curve sniper drain cannot be fixed by parameter tweaks within the v8.7+ mechanical-rule constraint. Lifting pause would resume -0.88 SOL/day bleed.
+- **Carrying forward to next eval (~01:18 UTC)**: structural fix (DEX-only entry / depth-trend filter / graduated Raydium pool) still pending Grant — out of cron scope. Honest single-param answer remains "stay paused".
+- **Bot status**: running, no halt. Solana runner PID 507 alive. Base runner PID 294355 alive. bot.py PID 1088434 just relaunched at 23:18 UTC. Trade count: 3,574. Balance: 1.140566 SOL. Open positions: 0.
