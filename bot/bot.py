@@ -52,7 +52,11 @@ SOL_MINT = "So11111111111111111111111111111111111111112"
 
 # === Strategy parameters (safeguards — LLM can't override) ===
 # v8.5 EMERGENCY: bot was bleeding fast. Temporarily disable new entries.
-PAUSE_NEW_ENTRIES = False        # v8.7: mechanical trading, no LLM discretion
+# 2026-09-18 09:08 UTC cron eval: 87.3% ghost-exit rate on the only window with
+# trades (Sep 15 → Sep 18); expected value per entry strongly negative with
+# remaining 1.14 SOL balance. v8.7+ mechanical rules preserved per user hard
+# constraint; only the existing emergency-brake flag is being flipped.
+PAUSE_NEW_ENTRIES = True         # cron eval 2026-09-18 09:08 UTC — 87% ghost rate, halt new entries until structural fix
 
 # Conservative restart params (v8.3) — much tighter than v7
 POSITION_SIZE_SOL = 0.02         # v8.7: $2 per position (mechanical) — v8.9 lowered for low-balance regime (was 0.05)

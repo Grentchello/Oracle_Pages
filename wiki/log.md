@@ -111,3 +111,27 @@
 - **Honest slippage note**: v9.3 honesty layer is now factored into state.json. Bot is "profitable in sim, not trading in reality right now." The two are separate problems and both are stable.
 - **Next eval trigger**: same as prior evals. If ≥1 trade fires in next window, evaluate ghost rate. If still 0 trades, the structural-fix recommendation (DEX-only entry, or depth-trend filter that re-measures reserves at buy time and rejects if depth has dropped >50% in last 60s) stands and waits for Grant.
 - **Bot status**: running, no halt. Solana runner PID 507 alive. bot.py unchanged this eval (no parameter tweak applied because none within scope is honest).
+
+
+## [2026-09-18 09:08 UTC] eval | 2h cron auto-eval (window: Sep 18 07:07 → 09:08 UTC + cumulative since Sep 15 reset)
+- **Window since last eval (~2h)**: 2 new trades, both GHOST exits (Sep 18 07:55 POG, 08:03 ape), -0.04 SOL. Trade count 3,572 → 3,574.
+- **Cumulative since 2026-09-15 reset window** (the meaningful window — bot has been mostly idle since Sep 17 02:45):
+  - 55 trades since Sep 15, sum(pnl_sol) = **-0.8794 SOL**.
+  - **GHOST rate in this window: 48/55 = 87.3%**. 392 lifetime GHOST (11.0%).
+  - Hour-binned trade activity: cluster Sep 16 14-16 (27 trades), cluster Sep 17 00-02 (25 trades), 29-hour gap Sep 17 02:45 → Sep 18 07:55, then 2 single trades.
+- **Lifetime honest read** (per Grant's "are we ACTUALLY profitable" pattern):
+  - Starting balance: 2.0 SOL. Current balance: 1.140566 SOL. **Realized PnL: -0.8594 SOL (-43.0%)**.
+  - Reported sum(pnl_sol): +25.485 SOL (3,574 trades, 45.2% WR) — paper-only, dominated by pre-v9.3 mid-price sim with no slippage modeled.
+  - Gap (paper -0.86 actual vs reported +25.49) = ~26 SOL phantom profit that would not survive real exits.
+- **Category breakdown (lifetime)**: tp_win 1,071 trades (+46.95 SOL), partial_tp 556 (+6.75), other_loss 1,677 (-19.71), rapid_loss 164 (-5.05), ghost_rug 91 (-2.87), override 11 (-0.56). The "ghost_rug" category is the v9.3 honesty layer — it correctly records 0 SOL received when pool=0 at exit time.
+- **Root cause**: pump.fun bonding-curve sniper drain (curves pass the depth check at scan time but are <2 SOL by the time bot tries to sell). v9.3 honesty layer means we now correctly log 0 SOL on these drains — they used to be paper-gains. Age-filter tightening has not solved this: v8.9 oscillated 0.5→3→2 min across Sep 17 evals with 0 post-deploy sample trades in each window. v9.4 SOL floor oscillated 3→8→5→3 SOL with same outcome. **No parameter within scope (age, liquidity floor, mechanical rules which are DO-NOT-CHANGE) reliably prevents the sniper drain.**
+- **Decision: ONE minimal fix — set PAUSE_NEW_ENTRIES = True** (v8.5 emergency brake; not a v8.7 mechanical rule, just the existing flag).
+  - Rationale: with 87.3% GHOST rate on the only window that had any trades, expected value per new entry = 0.127 × E[gain] − 0.873 × 0.02 SOL position-size. E[gain] from same window ≈ small. Expected value is strongly negative. Continuing to trade at 87% ghost rate burns the remaining 1.14 SOL at ~-0.017 SOL/trade expected. PAUSE_NEW_ENTRIES stops that bleed without halting the bot (process still runs, log/tick/output/git push continues).
+  - This is the same v8.5 emergency mode already in the code; flipping the flag does not touch any v8.7 mechanical rule.
+  - Not setting it would mean either (a) repeating the same oscillating parameter tweaks that have produced 0 post-deploy trades for 6 windows in a row, or (b) pretending the bot is profitable when real balance is down 43%. Both dishonest.
+- **What this does NOT solve**: the structural sniper-drain problem. PAUSE_NEW_ENTRIES stops new losses but does not generate new gains. The structural fix (DEX-only entry, depth-trend filter that re-measures reserves at buy time, or graduated Raydium pool entry) is out of cron scope and waits for Grant's structural decision.
+- **Next eval triggers** (carrying forward):
+  - With PAUSE_NEW_ENTRIES = True, 0 new trades is now EXPECTED (not a failure mode). Eval logic should pivot from "did anything fire?" to "is balance steady and bot process healthy?"
+  - If Grant sets PAUSE_NEW_ENTRIES = False again, this eval escalates: structural fix needed before further automatic trading.
+  - If PAUSE_NEW_ENTRIES stays True and balance holds, the right next move is to fix the underlying sniper-drain problem (DEX-only entry or depth-trend filter) under Grant's direction, not to flip the flag back without structural change.
+- **Bot status**: running, no halt. Solana runner PID 507 alive since Sep 15. bot.py will be edited (PAUSE_NEW_ENTRIES flag flip) and pushed. Base runner PID 294355 alive. Trade count: 3,574. Balance: 1.140566 SOL. Open positions: 0.
