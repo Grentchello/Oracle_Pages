@@ -143,6 +143,13 @@
   - If PAUSE_NEW_ENTRIES stays True and balance holds, the right next move is to fix the underlying sniper-drain problem (DEX-only entry or depth-trend filter) under Grant's direction, not to flip the flag back without structural change.
 - **Bot status**: running, no halt. Solana runner PID 507 alive since Sep 15. bot.py will be edited (PAUSE_NEW_ENTRIES flag flip) and pushed. Base runner PID 294355 alive. Trade count: 3,574. Balance: 1.140566 SOL. Open positions: 0.
 
+## [2026-09-18 15:13 UTC] eval | 2h cron auto-eval (window: Sep 18 13:11 → 15:13 UTC)
+- **Window since last eval (~2h)**: **0 new trades** (3,574 → 3,574). 8th consecutive 2h zero-trade window. EXPECTED — PAUSE_NEW_ENTRIES=True (set 09:08 UTC) means zero trades is the correct outcome, not a failure mode. Bot runner PID 507 alive, ticking every 60s. state.json mtime 15:13 UTC (fresh tick).
+- **Cumulative since 2026-09-15 reset window**: 55 trades, sum(pnl_sol)=-0.8794 SOL, 87.3% ghost rate. UNCHANGED from prior evals (no new trades).
+- **Lifetime**: 3,574 trades, balance 1.140566 SOL (started 2.0 SOL = -43% realized). Reported sum(pnl_sol) +25.485 SOL is paper-only / slippage-simulated per v9.3 honesty layer — real on-balance-sheet is -0.86 SOL.
+- **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains correct. Honest parameter-tweak scope was exhausted across the prior 8 evals — every v8.9 age / v9.4 SOL floor oscillation produced 0 post-deploy samples. Structural fix (DEX-only entry, depth-trend filter, graduated Raydium pool entry) is pending Grant's direction and is out of cron scope.
+- **Bot status**: running, no halt. Solana runner PID 507 alive. Base runner PID 294355 alive. bot.py unchanged this eval. Trade count: 3,574. Balance: 1.140566 SOL. Open positions: 0.
+
 ## [2026-09-18 13:11 UTC] eval | 2h cron auto-eval (window: Sep 18 11:11 → 13:11 UTC)
 - **Window since last eval (~2h)**: **0 new trades** (3,574 → 3,574). 7th consecutive 2h zero-trade window. Expected — PAUSE_NEW_ENTRIES=True remains in effect from Sep 18 09:08 eval (87% ghost rate). Bot runner PID 507 still ticking every 60s, log/tick/output/git push continues. State.json mtime 13:12 UTC (fresh tick).
 - **Cumulative since 2026-09-15 reset**: 55 trades, sum(pnl_sol)=-0.8794 SOL, 87.3% ghost rate. UNCHANGED from 09:08 eval (no new trades).
