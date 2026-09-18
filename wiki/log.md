@@ -113,6 +113,13 @@
 - **Bot status**: running, no halt. Solana runner PID 507 alive. bot.py unchanged this eval (no parameter tweak applied because none within scope is honest).
 
 
+## [2026-09-18 11:11 UTC] eval | 2h cron auto-eval (window: Sep 18 09:08 → 11:11 UTC)
+- **Window since last eval (~2h)**: **0 new trades** (3,574 → 3,574). Expected — PAUSE_NEW_ENTRIES=True since 09:08. Bot runner PID 507 still ticking every 60s, log/tick/output/git push continues normally. State.json mtime 11:10 UTC (fresh).
+- **Cumulative since 2026-09-15 reset**: 55 trades, sum(pnl_sol)=-0.8794 SOL, 87.3% ghost rate. UNCHANGED from 09:08 eval (no new trades since pause applied).
+- **Lifetime honest read**: starting 2.0 SOL → current 1.140566 SOL = -0.8594 SOL realized (-43.0%). Reported sum(pnl_sol) headline +25.485 SOL is paper-only, dominated by pre-v9.3 mid-price sim. The 26 SOL gap = phantom profit that would not survive real exits (per the user-stated "slippage simulation gap" warning).
+- **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True is the correct state given 87% ghost rate and structural sniper-drain problem (out of cron scope). Anything else within scope (v8.9 age, v9.4 SOL floor) has been exhausted honestly across prior 8 evals. Continuing to oscillate parameters while paused is wasteful. The structural fix (DEX-only entry / depth-trend filter at buy time) waits for Grant's input.
+- **Bot status**: running, no halt. Solana runner PID 507 alive. bot.py unchanged. Trade count: 3,574. Balance: 1.140566 SOL. Open positions: 0.
+
 ## [2026-09-18 09:08 UTC] eval | 2h cron auto-eval (window: Sep 18 07:07 → 09:08 UTC + cumulative since Sep 15 reset)
 - **Window since last eval (~2h)**: 2 new trades, both GHOST exits (Sep 18 07:55 POG, 08:03 ape), -0.04 SOL. Trade count 3,572 → 3,574.
 - **Cumulative since 2026-09-15 reset window** (the meaningful window — bot has been mostly idle since Sep 17 02:45):
