@@ -608,12 +608,15 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
         real_sol = _to_float(c.get("real_sol_reserves", 0)) or 0
         is_bonding = c.get("complete", True) is False or c.get("bonding_progress", 100) < 100
 
-        # If bonding curve: require >=8 SOL of real reserves (v9.4 floor)
-        # 8 SOL = 400x our 0.02 SOL position.
+        # If bonding curve: require >=3 SOL of real reserves (v9.4 floor)
+        # Eased 5→3 SOL at cron eval 2026-09-18 01:02 UTC: 0 trades in 2h post-v9.4 5-SOL
+        # window meant the combined stack (v8.9 age 2min + v9.4 5SOL + v9.1 DEX $1k) was
+        # still over-blocking. Per 23:01 UTC eval pre-commit, escalating single-param.
+        # Mechanical rules (v8.7) preserved per user hard constraint.
         if is_bonding:
-            if real_sol < 5.0:
+            if real_sol < 3.0:
                 liq_filtered += 1
-                log(f"v9.4 FILTER: ${c.get('symbol')} rejected — bonding curve only {real_sol:.2f} SOL reserves (< 5.0)")
+                log(f"v9.4 FILTER: ${c.get('symbol')} rejected — bonding curve only {real_sol:.2f} SOL reserves (< 3.0)")
                 continue
             # OK: bonding curve with enough real SOL
         else:
