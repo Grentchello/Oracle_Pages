@@ -2,36 +2,7 @@
   "balance_sol": 1.160566,
   "balance_usd_estimate": null,
   "starting_balance_usd": null,
-  "positions": {
-    "CP8E7siuE33M9jY9JPjgPxNSknUEyoDg5aGj1Vfbpump": {
-      "symbol": "POG",
-      "name": "Pumpdog",
-      "mint": "CP8E7siuE33M9jY9JPjgPxNSknUEyoDg5aGj1Vfbpump",
-      "amount": 372098.72221249784,
-      "entry_price_usd": 5.713e-06,
-      "entry_sol_spent": 0.02,
-      "entry_time": "2026-09-18T07:54:51.380708+00:00",
-      "entry_time_iso": "2026-09-18T07:54:51.380716+00:00",
-      "entry_usd_value": 2.1258000000000004,
-      "last_seen_price_usd": 5.713e-06,
-      "entry_liquidity_usd": 20003.037350234583,
-      "entry_pool_sol": 188.193031802,
-      "entry_market_cap_usd": 5623.338019684618,
-      "entry_signals": {
-        "liquidity_usd": 20003.037350234583,
-        "volume_24h_usd": 952.66,
-        "market_cap_usd": 5623.338019684618,
-        "ath_market_cap_usd": 5719.339441676832,
-        "volatility_score": null,
-        "boost_mode": "NONE",
-        "real_sol_reserves": 188.193031802,
-        "description": "Pumpfun gave us artwork for a @Pumpfun dog. This is the only dog or cat that Pumpfun has made the artwork for itself. Paired with $PUMP and $PUMP rewards",
-        "twitter": "https://x.com/Pumpfun/status/1972762611398877515",
-        "source_endpoint": "new-launches"
-      },
-      "llm_entry": true
-    }
-  },
+  "positions": {},
   "trades": [
     {
       "mint": "5UzV8kS6HwNW1ajQMSZ6EfyY2dSe2jb1srj8c6P4pump",
@@ -63806,25 +63777,38 @@
       "hold_duration_seconds": 61.875282,
       "partial": false,
       "ghost_exit": true
+    },
+    {
+      "mint": "CP8E7siuE33M9jY9JPjgPxNSknUEyoDg5aGj1Vfbpump",
+      "symbol": "POG",
+      "name": "Pumpdog",
+      "amount_sold": 372098.72221249784,
+      "fraction_sold": 1.0,
+      "entry_time": "2026-09-18T07:54:51.380708+00:00",
+      "entry_time_iso": "2026-09-18T07:54:51.380716+00:00",
+      "exit_time": "2026-09-18T07:55:58.648315+00:00",
+      "exit_time_iso": "2026-09-18T07:55:58.648321+00:00",
+      "entry_price_usd": 5.713e-06,
+      "exit_price_usd": 0.0,
+      "entry_sol_for_chunk": 0.02,
+      "exit_sol_received": 0.0,
+      "pnl_sol": -0.02,
+      "pnl_pct": -100.0,
+      "exit_reason": "[GHOST] auto-v8.7 TP +50% (full) — no real exit liquidity",
+      "entry_liquidity_usd": 20003.037350234583,
+      "exit_liquidity_usd": 0.0,
+      "entry_pool_sol": 188.193031802,
+      "exit_pool_sol": 0.0,
+      "hold_duration_seconds": 67.267623,
+      "partial": false,
+      "ghost_exit": true
     }
   ],
-  "last_updated": "2026-09-18T07:54:51.380879+00:00",
+  "last_updated": "2026-09-18T07:56:16.533023+00:00",
   "bot_version": "0.1.0-foundation",
-  "last_sol_price_usd": 106.29,
-  "portfolio_value_usd": 125.48,
+  "last_sol_price_usd": 105.7,
+  "portfolio_value_usd": 122.67,
   "recent_decisions": [
-    {
-      "time": "2026-09-18 06:45 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
-    {
-      "time": "2026-09-18 06:46 UTC",
-      "action": "observe",
-      "details": "LLM call failed: could not parse JSON",
-      "reason": "bot cannot decide, holding positions"
-    },
     {
       "time": "2026-09-18 06:47 UTC",
       "action": "observe",
@@ -63932,6 +63916,18 @@
       "action": "buy",
       "details": "[LLM] $POG at $5.713e-06, spent 0.02 SOL",
       "reason": "$POG is Pumpfun's officially-artworked dog — the platform itself is amplifying the narrative via the @Pumpfun tweet, which is rare first-party attention. Fresh 2min launch with $5.6k mcap gives room to ride the curve; viability gate passes (132-char desc + official twitter). Sizing 0.02 SOL per rules; -25% hard stop auto-handles the rug risk."
+    },
+    {
+      "time": "2026-09-18 07:55 UTC",
+      "action": "sell",
+      "details": "[v8.7 TP +50% (full)] $POG at $0.000144696 | P&L: -100.0%",
+      "reason": "Auto take-profit at +2432.8%"
+    },
+    {
+      "time": "2026-09-18 07:56 UTC",
+      "action": "observe",
+      "details": "LLM call failed: could not parse JSON",
+      "reason": "bot cannot decide, holding positions"
     }
   ],
   "trade_stats": {
@@ -63953,9 +63949,21 @@
       "note": "ready for analysis"
     }
   },
-  "last_llm_brief_at": "2026-09-18T07:54:49.964026+00:00",
+  "last_llm_brief_at": "2026-09-18T07:56:16.532728+00:00",
   "starting_balance_sol": 2.0,
-  "held_prices": {},
+  "held_prices": {
+    "CP8E7siuE33M9jY9JPjgPxNSknUEyoDg5aGj1Vfbpump": {
+      "price_usd": 0.00014469629312325655,
+      "change_h24": 0,
+      "change_h1": 0,
+      "liquidity_usd": 22482.4213240893,
+      "volume_h24": 1027.42,
+      "dex_id": "pumpfun",
+      "source": "bonding-curve",
+      "complete": false,
+      "real_sol_reserves": 212.700296349
+    }
+  },
   "_daily_pnl_reset": "manually reset to test bot",
   "today_pnl_sol": 0.0,
   "reserve_sol": 0.05,

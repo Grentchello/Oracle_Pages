@@ -27340,3 +27340,9 @@
 ## [2026-09-18 07:54 UTC] buy | [LLM] $POG at $5.713e-06, spent 0.02 SOL
 - **Reasoning:** $POG is Pumpfun's officially-artworked dog — the platform itself is amplifying the narrative via the @Pumpfun tweet, which is rare first-party attention. Fresh 2min launch with $5.6k mcap gives room to ride the curve; viability gate passes (132-char desc + official twitter). Sizing 0.02 SOL per rules; -25% hard stop auto-handles the rug risk.
 
+## [2026-09-18 07:55 UTC] sell | [v8.7 TP +50% (full)] $POG at $0.000144696 | P&L: -100.0%
+- **Reasoning:** Auto take-profit at +2432.8%
+
+## [2026-09-18 07:56 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
