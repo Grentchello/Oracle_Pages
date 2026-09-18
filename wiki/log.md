@@ -156,3 +156,9 @@
 - **Lifetime (state.json)**: 3,574 trades, 1,484 wins / 1,766 losses / 324 flat (45.7% win-rate, +25.48 SOL gross PnL but only 1.14 SOL on-balance-sheet — see prior evals for the slippage/sniper-drain reconciliation).
 - **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains correct. Holding pattern continues — structural fix (DEX-only entry / depth-trend filter) still waiting on Grant's input per Sep 18 03:04 eval escalation. Bot is healthy and paused; no parameter tweak would be honest.
 - **Bot status**: running, no halt. Solana runner PID 507 alive since Sep 15. bot.py unchanged this eval. Trade count: 3,574. Balance: 1.140566 SOL. Open positions: 0.
+
+## [2026-09-18 17:14 UTC] eval | 2h cron auto-eval (window: Sep 18 15:13 → 17:14 UTC)
+- **Window since last eval (~2h)**: **0 new trades** (3,574 → 3,574). 9th consecutive 2h zero-trade window. EXPECTED — PAUSE_NEW_ENTRIES=True (set 09:08 UTC) remains in effect. Bot runner PID 507 alive (3d 9h elapsed), ticking every 60s. state.json mtime fresh.
+- **Cumulative since 2026-09-15 reset window**: 55 trades, sum(pnl_sol)=-0.8794 SOL, 87.3% ghost rate. UNCHANGED from prior evals (no new trades).
+- **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains correct. Bot healthy, paused, no halt. Structural fix (DEX-only entry / depth-trend filter / graduated Raydium pool) pending Grant's direction — out of cron scope. No honest parameter tweak available within mechanical-rule constraint.
+- **Bot status**: running, no halt. Solana runner PID 507 alive. bot.py unchanged. Trade count: 3,574. Balance: 1.140566 SOL. Open positions: 0.
