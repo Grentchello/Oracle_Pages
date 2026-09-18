@@ -27352,3 +27352,6 @@
 ## [2026-09-18 08:03 UTC] sell | [FULL][LLM] $ape at $1.09523e-05 | P&L: -100.0%
 - **Reasoning:** Up +38.7% in<1h on a $2,933 pool — bonding-curve graduation or first sell wave will likely retrace 20-40%. Locking the gain and freeing the slot for a fresh launch with more attention runway.
 
+## [2026-09-18 08:04 UTC] observe | LLM call failed: could not parse JSON
+- **Reasoning:** bot cannot decide, holding positions
+
