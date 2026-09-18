@@ -27349,3 +27349,6 @@
 ## [2026-09-18 08:01 UTC] buy | [LLM] $ape at $7.896e-06, spent 0.02 SOL
 - **Reasoning:** Fresh 2.7min launch at $9.2k mcap with an X account attached - ape-themed name rides the classic degen meta, ultra-low mcap = asymmetric upside if it catches. Small size (0.02 SOL) limits downside on what is fundamentally a lottery ticket.
 
+## [2026-09-18 08:03 UTC] sell | [FULL][LLM] $ape at $1.09523e-05 | P&L: -100.0%
+- **Reasoning:** Up +38.7% in<1h on a $2,933 pool — bonding-curve graduation or first sell wave will likely retrace 20-40%. Locking the gain and freeing the slot for a fresh launch with more attention runway.
+
