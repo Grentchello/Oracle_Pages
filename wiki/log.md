@@ -55,3 +55,21 @@
 - **Honest slippage note**: lifetime +25.5 SOL headline remains paper PnL. We are not currently realizing any trades, so the slippage-conversion question is moot for this window — the binding constraint is filter reach, not exit quality.
 - **Next eval trigger**: if v9.4 3-SOL window produces ≥10 trades AND ghost rate > 50%, escalate v8.9 age from 2 → 5 min (deeper sniper protection). If ≥10 trades AND ghost rate < 50%, hold the combination. If still 0 trades at next eval, the filter stack has hit a true market-low-liquidity regime — escalate to a structural change (DEX-only entry, or depth-trend filter) which will require a code change beyond this cron eval's parameter-only scope.
 - **Bot status**: running, no halt. Solana runner PID 507 alive. bot.py v9.4 floor updated 5 → 3 SOL. Edits take effect on next tick.
+
+## [2026-09-18 03:04 UTC] eval | 2h cron auto-eval (window: Sep 18 01:02 → 03:04 UTC)
+- **Window since last eval (~2h)**: **0 new trades** (3,572 → 3,572). Bot alive, runner PID 507 ticking every 60s. State.json mtime fresh.
+- **Balance**: 1.180566 SOL, unchanged since last eval (no realized PnL — 0 sells in window). Down -0.8194 SOL (-41.0%) since Sep 16 14:11 reset.
+- **Filter activity (window)**: combined v9.4 (3 SOL) + v9.1 (DEX $1k) + v8.9 (2 min age) + v9.2 (8 SOL curve) + GMGN fragility gate is still over-blocking. Recent ticks show "filtered 15-19/25 candidates (insufficient liquidity)" + "v8.9 AGE FILTER" rejections + "Buy blocked: would breach reserve" lines — the filter stack is the binding constraint, not position sizing.
+- **Window since v9.4 3-SOL ease at 01:02 UTC (~2h)**: **0 trades**. This is the **fourth consecutive 2h window with zero trades** (Sep 17 18:56, 20:57, 23:01, Sep 18 01:02, 03:04).
+- **DECISION — NO PARAMETER CHANGES THIS RUN**. Rationale:
+  1. The 01:02 UTC eval pre-committed: "if v9.4 3-SOL window produces ≥10 trades AND ghost rate > 50%, escalate v8.9 age from 2 → 5 min" OR "if ≥10 trades AND ghost rate < 50%, hold the combination" OR "if still 0 trades at next eval, escalate to a structural change (DEX-only entry, or depth-trend filter) which will require a code change beyond this cron eval's parameter-only scope." The third condition is now triggered.
+  2. Within parameter-tweak scope, no further easing is honest:
+     - v9.4 below 3 SOL would re-admit sniper-drain curves that v9.3 honesty exposes as ghost exits (the original problem).
+     - v8.9 age below 2 min would re-admit the 30-90s sniper window that prior evals identified as the worst bleeding zone (89/200 ghost rate at 30-90s).
+     - v9.1 DEX $1k floor cannot be lowered meaningfully without admitting thin-pool rugs.
+     - v8.7 mechanical rules (POSITION_SIZE_SOL=0.02, RESERVE_SOL=0.02, HARD_STOP_LOSS=-25%, MAX_HOLD=30min, TP+50% auto-full, MAX_POSITIONS=1) are explicitly DO NOT CHANGE per session instructions.
+  3. The fix that would actually move throughput requires a structural change (DEX-only entry gate, or a depth-trend filter that compares entry-time vs sustained depth). This is a code change, beyond the cron eval's parameter-only scope per the task prompt.
+- **Honest slippage note**: lifetime +25.5 SOL headline remains paper PnL (pre-v9.3 honesty). With 0 realized trades in the last 4 evals, the slippage-conversion question is moot — binding constraint is filter reach, not exit quality. Bot is "running but not trading," which is honest but unprofitable.
+- **Recommended next-step for Grant** (out of cron scope): one of — (a) authorize a structural change (DEX-only entry, or depth-trend filter that re-measures reserves at buy time and rejects if depth has dropped >50% in last 60s), (b) accept that the current market regime is too thin for this bot's risk envelope and pause until liquidity returns, or (c) reset starting balance to a fresh baseline so the -41% since reset isn't an overhang on every eval.
+- **Next eval trigger**: still 0 trades at next 2h window → escalate to (a) above, or per Grant's call.
+- **Bot status**: running, no halt. Solana runner PID 507 alive. bot.py unchanged this eval (no parameter tweak applied because none within scope is honest).
