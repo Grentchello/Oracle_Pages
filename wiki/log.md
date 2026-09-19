@@ -247,3 +247,10 @@
 - **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains in effect. bot.py unchanged (mtime preserved — no parameter tweaks applied this eval). Same diagnosis as 17 prior evals — pump.fun bonding-curve sniper drain cannot be fixed by parameter tweaks within the v8.7+ mechanical-rule constraint. Lifting pause would resume the -0.88 SOL/day bleed on the remaining 1.14 SOL.
 - **Carrying forward to next eval (~13:56 UTC)**: structural fix (DEX-only entry / depth-trend filter / graduated Raydium pool) still pending Grant — out of cron scope. Honest single-param answer remains "stay paused".
 - **Bot status**: running, no halt. Solana runner PID 1195500 alive. bot.py PID 1246946 alive. Base runner PID 294355 alive. Trade count: 3,574. Balance: 1.140566 SOL. Open positions: 0.
+
+## [2026-09-19 13:57 UTC] eval | 2h cron auto-eval (window: Sep 19 11:56 → 13:57 UTC)
+- **Window since last eval (~2h)**: **0 new trades** (3,574 → 3,574). 19th consecutive 2h zero-trade window. EXPECTED — PAUSE_NEW_ENTRIES=True (set Sep 18 09:08 UTC) still in effect at bot.py line 59. Solana runner PID alive, state.json mtime fresh (13:56 UTC), bot actively ticking.
+- **Cumulative since 2026-09-15 reset window**: 55 trades, sum(pnl_sol)=-0.8794 SOL, 9.1% WR (5W/55L). UNCHANGED from 18 prior evals. Pause is holding, no new losses.
+- **Honest read**: balance 1.140566 SOL (down from 2.0 reset = -0.86 SOL realized since Sep 15). All-time paper PnL +25.49 SOL remains heavily inflated by slippage sim gap per Sep 18 reset analysis.
+- **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains in effect. bot.py unchanged. Same diagnosis as 18 prior evals — pump.fun bonding-curve sniper drain cannot be fixed by parameter tweaks within the v8.7+ mechanical-rule constraint (forbidden by cron instructions). Lifting pause would resume the -0.88 SOL/day bleed on the remaining 1.14 SOL.
+- **Carrying forward to next eval (~15:57 UTC)**: structural fix (DEX-only entry / depth-trend filter / graduated Raydium pool) still pending Grant — out of cron scope. Honest single-param answer remains "stay paused".
