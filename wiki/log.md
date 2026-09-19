@@ -271,3 +271,11 @@
 - **Base bot cross-check** (active parallel runner, out of cron scope but sanity check): 1,465 trades, 21.4% WR, +0.0027 ETH on starting 0.1 ETH = +2.7% nominal but only 631 closed trades counted, 5 positions open, today_pnl -0.00043 ETH. Same "phantom breakeven" pattern — heavily inflated by auto-TP on illiquid pools.
 - **Honest read**: the SOL bot's 45.2% WR is paper-only; the recent 55-trade Sep 15-18 window showed true edge is strongly negative (-0.88 SOL/55 trades = -16 mSOL/trade). The Base bot's 21% WR + breakeven nominal confirms the diagnosis is structural, not SOL-specific.
 - **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains. bot.py unchanged. Same diagnosis as 20 prior evals. Mechanical rules (v8.7+ hard cap, LLM sell_half/sell_all) cannot fix the fundamental problem — that requires the structural fix flagged by the Sep 18 eval (DEX-only entry / graduated-Raydium filter / depth-trend), which is out of cron scope and awaiting Grant direction.
+
+## [2026-09-19 20:04 UTC] eval | memecoin bot cron re-eval (#22 since pause)
+- **Window since last eval (~2h)**: **0 new trades** (3,574 → 3,574). 22nd consecutive 2h zero-trade window. EXPECTED — PAUSE_NEW_ENTRIES=True still in effect at bot.py:59 (set Sep 18 09:08 UTC). Solana runner + bot.py alive, state.json mtime fresh.
+- **Cumulative since 2026-09-15 reset window**: 55 trades, PnL=-0.8794 SOL, 9.1% WR (5W/50L). UNCHANGED from prior 21 evals.
+- **24h**: 0 trades, PnL=0.0000 SOL. Last trade: ape 2026-09-18 08:03 UTC (the trade that triggered the pause).
+- **All-time**: 3,574 trades, reported +25.49 SOL (paper — slippage-simulated), 45.2% WR. balance 1.140566 SOL — start was 2.0 = -43% realized.
+- **Honest read**: pause is preserving the remaining 1.14 SOL. Recent 55-trade window shows true edge is strongly negative. The structural fix flagged by the Sep 18 eval (DEX-only entry / graduated-Raydium filter / depth-trend) remains out of cron scope and pending Grant direction.
+- **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains. bot.py unchanged. Same diagnosis as 21 prior evals — pump.fun bonding-curve sniper drain cannot be fixed by parameter tweaks within the v8.7+ mechanical-rule constraint.
