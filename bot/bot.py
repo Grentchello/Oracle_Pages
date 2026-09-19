@@ -1094,7 +1094,7 @@ def git_commit_and_push():
             cwd=cwd, check=True, capture_output=True,
         )
         subprocess.run(
-            ["git", "push", "origin", "main"], cwd=cwd, check=True, capture_output=True, timeout=60
+            ["git", "push", "origin", "main"], cwd=cwd, check=True, capture_output=True, timeout=180
         )
         log("Pushed")
         return True

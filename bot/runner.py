@@ -22,7 +22,7 @@ def main():
         result = subprocess.run(
             [sys.executable, str(SCRIPT_DIR / "bot.py")],
             cwd=str(SCRIPT_DIR.parent),
-            timeout=180,
+            timeout=600,  # LLM can be slow; allow 10 min
             capture_output=True,
             text=True,
         )
