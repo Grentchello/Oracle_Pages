@@ -192,3 +192,13 @@
 - **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains in effect. bot.py unchanged (last edit Sep 18 09:09, before pause was set). Same diagnosis as 10 prior evals — pump.fun bonding-curve sniper drain cannot be fixed by parameter tweaks within the v8.7+ mechanical-rule constraint. Lifting pause would resume -0.88 SOL/day bleed.
 - **Carrying forward to next eval (~01:18 UTC)**: structural fix (DEX-only entry / depth-trend filter / graduated Raydium pool) still pending Grant — out of cron scope. Honest single-param answer remains "stay paused".
 - **Bot status**: running, no halt. Solana runner PID 507 alive. Base runner PID 294355 alive. bot.py PID 1088434 just relaunched at 23:18 UTC. Trade count: 3,574. Balance: 1.140566 SOL. Open positions: 0.
+
+## [2026-09-19 01:20 UTC] eval | 2h cron auto-eval (window: Sep 18 23:18 → Sep 19 01:20 UTC)
+- **Window since last eval (~2h)**: **0 new trades** (3,574 → 3,574). 13th consecutive 2h zero-trade window. EXPECTED — PAUSE_NEW_ENTRIES=True (set Sep 18 09:08 UTC) still in effect. bot.py PID active, ticking every 60s. state.json unchanged.
+- **Cumulative since 2026-09-15 reset window**: 55 trades, sum(pnl_sol)=-0.8794 SOL, 87.3% ghost rate. UNCHANGED from prior evals (pause is holding, no new losses).
+- **Lifetime (state.json)**: 3,574 trades, 1,617 wins / 1,866 losses (45.2% WR), reported sum(pnl_sol) **+25.485 SOL** (paper-only — slippage simulation gap; inflated vs real on-chain fills). Real on-balance-sheet: **1.140566 SOL** (started 2.0 = **-43.0% realized**).
+- **Daily note created**: `wiki/daily/2026-09-19.md` (was missing — auto-log catch-up per skill rule).
+- **Last-30 ghost rate check**: still 90% (27/30 ghost exits). Pause is *more* validated, not less — the bleed window that triggered Sep 18 09:08 pause was 87.3% ghost; subsequent data point (later in same bleed) was 90% ghost. Lifting pause without structural fix would resume -0.88 SOL/day bleed on the remaining 1.14 SOL.
+- **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains in effect. bot.py unchanged. Same diagnosis as 12 prior evals — pump.fun bonding-curve sniper drain is the root cause and cannot be fixed by parameter tweaks within the v8.7+ mechanical-rule constraint (forbidden by cron instructions: "Do NOT change the v8.7+ mechanical rules").
+- **Carrying forward to next eval (~03:20 UTC)**: structural fix (DEX-only entry / depth-trend filter / graduated Raydium pool) pending Grant's input — out of cron scope. The honest single-param answer remains "stay paused".
+- **Bot status**: running, no halt. Solana runner PID 507 alive. Base runner PID 294355 alive. bot.py unchanged. Trade count: 3,574. Balance: 1.140566 SOL. Open positions: 0.
