@@ -279,3 +279,12 @@
 - **All-time**: 3,574 trades, reported +25.49 SOL (paper — slippage-simulated), 45.2% WR. balance 1.140566 SOL — start was 2.0 = -43% realized.
 - **Honest read**: pause is preserving the remaining 1.14 SOL. Recent 55-trade window shows true edge is strongly negative. The structural fix flagged by the Sep 18 eval (DEX-only entry / graduated-Raydium filter / depth-trend) remains out of cron scope and pending Grant direction.
 - **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains. bot.py unchanged. Same diagnosis as 21 prior evals — pump.fun bonding-curve sniper drain cannot be fixed by parameter tweaks within the v8.7+ mechanical-rule constraint.
+
+## [2026-09-19 22:05 UTC] eval | memecoin bot cron re-eval (#23 since pause)
+- **Window since last eval (~2h)**: **0 new trades** (3,574 → 3,574). 23rd consecutive 2h zero-trade window. EXPECTED — PAUSE_NEW_ENTRIES=True still in effect at bot.py:59 (set Sep 18 09:08 UTC). Solana runner PID 1195500 alive (started 07:45 UTC), state.json mtime 22:04:54 UTC — bot actively writing every tick.
+- **Cumulative since 2026-09-15 reset window**: 55 trades, PnL=-0.8794 SOL, 9.1% WR (5W/50L). UNCHANGED from prior 22 evals.
+- **24h**: 0 trades, PnL=0.0000 SOL. Last trade exit: 2026-09-18 08:03:01 UTC (the ape that triggered the pause).
+- **All-time**: 3,574 trades, reported +25.4850 SOL (paper — slippage-simulated), 45.2% WR (1,617W/1,957L). Balance 1.140566 SOL — start was 2.0 = **-0.8594 SOL realized (-43.0%)**.
+- **Honest read**: pause is preserving the remaining 1.14 SOL. The Sep 15-18 55-trade window remains the truthful sample of current edge: -0.88 SOL on 55 trades = -16 mSOL/trade. All-time paper PnL +25.49 SOL is misleading — heavy pre-Sep-15 winners (CROCODILE, HOTPUMP, WDOG, BUSINESS) inflate the headline. Per v9.3 honesty layer, the slippage-sim gap means even those gains are paper.
+- **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains. bot.py unchanged (mtime preserved — no parameter tweaks). Same diagnosis as 22 prior evals. Mechanical rules (v8.7+ hard cap, LLM sell_half/sell_all) cannot fix the structural issue (pump.fun bonding-curve illiquidity + ghost exits). Structural fix (DEX-only entry / graduated-Raydium filter / depth-trend) out of cron scope and pending Grant direction.
+- **Bot status**: running, no halt. Solana runner PID 1195500 alive. bot.py child alive. Base runner PID 294355 alive. Trade count: 3,574. Balance: 1.140566 SOL. Open positions: 0.
