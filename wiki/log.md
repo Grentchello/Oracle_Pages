@@ -254,3 +254,11 @@
 - **Honest read**: balance 1.140566 SOL (down from 2.0 reset = -0.86 SOL realized since Sep 15). All-time paper PnL +25.49 SOL remains heavily inflated by slippage sim gap per Sep 18 reset analysis.
 - **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains in effect. bot.py unchanged. Same diagnosis as 18 prior evals — pump.fun bonding-curve sniper drain cannot be fixed by parameter tweaks within the v8.7+ mechanical-rule constraint (forbidden by cron instructions). Lifting pause would resume the -0.88 SOL/day bleed on the remaining 1.14 SOL.
 - **Carrying forward to next eval (~15:57 UTC)**: structural fix (DEX-only entry / depth-trend filter / graduated Raydium pool) still pending Grant — out of cron scope. Honest single-param answer remains "stay paused".
+
+## [2026-09-19 16:00 UTC] eval | memecoin bot cron re-eval (#20 since pause)
+- **Window since last eval (~2h)**: **0 new trades** (3,574 → 3,574). 20th consecutive 2h zero-trade window. EXPECTED — PAUSE_NEW_ENTRIES=True still in effect at bot.py:59 (set Sep 18 09:08 UTC). Solana runner alive, bot.py PID 1297714 spawned 16:00, state.json mtime 15:59 UTC.
+- **Cumulative since 2026-09-15 reset**: 55 trades, PnL=-0.8794 SOL, 9.1% WR (5W/50L). UNCHANGED from prior 19 evals.
+- **Last 24h**: 0 trades, PnL=0.0000 SOL. Last trade: ape 2026-09-18 08:03 UTC (the trade that triggered the pause).
+- **All-time**: 3,574 trades, +25.48 SOL cumulative, 45.2% WR. Heavily skewed by pre-Sep-15 winners (CROCODILE +0.40, HOTPUMP +0.27, WDOG +0.29, BUSINESS +0.10). Recent performance contradicts the all-time number — the bot's edge has degraded.
+- **Honest read**: balance 1.140566 SOL. Flat from where it sat at pause. Pause is preserving the remaining capital. All-time paper PnL +25.49 SOL remains inflated by slippage sim gap — recent run (Sep 15-18, 55 trades) shows the true edge is strongly negative on bonding-curve snipes.
+- **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains. bot.py unchanged. Same diagnosis as 19 prior evals. The mechanical rules (v8.7+ hard cap, LLM sell_half/sell_all) cannot fix the fundamental problem (pump.fun bonding-curve illiquidity + ghost exits); that requires the structural fix flagged by the Sep 18 eval (DEX-only entry / graduated-Raydium filter), which is out of cron scope and awaiting Grant direction.
