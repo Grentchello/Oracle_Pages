@@ -41,6 +41,15 @@ title: oracle_Vault — Master Dashboard
 
     **Status:** v1 running. 6 pairs × 4 strategies, paper $1000 bankroll.
 
+-   :material-magnify: **[Copy-Trading Wallets](projects/copy-trading/index.md)**
+
+    ---
+
+    **Status:** v1 live. {len_data} Solana traders found, 60d proxy score.
+
+    Smart-money wallet discovery via GMGN with anti-copier wash filters
+    (bundlers, snipe bots, instant roundtrips, sell traps).
+
 -   :material-folder-open: **[Browse all projects](projects/index.md)**
 
     ---
