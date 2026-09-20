@@ -195,6 +195,47 @@ def detect_wash_pattern(wallet: str, recent_trades: list) -> dict:
         wash_score += 3 * same_token_flips
         flags.append(f"token_flipper_{same_token_flips}_tokens")
 
+    # 8. MULTI-TOKEN PER TX: trades where 1 tx contains 3+ different tokens
+    # Real traders buy/sell ONE token at a time. Wealth transfers / bridges move many at once.
+    multi_token_txs = 0
+    from collections import defaultdict
+    tx_tokens = defaultdict(set)
+    for t in wallet_trades:
+        tx = t.get("tx_hash") or t.get("transaction_hash")
+        token = t.get("base_address")
+        if tx and token:
+            tx_tokens[tx].add(token)
+    for tx, tokens in tx_tokens.items():
+        if len(tokens) >= 3:
+            multi_token_txs += 1
+    if multi_token_txs >= 5:
+        wash_score += 5
+        flags.append(f"multi_token_txs_{multi_token_txs}_txs")
+    elif multi_token_txs >= 2:
+        wash_score += 2
+        flags.append(f"multi_token_txs_{multi_token_txs}_txs")
+
+    # 9. ATOMIC PAIR TRADES: tx with buy + sell of different tokens in same tx
+    # Real strategy: buy token, hold, sell later. Bridge: swap A→B atomically.
+    atomic_pair_txs = 0
+    tx_sides = defaultdict(lambda: {"buy": set(), "sell": set()})
+    for t in wallet_trades:
+        tx = t.get("tx_hash") or t.get("transaction_hash")
+        side = t.get("side") or t.get("event_type")
+        token = t.get("base_address")
+        if tx and side and token:
+            tx_sides[tx][side].add(token)
+    for tx, sides in tx_sides.items():
+        if sides.get("buy") and sides.get("sell"):
+            # Tokens being bought != tokens being sold in same tx = atomic swap
+            atomic_pair_txs += 1
+    if atomic_pair_txs >= 10:
+        wash_score += 4
+        flags.append(f"atomic_swaps_{atomic_pair_txs}_txs")
+    elif atomic_pair_txs >= 3:
+        wash_score += 2
+        flags.append(f"atomic_swaps_{atomic_pair_txs}_txs")
+
     return {"wash_score": wash_score, "flags": flags, "trades": len(wallet_trades)}
 
 
