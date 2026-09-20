@@ -345,3 +345,28 @@
 - **Action taken**: none. PAUSE_NEW_ENTRIES=True unchanged. bot.py unchanged (last modify Sep 20 00:09, the age-filter tightening). v8.7+ mechanical rules preserved per user hard constraint.
 - **Decision: NO CHANGES.** 25 evals deep into the pause with identical stats — same diagnosis as the prior 24. Mechanical rules (v8.7 hard cap, LLM sell_half/sell_all) cannot fix the structural issue (pump.fun bonding-curve illiquidity + ghost exits). Structural fix (DEX-only entry / graduated-Raydium filter / depth-trend) out of cron scope and pending Grant direction.
 - **Next eval (~08:17 UTC)**: expect identical state until user un-pauses. If un-paused with current params (1.14 SOL balance + 0.02 SOL reserve floor), reserve-block will fire on every entry → recommend topping balance back to ≥2.0 SOL before re-enabling (per standing memory: "reset to realistic starting balance, document, commit").
+
+## 2026-09-20: Copy-Trading — Verified 873 Wallets on Solana Mainnet
+
+**Key correction:** Earlier 'all phantom' conclusion was wrong — RPC check + tx count = real verification.
+
+**Results from 873 wallets (sorted by GMGN PnL):**
+- 753 wallet addresses exist on Solana mainnet (86.3%)
+- 120 phantoms (fabricated by GMGN traders API)
+- 753 with on-chain data: 467 active (recent 30d txs), 286 dormant/zero-tx
+
+**Top-100 breakdown:**
+- 86 real & active traders (5-1000+ txs in 30d)
+- 73 organic (5-49 txs/30d — the target pattern)
+- 13 high-freq bots (100+ txs)
+- 8 phantom addresses (don't exist)
+- 4 borderline (zero txs or unknown RPC)
+
+**Methodology (3 layers):**
+1. GMGN `token traders` — claimed PnL (often inflated)
+2. Solana RPC `getAccountInfo` — does wallet exist?
+3. Solana RPC `getSignaturesForAddress` — tx count in 30d
+
+**GMGN's `portfolio stats` endpoint was the unreliable layer** — it returns incomplete data and missed many real wallets.
+
+**Bot insight:** User asked about wallet `HbxUHTFfJcv...` — verified to have 1,000 txs in 30d = sniper bot, not human. Filters out as expected.
