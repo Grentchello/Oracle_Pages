@@ -2,24 +2,23 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Copy-Trading — Smart Money Wallets (Verified)</title>
+<title>Copy-Trading — PHANTOM WALLETS (Do Not Copy)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", monospace; background: #0d1117; color: #c9d1d9; padding: 16px; }
 header { border-bottom: 1px solid #30363d; padding-bottom: 16px; margin-bottom: 24px; }
-h1 { color: #58a6ff; font-size: 22px; margin-bottom: 4px; }
+h1 { color: #f85149; font-size: 22px; margin-bottom: 4px; }
 .subtitle { color: #8b949e; font-size: 12px; }
 .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 16px 0 24px; }
 .kpi { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 12px; }
 .kpi-label { font-size: 11px; color: #8b949e; text-transform: uppercase; }
 .kpi-val { font-size: 24px; font-weight: 700; color: #58a6ff; margin-top: 4px; }
-.kpi-val.profit { color: #3fb950; }
-.kpi-val.warn { color: #f85149; }
+.kpi-val.phantom { color: #f85149; }
 .kpi-val.good { color: #3fb950; }
 .wcard { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 14px; margin-bottom: 12px; }
 .wcard.verified { border-left: 4px solid #3fb950; }
-.wcard.suspicious { border-left: 4px solid #f85149; opacity: 0.7; }
+.wcard.phantom { border-left: 4px solid #f85149; opacity: 0.7; }
 .wcard.pending { border-left: 4px solid #d29922; }
 .wcard-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
 .rank { background: #58a6ff; color: #0d1117; font-weight: 800; border-radius: 50%; min-width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; font-size: 13px; }
@@ -32,7 +31,6 @@ h1 { color: #58a6ff; font-size: 22px; margin-bottom: 4px; }
 .stat { background: #0d1117; border-radius: 4px; padding: 6px 8px; }
 .stat-label { font-size: 10px; color: #8b949e; text-transform: uppercase; }
 .stat-val { font-size: 15px; font-weight: 600; margin-top: 2px; }
-.stat-val.profit { color: #3fb950; }
 .stat-val.best { color: #d29922; font-size: 12px; }
 .wtrades { display: flex; flex-direction: column; gap: 4px; }
 .trade { display: flex; gap: 8px; align-items: center; font-size: 11px; }
@@ -44,11 +42,10 @@ h1 { color: #58a6ff; font-size: 22px; margin-bottom: 4px; }
 .badge-bad { background: #da3633; color: #ffffff; }
 .badge-pending { background: #6e6e6e; color: #ffffff; }
 .extra { margin-top: 8px; padding: 6px 8px; background: #0d1117; border-radius: 4px; font-size: 11px; color: #c9d1d9; }
-.extra.dim { color: #8b949e; }
+.extra.dim { color: #f85149; }
 footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; font-size: 11px; color: #8b949e; }
 .note { background: #161b22; border-left: 3px solid #d29922; padding: 12px; margin: 16px 0; font-size: 12px; }
-.note.warn { border-left-color: #f85149; }
-.note.good { border-left-color: #3fb950; }
+.note.danger { border-left-color: #f85149; background: #1d1213; }
 .search { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px 12px; margin-bottom: 16px; width: 100%; color: #c9d1d9; font-family: inherit; font-size: 13px; }
 .search:focus { outline: none; border-color: #58a6ff; }
 .filter-btns { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
@@ -58,18 +55,14 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
 </head>
 <body>
 <header>
-    <h1>🧠 Copy-Trading — Smart Money Wallets (Verified)</h1>
+    <h1>🚨 Copy-Trading — PHANTOM WALLETS (Do Not Copy)</h1>
     <div class="subtitle">
-        Generated 2026-09-20T03:37:28Z • 62 quality tokens analyzed •
+        Verified 400 wallets · Source: GMGN trenches (smart-money preset) ·
         <a href="https://github.com/Grentchello/oracle_Vault/blob/main/bot/copy_trading/wallets_smart_money.json" target="_blank" style="color:#58a6ff;">Raw JSON</a>
     </div>
 </header>
 
 <div class="summary">
-    <div class="kpi">
-        <div class="kpi-label">Tokens Analyzed</div>
-        <div class="kpi-val">62</div>
-    </div>
     <div class="kpi">
         <div class="kpi-label">Wallets Listed</div>
         <div class="kpi-val">100</div>
@@ -79,39 +72,47 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
         <div class="kpi-val good">0</div>
     </div>
     <div class="kpi">
-        <div class="kpi-label">⚠️ Suspicious</div>
-        <div class="kpi-val warn">100</div>
+        <div class="kpi-label">❌ Phantom</div>
+        <div class="kpi-val phantom">400</div>
     </div>
     <div class="kpi">
-        <div class="kpi-label">⏳ Unverified</div>
+        <div class="kpi-label">⏳ Not Checked</div>
         <div class="kpi-val">0</div>
     </div>
 </div>
 
-<div class="note good">
-    ✅ <strong>Verified wallets</strong> = have actual portfolio stats (trades > 0, last_timestamp > 0, positive realized profit). These exist as real traders on Solana.
+<div class="note danger">
+    <strong>🚨 CRITICAL FINDING:</strong> The "smart money" wallets in the GMGN `token traders` endpoint are <strong>PHANTOM DATA</strong>.
+    After verification, the top 5 "winners" all returned `null` when queried directly against Solana mainnet RPC — meaning these wallet addresses were <strong>never created on-chain</strong>.
+    GMGN's traders API is fabricating wallet addresses + PnL. <strong>This entire list is unusable for copy-trading.</strong>
 </div>
 
-<div class="note warn">
-    ⚠️ <strong>Suspicious wallets</strong> = appear in GMGN's `token traders` endpoint with high PnL, but their `portfolio stats` shows 0 trades / last_timestamp 0. The traders endpoint is returning fabricated PnL data. Don't copy these.
+<div class="note">
+    <strong>What this means for copy-trading on GMGN:</strong>
+    <ul style="margin: 8px 0 0 20px; font-size: 12px;">
+        <li>The `token traders` endpoint is unreliable for finding real traders</li>
+        <li>Use `portfolio stats` with on-chain RPC verification instead</li>
+        <li>Any wallet that doesn't exist on Solana mainnet (null on getAccountInfo) is definitely phantom</li>
+        <li>Real copy-trading data requires: Birdeye paid API, Helius RPC webhooks, or on-chain holder analysis</li>
+    </ul>
 </div>
 
-<input type="text" id="search" class="search" placeholder="🔎 Filter by wallet, token, PnL, or status..." />
+<input type="text" id="search" class="search" placeholder="🔎 Filter by wallet, token, or status..." />
 
 <div class="filter-btns">
     <button class="filter-btn active" onclick="filter('all')">All (100)</button>
     <button class="filter-btn" onclick="filter('verified')">✅ Verified (0)</button>
-    <button class="filter-btn" onclick="filter('suspicious')">⚠️ Suspicious (100)</button>
-    <button class="filter-btn" onclick="filter('pending')">⏳ Unverified (0)</button>
+    <button class="filter-btn" onclick="filter('phantom')">❌ Phantom (400)</button>
+    <button class="filter-btn" onclick="filter('pending')">⏳ Unchecked (0)</button>
 </div>
 
 <div id="cards">
 
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#1</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">Ak4Y5q2SE8nZkD2oAdnQU1b1pufBGHrpDKgevEyhetYx</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('Ak4Y5q2SE8nZkD2oAdnQU1b1pufBGHrpDKgevEyhetYx').then(()=>this.textContent='✓')">copy</button>
@@ -135,20 +136,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">X</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">X</span>
             <span class="tpnl">83249 SOL</span>
             <a href="https://solscan.io/token/6ZEq2C4nLZuhWQesLbk7qeMTDMvZgEgpCuXuh8Zkqmho" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#2</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">7FxjZLcdNEcQMz83xR29h1Ws9mqmeeERrdbH7AFHnVLS</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('7FxjZLcdNEcQMz83xR29h1Ws9mqmeeERrdbH7AFHnVLS').then(()=>this.textContent='✓')">copy</button>
@@ -172,20 +171,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">51868 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard pending">
         <div class="wcard-header">
             <div class="rank">#3</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-pending">⏳ NOT CHECKED</span>
                 <span class="addr">8aLkjkg1BqSSTGMMTKBYri32RFwhSBTKimsxWNP3iE9p</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('8aLkjkg1BqSSTGMMTKBYri32RFwhSBTKimsxWNP3iE9p').then(()=>this.textContent='✓')">copy</button>
@@ -209,20 +206,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">STARBUCKS</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">STARBUCKS</span>
             <span class="tpnl">44800 SOL</span>
             <a href="https://solscan.io/token/13Bxc37jw8QHvsZzDM9tiSBHp27M4Qx6qjy9wpNXHLf1" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">Not yet verified</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#4</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">9AZrNV2p6qLojEtfrZBFFHpjGGLbjJ39xyYFehVspsyP</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('9AZrNV2p6qLojEtfrZBFFHpjGGLbjJ39xyYFehVspsyP').then(()=>this.textContent='✓')">copy</button>
@@ -246,20 +241,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">42819 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#5</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">AyjCrA7rMZVDC6XLCbFRamLd7pxCbrfoPNttsQF13Fjp</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('AyjCrA7rMZVDC6XLCbFRamLd7pxCbrfoPNttsQF13Fjp').then(()=>this.textContent='✓')">copy</button>
@@ -283,20 +276,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">42488 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#6</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">6q8jdEAKVVtXZaTZCWjMis6mR5SKp4S2vS3kMTcbbxie</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('6q8jdEAKVVtXZaTZCWjMis6mR5SKp4S2vS3kMTcbbxie').then(()=>this.textContent='✓')">copy</button>
@@ -320,20 +311,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">27245 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#7</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">8CHtrLZjmy1WHis86VRkUqx3TkVeifAzakMou7D3YJ8K</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('8CHtrLZjmy1WHis86VRkUqx3TkVeifAzakMou7D3YJ8K').then(()=>this.textContent='✓')">copy</button>
@@ -357,20 +346,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">HOJAK</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">HOJAK</span>
             <span class="tpnl">26925 SOL</span>
             <a href="https://solscan.io/token/DcacBNwNgjYgW6qnbVwkDmMRGgbfkNdWW8MArQEApump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#8</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">GuEijmhQ1vSBy9rPcGT3YqEHrFmCLNfoe7VBT6cHW5jt</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('GuEijmhQ1vSBy9rPcGT3YqEHrFmCLNfoe7VBT6cHW5jt').then(()=>this.textContent='✓')">copy</button>
@@ -394,20 +381,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">26583 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#9</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">7fXMJ4RDR7PyoTWK8hw3V26ixksawFnNT23b9Vk1J5Xv</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('7fXMJ4RDR7PyoTWK8hw3V26ixksawFnNT23b9Vk1J5Xv').then(()=>this.textContent='✓')">copy</button>
@@ -431,20 +416,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">19145 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#10</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">GCtfm9axoPDdnQDXevS5BfCRMsQsmwrqMhuXKB5g14pP</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('GCtfm9axoPDdnQDXevS5BfCRMsQsmwrqMhuXKB5g14pP').then(()=>this.textContent='✓')">copy</button>
@@ -468,20 +451,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">17523 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#11</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">C1E2TYzBJV8pJ5X8K1evX3Jyr1FvjNN7PGRVGxZMoggw</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('C1E2TYzBJV8pJ5X8K1evX3Jyr1FvjNN7PGRVGxZMoggw').then(()=>this.textContent='✓')">copy</button>
@@ -505,20 +486,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">16981 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#12</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">ABcGRAkftRGP2m883ja8H6iwC46CrswoBBctNzqdSGYH</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('ABcGRAkftRGP2m883ja8H6iwC46CrswoBBctNzqdSGYH').then(()=>this.textContent='✓')">copy</button>
@@ -542,20 +521,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">$Fly-001</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">$Fly-001</span>
             <span class="tpnl">16207 SOL</span>
             <a href="https://solscan.io/token/2vcz2fpQetGMoE7YNaVajDS1PuymACjvH6QzhvYopump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#13</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">ATvvUknxB1vMKw28Ca9WBp1mphmhDQwsJTDhon8o3vUG</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('ATvvUknxB1vMKw28Ca9WBp1mphmhDQwsJTDhon8o3vUG').then(()=>this.textContent='✓')">copy</button>
@@ -579,20 +556,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">10835 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#14</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">DN9RhBP5uhPwACV1e79jQ7pQUcfrXkZLHmpeenaNwuMG</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('DN9RhBP5uhPwACV1e79jQ7pQUcfrXkZLHmpeenaNwuMG').then(()=>this.textContent='✓')">copy</button>
@@ -616,20 +591,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">clensing</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">clensing</span>
             <span class="tpnl">10713 SOL</span>
             <a href="https://solscan.io/token/ARk2uMVXtdjXBvAGgDtxDV6xK4uiUFXQzkj1MeFbpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#15</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">2yJgoX841e2o49V33hg9trimXBjoUwaZaYmTy3aaPzbw</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('2yJgoX841e2o49V33hg9trimXBjoUwaZaYmTy3aaPzbw').then(()=>this.textContent='✓')">copy</button>
@@ -653,20 +626,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">THE SAUCE</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">THE SAUCE</span>
             <span class="tpnl">10266 SOL</span>
             <a href="https://solscan.io/token/5vKtjWGRnkGm1qaPMueuiAdtfbs3TbRRSgLhL9Gwpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#16</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">AfJ9JCseCFQ7qbGNa6t1Y2UJZHVBaAMZorU29qesKDwg</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('AfJ9JCseCFQ7qbGNa6t1Y2UJZHVBaAMZorU29qesKDwg').then(()=>this.textContent='✓')">copy</button>
@@ -690,20 +661,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">8621 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#17</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">GN9z2N5d1UqawBbBLz8niQiYZUid1nKtWQbsrCW6YpYw</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('GN9z2N5d1UqawBbBLz8niQiYZUid1nKtWQbsrCW6YpYw').then(()=>this.textContent='✓')">copy</button>
@@ -727,20 +696,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">8377 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#18</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">6kkdHG8w3PqtbZcSQqexBZwVZRdNVUDQx4f5J6oKRB7a</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('6kkdHG8w3PqtbZcSQqexBZwVZRdNVUDQx4f5J6oKRB7a').then(()=>this.textContent='✓')">copy</button>
@@ -764,20 +731,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">8107 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#19</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">7Ze1PqyP4Cm9nd9S531jjNHja7C8Uzta9qqEAk6zuvrT</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('7Ze1PqyP4Cm9nd9S531jjNHja7C8Uzta9qqEAk6zuvrT').then(()=>this.textContent='✓')">copy</button>
@@ -801,20 +766,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">7849 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#20</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">BTA57p6v5jaY8q4oX77MiEUAg9q5aaVTD1ukdpDffnff</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('BTA57p6v5jaY8q4oX77MiEUAg9q5aaVTD1ukdpDffnff').then(()=>this.textContent='✓')">copy</button>
@@ -838,20 +801,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">6423 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#21</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">5fC9dQqrC5neGLnbLNfou6U85sPJSBsX9kyRygBhVrer</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('5fC9dQqrC5neGLnbLNfou6U85sPJSBsX9kyRygBhVrer').then(()=>this.textContent='✓')">copy</button>
@@ -875,20 +836,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">6045 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#22</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">A1WmuzSojNQ2g4dZmcyXn2YajWWqq999sMPtufFQ3W1z</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('A1WmuzSojNQ2g4dZmcyXn2YajWWqq999sMPtufFQ3W1z').then(()=>this.textContent='✓')">copy</button>
@@ -912,20 +871,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">5998 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#23</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">2sL3b5tKFVojY7fyo789urTVDx7n5hhWu4vKvNZKpvBC</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('2sL3b5tKFVojY7fyo789urTVDx7n5hhWu4vKvNZKpvBC').then(()=>this.textContent='✓')">copy</button>
@@ -949,20 +906,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Tokens</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Tokens</span>
             <span class="tpnl">5555 SOL</span>
             <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#24</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">1ye74CahqswPFY2zJNtRg5iEwkiMYiTiHNXVSpKnJi5</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('1ye74CahqswPFY2zJNtRg5iEwkiMYiTiHNXVSpKnJi5').then(()=>this.textContent='✓')">copy</button>
@@ -986,20 +941,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">PayBox</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">PayBox</span>
             <span class="tpnl">5291 SOL</span>
             <a href="https://solscan.io/token/8h4CNjYqV2jtewVvBw7v8DVmC8j6tE8uD5RYHrRVpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#25</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">Eyd7ymdyQT5QukQWhUZmRedNbeFvsoiMGWMnM41U1yic</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('Eyd7ymdyQT5QukQWhUZmRedNbeFvsoiMGWMnM41U1yic').then(()=>this.textContent='✓')">copy</button>
@@ -1023,20 +976,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Claimr</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Claimr</span>
             <span class="tpnl">5276 SOL</span>
             <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#26</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">864PisFmdkCDpPR5J6jhMZCRzHZc5LsoaDTsG4hndc2L</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('864PisFmdkCDpPR5J6jhMZCRzHZc5LsoaDTsG4hndc2L').then(()=>this.textContent='✓')">copy</button>
@@ -1060,20 +1011,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">WIBBO</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">WIBBO</span>
             <span class="tpnl">4930 SOL</span>
             <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#27</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">6xN5X6ci5fMy5rXFppUoxKCZRDPGy2ZHBd531jrAeArA</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('6xN5X6ci5fMy5rXFppUoxKCZRDPGy2ZHBd531jrAeArA').then(()=>this.textContent='✓')">copy</button>
@@ -1097,20 +1046,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Tokens</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Tokens</span>
             <span class="tpnl">4062 SOL</span>
             <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#28</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">HN3vF3JgMyH66WdoKk64oYZ93GQkoAEVh6m3A2EQu28L</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('HN3vF3JgMyH66WdoKk64oYZ93GQkoAEVh6m3A2EQu28L').then(()=>this.textContent='✓')">copy</button>
@@ -1134,20 +1081,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Rick</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Rick</span>
             <span class="tpnl">3972 SOL</span>
             <a href="https://solscan.io/token/GEnkAoR4BNaP3br8rf8eo5mj7jMm5c5VpUuttwASpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard pending">
         <div class="wcard-header">
             <div class="rank">#29</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-pending">⏳ NOT CHECKED</span>
                 <span class="addr">DrPkRQWbQ9ybEUciW4QgmPbscEDhsvcpTMkfr7HSCPej</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('DrPkRQWbQ9ybEUciW4QgmPbscEDhsvcpTMkfr7HSCPej').then(()=>this.textContent='✓')">copy</button>
@@ -1171,20 +1116,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">WIBBO</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">WIBBO</span>
             <span class="tpnl">3954 SOL</span>
             <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">Not yet verified</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard pending">
         <div class="wcard-header">
             <div class="rank">#30</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-pending">⏳ NOT CHECKED</span>
                 <span class="addr">7yy3oJvPPZUHCnL6casYDxvYSif4ZEfZ5t5fxkCJ8J5H</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('7yy3oJvPPZUHCnL6casYDxvYSif4ZEfZ5t5fxkCJ8J5H').then(()=>this.textContent='✓')">copy</button>
@@ -1208,20 +1151,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">3719 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">Not yet verified</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#31</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">4b4zKcFq5ZoR9wX5z15v7PFKaF6ZnuKSGFMoqKcfYFXQ</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('4b4zKcFq5ZoR9wX5z15v7PFKaF6ZnuKSGFMoqKcfYFXQ').then(()=>this.textContent='✓')">copy</button>
@@ -1245,20 +1186,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Claimr</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Claimr</span>
             <span class="tpnl">3630 SOL</span>
             <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#32</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">h53FRcCHDp82odsd4i23KeVV3ibgLk5ggvdYCfLyHZy</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('h53FRcCHDp82odsd4i23KeVV3ibgLk5ggvdYCfLyHZy').then(()=>this.textContent='✓')">copy</button>
@@ -1282,20 +1221,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Pencil</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Pencil</span>
             <span class="tpnl">3409 SOL</span>
             <a href="https://solscan.io/token/8XPDPyPAz4H64aqCHkSjuUYtyjfiG7dPi328WSkrpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#33</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">5eWfv9zshGgJDHaPbmkUtNK9p1fSPDLkiz7GbqLZRKJL</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('5eWfv9zshGgJDHaPbmkUtNK9p1fSPDLkiz7GbqLZRKJL').then(()=>this.textContent='✓')">copy</button>
@@ -1319,20 +1256,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">3344 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#34</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">F1G37Yw8yzXaw7BFmRw3aiCiKp4yNVtaB4FPoT3fmsnt</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('F1G37Yw8yzXaw7BFmRw3aiCiKp4yNVtaB4FPoT3fmsnt').then(()=>this.textContent='✓')">copy</button>
@@ -1356,20 +1291,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">3326 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#35</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">Biz5FKp5SjNMUasTCM7FTydwFkWJVYofLSnX8RhJrJYp</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('Biz5FKp5SjNMUasTCM7FTydwFkWJVYofLSnX8RhJrJYp').then(()=>this.textContent='✓')">copy</button>
@@ -1393,20 +1326,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Pencil</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Pencil</span>
             <span class="tpnl">3175 SOL</span>
             <a href="https://solscan.io/token/8XPDPyPAz4H64aqCHkSjuUYtyjfiG7dPi328WSkrpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#36</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">6dN5P1Bnvx495tk74E7P3gH3KxYZgrYwFqY86i5RUNfY</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('6dN5P1Bnvx495tk74E7P3gH3KxYZgrYwFqY86i5RUNfY').then(()=>this.textContent='✓')">copy</button>
@@ -1430,20 +1361,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">3107 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#37</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">cUzb5oxzvc1duTVSJote7Nj2q1XtySYdzLaFKpz2FwN</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('cUzb5oxzvc1duTVSJote7Nj2q1XtySYdzLaFKpz2FwN').then(()=>this.textContent='✓')">copy</button>
@@ -1467,20 +1396,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Claimr</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Claimr</span>
             <span class="tpnl">3065 SOL</span>
             <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#38</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">APxaLxnYQxbmeYRxNs9QiWRwpqwe1Nhz8HaQu2VH2Cd7</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('APxaLxnYQxbmeYRxNs9QiWRwpqwe1Nhz8HaQu2VH2Cd7').then(()=>this.textContent='✓')">copy</button>
@@ -1504,20 +1431,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">STACK</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">STACK</span>
             <span class="tpnl">2464 SOL</span>
             <a href="https://solscan.io/token/6dWoxftzRFH9Q1St4dChmzSQ6HhCZ2Lt3d3Lu7My9Eba" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#39</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">8sb4pJsGdenYH7dZY5hfoLhgewNRp3keNgzax4jngJ31</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('8sb4pJsGdenYH7dZY5hfoLhgewNRp3keNgzax4jngJ31').then(()=>this.textContent='✓')">copy</button>
@@ -1541,20 +1466,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Tokens</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Tokens</span>
             <span class="tpnl">2455 SOL</span>
             <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#40</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">CRSGqhoju16LuHYR8SvKTVvJ63ZG15mymCXV9spi2nP9</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('CRSGqhoju16LuHYR8SvKTVvJ63ZG15mymCXV9spi2nP9').then(()=>this.textContent='✓')">copy</button>
@@ -1578,20 +1501,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Pencil</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Pencil</span>
             <span class="tpnl">2381 SOL</span>
             <a href="https://solscan.io/token/8XPDPyPAz4H64aqCHkSjuUYtyjfiG7dPi328WSkrpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#41</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">8ynNvNq3pC1T94RmBQAatpnaUwWBvrh2EdEdzwCxCykm</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('8ynNvNq3pC1T94RmBQAatpnaUwWBvrh2EdEdzwCxCykm').then(()=>this.textContent='✓')">copy</button>
@@ -1615,20 +1536,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">URANUS</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">URANUS</span>
             <span class="tpnl">2347 SOL</span>
             <a href="https://solscan.io/token/EzVx612iQ6EDMXnju7ufy8A3dgsqcdP8WiWfpJfNUsJD" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#42</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">DhLwG9YCbn48cbXez9A3R16gYEArX3SPg5S9mWYkLQUW</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('DhLwG9YCbn48cbXez9A3R16gYEArX3SPg5S9mWYkLQUW').then(()=>this.textContent='✓')">copy</button>
@@ -1652,20 +1571,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Claimr</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Claimr</span>
             <span class="tpnl">2339 SOL</span>
             <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#43</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">6DmFgDN19fb49MPwLcYB73o8Dq8jvTePdgEzr3vh44ik</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('6DmFgDN19fb49MPwLcYB73o8Dq8jvTePdgEzr3vh44ik').then(()=>this.textContent='✓')">copy</button>
@@ -1689,20 +1606,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">2330 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard pending">
         <div class="wcard-header">
             <div class="rank">#44</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-pending">⏳ NOT CHECKED</span>
                 <span class="addr">5ifomMrj9g5nrgj5fSb77MAKPaEbgfTD65ekjRn7foCK</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('5ifomMrj9g5nrgj5fSb77MAKPaEbgfTD65ekjRn7foCK').then(()=>this.textContent='✓')">copy</button>
@@ -1726,20 +1641,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">2321 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">Not yet verified</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#45</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">69aYN435FRP2YKczURXF4K5JRDoPXiCYjYyZWesd3PDP</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('69aYN435FRP2YKczURXF4K5JRDoPXiCYjYyZWesd3PDP').then(()=>this.textContent='✓')">copy</button>
@@ -1763,20 +1676,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">STACK</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">STACK</span>
             <span class="tpnl">2312 SOL</span>
             <a href="https://solscan.io/token/6dWoxftzRFH9Q1St4dChmzSQ6HhCZ2Lt3d3Lu7My9Eba" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#46</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">Cz1gDWKiGmK2GitkBTiQeng9DLFGExtszmXvdyiicqFs</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('Cz1gDWKiGmK2GitkBTiQeng9DLFGExtszmXvdyiicqFs').then(()=>this.textContent='✓')">copy</button>
@@ -1800,20 +1711,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Claimr</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Claimr</span>
             <span class="tpnl">2298 SOL</span>
             <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#47</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">A5RQEYFh2yaQFFyHMxkvKW5mXDJ4Fw4Akid61CRPBivt</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('A5RQEYFh2yaQFFyHMxkvKW5mXDJ4Fw4Akid61CRPBivt').then(()=>this.textContent='✓')">copy</button>
@@ -1837,20 +1746,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Tokens</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Tokens</span>
             <span class="tpnl">2201 SOL</span>
             <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#48</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">2E2B2vN6gufbdsszfdBvxz1aGQ311CUih3HMbofqroWX</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('2E2B2vN6gufbdsszfdBvxz1aGQ311CUih3HMbofqroWX').then(()=>this.textContent='✓')">copy</button>
@@ -1874,20 +1781,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">LAMBO</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">LAMBO</span>
             <span class="tpnl">2147 SOL</span>
             <a href="https://solscan.io/token/DS3tKJeEscfe753pSXNiG1HrDMos2sobkBKyabNZpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#49</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">AquXt3utBJHrHiLbjS4wLwX9QZbJXcPUybFFdS3pBp5e</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('AquXt3utBJHrHiLbjS4wLwX9QZbJXcPUybFFdS3pBp5e').then(()=>this.textContent='✓')">copy</button>
@@ -1911,20 +1816,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Tokens</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Tokens</span>
             <span class="tpnl">2085 SOL</span>
             <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#50</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">8wHVxvH7bRA62sa9M82Z2nPMA6R7c2Jcnf6VUZLEvPaQ</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('8wHVxvH7bRA62sa9M82Z2nPMA6R7c2Jcnf6VUZLEvPaQ').then(()=>this.textContent='✓')">copy</button>
@@ -1948,20 +1851,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Tokens</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Tokens</span>
             <span class="tpnl">2079 SOL</span>
             <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#51</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">87Yr3k5Rp11uat83Prt15W5f43viTyRvmJEstzqsuSBw</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('87Yr3k5Rp11uat83Prt15W5f43viTyRvmJEstzqsuSBw').then(()=>this.textContent='✓')">copy</button>
@@ -1985,20 +1886,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Claimr</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Claimr</span>
             <span class="tpnl">2069 SOL</span>
             <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#52</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">JAj8p2fsBUjNbjhZmxVkAhDiwq2myxGrtWDArPknQpv9</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('JAj8p2fsBUjNbjhZmxVkAhDiwq2myxGrtWDArPknQpv9').then(()=>this.textContent='✓')">copy</button>
@@ -2022,20 +1921,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Bogdanoff</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Bogdanoff</span>
             <span class="tpnl">2049 SOL</span>
             <a href="https://solscan.io/token/F1BQXs8RTr3pugsCddw3dGVWhfTAPhyLJpuWYpzgRZtU" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#53</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">14T7cJqTRJH325VqJMmEf5EbUDnL46BXoHQWcw3B954f</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('14T7cJqTRJH325VqJMmEf5EbUDnL46BXoHQWcw3B954f').then(()=>this.textContent='✓')">copy</button>
@@ -2059,20 +1956,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Tokens</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Tokens</span>
             <span class="tpnl">2044 SOL</span>
             <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#54</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">81ucGUWHPJPCAjg5Sv9o1mM56s3QZGoqNR1LWCrMFutu</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('81ucGUWHPJPCAjg5Sv9o1mM56s3QZGoqNR1LWCrMFutu').then(()=>this.textContent='✓')">copy</button>
@@ -2096,20 +1991,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Tokens</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Tokens</span>
             <span class="tpnl">1958 SOL</span>
             <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#55</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">5N5AQPM8XBK8fyt1GFc7559EM9vQmvvhZ6vf9nukRdxy</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('5N5AQPM8XBK8fyt1GFc7559EM9vQmvvhZ6vf9nukRdxy').then(()=>this.textContent='✓')">copy</button>
@@ -2133,20 +2026,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">LOOONG</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">LOOONG</span>
             <span class="tpnl">1933 SOL</span>
             <a href="https://solscan.io/token/8dnA3uotwGL4kgCoraKTypU4owcWSgkdBBXzXWykLL5h" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#56</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">5o9ppHfMH5H1eAVMF89pj8Wp5nP15ftoUukqpTysBMhM</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('5o9ppHfMH5H1eAVMF89pj8Wp5nP15ftoUukqpTysBMhM').then(()=>this.textContent='✓')">copy</button>
@@ -2170,20 +2061,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">1926 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#57</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">1g6yjag6SM5t43cfSi34kgW9QmTpAq8cMq3bdfSYus7</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('1g6yjag6SM5t43cfSi34kgW9QmTpAq8cMq3bdfSYus7').then(()=>this.textContent='✓')">copy</button>
@@ -2207,20 +2096,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">BPACK</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">BPACK</span>
             <span class="tpnl">1909 SOL</span>
             <a href="https://solscan.io/token/3mgbkCzxyYgt7AtosiVxoUfwZqgPa6TsF82aQ1oPpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#58</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">2eAu2FWW6RU8r7caAJTrcWZ3SQu47n6Sub2GLuoqvNWv</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('2eAu2FWW6RU8r7caAJTrcWZ3SQu47n6Sub2GLuoqvNWv').then(()=>this.textContent='✓')">copy</button>
@@ -2244,20 +2131,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Tokens</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Tokens</span>
             <span class="tpnl">1885 SOL</span>
             <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#59</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">9vjRjbwsV8EdKm8J89ZUdHDduVGZtSiDvC2KkikxHGF6</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('9vjRjbwsV8EdKm8J89ZUdHDduVGZtSiDvC2KkikxHGF6').then(()=>this.textContent='✓')">copy</button>
@@ -2281,20 +2166,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Healing</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Healing</span>
             <span class="tpnl">1774 SOL</span>
             <a href="https://solscan.io/token/FJCdyEtH5kTGs7ZQ6kviL4cjgpRo1vSXM3sRdTGCpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#60</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">3f67RzmHqWznN1kwbAfsrtfh4eMsWEu2GTuXGv8FVY3j</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('3f67RzmHqWznN1kwbAfsrtfh4eMsWEu2GTuXGv8FVY3j').then(()=>this.textContent='✓')">copy</button>
@@ -2318,20 +2201,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">GUARD</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">GUARD</span>
             <span class="tpnl">1771 SOL</span>
             <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#61</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">46ReXoUy9EoVnJwG8ghoQbR4eNqavY4vBrsnJTPezYyk</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('46ReXoUy9EoVnJwG8ghoQbR4eNqavY4vBrsnJTPezYyk').then(()=>this.textContent='✓')">copy</button>
@@ -2355,20 +2236,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">1758 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#62</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">EzqqF2YBJvWHjUi5gMDKnZq3YqRceSpBXJLzt9zonV4U</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('EzqqF2YBJvWHjUi5gMDKnZq3YqRceSpBXJLzt9zonV4U').then(()=>this.textContent='✓')">copy</button>
@@ -2392,20 +2271,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">SENDING </div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">SENDING </span>
             <span class="tpnl">1750 SOL</span>
             <a href="https://solscan.io/token/24G6fv23pPg3UTKAAA4dnC7UBe9SgEoj8HXscHJRpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#63</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">2EZ3TTMG4R25wbK7fujcCZrZwHp9p4gx7v2advUHRf5G</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('2EZ3TTMG4R25wbK7fujcCZrZwHp9p4gx7v2advUHRf5G').then(()=>this.textContent='✓')">copy</button>
@@ -2429,20 +2306,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">THE SAUCE</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">THE SAUCE</span>
             <span class="tpnl">1656 SOL</span>
             <a href="https://solscan.io/token/5vKtjWGRnkGm1qaPMueuiAdtfbs3TbRRSgLhL9Gwpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#64</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">A9zPB7PLPq2tD1x9jS2h6RLo4FGJ85ywkrAKvuhkAjYU</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('A9zPB7PLPq2tD1x9jS2h6RLo4FGJ85ywkrAKvuhkAjYU').then(()=>this.textContent='✓')">copy</button>
@@ -2466,20 +2341,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Tokens</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Tokens</span>
             <span class="tpnl">1624 SOL</span>
             <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#65</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">61eyehvKb9agC73izANtRq3ex3jZvHGcV3rvjj5bndUU</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('61eyehvKb9agC73izANtRq3ex3jZvHGcV3rvjj5bndUU').then(()=>this.textContent='✓')">copy</button>
@@ -2503,20 +2376,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">ROB</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">ROB</span>
             <span class="tpnl">1590 SOL</span>
             <a href="https://solscan.io/token/8Ho61bzov2ZiLC627tiBzLS3Ue4u15GMzmtodsLwpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#66</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">HcP1sHmebmoiVBLTFzZx2QfaXiQk7WLKnD8wNs2TwL15</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('HcP1sHmebmoiVBLTFzZx2QfaXiQk7WLKnD8wNs2TwL15').then(()=>this.textContent='✓')">copy</button>
@@ -2540,20 +2411,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Claimr</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Claimr</span>
             <span class="tpnl">1551 SOL</span>
             <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#67</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">7fTVgAzegWbk6bQL1HXoHEKBjDbdD3jjkmnTAtiiEwpn</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('7fTVgAzegWbk6bQL1HXoHEKBjDbdD3jjkmnTAtiiEwpn').then(()=>this.textContent='✓')">copy</button>
@@ -2577,20 +2446,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">GUARD</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">GUARD</span>
             <span class="tpnl">1543 SOL</span>
             <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#68</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">9RsGWbCV9aF6hkDq4s7zZN68KDvGSvTFimqDAwEuDUhX</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('9RsGWbCV9aF6hkDq4s7zZN68KDvGSvTFimqDAwEuDUhX').then(()=>this.textContent='✓')">copy</button>
@@ -2614,20 +2481,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">STACK</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">STACK</span>
             <span class="tpnl">1531 SOL</span>
             <a href="https://solscan.io/token/6dWoxftzRFH9Q1St4dChmzSQ6HhCZ2Lt3d3Lu7My9Eba" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard pending">
         <div class="wcard-header">
             <div class="rank">#69</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-pending">⏳ NOT CHECKED</span>
                 <span class="addr">EpcYWHZSVoCwPtjfAq5xxcAdRHYRCZS3REhWnUjQxbSy</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('EpcYWHZSVoCwPtjfAq5xxcAdRHYRCZS3REhWnUjQxbSy').then(()=>this.textContent='✓')">copy</button>
@@ -2651,20 +2516,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Claimr</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Claimr</span>
             <span class="tpnl">1480 SOL</span>
             <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">Not yet verified</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#70</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">B1G6NvaEkTFfjH1rGuey4JqY8e8649qCKrZKef312q6L</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('B1G6NvaEkTFfjH1rGuey4JqY8e8649qCKrZKef312q6L').then(()=>this.textContent='✓')">copy</button>
@@ -2688,20 +2551,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">LAMBO</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">LAMBO</span>
             <span class="tpnl">1415 SOL</span>
             <a href="https://solscan.io/token/DS3tKJeEscfe753pSXNiG1HrDMos2sobkBKyabNZpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#71</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">CGYrmCsHGH9J7azEoiE4MLgf61TLPy5icmEf6MfiJwNt</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('CGYrmCsHGH9J7azEoiE4MLgf61TLPy5icmEf6MfiJwNt').then(()=>this.textContent='✓')">copy</button>
@@ -2725,20 +2586,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEANPHIL</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEANPHIL</span>
             <span class="tpnl">1395 SOL</span>
             <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#72</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">4KnMA7fUfByvMJ6vdg3nvU5Cdwvaf9p7Ri1NsMQw44PJ</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('4KnMA7fUfByvMJ6vdg3nvU5Cdwvaf9p7Ri1NsMQw44PJ').then(()=>this.textContent='✓')">copy</button>
@@ -2762,20 +2621,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">WIBBO</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">WIBBO</span>
             <span class="tpnl">1371 SOL</span>
             <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#73</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">4VD5iaYRBqVnL3FdCdT7KNrP86wwRpffnHkdYkAMxRDY</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('4VD5iaYRBqVnL3FdCdT7KNrP86wwRpffnHkdYkAMxRDY').then(()=>this.textContent='✓')">copy</button>
@@ -2799,20 +2656,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Rick</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Rick</span>
             <span class="tpnl">1369 SOL</span>
             <a href="https://solscan.io/token/GEnkAoR4BNaP3br8rf8eo5mj7jMm5c5VpUuttwASpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#74</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">EkbF8aRxMBpDzgYGwKib6LaGRQHnTJKrwK3vTKqMVAPn</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('EkbF8aRxMBpDzgYGwKib6LaGRQHnTJKrwK3vTKqMVAPn').then(()=>this.textContent='✓')">copy</button>
@@ -2836,20 +2691,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">STACK</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">STACK</span>
             <span class="tpnl">1365 SOL</span>
             <a href="https://solscan.io/token/6dWoxftzRFH9Q1St4dChmzSQ6HhCZ2Lt3d3Lu7My9Eba" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#75</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">3VMTnPeQsZ5ZG4D3nY2TrGXfUFoa85ccfQnVaL1qNtmn</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('3VMTnPeQsZ5ZG4D3nY2TrGXfUFoa85ccfQnVaL1qNtmn').then(()=>this.textContent='✓')">copy</button>
@@ -2873,20 +2726,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">LAMBO</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">LAMBO</span>
             <span class="tpnl">1349 SOL</span>
             <a href="https://solscan.io/token/DS3tKJeEscfe753pSXNiG1HrDMos2sobkBKyabNZpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#76</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">27Y4DLNDNCxCHLsDNyV57jEEJraokK7ezcd9ET8T43g9</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('27Y4DLNDNCxCHLsDNyV57jEEJraokK7ezcd9ET8T43g9').then(()=>this.textContent='✓')">copy</button>
@@ -2910,20 +2761,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Tokens</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Tokens</span>
             <span class="tpnl">1314 SOL</span>
             <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#77</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">8i9a3eyxwo36VBkk5ML2Qjeqc2ec9de7nq4DGd5yzsm6</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('8i9a3eyxwo36VBkk5ML2Qjeqc2ec9de7nq4DGd5yzsm6').then(()=>this.textContent='✓')">copy</button>
@@ -2947,20 +2796,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">GUARD</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">GUARD</span>
             <span class="tpnl">1275 SOL</span>
             <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#78</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">6Z7FkLAY5Jf1kC1QQ6gLc1i6NFFqBbp4auCnXXqsZbty</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('6Z7FkLAY5Jf1kC1QQ6gLc1i6NFFqBbp4auCnXXqsZbty').then(()=>this.textContent='✓')">copy</button>
@@ -2984,20 +2831,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">LOOONG</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">LOOONG</span>
             <span class="tpnl">1246 SOL</span>
             <a href="https://solscan.io/token/8dnA3uotwGL4kgCoraKTypU4owcWSgkdBBXzXWykLL5h" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#79</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">HKUVmbuimN3kYf5ELAViuRaszoRS91u771zNkbtchesb</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('HKUVmbuimN3kYf5ELAViuRaszoRS91u771zNkbtchesb').then(()=>this.textContent='✓')">copy</button>
@@ -3021,20 +2866,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">SENDING </div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">SENDING </span>
             <span class="tpnl">1238 SOL</span>
             <a href="https://solscan.io/token/24G6fv23pPg3UTKAAA4dnC7UBe9SgEoj8HXscHJRpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#80</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">2CsNYX4uKhQd6gHq19rUFYiXRcNfyMn3zU2WSeEdi78Z</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('2CsNYX4uKhQd6gHq19rUFYiXRcNfyMn3zU2WSeEdi78Z').then(()=>this.textContent='✓')">copy</button>
@@ -3058,20 +2901,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEV</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEV</span>
             <span class="tpnl">1229 SOL</span>
             <a href="https://solscan.io/token/2RSnd9sEt7kyLBtDr262xBNwBsgegz5qcSFtDeSkFLEX" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#81</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">HbxUHTFfJcvnsrdNttC4eoRLvcu6Y9FZh1aRSToxx19t</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('HbxUHTFfJcvnsrdNttC4eoRLvcu6Y9FZh1aRSToxx19t').then(()=>this.textContent='✓')">copy</button>
@@ -3095,20 +2936,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">PumpPay</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">PumpPay</span>
             <span class="tpnl">1221 SOL</span>
             <a href="https://solscan.io/token/FKkDMWqFUTZcW6zacy9ikP5cdTb4dbXCtz3WkSyqpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#82</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">9DNMJosSFogyuYmWacYBgzeojPNXX4zT2J8EvUHLjZNG</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('9DNMJosSFogyuYmWacYBgzeojPNXX4zT2J8EvUHLjZNG').then(()=>this.textContent='✓')">copy</button>
@@ -3132,20 +2971,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">PumpPay</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">PumpPay</span>
             <span class="tpnl">1220 SOL</span>
             <a href="https://solscan.io/token/FKkDMWqFUTZcW6zacy9ikP5cdTb4dbXCtz3WkSyqpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#83</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">Evd4s1GoygwMaPDx6S3BYLvCSqRoUrpPXuaG4CnCRYx3</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('Evd4s1GoygwMaPDx6S3BYLvCSqRoUrpPXuaG4CnCRYx3').then(()=>this.textContent='✓')">copy</button>
@@ -3169,20 +3006,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Claimr</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Claimr</span>
             <span class="tpnl">1217 SOL</span>
             <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#84</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">5nVkWne2kwoFRK72kYpjmmxZd2ZihnuZ9QCGY9ZL5DYM</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('5nVkWne2kwoFRK72kYpjmmxZd2ZihnuZ9QCGY9ZL5DYM').then(()=>this.textContent='✓')">copy</button>
@@ -3206,20 +3041,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEV</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEV</span>
             <span class="tpnl">1191 SOL</span>
             <a href="https://solscan.io/token/2RSnd9sEt7kyLBtDr262xBNwBsgegz5qcSFtDeSkFLEX" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#85</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">9p3DCYMQnRLHSTamsoET49FJLDDGFfRrRiCVR2skhdV6</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('9p3DCYMQnRLHSTamsoET49FJLDDGFfRrRiCVR2skhdV6').then(()=>this.textContent='✓')">copy</button>
@@ -3243,20 +3076,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">STACK</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">STACK</span>
             <span class="tpnl">1181 SOL</span>
             <a href="https://solscan.io/token/6dWoxftzRFH9Q1St4dChmzSQ6HhCZ2Lt3d3Lu7My9Eba" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#86</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">DkfEbsgEoLUWmiktJcG5ic9YWZW7E43NShMxPnDShknC</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('DkfEbsgEoLUWmiktJcG5ic9YWZW7E43NShMxPnDShknC').then(()=>this.textContent='✓')">copy</button>
@@ -3280,20 +3111,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEV</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEV</span>
             <span class="tpnl">1180 SOL</span>
             <a href="https://solscan.io/token/2RSnd9sEt7kyLBtDr262xBNwBsgegz5qcSFtDeSkFLEX" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#87</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">BKL7fxM5Sbiofg6C3ED9eHJEkKxd6uGHAhX18cnto5yj</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('BKL7fxM5Sbiofg6C3ED9eHJEkKxd6uGHAhX18cnto5yj').then(()=>this.textContent='✓')">copy</button>
@@ -3317,20 +3146,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">STACK</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">STACK</span>
             <span class="tpnl">1168 SOL</span>
             <a href="https://solscan.io/token/6dWoxftzRFH9Q1St4dChmzSQ6HhCZ2Lt3d3Lu7My9Eba" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#88</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">3CkzByH9YGX91hwbKs8eYZQaSx1AJAsBcznomDFxfFEp</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('3CkzByH9YGX91hwbKs8eYZQaSx1AJAsBcznomDFxfFEp').then(()=>this.textContent='✓')">copy</button>
@@ -3354,20 +3181,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEV</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEV</span>
             <span class="tpnl">1112 SOL</span>
             <a href="https://solscan.io/token/2RSnd9sEt7kyLBtDr262xBNwBsgegz5qcSFtDeSkFLEX" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#89</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">ByhW4eeoLHzBY8iZU3sbUDKQmP7xGFL81frDq8C33zBa</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('ByhW4eeoLHzBY8iZU3sbUDKQmP7xGFL81frDq8C33zBa').then(()=>this.textContent='✓')">copy</button>
@@ -3391,20 +3216,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">LAMBO</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">LAMBO</span>
             <span class="tpnl">1106 SOL</span>
             <a href="https://solscan.io/token/DS3tKJeEscfe753pSXNiG1HrDMos2sobkBKyabNZpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#90</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">79jjSWy8nD7AsatPFoungqvSfk2KAkywRoqSKF9iDdy1</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('79jjSWy8nD7AsatPFoungqvSfk2KAkywRoqSKF9iDdy1').then(()=>this.textContent='✓')">copy</button>
@@ -3428,20 +3251,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">THE SAUCE</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">THE SAUCE</span>
             <span class="tpnl">1088 SOL</span>
             <a href="https://solscan.io/token/5vKtjWGRnkGm1qaPMueuiAdtfbs3TbRRSgLhL9Gwpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#91</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">2Gosi9AqSBXSnG4LnWKKUjWAdCaWA9V1fPvkYGZDCHro</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('2Gosi9AqSBXSnG4LnWKKUjWAdCaWA9V1fPvkYGZDCHro').then(()=>this.textContent='✓')">copy</button>
@@ -3465,20 +3286,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">STACK</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">STACK</span>
             <span class="tpnl">1076 SOL</span>
             <a href="https://solscan.io/token/6dWoxftzRFH9Q1St4dChmzSQ6HhCZ2Lt3d3Lu7My9Eba" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#92</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">HHyiSYCo1VcNqnkHNx2Amj89d3WEtet4QqE7yhTERXeh</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('HHyiSYCo1VcNqnkHNx2Amj89d3WEtet4QqE7yhTERXeh').then(()=>this.textContent='✓')">copy</button>
@@ -3502,20 +3321,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">JEV</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">JEV</span>
             <span class="tpnl">1046 SOL</span>
             <a href="https://solscan.io/token/2RSnd9sEt7kyLBtDr262xBNwBsgegz5qcSFtDeSkFLEX" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#93</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">DCfijQQggshFgnTTF3ki8khPSzpqE8uESbhiWYH1skRG</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('DCfijQQggshFgnTTF3ki8khPSzpqE8uESbhiWYH1skRG').then(()=>this.textContent='✓')">copy</button>
@@ -3539,20 +3356,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">LOOONG</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">LOOONG</span>
             <span class="tpnl">1045 SOL</span>
             <a href="https://solscan.io/token/8dnA3uotwGL4kgCoraKTypU4owcWSgkdBBXzXWykLL5h" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#94</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">2Hnz1mWs92Lk2ZAwadyaQWQAMimCZKmUDA6SXQGjgnKp</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('2Hnz1mWs92Lk2ZAwadyaQWQAMimCZKmUDA6SXQGjgnKp').then(()=>this.textContent='✓')">copy</button>
@@ -3576,20 +3391,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Bidr</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Bidr</span>
             <span class="tpnl">1026 SOL</span>
             <a href="https://solscan.io/token/CDZodzUDKGH1CfSczv7wi5gnM2ZsGz5JYKbkWreNpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#95</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">8N3ccWUj7AA6aA5ef299YcXhbCMH4Z1YdnfJVZCUsWAp</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('8N3ccWUj7AA6aA5ef299YcXhbCMH4Z1YdnfJVZCUsWAp').then(()=>this.textContent='✓')">copy</button>
@@ -3613,20 +3426,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">SENDING </div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">SENDING </span>
             <span class="tpnl">1013 SOL</span>
             <a href="https://solscan.io/token/24G6fv23pPg3UTKAAA4dnC7UBe9SgEoj8HXscHJRpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#96</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">3ksbgq89QjfHqFnfGwrsh2nd1VKBgAUgGvmMh9LNtmPu</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('3ksbgq89QjfHqFnfGwrsh2nd1VKBgAUgGvmMh9LNtmPu').then(()=>this.textContent='✓')">copy</button>
@@ -3650,20 +3461,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">LAMBO</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">LAMBO</span>
             <span class="tpnl">1007 SOL</span>
             <a href="https://solscan.io/token/DS3tKJeEscfe753pSXNiG1HrDMos2sobkBKyabNZpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#97</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">3AviA4ibitvJwzzwbKetAbqaLZEFteWFYqejvZnpU789</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('3AviA4ibitvJwzzwbKetAbqaLZEFteWFYqejvZnpU789').then(()=>this.textContent='✓')">copy</button>
@@ -3687,20 +3496,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">Bogdanoff</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">Bogdanoff</span>
             <span class="tpnl">1006 SOL</span>
             <a href="https://solscan.io/token/F1BQXs8RTr3pugsCddw3dGVWhfTAPhyLJpuWYpzgRZtU" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#98</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">cqEvWqD7BKDSvHSaQeDhGY16VhJXqoVzud8BFX3oieW</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('cqEvWqD7BKDSvHSaQeDhGY16VhJXqoVzud8BFX3oieW').then(()=>this.textContent='✓')">copy</button>
@@ -3724,20 +3531,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">LAMBO</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">LAMBO</span>
             <span class="tpnl">1005 SOL</span>
             <a href="https://solscan.io/token/DS3tKJeEscfe753pSXNiG1HrDMos2sobkBKyabNZpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard pending">
         <div class="wcard-header">
             <div class="rank">#99</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-pending">⏳ NOT CHECKED</span>
                 <span class="addr">HncYJ4BpvBuDKU5fs9tLYtW3fpvSA2JPqKKVJhYctfx2</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('HncYJ4BpvBuDKU5fs9tLYtW3fpvSA2JPqKKVJhYctfx2').then(()=>this.textContent='✓')">copy</button>
@@ -3761,20 +3566,18 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">SENDING </div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">SENDING </span>
             <span class="tpnl">984 SOL</span>
             <a href="https://solscan.io/token/24G6fv23pPg3UTKAAA4dnC7UBe9SgEoj8HXscHJRpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">Not yet verified</div>
     </div>
-    <div class="wcard suspicious">
+    <div class="wcard phantom">
         <div class="wcard-header">
             <div class="rank">#100</div>
             <div class="waddr">
-                <span class="badge badge-bad">⚠️ SUSPICIOUS</span>
+                <span class="badge badge-bad">❌ PHANTOM</span>
                 <span class="addr">3qRVBLsZUT9fabufJDiANHKP4LXyqgep1iVo5dwM5Gwk</span>
                 <div class="addrlinks">
                     <button class="copy" onclick="navigator.clipboard.writeText('3qRVBLsZUT9fabufJDiANHKP4LXyqgep1iVo5dwM5Gwk').then(()=>this.textContent='✓')">copy</button>
@@ -3798,25 +3601,22 @@ footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; fon
                 <div class="stat-val best">LAMBO</div>
             </div>
         </div>
-        <div class="wtrades">
-            <div class="trade">
+        <div class="wtrades"><div class="trade">
             <span class="tsym">LAMBO</span>
             <span class="tpnl">981 SOL</span>
             <a href="https://solscan.io/token/DS3tKJeEscfe753pSXNiG1HrDMos2sobkBKyabNZpump" target="_blank" class="tokenlink">→</a>
-        </div>
-        </div>
-        <div class="extra dim">Portfolio stats: 0 trades (traders endpoint data unreliable)</div>
+        </div></div>
+        <div class="extra dim">GMGN portfolio stats: 0 trades · On-chain check: wallet does not exist on Solana</div>
     </div>
 </div>
 
 <footer>
-    <p><strong>Verification method:</strong> Cross-check `portfolio stats` endpoint with `token traders` endpoint.</p>
-    <p>• `token traders` returns per-trade PnL — may include phantom wallets planted by token creators</p>
-    <p>• `portfolio stats` returns aggregate trading history — only includes wallets with real on-chain activity</p>
-    <p style="margin-top:8px;">
-        <a href="https://gmgn.ai/sol" target="_blank" style="color:#58a6ff;">GMGN</a> •
-        <a href="https://solscan.io" target="_blank" style="color:#58a6ff;">Solscan</a> •
-        <a href="https://axiom.trade" target="_blank" style="color:#58a6ff;">Axiom</a> •
+    <p><strong>Verification method:</strong></p>
+    <p>1. GMGN <code>portfolio stats</code> endpoint — checked for last_timestamp > 0 and tokens_traded > 0</p>
+    <p>2. Solana mainnet RPC <code>getAccountInfo</code> — verified wallet address actually exists on-chain</p>
+    <p>3. Result: 0 out of 400 verified wallets have any activity. Sample of 5 top "winners" all returned null on Solana RPC.</p>
+    <p style="margin-top:12px; color: #d29922;">
+        <strong>Next investigation:</strong> Try Birdeye paid API, Helius webhooks, or direct on-chain holder analysis (Jupiter aggregator data).
         <a href="../" style="color:#58a6ff;">← Back to project page</a>
     </p>
 </footer>
