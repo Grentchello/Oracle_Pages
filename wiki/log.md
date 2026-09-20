@@ -370,3 +370,9 @@
 **GMGN's `portfolio stats` endpoint was the unreliable layer** — it returns incomplete data and missed many real wallets.
 
 **Bot insight:** User asked about wallet `HbxUHTFfJcv...` — verified to have 1,000 txs in 30d = sniper bot, not human. Filters out as expected.
+
+## [2026-09-20 08:20 UTC] eval | bot.py (cron 2h auto-eval #26 since pause)
+- **Window since last eval (06:17 → 08:20 UTC)**: 0 new trades. 26th consecutive 2h zero-trade window. EXPECTED — PAUSE_NEW_ENTRIES=True (user pause from Sep 19 07:50 UTC) still in effect, bot.py line confirmed.
+- **Cumulative stats**: 3574 total trades, balance 1.140566 SOL, 0 open positions. Post-reset window (Sep 16+, n=55 trades): net PnL -0.8794 SOL, WR 9.1% (5W/50L) — UNCHANGED. Pre-reset (n=3519): bot-reports +25.485 SOL is paper/PnL-on-trades only, NOT realized balance — already documented as inflated by slippage + phantom TP per standing memory.
+- **Decision: NO CHANGES.** 26 evals deep into pause, identical stats. Mechanical rules (v8.7 hard cap, LLM sell_half/sell_all) cannot fix structural issue (pump.fun bonding-curve illiquidity + ghost exits). Structural fix (DEX-only / graduated-Raydium / depth-trend) remains out of cron scope, pending Grant.
+- **Next eval (~10:20 UTC)**: expect identical state until user un-pauses. If un-paused with current params (1.14 SOL balance + 0.02 SOL reserve floor + 0.02 POSITION_SIZE), reserve-block fires on every entry → recommend topping balance to ≥2.0 SOL before re-enabling.
