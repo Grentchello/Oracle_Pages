@@ -645,7 +645,7 @@ def build_decision_prompt(state, sol_price, watchlist_data, portfolio, today_pnl
     candidates_age = []
     for c in candidates:
         age_min = c.get("age_min", 0) or 0
-        if age_min < 2.0:  # eased from 3.0 min at cron eval 2026-09-17 20:57 UTC
+        if age_min < 3.0:  # tightened 2→3 min at cron eval 2026-09-20 00:08 UTC: post-reset (Sep 16+) showed 9.3% win rate with 100% rugs on every loss. Each -100% loss = -0.02 SOL. Prefer zero entries over consistent rugs. v8.7 mechanical rules preserved.
             age_filtered += 1
             log(f"v8.9 AGE FILTER: ${c.get('symbol')} rejected — only {age_min}min old (too volatile)")
             continue

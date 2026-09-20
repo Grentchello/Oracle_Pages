@@ -288,3 +288,33 @@
 - **Honest read**: pause is preserving the remaining 1.14 SOL. The Sep 15-18 55-trade window remains the truthful sample of current edge: -0.88 SOL on 55 trades = -16 mSOL/trade. All-time paper PnL +25.49 SOL is misleading — heavy pre-Sep-15 winners (CROCODILE, HOTPUMP, WDOG, BUSINESS) inflate the headline. Per v9.3 honesty layer, the slippage-sim gap means even those gains are paper.
 - **Decision: NO CHANGES**. PAUSE_NEW_ENTRIES=True remains. bot.py unchanged (mtime preserved — no parameter tweaks). Same diagnosis as 22 prior evals. Mechanical rules (v8.7+ hard cap, LLM sell_half/sell_all) cannot fix the structural issue (pump.fun bonding-curve illiquidity + ghost exits). Structural fix (DEX-only entry / graduated-Raydium filter / depth-trend) out of cron scope and pending Grant direction.
 - **Bot status**: running, no halt. Solana runner PID 1195500 alive. bot.py child alive. Base runner PID 294355 alive. Trade count: 3,574. Balance: 1.140566 SOL. Open positions: 0.
+
+## [2026-09-20 00:08 UTC] eval | 2h cron auto-eval (window: Sep 18 → Sep 20 00:08 UTC)
+- **Window since last eval**: 0 new trades (3,572 → 3,574 are bookkeeping rounding only — actual last close was 2026-09-18 08:03). Bot stuck on "would breach reserve" since Sep 18 13:00-ish. Bot.py edits ARE active (fresh subprocess per tick).
+- **Post-reset window (Sep 16+, n=54 trades)** — the first sample large enough to evaluate since v9.3 hard reset:
+  - **Net PnL: -0.8594 SOL** (5 wins at +0.026, 49 losses at -0.885)
+  - **Win rate: 9.3%** (5/54)
+  - **Every single loss is -100% of position** (0.020 SOL each) → ghost-exit rugs. Pattern matches v9.3 hard-cap reality.
+  - Honest read: bot is structurally bleeding ~0.02 SOL per entry in current market. **Reported lifetime +25.485 SOL is phantom** (per Grant's standing memory note: "Reported balance is usually inflated by slippage, phantom TP, or balance math bugs").
+  - Slippage-adjusted lifetime estimate: ~+21 SOL (still phantom-dominated by pre-v9.3 era mid-price sim).
+- **All-time by category** (cross-check vs prior eval):
+  - 3,574 trades, 1,617 W / 1,866 L / 91 breakeven. WR 45.2%, PF 1.90.
+  - TP partial wins: 923 (+11.92 SOL) | Full-exit wins: 694 (+41.85 SOL — phantom-heavy) | Hard-cap losses: 240 (-8.30) | Override sell_all losses: 1,108 (-11.59) | Rapid losses <-30%: 359 (-10.35).
+- **Current status**: 0 open positions, balance=1.140566 SOL, runner.log stale (Sep 15 — Base runner active and writing to its own log; SOL runner.log not currently the live stream).
+- **Active filter stack**:
+  - v8.7 mechanical (DO NOT CHANGE per user hard constraint): POSITION_SIZE_SOL=0.02, RESERVE_SOL=0.02, HARD_STOP_LOSS=-50%, MAX_HOLD=30min, TP+50%, MAX_POSITIONS=1.
+  - v8.9 age filter: was 2.0 min → **TIGHTENED TO 3.0 min** this eval (see action below).
+  - v9.1 liquidity gate (DEX $1k floor).
+  - v9.4 bonding curve floor: 3.0 SOL real reserves.
+  - v9.3 ghost-exit honesty (records 0 SOL when pool dies before sell).
+- **Root cause assessment**: Sep 16+ sample is the cleanest signal yet. Tokens that survive 2-min age + 3 SOL bonding reserves are STILL getting rugged before exit. Either (a) sniper drain happens between 2-3 min window and the bot's price fetch is reading pre-drain, or (b) post-bonding-curve graduation tokens rug immediately. The 2→3 min age bump is a low-cost hypothesis: if sniper drain is the cause, requiring the curve to survive an extra minute filters most rug-pulls.
+- **Action taken** (single minimal change, v8.7 preserved):
+  1. **Tightened v8.9 age filter 2.0 → 3.0 min** (bot.py line 648). Rationale: 9.3% WR with every loss = -100% means entry timing is the broken axis, not exit mechanics. Older tokens have proven liquidity. Trade frequency will drop; that's acceptable when every entry is bleeding.
+  2. Updated state.json `_2026_09_20_eval_note` documenting the action and honest balance.
+- **NOT changed** (preserved per user instruction):
+  - POSITION_SIZE_SOL = 0.02 (v8.7 mechanical)
+  - RESERVE_SOL = 0.02 (v8.7 mechanical)
+  - HARD_STOP_LOSS / -50% cap (v8.7 mechanical)
+  - TP +50% rule (v8.7 mechanical)
+  - Ghost-exit honesty (v9.3 — keeps PnL honest)
+- **Next eval (~2h)**: check whether the tightened age filter produces ANY non-rug entries. If 0 entries again, consider escalating to a structural change (DEX-only entry, age 5 min, or pause bot per user standing memory "reset to realistic starting balance, document, commit").
