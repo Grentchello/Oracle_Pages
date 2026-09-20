@@ -41,7 +41,7 @@ title: oracle_Vault — Master Dashboard
 
     **Status:** v1 running. 6 pairs × 4 strategies, paper $1000 bankroll.
 
--   :material-magnify: **[Copy-Trading Wallets](projects/copy-trading/dashboard.html)** — 86/100 real on-chain · 73 organic · 8 phantomn't exist on Solana)nding ⏳ney wallets from 62 tokens (top: +83.2k SOL)
+-   :material-target: **[Copy-Trading Targets](projects/copy-trading/dashboard.html)** — 55 ideal wallets (5-20 SOL, organic, verified)n-chain · 73 organic · 8 phantomn't exist on Solana)nding ⏳ney wallets from 62 tokens (top: +83.2k SOL)
 
     ---
 
