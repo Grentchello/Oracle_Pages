@@ -318,3 +318,11 @@
   - TP +50% rule (v8.7 mechanical)
   - Ghost-exit honesty (v9.3 — keeps PnL honest)
 - **Next eval (~2h)**: check whether the tightened age filter produces ANY non-rug entries. If 0 entries again, consider escalating to a structural change (DEX-only entry, age 5 min, or pause bot per user standing memory "reset to realistic starting balance, document, commit").
+
+## [2026-09-20 02:11 UTC] eval | bot.py (cron 2h auto-eval)
+- Read state.json + runner.log. Bot paused by user on Sep 19 07:50 UTC (API spam prevention). No new trades since then.
+- Re-ran cumulative stats on 3,574 trade history: WR 46.4% (1,617 W / 1,866 L / 91 flat), rapid losses (<5 min held) 1,709 / non-rapid losses 157. Cumulative pnl_sol = +25.4850 SOL but balance 1.140566 / start 2.0 → ~26 SOL of phantom profit, dominated by pre-v9.3 ghost-exit era and unmodeled slippage (consistent with prior honest assessment).
+- runner.log last entry Sep 15 07:29 — every buy blocked by reserve (0.02 SOL floor). Bot starved to 1.14 SOL and never recovered even when trades existed.
+- **Decision: no parameter change.** Bot is already paused by the user; tweaking age filter / position size / reserve on a paused bot is theatre. Standing memory says "reset to realistic starting balance, document, commit" when reported profit looks phantom — but the relevant action here is the user's prior pause, which I must NOT override. v8.7 mechanical rules preserved.
+- No code edits. No state.json edits. No commit needed (no changes).
+- Next eval will see the same numbers until the user un-pauses. If un-paused with current params, expect same reserve-blocked starvation → recommend the top-up-to-starting-balance reset (per standing memory) before re-enabling.
