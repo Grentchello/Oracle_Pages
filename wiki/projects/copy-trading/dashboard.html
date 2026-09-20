@@ -1,0 +1,2129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Copy-Trading — Smart Money Wallets</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", monospace; background: #0d1117; color: #c9d1d9; padding: 16px; }
+header { border-bottom: 1px solid #30363d; padding-bottom: 16px; margin-bottom: 24px; }
+h1 { color: #58a6ff; font-size: 22px; margin-bottom: 4px; }
+.subtitle { color: #8b949e; font-size: 12px; }
+.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 16px 0 24px; }
+.kpi { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 12px; }
+.kpi-label { font-size: 11px; color: #8b949e; text-transform: uppercase; }
+.kpi-val { font-size: 24px; font-weight: 700; color: #58a6ff; margin-top: 4px; }
+.kpi-val.profit { color: #3fb950; }
+.wcard { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 14px; margin-bottom: 12px; }
+.wcard-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+.rank { background: #58a6ff; color: #0d1117; font-weight: 800; border-radius: 50%; min-width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; font-size: 13px; }
+.waddr { flex: 1; min-width: 0; }
+.addr { font-family: monospace; font-size: 11px; color: #c9d1d9; word-break: break-all; }
+.addrlinks { margin-top: 4px; display: flex; gap: 8px; font-size: 11px; }
+.addrlinks a, .copy { color: #58a6ff; text-decoration: none; background: none; border: 1px solid #30363d; padding: 2px 8px; border-radius: 4px; cursor: pointer; font-size: 11px; }
+.addrlinks a:hover, .copy:hover { background: #21262d; }
+.wstats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+.stat { background: #0d1117; border-radius: 4px; padding: 6px 8px; }
+.stat-label { font-size: 10px; color: #8b949e; text-transform: uppercase; }
+.stat-val { font-size: 15px; font-weight: 600; margin-top: 2px; }
+.stat-val.profit { color: #3fb950; }
+.stat-val.best { color: #d29922; font-size: 12px; }
+.wtrades { display: flex; flex-direction: column; gap: 4px; }
+.trade { display: flex; gap: 8px; align-items: center; font-size: 11px; }
+.tsym { color: #d29922; font-weight: 600; min-width: 70px; }
+.tpnl { color: #3fb950; }
+.tokenlink { color: #58a6ff; text-decoration: none; font-size: 14px; }
+.tag { display: inline-block; background: #1f6feb33; color: #58a6ff; padding: 2px 6px; border-radius: 3px; font-size: 10px; margin-right: 4px; }
+footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; font-size: 11px; color: #8b949e; }
+.note { background: #161b22; border-left: 3px solid #d29922; padding: 12px; margin: 16px 0; font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+    <h1>🧠 Copy-Trading — Smart Money Wallet List</h1>
+    <div class="subtitle">
+        Generated 2026-09-20T03:19:58Z • Source: GMGN trenches (smart-money preset)
+        • Wallet list: <a href="https://github.com/Grentchello/oracle_Vault/blob/main/bot/copy_trading/wallets_smart_money.json" target="_blank" style="color:#58a6ff;">View raw JSON</a>
+    </div>
+</header>
+
+<div class="summary">
+    <div class="kpi">
+        <div class="kpi-label">Tokens Analyzed</div>
+        <div class="kpi-val">8</div>
+    </div>
+    <div class="kpi">
+        <div class="kpi-label">Wallets Found</div>
+        <div class="kpi-val profit">139</div>
+    </div>
+    <div class="kpi">
+        <div class="kpi-label">Repeat Winners</div>
+        <div class="kpi-val">0</div>
+    </div>
+    <div class="kpi">
+        <div class="kpi-label">Top PnL</div>
+        <div class="kpi-val profit">4.9k SOL</div>
+    </div>
+</div>
+
+<div class="note">
+    ⚠️ <strong>Method:</strong> Pulled 8 recently-completed Pump.fun tokens with highest smart-degen count, then extracted top traders (positive realized PnL) from each. Top 100 unique wallets ranked by total profit. <strong>Each wallet won on 1 token so far</strong> — deeper scan needed to find true repeat winners.
+</div>
+
+
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#1</div>
+            <div class="waddr">
+                <span class="addr">864PisFmdkCDpPR5J6jhMZCRzHZc5LsoaDTsG4hndc2L</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('864PisFmdkCDpPR5J6jhMZCRzHZc5LsoaDTsG4hndc2L').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/864PisFmdkCDpPR5J6jhMZCRzHZc5LsoaDTsG4hndc2L" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/864PisFmdkCDpPR5J6jhMZCRzHZc5LsoaDTsG4hndc2L" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+4.9k SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">4930 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#2</div>
+            <div class="waddr">
+                <span class="addr">DrPkRQWbQ9ybEUciW4QgmPbscEDhsvcpTMkfr7HSCPej</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('DrPkRQWbQ9ybEUciW4QgmPbscEDhsvcpTMkfr7HSCPej').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/DrPkRQWbQ9ybEUciW4QgmPbscEDhsvcpTMkfr7HSCPej" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/DrPkRQWbQ9ybEUciW4QgmPbscEDhsvcpTMkfr7HSCPej" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+4.0k SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">3954 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#3</div>
+            <div class="waddr">
+                <span class="addr">h53FRcCHDp82odsd4i23KeVV3ibgLk5ggvdYCfLyHZy</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('h53FRcCHDp82odsd4i23KeVV3ibgLk5ggvdYCfLyHZy').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/h53FRcCHDp82odsd4i23KeVV3ibgLk5ggvdYCfLyHZy" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/h53FRcCHDp82odsd4i23KeVV3ibgLk5ggvdYCfLyHZy" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+3.4k SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">Pencil</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">Pencil</span>
+            <span class="tpnl">3409 SOL</span>
+            <a href="https://solscan.io/token/8XPDPyPAz4H64aqCHkSjuUYtyjfiG7dPi328WSkrpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#4</div>
+            <div class="waddr">
+                <span class="addr">Biz5FKp5SjNMUasTCM7FTydwFkWJVYofLSnX8RhJrJYp</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('Biz5FKp5SjNMUasTCM7FTydwFkWJVYofLSnX8RhJrJYp').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/Biz5FKp5SjNMUasTCM7FTydwFkWJVYofLSnX8RhJrJYp" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/Biz5FKp5SjNMUasTCM7FTydwFkWJVYofLSnX8RhJrJYp" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+3.2k SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">Pencil</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">Pencil</span>
+            <span class="tpnl">3175 SOL</span>
+            <a href="https://solscan.io/token/8XPDPyPAz4H64aqCHkSjuUYtyjfiG7dPi328WSkrpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#5</div>
+            <div class="waddr">
+                <span class="addr">Bg2pmUcUj3CTs6QBfzgVq1ej9xLL9aQs3A9wAgrxU9yU</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('Bg2pmUcUj3CTs6QBfzgVq1ej9xLL9aQs3A9wAgrxU9yU').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/Bg2pmUcUj3CTs6QBfzgVq1ej9xLL9aQs3A9wAgrxU9yU" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/Bg2pmUcUj3CTs6QBfzgVq1ej9xLL9aQs3A9wAgrxU9yU" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+3.0k SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">xPad</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">xPad</span>
+            <span class="tpnl">3031 SOL</span>
+            <a href="https://solscan.io/token/72VYCTpMtNZ9krwLTMYJqADzxFsFZ6iDkpWYw1Wpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#6</div>
+            <div class="waddr">
+                <span class="addr">CRSGqhoju16LuHYR8SvKTVvJ63ZG15mymCXV9spi2nP9</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('CRSGqhoju16LuHYR8SvKTVvJ63ZG15mymCXV9spi2nP9').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/CRSGqhoju16LuHYR8SvKTVvJ63ZG15mymCXV9spi2nP9" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/CRSGqhoju16LuHYR8SvKTVvJ63ZG15mymCXV9spi2nP9" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+2.4k SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">Pencil</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">Pencil</span>
+            <span class="tpnl">2381 SOL</span>
+            <a href="https://solscan.io/token/8XPDPyPAz4H64aqCHkSjuUYtyjfiG7dPi328WSkrpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#7</div>
+            <div class="waddr">
+                <span class="addr">8ynNvNq3pC1T94RmBQAatpnaUwWBvrh2EdEdzwCxCykm</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('8ynNvNq3pC1T94RmBQAatpnaUwWBvrh2EdEdzwCxCykm').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/8ynNvNq3pC1T94RmBQAatpnaUwWBvrh2EdEdzwCxCykm" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/8ynNvNq3pC1T94RmBQAatpnaUwWBvrh2EdEdzwCxCykm" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+2.3k SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">URANUS</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">URANUS</span>
+            <span class="tpnl">2347 SOL</span>
+            <a href="https://solscan.io/token/EzVx612iQ6EDMXnju7ufy8A3dgsqcdP8WiWfpJfNUsJD" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#8</div>
+            <div class="waddr">
+                <span class="addr">9vjRjbwsV8EdKm8J89ZUdHDduVGZtSiDvC2KkikxHGF6</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('9vjRjbwsV8EdKm8J89ZUdHDduVGZtSiDvC2KkikxHGF6').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/9vjRjbwsV8EdKm8J89ZUdHDduVGZtSiDvC2KkikxHGF6" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/9vjRjbwsV8EdKm8J89ZUdHDduVGZtSiDvC2KkikxHGF6" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+1.8k SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">Healing</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">Healing</span>
+            <span class="tpnl">1774 SOL</span>
+            <a href="https://solscan.io/token/FJCdyEtH5kTGs7ZQ6kviL4cjgpRo1vSXM3sRdTGCpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#9</div>
+            <div class="waddr">
+                <span class="addr">3f67RzmHqWznN1kwbAfsrtfh4eMsWEu2GTuXGv8FVY3j</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('3f67RzmHqWznN1kwbAfsrtfh4eMsWEu2GTuXGv8FVY3j').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/3f67RzmHqWznN1kwbAfsrtfh4eMsWEu2GTuXGv8FVY3j" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/3f67RzmHqWznN1kwbAfsrtfh4eMsWEu2GTuXGv8FVY3j" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+1.8k SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">1771 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#10</div>
+            <div class="waddr">
+                <span class="addr">7fTVgAzegWbk6bQL1HXoHEKBjDbdD3jjkmnTAtiiEwpn</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('7fTVgAzegWbk6bQL1HXoHEKBjDbdD3jjkmnTAtiiEwpn').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/7fTVgAzegWbk6bQL1HXoHEKBjDbdD3jjkmnTAtiiEwpn" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/7fTVgAzegWbk6bQL1HXoHEKBjDbdD3jjkmnTAtiiEwpn" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+1.5k SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">1543 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#11</div>
+            <div class="waddr">
+                <span class="addr">4KnMA7fUfByvMJ6vdg3nvU5Cdwvaf9p7Ri1NsMQw44PJ</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('4KnMA7fUfByvMJ6vdg3nvU5Cdwvaf9p7Ri1NsMQw44PJ').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/4KnMA7fUfByvMJ6vdg3nvU5Cdwvaf9p7Ri1NsMQw44PJ" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/4KnMA7fUfByvMJ6vdg3nvU5Cdwvaf9p7Ri1NsMQw44PJ" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+1.4k SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">1371 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#12</div>
+            <div class="waddr">
+                <span class="addr">8i9a3eyxwo36VBkk5ML2Qjeqc2ec9de7nq4DGd5yzsm6</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('8i9a3eyxwo36VBkk5ML2Qjeqc2ec9de7nq4DGd5yzsm6').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/8i9a3eyxwo36VBkk5ML2Qjeqc2ec9de7nq4DGd5yzsm6" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/8i9a3eyxwo36VBkk5ML2Qjeqc2ec9de7nq4DGd5yzsm6" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+1.3k SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">1275 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#13</div>
+            <div class="waddr">
+                <span class="addr">EXGeZy6CfVGuNzeeB8GhMZKdqcuqPUn4bzxzUYZXUxVc</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('EXGeZy6CfVGuNzeeB8GhMZKdqcuqPUn4bzxzUYZXUxVc').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/EXGeZy6CfVGuNzeeB8GhMZKdqcuqPUn4bzxzUYZXUxVc" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/EXGeZy6CfVGuNzeeB8GhMZKdqcuqPUn4bzxzUYZXUxVc" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+965 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">Healing</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">Healing</span>
+            <span class="tpnl">965 SOL</span>
+            <a href="https://solscan.io/token/FJCdyEtH5kTGs7ZQ6kviL4cjgpRo1vSXM3sRdTGCpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#14</div>
+            <div class="waddr">
+                <span class="addr">4CTKJkmJDrSE6ugoDVhy8qXby684aprmiieB3QxcG8wE</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('4CTKJkmJDrSE6ugoDVhy8qXby684aprmiieB3QxcG8wE').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/4CTKJkmJDrSE6ugoDVhy8qXby684aprmiieB3QxcG8wE" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/4CTKJkmJDrSE6ugoDVhy8qXby684aprmiieB3QxcG8wE" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+953 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">953 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#15</div>
+            <div class="waddr">
+                <span class="addr">Lt2ZP8nEYv72mURMJK3ZdWbRcbRC7DbHCCKgChtp1jd</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('Lt2ZP8nEYv72mURMJK3ZdWbRcbRC7DbHCCKgChtp1jd').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/Lt2ZP8nEYv72mURMJK3ZdWbRcbRC7DbHCCKgChtp1jd" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/Lt2ZP8nEYv72mURMJK3ZdWbRcbRC7DbHCCKgChtp1jd" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+802 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">802 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#16</div>
+            <div class="waddr">
+                <span class="addr">5AxwZLaXDFnUcEUq3zu2k5sMJU9299DptxiTSFaTqWNG</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('5AxwZLaXDFnUcEUq3zu2k5sMJU9299DptxiTSFaTqWNG').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/5AxwZLaXDFnUcEUq3zu2k5sMJU9299DptxiTSFaTqWNG" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/5AxwZLaXDFnUcEUq3zu2k5sMJU9299DptxiTSFaTqWNG" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+774 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">774 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#17</div>
+            <div class="waddr">
+                <span class="addr">AcBYeB8473KFJW5V8Eb41BXcbDJQjwzUB638CbFvHzj6</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('AcBYeB8473KFJW5V8Eb41BXcbDJQjwzUB638CbFvHzj6').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/AcBYeB8473KFJW5V8Eb41BXcbDJQjwzUB638CbFvHzj6" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/AcBYeB8473KFJW5V8Eb41BXcbDJQjwzUB638CbFvHzj6" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+667 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">667 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#18</div>
+            <div class="waddr">
+                <span class="addr">HBztNFxrrx7tAS6b4EPP87FyCsDKUmmZsjmcSEEyE49z</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('HBztNFxrrx7tAS6b4EPP87FyCsDKUmmZsjmcSEEyE49z').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/HBztNFxrrx7tAS6b4EPP87FyCsDKUmmZsjmcSEEyE49z" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/HBztNFxrrx7tAS6b4EPP87FyCsDKUmmZsjmcSEEyE49z" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+662 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">Pencil</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">Pencil</span>
+            <span class="tpnl">662 SOL</span>
+            <a href="https://solscan.io/token/8XPDPyPAz4H64aqCHkSjuUYtyjfiG7dPi328WSkrpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#19</div>
+            <div class="waddr">
+                <span class="addr">BdcMq5bPJ47n9KCxptj3APU2oXDe2erHrm8iepinVXE6</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('BdcMq5bPJ47n9KCxptj3APU2oXDe2erHrm8iepinVXE6').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/BdcMq5bPJ47n9KCxptj3APU2oXDe2erHrm8iepinVXE6" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/BdcMq5bPJ47n9KCxptj3APU2oXDe2erHrm8iepinVXE6" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+631 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">Pencil</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">Pencil</span>
+            <span class="tpnl">631 SOL</span>
+            <a href="https://solscan.io/token/8XPDPyPAz4H64aqCHkSjuUYtyjfiG7dPi328WSkrpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#20</div>
+            <div class="waddr">
+                <span class="addr">6rhV3vjdBeKUq7pn7xUivu7Qnd1vrezMpLjo4McbLsc1</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('6rhV3vjdBeKUq7pn7xUivu7Qnd1vrezMpLjo4McbLsc1').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/6rhV3vjdBeKUq7pn7xUivu7Qnd1vrezMpLjo4McbLsc1" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/6rhV3vjdBeKUq7pn7xUivu7Qnd1vrezMpLjo4McbLsc1" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+627 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">627 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#21</div>
+            <div class="waddr">
+                <span class="addr">2q5dhAfp1ssbVaaVZnvTxD8Ran8V1gFudsCFVRxuVmVn</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('2q5dhAfp1ssbVaaVZnvTxD8Ran8V1gFudsCFVRxuVmVn').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/2q5dhAfp1ssbVaaVZnvTxD8Ran8V1gFudsCFVRxuVmVn" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/2q5dhAfp1ssbVaaVZnvTxD8Ran8V1gFudsCFVRxuVmVn" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+594 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">594 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#22</div>
+            <div class="waddr">
+                <span class="addr">8hMV6aYyz6vCy6VnjouzbjvV38nFiwphdB1MvNyfLdyf</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('8hMV6aYyz6vCy6VnjouzbjvV38nFiwphdB1MvNyfLdyf').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/8hMV6aYyz6vCy6VnjouzbjvV38nFiwphdB1MvNyfLdyf" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/8hMV6aYyz6vCy6VnjouzbjvV38nFiwphdB1MvNyfLdyf" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+520 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">SENDING </div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">SENDING </span>
+            <span class="tpnl">520 SOL</span>
+            <a href="https://solscan.io/token/24G6fv23pPg3UTKAAA4dnC7UBe9SgEoj8HXscHJRpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#23</div>
+            <div class="waddr">
+                <span class="addr">HncYJ4BpvBuDKU5fs9tLYtW3fpvSA2JPqKKVJhYctfx2</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('HncYJ4BpvBuDKU5fs9tLYtW3fpvSA2JPqKKVJhYctfx2').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/HncYJ4BpvBuDKU5fs9tLYtW3fpvSA2JPqKKVJhYctfx2" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/HncYJ4BpvBuDKU5fs9tLYtW3fpvSA2JPqKKVJhYctfx2" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+520 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">SENDING </div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">SENDING </span>
+            <span class="tpnl">520 SOL</span>
+            <a href="https://solscan.io/token/24G6fv23pPg3UTKAAA4dnC7UBe9SgEoj8HXscHJRpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#24</div>
+            <div class="waddr">
+                <span class="addr">FSFYKKM2Xg7b6d4RWdfV8FzVwc6bNYsqfq24bbQmfAqv</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('FSFYKKM2Xg7b6d4RWdfV8FzVwc6bNYsqfq24bbQmfAqv').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/FSFYKKM2Xg7b6d4RWdfV8FzVwc6bNYsqfq24bbQmfAqv" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/FSFYKKM2Xg7b6d4RWdfV8FzVwc6bNYsqfq24bbQmfAqv" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+517 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">517 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#25</div>
+            <div class="waddr">
+                <span class="addr">GzbJmrsa7rh3NHjZdpgdTb6KHh2U3L7C6Zy93oE87izw</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('GzbJmrsa7rh3NHjZdpgdTb6KHh2U3L7C6Zy93oE87izw').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/GzbJmrsa7rh3NHjZdpgdTb6KHh2U3L7C6Zy93oE87izw" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/GzbJmrsa7rh3NHjZdpgdTb6KHh2U3L7C6Zy93oE87izw" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+482 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">482 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#26</div>
+            <div class="waddr">
+                <span class="addr">RW5nQm2MGL5KfoX3VRtwUJwZy6eGr6pd2rBK7dfn7GD</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('RW5nQm2MGL5KfoX3VRtwUJwZy6eGr6pd2rBK7dfn7GD').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/RW5nQm2MGL5KfoX3VRtwUJwZy6eGr6pd2rBK7dfn7GD" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/RW5nQm2MGL5KfoX3VRtwUJwZy6eGr6pd2rBK7dfn7GD" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+469 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">469 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#27</div>
+            <div class="waddr">
+                <span class="addr">76njubasggkw4zzJNFRnpDd8KnKmLBeu7fsZmLXCapZS</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('76njubasggkw4zzJNFRnpDd8KnKmLBeu7fsZmLXCapZS').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/76njubasggkw4zzJNFRnpDd8KnKmLBeu7fsZmLXCapZS" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/76njubasggkw4zzJNFRnpDd8KnKmLBeu7fsZmLXCapZS" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+444 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">444 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#28</div>
+            <div class="waddr">
+                <span class="addr">EEST8oaMUT4CbygNKWfBrK8cm25EYcgDqGfReXxXooMa</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('EEST8oaMUT4CbygNKWfBrK8cm25EYcgDqGfReXxXooMa').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/EEST8oaMUT4CbygNKWfBrK8cm25EYcgDqGfReXxXooMa" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/EEST8oaMUT4CbygNKWfBrK8cm25EYcgDqGfReXxXooMa" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+420 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">SENDING </div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">SENDING </span>
+            <span class="tpnl">420 SOL</span>
+            <a href="https://solscan.io/token/24G6fv23pPg3UTKAAA4dnC7UBe9SgEoj8HXscHJRpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#29</div>
+            <div class="waddr">
+                <span class="addr">HTTjvY4Nv2CBCga3HtX56kAHh6mynjLDRF8CNf8wMoDz</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('HTTjvY4Nv2CBCga3HtX56kAHh6mynjLDRF8CNf8wMoDz').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/HTTjvY4Nv2CBCga3HtX56kAHh6mynjLDRF8CNf8wMoDz" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/HTTjvY4Nv2CBCga3HtX56kAHh6mynjLDRF8CNf8wMoDz" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+402 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">402 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#30</div>
+            <div class="waddr">
+                <span class="addr">GCUqioWykpisGX3deaG5nFFqCFQEW4YUkJDdWjPbenmM</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('GCUqioWykpisGX3deaG5nFFqCFQEW4YUkJDdWjPbenmM').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/GCUqioWykpisGX3deaG5nFFqCFQEW4YUkJDdWjPbenmM" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/GCUqioWykpisGX3deaG5nFFqCFQEW4YUkJDdWjPbenmM" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+381 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">SENDING </div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">SENDING </span>
+            <span class="tpnl">381 SOL</span>
+            <a href="https://solscan.io/token/24G6fv23pPg3UTKAAA4dnC7UBe9SgEoj8HXscHJRpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#31</div>
+            <div class="waddr">
+                <span class="addr">2mvzQrSdiS7fuYYnAVQFab9qBZb7nA1cYifbPurBAgeh</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('2mvzQrSdiS7fuYYnAVQFab9qBZb7nA1cYifbPurBAgeh').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/2mvzQrSdiS7fuYYnAVQFab9qBZb7nA1cYifbPurBAgeh" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/2mvzQrSdiS7fuYYnAVQFab9qBZb7nA1cYifbPurBAgeh" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+378 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">378 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#32</div>
+            <div class="waddr">
+                <span class="addr">8cSqFJJ8DzSoUBXpHBsg6szCDN9CCpbvjZ5uhqrCAvms</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('8cSqFJJ8DzSoUBXpHBsg6szCDN9CCpbvjZ5uhqrCAvms').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/8cSqFJJ8DzSoUBXpHBsg6szCDN9CCpbvjZ5uhqrCAvms" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/8cSqFJJ8DzSoUBXpHBsg6szCDN9CCpbvjZ5uhqrCAvms" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+366 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">366 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#33</div>
+            <div class="waddr">
+                <span class="addr">8N3ccWUj7AA6aA5ef299YcXhbCMH4Z1YdnfJVZCUsWAp</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('8N3ccWUj7AA6aA5ef299YcXhbCMH4Z1YdnfJVZCUsWAp').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/8N3ccWUj7AA6aA5ef299YcXhbCMH4Z1YdnfJVZCUsWAp" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/8N3ccWUj7AA6aA5ef299YcXhbCMH4Z1YdnfJVZCUsWAp" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+360 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">SENDING </div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">SENDING </span>
+            <span class="tpnl">360 SOL</span>
+            <a href="https://solscan.io/token/24G6fv23pPg3UTKAAA4dnC7UBe9SgEoj8HXscHJRpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#34</div>
+            <div class="waddr">
+                <span class="addr">FKpJpE5B8fs2svDjhpT9RBwYAjcnnojZjB5qNLPejkXn</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('FKpJpE5B8fs2svDjhpT9RBwYAjcnnojZjB5qNLPejkXn').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/FKpJpE5B8fs2svDjhpT9RBwYAjcnnojZjB5qNLPejkXn" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/FKpJpE5B8fs2svDjhpT9RBwYAjcnnojZjB5qNLPejkXn" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+331 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">331 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#35</div>
+            <div class="waddr">
+                <span class="addr">4RjhkWbTmTLyoAWaCC2d8NcH1mzkJKzp8NLASrzDmM8w</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('4RjhkWbTmTLyoAWaCC2d8NcH1mzkJKzp8NLASrzDmM8w').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/4RjhkWbTmTLyoAWaCC2d8NcH1mzkJKzp8NLASrzDmM8w" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/4RjhkWbTmTLyoAWaCC2d8NcH1mzkJKzp8NLASrzDmM8w" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+320 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">320 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#36</div>
+            <div class="waddr">
+                <span class="addr">7qq1cgYLQon1vFtNBxzBkXLsHEv2KZi4vUrsu3p4Kj82</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('7qq1cgYLQon1vFtNBxzBkXLsHEv2KZi4vUrsu3p4Kj82').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/7qq1cgYLQon1vFtNBxzBkXLsHEv2KZi4vUrsu3p4Kj82" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/7qq1cgYLQon1vFtNBxzBkXLsHEv2KZi4vUrsu3p4Kj82" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+317 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">SENDING </div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">SENDING </span>
+            <span class="tpnl">317 SOL</span>
+            <a href="https://solscan.io/token/24G6fv23pPg3UTKAAA4dnC7UBe9SgEoj8HXscHJRpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#37</div>
+            <div class="waddr">
+                <span class="addr">GnMKWJvbzVkbUcn3DGp9jzAQ9KnyWZf6VDZCmjdN2eKm</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('GnMKWJvbzVkbUcn3DGp9jzAQ9KnyWZf6VDZCmjdN2eKm').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/GnMKWJvbzVkbUcn3DGp9jzAQ9KnyWZf6VDZCmjdN2eKm" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/GnMKWJvbzVkbUcn3DGp9jzAQ9KnyWZf6VDZCmjdN2eKm" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+316 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">316 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#38</div>
+            <div class="waddr">
+                <span class="addr">5hr9hfJcBHx8cjb73LJsm9SzG1bsg5jyiKVaD4KEvt8L</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('5hr9hfJcBHx8cjb73LJsm9SzG1bsg5jyiKVaD4KEvt8L').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/5hr9hfJcBHx8cjb73LJsm9SzG1bsg5jyiKVaD4KEvt8L" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/5hr9hfJcBHx8cjb73LJsm9SzG1bsg5jyiKVaD4KEvt8L" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+293 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">293 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#39</div>
+            <div class="waddr">
+                <span class="addr">DvToT51fEQJcBAq9gGSkFYGnnGL1WNvZP8j5nZcovo8A</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('DvToT51fEQJcBAq9gGSkFYGnnGL1WNvZP8j5nZcovo8A').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/DvToT51fEQJcBAq9gGSkFYGnnGL1WNvZP8j5nZcovo8A" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/DvToT51fEQJcBAq9gGSkFYGnnGL1WNvZP8j5nZcovo8A" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+291 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">Pencil</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">Pencil</span>
+            <span class="tpnl">291 SOL</span>
+            <a href="https://solscan.io/token/8XPDPyPAz4H64aqCHkSjuUYtyjfiG7dPi328WSkrpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#40</div>
+            <div class="waddr">
+                <span class="addr">A6k9iJw81HZcVKaCvcR8nunWvbFe66HnACsUqCux8zEx</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('A6k9iJw81HZcVKaCvcR8nunWvbFe66HnACsUqCux8zEx').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/A6k9iJw81HZcVKaCvcR8nunWvbFe66HnACsUqCux8zEx" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/A6k9iJw81HZcVKaCvcR8nunWvbFe66HnACsUqCux8zEx" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+286 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">286 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#41</div>
+            <div class="waddr">
+                <span class="addr">95en8RKkiEehtVbVZQUU4hFWsQRfYEa9JSm9sPyE8u2</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('95en8RKkiEehtVbVZQUU4hFWsQRfYEa9JSm9sPyE8u2').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/95en8RKkiEehtVbVZQUU4hFWsQRfYEa9JSm9sPyE8u2" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/95en8RKkiEehtVbVZQUU4hFWsQRfYEa9JSm9sPyE8u2" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+281 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">281 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#42</div>
+            <div class="waddr">
+                <span class="addr">DZn6NKczdfkTVd3Zt8Pyxb2ieqFfs9CJFy6F8a5RJV5g</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('DZn6NKczdfkTVd3Zt8Pyxb2ieqFfs9CJFy6F8a5RJV5g').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/DZn6NKczdfkTVd3Zt8Pyxb2ieqFfs9CJFy6F8a5RJV5g" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/DZn6NKczdfkTVd3Zt8Pyxb2ieqFfs9CJFy6F8a5RJV5g" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+273 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">Pencil</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">Pencil</span>
+            <span class="tpnl">273 SOL</span>
+            <a href="https://solscan.io/token/8XPDPyPAz4H64aqCHkSjuUYtyjfiG7dPi328WSkrpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#43</div>
+            <div class="waddr">
+                <span class="addr">DFEYxPqsv1WEqah8n3firLxpo2ZTpFXmR3KJgi2YK6vz</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('DFEYxPqsv1WEqah8n3firLxpo2ZTpFXmR3KJgi2YK6vz').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/DFEYxPqsv1WEqah8n3firLxpo2ZTpFXmR3KJgi2YK6vz" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/DFEYxPqsv1WEqah8n3firLxpo2ZTpFXmR3KJgi2YK6vz" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+271 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">271 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#44</div>
+            <div class="waddr">
+                <span class="addr">BHSQ4LZpq4W2koi5dMqQdoyDaUZu2Mh4bjw4y6eH1pER</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('BHSQ4LZpq4W2koi5dMqQdoyDaUZu2Mh4bjw4y6eH1pER').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/BHSQ4LZpq4W2koi5dMqQdoyDaUZu2Mh4bjw4y6eH1pER" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/BHSQ4LZpq4W2koi5dMqQdoyDaUZu2Mh4bjw4y6eH1pER" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+254 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">254 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#45</div>
+            <div class="waddr">
+                <span class="addr">FcdJXJeQezPr7j8Ush1DcSiQBrGvqK8w38u3uN8b5KQ</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('FcdJXJeQezPr7j8Ush1DcSiQBrGvqK8w38u3uN8b5KQ').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/FcdJXJeQezPr7j8Ush1DcSiQBrGvqK8w38u3uN8b5KQ" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/FcdJXJeQezPr7j8Ush1DcSiQBrGvqK8w38u3uN8b5KQ" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+239 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">239 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#46</div>
+            <div class="waddr">
+                <span class="addr">BrTGEo5fXWT2p7ZENMjbe1Vigpar68kt46CBMDfps2be</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('BrTGEo5fXWT2p7ZENMjbe1Vigpar68kt46CBMDfps2be').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/BrTGEo5fXWT2p7ZENMjbe1Vigpar68kt46CBMDfps2be" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/BrTGEo5fXWT2p7ZENMjbe1Vigpar68kt46CBMDfps2be" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+238 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">238 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#47</div>
+            <div class="waddr">
+                <span class="addr">7hJPcPm39oCYeskuUiE2KppBTpwh1PDydRqDAiagWea1</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('7hJPcPm39oCYeskuUiE2KppBTpwh1PDydRqDAiagWea1').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/7hJPcPm39oCYeskuUiE2KppBTpwh1PDydRqDAiagWea1" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/7hJPcPm39oCYeskuUiE2KppBTpwh1PDydRqDAiagWea1" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+230 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">230 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#48</div>
+            <div class="waddr">
+                <span class="addr">GixH292svCMCpbgGFrNDV98ZA9WpWwdWBK46VPgCDA7U</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('GixH292svCMCpbgGFrNDV98ZA9WpWwdWBK46VPgCDA7U').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/GixH292svCMCpbgGFrNDV98ZA9WpWwdWBK46VPgCDA7U" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/GixH292svCMCpbgGFrNDV98ZA9WpWwdWBK46VPgCDA7U" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+229 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">229 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#49</div>
+            <div class="waddr">
+                <span class="addr">8gwWqFg5KkYmXgKcKH12tNccAutwgE2g4wmerW7MqmWG</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('8gwWqFg5KkYmXgKcKH12tNccAutwgE2g4wmerW7MqmWG').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/8gwWqFg5KkYmXgKcKH12tNccAutwgE2g4wmerW7MqmWG" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/8gwWqFg5KkYmXgKcKH12tNccAutwgE2g4wmerW7MqmWG" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+224 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">SENDING </div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">SENDING </span>
+            <span class="tpnl">224 SOL</span>
+            <a href="https://solscan.io/token/24G6fv23pPg3UTKAAA4dnC7UBe9SgEoj8HXscHJRpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#50</div>
+            <div class="waddr">
+                <span class="addr">5jSrga95Qf1KNs3s6mpra8VhyygQgMWyBG6msS3HM8Hb</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('5jSrga95Qf1KNs3s6mpra8VhyygQgMWyBG6msS3HM8Hb').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/5jSrga95Qf1KNs3s6mpra8VhyygQgMWyBG6msS3HM8Hb" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/5jSrga95Qf1KNs3s6mpra8VhyygQgMWyBG6msS3HM8Hb" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+217 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">URANUS</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">URANUS</span>
+            <span class="tpnl">217 SOL</span>
+            <a href="https://solscan.io/token/EzVx612iQ6EDMXnju7ufy8A3dgsqcdP8WiWfpJfNUsJD" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#51</div>
+            <div class="waddr">
+                <span class="addr">BC3ZiGyfa8dPDQZ6mRukUCa6cKdd548CAuy7xZADtewc</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('BC3ZiGyfa8dPDQZ6mRukUCa6cKdd548CAuy7xZADtewc').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/BC3ZiGyfa8dPDQZ6mRukUCa6cKdd548CAuy7xZADtewc" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/BC3ZiGyfa8dPDQZ6mRukUCa6cKdd548CAuy7xZADtewc" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+201 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">201 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#52</div>
+            <div class="waddr">
+                <span class="addr">FYxxLUo96XJBx1id3XbL1MP6Xn6eRH1gAPUgy2HApXAv</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('FYxxLUo96XJBx1id3XbL1MP6Xn6eRH1gAPUgy2HApXAv').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/FYxxLUo96XJBx1id3XbL1MP6Xn6eRH1gAPUgy2HApXAv" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/FYxxLUo96XJBx1id3XbL1MP6Xn6eRH1gAPUgy2HApXAv" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+200 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">Healing</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">Healing</span>
+            <span class="tpnl">200 SOL</span>
+            <a href="https://solscan.io/token/FJCdyEtH5kTGs7ZQ6kviL4cjgpRo1vSXM3sRdTGCpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#53</div>
+            <div class="waddr">
+                <span class="addr">EYCyqo5uvKNdT9BdK3hSrtEKaA2mj8WvXYLUoRwvgU6v</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('EYCyqo5uvKNdT9BdK3hSrtEKaA2mj8WvXYLUoRwvgU6v').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/EYCyqo5uvKNdT9BdK3hSrtEKaA2mj8WvXYLUoRwvgU6v" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/EYCyqo5uvKNdT9BdK3hSrtEKaA2mj8WvXYLUoRwvgU6v" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+188 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">188 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#54</div>
+            <div class="waddr">
+                <span class="addr">A7j98J8TzqhaABL4w3xgF1a29DdDvczGcUe3zbezbKMa</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('A7j98J8TzqhaABL4w3xgF1a29DdDvczGcUe3zbezbKMa').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/A7j98J8TzqhaABL4w3xgF1a29DdDvczGcUe3zbezbKMa" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/A7j98J8TzqhaABL4w3xgF1a29DdDvczGcUe3zbezbKMa" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+180 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">WIBBO</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">WIBBO</span>
+            <span class="tpnl">180 SOL</span>
+            <a href="https://solscan.io/token/CVoNMSYK9mVd3TzAutnrRTKmptQUQ7r9qBg1ejb7vVd2" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#55</div>
+            <div class="waddr">
+                <span class="addr">9Ehp2WcE2XfGn9SqNbX3bbfYMBB2KBYQMDQZNrT3VZvU</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('9Ehp2WcE2XfGn9SqNbX3bbfYMBB2KBYQMDQZNrT3VZvU').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/9Ehp2WcE2XfGn9SqNbX3bbfYMBB2KBYQMDQZNrT3VZvU" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/9Ehp2WcE2XfGn9SqNbX3bbfYMBB2KBYQMDQZNrT3VZvU" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+147 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">GUARD</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">GUARD</span>
+            <span class="tpnl">147 SOL</span>
+            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#56</div>
+            <div class="waddr">
+                <span class="addr">AeP2NzHBsnSgJSukdH4LuogsJqnCnDFMCyKPQ4U6Azds</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('AeP2NzHBsnSgJSukdH4LuogsJqnCnDFMCyKPQ4U6Azds').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/AeP2NzHBsnSgJSukdH4LuogsJqnCnDFMCyKPQ4U6Azds" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/AeP2NzHBsnSgJSukdH4LuogsJqnCnDFMCyKPQ4U6Azds" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+147 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">ZKSTR</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">ZKSTR</span>
+            <span class="tpnl">147 SOL</span>
+            <a href="https://solscan.io/token/MqceG97gU445GGKbpw9wSJJvc6j9A1MZDgoT6X9qBcm" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#57</div>
+            <div class="waddr">
+                <span class="addr">5iHY2NqUUwJd818VCXcXqJ17inWi8DDLPxh33BnH4q64</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('5iHY2NqUUwJd818VCXcXqJ17inWi8DDLPxh33BnH4q64').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/5iHY2NqUUwJd818VCXcXqJ17inWi8DDLPxh33BnH4q64" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/5iHY2NqUUwJd818VCXcXqJ17inWi8DDLPxh33BnH4q64" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+142 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">Healing</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">Healing</span>
+            <span class="tpnl">142 SOL</span>
+            <a href="https://solscan.io/token/FJCdyEtH5kTGs7ZQ6kviL4cjgpRo1vSXM3sRdTGCpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#58</div>
+            <div class="waddr">
+                <span class="addr">BgGvXz8iuiobfsfziqWw7GzJwtFUbeGHJ87viVfBU7rT</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('BgGvXz8iuiobfsfziqWw7GzJwtFUbeGHJ87viVfBU7rT').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/BgGvXz8iuiobfsfziqWw7GzJwtFUbeGHJ87viVfBU7rT" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/BgGvXz8iuiobfsfziqWw7GzJwtFUbeGHJ87viVfBU7rT" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+139 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">Healing</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">Healing</span>
+            <span class="tpnl">139 SOL</span>
+            <a href="https://solscan.io/token/FJCdyEtH5kTGs7ZQ6kviL4cjgpRo1vSXM3sRdTGCpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#59</div>
+            <div class="waddr">
+                <span class="addr">BJ5hu3TeeKbna3sAVrrxn5eVRfVUjf6nPR8isb2y1AHp</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('BJ5hu3TeeKbna3sAVrrxn5eVRfVUjf6nPR8isb2y1AHp').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/BJ5hu3TeeKbna3sAVrrxn5eVRfVUjf6nPR8isb2y1AHp" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/BJ5hu3TeeKbna3sAVrrxn5eVRfVUjf6nPR8isb2y1AHp" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+138 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">SENDING </div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">SENDING </span>
+            <span class="tpnl">138 SOL</span>
+            <a href="https://solscan.io/token/24G6fv23pPg3UTKAAA4dnC7UBe9SgEoj8HXscHJRpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+    <div class="wcard">
+        <div class="wcard-header">
+            <div class="rank">#60</div>
+            <div class="waddr">
+                <span class="addr">EX2sVVZvPZSgWRqzWweJQqkeFwFW4rQ43JSnk85ZhSjo</span>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('EX2sVVZvPZSgWRqzWweJQqkeFwFW4rQ43JSnk85ZhSjo').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/EX2sVVZvPZSgWRqzWweJQqkeFwFW4rQ43JSnk85ZhSjo" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/EX2sVVZvPZSgWRqzWweJQqkeFwFW4rQ43JSnk85ZhSjo" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="wstats">
+            <div class="stat">
+                <div class="stat-label">Total PnL</div>
+                <div class="stat-val profit">+137 SOL</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Tokens Won</div>
+                <div class="stat-val">1</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Best Token</div>
+                <div class="stat-val best">Healing</div>
+            </div>
+        </div>
+        <div class="wtrades">
+            <div class="trade">
+            <span class="tsym">Healing</span>
+            <span class="tpnl">137 SOL</span>
+            <a href="https://solscan.io/token/FJCdyEtH5kTGs7ZQ6kviL4cjgpRo1vSXM3sRdTGCpump" target="_blank" class="tokenlink">→</a>
+        </div>
+        </div>
+    </div>
+
+<footer>
+    <p>
+        Discovery: tokens with smart-degen count ≥ 20 → top traders (Pnl &gt; 0) → unique wallets
+        • Each token analyzed via GMGN <code>market trenches --filter-preset smart-money</code>
+        • Traders pulled via GMGN <code>token traders --limit 80</code>
+    </p>
+    <p style="margin-top:8px;">
+        <a href="https://gmgn.ai/sol" target="_blank" style="color:#58a6ff;">GMGN</a> •
+        <a href="https://solscan.io" target="_blank" style="color:#58a6ff;">Solscan</a> •
+        <a href="../" style="color:#58a6ff;">← Back to project page</a>
+    </p>
+</footer>
+</body>
+</html>

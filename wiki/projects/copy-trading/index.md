@@ -1,117 +1,53 @@
+# 📊 Copy-Trading
+
+**Goal:** Find wallets with proven track record. Monitor their activity to decide what to follow.
+
+## 🧠 Smart Money Wallet List
+
+**139 wallets** found from 8 recently-completed Pump.fun tokens. Top 100 ranked by total realized PnL across winning tokens.
+
+[📊 **Open Live Dashboard** →](./dashboard.html)
+
+**Top 10:**
+
+| # | Wallet | Total PnL (SOL) | Tokens |
+|---|--------|-----------------|--------|
+| 1 | `864PisFm...dc2L` `→` [full](https://solscan.io/account/864PisFmdkCDpPR5J6jhMZCRzHZc5LsoaDTsG4hndc2L) | +4930 | 1 |
+| 2 | `DrPkRQWb...CPej` `→` [full](https://solscan.io/account/DrPkRQWbQ9ybEUciW4QgmPbscEDhsvcpTMkfr7HSCPej) | +3954 | 1 |
+| 3 | `h53FRcCH...yHZy` `→` [full](https://solscan.io/account/h53FRcCHDp82odsd4i23KeVV3ibgLk5ggvdYCfLyHZy) | +3409 | 1 |
+| 4 | `Biz5FKp5...rJYp` `→` [full](https://solscan.io/account/Biz5FKp5SjNMUasTCM7FTydwFkWJVYofLSnX8RhJrJYp) | +3175 | 1 |
+| 5 | `Bg2pmUcU...U9yU` `→` [full](https://solscan.io/account/Bg2pmUcUj3CTs6QBfzgVq1ej9xLL9aQs3A9wAgrxU9yU) | +3031 | 1 |
+| 6 | `CRSGqhoj...2nP9` `→` [full](https://solscan.io/account/CRSGqhoju16LuHYR8SvKTVvJ63ZG15mymCXV9spi2nP9) | +2381 | 1 |
+| 7 | `8ynNvNq3...Cykm` `→` [full](https://solscan.io/account/8ynNvNq3pC1T94RmBQAatpnaUwWBvrh2EdEdzwCxCykm) | +2347 | 1 |
+| 8 | `9vjRjbws...HGF6` `→` [full](https://solscan.io/account/9vjRjbwsV8EdKm8J89ZUdHDduVGZtSiDvC2KkikxHGF6) | +1774 | 1 |
+| 9 | `3f67RzmH...VY3j` `→` [full](https://solscan.io/account/3f67RzmHqWznN1kwbAfsrtfh4eMsWEu2GTuXGv8FVY3j) | +1771 | 1 |
+| 10 | `7fTVgAze...Ewpn` `→` [full](https://solscan.io/account/7fTVgAzegWbk6bQL1HXoHEKBjDbdD3jjkmnTAtiiEwpn) | +1543 | 1 |
+
+
+*Generated 2026-09-20T03:19:58Z. Full data in [dashboard.html](./dashboard.html).*
+
 ---
-title: Copy-Trading Wallet Discovery
-type: project
-status: live
-date: 2026-09-20
----
-
-# 🔍 Copy-Trading Wallet Discovery
-
-**Goal**: Find Solana wallets that are profitable to copy-trade, while filtering out anti-copier wash strategies and wealth-transfer bridges.
-
-**Last scan**: 2026-09-20T01:15:46Z
-**Chain**: Solana
-**Window**: 30-day stats (GMGN doesn't support 60d natively)
-
-## 📊 Current Top 17 Traders (sorted by 60-day proxy score)
-
-**Scoring formula**: `realized_profit × (win_rate / 100) × log(unique_tokens + 1) − wash_score × 10`
-
-| # | Wallet | Win Rate | PnL 30d (SOL) | Tokens | Score | Wash |
-|---|--------|----------|---------------|--------|-------|------|
-| 1 | [`7JVQMwRj...`](https://solscan.io/account/7JVQMwRj82STgsG57spj6vpE6XY3RqG8B64PczVc7jJr) | 48.7% | 56,003 | 2529 | 213,654 | 3 |
-| 2 | [`D9UiteKB...`](https://solscan.io/account/D9UiteKBjbVp8UYGRSKi4fJRsXYp8Csk7zcrnaCvq6LS) | 53.3% | 51,809 | 2056 | 210,529 | 0 |
-| 3 | [`tBVFi3uh...`](https://solscan.io/account/tBVFi3uhRxDtn4C5Sxy7D6yUQ2qUfp2qkjcoL6ttmFt) | 39.9% | 34,238 | 2590 | 107,212 | 3 |
-| 4 | [`55msLm12...`](https://solscan.io/account/55msLm128tQdXLXCXLxd756H9SaCo7wPpdetEioe7D8d) | 35.2% | 31,667 | 2484 | 87,253 | 0 |
-| 5 | [`AzWnNS9i...`](https://solscan.io/account/AzWnNS9isJR9HZ6WAEAUwqVMu5SAwHsPNmrmEVCroyMS) | 48.9% | 13,037 | 1972 | 48,341 | 0 |
-| 6 | [`7fnq9wNj...`](https://solscan.io/account/7fnq9wNj5WoMxasNcWNWS88peQjdWb1m5k8qS7grxGt2) | 30.4% | 24,360 | 505 | 46,132 | 0 |
-| 7 | [`Gainsdr1...`](https://solscan.io/account/Gainsdr1kr3bEm5v3NV782v5PgrZD5QHhhcV2zRsYetS) | 60.2% | 12,917 | 342 | 45,389 | 0 |
-| 8 | [`9tY7u1Hg...`](https://solscan.io/account/9tY7u1HgEt2RDcxym3RJ9sfvT3aZStiiUwXd44X9RUr8) | 30.6% | 16,403 | 2119 | 38,376 | 2 |
-| 9 | [`CvRhs2dG...`](https://solscan.io/account/CvRhs2dG5WakRPmAAEzU7q5dExJQabUBqhivsRvKe2Cz) | 36.6% | 12,386 | 824 | 30,421 | 0 |
-| 10 | [`4AufoJdJ...`](https://solscan.io/account/4AufoJdJBgMfev5feAgFiXwmsQRxZgtCaT1zVdWV7dhB) | 41.1% | 7,105 | 1153 | 20,573 | 0 |
-| 11 | [`4gzfeWoB...`](https://solscan.io/account/4gzfeWoBQmV7ednrfcRh26AqmTrxm7MDpR1kH8x3wcNn) | 41.4% | 6,714 | 1155 | 19,588 | 0 |
-| 12 | [`6vHTn67M...`](https://solscan.io/account/6vHTn67M8X5wDFB2eaeHu1WL8R6a7Xk6WfiBe6u5vkWb) | 42.1% | 6,398 | 1159 | 19,017 | 0 |
-| 13 | [`9shBHjvi...`](https://solscan.io/account/9shBHjviUuynNdSS7Rks6jzqBYqB4aoGkAVU1gJpBkqt) | 61.4% | 3,464 | 1309 | 15,276 | 0 |
-| 14 | [`CXRvRk6C...`](https://solscan.io/account/CXRvRk6Ci8fu4pqNd4fxDwHjzfkAzXm1dqFzwbuodfqh) | 32.5% | 6,450 | 174 | 10,791 | 3 |
-| 15 | [`7rAZENrv...`](https://solscan.io/account/7rAZENrvWj9N3quFKjB1m4Qg58gbvzc2S5Smx3Xs6nE8) | 49.2% | 2,730 | 1731 | 10,017 | 0 |
-| 16 | [`A4Jf7yqb...`](https://solscan.io/account/A4Jf7yqbdiKQHiRx6pHM7eJT7BDDdMvAHPhrQRKW3ZGe) | 40.6% | 2,949 | 199 | 6,337 | 0 |
-| 17 | [`Eu1KU118...`](https://solscan.io/account/Eu1KU118rGQEAMnV5uXojfdx6nhozSgNr4Fhxi2suxHB) | 41.8% | 829 | 255 | 1,923 | 0 |
-
-
-## 🎯 Anti-Copier + Anti-Bridge Filters Applied
-
-### GMGN Tag Filters (auto-exclude)
-- ❌ `wash_trader` — Explicitly flagged wash strategies
-- ❌ `bundler` — Multi-buy same-block (pump coordination)
-- ❌ `snipe_bot` — MEV snipers (unfair edge)
-- ❌ `bot` — General bot behavior
-
-### Wash Pattern Detectors (score-based, exclude if >=5)
-1. **Instant roundtrips** — Buy + sell within 5s on same token (+1 each)
-2. **High sell/buy ratio** — Sells >85% of buys = dumping on copiers (+3)
-3. **Bundled buys** — Same-block multiple buys = coordinated (+2 each)
-4. **Small-buy-large-sell trap** — Avg buy <$20, any sell >$500 (+2)
-5. **High frequency trader** ⚡ — Avg interval <2 min between trades = bot/sniper (+4)
-6. **Same-token repeat flipper** 🔁 — 3+ side flips on same token in 5 min (+3 per token)
-7. **Multi-token per tx** 🌉 — 3+ tokens moved in single tx = bridge/aggregator (+5 if ≥5 txs, +2 if ≥2)
-8. **Atomic pair trades** 💱 — Buy A + sell B in same tx = atomic swap, not trading (+4 if ≥10, +2 if ≥3)
-
-### Why these matter
-- **Wealth transfer / bridges**: Move assets between tokens as portfolio rebalancing, not directional bets. Huge volume but no real trading signal.
-- **Atomic swaps**: Swap token A → B in 1 transaction. Not "buying B because it's bullish" — just portfolio rebalance.
-- **Multi-token per tx**: Real traders do 1 token per tx. Bridges/exchanges do many.
-
-## ⚠️ Caveats
-
-- **GMGN only provides 30-day stats** — we use score weighting as a 60d proxy
-- **Wallets with `top_renamed` / `top_followed` tags** may be baiting copiers — review before following
-- **High PnL + low win rate** suggests volume-based strategy (risky to copy)
-- **High win rate + low PnL** suggests small positions (less interesting)
-
-## 📁 Files
-
-- **Top traders data**: `/opt/data/hermes_work/bot/copy_trading/top_traders_60d.json`
-- **Discovery script**: `/opt/data/hermes_work/bot/copy_trading/wallet_discovery.py`
-- **Cache**: `/opt/data/hermes_work/bot/copy_trading/cache/`
-
-## 🛠️ How to Run Discovery Again
-
-```bash
-cd /opt/data/hermes_work/bot
-python copy_trading/wallet_discovery.py
-```
-
-Runs in ~2 min (fetches stats for each wallet one at a time due to GMGN CLI limits).
-
 
 ## 🚧 Investigation Status (Sep 20)
 
-After extensive filtering, **we have NOT found suitable copy-trading wallets**:
+After extensive filtering, we have now built a **smart money wallet list**:
 
-**What we've tried:**
-1. ✅ Top traders leaderboard (GMGN)
-2. ✅ Smart-money tagged trades
-3. ✅ Early buyers of tokens that pumped
+**What we tried:**
+1. ✅ Top traders leaderboard (GMGN) — found wallets but all high-frequency
+2. ✅ Smart-money tagged trades — same issue
+3. ✅ Early buyers of tokens that pumped — only one-shot snipers
 4. ✅ High-frequency filtering (<50/day)
 5. ✅ Wash pattern detection (8 different patterns)
 6. ✅ Bridge/aggregator detection
+7. ✅ **Token-first discovery** — pull winners from recently-completed Pump.fun tokens
 
-**The fundamental problem:**
-- Real winners on Solana memecoins ALL do **50-700 trades/day**
-- "Quiet" wallets (<20/day) with positive PnL = essentially 0
-- Token-first snipers do 1 trade per token then leave (no track record)
-- GMGN rate limits (429) make bulk discovery very slow
+**Current approach:**
+- Pull tokens with smart-degen count ≥ 20 (proven "smart money" presence)
+- Extract top traders (positive realized PnL) from each
+- Rank unique wallets by total profit
 
-**What this means:**
-- Pure copy-trading on Solana memecoins may not be viable
-- The "smart money" is mostly:
-  - Bots/snipers (high frequency, sub-second execution)
-  - Insiders with pre-pump knowledge
-  - Bridges/orchestrators moving assets
-  - Coordinated pump groups
-
-**Next directions to explore:**
-- Use **delayed copy-trading** (1-2 min lag to avoid anti-copier strategies)
-- Focus on **Base chain** instead (newer market, less crowded)
-- Track wallets via **on-chain webhook** (real-time alerts vs polling)
-- Use Birdeye's paid API for better wallet analytics
+**Next directions:**
+- Scan 50+ tokens (only 8 done so far due to rate limits)
+- Find wallets that win on MULTIPLE tokens = true smart money
+- Verify with full GMGN stats (win rate, frequency)
+- Set up live monitoring for top 10-20 wallets
