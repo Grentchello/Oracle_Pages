@@ -82,3 +82,36 @@ python copy_trading/wallet_discovery.py
 ```
 
 Runs in ~2 min (fetches stats for each wallet one at a time due to GMGN CLI limits).
+
+
+## 🚧 Investigation Status (Sep 20)
+
+After extensive filtering, **we have NOT found suitable copy-trading wallets**:
+
+**What we've tried:**
+1. ✅ Top traders leaderboard (GMGN)
+2. ✅ Smart-money tagged trades
+3. ✅ Early buyers of tokens that pumped
+4. ✅ High-frequency filtering (<50/day)
+5. ✅ Wash pattern detection (8 different patterns)
+6. ✅ Bridge/aggregator detection
+
+**The fundamental problem:**
+- Real winners on Solana memecoins ALL do **50-700 trades/day**
+- "Quiet" wallets (<20/day) with positive PnL = essentially 0
+- Token-first snipers do 1 trade per token then leave (no track record)
+- GMGN rate limits (429) make bulk discovery very slow
+
+**What this means:**
+- Pure copy-trading on Solana memecoins may not be viable
+- The "smart money" is mostly:
+  - Bots/snipers (high frequency, sub-second execution)
+  - Insiders with pre-pump knowledge
+  - Bridges/orchestrators moving assets
+  - Coordinated pump groups
+
+**Next directions to explore:**
+- Use **delayed copy-trading** (1-2 min lag to avoid anti-copier strategies)
+- Focus on **Base chain** instead (newer market, less crowded)
+- Track wallets via **on-chain webhook** (real-time alerts vs polling)
+- Use Birdeye's paid API for better wallet analytics

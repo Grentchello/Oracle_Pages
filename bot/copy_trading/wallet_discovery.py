@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
 """
 Copy-trading wallet discovery via GMGN API.
+
+FINDINGS (Sep 2026):
+- GMGN smartmoney feed wallets do 1000-20000 trades/30d (50-700/day) = bots
+- Token-first buyers (early snipers) all have 0 PnL — they buy once and leave
+- Real winners exist but all do high frequency trading
+- GMGN rate limits (429) make bulk discovery unreliable
+- Cache to disk to survive rate limits (1 hour for trades, permanent for stats)
+
 Strategy:
   1. Pull smart-money buy signals (signal-type=5) over recent period
   2. Extract unique wallet addresses (makers)
@@ -15,6 +23,10 @@ Strategy:
      - sells > buys ratio (dumping on copiers)
      - bundled with same-block buys (coordinated dump)
      - renamed repeatedly (avoiding blacklist)
+     - avg trade interval <2 min (bot)
+     - 3+ side flips on same token in 5 min (flipping)
+     - 3+ tokens in single tx (bridge/aggregator)
+     - buy A + sell B in same tx (atomic swap)
   5. Output top 50+ sorted by 60-day score
 """
 import subprocess
@@ -46,42 +58,97 @@ def _run(args: list, timeout: int = 60) -> Optional[dict]:
         return None
 
 
-def get_smart_money_trades(limit: int = 200) -> list:
-    """Pull recent smart-money tagged trades."""
+def get_smart_money_trades(limit: int = 200, use_cache: bool = True) -> list:
+    """Pull recent smart-money tagged trades. Cached to disk."""
+    cache_file = CACHE_DIR / "smartmoney_trades.json"
+    if use_cache and cache_file.exists():
+        import time as _t
+        age_hours = (_t.time() - cache_file.stat().st_mtime) / 3600
+        if age_hours < 1:  # cache for 1 hour
+            try:
+                cached = json.loads(cache_file.read_text())
+                print(f"[i] Using cached smartmoney trades ({len(cached)}, age {age_hours:.1f}h)")
+                return cached
+            except Exception:
+                pass
+
     data = _run(["track", "smartmoney", "--chain", CHAIN, "--limit", str(limit)], timeout=120)
     if not data:
+        # Fall back to cache even if stale
+        if cache_file.exists():
+            cached = json.loads(cache_file.read_text())
+            print(f"[i] GMGN rate limited, using stale cache ({len(cached)} trades)")
+            return cached
         return []
-    return data.get("list", data) if isinstance(data, dict) else data
+
+    trades = data.get("list", data) if isinstance(data, dict) else data
+    try:
+        cache_file.write_text(json.dumps(trades))
+    except Exception:
+        pass
+    return trades
 
 
 def get_wallet_stats(wallets: list, period: str = "30d") -> dict:
     """Get trading stats — one wallet per call (GMGN CLI limitation).
-    Returns dict keyed by wallet address.
+    Returns dict keyed by wallet address. Caches results to disk to survive rate limits.
     """
-    out = {}
+    # Load cache
+    cache_file = CACHE_DIR / f"stats_30d.json"
+    cache = {}
+    if cache_file.exists():
+        try:
+            cache = json.loads(cache_file.read_text())
+            print(f"[i] Loaded {len(cache)} cached stats")
+        except Exception:
+            pass
+
+    out = dict(cache)
     for w in wallets:
+        if w in cache:
+            continue
         data = _run(["portfolio", "stats", "--chain", CHAIN, "--period", period, "--wallet", w], timeout=60)
         if data and isinstance(data, dict) and "wallet_address" in data:
             out[w] = data
-        time.sleep(0.5)  # rate limit
+            cache[w] = data
+            if len(out) % 10 == 0:
+                cache_file.write_text(json.dumps(cache))
+        time.sleep(1.0)  # rate limit
+    cache_file.write_text(json.dumps(cache))
     return out
 
 
 def get_wallet_profits(wallets: list, period: str = "all") -> dict:
     """Get all-time PnL — one wallet per call (GMGN CLI limitation).
-    Returns dict keyed by wallet address.
+    Returns dict keyed by wallet address. Caches to disk.
     """
-    out = {}
+    cache_file = CACHE_DIR / f"profits_all.json"
+    cache = {}
+    if cache_file.exists():
+        try:
+            cache = json.loads(cache_file.read_text())
+            print(f"[i] Loaded {len(cache)} cached profits")
+        except Exception:
+            pass
+
+    out = dict(cache)
     for w in wallets:
+        if w in cache:
+            continue
         data = _run(["portfolio", "profits", "--chain", CHAIN, "--period", period, "--wallet", w], timeout=60)
         if data and isinstance(data, dict) and "list" in data:
             for entry in data["list"]:
                 addr = entry.get("wallet_address")
                 if addr:
                     out[addr] = entry
+                    cache[addr] = entry
         elif data and isinstance(data, dict) and "wallet_address" in data:
             out[w] = data
-        time.sleep(0.5)
+            cache[w] = data
+        if len(out) % 10 == 0:
+            cache_file.write_text(json.dumps(cache))
+        time.sleep(1.0)
+    cache_file.write_text(json.dumps(cache))
     return out
 
 
@@ -239,27 +306,118 @@ def detect_wash_pattern(wallet: str, recent_trades: list) -> dict:
     return {"wash_score": wash_score, "flags": flags, "trades": len(wallet_trades)}
 
 
+def discover_via_good_tokens():
+    """Find good-performing tokens (those that pumped), then find their early buyers.
+    Falls back gracefully when rate-limited.
+    """
+    signals = []
+
+    # Try GMGN signal endpoint first
+    data = _run(["market", "signal", "--chain", CHAIN, "--signal-type", "5", "--raw"], timeout=120)
+    if data:
+        signals = data if isinstance(data, list) else data.get("list", [])
+        print(f"[i] Got {len(signals)} signals from GMGN")
+
+    # Fallback: Use GMGN smartmoney feed directly
+    if not signals:
+        smart_trades = _run(["track", "smartmoney", "--chain", CHAIN, "--limit", "100"], timeout=120)
+        if smart_trades:
+            smart_trades = smart_trades.get("list", smart_trades) if isinstance(smart_trades, dict) else smart_trades
+            seen = set()
+            for t in smart_trades:
+                addr = t.get("base_address")
+                if addr and addr not in seen:
+                    seen.add(addr)
+                    signals.append({
+                        "token_address": addr,
+                        "trigger_mc": t.get("market_cap", 0),
+                        "market_cap": t.get("market_cap", 0),
+                    })
+                    if len(signals) >= 15:
+                        break
+            print(f"[i] Got {len(signals)} unique tokens from smartmoney fallback")
+
+    # Limit to 10 tokens (avoid GMGN rate limit)
+    tokens = []
+    for s in signals[:10]:
+        addr = s.get("token_address")
+        if addr:
+            tokens.append({
+                "address": addr,
+                "symbol": "?",
+                "trigger_mc": s.get("trigger_mc", 0),
+                "current_mc": s.get("market_cap", 0),
+                "pump_ratio": 1,
+            })
+    return tokens, signals
+
+
+def get_token_early_buyers(token_address: str, limit: int = 20) -> list:
+    """Find the earliest buyers of a token (these are the smart money to analyze)."""
+    # Sleep longer to avoid GMGN rate limits (banned for 30s+ per request)
+    time.sleep(1.5)
+    data = _run(["token", "traders", "--chain", CHAIN, "--address", token_address, 
+                 "--limit", str(limit)], timeout=60)
+    if not data:
+        return []
+    return data.get("list", data) if isinstance(data, dict) else data
+
+
 def main():
-    print("[*] Pulling recent smart-money trades...")
-    trades = get_smart_money_trades(limit=200)  # GMGN max is 200 per call
-    print(f"[*] Got {len(trades)} recent trades")
+    print("[*] Finding good tokens (smart-money buys that pumped)...")
+    good_tokens, _ = discover_via_good_tokens()
+    print(f"[*] Found {len(good_tokens)} good tokens")
+
+    print("[*] Pulling early buyers of these tokens...")
+    all_trades = []
+    for t in good_tokens:
+        buyers = get_token_early_buyers(t["address"], limit=15)
+        for b in buyers:
+            b["_source_token"] = t["symbol"]
+            all_trades.append(b)
+    print(f"[*] Got {len(all_trades)} early buyer trades across {len(good_tokens)} tokens")
+
+    # Dedupe by (wallet_address, token_address) — token traders endpoint returns
+    # per-(wallet, token) summaries, not per-tx events. Same wallet buying multiple
+    # tokens = multiple entries (keep all). Same wallet on same token = one entry.
+    seen = set()
+    trades = []
+    for t in all_trades:
+        addr = t.get("account_address") or t.get("maker") or t.get("wallet_address")
+        tok = t.get("token", {}).get("address") if isinstance(t.get("token"), dict) else None
+        key = (addr, tok)
+        if key in seen:
+            continue
+        if addr:  # skip if no wallet address
+            seen.add(key)
+            trades.append(t)
+
+    print(f"[*] Got {len(trades)} unique wallet+token pairs from token-first discovery")
 
     if not trades:
         print("[!] No trades — exiting")
         return
 
-    # Extract unique wallets (makers) and their tags
+    # Extract unique wallets and their tags
+    # Token traders endpoint uses account_address, top-level tags, and wallet_tag_v2
     wallet_tags = {}  # addr -> tags
     for t in trades:
-        m = t.get("maker")
-        if not m:
+        addr = (t.get("account_address") or t.get("maker") or 
+                t.get("owner") or t.get("wallet_address"))
+        if not addr:
             continue
-        if m not in wallet_tags:
-            wallet_tags[m] = []
-        mi = t.get("maker_info", {})
-        for tag in mi.get("tags", []):
-            if tag not in wallet_tags[m]:
-                wallet_tags[m].append(tag)
+        if addr not in wallet_tags:
+            wallet_tags[addr] = []
+        # Tags can be at top-level OR in maker_token_tags OR wallet_tag_v2
+        for tag in t.get("tags", []) or []:
+            if tag not in wallet_tags[addr]:
+                wallet_tags[addr].append(tag)
+        for tag in t.get("maker_token_tags", []) or []:
+            if tag not in wallet_tags[addr]:
+                wallet_tags[addr].append(tag)
+        v2_tag = t.get("wallet_tag_v2")
+        if v2_tag and v2_tag not in wallet_tags[addr]:
+            wallet_tags[addr].append(v2_tag)
 
     print(f"[*] {len(wallet_tags)} unique wallets in recent trades")
 
@@ -324,9 +482,26 @@ def main():
         if win_rate < 30:
             continue
 
+        # Skip if trades/30d > 1500 (avg >50/day = bot/bridge/wealth-transfer)
+        # User said: real traders do <20 trades/day. But memecoin smart money is volatile.
+        # 50/day allows ~1500/month which is upper bound of real traders.
+        avg_trades_per_day = total_trades_30d / 30
+        if avg_trades_per_day > 50:
+            print(f"[HIGH-FREQ] {w[:10]}... {total_trades_30d} trades/30d ({avg_trades_per_day:.0f}/day) — skip")
+            continue
+        elif avg_trades_per_day > 20:
+            # Yellow flag: 20-50/day is high but possible for active memecoin trader
+            print(f"[WARN-FREQ] {w[:10]}... {total_trades_30d} trades/30d ({avg_trades_per_day:.0f}/day) — review")
+        else:
+            print(f"[OK-FREQ] {w[:10]}... {total_trades_30d} trades/30d ({avg_trades_per_day:.1f}/day)")
+
         # Skip if anti-copier wash detected
         if wash["wash_score"] >= 5:
             print(f"[WASH] {w[:10]}... score={wash['wash_score']} flags={wash['flags']}")
+            continue
+
+        # Skip wallets with negative PnL (losing traders, not worth copying)
+        if realized_30d <= 0:
             continue
 
         # Composite score (60-day proxy: weight 30d + all-time)
