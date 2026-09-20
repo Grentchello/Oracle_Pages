@@ -98,7 +98,7 @@ def detect_wash_pattern(wallet: str, recent_trades: list) -> dict:
     """Detect anti-copier strategies from a wallet's trade history."""
     wallet_trades = [t for t in recent_trades if t.get("maker") == wallet]
     if len(wallet_trades) < 5:
-        return {"wash_score": 0, "flags": ["insufficient_data"]}
+        return {"wash_score": 0, "flags": ["insufficient_data"], "trades": len(wallet_trades)}
 
     flags = []
     wash_score = 0
@@ -147,6 +147,53 @@ def detect_wash_pattern(wallet: str, recent_trades: list) -> dict:
         if avg_buy < 20 and max_sell > 500:
             wash_score += 2
             flags.append("small_buy_large_sell_pattern")
+
+    # 6. HIGH FREQUENCY TRADER: trades every ~2 min on average
+    # Real strategy has think time. Bots/snipers fire constantly.
+    if len(wallet_trades) >= 10:
+        sorted_t = sorted(wallet_trades, key=lambda x: x.get("timestamp", 0))
+        ts_deltas = []
+        for i in range(1, len(sorted_t)):
+            d = sorted_t[i].get("timestamp", 0) - sorted_t[i-1].get("timestamp", 0)
+            if d > 0:
+                ts_deltas.append(d)
+        if ts_deltas:
+            avg_interval_sec = sum(ts_deltas) / len(ts_deltas)
+            if avg_interval_sec < 120:  # avg less than 2 min between trades = bot
+                wash_score += 4
+                flags.append(f"high_freq_{int(avg_interval_sec)}s_avg")
+
+    # 7. SAME-TOKEN REPEAT FLIPPER: buys/sells same token multiple times rapidly
+    # Example: buy DOGE, sell DOGE, buy DOGE, sell DOGE every 15s for 2 min
+    # Pattern: count consecutive opposite-side trades on same token within 5 min windows
+    same_token_flips = 0
+    if len(wallet_trades) >= 4:
+        sorted_t = sorted(wallet_trades, key=lambda x: x.get("timestamp", 0))
+        # Group by base_address + look for rapid side flips
+        from collections import defaultdict
+        by_token = defaultdict(list)
+        for t in sorted_t:
+            by_token[t.get("base_address")].append(t)
+        for token_addr, token_trades in by_token.items():
+            if len(token_trades) < 4:
+                continue
+            # Sliding window: count side flips in 5-min windows
+            for i in range(len(token_trades)):
+                window = []
+                for j in range(i, len(token_trades)):
+                    if token_trades[j].get("timestamp", 0) - token_trades[i].get("timestamp", 0) <= 300:
+                        window.append(token_trades[j])
+                    else:
+                        break
+                if len(window) >= 4:
+                    sides = [w.get("side") for w in window]
+                    flips = sum(1 for k in range(1, len(sides)) if sides[k] != sides[k-1])
+                    if flips >= 3:  # 3+ side flips in 5 min on same token = flippping
+                        same_token_flips += 1
+                        break  # count this token once
+    if same_token_flips > 0:
+        wash_score += 3 * same_token_flips
+        flags.append(f"token_flipper_{same_token_flips}_tokens")
 
     return {"wash_score": wash_score, "flags": flags, "trades": len(wallet_trades)}
 

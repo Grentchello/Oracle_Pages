@@ -45,7 +45,7 @@ title: oracle_Vault — Master Dashboard
 
     ---
 
-    **Status:** v1 live. 27 Solana traders found, 60d proxy score.
+    **Status:** v1 live. 22 Solana traders found, 60d proxy score.
 
     Smart-money wallet discovery via GMGN with anti-copier wash filters
     (bundlers, snipe bots, instant roundtrips, sell traps).
