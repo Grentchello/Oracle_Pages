@@ -401,3 +401,11 @@
 - **Action taken**: none. PAUSE_NEW_ENTRIES=True unchanged. bot.py unchanged. v8.7+ mechanical rules preserved.
 - **Decision: NO CHANGES.** 29 evals deep into pause, identical stats — same diagnosis as the prior 28. Structural defect (pump.fun bonding-curve illiquidity → ghost exits) not fixable via parameter tweaks. RESERVE_SOL=0.02 vs balance 1.14 → reserve-block on every entry even if un-paused.
 - **Next eval (~16:24 UTC)**: expect identical state until user un-pauses. To re-enable: top balance to ≥2.0 SOL first, or apply structural fix (DEX-only / graduated-Raydium / depth-trend) out of cron scope.
+## [2026-09-20 16:30 UTC] eval | bot.py (cron 2h auto-eval #30 since pause)
+- **Window since last eval (14:26 → 16:30 UTC)**: 0 new trades. 30th consecutive 2h zero-trade window. EXPECTED — PAUSE_NEW_ENTRIES=True still in effect (user pause Sep 18 09:08 UTC, bot.py:59).
+- **State unchanged**: 3,574 trades, balance 1.140566 SOL, 0 open positions. v8.9 age filter (3.0 min, tightened Sep 20 00:08) still in place but untested due to pause.
+- **Cumulative re-check**: post-reset window (Sep 16+, n=55) UNCHANGED at -0.8794 SOL, WR 9.1%. All-time slippage-adjusted PnL ~-0.39 SOL. runner.log last write still 2026-09-15 07:29. Bot subprocess (PID 294355) alive but every buy blocked by RESERVE_SOL=0.02 floor.
+- **Action taken**: none. PAUSE_NEW_ENTRIES=True unchanged. bot.py unchanged. v8.7+ mechanical rules preserved.
+- **Decision: NO CHANGES.** 30 evals deep into pause, identical stats — same diagnosis as the prior 29. Structural defect (pump.fun bonding-curve illiquidity → ghost exits) not fixable via parameter tweaks. RESERVE_SOL=0.02 vs balance 1.14 → reserve-block on every entry even if un-paused.
+- **Next eval (~18:30 UTC)**: expect identical state until user un-pauses. To re-enable: top balance to ≥2.0 SOL first, or apply structural fix (DEX-only / graduated-Raydium / depth-trend) out of cron scope.
+
