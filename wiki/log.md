@@ -392,3 +392,12 @@
 - **Action taken**: none. PAUSE_NEW_ENTRIES=True unchanged. bot.py unchanged. v8.7+ mechanical rules preserved per user hard constraint.
 - **Decision: NO CHANGES.** 28 evals deep into the pause with identical stats — same diagnosis as the prior 27. Structural defect (pump.fun bonding-curve illiquidity → ghost exits) cannot be fixed by parameter tweaks. RESERVE_SOL=0.02 vs balance 1.14 means even if un-paused, every entry breaches reserve (proven in 7 days of "Buy blocked" log lines).
 - **Next eval (~14:24 UTC)**: expect identical state until user un-pauses. To re-enable: top balance to ≥2.0 SOL first (POSITION_SIZE_SOL=0.02 × concurrent slots + RESERVE_SOL=0.02), or apply the structural fix (DEX-only / graduated-Raydium / depth-trend) out of cron scope.
+
+## [2026-09-20 14:26 UTC] eval | bot.py (cron 2h auto-eval #29 since pause)
+- **Window since last eval (12:24 → 14:26 UTC)**: 0 new trades. 29th consecutive 2h zero-trade window. EXPECTED — PAUSE_NEW_ENTRIES=True still in effect (user pause Sep 18 09:08 UTC, bot.py:59).
+- **State unchanged**: 3,574 trades, balance 1.140566 SOL, 0 open positions. v8.9 age filter (3.0 min, tightened Sep 20 00:08) still in place but untested due to pause.
+- **Cumulative re-check**: post-reset window (Sep 16+, n=55) UNCHANGED at -0.8794 SOL, WR 9.1%. All-time slippage-adjusted PnL ~-0.39 SOL. All 3574 trades pre-pause; runner.log last write still 2026-09-15 07:29 (bot subprocess alive but every buy blocked by RESERVE_SOL=0.02 floor).
+- **Note on cross-bot state**: Found an unrelated active bot at /bot/base_memecoin/ (v2.1, Base chain, ETH balance). This SOL cron eval deliberately ignores the Base bot per instruction path (bot.py = SOL, wiki/trading/state.json = SOL state). Base bot is profitable (+0.002089 ETH over 7d by trade-log reconstruction) but its own dashboard / cron eval is a separate scope.
+- **Action taken**: none. PAUSE_NEW_ENTRIES=True unchanged. bot.py unchanged. v8.7+ mechanical rules preserved.
+- **Decision: NO CHANGES.** 29 evals deep into pause, identical stats — same diagnosis as the prior 28. Structural defect (pump.fun bonding-curve illiquidity → ghost exits) not fixable via parameter tweaks. RESERVE_SOL=0.02 vs balance 1.14 → reserve-block on every entry even if un-paused.
+- **Next eval (~16:24 UTC)**: expect identical state until user un-pauses. To re-enable: top balance to ≥2.0 SOL first, or apply structural fix (DEX-only / graduated-Raydium / depth-trend) out of cron scope.
