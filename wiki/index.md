@@ -41,7 +41,7 @@ title: oracle_Vault — Master Dashboard
 
     **Status:** v1 running. 6 pairs × 4 strategies, paper $1000 bankroll.
 
--   :material-magnify: **[Copy-Trading Wallets](projects/copy-trading/dashboard.html)** — 903 smart-money wallets from 62 tokens (top: +83.2k SOL)
+-   :material-magnify: **[Copy-Trading Wallets](projects/copy-trading/dashboard.html)** — 0 verified ✅ / 100 suspicious ⚠️ / 0 pending ⏳ney wallets from 62 tokens (top: +83.2k SOL)
 
     ---
 
