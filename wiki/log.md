@@ -424,3 +424,12 @@
 - **Cumulative re-check**: post-reset window (Sep 16+, n=55) UNCHANGED at -0.8794 SOL, 9.1% WR. All-time slippage-adjusted PnL ~-0.39 SOL. Backfilled stats since 2026-09-13 (n=121): reported +0.1032 SOL but 91/121 (75.2%) are GHOST exits totaling -2.9 SOL — paper-thin TP-win illusion.
 - **Decision: NO CHANGES.** 32 evals deep into pause, identical stats — same diagnosis as the prior 31. Structural defect (pump.fun bonding-curve illiquidity → ghost exits) not fixable via parameter tweaks within cron scope. RESERVE_SOL=0.02 vs balance 1.14 → reserve-block on every entry even if un-paused.
 - **Next eval (~22:30 UTC)**: expect identical state until user un-pauses. To re-enable: top balance to ≥2.0 SOL first, or apply structural fix (DEX-only / graduated-Raydium / depth-trend) out of cron scope.
+
+## [2026-09-20 22:36 UTC] eval | memecoin bot cron re-evaluation
+
+- trades_since_last_eval: 0 (last exit 2026-09-18T08:03:01Z; bot paused via PAUSE_NEW_ENTRIES since 2026-09-18 09:08 UTC)
+- latest_eval_window_pnl: +0.0000 SOL
+- current_balance: 1.1406 SOL (unchanged from pause)
+- open_positions: 0
+- decision: NO CHANGES — emergency brake correctly held
+- rationale: prior cron eval (2026-09-18 09:08) flipped PAUSE_NEW_ENTRIES=True after 87.3% ghost-exit rate over Sep 15–18. Bot has correctly skipped 62h of ticks. Unpausing now would re-enter with the same broken slippage model that caused the ghost exits. Awaiting structural fix (real fill-price verification, not last-trade-tape quotes) before resuming. All-time stats (3574 trades, net +25.48 SOL) are dominated by the pre-pause higher-balance era and irrelevant to the 1.14 SOL current regime — slippage-inflation gap means even those figures overstate real PnL. v8.7+ mechanical rules preserved (HARD_STOP_LOSS=-25%, MAX_POSITIONS=1, MAX_HOLD_MINUTES=30).
