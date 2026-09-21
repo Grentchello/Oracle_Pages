@@ -456,3 +456,10 @@
 - Post-reset window (Sep 16+, 54 trades): 5 wins / 49 losses / 9.3% WR / -0.859 SOL / **47 of 49 losses are -100% ghost rugs**.
 - Root cause: pump.fun bonding-curve snipers drain liquidity 30-90s before our sell executes. PAUSE_NEW_ENTRIES=True (held since Sep 18) is the correct brake; age filter tightened 2→3 min on Sep 20. No parameter tweak within cron scope fixes the structural slippage gap.
 - Decision: NO CHANGES. v8.7+ mechanical rules preserved. Awaiting structural fix (real fill-price verification, DEX-only, or balance top-up to ≥2 SOL).
+
+## [2026-09-21 06:40 UTC] cron eval #36: bot still paused, no changes
+- Solana bot: process NOT running (only base_memecoin/base_bot.py alive — separate Base project per user pref). bot.py state.json mtime 2026-09-20 00:20:23 UTC, unchanged since eval #35. runner.log latest tick 2026-09-15 07:29:35 UTC (no new ticks Sep 16–21 — Hermes cron restarted bot only briefly before user pause took effect).
+- All-time state (unchanged from eval #35): 3574 trades, +25.485 SOL paper PnL (inflated by slippage gap), 45.2% WR, 1.140566 SOL balance, 0 open positions. 91 ghost exits, 0 slippage-applied, 1069 partial sells (TP scale-out winners).
+- Window since eval #35 (04:39 → 06:40 UTC, ~2h): 0 new trades. PAUSE_NEW_ENTRIES=True still in effect (set 2026-09-18 09:08 UTC, bot.py:59).
+- Decision: NO CHANGES. 33rd consecutive zero-trade eval under pause. Structural defect unchanged (pump.fun bonding-curve sniper drain → ghost exits, slippage-inflation gap on legacy paper PnL). No parameter tweak within cron scope fixes either; user-directed pause remains the correct call.
+- v8.7+ mechanical rules preserved (HARD_STOP_LOSS=-25%, MAX_POSITIONS=1, MAX_HOLD_MINUTES=30, TAKE_PROFIT_PCT=0.50). PAUSE_NEW_ENTRIES unchanged. v8.9 age filter 3.0 min unchanged. v9.4 liquidity floor 3.0 SOL unchanged.
