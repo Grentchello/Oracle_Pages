@@ -441,3 +441,11 @@
 - open_positions: 0
 - decision: NO CHANGES — emergency brake correctly held
 - rationale: 33rd consecutive zero-trade window since pause. State unchanged (3,574 trades, 1.140566 SOL, 0 positions). Structural defect (pump.fun bonding-curve illiquidity → ghost exits) not fixable via parameter tweaks within cron scope. RESERVE_SOL=0.02 vs 1.14 SOL balance → reserve-block on every entry even if unpaused. v8.7+ mechanical rules preserved. Awaiting structural fix (real fill-price verification / DEX-only / depth-trend) or balance top-up to ≥2.0 SOL before resuming.
+
+## [2026-09-21 02:38 UTC] cron eval #34: bot paused, no changes
+- Bot remains user-paused (`_paused` set Sep 19 07:50 UTC for copy-trading pivot; `PAUSE_NEW_ENTRIES=True`)
+- Zero trades since 2026-09-18 08:03 UTC (34th zero-trade window in a row)
+- Last 7d window: 55 trades / -0.8794 SOL / 9.1% WR — every loss = -100% ghost rug on 0.02 SOL position (post-Sep 16 reset data already addressed by Sep 20 age tightening 2→3 min)
+- All-time: 3574 trades / +25.485 SOL paper PnL / 45.2% WR (inflated by slippage-simulation gap per user memory; real PnL is materially lower)
+- Current balance: 1.140566 SOL, reserve 0.05 SOL — bot cannot trade anyway (would breach reserve)
+- v8.7 mechanical rules preserved; v8.9 age filter at 3.0 min held; no further parameter tweaks warranted while bot is paused for copy-trading pivot
