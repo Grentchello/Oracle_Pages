@@ -463,3 +463,10 @@
 - Window since eval #35 (04:39 → 06:40 UTC, ~2h): 0 new trades. PAUSE_NEW_ENTRIES=True still in effect (set 2026-09-18 09:08 UTC, bot.py:59).
 - Decision: NO CHANGES. 33rd consecutive zero-trade eval under pause. Structural defect unchanged (pump.fun bonding-curve sniper drain → ghost exits, slippage-inflation gap on legacy paper PnL). No parameter tweak within cron scope fixes either; user-directed pause remains the correct call.
 - v8.7+ mechanical rules preserved (HARD_STOP_LOSS=-25%, MAX_POSITIONS=1, MAX_HOLD_MINUTES=30, TAKE_PROFIT_PCT=0.50). PAUSE_NEW_ENTRIES unchanged. v8.9 age filter 3.0 min unchanged. v9.4 liquidity floor 3.0 SOL unchanged.
+
+## [2026-09-21 08:43 UTC] cron eval #37: bot still paused, no changes
+- Solana bot: process NOT running (PAUSE_NEW_ENTRIES=True held since 2026-09-18 09:08 UTC for copy-trading pivot; only base_memecoin/base_bot.py active on separate project).
+- All-time state (unchanged from eval #36): 3574 trades, +25.485 SOL paper PnL (inflated by slippage-simulation gap per Grant's standing concern), 45.2% WR, 1.140566 SOL balance, 0 open positions.
+- Window since eval #36 (06:40 → 08:43 UTC, ~2h): 0 new trades. state.json mtime still 2026-09-20 00:20:23 UTC. runner.log tail still 2026-09-15 (no recent ticks).
+- Post-reset window (Sep 16+): 54 trades / 5W / 49L / 9.3% WR / -0.859 SOL. 47 of 49 losses are -100% ghost rugs on 0.02 SOL positions — pump.fun bonding-curve snipers drain liquidity before our sell routes. Structural defect, not a parameter problem.
+- Decision: NO CHANGES. 34th consecutive zero-trade eval under pause. v8.7+ mechanical rules preserved (HARD_STOP_LOSS=-25%, MAX_POSITIONS=1, MAX_HOLD_MINUTES=30, TAKE_PROFIT_PCT=0.50, RESERVE_SOL=0.02). PAUSE_NEW_ENTRIES unchanged. v8.9 age filter 3.0 min unchanged. v9.4 liquidity floor 3.0 SOL unchanged. Awaiting structural fix (real fill-price verification / DEX-only / depth-trend) or balance top-up to ≥2 SOL before resuming.
