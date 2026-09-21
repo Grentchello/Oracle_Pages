@@ -2,25 +2,19 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Copy-Trading — Real Wallets with Active Days Analysis</title>
+<title>Copy-Trading — Fresh Wallets (YouTube Methodology)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <style>
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", monospace; background: #0d1117; color: #c9d1d9; padding: 16px; }
 header { border-bottom: 1px solid #30363d; padding-bottom: 16px; margin-bottom: 24px; }
-h1 { color: #d29922; font-size: 22px; margin-bottom: 4px; }
+h1 { color: #3fb950; font-size: 22px; margin-bottom: 4px; }
 .subtitle { color: #8b949e; font-size: 12px; }
-.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 16px 0 24px; }
+.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 16px 0 24px; }
 .kpi { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 12px; }
 .kpi-label { font-size: 10px; color: #8b949e; text-transform: uppercase; }
-.kpi-val { font-size: 22px; font-weight: 700; color: #58a6ff; margin-top: 4px; }
-.kpi-val.good { color: #3fb950; }
-.kpi-val.warn { color: #f85149; }
-.wcard { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 14px; margin-bottom: 10px; }
-.wcard.small { border-left: 4px solid #3fb950; }
-.wcard.trackable { border-left: 4px solid #d29922; }
-.wcard.large { border-left: 4px solid #f85149; }
-.wcard.whale { border-left: 4px solid #f85149; opacity: 0.7; }
+.kpi-val { font-size: 22px; font-weight: 700; color: #3fb950; margin-top: 4px; }
+.wcard { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 14px; margin-bottom: 10px; border-left: 4px solid #3fb950; }
 .wcard-header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
 .rank { background: #58a6ff; color: #0d1117; font-weight: 800; border-radius: 50%; min-width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; font-size: 13px; }
 .waddr { flex: 1; min-width: 0; }
@@ -33,1861 +27,1240 @@ h1 { color: #d29922; font-size: 22px; margin-bottom: 4px; }
 .stat-label { font-size: 9px; color: #8b949e; text-transform: uppercase; }
 .stat-val { font-size: 14px; font-weight: 600; margin-top: 1px; }
 .stat-val.profit { color: #3fb950; }
-.stat-val.best { color: #d29922; font-size: 12px; }
+.stat-val.funded { color: #d29922; font-size: 12px; }
 .wtrades { display: flex; flex-direction: column; gap: 3px; }
-.trade { display: flex; gap: 8px; align-items: center; font-size: 11px; }
+.win { display: flex; gap: 8px; align-items: center; font-size: 11px; }
 .tsym { color: #d29922; font-weight: 600; min-width: 70px; }
-.tpnl { color: #3fb950; }
-.tokenlink { color: #58a6ff; text-decoration: none; font-size: 13px; }
+.tpnl { color: #3fb950; font-weight: 600; }
+.buysz { color: #8b949e; font-size: 10px; }
 .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 700; }
-.badge-good { background: #238636; color: #ffffff; }
-.badge-bad { background: #da3633; color: #ffffff; }
-.badge-active { background: #1f6feb; color: #ffffff; }
-.badge-bot { background: #d29922; color: #0d1117; }
-.badge-light { background: #6e6e6e; color: #ffffff; }
+.badge-new { background: #fb923c; color: #0d1117; }
+.badge-fresh { background: #3fb950; color: #ffffff; }
+.badge-good { background: #1f6feb; color: #ffffff; }
+.badge-warn { background: #d29922; color: #0d1117; }
 .extra { margin-top: 8px; padding: 6px 8px; background: #0d1117; border-radius: 4px; font-size: 11px; color: #c9d1d9; }
 footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; font-size: 11px; color: #8b949e; }
-.note { background: #161b22; border-left: 3px solid #d29922; padding: 12px; margin: 16px 0; font-size: 12px; }
-.note.warn { border-left-color: #f85149; }
-.note.good { border-left-color: #3fb950; }
+.note { background: #161b22; border-left: 3px solid #3fb950; padding: 12px; margin: 16px 0; font-size: 12px; }
+.note.warn { border-left-color: #d29922; }
 .search { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 8px 12px; margin-bottom: 16px; width: 100%; color: #c9d1d9; font-family: inherit; font-size: 13px; }
-.search:focus { outline: none; border-color: #58a6ff; }
-.filter-btns { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
-.filter-btn { padding: 6px 12px; border: 1px solid #30363d; background: #161b22; color: #c9d1d9; border-radius: 4px; cursor: pointer; font-size: 12px; }
-.filter-btn.active { background: #d29922; color: #0d1117; border-color: #d29922; }
+.search:focus { outline: none; border-color: #3fb950; }
 </style>
 </head>
 <body>
 <header>
-    <h1>⚠️ Copy-Trading — Reality Check on Activity</h1>
+    <h1>🆕 Copy-Trading — Fresh Wallets (YouTube Methodology)</h1>
     <div class="subtitle">
-        50 wallets · All 753 real on-chain wallets analyzed · Days active in last 30d
+        33 wallets · Source: GMGN trenches 260 migrated Pump.fun tokens ·
+        YouTube signal: <a href="https://www.youtube.com/watch?v=R3oM7tqzM1s" target="_blank" style="color:#58a6ff;">Copy Trading GMGN</a>
     </div>
 </header>
 
 <div class="summary">
     <div class="kpi">
-        <div class="kpi-label">Wallets Shown</div>
-        <div class="kpi-val">50</div>
+        <div class="kpi-label">Fresh Wallets Found</div>
+        <div class="kpi-val">33</div>
     </div>
     <div class="kpi">
-        <div class="kpi-label">🤏 Small PnL (&lt;20)</div>
-        <div class="kpi-val good">0</div>
+        <div class="kpi-label">Binance Funded</div>
+        <div class="kpi-val">16</div>
     </div>
     <div class="kpi">
-        <div class="kpi-label">✅ Trackable (20-100)</div>
+        <div class="kpi-label">Bybit Funded</div>
+        <div class="kpi-val">6</div>
+    </div>
+    <div class="kpi">
+        <div class="kpi-label">Gate.io Funded</div>
+        <div class="kpi-val">10</div>
+    </div>
+    <div class="kpi">
+        <div class="kpi-label">MEXC Funded</div>
         <div class="kpi-val">1</div>
     </div>
-    <div class="kpi">
-        <div class="kpi-label">⚠️ Large (100-1k)</div>
-        <div class="kpi-val warn">30</div>
-    </div>
-    <div class="kpi">
-        <div class="kpi-label">🐋 Whale (1k+)</div>
-        <div class="kpi-val warn">19</div>
-    </div>
-</div>
-
-<div class="note warn">
-    <strong>⚠️ Critical finding on active_days:</strong> Across all 753 real on-chain wallets from GMGN's top winners,
-    <strong>ZERO wallets</strong> are active on 15+ days out of the last 30.
-    The most active wallet trades on only <strong>3 days</strong>, and 99% trade on 1-2 days total.
-    <br><br>
-    This means Solana memecoin "smart money" is fundamentally <strong>BURSTY</strong>: they hit hard for a day or two, then disappear.
-    Consistent daily-trading wallets simply don't appear in GMGN's token-traders endpoint.
 </div>
 
 <div class="note">
-    <strong>What this means for copy-trading:</strong>
+    <strong>📋 YouTube Methodology Applied:</strong>
     <ul style="margin: 4px 0 0 20px; font-size: 11px;">
-        <li>The bursts are usually <strong>very large</strong> — 100-1000+ transactions in 1-2 days = sniper campaigns on a token launch</li>
-        <li>Wallets aren't <strong>reliably active</strong> on a daily basis like equity traders</li>
-        <li>Real copy-trading requires watching for a wallet to come alive, not steady monitoring</li>
-        <li>Alternative: copy token-specific patterns (which tokens they buy) instead of wallets</li>
+        <li><strong>Fresh wallets:</strong> Tagged by GMGN as "fresh_wallet" — funded recently</li>
+        <li><strong>CEX funded:</strong> Initial SOL came from Binance, Bybit, Gate.io, or MEXC</li>
+        <li><strong>Profitable:</strong> Has positive realized PnL from recent trades</li>
+        <li><strong>Reasonable size:</strong> Avg buy per trade ≤5 SOL (matches 2 SOL account scale)</li>
+        <li><strong>Why these work:</strong> Not on the famous leaderboard yet, so copy-trading them gets you the trade BEFORE price spikes</li>
+        <li><strong>Watch:</strong> Once profitable, they rotate back to CEX — refresh this list daily</li>
     </ul>
 </div>
 
-<div class="note good">
-    <strong>Workaround:</strong> The 50 wallets shown here were ranked by <strong>active_days × tx_count × PnL_size</strong> —
-    best combination of consistency and profit. The "🤏 Small PnL" filter (under 20 SOL) shows the most 
-    realistic targets for a small copy-trading account.
-</div>
-
-<input type="text" id="search" class="search" placeholder="🔎 Filter by wallet, token, or PnL..." />
-
-<div class="filter-btns">
-    <button class="filter-btn active" onclick="filter('all')">All (50)</button>
-    <button class="filter-btn" onclick="filter('small')">🤏 Small &lt;20 (0)</button>
-    <button class="filter-btn" onclick="filter('trackable')">✅ Trackable 20-100 (1)</button>
-    <button class="filter-btn" onclick="filter('large')">⚠️ Large 100-1k (30)</button>
-    <button class="filter-btn" onclick="filter('whale')">🐋 Whale 1k+ (19)</button>
-</div>
+<input type="text" id="search" class="search" placeholder="🔎 Filter by wallet, token, or funding source..." />
 
 <div id="cards">
 
-    <div class="wcard whale">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#1</div>
             <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">2Hnz1mWs92Lk2ZAwadyaQWQAMimCZKmUDA6SXQGjgnKp</span>
+                <span class="badge badge-new">🆕 BRAND NEW</span>
+                <span class="addr">Cpj7E2XcFGktSVBZKZsgWYkPqHTnS5mRJV27fX7Mj31G</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('2Hnz1mWs92Lk2ZAwadyaQWQAMimCZKmUDA6SXQGjgnKp').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/2Hnz1mWs92Lk2ZAwadyaQWQAMimCZKmUDA6SXQGjgnKp" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/2Hnz1mWs92Lk2ZAwadyaQWQAMimCZKmUDA6SXQGjgnKp" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/2Hnz1mWs92Lk2ZAwadyaQWQAMimCZKmUDA6SXQGjgnKp" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('Cpj7E2XcFGktSVBZKZsgWYkPqHTnS5mRJV27fX7Mj31G').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/Cpj7E2XcFGktSVBZKZsgWYkPqHTnS5mRJV27fX7Mj31G" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/Cpj7E2XcFGktSVBZKZsgWYkPqHTnS5mRJV27fX7Mj31G" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/Cpj7E2XcFGktSVBZKZsgWYkPqHTnS5mRJV27fX7Mj31G" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+1015 SOL</div>
+                <div class="stat-val profit">+4.0 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">826</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">2.76 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Bidr</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Bidr</span>
-            <span class="tpnl">1015 SOL</span>
-            <a href="https://solscan.io/token/CDZodzUDKGH1CfSczv7wi5gnM2ZsGz5JYKbkWreNpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">ZILLIONS</span>
+            <span class="tpnl">+4.0 SOL</span>
+            <span class="buysz">avg buy: 2.76 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 826 txs in 30d | Score: 623.0</div>
+        <div class="extra">Wallet age: 0.4 days · Avg buy per trade: 2.76 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#2</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">32SvPLxQWNorCR4jbdPXeDxJLLicmsnnm36udSRrsGCM</span>
+                <span class="badge badge-new">🆕 BRAND NEW</span>
+                <span class="addr">6udRpsPHPVXXpqna7DTmNH1XBvtwEgFsTQs63rMcdEgm</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('32SvPLxQWNorCR4jbdPXeDxJLLicmsnnm36udSRrsGCM').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/32SvPLxQWNorCR4jbdPXeDxJLLicmsnnm36udSRrsGCM" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/32SvPLxQWNorCR4jbdPXeDxJLLicmsnnm36udSRrsGCM" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/32SvPLxQWNorCR4jbdPXeDxJLLicmsnnm36udSRrsGCM" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('6udRpsPHPVXXpqna7DTmNH1XBvtwEgFsTQs63rMcdEgm').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/6udRpsPHPVXXpqna7DTmNH1XBvtwEgFsTQs63rMcdEgm" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/6udRpsPHPVXXpqna7DTmNH1XBvtwEgFsTQs63rMcdEgm" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/6udRpsPHPVXXpqna7DTmNH1XBvtwEgFsTQs63rMcdEgm" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+419 SOL</div>
+                <div class="stat-val profit">+3.5 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">168</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">2.69 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">COLLECTR</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">COLLECTR</span>
-            <span class="tpnl">419 SOL</span>
-            <a href="https://solscan.io/token/kkfhrRkYhft8fJArWZ2Q3Gm9DE435DpLH9CRxjuRXtv" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">StonkBankr</span>
+            <span class="tpnl">+3.5 SOL</span>
+            <span class="buysz">avg buy: 2.69 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 168 txs in 30d | Score: 294.0</div>
+        <div class="extra">Wallet age: 0.4 days · Avg buy per trade: 2.69 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard trackable">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#3</div>
             <div class="waddr">
-                <span class="badge badge-active">✅ TRACKABLE</span>
-                <span class="addr">FfcCeBCmu9MMArEXtsq2MoK7sdVuUhjxtBmRAfN8J6DJ</span>
+                <span class="badge badge-new">🆕 BRAND NEW</span>
+                <span class="addr">D6TSJ2urvmwvUuXTY8tAgkmYkiGTgQtostwfEGAGbyB7</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('FfcCeBCmu9MMArEXtsq2MoK7sdVuUhjxtBmRAfN8J6DJ').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/FfcCeBCmu9MMArEXtsq2MoK7sdVuUhjxtBmRAfN8J6DJ" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/FfcCeBCmu9MMArEXtsq2MoK7sdVuUhjxtBmRAfN8J6DJ" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/FfcCeBCmu9MMArEXtsq2MoK7sdVuUhjxtBmRAfN8J6DJ" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('D6TSJ2urvmwvUuXTY8tAgkmYkiGTgQtostwfEGAGbyB7').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/D6TSJ2urvmwvUuXTY8tAgkmYkiGTgQtostwfEGAGbyB7" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/D6TSJ2urvmwvUuXTY8tAgkmYkiGTgQtostwfEGAGbyB7" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/D6TSJ2urvmwvUuXTY8tAgkmYkiGTgQtostwfEGAGbyB7" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+34 SOL</div>
+                <div class="stat-val profit">+1.8 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">417</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">2.72 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">BPACK</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">BPACK</span>
-            <span class="tpnl">34 SOL</span>
-            <a href="https://solscan.io/token/3mgbkCzxyYgt7AtosiVxoUfwZqgPa6TsF82aQ1oPpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">ANON</span>
+            <span class="tpnl">+1.8 SOL</span>
+            <span class="buysz">avg buy: 2.72 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 417 txs in 30d | Score: 285.8</div>
+        <div class="extra">Wallet age: 0.4 days · Avg buy per trade: 2.72 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard whale">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#4</div>
             <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">AyjCrA7rMZVDC6XLCbFRamLd7pxCbrfoPNttsQF13Fjp</span>
+                <span class="badge badge-new">🆕 BRAND NEW</span>
+                <span class="addr">B7yKoPsQoVWBReSXfjYH7ynmUpxLNRUsc3chiYvEBYKe</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('AyjCrA7rMZVDC6XLCbFRamLd7pxCbrfoPNttsQF13Fjp').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/AyjCrA7rMZVDC6XLCbFRamLd7pxCbrfoPNttsQF13Fjp" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/AyjCrA7rMZVDC6XLCbFRamLd7pxCbrfoPNttsQF13Fjp" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/AyjCrA7rMZVDC6XLCbFRamLd7pxCbrfoPNttsQF13Fjp" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('B7yKoPsQoVWBReSXfjYH7ynmUpxLNRUsc3chiYvEBYKe').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/B7yKoPsQoVWBReSXfjYH7ynmUpxLNRUsc3chiYvEBYKe" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/B7yKoPsQoVWBReSXfjYH7ynmUpxLNRUsc3chiYvEBYKe" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/B7yKoPsQoVWBReSXfjYH7ynmUpxLNRUsc3chiYvEBYKe" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+42488 SOL</div>
+                <div class="stat-val profit">+52.6 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">148</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">0.92 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEANPHIL</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEANPHIL</span>
-            <span class="tpnl">42488 SOL</span>
-            <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">Lobby</span>
+            <span class="tpnl">+52.6 SOL</span>
+            <span class="buysz">avg buy: 0.92 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 148 txs in 30d | Score: 284.0</div>
+        <div class="extra">Wallet age: 0.7 days · Avg buy per trade: 0.92 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard whale">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#5</div>
             <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">F1G37Yw8yzXaw7BFmRw3aiCiKp4yNVtaB4FPoT3fmsnt</span>
+                <span class="badge badge-fresh">🥇 VERY FRESH</span>
+                <span class="addr">8om7TbTDG7oE7BGNVDGSv8WDvNLsfDsLedaLCTkVXbXP</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('F1G37Yw8yzXaw7BFmRw3aiCiKp4yNVtaB4FPoT3fmsnt').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/F1G37Yw8yzXaw7BFmRw3aiCiKp4yNVtaB4FPoT3fmsnt" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/F1G37Yw8yzXaw7BFmRw3aiCiKp4yNVtaB4FPoT3fmsnt" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/F1G37Yw8yzXaw7BFmRw3aiCiKp4yNVtaB4FPoT3fmsnt" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('8om7TbTDG7oE7BGNVDGSv8WDvNLsfDsLedaLCTkVXbXP').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/8om7TbTDG7oE7BGNVDGSv8WDvNLsfDsLedaLCTkVXbXP" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/8om7TbTDG7oE7BGNVDGSv8WDvNLsfDsLedaLCTkVXbXP" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/8om7TbTDG7oE7BGNVDGSv8WDvNLsfDsLedaLCTkVXbXP" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+3326 SOL</div>
+                <div class="stat-val profit">+7.5 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">111</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">4.94 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEANPHIL</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Bybit</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEANPHIL</span>
-            <span class="tpnl">3326 SOL</span>
-            <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">ZMC</span>
+            <span class="tpnl">+7.5 SOL</span>
+            <span class="buysz">avg buy: 4.94 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 111 txs in 30d | Score: 265.5</div>
+        <div class="extra">Wallet age: 1.3 days · Avg buy per trade: 4.94 SOL · Funded via: Bybit</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#6</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">EC7Pnbwy6vMkNRbqWA6eEN3UqDvdF49m3qsa9Jmi53Mp</span>
+                <span class="badge badge-fresh">🥇 VERY FRESH</span>
+                <span class="addr">qPhBuhAJVYcNb8GpYjzSSgxYQfLyT1nCZK2GeDXH5Q2</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('EC7Pnbwy6vMkNRbqWA6eEN3UqDvdF49m3qsa9Jmi53Mp').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/EC7Pnbwy6vMkNRbqWA6eEN3UqDvdF49m3qsa9Jmi53Mp" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/EC7Pnbwy6vMkNRbqWA6eEN3UqDvdF49m3qsa9Jmi53Mp" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/EC7Pnbwy6vMkNRbqWA6eEN3UqDvdF49m3qsa9Jmi53Mp" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('qPhBuhAJVYcNb8GpYjzSSgxYQfLyT1nCZK2GeDXH5Q2').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/qPhBuhAJVYcNb8GpYjzSSgxYQfLyT1nCZK2GeDXH5Q2" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/qPhBuhAJVYcNb8GpYjzSSgxYQfLyT1nCZK2GeDXH5Q2" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/qPhBuhAJVYcNb8GpYjzSSgxYQfLyT1nCZK2GeDXH5Q2" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+805 SOL</div>
+                <div class="stat-val profit">+38.9 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">110</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">4.81 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Bogdanoff</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Bogdanoff</span>
-            <span class="tpnl">805 SOL</span>
-            <a href="https://solscan.io/token/F1BQXs8RTr3pugsCddw3dGVWhfTAPhyLJpuWYpzgRZtU" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">GREENLAND</span>
+            <span class="tpnl">+38.9 SOL</span>
+            <span class="buysz">avg buy: 4.81 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 110 txs in 30d | Score: 265.0</div>
+        <div class="extra">Wallet age: 2.6 days · Avg buy per trade: 4.81 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#7</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">HuUnuuBL5KFL5G5F8hswzT4E17s2t6CEK6CmQZHM8Cxh</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">2Usfuf9BzEp9P1DSmQhc2pJUxXChM189mFVJQeQmh8m8</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('HuUnuuBL5KFL5G5F8hswzT4E17s2t6CEK6CmQZHM8Cxh').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/HuUnuuBL5KFL5G5F8hswzT4E17s2t6CEK6CmQZHM8Cxh" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/HuUnuuBL5KFL5G5F8hswzT4E17s2t6CEK6CmQZHM8Cxh" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/HuUnuuBL5KFL5G5F8hswzT4E17s2t6CEK6CmQZHM8Cxh" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('2Usfuf9BzEp9P1DSmQhc2pJUxXChM189mFVJQeQmh8m8').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/2Usfuf9BzEp9P1DSmQhc2pJUxXChM189mFVJQeQmh8m8" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/2Usfuf9BzEp9P1DSmQhc2pJUxXChM189mFVJQeQmh8m8" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/2Usfuf9BzEp9P1DSmQhc2pJUxXChM189mFVJQeQmh8m8" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+181 SOL</div>
+                <div class="stat-val profit">+38.5 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">104</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">3.45 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">GTA</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Gate.io</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">GTA</span>
-            <span class="tpnl">181 SOL</span>
-            <a href="https://solscan.io/token/9kUtKbhbPVtyhvouFpVoKiP8q712BQf4XyPbKgFSKRkR" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">BEEGE</span>
+            <span class="tpnl">+38.5 SOL</span>
+            <span class="buysz">avg buy: 3.45 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 104 txs in 30d | Score: 262.0</div>
+        <div class="extra">Wallet age: 3.8 days · Avg buy per trade: 3.45 SOL · Funded via: Gate.io</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#8</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">ETqBF9Z98792YYjqCgPrFi1tWRz2qgTi56g9DiLn5e7G</span>
+                <span class="badge badge-fresh">🥇 VERY FRESH</span>
+                <span class="addr">6mr18a3EdHhjwyGChqXn7E2gWA43upr9jFjpFwGuSH8R</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('ETqBF9Z98792YYjqCgPrFi1tWRz2qgTi56g9DiLn5e7G').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/ETqBF9Z98792YYjqCgPrFi1tWRz2qgTi56g9DiLn5e7G" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/ETqBF9Z98792YYjqCgPrFi1tWRz2qgTi56g9DiLn5e7G" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/ETqBF9Z98792YYjqCgPrFi1tWRz2qgTi56g9DiLn5e7G" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('6mr18a3EdHhjwyGChqXn7E2gWA43upr9jFjpFwGuSH8R').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/6mr18a3EdHhjwyGChqXn7E2gWA43upr9jFjpFwGuSH8R" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/6mr18a3EdHhjwyGChqXn7E2gWA43upr9jFjpFwGuSH8R" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/6mr18a3EdHhjwyGChqXn7E2gWA43upr9jFjpFwGuSH8R" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+178 SOL</div>
+                <div class="stat-val profit">+3.5 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">102</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">0.99 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Tokens</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Bybit</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Tokens</span>
-            <span class="tpnl">178 SOL</span>
-            <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">ZCOIN</span>
+            <span class="tpnl">+3.5 SOL</span>
+            <span class="buysz">avg buy: 0.99 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 102 txs in 30d | Score: 261.0</div>
+        <div class="extra">Wallet age: 2.2 days · Avg buy per trade: 0.99 SOL · Funded via: Bybit</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#9</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">74ub5g7kU2jMeJof1m5fgRzsh7eKRreMG8TXTwiD76J4</span>
+                <span class="badge badge-fresh">🥇 VERY FRESH</span>
+                <span class="addr">9NE7rXqt5SxENAogYYXrUKChBTjZgRBw8efEDA6Y7c2U</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('74ub5g7kU2jMeJof1m5fgRzsh7eKRreMG8TXTwiD76J4').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/74ub5g7kU2jMeJof1m5fgRzsh7eKRreMG8TXTwiD76J4" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/74ub5g7kU2jMeJof1m5fgRzsh7eKRreMG8TXTwiD76J4" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/74ub5g7kU2jMeJof1m5fgRzsh7eKRreMG8TXTwiD76J4" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('9NE7rXqt5SxENAogYYXrUKChBTjZgRBw8efEDA6Y7c2U').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/9NE7rXqt5SxENAogYYXrUKChBTjZgRBw8efEDA6Y7c2U" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/9NE7rXqt5SxENAogYYXrUKChBTjZgRBw8efEDA6Y7c2U" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/9NE7rXqt5SxENAogYYXrUKChBTjZgRBw8efEDA6Y7c2U" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+316 SOL</div>
+                <div class="stat-val profit">+2.2 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">92</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">4.94 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">LAMBO</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">LAMBO</span>
-            <span class="tpnl">316 SOL</span>
-            <a href="https://solscan.io/token/DS3tKJeEscfe753pSXNiG1HrDMos2sobkBKyabNZpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">DOODLE</span>
+            <span class="tpnl">+2.2 SOL</span>
+            <span class="buysz">avg buy: 4.94 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 92 txs in 30d | Score: 256.0</div>
+        <div class="extra">Wallet age: 1.9 days · Avg buy per trade: 4.94 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#10</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">GnVYsumRp5VXQMNGACQY3gcXTmVni1Nt4zEWK7CUdtsp</span>
+                <span class="badge badge-fresh">🥇 VERY FRESH</span>
+                <span class="addr">DergV8DyKnVEyRUELz2QEBVeVQJxyUgv48gWm7gydV3s</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('GnVYsumRp5VXQMNGACQY3gcXTmVni1Nt4zEWK7CUdtsp').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/GnVYsumRp5VXQMNGACQY3gcXTmVni1Nt4zEWK7CUdtsp" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/GnVYsumRp5VXQMNGACQY3gcXTmVni1Nt4zEWK7CUdtsp" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/GnVYsumRp5VXQMNGACQY3gcXTmVni1Nt4zEWK7CUdtsp" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('DergV8DyKnVEyRUELz2QEBVeVQJxyUgv48gWm7gydV3s').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/DergV8DyKnVEyRUELz2QEBVeVQJxyUgv48gWm7gydV3s" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/DergV8DyKnVEyRUELz2QEBVeVQJxyUgv48gWm7gydV3s" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/DergV8DyKnVEyRUELz2QEBVeVQJxyUgv48gWm7gydV3s" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+489 SOL</div>
+                <div class="stat-val profit">+1.8 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">82</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">4.51 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">BPACK</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Bybit</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">BPACK</span>
-            <span class="tpnl">489 SOL</span>
-            <a href="https://solscan.io/token/3mgbkCzxyYgt7AtosiVxoUfwZqgPa6TsF82aQ1oPpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">WOTF</span>
+            <span class="tpnl">+1.8 SOL</span>
+            <span class="buysz">avg buy: 4.51 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 82 txs in 30d | Score: 251.0</div>
+        <div class="extra">Wallet age: 2.3 days · Avg buy per trade: 4.51 SOL · Funded via: Bybit</div>
     </div>
-    <div class="wcard whale">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#11</div>
             <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">CWxLNXaWfnXFK1Ht7XcoP2MBb6qPmwWTQRpMh6T1DYLp</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">DBMpyBkRveKQTPcb7xYPoxJGRpU1WvjJRe14hSkKmZHw</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('CWxLNXaWfnXFK1Ht7XcoP2MBb6qPmwWTQRpMh6T1DYLp').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/CWxLNXaWfnXFK1Ht7XcoP2MBb6qPmwWTQRpMh6T1DYLp" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/CWxLNXaWfnXFK1Ht7XcoP2MBb6qPmwWTQRpMh6T1DYLp" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/CWxLNXaWfnXFK1Ht7XcoP2MBb6qPmwWTQRpMh6T1DYLp" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('DBMpyBkRveKQTPcb7xYPoxJGRpU1WvjJRe14hSkKmZHw').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/DBMpyBkRveKQTPcb7xYPoxJGRpU1WvjJRe14hSkKmZHw" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/DBMpyBkRveKQTPcb7xYPoxJGRpU1WvjJRe14hSkKmZHw" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/DBMpyBkRveKQTPcb7xYPoxJGRpU1WvjJRe14hSkKmZHw" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+7959 SOL</div>
+                <div class="stat-val profit">+3.0 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">66</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">0.77 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEANPHIL</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Bybit</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEANPHIL</span>
-            <span class="tpnl">7959 SOL</span>
-            <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">RICK</span>
+            <span class="tpnl">+3.0 SOL</span>
+            <span class="buysz">avg buy: 0.77 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 66 txs in 30d | Score: 243.0</div>
+        <div class="extra">Wallet age: 3.6 days · Avg buy per trade: 0.77 SOL · Funded via: Bybit</div>
     </div>
-    <div class="wcard whale">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#12</div>
             <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">7fXMJ4RDR7PyoTWK8hw3V26ixksawFnNT23b9Vk1J5Xv</span>
+                <span class="badge badge-fresh">🥇 VERY FRESH</span>
+                <span class="addr">3DPT3xx75tdPzdSU5zn6uoM1jnNv1pjMAtyAYJckrvgi</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('7fXMJ4RDR7PyoTWK8hw3V26ixksawFnNT23b9Vk1J5Xv').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/7fXMJ4RDR7PyoTWK8hw3V26ixksawFnNT23b9Vk1J5Xv" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/7fXMJ4RDR7PyoTWK8hw3V26ixksawFnNT23b9Vk1J5Xv" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/7fXMJ4RDR7PyoTWK8hw3V26ixksawFnNT23b9Vk1J5Xv" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('3DPT3xx75tdPzdSU5zn6uoM1jnNv1pjMAtyAYJckrvgi').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/3DPT3xx75tdPzdSU5zn6uoM1jnNv1pjMAtyAYJckrvgi" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/3DPT3xx75tdPzdSU5zn6uoM1jnNv1pjMAtyAYJckrvgi" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/3DPT3xx75tdPzdSU5zn6uoM1jnNv1pjMAtyAYJckrvgi" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+19145 SOL</div>
+                <div class="stat-val profit">+2.9 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">65</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">2.49 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEANPHIL</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Gate.io</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEANPHIL</span>
-            <span class="tpnl">19145 SOL</span>
-            <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">StonkBankr</span>
+            <span class="tpnl">+2.9 SOL</span>
+            <span class="buysz">avg buy: 2.49 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 65 txs in 30d | Score: 242.5</div>
+        <div class="extra">Wallet age: 2.8 days · Avg buy per trade: 2.49 SOL · Funded via: Gate.io</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#13</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">6Ko8TViimyikHpyZLYp3AF6Es2erefZeyktRJWGm2Vaa</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">CXCN9Fk5tkrRHPojAfSbRZXvc2Nqouod6YuMyGhwdQjz</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('6Ko8TViimyikHpyZLYp3AF6Es2erefZeyktRJWGm2Vaa').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/6Ko8TViimyikHpyZLYp3AF6Es2erefZeyktRJWGm2Vaa" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/6Ko8TViimyikHpyZLYp3AF6Es2erefZeyktRJWGm2Vaa" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/6Ko8TViimyikHpyZLYp3AF6Es2erefZeyktRJWGm2Vaa" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('CXCN9Fk5tkrRHPojAfSbRZXvc2Nqouod6YuMyGhwdQjz').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/CXCN9Fk5tkrRHPojAfSbRZXvc2Nqouod6YuMyGhwdQjz" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/CXCN9Fk5tkrRHPojAfSbRZXvc2Nqouod6YuMyGhwdQjz" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/CXCN9Fk5tkrRHPojAfSbRZXvc2Nqouod6YuMyGhwdQjz" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+779 SOL</div>
+                <div class="stat-val profit">+20.4 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">65</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">4.88 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEANPHIL</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">MEXC</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEANPHIL</span>
-            <span class="tpnl">779 SOL</span>
-            <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">WHEREJP</span>
+            <span class="tpnl">+20.4 SOL</span>
+            <span class="buysz">avg buy: 4.88 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 65 txs in 30d | Score: 242.5</div>
+        <div class="extra">Wallet age: 5.7 days · Avg buy per trade: 4.88 SOL · Funded via: MEXC</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#14</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">Fg9qPQewdzeqhG5i4Sqkc4JeDWHzSbk919WuQ6UdFbV1</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">hEDmJ54SURShCCNmU2qk6FLX5nnpM2XZBwbaUrEt4Xm</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('Fg9qPQewdzeqhG5i4Sqkc4JeDWHzSbk919WuQ6UdFbV1').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/Fg9qPQewdzeqhG5i4Sqkc4JeDWHzSbk919WuQ6UdFbV1" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/Fg9qPQewdzeqhG5i4Sqkc4JeDWHzSbk919WuQ6UdFbV1" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/Fg9qPQewdzeqhG5i4Sqkc4JeDWHzSbk919WuQ6UdFbV1" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('hEDmJ54SURShCCNmU2qk6FLX5nnpM2XZBwbaUrEt4Xm').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/hEDmJ54SURShCCNmU2qk6FLX5nnpM2XZBwbaUrEt4Xm" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/hEDmJ54SURShCCNmU2qk6FLX5nnpM2XZBwbaUrEt4Xm" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/hEDmJ54SURShCCNmU2qk6FLX5nnpM2XZBwbaUrEt4Xm" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+297 SOL</div>
+                <div class="stat-val profit">+1.9 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">65</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">1.72 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">COLLECTR</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Bybit</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">COLLECTR</span>
-            <span class="tpnl">297 SOL</span>
-            <a href="https://solscan.io/token/kkfhrRkYhft8fJArWZ2Q3Gm9DE435DpLH9CRxjuRXtv" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">ANON</span>
+            <span class="tpnl">+1.9 SOL</span>
+            <span class="buysz">avg buy: 1.72 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 65 txs in 30d | Score: 242.5</div>
+        <div class="extra">Wallet age: 3.4 days · Avg buy per trade: 1.72 SOL · Funded via: Bybit</div>
     </div>
-    <div class="wcard whale">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#15</div>
             <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">C1E2TYzBJV8pJ5X8K1evX3Jyr1FvjNN7PGRVGxZMoggw</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">HXLJqBcwC5qZiQi6iErPTCENHNCyeVGo9MkiAq9m1Eic</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('C1E2TYzBJV8pJ5X8K1evX3Jyr1FvjNN7PGRVGxZMoggw').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/C1E2TYzBJV8pJ5X8K1evX3Jyr1FvjNN7PGRVGxZMoggw" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/C1E2TYzBJV8pJ5X8K1evX3Jyr1FvjNN7PGRVGxZMoggw" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/C1E2TYzBJV8pJ5X8K1evX3Jyr1FvjNN7PGRVGxZMoggw" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('HXLJqBcwC5qZiQi6iErPTCENHNCyeVGo9MkiAq9m1Eic').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/HXLJqBcwC5qZiQi6iErPTCENHNCyeVGo9MkiAq9m1Eic" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/HXLJqBcwC5qZiQi6iErPTCENHNCyeVGo9MkiAq9m1Eic" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/HXLJqBcwC5qZiQi6iErPTCENHNCyeVGo9MkiAq9m1Eic" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+16981 SOL</div>
+                <div class="stat-val profit">+3.3 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">63</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">3.81 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEANPHIL</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEANPHIL</span>
-            <span class="tpnl">16981 SOL</span>
-            <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">ZMC</span>
+            <span class="tpnl">+3.3 SOL</span>
+            <span class="buysz">avg buy: 3.81 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 63 txs in 30d | Score: 241.5</div>
+        <div class="extra">Wallet age: 3.3 days · Avg buy per trade: 3.81 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard whale">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#16</div>
             <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">cUzb5oxzvc1duTVSJote7Nj2q1XtySYdzLaFKpz2FwN</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">AHhFGHFQJYNPUpjp4QESqjVCgKR26SKWJF2XMjUHkfDD</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('cUzb5oxzvc1duTVSJote7Nj2q1XtySYdzLaFKpz2FwN').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/cUzb5oxzvc1duTVSJote7Nj2q1XtySYdzLaFKpz2FwN" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/cUzb5oxzvc1duTVSJote7Nj2q1XtySYdzLaFKpz2FwN" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/cUzb5oxzvc1duTVSJote7Nj2q1XtySYdzLaFKpz2FwN" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('AHhFGHFQJYNPUpjp4QESqjVCgKR26SKWJF2XMjUHkfDD').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/AHhFGHFQJYNPUpjp4QESqjVCgKR26SKWJF2XMjUHkfDD" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/AHhFGHFQJYNPUpjp4QESqjVCgKR26SKWJF2XMjUHkfDD" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/AHhFGHFQJYNPUpjp4QESqjVCgKR26SKWJF2XMjUHkfDD" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+3065 SOL</div>
+                <div class="stat-val profit">+8.2 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">59</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">2.98 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Claimr</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Claimr</span>
-            <span class="tpnl">3065 SOL</span>
-            <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">ZCOIN</span>
+            <span class="tpnl">+8.2 SOL</span>
+            <span class="buysz">avg buy: 2.98 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 59 txs in 30d | Score: 239.5</div>
+        <div class="extra">Wallet age: 4.1 days · Avg buy per trade: 2.98 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard whale">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#17</div>
             <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">DhLwG9YCbn48cbXez9A3R16gYEArX3SPg5S9mWYkLQUW</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">CznZVkq8AmYTi6jkcWZa51g3t8om6UnuzEPq2UdMkbXF</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('DhLwG9YCbn48cbXez9A3R16gYEArX3SPg5S9mWYkLQUW').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/DhLwG9YCbn48cbXez9A3R16gYEArX3SPg5S9mWYkLQUW" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/DhLwG9YCbn48cbXez9A3R16gYEArX3SPg5S9mWYkLQUW" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/DhLwG9YCbn48cbXez9A3R16gYEArX3SPg5S9mWYkLQUW" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('CznZVkq8AmYTi6jkcWZa51g3t8om6UnuzEPq2UdMkbXF').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/CznZVkq8AmYTi6jkcWZa51g3t8om6UnuzEPq2UdMkbXF" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/CznZVkq8AmYTi6jkcWZa51g3t8om6UnuzEPq2UdMkbXF" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/CznZVkq8AmYTi6jkcWZa51g3t8om6UnuzEPq2UdMkbXF" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+2339 SOL</div>
+                <div class="stat-val profit">+1.1 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">55</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">1.72 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Claimr</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Claimr</span>
-            <span class="tpnl">2339 SOL</span>
-            <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">fred</span>
+            <span class="tpnl">+1.1 SOL</span>
+            <span class="buysz">avg buy: 1.72 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 55 txs in 30d | Score: 237.5</div>
+        <div class="extra">Wallet age: 3.5 days · Avg buy per trade: 1.72 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#18</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">BPRvLXDVo5pkcv6fCuxPyUSRDkEVrCUnfSv3TL6XWYSp</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">6LNGdNZsGpm2E3vnHowJdjZa84W24V98xP8b5HM47Fzn</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('BPRvLXDVo5pkcv6fCuxPyUSRDkEVrCUnfSv3TL6XWYSp').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/BPRvLXDVo5pkcv6fCuxPyUSRDkEVrCUnfSv3TL6XWYSp" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/BPRvLXDVo5pkcv6fCuxPyUSRDkEVrCUnfSv3TL6XWYSp" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/BPRvLXDVo5pkcv6fCuxPyUSRDkEVrCUnfSv3TL6XWYSp" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('6LNGdNZsGpm2E3vnHowJdjZa84W24V98xP8b5HM47Fzn').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/6LNGdNZsGpm2E3vnHowJdjZa84W24V98xP8b5HM47Fzn" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/6LNGdNZsGpm2E3vnHowJdjZa84W24V98xP8b5HM47Fzn" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/6LNGdNZsGpm2E3vnHowJdjZa84W24V98xP8b5HM47Fzn" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+197 SOL</div>
+                <div class="stat-val profit">+6.1 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">51</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">3.46 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEV</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Gate.io</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEV</span>
-            <span class="tpnl">197 SOL</span>
-            <a href="https://solscan.io/token/2RSnd9sEt7kyLBtDr262xBNwBsgegz5qcSFtDeSkFLEX" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">FLYPHIL</span>
+            <span class="tpnl">+6.1 SOL</span>
+            <span class="buysz">avg buy: 3.46 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 51 txs in 30d | Score: 235.5</div>
+        <div class="extra">Wallet age: 3.8 days · Avg buy per trade: 3.46 SOL · Funded via: Gate.io</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#19</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">76njubasggkw4zzJNFRnpDd8KnKmLBeu7fsZmLXCapZS</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">CZ6TZteaHXbJDYDrZbvy47Dwn83yUPjMLVzTNvSiKsae</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('76njubasggkw4zzJNFRnpDd8KnKmLBeu7fsZmLXCapZS').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/76njubasggkw4zzJNFRnpDd8KnKmLBeu7fsZmLXCapZS" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/76njubasggkw4zzJNFRnpDd8KnKmLBeu7fsZmLXCapZS" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/76njubasggkw4zzJNFRnpDd8KnKmLBeu7fsZmLXCapZS" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('CZ6TZteaHXbJDYDrZbvy47Dwn83yUPjMLVzTNvSiKsae').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/CZ6TZteaHXbJDYDrZbvy47Dwn83yUPjMLVzTNvSiKsae" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/CZ6TZteaHXbJDYDrZbvy47Dwn83yUPjMLVzTNvSiKsae" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/CZ6TZteaHXbJDYDrZbvy47Dwn83yUPjMLVzTNvSiKsae" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+444 SOL</div>
+                <div class="stat-val profit">+3.9 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">43</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">4.72 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">GUARD</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Gate.io</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">GUARD</span>
-            <span class="tpnl">444 SOL</span>
-            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">ZCAT</span>
+            <span class="tpnl">+3.9 SOL</span>
+            <span class="buysz">avg buy: 4.72 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 43 txs in 30d | Score: 231.5</div>
+        <div class="extra">Wallet age: 3.6 days · Avg buy per trade: 4.72 SOL · Funded via: Gate.io</div>
     </div>
-    <div class="wcard whale">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#20</div>
             <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">4b4zKcFq5ZoR9wX5z15v7PFKaF6ZnuKSGFMoqKcfYFXQ</span>
+                <span class="badge badge-warn">⏳ RECENT</span>
+                <span class="addr">2fQ1szFsV4ms7QLGY8io3dV5MN25jYzE6TkaVBovpbAP</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('4b4zKcFq5ZoR9wX5z15v7PFKaF6ZnuKSGFMoqKcfYFXQ').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/4b4zKcFq5ZoR9wX5z15v7PFKaF6ZnuKSGFMoqKcfYFXQ" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/4b4zKcFq5ZoR9wX5z15v7PFKaF6ZnuKSGFMoqKcfYFXQ" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/4b4zKcFq5ZoR9wX5z15v7PFKaF6ZnuKSGFMoqKcfYFXQ" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('2fQ1szFsV4ms7QLGY8io3dV5MN25jYzE6TkaVBovpbAP').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/2fQ1szFsV4ms7QLGY8io3dV5MN25jYzE6TkaVBovpbAP" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/2fQ1szFsV4ms7QLGY8io3dV5MN25jYzE6TkaVBovpbAP" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/2fQ1szFsV4ms7QLGY8io3dV5MN25jYzE6TkaVBovpbAP" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+3630 SOL</div>
+                <div class="stat-val profit">+16.0 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">42</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">3.00 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Claimr</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Claimr</span>
-            <span class="tpnl">3630 SOL</span>
-            <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">JUBJUB</span>
+            <span class="tpnl">+16.0 SOL</span>
+            <span class="buysz">avg buy: 3.00 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 42 txs in 30d | Score: 231.0</div>
+        <div class="extra">Wallet age: 7.1 days · Avg buy per trade: 3.00 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#21</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">DpMz7pCFeXoukroT8C9xb1UYmrLLxmpppWBxD48Ua9tG</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">HDk6wzTu6qBtCiu4e33TL3dgYvBiWLFYJy3k7A6d9Zpq</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('DpMz7pCFeXoukroT8C9xb1UYmrLLxmpppWBxD48Ua9tG').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/DpMz7pCFeXoukroT8C9xb1UYmrLLxmpppWBxD48Ua9tG" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/DpMz7pCFeXoukroT8C9xb1UYmrLLxmpppWBxD48Ua9tG" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/DpMz7pCFeXoukroT8C9xb1UYmrLLxmpppWBxD48Ua9tG" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('HDk6wzTu6qBtCiu4e33TL3dgYvBiWLFYJy3k7A6d9Zpq').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/HDk6wzTu6qBtCiu4e33TL3dgYvBiWLFYJy3k7A6d9Zpq" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/HDk6wzTu6qBtCiu4e33TL3dgYvBiWLFYJy3k7A6d9Zpq" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/HDk6wzTu6qBtCiu4e33TL3dgYvBiWLFYJy3k7A6d9Zpq" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+328 SOL</div>
+                <div class="stat-val profit">+2.8 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">40</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">3.88 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">LOOONG</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Gate.io</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">LOOONG</span>
-            <span class="tpnl">328 SOL</span>
-            <a href="https://solscan.io/token/8dnA3uotwGL4kgCoraKTypU4owcWSgkdBBXzXWykLL5h" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">INU</span>
+            <span class="tpnl">+2.8 SOL</span>
+            <span class="buysz">avg buy: 3.88 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 40 txs in 30d | Score: 230.0</div>
+        <div class="extra">Wallet age: 3.6 days · Avg buy per trade: 3.88 SOL · Funded via: Gate.io</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#22</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">5hr9hfJcBHx8cjb73LJsm9SzG1bsg5jyiKVaD4KEvt8L</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">4zE3yYpjQNXk4m8QxYozhiagXcYv3hMsbkN64DENgDZw</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('5hr9hfJcBHx8cjb73LJsm9SzG1bsg5jyiKVaD4KEvt8L').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/5hr9hfJcBHx8cjb73LJsm9SzG1bsg5jyiKVaD4KEvt8L" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/5hr9hfJcBHx8cjb73LJsm9SzG1bsg5jyiKVaD4KEvt8L" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/5hr9hfJcBHx8cjb73LJsm9SzG1bsg5jyiKVaD4KEvt8L" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('4zE3yYpjQNXk4m8QxYozhiagXcYv3hMsbkN64DENgDZw').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/4zE3yYpjQNXk4m8QxYozhiagXcYv3hMsbkN64DENgDZw" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/4zE3yYpjQNXk4m8QxYozhiagXcYv3hMsbkN64DENgDZw" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/4zE3yYpjQNXk4m8QxYozhiagXcYv3hMsbkN64DENgDZw" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+293 SOL</div>
+                <div class="stat-val profit">+1.6 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">38</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">2.88 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">GUARD</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Gate.io</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">GUARD</span>
-            <span class="tpnl">293 SOL</span>
-            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">NEKO</span>
+            <span class="tpnl">+1.6 SOL</span>
+            <span class="buysz">avg buy: 2.88 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 38 txs in 30d | Score: 229.0</div>
+        <div class="extra">Wallet age: 3.6 days · Avg buy per trade: 2.88 SOL · Funded via: Gate.io</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#23</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">FMdTnUa2uPJ2MLgydHvpE8rE1XMPHHiTrsPmkwcEURrE</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">8HhqqBGDye5GfJUrx6VaR1Y9tULNjRs4GopyvxPPK2hQ</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('FMdTnUa2uPJ2MLgydHvpE8rE1XMPHHiTrsPmkwcEURrE').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/FMdTnUa2uPJ2MLgydHvpE8rE1XMPHHiTrsPmkwcEURrE" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/FMdTnUa2uPJ2MLgydHvpE8rE1XMPHHiTrsPmkwcEURrE" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/FMdTnUa2uPJ2MLgydHvpE8rE1XMPHHiTrsPmkwcEURrE" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('8HhqqBGDye5GfJUrx6VaR1Y9tULNjRs4GopyvxPPK2hQ').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/8HhqqBGDye5GfJUrx6VaR1Y9tULNjRs4GopyvxPPK2hQ" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/8HhqqBGDye5GfJUrx6VaR1Y9tULNjRs4GopyvxPPK2hQ" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/8HhqqBGDye5GfJUrx6VaR1Y9tULNjRs4GopyvxPPK2hQ" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+493 SOL</div>
+                <div class="stat-val profit">+1.2 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">37</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">3.87 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">COLLECTR</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Gate.io</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">COLLECTR</span>
-            <span class="tpnl">493 SOL</span>
-            <a href="https://solscan.io/token/kkfhrRkYhft8fJArWZ2Q3Gm9DE435DpLH9CRxjuRXtv" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">ZCHAN</span>
+            <span class="tpnl">+1.2 SOL</span>
+            <span class="buysz">avg buy: 3.87 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 37 txs in 30d | Score: 228.5</div>
+        <div class="extra">Wallet age: 3.6 days · Avg buy per trade: 3.87 SOL · Funded via: Gate.io</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#24</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">BUgQ69bnaSgWbbk3MKFjPNCVULwPsMW8XJguvsavpgBJ</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">4xqbYYW1WcfDVezWfu1vk8AJpQmwWzXbijP6H4Z14JoU</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('BUgQ69bnaSgWbbk3MKFjPNCVULwPsMW8XJguvsavpgBJ').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/BUgQ69bnaSgWbbk3MKFjPNCVULwPsMW8XJguvsavpgBJ" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/BUgQ69bnaSgWbbk3MKFjPNCVULwPsMW8XJguvsavpgBJ" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/BUgQ69bnaSgWbbk3MKFjPNCVULwPsMW8XJguvsavpgBJ" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('4xqbYYW1WcfDVezWfu1vk8AJpQmwWzXbijP6H4Z14JoU').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/4xqbYYW1WcfDVezWfu1vk8AJpQmwWzXbijP6H4Z14JoU" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/4xqbYYW1WcfDVezWfu1vk8AJpQmwWzXbijP6H4Z14JoU" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/4xqbYYW1WcfDVezWfu1vk8AJpQmwWzXbijP6H4Z14JoU" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+161 SOL</div>
+                <div class="stat-val profit">+1.3 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">37</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">2.43 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Tokens</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Gate.io</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Tokens</span>
-            <span class="tpnl">161 SOL</span>
-            <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">ZOOKO</span>
+            <span class="tpnl">+1.3 SOL</span>
+            <span class="buysz">avg buy: 2.43 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 37 txs in 30d | Score: 228.5</div>
+        <div class="extra">Wallet age: 3.8 days · Avg buy per trade: 2.43 SOL · Funded via: Gate.io</div>
     </div>
-    <div class="wcard whale">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#25</div>
             <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">Evd4s1GoygwMaPDx6S3BYLvCSqRoUrpPXuaG4CnCRYx3</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">CzDyizc5E4yfV27YJbD9BANwC8gzS6tpKckxm2Hyiydv</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('Evd4s1GoygwMaPDx6S3BYLvCSqRoUrpPXuaG4CnCRYx3').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/Evd4s1GoygwMaPDx6S3BYLvCSqRoUrpPXuaG4CnCRYx3" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/Evd4s1GoygwMaPDx6S3BYLvCSqRoUrpPXuaG4CnCRYx3" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/Evd4s1GoygwMaPDx6S3BYLvCSqRoUrpPXuaG4CnCRYx3" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('CzDyizc5E4yfV27YJbD9BANwC8gzS6tpKckxm2Hyiydv').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/CzDyizc5E4yfV27YJbD9BANwC8gzS6tpKckxm2Hyiydv" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/CzDyizc5E4yfV27YJbD9BANwC8gzS6tpKckxm2Hyiydv" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/CzDyizc5E4yfV27YJbD9BANwC8gzS6tpKckxm2Hyiydv" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+1217 SOL</div>
+                <div class="stat-val profit">+2.8 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">36</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">3.97 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Claimr</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Gate.io</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Claimr</span>
-            <span class="tpnl">1217 SOL</span>
-            <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">ZKAT</span>
+            <span class="tpnl">+2.8 SOL</span>
+            <span class="buysz">avg buy: 3.97 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 36 txs in 30d | Score: 228.0</div>
+        <div class="extra">Wallet age: 3.8 days · Avg buy per trade: 3.97 SOL · Funded via: Gate.io</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#26</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">J7i33F3k22xj8x1JmRK8X1R9A6tpxBrv5B4JGSTb72fk</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">81nKyndrk95GmAedEXnksFMoVDCu6Ad3QjNBYHYrdvzk</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('J7i33F3k22xj8x1JmRK8X1R9A6tpxBrv5B4JGSTb72fk').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/J7i33F3k22xj8x1JmRK8X1R9A6tpxBrv5B4JGSTb72fk" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/J7i33F3k22xj8x1JmRK8X1R9A6tpxBrv5B4JGSTb72fk" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/J7i33F3k22xj8x1JmRK8X1R9A6tpxBrv5B4JGSTb72fk" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('81nKyndrk95GmAedEXnksFMoVDCu6Ad3QjNBYHYrdvzk').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/81nKyndrk95GmAedEXnksFMoVDCu6Ad3QjNBYHYrdvzk" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/81nKyndrk95GmAedEXnksFMoVDCu6Ad3QjNBYHYrdvzk" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/81nKyndrk95GmAedEXnksFMoVDCu6Ad3QjNBYHYrdvzk" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+264 SOL</div>
+                <div class="stat-val profit">+1.1 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">34</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">2.49 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Tokens</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Gate.io</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Tokens</span>
-            <span class="tpnl">264 SOL</span>
-            <a href="https://solscan.io/token/C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">CATESEM</span>
+            <span class="tpnl">+1.1 SOL</span>
+            <span class="buysz">avg buy: 2.49 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 34 txs in 30d | Score: 227.0</div>
+        <div class="extra">Wallet age: 3.8 days · Avg buy per trade: 2.49 SOL · Funded via: Gate.io</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#27</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">CpryPhbXak87nYuec28TJ9bVJmpPCmCX63cAxzHNhYwj</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">5Fz6NFTVtAkejhBPTLjqURLPLnb7LzJSqPGcv7k2DD8n</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('CpryPhbXak87nYuec28TJ9bVJmpPCmCX63cAxzHNhYwj').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/CpryPhbXak87nYuec28TJ9bVJmpPCmCX63cAxzHNhYwj" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/CpryPhbXak87nYuec28TJ9bVJmpPCmCX63cAxzHNhYwj" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/CpryPhbXak87nYuec28TJ9bVJmpPCmCX63cAxzHNhYwj" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('5Fz6NFTVtAkejhBPTLjqURLPLnb7LzJSqPGcv7k2DD8n').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/5Fz6NFTVtAkejhBPTLjqURLPLnb7LzJSqPGcv7k2DD8n" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/5Fz6NFTVtAkejhBPTLjqURLPLnb7LzJSqPGcv7k2DD8n" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/5Fz6NFTVtAkejhBPTLjqURLPLnb7LzJSqPGcv7k2DD8n" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+286 SOL</div>
+                <div class="stat-val profit">+1.2 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">23</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">4.89 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">BPACK</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Bybit</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">BPACK</span>
-            <span class="tpnl">286 SOL</span>
-            <a href="https://solscan.io/token/3mgbkCzxyYgt7AtosiVxoUfwZqgPa6TsF82aQ1oPpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">StonkBankr</span>
+            <span class="tpnl">+1.2 SOL</span>
+            <span class="buysz">avg buy: 4.89 SOL</span>
         </div></div>
-        <div class="extra">Active 3 days / 23 txs in 30d | Score: 226.5</div>
+        <div class="extra">Wallet age: 4.2 days · Avg buy per trade: 4.89 SOL · Funded via: Bybit</div>
     </div>
-    <div class="wcard whale">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#28</div>
             <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">Cz1gDWKiGmK2GitkBTiQeng9DLFGExtszmXvdyiicqFs</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">D8edSKDPnPDVBqad2nf9h8iwKtW5UVyUQHFBQsCw6894</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('Cz1gDWKiGmK2GitkBTiQeng9DLFGExtszmXvdyiicqFs').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/Cz1gDWKiGmK2GitkBTiQeng9DLFGExtszmXvdyiicqFs" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/Cz1gDWKiGmK2GitkBTiQeng9DLFGExtszmXvdyiicqFs" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/Cz1gDWKiGmK2GitkBTiQeng9DLFGExtszmXvdyiicqFs" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('D8edSKDPnPDVBqad2nf9h8iwKtW5UVyUQHFBQsCw6894').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/D8edSKDPnPDVBqad2nf9h8iwKtW5UVyUQHFBQsCw6894" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/D8edSKDPnPDVBqad2nf9h8iwKtW5UVyUQHFBQsCw6894" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/D8edSKDPnPDVBqad2nf9h8iwKtW5UVyUQHFBQsCw6894" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+2298 SOL</div>
+                <div class="stat-val profit">+3.6 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">32</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">4.30 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Claimr</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Claimr</span>
-            <span class="tpnl">2298 SOL</span>
-            <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">StonkBankr</span>
+            <span class="tpnl">+3.6 SOL</span>
+            <span class="buysz">avg buy: 4.30 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 32 txs in 30d | Score: 226.0</div>
+        <div class="extra">Wallet age: 4.8 days · Avg buy per trade: 4.30 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#29</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">DcoQQL11qyBUwNfTUgicZeUZz5vv3CyAvPPPZ6YUFtg5</span>
+                <span class="badge badge-warn">⏳ RECENT</span>
+                <span class="addr">2TCWKBWGsTdNNuQd6ABoAsKskYxmFHQMYddNR2mzhnE1</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('DcoQQL11qyBUwNfTUgicZeUZz5vv3CyAvPPPZ6YUFtg5').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/DcoQQL11qyBUwNfTUgicZeUZz5vv3CyAvPPPZ6YUFtg5" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/DcoQQL11qyBUwNfTUgicZeUZz5vv3CyAvPPPZ6YUFtg5" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/DcoQQL11qyBUwNfTUgicZeUZz5vv3CyAvPPPZ6YUFtg5" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('2TCWKBWGsTdNNuQd6ABoAsKskYxmFHQMYddNR2mzhnE1').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/2TCWKBWGsTdNNuQd6ABoAsKskYxmFHQMYddNR2mzhnE1" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/2TCWKBWGsTdNNuQd6ABoAsKskYxmFHQMYddNR2mzhnE1" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/2TCWKBWGsTdNNuQd6ABoAsKskYxmFHQMYddNR2mzhnE1" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+431 SOL</div>
+                <div class="stat-val profit">+8.3 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">32</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">3.00 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEV</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEV</span>
-            <span class="tpnl">431 SOL</span>
-            <a href="https://solscan.io/token/2RSnd9sEt7kyLBtDr262xBNwBsgegz5qcSFtDeSkFLEX" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">ZOOKO</span>
+            <span class="tpnl">+8.3 SOL</span>
+            <span class="buysz">avg buy: 3.00 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 32 txs in 30d | Score: 226.0</div>
+        <div class="extra">Wallet age: 7.1 days · Avg buy per trade: 3.00 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard whale">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#30</div>
             <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">BTA57p6v5jaY8q4oX77MiEUAg9q5aaVTD1ukdpDffnff</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">7iTuhkH4XhRaPCWPsKkSGx95DSsZKnc9SDJ1CezXbtSq</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('BTA57p6v5jaY8q4oX77MiEUAg9q5aaVTD1ukdpDffnff').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/BTA57p6v5jaY8q4oX77MiEUAg9q5aaVTD1ukdpDffnff" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/BTA57p6v5jaY8q4oX77MiEUAg9q5aaVTD1ukdpDffnff" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/BTA57p6v5jaY8q4oX77MiEUAg9q5aaVTD1ukdpDffnff" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('7iTuhkH4XhRaPCWPsKkSGx95DSsZKnc9SDJ1CezXbtSq').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/7iTuhkH4XhRaPCWPsKkSGx95DSsZKnc9SDJ1CezXbtSq" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/7iTuhkH4XhRaPCWPsKkSGx95DSsZKnc9SDJ1CezXbtSq" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/7iTuhkH4XhRaPCWPsKkSGx95DSsZKnc9SDJ1CezXbtSq" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+6423 SOL</div>
+                <div class="stat-val profit">+2.0 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">31</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">2.26 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEANPHIL</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEANPHIL</span>
-            <span class="tpnl">6423 SOL</span>
-            <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">JULIANO</span>
+            <span class="tpnl">+2.0 SOL</span>
+            <span class="buysz">avg buy: 2.26 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 31 txs in 30d | Score: 225.5</div>
+        <div class="extra">Wallet age: 5.8 days · Avg buy per trade: 2.26 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#31</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">NhkzWGKFFTR2iLPgVPHdrsY8W55o5w98te6yyk59Gbf</span>
+                <span class="badge badge-good">✅ FRESH</span>
+                <span class="addr">7VPNUnFh4vonbbvqabo3dooPQ8iKUiC4H8cnHEV9Uh12</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('NhkzWGKFFTR2iLPgVPHdrsY8W55o5w98te6yyk59Gbf').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/NhkzWGKFFTR2iLPgVPHdrsY8W55o5w98te6yyk59Gbf" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/NhkzWGKFFTR2iLPgVPHdrsY8W55o5w98te6yyk59Gbf" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/NhkzWGKFFTR2iLPgVPHdrsY8W55o5w98te6yyk59Gbf" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('7VPNUnFh4vonbbvqabo3dooPQ8iKUiC4H8cnHEV9Uh12').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/7VPNUnFh4vonbbvqabo3dooPQ8iKUiC4H8cnHEV9Uh12" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/7VPNUnFh4vonbbvqabo3dooPQ8iKUiC4H8cnHEV9Uh12" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/7VPNUnFh4vonbbvqabo3dooPQ8iKUiC4H8cnHEV9Uh12" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+313 SOL</div>
+                <div class="stat-val profit">+1.6 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">31</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">2.25 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Rick</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Rick</span>
-            <span class="tpnl">313 SOL</span>
-            <a href="https://solscan.io/token/GEnkAoR4BNaP3br8rf8eo5mj7jMm5c5VpUuttwASpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">LYRA</span>
+            <span class="tpnl">+1.6 SOL</span>
+            <span class="buysz">avg buy: 2.25 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 31 txs in 30d | Score: 225.5</div>
+        <div class="extra">Wallet age: 5.8 days · Avg buy per trade: 2.25 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard large">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#32</div>
             <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">AQHURJu99pTkbmTJLdZvF61cgmCCu6um3BJ5wAtFYq45</span>
+                <span class="badge badge-warn">⏳ RECENT</span>
+                <span class="addr">6qtudGxEdRJD8v7zVCRSFaAYjWgfCa8NyvzCbJYZmEcd</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('AQHURJu99pTkbmTJLdZvF61cgmCCu6um3BJ5wAtFYq45').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/AQHURJu99pTkbmTJLdZvF61cgmCCu6um3BJ5wAtFYq45" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/AQHURJu99pTkbmTJLdZvF61cgmCCu6um3BJ5wAtFYq45" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/AQHURJu99pTkbmTJLdZvF61cgmCCu6um3BJ5wAtFYq45" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('6qtudGxEdRJD8v7zVCRSFaAYjWgfCa8NyvzCbJYZmEcd').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/6qtudGxEdRJD8v7zVCRSFaAYjWgfCa8NyvzCbJYZmEcd" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/6qtudGxEdRJD8v7zVCRSFaAYjWgfCa8NyvzCbJYZmEcd" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/6qtudGxEdRJD8v7zVCRSFaAYjWgfCa8NyvzCbJYZmEcd" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+840 SOL</div>
+                <div class="stat-val profit">+5.1 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">27</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">2.96 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEANPHIL</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEANPHIL</span>
-            <span class="tpnl">840 SOL</span>
-            <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">bud</span>
+            <span class="tpnl">+5.1 SOL</span>
+            <span class="buysz">avg buy: 2.96 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 27 txs in 30d | Score: 223.5</div>
+        <div class="extra">Wallet age: 7.0 days · Avg buy per trade: 2.96 SOL · Funded via: Binance</div>
     </div>
-    <div class="wcard whale">
+    <div class="wcard">
         <div class="wcard-header">
             <div class="rank">#33</div>
             <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">9vjRjbwsV8EdKm8J89ZUdHDduVGZtSiDvC2KkikxHGF6</span>
+                <span class="badge badge-warn">⏳ RECENT</span>
+                <span class="addr">AtEssaoTpaBCVB6LHBecmi8eA7baXuJQtyKCnwYoyKdc</span>
                 <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('9vjRjbwsV8EdKm8J89ZUdHDduVGZtSiDvC2KkikxHGF6').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/9vjRjbwsV8EdKm8J89ZUdHDduVGZtSiDvC2KkikxHGF6" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/9vjRjbwsV8EdKm8J89ZUdHDduVGZtSiDvC2KkikxHGF6" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/9vjRjbwsV8EdKm8J89ZUdHDduVGZtSiDvC2KkikxHGF6" target="_blank">axiom →</a>
+                    <button class="copy" onclick="navigator.clipboard.writeText('AtEssaoTpaBCVB6LHBecmi8eA7baXuJQtyKCnwYoyKdc').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/AtEssaoTpaBCVB6LHBecmi8eA7baXuJQtyKCnwYoyKdc" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/AtEssaoTpaBCVB6LHBecmi8eA7baXuJQtyKCnwYoyKdc" target="_blank">gmgn →</a>
+                    <a href="https://axiom.trade/sol/address/AtEssaoTpaBCVB6LHBecmi8eA7baXuJQtyKCnwYoyKdc" target="_blank">axiom →</a>
                 </div>
             </div>
         </div>
         <div class="wstats">
             <div class="stat">
                 <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+1774 SOL</div>
+                <div class="stat-val profit">+1.3 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">26</div>
+                <div class="stat-label">Avg Buy</div>
+                <div class="stat-val">2.96 SOL</div>
             </div>
             <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Healing</div>
+                <div class="stat-label">Funded</div>
+                <div class="stat-val funded">Binance</div>
             </div>
         </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Healing</span>
-            <span class="tpnl">1774 SOL</span>
-            <a href="https://solscan.io/token/FJCdyEtH5kTGs7ZQ6kviL4cjgpRo1vSXM3sRdTGCpump" target="_blank" class="tokenlink">→</a>
+        <div class="wtrades"><div class="win">
+            <span class="tsym">GATSBY</span>
+            <span class="tpnl">+1.3 SOL</span>
+            <span class="buysz">avg buy: 2.96 SOL</span>
         </div></div>
-        <div class="extra">Active 2 days / 26 txs in 30d | Score: 223.0</div>
-    </div>
-    <div class="wcard whale">
-        <div class="wcard-header">
-            <div class="rank">#34</div>
-            <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">ATvvUknxB1vMKw28Ca9WBp1mphmhDQwsJTDhon8o3vUG</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('ATvvUknxB1vMKw28Ca9WBp1mphmhDQwsJTDhon8o3vUG').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/ATvvUknxB1vMKw28Ca9WBp1mphmhDQwsJTDhon8o3vUG" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/ATvvUknxB1vMKw28Ca9WBp1mphmhDQwsJTDhon8o3vUG" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/ATvvUknxB1vMKw28Ca9WBp1mphmhDQwsJTDhon8o3vUG" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+10835 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">25</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEANPHIL</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEANPHIL</span>
-            <span class="tpnl">10835 SOL</span>
-            <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 25 txs in 30d | Score: 222.5</div>
-    </div>
-    <div class="wcard large">
-        <div class="wcard-header">
-            <div class="rank">#35</div>
-            <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">3oDVx9Cy77orhpGRxgkFAQee7YaW1tTJav9cNUvT6gcw</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('3oDVx9Cy77orhpGRxgkFAQee7YaW1tTJav9cNUvT6gcw').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/3oDVx9Cy77orhpGRxgkFAQee7YaW1tTJav9cNUvT6gcw" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/3oDVx9Cy77orhpGRxgkFAQee7YaW1tTJav9cNUvT6gcw" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/3oDVx9Cy77orhpGRxgkFAQee7YaW1tTJav9cNUvT6gcw" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+127 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">24</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">PumpPay</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">PumpPay</span>
-            <span class="tpnl">127 SOL</span>
-            <a href="https://solscan.io/token/FKkDMWqFUTZcW6zacy9ikP5cdTb4dbXCtz3WkSyqpump" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 24 txs in 30d | Score: 222.0</div>
-    </div>
-    <div class="wcard whale">
-        <div class="wcard-header">
-            <div class="rank">#36</div>
-            <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">9AZrNV2p6qLojEtfrZBFFHpjGGLbjJ39xyYFehVspsyP</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('9AZrNV2p6qLojEtfrZBFFHpjGGLbjJ39xyYFehVspsyP').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/9AZrNV2p6qLojEtfrZBFFHpjGGLbjJ39xyYFehVspsyP" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/9AZrNV2p6qLojEtfrZBFFHpjGGLbjJ39xyYFehVspsyP" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/9AZrNV2p6qLojEtfrZBFFHpjGGLbjJ39xyYFehVspsyP" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+42819 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">23</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEANPHIL</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEANPHIL</span>
-            <span class="tpnl">42819 SOL</span>
-            <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 23 txs in 30d | Score: 221.5</div>
-    </div>
-    <div class="wcard large">
-        <div class="wcard-header">
-            <div class="rank">#37</div>
-            <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">471egBLtVtnRBcNymoncNGX7E3bFu4cESsnExdZmnB3F</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('471egBLtVtnRBcNymoncNGX7E3bFu4cESsnExdZmnB3F').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/471egBLtVtnRBcNymoncNGX7E3bFu4cESsnExdZmnB3F" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/471egBLtVtnRBcNymoncNGX7E3bFu4cESsnExdZmnB3F" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/471egBLtVtnRBcNymoncNGX7E3bFu4cESsnExdZmnB3F" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+816 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">23</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">PayBox</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">PayBox</span>
-            <span class="tpnl">816 SOL</span>
-            <a href="https://solscan.io/token/8h4CNjYqV2jtewVvBw7v8DVmC8j6tE8uD5RYHrRVpump" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 23 txs in 30d | Score: 221.5</div>
-    </div>
-    <div class="wcard large">
-        <div class="wcard-header">
-            <div class="rank">#38</div>
-            <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">783qshjo8XbnLbA44kHVGU9ByvSmJXnu6xthaQoUBhmn</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('783qshjo8XbnLbA44kHVGU9ByvSmJXnu6xthaQoUBhmn').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/783qshjo8XbnLbA44kHVGU9ByvSmJXnu6xthaQoUBhmn" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/783qshjo8XbnLbA44kHVGU9ByvSmJXnu6xthaQoUBhmn" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/783qshjo8XbnLbA44kHVGU9ByvSmJXnu6xthaQoUBhmn" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+373 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">23</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">LAMBO</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">LAMBO</span>
-            <span class="tpnl">373 SOL</span>
-            <a href="https://solscan.io/token/DS3tKJeEscfe753pSXNiG1HrDMos2sobkBKyabNZpump" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 23 txs in 30d | Score: 221.5</div>
-    </div>
-    <div class="wcard large">
-        <div class="wcard-header">
-            <div class="rank">#39</div>
-            <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">2bMSrDvBQBTWCT7aQ6h53drvCvioAdxkC5pFtumN9Kn9</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('2bMSrDvBQBTWCT7aQ6h53drvCvioAdxkC5pFtumN9Kn9').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/2bMSrDvBQBTWCT7aQ6h53drvCvioAdxkC5pFtumN9Kn9" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/2bMSrDvBQBTWCT7aQ6h53drvCvioAdxkC5pFtumN9Kn9" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/2bMSrDvBQBTWCT7aQ6h53drvCvioAdxkC5pFtumN9Kn9" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+314 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">23</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">LAMBO</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">LAMBO</span>
-            <span class="tpnl">314 SOL</span>
-            <a href="https://solscan.io/token/DS3tKJeEscfe753pSXNiG1HrDMos2sobkBKyabNZpump" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 23 txs in 30d | Score: 221.5</div>
-    </div>
-    <div class="wcard large">
-        <div class="wcard-header">
-            <div class="rank">#40</div>
-            <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">HV41b3nSgLbh7T4jY7TDmpZ3nceyvNbUQAjnYdMHJpNF</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('HV41b3nSgLbh7T4jY7TDmpZ3nceyvNbUQAjnYdMHJpNF').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/HV41b3nSgLbh7T4jY7TDmpZ3nceyvNbUQAjnYdMHJpNF" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/HV41b3nSgLbh7T4jY7TDmpZ3nceyvNbUQAjnYdMHJpNF" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/HV41b3nSgLbh7T4jY7TDmpZ3nceyvNbUQAjnYdMHJpNF" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+107 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">23</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Claimr</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Claimr</span>
-            <span class="tpnl">107 SOL</span>
-            <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 23 txs in 30d | Score: 221.5</div>
-    </div>
-    <div class="wcard whale">
-        <div class="wcard-header">
-            <div class="rank">#41</div>
-            <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">8i9a3eyxwo36VBkk5ML2Qjeqc2ec9de7nq4DGd5yzsm6</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('8i9a3eyxwo36VBkk5ML2Qjeqc2ec9de7nq4DGd5yzsm6').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/8i9a3eyxwo36VBkk5ML2Qjeqc2ec9de7nq4DGd5yzsm6" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/8i9a3eyxwo36VBkk5ML2Qjeqc2ec9de7nq4DGd5yzsm6" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/8i9a3eyxwo36VBkk5ML2Qjeqc2ec9de7nq4DGd5yzsm6" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+1408 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">22</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">GUARD</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">GUARD</span>
-            <span class="tpnl">1408 SOL</span>
-            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 22 txs in 30d | Score: 221.0</div>
-    </div>
-    <div class="wcard large">
-        <div class="wcard-header">
-            <div class="rank">#42</div>
-            <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">GvvRFUFbhz7qYvm44nrHpVEGwL5Rvrpf3A6upGv8DM6b</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('GvvRFUFbhz7qYvm44nrHpVEGwL5Rvrpf3A6upGv8DM6b').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/GvvRFUFbhz7qYvm44nrHpVEGwL5Rvrpf3A6upGv8DM6b" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/GvvRFUFbhz7qYvm44nrHpVEGwL5Rvrpf3A6upGv8DM6b" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/GvvRFUFbhz7qYvm44nrHpVEGwL5Rvrpf3A6upGv8DM6b" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+334 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">20</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">LAMBO</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">LAMBO</span>
-            <span class="tpnl">334 SOL</span>
-            <a href="https://solscan.io/token/DS3tKJeEscfe753pSXNiG1HrDMos2sobkBKyabNZpump" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 20 txs in 30d | Score: 220.0</div>
-    </div>
-    <div class="wcard whale">
-        <div class="wcard-header">
-            <div class="rank">#43</div>
-            <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">A1WmuzSojNQ2g4dZmcyXn2YajWWqq999sMPtufFQ3W1z</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('A1WmuzSojNQ2g4dZmcyXn2YajWWqq999sMPtufFQ3W1z').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/A1WmuzSojNQ2g4dZmcyXn2YajWWqq999sMPtufFQ3W1z" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/A1WmuzSojNQ2g4dZmcyXn2YajWWqq999sMPtufFQ3W1z" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/A1WmuzSojNQ2g4dZmcyXn2YajWWqq999sMPtufFQ3W1z" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+5998 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">19</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEANPHIL</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEANPHIL</span>
-            <span class="tpnl">5998 SOL</span>
-            <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 19 txs in 30d | Score: 219.5</div>
-    </div>
-    <div class="wcard whale">
-        <div class="wcard-header">
-            <div class="rank">#44</div>
-            <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">46ReXoUy9EoVnJwG8ghoQbR4eNqavY4vBrsnJTPezYyk</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('46ReXoUy9EoVnJwG8ghoQbR4eNqavY4vBrsnJTPezYyk').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/46ReXoUy9EoVnJwG8ghoQbR4eNqavY4vBrsnJTPezYyk" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/46ReXoUy9EoVnJwG8ghoQbR4eNqavY4vBrsnJTPezYyk" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/46ReXoUy9EoVnJwG8ghoQbR4eNqavY4vBrsnJTPezYyk" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+1758 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">19</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">JEANPHIL</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">JEANPHIL</span>
-            <span class="tpnl">1758 SOL</span>
-            <a href="https://solscan.io/token/GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 19 txs in 30d | Score: 219.5</div>
-    </div>
-    <div class="wcard whale">
-        <div class="wcard-header">
-            <div class="rank">#45</div>
-            <div class="waddr">
-                <span class="badge badge-bad">🐋 WHALE PnL</span>
-                <span class="addr">DCfijQQggshFgnTTF3ki8khPSzpqE8uESbhiWYH1skRG</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('DCfijQQggshFgnTTF3ki8khPSzpqE8uESbhiWYH1skRG').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/DCfijQQggshFgnTTF3ki8khPSzpqE8uESbhiWYH1skRG" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/DCfijQQggshFgnTTF3ki8khPSzpqE8uESbhiWYH1skRG" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/DCfijQQggshFgnTTF3ki8khPSzpqE8uESbhiWYH1skRG" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+1045 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">19</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">LOOONG</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">LOOONG</span>
-            <span class="tpnl">1045 SOL</span>
-            <a href="https://solscan.io/token/8dnA3uotwGL4kgCoraKTypU4owcWSgkdBBXzXWykLL5h" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 19 txs in 30d | Score: 219.5</div>
-    </div>
-    <div class="wcard large">
-        <div class="wcard-header">
-            <div class="rank">#46</div>
-            <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">D5EWxBvXgDwDY53NNoDNKgJEcn7aYeL7d8beyBUQBXT3</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('D5EWxBvXgDwDY53NNoDNKgJEcn7aYeL7d8beyBUQBXT3').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/D5EWxBvXgDwDY53NNoDNKgJEcn7aYeL7d8beyBUQBXT3" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/D5EWxBvXgDwDY53NNoDNKgJEcn7aYeL7d8beyBUQBXT3" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/D5EWxBvXgDwDY53NNoDNKgJEcn7aYeL7d8beyBUQBXT3" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+694 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">19</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Bidr</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Bidr</span>
-            <span class="tpnl">694 SOL</span>
-            <a href="https://solscan.io/token/CDZodzUDKGH1CfSczv7wi5gnM2ZsGz5JYKbkWreNpump" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 19 txs in 30d | Score: 219.5</div>
-    </div>
-    <div class="wcard large">
-        <div class="wcard-header">
-            <div class="rank">#47</div>
-            <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">1C93QMG7xRwujqgRQRD8UKTE9jaKtH41bY7mHSAsT5U</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('1C93QMG7xRwujqgRQRD8UKTE9jaKtH41bY7mHSAsT5U').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/1C93QMG7xRwujqgRQRD8UKTE9jaKtH41bY7mHSAsT5U" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/1C93QMG7xRwujqgRQRD8UKTE9jaKtH41bY7mHSAsT5U" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/1C93QMG7xRwujqgRQRD8UKTE9jaKtH41bY7mHSAsT5U" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+489 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">19</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">COLLECTR</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">COLLECTR</span>
-            <span class="tpnl">489 SOL</span>
-            <a href="https://solscan.io/token/kkfhrRkYhft8fJArWZ2Q3Gm9DE435DpLH9CRxjuRXtv" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 19 txs in 30d | Score: 219.5</div>
-    </div>
-    <div class="wcard large">
-        <div class="wcard-header">
-            <div class="rank">#48</div>
-            <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">FyHHK9FS1NjTDWUMhuy49VWQwADcpkwuo3UFBqT9wrZZ</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('FyHHK9FS1NjTDWUMhuy49VWQwADcpkwuo3UFBqT9wrZZ').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/FyHHK9FS1NjTDWUMhuy49VWQwADcpkwuo3UFBqT9wrZZ" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/FyHHK9FS1NjTDWUMhuy49VWQwADcpkwuo3UFBqT9wrZZ" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/FyHHK9FS1NjTDWUMhuy49VWQwADcpkwuo3UFBqT9wrZZ" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+366 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">19</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">GTA</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">GTA</span>
-            <span class="tpnl">366 SOL</span>
-            <a href="https://solscan.io/token/9kUtKbhbPVtyhvouFpVoKiP8q712BQf4XyPbKgFSKRkR" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 19 txs in 30d | Score: 219.5</div>
-    </div>
-    <div class="wcard large">
-        <div class="wcard-header">
-            <div class="rank">#49</div>
-            <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">BnPpPvhGcELoKHppfyVCijnm2nH5o7p2Z8YkFaAu8kUr</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('BnPpPvhGcELoKHppfyVCijnm2nH5o7p2Z8YkFaAu8kUr').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/BnPpPvhGcELoKHppfyVCijnm2nH5o7p2Z8YkFaAu8kUr" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/BnPpPvhGcELoKHppfyVCijnm2nH5o7p2Z8YkFaAu8kUr" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/BnPpPvhGcELoKHppfyVCijnm2nH5o7p2Z8YkFaAu8kUr" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+183 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">19</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">Claimr</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">Claimr</span>
-            <span class="tpnl">183 SOL</span>
-            <a href="https://solscan.io/token/4htjusK8sBXXpGmcnbTmQHCRTFoh4fSwQryWEnTmpump" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 19 txs in 30d | Score: 219.5</div>
-    </div>
-    <div class="wcard large">
-        <div class="wcard-header">
-            <div class="rank">#50</div>
-            <div class="waddr">
-                <span class="badge badge-bot">⚠️ LARGE</span>
-                <span class="addr">5rSFRBsutRQGUUP3SgbU8ziwjx3Sk2QyGFz6Hrwf6ux4</span>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('5rSFRBsutRQGUUP3SgbU8ziwjx3Sk2QyGFz6Hrwf6ux4').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/5rSFRBsutRQGUUP3SgbU8ziwjx3Sk2QyGFz6Hrwf6ux4" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/5rSFRBsutRQGUUP3SgbU8ziwjx3Sk2QyGFz6Hrwf6ux4" target="_blank">gmgn →</a>
-                    <a href="https://axiom.trade/sol/address/5rSFRBsutRQGUUP3SgbU8ziwjx3Sk2QyGFz6Hrwf6ux4" target="_blank">axiom →</a>
-                </div>
-            </div>
-        </div>
-        <div class="wstats">
-            <div class="stat">
-                <div class="stat-label">Total PnL</div>
-                <div class="stat-val profit">+100 SOL</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">30d Txs</div>
-                <div class="stat-val">19</div>
-            </div>
-            <div class="stat">
-                <div class="stat-label">Top Token</div>
-                <div class="stat-val best">GUARD</div>
-            </div>
-        </div>
-        <div class="wtrades"><div class="trade">
-            <span class="tsym">GUARD</span>
-            <span class="tpnl">100 SOL</span>
-            <a href="https://solscan.io/token/BjbyvvuGbQwNZiYyk3aw1J9mAEUYkW1n5W5h6XAxxo5e" target="_blank" class="tokenlink">→</a>
-        </div></div>
-        <div class="extra">Active 2 days / 19 txs in 30d | Score: 219.5</div>
+        <div class="extra">Wallet age: 7.0 days · Avg buy per trade: 2.96 SOL · Funded via: Binance</div>
     </div>
 </div>
 
 <footer>
-    <p><strong>Methodology:</strong></p>
-    <p>1. Pulled 873 wallets from GMGN's top traders across 62 quality Pump.fun tokens</p>
-    <p>2. Verified 753 wallets exist on Solana mainnet (RPC getAccountInfo)</p>
-    <p>3. Counted transactions in last 30 days (getSignaturesForAddress)</p>
-    <p>4. Counted distinct days with activity in last 30 days</p>
-    <p style="margin-top: 12px;"><strong>Result:</strong> Maximum 3 distinct active days. User-criterion (15+ days) returned 0 matches.</p>
+    <p><strong>How to use this list:</strong></p>
+    <p>1. Pick a wallet (preferably 🆕 brand new — freshest edge)</p>
+    <p>2. Click <strong>solscan →</strong> to verify on-chain activity</p>
+    <p>3. Set up TradeWiz or similar bot to copy trades with proportional sizing</p>
+    <p>4. <strong>Re-run this scan daily</strong> — fresh wallets disappear quickly</p>
+    <p style="margin-top: 12px;">
+        <strong>Risk note:</strong> Even with these filters, copy-trading is risky. Use small sizing, set max loss, and consider the "anti-PVP pause" feature.
+    </p>
     <p style="margin-top:8px;">
-        <a href="https://gmgn.ai/sol" target="_blank" style="color:#58a6ff;">GMGN</a> •
-        <a href="https://solscan.io" target="_blank" style="color:#58a6ff;">Solscan</a> •
-        <a href="https://axiom.trade" target="_blank" style="color:#58a6ff;">Axiom</a> •
         <a href="../" style="color:#58a6ff;">← Back to project page</a>
     </p>
 </footer>
@@ -1902,14 +1275,6 @@ search.addEventListener('input', () => {
         c.style.display = text.includes(q) ? '' : 'none';
     });
 });
-function filter(cls) {
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    event.target.classList.add('active');
-    cards.forEach(c => {
-        if (cls === 'all') { c.style.display = ''; return; }
-        c.style.display = c.classList.contains(cls) ? '' : 'none';
-    });
-}
 </script>
 </body>
 </html>
