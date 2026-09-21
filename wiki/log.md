@@ -449,3 +449,10 @@
 - All-time: 3574 trades / +25.485 SOL paper PnL / 45.2% WR (inflated by slippage-simulation gap per user memory; real PnL is materially lower)
 - Current balance: 1.140566 SOL, reserve 0.05 SOL — bot cannot trade anyway (would breach reserve)
 - v8.7 mechanical rules preserved; v8.9 age filter at 3.0 min held; no further parameter tweaks warranted while bot is paused for copy-trading pivot
+
+## [2026-09-21 04:39 UTC] cron eval #35: bot still paused, no changes
+- Solana bot: process NOT running (only base_memecoin/base_bot.py alive — separate Base project per user pref). bot.py state.json unchanged since Sep 20 00:20:23.
+- All-time state: 3574 trades, +25.485 SOL paper PnL (inflated by slippage gap), 46.4% WR, 1.140566 SOL balance, 0 open positions.
+- Post-reset window (Sep 16+, 54 trades): 5 wins / 49 losses / 9.3% WR / -0.859 SOL / **47 of 49 losses are -100% ghost rugs**.
+- Root cause: pump.fun bonding-curve snipers drain liquidity 30-90s before our sell executes. PAUSE_NEW_ENTRIES=True (held since Sep 18) is the correct brake; age filter tightened 2→3 min on Sep 20. No parameter tweak within cron scope fixes the structural slippage gap.
+- Decision: NO CHANGES. v8.7+ mechanical rules preserved. Awaiting structural fix (real fill-price verification, DEX-only, or balance top-up to ≥2 SOL).
