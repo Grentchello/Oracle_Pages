@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Live Copy-Trading — Top 10 Wallets</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="30">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", monospace; background: #0d1117; color: #c9d1d9; padding: 16px; }
+header { border-bottom: 1px solid #30363d; padding-bottom: 16px; margin-bottom: 24px; }
+h1 { color: #3fb950; font-size: 22px; margin-bottom: 4px; }
+.subtitle { color: #8b949e; font-size: 12px; }
+.kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 16px 0 24px; }
+.kpi { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 12px; }
+.kpi-label { font-size: 10px; color: #8b949e; text-transform: uppercase; }
+.kpi-val { font-size: 22px; font-weight: 700; color: #3fb950; margin-top: 4px; }
+.kpi-val.alt { color: #d29922; }
+.kpi-val.warn { color: #f85149; }
+.kpi-val.cyan { color: #58a6ff; }
+.section { margin: 32px 0; }
+.section h2 { color: #58a6ff; font-size: 16px; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid #30363d; }
+.tcard { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 12px; margin-bottom: 10px; border-left: 4px solid #3fb950; }
+.tcard-header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.rank { background: #58a6ff; color: #0d1117; font-weight: 800; border-radius: 50%; min-width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; font-size: 12px; }
+.taddr { font-family: monospace; font-size: 12px; color: #c9d1d9; }
+.addrlinks { margin-top: 4px; display: flex; gap: 6px; font-size: 11px; flex-wrap: wrap; }
+.addrlinks a, .copy { color: #58a6ff; text-decoration: none; background: none; border: 1px solid #30363d; padding: 2px 8px; border-radius: 4px; cursor: pointer; font-size: 11px; }
+.addrlinks a:hover, .copy:hover { background: #21262d; }
+.crit-list { font-size: 11px; color: #8b949e; }
+.crit-list ul { list-style: disc; padding-left: 20px; margin-top: 4px; }
+.crit-list strong { color: #3fb950; }
+table { width: 100%; border-collapse: collapse; font-size: 12px; background: #161b22; border-radius: 6px; overflow: hidden; }
+th, td { padding: 6px 10px; text-align: left; border-bottom: 1px solid #21262d; }
+th { background: #0d1117; color: #8b949e; font-weight: 600; text-transform: uppercase; font-size: 10px; }
+td.addr { font-family: monospace; font-size: 11px; }
+.pos { color: #3fb950; }
+.neg { color: #f85149; }
+.poslist { list-style: none; padding: 0; }
+.poslist li { padding: 8px 12px; background: #161b22; border: 1px solid #30363d; border-radius: 6px; margin-bottom: 6px; font-size: 12px; }
+.pos-mint { font-family: monospace; color: #d29922; }
+.pos-tokens { color: #3fb950; font-weight: 600; }
+.live-indicator { display: inline-flex; align-items: center; gap: 6px; background: #238636; color: white; padding: 4px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+.pulse { width: 8px; height: 8px; background: #3fb950; border-radius: 50%; animation: pulse 1.5s infinite; }
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; font-size: 11px; color: #8b949e; }
+.empty { color: #8b949e; padding: 12px; font-style: italic; }
+.update-ts { color: #6e6e6e; font-size: 10px; margin-top: 4px; }
+</style>
+</head>
+<body>
+<header>
+    <h1>🟢 Live Copy-Trading — Top 10 Wallets</h1>
+    <div class="subtitle">
+        Real-time paper trading • Simulated fees (0.30%) + slippage (0.50%) • Polls every 2s
+    </div>
+    <div style="margin-top: 8px;">
+        <span class="live-indicator"><div class="pulse"></div>LIVE</span>
+        <span class="update-ts">last update: 2026-09-22 13:03:11 UTC</span>
+    </div>
+</header>
+
+<div class="kpi-row">
+    <div class="kpi"><div class="kpi-label">Paper Balance</div><div class="kpi-val cyan">2.0000 SOL</div></div>
+    <div class="kpi"><div class="kpi-label">Realized PnL</div><div class="kpi-val warn">+0.0000 SOL</div></div>
+    <div class="kpi"><div class="kpi-label">% Change</div><div class="kpi-val warn">+0.00%</div></div>
+    <div class="kpi"><div class="kpi-label">Trades</div><div class="kpi-val cyan">0</div></div>
+    <div class="kpi"><div class="kpi-label">Win Rate</div><div class="kpi-val">0%</div></div>
+    <div class="kpi"><div class="kpi-label">Fees Paid</div><div class="kpi-val warn">0.0000 SOL</div></div>
+</div>
+
+<div class="section">
+    <h2>👀 Watched Wallets — Top 10 by Score</h2>
+    <div style="font-size: 11px; color: #8b949e; margin-bottom: 12px;">
+        Each wallet passes all selection criteria (fresh_wallet + CEX funded + ≥48h hold + profitable + ≤2 SOL avg buy).
+        The trader polls every 2s and simulates a copy trade with fees + slippage.
+    </div>
+    
+    <div class="tcard">
+        <div class="tcard-header">
+            <div class="rank">#1</div>
+            <div>
+                <div class="taddr">HoVBSuqBtkJzSLWYuHot1sTRBQ7GPnqNyfqUcBi5LMwd</div>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('HoVBSuqBtkJzSLWYuHot1sTRBQ7GPnqNyfqUcBi5LMwd').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/HoVBSuqBtkJzSLWYuHot1sTRBQ7GPnqNyfqUcBi5LMwd" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/HoVBSuqBtkJzSLWYuHot1sTRBQ7GPnqNyfqUcBi5LMwd" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="crit-list">
+            <strong>Why this wallet:</strong>
+            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: Coinbase Hot Wallet 3</li><li>Hold before first trade: 106h (≥48h ✓)</li><li>Avg buy size: 0.00 SOL (≤2 ✓)</li><li>Buy transactions: 2 (real trades)</li><li>GMGN realized PnL: +1.94 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
+        </div>
+    </div>
+    <div class="tcard">
+        <div class="tcard-header">
+            <div class="rank">#2</div>
+            <div>
+                <div class="taddr">Ec1hZgWD4peaJGatjRQ9XSiicjPBArxJzSUhsF7gsboT</div>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('Ec1hZgWD4peaJGatjRQ9XSiicjPBArxJzSUhsF7gsboT').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/Ec1hZgWD4peaJGatjRQ9XSiicjPBArxJzSUhsF7gsboT" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/Ec1hZgWD4peaJGatjRQ9XSiicjPBArxJzSUhsF7gsboT" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="crit-list">
+            <strong>Why this wallet:</strong>
+            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: Gate.io</li><li>Hold before first trade: 85h (≥48h ✓)</li><li>Avg buy size: 0.00 SOL (≤2 ✓)</li><li>Buy transactions: 1 (real trades)</li><li>GMGN realized PnL: +0.24 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
+        </div>
+    </div>
+    <div class="tcard">
+        <div class="tcard-header">
+            <div class="rank">#3</div>
+            <div>
+                <div class="taddr">8sic8o83jXCju7aZXhifgfvzUSC3qmrbetDHjikckJPb</div>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('8sic8o83jXCju7aZXhifgfvzUSC3qmrbetDHjikckJPb').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/8sic8o83jXCju7aZXhifgfvzUSC3qmrbetDHjikckJPb" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/8sic8o83jXCju7aZXhifgfvzUSC3qmrbetDHjikckJPb" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="crit-list">
+            <strong>Why this wallet:</strong>
+            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: Binance</li><li>Hold before first trade: 128h (≥48h ✓)</li><li>Avg buy size: 0.00 SOL (≤2 ✓)</li><li>Buy transactions: 1 (real trades)</li><li>GMGN realized PnL: +0.19 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
+        </div>
+    </div>
+    <div class="tcard">
+        <div class="tcard-header">
+            <div class="rank">#4</div>
+            <div>
+                <div class="taddr">QtrcZ1H9x6k7y6Vs5n9oemB1kCyTFehE8CbRBfPP4bU</div>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('QtrcZ1H9x6k7y6Vs5n9oemB1kCyTFehE8CbRBfPP4bU').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/QtrcZ1H9x6k7y6Vs5n9oemB1kCyTFehE8CbRBfPP4bU" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/QtrcZ1H9x6k7y6Vs5n9oemB1kCyTFehE8CbRBfPP4bU" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="crit-list">
+            <strong>Why this wallet:</strong>
+            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: Binance</li><li>Hold before first trade: 139h (≥48h ✓)</li><li>Avg buy size: 0.00 SOL (≤2 ✓)</li><li>Buy transactions: 5 (real trades)</li><li>GMGN realized PnL: +0.15 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
+        </div>
+    </div>
+    <div class="tcard">
+        <div class="tcard-header">
+            <div class="rank">#5</div>
+            <div>
+                <div class="taddr">7JSDroTFZfaJnnhQRp1rDvC5zW1nEDkUQAmY7Z5sYXdu</div>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('7JSDroTFZfaJnnhQRp1rDvC5zW1nEDkUQAmY7Z5sYXdu').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/7JSDroTFZfaJnnhQRp1rDvC5zW1nEDkUQAmY7Z5sYXdu" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/7JSDroTFZfaJnnhQRp1rDvC5zW1nEDkUQAmY7Z5sYXdu" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="crit-list">
+            <strong>Why this wallet:</strong>
+            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: Binance</li><li>Hold before first trade: 137h (≥48h ✓)</li><li>Avg buy size: 0.00 SOL (≤2 ✓)</li><li>Buy transactions: 1 (real trades)</li><li>GMGN realized PnL: +0.14 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
+        </div>
+    </div>
+    <div class="tcard">
+        <div class="tcard-header">
+            <div class="rank">#6</div>
+            <div>
+                <div class="taddr">8S2aDKoZ5tkRUJW5Bmwv7LfLfP1YedkRRXrX2KpVRNBu</div>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('8S2aDKoZ5tkRUJW5Bmwv7LfLfP1YedkRRXrX2KpVRNBu').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/8S2aDKoZ5tkRUJW5Bmwv7LfLfP1YedkRRXrX2KpVRNBu" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/8S2aDKoZ5tkRUJW5Bmwv7LfLfP1YedkRRXrX2KpVRNBu" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="crit-list">
+            <strong>Why this wallet:</strong>
+            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: Binance</li><li>Hold before first trade: 138h (≥48h ✓)</li><li>Avg buy size: 0.00 SOL (≤2 ✓)</li><li>Buy transactions: 2 (real trades)</li><li>GMGN realized PnL: +0.14 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
+        </div>
+    </div>
+    <div class="tcard">
+        <div class="tcard-header">
+            <div class="rank">#7</div>
+            <div>
+                <div class="taddr">9hpQfeYUiJVMRYGgeN4rQubw6VK4f1eigQ4mv4u8wvuQ</div>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('9hpQfeYUiJVMRYGgeN4rQubw6VK4f1eigQ4mv4u8wvuQ').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/9hpQfeYUiJVMRYGgeN4rQubw6VK4f1eigQ4mv4u8wvuQ" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/9hpQfeYUiJVMRYGgeN4rQubw6VK4f1eigQ4mv4u8wvuQ" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="crit-list">
+            <strong>Why this wallet:</strong>
+            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: Binance</li><li>Hold before first trade: 128h (≥48h ✓)</li><li>Avg buy size: 0.00 SOL (≤2 ✓)</li><li>Buy transactions: 1 (real trades)</li><li>GMGN realized PnL: +0.12 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
+        </div>
+    </div>
+    <div class="tcard">
+        <div class="tcard-header">
+            <div class="rank">#8</div>
+            <div>
+                <div class="taddr">3Taz3YPgKFKbRj3gqFYpjP2CkywoTec3uwhZCQSAmmbB</div>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('3Taz3YPgKFKbRj3gqFYpjP2CkywoTec3uwhZCQSAmmbB').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/3Taz3YPgKFKbRj3gqFYpjP2CkywoTec3uwhZCQSAmmbB" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/3Taz3YPgKFKbRj3gqFYpjP2CkywoTec3uwhZCQSAmmbB" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="crit-list">
+            <strong>Why this wallet:</strong>
+            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: Binance</li><li>Hold before first trade: 137h (≥48h ✓)</li><li>Avg buy size: 0.00 SOL (≤2 ✓)</li><li>Buy transactions: 7 (real trades)</li><li>GMGN realized PnL: +0.12 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
+        </div>
+    </div>
+    <div class="tcard">
+        <div class="tcard-header">
+            <div class="rank">#9</div>
+            <div>
+                <div class="taddr">2PhzwKd7HFnUEyqdr4w9pVz6QWLGgTF9tGjrX6sCFSbx</div>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('2PhzwKd7HFnUEyqdr4w9pVz6QWLGgTF9tGjrX6sCFSbx').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/2PhzwKd7HFnUEyqdr4w9pVz6QWLGgTF9tGjrX6sCFSbx" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/2PhzwKd7HFnUEyqdr4w9pVz6QWLGgTF9tGjrX6sCFSbx" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="crit-list">
+            <strong>Why this wallet:</strong>
+            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: Binance</li><li>Hold before first trade: 136h (≥48h ✓)</li><li>Avg buy size: 0.00 SOL (≤2 ✓)</li><li>Buy transactions: 7 (real trades)</li><li>GMGN realized PnL: +0.12 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
+        </div>
+    </div>
+    <div class="tcard">
+        <div class="tcard-header">
+            <div class="rank">#10</div>
+            <div>
+                <div class="taddr">Drc1Xe4HH6xoKC51cXRVo4GmyZ9SZ72P4fBWXUUUY7E8</div>
+                <div class="addrlinks">
+                    <button class="copy" onclick="navigator.clipboard.writeText('Drc1Xe4HH6xoKC51cXRVo4GmyZ9SZ72P4fBWXUUUY7E8').then(()=>this.textContent='✓')">copy</button>
+                    <a href="https://solscan.io/account/Drc1Xe4HH6xoKC51cXRVo4GmyZ9SZ72P4fBWXUUUY7E8" target="_blank">solscan →</a>
+                    <a href="https://gmgn.ai/sol/address/Drc1Xe4HH6xoKC51cXRVo4GmyZ9SZ72P4fBWXUUUY7E8" target="_blank">gmgn →</a>
+                </div>
+            </div>
+        </div>
+        <div class="crit-list">
+            <strong>Why this wallet:</strong>
+            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: Binance</li><li>Hold before first trade: 119h (≥48h ✓)</li><li>Avg buy size: 0.00 SOL (≤2 ✓)</li><li>Buy transactions: 5 (real trades)</li><li>GMGN realized PnL: +0.12 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>📊 Per-Wallet Performance (Live)</h2>
+    <div class="empty">No trades yet — trader is watching. First copy trade will appear here.</div>
+</div>
+
+<div class="section">
+    <h2>💼 Open Paper Positions</h2>
+    <div class="empty">No open positions.</div>
+</div>
+
+<div class="section">
+    <h2>📝 Recent Trade Journal (last 20)</h2>
+    <div class="empty">Journal empty — waiting for first signal...</div>
+</div>
+
+<footer>
+    <p><strong>How this works:</strong></p>
+    <p>1. Polls Solana mainnet every 2 seconds for each watched wallet</p>
+    <p>2. When a swap is detected (token in/out + SOL movement), decodes the trade</p>
+    <p>3. Simulates a copy at 10% of paper balance (max 0.1 SOL) — proportionally scaled</p>
+    <p>4. Deducts simulated 0.30% fee + 0.50% slippage buffer</p>
+    <p>5. Logs to journal + per-wallet performance tracker</p>
+    <p style="margin-top: 8px;"><strong>Safety:</strong> PAPER mode only — no real SOL is sent. Real PnL = $0 risk.</p>
+    <p style="margin-top: 8px;">
+        <a href="https://grentchello.github.io/Oracle_Pages/projects/copy-trading/" style="color:#58a6ff;">← Original copy-trading dashboard</a>
+    </p>
+</footer>
+</body>
+</html>
