@@ -525,3 +525,11 @@
 - Post-reset window (Sep 16+): 54 trades / 5W / 49L / **9.3% WR** / **-0.859 SOL realized** (from starting_balance 2.0 → balance 1.1406). 47 of 49 losses are -100% ghost rugs on 0.02 SOL positions — structural defect unchanged.
 - Last trade still "ape" at 2026-09-18 08:03 UTC (3d 14h ago). Window since eval #43 (20:50 → 22:52 UTC, ~2h): **0 new trades**. **41st consecutive zero-trade eval under pause.**
 - Decision: **NO CHANGES**. v8.7+ mechanical rules preserved (HARD_STOP_LOSS=-25%, MAX_POSITIONS=1, MAX_HOLD_MINUTES=30, TAKE_PROFIT_PCT=0.50, RESERVE_SOL=0.02). PAUSE_NEW_ENTRIES unchanged. v8.9 age filter (3.0 min) unchanged. v9.4 bonding-curve liquidity floor (3.0 SOL) unchanged. Awaiting structural fix (real fill-price verification / DEX-only / depth-trend on entry) or balance top-up to ≥2 SOL before resuming.
+
+## [2026-09-22 00:53 UTC] cron eval #45: bot still paused, no changes
+- Solana bot: PAUSE_NEW_ENTRIES=True held since 2026-09-18 09:08 UTC (copy-trading pivot). Runner process (pid 294355) alive but blocked by "Buy blocked: would breach reserve (0.02 SOL)" — no fills under pause.
+- All-time state (unchanged from eval #44): **3574 trades**, **+25.4850 SOL paper PnL** (slippage-simulation gap — upper bound, NOT real PnL), **46.4% WR** (1617W / 1866L / 91 breakeven), **1.140566 SOL balance**, **0 open positions**. state.json mtime 2026-09-20 00:20:23 UTC.
+- 318 "Buy blocked: would breach reserve" entries in runner.log — reservation gate correctly prevents any new orders.
+- Last trade still "ape" ghost rug at 2026-09-18 08:03 UTC. Window since eval #44 (Sep 21 22:52 → Sep 22 00:53 UTC, ~2h): **0 new trades**. **42nd consecutive zero-trade eval under pause.**
+- Post-reset window (Sep 16+): 54 trades / 5W / 49L / **9.3% WR** / **-0.859 SOL realized** (from starting_balance 2.0 → balance 1.1406). 47 of 49 losses are -100% ghost rugs on 0.02 SOL positions — structural defect unchanged.
+- Decision: **NO CHANGES**. v8.7+ mechanical rules preserved (HARD_STOP_LOSS=-25%, MAX_POSITIONS=1, MAX_HOLD_MINUTES=30, TAKE_PROFIT_PCT=0.50, RESERVE_SOL=0.02). PAUSE_NEW_ENTRIES unchanged. v8.9 age filter 3.0 min unchanged. v9.4 bonding-curve liquidity floor 3.0 SOL unchanged. Awaiting structural fix (real fill-price verification / DEX-only / depth-trend on entry) or balance top-up to ≥2 SOL before resuming.
