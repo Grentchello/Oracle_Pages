@@ -54,14 +54,23 @@ def decode_swap(tx: dict, watched_wallet: str) -> Optional[dict]:
         sol_change = (post_sol[idx] - pre_sol[idx]) / 1e9  # SOL delta
 
         # Get SPL token balance changes for watched wallet
-        pre_tokens = {t["account"]: t for t in meta.get("preTokenBalances", [])}
-        post_tokens = {t["account"]: t for t in meta.get("postTokenBalances", [])}
+        # Note: account field is NULL in preTokenBalances/postTokenBalances
+        # So we must match by (mint, owner) tuple instead
+        pre_tokens = {}
+        for t in meta.get("preTokenBalances", []):
+            key = (t.get("mint", ""), t.get("owner", ""))
+            pre_tokens[key] = t
+        post_tokens = {}
+        for t in meta.get("postTokenBalances", []):
+            key = (t.get("mint", ""), t.get("owner", ""))
+            post_tokens[key] = t
 
         token_changes = []
-        for acct, post in post_tokens.items():
-            if pre_tokens.get(acct, post).get("owner") != watched_wallet:
+        for key, post in post_tokens.items():
+            if key[1] != watched_wallet:
                 continue
-            pre_amt = float(pre_tokens[acct].get("uiTokenAmount", {}).get("uiAmount", 0) or 0)
+            pre_entry = pre_tokens.get(key, {})
+            pre_amt = float(pre_entry.get("uiTokenAmount", {}).get("uiAmount", 0) or 0)
             post_amt = float(post.get("uiTokenAmount", {}).get("uiAmount", 0) or 0)
             mint = post["mint"]
             change = post_amt - pre_amt

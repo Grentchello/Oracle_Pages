@@ -3,7 +3,7 @@
 Daily copy-trading fresh wallet scanner.
 Only scans tokens NOT seen in history → truly new signals every day.
 """
-import subprocess, json, time, sys
+import subprocess, json, time, sys, os
 from pathlib import Path
 from collections import defaultdict
 import datetime
@@ -86,9 +86,16 @@ print(f"Saved {len(truly_new_tokens)} new tokens to {NEW_TOKENS_FILE}")
 # Step 2: Get fresh traders for the NEW tokens only
 print(f"\nFetching fresh traders for {len(truly_new_tokens)} new tokens...", flush=True)
 fresh_data = {}
-if NEW_TRADERS_FILE.exists():
+# Note: existing NEW_TRADERS_FILE entries are keyed by token address internally
+# but the on-disk format nests them in per-token dicts without an address key.
+# Since today's tokens are all new (filtered vs history), prior trader data
+# is for yesterday's tokens and irrelevant. Start fresh.
+if NEW_TRADERS_FILE.exists() and os.environ.get("DAILY_SCAN_KEEP_CACHE") == "1":
     existing = json.load(open(NEW_TRADERS_FILE))
-    fresh_data = {t["address"]: t for t in existing.get("traders", [])}
+    # Best-effort: rehydrate only entries that actually have an address field
+    for entry in existing.get("traders", []):
+        if isinstance(entry, dict) and entry.get("address"):
+            fresh_data[entry["address"]] = entry
 
 for i, t in enumerate(truly_new_tokens):
     addr = t["address"]

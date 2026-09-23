@@ -16,12 +16,23 @@ from .state import (
 )
 from .decoder import decode_swap
 
-RPC = "https://api.mainnet-beta.solana.com"
+# Helius RPC for speed (10x faster than public)
+import os
+from pathlib import Path as _P
+_env = _P("/opt/data/home/.config/hermes/helius.env")
+if _env.exists():
+    for line in _env.read_text().splitlines():
+        if line.startswith("HELIUS_API_KEY="):
+            _key = line.split("=", 1)[1].strip()
+            break
+else:
+    _key = ""
+RPC = f"https://mainnet.helius-rpc.com/?api-key={_key}"
 TARGETS_FILE = Path("/opt/data/hermes_work/bot/copy_trading/cache/copy_targets.json")
 # Path to the wallet targets — load them on init
 
 # Poll interval (seconds)
-POLL_INTERVAL = 2.0
+POLL_INTERVAL = 0.5  # 0.5s with Helius (was 2s on public RPC)
 
 
 def rpc_call(method, params, retries=3):
@@ -92,14 +103,25 @@ def wallet_criteria(target):
 
 def simulate_paper_trade(swap_signal):
     """Simulate copying this swap at our paper size with fees."""
-    # Strategy: use 10% of paper balance per trade, capped at 0.1 SOL
+    # Strategy: max 5% of paper balance per trade, capped at 0.05 SOL
+    # Also cap total open position value at 50% of starting balance
     account = load_account()
     balance = account["current_balance_sol"]
+    starting = account["starting_balance_sol"]
 
-    # Position size = 10% of balance, capped
-    position_size_pct = 0.10
+    # Check: total tied up in positions
+    positions = load_positions()
+    total_in_positions = sum(p.get("sol_spent", 0) for p in positions.values())
+    max_open = starting * 0.50  # Max 50% of starting balance in open positions
+
+    if total_in_positions >= max_open:
+        # Skip — too much capital tied up
+        return None
+
+    # Position size = 5% of balance, capped
+    position_size_pct = 0.05
     ideal_size = balance * position_size_pct
-    actual_size = min(ideal_size, 0.1)  # Max 0.1 SOL
+    actual_size = min(ideal_size, 0.05)  # Max 0.05 SOL
 
     if actual_size < 0.001:
         # Too small to trade
