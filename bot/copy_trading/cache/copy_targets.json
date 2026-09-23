@@ -1,0 +1,143 @@
+{
+  "targets": [
+    {
+      "wallet": "HoVBSuqBtkJzSLWYuHot1sTRBQ7GPnqNyfqUcBi5LMwd",
+      "pnl": 1.94221981272,
+      "funding": "Coinbase Hot Wallet 3",
+      "funding_ts": 1789567575,
+      "first_trade_ts": 1789949256,
+      "hold_hours": 106.0225,
+      "passes_48h": true,
+      "tokens": [
+        "ZEROCOIN"
+      ],
+      "buy_txs": 2
+    },
+    {
+      "wallet": "Ec1hZgWD4peaJGatjRQ9XSiicjPBArxJzSUhsF7gsboT",
+      "pnl": 0.24136985262,
+      "funding": "Gate.io",
+      "funding_ts": 1789645174,
+      "first_trade_ts": 1789952591,
+      "hold_hours": 85.39361111111111,
+      "passes_48h": true,
+      "tokens": [
+        "ZEC"
+      ],
+      "buy_txs": 1
+    },
+    {
+      "wallet": "8sic8o83jXCju7aZXhifgfvzUSC3qmrbetDHjikckJPb",
+      "pnl": 0.19448106228,
+      "funding": "Binance",
+      "funding_ts": 1789488542,
+      "first_trade_ts": 1789950568,
+      "hold_hours": 128.34055555555557,
+      "passes_48h": true,
+      "tokens": [
+        "ZCHAN"
+      ],
+      "buy_txs": 1
+    },
+    {
+      "wallet": "QtrcZ1H9x6k7y6Vs5n9oemB1kCyTFehE8CbRBfPP4bU",
+      "pnl": 0.15327588894,
+      "funding": "Binance",
+      "funding_ts": 1789452801,
+      "first_trade_ts": 1789952029,
+      "hold_hours": 138.67444444444445,
+      "passes_48h": true,
+      "tokens": [
+        "CATESEM"
+      ],
+      "buy_txs": 5
+    },
+    {
+      "wallet": "7JSDroTFZfaJnnhQRp1rDvC5zW1nEDkUQAmY7Z5sYXdu",
+      "pnl": 0.14382759858,
+      "funding": "Binance",
+      "funding_ts": 1789458400,
+      "first_trade_ts": 1789950226,
+      "hold_hours": 136.61833333333334,
+      "passes_48h": true,
+      "tokens": [
+        "ECC"
+      ],
+      "buy_txs": 1
+    },
+    {
+      "wallet": "8S2aDKoZ5tkRUJW5Bmwv7LfLfP1YedkRRXrX2KpVRNBu",
+      "pnl": 0.13514594059,
+      "funding": "Binance",
+      "funding_ts": 1789452801,
+      "first_trade_ts": 1789950279,
+      "hold_hours": 138.18833333333333,
+      "passes_48h": true,
+      "tokens": [
+        "ZCHAN"
+      ],
+      "buy_txs": 2
+    },
+    {
+      "wallet": "9hpQfeYUiJVMRYGgeN4rQubw6VK4f1eigQ4mv4u8wvuQ",
+      "pnl": 0.12438442746,
+      "funding": "Binance",
+      "funding_ts": 1789488542,
+      "first_trade_ts": 1789950056,
+      "hold_hours": 128.19833333333332,
+      "passes_48h": true,
+      "tokens": [
+        "ECC"
+      ],
+      "buy_txs": 1
+    },
+    {
+      "wallet": "3Taz3YPgKFKbRj3gqFYpjP2CkywoTec3uwhZCQSAmmbB",
+      "pnl": 0.12221133954,
+      "funding": "Binance",
+      "funding_ts": 1789458400,
+      "first_trade_ts": 1789951988,
+      "hold_hours": 137.10777777777778,
+      "passes_48h": true,
+      "tokens": [
+        "CATESEM"
+      ],
+      "buy_txs": 7
+    },
+    {
+      "wallet": "2PhzwKd7HFnUEyqdr4w9pVz6QWLGgTF9tGjrX6sCFSbx",
+      "pnl": 0.11802920622,
+      "funding": "Binance",
+      "funding_ts": 1789458400,
+      "first_trade_ts": 1789949551,
+      "hold_hours": 136.43083333333334,
+      "passes_48h": true,
+      "tokens": [
+        "FLYPHIL"
+      ],
+      "buy_txs": 7
+    },
+    {
+      "wallet": "Drc1Xe4HH6xoKC51cXRVo4GmyZ9SZ72P4fBWXUUUY7E8",
+      "pnl": 0.11701876571,
+      "funding": "Binance",
+      "funding_ts": 1789522372,
+      "first_trade_ts": 1789951984,
+      "hold_hours": 119.33666666666667,
+      "passes_48h": true,
+      "tokens": [
+        "CATESEM"
+      ],
+      "buy_txs": 5
+    }
+  ],
+  "selection_criteria": [
+    "fresh_wallet tag from GMGN",
+    "\u226548h funding hold time (real, not sniping)",
+    "profitable (\u22650.05 SOL)",
+    "avg buy \u2264 2 SOL (matches our 2 SOL account)",
+    "wallet age \u2264 7 days"
+  ],
+  "scan_date": "2026-09-22",
+  "filter_pipeline": "fresh_wallet \u2192 funded \u2192 \u226548h hold \u2192 profitable \u2192 \u22642 SOL avg buy \u2192 \u22647d age"
+}
