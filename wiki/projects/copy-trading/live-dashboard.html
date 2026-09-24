@@ -19,9 +19,10 @@ h1 { color: #5fafff; font-size: 24px; margin-bottom: 8px; }
 .wallets { margin-top: 20px; }
 h2 { color: #88c0d0; font-size: 16px; margin-bottom: 12px; }
 .wallet { background: #1e222a; margin-bottom: 8px; padding: 12px; border-radius: 6px; border-left: 3px solid #5fafff; }
-.wallet-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
-.wallet-address { color: #88c0d0; font-size: 13px; }
-.wallet-links a { background: #3b4252; color: #d8dee9; padding: 2px 6px; margin-right: 4px; border-radius: 3px; text-decoration: none; font-size: 10px; }
+.wallet-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 8px; }
+.wallet-address { color: #88c0d0; font-size: 13px; font-family: monospace; }
+.wallet-links a { background: #3b4252; color: #d8dee9; padding: 4px 10px; margin-right: 4px; border-radius: 3px; text-decoration: none; font-size: 11px; display: inline-block; }
+.wallet-links a:hover { background: #5fafff; color: #2e3440; }
 .wallet-details { color: #88c0d0; font-size: 12px; line-height: 1.6; }
 .label { color: #616e88; }
 .value { color: #d8dee9; }
@@ -33,11 +34,11 @@ h2 { color: #88c0d0; font-size: 16px; margin-bottom: 12px; }
 </style>
 </head>
 <body>
-<h1>🔴 Live Copy-Trading — Top 6 Wallets (Real-Time)</h1>
+<h1>🔴 Live Copy-Trading — Top 6 Wallets</h1>
 <div class="subtitle">
   Real-time paper trading • Simulated fees (0.30%) • slippage (0.50%) • Polls every webhook event
   <span class="live">LIVE</span>
-  <span class="update">Last update: 2026-09-23 23:40 UTC • 9.4h uptime</span>
+  <span class="update">Last update: 2026-09-24 00:17 UTC • 10.0h uptime</span>
 </div>
 
 <div class="stats">
@@ -72,24 +73,37 @@ h2 { color: #88c0d0; font-size: 16px; margin-bottom: 12px; }
 
 <div class="wallet">
   <div class="wallet-header">
-    <div class="wallet-address">BjNyQWnf5c98SvyKr9F3pwLZRyqDxxtWXfmZr3SE2eRN</div>
+    <div class="wallet-address">BcK9oWZwJBo48zBdZTHYa8Y3gBNKKgYQtAihMdT9r74y</div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/BjNyQWnf5c98SvyKr9F3pwLZRyqDxxtWXfmZr3SE2eRN" target="_blank">gmgn</a>
-      <a href="https://solscan.io/account/BjNyQWnf5c98SvyKr9F3pwLZRyqDxxtWXfmZr3SE2eRN" target="_blank">solscan</a>
-      <a href="https://gmgn.ai/sol/address/BjNyQWnf5c98SvyKr9F3pwLZRyqDxxtWXfmZr3SE2eRN?tab=pnl" target="_blank">pnl</a>
+      <a href="https://gmgn.ai/sol/address/BcK9oWZwJBo48zBdZTHYa8Y3gBNKKgYQtAihMdT9r74y" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/BcK9oWZwJBo48zBdZTHYa8Y3gBNKKgYQtAihMdT9r74y" target="_blank">Solscan</a>
+      <a href="https://gmgn.ai/sol/address/BcK9oWZwJBo48zBdZTHYa8Y3gBNKKgYQtAihMdT9r74y?tab=pnl" target="_blank">PnL</a>
     </div>
   </div>
   <div class="wallet-details">
     <span class="label">Why this wallet:</span><br>
-    • GMGN-tagged: real_human_trader (verified via RPC)<br>
+    • Real human trader (verified via Solana RPC)<br>
+    • Balance: <span class="value">5.83 SOL</span><br>
+    • Activity: <span class="value">19 txs/24h</span> (low frequency = not a bot)<br>
+    • Avg trade size: <span class="value">$188</span>
+  </div>
+</div>
+
+<div class="wallet">
+  <div class="wallet-header">
+    <div class="wallet-address">BjNyQWnf5c98SvyKr9F3pwLZRyqDxxtWXfmZr3SE2eRN</div>
+    <div class="wallet-links">
+      <a href="https://gmgn.ai/sol/address/BjNyQWnf5c98SvyKr9F3pwLZRyqDxxtWXfmZr3SE2eRN" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/BjNyQWnf5c98SvyKr9F3pwLZRyqDxxtWXfmZr3SE2eRN" target="_blank">Solscan</a>
+      <a href="https://gmgn.ai/sol/address/BjNyQWnf5c98SvyKr9F3pwLZRyqDxxtWXfmZr3SE2eRN?tab=pnl" target="_blank">PnL</a>
+    </div>
+  </div>
+  <div class="wallet-details">
+    <span class="label">Why this wallet:</span><br>
+    • Real human trader (verified via Solana RPC)<br>
     • Balance: <span class="value">5.14 SOL</span><br>
     • Activity: <span class="value">27 txs/24h</span> (low frequency = not a bot)<br>
-    • Avg trade size: <span class="value">$202</span><br>
-    • Wallet age: <span class="value">fresh</span><br>
-    • Realized PnL: <span class="value positive">+222.52 mSOL</span><br>
-    • Trades: <span class="value">24</span> (1W / 1L)<br>
-    • Win rate: <span class="value">50%</span><br>
-    • Tokens traded: <span class="value">2</span>
+    • Avg trade size: <span class="value">$202</span>
   </div>
 </div>
 
@@ -97,68 +111,17 @@ h2 { color: #88c0d0; font-size: 16px; margin-bottom: 12px; }
   <div class="wallet-header">
     <div class="wallet-address">FHkuAETEg19j2wDfaThGMi4ZPXHvB7yYhULv77aWRaM1</div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/FHkuAETEg19j2wDfaThGMi4ZPXHvB7yYhULv77aWRaM1" target="_blank">gmgn</a>
-      <a href="https://solscan.io/account/FHkuAETEg19j2wDfaThGMi4ZPXHvB7yYhULv77aWRaM1" target="_blank">solscan</a>
-      <a href="https://gmgn.ai/sol/address/FHkuAETEg19j2wDfaThGMi4ZPXHvB7yYhULv77aWRaM1?tab=pnl" target="_blank">pnl</a>
+      <a href="https://gmgn.ai/sol/address/FHkuAETEg19j2wDfaThGMi4ZPXHvB7yYhULv77aWRaM1" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/FHkuAETEg19j2wDfaThGMi4ZPXHvB7yYhULv77aWRaM1" target="_blank">Solscan</a>
+      <a href="https://gmgn.ai/sol/address/FHkuAETEg19j2wDfaThGMi4ZPXHvB7yYhULv77aWRaM1?tab=pnl" target="_blank">PnL</a>
     </div>
   </div>
   <div class="wallet-details">
     <span class="label">Why this wallet:</span><br>
-    • GMGN-tagged: real_human_trader (verified via RPC)<br>
+    • Real human trader (verified via Solana RPC)<br>
     • Balance: <span class="value">4.38 SOL</span><br>
     • Activity: <span class="value">15 txs/24h</span> (low frequency = not a bot)<br>
-    • Avg trade size: <span class="value">$180</span><br>
-    • Wallet age: <span class="value">fresh</span><br>
-    • Realized PnL: <span class="value positive">+121.56 mSOL</span><br>
-    • Trades: <span class="value">22</span> (3W / 1L)<br>
-    • Win rate: <span class="value">75%</span><br>
-    • Tokens traded: <span class="value">2</span>
-  </div>
-</div>
-
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">BcK9oWZwJBo48zBdZTHYa8Y3gBNKKgYQtAihMdT9r74y</div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/BcK9oWZwJBo48zBdZTHYa8Y3gBNKKgYQtAihMdT9r74y" target="_blank">gmgn</a>
-      <a href="https://solscan.io/account/BcK9oWZwJBo48zBdZTHYa8Y3gBNKKgYQtAihMdT9r74y" target="_blank">solscan</a>
-      <a href="https://gmgn.ai/sol/address/BcK9oWZwJBo48zBdZTHYa8Y3gBNKKgYQtAihMdT9r74y?tab=pnl" target="_blank">pnl</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">Why this wallet:</span><br>
-    • GMGN-tagged: real_human_trader (verified via RPC)<br>
-    • Balance: <span class="value">5.83 SOL</span><br>
-    • Activity: <span class="value">19 txs/24h</span> (low frequency = not a bot)<br>
-    • Avg trade size: <span class="value">$188</span><br>
-    • Wallet age: <span class="value">fresh</span><br>
-    • Realized PnL: <span class="value negative">-6.45 mSOL</span><br>
-    • Trades: <span class="value">15</span> (1W / 2L)<br>
-    • Win rate: <span class="value">33%</span><br>
-    • Tokens traded: <span class="value">2</span>
-  </div>
-</div>
-
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">4jNBArqo4ssDUL9xfdmeGTYGuR6RAFUFe76HVitwjJMj</div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/4jNBArqo4ssDUL9xfdmeGTYGuR6RAFUFe76HVitwjJMj" target="_blank">gmgn</a>
-      <a href="https://solscan.io/account/4jNBArqo4ssDUL9xfdmeGTYGuR6RAFUFe76HVitwjJMj" target="_blank">solscan</a>
-      <a href="https://gmgn.ai/sol/address/4jNBArqo4ssDUL9xfdmeGTYGuR6RAFUFe76HVitwjJMj?tab=pnl" target="_blank">pnl</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">Why this wallet:</span><br>
-    • GMGN-tagged: real_human_trader (verified via RPC)<br>
-    • Balance: <span class="value">4.17 SOL</span><br>
-    • Activity: <span class="value">12 txs/24h</span> (low frequency = not a bot)<br>
-    • Avg trade size: <span class="value">$101</span><br>
-    • Wallet age: <span class="value">fresh</span><br>
-    • Realized PnL: <span class="value negative">-26.44 mSOL</span><br>
-    • Trades: <span class="value">10</span> (0W / 2L)<br>
-    • Win rate: <span class="value">0%</span><br>
-    • Tokens traded: <span class="value">2</span>
+    • Avg trade size: <span class="value">$180</span>
   </div>
 </div>
 
@@ -166,22 +129,35 @@ h2 { color: #88c0d0; font-size: 16px; margin-bottom: 12px; }
   <div class="wallet-header">
     <div class="wallet-address">6AQBowEKh4RYZSAuoZLb8hGWPzEDrp5whghRWiqeJ1wu</div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/6AQBowEKh4RYZSAuoZLb8hGWPzEDrp5whghRWiqeJ1wu" target="_blank">gmgn</a>
-      <a href="https://solscan.io/account/6AQBowEKh4RYZSAuoZLb8hGWPzEDrp5whghRWiqeJ1wu" target="_blank">solscan</a>
-      <a href="https://gmgn.ai/sol/address/6AQBowEKh4RYZSAuoZLb8hGWPzEDrp5whghRWiqeJ1wu?tab=pnl" target="_blank">pnl</a>
+      <a href="https://gmgn.ai/sol/address/6AQBowEKh4RYZSAuoZLb8hGWPzEDrp5whghRWiqeJ1wu" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/6AQBowEKh4RYZSAuoZLb8hGWPzEDrp5whghRWiqeJ1wu" target="_blank">Solscan</a>
+      <a href="https://gmgn.ai/sol/address/6AQBowEKh4RYZSAuoZLb8hGWPzEDrp5whghRWiqeJ1wu?tab=pnl" target="_blank">PnL</a>
     </div>
   </div>
   <div class="wallet-details">
     <span class="label">Why this wallet:</span><br>
-    • GMGN-tagged: real_human_trader (verified via RPC)<br>
+    • Real human trader (verified via Solana RPC)<br>
     • Balance: <span class="value">4.30 SOL</span><br>
     • Activity: <span class="value">22 txs/24h</span> (low frequency = not a bot)<br>
-    • Avg trade size: <span class="value">$222</span><br>
-    • Wallet age: <span class="value">fresh</span><br>
-    • Realized PnL: <span class="value negative">-81.59 mSOL</span><br>
-    • Trades: <span class="value">19</span> (1W / 2L)<br>
-    • Win rate: <span class="value">33%</span><br>
-    • Tokens traded: <span class="value">2</span>
+    • Avg trade size: <span class="value">$222</span>
+  </div>
+</div>
+
+<div class="wallet">
+  <div class="wallet-header">
+    <div class="wallet-address">4jNBArqo4ssDUL9xfdmeGTYGuR6RAFUFe76HVitwjJMj</div>
+    <div class="wallet-links">
+      <a href="https://gmgn.ai/sol/address/4jNBArqo4ssDUL9xfdmeGTYGuR6RAFUFe76HVitwjJMj" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/4jNBArqo4ssDUL9xfdmeGTYGuR6RAFUFe76HVitwjJMj" target="_blank">Solscan</a>
+      <a href="https://gmgn.ai/sol/address/4jNBArqo4ssDUL9xfdmeGTYGuR6RAFUFe76HVitwjJMj?tab=pnl" target="_blank">PnL</a>
+    </div>
+  </div>
+  <div class="wallet-details">
+    <span class="label">Why this wallet:</span><br>
+    • Real human trader (verified via Solana RPC)<br>
+    • Balance: <span class="value">4.17 SOL</span><br>
+    • Activity: <span class="value">12 txs/24h</span> (low frequency = not a bot)<br>
+    • Avg trade size: <span class="value">$101</span>
   </div>
 </div>
 
@@ -189,22 +165,17 @@ h2 { color: #88c0d0; font-size: 16px; margin-bottom: 12px; }
   <div class="wallet-header">
     <div class="wallet-address">6HZ17ieKYoQ8i1Jgw42rx8qYZHWDEvd4o9gy4yjniQqR</div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/6HZ17ieKYoQ8i1Jgw42rx8qYZHWDEvd4o9gy4yjniQqR" target="_blank">gmgn</a>
-      <a href="https://solscan.io/account/6HZ17ieKYoQ8i1Jgw42rx8qYZHWDEvd4o9gy4yjniQqR" target="_blank">solscan</a>
-      <a href="https://gmgn.ai/sol/address/6HZ17ieKYoQ8i1Jgw42rx8qYZHWDEvd4o9gy4yjniQqR?tab=pnl" target="_blank">pnl</a>
+      <a href="https://gmgn.ai/sol/address/6HZ17ieKYoQ8i1Jgw42rx8qYZHWDEvd4o9gy4yjniQqR" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/6HZ17ieKYoQ8i1Jgw42rx8qYZHWDEvd4o9gy4yjniQqR" target="_blank">Solscan</a>
+      <a href="https://gmgn.ai/sol/address/6HZ17ieKYoQ8i1Jgw42rx8qYZHWDEvd4o9gy4yjniQqR?tab=pnl" target="_blank">PnL</a>
     </div>
   </div>
   <div class="wallet-details">
     <span class="label">Why this wallet:</span><br>
-    • GMGN-tagged: real_human_trader (verified via RPC)<br>
+    • Real human trader (verified via Solana RPC)<br>
     • Balance: <span class="value">3.88 SOL</span><br>
     • Activity: <span class="value">97 txs/24h</span> (low frequency = not a bot)<br>
-    • Avg trade size: <span class="value">$79</span><br>
-    • Wallet age: <span class="value">fresh</span><br>
-    • Realized PnL: <span class="value negative">-122.15 mSOL</span><br>
-    • Trades: <span class="value">74</span> (14W / 23L)<br>
-    • Win rate: <span class="value">38%</span><br>
-    • Tokens traded: <span class="value">7</span>
+    • Avg trade size: <span class="value">$79</span>
   </div>
 </div>
 
