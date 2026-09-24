@@ -2,193 +2,298 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Live Copy-Trading — Top 10 Wallets</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="refresh" content="30">
+<title>Live Copy-Trading Dashboard</title>
 <style>
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", monospace; background: #0d1117; color: #c9d1d9; padding: 16px; }
-header { border-bottom: 1px solid #30363d; padding-bottom: 16px; margin-bottom: 24px; }
-h1 { color: #3fb950; font-size: 22px; margin-bottom: 4px; }
-.subtitle { color: #8b949e; font-size: 12px; }
-.kpi-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 16px 0 24px; }
-.kpi { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 12px; }
-.kpi-label { font-size: 10px; color: #8b949e; text-transform: uppercase; }
-.kpi-val { font-size: 22px; font-weight: 700; color: #3fb950; margin-top: 4px; }
-.kpi-val.alt { color: #d29922; }
-.kpi-val.warn { color: #f85149; }
-.kpi-val.cyan { color: #58a6ff; }
-.section { margin: 32px 0; }
-.section h2 { color: #58a6ff; font-size: 16px; margin-bottom: 12px; padding-bottom: 6px; border-bottom: 1px solid #30363d; }
-.tcard { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 12px; margin-bottom: 10px; border-left: 4px solid #3fb950; }
-.tcard-header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
-.rank { background: #58a6ff; color: #0d1117; font-weight: 800; border-radius: 50%; min-width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; font-size: 12px; }
-.taddr { font-family: monospace; font-size: 12px; color: #c9d1d9; }
-.addrlinks { margin-top: 4px; display: flex; gap: 6px; font-size: 11px; flex-wrap: wrap; }
-.addrlinks a, .copy { color: #58a6ff; text-decoration: none; background: none; border: 1px solid #30363d; padding: 2px 8px; border-radius: 4px; cursor: pointer; font-size: 11px; }
-.addrlinks a:hover, .copy:hover { background: #21262d; }
-.crit-list { font-size: 11px; color: #8b949e; }
-.crit-list ul { list-style: disc; padding-left: 20px; margin-top: 4px; }
-.crit-list strong { color: #3fb950; }
-table { width: 100%; border-collapse: collapse; font-size: 12px; background: #161b22; border-radius: 6px; overflow: hidden; }
-th, td { padding: 6px 10px; text-align: left; border-bottom: 1px solid #21262d; }
-th { background: #0d1117; color: #8b949e; font-weight: 600; text-transform: uppercase; font-size: 10px; }
-td.addr { font-family: monospace; font-size: 11px; }
-.pos { color: #3fb950; }
-.neg { color: #f85149; }
-.poslist { list-style: none; padding: 0; }
-.poslist li { padding: 8px 12px; background: #161b22; border: 1px solid #30363d; border-radius: 6px; margin-bottom: 6px; font-size: 12px; }
-.pos-mint { font-family: monospace; color: #d29922; }
-.pos-tokens { color: #3fb950; font-weight: 600; }
-.live-indicator { display: inline-flex; align-items: center; gap: 6px; background: #238636; color: white; padding: 4px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; }
-.pulse { width: 8px; height: 8px; background: #3fb950; border-radius: 50%; animation: pulse 1.5s infinite; }
-@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
-footer { border-top: 1px solid #30363d; padding-top: 16px; margin-top: 32px; font-size: 11px; color: #8b949e; }
-.empty { color: #8b949e; padding: 12px; font-style: italic; }
-.update-ts { color: #6e6e6e; font-size: 10px; margin-top: 4px; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'SF Mono', monospace; background: #0a0e14; color: #d8dee9; padding: 20px; }
+h1 { color: #5fafff; font-size: 24px; margin-bottom: 8px; }
+.subtitle { color: #88c0d0; font-size: 12px; margin-bottom: 16px; }
+.live { display: inline-block; background: #a3be8c; color: #2e3440; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; }
+.update { color: #616e88; font-size: 11px; margin-left: 10px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin: 16px 0; }
+.stat { background: #1e222a; padding: 12px; border-radius: 6px; border-left: 3px solid #5fafff; }
+.stat-label { color: #616e88; font-size: 10px; text-transform: uppercase; }
+.stat-value { font-size: 20px; font-weight: bold; margin-top: 4px; }
+.positive { color: #a3be8c; }
+.negative { color: #bf616a; }
+.wallets { margin-top: 20px; }
+h2 { color: #88c0d0; font-size: 16px; margin-bottom: 12px; }
+.wallet { background: #1e222a; margin-bottom: 8px; padding: 12px; border-radius: 6px; border-left: 3px solid #5fafff; }
+.wallet-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.wallet-address { color: #88c0d0; font-size: 13px; }
+.wallet-links a { background: #3b4252; color: #d8dee9; padding: 2px 6px; margin-right: 4px; border-radius: 3px; text-decoration: none; font-size: 10px; }
+.wallet-details { color: #88c0d0; font-size: 12px; line-height: 1.6; }
+.label { color: #616e88; }
+.value { color: #d8dee9; }
+.trades { margin-top: 20px; background: #1e222a; padding: 12px; border-radius: 6px; }
+.trade { padding: 4px 0; font-size: 11px; border-bottom: 1px solid #2e3440; }
+.trade:last-child { border-bottom: none; }
+.type-buy { color: #a3be8c; }
+.type-sell { color: #bf616a; }
 </style>
 </head>
 <body>
-<header>
-    <h1>🟢 Live Copy-Trading — Top 10 Wallets</h1>
-    <div class="subtitle">
-        Real-time paper trading • Simulated fees (0.30%) + slippage (0.50%) • Polls every 2s
-    </div>
-    <div style="margin-top: 8px;">
-        <span class="live-indicator"><div class="pulse"></div>LIVE</span>
-        <span class="update-ts">last update: 2026-09-23 11:23:00 UTC</span>
-    </div>
-</header>
-
-<div class="kpi-row">
-    <div class="kpi"><div class="kpi-label">Paper Balance</div><div class="kpi-val cyan">2.0000 SOL</div></div>
-    <div class="kpi"><div class="kpi-label">Realized PnL</div><div class="kpi-val warn">+0.0000 SOL</div></div>
-    <div class="kpi"><div class="kpi-label">% Change</div><div class="kpi-val warn">+0.00%</div></div>
-    <div class="kpi"><div class="kpi-label">Trades</div><div class="kpi-val cyan">0</div></div>
-    <div class="kpi"><div class="kpi-label">Win Rate</div><div class="kpi-val">0%</div></div>
-    <div class="kpi"><div class="kpi-label">Fees Paid</div><div class="kpi-val warn">0.0000 SOL</div></div>
+<h1>🔴 Live Copy-Trading — Top 6 Wallets (Real-Time)</h1>
+<div class="subtitle">
+  Real-time paper trading • Simulated fees (0.30%) • slippage (0.50%) • Polls every webhook event
+  <span class="live">LIVE</span>
+  <span class="update">Last update: 2026-09-23 23:40 UTC • 9.4h uptime</span>
 </div>
 
-<div class="section">
-    <h2>👀 Watched Wallets — Top 10 by Score</h2>
-    <div style="font-size: 11px; color: #8b949e; margin-bottom: 12px;">
-        Each wallet passes all selection criteria (fresh_wallet + CEX funded + ≥48h hold + profitable + ≤2 SOL avg buy).
-        The trader polls every 2s and simulates a copy trade with fees + slippage.
-    </div>
-    
-    <div class="tcard">
-        <div class="tcard-header">
-            <div class="rank">#1</div>
-            <div>
-                <div class="taddr">9zjgS5AxuB7k6CwKUHzxYaRtp2FGZhEQiTiiAuitvu28</div>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('9zjgS5AxuB7k6CwKUHzxYaRtp2FGZhEQiTiiAuitvu28').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/9zjgS5AxuB7k6CwKUHzxYaRtp2FGZhEQiTiiAuitvu28" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/9zjgS5AxuB7k6CwKUHzxYaRtp2FGZhEQiTiiAuitvu28" target="_blank">gmgn →</a>
-                </div>
-            </div>
-        </div>
-        <div class="crit-list">
-            <strong>Why this wallet:</strong>
-            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: Bybit</li><li>Hold before first trade: 0h (≥48h ✓)</li><li>Avg buy size: 0.82 SOL (≤2 ✓)</li><li>Buy transactions: 2 (real trades)</li><li>GMGN realized PnL: +2.82 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
-        </div>
-    </div>
-    <div class="tcard">
-        <div class="tcard-header">
-            <div class="rank">#2</div>
-            <div>
-                <div class="taddr">3D9inkGHNLNMC63v5sNSMduP4ZkaUeqpeCHaUr3k6FGH</div>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('3D9inkGHNLNMC63v5sNSMduP4ZkaUeqpeCHaUr3k6FGH').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/3D9inkGHNLNMC63v5sNSMduP4ZkaUeqpeCHaUr3k6FGH" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/3D9inkGHNLNMC63v5sNSMduP4ZkaUeqpeCHaUr3k6FGH" target="_blank">gmgn →</a>
-                </div>
-            </div>
-        </div>
-        <div class="crit-list">
-            <strong>Why this wallet:</strong>
-            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: OKX: Hot Wallet</li><li>Hold before first trade: 0h (≥48h ✓)</li><li>Avg buy size: 0.59 SOL (≤2 ✓)</li><li>Buy transactions: 1 (real trades)</li><li>GMGN realized PnL: +2.12 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
-        </div>
-    </div>
-    <div class="tcard">
-        <div class="tcard-header">
-            <div class="rank">#3</div>
-            <div>
-                <div class="taddr">Dwufo5c7mGWKbLkLrkhvFhAGEdNayVH3m2djCC6pN8rz</div>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('Dwufo5c7mGWKbLkLrkhvFhAGEdNayVH3m2djCC6pN8rz').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/Dwufo5c7mGWKbLkLrkhvFhAGEdNayVH3m2djCC6pN8rz" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/Dwufo5c7mGWKbLkLrkhvFhAGEdNayVH3m2djCC6pN8rz" target="_blank">gmgn →</a>
-                </div>
-            </div>
-        </div>
-        <div class="crit-list">
-            <strong>Why this wallet:</strong>
-            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: Bybit</li><li>Hold before first trade: 0h (≥48h ✓)</li><li>Avg buy size: 1.06 SOL (≤2 ✓)</li><li>Buy transactions: 13 (real trades)</li><li>GMGN realized PnL: +1.90 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
-        </div>
-    </div>
-    <div class="tcard">
-        <div class="tcard-header">
-            <div class="rank">#4</div>
-            <div>
-                <div class="taddr">HdjRqQBQSYcKEJFD1tvGkakE1SNdaSznsfVXSPyHdzrA</div>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('HdjRqQBQSYcKEJFD1tvGkakE1SNdaSznsfVXSPyHdzrA').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/HdjRqQBQSYcKEJFD1tvGkakE1SNdaSznsfVXSPyHdzrA" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/HdjRqQBQSYcKEJFD1tvGkakE1SNdaSznsfVXSPyHdzrA" target="_blank">gmgn →</a>
-                </div>
-            </div>
-        </div>
-        <div class="crit-list">
-            <strong>Why this wallet:</strong>
-            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: OKX: Hot Wallet</li><li>Hold before first trade: 0h (≥48h ✓)</li><li>Avg buy size: 0.59 SOL (≤2 ✓)</li><li>Buy transactions: 1 (real trades)</li><li>GMGN realized PnL: +1.89 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
-        </div>
-    </div>
-    <div class="tcard">
-        <div class="tcard-header">
-            <div class="rank">#5</div>
-            <div>
-                <div class="taddr">FPwGbcJFoVm932JSBdZ4yAfUYUCuUHZk31p4eXo2qyQF</div>
-                <div class="addrlinks">
-                    <button class="copy" onclick="navigator.clipboard.writeText('FPwGbcJFoVm932JSBdZ4yAfUYUCuUHZk31p4eXo2qyQF').then(()=>this.textContent='✓')">copy</button>
-                    <a href="https://solscan.io/account/FPwGbcJFoVm932JSBdZ4yAfUYUCuUHZk31p4eXo2qyQF" target="_blank">solscan →</a>
-                    <a href="https://gmgn.ai/sol/address/FPwGbcJFoVm932JSBdZ4yAfUYUCuUHZk31p4eXo2qyQF" target="_blank">gmgn →</a>
-                </div>
-            </div>
-        </div>
-        <div class="crit-list">
-            <strong>Why this wallet:</strong>
-            <ul><li>GMGN-tagged: fresh_wallet</li><li>Funding: OKX: Hot Wallet</li><li>Hold before first trade: 0h (≥48h ✓)</li><li>Avg buy size: 0.59 SOL (≤2 ✓)</li><li>Buy transactions: 1 (real trades)</li><li>GMGN realized PnL: +1.84 SOL</li><li>Wallet age: <7d (fresh)</li></ul>
-        </div>
-    </div>
+<div class="stats">
+  <div class="stat">
+    <div class="stat-label">Paper Balance</div>
+    <div class="stat-value">2.1075 SOL</div>
+  </div>
+  <div class="stat">
+    <div class="stat-label">Realized PnL</div>
+    <div class="stat-value positive">+0.1075 SOL</div>
+  </div>
+  <div class="stat">
+    <div class="stat-label">% Change</div>
+    <div class="stat-value positive">+5.37%</div>
+  </div>
+  <div class="stat">
+    <div class="stat-label">Trades</div>
+    <div class="stat-value">164</div>
+  </div>
+  <div class="stat">
+    <div class="stat-label">Win Rate</div>
+    <div class="stat-value">39%</div>
+  </div>
+  <div class="stat">
+    <div class="stat-label">Fees Paid</div>
+    <div class="stat-value">0.0912 SOL</div>
+  </div>
 </div>
 
-<div class="section">
-    <h2>📊 Per-Wallet Performance (Live)</h2>
-    <div class="empty">No trades yet — trader is watching. First copy trade will appear here.</div>
+<div class="wallets">
+<h2>👁 Watched Wallets — Real Human Traders</h2>
+
+<div class="wallet">
+  <div class="wallet-header">
+    <div class="wallet-address">BjNyQWnf5c98SvyKr9F3pwLZRyqDxxtWXfmZr3SE2eRN</div>
+    <div class="wallet-links">
+      <a href="https://gmgn.ai/sol/address/BjNyQWnf5c98SvyKr9F3pwLZRyqDxxtWXfmZr3SE2eRN" target="_blank">gmgn</a>
+      <a href="https://solscan.io/account/BjNyQWnf5c98SvyKr9F3pwLZRyqDxxtWXfmZr3SE2eRN" target="_blank">solscan</a>
+      <a href="https://gmgn.ai/sol/address/BjNyQWnf5c98SvyKr9F3pwLZRyqDxxtWXfmZr3SE2eRN?tab=pnl" target="_blank">pnl</a>
+    </div>
+  </div>
+  <div class="wallet-details">
+    <span class="label">Why this wallet:</span><br>
+    • GMGN-tagged: real_human_trader (verified via RPC)<br>
+    • Balance: <span class="value">5.14 SOL</span><br>
+    • Activity: <span class="value">27 txs/24h</span> (low frequency = not a bot)<br>
+    • Avg trade size: <span class="value">$202</span><br>
+    • Wallet age: <span class="value">fresh</span><br>
+    • Realized PnL: <span class="value positive">+222.52 mSOL</span><br>
+    • Trades: <span class="value">24</span> (1W / 1L)<br>
+    • Win rate: <span class="value">50%</span><br>
+    • Tokens traded: <span class="value">2</span>
+  </div>
 </div>
 
-<div class="section">
-    <h2>💼 Open Paper Positions</h2>
-    <div class="empty">No open positions.</div>
+<div class="wallet">
+  <div class="wallet-header">
+    <div class="wallet-address">FHkuAETEg19j2wDfaThGMi4ZPXHvB7yYhULv77aWRaM1</div>
+    <div class="wallet-links">
+      <a href="https://gmgn.ai/sol/address/FHkuAETEg19j2wDfaThGMi4ZPXHvB7yYhULv77aWRaM1" target="_blank">gmgn</a>
+      <a href="https://solscan.io/account/FHkuAETEg19j2wDfaThGMi4ZPXHvB7yYhULv77aWRaM1" target="_blank">solscan</a>
+      <a href="https://gmgn.ai/sol/address/FHkuAETEg19j2wDfaThGMi4ZPXHvB7yYhULv77aWRaM1?tab=pnl" target="_blank">pnl</a>
+    </div>
+  </div>
+  <div class="wallet-details">
+    <span class="label">Why this wallet:</span><br>
+    • GMGN-tagged: real_human_trader (verified via RPC)<br>
+    • Balance: <span class="value">4.38 SOL</span><br>
+    • Activity: <span class="value">15 txs/24h</span> (low frequency = not a bot)<br>
+    • Avg trade size: <span class="value">$180</span><br>
+    • Wallet age: <span class="value">fresh</span><br>
+    • Realized PnL: <span class="value positive">+121.56 mSOL</span><br>
+    • Trades: <span class="value">22</span> (3W / 1L)<br>
+    • Win rate: <span class="value">75%</span><br>
+    • Tokens traded: <span class="value">2</span>
+  </div>
 </div>
 
-<div class="section">
-    <h2>📝 Recent Trade Journal (last 20)</h2>
-    <div class="empty">Journal empty — waiting for first signal...</div>
+<div class="wallet">
+  <div class="wallet-header">
+    <div class="wallet-address">BcK9oWZwJBo48zBdZTHYa8Y3gBNKKgYQtAihMdT9r74y</div>
+    <div class="wallet-links">
+      <a href="https://gmgn.ai/sol/address/BcK9oWZwJBo48zBdZTHYa8Y3gBNKKgYQtAihMdT9r74y" target="_blank">gmgn</a>
+      <a href="https://solscan.io/account/BcK9oWZwJBo48zBdZTHYa8Y3gBNKKgYQtAihMdT9r74y" target="_blank">solscan</a>
+      <a href="https://gmgn.ai/sol/address/BcK9oWZwJBo48zBdZTHYa8Y3gBNKKgYQtAihMdT9r74y?tab=pnl" target="_blank">pnl</a>
+    </div>
+  </div>
+  <div class="wallet-details">
+    <span class="label">Why this wallet:</span><br>
+    • GMGN-tagged: real_human_trader (verified via RPC)<br>
+    • Balance: <span class="value">5.83 SOL</span><br>
+    • Activity: <span class="value">19 txs/24h</span> (low frequency = not a bot)<br>
+    • Avg trade size: <span class="value">$188</span><br>
+    • Wallet age: <span class="value">fresh</span><br>
+    • Realized PnL: <span class="value negative">-6.45 mSOL</span><br>
+    • Trades: <span class="value">15</span> (1W / 2L)<br>
+    • Win rate: <span class="value">33%</span><br>
+    • Tokens traded: <span class="value">2</span>
+  </div>
 </div>
 
-<footer>
-    <p><strong>How this works:</strong></p>
-    <p>1. Polls Solana mainnet every 2 seconds for each watched wallet</p>
-    <p>2. When a swap is detected (token in/out + SOL movement), decodes the trade</p>
-    <p>3. Simulates a copy at 10% of paper balance (max 0.1 SOL) — proportionally scaled</p>
-    <p>4. Deducts simulated 0.30% fee + 0.50% slippage buffer</p>
-    <p>5. Logs to journal + per-wallet performance tracker</p>
-    <p style="margin-top: 8px;"><strong>Safety:</strong> PAPER mode only — no real SOL is sent. Real PnL = $0 risk.</p>
-    <p style="margin-top: 8px;">
-        <a href="https://grentchello.github.io/Oracle_Pages/projects/copy-trading/" style="color:#58a6ff;">← Original copy-trading dashboard</a>
-    </p>
-</footer>
+<div class="wallet">
+  <div class="wallet-header">
+    <div class="wallet-address">4jNBArqo4ssDUL9xfdmeGTYGuR6RAFUFe76HVitwjJMj</div>
+    <div class="wallet-links">
+      <a href="https://gmgn.ai/sol/address/4jNBArqo4ssDUL9xfdmeGTYGuR6RAFUFe76HVitwjJMj" target="_blank">gmgn</a>
+      <a href="https://solscan.io/account/4jNBArqo4ssDUL9xfdmeGTYGuR6RAFUFe76HVitwjJMj" target="_blank">solscan</a>
+      <a href="https://gmgn.ai/sol/address/4jNBArqo4ssDUL9xfdmeGTYGuR6RAFUFe76HVitwjJMj?tab=pnl" target="_blank">pnl</a>
+    </div>
+  </div>
+  <div class="wallet-details">
+    <span class="label">Why this wallet:</span><br>
+    • GMGN-tagged: real_human_trader (verified via RPC)<br>
+    • Balance: <span class="value">4.17 SOL</span><br>
+    • Activity: <span class="value">12 txs/24h</span> (low frequency = not a bot)<br>
+    • Avg trade size: <span class="value">$101</span><br>
+    • Wallet age: <span class="value">fresh</span><br>
+    • Realized PnL: <span class="value negative">-26.44 mSOL</span><br>
+    • Trades: <span class="value">10</span> (0W / 2L)<br>
+    • Win rate: <span class="value">0%</span><br>
+    • Tokens traded: <span class="value">2</span>
+  </div>
+</div>
+
+<div class="wallet">
+  <div class="wallet-header">
+    <div class="wallet-address">6AQBowEKh4RYZSAuoZLb8hGWPzEDrp5whghRWiqeJ1wu</div>
+    <div class="wallet-links">
+      <a href="https://gmgn.ai/sol/address/6AQBowEKh4RYZSAuoZLb8hGWPzEDrp5whghRWiqeJ1wu" target="_blank">gmgn</a>
+      <a href="https://solscan.io/account/6AQBowEKh4RYZSAuoZLb8hGWPzEDrp5whghRWiqeJ1wu" target="_blank">solscan</a>
+      <a href="https://gmgn.ai/sol/address/6AQBowEKh4RYZSAuoZLb8hGWPzEDrp5whghRWiqeJ1wu?tab=pnl" target="_blank">pnl</a>
+    </div>
+  </div>
+  <div class="wallet-details">
+    <span class="label">Why this wallet:</span><br>
+    • GMGN-tagged: real_human_trader (verified via RPC)<br>
+    • Balance: <span class="value">4.30 SOL</span><br>
+    • Activity: <span class="value">22 txs/24h</span> (low frequency = not a bot)<br>
+    • Avg trade size: <span class="value">$222</span><br>
+    • Wallet age: <span class="value">fresh</span><br>
+    • Realized PnL: <span class="value negative">-81.59 mSOL</span><br>
+    • Trades: <span class="value">19</span> (1W / 2L)<br>
+    • Win rate: <span class="value">33%</span><br>
+    • Tokens traded: <span class="value">2</span>
+  </div>
+</div>
+
+<div class="wallet">
+  <div class="wallet-header">
+    <div class="wallet-address">6HZ17ieKYoQ8i1Jgw42rx8qYZHWDEvd4o9gy4yjniQqR</div>
+    <div class="wallet-links">
+      <a href="https://gmgn.ai/sol/address/6HZ17ieKYoQ8i1Jgw42rx8qYZHWDEvd4o9gy4yjniQqR" target="_blank">gmgn</a>
+      <a href="https://solscan.io/account/6HZ17ieKYoQ8i1Jgw42rx8qYZHWDEvd4o9gy4yjniQqR" target="_blank">solscan</a>
+      <a href="https://gmgn.ai/sol/address/6HZ17ieKYoQ8i1Jgw42rx8qYZHWDEvd4o9gy4yjniQqR?tab=pnl" target="_blank">pnl</a>
+    </div>
+  </div>
+  <div class="wallet-details">
+    <span class="label">Why this wallet:</span><br>
+    • GMGN-tagged: real_human_trader (verified via RPC)<br>
+    • Balance: <span class="value">3.88 SOL</span><br>
+    • Activity: <span class="value">97 txs/24h</span> (low frequency = not a bot)<br>
+    • Avg trade size: <span class="value">$79</span><br>
+    • Wallet age: <span class="value">fresh</span><br>
+    • Realized PnL: <span class="value negative">-122.15 mSOL</span><br>
+    • Trades: <span class="value">74</span> (14W / 23L)<br>
+    • Win rate: <span class="value">38%</span><br>
+    • Tokens traded: <span class="value">7</span>
+  </div>
+</div>
+
+</div>
+
+<div class="trades">
+<h2 style="color:#88c0d0; font-size:16px; margin-bottom:12px;">📜 Recent Trades</h2>
+
+<div class="trade">
+  <span class="type-sell">[SELL]</span>
+  <span class="value">6HZ17ieKYoQ8i1...</span>
+  token <span class="value">8zouQujNwZ...</span>
+  our_sol=<span class="value">0.0000</span>
+  pnl=<span class="value">-17.63mSOL</span>
+</div>
+
+<div class="trade">
+  <span class="type-buy">[BUY]</span>
+  <span class="value">6HZ17ieKYoQ8i1...</span>
+  token <span class="value">8zouQujNwZ...</span>
+  our_sol=<span class="value">0.0496</span>
+  pnl=<span class="value">open</span>
+</div>
+
+<div class="trade">
+  <span class="type-sell">[SELL]</span>
+  <span class="value">6HZ17ieKYoQ8i1...</span>
+  token <span class="value">5os5VT4uK8...</span>
+  our_sol=<span class="value">0.0000</span>
+  pnl=<span class="value">+1.77mSOL</span>
+</div>
+
+<div class="trade">
+  <span class="type-buy">[BUY]</span>
+  <span class="value">6HZ17ieKYoQ8i1...</span>
+  token <span class="value">5os5VT4uK8...</span>
+  our_sol=<span class="value">0.0496</span>
+  pnl=<span class="value">open</span>
+</div>
+
+<div class="trade">
+  <span class="type-sell">[SELL]</span>
+  <span class="value">6HZ17ieKYoQ8i1...</span>
+  token <span class="value">5os5VT4uK8...</span>
+  our_sol=<span class="value">0.0000</span>
+  pnl=<span class="value">-85.87mSOL</span>
+</div>
+
+<div class="trade">
+  <span class="type-buy">[BUY]</span>
+  <span class="value">6HZ17ieKYoQ8i1...</span>
+  token <span class="value">5os5VT4uK8...</span>
+  our_sol=<span class="value">0.0496</span>
+  pnl=<span class="value">open</span>
+</div>
+
+<div class="trade">
+  <span class="type-buy">[BUY]</span>
+  <span class="value">6AQBowEKh4RYZS...</span>
+  token <span class="value">5os5VT4uK8...</span>
+  our_sol=<span class="value">0.0496</span>
+  pnl=<span class="value">open</span>
+</div>
+
+<div class="trade">
+  <span class="type-buy">[BUY]</span>
+  <span class="value">BjNyQWnf5c98Sv...</span>
+  token <span class="value">5os5VT4uK8...</span>
+  our_sol=<span class="value">0.0496</span>
+  pnl=<span class="value">open</span>
+</div>
+
+<div class="trade">
+  <span class="type-buy">[BUY]</span>
+  <span class="value">6AQBowEKh4RYZS...</span>
+  token <span class="value">5os5VT4uK8...</span>
+  our_sol=<span class="value">0.0496</span>
+  pnl=<span class="value">open</span>
+</div>
+
+<div class="trade">
+  <span class="type-sell">[SELL]</span>
+  <span class="value">6HZ17ieKYoQ8i1...</span>
+  token <span class="value">5os5VT4uK8...</span>
+  our_sol=<span class="value">0.0000</span>
+  pnl=<span class="value">-8.39mSOL</span>
+</div>
+
+</div>
+
 </body>
 </html>
