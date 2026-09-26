@@ -77,6 +77,7 @@ The latest daily journal entry:
 
 - ✅ **[Tasks](tasks/index.md)** — private todo list (password-protected)
 - 🟢 **[Memecoin Trading Dashboard](trading/index.html)** — ACTIVE (v8.3 conservative mode, CoinCLIP + ME2F + GMGN fragility gates)
+- 🟢 **[Herbert Labs (Multica)](https://charlotte-blackjack-ecology-accommodish.trycloudflare.com/)** — Multi-agent orchestration platform
 - 📊 **[Trading Pairs Bot](projects/trading-pairs/index.md)** — multi-pair multi-strategy (SUPER/ROC/BB/DIR) on BTC/ETH/SOL/BNB/XRP/ARB
 - 🖼️ **[Wallpapers](_meta/wallpapers.md)** — phone wallpapers scraped from [alisonfriend.com](https://alisonfriend.com/) (36 images, iPhone + Android sizes)
 - **[Workflow docs →](_meta/method.md)**
