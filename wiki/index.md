@@ -91,7 +91,9 @@ The latest daily journal entry:
 - 📊 **[Trading Pairs Bot](projects/trading-pairs/index.md)** — multi-pair multi-strategy (SUPER/ROC/BB/DIR) on BTC/ETH/SOL/BNB/XRP/ARB
 - 🖼️ **[Wallpapers](_meta/wallpapers.md)** — phone wallpapers scraped from [alisonfriend.com](https://alisonfriend.com/) (36 images, iPhone + Android sizes)
 - **[Workflow docs →](_meta/method.md)**
-- 🐳 **[Coolify](http://207.211.145.179:8000/)** — self-hosted PaaS for deploying services (this machine, port 8000)
+- 🟢 **[Coolify](http://207.211.145.179:8000/)** — self-hosted PaaS for deploying services (this machine, port 8000)
+- 🔴 **[Free Claude Code (FCC)](https://rugby-answer-computation-occur.trycloudflare.com/admin)** — Tunnel temporarily down (ephemeral URL)
+- 🔴 **[Image Generator](https://incoming-cowboy-crop-and.trycloudflare.com)** — Tunnel temporarily down (ephemeral URL)
 
 See the [full daily journal](daily/index.md) for everything.
 
