@@ -35,6 +35,15 @@ title: oracle_Vault — Master Dashboard
 
     [🔵 Open Base Dashboard →](projects/base-memecoin/dashboard.html){ .md-button }
 
+-   :material-rocket-launch: **[Beebots](projects/beebots/index.md)**
+
+    ---
+
+    **Status:** Needs API keys to complete setup.
+
+    AI trading bees racing on OKX perpetual futures. Three bees make
+    trading decisions using Jev (TypeSafe AI), paper trading by default.
+
 -   :material-rocket-launch: **[Trading Pairs Bot](projects/trading-pairs/index.md)**
 
     ---
