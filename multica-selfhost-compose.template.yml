@@ -1,0 +1,115 @@
+# Multica self-host compose skeleton
+#
+# Fill in the angle-bracket placeholders, then POST as the
+# `docker_compose_raw` body (base64-encoded) to Coolify's
+# POST /services endpoint. The skeleton:
+#   - binds explicit host ports (no sslip.io auto-assignment for
+#     multi-container compose)
+#   - patches the web container's hardcoded WS URL at container
+#     start (entrypoint + ws-bundle sed)
+#   - leaves NEXT_PUBLIC_API_URL unset so the Next.js middleware
+#     proxies /auth/* and /api/* to the backend over the Docker
+#     network instead of the browser calling the backend port
+#     directly
+#   - sets FRONTEND_ORIGIN + CORS_ALLOWED_ORIGINS to the public
+#     hostname the user actually reaches (NOT the host IP)
+#
+# Verify with these three end-to-end probes after deploy:
+#   1. curl -sS -o /dev/null -w '%{http_code}\n' \\
+#        http://<HOST>:<WEB_PORT>/        # expect 200, landing HTML
+#   2. curl -sS -X POST http://<HOST>:<WEB_PORT>/auth/send-code \\
+#        -H 'Content-Type: application/json' \\
+#        -d '{"email":"<account-owner>"}'   # expect 200, x-middleware-rewrite header
+#   3. multica login --token mul_...  ;  multica daemon start
+#      # runtime shows up in the Multica UI
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: multica
+      POSTGRES_USER: multica
+      POSTGRES_PASSWORD: <openssl rand -hex 16>
+    volumes:
+      - multica_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U multica -d multica"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    image: ghcr.io/multica-ai/multica-backend:latest
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://multica:<DB_PASSWORD>@postgres:5432/multica?sslmode=disable
+      JWT_SECRET: <openssl rand -hex 32>
+      MULTICA_VCS_SECRET_KEY: <openssl rand -hex 32>
+      PORT: "8080"
+      FRONTEND_ORIGIN: <PUBLIC_URL>
+      CORS_ALLOWED_ORIGINS: <PUBLIC_URL>,http://<HOST_IP>:<WEB_PORT>
+      APP_ENV: production
+      RESEND_API_KEY: <from resend.com/api-keys>
+      RESEND_FROM_EMAIL: 'Multica <onboarding@resend.dev>'
+      # If you want a fixed dev code to bypass email entirely while
+      # debugging, set both:
+      # APP_ENV: development
+      # MULTICA_DEV_VERIFICATION_CODE: "888888"
+    volumes:
+      - multica_uploads:/app/data/uploads
+    ports:
+      - "<BACKEND_PORT>:8080"
+
+  web:
+    image: ghcr.io/multica-ai/multica-web:latest
+    restart: unless-stopped
+    depends_on:
+      - backend
+    # Wrap the original entrypoint so we can sed-patch the
+    # hardcoded ws://localhost:8080/ws before Next.js starts.
+    # The image's Entrypoint is /usr/local/bin/docker-entrypoint.sh
+    # with Cmd ["node", "apps/web/server.js"] — both must be preserved.
+    command: ["sh", "-c", "
+      sed -i 's|ws://localhost:8080/ws|<PUBLIC_WS_URL>|g' /app/apps/web/.next/static/chunks/24550-ec029f6a0c6b688f.js;
+      sed -i 's|ws://localhost:8080/ws|<PUBLIC_WS_URL>|g' /app/apps/web/.next/server/chunks/7261.js;
+      exec /usr/local/bin/docker-entrypoint.sh node apps/web/server.js"]
+    environment:
+      PORT: "3000"
+      # Do NOT set NEXT_PUBLIC_API_URL — see pitfall #25 in the
+      # container-services skill. The Next.js middleware proxies
+      # /auth/* and /api/* to the backend over the Docker network.
+    ports:
+      - "<WEB_PORT>:3000"
+
+volumes:
+  multica_pgdata:
+    name: multica_pgdata
+  multica_uploads:
+    name: multica_uploads
+
+# PLACEHOLDER GUIDE (replace all of these before posting):
+#   <PUBLIC_URL>           https://<tunnel>  OR  http://<HOST_IP>:<WEB_PORT>
+#                          (matches what the user pastes in their browser)
+#   <PUBLIC_WS_URL>        wss://<tunnel>   OR  ws://<HOST_IP>:<WEB_PORT>
+#                          (same scheme/host as PUBLIC_URL)
+#   <HOST_IP>              the VPS public IP, e.g. 207.211.145.179
+#   <WEB_PORT>             host port that maps to web container's 3000
+#                          (avoid 80/443 if Coolify uses them; pick
+#                          something like 3300)
+#   <BACKEND_PORT>         host port that maps to backend container's 8080
+#                          (something like 8380)
+#   <openssl rand -hex 16> for DB password, <openssl rand -hex 32>
+#                          for JWT_SECRET and MULTICA_VCS_SECRET_KEY
+#
+# UFW (run on the VPS host after first deploy):
+#   ufw allow <WEB_PORT>/tcp comment "multica web"
+#   ufw allow <BACKEND_PORT>/tcp comment "multica backend"
+#
+# If using a cloudflared tunnel to expose WEB_PORT externally, do
+# NOT open BACKEND_PORT in UFW — the browser should never reach it
+# directly. The Next.js middleware handles all backend traffic over
+# the Docker network.
