@@ -59,6 +59,15 @@ title: oracle_Vault — Master Dashboard
     Smart-money wallet discovery via GMGN with anti-copier wash filters
     (bundlers, snipe bots, instant roundtrips, sell traps).
 
+-   :material-nfc: **[NFC Tools](projects/nfctools/index.md)**
+
+    ---
+
+    **Status:** v1.0 — read/write/erase NDEF tags from your phone.
+
+    Pure-web NFC tool (Web NFC API). Works on Android Chrome, no install.
+    Reads URLs, text, WiFi, vCard, custom JSON. Writes any of those too.
+
 -   :material-folder-open: **[Browse all projects](projects/index.md)**
 
     ---
@@ -88,6 +97,7 @@ The latest daily journal entry:
 - 🟢 **[Memecoin Trading Dashboard](trading/index.html)** — ACTIVE (v8.3 conservative mode, CoinCLIP + ME2F + GMGN fragility gates)
 - 🐝 **[Beebots](https://career-mapping-recall-magnitude.trycloudflare.com)** — AI trading bees (needs API keys to complete setup)
 - 🟢 **[Herbert Labs (Multica)](https://attach-jvc-section-mix.trycloudflare.com/)** — Multi-agent orchestration platform
+- 📡 **[NFC Tools](projects/nfctools/index.md)** — Web NFC read/write/erase (Android Chrome)
 - 📊 **[Trading Pairs Bot](projects/trading-pairs/index.md)** — multi-pair multi-strategy (SUPER/ROC/BB/DIR) on BTC/ETH/SOL/BNB/XRP/ARB
 - 🖼️ **[Wallpapers](_meta/wallpapers.md)** — phone wallpapers scraped from [alisonfriend.com](https://alisonfriend.com/) (36 images, iPhone + Android sizes)
 - **[Workflow docs →](_meta/method.md)**
