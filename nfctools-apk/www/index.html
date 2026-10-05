@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1020" />
+  <title>NFC Tools</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true">
+        <path d="M4 8c0-1.1.9-2 2-2h20a2 2 0 0 1 2 2v3H4V8Zm0 6h24v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V14Z" fill="currentColor"/>
+        <path d="M11 18a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm5 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Zm5 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z" fill="#0b1020"/>
+      </svg>
+      <div>
+        <h1>NFC Tools</h1>
+        <p class="sub">Read & write NDEF tags</p>
+      </div>
+    </div>
+    <div id="conn" class="conn" title="Web NFC availability">checking…</div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="read" role="tab" aria-selected="true">Read</button>
+    <button class="tab" data-tab="write" role="tab" aria-selected="false">Write</button>
+    <button class="tab" data-tab="erase" role="tab" aria-selected="false">Erase</button>
+    <button class="tab" data-tab="history" role="tab" aria-selected="false">History</button>
+    <button class="tab" data-tab="about" role="tab" aria-selected="false">About</button>
+  </nav>
+
+  <main>
+    <!-- READ -->
+    <section id="tab-read" class="panel active" role="tabpanel">
+      <div class="row">
+        <button id="btn-scan" class="primary">Scan a tag</button>
+        <button id="btn-stop-scan" class="ghost" disabled>Stop</button>
+      </div>
+      <p class="hint">Tap an NFC tag against the back of your phone. Stays open until you stop.</p>
+      <div id="read-status" class="status" hidden></div>
+      <div id="read-result" class="result" hidden></div>
+    </section>
+
+    <!-- WRITE -->
+    <section id="tab-write" class="panel" role="tabpanel" hidden>
+      <div class="form">
+        <label>Record type
+          <select id="write-type">
+            <option value="url">URL</option>
+            <option value="text">Plain text</option>
+            <option value="wifi">WiFi credentials</option>
+            <option value="vcard">Contact (vCard 3.0)</option>
+            <option value="email">Email</option>
+            <option value="tel">Phone number</option>
+            <option value="sms">SMS</option>
+            <option value="geo">Geo location</option>
+            <option value="json">Custom JSON</option>
+          </select>
+        </label>
+
+        <div data-record="url text email tel sms geo">
+          <label>Value
+            <input id="f-value" type="text" placeholder="https://example.com" />
+          </label>
+        </div>
+
+        <div data-record="text" class="sub-field">
+          <label>Language (ISO 639-1)
+            <input id="f-text-lang" type="text" value="en" maxlength="2" />
+          </label>
+        </div>
+
+        <div data-record="wifi" hidden>
+          <label>SSID <input id="f-wifi-ssid" type="text" placeholder="MyWiFi" /></label>
+          <label>Password <input id="f-wifi-pass" type="password" placeholder="••••••" /></label>
+          <label>Auth
+            <select id="f-wifi-auth">
+              <option value="WPA">WPA/WPA2</option>
+              <option value="WEP">WEP</option>
+              <option value="nopass">None (open)</option>
+            </select>
+          </label>
+          <label class="check"><input type="checkbox" id="f-wifi-hidden" /> Hidden network</label>
+        </div>
+
+        <div data-record="vcard" hidden>
+          <label>Full name <input id="f-vc-name" type="text" placeholder="Jane Doe" /></label>
+          <label>Organization <input id="f-vc-org" type="text" /></label>
+          <label>Title <input id="f-vc-title" type="text" /></label>
+          <label>Phone <input id="f-vc-tel" type="tel" /></label>
+          <label>Email <input id="f-vc-email" type="email" /></label>
+          <label>URL <input id="f-vc-url" type="url" /></label>
+          <label>Address <input id="f-vc-addr" type="text" /></label>
+          <label>Note <input id="f-vc-note" type="text" /></label>
+        </div>
+
+        <div data-record="sms" hidden>
+          <label>Phone number <input id="f-sms-number" type="tel" /></label>
+          <label>Message <textarea id="f-sms-body" rows="3"></textarea></label>
+        </div>
+
+        <div data-record="geo" hidden>
+          <label>Latitude <input id="f-geo-lat" type="number" step="any" /></label>
+          <label>Longitude <input id="f-geo-lon" type="number" step="any" /></label>
+        </div>
+
+        <div data-record="json" hidden>
+          <label>JSON payload
+            <textarea id="f-json" rows="6" placeholder='{"key": "value"}'></textarea>
+          </label>
+          <label>Custom MIME type
+            <input id="f-json-mime" type="text" value="application/json" />
+          </label>
+        </div>
+
+        <div class="preview">
+          <div class="preview-label">Preview</div>
+          <pre id="write-preview" class="preview-body"></pre>
+        </div>
+
+        <div class="row">
+          <button id="btn-write" class="primary">Write to tag</button>
+          <button id="btn-write-cancel" class="ghost" hidden>Cancel</button>
+        </div>
+        <div id="write-status" class="status" hidden></div>
+      </div>
+    </section>
+
+    <!-- ERASE -->
+    <section id="tab-erase" class="panel" role="tabpanel" hidden>
+      <p class="warn">⚠️ Erases all NDEF data on the tag. This is reversible on most tags, but not on locked ones.</p>
+      <button id="btn-erase" class="danger">Erase tag</button>
+      <button id="btn-erase-cancel" class="ghost" hidden>Cancel</button>
+      <div id="erase-status" class="status" hidden></div>
+    </section>
+
+    <!-- HISTORY -->
+    <section id="tab-history" class="panel" role="tabpanel" hidden>
+      <div class="row">
+        <button id="btn-clear-history" class="ghost">Clear history</button>
+        <button id="btn-export-history" class="ghost">Export JSON</button>
+      </div>
+      <div id="history-list" class="history"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="tab-about" class="panel" role="tabpanel" hidden>
+      <h2>About</h2>
+      <p>A tiny NFC read/write tool. Uses the <a href="https://web.dev/articles/nfc" target="_blank" rel="noopener">Web NFC API</a>, so it works on Android Chrome (and any other browser that supports it). iOS Safari does not currently support Web NFC.</p>
+      <h3>Privacy</h3>
+      <p>Everything runs in your browser. No tag data is sent anywhere. History is stored in <code>localStorage</code> on this device.</p>
+      <h3>Limits</h3>
+      <ul>
+        <li>Web NFC can read and write <strong>NDEF-formatted</strong> tags.</li>
+        <li>Tags smaller than ~168 bytes can't hold complex records.</li>
+        <li>You can't permanently lock tags from a browser — that needs a native app.</li>
+        <li>Some tag types (Mifare Classic without NDEF, ISO 14443-4 cards) are read-only or unsupported.</li>
+      </ul>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="nfc.js" type="module"></script>
+  <script src="records.js" type="module"></script>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
