@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Walls</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%A8%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo">🎨</span>
+      <div class="title-block">
+        <h1>Walls</h1>
+        <p class="subtitle">435 wallpapers from <a href="https://github.com/harilvfs/androidwallpapers" target="_blank" rel="noopener">harilvfs/androidwallpapers</a></p>
+      </div>
+    </div>
+    <div class="search-row">
+      <input id="search" type="search" placeholder="Search (e.g. black, nature…)" autocomplete="off" />
+      <button id="shuffle" class="btn-icon" title="Shuffle">🎲</button>
+    </div>
+    <div class="stats" id="stats">Loading…</div>
+  </header>
+
+  <main id="grid" class="grid" aria-label="Wallpapers">
+    <!-- Wallpapers injected by app.js -->
+  </main>
+
+  <!-- Lightbox / detail view -->
+  <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true">
+    <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous">‹</button>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Next">›</button>
+    <div class="lb-content">
+      <img id="lbImg" alt="" />
+      <div class="lb-info">
+        <p id="lbName" class="lb-name"></p>
+        <p id="lbSize" class="lb-size"></p>
+        <div class="lb-actions">
+          <button id="lbDownload" class="btn-primary">⬇ Download</button>
+          <button id="lbWallpaper" class="btn-secondary">🖼 Set as wallpaper</button>
+        </div>
+        <p id="lbStatus" class="lb-status"></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
