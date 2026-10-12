@@ -13,8 +13,6 @@ jobs:
         working-directory: ./clpro-app
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
