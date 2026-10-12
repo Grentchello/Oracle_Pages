@@ -1,0 +1,196 @@
+/* Car Launcher Pro Theme Pack */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #0a0a0f;
+  color: #e0e0e0;
+  overflow-x: hidden;
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+header {
+  padding: 24px 20px 16px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0f 100%);
+  border-bottom: 1px solid #2a2a3e;
+}
+h1 { font-size: 24px; margin-bottom: 4px; }
+header p { color: #888; font-size: 14px; }
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+.theme-card {
+  background: #1a1a2e;
+  border: 2px solid #2a2a3e;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform .15s, border-color .15s;
+}
+.theme-card:hover, .theme-card:focus {
+  transform: translateY(-4px);
+  border-color: #00e5ff;
+}
+.theme-preview {
+  height: 180px;
+  position: relative;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.theme-preview .clock {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.theme-preview .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.theme-preview .pill {
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.theme-info {
+  padding: 12px 16px;
+  border-top: 1px solid #2a2a3e;
+}
+.theme-info h2 { font-size: 18px; margin-bottom: 4px; }
+.theme-info p { color: #888; font-size: 13px; }
+.theme-info .actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+.btn {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity .15s;
+}
+.btn:active { opacity: .7; }
+.btn-install {
+  background: #00e5ff;
+  color: #0a0a0f;
+}
+.btn-preview {
+  background: transparent;
+  color: #00e5ff;
+  border: 1px solid #00e5ff;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(10, 10, 15, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  border-top: 1px solid #2a2a3e;
+}
+footer p { margin: 2px 0; }
+footer code { background: #2a2a3e; padding: 1px 6px; border-radius: 4px; font-size: 11px; }
+.small { font-size: 11px !important; }
+
+#preview {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.95);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+#preview.hidden { display: none; }
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: #fff;
+  font-size: 32px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+#preview-content {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+}
+.full-preview {
+  width: 100%;
+  height: 100vh;
+  max-height: 600px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+.full-preview .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.full-preview .big-clock {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1;
+}
+.full-preview .big-speed {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+.full-preview .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: auto;
+}
+.full-preview .app {
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.toast {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #00e5ff;
+  color: #0a0a0f;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-weight: 600;
+  z-index: 200;
+  animation: slideUp 0.3s ease-out;
+}
+@keyframes slideUp {
+  from { transform: translate(-50%, 100px); opacity: 0; }
+  to { transform: translate(-50%, 0); opacity: 1; }
+}

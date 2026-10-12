@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Car Launcher Pro — Theme Pack</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🚗 Car Launcher Pro Themes</h1>
+    <p>Tap a theme to preview, then "Install" to add to your launcher.</p>
+  </header>
+
+  <main id="themes-grid">
+    <!-- Populated by JS -->
+  </main>
+
+  <section id="preview" class="hidden">
+    <button id="close-preview" class="close-btn">×</button>
+    <div id="preview-content"></div>
+  </section>
+
+  <footer>
+    <p>After install, open <strong>Car Launcher Pro → Edit Theme → Restore → choose your theme</strong></p>
+    <p class="small">Themes store in <code>/sdcard/C_Theme/Launcher/</code></p>
+  </footer>
+
+  <script src="app.js"></script>
+  <script src="theme-installer.js"></script>
+</body>
+</html>
