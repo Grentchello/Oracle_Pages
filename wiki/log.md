@@ -543,3 +543,10 @@
   1. PAUSE_NEW_ENTRIES=True (manual halt, cron eval 2026-09-18 09:08 UTC) — by design.
   2. LLM JSON parse failures every tick since Sep 19 23:21 UTC — would block trading even if unpaused. Bot logs "observe" only; root cause likely model output format drift (markdown preamble, code-fence variations, missing closing braces). `extract_json` regex at bot.py:445-478 should handle but is failing.
 - Decision: **NO CHANGES**. v8.7+ mechanical rules preserved (HARD_STOP_LOSS=-25%, MAX_POSITIONS=1, MAX_HOLD_MINUTES=30, TAKE_PROFIT_PCT=0.50, RESERVE_SOL=0.02). PAUSE_NEW_ENTRIES unchanged. v8.9 age filter 3.0 min unchanged. v9.4 bonding-curve liquidity floor 3.0 SOL unchanged. Structural fix (real fill-price verification / DEX-only / depth-trend on entry) still pending. LLM JSON parse failure is the next actionable investigation if user wants to unpause.
+
+## [2026-10-22 07:00 UTC] update | Daily copy-trading fresh wallet scan (new tokens only)
+- `bot/copy_trading/daily_scan.py`: history of 4,147 previously scanned token addresses loaded; 119 truly new tokens fetched from GMGN trenches (0 seen-token rescans), 5,266 unique fresh_wallet-tagged traders pulled, YouTube filter (CEX-funded, profitable, avg_buy <=5 SOL, age <=60d, PnL 0.5-200) -> **38 qualified wallets**, 342.88 SOL aggregate PnL.
+- History updated: scan #34, 4,266 addresses tracked.
+- `wiki/projects/copy-trading/dashboard.html`: refreshed "Fresh Wallets" section with today's top 25 by score (full addresses + GMGN/Solscan/PnL links).
+- `wiki/daily/2026-10-22.md`: created with token/wallet counts and top 3 by PnL.
+- MkDocs site rebuilt; pushed to Oracle_Pages/main (ff0651240a) and oracle_Vault/main. Live: https://grentchello.github.io/Oracle_Pages/projects/copy-trading/dashboard.html
