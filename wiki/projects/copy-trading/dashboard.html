@@ -186,434 +186,185 @@ h2 { color: #88c0d0; font-size: 16px; margin-bottom: 12px; }
 </div>
 
 <div class="wallets">
-<h2>🌱 Fresh Wallets — 2026-10-30</h2>
+<h2>🌱 Fresh Wallets — 2026-11-02</h2>
 <p style="color:#88c0d0; font-size:12px; margin-bottom:12px;">
-  New tokens only (history-filtered). 120 new tokens scanned &rarr; 35 qualified wallets
-  (CEX-funded, profitable, avg buy &le;5 SOL, age &le;60d, PnL 0.5-200 SOL). Top 25 by score shown.
+  New tokens only (history-filtered). 123 new tokens scanned &rarr; 21 GMGN "qualified" wallets
+  &rarr; <b>0 copy-tradeable</b>: all 21 own zero token accounts and hold 0 SOL.
+  They are burner/passthrough addresses; the actual trades are executed by 8 controller wallets shown below,
+  each verified on-chain via Solana RPC (WSOL balance deltas, native SOL, fees).
+</p>
+<p style="color:#ff8080; font-size:12px; margin-bottom:12px;">
+  ⚠️ <b>GMGN PnL is systematically overstated.</b> Sum of GMGN claims = +49.77 SOL;
+  sum of on-chain realised PnL = -4.324 SOL. Only 1/8 controllers are
+  net positive on-chain. Several trade tokens whose pools hold $2-$26k with -94% to -98% 24h moves &mdash;
+  not realisable at the marked price.
 </p>
 <div class="wallet">
   <div class="wallet-header">
-    <div class="wallet-address">6hzvbweJ8yRu9j66fpAnzRtvmGaVFjgYALfMrMv2cLrX<span class="wallet-badge">Bybit</span></div>
+    <div class="wallet-address">HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC<span class="wallet-badge">179.520 SOL</span></div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/6hzvbweJ8yRu9j66fpAnzRtvmGaVFjgYALfMrMv2cLrX" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/6hzvbweJ8yRu9j66fpAnzRtvmGaVFjgYALfMrMv2cLrX" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/6hzvbweJ8yRu9j66fpAnzRtvmGaVFjgYALfMrMv2cLrX?tab=pnl" target="_blank">PnL</a>
+      <a href="https://gmgn.ai/sol/address/HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/HLnpSz9h2S4hiLQ43rnSD9XkcUThA7B8hQMKmDaiTLcC" target="_blank">Solscan</a>
     </div>
   </div>
   <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">12.27 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">3.868 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">0.55d</span>
-    <span class="label">&bull; score:</span> <span class="value">120.6</span><br>
-    <span class="label">Tokens:</span> <span class="value">STABLEPAD</span>
+    <span class="label">On-chain realised PnL:</span> <span class="value positive">+3.389 SOL</span>
+    <span class="label">&bull; GMGN claim (via burners):</span> <span class="value">+33.70 SOL</span>
+    <span class="label">&bull; gap:</span> <span class="value positive">-30.308 SOL</span><br>
+    <span class="label">Trades:</span> <span class="value">18 buys / 29 sells</span>
+    <span class="label">&bull; burners:</span> <span class="value">7</span>
+    <span class="label">&bull; mints:</span> <span class="value">10</span><br>
+    <span class="label">Tokens traded (DexScreener):</span>
+    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"><li><code>7xHt7Jn6SQM1vKyJBgsaUUyaKWFPf8aa1ZPAPQCeRe9A</code> Nathalia &mdash; liq $4,401, 24h $259,811, px 317%</li><li><code>GAHKuqZDX8diGuNwxpSPPcALm8gbkFsQ12yrLeppH1F6</code> deepseek &mdash; liq $7,239, 24h $408,192, px 636%</li><li><code>HBFxk72r4xVqhT8yK8ZFXEEGvpfkoeeSTQXiewZP7SZM</code> WTAIL &mdash; liq $16,470, 24h $3,080, px -1.18%</li><li><code>4u465kvdD4XGg6FVCiaTUUj3PfirQbY6cuhsmbpf6ay5</code> 安 ⚠️ &mdash; liq $8, 24h $352,712, px 146%</li><li><code>7NjyhucUEqMHxGN61aZpKBU94W2MYXrnkVKA2JaGHxV5</code> Kimchi &mdash; liq $10,406, 24h $265,591, px 2105%</li></ul>
+    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
+    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;">4Ti4K88TDyRDMdGYVZkQiXrGRzLAN9aqYJqmGu49tCbC&lt;br&gt;4pfJc4ur6yDJDZYWYpPPLpBZtprGYn2BRBQJXxj7UFFh&lt;br&gt;A5Y68F6w369ibbwEM6i3J6ek7WxDnv7B6nGjXMzYNhKS&lt;br&gt;BcPPGMwzzU8u7Vgh8pnYqdAFJ6Sq9WDXDdbdxEWArg2P&lt;br&gt;DkHEhtRMxbtWZTyrCEotf9DApCJyUQeDUctqQpusRgvv</div>
   </div>
 </div>
 <div class="wallet">
   <div class="wallet-header">
-    <div class="wallet-address">726i4MB2QL2RvR85ugNzPfaMmgtbVejrviZqVYoVbzUj<span class="wallet-badge">Bybit</span></div>
+    <div class="wallet-address">76nXKHfUxYQi94e47HwrrxAVY3wgznAJTBAgpdgNSMqv<span class="wallet-badge">0.486 SOL</span></div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/726i4MB2QL2RvR85ugNzPfaMmgtbVejrviZqVYoVbzUj" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/726i4MB2QL2RvR85ugNzPfaMmgtbVejrviZqVYoVbzUj" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/726i4MB2QL2RvR85ugNzPfaMmgtbVejrviZqVYoVbzUj?tab=pnl" target="_blank">PnL</a>
+      <a href="https://gmgn.ai/sol/address/76nXKHfUxYQi94e47HwrrxAVY3wgznAJTBAgpdgNSMqv" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/76nXKHfUxYQi94e47HwrrxAVY3wgznAJTBAgpdgNSMqv" target="_blank">Solscan</a>
     </div>
   </div>
   <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">3.57 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">2.150 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">0.56d</span>
-    <span class="label">&bull; score:</span> <span class="value">105.3</span><br>
-    <span class="label">Tokens:</span> <span class="value">laptop</span>
+    <span class="label">On-chain realised PnL:</span> <span class="value negative">-0.004 SOL</span>
+    <span class="label">&bull; GMGN claim (via burners):</span> <span class="value">+2.32 SOL</span>
+    <span class="label">&bull; gap:</span> <span class="value negative">-2.328 SOL</span><br>
+    <span class="label">Trades:</span> <span class="value">33 buys / 27 sells</span>
+    <span class="label">&bull; burners:</span> <span class="value">1</span>
+    <span class="label">&bull; mints:</span> <span class="value">9</span><br>
+    <span class="label">Tokens traded (DexScreener):</span>
+    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"><li><code>9F773JDTzcD1vtLypqP9LqUzWXaZZRbT2FJLWYS5pump</code> HILTER ⚠️ &mdash; liq $7, 24h $1,121, px -97.89%</li><li><code>HydVM4W7Byr7j1f577eBCy7PbNeDHubbHbZUrkPNpump</code> SwordPepe ⚠️ &mdash; liq $21, 24h $47, px -88.47%</li><li><code>9b29teZ7ucNNrjCjvQY9dgqMMNbWVQFAnEradjuPpump</code> BOOM ⚠️ &mdash; liq $16, 24h $226, px -35.06%</li><li><code>6PSgksMjq4rNfnTWAZXbVLWy7bHN4k8zPvnqepywpump</code> RTE ⚠️ &mdash; liq $20, 24h $1,521, px -94.47%</li><li><code>F4doH7zsr9hvNGToJJCmLmexnzJ82xDLpgUunBj3pump</code> Mayhem ⚠️ &mdash; liq $4, 24h $210, px -98.46%</li></ul>
+    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
+    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;">3FWaWf2KPgiF262eHSS71npXp9kMpemrRankMeViyWu1</div>
   </div>
 </div>
 <div class="wallet">
   <div class="wallet-header">
-    <div class="wallet-address">8C6uFjgppckTtnPHXWYhrtg6m4YgzeuDvQDX9tEv8bWS<span class="wallet-badge">Binance</span></div>
+    <div class="wallet-address">2NaJHkoEvcWmhdYwwdcYu5hHmCDDkR7FqAvk1Ts3Ac7X<span class="wallet-badge">0.000 SOL</span></div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/8C6uFjgppckTtnPHXWYhrtg6m4YgzeuDvQDX9tEv8bWS" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/8C6uFjgppckTtnPHXWYhrtg6m4YgzeuDvQDX9tEv8bWS" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/8C6uFjgppckTtnPHXWYhrtg6m4YgzeuDvQDX9tEv8bWS?tab=pnl" target="_blank">PnL</a>
+      <a href="https://gmgn.ai/sol/address/2NaJHkoEvcWmhdYwwdcYu5hHmCDDkR7FqAvk1Ts3Ac7X" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/2NaJHkoEvcWmhdYwwdcYu5hHmCDDkR7FqAvk1Ts3Ac7X" target="_blank">Solscan</a>
     </div>
   </div>
   <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">17.96 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">4.543 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">0.98d</span>
-    <span class="label">&bull; score:</span> <span class="value">91.3</span><br>
-    <span class="label">Tokens:</span> <span class="value">SELLICON</span>
+    <span class="label">On-chain realised PnL:</span> <span class="value negative">-0.017 SOL</span>
+    <span class="label">&bull; GMGN claim (via burners):</span> <span class="value">+4.70 SOL</span>
+    <span class="label">&bull; gap:</span> <span class="value negative">-4.718 SOL</span><br>
+    <span class="label">Trades:</span> <span class="value">59 buys / 60 sells</span>
+    <span class="label">&bull; burners:</span> <span class="value">1</span>
+    <span class="label">&bull; mints:</span> <span class="value">22</span><br>
+    <span class="label">Tokens traded (DexScreener):</span>
+    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"></ul>
+    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
+    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;"></div>
   </div>
 </div>
 <div class="wallet">
   <div class="wallet-header">
-    <div class="wallet-address">Egs1sMT7QkRWRok58mMNwzKGVYMZSGxnEYyeqXJXid4B<span class="wallet-badge">Binance</span></div>
+    <div class="wallet-address">CDPLZxsoRxgd84gXcFd9TfseWyXDW3xwvLsmBHoB2ZKW<span class="wallet-badge">0.001 SOL</span></div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/Egs1sMT7QkRWRok58mMNwzKGVYMZSGxnEYyeqXJXid4B" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/Egs1sMT7QkRWRok58mMNwzKGVYMZSGxnEYyeqXJXid4B" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/Egs1sMT7QkRWRok58mMNwzKGVYMZSGxnEYyeqXJXid4B?tab=pnl" target="_blank">PnL</a>
+      <a href="https://gmgn.ai/sol/address/CDPLZxsoRxgd84gXcFd9TfseWyXDW3xwvLsmBHoB2ZKW" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/CDPLZxsoRxgd84gXcFd9TfseWyXDW3xwvLsmBHoB2ZKW" target="_blank">Solscan</a>
     </div>
   </div>
   <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">2.57 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">4.561 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">0.70d</span>
-    <span class="label">&bull; score:</span> <span class="value">80.7</span><br>
-    <span class="label">Tokens:</span> <span class="value">SOL</span>
+    <span class="label">On-chain realised PnL:</span> <span class="value negative">-0.395 SOL</span>
+    <span class="label">&bull; GMGN claim (via burners):</span> <span class="value">+1.17 SOL</span>
+    <span class="label">&bull; gap:</span> <span class="value negative">-1.565 SOL</span><br>
+    <span class="label">Trades:</span> <span class="value">25 buys / 24 sells</span>
+    <span class="label">&bull; burners:</span> <span class="value">1</span>
+    <span class="label">&bull; mints:</span> <span class="value">1</span><br>
+    <span class="label">Tokens traded (DexScreener):</span>
+    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"></ul>
+    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
+    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;"></div>
   </div>
 </div>
 <div class="wallet">
   <div class="wallet-header">
-    <div class="wallet-address">Ce4vHvzmB7WvnyBUYr6DsyFxi8CAS8HdZjWQjHLmtrGJ<span class="wallet-badge">Binance</span></div>
+    <div class="wallet-address">DV1yEzCpzfHNYPETNBcKYfVoG5917pzxL5k4HxN6ALGx<span class="wallet-badge">0.001 SOL</span></div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/Ce4vHvzmB7WvnyBUYr6DsyFxi8CAS8HdZjWQjHLmtrGJ" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/Ce4vHvzmB7WvnyBUYr6DsyFxi8CAS8HdZjWQjHLmtrGJ" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/Ce4vHvzmB7WvnyBUYr6DsyFxi8CAS8HdZjWQjHLmtrGJ?tab=pnl" target="_blank">PnL</a>
+      <a href="https://gmgn.ai/sol/address/DV1yEzCpzfHNYPETNBcKYfVoG5917pzxL5k4HxN6ALGx" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/DV1yEzCpzfHNYPETNBcKYfVoG5917pzxL5k4HxN6ALGx" target="_blank">Solscan</a>
     </div>
   </div>
   <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">7.57 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">2.526 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">0.99d</span>
-    <span class="label">&bull; score:</span> <span class="value">73.3</span><br>
-    <span class="label">Tokens:</span> <span class="value">SELLICON</span>
+    <span class="label">On-chain realised PnL:</span> <span class="value negative">-1.207 SOL</span>
+    <span class="label">&bull; GMGN claim (via burners):</span> <span class="value">+1.35 SOL</span>
+    <span class="label">&bull; gap:</span> <span class="value negative">-2.559 SOL</span><br>
+    <span class="label">Trades:</span> <span class="value">20 buys / 29 sells</span>
+    <span class="label">&bull; burners:</span> <span class="value">1</span>
+    <span class="label">&bull; mints:</span> <span class="value">1</span><br>
+    <span class="label">Tokens traded (DexScreener):</span>
+    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"></ul>
+    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
+    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;"></div>
   </div>
 </div>
 <div class="wallet">
   <div class="wallet-header">
-    <div class="wallet-address">HK4gvo7ctc93TWBh2k18cFUUHbNU7irhBY7L9QbdX5bk<span class="wallet-badge">Binance</span></div>
+    <div class="wallet-address">J6sMe9wn8kbnEAKjzK7Xg4PBvV83pf5uAoE8wTFK5Spm<span class="wallet-badge">0.002 SOL</span></div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/HK4gvo7ctc93TWBh2k18cFUUHbNU7irhBY7L9QbdX5bk" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/HK4gvo7ctc93TWBh2k18cFUUHbNU7irhBY7L9QbdX5bk" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/HK4gvo7ctc93TWBh2k18cFUUHbNU7irhBY7L9QbdX5bk?tab=pnl" target="_blank">PnL</a>
+      <a href="https://gmgn.ai/sol/address/J6sMe9wn8kbnEAKjzK7Xg4PBvV83pf5uAoE8wTFK5Spm" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/J6sMe9wn8kbnEAKjzK7Xg4PBvV83pf5uAoE8wTFK5Spm" target="_blank">Solscan</a>
     </div>
   </div>
   <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">8.43 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">3.475 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">0.99d</span>
-    <span class="label">&bull; score:</span> <span class="value">73.2</span><br>
-    <span class="label">Tokens:</span> <span class="value">SELLICON</span>
+    <span class="label">On-chain realised PnL:</span> <span class="value negative">-1.219 SOL</span>
+    <span class="label">&bull; GMGN claim (via burners):</span> <span class="value">+1.02 SOL</span>
+    <span class="label">&bull; gap:</span> <span class="value negative">-2.243 SOL</span><br>
+    <span class="label">Trades:</span> <span class="value">34 buys / 20 sells</span>
+    <span class="label">&bull; burners:</span> <span class="value">1</span>
+    <span class="label">&bull; mints:</span> <span class="value">1</span><br>
+    <span class="label">Tokens traded (DexScreener):</span>
+    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"></ul>
+    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
+    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;"></div>
   </div>
 </div>
 <div class="wallet">
   <div class="wallet-header">
-    <div class="wallet-address">BWQfrQduLPZGWeNvAoGzPUuME9PL79JrxjKdudHREBbH<span class="wallet-badge">Binance</span></div>
+    <div class="wallet-address">rozrVsjv2QsnRX43wgzjovPpDLvDWeCPTYLEjaUpsrV<span class="wallet-badge">0.002 SOL</span></div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/BWQfrQduLPZGWeNvAoGzPUuME9PL79JrxjKdudHREBbH" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/BWQfrQduLPZGWeNvAoGzPUuME9PL79JrxjKdudHREBbH" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/BWQfrQduLPZGWeNvAoGzPUuME9PL79JrxjKdudHREBbH?tab=pnl" target="_blank">PnL</a>
+      <a href="https://gmgn.ai/sol/address/rozrVsjv2QsnRX43wgzjovPpDLvDWeCPTYLEjaUpsrV" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/rozrVsjv2QsnRX43wgzjovPpDLvDWeCPTYLEjaUpsrV" target="_blank">Solscan</a>
     </div>
   </div>
   <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">9.02 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">4.843 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">1.01d</span>
-    <span class="label">&bull; score:</span> <span class="value">71.8</span><br>
-    <span class="label">Tokens:</span> <span class="value">SELLICON</span>
+    <span class="label">On-chain realised PnL:</span> <span class="value negative">-1.591 SOL</span>
+    <span class="label">&bull; GMGN claim (via burners):</span> <span class="value">+1.26 SOL</span>
+    <span class="label">&bull; gap:</span> <span class="value negative">-2.853 SOL</span><br>
+    <span class="label">Trades:</span> <span class="value">23 buys / 33 sells</span>
+    <span class="label">&bull; burners:</span> <span class="value">1</span>
+    <span class="label">&bull; mints:</span> <span class="value">1</span><br>
+    <span class="label">Tokens traded (DexScreener):</span>
+    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"></ul>
+    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
+    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;"></div>
   </div>
 </div>
 <div class="wallet">
   <div class="wallet-header">
-    <div class="wallet-address">9UFfMuwv7YBweX96hqxYZbh616xjQN7HkSXdKer9zyb1<span class="wallet-badge">Binance</span></div>
+    <div class="wallet-address">BbCsknYetCgFeUNzh5nPCNCW4qajCuSVpgyZkMbPBZAg<span class="wallet-badge">0.002 SOL</span></div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/9UFfMuwv7YBweX96hqxYZbh616xjQN7HkSXdKer9zyb1" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/9UFfMuwv7YBweX96hqxYZbh616xjQN7HkSXdKer9zyb1" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/9UFfMuwv7YBweX96hqxYZbh616xjQN7HkSXdKer9zyb1?tab=pnl" target="_blank">PnL</a>
+      <a href="https://gmgn.ai/sol/address/BbCsknYetCgFeUNzh5nPCNCW4qajCuSVpgyZkMbPBZAg" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/BbCsknYetCgFeUNzh5nPCNCW4qajCuSVpgyZkMbPBZAg" target="_blank">Solscan</a>
     </div>
   </div>
   <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">7.17 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">2.980 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">0.99d</span>
-    <span class="label">&bull; score:</span> <span class="value">71.3</span><br>
-    <span class="label">Tokens:</span> <span class="value">SELLICON</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">93Kyz6QpyZg19WXfMpvhrADdwdSyTL7Pynai7zvuapuq<span class="wallet-badge">Binance</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/93Kyz6QpyZg19WXfMpvhrADdwdSyTL7Pynai7zvuapuq" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/93Kyz6QpyZg19WXfMpvhrADdwdSyTL7Pynai7zvuapuq" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/93Kyz6QpyZg19WXfMpvhrADdwdSyTL7Pynai7zvuapuq?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">6.48 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">2.904 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">0.98d</span>
-    <span class="label">&bull; score:</span> <span class="value">70.7</span><br>
-    <span class="label">Tokens:</span> <span class="value">SELLICON</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">8H78xsBey7VXMBzS79q4CdmwiZfVVSALsY4tewFfGH43<span class="wallet-badge">Binance</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/8H78xsBey7VXMBzS79q4CdmwiZfVVSALsY4tewFfGH43" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/8H78xsBey7VXMBzS79q4CdmwiZfVVSALsY4tewFfGH43" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/8H78xsBey7VXMBzS79q4CdmwiZfVVSALsY4tewFfGH43?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">6.70 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">3.571 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">0.99d</span>
-    <span class="label">&bull; score:</span> <span class="value">69.4</span><br>
-    <span class="label">Tokens:</span> <span class="value">SELLICON</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">7kDrPnfi5QU4iMyuS4NXu2Em5DAWWgJaHYnPC7W1bqm9<span class="wallet-badge">Binance</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/7kDrPnfi5QU4iMyuS4NXu2Em5DAWWgJaHYnPC7W1bqm9" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/7kDrPnfi5QU4iMyuS4NXu2Em5DAWWgJaHYnPC7W1bqm9" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/7kDrPnfi5QU4iMyuS4NXu2Em5DAWWgJaHYnPC7W1bqm9?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">6.11 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">2.726 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">1.01d</span>
-    <span class="label">&bull; score:</span> <span class="value">69.3</span><br>
-    <span class="label">Tokens:</span> <span class="value">SELLICON</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">BmoT8rr4QUS8Lxg6qoAVQGi4qcgoqrx8vz1WgCEhjjYS<span class="wallet-badge">Binance</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/BmoT8rr4QUS8Lxg6qoAVQGi4qcgoqrx8vz1WgCEhjjYS" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/BmoT8rr4QUS8Lxg6qoAVQGi4qcgoqrx8vz1WgCEhjjYS" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/BmoT8rr4QUS8Lxg6qoAVQGi4qcgoqrx8vz1WgCEhjjYS?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">6.28 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">3.605 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">1.01d</span>
-    <span class="label">&bull; score:</span> <span class="value">67.7</span><br>
-    <span class="label">Tokens:</span> <span class="value">SELLICON</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">CLcjtmPMFEj8ssfLVoRHnq1aW9qtig1pzUsUwh7MLP6B<span class="wallet-badge">Binance</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/CLcjtmPMFEj8ssfLVoRHnq1aW9qtig1pzUsUwh7MLP6B" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/CLcjtmPMFEj8ssfLVoRHnq1aW9qtig1pzUsUwh7MLP6B" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/CLcjtmPMFEj8ssfLVoRHnq1aW9qtig1pzUsUwh7MLP6B?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">2.64 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">1.902 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">1.15d</span>
-    <span class="label">&bull; score:</span> <span class="value">59.4</span><br>
-    <span class="label">Tokens:</span> <span class="value">SSI</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">GVWfn9QddEt2t1n7kLJKLY5q3yB2h51LiiNNMSTdemAB<span class="wallet-badge">Binance</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/GVWfn9QddEt2t1n7kLJKLY5q3yB2h51LiiNNMSTdemAB" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/GVWfn9QddEt2t1n7kLJKLY5q3yB2h51LiiNNMSTdemAB" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/GVWfn9QddEt2t1n7kLJKLY5q3yB2h51LiiNNMSTdemAB?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">9.61 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">3.863 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">1.71d</span>
-    <span class="label">&bull; score:</span> <span class="value">53.6</span><br>
-    <span class="label">Tokens:</span> <span class="value">TraderTraitor</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">FRu3MJEFewP5SpZobFwbjN51ih88MJXW1uhbD4hVXe3g<span class="wallet-badge">Binance</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/FRu3MJEFewP5SpZobFwbjN51ih88MJXW1uhbD4hVXe3g" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/FRu3MJEFewP5SpZobFwbjN51ih88MJXW1uhbD4hVXe3g" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/FRu3MJEFewP5SpZobFwbjN51ih88MJXW1uhbD4hVXe3g?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">10.26 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">1.972 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">2.28d</span>
-    <span class="label">&bull; score:</span> <span class="value">52.6</span><br>
-    <span class="label">Tokens:</span> <span class="value">TraderTraitor</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">8eY1AvJGUD7ntbRGh4J7keKL22sXHWTAeoyL83mkn7SN<span class="wallet-badge">Bybit</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/8eY1AvJGUD7ntbRGh4J7keKL22sXHWTAeoyL83mkn7SN" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/8eY1AvJGUD7ntbRGh4J7keKL22sXHWTAeoyL83mkn7SN" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/8eY1AvJGUD7ntbRGh4J7keKL22sXHWTAeoyL83mkn7SN?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">3.27 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">4.045 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">1.86d</span>
-    <span class="label">&bull; score:</span> <span class="value">38.3</span><br>
-    <span class="label">Tokens:</span> <span class="value">mongus</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">5kYCwkZLoD3HyvrS2T1kw6Wh5Ub5AB2HLpFh8SxT3gmb<span class="wallet-badge">Bitget</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/5kYCwkZLoD3HyvrS2T1kw6Wh5Ub5AB2HLpFh8SxT3gmb" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/5kYCwkZLoD3HyvrS2T1kw6Wh5Ub5AB2HLpFh8SxT3gmb" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/5kYCwkZLoD3HyvrS2T1kw6Wh5Ub5AB2HLpFh8SxT3gmb?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">1.46 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">0.967 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">3.63d</span>
-    <span class="label">&bull; score:</span> <span class="value">37.4</span><br>
-    <span class="label">Tokens:</span> <span class="value">HYPERCHAN</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">FFC9KZLpYkT1HZgWRc2jQhtaibVaWv9spkLzAn5HSMay<span class="wallet-badge">Bybit</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/FFC9KZLpYkT1HZgWRc2jQhtaibVaWv9spkLzAn5HSMay" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/FFC9KZLpYkT1HZgWRc2jQhtaibVaWv9spkLzAn5HSMay" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/FFC9KZLpYkT1HZgWRc2jQhtaibVaWv9spkLzAn5HSMay?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">4.14 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">4.651 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">2.33d</span>
-    <span class="label">&bull; score:</span> <span class="value">34.0</span><br>
-    <span class="label">Tokens:</span> <span class="value">PURR</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">GCJMgjUSqJ8siqEdf9VvUodzp7PMdSvZzdUwA2iU6ySt<span class="wallet-badge">Bitget</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/GCJMgjUSqJ8siqEdf9VvUodzp7PMdSvZzdUwA2iU6ySt" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/GCJMgjUSqJ8siqEdf9VvUodzp7PMdSvZzdUwA2iU6ySt" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/GCJMgjUSqJ8siqEdf9VvUodzp7PMdSvZzdUwA2iU6ySt?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">8.16 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">4.797 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">4.17d</span>
-    <span class="label">&bull; score:</span> <span class="value">32.5</span><br>
-    <span class="label">Tokens:</span> <span class="value">SIC</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">8ZXQmky7uToCeWUYMV6pPNewGxKHygPWvXsuooXZfPBp<span class="wallet-badge">MEXC</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/8ZXQmky7uToCeWUYMV6pPNewGxKHygPWvXsuooXZfPBp" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/8ZXQmky7uToCeWUYMV6pPNewGxKHygPWvXsuooXZfPBp" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/8ZXQmky7uToCeWUYMV6pPNewGxKHygPWvXsuooXZfPBp?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">0.55 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">4.801 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">1.91d</span>
-    <span class="label">&bull; score:</span> <span class="value">31.5</span><br>
-    <span class="label">Tokens:</span> <span class="value">HYPERCHAN</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">GaEY1daETwUPyipetb5ceWs8vFq8XjEc8pG3f5xQQcvt<span class="wallet-badge">Binance</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/GaEY1daETwUPyipetb5ceWs8vFq8XjEc8pG3f5xQQcvt" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/GaEY1daETwUPyipetb5ceWs8vFq8XjEc8pG3f5xQQcvt" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/GaEY1daETwUPyipetb5ceWs8vFq8XjEc8pG3f5xQQcvt?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">3.74 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">4.796 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">2.66d</span>
-    <span class="label">&bull; score:</span> <span class="value">30.5</span><br>
-    <span class="label">Tokens:</span> <span class="value">SSI</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">5FVfATzEbvMoa7PEU26VJXZWaZfFKVfbT4qUbWuw3fai<span class="wallet-badge">Binance</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/5FVfATzEbvMoa7PEU26VJXZWaZfFKVfbT4qUbWuw3fai" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/5FVfATzEbvMoa7PEU26VJXZWaZfFKVfbT4qUbWuw3fai" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/5FVfATzEbvMoa7PEU26VJXZWaZfFKVfbT4qUbWuw3fai?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">1.07 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">4.561 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">2.47d</span>
-    <span class="label">&bull; score:</span> <span class="value">26.7</span><br>
-    <span class="label">Tokens:</span> <span class="value">LMAO</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">Hh87y5UX7QnSwjPcTPb9RYWZQ9AiNmmfdkNteGiUAunF<span class="wallet-badge">Bitget</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/Hh87y5UX7QnSwjPcTPb9RYWZQ9AiNmmfdkNteGiUAunF" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/Hh87y5UX7QnSwjPcTPb9RYWZQ9AiNmmfdkNteGiUAunF" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/Hh87y5UX7QnSwjPcTPb9RYWZQ9AiNmmfdkNteGiUAunF?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">2.31 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">2.468 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">3.93d</span>
-    <span class="label">&bull; score:</span> <span class="value">25.4</span><br>
-    <span class="label">Tokens:</span> <span class="value">SICoin</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">GKvxQmLauKQT1W2qhCcacQJ5zM2Zwdj63p2XV7piHU2r<span class="wallet-badge">Binance</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/GKvxQmLauKQT1W2qhCcacQJ5zM2Zwdj63p2XV7piHU2r" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/GKvxQmLauKQT1W2qhCcacQJ5zM2Zwdj63p2XV7piHU2r" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/GKvxQmLauKQT1W2qhCcacQJ5zM2Zwdj63p2XV7piHU2r?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">1.64 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">1.881 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">4.74d</span>
-    <span class="label">&bull; score:</span> <span class="value">24.5</span><br>
-    <span class="label">Tokens:</span> <span class="value">SIA</span>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">jkKGr537c9r8QDnYaHxbAcAdnwQpA4xcLDC4L67xT55<span class="wallet-badge">MEXC</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/jkKGr537c9r8QDnYaHxbAcAdnwQpA4xcLDC4L67xT55" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/jkKGr537c9r8QDnYaHxbAcAdnwQpA4xcLDC4L67xT55" target="_blank">Solscan</a>
-      <a href="https://gmgn.ai/sol/address/jkKGr537c9r8QDnYaHxbAcAdnwQpA4xcLDC4L67xT55?tab=pnl" target="_blank">PnL</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">PnL:</span> <span class="value positive">0.65 SOL</span>
-    <span class="label">&bull; avg buy/trade:</span> <span class="value">1.800 SOL</span>
-    <span class="label">&bull; age:</span> <span class="value">4.24d</span>
-    <span class="label">&bull; score:</span> <span class="value">24.2</span><br>
-    <span class="label">Tokens:</span> <span class="value">RØCKET</span>
+    <span class="label">On-chain realised PnL:</span> <span class="value negative">-3.280 SOL</span>
+    <span class="label">&bull; GMGN claim (via burners):</span> <span class="value">+4.24 SOL</span>
+    <span class="label">&bull; gap:</span> <span class="value negative">-7.517 SOL</span><br>
+    <span class="label">Trades:</span> <span class="value">24 buys / 30 sells</span>
+    <span class="label">&bull; burners:</span> <span class="value">2</span>
+    <span class="label">&bull; mints:</span> <span class="value">1</span><br>
+    <span class="label">Tokens traded (DexScreener):</span>
+    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"></ul>
+    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
+    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;"></div>
   </div>
 </div>
 </div>
