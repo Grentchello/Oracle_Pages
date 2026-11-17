@@ -202,7 +202,9 @@ h2 { color: #88c0d0; font-size: 16px; margin-bottom: 12px; }
   🛠 <b>RPC bug found and fixed today.</b> <code>getTokenAccountsByOwner</code> rejects a filter map containing both
   <code>programId</code> and <code>mint</code>, so the WSOL helper silently returned 0 for every controller and the
   raw cash change was garbage (one controller read -109,368 SOL). With the fix, that controller holds
-  <b>4,228,046 SOL</b> of wrapped SOL across <b>691,851 accounts</b> — a WSOL dust farm, not a position.
+  <b>4,228,012 SOL</b> of wrapped SOL across
+  <b>691,851 accounts</b> — a WSOL dust farm, not a position.
+  Independently reconciled with getBalance on 8/8 sample accounts match after rent.
 </p>
 <p style="color:#ffb86c; font-size:12px; margin-bottom:12px;">
   📏 <b>1/6 controllers are NOT MEASURABLE.</b> Their anchor transaction touches only a
