@@ -186,190 +186,108 @@ h2 { color: #88c0d0; font-size: 16px; margin-bottom: 12px; }
 </div>
 
 <div class="wallets">
-<h2>🌱 Fresh Wallets — 2026-11-17</h2>
+<h2>🌱 Fresh Wallets — 2026-11-18</h2>
+<p style="color:#ffb86c; font-size:12px; margin-bottom:12px;">
+  ⚠️ <b>GMGN's "fresh wallets" are not wallets.</b> All 8 addresses published today are SPL
+  TOKEN ACCOUNTS (ATAs): 1 still live with the Token program as owner program and
+  0.00151384 SOL of token-account rent, 7 already closed (their closing tx refunds exactly
+  0.00151384 SOL). 0 of them are system accounts. The real wallets are the token accounts'
+  <code>owner</code> field — 3 of them, shown below.
+</p>
 <p style="color:#88c0d0; font-size:12px; margin-bottom:12px;">
-  New tokens only (history-filtered). 115 new tokens scanned &rarr; 18 GMGN "qualified" wallets
-  &rarr; <b>0 copy-tradeable</b>: all 18 own zero token accounts (4 hold 0.0015 SOL for fees, 14 hold nothing).
-  14 of the 18 do not even exist on chain (no system account, 0 SOL).
-  They are burner/passthrough addresses; the actual trades are executed by 6 controller wallets shown below,
-  each verified on-chain via Solana RPC and reconciled against its own balance (native SOL + WSOL).
+  109 new tokens scanned (history-filtered) &rarr; 8 GMGN "qualified" addresses &rarr;
+  <b>3 real wallets</b>. GMGN claimed +12.16 SOL across them.
 </p>
 <p style="color:#ff8080; font-size:12px; margin-bottom:12px;">
-  ⚠️ <b>GMGN PnL does not match the chain.</b> Sum of GMGN claims = +20.04 SOL;
-  balance-reconciled on-chain cash change = +0.293 SOL (measured for 5/6 controllers).
+  ⚠️ <b>Most of the cash change is funding, not profit.</b> Balance-reconciled lifetime cash change
+  = +6.020 SOL, but 7.517 SOL of that is SOL received in transactions with no
+  token trade (inbound capital), across 422 funding txs. Net trade
+  flow = -1.571 SOL.
 </p>
 <p style="color:#ffb86c; font-size:12px; margin-bottom:12px;">
-  🛠 <b>RPC bug found and fixed today.</b> <code>getTokenAccountsByOwner</code> rejects a filter map containing both
-  <code>programId</code> and <code>mint</code>, so the WSOL helper silently returned 0 for every controller and the
-  raw cash change was garbage (one controller read -109,368 SOL). With the fix, that controller holds
-  <b>4,228,012 SOL</b> of wrapped SOL across
-  <b>691,851 accounts</b> — a WSOL dust farm, not a position.
-  Independently reconciled with getBalance on 8/8 sample accounts match after rent.
-</p>
-<p style="color:#ffb86c; font-size:12px; margin-bottom:12px;">
-  📏 <b>1/6 controllers are NOT MEASURABLE.</b> Their anchor transaction touches only a
-  fraction of the WSOL accounts they hold, so the anchor-based starting cash is not their real starting cash.
-  They are reported as unmeasured rather than guessed. Cluster SOL held across all controllers: 4,228,054 SOL.
-</p>
-<p style="color:#ffb86c; font-size:12px; margin-bottom:12px;">
-  🧹 <b>1/6 controllers are dust farmers.</b> Their remaining token positions are worth
-  <b>$5,029,596.63</b> at live prices, but 5.03M USD of that is a single
-  position worth ~50% of its own pool — not sellable at the marked price. There is nothing to copy here.
+  📉 <b>Nothing left to copy.</b> Remaining token positions across all 3 wallets are worth
+  <b>$17.24</b> at live prices; only 5/11 positions have usable
+  pool liquidity. Several have $0 liquidity and -19% to +721% 24h moves — unsellable at any price.
 </p>
 <div class="wallet">
   <div class="wallet-header">
-    <div class="wallet-address">ivirR8QPKPShX2kWCC2CCv3Zqe1dAcvDmewAccd27di<span class="wallet-badge">0.002 SOL</span></div>
+    <div class="wallet-address">G117xsRqMp7ecav3TVU64NkGuRXCJogYNsbLvNz98u3x<span class="wallet-badge">2.7194 SOL</span></div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/ivirR8QPKPShX2kWCC2CCv3Zqe1dAcvDmewAccd27di" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/ivirR8QPKPShX2kWCC2CCv3Zqe1dAcvDmewAccd27di" target="_blank">Solscan</a>
+      <a href="https://gmgn.ai/sol/address/G117xsRqMp7ecav3TVU64NkGuRXCJogYNsbLvNz98u3x" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/G117xsRqMp7ecav3TVU64NkGuRXCJogYNsbLvNz98u3x" target="_blank">Solscan</a>
     </div>
   </div>
   <div class="wallet-details">
-    <span class="label">On-chain cash change (balance-reconciled):</span> <span class="value positive">+1.569 SOL</span>
-    <span class="label">&bull; window:</span> <span class="value">24 min (full history)</span>
-    <span class="label">&bull; naive per-tx PnL:</span> <span class="value">+0.660 SOL</span>
-    <span class="label">&bull; GMGN claim:</span> <span class="value">+9.57 SOL</span>
-    <span class="label">&bull; gap vs GMGN:</span> <span class="value positive">-8.001 SOL</span><br>
-    <span class="label">Native SOL:</span> <span class="value">0.0022</span>
-    <span class="label">&bull; WSOL:</span> <span class="value">1.5665 SOL across 1 accounts</span>
-    <span class="label">&bull; token accounts held:</span> <span class="value">0</span>
-    <span class="label">&bull; burners behind it:</span> <span class="value">1</span>
-    <span class="label">&bull; signatures:</span> <span class="value">9,674</span>
-    <span class="label">&bull; still in tokens at a live price:</span> <span class="value">$1,365.04</span><br>
-    <span class="label">Tokens traded (DexScreener):</span>
-    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"></ul>
-    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
-    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;">FArf9iDzhEBbj9LnpvRowFddoM9kqCXXfocwSzZV4Nuy</div>
+    <span class="label">Lifetime cash change (balance-reconciled, native + WSOL):</span>
+    <span class="value positive">+2.7194 SOL</span>
+    <span class="label">&bull; of which FUNDING (no token trade):</span>
+    <span class="value">+2.4841 SOL</span>
+    <span class="label">&bull; trades:</span>
+    <span class="value">735 txs, in 10.057 / out 9.821 SOL</span>
+    <span class="label">&bull; fees:</span> <span class="value">0.0437 SOL</span>
+    <span class="label">&bull; GMGN claim:</span> <span class="value">+0.705 SOL</span>
+    <span class="label">&bull; signatures:</span> <span class="value">883</span>
+    <span class="label">&bull; window:</span> <span class="value">100.6 h</span>
+    <span class="label">&bull; still in tokens at a live price:</span>
+    <span class="value">$2.76 (0/2 realisable)</span><br>
+    <span class="label">GMGN addresses that are really this wallet's token accounts:</span>
+    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;"><code>GKRc1h6Fh7BDCXus2VT26RjnhDDmLeJEmUhQCj6FHwqg</code> (mint DunXr5Kq12.., closed)</div>
+    <span class="label" style="font-size:11px;">Positions:</span>
+    <div style="font-size:11px;color:#a3a3a3;">ILY: $2.62 (liq $0) <span style='color:#ff8080'>NOT REALISABLE</span><br>DCI: $0.14 (liq $0) <span style='color:#ff8080'>NOT REALISABLE</span></div>
   </div>
 </div>
 <div class="wallet">
   <div class="wallet-header">
-    <div class="wallet-address">FAHQX4hcC6gsL6rEyixrxEb1oYVZ7rmLqNh5kSkzTYGs<span class="wallet-badge">0.023 SOL</span></div>
+    <div class="wallet-address">Dr1u8r6W69HgSTAyBGtm63kjpth2mTHQQ6xt7eu59rh4<span class="wallet-badge">2.2294 SOL</span></div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/FAHQX4hcC6gsL6rEyixrxEb1oYVZ7rmLqNh5kSkzTYGs" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/FAHQX4hcC6gsL6rEyixrxEb1oYVZ7rmLqNh5kSkzTYGs" target="_blank">Solscan</a>
+      <a href="https://gmgn.ai/sol/address/Dr1u8r6W69HgSTAyBGtm63kjpth2mTHQQ6xt7eu59rh4" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/Dr1u8r6W69HgSTAyBGtm63kjpth2mTHQQ6xt7eu59rh4" target="_blank">Solscan</a>
     </div>
   </div>
   <div class="wallet-details">
-    <span class="label">On-chain cash change (balance-reconciled):</span> <span class="value positive">+0.023 SOL</span>
-    <span class="label">&bull; window:</span> <span class="value">3850 min (full history)</span>
-    <span class="label">&bull; naive per-tx PnL:</span> <span class="value">-0.210 SOL</span>
-    <span class="label">&bull; GMGN claim:</span> <span class="value">+2.14 SOL</span>
-    <span class="label">&bull; gap vs GMGN:</span> <span class="value positive">-2.115 SOL</span><br>
-    <span class="label">Native SOL:</span> <span class="value">0.0229</span>
-    <span class="label">&bull; WSOL:</span> <span class="value">none</span>
-    <span class="label">&bull; token accounts held:</span> <span class="value">0</span>
-    <span class="label">&bull; burners behind it:</span> <span class="value">1</span>
-    <span class="label">&bull; signatures:</span> <span class="value">57</span>
-    <span class="label">&bull; still in tokens at a live price:</span> <span class="value">$0.39</span><br><span class="label">⚠️ PASS-THROUGH ROUTER:</span> <span class="value">1.22 SOL in / 1.19 SOL out in the recent window (0.00 SOL to another wallet in this cluster, 1.15 SOL to outside addresses) — balance unchanged, no profit retained</span><br>
-    <span class="label">Tokens traded (DexScreener):</span>
-    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"><li><code>8J1qDCaBxEZVqPyoSjcYBeAZc25kEWkcNnAERZYppump</code> WIF ⚠️ &mdash; liq $0, 24h $0, px None%</li><li><code>F6ZsptAv7uZHKi8uxmo8b7Exg3oLqgbuWCpfnm1pump</code> wanted ⚠️ &mdash; liq $0, 24h $0, px None%</li><li><code>FpjJ2omVUo8gdnmiMsSYTa1dDbqWP2huW9AjCr6Gpump</code> Purrcino &mdash; liq $3,170, 24h $158,334, px -88.52%</li><li><code>EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v</code> BP &mdash; liq $6,422,735, 24h $12,597,563, px 22.69%</li><li><code>6jaz1dfgxZ2jtLm8Gxib6bhYRWHgmTPRfGTXnzqGpump</code> AI &mdash; liq $5,734, 24h $417,169, px -70.22%</li></ul>
-    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
-    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;">Eeygb4TqoHH15pWRattXPZ7RYz8rMaKGMuUMes5CxAFG</div>
+    <span class="label">Lifetime cash change (balance-reconciled, native + WSOL):</span>
+    <span class="value positive">+2.2294 SOL</span>
+    <span class="label">&bull; of which FUNDING (no token trade):</span>
+    <span class="value">+2.5615 SOL</span>
+    <span class="label">&bull; trades:</span>
+    <span class="value">707 txs, in 9.203 / out 9.520 SOL</span>
+    <span class="label">&bull; fees:</span> <span class="value">0.0419 SOL</span>
+    <span class="label">&bull; GMGN claim:</span> <span class="value">+6.276 SOL</span>
+    <span class="label">&bull; signatures:</span> <span class="value">849</span>
+    <span class="label">&bull; window:</span> <span class="value">113.3 h</span>
+    <span class="label">&bull; still in tokens at a live price:</span>
+    <span class="value">$6.16 (1/4 realisable)</span><br>
+    <span class="label">GMGN addresses that are really this wallet's token accounts:</span>
+    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;"><code>7eQQ979oNhCLiSnZP6szybHMxHDNZxtLuiD8XeQJ46uX</code> (mint 7AjuqtGFiG.., closed)<br><code>BrzS5hMVcUPmdNNxXLKLXPM8LDVGe3qJAeQ7UtGFe1fK</code> (mint Bygm5ULo9x.., closed)<br><code>CWpzKBgaJizius9SAeJULz7bY4JB9xVcysFhceQAuQbd</code> (mint 85HaGWJmEy.., closed)<br><code>FQP1DwQTbyE1ka1LZdR2JJYioqkcQ5pEwnuSPB7tC1in</code> (mint 57i7wM8Eti.., closed)</div>
+    <span class="label" style="font-size:11px;">Positions:</span>
+    <div style="font-size:11px;color:#a3a3a3;">GTA: $1.95 (liq $92,989)<br>croakie: $1.78 (liq $0) <span style='color:#ff8080'>NOT REALISABLE</span><br>Rockstar: $1.37 (liq $0) <span style='color:#ff8080'>NOT REALISABLE</span><br>GTA 6 Coin: $1.07 (liq $0) <span style='color:#ff8080'>NOT REALISABLE</span></div>
   </div>
 </div>
 <div class="wallet">
   <div class="wallet-header">
-    <div class="wallet-address">FrNjNeBCAfEwDkGXWpkwkNsEE76QoARTC4wYz8GJ2cRg<span class="wallet-badge">0.002 SOL</span></div>
+    <div class="wallet-address">BFWWZpFNps8GuQg5hPrCRuSMYRX5Jk8a1U1er4RXVQkr<span class="wallet-badge">1.0712 SOL</span></div>
     <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/FrNjNeBCAfEwDkGXWpkwkNsEE76QoARTC4wYz8GJ2cRg" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/FrNjNeBCAfEwDkGXWpkwkNsEE76QoARTC4wYz8GJ2cRg" target="_blank">Solscan</a>
+      <a href="https://gmgn.ai/sol/address/BFWWZpFNps8GuQg5hPrCRuSMYRX5Jk8a1U1er4RXVQkr" target="_blank">GMGN</a>
+      <a href="https://solscan.io/account/BFWWZpFNps8GuQg5hPrCRuSMYRX5Jk8a1U1er4RXVQkr" target="_blank">Solscan</a>
     </div>
   </div>
   <div class="wallet-details">
-    <span class="label">On-chain cash change (balance-reconciled):</span> <span class="value positive">+0.002 SOL</span>
-    <span class="label">&bull; window:</span> <span class="value">24 min (full history)</span>
-    <span class="label">&bull; naive per-tx PnL:</span> <span class="value">+4.308 SOL</span>
-    <span class="label">&bull; GMGN claim:</span> <span class="value">+1.28 SOL</span>
-    <span class="label">&bull; gap vs GMGN:</span> <span class="value positive">-1.274 SOL</span><br>
-    <span class="label">Native SOL:</span> <span class="value">0.0022</span>
-    <span class="label">&bull; WSOL:</span> <span class="value">0.0000 SOL across 1 accounts</span>
-    <span class="label">&bull; token accounts held:</span> <span class="value">0</span>
-    <span class="label">&bull; burners behind it:</span> <span class="value">1</span>
-    <span class="label">&bull; signatures:</span> <span class="value">8,369</span>
-    <span class="label">&bull; still in tokens at a live price:</span> <span class="value">$0.00</span><br>
-    <span class="label">Tokens traded (DexScreener):</span>
-    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"></ul>
-    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
-    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;">6QAHXTYTobv1bjenwuuVY7n9WSV9rkVmhhyrt1eoPtTe</div>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">FULW6zT3JvW4hhwUPbX3WYk45p1orercXep4GJ77h6mA<span class="wallet-badge">0.002 SOL</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/FULW6zT3JvW4hhwUPbX3WYk45p1orercXep4GJ77h6mA" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/FULW6zT3JvW4hhwUPbX3WYk45p1orercXep4GJ77h6mA" target="_blank">Solscan</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">On-chain cash change (balance-reconciled):</span> <span class="value positive">+0.002 SOL</span>
-    <span class="label">&bull; window:</span> <span class="value">24 min (full history)</span>
-    <span class="label">&bull; naive per-tx PnL:</span> <span class="value">-0.537 SOL</span>
-    <span class="label">&bull; GMGN claim:</span> <span class="value">+1.53 SOL</span>
-    <span class="label">&bull; gap vs GMGN:</span> <span class="value positive">-1.525 SOL</span><br>
-    <span class="label">Native SOL:</span> <span class="value">0.0022</span>
-    <span class="label">&bull; WSOL:</span> <span class="value">0.0000 SOL across 1 accounts</span>
-    <span class="label">&bull; token accounts held:</span> <span class="value">0</span>
-    <span class="label">&bull; burners behind it:</span> <span class="value">1</span>
-    <span class="label">&bull; signatures:</span> <span class="value">8,417</span>
-    <span class="label">&bull; still in tokens at a live price:</span> <span class="value">$0.00</span><br>
-    <span class="label">Tokens traded (DexScreener):</span>
-    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"></ul>
-    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
-    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;">Dk5z24qbU8XAudAWVXjb39skTDgGBWDqeqkzYGzmmiH5</div>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">KfHbT5Jrr5SV3CDkQVCLiSNWyVv5DmuVaCzbAHrzMFQ<span class="wallet-badge">5.648 SOL</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/KfHbT5Jrr5SV3CDkQVCLiSNWyVv5DmuVaCzbAHrzMFQ" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/KfHbT5Jrr5SV3CDkQVCLiSNWyVv5DmuVaCzbAHrzMFQ" target="_blank">Solscan</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">On-chain cash change (balance-reconciled):</span> <span class="value negative">-1.303 SOL</span>
-    <span class="label">&bull; window:</span> <span class="value">109 min (TRUNCATED at 60k sigs)</span>
-    <span class="label">&bull; naive per-tx PnL:</span> <span class="value">-0.001 SOL</span>
-    <span class="label">&bull; GMGN claim:</span> <span class="value">+4.76 SOL</span>
-    <span class="label">&bull; gap vs GMGN:</span> <span class="value negative">-6.065 SOL</span><br>
-    <span class="label">Native SOL:</span> <span class="value">5.6477</span>
-    <span class="label">&bull; WSOL:</span> <span class="value">none</span>
-    <span class="label">&bull; token accounts held:</span> <span class="value">0</span>
-    <span class="label">&bull; burners behind it:</span> <span class="value">1</span>
-    <span class="label">&bull; signatures:</span> <span class="value">60,000</span>
-    <span class="label">&bull; still in tokens at a live price:</span> <span class="value">$0.00</span><br>
-    <span class="label">Tokens traded (DexScreener):</span>
-    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"></ul>
-    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
-    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;">GbV17jtcA18Ew1XuPjQAvmrv48mCn5g2QzhLw2yd4gJz</div>
-  </div>
-</div>
-<div class="wallet">
-  <div class="wallet-header">
-    <div class="wallet-address">5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1<span class="wallet-badge">34.599 SOL</span></div>
-    <div class="wallet-links">
-      <a href="https://gmgn.ai/sol/address/5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1" target="_blank">GMGN</a>
-      <a href="https://solscan.io/account/5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1" target="_blank">Solscan</a>
-    </div>
-  </div>
-  <div class="wallet-details">
-    <span class="label">On-chain cash change (balance-reconciled):</span> <span class="value ">NOT MEASURABLE</span>
-    <span class="label">&bull; window:</span> <span class="value">77 min (TRUNCATED at 60k sigs)</span>
-    <span class="label">&bull; naive per-tx PnL:</span> <span class="value">+7.972 SOL</span>
-    <span class="label">&bull; GMGN claim:</span> <span class="value">+0.77 SOL</span>
-    <span class="label">&bull; gap vs GMGN:</span> <span class="value ">-0.765 SOL</span><br>
-    <span class="label">Native SOL:</span> <span class="value">34.5992</span>
-    <span class="label">&bull; WSOL:</span> <span class="value">4,228,011.7847 SOL across 691,851 accounts</span>
-    <span class="label">&bull; token accounts held:</span> <span class="value">14,072</span>
-    <span class="label">&bull; burners behind it:</span> <span class="value">1</span>
-    <span class="label">&bull; signatures:</span> <span class="value">60,000</span>
-    <span class="label">&bull; still in tokens at a live price:</span> <span class="value">$5,028,231.20</span><br><span class="label">⚠️ why not measurable:</span> <span class="value">NOT MEASURABLE - holds 691,851 WSOL accounts but the anchor tx touched only 1; the anchor start_cash (109,403 SOL) understates the true starting cash</span><br>
-    <span class="label">Tokens traded (DexScreener):</span>
-    <ul style="margin:4px 0 0 16px;padding:0;font-size:12px;"><li><code>So11111111111111111111111111111111111111112</code> SOL &mdash; liq $17,424,785, 24h $83,952,356, px 2.75%</li><li><code>EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v</code> BP &mdash; liq $6,422,735, 24h $12,597,563, px 22.69%</li><li><code>Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB</code> $TIP &mdash; liq $8,999,997,845, 24h $0, px None%</li><li><code>ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82</code> BOME &mdash; liq $9,989,364, 24h $343,706, px 4.5%</li><li><code>8bV49TfjeyB1rcxRNVtsSMhYxse7gGvWfe1wXFvLb7KV</code> KELP ⚠️ &mdash; liq $35, 24h $4, px 1.21%</li></ul>
-    <span class="label" style="font-size:11px;">Burner addresses (own no tokens):</span>
-    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;">3pMDVGsq9zuF8rDcV1JaJy2iXCNHTdREJByj7Fwo6CMw</div>
+    <span class="label">Lifetime cash change (balance-reconciled, native + WSOL):</span>
+    <span class="value positive">+1.0712 SOL</span>
+    <span class="label">&bull; of which FUNDING (no token trade):</span>
+    <span class="value">+2.4712 SOL</span>
+    <span class="label">&bull; trades:</span>
+    <span class="value">719 txs, in 8.568 / out 10.058 SOL</span>
+    <span class="label">&bull; fees:</span> <span class="value">0.0426 SOL</span>
+    <span class="label">&bull; GMGN claim:</span> <span class="value">+5.181 SOL</span>
+    <span class="label">&bull; signatures:</span> <span class="value">866</span>
+    <span class="label">&bull; window:</span> <span class="value">119.0 h</span>
+    <span class="label">&bull; still in tokens at a live price:</span>
+    <span class="value">$8.32 (4/5 realisable)</span><br>
+    <span class="label">GMGN addresses that are really this wallet's token accounts:</span>
+    <div style="font-size:11px;color:#a3a3a3;word-break:break-all;"><code>76pSNKqxSzBCVPL5qqJ8d1nW5aamcPKmBTpNcQge5ErW</code> (mint AFVepWoHvb.., live)<br><code>DpnCKPGq9pxHUckgx7yrstHp56b75MTyFeXf3UTTFYun</code> (mint 7jQ1ecyv6o.., closed)<br><code>B2YjoJ1De8D9hvYDNg7q2kRpc83x6LoKPRXv7Pc6fDGh</code> (mint D6REawj58g.., closed)</div>
+    <span class="label" style="font-size:11px;">Positions:</span>
+    <div style="font-size:11px;color:#a3a3a3;">Huss: $2.13 (liq $21,340)<br>WEALTH: $1.93 (liq $40,859)<br>:3: $1.93 (liq $81,545)<br>GTA: $1.92 (liq $92,989)<br>DCI: $0.41 (liq $0) <span style='color:#ff8080'>NOT REALISABLE</span></div>
   </div>
 </div>
 </div>
